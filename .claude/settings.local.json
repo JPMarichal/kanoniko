@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(docker compose:*)",
+      "Bash(wsl --list --verbose)",
+      "Bash(nvidia-smi)",
+      "Bash(nvidia-smi --query-gpu=name,memory.total --format=csv,noheader)",
+      "Bash(git init:*)",
+      "Bash(git checkout:*)",
+      "Bash(pip install:*)",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(curl -s http://localhost:4300/health)",
+      "Bash(python -m json.tool)",
+      "Bash(curl -s -X POST http://localhost:4300/index/trigger -H \"Content-Type: application/json\" -d '{\"\"full_reindex\"\": false}')",
+      "Bash(curl -s -X POST http://localhost:4300/search/text -H 'Content-Type: application/json' -d '{\"\"\"\"query\"\"\"\": \"\"\"\"Nephi Jerusalem\"\"\"\"}')",
+      "Bash(docker stop:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
