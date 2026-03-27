@@ -1,0 +1,28 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: alejandria-api
+    ports:
+      - "4300:4300"
+    volumes:
+      # Corpus: bind mount from host, read-only — NOT containerized
+      - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
+      # SQLite data: persistent volume
+      - alejandria-sqlite:/app/data/sqlite
+    environment:
+      - ALEJANDRIA_HOST=0.0.0.0
+      - ALEJANDRIA_PORT=4300
+      - ALEJANDRIA_CORPUS_PATH=/app/corpus
+      - ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:4300/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  alejandria-sqlite:
