@@ -1,0 +1,1 @@
+epub/_imagen_pendientes/*.epub filter=lfs diff=lfs merge=lfs -text

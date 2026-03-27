@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (persistent volumes, not in repo)
+data/
+*.db
+*.sqlite
+
+# Docker
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Models (downloaded at build time)
+models/
