@@ -17,7 +17,16 @@
       "Bash(curl -s -X POST http://localhost:4300/search/text -H 'Content-Type: application/json' -d '{\"\"\"\"query\"\"\"\": \"\"\"\"Nephi Jerusalem\"\"\"\"}')",
       "Bash(docker stop:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(curl -s -X POST http://localhost:4300/index/trigger -H \"Content-Type: application/json\" -d '{\"\"full_reindex\"\": true}')",
+      "Bash(curl -s http://localhost:4300/documents)",
+      "Bash(docker exec:*)",
+      "Bash(python -c \"import certifi; print\\(certifi.where\\(\\)\\)\")",
+      "Bash(python -c \"import ssl; print\\(ssl.get_default_verify_paths\\(\\)\\)\")",
+      "Bash(python -c \"import urllib.request; r = urllib.request.urlopen\\(''https://huggingface.co''\\); print\\(r.status\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(curl -s -X POST http://localhost:4300/search/semantic -H \"Content-Type: application/json; charset=utf-8\" -d \"{\"\"query\"\": \"\"what is the purpose of mortal life\"\"}\")",
+      "Bash(curl -s -X POST http://localhost:4300/search/hybrid -H \"Content-Type: application/json\" -d \"{\"\"query\"\": \"\"Nephi prayed unto the Lord\"\", \"\"text_weight\"\": 0.4, \"\"semantic_weight\"\": 0.6}\")"
     ]
   }
 }
