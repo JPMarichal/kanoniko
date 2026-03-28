@@ -136,6 +136,7 @@ class BuildProfilesRequest(BaseModel):
     entity_types: list[str] | None = Field(None, description="Filter to specific types, e.g. ['person']")
     max_entities: int = Field(0, ge=0, description="Max entities to process. 0 = all")
     force: bool = Field(False, description="Force regeneration even if already profiled (generate phase)")
+    entity_names: list[str] | None = Field(None, description="Process specific entities by name (generate phase)")
 
 
 class BuildProfilesResponse(BaseModel):

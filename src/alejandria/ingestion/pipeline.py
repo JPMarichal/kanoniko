@@ -393,11 +393,12 @@ class IngestionPipeline:
         # Build reverse lookup: canonical_name -> all aliases (from gazetteer)
         gazetteer_aliases: dict[str, list[str]] = {}
         if self._kg_extractor:
-            for term, (canonical, _) in self._kg_extractor._lookup.items():
-                if canonical not in gazetteer_aliases:
-                    gazetteer_aliases[canonical] = []
-                if term.lower() != canonical.lower():
-                    gazetteer_aliases[canonical].append(term)
+            for term, candidates in self._kg_extractor._lookup.items():
+                for canonical, _ in candidates:
+                    if canonical not in gazetteer_aliases:
+                        gazetteer_aliases[canonical] = []
+                    if term.lower() != canonical.lower():
+                        gazetteer_aliases[canonical].append(term)
 
         # 1. Bulk query: all entities with their documents from Neo4j
         logger.info("Profile build: querying entity mentions from Neo4j...")

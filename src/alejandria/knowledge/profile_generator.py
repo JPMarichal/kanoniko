@@ -29,8 +29,10 @@ Produce a JSON object with these fields:
 - "summary_en": 2-3 sentence English description of who/what this entity is, based ONLY on the passages above.
 - "summary_es": 2-3 sentence Spanish translation of the same description.
 - "disambiguation": If the passages clearly refer to MULTIPLE DISTINCT individuals/entities \
-sharing this name, list each as an object with "id" (short disambiguator like "Iscariot" or \
-"brother of Jesus"), "summary_en", and "summary_es". If there is only ONE entity, set this to null.
+sharing this name, list each as an object with "preferred_name" (the most recognizable name \
+for this individual, e.g. "Judas Iscariot" not "Lebbaeus"), "id" (short disambiguator like \
+"Iscariot" or "brother of Jesus"), "summary_en", and "summary_es". \
+If there is only ONE entity, set this to null.
 
 Respond with valid JSON only."""
 
@@ -106,6 +108,7 @@ class ProfileGenerator:
         entity_types: list[str] | None = None,
         max_entities: int = 50,
         force: bool = False,
+        entity_names: list[str] | None = None,
     ) -> dict:
         """Generate LLM profiles for a batch of entities.
 
@@ -113,6 +116,7 @@ class ProfileGenerator:
             entity_types: Filter to specific types. None = all.
             max_entities: Max entities to process.
             force: If True, regenerate even already-profiled entities.
+            entity_names: Process specific entities by name (ignores max_entities/status).
 
         Returns stats dict.
         """
@@ -122,21 +126,41 @@ class ProfileGenerator:
         self._total_input_tokens = 0
         self._total_output_tokens = 0
 
-        # Get candidates — highest mention_count first
-        status_filter = None if force else "metadata"
-        type_filter = entity_types[0] if entity_types and len(entity_types) == 1 else None
+        if entity_names:
+            # Targeted mode: find specific entities by name
+            candidates = []
+            for name in entity_names:
+                found = self._store.find_profiles(name)
+                candidates.extend(p for p in found if p.entity_name == name or not force)
+                if not found:
+                    # Try partial match
+                    found = self._store.find_profiles(name, limit=5)
+                    candidates.extend(found)
+            # Deduplicate
+            seen: set[str] = set()
+            unique = []
+            for c in candidates:
+                key = f"{c.entity_name}:{c.entity_type}"
+                if key not in seen:
+                    seen.add(key)
+                    unique.append(c)
+            candidates = unique
+        else:
+            # Batch mode: highest mention_count first
+            status_filter = None if force else "metadata"
+            type_filter = entity_types[0] if entity_types and len(entity_types) == 1 else None
 
-        candidates = self._store.get_all(
-            entity_type=type_filter,
-            status=status_filter,
-            min_mentions=1,
-            limit=max_entities,
-        )
+            candidates = self._store.get_all(
+                entity_type=type_filter,
+                status=status_filter,
+                min_mentions=1,
+                limit=max_entities,
+            )
 
-        # If multiple types requested, filter in memory
-        if entity_types and len(entity_types) > 1:
-            type_set = set(entity_types)
-            candidates = [c for c in candidates if c.entity_type in type_set]
+            # If multiple types requested, filter in memory
+            if entity_types and len(entity_types) > 1:
+                type_set = set(entity_types)
+                candidates = [c for c in candidates if c.entity_type in type_set]
 
         total = len(candidates)
         logger.info("Profile generation: %d candidates", total)
@@ -195,16 +219,33 @@ class ProfileGenerator:
         profiles = []
         for variant in disambiguation:
             disambiguator = variant.get("id", "")
-            new_name = f"{original.entity_name} ({disambiguator})" if disambiguator else original.entity_name
+            preferred = variant.get("preferred_name", "")
+
+            # Use preferred_name if the LLM provided one, otherwise fall back to original
+            if preferred and preferred != original.entity_name:
+                base_name = preferred
+            else:
+                base_name = original.entity_name
+
+            # Add disambiguator in parentheses if base_name alone isn't unique enough
+            if disambiguator and disambiguator.lower() not in base_name.lower():
+                new_name = f"{base_name} ({disambiguator})"
+            else:
+                new_name = base_name
+
+            # Collect aliases: original gazetteer name + preferred_name if different
+            aliases = [original.entity_name]
+            if preferred and preferred != original.entity_name and preferred != new_name:
+                aliases.append(preferred)
 
             p = EntityProfile(
                 entity_name=new_name,
                 entity_type=original.entity_type,
-                mention_count=original.mention_count // len(disambiguation),  # rough split
+                mention_count=original.mention_count // len(disambiguation),
                 document_count=original.document_count // len(disambiguation),
-                books=original.books,  # shared for now — Phase 3 can refine
-                key_passages=original.key_passages,  # shared for now
-                aliases=[original.entity_name],  # original name is an alias
+                books=original.books,
+                key_passages=original.key_passages,
+                aliases=aliases,
                 disambiguator=disambiguator,
                 summary_en=variant.get("summary_en"),
                 summary_es=variant.get("summary_es"),
