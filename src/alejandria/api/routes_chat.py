@@ -32,6 +32,7 @@ def _build_chat_response(result) -> ChatResponse:
         ],
         graph_context=result.graph_context,
         model=result.model,
+        tier=result.tier,
         input_tokens=result.input_tokens,
         output_tokens=result.output_tokens,
     )
@@ -40,11 +41,13 @@ def _build_chat_response(result) -> ChatResponse:
 @router.post("", response_model=ChatResponse)
 def chat(req: ChatRequest) -> ChatResponse:
     """Ask a question and get a RAG-powered answer grounded in the corpus."""
-    if not settings.llm_api_key:
+    from alejandria.chat.models import get_available_models
+
+    if not settings.llm_api_key and not get_available_models():
         raise HTTPException(
             503,
-            "Chat is not available: LLM API key not configured. "
-            "Set ALEJANDRIA_LLM_API_KEY in your .env file.",
+            "Chat is not available: no LLM API key configured. "
+            "Set ALEJANDRIA_LLM_API_KEY or provider-specific keys in your .env file.",
         )
 
     from alejandria.chat.rag import RAGPipeline
@@ -60,8 +63,63 @@ def chat(req: ChatRequest) -> ChatResponse:
         source_filter=req.source_filter,
         provider_override=req.provider,
         model_override=req.model,
+        tier_override=req.tier,
     )
     return _build_chat_response(result)
+
+
+@router.get("/models")
+def chat_models() -> dict:
+    """List available models and their tiers, costs, and availability."""
+    from alejandria.chat.models import (
+        MODEL_REGISTRY, get_api_key, classify_complexity, Tier,
+    )
+
+    models = []
+    for m in MODEL_REGISTRY:
+        has_key = bool(get_api_key(m.provider))
+        models.append({
+            "id": m.id,
+            "provider": m.provider,
+            "model_name": m.model_name,
+            "tier": m.tier.value,
+            "cost_input_per_1m": m.cost_input,
+            "cost_output_per_1m": m.cost_output,
+            "preview": m.preview,
+            "available": has_key,
+        })
+
+    return {
+        "answer_tier": settings.llm_answer_tier,
+        "internal_tier": settings.llm_internal_tier,
+        "tiers": {
+            "fast": "Simple factual lookups — cheapest model",
+            "balanced": "Standard questions — good quality/cost ratio",
+            "quality": "Complex analysis — best available model",
+        },
+        "models": models,
+    }
+
+
+@router.post("/classify")
+def chat_classify(req: ChatRequest) -> dict:
+    """Preview how a question would be classified without running the full pipeline."""
+    from alejandria.chat.models import classify_complexity, select_model
+
+    tier = classify_complexity(req.question)
+    model = select_model(tier)
+
+    return {
+        "question": req.question,
+        "tier": tier.value,
+        "model": {
+            "id": model.id,
+            "provider": model.provider,
+            "model_name": model.model_name,
+            "cost_input_per_1m": model.cost_input,
+            "cost_output_per_1m": model.cost_output,
+        } if model else None,
+    }
 
 
 @router.post("/compare")

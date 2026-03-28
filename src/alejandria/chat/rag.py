@@ -1,9 +1,14 @@
-"""RAG pipeline — retrieves context from all search modes and generates answers."""
+"""RAG pipeline — retrieves context from all search modes and generates answers.
+
+Uses tiered model selection:
+- Internal calls (query expansion, reranking) use the cheapest available model
+- Answer generation routes to the appropriate tier based on question complexity
+"""
 
 from __future__ import annotations
 
 import logging
-from dataclasses import asdict, dataclass, field
+from dataclasses import dataclass
 
 from alejandria.config import settings
 
@@ -45,7 +50,7 @@ class ChatSource:
     file_path: str
     chunk_index: int
     score: float
-    mode: str  # "text", "semantic", or "hybrid"
+    mode: str  # "text", "semantic", "hybrid", or "cross-ref"
     reference: str | None = None
 
 
@@ -55,6 +60,7 @@ class ChatResponse:
     sources: list[ChatSource]
     graph_context: str | None = None
     model: str = ""
+    tier: str = ""          # Tier used for the answer
     input_tokens: int = 0
     output_tokens: int = 0
 
@@ -73,62 +79,150 @@ class RAGPipeline:
         source_filter: str | None = None,
         provider_override: str | None = None,
         model_override: str | None = None,
+        tier_override: str | None = None,
     ) -> ChatResponse:
         """Answer a question using RAG over the corpus.
 
         Args:
             question: The user's question.
             source_filter: Optional corpus path filter.
-            provider_override: If set, use this LLM provider for the final
-                answer (query expansion and reranking still use the default).
+            provider_override: If set, use this LLM provider for the answer.
             model_override: If set, use this model name with the provider.
+            tier_override: If set, force a specific tier ("fast", "balanced",
+                "quality") or model ID for the answer.
         """
-        # 1. Expand query for better retrieval (always uses default LLM)
+        # 1. Expand query for better retrieval (uses internal/fast tier)
         fts_query = self._expand_query(question)
 
-        # 2. Retrieve from all available search modes
-        sources = self._retrieve(question, fts_query, source_filter)
+        # 2. KG-boosted retrieval: find entity documents before searching
+        kg_file_hints = self._get_kg_file_hints(question)
 
-        # 3. Build graph context if available
+        # 3. Retrieve from all available search modes + KG hints
+        sources = self._retrieve(question, fts_query, source_filter, kg_file_hints)
+
+        # 4. Build graph context if available
         graph_context = self._get_graph_context(question)
 
         # 4. Assemble the context prompt
         context_text = self._build_context(sources, graph_context)
 
-        # 5. Call LLM — with optional provider/model override
-        from alejandria.chat.llm import complete
-
+        # 5. Call LLM for the answer
         user_message = f"CONTEXT:\n{context_text}\n\nQUESTION:\n{question}"
-
-        # Temporarily swap provider/model if overrides are given
-        if provider_override or model_override:
-            orig_provider = settings.llm_provider
-            orig_model = settings.llm_model
-            orig_key = settings.llm_api_key
-            try:
-                if provider_override:
-                    settings.llm_provider = provider_override
-                    # Use alt key if switching to alt provider
-                    if provider_override == settings.llm_alt_provider and settings.llm_alt_api_key:
-                        settings.llm_api_key = settings.llm_alt_api_key
-                if model_override:
-                    settings.llm_model = model_override
-                llm_response = complete(SYSTEM_PROMPT, user_message)
-            finally:
-                settings.llm_provider = orig_provider
-                settings.llm_model = orig_model
-                settings.llm_api_key = orig_key
-        else:
-            llm_response = complete(SYSTEM_PROMPT, user_message)
+        llm_response, used_model, used_tier = self._generate_answer(
+            user_message, question,
+            provider_override=provider_override,
+            model_override=model_override,
+            tier_override=tier_override,
+        )
 
         return ChatResponse(
             answer=llm_response.text,
             sources=sources,
             graph_context=graph_context,
             model=llm_response.model,
+            tier=used_tier,
             input_tokens=llm_response.input_tokens,
             output_tokens=llm_response.output_tokens,
         )
+
+    def _generate_answer(
+        self,
+        user_message: str,
+        question: str,
+        *,
+        provider_override: str | None = None,
+        model_override: str | None = None,
+        tier_override: str | None = None,
+    ):
+        """Generate the final answer using tiered model selection.
+
+        Returns (LLMResponse, ModelDef|None, tier_name).
+        """
+        from alejandria.chat.llm import complete, complete_with_model
+        from alejandria.chat.models import (
+            Tier, classify_complexity, select_model, select_model_by_id,
+        )
+
+        # Explicit provider/model override — bypass tier system
+        if provider_override or model_override:
+            from alejandria.chat.models import get_api_key
+            provider = provider_override or settings.llm_provider
+            model = model_override or settings.llm_model
+            api_key = get_api_key(provider)
+            response = complete(SYSTEM_PROMPT, user_message,
+                                provider=provider, model=model, api_key=api_key)
+            return response, None, "override"
+
+        # Determine tier
+        tier_setting = tier_override or settings.llm_answer_tier
+
+        if tier_setting == "auto":
+            tier = classify_complexity(question)
+            logger.info("Auto-classified question complexity: %s", tier.value)
+        elif tier_setting in ("fast", "balanced", "quality"):
+            tier = Tier(tier_setting)
+        else:
+            # Treat as model ID
+            model_def = select_model_by_id(tier_setting)
+            if model_def:
+                response = complete_with_model(SYSTEM_PROMPT, user_message, model_def)
+                return response, model_def, model_def.tier.value
+            # Unknown — default to balanced
+            tier = Tier.BALANCED
+
+        # Try models in the tier, falling back to next on connection errors
+        from alejandria.chat.models import get_available_models
+        candidates = [m for m in get_available_models() if m.tier == tier]
+        if not candidates:
+            # No models in exact tier — use select_model which handles fallback
+            candidates = [select_model(tier)] if select_model(tier) else []
+
+        for model_def in candidates:
+            try:
+                logger.info("Selected model: %s (tier=%s)", model_def.id, model_def.tier.value)
+                response = complete_with_model(SYSTEM_PROMPT, user_message, model_def)
+                return response, model_def, model_def.tier.value
+            except Exception as e:
+                logger.warning("Model %s failed: %s — trying next", model_def.id, str(e)[:100])
+                continue
+
+        if not candidates:
+            # No tiered models available — fall back to legacy settings
+            logger.warning("No tiered models available, using legacy settings")
+            response = complete(SYSTEM_PROMPT, user_message)
+            return response, None, "legacy"
+
+    def _complete_internal(self, system_prompt: str, user_message: str):
+        """Make an internal LLM call (expansion, reranking) using the cheapest tier.
+
+        Returns an LLMResponse. Falls back to legacy settings if no tiered model available.
+        """
+        from alejandria.chat.llm import complete, complete_with_model
+        from alejandria.chat.models import Tier, select_model, select_model_by_id
+
+        tier_setting = settings.llm_internal_tier
+        if tier_setting in ("fast", "balanced", "quality"):
+            tier = Tier(tier_setting)
+        else:
+            model_def = select_model_by_id(tier_setting)
+            if model_def:
+                return complete_with_model(system_prompt, user_message, model_def)
+            tier = Tier.FAST
+
+        from alejandria.chat.models import get_available_models
+        candidates = [m for m in get_available_models() if m.tier == tier]
+        if not candidates:
+            m = select_model(tier)
+            candidates = [m] if m else []
+
+        for model_def in candidates:
+            try:
+                return complete_with_model(system_prompt, user_message, model_def)
+            except Exception as e:
+                logger.warning("Internal model %s failed: %s — trying next", model_def.id, str(e)[:100])
+                continue
+
+        return complete(system_prompt, user_message)
 
     def _expand_query(self, question: str) -> str:
         """Use LLM to generate effective search keywords for FTS retrieval.
@@ -137,8 +231,6 @@ class RAGPipeline:
         Falls back to the original question on error.
         """
         try:
-            from alejandria.chat.llm import complete
-
             expansion_prompt = (
                 "You are a search query optimizer for a scripture corpus (Bible, "
                 "Book of Mormon, Doctrine and Covenants, Pearl of Great Price). "
@@ -148,22 +240,127 @@ class RAGPipeline:
                 "from the relevant passages. Output keywords separated by spaces, "
                 "nothing else. No explanations."
             )
-            result = complete(expansion_prompt, question)
+            result = self._complete_internal(expansion_prompt, question)
             expanded = result.text.strip()
-            logger.info("Query expansion: '%s' -> '%s'", question, expanded)
+            logger.info("Query expansion: '%s' -> '%s' [model=%s]", question, expanded, result.model)
             return expanded if expanded else question
         except Exception:
             logger.warning("Query expansion failed, using original question")
             return question
 
+    def _get_kg_file_hints(self, question: str) -> list[tuple[str, str]]:
+        """Use LLM + KG to find documents related to entities in the question.
+
+        Instead of relying on the gazetteer extractor (which has bias toward
+        the most prominent entity match), this method:
+        1. Asks the LLM to extract entity names from the question
+        2. Searches the KG for ALL matching entities (not just the first)
+        3. Collects documents for every match, tagged with the entity name
+
+        Returns list of (file_path, entity_label) tuples.
+        """
+        if self.neo4j_client is None:
+            return []
+
+        try:
+            # Step 1: LLM extracts entity names (no gazetteer bias)
+            entity_names = self._extract_entities_from_question(question)
+            if not entity_names:
+                return []
+
+            # Step 2: Search KG for ALL matching entities per name
+            file_hints: list[tuple[str, str]] = []
+            seen_files: set[str] = set()
+            matched_entities: list[str] = []
+
+            for name in entity_names:
+                try:
+                    matches = self.neo4j_client.find_node(search=name, limit=15)
+                    for match in matches:
+                        ename = match.get("name", "")
+                        if ename:
+                            matched_entities.append(ename)
+                except Exception:
+                    continue
+
+            # Step 3: Get documents for every matched entity, tagged
+            for ename in matched_entities:
+                try:
+                    docs = self.neo4j_client.get_documents_for_entity(ename)
+                    for doc in docs:
+                        fp = doc.get("file_path", "")
+                        if fp and fp not in seen_files:
+                            seen_files.add(fp)
+                            file_hints.append((fp, ename))
+                except Exception:
+                    continue
+
+            if matched_entities:
+                logger.info(
+                    "KG entity search: names=%s → %d entities → %d documents",
+                    entity_names, len(matched_entities), len(file_hints),
+                )
+
+            return file_hints
+        except Exception:
+            logger.warning("KG file hint extraction failed")
+            return []
+
+    def _extract_entities_from_question(self, question: str) -> list[str]:
+        """Use the LLM to extract entity names from the question.
+
+        Unlike the gazetteer extractor, the LLM understands that "Marys" means
+        "Mary", "fruits of the Spirit" is a concept, etc. No bias toward any
+        particular entity — just returns the names to search for.
+        """
+        try:
+            prompt = (
+                "Extract the proper nouns, person names, place names, and key "
+                "religious/doctrinal concepts from this question. Return ONLY "
+                "a comma-separated list of the base entity names (singular form, "
+                "no articles). If the question mentions a plural like 'Marys', "
+                "return 'Mary'. If no entities found, return 'NONE'. "
+                "Output nothing else."
+            )
+            result = self._complete_internal(prompt, question)
+            text = result.text.strip()
+
+            if not text or text.upper() == "NONE":
+                return []
+
+            names = [n.strip() for n in text.split(",") if n.strip()]
+            logger.info("LLM entity extraction: '%s' → %s", question, names)
+            return names
+        except Exception:
+            logger.warning("LLM entity extraction failed")
+            return []
+
+    @staticmethod
+    def _is_enumeration_query(question: str) -> bool:
+        """Detect questions that ask for exhaustive lists (how many, list all, etc.)."""
+        import re
+        patterns = [
+            r"\bcu[aá]nt[ao]s\b", r"\bhow many\b",
+            r"\btod[ao]s l[ao]s\b", r"\ball the\b", r"\bevery\b",
+            r"\blista\b.*\bmencion", r"\blist\b.*\bmention",
+            r"\bqu[ée] .*\bse mencionan\b", r"\bwho .*\bare mentioned\b",
+            r"\benumera\b", r"\benumerate\b",
+        ]
+        q = question.lower()
+        return any(re.search(p, q) for p in patterns)
+
     def _retrieve(
         self, question: str, fts_query: str, source_filter: str | None,
+        kg_file_hints: list[str] | None = None,
     ) -> list[ChatSource]:
-        """Retrieve chunks using hybrid search + cross-reference expansion + reranking."""
+        """Retrieve chunks using hybrid search + KG hints + cross-refs + reranking."""
         from alejandria.search.hybrid import reciprocal_rank_fusion
 
-        # Fetch more candidates than needed — reranker will prune
-        candidate_limit = settings.rag_search_limit
+        # Enumeration queries need broader recall
+        is_enum = self._is_enumeration_query(question)
+        candidate_limit = settings.rag_search_limit * 2 if is_enum else settings.rag_search_limit
+        if is_enum:
+            logger.info("Enumeration query detected — doubling search limit to %d", candidate_limit)
         text_dicts: list[dict] = []
         sem_dicts: list[dict] = []
 
@@ -208,7 +405,8 @@ class RAGPipeline:
                 logger.warning("Semantic search failed during RAG retrieval")
 
         # Combine via Reciprocal Rank Fusion — fetch extra for cross-ref expansion
-        rrf_limit = settings.rag_context_chunks + 10  # room for cross-refs
+        context_limit = settings.rag_context_chunks * 2 if is_enum else settings.rag_context_chunks
+        rrf_limit = context_limit + 10  # room for cross-refs
         hybrid_results = reciprocal_rank_fusion(
             text_results=text_dicts,
             semantic_results=sem_dicts,
@@ -229,6 +427,36 @@ class RAGPipeline:
             for r in hybrid_results
         ]
 
+        # KG-boosted retrieval: search within documents the KG knows are relevant
+        if kg_file_hints:
+            seen_keys = {(s.file_path, s.chunk_index) for s in sources}
+            kg_sources: list[ChatSource] = []
+            for hint_path, entity_label in kg_file_hints:
+                try:
+                    results = self.textual_search.search(
+                        query=fts_query, limit=2, file_path_filter=hint_path,
+                    )
+                    for r in results:
+                        key = (r.file_path, r.chunk_index)
+                        if key not in seen_keys:
+                            seen_keys.add(key)
+                            # Prepend KG entity tag so the reranker knows WHY
+                            # this chunk is a candidate
+                            tagged_text = f"[KG: {entity_label}] {r.text}"
+                            kg_sources.append(ChatSource(
+                                text=tagged_text,
+                                file_path=r.file_path,
+                                chunk_index=r.chunk_index,
+                                score=r.score * 0.001,
+                                mode="kg-boost",
+                                reference=r.reference,
+                            ))
+                except Exception:
+                    continue
+            if kg_sources:
+                logger.info("KG boost: added %d chunks from %d hinted documents", len(kg_sources), len(kg_file_hints))
+                sources.extend(kg_sources)
+
         # Cross-reference expansion: pull in parallel scripture narratives
         sources = self._expand_cross_references(sources, fts_query, source_filter)
 
@@ -243,9 +471,9 @@ class RAGPipeline:
         sources = deduped
 
         # Rerank: use LLM to select the most relevant chunks
-        sources = self._rerank(question, sources)
+        sources = self._rerank(question, sources, max_select=context_limit)
 
-        return sources[:settings.rag_context_chunks]
+        return sources[:context_limit]
 
     def _expand_cross_references(
         self,
@@ -253,12 +481,7 @@ class RAGPipeline:
         fts_query: str,
         source_filter: str | None,
     ) -> list[ChatSource]:
-        """Expand retrieved sources with parallel scripture narratives.
-
-        If any retrieved chunk comes from a file that has known parallel accounts
-        (e.g., Genesis 1 → Moses 2 + Abraham 4), fetch the best-matching chunks
-        from those parallel files and add them to the source list.
-        """
+        """Expand retrieved sources with parallel scripture narratives."""
         try:
             from alejandria.ingestion.cross_references import get_all_parallels_for_results
         except ImportError:
@@ -304,19 +527,16 @@ class RAGPipeline:
 
         return sources + new_sources
 
-    def _rerank(self, question: str, sources: list[ChatSource]) -> list[ChatSource]:
+    def _rerank(self, question: str, sources: list[ChatSource], max_select: int | None = None) -> list[ChatSource]:
         """Rerank candidate sources using the LLM for relevance scoring.
 
-        Sends chunk references and short excerpts to the LLM, which returns
-        an ordered list of the most relevant ones. Falls back to the original
-        order on error.
+        Uses the internal (cheapest) tier for reranking.
         """
-        if len(sources) <= settings.rag_context_chunks:
+        target = max_select or settings.rag_context_chunks
+        if len(sources) <= target:
             return sources  # Nothing to prune
 
         try:
-            from alejandria.chat.llm import complete
-
             # Build a compact list of candidates for the LLM
             candidate_lines = []
             for i, s in enumerate(sources):
@@ -325,7 +545,7 @@ class RAGPipeline:
                 candidate_lines.append(f"{i}: [{label}] {excerpt}")
 
             candidates_text = "\n".join(candidate_lines)
-            target_count = settings.rag_context_chunks
+            target_count = target
 
             rerank_prompt = (
                 "You are a relevance judge for a scripture study system. "
@@ -341,7 +561,7 @@ class RAGPipeline:
             )
             user_msg = f"QUESTION: {question}\n\nCANDIDATES:\n{candidates_text}"
 
-            result = complete(rerank_prompt, user_msg)
+            result = self._complete_internal(rerank_prompt, user_msg)
             response_text = result.text.strip()
 
             # Parse the indices
@@ -356,8 +576,8 @@ class RAGPipeline:
             if len(indices) >= target_count // 2:  # Accept if we got enough
                 reranked = [sources[i] for i in indices]
                 logger.info(
-                    "Reranked %d -> %d sources (from %d candidates)",
-                    len(sources), len(reranked), len(sources),
+                    "Reranked %d -> %d sources [model=%s]",
+                    len(sources), len(reranked), result.model,
                 )
                 return reranked
             else:
