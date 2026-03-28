@@ -240,10 +240,12 @@ def ask(question: str, source: str | None, as_json: bool) -> None:
         click.echo("Error: ALEJANDRIA_LLM_API_KEY not set in .env", err=True)
         sys.exit(1)
     from alejandria.chat.rag import RAGPipeline
+    from alejandria.knowledge.profile_store import ProfileStore
     pipeline = RAGPipeline(
         textual_search=_textual(),
         semantic_search=_semantic(),
         neo4j_client=_neo4j(),
+        profile_store=ProfileStore(settings.sqlite_db_path),
     )
     result = pipeline.ask(question=question, source_filter=source)
     if as_json:

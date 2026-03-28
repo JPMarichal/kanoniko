@@ -72,6 +72,7 @@ class RAGPipeline:
     textual_search: object  # TextualSearch
     semantic_search: object | None = None  # SemanticSearch or None
     neo4j_client: object | None = None  # Neo4jClient or None
+    profile_store: object | None = None  # ProfileStore or None
 
     def ask(
         self,
@@ -591,7 +592,11 @@ class RAGPipeline:
             return sources
 
     def _get_graph_context(self, question: str) -> str | None:
-        """Extract entity info from the knowledge graph relevant to the question."""
+        """Extract entity info from the knowledge graph relevant to the question.
+
+        If entity profiles are available, includes biographical summaries
+        for richer LLM context without additional retrieval cost.
+        """
         if self.neo4j_client is None:
             return None
 
@@ -603,9 +608,38 @@ class RAGPipeline:
             if not extraction.entities:
                 return None
 
+            # Detect question language for profile summaries
+            lang = "es" if any(
+                w in question.lower()
+                for w in ("quién", "qué", "cuál", "cómo", "dónde", "cuándo", "cuántos", "por qué")
+            ) else "en"
+
             parts = []
+            profiled_names: set[str] = set()
+
+            # Include entity profiles first (richer context)
+            if self.profile_store is not None:
+                for entity in extraction.entities:
+                    try:
+                        # Search for profiles matching this entity
+                        profiles = self.profile_store.find_profiles(entity.name, limit=5)
+                        for profile in profiles:
+                            if profile.entity_name in profiled_names:
+                                continue
+                            summary = profile.summary_es if lang == "es" else profile.summary_en
+                            if summary:
+                                profiled_names.add(profile.entity_name)
+                                line = f"- {profile.entity_name} ({profile.entity_type}): {summary}"
+                                if profile.aliases:
+                                    line += f" [Also known as: {', '.join(profile.aliases[:5])}]"
+                                parts.append(line)
+                    except Exception:
+                        pass
+
+            # Add graph neighbors for entities without profiles
             for entity in extraction.entities:
-                # Get neighbors for each detected entity
+                if entity.name in profiled_names:
+                    continue
                 try:
                     result = self.neo4j_client.get_neighbors(
                         name=entity.name, depth=1, limit=20,
