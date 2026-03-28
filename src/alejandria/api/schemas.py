@@ -150,6 +150,8 @@ class DocumentListResponse(BaseModel):
 class ChatRequest(BaseModel):
     question: str = Field(..., min_length=1, description="User question")
     source_filter: str | None = Field(None, description="Filter by corpus subdirectory")
+    provider: str | None = Field(None, description="LLM provider override: 'anthropic', 'gemini', 'openai'")
+    model: str | None = Field(None, description="LLM model override, e.g. 'gemini-2.5-flash'")
 
 
 class ChatSourceItem(BaseModel):

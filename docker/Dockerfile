@@ -44,7 +44,8 @@ RUN pip install --no-cache-dir \
 # Chat (RAG) deps
 RUN pip install --no-cache-dir \
     "anthropic>=0.40" \
-    "openai>=1.50"
+    "openai>=1.50" \
+    "google-genai>=1.0"
 
 # Copy source and install package
 COPY src/ ./src/
