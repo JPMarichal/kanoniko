@@ -40,6 +40,7 @@ def search_text(
                 file_path=r.file_path,
                 chunk_index=r.chunk_index,
                 metadata=r.metadata,
+                reference=r.reference,
             )
             for r in results
         ],
@@ -74,6 +75,7 @@ def search_semantic(
                 file_path=r.file_path,
                 chunk_index=r.chunk_index,
                 metadata=r.metadata,
+                reference=r.reference,
             )
             for r in results
         ],
@@ -99,7 +101,8 @@ def search_hybrid(
     text_results = textual.search(query=req.query, limit=fetch_limit, file_path_filter=req.source_filter)
     text_dicts = [
         {"chunk_id": r.chunk_id, "text": r.text, "score": r.score,
-         "file_path": r.file_path, "chunk_index": r.chunk_index, "metadata": r.metadata}
+         "file_path": r.file_path, "chunk_index": r.chunk_index, "metadata": r.metadata,
+         "reference": r.reference}
         for r in text_results
     ]
 
@@ -108,7 +111,8 @@ def search_hybrid(
     sem_results = semantic.search(query_vector=query_vector, limit=fetch_limit, source_filter=req.source_filter)
     sem_dicts = [
         {"chunk_id": r.chunk_id, "text": r.text, "score": r.score,
-         "file_path": r.file_path, "chunk_index": r.chunk_index, "metadata": r.metadata}
+         "file_path": r.file_path, "chunk_index": r.chunk_index, "metadata": r.metadata,
+         "reference": r.reference}
         for r in sem_results
     ]
 
@@ -135,6 +139,7 @@ def search_hybrid(
                 file_path=r.file_path,
                 chunk_index=r.chunk_index,
                 metadata=r.metadata,
+                reference=r.reference,
             )
             for r in fused
         ],

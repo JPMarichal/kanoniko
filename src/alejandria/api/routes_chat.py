@@ -44,6 +44,7 @@ def chat(req: ChatRequest) -> ChatResponse:
                 chunk_index=s.chunk_index,
                 score=s.score,
                 mode=s.mode,
+                reference=s.reference,
             )
             for s in result.sources
         ],

@@ -17,7 +17,9 @@ INSTRUCTIONS:
 - Answer the user's question based ONLY on the provided context passages.
 - If the context is insufficient to fully answer, say so honestly and share what \
 you can infer from the available passages.
-- Cite your sources using the file path and chunk index, e.g. (scriptures/1-nefi-1.txt, chunk 0).
+- Cite your sources using the scripture reference when available (e.g., Mateo 1:25, \
+1 Nephi 3:7, D&C 76:22-24). Only fall back to file paths when no scripture \
+reference is provided.
 - When the context contains information from the knowledge graph (entities and \
 relationships), weave it naturally into your answer.
 - Respond in the same language the user used for their question.
@@ -34,6 +36,7 @@ class ChatSource:
     chunk_index: int
     score: float
     mode: str  # "text", "semantic", or "hybrid"
+    reference: str | None = None
 
 
 @dataclass
@@ -98,6 +101,7 @@ class RAGPipeline:
                     sources.append(ChatSource(
                         text=r.text, file_path=r.file_path,
                         chunk_index=r.chunk_index, score=r.score, mode="text",
+                        reference=r.reference,
                     ))
         except Exception:
             logger.warning("Text search failed during RAG retrieval")
@@ -117,6 +121,7 @@ class RAGPipeline:
                         sources.append(ChatSource(
                             text=r.text, file_path=r.file_path,
                             chunk_index=r.chunk_index, score=r.score, mode="semantic",
+                            reference=r.reference,
                         ))
             except Exception:
                 logger.warning("Semantic search failed during RAG retrieval")
@@ -178,7 +183,8 @@ class RAGPipeline:
         if sources:
             parts.append("Retrieved passages:")
             for i, s in enumerate(sources, 1):
-                parts.append(f"\n[{i}] Source: {s.file_path} (chunk {s.chunk_index}, {s.mode} search)")
+                source_label = s.reference if s.reference else f"{s.file_path} (chunk {s.chunk_index})"
+                parts.append(f"\n[{i}] Source: {source_label} ({s.mode} search)")
                 parts.append(s.text)
 
         if not parts:

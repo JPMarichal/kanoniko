@@ -28,6 +28,7 @@ class SemanticSearchResult:
     file_path: str
     chunk_index: int
     metadata: dict
+    reference: str | None = None
 
 
 class SemanticSearch:
@@ -113,6 +114,7 @@ class SemanticSearch:
                     "source": payload.get("source", ""),
                     "file": payload.get("file_path", ""),
                 },
+                reference=payload.get("reference"),
             ))
         return results
 

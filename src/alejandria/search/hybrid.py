@@ -15,6 +15,7 @@ class HybridSearchResult:
     file_path: str
     chunk_index: int
     metadata: dict
+    reference: str | None = None
 
 
 def reciprocal_rank_fusion(
@@ -41,6 +42,7 @@ def reciprocal_rank_fusion(
                 "file_path": r["file_path"],
                 "chunk_index": r["chunk_index"],
                 "metadata": r["metadata"],
+                "reference": r.get("reference"),
                 "text_score": r["score"],
                 "semantic_score": None,
                 "combined": 0.0,
@@ -58,6 +60,7 @@ def reciprocal_rank_fusion(
                 "file_path": r["file_path"],
                 "chunk_index": r["chunk_index"],
                 "metadata": r["metadata"],
+                "reference": r.get("reference"),
                 "text_score": None,
                 "semantic_score": r["score"],
                 "combined": 0.0,
@@ -79,6 +82,7 @@ def reciprocal_rank_fusion(
             file_path=data["file_path"],
             chunk_index=data["chunk_index"],
             metadata=data["metadata"],
+            reference=data.get("reference"),
         )
         for cid, data in sorted_items[:limit]
     ]
