@@ -55,6 +55,57 @@ class HybridSearchResponse(BaseModel):
     results: list[HybridResultItem]
 
 
+# --- Graph Search ---
+
+class GraphSearchRequest(BaseModel):
+    query: str = Field(..., min_length=1, description="Entity name to search")
+    entity_type: str | None = Field(None, description="Filter by entity type")
+    limit: int = Field(20, ge=1, le=100)
+
+
+class GraphNodeItem(BaseModel):
+    name: str
+    type: str
+    aliases: list[str] | None = None
+
+
+class GraphEdgeItem(BaseModel):
+    source: str  # renamed from 'from' which is a Python keyword
+    relation: str
+    target: str
+
+
+class GraphNeighborsRequest(BaseModel):
+    name: str = Field(..., min_length=1)
+    depth: int = Field(1, ge=1, le=5)
+    relation_types: list[str] | None = None
+    limit: int = Field(50, ge=1, le=200)
+
+
+class GraphNeighborsResponse(BaseModel):
+    name: str
+    nodes: list[GraphNodeItem]
+    edges: list[GraphEdgeItem]
+
+
+class GraphSearchResponse(BaseModel):
+    query: str
+    count: int
+    results: list[GraphNodeItem]
+
+
+class GraphSummaryResponse(BaseModel):
+    total_nodes: int
+    total_relationships: int
+    nodes_by_type: list[dict]
+    relationships_by_type: list[dict]
+
+
+class GraphDocsResponse(BaseModel):
+    entity: str
+    documents: list[dict]
+
+
 # --- Indexing ---
 
 class IndexTriggerRequest(BaseModel):
@@ -101,3 +152,5 @@ class HealthResponse(BaseModel):
     fts_chunks: int
     semantic_available: bool
     semantic_vectors: int | None = None
+    graph_available: bool
+    graph_nodes: int | None = None

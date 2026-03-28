@@ -32,6 +32,10 @@ RUN pip install --no-cache-dir \
     "sentence-transformers>=3.0" \
     "qdrant-client>=1.12"
 
+# Graph deps
+RUN pip install --no-cache-dir \
+    "neo4j>=5.0"
+
 # Copy source and install package
 COPY src/ ./src/
 COPY docker/entrypoint.sh /app/entrypoint.sh
@@ -50,5 +54,8 @@ ENV ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
 ENV ALEJANDRIA_EMBEDDING_DEVICE=cpu
 ENV ALEJANDRIA_QDRANT_HOST=qdrant
 ENV ALEJANDRIA_QDRANT_PORT=6333
+ENV ALEJANDRIA_NEO4J_URI=bolt://neo4j:7687
+ENV ALEJANDRIA_NEO4J_USER=neo4j
+ENV ALEJANDRIA_NEO4J_PASSWORD=alejandria
 
 CMD ["/app/entrypoint.sh"]
