@@ -47,6 +47,11 @@ RUN pip install --no-cache-dir \
     "openai>=1.50" \
     "google-genai>=1.0"
 
+# NER deps (spaCy + language models for entity auto-discovery)
+RUN pip install --no-cache-dir "spacy>=3.7"
+RUN python -m spacy download en_core_web_sm
+RUN python -m spacy download es_core_news_sm
+
 # Copy source and install package
 COPY src/ ./src/
 COPY docker/entrypoint.sh /app/entrypoint.sh

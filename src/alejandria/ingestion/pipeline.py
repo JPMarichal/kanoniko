@@ -331,8 +331,12 @@ class IngestionPipeline:
                 )
                 relations_found += 1
 
-            if (i + 1) % 1000 == 0:
-                logger.info("KG rebuild: %d/%d chunks processed...", i + 1, total_chunks)
+            if (i + 1) % 500 == 0:
+                logger.info(
+                    "KG rebuild: %d/%d chunks (%.0f%%), %d entities, %d relations so far...",
+                    i + 1, total_chunks, (i + 1) / total_chunks * 100,
+                    entities_found, relations_found,
+                )
 
         elapsed = time.time() - start
         stats = {
