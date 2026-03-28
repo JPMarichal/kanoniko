@@ -33,3 +33,6 @@ Thumbs.db
 
 # Models (downloaded at build time)
 models/
+
+# Corporate CA certificates (machine-specific)
+docker/ca-certificates.crt

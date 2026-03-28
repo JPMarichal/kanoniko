@@ -11,18 +11,43 @@ services:
       - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
       # SQLite data: persistent volume
       - alejandria-sqlite:/app/data/sqlite
+      # Model cache: so embedding model is downloaded once
+      - alejandria-models:/root/.cache
     environment:
       - ALEJANDRIA_HOST=0.0.0.0
       - ALEJANDRIA_PORT=4300
       - ALEJANDRIA_CORPUS_PATH=/app/corpus
       - ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
+      - ALEJANDRIA_EMBEDDING_DEVICE=cpu
+      - ALEJANDRIA_QDRANT_HOST=qdrant
+      - ALEJANDRIA_QDRANT_PORT=6333
+    depends_on:
+      qdrant:
+        condition: service_healthy
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:4300/health')"]
       interval: 30s
       timeout: 10s
       retries: 3
+      start_period: 30s
+
+  qdrant:
+    image: qdrant/qdrant:v1.13.2
+    container_name: alejandria-qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - alejandria-qdrant:/qdrant/storage
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c ':> /dev/tcp/localhost/6333' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
       start_period: 10s
 
 volumes:
   alejandria-sqlite:
+  alejandria-qdrant:
+  alejandria-models:

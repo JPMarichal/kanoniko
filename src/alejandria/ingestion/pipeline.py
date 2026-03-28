@@ -15,6 +15,15 @@ from alejandria.search.textual import TextualSearch
 
 logger = logging.getLogger(__name__)
 
+# Optional semantic search — None when Qdrant is not available
+try:
+    from alejandria.embeddings.model import encode
+    from alejandria.search.semantic import SemanticSearch
+
+    _SEMANTIC_AVAILABLE = True
+except ImportError:
+    _SEMANTIC_AVAILABLE = False
+
 
 @dataclass
 class IndexingStats:
@@ -32,9 +41,11 @@ class IngestionPipeline:
         self,
         registry: DocumentRegistry,
         textual_search: TextualSearch,
+        semantic_search: SemanticSearch | None = None,
     ) -> None:
         self._registry = registry
         self._textual = textual_search
+        self._semantic = semantic_search
 
     def run(self, full_reindex: bool = False) -> IndexingStats:
         """Execute an indexing run.
@@ -66,7 +77,11 @@ class IngestionPipeline:
             with conn:
                 for file_path in registry_records:
                     self._textual.delete_by_file(conn, file_path)
-                    self._registry.delete(file_path)
+            # Delete registry records after FTS connection is released
+            for file_path in registry_records:
+                self._registry.delete(file_path)
+            if self._semantic:
+                self._semantic.drop_collection()
             registry_records = {}
 
         # Detect deleted files
@@ -80,8 +95,13 @@ class IngestionPipeline:
             current_hash = DocumentRegistry.compute_hash(abs_path)
             record = registry_records.get(rel_path)
 
-            if record is not None and record.sha256 == current_hash and not full_reindex:
-                # Unchanged — skip
+            if (
+                record is not None
+                and record.sha256 == current_hash
+                and record.status == "indexed"
+                and not full_reindex
+            ):
+                # Unchanged and successfully indexed — skip
                 continue
 
             is_update = record is not None
@@ -112,10 +132,14 @@ class IngestionPipeline:
 
     def _ingest_file(self, rel_path: str, abs_path: Path, file_hash: str) -> int:
         """Parse, chunk, and index a single file. Returns chunk count."""
+        source = _extract_source(rel_path)
+
         # Delete old data if exists
         conn = self._textual.get_connection()
         with conn:
             self._textual.delete_by_file(conn, rel_path)
+        if self._semantic:
+            self._semantic.delete_by_file(rel_path)
 
         # Parse
         text = parse_file(abs_path)
@@ -133,24 +157,42 @@ class IngestionPipeline:
         chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
         # Build metadata
-        metadata = json.dumps({
-            "source": _extract_source(rel_path),
-            "file": rel_path,
-        })
+        metadata_str = json.dumps({"source": source, "file": rel_path})
 
-        # Index into FTS
+        # Index into FTS — collect chunk IDs for Qdrant
+        chunk_ids: list[int] = []
         conn = self._textual.get_connection()
         with conn:
             for chunk in chunks:
-                self._textual.index_chunk(
+                cid = self._textual.index_chunk(
                     conn=conn,
                     file_path=rel_path,
                     chunk_index=chunk.index,
                     text=chunk.text,
                     start_char=chunk.start_char,
                     end_char=chunk.end_char,
-                    metadata=metadata,
+                    metadata=metadata_str,
                 )
+                chunk_ids.append(cid)
+
+        # Index into Qdrant (semantic)
+        if self._semantic and _SEMANTIC_AVAILABLE:
+            chunk_texts = [c.text for c in chunks]
+            vectors = encode(chunk_texts)
+            payloads = [
+                {
+                    "text": c.text,
+                    "file_path": rel_path,
+                    "chunk_index": c.index,
+                    "source": source,
+                }
+                for c in chunks
+            ]
+            self._semantic.upsert_chunks(
+                ids=chunk_ids,
+                vectors=[v.tolist() for v in vectors],
+                payloads=payloads,
+            )
 
         # Update registry
         self._registry.upsert(
@@ -169,6 +211,8 @@ class IngestionPipeline:
         conn = self._textual.get_connection()
         with conn:
             self._textual.delete_by_file(conn, file_path)
+        if self._semantic:
+            self._semantic.delete_by_file(file_path)
         self._registry.delete(file_path)
         logger.info("Deleted from index: %s", file_path)
 

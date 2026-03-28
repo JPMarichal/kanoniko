@@ -10,7 +10,7 @@ from alejandria.api.routes_docs import router as docs_router
 from alejandria.api.routes_index import router as index_router
 from alejandria.api.routes_search import router as search_router
 from alejandria.api.schemas import HealthResponse
-from alejandria.api.dependencies import get_registry, get_textual_search
+from alejandria.api.dependencies import get_registry, get_semantic_search, get_textual_search
 from alejandria.config import settings
 
 logging.basicConfig(
@@ -32,11 +32,20 @@ app.include_router(docs_router)
 @app.get("/health", response_model=HealthResponse, tags=["system"])
 def health() -> HealthResponse:
     textual = get_textual_search()
+    semantic = get_semantic_search()
+    semantic_vectors = None
+    if semantic is not None:
+        try:
+            semantic_vectors = semantic.count()
+        except Exception:
+            pass
     return HealthResponse(
         status="ok",
         version=settings.app_version,
         fts_documents=textual.count_documents(),
         fts_chunks=textual.count_chunks(),
+        semantic_available=semantic is not None,
+        semantic_vectors=semantic_vectors,
     )
 
 

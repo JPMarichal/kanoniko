@@ -30,20 +30,30 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 - spaCy + domain gazetteers for KG extraction
 - Docker Compose (3 containers: api, qdrant, neo4j)
 
+## Vision
+
+The final product is a **specialized chat client for scripture/gospel study** (RAG-based). The knowledge engine (search APIs) is the backend; the chat UI is a future service consuming it.
+
 ## Phases
 
 1. ~~Foundation: parsers, chunker, FTS5, incremental indexing, REST API~~ (done)
-2. Semantic search: Qdrant + multilingual embeddings + hybrid search
+2. ~~Semantic search: Qdrant + multilingual embeddings + hybrid search~~ (done)
 3. Knowledge graph: Neo4j + spaCy NER + gazetteers + relation extraction
 4. MCP adapter, CLI, polish
-5. UI, ETL templates, fine-tuning, advanced relations
+5. Chat client (RAG), UI, ETL templates, fine-tuning, advanced relations
 
 ## Running
 
 ```bash
-# Build and run
+# Build and run (first time downloads ~500MB embedding model)
 cd docker && docker compose up --build
 
 # Run tests
-docker run --rm -v ./tests:/app/tests alejandria-api:dev bash -c "pip install -q pytest httpx && python -m pytest tests/ -v"
+docker run --rm -v ./tests:/app/tests -v ./src:/app/src docker-api bash -c "pip install -q pytest httpx && python -m pytest /app/tests/ -v"
 ```
+
+## SSL/Corporate Proxy Note
+
+The Dockerfile expects `docker/ca-certificates.crt` with your corporate CA certs for model downloads.
+Generate it: `python docker/export_certs.py` (or export from Windows cert store).
+This file is gitignored — each dev machine generates its own.
