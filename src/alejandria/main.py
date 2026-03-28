@@ -6,6 +6,7 @@ import logging
 
 from fastapi import FastAPI
 
+from alejandria.api.routes_chat import router as chat_router
 from alejandria.api.routes_docs import router as docs_router
 from alejandria.api.routes_graph import router as graph_router
 from alejandria.api.routes_index import router as index_router
@@ -27,6 +28,7 @@ app = FastAPI(
 
 app.include_router(search_router)
 app.include_router(graph_router)
+app.include_router(chat_router)
 app.include_router(index_router)
 app.include_router(docs_router)
 
