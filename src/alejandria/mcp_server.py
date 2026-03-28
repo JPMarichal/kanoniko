@@ -393,10 +393,12 @@ def _do_ask(args: dict) -> dict:
     if not settings.llm_api_key:
         return {"error": "Chat unavailable: ALEJANDRIA_LLM_API_KEY not set"}
     from alejandria.chat.rag import RAGPipeline
+    from alejandria.knowledge.profile_store import ProfileStore
     pipeline = RAGPipeline(
         textual_search=_get_textual(),
         semantic_search=_get_semantic(),
         neo4j_client=_get_neo4j(),
+        profile_store=ProfileStore(settings.sqlite_db_path),
     )
     result = pipeline.ask(
         question=args["question"],
