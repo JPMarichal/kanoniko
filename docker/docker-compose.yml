@@ -21,8 +21,13 @@ services:
       - ALEJANDRIA_EMBEDDING_DEVICE=cpu
       - ALEJANDRIA_QDRANT_HOST=qdrant
       - ALEJANDRIA_QDRANT_PORT=6333
+      - ALEJANDRIA_NEO4J_URI=bolt://neo4j:7687
+      - ALEJANDRIA_NEO4J_USER=neo4j
+      - ALEJANDRIA_NEO4J_PASSWORD=${NEO4J_PASSWORD:-alejandria}
     depends_on:
       qdrant:
+        condition: service_healthy
+      neo4j:
         condition: service_healthy
     restart: unless-stopped
     healthcheck:
@@ -47,7 +52,26 @@ services:
       retries: 5
       start_period: 10s
 
+  neo4j:
+    image: neo4j:5-community
+    container_name: alejandria-neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - alejandria-neo4j:/data
+    environment:
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-alejandria}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -u neo4j -p ${NEO4J_PASSWORD:-alejandria} 'RETURN 1' || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+
 volumes:
   alejandria-sqlite:
   alejandria-qdrant:
   alejandria-models:
+  alejandria-neo4j:

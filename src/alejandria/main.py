@@ -7,10 +7,11 @@ import logging
 from fastapi import FastAPI
 
 from alejandria.api.routes_docs import router as docs_router
+from alejandria.api.routes_graph import router as graph_router
 from alejandria.api.routes_index import router as index_router
 from alejandria.api.routes_search import router as search_router
 from alejandria.api.schemas import HealthResponse
-from alejandria.api.dependencies import get_registry, get_semantic_search, get_textual_search
+from alejandria.api.dependencies import get_neo4j_client, get_registry, get_semantic_search, get_textual_search
 from alejandria.config import settings
 
 logging.basicConfig(
@@ -25,6 +26,7 @@ app = FastAPI(
 )
 
 app.include_router(search_router)
+app.include_router(graph_router)
 app.include_router(index_router)
 app.include_router(docs_router)
 
@@ -39,6 +41,14 @@ def health() -> HealthResponse:
             semantic_vectors = semantic.count()
         except Exception:
             pass
+    neo4j = get_neo4j_client()
+    graph_nodes = None
+    if neo4j is not None:
+        try:
+            summary = neo4j.graph_summary()
+            graph_nodes = summary["total_nodes"]
+        except Exception:
+            pass
     return HealthResponse(
         status="ok",
         version=settings.app_version,
@@ -46,6 +56,8 @@ def health() -> HealthResponse:
         fts_chunks=textual.count_chunks(),
         semantic_available=semantic is not None,
         semantic_vectors=semantic_vectors,
+        graph_available=neo4j is not None,
+        graph_nodes=graph_nodes,
     )
 
 

@@ -24,6 +24,15 @@ try:
 except ImportError:
     _SEMANTIC_AVAILABLE = False
 
+# Optional knowledge graph
+try:
+    from alejandria.knowledge.extractor import KGExtractor
+    from alejandria.knowledge.neo4j_client import Neo4jClient
+
+    _KG_AVAILABLE = True
+except ImportError:
+    _KG_AVAILABLE = False
+
 
 @dataclass
 class IndexingStats:
@@ -42,10 +51,14 @@ class IngestionPipeline:
         registry: DocumentRegistry,
         textual_search: TextualSearch,
         semantic_search: SemanticSearch | None = None,
+        neo4j_client: Neo4jClient | None = None,
+        kg_extractor: KGExtractor | None = None,
     ) -> None:
         self._registry = registry
         self._textual = textual_search
         self._semantic = semantic_search
+        self._neo4j = neo4j_client
+        self._kg_extractor = kg_extractor
 
     def run(self, full_reindex: bool = False) -> IndexingStats:
         """Execute an indexing run.
@@ -82,6 +95,8 @@ class IngestionPipeline:
                 self._registry.delete(file_path)
             if self._semantic:
                 self._semantic.drop_collection()
+            if self._neo4j:
+                self._neo4j.clear_all()
             registry_records = {}
 
         # Detect deleted files
@@ -194,6 +209,24 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
+        # Index into Neo4j (knowledge graph)
+        if self._neo4j and self._kg_extractor:
+            self._neo4j.delete_document_relations(rel_path)
+            self._neo4j.merge_document(rel_path, source)
+            for chunk in chunks:
+                extraction = self._kg_extractor.extract(chunk.text, source_file=rel_path)
+                for entity in extraction.entities:
+                    self._neo4j.merge_entity(entity.name, entity.type)
+                    self._neo4j.link_entity_to_document(entity.name, entity.type, rel_path)
+                for rel in extraction.relations:
+                    self._neo4j.merge_relation(
+                        from_name=rel.from_entity,
+                        from_type=rel.from_type,
+                        rel_type=rel.relation,
+                        to_name=rel.to_entity,
+                        to_type=rel.to_type,
+                    )
+
         # Update registry
         self._registry.upsert(
             file_path=rel_path,
@@ -213,6 +246,8 @@ class IngestionPipeline:
             self._textual.delete_by_file(conn, file_path)
         if self._semantic:
             self._semantic.delete_by_file(file_path)
+        if self._neo4j:
+            self._neo4j.delete_document_relations(file_path)
         self._registry.delete(file_path)
         logger.info("Deleted from index: %s", file_path)
 
