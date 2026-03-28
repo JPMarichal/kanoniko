@@ -34,13 +34,30 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 
 The final product is a **specialized chat client for scripture/gospel study** (RAG-based). The knowledge engine (search APIs) is the backend; the chat UI is a future service consuming it.
 
+## Corpus Structure
+
+Bilingual corpus, bind-mounted at `corpus/`:
+```
+corpus/{lang}/scriptures/{volume}/{book}/{chapter}.txt   # verse-numbered files
+corpus/{lang}/general-conference/...
+corpus/{lang}/biographies/...
+corpus/{lang}/manuals/...
+corpus/{lang}/web/...
+```
+
+Scripture files have numbered verses: `1 Text of verse one.\n2 Text of verse two.`
+The system generates scripture references (e.g., "Matthew 1:25", "1 Nefi 3:7") per chunk.
+
+Download scriptures: `REQUESTS_CA_BUNDLE=docker/ca-certificates.crt python scripts/download_scriptures.py`
+
 ## Phases
 
 1. ~~Foundation: parsers, chunker, FTS5, incremental indexing, REST API~~ (done)
 2. ~~Semantic search: Qdrant + multilingual embeddings + hybrid search~~ (done)
-3. Knowledge graph: Neo4j + spaCy NER + gazetteers + relation extraction
-4. MCP adapter, CLI, polish
-5. Chat client (RAG), UI, ETL templates, fine-tuning, advanced relations
+3. ~~Knowledge graph: Neo4j + gazetteers + relation extraction~~ (done)
+4. ~~MCP adapter, CLI, polish~~ (done)
+5. Corpus + RAG: scripture download, verse-level references, chat endpoint (in progress)
+6. Chat client UI, ETL templates, fine-tuning, advanced relations
 
 ## Running
 

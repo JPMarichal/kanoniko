@@ -20,6 +20,7 @@ class SearchResultItem(BaseModel):
     file_path: str
     chunk_index: int
     metadata: dict
+    reference: str | None = None
 
 
 class SearchResponse(BaseModel):
@@ -46,6 +47,7 @@ class HybridResultItem(BaseModel):
     file_path: str
     chunk_index: int
     metadata: dict
+    reference: str | None = None
 
 
 class HybridSearchResponse(BaseModel):
@@ -156,6 +158,7 @@ class ChatSourceItem(BaseModel):
     chunk_index: int
     score: float
     mode: str
+    reference: str | None = None
 
 
 class ChatResponse(BaseModel):

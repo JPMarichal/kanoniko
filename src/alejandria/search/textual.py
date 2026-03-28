@@ -15,6 +15,7 @@ class TextSearchResult:
     file_path: str
     chunk_index: int
     metadata: dict
+    reference: str | None = None
 
 
 class TextualSearch:
@@ -40,9 +41,15 @@ class TextualSearch:
                     text TEXT NOT NULL,
                     start_char INTEGER,
                     end_char INTEGER,
-                    metadata TEXT DEFAULT '{}'
+                    metadata TEXT DEFAULT '{}',
+                    reference TEXT
                 )
             """)
+            # Migration: add reference column if missing (existing DBs)
+            try:
+                conn.execute("ALTER TABLE chunks ADD COLUMN reference TEXT")
+            except Exception:
+                pass  # column already exists
             conn.execute("""
                 CREATE VIRTUAL TABLE IF NOT EXISTS chunks_fts USING fts5(
                     text,
@@ -77,12 +84,13 @@ class TextualSearch:
         start_char: int,
         end_char: int,
         metadata: str = "{}",
+        reference: str | None = None,
     ) -> int:
         """Insert a chunk into the search index. Returns the chunk id."""
         cursor = conn.execute(
-            "INSERT INTO chunks (file_path, chunk_index, text, start_char, end_char, metadata) "
-            "VALUES (?, ?, ?, ?, ?, ?)",
-            (file_path, chunk_index, text, start_char, end_char, metadata),
+            "INSERT INTO chunks (file_path, chunk_index, text, start_char, end_char, metadata, reference) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            (file_path, chunk_index, text, start_char, end_char, metadata, reference),
         )
         return cursor.lastrowid  # type: ignore[return-value]
 
@@ -117,7 +125,7 @@ class TextualSearch:
                 rows = conn.execute(
                     """
                     SELECT c.id, c.text, c.file_path, c.chunk_index, c.metadata,
-                           bm25(chunks_fts) AS score
+                           c.reference, bm25(chunks_fts) AS score
                     FROM chunks_fts fts
                     JOIN chunks c ON c.id = fts.rowid
                     WHERE chunks_fts MATCH ?
@@ -131,7 +139,7 @@ class TextualSearch:
                 rows = conn.execute(
                     """
                     SELECT c.id, c.text, c.file_path, c.chunk_index, c.metadata,
-                           bm25(chunks_fts) AS score
+                           c.reference, bm25(chunks_fts) AS score
                     FROM chunks_fts fts
                     JOIN chunks c ON c.id = fts.rowid
                     WHERE chunks_fts MATCH ?
@@ -151,6 +159,7 @@ class TextualSearch:
                 file_path=row["file_path"],
                 chunk_index=row["chunk_index"],
                 metadata=json.loads(row["metadata"]),
+                reference=row["reference"],
             ))
         return results
 

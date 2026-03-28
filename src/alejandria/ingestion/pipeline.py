@@ -11,6 +11,11 @@ from alejandria.config import settings
 from alejandria.ingestion.chunker import chunk_text
 from alejandria.ingestion.parsers import parse_file
 from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.scripture_meta import (
+    build_chunk_reference,
+    build_scripture_metadata,
+    is_scripture,
+)
 from alejandria.search.textual import TextualSearch
 
 logger = logging.getLogger(__name__)
@@ -148,6 +153,7 @@ class IngestionPipeline:
     def _ingest_file(self, rel_path: str, abs_path: Path, file_hash: str) -> int:
         """Parse, chunk, and index a single file. Returns chunk count."""
         source = _extract_source(rel_path)
+        lang = _extract_lang(rel_path)
 
         # Delete old data if exists
         conn = self._textual.get_connection()
@@ -171,14 +177,32 @@ class IngestionPipeline:
         # Chunk
         chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
-        # Build metadata
-        metadata_str = json.dumps({"source": source, "file": rel_path})
+        # Build per-chunk scripture references
+        scripture_file = is_scripture(rel_path)
+        chunk_references: list[str | None] = []
+        for chunk in chunks:
+            if scripture_file:
+                ref = build_chunk_reference(rel_path, chunk.text, text)
+            else:
+                ref = None
+            chunk_references.append(ref)
+
+        # Build base metadata
+        base_meta: dict = {"source": source, "file": rel_path}
+        if lang:
+            base_meta["lang"] = lang
+        # Add scripture-level metadata from first chunk (volume, book, etc.)
+        if scripture_file:
+            smeta = build_scripture_metadata(rel_path, chunks[0].text if chunks else "", text)
+            base_meta.update({k: v for k, v in smeta.items() if k not in ("reference", "verse_start", "verse_end")})
+
+        metadata_str = json.dumps(base_meta)
 
         # Index into FTS — collect chunk IDs for Qdrant
         chunk_ids: list[int] = []
         conn = self._textual.get_connection()
         with conn:
-            for chunk in chunks:
+            for chunk, ref in zip(chunks, chunk_references):
                 cid = self._textual.index_chunk(
                     conn=conn,
                     file_path=rel_path,
@@ -187,6 +211,7 @@ class IngestionPipeline:
                     start_char=chunk.start_char,
                     end_char=chunk.end_char,
                     metadata=metadata_str,
+                    reference=ref,
                 )
                 chunk_ids.append(cid)
 
@@ -200,8 +225,10 @@ class IngestionPipeline:
                     "file_path": rel_path,
                     "chunk_index": c.index,
                     "source": source,
+                    "reference": ref,
+                    **({"lang": lang} if lang else {}),
                 }
-                for c in chunks
+                for c, ref in zip(chunks, chunk_references)
             ]
             self._semantic.upsert_chunks(
                 ids=chunk_ids,
@@ -253,6 +280,22 @@ class IngestionPipeline:
 
 
 def _extract_source(rel_path: str) -> str:
-    """Extract the top-level corpus subdirectory as the source category."""
+    """Extract the source category from the corpus path.
+
+    New bilingual layout:  {lang}/{category}/...  -> category
+    Legacy flat layout:    {category}/...          -> category
+    """
     parts = rel_path.replace("\\", "/").split("/")
+    # New layout: en/scriptures/... or es/general-conference/...
+    if len(parts) >= 2 and parts[0] in ("en", "es"):
+        return parts[1] if len(parts) > 2 else parts[0]
+    # Legacy flat layout
     return parts[0] if len(parts) > 1 else "root"
+
+
+def _extract_lang(rel_path: str) -> str | None:
+    """Extract language code from the corpus path, or None if not detected."""
+    parts = rel_path.replace("\\", "/").split("/")
+    if parts and parts[0] in ("en", "es"):
+        return parts[0]
+    return None

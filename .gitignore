@@ -37,3 +37,7 @@ models/
 
 # Corporate CA certificates (machine-specific)
 docker/ca-certificates.crt
+
+# Corpus data (downloaded separately, bind-mounted)
+corpus/en/
+corpus/es/
