@@ -17,15 +17,25 @@ INSTRUCTIONS:
 - Answer the user's question based ONLY on the provided context passages.
 - If the context is insufficient to fully answer, say so honestly and share what \
 you can infer from the available passages.
-- Cite your sources using the scripture reference when available (e.g., Mateo 1:25, \
-1 Nephi 3:7, D&C 76:22-24). Only fall back to file paths when no scripture \
-reference is provided.
-- When the context contains information from the knowledge graph (entities and \
-relationships), weave it naturally into your answer.
 - Respond in the same language the user used for their question.
 - Be thorough: for biographical or chronological questions, organize information \
 clearly with dates, events, and references when available.
-- Do not invent or hallucinate information not present in the context.\
+- When the context contains information from the knowledge graph (entities and \
+relationships), weave it naturally into your answer.
+
+CITATION RULES (CRITICAL):
+- ALWAYS cite sources using the scripture reference (e.g., Gálatas 5:22-23, \
+1 Nephi 3:7, D&C 76:22-24). Only fall back to file paths when no reference \
+is available.
+- Quote scripture text LITERALLY as it appears in the context — never paraphrase \
+and present it as a direct quote.
+- Every scripture quote MUST include its reference in parentheses.
+- Two citation styles:
+  * Inline: woven into your text — Nefi dijo "Iré y haré lo que el Señor ha \
+mandado" (1 Nefi 3:7).
+  * Block: a full passage in its own paragraph, followed by (Reference).
+- For conference talks or other materials, cite as: Author, "Title", source.
+- Do not invent or hallucinate text not present in the context passages.\
 """
 
 
@@ -59,16 +69,19 @@ class RAGPipeline:
 
     def ask(self, question: str, source_filter: str | None = None) -> ChatResponse:
         """Answer a question using RAG over the corpus."""
-        # 1. Retrieve from all available search modes
-        sources = self._retrieve(question, source_filter)
+        # 1. Expand query for better retrieval
+        fts_query = self._expand_query(question)
 
-        # 2. Build graph context if available
+        # 2. Retrieve from all available search modes
+        sources = self._retrieve(question, fts_query, source_filter)
+
+        # 3. Build graph context if available
         graph_context = self._get_graph_context(question)
 
-        # 3. Assemble the context prompt
+        # 4. Assemble the context prompt
         context_text = self._build_context(sources, graph_context)
 
-        # 4. Call LLM
+        # 5. Call LLM
         from alejandria.chat.llm import complete
 
         user_message = f"CONTEXT:\n{context_text}\n\nQUESTION:\n{question}"
@@ -83,26 +96,57 @@ class RAGPipeline:
             output_tokens=llm_response.output_tokens,
         )
 
-    def _retrieve(self, question: str, source_filter: str | None) -> list[ChatSource]:
-        """Retrieve and deduplicate chunks from text + semantic search."""
-        seen: set[tuple[str, int]] = set()
-        sources: list[ChatSource] = []
-        limit = settings.rag_search_limit
+    def _expand_query(self, question: str) -> str:
+        """Use LLM to generate effective search keywords for FTS retrieval.
 
-        # Text search (FTS)
+        Returns a keyword string optimized for full-text search.
+        Falls back to the original question on error.
+        """
+        try:
+            from alejandria.chat.llm import complete
+
+            expansion_prompt = (
+                "You are a search query optimizer for a scripture corpus (Bible, "
+                "Book of Mormon, Doctrine and Covenants, Pearl of Great Price). "
+                "Given a user question, output ONLY the most relevant keywords and "
+                "phrases that would appear in the actual scripture text answering "
+                "this question. Include key nouns, verbs, and distinctive phrases "
+                "from the relevant passages. Output keywords separated by spaces, "
+                "nothing else. No explanations."
+            )
+            result = complete(expansion_prompt, question)
+            expanded = result.text.strip()
+            logger.info("Query expansion: '%s' -> '%s'", question, expanded)
+            return expanded if expanded else question
+        except Exception:
+            logger.warning("Query expansion failed, using original question")
+            return question
+
+    def _retrieve(
+        self, question: str, fts_query: str, source_filter: str | None,
+    ) -> list[ChatSource]:
+        """Retrieve chunks using hybrid search (RRF) combining FTS + semantic."""
+        from alejandria.search.hybrid import reciprocal_rank_fusion
+
+        limit = settings.rag_search_limit
+        text_dicts: list[dict] = []
+        sem_dicts: list[dict] = []
+
+        # Text search (FTS) — use expanded keywords for better recall
         try:
             text_results = self.textual_search.search(
-                query=question, limit=limit, file_path_filter=source_filter,
+                query=fts_query, limit=limit, file_path_filter=source_filter,
             )
             for r in text_results:
-                key = (r.file_path, r.chunk_index)
-                if key not in seen:
-                    seen.add(key)
-                    sources.append(ChatSource(
-                        text=r.text, file_path=r.file_path,
-                        chunk_index=r.chunk_index, score=r.score, mode="text",
-                        reference=r.reference,
-                    ))
+                text_dicts.append({
+                    "chunk_id": r.chunk_id,
+                    "text": r.text,
+                    "score": r.score,
+                    "file_path": r.file_path,
+                    "chunk_index": r.chunk_index,
+                    "metadata": r.metadata if isinstance(r.metadata, dict) else {},
+                    "reference": r.reference,
+                })
         except Exception:
             logger.warning("Text search failed during RAG retrieval")
 
@@ -115,20 +159,40 @@ class RAGPipeline:
                     query_vector=query_vector, limit=limit, source_filter=source_filter,
                 )
                 for r in sem_results:
-                    key = (r.file_path, r.chunk_index)
-                    if key not in seen:
-                        seen.add(key)
-                        sources.append(ChatSource(
-                            text=r.text, file_path=r.file_path,
-                            chunk_index=r.chunk_index, score=r.score, mode="semantic",
-                            reference=r.reference,
-                        ))
+                    sem_dicts.append({
+                        "chunk_id": r.chunk_id,
+                        "text": r.text,
+                        "score": r.score,
+                        "file_path": r.file_path,
+                        "chunk_index": r.chunk_index,
+                        "metadata": {},
+                        "reference": r.reference,
+                    })
             except Exception:
                 logger.warning("Semantic search failed during RAG retrieval")
 
-        # Sort by score (higher is better) and take top N
-        sources.sort(key=lambda s: s.score, reverse=True)
-        return sources[:settings.rag_context_chunks]
+        # Combine via Reciprocal Rank Fusion
+        # Equal weights — FTS excels at exact terminology (scripture phrases),
+        # semantic excels at conceptual/paraphrase queries.
+        hybrid_results = reciprocal_rank_fusion(
+            text_results=text_dicts,
+            semantic_results=sem_dicts,
+            text_weight=0.5,
+            semantic_weight=0.5,
+            limit=settings.rag_context_chunks,
+        )
+
+        return [
+            ChatSource(
+                text=r.text,
+                file_path=r.file_path,
+                chunk_index=r.chunk_index,
+                score=r.combined_score,
+                mode="hybrid",
+                reference=r.reference,
+            )
+            for r in hybrid_results
+        ]
 
     def _get_graph_context(self, question: str) -> str | None:
         """Extract entity info from the knowledge graph relevant to the question."""

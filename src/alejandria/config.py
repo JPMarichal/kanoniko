@@ -45,8 +45,8 @@ class Settings(BaseSettings):
     llm_temperature: float = 0.3
 
     # RAG
-    rag_context_chunks: int = 8  # Max chunks to include in context
-    rag_search_limit: int = 15  # Candidates per search mode before dedup
+    rag_context_chunks: int = 10  # Max chunks to include in context
+    rag_search_limit: int = 20  # Candidates per search mode before RRF
 
     # Server
     host: str = "0.0.0.0"

@@ -99,15 +99,57 @@ class TextualSearch:
         cursor = conn.execute("DELETE FROM chunks WHERE file_path = ?", (file_path,))
         return cursor.rowcount
 
+    _STOP_WORDS = frozenset({
+        # English
+        "a", "an", "the", "is", "are", "was", "were", "be", "been", "being",
+        "have", "has", "had", "do", "does", "did", "will", "would", "shall",
+        "should", "may", "might", "can", "could", "must", "what", "which",
+        "who", "whom", "when", "where", "why", "how", "that", "this", "these",
+        "those", "it", "its", "i", "me", "my", "we", "our", "you", "your",
+        "he", "him", "his", "she", "her", "they", "them", "their", "of", "in",
+        "to", "for", "with", "on", "at", "by", "from", "as", "if", "or",
+        "and", "but", "not", "no", "so", "up", "out", "about", "into", "than",
+        "too", "very", "just", "also", "any", "each", "every", "all", "both",
+        "some", "such", "other", "than", "then", "there", "here", "ever",
+        # Spanish
+        "el", "la", "los", "las", "un", "una", "unos", "unas", "es", "son",
+        "fue", "era", "del", "al", "en", "de", "con", "por", "para", "se",
+        "su", "sus", "que", "qué", "como", "cómo", "cual", "cuál", "donde",
+        "dónde", "quien", "quién", "cuando", "cuándo", "yo", "tu", "él",
+        "ella", "nos", "les", "lo", "le", "me", "te", "más", "pero", "si",
+        "ya", "hay", "no", "ni", "muy",
+    })
+
     @staticmethod
     def _sanitize_fts_query(query: str) -> str:
-        """Strip FTS5 special characters to avoid syntax errors."""
-        # Remove characters that FTS5 interprets as operators
+        """Convert natural-language query to effective FTS5 query.
+
+        - Strips FTS5 operators
+        - Removes stop words (EN/ES)
+        - Joins remaining keywords with OR for broader matching
+        """
         import re
         sanitized = re.sub(r'[*?:^~()"{}]', " ", query)
-        # Collapse whitespace
-        sanitized = " ".join(sanitized.split())
-        return sanitized
+        words = sanitized.lower().split()
+        keywords = [w for w in words if w not in TextualSearch._STOP_WORDS and len(w) > 1]
+        if not keywords:
+            # Fall back to original if all words were stop words
+            return " ".join(sanitized.split())
+        # Expand with basic stem variants (plural/singular) using prefix matching
+        expanded = []
+        for kw in keywords:
+            # Use FTS5 prefix token for words > 3 chars to catch plural/singular
+            if len(kw) > 3:
+                # Strip common suffixes and use prefix match
+                stem = kw
+                for suffix in ("ies", "es", "ing", "ed", "s"):
+                    if kw.endswith(suffix) and len(kw) - len(suffix) >= 3:
+                        stem = kw[: -len(suffix)]
+                        break
+                expanded.append(f"{stem}*")
+            else:
+                expanded.append(kw)
+        return " OR ".join(expanded)
 
     def search(
         self,

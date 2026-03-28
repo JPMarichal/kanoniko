@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from alejandria.config import settings
-from alejandria.ingestion.chunker import chunk_text
+from alejandria.ingestion.chunker import chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
 from alejandria.ingestion.registry import DocumentRegistry
 from alejandria.ingestion.scripture_meta import (
@@ -174,11 +174,14 @@ class IngestionPipeline:
             )
             return 0
 
-        # Chunk
-        chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
+        # Chunk — use verse-aware chunking for scriptures
+        scripture_file = is_scripture(rel_path)
+        if scripture_file:
+            chunks = chunk_scripture(text, target_words=150, max_words=300)
+        else:
+            chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
         # Build per-chunk scripture references
-        scripture_file = is_scripture(rel_path)
         chunk_references: list[str | None] = []
         for chunk in chunks:
             if scripture_file:
