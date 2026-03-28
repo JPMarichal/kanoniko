@@ -2,14 +2,17 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, BackgroundTasks, Depends
+from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 
 from alejandria.api.schemas import (
+    BuildProfilesRequest,
+    BuildProfilesResponse,
     IndexStatusResponse,
     IndexTriggerRequest,
     IndexingStatsResponse,
 )
-from alejandria.api.dependencies import get_pipeline, get_registry, get_textual_search
+from alejandria.api.dependencies import get_pipeline, get_profile_store, get_registry, get_textual_search
+from alejandria.config import settings
 from alejandria.ingestion.pipeline import IngestionPipeline
 from alejandria.ingestion.registry import DocumentRegistry
 from alejandria.search.textual import TextualSearch
@@ -60,3 +63,38 @@ def rebuild_kg(
     chunk text in SQLite. Use after expanding gazetteers.
     """
     return pipeline.rebuild_kg()
+
+
+@router.post("/build-profiles", response_model=BuildProfilesResponse)
+def build_profiles(
+    req: BuildProfilesRequest,
+    pipeline: IngestionPipeline = Depends(get_pipeline),
+) -> BuildProfilesResponse:
+    """Build entity profiles from the knowledge graph.
+
+    Phase 'metadata': aggregate mention counts, books, key passages ($0 cost).
+    Phase 'generate': LLM-generated summaries and disambiguation (future).
+    """
+    if req.phase == "metadata":
+        result = pipeline.build_metadata_profiles(
+            entity_types=req.entity_types,
+            max_entities=req.max_entities,
+            max_passages=settings.profile_max_passages,
+        )
+        if "error" in result:
+            raise HTTPException(503, result["error"])
+        return BuildProfilesResponse(**result)
+    elif req.phase == "generate":
+        profile_store = get_profile_store()
+        if profile_store is None:
+            raise HTTPException(503, "ProfileStore not available")
+        from alejandria.knowledge.profile_generator import ProfileGenerator
+        generator = ProfileGenerator(profile_store, tier=settings.profile_llm_tier)
+        result = generator.generate_batch(
+            entity_types=req.entity_types,
+            max_entities=req.max_entities or 50,
+            force=req.force,
+        )
+        return BuildProfilesResponse(**result)
+    else:
+        raise HTTPException(400, f"Unknown phase '{req.phase}'. Use 'metadata' or 'generate'.")

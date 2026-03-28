@@ -200,6 +200,45 @@ class Neo4jClient:
                 "relationships_by_type": rel_stats,
             }
 
+    def get_all_entity_mentions(self) -> list[dict]:
+        """Bulk query: for each entity, count documents and list file_paths.
+
+        Returns list of dicts with keys: name, type, aliases, doc_count, file_paths.
+        Single Cypher query for efficiency.
+        """
+        with self._driver.session() as session:
+            result = session.run(
+                "MATCH (e:Entity)-[:MENTIONED_IN]->(d:Document) "
+                "WITH e, collect(DISTINCT d.file_path) AS fps "
+                "RETURN e.name AS name, e.type AS type, "
+                "       e.aliases AS aliases, "
+                "       size(fps) AS doc_count, fps AS file_paths "
+                "ORDER BY doc_count DESC"
+            )
+            return [dict(record) for record in result]
+
+    def update_entity_profile(
+        self, name: str, entity_type: str,
+        summary: str | None = None,
+        disambiguator: str | None = None,
+        mention_count: int | None = None,
+    ) -> None:
+        """Update profile properties on an Entity node in Neo4j."""
+        props: dict = {}
+        if summary is not None:
+            props["summary"] = summary
+        if disambiguator is not None:
+            props["disambiguator"] = disambiguator
+        if mention_count is not None:
+            props["mention_count"] = mention_count
+        if not props:
+            return
+        with self._driver.session() as session:
+            session.run(
+                "MATCH (e:Entity {name: $name, type: $type}) SET e += $props",
+                name=name, type=entity_type, props=props,
+            )
+
     def clear_all(self) -> None:
         """Delete everything in the graph (for full reindex)."""
         with self._driver.session() as session:

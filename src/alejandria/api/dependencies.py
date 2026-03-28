@@ -60,6 +60,18 @@ def get_kg_extractor():
 
 
 @lru_cache
+def get_profile_store():
+    """Get ProfileStore instance for entity profiles."""
+    try:
+        from alejandria.knowledge.profile_store import ProfileStore
+
+        return ProfileStore(settings.sqlite_db_path)
+    except Exception:
+        logger.warning("ProfileStore unavailable")
+        return None
+
+
+@lru_cache
 def get_pipeline() -> IngestionPipeline:
     return IngestionPipeline(
         registry=get_registry(),
@@ -67,4 +79,5 @@ def get_pipeline() -> IngestionPipeline:
         semantic_search=get_semantic_search(),
         neo4j_client=get_neo4j_client(),
         kg_extractor=get_kg_extractor(),
+        profile_store=get_profile_store(),
     )
