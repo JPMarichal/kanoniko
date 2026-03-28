@@ -67,9 +67,23 @@ class RAGPipeline:
     semantic_search: object | None = None  # SemanticSearch or None
     neo4j_client: object | None = None  # Neo4jClient or None
 
-    def ask(self, question: str, source_filter: str | None = None) -> ChatResponse:
-        """Answer a question using RAG over the corpus."""
-        # 1. Expand query for better retrieval
+    def ask(
+        self,
+        question: str,
+        source_filter: str | None = None,
+        provider_override: str | None = None,
+        model_override: str | None = None,
+    ) -> ChatResponse:
+        """Answer a question using RAG over the corpus.
+
+        Args:
+            question: The user's question.
+            source_filter: Optional corpus path filter.
+            provider_override: If set, use this LLM provider for the final
+                answer (query expansion and reranking still use the default).
+            model_override: If set, use this model name with the provider.
+        """
+        # 1. Expand query for better retrieval (always uses default LLM)
         fts_query = self._expand_query(question)
 
         # 2. Retrieve from all available search modes
@@ -81,11 +95,31 @@ class RAGPipeline:
         # 4. Assemble the context prompt
         context_text = self._build_context(sources, graph_context)
 
-        # 5. Call LLM
+        # 5. Call LLM — with optional provider/model override
         from alejandria.chat.llm import complete
 
         user_message = f"CONTEXT:\n{context_text}\n\nQUESTION:\n{question}"
-        llm_response = complete(SYSTEM_PROMPT, user_message)
+
+        # Temporarily swap provider/model if overrides are given
+        if provider_override or model_override:
+            orig_provider = settings.llm_provider
+            orig_model = settings.llm_model
+            orig_key = settings.llm_api_key
+            try:
+                if provider_override:
+                    settings.llm_provider = provider_override
+                    # Use alt key if switching to alt provider
+                    if provider_override == settings.llm_alt_provider and settings.llm_alt_api_key:
+                        settings.llm_api_key = settings.llm_alt_api_key
+                if model_override:
+                    settings.llm_model = model_override
+                llm_response = complete(SYSTEM_PROMPT, user_message)
+            finally:
+                settings.llm_provider = orig_provider
+                settings.llm_model = orig_model
+                settings.llm_api_key = orig_key
+        else:
+            llm_response = complete(SYSTEM_PROMPT, user_message)
 
         return ChatResponse(
             answer=llm_response.text,

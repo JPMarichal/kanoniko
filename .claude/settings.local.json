@@ -96,7 +96,11 @@
       "Bash(curl -s -X POST http://localhost:4300/search/text -H \"Content-Type: application/json\" -d \"{\"\"query\"\":\"\"meekness lowliness Holy Ghost Comforter hope perfect love\"\",\"\"limit\"\":3,\"\"source_filter\"\":\"\"moroni/8\"\"}\")",
       "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); r=d[''''results''''][0]; print\\(f''''{r[\"\"reference\"\"]}:\\\\n\\\\n{r[\"\"text\"\"]}''''\\)\")",
       "Bash(curl -s -X POST http://localhost:4300/search/text -H \"Content-Type: application/json\" -d \"{\"\"query\"\":\"\"Holy Ghost gifts Spirit wisdom knowledge faith heal miracles prophecy tongues\"\",\"\"limit\"\":3,\"\"source_filter\"\":\"\"dc/sections/46\"\"}\")",
-      "Bash(curl -s -X POST http://localhost:4300/search/text -H \"Content-Type: application/json\" -d \"{\"\"query\"\":\"\"first fruits repentance baptism meekness Holy Ghost Comforter hope perfect love\"\",\"\"limit\"\":1,\"\"source_filter\"\":\"\"moroni/8\"\"}\")"
+      "Bash(curl -s -X POST http://localhost:4300/search/text -H \"Content-Type: application/json\" -d \"{\"\"query\"\":\"\"first fruits repentance baptism meekness Holy Ghost Comforter hope perfect love\"\",\"\"limit\"\":1,\"\"source_filter\"\":\"\"moroni/8\"\"}\")",
+      "Bash(curl -s -X POST http://localhost:4300/chat -H \"Content-Type: application/json\" -d \"{\"\"question\"\":\"\"What happened when Jesus was crucified? Compare the different Gospel accounts.\"\"}\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f''''in={d[\"\"input_tokens\"\"]}, out={d[\"\"output_tokens\"\"]}, model={d[\"\"model\"\"]}''''\\)\")",
+      "Bash(curl -s -X POST http://localhost:4300/chat -H \"Content-Type: application/json\" -d \"{\"\"question\"\":\"\"Who was Amulek?\"\",\"\"provider\"\":\"\"anthropic\"\"}\")",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f''''Model: {d[\"\"model\"\"]}, tokens: {d[\"\"input_tokens\"\"]}+{d[\"\"output_tokens\"\"]}''''\\)\")"
     ]
   }
 }
