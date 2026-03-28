@@ -29,6 +29,32 @@ class SearchResponse(BaseModel):
     results: list[SearchResultItem]
 
 
+class HybridSearchRequest(BaseModel):
+    query: str = Field(..., min_length=1)
+    limit: int = Field(20, ge=1, le=100)
+    source_filter: str | None = None
+    text_weight: float = Field(0.4, ge=0.0, le=1.0)
+    semantic_weight: float = Field(0.6, ge=0.0, le=1.0)
+
+
+class HybridResultItem(BaseModel):
+    chunk_id: int
+    text: str
+    combined_score: float
+    text_score: float | None
+    semantic_score: float | None
+    file_path: str
+    chunk_index: int
+    metadata: dict
+
+
+class HybridSearchResponse(BaseModel):
+    query: str
+    mode: str
+    count: int
+    results: list[HybridResultItem]
+
+
 # --- Indexing ---
 
 class IndexTriggerRequest(BaseModel):
@@ -73,3 +99,5 @@ class HealthResponse(BaseModel):
     version: str
     fts_documents: int
     fts_chunks: int
+    semantic_available: bool
+    semantic_vectors: int | None = None
