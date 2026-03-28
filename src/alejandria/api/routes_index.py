@@ -94,6 +94,7 @@ def build_profiles(
             entity_types=req.entity_types,
             max_entities=req.max_entities or 50,
             force=req.force,
+            entity_names=req.entity_names,
         )
         return BuildProfilesResponse(**result)
     else:

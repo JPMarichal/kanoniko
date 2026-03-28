@@ -129,18 +129,27 @@ class KGExtractor:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
 
-    def _build_lookup(self) -> dict[str, tuple[str, str]]:
-        """Build a lowercase -> (canonical_name, type) lookup from gazetteers."""
-        lookup: dict[str, tuple[str, str]] = {}
+    def _build_lookup(self) -> dict[str, list[tuple[str, str]]]:
+        """Build a lowercase -> [(canonical_name, type), ...] lookup from gazetteers.
+
+        Multiple entities can share the same alias (e.g., "Mary" maps to both
+        Mary mother of Jesus and Mary sister of Martha). All are registered.
+        """
+        lookup: dict[str, list[tuple[str, str]]] = {}
         for entity_type, entries in self._gazetteer.items():
             for entry in entries:
                 name = entry["name"]
                 # Map canonical name
-                lookup[name.lower()] = (name, entity_type)
+                pair = (name, entity_type)
+                lookup.setdefault(name.lower(), [])
+                if pair not in lookup[name.lower()]:
+                    lookup[name.lower()].append(pair)
                 # Map aliases
                 for alias in entry.get("aliases", []):
                     if alias:
-                        lookup[alias.lower()] = (name, entity_type)
+                        lookup.setdefault(alias.lower(), [])
+                        if pair not in lookup[alias.lower()]:
+                            lookup[alias.lower()].append(pair)
         return lookup
 
     def _compile_gazetteer_regex(self) -> re.Pattern | None:
@@ -208,8 +217,7 @@ class KGExtractor:
         if self._gazetteer_re:
             for match in self._gazetteer_re.finditer(text_lower):
                 term = match.group(1).lower()
-                if term in self._lookup:
-                    canonical, entity_type = self._lookup[term]
+                for canonical, entity_type in self._lookup.get(term, []):
                     key = f"{canonical}:{entity_type}"
                     if key not in found_entities:
                         found_entities[key] = ExtractedEntity(
@@ -221,18 +229,19 @@ class KGExtractor:
                         gazetteer_spans.add((match.start(), match.end()))
         else:
             # Fallback: individual regex per term (slow but correct)
-            for term, (canonical, entity_type) in self._lookup.items():
+            for term, candidates in self._lookup.items():
                 pattern = r"\b" + re.escape(term) + r"\b"
                 for match in re.finditer(pattern, text_lower):
-                    key = f"{canonical}:{entity_type}"
-                    if key not in found_entities:
-                        found_entities[key] = ExtractedEntity(
-                            name=canonical,
-                            type=entity_type,
-                            span=(match.start(), match.end()),
-                            source="gazetteer",
-                        )
-                        gazetteer_spans.add((match.start(), match.end()))
+                    for canonical, entity_type in candidates:
+                        key = f"{canonical}:{entity_type}"
+                        if key not in found_entities:
+                            found_entities[key] = ExtractedEntity(
+                                name=canonical,
+                                type=entity_type,
+                                span=(match.start(), match.end()),
+                                source="gazetteer",
+                            )
+                            gazetteer_spans.add((match.start(), match.end()))
 
         # 2. spaCy NER — discover entities not in the gazetteer
         self._load_ner_models()
