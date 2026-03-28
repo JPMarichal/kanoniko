@@ -269,6 +269,85 @@ class IngestionPipeline:
         logger.info("Indexed %s (%d chunks)", rel_path, len(chunks))
         return len(chunks)
 
+    def rebuild_kg(self) -> dict:
+        """Rebuild ONLY the knowledge graph from already-indexed chunks in SQLite.
+
+        This is much faster than full_reindex because it skips parsing,
+        chunking, embedding, FTS, and Qdrant — only reads chunk text from
+        SQLite and runs the KG extractor against the current gazetteers.
+
+        Returns stats dict with counts.
+        """
+        if not self._neo4j or not self._kg_extractor:
+            return {"error": "Neo4j or KG extractor not available"}
+
+        import time
+
+        start = time.time()
+
+        # Clear existing KG data
+        logger.info("KG rebuild: clearing existing graph...")
+        self._neo4j.clear_all()
+
+        # Read all chunks from SQLite
+        conn = self._textual.get_connection()
+        rows = conn.execute(
+            "SELECT file_path, chunk_index, text FROM chunks ORDER BY file_path, chunk_index"
+        ).fetchall()
+        conn.close()
+
+        total_chunks = len(rows)
+        logger.info("KG rebuild: processing %d chunks...", total_chunks)
+
+        entities_found = 0
+        relations_found = 0
+        documents_seen: set[str] = set()
+
+        for i, row in enumerate(rows):
+            file_path = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
+            text = row[2] if isinstance(row, (list, tuple)) else row["text"]
+
+            # Ensure document node exists
+            if file_path not in documents_seen:
+                source = _extract_source(file_path)
+                self._neo4j.merge_document(file_path, source)
+                documents_seen.add(file_path)
+
+            # Extract entities and relations
+            extraction = self._kg_extractor.extract(text, source_file=file_path)
+
+            for entity in extraction.entities:
+                self._neo4j.merge_entity(entity.name, entity.type)
+                self._neo4j.link_entity_to_document(entity.name, entity.type, file_path)
+                entities_found += 1
+
+            for rel in extraction.relations:
+                self._neo4j.merge_relation(
+                    from_name=rel.from_entity,
+                    from_type=rel.from_type,
+                    rel_type=rel.relation,
+                    to_name=rel.to_entity,
+                    to_type=rel.to_type,
+                )
+                relations_found += 1
+
+            if (i + 1) % 1000 == 0:
+                logger.info("KG rebuild: %d/%d chunks processed...", i + 1, total_chunks)
+
+        elapsed = time.time() - start
+        stats = {
+            "chunks_processed": total_chunks,
+            "documents": len(documents_seen),
+            "entity_mentions": entities_found,
+            "relation_mentions": relations_found,
+            "elapsed_seconds": round(elapsed, 1),
+        }
+        logger.info(
+            "KG rebuild complete: %d chunks, %d entities, %d relations in %.1fs",
+            total_chunks, entities_found, relations_found, elapsed,
+        )
+        return stats
+
     def _delete_file(self, file_path: str) -> None:
         """Remove a file from all indices."""
         conn = self._textual.get_connection()

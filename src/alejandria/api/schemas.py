@@ -152,6 +152,7 @@ class ChatRequest(BaseModel):
     source_filter: str | None = Field(None, description="Filter by corpus subdirectory")
     provider: str | None = Field(None, description="LLM provider override: 'anthropic', 'gemini', 'openai'")
     model: str | None = Field(None, description="LLM model override, e.g. 'gemini-2.5-flash'")
+    tier: str | None = Field(None, description="Tier override: 'fast', 'balanced', 'quality', or a model ID")
 
 
 class ChatSourceItem(BaseModel):
@@ -168,6 +169,7 @@ class ChatResponse(BaseModel):
     sources: list[ChatSourceItem]
     graph_context: str | None = None
     model: str
+    tier: str = ""
     input_tokens: int
     output_tokens: int
 

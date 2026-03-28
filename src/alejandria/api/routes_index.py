@@ -47,3 +47,16 @@ def trigger_indexing(
         errors=stats.errors,
         total_chunks=stats.total_chunks,
     )
+
+
+@router.post("/rebuild-kg")
+def rebuild_kg(
+    pipeline: IngestionPipeline = Depends(get_pipeline),
+) -> dict:
+    """Rebuild the knowledge graph from already-indexed chunks.
+
+    Much faster than full reindex — skips parsing, chunking, embeddings.
+    Only re-runs the KG extractor with current gazetteers against existing
+    chunk text in SQLite. Use after expanding gazetteers.
+    """
+    return pipeline.rebuild_kg()

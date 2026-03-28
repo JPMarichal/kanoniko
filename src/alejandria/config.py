@@ -44,10 +44,20 @@ class Settings(BaseSettings):
     llm_max_tokens: int = 2048
     llm_temperature: float = 0.3
 
-    # Alternative LLM (for A/B comparison via /chat/compare endpoint)
+    # Per-provider API keys (preferred over llm_api_key/llm_alt_api_key)
+    llm_anthropic_api_key: str = ""
+    llm_gemini_api_key: str = ""
+    llm_openai_api_key: str = ""
+    llm_deepseek_api_key: str = ""
+
+    # Alternative LLM (legacy — kept for /chat/compare backward compat)
     llm_alt_provider: str = ""  # e.g., "gemini"
     llm_alt_model: str = ""  # e.g., "gemini-2.5-flash"
     llm_alt_api_key: str = ""
+
+    # Tiered model selection
+    llm_answer_tier: str = "auto"   # "auto", "fast", "balanced", "quality", or a model ID
+    llm_internal_tier: str = "fast"  # Tier for internal calls (expansion, reranking)
 
     # RAG
     rag_context_chunks: int = 12  # Max chunks to include in final context
