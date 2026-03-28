@@ -36,6 +36,11 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
     "neo4j>=5.0"
 
+# MCP + CLI deps
+RUN pip install --no-cache-dir \
+    "click>=8.1" \
+    "mcp>=1.0"
+
 # Copy source and install package
 COPY src/ ./src/
 COPY docker/entrypoint.sh /app/entrypoint.sh
