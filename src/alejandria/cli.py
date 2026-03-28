@@ -230,6 +230,43 @@ def graph_summary(as_json: bool) -> None:
 # ---------------------------------------------------------------------------
 
 @cli.command()
+@click.argument("question")
+@click.option("-s", "--source", default=None, help="Filter by corpus subdirectory")
+@click.option("--json", "as_json", is_flag=True, help="Output raw JSON")
+def ask(question: str, source: str | None, as_json: bool) -> None:
+    """Ask a question (RAG-powered answer from the corpus)."""
+    from alejandria.config import settings
+    if not settings.llm_api_key:
+        click.echo("Error: ALEJANDRIA_LLM_API_KEY not set in .env", err=True)
+        sys.exit(1)
+    from alejandria.chat.rag import RAGPipeline
+    pipeline = RAGPipeline(
+        textual_search=_textual(),
+        semantic_search=_semantic(),
+        neo4j_client=_neo4j(),
+    )
+    result = pipeline.ask(question=question, source_filter=source)
+    if as_json:
+        _json_out({
+            "answer": result.answer,
+            "sources": [
+                {"file_path": s.file_path, "chunk_index": s.chunk_index, "mode": s.mode}
+                for s in result.sources
+            ],
+            "graph_context": result.graph_context,
+            "model": result.model,
+            "input_tokens": result.input_tokens,
+            "output_tokens": result.output_tokens,
+        })
+        return
+    click.echo(result.answer)
+    click.echo(f"\n--- Sources ({len(result.sources)}) ---")
+    for s in result.sources:
+        click.echo(f"  [{s.mode}] {s.file_path} chunk {s.chunk_index}")
+    click.echo(f"\n[{result.model} | {result.input_tokens} in / {result.output_tokens} out]")
+
+
+@cli.command()
 @click.option("--json", "as_json", is_flag=True, help="Output raw JSON")
 def status(as_json: bool) -> None:
     """Show system status."""

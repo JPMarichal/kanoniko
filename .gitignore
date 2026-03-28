@@ -24,8 +24,9 @@ data/
 *.db
 *.sqlite
 
-# Docker
+# Docker / secrets
 .env
+docker/.env
 
 # OS
 Thumbs.db

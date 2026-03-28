@@ -165,6 +165,22 @@ TOOLS = [
         description="Get system health: indexed documents, chunks, vectors, graph nodes.",
         inputSchema={"type": "object", "properties": {}},
     ),
+    Tool(
+        name="ask",
+        description=(
+            "Ask a question about the scriptures or gospel and get an AI-generated answer "
+            "grounded in the corpus. Uses RAG: retrieves from text, semantic, and knowledge "
+            "graph search, then generates an answer with citations. Bilingual ES/EN."
+        ),
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "question": {"type": "string", "description": "Question to answer"},
+                "source_filter": {"type": "string", "description": "Filter by corpus subdirectory"},
+            },
+            "required": ["question"],
+        },
+    ),
 ]
 
 
@@ -202,6 +218,8 @@ def _dispatch(name: str, args: dict) -> dict:
         return _do_graph_docs(args)
     elif name == "corpus_status":
         return _do_corpus_status()
+    elif name == "ask":
+        return _do_ask(args)
     else:
         return {"error": f"Unknown tool: {name}"}
 
@@ -368,6 +386,33 @@ def _do_corpus_status() -> dict:
         except Exception:
             pass
     return result
+
+
+def _do_ask(args: dict) -> dict:
+    from alejandria.config import settings
+    if not settings.llm_api_key:
+        return {"error": "Chat unavailable: ALEJANDRIA_LLM_API_KEY not set"}
+    from alejandria.chat.rag import RAGPipeline
+    pipeline = RAGPipeline(
+        textual_search=_get_textual(),
+        semantic_search=_get_semantic(),
+        neo4j_client=_get_neo4j(),
+    )
+    result = pipeline.ask(
+        question=args["question"],
+        source_filter=args.get("source_filter"),
+    )
+    return {
+        "answer": result.answer,
+        "sources": [
+            {"file_path": s.file_path, "chunk_index": s.chunk_index, "mode": s.mode}
+            for s in result.sources
+        ],
+        "graph_context": result.graph_context,
+        "model": result.model,
+        "input_tokens": result.input_tokens,
+        "output_tokens": result.output_tokens,
+    }
 
 
 # ---------------------------------------------------------------------------

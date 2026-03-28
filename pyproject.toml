@@ -32,6 +32,10 @@ graph = [
 mcp = [
     "mcp>=1.0",
 ]
+chat = [
+    "anthropic>=0.40",
+    "openai>=1.50",
+]
 
 [project.scripts]
 alejandria = "alejandria.cli:main"

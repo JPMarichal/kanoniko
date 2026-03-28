@@ -36,6 +36,18 @@ class Settings(BaseSettings):
     index_interval_seconds: int = 300
     supported_extensions: list[str] = [".md", ".txt", ".html", ".json"]
 
+    # LLM (for RAG chat)
+    llm_provider: str = "anthropic"  # "anthropic" or "openai"
+    llm_model: str = "claude-haiku-4-5-20251001"
+    llm_api_key: str = ""
+    llm_base_url: str | None = None  # For OpenAI-compatible endpoints
+    llm_max_tokens: int = 2048
+    llm_temperature: float = 0.3
+
+    # RAG
+    rag_context_chunks: int = 8  # Max chunks to include in context
+    rag_search_limit: int = 15  # Candidates per search mode before dedup
+
     # Server
     host: str = "0.0.0.0"
     port: int = 4300

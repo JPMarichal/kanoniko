@@ -143,6 +143,30 @@ class DocumentListResponse(BaseModel):
     documents: list[DocumentListItem]
 
 
+# --- Chat (RAG) ---
+
+class ChatRequest(BaseModel):
+    question: str = Field(..., min_length=1, description="User question")
+    source_filter: str | None = Field(None, description="Filter by corpus subdirectory")
+
+
+class ChatSourceItem(BaseModel):
+    text: str
+    file_path: str
+    chunk_index: int
+    score: float
+    mode: str
+
+
+class ChatResponse(BaseModel):
+    answer: str
+    sources: list[ChatSourceItem]
+    graph_context: str | None = None
+    model: str
+    input_tokens: int
+    output_tokens: int
+
+
 # --- Health ---
 
 class HealthResponse(BaseModel):

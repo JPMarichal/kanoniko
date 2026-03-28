@@ -41,6 +41,11 @@ RUN pip install --no-cache-dir \
     "click>=8.1" \
     "mcp>=1.0"
 
+# Chat (RAG) deps
+RUN pip install --no-cache-dir \
+    "anthropic>=0.40" \
+    "openai>=1.50"
+
 # Copy source and install package
 COPY src/ ./src/
 COPY docker/entrypoint.sh /app/entrypoint.sh
