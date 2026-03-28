@@ -91,6 +91,16 @@ class TextualSearch:
         cursor = conn.execute("DELETE FROM chunks WHERE file_path = ?", (file_path,))
         return cursor.rowcount
 
+    @staticmethod
+    def _sanitize_fts_query(query: str) -> str:
+        """Strip FTS5 special characters to avoid syntax errors."""
+        # Remove characters that FTS5 interprets as operators
+        import re
+        sanitized = re.sub(r'[*?:^~()"{}]', " ", query)
+        # Collapse whitespace
+        sanitized = " ".join(sanitized.split())
+        return sanitized
+
     def search(
         self,
         query: str,
@@ -100,6 +110,7 @@ class TextualSearch:
         """Search using BM25 ranking."""
         if not query.strip():
             return []
+        query = self._sanitize_fts_query(query)
 
         with self._conn() as conn:
             if file_path_filter:
