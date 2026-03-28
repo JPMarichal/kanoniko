@@ -322,6 +322,14 @@ class KGExtractor:
             if re.match(r"^\d+\s+\w", name):
                 continue
 
+            # Skip entities that contain KJV/archaic verbs — NER artifacts like
+            # "Mary hath", "Jacob begat Judas", "Jesus saith"
+            if re.search(
+                r"\b(?:hath|begat|saith|spake|smote|doth|shalt|wilt|cometh|goeth|maketh|taketh|dwelt)\b",
+                name, re.IGNORECASE,
+            ):
+                continue
+
             # Clean up: remove leading numbers (verse numbers)
             name = re.sub(r"^\d+\s+", "", name).strip()
             if len(name) < _MIN_ENTITY_LEN:

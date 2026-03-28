@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from fastapi import APIRouter, Depends, HTTPException
 
-from alejandria.api.dependencies import get_neo4j_client
+from alejandria.api.dependencies import get_neo4j_client, get_profile_store
 from alejandria.api.schemas import (
+    EntityProfileListResponse,
+    EntityProfileResponse,
     GraphDocsResponse,
     GraphEdgeItem,
     GraphNeighborsRequest,
@@ -96,3 +98,41 @@ def graph_docs(
     """Find documents that mention a specific entity."""
     docs = neo4j.get_documents_for_entity(entity_name)
     return GraphDocsResponse(entity=entity_name, documents=docs)
+
+
+@router.get("/profile/{entity_name}", response_model=EntityProfileResponse)
+def entity_profile(
+    entity_name: str,
+    entity_type: str | None = None,
+    profile_store=Depends(get_profile_store),
+):
+    """Get the entity profile for a named entity."""
+    if profile_store is None:
+        raise HTTPException(503, "Profile store is not available")
+    profile = profile_store.get_profile(entity_name, entity_type)
+    if profile is None:
+        raise HTTPException(404, f"No profile found for '{entity_name}'")
+    return EntityProfileResponse(**profile.to_dict())
+
+
+@router.get("/profiles", response_model=EntityProfileListResponse)
+def list_profiles(
+    entity_type: str | None = None,
+    status: str | None = None,
+    min_mentions: int = 0,
+    limit: int = 50,
+    offset: int = 0,
+    search: str | None = None,
+    profile_store=Depends(get_profile_store),
+):
+    """List entity profiles with optional filters."""
+    if profile_store is None:
+        raise HTTPException(503, "Profile store is not available")
+    if search:
+        profiles = profile_store.find_profiles(search, entity_type, limit)
+    else:
+        profiles = profile_store.get_all(entity_type, status, min_mentions, limit, offset)
+    return EntityProfileListResponse(
+        count=len(profiles),
+        profiles=[EntityProfileResponse(**p.to_dict()) for p in profiles],
+    )

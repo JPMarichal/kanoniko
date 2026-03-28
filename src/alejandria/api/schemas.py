@@ -108,6 +108,45 @@ class GraphDocsResponse(BaseModel):
     documents: list[dict]
 
 
+# --- Entity Profiles ---
+
+class EntityProfileResponse(BaseModel):
+    entity_name: str
+    entity_type: str
+    mention_count: int
+    document_count: int
+    books: list[str]
+    key_passages: list[dict]
+    aliases: list[str]
+    disambiguator: str | None = None
+    summary_en: str | None = None
+    summary_es: str | None = None
+    disambiguation_notes: str | None = None
+    profile_version: int
+    status: str
+
+
+class EntityProfileListResponse(BaseModel):
+    count: int
+    profiles: list[EntityProfileResponse]
+
+
+class BuildProfilesRequest(BaseModel):
+    phase: str = Field("metadata", description="Phase to run: 'metadata' or 'generate'")
+    entity_types: list[str] | None = Field(None, description="Filter to specific types, e.g. ['person']")
+    max_entities: int = Field(0, ge=0, description="Max entities to process. 0 = all")
+    force: bool = Field(False, description="Force regeneration even if already profiled (generate phase)")
+
+
+class BuildProfilesResponse(BaseModel):
+    entities_processed: int
+    elapsed_seconds: float
+    profiles_generated: int | None = None
+    disambiguations: int | None = None
+    input_tokens: int | None = None
+    output_tokens: int | None = None
+
+
 # --- Indexing ---
 
 class IndexTriggerRequest(BaseModel):

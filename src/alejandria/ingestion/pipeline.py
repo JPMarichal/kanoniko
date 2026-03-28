@@ -18,6 +18,14 @@ from alejandria.ingestion.scripture_meta import (
 )
 from alejandria.search.textual import TextualSearch
 
+# Optional profile store
+try:
+    from alejandria.knowledge.profile_store import EntityProfile, ProfileStore
+
+    _PROFILES_AVAILABLE = True
+except ImportError:
+    _PROFILES_AVAILABLE = False
+
 logger = logging.getLogger(__name__)
 
 # Optional semantic search — None when Qdrant is not available
@@ -58,12 +66,14 @@ class IngestionPipeline:
         semantic_search: SemanticSearch | None = None,
         neo4j_client: Neo4jClient | None = None,
         kg_extractor: KGExtractor | None = None,
+        profile_store: ProfileStore | None = None,
     ) -> None:
         self._registry = registry
         self._textual = textual_search
         self._semantic = semantic_search
         self._neo4j = neo4j_client
         self._kg_extractor = kg_extractor
+        self._profile_store = profile_store
 
     def run(self, full_reindex: bool = False) -> IndexingStats:
         """Execute an indexing run.
@@ -352,6 +362,159 @@ class IngestionPipeline:
         )
         return stats
 
+    def build_metadata_profiles(
+        self,
+        entity_types: list[str] | None = None,
+        max_entities: int = 0,
+        max_passages: int = 10,
+    ) -> dict:
+        """Build metadata-only entity profiles from Neo4j + SQLite.
+
+        Phase 1 of entity profiles — no LLM calls, purely computational.
+        Reads entity mentions from Neo4j, fetches text snippets from SQLite
+        chunks, and stores aggregated profiles in ProfileStore.
+
+        Args:
+            entity_types: Filter to specific types (e.g. ["person"]). None = all.
+            max_entities: Limit how many entities to process. 0 = all.
+            max_passages: Max key passages per entity.
+
+        Returns stats dict.
+        """
+        if not self._neo4j:
+            return {"error": "Neo4j not available"}
+        if not self._profile_store:
+            return {"error": "ProfileStore not available"}
+
+        import time
+
+        start = time.time()
+
+        # Build reverse lookup: canonical_name -> all aliases (from gazetteer)
+        gazetteer_aliases: dict[str, list[str]] = {}
+        if self._kg_extractor:
+            for term, (canonical, _) in self._kg_extractor._lookup.items():
+                if canonical not in gazetteer_aliases:
+                    gazetteer_aliases[canonical] = []
+                if term.lower() != canonical.lower():
+                    gazetteer_aliases[canonical].append(term)
+
+        # 1. Bulk query: all entities with their documents from Neo4j
+        logger.info("Profile build: querying entity mentions from Neo4j...")
+        all_mentions = self._neo4j.get_all_entity_mentions()
+
+        if entity_types:
+            type_set = set(entity_types)
+            all_mentions = [m for m in all_mentions if m["type"] in type_set]
+
+        if max_entities > 0:
+            all_mentions = all_mentions[:max_entities]
+
+        total = len(all_mentions)
+        logger.info("Profile build: processing %d entities...", total)
+
+        # 2. For each entity, query SQLite chunks from its documents, extract snippets
+        profiles: list[EntityProfile] = []
+        conn = self._textual.get_connection()
+
+        try:
+            for i, mention in enumerate(all_mentions):
+                name = mention["name"]
+                entity_type = mention["type"]
+                aliases = mention.get("aliases") or []
+                file_paths = mention["file_paths"]
+                doc_count = mention["doc_count"]
+
+                # Build searchable names: canonical + Neo4j aliases + gazetteer aliases
+                search_names = [name]
+                if aliases and isinstance(aliases, list):
+                    search_names.extend(a for a in aliases if a)
+                # Add gazetteer aliases (often richer than Neo4j's)
+                for ga in gazetteer_aliases.get(name, []):
+                    search_names.append(ga)
+                # Deduplicate preserving order
+                seen_names: set[str] = set()
+                unique_names: list[str] = []
+                for sn in search_names:
+                    if sn.lower() not in seen_names:
+                        seen_names.add(sn.lower())
+                        unique_names.append(sn)
+
+                # Query chunks that contain ANY of the searchable names
+                placeholders = ",".join("?" * len(file_paths))
+                like_clauses = " OR ".join(["LOWER(text) LIKE ?"] * len(unique_names))
+                like_params = [f"%{sn.lower()}%" for sn in unique_names]
+                rows = conn.execute(
+                    f"SELECT file_path, chunk_index, text, reference "
+                    f"FROM chunks WHERE file_path IN ({placeholders}) "
+                    f"AND ({like_clauses}) "
+                    f"ORDER BY file_path, chunk_index",
+                    [*file_paths, *like_params],
+                ).fetchall()
+
+                mention_count = len(rows)
+
+                # Extract books from file_paths
+                books = sorted({_extract_book(fp) for fp in file_paths if _extract_book(fp)})
+
+                # Build key passages: pick top N by relevance (first mention per document)
+                seen_docs: set[str] = set()
+                key_passages: list[dict] = []
+                for row in rows:
+                    fp = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
+                    if fp in seen_docs:
+                        continue
+                    seen_docs.add(fp)
+
+                    text = row[2] if isinstance(row, (list, tuple)) else row["text"]
+                    ref = row[3] if isinstance(row, (list, tuple)) else row["reference"]
+
+                    # Extract snippet — try each name variant, use first match
+                    snippet = None
+                    for sn in unique_names:
+                        if sn.lower() in text.lower():
+                            snippet = _extract_snippet(text, sn, max_len=200)
+                            break
+                    if snippet is None:
+                        snippet = text[:200] + ("..." if len(text) > 200 else "")
+
+                    passage = {"reference": ref or fp, "snippet": snippet}
+                    key_passages.append(passage)
+                    if len(key_passages) >= max_passages:
+                        break
+
+                profile = EntityProfile(
+                    entity_name=name,
+                    entity_type=entity_type,
+                    mention_count=mention_count,
+                    document_count=doc_count,
+                    books=books,
+                    key_passages=key_passages,
+                    aliases=[n for n in unique_names[1:] if n],  # all names except canonical
+                    status="metadata",
+                )
+                profiles.append(profile)
+
+                if (i + 1) % 200 == 0:
+                    logger.info(
+                        "Profile build: %d/%d entities (%.0f%%)...",
+                        i + 1, total, (i + 1) / total * 100,
+                    )
+        finally:
+            conn.close()
+
+        # 3. Batch upsert into ProfileStore
+        logger.info("Profile build: saving %d profiles...", len(profiles))
+        self._profile_store.upsert_batch(profiles)
+
+        elapsed = time.time() - start
+        stats = {
+            "entities_processed": len(profiles),
+            "elapsed_seconds": round(elapsed, 1),
+        }
+        logger.info("Profile build complete: %d entities in %.1fs", len(profiles), elapsed)
+        return stats
+
     def _delete_file(self, file_path: str) -> None:
         """Remove a file from all indices."""
         conn = self._textual.get_connection()
@@ -385,3 +548,42 @@ def _extract_lang(rel_path: str) -> str | None:
     if parts and parts[0] in ("en", "es"):
         return parts[0]
     return None
+
+
+def _extract_book(rel_path: str) -> str | None:
+    """Extract the book name from a corpus file path.
+
+    Examples:
+        en/scriptures/book-of-mormon/alma/32.txt -> Alma
+        es/scriptures/old-testament/genesis/1.txt -> Genesis
+        en/general-conference/2023/04/talk.txt -> general-conference/2023/04
+    """
+    parts = rel_path.replace("\\", "/").split("/")
+    # Scripture files: lang/scriptures/volume/book/chapter.txt
+    if len(parts) >= 4 and "scriptures" in parts:
+        idx = parts.index("scriptures")
+        if idx + 2 < len(parts):
+            return parts[idx + 2].replace("-", " ").title()
+    # Non-scripture: return category/subdirectory
+    if len(parts) >= 3:
+        return "/".join(parts[1:-1])
+    return None
+
+
+def _extract_snippet(text: str, entity_name: str, max_len: int = 200) -> str:
+    """Extract a short snippet from text centered around the entity mention."""
+    idx = text.lower().find(entity_name.lower())
+    if idx == -1:
+        return text[:max_len] + ("..." if len(text) > max_len else "")
+
+    # Center the window around the mention
+    half = max_len // 2
+    start = max(0, idx - half)
+    end = min(len(text), idx + len(entity_name) + half)
+    snippet = text[start:end].strip()
+
+    if start > 0:
+        snippet = "..." + snippet
+    if end < len(text):
+        snippet = snippet + "..."
+    return snippet

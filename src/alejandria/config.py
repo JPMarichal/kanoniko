@@ -59,6 +59,10 @@ class Settings(BaseSettings):
     llm_answer_tier: str = "auto"   # "auto", "fast", "balanced", "quality", or a model ID
     llm_internal_tier: str = "fast"  # Tier for internal calls (expansion, reranking)
 
+    # Entity Profiles
+    profile_max_passages: int = 10  # Max key passages per entity profile
+    profile_llm_tier: str = "fast"  # LLM tier for profile generation (Phase 2)
+
     # RAG
     rag_context_chunks: int = 12  # Max chunks to include in final context
     rag_search_limit: int = 25  # Candidates per search mode before RRF
