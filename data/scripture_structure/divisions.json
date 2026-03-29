@@ -1,0 +1,120 @@
+[
+  {
+    "mysql_id": 1,
+    "volume_slug": "ot",
+    "name_es": "La Ley",
+    "name_en": "The Law (Pentateuch)"
+  },
+  {
+    "mysql_id": 2,
+    "volume_slug": "ot",
+    "name_es": "Libros históricos (AT)",
+    "name_en": "Historical Books (OT)"
+  },
+  {
+    "mysql_id": 3,
+    "volume_slug": "ot",
+    "name_es": "Libros poéticos",
+    "name_en": "Wisdom and Poetry"
+  },
+  {
+    "mysql_id": 4,
+    "volume_slug": "ot",
+    "name_es": "Profetas mayores",
+    "name_en": "Major Prophets"
+  },
+  {
+    "mysql_id": 5,
+    "volume_slug": "ot",
+    "name_es": "Profetas menores",
+    "name_en": "Minor Prophets"
+  },
+  {
+    "mysql_id": 6,
+    "volume_slug": "nt",
+    "name_es": "Los evangelios",
+    "name_en": "The Gospels"
+  },
+  {
+    "mysql_id": 7,
+    "volume_slug": "nt",
+    "name_es": "Libros históricos (NT)",
+    "name_en": "Historical Books (NT)"
+  },
+  {
+    "mysql_id": 8,
+    "volume_slug": "nt",
+    "name_es": "Epístolas paulinas",
+    "name_en": "Pauline Epistles"
+  },
+  {
+    "mysql_id": 9,
+    "volume_slug": "nt",
+    "name_es": "Epístolas universales",
+    "name_en": "General Epistles"
+  },
+  {
+    "mysql_id": 10,
+    "volume_slug": "nt",
+    "name_es": "Libros proféticos",
+    "name_en": "Prophetic Books"
+  },
+  {
+    "mysql_id": 11,
+    "volume_slug": "bom",
+    "name_es": "Planchas menores",
+    "name_en": "Small Plates"
+  },
+  {
+    "mysql_id": 12,
+    "volume_slug": "bom",
+    "name_es": "Puente editorial",
+    "name_en": "Editorial Bridge"
+  },
+  {
+    "mysql_id": 13,
+    "volume_slug": "bom",
+    "name_es": "Planchas mayores",
+    "name_en": "Large Plates"
+  },
+  {
+    "mysql_id": 14,
+    "volume_slug": "bom",
+    "name_es": "Escritos de Mormón",
+    "name_en": "Writings of Mormon"
+  },
+  {
+    "mysql_id": 15,
+    "volume_slug": "bom",
+    "name_es": "Adiciones de Moroni",
+    "name_en": "Additions of Moroni"
+  },
+  {
+    "mysql_id": 18,
+    "volume_slug": "pgp",
+    "name_es": "Relacionados con el Antiguo Testamento",
+    "name_en": "Old Testament Related"
+  },
+  {
+    "mysql_id": 19,
+    "volume_slug": "pgp",
+    "name_es": "Relacionados con el Nuevo Testamento",
+    "name_en": "New Testament Related"
+  },
+  {
+    "mysql_id": 20,
+    "volume_slug": "pgp",
+    "name_es": "Relacionados con la Restauración",
+    "name_en": "Restoration Related"
+  },
+  {
+    "mysql_id": null,
+    "mysql_source_ids": [
+      16,
+      17
+    ],
+    "volume_slug": "dc",
+    "name_es": "Revelaciones de los últimos días",
+    "name_en": "Latter-day Revelations"
+  }
+]

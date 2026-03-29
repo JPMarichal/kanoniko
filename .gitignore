@@ -21,6 +21,7 @@ env/
 
 # Data (persistent volumes, not in repo)
 data/
+!data/scripture_structure/
 *.db
 *.sqlite
 
