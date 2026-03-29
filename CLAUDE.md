@@ -50,14 +50,15 @@ The system generates scripture references (e.g., "Matthew 1:25", "1 Nefi 3:7") p
 
 Download scriptures: `REQUESTS_CA_BUNDLE=docker/ca-certificates.crt python scripts/download_scriptures.py`
 
-## Phases
+## Phases (Completed)
 
-1. ~~Foundation: parsers, chunker, FTS5, incremental indexing, REST API~~ (done)
-2. ~~Semantic search: Qdrant + multilingual embeddings + hybrid search~~ (done)
-3. ~~Knowledge graph: Neo4j + gazetteers + relation extraction~~ (done)
-4. ~~MCP adapter, CLI, polish~~ (done)
-5. Corpus + RAG: scripture download, verse-level references, chat endpoint (in progress)
-6. Chat client UI, ETL templates, fine-tuning, advanced relations
+1. ~~Foundation: parsers, chunker, FTS5, incremental indexing, REST API~~
+2. ~~Semantic search: Qdrant + multilingual embeddings + hybrid search~~
+3. ~~Knowledge graph: Neo4j + gazetteers + relation extraction~~
+4. ~~MCP adapter, CLI, polish~~
+5. ~~Corpus + RAG: scripture download, verse-level references, chat endpoint, entity profiles, disambiguation, profile-enriched RAG, volume-diverse passage selection, staleness tracking, language-aware stopword filtering~~
+
+Future work is organized as an **incubator of independent projects** — see `docs/roadmap.md`.
 
 ## Running
 
