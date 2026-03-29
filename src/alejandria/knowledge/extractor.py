@@ -114,17 +114,22 @@ class ExtractionResult:
     scripture_refs: list[str] = field(default_factory=list)
 
 
-# Short gazetteer terms that collide with common English/Spanish words.
-# These are excluded from the main \b regex to avoid thousands of false
-# positives, but matched via contextual phrases in a secondary pass so the
-# actual biblical entities (On = Heliopolis, Put = son of Ham, etc.) are
-# still discoverable.
-_STOPWORD_ALIASES = frozenset({
+# Short gazetteer terms that collide with common words, split by language.
+# A term is only excluded when processing text in that language.
+# "On" is a stopword in English but NOT in Spanish, so Spanish texts will
+# match On/Put/So directly while English texts use contextual phrases.
+_STOPWORDS_EN = frozenset({
     "on", "so", "no", "or", "an", "as", "at", "be", "by", "do", "go",
     "he", "if", "in", "is", "it", "me", "my", "of", "to", "up", "us",
-    "we", "am", "put", "set", "ye", "ha", "yo", "es", "en", "al", "el",
-    "la", "lo", "un", "si", "ni", "ya",
+    "we", "am", "put", "set", "ye",
 })
+_STOPWORDS_ES = frozenset({
+    "ha", "yo", "es", "en", "al", "el", "la", "lo", "un", "si", "ni",
+    "ya", "no", "an", "as",
+})
+# Union of both for the static lookup/regex (built once at init time).
+# The extract() method uses the language-specific set at runtime.
+_STOPWORD_ALIASES = _STOPWORDS_EN | _STOPWORDS_ES
 
 # Contextual phrase patterns for stopword-colliding entities.
 # Each entry maps a canonical entity name and type to regex patterns that
@@ -171,6 +176,10 @@ class KGExtractor:
         self._gazetteer = self._load_gazetteer(gazetteer_path or _GAZETTEER_PATH)
         self._lookup = self._build_lookup()
         self._gazetteer_re = self._compile_gazetteer_regex()
+        # Language-specific lookups for terms that are stopwords in one language
+        # but valid entity names in the other.
+        self._en_only_stopwords = self._build_lang_specific_lookup(_STOPWORDS_EN - _STOPWORDS_ES)
+        self._es_only_stopwords = self._build_lang_specific_lookup(_STOPWORDS_ES - _STOPWORDS_EN)
         self._nlp_en = None  # Lazy-loaded
         self._nlp_es = None  # Lazy-loaded
         self._ner_available = None  # None = not checked yet
@@ -204,6 +213,29 @@ class KGExtractor:
                             lookup.setdefault(akey, [])
                             if pair not in lookup[akey]:
                                 lookup[akey].append(pair)
+        return lookup
+
+    def _build_lang_specific_lookup(
+        self, stopwords: frozenset[str],
+    ) -> dict[str, list[tuple[str, str]]]:
+        """Build a lookup for terms that are stopwords in ONE language only.
+
+        When processing Spanish text, we can safely match terms that are only
+        stopwords in English (e.g., "on", "put", "so") via simple \\b regex
+        because they won't cause false positives in Spanish.
+        """
+        lookup: dict[str, list[tuple[str, str]]] = {}
+        for entity_type, entries in self._gazetteer.items():
+            for entry in entries:
+                name = entry["name"]
+                pair = (name, entity_type)
+                all_names = [name] + [a for a in entry.get("aliases", []) if a]
+                for n in all_names:
+                    key = n.lower()
+                    if key in stopwords:
+                        lookup.setdefault(key, [])
+                        if pair not in lookup[key]:
+                            lookup[key].append(pair)
         return lookup
 
     def _compile_gazetteer_regex(self) -> re.Pattern | None:
@@ -263,6 +295,13 @@ class KGExtractor:
         result = ExtractionResult()
         text_lower = text.lower()
 
+        # Detect language early — needed for stopword-aware matching
+        lang = "en"
+        if source_file:
+            parts = source_file.replace("\\", "/").split("/")
+            if parts and parts[0] == "es":
+                lang = "es"
+
         # 1. Gazetteer-based entity extraction (takes precedence)
         #    Uses pre-compiled single regex for O(n) scanning instead of O(n*m) loop
         found_entities: dict[str, ExtractedEntity] = {}
@@ -315,16 +354,27 @@ class KGExtractor:
                     )
                     break
 
+        # 1c. Cross-language stopword matching.
+        #     Terms like "on", "put", "so" are stopwords in English but valid
+        #     proper nouns in Spanish text (and vice versa). When processing
+        #     Spanish, directly match English-only stopwords via \b regex.
+        cross_lookup = self._en_only_stopwords if lang == "es" else self._es_only_stopwords
+        for term, candidates in cross_lookup.items():
+            pattern = r"\b" + re.escape(term) + r"\b"
+            if re.search(pattern, text_lower):
+                for canonical, entity_type in candidates:
+                    key = f"{canonical}:{entity_type}"
+                    if key not in found_entities:
+                        found_entities[key] = ExtractedEntity(
+                            name=canonical,
+                            type=entity_type,
+                            span=(0, 0),
+                            source="gazetteer_crosslang",
+                        )
+
         # 2. spaCy NER — discover entities not in the gazetteer
         self._load_ner_models()
         if self._ner_available:
-            # Detect language from source_file path
-            lang = "en"
-            if source_file:
-                parts = source_file.replace("\\", "/").split("/")
-                if parts and parts[0] == "es":
-                    lang = "es"
-
             nlp = self._nlp_es if lang == "es" and self._nlp_es else self._nlp_en
             if nlp:
                 ner_entities = self._extract_ner(nlp, text, found_entities, gazetteer_spans)
