@@ -1,0 +1,16 @@
+{
+  "found": 1582,
+  "missing": [
+    {
+      "corpus_path": "dc/official-declarations/1.txt",
+      "reference_es": "Declaración oficial 1",
+      "mysql_id": 1567
+    },
+    {
+      "corpus_path": "dc/official-declarations/2.txt",
+      "reference_es": "Declaración oficial 2",
+      "mysql_id": 1568
+    }
+  ],
+  "skipped": 3
+}

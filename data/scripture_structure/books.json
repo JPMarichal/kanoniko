@@ -1,0 +1,882 @@
+[
+  {
+    "mysql_id": 1,
+    "division_name_es": "La Ley",
+    "volume_slug": "ot",
+    "book_slug": "genesis",
+    "name_es": "Génesis",
+    "name_en": "Genesis",
+    "abbreviation_es": "Gén.",
+    "abbreviation_en": "Gen."
+  },
+  {
+    "mysql_id": 2,
+    "division_name_es": "La Ley",
+    "volume_slug": "ot",
+    "book_slug": "exodus",
+    "name_es": "Éxodo",
+    "name_en": "Exodus",
+    "abbreviation_es": "Éx.",
+    "abbreviation_en": "Ex."
+  },
+  {
+    "mysql_id": 3,
+    "division_name_es": "La Ley",
+    "volume_slug": "ot",
+    "book_slug": "leviticus",
+    "name_es": "Levítico",
+    "name_en": "Leviticus",
+    "abbreviation_es": "Lev.",
+    "abbreviation_en": "Lev."
+  },
+  {
+    "mysql_id": 4,
+    "division_name_es": "La Ley",
+    "volume_slug": "ot",
+    "book_slug": "numbers",
+    "name_es": "Números",
+    "name_en": "Numbers",
+    "abbreviation_es": "Núm.",
+    "abbreviation_en": "Num."
+  },
+  {
+    "mysql_id": 5,
+    "division_name_es": "La Ley",
+    "volume_slug": "ot",
+    "book_slug": "deuteronomy",
+    "name_es": "Deuteronomio",
+    "name_en": "Deuteronomy",
+    "abbreviation_es": "Deut.",
+    "abbreviation_en": "Deut."
+  },
+  {
+    "mysql_id": 6,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "joshua",
+    "name_es": "Josué",
+    "name_en": "Joshua",
+    "abbreviation_es": "Josué",
+    "abbreviation_en": "Josh."
+  },
+  {
+    "mysql_id": 7,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "judges",
+    "name_es": "Jueces",
+    "name_en": "Judges",
+    "abbreviation_es": "Jue.",
+    "abbreviation_en": "Judg."
+  },
+  {
+    "mysql_id": 8,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "ruth",
+    "name_es": "Rut",
+    "name_en": "Ruth",
+    "abbreviation_es": "Rut",
+    "abbreviation_en": "Ruth"
+  },
+  {
+    "mysql_id": 9,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "1-samuel",
+    "name_es": "1 Samuel",
+    "name_en": "1 Samuel",
+    "abbreviation_es": "1 Sam.",
+    "abbreviation_en": "1 Sam."
+  },
+  {
+    "mysql_id": 10,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "2-samuel",
+    "name_es": "2 Samuel",
+    "name_en": "2 Samuel",
+    "abbreviation_es": "2 Sam.",
+    "abbreviation_en": "2 Sam."
+  },
+  {
+    "mysql_id": 11,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "1-kings",
+    "name_es": "1 Reyes",
+    "name_en": "1 Kings",
+    "abbreviation_es": "1 Rey.",
+    "abbreviation_en": "1 Kgs."
+  },
+  {
+    "mysql_id": 12,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "2-kings",
+    "name_es": "2 Reyes",
+    "name_en": "2 Kings",
+    "abbreviation_es": "2 Rey.",
+    "abbreviation_en": "2 Kgs."
+  },
+  {
+    "mysql_id": 13,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "1-chronicles",
+    "name_es": "1 Crónicas",
+    "name_en": "1 Chronicles",
+    "abbreviation_es": "1 Cró.",
+    "abbreviation_en": "1 Chr."
+  },
+  {
+    "mysql_id": 14,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "2-chronicles",
+    "name_es": "2 Crónicas",
+    "name_en": "2 Chronicles",
+    "abbreviation_es": "2 Cró.",
+    "abbreviation_en": "2 Chr."
+  },
+  {
+    "mysql_id": 15,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "ezra",
+    "name_es": "Esdras",
+    "name_en": "Ezra",
+    "abbreviation_es": "Esd.",
+    "abbreviation_en": "Ezra"
+  },
+  {
+    "mysql_id": 16,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "nehemiah",
+    "name_es": "Nehemías",
+    "name_en": "Nehemiah",
+    "abbreviation_es": "Neh.",
+    "abbreviation_en": "Neh."
+  },
+  {
+    "mysql_id": 17,
+    "division_name_es": "Libros históricos (AT)",
+    "volume_slug": "ot",
+    "book_slug": "esther",
+    "name_es": "Ester",
+    "name_en": "Esther",
+    "abbreviation_es": "Ester",
+    "abbreviation_en": "Esth."
+  },
+  {
+    "mysql_id": 18,
+    "division_name_es": "Libros poéticos",
+    "volume_slug": "ot",
+    "book_slug": "job",
+    "name_es": "Job",
+    "name_en": "Job",
+    "abbreviation_es": "Job",
+    "abbreviation_en": "Job"
+  },
+  {
+    "mysql_id": 19,
+    "division_name_es": "Libros poéticos",
+    "volume_slug": "ot",
+    "book_slug": "psalms",
+    "name_es": "Salmos",
+    "name_en": "Psalms",
+    "abbreviation_es": "Sal.",
+    "abbreviation_en": "Ps."
+  },
+  {
+    "mysql_id": 20,
+    "division_name_es": "Libros poéticos",
+    "volume_slug": "ot",
+    "book_slug": "proverbs",
+    "name_es": "Proverbios",
+    "name_en": "Proverbs",
+    "abbreviation_es": "Prov.",
+    "abbreviation_en": "Prov."
+  },
+  {
+    "mysql_id": 21,
+    "division_name_es": "Libros poéticos",
+    "volume_slug": "ot",
+    "book_slug": "ecclesiastes",
+    "name_es": "Eclesiastés",
+    "name_en": "Ecclesiastes",
+    "abbreviation_es": "Ecle.",
+    "abbreviation_en": "Eccl."
+  },
+  {
+    "mysql_id": 22,
+    "division_name_es": "Libros poéticos",
+    "volume_slug": "ot",
+    "book_slug": "song-of-solomon",
+    "name_es": "Cantares",
+    "name_en": "Song of Solomon",
+    "abbreviation_es": "Cant.",
+    "abbreviation_en": "Song"
+  },
+  {
+    "mysql_id": 23,
+    "division_name_es": "Profetas mayores",
+    "volume_slug": "ot",
+    "book_slug": "isaiah",
+    "name_es": "Isaías",
+    "name_en": "Isaiah",
+    "abbreviation_es": "Isa.",
+    "abbreviation_en": "Isa."
+  },
+  {
+    "mysql_id": 24,
+    "division_name_es": "Profetas mayores",
+    "volume_slug": "ot",
+    "book_slug": "jeremiah",
+    "name_es": "Jeremías",
+    "name_en": "Jeremiah",
+    "abbreviation_es": "Jer.",
+    "abbreviation_en": "Jer."
+  },
+  {
+    "mysql_id": 25,
+    "division_name_es": "Profetas mayores",
+    "volume_slug": "ot",
+    "book_slug": "lamentations",
+    "name_es": "Lamentaciones",
+    "name_en": "Lamentations",
+    "abbreviation_es": "Lam.",
+    "abbreviation_en": "Lam."
+  },
+  {
+    "mysql_id": 26,
+    "division_name_es": "Profetas mayores",
+    "volume_slug": "ot",
+    "book_slug": "ezekiel",
+    "name_es": "Ezequiel",
+    "name_en": "Ezekiel",
+    "abbreviation_es": "Ezeq.",
+    "abbreviation_en": "Ezek."
+  },
+  {
+    "mysql_id": 27,
+    "division_name_es": "Profetas mayores",
+    "volume_slug": "ot",
+    "book_slug": "daniel",
+    "name_es": "Daniel",
+    "name_en": "Daniel",
+    "abbreviation_es": "Dan.",
+    "abbreviation_en": "Dan."
+  },
+  {
+    "mysql_id": 28,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "hosea",
+    "name_es": "Oseas",
+    "name_en": "Hosea",
+    "abbreviation_es": "Oseas",
+    "abbreviation_en": "Hosea"
+  },
+  {
+    "mysql_id": 29,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "joel",
+    "name_es": "Joel",
+    "name_en": "Joel",
+    "abbreviation_es": "Joel",
+    "abbreviation_en": "Joel"
+  },
+  {
+    "mysql_id": 30,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "amos",
+    "name_es": "Amós",
+    "name_en": "Amos",
+    "abbreviation_es": "Amós",
+    "abbreviation_en": "Amos"
+  },
+  {
+    "mysql_id": 31,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "obadiah",
+    "name_es": "Abdías",
+    "name_en": "Obadiah",
+    "abbreviation_es": "Abd.",
+    "abbreviation_en": "Obad."
+  },
+  {
+    "mysql_id": 32,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "jonah",
+    "name_es": "Jonás",
+    "name_en": "Jonah",
+    "abbreviation_es": "Jonás",
+    "abbreviation_en": "Jonah"
+  },
+  {
+    "mysql_id": 33,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "micah",
+    "name_es": "Miqueas",
+    "name_en": "Micah",
+    "abbreviation_es": "Miq.",
+    "abbreviation_en": "Micah"
+  },
+  {
+    "mysql_id": 34,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "nahum",
+    "name_es": "Nahúm",
+    "name_en": "Nahum",
+    "abbreviation_es": "Nahúm",
+    "abbreviation_en": "Nahum"
+  },
+  {
+    "mysql_id": 35,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "habakkuk",
+    "name_es": "Habacuc",
+    "name_en": "Habakkuk",
+    "abbreviation_es": "Hab.",
+    "abbreviation_en": "Hab."
+  },
+  {
+    "mysql_id": 36,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "zephaniah",
+    "name_es": "Sofonías",
+    "name_en": "Zephaniah",
+    "abbreviation_es": "Sof.",
+    "abbreviation_en": "Zeph."
+  },
+  {
+    "mysql_id": 37,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "haggai",
+    "name_es": "Hageo",
+    "name_en": "Haggai",
+    "abbreviation_es": "Hageo",
+    "abbreviation_en": "Hag."
+  },
+  {
+    "mysql_id": 38,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "zechariah",
+    "name_es": "Zacarías",
+    "name_en": "Zechariah",
+    "abbreviation_es": "Zac.",
+    "abbreviation_en": "Zech."
+  },
+  {
+    "mysql_id": 39,
+    "division_name_es": "Profetas menores",
+    "volume_slug": "ot",
+    "book_slug": "malachi",
+    "name_es": "Malaquías",
+    "name_en": "Malachi",
+    "abbreviation_es": "Mal.",
+    "abbreviation_en": "Mal."
+  },
+  {
+    "mysql_id": 40,
+    "division_name_es": "Los evangelios",
+    "volume_slug": "nt",
+    "book_slug": "matthew",
+    "name_es": "Mateo",
+    "name_en": "Matthew",
+    "abbreviation_es": "Mateo",
+    "abbreviation_en": "Matt."
+  },
+  {
+    "mysql_id": 41,
+    "division_name_es": "Los evangelios",
+    "volume_slug": "nt",
+    "book_slug": "mark",
+    "name_es": "Marcos",
+    "name_en": "Mark",
+    "abbreviation_es": "Mar.",
+    "abbreviation_en": "Mark"
+  },
+  {
+    "mysql_id": 42,
+    "division_name_es": "Los evangelios",
+    "volume_slug": "nt",
+    "book_slug": "luke",
+    "name_es": "Lucas",
+    "name_en": "Luke",
+    "abbreviation_es": "Lucas",
+    "abbreviation_en": "Luke"
+  },
+  {
+    "mysql_id": 43,
+    "division_name_es": "Los evangelios",
+    "volume_slug": "nt",
+    "book_slug": "john",
+    "name_es": "Juan",
+    "name_en": "John",
+    "abbreviation_es": "Juan",
+    "abbreviation_en": "John"
+  },
+  {
+    "mysql_id": 44,
+    "division_name_es": "Libros históricos (NT)",
+    "volume_slug": "nt",
+    "book_slug": "acts",
+    "name_es": "Hechos",
+    "name_en": "Acts",
+    "abbreviation_es": "Hech.",
+    "abbreviation_en": "Acts"
+  },
+  {
+    "mysql_id": 45,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "romans",
+    "name_es": "Romanos",
+    "name_en": "Romans",
+    "abbreviation_es": "Rom.",
+    "abbreviation_en": "Rom."
+  },
+  {
+    "mysql_id": 46,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "1-corinthians",
+    "name_es": "1 Corintios",
+    "name_en": "1 Corinthians",
+    "abbreviation_es": "1 Cor.",
+    "abbreviation_en": "1 Cor."
+  },
+  {
+    "mysql_id": 47,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "2-corinthians",
+    "name_es": "2 Corintios",
+    "name_en": "2 Corinthians",
+    "abbreviation_es": "2 Cor.",
+    "abbreviation_en": "2 Cor."
+  },
+  {
+    "mysql_id": 48,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "galatians",
+    "name_es": "Gálatas",
+    "name_en": "Galatians",
+    "abbreviation_es": "Gál.",
+    "abbreviation_en": "Gal."
+  },
+  {
+    "mysql_id": 49,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "ephesians",
+    "name_es": "Efesios",
+    "name_en": "Ephesians",
+    "abbreviation_es": "Efe.",
+    "abbreviation_en": "Eph."
+  },
+  {
+    "mysql_id": 50,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "philippians",
+    "name_es": "Filipenses",
+    "name_en": "Philippians",
+    "abbreviation_es": "Filip.",
+    "abbreviation_en": "Philip."
+  },
+  {
+    "mysql_id": 51,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "colossians",
+    "name_es": "Colosenses",
+    "name_en": "Colossians",
+    "abbreviation_es": "Col.",
+    "abbreviation_en": "Col."
+  },
+  {
+    "mysql_id": 52,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "1-thessalonians",
+    "name_es": "1 Tesalonicenses",
+    "name_en": "1 Thessalonians",
+    "abbreviation_es": "1 Tes.",
+    "abbreviation_en": "1 Thes."
+  },
+  {
+    "mysql_id": 53,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "2-thessalonians",
+    "name_es": "2 Tesalonicenses",
+    "name_en": "2 Thessalonians",
+    "abbreviation_es": "2 Tes.",
+    "abbreviation_en": "2 Thes."
+  },
+  {
+    "mysql_id": 54,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "1-timothy",
+    "name_es": "1 Timoteo",
+    "name_en": "1 Timothy",
+    "abbreviation_es": "1 Tim.",
+    "abbreviation_en": "1 Tim."
+  },
+  {
+    "mysql_id": 55,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "2-timothy",
+    "name_es": "2 Timoteo",
+    "name_en": "2 Timothy",
+    "abbreviation_es": "2 Tim.",
+    "abbreviation_en": "2 Tim."
+  },
+  {
+    "mysql_id": 56,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "titus",
+    "name_es": "Tito",
+    "name_en": "Titus",
+    "abbreviation_es": "Tito",
+    "abbreviation_en": "Titus"
+  },
+  {
+    "mysql_id": 57,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "philemon",
+    "name_es": "Filemón",
+    "name_en": "Philemon",
+    "abbreviation_es": "Filem.",
+    "abbreviation_en": "Philem."
+  },
+  {
+    "mysql_id": 58,
+    "division_name_es": "Epístolas paulinas",
+    "volume_slug": "nt",
+    "book_slug": "hebrews",
+    "name_es": "Hebreos",
+    "name_en": "Hebrews",
+    "abbreviation_es": "Heb.",
+    "abbreviation_en": "Heb."
+  },
+  {
+    "mysql_id": 59,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "james",
+    "name_es": "Santiago",
+    "name_en": "James",
+    "abbreviation_es": "Stg.",
+    "abbreviation_en": "James"
+  },
+  {
+    "mysql_id": 60,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "1-peter",
+    "name_es": "1 Pedro",
+    "name_en": "1 Peter",
+    "abbreviation_es": "1 Pe.",
+    "abbreviation_en": "1 Pet."
+  },
+  {
+    "mysql_id": 61,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "2-peter",
+    "name_es": "2 Pedro",
+    "name_en": "2 Peter",
+    "abbreviation_es": "2 Pe.",
+    "abbreviation_en": "2 Pet."
+  },
+  {
+    "mysql_id": 62,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "1-john",
+    "name_es": "1 Juan",
+    "name_en": "1 John",
+    "abbreviation_es": "1 Juan",
+    "abbreviation_en": "1 Jn."
+  },
+  {
+    "mysql_id": 63,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "2-john",
+    "name_es": "2 Juan",
+    "name_en": "2 John",
+    "abbreviation_es": "2 Juan",
+    "abbreviation_en": "2 Jn."
+  },
+  {
+    "mysql_id": 64,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "3-john",
+    "name_es": "3 Juan",
+    "name_en": "3 John",
+    "abbreviation_es": "3 Juan",
+    "abbreviation_en": "3 Jn."
+  },
+  {
+    "mysql_id": 65,
+    "division_name_es": "Epístolas universales",
+    "volume_slug": "nt",
+    "book_slug": "jude",
+    "name_es": "Judas",
+    "name_en": "Jude",
+    "abbreviation_es": "Judas",
+    "abbreviation_en": "Jude"
+  },
+  {
+    "mysql_id": 66,
+    "division_name_es": "Libros proféticos",
+    "volume_slug": "nt",
+    "book_slug": "revelation",
+    "name_es": "Apocalipsis",
+    "name_en": "Revelation",
+    "abbreviation_es": "Apoc.",
+    "abbreviation_en": "Rev."
+  },
+  {
+    "mysql_id": 67,
+    "division_name_es": "Planchas menores",
+    "volume_slug": "bom",
+    "book_slug": "1-nephi",
+    "name_es": "1 Nefi",
+    "name_en": "1 Nephi",
+    "abbreviation_es": "1 Ne.",
+    "abbreviation_en": "1 Ne."
+  },
+  {
+    "mysql_id": 68,
+    "division_name_es": "Planchas menores",
+    "volume_slug": "bom",
+    "book_slug": "2-nephi",
+    "name_es": "2 Nefi",
+    "name_en": "2 Nephi",
+    "abbreviation_es": "2 Ne.",
+    "abbreviation_en": "2 Ne."
+  },
+  {
+    "mysql_id": 69,
+    "division_name_es": "Planchas menores",
+    "volume_slug": "bom",
+    "book_slug": "jacob",
+    "name_es": "Jacob",
+    "name_en": "Jacob",
+    "abbreviation_es": "Jacob",
+    "abbreviation_en": "Jacob"
+  },
+  {
+    "mysql_id": 70,
+    "division_name_es": "Planchas menores",
+    "volume_slug": "bom",
+    "book_slug": "enos",
+    "name_es": "Enós",
+    "name_en": "Enos",
+    "abbreviation_es": "Enós",
+    "abbreviation_en": "Enos"
+  },
+  {
+    "mysql_id": 71,
+    "division_name_es": "Planchas menores",
+    "volume_slug": "bom",
+    "book_slug": "jarom",
+    "name_es": "Jarom",
+    "name_en": "Jarom",
+    "abbreviation_es": "Jarom",
+    "abbreviation_en": "Jarom"
+  },
+  {
+    "mysql_id": 72,
+    "division_name_es": "Planchas menores",
+    "volume_slug": "bom",
+    "book_slug": "omni",
+    "name_es": "Omni",
+    "name_en": "Omni",
+    "abbreviation_es": "Omni",
+    "abbreviation_en": "Omni"
+  },
+  {
+    "mysql_id": 73,
+    "division_name_es": "Puente editorial",
+    "volume_slug": "bom",
+    "book_slug": "words-of-mormon",
+    "name_es": "Palabras de Mormón",
+    "name_en": "Words of Mormon",
+    "abbreviation_es": "P. de Morm.",
+    "abbreviation_en": "W of M"
+  },
+  {
+    "mysql_id": 74,
+    "division_name_es": "Planchas mayores",
+    "volume_slug": "bom",
+    "book_slug": "mosiah",
+    "name_es": "Mosíah",
+    "name_en": "Mosiah",
+    "abbreviation_es": "Mos.",
+    "abbreviation_en": "Mosiah"
+  },
+  {
+    "mysql_id": 75,
+    "division_name_es": "Planchas mayores",
+    "volume_slug": "bom",
+    "book_slug": "alma",
+    "name_es": "Alma",
+    "name_en": "Alma",
+    "abbreviation_es": "Alma",
+    "abbreviation_en": "Alma"
+  },
+  {
+    "mysql_id": 76,
+    "division_name_es": "Planchas mayores",
+    "volume_slug": "bom",
+    "book_slug": "helaman",
+    "name_es": "Helamán",
+    "name_en": "Helaman",
+    "abbreviation_es": "Hel.",
+    "abbreviation_en": "Hel."
+  },
+  {
+    "mysql_id": 77,
+    "division_name_es": "Planchas mayores",
+    "volume_slug": "bom",
+    "book_slug": "3-nephi",
+    "name_es": "3 Nefi",
+    "name_en": "3 Nephi",
+    "abbreviation_es": "3 Ne.",
+    "abbreviation_en": "3 Ne."
+  },
+  {
+    "mysql_id": 78,
+    "division_name_es": "Planchas mayores",
+    "volume_slug": "bom",
+    "book_slug": "4-nephi",
+    "name_es": "4 Nefi",
+    "name_en": "4 Nephi",
+    "abbreviation_es": "4 Ne.",
+    "abbreviation_en": "4 Ne."
+  },
+  {
+    "mysql_id": 79,
+    "division_name_es": "Escritos de Mormón",
+    "volume_slug": "bom",
+    "book_slug": "mormon",
+    "name_es": "Mormón",
+    "name_en": "Mormon",
+    "abbreviation_es": "Morm.",
+    "abbreviation_en": "Morm."
+  },
+  {
+    "mysql_id": 80,
+    "division_name_es": "Adiciones de Moroni",
+    "volume_slug": "bom",
+    "book_slug": "ether",
+    "name_es": "Éter",
+    "name_en": "Ether",
+    "abbreviation_es": "Éter",
+    "abbreviation_en": "Ether"
+  },
+  {
+    "mysql_id": 81,
+    "division_name_es": "Adiciones de Moroni",
+    "volume_slug": "bom",
+    "book_slug": "moroni",
+    "name_es": "Moroni",
+    "name_en": "Moroni",
+    "abbreviation_es": "Moro.",
+    "abbreviation_en": "Moro."
+  },
+  {
+    "mysql_id": 82,
+    "division_name_es": "Revelaciones de los últimos días",
+    "volume_slug": "dc",
+    "book_slug": "sections",
+    "name_es": "Secciones",
+    "name_en": "Sections",
+    "abbreviation_es": "DyC",
+    "abbreviation_en": "D&C"
+  },
+  {
+    "mysql_id": 83,
+    "division_name_es": "Revelaciones de los últimos días",
+    "volume_slug": "dc",
+    "book_slug": "official-declarations",
+    "name_es": "Declaraciones oficiales",
+    "name_en": "Official Declarations",
+    "abbreviation_es": "DO",
+    "abbreviation_en": "OD"
+  },
+  {
+    "mysql_id": 84,
+    "division_name_es": "Relacionados con el Antiguo Testamento",
+    "volume_slug": "pgp",
+    "book_slug": "moses",
+    "name_es": "Moisés",
+    "name_en": "Moses",
+    "abbreviation_es": "Moisés",
+    "abbreviation_en": "Moses"
+  },
+  {
+    "mysql_id": 85,
+    "division_name_es": "Relacionados con el Antiguo Testamento",
+    "volume_slug": "pgp",
+    "book_slug": "abraham",
+    "name_es": "Abraham",
+    "name_en": "Abraham",
+    "abbreviation_es": "Abr.",
+    "abbreviation_en": "Abr."
+  },
+  {
+    "mysql_id": 86,
+    "division_name_es": "Relacionados con el Nuevo Testamento",
+    "volume_slug": "pgp",
+    "book_slug": "js-matthew",
+    "name_es": "José Smith-Mateo",
+    "name_en": "Joseph Smith-Matthew",
+    "abbreviation_es": "JS-M",
+    "abbreviation_en": "JS-M"
+  },
+  {
+    "mysql_id": 87,
+    "division_name_es": "Relacionados con la Restauración",
+    "volume_slug": "pgp",
+    "book_slug": "js-history",
+    "name_es": "José Smith-Historia",
+    "name_en": "Joseph Smith-History",
+    "abbreviation_es": "JS-H",
+    "abbreviation_en": "JS-H"
+  },
+  {
+    "mysql_id": 88,
+    "division_name_es": "Relacionados con la Restauración",
+    "volume_slug": "pgp",
+    "book_slug": "articles-of-faith",
+    "name_es": "Artículos de Fe",
+    "name_en": "Articles of Faith",
+    "abbreviation_es": "AdeF",
+    "abbreviation_en": "A of F"
+  }
+]

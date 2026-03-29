@@ -1,0 +1,3503 @@
+[
+  {
+    "mysql_id": 1,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La Creación",
+    "name_en": "The Creation"
+  },
+  {
+    "mysql_id": 2,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La Caída",
+    "name_en": "The Fall"
+  },
+  {
+    "mysql_id": 3,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "El Diluvio",
+    "name_en": "The Flood"
+  },
+  {
+    "mysql_id": 4,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La dispersión de las naciones",
+    "name_en": "The Dispersion of Nations"
+  },
+  {
+    "mysql_id": 5,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Abraham",
+    "name_en": "Abraham"
+  },
+  {
+    "mysql_id": 6,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Isaac",
+    "name_en": "Isaac"
+  },
+  {
+    "mysql_id": 7,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "Jacob",
+    "name_en": "Jacob"
+  },
+  {
+    "mysql_id": 8,
+    "book_mysql_id": 1,
+    "book_slug": "genesis",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "José",
+    "name_en": "Joseph"
+  },
+  {
+    "mysql_id": 9,
+    "book_mysql_id": 2,
+    "book_slug": "exodus",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La necesidad de la redención",
+    "name_en": "The Need for Redemption"
+  },
+  {
+    "mysql_id": 10,
+    "book_mysql_id": 2,
+    "book_slug": "exodus",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Preparación de líderes para la redención",
+    "name_en": "Preparation of Leaders for Redemption"
+  },
+  {
+    "mysql_id": 11,
+    "book_mysql_id": 2,
+    "book_slug": "exodus",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "La liberación de Israel de la opresión egipcia",
+    "name_en": "The Deliverance of Israel from Egyptian Oppression"
+  },
+  {
+    "mysql_id": 12,
+    "book_mysql_id": 2,
+    "book_slug": "exodus",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La preservación de Israel en el desierto",
+    "name_en": "The Preservation of Israel in the Wilderness"
+  },
+  {
+    "mysql_id": 13,
+    "book_mysql_id": 2,
+    "book_slug": "exodus",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "La revelación del antiguo convenio",
+    "name_en": "The Revelation of the Old Covenant"
+  },
+  {
+    "mysql_id": 14,
+    "book_mysql_id": 2,
+    "book_slug": "exodus",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "La respuesta de Israel al convenio",
+    "name_en": "Israel's Response to the Covenant"
+  },
+  {
+    "mysql_id": 18,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Leyes sobre el sacrificio",
+    "name_en": "Laws of Sacrifice"
+  },
+  {
+    "mysql_id": 19,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Leyes sobre el sacerdocio aarónico",
+    "name_en": "Laws of the Aaronic Priesthood"
+  },
+  {
+    "mysql_id": 20,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Leyes sobre la purificación",
+    "name_en": "Laws of Purification"
+  },
+  {
+    "mysql_id": 21,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Leyes sobre la expiación nacional",
+    "name_en": "Laws of National Atonement"
+  },
+  {
+    "mysql_id": 22,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Leyes de santificación para el pueblo",
+    "name_en": "Laws of Sanctification for the People"
+  },
+  {
+    "mysql_id": 23,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Leyes de santificación para el sacerdocio",
+    "name_en": "Laws of Sanctification for the Priesthood"
+  },
+  {
+    "mysql_id": 24,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "Leyes de santificación para la adoración",
+    "name_en": "Laws of Sanctification for Worship"
+  },
+  {
+    "mysql_id": 25,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Leyes de santificación en la tierra prometida",
+    "name_en": "Laws of Sanctification in the Promised Land"
+  },
+  {
+    "mysql_id": 26,
+    "book_mysql_id": 3,
+    "book_slug": "leviticus",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Leyes de santificación por medio de votos",
+    "name_en": "Laws of Sanctification through Vows"
+  },
+  {
+    "mysql_id": 27,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La organización de Israel",
+    "name_en": "The Organization of Israel"
+  },
+  {
+    "mysql_id": 28,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La santificación de Israel",
+    "name_en": "The Sanctification of Israel"
+  },
+  {
+    "mysql_id": 29,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "El fracaso de Israel en camino a Cades",
+    "name_en": "Israel's Failure on the Way to Kadesh"
+  },
+  {
+    "mysql_id": 30,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "El fracaso de Israel en Cades",
+    "name_en": "Israel's Failure at Kadesh"
+  },
+  {
+    "mysql_id": 31,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "El fracaso de Israel en el desierto",
+    "name_en": "Israel's Failure in the Wilderness"
+  },
+  {
+    "mysql_id": 32,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "El fracaso de Israel en camino a Moab",
+    "name_en": "Israel's Failure on the Way to Moab"
+  },
+  {
+    "mysql_id": 33,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "La reorganización de Israel",
+    "name_en": "The Reorganization of Israel"
+  },
+  {
+    "mysql_id": 34,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Las regulaciones sobre ofrendas y votos",
+    "name_en": "Regulations on Offerings and Vows"
+  },
+  {
+    "mysql_id": 35,
+    "book_mysql_id": 4,
+    "book_slug": "numbers",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "La conquista y división de Israel",
+    "name_en": "The Conquest and Division of Israel"
+  },
+  {
+    "mysql_id": 36,
+    "book_mysql_id": 5,
+    "book_slug": "deuteronomy",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El primer discurso de Moisés",
+    "name_en": "Moses' First Discourse"
+  },
+  {
+    "mysql_id": 37,
+    "book_mysql_id": 5,
+    "book_slug": "deuteronomy",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "El segundo discurso de Moisés",
+    "name_en": "Moses' Second Discourse"
+  },
+  {
+    "mysql_id": 38,
+    "book_mysql_id": 5,
+    "book_slug": "deuteronomy",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "El tercer discurso de Moisés",
+    "name_en": "Moses' Third Discourse"
+  },
+  {
+    "mysql_id": 41,
+    "book_mysql_id": 5,
+    "book_slug": "deuteronomy",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La transición profética de Moisés a Josué",
+    "name_en": "The Prophetic Transition from Moses to Joshua"
+  },
+  {
+    "mysql_id": 42,
+    "book_mysql_id": 6,
+    "book_slug": "joshua",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La preparación de Israel para la conquista",
+    "name_en": "Israel's Preparation for the Conquest"
+  },
+  {
+    "mysql_id": 43,
+    "book_mysql_id": 6,
+    "book_slug": "joshua",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Israel conquista Canáan",
+    "name_en": "Israel Conquers Canaan"
+  },
+  {
+    "mysql_id": 44,
+    "book_mysql_id": 6,
+    "book_slug": "joshua",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Asentamiento al este del Jordán",
+    "name_en": "Settlement East of the Jordan"
+  },
+  {
+    "mysql_id": 45,
+    "book_mysql_id": 6,
+    "book_slug": "joshua",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Asentamiento al oeste del Jordán",
+    "name_en": "Settlement West of the Jordan"
+  },
+  {
+    "mysql_id": 46,
+    "book_mysql_id": 6,
+    "book_slug": "joshua",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Asentamiento de la tribu de Leví",
+    "name_en": "Settlement of the Tribe of Levi"
+  },
+  {
+    "mysql_id": 47,
+    "book_mysql_id": 6,
+    "book_slug": "joshua",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Las condiciones para la permanencia en Canáan",
+    "name_en": "Conditions for Remaining in Canaan"
+  },
+  {
+    "mysql_id": 48,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El fracaso de Israel en completar la conquista",
+    "name_en": "Israel's Failure to Complete the Conquest"
+  },
+  {
+    "mysql_id": 49,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Las consecuencias por no completar la conquista",
+    "name_en": "Consequences of Not Completing the Conquest"
+  },
+  {
+    "mysql_id": 50,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "La campaña del sur",
+    "name_en": "The Southern Campaign"
+  },
+  {
+    "mysql_id": 51,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La primera campaña del norte",
+    "name_en": "The First Northern Campaign"
+  },
+  {
+    "mysql_id": 52,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "La campaña central",
+    "name_en": "The Central Campaign"
+  },
+  {
+    "mysql_id": 53,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "La campaña del este y segunda campaña del norte",
+    "name_en": "The Eastern Campaign and Second Northern Campaign"
+  },
+  {
+    "mysql_id": 54,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "La campaña del oeste",
+    "name_en": "The Western Campaign"
+  },
+  {
+    "mysql_id": 55,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "El fracaso de Israel por la idolatría",
+    "name_en": "Israel's Failure through Idolatry"
+  },
+  {
+    "mysql_id": 56,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "El fracaso de Israel por la inmoralidad",
+    "name_en": "Israel's Failure through Immorality"
+  },
+  {
+    "mysql_id": 57,
+    "book_mysql_id": 7,
+    "book_slug": "judges",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "El fracaso de Israel por la guerra entre las tribus",
+    "name_en": "Israel's Failure through Intertribal War"
+  },
+  {
+    "mysql_id": 60,
+    "book_mysql_id": 8,
+    "book_slug": "ruth",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Rut procura la redención de Booz",
+    "name_en": "Ruth Seeks Redemption from Boaz"
+  },
+  {
+    "mysql_id": 61,
+    "book_mysql_id": 8,
+    "book_slug": "ruth",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Rut obtiene la redención de Booz",
+    "name_en": "Ruth Obtains Redemption from Boaz"
+  },
+  {
+    "mysql_id": 62,
+    "book_mysql_id": 9,
+    "book_slug": "1-samuel",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Primera transición: De Elí a Samuel",
+    "name_en": "First Transition: From Eli to Samuel"
+  },
+  {
+    "mysql_id": 63,
+    "book_mysql_id": 9,
+    "book_slug": "1-samuel",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La judicatura de Samuel",
+    "name_en": "The Judgeship of Samuel"
+  },
+  {
+    "mysql_id": 64,
+    "book_mysql_id": 9,
+    "book_slug": "1-samuel",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Segunda transición: De Samuel a Saúl",
+    "name_en": "Second Transition: From Samuel to Saul"
+  },
+  {
+    "mysql_id": 65,
+    "book_mysql_id": 9,
+    "book_slug": "1-samuel",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "El reinado de Saúl",
+    "name_en": "The Reign of Saul"
+  },
+  {
+    "mysql_id": 66,
+    "book_mysql_id": 9,
+    "book_slug": "1-samuel",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Tercera transición: De Saúl a David",
+    "name_en": "Third Transition: From Saul to David"
+  },
+  {
+    "mysql_id": 67,
+    "book_mysql_id": 10,
+    "book_slug": "2-samuel",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Triunfos políticos de David",
+    "name_en": "David's Political Triumphs"
+  },
+  {
+    "mysql_id": 68,
+    "book_mysql_id": 10,
+    "book_slug": "2-samuel",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Triunfos espirituales de David",
+    "name_en": "David's Spiritual Triumphs"
+  },
+  {
+    "mysql_id": 69,
+    "book_mysql_id": 10,
+    "book_slug": "2-samuel",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Triunfos militares de David",
+    "name_en": "David's Military Triumphs"
+  },
+  {
+    "mysql_id": 70,
+    "book_mysql_id": 10,
+    "book_slug": "2-samuel",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "El adulterio de David",
+    "name_en": "David's Adultery"
+  },
+  {
+    "mysql_id": 71,
+    "book_mysql_id": 10,
+    "book_slug": "2-samuel",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Problemas en la casa de David",
+    "name_en": "Troubles in David's House"
+  },
+  {
+    "mysql_id": 72,
+    "book_mysql_id": 10,
+    "book_slug": "2-samuel",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Problemas en el reino de David",
+    "name_en": "Troubles in David's Kingdom"
+  },
+  {
+    "mysql_id": 73,
+    "book_mysql_id": 11,
+    "book_slug": "1-kings",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El establecimiento de Salomón como rey",
+    "name_en": "The Establishment of Solomon as King"
+  },
+  {
+    "mysql_id": 74,
+    "book_mysql_id": 11,
+    "book_slug": "1-kings",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "El ascenso de Salomón como rey",
+    "name_en": "The Rise of Solomon as King"
+  },
+  {
+    "mysql_id": 75,
+    "book_mysql_id": 11,
+    "book_slug": "1-kings",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "El declive de Salomón como rey",
+    "name_en": "The Decline of Solomon as King"
+  },
+  {
+    "mysql_id": 76,
+    "book_mysql_id": 11,
+    "book_slug": "1-kings",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La división del reino",
+    "name_en": "The Division of the Kingdom"
+  },
+  {
+    "mysql_id": 77,
+    "book_mysql_id": 11,
+    "book_slug": "1-kings",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Los reinados de tres reyes en Judá y siete en Israel",
+    "name_en": "The Reigns of Three Kings in Judah and Seven in Israel"
+  },
+  {
+    "mysql_id": 78,
+    "book_mysql_id": 12,
+    "book_slug": "2-kings",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Enfasis en el reino del norte",
+    "name_en": "Emphasis on the Northern Kingdom"
+  },
+  {
+    "mysql_id": 79,
+    "book_mysql_id": 12,
+    "book_slug": "2-kings",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Enfasis en ambos reinos",
+    "name_en": "Emphasis on Both Kingdoms"
+  },
+  {
+    "mysql_id": 80,
+    "book_mysql_id": 12,
+    "book_slug": "2-kings",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Enfasis en el reino del sur",
+    "name_en": "Emphasis on the Southern Kingdom"
+  },
+  {
+    "mysql_id": 81,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Genealogías de Adán a Jacob",
+    "name_en": "Genealogies from Adam to Jacob"
+  },
+  {
+    "mysql_id": 82,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Genealogías de Jacob a David",
+    "name_en": "Genealogies from Jacob to David"
+  },
+  {
+    "mysql_id": 83,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Genealogías de David a la cautividad",
+    "name_en": "Genealogies from David to the Captivity"
+  },
+  {
+    "mysql_id": 84,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Genealogías de las doce tribus",
+    "name_en": "Genealogies of the Twelve Tribes"
+  },
+  {
+    "mysql_id": 85,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Genealogías del remanente y de Saúl",
+    "name_en": "Genealogies of the Remnant and of Saul"
+  },
+  {
+    "mysql_id": 86,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "La ascensión del rey David",
+    "name_en": "The Ascent of King David"
+  },
+  {
+    "mysql_id": 87,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "La adquisición del arca del convenio",
+    "name_en": "The Acquisition of the Ark of the Covenant"
+  },
+  {
+    "mysql_id": 88,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Las victorias militares del rey David",
+    "name_en": "The Military Victories of King David"
+  },
+  {
+    "mysql_id": 89,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Preparación y organización para el templo",
+    "name_en": "Preparation and Organization for the Temple"
+  },
+  {
+    "mysql_id": 90,
+    "book_mysql_id": 13,
+    "book_slug": "1-chronicles",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "Los últimos días del rey David",
+    "name_en": "The Last Days of King David"
+  },
+  {
+    "mysql_id": 94,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Reinado de Roboam",
+    "name_en": "Reign of Rehoboam"
+  },
+  {
+    "mysql_id": 95,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Reinado de Abías",
+    "name_en": "Reign of Abijah"
+  },
+  {
+    "mysql_id": 96,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Reinado de Asa",
+    "name_en": "Reign of Asa"
+  },
+  {
+    "mysql_id": 97,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "Reinado de Josafat",
+    "name_en": "Reign of Jehoshaphat"
+  },
+  {
+    "mysql_id": 98,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Reinado de Joram",
+    "name_en": "Reign of Jehoram"
+  },
+  {
+    "mysql_id": 99,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Reinado de Ocozías, Atalía y Joas",
+    "name_en": "Reign of Ahaziah, Athaliah, and Joash"
+  },
+  {
+    "mysql_id": 100,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "Reinado de Amasías",
+    "name_en": "Reign of Amaziah"
+  },
+  {
+    "mysql_id": 101,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 11,
+    "name_es": "Reinado de Uzías",
+    "name_en": "Reign of Uzziah"
+  },
+  {
+    "mysql_id": 102,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 12,
+    "name_es": "Reinado de Jotam",
+    "name_en": "Reign of Jotham"
+  },
+  {
+    "mysql_id": 103,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 13,
+    "name_es": "Reinado de Acaz",
+    "name_en": "Reign of Ahaz"
+  },
+  {
+    "mysql_id": 104,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 14,
+    "name_es": "Reinado de Ezequías",
+    "name_en": "Reign of Hezekiah"
+  },
+  {
+    "mysql_id": 105,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 15,
+    "name_es": "Reinados de Manasés y Amón",
+    "name_en": "Reigns of Manasseh and Amon"
+  },
+  {
+    "mysql_id": 106,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 16,
+    "name_es": "Reinado de Josías",
+    "name_en": "Reign of Josiah"
+  },
+  {
+    "mysql_id": 107,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 17,
+    "name_es": "Reinados de Joacaz, Joacim, Joaquín y Sedequías",
+    "name_en": "Reigns of Jehoahaz, Jehoiakim, Jehoiachin, and Zedekiah"
+  },
+  {
+    "mysql_id": 108,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La instalación de Salomón como rey",
+    "name_en": "The Installation of Solomon as King"
+  },
+  {
+    "mysql_id": 109,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La finalización del templo",
+    "name_en": "The Completion of the Temple"
+  },
+  {
+    "mysql_id": 110,
+    "book_mysql_id": 14,
+    "book_slug": "2-chronicles",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "El esplendor del reinado de Salomón",
+    "name_en": "The Splendor of Solomon's Reign"
+  },
+  {
+    "mysql_id": 112,
+    "book_mysql_id": 15,
+    "book_slug": "ezra",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Primer retorno a Jerusalén bajo Zorobabel",
+    "name_en": "First Return to Jerusalem under Zerubbabel"
+  },
+  {
+    "mysql_id": 113,
+    "book_mysql_id": 15,
+    "book_slug": "ezra",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La construción del templo",
+    "name_en": "The Building of the Temple"
+  },
+  {
+    "mysql_id": 114,
+    "book_mysql_id": 15,
+    "book_slug": "ezra",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Segundo retorno a Jerusalén bajo Esdrás",
+    "name_en": "Second Return to Jerusalem under Ezra"
+  },
+  {
+    "mysql_id": 115,
+    "book_mysql_id": 15,
+    "book_slug": "ezra",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La restauración del pueblo",
+    "name_en": "The Restoration of the People"
+  },
+  {
+    "mysql_id": 116,
+    "book_mysql_id": 16,
+    "book_slug": "nehemiah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La preparación para la reconstrucción del muro",
+    "name_en": "Preparation for Rebuilding the Wall"
+  },
+  {
+    "mysql_id": 117,
+    "book_mysql_id": 16,
+    "book_slug": "nehemiah",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La reconstrucción del muro",
+    "name_en": "The Rebuilding of the Wall"
+  },
+  {
+    "mysql_id": 118,
+    "book_mysql_id": 16,
+    "book_slug": "nehemiah",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "La renovación del convenio",
+    "name_en": "The Renewal of the Covenant"
+  },
+  {
+    "mysql_id": 119,
+    "book_mysql_id": 16,
+    "book_slug": "nehemiah",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La obediencia al convenio",
+    "name_en": "Obedience to the Covenant"
+  },
+  {
+    "mysql_id": 120,
+    "book_mysql_id": 17,
+    "book_slug": "esther",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La selección de Ester como reina",
+    "name_en": "The Selection of Esther as Queen"
+  },
+  {
+    "mysql_id": 121,
+    "book_mysql_id": 17,
+    "book_slug": "esther",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La conspiración de Amán",
+    "name_en": "Haman's Conspiracy"
+  },
+  {
+    "mysql_id": 122,
+    "book_mysql_id": 17,
+    "book_slug": "esther",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "El triunfo de Mardoqueo sobre Amán",
+    "name_en": "Mordecai's Triumph over Haman"
+  },
+  {
+    "mysql_id": 123,
+    "book_mysql_id": 17,
+    "book_slug": "esther",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "El triunfo de Israel sobre sus enemigos",
+    "name_en": "Israel's Triumph over Its Enemies"
+  },
+  {
+    "mysql_id": 124,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El dilema de Job",
+    "name_en": "Job's Dilemma"
+  },
+  {
+    "mysql_id": 125,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Primer ciclo de debate",
+    "name_en": "First Cycle of Debate"
+  },
+  {
+    "mysql_id": 126,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Segundo ciclo de debate",
+    "name_en": "Second Cycle of Debate"
+  },
+  {
+    "mysql_id": 127,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Tercer ciclo de debate",
+    "name_en": "Third Cycle of Debate"
+  },
+  {
+    "mysql_id": 128,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "La defensa final de Job",
+    "name_en": "Job's Final Defense"
+  },
+  {
+    "mysql_id": 129,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "La solución de Elihú",
+    "name_en": "Elihu's Solution"
+  },
+  {
+    "mysql_id": 130,
+    "book_mysql_id": 18,
+    "book_slug": "job",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "La redención de Job",
+    "name_en": "Job's Redemption"
+  },
+  {
+    "mysql_id": 131,
+    "book_mysql_id": 19,
+    "book_slug": "psalms",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Libro I de Salmos",
+    "name_en": "Book I of Psalms"
+  },
+  {
+    "mysql_id": 132,
+    "book_mysql_id": 19,
+    "book_slug": "psalms",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Libro II de Salmos",
+    "name_en": "Book II of Psalms"
+  },
+  {
+    "mysql_id": 133,
+    "book_mysql_id": 19,
+    "book_slug": "psalms",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Libro III de Salmos",
+    "name_en": "Book III of Psalms"
+  },
+  {
+    "mysql_id": 134,
+    "book_mysql_id": 19,
+    "book_slug": "psalms",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Libro IV de Salmos",
+    "name_en": "Book IV of Psalms"
+  },
+  {
+    "mysql_id": 135,
+    "book_mysql_id": 19,
+    "book_slug": "psalms",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Libro V de Salmos",
+    "name_en": "Book V of Psalms"
+  },
+  {
+    "mysql_id": 136,
+    "book_mysql_id": 20,
+    "book_slug": "proverbs",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Proverbios para la juventud",
+    "name_en": "Proverbs for Youth"
+  },
+  {
+    "mysql_id": 137,
+    "book_mysql_id": 20,
+    "book_slug": "proverbs",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Proverbios de Salomón",
+    "name_en": "Proverbs of Solomon"
+  },
+  {
+    "mysql_id": 138,
+    "book_mysql_id": 20,
+    "book_slug": "proverbs",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Proverbios de Salomón copiados por los hombres de Ezequías",
+    "name_en": "Proverbs of Solomon Copied by Hezekiah's Men"
+  },
+  {
+    "mysql_id": 139,
+    "book_mysql_id": 20,
+    "book_slug": "proverbs",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Las palabras de Agur",
+    "name_en": "The Words of Agur"
+  },
+  {
+    "mysql_id": 140,
+    "book_mysql_id": 20,
+    "book_slug": "proverbs",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Las palabras del rey Lemuel",
+    "name_en": "The Words of King Lemuel"
+  },
+  {
+    "mysql_id": 141,
+    "book_mysql_id": 21,
+    "book_slug": "ecclesiastes",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La prueba de que todo es vanidad por la experiencia",
+    "name_en": "Proof of Vanity through Experience"
+  },
+  {
+    "mysql_id": 142,
+    "book_mysql_id": 21,
+    "book_slug": "ecclesiastes",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La prueba de que todo es vanidad por la observación",
+    "name_en": "Proof of Vanity through Observation"
+  },
+  {
+    "mysql_id": 143,
+    "book_mysql_id": 21,
+    "book_slug": "ecclesiastes",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Cómo lidiar con la vanidad en un mundo inicuo",
+    "name_en": "Dealing with Vanity in a Wicked World"
+  },
+  {
+    "mysql_id": 144,
+    "book_mysql_id": 21,
+    "book_slug": "ecclesiastes",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Cómo lidiar con las incertidumbres",
+    "name_en": "Dealing with Uncertainties"
+  },
+  {
+    "mysql_id": 145,
+    "book_mysql_id": 22,
+    "book_slug": "song-of-solomon",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El despertar del amor",
+    "name_en": "The Awakening of Love"
+  },
+  {
+    "mysql_id": 146,
+    "book_mysql_id": 22,
+    "book_slug": "song-of-solomon",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "El florecimiento del amor",
+    "name_en": "The Flourishing of Love"
+  },
+  {
+    "mysql_id": 147,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Cargas contra Judá",
+    "name_en": "Burdens against Judah"
+  },
+  {
+    "mysql_id": 148,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Cargas contra las naciones",
+    "name_en": "Burdens against the Nations"
+  },
+  {
+    "mysql_id": 149,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Las profecías del día del Señor",
+    "name_en": "Prophecies of the Day of the Lord"
+  },
+  {
+    "mysql_id": 150,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Profecías de juicio y bendición",
+    "name_en": "Prophecies of Judgment and Blessing"
+  },
+  {
+    "mysql_id": 151,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Ezequías es librado de Asiria",
+    "name_en": "Hezekiah Is Delivered from Assyria"
+  },
+  {
+    "mysql_id": 152,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Ezequías es librado de la enfermedad",
+    "name_en": "Hezekiah Is Delivered from Illness"
+  },
+  {
+    "mysql_id": 153,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "El pecado de Ezequías",
+    "name_en": "Hezekiah's Sin"
+  },
+  {
+    "mysql_id": 154,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Profecías sobre la liberación de Israel",
+    "name_en": "Prophecies of Israel's Deliverance"
+  },
+  {
+    "mysql_id": 155,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Profecías sobre el Redentor de Israel",
+    "name_en": "Prophecies of the Redeemer of Israel"
+  },
+  {
+    "mysql_id": 156,
+    "book_mysql_id": 23,
+    "book_slug": "isaiah",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "Profecías sobre la gloria futura de Israel",
+    "name_en": "Prophecies of Israel's Future Glory"
+  },
+  {
+    "mysql_id": 157,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El llamamiento de Jeremías",
+    "name_en": "The Calling of Jeremiah"
+  },
+  {
+    "mysql_id": 158,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Condenación de Judá",
+    "name_en": "Condemnation of Judah"
+  },
+  {
+    "mysql_id": 159,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Conflictos de Jeremías",
+    "name_en": "Jeremiah's Conflicts"
+  },
+  {
+    "mysql_id": 160,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La restauración futura de Jerusalén",
+    "name_en": "The Future Restoration of Jerusalem"
+  },
+  {
+    "mysql_id": 161,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "La caída actual de Jerusalén",
+    "name_en": "The Present Fall of Jerusalem"
+  },
+  {
+    "mysql_id": 162,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Profecías contra Egipto",
+    "name_en": "Prophecies against Egypt"
+  },
+  {
+    "mysql_id": 163,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "Profecías contra Filistea",
+    "name_en": "Prophecies against Philistia"
+  },
+  {
+    "mysql_id": 164,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Profecías contra Moab",
+    "name_en": "Prophecies against Moab"
+  },
+  {
+    "mysql_id": 165,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Profecías contra Amón, Edom, Damasco, Cedar, Hazor y Elam",
+    "name_en": "Prophecies against Ammon, Edom, Damascus, Kedar, Hazor, and Elam"
+  },
+  {
+    "mysql_id": 166,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "Profecías contra Babilonia",
+    "name_en": "Prophecies against Babylon"
+  },
+  {
+    "mysql_id": 167,
+    "book_mysql_id": 24,
+    "book_slug": "jeremiah",
+    "volume_slug": "ot",
+    "order": 11,
+    "name_es": "La caída de Jerusalén y el exilio",
+    "name_en": "The Fall of Jerusalem and the Exile"
+  },
+  {
+    "mysql_id": 168,
+    "book_mysql_id": 25,
+    "book_slug": "lamentations",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La destrucción de Jerusalén",
+    "name_en": "The Destruction of Jerusalem"
+  },
+  {
+    "mysql_id": 169,
+    "book_mysql_id": 25,
+    "book_slug": "lamentations",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La ira de Dios",
+    "name_en": "The Wrath of God"
+  },
+  {
+    "mysql_id": 170,
+    "book_mysql_id": 25,
+    "book_slug": "lamentations",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Oración pidiendo misericordia",
+    "name_en": "Prayer for Mercy"
+  },
+  {
+    "mysql_id": 171,
+    "book_mysql_id": 25,
+    "book_slug": "lamentations",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La siega de Jerusalén",
+    "name_en": "The Harvest of Jerusalem"
+  },
+  {
+    "mysql_id": 172,
+    "book_mysql_id": 25,
+    "book_slug": "lamentations",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Oración por la restitución de Jerusalén",
+    "name_en": "Prayer for the Restoration of Jerusalem"
+  },
+  {
+    "mysql_id": 173,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Ezequiel contempla la gloria de Dios",
+    "name_en": "Ezekiel Beholds the Glory of God"
+  },
+  {
+    "mysql_id": 174,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Ezequiel es llamado a predicar",
+    "name_en": "Ezekiel Is Called to Preach"
+  },
+  {
+    "mysql_id": 175,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Cuatro señales del juicio venidero",
+    "name_en": "Four Signs of Coming Judgment"
+  },
+  {
+    "mysql_id": 176,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "Dos mensajes del juicio venidero",
+    "name_en": "Two Messages of Coming Judgment"
+  },
+  {
+    "mysql_id": 177,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "La visión del juicio venidero",
+    "name_en": "The Vision of Coming Judgment"
+  },
+  {
+    "mysql_id": 178,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "Señales, parábolas y mensajes de juicio",
+    "name_en": "Signs, Parables, and Messages of Judgment"
+  },
+  {
+    "mysql_id": 179,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "Juicios sobre Amón, Moab, Edom y Filistea",
+    "name_en": "Judgments on Ammon, Moab, Edom, and Philistia"
+  },
+  {
+    "mysql_id": 180,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Juicios sobre Tiro y Sidón",
+    "name_en": "Judgments on Tyre and Sidon"
+  },
+  {
+    "mysql_id": 181,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Juicios sobre Egipto",
+    "name_en": "Judgments on Egypt"
+  },
+  {
+    "mysql_id": 182,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "El retorno a la tierra de Israel",
+    "name_en": "The Return to the Land of Israel"
+  },
+  {
+    "mysql_id": 183,
+    "book_mysql_id": 26,
+    "book_slug": "ezekiel",
+    "volume_slug": "ot",
+    "order": 11,
+    "name_es": "La restauración del reino de Israel",
+    "name_en": "The Restoration of the Kingdom of Israel"
+  },
+  {
+    "mysql_id": 184,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La historia personal de Daniel",
+    "name_en": "The Personal History of Daniel"
+  },
+  {
+    "mysql_id": 185,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "El sueño de Nabucodonosor",
+    "name_en": "Nebuchadnezzar's Dream"
+  },
+  {
+    "mysql_id": 186,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "La estatua de oro de Nabucodonosor",
+    "name_en": "Nebuchadnezzar's Golden Image"
+  },
+  {
+    "mysql_id": 187,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La visión de Nabucodonosor del gran árbol",
+    "name_en": "Nebuchadnezzar's Vision of the Great Tree"
+  },
+  {
+    "mysql_id": 188,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 5,
+    "name_es": "Belsasar y la escritura sobre el muro",
+    "name_en": "Belshazzar and the Writing on the Wall"
+  },
+  {
+    "mysql_id": 189,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 6,
+    "name_es": "El decreto insensato de Darío",
+    "name_en": "Darius' Foolish Decree"
+  },
+  {
+    "mysql_id": 190,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 7,
+    "name_es": "Visión de Daniel de las cuatro bestias",
+    "name_en": "Daniel's Vision of the Four Beasts"
+  },
+  {
+    "mysql_id": 191,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 8,
+    "name_es": "Visión del carnero y el macho cabrío",
+    "name_en": "Vision of the Ram and the Goat"
+  },
+  {
+    "mysql_id": 192,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 9,
+    "name_es": "Visión de las setenta semanas",
+    "name_en": "Vision of the Seventy Weeks"
+  },
+  {
+    "mysql_id": 193,
+    "book_mysql_id": 27,
+    "book_slug": "daniel",
+    "volume_slug": "ot",
+    "order": 10,
+    "name_es": "Visión de Daniel del futuro de Israel",
+    "name_en": "Daniel's Vision of Israel's Future"
+  },
+  {
+    "mysql_id": 194,
+    "book_mysql_id": 28,
+    "book_slug": "hosea",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La esposa adúltera y el marido fiel",
+    "name_en": "The Adulterous Wife and the Faithful Husband"
+  },
+  {
+    "mysql_id": 195,
+    "book_mysql_id": 28,
+    "book_slug": "hosea",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "El Israel adúltero y su Señor fiel",
+    "name_en": "Adulterous Israel and Its Faithful Lord"
+  },
+  {
+    "mysql_id": 196,
+    "book_mysql_id": 29,
+    "book_slug": "joel",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "El día del Señor en retrospectiva",
+    "name_en": "The Day of the Lord in Retrospect"
+  },
+  {
+    "mysql_id": 197,
+    "book_mysql_id": 29,
+    "book_slug": "joel",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "El día del Señor en perspectiva",
+    "name_en": "The Day of the Lord in Prospect"
+  },
+  {
+    "mysql_id": 198,
+    "book_mysql_id": 30,
+    "book_slug": "amos",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Los ocho juicios",
+    "name_en": "The Eight Judgments"
+  },
+  {
+    "mysql_id": 199,
+    "book_mysql_id": 30,
+    "book_slug": "amos",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Los tres sermones del juicio",
+    "name_en": "The Three Sermons of Judgment"
+  },
+  {
+    "mysql_id": 200,
+    "book_mysql_id": 30,
+    "book_slug": "amos",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Las cinco visiones del juicio",
+    "name_en": "The Five Visions of Judgment"
+  },
+  {
+    "mysql_id": 201,
+    "book_mysql_id": 31,
+    "book_slug": "obadiah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Profecías sobre el juicio de Edom",
+    "name_en": "Prophecies of Judgment on Edom"
+  },
+  {
+    "mysql_id": 202,
+    "book_mysql_id": 32,
+    "book_slug": "jonah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La primera asignación de Jonás",
+    "name_en": "Jonah's First Commission"
+  },
+  {
+    "mysql_id": 203,
+    "book_mysql_id": 32,
+    "book_slug": "jonah",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La segunda asignación de Jonás",
+    "name_en": "Jonah's Second Commission"
+  },
+  {
+    "mysql_id": 204,
+    "book_mysql_id": 33,
+    "book_slug": "micah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Miqueas predice el juicio",
+    "name_en": "Micah Predicts Judgment"
+  },
+  {
+    "mysql_id": 205,
+    "book_mysql_id": 33,
+    "book_slug": "micah",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Miqueas predice la restauración",
+    "name_en": "Micah Predicts Restoration"
+  },
+  {
+    "mysql_id": 206,
+    "book_mysql_id": 33,
+    "book_slug": "micah",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Miqueas suplica por el arrepentimiento",
+    "name_en": "Micah Pleads for Repentance"
+  },
+  {
+    "mysql_id": 207,
+    "book_mysql_id": 34,
+    "book_slug": "nahum",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Se decreta la destrucción de Nínive",
+    "name_en": "The Destruction of Nineveh Is Decreed"
+  },
+  {
+    "mysql_id": 208,
+    "book_mysql_id": 34,
+    "book_slug": "nahum",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Se describe la destrucción de Nínive",
+    "name_en": "The Destruction of Nineveh Is Described"
+  },
+  {
+    "mysql_id": 209,
+    "book_mysql_id": 34,
+    "book_slug": "nahum",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "Se justifica la destrucción de Nínive",
+    "name_en": "The Destruction of Nineveh Is Justified"
+  },
+  {
+    "mysql_id": 210,
+    "book_mysql_id": 35,
+    "book_slug": "habakkuk",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Problemas de Habacuc",
+    "name_en": "Habakkuk's Problems"
+  },
+  {
+    "mysql_id": 211,
+    "book_mysql_id": 35,
+    "book_slug": "habakkuk",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Alabanza de Habacuc",
+    "name_en": "Habakkuk's Praise"
+  },
+  {
+    "mysql_id": 212,
+    "book_mysql_id": 36,
+    "book_slug": "zephaniah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Juicio y salvación en el día del Señor",
+    "name_en": "Judgment and Salvation in the Day of the Lord"
+  },
+  {
+    "mysql_id": 213,
+    "book_mysql_id": 37,
+    "book_slug": "haggai",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La finalización de la construcción del templo",
+    "name_en": "The Completion of the Temple Construction"
+  },
+  {
+    "mysql_id": 214,
+    "book_mysql_id": 37,
+    "book_slug": "haggai",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La gloria del templo y las bendiciones de la obediencia",
+    "name_en": "The Glory of the Temple and the Blessings of Obedience"
+  },
+  {
+    "mysql_id": 215,
+    "book_mysql_id": 38,
+    "book_slug": "zechariah",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Las ocho visiones de Zacarías y el coronamiento de Josué",
+    "name_en": "Zechariah's Eight Visions and the Crowning of Joshua"
+  },
+  {
+    "mysql_id": 216,
+    "book_mysql_id": 38,
+    "book_slug": "zechariah",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "Los cuatro mensajes de Zacarías",
+    "name_en": "Zechariah's Four Messages"
+  },
+  {
+    "mysql_id": 217,
+    "book_mysql_id": 38,
+    "book_slug": "zechariah",
+    "volume_slug": "ot",
+    "order": 3,
+    "name_es": "La primera carga: el rechazo del Mesías",
+    "name_en": "The First Burden: The Rejection of the Messiah"
+  },
+  {
+    "mysql_id": 218,
+    "book_mysql_id": 38,
+    "book_slug": "zechariah",
+    "volume_slug": "ot",
+    "order": 4,
+    "name_es": "La segunda carga: el reinado del Mesías",
+    "name_en": "The Second Burden: The Reign of the Messiah"
+  },
+  {
+    "mysql_id": 219,
+    "book_mysql_id": 39,
+    "book_slug": "malachi",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "Privilegios, contaminación y promesas de la nación",
+    "name_en": "Privileges, Defilement, and Promises of the Nation"
+  },
+  {
+    "mysql_id": 220,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La presentación del Rey",
+    "name_en": "The Presentation of the King"
+  },
+  {
+    "mysql_id": 221,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La proclamación del Rey",
+    "name_en": "The Proclamation of the King"
+  },
+  {
+    "mysql_id": 222,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "El poder del Rey",
+    "name_en": "The Power of the King"
+  },
+  {
+    "mysql_id": 223,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "El progresivo rechazo del Rey",
+    "name_en": "The Progressive Rejection of the King"
+  },
+  {
+    "mysql_id": 224,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 5,
+    "name_es": "La preparación de los discípulos del Rey",
+    "name_en": "The Preparation of the King's Disciples"
+  },
+  {
+    "mysql_id": 225,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 6,
+    "name_es": "La presentación y rechazo del Rey",
+    "name_en": "The Presentation and Rejection of the King"
+  },
+  {
+    "mysql_id": 226,
+    "book_mysql_id": 40,
+    "book_slug": "matthew",
+    "volume_slug": "nt",
+    "order": 7,
+    "name_es": "La demostración del Rey",
+    "name_en": "The Demonstration of the King"
+  },
+  {
+    "mysql_id": 227,
+    "book_mysql_id": 41,
+    "book_slug": "mark",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La presentación del Siervo",
+    "name_en": "The Presentation of the Servant"
+  },
+  {
+    "mysql_id": 228,
+    "book_mysql_id": 41,
+    "book_slug": "mark",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La oposición al Siervo",
+    "name_en": "The Opposition to the Servant"
+  },
+  {
+    "mysql_id": 229,
+    "book_mysql_id": 41,
+    "book_slug": "mark",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "La instrucción del Siervo",
+    "name_en": "The Instruction of the Servant"
+  },
+  {
+    "mysql_id": 230,
+    "book_mysql_id": 41,
+    "book_slug": "mark",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "El rechazo al Siervo",
+    "name_en": "The Rejection of the Servant"
+  },
+  {
+    "mysql_id": 231,
+    "book_mysql_id": 41,
+    "book_slug": "mark",
+    "volume_slug": "nt",
+    "order": 5,
+    "name_es": "La resurrección del Siervo",
+    "name_en": "The Resurrection of the Servant"
+  },
+  {
+    "mysql_id": 232,
+    "book_mysql_id": 42,
+    "book_slug": "luke",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La presentación del Hijo del Hombre",
+    "name_en": "The Presentation of the Son of Man"
+  },
+  {
+    "mysql_id": 233,
+    "book_mysql_id": 42,
+    "book_slug": "luke",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "El ministerio del Hijo del Hombre",
+    "name_en": "The Ministry of the Son of Man"
+  },
+  {
+    "mysql_id": 234,
+    "book_mysql_id": 42,
+    "book_slug": "luke",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "El rechazo al Hijo del Hombre",
+    "name_en": "The Rejection of the Son of Man"
+  },
+  {
+    "mysql_id": 235,
+    "book_mysql_id": 42,
+    "book_slug": "luke",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "La crucifixión y resurrección del Hijo del Hombre",
+    "name_en": "The Crucifixion and Resurrection of the Son of Man"
+  },
+  {
+    "mysql_id": 236,
+    "book_mysql_id": 43,
+    "book_slug": "john",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La encarnación y presentación del Hijo de Dios",
+    "name_en": "The Incarnation and Presentation of the Son of God"
+  },
+  {
+    "mysql_id": 237,
+    "book_mysql_id": 43,
+    "book_slug": "john",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La oposición al Hijo de Dios",
+    "name_en": "The Opposition to the Son of God"
+  },
+  {
+    "mysql_id": 238,
+    "book_mysql_id": 43,
+    "book_slug": "john",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "La preparación de los discípulos del Hijo de Dios",
+    "name_en": "The Preparation of the Son of God's Disciples"
+  },
+  {
+    "mysql_id": 239,
+    "book_mysql_id": 43,
+    "book_slug": "john",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "La crucifixión y resurrección del Hijo de Dios",
+    "name_en": "The Crucifixion and Resurrection of the Son of God"
+  },
+  {
+    "mysql_id": 240,
+    "book_mysql_id": 44,
+    "book_slug": "acts",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Testigos en Jerusalén",
+    "name_en": "Witnesses in Jerusalem"
+  },
+  {
+    "mysql_id": 241,
+    "book_mysql_id": 44,
+    "book_slug": "acts",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Testigos en Judea y en Samaria",
+    "name_en": "Witnesses in Judea and Samaria"
+  },
+  {
+    "mysql_id": 242,
+    "book_mysql_id": 44,
+    "book_slug": "acts",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Testigos hasta lo último de la tierra",
+    "name_en": "Witnesses to the Ends of the Earth"
+  },
+  {
+    "mysql_id": 243,
+    "book_mysql_id": 45,
+    "book_slug": "romans",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La revelación de la justicia de Dios",
+    "name_en": "The Revelation of God's Righteousness"
+  },
+  {
+    "mysql_id": 244,
+    "book_mysql_id": 45,
+    "book_slug": "romans",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La vindicación de la justicia de Dios",
+    "name_en": "The Vindication of God's Righteousness"
+  },
+  {
+    "mysql_id": 245,
+    "book_mysql_id": 45,
+    "book_slug": "romans",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "La aplicación de la justicia de Dios",
+    "name_en": "The Application of God's Righteousness"
+  },
+  {
+    "mysql_id": 246,
+    "book_mysql_id": 46,
+    "book_slug": "1-corinthians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Respuesta al informe de Cloe sobre divisiones",
+    "name_en": "Response to Chloe's Report on Divisions"
+  },
+  {
+    "mysql_id": 247,
+    "book_mysql_id": 46,
+    "book_slug": "1-corinthians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Respuesta a los reportes sobre asuntos disciplinarios",
+    "name_en": "Response to Reports on Disciplinary Matters"
+  },
+  {
+    "mysql_id": 248,
+    "book_mysql_id": 46,
+    "book_slug": "1-corinthians",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Respuesta a la carta con preguntas",
+    "name_en": "Response to the Letter with Questions"
+  },
+  {
+    "mysql_id": 249,
+    "book_mysql_id": 47,
+    "book_slug": "2-corinthians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Exposición de Pablo sobre su ministerio",
+    "name_en": "Paul's Exposition on His Ministry"
+  },
+  {
+    "mysql_id": 250,
+    "book_mysql_id": 47,
+    "book_slug": "2-corinthians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La colecta de Pablo para los santos",
+    "name_en": "Paul's Collection for the Saints"
+  },
+  {
+    "mysql_id": 251,
+    "book_mysql_id": 47,
+    "book_slug": "2-corinthians",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Vindicación del apostolado de Pablo",
+    "name_en": "Vindication of Paul's Apostleship"
+  },
+  {
+    "mysql_id": 252,
+    "book_mysql_id": 48,
+    "book_slug": "galatians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Defensa del evangelio de la gracia",
+    "name_en": "Defense of the Gospel of Grace"
+  },
+  {
+    "mysql_id": 253,
+    "book_mysql_id": 48,
+    "book_slug": "galatians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Explicación del evangelio de la gracia",
+    "name_en": "Explanation of the Gospel of Grace"
+  },
+  {
+    "mysql_id": 254,
+    "book_mysql_id": 48,
+    "book_slug": "galatians",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Aplicación del evangelio de la gracia",
+    "name_en": "Application of the Gospel of Grace"
+  },
+  {
+    "mysql_id": 255,
+    "book_mysql_id": 82,
+    "book_slug": "sections",
+    "volume_slug": "dc",
+    "order": 2,
+    "name_es": "Periodo de Nueva York",
+    "name_en": "New York Period"
+  },
+  {
+    "mysql_id": 256,
+    "book_mysql_id": 82,
+    "book_slug": "sections",
+    "volume_slug": "dc",
+    "order": 1,
+    "name_es": "Periodo de Ohio",
+    "name_en": "Ohio Period"
+  },
+  {
+    "mysql_id": 257,
+    "book_mysql_id": 82,
+    "book_slug": "sections",
+    "volume_slug": "dc",
+    "order": 3,
+    "name_es": "Periodo de Misuri",
+    "name_en": "Missouri Period"
+  },
+  {
+    "mysql_id": 258,
+    "book_mysql_id": 82,
+    "book_slug": "sections",
+    "volume_slug": "dc",
+    "order": 4,
+    "name_es": "Periodo de Illinois",
+    "name_en": "Illinois Period"
+  },
+  {
+    "mysql_id": 259,
+    "book_mysql_id": 82,
+    "book_slug": "sections",
+    "volume_slug": "dc",
+    "order": 5,
+    "name_es": "El Oeste",
+    "name_en": "The West"
+  },
+  {
+    "mysql_id": 260,
+    "book_mysql_id": 49,
+    "book_slug": "ephesians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La postura de los cristianos",
+    "name_en": "The Standing of Christians"
+  },
+  {
+    "mysql_id": 261,
+    "book_mysql_id": 49,
+    "book_slug": "ephesians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La práctica de los cristianos",
+    "name_en": "The Practice of Christians"
+  },
+  {
+    "mysql_id": 262,
+    "book_mysql_id": 50,
+    "book_slug": "philippians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Relato de Pablo sobre su situación actual",
+    "name_en": "Paul's Account of His Present Situation"
+  },
+  {
+    "mysql_id": 263,
+    "book_mysql_id": 50,
+    "book_slug": "philippians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Reclamo de la mente de Cristo",
+    "name_en": "Claiming the Mind of Christ"
+  },
+  {
+    "mysql_id": 264,
+    "book_mysql_id": 50,
+    "book_slug": "philippians",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Reclamo del conocimiento de Cristo",
+    "name_en": "Claiming the Knowledge of Christ"
+  },
+  {
+    "mysql_id": 265,
+    "book_mysql_id": 50,
+    "book_slug": "philippians",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "Reclamo de la paz de Cristo",
+    "name_en": "Claiming the Peace of Christ"
+  },
+  {
+    "mysql_id": 266,
+    "book_mysql_id": 51,
+    "book_slug": "colossians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La supremacía de Cristo en la Iglesia",
+    "name_en": "The Supremacy of Christ in the Church"
+  },
+  {
+    "mysql_id": 267,
+    "book_mysql_id": 51,
+    "book_slug": "colossians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "El sometimiento a Cristo en la Iglesia",
+    "name_en": "Submission to Christ in the Church"
+  },
+  {
+    "mysql_id": 268,
+    "book_mysql_id": 52,
+    "book_slug": "1-thessalonians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Reflexiones personales de Pablo sobre los tesalonicenses",
+    "name_en": "Paul's Personal Reflections on the Thessalonians"
+  },
+  {
+    "mysql_id": 269,
+    "book_mysql_id": 52,
+    "book_slug": "1-thessalonians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Instrucciones de Pablo a los tesalonicenses",
+    "name_en": "Paul's Instructions to the Thessalonians"
+  },
+  {
+    "mysql_id": 270,
+    "book_mysql_id": 53,
+    "book_slug": "2-thessalonians",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Pablo alienta a los santos ante la persecución",
+    "name_en": "Paul Encourages the Saints amid Persecution"
+  },
+  {
+    "mysql_id": 271,
+    "book_mysql_id": 53,
+    "book_slug": "2-thessalonians",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Explicación de Pablo sobre el día del Señor",
+    "name_en": "Paul's Explanation of the Day of the Lord"
+  },
+  {
+    "mysql_id": 272,
+    "book_mysql_id": 53,
+    "book_slug": "2-thessalonians",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Exhortación de Pablo a la Iglesia",
+    "name_en": "Paul's Exhortation to the Church"
+  },
+  {
+    "mysql_id": 273,
+    "book_mysql_id": 54,
+    "book_slug": "1-timothy",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Instrucciones de Pablo sobre la doctrina",
+    "name_en": "Paul's Instructions on Doctrine"
+  },
+  {
+    "mysql_id": 274,
+    "book_mysql_id": 54,
+    "book_slug": "1-timothy",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Instrucciones de Pablo sobre la adoración pública",
+    "name_en": "Paul's Instructions on Public Worship"
+  },
+  {
+    "mysql_id": 275,
+    "book_mysql_id": 54,
+    "book_slug": "1-timothy",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Instrucciones de Pablo sobre los falsos maestros",
+    "name_en": "Paul's Instructions on False Teachers"
+  },
+  {
+    "mysql_id": 276,
+    "book_mysql_id": 54,
+    "book_slug": "1-timothy",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "Instrucciones de Pablo sobre la disciplina de la Iglesia",
+    "name_en": "Paul's Instructions on Church Discipline"
+  },
+  {
+    "mysql_id": 277,
+    "book_mysql_id": 54,
+    "book_slug": "1-timothy",
+    "volume_slug": "nt",
+    "order": 5,
+    "name_es": "Instrucciones de Pablo sobre los motivos del ministerio",
+    "name_en": "Paul's Instructions on the Motives of Ministry"
+  },
+  {
+    "mysql_id": 278,
+    "book_mysql_id": 55,
+    "book_slug": "2-timothy",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Perseverancia en las pruebas presentes",
+    "name_en": "Perseverance in Present Trials"
+  },
+  {
+    "mysql_id": 279,
+    "book_mysql_id": 55,
+    "book_slug": "2-timothy",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Persistencia en las pruebas futuras",
+    "name_en": "Persistence in Future Trials"
+  },
+  {
+    "mysql_id": 280,
+    "book_mysql_id": 56,
+    "book_slug": "titus",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Instrucciones sobre el llamamiento de líderes",
+    "name_en": "Instructions on Calling Leaders"
+  },
+  {
+    "mysql_id": 281,
+    "book_mysql_id": 56,
+    "book_slug": "titus",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Poner las cosas en orden",
+    "name_en": "Setting Things in Order"
+  },
+  {
+    "mysql_id": 282,
+    "book_mysql_id": 57,
+    "book_slug": "philemon",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Intercesión de Pablo por Onésimo",
+    "name_en": "Paul's Intercession for Onesimus"
+  },
+  {
+    "mysql_id": 283,
+    "book_mysql_id": 58,
+    "book_slug": "hebrews",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La superioridad del ser de Cristo",
+    "name_en": "The Superiority of Christ's Person"
+  },
+  {
+    "mysql_id": 284,
+    "book_mysql_id": 58,
+    "book_slug": "hebrews",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "La superioridad de la obra de Cristo",
+    "name_en": "The Superiority of Christ's Work"
+  },
+  {
+    "mysql_id": 285,
+    "book_mysql_id": 58,
+    "book_slug": "hebrews",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "La superioridad del camino de Cristo",
+    "name_en": "The Superiority of Christ's Way"
+  },
+  {
+    "mysql_id": 287,
+    "book_mysql_id": 59,
+    "book_slug": "james",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La práctica de la fe",
+    "name_en": "The Practice of Faith"
+  },
+  {
+    "mysql_id": 288,
+    "book_mysql_id": 59,
+    "book_slug": "james",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Los problemas de la fe",
+    "name_en": "The Problems of Faith"
+  },
+  {
+    "mysql_id": 289,
+    "book_mysql_id": 59,
+    "book_slug": "james",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "La proyección de la fe",
+    "name_en": "The Projection of Faith"
+  },
+  {
+    "mysql_id": 290,
+    "book_mysql_id": 60,
+    "book_slug": "1-peter",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Vivir en la esperanza",
+    "name_en": "Living in Hope"
+  },
+  {
+    "mysql_id": 291,
+    "book_mysql_id": 60,
+    "book_slug": "1-peter",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Vivir en la obediencia",
+    "name_en": "Living in Obedience"
+  },
+  {
+    "mysql_id": 292,
+    "book_mysql_id": 60,
+    "book_slug": "1-peter",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Vivir en el padecimiento",
+    "name_en": "Living in Suffering"
+  },
+  {
+    "mysql_id": 293,
+    "book_mysql_id": 60,
+    "book_slug": "1-peter",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "Exhortaciones finales",
+    "name_en": "Final Exhortations"
+  },
+  {
+    "mysql_id": 294,
+    "book_mysql_id": 61,
+    "book_slug": "2-peter",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Cultivo de un carácter cristiano",
+    "name_en": "Cultivating Christian Character"
+  },
+  {
+    "mysql_id": 295,
+    "book_mysql_id": 61,
+    "book_slug": "2-peter",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Condena de los falsos maestros",
+    "name_en": "Condemnation of False Teachers"
+  },
+  {
+    "mysql_id": 296,
+    "book_mysql_id": 61,
+    "book_slug": "2-peter",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Confianza en la Segunda Venida",
+    "name_en": "Confidence in the Second Coming"
+  },
+  {
+    "mysql_id": 297,
+    "book_mysql_id": 62,
+    "book_slug": "1-john",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "El fundamento de la fraternidad",
+    "name_en": "The Foundation of Fellowship"
+  },
+  {
+    "mysql_id": 298,
+    "book_mysql_id": 62,
+    "book_slug": "1-john",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "El comportamiento fraternal",
+    "name_en": "Fraternal Conduct"
+  },
+  {
+    "mysql_id": 299,
+    "book_mysql_id": 63,
+    "book_slug": "2-john",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Reprobación de los falsos maestros",
+    "name_en": "Reproof of False Teachers"
+  },
+  {
+    "mysql_id": 300,
+    "book_mysql_id": 64,
+    "book_slug": "3-john",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Elogio de Gayo y condenación de Diótrefes",
+    "name_en": "Praise of Gaius and Condemnation of Diotrephes"
+  },
+  {
+    "mysql_id": 301,
+    "book_mysql_id": 65,
+    "book_slug": "jude",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "Denuncia de los falsos maestros",
+    "name_en": "Denunciation of False Teachers"
+  },
+  {
+    "mysql_id": 302,
+    "book_mysql_id": 66,
+    "book_slug": "revelation",
+    "volume_slug": "nt",
+    "order": 1,
+    "name_es": "La visión de Jesucristo en la isla de Patmos",
+    "name_en": "The Vision of Jesus Christ on the Isle of Patmos"
+  },
+  {
+    "mysql_id": 303,
+    "book_mysql_id": 66,
+    "book_slug": "revelation",
+    "volume_slug": "nt",
+    "order": 2,
+    "name_es": "Las cartas a las siete iglesias",
+    "name_en": "The Letters to the Seven Churches"
+  },
+  {
+    "mysql_id": 304,
+    "book_mysql_id": 66,
+    "book_slug": "revelation",
+    "volume_slug": "nt",
+    "order": 3,
+    "name_es": "Visiones del juicio de Dios",
+    "name_en": "Visions of God's Judgment"
+  },
+  {
+    "mysql_id": 305,
+    "book_mysql_id": 66,
+    "book_slug": "revelation",
+    "volume_slug": "nt",
+    "order": 4,
+    "name_es": "La Segunda Venida de Jesucristo",
+    "name_en": "The Second Coming of Jesus Christ"
+  },
+  {
+    "mysql_id": 306,
+    "book_mysql_id": 66,
+    "book_slug": "revelation",
+    "volume_slug": "nt",
+    "order": 5,
+    "name_es": "Cielo nuevo y tierra nueva",
+    "name_en": "A New Heaven and a New Earth"
+  },
+  {
+    "mysql_id": 307,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "El ministerio de Lehi en Jerusalén",
+    "name_en": "Lehi's Ministry in Jerusalem"
+  },
+  {
+    "mysql_id": 308,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "El acampamento en el valle de Lemuel",
+    "name_en": "The Camp in the Valley of Lemuel"
+  },
+  {
+    "mysql_id": 309,
+    "book_mysql_id": 68,
+    "book_slug": "2-nephi",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Las palabras de Lehi",
+    "name_en": "The Words of Lehi"
+  },
+  {
+    "mysql_id": 310,
+    "book_mysql_id": 68,
+    "book_slug": "2-nephi",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "Las palabras de Jacob",
+    "name_en": "The Words of Jacob"
+  },
+  {
+    "mysql_id": 311,
+    "book_mysql_id": 68,
+    "book_slug": "2-nephi",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "Las palabras de Isaías",
+    "name_en": "The Words of Isaiah"
+  },
+  {
+    "mysql_id": 312,
+    "book_mysql_id": 68,
+    "book_slug": "2-nephi",
+    "volume_slug": "bom",
+    "order": 6,
+    "name_es": "Las palabras de Nefi sobre la doctrina de Cristo",
+    "name_en": "Nephi's Words on the Doctrine of Christ"
+  },
+  {
+    "mysql_id": 313,
+    "book_mysql_id": 69,
+    "book_slug": "jacob",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Predicación de Jacob en el templo",
+    "name_en": "Jacob's Preaching in the Temple"
+  },
+  {
+    "mysql_id": 314,
+    "book_mysql_id": 69,
+    "book_slug": "jacob",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "La profecía de Jacob",
+    "name_en": "Jacob's Prophecy"
+  },
+  {
+    "mysql_id": 315,
+    "book_mysql_id": 69,
+    "book_slug": "jacob",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "El encuentro con Sherem, el anticristo",
+    "name_en": "The Encounter with Sherem, the Anti-Christ"
+  },
+  {
+    "mysql_id": 316,
+    "book_mysql_id": 70,
+    "book_slug": "enos",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "La oración y predicación de Enós",
+    "name_en": "The Prayer and Preaching of Enos"
+  },
+  {
+    "mysql_id": 317,
+    "book_mysql_id": 71,
+    "book_slug": "jarom",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Relación entre nefitas y lamanitas",
+    "name_en": "Relations between Nephites and Lamanites"
+  },
+  {
+    "mysql_id": 318,
+    "book_mysql_id": 72,
+    "book_slug": "omni",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Cinco autores nefitas",
+    "name_en": "Five Nephite Authors"
+  },
+  {
+    "mysql_id": 319,
+    "book_mysql_id": 73,
+    "book_slug": "words-of-mormon",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Los reinados de Mosíah I y el rey Benjamín",
+    "name_en": "The Reigns of Mosiah I and King Benjamin"
+  },
+  {
+    "mysql_id": 320,
+    "book_mysql_id": 74,
+    "book_slug": "mosiah",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "La fusión con Zarahemla",
+    "name_en": "The Merger with Zarahemla"
+  },
+  {
+    "mysql_id": 321,
+    "book_mysql_id": 74,
+    "book_slug": "mosiah",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "El registro de Zeniff",
+    "name_en": "The Record of Zeniff"
+  },
+  {
+    "mysql_id": 322,
+    "book_mysql_id": 74,
+    "book_slug": "mosiah",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "El relato de Alma",
+    "name_en": "The Account of Alma"
+  },
+  {
+    "mysql_id": 323,
+    "book_mysql_id": 74,
+    "book_slug": "mosiah",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "La nueva nación nefita",
+    "name_en": "The New Nephite Nation"
+  },
+  {
+    "mysql_id": 324,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "La apostasía de Nehor y la rebelión amlicita",
+    "name_en": "The Apostasy of Nehor and the Amlicite Rebellion"
+  },
+  {
+    "mysql_id": 325,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 9,
+    "name_es": "Palabras finales de Alma y disensión de Amalickíah",
+    "name_en": "Alma's Final Words and Amalickiah's Dissension"
+  },
+  {
+    "mysql_id": 326,
+    "book_mysql_id": 76,
+    "book_slug": "helaman",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Origen de los ladrones de Gadiantón",
+    "name_en": "Origin of the Gadianton Robbers"
+  },
+  {
+    "mysql_id": 327,
+    "book_mysql_id": 76,
+    "book_slug": "helaman",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "Orgullo y debilitamiento",
+    "name_en": "Pride and Weakening"
+  },
+  {
+    "mysql_id": 329,
+    "book_mysql_id": 76,
+    "book_slug": "helaman",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "Las profecías de Nefi II",
+    "name_en": "The Prophecies of Nephi II"
+  },
+  {
+    "mysql_id": 330,
+    "book_mysql_id": 76,
+    "book_slug": "helaman",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "La obra de la destrucción",
+    "name_en": "The Work of Destruction"
+  },
+  {
+    "mysql_id": 331,
+    "book_mysql_id": 76,
+    "book_slug": "helaman",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "Las profecías de Samuel el lamanita",
+    "name_en": "The Prophecies of Samuel the Lamanite"
+  },
+  {
+    "mysql_id": 332,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "El nacimiento de Cristo ycrecimiento de los ladrones de Gadiantón",
+    "name_en": "The Birth of Christ and Growth of the Gadianton Robbers"
+  },
+  {
+    "mysql_id": 333,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "Iniquidad y la guerra con los ladrones de Gadiantón",
+    "name_en": "Iniquity and the War with the Gadianton Robbers"
+  },
+  {
+    "mysql_id": 336,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "Destrucción y oscuridad en toda la tierra",
+    "name_en": "Destruction and Darkness throughout the Land"
+  },
+  {
+    "mysql_id": 337,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "Jesucristo aparece y declara su doctrina",
+    "name_en": "Jesus Christ Appears and Declares His Doctrine"
+  },
+  {
+    "mysql_id": 338,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "El Sermón del templo",
+    "name_en": "The Sermon at the Temple"
+  },
+  {
+    "mysql_id": 339,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 6,
+    "name_es": "La ley de Moisés y el recogimiento de Israel",
+    "name_en": "The Law of Moses and the Gathering of Israel"
+  },
+  {
+    "mysql_id": 340,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 7,
+    "name_es": "Jesús sana y bendice a la multitud",
+    "name_en": "Jesus Heals and Blesses the Multitude"
+  },
+  {
+    "mysql_id": 341,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 8,
+    "name_es": "Instrucciones sobre la Santa Cena",
+    "name_en": "Instructions on the Sacrament"
+  },
+  {
+    "mysql_id": 342,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 9,
+    "name_es": "Jesús regresa y hace una oración",
+    "name_en": "Jesus Returns and Offers a Prayer"
+  },
+  {
+    "mysql_id": 343,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 10,
+    "name_es": "Jesús administra la Santa Cena y explica el recogimiento",
+    "name_en": "Jesus Administers the Sacrament and Explains the Gathering"
+  },
+  {
+    "mysql_id": 344,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 11,
+    "name_es": "El cumplimiento de las profecías de Samuel el lamanita",
+    "name_en": "The Fulfillment of Samuel the Lamanite's Prophecies"
+  },
+  {
+    "mysql_id": 345,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 12,
+    "name_es": "Jesús hace una exposición de todas las escrituras",
+    "name_en": "Jesus Expounds All the Scriptures"
+  },
+  {
+    "mysql_id": 346,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 13,
+    "name_es": "El nombre de la Iglesia y el evangelio de Jesucristo",
+    "name_en": "The Name of the Church and the Gospel of Jesus Christ"
+  },
+  {
+    "mysql_id": 347,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 14,
+    "name_es": "La misión de los tres nefitas",
+    "name_en": "The Mission of the Three Nephites"
+  },
+  {
+    "mysql_id": 348,
+    "book_mysql_id": 77,
+    "book_slug": "3-nephi",
+    "volume_slug": "bom",
+    "order": 15,
+    "name_es": "Exhortación a los gentiles de escuchar las palabras del Señor",
+    "name_en": "Exhortation to the Gentiles to Hear the Words of the Lord"
+  },
+  {
+    "mysql_id": 349,
+    "book_mysql_id": 78,
+    "book_slug": "4-nephi",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Prosperidad, corrupción y división del pueblo",
+    "name_en": "Prosperity, Corruption, and Division of the People"
+  },
+  {
+    "mysql_id": 350,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Elección de Mormón y guerra en Zarahemla",
+    "name_en": "Mormon's Calling and War in Zarahemla"
+  },
+  {
+    "mysql_id": 351,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "Retirada a la tierra hacia el norte",
+    "name_en": "Retreat to the Land Northward"
+  },
+  {
+    "mysql_id": 352,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "Acontecimientos en la tierra del norte",
+    "name_en": "Events in the Land Northward"
+  },
+  {
+    "mysql_id": 353,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "Destrucción en Cumorah",
+    "name_en": "Destruction at Cumorah"
+  },
+  {
+    "mysql_id": 354,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "Palabras de Mormón para el remanente",
+    "name_en": "Mormon's Words to the Remnant"
+  },
+  {
+    "mysql_id": 355,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 6,
+    "name_es": "Introducción a los escritos de Moroni",
+    "name_en": "Introduction to Moroni's Writings"
+  },
+  {
+    "mysql_id": 356,
+    "book_mysql_id": 79,
+    "book_slug": "mormon",
+    "volume_slug": "bom",
+    "order": 7,
+    "name_es": "Palabras de Moroni para los incrédulos",
+    "name_en": "Moroni's Words to the Unbelievers"
+  },
+  {
+    "mysql_id": 357,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "La salida desde la gran torre",
+    "name_en": "The Departure from the Great Tower"
+  },
+  {
+    "mysql_id": 358,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "Los preparativos para el viaje",
+    "name_en": "Preparations for the Journey"
+  },
+  {
+    "mysql_id": 359,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "La visión del hermano de Jared",
+    "name_en": "The Vision of the Brother of Jared"
+  },
+  {
+    "mysql_id": 360,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "Palabras de Moroni al traductor del Libro de Mormón",
+    "name_en": "Moroni's Words to the Translator of the Book of Mormon"
+  },
+  {
+    "mysql_id": 361,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "La travesía hacia la tierra prometida",
+    "name_en": "The Voyage to the Promised Land"
+  },
+  {
+    "mysql_id": 362,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 6,
+    "name_es": "Los reinados de los reyes jareditas",
+    "name_en": "The Reigns of the Jaredite Kings"
+  },
+  {
+    "mysql_id": 363,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 7,
+    "name_es": "Las profecías de Eter",
+    "name_en": "The Prophecies of Ether"
+  },
+  {
+    "mysql_id": 364,
+    "book_mysql_id": 80,
+    "book_slug": "ether",
+    "volume_slug": "bom",
+    "order": 8,
+    "name_es": "La destrucción de los jareditas",
+    "name_en": "The Destruction of the Jaredites"
+  },
+  {
+    "mysql_id": 365,
+    "book_mysql_id": 81,
+    "book_slug": "moroni",
+    "volume_slug": "bom",
+    "order": 1,
+    "name_es": "Ordenanzas y prácticas de la Iglesia",
+    "name_en": "Ordinances and Practices of the Church"
+  },
+  {
+    "mysql_id": 366,
+    "book_mysql_id": 81,
+    "book_slug": "moroni",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "Palabras de Mormón sobre fe, esperanza y caridad",
+    "name_en": "Mormon's Words on Faith, Hope, and Charity"
+  },
+  {
+    "mysql_id": 367,
+    "book_mysql_id": 81,
+    "book_slug": "moroni",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "Palabras de Mormón sobre el bautismo de infantes",
+    "name_en": "Mormon's Words on Infant Baptism"
+  },
+  {
+    "mysql_id": 368,
+    "book_mysql_id": 81,
+    "book_slug": "moroni",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "Palabras de Mormón sobre la guerra",
+    "name_en": "Mormon's Words on War"
+  },
+  {
+    "mysql_id": 369,
+    "book_mysql_id": 81,
+    "book_slug": "moroni",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "Despedida de Moroni",
+    "name_en": "Moroni's Farewell"
+  },
+  {
+    "mysql_id": 370,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "La obtención de las planchas de bronce",
+    "name_en": "Obtaining the Brass Plates"
+  },
+  {
+    "mysql_id": 371,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "La unión con la familia de Ismael",
+    "name_en": "Joining Ishmael's Family"
+  },
+  {
+    "mysql_id": 372,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "La visión del árbol de Lehi",
+    "name_en": "Lehi's Vision of the Tree"
+  },
+  {
+    "mysql_id": 373,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 6,
+    "name_es": "Profecías de Lehi",
+    "name_en": "Lehi's Prophecies"
+  },
+  {
+    "mysql_id": 374,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 7,
+    "name_es": "La visión de Nefi",
+    "name_en": "Nephi's Vision"
+  },
+  {
+    "mysql_id": 375,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 8,
+    "name_es": "Explicación de Nefi de las profecías de Lehi",
+    "name_en": "Nephi's Explanation of Lehi's Prophecies"
+  },
+  {
+    "mysql_id": 376,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 9,
+    "name_es": "El viaje hacia la tierra prometida",
+    "name_en": "The Journey to the Promised Land"
+  },
+  {
+    "mysql_id": 377,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 10,
+    "name_es": "El ministerio en la tierra prometida",
+    "name_en": "The Ministry in the Promised Land"
+  },
+  {
+    "mysql_id": 378,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 11,
+    "name_es": "Nefi cita las profecías de Isaías",
+    "name_en": "Nephi Quotes the Prophecies of Isaiah"
+  },
+  {
+    "mysql_id": 379,
+    "book_mysql_id": 67,
+    "book_slug": "1-nephi",
+    "volume_slug": "bom",
+    "order": 12,
+    "name_es": "Nefi explica las profecías de Isaías",
+    "name_en": "Nephi Explains the Prophecies of Isaiah"
+  },
+  {
+    "mysql_id": 380,
+    "book_mysql_id": 68,
+    "book_slug": "2-nephi",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "Separación y prosperidad de los nefitas",
+    "name_en": "Separation and Prosperity of the Nephites"
+  },
+  {
+    "mysql_id": 381,
+    "book_mysql_id": 68,
+    "book_slug": "2-nephi",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "La profecía de Nefi",
+    "name_en": "Nephi's Prophecy"
+  },
+  {
+    "mysql_id": 382,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 2,
+    "name_es": "El ministerio de Alma",
+    "name_en": "The Ministry of Alma"
+  },
+  {
+    "mysql_id": 383,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 3,
+    "name_es": "El ministerio de los hijos de Mosíah",
+    "name_en": "The Ministry of the Sons of Mosiah"
+  },
+  {
+    "mysql_id": 384,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 4,
+    "name_es": "La predicación entre los zoramitas",
+    "name_en": "Preaching among the Zoramites"
+  },
+  {
+    "mysql_id": 385,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 5,
+    "name_es": "Los mandamientos de Alma a Helamán",
+    "name_en": "Alma's Commandments to Helaman"
+  },
+  {
+    "mysql_id": 386,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 6,
+    "name_es": "Los mandamientos de Alma a Shiblón",
+    "name_en": "Alma's Commandments to Shiblon"
+  },
+  {
+    "mysql_id": 387,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 7,
+    "name_es": "Los mandamientos de Alma a Coriantón",
+    "name_en": "Alma's Commandments to Corianton"
+  },
+  {
+    "mysql_id": 388,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 8,
+    "name_es": "Guerra entre nefitas y lamanitas",
+    "name_en": "War between Nephites and Lamanites"
+  },
+  {
+    "mysql_id": 389,
+    "book_mysql_id": 75,
+    "book_slug": "alma",
+    "volume_slug": "bom",
+    "order": 10,
+    "name_es": "Invasión lamanita, disensiones y guerras",
+    "name_en": "Lamanite Invasion, Dissensions, and Wars"
+  },
+  {
+    "mysql_id": 390,
+    "book_mysql_id": 83,
+    "book_slug": "official-declarations",
+    "volume_slug": "dc",
+    "order": 1,
+    "name_es": "La Iglesia moderna",
+    "name_en": "The Modern Church"
+  },
+  {
+    "mysql_id": 391,
+    "book_mysql_id": 84,
+    "book_slug": "moses",
+    "volume_slug": "pgp",
+    "order": 1,
+    "name_es": "Introducción a la visión de Moisés",
+    "name_en": "Introduction to the Vision of Moses"
+  },
+  {
+    "mysql_id": 392,
+    "book_mysql_id": 84,
+    "book_slug": "moses",
+    "volume_slug": "pgp",
+    "order": 2,
+    "name_es": "La Creación",
+    "name_en": "The Creation"
+  },
+  {
+    "mysql_id": 393,
+    "book_mysql_id": 84,
+    "book_slug": "moses",
+    "volume_slug": "pgp",
+    "order": 3,
+    "name_es": "La Caída",
+    "name_en": "The Fall"
+  },
+  {
+    "mysql_id": 394,
+    "book_mysql_id": 84,
+    "book_slug": "moses",
+    "volume_slug": "pgp",
+    "order": 4,
+    "name_es": "El ministerio de Enoc",
+    "name_en": "The Ministry of Enoch"
+  },
+  {
+    "mysql_id": 395,
+    "book_mysql_id": 84,
+    "book_slug": "moses",
+    "volume_slug": "pgp",
+    "order": 5,
+    "name_es": "De Matusalén a Noé",
+    "name_en": "From Methuselah to Noah"
+  },
+  {
+    "mysql_id": 396,
+    "book_mysql_id": 85,
+    "book_slug": "abraham",
+    "volume_slug": "pgp",
+    "order": 1,
+    "name_es": "Preparación de Abraham",
+    "name_en": "Preparation of Abraham"
+  },
+  {
+    "mysql_id": 397,
+    "book_mysql_id": 85,
+    "book_slug": "abraham",
+    "volume_slug": "pgp",
+    "order": 2,
+    "name_es": "La visión de Abraham",
+    "name_en": "The Vision of Abraham"
+  },
+  {
+    "mysql_id": 398,
+    "book_mysql_id": 85,
+    "book_slug": "abraham",
+    "volume_slug": "pgp",
+    "order": 3,
+    "name_es": "La Creación",
+    "name_en": "The Creation"
+  },
+  {
+    "mysql_id": 399,
+    "book_mysql_id": 86,
+    "book_slug": "js-matthew",
+    "volume_slug": "pgp",
+    "order": 1,
+    "name_es": "Segmento del Sermón del Olivar",
+    "name_en": "Segment of the Olivet Discourse"
+  },
+  {
+    "mysql_id": 400,
+    "book_mysql_id": 87,
+    "book_slug": "js-history",
+    "volume_slug": "pgp",
+    "order": 1,
+    "name_es": "Historia de José Smith",
+    "name_en": "Joseph Smith's History"
+  },
+  {
+    "mysql_id": 401,
+    "book_mysql_id": 88,
+    "book_slug": "articles-of-faith",
+    "volume_slug": "pgp",
+    "order": 1,
+    "name_es": "Los Artículos de Fe de La Iglesia de Jesucristo",
+    "name_en": "The Articles of Faith of The Church of Jesus Christ"
+  },
+  {
+    "mysql_id": 406,
+    "book_mysql_id": 8,
+    "book_slug": "ruth",
+    "volume_slug": "ot",
+    "order": 2,
+    "name_es": "La devoción de Rut al cuidar de Noemí",
+    "name_en": "Ruth's Devotion in Caring for Naomi"
+  },
+  {
+    "mysql_id": 412,
+    "book_mysql_id": 8,
+    "book_slug": "ruth",
+    "volume_slug": "ot",
+    "order": 1,
+    "name_es": "La decisión de Rut de permanecer con Noemí",
+    "name_en": "Ruth's Decision to Remain with Naomi"
+  },
+  {
+    "mysql_id": null,
+    "book_mysql_id": 85,
+    "book_slug": "abraham",
+    "volume_slug": "pgp",
+    "order": 4,
+    "name_es": "Facsímiles del Libro de Abraham",
+    "name_en": "Facsimiles of the Book of Abraham"
+  }
+]

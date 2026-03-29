@@ -1,0 +1,47 @@
+[
+  {
+    "mysql_id": 1,
+    "slug": "ot",
+    "name_es": "Antiguo Testamento",
+    "name_en": "Old Testament",
+    "abbreviation_es": "AT",
+    "abbreviation_en": "OT",
+    "description_es": "El Antiguo Testamento contiene los libros sagrados escritos antes del nacimiento de Jesucristo."
+  },
+  {
+    "mysql_id": 2,
+    "slug": "nt",
+    "name_es": "Nuevo Testamento",
+    "name_en": "New Testament",
+    "abbreviation_es": "NT",
+    "abbreviation_en": "NT",
+    "description_es": "El Nuevo Testamento contiene los libros sagrados que testimonian de la vida y misión de Jesucristo."
+  },
+  {
+    "mysql_id": 3,
+    "slug": "bom",
+    "name_es": "Libro de Mormón",
+    "name_en": "Book of Mormon",
+    "abbreviation_es": "LM",
+    "abbreviation_en": "BoM",
+    "description_es": "El Libro de Mormón es otro testamento de Jesucristo y contiene la plenitud del evangelio eterno."
+  },
+  {
+    "mysql_id": 4,
+    "slug": "dc",
+    "name_es": "Doctrina y Convenios",
+    "name_en": "Doctrine and Covenants",
+    "abbreviation_es": "DC",
+    "abbreviation_en": "D&C",
+    "description_es": "Doctrina y Convenios contiene revelaciones dadas al profeta José Smith y otros profetas de los últimos días."
+  },
+  {
+    "mysql_id": 5,
+    "slug": "pgp",
+    "name_es": "Perla de Gran Precio",
+    "name_en": "Pearl of Great Price",
+    "abbreviation_es": "PGP",
+    "abbreviation_en": "PGP",
+    "description_es": "La Perla de Gran Precio contiene escrituras adicionales y revelaciones importantes para los últimos días."
+  }
+]
