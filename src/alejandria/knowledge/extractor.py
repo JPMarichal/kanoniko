@@ -115,16 +115,53 @@ class ExtractionResult:
 
 
 # Short gazetteer terms that collide with common English/Spanish words.
-# These produce thousands of false matches via \b regex and must be excluded
-# from the regex/lookup. The canonical entity is preserved in the gazetteer
-# but only matchable by its full canonical name (e.g., "On" the person won't
-# match, but other aliases of the same entity still work).
+# These are excluded from the main \b regex to avoid thousands of false
+# positives, but matched via contextual phrases in a secondary pass so the
+# actual biblical entities (On = Heliopolis, Put = son of Ham, etc.) are
+# still discoverable.
 _STOPWORD_ALIASES = frozenset({
     "on", "so", "no", "or", "an", "as", "at", "be", "by", "do", "go",
     "he", "if", "in", "is", "it", "me", "my", "of", "to", "up", "us",
     "we", "am", "put", "set", "ye", "ha", "yo", "es", "en", "al", "el",
     "la", "lo", "un", "si", "ni", "ya",
 })
+
+# Contextual phrase patterns for stopword-colliding entities.
+# Each entry maps a canonical entity name and type to regex patterns that
+# uniquely identify the entity in scriptural text. These are searched in a
+# secondary pass after the main gazetteer regex.
+# Format: (canonical_name, entity_type, [compiled_regex_patterns])
+_CONTEXTUAL_PHRASES: list[tuple[str, str, list[re.Pattern]]] = [
+    # On = Heliopolis, city in Egypt. Joseph married daughter of priest of On.
+    ("On", "place", [
+        re.compile(r"\bpriest of On\b", re.IGNORECASE),
+        re.compile(r"\bcity of On\b", re.IGNORECASE),
+        re.compile(r"\bOn,?\s+which is\b", re.IGNORECASE),
+        re.compile(r"\bPoti-?pherah\b.*\bOn\b", re.IGNORECASE),
+    ]),
+    # Put/Phut = son of Ham, in the Table of Nations (Genesis 10)
+    ("Phut", "person", [
+        re.compile(r"\bHam[;,]\s*(?:and\s+)?(?:\w+[,;]\s*)*Put\b", re.IGNORECASE),
+        re.compile(r"\bPut[,;]\s*and\s+Canaan\b", re.IGNORECASE),
+        re.compile(r"\bCush[,;]\s*(?:and\s+)?(?:\w+[,;]\s*)*Put\b", re.IGNORECASE),
+        re.compile(r"\bLibya\b.*\bPut\b", re.IGNORECASE),
+        re.compile(r"\bPut\b.*\bLibya\b", re.IGNORECASE),
+        re.compile(r"\bland of Put\b", re.IGNORECASE),
+    ]),
+    # So = king of Egypt (2 Kings 17:4)
+    ("So", "person", [
+        re.compile(r"\bSo\s+king of Egypt\b", re.IGNORECASE),
+        re.compile(r"\bking So\b", re.IGNORECASE),
+        re.compile(r"\bsent\s+messengers\s+to\s+So\b", re.IGNORECASE),
+    ]),
+    # No = No-amon / Thebes in Egypt (Nahum 3:8, Ezekiel 30:14-16)
+    ("No", "place", [
+        re.compile(r"\bNo[,-]\s*(?:Amon|amon)\b", re.IGNORECASE),
+        re.compile(r"\bpopulous\s+No\b", re.IGNORECASE),
+        re.compile(r"\bcity of No\b", re.IGNORECASE),
+        re.compile(r"\bNo\s+shall\b.*\brent\b", re.IGNORECASE),
+    ]),
+]
 
 
 class KGExtractor:
@@ -259,6 +296,24 @@ class KGExtractor:
                                 source="gazetteer",
                             )
                             gazetteer_spans.add((match.start(), match.end()))
+
+        # 1b. Contextual phrase matching for stopword-colliding entities.
+        #     These terms (On, Put, So, No) are too short for \b matching but
+        #     are real biblical entities. Match only in known phrases.
+        for canonical, entity_type, patterns in _CONTEXTUAL_PHRASES:
+            key = f"{canonical}:{entity_type}"
+            if key in found_entities:
+                continue
+            for pat in patterns:
+                m = pat.search(text)
+                if m:
+                    found_entities[key] = ExtractedEntity(
+                        name=canonical,
+                        type=entity_type,
+                        span=(m.start(), m.end()),
+                        source="gazetteer_contextual",
+                    )
+                    break
 
         # 2. spaCy NER — discover entities not in the gazetteer
         self._load_ner_models()
