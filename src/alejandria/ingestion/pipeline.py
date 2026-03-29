@@ -153,6 +153,12 @@ class IngestionPipeline:
                 )
                 stats.errors += 1
 
+        # Mark profiles stale if corpus changed
+        if (stats.new_files or stats.updated_files or stats.deleted_files) and self._profile_store:
+            staled = self._profile_store.mark_all_stale()
+            if staled:
+                logger.info("Marked %d entity profiles as stale after corpus change", staled)
+
         logger.info(
             "Indexing complete: new=%d updated=%d deleted=%d errors=%d chunks=%d",
             stats.new_files, stats.updated_files, stats.deleted_files,
@@ -348,6 +354,12 @@ class IngestionPipeline:
                     entities_found, relations_found,
                 )
 
+        # Mark all profiles stale after KG rebuild
+        if self._profile_store:
+            staled = self._profile_store.mark_all_stale()
+            if staled:
+                logger.info("Marked %d entity profiles as stale after KG rebuild", staled)
+
         elapsed = time.time() - start
         stats = {
             "chunks_processed": total_chunks,
@@ -458,9 +470,11 @@ class IngestionPipeline:
                 # Extract books from file_paths
                 books = sorted({_extract_book(fp) for fp in file_paths if _extract_book(fp)})
 
-                # Build key passages: pick top N by relevance (first mention per document)
+                # Build key passages with volume diversity.
+                # Group candidate passages by corpus volume, then round-robin
+                # to ensure coverage across OT, NT, BoM, D&C, PGP, conference, etc.
+                candidates_by_volume: dict[str, list[dict]] = {}
                 seen_docs: set[str] = set()
-                key_passages: list[dict] = []
                 for row in rows:
                     fp = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
                     if fp in seen_docs:
@@ -470,7 +484,6 @@ class IngestionPipeline:
                     text = row[2] if isinstance(row, (list, tuple)) else row["text"]
                     ref = row[3] if isinstance(row, (list, tuple)) else row["reference"]
 
-                    # Extract snippet — try each name variant, use first match
                     snippet = None
                     for sn in unique_names:
                         if sn.lower() in text.lower():
@@ -479,10 +492,26 @@ class IngestionPipeline:
                     if snippet is None:
                         snippet = text[:200] + ("..." if len(text) > 200 else "")
 
-                    passage = {"reference": ref or fp, "snippet": snippet}
-                    key_passages.append(passage)
-                    if len(key_passages) >= max_passages:
-                        break
+                    vol = _extract_volume(fp)
+                    candidates_by_volume.setdefault(vol, []).append(
+                        {"reference": ref or fp, "snippet": snippet}
+                    )
+
+                # Round-robin across volumes: 1 per volume first, then fill remaining
+                key_passages: list[dict] = []
+                vol_iters = {v: iter(ps) for v, ps in candidates_by_volume.items()}
+                while len(key_passages) < max_passages and vol_iters:
+                    exhausted = []
+                    for vol, it in vol_iters.items():
+                        if len(key_passages) >= max_passages:
+                            break
+                        p = next(it, None)
+                        if p is None:
+                            exhausted.append(vol)
+                        else:
+                            key_passages.append(p)
+                    for vol in exhausted:
+                        del vol_iters[vol]
 
                 profile = EntityProfile(
                     entity_name=name,
@@ -508,9 +537,16 @@ class IngestionPipeline:
         logger.info("Profile build: saving %d profiles...", len(profiles))
         self._profile_store.upsert_batch(profiles)
 
+        # 4. Clean up orphan profiles (entities that no longer exist in Neo4j)
+        valid_keys = {(p.entity_name, p.entity_type) for p in profiles}
+        orphans_deleted = self._profile_store.delete_orphans(valid_keys)
+        if orphans_deleted:
+            logger.info("Profile build: deleted %d orphan profiles", orphans_deleted)
+
         elapsed = time.time() - start
         stats = {
             "entities_processed": len(profiles),
+            "orphans_deleted": orphans_deleted,
             "elapsed_seconds": round(elapsed, 1),
         }
         logger.info("Profile build complete: %d entities in %.1fs", len(profiles), elapsed)
@@ -549,6 +585,47 @@ def _extract_lang(rel_path: str) -> str | None:
     if parts and parts[0] in ("en", "es"):
         return parts[0]
     return None
+
+
+def _extract_volume(rel_path: str) -> str:
+    """Extract the corpus volume/category from a file path.
+
+    Returns a broad grouping used for diverse passage selection.
+    Examples:
+        en/scriptures/ot/genesis/1.txt -> ot
+        en/scriptures/nt/matthew/1.txt -> nt
+        en/scriptures/bom/alma/32.txt -> bom
+        en/scriptures/dc-testament/dc/1.txt -> dc
+        en/scriptures/pgp/moses/1.txt -> pgp
+        en/general-conference/2023/04/talk.txt -> conference
+        en/manuals/gospel-principles/1.txt -> manuals
+    """
+    parts = rel_path.replace("\\", "/").split("/")
+    if "scriptures" in parts:
+        idx = parts.index("scriptures")
+        if idx + 1 < len(parts):
+            vol = parts[idx + 1].lower()
+            # Normalize volume names
+            if "old-testament" in vol or vol == "ot":
+                return "ot"
+            if "new-testament" in vol or vol == "nt":
+                return "nt"
+            if "book-of-mormon" in vol or vol == "bom":
+                return "bom"
+            if "dc-testament" in vol or "doctrine" in vol or vol == "dc":
+                return "dc"
+            if "pearl" in vol or vol == "pgp":
+                return "pgp"
+            return vol
+    if "general-conference" in parts or "conference" in parts:
+        return "conference"
+    if "manuals" in parts:
+        return "manuals"
+    if "biographies" in parts:
+        return "biographies"
+    if "web" in parts:
+        return "web"
+    return "other"
 
 
 def _extract_book(rel_path: str) -> str | None:

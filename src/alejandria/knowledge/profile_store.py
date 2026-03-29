@@ -304,6 +304,31 @@ class ProfileStore:
         finally:
             conn.close()
 
+    def delete_orphans(self, valid_keys: set[tuple[str, str]]) -> int:
+        """Delete profiles whose (entity_name, entity_type) is not in valid_keys.
+
+        Returns count of deleted profiles.
+        """
+        conn = self._get_conn()
+        try:
+            all_rows = conn.execute(
+                "SELECT entity_name, entity_type FROM entity_profiles"
+            ).fetchall()
+            orphans = [
+                (row["entity_name"], row["entity_type"])
+                for row in all_rows
+                if (row["entity_name"], row["entity_type"]) not in valid_keys
+            ]
+            if orphans:
+                conn.executemany(
+                    "DELETE FROM entity_profiles WHERE entity_name = ? AND entity_type = ?",
+                    orphans,
+                )
+                conn.commit()
+            return len(orphans)
+        finally:
+            conn.close()
+
     @staticmethod
     def _row_to_profile(row: sqlite3.Row) -> EntityProfile:
         return EntityProfile(

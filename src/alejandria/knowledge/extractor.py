@@ -114,6 +114,19 @@ class ExtractionResult:
     scripture_refs: list[str] = field(default_factory=list)
 
 
+# Short gazetteer terms that collide with common English/Spanish words.
+# These produce thousands of false matches via \b regex and must be excluded
+# from the regex/lookup. The canonical entity is preserved in the gazetteer
+# but only matchable by its full canonical name (e.g., "On" the person won't
+# match, but other aliases of the same entity still work).
+_STOPWORD_ALIASES = frozenset({
+    "on", "so", "no", "or", "an", "as", "at", "be", "by", "do", "go",
+    "he", "if", "in", "is", "it", "me", "my", "of", "to", "up", "us",
+    "we", "am", "put", "set", "ye", "ha", "yo", "es", "en", "al", "el",
+    "la", "lo", "un", "si", "ni", "ya",
+})
+
+
 class KGExtractor:
     """Extract entities and relations using gazetteers + spaCy NER."""
 
@@ -134,22 +147,26 @@ class KGExtractor:
 
         Multiple entities can share the same alias (e.g., "Mary" maps to both
         Mary mother of Jesus and Mary sister of Martha). All are registered.
+        Skips short terms that collide with common stopwords.
         """
         lookup: dict[str, list[tuple[str, str]]] = {}
         for entity_type, entries in self._gazetteer.items():
             for entry in entries:
                 name = entry["name"]
-                # Map canonical name
                 pair = (name, entity_type)
-                lookup.setdefault(name.lower(), [])
-                if pair not in lookup[name.lower()]:
-                    lookup[name.lower()].append(pair)
+                key = name.lower()
+                if key not in _STOPWORD_ALIASES:
+                    lookup.setdefault(key, [])
+                    if pair not in lookup[key]:
+                        lookup[key].append(pair)
                 # Map aliases
                 for alias in entry.get("aliases", []):
                     if alias:
-                        lookup.setdefault(alias.lower(), [])
-                        if pair not in lookup[alias.lower()]:
-                            lookup[alias.lower()].append(pair)
+                        akey = alias.lower()
+                        if akey not in _STOPWORD_ALIASES:
+                            lookup.setdefault(akey, [])
+                            if pair not in lookup[akey]:
+                                lookup[akey].append(pair)
         return lookup
 
     def _compile_gazetteer_regex(self) -> re.Pattern | None:
