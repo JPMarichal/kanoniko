@@ -41,3 +41,6 @@ docker/ca-certificates.crt
 # Corpus data (downloaded separately, bind-mounted)
 corpus/en/
 corpus/es/
+
+# Large source assets (SQL dumps, etc.)
+proj/**/recursos/
