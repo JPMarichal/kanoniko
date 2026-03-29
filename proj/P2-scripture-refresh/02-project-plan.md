@@ -1,79 +1,86 @@
-# P2 — Scripture Refresh Pipeline — Project Plan
+# P2 — Scripture Corpus Completion — Project Plan
 
 ## Phases
 
-### Phase 1 — API Discovery & Prototyping (2-3 days)
+### Phase 1 — Spanish Verses from MySQL Dump
 **Deliverables:**
-- Documented Church content API endpoints and response formats
-- Proof-of-concept downloader for one volume in both languages
-- Mapping from API structure to corpus file structure
+- Script that extracts verses from MySQL dump and writes corpus files
+- Complete ES corpus: all 5 standard works in `corpus/es/scriptures/`
+- Change report (new vs modified files, especially for existing BoM)
 
 **Tasks:**
-1. Reverse-engineer the Church content API used by scriptures.churchofjesuschrist.org
-2. Document endpoints, parameters, response schemas, rate limits
-3. Build prototype that downloads Genesis (EN) and Génesis (ES)
-4. Validate verse numbering and text fidelity against current corpus
+1. Parse `versiculos` table from MySQL dump (reuse P1's streaming parser)
+2. Join verses to chapters via `PericopaId` → `CapituloId` (use P1's pericopae/chapters JSONs)
+3. Assemble chapter files in `N verse text` format, ordered by verse number
+4. Handle special cases: D&C sections, Official Declarations (prose, no verse numbers), PGP structure
+5. Diff against existing BoM ES files — report modifications
+6. Write new files for AT, NT, D&C, PGP in Spanish
 
-### Phase 2 — Full Downloader (2-3 days)
+### Phase 2 — English Verses from Official Site
 **Deliverables:**
-- Complete downloader covering all volumes in EN/ES
-- Change detection (diff against existing files)
-- Progress reporting and error handling
+- Scraper for `churchofjesuschrist.org` scripture pages
+- Updated EN corpus files from official source
+- Diff report against current third-party-sourced files
 
 **Tasks:**
-1. Implement volume/book/chapter traversal for all 5 standard works
-2. Handle D&C special structure (sections, not chapters; Official Declarations)
-3. Handle PGP special structure (multiple short books, Articles of Faith)
-4. Add SHA-256 or content-based diff against existing corpus files
-5. Write change report: new/modified/unchanged/deleted counts
+1. Analyze scripture page structure on `churchofjesuschrist.org` (HTML inspection)
+2. Build scraper: navigate volume → book → chapter, extract verse text
+3. Handle D&C and PGP special structures
+4. Rate limiting, resumability (checkpoint per book)
+5. Diff against existing EN files, report changes
+6. Replace corpus files with official-source content
 
-### Phase 3 — Pipeline Integration (1-2 days)
+### Phase 3 — Metadata Enrichment
 **Deliverables:**
-- API endpoint `POST /index/refresh-scriptures`
-- CLI command `alejandria refresh`
-- Auto-trigger incremental indexing after refresh
+- Extended corpus format supporting headers, section headings, footnotes, cross-references
+- Metadata scraped from official site for both EN and ES
+- Updated corpus files with metadata
 
 **Tasks:**
-1. Add refresh endpoint to `routes_index.py`
-2. Add CLI command to `cli.py`
-3. Chain: download → diff → write changes → trigger `pipeline.run()`
-4. Return stats: files checked, changed, indexed
+1. Design corpus format extension (backward-compatible with `N text` verse format)
+2. Scrape chapter headers (summary text before verse 1) — EN and ES
+3. Scrape section headings (in-chapter subheadings) — EN and ES
+4. Scrape footnotes and cross-references — EN and ES
+5. Write enriched corpus files
+6. Validate that existing parsers/chunkers handle the new format gracefully
 
-### Phase 4 — Scheduling & Monitoring (1 day)
+### Phase 4 — Validation & Reindex
 **Deliverables:**
-- Configurable scheduled refresh (weekly by default)
-- Refresh history log
+- Validated corpus (verse counts, completeness checks)
+- Full reindex of changed files
 
 **Tasks:**
-1. Add `ALEJANDRIA_REFRESH_INTERVAL_DAYS` config
-2. Background scheduler or cron-compatible entry point
-3. Log refresh results to SQLite (timestamp, changes, errors)
+1. Cross-validate verse counts: MySQL dump vs scraped EN vs scraped ES
+2. Spot-check known passages for text fidelity
+3. Trigger full ingestion pipeline for all changed files
+4. Verify search results include new content
 
 ## Milestones
 
-| Milestone | Deliverable | Estimate |
-|-----------|------------|----------|
-| M1 | API documented, prototype works for one volume | Day 3 |
-| M2 | Full download EN/ES all volumes with change detection | Day 6 |
-| M3 | API/CLI integration, auto-reindex | Day 8 |
-| M4 | Scheduling, production-ready | Day 9 |
+| Milestone | Deliverable |
+|-----------|------------|
+| M1 | Complete ES corpus from MySQL dump (all 5 volumes) |
+| M2 | Complete EN corpus from official source |
+| M3 | Metadata enrichment for both languages |
+| M4 | Validated and reindexed |
 
 ## Risks
 
 | Risk | Impact | Mitigation |
 |------|--------|------------|
-| Church API changes or blocks automated access | High | Cache API documentation; implement user-agent courtesy; consider RSS/feed alternatives |
-| Rate limiting causes slow downloads | Medium | Configurable delays; resume capability; parallel per-volume downloads |
-| Text differences from current corpus | Medium | Careful diffing; manual review of first full refresh |
-| Corporate proxy blocking downloads | Low | Existing `ca-certificates.crt` pattern handles this |
+| Church site structure changes or blocks scraping | High | Cache downloaded HTML; implement polite delays and user-agent; do EN scraping in focused sessions |
+| MySQL dump verse ordering issues | Medium | Validate against P1's pericopae structure; spot-check known passages |
+| Metadata format breaks existing parsers | Medium | Design format extension as backward-compatible; test chunker before full write |
+| Corporate proxy blocking scraping | Low | Existing `ca-certificates.crt` pattern handles this |
 
 ## Dependencies
 
-- None — can proceed independently
+- **P1 (complete):** Structure JSONs in `data/scripture_structure/` and the MySQL dump
 
 ## Success Criteria
 
-1. `POST /index/refresh-scriptures` downloads and updates all 5 volumes in EN/ES
-2. Second run with no changes writes zero files
-3. Changed files automatically trigger re-indexing
-4. Spanish coverage is complete (currently missing OT, NT, D&C, PGP)
+1. `corpus/es/scriptures/` has all 5 volumes with correct verse text from official source
+2. `corpus/en/scriptures/` has all 5 volumes with text from official site (not third-party)
+3. Both languages include chapter headers, section headings, and footnotes
+4. Running the extraction scripts again produces zero file changes (idempotent)
+5. Ingestion pipeline indexes all new/changed files successfully
