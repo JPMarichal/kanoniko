@@ -37,7 +37,7 @@ BASE_URL = "https://www.churchofjesuschrist.org"
 REQUEST_DELAY = 0.5
 
 # Regex patterns for metadata extraction
-_INTRO_ID_RE = re.compile(r"intro\d+$")   # <p id="intro1"> — Psalm superscriptions etc.
+_INTRO_ID_RE = re.compile(r"^intro\d+$")  # <p id="intro1"> — Psalm superscriptions, BofM book prefaces
 _FOOTNOTE_ID_RE = re.compile(r"note\d+_?[a-z]$")  # <li id="note1_a"> or "note1a"
 
 # ── Site URL slugs for each book ────────────────────────────────────────────
@@ -268,15 +268,27 @@ def extract_verse_number(verse_el: Tag) -> Optional[int]:
 
 
 def extract_metadata(soup: BeautifulSoup) -> dict:
-    """Extract chapter metadata: summary, footnotes, cross-references, section headings."""
+    """Extract chapter metadata: summary, footnotes, cross-references, section headings.
+
+    HTML structure varies by volume.  All fields live inside <header> within
+    <article>.  The selectors and their meaning:
+
+        class              | volumes           | content
+        -------------------|-------------------|-------------------------------
+        study-summary      | all               | chapter synopsis
+        intro (id=intro#)  | Psalms, BofM ch1  | superscription / book preface
+        study-intro        | D&C, PGP          | historical context of revelation
+        subtitle           | BofM ch1, PGP     | book subtitle / translator note
+        <h1>               | ch1 of each book  | book title
+    """
     metadata = {}
 
-    # Chapter summary
+    # Chapter summary — present in every chapter across all volumes
     summary_el = soup.find("p", class_=lambda c: c and "study-summary" in str(c))
     if summary_el:
         metadata["summary"] = summary_el.get_text().strip()
 
-    # Page title (book title)
+    # Page title (book title) — only on first chapter of each book
     h1 = soup.find("h1")
     if h1:
         metadata["title"] = h1.get_text().strip()
@@ -286,11 +298,21 @@ def extract_metadata(soup: BeautifulSoup) -> dict:
     if meta_desc:
         metadata["meta_description"] = meta_desc.get("content", "")
 
+    # Study intro — D&C (revelation context), PGP (translation note)
+    # e.g. "Revelation given through Joseph Smith the Prophet..."
+    study_intro = soup.find("p", class_=lambda c: c and "study-intro" in str(c))
+    if study_intro:
+        metadata["study_intro"] = study_intro.get_text().strip()
+
+    # Subtitle — BofM ch1 ("His Reign and Ministry"), PGP ("Translated from papyrus...")
+    subtitle = soup.find("p", class_=lambda c: c and "subtitle" in str(c))
+    if subtitle:
+        metadata["subtitle"] = subtitle.get_text().strip()
+
     # Section headings and superscriptions, in document order:
-    #   - <p id="intro{N}">: chapter-level introductions / Psalm superscriptions
-    #     (e.g. "A Psalm of Asaph." for Psalm 73; HTML id="intro1")
+    #   - <p id="intro{N}">: Psalm superscriptions ("A Psalm of Asaph."),
+    #     BofM book prefaces ("An account of Lehi and his wife Sariah...")
     #   - <h2>: in-chapter section headings between verses (pericope headings)
-    #     (e.g. "The Beatitudes" in Matthew 5)
     # Scoped to <article> to exclude navigation headings outside the content body.
     article = soup.find("article")
     if article:
@@ -451,6 +473,8 @@ def main():
     ca_bundle = os.environ.get("REQUESTS_CA_BUNDLE", "")
 
     stats = {"new": 0, "modified": 0, "unchanged": 0, "errors": 0, "skipped": 0}
+    # Per-chapter metadata validation: track which selectors were found
+    meta_audit = []  # list of (reference, {field: bool}) for every scraped chapter
     total = len(chapters)
 
     print(f"Scraping {total} chapters in {args.lang}...")
@@ -483,6 +507,9 @@ def main():
         if result is None:
             stats["errors"] += 1
             continue
+
+        # Persist source URL in metadata
+        result["metadata"]["source_url"] = url
 
         verses = result["verses"]
         if not verses:
@@ -535,6 +562,16 @@ def main():
             print(f"    [dry-run] Would write {len(verses)} verses to {target}")
             stats["new"] += 1
 
+        # Audit metadata fields
+        md = result["metadata"]
+        meta_audit.append((ch["reference_en"], ch["volume_slug"], {
+            "summary": "summary" in md,
+            "study_intro": "study_intro" in md,
+            "subtitle": "subtitle" in md,
+            "section_headings": "section_headings" in md,
+            "footnotes": "footnotes" in md,
+        }))
+
         # Track progress
         processed.add(corpus_path)
 
@@ -559,6 +596,53 @@ def main():
     print(f"  Skipped:         {stats['skipped']}")
     print(f"  Errors:          {stats['errors']}")
     print(f"{'='*60}")
+
+    # Metadata audit report — per volume
+    if meta_audit:
+        print(f"\n{'='*60}")
+        print(f"Metadata Audit ({args.lang})")
+        print(f"{'='*60}")
+        fields = ["summary", "study_intro", "subtitle", "section_headings", "footnotes"]
+        vols_seen = []
+        for vol in ["ot", "nt", "bom", "dc", "pgp"]:
+            entries = [(ref, f) for ref, v, f in meta_audit if v == vol]
+            if not entries:
+                continue
+            vols_seen.append(vol)
+            counts = {k: sum(1 for _, f in entries if f[k]) for k in fields}
+            n = len(entries)
+            print(f"\n  {vol.upper()} ({n} chapters):")
+            for k in fields:
+                pct = counts[k] * 100 // n if n else 0
+                print(f"    {k:<20} {counts[k]:>5}/{n}  ({pct}%)")
+
+            # List chapters with study_intro
+            si_refs = [ref for ref, f in entries if f["study_intro"]]
+            if si_refs and len(si_refs) <= 20:
+                print(f"    study_intro in: {si_refs}")
+            elif si_refs:
+                print(f"    study_intro in: {si_refs[:10]}... +{len(si_refs)-10} more")
+
+            # List chapters with subtitle
+            sub_refs = [ref for ref, f in entries if f["subtitle"]]
+            if sub_refs and len(sub_refs) <= 20:
+                print(f"    subtitle in: {sub_refs}")
+            elif sub_refs:
+                print(f"    subtitle in: {sub_refs[:10]}... +{len(sub_refs)-10} more")
+
+            # List chapters with section_headings
+            sh_refs = [ref for ref, f in entries if f["section_headings"]]
+            if sh_refs and len(sh_refs) <= 20:
+                print(f"    section_headings in: {sh_refs}")
+            elif sh_refs:
+                print(f"    section_headings in: {sh_refs[:10]}... +{len(sh_refs)-10} more")
+
+            # Chapters missing summary (should be rare/zero)
+            no_sum = [ref for ref, f in entries if not f["summary"]]
+            if no_sum:
+                print(f"    WARNING missing summary: {no_sum}")
+
+        print(f"\n{'='*60}")
 
 
 if __name__ == "__main__":

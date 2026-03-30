@@ -1,6 +1,9 @@
 {
   "summary": "David declares, The Lord is my shepherd.",
   "meta_description": "David declares, The Lord is my shepherd.",
+  "section_headings": [
+    "A Psalm of David."
+  ],
   "footnotes": {
     "note1_a": "TG Jesus Christ, Good Shepherd; Shepherd.",
     "note1_b": "Matt. 6:8; Philip. 4:19. TG Contentment.",
@@ -15,5 +18,6 @@
     "note4_f": "TG Comfort.",
     "note5_a": "TG Anointing.",
     "note6_a": "TG Peace of God."
-  }
+  },
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/23?lang=eng"
 }

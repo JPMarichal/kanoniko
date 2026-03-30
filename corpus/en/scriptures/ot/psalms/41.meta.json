@@ -1,6 +1,9 @@
 {
   "summary": "A messianic psalm of David—Blessed is he who considers the poor—The treachery of Judas is foretold.",
   "meta_description": "A messianic psalm of David—Blessed is he who considers the poor—The treachery of Judas is foretold.",
+  "section_headings": [
+    "To the chief Musician, A Psalm of David."
+  ],
   "footnotes": {
     "note1_a": "TG Poor.",
     "note2_a": "Deut. 6:24.",
@@ -10,5 +13,6 @@
     "note9_a": "Acts 1:16 (16–17).",
     "note9_b": "TG Jesus Christ, Betrayal of.",
     "note13_a": "Ps. 72:18; Alma 26:8."
-  }
+  },
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/41?lang=eng"
 }
