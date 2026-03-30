@@ -282,13 +282,15 @@ def extract_metadata(soup: BeautifulSoup) -> dict:
     if meta_desc:
         metadata["meta_description"] = meta_desc.get("content", "")
 
-    # Footnotes
+    # Footnotes — EN uses "note1_a", ES uses "note1a" (no underscore)
     footnotes = {}
-    for li in soup.find_all("li", id=lambda i: i and re.match(r"note\d+_[a-z]$", str(i))):
+    for li in soup.find_all("li", id=lambda i: i and re.match(r"note\d+_?[a-z]$", str(i))):
         note_id = li.get("id")
         note_text = li.get_text().strip()
         if note_text:
-            footnotes[note_id] = note_text
+            # Normalize to consistent format: "note{verse}_{letter}"
+            normalized_id = re.sub(r"^(note\d+)([a-z])$", r"\1_\2", note_id)
+            footnotes[normalized_id] = note_text
     if footnotes:
         metadata["footnotes"] = footnotes
 
