@@ -18,6 +18,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 _GAZETTEER_PATH = Path(__file__).parent / "gazetteers" / "entities.json"
+_RELATIONS_PATH = Path(__file__).parent / "gazetteers" / "relations.json"
 
 # Scripture citation patterns: "1 Nephi 3:7", "Alma 32:21", "D&C 88:118", "John 3:16"
 _SCRIPTURE_RE = re.compile(
@@ -172,10 +173,11 @@ _CONTEXTUAL_PHRASES: list[tuple[str, str, list[re.Pattern]]] = [
 class KGExtractor:
     """Extract entities and relations using gazetteers + spaCy NER."""
 
-    def __init__(self, gazetteer_path: Path | None = None) -> None:
+    def __init__(self, gazetteer_path: Path | None = None, relations_path: Path | None = None) -> None:
         self._gazetteer = self._load_gazetteer(gazetteer_path or _GAZETTEER_PATH)
         self._lookup = self._build_lookup()
         self._gazetteer_re = self._compile_gazetteer_regex()
+        self._curated_relations = self._load_curated_relations(relations_path or _RELATIONS_PATH)
         # Language-specific lookups for terms that are stopwords in one language
         # but valid entity names in the other.
         self._en_only_stopwords = self._build_lang_specific_lookup(_STOPWORDS_EN - _STOPWORDS_ES)
@@ -187,6 +189,45 @@ class KGExtractor:
     def _load_gazetteer(self, path: Path) -> dict:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
+
+    @staticmethod
+    def _load_curated_relations(path: Path) -> dict[tuple[str, str], list[tuple[str, dict]]]:
+        """Load curated relations into a lookup: (from_name, to_name) -> [(rel_type, props), ...].
+
+        Also indexes (to_name, from_name) for bidirectional relations.
+        This allows the extractor to use typed relations instead of generic
+        CO_OCCURS_WITH when two curated entities co-occur in the same chunk.
+        """
+        lookup: dict[tuple[str, str], list[tuple[str, dict]]] = {}
+        if not path.exists():
+            return lookup
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            logger.warning("Could not load curated relations from %s", path)
+            return lookup
+
+        for rel_type, relations in data.items():
+            for rel in relations:
+                from_name = rel["from"]["name"]
+                to_name = rel["to"]["name"]
+                props = {}
+                for key in ("source_ref", "confidence", "role", "verse_range"):
+                    if key in rel:
+                        props[key] = rel[key]
+
+                pair = (from_name.lower(), to_name.lower())
+                lookup.setdefault(pair, [])
+                lookup[pair].append((rel_type, props))
+
+                if rel.get("bidirectional"):
+                    reverse = (to_name.lower(), from_name.lower())
+                    lookup.setdefault(reverse, [])
+                    lookup[reverse].append((rel_type, props))
+
+        logger.info("Loaded curated relation lookup: %d entity pairs", len(lookup))
+        return lookup
 
     def _build_lookup(self) -> dict[str, list[tuple[str, str]]]:
         """Build a lowercase -> [(canonical_name, type), ...] lookup from gazetteers.
@@ -478,7 +519,12 @@ class KGExtractor:
         return entities
 
     def _extract_relations(self, entities: list[ExtractedEntity]) -> list[ExtractedRelation]:
-        """Infer relations from co-occurring entities in the same chunk."""
+        """Infer relations from co-occurring entities in the same chunk.
+
+        Uses a two-tier approach:
+        1. If a curated relation exists between two entities, use the typed relation
+        2. Otherwise, fall back to type-based co-occurrence inference
+        """
         relations: list[ExtractedRelation] = []
         seen: set[str] = set()
 
@@ -487,6 +533,33 @@ class KGExtractor:
                 if e1.name == e2.name:
                     continue
 
+                # Tier 1: Check curated relations lookup
+                pair = (e1.name.lower(), e2.name.lower())
+                reverse_pair = (e2.name.lower(), e1.name.lower())
+                curated = self._curated_relations.get(pair) or self._curated_relations.get(reverse_pair)
+
+                if curated:
+                    # Use the first curated relation type for this pair
+                    rel_type, _props = curated[0]
+                    # Determine direction: use pair order from curated data
+                    if pair in self._curated_relations:
+                        from_e, to_e = e1, e2
+                    else:
+                        from_e, to_e = e2, e1
+
+                    key = f"{from_e.name}-{rel_type}-{to_e.name}"
+                    if key not in seen:
+                        relations.append(ExtractedRelation(
+                            from_entity=from_e.name,
+                            from_type=from_e.type,
+                            relation=rel_type,
+                            to_entity=to_e.name,
+                            to_type=to_e.type,
+                        ))
+                        seen.add(key)
+                    continue
+
+                # Tier 2: Type-based co-occurrence inference
                 rel = self._infer_relation_type(e1, e2)
                 if rel is None:
                     continue

@@ -75,6 +75,29 @@ class GraphEdgeItem(BaseModel):
     source: str  # renamed from 'from' which is a Python keyword
     relation: str
     target: str
+    properties: dict | None = None
+
+
+class TypedRelationItem(BaseModel):
+    from_name: str
+    from_type: str
+    rel_type: str
+    to_name: str
+    to_type: str
+    properties: dict | None = None
+
+
+class TypedRelationsRequest(BaseModel):
+    name: str = Field(..., min_length=1, description="Entity name to query")
+    confidence_min: str | None = Field(None, description="Minimum confidence: curated, metadata, llm_high, llm_low, ner, co_occurrence")
+    rel_types: list[str] | None = Field(None, description="Filter to specific relation types")
+    limit: int = Field(100, ge=1, le=500)
+
+
+class TypedRelationsResponse(BaseModel):
+    name: str
+    count: int
+    relations: list[TypedRelationItem]
 
 
 class GraphNeighborsRequest(BaseModel):
