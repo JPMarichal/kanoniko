@@ -100,6 +100,25 @@ class TypedRelationsResponse(BaseModel):
     relations: list[TypedRelationItem]
 
 
+class ParallelPassageItem(BaseModel):
+    file_path: str
+    narrative: str | None = None
+    layer: int | None = None
+    rel_type: str | None = None
+
+
+class ParallelPassagesRequest(BaseModel):
+    file_path: str = Field(..., min_length=1, description="Scripture chapter file path")
+    layer: int | None = Field(None, ge=1, le=3, description="Filter by layer: 1=narrative, 2=editorial, 3=thematic")
+    limit: int = Field(50, ge=1, le=200)
+
+
+class ParallelPassagesResponse(BaseModel):
+    file_path: str
+    count: int
+    parallels: list[ParallelPassageItem]
+
+
 class GraphNeighborsRequest(BaseModel):
     name: str = Field(..., min_length=1)
     depth: int = Field(1, ge=1, le=5)
