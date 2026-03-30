@@ -11,8 +11,8 @@ services:
       - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
       # Scripture structure data (cross-references, etc.)
       - ../data/scripture_structure:/app/data/scripture_structure:ro
-      # SQLite data: persistent volume
-      - alejandria-sqlite:/app/data/sqlite
+      # SQLite data: bind mount (shared with host/WSL for GPU reindex)
+      - ../data/sqlite:/app/data/sqlite
       # Model cache: so embedding model is downloaded once
       - alejandria-models:/root/.cache
     env_file:
@@ -66,6 +66,10 @@ services:
       - alejandria-neo4j:/data
     environment:
       - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-alejandria}
+      # Limit JVM heap — default is too aggressive for our graph size
+      - NEO4J_server_memory_heap_initial__size=256m
+      - NEO4J_server_memory_heap_max__size=512m
+      - NEO4J_server_memory_pagecache_size=128m
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "cypher-shell -u neo4j -p ${NEO4J_PASSWORD:-alejandria} 'RETURN 1' || exit 1"]
@@ -75,7 +79,6 @@ services:
       start_period: 30s
 
 volumes:
-  alejandria-sqlite:
   alejandria-qdrant:
   alejandria-models:
   alejandria-neo4j:

@@ -69,6 +69,25 @@
 
 - **P1 (complete):** Structure JSONs in `data/scripture_structure/` and the MySQL dump
 
+## Known Defects
+
+### DEF-1: Section headings not captured (FR-3 partial)
+**Status:** OPEN
+**Severity:** Medium — blocks accurate authorship extraction in P6
+
+FR-3 requires capturing "Section headings: In-chapter subheadings between verses." This was never implemented in `scrape_scriptures.py`. The function `extract_metadata()` only extracts `study-summary`, `<h1>`, `<meta>`, and footnotes — it never looks for section heading elements.
+
+**Impact:**
+- **Psalms:** Superscriptions with author attributions are missing (e.g., "Salmo de Asaf" for Psalms 73-83, "De los hijos de Coré" for Psalms 42-49, "Masquil de Hemán ezraíta" for Psalm 88). Only 82 of 150 psalms have author info derivable from the `summary` field; the rest require superscriptions that were not scraped.
+- **Other books:** Pericope headings in the NT and other section markers may also be absent.
+- **P6 dependency:** The `AUTHORED` relation extraction planned in P6-FR-1/FR-8 cannot be fully automated without this data.
+
+**Fix required:**
+1. Identify the HTML selector for section headings / superscriptions on `churchofjesuschrist.org`
+2. Add extraction to `extract_metadata()` — store as `"section_headings"` or `"superscription"` in `.meta.json`
+3. Re-scrape affected chapters (at minimum all 150 Psalms in both languages)
+4. Update success criteria #3 to include section headings
+
 ## Success Criteria
 
 1. ✅ `corpus/es/scriptures/` has all 5 volumes with correct verse text from official source
