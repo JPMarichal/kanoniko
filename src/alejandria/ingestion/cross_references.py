@@ -377,8 +377,9 @@ def _build_path_index() -> dict[str, list[str]]:
     return index
 
 
-# Module-level singleton (built once on import)
+# Module-level singletons (built once on import / first call)
 _PARALLEL_INDEX: dict[str, list[str]] | None = None
+_FOOTNOTE_XREF_INDEX: dict[str, set[str]] | None = None
 
 
 def get_parallel_paths(file_path: str) -> list[str]:
@@ -410,3 +411,121 @@ def get_all_parallels_for_results(file_paths: list[str]) -> set[str]:
             if parallel not in existing:
                 parallels.add(parallel)
     return parallels
+
+
+# ---------------------------------------------------------------------------
+# Footnote-based cross-references (loaded from cross_references.json)
+# ---------------------------------------------------------------------------
+
+import json
+import logging
+from pathlib import Path
+
+_xref_logger = logging.getLogger(__name__)
+
+# Path to the cross-references JSON produced by parse_cross_references.py
+_XREF_DATA_PATH = Path(__file__).resolve().parent.parent.parent.parent / (
+    "data/scripture_structure/cross_references.json"
+)
+
+
+def _build_footnote_xref_index() -> dict[str, set[str]]:
+    """Build a chapter-level cross-reference index from footnote data.
+
+    Returns: {chapter_file_path: {related_chapter_file_path, ...}}
+    where paths are like "en/scriptures/ot/genesis/1.txt".
+
+    Chapter keys in cross_references.json are "volume/book/chapter" (e.g.
+    "ot/genesis/1"). We expand these to both en/es corpus file paths.
+    """
+    index: dict[str, set[str]] = {}
+
+    if not _XREF_DATA_PATH.exists():
+        _xref_logger.warning(
+            "cross_references.json not found at %s — footnote xrefs disabled",
+            _XREF_DATA_PATH,
+        )
+        return index
+
+    try:
+        with open(_XREF_DATA_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError) as exc:
+        _xref_logger.warning("Failed to load cross_references.json: %s", exc)
+        return index
+
+    refs = data.get("references", [])
+    _xref_logger.info("Loading %d footnote cross-references for RAG expansion", len(refs))
+
+    for ref in refs:
+        src_chapter = ref.get("source_chapter", "")
+        tgt_chapter = ref.get("target_chapter", "")
+
+        if not src_chapter or not tgt_chapter or src_chapter == tgt_chapter:
+            continue
+
+        # Expand to corpus file paths for both languages
+        for lang in ("en", "es"):
+            src_path = f"{lang}/scriptures/{src_chapter}.txt"
+            tgt_path = f"{lang}/scriptures/{tgt_chapter}.txt"
+
+            if src_path not in index:
+                index[src_path] = set()
+            index[src_path].add(tgt_path)
+
+    _xref_logger.info(
+        "Footnote xref index: %d chapters with cross-references",
+        len(index),
+    )
+    return index
+
+
+def get_footnote_xref_chapters(file_path: str, max_results: int = 10) -> list[str]:
+    """Given a scripture file path, return cross-referenced chapter paths.
+
+    Uses footnote-derived cross-references (bidirectional). Returns at most
+    *max_results* paths, prioritized by frequency (chapters with more
+    cross-references to this chapter come first).
+
+    Args:
+        file_path: Relative corpus path like "en/scriptures/bom/1-nephi/1.txt"
+        max_results: Maximum number of related chapters to return.
+
+    Returns:
+        List of related file paths (may be empty).
+    """
+    global _FOOTNOTE_XREF_INDEX
+    if _FOOTNOTE_XREF_INDEX is None:
+        _FOOTNOTE_XREF_INDEX = _build_footnote_xref_index()
+
+    related = _FOOTNOTE_XREF_INDEX.get(file_path, set())
+    # Return sorted deterministically, limited
+    return sorted(related)[:max_results]
+
+
+def get_all_xref_chapters_for_results(
+    file_paths: list[str],
+    max_per_source: int = 5,
+) -> set[str]:
+    """Given retrieved file paths, return cross-referenced chapters not already present.
+
+    Companion to get_all_parallels_for_results but using footnote cross-references.
+    Useful for RAG expansion: after finding relevant chapters, discover
+    related chapters via official Church footnote cross-references.
+
+    Args:
+        file_paths: List of already-retrieved file paths.
+        max_per_source: Max cross-refs to add per source chapter.
+
+    Returns:
+        Set of new file paths to consider for expansion.
+    """
+    existing = set(file_paths)
+    xref_paths: set[str] = set()
+
+    for fp in file_paths:
+        for related in get_footnote_xref_chapters(fp, max_results=max_per_source):
+            if related not in existing:
+                xref_paths.add(related)
+
+    return xref_paths

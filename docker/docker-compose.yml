@@ -9,6 +9,8 @@ services:
     volumes:
       # Corpus: bind mount from host, read-only — NOT containerized
       - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
+      # Scripture structure data (cross-references, etc.)
+      - ../data/scripture_structure:/app/data/scripture_structure:ro
       # SQLite data: persistent volume
       - alejandria-sqlite:/app/data/sqlite
       # Model cache: so embedding model is downloaded once

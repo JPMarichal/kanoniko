@@ -19,28 +19,19 @@ You are Alejandría, a bilingual (Spanish/English) research assistant specialize
 in the scriptures and gospel of The Church of Jesus Christ of Latter-day Saints.
 
 INSTRUCTIONS:
-- Answer the user's question based ONLY on the provided context passages.
-- If the context is insufficient to fully answer, say so honestly and share what \
-you can infer from the available passages.
-- Respond in the same language the user used for their question.
-- Be thorough: for biographical or chronological questions, organize information \
-clearly with dates, events, and references when available.
-- When the context contains information from the knowledge graph (entities and \
-relationships), weave it naturally into your answer.
+- Answer based ONLY on the provided context passages. If insufficient, say so.
+- Respond in the same language the user used.
+- Be CONCISE. Give a focused answer, not an essay. Cite the key verses and \
+explain the connection briefly. Avoid repeating the same idea in multiple ways.
+- When context includes cross-referenced verses (footnote-xref sources), these \
+are official Church footnote cross-references — highlight them as such.
 
-CITATION RULES (CRITICAL):
-- ALWAYS cite sources using the scripture reference (e.g., Gálatas 5:22-23, \
-1 Nephi 3:7, D&C 76:22-24). Only fall back to file paths when no reference \
-is available.
-- Quote scripture text LITERALLY as it appears in the context — never paraphrase \
-and present it as a direct quote.
-- Every scripture quote MUST include its reference in parentheses.
-- Two citation styles:
-  * Inline: woven into your text — Nefi dijo "Iré y haré lo que el Señor ha \
-mandado" (1 Nefi 3:7).
-  * Block: a full passage in its own paragraph, followed by (Reference).
-- For conference talks or other materials, cite as: Author, "Title", source.
-- Do not invent or hallucinate text not present in the context passages.\
+CITATION RULES:
+- Cite using scripture references (e.g., 1 Nephi 3:7, D&C 76:22).
+- Quote scripture LITERALLY as it appears in context — never paraphrase as quote.
+- Every quote MUST include its reference in parentheses.
+- Inline style preferred: Nefi dijo "Iré y haré" (1 Nefi 3:7).
+- Do not invent text not present in the context passages.\
 """
 
 
@@ -92,6 +83,14 @@ class RAGPipeline:
             tier_override: If set, force a specific tier ("fast", "balanced",
                 "quality") or model ID for the answer.
         """
+        # 0. Direct scripture lookup: if the question mentions specific references,
+        #    fetch those verses directly so they're always in context
+        direct_sources, detected_refs = self._direct_scripture_lookup(question)
+
+        # 0b. If we found specific verses, also fetch their official cross-references
+        #     directly (read the actual verse text, don't rely on FTS keywords)
+        xref_sources = self._direct_xref_lookup(detected_refs) if detected_refs else []
+
         # 1. Expand query for better retrieval (uses internal/fast tier)
         fts_query = self._expand_query(question)
 
@@ -100,6 +99,10 @@ class RAGPipeline:
 
         # 3. Retrieve from all available search modes + KG hints
         sources = self._retrieve(question, fts_query, source_filter, kg_file_hints)
+
+        # Prepend direct lookups and cross-refs (highest priority)
+        if direct_sources or xref_sources:
+            sources = direct_sources + xref_sources + sources
 
         # 4. Build graph context if available
         graph_context = self._get_graph_context(question)
@@ -350,6 +353,308 @@ class RAGPipeline:
         q = question.lower()
         return any(re.search(p, q) for p in patterns)
 
+    # ── Scripture reference detection (shared by direct lookup + xref) ────
+
+    @staticmethod
+    def _build_ref_abbrevs() -> dict[str, tuple[str, str]]:
+        """Build abbreviation → (volume, book_slug) mapping for reference detection."""
+        from alejandria.ingestion.scripture_meta import BOOK_REGISTRY, VOLUME_BOOKS
+
+        abbrevs: dict[str, tuple[str, str]] = {}
+        for slug, names in BOOK_REGISTRY.items():
+            vol = next((v for v, slugs in VOLUME_BOOKS.items() if slug in slugs), None)
+            if vol is None:
+                continue
+            abbrevs[names["en"].lower()] = (vol, slug)
+            abbrevs[names["es"].lower()] = (vol, slug)
+
+        abbrevs.update({
+            "1 ne": ("bom", "1-nephi"), "2 ne": ("bom", "2-nephi"),
+            "3 ne": ("bom", "3-nephi"), "4 ne": ("bom", "4-nephi"),
+            "1 nefi": ("bom", "1-nephi"), "2 nefi": ("bom", "2-nephi"),
+            "3 nefi": ("bom", "3-nephi"), "4 nefi": ("bom", "4-nephi"),
+            "d&c": ("dc", "sections"), "dyc": ("dc", "sections"),
+            "gen": ("ot", "genesis"), "ex": ("ot", "exodus"),
+            "isa": ("ot", "isaiah"), "jer": ("ot", "jeremiah"),
+            "matt": ("nt", "matthew"), "rom": ("nt", "romans"),
+            "heb": ("nt", "hebrews"), "rev": ("nt", "revelation"),
+            "alma": ("bom", "alma"), "mosiah": ("bom", "mosiah"),
+            "morm": ("bom", "mormon"), "ether": ("bom", "ether"),
+            "hel": ("bom", "helaman"), "moro": ("bom", "moroni"),
+            "js\u2014h": ("pgp", "js-history"), "js\u2014m": ("pgp", "js-matthew"),
+            "abr": ("pgp", "abraham"), "moses": ("pgp", "moses"),
+            "sal": ("ot", "psalms"), "prov": ("ot", "proverbs"),
+            "deut": ("ot", "deuteronomy"), "acts": ("nt", "acts"),
+            "hechos": ("nt", "acts"), "lucas": ("nt", "luke"),
+            "mateo": ("nt", "matthew"), "juan": ("nt", "john"),
+            "apoc": ("nt", "revelation"), "jacob": ("bom", "jacob"),
+        })
+        return abbrevs
+
+    @staticmethod
+    def _detect_scripture_refs(question: str) -> list[dict]:
+        """Detect scripture references in a question string.
+
+        Returns list of dicts: {volume, book_slug, chapter, verse_start, verse_end}
+        """
+        import re
+
+        abbrevs = RAGPipeline._build_ref_abbrevs()
+        sorted_keys = sorted(abbrevs.keys(), key=len, reverse=True)
+        pattern = "|".join(re.escape(k) for k in sorted_keys)
+
+        ref_regex = re.compile(
+            rf"({pattern})"
+            r"\.?\s+"
+            r"(\d+)"
+            r"(?::(\d+)(?:\s*[-\u2013]\s*(\d+))?)?"
+            , re.IGNORECASE
+        )
+
+        detected = []
+        for m in ref_regex.finditer(question):
+            book_key = m.group(1).lower()
+            resolved = abbrevs.get(book_key)
+            if not resolved:
+                continue
+            volume, book_slug = resolved
+            detected.append({
+                "volume": volume,
+                "book_slug": book_slug,
+                "chapter": int(m.group(2)),
+                "verse_start": int(m.group(3)) if m.group(3) else None,
+                "verse_end": int(m.group(4)) if m.group(4) else (int(m.group(3)) if m.group(3) else None),
+            })
+        return detected
+
+    @staticmethod
+    def _read_verse_text(
+        volume: str, book_slug: str, chapter: int,
+        verse_start: int | None, verse_end: int | None,
+        lang: str = "es",
+        include_footnotes: bool = False,
+    ) -> tuple[str, str, str] | None:
+        """Read verse text directly from corpus file.
+
+        Returns (verse_text, reference_string, rel_path) or None.
+        If include_footnotes=True, appends footnote data from .meta.json.
+        """
+        import json as _json
+        from alejandria.ingestion.scripture_meta import format_reference, parse_verses
+
+        if volume == "dc":
+            rel_path = f"{lang}/scriptures/dc/sections/{chapter}.txt"
+        else:
+            rel_path = f"{lang}/scriptures/{volume}/{book_slug}/{chapter}.txt"
+
+        file_path = settings.corpus_path / rel_path
+        if not file_path.exists():
+            return None
+
+        text = file_path.read_text(encoding="utf-8")
+        all_verses = parse_verses(text)
+        if not all_verses:
+            return None
+
+        if verse_start is not None:
+            ctx_start = max(1, verse_start - 2)
+            ctx_end = (verse_end or verse_start) + 3
+            context_verses = [
+                (n, t) for n, t in all_verses if ctx_start <= n <= ctx_end
+            ]
+        else:
+            context_verses = all_verses[:10]
+
+        if not context_verses:
+            return None
+
+        verse_text = "\n".join(f"{n} {t}" for n, t in context_verses)
+
+        # Append footnotes if requested
+        if include_footnotes and verse_start is not None:
+            meta_path = file_path.with_suffix(".meta.json")
+            if meta_path.exists():
+                try:
+                    meta = _json.loads(meta_path.read_text(encoding="utf-8"))
+                    footnotes = meta.get("footnotes", {})
+                    # Collect footnotes for the requested verses
+                    fn_lines = []
+                    for v in range(verse_start, (verse_end or verse_start) + 1):
+                        for suffix in "abcdefghij":
+                            fn_key = f"note{v}_{suffix}"
+                            if fn_key in footnotes:
+                                fn_lines.append(f"  [{fn_key}] {footnotes[fn_key]}")
+                    if fn_lines:
+                        verse_text += "\n\nFootnotes:\n" + "\n".join(fn_lines)
+                except Exception:
+                    pass
+
+        ref = format_reference(
+            book_slug=book_slug if volume != "dc" else None,
+            volume=volume, chapter=chapter,
+            verse_start=context_verses[0][0],
+            verse_end=context_verses[-1][0],
+            lang=lang,
+        )
+        return verse_text, ref, rel_path
+
+    def _direct_scripture_lookup(
+        self, question: str,
+    ) -> tuple[list[ChatSource], list[dict]]:
+        """Detect scripture references in the question and fetch those verses.
+
+        Returns (sources, detected_refs) where detected_refs can be used
+        for cross-reference expansion.
+        """
+        detected = self._detect_scripture_refs(question)
+        if not detected:
+            return [], []
+
+        sources: list[ChatSource] = []
+        for ref_info in detected:
+            for lang in ("es", "en"):
+                result = self._read_verse_text(
+                    ref_info["volume"], ref_info["book_slug"],
+                    ref_info["chapter"], ref_info["verse_start"],
+                    ref_info["verse_end"], lang=lang,
+                    include_footnotes=True,  # include .meta.json footnotes
+                )
+                if result:
+                    verse_text, ref_str, rel_path = result
+                    sources.append(ChatSource(
+                        text=verse_text,
+                        file_path=rel_path,
+                        chunk_index=0,
+                        score=100.0,
+                        mode="direct-lookup",
+                        reference=ref_str,
+                    ))
+                    break  # one language per reference
+
+        if sources:
+            logger.info(
+                "Direct scripture lookup: found %d references in question",
+                len(sources),
+            )
+        return sources, detected
+
+    def _direct_xref_lookup(self, detected_refs: list[dict]) -> list[ChatSource]:
+        """Fetch official cross-referenced verses for detected scripture references.
+
+        Instead of relying on FTS within cross-referenced chapters (which misses
+        verses that don't share keywords with the question), this reads the
+        actual cross-referenced verse text directly from the corpus.
+        """
+        import json
+        from pathlib import Path
+
+        from alejandria.ingestion.scripture_meta import format_reference, parse_verses
+
+        # Load cross-references JSON
+        xref_path = Path(__file__).resolve().parent.parent.parent / (
+            "data/scripture_structure/cross_references.json"
+        )
+        if not xref_path.exists():
+            # Try container path
+            xref_path = settings.corpus_path.parent / "data" / "scripture_structure" / "cross_references.json"
+        if not xref_path.exists():
+            return []
+
+        try:
+            with open(xref_path, encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            return []
+
+        # Build quick lookup: source canonical_key → list of target canonical_keys
+        xref_by_source: dict[str, list[str]] = {}
+        for ref in data.get("references", []):
+            src = ref.get("source", "")
+            tgt = ref.get("target", "")
+            if src and tgt:
+                xref_by_source.setdefault(src, []).append(tgt)
+
+        sources: list[ChatSource] = []
+        seen_chapters: set[str] = set()
+
+        for ref_info in detected_refs:
+            vol = ref_info["volume"]
+            book = ref_info["book_slug"]
+            ch = ref_info["chapter"]
+            vs = ref_info["verse_start"]
+
+            if vs is None:
+                continue
+
+            # Build canonical key to look up cross-references
+            canonical = f"{vol}/{book}/{ch}:{vs}"
+            targets = xref_by_source.get(canonical, [])
+
+            if not targets:
+                continue
+
+            logger.info(
+                "Direct xref lookup: %s has %d cross-references",
+                canonical, len(targets),
+            )
+
+            # Read each cross-referenced verse (limit to avoid context overflow)
+            for target_key in targets[:15]:
+                # Parse "volume/book/chapter:verse[-end]"
+                if ":" not in target_key:
+                    continue
+
+                path_part, verse_part = target_key.rsplit(":", 1)
+                parts = path_part.split("/")
+                if len(parts) != 3:
+                    continue
+
+                t_vol, t_book, t_ch_str = parts
+                t_ch = int(t_ch_str) if t_ch_str.isdigit() else 0
+                if t_ch == 0:
+                    continue
+
+                # Parse verse range
+                if "-" in verse_part:
+                    t_vs, t_ve = verse_part.split("-", 1)
+                    t_vs, t_ve = int(t_vs), int(t_ve)
+                else:
+                    t_vs = int(verse_part) if verse_part.isdigit() else 0
+                    t_ve = t_vs
+
+                if t_vs == 0:  # whole-chapter ref
+                    t_vs, t_ve = 1, 5
+
+                # Deduplicate by chapter (don't read same chapter multiple times)
+                ch_key = f"{t_vol}/{t_book}/{t_ch}"
+                if ch_key in seen_chapters:
+                    continue
+                seen_chapters.add(ch_key)
+
+                # Read the verse directly — just the specific verse, minimal context
+                for lang in ("es", "en"):
+                    result = self._read_verse_text(
+                        t_vol, t_book, t_ch, t_vs, t_ve, lang=lang,
+                    )
+                    if result:
+                        verse_text, ref_str, rel_path = result
+                        sources.append(ChatSource(
+                            text=verse_text,
+                            file_path=rel_path,
+                            chunk_index=0,
+                            score=50.0,  # High but below direct-lookup
+                            mode="footnote-xref",
+                            reference=ref_str,
+                        ))
+                        break
+
+        if sources:
+            logger.info(
+                "Direct xref lookup: added %d cross-referenced verse passages",
+                len(sources),
+            )
+        return sources
+
     def _retrieve(
         self, question: str, fts_query: str, source_filter: str | None,
         kg_file_hints: list[str] | None = None,
@@ -461,6 +766,9 @@ class RAGPipeline:
         # Cross-reference expansion: pull in parallel scripture narratives
         sources = self._expand_cross_references(sources, fts_query, source_filter)
 
+        # Footnote cross-reference expansion: pull in officially cross-referenced chapters
+        sources = self._expand_footnote_xrefs(sources, fts_query)
+
         # Deduplicate by (file_path, chunk_index)
         seen: set[tuple[str, int]] = set()
         deduped: list[ChatSource] = []
@@ -525,6 +833,64 @@ class RAGPipeline:
 
         if new_sources:
             logger.info("Added %d chunks from parallel narratives", len(new_sources))
+
+        return sources + new_sources
+
+    def _expand_footnote_xrefs(
+        self,
+        sources: list[ChatSource],
+        fts_query: str,
+    ) -> list[ChatSource]:
+        """Expand retrieved sources with footnote cross-referenced chapters.
+
+        Uses the bidirectional cross-reference index built from official Church
+        footnotes (~86k verse pairs). Unlike parallel narratives (same event,
+        different books), these are thematic/doctrinal connections between
+        specific verses across all five standard works.
+        """
+        try:
+            from alejandria.ingestion.cross_references import get_all_xref_chapters_for_results
+        except ImportError:
+            return sources
+
+        retrieved_paths = [s.file_path for s in sources]
+        xref_paths = get_all_xref_chapters_for_results(
+            retrieved_paths, max_per_source=3,
+        )
+
+        if not xref_paths:
+            return sources
+
+        logger.info(
+            "Footnote xref expansion: found %d cross-referenced chapters from %d sources",
+            len(xref_paths), len(retrieved_paths),
+        )
+
+        seen_keys = {(s.file_path, s.chunk_index) for s in sources}
+        new_sources: list[ChatSource] = []
+
+        for xref_path in xref_paths:
+            try:
+                results = self.textual_search.search(
+                    query=fts_query, limit=2, file_path_filter=xref_path,
+                )
+                for r in results:
+                    key = (r.file_path, r.chunk_index)
+                    if key not in seen_keys:
+                        seen_keys.add(key)
+                        new_sources.append(ChatSource(
+                            text=r.text,
+                            file_path=r.file_path,
+                            chunk_index=r.chunk_index,
+                            score=r.score * 0.001,
+                            mode="footnote-xref",
+                            reference=r.reference,
+                        ))
+            except Exception:
+                continue
+
+        if new_sources:
+            logger.info("Added %d chunks from footnote cross-references", len(new_sources))
 
         return sources + new_sources
 
