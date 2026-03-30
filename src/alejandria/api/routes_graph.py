@@ -16,6 +16,9 @@ from alejandria.api.schemas import (
     GraphSearchRequest,
     GraphSearchResponse,
     GraphSummaryResponse,
+    ParallelPassageItem,
+    ParallelPassagesRequest,
+    ParallelPassagesResponse,
     TypedRelationItem,
     TypedRelationsRequest,
     TypedRelationsResponse,
@@ -108,6 +111,32 @@ def graph_typed_relations(
                 to_name=r["to_name"],
                 to_type=r["to_type"],
                 properties=r.get("props"),
+            )
+            for r in results
+        ],
+    )
+
+
+@router.post("/parallels", response_model=ParallelPassagesResponse)
+def graph_parallels(
+    req: ParallelPassagesRequest,
+    neo4j=Depends(_require_neo4j),
+) -> ParallelPassagesResponse:
+    """Find parallel passages for a scripture chapter."""
+    results = neo4j.get_parallel_passages(
+        file_path=req.file_path,
+        layer=req.layer,
+        limit=req.limit,
+    )
+    return ParallelPassagesResponse(
+        file_path=req.file_path,
+        count=len(results),
+        parallels=[
+            ParallelPassageItem(
+                file_path=r["file_path"],
+                narrative=r.get("narrative"),
+                layer=r.get("layer"),
+                rel_type=r.get("rel_type"),
             )
             for r in results
         ],

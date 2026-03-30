@@ -307,13 +307,14 @@ class Neo4jClient:
 
         return counts
 
-    def migrate_untyped_relations(self) -> dict[str, int]:
+    def migrate_untyped_relations(self, batch_size: int = 500) -> dict[str, int]:
         """Reclassify generic CO_OCCURS_WITH and RELATED_TO relations.
 
         This is a one-time migration to mark existing co-occurrence relations
         with confidence='co_occurrence' so they can be distinguished from
         curated/LLM-extracted typed relations.
 
+        Uses batched updates to avoid Neo4j memory limits.
         Returns count of relations updated per type.
         """
         counts = {}
@@ -321,18 +322,60 @@ class Neo4jClient:
             for rel_type in ("CO_OCCURS_WITH", "RELATED_TO", "ASSOCIATED_WITH",
                              "TEACHES", "BELONGS_TO", "REFERENCED_IN",
                              "LIVED_DURING", "EXISTS_DURING"):
-                result = session.run(
-                    f"MATCH ()-[r:{rel_type}]->() "
-                    "WHERE r.confidence IS NULL "
-                    "SET r.confidence = 'co_occurrence', r.source = 'co_occurrence' "
-                    "RETURN count(r) AS count"
-                )
-                record = result.single()
-                cnt = record["count"] if record else 0
-                if cnt > 0:
-                    counts[rel_type] = cnt
-                    logger.info("Migrated %d %s relations to co_occurrence confidence", cnt, rel_type)
+                total = 0
+                while True:
+                    result = session.run(
+                        f"MATCH ()-[r:{rel_type}]->() "
+                        "WHERE r.confidence IS NULL "
+                        "WITH r LIMIT $batch "
+                        "SET r.confidence = 'co_occurrence', r.source = 'co_occurrence' "
+                        "RETURN count(r) AS count",
+                        batch=batch_size,
+                    )
+                    record = result.single()
+                    cnt = record["count"] if record else 0
+                    total += cnt
+                    if cnt < batch_size:
+                        break
+                if total > 0:
+                    counts[rel_type] = total
+                    logger.info("Migrated %d %s relations to co_occurrence confidence", total, rel_type)
         return counts
+
+    def get_parallel_passages(
+        self, file_path: str, layer: int | None = None, limit: int = 50,
+    ) -> list[dict]:
+        """Find parallel passages for a scripture chapter via graph relations.
+
+        Args:
+            file_path: Document file_path like 'en/scriptures/ot/genesis/1.txt'
+            layer: Optional filter (1=narrative, 2=editorial, 3=thematic)
+            limit: Max results
+
+        Returns list of dicts with: file_path, narrative, layer, rel_type
+        """
+        layer_filter = ""
+        if layer is not None:
+            layer_filter = " AND r.layer = $layer"
+
+        with self._driver.session() as session:
+            result = session.run(
+                "MATCH (d:Document {file_path: $fp})-[r]->(d2:Document) "
+                "WHERE type(r) IN ['PARALLEL_NARRATIVE', 'EDITORIAL_PARALLEL', 'THEMATIC_LINK']"
+                f"{layer_filter} "
+                "RETURN d2.file_path AS file_path, r.narrative AS narrative, "
+                "       r.layer AS layer, type(r) AS rel_type "
+                "LIMIT $limit "
+                "UNION "
+                "MATCH (d:Document {file_path: $fp})<-[r]-(d2:Document) "
+                "WHERE type(r) IN ['PARALLEL_NARRATIVE', 'EDITORIAL_PARALLEL', 'THEMATIC_LINK']"
+                f"{layer_filter} "
+                "RETURN d2.file_path AS file_path, r.narrative AS narrative, "
+                "       r.layer AS layer, type(r) AS rel_type "
+                "LIMIT $limit",
+                fp=file_path, layer=layer, limit=limit,
+            )
+            return [dict(record) for record in result]
 
     def get_typed_relations(
         self,
