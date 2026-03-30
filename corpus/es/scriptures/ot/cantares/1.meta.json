@@ -1,5 +1,10 @@
 {
   "summary": "El poeta canta del amor y la devoción.",
   "title": "Cantar de los Cantares de Salomón",
-  "meta_description": "El poeta canta del amor y la devoción."
+  "meta_description": "El poeta canta del amor y la devoción.",
+  "footnotes": {
+    "note1_a": "GEE Cantares de Salomón; Salomón.",
+    "note12_a": "Es decir, ungüento fragante.",
+    "note14_a": "O sea, arbusto con flores blancas fragantes."
+  }
 }
