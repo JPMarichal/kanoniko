@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from pathlib import Path
 from typing import Any
 
 from neo4j import GraphDatabase
@@ -44,6 +45,11 @@ class Neo4jClient:
                 "CREATE CONSTRAINT doc_unique IF NOT EXISTS "
                 "FOR (d:Document) REQUIRE d.file_path IS UNIQUE"
             )
+            # P6: Full-text index for entity name search
+            session.run(
+                "CREATE FULLTEXT INDEX entity_name_ft IF NOT EXISTS "
+                "FOR (e:Entity) ON EACH [e.name]"
+            )
         logger.info("Neo4j indexes ensured")
 
     def close(self) -> None:
@@ -79,7 +85,15 @@ class Neo4jClient:
         to_type: str,
         properties: dict[str, Any] | None = None,
     ) -> None:
-        """Create a relationship between two entities."""
+        """Create a relationship between two entities.
+
+        P6 standard properties (optional in ``properties`` dict):
+        - source_ref: str — Scripture reference where this relation is stated
+        - confidence: str — One of: curated, metadata, llm_high, llm_low, ner
+        - source: str — Origin: curated_seed, metadata_extraction, llm, co_occurrence
+        - verified: bool — Whether human-verified
+        - role: str — For AUTHORED relations: author, compiler, editor, continuator, scribe
+        """
         props = properties or {}
         with self._driver.session() as session:
             session.run(
@@ -152,7 +166,7 @@ class Neo4jClient:
                 f"LIMIT $limit "
                 f"UNWIND relationships(path) AS rel "
                 f"WITH collect(DISTINCT other) AS others, "
-                f"     collect(DISTINCT {{from: startNode(rel).name, type: type(rel), to: endNode(rel).name}}) AS rels "
+                f"     collect(DISTINCT {{from: startNode(rel).name, type: type(rel), to: endNode(rel).name, properties: properties(rel)}}) AS rels "
                 f"RETURN others, rels"
             )
             result = session.run(query, name=name, limit=limit)
@@ -238,6 +252,148 @@ class Neo4jClient:
                 "MATCH (e:Entity {name: $name, type: $type}) SET e += $props",
                 name=name, type=entity_type, props=props,
             )
+
+    def load_curated_relations(self, relations_path: str | Path) -> dict[str, int]:
+        """Load curated relations from a JSON seed file into Neo4j.
+
+        Returns dict mapping relation_type -> count of relations loaded.
+        """
+        import json
+
+        path = Path(relations_path)
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+
+        counts: dict[str, int] = {}
+        for rel_type, relations in data.items():
+            count = 0
+            for rel in relations:
+                from_ent = rel["from"]
+                to_ent = rel["to"]
+
+                # Build properties dict from relation fields
+                props: dict[str, Any] = {}
+                for key in ("source_ref", "confidence", "source", "verified", "role", "verse_range"):
+                    if key in rel:
+                        props[key] = rel[key]
+                # Default confidence for curated data
+                if "confidence" not in props:
+                    props["confidence"] = "curated"
+                props["source"] = "curated_seed"
+
+                self.merge_relation(
+                    from_name=from_ent["name"],
+                    from_type=from_ent["type"],
+                    rel_type=rel_type,
+                    to_name=to_ent["name"],
+                    to_type=to_ent["type"],
+                    properties=props,
+                )
+
+                # Handle bidirectional relations
+                if rel.get("bidirectional"):
+                    self.merge_relation(
+                        from_name=to_ent["name"],
+                        from_type=to_ent["type"],
+                        rel_type=rel_type,
+                        to_name=from_ent["name"],
+                        to_type=from_ent["type"],
+                        properties=props,
+                    )
+
+                count += 1
+            counts[rel_type] = count
+            logger.info("Loaded %d %s relations from curated seed", count, rel_type)
+
+        return counts
+
+    def migrate_untyped_relations(self) -> dict[str, int]:
+        """Reclassify generic CO_OCCURS_WITH and RELATED_TO relations.
+
+        This is a one-time migration to mark existing co-occurrence relations
+        with confidence='co_occurrence' so they can be distinguished from
+        curated/LLM-extracted typed relations.
+
+        Returns count of relations updated per type.
+        """
+        counts = {}
+        with self._driver.session() as session:
+            for rel_type in ("CO_OCCURS_WITH", "RELATED_TO", "ASSOCIATED_WITH",
+                             "TEACHES", "BELONGS_TO", "REFERENCED_IN",
+                             "LIVED_DURING", "EXISTS_DURING"):
+                result = session.run(
+                    f"MATCH ()-[r:{rel_type}]->() "
+                    "WHERE r.confidence IS NULL "
+                    "SET r.confidence = 'co_occurrence', r.source = 'co_occurrence' "
+                    "RETURN count(r) AS count"
+                )
+                record = result.single()
+                cnt = record["count"] if record else 0
+                if cnt > 0:
+                    counts[rel_type] = cnt
+                    logger.info("Migrated %d %s relations to co_occurrence confidence", cnt, rel_type)
+        return counts
+
+    def get_typed_relations(
+        self,
+        entity_name: str,
+        confidence_min: str | None = None,
+        rel_types: list[str] | None = None,
+        limit: int = 100,
+    ) -> list[dict]:
+        """Get relations for an entity, optionally filtered by confidence and type.
+
+        Args:
+            entity_name: Entity to query
+            confidence_min: Minimum confidence level
+                (curated > metadata > llm_high > llm_low > ner > co_occurrence)
+            rel_types: Filter to specific relation types
+            limit: Max results
+
+        Returns list of dicts with: from_name, from_type, rel_type, to_name, to_type, properties
+        """
+        confidence_order = {
+            "curated": 6, "metadata": 5, "llm_high": 4,
+            "llm_low": 3, "ner": 2, "co_occurrence": 1,
+        }
+
+        rel_filter = ""
+        if rel_types:
+            types_str = "|".join(rel_types)
+            rel_filter = f":{types_str}"
+
+        with self._driver.session() as session:
+            result = session.run(
+                f"MATCH (a:Entity {{name: $name}})-[r{rel_filter}]->(b:Entity) "
+                "RETURN a.name AS from_name, a.type AS from_type, "
+                "       type(r) AS rel_type, "
+                "       b.name AS to_name, b.type AS to_type, "
+                "       properties(r) AS props "
+                "ORDER BY r.confidence DESC "
+                f"LIMIT $limit "
+                "UNION "
+                f"MATCH (a:Entity)-[r{rel_filter}]->(b:Entity {{name: $name}}) "
+                "RETURN a.name AS from_name, a.type AS from_type, "
+                "       type(r) AS rel_type, "
+                "       b.name AS to_name, b.type AS to_type, "
+                "       properties(r) AS props "
+                "ORDER BY r.confidence DESC "
+                f"LIMIT $limit",
+                name=entity_name, limit=limit,
+            )
+            relations = [dict(record) for record in result]
+
+        # Filter by minimum confidence if specified
+        if confidence_min and confidence_min in confidence_order:
+            min_level = confidence_order[confidence_min]
+            relations = [
+                r for r in relations
+                if confidence_order.get(
+                    (r.get("props") or {}).get("confidence", "co_occurrence"), 0
+                ) >= min_level
+            ]
+
+        return relations[:limit]
 
     def clear_all(self) -> None:
         """Delete everything in the graph (for full reindex)."""

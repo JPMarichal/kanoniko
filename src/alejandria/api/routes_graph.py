@@ -16,6 +16,9 @@ from alejandria.api.schemas import (
     GraphSearchRequest,
     GraphSearchResponse,
     GraphSummaryResponse,
+    TypedRelationItem,
+    TypedRelationsRequest,
+    TypedRelationsResponse,
 )
 
 router = APIRouter(prefix="/search/graph", tags=["graph"])
@@ -75,8 +78,38 @@ def graph_neighbors(
                 source=e.get("from", ""),
                 relation=e.get("type", ""),
                 target=e.get("to", ""),
+                properties=e.get("properties"),
             )
             for e in result["edges"]
+        ],
+    )
+
+
+@router.post("/relations", response_model=TypedRelationsResponse)
+def graph_typed_relations(
+    req: TypedRelationsRequest,
+    neo4j=Depends(_require_neo4j),
+) -> TypedRelationsResponse:
+    """Get typed relations for an entity, filtered by confidence and type."""
+    results = neo4j.get_typed_relations(
+        entity_name=req.name,
+        confidence_min=req.confidence_min,
+        rel_types=req.rel_types,
+        limit=req.limit,
+    )
+    return TypedRelationsResponse(
+        name=req.name,
+        count=len(results),
+        relations=[
+            TypedRelationItem(
+                from_name=r["from_name"],
+                from_type=r["from_type"],
+                rel_type=r["rel_type"],
+                to_name=r["to_name"],
+                to_type=r["to_type"],
+                properties=r.get("props"),
+            )
+            for r in results
         ],
     )
 

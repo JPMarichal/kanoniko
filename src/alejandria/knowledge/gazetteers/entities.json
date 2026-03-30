@@ -3522,7 +3522,11 @@
     },
     {
       "name": "Ethan",
-      "aliases": []
+      "aliases": [
+        "Etán",
+        "Ethan the Ezrahite",
+        "Etán el ezraíta"
+      ]
     },
     {
       "name": "Ethbaal",
@@ -4367,7 +4371,11 @@
     },
     {
       "name": "Heman",
-      "aliases": []
+      "aliases": [
+        "Hemán",
+        "Heman the Ezrahite",
+        "Hemán el ezraíta"
+      ]
     },
     {
       "name": "Hemath",
@@ -10519,6 +10527,110 @@
     {
       "name": "the giant in Gath",
       "aliases": []
+    },
+    {
+      "name": "Omni",
+      "aliases": [
+        "Omní"
+      ]
+    },
+    {
+      "name": "Amaron",
+      "aliases": [
+        "Amarón"
+      ]
+    },
+    {
+      "name": "Chemish",
+      "aliases": [
+        "Quemis"
+      ]
+    },
+    {
+      "name": "Abinadom",
+      "aliases": [
+        "Abinádom"
+      ]
+    },
+    {
+      "name": "James (brother of Jesus)",
+      "aliases": [
+        "Santiago (hermano de Jesús)",
+        "James the Just",
+        "Santiago el Justo"
+      ]
+    },
+    {
+      "name": "James (son of Zebedee)",
+      "aliases": [
+        "Santiago (hijo de Zebedeo)",
+        "Santiago hijo de Zebedeo"
+      ]
+    },
+    {
+      "name": "Jude (apostle)",
+      "aliases": [
+        "Judas (apóstol)",
+        "Judas Tadeo",
+        "Thaddaeus",
+        "Tadeo"
+      ]
+    },
+    {
+      "name": "Philip (apostle)",
+      "aliases": [
+        "Felipe (apóstol)"
+      ]
+    },
+    {
+      "name": "Helaman (son of Alma)",
+      "aliases": [
+        "Helamán (hijo de Alma)",
+        "Helamán hijo de Alma"
+      ]
+    },
+    {
+      "name": "Helaman (son of Helaman)",
+      "aliases": [
+        "Helamán (hijo de Helamán)",
+        "Helamán hijo de Helamán"
+      ]
+    },
+    {
+      "name": "Nephi (son of Helaman)",
+      "aliases": [
+        "Nefi (hijo de Helamán)",
+        "Nefi hijo de Helamán"
+      ]
+    },
+    {
+      "name": "Nephi (son of Nephi)",
+      "aliases": [
+        "Nefi (hijo de Nefi)",
+        "Nefi hijo de Nefi"
+      ]
+    },
+    {
+      "name": "Jarom",
+      "aliases": [
+        "Jarón"
+      ]
+    },
+    {
+      "name": "Omner",
+      "aliases": []
+    },
+    {
+      "name": "Himni",
+      "aliases": []
+    },
+    {
+      "name": "Joseph (NT)",
+      "aliases": [
+        "José (NT)",
+        "Joseph husband of Mary",
+        "José esposo de María"
+      ]
     }
   ],
   "place": [
@@ -10895,6 +11007,12 @@
       "aliases": [
         "Tesalónica"
       ]
+    },
+    {
+      "name": "Salem",
+      "aliases": [
+        "Salém"
+      ]
     }
   ],
   "people": [
@@ -11066,6 +11184,45 @@
       "name": "House of Judah",
       "aliases": [
         "Casa de Judá"
+      ]
+    },
+    {
+      "name": "Sons of Korah",
+      "aliases": [
+        "Hijos de Coré",
+        "Korahites",
+        "Coreítas"
+      ]
+    },
+    {
+      "name": "Tribe of Levi",
+      "aliases": [
+        "Tribu de Leví",
+        "Levitas"
+      ]
+    },
+    {
+      "name": "Tribe of Judah",
+      "aliases": [
+        "Tribu de Judá"
+      ]
+    },
+    {
+      "name": "Tribe of Ephraim",
+      "aliases": [
+        "Tribu de Efraín"
+      ]
+    },
+    {
+      "name": "Tribe of Manasseh",
+      "aliases": [
+        "Tribu de Manasés"
+      ]
+    },
+    {
+      "name": "Tribe of Benjamin",
+      "aliases": [
+        "Tribu de Benjamín"
       ]
     }
   ],
@@ -11532,6 +11689,63 @@
       "aliases": [
         "Milenio"
       ]
+    },
+    {
+      "name": "Apostle",
+      "aliases": [
+        "Apóstol",
+        "Apostles",
+        "Apóstoles"
+      ]
+    },
+    {
+      "name": "Prophet",
+      "aliases": [
+        "Profeta",
+        "Prophets",
+        "Profetas"
+      ]
+    },
+    {
+      "name": "High Priest",
+      "aliases": [
+        "Sumo Sacerdote",
+        "High Priests",
+        "Sumos Sacerdotes"
+      ]
+    },
+    {
+      "name": "Chief Captain",
+      "aliases": [
+        "Capitán en jefe",
+        "Capitán principal"
+      ]
+    },
+    {
+      "name": "Church of Jesus Christ of Latter-day Saints",
+      "aliases": [
+        "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+        "LDS Church",
+        "Iglesia SUD"
+      ]
+    },
+    {
+      "name": "King of Salem",
+      "aliases": [
+        "Rey de Salem"
+      ]
+    },
+    {
+      "name": "Nephite civilization",
+      "aliases": [
+        "Civilización nefita"
+      ]
+    },
+    {
+      "name": "Parables",
+      "aliases": [
+        "Parábolas"
+      ]
     }
   ],
   "object": [
@@ -11667,6 +11881,15 @@
       "name": "Veil of the Temple",
       "aliases": [
         "Velo del Templo"
+      ]
+    },
+    {
+      "name": "Temple of Solomon",
+      "aliases": [
+        "Templo de Salomón",
+        "Solomon's Temple",
+        "First Temple",
+        "Primer Templo"
       ]
     }
   ],
