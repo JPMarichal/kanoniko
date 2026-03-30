@@ -1,6 +1,30 @@
 {
   "summary": "Bienaventurados los que guardan los mandamientos.",
   "meta_description": "Bienaventurados los que guardan los mandamientos.",
+  "section_headings": [
+    "א Alef",
+    "ב Bet",
+    "ג Guímel",
+    "ד Dálet",
+    "ה He",
+    "ו Vau",
+    "ז Zain",
+    "ח Jet",
+    "ט Tet",
+    "י Yod",
+    "כ Caf",
+    "ל Lámed",
+    "מ Mem",
+    "נ Nun",
+    "ס Sámec",
+    "ע Ayin",
+    "פ Pe",
+    "צ Tsade",
+    "ק Cof",
+    "ר Resh",
+    "ש Sin",
+    "ת Tau"
+  ],
   "footnotes": {
     "note1_a": "GEE Andar, andar con Dios.",
     "note2_a": "Es decir, sus mandamientos.",
@@ -63,5 +87,6 @@
     "note165_a": "GEE Paz — La paz de Dios para los obedientes.",
     "note168_a": "Mos. 14:6.",
     "note176_a": "GEE Apostasía."
-  }
+  },
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=spa"
 }

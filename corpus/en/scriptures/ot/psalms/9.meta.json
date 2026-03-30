@@ -1,6 +1,9 @@
 {
   "summary": "A messianic psalm of David—He praises the Lord for rebuking the nations—The Lord will judge the world in righteousness—He will dwell in Zion—The wicked will be sent to hell.",
   "meta_description": "A messianic psalm of David—He praises the Lord for rebuking the nations—The Lord will judge the world in righteousness—He will dwell in Zion—The wicked will be sent to hell.",
+  "section_headings": [
+    "To the chief Musician upon Muth-labben, A Psalm of David."
+  ],
   "footnotes": {
     "note1_a": "1 Chr. 16:9 (8–9); Ps. 26:7; D&C 76:114.",
     "note5_a": "Deut. 9:14 (13–14); Mosiah 26:36.",
@@ -20,5 +23,6 @@
     "note16_a": "Ps. 7:16.",
     "note17_a": "TG Hell.",
     "note17_b": "Ps. 50:22."
-  }
+  },
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng"
 }
