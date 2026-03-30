@@ -72,7 +72,7 @@
 ## Known Defects
 
 ### DEF-1: Section headings not captured (FR-3 partial)
-**Status:** OPEN
+**Status:** PARTIALLY RESOLVED (steps 1–2 done; steps 3–4 pending re-scrape)
 **Severity:** Medium — blocks accurate authorship extraction in P6
 
 FR-3 requires capturing "Section headings: In-chapter subheadings between verses." This was never implemented in `scrape_scriptures.py`. The function `extract_metadata()` only extracts `study-summary`, `<h1>`, `<meta>`, and footnotes — it never looks for section heading elements.
@@ -82,10 +82,22 @@ FR-3 requires capturing "Section headings: In-chapter subheadings between verses
 - **Other books:** Pericope headings in the NT and other section markers may also be absent.
 - **P6 dependency:** The `AUTHORED` relation extraction planned in P6-FR-1/FR-8 cannot be fully automated without this data.
 
+**HTML selectors identified:**
+- `<p id="intro{N}">` (e.g. `id="intro1"`): chapter-level introductory text / Psalm superscriptions. Appears between the chapter number and verse 1. Confirmed in reference scraper output for Psalm 73.
+- `<h2>` within `<article>`: in-chapter section headings (pericope headings) that appear between verses. Confirmed by reference scraper type mapping (`h2` → `section-title`).
+
+Both element types are scoped to `soup.find("article")` to exclude navigation elements outside the article body.
+
+**Fix status:**
+1. ✅ HTML selectors identified (see above)
+2. ✅ Added extraction to `extract_metadata()` — stored as `"section_headings"` (list of strings, document order) in `.meta.json`
+3. ⏳ Re-scrape all books in both languages (EN + ES) to populate `section_headings` in corpus `.meta.json` files
+4. ⏳ Update success criteria #3 to include section headings
+
 **Fix required:**
-1. Identify the HTML selector for section headings / superscriptions on `churchofjesuschrist.org`
-2. Add extraction to `extract_metadata()` — store as `"section_headings"` or `"superscription"` in `.meta.json`
-3. Re-scrape affected chapters (at minimum all 150 Psalms in both languages)
+1. ~~Identify the HTML selector for section headings / superscriptions on `churchofjesuschrist.org`~~
+2. ~~Add extraction to `extract_metadata()` — store as `"section_headings"` or `"superscription"` in `.meta.json`~~
+3. Re-scrape affected chapters (all books in both languages)
 4. Update success criteria #3 to include section headings
 
 ## Success Criteria

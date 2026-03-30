@@ -36,6 +36,10 @@ BASE_URL = "https://www.churchofjesuschrist.org"
 # Delay between requests (seconds) — be polite
 REQUEST_DELAY = 0.5
 
+# Regex patterns for metadata extraction
+_INTRO_ID_RE = re.compile(r"intro\d+$")   # <p id="intro1"> — Psalm superscriptions etc.
+_FOOTNOTE_ID_RE = re.compile(r"note\d+_?[a-z]$")  # <li id="note1_a"> or "note1a"
+
 # ── Site URL slugs for each book ────────────────────────────────────────────
 # Maps: (volume_slug, corpus_book_slug) → (site_volume, site_book_slug)
 # Site uses different abbreviations than our corpus slugs.
@@ -264,7 +268,7 @@ def extract_verse_number(verse_el: Tag) -> Optional[int]:
 
 
 def extract_metadata(soup: BeautifulSoup) -> dict:
-    """Extract chapter metadata: summary, footnotes, cross-references."""
+    """Extract chapter metadata: summary, footnotes, cross-references, section headings."""
     metadata = {}
 
     # Chapter summary
@@ -282,9 +286,30 @@ def extract_metadata(soup: BeautifulSoup) -> dict:
     if meta_desc:
         metadata["meta_description"] = meta_desc.get("content", "")
 
+    # Section headings and superscriptions, in document order:
+    #   - <p id="intro{N}">: chapter-level introductions / Psalm superscriptions
+    #     (e.g. "A Psalm of Asaph." for Psalm 73; HTML id="intro1")
+    #   - <h2>: in-chapter section headings between verses (pericope headings)
+    #     (e.g. "The Beatitudes" in Matthew 5)
+    # Scoped to <article> to exclude navigation headings outside the content body.
+    article = soup.find("article")
+    if article:
+        h2_elements = set(id(el) for el in article.find_all("h2"))
+        intro_elements = set(
+            id(el) for el in article.find_all("p", id=_INTRO_ID_RE)
+        )
+        headings = []
+        for el in article.find_all(["h2", "p"]):
+            if id(el) in h2_elements or id(el) in intro_elements:
+                text = re.sub(r"\s+", " ", el.get_text()).strip()
+                if text:
+                    headings.append(text)
+        if headings:
+            metadata["section_headings"] = headings
+
     # Footnotes — EN uses "note1_a", ES uses "note1a" (no underscore)
     footnotes = {}
-    for li in soup.find_all("li", id=lambda i: i and re.match(r"note\d+_?[a-z]$", str(i))):
+    for li in soup.find_all("li", id=_FOOTNOTE_ID_RE):
         note_id = li.get("id")
         note_text = li.get_text().strip()
         if note_text:
