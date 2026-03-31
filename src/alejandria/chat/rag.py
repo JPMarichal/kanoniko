@@ -26,6 +26,14 @@ explain the connection briefly. Avoid repeating the same idea in multiple ways.
 - When context includes cross-referenced verses (footnote-xref sources), these \
 are official Church footnote cross-references — highlight them as such.
 
+KNOWLEDGE GRAPH:
+- Context may include a "Knowledge Graph" section with typed relations between \
+entities (e.g., Father Of, Covenant With, Type Of, Quotes, Prophecy Of).
+- Use these relations to enrich your answer with structural connections — e.g., \
+genealogical links, covenant chains, typological parallels, prophecy fulfillments.
+- Relations marked with scripture references are curated facts — trust them.
+- Entity profiles provide authoritative summaries — use them as background.
+
 CITATION RULES:
 - Cite using scripture references (e.g., 1 Nephi 3:7, D&C 76:22).
 - Quote scripture LITERALLY as it appears in context — never paraphrase as quote.
@@ -957,11 +965,17 @@ class RAGPipeline:
             logger.warning("Reranking failed, using original order")
             return sources
 
+    # Relation types to exclude from graph context (too noisy/generic)
+    _NOISE_RELATION_TYPES = frozenset({
+        "CO_OCCURS_WITH", "REFERENCED_IN", "MENTIONED_IN",
+        "ASSOCIATED_WITH", "RELATED_TO", "BELONGS_TO",
+    })
+
     def _get_graph_context(self, question: str) -> str | None:
         """Extract entity info from the knowledge graph relevant to the question.
 
-        If entity profiles are available, includes biographical summaries
-        for richer LLM context without additional retrieval cost.
+        Prioritizes structured, typed relations (curated/metadata/llm) over
+        generic co-occurrence. Includes entity profiles when available.
         """
         if self.neo4j_client is None:
             return None
@@ -987,7 +1001,6 @@ class RAGPipeline:
             if self.profile_store is not None:
                 for entity in extraction.entities:
                     try:
-                        # Search for profiles matching this entity
                         profiles = self.profile_store.find_profiles(entity.name, limit=5)
                         for profile in profiles:
                             if profile.entity_name in profiled_names:
@@ -1002,27 +1015,67 @@ class RAGPipeline:
                     except Exception:
                         pass
 
-            # Add graph neighbors for entities without profiles
+            # Add typed relations for each entity (filtered, high-quality)
+            relation_parts = []
+            seen_rels: set[str] = set()
             for entity in extraction.entities:
-                if entity.name in profiled_names:
+                try:
+                    # Use typed relations with confidence filter — skip generic co-occurrence
+                    relations = self.neo4j_client.get_typed_relations(
+                        entity_name=entity.name,
+                        confidence_min="ner",  # Skip co_occurrence (lowest tier)
+                        limit=30,
+                    )
+                    for rel in relations:
+                        rel_type = rel.get("rel_type", "")
+                        if rel_type in self._NOISE_RELATION_TYPES:
+                            continue
+
+                        from_name = rel.get("from_name", "?")
+                        to_name = rel.get("to_name", "?")
+                        key = f"{from_name}|{rel_type}|{to_name}"
+                        if key in seen_rels:
+                            continue
+                        seen_rels.add(key)
+
+                        # Format relation in readable way
+                        props = rel.get("props") or {}
+                        source_ref = props.get("source_ref", "")
+                        ref_note = f" ({source_ref})" if source_ref else ""
+                        # Make relation type human-readable
+                        readable = rel_type.replace("_", " ").title()
+                        relation_parts.append(
+                            f"  {from_name} --[{readable}]--> {to_name}{ref_note}"
+                        )
+                except Exception:
+                    pass
+
+            if relation_parts:
+                parts.append("Typed Relations:")
+                # Limit to 25 most relevant relations
+                parts.extend(relation_parts[:25])
+
+            # Fallback: for entities with no profile and no typed relations,
+            # add basic neighbor info
+            entities_with_context = profiled_names | {
+                r.split("|")[0] for r in seen_rels
+            } | {
+                r.split("|")[2] for r in seen_rels
+            }
+            for entity in extraction.entities:
+                if entity.name in entities_with_context:
                     continue
                 try:
                     result = self.neo4j_client.get_neighbors(
-                        name=entity.name, depth=1, limit=20,
+                        name=entity.name, depth=1, limit=10,
                     )
                     if result["nodes"]:
                         neighbors = ", ".join(
-                            f"{n['name']} ({n['type']})" for n in result["nodes"]
+                            f"{n['name']}" for n in result["nodes"][:8]
                         )
-                        parts.append(f"- {entity.name} ({entity.type}): connected to {neighbors}")
-
-                        for e in result["edges"]:
-                            src = e.get("from") or e.get("source", "?")
-                            rel = e.get("type") or e.get("relation", "?")
-                            tgt = e.get("to") or e.get("target", "?")
-                            parts.append(f"  {src} --[{rel}]--> {tgt}")
+                        parts.append(f"- {entity.name}: related to {neighbors}")
                 except Exception:
-                    parts.append(f"- {entity.name} ({entity.type})")
+                    pass
 
             if not parts:
                 return None
