@@ -7,6 +7,7 @@ import logging
 from dataclasses import dataclass
 from pathlib import Path
 
+from alejandria.authority import derive_authority
 from alejandria.config import settings
 from alejandria.ingestion.chunker import chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
@@ -215,6 +216,10 @@ class IngestionPipeline:
             smeta = build_scripture_metadata(rel_path, chunks[0].text if chunks else "", text)
             base_meta.update({k: v for k, v in smeta.items() if k not in ("reference", "verse_start", "verse_end")})
 
+        # Derive authority metadata from corpus path
+        auth_meta = derive_authority(source, rel_path)
+        base_meta["auth"] = auth_meta.to_dict()
+
         metadata_str = json.dumps(base_meta)
 
         # Index into FTS — collect chunk IDs for Qdrant
@@ -238,6 +243,7 @@ class IngestionPipeline:
         if self._semantic and _SEMANTIC_AVAILABLE:
             chunk_texts = [c.text for c in chunks]
             vectors = encode(chunk_texts)
+            auth_dict = auth_meta.to_dict()
             payloads = [
                 {
                     "text": c.text,
@@ -246,6 +252,10 @@ class IngestionPipeline:
                     "source": source,
                     "reference": ref,
                     **({"lang": lang} if lang else {}),
+                    "authority": auth_dict["authority"],
+                    "rigor": auth_dict["rigor"],
+                    "importance": auth_dict["importance"],
+                    "official": auth_dict["official"],
                 }
                 for c, ref in zip(chunks, chunk_references)
             ]

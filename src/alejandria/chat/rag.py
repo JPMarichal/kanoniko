@@ -10,9 +10,51 @@ from __future__ import annotations
 import logging
 from dataclasses import dataclass
 
+from alejandria.authority import (
+    AuthorityMeta,
+    authority_label,
+    classify_query_type,
+    degrade_importance,
+    derive_authority,
+    effective_authority,
+    importance_boost,
+)
 from alejandria.config import settings
 
 logger = logging.getLogger(__name__)
+
+
+def _extract_authority_from_result(result) -> tuple[int | None, str | None]:
+    """Extract authority score and label from a search result's metadata.
+
+    Works with both hybrid results (with .metadata dict) and raw dicts.
+    Falls back to path-based derivation if metadata has no authority.
+    """
+    meta = getattr(result, "metadata", None)
+    if isinstance(meta, dict):
+        auth_data = meta.get("auth")
+        if isinstance(auth_data, dict):
+            auth_val = auth_data.get("authority")
+            if auth_val is not None:
+                return auth_val, authority_label(AuthorityMeta(authority=auth_val))
+
+    # Fallback: derive from file_path
+    file_path = getattr(result, "file_path", "") or ""
+    if file_path:
+        parts = file_path.replace("\\", "/").split("/")
+        source = parts[1] if len(parts) >= 3 and parts[0] in ("en", "es") else parts[0]
+        meta_obj = derive_authority(source, file_path)
+        return meta_obj.authority, authority_label(meta_obj)
+
+    return None, None
+
+
+def _authority_for_path(file_path: str) -> tuple[int, str]:
+    """Derive authority score and label from a corpus file path."""
+    parts = file_path.replace("\\", "/").split("/")
+    source = parts[1] if len(parts) >= 3 and parts[0] in ("en", "es") else parts[0]
+    meta_obj = derive_authority(source, file_path)
+    return meta_obj.authority, authority_label(meta_obj)
 
 SYSTEM_PROMPT = """\
 You are Alejandría, a bilingual (Spanish/English) research assistant specialized \
@@ -39,7 +81,14 @@ CITATION RULES:
 - Quote scripture LITERALLY as it appears in context — never paraphrase as quote.
 - Every quote MUST include its reference in parentheses.
 - Inline style preferred: Nefi dijo "Iré y haré" (1 Nefi 3:7).
-- Do not invent text not present in the context passages.\
+- Do not invent text not present in the context passages.
+
+AUTHORITY:
+- Each source is tagged with its authority tier (Canon, Prophetic, Correlated, etc.).
+- When sources conflict, prefer higher-authority sources.
+- Canon (scriptures) > Prophetic (conference talks) > Correlated (manuals) > other.
+- When citing non-canonical sources, acknowledge their tier if relevant to the answer.
+- Never present a lower-authority source as having the same weight as scripture.\
 """
 
 
@@ -51,6 +100,8 @@ class ChatSource:
     score: float
     mode: str  # "text", "semantic", "hybrid", or "cross-ref"
     reference: str | None = None
+    authority: int | None = None     # Doctrinal authority (1-100)
+    authority_label: str | None = None  # Human-readable authority tier
 
 
 @dataclass
@@ -593,6 +644,7 @@ class RAGPipeline:
                 )
                 if result:
                     verse_text, ref_str, rel_path = result
+                    auth, auth_lbl = _authority_for_path(rel_path)
                     sources.append(ChatSource(
                         text=verse_text,
                         file_path=rel_path,
@@ -600,6 +652,8 @@ class RAGPipeline:
                         score=100.0,
                         mode="direct-lookup",
                         reference=ref_str,
+                        authority=auth,
+                        authority_label=auth_lbl,
                     ))
                     break  # one language per reference
 
@@ -710,6 +764,7 @@ class RAGPipeline:
                     )
                     if result:
                         verse_text, ref_str, rel_path = result
+                        auth, auth_lbl = _authority_for_path(rel_path)
                         sources.append(ChatSource(
                             text=verse_text,
                             file_path=rel_path,
@@ -717,6 +772,8 @@ class RAGPipeline:
                             score=50.0,  # High but below direct-lookup
                             mode="footnote-xref",
                             reference=ref_str,
+                            authority=auth,
+                            authority_label=auth_lbl,
                         ))
                         break
 
@@ -800,17 +857,26 @@ class RAGPipeline:
             limit=rrf_limit,
         )
 
-        sources = [
-            ChatSource(
+        sources = []
+        for r in hybrid_results:
+            auth, auth_lbl = _extract_authority_from_result(r)
+            sources.append(ChatSource(
                 text=r.text,
                 file_path=r.file_path,
                 chunk_index=r.chunk_index,
                 score=r.combined_score,
                 mode="hybrid",
                 reference=r.reference,
-            )
-            for r in hybrid_results
-        ]
+                authority=auth,
+                authority_label=auth_lbl,
+            ))
+
+        # Authority-based score boost: higher authority sources get a boost
+        for s in sources:
+            if s.authority is not None:
+                # Normalize authority (0-100) to a small boost factor (1.0-1.5)
+                auth_boost = 1.0 + (s.authority / 200.0)
+                s.score *= auth_boost
 
         # KG-boosted retrieval: boost scores for chunks from KG-relevant documents
         # instead of re-running FTS per hint (avoids N extra queries)
@@ -1006,8 +1072,9 @@ class RAGPipeline:
             candidate_lines = []
             for i, s in enumerate(sources):
                 label = s.reference or s.file_path
+                auth_tag = f" ({s.authority_label})" if s.authority_label else ""
                 excerpt = s.text[:200].replace("\n", " ")
-                candidate_lines.append(f"{i}: [{label}] {excerpt}")
+                candidate_lines.append(f"{i}: [{label}]{auth_tag} {excerpt}")
 
             candidates_text = "\n".join(candidate_lines)
             target_count = target
@@ -1019,7 +1086,9 @@ class RAGPipeline:
                 "answer the question. Consider:\n"
                 "- Direct answers to the question\n"
                 "- Parallel accounts of the same event from different books\n"
-                "- Supporting context that enriches the answer\n\n"
+                "- Supporting context that enriches the answer\n"
+                "- Source authority: Canon > Prophetic > Correlated > other. "
+                "Prefer higher-authority sources when relevance is similar.\n\n"
                 "Output ONLY a comma-separated list of the candidate numbers "
                 f"(e.g., '0,3,5,1,7,2,9,4,11,6'), ordered by relevance (most relevant first). "
                 "Output nothing else."
@@ -1184,7 +1253,8 @@ class RAGPipeline:
             parts.append("Retrieved passages:")
             for i, s in enumerate(sources, 1):
                 source_label = s.reference if s.reference else f"{s.file_path} (chunk {s.chunk_index})"
-                parts.append(f"\n[{i}] Source: {source_label} ({s.mode} search)")
+                auth_tag = f", {s.authority_label}" if s.authority_label else ""
+                parts.append(f"\n[{i}] Source: {source_label} ({s.mode} search{auth_tag})")
                 parts.append(s.text)
 
         if not parts:

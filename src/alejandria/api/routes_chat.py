@@ -27,6 +27,8 @@ def _build_chat_response(result) -> ChatResponse:
                 score=s.score,
                 mode=s.mode,
                 reference=s.reference,
+                authority=s.authority,
+                authority_label=s.authority_label,
             )
             for s in result.sources
         ],
@@ -105,14 +107,17 @@ def chat_models() -> dict:
 @router.post("/classify")
 def chat_classify(req: ChatRequest) -> dict:
     """Preview how a question would be classified without running the full pipeline."""
+    from alejandria.authority import classify_query_type
     from alejandria.chat.models import classify_complexity, select_model
 
     tier = classify_complexity(req.question)
     model = select_model(tier)
+    query_type = classify_query_type(req.question)
 
     return {
         "question": req.question,
         "tier": tier.value,
+        "query_type": query_type,
         "model": {
             "id": model.id,
             "provider": model.provider,
