@@ -29,6 +29,7 @@ def complete(
     provider: str | None = None,
     model: str | None = None,
     api_key: str | None = None,
+    max_tokens: int | None = None,
 ) -> LLMResponse:
     """Send a chat completion request to an LLM provider.
 
@@ -39,20 +40,22 @@ def complete(
                   Defaults to settings.llm_provider.
         model: Model name/ID. Defaults to settings.llm_model.
         api_key: API key. Defaults to settings.llm_api_key.
+        max_tokens: Override max output tokens. Defaults to settings.llm_max_tokens.
     """
     p = (provider or settings.llm_provider).lower()
     m = model or settings.llm_model
     k = api_key or settings.llm_api_key
+    mt = max_tokens or settings.llm_max_tokens
 
     if p == "anthropic":
-        return _complete_anthropic(system_prompt, user_message, m, k)
+        return _complete_anthropic(system_prompt, user_message, m, k, mt)
     elif p == "gemini":
-        return _complete_gemini(system_prompt, user_message, m, k)
+        return _complete_gemini(system_prompt, user_message, m, k, mt)
     elif p == "openai":
-        return _complete_openai(system_prompt, user_message, m, k)
+        return _complete_openai(system_prompt, user_message, m, k, mt)
     elif p == "deepseek":
         return _complete_openai_compat(
-            system_prompt, user_message, m, k,
+            system_prompt, user_message, m, k, mt,
             base_url="https://api.deepseek.com",
         )
     else:
@@ -66,6 +69,7 @@ def complete_with_model(
     system_prompt: str,
     user_message: str,
     model_def: "ModelDef",  # noqa: F821 — forward ref to avoid circular import
+    max_tokens: int | None = None,
 ) -> LLMResponse:
     """Send a completion request using a ModelDef from the model registry.
 
@@ -83,16 +87,17 @@ def complete_with_model(
         provider=model_def.provider,
         model=model_def.model_name,
         api_key=key,
+        max_tokens=max_tokens,
     )
 
 
-def _complete_anthropic(system_prompt: str, user_message: str, model: str, api_key: str) -> LLMResponse:
+def _complete_anthropic(system_prompt: str, user_message: str, model: str, api_key: str, max_tokens: int = 0) -> LLMResponse:
     import anthropic
 
     client = anthropic.Anthropic(api_key=api_key or None)
     response = client.messages.create(
         model=model,
-        max_tokens=settings.llm_max_tokens,
+        max_tokens=max_tokens or settings.llm_max_tokens,
         temperature=settings.llm_temperature,
         system=system_prompt,
         messages=[{"role": "user", "content": user_message}],
@@ -105,7 +110,7 @@ def _complete_anthropic(system_prompt: str, user_message: str, model: str, api_k
     )
 
 
-def _complete_gemini(system_prompt: str, user_message: str, model: str, api_key: str) -> LLMResponse:
+def _complete_gemini(system_prompt: str, user_message: str, model: str, api_key: str, max_tokens: int = 0) -> LLMResponse:
     from google import genai
     from google.genai import types
 
@@ -115,7 +120,7 @@ def _complete_gemini(system_prompt: str, user_message: str, model: str, api_key:
         contents=user_message,
         config=types.GenerateContentConfig(
             system_instruction=system_prompt,
-            max_output_tokens=settings.llm_max_tokens,
+            max_output_tokens=max_tokens or settings.llm_max_tokens,
             temperature=settings.llm_temperature,
         ),
     )
@@ -130,7 +135,7 @@ def _complete_gemini(system_prompt: str, user_message: str, model: str, api_key:
 
 def _complete_openai_compat(
     system_prompt: str, user_message: str, model: str, api_key: str,
-    *, base_url: str,
+    max_tokens: int = 0, *, base_url: str,
 ) -> LLMResponse:
     """Generic completion for any OpenAI-compatible API (DeepSeek, Groq, Together, etc.)."""
     from openai import OpenAI
@@ -138,7 +143,7 @@ def _complete_openai_compat(
     client = OpenAI(api_key=api_key, base_url=base_url)
     response = client.chat.completions.create(
         model=model,
-        max_tokens=settings.llm_max_tokens,
+        max_tokens=max_tokens or settings.llm_max_tokens,
         temperature=settings.llm_temperature,
         messages=[
             {"role": "system", "content": system_prompt},
@@ -155,7 +160,7 @@ def _complete_openai_compat(
     )
 
 
-def _complete_openai(system_prompt: str, user_message: str, model: str, api_key: str) -> LLMResponse:
+def _complete_openai(system_prompt: str, user_message: str, model: str, api_key: str, max_tokens: int = 0) -> LLMResponse:
     from openai import OpenAI
 
     kwargs = {}
@@ -164,7 +169,7 @@ def _complete_openai(system_prompt: str, user_message: str, model: str, api_key:
     client = OpenAI(api_key=api_key or None, **kwargs)
     response = client.chat.completions.create(
         model=model,
-        max_tokens=settings.llm_max_tokens,
+        max_tokens=max_tokens or settings.llm_max_tokens,
         temperature=settings.llm_temperature,
         messages=[
             {"role": "system", "content": system_prompt},
