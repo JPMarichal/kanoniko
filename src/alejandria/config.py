@@ -42,6 +42,7 @@ class Settings(BaseSettings):
     llm_api_key: str = ""
     llm_base_url: str | None = None  # For OpenAI-compatible endpoints
     llm_max_tokens: int = 2048
+    llm_max_tokens_fast: int = 1024   # Shorter output for simple questions (FAST tier)
     llm_temperature: float = 0.3
 
     # Per-provider API keys (preferred over llm_api_key/llm_alt_api_key)
@@ -64,7 +65,8 @@ class Settings(BaseSettings):
     profile_llm_tier: str = "fast"  # LLM tier for profile generation (Phase 2)
 
     # RAG
-    rag_context_chunks: int = 12  # Max chunks to include in final context
+    rag_context_chunks: int = 8   # Max chunks in final context (was 12; 8 saves ~30% input tokens)
+    rag_context_chunks_quality: int = 12  # More context for complex questions (QUALITY tier)
     rag_search_limit: int = 25  # Candidates per search mode before RRF
 
     # Server

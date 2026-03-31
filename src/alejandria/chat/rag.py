@@ -91,6 +91,9 @@ class RAGPipeline:
             tier_override: If set, force a specific tier ("fast", "balanced",
                 "quality") or model ID for the answer.
         """
+        # Determine effective tier early — needed for context sizing and max_tokens
+        effective_tier = self._resolve_tier(question, tier_override, provider_override, model_override)
+
         # 0. Direct scripture lookup: if the question mentions specific references,
         #    fetch those verses directly so they're always in context
         direct_sources, detected_refs = self._direct_scripture_lookup(question)
@@ -106,7 +109,14 @@ class RAGPipeline:
         kg_file_hints = self._get_kg_file_hints(question)
 
         # 3. Retrieve from all available search modes + KG hints
-        sources = self._retrieve(question, fts_query, source_filter, kg_file_hints)
+        #    Use more context chunks for QUALITY tier questions
+        context_chunks = (
+            settings.rag_context_chunks_quality
+            if effective_tier == "quality"
+            else settings.rag_context_chunks
+        )
+        sources = self._retrieve(question, fts_query, source_filter, kg_file_hints,
+                                 context_chunks=context_chunks)
 
         # Prepend direct lookups and cross-refs (highest priority)
         if direct_sources or xref_sources:
@@ -118,13 +128,19 @@ class RAGPipeline:
         # 4. Assemble the context prompt
         context_text = self._build_context(sources, graph_context)
 
-        # 5. Call LLM for the answer
+        # 5. Call LLM for the answer — use shorter output for FAST tier
+        max_tokens = (
+            settings.llm_max_tokens_fast
+            if effective_tier == "fast"
+            else None  # default (settings.llm_max_tokens)
+        )
         user_message = f"CONTEXT:\n{context_text}\n\nQUESTION:\n{question}"
         llm_response, used_model, used_tier = self._generate_answer(
             user_message, question,
             provider_override=provider_override,
             model_override=model_override,
             tier_override=tier_override,
+            max_tokens=max_tokens,
         )
 
         return ChatResponse(
@@ -137,6 +153,34 @@ class RAGPipeline:
             output_tokens=llm_response.output_tokens,
         )
 
+    @staticmethod
+    def _resolve_tier(
+        question: str,
+        tier_override: str | None = None,
+        provider_override: str | None = None,
+        model_override: str | None = None,
+    ) -> str:
+        """Resolve the effective tier name early (no LLM call).
+
+        Returns a tier string: "fast", "balanced", "quality", "override", or "legacy".
+        Used to size context chunks and max_tokens before calling _generate_answer().
+        """
+        if provider_override or model_override:
+            return "override"
+
+        from alejandria.chat.models import Tier, classify_complexity, select_model_by_id
+
+        tier_setting = tier_override or settings.llm_answer_tier
+        if tier_setting == "auto":
+            return classify_complexity(question).value
+        if tier_setting in ("fast", "balanced", "quality"):
+            return tier_setting
+        # Model ID — resolve its tier
+        model_def = select_model_by_id(tier_setting)
+        if model_def:
+            return model_def.tier.value
+        return "balanced"
+
     def _generate_answer(
         self,
         user_message: str,
@@ -145,6 +189,7 @@ class RAGPipeline:
         provider_override: str | None = None,
         model_override: str | None = None,
         tier_override: str | None = None,
+        max_tokens: int | None = None,
     ):
         """Generate the final answer using tiered model selection.
 
@@ -162,7 +207,8 @@ class RAGPipeline:
             model = model_override or settings.llm_model
             api_key = get_api_key(provider)
             response = complete(SYSTEM_PROMPT, user_message,
-                                provider=provider, model=model, api_key=api_key)
+                                provider=provider, model=model, api_key=api_key,
+                                max_tokens=max_tokens)
             return response, None, "override"
 
         # Determine tier
@@ -177,7 +223,8 @@ class RAGPipeline:
             # Treat as model ID
             model_def = select_model_by_id(tier_setting)
             if model_def:
-                response = complete_with_model(SYSTEM_PROMPT, user_message, model_def)
+                response = complete_with_model(SYSTEM_PROMPT, user_message, model_def,
+                                               max_tokens=max_tokens)
                 return response, model_def, model_def.tier.value
             # Unknown — default to balanced
             tier = Tier.BALANCED
@@ -192,7 +239,8 @@ class RAGPipeline:
         for model_def in candidates:
             try:
                 logger.info("Selected model: %s (tier=%s)", model_def.id, model_def.tier.value)
-                response = complete_with_model(SYSTEM_PROMPT, user_message, model_def)
+                response = complete_with_model(SYSTEM_PROMPT, user_message, model_def,
+                                               max_tokens=max_tokens)
                 return response, model_def, model_def.tier.value
             except Exception as e:
                 logger.warning("Model %s failed: %s — trying next", model_def.id, str(e)[:100])
@@ -201,7 +249,7 @@ class RAGPipeline:
         if not candidates:
             # No tiered models available — fall back to legacy settings
             logger.warning("No tiered models available, using legacy settings")
-            response = complete(SYSTEM_PROMPT, user_message)
+            response = complete(SYSTEM_PROMPT, user_message, max_tokens=max_tokens)
             return response, None, "legacy"
 
     def _complete_internal(self, system_prompt: str, user_message: str):
@@ -692,10 +740,12 @@ class RAGPipeline:
     def _retrieve(
         self, question: str, fts_query: str, source_filter: str | None,
         kg_file_hints: list[str] | None = None,
+        context_chunks: int | None = None,
     ) -> list[ChatSource]:
         """Retrieve chunks using hybrid search + KG hints + cross-refs + reranking."""
         from alejandria.search.hybrid import reciprocal_rank_fusion
 
+        base_chunks = context_chunks or settings.rag_context_chunks
         # Enumeration queries need broader recall
         is_enum = self._is_enumeration_query(question)
         candidate_limit = settings.rag_search_limit * 2 if is_enum else settings.rag_search_limit
@@ -745,7 +795,7 @@ class RAGPipeline:
                 logger.warning("Semantic search failed during RAG retrieval")
 
         # Combine via Reciprocal Rank Fusion — fetch extra for cross-ref expansion
-        context_limit = settings.rag_context_chunks * 2 if is_enum else settings.rag_context_chunks
+        context_limit = base_chunks * 2 if is_enum else base_chunks
         rrf_limit = context_limit + 10  # room for cross-refs
         hybrid_results = reciprocal_rank_fusion(
             text_results=text_dicts,
