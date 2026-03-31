@@ -16,6 +16,8 @@ from alejandria.api.schemas import (
     GraphSearchRequest,
     GraphSearchResponse,
     GraphSummaryResponse,
+    LLMExtractRelationsRequest,
+    LLMExtractRelationsResponse,
     ParallelPassageItem,
     ParallelPassagesRequest,
     ParallelPassagesResponse,
@@ -251,3 +253,58 @@ def dismiss_ner_candidate(name: str, entity_type: str):
         raise
     except Exception as e:
         raise HTTPException(500, str(e))
+
+
+@router.post("/extract-relations", response_model=LLMExtractRelationsResponse)
+def extract_relations_llm(
+    req: LLMExtractRelationsRequest,
+    neo4j=Depends(_require_neo4j),
+):
+    """Extract typed relations from entity-rich passages using LLM.
+
+    Selects passages with the most entity mentions, sends them to an LLM
+    with structured prompts, and stores extracted typed relations in Neo4j.
+    Use dry_run=true to preview without loading.
+    """
+    from alejandria.knowledge.relation_extractor_llm import (
+        LLMRelationExtractor,
+        build_batches_from_index,
+    )
+
+    try:
+        batches = build_batches_from_index(
+            max_passages=req.max_passages,
+            min_entities=req.min_entities,
+            volumes=req.volumes,
+        )
+        if not batches:
+            return LLMExtractRelationsResponse(
+                passages_processed=0, relations_extracted=0,
+                relations_loaded=0, duplicates_skipped=0, errors=0,
+                input_tokens=0, output_tokens=0, elapsed_seconds=0.0,
+            )
+
+        extractor = LLMRelationExtractor(tier=req.tier)
+        stats, relations = extractor.extract_batch(
+            batches=batches,
+            neo4j_client=None if req.dry_run else neo4j,
+            dry_run=req.dry_run,
+        )
+
+        by_type = {}
+        for r in relations:
+            by_type[r.rel_type] = by_type.get(r.rel_type, 0) + 1
+
+        return LLMExtractRelationsResponse(
+            passages_processed=stats.passages_processed,
+            relations_extracted=stats.relations_extracted,
+            relations_loaded=stats.relations_loaded,
+            duplicates_skipped=stats.duplicates_skipped,
+            errors=stats.errors,
+            input_tokens=stats.input_tokens,
+            output_tokens=stats.output_tokens,
+            elapsed_seconds=stats.elapsed_seconds,
+            relations_by_type=by_type if by_type else None,
+        )
+    except Exception as e:
+        raise HTTPException(500, f"LLM extraction failed: {e}")
