@@ -19,6 +19,8 @@ from alejandria.authority import (
     effective_authority,
     importance_boost,
 )
+from alejandria.chat.definitions import DefinitionLookup
+from alejandria.chat.jst_pairing import JSTLookup
 from alejandria.config import settings
 
 logger = logging.getLogger(__name__)
@@ -88,7 +90,16 @@ AUTHORITY:
 - When sources conflict, prefer higher-authority sources.
 - Canon (scriptures) > Prophetic (conference talks) > Correlated (manuals) > other.
 - When citing non-canonical sources, acknowledge their tier if relevant to the answer.
-- Never present a lower-authority source as having the same weight as scripture.\
+- Never present a lower-authority source as having the same weight as scripture.
+
+STUDY AIDS:
+- Context may include "Doctrinal definitions" from the Bible Dictionary (BD) or \
+Guide to the Scriptures (GEE). Use these as background framing, NOT as citable \
+doctrine. The BD explicitly disclaims official doctrinal status.
+- JST variants may appear alongside Bible passages. When present, note the JST \
+reading as Joseph Smith's inspired revision — it carries quasi-canonical authority.
+- The Book of Mormon Title Page is ancient translated text by Moroni — treat it \
+as canonical scripture, not as modern editorial material.\
 """
 
 
@@ -123,6 +134,8 @@ class RAGPipeline:
     semantic_search: object | None = None  # SemanticSearch or None
     neo4j_client: object | None = None  # Neo4jClient or None
     profile_store: object | None = None  # ProfileStore or None
+    definition_lookup: DefinitionLookup | None = None  # BD/GEE definitions
+    jst_lookup: JSTLookup | None = None  # JST variant pairing
 
     def ask(
         self,
@@ -176,8 +189,12 @@ class RAGPipeline:
         # 4. Build graph context if available
         graph_context = self._get_graph_context(question)
 
-        # 4. Assemble the context prompt
-        context_text = self._build_context(sources, graph_context)
+        # 4b. Look up BD/GEE definitions for key concepts (zero LLM cost)
+        definition_context = self._get_definition_context(question, kg_file_hints)
+
+        # 5. Assemble the context prompt
+        context_text = self._build_context(sources, graph_context,
+                                           definition_context)
 
         # 5. Call LLM for the answer — use shorter output for FAST tier
         max_tokens = (
@@ -1241,7 +1258,51 @@ class RAGPipeline:
             logger.warning("Graph context extraction failed")
             return None
 
-    def _build_context(self, sources: list[ChatSource], graph_context: str | None) -> str:
+    def _get_definition_context(
+        self, question: str, kg_file_hints: list[tuple[str, str]],
+    ) -> str | None:
+        """Look up BD/GEE definitions for concepts in the question.
+
+        Uses entity names from KG hints (already extracted, zero additional cost).
+        Returns formatted definitions block or None.
+        """
+        # Lazy-init: build definition index on first use
+        if self.definition_lookup is None:
+            try:
+                self.definition_lookup = DefinitionLookup(settings.corpus_dir)
+            except Exception:
+                logger.debug("Could not initialize DefinitionLookup", exc_info=True)
+                return None
+
+        # Detect language
+        lang = "es" if any(
+            w in question.lower()
+            for w in ("quien", "que", "cual", "como", "donde", "cuando", "por que")
+        ) else "en"
+
+        # Use entity names from KG hints (already extracted from gazetteer)
+        entity_names = list({label for _, label in kg_file_hints}) if kg_file_hints else None
+
+        definitions = self.definition_lookup.lookup_for_question(
+            question, entities=entity_names, lang=lang,
+        )
+
+        if not definitions:
+            return None
+
+        parts = ["Doctrinal definitions (study aids):"]
+        for defn in definitions:
+            parts.append(f"\n- {defn.term} {defn.authority_note}:")
+            parts.append(f"  {defn.text}")
+
+        return "\n".join(parts)
+
+    def _build_context(
+        self,
+        sources: list[ChatSource],
+        graph_context: str | None,
+        definition_context: str | None = None,
+    ) -> str:
         """Assemble the context string for the LLM prompt."""
         parts = []
 
@@ -1249,13 +1310,36 @@ class RAGPipeline:
             parts.append(graph_context)
             parts.append("")
 
+        if definition_context:
+            parts.append(definition_context)
+            parts.append("")
+
         if sources:
+            # Lazy-init JST lookup for Bible passage pairing
+            if self.jst_lookup is None:
+                try:
+                    self.jst_lookup = JSTLookup(settings.corpus_dir)
+                except Exception:
+                    pass
+
             parts.append("Retrieved passages:")
             for i, s in enumerate(sources, 1):
                 source_label = s.reference if s.reference else f"{s.file_path} (chunk {s.chunk_index})"
                 auth_tag = f", {s.authority_label}" if s.authority_label else ""
                 parts.append(f"\n[{i}] Source: {source_label} ({s.mode} search{auth_tag})")
                 parts.append(s.text)
+
+                # Append JST variant if this is a Bible passage
+                if self.jst_lookup and s.file_path and "/scriptures/" in s.file_path:
+                    path_norm = s.file_path.replace("\\", "/")
+                    if "/ot/" in path_norm or "/nt/" in path_norm:
+                        jst_text = self.jst_lookup.find_jst_for_passage(s.file_path)
+                        if jst_text:
+                            parts.append(f"\n    [JST variant for {source_label}]:")
+                            # Truncate to avoid overwhelming context
+                            if len(jst_text) > 600:
+                                jst_text = jst_text[:600] + "..."
+                            parts.append(f"    {jst_text}")
 
         if not parts:
             parts.append("No relevant context found in the corpus.")

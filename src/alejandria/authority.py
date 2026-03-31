@@ -78,6 +78,92 @@ _FALLBACK = AuthorityMeta(
 )
 
 
+def _is_intro_file(filename: str) -> bool:
+    """Check if a filename is an introductory/editorial material file."""
+    return filename in {
+        "introduction.txt", "introduction.meta.json",
+        "title-page.txt", "title-page.meta.json",
+        "chronological-order.txt", "chronological-order.meta.json",
+        "explanation.txt", "explanation.meta.json",
+        "epistle-dedicatory.txt", "epistle-dedicatory.meta.json",
+    }
+
+
+# ── Sub-category overrides for scriptures introductory material ──────────
+# These files live under scriptures/ but are NOT canon text.
+
+_SCRIPTURE_INTRO_OVERRIDES: dict[str, AuthorityMeta] = {
+    # Ancient translated text — part of the sacred record (Moroni)
+    "bofm-title": AuthorityMeta(
+        authority=100, rigor=100, importance="imprescindible",
+        official=True, current=True, context="canon",
+    ),
+    # Historical witness documents — foundational testimony, not revelation
+    "testimony-three-witnesses": AuthorityMeta(
+        authority=85, rigor=90, importance="imprescindible",
+        official=True, current=True, context="foundational-witness",
+    ),
+    "testimony-eight-witnesses": AuthorityMeta(
+        authority=85, rigor=90, importance="imprescindible",
+        official=True, current=True, context="foundational-witness",
+    ),
+    "testimony-joseph-smith": AuthorityMeta(
+        authority=85, rigor=90, importance="imprescindible",
+        official=True, current=True, context="foundational-witness",
+    ),
+    # Modern editorial introductions — official but revisable
+    "introduction": AuthorityMeta(
+        authority=60, rigor=65, importance="importante",
+        official=True, current=True, context="editorial",
+    ),
+    # Structural/reference material
+    "explanation": AuthorityMeta(
+        authority=55, rigor=60, importance="importante",
+        official=True, current=True, context="editorial",
+    ),
+    "chronological-order": AuthorityMeta(
+        authority=55, rigor=60, importance="interesante",
+        official=True, current=True, context="editorial",
+    ),
+    # Publishing metadata — minimal doctrinal content
+    "title-page": AuthorityMeta(
+        authority=10, rigor=50, importance="irrelevante",
+        official=True, current=True, context="publishing",
+    ),
+    # KJV historical artifact
+    "epistle-dedicatory": AuthorityMeta(
+        authority=15, rigor=40, importance="irrelevante",
+        official=False, current=False, context="historical-artifact",
+    ),
+}
+
+
+# ── Sub-category overrides for study-aids ─────────────────────────────────
+
+_STUDY_AID_DEFAULTS: dict[str, AuthorityMeta] = {
+    # GEE: composed by Correlation, no doctrinal disclaimer
+    "guide-to-scriptures": AuthorityMeta(
+        authority=60, rigor=75, importance="importante",
+        official=True, current=True, context="study-aid",
+    ),
+    # TG: curated cross-canonical index — reference, not doctrine
+    "topical-guide": AuthorityMeta(
+        authority=55, rigor=80, importance="importante",
+        official=True, current=True, context="study-aid",
+    ),
+    # BD: explicit disclaimer "not official doctrine", Cambridge-based
+    "bible-dictionary": AuthorityMeta(
+        authority=50, rigor=65, importance="importante",
+        official=True, current=True, context="study-aid",
+    ),
+    # JST: inspired revision — higher authority than other aids
+    "jst-appendix": AuthorityMeta(
+        authority=90, rigor=85, importance="imprescindible",
+        official=True, current=True, context="inspired-revision",
+    ),
+}
+
+
 def derive_authority(source: str, rel_path: str = "") -> AuthorityMeta:
     """Derive authority metadata from corpus source category and path.
 
@@ -90,6 +176,45 @@ def derive_authority(source: str, rel_path: str = "") -> AuthorityMeta:
         AuthorityMeta with default values for the source category.
         Callers can override individual fields from meta.json if available.
     """
+    norm = rel_path.replace("\\", "/")
+
+    # ── Scripture introductory material overrides ──
+    if source == "scriptures":
+        # Extract filename stem from path
+        parts = norm.rstrip("/").split("/")
+        if parts:
+            filename = parts[-1]
+            stem = filename.replace(".meta.json", "").replace(".txt", "")
+            if stem in _SCRIPTURE_INTRO_OVERRIDES:
+                override = _SCRIPTURE_INTRO_OVERRIDES[stem]
+                return AuthorityMeta(
+                    authority=override.authority,
+                    rigor=override.rigor,
+                    importance=override.importance,
+                    official=override.official,
+                    current=override.current,
+                    context=override.context,
+                    consensus=override.consensus,
+                    audience=override.audience,
+                    speaker_calling=override.speaker_calling,
+                )
+
+    # ── Study-aid sub-category overrides ──
+    if source == "study-aids":
+        for aid_key, aid_meta in _STUDY_AID_DEFAULTS.items():
+            if aid_key in norm:
+                return AuthorityMeta(
+                    authority=aid_meta.authority,
+                    rigor=aid_meta.rigor,
+                    importance=aid_meta.importance,
+                    official=aid_meta.official,
+                    current=aid_meta.current,
+                    context=aid_meta.context,
+                    consensus=aid_meta.consensus,
+                    audience=aid_meta.audience,
+                    speaker_calling=aid_meta.speaker_calling,
+                )
+
     base = _SOURCE_DEFAULTS.get(source, _FALLBACK)
     # Return a copy so callers can modify without affecting defaults
     return AuthorityMeta(
