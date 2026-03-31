@@ -70,6 +70,18 @@ cd docker && docker compose up --build
 docker run --rm -v ./tests:/app/tests -v ./src:/app/src docker-api bash -c "pip install -q pytest httpx && python -m pytest /app/tests/ -v"
 ```
 
+## Answering Corpus Questions
+
+When the user asks a theological, doctrinal, or scripture-content question:
+
+1. **Start from your own knowledge** — you already know the scriptures and doctrine. Draft the answer mentally first.
+2. **KG entity lookup** (1 call) — hit `/kg/entity/{name}` to get relations, types, and associated documents. This gives structure.
+3. **1-2 hybrid searches** — only if you need specific passages you can't quote from memory, or to discover corpus-specific content (conference talks, manuals).
+4. **Direct file reads** — only for exact verse text when precision matters (e.g., user asked for FCD format).
+5. **Respond** — use your knowledge as the backbone, corpus hits as citations and verification.
+
+**Never:** launch a generic subagent to exhaustively search the corpus. The KG and search APIs are surgical tools, not substitutes for domain knowledge. Total tool calls for a corpus question should typically be 2-5, not 40+.
+
 ## SSL/Corporate Proxy Note
 
 The Dockerfile expects `docker/ca-certificates.crt` with your corporate CA certs for model downloads.
