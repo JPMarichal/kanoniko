@@ -185,6 +185,7 @@ class KGExtractor:
         self._nlp_en = None  # Lazy-loaded
         self._nlp_es = None  # Lazy-loaded
         self._ner_available = None  # None = not checked yet
+        self._ner_tracker = None  # Lazy-loaded NERCandidateTracker
 
     def _load_gazetteer(self, path: Path) -> dict:
         with open(path, encoding="utf-8") as f:
@@ -423,6 +424,8 @@ class KGExtractor:
                     key = f"{entity.name}:{entity.type}"
                     if key not in found_entities:
                         found_entities[key] = entity
+                        # Track NER discoveries for gazetteer feedback loop
+                        self._track_ner_candidate(entity.name, entity.type, source_file)
 
         result.entities = list(found_entities.values())
 
@@ -517,6 +520,22 @@ class KGExtractor:
                 ))
 
         return entities
+
+    def _track_ner_candidate(self, name: str, entity_type: str, source_file: str) -> None:
+        """Record NER-discovered entity for potential gazetteer promotion."""
+        if self._ner_tracker is None:
+            try:
+                from alejandria.knowledge.ner_candidates import NERCandidateTracker
+                self._ner_tracker = NERCandidateTracker()
+            except Exception:
+                self._ner_tracker = False  # type: ignore[assignment]
+                return
+        if self._ner_tracker is False:
+            return
+        try:
+            self._ner_tracker.record(name, entity_type, source_file)
+        except Exception:
+            pass  # Don't fail extraction due to tracking issues
 
     def _extract_relations(self, entities: list[ExtractedEntity]) -> list[ExtractedRelation]:
         """Infer relations from co-occurring entities in the same chunk.

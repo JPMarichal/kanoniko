@@ -198,3 +198,56 @@ def list_profiles(
         count=len(profiles),
         profiles=[EntityProfileResponse(**p.to_dict()) for p in profiles],
     )
+
+
+@router.get("/ner-candidates")
+def list_ner_candidates(
+    min_frequency: int = 3,
+    entity_type: str | None = None,
+    limit: int = 50,
+):
+    """List top NER-discovered entity candidates for gazetteer promotion."""
+    from alejandria.knowledge.ner_candidates import NERCandidateTracker
+    try:
+        tracker = NERCandidateTracker()
+        candidates = tracker.get_top_candidates(
+            min_frequency=min_frequency,
+            entity_type=entity_type,
+            limit=limit,
+        )
+        stats = tracker.get_stats()
+        return {"candidates": candidates, "stats": stats}
+    except Exception as e:
+        raise HTTPException(500, f"NER candidate tracking not available: {e}")
+
+
+@router.post("/ner-candidates/{name}/promote")
+def promote_ner_candidate(name: str, entity_type: str):
+    """Promote an NER candidate to gazetteer status."""
+    from alejandria.knowledge.ner_candidates import NERCandidateTracker
+    try:
+        tracker = NERCandidateTracker()
+        success = tracker.promote(name, entity_type)
+        if not success:
+            raise HTTPException(404, f"Candidate '{name}' ({entity_type}) not found")
+        return {"status": "promoted", "name": name, "type": entity_type}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(500, str(e))
+
+
+@router.post("/ner-candidates/{name}/dismiss")
+def dismiss_ner_candidate(name: str, entity_type: str):
+    """Dismiss an NER candidate (mark as not useful)."""
+    from alejandria.knowledge.ner_candidates import NERCandidateTracker
+    try:
+        tracker = NERCandidateTracker()
+        success = tracker.dismiss(name, entity_type)
+        if not success:
+            raise HTTPException(404, f"Candidate '{name}' ({entity_type}) not found")
+        return {"status": "dismissed", "name": name, "type": entity_type}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(500, str(e))
