@@ -237,11 +237,17 @@ class RAGPipeline:
         return complete(system_prompt, user_message)
 
     def _expand_query(self, question: str) -> str:
-        """Use LLM to generate effective search keywords for FTS retrieval.
+        """Generate effective search keywords for FTS retrieval.
 
-        Returns a keyword string optimized for full-text search.
-        Falls back to the original question on error.
+        Uses LLM only for vague/abstract questions. If the question already
+        contains specific names or scripture references, returns it directly
+        (saves one LLM call per question in ~40-60% of cases).
         """
+        # Skip expansion if the question already has specific search terms
+        if self._has_specific_terms(question):
+            logger.info("Query expansion skipped (specific terms detected): '%s'", question)
+            return question
+
         try:
             expansion_prompt = (
                 "You are a search query optimizer for a scripture corpus (Bible, "
@@ -260,14 +266,34 @@ class RAGPipeline:
             logger.warning("Query expansion failed, using original question")
             return question
 
-    def _get_kg_file_hints(self, question: str) -> list[tuple[str, str]]:
-        """Use LLM + KG to find documents related to entities in the question.
+    @staticmethod
+    def _has_specific_terms(question: str) -> bool:
+        """Check if the question already has entity names or scripture refs.
 
-        Instead of relying on the gazetteer extractor (which has bias toward
-        the most prominent entity match), this method:
-        1. Asks the LLM to extract entity names from the question
-        2. Searches the KG for ALL matching entities (not just the first)
-        3. Collects documents for every match, tagged with the entity name
+        If so, FTS will work well without LLM expansion.
+        """
+        import re
+        # Scripture references (e.g., "1 Nephi 3:7", "D&C 76")
+        if re.search(r'\b\d?\s?(?:Nephi|Alma|Mosiah|Helaman|Ether|Mormon|Moroni|'
+                      r'Genesis|Exodus|Isaiah|Psalm|Matthew|John|Acts|Romans|'
+                      r'Revelation|D&C|Abraham|Moses)\s+\d', question, re.IGNORECASE):
+            return True
+        # Proper names (2+ capitalized words in a row = likely entity)
+        proper_nouns = re.findall(r'\b[A-Z][a-z]{2,}(?:\s+[A-Z][a-z]{2,})*\b', question)
+        if len(proper_nouns) >= 2:
+            return True
+        # Question has 6+ words and at least one proper noun — probably specific enough
+        words = question.split()
+        if len(words) >= 6 and proper_nouns:
+            return True
+        return False
+
+    def _get_kg_file_hints(self, question: str) -> list[tuple[str, str]]:
+        """Find KG documents related to entities in the question.
+
+        Uses the gazetteer extractor (zero LLM cost) instead of an LLM call.
+        The gazetteer has 2,600+ entities with aliases — sufficient for entity
+        extraction from short questions.
 
         Returns list of (file_path, entity_label) tuples.
         """
@@ -275,7 +301,7 @@ class RAGPipeline:
             return []
 
         try:
-            # Step 1: LLM extracts entity names (no gazetteer bias)
+            # Step 1: Extract entities using gazetteer (no LLM call)
             entity_names = self._extract_entities_from_question(question)
             if not entity_names:
                 return []
@@ -319,32 +345,32 @@ class RAGPipeline:
             return []
 
     def _extract_entities_from_question(self, question: str) -> list[str]:
-        """Use the LLM to extract entity names from the question.
+        """Extract entity names from the question using the gazetteer.
 
-        Unlike the gazetteer extractor, the LLM understands that "Marys" means
-        "Mary", "fruits of the Spirit" is a concept, etc. No bias toward any
-        particular entity — just returns the names to search for.
+        Zero LLM cost — uses the curated gazetteer (2,600+ entities with
+        bilingual aliases) to find entities mentioned in the question.
+        Handles plurals and common variations via alias matching.
         """
         try:
-            prompt = (
-                "Extract the proper nouns, person names, place names, and key "
-                "religious/doctrinal concepts from this question. Return ONLY "
-                "a comma-separated list of the base entity names (singular form, "
-                "no articles). If the question mentions a plural like 'Marys', "
-                "return 'Mary'. If no entities found, return 'NONE'. "
-                "Output nothing else."
-            )
-            result = self._complete_internal(prompt, question)
-            text = result.text.strip()
+            from alejandria.knowledge.extractor import KGExtractor
+            extractor = KGExtractor()
+            extraction = extractor.extract(question)
 
-            if not text or text.upper() == "NONE":
-                return []
+            # Collect unique canonical names (prefer gazetteer over NER)
+            names: list[str] = []
+            seen: set[str] = set()
+            for entity in extraction.entities:
+                if entity.type == "scripture":
+                    continue  # Skip scripture refs
+                if entity.name not in seen:
+                    seen.add(entity.name)
+                    names.append(entity.name)
 
-            names = [n.strip() for n in text.split(",") if n.strip()]
-            logger.info("LLM entity extraction: '%s' → %s", question, names)
+            if names:
+                logger.info("Gazetteer entity extraction: '%s' → %s", question, names)
             return names
         except Exception:
-            logger.warning("LLM entity extraction failed")
+            logger.warning("Gazetteer entity extraction failed")
             return []
 
     @staticmethod
@@ -910,6 +936,12 @@ class RAGPipeline:
         target = max_select or settings.rag_context_chunks
         if len(sources) <= target:
             return sources  # Nothing to prune
+
+        # Skip LLM reranking if marginal gain is small (saves ~1000 tokens)
+        # Just truncate by existing score order — the RRF already ranked them
+        if len(sources) <= int(target * 1.5):
+            logger.info("Rerank skipped (%d candidates for %d slots — marginal gain)", len(sources), target)
+            return sources[:target]
 
         try:
             # Build a compact list of candidates for the LLM
