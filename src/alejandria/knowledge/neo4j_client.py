@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import logging
+import time
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -11,6 +13,9 @@ from neo4j import GraphDatabase
 from alejandria.config import settings
 
 logger = logging.getLogger(__name__)
+
+# TTL-aware cache: stores (result, timestamp). Cache invalidated after 5 minutes.
+_CACHE_TTL_SECONDS = 300
 
 
 class Neo4jClient:
@@ -27,6 +32,23 @@ class Neo4jClient:
             auth=(user or settings.neo4j_user, password or settings.neo4j_password),
         )
         self._ensure_indexes()
+
+    _cache: dict[str, tuple[Any, float]] = {}
+
+    def _cached(self, key: str, fn, ttl: float = _CACHE_TTL_SECONDS):
+        """Simple TTL cache for read-only queries."""
+        now = time.time()
+        if key in self._cache:
+            result, ts = self._cache[key]
+            if now - ts < ttl:
+                return result
+        result = fn()
+        self._cache[key] = (result, now)
+        # Evict old entries periodically (keep cache bounded)
+        if len(self._cache) > 500:
+            cutoff = now - ttl
+            self._cache = {k: v for k, v in self._cache.items() if v[1] > cutoff}
+        return result
 
     def _ensure_indexes(self) -> None:
         """Create indexes and constraints on first connection."""
@@ -130,24 +152,29 @@ class Neo4jClient:
 
     def find_node(self, search: str, entity_type: str | None = None, limit: int = 20) -> list[dict]:
         """Search for entities by partial name match."""
-        with self._driver.session() as session:
-            if entity_type:
-                result = session.run(
-                    "MATCH (e:Entity) "
-                    "WHERE e.type = $type AND toLower(e.name) CONTAINS toLower($search) "
-                    "RETURN e.name AS name, e.type AS type, e.aliases AS aliases "
-                    "LIMIT $limit",
-                    search=search, type=entity_type, limit=limit,
-                )
-            else:
-                result = session.run(
-                    "MATCH (e:Entity) "
-                    "WHERE toLower(e.name) CONTAINS toLower($search) "
-                    "RETURN e.name AS name, e.type AS type, e.aliases AS aliases "
-                    "LIMIT $limit",
-                    search=search, limit=limit,
-                )
-            return [dict(record) for record in result]
+        cache_key = f"find_node:{search}:{entity_type}:{limit}"
+
+        def _query():
+            with self._driver.session() as session:
+                if entity_type:
+                    result = session.run(
+                        "MATCH (e:Entity) "
+                        "WHERE e.type = $type AND toLower(e.name) CONTAINS toLower($search) "
+                        "RETURN e.name AS name, e.type AS type, e.aliases AS aliases "
+                        "LIMIT $limit",
+                        search=search, type=entity_type, limit=limit,
+                    )
+                else:
+                    result = session.run(
+                        "MATCH (e:Entity) "
+                        "WHERE toLower(e.name) CONTAINS toLower($search) "
+                        "RETURN e.name AS name, e.type AS type, e.aliases AS aliases "
+                        "LIMIT $limit",
+                        search=search, limit=limit,
+                    )
+                return [dict(record) for record in result]
+
+        return self._cached(cache_key, _query)
 
     def get_neighbors(
         self, name: str, depth: int = 1, relation_types: list[str] | None = None, limit: int = 50
@@ -190,6 +217,106 @@ class Neo4jClient:
                 name=name,
             )
             return [dict(record) for record in result]
+
+    def get_documents_for_entities_batch(self, names: list[str]) -> dict[str, list[str]]:
+        """Find documents for multiple entities in a single Cypher query.
+
+        Returns dict mapping entity_name -> list of file_paths.
+        """
+        if not names:
+            return {}
+        with self._driver.session() as session:
+            result = session.run(
+                "MATCH (e:Entity)-[:MENTIONED_IN]->(d:Document) "
+                "WHERE e.name IN $names "
+                "RETURN e.name AS name, collect(DISTINCT d.file_path) AS file_paths",
+                names=names,
+            )
+            return {record["name"]: record["file_paths"] for record in result}
+
+    def find_nodes_batch(self, searches: list[str], limit_per: int = 15) -> list[dict]:
+        """Search for entities matching multiple names in a single query.
+
+        Uses fulltext index for efficient lookup. Returns list of dicts
+        with name, type, aliases — deduplicated.
+        """
+        if not searches:
+            return []
+        with self._driver.session() as session:
+            # Build OR query for fulltext index
+            ft_query = " OR ".join(searches)
+            try:
+                result = session.run(
+                    "CALL db.index.fulltext.queryNodes('entity_name_ft', $query) "
+                    "YIELD node, score "
+                    "RETURN node.name AS name, node.type AS type, node.aliases AS aliases "
+                    "LIMIT $limit",
+                    query=ft_query, limit=limit_per * len(searches),
+                )
+                return [dict(record) for record in result]
+            except Exception:
+                # Fallback: CONTAINS matching (slower but always works)
+                conditions = " OR ".join(
+                    f"toLower(e.name) CONTAINS toLower('{s.replace(chr(39), '')}')"
+                    for s in searches
+                )
+                result = session.run(
+                    f"MATCH (e:Entity) WHERE {conditions} "
+                    "RETURN e.name AS name, e.type AS type, e.aliases AS aliases "
+                    f"LIMIT $limit",
+                    limit=limit_per * len(searches),
+                )
+                return [dict(record) for record in result]
+
+    def get_typed_relations_batch(
+        self,
+        entity_names: list[str],
+        confidence_min: str | None = None,
+        limit_per: int = 30,
+    ) -> list[dict]:
+        """Get typed relations for multiple entities in a single query.
+
+        Returns list of dicts with: from_name, from_type, rel_type, to_name, to_type, props.
+        """
+        if not entity_names:
+            return []
+
+        confidence_order = {
+            "curated": 6, "metadata": 5, "llm_high": 4,
+            "llm_low": 3, "ner": 2, "co_occurrence": 1,
+        }
+
+        with self._driver.session() as session:
+            result = session.run(
+                "MATCH (a:Entity)-[r]->(b:Entity) "
+                "WHERE a.name IN $names AND NOT type(r) IN ['MENTIONED_IN'] "
+                "RETURN a.name AS from_name, a.type AS from_type, "
+                "       type(r) AS rel_type, "
+                "       b.name AS to_name, b.type AS to_type, "
+                "       properties(r) AS props "
+                f"LIMIT $limit "
+                "UNION "
+                "MATCH (a:Entity)-[r]->(b:Entity) "
+                "WHERE b.name IN $names AND NOT type(r) IN ['MENTIONED_IN'] "
+                "RETURN a.name AS from_name, a.type AS from_type, "
+                "       type(r) AS rel_type, "
+                "       b.name AS to_name, b.type AS to_type, "
+                "       properties(r) AS props "
+                f"LIMIT $limit",
+                names=entity_names, limit=limit_per * len(entity_names),
+            )
+            relations = [dict(record) for record in result]
+
+        if confidence_min and confidence_min in confidence_order:
+            min_level = confidence_order[confidence_min]
+            relations = [
+                r for r in relations
+                if confidence_order.get(
+                    (r.get("props") or {}).get("confidence", "co_occurrence"), 0
+                ) >= min_level
+            ]
+
+        return relations
 
     def graph_summary(self) -> dict:
         """Get overall graph statistics."""
@@ -405,26 +532,31 @@ class Neo4jClient:
             types_str = "|".join(rel_types)
             rel_filter = f":{types_str}"
 
-        with self._driver.session() as session:
-            result = session.run(
-                f"MATCH (a:Entity {{name: $name}})-[r{rel_filter}]->(b:Entity) "
-                "RETURN a.name AS from_name, a.type AS from_type, "
-                "       type(r) AS rel_type, "
-                "       b.name AS to_name, b.type AS to_type, "
-                "       properties(r) AS props "
-                "ORDER BY r.confidence DESC "
-                f"LIMIT $limit "
-                "UNION "
-                f"MATCH (a:Entity)-[r{rel_filter}]->(b:Entity {{name: $name}}) "
-                "RETURN a.name AS from_name, a.type AS from_type, "
-                "       type(r) AS rel_type, "
-                "       b.name AS to_name, b.type AS to_type, "
-                "       properties(r) AS props "
-                "ORDER BY r.confidence DESC "
-                f"LIMIT $limit",
-                name=entity_name, limit=limit,
-            )
-            relations = [dict(record) for record in result]
+        cache_key = f"typed_rels:{entity_name}:{rel_filter}:{limit}"
+
+        def _query():
+            with self._driver.session() as session:
+                result = session.run(
+                    f"MATCH (a:Entity {{name: $name}})-[r{rel_filter}]->(b:Entity) "
+                    "RETURN a.name AS from_name, a.type AS from_type, "
+                    "       type(r) AS rel_type, "
+                    "       b.name AS to_name, b.type AS to_type, "
+                    "       properties(r) AS props "
+                    "ORDER BY r.confidence DESC "
+                    f"LIMIT $limit "
+                    "UNION "
+                    f"MATCH (a:Entity)-[r{rel_filter}]->(b:Entity {{name: $name}}) "
+                    "RETURN a.name AS from_name, a.type AS from_type, "
+                    "       type(r) AS rel_type, "
+                    "       b.name AS to_name, b.type AS to_type, "
+                    "       properties(r) AS props "
+                    "ORDER BY r.confidence DESC "
+                    f"LIMIT $limit",
+                    name=entity_name, limit=limit,
+                )
+                return [dict(record) for record in result]
+
+        relations = self._cached(cache_key, _query)
 
         # Filter by minimum confidence if specified
         if confidence_min and confidence_min in confidence_order:
