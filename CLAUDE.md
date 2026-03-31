@@ -22,7 +22,8 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 ## KG Model
 
 - **Nodes:** concepts, people, characters, places, peoples, objects, periods
-- **Relations:** mentions, defines, contradicts, themes (more to be discovered as corpus is explored)
+- **Relations:** 67 typed relation types across 12 categories (family, governance, prophetic, geographic, temporal, authorship, conflict, spiritual, intertextuality, typology, covenants, dispensational)
+- **Confidence tiers:** curated > metadata > llm_high > llm_low > ner > co_occurrence
 
 ## Stack
 
@@ -70,18 +71,38 @@ cd docker && docker compose up --build
 docker run --rm -v ./tests:/app/tests -v ./src:/app/src docker-api bash -c "pip install -q pytest httpx && python -m pytest /app/tests/ -v"
 ```
 
+## MCP Tools (Preferred)
+
+The Alejandría MCP server (`.mcp.json`) provides native tools — **always prefer these over curl/REST calls:**
+
+| Tool | Use for |
+|------|---------|
+| `mcp__alejandria__kg_relations` | Typed relations for an entity (family, prophecy, authorship, etc.) |
+| `mcp__alejandria__kg_profile` | Rich entity profile (summary, aliases, key passages, themes) |
+| `mcp__alejandria__kg_find` | Search entities by partial name |
+| `mcp__alejandria__search_hybrid` | Full corpus search (textual + semantic fusion) |
+| `mcp__alejandria__search_text` | Exact keyword/phrase search (FTS5) |
+| `mcp__alejandria__kg_neighbors` | Graph neighbors and edges |
+| `mcp__alejandria__kg_docs` | Documents mentioning an entity |
+| `mcp__alejandria__kg_summary` | KG statistics |
+| `mcp__alejandria__chat_ask` | Full RAG pipeline (search + KG + rerank + LLM answer) |
+| `mcp__alejandria__chat_classify` | Preview question complexity tier |
+| `mcp__alejandria__corpus_status` | System health (documents, vectors, graph) |
+
+If MCP tools are unavailable (server not running), fall back to REST API at `http://localhost:4300`.
+
 ## Answering Corpus Questions
 
 When the user asks a theological, doctrinal, or scripture-content question:
 
-1. **KG entity lookup** (1-2 calls) — hit `/kg/entity/{name}` to get relations, types, and associated documents. Let the graph reveal structure and connections.
-2. **Hybrid search** (2-3 calls) — search the full corpus to discover what it says, especially non-canonical sources (conference talks, manuals, biographies) that LLM training may not cover well.
+1. **KG entity lookup** (1-2 calls) — use `mcp__alejandria__kg_relations` or `mcp__alejandria__kg_profile` to get typed relations, key passages, and connected entities. Let the graph reveal structure.
+2. **Hybrid search** (2-3 calls) — use `mcp__alejandria__search_hybrid` to discover passages across the full corpus, especially non-canonical sources (conference talks, manuals, biographies) that LLM training may not cover well.
 3. **Synthesize** — use your own knowledge to connect, explain, and structure what the corpus surfaced. Your role is to synthesize, not to be the primary source.
 4. **Direct file reads** — for exact verse text when precision matters (e.g., FCD format).
 
 **Principle:** The corpus discovers, you synthesize. If the user wanted only LLM knowledge, they wouldn't be using Alejandría. The value of this system is surfacing connections and content beyond what general knowledge provides.
 
-**Never:** launch a generic subagent to exhaustively search the corpus. The KG and search APIs are surgical tools — use them directly. Total tool calls for a corpus question should typically be 3-7, not 40+.
+**Never:** launch a generic subagent to exhaustively search the corpus. The MCP tools are surgical — use them directly. Total tool calls for a corpus question should typically be 3-7, not 40+.
 
 ## SSL/Corporate Proxy Note
 
