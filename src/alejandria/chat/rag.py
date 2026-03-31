@@ -354,36 +354,26 @@ class RAGPipeline:
             if not entity_names:
                 return []
 
-            # Step 2: Search KG for ALL matching entities per name
+            # Step 2: Batch search KG for matching entities (1 query instead of N)
+            matches = self.neo4j_client.find_nodes_batch(entity_names)
+            matched_entities = [m.get("name", "") for m in matches if m.get("name")]
+            if not matched_entities:
+                return []
+
+            # Step 3: Batch get documents for all matched entities (1 query instead of N)
+            docs_map = self.neo4j_client.get_documents_for_entities_batch(matched_entities)
+
             file_hints: list[tuple[str, str]] = []
             seen_files: set[str] = set()
-            matched_entities: list[str] = []
-
-            for name in entity_names:
-                try:
-                    matches = self.neo4j_client.find_node(search=name, limit=15)
-                    for match in matches:
-                        ename = match.get("name", "")
-                        if ename:
-                            matched_entities.append(ename)
-                except Exception:
-                    continue
-
-            # Step 3: Get documents for every matched entity, tagged
-            for ename in matched_entities:
-                try:
-                    docs = self.neo4j_client.get_documents_for_entity(ename)
-                    for doc in docs:
-                        fp = doc.get("file_path", "")
-                        if fp and fp not in seen_files:
-                            seen_files.add(fp)
-                            file_hints.append((fp, ename))
-                except Exception:
-                    continue
+            for ename, file_paths in docs_map.items():
+                for fp in file_paths:
+                    if fp and fp not in seen_files:
+                        seen_files.add(fp)
+                        file_hints.append((fp, ename))
 
             if matched_entities:
                 logger.info(
-                    "KG entity search: names=%s → %d entities → %d documents",
+                    "KG entity search: names=%s → %d entities → %d documents (2 queries)",
                     entity_names, len(matched_entities), len(file_hints),
                 )
 
@@ -754,45 +744,50 @@ class RAGPipeline:
         text_dicts: list[dict] = []
         sem_dicts: list[dict] = []
 
-        # Text search (FTS) — use expanded keywords for better recall
-        try:
-            text_results = self.textual_search.search(
-                query=fts_query, limit=candidate_limit, file_path_filter=source_filter,
-            )
-            for r in text_results:
-                text_dicts.append({
-                    "chunk_id": r.chunk_id,
-                    "text": r.text,
-                    "score": r.score,
-                    "file_path": r.file_path,
-                    "chunk_index": r.chunk_index,
-                    "metadata": r.metadata if isinstance(r.metadata, dict) else {},
-                    "reference": r.reference,
-                })
-        except Exception:
-            logger.warning("Text search failed during RAG retrieval")
+        # Run FTS and semantic search in parallel (saves 30-50ms)
+        from concurrent.futures import ThreadPoolExecutor, as_completed
 
-        # Semantic search
-        if self.semantic_search is not None:
+        def _fts_search():
+            results = []
             try:
-                from alejandria.embeddings.model import encode_single
-                query_vector = encode_single(question).tolist()
-                sem_results = self.semantic_search.search(
-                    query_vector=query_vector, limit=candidate_limit,
-                    source_filter=source_filter,
-                )
-                for r in sem_results:
-                    sem_dicts.append({
-                        "chunk_id": r.chunk_id,
-                        "text": r.text,
-                        "score": r.score,
-                        "file_path": r.file_path,
-                        "chunk_index": r.chunk_index,
-                        "metadata": {},
+                for r in self.textual_search.search(
+                    query=fts_query, limit=candidate_limit, file_path_filter=source_filter,
+                ):
+                    results.append({
+                        "chunk_id": r.chunk_id, "text": r.text, "score": r.score,
+                        "file_path": r.file_path, "chunk_index": r.chunk_index,
+                        "metadata": r.metadata if isinstance(r.metadata, dict) else {},
                         "reference": r.reference,
                     })
             except Exception:
+                logger.warning("Text search failed during RAG retrieval")
+            return results
+
+        def _semantic_search():
+            results = []
+            if self.semantic_search is None:
+                return results
+            try:
+                from alejandria.embeddings.model import encode_single
+                query_vector = encode_single(question).tolist()
+                for r in self.semantic_search.search(
+                    query_vector=query_vector, limit=candidate_limit,
+                    source_filter=source_filter,
+                ):
+                    results.append({
+                        "chunk_id": r.chunk_id, "text": r.text, "score": r.score,
+                        "file_path": r.file_path, "chunk_index": r.chunk_index,
+                        "metadata": {}, "reference": r.reference,
+                    })
+            except Exception:
                 logger.warning("Semantic search failed during RAG retrieval")
+            return results
+
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            fts_future = executor.submit(_fts_search)
+            sem_future = executor.submit(_semantic_search)
+            text_dicts = fts_future.result()
+            sem_dicts = sem_future.result()
 
         # Combine via Reciprocal Rank Fusion — fetch extra for cross-ref expansion
         context_limit = base_chunks * 2 if is_enum else base_chunks
@@ -817,35 +812,48 @@ class RAGPipeline:
             for r in hybrid_results
         ]
 
-        # KG-boosted retrieval: search within documents the KG knows are relevant
+        # KG-boosted retrieval: boost scores for chunks from KG-relevant documents
+        # instead of re-running FTS per hint (avoids N extra queries)
         if kg_file_hints:
-            seen_keys = {(s.file_path, s.chunk_index) for s in sources}
-            kg_sources: list[ChatSource] = []
-            for hint_path, entity_label in kg_file_hints:
-                try:
-                    results = self.textual_search.search(
-                        query=fts_query, limit=2, file_path_filter=hint_path,
-                    )
-                    for r in results:
-                        key = (r.file_path, r.chunk_index)
-                        if key not in seen_keys:
-                            seen_keys.add(key)
-                            # Prepend KG entity tag so the reranker knows WHY
-                            # this chunk is a candidate
-                            tagged_text = f"[KG: {entity_label}] {r.text}"
-                            kg_sources.append(ChatSource(
-                                text=tagged_text,
-                                file_path=r.file_path,
-                                chunk_index=r.chunk_index,
-                                score=r.score * 0.001,
-                                mode="kg-boost",
-                                reference=r.reference,
-                            ))
-                except Exception:
-                    continue
-            if kg_sources:
-                logger.info("KG boost: added %d chunks from %d hinted documents", len(kg_sources), len(kg_file_hints))
-                sources.extend(kg_sources)
+            hint_paths = {fp for fp, _ in kg_file_hints}
+            hint_labels = {fp: label for fp, label in kg_file_hints}
+            boosted = 0
+            for s in sources:
+                if s.file_path in hint_paths:
+                    s.score *= 1.5  # Boost KG-relevant chunks
+                    s.mode = "hybrid+kg"
+                    boosted += 1
+
+            # For hint documents NOT already in results, do a single batch FTS
+            already_covered = {s.file_path for s in sources}
+            missing_hints = [(fp, label) for fp, label in kg_file_hints
+                             if fp not in already_covered]
+            if missing_hints:
+                seen_keys = {(s.file_path, s.chunk_index) for s in sources}
+                kg_sources: list[ChatSource] = []
+                for hint_path, entity_label in missing_hints[:10]:  # Cap at 10 extra queries
+                    try:
+                        results = self.textual_search.search(
+                            query=fts_query, limit=2, file_path_filter=hint_path,
+                        )
+                        for r in results:
+                            key = (r.file_path, r.chunk_index)
+                            if key not in seen_keys:
+                                seen_keys.add(key)
+                                tagged_text = f"[KG: {entity_label}] {r.text}"
+                                kg_sources.append(ChatSource(
+                                    text=tagged_text, file_path=r.file_path,
+                                    chunk_index=r.chunk_index, score=r.score * 0.001,
+                                    mode="kg-boost", reference=r.reference,
+                                ))
+                    except Exception:
+                        continue
+                if kg_sources:
+                    sources.extend(kg_sources)
+
+            if boosted or missing_hints:
+                logger.info("KG boost: %d existing boosted, %d new from %d hints",
+                            boosted, len(sources) - len(already_covered), len(kg_file_hints))
 
         # Cross-reference expansion: pull in parallel scripture narratives
         sources = self._expand_cross_references(sources, fts_query, source_filter)
@@ -1097,40 +1105,37 @@ class RAGPipeline:
                     except Exception:
                         pass
 
-            # Add typed relations for each entity (filtered, high-quality)
+            # Add typed relations for all entities in a single batch query
             relation_parts = []
             seen_rels: set[str] = set()
-            for entity in extraction.entities:
-                try:
-                    # Use typed relations with confidence filter — skip generic co-occurrence
-                    relations = self.neo4j_client.get_typed_relations(
-                        entity_name=entity.name,
-                        confidence_min="ner",  # Skip co_occurrence (lowest tier)
-                        limit=30,
+            entity_names_for_rels = [e.name for e in extraction.entities]
+            try:
+                all_relations = self.neo4j_client.get_typed_relations_batch(
+                    entity_names=entity_names_for_rels,
+                    confidence_min="ner",  # Skip co_occurrence (lowest tier)
+                )
+                for rel in all_relations:
+                    rel_type = rel.get("rel_type", "")
+                    if rel_type in self._NOISE_RELATION_TYPES:
+                        continue
+
+                    from_name = rel.get("from_name", "?")
+                    to_name = rel.get("to_name", "?")
+                    key = f"{from_name}|{rel_type}|{to_name}"
+                    if key in seen_rels:
+                        continue
+                    seen_rels.add(key)
+
+                    # Format relation in readable way
+                    props = rel.get("props") or {}
+                    source_ref = props.get("source_ref", "")
+                    ref_note = f" ({source_ref})" if source_ref else ""
+                    readable = rel_type.replace("_", " ").title()
+                    relation_parts.append(
+                        f"  {from_name} --[{readable}]--> {to_name}{ref_note}"
                     )
-                    for rel in relations:
-                        rel_type = rel.get("rel_type", "")
-                        if rel_type in self._NOISE_RELATION_TYPES:
-                            continue
-
-                        from_name = rel.get("from_name", "?")
-                        to_name = rel.get("to_name", "?")
-                        key = f"{from_name}|{rel_type}|{to_name}"
-                        if key in seen_rels:
-                            continue
-                        seen_rels.add(key)
-
-                        # Format relation in readable way
-                        props = rel.get("props") or {}
-                        source_ref = props.get("source_ref", "")
-                        ref_note = f" ({source_ref})" if source_ref else ""
-                        # Make relation type human-readable
-                        readable = rel_type.replace("_", " ").title()
-                        relation_parts.append(
-                            f"  {from_name} --[{readable}]--> {to_name}{ref_note}"
-                        )
-                except Exception:
-                    pass
+            except Exception:
+                pass
 
             if relation_parts:
                 parts.append("Typed Relations:")
