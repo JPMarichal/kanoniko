@@ -1,4 +1,8 @@
-"""Alejandría MCP server — exposes search tools over stdio transport."""
+"""Alejandría MCP server — exposes corpus search, KG, and chat as native tools.
+
+Run via: python -m alejandria.mcp_server
+Or from Docker: docker exec -i alejandria-api python -m alejandria.mcp_server
+"""
 
 from __future__ import annotations
 
@@ -25,6 +29,7 @@ app = Server("alejandria")
 _textual: TextualSearch | None = None
 _semantic: Any = None
 _neo4j: Any = None
+_profile_store: Any = None
 
 
 def _get_textual() -> TextualSearch:
@@ -56,6 +61,17 @@ def _get_neo4j():
     return _neo4j
 
 
+def _get_profile_store():
+    global _profile_store
+    if _profile_store is None:
+        try:
+            from alejandria.knowledge.profile_store import ProfileStore
+            _profile_store = ProfileStore(settings.sqlite_db_path)
+        except Exception:
+            pass
+    return _profile_store
+
+
 # ---------------------------------------------------------------------------
 # Tool definitions
 # ---------------------------------------------------------------------------
@@ -64,18 +80,15 @@ TOOLS = [
     Tool(
         name="search_text",
         description=(
-            "Full-text search (BM25) over the Alejandría scripture/gospel corpus. "
-            "Returns ranked text chunks matching the query. Bilingual ES/EN."
+            "Full-text keyword search (BM25/FTS5) over the Alejandría corpus. "
+            "Best for exact phrases, verse lookups, and keyword queries. Bilingual ES/EN."
         ),
         inputSchema={
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Search query text"},
+                "query": {"type": "string", "description": "FTS query (supports AND, OR, NOT, phrases)"},
                 "limit": {"type": "integer", "description": "Max results (default 10)", "default": 10},
-                "source_filter": {
-                    "type": "string",
-                    "description": "Filter by corpus subdirectory (e.g. 'scriptures', 'conference')",
-                },
+                "source_filter": {"type": "string", "description": "Filter by path prefix (e.g. 'en/scriptures/bom')"},
             },
             "required": ["query"],
         },
@@ -83,15 +96,15 @@ TOOLS = [
     Tool(
         name="search_semantic",
         description=(
-            "Semantic (embedding) search over the corpus using multilingual embeddings. "
-            "Finds passages by meaning, not just keywords. Requires Qdrant."
+            "Semantic (embedding) search — finds passages by meaning, not just keywords. "
+            "Best for conceptual queries. Bilingual ES/EN. Requires Qdrant."
         ),
         inputSchema={
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Search query text"},
-                "limit": {"type": "integer", "description": "Max results (default 10)", "default": 10},
-                "source_filter": {"type": "string", "description": "Filter by corpus subdirectory"},
+                "query": {"type": "string", "description": "Search query in any language"},
+                "limit": {"type": "integer", "default": 10},
+                "source_filter": {"type": "string"},
             },
             "required": ["query"],
         },
@@ -100,25 +113,25 @@ TOOLS = [
         name="search_hybrid",
         description=(
             "Combined textual + semantic search using Reciprocal Rank Fusion. "
-            "Best for general queries — combines keyword precision with semantic understanding."
+            "Best general-purpose search — combines keyword precision with semantic understanding."
         ),
         inputSchema={
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Search query text"},
-                "limit": {"type": "integer", "description": "Max results (default 10)", "default": 10},
-                "source_filter": {"type": "string", "description": "Filter by corpus subdirectory"},
-                "text_weight": {"type": "number", "description": "Weight for text results (default 0.4)"},
-                "semantic_weight": {"type": "number", "description": "Weight for semantic results (default 0.6)"},
+                "query": {"type": "string", "description": "Search query in any language"},
+                "limit": {"type": "integer", "default": 10},
+                "source_filter": {"type": "string", "description": "Filter by path prefix"},
+                "text_weight": {"type": "number", "default": 0.4},
+                "semantic_weight": {"type": "number", "default": 0.6},
             },
             "required": ["query"],
         },
     ),
     Tool(
-        name="graph_find",
+        name="kg_find",
         description=(
-            "Search for entities (people, places, concepts, peoples, objects) in the "
-            "knowledge graph by partial name match."
+            "Search for entities (people, places, concepts, peoples, objects, periods) "
+            "in the knowledge graph by partial name match."
         ),
         inputSchema={
             "type": "object",
@@ -126,32 +139,71 @@ TOOLS = [
                 "query": {"type": "string", "description": "Entity name to search"},
                 "entity_type": {
                     "type": "string",
-                    "description": "Filter by type: person, place, concept, people, object, period",
+                    "description": "Filter: person, place, concept, people, object, period, scripture",
                 },
-                "limit": {"type": "integer", "description": "Max results (default 20)", "default": 20},
+                "limit": {"type": "integer", "default": 20},
             },
             "required": ["query"],
         },
     ),
     Tool(
-        name="graph_neighbors",
+        name="kg_relations",
         description=(
-            "Get entities and relationships connected to a given entity in the knowledge graph. "
-            "Useful for exploring connections between people, places, and concepts."
+            "Get typed relations for an entity from the knowledge graph. "
+            "Shows family ties (FATHER_OF, SPOUSE_OF), prophecies, authorship, "
+            "geographic links, priesthood, typology, and more. "
+            "Confidence levels: curated > metadata > llm_high > llm_low > ner > co_occurrence."
         ),
         inputSchema={
             "type": "object",
             "properties": {
-                "name": {"type": "string", "description": "Exact entity name"},
-                "depth": {"type": "integer", "description": "Traversal depth (default 1, max 3)", "default": 1},
-                "limit": {"type": "integer", "description": "Max results (default 50)", "default": 50},
+                "name": {"type": "string", "description": "Entity name (exact match)"},
+                "confidence_min": {
+                    "type": "string",
+                    "description": "Minimum confidence level (default: ner)",
+                    "default": "ner",
+                },
+                "rel_types": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Filter to specific relation types (e.g. ['FATHER_OF', 'SPOUSE_OF'])",
+                },
+                "limit": {"type": "integer", "default": 50},
             },
             "required": ["name"],
         },
     ),
     Tool(
-        name="graph_docs",
-        description="Find documents that mention a specific entity in the knowledge graph.",
+        name="kg_profile",
+        description=(
+            "Get a rich entity profile: summary, aliases, mention count, key passages, "
+            "themes. Available for ~400 most prominent entities in the corpus."
+        ),
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "entity_name": {"type": "string", "description": "Entity name"},
+                "entity_type": {"type": "string", "description": "Optional type filter"},
+            },
+            "required": ["entity_name"],
+        },
+    ),
+    Tool(
+        name="kg_neighbors",
+        description="Get entities and relationships connected to a given entity in the knowledge graph.",
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "name": {"type": "string", "description": "Exact entity name"},
+                "depth": {"type": "integer", "default": 1, "description": "Traversal depth (1-3)"},
+                "limit": {"type": "integer", "default": 50},
+            },
+            "required": ["name"],
+        },
+    ),
+    Tool(
+        name="kg_docs",
+        description="Find all documents in the corpus that mention a specific entity.",
         inputSchema={
             "type": "object",
             "properties": {
@@ -161,25 +213,46 @@ TOOLS = [
         },
     ),
     Tool(
-        name="corpus_status",
-        description="Get system health: indexed documents, chunks, vectors, graph nodes.",
+        name="kg_summary",
+        description="Get knowledge graph statistics: total nodes, relationships, counts by type.",
         inputSchema={"type": "object", "properties": {}},
     ),
     Tool(
-        name="ask",
+        name="chat_ask",
         description=(
-            "Ask a question about the scriptures or gospel and get an AI-generated answer "
-            "grounded in the corpus. Uses RAG: retrieves from text, semantic, and knowledge "
-            "graph search, then generates an answer with citations. Bilingual ES/EN."
+            "Ask a question and get a full RAG-powered answer grounded in the corpus. "
+            "Runs the complete pipeline: hybrid search, KG lookup, cross-references, "
+            "reranking, and LLM answer generation with citations. Bilingual ES/EN."
         ),
         inputSchema={
             "type": "object",
             "properties": {
                 "question": {"type": "string", "description": "Question to answer"},
-                "source_filter": {"type": "string", "description": "Filter by corpus subdirectory"},
+                "source_filter": {"type": "string", "description": "Filter by path prefix"},
+                "tier": {
+                    "type": "string",
+                    "description": "Model tier: auto (default), fast, balanced, quality",
+                    "default": "auto",
+                },
             },
             "required": ["question"],
         },
+    ),
+    Tool(
+        name="chat_classify",
+        description="Classify a question's complexity and see which model tier/model would be used.",
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "question": {"type": "string"},
+            },
+            "required": ["question"],
+        },
+    ),
+    Tool(
+        name="corpus_status",
+        description="Get system health: indexed documents, chunks, vectors, graph nodes/relationships.",
+        inputSchema={"type": "object", "properties": {}},
     ),
 ]
 
@@ -210,16 +283,24 @@ def _dispatch(name: str, args: dict) -> dict:
         return _do_search_semantic(args)
     elif name == "search_hybrid":
         return _do_search_hybrid(args)
-    elif name == "graph_find":
-        return _do_graph_find(args)
-    elif name == "graph_neighbors":
-        return _do_graph_neighbors(args)
-    elif name == "graph_docs":
-        return _do_graph_docs(args)
+    elif name == "kg_find":
+        return _do_kg_find(args)
+    elif name == "kg_relations":
+        return _do_kg_relations(args)
+    elif name == "kg_profile":
+        return _do_kg_profile(args)
+    elif name == "kg_neighbors":
+        return _do_kg_neighbors(args)
+    elif name == "kg_docs":
+        return _do_kg_docs(args)
+    elif name == "kg_summary":
+        return _do_kg_summary()
+    elif name == "chat_ask":
+        return _do_chat_ask(args)
+    elif name == "chat_classify":
+        return _do_chat_classify(args)
     elif name == "corpus_status":
         return _do_corpus_status()
-    elif name == "ask":
-        return _do_ask(args)
     else:
         return {"error": f"Unknown tool: {name}"}
 
@@ -245,6 +326,7 @@ def _do_search_text(args: dict) -> dict:
                 "score": r.score,
                 "file_path": r.file_path,
                 "chunk_index": r.chunk_index,
+                "reference": r.reference,
             }
             for r in rows
         ],
@@ -272,6 +354,7 @@ def _do_search_semantic(args: dict) -> dict:
                 "score": r.score,
                 "file_path": r.file_path,
                 "chunk_index": r.chunk_index,
+                "reference": r.reference,
             }
             for r in rows
         ],
@@ -279,7 +362,6 @@ def _do_search_semantic(args: dict) -> dict:
 
 
 def _do_search_hybrid(args: dict) -> dict:
-    from dataclasses import asdict
     from alejandria.embeddings.model import encode_single
     from alejandria.search.hybrid import reciprocal_rank_fusion
 
@@ -289,12 +371,24 @@ def _do_search_hybrid(args: dict) -> dict:
         return {"error": "Hybrid search requires semantic search (Qdrant not connected)"}
     limit = args.get("limit", 10)
     fetch_limit = min(limit * 3, 100)
-    text_rows = ts.search(query=args["query"], limit=fetch_limit)
-    text_dicts = [asdict(r) for r in text_rows]
+    text_rows = ts.search(query=args["query"], limit=fetch_limit,
+                          file_path_filter=args.get("source_filter"))
+    text_dicts = [
+        {"chunk_id": r.chunk_id, "text": r.text, "score": r.score,
+         "file_path": r.file_path, "chunk_index": r.chunk_index,
+         "metadata": r.metadata, "reference": r.reference}
+        for r in text_rows
+    ]
 
     query_vector = encode_single(args["query"]).tolist()
-    sem_rows = sem.search(query_vector=query_vector, limit=fetch_limit)
-    sem_dicts = [asdict(r) for r in sem_rows]
+    sem_rows = sem.search(query_vector=query_vector, limit=fetch_limit,
+                          source_filter=args.get("source_filter"))
+    sem_dicts = [
+        {"chunk_id": r.chunk_id, "text": r.text, "score": r.score,
+         "file_path": r.file_path, "chunk_index": r.chunk_index,
+         "metadata": {}, "reference": r.reference}
+        for r in sem_rows
+    ]
 
     merged = reciprocal_rank_fusion(
         text_results=text_dicts,
@@ -313,13 +407,14 @@ def _do_search_hybrid(args: dict) -> dict:
                 "combined_score": r.combined_score,
                 "file_path": r.file_path,
                 "chunk_index": r.chunk_index,
+                "reference": r.reference,
             }
             for r in merged
         ],
     }
 
 
-def _do_graph_find(args: dict) -> dict:
+def _do_kg_find(args: dict) -> dict:
     neo4j = _get_neo4j()
     if neo4j is None:
         return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
@@ -338,7 +433,45 @@ def _do_graph_find(args: dict) -> dict:
     }
 
 
-def _do_graph_neighbors(args: dict) -> dict:
+def _do_kg_relations(args: dict) -> dict:
+    neo4j = _get_neo4j()
+    if neo4j is None:
+        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
+    results = neo4j.get_typed_relations(
+        entity_name=args["name"],
+        confidence_min=args.get("confidence_min", "ner"),
+        rel_types=args.get("rel_types"),
+        limit=args.get("limit", 50),
+    )
+    return {
+        "name": args["name"],
+        "count": len(results),
+        "relations": [
+            {
+                "from": r["from_name"],
+                "from_type": r["from_type"],
+                "relation": r["rel_type"],
+                "to": r["to_name"],
+                "to_type": r["to_type"],
+                "confidence": (r.get("props") or {}).get("confidence", ""),
+                "source_ref": (r.get("props") or {}).get("source_ref", ""),
+            }
+            for r in results
+        ],
+    }
+
+
+def _do_kg_profile(args: dict) -> dict:
+    ps = _get_profile_store()
+    if ps is None:
+        return {"error": "Profile store unavailable"}
+    profile = ps.get_profile(args["entity_name"], args.get("entity_type"))
+    if profile is None:
+        return {"error": f"No profile found for '{args['entity_name']}'"}
+    return profile.to_dict()
+
+
+def _do_kg_neighbors(args: dict) -> dict:
     neo4j = _get_neo4j()
     if neo4j is None:
         return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
@@ -355,12 +488,72 @@ def _do_graph_neighbors(args: dict) -> dict:
     }
 
 
-def _do_graph_docs(args: dict) -> dict:
+def _do_kg_docs(args: dict) -> dict:
     neo4j = _get_neo4j()
     if neo4j is None:
         return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
     docs = neo4j.get_documents_for_entity(args["entity_name"])
     return {"entity": args["entity_name"], "documents": docs}
+
+
+def _do_kg_summary() -> dict:
+    neo4j = _get_neo4j()
+    if neo4j is None:
+        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
+    return neo4j.graph_summary()
+
+
+def _do_chat_ask(args: dict) -> dict:
+    from alejandria.chat.models import get_available_models
+    if not settings.llm_api_key and not get_available_models():
+        return {"error": "Chat unavailable: no LLM API key configured"}
+    from alejandria.chat.rag import RAGPipeline
+    pipeline = RAGPipeline(
+        textual_search=_get_textual(),
+        semantic_search=_get_semantic(),
+        neo4j_client=_get_neo4j(),
+        profile_store=_get_profile_store(),
+    )
+    result = pipeline.ask(
+        question=args["question"],
+        source_filter=args.get("source_filter"),
+        tier_override=args.get("tier"),
+    )
+    return {
+        "answer": result.answer,
+        "sources": [
+            {
+                "file_path": s.file_path,
+                "chunk_index": s.chunk_index,
+                "mode": s.mode,
+                "reference": s.reference,
+                "score": s.score,
+            }
+            for s in result.sources
+        ],
+        "graph_context": result.graph_context,
+        "model": result.model,
+        "tier": result.tier,
+        "input_tokens": result.input_tokens,
+        "output_tokens": result.output_tokens,
+    }
+
+
+def _do_chat_classify(args: dict) -> dict:
+    from alejandria.chat.models import classify_complexity, select_model
+    tier = classify_complexity(args["question"])
+    model = select_model(tier)
+    return {
+        "question": args["question"],
+        "tier": tier.value,
+        "model": {
+            "id": model.id,
+            "provider": model.provider,
+            "model_name": model.model_name,
+            "cost_input_per_1m": model.cost_input,
+            "cost_output_per_1m": model.cost_output,
+        } if model else None,
+    }
 
 
 def _do_corpus_status() -> dict:
@@ -386,35 +579,6 @@ def _do_corpus_status() -> dict:
         except Exception:
             pass
     return result
-
-
-def _do_ask(args: dict) -> dict:
-    from alejandria.config import settings
-    if not settings.llm_api_key:
-        return {"error": "Chat unavailable: ALEJANDRIA_LLM_API_KEY not set"}
-    from alejandria.chat.rag import RAGPipeline
-    from alejandria.knowledge.profile_store import ProfileStore
-    pipeline = RAGPipeline(
-        textual_search=_get_textual(),
-        semantic_search=_get_semantic(),
-        neo4j_client=_get_neo4j(),
-        profile_store=ProfileStore(settings.sqlite_db_path),
-    )
-    result = pipeline.ask(
-        question=args["question"],
-        source_filter=args.get("source_filter"),
-    )
-    return {
-        "answer": result.answer,
-        "sources": [
-            {"file_path": s.file_path, "chunk_index": s.chunk_index, "mode": s.mode}
-            for s in result.sources
-        ],
-        "graph_context": result.graph_context,
-        "model": result.model,
-        "input_tokens": result.input_tokens,
-        "output_tokens": result.output_tokens,
-    }
 
 
 # ---------------------------------------------------------------------------
