@@ -266,6 +266,8 @@ class ChatSourceItem(BaseModel):
     score: float
     mode: str
     reference: str | None = None
+    authority: int | None = None
+    authority_label: str | None = None
 
 
 class ChatResponse(BaseModel):

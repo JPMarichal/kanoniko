@@ -528,6 +528,8 @@ def _do_chat_ask(args: dict) -> dict:
                 "mode": s.mode,
                 "reference": s.reference,
                 "score": s.score,
+                "authority": s.authority,
+                "authority_label": s.authority_label,
             }
             for s in result.sources
         ],
@@ -540,12 +542,15 @@ def _do_chat_ask(args: dict) -> dict:
 
 
 def _do_chat_classify(args: dict) -> dict:
+    from alejandria.authority import classify_query_type
     from alejandria.chat.models import classify_complexity, select_model
     tier = classify_complexity(args["question"])
     model = select_model(tier)
+    query_type = classify_query_type(args["question"])
     return {
         "question": args["question"],
         "tier": tier.value,
+        "query_type": query_type,
         "model": {
             "id": model.id,
             "provider": model.provider,
