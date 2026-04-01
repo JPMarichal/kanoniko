@@ -58,6 +58,21 @@ VALID_RELATION_TYPES = {
     "RECORD_KEPT_BY", "ABRIDGED_BY",
     # Literary
     "CHIASM_IN", "GENRE_OF",
+    # Organizational structure (handbook)
+    "PRESIDES_OVER", "COUNSELOR_TO", "REPORTS_TO",
+    "MEMBER_OF", "ORGANIZED_UNDER", "UNIT_CONTAINS",
+    # Authority and keys (handbook)
+    "AUTHORIZED_TO_PERFORM", "REQUIRES_APPROVAL_OF",
+    "KEYS_FOR", "SET_APART_BY", "CALLED_BY",
+    # Ordinances and covenants (handbook)
+    "PREREQUISITE_FOR", "ORDINANCE_REQUIRES", "SEALED_TO", "COVENANT_OF",
+    # Administration (handbook)
+    "MANAGES_FUND", "MAINTAINS_RECORD", "CONDUCTS_INTERVIEW",
+    "GOVERNS_POLICY", "CREATION_REQUIRES",
+    # Discipline and membership (handbook)
+    "ADJUDICATES", "RESTRICTS", "ANNOTATES",
+    # Scripture structure (P1 Phase 3)
+    "PART_OF", "CONTAINS",
 }
 
 _SYSTEM_PROMPT = """\
@@ -86,7 +101,13 @@ ALLOWED RELATION TYPES:
 - Typology: TYPE_OF, SYMBOLIZES
 - Covenants: COVENANT_WITH, HOLDS_PRIESTHOOD, CONFERRED_KEYS_TO
 - Dispensational: DISPENSATION_HEAD, RESTORED
-- Record: RECORD_KEPT_BY, ABRIDGED_BY"""
+- Record: RECORD_KEPT_BY, ABRIDGED_BY
+- Organizational: PRESIDES_OVER, COUNSELOR_TO, REPORTS_TO, MEMBER_OF, ORGANIZED_UNDER, UNIT_CONTAINS
+- Authority: AUTHORIZED_TO_PERFORM, REQUIRES_APPROVAL_OF, KEYS_FOR, SET_APART_BY, CALLED_BY
+- Ordinances: PREREQUISITE_FOR, ORDINANCE_REQUIRES, SEALED_TO, COVENANT_OF
+- Administration: MANAGES_FUND, MAINTAINS_RECORD, CONDUCTS_INTERVIEW, GOVERNS_POLICY, CREATION_REQUIRES
+- Discipline: ADJUDICATES, RESTRICTS, ANNOTATES
+- Structure: PART_OF, CONTAINS"""
 
 _USER_PROMPT_TEMPLATE = """\
 PASSAGE ({reference}):
@@ -101,7 +122,7 @@ in the passage above. Return a JSON object:
   "relations": [
     {{
       "from_name": "Entity A",
-      "from_type": "person|place|people|concept|object|period|scripture",
+      "from_type": "person|place|people|concept|object|period|scripture|organization|calling|council|ordinance|unit|program|policy|document|volume|division|book|part",
       "rel_type": "RELATION_TYPE",
       "to_name": "Entity B",
       "to_type": "person|place|people|concept|object|period|scripture",

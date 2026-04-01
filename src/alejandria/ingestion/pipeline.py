@@ -677,6 +677,29 @@ class IngestionPipeline:
         logger.info("KG rebuild: clearing existing graph...")
         self._neo4j.clear_all(preserve_sources=self.PRESERVED_NEO4J_SOURCES)
 
+        # Load scripture structural entities and relations (P1 Phase 3)
+        try:
+            from alejandria.knowledge.scripture_structure import get_structure
+            structure = get_structure()
+            structural_entities = structure.get_structural_entities()
+            structural_relations = structure.get_structural_relations()
+            for se in structural_entities:
+                self._neo4j.merge_entity(se["name"], se["type"],
+                                          aliases=[se["name_es"]] if se["name_es"] != se["name_en"] else [])
+            for sr in structural_relations:
+                self._neo4j.merge_relation(
+                    from_name=sr["from_name"], from_type=sr["from_type"],
+                    rel_type=sr["relation"],
+                    to_name=sr["to_name"], to_type=sr["to_type"],
+                    properties={"source": "scripture_structure", "confidence": "curated"},
+                )
+            logger.info(
+                "KG rebuild: loaded %d structural entities, %d structural relations",
+                len(structural_entities), len(structural_relations),
+            )
+        except Exception:
+            logger.warning("Failed to load scripture structure — continuing without it", exc_info=True)
+
         # Read all chunks from SQLite
         conn = self._textual.get_connection()
         rows = conn.execute(
@@ -691,6 +714,45 @@ class IngestionPipeline:
         relations_found = 0
         documents_seen: set[str] = set()
 
+        # Batch accumulators — flush every BATCH_SIZE chunks
+        BATCH_SIZE = 500
+        batch_entities: list[dict] = []
+        batch_relations: list[dict] = []
+        batch_links: list[dict] = []
+        batch_documents: list[dict] = []
+
+        def _flush_batch() -> None:
+            """Send accumulated batch to Neo4j."""
+            nonlocal batch_entities, batch_relations, batch_links, batch_documents
+            if batch_documents:
+                self._neo4j.batch_merge_documents(batch_documents)
+                batch_documents = []
+            if batch_entities:
+                # Deduplicate entities within batch (same name+type)
+                seen = set()
+                deduped = []
+                for e in batch_entities:
+                    key = (e["name"], e["type"])
+                    if key not in seen:
+                        seen.add(key)
+                        deduped.append(e)
+                self._neo4j.batch_merge_entities(deduped)
+                batch_entities = []
+            if batch_links:
+                # Deduplicate links
+                seen_links = set()
+                deduped_links = []
+                for lnk in batch_links:
+                    key = (lnk["entity_name"], lnk["entity_type"], lnk["file_path"])
+                    if key not in seen_links:
+                        seen_links.add(key)
+                        deduped_links.append(lnk)
+                self._neo4j.batch_link_entities_to_document(deduped_links)
+                batch_links = []
+            if batch_relations:
+                self._neo4j.batch_merge_relations(batch_relations)
+                batch_relations = []
+
         for i, row in enumerate(rows):
             file_path = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
             text = row[2] if isinstance(row, (list, tuple)) else row["text"]
@@ -698,33 +760,42 @@ class IngestionPipeline:
             # Ensure document node exists
             if file_path not in documents_seen:
                 source = _extract_source(file_path)
-                self._neo4j.merge_document(file_path, source)
+                batch_documents.append({"file_path": file_path, "source": source})
                 documents_seen.add(file_path)
 
             # Extract entities and relations
             extraction = self._kg_extractor.extract(text, source_file=file_path)
 
             for entity in extraction.entities:
-                self._neo4j.merge_entity(entity.name, entity.type)
-                self._neo4j.link_entity_to_document(entity.name, entity.type, file_path)
+                batch_entities.append(
+                    {"name": entity.name, "type": entity.type, "aliases": []}
+                )
+                batch_links.append(
+                    {"entity_name": entity.name, "entity_type": entity.type, "file_path": file_path}
+                )
                 entities_found += 1
 
             for rel in extraction.relations:
-                self._neo4j.merge_relation(
-                    from_name=rel.from_entity,
-                    from_type=rel.from_type,
-                    rel_type=rel.relation,
-                    to_name=rel.to_entity,
-                    to_type=rel.to_type,
-                )
+                batch_relations.append({
+                    "from_name": rel.from_entity,
+                    "from_type": rel.from_type,
+                    "rel_type": rel.relation,
+                    "to_name": rel.to_entity,
+                    "to_type": rel.to_type,
+                    "props": {},
+                })
                 relations_found += 1
 
-            if (i + 1) % 500 == 0:
+            if (i + 1) % BATCH_SIZE == 0:
+                _flush_batch()
                 logger.info(
                     "KG rebuild: %d/%d chunks (%.0f%%), %d entities, %d relations so far...",
                     i + 1, total_chunks, (i + 1) / total_chunks * 100,
                     entities_found, relations_found,
                 )
+
+        # Flush remaining
+        _flush_batch()
 
         # Mark all profiles stale after KG rebuild
         if self._profile_store:

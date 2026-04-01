@@ -83,6 +83,13 @@ Phase 3 (CPU): Qdrant upsert + KG extraction  — per file, sequential
 Phase 2 is the key optimization: instead of encoding file-by-file (which leaves the GPU
 idle between files), all chunks from all files are collected and encoded in one batch.
 
+### Neo4j Batch Writes
+
+KG extraction uses UNWIND-based batch operations (500 chunks per batch) instead of
+individual merge calls. This reduced `rebuild-kg` from ~19h to ~27 min (43x speedup).
+Batch methods: `batch_merge_entities()`, `batch_merge_relations()`,
+`batch_link_entities_to_document()`, `batch_merge_documents()`.
+
 ### Embedding Performance
 
 | Device | Speed | Full Reindex (19,770 docs) |

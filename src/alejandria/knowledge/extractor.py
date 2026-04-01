@@ -90,6 +90,14 @@ _NER_STOPWORDS = frozenset({
 # Minimum entity name length to avoid noise
 _MIN_ENTITY_LEN = 2
 
+# Scripture abbreviation pattern: term followed by "." or space + chapter:verse
+# e.g., "Matt. 5:3", "Ps. 16:9", "Isa 40:1", "Deut. 28:1", "Luke 2:10"
+# When a gazetteer term matches at a position where this pattern follows,
+# the match is a scripture citation, not an entity mention.
+_CITATION_AFTER_RE = re.compile(
+    r"\.?\s*\d+(?::\d+(?:\s*[-–,]\s*\d+)*)?(?:\s*\([^)]+\))?"
+)
+
 
 @dataclass
 class ExtractedEntity:
@@ -352,6 +360,11 @@ class KGExtractor:
         if self._gazetteer_re:
             for match in self._gazetteer_re.finditer(text_lower):
                 term = match.group(1).lower()
+                # Skip if this match is part of a scripture citation
+                # e.g., "Matt. 5:3", "Ps. 16:9", "Isa 40:1"
+                after = text_lower[match.end():]
+                if _CITATION_AFTER_RE.match(after):
+                    continue
                 for canonical, entity_type in self._lookup.get(term, []):
                     key = f"{canonical}:{entity_type}"
                     if key not in found_entities:
@@ -367,6 +380,9 @@ class KGExtractor:
             for term, candidates in self._lookup.items():
                 pattern = r"\b" + re.escape(term) + r"\b"
                 for match in re.finditer(pattern, text_lower):
+                    after = text_lower[match.end():]
+                    if _CITATION_AFTER_RE.match(after):
+                        continue
                     for canonical, entity_type in candidates:
                         key = f"{canonical}:{entity_type}"
                         if key not in found_entities:
@@ -623,5 +639,33 @@ class KGExtractor:
             return "LIVED_DURING"
         if types == frozenset(["place", "period"]):
             return "EXISTS_DURING"
+
+        # Handbook entity type co-occurrence inference
+        if types == frozenset(["calling", "organization"]):
+            return "PRESIDES_OVER"
+        if types == frozenset(["calling", "unit"]):
+            return "PRESIDES_OVER"
+        if types == frozenset(["calling", "ordinance"]):
+            return "AUTHORIZED_TO_PERFORM"
+        if types == frozenset(["calling", "council"]):
+            return "MEMBER_OF"
+        if types == frozenset(["organization", "unit"]):
+            return "ORGANIZED_UNDER"
+        if types == frozenset(["ordinance", "ordinance"]):
+            return "PREREQUISITE_FOR"
+        if types == frozenset(["ordinance", "concept"]):
+            return "COVENANT_OF"
+        if types == frozenset(["policy", "ordinance"]):
+            return "GOVERNS_POLICY"
+        if types == frozenset(["calling", "calling"]):
+            return "REPORTS_TO"
+        if types == frozenset(["unit", "unit"]):
+            return "UNIT_CONTAINS"
+        if types == frozenset(["organization", "organization"]):
+            return "RELATED_TO"
+        if types == frozenset(["program", "organization"]):
+            return "ORGANIZED_UNDER"
+        if types == frozenset(["document", "concept"]):
+            return "RELATED_TO"
 
         return "CO_OCCURS_WITH"
