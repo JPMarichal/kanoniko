@@ -97,6 +97,7 @@ src/alejandria/
 │   ├── rag.py
 │   ├── llm.py
 │   └── models.py
+├── backup.py            # Backup/restore (SQLite, Qdrant, Neo4j)
 ```
 
 ## Design Principles
@@ -107,3 +108,5 @@ src/alejandria/
 - **Incremental processing**: SHA-256 change detection for efficient re-indexing
 - **Bilingual first**: All components handle Spanish and English natively
 - **Graceful degradation**: Semantic search and KG are optional — system works with FTS alone
+- **SQLite as source of truth**: From SQLite alone, Qdrant (5 min) and Neo4j (3h) are fully reconstructable
+- **Pre-index safety**: Automatic backup before any data modification
