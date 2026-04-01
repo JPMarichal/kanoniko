@@ -419,21 +419,36 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
-        # Neo4j KG extraction
+        # Neo4j KG extraction (batched per file)
         if self._neo4j and self._kg_extractor:
             self._neo4j.delete_document_relations(fd.rel_path)
-            self._neo4j.merge_document(fd.rel_path, fd.source)
+            self._neo4j.batch_merge_documents([{"file_path": fd.rel_path, "source": fd.source}])
+            batch_ents: list[dict] = []
+            batch_lnks: list[dict] = []
+            batch_rels: list[dict] = []
+            seen_ents: set[tuple[str, str]] = set()
+            seen_lnks: set[tuple[str, str, str]] = set()
             for chunk in fd.chunks:
                 extraction = self._kg_extractor.extract(chunk.text, source_file=fd.rel_path)
                 for entity in extraction.entities:
-                    self._neo4j.merge_entity(entity.name, entity.type)
-                    self._neo4j.link_entity_to_document(entity.name, entity.type, fd.rel_path)
+                    ekey = (entity.name, entity.type)
+                    if ekey not in seen_ents:
+                        seen_ents.add(ekey)
+                        batch_ents.append({"name": entity.name, "type": entity.type, "aliases": []})
+                    lkey = (entity.name, entity.type, fd.rel_path)
+                    if lkey not in seen_lnks:
+                        seen_lnks.add(lkey)
+                        batch_lnks.append({"entity_name": entity.name, "entity_type": entity.type, "file_path": fd.rel_path})
                 for rel in extraction.relations:
-                    self._neo4j.merge_relation(
-                        from_name=rel.from_entity, from_type=rel.from_type,
-                        rel_type=rel.relation,
-                        to_name=rel.to_entity, to_type=rel.to_type,
-                    )
+                    batch_rels.append({
+                        "from_name": rel.from_entity, "from_type": rel.from_type,
+                        "rel_type": rel.relation,
+                        "to_name": rel.to_entity, "to_type": rel.to_type,
+                        "props": {},
+                    })
+            self._neo4j.batch_merge_entities(batch_ents)
+            self._neo4j.batch_link_entities_to_document(batch_lnks)
+            self._neo4j.batch_merge_relations(batch_rels)
 
         # Update registry
         self._registry.upsert(
@@ -540,23 +555,36 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
-        # Index into Neo4j (knowledge graph)
+        # Index into Neo4j (knowledge graph) — batched per file
         if self._neo4j and self._kg_extractor:
             self._neo4j.delete_document_relations(rel_path)
-            self._neo4j.merge_document(rel_path, source)
+            self._neo4j.batch_merge_documents([{"file_path": rel_path, "source": source}])
+            batch_ents: list[dict] = []
+            batch_lnks: list[dict] = []
+            batch_rels: list[dict] = []
+            seen_ents: set[tuple[str, str]] = set()
+            seen_lnks: set[tuple[str, str, str]] = set()
             for chunk in chunks:
                 extraction = self._kg_extractor.extract(chunk.text, source_file=rel_path)
                 for entity in extraction.entities:
-                    self._neo4j.merge_entity(entity.name, entity.type)
-                    self._neo4j.link_entity_to_document(entity.name, entity.type, rel_path)
+                    ekey = (entity.name, entity.type)
+                    if ekey not in seen_ents:
+                        seen_ents.add(ekey)
+                        batch_ents.append({"name": entity.name, "type": entity.type, "aliases": []})
+                    lkey = (entity.name, entity.type, rel_path)
+                    if lkey not in seen_lnks:
+                        seen_lnks.add(lkey)
+                        batch_lnks.append({"entity_name": entity.name, "entity_type": entity.type, "file_path": rel_path})
                 for rel in extraction.relations:
-                    self._neo4j.merge_relation(
-                        from_name=rel.from_entity,
-                        from_type=rel.from_type,
-                        rel_type=rel.relation,
-                        to_name=rel.to_entity,
-                        to_type=rel.to_type,
-                    )
+                    batch_rels.append({
+                        "from_name": rel.from_entity, "from_type": rel.from_type,
+                        "rel_type": rel.relation,
+                        "to_name": rel.to_entity, "to_type": rel.to_type,
+                        "props": {},
+                    })
+            self._neo4j.batch_merge_entities(batch_ents)
+            self._neo4j.batch_link_entities_to_document(batch_lnks)
+            self._neo4j.batch_merge_relations(batch_rels)
 
         # Update registry
         self._registry.upsert(

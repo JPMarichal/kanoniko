@@ -526,6 +526,12 @@ class KGExtractor:
             if len(name) < _MIN_ENTITY_LEN:
                 continue
 
+            # Skip if this NER match is a scripture citation abbreviation
+            # e.g., spaCy tags "Matt" as PERSON in "Matt. 5:3"
+            after_ner = text[ent.end_char:]
+            if _CITATION_AFTER_RE.match(after_ner):
+                continue
+
             key = f"{name}:{entity_type}"
             if key not in found_entities:
                 entities.append(ExtractedEntity(
