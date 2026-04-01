@@ -12909,5 +12909,109 @@
         "Meridiano de los tiempos"
       ]
     }
+  ],
+  "organization": [
+    {"name": "Relief Society", "aliases": ["Sociedad de Socorro"]},
+    {"name": "Elders Quorum", "aliases": ["Cuórum de Élderes", "Quórum de Élderes"]},
+    {"name": "Young Women", "aliases": ["Mujeres Jóvenes"]},
+    {"name": "Young Men", "aliases": ["Hombres Jóvenes"]},
+    {"name": "Primary", "aliases": ["Primaria"]},
+    {"name": "Sunday School", "aliases": ["Escuela Dominical"]},
+    {"name": "Aaronic Priesthood", "aliases": ["Sacerdocio Aarónico"]},
+    {"name": "Melchizedek Priesthood", "aliases": ["Sacerdocio de Melquisedec"]},
+    {"name": "Deacons Quorum", "aliases": ["Cuórum de Diáconos", "Quórum de Diáconos"]},
+    {"name": "Teachers Quorum", "aliases": ["Cuórum de Maestros", "Quórum de Maestros"]},
+    {"name": "Priests Quorum", "aliases": ["Cuórum de Presbíteros", "Quórum de Presbíteros"]},
+    {"name": "First Presidency", "aliases": ["Primera Presidencia"]},
+    {"name": "Quorum of the Twelve Apostles", "aliases": ["Cuórum de los Doce Apóstoles", "Quórum de los Doce Apóstoles"]},
+    {"name": "Seventy", "aliases": ["Setenta", "Quorum of the Seventy", "Cuórum de los Setenta"]},
+    {"name": "Presiding Bishopric", "aliases": ["Obispado Presidente"]},
+    {"name": "Family Services", "aliases": ["Servicios para la Familia"]},
+    {"name": "Missionary Training Center", "aliases": ["Centro de Capacitación Misional", "MTC", "CCM"]},
+    {"name": "Church Educational System", "aliases": ["Sistema Educativo de la Iglesia", "CES", "SEI"]},
+    {"name": "Perpetual Education Fund", "aliases": ["Fondo Perpetuo para la Educación"]}
+  ],
+  "calling": [
+    {"name": "Bishop", "aliases": ["Obispo"]},
+    {"name": "Stake President", "aliases": ["Presidente de Estaca"]},
+    {"name": "Mission President", "aliases": ["Presidente de Misión"]},
+    {"name": "District President", "aliases": ["Presidente de Distrito"]},
+    {"name": "Branch President", "aliases": ["Presidente de Rama"]},
+    {"name": "Patriarch", "aliases": ["Patriarca"]},
+    {"name": "High Councilor", "aliases": ["Consejero del sumo consejo", "Alto Consejero"]},
+    {"name": "Ward Clerk", "aliases": ["Secretario de Barrio"]},
+    {"name": "Stake Clerk", "aliases": ["Secretario de Estaca"]},
+    {"name": "Executive Secretary", "aliases": ["Secretario Ejecutivo"]},
+    {"name": "Elders Quorum President", "aliases": ["Presidente del Cuórum de Élderes"]},
+    {"name": "Relief Society President", "aliases": ["Presidenta de la Sociedad de Socorro"]},
+    {"name": "Young Women President", "aliases": ["Presidenta de las Mujeres Jóvenes"]},
+    {"name": "Primary President", "aliases": ["Presidenta de la Primaria"]},
+    {"name": "Sunday School President", "aliases": ["Presidente de la Escuela Dominical", "Presidenta de la Escuela Dominical"]},
+    {"name": "Area Seventy", "aliases": ["Setenta de Área"]},
+    {"name": "General Authority", "aliases": ["Autoridad General"]},
+    {"name": "Ministering Brother", "aliases": ["Hermano Ministro", "Hermano Ministrante"]},
+    {"name": "Ministering Sister", "aliases": ["Hermana Ministra", "Hermana Ministrante"]}
+  ],
+  "council": [
+    {"name": "Ward Council", "aliases": ["Consejo de Barrio"]},
+    {"name": "Stake Council", "aliases": ["Consejo de Estaca"]},
+    {"name": "Bishopric", "aliases": ["Obispado"]},
+    {"name": "Stake Presidency", "aliases": ["Presidencia de Estaca"]},
+    {"name": "Ward Membership Council", "aliases": ["Consejo de Membresía de Barrio"]},
+    {"name": "Stake Membership Council", "aliases": ["Consejo de Membresía de Estaca"]},
+    {"name": "Area Presidency", "aliases": ["Presidencia de Área"]},
+    {"name": "Council on the Disposition of the Tithes", "aliases": ["Consejo sobre la Disposición de los Diezmos"]}
+  ],
+  "ordinance": [
+    {"name": "Baptism", "aliases": ["Bautismo"]},
+    {"name": "Confirmation", "aliases": ["Confirmación"]},
+    {"name": "Sacrament", "aliases": ["Santa Cena", "Sacramento"]},
+    {"name": "Priesthood Ordination", "aliases": ["Ordenación al Sacerdocio"]},
+    {"name": "Temple Endowment", "aliases": ["Investidura del Templo", "Endowment"]},
+    {"name": "Temple Sealing", "aliases": ["Sellamiento del Templo", "Sealing"]},
+    {"name": "Patriarchal Blessing", "aliases": ["Bendición Patriarcal"]},
+    {"name": "Name and Blessing of a Child", "aliases": ["Bendición de un Hijo", "Baby Blessing"]},
+    {"name": "Dedication of a Grave", "aliases": ["Dedicación de una Tumba"]},
+    {"name": "Setting Apart", "aliases": ["Apartamiento"]},
+    {"name": "Anointing of the Sick", "aliases": ["Unción de los Enfermos", "Administering to the Sick"]},
+    {"name": "Consecration of Oil", "aliases": ["Consagración del Aceite"]},
+    {"name": "Father's Blessing", "aliases": ["Bendición de Padre"]}
+  ],
+  "unit": [
+    {"name": "Ward", "aliases": ["Barrio"]},
+    {"name": "Branch", "aliases": ["Rama"]},
+    {"name": "Stake", "aliases": ["Estaca"]},
+    {"name": "District", "aliases": ["Distrito"]},
+    {"name": "Mission", "aliases": ["Misión"]},
+    {"name": "Area", "aliases": ["Área"]},
+    {"name": "Young Single Adult Ward", "aliases": ["Barrio de Adultos Solteros Jóvenes", "YSA Ward"]},
+    {"name": "Language Ward", "aliases": ["Barrio Idiomático"]},
+    {"name": "Service Member Group", "aliases": ["Grupo de Servicio Militar"]}
+  ],
+  "program": [
+    {"name": "Self-Reliance Program", "aliases": ["Programa de Autosuficiencia"]},
+    {"name": "Addiction Recovery Program", "aliases": ["Programa de Recuperación de Adicciones"]},
+    {"name": "FSY Conference", "aliases": ["Conferencia FSY", "For the Strength of Youth Conference"]},
+    {"name": "Seminary", "aliases": ["Seminario"]},
+    {"name": "Institute", "aliases": ["Instituto"]},
+    {"name": "Disability Activity Program", "aliases": ["Programa de Actividades para Personas con Discapacidades"]},
+    {"name": "JustServe", "aliases": ["JustServe.org"]},
+    {"name": "Come Follow Me", "aliases": ["Ven Sígueme"]},
+    {"name": "Humanitarian Aid", "aliases": ["Ayuda Humanitaria"]}
+  ],
+  "policy": [
+    {"name": "Law of Chastity", "aliases": ["Ley de Castidad"]},
+    {"name": "Word of Wisdom", "aliases": ["Palabra de Sabiduría"]},
+    {"name": "Law of the Fast", "aliases": ["Ley del Ayuno"]},
+    {"name": "Law of Tithing", "aliases": ["Ley del Diezmo"]},
+    {"name": "Temple Recommend", "aliases": ["Recomendación para el Templo"]},
+    {"name": "Abuse Help Line", "aliases": ["Línea de Ayuda para el Abuso"]}
+  ],
+  "document": [
+    {"name": "The Family: A Proclamation to the World", "aliases": ["La Familia: Una Proclamación para el Mundo"]},
+    {"name": "The Living Christ", "aliases": ["El Cristo Viviente"]},
+    {"name": "Articles of Faith", "aliases": ["Artículos de Fe"]},
+    {"name": "For the Strength of Youth", "aliases": ["Para la Fortaleza de la Juventud"]},
+    {"name": "General Handbook", "aliases": ["Manual General"]}
   ]
 }

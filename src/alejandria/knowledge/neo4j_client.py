@@ -140,6 +140,93 @@ class Neo4jClient:
                 name=entity_name, type=entity_type, file_path=file_path,
             )
 
+    # ------------------------------------------------------------------
+    # Batch operations (for rebuild_kg performance)
+    # ------------------------------------------------------------------
+
+    def batch_merge_entities(self, entities: list[dict]) -> None:
+        """Batch merge entity nodes.
+
+        Each dict: {name: str, type: str, aliases: list[str]}.
+        """
+        if not entities:
+            return
+        with self._driver.session() as session:
+            session.run(
+                "UNWIND $entities AS e "
+                "MERGE (n:Entity {name: e.name, type: e.type}) "
+                "ON CREATE SET n.aliases = e.aliases "
+                "ON MATCH SET n.aliases = "
+                "  CASE WHEN n.aliases IS NULL THEN e.aliases "
+                "  ELSE [x IN n.aliases WHERE NOT x IN e.aliases] + e.aliases END",
+                entities=entities,
+            )
+
+    def batch_merge_documents(self, documents: list[dict]) -> None:
+        """Batch merge document nodes.
+
+        Each dict: {file_path: str, source: str}.
+        """
+        if not documents:
+            return
+        with self._driver.session() as session:
+            session.run(
+                "UNWIND $docs AS d "
+                "MERGE (n:Document {file_path: d.file_path}) "
+                "SET n.source = d.source",
+                docs=documents,
+            )
+
+    def batch_merge_relations(self, relations: list[dict]) -> None:
+        """Batch merge relations between entities.
+
+        Each dict: {from_name, from_type, rel_type, to_name, to_type, props}.
+        Groups by rel_type since Cypher needs static relationship types.
+        """
+        if not relations:
+            return
+        # Group by rel_type (Cypher requires literal relationship types)
+        by_type: dict[str, list[dict]] = {}
+        for r in relations:
+            by_type.setdefault(r["rel_type"], []).append(r)
+
+        with self._driver.session() as session:
+            for rel_type, rels in by_type.items():
+                batch = [
+                    {
+                        "from_name": r["from_name"],
+                        "from_type": r["from_type"],
+                        "to_name": r["to_name"],
+                        "to_type": r["to_type"],
+                        "props": r.get("props", {}),
+                    }
+                    for r in rels
+                ]
+                session.run(
+                    "UNWIND $rels AS r "
+                    "MERGE (a:Entity {name: r.from_name, type: r.from_type}) "
+                    "MERGE (b:Entity {name: r.to_name, type: r.to_type}) "
+                    f"MERGE (a)-[rel:{rel_type}]->(b) "
+                    "SET rel += r.props",
+                    rels=batch,
+                )
+
+    def batch_link_entities_to_document(self, links: list[dict]) -> None:
+        """Batch link entities to a document.
+
+        Each dict: {entity_name, entity_type, file_path}.
+        """
+        if not links:
+            return
+        with self._driver.session() as session:
+            session.run(
+                "UNWIND $links AS l "
+                "MATCH (e:Entity {name: l.entity_name, type: l.entity_type}) "
+                "MATCH (d:Document {file_path: l.file_path}) "
+                "MERGE (e)-[:MENTIONED_IN]->(d)",
+                links=links,
+            )
+
     def delete_document_relations(self, file_path: str) -> None:
         """Delete all relationships involving a document and orphaned entities."""
         with self._driver.session() as session:
@@ -580,33 +667,77 @@ class Neo4jClient:
         """
         with self._driver.session() as session:
             if preserve_sources:
-                # Delete only corpus-derived data, preserve external imports
-                # 1. Delete Document nodes and their relations (corpus data)
-                session.run("MATCH (d:Document) DETACH DELETE d")
-                # 2. Delete Entity nodes that DON'T have preserved relations
-                #    An entity is preserved if ANY of its relations has a preserved source
+                # Delete only corpus-derived data, preserve external imports.
+                # Use small batches: relations first (they're the bulk), then nodes.
+                batch_size = 10000
                 preserved_set = preserve_sources
-                session.run(
-                    "MATCH (e:Entity) "
-                    "WHERE NOT EXISTS { "
-                    "  MATCH (e)-[r]-() WHERE r.source IN $sources "
-                    "} "
-                    "DETACH DELETE e",
-                    sources=preserved_set,
-                )
-                # 3. Delete non-preserved relations between remaining entities
-                session.run(
-                    "MATCH ()-[r]-() "
-                    "WHERE NOT (r.source IN $sources) "
-                    "DELETE r",
-                    sources=preserved_set,
-                )
+
+                # 1. Delete all non-preserved relations (batched).
+                # Note: r.source IS NULL also counts as non-preserved.
+                total = 0
+                while True:
+                    result = session.run(
+                        "MATCH ()-[r]-() "
+                        "WHERE r.source IS NULL OR NOT (r.source IN $sources) "
+                        "WITH r LIMIT $batch DELETE r RETURN count(*) AS deleted",
+                        sources=preserved_set, batch=batch_size,
+                    )
+                    deleted = result.single()["deleted"]
+                    total += deleted
+                    if deleted == 0:
+                        break
+                    if total % 100000 == 0:
+                        logger.info("Neo4j clear: deleted %d relations so far...", total)
+                logger.info("Neo4j clear: deleted %d non-preserved relations", total)
+
+                # 2. Delete Document nodes (now relation-free, safe to batch)
+                total = 0
+                while True:
+                    result = session.run(
+                        "MATCH (d:Document) WITH d LIMIT $batch DETACH DELETE d RETURN count(*) AS deleted",
+                        batch=batch_size,
+                    )
+                    deleted = result.single()["deleted"]
+                    total += deleted
+                    if deleted == 0:
+                        break
+                logger.info("Neo4j clear: deleted %d Document nodes", total)
+
+                # 3. Delete Entity nodes that have no preserved relations (batched)
+                total = 0
+                while True:
+                    result = session.run(
+                        "MATCH (e:Entity) "
+                        "WHERE NOT EXISTS { "
+                        "  MATCH (e)-[r]-() WHERE r.source IN $sources "
+                        "} "
+                        "WITH e LIMIT $batch DETACH DELETE e RETURN count(*) AS deleted",
+                        sources=preserved_set, batch=batch_size,
+                    )
+                    deleted = result.single()["deleted"]
+                    total += deleted
+                    if deleted == 0:
+                        break
+                logger.info("Neo4j clear: deleted %d Entity nodes (non-preserved)", total)
+
                 logger.info(
                     "Neo4j graph cleared (preserved sources: %s)",
                     ", ".join(preserve_sources),
                 )
             else:
-                session.run("MATCH (n) DETACH DELETE n")
-                logger.info("Neo4j graph cleared (full)")
+                # Batch delete to avoid Neo4j memory limits on large graphs
+                batch_size = 5000
+                total_deleted = 0
+                while True:
+                    result = session.run(
+                        "MATCH (n) WITH n LIMIT $batch DETACH DELETE n RETURN count(*) AS deleted",
+                        batch=batch_size,
+                    )
+                    deleted = result.single()["deleted"]
+                    total_deleted += deleted
+                    if deleted == 0:
+                        break
+                    logger.info("Neo4j clear: deleted %d nodes (total: %d)", deleted, total_deleted)
+                logger.info("Neo4j graph cleared (full, %d nodes deleted)", total_deleted)
         # Invalidate query cache
         self._cache.clear()
