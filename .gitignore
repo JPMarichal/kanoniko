@@ -19,11 +19,11 @@ env/
 *.swp
 *.swo
 
-# Data (persistent volumes, not in repo)
-data/
+# Data — exclude generated data, but track key assets for disaster recovery
+data/*
 !data/scripture_structure/
-*.db
-*.sqlite
+!data/sqlite/
+data/sqlite/backups/
 
 # Docker / secrets
 .env

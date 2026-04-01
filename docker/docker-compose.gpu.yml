@@ -1,0 +1,29 @@
+# GPU override — use with: docker compose -f docker-compose.yml -f docker-compose.gpu.yml up --build
+# Requires: Docker Engine with NVIDIA Container Toolkit (Ubuntu-20.04 WSL)
+# NOT compatible with Rancher Desktop — use native Docker in Ubuntu WSL
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.gpu
+    volumes:
+      # Override corpus mount: use git clone on Linux FS for fast I/O
+      # Sync with: cd /home/jpmarichal/alejandria-repo && git pull
+      - /home/jpmarichal/alejandria-repo/corpus:/app/corpus:ro
+      - /home/jpmarichal/alejandria-data/sqlite:/app/data/sqlite
+      - /home/jpmarichal/alejandria-data/models:/root/.cache
+    environment:
+      - ALEJANDRIA_EMBEDDING_DEVICE=cuda
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+  neo4j:
+    environment:
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      # Backup export directory (APOC export writes here)
+      - /home/jpmarichal/alejandria-data/neo4j-backups:/backups

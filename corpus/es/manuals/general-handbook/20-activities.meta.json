@@ -1,0 +1,147 @@
+{
+  "title": "Actividades",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/20-activities?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "20",
+  "sections": {
+    "20.1": "Propósitos",
+    "20.2": "Planificar actividades",
+    "20.2.1": "La responsabilidad de planificar actividades",
+    "20.2.2": "Invitar a todos a participar",
+    "20.2.3": "Normas",
+    "20.2.4": "Equilibrio y variedad",
+    "20.2.4.1": "El servicio",
+    "20.2.4.2": "Artes culturales",
+    "20.2.4.3": "Esparcimiento, salud, estado físico y deportes",
+    "20.2.5": "Programación de actividades",
+    "20.2.6": "Fondos para las actividades",
+    "20.3": "Actividades de estaca, multiestaca y Área",
+    "20.3.1": "Pautas generales",
+    "20.3.2": "Actividades de estaca",
+    "20.3.2.1": "El comité de actividades de estaca",
+    "20.3.2.2": "El presidente del comité de actividades de estaca",
+    "20.3.2.3": "Los miembros del comité de actividades de estaca",
+    "20.3.3": "Actividades multiestaca y de Área",
+    "20.3.4": "Acatar las normas de la Iglesia en cuanto a los viajes",
+    "20.4": "La conferencia de la juventud",
+    "20.5": "Normas y pautas para seleccionar y planificar actividades",
+    "20.5.1": "Actividades de carácter comercial o político",
+    "20.5.2": "Los bailes y la música",
+    "20.5.3": "La noche de los lunes",
+    "20.5.4": "Actividades de víspera del Año Nuevo",
+    "20.5.5": "Actividades que incluyan pasar la noche fuera de casa",
+    "20.5.6": "La representación de la Deidad",
+    "20.5.7": "Las oraciones en devocionales y actividades",
+    "20.5.8": "La observancia del día de reposo",
+    "20.5.9": "Los deportes",
+    "20.5.10": "Las visitas al templo",
+    "20.5.11": "Actividades no aprobadas",
+    "20.6": "Normas y pautas de financiación de actividades",
+    "20.6.1": "Actividades costeadas con el presupuesto del barrio o la estaca",
+    "20.6.2": "Fondos para campamentos de la juventud",
+    "20.6.3": "Fondos para conferencias FSY",
+    "20.6.4": "Fondos para equipo y materiales",
+    "20.6.5": "Eventos de recaudación de fondos",
+    "20.7": "Normas y pautas de seguridad para actividades",
+    "20.7.1": "Supervisión adulta",
+    "20.7.2": "Requisitos de edad para participar en actividades de jóvenes",
+    "20.7.3": "Seguros",
+    "20.7.3.1": "El seguro personal de automóviles",
+    "20.7.3.2": "El seguro médico personal y de accidentes",
+    "20.7.3.3": "El seguro personal de responsabilidad civil",
+    "20.7.3.4": "Church Activity Medical Assistance Program [Programa de Asistencia Médica para Actividades de la Iglesia]",
+    "20.7.3.5": "Certificados de seguro",
+    "20.7.4": "El permiso de los padres",
+    "20.7.5": "Informes de abuso o maltrato",
+    "20.7.6": "Precauciones de seguridad y qué hacer y cómo informar en caso de accidentes",
+    "20.7.6.1": "Precauciones de seguridad",
+    "20.7.6.2": "Qué hacer en caso de accidentes",
+    "20.7.6.3": "Dar parte de accidentes",
+    "20.7.6.4": "Seguros y preguntas",
+    "20.7.7": "Viajes",
+    "20.8": "Normas administrativas para actividades",
+    "20.8.1": "Materiales con derechos de autor",
+    "20.8.2": "Alquiler para actividades en instalaciones que no sean propiedad de la Iglesia",
+    "20.8.3": "Actividades sujetas a impuestos"
+  },
+  "cross_references": {
+    "20.1": [
+      "1.2"
+    ],
+    "20.2.1": [
+      "20.3"
+    ],
+    "20.2.4": [
+      "20.1"
+    ],
+    "20.2.4.1": [
+      "20.7.6.1"
+    ],
+    "20.2.4.3": [
+      "20.5.9"
+    ],
+    "20.2.5": [
+      "20.5.3"
+    ],
+    "20.3.3": [
+      "14.2.1.3",
+      "20.7.6"
+    ],
+    "20.3.4": [
+      "20.7.7"
+    ],
+    "20.4": [
+      "29.2.6",
+      "29.3.9",
+      "20.6",
+      "38.8.18",
+      "20.7.1"
+    ],
+    "20.5.3": [
+      "20.5.4"
+    ],
+    "20.5.5": [
+      "20.7.4"
+    ],
+    "20.5.11": [
+      "20.7.6",
+      "20.7.7"
+    ],
+    "20.6.2": [
+      "14.2.1.3"
+    ],
+    "20.7.3.1": [
+      "20.7.7"
+    ],
+    "20.7.3.2": [
+      "20.7.3.4"
+    ],
+    "20.7.4": [
+      "20.7.6.1"
+    ],
+    "20.7.6.2": [
+      "20.7.6.3"
+    ],
+    "20.7.6.4": [
+      "20.7.3.4"
+    ],
+    "20.7.7": [
+      "20.6",
+      "20.7.4",
+      "20.7.1"
+    ],
+    "20.8.1": [
+      "38.8.11"
+    ],
+    "20.8.2": [
+      "20.7.3.5"
+    ]
+  },
+  "scripture_references": [
+    "Efesios 2:19",
+    "Artículos de Fe 1:13"
+  ]
+}

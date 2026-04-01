@@ -1,0 +1,178 @@
+{
+  "title": "Records and Reports",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/33-records-and-reports?lang=eng",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "33.",
+  "sections": {
+    "33.0": "Introduction",
+    "33.1": "Overview of Church Records",
+    "33.2": "General Instructions for Clerks",
+    "33.3": "Stake Records and Reports",
+    "33.3.1": "Stake Presidency",
+    "33.3.2": "Stake Clerk",
+    "33.3.2.1": "Record-Keeping Responsibilities",
+    "33.3.2.2": "Review of Ward Records and Reports",
+    "33.3.2.3": "Audits",
+    "33.3.2.4": "Stake Historical Records",
+    "33.3.3": "Assistant Stake Clerks",
+    "33.4": "Ward Records and Reports",
+    "33.4.1": "Bishopric",
+    "33.4.2": "Ward Clerk",
+    "33.4.2.1": "Record-Keeping Responsibilities",
+    "33.4.2.2": "Instructing Clerks and Secretaries",
+    "33.4.2.3": "Ward Historical Records",
+    "33.4.3": "Assistant Ward Clerks",
+    "33.4.4": "Priesthood and Organization Leaders",
+    "33.5": "Reports on Member Participation",
+    "33.5.1": "Types of Reports",
+    "33.5.1.1": "Attendance Reports",
+    "33.5.1.2": "Ministering Interview Reports",
+    "33.5.1.3": "Quarterly Report",
+    "33.5.2": "Membership Lists",
+    "33.6": "Membership Records",
+    "33.6.1": "Names Used in Church Records",
+    "33.6.2": "Members of Record",
+    "33.6.3": "Records of New Ward Members",
+    "33.6.4": "Records of Members Who Move or Are Temporarily Away from Home",
+    "33.6.5": "Out-of-Unit Member Records",
+    "33.6.6": "Records of Members Serving outside Their Geographic Ward",
+    "33.6.6.1": "Records of Members with Other Church Assignments",
+    "33.6.6.2": "Records of Full-Time Missionaries",
+    "33.6.7": "Records of Young Single Adults",
+    "33.6.8": "Records of Members Who Live in Hospitals or Care Facilities",
+    "33.6.9": "Records of Members in Military Service",
+    "33.6.10": "Records of Members Who Have Intellectual Disabilities",
+    "33.6.11": "Records of Members Who Are Deaf or Hard of Hearing",
+    "33.6.12": "Records of Adopted Children",
+    "33.6.13": "Records of Children of Divorced Parents",
+    "33.6.14": "Records with Annotations",
+    "33.6.15": "Move Restrictions on Membership Records",
+    "33.6.16": "Records from the “Address Unknown” File",
+    "33.6.17": "Recording and Correcting Ordinance Information",
+    "33.6.18": "Recording and Correcting Civil Information",
+    "33.6.19": "Audits of Membership Records",
+    "33.7": "Historical Records",
+    "33.7.1": "Ward and Stake Histories",
+    "33.7.2": "Church History",
+    "33.8": "Confidentiality of Records",
+    "33.9": "Records Management",
+    "33.9.1": "Protection",
+    "33.9.1.1": "Usernames and Passwords",
+    "33.9.1.2": "Shared Computers and Data Storage",
+    "33.9.1.3": "Data Privacy",
+    "33.9.2": "Retention",
+    "33.9.3": "Disposition",
+    "33.10": "Stake and Ward Technology Specialists"
+  },
+  "cross_references": {
+    "33.1": [
+      "33.8",
+      "33.5",
+      "33.6",
+      "33.7"
+    ],
+    "33.2": [
+      "30.5"
+    ],
+    "33.3.2": [
+      "33.3.3"
+    ],
+    "33.3.2.1": [
+      "33.0",
+      "32.9.6",
+      "34.1.2",
+      "33.7.1"
+    ],
+    "33.3.2.2": [
+      "34.1.2",
+      "33.6.19",
+      "33.7.1"
+    ],
+    "33.3.2.3": [
+      "33.6.19"
+    ],
+    "33.3.2.4": [
+      "33.7"
+    ],
+    "33.3.3": [
+      "34.1.2",
+      "33.5"
+    ],
+    "33.4.2": [
+      "33.4.3"
+    ],
+    "33.4.2.1": [
+      "33.0",
+      "32.9.6",
+      "34.2.2"
+    ],
+    "33.4.2.3": [
+      "33.7"
+    ],
+    "33.4.3": [
+      "34.2.2",
+      "33.5"
+    ],
+    "33.5.1.2": [
+      "21.3"
+    ],
+    "33.5.1.3": [
+      "21.3",
+      "33.5.1.1"
+    ],
+    "33.6.3": [
+      "29.2.1.1"
+    ],
+    "33.6.5": [
+      "33.6.11"
+    ],
+    "33.6.6.1": [
+      "33.6.4"
+    ],
+    "33.6.6.2": [
+      "24.6.2.8"
+    ],
+    "33.6.7": [
+      "33.6.5"
+    ],
+    "33.6.10": [
+      "38.2.4"
+    ],
+    "33.6.11": [
+      "33.6.5"
+    ],
+    "33.6.13": [
+      "33.6.5"
+    ],
+    "33.6.14": [
+      "32.14.5"
+    ],
+    "33.6.18": [
+      "33.6"
+    ],
+    "33.8": [
+      "33.9.1",
+      "38.8.37"
+    ],
+    "33.9.1": [
+      "32.6.3.4"
+    ],
+    "33.10": [
+      "29.7",
+      "38.8.10"
+    ]
+  },
+  "scripture_references": [
+    "Moses 6:5",
+    "Moroni 6:4",
+    "Doctrine and Covenants 128:2",
+    "Helaman 15:13",
+    "Doctrine and Covenants 69:3",
+    "verse 5",
+    "Alma 37:2",
+    "Doctrine and Covenants 69:8"
+  ]
+}

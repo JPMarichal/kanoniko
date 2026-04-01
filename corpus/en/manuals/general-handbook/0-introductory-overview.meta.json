@@ -1,0 +1,27 @@
+{
+  "title": "Introductory Overview",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/0-introductory-overview?lang=eng",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "0.",
+  "sections": {
+    "0.0": "Introduction",
+    "0.1": "This Handbook",
+    "0.2": "Adaptation and Optional Resources",
+    "0.3": "Updates",
+    "0.4": "Questions about Instructions",
+    "0.5": "Terminology",
+    "0.6": "Contacting Church Headquarters or the Area Office"
+  },
+  "cross_references": {
+    "0.5": [
+      "6.3"
+    ]
+  },
+  "scripture_references": [
+    "Doctrine and Covenants 107:99",
+    "Doctrine and Covenants 84:85"
+  ]
+}

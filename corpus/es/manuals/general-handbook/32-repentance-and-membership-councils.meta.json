@@ -1,0 +1,365 @@
+{
+  "title": "El arrepentimiento y los consejos de membresía de la Iglesia",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/32-repentance-and-membership-councils?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "32.",
+  "sections": {
+    "32.0": "Introducción",
+    "32.1": "El arrepentimiento y el perdón",
+    "32.2": "Los propósitos de las restricciones o del retiro de la condición de miembro de la Iglesia",
+    "32.2.1": "Ayudar a proteger a otras personas",
+    "32.2.2": "Ayudar a una persona a acceder al poder redentor de Jesucristo mediante el arrepentimiento",
+    "32.2.3": "Proteger la integridad de la Iglesia",
+    "32.3": "La función de los jueces en Israel",
+    "32.4": "La confesión, la confidencialidad y el informar a las autoridades gubernamentales",
+    "32.4.1": "La confesión",
+    "32.4.2": "Los pecados graves que no se confiesan o se niegan",
+    "32.4.3": "Reunir información",
+    "32.4.4": "La confidencialidad",
+    "32.4.5": "Informar a las autoridades gubernamentales",
+    "32.5": "Los contextos en los que se ayuda a una persona a arrepentirse",
+    "32.5.1": "Una reseña de los contextos",
+    "32.5.2": "Determinar el contexto y los plazos",
+    "32.6": "La gravedad del pecado y las normas de la Iglesia",
+    "32.6.1": "Cuándo se requiere un consejo de membresía",
+    "32.6.1.1": "Las acciones violentas y el abuso o maltrato",
+    "32.6.1.2": "La inmoralidad sexual",
+    "32.6.1.3": "Las acciones fraudulentas",
+    "32.6.1.4": "Las violaciones de confianza",
+    "32.6.1.5": "Otras acciones",
+    "32.6.2": "Cuándo puede ser necesario un consejo de membresía",
+    "32.6.2.1": "Las acciones violentas y el abuso o maltrato",
+    "32.6.2.2": "La inmoralidad sexual",
+    "32.6.2.3": "Las acciones fraudulentas",
+    "32.6.2.4": "Las violaciones de confianza",
+    "32.6.2.5": "Otras acciones",
+    "32.6.3": "Cuándo el presidente de estaca delibera en consejo con la Presidencia de Área en cuanto a si es necesario un consejo de membresía u otra medida",
+    "32.6.3.1": "Otras medidas",
+    "32.6.3.2": "La apostasía",
+    "32.6.3.3": "La malversación de fondos de la Iglesia",
+    "32.6.3.4": "Uso indebido de datos personales",
+    "32.6.3.5": "Personas que se identifican como transgénero",
+    "32.6.4": "Cuándo un consejo de membresía no es normalmente necesario",
+    "32.6.4.1": "La falta de cumplimiento de algunas normas de la Iglesia",
+    "32.6.4.2": "Los negocios fracasados o las deudas no pagadas",
+    "32.6.4.3": "Los litigios civiles",
+    "32.7": "Las circunstancias de la persona",
+    "32.7.1": "La magnitud del pecado",
+    "32.7.2": "Los intereses de las víctimas",
+    "32.7.3": "La evidencia del arrepentimiento",
+    "32.7.4": "La violación de los convenios del templo",
+    "32.7.5": "Las posiciones de confianza o de autoridad",
+    "32.7.6": "La repetición",
+    "32.7.7": "La edad, madurez y experiencia",
+    "32.7.8": "La capacidad mental",
+    "32.7.9": "La confesión voluntaria",
+    "32.7.10": "El tiempo transcurrido entre el pecado y la confesión",
+    "32.7.11": "Pecados que involucran a miembros que viven en diferentes barrios o estacas",
+    "32.8": "La orientación personal y las restricciones informales a la condición de miembro",
+    "32.8.1": "La orientación personal",
+    "32.8.2": "Ayudar a las personas a tratar las adicciones y el consumo de pornografía",
+    "32.8.3": "Las restricciones informales a la condición de miembro",
+    "32.9": "La participación y la responsabilidad",
+    "32.9.1": "El presidente de estaca",
+    "32.9.2": "El sumo consejo",
+    "32.9.3": "El obispo (o el presidente de rama en una estaca)",
+    "32.9.4": "El presidente de misión",
+    "32.9.5": "El presidente de distrito o de rama en una misión",
+    "32.9.6": "El secretario de estaca o de barrio",
+    "32.9.7": "La participación en circunstancias inusuales",
+    "32.9.8": "Determinar qué líder convoca a un consejo en circunstancias especiales",
+    "32.10": "Los procedimientos de los consejos de membresía",
+    "32.10.1": "Notificar y prepararse para el consejo",
+    "32.10.2": "Obtener las declaraciones de las víctimas",
+    "32.10.3": "Dirigir el consejo",
+    "32.11": "Las decisiones de los consejos de membresía",
+    "32.11.1": "Conserva su plena condición de miembro",
+    "32.11.2": "La orientación personal del obispo o del presidente de estaca",
+    "32.11.3": "Las restricciones formales a la condición de miembro",
+    "32.11.4": "El retiro de la condición de miembro",
+    "32.11.5": "Las preguntas sobre decisiones en cuanto a asuntos complicados",
+    "32.11.6": "La autoridad de la Primera Presidencia",
+    "32.12": "Las notificaciones y los anuncios",
+    "32.12.1": "Notificar a la persona de la decisión",
+    "32.12.2": "Informar a otras personas de la decisión",
+    "32.12.3": "Comunicar la renuncia a la condición de miembro",
+    "32.13": "Apelar una decisión",
+    "32.14": "Los informes y las cédulas de miembro",
+    "32.14.1": "El Informe de consejo de membresía de la Iglesia",
+    "32.14.2": "Las restricciones formales a la condición de miembro de la Iglesia",
+    "32.14.3": "Las cédulas de miembro después de retirar la condición de miembro de la Iglesia a una persona",
+    "32.14.4": "Las cédulas de miembro después de la readmisión en la Iglesia",
+    "32.14.5": "Las cédulas de miembro con anotaciones",
+    "32.14.6": "Informar del robo de fondos de la Iglesia",
+    "32.14.7": "Las restricciones en el traslado de cédulas de miembro",
+    "32.14.8": "Las cédulas de miembro de quienes se encuentran encarcelados",
+    "32.14.9": "Las solicitudes para renunciar a la condición de miembro",
+    "32.15": "Seguir ministrando",
+    "32.16": "Quitar las restricciones formales o ser readmitido en la Iglesia",
+    "32.16.1": "Los consejos de membresía para quitar las restricciones formales o readmitir a una persona",
+    "32.16.2": "Ser readmitido después de renunciar a la condición de miembro de la Iglesia",
+    "32.17": "La actividad en la Iglesia, la ordenación y la restauración de bendiciones después de la readmisión",
+    "32.17.1": "La actividad en la Iglesia y la ordenación",
+    "32.17.2": "La restauración de bendiciones"
+  },
+  "cross_references": {
+    "32.2": [
+      "32.3"
+    ],
+    "32.3": [
+      "32.8"
+    ],
+    "32.4.1": [
+      "32.5"
+    ],
+    "32.4.4": [
+      "32.14.7",
+      "32.12.2"
+    ],
+    "32.4.5": [
+      "38.6.2.1"
+    ],
+    "32.5.1": [
+      "32.8",
+      "32.6.1",
+      "32.7.4",
+      "32.9.2"
+    ],
+    "32.5.2": [
+      "32.6",
+      "32.7"
+    ],
+    "32.6.1": [
+      "32.11"
+    ],
+    "32.6.1.1": [
+      "38.6.2.4"
+    ],
+    "32.6.1.3": [
+      "38.6.2.4",
+      "32.6.3.3"
+    ],
+    "32.6.2.1": [
+      "38.6.18",
+      "38.6.18.3",
+      "38.6.2.4"
+    ],
+    "32.6.2.2": [
+      "32.6.1.2"
+    ],
+    "32.6.2.3": [
+      "32.6.1.3",
+      "32.6.3.3",
+      "38.8.2",
+      "32.6.3.4"
+    ],
+    "32.6.2.4": [
+      "32.6.1.4",
+      "32.6.3.3",
+      "32.6.3.4"
+    ],
+    "32.6.2.5": [
+      "32.2.1",
+      "32.6.1",
+      "32.6.2",
+      "38.6.18",
+      "38.6.2.4",
+      "32.6.3.3",
+      "32.6.3.4"
+    ],
+    "32.6.3": [
+      "32.16.1"
+    ],
+    "32.6.3.1": [
+      "32.8.3",
+      "32.14.5"
+    ],
+    "32.6.3.2": [
+      "32.8.3"
+    ],
+    "32.6.3.3": [
+      "32.6.1.4"
+    ],
+    "32.6.3.4": [
+      "32.6.1.4"
+    ],
+    "32.6.4.2": [
+      "32.6.1.3"
+    ],
+    "32.7": [
+      "32.8"
+    ],
+    "32.7.6": [
+      "32.8.2"
+    ],
+    "32.8": [
+      "32.8.3",
+      "32.7.4",
+      "32.6.1"
+    ],
+    "32.8.1": [
+      "31.3.6",
+      "4.2.6"
+    ],
+    "32.8.2": [
+      "38.6.13"
+    ],
+    "32.8.3": [
+      "32.12.2",
+      "32.6"
+    ],
+    "32.9": [
+      "32.10.1",
+      "32.9.3"
+    ],
+    "32.9.2": [
+      "32.9.7"
+    ],
+    "32.9.4": [
+      "32.9.8",
+      "32.10"
+    ],
+    "32.10.1": [
+      "32.10.2"
+    ],
+    "32.10.2": [
+      "32.10.3",
+      "32.4.3"
+    ],
+    "32.10.3": [
+      "32.10.2",
+      "32.13"
+    ],
+    "32.11": [
+      "32.14.1"
+    ],
+    "32.11.3": [
+      "32.11.4",
+      "32.16.1"
+    ],
+    "32.11.4": [
+      "32.16.1",
+      "32.11.1",
+      "32.11.2",
+      "32.11.3",
+      "32.14.5",
+      "32.11.4",
+      "32.16",
+      "32.17.2"
+    ],
+    "32.12.1": [
+      "32.13"
+    ],
+    "32.12.2": [
+      "32.8.3",
+      "32.11.1"
+    ],
+    "32.12.3": [
+      "32.14.9"
+    ],
+    "32.14.2": [
+      "32.16.1"
+    ],
+    "32.14.3": [
+      "32.16.1"
+    ],
+    "32.14.4": [
+      "32.17.2"
+    ],
+    "32.14.5": [
+      "32.6.3.3",
+      "38.6.23",
+      "6.2.3"
+    ],
+    "32.14.8": [
+      "32.15"
+    ],
+    "32.14.9": [
+      "32.16.2",
+      "32.17.2"
+    ],
+    "32.16.1": [
+      "32.6.1.4",
+      "32.10.2",
+      "6.2.3",
+      "32.6.3.2",
+      "38.6.23",
+      "32.14.4"
+    ],
+    "32.16.2": [
+      "32.14.4"
+    ],
+    "32.17.1": [
+      "32.17.2"
+    ],
+    "32.17.2": [
+      "6.2.3",
+      "32.14.4"
+    ]
+  },
+  "scripture_references": [
+    "Mateo 9:10–13",
+    "Juan 8:3–11",
+    "Alma 11:37",
+    "3 Nefi 27:19",
+    "Alma 42:14, 17–18",
+    "Alma 34:16",
+    "Mosíah 15:9",
+    "Alma 42:15",
+    "Doctrina y Convenios 19:15–19",
+    "Alma 42:24–25",
+    "Juan 3:16",
+    "Alma 34:15",
+    "Alma 42:13",
+    "Isaías 1:18",
+    "Doctrina y Convenios 58:42",
+    "Mosíah 5:2",
+    "Alma 5:12–14",
+    "Helamán 15:7",
+    "2 Corintios 5:17–18",
+    "Mosíah 27:25–26",
+    "Efesios 2:19",
+    "Doctrina y Convenios 134:10",
+    "Alma 5:59–60",
+    "3 Nefi 9:20",
+    "2 Corintios 7:9–10",
+    "Alma 39:11",
+    "Doctrina y Convenios 107:72–74",
+    "Doctrina y Convenios 13:1",
+    "107:16–18",
+    "Lucas 15:7",
+    "Doctrina y Convenios 18:10–13",
+    "Doctrina y Convenios 58:43",
+    "Mosíah 26:29",
+    "84:26–27",
+    "107:18, 20",
+    "2 Nefi 2:7",
+    "Doctrina y Convenios 10:37",
+    "Doctrina y Convenios 42:80",
+    "Éxodo 18:12–27",
+    "Mosíah 26:29–36",
+    "Doctrina y Convenios 42:80–83",
+    "102",
+    "Doctrina y Convenios 1:31",
+    "Doctrina y Convenios 59:6",
+    "Éxodo 20:14",
+    "Doctrina y Convenios 63:16",
+    "Éxodo 20:15–16",
+    "Mosíah 4:29",
+    "Doctrina y Convenios 82:7",
+    "3 Nefi 18:31",
+    "Doctrina y Convenios 134:11",
+    "3 Nefi 9:14",
+    "Doctrina y Convenios 82:3",
+    "Doctrina y Convenios 102:2",
+    "Mosíah 26:36",
+    "Alma 6:3",
+    "Moroni 6:7",
+    "Doctrina y Convenios 20:83",
+    "3 Nefi 18:32",
+    "Doctrina y Convenios 109:21"
+  ]
+}

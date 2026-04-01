@@ -1,0 +1,106 @@
+{
+  "title": "Música",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/19-music?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "19.",
+  "sections": {
+    "19.1": "El propósito de la música en la Iglesia",
+    "19.2": "La música en el hogar",
+    "19.3": "La música en las reuniones de la Iglesia",
+    "19.3.1": "Planificar la música para las reuniones de la Iglesia",
+    "19.3.2": "La música en la reunión sacramental",
+    "19.3.3": "La música en las clases y en otras reuniones de barrio",
+    "19.3.4": "La música para las conferencias de estaca",
+    "19.3.5": "Otro tipo de música en la capilla",
+    "19.3.6": "Los instrumentos musicales",
+    "19.3.6.1": "Adquisición de instrumentos musicales",
+    "19.3.6.2": "Mantenimiento de los instrumentos musicales",
+    "19.3.7": "Los coros",
+    "19.3.7.1": "Los coros de barrio",
+    "19.3.7.2": "Los coros de estaca y multiestaca",
+    "19.4": "Los líderes de música en el barrio",
+    "19.4.1": "El obispado",
+    "19.4.2": "El coordinador de música de barrio",
+    "19.4.3": "Llamamientos adicionales",
+    "19.4.3.1": "El líder de música de barrio",
+    "19.4.3.2": "El pianista u organista de barrio",
+    "19.4.3.3": "El director del coro y el pianista u organista del coro",
+    "19.4.3.4": "El líder de música y el pianista de la Primaria",
+    "19.4.3.5": "Los especialistas en música",
+    "19.5": "Los líderes de música en la estaca",
+    "19.5.1": "La presidencia de estaca",
+    "19.5.2": "El coordinador de música de estaca",
+    "19.5.3": "Los especialistas de estaca en música",
+    "19.6": "Capacitación y recursos de música",
+    "19.7": "Normas y pautas adicionales",
+    "19.7.1": "Adquisición y empleo de la música",
+    "19.7.2": "Uso de los instrumentos de los centros de reuniones para practicar, recibir instrucción privada y llevar a cabo recitales",
+    "19.7.3": "Los coros de la comunidad"
+  },
+  "cross_references": {
+    "19.3.1": [
+      "18.7.2",
+      "38.3.4",
+      "29.5.4"
+    ],
+    "19.3.2": [
+      "19.3.7",
+      "19.3.6"
+    ],
+    "19.3.4": [
+      "19.3.6"
+    ],
+    "19.3.6": [
+      "19.2"
+    ],
+    "19.3.6.2": [
+      "35.4.2"
+    ],
+    "19.3.7.1": [
+      "19.4.3.3",
+      "19.7.1",
+      "38.8.11"
+    ],
+    "19.4.1": [
+      "19.3.1",
+      "19.2",
+      "19.3.6"
+    ],
+    "19.4.2": [
+      "19.6"
+    ],
+    "19.4.3.2": [
+      "19.3.6",
+      "19.3.6.1"
+    ],
+    "19.4.3.3": [
+      "19.3.7"
+    ],
+    "19.4.3.4": [
+      "12.3.4"
+    ],
+    "19.4.3.5": [
+      "19.6"
+    ],
+    "19.5.1": [
+      "19.2",
+      "19.3.6"
+    ],
+    "19.5.2": [
+      "19.6"
+    ],
+    "19.5.3": [
+      "19.6"
+    ],
+    "19.7.3": [
+      "35.5"
+    ]
+  },
+  "scripture_references": [
+    "Doctrina y Convenios 25:12",
+    "Doctrina y Convenios 45:71"
+  ]
+}

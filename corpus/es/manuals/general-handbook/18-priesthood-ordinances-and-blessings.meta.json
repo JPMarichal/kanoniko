@@ -1,0 +1,198 @@
+{
+  "title": "Efectuar las ordenanzas del sacerdocio, incluidas las bendiciones",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/18-priesthood-ordinances-and-blessings?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "18.",
+  "sections": {
+    "18.0": "Introducción",
+    "18.1": "Las ordenanzas de salvación y exaltación",
+    "18.2": "Otras ordenanzas",
+    "18.3": "Participar en una ordenanza",
+    "18.4": "Las ordenanzas para menores de edad",
+    "18.5": "Las ordenanzas efectuadas por personas con discapacidades o a favor de ellas",
+    "18.6": "Dar un nombre y bendecir a los niños",
+    "18.6.1": "Quién da la bendición",
+    "18.6.2": "Instrucciones",
+    "18.6.3": "El formulario Registro de niño y el Certificado de bendición",
+    "18.7": "El bautismo",
+    "18.7.1": "La aprobación para que una persona sea bautizada y confirmada",
+    "18.7.1.1": "Los niños que son miembros inscritos",
+    "18.7.1.2": "Los conversos",
+    "18.7.1.3": "Hijos cuyos padres no estén casados (incluso los divorciados)",
+    "18.7.2": "Los servicios bautismales",
+    "18.7.3": "Quién efectúa la ordenanza",
+    "18.7.4": "Dónde efectuar la ordenanza",
+    "18.7.5": "La vestimenta",
+    "18.7.6": "Los testigos",
+    "18.7.7": "Instrucciones",
+    "18.7.8": "El registro de bautismo",
+    "18.8": "La confirmación y el don del Espíritu Santo",
+    "18.8.1": "Quién efectúa la ordenanza",
+    "18.8.2": "Instrucciones",
+    "18.8.3": "El registro y el certificado de bautismo y confirmación",
+    "18.9": "La Santa Cena",
+    "18.9.1": "La aprobación para preparar, bendecir y repartir la Santa Cena",
+    "18.9.2": "Quién efectúa la ordenanza",
+    "18.9.3": "Pautas para la Santa Cena",
+    "18.9.4": "Instrucciones",
+    "18.10": "Conferir el sacerdocio y ordenar a un oficio",
+    "18.10.1": "El Sacerdocio de Melquisedec",
+    "18.10.1.1": "Élderes",
+    "18.10.1.2": "Sumos sacerdotes",
+    "18.10.1.3": "Entrevistas y sostenimientos",
+    "18.10.2": "El Sacerdocio Aarónico",
+    "18.10.3": "Presentación de un miembro para que sea sostenido antes de ser ordenado",
+    "18.10.4": "Quién efectúa la ordenanza",
+    "18.10.5": "Instrucciones",
+    "18.10.6": "El registro y el certificado de ordenación",
+    "18.11": "Apartar a miembros para servir en llamamientos",
+    "18.11.1": "Quién efectúa el apartamiento",
+    "18.11.2": "Instrucciones",
+    "18.12": "Consagrar aceite",
+    "18.12.1": "Quién efectúa la ordenanza",
+    "18.12.2": "Instrucciones",
+    "18.13": "Bendecir a los enfermos",
+    "18.13.1": "Quién da la bendición",
+    "18.13.2": "Instrucciones",
+    "18.14": "Las bendiciones de consuelo y consejo, incluyendo las bendiciones de padre",
+    "18.14.1": "Quién da la bendición",
+    "18.14.2": "Instrucciones",
+    "18.15": "La dedicación de hogares",
+    "18.15.1": "Quién efectúa la dedicación",
+    "18.15.2": "Instrucciones",
+    "18.16": "La dedicación de sepulturas",
+    "18.16.1": "Quién dedica la sepultura",
+    "18.16.2": "Instrucciones",
+    "18.17": "Las bendiciones patriarcales",
+    "18.17.1": "Recibir una bendición patriarcal",
+    "18.17.2": "Acceder a las bendiciones patriarcales",
+    "18.17.3": "Más información",
+    "18.18": "La investidura del templo y el sellamiento",
+    "18.19": "Cuadro de ordenaciones"
+  },
+  "cross_references": {
+    "18.0": [
+      "18.3"
+    ],
+    "18.1": [
+      "3.5.3"
+    ],
+    "18.3": [
+      "3.4.1",
+      "30.8"
+    ],
+    "18.4": [
+      "38.8.23"
+    ],
+    "18.6": [
+      "38.2.7"
+    ],
+    "18.6.1": [
+      "18.3"
+    ],
+    "18.7": [
+      "38.2.8"
+    ],
+    "18.7.1.1": [
+      "33.6.2",
+      "18.8.3",
+      "12.1.8"
+    ],
+    "18.7.1.2": [
+      "18.8.3"
+    ],
+    "18.7.1.3": [
+      "38.2.8.2"
+    ],
+    "18.7.2": [
+      "18.8"
+    ],
+    "18.7.3": [
+      "18.3"
+    ],
+    "18.7.8": [
+      "18.8.3"
+    ],
+    "18.8": [
+      "38.2.8",
+      "31.2.3.2",
+      "29.2.1.1"
+    ],
+    "18.8.1": [
+      "18.3"
+    ],
+    "18.10": [
+      "38.2.9"
+    ],
+    "18.10.1.3": [
+      "6.3",
+      "31.2.6",
+      "18.10.3"
+    ],
+    "18.10.2": [
+      "18.10.3",
+      "38.2.9.1"
+    ],
+    "18.10.3": [
+      "6.3"
+    ],
+    "18.10.4": [
+      "6.3",
+      "18.3"
+    ],
+    "18.11": [
+      "3.4.1.1",
+      "30.7.2"
+    ],
+    "18.11.1": [
+      "18.3"
+    ],
+    "18.17": [
+      "38.2.10"
+    ],
+    "18.19": [
+      "6.3",
+      "30.7.2"
+    ]
+  },
+  "scripture_references": [
+    "Doctrina y Convenios 84:20",
+    "Doctrina y Convenios 137:10",
+    "Moroni 8:8–12",
+    "Doctrina y Convenios 20:70",
+    "Mateo 3:13–17",
+    "Juan 3:3–7",
+    "Hechos 2:37–38",
+    "2 Nefi 31:5–21",
+    "Doctrina y Convenios 68:27",
+    "Doctrina y Convenios 20:73",
+    "Doctrina y Convenios 20:41",
+    "Hechos 19:1–6",
+    "Juan 3:5",
+    "Doctrina y Convenios 33:11",
+    "3 Nefi 27:20",
+    "Doctrina y Convenios 20:75",
+    "59:9",
+    "Moroni 6:5–6",
+    "Mateo 26:26–28",
+    "Traducción de José Smith, Marcos 14:20–25",
+    "Lucas 22:15–20",
+    "3 Nefi 18",
+    "Moroni 6:6",
+    "Doctrina y Convenios 20:77",
+    "Doctrina y Convenios 20:79",
+    "Doctrina y Convenios 107:1, 6",
+    "Doctrina y Convenios 20:65, 67",
+    "Juan 15:16",
+    "Doctrina y Convenios 42:11",
+    "Santiago 5:14",
+    "Doctrina y Convenios 24:13–14",
+    "42:43–44, 48–52",
+    "Génesis 48:14–16",
+    "49",
+    "2 Nefi 4:3–11"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Reseña introductoria",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/0-introductory-overview?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "0.",
+  "sections": {
+    "0.0": "Introducción",
+    "0.1": "Este manual",
+    "0.2": "Adaptación y recursos opcionales",
+    "0.3": "Actualizaciones",
+    "0.4": "Preguntas sobre las instrucciones",
+    "0.5": "Terminología",
+    "0.6": "Ponerse en contacto con las Oficinas Generales de la Iglesia o la oficina de Área"
+  },
+  "cross_references": {
+    "0.5": [
+      "6.3"
+    ]
+  },
+  "scripture_references": [
+    "Doctrina y Convenios 107:99",
+    "Doctrina y Convenios 84:85"
+  ]
+}

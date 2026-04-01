@@ -570,8 +570,43 @@ class Neo4jClient:
 
         return relations[:limit]
 
-    def clear_all(self) -> None:
-        """Delete everything in the graph (for full reindex)."""
+    def clear_all(self, preserve_sources: list[str] | None = None) -> None:
+        """Delete graph data, optionally preserving external sources.
+
+        Args:
+            preserve_sources: List of source values to keep (e.g. ["topical_guide"]).
+                Nodes/relations with these source properties are preserved.
+                If None, deletes everything.
+        """
         with self._driver.session() as session:
-            session.run("MATCH (n) DETACH DELETE n")
-        logger.info("Neo4j graph cleared")
+            if preserve_sources:
+                # Delete only corpus-derived data, preserve external imports
+                # 1. Delete Document nodes and their relations (corpus data)
+                session.run("MATCH (d:Document) DETACH DELETE d")
+                # 2. Delete Entity nodes that DON'T have preserved relations
+                #    An entity is preserved if ANY of its relations has a preserved source
+                preserved_set = preserve_sources
+                session.run(
+                    "MATCH (e:Entity) "
+                    "WHERE NOT EXISTS { "
+                    "  MATCH (e)-[r]-() WHERE r.source IN $sources "
+                    "} "
+                    "DETACH DELETE e",
+                    sources=preserved_set,
+                )
+                # 3. Delete non-preserved relations between remaining entities
+                session.run(
+                    "MATCH ()-[r]-() "
+                    "WHERE NOT (r.source IN $sources) "
+                    "DELETE r",
+                    sources=preserved_set,
+                )
+                logger.info(
+                    "Neo4j graph cleared (preserved sources: %s)",
+                    ", ".join(preserve_sources),
+                )
+            else:
+                session.run("MATCH (n) DETACH DELETE n")
+                logger.info("Neo4j graph cleared (full)")
+        # Invalidate query cache
+        self._cache.clear()

@@ -14,7 +14,7 @@ The incubator replaces the traditional phase-based roadmap with a **priority-ord
 |------|----------|-----------|
 | **Highest** | P1 Scripture Structure | Foundation: enriches every subsequent feature with structural metadata |
 | **High** | P2 Scripture Refresh, P3 ETL Templates, P4 Corpus Expansion | Corpus quality and completeness — the system is only as good as its data |
-| **Medium** | P5 Chat Client UI, P6 Advanced Relations, P7 Deep Disambiguation | User experience and knowledge depth — value multipliers |
+| **Medium** | P5 Chat Client UI, P6 Advanced Relations, P7 Deep Disambiguation, P10 Handbook KG Model | User experience and knowledge depth — value multipliers |
 | **Lower** | P8 Synthesis Engine, P9 Fine-Tuning | Advanced capabilities — build on top of a mature corpus and knowledge layer |
 
 ### Selection Criteria

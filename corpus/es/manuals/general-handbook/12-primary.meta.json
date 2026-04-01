@@ -1,0 +1,93 @@
+{
+  "title": "Primaria",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/12-primary?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "12.",
+  "sections": {
+    "12.1": "Propósito y organización",
+    "12.1.1": "Propósitos",
+    "12.1.2": "El lema de la Primaria",
+    "12.1.3": "Guardería",
+    "12.1.4": "Las clases",
+    "12.1.5": "Tiempo para cantar",
+    "12.1.6": "Presentación de los niños en la reunión sacramental",
+    "12.1.7": "Reunión de preparación para el templo y el sacerdocio",
+    "12.1.8": "Reunión de preparación para el bautismo y la confirmación",
+    "12.2": "Participar en la obra de Dios de salvación y exaltación",
+    "12.2.1": "Vivir el Evangelio de Jesucristo",
+    "12.2.1.1": "Las funciones de los padres y líderes",
+    "12.2.1.2": "El aprendizaje del Evangelio",
+    "12.2.1.3": "El servicio y las actividades",
+    "12.2.1.4": "El desarrollo personal",
+    "12.2.2": "Cuidar de los necesitados",
+    "12.2.3": "Invitar a todos a recibir el Evangelio",
+    "12.2.4": "Unir a las familias por la eternidad",
+    "12.3": "Las líderes de la Primaria de barrio",
+    "12.3.1": "El obispado",
+    "12.3.2": "La presidencia de la Primaria",
+    "12.3.3": "La secretaria",
+    "12.3.4": "El líder de música y el pianista",
+    "12.3.5": "Los maestros y los líderes de la guardería",
+    "12.3.6": "Los líderes de actividades de Valientes",
+    "12.4": "Las líderes de la Primaria de estaca",
+    "12.5": "Pautas y normas adicionales",
+    "12.5.1": "Proteger a los niños",
+    "12.5.2": "Los niños con necesidades especiales",
+    "12.5.3": "Los hombres que sirven en la Primaria",
+    "12.5.4": "Seguridad en los baños",
+    "12.5.5": "Actividades de dramatización",
+    "12.5.6": "Anillos HLJ",
+    "12.5.7": "Presentar el programa Niños y Jóvenes"
+  },
+  "cross_references": {
+    "12.1.7": [
+      "1.2.4"
+    ],
+    "12.2.1.2": [
+      "12.1.1"
+    ],
+    "12.2.1.3": [
+      "12.5.1"
+    ],
+    "12.2.4": [
+      "25.4.3"
+    ],
+    "12.3.2": [
+      "29.2.5",
+      "23.4",
+      "25.2.7",
+      "18.7.1.1",
+      "18.7.2",
+      "12.5.7"
+    ],
+    "12.3.4": [
+      "12.1.6"
+    ],
+    "12.3.5": [
+      "12.5.1",
+      "13.4"
+    ],
+    "12.3.6": [
+      "12.2.1.3",
+      "12.5.1"
+    ],
+    "12.4": [
+      "6.5"
+    ],
+    "12.5.5": [
+      "20.5.6"
+    ]
+  },
+  "scripture_references": [
+    "Mosíah 5:15",
+    "Isaías 54:13",
+    "3 Nefi 22:13",
+    "Doctrina y Convenios 68:25–28",
+    "Lucas 2:52",
+    "3 Nefi 17:23",
+    "Juan 21:15"
+  ]
+}

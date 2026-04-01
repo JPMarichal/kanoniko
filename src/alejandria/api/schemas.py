@@ -231,6 +231,13 @@ class IndexStatusResponse(BaseModel):
     total_chunks: int
     error_count: int
     errors: list[dict]
+    indexing: bool = False
+    current_file: str | None = None
+    files_processed: int = 0
+    files_total: int = 0
+    percent: float = 0.0
+    elapsed_seconds: float = 0.0
+    eta_seconds: float | None = None
 
 
 # --- Documents ---

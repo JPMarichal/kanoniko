@@ -1,0 +1,44 @@
+{
+  "title": "Ministrar",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/21-ministering?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "21.",
+  "sections": {
+    "21.0": "Introducción",
+    "21.1": "Responsabilidades de las hermanas y los hermanos ministrantes",
+    "21.2": "La organización de la ministración",
+    "21.2.1": "Hacer asignaciones",
+    "21.2.2": "Las asignaciones de ministración de los jóvenes",
+    "21.2.3": "Los misioneros de tiempo completo",
+    "21.3": "Las entrevistas de ministración",
+    "21.4": "La coordinación de las labores de ministración"
+  },
+  "cross_references": {
+    "21.0": [
+      "21.3"
+    ],
+    "21.2.2": [
+      "10.1.3.2"
+    ],
+    "21.4": [
+      "21.3",
+      "29.2.6"
+    ]
+  },
+  "scripture_references": [
+    "Mateo 20:26–28",
+    "Hechos 10:38",
+    "Moroni 6:4",
+    "Mateo 22:36–40",
+    "Doctrina y Convenios 20:53",
+    "Santiago 1:27",
+    "Mosíah 23:18",
+    "Doctrina y Convenios 20:47, 59",
+    "Lucas 10:1–17",
+    "Mosíah 18:8–11",
+    "Juan 21:15–17"
+  ]
+}

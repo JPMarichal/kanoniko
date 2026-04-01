@@ -1,0 +1,97 @@
+{
+  "title": "Miembros solteros",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/14-single-members?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "14.",
+  "sections": {
+    "14.0": "Introducción",
+    "14.1": "Los miembros solteros en las unidades geográficas",
+    "14.1.1": "Los líderes de estaca",
+    "14.1.1.1": "La presidencia de estaca",
+    "14.1.1.2": "Los comités de jóvenes adultos solteros y de adultos solteros de estaca",
+    "14.1.2": "Los líderes de barrio",
+    "14.1.2.1": "El obispado",
+    "14.1.2.2": "Los miembros de presidencias del cuórum de élderes y de la Sociedad de Socorro asignados a los jóvenes adultos solteros",
+    "14.1.2.3": "Los líderes de jóvenes adultos solteros",
+    "14.1.2.4": "El comité de jóvenes adultos solteros de barrio",
+    "14.2": "Participar en la obra de Dios de salvación y exaltación",
+    "14.2.1": "Vivir el Evangelio de Jesucristo",
+    "14.2.1.1": "La noche de hogar y el estudio del Evangelio",
+    "14.2.1.2": "Las clases de la Escuela Dominical",
+    "14.2.1.3": "Las actividades",
+    "14.2.2": "Cuidar de los necesitados",
+    "14.2.2.1": "El servicio",
+    "14.2.2.2": "Ministrar",
+    "14.2.3": "Invitar a todos a recibir el Evangelio",
+    "14.2.4": "Unir a las familias por la eternidad",
+    "14.3": "Los barrios y las estacas de jóvenes adultos solteros y los barrios de adultos solteros",
+    "14.4": "Pautas y normas adicionales",
+    "14.4.1": "Los lugares de reunión",
+    "14.4.2": "La noche de los lunes",
+    "14.4.3": "Los cuórums de élderes y las sociedades de socorro adicionales",
+    "14.4.4": "Los miembros llamados a servir en unidades para miembros solteros",
+    "14.4.5": "Los períodos de vacaciones escolares",
+    "14.4.6": "Las entrevistas en los barrios y las estacas de jóvenes adultos solteros",
+    "14.4.7": "La participación en actividades para miembros solteros",
+    "14.4.8": "Los padres solteros"
+  },
+  "cross_references": {
+    "14.1.1.1": [
+      "14.3"
+    ],
+    "14.1.1.2": [
+      "14.2"
+    ],
+    "14.1.2.1": [
+      "14.1.2.4"
+    ],
+    "14.1.2.2": [
+      "14.1.2.4"
+    ],
+    "14.1.2.3": [
+      "14.2"
+    ],
+    "14.1.2.4": [
+      "14.1.1.2"
+    ],
+    "14.2": [
+      "14.2.1.3"
+    ],
+    "14.2.1.1": [
+      "15.2"
+    ],
+    "14.2.1.2": [
+      "13.3.2"
+    ],
+    "14.2.4": [
+      "27.2.2",
+      "25.5",
+      "25.2.4",
+      "25.4.3"
+    ],
+    "14.3": [
+      "37.2",
+      "37.3",
+      "37.5"
+    ],
+    "14.4.2": [
+      "20.5.3"
+    ],
+    "14.4.6": [
+      "26.3.3"
+    ]
+  },
+  "scripture_references": [
+    "2 Nefi 26:24",
+    "Éter 12:4",
+    "Mosíah 2:41",
+    "Isaías 64:4",
+    "Mosíah 26:30",
+    "Moroni 6:8",
+    "Alma 7:11–13",
+    "1 Corintios 12:12–27"
+  ]
+}
