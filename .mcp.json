@@ -1,9 +1,10 @@
 {
   "mcpServers": {
     "alejandria": {
-      "command": "docker",
+      "command": "wsl",
       "args": [
-        "exec", "-i", "alejandria-api",
+        "-d", "Ubuntu-20.04",
+        "docker", "exec", "-i", "alejandria-api",
         "python", "-m", "alejandria.mcp_server"
       ]
     }
