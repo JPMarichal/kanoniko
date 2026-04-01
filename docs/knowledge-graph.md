@@ -42,6 +42,14 @@ Entity nodes have properties:
 | `policy` | Key policies | Law of Chastity, Word of Wisdom, Law of Tithing |
 | `document` | Reference documents | General Handbook, For the Strength of Youth |
 
+**Conference talk entities:**
+
+| Type | Description | Examples |
+|------|-------------|---------|
+| `talk` | Conference talk | Aligning Our Will with His |
+| `conference` | General conference event (biannual, Apr/Oct) | General Conference October 2024 |
+| `scripture_reference` | Specific scripture citation | Matthew 13:45–46, D&C 19:16 |
+
 ### Relationship Types
 
 **Core relations:**
@@ -57,6 +65,14 @@ Entity nodes have properties:
 | Relation | Description |
 |----------|-------------|
 | `PART_OF` | Structural containment: Book → Division → Volume |
+
+**Conference talks:**
+
+| Relation | Description |
+|----------|-------------|
+| `CITES` | Talk → Scripture reference (with note_context, date props) |
+| `DELIVERED_BY` | Talk → Person (with calling, date props) |
+| `PART_OF` | Talk → Conference event |
 
 **Organizational (handbook):**
 
@@ -97,10 +113,10 @@ When an alias matches multiple entities, ALL are registered in the KG. The profi
 
 ## Graph Statistics (typical)
 
-After a full corpus indexing:
-- ~75,000+ entity nodes (including 501 structural scripture nodes)
-- ~7,000,000+ relationships
-- ~19,700+ document nodes
+After a full corpus indexing (including ~6,900 conference talks):
+- ~100,000+ entity nodes (501 structural + ~37K scripture references + ~1.1K speakers + ~6.9K talks)
+- ~7,300,000+ relationships (including ~37K CITES, ~6.9K DELIVERED_BY)
+- ~26,000+ document nodes
 
 ## Key Classes
 
@@ -114,6 +130,9 @@ After a full corpus indexing:
 - `ScriptureStructure` (`scripture_structure.py`): Long-chain resolution (P1 Phase 3)
   - Volume → Division → Book → Part → Pericope hierarchy
   - `get_structural_entities()` / `get_structural_relations()` — 501 entities, 496 PART_OF relations
+- `ConferenceParser` (`conference_parser.py`): Conference talk HTML parser
+  - Extracts title, author (prefix-stripped), calling (normalized), date, content, notes, scripture refs
+  - Pipeline creates CITES, DELIVERED_BY, and CALLED_AS relations per talk
 
 ## API Endpoints
 

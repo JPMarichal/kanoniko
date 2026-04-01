@@ -14,6 +14,7 @@ from alejandria.config import settings
 from alejandria.ingestion.chunker import chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
 from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.conference_parser import ConferenceTalk, parse_conference_talk
 from alejandria.ingestion.scripture_meta import (
     build_chunk_reference,
     build_scripture_metadata,
@@ -109,6 +110,7 @@ class _FileData:
     auth_meta: object  # AuthorityMetadata
     full_text: str
     vectors: object | None = None  # NDArray set in phase 2
+    conference_talk: ConferenceTalk | None = None  # Parsed conference metadata
 
 
 class IngestionPipeline:
@@ -363,6 +365,15 @@ class IngestionPipeline:
             ref = build_chunk_reference(rel_path, chunk.text, text) if scripture_file else None
             chunk_references.append(ref)
 
+        # Parse conference talk metadata if applicable
+        conference_talk: ConferenceTalk | None = None
+        if _is_conference(rel_path) and abs_path.suffix.lower() in (".html", ".htm"):
+            try:
+                raw_html = abs_path.read_text(encoding="utf-8")
+                conference_talk = parse_conference_talk(raw_html, file_path=rel_path)
+            except Exception:
+                logger.warning("Failed to parse conference talk metadata: %s", rel_path, exc_info=True)
+
         # Build base metadata
         base_meta: dict = {"source": source, "file": rel_path}
         if lang:
@@ -370,6 +381,13 @@ class IngestionPipeline:
         if scripture_file:
             smeta = build_scripture_metadata(rel_path, chunks[0].text if chunks else "", text)
             base_meta.update({k: v for k, v in smeta.items() if k not in ("reference", "verse_start", "verse_end")})
+        if conference_talk:
+            base_meta["author"] = conference_talk.author
+            base_meta["title"] = conference_talk.title
+            if conference_talk.calling:
+                base_meta["calling"] = conference_talk.calling
+            if conference_talk.conference_date:
+                base_meta["conference_date"] = conference_talk.conference_date
 
         auth_meta = derive_authority(source, rel_path)
         base_meta["auth"] = auth_meta.to_dict()
@@ -391,6 +409,7 @@ class IngestionPipeline:
             rel_path=rel_path, abs_path=abs_path, file_hash=file_hash,
             source=source, lang=lang, chunks=chunks, chunk_ids=chunk_ids,
             chunk_references=chunk_references, auth_meta=auth_meta, full_text=text,
+            conference_talk=conference_talk,
         )
 
     def _index_file_data(self, fd: _FileData) -> None:
@@ -398,6 +417,16 @@ class IngestionPipeline:
         # Qdrant upsert (vectors were computed in phase 2)
         if self._semantic and _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
+            # Conference-specific payload fields
+            conf_fields: dict = {}
+            if fd.conference_talk:
+                ct = fd.conference_talk
+                conf_fields = {
+                    "author": ct.author,
+                    "title": ct.title,
+                    **({"calling": ct.calling} if ct.calling else {}),
+                    **({"conference_date": ct.conference_date} if ct.conference_date else {}),
+                }
             payloads = [
                 {
                     "text": c.text,
@@ -410,6 +439,7 @@ class IngestionPipeline:
                     "rigor": auth_dict["rigor"],
                     "importance": auth_dict["importance"],
                     "official": auth_dict["official"],
+                    **conf_fields,
                 }
                 for c, ref in zip(fd.chunks, fd.chunk_references)
             ]
@@ -446,6 +476,95 @@ class IngestionPipeline:
                         "to_name": rel.to_entity, "to_type": rel.to_type,
                         "props": {},
                     })
+
+            # Conference-specific KG enrichment: DELIVERED_BY + CITES
+            if fd.conference_talk:
+                ct = fd.conference_talk
+                # Speaker entity + DELIVERED_BY relation (talk → person)
+                if ct.author:
+                    speaker_key = (ct.author, "person")
+                    if speaker_key not in seen_ents:
+                        seen_ents.add(speaker_key)
+                        batch_ents.append({"name": ct.author, "type": "person", "aliases": []})
+                    batch_rels.append({
+                        "from_name": ct.title, "from_type": "talk",
+                        "rel_type": "DELIVERED_BY",
+                        "to_name": ct.author, "to_type": "person",
+                        "props": {
+                            "confidence": "metadata",
+                            **({"calling": ct.calling} if ct.calling else {}),
+                            **({"date": ct.conference_date} if ct.conference_date else {}),
+                        },
+                    })
+                    # Link speaker to document
+                    spk_lkey = (ct.author, "person", fd.rel_path)
+                    if spk_lkey not in seen_lnks:
+                        seen_lnks.add(spk_lkey)
+                        batch_lnks.append({"entity_name": ct.author, "entity_type": "person", "file_path": fd.rel_path})
+
+                # Talk entity (so DELIVERED_BY and CITES have a source node)
+                talk_key = (ct.title, "talk")
+                if talk_key not in seen_ents:
+                    seen_ents.add(talk_key)
+                    batch_ents.append({"name": ct.title, "type": "talk", "aliases": []})
+                talk_lkey = (ct.title, "talk", fd.rel_path)
+                if talk_lkey not in seen_lnks:
+                    seen_lnks.add(talk_lkey)
+                    batch_lnks.append({"entity_name": ct.title, "entity_type": "talk", "file_path": fd.rel_path})
+
+                # Conference event entity + talk PART_OF conference
+                if ct.conference_date:
+                    conf_name = _conference_event_name(ct.conference_date)
+                    conf_key = (conf_name, "conference")
+                    if conf_key not in seen_ents:
+                        seen_ents.add(conf_key)
+                        batch_ents.append({"name": conf_name, "type": "conference", "aliases": [ct.conference_date]})
+                    batch_rels.append({
+                        "from_name": ct.title, "from_type": "talk",
+                        "rel_type": "PART_OF",
+                        "to_name": conf_name, "to_type": "conference",
+                        "props": {"confidence": "metadata"},
+                    })
+
+                # CITES relations: talk → scripture_reference (with context from note)
+                for ref in ct.scripture_refs:
+                    ref_key = (ref, "scripture_reference")
+                    if ref_key not in seen_ents:
+                        seen_ents.add(ref_key)
+                        batch_ents.append({"name": ref, "type": "scripture_reference", "aliases": []})
+                    # Find the note text that contains this reference for context
+                    note_context = ""
+                    for note in ct.notes_raw:
+                        if ref in note:
+                            note_context = note
+                            break
+                    batch_rels.append({
+                        "from_name": ct.title, "from_type": "talk",
+                        "rel_type": "CITES",
+                        "to_name": ref, "to_type": "scripture_reference",
+                        "props": {
+                            "confidence": "metadata",
+                            **({"note_context": note_context[:500]} if note_context else {}),
+                            **({"date": ct.conference_date} if ct.conference_date else {}),
+                        },
+                    })
+
+                # Calling entity + CALLED_AS relation if available
+                if ct.calling:
+                    call_key = (ct.calling, "calling")
+                    if call_key not in seen_ents:
+                        seen_ents.add(call_key)
+                        batch_ents.append({"name": ct.calling, "type": "calling", "aliases": []})
+                    batch_rels.append({
+                        "from_name": ct.author, "from_type": "person",
+                        "rel_type": "CALLED_AS",
+                        "to_name": ct.calling, "to_type": "calling",
+                        "props": {
+                            "confidence": "metadata",
+                            **({"date": ct.conference_date} if ct.conference_date else {}),
+                        },
+                    })
+
             self._neo4j.batch_merge_entities(batch_ents)
             self._neo4j.batch_link_entities_to_document(batch_lnks)
             self._neo4j.batch_merge_relations(batch_rels)
@@ -1048,6 +1167,29 @@ def _extract_source(rel_path: str) -> str:
         return parts[1] if len(parts) > 2 else parts[0]
     # Legacy flat layout
     return parts[0] if len(parts) > 1 else "root"
+
+
+def _is_conference(rel_path: str) -> bool:
+    """Check if a file is a general conference talk by corpus path."""
+    parts = rel_path.replace("\\", "/").split("/")
+    return len(parts) >= 2 and "general-conference" in parts
+
+
+_MONTH_TO_SEASON = {"04": "April", "10": "October"}
+
+
+def _conference_event_name(date_str: str) -> str:
+    """Build a human-readable conference event name from 'YYYY-MM'.
+
+    >>> _conference_event_name("2024-10")
+    'General Conference October 2024'
+    >>> _conference_event_name("1971-04")
+    'General Conference April 1971'
+    """
+    parts = date_str.split("-")
+    year = parts[0] if parts else date_str
+    month = _MONTH_TO_SEASON.get(parts[1], parts[1]) if len(parts) > 1 else ""
+    return f"General Conference {month} {year}".strip()
 
 
 def _extract_lang(rel_path: str) -> str | None:
