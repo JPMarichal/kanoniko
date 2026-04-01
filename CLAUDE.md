@@ -104,6 +104,67 @@ When the user asks a theological, doctrinal, or scripture-content question:
 
 **Never:** launch a generic subagent to exhaustively search the corpus. The MCP tools are surgical — use them directly. Total tool calls for a corpus question should typically be 3-7, not 40+.
 
+## Backup & Disaster Recovery
+
+**SQLite is the source of truth.** From it alone, Qdrant (~5 min) and Neo4j (~3h) can be fully reconstructed.
+
+### Backup Endpoints (API running at :4300)
+| Endpoint | What it does |
+|----------|-------------|
+| `POST /backup/sqlite?label=manual` | Timestamped copy, rotates last 5 |
+| `POST /backup/qdrant` | Qdrant native snapshot |
+| `POST /backup/neo4j` | Cypher streaming export to JSON (~90s for 75K nodes + 4.5M rels) |
+| `GET /backup/sqlite` | List available SQLite backups |
+| `GET /backup/neo4j` | List available Neo4j backups |
+| `POST /backup/sqlite/restore?filename=...` | Restore SQLite from backup |
+| `POST /backup/neo4j/restore?filename=...` | Restore Neo4j from backup (clears graph first) |
+| `POST /index/rebuild-vectors` | Rebuild Qdrant from SQLite (no filesystem I/O) |
+
+### Automatic Pre-Index Backup
+The pipeline automatically backs up all three stores before any indexing run. No manual action needed.
+
+### What's Tracked in Git (disaster recovery baseline)
+| Asset | Location | Notes |
+|-------|----------|-------|
+| Source code | `src/`, `docker/`, `scripts/` | |
+| Corpus | `corpus/` | Bind-mounted, full text in git |
+| SQLite DB | `data/sqlite/alejandria.db` (85 MB) | FTS chunks + registry |
+| Gazetteers | `data/gazetteers/` | 7 NER assets, hard to rebuild |
+| Project memory | `docs/project-memory/` | Sync with `scripts/sync-memory.sh` before major commits |
+| Skills/hooks | `.claude/` | |
+| Secrets | **NOT in git** — backed up to `OneDrive/alejandria-secrets/.env` | |
+
+### Recovery Procedures
+- **SQLite lost:** `git checkout data/sqlite/alejandria.db` or restore from backup endpoint
+- **Qdrant lost:** `POST /index/rebuild-vectors` (~5 min on GPU)
+- **Neo4j lost:** `POST /backup/neo4j/restore?filename=...` or rebuild from SQLite via reindex (~3h)
+- **Full disaster:** Clone repo, copy `.env` from OneDrive, `docker compose up`, data is in git
+- **NEVER run full reindex casually** — it takes 7+ hours and deletes existing data first. Always use incremental.
+
+### Memory Sync
+Project memory lives in `~/.claude/projects/.../memory/` (24 files). Run `scripts/sync-memory.sh` to copy to `docs/project-memory/` before major commits so it's backed up in git.
+
+## GPU Docker (Native Docker Engine in Ubuntu WSL)
+
+Two independent Docker engines coexist:
+| | Rancher Desktop | Docker Engine nativo (GPU) |
+|---|---|---|
+| **WSL distro** | `rancher-desktop` | `Ubuntu-20.04` |
+| **GPU** | No | NVIDIA runtime (default) |
+| **Use** | Regular work (do NOT modify) | Alejandria GPU workloads |
+
+### GPU Stack Management
+```bash
+# From Windows (all commands go through gpu-up.sh):
+wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' up"
+wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' down"
+wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' status"
+```
+
+- Corpus is git-cloned to `/home/jpmarichal/alejandria-repo` on native Linux FS (~250x faster I/O)
+- `gpu-up.sh` auto-syncs via `git fetch` + `git reset --hard` before starting
+- Compose override: `docker/docker-compose.gpu.yml` + `docker/Dockerfile.gpu`
+
 ## SSL/Corporate Proxy Note
 
 The Dockerfile expects `docker/ca-certificates.crt` with your corporate CA certs for model downloads.
