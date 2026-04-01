@@ -60,6 +60,33 @@ Text ──→ Language ──┼── Contextual phrases (On, Put, So, No)
 
 **Shared** (excluded in both): `no, an, as`
 
+## NER → Gazetteer Feedback Loop
+
+Entities discovered by spaCy NER (Pass 2) that are not in the gazetteer are automatically
+tracked in SQLite (`ner_candidates` table) with frequency counts and sample source files.
+
+```
+spaCy NER discovery → SQLite ner_candidates table (frequency tracking)
+                          ↓ (manual review via API)
+                    POST /search/graph/ner-candidates/{name}/promote
+                          ↓
+                    entities.json updated ← feedback loop CLOSED
+                          ↓
+                    Next KGExtractor instance uses updated gazetteer
+```
+
+### API Endpoints
+- `GET /search/graph/ner-candidates` — list top candidates by frequency
+- `POST /search/graph/ner-candidates/{name}/promote?entity_type=person` — promote to gazetteer
+- `POST /search/graph/ner-candidates/{name}/dismiss?entity_type=person` — dismiss candidate
+
+When promoted, the entity is:
+1. Marked as `promoted` in SQLite
+2. **Written to `entities.json`** (the curated gazetteer file)
+3. Available to the next `KGExtractor` instance (no restart needed — each request creates fresh instance)
+
+Promoted entities are tracked in git via the pre-commit hook.
+
 ## Key Class
 
 `KGExtractor` (`knowledge/extractor.py`):
@@ -68,3 +95,9 @@ Text ──→ Language ──┼── Contextual phrases (On, Put, So, No)
 - `_compile_gazetteer_regex()` — Single compiled regex for all terms
 - `_build_lang_specific_lookup()` — Cross-language stopword lookups
 - `_extract_ner()` — spaCy NER with filtering
+
+`NERCandidateTracker` (`knowledge/ner_candidates.py`):
+- `record(name, type, source_file)` — track NER discovery
+- `promote(name, type)` — mark as promoted AND write to `entities.json`
+- `dismiss(name, type)` — mark as not useful
+- `get_top_candidates(min_frequency, limit)` — review candidates
