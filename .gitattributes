@@ -1,0 +1,16 @@
+# Normalize line endings to LF on commit, regardless of OS.
+# Prevents SHA-256 hash mismatches between Windows (CRLF) and Linux (LF) clones,
+# which caused a full re-hash of 17K+ files during incremental indexing.
+* text=auto eol=lf
+
+# Binary files — no conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.db binary
+*.sqlite binary
+*.whl binary
+*.tar.gz binary
+*.zip binary
