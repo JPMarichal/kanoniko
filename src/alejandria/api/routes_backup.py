@@ -90,10 +90,15 @@ def get_neo4j_backups() -> dict:
 
 @router.post("/neo4j/restore")
 def restore_neo4j_backup(filename: str) -> dict:
-    """Restore Neo4j graph from APOC JSON export.
+    """Restore Neo4j graph from JSON backup.
 
     WARNING: This clears the existing graph and imports from the backup.
     """
+    backups = list_neo4j_backups()
+    match = next((b for b in backups if b["file"] == filename), None)
+    if match is None:
+        raise HTTPException(404, f"Backup '{filename}' not found. Use GET /backup/neo4j to list.")
+
     result = restore_neo4j(filename)
     if result is None:
         raise HTTPException(500, "Neo4j restore failed")

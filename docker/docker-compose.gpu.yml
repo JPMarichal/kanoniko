@@ -23,7 +23,5 @@ services:
               capabilities: [gpu]
   neo4j:
     environment:
+      # APOC plugin for graph utilities (not needed for backup — backup uses Cypher streaming)
       - NEO4J_PLUGINS=["apoc"]
-    volumes:
-      # Backup export directory (APOC export writes here)
-      - /home/jpmarichal/alejandria-data/neo4j-backups:/backups
