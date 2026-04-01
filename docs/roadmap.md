@@ -90,3 +90,5 @@ Phase 6 has been decomposed into an incubator of independent projects. Each repr
 - **"Daughter" gazetteer noise**: Multiple "Daughter of X" entries cause false matches on the word "daughter"
 - **KG relation quality**: EXISTS_DURING relations contain garbage periods ("God. 17", "Jun. 38")
 - **Duplicate people profiles**: "House of Judah" and "the house of Judah" exist as separate entities
+- **Co-occurrence noise in conference talks**: spaCy NER creates BELONGS_TO relations with garbage targets (URLs, scripture refs as person, "Brethren", "Gospel Library"). Needs a cleanup pass or NER filter for conference source files
+- **Conference speaker dedup**: 1,156 speaker names may duplicate existing gazetteer persons (e.g., "Russell M Nelson" vs "Russell M. Nelson")

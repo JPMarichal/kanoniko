@@ -23,3 +23,5 @@
 - [reference_citation_norms.md](reference_citation_norms.md) — Formal citation norms in docs/citation-norms.md: scriptures, TG/BD/GEE/JST, intros, conference, FCD format
 - [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
 - [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
+- [feedback_batch_neo4j.md](feedback_batch_neo4j.md) — Always batch Neo4j writes (UNWIND); individual calls = 19h, batched = 30min
+- [vision_scripture_commentary.md](vision_scripture_commentary.md) — Conference talks as scripture commentary base: exegesis via precise citations, thematic cross-referencing
