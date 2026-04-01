@@ -1,0 +1,45 @@
+{
+  "title": "Sunday School",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/13-sunday-school?lang=eng",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "13.",
+  "sections": {
+    "13.1": "Purpose",
+    "13.2": "Ward Sunday School Leadership",
+    "13.2.1": "Bishopric",
+    "13.2.2": "Sunday School President",
+    "13.2.2.1": "Calling a Sunday School President",
+    "13.2.2.2": "Responsibilities",
+    "13.2.3": "Sunday School Teachers",
+    "13.3": "Sunday School Classes",
+    "13.3.1": "Small Branches",
+    "13.3.2": "Sunday School Classes for Specific Groups",
+    "13.4": "Improving Learning and Teaching in the Ward",
+    "13.5": "Improving Learning and Teaching in the Home",
+    "13.6": "Stake Sunday School Leaders",
+    "13.7": "Additional Guidelines",
+    "13.7.1": "Members with Disabilities",
+    "13.7.2": "Resource Center"
+  },
+  "cross_references": {
+    "13.2.2.2": [
+      "29.2.5",
+      "13.3"
+    ],
+    "13.2.3": [
+      "17.4"
+    ],
+    "13.4": [
+      "17.4"
+    ],
+    "13.5": [
+      "17.5"
+    ]
+  },
+  "scripture_references": [
+    "Doctrine and Covenants 88:77"
+  ]
+}

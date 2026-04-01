@@ -1,0 +1,700 @@
+{
+  "title": "Normas y pautas de la Iglesia",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/38-church-policies-and-guidelines?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "38",
+  "sections": {
+    "38.1": "La participación en la Iglesia",
+    "38.1.1": "La asistencia a las reuniones de la Iglesia",
+    "38.1.2": "Llegar a ser miembro de la Iglesia",
+    "38.1.3": "La adoración en el templo",
+    "38.1.4": "La participación y las bendiciones de los miembros no casados",
+    "38.1.5": "Padres solteros menores de dieciocho años",
+    "38.2": "Normas para las ordenanzas y las bendiciones",
+    "38.2.1": "Interpretación de ordenanzas y bendiciones a otro idioma",
+    "38.2.2": "Fotografías, grabaciones y transcripciones de ordenanzas y bendiciones",
+    "38.2.3": "Transmisión de las ordenanzas",
+    "38.2.4": "Ordenanzas para quienes tienen discapacidad intelectual",
+    "38.2.5": "Ordenanzas y bendiciones que efectúen o reciban quienes tienen discapacidades físicas",
+    "38.2.6": "Validar o ratificar ordenanzas",
+    "38.2.6.1": "No se creó una cédula de miembro, o falta el año o es incorrecto",
+    "38.2.6.2": "La información de las ordenanzas del templo de una persona viva es incorrecta o no aparece en su cédula de miembro",
+    "38.2.6.3": "Las ordenanzas se recibieron fuera de la secuencia debida",
+    "38.2.6.4": "La ordenanza se efectuó antes de la edad apropiada",
+    "38.2.6.5": "La ordenanza se efectuó sin la debida autoridad",
+    "38.2.6.6": "Una ordenanza del templo no coincide con el sexo biológico de la persona al nacer",
+    "38.2.7": "Dar un nombre y bendecir a los niños",
+    "38.2.7.1": "Recién nacidos que estén gravemente enfermos",
+    "38.2.7.2": "Niños cuyos padres no estén casados (incluso los divorciados)",
+    "38.2.7.3": "Niños cuyos padres no son miembros de la Iglesia",
+    "38.2.8": "El bautismo y la confirmación",
+    "38.2.8.1": "Personas con discapacidad intelectual",
+    "38.2.8.2": "Menores de edad",
+    "38.2.8.3": "Personas casadas",
+    "38.2.8.4": "Personas que cohabitan",
+    "38.2.8.5": "Personas a las que se les retiró la condición de miembro de la Iglesia o que renunciaron a ella",
+    "38.2.8.6": "Situaciones que requieren la autorización del presidente de misión o de la Primera Presidencia",
+    "38.2.8.7": "Personas condenadas por delitos",
+    "38.2.8.8": "Adultos que practican el matrimonio plural",
+    "38.2.8.9": "Personas que se identifican como transgénero",
+    "38.2.9": "La ordenación en el sacerdocio",
+    "38.2.9.1": "Miembros nuevos",
+    "38.2.9.2": "Hombres jóvenes cuyos padres no estén casados (incluso los divorciados)",
+    "38.2.9.3": "Futuros élderes",
+    "38.2.9.4": "Hermanos que se han cambiado de barrio en el último año",
+    "38.2.9.5": "Hermanos que vivan en barrios de jóvenes adultos solteros y de adultos solteros",
+    "38.2.9.6": "Militares que se encuentren de servicio en zonas de guerra o regiones aisladas",
+    "38.2.9.7": "Hermanos con discapacidad intelectual",
+    "38.2.9.8": "Hermanos que han sido readmitidos por medio del bautismo y de la confirmación",
+    "38.2.9.9": "Personas que se identifican como transgénero",
+    "38.2.10": "Las bendiciones patriarcales",
+    "38.2.10.1": "Miembros con discapacidad intelectual",
+    "38.2.10.2": "Misioneros",
+    "38.2.10.3": "Miembros que entran al servicio militar",
+    "38.2.10.4": "Miembros que no pertenecen a la estaca del patriarca",
+    "38.2.10.5": "La traducción de las bendiciones patriarcales",
+    "38.2.10.6": "Interpretación de las bendiciones patriarcales a la lengua de señas",
+    "38.2.10.7": "Bendiciones patriarcales de reemplazo",
+    "38.3": "El casamiento civil",
+    "38.3.1": "Quiénes pueden efectuar un casamiento civil",
+    "38.3.2": "Casamiento civil de miembros de otras unidades",
+    "38.3.3": "Casamiento civil de quienes no son miembros de la Iglesia",
+    "38.3.4": "Casamientos civiles efectuados en edificios de la Iglesia",
+    "38.3.5": "Casamientos civiles que deben ser efectuados por un funcionario público o que deben llevarse a cabo en un lugar público",
+    "38.3.6": "Ceremonia del casamiento civil",
+    "38.4": "Normas de sellamiento",
+    "38.4.1": "Sellamiento de esposo y esposa",
+    "38.4.1.1": "El sellamiento de miembros vivos tras el matrimonio civil",
+    "38.4.1.2": "El sellamiento de miembros en vida tras un divorcio",
+    "38.4.1.3": "El sellamiento de miembros en vida tras la muerte de un cónyuge",
+    "38.4.1.4": "Sellamiento de un miembro vivo a una persona fallecida con la que había cohabitado",
+    "38.4.1.5": "Solicitar una cancelación de sellamiento o una aprobación de sellamiento",
+    "38.4.1.6": "El levantamiento de la restricción de sellamiento en el templo",
+    "38.4.1.7": "El sellamiento tras haberse casado en el templo solo por esta vida",
+    "38.4.1.8": "El sellamiento de personas fallecidas",
+    "38.4.1.9": "Consecuencias del divorcio",
+    "38.4.1.10": "Consecuencias de la cancelación de sellamiento",
+    "38.4.1.11": "Consecuencias de la renuncia o del retiro de la condición de miembro de la Iglesia",
+    "38.4.2": "El sellamiento de hijos a padres",
+    "38.4.2.1": "Hijos nacidos en el convenio",
+    "38.4.2.2": "Hijos que no nacen en el convenio",
+    "38.4.2.3": "Hijos adoptivos o tutelados que viven",
+    "38.4.2.4": "Hijos adoptivos o tutelados que han fallecido",
+    "38.4.2.5": "El sellamiento de hijos vivos a uno de los padres biológicos y al padrastro o a la madrastra",
+    "38.4.2.6": "Hijos concebidos por inseminación artificial o por fertilización in vitro",
+    "38.4.2.7": "Hijos nacidos de madres subrogadas",
+    "38.4.2.8": "La situación de los hijos tras la cancelación o el retiro de un sellamiento",
+    "38.5": "La ropa del templo y los gárments",
+    "38.5.1": "La ropa del templo",
+    "38.5.2": "Obtener la ropa y los gárments del templo",
+    "38.5.3": "Los gárments y la ropa del templo para miembros que tienen discapacidades o alergias",
+    "38.5.4": "Modificaciones en la ropa ceremonial del templo",
+    "38.5.5": "El uso del gárment",
+    "38.5.6": "Cuidado del gárment",
+    "38.5.7": "El uso del gárment en el servicio militar, en los servicios de extinción de incendios, en las fuerzas del orden público o en una agencia similar",
+    "38.5.8": "Afecciones médicas que podrían impedir que los miembros usen el gárment",
+    "38.5.9": "Desechar los gárments y la ropa ceremonial del templo",
+    "38.5.10": "La ropa del templo para sepultar a los muertos",
+    "38.6": "Normas en cuanto a asuntos morales",
+    "38.6.1": "El aborto",
+    "38.6.2": "El abuso o maltrato",
+    "38.6.2.1": "La línea de ayuda para casos de abuso o maltrato",
+    "38.6.2.2": "Asesoramiento en casos de abuso o maltrato",
+    "38.6.2.3": "El abuso o maltrato de niños o jóvenes",
+    "38.6.2.4": "El abuso o maltrato de un cónyuge o de otro adulto",
+    "38.6.2.5": "Llamamientos de la Iglesia, recomendaciones para el templo y anotaciones en cédulas de miembro",
+    "38.6.2.6": "Los consejos de estaca y barrio",
+    "38.6.2.7": "Asuntos legales relativos al abuso o maltrato",
+    "38.6.3": "La inseminación artificial",
+    "38.6.4": "El control de la natalidad",
+    "38.6.5": "La castidad y la fidelidad",
+    "38.6.6": "La pornografía infantil",
+    "38.6.7": "Donar o vender semen u óvulos",
+    "38.6.8": "La mutilación genital femenina",
+    "38.6.9": "Los tratamientos de fertilidad",
+    "38.6.10": "El incesto",
+    "38.6.11": "Fertilización in vitro",
+    "38.6.12": "El ocultismo",
+    "38.6.13": "La pornografía",
+    "38.6.14": "Los prejuicios",
+    "38.6.15": "La atracción hacia personas del mismo sexo y el comportamiento homosexual",
+    "38.6.16": "El matrimonio entre personas del mismo sexo",
+    "38.6.17": "La educación sexual",
+    "38.6.18": "El abuso o maltrato sexual, la violación y otras formas de agresión sexual",
+    "38.6.18.1": "La línea de ayuda para casos de abuso o maltrato",
+    "38.6.18.2": "Aconsejar a las víctimas de abuso o maltrato sexual, violación y otras formas de agresión sexual",
+    "38.6.18.3": "Los consejos de membresía",
+    "38.6.19": "Padres solteros que van a tener un hijo",
+    "38.6.20": "El suicidio",
+    "38.6.21": "La esterilización quirúrgica (incluso la vasectomía)",
+    "38.6.22": "La maternidad subrogada",
+    "38.6.23": "Personas que se identifican como transgénero",
+    "38.7": "Normas relativas a la atención médica y la salud",
+    "38.7.1": "Las autopsias",
+    "38.7.2": "El entierro o la cremación",
+    "38.7.3": "Los niños que mueren antes de nacer (mortinatos o abortos espontáneos)",
+    "38.7.4": "La eutanasia",
+    "38.7.5": "El contagio del VIH y del sida",
+    "38.7.6": "La hipnosis",
+    "38.7.7": "Las personas cuyo sexo no está definido en el momento de nacer",
+    "38.7.8": "El cuidado médico y de la salud",
+    "38.7.9": "La marihuana medicinal",
+    "38.7.10": "La donación y el trasplante de órganos y tejidos",
+    "38.7.11": "La prolongación de la vida, incluso el soporte vital",
+    "38.7.12": "Los grupos que promueven la autopercepción",
+    "38.7.13": "Las vacunas",
+    "38.7.14": "La Palabra de Sabiduría y las prácticas saludables",
+    "38.8": "Normas administrativas",
+    "38.8.1": "La adopción y la tutela",
+    "38.8.2": "El fraude por afinidad",
+    "38.8.3": "Materiales audiovisuales",
+    "38.8.4": "Autógrafos y fotografías de Autoridades Generales, Oficiales Generales y Setentas de Área",
+    "38.8.5": "Negocios y empresas",
+    "38.8.6": "Cuidar de la tierra",
+    "38.8.7": "Los empleados de la Iglesia",
+    "38.8.8": "Las revistas de la Iglesia",
+    "38.8.9": "El nombre, el logotipo y el símbolo de la Iglesia",
+    "38.8.10": "Comunicaciones de empleados y voluntarios de la Iglesia a los presidentes de estaca y obispos",
+    "38.8.11": "Las computadoras",
+    "38.8.12": "Materiales con derechos de autor",
+    "38.8.13": "Materiales de los cursos de estudio",
+    "38.8.14": "Los directorios",
+    "38.8.15": "El modo de vestir y la apariencia",
+    "38.8.16": "La preparación extrema o la supervivencia",
+    "38.8.17": "El día de ayuno",
+    "38.8.18": "Los juegos de azar, las apuestas y las loterías",
+    "38.8.19": "Los discursantes o instructores invitados",
+    "38.8.20": "La inmigración",
+    "38.8.21": "Internet",
+    "38.8.21.1": "Los recursos oficiales de la Iglesia en internet",
+    "38.8.21.2": "El uso de internet por parte de los miembros para los llamamientos de la Iglesia",
+    "38.8.21.3": "El uso personal de internet y de las redes sociales",
+    "38.8.22": "Los equipos de internet, satélite y video",
+    "38.8.23": "Las leyes del país",
+    "38.8.24": "El asesoramiento legal en asuntos de la Iglesia",
+    "38.8.24.1": "La participación o los documentos en procedimientos legales",
+    "38.8.24.2": "Declarar en procedimientos legales",
+    "38.8.25": "El uso de los buzones particulares de correo postal",
+    "38.8.26": "La comunicación de los miembros con las Oficinas Generales de la Iglesia",
+    "38.8.27": "El empleo de los miembros",
+    "38.8.28": "Los miembros con discapacidades",
+    "38.8.28.1": "Una mayor concienciación y comprensión",
+    "38.8.28.2": "Dar ayuda",
+    "38.8.28.3": "Proporcionar ordenanzas",
+    "38.8.28.4": "Dar oportunidades de servir y de participar",
+    "38.8.28.5": "Organizar clases, programas o unidades especiales",
+    "38.8.28.6": "Intérpretes para miembros sordos o con discapacidad auditiva",
+    "38.8.28.7": "La privacidad",
+    "38.8.28.8": "Los animales de servicio",
+    "38.8.28.9": "El especialista en discapacidades",
+    "38.8.28.10": "Recursos",
+    "38.8.29": "Ministrar a los miembros afectados por el crimen y el encarcelamiento",
+    "38.8.30": "Otras religiones",
+    "38.8.31": "La participación política y cívica",
+    "38.8.32": "La privacidad de los miembros",
+    "38.8.33": "Las publicaciones privadas",
+    "38.8.34": "La grabación, transcripción o transmisión de mensajes de Autoridades Generales, Oficiales Generales y Setentas de Área",
+    "38.8.35": "Las referencias a la Iglesia y sus miembros",
+    "38.8.36": "Los refugiados",
+    "38.8.37": "Las peticiones para solicitar ayuda económica a la Iglesia",
+    "38.8.38": "Los estudios de investigación en la Iglesia",
+    "38.8.39": "Respetar las restricciones locales en cuanto a compartir el Evangelio",
+    "38.8.40": "La seguridad en las operaciones de bienestar y autosuficiencia de la Iglesia",
+    "38.8.41": "Las Escrituras",
+    "38.8.41.1": "Ediciones y traducciones de la Santa Biblia",
+    "38.8.41.2": "Traducción de las Escrituras",
+    "38.8.41.3": "Escrituras simplificadas o modernizadas",
+    "38.8.41.4": "Acceso a las Escrituras",
+    "38.8.42": "Procurar información de fuentes confiables",
+    "38.8.43": "Los seminarios y otras reuniones similares",
+    "38.8.44": "Proporcionar apoyo a los miembros que estén en el hospital o en una residencia de ancianos",
+    "38.8.45": "Actividades sujetas a impuestos",
+    "38.8.46": "Los impuestos",
+    "38.8.47": "Normas de viajes",
+    "38.8.48": "El uso apropiado de la inteligencia artificial",
+    "38.8.48.1": "El aprendizaje y la enseñanza",
+    "38.8.48.2": "La relación con Dios y con los demás",
+    "38.8.48.3": "Llamamientos y asignaciones",
+    "38.9": "Las relaciones militares y los servicios de capellanes",
+    "38.9.1": "Los líderes de estaca en las relaciones militares",
+    "38.9.1.1": "Servicios de la Iglesia en instalaciones militares",
+    "38.9.1.2": "Capellanes Santos de los Últimos Días en estacas",
+    "38.9.2": "Los líderes de barrio en las relaciones militares",
+    "38.9.3": "La orientación para el servicio militar",
+    "38.9.4": "Las unidades de la Iglesia para los miembros en el servicio militar",
+    "38.9.5": "Los líderes de grupo en áreas remotas o en zonas de guerra",
+    "38.9.6": "El servicio misional y la obligación militar",
+    "38.9.7": "Los capellanes Santos de los Últimos Días",
+    "38.9.8": "El uso del gárment en el servicio militar",
+    "38.9.9": "Los matrimonios misioneros",
+    "38.9.10": "Otra información"
+  },
+  "cross_references": {
+    "38.1.2": [
+      "38.2.8.2"
+    ],
+    "38.2.1": [
+      "38.2.10.5",
+      "38.2.10.6"
+    ],
+    "38.2.2": [
+      "38.2.3"
+    ],
+    "38.2.3": [
+      "18.9.1"
+    ],
+    "38.2.5": [
+      "38.2.1"
+    ],
+    "38.2.6": [
+      "38.2.6.2"
+    ],
+    "38.2.6.1": [
+      "38.2.6.2"
+    ],
+    "38.2.6.4": [
+      "38.2.6.2"
+    ],
+    "38.2.6.5": [
+      "38.2.6.3"
+    ],
+    "38.2.6.6": [
+      "28.2"
+    ],
+    "38.2.7": [
+      "18.6"
+    ],
+    "38.2.8.1": [
+      "18.7.1.1",
+      "18.7.1.2",
+      "33.6.10"
+    ],
+    "38.2.8.5": [
+      "32.16"
+    ],
+    "38.2.8.6": [
+      "38.2.8.7",
+      "38.6.1",
+      "38.2.8.8",
+      "38.2.8.9",
+      "6.2.3"
+    ],
+    "38.2.8.7": [
+      "38.2.8.6"
+    ],
+    "38.2.8.9": [
+      "38.6.23"
+    ],
+    "38.2.9": [
+      "18.10"
+    ],
+    "38.2.9.1": [
+      "26.5.1",
+      "18.10.3",
+      "38.2.9.3"
+    ],
+    "38.2.9.3": [
+      "31.2.6",
+      "8.4"
+    ],
+    "38.2.9.8": [
+      "32.17"
+    ],
+    "38.2.9.9": [
+      "38.6.23"
+    ],
+    "38.3.2": [
+      "38.3.1"
+    ],
+    "38.3.4": [
+      "35.5.3",
+      "29.7"
+    ],
+    "38.4.1.2": [
+      "38.4.1.5"
+    ],
+    "38.4.1.3": [
+      "38.4.1.5",
+      "38.4.1.8",
+      "38.4.1.2"
+    ],
+    "38.4.1.5": [
+      "38.4.1.2",
+      "38.4.1.3",
+      "6.2.3",
+      "38.4.1.10"
+    ],
+    "38.4.1.6": [
+      "6.2.3",
+      "38.4.1.5"
+    ],
+    "38.4.1.7": [
+      "6.2.3",
+      "27.3.3"
+    ],
+    "38.4.1.8": [
+      "38.4.1.3",
+      "28.3.5"
+    ],
+    "38.4.1.9": [
+      "38.4.2.1"
+    ],
+    "38.4.1.10": [
+      "38.4.2.8"
+    ],
+    "38.4.1.11": [
+      "38.4.2.8"
+    ],
+    "38.4.2": [
+      "38.4.1"
+    ],
+    "38.4.2.2": [
+      "38.4.2.5",
+      "27.4.1",
+      "38.4.2.4"
+    ],
+    "38.4.2.3": [
+      "27.1.2",
+      "6.2.3"
+    ],
+    "38.4.2.5": [
+      "27.1.2",
+      "27.4.1"
+    ],
+    "38.4.2.7": [
+      "38.6.22"
+    ],
+    "38.5.4": [
+      "38.5.3"
+    ],
+    "38.5.5": [
+      "26.4"
+    ],
+    "38.6.1": [
+      "32.6.2.5"
+    ],
+    "38.6.2.1": [
+      "38.6.2.7"
+    ],
+    "38.6.2.2": [
+      "38.6.2.3",
+      "31.3.6",
+      "38.6.2.1",
+      "38.6.18.2"
+    ],
+    "38.6.2.3": [
+      "38.6.6"
+    ],
+    "38.6.2.5": [
+      "32.14.5"
+    ],
+    "38.6.2.6": [
+      "38.6.2"
+    ],
+    "38.6.2.7": [
+      "38.6.2.1"
+    ],
+    "38.6.3": [
+      "38.6.9"
+    ],
+    "38.6.4": [
+      "2.1.2",
+      "2.1.3"
+    ],
+    "38.6.5": [
+      "32.6.2",
+      "38.6.13",
+      "32.7",
+      "32.6.1.2",
+      "32.8"
+    ],
+    "38.6.6": [
+      "38.6.13"
+    ],
+    "38.6.7": [
+      "2.1.3",
+      "38.6.9"
+    ],
+    "38.6.9": [
+      "2.1.3",
+      "38.4.2.6"
+    ],
+    "38.6.10": [
+      "38.6.2.1",
+      "38.6.18.2"
+    ],
+    "38.6.11": [
+      "38.6.9"
+    ],
+    "38.6.13": [
+      "32.8",
+      "38.6.5",
+      "38.6.6",
+      "31.3.6"
+    ],
+    "38.6.15": [
+      "38.6.5",
+      "31.3.6"
+    ],
+    "38.6.17": [
+      "2.1.2"
+    ],
+    "38.6.18": [
+      "38.6.2.3",
+      "38.6.18.2"
+    ],
+    "38.6.18.1": [
+      "38.6.2.1"
+    ],
+    "38.6.18.2": [
+      "38.6.18.1",
+      "31.3.6"
+    ],
+    "38.6.18.3": [
+      "32.6.1.1",
+      "38.6.2.2",
+      "38.6.18.2"
+    ],
+    "38.6.19": [
+      "31.3.6"
+    ],
+    "38.6.21": [
+      "38.6.4"
+    ],
+    "38.6.22": [
+      "2.1.3",
+      "38.4.2.7"
+    ],
+    "38.6.23": [
+      "38.7.7",
+      "38.2.8.9",
+      "38.2.9.9",
+      "26.5.6",
+      "38.1.1",
+      "22.2.3"
+    ],
+    "38.7.2": [
+      "38.5.10",
+      "29.5.4"
+    ],
+    "38.7.4": [
+      "38.7.11"
+    ],
+    "38.7.8": [
+      "18.13"
+    ],
+    "38.7.9": [
+      "38.7.14"
+    ],
+    "38.7.12": [
+      "22.3.4"
+    ],
+    "38.8.1": [
+      "31.3.6",
+      "38.6.19"
+    ],
+    "38.8.3": [
+      "38.8.11"
+    ],
+    "38.8.4": [
+      "29.8"
+    ],
+    "38.8.5": [
+      "38.8.31"
+    ],
+    "38.8.8": [
+      "7.3"
+    ],
+    "38.8.15": [
+      "18.9.3",
+      "27.1.5",
+      "38.1.1"
+    ],
+    "38.8.16": [
+      "22.1"
+    ],
+    "38.8.17": [
+      "22.2.2"
+    ],
+    "38.8.19": [
+      "35.5"
+    ],
+    "38.8.21.1": [
+      "38.8.8"
+    ],
+    "38.8.21.2": [
+      "38.8.8",
+      "38.8.11"
+    ],
+    "38.8.21.3": [
+      "38.6.14"
+    ],
+    "38.8.26": [
+      "31.3"
+    ],
+    "38.8.28.2": [
+      "38.8.27.9",
+      "31.3.6"
+    ],
+    "38.8.28.3": [
+      "38.2.4"
+    ],
+    "38.8.28.4": [
+      "38.8.27.5",
+      "29.7",
+      "18.9.3"
+    ],
+    "38.8.28.5": [
+      "37.6",
+      "37.1",
+      "33.6.11",
+      "13.3.2",
+      "38.8.27.9"
+    ],
+    "38.8.28.6": [
+      "38.2.1"
+    ],
+    "38.8.28.9": [
+      "38.8.27.10"
+    ],
+    "38.8.31": [
+      "35.5.6.3"
+    ],
+    "38.8.34": [
+      "29.7"
+    ],
+    "38.8.37": [
+      "22.3.2"
+    ],
+    "38.8.44": [
+      "18.9.1",
+      "37.6"
+    ],
+    "38.8.46": [
+      "32.6.1.5"
+    ],
+    "38.8.47": [
+      "20.7.7"
+    ],
+    "38.8.48.3": [
+      "31.3.6"
+    ],
+    "38.9.1": [
+      "38.9.3"
+    ],
+    "38.9.1.1": [
+      "38.9.4"
+    ],
+    "38.9.2": [
+      "38.9.3",
+      "33.6.9",
+      "38.9.10"
+    ],
+    "38.9.4": [
+      "37.7"
+    ],
+    "38.9.5": [
+      "38.9.10",
+      "38.9.1.1"
+    ],
+    "38.9.8": [
+      "38.5.7"
+    ],
+    "38.9.10": [
+      "33.6.9",
+      "38.2.10.3",
+      "38.2.9.6",
+      "26.3.4"
+    ]
+  },
+  "scripture_references": [
+    "2 Nefi 26:33",
+    "Mateo 22:39",
+    "Efesios 2:19",
+    "Doctrina y Convenios 46:3",
+    "Doctrina y Convenios 20:37",
+    "Mosíah 2:41)",
+    "Doctrina y Convenios 137:10",
+    "Doctrina y Convenios 29:46–50",
+    "Doctrina y Convenios 64:34",
+    "véanse Moisés 1:39",
+    "Abraham 3:23–26",
+    "Doctrina y Convenios 59:6",
+    "2 Corintios 7:10",
+    "3 Nefi 9:20",
+    "3 Nefi 18:32",
+    "Alma 15:8",
+    "3 Nefi 17:9",
+    "Lucas 17:2",
+    "Éxodo 20:14",
+    "Mateo 5:28",
+    "Alma 39:5",
+    "Doctrina y Convenios 50:24",
+    "Moroni 7:11–17",
+    "La Familia: Una Proclamación para el Mundo",
+    "Hechos 17:26",
+    "Jacob 2:21",
+    "Mateo 22:35–39",
+    "Mosíah 2:41",
+    "1 Samuel 16:7",
+    "Doctrina y Convenios 137:9",
+    "Genesis 1:27",
+    "Alma 11:42–45",
+    "Santiago 5:14",
+    "2 Nefi 9:6",
+    "Alma 42:8",
+    "Doctrina y Convenios 89",
+    "1 Corintios 6:19–20",
+    "Doctrina y Convenios 89:18–21",
+    "Génesis 1:1",
+    "Doctrina y Convenios 104:13–14",
+    "Génesis 1:26–27",
+    "Abraham 4:27",
+    "Juan 13:34–35",
+    "Doctrina y Convenios 58:21)",
+    "Mateo 25:35",
+    "3 Nefi 11:29–30",
+    "Doctrina y Convenios 136:23",
+    "Doctrina y Convenios 58:21–22",
+    "Artículos de Fe 1:12",
+    "Juan 9:2–3",
+    "Doctrina y Convenios 46:15",
+    "Lucas 2:52",
+    "Mateo 25:34–36, 40",
+    "Doctrina y Convenios 98:10",
+    "Doctrina y Convenios 115:4",
+    "Mosíah 4:26",
+    "Mateo 28:19",
+    "Artículos de Fe 1:8",
+    "Doctrina y Convenios 42:56",
+    "3 Nefi 11:30",
+    "Mosíah 2:32",
+    "Doctrina y Convenios 11:12",
+    "45:57",
+    "Jacob 6:12",
+    "Doctrina y Convenios 134:5",
+    "Mateo 7:28–29",
+    "Mateo 4:3–10",
+    "Lucas 6:12",
+    "Juan 8:28",
+    "12:49–50",
+    "Doctrina y Convenios 42:11–17",
+    "52:9",
+    "Doctrina y Convenios 84:85",
+    "88:118",
+    "Doctrina y Convenios 8:2–3",
+    "11:12–14",
+    "Alma 17:2–3",
+    "Doctrina y Convenios 50:17–22",
+    "Mateo 3:17",
+    "Juan 17",
+    "Mateo 6:9–13",
+    "3 Nefi 27:13",
+    "Lucas 2:52",
+    "Juan 4:5–30",
+    "Lucas 24:13–35"
+  ]
+}

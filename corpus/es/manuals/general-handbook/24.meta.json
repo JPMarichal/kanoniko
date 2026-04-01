@@ -1,0 +1,183 @@
+{
+  "title": "Recomendación y servicio misional",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/24?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "24.",
+  "sections": {
+    "24.0": "Introducción",
+    "24.1": "El llamado a servir",
+    "24.2": "Las asignaciones misionales",
+    "24.2.1": "Los misioneros de enseñanza jóvenes",
+    "24.2.2": "Los misioneros de servicio jóvenes",
+    "24.2.3": "Los misioneros mayores",
+    "24.2.4": "Los misioneros de servicio mayores",
+    "24.2.5": "Resumen de asignaciones misionales",
+    "24.3": "Prepararse y cumplir los requisitos para servir en una misión",
+    "24.3.1": "La conversión a Jesucristo",
+    "24.3.2": "Cumplir las normas de dignidad",
+    "24.3.2.1": "El arrepentimiento",
+    "24.3.2.2": "Las confesiones tardías",
+    "24.3.3": "La salud física, mental y emocional",
+    "24.3.4": "Las finanzas",
+    "24.3.4.1": "Financiar a los misioneros jóvenes que prestan servicio fuera de casa",
+    "24.3.4.2": "Financiar a los misioneros mayores que prestan servicio fuera de casa",
+    "24.3.4.3": "Financiar a los misioneros que prestan servicio en casa",
+    "24.3.4.4": "Los seguros y gastos médicos",
+    "24.3.5": "La función de los familiares y los líderes en la preparación de los misioneros",
+    "24.4": "Recomendar a misioneros",
+    "24.4.1": "Las evaluaciones de salud",
+    "24.4.2": "Las entrevistas y los formularios de recomendación",
+    "24.4.3": "Enviar las recomendaciones",
+    "24.4.4": "Quienes no pueden servir como misioneros de tiempo completo",
+    "24.5": "Después de recibir un llamamiento misional",
+    "24.5.1": "La investidura y el servicio en el templo",
+    "24.5.2": "Las reuniones sacramentales",
+    "24.5.3": "El apartamiento de los misioneros",
+    "24.6": "Prestar servicio fuera de casa",
+    "24.6.1": "Marcharse al campo misional",
+    "24.6.2": "En el campo",
+    "24.6.2.1": "El lugar de asignación de los misioneros",
+    "24.6.2.2": "El servicio a los miembros y a la comunidad",
+    "24.6.2.3": "Vivienda, comida y transporte",
+    "24.6.2.4": "Los misioneros que desempeñan funciones en las ramas",
+    "24.6.2.5": "Solicitudes de apoyo financiero a otras personas, o con fines de formación académica o emigración",
+    "24.6.2.6": "Medicamentos",
+    "24.6.2.7": "Fallecimiento de un familiar directo",
+    "24.6.2.8": "Los registros de miembros y los diezmos",
+    "24.6.3": "Regresar a casa después de la misión",
+    "24.6.3.1": "Regresar a casa según se programó en un principio",
+    "24.6.3.2": "Regresar a casa antes de tiempo",
+    "24.7": "Los misioneros de servicio",
+    "24.7.1": "Determinar oportunidades para los misioneros de servicio",
+    "24.7.2": "Vivienda y transporte",
+    "24.7.3": "Capacitación y supervisión",
+    "24.7.4": "Los misioneros de servicio en llamamientos de barrio o estaca",
+    "24.7.5": "Finalizar una asignación misional de servicio",
+    "24.8": "Después del servicio misional",
+    "24.8.1": "Las recomendaciones para el templo",
+    "24.8.1.1": "Los misioneros jóvenes que prestan servicio fuera de casa",
+    "24.8.1.2": "Los misioneros mayores que prestan servicio fuera de casa",
+    "24.8.1.3": "Los misioneros de servicio",
+    "24.8.2": "La entrevista de relevo de los misioneros",
+    "24.8.3": "Los informes misionales y los discursos de misioneros en la reunión sacramental",
+    "24.8.4": "Llamamientos",
+    "24.9": "Recursos para Recomendación y servicio misional",
+    "24.9.1": "Manuales y formularios",
+    "24.9.2": "Sitios web",
+    "24.9.3": "Información de contacto"
+  },
+  "cross_references": {
+    "24.2.2": [
+      "24.3.3",
+      "24.7.3",
+      "24.7.1",
+      "24.2.4"
+    ],
+    "24.2.3": [
+      "24.3.4.2"
+    ],
+    "24.2.4": [
+      "24.7.1",
+      "24.7"
+    ],
+    "24.2.5": [
+      "24.2.1",
+      "24.2.2",
+      "24.2.3",
+      "24.2.4"
+    ],
+    "24.3.2.1": [
+      "32.6"
+    ],
+    "24.3.2.2": [
+      "24.6.3.2"
+    ],
+    "24.3.3": [
+      "31.3.6"
+    ],
+    "24.3.4.1": [
+      "24.9.3",
+      "34.3.3"
+    ],
+    "24.4.2": [
+      "24.3.3",
+      "24.3.4",
+      "24.3.1",
+      "24.3.2",
+      "24.3.2.1",
+      "24.9.3"
+    ],
+    "24.5.1": [
+      "27.2",
+      "25.5"
+    ],
+    "24.5.3": [
+      "18.10",
+      "24.9.3",
+      "24.6.3.2"
+    ],
+    "24.6.2.5": [
+      "38.8.19"
+    ],
+    "24.6.3.2": [
+      "24.7.5",
+      "24.9.3"
+    ],
+    "24.7.5": [
+      "24.6.3.2"
+    ],
+    "24.8.1.1": [
+      "26.5.2"
+    ],
+    "24.8.1.3": [
+      "26.3.2"
+    ],
+    "24.8.4": [
+      "25.5"
+    ]
+  },
+  "scripture_references": [
+    "Mateo 28:19",
+    "versículo 20",
+    "Doctrina y Convenios 39:11",
+    "68:6–8",
+    "112:28–30",
+    "Mosíah 18:8–10",
+    "Doctrina y Convenios 18:14–16",
+    "Doctrina y Convenios 36:1, 4–7",
+    "Mateo 16:25",
+    "22:36–40",
+    "Doctrina y Convenios 4:2, 5",
+    "versículos 1–7",
+    "Doctrina y Convenios 42:11",
+    "Artículos de Fe 1:5",
+    "Doctrina y Convenios 80:3",
+    "Alma 5:45–47",
+    "Alma 13:10",
+    "2 Nefi 31:9–21",
+    "Alma 17:2–3",
+    "Doctrina y Convenios 109:22",
+    "Doctrina y Convenios 42:13–14",
+    "Helamán 4:24",
+    "Doctrina y Convenios 38:42",
+    "Doctrina y Convenios 18:13",
+    "Isaías 43:25",
+    "Jacob 6:5",
+    "Alma 34:15–17",
+    "Helamán 5:10–11",
+    "Doctrina y Convenios 58:42–43",
+    "Doctrina y Convenios 20:37",
+    "Alma 17:5",
+    "26:27–28, 30",
+    "Marcos 1:17–18",
+    "Alma 15:16",
+    "Doctrina y Convenios 31:5–6",
+    "El Libro de Mormón",
+    "Mosíah 4:30",
+    "Doctrina y Convenios 43:15–16",
+    "105:33"
+  ]
+}

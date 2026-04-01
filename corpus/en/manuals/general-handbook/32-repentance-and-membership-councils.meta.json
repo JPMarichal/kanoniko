@@ -1,0 +1,382 @@
+{
+  "title": "Repentance and Church Membership Councils",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/32-repentance-and-membership-councils?lang=eng",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "32.",
+  "sections": {
+    "32.0": "Introduction",
+    "32.1": "Repentance and Forgiveness",
+    "32.2": "Purposes of Church Membership Restrictions or Withdrawal",
+    "32.2.1": "Help Protect Others",
+    "32.2.2": "Help a Person Access the Redeeming Power of Jesus Christ through Repentance",
+    "32.2.3": "Protect the Integrity of the Church",
+    "32.3": "The Role of Judges in Israel",
+    "32.4": "Confession, Confidentiality, and Reporting to Government Authorities",
+    "32.4.1": "Confession",
+    "32.4.2": "Serious Sins That Are Not Confessed or Are Denied",
+    "32.4.3": "Gathering Information",
+    "32.4.4": "Confidentiality",
+    "32.4.5": "Reporting to Government Authorities",
+    "32.5": "Settings for Helping a Person Repent",
+    "32.5.1": "Overview of the Settings",
+    "32.5.2": "Determining the Setting and Timing",
+    "32.6": "Severity of the Sin and Church Policy",
+    "32.6.1": "When a Membership Council Is Required",
+    "32.6.1.1": "Violent Acts and Abuse",
+    "32.6.1.2": "Sexual Immorality",
+    "32.6.1.3": "Fraudulent Acts",
+    "32.6.1.4": "Violations of Trust",
+    "32.6.1.5": "Some Other Acts",
+    "32.6.2": "When a Membership Council May Be Necessary",
+    "32.6.2.1": "Violent Acts and Abuse",
+    "32.6.2.2": "Sexual Immorality",
+    "32.6.2.3": "Fraudulent Acts",
+    "32.6.2.4": "Violations of Trust",
+    "32.6.2.5": "Some Other Acts",
+    "32.6.3": "When the Stake President Counsels with the Area Presidency about Whether a Membership Council or Other Action Is Necessary",
+    "32.6.3.1": "Other Action",
+    "32.6.3.2": "Apostasy",
+    "32.6.3.3": "Embezzling Church Funds",
+    "32.6.3.4": "Misuse of Personal Data",
+    "32.6.3.5": "Individuals Who Identify as Transgender",
+    "32.6.4": "When a Membership Council Is Not Normally Necessary",
+    "32.6.4.1": "Failure to Comply with Some Church Standards",
+    "32.6.4.2": "Business Failures or Nonpayment of Debts",
+    "32.6.4.3": "Civil Disputes",
+    "32.7": "Circumstances of the Person",
+    "32.7.1": "Magnitude of the Sin",
+    "32.7.2": "Interests of the Victim",
+    "32.7.3": "Evidence of Repentance",
+    "32.7.4": "Violation of Temple Covenants",
+    "32.7.5": "Position of Trust or Authority",
+    "32.7.6": "Repetition",
+    "32.7.7": "Age, Maturity, and Experience",
+    "32.7.8": "Mental Capacity",
+    "32.7.9": "Voluntary Confession",
+    "32.7.10": "Time between Sin and Confession",
+    "32.7.11": "Sins Involving Members Who Live in Different Wards or Stakes",
+    "32.8": "Personal Counseling and Informal Membership Restrictions",
+    "32.8.1": "Personal Counseling",
+    "32.8.2": "Helping People Address Addictions and Pornography Use",
+    "32.8.3": "Informal Membership Restrictions",
+    "32.9": "Participation and Responsibility",
+    "32.9.1": "Stake President",
+    "32.9.2": "High Council",
+    "32.9.3": "Bishop (or Branch President in a Stake)",
+    "32.9.4": "Mission President",
+    "32.9.5": "District or Branch President in a Mission",
+    "32.9.6": "Stake or Ward Clerk",
+    "32.9.7": "Participation in Unusual Circumstances",
+    "32.9.8": "Determining Which Leader Holds a Council in Special Circumstances",
+    "32.10": "Procedures for Membership Councils",
+    "32.10.1": "Give Notice and Prepare for the Council",
+    "32.10.2": "Obtain Statements from Victims",
+    "32.10.3": "Conduct the Council",
+    "32.11": "Decisions from Membership Councils",
+    "32.11.1": "Remains in Good Standing",
+    "32.11.2": "Personal Counseling with the Bishop or Stake President",
+    "32.11.3": "Formal Membership Restrictions",
+    "32.11.4": "Withdrawal of Membership",
+    "32.11.5": "Questions about Deciding Difficult Matters",
+    "32.11.6": "First Presidency Authority",
+    "32.12": "Notifications and Announcements",
+    "32.12.1": "Notifying a Person of the Decision",
+    "32.12.2": "Informing Others about a Decision",
+    "32.12.3": "Communicating Resignation of Membership",
+    "32.13": "Appeal of a Decision",
+    "32.14": "Reports and Membership Records",
+    "32.14.1": "Report of Church Membership Council",
+    "32.14.2": "Formal Church Membership Restrictions",
+    "32.14.3": "Records after a Person’s Church Membership Is Withdrawn",
+    "32.14.4": "Records after Readmission to the Church",
+    "32.14.5": "Membership Records with Annotations",
+    "32.14.6": "Reporting Theft of Church Funds",
+    "32.14.7": "Move Restrictions on Membership Records",
+    "32.14.8": "Records of Those Who Are Incarcerated",
+    "32.14.9": "Requests to Resign Membership",
+    "32.15": "Continue to Minister",
+    "32.16": "Removing Formal Restrictions or Being Readmitted to the Church",
+    "32.16.1": "Membership Councils to Remove Formal Restrictions or Readmit a Person",
+    "32.16.2": "Being Readmitted after Resigning Church Membership",
+    "32.17": "Church Activity, Ordination, and Restoration of Blessings after Readmission",
+    "32.17.1": "Church Activity and Ordination",
+    "32.17.2": "Restoration of Blessings"
+  },
+  "cross_references": {
+    "32.2": [
+      "32.3"
+    ],
+    "32.3": [
+      "32.8",
+      "32.6",
+      "32.11.3"
+    ],
+    "32.4.1": [
+      "32.5",
+      "32.6"
+    ],
+    "32.4.4": [
+      "32.14.7",
+      "32.12.2",
+      "32.4.5"
+    ],
+    "32.4.5": [
+      "38.6.2.1"
+    ],
+    "32.5.1": [
+      "32.8",
+      "32.6.2",
+      "32.6.1",
+      "32.7.4",
+      "32.9.2"
+    ],
+    "32.5.2": [
+      "32.6",
+      "32.7"
+    ],
+    "32.6": [
+      "32.6.1.1",
+      "32.6.1.2",
+      "32.6.1.3",
+      "32.6.1.4",
+      "32.6.1.5"
+    ],
+    "32.6.1": [
+      "32.11"
+    ],
+    "32.6.1.1": [
+      "38.6.2.4"
+    ],
+    "32.6.1.3": [
+      "38.6.2.4",
+      "32.6.3.3"
+    ],
+    "32.6.2.1": [
+      "38.6.18",
+      "38.6.18.3",
+      "38.6.2.4"
+    ],
+    "32.6.2.2": [
+      "32.6.1.2"
+    ],
+    "32.6.2.3": [
+      "32.6.1.3",
+      "32.6.3.3",
+      "38.8.2",
+      "32.6.3.4"
+    ],
+    "32.6.2.4": [
+      "32.6.1.4",
+      "32.6.3.3",
+      "32.6.3.4"
+    ],
+    "32.6.2.5": [
+      "32.2.1",
+      "32.6.1",
+      "32.6.2",
+      "38.6.18",
+      "38.6.2.4",
+      "32.6.3.3",
+      "32.6.3.4"
+    ],
+    "32.6.3": [
+      "32.16.1"
+    ],
+    "32.6.3.1": [
+      "32.8.3",
+      "32.14.5"
+    ],
+    "32.6.3.2": [
+      "32.8.3"
+    ],
+    "32.6.3.3": [
+      "32.6.1.4",
+      "32.14.5"
+    ],
+    "32.6.3.4": [
+      "32.6.1.4"
+    ],
+    "32.6.4.2": [
+      "32.6.1.3"
+    ],
+    "32.7": [
+      "32.5",
+      "32.8"
+    ],
+    "32.7.6": [
+      "32.8.2"
+    ],
+    "32.8": [
+      "32.8.3",
+      "32.7.4",
+      "32.6.1"
+    ],
+    "32.8.1": [
+      "31.3.6",
+      "4.2.6"
+    ],
+    "32.8.2": [
+      "38.6.6",
+      "38.6.13"
+    ],
+    "32.8.3": [
+      "32.12.2",
+      "32.6"
+    ],
+    "32.9": [
+      "32.10.1",
+      "32.9.3"
+    ],
+    "32.9.2": [
+      "32.9.7"
+    ],
+    "32.9.4": [
+      "32.9.8",
+      "32.10"
+    ],
+    "32.10.1": [
+      "32.10.2"
+    ],
+    "32.10.2": [
+      "32.10.3",
+      "32.4.3",
+      "32.4.5"
+    ],
+    "32.10.3": [
+      "32.10.2",
+      "32.11.3",
+      "32.13"
+    ],
+    "32.11": [
+      "32.14.1"
+    ],
+    "32.11.3": [
+      "32.11.4",
+      "32.16.1"
+    ],
+    "32.11.4": [
+      "32.16.1",
+      "32.11.1",
+      "32.11.2",
+      "32.11.3",
+      "32.14.5",
+      "32.11.4",
+      "32.16",
+      "32.17.2"
+    ],
+    "32.12.1": [
+      "32.13"
+    ],
+    "32.12.2": [
+      "32.8.3",
+      "32.11.1"
+    ],
+    "32.12.3": [
+      "32.14.9"
+    ],
+    "32.14.2": [
+      "32.16.1"
+    ],
+    "32.14.3": [
+      "32.16.1"
+    ],
+    "32.14.4": [
+      "32.17.2"
+    ],
+    "32.14.5": [
+      "32.6.3.3",
+      "38.6.23",
+      "6.2.3"
+    ],
+    "32.14.8": [
+      "32.15"
+    ],
+    "32.14.9": [
+      "32.16.2",
+      "32.17.2"
+    ],
+    "32.16.1": [
+      "32.6.1.4",
+      "32.10.2",
+      "6.2.3",
+      "32.6.3.2",
+      "38.6.23",
+      "32.14.4"
+    ],
+    "32.16.2": [
+      "32.14.4"
+    ],
+    "32.17.1": [
+      "32.17.2"
+    ],
+    "32.17.2": [
+      "6.2.3",
+      "32.14.4"
+    ]
+  },
+  "scripture_references": [
+    "Matthew 9:10–13",
+    "John 8:3–11",
+    "Alma 11:37",
+    "3 Nephi 27:19",
+    "Alma 42:14, 17–18",
+    "Alma 34:16",
+    "Mosiah 15:9",
+    "Alma 42:15",
+    "Doctrine and Covenants 19:15–19",
+    "Alma 42:24–25",
+    "John 3:16",
+    "Alma 34:15",
+    "Alma 42:13",
+    "Isaiah 1:18",
+    "Doctrine and Covenants 58:42",
+    "Mosiah 5:2",
+    "Alma 5:12–14",
+    "Helaman 15:7",
+    "2 Corinthians 5:17–18",
+    "Mosiah 27:25–26",
+    "Ephesians 2:19",
+    "Doctrine and Covenants 134:10",
+    "Alma 5:59–60",
+    "3 Nephi 9:20",
+    "2 Corinthians 7:9–10",
+    "Alma 39:11",
+    "Doctrine and Covenants 107:72–74",
+    "Doctrine and Covenants 13:1",
+    "107:16–18",
+    "Luke 15:7",
+    "Doctrine and Covenants 18:10–13",
+    "Doctrine and Covenants 58:43",
+    "Mosiah 26:29",
+    "84:26–27",
+    "107:18, 20",
+    "2 Nephi 2:7",
+    "Doctrine and Covenants 10:37",
+    "Doctrine and Covenants 42:80",
+    "Exodus 18:12–27",
+    "Mosiah 26:29–36",
+    "Doctrine and Covenants 42:80–83",
+    "102",
+    "Doctrine and Covenants 1:31",
+    "Doctrine and Covenants 59:6",
+    "Exodus 20:14",
+    "Doctrine and Covenants 63:16",
+    "Exodus 20:15–16",
+    "Mosiah 4:29",
+    "Doctrine and Covenants 82:7",
+    "3 Nephi 18:31",
+    "Doctrine and Covenants 134:11",
+    "3 Nephi 9:14",
+    "Doctrine and Covenants 82:3",
+    "Doctrine and Covenants 102:2",
+    "Mosiah 26:36",
+    "Alma 6:3",
+    "Moroni 6:7",
+    "Doctrine and Covenants 20:83",
+    "3 Nephi 18:32",
+    "Doctrine and Covenants 109:21"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Finanzas y auditorías",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/34-finances-and-audits?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "34",
+  "sections": {
+    "34.0": "Introducción",
+    "34.1": "Los líderes a cargo de las finanzas de estaca",
+    "34.1.1": "La presidencia de estaca",
+    "34.1.2": "Los secretarios de estaca",
+    "34.2": "Los líderes a cargo de las finanzas de barrio",
+    "34.2.1": "El obispado",
+    "34.2.2": "Los secretarios de barrio",
+    "34.3": "Los donativos",
+    "34.3.1": "El diezmo",
+    "34.3.1.1": "Uso de los fondos del diezmo",
+    "34.3.1.2": "La declaración de diezmos",
+    "34.3.2": "Las ofrendas de ayuno",
+    "34.3.3": "Fondos misionales",
+    "34.3.4": "Otros donativos",
+    "34.3.5": "Philanthropies",
+    "34.3.6": "Los donativos en especie, incluso el diezmo",
+    "34.3.7": "No se reembolsan los donativos",
+    "34.4": "Carácter confidencial del diezmo y de otras ofrendas",
+    "34.5": "Manejo de los fondos de la Iglesia",
+    "34.5.1": "El principio de compañerismo",
+    "34.5.2": "Recibir el diezmo y las otras ofrendas",
+    "34.5.3": "Verificar y registrar el diezmo y las otras ofrendas",
+    "34.5.4": "Depositar el diezmo y las otras ofrendas",
+    "34.5.5": "Proteger los fondos de la Iglesia",
+    "34.5.6": "Las declaraciones de donativos",
+    "34.5.7": "Administrar los pagos en la estaca y el barrio",
+    "34.5.7.1": "Los pagos electrónicos",
+    "34.5.7.2": "Los cheques",
+    "34.5.7.3": "Las tarjetas de pago",
+    "34.5.8": "Las cajas de efectivo",
+    "34.5.9": "Llevar registros financieros",
+    "34.6": "Los presupuestos y gastos",
+    "34.6.1": "Los presupuestos de estaca y de barrio",
+    "34.6.2": "Asignación de presupuesto",
+    "34.6.2.1": "Distribución del presupuesto",
+    "34.6.2.2": "Uso apropiado del presupuesto",
+    "34.6.2.3": "El presupuesto sobrante",
+    "34.6.3": "Fondos para las actividades y los equipos especiales",
+    "34.6.3.1": "Las actividades de estaca y multiestaca",
+    "34.6.3.2": "Las actividades y los equipos especiales",
+    "34.7": "Las auditorías",
+    "34.7.1": "El comité de auditorías de estaca",
+    "34.7.2": "Los auditores de estaca",
+    "34.7.3": "La auditoría financiera",
+    "34.7.4": "Los auditores de Área y los auditores auxiliares de Área",
+    "34.7.5": "Pérdida, robo, desfalco o malversación de los fondos de la Iglesia",
+    "34.7.6": "El secretario de estaca o el secretario auxiliar de estaca encargado de las finanzas",
+    "34.7.7": "Información adicional",
+    "34.8": "Los impuestos",
+    "34.8.1": "Estado de exención fiscal",
+    "34.8.2": "El impuesto sobre la venta y el impuesto de uso",
+    "34.8.3": "El impuesto a la propiedad"
+  },
+  "cross_references": {
+    "34.0": [
+      "1.2"
+    ],
+    "34.1.1": [
+      "34.3",
+      "34.5",
+      "34.6",
+      "34.6.2",
+      "34.7.1",
+      "34.7",
+      "34.8"
+    ],
+    "34.1.2": [
+      "34.7"
+    ],
+    "34.2.1": [
+      "34.3",
+      "34.5",
+      "34.6",
+      "34.6.2",
+      "34.7"
+    ],
+    "34.2.2": [
+      "34.7"
+    ],
+    "34.3": [
+      "34.5.2"
+    ],
+    "34.3.2": [
+      "22.2.2"
+    ],
+    "34.3.3": [
+      "24.3.4"
+    ],
+    "34.5.1": [
+      "33.9.1.1"
+    ],
+    "34.5.2": [
+      "34.3.2"
+    ],
+    "34.6.2.1": [
+      "33.5.1.1"
+    ],
+    "34.6.2.2": [
+      "20.6.1"
+    ]
+  },
+  "scripture_references": [
+    "Marcos 12:41–44",
+    "Doctrina y Convenios 72:9–10",
+    "Doctrina y Convenios 119:3–4",
+    "Génesis 14:18–20",
+    "Levítico 27:30–32",
+    "Malaquías 3:10",
+    "Doctrina y Convenios 120",
+    "Doctrina y Convenios 42:30–33",
+    "119"
+  ]
+}

@@ -43,8 +43,25 @@
       "Bash(MSYS_NO_PATHCONV*)",
       "Bash(cd *)",
       "Bash(cd:*)",
-      "mcp__*",
-      "Bash(curl -s http://localhost:4300/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"question\"\"\"\": \"\"\"\"Who was Nephi?\"\"\"\"}')"
+      "mcp__alejandria__*",
+      "mcp__knowledge-graph-mcp__*",
+      "mcp__652778fe-0e74-45ac-b925-f24a852c48a8__*",
+      "Bash(curl -s http://localhost:4300/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"question\"\"\"\": \"\"\"\"Who was Nephi?\"\"\"\"}')",
+      "Bash(xargs -I{} basename {} .txt)",
+      "Bash(powershell.exe -Command \"wsl -d rancher-desktop -e /usr/lib/wsl/lib/nvidia-smi\")",
+      "Bash(powershell.exe -Command \"wsl -d rancher-desktop sh -c ''/usr/lib/wsl/lib/nvidia-smi''\")",
+      "Bash(powershell.exe -Command \"wsl -d Ubuntu-20.04 sh -c ''/usr/lib/wsl/lib/nvidia-smi''\")",
+      "Bash(powershell.exe -Command \"wsl -d rancher-desktop sh -c ''cat /etc/docker/daemon.json 2>/dev/null || echo no-file''\")",
+      "Bash(powershell.exe -Command \"wsl -d Ubuntu-20.04 sh -c ''cat /etc/apt/sources.list.d/nvidia-container-toolkit.list 2>/dev/null || echo not-found''\")",
+      "Bash(powershell.exe -Command \"wsl -d Ubuntu-20.04 -- bash /mnt/c/own/alejandria/scripts/setup_nvidia_toolkit.sh\")",
+      "Bash(curl.exe -s -X POST http://localhost:4300/index/trigger)",
+      "Bash(curl.exe -s -X POST http://localhost:4300/index/trigger -H \"Content-Type: application/json\" -d \"{}\")",
+      "Bash(REQUESTS_CA_BUNDLE=docker/ca-certificates.crt python -c \":*)",
+      "Bash(curl.exe -s \"http://localhost:4300/search/text\" -H \"Content-Type: application/json\" -d \"{\"\"query\"\": \"\"faith in Christ\"\", \"\"limit\"\": 3}\")",
+      "Bash(curl.exe -s http://localhost:4300/graph/summary)",
+      "Bash(wsl -d Ubuntu-20.04 -u root -e bash -c ':*)",
+      "Bash(wsl -d Ubuntu-20.04 -u root -e bash -c 'export PATH=$\\(echo \"\"$PATH\"\" | tr \"\":\"\" \"\"\\\\n\"\" | grep -v -i \"\"rancher\"\" | tr \"\"\\\\n\"\" \"\":\"\"\\) && export DOCKER_CONFIG=/tmp/alejandria-docker-config && /usr/bin/docker exec alejandria-api python -c \"\":*)",
+      "Bash(python -c \":*)"
     ],
     "deny": []
   }

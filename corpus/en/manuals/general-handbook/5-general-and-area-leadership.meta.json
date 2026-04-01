@@ -1,0 +1,88 @@
+{
+  "title": "General and Area Leadership",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/5-general-and-area-leadership?lang=eng",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "5.",
+  "sections": {
+    "5.0": "Introduction",
+    "5.1": "General Church Leadership",
+    "5.1.1": "General Authorities",
+    "5.1.1.1": "First Presidency and Quorum of the Twelve Apostles",
+    "5.1.1.2": "The Seventy",
+    "5.1.1.3": "Presiding Bishopric",
+    "5.1.2": "General Officers",
+    "5.2": "Area Leadership",
+    "5.2.1": "Area Presidency",
+    "5.2.2": "Area Seventies",
+    "5.2.3": "Area Council",
+    "5.2.4": "Coordinating Council",
+    "5.2.5": "Area Callings",
+    "5.2.5.1": "Area Organization Advisers"
+  },
+  "cross_references": {
+    "5.1.1.2": [
+      "5.2.2"
+    ],
+    "5.1.2": [
+      "5.2.5.1"
+    ],
+    "5.2.2": [
+      "5.2.3",
+      "5.2.4",
+      "20.3.3"
+    ],
+    "5.2.4": [
+      "29.4"
+    ],
+    "5.2.5.1": [
+      "6.2.1.6"
+    ]
+  },
+  "scripture_references": [
+    "Ephesians 2:20",
+    "Doctrine and Covenants 27:12–13",
+    "Doctrine and Covenants 107:38",
+    "Amos 3:7",
+    "Ephesians 4:11–13",
+    "Matthew 16:16–19",
+    "Doctrine and Covenants 43:2–3",
+    "107:91–92",
+    "128:11",
+    "Doctrine and Covenants 107:22",
+    "Doctrine and Covenants 107:23",
+    "Matthew 16:18–19",
+    "17:1–5",
+    "Mark 14:32–42",
+    "81:1–2",
+    "Luke 6:12–13",
+    "1 Nephi 13:40",
+    "Doctrine and Covenants 18:26–28",
+    "Doctrine and Covenants 107:33",
+    "Matthew 28:19–20",
+    "Doctrine and Covenants 107:35",
+    "Doctrine and Covenants 112:30–32",
+    "27:12",
+    "Acts 1:8, 22",
+    "4:33",
+    "Doctrine and Covenants 76:22–24",
+    "Matthew 4:18–22",
+    "Doctrine and Covenants 1:38",
+    "107:27–31",
+    "Exodus 24:1, 9–10",
+    "Numbers 11:16–17, 24–25",
+    "Luke 10:1, 17",
+    "Doctrine and Covenants 107:34–35, 38",
+    "Acts 6:2–6",
+    "Doctrine and Covenants 107:93–94",
+    "124:138",
+    "Doctrine and Covenants 107:25",
+    "124:139",
+    "Doctrine and Covenants 107:95–96",
+    "124:138–39",
+    "Doctrine and Covenants 107:68",
+    "Doctrine and Covenants 107:38, 98"
+  ]
+}

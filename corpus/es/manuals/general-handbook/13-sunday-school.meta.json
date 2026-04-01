@@ -1,0 +1,45 @@
+{
+  "title": "Escuela Dominical",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/general-handbook/13-sunday-school?lang=spa",
+  "source_type": "general-handbook",
+  "authority": 65,
+  "official": true,
+  "audience": "leadership",
+  "chapter_number": "13.",
+  "sections": {
+    "13.1": "Propósito",
+    "13.2": "Los líderes de la Escuela Dominical de barrio",
+    "13.2.1": "El obispado",
+    "13.2.2": "El presidente de la Escuela Dominical",
+    "13.2.2.1": "Llamar a un presidente de la Escuela Dominical",
+    "13.2.2.2": "Responsabilidades",
+    "13.2.3": "Los maestros de la Escuela Dominical",
+    "13.3": "Las clases de la Escuela Dominical",
+    "13.3.1": "Las ramas pequeñas",
+    "13.3.2": "Las clases de la Escuela Dominical para grupos específicos",
+    "13.4": "Mejorar el aprendizaje y la enseñanza en el barrio",
+    "13.5": "Mejorar el aprendizaje y la enseñanza en el hogar",
+    "13.6": "Los líderes de la Escuela Dominical de estaca",
+    "13.7": "Pautas adicionales",
+    "13.7.1": "Miembros con discapacidades",
+    "13.7.2": "El centro de recursos"
+  },
+  "cross_references": {
+    "13.2.2.2": [
+      "29.2.5",
+      "13.3"
+    ],
+    "13.2.3": [
+      "17.4"
+    ],
+    "13.4": [
+      "17.4"
+    ],
+    "13.5": [
+      "17.5"
+    ]
+  },
+  "scripture_references": [
+    "Doctrina y Convenios 88:77"
+  ]
+}

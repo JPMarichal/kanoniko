@@ -2,7 +2,10 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
+import logging
+import threading
+
+from fastapi import APIRouter, Depends, HTTPException
 
 from alejandria.api.schemas import (
     BuildProfilesRequest,
@@ -17,39 +20,95 @@ from alejandria.ingestion.pipeline import IngestionPipeline
 from alejandria.ingestion.registry import DocumentRegistry
 from alejandria.search.textual import TextualSearch
 
-router = APIRouter(prefix="/index", tags=["index"])
+logger = logging.getLogger(__name__)
 
-# Store last run stats
-_last_stats: IndexingStatsResponse | None = None
+router = APIRouter(prefix="/index", tags=["index"])
 
 
 @router.get("/status", response_model=IndexStatusResponse)
 def index_status(
     registry: DocumentRegistry = Depends(get_registry),
     textual: TextualSearch = Depends(get_textual_search),
+    pipeline: IngestionPipeline = Depends(get_pipeline),
 ) -> IndexStatusResponse:
     errors = registry.errors()
+    progress = pipeline.progress
     return IndexStatusResponse(
         total_documents=registry.count(),
         total_chunks=textual.count_chunks(),
         error_count=len(errors),
         errors=[{"file_path": e.file_path, "last_indexed": e.last_indexed} for e in errors],
+        indexing=progress.running,
+        current_file=progress.current_file if progress.running else None,
+        files_processed=progress.files_processed,
+        files_total=progress.files_total,
+        percent=progress.percent,
+        elapsed_seconds=progress.elapsed,
+        eta_seconds=progress.eta_seconds,
     )
 
 
-@router.post("/trigger", response_model=IndexingStatsResponse)
+@router.post("/trigger")
 def trigger_indexing(
     req: IndexTriggerRequest,
     pipeline: IngestionPipeline = Depends(get_pipeline),
-) -> IndexingStatsResponse:
-    stats = pipeline.run(full_reindex=req.full_reindex)
-    return IndexingStatsResponse(
-        new_files=stats.new_files,
-        updated_files=stats.updated_files,
-        deleted_files=stats.deleted_files,
-        errors=stats.errors,
-        total_chunks=stats.total_chunks,
-    )
+) -> dict:
+    """Launch indexing in background. Returns immediately.
+
+    Returns 409 if indexing is already running.
+    Poll GET /index/status for progress.
+    """
+    if pipeline.progress.running:
+        raise HTTPException(
+            status_code=409,
+            detail="Indexing already in progress. Poll GET /index/status for progress.",
+        )
+
+    def _run_in_background():
+        try:
+            pipeline.run(full_reindex=req.full_reindex)
+        except RuntimeError as e:
+            logger.warning("Indexing rejected: %s", e)
+        except Exception:
+            logger.exception("Background indexing failed")
+            pipeline.progress.error_message = "Indexing failed — check server logs"
+            pipeline.progress.running = False
+
+    thread = threading.Thread(target=_run_in_background, daemon=True, name="indexing")
+    thread.start()
+
+    return {
+        "status": "started",
+        "full_reindex": req.full_reindex,
+        "message": "Indexing launched in background. Poll GET /index/status for progress.",
+    }
+
+
+@router.post("/rebuild-vectors")
+def rebuild_vectors(
+    pipeline: IngestionPipeline = Depends(get_pipeline),
+) -> dict:
+    """Rebuild semantic vectors from already-indexed chunks in SQLite.
+
+    Reads chunk text from SQLite, batch-encodes on GPU, upserts to Qdrant.
+    No filesystem I/O — ideal for GPU migration or after model change.
+    """
+    if pipeline.progress.running:
+        raise HTTPException(409, "Indexing already in progress.")
+
+    def _run_in_background():
+        try:
+            pipeline.progress.running = True
+            pipeline.progress.start_time = __import__("time").time()
+            pipeline.rebuild_vectors()
+        except Exception:
+            logger.exception("Vector rebuild failed")
+        finally:
+            pipeline.progress.running = False
+
+    thread = threading.Thread(target=_run_in_background, daemon=True, name="rebuild-vectors")
+    thread.start()
+    return {"status": "started", "message": "Vector rebuild launched. Poll GET /index/status."}
 
 
 @router.post("/rebuild-kg")

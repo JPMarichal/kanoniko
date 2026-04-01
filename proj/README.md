@@ -15,6 +15,7 @@ This directory contains the project portfolio for Alejandria's next generation o
 | P7 | [Deep Disambiguation](P7-deep-disambiguation/) | Medium | Planning | None |
 | P8 | [Synthesis Engine](P8-synthesis-engine/) | Lower | Planning | P5, P6 |
 | P9 | [Fine-Tuning](P9-fine-tuning/) | Lower | Planning | None |
+| P10 | [Handbook KG Model](P10-handbook-kg-model/) | Medium | Planning | None (benefits from P6) |
 
 ## Document Naming Convention
 
