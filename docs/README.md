@@ -39,8 +39,10 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 - [mcp-server.md](mcp-server.md) — MCP adapter for AI assistants
 
 ### Operations
-- [docker.md](docker.md) — Docker Compose setup, container architecture
-- [operations.md](operations.md) — Indexing, KG rebuild, profile generation workflows
+- [docker.md](docker.md) — Docker Compose setup, CPU/GPU stacks, two Docker engines
+- [operations.md](operations.md) — Indexing, backup/recovery, KG rebuild, profile generation
+- [performance.md](performance.md) — Memory tuning, .wslconfig, I/O optimization, pipeline profiling
 
 ### Project
 - [roadmap.md](roadmap.md) — Completed phases and project incubator
+- [project-memory/](project-memory/) — Claude session memory (synced from ~/.claude/)

@@ -31,8 +31,10 @@
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
 | Containerization | Docker Compose | 3 services: api, qdrant, neo4j |
+| GPU runtime | NVIDIA Container Toolkit + PyTorch nightly cu128 | Blackwell sm_120 GPU support |
 | API server | Uvicorn | ASGI server |
 | MCP protocol | `mcp` Python SDK | AI assistant integration |
+| Backup | SQLite copy + Qdrant REST snapshot + Neo4j Cypher export | Disaster recovery |
 
 ## Python Dependencies
 
