@@ -73,6 +73,8 @@ VALID_RELATION_TYPES = {
     "ADJUDICATES", "RESTRICTS", "ANNOTATES",
     # Scripture structure (P1 Phase 3)
     "PART_OF", "CONTAINS",
+    # Conference talks
+    "CITES", "DELIVERED_BY",
 }
 
 _SYSTEM_PROMPT = """\
