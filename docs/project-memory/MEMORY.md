@@ -1,0 +1,25 @@
+# Alejandría Project Memory Index
+
+- [project_alejandria.md](project_alejandria.md) — Project vision: independent containerized text library with textual, semantic, and KG search over LDS church literature
+- [project_chat_vision.md](project_chat_vision.md) — Final goal: specialized chat client for scripture/gospel study, RAG over the knowledge engine
+- [phase5_complete.md](phase5_complete.md) — Phase 5 fully closed: entity profiles, disambiguation, volume-diverse passages, staleness, stopword handling, RAG enrichment, 18 docs
+- [project_portfolio.md](project_portfolio.md) — proj/ has 9 prioritized projects (P1-P9) with requirements and plans; 00-backlog.md formalizes incubator as backlog
+- [project_study_aids_inventory.md](project_study_aids_inventory.md) — Full inventory: Tier 1 (ch headings, superscriptions, intros — missing from corpus) + Tier 2 (GEE, TG, BD, JST, maps)
+- [scripture_structures.md](scripture_structures.md) — Detailed structural differences between standard works (D&C sections vs chapters, PGP facsimiles, ODs without verses, citation conventions EN/ES)
+- [vision_and_roadmap.md](vision_and_roadmap.md) — Deep vision: corpus as accumulated knowledge base, three layers of scripture parallelism, KG's role and limits, corpus expansion roadmap
+- [kg_and_models.md](kg_and_models.md) — KG learnings: gazetteer bias, disambiguation challenge, tiered model selection, four LLM calls per question, enumeration query detection
+- [vision_knowledge_generation.md](vision_knowledge_generation.md) — Core vision: knowledge engine for unlimited synthesis, 4-layer architecture, NER→gazetteer feedback loop
+- [gazetteer_stopword_collision.md](gazetteer_stopword_collision.md) — RESOLVED: 3-tier matching (main regex, contextual phrases, cross-language) handles stopword collision
+- [pending_on_disambiguation.md](pending_on_disambiguation.md) — On city (Heliopolis) vs On son of Pelet — gazetteer needs both entries, lower priority
+- [mysql_dump_versiculos.md](mysql_dump_versiculos.md) — MySQL dump has 42,699 ES verses from official site; can fill missing ES corpus (AT, NT, D&C, PGP)
+- [feedback_direct_scripture_lookup.md](feedback_direct_scripture_lookup.md) — Scripture lookup: read file directly; output in FCD (Formato de Citas para Dilton)
+- [feedback_forma_t.md](feedback_forma_t.md) — Forma T: report format with title, objective, and concept/reference table ordered didactically
+- [feedback_language.md](feedback_language.md) — Responder en el idioma del usuario; no mezclar idiomas en citas bíblicas
+- [feedback_verify_categorical_claims.md](feedback_verify_categorical_claims.md) — Siempre buscar contraejemplos antes de afirmar "nunca/siempre/ninguno" sobre el corpus
+- [feedback_proactive_kg_associations.md](feedback_proactive_kg_associations.md) — Proactively add any new data association to the KG; every linkable datum is an opportunity
+- [feedback_corpus_query_strategy.md](feedback_corpus_query_strategy.md) — Corpus questions: knowledge first, KG to structure, 2-5 surgical API calls max, never exhaustive subagent
+- [dev_machine.md](dev_machine.md) — Laptop with NVIDIA RTX PRO 500 Blackwell 6GB, Rancher Desktop (WSL2), no Docker GPU yet; user depends on Rancher for work
+- [reference_church_api.md](reference_church_api.md) — Church site JSON API at /study/api/v3/language-pages/type/content; returns HTML in JSON, works for some pages
+- [reference_citation_norms.md](reference_citation_norms.md) — Formal citation norms in docs/citation-norms.md: scriptures, TG/BD/GEE/JST, intros, conference, FCD format
+- [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
+- [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
