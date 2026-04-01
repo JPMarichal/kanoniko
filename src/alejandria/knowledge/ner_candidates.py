@@ -113,7 +113,11 @@ class NERCandidateTracker:
             ]
 
     def promote(self, name: str, entity_type: str) -> bool:
-        """Mark a candidate as promoted (added to gazetteer)."""
+        """Promote a candidate: update SQLite status AND write to entities.json.
+
+        This closes the feedback loop: NER discoveries become part of the
+        curated gazetteer, taking effect on next KGExtractor instantiation.
+        """
         with sqlite3.connect(self._db_path) as conn:
             cursor = conn.execute(
                 "UPDATE ner_candidates SET status = 'promoted', "
@@ -121,7 +125,53 @@ class NERCandidateTracker:
                 "WHERE name = ? AND type = ?",
                 (name, entity_type),
             )
-            return cursor.rowcount > 0
+            if cursor.rowcount == 0:
+                return False
+
+        # Write to gazetteer file
+        self._add_to_gazetteer(name, entity_type)
+        return True
+
+    def _add_to_gazetteer(self, name: str, entity_type: str) -> None:
+        """Append a promoted entity to entities.json."""
+        gazetteer_path = (
+            Path(__file__).parent / "gazetteers" / "entities.json"
+        )
+        try:
+            data = json.loads(gazetteer_path.read_text(encoding="utf-8"))
+
+            # Skip if entity type doesn't exist in gazetteer
+            if entity_type not in data:
+                logger.warning(
+                    "Entity type '%s' not in gazetteer — skipping write for '%s'",
+                    entity_type, name,
+                )
+                return
+
+            # Skip if already present (by name, case-insensitive)
+            existing_names = {
+                e["name"].lower() for e in data[entity_type]
+            }
+            for entry in data[entity_type]:
+                for alias in entry.get("aliases", []):
+                    existing_names.add(alias.lower())
+
+            if name.lower() in existing_names:
+                logger.info("'%s' already in gazetteer — skipping", name)
+                return
+
+            # Add new entry
+            data[entity_type].append({"name": name, "aliases": []})
+            gazetteer_path.write_text(
+                json.dumps(data, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            logger.info(
+                "Promoted '%s' (%s) → written to entities.json (%d total in type)",
+                name, entity_type, len(data[entity_type]),
+            )
+        except Exception:
+            logger.exception("Failed to write promoted entity to gazetteer")
 
     def dismiss(self, name: str, entity_type: str) -> bool:
         """Mark a candidate as dismissed (not useful)."""

@@ -165,6 +165,19 @@ wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' stat
 - `gpu-up.sh` auto-syncs via `git fetch` + `git reset --hard` before starting
 - Compose override: `docker/docker-compose.gpu.yml` + `docker/Dockerfile.gpu`
 
+## Documentation & Sync Rules
+
+**When modifying any feature, the relevant `docs/*.md` MUST be updated in the same commit.**
+
+Checklist before every commit that changes behavior:
+1. Update the relevant `docs/*.md` file (architecture, operations, docker, etc.)
+2. If `docs/README.md` index needs a new entry, add it
+3. Run `scripts/sync-memory.sh` if memory files changed during the session
+4. Promoted NER candidates auto-write to `entities.json` (closed feedback loop)
+
+A pre-commit hook (`scripts/pre-commit-sync.sh`) auto-stages memory and gazetteer changes.
+Install: `ln -sf ../../scripts/pre-commit-sync.sh .git/hooks/pre-commit`
+
 ## SSL/Corporate Proxy Note
 
 The Dockerfile expects `docker/ca-certificates.crt` with your corporate CA certs for model downloads.
