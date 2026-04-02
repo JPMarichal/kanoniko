@@ -92,3 +92,4 @@ Phase 6 has been decomposed into an incubator of independent projects. Each repr
 - **Duplicate people profiles**: "House of Judah" and "the house of Judah" exist as separate entities
 - **Co-occurrence noise in conference talks**: spaCy NER creates BELONGS_TO relations with garbage targets (URLs, scripture refs as person, "Brethren", "Gospel Library"). Needs a cleanup pass or NER filter for conference source files
 - **Conference speaker dedup**: 1,156 speaker names may duplicate existing gazetteer persons (e.g., "Russell M Nelson" vs "Russell M. Nelson")
+- **Project-scoped MCP server**: `.mcp.json` at project root is not being loaded by Claude Code — currently workaround is adding to `~/.claude.json` (user-level). Investigate why project-scoped MCP is ignored (approval flow? format issue?) and fix so the MCP config stays self-contained in the repo

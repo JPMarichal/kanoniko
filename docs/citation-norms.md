@@ -8,6 +8,7 @@ Standards for citing all corpus materials in Alejandría — for RAG answers, se
 2. **Literal quotes only:** Quote text exactly as it appears in the corpus. Never paraphrase a quoted passage.
 3. **Reference in parentheses:** Always at the end of the quoted text, never on a separate line.
 4. **Titles of works** in quotes: "Jesús el Cristo", "Liahona", not in italics.
+5. **Titles of autoridades generales:** Usar el título más alto conocido. Presidente para presidentes de la Iglesia (presidente Benson, presidente Nelson), élder para apóstoles (élder Bednar, élder Oaks), presidente para presidencias de quórum (presidente Eyring). Si no se tiene certeza, usar el título más conocido o el vigente al momento de la cita.
 
 ## Two Citation Modes
 

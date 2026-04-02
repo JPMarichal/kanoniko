@@ -32,6 +32,8 @@ corpus/
 │   │   └── the-living-christ-the-testimony-of-the-apostles.txt
 │   ├── general-conference/      # General Conference talks
 │   ├── manuals/                 # Church manuals
+│   │   ├── missionary-standards/           # Missionary Standards for Disciples
+│   │   └── missionary-standards-supplement/ # Supplemental Information
 │   ├── biographies/             # Biographical works
 │   └── web/                     # Web downloads
 ├── es/                          # Spanish (same structure)
@@ -104,8 +106,10 @@ Both short and long citation forms coexist:
 |-----------|--------|---------|
 | `.txt` | Plain text | Scriptures |
 | `.md` | Markdown (stripped) | Conference talks, manuals |
-| `.html` | HTML (stripped tags) | Web downloads |
+| `.html` | HTML (content extraction¹) | Conference talks |
 | `.json` | JSON (text extraction) | Structured data |
+
+¹ The HTML parser removes `.header`, `.extraction-info`, `<head>`, `<style>`, and `<script>` elements before text extraction. This prevents NER from creating compound garbage entities from speaker names merged with talk titles (e.g., "Gordon B. Hinckley Closing Remarks").
 
 ## Downloading Scriptures
 
