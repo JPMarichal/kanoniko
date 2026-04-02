@@ -139,6 +139,133 @@ class IngestionPipeline:
     # Sources to preserve in Neo4j during full reindex
     PRESERVED_NEO4J_SOURCES = ["topical_guide"]
 
+    def ingest_paths(self, paths: list[str]) -> IndexingStats:
+        """Index specific corpus paths (files or directories) without scanning the full corpus.
+
+        Args:
+            paths: Relative corpus paths (e.g. ["en/proclamations/", "es/proclamations/doc.txt"]).
+                   Directories are expanded to all supported files within.
+
+        Raises:
+            RuntimeError: If another indexing run is already in progress.
+        """
+        if not self._index_lock.acquire(blocking=False):
+            raise RuntimeError("Indexing already in progress")
+
+        try:
+            return self._ingest_paths_impl(paths)
+        finally:
+            self._index_lock.release()
+
+    def _ingest_paths_impl(self, paths: list[str]) -> IndexingStats:
+        """Internal implementation for targeted path ingestion."""
+        stats = IndexingStats()
+        self.progress = IndexingProgress(running=True, start_time=time.time())
+        corpus_path = settings.corpus_path
+
+        try:
+            # Resolve paths to actual files
+            disk_files: dict[str, Path] = {}
+            for p in paths:
+                abs_p = corpus_path / p.replace("\\", "/")
+                if abs_p.is_file() and abs_p.suffix in settings.supported_extensions:
+                    rel = str(abs_p.relative_to(corpus_path))
+                    disk_files[rel] = abs_p
+                elif abs_p.is_dir():
+                    for ext in settings.supported_extensions:
+                        for f in abs_p.rglob(f"*{ext}"):
+                            if f.is_file():
+                                rel = str(f.relative_to(corpus_path))
+                                disk_files[rel] = f
+
+            if not disk_files:
+                logger.warning("No indexable files found in paths: %s", paths)
+                return stats
+
+            # Get registry state only for these files
+            registry_records = {r.file_path: r for r in self._registry.all_records()}
+
+            # Build list of files to process
+            to_process: list[tuple[str, Path, str, bool]] = []
+            for rel_path, abs_path in disk_files.items():
+                current_hash = DocumentRegistry.compute_hash(abs_path)
+                record = registry_records.get(rel_path)
+
+                if record is not None and record.sha256 == current_hash and record.status == "indexed":
+                    continue
+
+                is_update = record is not None
+                to_process.append((rel_path, abs_path, current_hash, is_update))
+
+            self.progress.files_total = len(to_process)
+            logger.info(
+                "Targeted ingest: %d files to process (%d resolved, %d unchanged)",
+                len(to_process), len(disk_files), len(disk_files) - len(to_process),
+            )
+
+            # Reuse the same 3-phase pipeline
+            # Phase 1 (CPU): Parse, chunk, FTS
+            file_data_list: list[_FileData] = []
+            for i, (rel_path, abs_path, current_hash, is_update) in enumerate(to_process):
+                self.progress.current_file = rel_path
+                self.progress.files_processed = i
+                try:
+                    fd = self._prepare_file(rel_path, abs_path, current_hash)
+                    if fd is not None:
+                        file_data_list.append(fd)
+                        stats.total_chunks += len(fd.chunks)
+                    if is_update:
+                        stats.updated_files += 1
+                    else:
+                        stats.new_files += 1
+                except Exception:
+                    logger.exception("Error preparing %s", rel_path)
+                    self._registry.upsert(
+                        file_path=rel_path, sha256=current_hash,
+                        file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                    )
+                    stats.errors += 1
+
+            total_chunks = sum(len(fd.chunks) for fd in file_data_list)
+
+            # Phase 2 (GPU): Batch-encode
+            if self._semantic and _SEMANTIC_AVAILABLE and total_chunks > 0:
+                all_texts = [c.text for fd in file_data_list for c in fd.chunks]
+                all_vectors = encode(all_texts, batch_size=256)
+                offset = 0
+                for fd in file_data_list:
+                    n = len(fd.chunks)
+                    fd.vectors = all_vectors[offset:offset + n]
+                    offset += n
+
+            # Phase 3 (I/O): Qdrant + Neo4j
+            for fd in file_data_list:
+                self.progress.current_file = fd.rel_path
+                try:
+                    self._index_file_data(fd)
+                except Exception:
+                    logger.exception("Error indexing %s", fd.rel_path)
+                    stats.errors += 1
+
+            self.progress.files_processed = len(to_process)
+
+            if (stats.new_files or stats.updated_files) and self._profile_store:
+                staled = self._profile_store.mark_all_stale()
+                if staled:
+                    logger.info("Marked %d entity profiles as stale", staled)
+
+            logger.info(
+                "Targeted ingest complete: new=%d updated=%d errors=%d chunks=%d in %.1fs",
+                stats.new_files, stats.updated_files, stats.errors, stats.total_chunks,
+                self.progress.elapsed,
+            )
+            return stats
+
+        finally:
+            self.progress.last_stats = stats
+            self.progress.running = False
+            self.progress.current_file = ""
+
     def run(self, full_reindex: bool = False) -> IndexingStats:
         """Execute an indexing run with mutex protection.
 
