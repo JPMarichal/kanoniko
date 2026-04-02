@@ -127,14 +127,54 @@ class IngestionPipeline:
         neo4j_client: Neo4jClient | None = None,
         kg_extractor: KGExtractor | None = None,
         profile_store: ProfileStore | None = None,
+        *,
+        semantic_search_factory: callable | None = None,
+        neo4j_client_factory: callable | None = None,
+        kg_extractor_factory: callable | None = None,
     ) -> None:
         self._registry = registry
         self._textual = textual_search
-        self._semantic = semantic_search
-        self._neo4j = neo4j_client
-        self._kg_extractor = kg_extractor
+        self._semantic_direct = semantic_search
+        self._neo4j_direct = neo4j_client
+        self._kg_extractor_direct = kg_extractor
+        self._semantic_factory = semantic_search_factory
+        self._neo4j_factory = neo4j_client_factory
+        self._kg_extractor_factory = kg_extractor_factory
         self._profile_store = profile_store
         self.progress = IndexingProgress()
+
+    @property
+    def _semantic(self):
+        if self._semantic_direct is not None:
+            return self._semantic_direct
+        if self._semantic_factory is not None:
+            result = self._semantic_factory()
+            if result is not None:
+                self._semantic_direct = result
+            return result
+        return None
+
+    @property
+    def _neo4j(self):
+        if self._neo4j_direct is not None:
+            return self._neo4j_direct
+        if self._neo4j_factory is not None:
+            result = self._neo4j_factory()
+            if result is not None:
+                self._neo4j_direct = result
+            return result
+        return None
+
+    @property
+    def _kg_extractor(self):
+        if self._kg_extractor_direct is not None:
+            return self._kg_extractor_direct
+        if self._kg_extractor_factory is not None:
+            result = self._kg_extractor_factory()
+            if result is not None:
+                self._kg_extractor_direct = result
+            return result
+        return None
 
     # Sources to preserve in Neo4j during full reindex
     PRESERVED_NEO4J_SOURCES = ["topical_guide"]
