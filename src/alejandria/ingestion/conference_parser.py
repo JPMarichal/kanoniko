@@ -384,6 +384,27 @@ class _TalkHTMLParser(HTMLParser):
             self.extraction_parts.append(text)
 
 
+def conference_talk_from_meta(meta: dict, file_path: str = "") -> ConferenceTalk:
+    """Build a ConferenceTalk from a .meta.json dictionary.
+
+    This is the primary path for .txt conference files that store metadata
+    externally.  Fields map directly to what parse_conference_talk extracts
+    from HTML, so the pipeline treats both sources identically.
+    """
+    talk = ConferenceTalk(file_path=file_path)
+    talk.title = meta.get("title", "")
+    talk.author = meta.get("author", "")
+    talk.author_raw = meta.get("author_raw", talk.author)
+    talk.calling = meta.get("calling", "")
+    talk.calling_raw = meta.get("calling_raw", talk.calling)
+    talk.conference_date = meta.get("conference_date", "")
+    talk.lang = meta.get("lang", "")
+    talk.source_url = meta.get("source_url", "")
+    talk.note_count = meta.get("note_count", 0)
+    talk.scripture_refs = meta.get("scripture_refs", [])
+    return talk
+
+
 def parse_conference_talk(html: str, file_path: str = "") -> ConferenceTalk:
     """Parse a conference talk HTML file into structured data.
 

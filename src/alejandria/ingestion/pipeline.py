@@ -14,7 +14,11 @@ from alejandria.config import settings
 from alejandria.ingestion.chunker import chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
 from alejandria.ingestion.registry import DocumentRegistry
-from alejandria.ingestion.conference_parser import ConferenceTalk, parse_conference_talk
+from alejandria.ingestion.conference_parser import (
+    ConferenceTalk,
+    conference_talk_from_meta,
+    parse_conference_talk,
+)
 from alejandria.ingestion.scripture_meta import (
     build_chunk_reference,
     build_scripture_metadata,
@@ -535,12 +539,8 @@ class IngestionPipeline:
 
         # Parse conference talk metadata if applicable
         conference_talk: ConferenceTalk | None = None
-        if _is_conference(rel_path) and abs_path.suffix.lower() in (".html", ".htm"):
-            try:
-                raw_html = abs_path.read_text(encoding="utf-8")
-                conference_talk = parse_conference_talk(raw_html, file_path=rel_path)
-            except Exception:
-                logger.warning("Failed to parse conference talk metadata: %s", rel_path, exc_info=True)
+        if _is_conference(rel_path):
+            conference_talk = _load_conference_metadata(abs_path, rel_path)
 
         # Build base metadata
         base_meta: dict = {"source": source, "file": rel_path}
@@ -1341,6 +1341,29 @@ def _is_conference(rel_path: str) -> bool:
     """Check if a file is a general conference talk by corpus path."""
     parts = rel_path.replace("\\", "/").split("/")
     return len(parts) >= 2 and "general-conference" in parts
+
+
+def _load_conference_metadata(abs_path: Path, rel_path: str) -> ConferenceTalk | None:
+    """Load conference talk metadata from HTML or companion .meta.json.
+
+    Precedence:
+    1. HTML files → parse_conference_talk (legacy, full extraction)
+    2. Any file with a .meta.json sibling → conference_talk_from_meta
+    """
+    try:
+        if abs_path.suffix.lower() in (".html", ".htm"):
+            raw_html = abs_path.read_text(encoding="utf-8")
+            return parse_conference_talk(raw_html, file_path=rel_path)
+
+        # Look for companion .meta.json (e.g. talk.txt → talk.meta.json)
+        meta_path = abs_path.with_suffix(".meta.json")
+        if meta_path.exists():
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            return conference_talk_from_meta(meta, file_path=rel_path)
+    except Exception:
+        logger.warning("Failed to load conference talk metadata: %s", rel_path, exc_info=True)
+
+    return None
 
 
 _MONTH_TO_SEASON = {"04": "April", "10": "October"}
