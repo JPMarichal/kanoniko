@@ -43,7 +43,13 @@ def _parse_text(raw: str) -> str:
 
 
 def _parse_html(raw: str) -> str:
-    return _strip_html(raw)
+    soup = BeautifulSoup(raw, "html.parser")
+    # Remove metadata elements that pollute NER with compound entities
+    # (e.g. speaker name + talk title merged into text → "Gordon B. Hinckley Closing Remarks")
+    for selector in ("head", ".header", ".extraction-info", "style", "script"):
+        for tag in soup.select(selector):
+            tag.decompose()
+    return soup.get_text(separator="\n", strip=True)
 
 
 def _parse_json(raw: str) -> str:
@@ -52,6 +58,7 @@ def _parse_json(raw: str) -> str:
 
 
 def _strip_html(html: str) -> str:
+    """Strip HTML tags for non-HTML source formats (e.g. markdown rendered to HTML)."""
     soup = BeautifulSoup(html, "html.parser")
     return soup.get_text(separator="\n", strip=True)
 
