@@ -179,12 +179,13 @@ class IngestionPipeline:
     # Sources to preserve in Neo4j during full reindex
     PRESERVED_NEO4J_SOURCES = ["topical_guide"]
 
-    def ingest_paths(self, paths: list[str]) -> IndexingStats:
+    def ingest_paths(self, paths: list[str], *, force: bool = False) -> IndexingStats:
         """Index specific corpus paths (files or directories) without scanning the full corpus.
 
         Args:
             paths: Relative corpus paths (e.g. ["en/proclamations/", "es/proclamations/doc.txt"]).
                    Directories are expanded to all supported files within.
+            force: If True, re-index even if the file hash hasn't changed.
 
         Raises:
             RuntimeError: If another indexing run is already in progress.
@@ -193,11 +194,11 @@ class IngestionPipeline:
             raise RuntimeError("Indexing already in progress")
 
         try:
-            return self._ingest_paths_impl(paths)
+            return self._ingest_paths_impl(paths, force=force)
         finally:
             self._index_lock.release()
 
-    def _ingest_paths_impl(self, paths: list[str]) -> IndexingStats:
+    def _ingest_paths_impl(self, paths: list[str], *, force: bool = False) -> IndexingStats:
         """Internal implementation for targeted path ingestion."""
         stats = IndexingStats()
         self.progress = IndexingProgress(running=True, start_time=time.time())
@@ -231,7 +232,7 @@ class IngestionPipeline:
                 current_hash = DocumentRegistry.compute_hash(abs_path)
                 record = registry_records.get(rel_path)
 
-                if record is not None and record.sha256 == current_hash and record.status == "indexed":
+                if not force and record is not None and record.sha256 == current_hash and record.status == "indexed":
                     continue
 
                 is_update = record is not None

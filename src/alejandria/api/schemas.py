@@ -220,6 +220,7 @@ class IndexTriggerRequest(BaseModel):
 
 class IndexIngestRequest(BaseModel):
     paths: list[str] = Field(..., description="Corpus-relative paths to index (files or directories)")
+    force: bool = Field(False, description="Re-index even if file hash unchanged (e.g. to rebuild KG)")
     skip_backup: bool = Field(False, description="Skip pre-index backup for small additions")
 
 

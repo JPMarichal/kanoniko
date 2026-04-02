@@ -106,7 +106,7 @@ def ingest_paths(
 
     def _run_in_background():
         try:
-            pipeline.ingest_paths(req.paths)
+            pipeline.ingest_paths(req.paths, force=req.force)
         except RuntimeError as e:
             logger.warning("Ingest rejected: %s", e)
         except Exception:
