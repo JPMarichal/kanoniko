@@ -49,6 +49,10 @@ _SOURCE_DEFAULTS: dict[str, AuthorityMeta] = {
         authority=100, rigor=100, importance="imprescindible",
         official=True, current=True, context="canon",
     ),
+    "proclamations": AuthorityMeta(
+        authority=90, rigor=95, importance="imprescindible",
+        official=True, current=True, context="official-declaration",
+    ),
     "general-conference": AuthorityMeta(
         authority=80, rigor=70, importance="imprescindible",
         official=True, current=True, context="general-conference",

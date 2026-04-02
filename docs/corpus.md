@@ -27,6 +27,9 @@ corpus/
 │   │       ├── js-matthew/
 │   │       ├── js-history/
 │   │       └── articles-of-faith/
+│   ├── proclamations/            # Official FP+Q12 proclamations (not canon)
+│   │   ├── the-family-a-proclamation-to-the-world.txt
+│   │   └── the-living-christ-the-testimony-of-the-apostles.txt
 │   ├── general-conference/      # General Conference talks
 │   ├── manuals/                 # Church manuals
 │   ├── biographies/             # Biographical works
@@ -35,6 +38,27 @@ corpus/
 │   ├── scriptures/
 │   └── ...
 ```
+
+## Proclamations
+
+Official documents issued by the First Presidency and the Quorum of the Twelve Apostles that are **not canonized scripture** (never sustained by common consent as additions to the standard works). They carry quasi-canonical authority (authority=90) — higher than conference talks but below canon.
+
+| Document | Date | Event |
+|----------|------|-------|
+| The Family: A Proclamation to the World | 1995-09-23 | General Relief Society Meeting |
+| The Living Christ: The Testimony of the Apostles | 2000-01-01 | Bimillennial commemoration |
+
+These are stored in `corpus/{lang}/proclamations/` with `.txt` + `.meta.json` pairs. They use plain paragraph format (no verse numbers).
+
+## Adding Material to the Corpus
+
+When adding new documents, follow this procedure:
+
+1. **Classify correctly** — determine canonical status. Canonized scripture goes in `scriptures/`; official FP+Q12 proclamations go in `proclamations/`; conference talks in `general-conference/`; etc. Never mix categories.
+2. **Set authority** — check `src/alejandria/authority.py` `_SOURCE_DEFAULTS`. If the new category doesn't exist, add it. Cross-reference with `docs/authority-model.md`.
+3. **Analyze KG impact** — before indexing, search existing KG entities (`kg_find`) and grep the corpus for documents that already cite the new material. High citation count = hub node.
+4. **Create bilingual pairs** — always add both `en/` and `es/` versions with matching `.meta.json`.
+5. **Index incrementally** — the pipeline auto-detects new files. Never run full reindex for additions.
 
 ## Scripture File Format
 
