@@ -1,8 +1,14 @@
-"""FastAPI dependency injection for shared services."""
+"""FastAPI dependency injection for shared services.
+
+Optional services (Neo4j, Qdrant, KG extractor) use retry-on-None caching:
+if a service is unavailable at first call, subsequent calls retry the
+connection instead of permanently caching None.
+"""
 
 from __future__ import annotations
 
 import logging
+import threading
 from functools import lru_cache
 
 from alejandria.config import settings
@@ -12,6 +18,31 @@ from alejandria.search.textual import TextualSearch
 
 logger = logging.getLogger(__name__)
 
+
+def _cache_success(func):
+    """Cache the return value only if it is not None. Thread-safe."""
+    lock = threading.Lock()
+    result = None
+    resolved = False
+
+    def wrapper():
+        nonlocal result, resolved
+        if resolved:
+            return result
+        with lock:
+            if resolved:
+                return result
+            value = func()
+            if value is not None:
+                result = value
+                resolved = True
+            return value
+
+    wrapper.__wrapped__ = func
+    return wrapper
+
+
+# ── Required services (always cached) ──
 
 @lru_cache
 def get_registry() -> DocumentRegistry:
@@ -23,7 +54,9 @@ def get_textual_search() -> TextualSearch:
     return TextualSearch(settings.sqlite_db_path)
 
 
-@lru_cache
+# ── Optional services (retry until available) ──
+
+@_cache_success
 def get_semantic_search():
     """Get SemanticSearch instance, or None if Qdrant/sentence-transformers unavailable."""
     try:
@@ -35,7 +68,7 @@ def get_semantic_search():
         return None
 
 
-@lru_cache
+@_cache_success
 def get_neo4j_client():
     """Get Neo4jClient instance, or None if Neo4j unavailable."""
     try:
@@ -47,7 +80,7 @@ def get_neo4j_client():
         return None
 
 
-@lru_cache
+@_cache_success
 def get_kg_extractor():
     """Get KGExtractor instance, or None if unavailable."""
     try:
@@ -76,8 +109,8 @@ def get_pipeline() -> IngestionPipeline:
     return IngestionPipeline(
         registry=get_registry(),
         textual_search=get_textual_search(),
-        semantic_search=get_semantic_search(),
-        neo4j_client=get_neo4j_client(),
-        kg_extractor=get_kg_extractor(),
+        semantic_search_factory=get_semantic_search,
+        neo4j_client_factory=get_neo4j_client,
+        kg_extractor_factory=get_kg_extractor,
         profile_store=get_profile_store(),
     )
