@@ -10,6 +10,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from alejandria.api.schemas import (
     BuildProfilesRequest,
     BuildProfilesResponse,
+    IndexIngestRequest,
     IndexStatusResponse,
     IndexTriggerRequest,
     IndexingStatsResponse,
@@ -81,6 +82,45 @@ def trigger_indexing(
         "status": "started",
         "full_reindex": req.full_reindex,
         "message": "Indexing launched in background. Poll GET /index/status for progress.",
+    }
+
+
+@router.post("/ingest")
+def ingest_paths(
+    req: IndexIngestRequest,
+    pipeline: IngestionPipeline = Depends(get_pipeline),
+) -> dict:
+    """Index specific files or directories without scanning the full corpus.
+
+    Much faster than /trigger for small additions — resolves only the given
+    paths instead of hashing every file in the corpus.
+
+    Returns 409 if indexing is already running.
+    Poll GET /index/status for progress.
+    """
+    if pipeline.progress.running:
+        raise HTTPException(
+            status_code=409,
+            detail="Indexing already in progress. Poll GET /index/status for progress.",
+        )
+
+    def _run_in_background():
+        try:
+            pipeline.ingest_paths(req.paths)
+        except RuntimeError as e:
+            logger.warning("Ingest rejected: %s", e)
+        except Exception:
+            logger.exception("Targeted ingest failed")
+            pipeline.progress.error_message = "Ingest failed — check server logs"
+            pipeline.progress.running = False
+
+    thread = threading.Thread(target=_run_in_background, daemon=True, name="ingest-paths")
+    thread.start()
+
+    return {
+        "status": "started",
+        "paths": req.paths,
+        "message": "Targeted ingest launched. Poll GET /index/status for progress.",
     }
 
 

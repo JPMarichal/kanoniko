@@ -218,6 +218,11 @@ class IndexTriggerRequest(BaseModel):
     full_reindex: bool = False
 
 
+class IndexIngestRequest(BaseModel):
+    paths: list[str] = Field(..., description="Corpus-relative paths to index (files or directories)")
+    skip_backup: bool = Field(False, description="Skip pre-index backup for small additions")
+
+
 class IndexingStatsResponse(BaseModel):
     new_files: int
     updated_files: int

@@ -145,6 +145,14 @@ Run incremental indexing.
 |-------|------|---------|-------------|
 | `full_reindex` | bool | false | Drop all indices and rebuild |
 
+### `POST /index/ingest`
+Index specific files or directories without scanning the full corpus. Much faster than `/trigger` for small additions.
+
+| Field | Type | Default | Description |
+|-------|------|---------|-------------|
+| `paths` | list[str] | (required) | Corpus-relative paths (files or dirs), e.g. `["en/proclamations/"]` |
+| `skip_backup` | bool | false | Skip pre-index backup for small additions |
+
 ### `GET /index/status`
 Current index state, document counts, and errors.
 
