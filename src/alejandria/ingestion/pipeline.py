@@ -8,6 +8,7 @@ import logging
 import os
 import threading
 import time
+from collections import deque
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -84,6 +85,11 @@ class IndexingProgress:
     phase_2_chunks: int = 0   # total chunks to encode (set at phase 2 start)
     phase_3_total: int = 0    # total files for phase 3
     phase_3_done: int = 0     # files completed in phase 3
+    # Phase 3 chunk-weighted ETA — chunk count is proportional to actual work
+    phase_3_chunks_total: int = 0   # total chunks across all phase-3 files (known after phase 1)
+    phase_3_chunks_done: int = 0    # chunks from completed phase-3 files
+    # Rolling window: deque of (timestamp, chunks_done) at each file completion (last 100)
+    _phase_3_window: deque = field(default_factory=lambda: deque(maxlen=100), repr=False)
 
     @property
     def phase_name(self) -> str:
@@ -122,9 +128,22 @@ class IndexingProgress:
         if not self.running:
             return None
         elapsed = self.phase_elapsed
-        if self.phase == 3 and self.phase_3_total > 0 and self.phase_3_done > 0 and elapsed > 0:
-            rate = self.phase_3_done / elapsed
-            return round((self.phase_3_total - self.phase_3_done) / rate, 0)
+        if self.phase == 3 and self.phase_3_chunks_total > 0 and self.phase_3_chunks_done > 0:
+            # Use rolling window (last 100 files) for responsive chunk-rate estimate
+            if len(self._phase_3_window) >= 2:
+                oldest_ts, oldest_chunks = self._phase_3_window[0]
+                newest_ts, newest_chunks = self._phase_3_window[-1]
+                window_elapsed = newest_ts - oldest_ts
+                window_chunks = newest_chunks - oldest_chunks
+                if window_elapsed > 0 and window_chunks > 0:
+                    rate = window_chunks / window_elapsed
+                    remaining = self.phase_3_chunks_total - self.phase_3_chunks_done
+                    return round(remaining / rate, 0)
+            # Fallback to cumulative rate if window not populated yet
+            if elapsed > 0:
+                rate = self.phase_3_chunks_done / elapsed
+                remaining = self.phase_3_chunks_total - self.phase_3_chunks_done
+                return round(remaining / rate, 0)
         if self.phase == 1 and self.files_processed > 0 and elapsed > 0:
             rate = self.files_processed / elapsed
             remaining = self.files_total - self.files_processed
@@ -382,14 +401,22 @@ class IngestionPipeline:
             self.progress.phase_start_time = time.time()
             self.progress.phase_3_total = len(file_data_list)
             self.progress.phase_3_done = 0
+            self.progress.phase_3_chunks_total = sum(len(fd.chunks) for fd in file_data_list)
+            self.progress.phase_3_chunks_done = 0
+            self.progress._phase_3_window.clear()
             for i, fd in enumerate(file_data_list):
                 self.progress.current_file = fd.rel_path
-                self.progress.phase_3_done = i + 1
                 try:
                     self._index_file_data(fd)
                 except Exception:
                     logger.exception("Error indexing %s", fd.rel_path)
                     stats.errors += 1
+
+                self.progress.phase_3_done = i + 1
+                self.progress.phase_3_chunks_done += len(fd.chunks)
+                self.progress._phase_3_window.append(
+                    (time.time(), self.progress.phase_3_chunks_done)
+                )
 
             self.progress.files_processed = len(to_process)
 
@@ -635,14 +662,17 @@ class IngestionPipeline:
                 logger.info("Phase 2/3: Skipped (semantic search not available)")
 
             # ── Phase 3 (I/O): Qdrant upsert + Neo4j KG extraction ──
+            phase_3_start = time.time()
             self.progress.phase = 3
-            self.progress.phase_start_time = time.time()
+            self.progress.phase_start_time = phase_3_start
             self.progress.phase_3_total = len(file_data_list)
             self.progress.phase_3_done = 0
+            self.progress.phase_3_chunks_total = sum(len(fd.chunks) for fd in file_data_list)
+            self.progress.phase_3_chunks_done = 0
+            self.progress._phase_3_window.clear()
             logger.info("Phase 3/3: Upserting vectors + KG extraction...")
             for i, fd in enumerate(file_data_list):
                 self.progress.current_file = fd.rel_path
-                self.progress.phase_3_done = i + 1
                 self.progress.files_processed = len(to_process) - len(file_data_list) + i
 
                 try:
@@ -650,6 +680,12 @@ class IngestionPipeline:
                 except Exception:
                     logger.exception("Error indexing %s", fd.rel_path)
                     stats.errors += 1
+
+                self.progress.phase_3_done = i + 1
+                self.progress.phase_3_chunks_done += len(fd.chunks)
+                self.progress._phase_3_window.append(
+                    (time.time(), self.progress.phase_3_chunks_done)
+                )
 
                 if (i + 1) % 100 == 0:
                     logger.info(

@@ -250,9 +250,11 @@ class IndexStatusResponse(BaseModel):
     phase_name: str = ""
     phase_percent: float = 0.0
     phase_elapsed_seconds: float = 0.0
-    phase_2_chunks: int = 0     # total chunks for embeddings phase
-    phase_3_done: int = 0       # files completed in vectors+KG phase
-    phase_3_total: int = 0      # total files for vectors+KG phase
+    phase_2_chunks: int = 0         # total chunks for embeddings phase
+    phase_3_done: int = 0           # files completed in vectors+KG phase
+    phase_3_total: int = 0          # total files for vectors+KG phase
+    phase_3_chunks_done: int = 0    # chunks processed in phase 3 (weight for ETA)
+    phase_3_chunks_total: int = 0   # total chunks in phase 3 (known after phase 1)
 
 
 # --- Documents ---
