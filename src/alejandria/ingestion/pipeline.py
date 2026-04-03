@@ -214,13 +214,13 @@ class IngestionPipeline:
             disk_files: dict[str, Path] = {}
             for p in paths:
                 abs_p = corpus_path / p.replace("\\", "/")
-                if abs_p.is_file() and abs_p.suffix in settings.supported_extensions:
+                if abs_p.is_file() and abs_p.suffix in settings.supported_extensions and not abs_p.name.endswith(".meta.json"):
                     rel = str(abs_p.relative_to(corpus_path))
                     disk_files[rel] = abs_p
                 elif abs_p.is_dir():
                     for ext in settings.supported_extensions:
                         for f in abs_p.rglob(f"*{ext}"):
-                            if f.is_file():
+                            if f.is_file() and not f.name.endswith(".meta.json"):
                                 rel = str(f.relative_to(corpus_path))
                                 disk_files[rel] = f
 
@@ -355,10 +355,11 @@ class IngestionPipeline:
                 logger.warning("Pre-index backup failed — continuing without backup", exc_info=True)
 
             # Collect current files on disk
+            # Exclude .meta.json — those are metadata sidecars, not content.
             disk_files: dict[str, Path] = {}
             for ext in settings.supported_extensions:
                 for path in corpus_path.rglob(f"*{ext}"):
-                    if path.is_file():
+                    if path.is_file() and not path.name.endswith(".meta.json"):
                         rel = str(path.relative_to(corpus_path))
                         disk_files[rel] = path
 
