@@ -14,7 +14,8 @@
 - [mysql_dump_versiculos.md](mysql_dump_versiculos.md) — MySQL dump has 42,699 ES verses from official site; can fill missing ES corpus (AT, NT, D&C, PGP)
 - [feedback_direct_scripture_lookup.md](feedback_direct_scripture_lookup.md) — Scripture lookup: read file directly; output in FCD (Formato de Citas para Dilton)
 - [feedback_forma_t.md](feedback_forma_t.md) — Forma T: report format with title, objective, and concept/reference table ordered didactically
-- [feedback_language.md](feedback_language.md) — Responder en el idioma del usuario; no mezclar idiomas en citas bíblicas
+- [feedback_language.md](feedback_language.md) — Responder en el idioma del usuario; cero citas en inglés en artículos en español — buscar en es/ primero
+- [feedback_iaismos.md](feedback_iaismos.md) — Evitar iaísmos: no abusar del imperfecto (-ía) ni pluscuamperfecto (había+part.); preferir pretérito simple
 - [feedback_verify_categorical_claims.md](feedback_verify_categorical_claims.md) — Siempre buscar contraejemplos antes de afirmar "nunca/siempre/ninguno" sobre el corpus
 - [feedback_proactive_kg_associations.md](feedback_proactive_kg_associations.md) — Proactively add any new data association to the KG; every linkable datum is an opportunity
 - [feedback_corpus_query_strategy.md](feedback_corpus_query_strategy.md) — Corpus questions: knowledge first, KG to structure, 2-5 surgical API calls max, never exhaustive subagent
@@ -30,7 +31,8 @@
 - [feedback_user_facing_language.md](feedback_user_facing_language.md) — No system jargon (corpus, KG, FTS) in user-facing responses; use natural language ("las Autoridades Generales han dicho")
 - [vision_scripture_commentary.md](vision_scripture_commentary.md) — Conference talks as scripture commentary base: exegesis via precise citations, thematic cross-referencing
 - [feedback_footnotes_essential.md](feedback_footnotes_essential.md) — Footnotes are essential content: always download, put in both .txt and .meta.json; they feed KG relations and RAG
-- [procedure_corpus_addition.md](procedure_corpus_addition.md) — 5-step procedure for adding corpus material: classify, authority, KG analysis, format, index
+- [procedure_corpus_addition.md](procedure_corpus_addition.md) — 8-step procedure for adding corpus material: classify, research, authority, KG pre-seed, format, commit+sync, paths, index
+- [reference_indexing_benchmarks.md](reference_indexing_benchmarks.md) — Real benchmarks: 779 files/1632 chunks = 8min GPU; ETA from chunk count not file count
 - [feedback_gitignore_data.md](feedback_gitignore_data.md) — Never exclude data/ from git; only exclude sqlite/backups/ and sqlite/neo4j_backups/ (large, regenerable)
 - [feedback_proactive_before_expensive_ops.md](feedback_proactive_before_expensive_ops.md) — Stop antes de ops costosas: revisar deuda técnica conocida y optimizar primero; no lanzar hasta tener el camino despejado
 - [feedback_never_skip_to_download.md](feedback_never_skip_to_download.md) — After inventory, always prepare (classify, authority, KG, script) before any download

@@ -49,19 +49,25 @@ This step prevents superficial authority assignment based on titles alone. A doc
 - `.meta.json` with: title, meta_description, study_intro, source_url, date, authors, event/location as applicable.
 - Download from official church site (`churchofjesuschrist.org`).
 
-## 6. Prepare ingest paths
+## 6. Commit and sync
+
+- **Commit the new corpus files + code changes to git** before attempting indexing. The Docker containers bind-mount from the Linux FS repo clone, which syncs via `git fetch + git reset --hard`. Without commit, the container won't see the files.
+- Sync: `wsl -d Ubuntu-20.04 bash -c "cd /home/jpmarichal/alejandria-repo && git fetch origin && git reset --hard origin/main"`
+- This step is mandatory — skipping it means indexing runs against an empty directory.
+
+## 7. Prepare ingest paths
 
 - Build the explicit list of corpus-relative paths (directories or files) for the new material.
 - **Never** use `POST /index/trigger` (full corpus scan) for additions. Always use `POST /index/ingest` with the exact `paths` list.
 - The pipeline resolves directories recursively — pass top-level directories, not individual files.
 - The pipeline extracts source category from path: `{lang}/{category}/...` → category.
 
-## 7. Indexing
+## 8. Indexing
 
-- Launch `POST /index/ingest` with the prepared paths list from step 6 and the KG pre-seeded from step 4.
+- Launch `POST /index/ingest` with the prepared paths list from step 7 and the KG pre-seeded from step 4.
 - **Never** run full reindex for additions.
-- Use the GPU Docker Engine (Ubuntu WSL) for faster embeddings. Rancher Desktop is NOT used for Alejandría.
+- Alejandría runs on the native Docker Engine in Ubuntu WSL (NOT Rancher Desktop).
 
 **Why:** The user corrected placement of the Family Proclamation (was going into scriptures/dc/official-declarations, should be proclamations/). Every document's canonical status and authority level must be considered before placement. Authority levels were being assigned superficially from titles — e.g., "The Charted Course" got authority=65 without knowing it's a foundational 1938 J. Reuben Clark address that defines S&I philosophy.
 
-**How to apply:** Every time new material is added to the corpus, run through all 7 steps. Pay special attention to step 1 (correct placement), step 2 (research before authority), step 4 (KG pre-seed, not just analysis), and step 6 (explicit paths, never full scan).
+**How to apply:** Every time new material is added to the corpus, run through all 8 steps. Pay special attention to step 1 (correct placement), step 2 (research before authority), step 4 (KG pre-seed, not just analysis), step 6 (commit+sync before indexing), and step 7 (explicit paths, never full scan).
