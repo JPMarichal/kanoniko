@@ -1,0 +1,48 @@
+{
+  "title": "Religious Freedom",
+  "book": "Religious Freedom",
+  "category": "manuals",
+  "authority": 50,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/religious-freedom/religious-freedom-the-basics?lang=eng",
+  "tags": [
+    "religious-freedom",
+    "liberty",
+    "civic",
+    "public-affairs"
+  ],
+  "notes": "Official Church position on religious liberty; EN-only",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrine and Covenants 101:77–78."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrine and Covenants 134:2."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrine and Covenants 134:7."
+    },
+    {
+      "marker": "4.",
+      "text": "Doctrine and Covenants 134:4."
+    },
+    {
+      "marker": "5.",
+      "text": "History of the Church,498–99 (discourse given by Joseph Smith on July 9, 1843, in Nauvoo, Illinois; reported by Willard Richards)."
+    },
+    {
+      "marker": "6.",
+      "text": "Ordinance in Relation to Religious Societies, City of Nauvoo, (Illinois) headquarters of The Church of Jesus Christ of Latter-day Saints, Mar. 1, 1841."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 101:77–78",
+    "Doctrine and Covenants 134:2",
+    "Doctrine and Covenants 134:4",
+    "Doctrine and Covenants 134:7"
+  ]
+}

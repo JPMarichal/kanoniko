@@ -743,6 +743,212 @@ _STATIC_MANUALS: list[ManualConfig] = [
         authority=55,
         tags=["education", "seminary", "institute", "calling", "teaching"],
     ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP E: Temple Preparation
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="preparing-to-enter-the-holy-temple",
+        slug="preparing-to-enter-the-holy-temple",
+        book="Preparing to Enter the Holy Temple",
+        output_subdir="manuals/temple-preparation",
+        authority=60,
+        tags=["temple", "covenants", "ordinances", "preparation"],
+        notes="2002; 12 topical sections on temple doctrine, worthiness, symbolism",
+    ),
+    ManualConfig(
+        key="endowed-from-on-high",
+        slug="endowed-from-on-high",
+        book="Endowed from on High: Temple Preparation Seminar Teacher's Manual",
+        output_subdir="manuals/temple-preparation",
+        authority=60,
+        tags=["temple", "covenants", "ordinances", "teacher", "preparation"],
+        notes="2003; 7-lesson teacher's manual for temple prep seminars",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP F: Scripture Helps & Teaching Skills
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="scripture-helps-ot",
+        slug="scripture-helps-old-testament",
+        book="Scripture Helps: Old Testament",
+        output_subdir="manuals/scripture-helps",
+        authority=57,
+        tags=["scripture-study", "old-testament", "study-aids"],
+        notes="Study aids companion for OT reading",
+    ),
+    ManualConfig(
+        key="scripture-helps-nt",
+        slug="scripture-helps-new-testament",
+        book="Scripture Helps: New Testament",
+        output_subdir="manuals/scripture-helps",
+        authority=57,
+        tags=["scripture-study", "new-testament", "study-aids"],
+        notes="Study aids companion for NT reading",
+    ),
+    ManualConfig(
+        key="scripture-study-skills",
+        slug="scripture-study-skills",
+        book="Scripture Study Skills Teacher Manual",
+        output_subdir="manuals/scripture-study-skills",
+        authority=55,
+        tags=["scripture-study", "teaching", "pedagogy"],
+    ),
+    ManualConfig(
+        key="principles-of-christlike-teaching",
+        slug="principles-of-christlike-teaching",
+        book="Principles of Christlike Teaching",
+        output_subdir="manuals/principles-of-christlike-teaching",
+        authority=55,
+        tags=["teaching", "pedagogy", "christlike-teaching"],
+        bilingual=False,
+        notes="EN-only; teaching principles companion",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP G: RS & Elders Quorum / General Conference
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="learning-from-general-conference",
+        slug="learning-from-general-conference",
+        book="Teaching, Learning, and Applying Messages from General Conference",
+        output_subdir="manuals/learning-from-general-conference",
+        authority=60,
+        tags=["general-conference", "relief-society", "elders-quorum", "teaching"],
+        notes="RS/EQ resource for applying conference messages in quorum/RS meetings",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP H: About the Hymns (pilot)
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="about-the-hymns",
+        slug="sacred-music-gospel-study-resource-pilot",
+        book="About the Hymns: Sacred Music Gospel Study Resource",
+        output_subdir="manuals/about-the-hymns",
+        authority=55,
+        tags=["music", "hymns", "gospel-study", "pilot"],
+        bilingual=False,
+        notes="Pilot resource (~70 entries); tied to new hymnbook; EN-only; content grows over time",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP I: Family Resources
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="marriage-and-family-relations",
+        slug="marriage-and-family-relations-instructors-manual",
+        book="Marriage and Family Relations Instructor's Manual",
+        output_subdir="manuals/family-resources",
+        authority=55,
+        tags=["family", "marriage", "teaching", "relationships"],
+        notes="Only the instructor's manual is web-hosted; participant guide is 404",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP J: Interfaith & Religious Freedom
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="muslims-and-latter-day-saints",
+        slug="muslims-and-latter-day-saints",
+        book="Muslims and Latter-day Saints: Beliefs, Values, and Lifestyles",
+        output_subdir="manuals/interfaith",
+        authority=45,
+        tags=["interfaith", "islam", "dialogue", "beliefs"],
+        notes="Unique interfaith dialogue resource; official Church publication",
+    ),
+    ManualConfig(
+        key="religious-freedom",
+        slug="religious-freedom",
+        book="Religious Freedom",
+        output_subdir="manuals/religious-freedom",
+        authority=50,
+        tags=["religious-freedom", "liberty", "civic", "public-affairs"],
+        bilingual=False,
+        notes="Official Church position on religious liberty; EN-only",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP K: Succeed in School
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="succeed-in-school",
+        slug="succeed-in-school-study-and-life-skills",
+        book="Succeed in School: Study and Life Skills",
+        output_subdir="manuals/succeed-in-school",
+        authority=45,
+        tags=["education", "youth", "life-skills", "study-skills"],
+        notes="2021; 44 lessons for youth; global education initiative",
+    ),
+    ManualConfig(
+        key="succeed-in-school-parent-guide",
+        slug="help-your-children-succeed-in-school-parent-guide",
+        book="Help Your Children Succeed in School: Parent Guide",
+        output_subdir="manuals/succeed-in-school",
+        authority=45,
+        tags=["education", "parents", "children", "school"],
+        notes="2021; 10-chapter guide for parents",
+    ),
+]
+
+
+# ── Self-Reliance courses ────────────────────────────────────────────────────
+# All share the same structure: 10-12 lesson workbooks, group-facilitated,
+# produced by Self-Reliance Services. Authority=55 (practical, not doctrinal).
+
+def _self_reliance_config(slug: str, book: str,
+                          tags: list[str] | None = None) -> ManualConfig:
+    """Build a ManualConfig for a Self-Reliance course."""
+    safe = slug.replace("-for-self-reliance", "").replace("-for-self-reliance", "")
+    return ManualConfig(
+        key=f"sr-{safe}",
+        slug=slug,
+        book=book,
+        output_subdir=f"manuals/self-reliance/{safe}",
+        authority=55,
+        tags=["self-reliance", "welfare"] + (tags or []),
+    )
+
+
+_SELF_RELIANCE: list[ManualConfig] = [
+    _self_reliance_config(
+        "personal-finances-for-self-reliance",
+        "Personal Finances for Self-Reliance",
+        ["finances", "budgeting"],
+    ),
+    _self_reliance_config(
+        "starting-and-growing-my-business-for-self-reliance",
+        "Starting and Growing My Business for Self-Reliance",
+        ["business", "entrepreneurship"],
+    ),
+    _self_reliance_config(
+        "find-a-better-job-for-self-reliance",
+        "Find a Better Job for Self-Reliance",
+        ["employment", "job-search"],
+    ),
+    _self_reliance_config(
+        "education-for-better-work-for-self-reliance",
+        "Education for Better Work for Self-Reliance",
+        ["education", "career"],
+    ),
+    _self_reliance_config(
+        "emotional-resilience-for-self-reliance",
+        "Finding Strength in the Lord: Emotional Resilience",
+        ["mental-health", "emotional-resilience", "atonement"],
+    ),
+    _self_reliance_config(
+        "my-foundation-for-self-reliance",
+        "My Foundation for Self-Reliance",
+        ["foundation", "principles"],
+    ),
 ]
 
 
@@ -864,6 +1070,8 @@ def _all_configs() -> dict[str, ManualConfig]:
             configs[pk] = c
     for cg in _CALLING_GUIDES:
         configs[cg.key] = cg
+    for sr in _SELF_RELIANCE:
+        configs[sr.key] = sr
     return configs
 
 
@@ -1004,6 +1212,8 @@ def main():
                         help="Download all Teachings of Presidents in sequence")
     parser.add_argument("--all-callings", action="store_true",
                         help="Download all My Calling guides in sequence")
+    parser.add_argument("--all-self-reliance", action="store_true",
+                        help="Download all Self-Reliance courses in sequence")
 
     args = parser.parse_args()
 
@@ -1027,6 +1237,8 @@ def main():
         targets = [t for t in targets if t]
     elif args.all_callings:
         targets = list(_CALLING_GUIDES)
+    elif args.all_self_reliance:
+        targets = list(_SELF_RELIANCE)
     elif args.cfm_year:
         targets = [_cfm_config(args.cfm_year)]
     elif args.manual == "come-follow-me":
