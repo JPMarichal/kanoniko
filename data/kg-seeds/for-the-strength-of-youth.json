@@ -1,0 +1,62 @@
+{
+  "name": "For the Strength of Youth (2022)",
+  "corpus_pattern": "*/manuals/for-the-strength-of-youth/*",
+  "confidence": "curated",
+  "description": "Folleto de estándares para la juventud (2022), ~20 temas. Autoridad=60. Organizado por principios (no mandamientos) con preguntas de reflexión. La edición 2022 adopta un enfoque basado en el discernimiento personal más que en reglas explícitas. Alta frecuencia de citas de GAs actuales. Bajo volumen (~20 documentos) pero alta visibilidad — es el material de referencia estándar para jóvenes activos.",
+  "entities": [
+    {"name": "For the Strength of Youth", "type": "work", "aliases": ["FSY", "Para la Fortaleza de la Juventud", "youth standards booklet"]},
+    {"name": "Law of Chastity", "type": "concept", "aliases": ["ley de castidad", "law of sexual purity", "chastity standard"]},
+    {"name": "Covenant Path", "type": "concept", "aliases": ["senda del convenio", "covenant journey"]},
+    {"name": "Digital Citizenship", "type": "concept", "aliases": ["ciudadanía digital", "media use", "social media standards"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Law of Chastity",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "For the Strength of Youth",
+      "to_type": "work",
+      "source_ref": "FSY 2022 'Chastity' section — sexual purity as protection and preparation for temple covenants"
+    },
+    {
+      "from_name": "Sabbath Day",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "For the Strength of Youth",
+      "to_type": "work",
+      "source_ref": "FSY 2022 'Sabbath' — Sunday observance as covenant renewal through sacrament"
+    },
+    {
+      "from_name": "Word of Wisdom",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "For the Strength of Youth",
+      "to_type": "work",
+      "source_ref": "FSY 2022 'Physical Health' — health standards including Word of Wisdom"
+    },
+    {
+      "from_name": "Temple Ordinances",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "For the Strength of Youth",
+      "to_type": "work",
+      "source_ref": "FSY 2022 'Temples' — worthiness standards as preparation for temple covenants"
+    },
+    {
+      "from_name": "Covenant Path",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "For the Strength of Youth",
+      "to_type": "work",
+      "source_ref": "FSY 2022 — covenant path as organizing framework; baptism → endowment → sealing"
+    },
+    {
+      "from_name": "D&C 89:18-21",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "For the Strength of Youth",
+      "to_type": "work",
+      "source_ref": "FSY 2022 'Physical Health' — Word of Wisdom blessings as Doctrinal Mastery passage"
+    }
+  ]
+}

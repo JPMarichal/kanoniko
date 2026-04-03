@@ -19,9 +19,15 @@
 - [feedback_proactive_kg_associations.md](feedback_proactive_kg_associations.md) — Proactively add any new data association to the KG; every linkable datum is an opportunity
 - [feedback_corpus_query_strategy.md](feedback_corpus_query_strategy.md) — Corpus questions: knowledge first, KG to structure, 2-5 surgical API calls max, never exhaustive subagent
 - [dev_machine.md](dev_machine.md) — Laptop with NVIDIA RTX PRO 500 Blackwell 6GB, Rancher Desktop (WSL2), no Docker GPU yet; user depends on Rancher for work
-- [reference_church_api.md](reference_church_api.md) — Church site JSON API at /study/api/v3/language-pages/type/content; returns HTML in JSON, works for some pages
+- [reference_church_api.md](reference_church_api.md) — Church site API v3: URI = strip /study from page path; works for manuals/conference, less for study aids
+- [reference_church_site_download_patterns.md](reference_church_site_download_patterns.md) — Complete download patterns: API vs HTML strategy, URL formats, TOC discovery, output conventions, CLI args, authority levels, new-script recipe
 - [reference_citation_norms.md](reference_citation_norms.md) — Formal citation norms in docs/citation-norms.md: scriptures, TG/BD/GEE/JST, intros, conference, FCD format
+- [feedback_citation_style.md](feedback_citation_style.md) — Citations always inline/parenthetical (never isolated line); GA titles use highest known rank
 - [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
 - [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
 - [feedback_batch_neo4j.md](feedback_batch_neo4j.md) — Always batch Neo4j writes (UNWIND); individual calls = 19h, batched = 30min
+- [feedback_bilingual_dedup.md](feedback_bilingual_dedup.md) — Report unique counts, not EN+ES sum; 50 bilingual records = 25 unique items
+- [feedback_user_facing_language.md](feedback_user_facing_language.md) — No system jargon (corpus, KG, FTS) in user-facing responses; use natural language ("las Autoridades Generales han dicho")
 - [vision_scripture_commentary.md](vision_scripture_commentary.md) — Conference talks as scripture commentary base: exegesis via precise citations, thematic cross-referencing
+- [feedback_footnotes_essential.md](feedback_footnotes_essential.md) — Footnotes are essential content: always download, put in both .txt and .meta.json; they feed KG relations and RAG
+- [procedure_corpus_addition.md](procedure_corpus_addition.md) — 5-step procedure for adding corpus material: classify, authority, KG analysis, format, index

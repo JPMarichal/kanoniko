@@ -1,0 +1,85 @@
+{
+  "name": "Gospel Topics Essays",
+  "corpus_pattern": "*/manuals/gospel-topics-essays/*",
+  "confidence": "curated",
+  "description": "15 ensayos aprobados por la Primera Presidencia sobre temas histórico-doctrinales sensibles. Única fuente en el corpus donde la Iglesia aborda estas preguntas oficialmente.",
+  "entities": [
+    {"name": "Gospel Topics Essays", "type": "work", "aliases": ["Gospel Topics Essays (Church)"]},
+    {"name": "Plural Marriage", "type": "concept", "aliases": ["polygamy", "celestial marriage (plural)", "polygyny", "matrimonio plural", "poligamia"]},
+    {"name": "Priesthood Restriction", "type": "concept", "aliases": ["race restriction", "Black priesthood ban", "restricción del sacerdocio por raza"]},
+    {"name": "Curse of Cain", "type": "concept", "aliases": ["mark of Cain", "maldición de Caín", "Curse of Ham"]},
+    {"name": "Official Declaration 1", "type": "document", "aliases": ["Manifesto", "1890 Manifesto", "OD1", "Manifiesto de 1890"]},
+    {"name": "Official Declaration 2", "type": "document", "aliases": ["1978 revelation", "OD2", "Revelación de 1978"]},
+    {"name": "Elijah Abel", "type": "person", "aliases": []},
+    {"name": "Jane Manning James", "type": "person", "aliases": ["Jane James"]},
+    {"name": "Q. Walker Lewis", "type": "person", "aliases": []},
+    {"name": "Reed Smoot", "type": "person", "aliases": []},
+    {"name": "Bruce R. McConkie", "type": "person", "aliases": []},
+    {"name": "Emma Smith", "type": "person", "aliases": ["Emma Hale Smith"]},
+    {"name": "São Paulo Temple", "type": "place", "aliases": ["Brazil Temple", "Templo de São Paulo"]},
+    {"name": "Council in Heaven", "type": "event", "aliases": ["Gran Consejo del Cielo", "premortal council"]},
+    {"name": "War in Heaven", "type": "event", "aliases": ["Guerra en el Cielo"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Joseph Smith", "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Plural Marriage", "to_type": "concept",
+      "source_ref": "D&C 132:34-38; Gospel Topics Essays: Plural Marriage"
+    },
+    {
+      "from_name": "Wilford Woodruff", "from_type": "person",
+      "rel_type": "REVOKED",
+      "to_name": "Plural Marriage", "to_type": "concept",
+      "source_ref": "Official Declaration 1 (1890)"
+    },
+    {
+      "from_name": "Spencer W. Kimball", "from_type": "person",
+      "rel_type": "REVOKED",
+      "to_name": "Priesthood Restriction", "to_type": "concept",
+      "source_ref": "Official Declaration 2 (1978)"
+    },
+    {
+      "from_name": "Brigham Young", "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Priesthood Restriction", "to_type": "concept",
+      "source_ref": "1852 public announcement; Race and the Priesthood essay"
+    },
+    {
+      "from_name": "Elijah Abel", "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Priesthood Restriction", "to_type": "concept",
+      "source_ref": "Race and the Priesthood essay — Abel was an exception ordained under Joseph Smith"
+    },
+    {
+      "from_name": "Curse of Cain", "from_type": "concept",
+      "rel_type": "DISAVOWED",
+      "to_name": "The Church of Jesus Christ of Latter-day Saints", "to_type": "organization",
+      "source_ref": "Race and the Priesthood essay"
+    },
+    {
+      "from_name": "Official Declaration 2", "from_type": "document",
+      "rel_type": "PRECEDED_BY",
+      "to_name": "Official Declaration 1", "to_type": "document",
+      "source_ref": "D&C Canonized sequence"
+    },
+    {
+      "from_name": "Official Declaration 2", "from_type": "document",
+      "rel_type": "ADDRESSED_BY",
+      "to_name": "Priesthood Restriction", "to_type": "concept",
+      "source_ref": "Race and the Priesthood essay"
+    },
+    {
+      "from_name": "São Paulo Temple", "from_type": "place",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Official Declaration 2", "to_type": "document",
+      "source_ref": "Race and the Priesthood essay — Brazilian temple construction precipitated the 1978 revelation"
+    },
+    {
+      "from_name": "D&C 132", "from_type": "scripture_reference",
+      "rel_type": "ADDRESSED_BY",
+      "to_name": "Plural Marriage", "to_type": "concept",
+      "source_ref": "Gospel Topics Essays: Plural Marriage in the Church"
+    }
+  ]
+}

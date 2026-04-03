@@ -1,0 +1,477 @@
+{
+  "name": "LDS Hymn Collections",
+  "corpus_pattern": "*/music/*",
+  "confidence": "curated",
+  "description": "Five LDS hymn collections: Hymns (classic, 1985/2002, 341 hymns), Hymns for Home and Church (new 2024 pilot, 72 hymns), Children's Songbook (1989, 148 songs), Youth Music (albums 2019-2023), and Hymn Helps (study aids). Key authors include William W. Phelps, Eliza R. Snow, Parley P. Pratt, and John Nicholson (LDS originals); also major Protestant crossovers (Watts, Wesley, Adams). D&C 25:12 designates song of the heart as a prayer; this is the canonical warrant for congregational hymnody in the Restoration. Notable: ~20 hymns appear in both classic Hymns and Hymns for Home and Church, and several are direct scripture paraphrases (e.g., Psalm 100 → 'All People That on Earth Do Dwell'; Isaiah 6 → 'Holy, Holy, Holy'; D&C 121 → 'How Gentle God's Commands' by tradition).",
+  "entities": [
+    {"name": "Hymns (LDS)", "type": "work", "aliases": ["LDS Hymnbook", "Himnos", "1985 Hymnbook", "Hymns of The Church of Jesus Christ of Latter-day Saints"]},
+    {"name": "Hymns for Home and Church", "type": "work", "aliases": ["New Hymnal 2024", "Himnos para el Hogar y la Iglesia", "2024 hymnal pilot"]},
+    {"name": "Children's Songbook (LDS)", "type": "work", "aliases": ["Children's Songbook", "Libro de Canciones para Niños", "CSB"]},
+    {"name": "Youth Music (LDS)", "type": "work", "aliases": ["Hope of Israel album", "Welcome Home album", "Raise a Voice album", "Gather Israel album"]},
+    {"name": "Hymn Helps", "type": "work", "aliases": ["About the Hymns", "Sacred Music Gospel Study Resource", "hymn study aids"]},
+
+    {"name": "William W. Phelps", "type": "person", "aliases": ["W. W. Phelps"]},
+    {"name": "Eliza R. Snow", "type": "person", "aliases": ["Eliza Roxcy Snow", "E. R. Snow"]},
+    {"name": "Parley P. Pratt", "type": "person", "aliases": ["P. P. Pratt"]},
+    {"name": "John Nicholson", "type": "person", "aliases": []},
+    {"name": "Edward L. Hart", "type": "person", "aliases": []},
+    {"name": "Karen Lynn Davidson", "type": "person", "aliases": []},
+    {"name": "Joseph L. Townsend", "type": "person", "aliases": []},
+    {"name": "Ruth Muir Gardner", "type": "person", "aliases": []},
+    {"name": "Vanja Y. Watkins", "type": "person", "aliases": []},
+    {"name": "William Fowler", "type": "person", "aliases": []},
+    {"name": "Caroline Sherwood", "type": "person", "aliases": []},
+    {"name": "William Clayton", "type": "person", "aliases": []},
+    {"name": "Joel H. Johnson", "type": "person", "aliases": []},
+    {"name": "Naomi W. Randall", "type": "person", "aliases": []},
+    {"name": "Mildred T. Pettit", "type": "person", "aliases": []},
+    {"name": "George Manwaring", "type": "person", "aliases": []},
+    {"name": "Carl Boberg", "type": "person", "aliases": []},
+    {"name": "Samuel Medley", "type": "person", "aliases": []},
+    {"name": "Isaac Watts", "type": "person", "aliases": []},
+    {"name": "Charles Wesley", "type": "person", "aliases": []},
+    {"name": "John Wesley", "type": "person", "aliases": []},
+    {"name": "Sarah F. Adams", "type": "person", "aliases": []},
+    {"name": "James Montgomery", "type": "person", "aliases": []},
+    {"name": "Thomas Ken", "type": "person", "aliases": []},
+    {"name": "Reginald Heber", "type": "person", "aliases": []},
+    {"name": "Joseph Swain", "type": "person", "aliases": []},
+
+    {"name": "Alexander Schreiner", "type": "person", "aliases": []},
+    {"name": "Leroy J. Robertson", "type": "person", "aliases": []},
+    {"name": "Tracy Y. Cannon", "type": "person", "aliases": []},
+    {"name": "Evan Stephens", "type": "person", "aliases": []},
+    {"name": "George Careless", "type": "person", "aliases": []},
+    {"name": "Crawford Gates", "type": "person", "aliases": []},
+    {"name": "Ebenezer Beesley", "type": "person", "aliases": []},
+
+    {"name": "The Spirit of God", "type": "work", "aliases": ["The Spirit of God Like a Fire Is Burning", "El espíritu de Dios cual fuego celestial"]},
+    {"name": "O My Father", "type": "work", "aliases": ["Oh, mi Padre", "O My Father (hymn)"]},
+    {"name": "Praise to the Man", "type": "work", "aliases": ["Alabanzas dad al hombre"]},
+    {"name": "Come, Come, Ye Saints", "type": "work", "aliases": ["Venid, santos, venid", "All Is Well (hymn)"]},
+    {"name": "I Am a Child of God", "type": "work", "aliases": ["Soy hijo de Dios", "I Am a Child of God (song)"]},
+    {"name": "How Great Thou Art", "type": "work", "aliases": ["Oh Señor mío", "O Store Gud"]},
+    {"name": "I Know That My Redeemer Lives", "type": "work", "aliases": ["Sé que vive mi Señor"]},
+    {"name": "Nearer, My God, to Thee", "type": "work", "aliases": ["Más cerca, Dios, de Ti"]},
+    {"name": "Battle Hymn of the Republic", "type": "work", "aliases": ["Mine Eyes Have Seen the Glory", "Himno de Batalla de la República"]},
+    {"name": "We Thank Thee, O God, for a Prophet", "type": "work", "aliases": ["Te damos gracias, oh Dios, por profeta"]},
+    {"name": "High on the Mountain Top", "type": "work", "aliases": ["Alto en la cima del monte"]},
+    {"name": "The Morning Breaks", "type": "work", "aliases": ["Rompe la aurora"]},
+    {"name": "Now Let Us Rejoice", "type": "work", "aliases": ["Regocijémonos"]},
+    {"name": "Truth Eternal", "type": "work", "aliases": ["La verdad eterna"]},
+    {"name": "Redeemer of Israel", "type": "work", "aliases": ["Redentor de Israel"]},
+    {"name": "Guide Us, O Thou Great Jehovah", "type": "work", "aliases": ["Guíanos, gran Jehová", "Guide Us, O Thou Great Redeemer"]},
+    {"name": "Rock of Ages", "type": "work", "aliases": ["Oh Roca de edades"]},
+    {"name": "Abide with Me", "type": "work", "aliases": ["Permanece con nosotros", "Abide with Me! 'Tis Eventide"]},
+    {"name": "Jesus, Once of Humble Birth", "type": "work", "aliases": ["Jesús, nacido en humildad"]},
+    {"name": "Joseph Smith's First Prayer", "type": "work", "aliases": ["Oh, ¿cómo podría estar tan solo?", "Oh How Lovely Was the Morning"]},
+    {"name": "Praise to the Lord the Almighty", "type": "work", "aliases": ["Praise to the Lord", "Lobe den Herren"]},
+    {"name": "A Poor Wayfaring Man of Grief", "type": "work", "aliases": ["Un pobre peregrino", "The Seven Sevens"]},
+    {"name": "Sweet Hour of Prayer", "type": "work", "aliases": ["Dulce hora de oración"]},
+    {"name": "Called to Serve", "type": "work", "aliases": ["Llamados a servir"]},
+    {"name": "As I Have Loved You", "type": "work", "aliases": ["Como os he amado yo"]},
+    {"name": "Love One Another", "type": "work", "aliases": ["Amaos los unos a los otros"]},
+    {"name": "Keep the Commandments", "type": "work", "aliases": ["Guarda los mandamientos"]},
+    {"name": "Families Can Be Together Forever", "type": "work", "aliases": ["Las familias pueden estar unidas para siempre"]},
+    {"name": "Teach Me to Walk in the Light", "type": "work", "aliases": ["Enséñame a caminar en la luz"]},
+    {"name": "A Child's Prayer", "type": "work", "aliases": ["La oración de un niño"]},
+    {"name": "Follow the Prophet", "type": "work", "aliases": ["Sigue al profeta"]},
+    {"name": "Choose the Right", "type": "work", "aliases": ["CTR", "Escoge lo bueno"]},
+    {"name": "Kirtland Temple Dedication", "type": "event", "aliases": ["dedicación del Templo de Kirtland", "March 27 1836 dedication"]},
+    {"name": "Pioneer Trek", "type": "event", "aliases": ["westward migration", "migración al oeste", "pioneer exodus"]},
+    {"name": "First Vision", "type": "event", "aliases": ["Sacred Grove", "primera visión", "First Vision 1820"]},
+    {"name": "Missionary Work", "type": "concept", "aliases": ["work of salvation", "obra misional"]},
+    {"name": "Divine Sonship", "type": "concept", "aliases": ["children of God", "hijos de Dios", "spirit children of Heavenly Father"]},
+    {"name": "Eternal Family", "type": "concept", "aliases": ["eternal families", "familia eterna"]},
+    {"name": "Creation", "type": "concept", "aliases": ["la Creación", "creative acts of God"]},
+    {"name": "Zion", "type": "concept", "aliases": ["Sión", "New Jerusalem"]},
+    {"name": "Gathering of Israel", "type": "concept", "aliases": ["gathering", "congregación de Israel"]},
+    {"name": "Exodus", "type": "event", "aliases": ["Israelite Exodus", "éxodo israelita"]},
+    {"name": "Genesis 28:11-19", "type": "scripture_reference", "aliases": ["Jacob's ladder", "Bethel vision"]},
+    {"name": "Isaiah 2:2", "type": "scripture_reference", "aliases": []},
+    {"name": "Congregational Singing", "type": "concept", "aliases": ["sacred music", "música sacra", "hymnody", "congregational worship"]},
+    {"name": "D&C 25:12", "type": "scripture_reference", "aliases": []},
+    {"name": "Psalm 100", "type": "scripture_reference", "aliases": []},
+    {"name": "Isaiah 6:3", "type": "scripture_reference", "aliases": []},
+    {"name": "Revelation 4:8", "type": "scripture_reference", "aliases": []},
+    {"name": "Doctrine and Covenants 25", "type": "scripture_reference", "aliases": ["D&C 25"]}
+  ],
+  "relations": [
+    {
+      "from_name": "William W. Phelps",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "The Spirit of God",
+      "to_type": "work",
+      "source_ref": "Hymns #2; sung at Kirtland Temple dedication, March 27, 1836 (D&C 109). Text: W. W. Phelps, 1836."
+    },
+    {
+      "from_name": "William W. Phelps",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Now Let Us Rejoice",
+      "to_type": "work",
+      "source_ref": "Hymns #3; Text: W. W. Phelps, 1833. One of the earliest Restoration hymns."
+    },
+    {
+      "from_name": "William W. Phelps",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Praise to the Man",
+      "to_type": "work",
+      "source_ref": "Hymns #27; Text: W. W. Phelps, 1844. Eulogistic hymn to Joseph Smith written shortly after his martyrdom."
+    },
+    {
+      "from_name": "Parley P. Pratt",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "The Morning Breaks",
+      "to_type": "work",
+      "source_ref": "Hymns #1; Text: Parley P. Pratt, 1840. Millennial Star v1. Opening hymn of classic hymnbook."
+    },
+    {
+      "from_name": "Parley P. Pratt",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Jesus, Once of Humble Birth",
+      "to_type": "work",
+      "source_ref": "Hymns #196; Text: Parley P. Pratt, 1840. Second Coming contrast hymn."
+    },
+    {
+      "from_name": "George Careless",
+      "from_type": "person",
+      "rel_type": "COMPOSED",
+      "to_name": "The Morning Breaks",
+      "to_type": "work",
+      "source_ref": "Hymns #1; Music: George Careless."
+    },
+    {
+      "from_name": "Eliza R. Snow",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "O My Father",
+      "to_type": "work",
+      "source_ref": "Hymns #292; Text: Eliza R. Snow, 1845. Contains the doctrine of Heavenly Mother ('truth is reason; truth eternal, tells me I've a mother there'). Sung at Brigham Young's funeral."
+    },
+    {
+      "from_name": "Eliza R. Snow",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Truth Eternal",
+      "to_type": "work",
+      "source_ref": "Hymns #4; Text: Eliza R. Snow, 1845."
+    },
+    {
+      "from_name": "Joel H. Johnson",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "High on the Mountain Top",
+      "to_type": "work",
+      "source_ref": "Hymns #5; Text: Joel H. Johnson, 1853."
+    },
+    {
+      "from_name": "Ebenezer Beesley",
+      "from_type": "person",
+      "rel_type": "COMPOSED",
+      "to_name": "High on the Mountain Top",
+      "to_type": "work",
+      "source_ref": "Hymns #5; Music: Ebenezer Beesley, 1889."
+    },
+    {
+      "from_name": "William Fowler",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "We Thank Thee, O God, for a Prophet",
+      "to_type": "work",
+      "source_ref": "Hymns #19; Text: William Fowler, 1863. Most commonly sung hymn in sacrament meetings worldwide."
+    },
+    {
+      "from_name": "Caroline Sherwood",
+      "from_type": "person",
+      "rel_type": "COMPOSED",
+      "to_name": "We Thank Thee, O God, for a Prophet",
+      "to_type": "work",
+      "source_ref": "Hymns #19; Music: Caroline Sherwood, 1891."
+    },
+    {
+      "from_name": "William Clayton",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Come, Come, Ye Saints",
+      "to_type": "work",
+      "source_ref": "Hymns #30; Text: William Clayton, 1846. Written on the trail to Winter Quarters. Pioneer anthem of the Restoration."
+    },
+    {
+      "from_name": "Sarah F. Adams",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Nearer, My God, to Thee",
+      "to_type": "work",
+      "source_ref": "Hymns #100; Text: Sarah F. Adams, 1841 (Protestant). Sung on the Titanic; one of the most universally recognized hymns in the LDS hymnbook."
+    },
+    {
+      "from_name": "Joseph Swain",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Redeemer of Israel",
+      "to_type": "work",
+      "source_ref": "Hymns #6; Text: Joseph Swain, 1791. Music: Freeman Lewis, 1813. Strong Restoration messianic imagery."
+    },
+    {
+      "from_name": "James Montgomery",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "A Poor Wayfaring Man of Grief",
+      "to_type": "work",
+      "source_ref": "Hymns #29; Text: James Montgomery, 1826. Music: George Coles, 1835. Sung by John Taylor at Carthage Jail the day Joseph Smith was martyred."
+    },
+    {
+      "from_name": "Naomi W. Randall",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "I Am a Child of God",
+      "to_type": "work",
+      "source_ref": "Children's Songbook #2; Text: Naomi W. Randall, 1957. Music: Mildred T. Pettit, 1957. Most widely known LDS children's song worldwide; also included in Hymns for Home and Church."
+    },
+    {
+      "from_name": "Mildred T. Pettit",
+      "from_type": "person",
+      "rel_type": "COMPOSED",
+      "to_name": "I Am a Child of God",
+      "to_type": "work",
+      "source_ref": "Children's Songbook #2; Music: Mildred T. Pettit, 1957."
+    },
+    {
+      "from_name": "Ruth Muir Gardner",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Families Can Be Together Forever",
+      "to_type": "work",
+      "source_ref": "Children's Songbook #188; Text: Ruth Muir Gardner, 1980. Music: Vanja Y. Watkins, 1980. Doctrinal anchor hymn for eternal families."
+    },
+    {
+      "from_name": "George Manwaring",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Joseph Smith's First Prayer",
+      "to_type": "work",
+      "source_ref": "Hymns #26; Text: George Manwaring, 1878. Narrates the Sacred Grove experience."
+    },
+    {
+      "from_name": "Carl Boberg",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "How Great Thou Art",
+      "to_type": "work",
+      "source_ref": "Hymns #86; Original Swedish text 'O Store Gud' by Carl Boberg, 1885. English trans. Stuart K. Hine, 1949."
+    },
+    {
+      "from_name": "Samuel Medley",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "I Know That My Redeemer Lives",
+      "to_type": "work",
+      "source_ref": "Hymns #136; Text: Samuel Medley, 1775. Easter and Resurrection hymn; alludes to Job 19:25."
+    },
+    {
+      "from_name": "Joseph L. Townsend",
+      "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "Choose the Right",
+      "to_type": "work",
+      "source_ref": "Hymns #239; Text: Joseph L. Townsend, 1909. Music: Henry A. Tuckett. One of the most-sung children/youth hymns in the LDS corpus."
+    },
+    {
+      "from_name": "D&C 25:12",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Congregational Singing",
+      "to_type": "concept",
+      "source_ref": "D&C 25:12 — 'the song of the righteous is a prayer unto me, and it shall be answered with a blessing upon their heads.' Canonical LDS warrant for sacred music."
+    },
+    {
+      "from_name": "The Spirit of God",
+      "from_type": "work",
+      "rel_type": "PERFORMED_AT",
+      "to_name": "Kirtland Temple Dedication",
+      "to_type": "event",
+      "source_ref": "March 27, 1836; D&C 109. First hymn sung at the dedication of the first LDS temple. Also sung at every subsequent temple dedication."
+    },
+    {
+      "from_name": "O My Father",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Heavenly Mother",
+      "to_type": "person",
+      "source_ref": "Hymns #292; Eliza R. Snow, 1845 — 'truth is reason; truth eternal, tells me I've a mother there.' Primary doctrinal source cited in Gospel Topics Essay on Heavenly Mother."
+    },
+    {
+      "from_name": "Come, Come, Ye Saints",
+      "from_type": "work",
+      "rel_type": "ASSOCIATED_WITH",
+      "to_name": "Pioneer Trek",
+      "to_type": "event",
+      "source_ref": "Written by William Clayton, April 15, 1846, during the westward migration. Pioneer anthem of the Restoration movement."
+    },
+    {
+      "from_name": "A Poor Wayfaring Man of Grief",
+      "from_type": "work",
+      "rel_type": "ASSOCIATED_WITH",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "Hymns #29; Sung by John Taylor at Carthage Jail on June 27, 1844, just before the martyrdom of Joseph and Hyrum Smith."
+    },
+    {
+      "from_name": "Praise to the Man",
+      "from_type": "work",
+      "rel_type": "COMMEMORATES",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "Hymns #27; W. W. Phelps, 1844. Written as a eulogy immediately after the martyrdom. 'Mingling with Gods, he can plan for his brethren.'"
+    },
+    {
+      "from_name": "Hymns (LDS)",
+      "from_type": "work",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "D&C 25:12",
+      "to_type": "scripture_reference",
+      "source_ref": "D&C 25:12 is the scriptural mandate cited in the official preface to every edition of the LDS hymnbook."
+    },
+    {
+      "from_name": "I Am a Child of God",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Divine Sonship",
+      "to_type": "concept",
+      "source_ref": "Children's Songbook #2; doctrinal anchor for LDS identity theology — every person is literally a spirit child of Heavenly Father."
+    },
+    {
+      "from_name": "Families Can Be Together Forever",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Eternal Family",
+      "to_type": "concept",
+      "source_ref": "Children's Songbook #188; doctrinal anchor for temple sealing and eternal family theology."
+    },
+    {
+      "from_name": "How Great Thou Art",
+      "from_type": "work",
+      "rel_type": "ASSOCIATED_WITH",
+      "to_name": "Creation",
+      "to_type": "concept",
+      "source_ref": "Hymns #86; Text: Carl Boberg, 1885 (Swedish original 'O Store Gud'). Trans. Stuart K. Hine, 1949. Included in both classic Hymns and Hymns for Home and Church."
+    },
+    {
+      "from_name": "I Know That My Redeemer Lives",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Resurrection",
+      "to_type": "concept",
+      "source_ref": "Hymns #136; Text: Samuel Medley, 1775. Music: Lewis D. Edwards, 1851. Easter hymn. Job 19:25 direct allusion."
+    },
+    {
+      "from_name": "Called to Serve",
+      "from_type": "work",
+      "rel_type": "ASSOCIATED_WITH",
+      "to_name": "Missionary Work",
+      "to_type": "concept",
+      "source_ref": "Hymns #249; Text: Grace Gordon, 1933. Music: Adam Geibel, 1901. Unofficial anthem of LDS missionary service."
+    },
+    {
+      "from_name": "Joseph Smith's First Prayer",
+      "from_type": "work",
+      "rel_type": "COMMEMORATES",
+      "to_name": "First Vision",
+      "to_type": "event",
+      "source_ref": "Hymns #26; Text: George Manwaring, 1878. Music: Sylvanus Billings Pond, 1781 (arr.). Narrates the Sacred Grove experience."
+    },
+    {
+      "from_name": "High on the Mountain Top",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Zion",
+      "to_type": "concept",
+      "source_ref": "Hymns #5; Text: Joel H. Johnson, 1853. Based on Isaiah 2:2-3 / Micah 4:1-2 — the mountain of the Lord's house."
+    },
+    {
+      "from_name": "High on the Mountain Top",
+      "from_type": "work",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Isaiah 2:2",
+      "to_type": "scripture_reference",
+      "source_ref": "The image 'high on the mountain top' alludes directly to Isaiah 2:2 and Micah 4:1."
+    },
+    {
+      "from_name": "Redeemer of Israel",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Gathering of Israel",
+      "to_type": "concept",
+      "source_ref": "Hymns #6; 'Redeemer of Israel... when shall our sorrowing cease?' — Restoration-era gathering theology."
+    },
+    {
+      "from_name": "Hymns for Home and Church",
+      "from_type": "work",
+      "rel_type": "CONTAINS",
+      "to_name": "I Am a Child of God",
+      "to_type": "work",
+      "source_ref": "Hymns for Home and Church 2024 pilot. I Am a Child of God included as one of 72 hymns, bridging Children's Songbook into congregation."
+    },
+    {
+      "from_name": "Hymns for Home and Church",
+      "from_type": "work",
+      "rel_type": "CONTAINS",
+      "to_name": "How Great Thou Art",
+      "to_type": "work",
+      "source_ref": "Hymns for Home and Church 2024 pilot — cross-collection inclusion."
+    },
+    {
+      "from_name": "Hymns for Home and Church",
+      "from_type": "work",
+      "rel_type": "CONTAINS",
+      "to_name": "Come, Come, Ye Saints",
+      "to_type": "work",
+      "source_ref": "Hymns for Home and Church 2024 — pioneer hymn retained in new collection."
+    },
+    {
+      "from_name": "Hymns for Home and Church",
+      "from_type": "work",
+      "rel_type": "CONTAINS",
+      "to_name": "We Thank Thee, O God, for a Prophet",
+      "to_type": "work",
+      "source_ref": "Hymns for Home and Church 2024 — most commonly sung sacrament hymn retained."
+    },
+    {
+      "from_name": "Hymns for Home and Church",
+      "from_type": "work",
+      "rel_type": "CONTAINS",
+      "to_name": "O My Father",
+      "to_type": "work",
+      "source_ref": "Hymns for Home and Church 2024 — Eliza R. Snow's Heavenly Mother hymn retained for doctrinal weight."
+    },
+    {
+      "from_name": "Nearer, My God, to Thee",
+      "from_type": "work",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Genesis 28:11-19",
+      "to_type": "scripture_reference",
+      "source_ref": "Hymns #100; The hymn is an extended meditation on Jacob's ladder vision (Genesis 28). Text: Sarah F. Adams, 1841."
+    },
+    {
+      "from_name": "Guide Us, O Thou Great Jehovah",
+      "from_type": "work",
+      "rel_type": "TEACHES",
+      "to_name": "Gathering of Israel",
+      "to_type": "concept",
+      "source_ref": "Hymns #83; Text: William Williams, 1745. Music: Thomas Hastings, 1830. Exodus typology — bread of heaven, water from the rock, Jordan crossing."
+    },
+    {
+      "from_name": "Guide Us, O Thou Great Jehovah",
+      "from_type": "work",
+      "rel_type": "TYPOLOGICAL_PARALLEL",
+      "to_name": "Exodus",
+      "to_type": "event",
+      "source_ref": "Hymns #83 — imagery maps directly to the Israelite Exodus: pillar of fire, manna, crossing Jordan."
+    }
+  ]
+}

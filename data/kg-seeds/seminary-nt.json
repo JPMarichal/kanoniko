@@ -1,0 +1,102 @@
+{
+  "name": "New Testament Seminary Student Manual (2023)",
+  "corpus_pattern": "*/manuals/seminary/new-testament-student/*",
+  "confidence": "curated",
+  "description": "Manual de seminario para el Nuevo Testamento (2023), ~180 lecciones. Incluye Joseph Smith—Matthew 1 como texto NT. Puntos de alto valor KG: genealogía de Mateo 1 con las 5 mujeres nombradas (única fuente del corpus para estas relaciones), Discurso de Despedida de Juan 13-17 en múltiples lecciones separadas, y ~25 pasajes Doctrinal Mastery NT designados.",
+  "entities": [
+    {"name": "New Testament Seminary Student Manual 2023", "type": "work", "aliases": ["NT Seminary 2023", "NT Seminario 2023"]},
+    {"name": "Farewell Discourse", "type": "concept", "aliases": ["John 13-17", "Upper Room Discourse", "Discurso de Despedida"]},
+    {"name": "Keys of the Kingdom", "type": "concept", "aliases": ["priesthood keys (kingdom)", "Matthew 16:18-19 keys", "llaves del reino"]},
+    {"name": "Sermon on the Mount", "type": "concept", "aliases": ["Sermón del Monte", "Matthew 5-7", "Beatitudes sermon"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Peter",
+      "from_type": "person",
+      "rel_type": "RECEIVED_KEYS_FROM",
+      "to_name": "Jesus Christ",
+      "to_type": "person",
+      "source_ref": "NT Seminary Mt 16:18-19 (Doctrinal Mastery) — 'I will give unto thee the keys of the kingdom'"
+    },
+    {
+      "from_name": "Matthew 16:15-19",
+      "from_type": "scripture_reference",
+      "rel_type": "DESIGNATED_AS",
+      "to_name": "Doctrinal Mastery Core Document",
+      "to_type": "work",
+      "source_ref": "NT Seminary DM passages — priesthood keys"
+    },
+    {
+      "from_name": "James 1:5-6",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "First Vision",
+      "to_type": "event",
+      "source_ref": "NT Seminary; Joseph Smith—History 1:11-13 — James 1:5 was the scripture that prompted the First Vision"
+    },
+    {
+      "from_name": "Holy Ghost",
+      "from_type": "person",
+      "rel_type": "TITLED",
+      "to_name": "Comforter",
+      "to_type": "concept",
+      "source_ref": "NT Seminary Jn 14:16-17 — 'I will pray the Father, and he shall give you another Comforter'"
+    },
+    {
+      "from_name": "Farewell Discourse",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "John 14",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary — John 13-17 treated as 3+ separate lessons; highest lesson density in the manual"
+    },
+    {
+      "from_name": "Sacrament",
+      "from_type": "ordinance",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Matthew 26:26-30",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary Mt 26:26-30 (Doctrinal Mastery) — institution of the sacrament"
+    },
+    {
+      "from_name": "Jesus Christ",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Matthew 1",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary Mt 1 — genealogy includes Tamar, Rahab, Ruth, Bathsheba, Mary as named women"
+    },
+    {
+      "from_name": "Tamar",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Matthew 1",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary Mt 1:3 — included in genealogy of Christ; Genesis 38 background"
+    },
+    {
+      "from_name": "Rahab",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Matthew 1",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary Mt 1:5 — included in genealogy of Christ; Joshua 2 background"
+    },
+    {
+      "from_name": "Bathsheba",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Matthew 1",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary Mt 1:6 — 'her that had been the wife of Urias'; 2 Samuel 11"
+    },
+    {
+      "from_name": "Joseph Smith—Matthew",
+      "from_type": "document",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Matthew 24",
+      "to_type": "scripture_reference",
+      "source_ref": "NT Seminary — JS-M 1 treated as NT text; Doctrinal Mastery passage on Second Coming signs"
+    }
+  ]
+}

@@ -1,27 +1,22 @@
 ---
 name: Church Site JSON API
-description: churchofjesuschrist.org has a JSON API at /study/api/v3/language-pages/type/content that returns HTML content in JSON wrapper; useful for dynamic pages
+description: churchofjesuschrist.org API v3 endpoint — URI format rules, response structure, when it works vs when to use HTML fallback
 type: reference
 ---
 
-The official Church site (churchofjesuschrist.org) loads scripture content dynamically via a JSON API:
-
 **Endpoint:** `https://www.churchofjesuschrist.org/study/api/v3/language-pages/type/content?lang={lang}&uri={path}`
 
-- `lang`: "eng", "spa", etc.
-- `uri`: the content path, e.g., `/scriptures/gs/abraham`
+**URI format rule:** Strip `/study` from the page URL path. E.g., page at `/study/manual/jesus-the-christ/chapter-1` → `uri=/manual/jesus-the-christ/chapter-1`
 
 **Response structure:**
-- `meta`: page metadata (title, URL, content type, language)
-- `content.body`: HTML content of the page
-- `pids`: paragraph identifiers mapping
+- `meta`: title, canonicalUrl, audio (narration URLs), pageAttributes
+- `content.body`: HTML content string
+- `content.footnotes`: structured dict — keys are IDs, values have `marker`, `text`, `referenceUris`
+- `pids`: paragraph ID mappings
 - `uri` / `tableOfContentsUri`: navigation paths
 
-**Status (2026-03-31):**
-- Works for some pages (confirmed for `/scriptures/gs/abraham`)
-- Returns 404 for others (e.g., most GEE entries in direct URL form)
-- The URI path format may differ from the page URL — needs investigation
-- Fallback to direct HTML scraping works reliably
+**Works well for:** manuals, books, conference talks — any `/study/manual/` or `/study/general-conference/` content
+**Less reliable for:** study aids (GEE, TG, BD) — some entries return 404 via API but work via HTML
 
-**Why:** This API could enable faster, cleaner scraping without parsing full HTML pages. Worth revisiting when the exact URI format is understood better.
-**How to apply:** When building scrapers for church content, try API first with HTML fallback. The API may use different path conventions than the public URLs.
+**Why:** API returns clean structured JSON with separated footnotes. HTML scraping is fallback for verse-level content and study aids.
+**How to apply:** See comprehensive patterns in `reference_church_site_download_patterns.md`

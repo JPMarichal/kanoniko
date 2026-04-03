@@ -1,0 +1,81 @@
+{
+  "name": "True to the Faith",
+  "corpus_pattern": "*/manuals/true-to-the-faith/*",
+  "confidence": "curated",
+  "description": "Diccionario doctrinal de 171 entradas alfabéticas. Cada entrada abre con una definición explícita y cierra con referencias cruzadas 'See Also'. Fuente principal de relaciones definitórias y la red semántica See-Also (~850 aristas curadas).",
+  "entities": [
+    {"name": "True to the Faith", "type": "work", "aliases": ["Fiel a la Fe", "True to the Faith: A Gospel Reference"]},
+    {"name": "Light of Christ", "type": "concept", "aliases": ["Luz de Cristo", "Light of Christ (conscience)"]},
+    {"name": "Foreordination", "type": "concept", "aliases": ["preordenación", "foreordination (premortal)"]},
+    {"name": "Paradise", "type": "concept", "aliases": ["paraíso (mundo de los espíritus)", "paradise (spirit world)", "Paradise — spirit world"]},
+    {"name": "Spirit Prison", "type": "concept", "aliases": ["prisión de espíritus", "spirit prison"]},
+    {"name": "Patriarchal Blessing", "type": "concept", "aliases": ["bendición patriarcal"]},
+    {"name": "Family Home Evening", "type": "concept", "aliases": ["noche de hogar", "FHE"]},
+    {"name": "Deacon", "type": "concept", "aliases": ["diácono", "Aaronic Priesthood office: Deacon"]},
+    {"name": "Teacher (Aaronic)", "type": "concept", "aliases": ["maestro (sacerdocio aarónico)", "Aaronic Priesthood office: Teacher"]},
+    {"name": "Priest (Aaronic)", "type": "concept", "aliases": ["presbítero (sacerdocio aarónico)", "Aaronic Priesthood office: Priest"]},
+    {"name": "Elder (priesthood office)", "type": "concept", "aliases": ["élder (oficio)", "Melchizedek Priesthood office: Elder"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "All Priesthood Keys", "to_type": "concept",
+      "source_ref": "True to the Faith: Priesthood"
+    },
+    {
+      "from_name": "President of the Church", "from_type": "concept",
+      "rel_type": "AUTHORIZED",
+      "to_name": "All Priesthood Keys", "to_type": "concept",
+      "source_ref": "True to the Faith: Priesthood — only the President can authorize use of all keys"
+    },
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Mary (mother of Jesus)", "to_type": "person",
+      "source_ref": "True to the Faith: Atonement — from Mary He inherited ability to die"
+    },
+    {
+      "from_name": "Atonement", "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Resurrection", "to_type": "concept",
+      "source_ref": "True to the Faith: Atonement — universal resurrection is unconditional result"
+    },
+    {
+      "from_name": "Light of Christ", "from_type": "concept",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Conscience", "to_type": "concept",
+      "source_ref": "True to the Faith: Light of Christ"
+    },
+    {
+      "from_name": "Paradise", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Spirit World", "to_type": "concept",
+      "source_ref": "True to the Faith: Plan of Salvation — Paradise is the righteous section of the spirit world"
+    },
+    {
+      "from_name": "Spirit Prison", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Spirit World", "to_type": "concept",
+      "source_ref": "True to the Faith: Spirit Prison"
+    },
+    {
+      "from_name": "John the Baptist", "from_type": "person",
+      "rel_type": "RESTORED",
+      "to_name": "Aaronic Priesthood", "to_type": "concept",
+      "source_ref": "True to the Faith: Aaronic Priesthood — conferred on Joseph Smith and Oliver Cowdery"
+    },
+    {
+      "from_name": "Foreordination", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Premortal Existence", "to_type": "concept",
+      "source_ref": "True to the Faith: Foreordination — calling before birth in premortal life"
+    },
+    {
+      "from_name": "Lucifer", "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Agency", "to_type": "concept",
+      "source_ref": "True to the Faith: Plan of Salvation — Lucifer sought to destroy agency; Moses 4:3"
+    }
+  ]
+}

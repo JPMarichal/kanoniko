@@ -1,0 +1,61 @@
+{
+  "name": "Missionary Preparation Teacher Manual (2025)",
+  "corpus_pattern": "*/manuals/missionary-preparation/*",
+  "confidence": "curated",
+  "description": "Manual para preparar misioneros (2025), ~20 lecciones. Cubre habilidades misioneras basadas en Preach My Gospel: enseñar, encontrar personas, principios del evangelio, entrevista bautismal, retención. Complemento directo del PME (ya en corpus). Baja densidad KG única — la mayor parte del contenido doctrinal ya está cubierto por PME y los manuales de escrituras. Valor principal: relaciones de PREREQUISITE_FOR y DESCRIBES entre el proceso misionero y los principios del evangelio.",
+  "entities": [
+    {"name": "Missionary Preparation Teacher Manual 2025", "type": "work", "aliases": ["Missionary Prep 2025", "Preparación Misional 2025"]},
+    {"name": "Baptismal Interview", "type": "concept", "aliases": ["entrevista bautismal", "missionary interview", "baptismal questions"]},
+    {"name": "Missionary Discussions", "type": "concept", "aliases": ["lecciones misioneras", "missionary lessons", "the discussions"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Missionary Preparation Teacher Manual 2025",
+      "from_type": "work",
+      "rel_type": "COVERS",
+      "to_name": "Preach My Gospel",
+      "to_type": "work",
+      "source_ref": "Missionary Prep 2025 — structured around PME framework; extends PME for pre-mission preparation"
+    },
+    {
+      "from_name": "Missionary Discussions",
+      "from_type": "concept",
+      "rel_type": "COVERS",
+      "to_name": "Restoration of the Gospel",
+      "to_type": "event",
+      "source_ref": "Missionary Prep — Lesson 1: The Restoration (First Vision, Book of Mormon, priesthood)"
+    },
+    {
+      "from_name": "Missionary Discussions",
+      "from_type": "concept",
+      "rel_type": "COVERS",
+      "to_name": "Plan of Salvation",
+      "to_type": "concept",
+      "source_ref": "Missionary Prep — Lesson 2: The Plan of Salvation"
+    },
+    {
+      "from_name": "Missionary Discussions",
+      "from_type": "concept",
+      "rel_type": "COVERS",
+      "to_name": "Doctrine of Christ",
+      "to_type": "concept",
+      "source_ref": "Missionary Prep — Lesson 3: The Gospel of Jesus Christ (faith, repentance, baptism, Holy Ghost)"
+    },
+    {
+      "from_name": "Baptism",
+      "from_type": "ordinance",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Baptismal Interview",
+      "to_type": "concept",
+      "source_ref": "Missionary Prep — baptismal interview questions as readiness checklist before ordinance"
+    },
+    {
+      "from_name": "D&C 4",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Missionary Preparation Teacher Manual 2025",
+      "to_type": "work",
+      "source_ref": "Missionary Prep — D&C 4 as foundational missionary scripture; 'a marvelous work is about to come forth'"
+    }
+  ]
+}

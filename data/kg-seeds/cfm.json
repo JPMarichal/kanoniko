@@ -1,0 +1,72 @@
+{
+  "name": "Come Follow Me",
+  "corpus_pattern": "*/manuals/come-follow-me/*",
+  "confidence": "curated",
+  "description": "8 manuales anuales (2019-2026) de estudio de las Escrituras para hogares y clases. Aportan: referencias cruzadas intertextuales explícitas (OT↔NT↔BoM), cadenas del Convenio Abrahámico, citas de GAs con título de discurso, y relaciones de la Armonía por año. Los 'Thoughts' interstitials (~8 por año) tienen densidad doctrinal 3-5x mayor que las lecciones semanales.",
+  "entities": [
+    {"name": "Come, Follow Me", "type": "program", "aliases": ["Come Follow Me", "CFM", "Ven, Sígueme"]},
+    {"name": "Come, Follow Me 2019: New Testament", "type": "work", "aliases": ["CFM 2019", "Ven Sígueme 2019 NT"]},
+    {"name": "Come, Follow Me 2020: Book of Mormon", "type": "work", "aliases": ["CFM 2020", "Ven Sígueme 2020 LdM"]},
+    {"name": "Come, Follow Me 2021: Doctrine and Covenants", "type": "work", "aliases": ["CFM 2021", "Ven Sígueme 2021 DyC"]},
+    {"name": "Come, Follow Me 2022: Old Testament", "type": "work", "aliases": ["CFM 2022", "Ven Sígueme 2022 AT"]},
+    {"name": "Come, Follow Me 2023: New Testament", "type": "work", "aliases": ["CFM 2023", "Ven Sígueme 2023 NT"]},
+    {"name": "Come, Follow Me 2024: Book of Mormon", "type": "work", "aliases": ["CFM 2024", "Ven Sígueme 2024 LdM"]},
+    {"name": "Come, Follow Me 2025: Doctrine and Covenants", "type": "work", "aliases": ["CFM 2025", "Ven Sígueme 2025 DyC"]},
+    {"name": "Come, Follow Me 2026: Old Testament", "type": "work", "aliases": ["CFM 2026", "Ven Sígueme 2026 AT"]},
+    {"name": "Abrahamic Covenant", "type": "concept", "aliases": ["Convenio Abrahámico", "covenant of Abraham"]}
+  ],
+  "relations": [
+    {"from_name": "Come, Follow Me 2019: New Testament", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2019 manual"},
+    {"from_name": "Come, Follow Me 2020: Book of Mormon", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2020 manual"},
+    {"from_name": "Come, Follow Me 2021: Doctrine and Covenants", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2021 manual"},
+    {"from_name": "Come, Follow Me 2022: Old Testament", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2022 manual"},
+    {"from_name": "Come, Follow Me 2023: New Testament", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2023 manual"},
+    {"from_name": "Come, Follow Me 2024: Book of Mormon", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2024 manual"},
+    {"from_name": "Come, Follow Me 2025: Doctrine and Covenants", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2025 manual"},
+    {"from_name": "Come, Follow Me 2026: Old Testament", "from_type": "work", "rel_type": "PART_OF", "to_name": "Come, Follow Me", "to_type": "program", "source_ref": "CFM 2026 manual"},
+    {"from_name": "Come, Follow Me 2019: New Testament", "from_type": "work", "rel_type": "COVERS", "to_name": "New Testament", "to_type": "work", "source_ref": "CFM 2019"},
+    {"from_name": "Come, Follow Me 2020: Book of Mormon", "from_type": "work", "rel_type": "COVERS", "to_name": "Book of Mormon", "to_type": "work", "source_ref": "CFM 2020"},
+    {"from_name": "Come, Follow Me 2021: Doctrine and Covenants", "from_type": "work", "rel_type": "COVERS", "to_name": "Doctrine and Covenants", "to_type": "work", "source_ref": "CFM 2021"},
+    {"from_name": "Come, Follow Me 2022: Old Testament", "from_type": "work", "rel_type": "COVERS", "to_name": "Old Testament", "to_type": "work", "source_ref": "CFM 2022"},
+    {"from_name": "Come, Follow Me 2023: New Testament", "from_type": "work", "rel_type": "COVERS", "to_name": "New Testament", "to_type": "work", "source_ref": "CFM 2023"},
+    {"from_name": "Come, Follow Me 2024: Book of Mormon", "from_type": "work", "rel_type": "COVERS", "to_name": "Book of Mormon", "to_type": "work", "source_ref": "CFM 2024"},
+    {"from_name": "Come, Follow Me 2025: Doctrine and Covenants", "from_type": "work", "rel_type": "COVERS", "to_name": "Doctrine and Covenants", "to_type": "work", "source_ref": "CFM 2025"},
+    {"from_name": "Come, Follow Me 2026: Old Testament", "from_type": "work", "rel_type": "COVERS", "to_name": "Old Testament", "to_type": "work", "source_ref": "CFM 2026"},
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Jehovah", "to_type": "person",
+      "source_ref": "CFM 2026 OT lesson 01; confirmed by President Oaks"
+    },
+    {
+      "from_name": "Abrahamic Covenant", "from_type": "concept",
+      "rel_type": "RESTORED",
+      "to_name": "Joseph Smith", "to_type": "person",
+      "source_ref": "CFM 2026 OT 07-thoughts: 'The Covenant'"
+    },
+    {
+      "from_name": "Exodus 16:4", "from_type": "scripture_reference",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "John 6:35", "to_type": "scripture_reference",
+      "source_ref": "CFM 2026 OT lesson 01 — Manna = Bread of Life typology"
+    },
+    {
+      "from_name": "Exodus 12:3-5", "from_type": "scripture_reference",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "John 1:29", "to_type": "scripture_reference",
+      "source_ref": "CFM 2026 OT lesson 01 — Sacrificial Lamb = Christ"
+    },
+    {
+      "from_name": "Numbers 21:4-10", "from_type": "scripture_reference",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "John 3:14", "to_type": "scripture_reference",
+      "source_ref": "CFM 2026 OT lesson 01 — Brazen Serpent = Christ lifted up"
+    },
+    {
+      "from_name": "Jonah 1:4-17", "from_type": "scripture_reference",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Matthew 12:38-41", "to_type": "scripture_reference",
+      "source_ref": "CFM 2026 OT lesson 01 — Jonah type of Christ's burial/resurrection"
+    }
+  ]
+}

@@ -10,6 +10,50 @@ Standards for citing all corpus materials in Alejandría — for RAG answers, se
 4. **Titles of works** in quotes: "Jesús el Cristo", "Liahona", not in italics.
 5. **Titles of autoridades generales:** Usar el título más alto conocido. Presidente para presidentes de la Iglesia (presidente Benson, presidente Nelson), élder para apóstoles (élder Bednar, élder Oaks), presidente para presidencias de quórum (presidente Eyring). Si no se tiene certeza, usar el título más conocido o el vigente al momento de la cita.
 
+---
+
+## FCD Construction Rules
+
+### Citation anatomy
+
+```
+"[Work Title]"[, Author][, vol. N][, locator][, (Year)]
+```
+
+- **Work Title** — always in quotes; use the official full title as published
+- **Author** — include only when it adds value (biographies, doctrinal works by named authors); omit for institutional manuals and plans
+- **vol. N** — for multi-volume works (Saints, Teachings of Presidents)
+- **locator** — the most specific unit available:
+
+| Work structure | Locator type | Example |
+|---------------|-------------|---------|
+| Books / biographies | `capítulo N` / `chapter N` | `capítulo 23` |
+| Manuals with lessons | `lección N` / `lesson N` | `lección 45` |
+| Topic-organized pamphlets | `"Section Name"` | `"Castidad"` |
+| Weekly study plans (CFM) | `semana del [date] — [Scripture range]` | `semana del 6 de enero — Génesis 1–2` |
+| Seasonal plans (multi-day) | `[Day Name]` or `día N` + track | `Viernes Santo — pista NT` |
+| Music | `no. N` | `no. 34` |
+| Harmony of the Gospels | `evento N — "[Event Name]"` | `evento 45 — "La Última Cena"` |
+| Bible Chronology | `período "[Period Name]" (~date)` | `período "Monarquía dividida" (~931 a.C.)` |
+
+- **Year** — include in parentheses for materials that update regularly (CFM, seasonal plans, annual editions)
+
+### When to include the author
+
+| Include author | Omit author |
+|---------------|-------------|
+| Named doctrinal works (Talmage, Roberts) | Church-published manuals without individual authorship |
+| Biographies with identified author | Come Follow Me, FSY, Seminary manuals |
+| Works where attribution is the point | Hymns, Saints, Our Heritage |
+
+### Title selection rule
+
+Use the official title as published by the Church, in the language of the citation:
+- ✅ `"Enseñanzas de los Presidentes de la Iglesia: José Smith"` (not "Enseñanzas: JS")
+- ✅ `"Ven sígueme (2024)"` (not "Sígueme" or "CFM")
+- ✅ `"Para la Fortaleza de la Juventud"` (not "FSY")
+- ✅ `"Himnario"` / `"Hymns"` for the classic 1985 hymnal
+
 ## Two Citation Modes
 
 ### Inline
@@ -207,19 +251,208 @@ When the corpus chunk already includes author/title metadata, the citation shoul
 
 ## 5. Other Corpus Materials
 
-For manuals, biographies, and web content — cite by title (in quotes) and author when available.
+For manuals, biographies, histories, and web content — cite by title (in quotes), author when applicable, and the most specific locator available (chapter, lesson, section, week, day).
 
-### Examples
+### 5a. Doctrinal Works by Named Authors
+
+Format: `"Title", Author, capítulo/chapter N`
+
+| Work | EN | ES |
+|------|----|----|
+| Jesus the Christ | `"Jesus the Christ", James E. Talmage, chapter N` | `"Jesús el Cristo", James E. Talmage, capítulo N` |
+| The Articles of Faith | `"The Articles of Faith", James E. Talmage, chapter N` | `"Los Artículos de Fe", James E. Talmage, capítulo N` |
 
 **Inline:**
 
-> Talmage explica que la transfiguración fue "una manifestación especial de la gloria divina del Señor" ("Jesús el Cristo", capítulo 23).
-
-> El manual de instituto señala que "cada dispensación comienza con una revelación directa del cielo" ("Doctrina y Convenios — Manual del alumno", lección 2).
+> Talmage explica que la transfiguración fue "una manifestación especial de la gloria divina del Señor" ("Jesús el Cristo", James E. Talmage, capítulo 23).
 
 **Outline:**
 
 > La expiación de Cristo no fue solo para eliminar el pecado del arrepentido. Fue también para absorber toda pena y sufrimiento humano, para que Él supiera cómo socorrer a su pueblo según las enfermedades de ellos. ("Jesús el Cristo", James E. Talmage, capítulo 35)
+
+---
+
+### 5b. Teachings of Presidents of the Church
+
+Format: `"Enseñanzas de los Presidentes de la Iglesia: [President Name]", capítulo N`
+
+The full series title is always included — never abbreviate to "Enseñanzas" alone.
+
+| EN | ES |
+|----|-----|
+| `"Teachings of Presidents of the Church: Joseph Smith", chapter 4` | `"Enseñanzas de los Presidentes de la Iglesia: José Smith", capítulo 4` |
+| `"Teachings of Presidents of the Church: Brigham Young", chapter 11` | `"Enseñanzas de los Presidentes de la Iglesia: Brigham Young", capítulo 11` |
+
+**Inline:**
+
+> El presidente Smith enseñó que "la fe viene al escuchar la palabra de Dios" ("Enseñanzas de los Presidentes de la Iglesia: José Smith", capítulo 4).
+
+---
+
+### 5c. Church History (Saints, Our Heritage)
+
+Format: `"Title", vol. N, capítulo/chapter N`
+
+| EN | ES |
+|----|-----|
+| `"Saints", vol. 1, chapter 12` | `"Santos", vol. 1, capítulo 12` |
+| `"Our Heritage", chapter 5` | `"Nuestra Herencia", capítulo 5` |
+
+**Inline:**
+
+> En los días de Nauvoo, la hermana Emma Smith fue elegida primera presidenta de la Sociedad de Socorro ("Santos", vol. 2, capítulo 4).
+
+---
+
+### 5d. Come Follow Me
+
+Format: `"Ven sígueme (YYYY)"` or `"Come, Follow Me (YYYY)"`, `semana del [date] — [Scripture range]`
+
+Year is always included in parentheses in the title — the manual changes annually.
+
+**Inline:**
+
+> El manual señala que Abraham "mostró una fe inquebrantable al ser probado" ("Ven sígueme (2025)", semana del 3 de febrero — Génesis 12–17).
+
+> Come, Follow Me invites us to consider how faith is "a principle of power" ("Come, Follow Me (2025)", week of February 3 — Genesis 12–17).
+
+---
+
+### 5e. Seminary and Institute Manuals
+
+Format: `"[Manual Title] (YYYY)", lección/lesson N`
+
+| EN | ES |
+|----|-----|
+| `"Doctrine and Covenants Seminary Teacher Manual (2025)", lesson 45` | `"Seminario D&C — Manual del Maestro (2025)", lección 45` |
+| `"Book of Mormon Seminary Student Manual (2024)", lesson 12` | `"Libro de Mormón — Manual del Estudiante (2024)", lección 12` |
+| `"The Eternal Family", lesson 8` | `"La Familia Eterna", lección 8` |
+
+**Inline:**
+
+> El manual señala que "la revelación continua es evidencia del sacerdocio restaurado" ("Seminario D&C — Manual del Maestro (2025)", lección 45).
+
+---
+
+### 5f. For the Strength of Youth
+
+Format: `"Para la Fortaleza de la Juventud" (YYYY), "[Section Name]"`
+
+Section name matches the heading of the topic. Year in parentheses after the title (not inside quotes) since this pamphlet has editions.
+
+**Inline:**
+
+> El folleto enseña que la castidad "protege y prepara para las ordenanzas del templo" ("Para la Fortaleza de la Juventud" (2022), "Castidad").
+
+> The pamphlet explains that the Sabbath is "a weekly covenant renewal through the sacrament" ("For the Strength of Youth" (2022), "Sabbath Day").
+
+---
+
+### 5g. Missionary Preparation Manual
+
+Format: `"Preparación Misional" (YYYY), lección N` / `"Missionary Preparation" (YYYY), lesson N`
+
+**Inline:**
+
+> El manual establece D&C 4 como "la escritura fundamental del servicio misional" ("Preparación Misional" (2025), lección 1).
+
+---
+
+### 5h. Seasonal Study Plans
+
+**Christmas Study Plan** — year-specific slug; include year:
+
+Format: `"Plan de Estudio de Navidad YYYY", día N` / `"Christmas Study Plan YYYY", day N`
+
+> El plan invita a reflexionar sobre "la noche sin oscuridad en las Américas" como cumplimiento de la profecía ("Plan de Estudio de Navidad 2024", día 5 — "23 de diciembre").
+
+**Easter / Holy Week Study Plan** — permanent slug; include track for dual-track content:
+
+Format: `"Plan de Semana Santa", [Day Name] — pista NT/BoM` / `"Holy Week Study Plan", [Day Name] — NT/BoM track`
+
+> El plan muestra que el mismo Jueves Santo se instituyó el Sacramento tanto en Palestina como en las Américas ("Plan de Semana Santa", Jueves Santo — pista BoM).
+
+---
+
+## 6. Music
+
+Cite by hymn/song title (in quotes), collection name, and number when available.
+
+### 6a. Classic Hymnbook (1985)
+
+Format: `"Hymn Title" (Hymns, no. N)` / `"Título del Himno" (Himnario, no. N)`
+
+Numbers are stable in the 1985 edition.
+
+**Inline:**
+
+> El himno proclama que "la verdad eterna fue enviada, proclamad el gozoso son" ("Alta en la Montaña", Himnario, no. 5).
+
+> The hymn declares that "truth eternal, truth divine, in these last days now shines" ("Truth Eternal," Hymns, no. 4).
+
+### 6b. Hymns for Home and Church (2024–)
+
+Format: `"Hymn Title" (Himnos para el Hogar y la Iglesia, no. N)` / `"Hymn Title" (Hymns for Home and Church, no. N)`
+
+Numbers in this collection are provisional pending full publication; use the number published at time of citation.
+
+**Inline:**
+
+> El nuevo himnario canta: "Somos hijos de la luz, llamados a reunir" ("Gather Israel," Himnos para el Hogar y la Iglesia, no. 1127).
+
+### 6c. Children's Songbook
+
+Format: `"Song Title" (Canciones para los Niños)` / `"Song Title" (Children's Songbook)`
+
+Numbers are less commonly cited; use title alone unless the number aids disambiguation.
+
+**Inline:**
+
+> La canción afirma que "soy hijo de Dios, y Él me ama como soy" ("Soy Hijo de Dios", Canciones para los Niños).
+
+### 6d. Youth Music
+
+Format: `"Song Title" (Música para los Jóvenes, YYYY)` / `"Song Title" (Youth Music, YYYY)`
+
+Include year because albums are annual releases tied to the youth theme of that year.
+
+**Inline:**
+
+> El álbum del año refleja el llamado a "juntar a Israel en los últimos días" ("Gather Israel," Música para los Jóvenes, 2026).
+
+### 6e. Hymn Helps / About the Hymns
+
+Format: `"About [Hymn Title]" (Ayudas para los Himnos)` / `"About [Hymn Title]" (Hymn Helps)`
+
+**Inline:**
+
+> El recurso señala que "Alta en la Montaña" alude directamente a Isaías 2:2 ("Acerca de 'Alta en la Montaña'", Ayudas para los Himnos).
+
+---
+
+## 7. Harmony of the Gospels and Bible Chronology
+
+These are scripture study aids published in the official Quad — cite without author.
+
+### Harmony of the Gospels
+
+Format: `Harmonía de los Evangelios, evento N — "[Event Name]"` / `Harmony of the Gospels, event N — "[Event Name]"`
+
+No abbreviation established (unlike TG/BD). Cite by event number and name.
+
+**Inline:**
+
+> La Harmonía registra que tanto Mateo como Lucas ubican la entrada triunfal el mismo domingo (Harmonía de los Evangelios, evento 127 — "La entrada triunfal").
+
+### Bible Chronology
+
+Format: `Cronología Bíblica, período "[Period Name]" (~date)` / `Bible Chronology, period "[Period Name]" (~date)`
+
+Include approximate date range when available — it is the primary locator in this material.
+
+**Inline:**
+
+> La cronología sitúa el ministerio de Isaías durante el reinado de cuatro reyes de Judá (Cronología Bíblica, período "Profetas del siglo VIII a.C." — ~760–700 a.C.).
 
 ---
 

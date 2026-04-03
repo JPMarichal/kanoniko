@@ -7917,5 +7917,17 @@
   "PARALLEL_ACCOUNT_OF": [],
   "DESCRIBED_IN": [],
   "OCCURRED_DURING": [],
-  "PRECEDED_BY": []
+  "PRECEDED_BY": [],
+  "IS_SAME_AS": [],
+  "AUTHORIZED": [],
+  "REVOKED": [],
+  "DISAVOWED": [],
+  "CANONIZED_AS": [],
+  "EARLIER_VERSION_OF": [],
+  "COVERS": [],
+  "DESIGNATED_AS": [],
+  "FOREORDAINED_AS": [],
+  "MARTYRED_AT": [],
+  "DESCRIBED_BY": [],
+  "ADDRESSED_BY": []
 }

@@ -1,0 +1,53 @@
+{
+  "name": "Jesus the Christ — James E. Talmage",
+  "corpus_pattern": "*/biographies/jesus-the-christ/*",
+  "confidence": "curated",
+  "entities": [
+    {
+      "name": "James E. Talmage",
+      "type": "person",
+      "aliases": ["Talmage", "Elder Talmage", "James Edward Talmage"]
+    },
+    {
+      "name": "Jesus the Christ",
+      "type": "work",
+      "aliases": ["Jesus the Christ (Talmage)", "JTC"]
+    },
+    {
+      "name": "High Priest (Levitical)",
+      "type": "concept",
+      "aliases": ["Levitical High Priest", "High Priest of Israel", "Aaronic High Priest"]
+    },
+    {
+      "name": "Law of Moses",
+      "type": "concept",
+      "aliases": ["Mosaic Law", "Law of Moses fulfilled", "Ley de Moisés"]
+    }
+  ],
+  "relations": [
+    {
+      "subject": "Jesus the Christ",
+      "subject_type": "work",
+      "predicate": "AUTHORED_BY",
+      "object": "James E. Talmage",
+      "object_type": "person",
+      "source_ref": "Title page; written 1915 by apostle James E. Talmage"
+    },
+    {
+      "subject": "High Priest (Levitical)",
+      "subject_type": "concept",
+      "predicate": "TYPE_OF",
+      "object": "Jesus Christ",
+      "object_type": "person",
+      "source_ref": "JTC Chapter 3; Hebrews 4:14-16; 7:1-28"
+    },
+    {
+      "subject": "Jesus Christ",
+      "subject_type": "person",
+      "predicate": "TAUGHT",
+      "object": "Law of Moses",
+      "object_type": "concept",
+      "source_ref": "JTC Chapters 12-14; Matthew 5:17-18 (fulfillment)"
+    }
+  ]
+}

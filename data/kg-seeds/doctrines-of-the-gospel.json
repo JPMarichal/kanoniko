@@ -1,0 +1,79 @@
+{
+  "name": "Doctrines of the Gospel Student Manual",
+  "corpus_pattern": "*/manuals/doctrines-of-the-gospel/*",
+  "confidence": "curated",
+  "description": "Manual de instituto de 37 capítulos. La fuente de mayor densidad doctrinal del corpus: cada sub-punto del outline está anclado a 2-5 escrituras y cada capítulo tiene una antología curada de citas de profetas históricos con fuente completa. Índice de autores crea un mapa prophet→doctrine de alta confianza.",
+  "entities": [
+    {"name": "Doctrines of the Gospel Student Manual", "type": "work", "aliases": ["DOTG", "Doctrines of the Gospel"]},
+    {"name": "Marion G. Romney", "type": "person", "aliases": []},
+    {"name": "J. Reuben Clark Jr.", "type": "person", "aliases": ["J. Reuben Clark"]},
+    {"name": "Neal A. Maxwell", "type": "person", "aliases": []},
+    {"name": "Boyd K. Packer", "type": "person", "aliases": []},
+    {"name": "Mark E. Petersen", "type": "person", "aliases": []},
+    {"name": "LeGrand Richards", "type": "person", "aliases": []},
+    {"name": "Outer Darkness", "type": "concept", "aliases": ["darkness outer", "Sons of Perdition realm"]},
+    {"name": "Sons of Perdition", "type": "concept", "aliases": ["hijos de perdición"]}
+  ],
+  "relations": [
+    {
+      "from_name": "D&C 93:24", "from_type": "scripture_reference",
+      "rel_type": "TAUGHT",
+      "to_name": "Truth", "to_type": "concept",
+      "source_ref": "DOTG ch. 1 — defines truth as 'knowledge of things as they are, were, and are to come'"
+    },
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Truth", "to_type": "concept",
+      "source_ref": "DOTG ch. 1; John 14:6; D&C 93:11"
+    },
+    {
+      "from_name": "Atonement", "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Justice", "to_type": "concept",
+      "source_ref": "DOTG ch. 9; Alma 42:13-14 — Atonement satisfies the Law of Justice"
+    },
+    {
+      "from_name": "Atonement", "from_type": "concept",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Mercy", "to_type": "concept",
+      "source_ref": "DOTG ch. 9; Alma 34:15-16 — Atonement enables mercy"
+    },
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "FOREORDAINED_AS",
+      "to_name": "Atoner", "to_type": "concept",
+      "source_ref": "DOTG ch. 9; Hebrews 4:15 — qualified by sinlessness"
+    },
+    {
+      "from_name": "Fall of Adam", "from_type": "event",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Atonement", "to_type": "concept",
+      "source_ref": "DOTG ch. 9; 2 Nephi 2:13 — Fall made Atonement necessary"
+    },
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Gethsemane", "to_type": "place",
+      "source_ref": "DOTG ch. 9; Matthew 26:36-46; D&C 19:15-20"
+    },
+    {
+      "from_name": "Spencer W. Kimball", "from_type": "person",
+      "rel_type": "TAUGHT",
+      "to_name": "Absolute Truths", "to_type": "concept",
+      "source_ref": "DOTG ch. 1; Ensign, Sept. 1978"
+    },
+    {
+      "from_name": "John Taylor", "from_type": "person",
+      "rel_type": "AUTHORED",
+      "to_name": "The Mediation and Atonement", "to_type": "work",
+      "source_ref": "DOTG ch. 9 bibliography"
+    },
+    {
+      "from_name": "Holy Ghost", "from_type": "person",
+      "rel_type": "TAUGHT",
+      "to_name": "Divine Truth", "to_type": "concept",
+      "source_ref": "DOTG ch. 1; D&C 50:19-22"
+    }
+  ]
+}

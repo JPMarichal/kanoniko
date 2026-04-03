@@ -4,6 +4,9 @@ description: Hardware specs, GPU setup, Docker environments (Rancher Desktop + n
 type: user
 ---
 
+## User
+- **Timezone:** GMT-6 (Mexico) — all time reports must use this zone
+
 ## Hardware
 - **RAM:** 32 GB DDR5 5600 MT/s (2x SODIMM, both slots used)
 - **GPU 0:** NVIDIA RTX PRO 500 Blackwell Generation Laptop GPU, 6 GB VRAM, sm_120
@@ -22,6 +25,17 @@ type: user
 | **daemon.json** | Managed by Rancher | `/etc/docker/daemon.json` with nvidia default-runtime |
 
 - **CRITICAL:** Do NOT modify Rancher Desktop — user depends on it for regular work
+- **CRITICAL:** Alejandria containers are in Ubuntu-20.04, NOT Rancher. NEVER use plain `docker` from Windows — it hits Rancher Desktop, not Alejandría. ALWAYS use `wsl -d Ubuntu-20.04 bash -c "docker ..."`.
+- **CRITICAL:** `docker ps` from Windows shows Rancher containers (k8s_*), NOT Alejandría. To see Alejandría containers: `wsl -d Ubuntu-20.04 bash -c "docker ps"`.
+- **Container names:** `alejandria-api`, `alejandria-qdrant`, `alejandria-neo4j`
+- **After git push:** MUST sync WSL repo before containers see changes. Plain Docker bind mounts reflect Linux FS, not Windows.
+
+## Mandatory Pre-Reindex Checklist
+1. `git push` from Windows (commit must be on remote)
+2. `wsl -d Ubuntu-20.04 bash -c "cd /home/jpmarichal/alejandria-repo && git fetch origin && git reset --hard origin/main"` — sync Linux FS
+3. Use `POST /index/trigger` (full scan) for incremental, NOT `POST /index/ingest` with empty paths (that does nothing)
+4. Monitor via `GET /index/status` — remember Phase 1 ETA doesn't include Phase 2 (vectors) or Phase 3 (KG)
+5. System clock shows user's local time directly — do NOT convert from UTC
 - WSL user `jpmarichal` is in `docker` group for native Docker Engine
 - Credential helper: use `DOCKER_CONFIG=/tmp/alejandria-docker-config` to avoid Rancher Desktop's secretservice
 

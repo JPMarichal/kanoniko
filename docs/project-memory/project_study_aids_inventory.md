@@ -44,20 +44,18 @@ Corpus locations:
 - `corpus/en/study-aids/bible-dictionary/`
 - `corpus/{en,es}/study-aids/jst-appendix/`
 
-### Not yet downloaded (lower priority)
+### Pending — prioritized
 
-| Aid | Notes |
-|-----|-------|
-| Reference Guide to Holy Bible | Both EN+ES |
-| Bible Chronology | Both EN+ES |
-| Harmony of the Gospels | Both EN+ES |
-| Bible Maps / Photos | Visual content — low priority |
-| Church History Maps / Photos | Visual content — low priority |
-| Abbreviations | Both EN+ES |
-| Index to Triple Combination | EN only |
-| Reference Guide to BOM | EN only |
+| Aid | URL | Priority | KG value | Notes |
+|-----|-----|----------|----------|-------|
+| Harmony of the Gospels | `/study/scriptures/harmony` | **HIGH** | Critical — explicit PARALLEL_ACCOUNT_OF between MT/MC/LC/JN + BoM/D&C parallels | 8 parts + intro; ~150 events; unique intertextuality NER cannot infer |
+| Bible Chronology | `/study/scriptures/bible-chron` | **HIGH** | Period nodes + OCCURRED_DURING relations; OT (~3,000 yrs) + NT (AD 1–96) | Syncs with external history (Babylon, Rome) |
+| Abbreviations | `/study/scriptures/quad` | **HIGH** | Feeds scripture ref normalizer directly | All 4 volumes; maps "1 Ne." → 1 Nephi, "A of F" → Articles of Faith, etc. |
+| Reference Guide to Holy Bible | `/study/scriptures/bible-reference` | MEDIUM | Topical index (Godhead, People, Places, Events) with verse refs | Complements TG with different grouping |
+| Reference Guide to Book of Mormon | `/study/scriptures/bofm-reference` | MEDIUM | Same as above for BoM; Christ, Doctrines, People, Events | TG/GEE already cover much overlap |
+| Index to Triple Combination | `/study/scriptures/triple-index` | LOW | Extends TG coverage to D&C+PGP | Large volume; assess after TG/GEE use |
+| Bible Maps / Photos | visual | SKIP | No text value | — |
+| Church History Maps / Photos | visual | SKIP | No text value | — |
 
 **Note:** GEE in Spanish consolidates Topical Guide + Bible Dictionary + Index into one work.
-
-**Why:** Study aids provide doctrinal context, cross-references, and definitions that enrich RAG answers beyond raw scripture text.
-**How to apply:** High-priority aids (GEE, TG, BD, JST) are done. Remaining aids are textual reference material (chronologies, harmonies) or visual (maps, photos) — defer until needed.
+**Harmony** is unique because it includes a LDS revelation column (BoM, D&C) alongside the 4 Gospels — not available in any Protestant harmony.

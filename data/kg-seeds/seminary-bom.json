@@ -1,0 +1,79 @@
+{
+  "name": "Book of Mormon Seminary Student Manual (2024)",
+  "corpus_pattern": "*/manuals/seminary/book-of-mormon-student/*",
+  "confidence": "curated",
+  "description": "Manual de seminario para el Libro de Mormón (2024), ~160 lecciones en orden canónico. Complemento de teachings-doctrine-bom.json (que es temático); este sigue la narrativa verso a verso. Alta densidad de Doctrinal Mastery BoM (~24 pasajes designados, ya en doctrinal-mastery.json). Añade estructura COVERS y relaciones narrativas únicas: Árbol de la Vida, Título de la Libertad, hermano de Jared.",
+  "entities": [
+    {"name": "Book of Mormon Seminary Student Manual 2024", "type": "work", "aliases": ["BoM Seminary 2024", "LdM Seminario 2024"]},
+    {"name": "Tree of Life Vision", "type": "event", "aliases": ["visión del árbol de la vida", "Lehi's tree of life dream", "1 Nephi 8"]},
+    {"name": "Title of Liberty", "type": "object", "aliases": ["título de la libertad", "Captain Moroni's standard", "Alma 46"]},
+    {"name": "Brother of Jared", "type": "person", "aliases": ["Mahonri Moriancumer", "hermano de Jared"]},
+    {"name": "Liahona", "type": "object", "aliases": ["director (Lehi)", "compass (Book of Mormon)", "1 Nephi 16:10"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Book of Mormon Seminary Student Manual 2024",
+      "from_type": "work",
+      "rel_type": "COVERS",
+      "to_name": "Book of Mormon",
+      "to_type": "work",
+      "source_ref": "BoM Seminary 2024 — verse-by-verse commentary on the full text"
+    },
+    {
+      "from_name": "Tree of Life Vision",
+      "from_type": "event",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "1 Nephi 8",
+      "to_type": "scripture_reference",
+      "source_ref": "BoM Seminary — Lehi's vision of the tree of life; iron rod, river, great and spacious building"
+    },
+    {
+      "from_name": "Tree of Life Vision",
+      "from_type": "event",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "1 Nephi 11",
+      "to_type": "scripture_reference",
+      "source_ref": "BoM Seminary — Nephi's expanded vision of same tree = love of God / Atonement"
+    },
+    {
+      "from_name": "Liahona",
+      "from_type": "object",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Word of Christ",
+      "to_type": "concept",
+      "source_ref": "BoM Seminary; Alma 37:43-45 — Liahona as type of the word of Christ (small and simple things)"
+    },
+    {
+      "from_name": "Title of Liberty",
+      "from_type": "object",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Alma 46:12-13",
+      "to_type": "scripture_reference",
+      "source_ref": "BoM Seminary — Captain Moroni's standard for faith, family, and freedom"
+    },
+    {
+      "from_name": "Brother of Jared",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Ether 3",
+      "to_type": "scripture_reference",
+      "source_ref": "BoM Seminary — brother of Jared sees the finger of Christ; Ether 12:6 (faith precedes miracle) is Doctrinal Mastery"
+    },
+    {
+      "from_name": "Ether 12:6",
+      "from_type": "scripture_reference",
+      "rel_type": "DESIGNATED_AS",
+      "to_name": "Doctrinal Mastery Core Document",
+      "to_type": "work",
+      "source_ref": "BoM Seminary DM — faith precedes the miracle"
+    },
+    {
+      "from_name": "Moroni 10:4-5",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Book of Mormon",
+      "to_type": "work",
+      "source_ref": "BoM Seminary final lessons — Moroni's promise as culminating testimony invitation"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Institute Scripture Course Manuals",
+  "corpus_pattern": "*/manuals/institute/*",
+  "confidence": "curated",
+  "description": "4 manuales de escrituras para instituto (nivel universitario): BoM Student, D&C Student, PGP Student, NT Teacher. Comentario académico verso a verso con referencias cruzadas extensas. Cada manual COVERS su volumen escritural y es la fuente de mayor densidad de relaciones 'scripture→doctrine' del corpus para esos volúmenes.",
+  "entities": [
+    {"name": "Book of Mormon Student Manual (Institute)", "type": "work", "aliases": ["BoM Institute Student Manual", "LdM Manual de Estudiante Instituto"]},
+    {"name": "Doctrine and Covenants Student Manual (Institute)", "type": "work", "aliases": ["D&C Institute Student Manual", "D&C Manual de Estudiante Instituto"]},
+    {"name": "Pearl of Great Price Student Manual (Institute)", "type": "work", "aliases": ["PGP Institute Student Manual", "PGP Manual de Estudiante Instituto"]},
+    {"name": "New Testament Institute Teacher Manual", "type": "work", "aliases": ["NT Institute Teacher Manual", "NT Manual del Maestro Instituto"]}
+  ],
+  "relations": [
+    {"from_name": "Book of Mormon Student Manual (Institute)", "from_type": "work", "rel_type": "COVERS", "to_name": "Book of Mormon", "to_type": "work", "source_ref": "Institute BoM Student Manual — verse-by-verse commentary on the full BoM text"},
+    {"from_name": "Doctrine and Covenants Student Manual (Institute)", "from_type": "work", "rel_type": "COVERS", "to_name": "Doctrine and Covenants", "to_type": "work", "source_ref": "Institute D&C Student Manual 2017 — section-by-section commentary"},
+    {"from_name": "Pearl of Great Price Student Manual (Institute)", "from_type": "work", "rel_type": "COVERS", "to_name": "Pearl of Great Price", "to_type": "work", "source_ref": "Institute PGP Student Manual 2018 — covers Moses, Abraham, JS-H, JS-M, Articles of Faith"},
+    {"from_name": "New Testament Institute Teacher Manual", "from_type": "work", "rel_type": "COVERS", "to_name": "New Testament", "to_type": "work", "source_ref": "Institute NT Teacher Manual 2024"},
+    {
+      "from_name": "Pearl of Great Price Student Manual (Institute)",
+      "from_type": "work",
+      "rel_type": "INTERPRETS",
+      "to_name": "Abraham 3:22-23",
+      "to_type": "scripture_reference",
+      "source_ref": "PGP Institute — Abraham 3 as foundational premortal doctrine; foreordination of spirits"
+    },
+    {
+      "from_name": "Doctrine and Covenants Student Manual (Institute)",
+      "from_type": "work",
+      "rel_type": "INTERPRETS",
+      "to_name": "D&C 76",
+      "to_type": "scripture_reference",
+      "source_ref": "D&C Institute — Section 76 (The Vision) as map of degrees of glory; most cited section in the manual"
+    },
+    {
+      "from_name": "Doctrine and Covenants Student Manual (Institute)",
+      "from_type": "work",
+      "rel_type": "INTERPRETS",
+      "to_name": "D&C 131:1-4",
+      "to_type": "scripture_reference",
+      "source_ref": "D&C Institute — celestial marriage as requirement for highest degree of celestial kingdom"
+    },
+    {
+      "from_name": "Book of Mormon Student Manual (Institute)",
+      "from_type": "work",
+      "rel_type": "INTERPRETS",
+      "to_name": "2 Nephi 2",
+      "to_type": "scripture_reference",
+      "source_ref": "BoM Institute — Lehi's discourse on opposition, the Fall, and agency; theological anchor of the manual"
+    },
+    {
+      "from_name": "Book of Mormon Student Manual (Institute)",
+      "from_type": "work",
+      "rel_type": "INTERPRETS",
+      "to_name": "Alma 32",
+      "to_type": "scripture_reference",
+      "source_ref": "BoM Institute — Alma's discourse on faith as seed; most cited BoM chapter on epistemology of belief"
+    }
+  ]
+}

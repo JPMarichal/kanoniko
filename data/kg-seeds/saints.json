@@ -1,0 +1,122 @@
+{
+  "name": "Saints: The Story of the Church of Jesus Christ in the Latter Days",
+  "corpus_pattern": "*/manuals/saints/*",
+  "confidence": "curated",
+  "description": "4 volúmenes de historia narrativa oficial (2018–2024), 1815–2020. 167 capítulos, ~500 fuentes primarias por volumen. Ventaja clave sobre Our Heritage: fechas exactas en todos los eventos, cobertura de mujeres y miembros internacionales, y abordaje de temas difíciles (poligamia, Mountain Meadows, restricción del sacerdocio). Vol. 1 usa URL flat; Vols. 2-4 usan part-N nested.",
+  "entities": [
+    {"name": "Saints (Church history series)", "type": "work", "aliases": ["Saints: The Story of the Church", "Santos (historia de la Iglesia)"]},
+    {"name": "Saints Vol. 1: The Standard of Truth", "type": "work", "aliases": ["Saints Vol. 1", "The Standard of Truth"]},
+    {"name": "Saints Vol. 2: No Unhallowed Hand", "type": "work", "aliases": ["Saints Vol. 2", "No Unhallowed Hand"]},
+    {"name": "Saints Vol. 3: Boldly, Nobly, and Independent", "type": "work", "aliases": ["Saints Vol. 3", "Boldly Nobly and Independent"]},
+    {"name": "Saints Vol. 4: Sounded in Every Ear", "type": "work", "aliases": ["Saints Vol. 4", "Sounded in Every Ear"]},
+    {"name": "Emma Hale Smith", "type": "person", "aliases": ["Emma Smith", "Emma Hale"]},
+    {"name": "William W. Phelps", "type": "person", "aliases": ["W. W. Phelps"]},
+    {"name": "Parley P. Pratt", "type": "person", "aliases": ["Parley Pratt", "Elder Pratt"]},
+    {"name": "David Whitmer", "type": "person", "aliases": []},
+    {"name": "Zina D. Young", "type": "person", "aliases": ["Zina Diantha Huntington Young", "Zina Young"]},
+    {"name": "Jonathan Napela", "type": "person", "aliases": ["Jonatana Napela"]},
+    {"name": "B. H. Roberts", "type": "person", "aliases": ["Brigham Henry Roberts", "Elder Roberts"]},
+    {"name": "George Q. Cannon", "type": "person", "aliases": ["George Cannon"]},
+    {"name": "Mountain Meadows Massacre", "type": "event", "aliases": ["Mountain Meadows", "masacre de Mountain Meadows", "Sep 11 1857 massacre"]},
+    {"name": "Utah War", "type": "event", "aliases": ["Utah Expedition", "guerra de Utah", "1857-58 Utah War"]},
+    {"name": "Pioneer Exodus", "type": "event", "aliases": ["exodus from Nauvoo", "éxodo de Nauvoo", "Pioneer Trek West"]},
+    {"name": "Palmyra", "type": "place", "aliases": ["Palmyra, New York", "Palmyra NY"]},
+    {"name": "Hill Cumorah", "type": "place", "aliases": ["Cumorah", "Cerro Cumorah", "Hill Cumorah, New York"]},
+    {"name": "Far West", "type": "place", "aliases": ["Far West, Missouri", "Far West MO"]},
+    {"name": "Salt Lake Valley", "type": "place", "aliases": ["Valle del Lago Salado", "Salt Lake Valley, Utah", "Great Salt Lake Valley"]}
+  ],
+  "relations": [
+    {"from_name": "Saints Vol. 1: The Standard of Truth", "from_type": "work", "rel_type": "PART_OF", "to_name": "Saints (Church history series)", "to_type": "work", "source_ref": "Saints series"},
+    {"from_name": "Saints Vol. 2: No Unhallowed Hand", "from_type": "work", "rel_type": "PART_OF", "to_name": "Saints (Church history series)", "to_type": "work", "source_ref": "Saints series"},
+    {"from_name": "Saints Vol. 3: Boldly, Nobly, and Independent", "from_type": "work", "rel_type": "PART_OF", "to_name": "Saints (Church history series)", "to_type": "work", "source_ref": "Saints series"},
+    {"from_name": "Saints Vol. 4: Sounded in Every Ear", "from_type": "work", "rel_type": "PART_OF", "to_name": "Saints (Church history series)", "to_type": "work", "source_ref": "Saints series"},
+    {
+      "from_name": "Joseph Smith",
+      "from_type": "person",
+      "rel_type": "MARTYRED_AT",
+      "to_name": "Carthage Jail",
+      "to_type": "place",
+      "source_ref": "Saints Vol. 1 ch. 46 — June 27 1844"
+    },
+    {
+      "from_name": "Brigham Young",
+      "from_type": "person",
+      "rel_type": "SUCCEEDED",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "Saints Vol. 1-2 — sustained as President of the Church 1844"
+    },
+    {
+      "from_name": "Brigham Young",
+      "from_type": "person",
+      "rel_type": "LED",
+      "to_name": "Pioneer Exodus",
+      "to_type": "event",
+      "source_ref": "Saints Vol. 2 — Feb 1846 departure from Nauvoo; Jul 24 1847 arrival Salt Lake Valley"
+    },
+    {
+      "from_name": "Church of Jesus Christ of Latter-day Saints",
+      "from_type": "organization",
+      "rel_type": "EXPELLED_FROM",
+      "to_name": "Far West",
+      "to_type": "place",
+      "source_ref": "Saints Vol. 1 — Missouri Extermination Order, Oct 27 1838"
+    },
+    {
+      "from_name": "Kirtland Temple",
+      "from_type": "place",
+      "rel_type": "DEDICATED_BY",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "Saints Vol. 1 ch. 20 — March 27 1836"
+    },
+    {
+      "from_name": "Joseph Smith",
+      "from_type": "person",
+      "rel_type": "FOUNDED",
+      "to_name": "Relief Society",
+      "to_type": "organization",
+      "source_ref": "Saints Vol. 1 — March 17 1842 in Nauvoo; Emma Hale Smith first president"
+    },
+    {
+      "from_name": "John the Baptist",
+      "from_type": "person",
+      "rel_type": "RESTORED",
+      "to_name": "Aaronic Priesthood",
+      "to_type": "concept",
+      "source_ref": "Saints Vol. 1 — May 15 1829"
+    },
+    {
+      "from_name": "Wilford Woodruff",
+      "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Official Declaration 1",
+      "to_type": "document",
+      "source_ref": "Saints Vol. 2 — September 25 1890 Manifesto ending plural marriage"
+    },
+    {
+      "from_name": "Spencer W. Kimball",
+      "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Official Declaration 2",
+      "to_type": "document",
+      "source_ref": "Saints Vol. 4 — June 1978 revelation ending race-based priesthood restriction"
+    },
+    {
+      "from_name": "Mountain Meadows Massacre",
+      "from_type": "event",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Saints Vol. 2: No Unhallowed Hand",
+      "to_type": "work",
+      "source_ref": "Saints Vol. 2 — September 11 1857; addressed openly unlike earlier Church histories"
+    },
+    {
+      "from_name": "Emma Hale Smith",
+      "from_type": "person",
+      "rel_type": "SERVED_AS",
+      "to_name": "Relief Society",
+      "to_type": "organization",
+      "source_ref": "Saints Vol. 1 — first president of Relief Society, 1842"
+    }
+  ]
+}

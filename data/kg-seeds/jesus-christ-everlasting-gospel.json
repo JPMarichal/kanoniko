@@ -1,0 +1,86 @@
+{
+  "name": "Jesus Christ and His Everlasting Gospel (Institute)",
+  "corpus_pattern": "*/manuals/institute/jesus-christ-everlasting-gospel/*",
+  "confidence": "curated",
+  "description": "Manual de instituto Religion 250 (2023), ~30 lecciones. Cornerstone course sobre Jesucristo: naturaleza de Dios, misión premortal, nacimiento, ministerio, Expiación, Resurrección, Segunda Venida. Complemento directo de Jesus the Christ (Talmage) y los manuales de seminario NT/AT. La fuente más sistemática del corpus para relaciones cristológicas a nivel universitario.",
+  "entities": [
+    {"name": "Jesus Christ and His Everlasting Gospel", "type": "work", "aliases": ["Religion 250", "JCEG Institute Manual"]},
+    {"name": "Atonement of Jesus Christ", "type": "concept", "aliases": ["Expiación de Jesucristo", "infinite atonement", "the Atonement"]},
+    {"name": "Second Coming", "type": "event", "aliases": ["Segunda Venida", "Second Coming of Christ", "Millennium (start)"]},
+    {"name": "Gethsemane", "type": "place", "aliases": ["Garden of Gethsemane", "Jardín de Getsemaní"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Jesus Christ",
+      "from_type": "person",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Jehovah",
+      "to_type": "person",
+      "source_ref": "JCEG Institute — premortal Christ as Jehovah; Moses 7:53; D&C 110:3-4"
+    },
+    {
+      "from_name": "Jesus Christ",
+      "from_type": "person",
+      "rel_type": "FOREORDAINED_AS",
+      "to_name": "Savior",
+      "to_type": "concept",
+      "source_ref": "JCEG Institute — Abraham 3:27; foreordained in premortal Council in Heaven"
+    },
+    {
+      "from_name": "Council in Heaven",
+      "from_type": "event",
+      "rel_type": "PRECEDED_BY",
+      "to_name": "War in Heaven",
+      "to_type": "event",
+      "source_ref": "JCEG Institute; Revelation 12:7-9; Abraham 3:27-28 — Lucifer's rebellion followed the council"
+    },
+    {
+      "from_name": "Atonement of Jesus Christ",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Gethsemane",
+      "to_type": "place",
+      "source_ref": "JCEG Institute; D&C 19:16-19 — Christ's suffering began in Gethsemane"
+    },
+    {
+      "from_name": "Atonement of Jesus Christ",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Alma 7:11-13",
+      "to_type": "scripture_reference",
+      "source_ref": "JCEG Institute — Alma's description of Christ taking upon Him pains, sicknesses, and infirmities"
+    },
+    {
+      "from_name": "Atonement of Jesus Christ",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Isaiah 53:3-5",
+      "to_type": "scripture_reference",
+      "source_ref": "JCEG Institute — Messianic prophecy of the suffering servant"
+    },
+    {
+      "from_name": "Fall of Adam",
+      "from_type": "event",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Atonement of Jesus Christ",
+      "to_type": "concept",
+      "source_ref": "JCEG Institute; 2 Nephi 2:25; Alma 42:14 — the Fall created the need for the Atonement"
+    },
+    {
+      "from_name": "Resurrection",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "1 Corinthians 15:20-22",
+      "to_type": "scripture_reference",
+      "source_ref": "JCEG Institute — Christ as firstfruits of resurrection; all will be resurrected"
+    },
+    {
+      "from_name": "Jesus Christ",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Second Coming",
+      "to_type": "event",
+      "source_ref": "JCEG Institute; D&C 29:10-11; JS-M 1 — signs, timing, and purpose of the Second Coming"
+    }
+  ]
+}

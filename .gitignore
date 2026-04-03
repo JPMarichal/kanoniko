@@ -26,6 +26,7 @@ data/*
 data/sqlite/backups/
 data/sqlite/neo4j_backups/
 !data/gazetteers/
+!data/kg-seeds/
 
 # Docker / secrets
 .env
