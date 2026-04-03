@@ -60,6 +60,8 @@ def index_status(
         phase_2_chunks=progress.phase_2_chunks,
         phase_3_done=progress.phase_3_done,
         phase_3_total=progress.phase_3_total,
+        phase_3_chunks_done=progress.phase_3_chunks_done,
+        phase_3_chunks_total=progress.phase_3_chunks_total,
     )
 
 
