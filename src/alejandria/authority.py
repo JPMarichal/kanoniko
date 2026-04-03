@@ -66,6 +66,12 @@ _SOURCE_DEFAULTS: dict[str, AuthorityMeta] = {
         authority=57, rigor=70, importance="importante",
         official=True, current=True, audience="adult",
     ),
+    "music": AuthorityMeta(
+        # Hymnals approved by First Presidency; some hymns used in ordinances.
+        # Authority slightly above manuals — official worship content.
+        authority=65, rigor=60, importance="importante",
+        official=True, current=True, audience="general",
+    ),
     "biographies": AuthorityMeta(
         authority=20, rigor=50, importance="interesante",
         official=False, current=True,

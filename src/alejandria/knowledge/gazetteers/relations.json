@@ -2394,6 +2394,58 @@
       "source_ref": "Mosiah 3",
       "confidence": "curated",
       "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Resurrection",
+        "type": "concept"
+      },
+      "source_ref": "John 11:25-26; 3 Nephi 11:14-15; Jesus the Christ caps 35-38",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Atonement",
+        "type": "concept"
+      },
+      "source_ref": "3 Nephi 27:13-16; John 17; Jesus the Christ caps 2, 34-38",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Plan of Salvation",
+        "type": "concept"
+      },
+      "source_ref": "John 3:16-17; 2 Nephi 9; Moses 4:1-2; PME cap 2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Gospel",
+        "type": "concept"
+      },
+      "source_ref": "3 Nephi 27:13-21; D&C 39:6",
+      "confidence": "curated",
+      "bidirectional": false
     }
   ],
   "TRAVELED_TO": [
@@ -7820,5 +7872,50 @@
       "source_ref": "Abraham",
       "confidence": "curated"
     }
-  ]
+  ],
+  "PREREQUISITE_FOR": [
+    {
+      "from": {
+        "name": "Faith",
+        "type": "concept"
+      },
+      "to": {
+        "name": "Repentance",
+        "type": "concept"
+      },
+      "source_ref": "AoF 4; PME cap 3; 3 Nephi 27:19-20",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Repentance",
+        "type": "concept"
+      },
+      "to": {
+        "name": "Baptism",
+        "type": "concept"
+      },
+      "source_ref": "AoF 4; D&C 20:37; PME cap 3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Baptism",
+        "type": "concept"
+      },
+      "to": {
+        "name": "Holy Ghost (gift)",
+        "type": "concept"
+      },
+      "source_ref": "AoF 4; D&C 20:41; Acts 2:38",
+      "confidence": "curated",
+      "bidirectional": false
+    }
+  ],
+  "PARALLEL_ACCOUNT_OF": [],
+  "DESCRIBED_IN": [],
+  "OCCURRED_DURING": [],
+  "PRECEDED_BY": []
 }

@@ -136,10 +136,11 @@ def download_talk(slug: str, period: str, lang: str) -> dict[str, Any] | None:
     # Extract title from metadata
     title = data.get("meta", {}).get("title", "")
 
-    # Extract content paragraphs (exclude byline, kicker, notes, header)
-    # Remove non-content elements
+    # Remove non-content elements before text extraction.
+    # Notes/footnotes are excluded — they go to .meta.json as scripture_refs.
+    # Including them pollutes NER with name+calling concatenations.
     for sel in (".byline", ".kicker", "footer", "header", "figure", "video",
-                ".study-note-ref", "sup"):
+                ".notes", ".study-note-ref", "sup", "sup.marker"):
         for el in soup.select(sel):
             el.decompose()
 

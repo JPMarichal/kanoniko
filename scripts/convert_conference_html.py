@@ -41,14 +41,12 @@ def extract_content_html(html: str) -> str:
     from bs4 import BeautifulSoup
 
     soup = BeautifulSoup(html, "html.parser")
-    parts = []
     content = soup.select_one(".content")
-    if content:
-        parts.append(str(content))
-    notes = soup.select_one(".notes")
-    if notes:
-        parts.append(str(notes))
-    return "\n".join(parts)
+    if not content:
+        return ""
+    # Notes are excluded — they go to .meta.json as scripture_refs.
+    # Including them in text pollutes NER with name+calling concatenations.
+    return str(content)
 
 
 def html_to_text_pandoc(html_fragment: str) -> str:

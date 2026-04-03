@@ -1,4 +1,11 @@
-"""Index management API endpoints."""
+"""Index management API endpoints.
+
+DESIGN CONTRACT: indexing is always on-demand. No endpoint, hook, or daemon
+triggers indexing automatically. Corpus files can be added freely; call
+POST /index/ingest (targeted) or POST /index/trigger (full scan) only when
+explicitly ready to index. This separation allows bulk corpus accumulation
+before paying the indexing cost.
+"""
 
 from __future__ import annotations
 

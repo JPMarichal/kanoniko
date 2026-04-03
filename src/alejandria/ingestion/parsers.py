@@ -42,13 +42,30 @@ def _parse_text(raw: str) -> str:
     return raw
 
 
-def _parse_html(raw: str) -> str:
-    soup = BeautifulSoup(raw, "html.parser")
-    # Remove metadata elements that pollute NER with compound entities
-    # (e.g. speaker name + talk title merged into text → "Gordon B. Hinckley Closing Remarks")
-    for selector in ("head", ".header", ".extraction-info", "style", "script"):
+def sanitize_html(soup: BeautifulSoup) -> BeautifulSoup:
+    """Remove non-content elements from HTML before text extraction.
+
+    This is the single point of control for HTML sanitization.  Every path
+    that converts HTML to indexable text (parsers, pandoc scripts, downloaders)
+    MUST call this function first.  Prevents NER pollution from metadata
+    (speaker+title compounds) and footnotes (name+calling concatenations).
+
+    Removes: head, style, script, .header, .extraction-info, .notes, footer.
+    """
+    for selector in (
+        "head", "style", "script",       # page chrome
+        ".header", ".extraction-info",    # corpus HTML metadata divs
+        ".notes", "footer",              # footnotes — already in .meta.json
+        ".study-note-ref", "sup.marker",  # inline note markers
+    ):
         for tag in soup.select(selector):
             tag.decompose()
+    return soup
+
+
+def _parse_html(raw: str) -> str:
+    soup = BeautifulSoup(raw, "html.parser")
+    sanitize_html(soup)
     return soup.get_text(separator="\n", strip=True)
 
 
