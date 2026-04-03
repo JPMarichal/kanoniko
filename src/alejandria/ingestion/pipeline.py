@@ -19,6 +19,7 @@ from alejandria.ingestion.conference_parser import (
     conference_talk_from_meta,
     parse_conference_talk,
 )
+from alejandria.knowledge.note_sanitizer import extract_note_relations
 from alejandria.ingestion.scripture_meta import (
     build_chunk_reference,
     build_scripture_metadata,
@@ -731,6 +732,26 @@ class IngestionPipeline:
                             **({"date": ct.conference_date} if ct.conference_date else {}),
                         },
                     })
+
+                # Note-derived KG relations: cross-references, hymns, concepts, books
+                # Uses structured parsing (not NER) to avoid name+calling pollution
+                if ct.notes_raw:
+                    note_ents, note_rels = extract_note_relations(ct.title, ct.notes_raw)
+                    for ne in note_ents:
+                        ekey = (ne["name"], ne["type"])
+                        if ekey not in seen_ents:
+                            seen_ents.add(ekey)
+                            batch_ents.append(ne)
+                        # Link note-derived entities to document
+                        lkey = (ne["name"], ne["type"], fd.rel_path)
+                        if lkey not in seen_lnks:
+                            seen_lnks.add(lkey)
+                            batch_lnks.append({
+                                "entity_name": ne["name"],
+                                "entity_type": ne["type"],
+                                "file_path": fd.rel_path,
+                            })
+                    batch_rels.extend(note_rels)
 
                 # Calling entity + CALLED_AS relation if available
                 if ct.calling:

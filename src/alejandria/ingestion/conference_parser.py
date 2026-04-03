@@ -400,8 +400,16 @@ def conference_talk_from_meta(meta: dict, file_path: str = "") -> ConferenceTalk
     talk.conference_date = meta.get("conference_date", "")
     talk.lang = meta.get("lang", "")
     talk.source_url = meta.get("source_url", "")
-    talk.note_count = meta.get("note_count", 0)
     talk.scripture_refs = meta.get("scripture_refs", [])
+    # Load notes from meta.json — these feed KG relation extraction
+    notes_list = meta.get("notes_text", [])
+    if isinstance(notes_list, list):
+        talk.notes_raw = notes_list
+        talk.notes_text = "\n".join(notes_list)
+    elif isinstance(notes_list, str):
+        talk.notes_text = notes_list
+        talk.notes_raw = [n.strip() for n in notes_list.split("\n") if n.strip()]
+    talk.note_count = meta.get("note_count", len(talk.notes_raw))
     return talk
 
 
