@@ -53,6 +53,13 @@ def index_status(
         percent=progress.percent,
         elapsed_seconds=progress.elapsed,
         eta_seconds=progress.eta_seconds,
+        phase=progress.phase,
+        phase_name=progress.phase_name,
+        phase_percent=progress.phase_percent,
+        phase_elapsed_seconds=progress.phase_elapsed,
+        phase_2_chunks=progress.phase_2_chunks,
+        phase_3_done=progress.phase_3_done,
+        phase_3_total=progress.phase_3_total,
     )
 
 
