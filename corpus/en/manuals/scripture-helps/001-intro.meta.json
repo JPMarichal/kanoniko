@@ -1,0 +1,33 @@
+{
+  "title": "Introduction",
+  "book": "Scripture Helps: Old Testament",
+  "category": "manuals",
+  "authority": 57,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/000-intro/001-intro?lang=eng",
+  "tags": [
+    "scripture-study",
+    "old-testament",
+    "study-aids"
+  ],
+  "notes": "Study aids companion for OT reading",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See3 Nephi 27:20;28:11;John 16:13."
+    },
+    {
+      "marker": "2.",
+      "text": "See2 Nephi 32:5;Moroni 8:26;John 14:26."
+    }
+  ],
+  "scripture_refs": [
+    "28:11",
+    "2 Nephi 32:5",
+    "3 Nephi 27:20",
+    "John 14:26",
+    "John 16:13",
+    "Moroni 8:26"
+  ]
+}

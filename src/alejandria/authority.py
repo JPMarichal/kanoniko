@@ -247,6 +247,46 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         authority=55, rigor=60, importance="importante",
         official=True, current=True, audience="general",
     )),
+    # Temple preparation — doctrinal content on covenants and ordinances
+    ("temple-preparation/", AuthorityMeta(
+        authority=60, rigor=65, importance="importante",
+        official=True, current=True, audience="adult",
+    )),
+    # Scripture helps — study aids for OT/NT reading
+    ("scripture-helps/", AuthorityMeta(
+        authority=57, rigor=70, importance="importante",
+        official=True, current=True, context="study-aid",
+    )),
+    # Self-reliance courses — practical welfare, not high doctrinal content
+    ("self-reliance/", AuthorityMeta(
+        authority=55, rigor=60, importance="interesante",
+        official=True, current=True, audience="adult",
+    )),
+    # Interfaith — institutional dialogue, lower doctrinal weight
+    ("interfaith/", AuthorityMeta(
+        authority=45, rigor=55, importance="interesante",
+        official=True, current=True, audience="general",
+    )),
+    # Religious freedom — official position, moderate doctrinal weight
+    ("religious-freedom/", AuthorityMeta(
+        authority=50, rigor=60, importance="interesante",
+        official=True, current=True, audience="general",
+    )),
+    # Succeed in school — practical/educational, not doctrinal
+    ("succeed-in-school/", AuthorityMeta(
+        authority=45, rigor=50, importance="interesante",
+        official=True, current=True, audience="youth",
+    )),
+    # About the hymns — pilot study resource
+    ("about-the-hymns/", AuthorityMeta(
+        authority=55, rigor=55, importance="interesante",
+        official=True, current=True, audience="general",
+    )),
+    # Family resources — older manuals on marriage and family
+    ("family-resources/", AuthorityMeta(
+        authority=55, rigor=60, importance="importante",
+        official=True, current=True, audience="adult",
+    )),
 ]
 
 

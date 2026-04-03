@@ -1,0 +1,45 @@
+{
+  "title": "New Testament Geography",
+  "book": "Scripture Helps: New Testament",
+  "category": "manuals",
+  "authority": 57,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/scripture-helps-new-testament/00-intro/004-new-testament-geography?lang=eng",
+  "tags": [
+    "scripture-study",
+    "new-testament",
+    "study-aids"
+  ],
+  "notes": "Study aids companion for NT reading",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See George A. Pierce, “Understanding the Physical and Metaphysical Geography of the New Testament,” in Blumell,New Testament History, Culture, and Society, 485–96."
+    },
+    {
+      "marker": "2.",
+      "text": "See Bible Maps, no. 11, “The Holy Land in New Testament Times.”"
+    },
+    {
+      "marker": "3.",
+      "text": "See2 Kings 17:24–41; Holzapfel and others,Jesus Christ and the World of the New Testament, 119."
+    },
+    {
+      "marker": "4.",
+      "text": "See Guide to the Scriptures, “Samaritans,” Gospel Library; Holzapfel and others,Jesus Christ and the World of the New Testament, 119."
+    },
+    {
+      "marker": "5.",
+      "text": "See Guide to the Scriptures, “Jerusalem,” Gospel Library; Bible Dictionary, “Temple of Herod.”"
+    }
+  ],
+  "scripture_refs": [
+    "2 Kings 17:24–41",
+    "Jerusalem",
+    "Jerusalem at the Time of Jesus",
+    "Samaritans",
+    "Temple of Herod",
+    "The Holy Land in New Testament Times"
+  ]
+}
