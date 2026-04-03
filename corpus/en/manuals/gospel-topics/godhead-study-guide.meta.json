@@ -1,0 +1,43 @@
+{
+  "title": "Godhead",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/godhead-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "14:6–10, 26",
+    "16:13",
+    "17:5",
+    "1 Corinthians 8:6",
+    "3 Nephi 11:10–11, 25–27, 35–36",
+    "Acts 7:55–56",
+    "Articles of Faith 1:1",
+    "Doctrine and Covenants 110:4",
+    "Doctrine and Covenants 121:32",
+    "Doctrine and Covenants 130:22",
+    "Doctrine and Covenants 76:22–24",
+    "Doctrine and Covenants 76:53",
+    "Ephesians 2:18",
+    "Hebrews 12:9",
+    "Helaman 15:13",
+    "John 14:26",
+    "John 17:3",
+    "John 1:29",
+    "John 5:19",
+    "Joseph Smith—History 1:13–17",
+    "Malachi 2:10",
+    "Matthew 3:16–17",
+    "Moses 1:39",
+    "Moses 4:2",
+    "Scriptures"
+  ]
+}

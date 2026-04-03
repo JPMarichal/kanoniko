@@ -1,0 +1,67 @@
+{
+  "title": "First Vision Accounts",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/first-vision-accounts?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Joseph Smith, in History, circa Summer 1832, 3,josephsmithpapers.org."
+    },
+    {
+      "marker": "10.",
+      "text": "See D. Todd Christofferson, “The Book of Mormon and Your Mission” (MTC devotional, Provo, Utah, Jan. 17, 2023); see also3 Nephi 21:1–2, 7."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeActs 9:3–9;22:6–10;26:12–18."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith, in History, circa Summer 1832, 3,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "Joseph Smith, in History, circa Summer 1832, 3,josephsmithpapers.org."
+    },
+    {
+      "marker": "5.",
+      "text": "Benajah Williams diary, July 15, 1820, copy in Church History Library, Salt Lake City; spelling regularized."
+    },
+    {
+      "marker": "6.",
+      "text": "Joseph Smith—History 1:5."
+    },
+    {
+      "marker": "7.",
+      "text": "SeeDoctrine and Covenants 69:2–8."
+    },
+    {
+      "marker": "8.",
+      "text": "See Oliver Cowdery, “Letter III,”Messenger and Advocate, Dec. 1834; “Letter IV,”Messenger and Advocate, Feb. 1835."
+    },
+    {
+      "marker": "9.",
+      "text": "SeeJoseph Smith—History 1:20, 49."
+    }
+  ],
+  "scripture_refs": [
+    "22:6–10",
+    "26:12–18",
+    "3 Nephi 21:1–2, 7",
+    "Acts 9:3–9",
+    "Doctrine and Covenants 69:2–8",
+    "Joseph Smith—History 1:20, 49",
+    "Joseph Smith—History 1:5"
+  ]
+}

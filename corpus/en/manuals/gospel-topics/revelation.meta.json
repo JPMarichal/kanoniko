@@ -1,0 +1,66 @@
+{
+  "title": "Revelation",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/revelation?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Matthew 7:7–8."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeDoctrine and Covenants 20:77, 79."
+    },
+    {
+      "marker": "3.",
+      "text": "See1 Nephi 11:1;Doctrine and Covenants 76:19;138:1–11."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeDoctrine and Covenants 88:63–68."
+    },
+    {
+      "marker": "5.",
+      "text": "Doctrine and Covenants 8:2–3."
+    },
+    {
+      "marker": "6.",
+      "text": "See1 Kings 19:9–12;Helaman 5:30;Doctrine and Covenants 85:6."
+    },
+    {
+      "marker": "7.",
+      "text": "SeeJohn 14:26;Doctrine and Covenants 39:6."
+    },
+    {
+      "marker": "8.",
+      "text": "Doctrine and Covenants 6:23."
+    }
+  ],
+  "scripture_refs": [
+    "138:1–11",
+    "1 Kings 19:9–12",
+    "1 Nephi 11:1",
+    "Doctrine and Covenants 20:77, 79",
+    "Doctrine and Covenants 39:6",
+    "Doctrine and Covenants 6:23",
+    "Doctrine and Covenants 76:19",
+    "Doctrine and Covenants 85:6",
+    "Doctrine and Covenants 88:63–68",
+    "Doctrine and Covenants 8:2–3",
+    "Helaman 5:30",
+    "John 14:26",
+    "Matthew 7:7–8",
+    "Scriptures"
+  ]
+}

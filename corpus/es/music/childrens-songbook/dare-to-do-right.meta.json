@@ -1,0 +1,24 @@
+{
+  "title": "Muestra valor",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/dare-to-do-right?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 58,
+  "author": "George L. Taylor, n. 1835. Música: Arreglo de A. C. Smyth, 1840–1909.",
+  "composer": "Arreglo de A. C. Smyth, 1840–1909.",
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Mateo 4:1–11",
+    "Efesios 6:1"
+  ]
+}

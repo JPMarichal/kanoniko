@@ -1,0 +1,142 @@
+{
+  "title": "La traducción del Libro de Mormón",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon-translation?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 25,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Teniendo en cuenta los viajes y otras interrupciones, los eruditos estiman que José tradujo casi todo el Libro de Mormón en unos 65 a 75 días. Véase John W. Welch, “The Miraculous Translation of the Book of Mormon”, en John W. Welch y Erick B. Carlson, editores,Opening the Heavens: Accounts of Divine Manifestations, 1820–1844, 2005, págs. 76–213."
+    },
+    {
+      "marker": "10.",
+      "text": "“History, circa Summer 1832”, pág. 5, josephsmithpapers.org."
+    },
+    {
+      "marker": "11.",
+      "text": "José Smith—Historia 1:35."
+    },
+    {
+      "marker": "12.",
+      "text": "VéanseÉxodo 28:30;Números 27:21."
+    },
+    {
+      "marker": "13.",
+      "text": "2 Nefi 3:6."
+    },
+    {
+      "marker": "14.",
+      "text": "Temas de la historia de la Iglesia, “Testigos del Libro de Mormón”, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "15.",
+      "text": "Véase “El testimonio de Tres Testigos”, Libro de Mormón."
+    },
+    {
+      "marker": "16.",
+      "text": "Véase “El testimonio de Ocho Testigos”, Libro de Mormón."
+    },
+    {
+      "marker": "17.",
+      "text": "Carta de Stephen Burnett a Lyman Johnson, 15 de abril de 1838, en Letterbook 2, pág. 64, josephsmithpapers.org."
+    },
+    {
+      "marker": "18.",
+      "text": "Una de las primeras revelaciones de José Smith describía que Moisés vio a Dios solo a través de “ojos espirituales”, es decir, que había sido “transfigurado” (Moisés 1:11). Otra revelación enseñó que para presenciar la gloria de Dios, es necesario ser “vivificado por el Espíritu de Dios” (Doctrina y Convenios 67:11)."
+    },
+    {
+      "marker": "19.",
+      "text": "Ole A. Jensen, citado en J. M. Sjodahl, “The Credibility of the Witnesses”,Improvement Era, septiembre de 1923, pág. 975. Ole A. Jensen entrevistó a Martin Harris en 1875."
+    },
+    {
+      "marker": "2.",
+      "text": "VéaseDoctrina y Convenios 17:6."
+    },
+    {
+      "marker": "20.",
+      "text": "“Letter of David Whitmer to Anthony Metcalf, March 1887”, enDavid Whitmer Interviews: A Restoration Witness, Lyndon W. Cook, editor, 1991, págs. 246–247."
+    },
+    {
+      "marker": "21.",
+      "text": "Santos: La historia de la Iglesia de Jesucristo en los últimos días, tomo I,El estandarte de la verdad, 1815–1846, 2018,pág. 183."
+    },
+    {
+      "marker": "22.",
+      "text": "Véase Peter Crawley,A Descriptive Bibliography of the Mormon Church, tomo I, 1830–1847, 1997, págs. 32, 67."
+    },
+    {
+      "marker": "23.",
+      "text": "“Una breve explicación acerca del Libro de Mormón”, Libro de Mormón, 1981."
+    },
+    {
+      "marker": "24.",
+      "text": "VéaseMoroni 10:3–5."
+    },
+    {
+      "marker": "25.",
+      "text": "Russell M. Nelson, “A Treasured Testament”,Ensign, julio de 1993, pág. 63."
+    },
+    {
+      "marker": "3.",
+      "text": "Prefacio del Libro de Mormón, edición de 1830, pág. III."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase “El testimonio de Tres Testigos”, Libro de Mormón."
+    },
+    {
+      "marker": "5.",
+      "text": "VéaseMoroni 10:3–5."
+    },
+    {
+      "marker": "6.",
+      "text": "VéaseMormón 9:32–34."
+    },
+    {
+      "marker": "7.",
+      "text": "Véase el prefacio del Libro de Mormón, 1830, pág. III; “History, 1838–1856, tomo E-1”, pág. 8 (apéndice), josephsmithpapers.org."
+    },
+    {
+      "marker": "8.",
+      "text": "2 Nefi 31:3."
+    },
+    {
+      "marker": "9.",
+      "text": "José Smith describió a los intérpretes como “dos piedras transparentes incrustadas en el borde de un arco sujetas a un pectoral” (“History, 1838–1856, tomo C-1, pág. 1282, josephsmithpapers.org). Del mismo modo, Oliver Cowdery describió los intérpretes como “dos piedras transparentes, que parecían de cristal, colocadas en aros de plata” (según lo relató A. W. B., “Mormonites”,Evangelical Magazine and Gospel Advocate, tomo II, 19 de abril de 1831, pág. 120)."
+    }
+  ],
+  "scripture_refs": [
+    "11:21",
+    "11:32",
+    "13:40",
+    "1 Nefi 11:18",
+    "1 Nefi 12:18",
+    "1 Nefi 20:1",
+    "1 Nefi 8:4",
+    "2 Nefi 30:6",
+    "2 Nefi 31:3",
+    "2 Nefi 3:6",
+    "Doctrina y Convenios 17:6",
+    "Doctrina y Convenios 67:11",
+    "El testimonio de Ocho Testigos",
+    "El testimonio de Tres Testigos",
+    "José Smith—Historia 1:35",
+    "Moisés 1:11",
+    "Mormón 9:32–34",
+    "Moroni 10:3–5",
+    "Mosíah 21:28",
+    "Números 27:21",
+    "Éter 4:1",
+    "Éxodo 28:30"
+  ]
+}

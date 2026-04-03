@@ -1,0 +1,79 @@
+{
+  "title": "Juicio",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/judging-others-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Gerrit W. Gong, “Volver a confiar”,Liahona, noviembre de 2021, pág. 99."
+    },
+    {
+      "marker": "2.",
+      "text": "Boyd K. Packer, “El mediador Jesucristo”,Liahona, abril de 2011, págs. 56–58."
+    },
+    {
+      "marker": "3.",
+      "text": "Dallin H. Oaks, “El amor divino en el plan del Padre”,Liahona, mayo de 2022, pág. 102."
+    },
+    {
+      "marker": "4.",
+      "text": "Dallin H. Oaks, “‘Judge Not’ and Judging”,Ensign, agosto de 1999, pág. 7."
+    },
+    {
+      "marker": "5.",
+      "text": "Enseñanzas de los Presidentes de la Iglesia: José Smith, 2007,págs. 365, 366."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nefi 12:9–10",
+    "2 Nefi 2:26–28",
+    "2 Nefi 9:12–13, 15, 20–22",
+    "2 Nefi 9:13–15",
+    "3 Nefi 27:20–21",
+    "3 Nefi 27:23–26",
+    "9:12–14",
+    "Abraham 3:25",
+    "Alma 12:12–15",
+    "Alma 12:14",
+    "Alma 34:31–35",
+    "Alma 41:14",
+    "Alma 5:14–26",
+    "Apocalipsis 20:12–13",
+    "Artículos de Fe 1:2",
+    "Doctrina y Convenios 101:78",
+    "Doctrina y Convenios 11:12",
+    "Doctrina y Convenios 128:6–7",
+    "Doctrina y Convenios 137:9",
+    "Doctrina y Convenios 29:5",
+    "Doctrina y Convenios 45:3–5",
+    "Doctrina y Convenios 88:20–32",
+    "Doctrina y Convenios 88:22–24",
+    "Enós 1:27",
+    "Juan 5:21–30",
+    "Juan 7:24",
+    "Juicio final",
+    "Juicio, juzgar",
+    "Levítico 19:15–18",
+    "Mateo 19:28",
+    "Mateo 22:37–39",
+    "Mateo 7:1",
+    "Mateo 7:1–8",
+    "Mormón 3:18–20",
+    "Mormón 3:20",
+    "Moroni 10:34",
+    "Mosíah 4:10–12",
+    "Mosíah 4:30",
+    "Traducción de José Smith de Mateo 7:2"
+  ]
+}

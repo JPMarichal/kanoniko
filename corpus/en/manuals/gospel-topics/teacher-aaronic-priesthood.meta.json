@@ -1,0 +1,26 @@
+{
+  "title": "Teacher (Aaronic Priesthood)",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/teacher-aaronic-priesthood?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrine and Covenants 107:15",
+    "Doctrine and Covenants 107:86",
+    "Doctrine and Covenants 20:53",
+    "Doctrine and Covenants 20:53–60",
+    "Doctrine and Covenants 20:54",
+    "Doctrine and Covenants 20:55",
+    "Doctrine and Covenants 84:30, 111",
+    "Ephesians 4:11"
+  ]
+}

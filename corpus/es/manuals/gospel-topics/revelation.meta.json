@@ -1,0 +1,38 @@
+{
+  "title": "Revelación",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/revelation?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "138:1–11",
+    "1 Nefi 11:1",
+    "1 Reyes 19:9–12",
+    "Alma 17:2–3",
+    "Alma 5:43–48",
+    "Amós 3:7",
+    "Doctrina y Convenios 121:26–33",
+    "Doctrina y Convenios 39:6",
+    "Doctrina y Convenios 6:23",
+    "Doctrina y Convenios 76:19",
+    "Doctrina y Convenios 76:5–10",
+    "Doctrina y Convenios 85:6",
+    "Doctrina y Convenios 88:63–68",
+    "Doctrina y Convenios 8:2–3",
+    "Doctrina y Convenios 20:77, 79",
+    "Guía para el Estudio de las Escrituras, “Revelación”",
+    "Helamán 5:30",
+    "Juan 14:26",
+    "Mateo 16:13–18",
+    "Mateo 7:7–8"
+  ]
+}

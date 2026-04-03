@@ -1,0 +1,27 @@
+{
+  "title": "Postmortality",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/postmortality?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 1,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrine and Covenants 76:51; see alsoDoctrine and Covenants 76:74, 79, 101."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 76:51",
+    "Doctrine and Covenants 76:74, 79, 101",
+    "Scriptures"
+  ]
+}

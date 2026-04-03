@@ -1,0 +1,22 @@
+{
+  "title": "Con reverencia",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/father-i-will-reverent-be?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 6,
+  "first_line": "Hoy, Señor, con reverencia en Tu casa andaré;",
+  "note_count": 0,
+  "scripture_refs": [
+    "Levítico 19:30",
+    "Levítico 26:2"
+  ]
+}

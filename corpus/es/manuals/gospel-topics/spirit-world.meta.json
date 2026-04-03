@@ -1,0 +1,68 @@
+{
+  "title": "Mundo de los espíritus",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/spirit-world?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "VéanseEnseñanzas de los Presidentes de la Iglesia: Brigham Young, 1997, págs.293–294;The Teachings of Harold B. Lee, 1996, pág.58."
+    },
+    {
+      "marker": "10.",
+      "text": "VéaseDoctrina y Convenios 76:81–88."
+    },
+    {
+      "marker": "2.",
+      "text": "VéaseAlma 40:11–12."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrina y Convenios 138:30–34, 57."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseDoctrina y Convenios 138:30."
+    },
+    {
+      "marker": "5.",
+      "text": "Wilford Woodruff, “Discourse”,Deseret News, 25 de enero de 1882, pág. 818."
+    },
+    {
+      "marker": "6.",
+      "text": "Joseph F. Smith,Gospel Doctrine, 5.ª edición, 1939, pág. 461; véase tambiénDoctrina y Convenios 138:30–32, 36–52."
+    },
+    {
+      "marker": "7.",
+      "text": "Véanse Dallin H. Oaks, “Confía en el Señor”,Liahona, noviembre de 2019, pág. 28;Enseñanzas de los Presidentes de la Iglesia: José Smith, 2007, pág.513."
+    },
+    {
+      "marker": "8.",
+      "text": "Véase1 Pedro 3:18–20."
+    },
+    {
+      "marker": "9.",
+      "text": "Doctrina y Convenios 19:16–18."
+    }
+  ],
+  "scripture_refs": [
+    "1 Pedro 3:18–20",
+    "Alma 40:11–12",
+    "Doctrina y Convenios 138:30",
+    "Doctrina y Convenios 138:30–32, 36–52",
+    "Doctrina y Convenios 138:30–34, 57",
+    "Doctrina y Convenios 19:16–18",
+    "Doctrina y Convenios 76:81–88",
+    "Escrituras"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Grace",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/grace-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Dieter F. Uchtdorf, “The Gift of Grace,”EnsignorLiahona, May 2015, 108."
+    },
+    {
+      "marker": "2.",
+      "text": "Dieter F. Uchtdorf, “The Gift of Grace,” 110."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corinthians 2:9",
+    "2 Corinthians 12:9–10",
+    "2 Corinthians 9:8",
+    "2 Nephi 10:23–25",
+    "2 Nephi 10:24",
+    "2 Nephi 11:5",
+    "2 Nephi 25:23",
+    "2 Nephi 2:8",
+    "Alma 26:11–13",
+    "Alma 31:30–35, 38",
+    "Doctrine and Covenants 50:40–44",
+    "Doctrine and Covenants 93:12–13",
+    "Doctrine and Covenants 93:19–20",
+    "Ephesians 2:4–8",
+    "Ether 12:27",
+    "Ether 12:41",
+    "Hebrews 4:14–16",
+    "Jacob 4:7",
+    "John 15:1–11",
+    "Moroni 10:32–33",
+    "Moroni 8:3",
+    "Mosiah 24:14–15",
+    "Mosiah 2:20–21",
+    "Philippians 4:13",
+    "Romans 3:23–24",
+    "Scriptures",
+    "Titus 2:11–14"
+  ]
+}

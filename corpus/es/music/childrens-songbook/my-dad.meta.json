@@ -1,0 +1,22 @@
+{
+  "title": "Mi papá",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/my-dad?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 84,
+  "first_line": "Mi gran amigo es mi papá,",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Nefi 1:1",
+    "Proverbios 4:1"
+  ]
+}

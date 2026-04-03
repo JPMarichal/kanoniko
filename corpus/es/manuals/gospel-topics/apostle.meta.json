@@ -1,0 +1,28 @@
+{
+  "title": "Apóstol",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/apostle?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Nefi 12:9–10",
+    "Doctrina y Convenios 107:23",
+    "Doctrina y Convenios 107:35",
+    "Doctrina y Convenios 18:26–33",
+    "Doctrina y Convenios 1:14",
+    "Doctrina y Convenios 27:12",
+    "Efesios 2:19–20",
+    "Efesios 4:11–13",
+    "Guía para el Estudio de las Escrituras, “Apóstol”",
+    "Mateo 10:1–4"
+  ]
+}

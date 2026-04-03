@@ -1,0 +1,103 @@
+{
+  "title": "Kingdoms of Glory",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/kingdoms-of-glory?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 15,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "John 14:2."
+    },
+    {
+      "marker": "10.",
+      "text": "Doctrine and Covenants 76:75."
+    },
+    {
+      "marker": "11.",
+      "text": "Doctrine and Covenants 76:79; see alsoDoctrine and Covenants 76:71–80, 91, 97."
+    },
+    {
+      "marker": "12.",
+      "text": "Doctrine and Covenants 76:82."
+    },
+    {
+      "marker": "13.",
+      "text": "SeeDoctrine and Covenants 76:84;Doctrine and Covenants 76:106; see alsoDoctrine and Covenants 76:81–90, 98–106, 109–112."
+    },
+    {
+      "marker": "14.",
+      "text": "Doctrine and Covenants 76:32;88:24."
+    },
+    {
+      "marker": "15.",
+      "text": "Doctrine and Covenants 76:31; see alsoDoctrine and Covenants 76:30, 32–49."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrine and Covenants 76:51; see alsoDoctrine and Covenants 76:74, 79, 101."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrine and Covenants 76:51, 69."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeDoctrine and Covenants 76:50–70;76:92–96."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeDoctrine and Covenants 137:1–6."
+    },
+    {
+      "marker": "6.",
+      "text": "Doctrine and Covenants 137:7–9."
+    },
+    {
+      "marker": "7.",
+      "text": "Doctrine and Covenants 137:10."
+    },
+    {
+      "marker": "8.",
+      "text": "SeeDoctrine and Covenants 131:1–4."
+    },
+    {
+      "marker": "9.",
+      "text": "Doctrine and Covenants 76:77–78."
+    }
+  ],
+  "scripture_refs": [
+    "76:92–96",
+    "88:24",
+    "Doctrine and Covenants 131:1–4",
+    "Doctrine and Covenants 137:10",
+    "Doctrine and Covenants 137:1–6",
+    "Doctrine and Covenants 137:7–9",
+    "Doctrine and Covenants 76:106",
+    "Doctrine and Covenants 76:30, 32–49",
+    "Doctrine and Covenants 76:31",
+    "Doctrine and Covenants 76:32",
+    "Doctrine and Covenants 76:50–70",
+    "Doctrine and Covenants 76:51",
+    "Doctrine and Covenants 76:51, 69",
+    "Doctrine and Covenants 76:71–80, 91, 97",
+    "Doctrine and Covenants 76:74, 79, 101",
+    "Doctrine and Covenants 76:75",
+    "Doctrine and Covenants 76:77–78",
+    "Doctrine and Covenants 76:79",
+    "Doctrine and Covenants 76:81–90, 98–106, 109–112",
+    "Doctrine and Covenants 76:82",
+    "Doctrine and Covenants 76:84",
+    "John 14:2",
+    "Scriptures"
+  ]
+}

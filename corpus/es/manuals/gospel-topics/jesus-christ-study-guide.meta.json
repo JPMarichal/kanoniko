@@ -1,0 +1,69 @@
+{
+  "title": "Jesucristo",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/jesus-christ-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase Temas y preguntas, “Segunda Venida de Jesucristo”, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "2.",
+      "text": "Russell M. Nelson, “Cómo obtener el poder de Jesucristo en nuestra vida”,Liahona, mayo de 2017, pág. 39."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “La respuesta siempre es Jesucristo”,Liahona, mayo de 2023, pág. 127."
+    }
+  ],
+  "scripture_refs": [
+    "1 Pedro 1:19–20",
+    "2 Nefi 2:6–7, 26",
+    "2 Nefi 31:16",
+    "2 Nefi 31:7",
+    "3 Nefi 11:8–15",
+    "3 Nefi 27:21",
+    "3 Nefi 9:14",
+    "Abraham 2:7–8",
+    "Abraham 3:27",
+    "Alma 7:11–13",
+    "Doctrina y Convenios 19:15–20",
+    "Doctrina y Convenios 101:23–34",
+    "Doctrina y Convenios 133:10–11, 25",
+    "Doctrina y Convenios 38:1–3",
+    "Doctrina y Convenios 49:7",
+    "Doctrina y Convenios 84:37–38",
+    "Efesios 5:1–2",
+    "El Cristo Viviente: El Testimonio de los Apóstoles",
+    "Escrituras",
+    "Hechos 4:10–12",
+    "Helamán 14:15–16",
+    "Helamán 15:7–8",
+    "Isaías 53:4–5",
+    "Jesucristo",
+    "Juan 11:25–26",
+    "Juan 3:16–17",
+    "Lucas 22:44",
+    "Lucas 24:36–40",
+    "Mateo 11:28–30",
+    "Mateo 11:4–5",
+    "Mateo 27:50",
+    "Moisés 1:32–33",
+    "Moroni 10:32–33",
+    "Mosíah 3:5–13",
+    "Mosíah 4:2–3",
+    "Mosíah 5:2",
+    "Tito 2:13–14"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Resurrección",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/resurrection?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Corintios 15:1–8",
+    "1 Corintios 15:22",
+    "2 Nefi 9:6",
+    "2 Pedro 1:16–17",
+    "3 Nefi 11:10–17",
+    "Alma 11:41, 43",
+    "Alma 11:43",
+    "Alma 22:14",
+    "Alma 40",
+    "Guía para el Estudio de las Escrituras, “Resurrección”",
+    "Helamán 14:15–17",
+    "Juan 20:1–29",
+    "Lucas 24:1–48",
+    "Lucas 24:39",
+    "Marcos 16:1–14",
+    "Mateo 28:1–8",
+    "Mosíah 15:19–26",
+    "Mosíah 16:7–11"
+  ]
+}

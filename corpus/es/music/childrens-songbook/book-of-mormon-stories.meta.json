@@ -1,0 +1,22 @@
+{
+  "title": "Historias del Libro de Mormón",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/book-of-mormon-stories?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 44,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "José Smith—Historia 1:34",
+    "Artículos de Fe 1:8"
+  ]
+}

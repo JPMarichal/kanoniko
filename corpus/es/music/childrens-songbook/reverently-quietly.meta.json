@@ -1,0 +1,21 @@
+{
+  "title": "Con quietud",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/reverently-quietly?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 7,
+  "first_line": "Con quietud pensaré reverente en ti, Señor.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrina y Convenios 19:23"
+  ]
+}

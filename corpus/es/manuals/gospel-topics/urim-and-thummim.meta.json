@@ -1,0 +1,29 @@
+{
+  "title": "Urim y Tumim",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/urim-and-thummim?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Samuel 28:6",
+    "Abraham 3:1, 4",
+    "Doctrina y Convenios 10:1",
+    "Doctrina y Convenios 130:6–11",
+    "Doctrina y Convenios 17:1",
+    "Doctrina y Convenios 6:11, 14–16",
+    "Esdras 2:63",
+    "José Smith—Historia 1:35, 42, 52",
+    "Urim y Tumim",
+    "Éter 3:23–24, 28",
+    "Éxodo 28:30"
+  ]
+}

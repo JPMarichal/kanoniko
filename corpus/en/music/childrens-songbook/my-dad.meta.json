@@ -1,0 +1,22 @@
+{
+  "title": "My Dad",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/my-dad?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 183,
+  "first_line": "My daddy is my fav’rite pal,",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Nephi 1:1",
+    "Proverbs 4:1"
+  ]
+}

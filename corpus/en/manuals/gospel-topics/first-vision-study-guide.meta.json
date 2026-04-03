@@ -1,0 +1,66 @@
+{
+  "title": "First Vision",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/first-vision-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Gordon B. Hinckley, “The Marvelous Foundation of Our Faith,”EnsignorLiahona, Nov. 2002, 80."
+    },
+    {
+      "marker": "2.",
+      "text": "Dieter F. Uchtdorf, “The Fruits of the First Vision,”EnsignorLiahona, May 2005, 36–38."
+    },
+    {
+      "marker": "3.",
+      "text": "Patricio M. Giuffra, “A Faithful Search Rewarded,”Liahona, Nov. 2021, 22–23."
+    },
+    {
+      "marker": "4.",
+      "text": "Russell M. Nelson, “Revelation for the Church, Revelation for Our Lives,”EnsignorLiahona, May 2018, 95."
+    },
+    {
+      "marker": "5.",
+      "text": "Henry B. Eyring, “The First Vision: A Pattern for Personal Revelation,”Ensign, Feb. 2020, 12–17."
+    },
+    {
+      "marker": "6.",
+      "text": "Russell M. Nelson, “Revelation for the Church, Revelation for Our Lives,” 93–96."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 10:17–19",
+    "1 Nephi 15:6–11",
+    "2 Nephi 3:6–15",
+    "3 Nephi 11",
+    "88:63, 118",
+    "Alma 5:45–46",
+    "Amos 3:7",
+    "Doctrine and Covenants 130:1, 22",
+    "Doctrine and Covenants 42:61",
+    "Ephesians 1:10",
+    "Exodus 33:11",
+    "Isaiah 29:13–14",
+    "James 1:5–6",
+    "Joel 2:28–29",
+    "Joseph Smith—History 1:17",
+    "Joseph Smith—History 1:19–20",
+    "Joseph Smith—History 1:23–26",
+    "Joseph Smith—History 1:5–26",
+    "Joseph Smith—History 1:7–20",
+    "Moroni 10:4–6",
+    "Scriptures",
+    "The Restoration of the Fulness of the Gospel of Jesus Christ: A Bicentennial Proclamation to the World."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Relief Society",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/relief-society?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Corinthians 13",
+    "Charity",
+    "Doctrine and Covenants 138:56",
+    "Doctrine and Covenants 25:1, 13, 15–16",
+    "Doctrine and Covenants 88:118–19, 123–25",
+    "Eternal Life",
+    "Luke 10:41–42",
+    "Moroni 7:45–47",
+    "Moses 1:39",
+    "Romans 16:1–2",
+    "Sons and Daughters of God",
+    "Woman, Women"
+  ]
+}

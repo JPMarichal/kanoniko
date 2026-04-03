@@ -1,0 +1,28 @@
+{
+  "title": "Profetas",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/prophets?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Nefi 22:1–2",
+    "2 Crónicas 20:20",
+    "Amós 3:7",
+    "Artículos de Fe 1:6",
+    "Doctrina y Convenios 107:91–92",
+    "Doctrina y Convenios 1:14–16",
+    "Doctrina y Convenios 1:38",
+    "Doctrina y Convenios 21:4–6",
+    "Efesios 2:19–20",
+    "Guía para el Estudio de las Escrituras, “Profeta”"
+  ]
+}

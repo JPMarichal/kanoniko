@@ -1,0 +1,100 @@
+{
+  "title": "Familia",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/family-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 14,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "L. Tom Perry, “La importancia de la familia”,Liahona, mayo de 2003, pág. 40."
+    },
+    {
+      "marker": "10.",
+      "text": "Dallin H. Oaks, “El gran plan”,Liahona, mayo de 2020, pág. 95."
+    },
+    {
+      "marker": "11.",
+      "text": "VéaseManual General,38.1.4."
+    },
+    {
+      "marker": "12.",
+      "text": "Véase D. Todd Christofferson, “El porqué del matrimonio, el porqué de la familia”,Liahona, mayo de 2015, pág. 53."
+    },
+    {
+      "marker": "13.",
+      "text": "Russell M. Nelson, “Demos gracias a Dios”,Liahona, mayo de 2012, pág. 77."
+    },
+    {
+      "marker": "14.",
+      "text": "Russell M. Nelson, “La salvación y la exaltación”,Liahona, mayo de 2008, pág. 10."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase “La Familia: Una Proclamación para el Mundo”, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "3.",
+      "text": "Tamara W. Runia, “Ver a la familia de Dios a través de un lente de perspectiva”,Liahona, noviembre de 2023, pág. 67."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase Gordon B. Hinckley, “Sean dignos de la joven con la cual se van a casar algún día”,Liahona, julio de 1998, págs. 55, 56."
+    },
+    {
+      "marker": "5.",
+      "text": "“La Familia: Una Proclamación para el Mundo”."
+    },
+    {
+      "marker": "6.",
+      "text": "VéaseManual General: Servir en La Iglesia de Jesucristo de los Santos de los Últimos Días,2.1.3, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "7.",
+      "text": "Russell M. Nelson, “La salvación y la exaltación”,Liahona, mayo de 2008, págs. 9–10."
+    },
+    {
+      "marker": "8.",
+      "text": "Neil L. Andersen, “Torbellinos espirituales”,Liahona, mayo de 2014, pág. 19."
+    },
+    {
+      "marker": "9.",
+      "text": "Tad R. Callister, “Los padres: Principales maestros del Evangelio para sus hijos”,Liahona, noviembre de 2014, pág. 32."
+    }
+  ],
+  "scripture_refs": [
+    "11:19–21",
+    "132:15–20",
+    "136:8",
+    "2 Nefi 25:26",
+    "3 Nefi 18:21",
+    "83:1–6",
+    "Deuteronomio 6:4–7",
+    "Doctrina y Convenios 131:1–4",
+    "Doctrina y Convenios 52:40",
+    "Doctrina y Convenios 68:25–28",
+    "Doctrina y Convenios 88:119–120",
+    "Doctrina y Convenios 93:40",
+    "Doctrina y Convenios 49:15–17",
+    "Efesios 6:1–4",
+    "Escrituras",
+    "Helamán 5:4–12",
+    "Isaías 54:13",
+    "La Familia: Una Proclamación para el Mundo",
+    "Moisés 3:21–24",
+    "Moisés 2:27–28",
+    "Moisés 5:12",
+    "Mosíah 1:2–8",
+    "Mosíah 4:14–15",
+    "Proverbios 22:6"
+  ]
+}

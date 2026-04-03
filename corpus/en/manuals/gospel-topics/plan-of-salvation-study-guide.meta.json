@@ -1,0 +1,44 @@
+{
+  "title": "Plan of Salvation",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/plan-of-salvation-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Dieter F. Uchtdorf, “You Matter to Him,”EnsignorLiahona, Nov. 2011, 19–22."
+    },
+    {
+      "marker": "2.",
+      "text": "Russell M. Nelson, “Joy and Spiritual Survival,”EnsignorLiahona, Nov. 2016, 82."
+    },
+    {
+      "marker": "3.",
+      "text": "Adrián Ochoa, “Is the Plan Working?,”Liahona, May 2022, 47–49."
+    }
+  ],
+  "scripture_refs": [
+    "11:5",
+    "1 Nephi 11:17",
+    "2 Nephi 9:6, 13",
+    "41:2",
+    "42:8, 31",
+    "Alma 12:28–34",
+    "Alma 22:12–16",
+    "Alma 34:16",
+    "Moses 1:39",
+    "Moses 6:57–62",
+    "Romans 8:31–39",
+    "Scriptures"
+  ]
+}

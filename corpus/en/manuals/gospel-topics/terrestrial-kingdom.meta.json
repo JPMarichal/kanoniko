@@ -1,0 +1,23 @@
+{
+  "title": "Terrestrial Kingdom",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/terrestrial-kingdom?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Corinthians 15:40–41",
+    "Degrees of Glory",
+    "Doctrine and Covenants 76",
+    "Doctrine and Covenants 88: 21, 23, 30, 38",
+    "Terrestrial Glory"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "title": "Mandamientos",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/commandments-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Dallin H. Oaks, “El amor y la ley”,Liahona, noviembre de 2009, pág. 26."
+    },
+    {
+      "marker": "2.",
+      "text": "Véanse2 Nefi 32:9;Doctrina y Convenios 10:5; véase tambiénLucas 11:1–10."
+    },
+    {
+      "marker": "3.",
+      "text": "VéanseDoctrina y Convenios 64:10;Mateo 6:14–15."
+    },
+    {
+      "marker": "4.",
+      "text": "VéanseDoctrina y Convenios 52:40;Mosíah 4:26;Mateo 25:35–40."
+    },
+    {
+      "marker": "5.",
+      "text": "Enseñanzas de los Presidentes de la Iglesia: Harold B. Lee, 2000, pág.34."
+    }
+  ],
+  "scripture_refs": [
+    "12:33–37",
+    "13:11–26",
+    "18:8–10",
+    "1 Nefi 3:7",
+    "2 Nefi 32:9",
+    "3 Nefi 12:19–20",
+    "59:5–13",
+    "Doctrina y Convenios 100:15",
+    "Doctrina y Convenios 10:5",
+    "Doctrina y Convenios 130:20–21",
+    "Doctrina y Convenios 42:19–29",
+    "Doctrina y Convenios 64:10",
+    "Doctrina y Convenios 82:8–10",
+    "Doctrina y Convenios 52:40",
+    "Eclesiastés 12:13",
+    "Juan 14:15",
+    "Las Escrituras",
+    "Lucas 11:1–10",
+    "Marcos 10:17–22",
+    "Mateo 22:37-40",
+    "Mateo 22:37–40",
+    "Mateo 25:35–40",
+    "Mateo 6:14–15",
+    "Moisés 5:4–5",
+    "Mosíah 2:20–24, 41",
+    "Mosíah 2:41",
+    "Mosíah 4:26",
+    "versículo 21",
+    "Éxodo 20:3–17"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Council in Heaven",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/council-in-heaven?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeTeachings of Presidents of the Church: Joseph Smith(2007),209,511."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeDoctrine and Covenants 132:19–20."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeAbraham 3:24–26."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeJohn 18:37."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeDoctrine and Covenants 122:7."
+    },
+    {
+      "marker": "6.",
+      "text": "SeeTeachings of Presidents of the Church: Spencer W. Kimball(2006),15–16."
+    },
+    {
+      "marker": "7.",
+      "text": "SeeDoctrine and Covenants 29:46–47."
+    }
+  ],
+  "scripture_refs": [
+    "Abraham 3:24–26",
+    "Doctrine and Covenants 122:7",
+    "Doctrine and Covenants 132:19–20",
+    "Doctrine and Covenants 29:46–47",
+    "John 18:37",
+    "Scriptures"
+  ]
+}

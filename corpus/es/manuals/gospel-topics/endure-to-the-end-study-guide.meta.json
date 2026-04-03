@@ -1,0 +1,64 @@
+{
+  "title": "Perseverar hasta el fin",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/endure-to-the-end-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase Guía para el Estudio de las Escrituras, “Perseverar”, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "2.",
+      "text": "Joseph B. Wirthlin, “Sigamos adelante”,Liahona, noviembre de 2004, pág. 101."
+    },
+    {
+      "marker": "3.",
+      "text": "Kevin W. Pearson, “Permanezcamos junto al árbol”,Liahona, mayo de 2015, pág. 116."
+    },
+    {
+      "marker": "4.",
+      "text": "Thomas S. Monson, “Crean, obedezcan y perseveren”,Liahona, mayo de 2012, pág. 129."
+    },
+    {
+      "marker": "5.",
+      "text": "VéasePredicad Mi Evangelio: Una guía para compartir el Evangelio de Jesucristo, 2023,págs. 138–140."
+    },
+    {
+      "marker": "6.",
+      "text": "Dieter F. Uchtdorf, “¿No tenemos razón para regocijarnos?”,Liahona, noviembre de 2007, pág. 20."
+    }
+  ],
+  "scripture_refs": [
+    "101:35",
+    "10:23",
+    "121:7–8, 29",
+    "15:24",
+    "1 Nefi 8:30",
+    "2 Nefi 31:19–20",
+    "2 Nefi 31:20",
+    "3 Nefi 11:11",
+    "3 Nefi 15:9",
+    "Artículos de Fe 1:13",
+    "Doctrina y Convenios 59:23",
+    "Doctrina y Convenios 63:47",
+    "Doctrina y Convenios 14:7",
+    "Escrituras",
+    "Hebreos 13:5",
+    "Hebreos 6:12",
+    "Lucas 22:42",
+    "Mateo 10:22",
+    "Perseverar",
+    "Romanos 2:7"
+  ]
+}

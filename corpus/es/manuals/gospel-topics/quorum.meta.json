@@ -1,0 +1,24 @@
+{
+  "title": "Cuórum",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/quorum?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrina y Convenios 107:22–32",
+    "Doctrina y Convenios 107:23",
+    "Doctrina y Convenios 107:25",
+    "Doctrina y Convenios 107:85–87",
+    "Doctrina y Convenios 124:125–143",
+    "Guía para el Estudio de las Escrituras, “Cuórum”"
+  ]
+}

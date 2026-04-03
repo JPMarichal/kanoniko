@@ -1,0 +1,59 @@
+{
+  "title": "Mortality",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/mortality-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Russell M. Nelson, “Your Body: A Magnificent Gift to Cherish,”New Era, Aug. 2019, 2–7."
+    },
+    {
+      "marker": "2.",
+      "text": "Russell M. Nelson, “Choices for Eternity” (worldwide devotional for young adults, May 15, 2022), Gospel Library."
+    },
+    {
+      "marker": "3.",
+      "text": "“The Challenge to Become” (video),ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "4.",
+      "text": "Russell M. Nelson, “Joy and Spiritual Survival,”EnsignorLiahona, Nov. 2016, 82."
+    },
+    {
+      "marker": "5.",
+      "text": "Russell M. Nelson, “Joy and Spiritual Survival,” 81–84."
+    }
+  ],
+  "scripture_refs": [
+    "122:5–7",
+    "1 Corinthians 6:19–20",
+    "1 Peter 1:6–7",
+    "2 Nephi 2:25",
+    "34:31–37",
+    "93:33–35",
+    "Abraham 3:25",
+    "Alma 12:24",
+    "Doctrine and Covenants 101:36–38",
+    "Doctrine and Covenants 121:7–8",
+    "Doctrine and Covenants 84:43–48",
+    "Doctrine and Covenants 88:15",
+    "Genesis 1:26–27",
+    "Hebrews 4:14–16",
+    "Moses 2:27",
+    "Moses 5:10–12",
+    "Romans 5:3–5",
+    "Romans 8:28",
+    "Scriptures"
+  ]
+}

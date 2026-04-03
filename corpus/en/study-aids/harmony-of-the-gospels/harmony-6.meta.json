@@ -1,0 +1,199 @@
+{
+  "title": "Part III.D: North Galilean Ministry",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-6?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 20,
+  "scripture_refs": [
+    "Mark 7:24–30",
+    "Mark 7:31–37",
+    "Mark 8:1–9",
+    "Mark 8:10–13",
+    "Luke 12:54–57",
+    "Mark 8:14–21",
+    "Luke 12:1",
+    "Mark 8:22–26",
+    "Mark 8:27–30",
+    "Luke 9:18–21",
+    "Mark 8:31",
+    "Luke 9:22",
+    "Mark 8:32–33",
+    "Mark 8:34–38",
+    "Luke 9:23–26",
+    "Mark 9:1",
+    "Luke 9:27",
+    "Mark 9:2–13",
+    "Luke 9:28–36",
+    "Mark 9:14–29",
+    "Luke 9:37–43",
+    "Mark 9:30–32",
+    "Luke 9:44–45",
+    "Mark 9:33–37",
+    "Luke 9:46–48",
+    "Mark 9:38–50",
+    "Luke 9:49–50",
+    "Luke 9:57–62"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event Heals Canaanite daughter",
+      "location": "Location Tyre, Sidon",
+      "mark": [
+        "Mark 7:24–30"
+      ]
+    },
+    {
+      "event": "Event Heals many in Galilee",
+      "location": "Location Galilee",
+      "mark": [
+        "Mark 7:31–37"
+      ]
+    },
+    {
+      "event": "Event Feeds four thousand",
+      "location": "Location Near Sea of Galilee",
+      "mark": [
+        "Mark 8:1–9"
+      ]
+    },
+    {
+      "event": "Event Pharisees and Sadducees ask for a sign",
+      "location": "Location Magdala",
+      "mark": [
+        "Mark 8:10–13"
+      ],
+      "luke": [
+        "Luke 12:54–57"
+      ]
+    },
+    {
+      "event": "Event Leaven of Pharisees and Sadducees",
+      "location": "Location Galilee",
+      "mark": [
+        "Mark 8:14–21"
+      ],
+      "luke": [
+        "Luke 12:1"
+      ]
+    },
+    {
+      "event": "Event Blind man healed by stages",
+      "location": "Location Bethsaida",
+      "mark": [
+        "Mark 8:22–26"
+      ]
+    },
+    {
+      "event": "Event Testimony of Peter",
+      "location": "Location Caesarea Philippi",
+      "mark": [
+        "Mark 8:27–30"
+      ],
+      "luke": [
+        "Luke 9:18–21"
+      ]
+    },
+    {
+      "event": "Event Prophecy of death and Resurrection",
+      "location": "Location Caesarea Philippi",
+      "mark": [
+        "Mark 8:31"
+      ],
+      "luke": [
+        "Luke 9:22"
+      ]
+    },
+    {
+      "event": "Event Peter rebuked",
+      "location": "Location Caesarea Philippi",
+      "mark": [
+        "Mark 8:32–33"
+      ]
+    },
+    {
+      "event": "Event Take up a cross",
+      "location": "Location Caesarea Philippi",
+      "mark": [
+        "Mark 8:34–38"
+      ],
+      "luke": [
+        "Luke 9:23–26"
+      ]
+    },
+    {
+      "event": "Event Some not to taste death",
+      "location": "Location Caesarea Philippi",
+      "mark": [
+        "Mark 9:1"
+      ],
+      "luke": [
+        "Luke 9:27"
+      ]
+    },
+    {
+      "event": "Event Transfiguration: Sealing keys committed",
+      "location": "Location Mount Hermon or Tabor",
+      "mark": [
+        "Mark 9:2–13"
+      ],
+      "luke": [
+        "Luke 9:28–36"
+      ]
+    },
+    {
+      "event": "Event Heals boy with unclean spirit",
+      "location": "Location Galilee",
+      "mark": [
+        "Mark 9:14–29"
+      ],
+      "luke": [
+        "Luke 9:37–43"
+      ]
+    },
+    {
+      "event": "Event Again foretells death and Resurrection",
+      "location": "Location Galilee",
+      "mark": [
+        "Mark 9:30–32"
+      ],
+      "luke": [
+        "Luke 9:44–45"
+      ]
+    },
+    {
+      "event": "Event Who is greatest in the kingdom",
+      "location": "Location Capernaum",
+      "mark": [
+        "Mark 9:33–37"
+      ],
+      "luke": [
+        "Luke 9:46–48"
+      ]
+    },
+    {
+      "event": "Event Offenses and forgiveness",
+      "location": "Location Galilee",
+      "mark": [
+        "Mark 9:38–50"
+      ],
+      "luke": [
+        "Luke 9:49–50"
+      ]
+    },
+    {
+      "event": "Event Sacrifice required to follow Jesus",
+      "location": "Location Capernaum (?)",
+      "luke": [
+        "Luke 9:57–62"
+      ]
+    }
+  ]
+}

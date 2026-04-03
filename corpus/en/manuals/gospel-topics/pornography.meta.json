@@ -1,0 +1,50 @@
+{
+  "title": "Pornography",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/pornography?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See3 Nephi 27:21."
+    },
+    {
+      "marker": "2.",
+      "text": "Hebrews 4:15."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrine and Covenants 121:45."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeDoctrine and Covenants 63:16."
+    },
+    {
+      "marker": "5.",
+      "text": "M. Russell Ballard, “The Lord Needs You Now!,”Ensign, Sept. 2015, 28."
+    },
+    {
+      "marker": "6.",
+      "text": "Philippians 4:13."
+    }
+  ],
+  "scripture_refs": [
+    "3 Nephi 27:21",
+    "Doctrine and Covenants 121:45",
+    "Doctrine and Covenants 63:16",
+    "Hebrews 4:15",
+    "Philippians 4:13",
+    "Scriptures"
+  ]
+}

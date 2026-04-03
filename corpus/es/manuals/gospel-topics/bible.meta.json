@@ -1,0 +1,38 @@
+{
+  "title": "Biblia",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/bible?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véanse2 Crónicas 9:29;13:22;20:34;1 Corintios 5:9;Judas 1:14."
+    },
+    {
+      "marker": "2.",
+      "text": "Enseñanzas de los Presidentes de la Iglesia: José Smith, 2007,pág. 217."
+    },
+    {
+      "marker": "3.",
+      "text": "Enseñanzas: José Smith,págs. 69–70."
+    }
+  ],
+  "scripture_refs": [
+    "13:22",
+    "1 Corintios 5:9",
+    "20:34",
+    "2 Crónicas 9:29",
+    "Escrituras",
+    "Judas 1:14"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Suicide",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/suicide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "2 Corinthians 1:8."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeNumbers 11:14–15;1 Kings 19:4;Jeremiah 20:14;Philippians 1:21–24."
+    },
+    {
+      "marker": "3.",
+      "text": "See2 Nephi 4:19–20;Alma 36:27."
+    },
+    {
+      "marker": "4.",
+      "text": "M. Russell Ballard, “Suicide: Some Things We Know, and Some We Do Not,”Ensign, Oct. 1987, 8."
+    },
+    {
+      "marker": "5.",
+      "text": "Doctrine and Covenants 88:6; see alsoDoctrine and Covenants 122:8."
+    },
+    {
+      "marker": "6.",
+      "text": "Alma 7:12."
+    }
+  ],
+  "scripture_refs": [
+    "1 Kings 19:4",
+    "2 Corinthians 1:8",
+    "2 Nephi 4:19–20",
+    "Alma 36:27",
+    "Alma 7:12",
+    "Doctrine and Covenants 122:8",
+    "Doctrine and Covenants 88:6",
+    "Jeremiah 20:14",
+    "Numbers 11:14–15",
+    "Philippians 1:21–24"
+  ]
+}

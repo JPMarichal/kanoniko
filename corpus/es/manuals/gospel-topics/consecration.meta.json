@@ -1,0 +1,29 @@
+{
+  "title": "Consagración",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/consecration?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Neal A. Maxwell, “Consagr[ad] vuestra acción”,Liahona, julio de 2002, pág. 39."
+    },
+    {
+      "marker": "2.",
+      "text": "Russell M. Nelson, “Que Dios prevalezca”,Liahona, noviembre de 2020, pág. 92."
+    }
+  ],
+  "scripture_refs": [
+    "Escrituras"
+  ]
+}

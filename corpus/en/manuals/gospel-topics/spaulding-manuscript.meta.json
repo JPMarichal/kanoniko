@@ -1,0 +1,35 @@
+{
+  "title": "Spaulding Manuscript",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/spaulding-manuscript?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See “The Testimony of Three Witnesses” and “The Testimony of Eight Witnesses.”"
+    },
+    {
+      "marker": "2.",
+      "text": "Teachings of Presidents of the Church: Joseph Smith(2011), 60."
+    },
+    {
+      "marker": "3.",
+      "text": "Moroni 10:4."
+    }
+  ],
+  "scripture_refs": [
+    "Moroni 10:4",
+    "The Testimony of Eight Witnesses",
+    "The Testimony of Three Witnesses"
+  ]
+}

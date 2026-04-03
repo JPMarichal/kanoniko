@@ -1,0 +1,27 @@
+{
+  "title": "About the Hymns: Amazing Grace",
+  "collection": "about-the-hymns",
+  "category": "music",
+  "subcategory": "about-the-hymns",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/sacred-music-gospel-study-resource-pilot/1010-amazing-grace?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "hymn-helps",
+    "music-history",
+    "hymn-doctrine"
+  ],
+  "hymn_number": 10,
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Nephi 4:17, 30",
+    "2 Corinthians 12:9–10",
+    "Moroni 10:32–33",
+    "1 Corinthians 15:10",
+    "2 Nephi 25:23",
+    "Ether 12:27",
+    "1 Chronicles 17:16–17",
+    "Grace"
+  ]
+}

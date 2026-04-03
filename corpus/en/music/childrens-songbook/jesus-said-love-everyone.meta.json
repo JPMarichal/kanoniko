@@ -1,0 +1,23 @@
+{
+  "title": "Jesus Said Love Everyone",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/jesus-said-love-everyone?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 60,
+  "first_line": "Jesus said love ev’ryone;",
+  "note_count": 0,
+  "scripture_refs": [
+    "Matthew 5:43–46",
+    "Matthew 22:37–39",
+    "John 13:34–35"
+  ]
+}

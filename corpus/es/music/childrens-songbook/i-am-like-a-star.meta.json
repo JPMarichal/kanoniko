@@ -1,0 +1,21 @@
+{
+  "title": "Yo soy como estrella",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/i-am-like-a-star?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 62,
+  "first_line": "Yo soy como estrella que brilla",
+  "note_count": 0,
+  "scripture_refs": [
+    "Mateo 5:16"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "José Smith",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/joseph-smith?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "VéaseJosé Smith—Historia 1:18–19."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrina y Convenios 135:3."
+    },
+    {
+      "marker": "3.",
+      "text": "José Smith—Historia 1:25."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 135:3",
+    "Escrituras",
+    "José Smith—Historia 1:18–19",
+    "José Smith—Historia 1:25"
+  ]
+}

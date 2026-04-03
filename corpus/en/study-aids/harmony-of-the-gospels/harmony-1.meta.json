@@ -1,0 +1,171 @@
+{
+  "title": "Part I: Preparation for the Messianic Ministry",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-1?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 18,
+  "scripture_refs": [
+    "Mark 1:1",
+    "Luke 1:1–4",
+    "John 1:1–18",
+    "Luke 3:23–38",
+    "Luke 1:5–23",
+    "Doctrine and Covenants 27:7–8",
+    "Luke 1:24–25",
+    "Luke 1:26–38",
+    "Alma 7:10–13",
+    "Luke 1:39–56",
+    "Luke 1:57–80",
+    "Doctrine and Covenants 27:7",
+    "Luke 2:1–5",
+    "Luke 2:6–7",
+    "Revelation 1",
+    "Mosiah 3:5–8",
+    "Alma 7:10",
+    "Helaman 14:5–12",
+    "3 Nephi 1:4–22",
+    "Luke 2:8–20",
+    "Luke 2:21–39",
+    "Revelation 2",
+    "Mosiah 3:8",
+    "Helaman 14:12",
+    "Moses 6:52",
+    "Luke 2:39–40",
+    "Luke 2:41–50",
+    "Luke 2:51–52"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event Prologue (premortal life and John’s testimony)",
+      "mark": [
+        "Mark 1:1"
+      ],
+      "luke": [
+        "Luke 1:1–4"
+      ],
+      "john_lds": [
+        "John 1:1–18"
+      ]
+    },
+    {
+      "event": "Event The genealogies",
+      "luke": [
+        "Luke 3:23–38"
+      ]
+    },
+    {
+      "event": "Event Annunciation to Zacharias",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 1:5–23"
+      ],
+      "john_lds": [
+        "Doctrine and Covenants 27:7–8"
+      ]
+    },
+    {
+      "event": "Event Elisabeth’s seclusion",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 1:24–25"
+      ]
+    },
+    {
+      "event": "Event Annunciation to Mary",
+      "location": "Location Nazareth",
+      "luke": [
+        "Luke 1:26–38"
+      ],
+      "john_lds": [
+        "Alma 7:10–13"
+      ]
+    },
+    {
+      "event": "Event Mary visits Elisabeth",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 1:39–56"
+      ]
+    },
+    {
+      "event": "Event Birth of John, naming, and prophecy",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 1:57–80"
+      ],
+      "john_lds": [
+        "Doctrine and Covenants 27:7"
+      ]
+    },
+    {
+      "event": "Event Joseph and Mary go to be registered",
+      "location": "Location Bethlehem",
+      "luke": [
+        "Luke 2:1–5"
+      ]
+    },
+    {
+      "event": "Event Birth of Jesus",
+      "location": "Location Bethlehem",
+      "luke": [
+        "Luke 2:6–7"
+      ],
+      "john_lds": [
+        "Revelation 1",
+        "Mosiah 3:5–8",
+        "Alma 7:10",
+        "Helaman 14:5–12",
+        "3 Nephi 1:4–22"
+      ]
+    },
+    {
+      "event": "Event Annunciation to the shepherds",
+      "location": "Location Bethlehem",
+      "luke": [
+        "Luke 2:8–20"
+      ]
+    },
+    {
+      "event": "Event Naming of Jesus and presentation in the temple",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 2:21–39"
+      ],
+      "john_lds": [
+        "Revelation 2",
+        "Mosiah 3:8",
+        "Helaman 14:12",
+        "Moses 6:52"
+      ]
+    },
+    {
+      "event": "Event From Egypt to Nazareth",
+      "location": "Location Nazareth",
+      "luke": [
+        "Luke 2:39–40"
+      ]
+    },
+    {
+      "event": "Event Visit to the temple (Passover)",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 2:41–50"
+      ]
+    },
+    {
+      "event": "Event The return to Nazareth",
+      "location": "Location Nazareth",
+      "luke": [
+        "Luke 2:51–52"
+      ]
+    }
+  ]
+}

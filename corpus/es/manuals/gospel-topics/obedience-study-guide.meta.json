@@ -1,0 +1,62 @@
+{
+  "title": "Obediencia",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/obedience-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Robert D. Hales, “Si me amáis, guardad mis mandamientos”,Liahona, mayo de 2014, pág. 35."
+    },
+    {
+      "marker": "2.",
+      "text": "Enseñanzas de los Presidentes de la Iglesia: José Smith, 2007,pág. 170."
+    },
+    {
+      "marker": "3.",
+      "text": "Enseñanzas de los Presidentes de la Iglesia: Ezra Taft Benson, 2014,pág. 45."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nefi 17:1–4",
+    "1 Nefi 3:1–7",
+    "2 Nefi 31:7–10",
+    "Abraham 3:25",
+    "Deuteronomio 4:40",
+    "Deuteronomio 8:3",
+    "Doctrina y Convenios 100:15",
+    "Doctrina y Convenios 11:20",
+    "Doctrina y Convenios 130:20–21",
+    "Doctrina y Convenios 14:7",
+    "Doctrina y Convenios 42:78",
+    "Doctrina y Convenios 59:23",
+    "Doctrina y Convenios 64:34",
+    "Doctrina y Convenios 98:11",
+    "Helamán 14:30–31",
+    "Juan 14:15",
+    "Juan 14:21",
+    "Juan 8:29",
+    "Juan 6:38",
+    "Las Escrituras",
+    "Levítico 26:3–13",
+    "Lucas 22:42",
+    "Mateo 22:37–38",
+    "Moisés 1:39",
+    "Mosíah 15:7",
+    "Mosíah 2:20–24",
+    "Mosíah 2:41",
+    "Mosíah 3:19",
+    "Mosíah 5:1–7",
+    "versículo 3"
+  ]
+}

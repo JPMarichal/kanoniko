@@ -1,0 +1,36 @@
+{
+  "title": "Joseph Smith",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/joseph-smith?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeJoseph Smith—History 1:18–19."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrine and Covenants 135:3."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith—History 1:25."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 135:3",
+    "Joseph Smith—History 1:18–19",
+    "Joseph Smith—History 1:25",
+    "Scriptures"
+  ]
+}

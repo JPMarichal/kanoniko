@@ -1,0 +1,29 @@
+{
+  "title": "Apostle",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/apostle?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Nephi 12:9–10",
+    "Apostle",
+    "Apostles",
+    "Doctrine and Covenants 107:23",
+    "Doctrine and Covenants 107:35",
+    "Doctrine and Covenants 18:26–33",
+    "Doctrine and Covenants 1:14",
+    "Doctrine and Covenants 27:12",
+    "Ephesians 2:19–20",
+    "Ephesians 4:11–13",
+    "Matthew 10:1–4"
+  ]
+}

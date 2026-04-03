@@ -1,0 +1,24 @@
+{
+  "title": "My Flag, My Flag",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/my-flag-my-flag?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 194,
+  "author": "Anna Johnson, 1892–1979. © 1975 IRI Music: Alexander Schreiner, 1901–1987. © 1975 IRI",
+  "composer": "Alexander Schreiner, 1901–1987. © 1975 IRI",
+  "first_line": "My flag, my flag, my country’s flag,",
+  "note_count": 0,
+  "scripture_refs": [
+    "Alma 46:12",
+    "Articles of Faith 1:12"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "The Commandments",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/the-commandments?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 100,
+  "author": "Anon. Music: Charlene Anderson Newell, b. 1938. © 1982 IRI",
+  "composer": "Charlene Anderson Newell, b. 1938. © 1982 IRI",
+  "first_line": "Thou shalt have no gods but Me.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Exodus 20:3–17",
+    "Matthew 22:35–39"
+  ]
+}

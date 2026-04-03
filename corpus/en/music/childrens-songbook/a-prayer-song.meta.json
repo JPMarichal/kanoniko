@@ -1,0 +1,21 @@
+{
+  "title": "A Prayer Song",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/a-prayer-song?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 20,
+  "first_line": "We bow our heads in prayer today,",
+  "note_count": 0,
+  "scripture_refs": [
+    "Alma 34:19"
+  ]
+}

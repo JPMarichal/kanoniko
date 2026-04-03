@@ -1,0 +1,24 @@
+{
+  "title": "Cuórum de los Doce Apóstoles",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/quorum-of-the-twelve-apostles?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "3 Nefi 12:1–2",
+    "Apóstol",
+    "Doctrina y Convenios 107:23–24",
+    "Doctrina y Convenios 18:26–33",
+    "Lucas 6:12–17",
+    "Mateo 10:1–15"
+  ]
+}

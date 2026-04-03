@@ -1,0 +1,30 @@
+{
+  "title": "Geografía del Libro de Mormón",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon-geography?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Letter to Emma Smith, 4 June 1834”, enThe Joseph Smith Papers, Documents, Volume 4: April 1834–September 1835, ed. por Matthew C. Godfrey et al., 2016, pág. 56; se ha actualizado la ortografía."
+    },
+    {
+      "marker": "2.",
+      "text": "“Traits of the Mosaic History, Found among the Azteca Nation”,Times and Seasons, 15 de junio de 1842, págs. 818–820; véase también “American Antiquities”,Times and Seasons, 15 de julio de 1842, págs. 858–860. Aunque no está claro en qué medida José Smith participó en la redacción de esos editoriales, él nunca los refutó."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “Un testimonio del Libro de Mormón”,Liahona, enero de 2000, pág. 82."
+    }
+  ]
+}

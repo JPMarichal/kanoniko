@@ -1,0 +1,25 @@
+{
+  "title": "Divorce",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/divorce?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Bible Dictionary, “Divorce”",
+    "Doctrine and Covenants 42:22",
+    "Guide to the Scriptures, “Divorce”",
+    "Index to the Triple Combination, “Divorce",
+    "Matthew 11:28, 30",
+    "Matthew 19:3–12",
+    "Topical Guide, “Divorce”"
+  ]
+}

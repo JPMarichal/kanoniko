@@ -1,0 +1,22 @@
+{
+  "title": "Estrella de luz",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/star-bright?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 117,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "3 Nefi 1:4–21",
+    "Helamán 14:1–7"
+  ]
+}

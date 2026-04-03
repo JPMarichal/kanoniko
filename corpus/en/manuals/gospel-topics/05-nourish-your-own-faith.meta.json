@@ -1,0 +1,23 @@
+{
+  "title": "Nourish Your Own Faith",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/helping-others-with-their-questions/05-nourish-your-own-faith?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Nephi 15:8–11",
+    "Alma 32:41–43",
+    "Doctrine and Covenants 6:14",
+    "Jacob 4:6",
+    "Luke 22:31–32"
+  ]
+}

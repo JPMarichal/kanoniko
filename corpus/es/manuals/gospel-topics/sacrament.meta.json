@@ -1,0 +1,35 @@
+{
+  "title": "Santa Cena",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/sacrament?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Corintios 11:23–29",
+    "2 Nefi 9:21–23",
+    "3 Nefi 18",
+    "3 Nefi 18:1–11",
+    "3 Nefi 9:20",
+    "Doctrina y Convenios 20:37",
+    "Doctrina y Convenios 20:75–79",
+    "Doctrina y Convenios 20:77",
+    "Doctrina y Convenios 27:2",
+    "Guía para el Estudio de las Escrituras, “Santa Cena”",
+    "Lucas 22:19–20",
+    "Mateo 26:38",
+    "Moisés 6:54",
+    "Moroni 4",
+    "Moroni 5",
+    "Mosíah 18:8–10",
+    "Mosíah 3:7"
+  ]
+}

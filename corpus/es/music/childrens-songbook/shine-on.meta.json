@@ -1,0 +1,21 @@
+{
+  "title": "Brilla",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/shine-on?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 70,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Mateo 5:14–16"
+  ]
+}

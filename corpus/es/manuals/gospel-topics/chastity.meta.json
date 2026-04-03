@@ -1,0 +1,72 @@
+{
+  "title": "Castidad",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/chastity?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase “Tu cuerpo es sagrado”, enPara la Fortaleza de la Juventud: Una guía para tomar decisiones, 2022, pág. 23."
+    },
+    {
+      "marker": "10.",
+      "text": "Véase Patrick Kearon, “Ha nacido con sanidad en sus alas: Podemos ser más que vencedores”,Liahona, mayo de 2022, págs. 37–40."
+    },
+    {
+      "marker": "2.",
+      "text": "VéaseDoctrina y Convenios 121:45–46; véanse tambiénJuan 14:15–16; David A. Bednar,“Creemos en ser castos”,Liahona, mayo de 2013, págs. 41–44."
+    },
+    {
+      "marker": "3.",
+      "text": "1 Corintios 10:13; véase también1 Nefi 3:7."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseAlma 39:3–5."
+    },
+    {
+      "marker": "5.",
+      "text": "VéaseÉxodo 20:14."
+    },
+    {
+      "marker": "6.",
+      "text": "1 Tesalonicenses 4:3."
+    },
+    {
+      "marker": "7.",
+      "text": "Para obtener más información, véase Temas y preguntas, “Atracción hacia personas del mismo sexo”, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "8.",
+      "text": "VéaseIsaías 1:18."
+    },
+    {
+      "marker": "9.",
+      "text": "Manual General: Servir en La Iglesia de Jesucristo de los Santos de los Últimos Días,32.4.1."
+    }
+  ],
+  "scripture_refs": [
+    "107:18, 20",
+    "1 Corintios 10:13",
+    "1 Nefi 3:7",
+    "1 Tesalonicenses 4:3",
+    "84:26–27",
+    "Alma 39:3–5",
+    "Doctrina y Convenios 121:45–46",
+    "Doctrina y Convenios 13:1",
+    "Escrituras",
+    "Isaías 1:18",
+    "Juan 14:15–16",
+    "Éxodo 20:14"
+  ]
+}

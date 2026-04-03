@@ -1,0 +1,25 @@
+{
+  "title": "Movies and Television",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/movies-and-television?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Nephi 2:26–27",
+    "Articles of Faith 1:13",
+    "Doctrine and Covenants 60:13",
+    "Isaiah 5:20",
+    "Moroni 10:32",
+    "Moroni 7:12–19",
+    "Philippians 4:8"
+  ]
+}

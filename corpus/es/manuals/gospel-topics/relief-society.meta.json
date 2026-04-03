@@ -1,0 +1,29 @@
+{
+  "title": "Sociedad de Socorro",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/relief-society?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Corintios 13",
+    "Doctrina y Convenios 138:56",
+    "Doctrina y Convenios 25:1, 13, 15–16",
+    "Doctrina y Convenios 88:118–119, 123–125",
+    "Guía para el Estudio de las Escrituras, “Hijos e hijas de Dios”",
+    "Guía para el Estudio de las Escrituras, “Mujer(es)”",
+    "Guía para el estudio de las Escrituras, “Caridad”",
+    "Lucas 10:41–42",
+    "Moisés 1:39",
+    "Moroni 7:45–47",
+    "Romanos 16:1–2"
+  ]
+}

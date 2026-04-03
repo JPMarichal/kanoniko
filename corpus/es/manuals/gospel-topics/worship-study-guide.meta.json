@@ -1,0 +1,70 @@
+{
+  "title": "Adorar a Dios el Padre",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/worship-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Dean M. Davies, “Las bendiciones de la adoración”,Liahona, noviembre de 2016, págs. 93–95."
+    },
+    {
+      "marker": "2.",
+      "text": "Dallin H. Oaks, “La necesidad de una Iglesia”,Liahona, noviembre de 2021, págs. 24–26."
+    },
+    {
+      "marker": "3.",
+      "text": "D. Todd Christofferson, “Sé en quien he confiado”,Liahona, julio de 1993, pág. 93."
+    }
+  ],
+  "scripture_refs": [
+    "12:20–27",
+    "1 Corintios 11:25–28",
+    "2 Nefi 9:37",
+    "37:36",
+    "3 Nefi 11:11",
+    "43:8–10",
+    "4:11–13",
+    "88:77–78",
+    "Alma 32:2",
+    "Alma 32:3–11",
+    "Alma 33:2",
+    "Alma 34:17–27",
+    "Alma 34:38",
+    "Doctrina y Convenios 109:13",
+    "Doctrina y Convenios 1:15–16",
+    "Doctrina y Convenios 20:17–19, 29",
+    "Doctrina y Convenios 25:11–12",
+    "Doctrina y Convenios 25:12",
+    "Doctrina y Convenios 59:5",
+    "Doctrina y Convenios 59:9",
+    "Doctrina y Convenios 93:19–20",
+    "Efesios 2:19–22",
+    "Juan 14:6–9, 23",
+    "Juan 17:3",
+    "Juan 4:19–26",
+    "Juan 5:19–20",
+    "Mateo 22:37",
+    "Mateo 4:8–10",
+    "Mateo 6:24",
+    "Mateo 6:6–8",
+    "Moisés 1:15",
+    "Moisés 5:8",
+    "Moroni 6:5–9",
+    "Mosíah 2:20–24",
+    "Mosíah 4:9–10",
+    "versículos 1–12",
+    "Éxodo 20:3",
+    "Éxodo 20:4–5"
+  ]
+}

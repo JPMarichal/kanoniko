@@ -1,0 +1,30 @@
+{
+  "title": "Guerra",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/war?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Alma 48:11",
+    "Alma 48:11, 13",
+    "Alma 48:13",
+    "Alma 50:21",
+    "Artículos de Fe 1:12",
+    "Doctrina y Convenios 38:29",
+    "Doctrina y Convenios 45:26",
+    "Doctrina y Convenios 98:16",
+    "Guerra",
+    "Isaías 2:4",
+    "Mateo 24:6",
+    "Santiago 4:1"
+  ]
+}

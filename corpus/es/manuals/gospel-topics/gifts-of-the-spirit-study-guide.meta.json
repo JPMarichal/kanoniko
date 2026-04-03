@@ -1,0 +1,83 @@
+{
+  "title": "Dones del Espíritu",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/gifts-of-the-spirit-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 9,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Predicad Mi Evangelio: Una guía para el servicio misional, 2018, pág. 97; véase tambiénDoctrina y Convenios 46:8–9."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Neil L. Andersen, “Un salón de clase de fe, esperanza y caridad”, Una velada con una Autoridad General, 28 de febrero de 2014, LaIglesiadeJesucristo.org."
+    },
+    {
+      "marker": "3.",
+      "text": "John C. Pingree Jr., “Tengo una obra para ti”,Liahona, noviembre de 2017, pág. 33."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase John C. Pingree Jr., “Tengo una obra para ti”, pág. 34."
+    },
+    {
+      "marker": "5.",
+      "text": "Véase Marvin J. Ashton, “Hay muchos dones”,Liahona, enero de 1988, pág. 19."
+    },
+    {
+      "marker": "6.",
+      "text": "Dieter F. Uchtdorf, “Ustedes son Mis manos”,Liahona, mayo de 2010, pág. 68."
+    },
+    {
+      "marker": "7.",
+      "text": "Gary E. Stevenson, “Las impresiones del Espíritu”,Liahona, noviembre de 2023, pág. 43."
+    },
+    {
+      "marker": "8.",
+      "text": "Juan Pablo Villar, “Ejercitar nuestros músculos espirituales”,Liahona, mayo de 2019, pág. 96."
+    },
+    {
+      "marker": "9.",
+      "text": "Himnos,nro. 71."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corintios 12:12–30",
+    "1 Corintios 12:1–11",
+    "1 Corintios 12:27",
+    "1 Corintios 12:8–10",
+    "1 Corintios 14:12",
+    "Doctrina y Convenios 112:10",
+    "Doctrina y Convenios 20:77, 79",
+    "Doctrina y Convenios 46:10",
+    "Doctrina y Convenios 46:11–25",
+    "Doctrina y Convenios 46:13–14",
+    "Doctrina y Convenios 46:13–25",
+    "Doctrina y Convenios 46:26",
+    "Doctrina y Convenios 46:32",
+    "Doctrina y Convenios 46:8",
+    "Doctrina y Convenios 46:8–9",
+    "Doctrina y Convenios 46:9",
+    "Doctrina y Convenios 93:12–13",
+    "Escrituras",
+    "Guía para el Estudio de las Escrituras",
+    "Hebreos 11:1–35",
+    "Mateo 25:14–30",
+    "Moroni 10:24–25",
+    "Moroni 10:30",
+    "Moroni 10:9–16",
+    "Romanos 12:4–8",
+    "Santiago 1:5",
+    "Éter 12:28"
+  ]
+}

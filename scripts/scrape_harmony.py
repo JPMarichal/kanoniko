@@ -111,9 +111,9 @@ SECTIONS = [
 # Column header patterns for the 6 gospel columns
 # The table headers vary slightly by language and edition
 _COLUMN_PATTERNS = {
-    "event": re.compile(r"event|evento|inciden", re.I),
+    "event": re.compile(r"event|evento|inciden|aconteci", re.I),
     "location": re.compile(r"location|place|lugar|sitio", re.I),
-    "matthew": re.compile(r"mat+h|mat\.", re.I),
+    "matthew": re.compile(r"mat+h|mat\.|mateo", re.I),
     "mark": re.compile(r"mark|marcos|marc\.", re.I),
     "luke": re.compile(r"luke|lucas|luc\.", re.I),
     "john_lds": re.compile(r"john|juan|latter.day|latter day|revelaci", re.I),
@@ -371,6 +371,83 @@ def download_section(section: dict, lang: str, session: ChurchSession,
     return True
 
 
+def download_combined_table(lang: str, session: ChurchSession, dry_run: bool) -> bool:
+    """Download the single combined Harmony table used by some languages (e.g. Spanish).
+
+    Some translations publish the entire Harmony as one table at /scriptures/harmony/table
+    instead of per-section pages. This saves it as harmony-table.txt.
+    """
+    corpus_lang = LANG_MAP.get(lang, lang)
+    output_dir = CORPUS_ROOT / corpus_lang / OUTPUT_SUBDIR
+    uri = "/scriptures/harmony/table"
+    url = f"{BASE_URL}/study{uri}?lang={lang}"
+    title = "Concordancia entre los Evangelios" if lang == "spa" else "Harmony of the Gospels (Combined)"
+
+    logger.info("  [%s] Combined table → harmony-table.txt", lang)
+
+    if dry_run:
+        logger.info("    [dry-run] Would save %s/harmony-table.txt", output_dir)
+        return True
+
+    api_page = fetch_api_page(session, uri, lang)
+    if not api_page or not api_page.body_html:
+        logger.error("    No content from API for combined table")
+        return False
+
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(api_page.body_html, "html.parser")
+    events = parse_harmony_table(soup)
+
+    if not events:
+        logger.error("    No events parsed from combined table")
+        return False
+
+    text = events_to_text(events, title)
+    all_refs: list[str] = []
+    for ev in events:
+        for col_refs in ev.refs.values():
+            for r in col_refs:
+                if r not in all_refs:
+                    all_refs.append(r)
+
+    meta: dict = {
+        "title": title,
+        "category": "study-aids",
+        "subcategory": "harmony-of-the-gospels",
+        "authority": 80,
+        "lang": corpus_lang,
+        "source_url": url,
+        "tags": ["harmony", "gospels", "jesus-christ", "parallel-accounts"],
+        "event_count": len(events),
+        "scripture_refs": all_refs,
+        "parallel_events": [
+            {
+                "event": ev.event,
+                **({"location": ev.location} if ev.location else {}),
+                **{col: refs for col, refs in ev.refs.items() if refs},
+            }
+            for ev in events
+            if ev.refs
+        ],
+    }
+
+    write_corpus_file(output_dir, "harmony-table", text, meta)
+    logger.info("    Saved: harmony-table.txt (%d chars, %d events, %d refs)",
+                len(text), len(events), len(all_refs))
+    return True
+
+
+def _uses_combined_table(lang: str, session: ChurchSession) -> bool:
+    """Return True if this language publishes one combined table instead of per-section pages."""
+    api = fetch_api_page(session, "/scriptures/harmony/harmony-1", lang)
+    if not api or not api.body_html:
+        return False
+    # Combined-table languages return a nav manifest, not actual table content
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(api.body_html, "html.parser")
+    return len(soup.find_all("table")) == 0
+
+
 def main():
     parser = argparse.ArgumentParser(description="Download Harmony of the Gospels")
     parser.add_argument("--lang", choices=["eng", "spa", "both"], default="both")
@@ -386,13 +463,26 @@ def main():
         logger.error("Unknown section slug: %s", args.section)
         sys.exit(1)
 
-    total = len(sections) * len(langs)
     ok = 0
+    total = 0
     for lang in langs:
         logger.info("=== Language: %s ===", lang)
-        for section in sections:
-            if download_section(section, lang, session, args.dry_run):
+        if not args.section and _uses_combined_table(lang, session):
+            logger.info("  Detected combined-table format for lang=%s", lang)
+            total += 1
+            if download_combined_table(lang, session, args.dry_run):
                 ok += 1
+            # Also download the introduction
+            intro = next((s for s in SECTIONS if s["slug"] == "introduction"), None)
+            if intro:
+                total += 1
+                if download_section(intro, lang, session, args.dry_run):
+                    ok += 1
+        else:
+            for section in sections:
+                total += 1
+                if download_section(section, lang, session, args.dry_run):
+                    ok += 1
 
     logger.info("Done: %d/%d sections", ok, total)
     sys.exit(0 if ok == total else 1)

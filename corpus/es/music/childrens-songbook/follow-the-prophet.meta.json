@@ -1,0 +1,32 @@
+{
+  "title": "Sigue al Profeta",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/follow-the-prophet?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 41,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Moisés 5:4–12, 58–59",
+    "Moisés 6:26–28",
+    "7:13–21",
+    "Génesis 6–8",
+    "Génesis 12–50",
+    "Éxodo 3",
+    "Números 14",
+    "1 Samuel 1",
+    "3:1–10",
+    "Jonás 1–3",
+    "Daniel 6",
+    "Doctrina y Convenios 21:4–7"
+  ]
+}

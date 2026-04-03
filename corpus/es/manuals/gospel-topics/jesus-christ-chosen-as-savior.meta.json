@@ -1,0 +1,55 @@
+{
+  "title": "Jesucristo elegido para ser el Salvador",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/jesus-christ-chosen-as-savior?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Job 38:7."
+    },
+    {
+      "marker": "2.",
+      "text": "Abraham 3:27."
+    },
+    {
+      "marker": "3.",
+      "text": "Abraham 3:27; véase tambiénMoisés 4:1–4."
+    },
+    {
+      "marker": "4.",
+      "text": "Moisés 4:2."
+    },
+    {
+      "marker": "5.",
+      "text": "Moisés 4:1."
+    },
+    {
+      "marker": "6.",
+      "text": "VéaseEnseñanzas de los Presidentes de la Iglesia: David O. McKay, 2004,pág. 228."
+    },
+    {
+      "marker": "7.",
+      "text": "Abraham 3:27."
+    }
+  ],
+  "scripture_refs": [
+    "Abraham 3:27",
+    "Abraham 3:27",
+    "Escrituras",
+    "Job 38:7",
+    "Moisés 4:1",
+    "Moisés 4:2",
+    "Moisés 4:1–4"
+  ]
+}

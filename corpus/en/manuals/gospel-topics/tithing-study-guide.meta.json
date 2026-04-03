@@ -1,0 +1,83 @@
+{
+  "title": "Tithing",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/tithing-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 11,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Neil L. Andersen, “Tithing: Opening the Windows of Heaven,”Liahona, Nov. 2023, 33."
+    },
+    {
+      "marker": "10.",
+      "text": "Gérald Caussé, “Our Earthly Stewardship,”Liahona, Nov. 2022, 57."
+    },
+    {
+      "marker": "11.",
+      "text": "Jeffrey R. Holland, “Like a Watered Garden,”Ensign, Nov. 2001, 33."
+    },
+    {
+      "marker": "2.",
+      "text": "See Guide to the Scriptures, “Tithes, Tithing,” Gospel Library."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “Think Celestial!,”Liahona, Nov. 2023, 119."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeSaints: The Story of the Church of Jesus Christ in the Latter Days, vol. 1,The Standard of Truth, 1815–1846(2018),232–43."
+    },
+    {
+      "marker": "5.",
+      "text": "Neil L. Andersen, “Tithing: Opening the Windows of Heaven,”Liahona, Nov. 2023, 32."
+    },
+    {
+      "marker": "6.",
+      "text": "David A. Bednar, “The Windows of Heaven,”EnsignorLiahona, Nov. 2013, 18."
+    },
+    {
+      "marker": "7.",
+      "text": "In some countries, local leaders direct the use of tithing funds guided by principles established by this council. This ensures that sacred funds are used under the direction of the Spirit and in accordance with local laws and requirements."
+    },
+    {
+      "marker": "8.",
+      "text": "David A. Bednar, “The Windows of Heaven,” 20."
+    },
+    {
+      "marker": "9.",
+      "text": "Neil L. Andersen, “Tithing: Opening the Windows of Heaven,” 34."
+    }
+  ],
+  "scripture_refs": [
+    "28:20–22",
+    "2 Chronicles 31:5–6",
+    "3 Nephi 24:8–12",
+    "Alma 13:13–15",
+    "Doctrine and Covenants 104:11–17",
+    "Doctrine and Covenants 119:3–4",
+    "Doctrine and Covenants 120:1",
+    "Doctrine and Covenants 97:10–12",
+    "Genesis 14:18–20",
+    "Hebrews 7:1–2, 9",
+    "Leviticus 27:30–32",
+    "Malachi 3:10",
+    "Malachi 3:8–12",
+    "Mark 12:41–44",
+    "Mark 12:43",
+    "Mark 12:44",
+    "Scriptures",
+    "Tithe",
+    "Tithes, Tithing"
+  ]
+}

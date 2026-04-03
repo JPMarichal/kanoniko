@@ -1,0 +1,32 @@
+{
+  "title": "Follow the Prophet",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/follow-the-prophet?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 99,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Moses 5:4–12, 58–59",
+    "Moses 6:26–28",
+    "7:13–21",
+    "Genesis 6–8",
+    "Genesis 12–50",
+    "Exodus 3",
+    "Numbers 14",
+    "1 Samuel 1",
+    "3:1–10",
+    "Jonah 1–3",
+    "Daniel 6",
+    "Doctrine and Covenants 21:4–7"
+  ]
+}

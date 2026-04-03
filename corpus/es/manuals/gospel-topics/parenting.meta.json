@@ -1,0 +1,24 @@
+{
+  "title": "Ser padres",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/parenting?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "3 Juan 1:4",
+    "Doctrina y Convenios 68:25",
+    "Doctrina y Convenios 93:40",
+    "Guía para el Estudio de las Escrituras, “Padres”",
+    "La Familia: Una Proclamación para el Mundo",
+    "Proverbios 22:6"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Family Finances",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/family-finances?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Timothy 5:8",
+    "Debt",
+    "Doctrine and Covenants 19:35",
+    "Doctrine and Covenants 48:4",
+    "Family, Managing Finances in",
+    "Isaiah 58:6–12",
+    "Luke 16:10–11",
+    "Malachi 3:10",
+    "Malachi 3:10–11",
+    "Money",
+    "Tithes, Tithing"
+  ]
+}

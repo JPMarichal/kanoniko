@@ -1,0 +1,80 @@
+{
+  "title": "Judgment",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/judging-others-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Gerrit W. Gong, “Trust Again,”Liahona, Nov. 2021, 99."
+    },
+    {
+      "marker": "2.",
+      "text": "Boyd K. Packer, “The Mediator,”Ensign, May 1977, 54–56."
+    },
+    {
+      "marker": "3.",
+      "text": "Dallin H. Oaks, “Divine Love in the Father’s Plan,”Liahona, May 2022, 102."
+    },
+    {
+      "marker": "4.",
+      "text": "Dallin H. Oaks, “‘Judge Not’ and Judging,”Ensign, Aug. 1999, 7."
+    },
+    {
+      "marker": "5.",
+      "text": "Teachings of Presidents of the Church: Joseph Smith(2011),344."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 12:9–10",
+    "2 Nephi 2:26–28",
+    "2 Nephi 9:12–13, 15, 20–22",
+    "2 Nephi 9:13–15",
+    "3 Nephi 27:20–21",
+    "3 Nephi 27:23–26",
+    "9:12–14",
+    "Abraham 3:25",
+    "Advocate",
+    "Alma 12:12–15",
+    "Alma 12:14",
+    "Alma 34:31–35",
+    "Alma 41:14",
+    "Alma 5:14–26",
+    "Articles of Faith 1:2",
+    "Doctrine and Covenants 101:78",
+    "Doctrine and Covenants 11:12",
+    "Doctrine and Covenants 128:6–7",
+    "Doctrine and Covenants 137:9",
+    "Doctrine and Covenants 29:5",
+    "Doctrine and Covenants 45:3–5",
+    "Doctrine and Covenants 88:20–32",
+    "Doctrine and Covenants 88:22–24",
+    "Enos 1:27",
+    "John 5:21–30",
+    "John 7:24",
+    "Joseph Smith Translation, Matthew 7:2",
+    "Judge, Judgment",
+    "Last Judgment",
+    "Leviticus 19:15–18",
+    "Matthew 19:28",
+    "Matthew 22:37–39",
+    "Matthew 7:1",
+    "Matthew 7:1–8",
+    "Mormon 3:18–20",
+    "Mormon 3:20",
+    "Moroni 10:34",
+    "Mosiah 4:10–12",
+    "Mosiah 4:30",
+    "Revelation 20:12–13"
+  ]
+}

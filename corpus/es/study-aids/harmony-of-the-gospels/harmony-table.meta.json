@@ -1,0 +1,1028 @@
+{
+  "title": "Concordancia entre los Evangelios",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/table?lang=spa",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 109,
+  "scripture_refs": [
+    "Mateo 1:1–17",
+    "Lucas 3:23–38",
+    "Lucas 1:5–25, 57",
+    "Mateo 2:1–15",
+    "Lucas 2:6–7",
+    "1 Nefi 11:18–20",
+    "2 Nefi 17:14",
+    "Alma 7:10",
+    "Helamán 14:5–12",
+    "3 Nefi 1:4–22",
+    "Lucas 2:25–39",
+    "Lucas 2:41–50",
+    "Mateo 3:1, 5",
+    "Marcos 1:4",
+    "Lucas 3:1–3",
+    "Mateo 3:13–17",
+    "Marcos 1:9–11",
+    "Lucas 3:21–22",
+    "1 Nefi 10:7–10",
+    "2 Nefi 31:4–21",
+    "Mateo 4:1–11",
+    "Marcos 1:12–13",
+    "Lucas 4:1–13",
+    "Lucas 4:16–30",
+    "Mateo 4:18–22",
+    "Marcos 1:16–20",
+    "Lucas 5:1–11",
+    "Mateo 10:1–4",
+    "Marcos 3:13–19",
+    "Lucas 6:12–16",
+    "1 Nefi 13:24–26, 39",
+    "Mateo 5",
+    "Lucas 6:17–49",
+    "3 Nefi 12",
+    "Mateo 6:5–15",
+    "Lucas 11:1–4",
+    "3 Nefi 13:5–15",
+    "Lucas 7:11–15",
+    "Lucas 7:36–50",
+    "Mateo 13:3–9, 18",
+    "Marcos 4:3–9, 14",
+    "Lucas 8:4–8, 11",
+    "Mateo 13:24–30, 36",
+    "Mateo 13:31–32",
+    "Marcos 4:30–32",
+    "Lucas 13:18–19",
+    "Mateo 13:33",
+    "Lucas 13:20–21",
+    "Mateo 13:44",
+    "Mateo 13:45–46",
+    "Mateo 13:47–50",
+    "Mateo 13:51–52",
+    "Mateo 18:23–35",
+    "3 Nefi 15:17–24",
+    "Lucas 10:25–37",
+    "Lucas 14:7–11",
+    "Lucas 14:12–24",
+    "Mateo 18:12–14",
+    "Lucas 15:1–7",
+    "Lucas 15:8–10",
+    "Lucas 15:11–32",
+    "Lucas 16:1–13",
+    "Lucas 16:14–15, 19",
+    "Lucas 18:1–8",
+    "Mateo 20:1–16",
+    "Marcos 10:31",
+    "Lucas 19:11–27",
+    "Mateo 21:28–32",
+    "Mateo 21:33–46",
+    "Marcos 12:1–12",
+    "Lucas 20:9–19",
+    "Mateo 22:1–14",
+    "Lucas 14:7–24",
+    "Mateo 25:1–13",
+    "Lucas 12:35–36",
+    "Mateo 25:14–30",
+    "Mateo 25:31–46",
+    "Mateo 8:23–27",
+    "Marcos 4:35–41",
+    "Lucas 8:22–25",
+    "Mateo 8:28–34",
+    "Marcos 5:1–20",
+    "Lucas 8:26–29",
+    "Mateo 9:18–20, 23",
+    "Marcos 5:21–24, 35",
+    "Lucas 8:41–42, 49",
+    "Mateo 9:20–22",
+    "Marcos 5:25–34",
+    "Lucas 8:43–48",
+    "Mateo 10:5–42",
+    "Marcos 6:7–13",
+    "Lucas 9:1–6",
+    "Mateo 14:16–21",
+    "Marcos 6:33–44",
+    "Lucas 9:11–17",
+    "Mateo 14:22–33",
+    "Marcos 6:45–52",
+    "Mateo 16:13–16",
+    "Marcos 8:27–29",
+    "Lucas 9:18–21",
+    "Mateo 16:19",
+    "Mateo 17:1–13",
+    "Marcos 9:2–13",
+    "Lucas 9:28–36",
+    "Lucas 10:1–12",
+    "Lucas 17:11–19",
+    "Mateo 19:13–15",
+    "Marcos 10:13–16",
+    "Lucas 18:15–17",
+    "Mateo 26:6–13",
+    "Marcos 14:3–9",
+    "Mateo 21:6–11",
+    "Marcos 11:7–11",
+    "Lucas 19:35–38",
+    "Mateo 21:12–16",
+    "Marcos 11:15–19",
+    "Lucas 19:45–48",
+    "Marcos 12:41–44",
+    "Lucas 21:1–4",
+    "Mateo 24",
+    "Marcos 13",
+    "Lucas 21:5–38",
+    "Mateo 1",
+    "Mateo 26:14–32",
+    "Marcos 14:10–27",
+    "Lucas 22:1–20",
+    "Mateo 26:36–46",
+    "Marcos 14:32–42",
+    "Lucas 22:40–46",
+    "2 Nefi 9:21–22",
+    "Mateo 26:47–50",
+    "Marcos 14:43–46",
+    "Lucas 22:47–48",
+    "Mateo 26:57",
+    "Marcos 14:53",
+    "Lucas 22:54, 66",
+    "Mateo 27:2, 11",
+    "Marcos 15:1–5",
+    "Lucas 23:1–6",
+    "Lucas 23:7–12",
+    "Mateo 27:27–31",
+    "Marcos 15:15–20",
+    "Mateo 27:35–44",
+    "Marcos 15:24–33",
+    "Lucas 23:32–43",
+    "Helamán 14:20–27",
+    "3 Nefi 8:5–22",
+    "Mateo 28:2–8",
+    "Marcos 16:5–8",
+    "Lucas 24:4–8",
+    "Marcos 16:14",
+    "Lucas 24:13–32, 36",
+    "Marcos 16:19–20",
+    "Lucas 24:50–53"
+  ],
+  "parallel_events": [
+    {
+      "event": "Acontecimiento Las genealogías de Jesús",
+      "matthew": [
+        "Mateo 1:1–17"
+      ],
+      "luke": [
+        "Lucas 3:23–38"
+      ]
+    },
+    {
+      "event": "Acontecimiento El nacimiento de Juan el Bautista",
+      "luke": [
+        "Lucas 1:5–25, 57"
+      ]
+    },
+    {
+      "event": "Acontecimiento El nacimiento de Jesús",
+      "matthew": [
+        "Mateo 2:1–15"
+      ],
+      "luke": [
+        "Lucas 2:6–7"
+      ],
+      "john_lds": [
+        "1 Nefi 11:18–20",
+        "2 Nefi 17:14",
+        "Alma 7:10",
+        "Helamán 14:5–12",
+        "3 Nefi 1:4–22"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las profecías de Simeón y de Ana",
+      "luke": [
+        "Lucas 2:25–39"
+      ]
+    },
+    {
+      "event": "Acontecimiento La visita al templo (Pascua)",
+      "luke": [
+        "Lucas 2:41–50"
+      ]
+    },
+    {
+      "event": "Acontecimiento Comienza el ministerio de Juan",
+      "matthew": [
+        "Mateo 3:1, 5"
+      ],
+      "mark": [
+        "Marcos 1:4"
+      ],
+      "luke": [
+        "Lucas 3:1–3"
+      ]
+    },
+    {
+      "event": "Acontecimiento El bautismo de Jesús",
+      "matthew": [
+        "Mateo 3:13–17"
+      ],
+      "mark": [
+        "Marcos 1:9–11"
+      ],
+      "luke": [
+        "Lucas 3:21–22"
+      ],
+      "john_lds": [
+        "1 Nefi 10:7–10",
+        "2 Nefi 31:4–21"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las tentaciones de Jesús",
+      "matthew": [
+        "Mateo 4:1–11"
+      ],
+      "mark": [
+        "Marcos 1:12–13"
+      ],
+      "luke": [
+        "Lucas 4:1–13"
+      ]
+    },
+    {
+      "event": "Acontecimiento Rechazan a Jesús en Nazaret",
+      "luke": [
+        "Lucas 4:16–30"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús llama a unos pescadores a ser pescadores de hombres",
+      "matthew": [
+        "Mateo 4:18–22"
+      ],
+      "mark": [
+        "Marcos 1:16–20"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las redes se llenan milagrosamente",
+      "luke": [
+        "Lucas 5:1–11"
+      ]
+    },
+    {
+      "event": "Acontecimiento Se llama y ordena a los Doce",
+      "matthew": [
+        "Mateo 10:1–4"
+      ],
+      "mark": [
+        "Marcos 3:13–19"
+      ],
+      "luke": [
+        "Lucas 6:12–16"
+      ],
+      "john_lds": [
+        "1 Nefi 13:24–26, 39"
+      ]
+    },
+    {
+      "event": "Acontecimiento El Sermón del Monte",
+      "matthew": [
+        "Mateo 5"
+      ],
+      "luke": [
+        "Lucas 6:17–49"
+      ],
+      "john_lds": [
+        "3 Nefi 12"
+      ]
+    },
+    {
+      "event": "Acontecimiento La oración del Señor",
+      "matthew": [
+        "Mateo 6:5–15"
+      ],
+      "luke": [
+        "Lucas 11:1–4"
+      ],
+      "john_lds": [
+        "3 Nefi 13:5–15"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús levanta de la muerte al hijo de la viuda",
+      "luke": [
+        "Lucas 7:11–15"
+      ]
+    },
+    {
+      "event": "Acontecimiento A Jesús lo unge una mujer",
+      "luke": [
+        "Lucas 7:36–50"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las parábolas de Jesús son historias cortas en las que se compara un objeto o acontecimiento común con una verdad. Jesús las utilizaba a menudo para enseñar verdades espirituales. Acontecimiento El sembrador: Mateo Mateo 13:3–9, 18–23 Marcos Marcos 4:3–9, 14–20 Lucas Lucas 8:4–8, 11–15 Acontecimiento El trigo y la cizaña: Mateo Mateo 13:24–30, 36–43 Revelación de los últimos días Doctrina y Convenios 86:1–7 Acontecimiento La semilla de mostaza: Mateo Mateo 13:31–32 Marcos Marcos 4:30–32 Lucas Lucas 13:18–19 Acontecimiento La levadura: Mateo Mateo 13:33 Lucas Lucas 13:20–21 Acontecimiento El tesoro escondido: Mateo Mateo 13:44 Acontecimiento La perla de gran precio: Mateo Mateo 13:45–46 Acontecimiento La red: Mateo Mateo 13:47–50 Acontecimiento Tesoros nuevos y viejos: Mateo Mateo 13:51–52 Acontecimiento Los dos deudores: Mateo Mateo 18:23–35 Acontecimiento El buen pastor: Juan Juan 10:1–21 Revelación de los últimos días 3 Nefi 15:17–24 Acontecimiento El buen samaritano: Lucas Lucas 10:25–37 Acontecimiento Humildad, la fiesta de bodas: Lucas Lucas 14:7–11 Acontecimiento La gran cena: Lucas Lucas 14:12–24 Acontecimiento La oveja perdida: Mateo véase también Mateo 18:12–14 Lucas Lucas 15:1–7 Acontecimiento La moneda perdida: Lucas Lucas 15:8–10 Acontecimiento El hijo pródigo: Lucas Lucas 15:11–32 Acontecimiento El mayordomo infiel: Lucas Lucas 16:1–13 Acontecimiento El rico y Lázaro: Lucas Lucas 16:14–15, 19–31 Acontecimiento La viuda y el juez injusto: Lucas Lucas 18:1–8 Acontecimiento Los obreros de la viña: Mateo Mateo 20:1–16 Marcos véase también Marcos 10:31 Acontecimiento Las diez minas: Lucas Lucas 19:11–27 Acontecimiento Los dos hijos: Mateo Mateo 21:28–32 Acontecimiento Los labradores malvados: Mateo Mateo 21:33–46 Marcos Marcos 12:1–12 Lucas Lucas 20:9–19 Acontecimiento La fiesta de bodas: Mateo Mateo 22:1–14 Lucas compárese con Lucas 14:7–24 Acontecimiento Las diez vírgenes: Mateo Mateo 25:1–13 Lucas véase también Lucas 12:35–36 Revelación de los últimos días Doctrina y Convenios 45:56–59 Acontecimiento Los talentos: Mateo Mateo 25:14–30 Acontecimiento El juicio de las naciones: Mateo Mateo 25:31–46",
+      "mark": [
+        "Mateo 13:3–9, 18"
+      ],
+      "luke": [
+        "Marcos 4:3–9, 14"
+      ],
+      "john_lds": [
+        "Lucas 8:4–8, 11"
+      ]
+    },
+    {
+      "event": "Acontecimiento El sembrador:",
+      "matthew": [
+        "Mateo 13:3–9, 18"
+      ],
+      "mark": [
+        "Marcos 4:3–9, 14"
+      ],
+      "luke": [
+        "Lucas 8:4–8, 11"
+      ]
+    },
+    {
+      "event": "Acontecimiento El trigo y la cizaña:",
+      "matthew": [
+        "Mateo 13:24–30, 36"
+      ]
+    },
+    {
+      "event": "Acontecimiento La semilla de mostaza:",
+      "matthew": [
+        "Mateo 13:31–32"
+      ],
+      "mark": [
+        "Marcos 4:30–32"
+      ],
+      "luke": [
+        "Lucas 13:18–19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La levadura:",
+      "matthew": [
+        "Mateo 13:33"
+      ],
+      "luke": [
+        "Lucas 13:20–21"
+      ]
+    },
+    {
+      "event": "Acontecimiento El tesoro escondido:",
+      "matthew": [
+        "Mateo 13:44"
+      ]
+    },
+    {
+      "event": "Acontecimiento La perla de gran precio:",
+      "matthew": [
+        "Mateo 13:45–46"
+      ]
+    },
+    {
+      "event": "Acontecimiento La red:",
+      "matthew": [
+        "Mateo 13:47–50"
+      ]
+    },
+    {
+      "event": "Acontecimiento Tesoros nuevos y viejos:",
+      "matthew": [
+        "Mateo 13:51–52"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los dos deudores:",
+      "matthew": [
+        "Mateo 18:23–35"
+      ]
+    },
+    {
+      "event": "Acontecimiento El buen pastor:",
+      "john_lds": [
+        "3 Nefi 15:17–24"
+      ]
+    },
+    {
+      "event": "Acontecimiento El buen samaritano:",
+      "luke": [
+        "Lucas 10:25–37"
+      ]
+    },
+    {
+      "event": "Acontecimiento Humildad, la fiesta de bodas:",
+      "luke": [
+        "Lucas 14:7–11"
+      ]
+    },
+    {
+      "event": "Acontecimiento La gran cena:",
+      "luke": [
+        "Lucas 14:12–24"
+      ]
+    },
+    {
+      "event": "Acontecimiento La oveja perdida:",
+      "matthew": [
+        "Mateo 18:12–14"
+      ],
+      "luke": [
+        "Lucas 15:1–7"
+      ]
+    },
+    {
+      "event": "Acontecimiento La moneda perdida:",
+      "luke": [
+        "Lucas 15:8–10"
+      ]
+    },
+    {
+      "event": "Acontecimiento El hijo pródigo:",
+      "luke": [
+        "Lucas 15:11–32"
+      ]
+    },
+    {
+      "event": "Acontecimiento El mayordomo infiel:",
+      "luke": [
+        "Lucas 16:1–13"
+      ]
+    },
+    {
+      "event": "Acontecimiento El rico y Lázaro:",
+      "luke": [
+        "Lucas 16:14–15, 19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La viuda y el juez injusto:",
+      "luke": [
+        "Lucas 18:1–8"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los obreros de la viña:",
+      "matthew": [
+        "Mateo 20:1–16"
+      ],
+      "mark": [
+        "Marcos 10:31"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las diez minas:",
+      "luke": [
+        "Lucas 19:11–27"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los dos hijos:",
+      "matthew": [
+        "Mateo 21:28–32"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los labradores malvados:",
+      "matthew": [
+        "Mateo 21:33–46"
+      ],
+      "mark": [
+        "Marcos 12:1–12"
+      ],
+      "luke": [
+        "Lucas 20:9–19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La fiesta de bodas:",
+      "matthew": [
+        "Mateo 22:1–14"
+      ],
+      "luke": [
+        "Lucas 14:7–24"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las diez vírgenes:",
+      "matthew": [
+        "Mateo 25:1–13"
+      ],
+      "luke": [
+        "Lucas 12:35–36"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los talentos:",
+      "matthew": [
+        "Mateo 25:14–30"
+      ]
+    },
+    {
+      "event": "Acontecimiento El juicio de las naciones:",
+      "matthew": [
+        "Mateo 25:31–46"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús calma la tormenta",
+      "matthew": [
+        "Mateo 8:23–27"
+      ],
+      "mark": [
+        "Marcos 4:35–41"
+      ],
+      "luke": [
+        "Lucas 8:22–25"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús hace que una legión de demonios entre en un hato de cerdos",
+      "matthew": [
+        "Mateo 8:28–34"
+      ],
+      "mark": [
+        "Marcos 5:1–20"
+      ],
+      "luke": [
+        "Lucas 8:26–29"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús levanta de la muerte a la hija de Jairo",
+      "matthew": [
+        "Mateo 9:18–20, 23"
+      ],
+      "mark": [
+        "Marcos 5:21–24, 35"
+      ],
+      "luke": [
+        "Lucas 8:41–42, 49"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús cura a una mujer enferma",
+      "matthew": [
+        "Mateo 9:20–22"
+      ],
+      "mark": [
+        "Marcos 5:25–34"
+      ],
+      "luke": [
+        "Lucas 8:43–48"
+      ]
+    },
+    {
+      "event": "Acontecimiento Mandato a los Doce",
+      "matthew": [
+        "Mateo 10:5–42"
+      ],
+      "mark": [
+        "Marcos 6:7–13"
+      ],
+      "luke": [
+        "Lucas 9:1–6"
+      ]
+    },
+    {
+      "event": "Acontecimiento La alimentación de los cinco mil",
+      "matthew": [
+        "Mateo 14:16–21"
+      ],
+      "mark": [
+        "Marcos 6:33–44"
+      ],
+      "luke": [
+        "Lucas 9:11–17"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús anda sobre el agua",
+      "matthew": [
+        "Mateo 14:22–33"
+      ],
+      "mark": [
+        "Marcos 6:45–52"
+      ]
+    },
+    {
+      "event": "Acontecimiento El testimonio de Pedro acerca de Cristo",
+      "matthew": [
+        "Mateo 16:13–16"
+      ],
+      "mark": [
+        "Marcos 8:27–29"
+      ],
+      "luke": [
+        "Lucas 9:18–21"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús promete a Pedro las llaves del reino",
+      "matthew": [
+        "Mateo 16:19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La Transfiguración: Se entregan las llaves del sacerdocio",
+      "matthew": [
+        "Mateo 17:1–13"
+      ],
+      "mark": [
+        "Marcos 9:2–13"
+      ],
+      "luke": [
+        "Lucas 9:28–36"
+      ]
+    },
+    {
+      "event": "Acontecimiento Se designa a los Setenta y se les envía a cumplir su oficio",
+      "luke": [
+        "Lucas 10:1–12"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús cura a los diez leprosos",
+      "luke": [
+        "Lucas 17:11–19"
+      ]
+    },
+    {
+      "event": "Acontecimiento El Salvador bendice a los niños",
+      "matthew": [
+        "Mateo 19:13–15"
+      ],
+      "mark": [
+        "Marcos 10:13–16"
+      ],
+      "luke": [
+        "Lucas 18:15–17"
+      ]
+    },
+    {
+      "event": "Acontecimiento María unge los pies de Jesús",
+      "matthew": [
+        "Mateo 26:6–13"
+      ],
+      "mark": [
+        "Marcos 14:3–9"
+      ]
+    },
+    {
+      "event": "Acontecimiento La entrada triunfal en Jerusalén",
+      "matthew": [
+        "Mateo 21:6–11"
+      ],
+      "mark": [
+        "Marcos 11:7–11"
+      ],
+      "luke": [
+        "Lucas 19:35–38"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús expulsa del templo a los cambistas",
+      "matthew": [
+        "Mateo 21:12–16"
+      ],
+      "mark": [
+        "Marcos 11:15–19"
+      ],
+      "luke": [
+        "Lucas 19:45–48"
+      ]
+    },
+    {
+      "event": "Acontecimiento La ofrenda de la viuda",
+      "mark": [
+        "Marcos 12:41–44"
+      ],
+      "luke": [
+        "Lucas 21:1–4"
+      ]
+    },
+    {
+      "event": "Acontecimiento Destrucción de Jerusalén y señales de la Segunda Venida",
+      "matthew": [
+        "Mateo 24"
+      ],
+      "mark": [
+        "Marcos 13"
+      ],
+      "luke": [
+        "Lucas 21:5–38"
+      ],
+      "john_lds": [
+        "Mateo 1"
+      ]
+    },
+    {
+      "event": "Acontecimiento La última Pascua de Jesús, en la que instituye la Cena del Señor, da instrucciones a los Doce y lava los pies de los discípulos.",
+      "matthew": [
+        "Mateo 26:14–32"
+      ],
+      "mark": [
+        "Marcos 14:10–27"
+      ],
+      "luke": [
+        "Lucas 22:1–20"
+      ]
+    },
+    {
+      "event": "Acontecimiento Sufrimiento de Jesús en Getsemaní",
+      "matthew": [
+        "Mateo 26:36–46"
+      ],
+      "mark": [
+        "Marcos 14:32–42"
+      ],
+      "luke": [
+        "Lucas 22:40–46"
+      ],
+      "john_lds": [
+        "2 Nefi 9:21–22"
+      ]
+    },
+    {
+      "event": "Acontecimiento La traición de Judas",
+      "matthew": [
+        "Mateo 26:47–50"
+      ],
+      "mark": [
+        "Marcos 14:43–46"
+      ],
+      "luke": [
+        "Lucas 22:47–48"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús ante Caifás",
+      "matthew": [
+        "Mateo 26:57"
+      ],
+      "mark": [
+        "Marcos 14:53"
+      ],
+      "luke": [
+        "Lucas 22:54, 66"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús ante Pilato",
+      "matthew": [
+        "Mateo 27:2, 11"
+      ],
+      "mark": [
+        "Marcos 15:1–5"
+      ],
+      "luke": [
+        "Lucas 23:1–6"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús ante Herodes",
+      "luke": [
+        "Lucas 23:7–12"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús es azotado y escarnecido",
+      "matthew": [
+        "Mateo 27:27–31"
+      ],
+      "mark": [
+        "Marcos 15:15–20"
+      ]
+    },
+    {
+      "event": "Acontecimiento La Crucifixión",
+      "matthew": [
+        "Mateo 27:35–44"
+      ],
+      "mark": [
+        "Marcos 15:24–33"
+      ],
+      "luke": [
+        "Lucas 23:32–43"
+      ],
+      "john_lds": [
+        "Helamán 14:20–27",
+        "3 Nefi 8:5–22"
+      ]
+    },
+    {
+      "event": "Acontecimiento La Resurrección",
+      "matthew": [
+        "Mateo 28:2–8"
+      ],
+      "mark": [
+        "Marcos 16:5–8"
+      ],
+      "luke": [
+        "Lucas 24:4–8"
+      ]
+    },
+    {
+      "event": "Acontecimiento Jesús se aparece a sus discípulos",
+      "mark": [
+        "Marcos 16:14"
+      ],
+      "luke": [
+        "Lucas 24:13–32, 36"
+      ]
+    },
+    {
+      "event": "Acontecimiento La Ascensión",
+      "mark": [
+        "Marcos 16:19–20"
+      ],
+      "luke": [
+        "Lucas 24:50–53"
+      ]
+    },
+    {
+      "event": "Acontecimiento El trigo y la cizaña:",
+      "matthew": [
+        "Mateo 13:24–30, 36"
+      ]
+    },
+    {
+      "event": "Acontecimiento La semilla de mostaza:",
+      "matthew": [
+        "Mateo 13:31–32"
+      ],
+      "mark": [
+        "Marcos 4:30–32"
+      ],
+      "luke": [
+        "Lucas 13:18–19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La levadura:",
+      "matthew": [
+        "Mateo 13:33"
+      ],
+      "luke": [
+        "Lucas 13:20–21"
+      ]
+    },
+    {
+      "event": "Acontecimiento El tesoro escondido:",
+      "matthew": [
+        "Mateo 13:44"
+      ]
+    },
+    {
+      "event": "Acontecimiento La perla de gran precio:",
+      "matthew": [
+        "Mateo 13:45–46"
+      ]
+    },
+    {
+      "event": "Acontecimiento La red:",
+      "matthew": [
+        "Mateo 13:47–50"
+      ]
+    },
+    {
+      "event": "Acontecimiento Tesoros nuevos y viejos:",
+      "matthew": [
+        "Mateo 13:51–52"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los dos deudores:",
+      "matthew": [
+        "Mateo 18:23–35"
+      ]
+    },
+    {
+      "event": "Acontecimiento El buen samaritano:",
+      "luke": [
+        "Lucas 10:25–37"
+      ]
+    },
+    {
+      "event": "Acontecimiento Humildad, la fiesta de bodas:",
+      "luke": [
+        "Lucas 14:7–11"
+      ]
+    },
+    {
+      "event": "Acontecimiento La gran cena:",
+      "luke": [
+        "Lucas 14:12–24"
+      ]
+    },
+    {
+      "event": "Acontecimiento La oveja perdida:",
+      "matthew": [
+        "Mateo 18:12–14"
+      ],
+      "luke": [
+        "Lucas 15:1–7"
+      ]
+    },
+    {
+      "event": "Acontecimiento La moneda perdida:",
+      "luke": [
+        "Lucas 15:8–10"
+      ]
+    },
+    {
+      "event": "Acontecimiento El hijo pródigo:",
+      "luke": [
+        "Lucas 15:11–32"
+      ]
+    },
+    {
+      "event": "Acontecimiento El mayordomo infiel:",
+      "luke": [
+        "Lucas 16:1–13"
+      ]
+    },
+    {
+      "event": "Acontecimiento El rico y Lázaro:",
+      "luke": [
+        "Lucas 16:14–15, 19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La viuda y el juez injusto:",
+      "luke": [
+        "Lucas 18:1–8"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los obreros de la viña:",
+      "matthew": [
+        "Mateo 20:1–16"
+      ],
+      "mark": [
+        "Marcos 10:31"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las diez minas:",
+      "luke": [
+        "Lucas 19:11–27"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los dos hijos:",
+      "matthew": [
+        "Mateo 21:28–32"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los labradores malvados:",
+      "matthew": [
+        "Mateo 21:33–46"
+      ],
+      "mark": [
+        "Marcos 12:1–12"
+      ],
+      "luke": [
+        "Lucas 20:9–19"
+      ]
+    },
+    {
+      "event": "Acontecimiento La fiesta de bodas:",
+      "matthew": [
+        "Mateo 22:1–14"
+      ],
+      "luke": [
+        "Lucas 14:7–24"
+      ]
+    },
+    {
+      "event": "Acontecimiento Las diez vírgenes:",
+      "matthew": [
+        "Mateo 25:1–13"
+      ],
+      "luke": [
+        "Lucas 12:35–36"
+      ]
+    },
+    {
+      "event": "Acontecimiento Los talentos:",
+      "matthew": [
+        "Mateo 25:14–30"
+      ]
+    },
+    {
+      "event": "Acontecimiento El juicio de las naciones:",
+      "matthew": [
+        "Mateo 25:31–46"
+      ]
+    }
+  ]
+}

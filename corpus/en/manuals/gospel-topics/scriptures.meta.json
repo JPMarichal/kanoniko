@@ -1,0 +1,102 @@
+{
+  "title": "Scriptures",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/scriptures?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 15,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrine and Covenants 68:4."
+    },
+    {
+      "marker": "10.",
+      "text": "1 Nephi 13:40."
+    },
+    {
+      "marker": "11.",
+      "text": "Introduction to the Book of Mormon."
+    },
+    {
+      "marker": "12.",
+      "text": "See1 Nephi 13:24–27, 38–41."
+    },
+    {
+      "marker": "13.",
+      "text": "2 Nephi 3:12."
+    },
+    {
+      "marker": "14.",
+      "text": "Moroni 10:4; see alsoMoroni 10:3andMoroni 10:5."
+    },
+    {
+      "marker": "15.",
+      "text": "Section heading forDoctrine and Covenants 70."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeJohn 5:39;20:31;1 Nephi 6:4;Mosiah 13:33–35."
+    },
+    {
+      "marker": "3.",
+      "text": "Helaman 3:29–30."
+    },
+    {
+      "marker": "4.",
+      "text": "2 Nephi 29:9."
+    },
+    {
+      "marker": "5.",
+      "text": "See1 Nephi 19:23–24."
+    },
+    {
+      "marker": "6.",
+      "text": "John 5:39."
+    },
+    {
+      "marker": "7.",
+      "text": "2 Nephi 32:3."
+    },
+    {
+      "marker": "8.",
+      "text": "Doctrine and Covenants 20:9; see alsoDoctrine and Covenants 42:12."
+    },
+    {
+      "marker": "9.",
+      "text": "Title page of the Book of Mormon."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 13:24–27, 38–41",
+    "1 Nephi 13:40",
+    "1 Nephi 19:23–24",
+    "1 Nephi 6:4",
+    "20:31",
+    "2 Nephi 29:9",
+    "2 Nephi 32:3",
+    "2 Nephi 3:12",
+    "Doctrine and Covenants 20:9",
+    "Doctrine and Covenants 42:12",
+    "Doctrine and Covenants 68:4",
+    "Doctrine and Covenants 70",
+    "Helaman 3:29–30",
+    "Introduction to the Book of Mormon",
+    "John 5:39",
+    "Matthew 24",
+    "Moroni 10:3",
+    "Moroni 10:4",
+    "Moroni 10:5",
+    "Mosiah 13:33–35",
+    "Scriptures",
+    "Title page of the Book of Mormon"
+  ]
+}

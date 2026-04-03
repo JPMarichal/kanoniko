@@ -1,0 +1,75 @@
+{
+  "title": "Plan of Salvation",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/plan-of-salvation?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeDoctrine and Covenants 138:55–56."
+    },
+    {
+      "marker": "10.",
+      "text": "SeeAlma 40;41;Doctrine and Covenants 76."
+    },
+    {
+      "marker": "2.",
+      "text": "Alma 42:5, 8."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrine and Covenants 6:13."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeRevelation 12:7–9."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeAlma 7:11–13."
+    },
+    {
+      "marker": "6.",
+      "text": "1 Nephi 10:21."
+    },
+    {
+      "marker": "7.",
+      "text": "Alma 40:12."
+    },
+    {
+      "marker": "8.",
+      "text": "See1 Corinthians 15:20–22;Doctrine and Covenants 88:14–17."
+    },
+    {
+      "marker": "9.",
+      "text": "See2 Nephi 9:15–17;Doctrine and Covenants 137:9."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corinthians 15:20–22",
+    "1 Nephi 10:21",
+    "2 Nephi 9:15–17",
+    "41",
+    "Alma 40",
+    "Alma 40:12",
+    "Alma 42:5, 8",
+    "Alma 7:11–13",
+    "Doctrine and Covenants 137:9",
+    "Doctrine and Covenants 138:55–56",
+    "Doctrine and Covenants 6:13",
+    "Doctrine and Covenants 76",
+    "Doctrine and Covenants 88:14–17",
+    "Revelation 12:7–9",
+    "Scriptures"
+  ]
+}

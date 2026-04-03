@@ -1,0 +1,536 @@
+{
+  "title": "Part III.E: The Perean and Later Judean Ministry",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-7?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 63,
+  "scripture_refs": [
+    "John 7:2–9",
+    "Luke 10:1–12",
+    "Doctrine and Covenants 107:25, 34, 38, 93",
+    "Luke 10:13–16",
+    "Luke 9:51–53",
+    "Luke 9:54–56",
+    "John 7:10–13",
+    "John 7:14–36",
+    "John 7:37–53",
+    "John 8:1–11",
+    "John 8:12–59",
+    "John 9",
+    "Revelation 3",
+    "Luke 10:17–20",
+    "Luke 10:21–24",
+    "Luke 10:25–37",
+    "Luke 10:38–42",
+    "Luke 11:1, 5",
+    "Luke 11:27–28",
+    "Luke 12:1–12",
+    "Luke 12:13–21",
+    "Luke 12:35–39",
+    "Luke 13:1–5",
+    "Luke 13:6–9",
+    "John 10:22–39",
+    "John 10:40–42",
+    "Luke 13:10–17",
+    "Luke 13:22",
+    "Luke 13:23–30",
+    "Luke 13:31–33",
+    "Luke 14:1–6",
+    "Luke 14:7–11",
+    "Luke 14:12–24",
+    "Luke 14:25–35",
+    "Matthew 18:12–14",
+    "Luke 15:1–7",
+    "Luke 15:8–10",
+    "Luke 15:11–32",
+    "Luke 16:1–13",
+    "Luke 16:14–15, 19",
+    "Luke 17:1–10",
+    "John 11:1–53",
+    "John 11:54",
+    "Luke 17:11–19",
+    "Luke 17:20–37",
+    "Luke 18:1–8",
+    "Luke 18:9–14",
+    "Mark 10:1–12",
+    "Mark 10:13–16",
+    "Luke 18:15–17",
+    "Mark 10:17–27",
+    "Luke 18:18–27",
+    "Mark 10:28–31",
+    "Luke 18:28–30",
+    "Mark 10:31",
+    "Mark 10:32–34",
+    "Luke 18:31–34",
+    "Mark 10:35–45",
+    "Mark 10:46–52",
+    "Luke 18:35–43",
+    "Luke 19:1–10",
+    "Luke 19:11–27"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event Urged to attend the Feast of Tabernacles",
+      "location": "Location Galilee",
+      "john_lds": [
+        "John 7:2–9"
+      ]
+    },
+    {
+      "event": "Event Seventy appointed and sent forth",
+      "location": "Location Capernaum (?)",
+      "luke": [
+        "Luke 10:1–12"
+      ],
+      "john_lds": [
+        "Doctrine and Covenants 107:25, 34, 38, 93"
+      ]
+    },
+    {
+      "event": "Event Jesus upbraids Capernaum, Bethsaida, and Chorazin",
+      "location": "Location Capernaum (?)",
+      "luke": [
+        "Luke 10:13–16"
+      ]
+    },
+    {
+      "event": "Event Samaritan village rejects the Apostles",
+      "location": "Location Samaria",
+      "luke": [
+        "Luke 9:51–53"
+      ]
+    },
+    {
+      "event": "Event Jesus sent to save, not destroy",
+      "location": "Location Samaria",
+      "luke": [
+        "Luke 9:54–56"
+      ]
+    },
+    {
+      "event": "Event Jesus attends the Feast of Tabernacles",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 7:10–13"
+      ]
+    },
+    {
+      "event": "Event The doctrine of the Father",
+      "location": "Location Temple",
+      "john_lds": [
+        "John 7:14–36"
+      ]
+    },
+    {
+      "event": "Event The Spirit testifies of Jesus’ ministry",
+      "location": "Location Temple",
+      "john_lds": [
+        "John 7:37–53"
+      ]
+    },
+    {
+      "event": "Event The adulterous woman",
+      "location": "Location Temple",
+      "john_lds": [
+        "John 8:1–11"
+      ]
+    },
+    {
+      "event": "Event The light of the world",
+      "location": "Location Temple",
+      "john_lds": [
+        "John 8:12–59"
+      ]
+    },
+    {
+      "event": "Event Heals blind man on the Sabbath",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 9"
+      ]
+    },
+    {
+      "event": "Event Parable: The good shepherd",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "Revelation 3"
+      ]
+    },
+    {
+      "event": "Event Seventy return; authority confirmed",
+      "location": "Location Judea (?)",
+      "luke": [
+        "Luke 10:17–20"
+      ]
+    },
+    {
+      "event": "Event Jesus’ prayer and gratitude",
+      "location": "Location Judea (?)",
+      "luke": [
+        "Luke 10:21–24"
+      ]
+    },
+    {
+      "event": "Event Parable: The good Samaritan",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 10:25–37"
+      ]
+    },
+    {
+      "event": "Event Mary and Martha: One thing needful",
+      "location": "Location Bethany",
+      "luke": [
+        "Luke 10:38–42"
+      ]
+    },
+    {
+      "event": "Event Prayer; friend at midnight",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 11:1, 5"
+      ]
+    },
+    {
+      "event": "Event Hear, keep the word",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 11:27–28"
+      ]
+    },
+    {
+      "event": "Event Beware of the Pharisees",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 12:1–12"
+      ]
+    },
+    {
+      "event": "Event Parable: The rich fool",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 12:13–21"
+      ]
+    },
+    {
+      "event": "Event Preparing for the coming of the Lord",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 12:35–39"
+      ]
+    },
+    {
+      "event": "Event Repentance",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 13:1–5"
+      ]
+    },
+    {
+      "event": "Event Parable: The barren fig tree",
+      "location": "Location Judea",
+      "luke": [
+        "Luke 13:6–9"
+      ]
+    },
+    {
+      "event": "Event The Feast of Dedication",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 10:22–39"
+      ]
+    },
+    {
+      "event": "Event Admirers of the Baptist believe",
+      "location": "Location Bethabara, Perea",
+      "john_lds": [
+        "John 10:40–42"
+      ]
+    },
+    {
+      "event": "Event Heals woman on Sabbath",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 13:10–17"
+      ]
+    },
+    {
+      "event": "Event Toward Jerusalem",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 13:22"
+      ]
+    },
+    {
+      "event": "Event “Are there few that be saved?”",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 13:23–30"
+      ]
+    },
+    {
+      "event": "Event “Tell that fox”",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 13:31–33"
+      ]
+    },
+    {
+      "event": "Event Heals man on the Sabbath",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 14:1–6"
+      ]
+    },
+    {
+      "event": "Event Humility, parable of wedding feast",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 14:7–11"
+      ]
+    },
+    {
+      "event": "Event Parable: The great supper",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 14:12–24"
+      ]
+    },
+    {
+      "event": "Event Counting the cost",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 14:25–35"
+      ]
+    },
+    {
+      "event": "Event Parables: Event Lost sheep Location Perea Matt. see also Matthew 18:12–14 Luke Luke 15:1–7 Event Lost coin Location Perea Luke Luke 15:8–10 Event The prodigal son Location Perea Luke Luke 15:11–32 Event The unjust steward Location Perea Luke Luke 16:1–13 Event Lazarus and the rich man Location Perea Luke Luke 16:14–15, 19–31",
+      "location": "Event Lost sheep",
+      "mark": [
+        "Matthew 18:12–14"
+      ],
+      "john_lds": [
+        "Luke 15:1–7"
+      ]
+    },
+    {
+      "event": "Event Lost sheep",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 15:1–7"
+      ]
+    },
+    {
+      "event": "Event Lost coin",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 15:8–10"
+      ]
+    },
+    {
+      "event": "Event The prodigal son",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 15:11–32"
+      ]
+    },
+    {
+      "event": "Event The unjust steward",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 16:1–13"
+      ]
+    },
+    {
+      "event": "Event Lazarus and the rich man",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 16:14–15, 19"
+      ]
+    },
+    {
+      "event": "Event Discourse on offenses and faith",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 17:1–10"
+      ]
+    },
+    {
+      "event": "Event Raises Lazarus from the dead",
+      "location": "Location Bethany",
+      "john_lds": [
+        "John 11:1–53"
+      ]
+    },
+    {
+      "event": "Event Retires to Ephraim",
+      "location": "Location Ephraim",
+      "john_lds": [
+        "John 11:54"
+      ]
+    },
+    {
+      "event": "Event Heals ten lepers",
+      "location": "Location Samaria (?)",
+      "luke": [
+        "Luke 17:11–19"
+      ]
+    },
+    {
+      "event": "Event Discourse on the kingdom of God",
+      "location": "Location Galilee (?)",
+      "luke": [
+        "Luke 17:20–37"
+      ]
+    },
+    {
+      "event": "Event Parables: Event The unjust judge Location Galilee (?) Luke Luke 18:1–8 Event The Pharisee and the publican Location Galilee (?) Luke Luke 18:9–14",
+      "location": "Event The unjust judge",
+      "john_lds": [
+        "Luke 18:1–8"
+      ]
+    },
+    {
+      "event": "Event The unjust judge",
+      "location": "Location Galilee (?)",
+      "luke": [
+        "Luke 18:1–8"
+      ]
+    },
+    {
+      "event": "Event The Pharisee and the publican",
+      "location": "Location Galilee (?)",
+      "luke": [
+        "Luke 18:9–14"
+      ]
+    },
+    {
+      "event": "Event Pharisees ask about divorce",
+      "location": "Location Perea",
+      "mark": [
+        "Mark 10:1–12"
+      ]
+    },
+    {
+      "event": "Event Suffer little children",
+      "location": "Location Perea",
+      "mark": [
+        "Mark 10:13–16"
+      ],
+      "luke": [
+        "Luke 18:15–17"
+      ]
+    },
+    {
+      "event": "Event Rich young ruler",
+      "location": "Location Perea",
+      "mark": [
+        "Mark 10:17–27"
+      ],
+      "luke": [
+        "Luke 18:18–27"
+      ]
+    },
+    {
+      "event": "Event Reward for forsaking all",
+      "location": "Location Perea",
+      "mark": [
+        "Mark 10:28–31"
+      ],
+      "luke": [
+        "Luke 18:28–30"
+      ]
+    },
+    {
+      "event": "Event Parable: Laborers in vineyard",
+      "location": "Location Perea",
+      "mark": [
+        "Mark 10:31"
+      ]
+    },
+    {
+      "event": "Event Prophecy of death and Resurrection",
+      "location": "Location Leaving Perea",
+      "mark": [
+        "Mark 10:32–34"
+      ],
+      "luke": [
+        "Luke 18:31–34"
+      ]
+    },
+    {
+      "event": "Event The greatest is to minister",
+      "location": "Location Jericho",
+      "mark": [
+        "Mark 10:35–45"
+      ]
+    },
+    {
+      "event": "Event Heals two blind men (Bartimaeus)",
+      "location": "Location Leaving Jericho",
+      "mark": [
+        "Mark 10:46–52"
+      ],
+      "luke": [
+        "Luke 18:35–43"
+      ]
+    },
+    {
+      "event": "Event Salvation comes to house of Zacchaeus",
+      "location": "Location Jericho",
+      "luke": [
+        "Luke 19:1–10"
+      ]
+    },
+    {
+      "event": "Event Parable: The pounds",
+      "location": "Location Jericho",
+      "luke": [
+        "Luke 19:11–27"
+      ]
+    },
+    {
+      "event": "Event Lost coin",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 15:8–10"
+      ]
+    },
+    {
+      "event": "Event The prodigal son",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 15:11–32"
+      ]
+    },
+    {
+      "event": "Event The unjust steward",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 16:1–13"
+      ]
+    },
+    {
+      "event": "Event Lazarus and the rich man",
+      "location": "Location Perea",
+      "luke": [
+        "Luke 16:14–15, 19"
+      ]
+    },
+    {
+      "event": "Event The Pharisee and the publican",
+      "location": "Location Galilee (?)",
+      "luke": [
+        "Luke 18:9–14"
+      ]
+    }
+  ]
+}
