@@ -32,6 +32,27 @@ Measures the weight a source carries for establishing LDS doctrine. Fixed per do
 
 Gaps between ranges are intentional — they allow future sub-levels (e.g., speaker-calling stratification in the 70–80 range) without renumbering.
 
+#### Manual Sub-Category Overrides
+
+Manuals default to authority=60, but sub-categories diverge based on research into each material's origin, audience, and doctrinal depth. Implemented in `authority.py` as `_MANUAL_OVERRIDES` (first path-substring match wins):
+
+| Sub-path | Authority | Rigor | Audience | Rationale |
+|----------|-----------|-------|----------|-----------|
+| `leadership-instruction/` | 75 | 72 | leadership | Q12 training presentations — doctrinal + application |
+| `seminaries-and-institutes/charted-course` | 72 | 70 | leadership | J. Reuben Clark 1938 FP address — foundational for all S&I |
+| `missionary-interview-questions/` | 70 | 75 | leadership | First Presidency-issued worthiness protocol |
+| `preach-my-gospel/` | 65 | 65 | general | FP+Q12 commissioned, used Church-wide (missionaries + all members) |
+| `seminaries-and-institutes/si-objective` | 65 | 70 | leadership | FP-approved mission statement for all S&I |
+| `providing-in-the-lords-way/` | 60 | 65 | leadership | Welfare theology — consecration, self-reliance, law of the fast |
+| `counseling-resources/` | 55 | 60 | leadership | Pastoral guide — 5 Atonement-based principles across 15 topics |
+| `for-parents-covenant-path/` | 55 | 60 | adult | CFM appendix — covenant-path milestones with prophetic quotes |
+| `for-primary-covenant-path/` | 55 | 60 | children | CFM appendix — covenant doctrine in teaching-activity format |
+| `missionary-standards-service/` | 55 | 60 | general | Service missionary conduct — 80% procedural, 20% doctrinal |
+| `seminaries-and-institutes/` | 55 | 60 | leadership | S&I teacher training materials (general) |
+| `callings/` | 50 | 55 | leadership | "My Calling" guides — procedural, derived from General Handbook |
+| `old-testament-stories/` | 50 | 50 | children | Illustrated children's retellings — simplified narrative |
+| *(all other manuals)* | 60 | 65 | adult | Default: Come Follow Me, institute, seminary, gospel topics, etc. |
+
 **Key distinctions:**
 - **OD 1–2 at 100:** They were added to the D&C by sustaining vote (1908 and 1981) — they are canon, not quasi-canonical.
 - **Study aids split (57/55):** The GEE contains explanatory doctrinal content; the TG is an index and the BD carries an explicit "not official" disclaimer. Neither should be at the same level as Come Follow Me manuals.

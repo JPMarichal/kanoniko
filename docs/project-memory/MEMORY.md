@@ -33,3 +33,23 @@
 - [procedure_corpus_addition.md](procedure_corpus_addition.md) — 5-step procedure for adding corpus material: classify, authority, KG analysis, format, index
 - [feedback_gitignore_data.md](feedback_gitignore_data.md) — Never exclude data/ from git; only exclude sqlite/backups/ and sqlite/neo4j_backups/ (large, regenerable)
 - [feedback_proactive_before_expensive_ops.md](feedback_proactive_before_expensive_ops.md) — Stop antes de ops costosas: revisar deuda técnica conocida y optimizar primero; no lanzar hasta tener el camino despejado
+- [feedback_never_skip_to_download.md](feedback_never_skip_to_download.md) — After inventory, always prepare (classify, authority, KG, script) before any download
+- [feedback_church_terminology.md](feedback_church_terminology.md) — Usar "llamamientos" o "asignaciones", nunca "puestos" ni "cargos"
+- [feedback_corpus_first.md](feedback_corpus_first.md) — Protocolo DF: consultar Alejandría antes de web search para material de la Iglesia
+- [feedback_df_acronym.md](feedback_df_acronym.md) — DF = documentation-first (acrónimo del protocolo)
+- [feedback_no_guessing.md](feedback_no_guessing.md) — Never present guesses as facts; investigate before answering when unsure
+- [project_article_format.md](project_article_format.md) — Producto "artículo": FCD, bibliografía, ~3000 palabras, ameno+académico, salida en prods/articulos/
+- [feedback_honorificos_ag.md](feedback_honorificos_ag.md) — Siempre usar título honroso (élder, presidente, hermana) para AG en texto editorial
+- [feedback_tuteo.md](feedback_tuteo.md) — Hablar de tú al lector en artículos, no de usted
+- [feedback_no_secretismo.md](feedback_no_secretismo.md) — Evitar "secretismo"; usar "acceso a la información" o "transparencia"
+- [feedback_preseed_before_discovery.md](feedback_preseed_before_discovery.md) — Pre-seed known data (paths, KG relations) before expensive automated discovery; never let the system re-derive what preparation already determined
+- [feedback_avoid_ai_patterns.md](feedback_avoid_ai_patterns.md) — Patrones léxicos, estructurales y de tono que delatan texto IA; checklist de revisión
+- [reference_doctrinal_spine.md](reference_doctrinal_spine.md) — Columna doctrinal serie Revolución Silenciosa: escrituras ancla, fuentes proféticas, redistribución tema mujeres
+- [reference_seo_longtail_interlinking.md](reference_seo_longtail_interlinking.md) — Long-tail SEO, modelo pillar-cluster, interlinking contextual, anchor text, checklist pre-publicación WordPress
+- [feedback_no_scripture_speculation.md](feedback_no_scripture_speculation.md) — No reinterpretar escrituras: reportar lo que dice el texto, no llenar vacíos con especulación propia
+- [feedback_member_belief_vs_doctrine.md](feedback_member_belief_vs_doctrine.md) — Tres capas distintas: creencia común de miembros, doctrina oficial, cultura popular — nunca conflacionar
+- [feedback_clarity_over_erudition.md](feedback_clarity_over_erudition.md) — Preferir claridad sobre erudición académica; cortar detalles que confundan al lector
+- [feedback_spanish_capitalization.md](feedback_spanish_capitalization.md) — Capitalización hispana en títulos: solo primera palabra y nombres propios, nunca title case inglés
+- [feedback_fcd_inline_attribution.md](feedback_fcd_inline_attribution.md) — FCD completo inline obligatorio: nombre+título en oración + citación completa en paréntesis; [N] nunca sustituye
+- [feedback_bibliography_format.md](feedback_bibliography_format.md) — Bibliografía como "Fuentes citadas" con bullets sin numerar; los [N] desaparecen si FCD va inline
+- [feedback_humor_reverente.md](feedback_humor_reverente.md) — Humor sutil y reverente para accesibilidad; cuarta pared OK; aplicar en futuros artículos

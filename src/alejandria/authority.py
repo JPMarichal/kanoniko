@@ -174,6 +174,82 @@ _STUDY_AID_DEFAULTS: dict[str, AuthorityMeta] = {
 }
 
 
+# ── Sub-category overrides for manuals ──────────────────────────────────
+# Manuals default to authority=60.  These overrides handle sub-paths that
+# diverge significantly from the baseline.  Matched via substring in the
+# normalised rel_path — order matters (first match wins).
+
+_MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
+    # Leadership instruction — Q12 training presentations (doctrinal + application)
+    ("leadership-instruction/", AuthorityMeta(
+        authority=75, rigor=72, importance="importante",
+        official=True, current=True, context="leadership-training",
+        audience="leadership",
+    )),
+    # Missionary interview questions — First Presidency-issued protocol
+    ("missionary-interview-questions/", AuthorityMeta(
+        authority=70, rigor=75, importance="importante",
+        official=True, current=True, context="official-letter",
+        consensus="first-presidency", audience="leadership",
+    )),
+    # Preach My Gospel — FP+Q12 commissioned, used Church-wide
+    ("preach-my-gospel/", AuthorityMeta(
+        authority=65, rigor=65, importance="imprescindible",
+        official=True, current=True, audience="general",
+    )),
+    # S&I: The Charted Course — seminal 1938 FP address defining CES philosophy
+    ("seminaries-and-institutes/charted-course", AuthorityMeta(
+        authority=72, rigor=70, importance="importante",
+        official=True, current=True, context="leadership-training",
+        audience="leadership",
+    )),
+    # S&I Objective — First Presidency-approved charter
+    ("seminaries-and-institutes/si-objective", AuthorityMeta(
+        authority=65, rigor=70, importance="importante",
+        official=True, current=True, consensus="first-presidency",
+        audience="leadership",
+    )),
+    # S&I materials (general) — training resources for seminary/institute teachers
+    ("seminaries-and-institutes/", AuthorityMeta(
+        authority=55, rigor=60, importance="interesante",
+        official=True, current=True, audience="leadership",
+    )),
+    # Calling guides — procedural, derived from General Handbook
+    ("callings/", AuthorityMeta(
+        authority=50, rigor=55, importance="interesante",
+        official=True, current=True, audience="leadership",
+    )),
+    # Counseling Resources — pastoral guide grounded in Atonement principles
+    ("counseling-resources/", AuthorityMeta(
+        authority=55, rigor=60, importance="importante",
+        official=True, current=True, audience="leadership",
+    )),
+    # Providing in the Lord's Way — welfare theology (consecration, self-reliance)
+    ("providing-in-the-lords-way/", AuthorityMeta(
+        authority=60, rigor=65, importance="importante",
+        official=True, current=True, audience="leadership",
+    )),
+    # Children's materials — simplified, lower doctrinal precision
+    ("old-testament-stories/", AuthorityMeta(
+        authority=50, rigor=50, importance="interesante",
+        official=True, current=True, audience="children",
+    )),
+    ("for-parents-covenant-path/", AuthorityMeta(
+        authority=55, rigor=60, importance="importante",
+        official=True, current=True, audience="adult",
+    )),
+    ("for-primary-covenant-path/", AuthorityMeta(
+        authority=55, rigor=60, importance="importante",
+        official=True, current=True, audience="children",
+    )),
+    # Service missionary standards — procedural with doctrinal framing
+    ("missionary-standards-service/", AuthorityMeta(
+        authority=55, rigor=60, importance="importante",
+        official=True, current=True, audience="general",
+    )),
+]
+
+
 def derive_authority(source: str, rel_path: str = "") -> AuthorityMeta:
     """Derive authority metadata from corpus source category and path.
 
@@ -223,6 +299,22 @@ def derive_authority(source: str, rel_path: str = "") -> AuthorityMeta:
                     consensus=aid_meta.consensus,
                     audience=aid_meta.audience,
                     speaker_calling=aid_meta.speaker_calling,
+                )
+
+    # ── Manual sub-category overrides (first match wins) ──
+    if source == "manuals":
+        for key, override in _MANUAL_OVERRIDES:
+            if key in norm:
+                return AuthorityMeta(
+                    authority=override.authority,
+                    rigor=override.rigor,
+                    importance=override.importance,
+                    official=override.official,
+                    current=override.current,
+                    context=override.context,
+                    consensus=override.consensus,
+                    audience=override.audience,
+                    speaker_calling=override.speaker_calling,
                 )
 
     base = _SOURCE_DEFAULTS.get(source, _FALLBACK)
