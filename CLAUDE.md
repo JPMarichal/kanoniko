@@ -141,6 +141,8 @@ The pipeline automatically backs up all three stores before any indexing run. No
 - **Neo4j lost:** `POST /backup/neo4j/restore?filename=...` or rebuild from SQLite via reindex (~3h)
 - **Full disaster:** Clone repo, copy `.env` from OneDrive, `docker compose up`, data is in git
 - **NEVER run full reindex casually** — it takes 7+ hours and deletes existing data first. Always use incremental.
+- **Incremental is fast** (~2-3 sec/file for new material). Only `force: true` is slow (~2h for 7K files on CPU).
+- **`/index/status` ETA underestimates** — it only tracks Phase 1 (parse/FTS). Phases 2+3 (vectors/KG) can add significant time on CPU.
 
 ### Memory Sync
 Project memory lives in `~/.claude/projects/.../memory/` (24 files). Run `scripts/sync-memory.sh` to copy to `docs/project-memory/` before major commits so it's backed up in git.
