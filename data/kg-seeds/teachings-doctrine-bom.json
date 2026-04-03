@@ -1,0 +1,79 @@
+{
+  "name": "Teachings and Doctrine of the Book of Mormon (Institute)",
+  "corpus_pattern": "*/manuals/institute/teachings-doctrine-bom/*",
+  "confidence": "curated",
+  "description": "Manual de instituto Religion 275 (2021), 28 lecciones en 8 unidades temáticas. No sigue el orden canónico del LdM — es tesis doctrinal primero. Fuente principal del corpus para: la alegoría del olivo como representación de la dispersión/reunión de Israel (Unidad 4), la Doctrina de Cristo de 5 partes (2 Nefí 31; 3 Nefí 11), y el Ciclo del Orgullo Nefita como patrón temporal nombrado.",
+  "entities": [
+    {"name": "Teachings and Doctrine of the Book of Mormon", "type": "work", "aliases": ["T&D BoM", "Religion 275", "Teachings and Doctrine of the BoM"]},
+    {"name": "Doctrine of Christ", "type": "concept", "aliases": ["doctrina de Cristo", "five-part doctrine of Christ", "2 Nephi 31 doctrine"]},
+    {"name": "Nephite Pride Cycle", "type": "concept", "aliases": ["Book of Mormon pride cycle", "ciclo de orgullo nefita"]},
+    {"name": "Plain and Precious Truths", "type": "concept", "aliases": ["plain and precious parts", "1 Nephi 13 truths"]},
+    {"name": "Jacob 5 Olive Tree Allegory", "type": "concept", "aliases": ["tame and wild olive tree", "Jacob 5 allegory", "alegoría del olivo"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Book of Mormon",
+      "from_type": "work",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Keystone of Religion",
+      "to_type": "concept",
+      "source_ref": "T&D BoM L1; Joseph Smith — 'the most correct book... the keystone of our religion'"
+    },
+    {
+      "from_name": "Book of Mormon",
+      "from_type": "work",
+      "rel_type": "RESTORES",
+      "to_name": "Plain and Precious Truths",
+      "to_type": "concept",
+      "source_ref": "T&D BoM L1; 1 Nephi 13:29-33 — BoM restores truths removed from the Bible"
+    },
+    {
+      "from_name": "Lehi",
+      "from_type": "person",
+      "rel_type": "TAUGHT",
+      "to_name": "Doctrine of the Fall",
+      "to_type": "concept",
+      "source_ref": "T&D BoM L5; 2 Nephi 2 — Lehi's teaching to Jacob on opposition and the Fall"
+    },
+    {
+      "from_name": "Doctrine of Christ",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "2 Nephi 31:20",
+      "to_type": "scripture_reference",
+      "source_ref": "T&D BoM L9-12; 2 Nephi 31; 3 Nephi 11 — faith, repentance, baptism, Holy Ghost, endure to end"
+    },
+    {
+      "from_name": "Jacob 5 Olive Tree Allegory",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Jacob 5",
+      "to_type": "scripture_reference",
+      "source_ref": "T&D BoM L13 — Jacob 5 as extended allegory of the house of Israel"
+    },
+    {
+      "from_name": "Jacob 5 Olive Tree Allegory",
+      "from_type": "concept",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Gathering of Israel",
+      "to_type": "concept",
+      "source_ref": "T&D BoM L13-14 — the tame and wild olive trees represent scattering and gathering of Israel"
+    },
+    {
+      "from_name": "Nephite Pride Cycle",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Helaman 12",
+      "to_type": "scripture_reference",
+      "source_ref": "T&D BoM L19; 3 Nephi 6-7; Helaman 12 — prosperity→pride→destruction→humility→prosperity"
+    },
+    {
+      "from_name": "Gathering of Israel",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "3 Nephi 20:13",
+      "to_type": "scripture_reference",
+      "source_ref": "T&D BoM L13-14 — gathering includes temple work for the dead (both sides of the veil)"
+    }
+  ]
+}

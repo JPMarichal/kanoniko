@@ -1,0 +1,88 @@
+{
+  "name": "The Eternal Family (Institute)",
+  "corpus_pattern": "*/manuals/institute/eternal-family/*",
+  "confidence": "curated",
+  "description": "Manual de instituto Religion 200 (2022), 28 lecciones. La fuente más sistemática del corpus para doctrina del matrimonio eterno y poder sellador. Única fuente que trata 'Heavenly Mother' explícitamente en contexto de 'divine parentage'. La cadena Malachi 4:5-6 → Elijah → D&C 110 → Temple Sealing → Abraham 2:6-11 → Eternal Posterity es el hilo conductor del manual.",
+  "entities": [
+    {"name": "The Eternal Family", "type": "work", "aliases": ["Eternal Family Institute Manual", "Religion 200", "La Familia Eterna"]},
+    {"name": "Sealing Authority", "type": "concept", "aliases": ["sealing power", "poder sellador", "Elijah keys"]},
+    {"name": "Holy Spirit of Promise", "type": "concept", "aliases": ["Espíritu Santo de Promesa"]},
+    {"name": "Heavenly Mother", "type": "person", "aliases": ["Madre Celestial", "Heavenly Parents"]},
+    {"name": "New and Everlasting Covenant of Marriage", "type": "concept", "aliases": ["eternal marriage covenant", "D&C 131-132 covenant"]},
+    {"name": "Spirit of Elijah", "type": "concept", "aliases": ["Elijah spirit", "genealogical impulse", "espíritu de Elías (genealogía)"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Eternal Marriage",
+      "from_type": "concept",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Exaltation",
+      "to_type": "concept",
+      "source_ref": "Eternal Family L6; D&C 131:1-4 — 'no man can be saved and exalted in the celestial kingdom... without the ordinance of celestial marriage'"
+    },
+    {
+      "from_name": "Elijah",
+      "from_type": "person",
+      "rel_type": "RESTORED",
+      "to_name": "Sealing Authority",
+      "to_type": "concept",
+      "source_ref": "Eternal Family L12; D&C 110:13-16 — Kirtland Temple, April 3 1836"
+    },
+    {
+      "from_name": "Joseph Smith",
+      "from_type": "person",
+      "rel_type": "RECEIVED_KEYS_FROM",
+      "to_name": "Elijah",
+      "to_type": "person",
+      "source_ref": "Eternal Family L12; D&C 110:13-16 — Elijah conferred sealing keys in Kirtland Temple"
+    },
+    {
+      "from_name": "Sealing Authority",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Malachi 4:5-6",
+      "to_type": "scripture_reference",
+      "source_ref": "Eternal Family — Elijah prophecy as foundation of sealing keys"
+    },
+    {
+      "from_name": "Holy Spirit of Promise",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "New and Everlasting Covenant of Marriage",
+      "to_type": "concept",
+      "source_ref": "Eternal Family; D&C 132:7 — ordinances must be sealed by the Holy Spirit of Promise"
+    },
+    {
+      "from_name": "Abrahamic Covenant",
+      "from_type": "concept",
+      "rel_type": "PROMISES",
+      "to_name": "Eternal Posterity",
+      "to_type": "concept",
+      "source_ref": "Eternal Family L15; Abraham 2:6-11 — posterity as numerous as stars"
+    },
+    {
+      "from_name": "Fall of Adam",
+      "from_type": "event",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Mortal Family Formation",
+      "to_type": "concept",
+      "source_ref": "Eternal Family L5; 2 Nephi 2:22-25 — without the Fall, no children, no mortal experience"
+    },
+    {
+      "from_name": "Family Proclamation",
+      "from_type": "document",
+      "rel_type": "TAUGHT",
+      "to_name": "Gender",
+      "to_type": "concept",
+      "source_ref": "Eternal Family L3 — 'Gender is an essential characteristic of individual premortal, mortal, and eternal identity'"
+    },
+    {
+      "from_name": "Heavenly Father",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Heavenly Mother",
+      "to_type": "person",
+      "source_ref": "Eternal Family L3 'Mother in Heaven' — divine parentage doctrine; one of few official manual references"
+    }
+  ]
+}

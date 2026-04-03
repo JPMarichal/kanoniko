@@ -1,0 +1,95 @@
+{
+  "name": "Old Testament Seminary Student Manual (2026)",
+  "corpus_pattern": "*/manuals/seminary/old-testament-student/*",
+  "confidence": "curated",
+  "description": "Manual de seminario para el Antiguo Testamento (2026), ~140 lecciones. El más sistemático en establecer Jehová = Jesucristo. Estructura única: Moses 1-7 y Abraham 1-5 entretejidos con Génesis en posición restaurada (PGP como AT restaurado). Mayor fuente del corpus para: tipología cristológica del AT (cordero pascual, Isaac, serpiente de bronce, Tabernáculo), y el sistema Doctrinal Mastery del AT (~25 pasajes designados).",
+  "entities": [
+    {"name": "Old Testament Seminary Student Manual 2026", "type": "work", "aliases": ["OT Seminary 2026", "AT Seminario 2026"]},
+    {"name": "Tabernacle of Moses", "type": "place", "aliases": ["Tabernacle (wilderness)", "tabernáculo de Moisés", "wilderness tabernacle"]},
+    {"name": "City of Zion", "type": "place", "aliases": ["City of Enoch", "Enoch city", "ciudad de Sión (Enoc)"]},
+    {"name": "Brazen Serpent", "type": "object", "aliases": ["serpiente de bronce", "bronze serpent", "Numbers 21 serpent"]},
+    {"name": "Passover Lamb", "type": "concept", "aliases": ["paschal lamb", "Passover sacrifice", "cordero pascual"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Jehovah",
+      "from_type": "person",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Jesus Christ",
+      "to_type": "person",
+      "source_ref": "OT Seminary L1; Dallin H. Oaks confirmed — every OT 'LORD' (YHWH) refers to the premortal Christ"
+    },
+    {
+      "from_name": "Moses 4",
+      "from_type": "scripture_reference",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Genesis 3",
+      "to_type": "scripture_reference",
+      "source_ref": "OT Seminary — PGP as restored OT; Moses 4 is the JST-restored version of the Fall narrative"
+    },
+    {
+      "from_name": "Abraham 3:22-23",
+      "from_type": "scripture_reference",
+      "rel_type": "DESIGNATED_AS",
+      "to_name": "Doctrinal Mastery Core Document",
+      "to_type": "work",
+      "source_ref": "OT Seminary DM passages — foreordination doctrine"
+    },
+    {
+      "from_name": "Passover Lamb",
+      "from_type": "concept",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Jesus Christ",
+      "to_type": "person",
+      "source_ref": "OT Seminary Exodus lessons; Exodus 12:3-5 → John 1:29 — Christ as the Lamb of God"
+    },
+    {
+      "from_name": "Isaac",
+      "from_type": "person",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Jesus Christ",
+      "to_type": "person",
+      "source_ref": "OT Seminary Genesis 22; Jacob 4:5 — Isaac's sacrifice as similitude of God sacrificing His Son"
+    },
+    {
+      "from_name": "Brazen Serpent",
+      "from_type": "object",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Jesus Christ",
+      "to_type": "person",
+      "source_ref": "OT Seminary Numbers 21:4-10; John 3:14 — look to Christ and live"
+    },
+    {
+      "from_name": "Tabernacle of Moses",
+      "from_type": "place",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "Temple",
+      "to_type": "concept",
+      "source_ref": "OT Seminary Exodus lessons — Tabernacle as portable temple, all elements typological"
+    },
+    {
+      "from_name": "Enoch",
+      "from_type": "person",
+      "rel_type": "FOUNDED",
+      "to_name": "City of Zion",
+      "to_type": "place",
+      "source_ref": "OT Seminary; Moses 7:18-21 — Enoch built Zion, it was translated to heaven"
+    },
+    {
+      "from_name": "City of Zion",
+      "from_type": "place",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Moses 7:18",
+      "to_type": "scripture_reference",
+      "source_ref": "OT Seminary; Moses 7:18 — 'there was no poor among them'"
+    },
+    {
+      "from_name": "Abraham",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Abrahamic Covenant",
+      "to_type": "concept",
+      "source_ref": "OT Seminary Genesis 12; 17; Abraham 2:6-11 — covenant of land, posterity, and priesthood"
+    }
+  ]
+}

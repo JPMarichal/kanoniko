@@ -1,0 +1,85 @@
+{
+  "name": "First Vision Accounts",
+  "corpus_pattern": "*/manuals/first-vision-accounts/*",
+  "confidence": "curated",
+  "description": "Los 4 relatos de la Primera Visión escritos por Joseph Smith (1832, 1835, 1838, 1842) más 5 relatos de contemporáneos. El relato de 1838 está canonizado como JS-H en PGP; los demás NO están en el corpus sin este material.",
+  "entities": [
+    {"name": "First Vision Accounts", "type": "work", "aliases": ["Relatos de la Primera Visión"]},
+    {"name": "First Vision", "type": "event", "aliases": ["Primera Visión", "Sacred Grove vision", "visión del Bosquecillo Sagrado"]},
+    {"name": "1832 First Vision Account", "type": "document", "aliases": ["relato de 1832", "1832 account"]},
+    {"name": "1835 First Vision Account", "type": "document", "aliases": ["relato de 1835", "1835 account"]},
+    {"name": "1838 First Vision Account", "type": "document", "aliases": ["relato de 1838", "1838 account", "official First Vision account", "relato oficial de la Primera Visión"]},
+    {"name": "1842 First Vision Account", "type": "document", "aliases": ["relato de 1842", "1842 account", "Wentworth account"]},
+    {"name": "Wentworth Letter", "type": "document", "aliases": ["Carta Wentworth", "Church History 1842"]},
+    {"name": "Sacred Grove", "type": "place", "aliases": ["el bosquecillo", "the grove"]},
+    {"name": "Spring of 1820", "type": "period", "aliases": ["1820", "primavera de 1820"]}
+  ],
+  "relations": [
+    {
+      "from_name": "1832 First Vision Account", "from_type": "document",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "First Vision", "to_type": "event",
+      "source_ref": "First Vision Accounts manual"
+    },
+    {
+      "from_name": "1835 First Vision Account", "from_type": "document",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "First Vision", "to_type": "event",
+      "source_ref": "First Vision Accounts manual"
+    },
+    {
+      "from_name": "1838 First Vision Account", "from_type": "document",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "First Vision", "to_type": "event",
+      "source_ref": "Joseph Smith—History 1:5-20"
+    },
+    {
+      "from_name": "1842 First Vision Account", "from_type": "document",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "First Vision", "to_type": "event",
+      "source_ref": "Wentworth Letter, Times and Seasons, 1 March 1842"
+    },
+    {
+      "from_name": "1838 First Vision Account", "from_type": "document",
+      "rel_type": "CANONIZED_AS",
+      "to_name": "Joseph Smith—History 1:5-20", "to_type": "scripture_reference",
+      "source_ref": "Pearl of Great Price"
+    },
+    {
+      "from_name": "1832 First Vision Account", "from_type": "document",
+      "rel_type": "EARLIER_VERSION_OF",
+      "to_name": "1838 First Vision Account", "to_type": "document",
+      "source_ref": "First Vision Accounts manual"
+    },
+    {
+      "from_name": "1842 First Vision Account", "from_type": "document",
+      "rel_type": "PART_OF",
+      "to_name": "Wentworth Letter", "to_type": "document",
+      "source_ref": "Times and Seasons, 1 March 1842"
+    },
+    {
+      "from_name": "First Vision", "from_type": "event",
+      "rel_type": "OCCURRED_DURING",
+      "to_name": "Spring of 1820", "to_type": "period",
+      "source_ref": "Joseph Smith—History 1:14"
+    },
+    {
+      "from_name": "First Vision", "from_type": "event",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Sacred Grove", "to_type": "place",
+      "source_ref": "Joseph Smith—History 1:14"
+    },
+    {
+      "from_name": "First Vision", "from_type": "event",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "James 1:5", "to_type": "scripture_reference",
+      "source_ref": "Joseph Smith—History 1:11 — James 1:5 inspired the prayer that led to the vision"
+    },
+    {
+      "from_name": "Joseph Smith", "from_type": "person",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "First Vision", "to_type": "event",
+      "source_ref": "Joseph Smith—History 1:15-20"
+    }
+  ]
+}

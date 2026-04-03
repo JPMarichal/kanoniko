@@ -1,0 +1,94 @@
+{
+  "name": "Doctrine and Covenants Seminary Teacher Manual (2025)",
+  "corpus_pattern": "*/manuals/seminary/doctrine-and-covenants-teacher/*",
+  "confidence": "curated",
+  "description": "Manual del maestro de seminario para D&C e Historia de la Iglesia (2025), ~160 lecciones. Se usa como fallback web porque el manual de estudiante 2025 es PDF-only. Sigue D&C cronológicamente entretejido con Historia de la Iglesia (Kirtland, Missouri, Nauvoo, Utah). Alta densidad de relaciones entre revelaciones específicas y sus contextos históricos.",
+  "entities": [
+    {"name": "Doctrine and Covenants Seminary Teacher Manual 2025", "type": "work", "aliases": ["D&C Seminary Teacher 2025", "D&C Seminario Maestro 2025"]},
+    {"name": "Kirtland Temple Dedication", "type": "event", "aliases": ["dedicación del templo de Kirtland", "March 27 1836"]},
+    {"name": "Word of Wisdom", "type": "concept", "aliases": ["Palabra de Sabiduría", "D&C 89", "health code", "law of health"]},
+    {"name": "Vision of the Degrees of Glory", "type": "event", "aliases": ["visión de los grados de gloria", "D&C 76", "The Vision"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Doctrine and Covenants Seminary Teacher Manual 2025",
+      "from_type": "work",
+      "rel_type": "COVERS",
+      "to_name": "Doctrine and Covenants",
+      "to_type": "work",
+      "source_ref": "D&C Seminary — section-by-section commentary on D&C 1-138 + ODs"
+    },
+    {
+      "from_name": "Doctrine and Covenants Seminary Teacher Manual 2025",
+      "from_type": "work",
+      "rel_type": "COVERS",
+      "to_name": "Restoration of the Gospel",
+      "to_type": "event",
+      "source_ref": "D&C Seminary — Church History interwoven with each revelation's historical context"
+    },
+    {
+      "from_name": "D&C 1",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Doctrine and Covenants",
+      "to_type": "work",
+      "source_ref": "D&C Seminary — D&C 1 as the Lord's preface to the entire Doctrine and Covenants"
+    },
+    {
+      "from_name": "D&C 76",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Vision of the Degrees of Glory",
+      "to_type": "event",
+      "source_ref": "D&C Seminary — received Feb 16 1832; Joseph Smith and Sidney Rigdon; map of post-mortal kingdoms"
+    },
+    {
+      "from_name": "D&C 84:33-39",
+      "from_type": "scripture_reference",
+      "rel_type": "DESIGNATED_AS",
+      "to_name": "Doctrinal Mastery Core Document",
+      "to_type": "work",
+      "source_ref": "D&C Seminary DM — oath and covenant of the priesthood"
+    },
+    {
+      "from_name": "D&C 89",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Word of Wisdom",
+      "to_type": "concept",
+      "source_ref": "D&C Seminary — received Feb 27 1833 at Kirtland; law of health with blessings promised"
+    },
+    {
+      "from_name": "D&C 110",
+      "from_type": "scripture_reference",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Kirtland Temple Dedication",
+      "to_type": "event",
+      "source_ref": "D&C Seminary — April 3 1836; Christ, Moses, Elias, Elijah appear; sealing keys restored"
+    },
+    {
+      "from_name": "D&C 121:41-42",
+      "from_type": "scripture_reference",
+      "rel_type": "DESIGNATED_AS",
+      "to_name": "Doctrinal Mastery Core Document",
+      "to_type": "work",
+      "source_ref": "D&C Seminary DM — priesthood only by persuasion, long-suffering, gentleness"
+    },
+    {
+      "from_name": "D&C 130:22-23",
+      "from_type": "scripture_reference",
+      "rel_type": "DESIGNATED_AS",
+      "to_name": "Doctrinal Mastery Core Document",
+      "to_type": "work",
+      "source_ref": "D&C Seminary DM — Holy Ghost is a personage of spirit"
+    },
+    {
+      "from_name": "Joseph Smith",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "Liberty Jail",
+      "to_type": "place",
+      "source_ref": "D&C Seminary — D&C 121-123 received from Liberty Jail, winter 1838-39"
+    }
+  ]
+}

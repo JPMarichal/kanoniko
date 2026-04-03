@@ -1,59 +1,77 @@
 # P4 — Corpus Expansion — Requirements
 
-## Problem Statement
+## Estado del corpus al inicio de P4
 
-The current corpus is limited to scriptures (EN complete, ES partial) and some conference talks, manuals, biographies, and web downloads. The knowledge engine's value grows with corpus breadth — more material enables richer answers, better entity profiles, and deeper knowledge graph connections.
+| Categoría | EN | ES | Gaps |
+|-----------|----|----|------|
+| Escrituras | ✅ completo | ⚠️ solo BOM | AT/NT/D&C/PGP ES |
+| Conferencia General | ✅ 1971–2025 | ✅ ~1990–2025 | — |
+| General Handbook | ✅ | ✅ | — |
+| Missionary Standards | ✅ | ✅ | — |
+| Proclamaciones | ✅ | ✅ | — |
+| Bible Dictionary | ✅ | ❌ | ES pendiente |
+| Guide to Scriptures | ✅ | ✅ | — |
+| Topical Guide | ✅ | ❌ | ES pendiente |
+| JST Appendix | ✅ | ✅ | — |
+| Preach My Gospel 2023 | ✅ | ✅ | — |
+| Jesus the Christ | 🟡 prepared | 🟡 prepared | ejecutar scripts |
+| Christmas Study Plan | 🟡 prepared | 🟡 prepared | ejecutar scripts |
+| Easter Study Plan | 🟡 prepared | 🟡 prepared | ejecutar scripts |
 
-## Functional Requirements
+## Problema
 
-### FR-1: Material Types
-Expand the corpus with the following material types (priority order):
+El corpus cubre bien la conferencia y los documentos canónicos, pero carece
+de los materiales doctrinales de estudio que los miembros usan cotidianamente:
+manuales de clase, libros clásicos de Autoridades Generales, planes de estudio
+estacionales, y la serie de enseñanzas de profetas. Esta ausencia limita la
+capacidad del sistema para responder preguntas doctrinales prácticas y para
+enriquecer los perfiles KG de personas y conceptos.
 
-1. **General Conference talks** — All available sessions (1971-present digitally available)
-2. **Church manuals** — Come Follow Me, Gospel Principles, Teachings of Presidents
-3. **Church magazines** — Ensign, Liahona, New Era, Friend
-4. **Institute/Seminary materials** — Course manuals and student readings
-5. **CES materials** — Church Educational System resources
-6. **Historical documents** — Journal of Discourses, History of the Church
-7. **Topical guides and Bible Dictionary** — Reference works
+## Requisitos funcionales
 
-### FR-2: Bilingual Coverage
-Each material type should be ingested in both English and Spanish where available.
+### FR-1: Completar gaps de estudio bíblico
+- Bible Dictionary ES
+- Topical Guide ES
 
-### FR-3: Metadata Richness
-Each document must carry:
-- Title, author, date of publication
-- Language, category, subcategory
-- Source URL for provenance
-- Material-type-specific fields (conference session, manual lesson number, etc.)
+### FR-2: Completar escrituras ES
+- AT, NT, D&C, PGP en español
+- Fuente: sitio oficial (scrape_scriptures.py) o dump MySQL disponible
 
-### FR-4: Corpus Directory Structure
-Extend the existing corpus layout:
-```
-corpus/{lang}/general-conference/{year}/{month}/{slug}.md
-corpus/{lang}/manuals/{manual-name}/{lesson}.md
-corpus/{lang}/magazines/{publication}/{year}/{month}/{slug}.md
-corpus/{lang}/institute/{course}/{lesson}.md
-corpus/{lang}/historical/{collection}/{document}.md
-corpus/{lang}/reference/{type}/{entry}.md
-```
+### FR-3: Ejecutar scripts preparados
+- Jesus the Christ (EN+ES)
+- Christmas Study Plan (EN+ES, --year 2024)
+- Easter Study Plan (EN+ES)
 
-### FR-5: Incremental Growth
-Support adding material types one at a time without disrupting existing content. Each expansion should be independently testable.
+### FR-4: Libros clásicos de Autoridades Generales
+- The Articles of Faith — Talmage (script a preparar)
+- The Great Apostasy — Talmage (script a preparar)
+- Discourses of Brigham Young (fuente externa, script nuevo)
 
-## Non-Functional Requirements
+### FR-5: Manuales doctrinales esenciales
+- Gospel Principles (script a preparar)
+- True to the Faith (script a preparar)
+- Teachings of Presidents — Joseph Smith (script a preparar)
 
-- Respect source site rate limits and terms of service
-- Corpus size projections: ~50,000-100,000 documents when fully expanded
-- Storage: estimated 500MB-2GB of text content
-- Indexing time: must remain manageable (incremental indexing mitigates this)
+### FR-6: Come Follow Me — ciclo actual
+- Individuals & Families para los 4 libros del ciclo (EN+ES)
 
-## Dependencies
+### FR-7: Serie Teachings of Presidents (completa)
+- ~22 manuales, uno por Presidente de la Iglesia
 
-- **P3 (ETL Templates)**: Required for standardized ingestion of each material type
+### FR-8: Instituto y Seminary
+- Manuales de Instituto: LdM, NT, AT, D&C, Historia de la Iglesia
+- Requiere investigación de URL patterns
 
-## Out of Scope
+## Requisitos no funcionales
 
-- Audio/video content
-- Non-English/Spanish languages (future extensibility but not in scope)
-- Copyrighted third-party commentary
+- Respetar rate limits del sitio (0.5s entre requests)
+- Todo material nuevo: .txt + .meta.json con footnotes capturadas
+- Ingesta siempre incremental — nunca reindex completo
+- Cada script nuevo usa `scripts/lib/church_scraper.py`
+
+## Fuera de alcance en P4
+
+- Revistas (Ensign/Liahona) — volumen demasiado grande, P5
+- Journal of Discourses — complejidad histórica, P5
+- Fine-tuning o cambios al pipeline — proyectos separados (P9)
+- Contenido de audio/video

@@ -1,0 +1,105 @@
+{
+  "name": "Gospel Principles",
+  "corpus_pattern": "*/manuals/gospel-principles/*",
+  "confidence": "curated",
+  "description": "Manual secuencial de 47 capítulos para nuevos conversos. Sigue el arco de la premortalidad a la exaltación. Fuente principal de cadenas causales del Plan de Salvación que NER no puede inferir.",
+  "entities": [
+    {"name": "Gospel Principles", "type": "work", "aliases": ["Principios del Evangelio"]},
+    {"name": "Council in Heaven", "type": "event", "aliases": ["Gran Consejo del Cielo", "premortal council", "heavenly council"]},
+    {"name": "War in Heaven", "type": "event", "aliases": ["Guerra en el Cielo", "War in Heaven (premortal)"]},
+    {"name": "Premortal Existence", "type": "concept", "aliases": ["premortal life", "vida preterrenal", "preexistencia", "premortal life"]},
+    {"name": "Exaltation", "type": "concept", "aliases": ["exaltación", "becoming like God", "deification", "eternal life (exaltation)"]},
+    {"name": "Degrees of Glory", "type": "concept", "aliases": ["grados de gloria", "three kingdoms", "tres reinos"]},
+    {"name": "Spirit Children", "type": "concept", "aliases": ["hijos espirituales", "spirit sons and daughters"]},
+    {"name": "Foreordination", "type": "concept", "aliases": ["foreordination", "preordenación"]},
+    {"name": "Celestial Kingdom", "type": "concept", "aliases": ["reino celestial"]},
+    {"name": "Terrestrial Kingdom", "type": "concept", "aliases": ["reino terrestre"]},
+    {"name": "Telestial Kingdom", "type": "concept", "aliases": ["reino telestial"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Jehovah", "to_type": "person",
+      "source_ref": "Gospel Principles ch. 3; Ether 3:14"
+    },
+    {
+      "from_name": "Lucifer", "from_type": "person",
+      "rel_type": "IS_SAME_AS",
+      "to_name": "Satan", "to_type": "person",
+      "source_ref": "Gospel Principles ch. 3; Moses 4:3-4"
+    },
+    {
+      "from_name": "Heavenly Father", "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Jesus Christ", "to_type": "person",
+      "source_ref": "Gospel Principles ch. 3 — Heavenly Father selected Christ as Savior; Abraham 3:27"
+    },
+    {
+      "from_name": "Jesus Christ", "from_type": "person",
+      "rel_type": "FOREORDAINED_AS",
+      "to_name": "Savior", "to_type": "concept",
+      "source_ref": "1 Peter 1:19-20; Moses 4:2"
+    },
+    {
+      "from_name": "Lucifer", "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Council in Heaven", "to_type": "event",
+      "source_ref": "Moses 4:1 — Lucifer proposed an alternative plan"
+    },
+    {
+      "from_name": "War in Heaven", "from_type": "event",
+      "rel_type": "PRECEDED_BY",
+      "to_name": "Council in Heaven", "to_type": "event",
+      "source_ref": "Gospel Principles ch. 3 — war followed the council"
+    },
+    {
+      "from_name": "Lucifer", "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "War in Heaven", "to_type": "event",
+      "source_ref": "D&C 29:36 — Satan cast out"
+    },
+    {
+      "from_name": "Exaltation", "from_type": "concept",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Baptism", "to_type": "concept",
+      "source_ref": "Gospel Principles ch. 47 — baptism required for exaltation"
+    },
+    {
+      "from_name": "Exaltation", "from_type": "concept",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Temple Endowment", "to_type": "concept",
+      "source_ref": "Gospel Principles ch. 47"
+    },
+    {
+      "from_name": "Exaltation", "from_type": "concept",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Eternal Marriage", "to_type": "concept",
+      "source_ref": "Gospel Principles ch. 47; D&C 131:1-4"
+    },
+    {
+      "from_name": "Celestial Kingdom", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Degrees of Glory", "to_type": "concept",
+      "source_ref": "Gospel Principles ch. 45; D&C 76"
+    },
+    {
+      "from_name": "Terrestrial Kingdom", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Degrees of Glory", "to_type": "concept",
+      "source_ref": "D&C 76"
+    },
+    {
+      "from_name": "Telestial Kingdom", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Degrees of Glory", "to_type": "concept",
+      "source_ref": "D&C 76"
+    },
+    {
+      "from_name": "Exaltation", "from_type": "concept",
+      "rel_type": "PART_OF",
+      "to_name": "Celestial Kingdom", "to_type": "concept",
+      "source_ref": "Gospel Principles ch. 47; D&C 131:1-4 — highest degree of Celestial Kingdom"
+    }
+  ]
+}

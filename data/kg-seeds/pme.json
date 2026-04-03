@@ -1,0 +1,127 @@
+{
+  "name": "Preach My Gospel 2023",
+  "corpus_pattern": "*/manuals/preach-my-gospel*",
+  "confidence": "curated",
+  "entities": [
+    {
+      "name": "Preach My Gospel",
+      "type": "work",
+      "aliases": ["PME", "Preach My Gospel 2023", "Predica Mi Evangelio"]
+    },
+    {
+      "name": "First Principles",
+      "type": "concept",
+      "aliases": [
+        "First Principles and Ordinances",
+        "Primeros Principios",
+        "Primeros Principios y Ordenanzas"
+      ]
+    },
+    {
+      "name": "Endure to End",
+      "type": "concept",
+      "aliases": [
+        "Enduring to the End",
+        "Perseverar hasta el Fin",
+        "Endure to the End"
+      ]
+    },
+    {
+      "name": "Testimony",
+      "type": "concept",
+      "aliases": ["Spiritual Testimony", "Testimonio", "Witness of the Holy Ghost"]
+    },
+    {
+      "name": "Plan of Salvation",
+      "type": "concept",
+      "aliases": [
+        "Plan of Happiness",
+        "Plan of Redemption",
+        "Plan del Padre",
+        "Plan de Salvación"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "subject": "Faith",
+      "subject_type": "concept",
+      "predicate": "PREREQUISITE_FOR",
+      "object": "Repentance",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4; PME Chapter 3; D&C 20:37"
+    },
+    {
+      "subject": "Repentance",
+      "subject_type": "concept",
+      "predicate": "PREREQUISITE_FOR",
+      "object": "Baptism",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4; PME Chapter 3; Acts 2:38"
+    },
+    {
+      "subject": "Baptism",
+      "subject_type": "concept",
+      "predicate": "PREREQUISITE_FOR",
+      "object": "Holy Ghost",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4; PME Chapter 3; D&C 20:41"
+    },
+    {
+      "subject": "Holy Ghost",
+      "subject_type": "concept",
+      "predicate": "PREREQUISITE_FOR",
+      "object": "Endure to End",
+      "object_type": "concept",
+      "source_ref": "2 Nephi 31:17-20; PME Chapter 3"
+    },
+    {
+      "subject": "Faith",
+      "subject_type": "concept",
+      "predicate": "PART_OF",
+      "object": "First Principles",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4"
+    },
+    {
+      "subject": "Repentance",
+      "subject_type": "concept",
+      "predicate": "PART_OF",
+      "object": "First Principles",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4"
+    },
+    {
+      "subject": "Baptism",
+      "subject_type": "concept",
+      "predicate": "PART_OF",
+      "object": "First Principles",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4"
+    },
+    {
+      "subject": "Holy Ghost",
+      "subject_type": "concept",
+      "predicate": "PART_OF",
+      "object": "First Principles",
+      "object_type": "concept",
+      "source_ref": "Articles of Faith 4"
+    },
+    {
+      "subject": "Jesus Christ",
+      "subject_type": "person",
+      "predicate": "TAUGHT",
+      "object": "Plan of Salvation",
+      "object_type": "concept",
+      "source_ref": "PME Chapter 2; 2 Nephi 9; Moses 1:39"
+    },
+    {
+      "subject": "Jesus Christ",
+      "subject_type": "person",
+      "predicate": "TAUGHT",
+      "object": "Gospel",
+      "object_type": "concept",
+      "source_ref": "3 Nephi 27:13-21; John 3:16-17"
+    }
+  ]
+}

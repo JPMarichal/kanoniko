@@ -285,7 +285,9 @@
     },
     {
       "name": "John Taylor",
-      "aliases": ["President Taylor"]
+      "aliases": [
+        "President Taylor"
+      ]
     },
     {
       "name": "Wilford Woodruff",
@@ -297,27 +299,43 @@
     },
     {
       "name": "Heber J. Grant",
-      "aliases": ["President Grant", "Heber Grant"]
+      "aliases": [
+        "President Grant",
+        "Heber Grant"
+      ]
     },
     {
       "name": "George Albert Smith",
-      "aliases": ["President George Albert Smith"]
+      "aliases": [
+        "President George Albert Smith"
+      ]
     },
     {
       "name": "David O. McKay",
-      "aliases": ["President McKay", "David McKay"]
+      "aliases": [
+        "President McKay",
+        "David McKay"
+      ]
     },
     {
       "name": "Joseph F. Smith",
-      "aliases": ["President Joseph F. Smith"]
+      "aliases": [
+        "President Joseph F. Smith"
+      ]
     },
     {
       "name": "Harold B. Lee",
-      "aliases": ["President Lee", "Harold Lee"]
+      "aliases": [
+        "President Lee",
+        "Harold Lee"
+      ]
     },
     {
       "name": "Howard W. Hunter",
-      "aliases": ["President Hunter", "Howard Hunter"]
+      "aliases": [
+        "President Hunter",
+        "Howard Hunter"
+      ]
     },
     {
       "name": "Spencer W. Kimball",
@@ -325,15 +343,25 @@
     },
     {
       "name": "Joseph Fielding Smith",
-      "aliases": ["President Smith", "JFS"]
+      "aliases": [
+        "President Smith",
+        "JFS"
+      ]
     },
     {
       "name": "Ezra Taft Benson",
-      "aliases": ["President Benson", "ETB"]
+      "aliases": [
+        "President Benson",
+        "ETB"
+      ]
     },
     {
       "name": "James E. Talmage",
-      "aliases": ["Talmage", "Elder Talmage", "James Edward Talmage"]
+      "aliases": [
+        "Talmage",
+        "Elder Talmage",
+        "James Edward Talmage"
+      ]
     },
     {
       "name": "Gordon B. Hinckley",
@@ -10732,6 +10760,180 @@
     {
       "name": "Zerahemnah",
       "aliases": []
+    },
+    {
+      "name": "Lucy Mack Smith",
+      "aliases": [
+        "Lucy Smith",
+        "madre de Joseph Smith"
+      ]
+    },
+    {
+      "name": "Martin Harris",
+      "aliases": [
+        "Martín Harris"
+      ]
+    },
+    {
+      "name": "Eliza R. Snow",
+      "aliases": [
+        "Eliza Snow",
+        "Eliza Roxcy Snow"
+      ]
+    },
+    {
+      "name": "Heber C. Kimball",
+      "aliases": [
+        "Heber Kimball"
+      ]
+    },
+    {
+      "name": "Orson Pratt",
+      "aliases": []
+    },
+    {
+      "name": "Newel K. Whitney",
+      "aliases": [
+        "Newel Whitney",
+        "Bishop Whitney"
+      ]
+    },
+    {
+      "name": "Emmeline B. Wells",
+      "aliases": [
+        "Emmeline Wells"
+      ]
+    },
+    {
+      "name": "Elijah Abel",
+      "aliases": []
+    },
+    {
+      "name": "Jane Manning James",
+      "aliases": [
+        "Jane James"
+      ]
+    },
+    {
+      "name": "Q. Walker Lewis",
+      "aliases": [
+        "Walker Lewis"
+      ]
+    },
+    {
+      "name": "Reed Smoot",
+      "aliases": []
+    },
+    {
+      "name": "Bruce R. McConkie",
+      "aliases": [
+        "Elder McConkie"
+      ]
+    },
+    {
+      "name": "Marion G. Romney",
+      "aliases": []
+    },
+    {
+      "name": "Neal A. Maxwell",
+      "aliases": [
+        "Elder Maxwell"
+      ]
+    },
+    {
+      "name": "Boyd K. Packer",
+      "aliases": [
+        "President Packer"
+      ]
+    },
+    {
+      "name": "J. Reuben Clark Jr.",
+      "aliases": [
+        "J. Reuben Clark",
+        "Elder Clark"
+      ]
+    },
+    {
+      "name": "Mark E. Petersen",
+      "aliases": []
+    },
+    {
+      "name": "LeGrand Richards",
+      "aliases": [
+        "Le Grand Richards"
+      ]
+    },
+    {
+      "name": "Jean B. Bingham",
+      "aliases": []
+    },
+    {
+      "name": "Julie B. Beck",
+      "aliases": []
+    },
+    {
+      "name": "Bruce C. Hafen",
+      "aliases": [
+        "Elder Hafen"
+      ]
+    },
+    {
+      "name": "Peter M. Johnson",
+      "aliases": []
+    },
+    {
+      "name": "Michael T. Ringwood",
+      "aliases": []
+    },
+    {
+      "name": "Heavenly Mother",
+      "aliases": [
+        "Madre Celestial",
+        "Heavenly Parents"
+      ]
+    },
+    {
+      "name": "Emma Hale Smith",
+      "aliases": [
+        "Emma Smith",
+        "Emma Hale"
+      ]
+    },
+    {
+      "name": "William W. Phelps",
+      "aliases": [
+        "W. W. Phelps"
+      ]
+    },
+    {
+      "name": "David Whitmer",
+      "aliases": []
+    },
+    {
+      "name": "Zina D. Young",
+      "aliases": [
+        "Zina Young",
+        "Zina Diantha Huntington Young"
+      ]
+    },
+    {
+      "name": "Jonathan Napela",
+      "aliases": [
+        "Jonatana Napela"
+      ]
+    },
+    {
+      "name": "B. H. Roberts",
+      "aliases": [
+        "Brigham Henry Roberts",
+        "B.H. Roberts"
+      ]
+    },
+    {
+      "name": "George Q. Cannon",
+      "aliases": [
+        "George Cannon"
+      ]
     }
   ],
   "place": [
@@ -11113,6 +11315,67 @@
       "name": "Salem",
       "aliases": [
         "Salém"
+      ]
+    },
+    {
+      "name": "Carthage Jail",
+      "aliases": [
+        "prisión de Carthage",
+        "Carthage, Illinois"
+      ]
+    },
+    {
+      "name": "Liberty Jail",
+      "aliases": [
+        "prisión de Liberty",
+        "Liberty, Missouri",
+        "Liberty prison"
+      ]
+    },
+    {
+      "name": "Winter Quarters",
+      "aliases": [
+        "Cuarteles de Invierno",
+        "Winter Quarters, Nebraska"
+      ]
+    },
+    {
+      "name": "City of Zion",
+      "aliases": [
+        "City of Enoch",
+        "Enoch city",
+        "ciudad de Sión (Enoc)",
+        "translated city"
+      ]
+    },
+    {
+      "name": "Tabernacle of Moses",
+      "aliases": [
+        "Tabernacle (wilderness)",
+        "tabernáculo de Moisés",
+        "wilderness tabernacle"
+      ]
+    },
+    {
+      "name": "São Paulo Temple",
+      "aliases": [
+        "Sao Paulo Temple",
+        "Templo de São Paulo",
+        "Brazil Temple"
+      ]
+    },
+    {
+      "name": "Freiberg Temple",
+      "aliases": [
+        "Freiberg Germany Temple",
+        "Templo de Freiberg"
+      ]
+    },
+    {
+      "name": "Salt Lake Valley",
+      "aliases": [
+        "Valle del Lago Salado",
+        "Great Salt Lake Valley"
       ]
     }
   ],
@@ -12632,6 +12895,162 @@
         "Witness of the Holy Ghost",
         "Testimony of Jesus Christ"
       ]
+    },
+    {
+      "name": "Plural Marriage",
+      "aliases": [
+        "polygamy",
+        "celestial plural marriage",
+        "matrimonio plural",
+        "poligamia"
+      ]
+    },
+    {
+      "name": "Priesthood Restriction",
+      "aliases": [
+        "Priest ban",
+        "priesthood ban",
+        "restricción del sacerdocio"
+      ]
+    },
+    {
+      "name": "Curse of Cain",
+      "aliases": [
+        "mark of Cain",
+        "marca de Caín"
+      ]
+    },
+    {
+      "name": "Council in Heaven",
+      "aliases": [
+        "Grand Council",
+        "Consejo del Cielo",
+        "premortal council"
+      ]
+    },
+    {
+      "name": "War in Heaven",
+      "aliases": [
+        "guerra en el cielo",
+        "premortal war",
+        "rebellion of Lucifer"
+      ]
+    },
+    {
+      "name": "Light of Christ",
+      "aliases": [
+        "Luz de Cristo",
+        "Spirit of Christ"
+      ]
+    },
+    {
+      "name": "Foreordination",
+      "aliases": [
+        "preordenación",
+        "foreordained calling"
+      ]
+    },
+    {
+      "name": "Covenant Path",
+      "aliases": [
+        "senda del convenio",
+        "covenant journey"
+      ]
+    },
+    {
+      "name": "Doctrinal Mastery",
+      "aliases": [
+        "mastery passages",
+        "seminary mastery"
+      ]
+    },
+    {
+      "name": "Doctrine of Christ",
+      "aliases": [
+        "doctrina de Cristo",
+        "five-part doctrine of Christ"
+      ]
+    },
+    {
+      "name": "Exaltation",
+      "aliases": [
+        "exaltación",
+        "eternal life (highest)"
+      ]
+    },
+    {
+      "name": "Spirit Children",
+      "aliases": [
+        "spirit sons and daughters",
+        "hijos espirituales",
+        "premortal spirits"
+      ]
+    },
+    {
+      "name": "Sealing Authority",
+      "aliases": [
+        "sealing power",
+        "poder sellador",
+        "Elijah keys"
+      ]
+    },
+    {
+      "name": "Holy Spirit of Promise",
+      "aliases": [
+        "Espíritu Santo de Promesa"
+      ]
+    },
+    {
+      "name": "Nephite Pride Cycle",
+      "aliases": [
+        "Book of Mormon pride cycle",
+        "ciclo de orgullo nefita"
+      ]
+    },
+    {
+      "name": "Plain and Precious Truths",
+      "aliases": [
+        "plain and precious parts",
+        "1 Nephi 13 truths"
+      ]
+    },
+    {
+      "name": "Doctrine of the Fall",
+      "aliases": [
+        "Fall doctrine",
+        "doctrina de la Caída",
+        "2 Nephi 2 doctrine"
+      ]
+    },
+    {
+      "name": "Keys of the Kingdom",
+      "aliases": [
+        "priesthood keys (kingdom)",
+        "Matthew 16:18-19 keys"
+      ]
+    },
+    {
+      "name": "New and Everlasting Covenant of Marriage",
+      "aliases": [
+        "eternal marriage covenant",
+        "D&C 131-132 covenant"
+      ]
+    },
+    {
+      "name": "Spirit of Elijah",
+      "aliases": [
+        "Elijah spirit",
+        "espíritu de Elías (genealogía)",
+        "genealogical impulse"
+      ]
+    },
+    {
+      "name": "Jacob 5 Olive Tree Allegory",
+      "aliases": [
+        "tame and wild olive tree",
+        "Jacob 5 allegory",
+        "alegoría del olivo"
+      ]
     }
   ],
   "object": [
@@ -12978,107 +13397,633 @@
     }
   ],
   "organization": [
-    {"name": "Relief Society", "aliases": ["Sociedad de Socorro"]},
-    {"name": "Elders Quorum", "aliases": ["Cuórum de Élderes", "Quórum de Élderes"]},
-    {"name": "Young Women", "aliases": ["Mujeres Jóvenes"]},
-    {"name": "Young Men", "aliases": ["Hombres Jóvenes"]},
-    {"name": "Primary", "aliases": ["Primaria"]},
-    {"name": "Sunday School", "aliases": ["Escuela Dominical"]},
-    {"name": "Aaronic Priesthood", "aliases": ["Sacerdocio Aarónico"]},
-    {"name": "Melchizedek Priesthood", "aliases": ["Sacerdocio de Melquisedec"]},
-    {"name": "Deacons Quorum", "aliases": ["Cuórum de Diáconos", "Quórum de Diáconos"]},
-    {"name": "Teachers Quorum", "aliases": ["Cuórum de Maestros", "Quórum de Maestros"]},
-    {"name": "Priests Quorum", "aliases": ["Cuórum de Presbíteros", "Quórum de Presbíteros"]},
-    {"name": "First Presidency", "aliases": ["Primera Presidencia"]},
-    {"name": "Quorum of the Twelve Apostles", "aliases": ["Cuórum de los Doce Apóstoles", "Quórum de los Doce Apóstoles"]},
-    {"name": "Seventy", "aliases": ["Setenta", "Quorum of the Seventy", "Cuórum de los Setenta"]},
-    {"name": "Presiding Bishopric", "aliases": ["Obispado Presidente"]},
-    {"name": "Family Services", "aliases": ["Servicios para la Familia"]},
-    {"name": "Missionary Training Center", "aliases": ["Centro de Capacitación Misional", "MTC", "CCM"]},
-    {"name": "Church Educational System", "aliases": ["Sistema Educativo de la Iglesia", "CES", "SEI"]},
-    {"name": "Perpetual Education Fund", "aliases": ["Fondo Perpetuo para la Educación"]}
+    {
+      "name": "Relief Society",
+      "aliases": [
+        "Sociedad de Socorro"
+      ]
+    },
+    {
+      "name": "Elders Quorum",
+      "aliases": [
+        "Cuórum de Élderes",
+        "Quórum de Élderes"
+      ]
+    },
+    {
+      "name": "Young Women",
+      "aliases": [
+        "Mujeres Jóvenes"
+      ]
+    },
+    {
+      "name": "Young Men",
+      "aliases": [
+        "Hombres Jóvenes"
+      ]
+    },
+    {
+      "name": "Primary",
+      "aliases": [
+        "Primaria"
+      ]
+    },
+    {
+      "name": "Sunday School",
+      "aliases": [
+        "Escuela Dominical"
+      ]
+    },
+    {
+      "name": "Aaronic Priesthood",
+      "aliases": [
+        "Sacerdocio Aarónico"
+      ]
+    },
+    {
+      "name": "Melchizedek Priesthood",
+      "aliases": [
+        "Sacerdocio de Melquisedec"
+      ]
+    },
+    {
+      "name": "Deacons Quorum",
+      "aliases": [
+        "Cuórum de Diáconos",
+        "Quórum de Diáconos"
+      ]
+    },
+    {
+      "name": "Teachers Quorum",
+      "aliases": [
+        "Cuórum de Maestros",
+        "Quórum de Maestros"
+      ]
+    },
+    {
+      "name": "Priests Quorum",
+      "aliases": [
+        "Cuórum de Presbíteros",
+        "Quórum de Presbíteros"
+      ]
+    },
+    {
+      "name": "First Presidency",
+      "aliases": [
+        "Primera Presidencia"
+      ]
+    },
+    {
+      "name": "Quorum of the Twelve Apostles",
+      "aliases": [
+        "Cuórum de los Doce Apóstoles",
+        "Quórum de los Doce Apóstoles"
+      ]
+    },
+    {
+      "name": "Seventy",
+      "aliases": [
+        "Setenta",
+        "Quorum of the Seventy",
+        "Cuórum de los Setenta"
+      ]
+    },
+    {
+      "name": "Presiding Bishopric",
+      "aliases": [
+        "Obispado Presidente"
+      ]
+    },
+    {
+      "name": "Family Services",
+      "aliases": [
+        "Servicios para la Familia"
+      ]
+    },
+    {
+      "name": "Missionary Training Center",
+      "aliases": [
+        "Centro de Capacitación Misional",
+        "MTC",
+        "CCM"
+      ]
+    },
+    {
+      "name": "Church Educational System",
+      "aliases": [
+        "Sistema Educativo de la Iglesia",
+        "CES",
+        "SEI"
+      ]
+    },
+    {
+      "name": "Perpetual Education Fund",
+      "aliases": [
+        "Fondo Perpetuo para la Educación"
+      ]
+    }
   ],
   "calling": [
-    {"name": "Bishop", "aliases": ["Obispo"]},
-    {"name": "Stake President", "aliases": ["Presidente de Estaca"]},
-    {"name": "Mission President", "aliases": ["Presidente de Misión"]},
-    {"name": "District President", "aliases": ["Presidente de Distrito"]},
-    {"name": "Branch President", "aliases": ["Presidente de Rama"]},
-    {"name": "Patriarch", "aliases": ["Patriarca"]},
-    {"name": "High Councilor", "aliases": ["Consejero del sumo consejo", "Alto Consejero"]},
-    {"name": "Ward Clerk", "aliases": ["Secretario de Barrio"]},
-    {"name": "Stake Clerk", "aliases": ["Secretario de Estaca"]},
-    {"name": "Executive Secretary", "aliases": ["Secretario Ejecutivo"]},
-    {"name": "Elders Quorum President", "aliases": ["Presidente del Cuórum de Élderes"]},
-    {"name": "Relief Society President", "aliases": ["Presidenta de la Sociedad de Socorro"]},
-    {"name": "Young Women President", "aliases": ["Presidenta de las Mujeres Jóvenes"]},
-    {"name": "Primary President", "aliases": ["Presidenta de la Primaria"]},
-    {"name": "Sunday School President", "aliases": ["Presidente de la Escuela Dominical", "Presidenta de la Escuela Dominical"]},
-    {"name": "Area Seventy", "aliases": ["Setenta de Área"]},
-    {"name": "General Authority", "aliases": ["Autoridad General"]},
-    {"name": "Ministering Brother", "aliases": ["Hermano Ministro", "Hermano Ministrante"]},
-    {"name": "Ministering Sister", "aliases": ["Hermana Ministra", "Hermana Ministrante"]}
+    {
+      "name": "Bishop",
+      "aliases": [
+        "Obispo"
+      ]
+    },
+    {
+      "name": "Stake President",
+      "aliases": [
+        "Presidente de Estaca"
+      ]
+    },
+    {
+      "name": "Mission President",
+      "aliases": [
+        "Presidente de Misión"
+      ]
+    },
+    {
+      "name": "District President",
+      "aliases": [
+        "Presidente de Distrito"
+      ]
+    },
+    {
+      "name": "Branch President",
+      "aliases": [
+        "Presidente de Rama"
+      ]
+    },
+    {
+      "name": "Patriarch",
+      "aliases": [
+        "Patriarca"
+      ]
+    },
+    {
+      "name": "High Councilor",
+      "aliases": [
+        "Consejero del sumo consejo",
+        "Alto Consejero"
+      ]
+    },
+    {
+      "name": "Ward Clerk",
+      "aliases": [
+        "Secretario de Barrio"
+      ]
+    },
+    {
+      "name": "Stake Clerk",
+      "aliases": [
+        "Secretario de Estaca"
+      ]
+    },
+    {
+      "name": "Executive Secretary",
+      "aliases": [
+        "Secretario Ejecutivo"
+      ]
+    },
+    {
+      "name": "Elders Quorum President",
+      "aliases": [
+        "Presidente del Cuórum de Élderes"
+      ]
+    },
+    {
+      "name": "Relief Society President",
+      "aliases": [
+        "Presidenta de la Sociedad de Socorro"
+      ]
+    },
+    {
+      "name": "Young Women President",
+      "aliases": [
+        "Presidenta de las Mujeres Jóvenes"
+      ]
+    },
+    {
+      "name": "Primary President",
+      "aliases": [
+        "Presidenta de la Primaria"
+      ]
+    },
+    {
+      "name": "Sunday School President",
+      "aliases": [
+        "Presidente de la Escuela Dominical",
+        "Presidenta de la Escuela Dominical"
+      ]
+    },
+    {
+      "name": "Area Seventy",
+      "aliases": [
+        "Setenta de Área"
+      ]
+    },
+    {
+      "name": "General Authority",
+      "aliases": [
+        "Autoridad General"
+      ]
+    },
+    {
+      "name": "Ministering Brother",
+      "aliases": [
+        "Hermano Ministro",
+        "Hermano Ministrante"
+      ]
+    },
+    {
+      "name": "Ministering Sister",
+      "aliases": [
+        "Hermana Ministra",
+        "Hermana Ministrante"
+      ]
+    }
   ],
   "council": [
-    {"name": "Ward Council", "aliases": ["Consejo de Barrio"]},
-    {"name": "Stake Council", "aliases": ["Consejo de Estaca"]},
-    {"name": "Bishopric", "aliases": ["Obispado"]},
-    {"name": "Stake Presidency", "aliases": ["Presidencia de Estaca"]},
-    {"name": "Ward Membership Council", "aliases": ["Consejo de Membresía de Barrio"]},
-    {"name": "Stake Membership Council", "aliases": ["Consejo de Membresía de Estaca"]},
-    {"name": "Area Presidency", "aliases": ["Presidencia de Área"]},
-    {"name": "Council on the Disposition of the Tithes", "aliases": ["Consejo sobre la Disposición de los Diezmos"]}
+    {
+      "name": "Ward Council",
+      "aliases": [
+        "Consejo de Barrio"
+      ]
+    },
+    {
+      "name": "Stake Council",
+      "aliases": [
+        "Consejo de Estaca"
+      ]
+    },
+    {
+      "name": "Bishopric",
+      "aliases": [
+        "Obispado"
+      ]
+    },
+    {
+      "name": "Stake Presidency",
+      "aliases": [
+        "Presidencia de Estaca"
+      ]
+    },
+    {
+      "name": "Ward Membership Council",
+      "aliases": [
+        "Consejo de Membresía de Barrio"
+      ]
+    },
+    {
+      "name": "Stake Membership Council",
+      "aliases": [
+        "Consejo de Membresía de Estaca"
+      ]
+    },
+    {
+      "name": "Area Presidency",
+      "aliases": [
+        "Presidencia de Área"
+      ]
+    },
+    {
+      "name": "Council on the Disposition of the Tithes",
+      "aliases": [
+        "Consejo sobre la Disposición de los Diezmos"
+      ]
+    }
   ],
   "ordinance": [
-    {"name": "Baptism", "aliases": ["Bautismo"]},
-    {"name": "Confirmation", "aliases": ["Confirmación"]},
-    {"name": "Sacrament", "aliases": ["Santa Cena", "Sacramento"]},
-    {"name": "Priesthood Ordination", "aliases": ["Ordenación al Sacerdocio"]},
-    {"name": "Temple Endowment", "aliases": ["Investidura del Templo", "Endowment"]},
-    {"name": "Temple Sealing", "aliases": ["Sellamiento del Templo", "Sealing"]},
-    {"name": "Patriarchal Blessing", "aliases": ["Bendición Patriarcal"]},
-    {"name": "Name and Blessing of a Child", "aliases": ["Bendición de un Hijo", "Baby Blessing"]},
-    {"name": "Dedication of a Grave", "aliases": ["Dedicación de una Tumba"]},
-    {"name": "Setting Apart", "aliases": ["Apartamiento"]},
-    {"name": "Anointing of the Sick", "aliases": ["Unción de los Enfermos", "Administering to the Sick"]},
-    {"name": "Consecration of Oil", "aliases": ["Consagración del Aceite"]},
-    {"name": "Father's Blessing", "aliases": ["Bendición de Padre"]}
+    {
+      "name": "Baptism",
+      "aliases": [
+        "Bautismo"
+      ]
+    },
+    {
+      "name": "Confirmation",
+      "aliases": [
+        "Confirmación"
+      ]
+    },
+    {
+      "name": "Sacrament",
+      "aliases": [
+        "Santa Cena",
+        "Sacramento"
+      ]
+    },
+    {
+      "name": "Priesthood Ordination",
+      "aliases": [
+        "Ordenación al Sacerdocio"
+      ]
+    },
+    {
+      "name": "Temple Endowment",
+      "aliases": [
+        "Investidura del Templo",
+        "Endowment"
+      ]
+    },
+    {
+      "name": "Temple Sealing",
+      "aliases": [
+        "Sellamiento del Templo",
+        "Sealing"
+      ]
+    },
+    {
+      "name": "Patriarchal Blessing",
+      "aliases": [
+        "Bendición Patriarcal"
+      ]
+    },
+    {
+      "name": "Name and Blessing of a Child",
+      "aliases": [
+        "Bendición de un Hijo",
+        "Baby Blessing"
+      ]
+    },
+    {
+      "name": "Dedication of a Grave",
+      "aliases": [
+        "Dedicación de una Tumba"
+      ]
+    },
+    {
+      "name": "Setting Apart",
+      "aliases": [
+        "Apartamiento"
+      ]
+    },
+    {
+      "name": "Anointing of the Sick",
+      "aliases": [
+        "Unción de los Enfermos",
+        "Administering to the Sick"
+      ]
+    },
+    {
+      "name": "Consecration of Oil",
+      "aliases": [
+        "Consagración del Aceite"
+      ]
+    },
+    {
+      "name": "Father's Blessing",
+      "aliases": [
+        "Bendición de Padre"
+      ]
+    }
   ],
   "unit": [
-    {"name": "Ward", "aliases": ["Barrio"]},
-    {"name": "Branch", "aliases": ["Rama"]},
-    {"name": "Stake", "aliases": ["Estaca"]},
-    {"name": "District", "aliases": ["Distrito"]},
-    {"name": "Mission", "aliases": ["Misión"]},
-    {"name": "Area", "aliases": ["Área"]},
-    {"name": "Young Single Adult Ward", "aliases": ["Barrio de Adultos Solteros Jóvenes", "YSA Ward"]},
-    {"name": "Language Ward", "aliases": ["Barrio Idiomático"]},
-    {"name": "Service Member Group", "aliases": ["Grupo de Servicio Militar"]}
+    {
+      "name": "Ward",
+      "aliases": [
+        "Barrio"
+      ]
+    },
+    {
+      "name": "Branch",
+      "aliases": [
+        "Rama"
+      ]
+    },
+    {
+      "name": "Stake",
+      "aliases": [
+        "Estaca"
+      ]
+    },
+    {
+      "name": "District",
+      "aliases": [
+        "Distrito"
+      ]
+    },
+    {
+      "name": "Mission",
+      "aliases": [
+        "Misión"
+      ]
+    },
+    {
+      "name": "Area",
+      "aliases": [
+        "Área"
+      ]
+    },
+    {
+      "name": "Young Single Adult Ward",
+      "aliases": [
+        "Barrio de Adultos Solteros Jóvenes",
+        "YSA Ward"
+      ]
+    },
+    {
+      "name": "Language Ward",
+      "aliases": [
+        "Barrio Idiomático"
+      ]
+    },
+    {
+      "name": "Service Member Group",
+      "aliases": [
+        "Grupo de Servicio Militar"
+      ]
+    }
   ],
   "program": [
-    {"name": "Self-Reliance Program", "aliases": ["Programa de Autosuficiencia"]},
-    {"name": "Addiction Recovery Program", "aliases": ["Programa de Recuperación de Adicciones"]},
-    {"name": "FSY Conference", "aliases": ["Conferencia FSY", "For the Strength of Youth Conference"]},
-    {"name": "Seminary", "aliases": ["Seminario"]},
-    {"name": "Institute", "aliases": ["Instituto"]},
-    {"name": "Disability Activity Program", "aliases": ["Programa de Actividades para Personas con Discapacidades"]},
-    {"name": "JustServe", "aliases": ["JustServe.org"]},
-    {"name": "Come Follow Me", "aliases": ["Ven Sígueme"]},
-    {"name": "Humanitarian Aid", "aliases": ["Ayuda Humanitaria"]}
+    {
+      "name": "Self-Reliance Program",
+      "aliases": [
+        "Programa de Autosuficiencia"
+      ]
+    },
+    {
+      "name": "Addiction Recovery Program",
+      "aliases": [
+        "Programa de Recuperación de Adicciones"
+      ]
+    },
+    {
+      "name": "FSY Conference",
+      "aliases": [
+        "Conferencia FSY",
+        "For the Strength of Youth Conference"
+      ]
+    },
+    {
+      "name": "Seminary",
+      "aliases": [
+        "Seminario"
+      ]
+    },
+    {
+      "name": "Institute",
+      "aliases": [
+        "Instituto"
+      ]
+    },
+    {
+      "name": "Disability Activity Program",
+      "aliases": [
+        "Programa de Actividades para Personas con Discapacidades"
+      ]
+    },
+    {
+      "name": "JustServe",
+      "aliases": [
+        "JustServe.org"
+      ]
+    },
+    {
+      "name": "Come Follow Me",
+      "aliases": [
+        "Ven Sígueme"
+      ]
+    },
+    {
+      "name": "Humanitarian Aid",
+      "aliases": [
+        "Ayuda Humanitaria"
+      ]
+    }
   ],
   "policy": [
-    {"name": "Law of Chastity", "aliases": ["Ley de Castidad"]},
-    {"name": "Word of Wisdom", "aliases": ["Palabra de Sabiduría"]},
-    {"name": "Law of the Fast", "aliases": ["Ley del Ayuno"]},
-    {"name": "Law of Tithing", "aliases": ["Ley del Diezmo"]},
-    {"name": "Temple Recommend", "aliases": ["Recomendación para el Templo"]},
-    {"name": "Abuse Help Line", "aliases": ["Línea de Ayuda para el Abuso"]}
+    {
+      "name": "Law of Chastity",
+      "aliases": [
+        "Ley de Castidad"
+      ]
+    },
+    {
+      "name": "Word of Wisdom",
+      "aliases": [
+        "Palabra de Sabiduría"
+      ]
+    },
+    {
+      "name": "Law of the Fast",
+      "aliases": [
+        "Ley del Ayuno"
+      ]
+    },
+    {
+      "name": "Law of Tithing",
+      "aliases": [
+        "Ley del Diezmo"
+      ]
+    },
+    {
+      "name": "Temple Recommend",
+      "aliases": [
+        "Recomendación para el Templo"
+      ]
+    },
+    {
+      "name": "Abuse Help Line",
+      "aliases": [
+        "Línea de Ayuda para el Abuso"
+      ]
+    }
   ],
   "document": [
-    {"name": "The Family: A Proclamation to the World", "aliases": ["La Familia: Una Proclamación para el Mundo"]},
-    {"name": "The Living Christ", "aliases": ["El Cristo Viviente"]},
-    {"name": "Articles of Faith", "aliases": ["Artículos de Fe"]},
-    {"name": "For the Strength of Youth", "aliases": ["Para la Fortaleza de la Juventud"]},
-    {"name": "General Handbook", "aliases": ["Manual General"]}
+    {
+      "name": "The Family: A Proclamation to the World",
+      "aliases": [
+        "La Familia: Una Proclamación para el Mundo"
+      ]
+    },
+    {
+      "name": "The Living Christ",
+      "aliases": [
+        "El Cristo Viviente"
+      ]
+    },
+    {
+      "name": "Articles of Faith",
+      "aliases": [
+        "Artículos de Fe"
+      ]
+    },
+    {
+      "name": "For the Strength of Youth",
+      "aliases": [
+        "Para la Fortaleza de la Juventud"
+      ]
+    },
+    {
+      "name": "General Handbook",
+      "aliases": [
+        "Manual General"
+      ]
+    },
+    {
+      "name": "Official Declaration 1",
+      "aliases": [
+        "OD1",
+        "Manifesto 1890",
+        "Wilford Woodruff Manifesto",
+        "Declaración Oficial 1"
+      ]
+    },
+    {
+      "name": "Official Declaration 2",
+      "aliases": [
+        "OD2",
+        "Manifesto 1978",
+        "1978 priesthood revelation",
+        "Declaración Oficial 2"
+      ]
+    },
+    {
+      "name": "Wentworth Letter",
+      "aliases": [
+        "carta a Wentworth",
+        "Joseph Smith Wentworth Letter 1842"
+      ]
+    },
+    {
+      "name": "Family Proclamation",
+      "aliases": [
+        "The Family: A Proclamation to the World",
+        "La Familia: Proclamación al Mundo",
+        "Family Proclamation 1995"
+      ]
+    },
+    {
+      "name": "Joseph Smith—Matthew",
+      "aliases": [
+        "JST Matthew 24",
+        "Joseph Smith Matthew 1",
+        "JS-M"
+      ]
+    }
+  ],
+  "event": [
+    {
+      "name": "Mountain Meadows Massacre",
+      "aliases": [
+        "Mountain Meadows",
+        "masacre de Mountain Meadows"
+      ]
+    },
+    {
+      "name": "Utah War",
+      "aliases": [
+        "Utah Expedition",
+        "guerra de Utah"
+      ]
+    },
+    {
+      "name": "Pioneer Exodus",
+      "aliases": [
+        "exodus from Nauvoo",
+        "éxodo de Nauvoo"
+      ]
+    }
   ]
 }

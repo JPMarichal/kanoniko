@@ -1,0 +1,76 @@
+{
+  "name": "Our Heritage",
+  "corpus_pattern": "*/manuals/our-heritage/*",
+  "confidence": "curated",
+  "description": "Historia de la Iglesia en 11 capítulos cronológicos (1820–presente). La fuente más completa del corpus para la espina dorsal institucional: sucesión de profetas, fundación de organizaciones, construcción de templos, éxodo pionero.",
+  "entities": [
+    {"name": "Our Heritage", "type": "work", "aliases": ["Our Heritage: A Brief History of the Church", "Nuestra Herencia"]},
+    {"name": "Lucy Mack Smith", "type": "person", "aliases": ["Lucy Smith"]},
+    {"name": "Martin Harris", "type": "person", "aliases": []},
+    {"name": "Heber C. Kimball", "type": "person", "aliases": []},
+    {"name": "Eliza R. Snow", "type": "person", "aliases": ["Eliza Snow"]},
+    {"name": "Newel K. Whitney", "type": "person", "aliases": []},
+    {"name": "Orson Pratt", "type": "person", "aliases": []},
+    {"name": "Orson Hyde", "type": "person", "aliases": []},
+    {"name": "Lilburn Boggs", "type": "person", "aliases": ["Governor Boggs"]},
+    {"name": "Liberty Jail", "type": "place", "aliases": ["prisión de Liberty", "Liberty, Missouri"]},
+    {"name": "Carthage Jail", "type": "place", "aliases": ["prisión de Carthage", "Carthage, Illinois"]},
+    {"name": "Winter Quarters", "type": "place", "aliases": ["Cuarteles de Invierno", "Winter Quarters, Nebraska"]},
+    {"name": "Haun's Mill", "type": "place", "aliases": ["Haun's Mill Massacre site", "Molino de Haun"]},
+    {"name": "Pioneer Trek", "type": "event", "aliases": ["éxodo pionero", "Trek West", "Pioneer Exodus"]},
+    {"name": "Martyrdom of Joseph and Hyrum Smith", "type": "event", "aliases": ["martirio de Joseph Smith", "Martyrdom 1844"]},
+    {"name": "Extermination Order", "type": "event", "aliases": ["orden de exterminio", "Missouri Extermination Order 1838"]},
+    {"name": "Nauvoo Period", "type": "period", "aliases": ["período de Nauvoo", "1839-1846"]},
+    {"name": "Pioneer Period", "type": "period", "aliases": ["período pionero", "1847-1896"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Joseph Smith", "from_type": "person",
+      "rel_type": "MARTYRED_AT",
+      "to_name": "Carthage Jail", "to_type": "place",
+      "source_ref": "Our Heritage ch. 5; D&C 135"
+    },
+    {
+      "from_name": "Brigham Young", "from_type": "person",
+      "rel_type": "SUCCESSOR_OF",
+      "to_name": "Joseph Smith", "to_type": "person",
+      "source_ref": "Our Heritage ch. 6"
+    },
+    {
+      "from_name": "Brigham Young", "from_type": "person",
+      "rel_type": "LED",
+      "to_name": "Pioneer Trek", "to_type": "event",
+      "source_ref": "Our Heritage ch. 6"
+    },
+    {
+      "from_name": "Joseph Smith", "from_type": "person",
+      "rel_type": "FOUNDED",
+      "to_name": "Relief Society", "to_type": "organization",
+      "source_ref": "Our Heritage ch. 5 — organized March 17, 1842 in Nauvoo"
+    },
+    {
+      "from_name": "Wilford Woodruff", "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Official Declaration 1", "to_type": "document",
+      "source_ref": "Our Heritage ch. 8 — issued the 1890 Manifesto"
+    },
+    {
+      "from_name": "Pioneer Trek", "from_type": "event",
+      "rel_type": "PRECEDED_BY",
+      "to_name": "Martyrdom of Joseph and Hyrum Smith", "to_type": "event",
+      "source_ref": "Our Heritage — chronological sequence"
+    },
+    {
+      "from_name": "Oliver Cowdery", "from_type": "person",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Aaronic Priesthood", "to_type": "concept",
+      "source_ref": "Our Heritage ch. 2 — witnessed Aaronic Priesthood restoration with Joseph Smith"
+    },
+    {
+      "from_name": "Kirtland Temple", "from_type": "place",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "The Church of Jesus Christ of Latter-day Saints", "to_type": "organization",
+      "source_ref": "Our Heritage ch. 3 — first temple built by the Church"
+    }
+  ]
+}

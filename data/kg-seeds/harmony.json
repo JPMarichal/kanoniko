@@ -1,0 +1,106 @@
+{
+  "name": "Harmony of the Gospels",
+  "corpus_pattern": "*/web/harmony*",
+  "confidence": "curated",
+  "description": "Armonía de los cuatro evangelios: relaciones PARALLEL_ACCOUNT_OF entre pasajes que narran el mismo evento en múltiples evangelios. Matthew se usa como ancla canónica para los paralelos. Incluye eventos exclusivos de un solo evangelio como DESCRIBED_IN. Fuente: Harmony of the Gospels oficial + investigación de paralelos estándar.",
+  "entities": [
+    {"name": "Feeding of the Five Thousand", "type": "event", "aliases": ["alimentación de los cinco mil", "miracle of loaves and fishes"]},
+    {"name": "Triumphal Entry", "type": "event", "aliases": ["entrada triunfal", "Palm Sunday entry"]},
+    {"name": "Olivet Discourse", "type": "event", "aliases": ["discurso en el Monte de los Olivos", "Matthew 24 discourse"]},
+    {"name": "Sermon on the Mount", "type": "event", "aliases": ["Sermón del Monte", "Beatitudes sermon", "Matthew 5-7"]},
+    {"name": "Transfiguration", "type": "event", "aliases": ["la transfiguración", "Mount of Transfiguration"]},
+    {"name": "Farewell Discourse", "type": "event", "aliases": ["Discurso de Despedida", "John 14-17", "Upper Room Discourse"]}
+  ],
+  "relations": [
+    {"from_name": "Matthew 3:13-17", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 1:9-11", "to_type": "scripture_reference", "source_ref": "Baptism of Jesus — 3-gospel parallel"},
+    {"from_name": "Matthew 3:13-17", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 3:21-22", "to_type": "scripture_reference", "source_ref": "Baptism of Jesus — 3-gospel parallel"},
+
+    {"from_name": "Matthew 4:1-11", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 1:12-13", "to_type": "scripture_reference", "source_ref": "Temptation of Jesus — 3-gospel parallel"},
+    {"from_name": "Matthew 4:1-11", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 4:1-13", "to_type": "scripture_reference", "source_ref": "Temptation of Jesus — 3-gospel parallel"},
+
+    {"from_name": "Matthew 5-7", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 6:20-49", "to_type": "scripture_reference", "source_ref": "Sermon on the Mount / Sermon on the Plain — Matt: mountain; Luke: plain; overlapping Beatitudes"},
+
+    {"from_name": "Matthew 10:1-4", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 3:13-19", "to_type": "scripture_reference", "source_ref": "Call of the Twelve Apostles"},
+    {"from_name": "Matthew 10:1-4", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 6:12-16", "to_type": "scripture_reference", "source_ref": "Call of the Twelve Apostles"},
+
+    {"from_name": "Matthew 13:1-23", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 4:1-20", "to_type": "scripture_reference", "source_ref": "Parable of the Sower"},
+    {"from_name": "Matthew 13:1-23", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 8:4-15", "to_type": "scripture_reference", "source_ref": "Parable of the Sower"},
+
+    {"from_name": "Matthew 14:13-21", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 6:30-44", "to_type": "scripture_reference", "source_ref": "Feeding of the Five Thousand — only miracle in all 4 gospels"},
+    {"from_name": "Matthew 14:13-21", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 9:10-17", "to_type": "scripture_reference", "source_ref": "Feeding of the Five Thousand"},
+    {"from_name": "Matthew 14:13-21", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 6:1-14", "to_type": "scripture_reference", "source_ref": "Feeding of the Five Thousand — John adds eucharistic discourse (John 6:35-58)"},
+
+    {"from_name": "Matthew 16:13-20", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 8:27-30", "to_type": "scripture_reference", "source_ref": "Peter's Confession at Caesarea Philippi"},
+    {"from_name": "Matthew 16:13-20", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 9:18-21", "to_type": "scripture_reference", "source_ref": "Peter's Confession at Caesarea Philippi"},
+
+    {"from_name": "Matthew 17:1-9", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 9:2-9", "to_type": "scripture_reference", "source_ref": "Transfiguration"},
+    {"from_name": "Matthew 17:1-9", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 9:28-36", "to_type": "scripture_reference", "source_ref": "Transfiguration"},
+
+    {"from_name": "Matthew 20:29-34", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 10:46-52", "to_type": "scripture_reference", "source_ref": "Healing of Blind Bartimaeus near Jericho"},
+    {"from_name": "Matthew 20:29-34", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 18:35-43", "to_type": "scripture_reference", "source_ref": "Healing of Blind Bartimaeus near Jericho"},
+
+    {"from_name": "Matthew 21:1-11", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 11:1-11", "to_type": "scripture_reference", "source_ref": "Triumphal Entry into Jerusalem"},
+    {"from_name": "Matthew 21:1-11", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 19:28-44", "to_type": "scripture_reference", "source_ref": "Triumphal Entry into Jerusalem"},
+    {"from_name": "Matthew 21:1-11", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 12:12-19", "to_type": "scripture_reference", "source_ref": "Triumphal Entry into Jerusalem"},
+
+    {
+      "from_name": "Matthew 21:12-17",
+      "from_type": "scripture_reference",
+      "rel_type": "PARALLEL_ACCOUNT_OF",
+      "to_name": "John 2:13-22",
+      "to_type": "scripture_reference",
+      "source_ref": "Cleansing of the Temple — NOTE: John places this at the START of ministry (ch.2); Synoptics place it in Passion Week. Theologically significant divergence."
+    },
+    {"from_name": "Matthew 21:12-17", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 11:15-19", "to_type": "scripture_reference", "source_ref": "Cleansing of the Temple (Passion Week placement)"},
+    {"from_name": "Matthew 21:12-17", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 19:45-48", "to_type": "scripture_reference", "source_ref": "Cleansing of the Temple (Passion Week placement)"},
+
+    {"from_name": "Matthew 24:1-51", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 13:1-37", "to_type": "scripture_reference", "source_ref": "Olivet Discourse — signs of Second Coming"},
+    {"from_name": "Matthew 24:1-51", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 21:5-36", "to_type": "scripture_reference", "source_ref": "Olivet Discourse — signs of Second Coming"},
+
+    {"from_name": "Matthew 26:6-13", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 14:3-9", "to_type": "scripture_reference", "source_ref": "Anointing of Jesus at Bethany (Passion Week)"},
+    {"from_name": "Matthew 26:6-13", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 12:1-8", "to_type": "scripture_reference", "source_ref": "Anointing of Jesus by Mary of Bethany"},
+
+    {"from_name": "Matthew 26:17-30", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 14:12-26", "to_type": "scripture_reference", "source_ref": "Last Supper / Institution of the Sacrament"},
+    {"from_name": "Matthew 26:17-30", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 22:7-23", "to_type": "scripture_reference", "source_ref": "Last Supper / Institution of the Sacrament"},
+
+    {"from_name": "Matthew 26:31-35", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 14:27-31", "to_type": "scripture_reference", "source_ref": "Prediction of Peter's Denial"},
+    {"from_name": "Matthew 26:31-35", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 22:31-34", "to_type": "scripture_reference", "source_ref": "Prediction of Peter's Denial"},
+    {"from_name": "Matthew 26:31-35", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 13:36-38", "to_type": "scripture_reference", "source_ref": "Prediction of Peter's Denial — John places it in Farewell Discourse"},
+
+    {"from_name": "Matthew 26:36-46", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 14:32-42", "to_type": "scripture_reference", "source_ref": "Gethsemane — agony and prayer"},
+    {"from_name": "Matthew 26:36-46", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 22:39-46", "to_type": "scripture_reference", "source_ref": "Gethsemane — Luke adds 'angel strengthening him' (v.43)"},
+
+    {"from_name": "Matthew 26:47-56", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 14:43-52", "to_type": "scripture_reference", "source_ref": "Arrest in Gethsemane"},
+    {"from_name": "Matthew 26:47-56", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 22:47-53", "to_type": "scripture_reference", "source_ref": "Arrest in Gethsemane"},
+    {"from_name": "Matthew 26:47-56", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 18:2-12", "to_type": "scripture_reference", "source_ref": "Arrest in Gethsemane"},
+
+    {"from_name": "Matthew 26:69-75", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 14:66-72", "to_type": "scripture_reference", "source_ref": "Peter's Denial"},
+    {"from_name": "Matthew 26:69-75", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 22:54-62", "to_type": "scripture_reference", "source_ref": "Peter's Denial"},
+    {"from_name": "Matthew 26:69-75", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 18:15-27", "to_type": "scripture_reference", "source_ref": "Peter's Denial"},
+
+    {"from_name": "Matthew 27:11-26", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 15:1-15", "to_type": "scripture_reference", "source_ref": "Trial before Pilate"},
+    {"from_name": "Matthew 27:11-26", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 23:1-25", "to_type": "scripture_reference", "source_ref": "Trial before Pilate"},
+    {"from_name": "Matthew 27:11-26", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 18:28-19:16", "to_type": "scripture_reference", "source_ref": "Trial before Pilate — John most detailed (6 scenes between Pilate and accusers)"},
+
+    {"from_name": "Matthew 27:32-56", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 15:21-41", "to_type": "scripture_reference", "source_ref": "Crucifixion"},
+    {"from_name": "Matthew 27:32-56", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 23:26-49", "to_type": "scripture_reference", "source_ref": "Crucifixion — Luke adds 'Father forgive them' and dialogue with thieves"},
+    {"from_name": "Matthew 27:32-56", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 19:17-30", "to_type": "scripture_reference", "source_ref": "Crucifixion — John adds care for Mary and 'I thirst'"},
+
+    {"from_name": "Matthew 27:57-61", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 15:42-47", "to_type": "scripture_reference", "source_ref": "Burial of Jesus"},
+    {"from_name": "Matthew 27:57-61", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 23:50-56", "to_type": "scripture_reference", "source_ref": "Burial of Jesus"},
+    {"from_name": "Matthew 27:57-61", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 19:38-42", "to_type": "scripture_reference", "source_ref": "Burial of Jesus — John adds Nicodemus bringing spices"},
+
+    {"from_name": "Matthew 28:1-10", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Mark 16:1-8", "to_type": "scripture_reference", "source_ref": "Empty Tomb / Resurrection Morning"},
+    {"from_name": "Matthew 28:1-10", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "Luke 24:1-12", "to_type": "scripture_reference", "source_ref": "Empty Tomb / Resurrection Morning"},
+    {"from_name": "Matthew 28:1-10", "from_type": "scripture_reference", "rel_type": "PARALLEL_ACCOUNT_OF", "to_name": "John 20:1-18", "to_type": "scripture_reference", "source_ref": "Empty Tomb / Resurrection Morning — John adds Mary Magdalene's encounter with the risen Christ"},
+
+    {"from_name": "Luke 1:26-38", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Mary, mother of Jesus", "to_type": "person", "source_ref": "Annunciation to Mary — Luke-unique; no Synoptic parallel"},
+    {"from_name": "Luke 2:1-20", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Jesus Christ", "to_type": "person", "source_ref": "Birth of Jesus / Shepherds — Luke-unique birth narrative"},
+    {"from_name": "Luke 24:13-35", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Jesus Christ", "to_type": "person", "source_ref": "Road to Emmaus — Luke-unique post-resurrection appearance"},
+    {"from_name": "Matthew 2:1-23", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Jesus Christ", "to_type": "person", "source_ref": "Magi / Flight to Egypt — Matthew-unique infancy narrative"},
+    {"from_name": "John 1:1-18", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Jesus Christ", "to_type": "person", "source_ref": "Logos Prologue — John-unique; highest Christological density in any Gospel opening"},
+    {"from_name": "John 3:1-21", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Nicodemus", "to_type": "person", "source_ref": "Nicodemus / Born Again — John-unique; John 3:5 and 3:16 are Doctrinal Mastery passages"},
+    {"from_name": "John 11:1-46", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Lazarus", "to_type": "person", "source_ref": "Raising of Lazarus — John-unique; longest pre-Passion miracle narrative"},
+    {"from_name": "John 14-17", "from_type": "scripture_reference", "rel_type": "DESCRIBED_BY", "to_name": "Farewell Discourse", "to_type": "event", "source_ref": "Farewell Discourse + Intercessory Prayer — John-unique; no Synoptic parallel; includes John 14:15, 17:3 (Doctrinal Mastery)"}
+  ]
+}

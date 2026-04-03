@@ -1,0 +1,106 @@
+{
+  "name": "Teachings of Presidents of the Church",
+  "corpus_pattern": "*/manuals/teachings-of-presidents/*",
+  "confidence": "curated",
+  "description": "17 volúmenes (1997–2025), uno por Presidente de la Iglesia. Citas directas del profeta organizadas temáticamente. La fuente más sistemática de relaciones 'profeta→doctrina' del corpus. Cada volumen incluye un capítulo explícito sobre Joseph Smith. Los volumes de Woodruff tienen fechas exactas de diario. Nota: citas de Joseph Smith son editorial-reconstructed (confianza: metadata, no curated).",
+  "entities": [
+    {"name": "Teachings of Presidents of the Church", "type": "program", "aliases": ["Enseñanzas de los Presidentes de la Iglesia", "ToP series"]},
+    {"name": "Teachings of Presidents: Brigham Young", "type": "work", "aliases": ["ToP Brigham Young"]},
+    {"name": "Teachings of Presidents: John Taylor", "type": "work", "aliases": ["ToP John Taylor"]},
+    {"name": "Teachings of Presidents: Wilford Woodruff", "type": "work", "aliases": ["ToP Wilford Woodruff"]},
+    {"name": "Teachings of Presidents: Joseph Smith", "type": "work", "aliases": ["ToP Joseph Smith"]},
+    {"name": "Teachings of Presidents: Spencer W. Kimball", "type": "work", "aliases": ["ToP Spencer W. Kimball"]},
+    {"name": "Teachings of Presidents: Gordon B. Hinckley", "type": "work", "aliases": ["ToP Gordon B. Hinckley"]},
+    {"name": "Teachings of Presidents: Russell M. Nelson", "type": "work", "aliases": ["ToP Russell M. Nelson"]}
+  ],
+  "relations": [
+    {"from_name": "Teachings of Presidents: Brigham Young", "from_type": "work", "rel_type": "PART_OF", "to_name": "Teachings of Presidents of the Church", "to_type": "program", "source_ref": "ToP series"},
+    {"from_name": "Teachings of Presidents: John Taylor", "from_type": "work", "rel_type": "PART_OF", "to_name": "Teachings of Presidents of the Church", "to_type": "program", "source_ref": "ToP series"},
+    {"from_name": "Teachings of Presidents: Wilford Woodruff", "from_type": "work", "rel_type": "PART_OF", "to_name": "Teachings of Presidents of the Church", "to_type": "program", "source_ref": "ToP series"},
+    {"from_name": "Teachings of Presidents: Joseph Smith", "from_type": "work", "rel_type": "PART_OF", "to_name": "Teachings of Presidents of the Church", "to_type": "program", "source_ref": "ToP series"},
+    {"from_name": "Brigham Young", "from_type": "person", "rel_type": "AUTHORED", "to_name": "Teachings of Presidents: Brigham Young", "to_type": "work", "source_ref": "ToP Brigham Young — source anthology"},
+    {"from_name": "John Taylor", "from_type": "person", "rel_type": "AUTHORED", "to_name": "Teachings of Presidents: John Taylor", "to_type": "work", "source_ref": "ToP John Taylor — source anthology"},
+    {"from_name": "Wilford Woodruff", "from_type": "person", "rel_type": "AUTHORED", "to_name": "Teachings of Presidents: Wilford Woodruff", "to_type": "work", "source_ref": "ToP Wilford Woodruff — source anthology"},
+    {"from_name": "Joseph Smith", "from_type": "person", "rel_type": "AUTHORED", "to_name": "Teachings of Presidents: Joseph Smith", "to_type": "work", "source_ref": "ToP Joseph Smith — editorial-reconstructed anthology (confidence: metadata)"},
+    {
+      "from_name": "Brigham Young",
+      "from_type": "person",
+      "rel_type": "SUCCEEDED",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "ToP Brigham Young ch. 47; Our Heritage ch. 6 — sustained as President 1844"
+    },
+    {
+      "from_name": "John Taylor",
+      "from_type": "person",
+      "rel_type": "SUCCEEDED",
+      "to_name": "Brigham Young",
+      "to_type": "person",
+      "source_ref": "ToP John Taylor — historical summary"
+    },
+    {
+      "from_name": "Wilford Woodruff",
+      "from_type": "person",
+      "rel_type": "SUCCEEDED",
+      "to_name": "John Taylor",
+      "to_type": "person",
+      "source_ref": "ToP Wilford Woodruff — historical summary"
+    },
+    {
+      "from_name": "John Taylor",
+      "from_type": "person",
+      "rel_type": "WITNESSED",
+      "to_name": "Martyrdom of Joseph and Hyrum Smith",
+      "to_type": "event",
+      "source_ref": "ToP John Taylor — Taylor was present and wounded at Carthage Jail, June 27 1844"
+    },
+    {
+      "from_name": "Wilford Woodruff",
+      "from_type": "person",
+      "rel_type": "AUTHORIZED",
+      "to_name": "Official Declaration 1",
+      "to_type": "document",
+      "source_ref": "ToP Wilford Woodruff ch. 19 'Following the Living Prophet'; issued Sep 25 1890"
+    },
+    {
+      "from_name": "John Taylor",
+      "from_type": "person",
+      "rel_type": "TESTIFIED_OF",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "ToP John Taylor ch. 9 — explicit testimony chapter on Joseph Smith"
+    },
+    {
+      "from_name": "Brigham Young",
+      "from_type": "person",
+      "rel_type": "TESTIFIED_OF",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "ToP Brigham Young ch. 47 — explicit Joseph Smith testimony chapter"
+    },
+    {
+      "from_name": "Wilford Woodruff",
+      "from_type": "person",
+      "rel_type": "TESTIFIED_OF",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "ToP Wilford Woodruff ch. 2 — explicit Joseph Smith testimony chapter"
+    },
+    {
+      "from_name": "Wilford Woodruff",
+      "from_type": "person",
+      "rel_type": "TAUGHT",
+      "to_name": "Temple and Family History",
+      "to_type": "concept",
+      "source_ref": "ToP Wilford Woodruff ch. 17-18 'Saviors on Mount Zion' — most detailed proxy-ordinance treatment in the series"
+    },
+    {
+      "from_name": "Brigham Young",
+      "from_type": "person",
+      "rel_type": "LED",
+      "to_name": "Pioneer Trek",
+      "to_type": "event",
+      "source_ref": "ToP Brigham Young ch. 15-16 — settlement in the West"
+    }
+  ]
+}

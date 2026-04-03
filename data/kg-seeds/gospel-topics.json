@@ -1,0 +1,84 @@
+{
+  "name": "Gospel Topics (Encyclopedia)",
+  "corpus_pattern": "*/manuals/gospel-topics/*",
+  "confidence": "curated",
+  "description": "~400 entradas de referencia enciclopédica sobre temas del evangelio. Autoridad=65 (más alta que manuales estándar). Es la referencia doctrinal oficial de la Iglesia para temas individuales. Cada entrada es un artículo conciso con definición, escrituras de apoyo, y citas de GAs. El KG lo usa como nodo autoritativo para conceptos doctrinales — si una doctrina está aquí, es oficial.",
+  "entities": [
+    {"name": "Gospel Topics", "type": "work", "aliases": ["Temas del Evangelio", "Gospel Topics encyclopedia", "Gospel Topics reference"]},
+    {"name": "Plan of Salvation", "type": "concept", "aliases": ["plan of happiness", "plan of redemption", "Plan de Salvación", "great plan of happiness"]},
+    {"name": "Grace", "type": "concept", "aliases": ["gracia (evangelio)", "divine grace", "grace of Christ"]},
+    {"name": "Priesthood", "type": "concept", "aliases": ["sacerdocio", "Aaronic Priesthood", "Melchizedek Priesthood"]},
+    {"name": "Temple Ordinances", "type": "concept", "aliases": ["ordinanzas del templo", "temple endowment", "temple rites"]},
+    {"name": "Tithing", "type": "concept", "aliases": ["diezmo", "law of tithing", "D&C 119"]},
+    {"name": "Word of Wisdom", "type": "concept", "aliases": ["Palabra de Sabiduría", "D&C 89", "health code"]},
+    {"name": "Fast and Testimony Meeting", "type": "concept", "aliases": ["reunión de ayuno y testimonio", "fast Sunday"]},
+    {"name": "Sabbath Day", "type": "concept", "aliases": ["día de reposo", "Sunday observance", "Lord's Day"]},
+    {"name": "Prayer", "type": "concept", "aliases": ["oración", "personal prayer", "family prayer"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Plan of Salvation",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Gospel Topics",
+      "to_type": "work",
+      "source_ref": "Gospel Topics 'Plan of Salvation' entry — official doctrinal summary"
+    },
+    {
+      "from_name": "Grace",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "2 Nephi 25:23",
+      "to_type": "scripture_reference",
+      "source_ref": "Gospel Topics 'Grace' — 'it is by grace that we are saved, after all we can do'"
+    },
+    {
+      "from_name": "Word of Wisdom",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "D&C 89:18-21",
+      "to_type": "scripture_reference",
+      "source_ref": "Gospel Topics 'Word of Wisdom' — blessings promised for obedience"
+    },
+    {
+      "from_name": "Tithing",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "D&C 119",
+      "to_type": "scripture_reference",
+      "source_ref": "Gospel Topics 'Tithing' — law of tithing as revealed to Joseph Smith"
+    },
+    {
+      "from_name": "Tithing",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Malachi 3:10",
+      "to_type": "scripture_reference",
+      "source_ref": "Gospel Topics 'Tithing' — 'bring ye all the tithes into the storehouse'"
+    },
+    {
+      "from_name": "Temple Ordinances",
+      "from_type": "concept",
+      "rel_type": "PREREQUISITE_FOR",
+      "to_name": "Exaltation",
+      "to_type": "concept",
+      "source_ref": "Gospel Topics 'Temple Ordinances' — saving ordinances required for exaltation"
+    },
+    {
+      "from_name": "Priesthood",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "D&C 84:33-39",
+      "to_type": "scripture_reference",
+      "source_ref": "Gospel Topics 'Priesthood' — oath and covenant of the priesthood"
+    },
+    {
+      "from_name": "Sabbath Day",
+      "from_type": "concept",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "D&C 59:9-10",
+      "to_type": "scripture_reference",
+      "source_ref": "Gospel Topics 'Sabbath' — modern observance revelation; Doctrinal Mastery passage"
+    }
+  ]
+}

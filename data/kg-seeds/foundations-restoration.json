@@ -1,0 +1,69 @@
+{
+  "name": "Foundations of the Restoration (Institute)",
+  "corpus_pattern": "*/manuals/institute/foundations-of-restoration/*",
+  "confidence": "curated",
+  "description": "Manual de instituto Religion 225 (2019), ~30 lecciones. Cornerstone course sobre la Restauración: Primera Visión, Apostasía, restauración del sacerdocio, salida del LdM, organización de la Iglesia. Complemento académico directo de Our Heritage y Saints Vol. 1. Alta densidad de relaciones históricas con fechas y personas de la era de la Restauración.",
+  "entities": [
+    {"name": "Foundations of the Restoration", "type": "work", "aliases": ["Religion 225", "Foundations of the Restoration Institute Manual"]},
+    {"name": "Great Apostasy", "type": "concept", "aliases": ["apostasía general", "falling away", "loss of priesthood authority"]},
+    {"name": "Restoration of the Gospel", "type": "event", "aliases": ["Restauración del evangelio", "Restoration (LDS)", "the Restoration"]}
+  ],
+  "relations": [
+    {
+      "from_name": "Great Apostasy",
+      "from_type": "concept",
+      "rel_type": "PRECEDED_BY",
+      "to_name": "Restoration of the Gospel",
+      "to_type": "event",
+      "source_ref": "Foundations of the Restoration — the Apostasy as necessary precondition for the Restoration; 2 Thess. 2:1-3; Amos 3:7"
+    },
+    {
+      "from_name": "Joseph Smith",
+      "from_type": "person",
+      "rel_type": "DESCRIBED_IN",
+      "to_name": "First Vision",
+      "to_type": "event",
+      "source_ref": "Foundations of the Restoration — multiple lessons on the First Vision accounts (1820)"
+    },
+    {
+      "from_name": "John the Baptist",
+      "from_type": "person",
+      "rel_type": "RESTORED",
+      "to_name": "Aaronic Priesthood",
+      "to_type": "concept",
+      "source_ref": "Foundations of the Restoration; D&C 13 — May 15 1829, Susquehanna River"
+    },
+    {
+      "from_name": "Peter",
+      "from_type": "person",
+      "rel_type": "RESTORED",
+      "to_name": "Melchizedek Priesthood",
+      "to_type": "concept",
+      "source_ref": "Foundations of the Restoration; D&C 27:12-13 — June 1829, Peter James and John"
+    },
+    {
+      "from_name": "Book of Mormon",
+      "from_type": "work",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Moroni",
+      "to_type": "person",
+      "source_ref": "Foundations of the Restoration — Moroni delivered plates to Joseph Smith; September 21 1823 first visit"
+    },
+    {
+      "from_name": "Church of Jesus Christ of Latter-day Saints",
+      "from_type": "organization",
+      "rel_type": "FOUNDED_BY",
+      "to_name": "Joseph Smith",
+      "to_type": "person",
+      "source_ref": "Foundations of the Restoration; D&C 20 — organized April 6 1830, Fayette, New York"
+    },
+    {
+      "from_name": "Restoration of the Gospel",
+      "from_type": "event",
+      "rel_type": "DESCRIBED_BY",
+      "to_name": "Isaiah 29:13-14",
+      "to_type": "scripture_reference",
+      "source_ref": "Foundations of the Restoration — Isaiah's prophecy of a 'marvelous work and a wonder' as Restoration prophecy"
+    }
+  ]
+}
