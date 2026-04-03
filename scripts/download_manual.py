@@ -92,8 +92,8 @@ _CFM_SLUGS = {
     2026: ("come-follow-me-for-home-and-church-old-testament-2026", "Old Testament"),
     2025: ("come-follow-me-for-home-and-church-doctrine-and-covenants-2025", "Doctrine and Covenants"),
     2024: ("come-follow-me-for-home-and-church-book-of-mormon-2024", "Book of Mormon"),
-    2023: ("come-follow-me-for-home-and-church-new-testament-2023", "New Testament"),
-    # 2019-2022: "for-individuals-and-families" branding (earlier naming convention)
+    2023: ("come-follow-me-for-individuals-and-families-new-testament-2023", "New Testament"),
+    # 2019-2023: "for-individuals-and-families" branding (earlier naming convention)
     2022: ("come-follow-me-for-individuals-and-families-old-testament-2022", "Old Testament"),
     2021: ("come-follow-me-for-individuals-and-families-doctrine-and-covenants-2021", "Doctrine and Covenants"),
     2020: ("come-follow-me-for-individuals-and-families-book-of-mormon-2020", "Book of Mormon"),
@@ -212,7 +212,7 @@ _STATIC_MANUALS: list[ManualConfig] = [
     ),
     ManualConfig(
         key="our-heritage",
-        slug="our-heritage-a-brief-history-of-the-church",
+        slug="our-heritage",
         book="Our Heritage: A Brief History of the Church",
         output_subdir="manuals/our-heritage",
         authority=60,

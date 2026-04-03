@@ -98,6 +98,67 @@ _USAGE_GUIDES = [
 # Hymn attribute extraction
 # ═══════════════════════════════════════════════════════════════════════════
 
+def extract_lyrics_text(html: str) -> str:
+    """Extract hymn/song lyrics from HTML as structured plain text.
+
+    The generic html_to_structured_text() removes <figure> elements (to skip
+    image captions), but hymn pages wrap all lyrics in <figure class="music">.
+    This function extracts stanzas directly before falling back to prose conversion.
+
+    Output format:
+        {hymn_number}
+
+        # {title}
+
+        1. First line of verse one
+        Second line of verse one
+
+        2. First line of verse two
+        ...
+
+        {scripture_refs}
+    """
+    soup = BeautifulSoup(html, "html.parser")
+
+    parts: list[str] = []
+
+    # Hymn number
+    num_el = soup.find(class_=re.compile(r"song-number", re.I))
+    if num_el:
+        parts.append(num_el.get_text(strip=True))
+
+    # Title
+    title_el = soup.find("h1")
+    if title_el:
+        parts.append(f"# {title_el.get_text(strip=True)}")
+
+    # Stanzas from figure.music or div.poetry
+    music_block = soup.find("figure", class_=re.compile(r"music", re.I)) or soup.find(class_=re.compile(r"poetry|stanza", re.I))
+    if music_block:
+        for stanza in music_block.find_all(class_=re.compile(r"stanza", re.I)):
+            lines = []
+            for line_el in stanza.find_all(class_=re.compile(r"^line$", re.I)):
+                lines.append(line_el.get_text(" ", strip=True))
+            if lines:
+                parts.append("\n".join(lines))
+    else:
+        # Fallback: try any p.line elements
+        for line_el in soup.find_all("p", class_=re.compile(r"^line$", re.I)):
+            parts.append(line_el.get_text(" ", strip=True))
+
+    # Scripture refs (linked)
+    refs = []
+    for a in soup.find_all("a", href=True):
+        if "/study/scriptures/" in a["href"]:
+            ref = a.get_text(strip=True)
+            if ref and ref not in refs:
+                refs.append(ref)
+    if refs:
+        parts.extend(refs)
+
+    return "\n\n".join(p for p in parts if p)
+
+
 @dataclass
 class HymnAttributes:
     """Rich metadata extracted from a hymn/song page."""
@@ -327,13 +388,8 @@ def download_hymn_collection(
             stats.errors += 1
             continue
 
-        # Convert HTML to structured text (lyrics + prose)
-        try:
-            text = html_to_structured_text(page.body_html)
-        except RuntimeError as e:
-            logger.warning("  [%d/%d] pandoc failed for %s: %s", i, len(entries), slug, e)
-            stats.errors += 1
-            continue
+        # Extract lyrics (hymn pages use figure.music which html_to_structured_text removes)
+        text = extract_lyrics_text(page.body_html)
 
         if not text.strip():
             logger.warning("  [%d/%d] empty text: %s", i, len(entries), slug)
