@@ -6,6 +6,8 @@ type: feedback
 
 Never use a catch-all exclusion for `data/` in `.gitignore`. All assets in `data/` must be tracked for disaster recovery when switching machines.
 
+Also: project memory must be written to `docs/project-memory/` (in repo) as the primary location — not only to `~/.claude/...`. See CLAUDE.md "Project Memory" section for the dual-write protocol.
+
 **Why:** User explicitly requires that nothing be lost on a machine change. A `data/*` wildcard silently excluded kg-seeds, scrape checkpoints, and other hard-to-rebuild assets.
 
 **How to apply:** Only exclude specific large generated artifacts:
