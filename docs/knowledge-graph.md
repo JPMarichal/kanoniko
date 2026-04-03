@@ -50,6 +50,14 @@ Entity nodes have properties:
 | `conference` | General conference event (biannual, Apr/Oct) | General Conference October 2024 |
 | `scripture_reference` | Specific scripture citation | Matthew 13:45–46, D&C 19:16 |
 
+**Structured metadata entities (music, corpus with meta.json):**
+
+| Type | Description | Examples |
+|------|-------------|---------|
+| `work` | Named work (hymn, chapter, essay) | Come, Come, Ye Saints; Jesus the Christ Ch. 1 |
+| `event` | A historical or narrative event | Baptism of Jesus; Death of David; Fall of Jerusalem |
+| `period` | A named time span or date | 1095 B.C.; A.D. 33; Babylonian Captivity |
+
 ### Relationship Types
 
 **Core relations:**
@@ -73,6 +81,25 @@ Entity nodes have properties:
 | `CITES` | Talk → Scripture reference (with note_context, date props) |
 | `DELIVERED_BY` | Talk → Person (with calling, date props) |
 | `PART_OF` | Talk → Conference event |
+
+**Structured metadata (music, manuals, study aids — via meta.json):**
+
+| Relation | Source field | Description |
+|----------|-------------|-------------|
+| `AUTHORED_BY` | `author` | Work → Person (text/lyrics author) |
+| `COMPOSED_BY` | `composer` | Work → Person (music composer) |
+| `HAS_TUNE` | `tune` | Work → Concept (tune name) |
+| `ASSOCIATED_WITH` | `occasion` | Work → Concept (liturgical occasion or topic) |
+| `PART_OF` | `book` | Work → Work (chapter within parent volume) |
+| `CITES` | `scripture_refs` | Work → ScriptureReference (×N) |
+| `DESCRIBED_IN` | `parallel_events[].matthew` etc. | Event → ScriptureReference (Harmony of Gospels) |
+| `PARALLEL_ACCOUNT_OF` | `parallel_events` (cross-column) | ScriptureRef → ScriptureRef (same event, different volume) |
+| `OCCURRED_DURING` | `events[].date` | Event → Period (Bible Chronology) |
+| `PRECEDED_BY` | `events` (time-ordered) | Event → Event (consecutive in chronology) |
+
+These relations are created by `_enrich_kg_from_meta()` at index time from companion `.meta.json` fields — no NER required. Confidence: `metadata`.
+
+**Rule:** Every new meta.json field that carries structural knowledge MUST have a handler in `_enrich_kg_from_meta`. See `docs/download-scripts.md` for the full preparation checklist.
 
 **Organizational (handbook):**
 
@@ -133,6 +160,11 @@ After a full corpus indexing (including ~6,900 conference talks):
 - `ConferenceParser` (`conference_parser.py`): Conference talk HTML parser
   - Extracts title, author (prefix-stripped), calling (normalized), date, content, notes, scripture refs
   - Pipeline creates CITES, DELIVERED_BY, and CALLED_AS relations per talk
+- `_enrich_kg_from_meta()` (`pipeline.py`): Module-level function — the single entry point for all meta.json → KG enrichment
+  - Reads `author`, `composer`, `tune`, `occasion` from companion `.meta.json`
+  - Creates `work` entity + AUTHORED_BY, COMPOSED_BY, HAS_TUNE, ASSOCIATED_WITH relations
+  - Called once per document during both incremental indexing and `rebuild_kg`
+  - Confidence: `metadata` — downstream from `curated`, upstream from NER
 
 ## API Endpoints
 

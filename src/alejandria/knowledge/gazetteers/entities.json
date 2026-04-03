@@ -284,6 +284,10 @@
       "aliases": []
     },
     {
+      "name": "John Taylor",
+      "aliases": ["President Taylor"]
+    },
+    {
       "name": "Wilford Woodruff",
       "aliases": []
     },
@@ -292,8 +296,44 @@
       "aliases": []
     },
     {
+      "name": "Heber J. Grant",
+      "aliases": ["President Grant", "Heber Grant"]
+    },
+    {
+      "name": "George Albert Smith",
+      "aliases": ["President George Albert Smith"]
+    },
+    {
+      "name": "David O. McKay",
+      "aliases": ["President McKay", "David McKay"]
+    },
+    {
+      "name": "Joseph F. Smith",
+      "aliases": ["President Joseph F. Smith"]
+    },
+    {
+      "name": "Harold B. Lee",
+      "aliases": ["President Lee", "Harold Lee"]
+    },
+    {
+      "name": "Howard W. Hunter",
+      "aliases": ["President Hunter", "Howard Hunter"]
+    },
+    {
       "name": "Spencer W. Kimball",
       "aliases": []
+    },
+    {
+      "name": "Joseph Fielding Smith",
+      "aliases": ["President Smith", "JFS"]
+    },
+    {
+      "name": "Ezra Taft Benson",
+      "aliases": ["President Benson", "ETB"]
+    },
+    {
+      "name": "James E. Talmage",
+      "aliases": ["Talmage", "Elder Talmage", "James Edward Talmage"]
     },
     {
       "name": "Gordon B. Hinckley",
@@ -12564,6 +12604,33 @@
       "name": "Narrative/Cosmology",
       "aliases": [
         "Narrativa/Cosmologia"
+      ]
+    },
+    {
+      "name": "Endure to End",
+      "aliases": [
+        "Enduring to the End",
+        "Perseverar hasta el Fin",
+        "Endure to the End",
+        "Endurance"
+      ]
+    },
+    {
+      "name": "First Principles",
+      "aliases": [
+        "First Principles and Ordinances",
+        "Primeros Principios",
+        "Primeros Principios y Ordenanzas",
+        "First Principles of the Gospel"
+      ]
+    },
+    {
+      "name": "Testimony",
+      "aliases": [
+        "Spiritual Testimony",
+        "Testimonio",
+        "Witness of the Holy Ghost",
+        "Testimony of Jesus Christ"
       ]
     }
   ],

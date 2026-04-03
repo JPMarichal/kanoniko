@@ -115,6 +115,7 @@ class _FileData:
     full_text: str
     vectors: object | None = None  # NDArray set in phase 2
     conference_talk: ConferenceTalk | None = None  # Parsed conference metadata
+    meta_json: dict | None = None  # Companion .meta.json content (music, manuals, etc.)
 
 
 class IngestionPipeline:
@@ -411,6 +412,15 @@ class IngestionPipeline:
                 len(disk_files) - len(to_process),
             )
 
+            # Apply KG seeds before processing — ensures research-phase knowledge
+            # is in the graph before NER extraction runs on individual files
+            if self._neo4j and self._kg_extractor:
+                seed_entities, seed_relations = _load_kg_seeds()
+                if seed_entities:
+                    self._neo4j.batch_merge_entities(seed_entities)
+                if seed_relations:
+                    self._neo4j.batch_merge_relations(seed_relations)
+
             # ── Phase 1 (CPU): Parse, chunk, FTS index, collect data ──
             logger.info("Phase 1/3: Parsing, chunking, FTS indexing...")
             file_data_list: list[_FileData] = []
@@ -561,6 +571,9 @@ class IngestionPipeline:
         base_meta["auth"] = auth_meta.to_dict()
         metadata_str = json.dumps(base_meta)
 
+        # Load companion meta.json for structured KG enrichment (music, manuals, etc.)
+        file_meta_json = _load_meta_json(rel_path, settings.corpus_path)
+
         # Index into FTS — collect chunk IDs for Qdrant
         chunk_ids: list[int] = []
         conn = self._textual.get_connection()
@@ -578,6 +591,7 @@ class IngestionPipeline:
             source=source, lang=lang, chunks=chunks, chunk_ids=chunk_ids,
             chunk_references=chunk_references, auth_meta=auth_meta, full_text=text,
             conference_talk=conference_talk,
+            meta_json=file_meta_json or None,
         )
 
     def _index_file_data(self, fd: _FileData) -> None:
@@ -732,6 +746,17 @@ class IngestionPipeline:
                             **({"date": ct.conference_date} if ct.conference_date else {}),
                         },
                     })
+
+            # Structured meta.json KG enrichment: author, composer, tune, occasion
+            # Handles music (hymns, songs) and other materials with rich metadata.
+            # Creates person/concept entities and typed relations from meta.json fields,
+            # complementing what NER extracts from text.
+            if fd.meta_json:
+                _enrich_kg_from_meta(
+                    fd.meta_json, fd.rel_path,
+                    batch_ents, batch_lnks, batch_rels,
+                    seen_ents, seen_lnks,
+                )
 
             self._neo4j.batch_merge_entities(batch_ents)
             self._neo4j.batch_link_entities_to_document(batch_lnks)
@@ -1015,6 +1040,15 @@ class IngestionPipeline:
         except Exception:
             logger.warning("Failed to load scripture structure — continuing without it", exc_info=True)
 
+        # Apply KG seeds — research-phase knowledge asserted before NER
+        # Seeds encode entities and relations discovered during corpus preparation.
+        # Applied here so they exist before NER runs, giving them priority.
+        seed_entities, seed_relations = _load_kg_seeds()
+        if seed_entities:
+            self._neo4j.batch_merge_entities(seed_entities)
+        if seed_relations:
+            self._neo4j.batch_merge_relations(seed_relations)
+
         # Read all chunks from SQLite
         conn = self._textual.get_connection()
         rows = conn.execute(
@@ -1072,11 +1106,20 @@ class IngestionPipeline:
             file_path = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
             text = row[2] if isinstance(row, (list, tuple)) else row["text"]
 
-            # Ensure document node exists
+            # Ensure document node exists + load meta.json once per document
             if file_path not in documents_seen:
                 source = _extract_source(file_path)
                 batch_documents.append({"file_path": file_path, "source": source})
                 documents_seen.add(file_path)
+                # Structured meta.json enrichment (author, composer, tune, occasion, etc.)
+                file_meta = _load_meta_json(file_path, settings.corpus_path)
+                if file_meta:
+                    _enrich_kg_from_meta(
+                        file_meta, file_path,
+                        batch_entities, batch_links, batch_relations,
+                        set(),  # dedup handled by batch_merge semantics in Neo4j
+                        set(),
+                    )
 
             # Extract entities and relations
             extraction = self._kg_extractor.extract(text, source_file=file_path)
@@ -1321,6 +1364,364 @@ class IngestionPipeline:
             self._neo4j.delete_document_relations(file_path)
         self._registry.delete(file_path)
         logger.info("Deleted from index: %s", file_path)
+
+
+def _enrich_kg_from_meta(
+    meta: dict,
+    file_path: str,
+    batch_ents: list[dict],
+    batch_lnks: list[dict],
+    batch_rels: list[dict],
+    seen_ents: set[tuple[str, str]],
+    seen_lnks: set[tuple[str, str, str]],
+) -> None:
+    """Enrich KG from structured meta.json fields.
+
+    Creates entities and typed relations that NER cannot reliably infer from text.
+    This is the ONLY path for KG knowledge derived from structured metadata —
+    it must be called for every indexed file that has a companion meta.json.
+
+    Supported fields and the relations they produce:
+
+      title (str)            → `work` node (anchor for all relations below)
+      author (str)           → work -[AUTHORED_BY]->  person
+      composer (str)         → work -[COMPOSED_BY]->  person
+      tune (str)             → work -[HAS_TUNE]->     concept
+      occasion (str)         → work -[ASSOCIATED_WITH]-> concept
+      book (str)             → work -[PART_OF]->      work  (parent volume)
+      scripture_refs (list)  → work -[CITES]-> scripture_reference (×N)
+
+      parallel_events (list) → Harmony of the Gospels structured table:
+                               event node per row;
+                               event -[DESCRIBED_IN]-> scripture_reference (per col)
+                               scripture_ref -[PARALLEL_ACCOUNT_OF]-> scripture_ref
+                               (upper-triangle cross-column pairs only)
+
+      events (list)          → Bible Chronology structured table:
+                               period node per date;
+                               event -[OCCURRED_DURING]-> period
+                               event -[PRECEDED_BY]-> previous_event (time-ordered)
+
+    To support a new structured meta.json field, add a handler here AND document
+    it in docs/download-scripts.md under "Campos KG soportados en _enrich_kg_from_meta".
+    """
+    import re as _re
+
+    title = meta.get("title", "")
+    if not title or not isinstance(title, str):
+        return  # Need a work title as the relation subject
+
+    work_key = (title, "work")
+    if work_key not in seen_ents:
+        seen_ents.add(work_key)
+        batch_ents.append({"name": title, "type": "work", "aliases": []})
+    work_lkey = (title, "work", file_path)
+    if work_lkey not in seen_lnks:
+        seen_lnks.add(work_lkey)
+        batch_lnks.append({"entity_name": title, "entity_type": "work", "file_path": file_path})
+
+    def _add_person(field: str, rel_type: str) -> None:
+        raw = meta.get(field, "")
+        if not raw or not isinstance(raw, str):
+            return
+        # Strip trailing year: "William W. Phelps, 1844" → "William W. Phelps"
+        name = _re.split(r",?\s*\d{4}", raw)[0].strip()
+        if len(name) < 3:
+            return
+        pkey = (name, "person")
+        if pkey not in seen_ents:
+            seen_ents.add(pkey)
+            batch_ents.append({"name": name, "type": "person", "aliases": []})
+        plkey = (name, "person", file_path)
+        if plkey not in seen_lnks:
+            seen_lnks.add(plkey)
+            batch_lnks.append({"entity_name": name, "entity_type": "person", "file_path": file_path})
+        batch_rels.append({
+            "from_name": title, "from_type": "work",
+            "rel_type": rel_type,
+            "to_name": name, "to_type": "person",
+            "props": {"confidence": "metadata", "source_field": field},
+        })
+
+    def _add_concept(field: str, rel_type: str) -> None:
+        value = meta.get(field, "")
+        if not value or not isinstance(value, str) or len(value) < 2:
+            return
+        ckey = (value, "concept")
+        if ckey not in seen_ents:
+            seen_ents.add(ckey)
+            batch_ents.append({"name": value, "type": "concept", "aliases": []})
+        clkey = (value, "concept", file_path)
+        if clkey not in seen_lnks:
+            seen_lnks.add(clkey)
+            batch_lnks.append({"entity_name": value, "entity_type": "concept", "file_path": file_path})
+        batch_rels.append({
+            "from_name": title, "from_type": "work",
+            "rel_type": rel_type,
+            "to_name": value, "to_type": "concept",
+            "props": {"confidence": "metadata", "source_field": field},
+        })
+
+    _add_person("author", "AUTHORED_BY")
+    _add_person("composer", "COMPOSED_BY")
+    _add_concept("tune", "HAS_TUNE")
+    _add_concept("occasion", "ASSOCIATED_WITH")
+
+    # book field: create a parent work node and a PART_OF relation
+    # e.g., "Chapter 1" -[PART_OF]-> "Jesus the Christ"
+    book = meta.get("book", "")
+    if book and isinstance(book, str) and len(book) >= 3 and book != title:
+        bkey = (book, "work")
+        if bkey not in seen_ents:
+            seen_ents.add(bkey)
+            batch_ents.append({"name": book, "type": "work", "aliases": []})
+        blkey = (book, "work", file_path)
+        if blkey not in seen_lnks:
+            seen_lnks.add(blkey)
+            batch_lnks.append({"entity_name": book, "entity_type": "work", "file_path": file_path})
+        batch_rels.append({
+            "from_name": title, "from_type": "work",
+            "rel_type": "PART_OF",
+            "to_name": book, "to_type": "work",
+            "props": {"confidence": "metadata"},
+        })
+
+    # scripture_refs: work -[CITES]-> scripture_reference
+    # Mirrors the conference-talk CITES enrichment for any corpus document
+    # that stores scripture references in meta.json (e.g., PME, study plans).
+    for ref in meta.get("scripture_refs", []):
+        if not isinstance(ref, str) or not ref.strip():
+            continue
+        ref_key = (ref, "scripture_reference")
+        if ref_key not in seen_ents:
+            seen_ents.add(ref_key)
+            batch_ents.append({"name": ref, "type": "scripture_reference", "aliases": []})
+        batch_rels.append({
+            "from_name": title, "from_type": "work",
+            "rel_type": "CITES",
+            "to_name": ref, "to_type": "scripture_reference",
+            "props": {"confidence": "metadata"},
+        })
+
+    # parallel_events: Harmony of the Gospels meta.json field.
+    # Each entry maps one gospel event to its refs across 4–5 gospel columns
+    # (matthew, mark, luke, john_lds). Creates:
+    #   - An `event` node per event
+    #   - event -[DESCRIBED_IN]-> scripture_reference (one per ref per column)
+    #   - scripture_reference -[PARALLEL_ACCOUNT_OF]-> scripture_reference
+    #     for every cross-column pair (same event, different volume)
+    for pe in meta.get("parallel_events", []):
+        ev_name = pe.get("event", "")
+        if not ev_name or not isinstance(ev_name, str):
+            continue
+
+        ev_key = (ev_name, "event")
+        if ev_key not in seen_ents:
+            seen_ents.add(ev_key)
+            batch_ents.append({
+                "name": ev_name, "type": "event",
+                "aliases": [],
+                **({"location": pe["location"]} if pe.get("location") else {}),
+            })
+        ev_lkey = (ev_name, "event", file_path)
+        if ev_lkey not in seen_lnks:
+            seen_lnks.add(ev_lkey)
+            batch_lnks.append({"entity_name": ev_name, "entity_type": "event",
+                                "file_path": file_path})
+
+        # Collect refs by column — skip non-column keys
+        gospel_cols = ("matthew", "mark", "luke", "john_lds")
+        cols_with_refs: list[tuple[str, list[str]]] = []
+        for col in gospel_cols:
+            refs = pe.get(col, [])
+            if not isinstance(refs, list):
+                continue
+            valid = [r for r in refs if isinstance(r, str) and r.strip()]
+            if valid:
+                cols_with_refs.append((col, valid))
+
+        # DESCRIBED_IN: event → each ref
+        for _col, refs in cols_with_refs:
+            for ref in refs:
+                rkey = (ref, "scripture_reference")
+                if rkey not in seen_ents:
+                    seen_ents.add(rkey)
+                    batch_ents.append({"name": ref, "type": "scripture_reference",
+                                       "aliases": []})
+                batch_rels.append({
+                    "from_name": ev_name, "from_type": "event",
+                    "rel_type": "DESCRIBED_IN",
+                    "to_name": ref, "to_type": "scripture_reference",
+                    "props": {"confidence": "metadata", "source": "harmony"},
+                })
+
+        # PARALLEL_ACCOUNT_OF: between refs in different gospel columns.
+        # Only assert A→B (not B→A) by iterating upper triangle of column pairs.
+        for i in range(len(cols_with_refs)):
+            for j in range(i + 1, len(cols_with_refs)):
+                _col_a, refs_a = cols_with_refs[i]
+                _col_b, refs_b = cols_with_refs[j]
+                for ref_a in refs_a:
+                    for ref_b in refs_b:
+                        batch_rels.append({
+                            "from_name": ref_a, "from_type": "scripture_reference",
+                            "rel_type": "PARALLEL_ACCOUNT_OF",
+                            "to_name": ref_b, "to_type": "scripture_reference",
+                            "props": {
+                                "confidence": "metadata",
+                                "event": ev_name,
+                                "source": "harmony",
+                            },
+                        })
+
+    # events: Bible Chronology meta.json field.
+    # Each entry has date, event description, optional synchronisms and persons.
+    # Creates:
+    #   - A `period` node per unique date string
+    #   - An `event` node per event
+    #   - event -[OCCURRED_DURING]-> period
+    #   - Consecutive events: event_N -[PRECEDED_BY]-> event_{N-1}
+    #     (ordered by date_sort; only within the same meta.json file)
+    chron_events = meta.get("events", [])
+    if chron_events:
+        # Sort by date_sort (int, negative = B.C.) for PRECEDED_BY chain
+        def _sort_key(e: dict) -> int:
+            ds = e.get("date_sort")
+            return ds if isinstance(ds, int) else 0
+
+        sorted_events = sorted(chron_events, key=_sort_key)
+        prev_ev_name: str = ""
+
+        for ce in sorted_events:
+            ev_desc = ce.get("event", "")
+            date_str = ce.get("date", "")
+            if not ev_desc or not isinstance(ev_desc, str):
+                continue
+
+            # Period node for this date
+            if date_str:
+                period_key = (date_str, "period")
+                if period_key not in seen_ents:
+                    seen_ents.add(period_key)
+                    batch_ents.append({"name": date_str, "type": "period", "aliases": []})
+                period_lkey = (date_str, "period", file_path)
+                if period_lkey not in seen_lnks:
+                    seen_lnks.add(period_lkey)
+                    batch_lnks.append({"entity_name": date_str, "entity_type": "period",
+                                       "file_path": file_path})
+
+            # Event node
+            chron_ev_key = (ev_desc, "event")
+            if chron_ev_key not in seen_ents:
+                seen_ents.add(chron_ev_key)
+                batch_ents.append({"name": ev_desc, "type": "event", "aliases": []})
+            ev_lkey2 = (ev_desc, "event", file_path)
+            if ev_lkey2 not in seen_lnks:
+                seen_lnks.add(ev_lkey2)
+                batch_lnks.append({"entity_name": ev_desc, "entity_type": "event",
+                                   "file_path": file_path})
+
+            # OCCURRED_DURING
+            if date_str:
+                batch_rels.append({
+                    "from_name": ev_desc, "from_type": "event",
+                    "rel_type": "OCCURRED_DURING",
+                    "to_name": date_str, "to_type": "period",
+                    "props": {"confidence": "metadata", "source": "bible-chronology"},
+                })
+
+            # PRECEDED_BY (chain: this event preceded by the previous one in time)
+            if prev_ev_name:
+                batch_rels.append({
+                    "from_name": ev_desc, "from_type": "event",
+                    "rel_type": "PRECEDED_BY",
+                    "to_name": prev_ev_name, "to_type": "event",
+                    "props": {"confidence": "metadata", "source": "bible-chronology"},
+                })
+
+            prev_ev_name = ev_desc
+
+
+_KG_SEEDS_DIR = Path(__file__).resolve().parent.parent.parent.parent / "data" / "kg-seeds"
+
+
+def _load_kg_seeds() -> tuple[list[dict], list[dict]]:
+    """Load all KG seed files from data/kg-seeds/.
+
+    Seeds encode research-phase knowledge: entities and typed relations that
+    the KG should assert before NER extraction. They are loaded at the start
+    of every rebuild_kg run and every full indexing run, ensuring the KG
+    baseline is always consistent regardless of what text NER discovers.
+
+    Returns (entities, relations) as lists ready for batch_merge_* calls.
+    """
+    seeds_dir = _KG_SEEDS_DIR
+    if not seeds_dir.exists():
+        return [], []
+
+    entities: list[dict] = []
+    relations: list[dict] = []
+
+    for seed_file in sorted(seeds_dir.glob("*.json")):
+        try:
+            seed = json.loads(seed_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning("KG seed load failed: %s — %s", seed_file.name, e)
+            continue
+
+        confidence = seed.get("confidence", "curated")
+
+        for ent in seed.get("entities", []):
+            name = ent.get("name", "")
+            etype = ent.get("type", "concept")
+            if name and etype:
+                entities.append({
+                    "name": name,
+                    "type": etype,
+                    "aliases": ent.get("aliases", []),
+                })
+
+        for rel in seed.get("relations", []):
+            subject = rel.get("subject", "")
+            obj = rel.get("object", "")
+            predicate = rel.get("predicate", "")
+            if not (subject and obj and predicate):
+                continue
+            relations.append({
+                "from_name": subject,
+                "from_type": rel.get("subject_type", "concept"),
+                "rel_type": predicate,
+                "to_name": obj,
+                "to_type": rel.get("object_type", "concept"),
+                "props": {
+                    "confidence": confidence,
+                    **({"source_ref": rel["source_ref"]} if rel.get("source_ref") else {}),
+                },
+            })
+
+    if entities or relations:
+        logger.info(
+            "KG seeds loaded: %d entities, %d relations from %d files",
+            len(entities), len(relations),
+            sum(1 for _ in seeds_dir.glob("*.json")),
+        )
+    return entities, relations
+
+
+def _load_meta_json(rel_path: str, corpus_path: Path) -> dict:
+    """Load companion .meta.json for a corpus file. Returns {} if not found or invalid."""
+    base = rel_path
+    for ext in (".txt", ".html", ".htm", ".md"):
+        if base.endswith(ext):
+            base = base[: -len(ext)]
+            break
+    meta_path = corpus_path / f"{base}.meta.json"
+    if not meta_path.exists():
+        return {}
+    try:
+        return json.loads(meta_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 
 def _extract_source(rel_path: str) -> str:

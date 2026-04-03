@@ -33,7 +33,8 @@ class Settings(BaseSettings):
     chunk_overlap: int = 50
 
     # Indexing
-    index_interval_seconds: int = 300
+    # NOTE: indexing is always on-demand — there is no auto-trigger.
+    # Add corpus files freely; call POST /index/ingest explicitly when ready.
     supported_extensions: list[str] = [".md", ".txt", ".html", ".json"]
 
     # LLM (for RAG chat)

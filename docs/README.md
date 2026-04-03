@@ -16,6 +16,7 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 
 ### Data Layer
 - [corpus.md](corpus.md) — Corpus structure, formats, bilingual organization
+- [download-scripts.md](download-scripts.md) — Download scripts: Church site patterns, shared module, footnote handling
 - [ingestion.md](ingestion.md) — Ingestion pipeline, parsing, chunking, change detection
 - [scripture-references.md](scripture-references.md) — Verse-level references, citation formats
 
