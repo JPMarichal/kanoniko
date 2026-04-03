@@ -1,0 +1,36 @@
+{
+  "title": "Consejos de familia",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/family-councils?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "VéanseDoctrina y Convenios 121:32;Abraham 4:26;5:1–3."
+    },
+    {
+      "marker": "2.",
+      "text": "Alma 37:37."
+    },
+    {
+      "marker": "3.",
+      "text": "VéaseGuía para la familia, 2006,pág. 12."
+    }
+  ],
+  "scripture_refs": [
+    "5:1–3",
+    "Abraham 4:26",
+    "Alma 37:37",
+    "Doctrina y Convenios 121:32"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Empleo",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/employment?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“La Familia: Una Proclamación para el Mundo”, ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrina y Convenios 58:27."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrina y Convenios 58:27."
+    },
+    {
+      "marker": "4.",
+      "text": "L. Tom Perry, “El gozo del trabajo honrado”,Liahona, enero de 1987, págs. 60–61."
+    },
+    {
+      "marker": "5.",
+      "text": "David O. McKay,Pathways to Happiness, 1957, pág. 381."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 58:27",
+    "La Familia: Una Proclamación para el Mundo"
+  ]
+}

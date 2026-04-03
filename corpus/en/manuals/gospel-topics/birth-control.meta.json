@@ -1,0 +1,31 @@
+{
+  "title": "Birth Control",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/birth-control?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Genesis 1:28."
+    },
+    {
+      "marker": "2.",
+      "text": "Psalm 127:3."
+    }
+  ],
+  "scripture_refs": [
+    "Genesis 1:28",
+    "Psalm 127:3",
+    "Scriptures"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Los colores de nuestra Primaria",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/our-primary-colors?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 104,
+  "first_line": "Los colores de nuestra Primaria son:",
+  "note_count": 0,
+  "scripture_refs": [
+    "Deuteronomio 31:6",
+    "Mosíah 2:17",
+    "Efesios 4:25"
+  ]
+}

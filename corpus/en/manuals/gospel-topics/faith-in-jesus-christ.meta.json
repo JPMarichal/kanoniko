@@ -1,0 +1,103 @@
+{
+  "title": "Faith in Jesus Christ",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/faith-in-jesus-christ?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 15,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Hebrews 11:1."
+    },
+    {
+      "marker": "10.",
+      "text": "Alma 37:33."
+    },
+    {
+      "marker": "11.",
+      "text": "See2 Nephi 26:13."
+    },
+    {
+      "marker": "12.",
+      "text": "See3 Nephi 9:13–14."
+    },
+    {
+      "marker": "13.",
+      "text": "SeeRomans 5:1;Helaman 5:47."
+    },
+    {
+      "marker": "14.",
+      "text": "SeeAlma 33:11."
+    },
+    {
+      "marker": "15.",
+      "text": "SeeAlma 32:26–43."
+    },
+    {
+      "marker": "2.",
+      "text": "Alma 32:21."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeActs 4:10–12;Mosiah 3:17;Moroni 7:24–26;Articles of Faith 1:4."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeAlma 7:11–12;Doctrine and Covenants 122:8."
+    },
+    {
+      "marker": "5.",
+      "text": "John 16:33."
+    },
+    {
+      "marker": "6.",
+      "text": "Doctrine and Covenants 6:36."
+    },
+    {
+      "marker": "7.",
+      "text": "Moroni 7:33."
+    },
+    {
+      "marker": "8.",
+      "text": "SeeJohn 14:12."
+    },
+    {
+      "marker": "9.",
+      "text": "SeeJames 2:18;1 Nephi 3:7;Alma 34:17."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 3:7",
+    "2 Nephi 26:13",
+    "3 Nephi 9:13–14",
+    "Acts 4:10–12",
+    "Alma 32:21",
+    "Alma 32:26–43",
+    "Alma 33:11",
+    "Alma 34:17",
+    "Alma 37:33",
+    "Alma 7:11–12",
+    "Articles of Faith 1:4",
+    "Doctrine and Covenants 122:8",
+    "Doctrine and Covenants 6:36",
+    "Hebrews 11:1",
+    "Helaman 5:47",
+    "James 2:18",
+    "John 14:12",
+    "John 16:33",
+    "Moroni 7:24–26",
+    "Moroni 7:33",
+    "Mosiah 3:17",
+    "Romans 5:1",
+    "Scriptures"
+  ]
+}

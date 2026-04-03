@@ -1,0 +1,26 @@
+{
+  "title": "Mayordomía",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/stewardship?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrina y Convenios 104:11–18",
+    "Doctrina y Convenios 136:27",
+    "Doctrina y Convenios 51:19",
+    "Doctrina y Convenios 72:3–5",
+    "Doctrina y Convenios 82:3",
+    "Jacob 1:19",
+    "Mateo 25:14–30",
+    "Mayordomía, mayordomo"
+  ]
+}

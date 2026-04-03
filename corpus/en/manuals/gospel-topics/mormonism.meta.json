@@ -1,0 +1,30 @@
+{
+  "title": "Mormonism",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/mormonism?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Daniel 2:44–45",
+    "Doctrine and Covenants 115:4",
+    "Doctrine and Covenants 128:21, 24",
+    "Doctrine and Covenants 135:6–7",
+    "Doctrine and Covenants 42:12",
+    "Guide to the Scriptures, “Church of Jesus Christ of Latter-day Saints, The”",
+    "Guide to the Scriptures, “Church of Jesus Christ”",
+    "Guide to the Scriptures, “Church, Name of”",
+    "Guide to the Scriptures, “Church, Signs of the True”",
+    "Guide to the Scriptures, “Mormon(s)”",
+    "Guide to the Scriptures, “Restoration of the Gospel”",
+    "Joseph Smith—History 1"
+  ]
+}

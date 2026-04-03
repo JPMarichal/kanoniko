@@ -1,0 +1,56 @@
+{
+  "title": "Forgiveness",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/forgiveness?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrine and Covenants 58:42."
+    },
+    {
+      "marker": "2.",
+      "text": "Isaiah 1:18."
+    },
+    {
+      "marker": "3.",
+      "text": "Matthew 11:28–30."
+    },
+    {
+      "marker": "4.",
+      "text": "3 Nephi 9:13–14."
+    },
+    {
+      "marker": "5.",
+      "text": "Doctrine and Covenants 64:9–10."
+    },
+    {
+      "marker": "6.",
+      "text": "Matthew 5:44."
+    },
+    {
+      "marker": "7.",
+      "text": "Luke 23:34; see footnotec."
+    }
+  ],
+  "scripture_refs": [
+    "3 Nephi 9:13–14",
+    "Doctrine and Covenants 58:42",
+    "Doctrine and Covenants 64:9–10",
+    "Isaiah 1:18",
+    "Luke 23:34",
+    "Matthew 11:28–30",
+    "Matthew 5:44",
+    "Scriptures"
+  ]
+}

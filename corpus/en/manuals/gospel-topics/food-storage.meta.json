@@ -1,0 +1,19 @@
+{
+  "title": "Food Storage",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/food-storage?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrine and Covenants 109:8"
+  ]
+}

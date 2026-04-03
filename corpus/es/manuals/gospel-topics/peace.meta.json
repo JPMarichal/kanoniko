@@ -1,0 +1,28 @@
+{
+  "title": "Paz",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/peace?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Alma 38:8",
+    "Doctrina y Convenios 59:23",
+    "Doctrina y Convenios 6:33–37",
+    "Filipenses 4:7",
+    "Isaías 9:6",
+    "Juan 14:26–27",
+    "Juan 14:27",
+    "Juan 16:33",
+    "Juan 20:19",
+    "Paz"
+  ]
+}

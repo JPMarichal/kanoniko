@@ -1,0 +1,21 @@
+{
+  "title": "Reverently, Quietly",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/reverently-quietly?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 27,
+  "first_line": "Rev’rently, quietly, lovingly we think of thee;",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrine and Covenants 19:23"
+  ]
+}

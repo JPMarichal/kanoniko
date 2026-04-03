@@ -1,0 +1,1111 @@
+{
+  "title": "Part IV: The Last Week — Atonement and Resurrection",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-8?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 109,
+  "scripture_refs": [
+    "John 11:55–57",
+    "John 12:1",
+    "Mark 14:3–9",
+    "John 12:2–8",
+    "John 12:9–11",
+    "Mark 11:1–6",
+    "Luke 19:28–34",
+    "Mark 11:7–11",
+    "Luke 19:35–38",
+    "John 12:12–18",
+    "Luke 19:39–40",
+    "John 12:19",
+    "Luke 19:41–44",
+    "Mark 11:12",
+    "Mark 11:12–14",
+    "Mark 11:15–19",
+    "Luke 19:45–48",
+    "Mark 11:19–20",
+    "Mark 11:20–26",
+    "Mark 11:27–33",
+    "Luke 20:1–8",
+    "Matthew 21:28–32",
+    "Mark 12:1–12",
+    "Luke 20:9–19",
+    "Mark 12:13–17",
+    "Luke 20:20–26",
+    "Mark 12:18–27",
+    "Luke 20:27–38",
+    "Mark 12:28–34",
+    "Mark 12:35–37",
+    "Luke 20:39–44",
+    "Mark 12:38–40",
+    "Luke 20:45–47",
+    "Mark 12:41–44",
+    "Luke 21:1–4",
+    "Luke 13:34–35",
+    "John 12:20–22",
+    "John 12:23–50",
+    "Mark 13",
+    "Luke 21:5–38",
+    "Matthew 1",
+    "Matthew 25:1–13",
+    "Luke 12:35–36",
+    "Doctrine and Covenants 45:56–59",
+    "Mark 14:1",
+    "Mark 14:1–2",
+    "Luke 22:1–2",
+    "Mark 14:10–11",
+    "Luke 22:3–6",
+    "Mark 14:12–16",
+    "Luke 22:7–13",
+    "Mark 14:17",
+    "Luke 22:13–14",
+    "John 13:1–2",
+    "Luke 22:24–30",
+    "John 13:2–5",
+    "John 13:8–10",
+    "John 13:13–17",
+    "Mark 14:18–21",
+    "Luke 22:21–23",
+    "John 13:18–30",
+    "John 13:31–35",
+    "Mark 14:22–25",
+    "Luke 22:15–20",
+    "John 14",
+    "Mark 14:26",
+    "Luke 22:39",
+    "John 14:31",
+    "Mark 14:27–31",
+    "Luke 22:31–38",
+    "John 13:36–38",
+    "John 15:1–8",
+    "John 15:9–17",
+    "John 15:18–25",
+    "John 15:26–27",
+    "John 16:1–6",
+    "John 16:7–16",
+    "John 16:17–30",
+    "John 17",
+    "Mark 14:32–42",
+    "Luke 22:40–46",
+    "Revelation 2",
+    "Mosiah 3:5–12",
+    "Doctrine and Covenants 19:1–24",
+    "Mark 14:43–46",
+    "Luke 22:47–48",
+    "John 18:2–3",
+    "John 18:4–9",
+    "Mark 14:47",
+    "Luke 22:49–51",
+    "John 18:10–11",
+    "Mark 14:46–52",
+    "Luke 22:52–54",
+    "John 18:12",
+    "Mark 14:53–65",
+    "Luke 22:54",
+    "John 18:13–16, 19",
+    "Mark 14:66–72",
+    "Luke 22:55–62",
+    "John 18:17–18, 25",
+    "Luke 22:63–65",
+    "Mark 15:1",
+    "Luke 22:66–71",
+    "John 18:24, 28",
+    "Mark 15:1–5",
+    "Luke 23:1–6",
+    "John 18:28–38",
+    "Luke 23:7–12",
+    "Mark 15:6–15",
+    "Luke 23:11–17",
+    "Luke 23:18–25",
+    "John 18:39–40",
+    "Luke 23:4, 14, 22",
+    "John 19:4",
+    "Mark 15:15–20",
+    "John 19:1–12",
+    "Mark 15:20–23",
+    "Luke 23:26–31",
+    "John 19:13–17",
+    "Mark 15:24–33",
+    "Luke 23:32–43",
+    "Helaman 14:20–27",
+    "3 Nephi 8:5–22",
+    "Mark 15:24",
+    "Luke 23:34",
+    "John 19:23–24",
+    "Mark 15:26",
+    "Luke 23:38",
+    "John 19:19–22",
+    "John 19:25–27",
+    "Mark 15:33–36",
+    "Luke 23:44–45",
+    "Mark 15:37",
+    "Luke 23:46",
+    "John 19:28–30",
+    "Mark 15:38",
+    "Luke 23:45",
+    "John 19:31–34",
+    "John 19:35–37",
+    "Mark 15:39–41",
+    "Luke 23:47–49",
+    "Mark 15:42–47",
+    "Luke 23:50–56",
+    "John 19:38–42",
+    "Matthew 28:2",
+    "Mark 16:1–4",
+    "Luke 24:1–2",
+    "John 20:1–2",
+    "Mark 16:5–7",
+    "Luke 24:3–8",
+    "Mark 16:8",
+    "Luke 24:9–11",
+    "John 20:18",
+    "Luke 24:12",
+    "John 20:3–10",
+    "Mark 16:9–11",
+    "John 20:11–18",
+    "Mark 16:12–13",
+    "Luke 24:13–35",
+    "Mark 16:14",
+    "Luke 24:36–49",
+    "John 20:19–23",
+    "John 20:24–25",
+    "John 20:26–29",
+    "John 20:30–31",
+    "John 21:1–19",
+    "John 21:20–22",
+    "Revelation 3",
+    "Doctrine and Covenants 7",
+    "Mark 16:15–18",
+    "Mormon 9:22–24",
+    "Mark 16:19–20",
+    "Luke 24:50–53",
+    "Matthew 21:33–46",
+    "Matthew 22:1–14",
+    "Matthew 25:14–30",
+    "Matthew 25:31–46"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event To Jerusalem for Passover",
+      "john_lds": [
+        "John 11:55–57"
+      ]
+    },
+    {
+      "event": "Event The sixth day before Passover",
+      "location": "Location Bethany",
+      "john_lds": [
+        "John 12:1"
+      ]
+    },
+    {
+      "event": "Event Mary anoints Jesus",
+      "location": "Location Bethany",
+      "mark": [
+        "Mark 14:3–9"
+      ],
+      "john_lds": [
+        "John 12:2–8"
+      ]
+    },
+    {
+      "event": "Event Conspiracy against Lazarus",
+      "location": "Location Bethany, Jerusalem",
+      "john_lds": [
+        "John 12:9–11"
+      ]
+    },
+    {
+      "event": "Event Prophecy fulfilled",
+      "location": "Location Mount of Olives",
+      "mark": [
+        "Mark 11:1–6"
+      ],
+      "luke": [
+        "Luke 19:28–34"
+      ]
+    },
+    {
+      "event": "Event Triumphal entry",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 11:7–11"
+      ],
+      "luke": [
+        "Luke 19:35–38"
+      ],
+      "john_lds": [
+        "John 12:12–18"
+      ]
+    },
+    {
+      "event": "Event Pharisees disapprove",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 19:39–40"
+      ],
+      "john_lds": [
+        "John 12:19"
+      ]
+    },
+    {
+      "event": "Event Jesus weeps over Jerusalem",
+      "location": "Location Near Jerusalem",
+      "luke": [
+        "Luke 19:41–44"
+      ]
+    },
+    {
+      "event": "Event The fourth day before Passover",
+      "mark": [
+        "Mark 11:12"
+      ]
+    },
+    {
+      "event": "Event Fig tree cursed",
+      "location": "Location Near Bethany",
+      "mark": [
+        "Mark 11:12–14"
+      ]
+    },
+    {
+      "event": "Event Moneychangers cast out",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 11:15–19"
+      ],
+      "luke": [
+        "Luke 19:45–48"
+      ]
+    },
+    {
+      "event": "Event The third day before Passover",
+      "mark": [
+        "Mark 11:19–20"
+      ]
+    },
+    {
+      "event": "Event Withered fig tree and discourse on faith",
+      "location": "Location Near Bethany",
+      "mark": [
+        "Mark 11:20–26"
+      ]
+    },
+    {
+      "event": "Event Priests challenge Jesus’ authority",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 11:27–33"
+      ],
+      "luke": [
+        "Luke 20:1–8"
+      ]
+    },
+    {
+      "event": "Event Parables: Event Two sons Location Temple Matt. Matthew 21:28–32 Event Wicked husbandmen Location Temple Matt. Matthew 21:33–46 Mark Mark 12:1–12 Luke Luke 20:9–19 Event Wedding of a king’s son Location Temple Matt. Matthew 22:1–14",
+      "location": "Event Two sons",
+      "mark": [
+        "Matthew 21:28–32"
+      ]
+    },
+    {
+      "event": "Event Wicked husbandmen",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:1–12"
+      ],
+      "luke": [
+        "Luke 20:9–19"
+      ]
+    },
+    {
+      "event": "Event Question about tribute",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:13–17"
+      ],
+      "luke": [
+        "Luke 20:20–26"
+      ]
+    },
+    {
+      "event": "Event Marriage and the Resurrection: Sadducees",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:18–27"
+      ],
+      "luke": [
+        "Luke 20:27–38"
+      ]
+    },
+    {
+      "event": "Event Great commandment: Pharisees",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:28–34"
+      ]
+    },
+    {
+      "event": "Event How is Christ both David’s Lord and son?",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:35–37"
+      ],
+      "luke": [
+        "Luke 20:39–44"
+      ]
+    },
+    {
+      "event": "Event Denunciation of hypocrisy",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:38–40"
+      ],
+      "luke": [
+        "Luke 20:45–47"
+      ]
+    },
+    {
+      "event": "Event Widow’s mite",
+      "location": "Location Temple",
+      "mark": [
+        "Mark 12:41–44"
+      ],
+      "luke": [
+        "Luke 21:1–4"
+      ]
+    },
+    {
+      "event": "Event Jesus’ lament over Jerusalem",
+      "location": "Location Near Jerusalem",
+      "luke": [
+        "Luke 13:34–35"
+      ]
+    },
+    {
+      "event": "Event Greeks wish to see Jesus",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 12:20–22"
+      ]
+    },
+    {
+      "event": "Event Discourse: Jesus sent by the Father",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 12:23–50"
+      ]
+    },
+    {
+      "event": "Event Destruction of Jerusalem, signs of Second Coming",
+      "location": "Location Mount of Olives",
+      "mark": [
+        "Mark 13"
+      ],
+      "luke": [
+        "Luke 21:5–38"
+      ],
+      "john_lds": [
+        "Matthew 1"
+      ]
+    },
+    {
+      "event": "Event Parables: Event Ten virgins Location Mount of Olives Matt. Matthew 25:1–13 Luke see also Luke 12:35–36 Latter-day Revelation Doctrine and Covenants 45:56–59 Event Talents Location Mount of Olives Matt. Matthew 25:14–30 Event Sheep, goats Location Mount of Olives Matt. Matthew 25:31–46",
+      "location": "Event Ten virgins",
+      "mark": [
+        "Matthew 25:1–13"
+      ],
+      "john_lds": [
+        "Luke 12:35–36"
+      ]
+    },
+    {
+      "event": "Event Ten virgins",
+      "location": "Location Mount of Olives",
+      "luke": [
+        "Luke 12:35–36"
+      ],
+      "john_lds": [
+        "Doctrine and Covenants 45:56–59"
+      ]
+    },
+    {
+      "event": "Event The last day before Passover",
+      "mark": [
+        "Mark 14:1"
+      ]
+    },
+    {
+      "event": "Event Conspiracy at Caiaphas’s palace",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:1–2"
+      ],
+      "luke": [
+        "Luke 22:1–2"
+      ]
+    },
+    {
+      "event": "Event Judas’s conspiracy to betray Jesus",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:10–11"
+      ],
+      "luke": [
+        "Luke 22:3–6"
+      ]
+    },
+    {
+      "event": "Event The first day of unleavened bread",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:12–16"
+      ],
+      "luke": [
+        "Luke 22:7–13"
+      ]
+    },
+    {
+      "event": "Event The Last Supper begins",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:17"
+      ],
+      "luke": [
+        "Luke 22:13–14"
+      ],
+      "john_lds": [
+        "John 13:1–2"
+      ]
+    },
+    {
+      "event": "Event Strife over greatness",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 22:24–30"
+      ]
+    },
+    {
+      "event": "Event Jesus washes disciples’ feet",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 13:2–5"
+      ]
+    },
+    {
+      "event": "Event Peter’s protest",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 13:8–10"
+      ]
+    },
+    {
+      "event": "Event Jesus’ example",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 13:13–17"
+      ]
+    },
+    {
+      "event": "Event “One of you shall betray me”",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:18–21"
+      ],
+      "luke": [
+        "Luke 22:21–23"
+      ],
+      "john_lds": [
+        "John 13:18–30"
+      ]
+    },
+    {
+      "event": "Event A new commandment",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 13:31–35"
+      ]
+    },
+    {
+      "event": "Event Sacrament instituted",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:22–25"
+      ],
+      "luke": [
+        "Luke 22:15–20"
+      ]
+    },
+    {
+      "event": "Event Discourse on the Comforter",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 14"
+      ]
+    },
+    {
+      "event": "Event Departure to Mount of Olives",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:26"
+      ],
+      "luke": [
+        "Luke 22:39"
+      ],
+      "john_lds": [
+        "John 14:31"
+      ]
+    },
+    {
+      "event": "Event Peter’s denial foretold",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 14:27–31"
+      ],
+      "luke": [
+        "Luke 22:31–38"
+      ],
+      "john_lds": [
+        "John 13:36–38"
+      ]
+    },
+    {
+      "event": "Event The true vine",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 15:1–8"
+      ]
+    },
+    {
+      "event": "Event Love one another",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 15:9–17"
+      ]
+    },
+    {
+      "event": "Event Hatred of the world",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 15:18–25"
+      ]
+    },
+    {
+      "event": "Event The Spirit of truth testifies",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 15:26–27"
+      ]
+    },
+    {
+      "event": "Event Warnings to the Apostles",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 16:1–6"
+      ]
+    },
+    {
+      "event": "Event The Comforter",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 16:7–16"
+      ]
+    },
+    {
+      "event": "Event Opposition: Joy and sorrow",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 16:17–30"
+      ]
+    },
+    {
+      "event": "Event Jesus’ intercessory prayer",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 17"
+      ]
+    },
+    {
+      "event": "Event Jesus’ suffering and prayers",
+      "location": "Location Gethsemane",
+      "mark": [
+        "Mark 14:32–42"
+      ],
+      "luke": [
+        "Luke 22:40–46"
+      ],
+      "john_lds": [
+        "Revelation 2",
+        "Mosiah 3:5–12",
+        "Doctrine and Covenants 19:1–24"
+      ]
+    },
+    {
+      "event": "Event Judas’s betrayal",
+      "location": "Location Gethsemane",
+      "mark": [
+        "Mark 14:43–46"
+      ],
+      "luke": [
+        "Luke 22:47–48"
+      ],
+      "john_lds": [
+        "John 18:2–3"
+      ]
+    },
+    {
+      "event": "Event Arresting officers fall",
+      "location": "Location Gethsemane",
+      "john_lds": [
+        "John 18:4–9"
+      ]
+    },
+    {
+      "event": "Event Peter defends Jesus with a sword",
+      "location": "Location Gethsemane",
+      "mark": [
+        "Mark 14:47"
+      ],
+      "luke": [
+        "Luke 22:49–51"
+      ],
+      "john_lds": [
+        "John 18:10–11"
+      ]
+    },
+    {
+      "event": "Event Jesus arrested and disciples flee",
+      "location": "Location Gethsemane",
+      "mark": [
+        "Mark 14:46–52"
+      ],
+      "luke": [
+        "Luke 22:52–54"
+      ],
+      "john_lds": [
+        "John 18:12"
+      ]
+    },
+    {
+      "event": "Event Hearing before chief priests",
+      "location": "Location Caiaphas’s palace",
+      "mark": [
+        "Mark 14:53–65"
+      ],
+      "luke": [
+        "Luke 22:54"
+      ],
+      "john_lds": [
+        "John 18:13–16, 19"
+      ]
+    },
+    {
+      "event": "Event Peter’s denial",
+      "location": "Location Caiaphas’s palace",
+      "mark": [
+        "Mark 14:66–72"
+      ],
+      "luke": [
+        "Luke 22:55–62"
+      ],
+      "john_lds": [
+        "John 18:17–18, 25"
+      ]
+    },
+    {
+      "event": "Event Soldiers mock Jesus",
+      "location": "Location Caiaphas’s palace",
+      "luke": [
+        "Luke 22:63–65"
+      ]
+    },
+    {
+      "event": "Event Hearing before Caiaphas",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:1"
+      ],
+      "luke": [
+        "Luke 22:66–71"
+      ],
+      "john_lds": [
+        "John 18:24, 28"
+      ]
+    },
+    {
+      "event": "Event Hearing before Pilate",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:1–5"
+      ],
+      "luke": [
+        "Luke 23:1–6"
+      ],
+      "john_lds": [
+        "John 18:28–38"
+      ]
+    },
+    {
+      "event": "Event Hearing before Herod",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 23:7–12"
+      ]
+    },
+    {
+      "event": "Event Second hearing before Pilate",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:6–15"
+      ],
+      "luke": [
+        "Luke 23:11–17"
+      ]
+    },
+    {
+      "event": "Event A murderer released",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:6–15"
+      ],
+      "luke": [
+        "Luke 23:18–25"
+      ],
+      "john_lds": [
+        "John 18:39–40"
+      ]
+    },
+    {
+      "event": "Event Blood guiltiness",
+      "location": "Location Jerusalem",
+      "luke": [
+        "Luke 23:4, 14, 22"
+      ],
+      "john_lds": [
+        "John 19:4"
+      ]
+    },
+    {
+      "event": "Event Jesus scourged and mocked",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:15–20"
+      ],
+      "john_lds": [
+        "John 19:1–12"
+      ]
+    },
+    {
+      "event": "Event Jesus taken to Golgotha",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 15:20–23"
+      ],
+      "luke": [
+        "Luke 23:26–31"
+      ],
+      "john_lds": [
+        "John 19:13–17"
+      ]
+    },
+    {
+      "event": "Event The Crucifixion",
+      "location": "Location Golgotha",
+      "mark": [
+        "Mark 15:24–33"
+      ],
+      "luke": [
+        "Luke 23:32–43"
+      ],
+      "john_lds": [
+        "Helaman 14:20–27",
+        "3 Nephi 8:5–22"
+      ]
+    },
+    {
+      "event": "Event Soldiers cast lots for Jesus’ garments",
+      "location": "Location Golgotha",
+      "mark": [
+        "Mark 15:24"
+      ],
+      "luke": [
+        "Luke 23:34"
+      ],
+      "john_lds": [
+        "John 19:23–24"
+      ]
+    },
+    {
+      "event": "Event The sign: King of the Jews",
+      "location": "Location Golgotha",
+      "mark": [
+        "Mark 15:26"
+      ],
+      "luke": [
+        "Luke 23:38"
+      ],
+      "john_lds": [
+        "John 19:19–22"
+      ]
+    },
+    {
+      "event": "Event Jesus speaks to His mother",
+      "location": "Location Golgotha",
+      "john_lds": [
+        "John 19:25–27"
+      ]
+    },
+    {
+      "event": "Event Darkness: Sixth to ninth hour",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:33–36"
+      ],
+      "luke": [
+        "Luke 23:44–45"
+      ]
+    },
+    {
+      "event": "Event Death of Jesus Christ",
+      "location": "Location Golgotha",
+      "mark": [
+        "Mark 15:37"
+      ],
+      "luke": [
+        "Luke 23:46"
+      ],
+      "john_lds": [
+        "John 19:28–30"
+      ]
+    },
+    {
+      "event": "Event Earthquake: Veil of temple rent",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 15:38"
+      ],
+      "luke": [
+        "Luke 23:45"
+      ]
+    },
+    {
+      "event": "Event Side pierced by a spear",
+      "location": "Location Golgotha",
+      "john_lds": [
+        "John 19:31–34"
+      ]
+    },
+    {
+      "event": "Event Passover scripture fulfilled",
+      "location": "Location Golgotha",
+      "john_lds": [
+        "John 19:35–37"
+      ]
+    },
+    {
+      "event": "Event Watchers near the cross",
+      "location": "Location Golgotha",
+      "mark": [
+        "Mark 15:39–41"
+      ],
+      "luke": [
+        "Luke 23:47–49"
+      ]
+    },
+    {
+      "event": "Event Jesus’ burial",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 15:42–47"
+      ],
+      "luke": [
+        "Luke 23:50–56"
+      ],
+      "john_lds": [
+        "John 19:38–42"
+      ]
+    },
+    {
+      "event": "Event Earthquake, angels open tomb",
+      "location": "Location Near Jerusalem",
+      "john_lds": [
+        "Matthew 28:2"
+      ]
+    },
+    {
+      "event": "Event Women find the open tomb",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 16:1–4"
+      ],
+      "luke": [
+        "Luke 24:1–2"
+      ],
+      "john_lds": [
+        "John 20:1–2"
+      ]
+    },
+    {
+      "event": "Event Angels proclaim: “He is risen”",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 16:5–7"
+      ],
+      "luke": [
+        "Luke 24:3–8"
+      ]
+    },
+    {
+      "event": "Event Women hurry to tell the Apostles",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 16:8"
+      ],
+      "luke": [
+        "Luke 24:9–11"
+      ],
+      "john_lds": [
+        "John 20:18"
+      ]
+    },
+    {
+      "event": "Event Peter and John run to the tomb",
+      "location": "Location Near Jerusalem",
+      "luke": [
+        "Luke 24:12"
+      ],
+      "john_lds": [
+        "John 20:3–10"
+      ]
+    },
+    {
+      "event": "Event Jesus appears to Mary Magdalene",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 16:9–11"
+      ],
+      "john_lds": [
+        "John 20:11–18"
+      ]
+    },
+    {
+      "event": "Event Jesus appears to two disciples",
+      "location": "Location Emmaus",
+      "mark": [
+        "Mark 16:12–13"
+      ],
+      "luke": [
+        "Luke 24:13–35"
+      ]
+    },
+    {
+      "event": "Event Evening: Jesus appears to disciples",
+      "location": "Location Jerusalem",
+      "mark": [
+        "Mark 16:14"
+      ],
+      "luke": [
+        "Luke 24:36–49"
+      ],
+      "john_lds": [
+        "John 20:19–23"
+      ]
+    },
+    {
+      "event": "Event Thomas, absent, does not believe",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 20:24–25"
+      ]
+    },
+    {
+      "event": "Event Eight days later: With Thomas",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 20:26–29"
+      ]
+    },
+    {
+      "event": "Event Purpose of John’s Gospel",
+      "john_lds": [
+        "John 20:30–31"
+      ]
+    },
+    {
+      "event": "Event Peter: “I go a fishing”",
+      "location": "Location Galilee",
+      "john_lds": [
+        "John 21:1–19"
+      ]
+    },
+    {
+      "event": "Event Peter inquires about John",
+      "location": "Location Galilee",
+      "john_lds": [
+        "John 21:20–22"
+      ]
+    },
+    {
+      "event": "Event Testimony about John",
+      "john_lds": [
+        "Revelation 3",
+        "Doctrine and Covenants 7"
+      ]
+    },
+    {
+      "event": "Event The great commission to the Twelve",
+      "location": "Location Galilee",
+      "mark": [
+        "Mark 16:15–18"
+      ],
+      "john_lds": [
+        "Mormon 9:22–24"
+      ]
+    },
+    {
+      "event": "Event Ascension, proclamation",
+      "location": "Location Near Jerusalem",
+      "mark": [
+        "Mark 16:19–20"
+      ],
+      "luke": [
+        "Luke 24:50–53"
+      ]
+    },
+    {
+      "event": "Event Wicked husbandmen",
+      "location": "Location Temple",
+      "matthew": [
+        "Matthew 21:33–46"
+      ]
+    },
+    {
+      "event": "Event Wedding of a king’s son",
+      "location": "Location Temple",
+      "matthew": [
+        "Matthew 22:1–14"
+      ]
+    },
+    {
+      "event": "Event Talents",
+      "location": "Location Mount of Olives",
+      "matthew": [
+        "Matthew 25:14–30"
+      ]
+    },
+    {
+      "event": "Event Sheep, goats",
+      "location": "Location Mount of Olives",
+      "matthew": [
+        "Matthew 25:31–46"
+      ]
+    }
+  ]
+}

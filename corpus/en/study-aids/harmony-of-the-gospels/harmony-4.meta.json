@@ -1,0 +1,94 @@
+{
+  "title": "Part III.B: The Early Judean Ministry",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-4?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 8,
+  "scripture_refs": [
+    "John 2:13, 23",
+    "John 2:14–17",
+    "John 2:18–22",
+    "John 3:1–21",
+    "John 3:22",
+    "John 3:23–36",
+    "Mark 6:17–20",
+    "Luke 3:19–20",
+    "Mark 1:14",
+    "Matthew 4:11"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event First Passover",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 2:13, 23"
+      ]
+    },
+    {
+      "event": "Event First cleansing of temple",
+      "location": "Location Solomon’s Porch, Jerusalem",
+      "john_lds": [
+        "John 2:14–17"
+      ]
+    },
+    {
+      "event": "Event Sign of Jonah",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 2:18–22"
+      ]
+    },
+    {
+      "event": "Event Visit of Nicodemus",
+      "location": "Location Jerusalem",
+      "john_lds": [
+        "John 3:1–21"
+      ]
+    },
+    {
+      "event": "Event Jesus’ early ministry in Judea",
+      "location": "Location Judea",
+      "john_lds": [
+        "John 3:22"
+      ]
+    },
+    {
+      "event": "Event John’s ministry and testimony",
+      "location": "Location Aenon near Salim",
+      "john_lds": [
+        "John 3:23–36"
+      ]
+    },
+    {
+      "event": "Event John reproves Herod Antipas",
+      "location": "Location Judea (?)",
+      "mark": [
+        "Mark 6:17–20"
+      ],
+      "luke": [
+        "Luke 3:19–20"
+      ]
+    },
+    {
+      "event": "Event John imprisoned and visited by angels",
+      "location": "Location Machaerus",
+      "mark": [
+        "Mark 1:14"
+      ],
+      "luke": [
+        "Luke 3:19–20"
+      ],
+      "john_lds": [
+        "Matthew 4:11"
+      ]
+    }
+  ]
+}

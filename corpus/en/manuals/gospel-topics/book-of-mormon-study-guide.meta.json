@@ -1,0 +1,74 @@
+{
+  "title": "Book of Mormon",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/book-of-mormon-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Russell M. Nelson, “A Testimony of the Book of Mormon,”Ensign, Nov. 1999, 70."
+    },
+    {
+      "marker": "2.",
+      "text": "Russell M. Nelson, “The Book of Mormon: What Would Your Life Be Like without It?,”EnsignorLiahona, Nov. 2017, 62–63."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “The Book of Mormon: What Would Your Life Be Like without It?,” 62."
+    },
+    {
+      "marker": "4.",
+      "text": "Jeffrey R. Holland, “Safety for the Soul,”EnsignorLiahona, Nov. 2009, 89."
+    },
+    {
+      "marker": "5.",
+      "text": "Teachings of Presidents of the Church: Ezra Taft Benson(2014),143–44."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 13:29–33",
+    "1 Nephi 15:24",
+    "1 Nephi 6:4",
+    "2 Nephi 25:17–18",
+    "2 Nephi 29:1–13",
+    "2 Nephi 33:10",
+    "2 Nephi 3:12",
+    "31:5",
+    "33:10–15",
+    "3 Nephi 11:13–17",
+    "Alma 5:7",
+    "Articles of Faith 1:8",
+    "Doctrine and Covenants 135:3",
+    "Doctrine and Covenants 20:8–12",
+    "Doctrine and Covenants 20:8–15",
+    "Doctrine and Covenants 20:8–9",
+    "Doctrine and Covenants 42:12",
+    "Ether 4:11",
+    "Ezekiel 37:15–17",
+    "Helaman 3:29–30",
+    "Isaiah 29:11–14, 18–19",
+    "Jacob 1:7",
+    "Joseph Smith—History 1:30–35",
+    "Joseph Smith—History 1:30–35, 42–54",
+    "Joseph Smith—History 1:34",
+    "Moroni 10:32–33",
+    "Moroni 10:3–5",
+    "Moses 7:62",
+    "Omni 1:26",
+    "Scriptures",
+    "The Testimony of Eight Witnesses",
+    "The Testimony of Three Witnesses",
+    "introduction to the Book of Mormon",
+    "title page of the Book of Mormon"
+  ]
+}

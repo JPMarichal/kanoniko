@@ -1,0 +1,21 @@
+{
+  "title": "La Iglesia de Jesucristo",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/the-church-of-jesus-christ?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 34,
+  "first_line": "Yo soy de La Iglesia de Jesucristo de los Santos de los Últimos Días.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrina y Convenios 115:4–5"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Libros canónicos",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/standard-works?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Timoteo 3:16–17",
+    "Biblia",
+    "Canon",
+    "Doctrina y Convenios",
+    "Introducción a la Perla de Gran Precio",
+    "Introducción al Libro de Mormón",
+    "Introducción al libro de Doctrina y Convenios",
+    "Libro de Mormón",
+    "Perla de Gran Precio"
+  ]
+}

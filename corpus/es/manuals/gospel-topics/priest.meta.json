@@ -1,0 +1,26 @@
+{
+  "title": "Presbítero",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/priest?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "Alma 13:1",
+    "Doctrina y Convenios 107:87–88",
+    "Doctrina y Convenios 20:46, 77, 79",
+    "Doctrina y Convenios 20:46–52",
+    "Doctrina y Convenios 20:46, 48",
+    "Doctrina y Convenios 20:46–47",
+    "Guía para el Estudio de las Escrituras, “Presbítero, Sacerdocio Aarónico”",
+    "Mosíah 18:18–28"
+  ]
+}

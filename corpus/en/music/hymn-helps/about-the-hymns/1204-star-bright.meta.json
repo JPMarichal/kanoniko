@@ -1,0 +1,26 @@
+{
+  "title": "About the Hymns: Star Bright",
+  "collection": "about-the-hymns",
+  "category": "music",
+  "subcategory": "about-the-hymns",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/sacred-music-gospel-study-resource-pilot/1204-star-bright?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "hymn-helps",
+    "music-history",
+    "hymn-doctrine"
+  ],
+  "hymn_number": 66,
+  "note_count": 0,
+  "scripture_refs": [
+    "Helaman 14:5",
+    "3 Nephi 1:4–21",
+    "Helaman 14:1–7",
+    "Matthew 2:2–10",
+    "Helaman 14:2–8",
+    "3 Nephi 1:20–21",
+    "Matthew 2:9–11"
+  ]
+}

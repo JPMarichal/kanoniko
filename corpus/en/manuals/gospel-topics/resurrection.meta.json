@@ -1,0 +1,56 @@
+{
+  "title": "Resurrection",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/resurrection?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See1 Corinthians 15:22."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeMatthew 28:1–8;Mark 16:1–14;Luke 24:1–48;John 20:1–29;1 Corinthians 15:1–8;2 Peter 1:16–17."
+    },
+    {
+      "marker": "3.",
+      "text": "Luke 24:39."
+    },
+    {
+      "marker": "4.",
+      "text": "See3 Nephi 11:10–17."
+    },
+    {
+      "marker": "5.",
+      "text": "Alma 11:41, 43."
+    },
+    {
+      "marker": "6.",
+      "text": "Alma 22:14."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corinthians 15:1–8",
+    "1 Corinthians 15:22",
+    "2 Peter 1:16–17",
+    "3 Nephi 11:10–17",
+    "Alma 11:41, 43",
+    "Alma 22:14",
+    "John 20:1–29",
+    "Luke 24:1–48",
+    "Luke 24:39",
+    "Mark 16:1–14",
+    "Matthew 28:1–8",
+    "Scriptures"
+  ]
+}

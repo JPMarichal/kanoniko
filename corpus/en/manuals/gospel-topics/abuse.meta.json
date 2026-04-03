@@ -1,0 +1,39 @@
+{
+  "title": "Abuse",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/abuse?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeMatthew 18:6;Mark 9:42;Luke 17:2."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeAlma 7:11–12;34:10."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeDoctrine and Covenants 121:34–46."
+    }
+  ],
+  "scripture_refs": [
+    "34:10",
+    "Alma 7:11–12",
+    "Doctrine and Covenants 121:34–46",
+    "Luke 17:2",
+    "Mark 9:42",
+    "Matthew 18:6",
+    "The Family: A Proclamation to the World"
+  ]
+}

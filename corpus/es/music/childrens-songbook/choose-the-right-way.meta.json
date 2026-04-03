@@ -1,0 +1,23 @@
+{
+  "title": "Escojamos lo correcto",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/choose-the-right-way?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 60,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Juan 13:17",
+    "Moisés 6:33",
+    "Proverbios 29:18"
+  ]
+}

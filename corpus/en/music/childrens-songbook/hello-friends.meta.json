@@ -1,0 +1,18 @@
+{
+  "title": "Hello, Friends!",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/hello-friends?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 221,
+  "first_line": "Hello, friends! It’s nice to be",
+  "note_count": 0
+}

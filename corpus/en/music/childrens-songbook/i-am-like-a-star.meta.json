@@ -1,0 +1,21 @@
+{
+  "title": "I Am like a Star",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/i-am-like-a-star?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 145,
+  "first_line": "I am like a star shining brightly,",
+  "note_count": 0,
+  "scripture_refs": [
+    "Matthew 5:16"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Rock of Ages",
+  "collection": "hymns",
+  "category": "music",
+  "subcategory": "hymns",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/hymns/rock-of-ages?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "hymns",
+    "worship",
+    "music"
+  ],
+  "hymn_number": 111,
+  "author": "Augustus M. Toplady, 1740–1778 Music: Thomas Hastings, 1784–1872",
+  "composer": "Thomas Hastings, 1784–1872",
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Samuel 22:2–3, 32–33",
+    "Moses 6:57–60"
+  ]
+}

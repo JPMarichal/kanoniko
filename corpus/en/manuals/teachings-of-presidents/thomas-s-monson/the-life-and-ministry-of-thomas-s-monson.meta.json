@@ -1,0 +1,583 @@
+{
+  "title": "The Life and Ministry of Thomas S. Monson",
+  "book": "Teachings of Presidents of the Church: Thomas S. Monson",
+  "category": "manuals",
+  "authority": 60,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/teachings-of-presidents-of-the-church-thomas-s-monson/the-life-and-ministry-of-thomas-s-monson?lang=eng",
+  "tags": [
+    "teachings",
+    "presidents",
+    "prophets",
+    "thomas-s-monson"
+  ],
+  "author": "Thomas S. Monson",
+  "note_count": 137,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Thomas S. Monson journal, Apr. 27, 1972."
+    },
+    {
+      "marker": "10.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: In the Footsteps of the Master,” 5."
+    },
+    {
+      "marker": "100.",
+      "text": "Thomas S. Monson, “Welcome to Conference,”EnsignorLiahona,May 2013, 5."
+    },
+    {
+      "marker": "101.",
+      "text": "See Thomas S. Monson, “Welcome to Conference,”EnsignorLiahona,Nov. 2014, 5."
+    },
+    {
+      "marker": "102.",
+      "text": "Teachings of Presidents of the Church: Joseph Smith(2007), 426."
+    },
+    {
+      "marker": "103.",
+      "text": "In Heidi S. Swinton,To the Rescue,132."
+    },
+    {
+      "marker": "104.",
+      "text": "Thomas S. Monson, “Guiding Principles of Personal and Family Welfare,”Ensign,Sept. 1986, 3."
+    },
+    {
+      "marker": "105.",
+      "text": "Thomas S. Monson, “The Way of the Lord,”Ensign,Nov. 1977, 9."
+    },
+    {
+      "marker": "106.",
+      "text": "Thomas S. Monson, “The Bishop—Center Stage in Welfare,” 89."
+    },
+    {
+      "marker": "107.",
+      "text": "Thomas S. Monson, “Guiding Principles of Personal and Family Welfare,” 3."
+    },
+    {
+      "marker": "108.",
+      "text": "Spencer W. Kimball, “A Report of My Stewardship,”Ensign,May 1981, 5."
+    },
+    {
+      "marker": "109.",
+      "text": "Minute entry, First Presidency meeting, Aug. 29, 2008."
+    },
+    {
+      "marker": "11.",
+      "text": "Thomas S. Monson, “Christmas Is Love” (First Presidency Christmas devotional, Dec. 2, 2012),ChurchofJesusChrist.org/broadcasts/article/christmas-devotional/2012/12/christmas-is-love; see also “The Doorway of Love,”Ensign,Oct. 1996, 7."
+    },
+    {
+      "marker": "110.",
+      "text": "Handbook 2: Administering the Church(2010),2.2."
+    },
+    {
+      "marker": "111.",
+      "text": "See Welfare Fact Sheets, 2008–2016; the fact sheets for 2012–16 are available atChurchofJesusChrist.org/topics/welfare/the-church-welfare-plan."
+    },
+    {
+      "marker": "112.",
+      "text": "Thomas S. Monson, “Until We Meet Again,”EnsignorLiahona,May 2009, 114."
+    },
+    {
+      "marker": "113.",
+      "text": "Thomas S. Monson, “Until We Meet Again,”EnsignorLiahona,Nov. 2008, 107."
+    },
+    {
+      "marker": "114.",
+      "text": "In Gerry Avant, “Church Welfare Program,”Church News,Apr. 16, 2011, 4."
+    },
+    {
+      "marker": "115.",
+      "text": "Thomas S. Monson, “It’s Conference Once Again,”EnsignorLiahona,May 2011, 5–6."
+    },
+    {
+      "marker": "116.",
+      "text": "See Welfare Fact Sheets, 2008–2016."
+    },
+    {
+      "marker": "117.",
+      "text": "Thomas S. Monson, “Guiding Principles of Personal and Family Welfare,” 3."
+    },
+    {
+      "marker": "118.",
+      "text": "See “Let Us Be Self-Reliant and Independent,”Ensign,Oct. 2017, 43."
+    },
+    {
+      "marker": "119.",
+      "text": "Thomas S. Monson, “Looking Back and Moving Forward,” 89."
+    },
+    {
+      "marker": "12.",
+      "text": "See Thomas S. Monson journal, Dec. 8, 1984."
+    },
+    {
+      "marker": "120.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson,”Ensign,Feb. 1986, 14."
+    },
+    {
+      "marker": "121.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: Finishing the Course, Keeping the Faith,”Ensign,Sept. 1994, 16."
+    },
+    {
+      "marker": "122.",
+      "text": "Thomas S. Monson, “Looking Back and Moving Forward,” 89."
+    },
+    {
+      "marker": "123.",
+      "text": "In Dorothy O. Rea, “Frances Johnson Monson,”Church News,May 30, 1964, 6."
+    },
+    {
+      "marker": "124.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: Finishing the Course, Keeping the Faith,” 16."
+    },
+    {
+      "marker": "125.",
+      "text": "Thomas S. Monson, “I Will Not Fail Thee, nor Forsake Thee,”EnsignorLiahona,Nov. 2013, 85."
+    },
+    {
+      "marker": "126.",
+      "text": "Thomas S. Monson, “Welcome to Conference,”EnsignorLiahona,Nov. 2013, 4"
+    },
+    {
+      "marker": "127.",
+      "text": "Thomas S. Monson, “Hastening the Work,” 4."
+    },
+    {
+      "marker": "128.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: In the Footsteps of the Master,” 2."
+    },
+    {
+      "marker": "129.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: Finishing the Course, Keeping the Faith,” 13."
+    },
+    {
+      "marker": "13.",
+      "text": "See Thomas S. Monson, “Anxiously Engaged,”EnsignorLiahona,Nov. 2004, 56–57."
+    },
+    {
+      "marker": "130.",
+      "text": "In Heidi S. Swinton,To the Rescue,525."
+    },
+    {
+      "marker": "131.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: In the Footsteps of the Master,” 2."
+    },
+    {
+      "marker": "132.",
+      "text": "Thomas S. Monson, “I Know That My Redeemer Lives,”EnsignorLiahona,May 2007, 25."
+    },
+    {
+      "marker": "133.",
+      "text": "Russell M. Nelson, “We Are Better Because of Him,” 29."
+    },
+    {
+      "marker": "134.",
+      "text": "Russell M. Nelson, “We Are Better Because of Him,” 29–30."
+    },
+    {
+      "marker": "135.",
+      "text": "Quoted by Sheri Dew, in Tad Walch, “Tears, Pain, Joyful Memories as Mormon Leaders Remember President Monson,”Deseret News,Jan. 3, 2018,deseret.com/2018/1/3/20637926."
+    },
+    {
+      "marker": "136.",
+      "text": "In Sarah Jane Weaver, “Those with Much Should Reach Out,”Church News,Feb. 6, 2010, 5,thechurchnews.com/archives/2010-02-06/helping-hand-should-reach-out-66954."
+    },
+    {
+      "marker": "137.",
+      "text": "In Gerry Avant, “Oct. 4 Is President Monson’s 50-Year Anniversary as Apostle,”Church News,Oct. 3, 2013, 4,ChurchofJesusChrist.org/church/news/oct-4-is-president-monsons-50-year-anniversary-as-apostle."
+    },
+    {
+      "marker": "14.",
+      "text": "Thomas S. Monson, “Abundantly Blessed,”EnsignorLiahona,May 2008, 111. President Monson’s great-uncle Elias Monson served in the Swedish Mission from 1906 to 1908."
+    },
+    {
+      "marker": "15.",
+      "text": "In Heidi S. Swinton,To the Rescue: The Biography of Thomas S. Monson(2010), 92. Used by permission of Deseret Book Company."
+    },
+    {
+      "marker": "16.",
+      "text": "In Heidi S. Swinton,To the Rescue,131."
+    },
+    {
+      "marker": "17.",
+      "text": "Thomas S. Monson, in Conference Report, Oct. 1963, 14."
+    },
+    {
+      "marker": "18.",
+      "text": "See Thomas S. Monson, “The Bishop—Center Stage in Welfare,”Ensign,Nov. 1980, 89."
+    },
+    {
+      "marker": "19.",
+      "text": "Thomas S. Monson, “Yellow Canaries with Gray on Their Wings,”Ensign,Aug. 1987, 2."
+    },
+    {
+      "marker": "2.",
+      "text": "Thomas S. Monson journal, July 25, 1982."
+    },
+    {
+      "marker": "20.",
+      "text": "Thomas S. Monson, “The Bishop—Center Stage in Welfare,” 90."
+    },
+    {
+      "marker": "21.",
+      "text": "Thomas S. Monson, “Stand in Your Appointed Place,”EnsignorLiahona,May 2003, 57."
+    },
+    {
+      "marker": "22.",
+      "text": "See Heidi S. Swinton,To the Rescue,136."
+    },
+    {
+      "marker": "23.",
+      "text": "See Thomas S. Monson, “Sugar Beets and the Worth of a Soul,”Ensign,July 2009, 6–7."
+    },
+    {
+      "marker": "24.",
+      "text": "Letter from Richard Casto, in Heidi S. Swinton,To the Rescue,158–59; see alsoOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "25.",
+      "text": "Thomas S. Monson journal, July 7, 2009."
+    },
+    {
+      "marker": "26.",
+      "text": "Thomas S. Monson, “A Provident Plan—A Precious Promise,”Ensign,May 1986, 64."
+    },
+    {
+      "marker": "27.",
+      "text": "Thomas S. Monson,On the Lord’s Errand: Memoirs of Thomas S. Monson(self-published, 1985), 137."
+    },
+    {
+      "marker": "28.",
+      "text": "Thomas S. Monson, “A Provident Plan—A Precious Promise,” 65. These German words translate to “my brother” in English. See alsoOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "29.",
+      "text": "In Heidi S. Swinton,To the Rescue,150."
+    },
+    {
+      "marker": "3.",
+      "text": "InOn the Lord’s Errand(video),ChurchofJesusChrist.org/study/video/feature-films/2009-09-01-on-the-lords-errand-the-life-of-thomas-s-monson; quoted in William R. Walker, “Follow the Prophet,”Ensign,Apr. 2014, 40."
+    },
+    {
+      "marker": "30.",
+      "text": "See Heidi S. Swinton,To the Rescue,243."
+    },
+    {
+      "marker": "31.",
+      "text": "Thomas S. Monson, remarks given at the dedication of the Church History Library, June 20, 2009, 3, Church History Library, Salt Lake City."
+    },
+    {
+      "marker": "32.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: Man of Action, Man of Faith, Always ‘on the Lord’s Errand,’”Ensign,Feb. 1986, 16."
+    },
+    {
+      "marker": "33.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson,”Ensign,Feb. 1986, 17; see alsoOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "34.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson,”Ensign,Feb. 1986, 17."
+    },
+    {
+      "marker": "35.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: In the Footsteps of the Master,” 9."
+    },
+    {
+      "marker": "36.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson: In the Footsteps of the Master,” 8."
+    },
+    {
+      "marker": "37.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson,”Ensign,Feb. 1986, 17."
+    },
+    {
+      "marker": "38.",
+      "text": "In Heidi S. Swinton,To the Rescue,112."
+    },
+    {
+      "marker": "39.",
+      "text": "On the Lord’s Errand: Memoirs of Thomas S. Monson,177."
+    },
+    {
+      "marker": "4.",
+      "text": "Thomas S. Monson, “Your Jericho Road,”Ensign,May 1977, 72–73."
+    },
+    {
+      "marker": "40.",
+      "text": "See Heidi S. Swinton,To the Rescue,173. From Thomas S. Monson, address given at Harold B. Lee Library dedication, Nov. 15, 2000, 3."
+    },
+    {
+      "marker": "41.",
+      "text": "In Heidi S. Swinton,To the Rescue,184."
+    },
+    {
+      "marker": "42.",
+      "text": "In Jeffrey R. Holland, “President Thomas S. Monson,”Ensign,Feb. 1986, 14."
+    },
+    {
+      "marker": "43.",
+      "text": "In Heidi S. Swinton,To the Rescue,196."
+    },
+    {
+      "marker": "44.",
+      "text": "See Heidi S. Swinton,To the Rescue,186–87; Thomas S. Monson,Faith Rewarded: A Personal Account of Prophetic Promises to the East German Saints(1996), 27–28. Used by permission of Deseret Book Company."
+    },
+    {
+      "marker": "45.",
+      "text": "SeeOn the Lord’s Errand: Memoirs of Thomas S. Monson,240."
+    },
+    {
+      "marker": "46.",
+      "text": "SeeOn the Lord’s Errand: Memoirs of Thomas S. Monson,241."
+    },
+    {
+      "marker": "47.",
+      "text": "On the Lord’s Errand: Memoirs of Thomas S. Monson,207; see alsoOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "48.",
+      "text": "In Heidi S. Swinton,To the Rescue,176."
+    },
+    {
+      "marker": "49.",
+      "text": "On the Lord’s Errand: Memoirs of Thomas S. Monson,245–46; see alsoOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "5.",
+      "text": "Jeffrey R. Holland, “President Thomas S. Monson: In the Footsteps of the Master,” inPresident Thomas S. Monson: Sixteenth President of The Church of Jesus Christ of Latter-day Saints(supplement to theEnsign,June 2008), 4."
+    },
+    {
+      "marker": "50.",
+      "text": "In Heidi S. Swinton,To the Rescue,216."
+    },
+    {
+      "marker": "51.",
+      "text": "In Gerry Avant, “From Tomboy to Apostle’s Ideal Wife,”Church News,Apr. 26, 1975, 13."
+    },
+    {
+      "marker": "52.",
+      "text": "Doctrine and Covenants 107:23."
+    },
+    {
+      "marker": "53.",
+      "text": "Thomas S. Monson, in Conference Report, Oct. 1963, 14; see also video excerpt of the address inOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "54.",
+      "text": "Thomas S. Monson, “Mark E. Peterson: A Giant among Men,”Ensign,Mar. 1984, 11."
+    },
+    {
+      "marker": "55.",
+      "text": "In Heidi S. Swinton,To the Rescue,239."
+    },
+    {
+      "marker": "56.",
+      "text": "In Heidi S. Swinton,To the Rescue,411."
+    },
+    {
+      "marker": "57.",
+      "text": "Thomas S. Monson, “The Lighthouse of the Lord: A Message to the Youth of the Church,”Ensign,Feb. 2001, 6; see also Heidi S. Swinton,To the Rescue,265."
+    },
+    {
+      "marker": "58.",
+      "text": "In Heidi S. Swinton,To the Rescue,274."
+    },
+    {
+      "marker": "59.",
+      "text": "In Heidi S. Swinton,To the Rescue,279."
+    },
+    {
+      "marker": "6.",
+      "text": "In Gerry Avant, “On Lord’s Errand Since His Boyhood,”Church News,Feb. 9, 2008, 4; see also “Elder Monson: Caring,”Church News,June 23, 1985, 4."
+    },
+    {
+      "marker": "60.",
+      "text": "In Heidi S. Swinton,To the Rescue,291."
+    },
+    {
+      "marker": "61.",
+      "text": "Thomas S. Monson, “Patience—A Heavenly Virtue,”Ensign,Nov. 1995, 61."
+    },
+    {
+      "marker": "62.",
+      "text": "See Thomas S. Monson,Faith Rewarded,35–38."
+    },
+    {
+      "marker": "63.",
+      "text": "Thomas S. Monson, “Thanks Be to God,”Ensign,May 1989, 51."
+    },
+    {
+      "marker": "64.",
+      "text": "In Heidi S. Swinton,To the Rescue,309."
+    },
+    {
+      "marker": "65.",
+      "text": "Thomas S. Monson, “Thanks Be to God,” 51."
+    },
+    {
+      "marker": "66.",
+      "text": "Thomas S. Monson,Faith Rewarded,88, 91."
+    },
+    {
+      "marker": "67.",
+      "text": "Thomas S. Monson,Faith Rewarded,104–5."
+    },
+    {
+      "marker": "68.",
+      "text": "Thomas S. Monson,Faith Rewarded,106."
+    },
+    {
+      "marker": "69.",
+      "text": "Thomas S. Monson, “Thanks Be to God,” 52."
+    },
+    {
+      "marker": "7.",
+      "text": "Thomas S. Monson, “An Attitude of Gratitude,”Ensign,Feb. 2000, 4."
+    },
+    {
+      "marker": "70.",
+      "text": "Russell M. Nelson, “We Are Better Because of Him,”In Memoriam: President Thomas S. Monson, 1927–2018(supplement to theEnsign,Feb. 2018), 30."
+    },
+    {
+      "marker": "71.",
+      "text": "Thomas S. Monson, “Thanks Be to God,” 52."
+    },
+    {
+      "marker": "72.",
+      "text": "See Heidi S. Swinton,To the Rescue,334–35."
+    },
+    {
+      "marker": "73.",
+      "text": "Thomas S. Monson,Faith Rewarded,165."
+    },
+    {
+      "marker": "74.",
+      "text": "Thomas S. Monson, “Who Honors God, God Honors,”Ensign,Nov. 1995, 48."
+    },
+    {
+      "marker": "75.",
+      "text": "Thomas S. Monson, “Examples of Great Teachers,”Ensign,June 2007, 108."
+    },
+    {
+      "marker": "76.",
+      "text": "In Heidi S. Swinton,To the Rescue,120."
+    },
+    {
+      "marker": "77.",
+      "text": "In Heidi S. Swinton,To the Rescue,389."
+    },
+    {
+      "marker": "78.",
+      "text": "Thomas S. Monson, “Come, Learn of Me,”Ensign,Dec. 1985, 48."
+    },
+    {
+      "marker": "79.",
+      "text": "See Heidi S. Swinton,To the Rescue,385."
+    },
+    {
+      "marker": "8.",
+      "text": "Thomas S. Monson, “Hallmarks of a Happy Home,”Ensign,Oct. 2001, 6–7."
+    },
+    {
+      "marker": "80.",
+      "text": "Thomas S. Monson journal, Jan. 18, 1986."
+    },
+    {
+      "marker": "81.",
+      "text": "In “Toronto Temple Dedicated,”Ensign,Nov. 1990, 104–5; see also Thomas S. Monson, “Days Never to Be Forgotten,”Ensign,Nov. 1990, 67–70."
+    },
+    {
+      "marker": "82.",
+      "text": "In Heidi S. Swinton,To the Rescue,433."
+    },
+    {
+      "marker": "83.",
+      "text": "In Heidi S. Swinton,To the Rescue,471."
+    },
+    {
+      "marker": "84.",
+      "text": "In Heidi S. Swinton,To the Rescue,488–89."
+    },
+    {
+      "marker": "85.",
+      "text": "In Heidi S. Swinton,To the Rescue,467, 470."
+    },
+    {
+      "marker": "86.",
+      "text": "In Heidi S. Swinton,To the Rescue,493."
+    },
+    {
+      "marker": "87.",
+      "text": "In Julie Dockstader Heaps, “He Was a ‘Giant’ of Faith, Love, and Vision,”Church News,Feb. 9, 2008, 10."
+    },
+    {
+      "marker": "88.",
+      "text": "In “16th President Fields Questions from Media,”Church News,Feb. 9, 2008, 15."
+    },
+    {
+      "marker": "89.",
+      "text": "In “The Lord’s Work Will Continue Forward,”Church News,Feb. 9, 2008, 3."
+    },
+    {
+      "marker": "9.",
+      "text": "InOn the Lord’s Errand(video)."
+    },
+    {
+      "marker": "90.",
+      "text": "Thomas S. Monson, “Looking Back and Moving Forward,”EnsignorLiahona,May 2008, 90."
+    },
+    {
+      "marker": "91.",
+      "text": "Thomas S. Monson, “As We Meet Again,”EnsignorLiahona,Nov. 2011, 4."
+    },
+    {
+      "marker": "92.",
+      "text": "See Thomas S. Monson, “The Holy Temple—a Beacon to the World,”EnsignorLiahona,May 2011, 93."
+    },
+    {
+      "marker": "93.",
+      "text": "Thomas S. Monson, “As We Meet Again,” 4."
+    },
+    {
+      "marker": "94.",
+      "text": "See Thomas S. Monson, “Hastening the Work,”Ensign,June 2014, 4."
+    },
+    {
+      "marker": "95.",
+      "text": "Thomas S. Monson, “The Holy Temple—A Beacon to the World,” 93."
+    },
+    {
+      "marker": "96.",
+      "text": "Thomas S. Monson, “The Holy Temple—A Beacon to the World,” 92."
+    },
+    {
+      "marker": "97.",
+      "text": "Thomas S. Monson, “The Holy Temple—A Beacon to the World,” 94."
+    },
+    {
+      "marker": "98.",
+      "text": "Thomas S. Monson, “Welcome to Conference,”EnsignorLiahona,Nov. 2012, 4–5."
+    },
+    {
+      "marker": "99.",
+      "text": "Neil L. Andersen, “It’s a Miracle,”EnsignorLiahona,May 2013, 78."
+    }
+  ],
+  "scripture_refs": [
+    "137",
+    "138",
+    "76th section of the Doctrine and Covenants",
+    "Acts 10:38",
+    "Acts 20:35",
+    "Bible Dictionary",
+    "Doctrine and Covenants 107:23",
+    "Doctrine and Covenants 84:88",
+    "Ephesians 2:20",
+    "Luke 7:11–15",
+    "Matthew 23:11",
+    "Matthew 25:40",
+    "Official Declaration 2",
+    "Rev. 3:20",
+    "Topical Guide"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Spirit World",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/spirit-world-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Joseph Fielding Smith,Answers to Gospel Questions(1958), 2:85."
+    },
+    {
+      "marker": "2.",
+      "text": "Weatherford T. Clayton, “Our Father’s Glorious Plan,”EnsignorLiahona, May 2017, 26."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “Hope of Israel” (worldwide devotional for youth, June 3, 2018), Gospel Library."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corinthians 15:51–55, 57",
+    "1 Peter 3:18–20",
+    "1 Peter 3:18–22",
+    "2 Nephi 9:4–13",
+    "4:6",
+    "Alma 11:42–43",
+    "Alma 11:45",
+    "Alma 22:14",
+    "Alma 34:32–34",
+    "Alma 40:11–13",
+    "Alma 40:12",
+    "Alma 40:6–14",
+    "Doctrine and Covenants 128:22",
+    "Doctrine and Covenants 138:11–24",
+    "Doctrine and Covenants 138:12–14, 20–22",
+    "Doctrine and Covenants 138:16–19, 50–52",
+    "Doctrine and Covenants 138:29–37, 57–59",
+    "Doctrine and Covenants 138:32",
+    "Doctrine and Covenants 138:53–56",
+    "Doctrine and Covenants 19:16–18",
+    "Doctrine and Covenants 76:81–85",
+    "Doctrine and Covenants 138",
+    "John 5:25–29",
+    "Mormon 7:5",
+    "Mosiah 16:8",
+    "Scriptures"
+  ]
+}

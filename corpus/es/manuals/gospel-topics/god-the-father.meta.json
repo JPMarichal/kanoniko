@@ -1,0 +1,51 @@
+{
+  "title": "Dios el Padre",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/god-the-father?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrina y Convenios 130:22."
+    },
+    {
+      "marker": "2.",
+      "text": "VéaseMoisés 2:1."
+    },
+    {
+      "marker": "3.",
+      "text": "Alma 30:44."
+    },
+    {
+      "marker": "4.",
+      "text": "Moisés 1:39."
+    },
+    {
+      "marker": "5.",
+      "text": "Juan 3:16."
+    },
+    {
+      "marker": "6.",
+      "text": "Juan 14:7, 9."
+    }
+  ],
+  "scripture_refs": [
+    "Alma 30:44",
+    "Doctrina y Convenios 130:22",
+    "Escrituras",
+    "Juan 14:7, 9",
+    "Juan 3:16",
+    "Moisés 1:39",
+    "Moisés 2:1"
+  ]
+}

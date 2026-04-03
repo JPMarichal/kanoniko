@@ -1,0 +1,45 @@
+{
+  "title": "Media",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/media?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Spencer W. Kimball, “When the World Will Be Converted,”Ensign, Oct. 1974, 10."
+    },
+    {
+      "marker": "2.",
+      "text": "David A. Bednar, “To Sweep the Earth as with a Flood” (Brigham Young University Education Week devotional, Aug. 19, 2014), Gospel Library."
+    },
+    {
+      "marker": "3.",
+      "text": "Dieter F. Uchtdorf, “Missionary Work: Sharing What Is in Your Heart,”EnsignorLiahona, May 2019, 15–18."
+    },
+    {
+      "marker": "4.",
+      "text": "David A. Bednar, “To Sweep the Earth as with a Flood.”"
+    },
+    {
+      "marker": "5.",
+      "text": "Gary E. Stevenson, “Spiritual Eclipse,”EnsignorLiahona, Nov. 2017, 44–47."
+    },
+    {
+      "marker": "6.",
+      "text": "M. Russell Ballard, “Let Our Voices Be Heard,”EnsignorLiahona, Nov. 2003, 16–19."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 58:64"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Templos",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/temples?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Nefi 5:16",
+    "2 Samuel 7:4–6",
+    "Doctrina y Convenios 109:1–4",
+    "Doctrina y Convenios 110:7–8",
+    "Doctrina y Convenios 138:47–48",
+    "Guía para el Estudio de las Escrituras, “Templo, Casa del Señor”",
+    "Mateo 21:12–16"
+  ]
+}

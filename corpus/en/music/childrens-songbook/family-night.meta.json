@@ -1,0 +1,22 @@
+{
+  "title": "Family Night",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/family-night?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 165,
+  "first_line": "This is the night we’ve waited for;",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrine and Covenants 68:25–28",
+    "Deuteronomy 11:19"
+  ]
+}

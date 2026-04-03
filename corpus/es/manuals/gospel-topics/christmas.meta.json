@@ -1,0 +1,30 @@
+{
+  "title": "Navidad",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/christmas?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Thomas S. Monson, “Porque Él vino” (devocional de Navidad de la Primera Presidencia, 4 de diciembre de 2011), broadcasts.ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "2.",
+      "text": "Juan 3:16."
+    }
+  ],
+  "scripture_refs": [
+    "Escrituras",
+    "Juan 3:16"
+  ]
+}

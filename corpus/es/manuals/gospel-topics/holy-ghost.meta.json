@@ -1,0 +1,64 @@
+{
+  "title": "Espíritu Santo",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/holy-ghost?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "2 Nefi 31:18."
+    },
+    {
+      "marker": "2.",
+      "text": "Moroni 10:5."
+    },
+    {
+      "marker": "3.",
+      "text": "VéaseDoctrina y Convenios 46:9–11."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseJuan 14:26."
+    },
+    {
+      "marker": "5.",
+      "text": "Moroni 8:26."
+    },
+    {
+      "marker": "6.",
+      "text": "Doctrina y Convenios 36:2."
+    },
+    {
+      "marker": "7.",
+      "text": "VéanseMosíah 5:1–6;3 Nefi 27:20;Moisés 6:64–68."
+    },
+    {
+      "marker": "8.",
+      "text": "VéanseEfesios 1:13;Doctrina y Convenios 132:7, 18–19, 26."
+    }
+  ],
+  "scripture_refs": [
+    "2 Nefi 31:18",
+    "3 Nefi 27:20",
+    "Doctrina y Convenios 36:2",
+    "Doctrina y Convenios 132:7, 18–19, 26",
+    "Doctrina y Convenios 46:9–11",
+    "Efesios 1:13",
+    "Escrituras",
+    "Juan 14:26",
+    "Moisés 6:64–68",
+    "Moroni 10:5",
+    "Moroni 8:26",
+    "Mosíah 5:1–6"
+  ]
+}

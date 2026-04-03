@@ -1,0 +1,42 @@
+{
+  "title": "Church Councils",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/church-councils?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeGeneral Handbook: Serving in The Church of Jesus Christ of Latter-day Saints,4.4.1."
+    },
+    {
+      "marker": "2.",
+      "text": "General Handbook,4.4.3."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeGeneral Handbook,4.4.4."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeDoctrine and Covenants 88:122."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeDoctrine and Covenants 107:27–31."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 107:27–31",
+    "Doctrine and Covenants 88:122"
+  ]
+}

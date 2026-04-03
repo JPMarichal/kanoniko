@@ -1,0 +1,46 @@
+{
+  "title": "Grace",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/grace?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See1 Corinthians 15:20–22;2 Nephi 9:6–13."
+    },
+    {
+      "marker": "2.",
+      "text": "See1 John 1:8–10;Mosiah 16:4."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeEphesians 2:8–9;James 2:17–22;2 Nephi 25:23;31:20."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeEther 12:27."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corinthians 15:20–22",
+    "1 John 1:8–10",
+    "2 Nephi 25:23",
+    "2 Nephi 9:6–13",
+    "31:20",
+    "Ephesians 2:8–9",
+    "Ether 12:27",
+    "James 2:17–22",
+    "Mosiah 16:4",
+    "Scriptures"
+  ]
+}

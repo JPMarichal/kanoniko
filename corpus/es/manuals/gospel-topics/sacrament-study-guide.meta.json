@@ -1,0 +1,43 @@
+{
+  "title": "Santa Cena",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/sacrament-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "David A. Bednar, “Siempre retendréis la remisión de vuestros pecados”,Liahona, mayo de 2016, pág. 61."
+    },
+    {
+      "marker": "2.",
+      "text": "Himnos, nros.119,102."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corintios 11:23–29",
+    "3 Nefi 18:1–11",
+    "Doctrina y Convenios 20:37",
+    "Doctrina y Convenios 20:75–79",
+    "Doctrina y Convenios 27:1–2",
+    "Doctrina y Convenios 59:9–12",
+    "Juan 6:22–69",
+    "Juan 6:54",
+    "Las Escrituras",
+    "Lucas 22:19–20",
+    "Marcos 14:22–24",
+    "Mateo 26:26–28",
+    "Mosiés 5:4–8",
+    "Traducción de José Smith, Marcos 14:20–25",
+    "Traducción de José Smith, Mateo 26:22, 24–25"
+  ]
+}

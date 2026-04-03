@@ -1,0 +1,22 @@
+{
+  "title": "The Nativity Song",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/the-nativity-song?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 51,
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Luke 2:1–16",
+    "Matthew 2:1–11"
+  ]
+}

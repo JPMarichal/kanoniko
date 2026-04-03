@@ -1,0 +1,42 @@
+{
+  "title": "Employment",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/employment?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“The Family: A Proclamation to the World,”ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrine and Covenants 58:27."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrine and Covenants 58:27."
+    },
+    {
+      "marker": "4.",
+      "text": "L. Tom Perry, “The Joy of Honest Labor,”Ensign, Nov. 1986, 62."
+    },
+    {
+      "marker": "5.",
+      "text": "David O. McKay,Pathways to Happiness(1957), 381."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 58:27",
+    "The Family: A Proclamation to the World"
+  ]
+}

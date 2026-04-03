@@ -1,0 +1,60 @@
+{
+  "title": "Word of Wisdom",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/word-of-wisdom?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeDoctrine and Covenants 89:10–11."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeDoctrine and Covenants 89:12–13."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeDoctrine and Covenants 89:14–17."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeDoctrine and Covenants 89:5–7."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeDoctrine and Covenants 89:8."
+    },
+    {
+      "marker": "6.",
+      "text": "SeeDoctrine and Covenants 89:9; latter-day prophets have taught that the term “hot drinks,” as written in this verse, refers to tea and coffee."
+    },
+    {
+      "marker": "7.",
+      "text": "SeeDoctrine and Covenants 89:18–21."
+    },
+    {
+      "marker": "8.",
+      "text": "SeeGeneral Handbook: Serving in The Church of Jesus Christ of Latter-day Saints,38.7.8, Gospel Library; “Statement on the Word of Wisdom,” Aug. 15, 2019,newsroom.ChurchofJesusChrist.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 89:10–11",
+    "Doctrine and Covenants 89:12–13",
+    "Doctrine and Covenants 89:14–17",
+    "Doctrine and Covenants 89:18–21",
+    "Doctrine and Covenants 89:5–7",
+    "Doctrine and Covenants 89:8",
+    "Doctrine and Covenants 89:9",
+    "Scriptures"
+  ]
+}

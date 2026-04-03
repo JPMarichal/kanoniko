@@ -1,0 +1,56 @@
+{
+  "title": "Witness",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/witness?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrine and Covenants 6:28; see alsoMatthew 18:16."
+    },
+    {
+      "marker": "2.",
+      "text": "“The Testimony of Three Witnesses,” Book of Mormon."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeDoctrine and Covenants 13;110;Joseph Smith—History 1:68–72."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeDoctrine and Covenants 20:77, 79."
+    },
+    {
+      "marker": "5.",
+      "text": "Doctrine and Covenants 107:23; see alsoActs 1:21–22;4:33."
+    },
+    {
+      "marker": "6.",
+      "text": "Mosiah 18:9."
+    }
+  ],
+  "scripture_refs": [
+    "110",
+    "4:33",
+    "Acts 1:21–22",
+    "Doctrine and Covenants 107:23",
+    "Doctrine and Covenants 13",
+    "Doctrine and Covenants 20:77, 79",
+    "Doctrine and Covenants 6:28",
+    "Joseph Smith—History 1:68–72",
+    "Matthew 18:16",
+    "Mosiah 18:9",
+    "Scriptures",
+    "The Testimony of Three Witnesses"
+  ]
+}

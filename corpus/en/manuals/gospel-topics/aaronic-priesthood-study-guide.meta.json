@@ -1,0 +1,55 @@
+{
+  "title": "Aaronic Priesthood",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/aaronic-priesthood-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Gordon B. Hinckley, “The Aaronic Priesthood—a Gift from God,”Ensign, May 1988, 46."
+    },
+    {
+      "marker": "2.",
+      "text": "Gordon B. Hinckley, “The Priesthood of Aaron,”Ensign, Nov. 1982, 44."
+    }
+  ],
+  "scripture_refs": [
+    "107:20",
+    "27:7–8",
+    "84:26",
+    "84:26–27",
+    "Aaronic Priesthood",
+    "Doctrine and Covenants 107:1, 6, 13–14",
+    "Doctrine and Covenants 107:14",
+    "Doctrine and Covenants 107:85–88",
+    "Doctrine and Covenants 13:1",
+    "Doctrine and Covenants 68:16–18",
+    "Doctrine and Covenants 84:18",
+    "Doctrine and Covenants 84:23–27",
+    "Doctrine and Covenants 84:26–27",
+    "Doctrine and Covenants 13",
+    "Exodus 28:1–4",
+    "John 1:15–34",
+    "John 5:32–35",
+    "Joseph Smith—History",
+    "Joseph Smith—History 1:68–72",
+    "Leviticus 8:1–13",
+    "Luke 3:1–22",
+    "Luke 7:24–30",
+    "Luke 9:1–2",
+    "Mark 1:1–11",
+    "Matthew 11:7–13",
+    "Matthew 3",
+    "Scriptures"
+  ]
+}

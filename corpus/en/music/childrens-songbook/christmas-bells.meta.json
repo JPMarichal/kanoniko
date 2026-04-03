@@ -1,0 +1,22 @@
+{
+  "title": "Christmas Bells",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/christmas-bells?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 52,
+  "first_line": "Christmas bells are ringing.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Luke 2:10–12",
+    "Matthew 2:1"
+  ]
+}

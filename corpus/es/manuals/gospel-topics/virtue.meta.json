@@ -1,0 +1,27 @@
+{
+  "title": "Virtud",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/virtue?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Pedro 1:5",
+    "Alma 31:5",
+    "Artículos de Fe 1:13",
+    "Doctrina y Convenios 121:45",
+    "Doctrina y Convenios 4:6",
+    "Filipenses 4:8",
+    "Integridad",
+    "Salmo 24:3–4",
+    "Virtud"
+  ]
+}

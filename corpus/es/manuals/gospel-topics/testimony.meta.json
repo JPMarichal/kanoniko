@@ -1,0 +1,30 @@
+{
+  "title": "Testimonio",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/testimony?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "1 Corintios 2:9–14",
+    "36:8, 22",
+    "Alma 32:27)",
+    "Alma 5:45–46",
+    "Doctrina y Convenios 62:3",
+    "Doctrina y Convenios 6:22–23",
+    "Doctrina y Convenios 76:51, 74, 101",
+    "Doctrina y Convenios 76:79",
+    "Doctrina y Convenios 88:81",
+    "Juan 7:17",
+    "Moroni 10:3–5",
+    "Santiago 1:5–6"
+  ]
+}

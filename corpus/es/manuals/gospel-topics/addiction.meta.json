@@ -1,0 +1,34 @@
+{
+  "title": "Adicción",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/addiction?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "VéaseLucas 1:37."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Boyd K. Packer, “La revelación en un mundo inconstante”,Liahona, enero de 1990, pág. 14."
+    },
+    {
+      "marker": "3.",
+      "text": "M. Russell Ballard, “¡Oh ese sutil plan del maligno!”,Liahona, noviembre de 2010, pág. 110."
+    }
+  ],
+  "scripture_refs": [
+    "Filipenses 4:13",
+    "Lucas 1:37"
+  ]
+}

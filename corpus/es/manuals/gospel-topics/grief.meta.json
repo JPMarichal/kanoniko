@@ -1,0 +1,27 @@
+{
+  "title": "Pesar",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/grief?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Corintios 2:7–8",
+    "4 Nefi 1:44",
+    "Alma 7:11–12",
+    "Doctrina y Convenios 121:1–10",
+    "Doctrina y Convenios 127:2",
+    "Isaías 53:3–10",
+    "Isaías 53:4–5",
+    "Job 6:2",
+    "Juan 5:1–9"
+  ]
+}

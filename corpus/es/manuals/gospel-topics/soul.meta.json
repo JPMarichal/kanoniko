@@ -1,0 +1,26 @@
+{
+  "title": "Alma",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/soul?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 1,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase Guía para el Estudio de las Escrituras, “Alma”, Biblioteca del Evangelio."
+    }
+  ],
+  "scripture_refs": [
+    "Alma",
+    "Escrituras"
+  ]
+}

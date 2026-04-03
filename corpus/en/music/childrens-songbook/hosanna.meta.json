@@ -1,0 +1,24 @@
+{
+  "title": "Hosanna",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/hosanna?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 64,
+  "author": "Rita S. Robinson, b. 1920. © 1969 IRI Music: Rita S. Robinson, b. 1920; arr. by Chester W. Hill, b. 1912. © 1969 IRI",
+  "composer": "Rita S. Robinson, b. 1920; arr. by Chester W. Hill, b. 1912. © 1969 IRI",
+  "first_line": "Hosanna! Let our voices ring",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrine and Covenants 19:37",
+    "John 12:12–13"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Tithing",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/tithing?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeDoctrine and Covenants 119:3–4."
+    },
+    {
+      "marker": "2.",
+      "text": "Malachi 3:10."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeDoctrine and Covenants 120:1."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 119:3–4",
+    "Doctrine and Covenants 120:1",
+    "Genesis 14:17–20",
+    "Malachi 3:10",
+    "Scriptures"
+  ]
+}

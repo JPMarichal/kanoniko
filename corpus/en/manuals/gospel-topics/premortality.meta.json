@@ -1,0 +1,43 @@
+{
+  "title": "Premortality",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/premortality?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeAbraham 3:22–26."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeMoses 4:2;Abraham 3:27."
+    },
+    {
+      "marker": "3.",
+      "text": "Moses 4:3."
+    },
+    {
+      "marker": "4.",
+      "text": "SeeMoses 4:4;Abraham 3:27–28."
+    }
+  ],
+  "scripture_refs": [
+    "Abraham 3:22–26",
+    "Abraham 3:27",
+    "Abraham 3:27–28",
+    "Moses 4:2",
+    "Moses 4:3",
+    "Moses 4:4",
+    "Scriptures"
+  ]
+}

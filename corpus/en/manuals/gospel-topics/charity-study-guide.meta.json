@@ -1,0 +1,73 @@
+{
+  "title": "Charity",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/charity-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Teachings of Presidents of the Church: Joseph Smith(2011),426."
+    },
+    {
+      "marker": "2.",
+      "text": "Hymns,no. 87."
+    },
+    {
+      "marker": "3.",
+      "text": "Children’s Songbook,228."
+    },
+    {
+      "marker": "4.",
+      "text": "Jeffrey R. Holland, “Tomorrow the Lord Will Do Wonders among You,”EnsignorLiahona, May 2016, 127."
+    },
+    {
+      "marker": "5.",
+      "text": "President Dallin H. Oaks taught that “the reason charity never fails and the reason charity is greater than even the most significant acts of goodness [that the Apostle Paul] cited [in1 Corinthians 13] is that charity, ‘the pure love of Christ’ (Moro. 7:47), is not anactbut aconditionor state of being. Charity is attained through a succession of acts that result in a conversion. Charity is something one becomes” (“The Challenge to Become,”Ensign, Nov. 2000, 34)."
+    },
+    {
+      "marker": "6.",
+      "text": "Russell M. Nelson, “Peacemakers Needed,”Liahona, May 2023, 100."
+    },
+    {
+      "marker": "7.",
+      "text": "Dieter F. Uchtdorf, “In Praise of Those Who Save,”EnsignorLiahona, May 2016, 80."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corinthians 13:1–7",
+    "1 Corinthians 13",
+    "1 John 3:16–18",
+    "1 Nephi 19:9",
+    "2 Nephi 26:30",
+    "4:7–11, 18–19",
+    "8:26",
+    "Doctrine and Covenants 121:45–46",
+    "Doctrine and Covenants 59:5",
+    "Ether 12:34",
+    "John 13:35",
+    "Luke 10:30–37",
+    "Luke 23:34",
+    "Luke 7:22",
+    "Matthew 26:39",
+    "Moro. 7:47",
+    "Moroni 7:44",
+    "Moroni 7:45",
+    "Moroni 7:45–47",
+    "Moroni 7:46–47",
+    "Moroni 7:47",
+    "Moroni 7:48",
+    "Scriptures",
+    "verses 4–7",
+    "verse 8"
+  ]
+}

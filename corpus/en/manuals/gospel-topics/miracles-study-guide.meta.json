@@ -1,0 +1,73 @@
+{
+  "title": "Miracles",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/miracles-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Russell M. Nelson, “Come, Follow Me,”EnsignorLiahona, May 2019, 90."
+    },
+    {
+      "marker": "2.",
+      "text": "Ronald A. Rasband, “Behold! I Am a God of Miracles,”Liahona, May 2021, 111."
+    },
+    {
+      "marker": "3.",
+      "text": "Howard W. Hunter, “The God That Doest Wonders,”Ensign, May 1989, 16."
+    },
+    {
+      "marker": "4.",
+      "text": "Russell M. Nelson, “The Power of Spiritual Momentum,”Liahona, May 2022, 99–100."
+    },
+    {
+      "marker": "5.",
+      "text": "Ronald A. Rasband, “Behold! I Am a God of Miracles,”Liahona, May 2021, 111."
+    }
+  ],
+  "scripture_refs": [
+    "1 Kings 17:8–24",
+    "2 Nephi 27:23",
+    "2 Nephi 28:3–6",
+    "3 Nephi 17:6–9",
+    "3 Nephi 29:6–7",
+    "4 Nephi 1:5",
+    "Acts 3:1–11",
+    "Alma 23:6",
+    "Alma 37:6–7",
+    "Doctrine and Covenants 35:8",
+    "Doctrine and Covenants 63:9–10",
+    "Doctrine and Covenants 84:64–65",
+    "Ether 12:12–18",
+    "Ether 12:6",
+    "John 11:1–45",
+    "John 2:23",
+    "John 5:36",
+    "John 9",
+    "Luke 1:37",
+    "Luke 7:11–16",
+    "Mark 16:17–18",
+    "Mark 6:5–6",
+    "Mathew 9:27–31",
+    "Matthew 11:3–6",
+    "Matthew 4:23",
+    "Mormon 9:15",
+    "Mormon 9:21",
+    "Mormon 9:7–21",
+    "Moroni 7:27–29",
+    "Moroni 7:27–37",
+    "Mosiah 3:5–11",
+    "Psalm 145:9",
+    "Scriptures"
+  ]
+}

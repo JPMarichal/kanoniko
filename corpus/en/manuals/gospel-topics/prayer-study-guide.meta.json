@@ -1,0 +1,77 @@
+{
+  "title": "Prayer",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/prayer-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Dallin H. Oaks, “The Language of Prayer,”Ensign, May 1993, 18."
+    },
+    {
+      "marker": "2.",
+      "text": "Gospel Topics, “Prayer,” Gospel Library."
+    },
+    {
+      "marker": "3.",
+      "text": "Carol F. McConkie, “The Soul’s Sincere Desire,”EnsignorLiahona, Nov. 2016, 25."
+    },
+    {
+      "marker": "4.",
+      "text": "Bible Dictionary, “Prayer.”"
+    }
+  ],
+  "scripture_refs": [
+    "112:10",
+    "11:11–14",
+    "19:6",
+    "1 Kings 19:12",
+    "1 Thessalonians 5:17–18",
+    "2 Nephi 32:8–9",
+    "2 Nephi 4:24",
+    "2 Nephi 4:30–35",
+    "2 Nephi 4:34–35",
+    "3 Nephi 14:7–11",
+    "3 Nephi 17:11–20",
+    "3 Nephi 18:15, 18–19",
+    "3 Nephi 18:19",
+    "3 Nephi 20:1",
+    "Alma 17:3",
+    "Alma 34:17–27",
+    "Alma 37:36–37",
+    "Doctrine and Covenants 10:5",
+    "Doctrine and Covenants 19:28",
+    "Doctrine and Covenants 19:38",
+    "Doctrine and Covenants 64:31–32",
+    "Doctrine and Covenants 88:62–64",
+    "Doctrine and Covenants 88:63–65",
+    "Doctrine and Covenants 8:2–3",
+    "Enos 1:4",
+    "Enos 1:9",
+    "Helaman 3:35",
+    "James 5:16",
+    "Jeremiah 29:12–13",
+    "John 14:13–14",
+    "John 17:1",
+    "Joseph Smith—History 1:14",
+    "Matthew 26:39–44",
+    "Matthew 6:5–13",
+    "Matthew 7:7",
+    "Matthew 7:7–11",
+    "Mosiah 24:11–12",
+    "Mosiah 7:33",
+    "Prayer",
+    "Psalm 55:17",
+    "Scriptures"
+  ]
+}

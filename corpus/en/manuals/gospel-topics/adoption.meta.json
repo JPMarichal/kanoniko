@@ -1,0 +1,60 @@
+{
+  "title": "Adoption",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/adoption?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Matthew 18:14."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeExodus 20:6."
+    },
+    {
+      "marker": "3.",
+      "text": "Ephesians 2:4;Alma 36:3."
+    },
+    {
+      "marker": "4.",
+      "text": "See1 Chronicles 28:20."
+    },
+    {
+      "marker": "5.",
+      "text": "Henry B. Eyring, “Help Them on Their Way Home,”EnsignorLiahona, May 2010, 23."
+    },
+    {
+      "marker": "6.",
+      "text": "SeeDoctrine and Covenants 9:7–8."
+    },
+    {
+      "marker": "7.",
+      "text": "SeeAlma 37:35–37."
+    },
+    {
+      "marker": "8.",
+      "text": "Thomas S. Monson, “Precious Children—A Gift from God,”Ensign, Nov. 1991, 70."
+    }
+  ],
+  "scripture_refs": [
+    "1 Chronicles 28:20",
+    "Alma 36:3",
+    "Alma 37:35–37",
+    "Doctrine and Covenants 9:7–8",
+    "Ephesians 2:4",
+    "Exodus 20:6",
+    "Matthew 18:14",
+    "Scriptures"
+  ]
+}

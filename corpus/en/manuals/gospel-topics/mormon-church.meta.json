@@ -1,0 +1,35 @@
+{
+  "title": "Mormon Church",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/mormon-church?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 0,
+  "scripture_refs": [
+    "3 Nephi 27:3–8",
+    "Bible Dictionary, “Church”",
+    "Doctrine and Covenants 115:4",
+    "Doctrine and Covenants 128:20–21",
+    "Doctrine and Covenants 1:30",
+    "Doctrine and Covenants 20:1",
+    "Doctrine and Covenants 42:12",
+    "Guide to the Scriptures, “Church of Jesus Christ of Latter-day Saints, The”",
+    "Guide to the Scriptures, “Church of Jesus Christ”",
+    "Guide to the Scriptures, “Church, Name of”",
+    "Guide to the Scriptures, “Church, Signs of the True”",
+    "Guide to the Scriptures, “Mormon(s)”",
+    "Guide to the Scriptures, “Restoration of the Gospel”",
+    "Index to the Triple Combination, “Church of God",
+    "Joseph Smith—History 1",
+    "Topical Guide, “Church”",
+    "Topical Guide, “Jesus Christ, Head of the Church”"
+  ]
+}

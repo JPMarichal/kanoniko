@@ -1,0 +1,54 @@
+{
+  "title": "Sacerdocio Aarónico",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/aaronic-priesthood-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Gordon B. Hinckley, “El Sacerdocio Aarónico: Un don de Dios”,Liahona, julio de 1988, pág. 48."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Gordon B. Hinckley, “Los poderes del Sacerdocio Aarónico”,Liahona, enero de 1983, pág. 75."
+    }
+  ],
+  "scripture_refs": [
+    "107:20",
+    "27:7–8",
+    "84:26",
+    "84:26–27",
+    "Doctrina y Convenios 107:1, 6, 13–14",
+    "Doctrina y Convenios 107:14",
+    "Doctrina y Convenios 107:85–88",
+    "Doctrina y Convenios 13:1",
+    "Doctrina y Convenios 68:16–18",
+    "Doctrina y Convenios 84:18",
+    "Doctrina y Convenios 84:23–27",
+    "Doctrina y Convenios 84:26–27",
+    "Doctrina y Convenios 13",
+    "José Smith—Historia",
+    "José Smith—Historia 1:68–72",
+    "Juan 1:15–34",
+    "Juan 5:32–35",
+    "Las Escrituras",
+    "Levítico 8:1–13",
+    "Lucas 3:1–22",
+    "Lucas 7:24–30",
+    "Lucas 9:1–2",
+    "Marcos 1:1–11",
+    "Mateo 11:7–13",
+    "Mateo 3",
+    "Éxodo 28:1–4"
+  ]
+}

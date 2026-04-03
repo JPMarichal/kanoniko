@@ -1,0 +1,36 @@
+{
+  "title": "Consulte fuentes confiables",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/seeking-answers/05-consult-reliable-sources?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Dieter F. Uchtdorf, “Our Search for Truth”,New Era, agosto de 2020, pág. 2."
+    },
+    {
+      "marker": "2.",
+      "text": "Manual General: Servir en La Iglesia de Jesucristo de los Santos de los Últimos Días,38.8.41, Biblioteca del Evangelio."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrina y Convenios 11:13."
+    }
+  ],
+  "scripture_refs": [
+    "2 Timoteo 3:14–16",
+    "Doctrina y Convenios 19:38",
+    "Doctrina y Convenios 11:13",
+    "Jacob 4:13"
+  ]
+}

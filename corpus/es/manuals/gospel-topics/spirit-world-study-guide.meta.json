@@ -1,0 +1,58 @@
+{
+  "title": "Mundo de los espíritus",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/spirit-world-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Joseph Fielding Smith,Answers to Gospel Questions, 1958, tomo II, pág. 85."
+    },
+    {
+      "marker": "2.",
+      "text": "Weatherford T. Clayton, “El glorioso plan de nuestro Padre”,Liahona, mayo de 2017, págs. 26–27."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “Juventud de Israel”, devocional mundial para los jóvenes, 3 de junio de 2018, Biblioteca del Evangelio."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corintios 15:51–55, 57",
+    "1 Pedro 3:18–20",
+    "1 Pedro 3:18–22",
+    "2 Nefi 9:4–13",
+    "4:6",
+    "Alma 11:42–43",
+    "Alma 11:45",
+    "Alma 22:14",
+    "Alma 34:32–34",
+    "Alma 40:11–13",
+    "Alma 40:12",
+    "Alma 40:6–14",
+    "Doctrina y Convenios 128:22",
+    "Doctrina y Convenios 138:11–24",
+    "Doctrina y Convenios 138:12–14, 20–22",
+    "Doctrina y Convenios 138:16–19, 50–52",
+    "Doctrina y Convenios 138:29–37, 57–59",
+    "Doctrina y Convenios 138:32",
+    "Doctrina y Convenios 138:53–56",
+    "Doctrina y Convenios 19:16–18",
+    "Doctrina y Convenios 76:81–85",
+    "Doctrina y Convenios 138",
+    "Juan 5:25–29",
+    "Las Escrituras",
+    "Mormón 7:5",
+    "Mosíah 16:8"
+  ]
+}

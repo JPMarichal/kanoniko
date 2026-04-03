@@ -1,0 +1,68 @@
+{
+  "title": "The Church of Jesus Christ of Latter-day Saints",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/church-organization-study-guide?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Guide to the Scriptures, “Church of Jesus Christ,” Gospel Library."
+    },
+    {
+      "marker": "2.",
+      "text": "Dallin H. Oaks, “The Only True and Living Church,”New Era, Aug. 2011, 3."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeGeneral Handbook: Serving in The Church of Jesus Christ of Latter-day Saints,1.2, Gospel Library."
+    },
+    {
+      "marker": "4.",
+      "text": "John C. Pingree Jr., “I Have a Work for Thee,”EnsignorLiahona, Nov. 2017, 32."
+    },
+    {
+      "marker": "5.",
+      "text": "Gerrit W. Gong, “Room in the Inn,”Liahona, May 2021, 25–26."
+    },
+    {
+      "marker": "6.",
+      "text": "Gary E. Stevenson, “Love, Share, Invite,”Liahona, May 2022, 86–87."
+    },
+    {
+      "marker": "7.",
+      "text": "Boyd K. Packer, “The Reason for Our Hope,”EnsignorLiahona, Nov. 2014, 8."
+    }
+  ],
+  "scripture_refs": [
+    "124:1",
+    "1 Corinthians 12:12–18",
+    "1 Corinthians 12:12–27",
+    "1 Corinthians 1:27–28",
+    "20:1–2",
+    "2 Nephi 26:33",
+    "Articles of Faith 1:6",
+    "Church of Jesus Christ",
+    "D&C 35:13",
+    "Doctrine and Covenants 115:4",
+    "Doctrine and Covenants 1:17–30",
+    "Doctrine and Covenants 27:12–13",
+    "Ephesians 4:11–15",
+    "John 15:16",
+    "Matthew 5:13–16",
+    "Moroni 6:4–9",
+    "Moses 1:39",
+    "Mosiah 18:27–29",
+    "Scriptures",
+    "The Restoration of the Fulness of the Gospel of Jesus Christ: A Bicentennial Proclamation to the World"
+  ]
+}

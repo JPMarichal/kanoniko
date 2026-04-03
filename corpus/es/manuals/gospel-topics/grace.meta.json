@@ -1,0 +1,46 @@
+{
+  "title": "Gracia",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/grace?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véanse1 Corintios 15:20–22;2 Nefi 9:6–13."
+    },
+    {
+      "marker": "2.",
+      "text": "VéanseJuan 1:8–10;Mosíah 16:4."
+    },
+    {
+      "marker": "3.",
+      "text": "VéanseEfesios 2:8–9;Santiago 2:17–22;2 Nefi 25:23;31:20."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseÉter 12:27."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corintios 15:20–22",
+    "2 Nefi 25:23",
+    "2 Nefi 9:6–13",
+    "31:20",
+    "Efesios 2:8–9",
+    "Escrituras",
+    "Juan 1:8–10",
+    "Mosíah 16:4",
+    "Santiago 2:17–22",
+    "Éter 12:27"
+  ]
+}

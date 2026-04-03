@@ -1,0 +1,40 @@
+{
+  "title": "Bautismos por los muertos",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptisms-for-the-dead?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "VéaseJuan 3:5."
+    },
+    {
+      "marker": "2.",
+      "text": "Juan 3:5."
+    },
+    {
+      "marker": "3.",
+      "text": "VéaseMateo 3:13–17."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase1 Corintios 15:29."
+    }
+  ],
+  "scripture_refs": [
+    "1 Corintios 15:29",
+    "Escrituras",
+    "Juan 3:5",
+    "Mateo 3:13–17"
+  ]
+}

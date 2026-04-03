@@ -1,0 +1,25 @@
+{
+  "title": "El arrullo de María",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/marys-lullaby?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 20,
+  "author": "Jan Underwood Pinborough, n. 1954. © 1989 IRI. Música: Melodía tradicional alemana; arr. por Darwin Wolford, n. 1936. Arreglo © 1989 IRI.",
+  "composer": "Melodía tradicional alemana; arr. por Darwin Wolford, n. 1936. Arreglo © 1989 IRI.",
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "Isaías 9:6",
+    "Lucas 2:7–19",
+    "Mateo 2:1–2"
+  ]
+}

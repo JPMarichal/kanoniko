@@ -1,0 +1,65 @@
+{
+  "title": "Bautismo",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptism?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrina y Convenios 20:73–74."
+    },
+    {
+      "marker": "2.",
+      "text": "VéaseRomanos 6:3–6."
+    },
+    {
+      "marker": "3.",
+      "text": "VéanseMosíah 18:8–10;Doctrina y Convenios 20:37."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseDoctrina y Convenios 20:77, 79."
+    },
+    {
+      "marker": "5.",
+      "text": "Véase2 Nefi 31:19–20."
+    },
+    {
+      "marker": "6.",
+      "text": "Doctrina y Convenios 29:46–47."
+    },
+    {
+      "marker": "7.",
+      "text": "VéanseDoctrina y Convenios 68:27;Traducción de José Smith, Génesis 17:11(en el apéndice de la Biblia)."
+    },
+    {
+      "marker": "8.",
+      "text": "Moroni 8:20; véanse losversículos 8–9,21–24."
+    }
+  ],
+  "scripture_refs": [
+    "21–24",
+    "2 Nefi 31:19–20",
+    "Doctrina y Convenios 20:37",
+    "Doctrina y Convenios 20:73–74",
+    "Doctrina y Convenios 20:77, 79",
+    "Doctrina y Convenios 29:46–47",
+    "Doctrina y Convenios 68:27",
+    "Escrituras",
+    "Moroni 8:20",
+    "Mosíah 18:8–10",
+    "Romanos 6:3–6",
+    "Traducción de José Smith, Génesis 17:11",
+    "versículos 8–9"
+  ]
+}

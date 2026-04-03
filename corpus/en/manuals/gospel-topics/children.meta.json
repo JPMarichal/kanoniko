@@ -1,0 +1,59 @@
+{
+  "title": "Children of God",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/children?lang=eng",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeHebrews 12:9."
+    },
+    {
+      "marker": "2.",
+      "text": "Romans 8:16; see alsoPsalm 82:6."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeGenesis 1:26–27."
+    },
+    {
+      "marker": "4.",
+      "text": "See “The Family: A Proclamation to the World,” Gospel Library."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeGenesis 5:1–2."
+    },
+    {
+      "marker": "6.",
+      "text": "SeeAbraham 3:22–26."
+    },
+    {
+      "marker": "7.",
+      "text": "See “The Family: A Proclamation to the World.”"
+    }
+  ],
+  "scripture_refs": [
+    "Abraham 3:22–26",
+    "Genesis 1:26–27",
+    "Genesis 5:1–2",
+    "Hebrews 12:9",
+    "Psalm 82:6",
+    "Romans 8:16",
+    "Scriptures",
+    "The Family: A Proclamation to the World",
+    "children",
+    "spirit",
+    "witness"
+  ]
+}

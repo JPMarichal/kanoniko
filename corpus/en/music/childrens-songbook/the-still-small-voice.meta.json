@@ -1,0 +1,21 @@
+{
+  "title": "The Still Small Voice",
+  "collection": "childrens-songbook",
+  "category": "music",
+  "subcategory": "childrens-songbook",
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/childrens-songbook/the-still-small-voice?lang=eng",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "childrens-songbook",
+    "primary",
+    "music"
+  ],
+  "hymn_number": 95,
+  "first_line": "Through a still small voice, the Spirit speaks to me",
+  "note_count": 0,
+  "scripture_refs": [
+    "Doctrine and Covenants 8:2–5"
+  ]
+}

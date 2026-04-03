@@ -1,0 +1,35 @@
+{
+  "title": "Part III.A: An Early Galilean Ministry",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-3?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 2,
+  "scripture_refs": [
+    "John 2:1–11",
+    "John 2:12"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event Marriage at Cana",
+      "location": "Location Cana",
+      "john_lds": [
+        "John 2:1–11"
+      ]
+    },
+    {
+      "event": "Event Visit to Capernaum",
+      "location": "Location Capernaum",
+      "john_lds": [
+        "John 2:12"
+      ]
+    }
+  ]
+}

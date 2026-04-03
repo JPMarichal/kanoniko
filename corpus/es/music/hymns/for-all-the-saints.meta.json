@@ -1,0 +1,24 @@
+{
+  "title": "Todos los santos",
+  "collection": "hymns",
+  "category": "music",
+  "subcategory": "hymns",
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/hymns/for-all-the-saints?lang=spa",
+  "authority": 65,
+  "official": true,
+  "tags": [
+    "hymns",
+    "worship",
+    "music"
+  ],
+  "hymn_number": 136,
+  "author": "William Walsham How, 1823–1897. Música: Ralph Vaughn Williams, 1872–1958. Reimpreso del English Hymnal con permiso de Oxford University Press. Se prohíbe hacer copias sin permiso escrito del proprietario de los derechos de autor.",
+  "composer": "Ralph Vaughn Williams, 1872–1958. Reimpreso del English Hymnal con permiso de Oxford University Press. Se prohíbe hacer copias sin permiso escrito del proprietario de los derechos de autor.",
+  "first_line": "1.",
+  "note_count": 0,
+  "scripture_refs": [
+    "2 Timoteo 4:7–8",
+    "Apocalipsis 14:12–13"
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "title": "Chronology of the New Testament",
+  "category": "study-aids",
+  "subcategory": "bible-chronology",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/bible-chron/new-testament?lang=eng",
+  "tags": [
+    "chronology",
+    "timeline",
+    "history"
+  ],
+  "testament": "NT",
+  "event_count": 42,
+  "events": [
+    {
+      "date": "",
+      "event": "Contemporary Events",
+      "synchronisms": [
+        "A.D.",
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Death of Herod the Great. Archelaus obtains Judea, Samaria, and Idumea; Herod Antipas, Galilee; Herod Philip, Iturea, Trachonitis, etc.",
+      "synchronisms": [
+        "Christian History Birth of Jesus Christ."
+      ],
+      "persons": [
+        "Jewish History Death",
+        "Herod Antipas",
+        "Herod Philip",
+        "Christian History Birth",
+        "Jesus Christ"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Banishment of Archelaus.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Banishment",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Coponius prefect of Judea; Ananus high priest.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Coponius",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Christian History Jesus at Jerusalem in the temple.",
+      "synchronisms": [
+        "Jewish History Cyrenius completes “the taxing.”"
+      ],
+      "persons": [
+        "Christian History Jesus",
+        "Jewish History Cyrenius"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Marcus Ambivius, prefect.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Marcus Ambivius",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Annius Rufus, prefect.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Annius Rufus",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Contemporary Events Death of Augustus.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Death",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Valerius Gratus, prefect.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Valerius Gratus",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Jewish History Caiaphas, high priest.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Caiaphas",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Christian History Beginning of the ministry of the Baptist.",
+      "synchronisms": [
+        "Jewish History Pontius Pilate, prefect."
+      ],
+      "persons": [
+        "Christian History Beginning",
+        "Jewish History Pontius Pilate"
+      ]
+    },
+    {
+      "date": "",
+      "event": "Christian History The Crucifixion.",
+      "persons": [
+        "Christian History The Crucifixion"
+      ]
+    },
+    {
+      "date": "A.D. 33",
+      "date_sort": 33,
+      "event": "Jewish History Death of Herod Philip.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Death",
+        "Herod Philip",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "A.D. 35",
+      "date_sort": 35,
+      "event": "Christian History Conversion of Paul.",
+      "synchronisms": [
+        "Jewish History Pontius Pilate exiled."
+      ],
+      "persons": [
+        "Christian History Conversion",
+        "Jewish History Pontius Pilate"
+      ]
+    },
+    {
+      "date": "A.D. 37",
+      "date_sort": 37,
+      "event": "Jewish History Jonathan, high priest. Herod Agrippa obtains the tetrarchy of Herod Philip. Marcellus, prefect.",
+      "synchronisms": [
+        "Christian History",
+        "Contemporary Events Death of Tiberius."
+      ],
+      "persons": [
+        "Jewish History Jonathan",
+        "Herod Agrippa",
+        "Herod Philip",
+        "Christian History Contemporary Events Death"
+      ]
+    },
+    {
+      "date": "A.D. 38",
+      "date_sort": 38,
+      "event": "Jewish History Josephus born.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Josephus",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "A.D. 39",
+      "date_sort": 39,
+      "event": "Jewish History Antipas deposed. Agrippa made tetrarch of Galilee.",
+      "synchronisms": [
+        "Christian History The churches have rest."
+      ],
+      "persons": [
+        "Jewish History Antipas",
+        "Christian History The"
+      ]
+    },
+    {
+      "date": "A.D. 41",
+      "date_sort": 41,
+      "event": "Jewish History Agrippa receives Judea.",
+      "synchronisms": [
+        "Christian History",
+        "Contemporary Events Death of Caligula."
+      ],
+      "persons": [
+        "Jewish History Agrippa",
+        "Christian History Contemporary Events Death"
+      ]
+    },
+    {
+      "date": "A.D. 44",
+      "date_sort": 44,
+      "event": "Jewish History Death of Herod Agrippa Ⅰ. Cuspius Fadus, procurator.",
+      "synchronisms": [
+        "Christian History Death of James the brother of John."
+      ],
+      "persons": [
+        "Jewish History Death",
+        "Herod Agrippa",
+        "Cuspius Fadus",
+        "Christian History Death"
+      ]
+    },
+    {
+      "date": "A.D. 45",
+      "date_sort": 45,
+      "event": "Christian History Paul’s first missionary tour.",
+      "persons": [
+        "Christian History Paul"
+      ]
+    },
+    {
+      "date": "A.D. 46",
+      "date_sort": 46,
+      "event": "Jewish History Tiberius Alexander, procurator.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Tiberius Alexander",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "A.D. 48",
+      "date_sort": 48,
+      "event": "Jewish History Ventidius Cumanus, procurator.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Ventidius Cumanus",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "A.D. 49",
+      "date_sort": 49,
+      "event": "Christian History Council of Jerusalem.",
+      "persons": [
+        "Christian History Council"
+      ]
+    },
+    {
+      "date": "A.D. 50",
+      "date_sort": 50,
+      "event": "Contemporary Events Jews banished from Rome by Claudius.",
+      "synchronisms": [
+        "Christian History 1 and 2 Thessalonians written.",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Jews",
+        "Christian History",
+        "Jewish History"
+      ]
+    },
+    {
+      "date": "A.D. 51",
+      "date_sort": 51,
+      "event": "Jewish History Claudius [or Antonius (?)] Felix, procurator.",
+      "synchronisms": [
+        "Christian History"
+      ],
+      "persons": [
+        "Jewish History Claudius",
+        "Christian History"
+      ]
+    },
+    {
+      "date": "A.D. 54",
+      "date_sort": 54,
+      "event": "Contemporary Events Death of Claudius.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Death",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "A.D. 55",
+      "date_sort": 55,
+      "event": "Christian History 1 and 2 Corinthians, Galatians, Romans.",
+      "persons": [
+        "Christian History"
+      ]
+    },
+    {
+      "date": "A.D. 57",
+      "date_sort": 57,
+      "event": "Christian History Paul a prisoner at Caesarea.",
+      "persons": [
+        "Christian History Paul"
+      ]
+    },
+    {
+      "date": "A.D. 58",
+      "date_sort": 58,
+      "event": "Jewish History Porcius Festus, procurator.",
+      "synchronisms": [
+        "Christian History Paul sent to Rome."
+      ],
+      "persons": [
+        "Jewish History Porcius Festus",
+        "Christian History Paul"
+      ]
+    },
+    {
+      "date": "A.D. 59",
+      "date_sort": 59,
+      "event": "Jewish History Joseph, son of Simon, high priest.",
+      "synchronisms": [
+        "Christian History Paul leaves Melita for Rome."
+      ],
+      "persons": [
+        "Jewish History Joseph",
+        "Christian History Paul"
+      ]
+    },
+    {
+      "date": "A.D. 60",
+      "date_sort": 60,
+      "event": "Christian History Philippians, Colossians, Ephesians, Philemon.",
+      "synchronisms": [
+        "Jewish History Albinus, procurator."
+      ],
+      "persons": [
+        "Christian History Philippians",
+        "Jewish History Albinus"
+      ]
+    },
+    {
+      "date": "A.D. 61",
+      "date_sort": 61,
+      "event": "Christian History Close of the history of the Acts of the Apostles.",
+      "persons": [
+        "Christian History Close"
+      ]
+    },
+    {
+      "date": "A.D. 62",
+      "date_sort": 62,
+      "event": "Jewish History Gessius Florus, procurator. Completion of the temple.",
+      "synchronisms": [
+        "Christian History",
+        "Contemporary Events Burning of Rome. Persecution under Nero."
+      ],
+      "persons": [
+        "Jewish History Gessius Florus",
+        "Christian History Contemporary Events Burning"
+      ]
+    },
+    {
+      "date": "A.D. 64",
+      "date_sort": 64,
+      "event": "Christian History Titus, 1 and 2 Timothy.",
+      "synchronisms": [
+        "Jewish History Jewish war commences."
+      ],
+      "persons": [
+        "Christian History Titus",
+        "Jewish History Jewish"
+      ]
+    },
+    {
+      "date": "A.D. 65",
+      "date_sort": 65,
+      "event": "Jewish History Capture of Jotapata by Vespasian.",
+      "synchronisms": [
+        "Christian History Martyrdom of Peter and Paul."
+      ],
+      "persons": [
+        "Jewish History Capture",
+        "Christian History Martyrdom"
+      ]
+    },
+    {
+      "date": "A.D. 68",
+      "date_sort": 68,
+      "event": "Contemporary Events Death of Nero. Galba proclaimed.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Death",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "A.D. 69",
+      "date_sort": 69,
+      "event": "Contemporary Events Otho, Vitellius, Vespasian, emperors.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Otho",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "A.D. 70",
+      "date_sort": 70,
+      "event": "Jewish History Siege and capture of Jerusalem.",
+      "synchronisms": [
+        "Christian History Christians retire to Pella."
+      ],
+      "persons": [
+        "Jewish History Siege",
+        "Christian History Christians"
+      ]
+    },
+    {
+      "date": "A.D. 79",
+      "date_sort": 79,
+      "event": "Contemporary Events Death of Vespasian.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Death",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "A.D. 81",
+      "date_sort": 81,
+      "event": "Contemporary Events Death of Titus.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Death",
+        "Christian History Jewish History"
+      ]
+    },
+    {
+      "date": "A.D. 95",
+      "date_sort": 95,
+      "event": "Christian History Persecution of Christians by Domitian.",
+      "persons": [
+        "Christian History Persecution"
+      ]
+    },
+    {
+      "date": "A.D. 96",
+      "date_sort": 96,
+      "event": "Contemporary Events Death of Domitian.",
+      "synchronisms": [
+        "Christian History",
+        "Jewish History"
+      ],
+      "persons": [
+        "Contemporary Events Death",
+        "Christian History Jewish History"
+      ]
+    }
+  ]
+}

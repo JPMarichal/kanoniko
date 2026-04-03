@@ -1,0 +1,133 @@
+{
+  "title": "Part II: The Ministry of an Elias — John the Baptist",
+  "category": "study-aids",
+  "subcategory": "harmony-of-the-gospels",
+  "authority": 80,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/scriptures/harmony/harmony-2?lang=eng",
+  "tags": [
+    "harmony",
+    "gospels",
+    "jesus-christ",
+    "parallel-accounts"
+  ],
+  "event_count": 9,
+  "scripture_refs": [
+    "Mark 1:2–3",
+    "Luke 3:4–6",
+    "John 1:23",
+    "Mark 1:4",
+    "Luke 3:1–3",
+    "Doctrine and Covenants 35:4",
+    "Luke 3:7–8",
+    "John 1:19–28",
+    "Mark 1:4–8",
+    "Luke 3:8–18",
+    "Mark 1:9–11",
+    "Luke 3:21–22",
+    "Revelation 1",
+    "2 Nephi 31:4–21",
+    "Mark 1:12–13",
+    "Luke 4:1–13",
+    "Matthew 4:1–10",
+    "Matthew 4",
+    "Doctrine and Covenants 93:6–18, 26",
+    "John 1:35–51",
+    "John 1:43"
+  ],
+  "parallel_events": [
+    {
+      "event": "Event Isaiah’s prophecy of John",
+      "mark": [
+        "Mark 1:2–3"
+      ],
+      "luke": [
+        "Luke 3:4–6"
+      ],
+      "john_lds": [
+        "John 1:23"
+      ]
+    },
+    {
+      "event": "Event The beginning of John’s ministry",
+      "location": "Location Bethabara",
+      "mark": [
+        "Mark 1:4"
+      ],
+      "luke": [
+        "Luke 3:1–3"
+      ],
+      "john_lds": [
+        "Doctrine and Covenants 35:4"
+      ]
+    },
+    {
+      "event": "Event Warning to Pharisees and Sadducees",
+      "location": "Location Bethabara",
+      "luke": [
+        "Luke 3:7–8"
+      ],
+      "john_lds": [
+        "John 1:19–28"
+      ]
+    },
+    {
+      "event": "Event Call to repentance",
+      "location": "Location Bethabara",
+      "mark": [
+        "Mark 1:4–8"
+      ],
+      "luke": [
+        "Luke 3:8–18"
+      ]
+    },
+    {
+      "event": "Event Baptism of Jesus",
+      "location": "Location Bethabara",
+      "mark": [
+        "Mark 1:9–11"
+      ],
+      "luke": [
+        "Luke 3:21–22"
+      ],
+      "john_lds": [
+        "Revelation 1",
+        "2 Nephi 31:4–21"
+      ]
+    },
+    {
+      "event": "Event Temptation of Jesus",
+      "location": "Location Judea",
+      "mark": [
+        "Mark 1:12–13"
+      ],
+      "luke": [
+        "Luke 4:1–13"
+      ],
+      "john_lds": [
+        "Matthew 4:1–10",
+        "Matthew 4"
+      ]
+    },
+    {
+      "event": "Event John the Baptist’s testimony",
+      "location": "Location Bethabara",
+      "john_lds": [
+        "Doctrine and Covenants 93:6–18, 26"
+      ]
+    },
+    {
+      "event": "Event John’s disciples follow Jesus",
+      "location": "Location Bethabara",
+      "john_lds": [
+        "John 1:35–51"
+      ]
+    },
+    {
+      "event": "Event Jesus departs for Galilee",
+      "john_lds": [
+        "John 1:43"
+      ]
+    }
+  ]
+}

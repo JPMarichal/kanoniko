@@ -1,0 +1,75 @@
+{
+  "title": "Revelación",
+  "book": "Gospel Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/revelation-study-guide?lang=spa",
+  "tags": [
+    "reference",
+    "doctrine",
+    "gospel-topics",
+    "encyclopedia"
+  ],
+  "notes": "~400 entries; large volume — consider --limit for testing",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Russell M. Nelson, “Revelación para la Iglesia, revelación para nuestras vidas”,Liahona, mayo de 2018, págs. 95–96."
+    },
+    {
+      "marker": "2.",
+      "text": "David A. Bednar, “El espíritu de revelación”,Liahona, mayo de 2011, pág. 89."
+    },
+    {
+      "marker": "3.",
+      "text": "Russell M. Nelson, “Escúchalo”,Liahona, mayo de 2020, pág. 90."
+    },
+    {
+      "marker": "4.",
+      "text": "Dale G. Renlund, “El marco de la revelación personal”,Liahona, noviembre de 2022, pág. 17."
+    },
+    {
+      "marker": "5.",
+      "text": "M. Russell Ballard, “La visión de la redención de los muertos”,Liahona, noviembre de 2018, págs. 71–73."
+    }
+  ],
+  "scripture_refs": [
+    "11:12–14",
+    "121:26–33",
+    "1 Nefi 10:17–19",
+    "1 Nefi 17:41",
+    "1 Reyes 19:11–13",
+    "2 Nefi 28:30",
+    "2 Nefi 32:3",
+    "3 Nefi 11:1–7",
+    "76:5–10",
+    "84:44–47",
+    "85:6",
+    "8:2–3",
+    "93:2",
+    "Alma 5:43–48",
+    "Amós 3:7",
+    "Artículos de Fe 1:9",
+    "Doctrina y Convenios 107:91–92",
+    "Doctrina y Convenios 138:1–11",
+    "Doctrina y Convenios 1:37–38",
+    "Doctrina y Convenios 43:1–7",
+    "Doctrina y Convenios 50:24–25",
+    "Doctrina y Convenios 6:14–16, 22–23",
+    "Doctrina y Convenios 84:46–48",
+    "Doctrina y Convenios 85:6",
+    "Doctrina y Convenios 88:63",
+    "Doctrina y Convenios 9:8",
+    "Gálatas 5:22–23",
+    "Helamán 5:28–30",
+    "Jacob 4:14",
+    "José Smith—Historia 1:10–17",
+    "Juan 14:18",
+    "Las Escrituras",
+    "Mateo 16:13–18",
+    "Moroni 7:16–18",
+    "Santiago 1:5"
+  ]
+}
