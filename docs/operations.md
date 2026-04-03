@@ -22,15 +22,74 @@ curl -X POST http://localhost:4300/index/build-profiles -H "Content-Type: applic
 
 ## Adding New Corpus Content
 
-1. Place files in the appropriate `corpus/{lang}/...` directory
-2. Trigger incremental indexing:
-   ```bash
-   curl -X POST http://localhost:4300/index/trigger
-   ```
-3. Entity profiles will be marked as `stale` automatically
-4. Optionally rebuild KG and regenerate profiles for updated entities
+### Design contract: indexing is always explicit
 
-**Incremental indexing** detects changes via SHA-256 hashes. Only new/modified files are processed.
+There is **no automatic trigger**. Corpus files can be added, downloaded, or
+modified at any time without triggering indexing. This allows bulk corpus
+accumulation (multiple download scripts, multiple materials) before paying
+the indexing cost once.
+
+### Workflow: accumulate then index
+
+```bash
+# Step 1: download as many materials as needed — no indexing happens
+python scripts/download_jesus_the_christ.py
+python scripts/download_easter_study_plan.py
+python scripts/download_christmas_study_plan.py
+# ... more downloads ...
+
+# Step 2: index everything in a single incremental pass when ready
+curl -X POST http://localhost:4300/index/trigger
+# or target a specific directory:
+curl -X POST http://localhost:4300/index/ingest \
+  -H "Content-Type: application/json" \
+  -d '{"paths": ["corpus/en/manuals/jesus-the-christ", "corpus/es/manuals/jesus-the-christ"]}'
+```
+
+**Incremental indexing** detects changes via SHA-256 hashes — only new or
+modified files are processed regardless of how long ago they were added.
+
+### When to use `/ingest` vs `/trigger`
+
+| Endpoint | Use when |
+|----------|----------|
+| `POST /index/ingest` | You know exactly which directories were added — faster, targeted |
+| `POST /index/trigger` | You've added many scattered files and want a full corpus scan |
+
+### Incremental vs. Force: understanding the cost
+
+**Incremental** (default): only processes files whose SHA-256 changed. Adding 20 new
+files to a 27K-file corpus takes ~50 seconds — the pipeline skips everything unchanged.
+
+**Force** (`"force": true`): re-processes files even if their hash hasn't changed. This
+is needed only for **migrations** — when the parser, chunker, or extractor logic changes
+and existing files need to be re-processed with the new code. Force re-indexing 6,910
+files takes ~2 hours (phases 2+3 dominate — see below).
+
+The three pipeline phases have very different costs:
+
+| Phase | What | Speed | Bottleneck |
+|-------|------|-------|------------|
+| 1. Parse/Chunk/FTS | Parse file, chunk text, insert into SQLite FTS | ~200 files/min | CPU (fast) |
+| 2. Embeddings | Encode chunks into vectors, upsert to Qdrant | ~4K vectors/10 min (CPU) | GPU or CPU |
+| 3. KG extraction | spaCy NER + Neo4j writes per chunk | Variable | Neo4j I/O |
+
+**`/index/status` only tracks Phase 1 progress.** It can show 100% while phases 2 and 3
+are still running. The ETA it reports underestimates total time significantly for
+force-reindex operations. Check `/health` to monitor vector and graph node counts growing.
+
+### Real-world indexing times (observed)
+
+| Operation | Files | Wall time | Notes |
+|-----------|-------|-----------|-------|
+| Proclamations (incremental) | 4 | ~10 sec | New files, all 3 phases |
+| Missionary manuals (incremental) | 40 | 100 sec | New files, all 3 phases |
+| Conference talks (force, format migration) | 6,910 | ~2 hours | Phase 1: 45 min, Phase 2+3: ~75 min |
+| Full reindex (all corpus) | ~27K | 7+ hours (CPU) | **Destructive** — avoid |
+
+**Rule of thumb:** incremental indexing of new material is fast (~2-3 sec/file). Force
+re-indexing of existing material is 10-50× slower per file due to Qdrant/Neo4j overhead
+on data that already exists.
 
 ## Knowledge Graph Rebuild
 
@@ -143,8 +202,10 @@ SQLite is the **source of truth**. From it alone, everything can be reconstructe
 | Operation | CPU | GPU | Notes |
 |-----------|-----|-----|-------|
 | Incremental indexing (no changes) | ~2s | ~2s | Hash comparison only |
-| Incremental indexing (100 new files) | ~10 min | ~2 min | Parse + chunk + embed + KG |
-| Full reindex (19,770 docs) | ~7+ hours | ~45 min | **Destructive** — deletes existing data first |
+| Incremental indexing (4 new files) | ~10s | ~10s | All 3 phases, minimal |
+| Incremental indexing (40 new files) | ~100s | ~30s | All 3 phases |
+| Force reindex (6,910 files) | ~2 hours | ~20 min | Format migration scenario |
+| Full reindex (~27K docs) | ~7+ hours | ~45 min | **Destructive** — deletes existing data first |
 | Rebuild vectors from SQLite | ~3 hours | ~5 min | Non-destructive |
 | KG rebuild | ~15 min | ~15 min | CPU-bound (spaCy NER) |
 | Neo4j backup (75K nodes) | ~90s | ~90s | Cypher streaming |
