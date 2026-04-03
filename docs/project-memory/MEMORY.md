@@ -32,3 +32,4 @@
 - [feedback_footnotes_essential.md](feedback_footnotes_essential.md) — Footnotes are essential content: always download, put in both .txt and .meta.json; they feed KG relations and RAG
 - [procedure_corpus_addition.md](procedure_corpus_addition.md) — 5-step procedure for adding corpus material: classify, authority, KG analysis, format, index
 - [feedback_gitignore_data.md](feedback_gitignore_data.md) — Never exclude data/ from git; only exclude sqlite/backups/ and sqlite/neo4j_backups/ (large, regenerable)
+- [feedback_proactive_before_expensive_ops.md](feedback_proactive_before_expensive_ops.md) — Stop antes de ops costosas: revisar deuda técnica conocida y optimizar primero; no lanzar hasta tener el camino despejado

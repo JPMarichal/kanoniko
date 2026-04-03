@@ -38,58 +38,81 @@ python scripts/download_easter_study_plan.py
 python scripts/download_christmas_study_plan.py
 # ... more downloads ...
 
-# Step 2: index everything in a single incremental pass when ready
-curl -X POST http://localhost:4300/index/trigger
-# or target a specific directory:
-curl -X POST http://localhost:4300/index/ingest \
-  -H "Content-Type: application/json" \
-  -d '{"paths": ["corpus/en/manuals/jesus-the-christ", "corpus/es/manuals/jesus-the-christ"]}'
+# Step 2: commit the new corpus files
+git add corpus/ && git commit -m "Add new corpus materials"
+
+# Step 3: index using git diff — fastest path, skips SHA scan of existing files
+git diff --name-only HEAD~1 HEAD -- 'corpus/**/*.txt' \
+  | python -c "
+import sys, json, urllib.request
+paths = [p[len('corpus/'):].strip() for p in sys.stdin if p.strip().startswith('corpus/')]
+body = json.dumps({'paths': paths, 'force': False}).encode()
+req = urllib.request.Request('http://localhost:4300/index/ingest', data=body,
+      headers={'Content-Type': 'application/json'}, method='POST')
+print(json.loads(urllib.request.urlopen(req).read()))
+"
 ```
 
-**Incremental indexing** detects changes via SHA-256 hashes — only new or
-modified files are processed regardless of how long ago they were added.
+This is the **canonical post-commit incremental workflow**. It uses git to identify
+exactly which files are new (O(1)) rather than hashing all 24K+ corpus files on disk
+(O(n)). On a corpus of 24K files, this saves 20-30 minutes before Phase 1 even starts.
+
+> **Why commit first?** `git diff HEAD~1 HEAD` is stable and precise. Running ingest
+> before committing risks including partial downloads or files not yet committed to the
+> record.
 
 ### When to use `/ingest` vs `/trigger`
 
 | Endpoint | Use when |
 |----------|----------|
-| `POST /index/ingest` | You know exactly which directories were added — faster, targeted |
-| `POST /index/trigger` | You've added many scattered files and want a full corpus scan |
+| `POST /index/ingest` (via git diff) | **Default.** After committing new corpus files — fastest, no SHA scan |
+| `POST /index/ingest` (manual paths) | You know exactly which directories were added and haven't committed yet |
+| `POST /index/trigger` | Corpus diverged from git (manual edits, partial downloads) — needed only for debugging |
+
+**Never use `/trigger` after a normal corpus commit.** It scans SHA of every file in
+the corpus before it can identify what's new. At 24K+ files this wastes 20-30 minutes
+before any actual indexing begins.
 
 ### Incremental vs. Force: understanding the cost
 
-**Incremental** (default): only processes files whose SHA-256 changed. Adding 20 new
-files to a 27K-file corpus takes ~50 seconds — the pipeline skips everything unchanged.
+**Incremental** (default): only processes files whose SHA-256 changed. Adding 7,765 new
+files to a 24K-file corpus takes ~45-90 min on GPU — the pipeline skips everything unchanged.
 
 **Force** (`"force": true`): re-processes files even if their hash hasn't changed. This
 is needed only for **migrations** — when the parser, chunker, or extractor logic changes
-and existing files need to be re-processed with the new code. Force re-indexing 6,910
-files takes ~2 hours (phases 2+3 dominate — see below).
+and existing files need to be re-processed with the new code.
 
-The three pipeline phases have very different costs:
+### Pipeline phases
 
-| Phase | What | Speed | Bottleneck |
-|-------|------|-------|------------|
-| 1. Parse/Chunk/FTS | Parse file, chunk text, insert into SQLite FTS | ~200 files/min | CPU (fast) |
-| 2. Embeddings | Encode chunks into vectors, upsert to Qdrant | ~4K vectors/10 min (CPU) | GPU or CPU |
-| 3. KG extraction | spaCy NER + Neo4j writes per chunk | Variable | Neo4j I/O |
+Phase 1 runs parse and FTS insert in two sub-steps:
+
+| Sub-phase | What | Implementation |
+|-----------|------|----------------|
+| 1a. Delete (updates only) | Remove old chunks from FTS + Qdrant | Serial, single connection, skipped for new files |
+| 1b. Parse + chunk | Parse text, chunk, build metadata | **Parallel** — `ThreadPoolExecutor(8 workers)`, no SQLite |
+| 1c. FTS insert | Insert chunks into SQLite FTS5 | Serial, **single shared connection** for all files |
+
+| Phase | What | Bottleneck |
+|-------|------|------------|
+| 1. Parse/Chunk/FTS | See sub-phases above | I/O + SQLite writes |
+| 2. Embeddings | Batch-encode ALL chunks at once, upsert to Qdrant | GPU (fast) or CPU (slow) |
+| 3. KG extraction | spaCy NER + Neo4j batch writes per file | Neo4j I/O |
 
 **`/index/status` only tracks Phase 1 progress.** It can show 100% while phases 2 and 3
-are still running. The ETA it reports underestimates total time significantly for
-force-reindex operations. Check `/health` to monitor vector and graph node counts growing.
+are still running. Check `/health` to monitor vector and graph node counts growing.
 
 ### Real-world indexing times (observed)
 
 | Operation | Files | Wall time | Notes |
 |-----------|-------|-----------|-------|
 | Proclamations (incremental) | 4 | ~10 sec | New files, all 3 phases |
-| Missionary manuals (incremental) | 40 | 100 sec | New files, all 3 phases |
+| Missionary manuals (incremental) | 40 | ~60 sec | New files, all 3 phases |
+| Corpus expansion (incremental, GPU) | 7,765 | ~45-90 min | git diff → /ingest, parallel Phase 1 |
 | Conference talks (force, format migration) | 6,910 | ~2 hours | Phase 1: 45 min, Phase 2+3: ~75 min |
-| Full reindex (all corpus) | ~27K | 7+ hours (CPU) | **Destructive** — avoid |
+| Full reindex (all corpus) | ~24K | 7+ hours (CPU) | **Destructive** — avoid |
 
-**Rule of thumb:** incremental indexing of new material is fast (~2-3 sec/file). Force
-re-indexing of existing material is 10-50× slower per file due to Qdrant/Neo4j overhead
-on data that already exists.
+**Rule of thumb:** For new files, Phase 1 is now fast (parallel parsing + single SQLite
+connection). The bottleneck shifts to Phase 2 (embeddings) on CPU — use GPU when possible.
 
 ## Knowledge Graph Rebuild
 

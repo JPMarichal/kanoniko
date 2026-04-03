@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import concurrent.futures
 import json
 import logging
+import os
 import threading
 import time
 from dataclasses import dataclass, field
@@ -110,10 +112,11 @@ class _FileData:
     source: str
     lang: str | None
     chunks: list  # list of Chunk objects from chunker
-    chunk_ids: list[int]  # FTS row IDs
+    chunk_ids: list[int]  # FTS row IDs — filled in by _fts_insert, empty after _parse_file_cpu
     chunk_references: list[str | None]
     auth_meta: object  # AuthorityMetadata
     full_text: str
+    metadata_str: str = ""  # JSON-serialized base metadata, built in _parse_file_cpu
     vectors: object | None = None  # NDArray set in phase 2
     conference_talk: ConferenceTalk | None = None  # Parsed conference metadata
     meta_json: dict | None = None  # Companion .meta.json content (music, manuals, etc.)
@@ -250,28 +253,82 @@ class IngestionPipeline:
                 len(to_process), len(disk_files), len(disk_files) - len(to_process),
             )
 
-            # Reuse the same 3-phase pipeline
-            # Phase 1 (CPU): Parse, chunk, FTS
+            # 3-phase pipeline (same as _run_impl)
+            n_workers = min(os.cpu_count() or 4, 8)
             file_data_list: list[_FileData] = []
-            for i, (rel_path, abs_path, current_hash, is_update) in enumerate(to_process):
-                self.progress.current_file = rel_path
-                self.progress.files_processed = i
-                try:
-                    fd = self._prepare_file(rel_path, abs_path, current_hash)
-                    if fd is not None:
+
+            # Phase 1a: Delete old data for updates only
+            updates = [(rp, ap, h) for rp, ap, h, is_upd in to_process if is_upd]
+            if updates:
+                conn_del = self._textual.get_connection()
+                with conn_del:
+                    for rel_path, _, _ in updates:
+                        self._textual.delete_by_file(conn_del, rel_path)
+                conn_del.close()
+                if self._semantic:
+                    for rel_path, _, _ in updates:
+                        self._semantic.delete_by_file(rel_path)
+
+            # Phase 1b: Parse in parallel
+            parse_map: dict[str, _FileData | None] = {}
+            errored: set[str] = set()
+            with concurrent.futures.ThreadPoolExecutor(
+                max_workers=n_workers, thread_name_prefix="parse"
+            ) as executor:
+                future_to_file = {
+                    executor.submit(self._parse_file_cpu, rel_path, abs_path, current_hash):
+                    (rel_path, abs_path, current_hash, is_update)
+                    for rel_path, abs_path, current_hash, is_update in to_process
+                }
+                for i, future in enumerate(concurrent.futures.as_completed(future_to_file)):
+                    rel_path, abs_path, current_hash, is_update = future_to_file[future]
+                    self.progress.current_file = rel_path
+                    self.progress.files_processed = i
+                    try:
+                        parse_map[rel_path] = future.result()
+                    except Exception:
+                        logger.exception("Error parsing %s", rel_path)
+                        errored.add(rel_path)
+                        self._registry.upsert(
+                            file_path=rel_path, sha256=current_hash,
+                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                        )
+                        stats.errors += 1
+
+            # Phase 1c: FTS insert (serial, single connection)
+            conn_fts = self._textual.get_connection()
+            try:
+                for rel_path, abs_path, current_hash, is_update in to_process:
+                    if rel_path in errored:
+                        continue
+                    fd = parse_map.get(rel_path)
+                    if fd is None:
+                        self._registry.upsert(
+                            file_path=rel_path, sha256=current_hash,
+                            file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                        )
+                        if is_update:
+                            stats.updated_files += 1
+                        else:
+                            stats.new_files += 1
+                        continue
+                    try:
+                        self._fts_insert(fd, conn_fts)
                         file_data_list.append(fd)
                         stats.total_chunks += len(fd.chunks)
-                    if is_update:
-                        stats.updated_files += 1
-                    else:
-                        stats.new_files += 1
-                except Exception:
-                    logger.exception("Error preparing %s", rel_path)
-                    self._registry.upsert(
-                        file_path=rel_path, sha256=current_hash,
-                        file_size=abs_path.stat().st_size, chunk_count=0, status="error",
-                    )
-                    stats.errors += 1
+                        if is_update:
+                            stats.updated_files += 1
+                        else:
+                            stats.new_files += 1
+                    except Exception:
+                        logger.exception("Error inserting FTS for %s", rel_path)
+                        self._registry.upsert(
+                            file_path=rel_path, sha256=current_hash,
+                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                        )
+                        stats.errors += 1
+            finally:
+                conn_fts.close()
 
             total_chunks = sum(len(fd.chunks) for fd in file_data_list)
 
@@ -423,33 +480,88 @@ class IngestionPipeline:
                 if seed_relations:
                     self._neo4j.batch_merge_relations(seed_relations)
 
-            # ── Phase 1 (CPU): Parse, chunk, FTS index, collect data ──
-            logger.info("Phase 1/3: Parsing, chunking, FTS indexing...")
+            # ── Phase 1 (CPU): Parse (parallel) + FTS index (serial, single conn) ──
+            n_workers = min(os.cpu_count() or 4, 8)
+            logger.info(
+                "Phase 1/3: Parsing %d files (parallel, %d workers) + FTS indexing...",
+                len(to_process), n_workers,
+            )
             file_data_list: list[_FileData] = []
 
-            for i, (rel_path, abs_path, current_hash, is_update) in enumerate(to_process):
-                self.progress.current_file = rel_path
-                self.progress.files_processed = i
+            # 1a: Delete old data for updated files only (serial, batched in one connection)
+            updates = [(rp, ap, h) for rp, ap, h, is_upd in to_process if is_upd]
+            if updates:
+                conn_del = self._textual.get_connection()
+                with conn_del:
+                    for rel_path, _, _ in updates:
+                        self._textual.delete_by_file(conn_del, rel_path)
+                conn_del.close()
+                if self._semantic:
+                    for rel_path, _, _ in updates:
+                        self._semantic.delete_by_file(rel_path)
+                logger.info("Phase 1a: deleted old data for %d updated files", len(updates))
 
-                try:
-                    fd = self._prepare_file(rel_path, abs_path, current_hash)
-                    if fd is not None:
+            # 1b: Parse + chunk in parallel (no SQLite)
+            parse_map: dict[str, _FileData | None] = {}
+            errored: set[str] = set()
+            with concurrent.futures.ThreadPoolExecutor(
+                max_workers=n_workers, thread_name_prefix="parse"
+            ) as executor:
+                future_to_file = {
+                    executor.submit(self._parse_file_cpu, rel_path, abs_path, current_hash):
+                    (rel_path, abs_path, current_hash, is_update)
+                    for rel_path, abs_path, current_hash, is_update in to_process
+                }
+                for i, future in enumerate(concurrent.futures.as_completed(future_to_file)):
+                    rel_path, abs_path, current_hash, is_update = future_to_file[future]
+                    self.progress.current_file = rel_path
+                    self.progress.files_processed = i
+                    try:
+                        parse_map[rel_path] = future.result()
+                    except Exception:
+                        logger.exception("Error parsing %s", rel_path)
+                        errored.add(rel_path)
+                        self._registry.upsert(
+                            file_path=rel_path, sha256=current_hash,
+                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                        )
+                        stats.errors += 1
+
+            # 1c: FTS insert (serial, single shared connection)
+            conn_fts = self._textual.get_connection()
+            try:
+                for rel_path, abs_path, current_hash, is_update in to_process:
+                    if rel_path in errored:
+                        continue
+                    fd = parse_map.get(rel_path)
+                    if fd is None:
+                        # Empty file — register with 0 chunks
+                        self._registry.upsert(
+                            file_path=rel_path, sha256=current_hash,
+                            file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                        )
+                        if is_update:
+                            stats.updated_files += 1
+                        else:
+                            stats.new_files += 1
+                        continue
+                    try:
+                        self._fts_insert(fd, conn_fts)
                         file_data_list.append(fd)
                         stats.total_chunks += len(fd.chunks)
-                    if is_update:
-                        stats.updated_files += 1
-                    else:
-                        stats.new_files += 1
-                except Exception:
-                    logger.exception("Error preparing %s", rel_path)
-                    self._registry.upsert(
-                        file_path=rel_path,
-                        sha256=current_hash,
-                        file_size=abs_path.stat().st_size,
-                        chunk_count=0,
-                        status="error",
-                    )
-                    stats.errors += 1
+                        if is_update:
+                            stats.updated_files += 1
+                        else:
+                            stats.new_files += 1
+                    except Exception:
+                        logger.exception("Error inserting FTS for %s", rel_path)
+                        self._registry.upsert(
+                            file_path=rel_path, sha256=current_hash,
+                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                        )
+                        stats.errors += 1
+            finally:
+                conn_fts.close()
 
             total_chunks = sum(len(fd.chunks) for fd in file_data_list)
             logger.info(
@@ -515,46 +627,34 @@ class IngestionPipeline:
             self.progress.running = False
             self.progress.current_file = ""
 
-    def _prepare_file(self, rel_path: str, abs_path: Path, file_hash: str) -> _FileData | None:
-        """Phase 1: Parse, chunk, build metadata, index into FTS. Returns file data for phases 2-3."""
+    def _parse_file_cpu(self, rel_path: str, abs_path: Path, file_hash: str) -> _FileData | None:
+        """CPU-bound parse + chunk + metadata build. No SQLite. Safe for ThreadPoolExecutor.
+
+        Returns _FileData with chunk_ids=[] (not yet inserted into FTS).
+        Returns None if the file is empty after parsing.
+        """
         source = _extract_source(rel_path)
         lang = _extract_lang(rel_path)
 
-        # Delete old data if exists
-        conn = self._textual.get_connection()
-        with conn:
-            self._textual.delete_by_file(conn, rel_path)
-        if self._semantic:
-            self._semantic.delete_by_file(rel_path)
-
-        # Parse
         text = parse_file(abs_path)
         if not text.strip():
-            self._registry.upsert(
-                file_path=rel_path, sha256=file_hash,
-                file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
-            )
             return None
 
-        # Chunk
         scripture_file = is_scripture(rel_path)
         if scripture_file:
             chunks = chunk_scripture(text, target_words=150, max_words=300)
         else:
             chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
-        # Build per-chunk scripture references
-        chunk_references: list[str | None] = []
-        for chunk in chunks:
-            ref = build_chunk_reference(rel_path, chunk.text, text) if scripture_file else None
-            chunk_references.append(ref)
+        chunk_references: list[str | None] = [
+            build_chunk_reference(rel_path, chunk.text, text) if scripture_file else None
+            for chunk in chunks
+        ]
 
-        # Parse conference talk metadata if applicable
-        conference_talk: ConferenceTalk | None = None
-        if _is_conference(rel_path):
-            conference_talk = _load_conference_metadata(abs_path, rel_path)
+        conference_talk: ConferenceTalk | None = (
+            _load_conference_metadata(abs_path, rel_path) if _is_conference(rel_path) else None
+        )
 
-        # Build base metadata
         base_meta: dict = {"source": source, "file": rel_path}
         if lang:
             base_meta["lang"] = lang
@@ -571,30 +671,53 @@ class IngestionPipeline:
 
         auth_meta = derive_authority(source, rel_path)
         base_meta["auth"] = auth_meta.to_dict()
-        metadata_str = json.dumps(base_meta)
 
-        # Load companion meta.json for structured KG enrichment (music, manuals, etc.)
         file_meta_json = _load_meta_json(rel_path, settings.corpus_path)
-
-        # Index into FTS — collect chunk IDs for Qdrant
-        chunk_ids: list[int] = []
-        conn = self._textual.get_connection()
-        with conn:
-            for chunk, ref in zip(chunks, chunk_references):
-                cid = self._textual.index_chunk(
-                    conn=conn, file_path=rel_path, chunk_index=chunk.index,
-                    text=chunk.text, start_char=chunk.start_char, end_char=chunk.end_char,
-                    metadata=metadata_str, reference=ref,
-                )
-                chunk_ids.append(cid)
 
         return _FileData(
             rel_path=rel_path, abs_path=abs_path, file_hash=file_hash,
-            source=source, lang=lang, chunks=chunks, chunk_ids=chunk_ids,
+            source=source, lang=lang, chunks=chunks, chunk_ids=[],
             chunk_references=chunk_references, auth_meta=auth_meta, full_text=text,
+            metadata_str=json.dumps(base_meta),
             conference_talk=conference_talk,
             meta_json=file_meta_json or None,
         )
+
+    def _fts_insert(self, fd: _FileData, conn) -> None:
+        """Insert parsed chunks into FTS5. Fills fd.chunk_ids in-place. Must run serially."""
+        with conn:
+            for chunk, ref in zip(fd.chunks, fd.chunk_references):
+                cid = self._textual.index_chunk(
+                    conn=conn, file_path=fd.rel_path, chunk_index=chunk.index,
+                    text=chunk.text, start_char=chunk.start_char, end_char=chunk.end_char,
+                    metadata=fd.metadata_str, reference=ref,
+                )
+                fd.chunk_ids.append(cid)
+
+    def _prepare_file(self, rel_path: str, abs_path: Path, file_hash: str) -> _FileData | None:
+        """Phase 1 (single-file path): parse, chunk, delete old data, insert FTS.
+
+        Used by legacy callers. For bulk indexing prefer the parallel Phase 1 in
+        _run_impl / _ingest_paths_impl which calls _parse_file_cpu + _fts_insert directly.
+        """
+        # Always treat as potential update (safe — delete is a no-op for new files)
+        conn = self._textual.get_connection()
+        with conn:
+            self._textual.delete_by_file(conn, rel_path)
+        if self._semantic:
+            self._semantic.delete_by_file(rel_path)
+
+        fd = self._parse_file_cpu(rel_path, abs_path, file_hash)
+        if fd is None:
+            self._registry.upsert(
+                file_path=rel_path, sha256=file_hash,
+                file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+            )
+            return None
+
+        conn = self._textual.get_connection()
+        self._fts_insert(fd, conn)
+        return fd
 
     def _index_file_data(self, fd: _FileData) -> None:
         """Phase 3: Upsert vectors to Qdrant + KG extraction to Neo4j."""
