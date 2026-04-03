@@ -31,3 +31,4 @@
 - [vision_scripture_commentary.md](vision_scripture_commentary.md) — Conference talks as scripture commentary base: exegesis via precise citations, thematic cross-referencing
 - [feedback_footnotes_essential.md](feedback_footnotes_essential.md) — Footnotes are essential content: always download, put in both .txt and .meta.json; they feed KG relations and RAG
 - [procedure_corpus_addition.md](procedure_corpus_addition.md) — 5-step procedure for adding corpus material: classify, authority, KG analysis, format, index
+- [feedback_gitignore_data.md](feedback_gitignore_data.md) — Never exclude data/ from git; only exclude sqlite/backups/ and sqlite/neo4j_backups/ (large, regenerable)
