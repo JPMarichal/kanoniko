@@ -447,6 +447,410 @@ _STATIC_MANUALS: list[ManualConfig] = [
         tags=["reference", "doctrine", "gospel-topics", "encyclopedia"],
         notes="~400 entries; large volume — consider --limit for testing",
     ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP A: Complete manuals (multi-chapter, API v3)
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="preach-my-gospel",
+        slug="preach-my-gospel-2023",
+        book="Preach My Gospel: A Guide to Sharing the Gospel of Jesus Christ",
+        output_subdir="manuals/preach-my-gospel",
+        authority=65,
+        tags=["missionary", "doctrine", "teaching", "conversion", "preach-my-gospel"],
+        notes="2nd edition (2023), FP+Q12 commissioned; expanded to all members",
+    ),
+    ManualConfig(
+        key="old-testament-stories",
+        slug="old-testament-stories-2022",
+        book="Old Testament Stories",
+        output_subdir="manuals/old-testament-stories",
+        authority=50,
+        tags=["children", "old-testament", "scripture-stories", "primary"],
+        notes="2022 refresh: 50 stories, 350+ new illustrations, 63 languages",
+    ),
+    ManualConfig(
+        key="teaching-in-the-saviors-way",
+        slug="teaching-in-the-saviors-way-2022",
+        book="Teaching in the Savior's Way",
+        output_subdir="manuals/teaching-in-the-saviors-way",
+        authority=60,
+        tags=["teaching", "pedagogy", "christlike-teaching", "teacher-development"],
+        notes="2022 edition; Church-wide manual for all gospel teachers",
+    ),
+    ManualConfig(
+        key="for-parents-covenant-path",
+        slug="for-parents-preparing-your-children-for-a-lifetime-on-gods-covenant-path",
+        book="For Parents: Preparing Your Children for a Lifetime on God's Covenant Path",
+        output_subdir="manuals/for-parents-covenant-path",
+        authority=55,
+        tags=["parents", "covenant-path", "ordinances", "children", "family"],
+        bilingual=False,
+        notes="CFM Appendix A (standalone); EN only",
+    ),
+    ManualConfig(
+        key="for-primary-covenant-path",
+        slug="for-primary-preparing-children-for-a-lifetime-on-gods-covenant-path",
+        book="For Primary: Preparing Children for a Lifetime on God's Covenant Path",
+        output_subdir="manuals/for-primary-covenant-path",
+        authority=55,
+        tags=["primary", "covenant-path", "ordinances", "children", "teaching"],
+        bilingual=False,
+        notes="CFM Appendix B (standalone); EN only",
+    ),
+
+    # ── Teaching Pamphlets (8 individual pamphlets, each is a short manual) ──
+    ManualConfig(
+        key="pamphlet-restoration",
+        slug="the-restoration",
+        book="The Restoration of the Gospel of Jesus Christ",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "restoration", "pamphlet", "teaching"],
+        link_contains="the-restoration",
+    ),
+    ManualConfig(
+        key="pamphlet-plan-of-salvation",
+        slug="the-plan-of-salvation",
+        book="The Plan of Salvation",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "plan-of-salvation", "pamphlet", "teaching"],
+        link_contains="the-plan-of-salvation",
+    ),
+    ManualConfig(
+        key="pamphlet-gospel",
+        slug="the-gospel",
+        book="The Gospel of Jesus Christ",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "gospel", "pamphlet", "teaching"],
+        link_contains="the-gospel",
+    ),
+    ManualConfig(
+        key="pamphlet-chastity",
+        slug="chastity",
+        book="Chastity",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "chastity", "pamphlet", "teaching"],
+    ),
+    ManualConfig(
+        key="pamphlet-word-of-wisdom",
+        slug="the-word-of-wisdom",
+        book="The Word of Wisdom",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "word-of-wisdom", "pamphlet", "teaching"],
+        link_contains="the-word-of-wisdom",
+    ),
+    ManualConfig(
+        key="pamphlet-tithing",
+        slug="tithing-and-fast-offerings",
+        book="Tithing and Fast Offerings",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "tithing", "fast-offerings", "pamphlet", "teaching"],
+        link_contains="tithing-and-fast-offerings",
+    ),
+    ManualConfig(
+        key="pamphlet-families-temples",
+        slug="families-and-temples",
+        book="Families and Temples",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "family", "temple", "pamphlet", "teaching"],
+        link_contains="families-and-temples",
+    ),
+    ManualConfig(
+        key="pamphlet-learning-serving",
+        slug="learning-and-serving-in-the-church",
+        book="Learning and Serving in the Church",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "church-membership", "pamphlet", "teaching"],
+        link_contains="learning-and-serving",
+    ),
+
+    # ── Mission materials ────────────────────────────────────────────────────
+    ManualConfig(
+        key="missionary-standards-service",
+        slug="missionary-standards-service-missionaries-2025",
+        book="Missionary Standards: Service Missionaries",
+        output_subdir="manuals/missionary-standards-service",
+        authority=55,
+        tags=["missionary", "service-mission", "standards", "conduct"],
+        notes="2025 edition; EN+ES",
+    ),
+    ManualConfig(
+        key="on-holy-ground",
+        slug="on-holy-ground",
+        book="On Holy Ground",
+        output_subdir="manuals/on-holy-ground",
+        authority=55,
+        tags=["missionary", "historic-sites", "restoration", "teaching"],
+        notes="Teaching manual for historic-site missionaries",
+        bilingual=False,
+    ),
+    ManualConfig(
+        key="safeguards-technology",
+        slug="safeguards-for-using-technology",
+        book="Safeguards for Using Technology",
+        output_subdir="manuals/safeguards-technology",
+        authority=50,
+        tags=["missionary", "technology", "safety", "youth"],
+    ),
+    ManualConfig(
+        key="missionary-interview-questions",
+        slug="missionary-interview-questions",
+        book="Missionary Interview Questions",
+        output_subdir="manuals/missionary-interview-questions",
+        authority=70,
+        tags=["missionary", "interviews", "worthiness", "leadership"],
+        notes="FP-issued standard protocol (Oct 2017)",
+    ),
+    ManualConfig(
+        key="adjusting-service-missionary",
+        slug="adjusting-to-service-missionary-life-resource-booklet",
+        book="Adjusting to Service Missionary Life",
+        output_subdir="manuals/adjusting-to-service-missionary-life",
+        authority=50,
+        tags=["missionary", "service-mission", "mental-health", "adjustment"],
+    ),
+
+    # ── Support materials ────────────────────────────────────────────────────
+    ManualConfig(
+        key="counseling-resources",
+        slug="counseling-resources",
+        book="Counseling Resources",
+        output_subdir="manuals/counseling-resources",
+        authority=55,
+        tags=["pastoral", "counseling", "atonement", "mental-health", "leadership"],
+        notes="15 challenge areas; 5 Atonement-based pastoral principles",
+    ),
+    ManualConfig(
+        key="providing-in-the-lords-way",
+        slug="providing-in-the-lords-way-summary",
+        book="Providing in the Lord's Way: A Leader's Guide to Welfare",
+        output_subdir="manuals/providing-in-the-lords-way",
+        authority=60,
+        tags=["welfare", "self-reliance", "consecration", "fast-offerings", "leadership"],
+    ),
+    ManualConfig(
+        key="experiences-relief-society",
+        slug="experiences-supported-by-relief-society-2025",
+        book="Experiences Supported by Relief Society",
+        output_subdir="manuals/experiences-relief-society",
+        authority=55,
+        tags=["relief-society", "women", "covenants", "spiritual-experiences"],
+        notes="2025 edition; 14 spiritual experiences with scripture + prophetic quotes",
+    ),
+    ManualConfig(
+        key="children-youth-intro-guide",
+        slug="introductory-guide-for-children-and-youth",
+        book="Introductory Guide for Children and Youth",
+        output_subdir="manuals/children-youth-intro",
+        authority=50,
+        tags=["children-and-youth", "development", "goal-setting", "covenant-path"],
+        notes="2019 program launch guide; Luke 2:52 framework",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP C: Leadership Instruction (text summaries only)
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="leadership-instruction-apr-2023",
+        slug="leadership-instruction-april-2023",
+        book="Leadership Instruction: April 2023",
+        output_subdir="manuals/leadership-instruction",
+        authority=75,
+        tags=["leadership", "training", "rising-generation", "temple-covenants"],
+        notes="Bednar, Gong, Uchtdorf, Cordon, Christofferson — rising generation + temple",
+    ),
+    ManualConfig(
+        key="leadership-instruction-oct-2023",
+        slug="leadership-instruction-october-2023",
+        book="Leadership Instruction: October 2023",
+        output_subdir="manuals/leadership-instruction",
+        authority=75,
+        tags=["leadership", "training", "sabbath", "worship", "home-centered"],
+        notes="Bednar — connection between worship at home and church (Jacob 5:75)",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP D: Seminaries & Institutes materials
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="charted-course",
+        slug="the-charted-course-of-the-church-in-education",
+        book="The Charted Course of the Church in Education",
+        output_subdir="manuals/seminaries-and-institutes/charted-course",
+        authority=72,
+        tags=["education", "seminary", "institute", "philosophy", "first-presidency"],
+        notes="J. Reuben Clark, 1938 — foundational for all S&I; required annual reading",
+    ),
+    ManualConfig(
+        key="by-study-and-also-by-faith",
+        slug="by-study-and-also-by-faith",
+        book="By Study and Also by Faith: One Hundred Years of Seminaries and Institutes",
+        output_subdir="manuals/seminaries-and-institutes/by-study-and-also-by-faith",
+        authority=50,
+        tags=["education", "seminary", "institute", "history", "centennial"],
+        notes="2015 official institutional history; D&C 88:118",
+    ),
+    ManualConfig(
+        key="teacher-development-skills",
+        slug="teacher-development-skills",
+        book="Teacher Development Skills",
+        output_subdir="manuals/seminaries-and-institutes/teacher-development-skills",
+        authority=55,
+        tags=["education", "teaching", "seminary", "institute", "pedagogy"],
+        notes="Companion to Teaching in the Savior's Way; S&I-specific training modules",
+    ),
+    ManualConfig(
+        key="answering-my-gospel-questions",
+        slug="answering-my-gospel-questions",
+        book="Answering My Gospel Questions (Religion 280)",
+        output_subdir="manuals/seminaries-and-institutes/answering-my-gospel-questions",
+        authority=55,
+        tags=["institute", "faith", "questions", "epistemology", "gospel-topics"],
+        notes="2022 institute course; student-directed approach to difficult questions",
+    ),
+    ManualConfig(
+        key="additional-teacher-resources",
+        slug="additional-teacher-resources",
+        book="Additional Teacher Resources",
+        output_subdir="manuals/seminaries-and-institutes/additional-teacher-resources",
+        authority=50,
+        tags=["education", "teaching", "seminary", "institute"],
+    ),
+    ManualConfig(
+        key="teacher-support-training",
+        slug="teacher-support-and-training-resources",
+        book="Teacher Support and Training Resources",
+        output_subdir="manuals/seminaries-and-institutes/teacher-support-training",
+        authority=50,
+        tags=["education", "teaching", "seminary", "institute", "training"],
+    ),
+    ManualConfig(
+        key="si-teacher-calling",
+        slug="my-calling-as-a-stake-seminary-and-institute-teacher",
+        book="My Calling as a Stake Seminary and Institute Teacher",
+        output_subdir="manuals/seminaries-and-institutes/si-teacher-calling",
+        authority=55,
+        tags=["education", "seminary", "institute", "calling", "teaching"],
+    ),
+]
+
+
+# ── Group B: "My Calling" single-page guides ────────────────────────────────
+# Each guide is a small manual with sub-sections (Welcome, Getting Started,
+# Focus, Resources).  They share authority=50, audience=leadership, and are
+# EN-only (confirmed: spa returns 404 for most slugs).
+
+def _calling_config(slug: str, book: str, level: str,
+                    tags: list[str] | None = None) -> ManualConfig:
+    """Build a ManualConfig for a 'My Calling' guide."""
+    safe_slug = slug.replace("my-calling-as-a-", "").replace("my-calling-as-an-", "")
+    return ManualConfig(
+        key=f"calling-{safe_slug}",
+        slug=slug,
+        book=book,
+        output_subdir=f"manuals/callings/{level}/{safe_slug}",
+        authority=50,
+        tags=["calling", level] + (tags or []),
+        bilingual=False,
+    )
+
+
+_CALLING_GUIDES: list[ManualConfig] = [
+    # ── Ward: Primary ────────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-primary-president", "My Calling as a Primary President", "ward", ["primary"]),
+    _calling_config("my-calling-as-a-counselor-in-the-primary-presidency", "My Calling as a Counselor in the Primary Presidency", "ward", ["primary"]),
+    _calling_config("my-calling-as-a-primary-secretary", "My Calling as a Primary Secretary", "ward", ["primary"]),
+    _calling_config("my-calling-as-a-primary-teacher", "My Calling as a Primary Teacher", "ward", ["primary"]),
+    _calling_config("my-calling-as-a-nursery-leader", "My Calling as a Nursery Leader", "ward", ["primary"]),
+    # ── Ward: Sunday School ──────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-sunday-school-president", "My Calling as a Sunday School President", "ward", ["sunday-school"]),
+    _calling_config("my-calling-as-a-counselor-in-the-sunday-school-presidency", "My Calling as a Counselor in the Sunday School Presidency", "ward", ["sunday-school"]),
+    _calling_config("my-calling-as-a-sunday-school-secretary", "My Calling as a Sunday School Secretary", "ward", ["sunday-school"]),
+    _calling_config("my-calling-as-a-sunday-school-teacher", "My Calling as a Sunday School Teacher", "ward", ["sunday-school"]),
+    # ── Ward: Relief Society ─────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-relief-society-president", "My Calling as a Relief Society President", "ward", ["relief-society"]),
+    _calling_config("my-calling-as-a-counselor-in-the-relief-society-presidency", "My Calling as a Counselor in the Relief Society Presidency", "ward", ["relief-society"]),
+    _calling_config("my-calling-as-a-relief-society-secretary", "My Calling as a Relief Society Secretary", "ward", ["relief-society"]),
+    _calling_config("my-calling-as-a-relief-society-teacher", "My Calling as a Relief Society Teacher", "ward", ["relief-society"]),
+    # ── Ward: Elders Quorum ──────────────────────────────────────────────────
+    _calling_config("my-calling-as-an-elders-quorum-president", "My Calling as an Elders Quorum President", "ward", ["elders-quorum"]),
+    _calling_config("my-calling-as-a-counselor-in-the-elders-quorum-presidency", "My Calling as a Counselor in the Elders Quorum Presidency", "ward", ["elders-quorum"]),
+    _calling_config("my-calling-as-an-elders-quorum-secretary", "My Calling as an Elders Quorum Secretary", "ward", ["elders-quorum"]),
+    # ── Ward: Young Women ────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-young-women-class-president", "My Calling as a Young Women Class President", "ward", ["young-women"]),
+    _calling_config("my-calling-as-a-young-women-class-counselor", "My Calling as a Young Women Class Counselor", "ward", ["young-women"]),
+    _calling_config("my-calling-as-a-young-women-class-secretary", "My Calling as a Young Women Class Secretary", "ward", ["young-women"]),
+    _calling_config("my-calling-as-a-young-women-president", "My Calling as a Young Women President", "ward", ["young-women"]),
+    _calling_config("my-calling-as-a-counselor-in-the-young-women-presidency", "My Calling as a Counselor in the Young Women Presidency", "ward", ["young-women"]),
+    _calling_config("my-calling-as-a-young-women-secretary", "My Calling as a Young Women Secretary", "ward", ["young-women"]),
+    _calling_config("my-calling-as-a-young-women-adviser-or-specialist", "My Calling as a Young Women Adviser or Specialist", "ward", ["young-women"]),
+    # ── Ward: Aaronic Priesthood ─────────────────────────────────────────────
+    _calling_config("my-calling-as-a-priests-quorum-assistant", "My Calling as a Priests Quorum Assistant", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-priests-quorum-secretary-2024", "My Calling as a Priests Quorum Secretary", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-teachers-quorum-president-2024", "My Calling as a Teachers Quorum President", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-teachers-quorum-secretary-2024", "My Calling as a Teachers Quorum Secretary", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-counselor-in-the-teachers-quorum", "My Calling as a Counselor in the Teachers Quorum", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-deacons-quorum-president", "My Calling as a Deacons Quorum President", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-deacons-quorum-counselor", "My Calling as a Deacons Quorum Counselor", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-a-deacons-quorum-secretary", "My Calling as a Deacons Quorum Secretary", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-an-aaronic-priesthood-quorum-adviser-or-specialist", "My Calling as an Aaronic Priesthood Quorum Adviser", "ward", ["aaronic-priesthood"]),
+    _calling_config("my-calling-as-an-aaronic-priesthood-quorum-specialist", "My Calling as an Aaronic Priesthood Quorum Specialist", "ward", ["aaronic-priesthood"]),
+    # ── Ward: Bishopric ──────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-bishop", "My Calling as a Bishop", "ward", ["bishopric"]),
+    _calling_config("my-calling-as-a-counselor-in-the-bishopric", "My Calling as a Counselor in the Bishopric", "ward", ["bishopric"]),
+    _calling_config("my-calling-as-a-ward-clerk", "My Calling as a Ward Clerk", "ward", ["bishopric"]),
+    _calling_config("my-calling-as-an-executive-secretary", "My Calling as an Executive Secretary", "ward", ["bishopric"]),
+    # ── Ward: Music ──────────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-ward-music-coordinator", "My Calling as a Ward Music Coordinator", "ward", ["music"]),
+    _calling_config("my-calling-as-a-ward-music-leader", "My Calling as a Ward Music Leader", "ward", ["music"]),
+    _calling_config("my-calling-as-a-ward-accompanist", "My Calling as a Ward Accompanist", "ward", ["music"]),
+    _calling_config("my-calling-as-a-ward-choir-director", "My Calling as a Ward Choir Director", "ward", ["music"]),
+    _calling_config("my-calling-as-a-ward-choir-accompanist", "My Calling as a Ward Choir Accompanist", "ward", ["music"]),
+    _calling_config("my-calling-as-a-ward-music-specialist", "My Calling as a Ward Music Specialist", "ward", ["music"]),
+    # ── Ward: Temple & Family History ────────────────────────────────────────
+    _calling_config("my-calling-as-a-temple-and-family-history-leader", "My Calling as a Temple and Family History Leader", "ward", ["temple", "family-history"]),
+    _calling_config("my-calling-as-a-temple-and-family-history-consultant", "My Calling as a Temple and Family History Consultant", "ward", ["temple", "family-history"]),
+    # ── Ward: Additional ─────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-ward-disability-specialist", "My Calling as a Ward Disability Specialist", "ward", ["disability"]),
+
+    # ── Stake: Primary ───────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-primary-president", "My Calling as a Stake Primary President", "stake", ["primary"]),
+    _calling_config("my-calling-as-a-counselor-in-the-stake-primary-presidency", "My Calling as a Counselor in the Stake Primary Presidency", "stake", ["primary"]),
+    _calling_config("my-calling-as-a-stake-primary-secretary", "My Calling as a Stake Primary Secretary", "stake", ["primary"]),
+    # ── Stake: Sunday School ─────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-sunday-school-president", "My Calling as a Stake Sunday School President", "stake", ["sunday-school"]),
+    _calling_config("my-calling-as-a-stake-sunday-school-counselor", "My Calling as a Stake Sunday School Counselor", "stake", ["sunday-school"]),
+    _calling_config("my-calling-as-a-stake-sunday-school-secretary", "My Calling as a Stake Sunday School Secretary", "stake", ["sunday-school"]),
+    # ── Stake: Relief Society ────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-relief-society-president", "My Calling as a Stake Relief Society President", "stake", ["relief-society"]),
+    _calling_config("my-calling-as-a-counselor-in-the-stake-relief-society-presidency", "My Calling as a Counselor in the Stake Relief Society Presidency", "stake", ["relief-society"]),
+    _calling_config("my-calling-as-a-stake-relief-society-secretary", "My Calling as a Stake Relief Society Secretary", "stake", ["relief-society"]),
+    # ── Stake: Young Women ───────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-young-women-president", "My Calling as a Stake Young Women President", "stake", ["young-women"]),
+    _calling_config("my-calling-as-a-stake-young-women-counselor", "My Calling as a Stake Young Women Counselor", "stake", ["young-women"]),
+    _calling_config("my-calling-as-a-stake-young-women-secretary", "My Calling as a Stake Young Women Secretary", "stake", ["young-women"]),
+    # ── Stake: Young Men ─────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-young-men-president", "My Calling as a Stake Young Men President", "stake", ["young-men"]),
+    _calling_config("my-calling-as-a-counselor-in-the-stake-young-men-presidency", "My Calling as a Counselor in the Stake Young Men Presidency", "stake", ["young-men"]),
+    _calling_config("my-calling-as-a-stake-young-men-secretary", "My Calling as a Stake Young Men Secretary", "stake", ["young-men"]),
+    # ── Stake: Music ─────────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-music-coordinator", "My Calling as a Stake Music Coordinator", "stake", ["music"]),
+    _calling_config("my-calling-as-a-stake-music-specialist", "My Calling as a Stake Music Specialist", "stake", ["music"]),
+    # ── Stake: Temple & Family History ───────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-temple-and-family-history-consultant", "My Calling as a Stake Temple and Family History Consultant", "stake", ["temple", "family-history"]),
+    # ── Stake: Additional ────────────────────────────────────────────────────
+    _calling_config("my-calling-as-a-stake-technology-specialist", "My Calling as a Stake Technology Specialist", "stake", ["technology"]),
 ]
 
 
@@ -458,6 +862,8 @@ def _all_configs() -> dict[str, ManualConfig]:
         c = _prophet_config(pk)
         if c:
             configs[pk] = c
+    for cg in _CALLING_GUIDES:
+        configs[cg.key] = cg
     return configs
 
 
@@ -596,6 +1002,8 @@ def main():
     # Teachings of Presidents options
     parser.add_argument("--all-prophets", action="store_true",
                         help="Download all Teachings of Presidents in sequence")
+    parser.add_argument("--all-callings", action="store_true",
+                        help="Download all My Calling guides in sequence")
 
     args = parser.parse_args()
 
@@ -617,6 +1025,8 @@ def main():
     if args.all_prophets:
         targets = [_prophet_config(pk) for pk, _, _ in _PROPHETS]
         targets = [t for t in targets if t]
+    elif args.all_callings:
+        targets = list(_CALLING_GUIDES)
     elif args.cfm_year:
         targets = [_cfm_config(args.cfm_year)]
     elif args.manual == "come-follow-me":
@@ -640,6 +1050,9 @@ def main():
 
     for config in targets:
         for lang in langs:
+            if lang == "spa" and not config.bilingual:
+                logger.info("[spa] Skipping %s (EN-only)", config.book)
+                continue
             stats = download_manual(config, lang, session,
                                     dry_run=args.dry_run, limit=args.limit)
             total_downloaded += stats["downloaded"]
