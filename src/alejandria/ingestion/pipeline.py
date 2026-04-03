@@ -78,6 +78,16 @@ class IndexingProgress:
     start_time: float = 0.0
     last_stats: IndexingStats | None = None
     error_message: str | None = None
+    # Per-phase tracking
+    phase: int = 0            # 1=parse+FTS, 2=embeddings, 3=vectors+KG, 0=idle/done
+    phase_start_time: float = 0.0
+    phase_2_chunks: int = 0   # total chunks to encode (set at phase 2 start)
+    phase_3_total: int = 0    # total files for phase 3
+    phase_3_done: int = 0     # files completed in phase 3
+
+    @property
+    def phase_name(self) -> str:
+        return {1: "parse_fts", 2: "embeddings", 3: "vectors_kg"}.get(self.phase, "")
 
     @property
     def percent(self) -> float:
@@ -86,20 +96,40 @@ class IndexingProgress:
         return round(self.files_processed / self.files_total * 100, 1)
 
     @property
+    def phase_percent(self) -> float:
+        if self.phase == 1:
+            return self.percent
+        if self.phase == 2:
+            return 100.0 if self.phase_2_chunks > 0 else 0.0
+        if self.phase == 3 and self.phase_3_total > 0:
+            return round(self.phase_3_done / self.phase_3_total * 100, 1)
+        return 0.0
+
+    @property
     def elapsed(self) -> float:
         if self.start_time == 0:
             return 0.0
         return round(time.time() - self.start_time, 1)
 
     @property
+    def phase_elapsed(self) -> float:
+        if self.phase_start_time == 0:
+            return 0.0
+        return round(time.time() - self.phase_start_time, 1)
+
+    @property
     def eta_seconds(self) -> float | None:
-        if self.files_processed == 0 or not self.running:
+        if not self.running:
             return None
-        rate = self.files_processed / self.elapsed if self.elapsed > 0 else 0
-        if rate == 0:
-            return None
-        remaining = self.files_total - self.files_processed
-        return round(remaining / rate, 0)
+        elapsed = self.phase_elapsed
+        if self.phase == 3 and self.phase_3_total > 0 and self.phase_3_done > 0 and elapsed > 0:
+            rate = self.phase_3_done / elapsed
+            return round((self.phase_3_total - self.phase_3_done) / rate, 0)
+        if self.phase == 1 and self.files_processed > 0 and elapsed > 0:
+            rate = self.files_processed / elapsed
+            remaining = self.files_total - self.files_processed
+            return round(remaining / rate, 0)
+        return None
 
 
 @dataclass
@@ -255,6 +285,8 @@ class IngestionPipeline:
 
             # 3-phase pipeline (same as _run_impl)
             n_workers = min(os.cpu_count() or 4, 8)
+            self.progress.phase = 1
+            self.progress.phase_start_time = time.time()
             file_data_list: list[_FileData] = []
 
             # Phase 1a: Delete old data for updates only
@@ -333,6 +365,9 @@ class IngestionPipeline:
             total_chunks = sum(len(fd.chunks) for fd in file_data_list)
 
             # Phase 2 (GPU): Batch-encode
+            self.progress.phase = 2
+            self.progress.phase_start_time = time.time()
+            self.progress.phase_2_chunks = total_chunks
             if self._semantic and _SEMANTIC_AVAILABLE and total_chunks > 0:
                 all_texts = [c.text for fd in file_data_list for c in fd.chunks]
                 all_vectors = encode(all_texts, batch_size=256)
@@ -343,8 +378,13 @@ class IngestionPipeline:
                     offset += n
 
             # Phase 3 (I/O): Qdrant + Neo4j
-            for fd in file_data_list:
+            self.progress.phase = 3
+            self.progress.phase_start_time = time.time()
+            self.progress.phase_3_total = len(file_data_list)
+            self.progress.phase_3_done = 0
+            for i, fd in enumerate(file_data_list):
                 self.progress.current_file = fd.rel_path
+                self.progress.phase_3_done = i + 1
                 try:
                     self._index_file_data(fd)
                 except Exception:
@@ -482,6 +522,8 @@ class IngestionPipeline:
 
             # ── Phase 1 (CPU): Parse (parallel) + FTS index (serial, single conn) ──
             n_workers = min(os.cpu_count() or 4, 8)
+            self.progress.phase = 1
+            self.progress.phase_start_time = time.time()
             logger.info(
                 "Phase 1/3: Parsing %d files (parallel, %d workers) + FTS indexing...",
                 len(to_process), n_workers,
@@ -570,6 +612,9 @@ class IngestionPipeline:
             )
 
             # ── Phase 2 (GPU): Batch-encode all chunks at once ──
+            self.progress.phase = 2
+            self.progress.phase_start_time = time.time()
+            self.progress.phase_2_chunks = total_chunks
             if self._semantic and _SEMANTIC_AVAILABLE and total_chunks > 0:
                 logger.info("Phase 2/3: Batch-encoding %d chunks...", total_chunks)
                 all_texts = []
@@ -590,9 +635,14 @@ class IngestionPipeline:
                 logger.info("Phase 2/3: Skipped (semantic search not available)")
 
             # ── Phase 3 (I/O): Qdrant upsert + Neo4j KG extraction ──
+            self.progress.phase = 3
+            self.progress.phase_start_time = time.time()
+            self.progress.phase_3_total = len(file_data_list)
+            self.progress.phase_3_done = 0
             logger.info("Phase 3/3: Upserting vectors + KG extraction...")
             for i, fd in enumerate(file_data_list):
                 self.progress.current_file = fd.rel_path
+                self.progress.phase_3_done = i + 1
                 self.progress.files_processed = len(to_process) - len(file_data_list) + i
 
                 try:

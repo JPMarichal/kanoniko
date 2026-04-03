@@ -239,11 +239,20 @@ class IndexStatusResponse(BaseModel):
     errors: list[dict]
     indexing: bool = False
     current_file: str | None = None
+    # Phase 1 progress (parse + FTS)
     files_processed: int = 0
     files_total: int = 0
     percent: float = 0.0
     elapsed_seconds: float = 0.0
     eta_seconds: float | None = None
+    # Per-phase tracking
+    phase: int = 0              # 1=parse_fts, 2=embeddings, 3=vectors_kg, 0=idle
+    phase_name: str = ""
+    phase_percent: float = 0.0
+    phase_elapsed_seconds: float = 0.0
+    phase_2_chunks: int = 0     # total chunks for embeddings phase
+    phase_3_done: int = 0       # files completed in vectors+KG phase
+    phase_3_total: int = 0      # total files for vectors+KG phase
 
 
 # --- Documents ---
