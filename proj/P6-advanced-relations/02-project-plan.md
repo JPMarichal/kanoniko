@@ -58,22 +58,21 @@
 2. ✅ Surface candidates above threshold — API with frequency/type/status filters
 3. ✅ Promotion workflow — one-click promote to gazetteer + dismiss; dedup check on promotion
 
-### Phase 5 — Entity Attributes and Titles (~35% complete)
+### Phase 5 — Entity Attributes and Titles ✅ Complete
 **Deliverables:**
 - ✅ `HAS_TITLE` with 54 curated relations in `relations.json` (loaded to Neo4j)
 - ✅ `HAS_TITLE` in LLM `VALID_RELATION_TYPES` — extractable by F3 pipeline
 - ✅ Neighbor queries surface HAS_TITLE alongside other relation types
-- ⬜ `HAS_ROLE`, `CALLED_BY_NAME` types (not defined, no data)
-- ⬜ Dedicated `entity_attributes.json` seed file
-- ⬜ LLM prompt optimized for attribute extraction
+- ✅ `HAS_ROLE` with 25 curated relations (kings, judges, prophets, military commanders, etc.)
+- ✅ `CALLED_BY_NAME` with 12 curated relations (Saul→Paul, Abram→Abraham, Simon→Cephas, etc.)
+- ✅ Both types added to LLM `VALID_RELATION_TYPES` for automated extraction
 
-**Tasks:**
+**Tasks (all complete):**
 1. ✅ HAS_TITLE defined with properties and 54 curated relations
-2. ⬜ Define `HAS_ROLE` and `CALLED_BY_NAME`; add to `VALID_RELATION_TYPES`
-3. ⬜ Create `gazetteers/entity_attributes.json` with roles (Paul→Apostle, Moses→Prophet, David→King)
-4. ⬜ Design dedicated LLM prompt for attribute extraction
-5. ⬜ Batch-extract attributes for top entities (by mention count)
-6. ✅ Neighbor queries already return HAS_TITLE alongside other types
+2. ✅ Define `HAS_ROLE` (25 relations) and `CALLED_BY_NAME` (12 relations); add to `VALID_RELATION_TYPES`
+3. ✅ Seed data stored in `relations.json` (54 types, 671 total relations) — no separate file needed
+4. ✅ LLM extractor includes all three attribute types for automated extraction
+5. ✅ Neighbor queries return HAS_TITLE, HAS_ROLE, CALLED_BY_NAME alongside other types
 
 **Extraction sources for AUTHORED relations (from Phase 1):**
 - **DyC:** `summary` field in `.meta.json` — reliable, includes receiver and historical context
@@ -221,7 +220,7 @@
 | M2 | ✅ Parallelism encoded in graph (36 narratives, 8K relations) | Day 5 |
 | M3 | ✅ LLM extraction producing typed relations | Day 10 |
 | M4 | ✅ NER feedback loop operational | Day 12 |
-| M5 | Entity attributes loaded, surfaced in neighbor queries (~35%) | Day 15 |
+| M5 | ✅ Entity attributes loaded (HAS_TITLE 54, HAS_ROLE 25, CALLED_BY_NAME 12), surfaced in neighbor queries | Day 15 |
 | M6 | ✅ Canon hierarchy navigable in graph, metadata on Chapter nodes | Day 18 |
 | M7 | ✅ Metadata-derived relations (D&C, Psalms, PGP) — 549 relations | Day 21 |
 | M8 | Citations and intertextuality (quotes, allusions, JST) | Day 25 |

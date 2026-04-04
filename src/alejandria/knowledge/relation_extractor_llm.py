@@ -32,7 +32,7 @@ VALID_RELATION_TYPES = {
     # Governance / Leadership
     "SUCCESSOR_OF", "PREDECESSOR_OF", "CALLED_AS", "RULED_OVER",
     # Attributes
-    "HAS_TITLE", "TRIBE_OF",
+    "HAS_TITLE", "HAS_ROLE", "CALLED_BY_NAME", "TRIBE_OF",
     # Prophetic / Doctrinal
     "PROPHESIED_ABOUT", "TAUGHT", "PROPHESIED_TO", "PROPHECY_OF",
     # Geographic
