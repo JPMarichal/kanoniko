@@ -1892,20 +1892,6 @@
     },
     {
       "from": {
-        "name": "Canaan",
-        "type": "person"
-      },
-      "to": {
-        "name": "Sidon",
-        "type": "person"
-      },
-      "source_ref": "Genesis 10:15",
-      "confidence": "curated",
-      "source": "genealogy_extraction",
-      "bidirectional": false
-    },
-    {
-      "from": {
         "name": "Shem",
         "type": "person"
       },
@@ -3969,34 +3955,6 @@
       },
       "to": {
         "name": "Nathan",
-        "type": "person"
-      },
-      "source_ref": "1 Chronicles 3:5",
-      "confidence": "curated",
-      "source": "genealogy_extraction",
-      "bidirectional": false
-    },
-    {
-      "from": {
-        "name": "David",
-        "type": "person"
-      },
-      "to": {
-        "name": "Bathsheba",
-        "type": "person"
-      },
-      "source_ref": "1 Chronicles 3:5",
-      "confidence": "curated",
-      "source": "genealogy_extraction",
-      "bidirectional": false
-    },
-    {
-      "from": {
-        "name": "David",
-        "type": "person"
-      },
-      "to": {
-        "name": "Eliam",
         "type": "person"
       },
       "source_ref": "1 Chronicles 3:5",
@@ -9050,20 +9008,6 @@
         "type": "person"
       },
       "to": {
-        "name": "Eglah",
-        "type": "person"
-      },
-      "source_ref": "2 Samuel 3:5",
-      "confidence": "curated",
-      "source": "genealogy_extraction",
-      "bidirectional": false
-    },
-    {
-      "from": {
-        "name": "David",
-        "type": "person"
-      },
-      "to": {
         "name": "Shammua",
         "type": "person"
       },
@@ -9410,7 +9354,7 @@
     },
     {
       "from": {
-        "name": "Righteousness",
+        "name": "Akish",
         "type": "person"
       },
       "to": {
@@ -10154,7 +10098,7 @@
   "SPOUSE_OF": [
     {
       "from": {
-        "name": "Shur",
+        "name": "Ishmael",
         "type": "person"
       },
       "to": {
@@ -10609,20 +10553,6 @@
       },
       "to": {
         "name": "Nathan",
-        "type": "person"
-      },
-      "source_ref": "1 Chronicles 3:5",
-      "confidence": "curated",
-      "source": "genealogy_extraction",
-      "bidirectional": false
-    },
-    {
-      "from": {
-        "name": "Bathsheba",
-        "type": "person"
-      },
-      "to": {
-        "name": "Eliam",
         "type": "person"
       },
       "source_ref": "1 Chronicles 3:5",

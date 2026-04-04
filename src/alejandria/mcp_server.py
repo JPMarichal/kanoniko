@@ -218,6 +218,43 @@ TOOLS = [
         inputSchema={"type": "object", "properties": {}},
     ),
     Tool(
+        name="kg_genealogy_tree",
+        description=(
+            "Get a hierarchical family tree for a scriptural person. "
+            "Shows ancestors (parents), descendants (children), and spouses. "
+            "Configurable direction (up/down/both) and depth (1-10 generations)."
+        ),
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "name": {"type": "string", "description": "Person name (e.g., 'Abraham', 'David')"},
+                "direction": {
+                    "type": "string",
+                    "description": "up (ancestors), down (descendants), both (default)",
+                    "default": "both",
+                },
+                "depth": {"type": "integer", "description": "Max generations (default 3)", "default": 3},
+                "lang": {"type": "string", "description": "en or es for bilingual names", "default": "en"},
+            },
+            "required": ["name"],
+        },
+    ),
+    Tool(
+        name="kg_genealogy_path",
+        description=(
+            "Find the shortest family path between two scriptural people. "
+            "Returns the chain of relationships connecting them (e.g., Abraham → Isaac → Jacob)."
+        ),
+        inputSchema={
+            "type": "object",
+            "properties": {
+                "name1": {"type": "string", "description": "First person name"},
+                "name2": {"type": "string", "description": "Second person name"},
+            },
+            "required": ["name1", "name2"],
+        },
+    ),
+    Tool(
         name="chat_ask",
         description=(
             "Ask a question and get a full RAG-powered answer grounded in the corpus. "
@@ -295,6 +332,10 @@ def _dispatch(name: str, args: dict) -> dict:
         return _do_kg_docs(args)
     elif name == "kg_summary":
         return _do_kg_summary()
+    elif name == "kg_genealogy_tree":
+        return _do_kg_genealogy_tree(args)
+    elif name == "kg_genealogy_path":
+        return _do_kg_genealogy_path(args)
     elif name == "chat_ask":
         return _do_chat_ask(args)
     elif name == "chat_classify":
@@ -501,6 +542,25 @@ def _do_kg_summary() -> dict:
     if neo4j is None:
         return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
     return neo4j.graph_summary()
+
+
+def _do_kg_genealogy_tree(args: dict) -> dict:
+    neo4j = _get_neo4j()
+    if neo4j is None:
+        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
+    return neo4j.get_genealogy_tree(
+        name=args["name"],
+        direction=args.get("direction", "both"),
+        depth=args.get("depth", 3),
+        lang=args.get("lang", "en"),
+    )
+
+
+def _do_kg_genealogy_path(args: dict) -> dict:
+    neo4j = _get_neo4j()
+    if neo4j is None:
+        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
+    return neo4j.get_genealogy_path(args["name1"], args["name2"])
 
 
 def _do_chat_ask(args: dict) -> dict:
