@@ -547,6 +547,19 @@ class IngestionPipeline:
                 if seed_relations:
                     self._neo4j.batch_merge_relations(seed_relations)
 
+                # Load curated relations from gazetteers/relations.json (P6 Phase 1)
+                try:
+                    from alejandria.knowledge.extractor import _RELATIONS_PATH
+                    if _RELATIONS_PATH.exists():
+                        counts = self._neo4j.load_curated_relations(_RELATIONS_PATH)
+                        total_curated = sum(counts.values())
+                        logger.info(
+                            "Loaded %d curated relations across %d types",
+                            total_curated, len([c for c in counts.values() if c > 0]),
+                        )
+                except Exception:
+                    logger.warning("Failed to load curated relations", exc_info=True)
+
             # ── Phase 1 (CPU): Parse (parallel) + FTS index (serial, single conn) ──
             n_workers = min(os.cpu_count() or 4, 8)
             self.progress.phase = 1
@@ -1279,6 +1292,45 @@ class IngestionPipeline:
             self._neo4j.batch_merge_entities(seed_entities)
         if seed_relations:
             self._neo4j.batch_merge_relations(seed_relations)
+
+        # Load curated relations from gazetteers/relations.json (P6 Phase 1)
+        # These are high-confidence typed relations (family trees, callings,
+        # authorship, etc.) that must be in the graph with curated confidence.
+        try:
+            from alejandria.knowledge.extractor import _RELATIONS_PATH
+            if _RELATIONS_PATH.exists():
+                counts = self._neo4j.load_curated_relations(_RELATIONS_PATH)
+                total_curated = sum(counts.values())
+                logger.info(
+                    "KG rebuild: loaded %d curated relations across %d types",
+                    total_curated, len([c for c in counts.values() if c > 0]),
+                )
+        except Exception:
+            logger.warning("Failed to load curated relations — continuing without them", exc_info=True)
+
+        # Load scripture hierarchy into Neo4j (P6 Phase 6)
+        try:
+            from alejandria.knowledge.hierarchy_loader import load_hierarchy
+            h_counts = load_hierarchy(self._neo4j._driver)
+            logger.info("KG rebuild: hierarchy loaded — %d chapters, %d contains rels", h_counts.get("chapters", 0), h_counts.get("contains", 0))
+        except Exception:
+            logger.warning("Failed to load hierarchy — continuing without it", exc_info=True)
+
+        # Load parallel narratives (P6 Phase 2)
+        try:
+            from alejandria.knowledge.parallels import load_parallels
+            p_counts = load_parallels(self._neo4j._driver)
+            logger.info("KG rebuild: parallels loaded — %d narratives, %d relations", p_counts.get("narratives", 0), p_counts.get("relations", 0))
+        except Exception:
+            logger.warning("Failed to load parallels — continuing without them", exc_info=True)
+
+        # Extract metadata relations (P6 Phase 7) — depends on hierarchy (reads Chapter nodes)
+        try:
+            from alejandria.knowledge.metadata_relations import extract_metadata_relations
+            m_counts = extract_metadata_relations(self._neo4j._driver)
+            logger.info("KG rebuild: metadata relations — %d total", m_counts.get("total", 0))
+        except Exception:
+            logger.warning("Failed to extract metadata relations — continuing without them", exc_info=True)
 
         # Read all chunks from SQLite
         conn = self._textual.get_connection()

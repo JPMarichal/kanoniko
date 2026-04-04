@@ -7917,17 +7917,409 @@
   "PARALLEL_ACCOUNT_OF": [],
   "DESCRIBED_IN": [],
   "OCCURRED_DURING": [],
-  "PRECEDED_BY": [],
-  "IS_SAME_AS": [],
+  "PRECEDED_BY": [
+    {
+      "from": {
+        "name": "Isaac",
+        "type": "person"
+      },
+      "to": {
+        "name": "Abraham",
+        "type": "person"
+      },
+      "source_ref": "Genesis 25:5-11",
+      "confidence": "curated",
+      "note": "Covenant succession"
+    },
+    {
+      "from": {
+        "name": "Jacob",
+        "type": "person"
+      },
+      "to": {
+        "name": "Isaac",
+        "type": "person"
+      },
+      "source_ref": "Genesis 27:28-29",
+      "confidence": "curated",
+      "note": "Covenant succession"
+    },
+    {
+      "from": {
+        "name": "Joshua",
+        "type": "person"
+      },
+      "to": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "source_ref": "Deuteronomy 34:9",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Elisha",
+        "type": "person"
+      },
+      "to": {
+        "name": "Elijah",
+        "type": "person"
+      },
+      "source_ref": "2 Kings 2:9-15",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Brigham Young",
+        "type": "person"
+      },
+      "to": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "source_ref": "D&C 136:1-3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Alma the Younger",
+        "type": "person"
+      },
+      "to": {
+        "name": "Alma the Elder",
+        "type": "person"
+      },
+      "source_ref": "Mosiah 29:42",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Helaman",
+        "type": "person"
+      },
+      "to": {
+        "name": "Alma the Younger",
+        "type": "person"
+      },
+      "source_ref": "Alma 37:1-2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Nephi son of Helaman",
+        "type": "person"
+      },
+      "to": {
+        "name": "Helaman",
+        "type": "person"
+      },
+      "source_ref": "Helaman 3:37",
+      "confidence": "curated"
+    }
+  ],
+  "IS_SAME_AS": [
+    {
+      "from": {
+        "name": "Peter",
+        "type": "person"
+      },
+      "to": {
+        "name": "Cephas",
+        "type": "person"
+      },
+      "source_ref": "John 1:42",
+      "confidence": "curated",
+      "bidirectional": true
+    },
+    {
+      "from": {
+        "name": "Peter",
+        "type": "person"
+      },
+      "to": {
+        "name": "Simon Peter",
+        "type": "person"
+      },
+      "source_ref": "Matthew 16:16",
+      "confidence": "curated",
+      "bidirectional": true
+    },
+    {
+      "from": {
+        "name": "Saul of Tarsus",
+        "type": "person"
+      },
+      "to": {
+        "name": "Paul",
+        "type": "person"
+      },
+      "source_ref": "Acts 13:9",
+      "confidence": "curated",
+      "bidirectional": true
+    },
+    {
+      "from": {
+        "name": "Jacob",
+        "type": "person"
+      },
+      "to": {
+        "name": "Israel",
+        "type": "person"
+      },
+      "source_ref": "Genesis 32:28",
+      "confidence": "curated",
+      "bidirectional": true
+    },
+    {
+      "from": {
+        "name": "Abram",
+        "type": "person"
+      },
+      "to": {
+        "name": "Abraham",
+        "type": "person"
+      },
+      "source_ref": "Genesis 17:5",
+      "confidence": "curated",
+      "bidirectional": true
+    },
+    {
+      "from": {
+        "name": "Sarai",
+        "type": "person"
+      },
+      "to": {
+        "name": "Sarah",
+        "type": "person"
+      },
+      "source_ref": "Genesis 17:15",
+      "confidence": "curated",
+      "bidirectional": true
+    }
+  ],
   "AUTHORIZED": [],
   "REVOKED": [],
   "DISAVOWED": [],
   "CANONIZED_AS": [],
-  "EARLIER_VERSION_OF": [],
+  "EARLIER_VERSION_OF": [
+    {
+      "from": {
+        "name": "JST Genesis 14:25-40",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Genesis 14:18-20",
+        "type": "scripture"
+      },
+      "source_ref": "JST Genesis 14:25-40",
+      "confidence": "curated",
+      "note": "Expanded account of Melchizedek"
+    },
+    {
+      "from": {
+        "name": "JST Genesis 50:24-38",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Genesis 50:24-26",
+        "type": "scripture"
+      },
+      "source_ref": "JST Genesis 50:24-38",
+      "confidence": "curated",
+      "note": "Joseph of Egypt prophecy about Moses and Joseph Smith"
+    },
+    {
+      "from": {
+        "name": "JST Matthew 24",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Matthew 24",
+        "type": "scripture"
+      },
+      "source_ref": "Joseph Smith—Matthew",
+      "confidence": "curated",
+      "note": "Published as Joseph Smith—Matthew in PGP"
+    },
+    {
+      "from": {
+        "name": "JST Hebrews 7:3",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Hebrews 7:3",
+        "type": "scripture"
+      },
+      "source_ref": "JST Hebrews 7:3",
+      "confidence": "curated",
+      "note": "Clarifies \"without father\" applies to priesthood order, not person"
+    },
+    {
+      "from": {
+        "name": "JST 1 John 4:12",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "1 John 4:12",
+        "type": "scripture"
+      },
+      "source_ref": "JST 1 John 4:12",
+      "confidence": "curated",
+      "note": "No man hath seen God at any time → except those who believe"
+    },
+    {
+      "from": {
+        "name": "JST Romans 7:14-15",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Romans 7:14-15",
+        "type": "scripture"
+      },
+      "source_ref": "JST Romans 7:14-15",
+      "confidence": "curated",
+      "note": "Clarifies Paul speaks of past struggle, not present"
+    }
+  ],
   "COVERS": [],
   "DESIGNATED_AS": [],
-  "FOREORDAINED_AS": [],
-  "MARTYRED_AT": [],
+  "FOREORDAINED_AS": [
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Redeemer",
+        "type": "concept"
+      },
+      "source_ref": "Moses 4:2; 1 Peter 1:20",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Abraham",
+        "type": "person"
+      },
+      "to": {
+        "name": "Leader",
+        "type": "concept"
+      },
+      "source_ref": "Abraham 3:23",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jeremiah",
+        "type": "person"
+      },
+      "to": {
+        "name": "Prophet",
+        "type": "concept"
+      },
+      "source_ref": "Jeremiah 1:5",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Prophet",
+        "type": "concept"
+      },
+      "source_ref": "2 Nephi 3:6-15",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Mary",
+        "type": "person"
+      },
+      "to": {
+        "name": "Mother of the Son of God",
+        "type": "concept"
+      },
+      "source_ref": "1 Nephi 11:18; Alma 7:10",
+      "confidence": "curated"
+    }
+  ],
+  "MARTYRED_AT": [
+    {
+      "from": {
+        "name": "Abel",
+        "type": "person"
+      },
+      "to": {
+        "name": "Field",
+        "type": "place"
+      },
+      "source_ref": "Genesis 4:8",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Abinadi",
+        "type": "person"
+      },
+      "to": {
+        "name": "City of Nephi",
+        "type": "place"
+      },
+      "source_ref": "Mosiah 17:13-20",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Stephen",
+        "type": "person"
+      },
+      "to": {
+        "name": "Jerusalem",
+        "type": "place"
+      },
+      "source_ref": "Acts 7:58-60",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James",
+        "type": "person"
+      },
+      "to": {
+        "name": "Jerusalem",
+        "type": "place"
+      },
+      "source_ref": "Acts 12:2",
+      "confidence": "curated",
+      "note": "James son of Zebedee, killed by Herod"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Carthage Jail",
+        "type": "place"
+      },
+      "source_ref": "D&C 135:1",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Hyrum Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Carthage Jail",
+        "type": "place"
+      },
+      "source_ref": "D&C 135:1",
+      "confidence": "curated"
+    }
+  ],
   "DESCRIBED_BY": [],
   "ADDRESSED_BY": [],
   "CITES": []
