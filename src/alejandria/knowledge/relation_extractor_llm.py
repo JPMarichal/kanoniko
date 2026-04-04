@@ -432,6 +432,8 @@ def build_batches_from_index(
     """Build extraction batches from the FTS index.
 
     Selects passages that have the most entity mentions (richest for relations).
+    Uses lightweight gazetteer-only matching for scoring (no spaCy NER,
+    no disambiguation) to keep memory and CPU usage low.
 
     Args:
         max_passages: Maximum passages to process.
@@ -440,84 +442,107 @@ def build_batches_from_index(
 
     Returns list of ExtractionBatch objects.
     """
-    from alejandria.knowledge.extractor import KGExtractor
-
+    import heapq
     import sqlite3
+
+    from alejandria.knowledge.extractor import KGExtractor
 
     db_path = Path(settings.sqlite_db_path)
     if not db_path.exists():
         logger.error("SQLite DB not found: %s", db_path)
         return []
 
+    # Build a lightweight gazetteer regex + lookup — skip spaCy and disambiguation
     extractor = KGExtractor()
-    batches: list[ExtractionBatch] = []
+    gaz_re = extractor._gazetteer_re
+    gaz_lookup = extractor._lookup
+    if not gaz_re:
+        logger.error("Gazetteer regex not available")
+        return []
+
+    query = """
+        SELECT file_path, chunk_index, text, reference
+        FROM chunks
+        WHERE length(text) > 100
+          AND file_path NOT LIKE '%.meta.json'
+    """
+    params: list[Any] = []
+
+    if volumes:
+        conditions = " OR ".join("file_path LIKE ?" for _ in volumes)
+        query += f" AND ({conditions})"
+        for v in volumes:
+            params.append(f"%/scriptures/{v}/%")
+
+    # Use a min-heap of size max_passages to avoid storing all scored rows
+    # Heap entries: (entity_count, row_index, data_dict)
+    heap: list[tuple[int, int, dict]] = []
+    total_candidates = 0
 
     with sqlite3.connect(db_path) as conn:
         conn.row_factory = sqlite3.Row
+        cursor = conn.execute(query, params)
+        batch_size = 5000
 
-        # Get chunks with most entity variety
-        # Exclude .meta.json files (cross-references) — prefer actual passage text
-        query = """
-            SELECT file_path, chunk_index, text, reference
-            FROM chunks
-            WHERE length(text) > 100
-              AND file_path NOT LIKE '%.meta.json'
-        """
-        params: list[Any] = []
+        row_idx = 0
+        while True:
+            rows = cursor.fetchmany(batch_size)
+            if not rows:
+                break
 
-        if volumes:
-            placeholders = ",".join("?" * len(volumes))
-            # Filter by volume prefix in file_path
-            conditions = " OR ".join(f"file_path LIKE ?" for _ in volumes)
-            query += f" AND ({conditions})"
-            for v in volumes:
-                params.append(f"%/scriptures/{v}/%")
+            for row in rows:
+                content = row["text"]
+                text_lower = content.lower()
 
-        query += " ORDER BY length(text) DESC LIMIT ?"
-        params.append(max_passages * 5)  # Get more than needed, filter by entity count
+                # Lightweight gazetteer-only entity counting
+                seen: set[str] = set()
+                for match in gaz_re.finditer(text_lower):
+                    term = match.group(1).lower()
+                    for canonical, etype in gaz_lookup.get(term, []):
+                        if etype != "scripture":
+                            seen.add(f"{canonical}:{etype}")
 
-        rows = conn.execute(query, params).fetchall()
+                entity_count = len(seen)
+                if entity_count < min_entities:
+                    continue
 
-    # Score each passage by entity count
-    scored: list[tuple[int, dict]] = []
-    for row in rows:
-        content = row["text"]
-        result = extractor.extract(content, source_file=row["file_path"])
-        entity_count = len([e for e in result.entities if e.source == "gazetteer"])
+                total_candidates += 1
 
-        if entity_count >= min_entities:
-            entities = [
-                {"name": e.name, "type": e.type}
-                for e in result.entities
-                if e.type != "scripture"  # Skip scripture refs as entities
-            ]
-            # Deduplicate entities
-            seen = set()
-            unique_entities = []
-            for e in entities:
-                k = f"{e['name']}:{e['type']}"
-                if k not in seen:
-                    seen.add(k)
-                    unique_entities.append(e)
+                # Build entity list for the batch
+                entities = [
+                    {"name": k.rsplit(":", 1)[0], "type": k.rsplit(":", 1)[1]}
+                    for k in seen
+                ]
 
-            scored.append((
-                len(unique_entities),
-                {
-                    "file_path": row["file_path"],
-                    "reference": row["reference"] or row["file_path"],
-                    "text": content,
-                    "entities": unique_entities,
-                },
-            ))
+                entry = (
+                    entity_count,
+                    row_idx,
+                    {
+                        "file_path": row["file_path"],
+                        "reference": row["reference"] or row["file_path"],
+                        "text": content,
+                        "entities": entities,
+                    },
+                )
 
-    # Sort by entity count descending, take top passages
-    scored.sort(key=lambda x: x[0], reverse=True)
+                if len(heap) < max_passages:
+                    heapq.heappush(heap, entry)
+                elif entity_count > heap[0][0]:
+                    heapq.heapreplace(heap, entry)
 
-    for _, data in scored[:max_passages]:
-        batches.append(ExtractionBatch(**data))
+                row_idx += 1
+
+            logger.info(
+                "Batch scoring: processed %d rows, %d candidates, heap size %d",
+                row_idx, total_candidates, len(heap),
+            )
+
+    # Extract from heap sorted by entity count descending
+    heap.sort(key=lambda x: x[0], reverse=True)
+    batches = [ExtractionBatch(**entry[2]) for entry in heap]
 
     logger.info(
         "Built %d extraction batches from %d candidates (min_entities=%d)",
-        len(batches), len(rows), min_entities,
+        len(batches), total_candidates, min_entities,
     )
     return batches
