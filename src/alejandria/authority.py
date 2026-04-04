@@ -326,6 +326,35 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         authority=50, rigor=55, importance="interesante",
         official=True, current=True,
     )),
+    # ── Classic LDS works (Project Gutenberg) ──
+    # Talmage — commissioned/adopted by the Church (GA as private author, adopted)
+    ("articles-of-faith/", AuthorityMeta(
+        authority=45, rigor=65, importance="importante",
+        official=False, current=False, context="book-official",
+        audience="adult",
+    )),
+    ("great-apostasy/", AuthorityMeta(
+        authority=45, rigor=65, importance="importante",
+        official=False, current=False, context="book-official",
+        audience="adult",
+    )),
+    ("house-of-the-lord/", AuthorityMeta(
+        authority=45, rigor=60, importance="importante",
+        official=False, current=False, context="book-official",
+        audience="adult",
+    )),
+    # Talmage — personal essay collection, not officially adopted
+    ("vitality-of-mormonism/", AuthorityMeta(
+        authority=40, rigor=55, importance="interesante",
+        official=False, current=False, context="book-unofficial",
+        audience="adult",
+    )),
+    # Discourses of BY — Widtsoe compilation from Journal of Discourses
+    ("discourses-brigham-young/", AuthorityMeta(
+        authority=35, rigor=55, importance="interesante",
+        official=False, current=False, context="book-unofficial",
+        audience="adult",
+    )),
 ]
 
 

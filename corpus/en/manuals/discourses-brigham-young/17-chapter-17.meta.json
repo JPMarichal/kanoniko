@@ -109,5 +109,11 @@
     "9:188",
     "12:164",
     "9:172"
-  ]
+  ],
+  "rigor": 55,
+  "importance": "interesante",
+  "official": false,
+  "current": false,
+  "context": "book-unofficial",
+  "audience": "adult"
 }

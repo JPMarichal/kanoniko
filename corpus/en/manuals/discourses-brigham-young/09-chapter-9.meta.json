@@ -65,5 +65,11 @@
     "7:173",
     "9:365",
     "10:300"
-  ]
+  ],
+  "rigor": 55,
+  "importance": "interesante",
+  "official": false,
+  "current": false,
+  "context": "book-unofficial",
+  "audience": "adult"
 }

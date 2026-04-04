@@ -48,33 +48,36 @@ BOOK_CONFIGS: dict[int, dict] = {
         "author": "James E. Talmage",
         "category": "manuals",
         "tags": ["doctrine", "apostle-authored", "lectures"],
-        "authority": 40,
+        "authority": 45,
         "chapter_pattern": r"^(?:LECTURE|CHAPTER)\s+([IVXLC\d]+)\.?\s*$",
         "title_offset": 2,  # title line is 2 lines after chapter marker
         "has_toc": True,
-        "note": "Originally delivered as lectures at LDS University, 1893. Published 1899.",
+        "note": "Originally delivered as lectures at LDS University, 1893. Published 1899. "
+                "Commissioned by the First Presidency; adopted as official study text.",
     },
     35514: {
         "slug": "great-apostasy",
         "author": "James E. Talmage",
         "category": "manuals",
         "tags": ["doctrine", "apostle-authored", "church-history", "apostasy"],
-        "authority": 40,
+        "authority": 45,
         "chapter_pattern": r"^CHAPTER\s+([IVXLC\d]+)\.?\s*$",
         "title_offset": 2,
         "has_toc": True,
-        "note": "Published 1909. Zion's Printing and Publishing Company.",
+        "note": "Published 1909. Zion's Printing and Publishing Company. "
+                "Used as missionary resource for decades.",
     },
     45149: {
         "slug": "house-of-the-lord",
         "author": "James E. Talmage",
         "category": "manuals",
         "tags": ["doctrine", "apostle-authored", "temples"],
-        "authority": 40,
+        "authority": 45,
         "chapter_pattern": r"^CHAPTER\s+([IVXLC\d]+)\.?\s*$",
         "title_offset": 2,
         "has_toc": True,
-        "note": "Published 1912. Study of holy sanctuaries ancient and modern.",
+        "note": "Published 1912. First authorized book on LDS temples. "
+                "First Presidency authorized interior photographs.",
     },
     47182: {
         "slug": "vitality-of-mormonism",
