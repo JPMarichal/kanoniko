@@ -80,6 +80,13 @@ _SOURCE_DEFAULTS: dict[str, AuthorityMeta] = {
         authority=25, rigor=45, importance="interesante",
         official=False, current=True,
     ),
+    "books": AuthorityMeta(
+        # Individual-author books (GA or other) — not Church curriculum.
+        # Default: GA private author, not officially adopted.
+        authority=40, rigor=55, importance="interesante",
+        official=False, current=False, context="book-unofficial",
+        audience="adult",
+    ),
 }
 
 _FALLBACK = AuthorityMeta(
@@ -326,8 +333,15 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         authority=50, rigor=55, importance="interesante",
         official=True, current=True,
     )),
-    # ── Classic LDS works (Project Gutenberg) ──
-    # Talmage — commissioned/adopted by the Church (GA as private author, adopted)
+]
+
+
+# ── Sub-category overrides for books ───────────────────────────────────
+# Books default to authority=40 (GA private author, not adopted).
+# These overrides handle sub-paths that diverge from the baseline.
+
+_BOOK_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
+    # Talmage — commissioned by First Presidency, published by the Church
     ("articles-of-faith/", AuthorityMeta(
         authority=45, rigor=65, importance="importante",
         official=False, current=False, context="book-official",
@@ -343,10 +357,9 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         official=False, current=False, context="book-official",
         audience="adult",
     )),
-    # Talmage — personal essay collection, not officially adopted
-    ("vitality-of-mormonism/", AuthorityMeta(
-        authority=40, rigor=55, importance="interesante",
-        official=False, current=False, context="book-unofficial",
+    ("jesus-the-christ/", AuthorityMeta(
+        authority=45, rigor=65, importance="importante",
+        official=False, current=False, context="book-official",
         audience="adult",
     )),
     # Discourses of BY — Widtsoe compilation from Journal of Discourses
@@ -355,6 +368,7 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         official=False, current=False, context="book-unofficial",
         audience="adult",
     )),
+    # vitality-of-mormonism/ uses the category default (40, book-unofficial)
 ]
 
 
@@ -412,6 +426,22 @@ def derive_authority(source: str, rel_path: str = "") -> AuthorityMeta:
     # ── Manual sub-category overrides (first match wins) ──
     if source == "manuals":
         for key, override in _MANUAL_OVERRIDES:
+            if key in norm:
+                return AuthorityMeta(
+                    authority=override.authority,
+                    rigor=override.rigor,
+                    importance=override.importance,
+                    official=override.official,
+                    current=override.current,
+                    context=override.context,
+                    consensus=override.consensus,
+                    audience=override.audience,
+                    speaker_calling=override.speaker_calling,
+                )
+
+    # ── Book sub-category overrides (first match wins) ──
+    if source == "books":
+        for key, override in _BOOK_OVERRIDES:
             if key in norm:
                 return AuthorityMeta(
                     authority=override.authority,

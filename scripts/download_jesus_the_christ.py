@@ -198,7 +198,7 @@ def build_meta(page_data: dict, uri: str, slug: str, lang: str) -> dict:
         "title": page_data["title"],
         "author": "James E. Talmage",
         "book": "Jesus the Christ",
-        "category": "manuals",
+        "category": "books",
         "subcategory": "jesus-the-christ",
         "tags": ["christology", "gospels", "life-of-christ", "apostle-authored"],
         "authority": 45,
@@ -211,7 +211,7 @@ def build_meta(page_data: dict, uri: str, slug: str, lang: str) -> dict:
 def download_book(lang: str, dry_run: bool = False) -> dict:
     """Download all chapters for one language."""
     corpus_lang = LANG_MAP.get(lang, lang)
-    output_dir = CORPUS_ROOT / corpus_lang / "manuals" / "jesus-the-christ"
+    output_dir = CORPUS_ROOT / corpus_lang / "books" / "jesus-the-christ"
 
     pages = fetch_toc(lang)
     if not pages:

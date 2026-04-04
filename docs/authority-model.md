@@ -54,6 +54,19 @@ Manuals default to authority=60, but sub-categories diverge based on research in
 | `old-testament-stories/` | 50 | 50 | children | Illustrated children's retellings — simplified narrative |
 | *(all other manuals)* | 60 | 65 | adult | Default: Come Follow Me, institute, seminary, gospel topics, etc. |
 
+#### Book Sub-Category Overrides
+
+Books (`corpus/{lang}/books/`) are individual-author works — not Church curriculum. They default to authority=40 (GA private author, not adopted). Overrides in `_BOOK_OVERRIDES`:
+
+| Sub-path | Authority | Rigor | Context | Rationale |
+|----------|-----------|-------|---------|-----------|
+| `articles-of-faith/` | 45 | 65 | book-official | Talmage — commissioned by FP (1899) |
+| `great-apostasy/` | 45 | 65 | book-official | Talmage — commissioned by FP (1909) |
+| `house-of-the-lord/` | 45 | 60 | book-official | Talmage — commissioned by FP (1912) |
+| `jesus-the-christ/` | 45 | 65 | book-official | Talmage — commissioned by FP (1915) |
+| `discourses-brigham-young/` | 35 | 55 | book-unofficial | Widtsoe compilation from JD (1941) |
+| *(all other books)* | 40 | 55 | book-unofficial | Default: GA private author, not adopted |
+
 **Key distinctions:**
 - **OD 1–2 at 100:** They were added to the D&C by sustaining vote (1908 and 1981) — they are canon, not quasi-canonical.
 - **Study aids split (57/55):** The GEE contains explanatory doctrinal content; the TG is an index and the BD carries an explicit "not official" disclaimer. Neither should be at the same level as Come Follow Me manuals.
