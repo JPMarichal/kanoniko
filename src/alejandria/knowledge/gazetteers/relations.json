@@ -2405,6 +2405,138 @@
     }
   ],
   "AUTHORIZED": [],
+  "AUTHORIZED_TO_PERFORM": [
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Baptism",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Confirmation",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Sacrament",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.9",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ordination",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.10",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Stake President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Endowment",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 27.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Stake President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Sealing",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 27.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Temple Recommend",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 26.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Stake President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Temple Recommend",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 26.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Patriarch",
+        "type": "role"
+      },
+      "to": {
+        "name": "Patriarchal Blessing",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.17",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Baby Blessing",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.6",
+      "confidence": "curated",
+      "bidirectional": false
+    }
+  ],
   "BAPTIZED_BY": [
     {
       "from": {
@@ -3074,6 +3206,73 @@
     }
   ],
   "CITES": [],
+  "CONDUCTS_INTERVIEW": [
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Temple Recommend",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 26.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Stake President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Temple Recommend",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 26.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Baptism",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ordination",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.10",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Mission President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Baptism",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.1",
+      "confidence": "curated",
+      "bidirectional": false
+    }
+  ],
   "CONFERRED_KEYS_TO": [
     {
       "from": {
@@ -6805,6 +7004,60 @@
       "confidence": "curated"
     }
   ],
+  "MANAGES_FUND": [
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Tithing",
+        "type": "fund"
+      },
+      "source_ref": "General Handbook 34.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Fast Offering",
+        "type": "fund"
+      },
+      "source_ref": "General Handbook 34.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward Budget",
+        "type": "fund"
+      },
+      "source_ref": "General Handbook 34.6",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Ward Clerk",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward Budget",
+        "type": "fund"
+      },
+      "source_ref": "General Handbook 34.6",
+      "confidence": "curated",
+      "bidirectional": false
+    }
+  ],
   "MARTYRED_AT": [
     {
       "from": {
@@ -6878,6 +7131,73 @@
       },
       "source_ref": "D&C 135:1",
       "confidence": "curated"
+    }
+  ],
+  "MEMBER_OF": [
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward Council",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 29.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "High Councilor",
+        "type": "role"
+      },
+      "to": {
+        "name": "Stake High Council Meeting",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 29.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Relief Society President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward Council",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 29.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Elders Quorum President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward Council",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 29.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Young Women President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward Council",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 29.2",
+      "confidence": "curated",
+      "bidirectional": false
     }
   ],
   "MOTHER_OF": [
@@ -7317,6 +7637,203 @@
         "type": "concept"
       },
       "source_ref": "AoF 4; D&C 20:41; Acts 2:38",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Baptism",
+        "type": "ordinance"
+      },
+      "to": {
+        "name": "Confirmation",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.1-2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Confirmation",
+        "type": "ordinance"
+      },
+      "to": {
+        "name": "Ordination",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 18.10",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Baptism",
+        "type": "ordinance"
+      },
+      "to": {
+        "name": "Temple Recommend",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 26.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Temple Recommend",
+        "type": "ordinance"
+      },
+      "to": {
+        "name": "Endowment",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 27.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Endowment",
+        "type": "ordinance"
+      },
+      "to": {
+        "name": "Sealing",
+        "type": "ordinance"
+      },
+      "source_ref": "General Handbook 27.3",
+      "confidence": "curated",
+      "bidirectional": false
+    }
+  ],
+  "PRESIDES_OVER": [
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Ward",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 7.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Stake President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Stake",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 6.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Branch President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Branch",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 7.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Mission President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Mission",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 5.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Relief Society President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Relief Society",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 9.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Elders Quorum President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Elders Quorum",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 8.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Young Women President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Young Women Organization",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 11.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Primary President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Primary",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 12.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Sunday School President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Sunday School",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 13.1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Temple President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Temple",
+        "type": "unit"
+      },
+      "source_ref": "General Handbook 27.1",
       "confidence": "curated",
       "bidirectional": false
     }
@@ -8116,6 +8633,112 @@
       },
       "source_ref": "Mormon 8:1; Moroni 10:2",
       "confidence": "curated"
+    }
+  ],
+  "REPORTS_TO": [
+    {
+      "from": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "to": {
+        "name": "Stake President",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 6.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Branch President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Mission President",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 6.2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Elders Quorum President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 8.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Relief Society President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 9.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Young Women President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 11.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Primary President",
+        "type": "role"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 12.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Ward Clerk",
+        "type": "role"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 33.3",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Executive Secretary",
+        "type": "role"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "General Handbook 33.4",
+      "confidence": "curated",
+      "bidirectional": false
     }
   ],
   "RESTORED": [

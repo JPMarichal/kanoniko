@@ -13523,126 +13523,6 @@
       ]
     }
   ],
-  "calling": [
-    {
-      "name": "Bishop",
-      "aliases": [
-        "Obispo"
-      ]
-    },
-    {
-      "name": "Stake President",
-      "aliases": [
-        "Presidente de Estaca"
-      ]
-    },
-    {
-      "name": "Mission President",
-      "aliases": [
-        "Presidente de Misión"
-      ]
-    },
-    {
-      "name": "District President",
-      "aliases": [
-        "Presidente de Distrito"
-      ]
-    },
-    {
-      "name": "Branch President",
-      "aliases": [
-        "Presidente de Rama"
-      ]
-    },
-    {
-      "name": "Patriarch",
-      "aliases": [
-        "Patriarca"
-      ]
-    },
-    {
-      "name": "High Councilor",
-      "aliases": [
-        "Consejero del sumo consejo",
-        "Alto Consejero"
-      ]
-    },
-    {
-      "name": "Ward Clerk",
-      "aliases": [
-        "Secretario de Barrio"
-      ]
-    },
-    {
-      "name": "Stake Clerk",
-      "aliases": [
-        "Secretario de Estaca"
-      ]
-    },
-    {
-      "name": "Executive Secretary",
-      "aliases": [
-        "Secretario Ejecutivo"
-      ]
-    },
-    {
-      "name": "Elders Quorum President",
-      "aliases": [
-        "Presidente del Cuórum de Élderes"
-      ]
-    },
-    {
-      "name": "Relief Society President",
-      "aliases": [
-        "Presidenta de la Sociedad de Socorro"
-      ]
-    },
-    {
-      "name": "Young Women President",
-      "aliases": [
-        "Presidenta de las Mujeres Jóvenes"
-      ]
-    },
-    {
-      "name": "Primary President",
-      "aliases": [
-        "Presidenta de la Primaria"
-      ]
-    },
-    {
-      "name": "Sunday School President",
-      "aliases": [
-        "Presidente de la Escuela Dominical",
-        "Presidenta de la Escuela Dominical"
-      ]
-    },
-    {
-      "name": "Area Seventy",
-      "aliases": [
-        "Setenta de Área"
-      ]
-    },
-    {
-      "name": "General Authority",
-      "aliases": [
-        "Autoridad General"
-      ]
-    },
-    {
-      "name": "Ministering Brother",
-      "aliases": [
-        "Hermano Ministro",
-        "Hermano Ministrante"
-      ]
-    },
-    {
-      "name": "Ministering Sister",
-      "aliases": [
-        "Hermana Ministra",
-        "Hermana Ministrante"
-      ]
-    }
-  ],
   "council": [
     {
       "name": "Ward Council",
@@ -13695,6 +13575,20 @@
   ],
   "ordinance": [
     {
+      "name": "Anointing of the Sick",
+      "aliases": [
+        "Unción de los Enfermos",
+        "Administering to the Sick"
+      ]
+    },
+    {
+      "name": "Baby Blessing",
+      "aliases": [
+        "Bendición de bebé",
+        "Name and Blessing"
+      ]
+    },
+    {
       "name": "Baptism",
       "aliases": [
         "Bautismo"
@@ -13707,36 +13601,27 @@
       ]
     },
     {
-      "name": "Sacrament",
+      "name": "Consecration of Oil",
       "aliases": [
-        "Santa Cena",
-        "Sacramento"
+        "Consagración del Aceite"
       ]
     },
     {
-      "name": "Priesthood Ordination",
+      "name": "Dedication of a Grave",
       "aliases": [
-        "Ordenación al Sacerdocio"
+        "Dedicación de una Tumba"
       ]
     },
     {
-      "name": "Temple Endowment",
+      "name": "Endowment",
       "aliases": [
-        "Investidura del Templo",
-        "Endowment"
+        "Investidura"
       ]
     },
     {
-      "name": "Temple Sealing",
+      "name": "Father's Blessing",
       "aliases": [
-        "Sellamiento del Templo",
-        "Sealing"
-      ]
-    },
-    {
-      "name": "Patriarchal Blessing",
-      "aliases": [
-        "Bendición Patriarcal"
+        "Bendición de Padre"
       ]
     },
     {
@@ -13747,9 +13632,34 @@
       ]
     },
     {
-      "name": "Dedication of a Grave",
+      "name": "Ordination",
       "aliases": [
-        "Dedicación de una Tumba"
+        "Ordenación"
+      ]
+    },
+    {
+      "name": "Patriarchal Blessing",
+      "aliases": [
+        "Bendición Patriarcal"
+      ]
+    },
+    {
+      "name": "Priesthood Ordination",
+      "aliases": [
+        "Ordenación al Sacerdocio"
+      ]
+    },
+    {
+      "name": "Sacrament",
+      "aliases": [
+        "Santa Cena",
+        "Sacramento"
+      ]
+    },
+    {
+      "name": "Sealing",
+      "aliases": [
+        "Sellamiento"
       ]
     },
     {
@@ -13759,30 +13669,31 @@
       ]
     },
     {
-      "name": "Anointing of the Sick",
+      "name": "Temple Endowment",
       "aliases": [
-        "Unción de los Enfermos",
-        "Administering to the Sick"
+        "Investidura del Templo",
+        "Endowment"
       ]
     },
     {
-      "name": "Consecration of Oil",
+      "name": "Temple Recommend",
       "aliases": [
-        "Consagración del Aceite"
+        "Recomendación para el templo"
       ]
     },
     {
-      "name": "Father's Blessing",
+      "name": "Temple Sealing",
       "aliases": [
-        "Bendición de Padre"
+        "Sellamiento del Templo",
+        "Sealing"
       ]
     }
   ],
   "unit": [
     {
-      "name": "Ward",
+      "name": "Area",
       "aliases": [
-        "Barrio"
+        "Área"
       ]
     },
     {
@@ -13792,15 +13703,21 @@
       ]
     },
     {
-      "name": "Stake",
-      "aliases": [
-        "Estaca"
-      ]
-    },
-    {
       "name": "District",
       "aliases": [
         "Distrito"
+      ]
+    },
+    {
+      "name": "Elders Quorum",
+      "aliases": [
+        "Cuórum de élderes"
+      ]
+    },
+    {
+      "name": "Language Ward",
+      "aliases": [
+        "Barrio Idiomático"
       ]
     },
     {
@@ -13810,9 +13727,45 @@
       ]
     },
     {
-      "name": "Area",
+      "name": "Primary",
       "aliases": [
-        "Área"
+        "Primaria"
+      ]
+    },
+    {
+      "name": "Relief Society",
+      "aliases": [
+        "Sociedad de Socorro"
+      ]
+    },
+    {
+      "name": "Service Member Group",
+      "aliases": [
+        "Grupo de Servicio Militar"
+      ]
+    },
+    {
+      "name": "Stake",
+      "aliases": [
+        "Estaca"
+      ]
+    },
+    {
+      "name": "Sunday School",
+      "aliases": [
+        "Escuela Dominical"
+      ]
+    },
+    {
+      "name": "Ward",
+      "aliases": [
+        "Barrio"
+      ]
+    },
+    {
+      "name": "Young Men Organization",
+      "aliases": [
+        "Organización de los Hombres Jóvenes"
       ]
     },
     {
@@ -13823,29 +13776,29 @@
       ]
     },
     {
-      "name": "Language Ward",
+      "name": "Young Women Organization",
       "aliases": [
-        "Barrio Idiomático"
-      ]
-    },
-    {
-      "name": "Service Member Group",
-      "aliases": [
-        "Grupo de Servicio Militar"
+        "Organización de las Mujeres Jóvenes"
       ]
     }
   ],
   "program": [
     {
-      "name": "Self-Reliance Program",
-      "aliases": [
-        "Programa de Autosuficiencia"
-      ]
-    },
-    {
       "name": "Addiction Recovery Program",
       "aliases": [
         "Programa de Recuperación de Adicciones"
+      ]
+    },
+    {
+      "name": "Come Follow Me",
+      "aliases": [
+        "Ven Sígueme"
+      ]
+    },
+    {
+      "name": "Disability Activity Program",
+      "aliases": [
+        "Programa de Actividades para Personas con Discapacidades"
       ]
     },
     {
@@ -13856,9 +13809,16 @@
       ]
     },
     {
-      "name": "Seminary",
+      "name": "Family History",
       "aliases": [
-        "Seminario"
+        "Historia familiar",
+        "FamilySearch"
+      ]
+    },
+    {
+      "name": "Humanitarian Aid",
+      "aliases": [
+        "Ayuda Humanitaria"
       ]
     },
     {
@@ -13868,27 +13828,21 @@
       ]
     },
     {
-      "name": "Disability Activity Program",
-      "aliases": [
-        "Programa de Actividades para Personas con Discapacidades"
-      ]
-    },
-    {
       "name": "JustServe",
       "aliases": [
         "JustServe.org"
       ]
     },
     {
-      "name": "Come Follow Me",
+      "name": "Self-Reliance Program",
       "aliases": [
-        "Ven Sígueme"
+        "Programa de Autosuficiencia"
       ]
     },
     {
-      "name": "Humanitarian Aid",
+      "name": "Seminary",
       "aliases": [
-        "Ayuda Humanitaria"
+        "Seminario"
       ]
     }
   ],
@@ -14023,6 +13977,240 @@
       "aliases": [
         "exodus from Nauvoo",
         "éxodo de Nauvoo"
+      ]
+    }
+  ],
+  "role": [
+    {
+      "name": "Area Seventy",
+      "aliases": [
+        "Setenta de área"
+      ]
+    },
+    {
+      "name": "Bishop",
+      "aliases": [
+        "Obispo"
+      ]
+    },
+    {
+      "name": "Bishopric Counselor",
+      "aliases": [
+        "Consejero del obispado"
+      ]
+    },
+    {
+      "name": "Branch President",
+      "aliases": [
+        "Presidente de rama"
+      ]
+    },
+    {
+      "name": "District President",
+      "aliases": [
+        "Presidente de distrito"
+      ]
+    },
+    {
+      "name": "Elders Quorum President",
+      "aliases": [
+        "Presidente del cuórum de élderes"
+      ]
+    },
+    {
+      "name": "Executive Secretary",
+      "aliases": [
+        "Secretario ejecutivo"
+      ]
+    },
+    {
+      "name": "General Authority",
+      "aliases": [
+        "Autoridad General"
+      ]
+    },
+    {
+      "name": "High Councilor",
+      "aliases": [
+        "Consejero del sumo consejo",
+        "Alto Consejero"
+      ]
+    },
+    {
+      "name": "Ministering Brother",
+      "aliases": [
+        "Hermano ministrador",
+        "Hermano Ministro",
+        "Hermano Ministrante"
+      ]
+    },
+    {
+      "name": "Ministering Sister",
+      "aliases": [
+        "Hermana ministradora",
+        "Hermana Ministra",
+        "Hermana Ministrante"
+      ]
+    },
+    {
+      "name": "Mission President",
+      "aliases": [
+        "Presidente de misión"
+      ]
+    },
+    {
+      "name": "Patriarch",
+      "aliases": [
+        "Patriarca"
+      ]
+    },
+    {
+      "name": "Primary President",
+      "aliases": [
+        "Presidenta de la Primaria"
+      ]
+    },
+    {
+      "name": "Relief Society President",
+      "aliases": [
+        "Presidenta de la Sociedad de Socorro"
+      ]
+    },
+    {
+      "name": "Stake Clerk",
+      "aliases": [
+        "Secretario de estaca"
+      ]
+    },
+    {
+      "name": "Stake Presidency Counselor",
+      "aliases": [
+        "Consejero de la presidencia de estaca"
+      ]
+    },
+    {
+      "name": "Stake President",
+      "aliases": [
+        "Presidente de estaca"
+      ]
+    },
+    {
+      "name": "Sunday School President",
+      "aliases": [
+        "Presidente de la Escuela Dominical",
+        "Presidenta de la Escuela Dominical"
+      ]
+    },
+    {
+      "name": "Temple President",
+      "aliases": [
+        "Presidente de templo"
+      ]
+    },
+    {
+      "name": "Ward Clerk",
+      "aliases": [
+        "Secretario de barrio"
+      ]
+    },
+    {
+      "name": "Ward Mission Leader",
+      "aliases": [
+        "Líder misional de barrio"
+      ]
+    },
+    {
+      "name": "Young Men President",
+      "aliases": [
+        "Presidente de los Hombres Jóvenes"
+      ]
+    },
+    {
+      "name": "Young Women President",
+      "aliases": [
+        "Presidenta de las Mujeres Jóvenes"
+      ]
+    }
+  ],
+  "meeting": [
+    {
+      "name": "Bishopric Meeting",
+      "aliases": [
+        "Reunión de obispado"
+      ]
+    },
+    {
+      "name": "Leadership Meeting",
+      "aliases": [
+        "Reunión de liderazgo"
+      ]
+    },
+    {
+      "name": "Presidency Meeting",
+      "aliases": [
+        "Reunión de presidencia"
+      ]
+    },
+    {
+      "name": "Sacrament Meeting",
+      "aliases": [
+        "Reunión sacramental"
+      ]
+    },
+    {
+      "name": "Stake Conference",
+      "aliases": [
+        "Conferencia de estaca"
+      ]
+    },
+    {
+      "name": "Stake High Council Meeting",
+      "aliases": [
+        "Reunión del sumo consejo de estaca"
+      ]
+    },
+    {
+      "name": "Ward Conference",
+      "aliases": [
+        "Conferencia de barrio"
+      ]
+    },
+    {
+      "name": "Ward Council",
+      "aliases": [
+        "Consejo de barrio"
+      ]
+    }
+  ],
+  "fund": [
+    {
+      "name": "Fast Offering",
+      "aliases": [
+        "Ofrenda de ayuno"
+      ]
+    },
+    {
+      "name": "Humanitarian Fund",
+      "aliases": [
+        "Fondo humanitario"
+      ]
+    },
+    {
+      "name": "Missionary Fund",
+      "aliases": [
+        "Fondo misional"
+      ]
+    },
+    {
+      "name": "Tithing",
+      "aliases": [
+        "Diezmo"
+      ]
+    },
+    {
+      "name": "Ward Budget",
+      "aliases": [
+        "Presupuesto del barrio"
       ]
     }
   ]
