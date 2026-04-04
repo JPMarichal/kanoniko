@@ -82,6 +82,52 @@ Phase 6 has been decomposed into an incubator of independent projects. Each repr
 **Vision**: Domain-specific model optimization for scripture/gospel content.
 **Scope**: Prompt optimization, evaluation benchmarks, potential fine-tuning of embedding or language models on LDS corpus.
 
+### P10 — Genealogías Escriturales
+**Priority**: Medium — builds on existing KG family relations
+**Vision**: Complete scriptural genealogies as a navigable, queryable product. The KG has ~209 curated family relations but zero auto-extracted ones — NER/co-occurrence doesn't parse genealogical patterns. The corpus contains ~470 chapters with genealogical content (~19 pure genealogy lists + ~450 with family mentions in narrative). Goal: full coverage of every family relationship attestable in scripture.
+
+**Current state**: 209 curated relations (FATHER_OF: 69, SPOUSE_OF: 36, MOTHER_OF: 33, BROTHER_OF: 27, DESCENDANT_OF: 26, TRIBE_OF: 10, ANCESTOR_OF: 8). All hand-seeded, all with source_ref. Estimated target: 1,500-2,500+ relations.
+
+**Phases**:
+
+**Fase 1 — Genealogías formales** (structured "begat" lists, regex-extractable):
+- Genesis 5 (Adam→Noah), 10 (Table of Nations), 11 (Shem→Abraham), 25 (Abraham's sons), 36 (Esau/Edom), 46 (Jacob's family in Egypt)
+- 1 Chronicles 1-9 (massive — Israel's complete genealogical record)
+- Ruth 4:18-22 (Perez→David)
+- Matthew 1 (Abraham→Christ), Luke 3 (Christ→Adam)
+- Ether 1 (Jaredite king list, Ether→Jared)
+- Moses 6, 8 (patriarchal lineage)
+- Estimated yield: ~800-1,000 relations
+
+**Fase 2 — Genealogías narrativas principales** (family relations embedded in narrative):
+- Genesis 4, 17, 19, 21-22, 24, 28-29, 34, 37, 41, 50 (patriarchal families)
+- Exodus 2, 6 (Moses' family, Levitical lineage)
+- Numbers 1-4, 26 (tribal census/chiefs)
+- Judges (judge lineages), 1-2 Samuel (Saul, David families), 1-2 Kings (royal succession)
+- 1 Nephi–Omni (Lehite family tree, record keepers)
+- Mosiah–Helaman (Nephite judges lineage, Alma→Helaman succession)
+- Abraham 1 (Abraham's fathers)
+- JS-History 1 (Smith family)
+- Estimated yield: ~400-600 relations
+
+**Fase 3 — Cobertura exhaustiva** (scattered mentions, minor figures):
+- 2 Chronicles royal lineages
+- Ezra 2, 8; Nehemiah 7, 10-12 (returning exile families)
+- Prophetic books (Jeremiah, Ezekiel, Daniel — father identifications)
+- NT family mentions (Acts, Epistles — scattered)
+- 3 Nephi–Moroni (final Nephite families)
+- D&C 27, 84, 138 (dispensational figures with lineage context)
+- Estimated yield: ~300-500 relations
+
+**Fase 4 — API y visualización**:
+- `GET /kg/genealogy/{person}` — hierarchical tree JSON (ancestors, descendants, configurable depth/direction)
+- `GET /kg/genealogy/{person}/path/{person2}` — shortest family path between two people
+- Tree visualization widget (D3.js or similar)
+- Bilingual names (EN/ES) for all genealogical entries
+- Integration with existing entity profiles and scripture references
+
+**Extraction strategy**: Hybrid — regex patterns for formal lists ("A begat B" / "A engendró a B"), LLM-assisted extraction for narrative chapters, manual curation for ambiguous cases. All relations must carry `source_ref` and `confidence` tier.
+
 ---
 
 ## Known Issues (Backlog)

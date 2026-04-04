@@ -102,6 +102,105 @@ BOOK_CONFIGS: dict[int, dict] = {
         "note": "Compiled by John A. Widtsoe (1941) from Journal of Discourses (1854-1886). "
                 "Historical compilation, not official Church publication.",
     },
+    # ----- B. H. Roberts -----
+    46202: {
+        "slug": "new-witness-for-god-vol1",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["doctrine", "seventy-authored", "restoration", "apologetics"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.?\s*$",
+        "title_offset": 4,
+        "has_toc": True,
+        "note": "Volume 1 of 3. Published 1895 by George Q. Cannon & Sons. "
+                "Argues the need for a new dispensation based on apostasy from primitive Christianity.",
+    },
+    47316: {
+        "slug": "new-witnesses-for-god-vol2",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["doctrine", "seventy-authored", "book-of-mormon", "apologetics"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.?\s*$",
+        "title_offset": 4,
+        "has_toc": True,
+        "note": "Volume 2 of 3. Published 1909 by Deseret News. "
+                "The Book of Mormon as witness: discovery, translation, lands, civilizations.",
+    },
+    59951: {
+        "slug": "new-witnesses-for-god-vol3",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["doctrine", "seventy-authored", "book-of-mormon", "apologetics"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.?\s*$",
+        "title_offset": 4,
+        "has_toc": True,
+        "note": "Volume 3 of 3. Published 1909 by Deseret News. "
+                "Evidences of the Book of Mormon and responses to objections.",
+    },
+    52391: {
+        "slug": "outlines-ecclesiastical-history",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["doctrine", "seventy-authored", "church-history", "apostasy", "reformation"],
+        "authority": 35,
+        "chapter_pattern": r"^SECTION\s+([IVXLC\d]+)\.?(?:\[\d+\])?\s*$",
+        "title_offset": 4,
+        "has_toc": True,
+        "sequential_numbering": True,
+        "note": "Third edition. Dedicated to the Seventies. Covers establishment of the Church, "
+                "the apostasy, the Reformation, and the Restoration. Used as Seventy's study text.",
+    },
+    49526: {
+        "slug": "missouri-persecutions",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["church-history", "seventy-authored", "persecution", "missouri"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.?\s*$",
+        "title_offset": 4,
+        "has_toc": True,
+        "note": "Published 1900 by George Q. Cannon & Sons. "
+                "Detailed history of the Missouri period persecutions of the Latter-day Saints.",
+    },
+    35974: {
+        "slug": "corianton",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["fiction", "seventy-authored", "book-of-mormon", "nephite"],
+        "authority": 20,
+        "chapter_pattern": r"^CHAPTER\s+(ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|THIRTEEN|FOURTEEN|FIFTEEN|SIXTEEN)\.?\s*$",
+        "title_offset": 2,
+        "has_toc": False,
+        "note": "Historical fiction set in Book of Mormon times. Published 1902. "
+                "A Nephite story exploring the Alma-Corianton narrative.",
+    },
+    60235: {
+        "slug": "seventys-course-theology-1st",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["doctrine", "seventy-authored", "theology", "curriculum"],
+        "authority": 35,
+        "chapter_pattern": r"^LESSON\s+([IVXLC]+)[\.\-]",
+        "title_offset": 4,
+        "has_toc": False,
+        "sequential_numbering": True,
+        "note": "First Year of the Seventy's Course in Theology. "
+                "Compiled and edited by B. H. Roberts for the quorums of Seventy.",
+    },
+    60492: {
+        "slug": "seventys-course-theology-5th",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["doctrine", "seventy-authored", "theology", "curriculum", "divine-immanence"],
+        "authority": 35,
+        "chapter_pattern": r"^(?:LESSON|CHAPTER)\s+([IVXLC]+)\.?\s*$",
+        "title_offset": 4,
+        "has_toc": False,
+        "note": "Fifth Year (final) of the Seventy's Course in Theology. "
+                "Focuses on divine immanence, the Holy Spirit, and nature of God.",
+    },
 }
 
 
@@ -124,11 +223,23 @@ def roman_to_int(s: str) -> int:
     return total
 
 
+_WORD_TO_NUM = {
+    "ONE": 1, "TWO": 2, "THREE": 3, "FOUR": 4, "FIVE": 5,
+    "SIX": 6, "SEVEN": 7, "EIGHT": 8, "NINE": 9, "TEN": 10,
+    "ELEVEN": 11, "TWELVE": 12, "THIRTEEN": 13, "FOURTEEN": 14,
+    "FIFTEEN": 15, "SIXTEEN": 16, "SEVENTEEN": 17, "EIGHTEEN": 18,
+    "NINETEEN": 19, "TWENTY": 20,
+}
+
+
 def chapter_sort_key(num_str: str) -> int:
-    """Convert chapter number (Roman or Arabic) to int for sorting."""
+    """Convert chapter number (Roman, Arabic, or English word) to int for sorting."""
     num_str = num_str.strip()
     if num_str.isdigit():
         return int(num_str)
+    word_val = _WORD_TO_NUM.get(num_str.upper())
+    if word_val:
+        return word_val
     return roman_to_int(num_str)
 
 
@@ -483,8 +594,10 @@ def download_book(book_id: int, dry_run: bool = False, ca_bundle: str | None = N
     written = 0
     skipped = 0
 
-    for ch in chapters:
-        ch_num = chapter_sort_key(ch["number"])
+    use_sequential = config.get("sequential_numbering", False)
+
+    for seq_idx, ch in enumerate(chapters, 1):
+        ch_num = seq_idx if use_sequential else chapter_sort_key(ch["number"])
         filename = f"{ch_num:02d}-chapter-{ch_num}"
 
         txt_path = output_dir / f"{filename}.txt"
