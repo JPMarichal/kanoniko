@@ -378,7 +378,24 @@ _BOOK_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         official=False, current=False, context="book-unofficial",
         audience="adult",
     )),
-    # vitality-of-mormonism/ uses the category default (40, book-unofficial)
+    # B.H. Roberts — History of the Church (6 vols)
+    # Commissioned by First Presidency, most-cited LDS history source.
+    # Not granted "official history" status but treated as authoritative.
+    ("history-of-the-church-", AuthorityMeta(
+        authority=55, rigor=70, importance="importante",
+        official=False, current=False, context="book-official",
+        audience="adult",
+    )),
+    # B.H. Roberts — Corianton (fiction, not doctrinal/historical)
+    ("corianton/", AuthorityMeta(
+        authority=25, rigor=40, importance="interesante",
+        official=False, current=False, context="book-unofficial",
+        audience="adult",
+    )),
+    # B.H. Roberts — remaining works use category default (40, book-unofficial)
+    # missouri-persecutions/, new-witness-for-god-*, outlines-ecclesiastical-*,
+    # seventys-course-theology-*, life-of-john-taylor/, mormon-doctrine-of-deity/,
+    # rise-and-fall-of-nauvoo/, vitality-of-mormonism/
 ]
 
 

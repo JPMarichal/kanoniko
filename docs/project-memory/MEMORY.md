@@ -59,3 +59,5 @@
 - [reference_womeninthescriptures.md](reference_womeninthescriptures.md) — womeninthescriptures.com: Heather Farrell, 876 posts, 75+ woman profiles, authority 20, corpus path and download patterns
 - [feedback_corpus_inventory_question.md](feedback_corpus_inventory_question.md) — "Cuántas obras tenemos" = obras únicas (~316 EN, ~530 bilingüe), no archivos .txt (~29K); contar por libro/publicación/colección, no por capítulo
 - [project_disambiguation_depth.md](project_disambiguation_depth.md) — P7: three disambiguation levels + generative syntactic patterns (19 EN/ES) + gazetteer cleanup (2805→2671)
+- [reference_mtp_workflow.md](reference_mtp_workflow.md) — MTP-first workflow: check Mormon Texts Project before archive.org; skill `/book-discovery` codifies the process
+- [feedback_solera_403.md](feedback_solera_403.md) — No WebFetch a mormontextsproject.org: proxy Solera lo bloquea; usar WebSearch o bookshelf de Gutenberg
