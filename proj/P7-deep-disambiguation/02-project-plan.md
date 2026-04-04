@@ -45,7 +45,13 @@
    - Confidence ranking: picks highest-confidence match; short-circuits on "high"
    - `resolve()` flow: name-specific rules → generative fallback → None
 
-6. ✅ **Pipeline integration**:
+6. ✅ **Gazetteer alias cleanup** (`scripts/cleanup_gazetteer_aliases.py`):
+   - Removed 134 redundant entries (existed as both top-level and alias of same entity in same type)
+   - Fixed 31 bad alias relationships (different entities incorrectly linked: Judah≠Hodevah, Sarah≠Serah, Moroni≠Captain Moroni, Sargon≠Sennacherib, etc.)
+   - Transferred 35 bilingual aliases (ES variants) to primary entries before removal
+   - 2805 → 2671 entries; 4 minor overlaps remain (Eliphelet, Heldai, Rosh — need biblical research)
+
+7. ✅ **Pipeline integration**:
    - `ExtractionResult.disambiguations` — original_name → resolved_name
    - `ExtractionResult.disambiguated_types` — original_name → resolved entity type (Level 2)
    - `DisambiguatedMention.entity_type_resolved` — new field for type overrides
