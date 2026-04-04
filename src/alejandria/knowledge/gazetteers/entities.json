@@ -3174,8 +3174,7 @@
     {
       "name": "Eliphalet",
       "aliases": [
-        "Elifalet",
-        "Eliphelet"
+        "Elifalet"
       ]
     },
     {
@@ -3274,9 +3273,7 @@
     },
     {
       "name": "Elpalet",
-      "aliases": [
-        "Eliphelet"
-      ]
+      "aliases": []
     },
     {
       "name": "Eluzai",
@@ -4182,7 +4179,9 @@
     },
     {
       "name": "Heldai",
-      "aliases": []
+      "aliases": [
+        "Helem"
+      ]
     },
     {
       "name": "Heleb",
@@ -4469,10 +4468,7 @@
     },
     {
       "name": "Hotham",
-      "aliases": [
-        "Helem",
-        "Heldai"
-      ]
+      "aliases": []
     },
     {
       "name": "Hothan",
@@ -8122,10 +8118,7 @@
     {
       "name": "Rephaiah",
       "aliases": [
-        "Refaías",
-        "Rapha",
-        "Rafa",
-        "Rosh"
+        "Refaías"
       ]
     },
     {
@@ -10342,6 +10335,12 @@
       "name": "George Q. Cannon",
       "aliases": [
         "George Cannon"
+      ]
+    },
+    {
+      "name": "Rapha",
+      "aliases": [
+        "Rafa"
       ]
     }
   ],
