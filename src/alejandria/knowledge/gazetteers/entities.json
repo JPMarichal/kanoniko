@@ -97,8 +97,7 @@
     {
       "name": "Captain Moroni",
       "aliases": [
-        "Capitán Moroni",
-        "Moroni"
+        "Capitán Moroni"
       ]
     },
     {
@@ -444,7 +443,6 @@
     {
       "name": "Jacob (patriarch)",
       "aliases": [
-        "Jacob",
         "Israel",
         "Jacobo"
       ]
@@ -595,16 +593,9 @@
       ]
     },
     {
-      "name": "Melchizedek",
-      "aliases": [
-        "Melquisedec"
-      ]
-    },
-    {
       "name": "Matthew",
       "aliases": [
-        "Mateo",
-        "Levi"
+        "Mateo"
       ]
     },
     {
@@ -684,12 +675,6 @@
       "name": "Stephen",
       "aliases": [
         "Esteban"
-      ]
-    },
-    {
-      "name": "Timothy",
-      "aliases": [
-        "Timoteo"
       ]
     },
     {
@@ -834,12 +819,6 @@
       ]
     },
     {
-      "name": "Abaddon",
-      "aliases": [
-        "Abadón"
-      ]
-    },
-    {
       "name": "Abagtha",
       "aliases": []
     },
@@ -878,10 +857,6 @@
       "aliases": [
         "Abías"
       ]
-    },
-    {
-      "name": "Abiasaph",
-      "aliases": []
     },
     {
       "name": "Abiathar",
@@ -938,12 +913,6 @@
       "aliases": []
     },
     {
-      "name": "Abimelech",
-      "aliases": [
-        "Abimelec"
-      ]
-    },
-    {
       "name": "Abinadab",
       "aliases": []
     },
@@ -964,10 +933,6 @@
       "aliases": [
         "Abisai"
       ]
-    },
-    {
-      "name": "Abishalom",
-      "aliases": []
     },
     {
       "name": "Abishua",
@@ -1026,7 +991,8 @@
     {
       "name": "Achish",
       "aliases": [
-        "Abimelech"
+        "Abimelech",
+        "Abimelec"
       ]
     },
     {
@@ -1065,10 +1031,6 @@
     },
     {
       "name": "Ader",
-      "aliases": []
-    },
-    {
-      "name": "Adiel",
       "aliases": []
     },
     {
@@ -1127,10 +1089,6 @@
         "Adoram",
         "Hadoram"
       ]
-    },
-    {
-      "name": "Adoram",
-      "aliases": []
     },
     {
       "name": "Adrammelech",
@@ -1216,12 +1174,6 @@
       "aliases": []
     },
     {
-      "name": "Ahiah",
-      "aliases": [
-        "Ahías"
-      ]
-    },
-    {
       "name": "Ahiam",
       "aliases": []
     },
@@ -1263,12 +1215,9 @@
       "name": "Ahimelech",
       "aliases": [
         "Ahimelec",
-        "Ahiah"
+        "Ahiah",
+        "Ahías"
       ]
-    },
-    {
-      "name": "Ahimoth",
-      "aliases": []
     },
     {
       "name": "Ahinadab",
@@ -1309,10 +1258,6 @@
       ]
     },
     {
-      "name": "Ahitub",
-      "aliases": []
-    },
-    {
       "name": "Ahlai",
       "aliases": []
     },
@@ -1322,10 +1267,6 @@
     },
     {
       "name": "Aholah",
-      "aliases": []
-    },
-    {
-      "name": "Aholiab",
       "aliases": []
     },
     {
@@ -1355,12 +1296,6 @@
     {
       "name": "Ahzai",
       "aliases": []
-    },
-    {
-      "name": "Aiah",
-      "aliases": [
-        "Aías"
-      ]
     },
     {
       "name": "Ajah",
@@ -1458,26 +1393,12 @@
       ]
     },
     {
-      "name": "Ami",
-      "aliases": []
-    },
-    {
       "name": "Amittai",
-      "aliases": []
-    },
-    {
-      "name": "Ammiel",
       "aliases": []
     },
     {
       "name": "Ammihud",
       "aliases": []
-    },
-    {
-      "name": "Amminadab",
-      "aliases": [
-        "Aminadab"
-      ]
     },
     {
       "name": "Ammishaddai",
@@ -1528,10 +1449,6 @@
     },
     {
       "name": "Ampliatus",
-      "aliases": []
-    },
-    {
-      "name": "Amram",
       "aliases": []
     },
     {
@@ -1674,7 +1591,8 @@
       "name": "Apollyon",
       "aliases": [
         "Apolión",
-        "Abaddon"
+        "Abaddon",
+        "Abadón"
       ]
     },
     {
@@ -1704,15 +1622,7 @@
       "aliases": []
     },
     {
-      "name": "Aram",
-      "aliases": []
-    },
-    {
       "name": "Aran",
-      "aliases": []
-    },
-    {
-      "name": "Araunah",
       "aliases": []
     },
     {
@@ -1808,10 +1718,6 @@
       ]
     },
     {
-      "name": "Arodi",
-      "aliases": []
-    },
-    {
       "name": "Arpachshad",
       "aliases": []
     },
@@ -1855,18 +1761,9 @@
       "name": "Asahiah",
       "aliases": [
         "Asahías",
-        "Asaiah"
-      ]
-    },
-    {
-      "name": "Asaiah",
-      "aliases": [
+        "Asaiah",
         "Asaías"
       ]
-    },
-    {
-      "name": "Asaph",
-      "aliases": []
     },
     {
       "name": "Asareel",
@@ -2059,10 +1956,6 @@
       "aliases": []
     },
     {
-      "name": "Aziel",
-      "aliases": []
-    },
-    {
       "name": "Aziza",
       "aliases": []
     },
@@ -2204,9 +2097,7 @@
     },
     {
       "name": "Barsabas",
-      "aliases": [
-        "Joseph"
-      ]
+      "aliases": []
     },
     {
       "name": "Bartimaeus",
@@ -2236,10 +2127,6 @@
     },
     {
       "name": "Basmath",
-      "aliases": []
-    },
-    {
-      "name": "Bath-shua",
       "aliases": []
     },
     {
@@ -2469,10 +2356,6 @@
     },
     {
       "name": "Bezai",
-      "aliases": []
-    },
-    {
-      "name": "Bezaleel",
       "aliases": []
     },
     {
@@ -2793,12 +2676,6 @@
       "aliases": []
     },
     {
-      "name": "Cleopas",
-      "aliases": [
-        "Cleofas"
-      ]
-    },
-    {
       "name": "Cleophas",
       "aliases": [
         "Cleofas",
@@ -2931,9 +2808,7 @@
     },
     {
       "name": "Daughter of Herodias",
-      "aliases": [
-        "daughter"
-      ]
+      "aliases": []
     },
     {
       "name": "Daughter of Lot - Older",
@@ -2949,21 +2824,16 @@
     },
     {
       "name": "Daughter of Machir",
-      "aliases": [
-        "daughter"
-      ]
+      "aliases": []
     },
     {
       "name": "Daughter of Meshullam",
-      "aliases": [
-        "daughter"
-      ]
+      "aliases": []
     },
     {
       "name": "Daughter of Pharaoh",
       "aliases": [
-        "Daughter of Faraoh",
-        "daughter"
+        "Daughter of Faraoh"
       ]
     },
     {
@@ -2974,9 +2844,7 @@
     },
     {
       "name": "Daughter of Shuah",
-      "aliases": [
-        "daughter"
-      ]
+      "aliases": []
     },
     {
       "name": "Death",
@@ -3018,10 +2886,6 @@
     },
     {
       "name": "Demetrius",
-      "aliases": []
-    },
-    {
-      "name": "Deuel",
       "aliases": []
     },
     {
@@ -3091,7 +2955,8 @@
     {
       "name": "Dorcas",
       "aliases": [
-        "Tabitha"
+        "Tabitha",
+        "Tabita"
       ]
     },
     {
@@ -3218,10 +3083,6 @@
       ]
     },
     {
-      "name": "Eliab",
-      "aliases": []
-    },
-    {
       "name": "Eliada",
       "aliases": [
         "Beeliada"
@@ -3239,10 +3100,6 @@
     },
     {
       "name": "Eliahba",
-      "aliases": []
-    },
-    {
-      "name": "Eliakim",
       "aliases": []
     },
     {
@@ -3269,10 +3126,6 @@
     },
     {
       "name": "Eliehoenai",
-      "aliases": []
-    },
-    {
-      "name": "Eliel",
       "aliases": []
     },
     {
@@ -3355,10 +3208,6 @@
     },
     {
       "name": "Elishah",
-      "aliases": []
-    },
-    {
-      "name": "Elishama",
       "aliases": []
     },
     {
@@ -3458,10 +3307,6 @@
       ]
     },
     {
-      "name": "Enosh",
-      "aliases": []
-    },
-    {
       "name": "Epaenetus",
       "aliases": []
     },
@@ -3520,10 +3365,6 @@
       "aliases": [
         "Ephrath"
       ]
-    },
-    {
-      "name": "Ephrath",
-      "aliases": []
     },
     {
       "name": "Ephron",
@@ -3608,10 +3449,6 @@
       "aliases": []
     },
     {
-      "name": "Ethni",
-      "aliases": []
-    },
-    {
       "name": "Eubulus",
       "aliases": []
     },
@@ -3643,10 +3480,6 @@
     },
     {
       "name": "Ezbai",
-      "aliases": []
-    },
-    {
-      "name": "Ezbon",
       "aliases": []
     },
     {
@@ -3802,12 +3635,6 @@
       "aliases": []
     },
     {
-      "name": "Gershom",
-      "aliases": [
-        "Gersón"
-      ]
-    },
-    {
       "name": "Gershon",
       "aliases": [
         "Gersón",
@@ -3834,10 +3661,6 @@
     },
     {
       "name": "Geuel",
-      "aliases": []
-    },
-    {
-      "name": "Gibbar",
       "aliases": []
     },
     {
@@ -3967,14 +3790,6 @@
       "aliases": []
     },
     {
-      "name": "Hadad",
-      "aliases": []
-    },
-    {
-      "name": "Hadadezer",
-      "aliases": []
-    },
-    {
       "name": "Hadar",
       "aliases": [
         "Hadad"
@@ -3992,10 +3807,6 @@
     },
     {
       "name": "Hadlai",
-      "aliases": []
-    },
-    {
-      "name": "Hadoram",
       "aliases": []
     },
     {
@@ -4137,12 +3948,6 @@
       "aliases": []
     },
     {
-      "name": "Hananiah",
-      "aliases": [
-        "Hananías"
-      ]
-    },
-    {
       "name": "Haniel",
       "aliases": []
     },
@@ -4154,10 +3959,6 @@
     },
     {
       "name": "Hanniel",
-      "aliases": []
-    },
-    {
-      "name": "Hanoch",
       "aliases": []
     },
     {
@@ -4191,15 +3992,7 @@
       ]
     },
     {
-      "name": "Harhas",
-      "aliases": []
-    },
-    {
       "name": "Harhur",
-      "aliases": []
-    },
-    {
-      "name": "Harim",
       "aliases": []
     },
     {
@@ -4211,10 +4004,6 @@
       "aliases": [
         "Harnefer"
       ]
-    },
-    {
-      "name": "Haroeh",
-      "aliases": []
     },
     {
       "name": "Harsha",
@@ -4270,10 +4059,6 @@
     },
     {
       "name": "Hashbaddanah",
-      "aliases": []
-    },
-    {
-      "name": "Hashub",
       "aliases": []
     },
     {
@@ -4382,10 +4167,6 @@
       "aliases": []
     },
     {
-      "name": "Heber",
-      "aliases": []
-    },
-    {
       "name": "Hebron",
       "aliases": []
     },
@@ -4406,19 +4187,12 @@
     {
       "name": "Heleb",
       "aliases": [
-        "Heldai",
         "Heled"
       ]
     },
     {
       "name": "Helek",
       "aliases": []
-    },
-    {
-      "name": "Helem",
-      "aliases": [
-        "Heldai"
-      ]
     },
     {
       "name": "Helez",
@@ -4434,10 +4208,6 @@
     },
     {
       "name": "Helon",
-      "aliases": []
-    },
-    {
-      "name": "Hemam",
       "aliases": []
     },
     {
@@ -4558,15 +4328,7 @@
       ]
     },
     {
-      "name": "Hezro",
-      "aliases": []
-    },
-    {
       "name": "Hezron",
-      "aliases": []
-    },
-    {
-      "name": "Hiddai",
       "aliases": []
     },
     {
@@ -4589,9 +4351,7 @@
     },
     {
       "name": "Hiram",
-      "aliases": [
-        "Huram"
-      ]
+      "aliases": []
     },
     {
       "name": "Hivi",
@@ -4632,20 +4392,14 @@
       ]
     },
     {
-      "name": "Hodaviah",
-      "aliases": [
-        "Hodavías"
-      ]
-    },
-    {
       "name": "Hodesh",
       "aliases": []
     },
     {
       "name": "Hodevah",
       "aliases": [
-        "Judah",
-        "Hodaviah"
+        "Hodaviah",
+        "Hodavías"
       ]
     },
     {
@@ -4716,7 +4470,8 @@
     {
       "name": "Hotham",
       "aliases": [
-        "Helem"
+        "Helem",
+        "Heldai"
       ]
     },
     {
@@ -4739,10 +4494,6 @@
     },
     {
       "name": "Huppah",
-      "aliases": []
-    },
-    {
-      "name": "Huppim",
       "aliases": []
     },
     {
@@ -4873,10 +4624,6 @@
       "aliases": [
         "Imlah"
       ]
-    },
-    {
-      "name": "Imlah",
-      "aliases": []
     },
     {
       "name": "Immanuel",
@@ -5047,13 +4794,6 @@
       ]
     },
     {
-      "name": "Isshiah",
-      "aliases": [
-        "Isshías",
-        "Jesiah"
-      ]
-    },
-    {
       "name": "Isshijah",
       "aliases": [
         "Isshiías"
@@ -5091,10 +4831,6 @@
       "aliases": []
     },
     {
-      "name": "Ithran",
-      "aliases": []
-    },
-    {
       "name": "Ithream",
       "aliases": []
     },
@@ -5106,7 +4842,8 @@
       "name": "Izhar",
       "aliases": [
         "Amminadab",
-        "Izehar"
+        "Izehar",
+        "Aminadab"
       ]
     },
     {
@@ -5144,19 +4881,11 @@
       ]
     },
     {
-      "name": "Jaalah",
-      "aliases": []
-    },
-    {
       "name": "Jaalam",
       "aliases": []
     },
     {
       "name": "Jaanai",
-      "aliases": []
-    },
-    {
-      "name": "Jaare-oregim",
       "aliases": []
     },
     {
@@ -5176,12 +4905,6 @@
     {
       "name": "Jaasu",
       "aliases": []
-    },
-    {
-      "name": "Jaazaniah",
-      "aliases": [
-        "Jaazanías"
-      ]
     },
     {
       "name": "Jaaziah",
@@ -5399,10 +5122,6 @@
       "aliases": []
     },
     {
-      "name": "Jarib",
-      "aliases": []
-    },
-    {
       "name": "Jaroah",
       "aliases": []
     },
@@ -5596,22 +5315,12 @@
       ]
     },
     {
-      "name": "Jehoiarib",
-      "aliases": []
-    },
-    {
-      "name": "Jehonadab",
-      "aliases": []
-    },
-    {
       "name": "Jehonathan",
       "aliases": []
     },
     {
       "name": "Jehoram",
-      "aliases": [
-        "Joram"
-      ]
+      "aliases": []
     },
     {
       "name": "Jehoshabeath",
@@ -5626,15 +5335,7 @@
       ]
     },
     {
-      "name": "Jehosheba",
-      "aliases": []
-    },
-    {
       "name": "Jehozabad",
-      "aliases": []
-    },
-    {
-      "name": "Jehozadak",
       "aliases": []
     },
     {
@@ -5645,10 +5346,6 @@
     },
     {
       "name": "Jehubbah",
-      "aliases": []
-    },
-    {
-      "name": "Jehucal",
       "aliases": []
     },
     {
@@ -5788,7 +5485,9 @@
       "name": "Jeshaiah",
       "aliases": [
         "Jeshaías",
-        "Isshiah"
+        "Isshiah",
+        "Isshías",
+        "Jesiah"
       ]
     },
     {
@@ -5818,12 +5517,6 @@
     {
       "name": "Jeshua",
       "aliases": []
-    },
-    {
-      "name": "Jesiah",
-      "aliases": [
-        "Jesías"
-      ]
     },
     {
       "name": "Jesimiel",
@@ -5880,8 +5573,8 @@
       "name": "Jezaniah",
       "aliases": [
         "Jezanías",
-        "Azariah",
-        "Jaazaniah"
+        "Jaazaniah",
+        "Jaazanías"
       ]
     },
     {
@@ -6070,9 +5763,7 @@
     },
     {
       "name": "Joram",
-      "aliases": [
-        "Jehoram"
-      ]
+      "aliases": []
     },
     {
       "name": "Jorim",
@@ -6172,10 +5863,6 @@
       "aliases": []
     },
     {
-      "name": "Jozadak",
-      "aliases": []
-    },
-    {
       "name": "Jubal",
       "aliases": []
     },
@@ -6190,17 +5877,12 @@
       "aliases": []
     },
     {
-      "name": "Juda",
-      "aliases": []
-    },
-    {
       "name": "Judas",
       "aliases": []
     },
     {
       "name": "Jude",
       "aliases": [
-        "Judas",
         "Juda"
       ]
     },
@@ -6268,15 +5950,7 @@
       ]
     },
     {
-      "name": "Kelita",
-      "aliases": []
-    },
-    {
       "name": "Kemuel",
-      "aliases": []
-    },
-    {
-      "name": "Kenan",
       "aliases": []
     },
     {
@@ -6586,8 +6260,8 @@
     {
       "name": "Lebbaeus",
       "aliases": [
-        "Judas",
-        "Thaddaeus"
+        "Thaddaeus",
+        "Tadeo"
       ]
     },
     {
@@ -6693,10 +6367,6 @@
       ]
     },
     {
-      "name": "Maachah",
-      "aliases": []
-    },
-    {
       "name": "Maadai",
       "aliases": []
     },
@@ -6727,12 +6397,6 @@
     {
       "name": "Maaz",
       "aliases": []
-    },
-    {
-      "name": "Maaziah",
-      "aliases": [
-        "Maazías"
-      ]
     },
     {
       "name": "Machbanai",
@@ -6799,10 +6463,6 @@
       "aliases": []
     },
     {
-      "name": "Mahalath",
-      "aliases": []
-    },
-    {
       "name": "Maharai",
       "aliases": []
     },
@@ -6857,12 +6517,6 @@
       "aliases": []
     },
     {
-      "name": "Malchiah",
-      "aliases": [
-        "Malchías"
-      ]
-    },
-    {
       "name": "Malchiel",
       "aliases": []
     },
@@ -6870,7 +6524,8 @@
       "name": "Malchijah",
       "aliases": [
         "Malchiías",
-        "Malchiah"
+        "Malchiah",
+        "Malchías"
       ]
     },
     {
@@ -6931,7 +6586,9 @@
     {
       "name": "Mash",
       "aliases": [
-        "Meshech"
+        "Meshech",
+        "Meshec",
+        "Mesech"
       ]
     },
     {
@@ -6949,12 +6606,6 @@
     {
       "name": "Mattan",
       "aliases": []
-    },
-    {
-      "name": "Mattaniah",
-      "aliases": [
-        "Mattanías"
-      ]
     },
     {
       "name": "Mattatha",
@@ -7042,13 +6693,15 @@
       "name": "Melchiah",
       "aliases": [
         "Melchías",
-        "Malchiah"
+        "Malchiah",
+        "Malchías"
       ]
     },
     {
       "name": "Melchisedec",
       "aliases": [
-        "Melchizedek"
+        "Melchizedek",
+        "Melquisedec"
       ]
     },
     {
@@ -7100,19 +6753,13 @@
     },
     {
       "name": "Merab",
-      "aliases": [
-        "Michal"
-      ]
+      "aliases": []
     },
     {
       "name": "Meraiah",
       "aliases": [
         "Meraías"
       ]
-    },
-    {
-      "name": "Meraioth",
-      "aliases": []
     },
     {
       "name": "Merari",
@@ -7148,17 +6795,11 @@
       ]
     },
     {
-      "name": "Meshech",
-      "aliases": [
-        "Meshec",
-        "Mesech"
-      ]
-    },
-    {
       "name": "Meshelemiah",
       "aliases": [
         "Meshelemías",
-        "Shelemiah"
+        "Shelemiah",
+        "Shelemías"
       ]
     },
     {
@@ -7174,10 +6815,6 @@
       "aliases": [
         "Meshillemoth"
       ]
-    },
-    {
-      "name": "Meshillemoth",
-      "aliases": []
     },
     {
       "name": "Meshobab",
@@ -7211,15 +6848,7 @@
       "aliases": []
     },
     {
-      "name": "Meunim",
-      "aliases": []
-    },
-    {
       "name": "Mezahab",
-      "aliases": []
-    },
-    {
-      "name": "Miamin",
       "aliases": []
     },
     {
@@ -7239,12 +6868,6 @@
       "aliases": []
     },
     {
-      "name": "Micah",
-      "aliases": [
-        "Micaía"
-      ]
-    },
-    {
       "name": "Micaiah",
       "aliases": [
         "Micaías"
@@ -7253,7 +6876,8 @@
     {
       "name": "Micha",
       "aliases": [
-        "Micah"
+        "Micah",
+        "Micaía"
       ]
     },
     {
@@ -7286,10 +6910,6 @@
         "Midianites",
         "Midianitish"
       ]
-    },
-    {
-      "name": "Mijamin",
-      "aliases": []
     },
     {
       "name": "Mikloth",
@@ -7329,10 +6949,6 @@
       "aliases": []
     },
     {
-      "name": "Mishael",
-      "aliases": []
-    },
-    {
       "name": "Misham",
       "aliases": []
     },
@@ -7342,10 +6958,6 @@
     },
     {
       "name": "Mishmannah",
-      "aliases": []
-    },
-    {
-      "name": "Mispar",
       "aliases": []
     },
     {
@@ -7383,7 +6995,8 @@
       "aliases": [
         "Moadías",
         "Maadiah",
-        "Maaziah"
+        "Maaziah",
+        "Maazías"
       ]
     },
     {
@@ -7428,10 +7041,6 @@
     },
     {
       "name": "Moza",
-      "aliases": []
-    },
-    {
-      "name": "Muppim",
       "aliases": []
     },
     {
@@ -7583,10 +7192,6 @@
       "aliases": []
     },
     {
-      "name": "Nebaioth",
-      "aliases": []
-    },
-    {
       "name": "Nebajoth",
       "aliases": [
         "Nebaioth"
@@ -7634,10 +7239,6 @@
     },
     {
       "name": "Nekoda",
-      "aliases": []
-    },
-    {
-      "name": "Nemuel",
       "aliases": []
     },
     {
@@ -7741,9 +7342,7 @@
     },
     {
       "name": "Nohah",
-      "aliases": [
-        "Naaman"
-      ]
+      "aliases": []
     },
     {
       "name": "Nun",
@@ -7966,10 +7565,6 @@
       "aliases": []
     },
     {
-      "name": "Paseah",
-      "aliases": []
-    },
-    {
       "name": "Pashhur",
       "aliases": []
     },
@@ -8060,10 +7655,6 @@
       "aliases": []
     },
     {
-      "name": "Perez",
-      "aliases": []
-    },
-    {
       "name": "Perida",
       "aliases": [
         "Peruda"
@@ -8071,10 +7662,6 @@
     },
     {
       "name": "Persis",
-      "aliases": []
-    },
-    {
-      "name": "Peruda",
       "aliases": []
     },
     {
@@ -8273,10 +7860,6 @@
       "aliases": []
     },
     {
-      "name": "Porcius",
-      "aliases": []
-    },
-    {
       "name": "Portius",
       "aliases": [
         "Porcius"
@@ -8336,15 +7919,7 @@
       ]
     },
     {
-      "name": "Pul",
-      "aliases": []
-    },
-    {
       "name": "Purah",
-      "aliases": []
-    },
-    {
-      "name": "Put",
       "aliases": []
     },
     {
@@ -8430,13 +8005,6 @@
     {
       "name": "Ramoth",
       "aliases": []
-    },
-    {
-      "name": "Rapha",
-      "aliases": [
-        "Rafa",
-        "Rosh"
-      ]
     },
     {
       "name": "Raphah",
@@ -8555,7 +8123,9 @@
       "name": "Rephaiah",
       "aliases": [
         "Refaías",
-        "Rapha"
+        "Rapha",
+        "Rafa",
+        "Rosh"
       ]
     },
     {
@@ -8567,10 +8137,6 @@
       "aliases": [
         "Ragau"
       ]
-    },
-    {
-      "name": "Reuel",
-      "aliases": []
     },
     {
       "name": "Reumah",
@@ -8661,25 +8227,11 @@
       "aliases": []
     },
     {
-      "name": "Sacar",
-      "aliases": []
-    },
-    {
       "name": "Sachia",
       "aliases": []
     },
     {
-      "name": "Sadoc",
-      "aliases": []
-    },
-    {
       "name": "Salah",
-      "aliases": [
-        "Shelah"
-      ]
-    },
-    {
-      "name": "Salathiel",
       "aliases": []
     },
     {
@@ -8688,10 +8240,6 @@
     },
     {
       "name": "Sallu",
-      "aliases": []
-    },
-    {
-      "name": "Salma",
       "aliases": []
     },
     {
@@ -8727,10 +8275,6 @@
       "aliases": []
     },
     {
-      "name": "Saph",
-      "aliases": []
-    },
-    {
       "name": "Sapphira",
       "aliases": [
         "Safira"
@@ -8760,10 +8304,6 @@
     },
     {
       "name": "Sceva",
-      "aliases": []
-    },
-    {
-      "name": "Seba",
       "aliases": []
     },
     {
@@ -8805,8 +8345,7 @@
     {
       "name": "Sennacherib",
       "aliases": [
-        "Senaquerib",
-        "Sargon"
+        "Senaquerib"
       ]
     },
     {
@@ -8825,9 +8364,7 @@
     },
     {
       "name": "Serah",
-      "aliases": [
-        "Sarah"
-      ]
+      "aliases": []
     },
     {
       "name": "Seraiah",
@@ -8873,21 +8410,16 @@
       "name": "Shadrach",
       "aliases": [
         "Sadrac",
-        "Hananiah"
+        "Hananiah",
+        "Hananías"
       ]
     },
     {
       "name": "Shage",
-      "aliases": [
-        "Shammah"
-      ]
-    },
-    {
-      "name": "Shaharaim",
       "aliases": []
     },
     {
-      "name": "Shallum",
+      "name": "Shaharaim",
       "aliases": []
     },
     {
@@ -9004,8 +8536,7 @@
       "name": "Shavsha",
       "aliases": [
         "Shisha",
-        "Sheva",
-        "Seraiah"
+        "Sheva"
       ]
     },
     {
@@ -9053,10 +8584,6 @@
       "aliases": []
     },
     {
-      "name": "Shebuel",
-      "aliases": []
-    },
-    {
       "name": "Shecaniah",
       "aliases": [
         "Shecanías"
@@ -9095,12 +8622,6 @@
       ]
     },
     {
-      "name": "Shelemiah",
-      "aliases": [
-        "Shelemías"
-      ]
-    },
-    {
       "name": "Sheleph",
       "aliases": []
     },
@@ -9110,10 +8631,6 @@
     },
     {
       "name": "Shelomi",
-      "aliases": []
-    },
-    {
-      "name": "Shelomith",
       "aliases": []
     },
     {
@@ -9232,10 +8749,6 @@
       "aliases": []
     },
     {
-      "name": "Sheshbazzar",
-      "aliases": []
-    },
-    {
       "name": "Shethar",
       "aliases": []
     },
@@ -9245,10 +8758,6 @@
     },
     {
       "name": "Shethar-boznai",
-      "aliases": []
-    },
-    {
-      "name": "Sheva",
       "aliases": []
     },
     {
@@ -9340,10 +8849,6 @@
       "aliases": []
     },
     {
-      "name": "Shisha",
-      "aliases": []
-    },
-    {
       "name": "Shishak",
       "aliases": []
     },
@@ -9386,19 +8891,11 @@
       "aliases": []
     },
     {
-      "name": "Shomer",
-      "aliases": []
-    },
-    {
       "name": "Shua",
       "aliases": []
     },
     {
       "name": "Shuah",
-      "aliases": []
-    },
-    {
-      "name": "Shual",
       "aliases": []
     },
     {
@@ -9438,23 +8935,11 @@
       ]
     },
     {
-      "name": "Siaha",
-      "aliases": []
-    },
-    {
-      "name": "Sibbecai",
-      "aliases": []
-    },
-    {
       "name": "Sibbechai",
       "aliases": [
         "Sibbecai",
         "Mebunnai"
       ]
-    },
-    {
-      "name": "Sidon",
-      "aliases": []
     },
     {
       "name": "Sihon",
@@ -9472,8 +8957,7 @@
       "name": "Simon",
       "aliases": [
         "Simón",
-        "Cephas",
-        "Simeon"
+        "Cephas"
       ]
     },
     {
@@ -9544,10 +9028,6 @@
       ]
     },
     {
-      "name": "Sosipater",
-      "aliases": []
-    },
-    {
       "name": "Sosthenes",
       "aliases": [
         "Sóstenes"
@@ -9598,12 +9078,6 @@
       "aliases": []
     },
     {
-      "name": "Tabitha",
-      "aliases": [
-        "Tabita"
-      ]
-    },
-    {
       "name": "Tabrimmon",
       "aliases": []
     },
@@ -9613,10 +9087,6 @@
     },
     {
       "name": "Tahan",
-      "aliases": []
-    },
-    {
-      "name": "Tahash",
       "aliases": []
     },
     {
@@ -9669,14 +9139,6 @@
     },
     {
       "name": "Tappuah",
-      "aliases": []
-    },
-    {
-      "name": "Tarea",
-      "aliases": []
-    },
-    {
-      "name": "Tarshish",
       "aliases": []
     },
     {
@@ -9751,12 +9213,6 @@
     {
       "name": "Tertullus",
       "aliases": []
-    },
-    {
-      "name": "Thaddaeus",
-      "aliases": [
-        "Tadeo"
-      ]
     },
     {
       "name": "Thahash",
@@ -9836,7 +9292,8 @@
     {
       "name": "Timotheus",
       "aliases": [
-        "Timothy"
+        "Timothy",
+        "Timoteo"
       ]
     },
     {
@@ -9980,23 +9437,16 @@
       "aliases": []
     },
     {
-      "name": "Uriah",
-      "aliases": [
-        "Urías",
-        "Urias"
-      ]
-    },
-    {
       "name": "Uriel",
-      "aliases": [
-        "Zephaniah"
-      ]
+      "aliases": []
     },
     {
       "name": "Urijah",
       "aliases": [
         "Uriías",
-        "Uriah"
+        "Uriah",
+        "Urías",
+        "Urias"
       ]
     },
     {
@@ -10035,7 +9485,6 @@
       "name": "Uzziah",
       "aliases": [
         "Uzías",
-        "Azariah",
         "Ozias"
       ]
     },
@@ -10090,10 +9539,6 @@
       "aliases": []
     },
     {
-      "name": "Zaavan",
-      "aliases": []
-    },
-    {
       "name": "Zabad",
       "aliases": [
         "Jozachar"
@@ -10142,16 +9587,8 @@
       "aliases": []
     },
     {
-      "name": "Zachariah",
-      "aliases": [
-        "Zacharías"
-      ]
-    },
-    {
       "name": "Zacher",
-      "aliases": [
-        "Zechariah"
-      ]
+      "aliases": []
     },
     {
       "name": "Zadok",
@@ -10165,10 +9602,6 @@
     },
     {
       "name": "Zalaph",
-      "aliases": []
-    },
-    {
-      "name": "Zalmon",
       "aliases": []
     },
     {
@@ -10238,7 +9671,8 @@
       "name": "Zechariah",
       "aliases": [
         "Zacarías",
-        "Zachariah"
+        "Zachariah",
+        "Zacharías"
       ]
     },
     {
@@ -10249,7 +9683,8 @@
       "name": "Zedekiah",
       "aliases": [
         "Sedequías",
-        "Mattaniah"
+        "Mattaniah",
+        "Mattanías"
       ]
     },
     {
@@ -10303,7 +9738,8 @@
       "name": "Zephon",
       "aliases": [
         "Zefon",
-        "Ziphion"
+        "Ziphion",
+        "Zifion"
       ]
     },
     {
@@ -10326,10 +9762,6 @@
     },
     {
       "name": "Zereth",
-      "aliases": []
-    },
-    {
-      "name": "Zeri",
       "aliases": []
     },
     {
@@ -10434,14 +9866,6 @@
       "aliases": []
     },
     {
-      "name": "Zimri",
-      "aliases": []
-    },
-    {
-      "name": "Zina",
-      "aliases": []
-    },
-    {
       "name": "Ziph",
       "aliases": []
     },
@@ -10449,12 +9873,6 @@
       "name": "Ziphah",
       "aliases": [
         "Zifah"
-      ]
-    },
-    {
-      "name": "Ziphion",
-      "aliases": [
-        "Zifion"
       ]
     },
     {
@@ -10508,10 +9926,6 @@
       "aliases": [
         "Zofar"
       ]
-    },
-    {
-      "name": "Zorobabel",
-      "aliases": []
     },
     {
       "name": "Zuar",
@@ -10712,8 +10126,7 @@
     {
       "name": "Ammon (son of Mosiah)",
       "aliases": [
-        "Ammon hijo de Mosiah",
-        "Ammon"
+        "Ammon hijo de Mosiah"
       ]
     },
     {
@@ -11138,13 +10551,6 @@
       "name": "Mount of Olives",
       "aliases": [
         "Monte de los Olivos"
-      ]
-    },
-    {
-      "name": "Calvary",
-      "aliases": [
-        "Calvario",
-        "Golgotha"
       ]
     },
     {
@@ -12728,12 +12134,6 @@
       ]
     },
     {
-      "name": "Sealing Power",
-      "aliases": [
-        "Poder sellador"
-      ]
-    },
-    {
       "name": "Temple Ordinances",
       "aliases": [
         "Ordenanzas del templo"
@@ -13578,13 +12978,6 @@
       ]
     },
     {
-      "name": "Baby Blessing",
-      "aliases": [
-        "Bendición de bebé",
-        "Name and Blessing"
-      ]
-    },
-    {
       "name": "Baptism",
       "aliases": [
         "Bautismo"
@@ -13609,12 +13002,6 @@
       ]
     },
     {
-      "name": "Endowment",
-      "aliases": [
-        "Investidura"
-      ]
-    },
-    {
       "name": "Father's Blessing",
       "aliases": [
         "Bendición de Padre"
@@ -13624,7 +13011,9 @@
       "name": "Name and Blessing of a Child",
       "aliases": [
         "Bendición de un Hijo",
-        "Baby Blessing"
+        "Baby Blessing",
+        "Bendición de bebé",
+        "Name and Blessing"
       ]
     },
     {
@@ -13653,12 +13042,6 @@
       ]
     },
     {
-      "name": "Sealing",
-      "aliases": [
-        "Sellamiento"
-      ]
-    },
-    {
       "name": "Setting Apart",
       "aliases": [
         "Apartamiento"
@@ -13668,7 +13051,8 @@
       "name": "Temple Endowment",
       "aliases": [
         "Investidura del Templo",
-        "Endowment"
+        "Endowment",
+        "Investidura"
       ]
     },
     {
@@ -13681,7 +13065,8 @@
       "name": "Temple Sealing",
       "aliases": [
         "Sellamiento del Templo",
-        "Sealing"
+        "Sealing",
+        "Sellamiento"
       ]
     }
   ],
@@ -13882,12 +13267,6 @@
   ],
   "document": [
     {
-      "name": "The Family: A Proclamation to the World",
-      "aliases": [
-        "La Familia: Una Proclamación para el Mundo"
-      ]
-    },
-    {
       "name": "The Living Christ",
       "aliases": [
         "El Cristo Viviente"
@@ -13941,7 +13320,8 @@
       "aliases": [
         "The Family: A Proclamation to the World",
         "La Familia: Proclamación al Mundo",
-        "Family Proclamation 1995"
+        "Family Proclamation 1995",
+        "La Familia: Una Proclamación para el Mundo"
       ]
     },
     {
