@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import time
 from functools import lru_cache
@@ -13,6 +14,34 @@ from neo4j import GraphDatabase
 from alejandria.config import settings
 
 logger = logging.getLogger(__name__)
+
+_GAZETTEER_PATH = Path(__file__).parent / "gazetteers" / "entities.json"
+
+
+@lru_cache(maxsize=1)
+def _build_alias_lookup() -> dict[str, str]:
+    """Build a lowercase alias → canonical name lookup from the gazetteer.
+
+    Returns a dict where keys are lowercased aliases and values are canonical names.
+    """
+    lookup: dict[str, str] = {}
+    if not _GAZETTEER_PATH.exists():
+        return lookup
+    try:
+        data = json.loads(_GAZETTEER_PATH.read_text(encoding="utf-8"))
+        for _type, entries in data.items():
+            if not isinstance(entries, list):
+                continue
+            for entry in entries:
+                canonical = entry.get("name", "")
+                if not canonical:
+                    continue
+                for alias in entry.get("aliases", []):
+                    if alias:
+                        lookup[alias.lower()] = canonical
+    except Exception:
+        logger.warning("Failed to load gazetteer for alias lookup", exc_info=True)
+    return lookup
 
 # TTL-aware cache: stores (result, timestamp). Cache invalidated after 5 minutes.
 _CACHE_TTL_SECONDS = 300
@@ -240,14 +269,23 @@ class Neo4jClient:
     def _resolve_name(self, name: str) -> str:
         """Resolve an alias or variant name to the canonical node name in Neo4j.
 
-        Tries exact match first, then case-insensitive, then alias lookup.
+        Resolution order:
+        1. Gazetteer alias lookup (fast, in-memory, authoritative)
+        2. Exact Neo4j match
+        3. Case-insensitive Neo4j match
         Returns the canonical name if found, otherwise the original input.
         """
+        # 1. Gazetteer lookup — maps aliases to canonical names (e.g. Pedro → Peter)
+        alias_lookup = _build_alias_lookup()
+        canonical = alias_lookup.get(name.lower())
+        if canonical:
+            return canonical
+
         cache_key = f"resolve_name:{name}"
 
         def _query():
             with self._driver.session() as session:
-                # 1. Exact match (fast, indexed)
+                # 2. Exact match in Neo4j (fast, indexed)
                 result = session.run(
                     "MATCH (e:Entity {name: $name}) RETURN e.name AS name LIMIT 1",
                     name=name,
@@ -256,29 +294,9 @@ class Neo4jClient:
                 if record:
                     return record["name"]
 
-                # 2. Case-insensitive match
+                # 3. Case-insensitive match
                 result = session.run(
                     "MATCH (e:Entity) WHERE toLower(e.name) = toLower($name) "
-                    "RETURN e.name AS name LIMIT 1",
-                    name=name,
-                )
-                record = result.single()
-                if record:
-                    return record["name"]
-
-                # 3. Alias lookup — the name might be an alias stored on another node
-                result = session.run(
-                    "MATCH (e:Entity) WHERE $name IN e.aliases "
-                    "RETURN e.name AS name LIMIT 1",
-                    name=name,
-                )
-                record = result.single()
-                if record:
-                    return record["name"]
-
-                # 4. Case-insensitive alias lookup
-                result = session.run(
-                    "MATCH (e:Entity) WHERE any(a IN e.aliases WHERE toLower(a) = toLower($name)) "
                     "RETURN e.name AS name LIMIT 1",
                     name=name,
                 )
@@ -682,12 +700,20 @@ class Neo4jClient:
             types_str = "|".join(rel_types)
             rel_filter = f":{types_str}"
 
-        cache_key = f"typed_rels:{entity_name}:{rel_filter}:{limit}"
+        # Build confidence filter for Cypher: exclude relations below minimum
+        conf_cypher = ""
+        if confidence_min and confidence_min in confidence_order:
+            min_level = confidence_order[confidence_min]
+            allowed = [k for k, v in confidence_order.items() if v >= min_level]
+            conf_cypher = f" AND r.confidence IN {allowed}"
+
+        cache_key = f"typed_rels:{entity_name}:{rel_filter}:{conf_cypher}:{limit}"
 
         def _query():
             with self._driver.session() as session:
                 result = session.run(
                     f"MATCH (a:Entity {{name: $name}})-[r{rel_filter}]->(b:Entity) "
+                    f"WHERE true{conf_cypher} "
                     "RETURN a.name AS from_name, a.type AS from_type, "
                     "       type(r) AS rel_type, "
                     "       b.name AS to_name, b.type AS to_type, "
@@ -696,6 +722,7 @@ class Neo4jClient:
                     f"LIMIT $limit "
                     "UNION "
                     f"MATCH (a:Entity)-[r{rel_filter}]->(b:Entity {{name: $name}}) "
+                    f"WHERE true{conf_cypher} "
                     "RETURN a.name AS from_name, a.type AS from_type, "
                     "       type(r) AS rel_type, "
                     "       b.name AS to_name, b.type AS to_type, "
