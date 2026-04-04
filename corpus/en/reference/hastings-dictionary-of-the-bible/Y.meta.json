@@ -1,0 +1,25 @@
+{
+  "title": "Hastings' Dictionary of the Bible - Y",
+  "author": "James Hastings (editor)",
+  "year": 1898,
+  "language": "en",
+  "source": "bibleportal.com",
+  "license": "Public Domain",
+  "category": "reference",
+  "subcategory": "bible-dictionary",
+  "description": "Comprehensive 4-volume Bible dictionary (1898) with 5,915 entries on persons, places, antiquities, archaeology, theology, and ethics.",
+  "entry_count": 4,
+  "entries": [
+    "Yarn",
+    "Yellow",
+    "Yoke",
+    "Yokefellow"
+  ],
+  "scripture_references": [],
+  "authority": {
+    "doctrinal": 15,
+    "rigor": 80,
+    "official": false,
+    "notes": "Late 19th-century critical scholarship; strong on source criticism and archaeology; higher rigor than Easton/Smith"
+  }
+}

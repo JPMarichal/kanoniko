@@ -1,0 +1,43 @@
+{
+  "title": "Hitchcock's Bible Names Dictionary - U",
+  "author": "Roswell D. Hitchcock",
+  "year": 1869,
+  "language": "en",
+  "source": "CCEL (Christian Classics Ethereal Library)",
+  "license": "Public Domain",
+  "category": "reference",
+  "subcategory": "bible-names",
+  "description": "2,500+ Bible proper names with etymological meanings from Hebrew/Greek. Compact format ideal for KG entity enrichment.",
+  "entry_count": 23,
+  "entries": [
+    "Ucal",
+    "Uel",
+    "Ulai",
+    "Ulam",
+    "Ulla",
+    "Ummah",
+    "Unni",
+    "Uphaz",
+    "Upharsin",
+    "Ur",
+    "Urbane",
+    "Uri",
+    "Uriah",
+    "Uriel",
+    "Urim",
+    "Uthai",
+    "Uz",
+    "Uzai",
+    "Uzal",
+    "Uzzah",
+    "Uzzen-sherah",
+    "Uzzi",
+    "Uzziah"
+  ],
+  "authority": {
+    "doctrinal": 10,
+    "rigor": 60,
+    "official": false,
+    "notes": "19th-century etymological dictionary; meanings are traditional, some debated by modern scholarship"
+  }
+}
