@@ -31,6 +31,10 @@ docker/.env
 Thumbs.db
 .DS_Store
 
+# Logs and temp output
+logs/
+rebuild-kg-output.txt
+
 # Models (downloaded at build time)
 models/
 
