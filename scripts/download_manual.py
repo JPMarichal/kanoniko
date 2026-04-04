@@ -999,6 +999,206 @@ _STATIC_MANUALS: list[ManualConfig] = [
         uri_prefix="/history",
         notes="99+ countries (growing); stories+chronologies; first Church survey of intl history since 2018; didactic illustration value",
     ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP M: Seminary Teacher Manuals — missing counterparts to student manuals
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="ot-seminary-teacher",
+        slug="old-testament-seminary-manual-2026",
+        book="Old Testament Seminary Teacher Manual",
+        output_subdir="manuals/seminary/old-testament-teacher",
+        authority=60,
+        tags=["seminary", "old-testament", "scripture-study", "teacher", "cfm-aligned"],
+        link_contains="old-testament-seminary-manual-2026",
+        notes="2026; S&I 'Seminary 2.0' format — 4 lesson types (Scripture, Life Prep, Doctrinal Mastery, "
+              "Assessment); CFM-aligned; announced Dec 2025; companion to OT Student Manual 2026",
+    ),
+    ManualConfig(
+        key="bom-seminary-teacher",
+        slug="book-of-mormon-seminary-teacher-manual-2024",
+        book="Book of Mormon Seminary Teacher Manual",
+        output_subdir="manuals/seminary/book-of-mormon-teacher",
+        authority=60,
+        tags=["seminary", "book-of-mormon", "scripture-study", "teacher", "cfm-aligned"],
+        link_contains="book-of-mormon-seminary-teacher-manual",
+        notes="2024; 160+ lessons; CFM-aligned; 2nd gen of current format; 32 home-study class lessons; "
+              "companion to BofM Student Manual 2024",
+    ),
+    ManualConfig(
+        key="nt-seminary-teacher",
+        slug="new-testament-seminary-teacher-manual-2023",
+        book="New Testament Seminary Teacher Manual",
+        output_subdir="manuals/seminary/new-testament-teacher",
+        authority=60,
+        tags=["seminary", "new-testament", "scripture-study", "teacher", "cfm-aligned"],
+        link_contains="new-testament-seminary-teacher-manual",
+        notes="2023; inaugural manual of current S&I format; CFM-aligned; companion to NT Student Manual 2023",
+    ),
+    ManualConfig(
+        key="dc-seminary-home-study",
+        slug="doctrine-and-covenants-and-church-history-study-guide-for-home-study-seminary-students-2014",
+        book="D&C and Church History Study Guide for Home-Study Seminary Students",
+        output_subdir="manuals/seminary/doctrine-and-covenants-home-study",
+        authority=55,
+        tags=["seminary", "doctrine-and-covenants", "home-study", "youth"],
+        link_contains="doctrine-and-covenants-and-church-history-study-guide",
+        notes="2014 LEGACY format (pre-CFM, pre-Doctrinal Mastery); 32 units × 4 daily lessons = 128; "
+              "student-facing guide for home-study; functionally superseded by D&C 2025 materials but not withdrawn",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP N: Family Resources — strengthening marriage/family manuals
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="families-and-temples",
+        slug="families-and-temples",
+        book="Families and Temples",
+        output_subdir="manuals/teaching-pamphlets",
+        authority=60,
+        tags=["missionary", "family", "temple", "sealing", "pamphlet", "teaching"],
+        link_contains="families-and-temples",
+        notes="Missionary teaching pamphlet (Missionary Dept); PME ch3 lesson 5; 14 sections incl. "
+              "full Proclamation text; NOT a family enrichment course",
+    ),
+    ManualConfig(
+        key="marriage-family-instructor",
+        slug="marriage-and-family-relations-instructors-manual",
+        book="Marriage and Family Relations Instructor's Manual",
+        output_subdir="manuals/family-resources",
+        authority=55,
+        tags=["family", "marriage", "teaching", "instructor", "sunday-school"],
+        link_contains="marriage-and-family-relations-instructors-manual",
+        notes="2000; Church Curriculum Dept; announced by pres. Boyd K. Packer; 16 lessons in 2 parts "
+              "(marriage + parenting); doctrinal/scriptural focus; for Sunday meetings; companion to "
+              "participant's study guide (already in corpus as family-resources/)",
+    ),
+    ManualConfig(
+        key="strengthening-marriage-instructor",
+        slug="strengthening-marriage-instructors-guide",
+        book="Strengthening Marriage: Instructor's Guide",
+        output_subdir="manuals/family-resources",
+        authority=55,
+        tags=["family", "marriage", "counseling", "instructor", "family-services"],
+        link_contains="strengthening-marriage-instructors-guide",
+        notes="2006; LDS Family Services; 6 sessions × 90 min; weekday use (not Sunday); "
+              "therapeutic+doctrinal; role-playing and professional insights; complements M&FR (2000)",
+    ),
+    ManualConfig(
+        key="strengthening-marriage-couples",
+        slug="strengthening-marriage-resource-guide-for-couples",
+        book="Strengthening Marriage: Resource Guide for Couples",
+        output_subdir="manuals/family-resources",
+        authority=55,
+        tags=["family", "marriage", "counseling", "couples"],
+        link_contains="strengthening-marriage-resource-guide",
+        bilingual=False,
+        notes="Companion to instructor guide; 6 sessions; EN-only (404 in spa)",
+    ),
+    ManualConfig(
+        key="strengthening-family-instructor",
+        slug="strengthening-the-family-instructors-guide",
+        book="Strengthening the Family: Instructor's Guide",
+        output_subdir="manuals/family-resources",
+        authority=55,
+        tags=["family", "parenting", "counseling", "instructor", "family-services"],
+        link_contains="strengthening-the-family-instructors-guide",
+        notes="2006; LDS Family Services; 9 sessions × 90 min; weekday use; therapeutic+doctrinal; "
+              "parenting counterpart to Strengthening Marriage",
+    ),
+    ManualConfig(
+        key="strengthening-family-parents",
+        slug="strengthening-the-family-resource-guide-for-parents",
+        book="Strengthening the Family: Resource Guide for Parents",
+        output_subdir="manuals/family-resources",
+        authority=55,
+        tags=["family", "parenting", "counseling", "parents"],
+        link_contains="strengthening-the-family-resource-guide",
+        bilingual=False,
+        notes="EN-only (404 in spa)",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP O: Self-Reliance secondary manuals
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="sr-self-reliance-plan",
+        slug="self-reliance-plan-and-bishops-guide-explanation",
+        book="Self-Reliance Plan and Bishop's Guide",
+        output_subdir="manuals/self-reliance/self-reliance-plan",
+        authority=50,
+        tags=["self-reliance", "welfare", "bishop", "leadership", "operational"],
+        notes="~2012 rev. 2024; Self-Reliance Services / Presiding Bishopric; operational forms — "
+              "member assessment worksheet + bishop tracking companion; ref. General Handbook §22",
+    ),
+    ManualConfig(
+        key="sr-perpetual-education",
+        slug="perpetual-education-fund-for-self-reliance",
+        book="Perpetual Education Fund for Self-Reliance",
+        output_subdir="manuals/self-reliance/perpetual-education-fund",
+        authority=50,
+        tags=["self-reliance", "education", "perpetual-education-fund", "operational"],
+        notes="2017; single lesson (~60 min) post-'Education for Better Work' course; explains PEF "
+              "loans and repayment covenant; PEF announced by pres. Hinckley Apr 2001 GC; 110K+ beneficiaries",
+    ),
+    ManualConfig(
+        key="sr-my-path",
+        slug="my-path-for-self-reliance",
+        book="My Path for Self-Reliance",
+        output_subdir="manuals/self-reliance/my-path",
+        authority=55,
+        tags=["self-reliance", "welfare", "assessment", "on-ramp"],
+        notes="2016; ~20-page devotional/assessment booklet; mandatory entry point to SR program; "
+              "doctrine of self-reliance + self-assessment + course selection; 'Mi camino a la autosuficiencia'",
+    ),
+    ManualConfig(
+        key="sr-facilitating-groups",
+        slug="facilitating-groups-for-self-reliance-2018",
+        book="Facilitating Groups for Self-Reliance",
+        output_subdir="manuals/self-reliance/facilitating-groups",
+        authority=50,
+        tags=["self-reliance", "welfare", "facilitator", "groups"],
+        notes="2018; trainer guide for group facilitators",
+    ),
+    ManualConfig(
+        key="sr-leaders-guide",
+        slug="leaders-guide-for-the-self-reliance-initiative",
+        book="Leader's Guide for the Self-Reliance Initiative",
+        output_subdir="manuals/self-reliance/leaders-guide",
+        authority=55,
+        tags=["self-reliance", "welfare", "leadership", "administration"],
+        notes="2017; master admin guide for stake/ward leaders; covers doctrine, priesthood framework, "
+              "stake committee, SR specialist callings, group methodology; ref. General Handbook",
+    ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP P: Institute new materials
+    # ══════════════════════════════════════════════════════════════════════════
+
+    ManualConfig(
+        key="institute-student-readings",
+        slug="institute-student-readings",
+        book="Institute Student Readings",
+        output_subdir="manuals/institute/student-readings",
+        authority=60,
+        tags=["institute", "scripture-study", "readings", "curriculum"],
+        bilingual=False,
+        notes="~2024; S&I reading compilation for ~35 courses (4 Cornerstone + 9 Scripture + 22+ other); "
+              "readings are graduation requirement (100% for scripture, 75% for others); EN-only (404 in spa)",
+    ),
+    ManualConfig(
+        key="institute-elevate",
+        slug="institute-elevate-learning-experience",
+        book="Institute Elevate Learning Experience",
+        output_subdir="manuals/institute/elevate",
+        authority=55,
+        tags=["institute", "learning", "assessment", "cornerstone"],
+        notes="2016; S&I assessment/enrichment framework (NOT a 2024 pilot); 3 options per course: "
+              "Elevate Questions, Study Journal, Personal Project; mandatory for course credit",
+    ),
 ]
 
 
