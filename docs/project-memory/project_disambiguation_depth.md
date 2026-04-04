@@ -1,6 +1,6 @@
 ---
 name: project_disambiguation_depth
-description: Three levels of disambiguation — person identity, entity type, temporal/dispensational meaning shifts — plus noise handling and alias resolution
+description: Three levels of disambiguation + generative syntactic patterns (19 EN/ES) + gazetteer cleanup (2805→2671 entries, 31 bad aliases fixed)
 type: project
 ---
 
@@ -29,6 +29,10 @@ P7 disambiguation requires three distinct levels, not just person-identity resol
 
 **Bilingual key insight:** ES "Jacobo" = James/Santiago (NT), NOT Jacob the patriarch. Jacob the patriarch is "Jacob" in both EN and ES.
 
+**Generative syntactic patterns (fallback):** 19 EN + 19 ES regex patterns that resolve entity type for ANY name based on surrounding syntax. Covers "tribe of X" → people, "land of X" → place, "kingdom of X" → polity, "X begat Y" → person, "called/named X" → person, etc. Fires as fallback when no name-specific rule exists. This handles hundreds of multi-type entities (Esau/Edom, Ephraim, Dan, Manasseh, Moab, Gad, Asher, etc.) without per-name rules.
+
+**Gazetteer cleanup:** Removed 134 redundant entries (name existed as both top-level and alias of same entity). Fixed 31 bad alias relationships where different entities were incorrectly linked (Judah≠Hodevah, Sarah≠Serah, Moroni≠Captain Moroni, Sargon≠Sennacherib, etc.). Transferred 35 bilingual aliases to primaries. 2805→2671 entries.
+
 **Why:** The user emphasized that a naive disambiguator misses these. Canonical acceptions need: bilingual name, entity type, applicable period/dispensation, and contextual signals (keywords, books, chapters).
 
-**How to apply:** The disambiguator module supports all three levels. Level 1 is regex+path rules. Level 2 requires type-aware matching (returns entity_type_resolved). Level 3 requires dispensational context awareness (which book/era the passage is in).
+**How to apply:** The disambiguator module supports all three levels plus generative fallback. Level 1 is regex+path rules (22 entities). Level 2 requires type-aware matching (returns entity_type_resolved). Level 3 requires dispensational context awareness. Generative patterns fire for any entity not in the registry.
