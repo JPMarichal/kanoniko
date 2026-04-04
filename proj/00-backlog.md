@@ -58,6 +58,36 @@ The backlog is a living document. Priorities may shift based on:
 
 When reprioritizing, update both this document and the priority table in `README.md`.
 
+## Active Work Items
+
+Items that don't warrant a full project but represent significant curation/enrichment work.
+
+### WI-1: Biographical KG Curation (All Scripture Characters)
+
+**Priority:** High — directly enables Forma T generation from KG data
+**Status:** In Progress
+**Parent:** P6 Advanced Relations (phases 8-14 enrichment)
+
+**Goal:** Curate biographical relations in `relations.json` for all major scripture characters across every volume (OT, NT, BofM, D&C, PGP) so the KG can serve as the primary structured input for Formas T and entity profiles.
+
+**Current gap:** 776 curated relations exist but biographical coverage is thin. BORN_IN and DIED_IN types have zero entries. Most characters have ≤5 biographical relations. Only Jesus Christ (7), Paul (7), and Joseph Smith (5) have meaningful biographical data.
+
+**Scope (Tier 1 — ~58 characters):**
+- **OT:** Adam, Eve, Noah, Enoch, Abraham, Sarah, Isaac, Rebecca, Jacob, Rachel, Joseph (son of Jacob), Moses, Aaron, Joshua, Samuel, David, Solomon, Elijah, Elisha, Isaiah, Jeremiah, Daniel, Melchizedek, Job, Ruth, Esther
+- **NT:** Jesus Christ, Peter, John, Paul, James (son of Zebedee), James (brother of Jesus), Matthew, John the Baptist, Mary (mother of Jesus), Stephen, Barnabas, Thomas, Mary Magdalene, Luke
+- **BofM:** Lehi, Sariah, Nephi, Jacob (son of Lehi), Alma the Elder, Alma the Younger, King Benjamin, Mosiah, Captain Moroni, Helaman, Samuel the Lamanite, Mormon, Moroni, Abinadi, Ammon (son of Mosiah), Brother of Jared, Ether
+- **D&C/Restoration:** Joseph Smith, Oliver Cowdery, Hyrum Smith, Brigham Young, Sidney Rigdon, Emma Smith, Martin Harris
+
+**Relation types (biographical focus):**
+Existing: FATHER_OF, MOTHER_OF, BROTHER_OF, SPOUSE_OF, SON_OF, CALLED_AS, TRAVELED_TO, BORN_IN, DIED_IN, MARTYRED_AT, BAPTIZED_BY, CONVERTED_BY, SAW_IN_VISION, APPEARED_TO, CONFERRED_KEYS_TO, HOLDS_PRIESTHOOD, AUTHORED, PROPHESIED_ABOUT, TAUGHT, LIVED_IN, FOUNDED, FOREORDAINED_AS, ORDAINED_BY, BLESSED_BY, HEALED_BY
+
+**Success criteria:**
+- Every Tier 1 character has ≥8 curated biographical relations
+- BORN_IN and DIED_IN populated for characters where scripture records it
+- KG query for any Tier 1 character returns enough structure to generate a Forma T without corpus search
+
+**Future tiers:** Tier 2 (~100 secondary characters), Tier 3 (remaining gazetteer entries via LLM extraction — deferred to P6 LLM phases)
+
 ## Relationship to Completed Work
 
 | Phase | Status | Notes |
