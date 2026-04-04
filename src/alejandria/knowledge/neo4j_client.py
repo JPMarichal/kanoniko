@@ -952,7 +952,7 @@ class Neo4jClient:
         with self._driver.session() as session:
             result = session.run(
                 "MATCH (a:Entity {name: $n1}), (b:Entity {name: $n2}) "
-                "MATCH path = shortestPath((a)-[:FATHER_OF|MOTHER_OF|SPOUSE_OF|DESCENDANT_OF*]-(b)) "
+                "MATCH path = shortestPath((a)-[:FATHER_OF|MOTHER_OF|SPOUSE_OF*]-(b)) "
                 "RETURN [n IN nodes(path) | {name: n.name, type: n.type}] AS nodes, "
                 "       [r IN relationships(path) | {type: type(r), from: startNode(r).name, to: endNode(r).name}] AS rels",
                 n1=name1,
