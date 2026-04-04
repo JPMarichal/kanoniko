@@ -55,3 +55,4 @@
 - [feedback_fcd_inline_attribution.md](feedback_fcd_inline_attribution.md) — FCD completo inline obligatorio: nombre+título en oración + citación completa en paréntesis; [N] nunca sustituye
 - [feedback_bibliography_format.md](feedback_bibliography_format.md) — Bibliografía como "Fuentes citadas" con bullets sin numerar; los [N] desaparecen si FCD va inline
 - [feedback_humor_reverente.md](feedback_humor_reverente.md) — Humor sutil y reverente para accesibilidad; cuarta pared OK; aplicar en futuros artículos
+- [reference_womeninthescriptures.md](reference_womeninthescriptures.md) — womeninthescriptures.com: Heather Farrell, 876 posts, 75+ woman profiles, authority 20, corpus path and download patterns

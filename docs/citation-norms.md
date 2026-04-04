@@ -456,6 +456,45 @@ Include approximate date range when available — it is the primary locator in t
 
 ---
 
+## 8. Independent Web Sources
+
+External websites by independent authors that contribute to the corpus. Each citation must include a URL to enable proper attribution and linking in published articles.
+
+### Format: `Author, "Article Title," Site Name (URL)`
+
+The URL is the original permalink of the article. In digital publications (blog, WordPress), URLs become clickable links; in print, the URL serves as a locator.
+
+### Registered Sources
+
+| Site | Author | Corpus path | Authority | Rigor | Notes |
+|------|--------|-------------|-----------|-------|-------|
+| Women in the Scriptures | Heather Farrell | `corpus/en/web/womeninthescriptures/` | 20 | 50 | 75+ scriptural woman profiles + thematic essays |
+
+### Examples
+
+**Inline:**
+
+> Farrell observa que Abigail "is one of the most remarkable women in the Old Testament" y analiza su papel como tipo de Cristo (Heather Farrell, "Abigail," Women in the Scriptures, womeninthescriptures.com/2012/06/abigail.html).
+
+> The profile notes that the Shunamite woman "exercised extraordinary faith in seeking out the prophet" (Heather Farrell, "The Shunamite Woman," Women in the Scriptures, womeninthescriptures.com/2009/04/shunamite-woman.html).
+
+**Outline:**
+
+> Abigail's story teaches us that sometimes the bravest thing a woman can do is to step between two opposing forces and plead for mercy. She is, in many ways, a type of Christ — an intercessor who prevents bloodshed through her own courage and wisdom. (Heather Farrell, "Abigail," Women in the Scriptures, womeninthescriptures.com/2012/06/abigail.html)
+
+**In bibliography ("Fuentes citadas"):**
+
+> - Heather Farrell, "Abigail," *Women in the Scriptures*, https://www.womeninthescriptures.com/2012/06/abigail.html
+
+### Rules for new web sources
+
+1. Each source must be registered in the table above before use — no ad-hoc web citations
+2. The source must have a clear, identifiable author and a persistent URL structure
+3. Authority and rigor are assessed per the authority model; web sources default to `official: false`
+4. The `meta.json` for each downloaded article must include: `source_url` (original permalink), `author`, `site_name`
+
+---
+
 ## Implementation Notes
 
 - Scripture reference generation: `src/alejandria/ingestion/scripture_meta.py`
