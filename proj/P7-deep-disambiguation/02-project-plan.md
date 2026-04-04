@@ -37,7 +37,15 @@
 
 4. ✅ **Noise handling**: `_clean_window()` strips HTML tags, control chars, footnote markers, HTML entities, stray braces, and zero-width characters before regex matching
 
-5. ✅ **Pipeline integration**:
+5. ✅ **Generative syntactic patterns** (fallback for ANY entity name):
+   - 19 EN patterns + 19 ES patterns that detect entity type from surrounding syntax
+   - Categories: people (tribe/descendants/demonym), place (land/territory/geography), polity (kingdom/ruler), person (genealogy/kinship/verbs/aliases)
+   - Covers hundreds of multi-type entities (Esau/Edom, Ephraim, Dan, Manasseh, Moab, Ammon, Gad, Asher, Naphtali, Reuben, Simeon, Gilead, etc.) without per-name rules
+   - `_try_generative()` fires as fallback when no name-specific rule exists in the registry
+   - Confidence ranking: picks highest-confidence match; short-circuits on "high"
+   - `resolve()` flow: name-specific rules → generative fallback → None
+
+6. ✅ **Pipeline integration**:
    - `ExtractionResult.disambiguations` — original_name → resolved_name
    - `ExtractionResult.disambiguated_types` — original_name → resolved entity type (Level 2)
    - `DisambiguatedMention.entity_type_resolved` — new field for type overrides
@@ -71,9 +79,10 @@
 
 | Category | Entities | Variants |
 |----------|----------|----------|
-| Level 1 — Person identity | 8 core + 4 alias groups | ~50 registry entries |
+| Level 1 — Person identity | 22 core + alias groups | ~80 registry entries |
 | Level 2 — Entity type | Judah, Israel, Bethlehem | 3 entities × 4-5 types each |
 | Level 3 — Temporal meaning | Gentiles, Zion, Priesthood, Temple, Ark, Law | 6 entities × 3-6 meanings each |
+| Generative fallback | ANY entity name | 19 EN + 19 ES syntactic patterns |
 
 ## Risks
 

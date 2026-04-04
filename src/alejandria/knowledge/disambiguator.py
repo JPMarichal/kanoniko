@@ -66,7 +66,7 @@ class DisambiguatedMention:
 # Each takes (text_window, source_file) and returns a resolution tuple or None.
 # 3-tuple: (resolved_name, confidence, evidence)
 # 4-tuple: (resolved_name, confidence, evidence, entity_type_resolved)
-_RuleFn = Callable[[str, str], Optional[Tuple[str, str, str] | Tuple[str, str, str, str | None]]]
+_RuleFn = Callable[[str, str], Optional[tuple]]
 
 
 # ---------------------------------------------------------------------------
@@ -1588,6 +1588,153 @@ def _rules_law(window: str, source: str) -> tuple[str, str, str, str | None] | N
 
 
 # ---------------------------------------------------------------------------
+# Generative patterns: context-driven type resolution for ANY entity name
+# ---------------------------------------------------------------------------
+# These fire as a fallback when no name-specific rule exists.  They detect
+# syntactic patterns like "tribe of X", "land of X", "X begat Y" and
+# resolve the entity type accordingly.  This covers hundreds of cases
+# (Esau/Edom, Ephraim, Dan, Manasseh, Moab, Ammon, Gad, Asher, Naphtali,
+# Reuben, Simeon, Gilead, etc.) without per-name rules.
+
+# Each pattern: (compiled_regex, resolved_type, evidence_template, confidence)
+# The regex uses a placeholder {NAME} that gets replaced at match time.
+
+_GENERATIVE_PATTERNS_EN: list[tuple[str, str, str, str]] = [
+    # --- PEOPLE (tribe / nation / descendants) ---
+    (r"(?:tribe|tribes)\s+of\s+{NAME}", "people",
+     "syntactic: tribe(s) of {NAME}", "high"),
+    (r"(?:children|sons|daughters|people|house|descendants)\s+of\s+{NAME}", "people",
+     "syntactic: children/house of {NAME}", "high"),
+    (r"{NAME}ites?\b", "people",
+     "syntactic: {NAME}ite(s) — gentilicio/demonym", "high"),
+    (r"(?:the\s+)?{NAME}\s+(?:army|armies|people|nation|camp)", "people",
+     "syntactic: {NAME} army/people/nation", "medium"),
+
+    # --- PLACE (land / territory / geography) ---
+    (r"(?:land|territory|wilderness|desert|plains?|valley|valleys"
+     r"|hill|hills|mount(?:ain)?s?|border|borders|waters?|river|sea"
+     r"|gate|gates|city|cities|region|coast)\s+of\s+{NAME}", "place",
+     "syntactic: [geographic feature] of {NAME}", "high"),
+    (r"(?:in|to|from|at|toward|through|near|beyond)\s+{NAME}(?:\s|[,.]|$)", "place",
+     "syntactic: preposition + {NAME} (locative)", "low"),
+    (r"{NAME}\s+(?:gate|valley|road|brook|river|plain|forest|wood"
+     r"|spring|well|wall|tower)", "place",
+     "syntactic: {NAME} [geographic feature]", "medium"),
+
+    # --- POLITY (kingdom / political entity) ---
+    (r"(?:kingdom?|king|kings)\s+of\s+{NAME}", "polity",
+     "syntactic: king(dom) of {NAME}", "high"),
+    (r"(?:ruler|prince|judge|governor)\s+(?:of|over)\s+{NAME}", "polity",
+     "syntactic: ruler/prince of {NAME}", "high"),
+
+    # --- PERSON (genealogical / biographical) ---
+    (r"{NAME}\s+(?:begat|begot|bore|conceived)", "person",
+     "syntactic: {NAME} begat (genealogy)", "high"),
+    (r"(?:begat|begot|bore)\s+{NAME}", "person",
+     "syntactic: begat {NAME} (genealogy)", "high"),
+    (r"{NAME}\s+(?:the\s+)?(?:son|daughter)\s+of", "person",
+     "syntactic: {NAME} son/daughter of", "high"),
+    (r"(?:son|daughter|wife|husband|brother|sister|mother|father)\s+of\s+{NAME}", "person",
+     "syntactic: [kinship] of {NAME}", "high"),
+    (r"{NAME}\s+(?:said|spake|spoke|answered|replied|cried|prayed"
+     r"|went|came|arose|died|slew|smote|fought|built|offered"
+     r"|prophesied|commanded|blessed|cursed)", "person",
+     "syntactic: {NAME} [verb of action] (agent)", "medium"),
+    # Alternate-name / alias patterns
+    (r"(?:called|named|surnamed|known\s+as|who\s+is)\s+{NAME}", "person",
+     "syntactic: called/named {NAME} (alias)", "high"),
+    (r"(?:also\s+called|also\s+known\s+as|whose\s+name\s+(?:is|was))\s+{NAME}", "person",
+     "syntactic: also called {NAME} (alias)", "high"),
+]
+
+_GENERATIVE_PATTERNS_ES: list[tuple[str, str, str, str]] = [
+    # --- PEOPLE ---
+    (r"tribu(?:s)?\s+de\s+{NAME}", "people",
+     "sintáctico: tribu(s) de {NAME}", "high"),
+    (r"(?:hijos?|hijas?|pueblo|casa|descendientes?|congregaci[oó]n)\s+de\s+{NAME}", "people",
+     "sintáctico: hijos/pueblo/casa de {NAME}", "high"),
+    (r"{NAME}itas?\b", "people",
+     "sintáctico: {NAME}ita(s) — gentilicio", "high"),
+    (r"(?:el\s+)?(?:ej[eé]rcito|pueblo|naci[oó]n|campamento)\s+de\s+{NAME}", "people",
+     "sintáctico: ejército/pueblo de {NAME}", "medium"),
+
+    # --- PLACE ---
+    (r"(?:tierra|territorio|desierto|llanura|valle|cerro|monte|monta[nñ]a"
+     r"|frontera|aguas?|r[ií]o|mar|puerta|ciudad|regi[oó]n|costa)\s+de\s+{NAME}", "place",
+     "sintáctico: [rasgo geográfico] de {NAME}", "high"),
+    (r"(?:en|a|de|desde|hacia|por|cerca\s+de|m[aá]s\s+all[aá]\s+de)\s+{NAME}(?:\s|[,.]|$)", "place",
+     "sintáctico: preposición + {NAME} (locativo)", "low"),
+    (r"{NAME}\s+(?:puerta|valle|camino|arroyo|r[ií]o|llanura|bosque"
+     r"|fuente|pozo|muro|torre)", "place",
+     "sintáctico: {NAME} [rasgo geográfico]", "medium"),
+
+    # --- POLITY ---
+    (r"(?:reino|rey|reyes)\s+de\s+{NAME}", "polity",
+     "sintáctico: rey/reino de {NAME}", "high"),
+    (r"(?:gobernante|pr[ií]ncipe|juez|gobernador)\s+de\s+{NAME}", "polity",
+     "sintáctico: gobernante/príncipe de {NAME}", "high"),
+
+    # --- PERSON ---
+    (r"{NAME}\s+engendr[oó]", "person",
+     "sintáctico: {NAME} engendró (genealogía)", "high"),
+    (r"engendr[oó]\s+a\s+{NAME}", "person",
+     "sintáctico: engendró a {NAME} (genealogía)", "high"),
+    (r"{NAME}\s+(?:el\s+)?(?:hijo|hija)\s+de", "person",
+     "sintáctico: {NAME} hijo/a de", "high"),
+    (r"(?:hijo|hija|esposa|esposo|hermano|hermana|madre|padre)\s+de\s+{NAME}", "person",
+     "sintáctico: [parentesco] de {NAME}", "high"),
+    (r"{NAME}\s+(?:dijo|habl[oó]|respondi[oó]|clam[oó]|or[oó]"
+     r"|fue|vino|se\s+levant[oó]|muri[oó]|mat[oó]|pele[oó]"
+     r"|edific[oó]|ofreci[oó]|profetiz[oó]|mand[oó]|bendijo|maldijo)", "person",
+     "sintáctico: {NAME} [verbo de acción] (agente)", "medium"),
+    # Alternate-name / alias patterns
+    (r"(?:llamado|nombrado|conocido\s+como|que\s+(?:es|era))\s+{NAME}", "person",
+     "sintáctico: llamado/conocido como {NAME} (alias)", "high"),
+    (r"(?:tambi[eé]n\s+llamado|cuyo\s+nombre\s+(?:es|era))\s+{NAME}", "person",
+     "sintáctico: también llamado {NAME} (alias)", "high"),
+]
+
+
+def _try_generative(
+    entity_name: str,
+    window: str,
+    source_file: str,
+) -> tuple[str, str, str, str | None] | None:
+    """Apply generative syntactic patterns to resolve entity type.
+
+    Returns 4-tuple (resolved_name, confidence, evidence, entity_type_resolved)
+    or None if no pattern matches.
+    """
+    name_lower = entity_name.lower()
+    # Escape for regex safety
+    name_re = re.escape(name_lower)
+
+    # Detect language from source path
+    src = _src(source_file)
+    is_es = "/es/" in src
+
+    patterns = _GENERATIVE_PATTERNS_ES if is_es else _GENERATIVE_PATTERNS_EN
+
+    best: tuple[str, str, str, str | None] | None = None
+    best_conf_rank = -1
+    conf_rank = {"high": 3, "medium": 2, "low": 1}
+
+    for pattern_template, resolved_type, evidence_template, confidence in patterns:
+        pattern = pattern_template.replace("{NAME}", name_re)
+        if re.search(pattern, window):
+            rank = conf_rank.get(confidence, 0)
+            if rank > best_conf_rank:
+                evidence = evidence_template.replace("{NAME}", entity_name)
+                resolved_name = f"{entity_name} ({resolved_type})"
+                best = (resolved_name, confidence, evidence, resolved_type)
+                best_conf_rank = rank
+                if rank == 3:
+                    break  # high confidence, no need to keep looking
+
+    return best
+
+
+# ---------------------------------------------------------------------------
 # Registry: maps lowered entity names to their rule function
 # ---------------------------------------------------------------------------
 
@@ -1706,7 +1853,11 @@ class Disambiguator:
     ambiguous_names: frozenset[str] = _AMBIGUOUS_CANONICAL
 
     def is_ambiguous(self, entity_name: str) -> bool:
-        """Return True if *entity_name* is one we have disambiguation rules for."""
+        """Return True if *entity_name* has specific disambiguation rules.
+
+        Note: even names returning False here may be resolved by the
+        generative fallback patterns in resolve().
+        """
         return entity_name.lower() in self._rules
 
     def resolve(
@@ -1738,12 +1889,16 @@ class Disambiguator:
         signal to resolve it confidently.
         """
         key = entity_name.lower()
-        rule_fn = self._rules.get(key)
-        if rule_fn is None:
-            return None
-
         window = _window_around(text, entity_name)
-        result = rule_fn(window, source_file)
+
+        # 1. Try name-specific rules first (highest priority)
+        rule_fn = self._rules.get(key)
+        result = rule_fn(window, source_file) if rule_fn else None
+
+        # 2. Fallback: generative syntactic patterns (any entity name)
+        if result is None:
+            result = _try_generative(entity_name, window, source_file)
+
         if result is None:
             return None
 
