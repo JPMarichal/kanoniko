@@ -72,33 +72,33 @@
 ## Known Defects
 
 ### DEF-1: Section headings not captured (FR-3 partial)
-**Status:** PARTIALLY RESOLVED (steps 1–2 done; steps 3–4 pending re-scrape)
-**Severity:** Medium — blocks accurate authorship extraction in P6
+**Status:** ✅ RESOLVED (2026-04-03)
 
-FR-3 requires capturing "Section headings: In-chapter subheadings between verses." This was never implemented in `scrape_scriptures.py`. The function `extract_metadata()` only extracts `study-summary`, `<h1>`, `<meta>`, and footnotes — it never looks for section heading elements.
+**Original concern:** Superscriptions and pericope headings missing from `.meta.json`.
 
-**Impact:**
-- **Psalms:** Superscriptions with author attributions are missing (e.g., "Salmo de Asaf" for Psalms 73-83, "De los hijos de Coré" for Psalms 42-49, "Masquil de Hemán ezraíta" for Psalm 88). Only 82 of 150 psalms have author info derivable from the `summary` field; the rest require superscriptions that were not scraped.
-- **Other books:** Pericope headings in the NT and other section markers may also be absent.
-- **P6 dependency:** The `AUTHORED` relation extraction planned in P6-FR-1/FR-8 cannot be fully automated without this data.
+**Investigation findings (2026-04-03):**
 
-**HTML selectors identified:**
-- `<p id="intro{N}">` (e.g. `id="intro1"`): chapter-level introductory text / Psalm superscriptions. Appears between the chapter number and verse 1. Confirmed in reference scraper output for Psalm 73.
-- `<h2>` within `<article>`: in-chapter section headings (pericope headings) that appear between verses. Confirmed by reference scraper type mapping (`h2` → `section-title`).
+The API v3 only provides `<p class="intro">` elements — NOT `<h2>` pericope headings
+(those are rendered client-side, not in the API body). All available `intro` elements
+are already captured in the corpus:
 
-Both element types are scoped to `soup.find("article")` to exclude navigation elements outside the article body.
+| Volume | Intros on site | In corpus | Gap |
+|--------|---------------|-----------|-----|
+| Psalms | 116/150 | 116/150 | 0 |
+| Book of Mormon | 22/246 | 22/246 | 0 |
+| D&C | 1/143 | 1/143 | 0 |
+| NT | 0/261 | — | N/A |
+| OT (non-Psalms) | 0/781 | — | N/A |
+| PGP | 0/21 | — | N/A |
 
-**Fix status:**
-1. ✅ HTML selectors identified (see above)
-2. ✅ Added extraction to `extract_metadata()` — stored as `"section_headings"` (list of strings, document order) in `.meta.json`
-3. ⏳ Re-scrape all books in both languages (EN + ES) to populate `section_headings` in corpus `.meta.json` files
-4. ⏳ Update success criteria #3 to include section headings
+**Re pericope headings (NT sub-headings like "The Sermon on the Mount"):**
+These do NOT exist in the API v3 response body. They are injected by the
+client-side rendering layer. Capturing them would require browser scraping,
+not API calls — a fundamentally different approach, out of scope for P2.
 
-**Fix required:**
-1. ~~Identify the HTML selector for section headings / superscriptions on `churchofjesuschrist.org`~~
-2. ~~Add extraction to `extract_metadata()` — store as `"section_headings"` or `"superscription"` in `.meta.json`~~
-3. Re-scrape affected chapters (all books in both languages)
-4. Update success criteria #3 to include section headings
+**P6 impact:** Psalm superscriptions (116) are available for AUTHORED extraction.
+The 34 Psalms without superscriptions genuinely lack author attribution in the
+biblical text itself — this is not a scraping gap.
 
 ## Success Criteria
 

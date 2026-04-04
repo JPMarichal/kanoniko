@@ -39,13 +39,15 @@ This step prevents superficial authority assignment based on titles alone. A doc
 - Cross-reference with `docs/authority-model.md` for the doctrinal authority scale.
 - Proclamations: authority=90, rigor=95, official=True, context="official-declaration".
 
-## 4. KG relationship analysis + pre-seed (BEFORE indexing)
+## 4. KG relationship analysis + pre-seed (BEFORE downloading — BLOCKING)
+
+**This step BLOCKS step 5 (download/format).** The pre-seed must be complete before any content enters the corpus. Rationale: once files are downloaded and committed, the temptation to "just index" is strong. The KG pre-seed is preparation, not a post-download cleanup.
 
 - Search existing KG entities that relate to the new document (`kg_find`).
 - Check how many existing corpus documents **cite** the new document (`grep` the corpus for mentions).
 - The new document may become a **hub node** — high citation count means many inbound `REFERENCES`/`CITES` edges will be generated automatically.
 - Document the expected relationship types: authorship, doctrinal (TEACHES), intertextuality (REFERENCES), temporal (DATED_TO), geographic (LOCATED_IN).
-- **Pre-seed known relationships into Neo4j** via Cypher BEFORE indexing. Write a `.cypher` file in `scripts/` with MERGE statements for all identified relationships (confidence: "curated", source: "curated_seed"). Execute against Neo4j HTTP API.
+- **Pre-seed known relationships into Neo4j** via Cypher BEFORE downloading. Write a `.cypher` file in `scripts/` with MERGE statements for all identified relationships (confidence: "curated", source: "curated_seed"). Execute against Neo4j HTTP API.
 - Phase 3 (NER/KG extraction) then only discovers additional relationships from text — the long tail. Never rely on expensive automated discovery for what preparation already determined.
 
 ## 5. File format
