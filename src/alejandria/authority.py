@@ -87,6 +87,16 @@ _SOURCE_DEFAULTS: dict[str, AuthorityMeta] = {
         official=False, current=False, context="book-unofficial",
         audience="adult",
     ),
+    "reference": AuthorityMeta(
+        # External biblical dictionaries and encyclopedias (Easton, Smith,
+        # Hitchcock, ISBE, Hastings). Public domain, Protestant, 19th-early
+        # 20th century. Useful for historical/geographical/archaeological
+        # context, NOT for LDS doctrine. Must ALWAYS rank below official
+        # LDS study aids (Bible Dictionary=50, GEE=57, TG=55).
+        authority=15, rigor=65, importance="interesante",
+        official=False, current=False, context="external-reference",
+        audience="adult",
+    ),
 }
 
 _FALLBACK = AuthorityMeta(

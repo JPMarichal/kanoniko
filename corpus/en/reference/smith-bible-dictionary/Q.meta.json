@@ -1,0 +1,48 @@
+{
+  "title": "Smith's Bible Dictionary — Q",
+  "author": "William Smith",
+  "year": 1884,
+  "language": "en",
+  "source": "CCEL (Christian Classics Ethereal Library)",
+  "license": "Public Domain",
+  "category": "reference",
+  "subcategory": "bible-dictionary",
+  "description": "Comprehensive Bible dictionary covering persons, places, antiquities, natural history, and geography.",
+  "entry_count": 7,
+  "entries": [
+    "Quails",
+    "Quartus",
+    "Quaternion",
+    "Queen",
+    "Queen Of Heaven",
+    "Quicksands, The",
+    "Quiver"
+  ],
+  "scripture_references": [
+    "1 Kings 15:13",
+    "1 Kings 2:19",
+    "2 Chronicles 16:16",
+    "2 Kings 10:13",
+    "2Kin 24:12",
+    "Acts 12:4",
+    "Acts 27:17",
+    "Exodus 16:13",
+    "Genesis 27:3",
+    "Jere 29:2",
+    "Jeremiah 13:18",
+    "Jeremiah 45:17",
+    "Jeremiah 45:18",
+    "Jeremiah 45:19",
+    "Jeremiah 45:25",
+    "Jeremiah 7:18",
+    "Numbers 11:31",
+    "Numbers 11:32",
+    "Romans 16:23"
+  ],
+  "authority": {
+    "doctrinal": 15,
+    "rigor": 70,
+    "official": false,
+    "notes": "19th-century Protestant Bible dictionary; useful for historical/geographical context, not LDS doctrine"
+  }
+}

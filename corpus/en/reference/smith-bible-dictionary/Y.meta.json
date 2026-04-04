@@ -1,0 +1,44 @@
+{
+  "title": "Smith's Bible Dictionary — Y",
+  "author": "William Smith",
+  "year": 1884,
+  "language": "en",
+  "source": "CCEL (Christian Classics Ethereal Library)",
+  "license": "Public Domain",
+  "category": "reference",
+  "subcategory": "bible-dictionary",
+  "description": "Comprehensive Bible dictionary covering persons, places, antiquities, natural history, and geography.",
+  "entry_count": 5,
+  "entries": [
+    "Yarn",
+    "Year",
+    "Year Of Jubilee",
+    "Year, Sabbatical",
+    "Yoke"
+  ],
+  "scripture_references": [
+    "1 Kings 10:28",
+    "1 Kings 12:4",
+    "1 Kings 12:9-11",
+    "1 Kings 19:19",
+    "1 Kings 19:21",
+    "1 Samuel 11:7",
+    "1 Samuel 14:14",
+    "2 Chronicles 1:16",
+    "2 Kings 5:17",
+    "Isaiah 21:7",
+    "Isaiah 5:10",
+    "Isaiah 9:4",
+    "Jeremiah 28:13",
+    "Jeremiah 5:5",
+    "Judges 19:10",
+    "Psalms 74:17",
+    "Zechariah 14:18"
+  ],
+  "authority": {
+    "doctrinal": 15,
+    "rigor": 70,
+    "official": false,
+    "notes": "19th-century Protestant Bible dictionary; useful for historical/geographical context, not LDS doctrine"
+  }
+}

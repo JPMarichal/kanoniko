@@ -1,0 +1,21 @@
+{
+  "title": "Hitchcock's Bible Names Dictionary - Q",
+  "author": "Roswell D. Hitchcock",
+  "year": 1869,
+  "language": "en",
+  "source": "CCEL (Christian Classics Ethereal Library)",
+  "license": "Public Domain",
+  "category": "reference",
+  "subcategory": "bible-names",
+  "description": "2,500+ Bible proper names with etymological meanings from Hebrew/Greek. Compact format ideal for KG entity enrichment.",
+  "entry_count": 1,
+  "entries": [
+    "Quartus"
+  ],
+  "authority": {
+    "doctrinal": 10,
+    "rigor": 60,
+    "official": false,
+    "notes": "19th-century etymological dictionary; meanings are traditional, some debated by modern scholarship"
+  }
+}
