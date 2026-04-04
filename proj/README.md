@@ -6,12 +6,12 @@ This directory contains the project portfolio for Alejandria's next generation o
 
 | # | Project | Priority | Status | Dependencies |
 |---|---------|----------|--------|--------------|
-| P1 | [Scripture Structure: Long Chain](P1-scripture-structure/) | Highest | Planning | None |
-| P2 | [Scripture Refresh Pipeline](P2-scripture-refresh/) | High | Planning | None |
-| P3 | [ETL Templates](P3-etl-templates/) | High | Planning | None |
-| P4 | [Corpus Expansion](P4-corpus-expansion/) | High | Planning | P3 |
+| P1 | [Scripture Structure: Long Chain](P1-scripture-structure/) | Highest | Complete | None |
+| P2 | [Scripture Refresh Pipeline](P2-scripture-refresh/) | High | Complete | None |
+| P3 | [ETL Templates](P3-etl-templates/) | High | Deferred | None |
+| P4 | [Corpus Expansion](P4-corpus-expansion/) | High | Complete | None |
 | P5 | [Chat Client UI](P5-chat-client-ui/) | Medium | Planning | None |
-| P6 | [Advanced Relations](P6-advanced-relations/) | Medium | Planning | P1 |
+| P6 | [Advanced Relations](P6-advanced-relations/) | Medium | Planning | P1 ✅ |
 | P7 | [Deep Disambiguation](P7-deep-disambiguation/) | Medium | Planning | None |
 | P8 | [Synthesis Engine](P8-synthesis-engine/) | Lower | Planning | P5, P6 |
 | P9 | [Fine-Tuning](P9-fine-tuning/) | Lower | Planning | None |
