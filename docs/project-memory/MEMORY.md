@@ -45,6 +45,7 @@
 - [feedback_tuteo.md](feedback_tuteo.md) — Hablar de tú al lector en artículos, no de usted
 - [feedback_no_secretismo.md](feedback_no_secretismo.md) — Evitar "secretismo"; usar "acceso a la información" o "transparencia"
 - [feedback_preseed_before_discovery.md](feedback_preseed_before_discovery.md) — Pre-seed known data (paths, KG relations) before expensive automated discovery; never let the system re-derive what preparation already determined
+- [feedback_step2_blocking_gate.md](feedback_step2_blocking_gate.md) — HARD GATE: write Fase 0 analysis in backlog BEFORE any ManualConfig, authority, or download script work
 - [feedback_avoid_ai_patterns.md](feedback_avoid_ai_patterns.md) — Patrones léxicos, estructurales y de tono que delatan texto IA; checklist de revisión
 - [reference_doctrinal_spine.md](reference_doctrinal_spine.md) — Columna doctrinal serie Revolución Silenciosa: escrituras ancla, fuentes proféticas, redistribución tema mujeres
 - [reference_seo_longtail_interlinking.md](reference_seo_longtail_interlinking.md) — Long-tail SEO, modelo pillar-cluster, interlinking contextual, anchor text, checklist pre-publicación WordPress
@@ -56,3 +57,4 @@
 - [feedback_bibliography_format.md](feedback_bibliography_format.md) — Bibliografía como "Fuentes citadas" con bullets sin numerar; los [N] desaparecen si FCD va inline
 - [feedback_humor_reverente.md](feedback_humor_reverente.md) — Humor sutil y reverente para accesibilidad; cuarta pared OK; aplicar en futuros artículos
 - [reference_womeninthescriptures.md](reference_womeninthescriptures.md) — womeninthescriptures.com: Heather Farrell, 876 posts, 75+ woman profiles, authority 20, corpus path and download patterns
+- [feedback_corpus_inventory_question.md](feedback_corpus_inventory_question.md) — "Cuántas obras tenemos" = obras únicas (~316 EN, ~530 bilingüe), no archivos .txt (~29K); contar por libro/publicación/colección, no por capítulo
