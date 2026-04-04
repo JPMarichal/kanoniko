@@ -1541,6 +1541,11 @@ class IngestionPipeline:
         logger.info("Profile build: querying entity mentions from Neo4j...")
         all_mentions = self._neo4j.get_all_entity_mentions()
 
+        # 1b. Fetch disambiguated counts (P7)
+        disamb_counts = self._neo4j.get_disambiguated_counts()
+        if disamb_counts:
+            logger.info("Profile build: %d entities have disambiguated counts", len(disamb_counts))
+
         if entity_types:
             type_set = set(entity_types)
             all_mentions = [m for m in all_mentions if m["type"] in type_set]
@@ -1638,6 +1643,9 @@ class IngestionPipeline:
                     for vol in exhausted:
                         del vol_iters[vol]
 
+                # Attach disambiguated counts if available (P7)
+                dc = disamb_counts.get((name, entity_type), {})
+
                 profile = EntityProfile(
                     entity_name=name,
                     entity_type=entity_type,
@@ -1646,6 +1654,7 @@ class IngestionPipeline:
                     books=books,
                     key_passages=key_passages,
                     aliases=[n for n in unique_names[1:] if n],  # all names except canonical
+                    disambiguated_counts=dc,
                     status="metadata",
                 )
                 profiles.append(profile)

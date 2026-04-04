@@ -527,6 +527,28 @@ class Neo4jClient:
             )
             return [dict(record) for record in result]
 
+    def get_disambiguated_counts(self) -> dict[tuple[str, str], dict[str, int]]:
+        """Get per-entity disambiguated mention counts from MENTIONED_IN edges.
+
+        Returns dict keyed by (entity_name, entity_type) -> {resolved_name: count}.
+        Only includes entities that have at least one resolved_name on their edges.
+        """
+        with self._driver.session() as session:
+            result = session.run(
+                "MATCH (e:Entity)-[r:MENTIONED_IN]->(d:Document) "
+                "WHERE r.resolved_name IS NOT NULL "
+                "RETURN e.name AS name, e.type AS type, "
+                "       r.resolved_name AS resolved, count(d) AS cnt "
+                "ORDER BY name, cnt DESC"
+            )
+            counts: dict[tuple[str, str], dict[str, int]] = {}
+            for rec in result:
+                key = (rec["name"], rec["type"])
+                if key not in counts:
+                    counts[key] = {}
+                counts[key][rec["resolved"]] = rec["cnt"]
+            return counts
+
     def update_entity_profile(
         self, name: str, entity_type: str,
         summary: str | None = None,
