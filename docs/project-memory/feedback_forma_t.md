@@ -1,10 +1,10 @@
 ---
 name: Forma T
-description: Report format for scripture study - title, objective, and a concept/reference table ordered didactically
+description: Format for documenting relationships in scripture - title, objective, and a concept/reference table ordered didactically
 type: feedback
 ---
 
-La "Forma T" es un formato de reporte para estudio de escrituras. Estructura:
+La "Forma T" es un formato para documentar relaciones en las escrituras. Estructura:
 
 1. **Título** — tema del estudio
 2. **Objetivo** — qué debe aprender o comprender el estudiante
@@ -28,3 +28,5 @@ Reglas clave:
 - **Acotada en tema**: el tema debe ser lo más específico posible para que la exhaustividad sea manejable.
 - **No granular**: usar rangos de versículos (e.g., Alma 42:2-6), no verso a verso. Agrupar cuando el pasaje desarrolla una sola idea.
 - **Concepto > cita**: cada fila captura una idea, no un versículo. Varios versículos pueden respaldar una sola idea como rango.
+- **Brevedad**: máximo ~15 palabras por concepto; la columna debe escanearse de un vistazo.
+- **Responsabilidad simple**: una Forma T = un tema acotado. Si el tema se bifurca, subdividir en varias Formas T.
