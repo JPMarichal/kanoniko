@@ -1,0 +1,25 @@
+{
+  "title": "THE HOLY GHOST",
+  "author": "James E. Talmage",
+  "book": "Articles Of Faith",
+  "chapter": 8,
+  "category": "books",
+  "subcategory": "articles-of-faith",
+  "tags": [
+    "doctrine",
+    "apostle-authored",
+    "lectures"
+  ],
+  "authority": 45,
+  "lang": "eng",
+  "source_url": "https://www.gutenberg.org/ebooks/42238",
+  "source": "Project Gutenberg",
+  "gutenberg_id": 42238,
+  "note": "Originally delivered as lectures at LDS University, 1893. Published 1899.",
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": false,
+  "context": "book-official",
+  "audience": "adult"
+}

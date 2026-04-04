@@ -46,7 +46,7 @@ BOOK_CONFIGS: dict[int, dict] = {
     42238: {
         "slug": "articles-of-faith",
         "author": "James E. Talmage",
-        "category": "manuals",
+        "category": "books",
         "tags": ["doctrine", "apostle-authored", "lectures"],
         "authority": 45,
         "chapter_pattern": r"^(?:LECTURE|CHAPTER)\s+([IVXLC\d]+)\.?\s*$",
@@ -58,7 +58,7 @@ BOOK_CONFIGS: dict[int, dict] = {
     35514: {
         "slug": "great-apostasy",
         "author": "James E. Talmage",
-        "category": "manuals",
+        "category": "books",
         "tags": ["doctrine", "apostle-authored", "church-history", "apostasy"],
         "authority": 45,
         "chapter_pattern": r"^CHAPTER\s+([IVXLC\d]+)\.?\s*$",
@@ -70,7 +70,7 @@ BOOK_CONFIGS: dict[int, dict] = {
     45149: {
         "slug": "house-of-the-lord",
         "author": "James E. Talmage",
-        "category": "manuals",
+        "category": "books",
         "tags": ["doctrine", "apostle-authored", "temples"],
         "authority": 45,
         "chapter_pattern": r"^CHAPTER\s+([IVXLC\d]+)\.?\s*$",
@@ -82,7 +82,7 @@ BOOK_CONFIGS: dict[int, dict] = {
     47182: {
         "slug": "vitality-of-mormonism",
         "author": "James E. Talmage",
-        "category": "manuals",
+        "category": "books",
         "tags": ["doctrine", "apostle-authored", "essays"],
         "authority": 40,
         "chapter_pattern": r"^--\s*(\d+)\s*--\s*$",
@@ -93,7 +93,7 @@ BOOK_CONFIGS: dict[int, dict] = {
     74447: {
         "slug": "discourses-brigham-young",
         "author": "Brigham Young",
-        "category": "manuals",
+        "category": "books",
         "tags": ["doctrine", "prophet-teachings", "journal-of-discourses"],
         "authority": 35,
         "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\s*$",

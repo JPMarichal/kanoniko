@@ -17,7 +17,8 @@ as a common base (HTTP session, API v3 access, HTML parsing, `write_corpus_file`
 | `download_conference.py` | General conference talks | API v3 | `corpus/{lang}/general-conference/` |
 | `download_manual.py` | All manuals (CFM, Seminary, ToP, Gospel Topics, Saints…) | API v3 | `corpus/{lang}/manuals/` |
 | `download_music.py` | Hymns, children's songbook, youth music, hymn-helps | API v3 + lyrics extractor | `corpus/{lang}/music/` |
-| `download_jesus_the_christ.py` | *Jesus the Christ* (Talmage) | API v3 | `corpus/{lang}/manuals/jesus-the-christ/` |
+| `download_jesus_the_christ.py` | *Jesus the Christ* (Talmage) | API v3 | `corpus/{lang}/books/jesus-the-christ/` |
+| `download_gutenberg.py` | Classic LDS books (Talmage, Discourses of BY) | Project Gutenberg | `corpus/en/books/` |
 | `download_easter_study_plan.py` | Easter study plan | API v3 | `corpus/{lang}/manuals/easter-plan/` |
 | `download_christmas_study_plan.py` | Christmas study plan | API v3 | `corpus/{lang}/manuals/christmas-study-plan-{year}/` |
 | `download_pme.py` | Missionary Prep Manual | API v3 | `corpus/{lang}/manuals/missionary-preparation/` |
