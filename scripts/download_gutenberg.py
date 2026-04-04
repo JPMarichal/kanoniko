@@ -99,7 +99,7 @@ BOOK_CONFIGS: dict[int, dict] = {
         "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\s*$",
         "title_offset": 2,
         "has_toc": True,
-        "note": "Compiled by John A. Widtsoe from Journal of Discourses (1851-1877). "
+        "note": "Compiled by John A. Widtsoe (1941) from Journal of Discourses (1854-1886). "
                 "Historical compilation, not official Church publication.",
     },
 }

@@ -40,12 +40,12 @@ SET r5 += {confidence: "curated", source: "curated_seed", role: "author", source
 MERGE (by:Entity {name: "Brigham Young", type: "person"})
 MERGE (dby:Entity {name: "Discourses of Brigham Young", type: "work"})
 MERGE (by)-[r6:AUTHORED]->(dby)
-SET r6 += {confidence: "curated", source: "curated_seed", role: "speaker", source_ref: "Sermons from Journal of Discourses (1851-1877)"};
+SET r6 += {confidence: "curated", source: "curated_seed", role: "speaker", source_ref: "Sermons from Journal of Discourses (1854-1886)"};
 
 MERGE (w:Entity {name: "John A. Widtsoe", type: "person"})
 MERGE (dby:Entity {name: "Discourses of Brigham Young", type: "work"})
 MERGE (w)-[r7:AUTHORED]->(dby)
-SET r7 += {confidence: "curated", source: "curated_seed", role: "compiler", source_ref: "Compiled 1925, thematic arrangement from JD"};
+SET r7 += {confidence: "curated", source: "curated_seed", role: "compiler", source_ref: "Published 1941, thematic arrangement from JD"};
 
 // ═══════════════════════════════════════════════════════════════════════
 // CALLING / ROLE AT TIME OF WRITING
