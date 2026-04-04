@@ -65,12 +65,12 @@ Items that don't warrant a full project but represent significant curation/enric
 ### WI-1: Biographical KG Curation (All Scripture Characters)
 
 **Priority:** High — directly enables Forma T generation from KG data
-**Status:** In Progress
+**Status:** Tier 1+2 Complete (Tier 3 deferred to LLM extraction)
 **Parent:** P6 Advanced Relations (phases 8-14 enrichment)
 
 **Goal:** Curate biographical relations in `relations.json` for all major scripture characters across every volume (OT, NT, BofM, D&C, PGP) so the KG can serve as the primary structured input for Formas T and entity profiles.
 
-**Current gap:** 776 curated relations exist but biographical coverage is thin. BORN_IN and DIED_IN types have zero entries. Most characters have ≤5 biographical relations. Only Jesus Christ (7), Paul (7), and Joseph Smith (5) have meaningful biographical data.
+**Completed:** 2,033 curated relations across 65 types for 355 unique persons. BORN_IN (54), DIED_IN (48), LIVED_IN (128) all populated. 79 characters with ≥8 relations, 173 with ≥5, 264 with ≥3.
 
 **Scope (Tier 1 — ~58 characters):**
 - **OT:** Adam, Eve, Noah, Enoch, Abraham, Sarah, Isaac, Rebecca, Jacob, Rachel, Joseph (son of Jacob), Moses, Aaron, Joshua, Samuel, David, Solomon, Elijah, Elisha, Isaiah, Jeremiah, Daniel, Melchizedek, Job, Ruth, Esther
