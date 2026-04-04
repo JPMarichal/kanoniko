@@ -8,7 +8,7 @@ Full citation norms are formalized in `docs/citation-norms.md`. Key points:
 
 - **Scriptures:** `Book Chapter:Verse` — bilingual (EN/ES book names, D&C/DyC)
 - **FCD format** for displayed blocks: no verse numbers, one verse per line, reference at end, blockquote
-- **Study aids:** `TG Entry` (EN), `GEE Entrada` (ES), `BD Entry` (EN only). No quotes/commas/pages.
+- **Study aids:** `TG Topic` (EN), `GEE Tópico` (ES), `BD Topic` (EN only). **Siempre incluir el tópico** (e.g., `GEE Arrepentimiento`, `GEE Jacobo hijo de Zebedeo`, `TG Faith`). Nunca citar solo "GEE" sin tópico. No quotes/commas/pages.
 - **JST/TJS:** Cited as scripture refs with comma: `JST, Genesis 14:25`
 - **Introductory materials:** Full name, no abbreviation
 - **Conference talks:** `Author, "Title," Session Year`
