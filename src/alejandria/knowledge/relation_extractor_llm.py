@@ -170,15 +170,28 @@ class ExtractionStats:
     input_tokens: int = 0
     output_tokens: int = 0
     elapsed_seconds: float = 0.0
+    cost_usd: float = 0.0
 
 
 class LLMRelationExtractor:
     """Extract typed relations from passages using LLM."""
 
-    def __init__(self, tier: str = "fast") -> None:
+    def __init__(self, tier: str = "fast", budget_usd: float = 0.0) -> None:
         self._tier = Tier(tier) if tier in ("fast", "balanced", "quality") else Tier.FAST
+        self._budget_usd = budget_usd  # 0 = unlimited
         self._total_input_tokens = 0
         self._total_output_tokens = 0
+        self._model_def: Any = None  # Cache for cost tracking
+
+    @property
+    def spent_usd(self) -> float:
+        """Current accumulated cost in USD."""
+        if self._model_def is None:
+            return 0.0
+        return (
+            self._total_input_tokens / 1_000_000 * self._model_def.cost_input
+            + self._total_output_tokens / 1_000_000 * self._model_def.cost_output
+        )
 
     def extract_from_passage(
         self, text: str, reference: str, entities: list[dict],
@@ -195,10 +208,16 @@ class LLMRelationExtractor:
         if not entities or len(entities) < 2:
             return []  # Need at least 2 entities for a relation
 
+        # Budget check before making the call
+        if self._budget_usd > 0 and self.spent_usd >= self._budget_usd:
+            logger.warning("Budget exhausted ($%.2f / $%.2f), skipping", self.spent_usd, self._budget_usd)
+            return []
+
         model = select_model(self._tier)
         if model is None:
             logger.warning("No LLM model available for relation extraction")
             return []
+        self._model_def = model
 
         # Format entities for prompt (limit to 30 most important to avoid huge prompts)
         entity_lines = []
@@ -348,11 +367,19 @@ class LLMRelationExtractor:
                 logger.exception("Error processing %s", batch.reference)
                 stats.errors += 1
 
+            # Budget gate — stop early if budget exhausted
+            if self._budget_usd > 0 and self.spent_usd >= self._budget_usd:
+                logger.warning(
+                    "Budget cap reached ($%.2f / $%.2f) after %d passages",
+                    self.spent_usd, self._budget_usd, i + 1,
+                )
+                break
+
             if (i + 1) % 20 == 0:
                 logger.info(
-                    "LLM extraction: %d/%d passages, %d relations, %d tokens in/out",
+                    "LLM extraction: %d/%d passages, %d relations, $%.2f spent",
                     i + 1, len(batches), stats.relations_extracted,
-                    self._total_input_tokens + self._total_output_tokens,
+                    self.spent_usd,
                 )
 
         # Load into Neo4j if not dry_run — batch via UNWIND for performance
@@ -383,13 +410,15 @@ class LLMRelationExtractor:
         stats.output_tokens = self._total_output_tokens
         stats.elapsed_seconds = round(time.time() - start, 1)
 
+        stats.cost_usd = round(self.spent_usd, 4)
+
         logger.info(
             "LLM extraction complete: %d passages, %d relations (%d loaded), "
-            "%d duplicates, %d errors, %d/%d tokens in %.1fs",
+            "%d duplicates, %d errors, %d/%d tokens, $%.2f in %.1fs",
             stats.passages_processed, stats.relations_extracted,
             stats.relations_loaded, stats.duplicates_skipped,
             stats.errors, stats.input_tokens, stats.output_tokens,
-            stats.elapsed_seconds,
+            stats.cost_usd, stats.elapsed_seconds,
         )
 
         return stats, all_relations
