@@ -194,11 +194,12 @@ class BuildProfilesResponse(BaseModel):
 # --- LLM Relation Extraction ---
 
 class LLMExtractRelationsRequest(BaseModel):
-    max_passages: int = Field(50, ge=1, le=500, description="Max passages to process")
+    max_passages: int = Field(50, ge=1, le=50000, description="Max passages to process")
     min_entities: int = Field(3, ge=2, description="Min entities per passage")
     tier: str = Field("fast", description="LLM tier: fast, balanced, quality")
     volumes: list[str] | None = Field(None, description="Filter to volumes (ot, nt, bom, dc, pgp)")
     dry_run: bool = Field(False, description="Extract but don't load to Neo4j")
+    budget_usd: float = Field(0.0, ge=0, description="Budget cap in USD (0=unlimited)")
 
 
 class LLMExtractRelationsResponse(BaseModel):
@@ -210,6 +211,7 @@ class LLMExtractRelationsResponse(BaseModel):
     input_tokens: int
     output_tokens: int
     elapsed_seconds: float
+    cost_usd: float = 0.0
     relations_by_type: dict[str, int] | None = None
 
 

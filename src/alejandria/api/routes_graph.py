@@ -282,9 +282,10 @@ def extract_relations_llm(
                 passages_processed=0, relations_extracted=0,
                 relations_loaded=0, duplicates_skipped=0, errors=0,
                 input_tokens=0, output_tokens=0, elapsed_seconds=0.0,
+                cost_usd=0.0,
             )
 
-        extractor = LLMRelationExtractor(tier=req.tier)
+        extractor = LLMRelationExtractor(tier=req.tier, budget_usd=req.budget_usd)
         stats, relations = extractor.extract_batch(
             batches=batches,
             neo4j_client=None if req.dry_run else neo4j,
@@ -304,6 +305,7 @@ def extract_relations_llm(
             input_tokens=stats.input_tokens,
             output_tokens=stats.output_tokens,
             elapsed_seconds=stats.elapsed_seconds,
+            cost_usd=stats.cost_usd,
             relations_by_type=by_type if by_type else None,
         )
     except Exception as e:
