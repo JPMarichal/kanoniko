@@ -69,5 +69,11 @@
     "12:52",
     "12:54",
     "8:136"
-  ]
+  ],
+  "rigor": 55,
+  "importance": "interesante",
+  "official": false,
+  "current": false,
+  "context": "book-unofficial",
+  "audience": "adult"
 }

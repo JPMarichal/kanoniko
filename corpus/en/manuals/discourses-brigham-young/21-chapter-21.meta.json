@@ -57,5 +57,11 @@
     "7:138",
     "2:95",
     "6:41"
-  ]
+  ],
+  "rigor": 55,
+  "importance": "interesante",
+  "official": false,
+  "current": false,
+  "context": "book-unofficial",
+  "audience": "adult"
 }

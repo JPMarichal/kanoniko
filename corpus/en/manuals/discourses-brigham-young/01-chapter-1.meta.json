@@ -114,5 +114,11 @@
     "5:52",
     "9:168",
     "12:100"
-  ]
+  ],
+  "rigor": 55,
+  "importance": "interesante",
+  "official": false,
+  "current": false,
+  "context": "book-unofficial",
+  "audience": "adult"
 }

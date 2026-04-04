@@ -48,5 +48,11 @@
     "1:279",
     "14:121",
     "2:173"
-  ]
+  ],
+  "rigor": 55,
+  "importance": "interesante",
+  "official": false,
+  "current": false,
+  "context": "book-unofficial",
+  "audience": "adult"
 }

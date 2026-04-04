@@ -10,10 +10,16 @@
     "apostle-authored",
     "temples"
   ],
-  "authority": 40,
+  "authority": 45,
   "lang": "eng",
   "source_url": "https://www.gutenberg.org/ebooks/45149",
   "source": "Project Gutenberg",
   "gutenberg_id": 45149,
-  "note": "Published 1912. Study of holy sanctuaries ancient and modern."
+  "note": "Published 1912. Study of holy sanctuaries ancient and modern.",
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": false,
+  "context": "book-official",
+  "audience": "adult"
 }
