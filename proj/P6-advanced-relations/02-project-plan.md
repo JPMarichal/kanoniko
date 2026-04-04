@@ -2,198 +2,206 @@
 
 ## Phases
 
-### Phase 1 — Relation Type Taxonomy (1-2 days)
+### Phase 1 — Relation Type Taxonomy ✅ Complete
 **Deliverables:**
-- Defined relation type hierarchy
-- Gazetteer-style data file with known relations (e.g., family trees)
-- Neo4j schema update for typed relations
+- ✅ 52 relation types defined across 12 semantic categories
+- ✅ `gazetteers/relations.json` with 634 curated relations (40 types populated)
+- ✅ Neo4j schema supports typed relations with confidence tiers
+- ✅ Pipeline integration: curated relations auto-loaded during `rebuild_kg` and `run`
+
+**Tasks (all complete):**
+1. ✅ Define relation types and their semantics — 52 types in 12 categories (family, governance, prophetic, geographic, temporal, authorship, conflict, spiritual, intertextuality, typology, covenants, dispensational)
+2. ✅ Create `gazetteers/relations.json` with curated relations — 634 relations including IS_SAME_AS, FOREORDAINED_AS, MARTYRED_AT, EARLIER_VERSION_OF, PRECEDED_BY
+3. ✅ Update `Neo4jClient.merge_relation()` to support typed relations — `load_curated_relations()` method + batch merge
+4. ✅ Migration path for existing `RELATED_TO` edges — `migrate_untyped_relations()` reclassified ~993K edges to `co_occurrence` confidence
+5. ✅ Pipeline integration — `load_curated_relations` called automatically in both `rebuild_kg()` and `run()` (P6 gap fix)
+6. ✅ REST endpoint `POST /index/load-curated-relations?migrate=true` for on-demand loading
+
+**Remaining 12 empty types** (CITES, DESCRIBED_IN, PARALLEL_ACCOUNT_OF, OCCURRED_DURING, AUTHORIZED, REVOKED, DISAVOWED, CANONIZED_AS, COVERS, DESIGNATED_AS, DESCRIBED_BY, ADDRESSED_BY) are intentionally deferred — they require automated extraction in Phases 2-3 or metadata enrichment from `.meta.json` files.
+
+### Phase 2 — Parallelism Encoding ✅ Complete (pipeline integration pending)
+**Deliverables:**
+- ✅ 36 parallel narratives across 3 layers (direct, editorial, thematic)
+- ✅ Neo4j: 36 Narrative nodes, 8,000 PARALLEL_TO relations loaded
+- ✅ Neo4j query method `get_parallel_passages()` with layer filtering
+- ✅ API endpoint `POST /search/graph/parallels`
+
+**Tasks (all complete):**
+1. ✅ Convert `cross_references.py` patterns to Neo4j — 36 narratives
+2. ✅ Link document nodes — PARALLEL_NARRATIVE, EDITORIAL_PARALLEL, THEMATIC_LINK
+3. ✅ API to query parallel passages
+4. ⬜ Refactor `load_parallels_neo4j.py` core to `src/` for auto-loading in `rebuild_kg()`
+
+### Phase 3 — LLM Relation Extraction ✅ Complete
+**Deliverables:**
+- ✅ LLM-powered relation extraction with structured prompts (78 valid types, confidence tiers)
+- ✅ Batch processing with tiered model selection, token tracking, dedup, 4-strategy JSON parsing
+- ✅ API endpoint `POST /search/graph/extract-relations` (dry_run, tier, volumes, min_entities)
+- ✅ CLI script `scripts/extract_relations_llm.py` with cost estimation and sample preview
+
+**Tasks (all complete):**
+1. ✅ LLM prompt design — system prompt with rules + user prompt template with entity list and JSON schema
+2. ✅ Batch extraction pipeline — `LLMRelationExtractor.extract_batch()` + `build_batches_from_index()` (entity-rich passage selection from FTS)
+3. ✅ Neo4j storage — `merge_relation()` with confidence, source, source_ref properties
+4. ✅ Validation and deduplication — key-based dedup, invalid type filtering, truncated response recovery
+
+**Note:** Neo4j writes now use `batch_merge_relations()` (UNWIND) for performance.
+
+### Phase 4 — NER Feedback Loop ✅ Complete
+**Deliverables:**
+- ✅ SQLite table `ner_candidates` with frequency tracking, status, sample files
+- ✅ API endpoints: `GET /search/graph/ner-candidates`, `POST .../promote`, `POST .../dismiss`
+- ✅ Promotion writes directly to `entities.json` gazetteer (closed loop)
+
+**Tasks (all complete):**
+1. ✅ Track NER-discovered entities with frequency counts — `ner_candidates.py` (208 lines)
+2. ✅ Surface candidates above threshold — API with frequency/type/status filters
+3. ✅ Promotion workflow — one-click promote to gazetteer + dismiss; dedup check on promotion
+
+### Phase 5 — Entity Attributes and Titles (~35% complete)
+**Deliverables:**
+- ✅ `HAS_TITLE` with 54 curated relations in `relations.json` (loaded to Neo4j)
+- ✅ `HAS_TITLE` in LLM `VALID_RELATION_TYPES` — extractable by F3 pipeline
+- ✅ Neighbor queries surface HAS_TITLE alongside other relation types
+- ⬜ `HAS_ROLE`, `CALLED_BY_NAME` types (not defined, no data)
+- ⬜ Dedicated `entity_attributes.json` seed file
+- ⬜ LLM prompt optimized for attribute extraction
 
 **Tasks:**
-1. Define relation types and their semantics
-2. Create `gazetteers/relations.json` with curated relations (patriarchal lineages, apostolic callings, etc.)
-3. Update `Neo4jClient.merge_relation()` to support typed relations
-4. Migration path for existing `RELATED_TO` edges
+1. ✅ HAS_TITLE defined with properties and 54 curated relations
+2. ⬜ Define `HAS_ROLE` and `CALLED_BY_NAME`; add to `VALID_RELATION_TYPES`
+3. ⬜ Create `gazetteers/entity_attributes.json` with roles (Paul→Apostle, Moses→Prophet, David→King)
+4. ⬜ Design dedicated LLM prompt for attribute extraction
+5. ⬜ Batch-extract attributes for top entities (by mention count)
+6. ✅ Neighbor queries already return HAS_TITLE alongside other types
 
-### Phase 2 — Parallelism Encoding (2-3 days)
+**Extraction sources for AUTHORED relations (from Phase 1):**
+- **DyC:** `summary` field in `.meta.json` — reliable, includes receiver and historical context
+- **Salmos:** superscriptions + curated seed file for gaps (Asaf 73-83, hijos de Coré 42-49, Hemán 88, Etán 89)
+- **Libro de Mormón:** Text transitions ("Yo, Amalekí...", "Yo, Moroni...") — text-level extraction
+- **Dependency:** P2 DEF-1 blocks complete Psalm authorship; curated seed covers known attributions
+
+### Phase 6 — Scripture Hierarchy ✅ Complete (pipeline integration pending)
 **Deliverables:**
-- Cross-reference parallels encoded as graph relations
-- New relation types: `PARALLEL_NARRATIVE`, `EDITORIAL_PARALLEL`, `THEMATIC_LINK`
-- Data from existing `cross_references.py` migrated to graph
+- ✅ Full data model: `Volume`, `Division`, `Book`, `Part`, `Chapter`, `Pericope` dataclasses
+- ✅ JSON data files: `volumes.json`, `divisions.json`, `books.json`, `parts.json`, `chapters.json`, `pericopae.json`
+- ✅ `scripture_structure.py` (490 lines) with long-chain resolution
+- ✅ Neo4j loaded: 5 volumes, 19 divisions, 88 books, 389 parts, 1,584 chapters
+- ✅ 2,080 CONTAINS + 1,493 NEXT/PREVIOUS relations
+- ✅ 1,900 Chapter nodes with .meta.json properties (study_intro, section_headings, subtitle)
+
+**Tasks (all complete):**
+1. ✅ Node types: Volume, Division, Book, Part, Chapter
+2. ✅ Curated seed files for all volumes
+3. ✅ Hierarchy loaded with CONTAINS relations
+4. ✅ `.meta.json` properties on Chapter nodes (bilingual)
+5. ✅ NEXT/PREVIOUS sequential navigation
+6. ✅ Executed against Neo4j — confirmed 2026-04-04
+7. ⬜ Refactor `load_hierarchy_neo4j.py` core to `src/` for auto-loading in `rebuild_kg()`
+
+### Phase 7 — Metadata-Derived Relations ✅ Complete (CHAPTER_TEACHES + pipeline integration pending)
+**Deliverables:**
+- ✅ 549 metadata relations extracted and loaded to Neo4j:
+  - REVEALED_TO: 192 (D&C → person)
+  - REVEALED_AT: 118 (D&C → place)
+  - REVEALED_ON: 134 (D&C → date)
+  - AUTHORED: 97 (Psalms → David, Asaph, Sons of Korah, etc.)
+  - WRITTEN_DURING: 8 (PGP → period)
+- ✅ Validated: "¿Cuándo fue revelada DyC 76?" → Feb 16, 1832, Hiram Ohio, José Smith + Sidney Rigdon
+- ✅ Validated: "¿Qué salmos escribió Asaf?" → Salmos 50, 73-83
 
 **Tasks:**
-1. Convert `cross_references.py` patterns to Neo4j relations
-2. Link document nodes with parallelism type
-3. API to query parallel passages for a given reference
+1. ✅ Parse D&C `study_intro` (140 sections × 2 langs) — 444 relations
+2. ✅ Extract `AUTHORED` from Psalm `section_headings` — 97 relations
+3. ✅ Extract `WRITTEN_DURING` from PGP `subtitle` — 8 relations
+4. ⬜ Design `CHAPTER_TEACHES` extraction from `summary` fields (1,587 summaries)
+5. ✅ Executed against Neo4j — confirmed 2026-04-04
+6. ✅ Validated with plan success criteria
+7. ⬜ Refactor core to `src/` for auto-loading in `rebuild_kg()`
 
-### Phase 3 — LLM Relation Extraction (3-5 days)
+### Phase 8 — Citations and Intertextuality (~45% complete)
 **Deliverables:**
-- LLM-powered relation extraction from key passages
-- Batch processing similar to profile generation
-- New API endpoint for relation extraction
+- ✅ Curated seed relations: QUOTES (26), ALLUDES_TO (6), JST_OF (6) in `relations.json`
+- ✅ `scripts/expand_curated_relations.py` (406 lines): structured seed data for Phases 8-13
+- ✅ Cross-references parsed: `data/scripture_structure/cross_references.json` (28MB, 980K lines)
+- ✅ Loading script `scripts/load_cross_refs_neo4j.py` for ScriptureVerse + CROSS_REF relations
+- ✅ LLM extraction framework includes QUOTES, ALLUDES_TO in `VALID_RELATION_TYPES`
+- ⬜ LLM execution for allusion/paraphrase detection
+- ⬜ Execution confirmation for cross-ref loading
 
 **Tasks:**
-1. Design LLM prompt for relation extraction (input: passage + entities, output: typed relations)
-2. Implement batch extraction pipeline
-3. Store extracted relations in Neo4j
-4. Validation and deduplication
+1. ✅ Curated seed file for OT→NT, OT→BofM, intra-BofM quotations
+2. ⬜ LLM extraction (Sonnet tier): allusions and paraphrases in prophetic/epistolary passages
+3. ✅ JST variants cataloged with `change_type` (expansion, revision, correction, clarification)
+4. ⬜ Execute cross-ref loading and curated seed loading against production Neo4j
+5. ⬜ Validate: "¿Dónde cita Pablo a Isaías?" returns structured results
 
-### Phase 4 — NER Feedback Loop (2 days)
-**Deliverables:**
-- NER candidate tracking table in SQLite
-- API to list top NER candidates
-- CLI/API to promote candidates to gazetteer
-
-**Tasks:**
-1. Track NER-discovered entities with frequency counts
-2. Surface candidates above threshold
-3. Promotion workflow: add to gazetteer, trigger re-extraction
-
-### Phase 5 — Entity Attributes and Titles (2-3 days)
-**Deliverables:**
-- `HAS_TITLE`, `HAS_ROLE`, `CALLED_BY_NAME` relations in Neo4j
-- Curated seed data for key entities (apostles, prophets, kings)
-- LLM extraction prompt for titles/roles from passages
-- Neighbor queries automatically surface titles alongside other relations
+### Phase 9 — Typology, Symbolism, and Prophecy (seed data exists)
+**Seed data in `relations.json`:** TYPE_OF (14), SYMBOLIZES (17), PROPHECY_OF (16)
+**Missing types:** ANTITYPE_OF, DUAL_FULFILLMENT (0 each)
 
 **Tasks:**
-1. Define relation types `HAS_TITLE`, `HAS_ROLE`, `CALLED_BY_NAME` with properties (`source_ref`, `attributed_by`, `context`)
-2. Create curated seed file `gazetteers/entity_attributes.json` with high-confidence titles (Paul→Apostle, Moses→Prophet, David→King, etc.) and their source references
-3. Load seed data into Neo4j
-4. Design LLM prompt for attribute extraction (input: passage + entity, output: titles/roles with attribution)
-5. Batch-extract attributes for top entities (by mention count)
-6. Verify that `GET /search/graph/neighbors` returns title/role relations alongside existing relation types
+1. ✅ (partial) Major typological pairs curated — 14 TYPE_OF relations
+2. ✅ (partial) Major symbols curated — 17 SYMBOLIZES relations
+3. ✅ (partial) Prophecies cataloged — 16 PROPHECY_OF relations
+4. ⬜ LLM extraction (Sonnet): Isaiah, Daniel, Revelation, 1-2 Nephi
+5. ⬜ Define ANTITYPE_OF, DUAL_FULFILLMENT; flag dual fulfillments for Opus review
 
-**Extraction sources for AUTHORED relations (Phase 1):**
-- **DyC:** `summary` field in `.meta.json` — reliable, includes receiver and historical context (e.g., "Revelación dada a José Smith...")
-- **Salmos:** `summary` field + superscriptions (once P2 DEF-1 is fixed) + curated seed file for gaps (Asaf 73-83, hijos de Coré 42-49, Hemán 88, Etán 89)
-- **Libro de Mormón:** Explicit text transitions within chapters (e.g., "Yo, Amalekí..." in Omni, "Yo, Moroni..." in Mormón 8) — requires text-level extraction, not just metadata
-- **Dependency:** P2 DEF-1 (missing section headings/superscriptions) blocks complete Psalm authorship; curated seed file covers known attributions until then
-
-### Phase 6 — Scripture Hierarchy (2-3 days)
-**Deliverables:**
-- Canon structure modeled as graph: Volume, Division, Book, Part, Chapter, Pericope, Verse
-- Both short chain (Volume→Book→Chapter→Verse) and long chain (Volume→Division→Book→Part→Chapter→Pericope→Verse)
-- `CONTAINS`/`PART_OF` relations, `NEXT`/`PREVIOUS` for sequential navigation
-- `.meta.json` properties loaded onto Chapter nodes: `source_url`, `summary`, `study_intro`, `subtitle`, `section_headings`
+### Phase 10 — Covenants, Priesthood, and Ordinances (seed data exists)
+**Seed data in `relations.json`:** COVENANT_WITH (10), HOLDS_PRIESTHOOD (10), CONFERRED_KEYS_TO (8), ORDAINED_BY (5), BAPTIZED_BY (5)
+**Missing types:** RENEWED_BY, KEYBEARER_OF (0 each)
 
 **Tasks:**
-1. Define node types and hierarchy schema in Neo4j (Volume, Division, Book, Part, Chapter, Pericope)
-2. Create curated seed file for Divisions (Pentateuch, Poetry & Wisdom, Gospels, Pauline Epistles, Small Plates, Large Plates, etc.) and Parts (Psalms Books I–V, Record of Zeniff, Words of Alma, etc.)
-3. Load hierarchy from `chapters.json` + seed file — create nodes, `CONTAINS`/`PART_OF` relations
-4. Load `.meta.json` properties onto Chapter nodes (`source_url`, `summary`, `study_intro`, `subtitle`, `section_headings`) for both EN and ES
-5. Create `NEXT`/`PREVIOUS` relations between chapters within each book
-6. Link existing `ScriptureVerse` nodes to their Chapter nodes via `PART_OF`
+1. ✅ (partial) Covenant chain curated — 10 COVENANT_WITH relations
+2. ✅ (partial) Priesthood events — CONFERRED_KEYS_TO (8), HOLDS_PRIESTHOOD (10)
+3. ⬜ Curate key bearers: Peter (kingdom), Elijah (sealing), Moses (gathering), Elias (Abraham)
+4. ⬜ Extract `BAPTIZED_BY`, `ORDAINED_BY` from BofM and NT narratives (Haiku tier)
+5. ⬜ Validate: "¿Quién restauró el sacerdocio aarónico?" → John the Baptist, D&C 13
 
-### Phase 7 — Metadata-Derived Relations (2-3 days)
-**Deliverables:**
-- D&C `study_intro` parsed into `REVEALED_TO`, `REVEALED_AT`, `REVEALED_ON`, `OCCASIONED_BY` relations
-- Chapter summaries feeding `CHAPTER_TEACHES` concept relations
-- Psalm superscriptions feeding `AUTHORED` relations
-- PGP/BofM subtitles feeding `WRITTEN_DURING` temporal relations
+### Phase 11 — Extended Relations (seed data exists)
+**Seed data in `relations.json`:** SAW_IN_VISION (16), DESCENDANT_OF (11), TRIBE_OF (8), CONVERTED_BY (9), CONQUERED (7)
+**Missing types:** LINEAGE_OF, CAPTIVE_OF, REBELLED_AGAINST, ALLIED_WITH, SPOKE_TO, DISCOURSE_ABOUT, ADDRESSED_TO, PERFORMED, WITNESSED, FELL_AWAY, APPEARED_TO (0 each)
 
 **Tasks:**
-1. Parse D&C `study_intro` (140 sections × 2 langs) with regex patterns for person, place, date, occasion — fallback to LLM for ambiguous cases
-2. Extract `AUTHORED` from Psalm `section_headings` (116 EN, 118 ES) — map author names to gazetteer entities
-3. Extract `WRITTEN_DURING` from PGP `subtitle` dates (13 chapters)
-4. Design `CHAPTER_TEACHES` extraction from `summary` fields — NER + concept matching over 1,587 summaries
-5. Load all extracted relations into Neo4j
-6. Validate: "¿Cuándo fue revelada DyC 76?" answerable from graph; "¿Qué salmos escribió Asaf?" from `AUTHORED`
+1. ⬜ Curate patriarchal genealogy: Adam→...→Noah→...→Abraham→...→David→...→Christ
+2. ✅ (partial) Tribal assignments — 8 TRIBE_OF relations
+3. ⬜ Extract military/political from BofM war chapters + OT conquest (Haiku tier)
+4. ⬜ Extract conversion narratives from Acts, BofM (Haiku tier)
+5. ✅ (partial) Major visions — 16 SAW_IN_VISION relations
+6. ⬜ Define missing types and validate
 
-### Phase 8 — Citations and Intertextuality (3-4 days)
-**Deliverables:**
-- `QUOTES`, `ALLUDES_TO`, `JST_OF` relations in Neo4j
-- Curated seed file for high-confidence quotations (Jesus quoting OT, Nephi quoting Isaiah, Paul quoting OT)
-- LLM extraction for allusions and paraphrases
-- JST variant catalog linked to KJV counterparts
+### Phase 12 — LDS Dispensational Theology (seed data exists)
+**Seed data in `relations.json`:** DISPENSATION_HEAD (7), RESTORED (7), RECORD_KEPT_BY (11), ABRIDGED_BY (7)
+**Missing types:** APOSTASY_IN, DISPENSATION_OF, STAGE_OF, DEGREE_OF_GLORY, PREFIGURED_BY, TEMPLE_AT, ORDINANCE_FOR_DEAD, WITNESS_OF, COLOPHON_IN, COUNCIL_PARTICIPANT, FACSIMILE_DEPICTS (0 each)
 
 **Tasks:**
-1. Create curated seed file for known OT→NT quotes (from cross-references), OT→BofM quotes (Isaiah in 2 Nephi), and intra-BofM quotes
-2. LLM extraction (Sonnet tier): identify allusions and paraphrases in key prophetic and epistolary passages
-3. Catalog JST changes from LDS scripture appendix — store as `JST_OF` relations with `change_type`
-4. Load into Neo4j with `verbatim` flag and source/target refs
-5. Validate: "¿Dónde cita Pablo a Isaías?" returns structured results
+1. ✅ (partial) Dispensation heads curated — 7 relations
+2. ✅ (partial) Restoration events — 7 RESTORED relations
+3. ⬜ Model Plan of Salvation stages with teaching passages
+4. ✅ (partial) BofM record-keeping chain — RECORD_KEPT_BY (11), ABRIDGED_BY (7)
+5. ⬜ Catalog facsimile interpretations from Abraham
+6. ⬜ Validate: "¿Qué restauró José Smith?" returns structured chain
 
-### Phase 9 — Typology, Symbolism, and Prophecy (3-4 days)
-**Deliverables:**
-- `TYPE_OF`, `ANTITYPE_OF`, `SYMBOLIZES`, `PROPHECY_OF`, `DUAL_FULFILLMENT` relations
-- Curated seed file for major types and symbols
-- LLM extraction (Sonnet tier) for typological reasoning
-
-**Tasks:**
-1. Curate major typological pairs: Melchizedek→Christ, Isaac→Atonement, Passover→Crucifixion, serpent→Crucifixion, etc.
-2. Curate major symbols: olive tree, bread, water, vine, veil, cornerstone, shepherd, etc. with source refs
-3. Catalog prophecies with fulfillment status (fulfilled, pending, dual) — seed from Topical Guide + known chains
-4. LLM extraction (Sonnet): process Isaiah, Daniel, Revelation, 1-2 Nephi for typological and prophetic relations
-5. Flag dual fulfillments for Opus-tier review
-
-### Phase 10 — Covenants, Priesthood, and Ordinances (2-3 days)
-**Deliverables:**
-- `COVENANT_WITH`, `RENEWED_BY`, `ORDAINED_BY`, `BAPTIZED_BY`, `HOLDS_PRIESTHOOD`, `KEYBEARER_OF`, `CONFERRED_KEYS_TO` relations
-- Curated seed files for covenants (Abrahamic, Mosaic, new/everlasting) and priesthood events (D&C 13, 20, 27, 84, 107, 110, 128)
-- LDS-specific ordinance chain modeled
+### Phase 13 — Literary and Linguistic Analysis (seed data exists)
+**Seed data in `relations.json`:** GENRE_OF (32), CHIASM_IN (6)
+**Missing types:** INCLUSIO_IN, PARALLELISM_IN, ACROSTIC_IN, TRANSLATES_AS, WORD_STUDY, EDITORIAL_NOTE, VARIANT_OF, POSSIBLE_SOURCE (0 each)
 
 **Tasks:**
-1. Curate covenant chain: Abrahamic → renewed through Isaac → Jacob → Joseph → Moses → Christ → Joseph Smith
-2. Curate priesthood restoration events from D&C with exact dates and source refs
-3. Curate key bearers: Peter (kingdom), Elijah (sealing), Moses (gathering), Elias (dispensation of Abraham)
-4. Extract `BAPTIZED_BY`, `ORDAINED_BY` from BofM and NT narratives (Haiku tier)
-5. Load and validate: "¿Quién restauró el sacerdocio aarónico?" → John the Baptist, source D&C 13
+1. ✅ (partial) Known chiasms — 6 CHIASM_IN relations
+2. ✅ (partial) Genre assignments — 32 GENRE_OF relations
+3. ⬜ Hebrew/Greek terms with TRANSLATES_AS (hesed, berith, logos, agape, etc.)
+4. ⬜ Mormon's editorial insertions as EDITORIAL_NOTE
+5. ⬜ POSSIBLE_SOURCE for Isaiah/BofM parallels, synoptic dependencies
+6. ⬜ LLM extraction (Sonnet): literary patterns in poetic books
 
-### Phase 11 — Extended Relations (Genealogy, Military, Conversion, Discourse) (3-4 days)
+### Phase 14 — Quality Framework and Performance (ongoing, ~15% — confidence tracking only)
 **Deliverables:**
-- `DESCENDANT_OF`, `TRIBE_OF`, `LINEAGE_OF` genealogical relations
-- `CONQUERED`, `CAPTIVE_OF`, `REBELLED_AGAINST`, `ALLIED_WITH` military/political relations
-- `CONVERTED_BY`, `REPENTED_OF`, `FELL_AWAY` spiritual transformation relations
-- `SPOKE_TO`, `DISCOURSE_ABOUT`, `ADDRESSED_TO` discourse relations
-- `PERFORMED`, `WITNESSED`, `SAW_IN_VISION`, `APPEARED_TO` miracle/vision relations
-
-**Tasks:**
-1. Curate patriarchal genealogy seed file: Adam→Seth→...→Noah→...→Abraham→...→David→...→Christ (from Matthew 1, Luke 3, 1 Chronicles)
-2. Curate tribal assignments for key persons from gazetteer
-3. Extract military/political relations from BofM war chapters (Alma 43-63) and OT conquest/exile narratives (Haiku tier)
-4. Extract conversion narratives from Acts, BofM (Alma, sons of Mosiah, Lamanite kings) (Haiku tier)
-5. Curate major visions: Lehi's tree, Nephi's expansion, John's Revelation, Joseph Smith's First Vision, D&C 76, D&C 138
-6. Load and validate all relation types
-
-### Phase 12 — LDS Dispensational Theology (2-3 days)
-**Deliverables:**
-- `DISPENSATION_HEAD`, `RESTORED`, `APOSTASY_IN`, `DISPENSATION_OF` relations
-- `STAGE_OF`, `DEGREE_OF_GLORY` Plan of Salvation relations
-- `PREFIGURED_BY`, `TEMPLE_AT`, `ORDINANCE_FOR_DEAD` temple relations
-- BofM-specific: `RECORD_KEPT_BY`, `ABRIDGED_BY`, `WITNESS_OF`, `COLOPHON_IN`
-- PGP-specific: `COUNCIL_PARTICIPANT`, `FACSIMILE_DEPICTS`
-
-**Tasks:**
-1. Curate dispensation heads with source refs (7 dispensations + associated keys/truths)
-2. Curate restoration events timeline from D&C and Church history
-3. Model Plan of Salvation stages with teaching passages
-4. Curate BofM record-keeping chain: who kept which plates, who abridged what
-5. Catalog facsimile interpretations from Abraham
-6. Load and validate: "¿Qué restauró José Smith?" returns structured chain
-
-### Phase 13 — Literary and Linguistic Analysis (3-4 days)
-**Deliverables:**
-- `CHIASM_IN`, `INCLUSIO_IN`, `PARALLELISM_IN`, `ACROSTIC_IN` literary structure relations
-- `GENRE_OF` for every book/chapter
-- `TRANSLATES_AS`, `WORD_STUDY` linguistic relations
-- `EDITORIAL_NOTE` for Mormon's editorial voice in BofM
-- `VARIANT_OF`, `POSSIBLE_SOURCE` text-critical relations
-
-**Tasks:**
-1. Curate known chiasms: Alma 36 (confirmed), Mosiah 3:18-19, Leviticus 24, key Isaiah passages
-2. Assign `GENRE_OF` to every book — curated from standard biblical scholarship
-3. Curate key Hebrew/Greek terms with `TRANSLATES_AS`: hesed, berith, logos, agape, emeth, ruach, etc. with semantic ranges and key passages
-4. Identify and tag Mormon's editorial insertions in BofM ("And thus we see...", "And now I, Mormon...") as `EDITORIAL_NOTE`
-5. Catalog `POSSIBLE_SOURCE` for Isaiah/BofM parallels, synoptic Gospel dependencies
-6. LLM extraction (Sonnet): scan for additional literary patterns in poetic books (Psalms, Proverbs, Isaiah, Jacob, Alma)
-
-### Phase 14 — Quality Framework and Performance (ongoing)
-**Deliverables:**
-- Confidence and provenance tracking on all relations
-- Model tier assignment operational
-- Token optimization pipeline
-- Graph performance indexes and materialized paths
-- Human review queue for low-confidence and theologically sensitive extractions
+- ✅ Confidence tiers on all relations (curated, metadata, llm_high, llm_low, ner, co_occurrence)
+- ✅ Confidence filtering in `neo4j_client.py` neighbor queries
+- ⬜ Two-pass extraction (Haiku → Sonnet/Opus verify)
+- ⬜ Human review queue for low-confidence / theologically sensitive
+- ⬜ Materialized paths for ancestor chains, covenant chains, dispensation sequences
+- ⬜ Bilingual deduplication (merge EN/ES extractions for same entity pairs)
 
 **Tasks:**
 1. Add `confidence`, `source`, `source_ref`, `verified` properties to all relation types
@@ -209,13 +217,13 @@
 
 | Milestone | Deliverable | Estimate |
 |-----------|------------|----------|
-| M1 | Typed relations working, curated data loaded | Day 2 |
-| M2 | Parallelism encoded in graph | Day 5 |
-| M3 | LLM extraction producing typed relations | Day 10 |
-| M4 | NER feedback loop operational | Day 12 |
-| M5 | Entity attributes loaded, surfaced in neighbor queries | Day 15 |
-| M6 | Canon hierarchy navigable in graph, metadata on Chapter nodes | Day 18 |
-| M7 | Metadata-derived relations (D&C study_intro, Psalm authorship, summaries) loaded | Day 21 |
+| M1 | ✅ Typed relations working, curated data loaded | Day 2 |
+| M2 | ✅ Parallelism encoded in graph (36 narratives, 8K relations) | Day 5 |
+| M3 | ✅ LLM extraction producing typed relations | Day 10 |
+| M4 | ✅ NER feedback loop operational | Day 12 |
+| M5 | Entity attributes loaded, surfaced in neighbor queries (~35%) | Day 15 |
+| M6 | ✅ Canon hierarchy navigable in graph, metadata on Chapter nodes | Day 18 |
+| M7 | ✅ Metadata-derived relations (D&C, Psalms, PGP) — 549 relations | Day 21 |
 | M8 | Citations and intertextuality (quotes, allusions, JST) | Day 25 |
 | M9 | Typology, symbolism, and prophecy catalog | Day 29 |
 | M10 | Covenants, priesthood, and ordinances modeled | Day 32 |

@@ -354,26 +354,29 @@ class LLMRelationExtractor:
                     self._total_input_tokens + self._total_output_tokens,
                 )
 
-        # Load into Neo4j if not dry_run
+        # Load into Neo4j if not dry_run — batch via UNWIND for performance
         if neo4j_client and not dry_run:
-            for rel in all_relations:
-                try:
-                    neo4j_client.merge_relation(
-                        from_name=rel.from_name,
-                        from_type=rel.from_type,
-                        rel_type=rel.rel_type,
-                        to_name=rel.to_name,
-                        to_type=rel.to_type,
-                        properties={
-                            "confidence": rel.confidence,
-                            "source": "llm",
-                            "source_ref": rel.source_ref,
-                        },
-                    )
-                    stats.relations_loaded += 1
-                except Exception:
-                    logger.exception("Failed to load relation: %s", rel)
-                    stats.errors += 1
+            batch = [
+                {
+                    "from_name": rel.from_name,
+                    "from_type": rel.from_type,
+                    "rel_type": rel.rel_type,
+                    "to_name": rel.to_name,
+                    "to_type": rel.to_type,
+                    "props": {
+                        "confidence": rel.confidence,
+                        "source": "llm",
+                        "source_ref": rel.source_ref,
+                    },
+                }
+                for rel in all_relations
+            ]
+            try:
+                neo4j_client.batch_merge_relations(batch)
+                stats.relations_loaded = len(batch)
+            except Exception:
+                logger.exception("Failed to batch-load %d relations", len(batch))
+                stats.errors += len(batch)
 
         stats.input_tokens = self._total_input_tokens
         stats.output_tokens = self._total_output_tokens

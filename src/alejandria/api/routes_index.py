@@ -180,6 +180,45 @@ def rebuild_kg(
     return pipeline.rebuild_kg()
 
 
+@router.post("/load-curated-relations")
+def load_curated_relations(
+    migrate: bool = False,
+) -> dict:
+    """Load curated relations from gazetteers/relations.json into Neo4j.
+
+    Also migrates existing untyped relations (RELATED_TO, CO_OCCURS_WITH)
+    to co_occurrence confidence when migrate=True.
+    """
+    from alejandria.api.dependencies import get_neo4j_client
+    from alejandria.knowledge.extractor import _RELATIONS_PATH
+
+    neo4j = get_neo4j_client()
+    if neo4j is None:
+        raise HTTPException(503, "Neo4j not available")
+
+    try:
+        migration_counts = {}
+        if migrate:
+            migration_counts = neo4j.migrate_untyped_relations() or {}
+
+        if not _RELATIONS_PATH.exists():
+            raise HTTPException(404, f"Relations file not found: {_RELATIONS_PATH}")
+
+        counts = neo4j.load_curated_relations(_RELATIONS_PATH)
+        total = sum(counts.values())
+        populated = {k: v for k, v in counts.items() if v > 0}
+
+        return {
+            "status": "ok",
+            "total_relations_loaded": total,
+            "types_populated": len(populated),
+            "counts": populated,
+            **({"migrated": migration_counts} if migration_counts else {}),
+        }
+    finally:
+        neo4j.close()
+
+
 @router.post("/build-profiles", response_model=BuildProfilesResponse)
 def build_profiles(
     req: BuildProfilesRequest,
