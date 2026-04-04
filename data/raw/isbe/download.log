@@ -1,0 +1,378 @@
+
+==================================================
+Letter A
+==================================================
+  Fetching index for A...
+    Found 1060 entries
+    Progress: 50/1060
+    Progress: 100/1060
+    Progress: 150/1060
+    Progress: 200/1060
+    Progress: 250/1060
+    Progress: 300/1060
+    Progress: 350/1060
+    Progress: 400/1060
+    Progress: 450/1060
+    Progress: 500/1060
+    Progress: 550/1060
+    Progress: 600/1060
+    Progress: 650/1060
+    Progress: 700/1060
+    Progress: 750/1060
+    Progress: 800/1060
+    Progress: 850/1060
+    Progress: 900/1060
+    Progress: 950/1060
+    Progress: 1000/1060
+    Progress: 1050/1060
+  Wrote A.txt (1060 entries)
+
+==================================================
+Letter B
+==================================================
+  Fetching index for B...
+    Found 769 entries
+    Progress: 50/769
+    Progress: 100/769
+    Progress: 150/769
+    Progress: 200/769
+    Progress: 250/769
+    Progress: 300/769
+    Progress: 350/769
+    Progress: 400/769
+    Progress: 450/769
+    Progress: 500/769
+    Progress: 550/769
+    Progress: 600/769
+    Progress: 650/769
+    Progress: 700/769
+    Progress: 750/769
+  Wrote B.txt (769 entries)
+
+==================================================
+Letter C
+==================================================
+  Fetching index for C...
+    Found 733 entries
+    Progress: 50/733
+    Progress: 100/733
+    Progress: 150/733
+    Progress: 200/733
+    Progress: 250/733
+    Progress: 300/733
+    Progress: 350/733
+    Progress: 400/733
+    Progress: 450/733
+    Progress: 500/733
+    Progress: 550/733
+    Progress: 600/733
+    Progress: 650/733
+    Progress: 700/733
+  Wrote C.txt (733 entries)
+
+==================================================
+Letter D
+==================================================
+  Fetching index for D...
+    Found 373 entries
+    Progress: 50/373
+    Progress: 100/373
+    Progress: 150/373
+    Progress: 200/373
+    Progress: 250/373
+    Progress: 300/373
+    Progress: 350/373
+  Wrote D.txt (373 entries)
+
+==================================================
+Letter E
+==================================================
+  Fetching index for E...
+    Found 532 entries
+    Progress: 50/532
+    Progress: 100/532
+    Progress: 150/532
+    ERROR fetching https://www.internationalstandardbible.com/E/elishua.html: The read operation timed out
+    Progress: 200/532
+    Progress: 250/532
+    Progress: 300/532
+    Progress: 350/532
+    Progress: 400/532
+    Progress: 450/532
+    Progress: 500/532
+  Wrote E.txt (531 entries)
+
+==================================================
+Letter F
+==================================================
+  Fetching index for F...
+    Found 293 entries
+    Progress: 50/293
+    Progress: 100/293
+    Progress: 150/293
+    Progress: 200/293
+    Progress: 250/293
+  Wrote F.txt (293 entries)
+
+==================================================
+Letter G
+==================================================
+  Fetching index for G...
+    Found 387 entries
+    Progress: 50/387
+    Progress: 100/387
+    Progress: 150/387
+    Progress: 200/387
+    Progress: 250/387
+    Progress: 300/387
+    Progress: 350/387
+  Wrote G.txt (387 entries)
+
+==================================================
+Letter H
+==================================================
+  Fetching index for H...
+    Found 569 entries
+    Progress: 50/569
+    Progress: 100/569
+    Progress: 150/569
+    Progress: 200/569
+    Progress: 250/569
+    Progress: 300/569
+    Progress: 350/569
+    Progress: 400/569
+    Progress: 450/569
+    Progress: 500/569
+    Progress: 550/569
+  Wrote H.txt (569 entries)
+
+==================================================
+Letter I
+==================================================
+  Fetching index for I...
+    Found 269 entries
+    Progress: 50/269
+    Progress: 100/269
+    Progress: 150/269
+    Progress: 200/269
+    Progress: 250/269
+  Wrote I.txt (269 entries)
+
+==================================================
+Letter J
+==================================================
+  Fetching index for J...
+    Found 510 entries
+    Progress: 50/510
+    Progress: 100/510
+    Progress: 150/510
+    Progress: 200/510
+    Progress: 250/510
+    Progress: 300/510
+    Progress: 350/510
+    Progress: 400/510
+    Progress: 450/510
+    Progress: 500/510
+  Wrote J.txt (510 entries)
+
+==================================================
+Letter K
+==================================================
+  Fetching index for K...
+    Found 160 entries
+    Progress: 50/160
+    Progress: 100/160
+    Progress: 150/160
+  Wrote K.txt (160 entries)
+
+==================================================
+Letter L
+==================================================
+  Fetching index for L...
+    Found 280 entries
+    Progress: 50/280
+    Progress: 100/280
+    Progress: 150/280
+    Progress: 200/280
+    Progress: 250/280
+  Wrote L.txt (280 entries)
+
+==================================================
+Letter M
+==================================================
+  Fetching index for M...
+    Found 618 entries
+    Progress: 50/618
+    Progress: 100/618
+    Progress: 150/618
+    Progress: 200/618
+    Progress: 250/618
+    Progress: 300/618
+    Progress: 350/618
+    Progress: 400/618
+    Progress: 450/618
+    Progress: 500/618
+    Progress: 550/618
+    ERROR fetching https://www.internationalstandardbible.com/M/mouse-mice.html: The read operation timed out
+    Progress: 600/618
+  Wrote M.txt (617 entries)
+
+==================================================
+Letter N
+==================================================
+  Fetching index for N...
+    Found 269 entries
+    Progress: 50/269
+    Progress: 100/269
+    Progress: 150/269
+    Progress: 200/269
+    Progress: 250/269
+  Wrote N.txt (269 entries)
+
+==================================================
+Letter O
+==================================================
+  Fetching index for O...
+    Found 202 entries
+    Progress: 50/202
+    Progress: 100/202
+    Progress: 150/202
+    Progress: 200/202
+  Wrote O.txt (202 entries)
+
+==================================================
+Letter P
+==================================================
+  Fetching index for P...
+    Found 575 entries
+    Progress: 50/575
+    Progress: 100/575
+    Progress: 150/575
+    Progress: 200/575
+    Progress: 250/575
+    Progress: 300/575
+    Progress: 350/575
+    Progress: 400/575
+    Progress: 450/575
+    Progress: 500/575
+    Progress: 550/575
+  Wrote P.txt (575 entries)
+
+==================================================
+Letter Q
+==================================================
+  Fetching index for Q...
+    Found 48 entries
+  Wrote Q.txt (48 entries)
+
+==================================================
+Letter R
+==================================================
+  Fetching index for R...
+    Found 336 entries
+    Progress: 50/336
+    Progress: 100/336
+    Progress: 150/336
+    Progress: 200/336
+    Progress: 250/336
+    Progress: 300/336
+  Wrote R.txt (336 entries)
+
+==================================================
+Letter S
+==================================================
+  Fetching index for S...
+    Found 1058 entries
+    Progress: 50/1058
+    Progress: 100/1058
+    Progress: 150/1058
+    Progress: 200/1058
+    Progress: 250/1058
+    Progress: 300/1058
+    Progress: 350/1058
+    Progress: 400/1058
+    Progress: 450/1058
+    Progress: 500/1058
+    Progress: 550/1058
+    Progress: 600/1058
+    Progress: 650/1058
+    Progress: 700/1058
+    Progress: 750/1058
+    Progress: 800/1058
+    Progress: 850/1058
+    Progress: 900/1058
+    Progress: 950/1058
+    Progress: 1000/1058
+    Progress: 1050/1058
+  Wrote S.txt (1058 entries)
+
+==================================================
+Letter T
+==================================================
+  Fetching index for T...
+    Found 437 entries
+    Progress: 50/437
+    Progress: 100/437
+    Progress: 150/437
+    Progress: 200/437
+    Progress: 250/437
+    Progress: 300/437
+    Progress: 350/437
+    Progress: 400/437
+  Wrote T.txt (437 entries)
+
+==================================================
+Letter U
+==================================================
+  Fetching index for U...
+    Found 100 entries
+    Progress: 50/100
+    Progress: 100/100
+  Wrote U.txt (100 entries)
+
+==================================================
+Letter V
+==================================================
+  Fetching index for V...
+    Found 98 entries
+    Progress: 50/98
+  Wrote V.txt (98 entries)
+
+==================================================
+Letter W
+==================================================
+  Fetching index for W...
+    Found 171 entries
+    Progress: 50/171
+    Progress: 100/171
+    Progress: 150/171
+  Wrote W.txt (171 entries)
+
+==================================================
+Letter X
+==================================================
+  Fetching index for X...
+    Found 28 entries
+  Wrote X.txt (28 entries)
+
+==================================================
+Letter Y
+==================================================
+  Fetching index for Y...
+    Found 35 entries
+  Wrote Y.txt (35 entries)
+
+==================================================
+Letter Z
+==================================================
+  Fetching index for Z...
+    Found 213 entries
+    Progress: 50/213
+    Progress: 100/213
+    Progress: 150/213
+    Progress: 200/213
+  Wrote Z.txt (213 entries)
+
+==================================================
+ISBE download complete: 10121 entries
+Corpus: C:\own\alejandria\corpus\en\reference\isbe
