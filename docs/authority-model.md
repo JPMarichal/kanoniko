@@ -21,7 +21,8 @@ Measures the weight a source carries for establishing LDS doctrine. Fixed per do
 | **57** | Study aids — explanatory | Guide to the Scriptures (GEE) — correlated, explanatory content |
 | **55** | Study aids — referential | Topical Guide, Bible Dictionary (carry explicit disclaimer: "not intended as an official or revealed endorsement") |
 | **55** | Official communications | Bulletins, official letters, press releases |
-| **45** | GA as private author — adopted officially | *Jesus the Christ*, *Articles of Faith* (Talmage) |
+| **45** | GA as private author — adopted officially | *Jesus the Christ*, *Articles of Faith* (Talmage) — commissioned/adopted by FP |
+| **40** | GA as private author — Church-affiliated but not formally adopted | *Great Apostasy*, *House of the Lord*, *Vitality of Mormonism* (Talmage) |
 | **35** | GA as private author — unofficial (with disclaimer) | *Mormon Doctrine*, *Doctrinal New Testament Commentary* |
 | **30** | Institutional LDS scholarship | BYU Studies, FARMS / Maxwell Institute |
 | **25** | LDS apologetics / outreach | FairMormon, Book of Mormon Central |

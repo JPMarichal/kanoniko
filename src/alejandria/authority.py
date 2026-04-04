@@ -334,13 +334,13 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         audience="adult",
     )),
     ("great-apostasy/", AuthorityMeta(
-        authority=45, rigor=65, importance="importante",
-        official=False, current=False, context="book-official",
+        authority=40, rigor=65, importance="importante",
+        official=False, current=False, context="book-unofficial",
         audience="adult",
     )),
     ("house-of-the-lord/", AuthorityMeta(
-        authority=45, rigor=60, importance="importante",
-        official=False, current=False, context="book-official",
+        authority=40, rigor=60, importance="importante",
+        official=False, current=False, context="book-unofficial",
         audience="adult",
     )),
     # Talmage — personal essay collection, not officially adopted
