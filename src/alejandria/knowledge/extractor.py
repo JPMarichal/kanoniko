@@ -122,6 +122,8 @@ class ExtractionResult:
     relations: list[ExtractedRelation] = field(default_factory=list)
     scripture_refs: list[str] = field(default_factory=list)
     handbook_xrefs: list[str] = field(default_factory=list)
+    disambiguations: dict[str, str] = field(default_factory=dict)  # original_name → resolved_name
+    disambiguated_types: dict[str, str] = field(default_factory=dict)  # original_name → resolved_type (Level 2)
 
 
 # Short gazetteer terms that collide with common words, split by language.
@@ -515,6 +517,19 @@ class KGExtractor:
                 if key not in seen:
                     result.relations.append(rel)
                     seen.add(key)
+
+        # 5. Disambiguate entity mentions (P7)
+        try:
+            from alejandria.knowledge.disambiguator import Disambiguator
+            _disambiguator = Disambiguator()
+            for entity in result.entities:
+                mention = _disambiguator.resolve(entity.name, entity.type, text, source_file)
+                if mention and mention.confidence in ("high", "medium"):
+                    result.disambiguations[entity.name] = mention.resolved_name
+                    if mention.entity_type_resolved:
+                        result.disambiguated_types[entity.name] = mention.entity_type_resolved
+        except ImportError:
+            pass  # disambiguator not available yet
 
         return result
 

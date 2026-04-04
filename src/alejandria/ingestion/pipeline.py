@@ -879,7 +879,13 @@ class IngestionPipeline:
                     lkey = (entity.name, entity.type, fd.rel_path)
                     if lkey not in seen_lnks:
                         seen_lnks.add(lkey)
-                        batch_lnks.append({"entity_name": entity.name, "entity_type": entity.type, "file_path": fd.rel_path})
+                        link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": fd.rel_path}
+                        if entity.name in extraction.disambiguations:
+                            link["resolved_name"] = extraction.disambiguations[entity.name]
+                            link["confidence"] = "high"
+                        if entity.name in extraction.disambiguated_types:
+                            link["entity_type"] = extraction.disambiguated_types[entity.name]
+                        batch_lnks.append(link)
                 for rel in extraction.relations:
                     batch_rels.append({
                         "from_name": rel.from_entity, "from_type": rel.from_type,
@@ -1140,7 +1146,13 @@ class IngestionPipeline:
                     lkey = (entity.name, entity.type, rel_path)
                     if lkey not in seen_lnks:
                         seen_lnks.add(lkey)
-                        batch_lnks.append({"entity_name": entity.name, "entity_type": entity.type, "file_path": rel_path})
+                        link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": rel_path}
+                        if entity.name in extraction.disambiguations:
+                            link["resolved_name"] = extraction.disambiguations[entity.name]
+                            link["confidence"] = "high"
+                        if entity.name in extraction.disambiguated_types:
+                            link["entity_type"] = extraction.disambiguated_types[entity.name]
+                        batch_lnks.append(link)
                 for rel in extraction.relations:
                     batch_rels.append({
                         "from_name": rel.from_entity, "from_type": rel.from_type,
@@ -1436,9 +1448,13 @@ class IngestionPipeline:
                 batch_entities.append(
                     {"name": entity.name, "type": entity.type, "aliases": []}
                 )
-                batch_links.append(
-                    {"entity_name": entity.name, "entity_type": entity.type, "file_path": file_path}
-                )
+                link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": file_path}
+                if entity.name in extraction.disambiguations:
+                    link["resolved_name"] = extraction.disambiguations[entity.name]
+                    link["confidence"] = "high"
+                if entity.name in extraction.disambiguated_types:
+                    link["entity_type"] = extraction.disambiguated_types[entity.name]
+                batch_links.append(link)
                 entities_found += 1
 
             for rel in extraction.relations:
