@@ -1,0 +1,30 @@
+{
+  "title": "Los danitas",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/danites?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Alexander L. Baugh,A Call to Arms: The 1838 Mormon Defense of Northern Missouri, Provo, Utah: Joseph Fielding Smith Institute for Latter-day Saint History y BYU Press, 2000, págs. 36–43."
+    },
+    {
+      "marker": "2.",
+      "text": "Introducción histórica de “Part 2: 8 July–29 October 1838”, en Mark Ashurst-McGee, David W. Grua, Elizabeth A. Kuehn, Brenden W. Rensink y Alexander L. Baugh, editores,Documents, Volume 6: February 1838–August 1839. Tomo VI de la serie Documents deThe Joseph Smith Papers, editado por Ronald K. Esplin, Matthew J. Grow y Matthew C. Godfrey, Salt Lake City: Church Historian’s Press, 2017, págs. 169–175. En un principio la organización recibió el nombre de las Hijas de Sion. Ambos nombres son alusiones a pasajes de la Biblia. VéaseMiqueas 4:13yJueces 18."
+    }
+  ],
+  "scripture_refs": [
+    "Jueces 18",
+    "Miqueas 4:13"
+  ]
+}

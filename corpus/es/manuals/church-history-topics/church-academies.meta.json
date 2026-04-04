@@ -1,0 +1,34 @@
+{
+  "title": "Academias de la Iglesia",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/church-academies?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase el tema:Partida de Nauvoo."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase el tema:Ferrocarril."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase el tema:Legislación antipoligamia."
+    },
+    {
+      "marker": "4.",
+      "text": "Sarah Jane Weaver, “First Presidency Announces BYU–Pathway Worldwide”,Church News,7 de febrero de 2017,ChurchofJesusChrist.org;BYU–Pathway Worldwide,byupathway.org."
+    }
+  ]
+}

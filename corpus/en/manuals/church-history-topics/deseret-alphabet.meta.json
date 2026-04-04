@@ -1,0 +1,42 @@
+{
+  "title": "Deseret Alphabet",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/deseret-alphabet?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Douglas D. Alder, Paula J. Goodfellow, and Ronald G. Watt, “Creating a New Alphabet for Zion: The Origin of the Deseret Alphabet,”Utah Historical Quarterly,vol. 52, no. 3 (Summer 1984), 276–77."
+    },
+    {
+      "marker": "2.",
+      "text": "See Brigham Young, inJournal of Discourses,12:298; Alder, Goodfellow, and Watt, “Creating a New Alphabet for Zion,” 278–79, 285. The impetus to reform language may also have stemmed from early Church leaders’ interest in preparing for the pure language about which Joseph Smith had taught. See “Deseret Typographical Association,”Deseret News,Aug. 15, 1855, 8."
+    },
+    {
+      "marker": "3.",
+      "text": "See Samuel C. Monson, “Deseret Alphabet,” in Daniel H. Ludlow, ed.,Encyclopedia of Mormonism,4 vols. (New York: Macmillan, 1992), 1:373–74."
+    },
+    {
+      "marker": "4.",
+      "text": "A few people, including Wilford Woodruff, wrote journal entries or recorded other personal writings in the Deseret Alphabet for a short period."
+    },
+    {
+      "marker": "5.",
+      "text": "See Topic:Railroad."
+    },
+    {
+      "marker": "6.",
+      "text": "George Q. Cannon, “Editorial Thoughts,”Juvenile Instructor,vol. 10, no. 20 (Oct. 2, 1875), 234."
+    }
+  ]
+}

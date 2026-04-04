@@ -1,0 +1,30 @@
+{
+  "title": "La partida de Nauvoo",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/departure-from-nauvoo?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "William G. Hartley, “The Nauvoo Exodus and Crossing the Ice Myths”,Journal of Mormon History, tomo XLIII, nro. 1, enero de 2017, págs. 30–33; Matthew S. McBride,A House for the Most High: The Story of the Original Nauvoo Temple, Salt Lake City: Greg Kofford Books, 2007, págs. 304–306."
+    },
+    {
+      "marker": "2.",
+      "text": "Hartley, “The Nauvoo Exodus and Crossing the Ice Myths”, págs. 34–42, 45–46, 54–56."
+    },
+    {
+      "marker": "3.",
+      "text": "Kenneth W. Godfrey, “The Battle of Nauvoo Revisited”,John Whitmer Historical Association Journal,2002 Nauvoo Conference Special Edition, 2002, págs 133–146."
+    }
+  ]
+}

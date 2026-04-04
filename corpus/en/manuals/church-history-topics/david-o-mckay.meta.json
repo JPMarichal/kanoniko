@@ -1,0 +1,16 @@
+{
+  "title": "David O. McKay",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/david-o-mckay?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 0
+}

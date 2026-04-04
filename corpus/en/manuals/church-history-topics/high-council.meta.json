@@ -1,0 +1,53 @@
+{
+  "title": "High Council",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/high-council?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Revelation, 11 November 1831–B [D&C 107 (partial)],” in Revelation Book 1, 122–23,josephsmithpapers.org;Minute Book 1, 21,josephsmithpapers.org;Minute Book 2, 28,josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:First Presidency."
+    },
+    {
+      "marker": "3.",
+      "text": "SeeMinute Book 1, 21,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "Minute Book 1, 29–30,josephsmithpapers.org."
+    },
+    {
+      "marker": "5.",
+      "text": "While early high councils primarily functioned in their stakes, the high council in the place where the President of the Church lived could function as a high council for the Church in the case of disciplinary appeals. SeeDoctrine and Covenants 102:27and “Revised Minutes, 18–19 February 1834 [D&C 102],” in Minute Book 1, 35,josephsmithpapers.org."
+    },
+    {
+      "marker": "6.",
+      "text": "SeeMinute Book 2, 43,josephsmithpapers.org."
+    },
+    {
+      "marker": "7.",
+      "text": "“Doctrine and Covenants, 1835,” 95,josephsmithpapers.org."
+    },
+    {
+      "marker": "8.",
+      "text": "See Topic:Quorum of the Twelve."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 102:27"
+  ]
+}

@@ -287,6 +287,45 @@ _MANUAL_OVERRIDES: list[tuple[str, AuthorityMeta]] = [
         authority=55, rigor=60, importance="importante",
         official=True, current=True, audience="adult",
     )),
+    # Church History Topics — encyclopedia articles, high KG value
+    ("church-history-topics/", AuthorityMeta(
+        authority=65, rigor=70, importance="importante",
+        official=True, current=True, context="study-aid",
+    )),
+    # Revelations in Context — D&C historical companion
+    ("revelations-in-context/", AuthorityMeta(
+        authority=65, rigor=70, importance="importante",
+        official=True, current=True,
+    )),
+    # Daughters in My Kingdom — FP-directed official RS history (2011)
+    ("daughters-in-my-kingdom/", AuthorityMeta(
+        authority=65, rigor=65, importance="importante",
+        official=True, current=True, audience="adult",
+        consensus="first-presidency",
+    )),
+    # D&C Historical Resources — study year companion
+    ("dc-historical-resources/", AuthorityMeta(
+        authority=60, rigor=65, importance="importante",
+        official=True, current=True,
+    )),
+    # Church Historians Press — scholarly but official
+    ("at-the-pulpit/", AuthorityMeta(
+        authority=55, rigor=75, importance="interesante",
+        official=True, current=True,
+    )),
+    ("first-fifty-years-rs/", AuthorityMeta(
+        authority=55, rigor=80, importance="interesante",
+        official=True, current=True,
+    )),
+    ("jsp-revelations/", AuthorityMeta(
+        authority=60, rigor=85, importance="importante",
+        official=True, current=True,
+    )),
+    # Global Histories — didactic illustration, lower doctrinal density
+    ("global-histories/", AuthorityMeta(
+        authority=50, rigor=55, importance="interesante",
+        official=True, current=True,
+    )),
 ]
 
 

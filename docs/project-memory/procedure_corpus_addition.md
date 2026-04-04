@@ -12,20 +12,25 @@ When adding new material to the corpus, follow this procedure every time:
 - **Never** place non-canonical documents under `scriptures/`. The Family Proclamation and The Living Christ go in `proclamations/`, not `scriptures/dc/official-declarations/`.
 - Create bilingual pairs: `corpus/en/{category}/` and `corpus/es/{category}/`.
 
-## 2. Research the material
+## 2. Research the material (MANDATORY — blocks steps 3-8)
 
-Before assigning authority or analyzing KG impact, **investigate each resource** (or group of similar resources) to understand what it actually is. For each, determine:
+Before assigning authority or analyzing KG impact, **investigate each resource** (or group of similar resources) to understand what it actually is. **This step is BLOCKING — steps 3 through 8 cannot proceed without it.** Authority levels, KG relationships, tags, and even output directories depend on understanding what the material actually is.
+
+For each resource, determine via web search:
 
 - **What is it?** — Purpose, content type, structure (multi-chapter manual, single-page guide, pamphlet, etc.)
-- **Who produced it?** — Author(s), commissioning body (Correlation, FP, individual GA, S&I, etc.)
+- **Who produced it?** — Specific authors/editors, commissioning body (Correlation, FP, individual GA, S&I, Church Historians Press, etc.)
 - **When?** — Original publication date, revision history, current edition
 - **For whom?** — Target audience (leaders, youth, children, missionaries, teachers, general membership)
-- **How referenced is it?** — Is it widely cited in other Church materials? Is it foundational for a program?
+- **How referenced is it?** — Is it widely cited? Foundational for a program? Recommended by GA in Conference?
 - **What relationships will it have?** — With existing corpus entities, doctrines, scriptures, other manuals
+- **How does it relate to other resources?** — Is it part of a series? Does it complement, replace, or aggregate other materials?
 
 This step prevents superficial authority assignment based on titles alone. A document's real weight comes from understanding its origin and role in the Church's ecosystem.
 
-**How to do it:** Web search for each material (or representative samples from a group). For well-known manuals, general knowledge may suffice. For unfamiliar materials, search for Church announcements, usage context, and cross-references.
+**How to do it:** Web search for Church Newsroom announcements, reviews, scholarly references, usage in curriculum. Look for who announced it, in what setting, and how it's been received. For well-known manuals, general knowledge may suffice. For unfamiliar materials, the research is essential.
+
+**Anti-pattern (learned the hard way):** Verifying URL slugs and counting TOC entries is NOT research — that's technical preparation for step 5. Research means understanding the *nature, purpose, and weight* of the material. Without it, authority values are guesses, tags are superficial, and KG pre-seeds miss important relationships.
 
 ## 3. Authority level
 

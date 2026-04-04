@@ -1,0 +1,34 @@
+{
+  "title": "Sagwitch",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/sagwitch?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véanse los Temas:Indígenas estadounidenses,Utah,Asentamientos de los pioneros"
+    },
+    {
+      "marker": "2.",
+      "text": "Véase el Tema:Valle del Lago Salado."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase la secciónLa relación de los Santos de los Últimos Días con los amerindiosen “Paz y violencia entre los Santos de los Últimos Días del siglo XIX”, Ensayos sobre Temas del Evangelio,topics.ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "4.",
+      "text": "Wilford Woodruff anotó a “Mogogah” en su registro, quien probablemente era la esposa conocida de Sagwitch, Beawoachee; véase Scott Christensen,Sagwitch: Shoshone Chieftain, Mormon Elder, 1822–1887, Logan: Utah State University Press, 1999, pág. 104."
+    }
+  ]
+}

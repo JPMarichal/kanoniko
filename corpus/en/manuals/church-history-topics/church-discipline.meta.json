@@ -1,0 +1,54 @@
+{
+  "title": "Church Discipline",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/church-discipline?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Articles and Covenants, circa April 1830 [D&C 20],”josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeMosiah 26:8–37."
+    },
+    {
+      "marker": "3.",
+      "text": "See “Minutes, 21 October 1831,” in Minute Book 2, 9,josephsmithpapers.org; “Minutes, 6 September 1831,” in Minute Book 2, 6,josephsmithpapers.org. A revelation given in February 1831 outlined procedures for certain offenses, such as requiring two or more witnesses in cases of adultery. “Revelation, 23 February 1831 [D&C 42:74–93],”josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "“Revelation, 11 November 1831–B [D&C 107 (partial)],” in Revelation Book 1, 122–23."
+    },
+    {
+      "marker": "5.",
+      "text": "“Revised Minutes, 18–19 February 1834 [D&C 102],”josephsmithpapers.org."
+    },
+    {
+      "marker": "6.",
+      "text": "“Appendix 4: Declaration on Government and Law, circa August 1835 [D&C 134],” in Doctrine and Covenants, 1835 ed., 253,josephsmithpapers.org."
+    },
+    {
+      "marker": "7.",
+      "text": "Most cases have been handled through a bishop’s court or high council. In early Church history, the Relief Society was also responsible to “watch over the morals—and be very careful of the character and reputation—of [its] members” (Emma Smith, in Relief Society Minute Book, Mar. 17, 1842, 13, Church History Library, Salt Lake City; Jill Mulvay Derr, Carol Cornwall Madsen, Kate Holbrook, and Matthew J. Grow, eds.,The First Fifty Years of Relief Society: Key Documents in Latter-day Saint Women’s History[Salt Lake City: Church Historian’s Press, 2016], 36). In keeping with that commission, Relief Society leaders exercised disciplinary authority and sometimes refused to admit individuals as members or dropped them for disciplinary reasons."
+    },
+    {
+      "marker": "8.",
+      "text": "M. Russell Ballard, “A Chance to Start Over,”Ensign,Sept. 1990, 16."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 20",
+    "Mosiah 26:8–37"
+  ]
+}

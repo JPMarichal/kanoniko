@@ -1,0 +1,39 @@
+{
+  "title": "Book of Mormon Translation",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/book-of-mormon-translation?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "For example, when Joseph translated the text now in1 Nephi 13:29, the scribe wrote “&” in one place where he should have written “an.” At1 Nephi 17:48, the scribe wrote “weed” where he should have written “reed” (Royal Skousen, “Translating the Book of Mormon: Evidence from the Original Manuscript,” in Noel B. Reynolds, ed.,Book of Mormon Authorship Revisited: The Evidence for Ancient Origins[Provo, Utah: Foundation for Ancient Research and Mormon Studies, 1997], 67; see also Grant Hardy, “Introduction,” inThe Book of Mormon: The Earliest Text,ed. Royal Skousen [New Haven, Conn.: Yale University Press, 2009], xv–xix)."
+    },
+    {
+      "marker": "2.",
+      "text": "According to Martin Harris, an angel commanded Joseph Smith to stop these activities, which he did by 1826. Joseph did not hide his well-known early involvement in treasure seeking. In 1838, he published responses to questions frequently asked of him. “Was not Jo Smith a money digger,” one question read. “Yes,” Joseph answered, “but it was never a very profitable job to him, as he only got fourteen dollars a month for it” (“Elders’ Journal, vol. 1, no. 3, July 1838,”43, josephsmithpapers.org; see also Richard L. Bushman,Joseph Smith and the Beginnings of Mormonism[Urbana: University of Illinois Press, 1984], 64–76; Alan Taylor, “The Early Republic’s Supernatural Economy: Treasure Seeking in the American Northeast, 1780–1830,”American Quarterly,vol. 38, no. 1 [Spring 1986], 6–34; Mark Ashurst-McGee, “A Pathway to Prophethood: Joseph Smith Junior as Rodsman, Village Seer, and Judeo-Christian Prophet” [master’s thesis, Utah State University, 2000])."
+    },
+    {
+      "marker": "3.",
+      "text": "Alma 37:23. Joseph Smith probably possessed more than one seer stone; he appears to have found one of the stones while digging for a well around 1822 (Bushman,Joseph Smith and the Beginnings of Mormonism,69–70)."
+    },
+    {
+      "marker": "4.",
+      "text": "A. W. B., “Mormonites,”Evangelical Magazine and Gospel Advocate,vol. 2 (Apr. 19, 1831), 120; Joseph Smith III, “Last Testimony of Sister Emma,”Saints’ Herald,vol. 26, no. 19 (Oct. 1, 1879), 1–2."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 13:29",
+    "1 Nephi 17:48",
+    "Alma 37:23"
+  ]
+}

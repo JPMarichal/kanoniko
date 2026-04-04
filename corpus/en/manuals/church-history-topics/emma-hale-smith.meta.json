@@ -1,0 +1,55 @@
+{
+  "title": "Emma Hale Smith",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/emma-hale-smith?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Lucy Mack Smith,“Lucy Mack Smith, History, 1845,”190, josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "Mark L. Staker, “‘A Comfort unto My Servant, Joseph’: Emma Hale Smith (1804–1879),” in Richard E. Turley Jr. and Brittany A. Chapman, eds.,Women of Faith in the Latter Days, Volume One, 1775–1820(Salt Lake City: Deseret Book, 2011), 345, 349."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith letter to Emma Smith, Nov. 12, 1838, Community of Christ Archives, Independence, Missouri."
+    },
+    {
+      "marker": "4.",
+      "text": "Emma Smith letter to Joseph Smith, Mar. 7, 1839, in Joseph Smith Letterbook 2, 37, josephsmithpapers.org."
+    },
+    {
+      "marker": "5.",
+      "text": "See Brian C. Hales,Joseph Smith’s Polygamy,3 vols. (Salt Lake City: Greg Kofford Books, 2013), 2:33–138; Laurel Thatcher Ulrich,A House Full of Females: Plural Marriage and Women’s Rights in Early Mormonism, 1835–1870(New York: Alfred A. Knopf, 2017), 86–96."
+    },
+    {
+      "marker": "6.",
+      "text": "Joseph Smith III, “Last Testimony of Sister Emma,”Saints’ Herald,vol. 26, no. 19 (Oct. 1, 1879), 289."
+    },
+    {
+      "marker": "7.",
+      "text": "Emma Hale Smith, Blessing, June 1844, typescript, Church History Library, Salt Lake City."
+    },
+    {
+      "marker": "8.",
+      "text": "Joseph Smith III, “Last Testimony of Sister Emma,” 290."
+    }
+  ],
+  "scripture_refs": [
+    "D&C 25",
+    "Doctrine and Covenants 132",
+    "Doctrine and Covenants 25"
+  ]
+}

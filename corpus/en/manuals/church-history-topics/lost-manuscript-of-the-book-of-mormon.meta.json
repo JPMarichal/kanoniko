@@ -1,0 +1,44 @@
+{
+  "title": "Lost Manuscript of the Book of Mormon",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/lost-manuscript-of-the-book-of-mormon?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Joseph Smith, “History, circa 1841, fair copy,” 13–14, josephsmithpapers.org; Lucy Mack Smith, “Lucy Mack Smith, History, 1844–1845,” book 6, page 10–book 7, page 7, josephsmithpapers.org. Joseph translated the book of Lehi from mid-April to mid-June 1828. Martin Harris served as his principal scribe and may have been assisted by Emma Smith or her brother Reuben Hale."
+    },
+    {
+      "marker": "2.",
+      "text": "1 Nephi 1:16–17."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith, “Preface to Book of Mormon, circa August 1829,” in Book of Mormon, 1830, iii, josephsmithpapers.org; S. Kent Brown, “Lehi’s Personal Record: Quest for a Missing Source,”BYU Studies,vol. 24, no. 1 (Winter 1984), 20–21; William J. Critchlow III, “Manuscript, Lost 116 Pages,” inEncyclopedia of Mormonism,ed. Daniel H. Ludlow, 5 vols. (New York: Macmillan, 1992), 2:854–55; Jack M. Lyon and Kent R. Minson, “When Pages Collide: Dissecting the Words of Mormon,”BYU Studies,vol. 51, no. 4 (2012), 120–36. Joseph may have used the number 116 as an estimate of the number of lost pages rather than an exact count (see “Revelation, Spring 1829 [D&C 10],” Historical Introduction, josephsmithpapers.org).More than 50 years after Joseph Smith died, Franklin D. Richards mentioned that while the two lived in Nauvoo, Joseph talked about the contents of the lost manuscript. Richards had read inAlma 10:3how Lehi descended from Manasseh, which confused him because the Saints so often referred to the Book of Mormon as the “stick of Ephraim.” When Richards asked Joseph about this possible discrepancy, Joseph explained that Ishmael and his family descended from Ephraim and that the lost manuscript recounted Ishmael’s lineage (Franklin D. Richards, “Origin of American Aborigines,”Contributor,vol. 17, no. 7 [May 1896], 425)."
+    },
+    {
+      "marker": "4.",
+      "text": "Joseph did not learn of the plates of Nephi until the spring of 1829 (see “Revelation, Spring 1829 [D&C 10],” Historical Introduction, josephsmithpapers.org;Doctrine and Covenants 10:38–46)."
+    },
+    {
+      "marker": "5.",
+      "text": "“Revelation, Spring 1829 [D&C 10],” in Book of Commandments, 22–24, josephsmithpapers.org; Joseph Smith, “Preface to Book of Mormon,” in Book of Mormon, 1830, iii."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nephi 1:16–17",
+    "Alma 10:3",
+    "Doctrine and Covenants 10:38–46",
+    "Doctrine and Covenants 10"
+  ]
+}

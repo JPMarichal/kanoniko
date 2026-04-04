@@ -1,0 +1,37 @@
+{
+  "title": "Wilford Woodruff",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/wilford-woodruff?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase el Tema:Campo de Sion (Campamento de Israel)."
+    },
+    {
+      "marker": "2.",
+      "text": "Reid L. Neilson, editor,In the Whirlpool: The Pre-Manifesto Letters of President Wilford Woodruff to the William Atkin Family, 1885–1890, Norman, OK: Arthur H. Clark, 2011, págs. 204–206. Según algunos datos, Woodruff se casó con más de ocho mujeres, aunque los historiadores no están de acuerdo en el número exacto. Al menos tres de sus matrimonios plurales terminaron en divorcio. Véase Laurel Thatcher Ulrich,A House Full of Females: Plural Marriage and Women’s Rights in Early Mormonism, 1835–1870, New York: Knopf, 2017, págs. 156–157, 266."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase el tema:Primera Presidencia."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseDeclaración Oficial 1."
+    }
+  ],
+  "scripture_refs": [
+    "Declaración Oficial 1"
+  ]
+}

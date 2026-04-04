@@ -1,0 +1,38 @@
+{
+  "title": "Building Program",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/building-program?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Samuel M. Otterstrom, “Membership Distribution, 1850–Present,” in Brandon S. Plewe, ed.,Mapping Mormonism: An Atlas of Latter-day Saint History, 2nd ed. (Provo, Utah: Brigham Young University Press, 2014), 174–75; Paul L. Anderson, “Building Meetinghouses, 1952–Present,” in Plewe,Mapping Mormonism, 160–63; see also Topic:Outmigration."
+    },
+    {
+      "marker": "2.",
+      "text": "Anderson, “Building Meetinghouses,” 160–61."
+    },
+    {
+      "marker": "3.",
+      "text": "This was a costly program that affected the Church’s overall financial wellbeing; see Topic:Church Finances."
+    },
+    {
+      "marker": "4.",
+      "text": "“New Program Announced for Financing Meetinghouses,”Church News, Apr. 3, 1982, 3, 14; “Policy for Financing Local Units to Change,”Church News, (Nov. 25, 1989), 3; Jeffrey R. Holland, “Like a Watered Garden,” (General Conference, Oct. 2001), ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "5.",
+      "text": "“First Presidency Announces Uniform, Worldwide Standards for Ward and Stake Boundaries,” Newsroom, Dec. 1, 2023, newsroom.ChurchofJesusChrist.org."
+    }
+  ]
+}

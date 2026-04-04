@@ -1,0 +1,38 @@
+{
+  "title": "Jackson County Violence",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/jackson-county-violence?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrine and Covenants 57:3. See“Revelation, 20 July 1831 [D&C 57],” in Revelation Book 1, 93–94,josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "“Letter to Edward Partridge and Others, 10 December 1833,” in Joseph Smith Letterbook 1, 71,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrine and Covenants 101:6; see also“Revelation, 16–17 December 1833 [D&C 101],” in Revelation Book 2, 73–83,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "“Revelation, 24 February 1834 [D&C 103],” in Notebook of Revelations, 7–18,josephsmithpapers.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 101:6",
+    "Doctrine and Covenants 57:3"
+  ]
+}

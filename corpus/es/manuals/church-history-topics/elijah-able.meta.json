@@ -1,0 +1,37 @@
+{
+  "title": "Elijah Able",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/elijah-able?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Algunas fuentes, incluso Able mismo, indican que los nombres de sus padres podrían haber sido Andrew y Delilah Able. Véase W. Kesler Jackson,Elijah Abel: The Life and Times of a Black Pioneer, Afton, Wyoming: PrintStar, 2013, págs. 10–11."
+    },
+    {
+      "marker": "2.",
+      "text": "Russell Stevenson,Black Mormon: The Story of Elijah Ables, Springville, Utah: CFI, 2013, págs. 1–5."
+    },
+    {
+      "marker": "3.",
+      "text": "El censo de 1870 indica que los Able tenían siete hijos viviendo en casa, aunque no está claro si todos eran hijos de Elijah y Mary Ann.United States Census, 1870, familysearch.org."
+    },
+    {
+      "marker": "4.",
+      "text": "“La raza y el sacerdocio”, Ensayos sobre Temas del Evangelio, topics.lds.org."
+    }
+  ],
+  "scripture_refs": [
+    "2 Nefi 26:33"
+  ]
+}

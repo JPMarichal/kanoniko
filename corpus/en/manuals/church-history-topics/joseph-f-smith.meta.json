@@ -1,0 +1,33 @@
+{
+  "title": "Joseph F. Smith",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/joseph-f-smith?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Succession of Church Leadership."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Adjustments to Priesthood Organization."
+    },
+    {
+      "marker": "3.",
+      "text": "Many Americans at the time, suspicious that Church leaders secretly continued to encourage the illegal practice of plural marriage, questioned whether a Latter-day Saint Apostle was fit to be a senator. They argued that he would be more loyal to the Church than to his duty to uphold the laws of the United States. See “The Manifesto and the End of Plural Marriage,” Gospel Topics Essays,topics.ChurchofJesusChrist.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 138"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "La cárcel de Liberty",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/liberty-jail?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "A veces se afirma que los prisioneros no podían estar de pie en el piso inferior. Durante una visita al sitio en 1888, los historiadores midieron el techo en 6½ pies (aprox. 2 metros), que habría permitido que la mayoría de los prisioneros estuvieran de pie."
+    },
+    {
+      "marker": "2.",
+      "text": "José Smith, “Letter to Isaac Galland, 22 March 1839”, en elTimes and Seasons,febrero de 1840, pág. 52,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Diario de Hyrum Smith, marzo a abril de 1839, octubre de 1840, Biblioteca de historia de la Iglesia, Salt Lake City, tomo V; ortografía, capitalización y puntuación moderna."
+    },
+    {
+      "marker": "4.",
+      "text": "Alexander L. Baugh, “¿Fue Joseph F. Smith bendecido por su padre Hyrum Smith en la cárcel de Liberty?”,Mormon Historical Studies,tomo IV, no. 1 (Primavera de 2003), págs. 101 a 105."
+    },
+    {
+      "marker": "5.",
+      "text": "“Letter to the Church and Edward Partridge, 20 March 1839” y “Letter to Edward Partridge and the Church, circa 22 March 1839”,josephsmithpapers.org, ortografía y puntuación estandarizada."
+    },
+    {
+      "marker": "6.",
+      "text": "Véase Jeffrey R. Holland, “Lessons from Liberty Jail”, (Charla fogonera del Sistema Educativo de la Iglesia para jóvenes adultos, 7 de septiembre de 2008),speeches.byu.edu."
+    }
+  ]
+}

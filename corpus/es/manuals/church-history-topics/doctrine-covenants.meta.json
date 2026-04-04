@@ -1,0 +1,61 @@
+{
+  "title": "Doctrina y Convenios",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/doctrine-covenants?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase el tema:Book of Commandments [El Libro de Mandamientos]; Introducción histórica a “Doctrine and Covenants, 1835”,josephsmithpapers.org."
+    },
+    {
+      "marker": "10.",
+      "text": "“Lista de cambios que se presentan en esta edición actualizada de los libros canónicos”,LDS.org."
+    },
+    {
+      "marker": "2.",
+      "text": "“Minutes, 17 August 1835”, en Minute Book 1, pág. 76,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "“Minutes, 17 August 1835”, en Minute Book 1, pág. 98,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase el tema:Lectures on Faith [Disertaciones sobre la fe]."
+    },
+    {
+      "marker": "5.",
+      "text": "Richard E. Turley Jr. y William W. Slaughter,How We Got the Doctrine and Covenants, Salt Lake City: Deseret Book, 2012, pág. 56."
+    },
+    {
+      "marker": "6.",
+      "text": "Véase la Introducción histórica a “Doctrine and Covenants, 1844,”josephsmithpapers.org."
+    },
+    {
+      "marker": "7.",
+      "text": "Secciones 132, 110, 87, 121, 122 y 123, respectivamente. Véase Turley y Slaughter,How We Got the Doctrine and Covenants, págs. 71–89."
+    },
+    {
+      "marker": "8.",
+      "text": "Véase el tema:Lectures on Faith [Disertaciones sobre la fe]."
+    },
+    {
+      "marker": "9.",
+      "text": "Turley y Slaughter,How We Got the Doctrine and Covenants, págs. 101–121."
+    }
+  ],
+  "scripture_refs": [
+    "Introducción"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Restricción del sacerdocio y del templo",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/priesthood-and-temple-restriction?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "2 Nefi 26:33."
+    },
+    {
+      "marker": "2.",
+      "text": "Mateo 28:19."
+    },
+    {
+      "marker": "3.",
+      "text": "2 Nefi 26:33."
+    }
+  ],
+  "scripture_refs": [
+    "2 Nefi 26:33",
+    "Declaración Oficial 2",
+    "Mateo 28:19"
+  ]
+}

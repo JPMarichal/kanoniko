@@ -1,0 +1,26 @@
+{
+  "title": "Heber J. Grant",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/heber-j-grant?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Antipolygamy Legislation."
+    },
+    {
+      "marker": "2.",
+      "text": "Ronald W. Walker,Qualities That Count: Heber J. Grant as Businessman, Missionary, and Apostle(Provo: BYU Studies, 2004), 51–54. See Topic:Prohibition."
+    }
+  ]
+}

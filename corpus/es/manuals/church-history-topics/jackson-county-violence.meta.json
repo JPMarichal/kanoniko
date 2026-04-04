@@ -1,0 +1,38 @@
+{
+  "title": "Violencia en el condado de Jackson",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/jackson-county-violence?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Doctrina y Convenios 57:3. Véase“Revelation, 20 July 1831 [DC 57]”, en Revelation Book 1, págs. 93–94,josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "“Letter to Edward Partridge and Others, 10 December 1833”, en Joseph Smith Letterbook 1, págs. 71,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Doctrina y Convenios 101:6; véase también“Revelation, 16–17 December 1833 [DC 101]”, en Revelation Book 2, págs. 73–83,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "“Revelation, 24 February 1834 [DC 103]”, en Notebook of Revelations, págs. 7–18,josephsmithpapers.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 101:6",
+    "Doctrina y Convenios 57:3"
+  ]
+}

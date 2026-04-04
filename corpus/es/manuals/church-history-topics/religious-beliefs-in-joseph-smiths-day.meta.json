@@ -1,0 +1,25 @@
+{
+  "title": "Creencias religiosas de la época de José Smith",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/religious-beliefs-in-joseph-smiths-day?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 1,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Por ejemplo,Doctrina y Convenios 49zanja las cuestiones sobre las creencias de los tembladores suscitadas por el converso Leman Copley (véase Matthew McBride,“Leman Copley y los tembladores”, en Matthew McBride y James Goldberg, editores,Revelaciones en contexto: Los acontecimientos de trasfondo de las revelaciones de Doctrina y Convenios, Salt Lake City: La Iglesia de Jesucristo de los Santos de los Últimos Días, 2016, págs. 117–121)."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 49"
+  ]
+}

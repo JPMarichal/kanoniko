@@ -1,0 +1,30 @@
+{
+  "title": "La campaña de 1844 de José Smith a la presidencia de los Estados Unidos",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/joseph-smiths-1844-campaign-for-united-states-president?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Diario de Wilford Woodruff, 8 de febrero de 1844, Biblioteca de Historia de la Iglesia, Salt Lake City; ortografía y mayúsculas normativizadas."
+    },
+    {
+      "marker": "2.",
+      "text": "José Smith,General Smith’s Views on the Power and Policy of Government of the United States, Nauvoo, Illinois: John Taylor, 1844."
+    },
+    {
+      "marker": "3.",
+      "text": "Spencer W. McBride, “The Council of Fifty and Joseph Smith’s Presidential Ambitions”, en Matthew J. Grow y R. Eric Smith, editores,The Council of Fifty: What the Records Reveal about Mormon History, Provo, Utah: Centro de Estudios Religiosos, Universidad Brigham Young, 2017, págs. 21–30."
+    }
+  ]
+}

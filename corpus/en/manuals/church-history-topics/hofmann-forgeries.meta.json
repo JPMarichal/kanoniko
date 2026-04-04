@@ -1,0 +1,26 @@
+{
+  "title": "Hofmann Forgeries",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/hofmann-forgeries?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Martin Harris’s Consultations with Scholars."
+    },
+    {
+      "marker": "2.",
+      "text": "The forgery was called the “salamander letter” because in it Harris claimed that Joseph Smith was led to the Book of Mormon plates by a spirit who “transfigured himself from a white salamander in the bottom of the hole” where the plates were buried (D. Todd Christofferson, “The Prophet Joseph Smith” (BYU–Idaho devotional, Sept. 24, 2013),byui.edu."
+    }
+  ]
+}

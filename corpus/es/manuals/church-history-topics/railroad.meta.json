@@ -1,0 +1,26 @@
+{
+  "title": "Ferrocarril",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/railroad?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase Richard White,Railroaded: The Transcontinentals and the Making of Modern America, Nueva York: W. W. Norton, 2011, pág. 24."
+    },
+    {
+      "marker": "2.",
+      "text": "Leonard J. Arrington,Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830–1900, Cambridge: Harvard University Press, 1958, págs. 258–265."
+    }
+  ]
+}

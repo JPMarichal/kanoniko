@@ -1,0 +1,37 @@
+{
+  "title": "Las planchas de Kinderhook",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/kinderhook-plates?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Don Bradley y Mark Ashurst-McGee, “Joseph Smith and the Kinderhook Plates”, en Laura Harris Hales, editora,A Reason for Faith: Navigating LDS Doctrine and Church History,Provo, Utah: Religious Studies Center, Universidad Brigham Young, 2016, págs. 93–97."
+    },
+    {
+      "marker": "2.",
+      "text": "José Smith, “Journal, December 1842–June 1844; Book 2, 10 March 1843–14 July 1843”, pág. 195, nota 397,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase Bradley y Ashurst-McGee, “Kinderhook Plates”, págs. 97–110."
+    },
+    {
+      "marker": "4.",
+      "text": "Doctrina y Convenios 9:9."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 9:9"
+  ]
+}

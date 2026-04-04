@@ -1,0 +1,41 @@
+{
+  "title": "Himnos",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/hymns?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase Rachel Cope, “A Sacred Space for Women: Hymnody in Emma Hale Smith’s Theology”,Journal of Religious History, 2017."
+    },
+    {
+      "marker": "2.",
+      "text": "Michael Hicks, “Emma Smith’s 1841 Hymnbook”,Journal of the Book of Mormon and Other Restoration Scripture,tomo XXI, nro. 1, 2012, págs. 12–27."
+    },
+    {
+      "marker": "3.",
+      "text": "Brigham Young, Parley P. Pratt y John Taylor, compilaciones deA Collection of Sacred Hymns, for The Church of Jesus Christ of Latter-day Saints, in Europe(Manchester, Inglaterra: W. R. Thomas, 1840)."
+    },
+    {
+      "marker": "4.",
+      "text": "Eliza R. Snow, compilación deHymns and Songs: Selected from Various Authors, for the Primary Associations of the Children of Zion(Salt Lake City: Deseret News, 1880);Deseret Sunday School Songs(Salt Lake City: Deseret Sunday School Union, 1909);Relief Society Song Book(Salt Lake City: Mesa Directiva General de la Sociedad de Socorro, 1919)."
+    },
+    {
+      "marker": "5.",
+      "text": "Primera Presidencia,“Prólogo”,Himnos de La Iglesia de Jesucristo de los Santos de los Últimos Días(Salt Lake City, 1985), IX, X."
+    }
+  ],
+  "scripture_refs": [
+    "D. y C. 25:12"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Correlation",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/correlation?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Michael A. Goodman, “Correlation: The Early Years,” in David J. Whittaker and Arnold K. Garr, eds.,A Firm Foundation: Church Organization and Administration(Provo: Religious Studies Center, 2011), 322–23; see Topics:Relief Society,Young Women Organizations,Young Men Organizations,Primary,Sunday School,Quorums of the Seventy."
+    },
+    {
+      "marker": "2.",
+      "text": "Goodman, “The Early Years,” 324–25."
+    },
+    {
+      "marker": "3.",
+      "text": "Goodman, “The Early Years,” 331–34."
+    },
+    {
+      "marker": "4.",
+      "text": "Goodman, “The Early Years,” 334."
+    },
+    {
+      "marker": "5.",
+      "text": "Michael A. Goodman, “Correlation: The Turning Point (1960s),” in Scott C. Esplin and Kenneth L. Alford, eds.,Salt Lake City: The Place Which God Prepared(Provo: Religious Studies Center, 2011), 259, 263."
+    },
+    {
+      "marker": "6.",
+      "text": "James B. Allen and Glen M. Leonard, “Correlating the International Church, 1960–1973,” inThe Story of the Latter-day Saints, 2nd ed. (Salt Lake City: Deseret Book, 1992), 596–99."
+    },
+    {
+      "marker": "7.",
+      "text": "Allen and Leonard, “Correlating the International Church,” 603–4."
+    },
+    {
+      "marker": "8.",
+      "text": "Allen and Leonard, “Correlating the International Church,” 606–9."
+    }
+  ]
+}

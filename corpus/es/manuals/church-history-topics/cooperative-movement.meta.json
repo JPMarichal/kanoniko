@@ -1,0 +1,42 @@
+{
+  "title": "Movimiento cooperativo",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/cooperative-movement?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase el Tema:Consagración y mayordomía."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase el Tema:Escuela de los profetas."
+    },
+    {
+      "marker": "3.",
+      "text": "Las cooperativas y alianzas entre granjeros que se formaron en otros estados y territorios se basaron en un modelo similar y tenían las mismas inquietudes que la red de cooperativas de Utah; véase Thomas A. Woods,Knights of the Plow: Oliver H. Kelley and the Origins of the Grange in Republican Ideology, Ames: Iowa State University Press, 1991."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase el Tema:Godbeítas."
+    },
+    {
+      "marker": "5.",
+      "text": "Véase el Tema:Órdenes Unidas."
+    },
+    {
+      "marker": "6.",
+      "text": "Véase el Tema:Legislación antipoligamia."
+    }
+  ]
+}

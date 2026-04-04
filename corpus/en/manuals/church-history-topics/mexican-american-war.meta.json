@@ -1,0 +1,34 @@
+{
+  "title": "Mexican-American War",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/mexican-american-war?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "InManuscript History of the Mormon Battalion, July 18, 1846, 1–2, Church History Library, Salt Lake City. See Topic:Mormon Battalion."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Antipolygamy Legislation."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topics:California Gold Rush;Railroad."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topics:Pioneer Economy;Pioneer Settlements."
+    }
+  ]
+}

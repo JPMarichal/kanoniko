@@ -1,0 +1,41 @@
+{
+  "title": "Las consultas de Martin Harris con los eruditos",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/martin-harriss-consultations-with-scholars?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Aunque todavía se conservan varias transcripciones de los caracteres del Libro de Mormón que datan de la época de José Smith, por lo general los eruditos concuerdan en que no son la “transcripción Anthon” original que Martin Harris llevó a Nueva York (véase“Appendix 2: Copies of Book of Mormon Characters, Introduction”, josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "El primer registro del viaje, según consta en la historia de José Smith de 1832, dice que Harris le dijo a José Smith que “el Señor le había mostrado que debía ir a la ciudad de Nueva York con algunos de los caracteres” (History, circa Summer 1832, pág. 5, josephsmithpapers.org). Véase también Oliver Cowdery, “Letter IV”,Messenger and Advocate, tomo I, nro. 5, febrero de 1835, pág. 80;History, 1838–1856, Volume A-1 [23 December 1805–30 August 1834], pág. 9, josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Michael Hubbard MacKay y Gerrit J. Dirkmaat,From Darkness unto Light: Joseph Smith’s Translation and Publication of the Book of Mormon, Provo, Utah: Centro de estudios religiosos de la Universidad Brigham Young, 2015, págs. 42–43."
+    },
+    {
+      "marker": "4.",
+      "text": "Stanley B. Kimball, “The Anthon Transcript: People, Primary Sources, and Problems”,BYU Studies, tomo X, nro. 3, primavera de 1970, págs. 332–334."
+    },
+    {
+      "marker": "5.",
+      "text": "MacKay y Dirkmaat,From Darkness unto Light, págs. 49–51."
+    }
+  ],
+  "scripture_refs": [
+    "Isaías 29:11"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Servicios sociales",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/social-services?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 9,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véanse los Temas:Sociedad de Socorro Femenina de Nauvoo,Sociedad de Socorro,Mujeres pioneras y la medicina,Sanación,Diezmo, “Report of Deseret Hospital Dedication,17 de julio, 1882”, en Jill Mulvay Derr, Carol Cornwall Madsen, Kate Holbrook, y Matthew J. Grow, editores,The First Fifty Years of Relief Society: Key Documents in Latter-day Saint Women’s History, Salt Lake City: Church Historian’s Press, 2016, págs. 497–506; “F. R. Society Reports”,Woman’s Exponent, Salt Lake City, 1 de octubre, 1872, págs. 66–67."
+    },
+    {
+      "marker": "2.",
+      "text": "Véanse los Temas:Moderación,John y Leah Widtsoe."
+    },
+    {
+      "marker": "3.",
+      "text": "Thomas G. Alexander, “Between Revivalism and the Social Gospel: The Latter-day Saint Social Advisory Committee, 1916–1922”,BYU Studies, tomo XXIII, nro. 1, 1983, pág. 25."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase el Tema:Amy Brown Lyman."
+    },
+    {
+      "marker": "5.",
+      "text": "Véase el Tema:Primera Guerra Mundial; Dave Hall, “Relief Society Educational and Social Welfare Work, 1900–1929”, en David J. Whittaker y Arnold K. Garr, editores,A Firm Foundation: Church Organization and Administration, Provo, Utah: Religious Studies Center, Universidad Brigham Young, 2011, págs. 361–371."
+    },
+    {
+      "marker": "6.",
+      "text": "Ryan Morgenegg, “New Adoption Policies”,Church News, 29 de junio de 2014, pág. 15."
+    },
+    {
+      "marker": "7.",
+      "text": "Véanse los Temas:Programas de bienestar,Gran Depresión."
+    },
+    {
+      "marker": "8.",
+      "text": "Véase el Tema: Programa de colocación de alumnos indígenas; John P. Livingstone, “Historical Highlights of LDS Family Services”, en Scott C. Esplin y Kenneth L. Alford, editores,Salt Lake City: The Place Which God Prepared, Provo, Utah: Religious Studies Center, Universidad Brigham Young, 2011, págs. 286–289."
+    },
+    {
+      "marker": "9.",
+      "text": "“LDS Social Services Re-named LDS Family Services”,Church News, 27 de noviembre de 1999, pág. 6; “Church Agency Is Ready, Willing and Able to Help”,Church News, 26 de febrero de 2000, pág. 5; “Adoption Consultation and Referrals”, Family Services, providentliving.ChurchofJesusChrist.org."
+    }
+  ]
+}

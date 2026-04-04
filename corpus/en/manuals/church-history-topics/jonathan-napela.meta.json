@@ -1,0 +1,62 @@
+{
+  "title": "Jonathan Napela",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/jonathan-napela?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 11,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "George Q. Cannon, Journal, March 8, 1851."
+    },
+    {
+      "marker": "10.",
+      "text": "Woods, “A Most Influential Mormon Islander,” 150."
+    },
+    {
+      "marker": "11.",
+      "text": "Hawaiian Mission History, April 6, 1879, Joseph F. Smith Library, Brigham Young University–Hawaii, Laie, Hawaii."
+    },
+    {
+      "marker": "2.",
+      "text": "George Q. Cannon,My First Mission(Salt Lake City: Juvenile Instructor, 1879), 26–29."
+    },
+    {
+      "marker": "3.",
+      "text": "Fred E. Woods, “Jonathan Napela: A Noble Hawaiian Convert,” in Reid L. Neilson, Steven C. Harper, Craig K. Manscill, and Mary Jane Woodger, eds.,Regional Studies in Latter-day Saint Church History: The Pacific Isles(Provo, Utah: Religious Studies Center, 2008), 27."
+    },
+    {
+      "marker": "4.",
+      "text": "Woods, “Jonathan Napela,” 28."
+    },
+    {
+      "marker": "5.",
+      "text": "Gwynn Barrett, “Walter Murray Gibson: The Shepherd Saint of Lanai Revisited,”Utah Historical Quarterly,vol. 40, no. 2 (Spring 1972), 142–62."
+    },
+    {
+      "marker": "6.",
+      "text": "Woods, “Jonathan Napela,” 30–31."
+    },
+    {
+      "marker": "7.",
+      "text": "Fred E. Woods, “A Most Influential Mormon Islander: Jonathan Hawaii Napela,”Hawaiian Journal of History,vol. 42 (2008), 146."
+    },
+    {
+      "marker": "8.",
+      "text": "Woods, “A Most Influential Mormon Islander,” 148."
+    },
+    {
+      "marker": "9.",
+      "text": "Woods, “A Most Influential Mormon Islander,” 149."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Far West",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/far-west?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 9,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Clark V. Johnson, “Let Far West Be Holy and Consecrated,” in Larry C. Porter and Susan Easton Black, eds.,The Prophet Joseph: Essays on the Life and Mission of Joseph Smith(Salt Lake City: Deseret Book, 1988), 228–29."
+    },
+    {
+      "marker": "2.",
+      "text": "“Revelation, 26 April 1838 [D&C 115],” in Joseph Smith, Journal, March–September 1838, 33,josephsmithpapers.org; see alsoDoctrine and Covenants 115:7–8."
+    },
+    {
+      "marker": "3.",
+      "text": "“Journal, March–September 1838,” 16–17,josephsmithpapers.org. See also James B. Allen and Glen M. Leonard,The Story of the Latter-day Saints,2nd ed. (Salt Lake City: Deseret Book, 1992), 116–17."
+    },
+    {
+      "marker": "4.",
+      "text": "“Revelation, 26 April 1838 [D&C 115]”; “Revelation, 8 July 1838–C [D&C 119],”josephsmithpapers.org. SeeDoctrine and Covenants 113–115,117–120."
+    },
+    {
+      "marker": "5.",
+      "text": "“Revised Plat of the City of Zion, circa Early August 1833,”josephsmithpapers.org; see also Steven L. Olsen,The Mormon Ideology of Place: Cosmic Symbolism of the City of Zion, 1830–1846,Dissertations in Latter-day Saint History (Provo, Utah: Joseph Fielding Smith Institute for Latter-day Saint History and BYU Studies, 2002), Figure 11."
+    },
+    {
+      "marker": "6.",
+      "text": "Alexander L. Baugh, “The Mormon Temple Site at Far West, Caldwell County, Missouri,” in Thomas M. Spencer, ed.,The Missouri Mormon Experience(Columbia: University of Missouri Press, 2010), 80–81."
+    },
+    {
+      "marker": "7.",
+      "text": "Mark Ashurst-McGee, David W. Grua, Elizabeth Kuehn, Brenden W. Rensink, and Alexander L. Baugh, eds.,Documents, Volume 6: February 1838–August 1839.Vol. 6 of the Documents series ofThe Joseph Smith Papers,edited by Ronald K. Esplin, Matthew J. Grow, and Matthew C. Godfrey (Salt Lake City: Church Historian’s Press, 2017), 269–271. Joseph felt he had been deliberately betrayed, although Hinkle and others later insisted Joseph had understood Lucas’s demands."
+    },
+    {
+      "marker": "8.",
+      "text": "“Revelation, 8 July 1838–A [D&C 118],” in Joseph Smith, Journal, March–September 1838, 54,josephsmithpapers.org."
+    },
+    {
+      "marker": "9.",
+      "text": "“Revelation, 8 July 1838–A [D&C 118],” 55,josephsmithpapers.org; see alsoDoctrine and Covenants 118:4–5; Baugh, “The Mormon Temple Site at Far West,” 82–83."
+    }
+  ],
+  "scripture_refs": [
+    "117–120",
+    "Doctrine and Covenants 113–115",
+    "Doctrine and Covenants 115:7–8",
+    "Doctrine and Covenants 118:4–5"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Varas de adivinación",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/divining-rods?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Hay prácticas similares que persisten en la actualidad entre algunas personas que viven en poblados rurales."
+    },
+    {
+      "marker": "2.",
+      "text": "La copia más antigua de la revelación que ahora se halla enDoctrina y Convenios 8lo denomina “vástago”. En 1833, cuando se preparaba la revelación para publicarla, Sidney Rigdon corrigió el texto para que hiciera referencia a una “vara de la naturaleza”. “Revelation, April 1829–B [DC 8]”, en Revelation Book , págs. 1, 13, josephsmithpapers.org; Book of Commandments, 1833, pág. 19, josephsmithpapers.org; Doctrina y Convenios, 1835, pág. 161, josephsmithpapers.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 8",
+    "Doctrina y Convenios 8",
+    "Números 17:8",
+    "Éxodo 7:9–12"
+  ]
+}

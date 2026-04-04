@@ -1,0 +1,32 @@
+{
+  "title": "Divining Rods",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/divining-rods?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Similar practices persist today among some who live in rural communities."
+    },
+    {
+      "marker": "2.",
+      "text": "The earliest manuscript copy of the revelation now found inDoctrine and Covenants 8calls it a “sprout.” In 1833, when this revelation was prepared for publication, Sidney Rigdon revised the text to refer to a “rod of nature.”Revelation, April 1829–B [D&C 8],” in Revelation Book 1, 13, josephsmithpapers.org;Book of Commandments, 1833, 19, josephsmithpapers.org;Doctrine and Covenants, 1835, 161, josephsmithpapers.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 8",
+    "Doctrine and Covenants 8",
+    "Exodus 7:9–12",
+    "Numbers 17:8"
+  ]
+}

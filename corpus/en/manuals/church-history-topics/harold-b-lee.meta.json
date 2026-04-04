@@ -1,0 +1,42 @@
+{
+  "title": "Harold B. Lee",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/harold-b-lee?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "L. Brent Goates,Harold B. Lee: Prophet and Seer(Salt Lake City: Bookcraft, 1985), 37, 45, 48, 60, 84–86."
+    },
+    {
+      "marker": "2.",
+      "text": "Goates,Harold B. Lee, 86–88, 93–96; see Topics:Great Depression,Welfare Programs. The Church Security Program was renamed the Church Welfare Program in 1938."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topics:Correlation,World War II,Servicemember Branches; Goates,Harold B. Lee, 367–73."
+    },
+    {
+      "marker": "4.",
+      "text": "Goates,Harold B. Lee, 345, 351–52, 356, 360–62."
+    },
+    {
+      "marker": "5.",
+      "text": "Goates,Harold B. Lee, 458–59, 472, 474, 484–85."
+    },
+    {
+      "marker": "6.",
+      "text": "Goates,Harold B. Lee, 575, 584–85."
+    }
+  ]
+}

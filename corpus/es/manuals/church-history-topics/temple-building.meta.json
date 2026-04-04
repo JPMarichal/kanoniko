@@ -1,0 +1,50 @@
+{
+  "title": "Construcción de templos",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/temple-building?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Temple”, Glosario,https://josephsmithpapers.org/topic/temple."
+    },
+    {
+      "marker": "2.",
+      "text": "VéanseDoctrina y Convenios 36(diciembre de 1830),42(febrero de 1831),84(septiembre de 1832),88(diciembre de 1832),95(junio de 1833) y94(agosto de 1833)."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase el tema:Templo de Kirtland."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase el tema:Templo de Nauvoo."
+    },
+    {
+      "marker": "5.",
+      "text": "C. Mark Hamilton,Nineteenth-Century Mormon Architecture and City Planning, Nueva York: Oxford University Press, 1995, pág. 39."
+    },
+    {
+      "marker": "6.",
+      "text": "Enseñanzas de los Presidentes de la Iglesia: Gordon B. Hinckley, 2016,págs. 325–328."
+    }
+  ],
+  "scripture_refs": [
+    "42",
+    "84",
+    "88",
+    "94",
+    "95",
+    "Doctrina y Convenios 36"
+  ]
+}

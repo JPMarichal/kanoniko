@@ -1,0 +1,34 @@
+{
+  "title": "Church Academies",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/church-academies?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Departure from Nauvoo."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Railroad."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topic:Antipolygamy Legislation."
+    },
+    {
+      "marker": "4.",
+      "text": "Sarah Jane Weaver, “First Presidency Announces BYU–Pathway Worldwide,”Church News,Feb. 7, 2017,ChurchofJesusChrist.org;BYU–Pathway Worldwide,byupathway.org."
+    }
+  ]
+}

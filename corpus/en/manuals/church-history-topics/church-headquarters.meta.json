@@ -1,0 +1,26 @@
+{
+  "title": "Church Headquarters",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/church-headquarters?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Historical Introduction to “Plat of the City of Zion, circa Early June–25 June 1833,”Joseph Smith Papers,https://www.josephsmithpapers.org/paper-summary/plat-of-the-city-of-zion-circa-early-june-25-june-1833/1#historical-intro."
+    },
+    {
+      "marker": "2.",
+      "text": "See Judy Dykman and Colleen Whitley, “Settling in Salt Lake City,” in Colleen Whitley, ed.,Brigham Young’s Homes(Logan: Utah State University Press, 2002), 82–123."
+    }
+  ]
+}

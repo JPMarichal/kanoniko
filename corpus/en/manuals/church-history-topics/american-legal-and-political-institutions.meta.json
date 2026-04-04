@@ -1,0 +1,49 @@
+{
+  "title": "American Legal and Political Institutions",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/american-legal-and-political-institutions?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "2 Nephi 25:1–6."
+    },
+    {
+      "marker": "2.",
+      "text": "For the American tradition of vigilante action, see Topic:Vigilantism."
+    },
+    {
+      "marker": "3.",
+      "text": "See, for example, Joseph Smith, in “History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],” 42–44,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topics:Jackson County Violence,Mormon-Missouri War of 1838."
+    },
+    {
+      "marker": "5.",
+      "text": "“Revelation, 16–17 December 1833 [D&C 101],” 81,josephsmithpapers.org."
+    },
+    {
+      "marker": "6.",
+      "text": "See Topic:Joseph Smith’s 1844 Campaign for United States President."
+    },
+    {
+      "marker": "7.",
+      "text": "See Topic:Deaths of Joseph and Hyrum Smith."
+    }
+  ],
+  "scripture_refs": [
+    "2 Nephi 25:1–6"
+  ]
+}

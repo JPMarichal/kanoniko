@@ -1,0 +1,39 @@
+{
+  "title": "La traducción del Libro de Mormón",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/book-of-mormon-translation?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Por ejemplo, cuando José tradujo al inglés el texto de1 Nefi 13:29, el escribiente anotó “&” en un lugar donde debería haber escrito “an”. En1 Nefi 17:48, el escribiente anotó “weed” donde debería haber escrito “reed” (Royal Skousen, “Translating the Book of Mormon: Evidence from the Original Manuscript”, en Noel B. Reynolds, editor,Book of Mormon Authorship Revisited: The Evidence for Ancient Origins, Provo, Utah: Foundation for Ancient Research and Mormon Studies, 1997, pág. 67; véase también Grant Hardy, “Introduction”, enThe Book of Mormon: The Earliest Text,editor Royal Skousen, New Haven, Conn.: Yale University Press, 2009, págs. XV–XIX."
+    },
+    {
+      "marker": "2.",
+      "text": "Según Martin Harris, un ángel mandó a José Smith que abandonara esas actividades; José lo hizo por el año 1826. José no ocultó su participación en la búsqueda de tesoros durante esos primeros años, algo que era bien sabido. En 1838 publicó respuestas a preguntas que se le planteaban con frecuencia. Una de las preguntas era: “¿No fue ‘Jo’ Smith un buscador de dinero?”. “Sí”, respondió José, “pero nunca fue un trabajo demasiado provechoso para él, ya que sólo le reportó catorce dólares al mes” (“Elders’ Journal, vol. 1, no. 3, July 1838”, pág. 43, josephsmithpapers.org; véase también Richard L. Bushman,Joseph Smith and the Beginnings of Mormonism, Urbana: University of Illinois Press, 1984, págs. 64–76; Alan Taylor, “The Early Republic’s Supernatural Economy: Treasure Seeking in the American Northeast, 1780–1830”,American Quarterly, tomo XXXVIII, nro. 1. [Primavera de 1986], págs. 6–34; Mark Ashurst-McGee, “A Pathway to Prophethood: Joseph Smith Junior as Rodsman, Village Seer, and Judeo-Christian Prophet” [tesis de máster, Universidad del Estado de Utah, 2000])."
+    },
+    {
+      "marker": "3.",
+      "text": "Alma 37:23. Es probable que José Smith tuviera más de una piedra de vidente; parece ser que una de las piedras la encontró mientras cavaba un pozo allá por 1822 (Bushman,Joseph Smith and the Beginnings of Mormonism, pág. 69–70)."
+    },
+    {
+      "marker": "4.",
+      "text": "A. W. B., “Mormonites,”Evangelical Magazine and Gospel Advocate, tomo II, 19 de abril de 1831, pág. 120; Joseph Smith III, “Last Testimony of Sister Emma”,Saints’ Herald, tomo XXVI, nro. 19, 1 de octubre de 1879, págs. 1–2."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nefi 13:29",
+    "1 Nefi 17:48",
+    "Alma 37:23"
+  ]
+}

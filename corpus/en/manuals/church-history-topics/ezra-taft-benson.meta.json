@@ -1,0 +1,38 @@
+{
+  "title": "Ezra Taft Benson",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/ezra-taft-benson?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Ezra Taft Benson, in Conference Report, Apr. 1948, 83, 85; Ezra Taft Benson, in Conference Report, Oct. 1962, 19. See Topic:Cold War."
+    },
+    {
+      "marker": "2.",
+      "text": "Sheri L. Dew,Ezra Taft Benson: A Biography(Salt Lake City: Deseret Book, 1987), 355."
+    },
+    {
+      "marker": "3.",
+      "text": "Ezra Taft Benson, in Conference Report, Apr. 1986, 4; italics in original."
+    },
+    {
+      "marker": "4.",
+      "text": "Ezra Taft Benson, in Conference Report, Apr. 1987, 108."
+    },
+    {
+      "marker": "5.",
+      "text": "Howard W. Hunter, “A Strong and Mighty Man,”Ensign, July 1994, 42."
+    }
+  ]
+}

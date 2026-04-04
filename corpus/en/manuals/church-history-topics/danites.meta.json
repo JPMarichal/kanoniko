@@ -1,0 +1,30 @@
+{
+  "title": "Danites",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/danites?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Alexander L. Baugh,A Call to Arms: The 1838 Mormon Defense of Northern Missouri(Provo, Utah: Joseph Fielding Smith Institute for Latter-day Saint History and BYU Press, 2000), 36–43."
+    },
+    {
+      "marker": "2.",
+      "text": "Historical Introduction to “Part 2: 8 July–29 October 1838,” in Mark Ashurst-McGee, David W. Grua, Elizabeth A. Kuehn, Brenden W. Rensink, and Alexander L. Baugh, eds.,Documents, Volume 6: February 1838–August 1839.Vol. 6 of the Documents series ofThe Joseph Smith Papers,edited by Ronald K. Esplin, Matthew J. Grow, and Matthew C. Godfrey (Salt Lake City: Church Historian’s Press, 2017), 169–75. The organization was originally named the Society of the Daughter of Zion. Both names reference Biblical passages. SeeMicah 4:13andJudges 18."
+    }
+  ],
+  "scripture_refs": [
+    "Judges 18",
+    "Micah 4:13"
+  ]
+}

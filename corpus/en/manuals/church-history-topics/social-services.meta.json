@@ -1,0 +1,54 @@
+{
+  "title": "Social Services",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/social-services?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 9,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topics:Female Relief Society of Nauvoo,Relief Society,Pioneer Women and Medicine,Healing,Tithing; “Report of Deseret Hospital Dedication, July 17, 1882,” in Jill Mulvay Derr, Carol Cornwall Madsen, Kate Holbrook, and Matthew J. Grow, eds.,The First Fifty Years of Relief Society: Key Documents in Latter-day Saint Women’s History(Salt Lake City: Church Historian’s Press, 2016), 497–506; “F. R. Society Reports,”Woman’s Exponent(Salt Lake City), Oct. 1, 1872, 66–67."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topics:Retrenchment,John and Leah Widtsoe."
+    },
+    {
+      "marker": "3.",
+      "text": "Thomas G. Alexander, “Between Revivalism and the Social Gospel: The Latter-day Saint Social Advisory Committee, 1916–1922,”BYU Studies, vol. 23, no. 1 (1983), 25."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topic:Amy Brown Lyman."
+    },
+    {
+      "marker": "5.",
+      "text": "See Topic:World War I; Dave Hall, “Relief Society Educational and Social Welfare Work, 1900–29,” in David J. Whittaker and Arnold K. Garr, eds.,A Firm Foundation: Church Organization and Administration(Provo, Utah: Religious Studies Center, Brigham Young University, 2011), 361–71."
+    },
+    {
+      "marker": "6.",
+      "text": "Ryan Morgenegg, “New Adoption Policies,”Church News, June 29, 2014, 15."
+    },
+    {
+      "marker": "7.",
+      "text": "See Topics:Welfare Programs,Great Depression."
+    },
+    {
+      "marker": "8.",
+      "text": "See Topic: Indian Student Placement Program; John P. Livingstone, “Historical Highlights of LDS Family Services,” in Scott C. Esplin and Kenneth L. Alford, eds.,Salt Lake City: The Place Which God Prepared(Provo, Utah: Religious Studies Center, Brigham Young University, 2011), 286–89."
+    },
+    {
+      "marker": "9.",
+      "text": "“LDS Social Services Re-named LDS Family Services,”Church News, Nov. 27, 1999, 6; “Church Agency Is Ready, Willing and Able to Help,”Church News, Feb. 26, 2000, 5; “Adoption Consultation and Referrals,” Family Services, providentliving.ChurchofJesusChrist.org."
+    }
+  ]
+}
