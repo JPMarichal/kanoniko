@@ -40,6 +40,21 @@ Entity profiles should reflect disambiguated mention counts, not generic totals.
 
 - None (builds on existing profile disambiguation)
 
+### FR-6: Entity-Type Disambiguation (Level 2)
+Same name, different entity types: Judah = patriarch (person), tribe (people), kingdom (polity), territory (place). Israel = person (Jacob), nation, covenant people, land. Bethlehem = Bethlehem of Judah vs Bethlehem of Zebulun.
+
+### FR-7: Temporal/Dispensational Disambiguation (Level 3)
+Same term, meaning shifts across eras: Gentiles (non-Hebrews → non-Jews → non-members → European peoples). Zion (City of David → Enoch's city → pure in heart → New Jerusalem). Temple, Ark, Law, Priesthood have similar shifts.
+
+### FR-8: Alias Resolution (Same Person, Multiple Names)
+Peter/Cephas/Simon Peter, Matthew/Levi, Saul/Paul, Jacob/Israel, Emma Smith/Emma Hale Smith. Demonyms as identifiers: Mary Magdalene = Mary of Magdala.
+
+### FR-9: Bilingual Asymmetry
+EN "Judah" covers patriarch through territory; ES "Judá" vs "Judas" are distinct. EN "James" = ES "Santiago" (not "Jacobo" for NT). KJV uses "Judas" for patriarch in genealogy (Matt 1:2).
+
+### FR-10: Noise Tolerance
+Corpus files may contain HTML tags, control characters, footnote markers, stray braces. Disambiguation must strip noise before pattern matching.
+
 ## Out of Scope
 
 - Cross-document coreference resolution ("he", "she", "the prophet")

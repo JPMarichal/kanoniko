@@ -12,7 +12,7 @@ This directory contains the project portfolio for Alejandria's next generation o
 | P4 | [Corpus Expansion](P4-corpus-expansion/) | High | Complete | None |
 | P5 | [Chat Client UI](P5-chat-client-ui/) | Medium | Planning | None |
 | P6 | [Advanced Relations](P6-advanced-relations/) | Medium | 14/14 phases ✅ (LLM extraction deferred) | P1 ✅ |
-| P7 | [Deep Disambiguation](P7-deep-disambiguation/) | Medium | Planning | None |
+| P7 | [Deep Disambiguation](P7-deep-disambiguation/) | Medium | Phase 1 ✅ (LLM + profile phases deferred) | None |
 | P8 | [Synthesis Engine](P8-synthesis-engine/) | Lower | Planning | P5, P6 |
 | P9 | [Fine-Tuning](P9-fine-tuning/) | Lower | Planning | None |
 | P10 | [Handbook KG Model](P10-handbook-kg-model/) | Medium | Complete (LLM enrichment deferred) | None (benefits from P6 ✅) |

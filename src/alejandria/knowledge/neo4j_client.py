@@ -244,6 +244,7 @@ class Neo4jClient:
         """Batch link entities to a document.
 
         Each dict: {entity_name, entity_type, file_path}.
+        Optional keys: resolved_name, confidence (P7 disambiguation).
         """
         if not links:
             return
@@ -252,7 +253,9 @@ class Neo4jClient:
                 "UNWIND $links AS l "
                 "MATCH (e:Entity {name: l.entity_name, type: l.entity_type}) "
                 "MATCH (d:Document {file_path: l.file_path}) "
-                "MERGE (e)-[:MENTIONED_IN]->(d)",
+                "MERGE (e)-[r:MENTIONED_IN]->(d) "
+                "SET r.resolved_name = CASE WHEN l.resolved_name IS NOT NULL THEN l.resolved_name ELSE r.resolved_name END, "
+                "    r.confidence = CASE WHEN l.confidence IS NOT NULL THEN l.confidence ELSE r.confidence END",
                 links=links,
             )
 
