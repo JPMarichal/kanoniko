@@ -307,6 +307,34 @@ class ChatResponse(BaseModel):
     output_tokens: int
 
 
+# --- Genealogy ---
+
+
+class GenealogyPersonNode(BaseModel):
+    name: str
+    name_alt: str | None = None
+    type: str = "person"
+    relation: str | None = None
+    spouses: list["GenealogyPersonNode"] = []
+    parents: list["GenealogyPersonNode"] = []
+    children: list["GenealogyPersonNode"] = []
+
+
+class GenealogyTreeResponse(BaseModel):
+    person: str
+    direction: str
+    depth: int
+    tree: GenealogyPersonNode
+
+
+class GenealogyPathResponse(BaseModel):
+    person1: str
+    person2: str
+    path_length: int
+    path: list[dict]
+    edges: list[dict]
+
+
 # --- Health ---
 
 class HealthResponse(BaseModel):

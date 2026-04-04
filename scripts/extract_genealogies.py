@@ -315,7 +315,7 @@ GENTILICS = {
     "Jebusite", "Amorite", "Girgashite", "Hivite", "Arkite",
     "Sinite", "Arvadite", "Zemarite", "Hamathite", "Ludim",
     "Anamim", "Lehabim", "Naphtuhim", "Pathrusim", "Casluhim",
-    "Caphthorim", "Philistines",
+    "Caphthorim", "Philistines", "Hittite",
 }
 
 # Words that look like names but aren't — filter from extraction
@@ -326,6 +326,7 @@ STOP_NAMES = {
     "God", "Lord", "So", "He", "It", "Behold", "Because", "Therefore",
     "Son", "Syrian", "Ephrathite", "Ammonitess", "Jezreelitess", "Carmelite",
     "Book", "Spirit", "Holy", "Priesthood", "According", "From", "Unto",
+    "Righteousness",
 }
 
 # Known place names that leak into genealogical lists
@@ -340,6 +341,7 @@ PLACE_NAMES = {
     "Beth-lehem-judah", "Ashtaroth", "Golan", "Tabor", "Zereda",
     # Phase 3: 2 Chronicles / prophetic contexts
     "Anathoth", "Beer-sheba", "Libnah", "Mareshah",
+    "Sidon", "Shur",
 }
 
 
@@ -1413,6 +1415,21 @@ def main() -> None:
         print(f"\n  Unresolved names (not in gazetteer):")
         for name in sorted(resolver.unresolved):
             print(f"    - {name}")
+
+    # Filter known false positives before output
+    FALSE_POSITIVES = {
+        ("David", "FATHER_OF", "Eglah"),        # esposa, no hija (2 Sam 3:5)
+        ("David", "FATHER_OF", "Bathsheba"),     # madre de sus hijos, no hija (1 Chr 3:5)
+        ("David", "FATHER_OF", "Eliam"),         # padre de Bathsheba (1 Chr 3:5 name-list noise)
+        ("Bathsheba", "MOTHER_OF", "Eliam"),     # Eliam es padre de Bathsheba, no su hijo
+        ("Abital", "MOTHER_OF", "Eglah"),        # ambas son esposas de David
+        ("Abital", "MOTHER_OF", "Ithream"),      # Ithream es de Eglah, no de Abital (1 Chr 3:3)
+    }
+    before = len(all_relations)
+    all_relations = [r for r in all_relations if r.key not in FALSE_POSITIVES]
+    fp_removed = before - len(all_relations)
+    if fp_removed:
+        print(f"\n  False positives removed: {fp_removed}")
 
     # Write output
     if not args.dry_run:

@@ -856,3 +856,194 @@ class Neo4jClient:
                 logger.info("Neo4j graph cleared (full, %d nodes deleted)", total_deleted)
         # Invalidate query cache
         self._cache.clear()
+
+    # ------------------------------------------------------------------
+    # Genealogy endpoints
+    # ------------------------------------------------------------------
+
+    _FAMILY_RELS = ["FATHER_OF", "MOTHER_OF", "SPOUSE_OF", "DESCENDANT_OF", "ORDAINED_BY"]
+
+    def get_genealogy_tree(
+        self,
+        name: str,
+        direction: str = "both",
+        depth: int = 3,
+        lang: str = "en",
+    ) -> dict:
+        """Build a hierarchical family tree for an entity.
+
+        Args:
+            name: Entity canonical name.
+            direction: "up" (ancestors), "down" (descendants), or "both".
+            depth: Max generations to traverse (1-10).
+            lang: Language for alternate names ("en" or "es").
+
+        Returns:
+            Recursive tree dict with parents/children/spouses.
+        """
+        name = self._resolve_name(name)
+        depth = max(1, min(depth, 10))
+
+        root: dict[str, Any] = {
+            "name": name,
+            "name_alt": self._alt_name(name, lang),
+            "type": "person",
+            "relation": None,
+            "spouses": [],
+            "parents": [],
+            "children": [],
+        }
+
+        with self._driver.session() as session:
+            # Ancestors (who is FATHER_OF/MOTHER_OF me?)
+            if direction in ("up", "both"):
+                result = session.run(
+                    f"MATCH (e:Entity {{name: $name}}) "
+                    f"MATCH path = (ancestor:Entity)-[:FATHER_OF|MOTHER_OF*1..{depth}]->(e) "
+                    f"RETURN [n IN nodes(path) | {{name: n.name, type: n.type}}] AS ns, "
+                    f"       [r IN relationships(path) | {{type: type(r), from: startNode(r).name, to: endNode(r).name}}] AS rs",
+                    name=name,
+                )
+                for record in result:
+                    self._attach_ancestors(root, record["ns"], record["rs"], lang)
+
+            # Descendants (who am I FATHER_OF/MOTHER_OF?)
+            if direction in ("down", "both"):
+                result = session.run(
+                    f"MATCH (e:Entity {{name: $name}}) "
+                    f"MATCH path = (e)-[:FATHER_OF|MOTHER_OF*1..{depth}]->(desc:Entity) "
+                    f"RETURN [n IN nodes(path) | {{name: n.name, type: n.type}}] AS ns, "
+                    f"       [r IN relationships(path) | {{type: type(r), from: startNode(r).name, to: endNode(r).name}}] AS rs",
+                    name=name,
+                )
+                for record in result:
+                    self._attach_descendants(root, record["ns"], record["rs"], lang)
+
+            # Spouses (at root level)
+            result = session.run(
+                "MATCH (e:Entity {name: $name})-[:SPOUSE_OF]-(spouse:Entity) "
+                "RETURN DISTINCT spouse.name AS sn, spouse.type AS st",
+                name=name,
+            )
+            seen_spouses: set[str] = set()
+            for record in result:
+                sn = record["sn"]
+                if sn not in seen_spouses:
+                    seen_spouses.add(sn)
+                    root["spouses"].append({
+                        "name": sn,
+                        "name_alt": self._alt_name(sn, lang),
+                        "type": record["st"] or "person",
+                    })
+
+        return root
+
+    def get_genealogy_path(self, name1: str, name2: str) -> dict:
+        """Find shortest family path between two people.
+
+        Uses Neo4j shortestPath over family relation types.
+
+        Returns:
+            Dict with path (list of nodes) and edges (list of relation info).
+        """
+        name1 = self._resolve_name(name1)
+        name2 = self._resolve_name(name2)
+
+        with self._driver.session() as session:
+            result = session.run(
+                "MATCH (a:Entity {name: $n1}), (b:Entity {name: $n2}) "
+                "MATCH path = shortestPath((a)-[:FATHER_OF|MOTHER_OF|SPOUSE_OF|DESCENDANT_OF*]-(b)) "
+                "RETURN [n IN nodes(path) | {name: n.name, type: n.type}] AS nodes, "
+                "       [r IN relationships(path) | {type: type(r), from: startNode(r).name, to: endNode(r).name}] AS rels",
+                n1=name1,
+                n2=name2,
+            )
+            record = result.single()
+            if record is None:
+                return {"person1": name1, "person2": name2, "path_length": -1, "path": [], "edges": []}
+
+            nodes = record["nodes"]
+            edges = record["rels"]
+            return {
+                "person1": name1,
+                "person2": name2,
+                "path_length": len(edges),
+                "path": nodes,
+                "edges": edges,
+            }
+
+    # --- Genealogy helpers ---
+
+    def _alt_name(self, canonical: str, lang: str) -> str | None:
+        """Return alternate-language name from gazetteer aliases."""
+        if lang == "en":
+            return None  # canonical is already English
+        # Reverse lookup: find aliases for this canonical name
+        data = _build_alias_lookup()
+        # data maps alias→canonical; we need canonical→aliases
+        # For efficiency, scan once (cached gazetteer is small)
+        try:
+            gaz = json.loads(_GAZETTEER_PATH.read_text(encoding="utf-8"))
+            for _type, entries in gaz.items():
+                if not isinstance(entries, list):
+                    continue
+                for entry in entries:
+                    if entry.get("name") == canonical:
+                        aliases = entry.get("aliases", [])
+                        return aliases[0] if aliases else None
+        except Exception:
+            pass
+        return None
+
+    def _attach_ancestors(self, node: dict, ns: list, rs: list, lang: str) -> None:
+        """Attach ancestor path to tree (bottom-up: ns[-1] is root, ns[0] is oldest)."""
+        if len(ns) < 2:
+            return
+        # ns goes from ancestor→...→target; rs[i] connects ns[i]→ns[i+1]
+        # Walk from ns[-2] upward (ns[-1] is the root person)
+        current = node
+        for i in range(len(rs) - 1, -1, -1):
+            parent_info = ns[i]
+            rel_type = rs[i]["type"]
+            pname = parent_info["name"]
+            # Check if parent already in tree
+            existing = next((p for p in current["parents"] if p["name"] == pname), None)
+            if existing is None:
+                parent_node = {
+                    "name": pname,
+                    "name_alt": self._alt_name(pname, lang),
+                    "type": parent_info.get("type", "person"),
+                    "relation": rel_type,
+                    "spouses": [],
+                    "parents": [],
+                    "children": [],
+                }
+                current["parents"].append(parent_node)
+                current = parent_node
+            else:
+                current = existing
+
+    def _attach_descendants(self, node: dict, ns: list, rs: list, lang: str) -> None:
+        """Attach descendant path to tree (top-down: ns[0] is root, ns[-1] is leaf)."""
+        if len(ns) < 2:
+            return
+        current = node
+        for i in range(len(rs)):
+            child_info = ns[i + 1]
+            rel_type = rs[i]["type"]
+            cname = child_info["name"]
+            existing = next((c for c in current["children"] if c["name"] == cname), None)
+            if existing is None:
+                child_node = {
+                    "name": cname,
+                    "name_alt": self._alt_name(cname, lang),
+                    "type": child_info.get("type", "person"),
+                    "relation": rel_type,
+                    "spouses": [],
+                    "parents": [],
+                    "children": [],
+                }
+                current["children"].append(child_node)
+                current = child_node
+            else:
+                current = existing
