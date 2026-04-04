@@ -440,6 +440,503 @@ def _rules_moroni(window: str, source: str) -> tuple[str, str, str] | None:
 
 
 # ---------------------------------------------------------------------------
+# Level 1 expansion: additional ambiguous person-identity rules
+# ---------------------------------------------------------------------------
+
+def _rules_aaron(window: str, source: str) -> tuple[str, str, str] | None:
+    """Aaron — brother of Moses (OT/Bible) vs son of Mosiah (BofM)."""
+    src = _src(source)
+
+    # Aaron son of Mosiah — BofM missionary
+    if re.search(r"aaron.{0,40}(?:son\s+of\s+mosiah|hijo\s+de\s+mos[ií]ah)", window):
+        return ("Aaron (son of Mosiah)", "high", "modifier: son of Mosiah")
+    if re.search(r"aaron.{0,60}(?:ammon.{0,30}(?:brother|hermano)|missionary|misionero"
+                 r"|anti-nephi-lehi|lamanite.{0,20}convert|lamani.{0,20}convert)", window):
+        return ("Aaron (son of Mosiah)", "high",
+                "contextual: Ammon's brother / Lamanite missionary")
+
+    # Source: Alma, Mosiah (BofM) → likely son of Mosiah
+    if re.search(r"/(?:alma|mosiah|mos[ií]ah)/", src):
+        return ("Aaron (son of Mosiah)", "medium",
+                "source file: BofM (likely son of Mosiah)")
+
+    # Aaron brother of Moses — OT context
+    if re.search(r"aaron.{0,40}(?:brother\s+of\s+moses|hermano\s+de\s+mois[eé]s)", window):
+        return ("Aaron (brother of Moses)", "high", "modifier: brother of Moses")
+    if re.search(r"aaron.{0,60}(?:moses|mois[eé]s|rod|vara|golden\s+calf|becerro"
+                 r"|tabernacle|tabern[aá]culo|priesthood|sacerdocio"
+                 r"|high\s+priest|sumo\s+sacerdote|pharaoh|fara[oó]n)", window):
+        return ("Aaron (brother of Moses)", "high",
+                "contextual: Moses/rod/calf/tabernacle/priesthood")
+    if re.search(r"aar[oó]n.{0,60}(?:mois[eé]s|vara|becerro|tabern[aá]culo"
+                 r"|sacerdocio|sumo\s+sacerdote|fara[oó]n)", window):
+        return ("Aaron (brother of Moses)", "high",
+                "contextual: Moisés/vara/becerro/sacerdocio (ES)")
+
+    # Source: Pentateuch, Hebrews
+    if re.search(r"/(?:exodus|[eé]xodo|leviticus|lev[ií]tico|numbers|n[uú]meros"
+                 r"|deuteronomy|deuteronomio|hebrews|hebreos)/", src):
+        return ("Aaron (brother of Moses)", "high",
+                "source file: Pentateuch/Hebrews")
+
+    return None
+
+
+def _rules_ammon(window: str, source: str) -> tuple[str, str, str] | None:
+    """Ammon — son of Mosiah (BofM missionary) vs land/people of Ammon."""
+    src = _src(source)
+
+    # Son of Mosiah — person
+    if re.search(r"ammon.{0,40}(?:son\s+of\s+mosiah|hijo\s+de\s+mos[ií]ah)", window):
+        return ("Ammon (son of Mosiah)", "high", "modifier: son of Mosiah")
+    if re.search(r"ammon.{0,60}(?:king\s+lamoni|rey\s+lamoni|arms?|brazo"
+                 r"|flocks?|reba[nñ]o|servant|siervo|missionary|misionero"
+                 r"|aaron.{0,20}(?:brother|hermano))", window):
+        return ("Ammon (son of Mosiah)", "high",
+                "contextual: Lamoni/arms/flocks/missionary")
+
+    # People of Ammon / Anti-Nephi-Lehies
+    if re.search(r"(?:people|pueblo)\s+of\s+ammon", window):
+        return ("People of Ammon", "high", "modifier: people of Ammon")
+    if re.search(r"ammon.{0,40}(?:anti-nephi-lehi|buried?.{0,20}weapons?"
+                 r"|enterr.{0,20}armas?|covenant.{0,20}(?:not|no).{0,20}fight)", window):
+        return ("People of Ammon", "high",
+                "contextual: Anti-Nephi-Lehies / buried weapons")
+
+    # Source: Alma → likely the missionary
+    if "/alma/" in src:
+        ch = _chapter_num(source)
+        if ch is not None and 17 <= ch <= 28:
+            return ("Ammon (son of Mosiah)", "high",
+                    f"source file: Alma {ch} (Ammon's mission)")
+        if ch is not None and ch >= 43:
+            return ("People of Ammon", "medium",
+                    f"source file: Alma {ch} (war chapters, likely the people)")
+
+    return None
+
+
+def _rules_helaman(window: str, source: str) -> tuple[str, str, str] | None:
+    """Helaman — son of Alma the Younger (father) vs son of Helaman (son)."""
+    src = _src(source)
+
+    # Helaman son of Alma
+    if re.search(r"helaman.{0,40}(?:son\s+of\s+alma|hijo\s+de\s+alma)", window):
+        return ("Helaman (son of Alma)", "high", "modifier: son of Alma")
+    if re.search(r"helam[aá]n.{0,40}(?:hijo\s+de\s+alma)", window):
+        return ("Helaman (son of Alma)", "high", "modifier: hijo de Alma (ES)")
+    if re.search(r"helaman.{0,60}(?:stripling|two\s+thousand|young\s+warriors?"
+                 r"|j[oó]ven.{0,20}guerrero|dos\s+mil)", window):
+        return ("Helaman (son of Alma)", "high",
+                "contextual: stripling warriors / 2000")
+
+    # Helaman son of Helaman (the later prophet/judge)
+    if re.search(r"helaman.{0,40}(?:son\s+of\s+helaman|hijo\s+de\s+helam[aá]n)", window):
+        return ("Helaman (son of Helaman)", "high", "modifier: son of Helaman")
+
+    # Source: book of Alma → the father (son of Alma)
+    if "/alma/" in src:
+        ch = _chapter_num(source)
+        if ch is not None and 36 <= ch <= 62:
+            return ("Helaman (son of Alma)", "high",
+                    f"source file: Alma {ch} (Helaman son of Alma)")
+
+    # Source: book of Helaman → the son
+    if re.search(r"/helaman/", src) or re.search(r"/helam[aá]n/", src):
+        return ("Helaman (son of Helaman)", "high",
+                "source file: book of Helaman")
+
+    return None
+
+
+def _rules_samuel(window: str, source: str) -> tuple[str, str, str] | None:
+    """Samuel — OT prophet / judge vs Samuel the Lamanite (BofM)."""
+    src = _src(source)
+
+    # Samuel the Lamanite — BofM
+    if re.search(r"samuel.{0,30}(?:the\s+)?lamanite", window):
+        return ("Samuel the Lamanite", "high", "modifier: the Lamanite")
+    if re.search(r"samuel.{0,30}(?:el\s+)?lamanita", window):
+        return ("Samuel the Lamanite", "high", "modifier: el Lamanita (ES)")
+    if re.search(r"samuel.{0,60}(?:wall|muro|muralla|prophes.{0,20}(?:christ|cristo)"
+                 r"|five\s+years?|cinco\s+a[nñ]os|sign|se[nñ]al)", window):
+        return ("Samuel the Lamanite", "high",
+                "contextual: wall/prophecy of Christ/five years/sign")
+
+    # Source: Helaman → Samuel the Lamanite
+    if re.search(r"/helaman/", src) or re.search(r"/helam[aá]n/", src):
+        ch = _chapter_num(source)
+        if ch is not None and 13 <= ch <= 16:
+            return ("Samuel the Lamanite", "high",
+                    f"source file: Helaman {ch} (Samuel the Lamanite)")
+
+    # OT Samuel — prophet/judge
+    if re.search(r"samuel.{0,60}(?:anoint|ungi|saul|sa[uú]l|david|eli|el[ií]"
+                 r"|hannah|ana\b|ark|arca|philistin|filisteo)", window):
+        return ("Samuel (OT prophet)", "high",
+                "contextual: anoint/Saul/David/Eli/Hannah")
+
+    # Source: 1-2 Samuel
+    if re.search(r"/(?:1|2)-?samuel/", src):
+        return ("Samuel (OT prophet)", "high", "source file: 1-2 Samuel")
+
+    return None
+
+
+def _rules_noah(window: str, source: str) -> tuple[str, str, str] | None:
+    """Noah — the patriarch (Genesis) vs King Noah (BofM, wicked king)."""
+    src = _src(source)
+
+    # King Noah — BofM
+    if re.search(r"(?:king|rey)\s+no(?:ah|é)", window):
+        return ("King Noah", "high", "modifier: King Noah")
+    if re.search(r"no(?:ah|é).{0,60}(?:abinadi|wicked|inicuo|malvad|priest"
+                 r"|sacerdote.{0,20}(?:wicked|inicuo)|noah.{0,20}court"
+                 r"|alma.{0,30}(?:fled|huy))", window):
+        return ("King Noah", "high",
+                "contextual: Abinadi/wicked/priests of Noah")
+
+    # Source: Mosiah (BofM) → King Noah
+    if re.search(r"/(?:mosiah|mos[ií]ah)/", src):
+        ch = _chapter_num(source)
+        if ch is not None and 11 <= ch <= 23:
+            return ("King Noah", "high",
+                    f"source file: Mosiah {ch} (King Noah narrative)")
+
+    # Noah patriarch — flood
+    if re.search(r"no(?:ah|é).{0,60}(?:flood|diluvio|ark|arca|rain|lluvia"
+                 r"|dove|paloma|rainbow|arco\s*iris|cubit|codo"
+                 r"|shem|sem\b|ham|cam\b|japheth|jafet)", window):
+        return ("Noah (patriarch)", "high",
+                "contextual: flood/ark/dove/rainbow/sons")
+
+    # Source: Genesis, Moses (PGP)
+    if re.search(r"/(?:genesis|g[eé]nesis)/", src):
+        ch = _chapter_num(source)
+        if ch is not None and 5 <= ch <= 10:
+            return ("Noah (patriarch)", "high",
+                    f"source file: Genesis {ch} (Noah narrative)")
+    if re.search(r"/(?:moses|mois[eé]s)/", src):
+        return ("Noah (patriarch)", "medium", "source file: Moses (PGP)")
+
+    return None
+
+
+def _rules_herod(window: str, source: str) -> tuple[str, str, str] | None:
+    """Herod — the Great, Antipas, Agrippa I, Agrippa II."""
+    src = _src(source)
+    ch = _chapter_num(source)
+
+    # Herod the Great — nativity, massacre of innocents
+    if re.search(r"herod.{0,60}(?:(?:wise\s+)?men|mago|born|naci|bethlehem|bel[eé]n"
+                 r"|innocents?|inocente|slaughter|matan|massacre)", window):
+        return ("Herod the Great", "high",
+                "contextual: nativity / wise men / massacre of innocents")
+    if re.search(r"herodes.{0,60}(?:magos?|naci|bel[eé]n|inocente|matan)", window):
+        return ("Herod the Great", "high",
+                "contextual: natividad / magos / matanza (ES)")
+    # Matthew 2
+    if re.search(r"/(?:matthew|mateo)/", src) and ch is not None and ch == 2:
+        return ("Herod the Great", "high", "source file: Matthew 2 (nativity)")
+
+    # Herod Antipas — beheaded John the Baptist, trial of Jesus
+    if re.search(r"herod.{0,30}antipas", window):
+        return ("Herod Antipas", "high", "modifier: Antipas")
+    if re.search(r"herod.{0,60}(?:john.{0,20}baptist|juan.{0,20}bautista"
+                 r"|behead|decapit|salome|salom[eé]|herodias|herod[ií]as"
+                 r"|dance|danz|fox|zorra)", window):
+        return ("Herod Antipas", "high",
+                "contextual: John Baptist / beheading / Herodias / fox")
+    # Mark 6, Luke 23 (trial), Matthew 14
+    if re.search(r"/(?:mark|marcos)/", src) and ch == 6:
+        return ("Herod Antipas", "high", "source file: Mark 6 (beheading)")
+    if re.search(r"/(?:luke|lucas)/", src) and ch == 23:
+        return ("Herod Antipas", "high", "source file: Luke 23 (trial of Jesus)")
+
+    # Herod Agrippa I — killed James, imprisoned Peter (Acts 12)
+    if re.search(r"herod.{0,30}agrippa", window):
+        return ("Herod Agrippa I", "high", "modifier: Agrippa")
+    if re.search(r"/(?:acts|hechos)/", src) and ch is not None and ch == 12:
+        return ("Herod Agrippa I", "high",
+                "source file: Acts 12 (killed James, imprisoned Peter)")
+
+    # Herod Agrippa II — Paul's defense (Acts 25-26)
+    if re.search(r"/(?:acts|hechos)/", src) and ch is not None and 25 <= ch <= 26:
+        return ("Herod Agrippa II", "medium",
+                f"source file: Acts {ch} (Paul before Agrippa)")
+
+    return None
+
+
+def _rules_simon(window: str, source: str) -> tuple[str, str, str] | None:
+    """Simon — multiple NT individuals (not Peter, handled separately)."""
+    # Simon the Zealot
+    if re.search(r"simon.{0,20}(?:the\s+)?zealot", window):
+        return ("Simon the Zealot", "high", "modifier: Zealot")
+    if re.search(r"sim[oó]n.{0,20}(?:el\s+)?(?:zelote|cananeo|celador)", window):
+        return ("Simon the Zealot", "high", "modifier: Zelote/Cananeo (ES)")
+
+    # Simon of Cyrene — carried the cross
+    if re.search(r"simon.{0,20}(?:of\s+)?cyrene", window):
+        return ("Simon of Cyrene", "high", "modifier: of Cyrene")
+    if re.search(r"sim[oó]n.{0,20}(?:de\s+)?cirene", window):
+        return ("Simon of Cyrene", "high", "modifier: de Cirene (ES)")
+    if re.search(r"simon.{0,40}(?:cross|cruz|carry|carg|compel|oblig)", window):
+        return ("Simon of Cyrene", "high", "contextual: carried the cross")
+
+    # Simon Magus — sorcerer in Acts 8
+    if re.search(r"simon.{0,20}(?:magus|the\s+sorcerer)", window):
+        return ("Simon Magus", "high", "modifier: Magus/sorcerer")
+    if re.search(r"sim[oó]n.{0,20}(?:mago|el\s+hechicero)", window):
+        return ("Simon Magus", "high", "modifier: Mago/hechicero (ES)")
+    if re.search(r"simon.{0,60}(?:sorcery|hechic|buy.{0,20}(?:gift|power|holy)"
+                 r"|compr.{0,20}(?:don|poder|santo))", window):
+        return ("Simon Magus", "high", "contextual: sorcery / buy the gift")
+
+    # Simon the Pharisee — anointing at his house (Luke 7)
+    if re.search(r"simon.{0,20}(?:the\s+)?pharisee", window):
+        return ("Simon the Pharisee", "high", "modifier: Pharisee")
+    if re.search(r"sim[oó]n.{0,20}(?:el\s+)?fariseo", window):
+        return ("Simon the Pharisee", "high", "modifier: Fariseo (ES)")
+
+    # Simon the tanner — Acts 9-10
+    if re.search(r"simon.{0,20}(?:the\s+)?tanner", window):
+        return ("Simon the Tanner", "high", "modifier: tanner")
+    if re.search(r"sim[oó]n.{0,20}(?:el\s+)?curtidor", window):
+        return ("Simon the Tanner", "high", "modifier: curtidor (ES)")
+
+    return None
+
+
+def _rules_philip(window: str, source: str) -> tuple[str, str, str] | None:
+    """Philip — the apostle vs the evangelist/deacon (Acts 6-8)."""
+    src = _src(source)
+    ch = _chapter_num(source)
+
+    # Philip the Evangelist — Ethiopian eunuch, Samaria
+    if re.search(r"philip.{0,30}(?:evangelist|deacon|di[aá]cono)", window):
+        return ("Philip the Evangelist", "high", "modifier: evangelist/deacon")
+    if re.search(r"philip.{0,60}(?:ethiopi|et[ií]ope|eunuch|eunuco"
+                 r"|samaria|chariot|carro|gaza)", window):
+        return ("Philip the Evangelist", "high",
+                "contextual: Ethiopian eunuch / Samaria / Gaza")
+    if re.search(r"/(?:acts|hechos)/", src) and ch is not None and ch in (6, 8, 21):
+        return ("Philip the Evangelist", "high",
+                f"source file: Acts {ch} (Philip the Evangelist)")
+
+    # Philip the Apostle — one of the twelve
+    if re.search(r"philip.{0,40}(?:andrew|andr[eé]s|nathanael|natanael"
+                 r"|bartholomew|bartolom[eé])", window):
+        return ("Philip the Apostle", "high",
+                "contextual: paired with Andrew/Nathanael (apostolic)")
+    # John 1, 6, 12, 14 — Philip the apostle
+    if re.search(r"/(?:john|juan)/", src) and ch is not None and ch in (1, 6, 12, 14):
+        return ("Philip the Apostle", "medium",
+                f"source file: John {ch} (likely the apostle)")
+
+    return None
+
+
+def _rules_ananias(window: str, source: str) -> tuple[str, str, str] | None:
+    """Ananias — who baptized Paul (Acts 9) vs husband of Sapphira (Acts 5)
+    vs high priest (Acts 23)."""
+    src = _src(source)
+    ch = _chapter_num(source)
+
+    # Ananias who baptized Paul
+    if re.search(r"ananias.{0,60}(?:saul|paul|pablo|damascus|damas[ck]o"
+                 r"|scales?|escamas?|vision|visi[oó]n|baptiz|bautiz)", window):
+        return ("Ananias (of Damascus)", "high",
+                "contextual: Saul/Paul / Damascus / scales / baptize")
+    if re.search(r"/(?:acts|hechos)/", src) and ch == 9:
+        return ("Ananias (of Damascus)", "high",
+                "source file: Acts 9 (Ananias baptizes Saul)")
+
+    # Ananias husband of Sapphira — lied, died
+    if re.search(r"ananias.{0,60}(?:sapphira|safira|lied|minti[oó]|dead|muert"
+                 r"|fell\s+down|cay[oó]|feet|pies)", window):
+        return ("Ananias (husband of Sapphira)", "high",
+                "contextual: Sapphira / lied / fell dead")
+    if re.search(r"/(?:acts|hechos)/", src) and ch == 5:
+        return ("Ananias (husband of Sapphira)", "high",
+                "source file: Acts 5 (Ananias and Sapphira)")
+
+    # Ananias the high priest
+    if re.search(r"ananias.{0,40}(?:high\s+priest|sumo\s+sacerdote)", window):
+        return ("Ananias (high priest)", "high", "modifier: high priest")
+    if re.search(r"/(?:acts|hechos)/", src) and ch is not None and 23 <= ch <= 24:
+        return ("Ananias (high priest)", "medium",
+                f"source file: Acts {ch} (Ananias the high priest)")
+
+    return None
+
+
+def _rules_benjamin(window: str, source: str) -> tuple[str, str, str] | None:
+    """Benjamin — OT tribe (son of Jacob) vs King Benjamin (BofM)."""
+    src = _src(source)
+
+    # King Benjamin — BofM
+    if re.search(r"(?:king|rey)\s+benjamin", window):
+        return ("King Benjamin", "high", "modifier: King Benjamin")
+    if re.search(r"benjamin.{0,60}(?:tower|torre|speech|discurso|service|servicio"
+                 r"|mosiah|mos[ií]ah|people.{0,20}(?:gathered|reunid)"
+                 r"|name.{0,20}(?:christ|cristo))", window):
+        return ("King Benjamin", "high",
+                "contextual: tower/speech/service/Mosiah")
+
+    # Source: Mosiah 1-6
+    if re.search(r"/(?:mosiah|mos[ií]ah)/", src):
+        ch = _chapter_num(source)
+        if ch is not None and 1 <= ch <= 6:
+            return ("King Benjamin", "high",
+                    f"source file: Mosiah {ch} (King Benjamin's address)")
+
+    # OT Benjamin — son of Jacob, tribe
+    if re.search(r"benjamin.{0,60}(?:son\s+of\s+jacob|hijo\s+de\s+jacob"
+                 r"|rachel|raquel|tribe|tribu|wolf|lobo)", window):
+        return ("Benjamin (son of Jacob)", "high",
+                "contextual: son of Jacob / Rachel / tribe / wolf")
+
+    # Source: Genesis
+    if re.search(r"/(?:genesis|g[eé]nesis)/", src):
+        return ("Benjamin (son of Jacob)", "medium",
+                "source file: Genesis (OT patriarch)")
+
+    return None
+
+
+def _rules_gideon(window: str, source: str) -> tuple[str, str, str] | None:
+    """Gideon — OT judge vs BofM warrior/city."""
+    src = _src(source)
+
+    # BofM Gideon — fought King Noah, later a city/valley
+    if re.search(r"gideon.{0,60}(?:noah|no[eé]|king|rey|sword|espada"
+                 r"|city|ciudad|valley|valle|alma)", window):
+        return ("Gideon (BofM)", "medium",
+                "contextual: BofM (Noah/city/valley)")
+    if re.search(r"/(?:mosiah|mos[ií]ah|alma)/", src):
+        return ("Gideon (BofM)", "medium",
+                "source file: BofM (Mosiah/Alma)")
+
+    # OT Gideon — judge, fleece, 300 men
+    if re.search(r"gideon.{0,60}(?:fleece|vell[oó]n|midian|madi[aá]n|three\s+hundred"
+                 r"|trescientos|trumpet|trompeta|torch|antorcha|pitcher|c[aá]ntaro"
+                 r"|jerubbaal)", window):
+        return ("Gideon (OT judge)", "high",
+                "contextual: fleece/Midian/300/trumpets/Jerubbaal")
+
+    # Source: Judges
+    if re.search(r"/(?:judges|jueces)/", src):
+        return ("Gideon (OT judge)", "high", "source file: Judges")
+
+    return None
+
+
+def _rules_ishmael(window: str, source: str) -> tuple[str, str, str] | None:
+    """Ishmael — son of Abraham (OT) vs Ishmael of BofM (Lehi's companion)."""
+    src = _src(source)
+
+    # BofM Ishmael — companion of Lehi
+    if re.search(r"ishmael.{0,60}(?:lehi|leh[ií]|daughters?|hijas?"
+                 r"|nephi|nefi|laman|lam[aá]n|wilderness|desierto)", window):
+        return ("Ishmael (BofM)", "high",
+                "contextual: Lehi/daughters/Nephi/wilderness")
+    if re.search(r"ismael.{0,60}(?:leh[ií]|hijas?|nefi|lam[aá]n|desierto)", window):
+        return ("Ishmael (BofM)", "high",
+                "contextual: Lehí/hijas/Nefi/desierto (ES)")
+    if re.search(r"/(?:1-nephi|1-nefi|2-nephi|2-nefi)/", src):
+        return ("Ishmael (BofM)", "medium",
+                "source file: 1-2 Nephi (BofM Ishmael)")
+
+    # OT Ishmael — son of Abraham
+    if re.search(r"ishmael.{0,60}(?:abraham|hagar|agar|sarah|sara\b|son\s+of\s+abraham"
+                 r"|hijo\s+de\s+abraham|twelve\s+princes|doce\s+pr[ií]ncipes"
+                 r"|arab|desert|wild\s+man)", window):
+        return ("Ishmael (son of Abraham)", "high",
+                "contextual: Abraham/Hagar/Sarah/twelve princes")
+
+    # Source: Genesis
+    if re.search(r"/(?:genesis|g[eé]nesis)/", src):
+        return ("Ishmael (son of Abraham)", "medium",
+                "source file: Genesis")
+
+    return None
+
+
+def _rules_mosiah(window: str, source: str) -> tuple[str, str, str] | None:
+    """Mosiah — Mosiah I (fled land of Nephi) vs Mosiah II (son of Benjamin)."""
+    src = _src(source)
+
+    # Mosiah II — son of King Benjamin, the more prominent one
+    if re.search(r"mosiah.{0,40}(?:son\s+of\s+benjamin|hijo\s+de\s+benjam[ií]n)", window):
+        return ("Mosiah II", "high", "modifier: son of Benjamin")
+    if re.search(r"mosiah.{0,60}(?:alma|limhi|sons?\s+of\s+mosiah|hijos?\s+de\s+mos[ií]ah"
+                 r"|translated?|traduc|interpreters?|int[eé]rprete"
+                 r"|reign|gobierno|judges?|jueces?)", window):
+        return ("Mosiah II", "high",
+                "contextual: Alma/Limhi/sons of Mosiah/interpreters/judges")
+
+    # Source: book of Mosiah chapters 25+
+    if re.search(r"/(?:mosiah|mos[ií]ah)/", src):
+        ch = _chapter_num(source)
+        if ch is not None and ch >= 7:
+            return ("Mosiah II", "high",
+                    f"source file: Mosiah {ch} (Mosiah II reign)")
+        if ch is not None and ch <= 6:
+            return ("Mosiah II", "medium",
+                    f"source file: Mosiah {ch} (King Benjamin → Mosiah II)")
+
+    # Mosiah I — fled land of Nephi, discovered Zarahemla
+    if re.search(r"mosiah.{0,60}(?:fled|huy[oó]|land\s+of\s+nephi|tierra\s+de\s+nefi"
+                 r"|discover|descubri|zarahemla|people\s+of\s+zarahemla"
+                 r"|warned|advert)", window):
+        return ("Mosiah I", "medium",
+                "contextual: fled land of Nephi / discovered Zarahemla")
+
+    # Source: Omni
+    if re.search(r"/(?:omni|omn[ií])/", src):
+        return ("Mosiah I", "medium", "source file: Omni (Mosiah I narrative)")
+
+    return None
+
+
+def _rules_lamoni(window: str, source: str) -> tuple[str, str, str] | None:
+    """Lamoni — King Lamoni vs his father (the 'old king')."""
+    src = _src(source)
+    ch = _chapter_num(source)
+
+    # Lamoni's father — the "old king" / "king over all the land"
+    if re.search(r"lamoni.{0,30}(?:father|padre)", window):
+        return ("Lamoni's father", "high", "modifier: father of Lamoni")
+    if re.search(r"(?:father|padre).{0,30}(?:of\s+)?lamoni", window):
+        return ("Lamoni's father", "high", "modifier: father of Lamoni")
+    if re.search(r"lamoni.{0,60}(?:king\s+over\s+all|rey\s+sobre\s+todo"
+                 r"|old\s+king|viejo\s+rey)", window):
+        return ("Lamoni's father", "high",
+                "contextual: king over all the land")
+
+    # King Lamoni — Ammon's convert
+    if re.search(r"(?:king|rey)\s+lamoni", window):
+        return ("King Lamoni", "high", "modifier: King Lamoni")
+    if re.search(r"lamoni.{0,60}(?:ammon|am[oó]n|flocks?|reba[nñ]o"
+                 r"|servants?|siervo|fainted?|desma|fell|cay[oó]"
+                 r"|convert|conver)", window):
+        return ("King Lamoni", "high",
+                "contextual: Ammon/flocks/servants/fainted/converted")
+
+    # Source: Alma 17-22
+    if "/alma/" in src and ch is not None:
+        if 17 <= ch <= 19:
+            return ("King Lamoni", "high",
+                    f"source file: Alma {ch} (King Lamoni conversion)")
+        if 20 <= ch <= 22:
+            return ("Lamoni's father", "medium",
+                    f"source file: Alma {ch} (Lamoni's father conversion)")
+
+    return None
+
+
+# ---------------------------------------------------------------------------
 # Level 1 additions: alternate names for the same person
 # ---------------------------------------------------------------------------
 
@@ -1113,6 +1610,33 @@ _DISAMBIGUATION_RULES: dict[str, _RuleFn] = {
     "alma": _rules_alma,
     "moroni": _rules_moroni,
     "moroní": _rules_moroni,       # ES alias
+    # Level 1 expansion
+    "aaron": _rules_aaron,
+    "aarón": _rules_aaron,
+    "ammon": _rules_ammon,
+    "ammón": _rules_ammon,
+    "helaman": _rules_helaman,
+    "helamán": _rules_helaman,
+    "samuel": _rules_samuel,
+    "noah": _rules_noah,
+    "noé": _rules_noah,
+    "herod": _rules_herod,
+    "herodes": _rules_herod,
+    "simon": _rules_simon,
+    "simón": _rules_simon,
+    "philip": _rules_philip,
+    "felipe": _rules_philip,
+    "ananias": _rules_ananias,
+    "ananías": _rules_ananias,
+    "benjamin": _rules_benjamin,
+    "benjamín": _rules_benjamin,
+    "gideon": _rules_gideon,
+    "gedeón": _rules_gideon,
+    "ishmael": _rules_ishmael,
+    "ismael": _rules_ishmael,
+    "mosiah": _rules_mosiah,
+    "mosíah": _rules_mosiah,
+    "lamoni": _rules_lamoni,
     # Alternate-name aliases (same person, multiple names)
     "peter": _rules_peter,
     "pedro": _rules_peter,
