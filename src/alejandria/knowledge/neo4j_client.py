@@ -237,6 +237,63 @@ class Neo4jClient:
                 file_path=file_path,
             )
 
+    def _resolve_name(self, name: str) -> str:
+        """Resolve an alias or variant name to the canonical node name in Neo4j.
+
+        Tries exact match first, then case-insensitive, then alias lookup.
+        Returns the canonical name if found, otherwise the original input.
+        """
+        cache_key = f"resolve_name:{name}"
+
+        def _query():
+            with self._driver.session() as session:
+                # 1. Exact match (fast, indexed)
+                result = session.run(
+                    "MATCH (e:Entity {name: $name}) RETURN e.name AS name LIMIT 1",
+                    name=name,
+                )
+                record = result.single()
+                if record:
+                    return record["name"]
+
+                # 2. Case-insensitive match
+                result = session.run(
+                    "MATCH (e:Entity) WHERE toLower(e.name) = toLower($name) "
+                    "RETURN e.name AS name LIMIT 1",
+                    name=name,
+                )
+                record = result.single()
+                if record:
+                    return record["name"]
+
+                # 3. Alias lookup — the name might be an alias stored on another node
+                result = session.run(
+                    "MATCH (e:Entity) WHERE $name IN e.aliases "
+                    "RETURN e.name AS name LIMIT 1",
+                    name=name,
+                )
+                record = result.single()
+                if record:
+                    return record["name"]
+
+                # 4. Case-insensitive alias lookup
+                result = session.run(
+                    "MATCH (e:Entity) WHERE any(a IN e.aliases WHERE toLower(a) = toLower($name)) "
+                    "RETURN e.name AS name LIMIT 1",
+                    name=name,
+                )
+                record = result.single()
+                if record:
+                    return record["name"]
+
+                return name
+
+        return self._cached(cache_key, _query)
+
+    def _resolve_names(self, names: list[str]) -> list[str]:
+        """Resolve a list of names to their canonical forms."""
+        return [self._resolve_name(n) for n in names]
+
     def find_node(self, search: str, entity_type: str | None = None, limit: int = 20) -> list[dict]:
         """Search for entities by partial name match."""
         cache_key = f"find_node:{search}:{entity_type}:{limit}"
@@ -267,6 +324,7 @@ class Neo4jClient:
         self, name: str, depth: int = 1, relation_types: list[str] | None = None, limit: int = 50
     ) -> dict:
         """Get neighboring nodes and edges for an entity."""
+        name = self._resolve_name(name)
         rel_filter = ""
         if relation_types:
             types_str = "|".join(relation_types)
@@ -297,6 +355,7 @@ class Neo4jClient:
 
     def get_documents_for_entity(self, name: str) -> list[dict]:
         """Find documents that mention an entity."""
+        name = self._resolve_name(name)
         with self._driver.session() as session:
             result = session.run(
                 "MATCH (e:Entity {name: $name})-[:MENTIONED_IN]->(d:Document) "
@@ -367,6 +426,8 @@ class Neo4jClient:
         """
         if not entity_names:
             return []
+
+        entity_names = self._resolve_names(entity_names)
 
         confidence_order = {
             "curated": 6, "metadata": 5, "llm_high": 4,
@@ -601,7 +662,7 @@ class Neo4jClient:
         """Get relations for an entity, optionally filtered by confidence and type.
 
         Args:
-            entity_name: Entity to query
+            entity_name: Entity to query (alias or canonical name — resolved automatically)
             confidence_min: Minimum confidence level
                 (curated > metadata > llm_high > llm_low > ner > co_occurrence)
             rel_types: Filter to specific relation types
@@ -609,6 +670,8 @@ class Neo4jClient:
 
         Returns list of dicts with: from_name, from_type, rel_type, to_name, to_type, properties
         """
+        entity_name = self._resolve_name(entity_name)
+
         confidence_order = {
             "curated": 6, "metadata": 5, "llm_high": 4,
             "llm_low": 3, "ner": 2, "co_occurrence": 1,
