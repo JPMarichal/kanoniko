@@ -48,4 +48,4 @@ feeds_into: ""
 - **SM** — Sacerdocio de Melquisedec
 
 **Fuentes no escriturarias:**
-- **GEE** — *Guía para el Estudio de las Escrituras* (entrada: "Juan hijo de Zebedeo")
+- **GEE** — *Guía para el Estudio de las Escrituras*; tópico citado: "Juan hijo de Zebedeo"
