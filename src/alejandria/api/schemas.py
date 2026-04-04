@@ -164,6 +164,7 @@ class EntityProfileResponse(BaseModel):
     summary_en: str | None = None
     summary_es: str | None = None
     disambiguation_notes: str | None = None
+    disambiguated_counts: dict[str, int] = {}
     profile_version: int
     status: str
 

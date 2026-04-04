@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS entity_profiles (
     summary_en    TEXT,
     summary_es    TEXT,
     disambiguation_notes TEXT,
+    disambiguated_counts TEXT NOT NULL DEFAULT '{}',
     profile_version INTEGER NOT NULL DEFAULT 0,
     status        TEXT    NOT NULL DEFAULT 'metadata',
     PRIMARY KEY (entity_name, entity_type)
@@ -49,6 +50,7 @@ class EntityProfile:
     summary_en: str | None = None
     summary_es: str | None = None
     disambiguation_notes: str | None = None
+    disambiguated_counts: dict[str, int] = field(default_factory=dict)
     profile_version: int = 0
     status: str = "metadata"
 
@@ -65,6 +67,7 @@ class EntityProfile:
             "summary_en": self.summary_en,
             "summary_es": self.summary_es,
             "disambiguation_notes": self.disambiguation_notes,
+            "disambiguated_counts": self.disambiguated_counts,
             "profile_version": self.profile_version,
             "status": self.status,
         }
@@ -86,6 +89,13 @@ class ProfileStore:
         conn = self._get_conn()
         try:
             conn.execute(_CREATE_TABLE)
+            # Migration: add disambiguated_counts column if missing (P7)
+            try:
+                conn.execute(
+                    "ALTER TABLE entity_profiles ADD COLUMN disambiguated_counts TEXT NOT NULL DEFAULT '{}'"
+                )
+            except sqlite3.OperationalError:
+                pass  # column already exists
             conn.commit()
         finally:
             conn.close()
@@ -100,8 +110,8 @@ class ProfileStore:
                    (entity_name, entity_type, mention_count, document_count,
                     books, key_passages, aliases, disambiguator,
                     summary_en, summary_es, disambiguation_notes,
-                    profile_version, status)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    disambiguated_counts, profile_version, status)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                    ON CONFLICT(entity_name, entity_type) DO UPDATE SET
                     mention_count = excluded.mention_count,
                     document_count = excluded.document_count,
@@ -112,6 +122,7 @@ class ProfileStore:
                     summary_en = excluded.summary_en,
                     summary_es = excluded.summary_es,
                     disambiguation_notes = excluded.disambiguation_notes,
+                    disambiguated_counts = excluded.disambiguated_counts,
                     profile_version = excluded.profile_version,
                     status = excluded.status
                 """,
@@ -127,6 +138,7 @@ class ProfileStore:
                     profile.summary_en,
                     profile.summary_es,
                     profile.disambiguation_notes,
+                    json.dumps(profile.disambiguated_counts, ensure_ascii=False),
                     profile.profile_version,
                     profile.status,
                 ),
@@ -144,8 +156,8 @@ class ProfileStore:
                    (entity_name, entity_type, mention_count, document_count,
                     books, key_passages, aliases, disambiguator,
                     summary_en, summary_es, disambiguation_notes,
-                    profile_version, status)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    disambiguated_counts, profile_version, status)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                    ON CONFLICT(entity_name, entity_type) DO UPDATE SET
                     mention_count = excluded.mention_count,
                     document_count = excluded.document_count,
@@ -156,6 +168,7 @@ class ProfileStore:
                     summary_en = COALESCE(entity_profiles.summary_en, excluded.summary_en),
                     summary_es = COALESCE(entity_profiles.summary_es, excluded.summary_es),
                     disambiguation_notes = COALESCE(entity_profiles.disambiguation_notes, excluded.disambiguation_notes),
+                    disambiguated_counts = excluded.disambiguated_counts,
                     profile_version = excluded.profile_version,
                     status = CASE
                         WHEN entity_profiles.status = 'profiled' AND excluded.status = 'metadata'
@@ -170,7 +183,9 @@ class ProfileStore:
                         json.dumps(p.key_passages, ensure_ascii=False),
                         json.dumps(p.aliases, ensure_ascii=False),
                         p.disambiguator, p.summary_en, p.summary_es,
-                        p.disambiguation_notes, p.profile_version, p.status,
+                        p.disambiguation_notes,
+                        json.dumps(p.disambiguated_counts, ensure_ascii=False),
+                        p.profile_version, p.status,
                     )
                     for p in profiles
                 ],
@@ -343,6 +358,7 @@ class ProfileStore:
             summary_en=row["summary_en"],
             summary_es=row["summary_es"],
             disambiguation_notes=row["disambiguation_notes"],
+            disambiguated_counts=json.loads(row["disambiguated_counts"]) if row["disambiguated_counts"] else {},
             profile_version=row["profile_version"],
             status=row["status"],
         )
