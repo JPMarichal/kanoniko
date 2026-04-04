@@ -1,0 +1,62 @@
+{
+  "title": "Common Consent",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/common-consent?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Joseph Smith, “History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],” 27, 37,josephsmithpapers.org."
+    },
+    {
+      "marker": "10.",
+      "text": "See Russell M. Nelson, “Sustaining the Prophets,”EnsignorLiahona,Nov. 2014, 74–77; Ronald A. Rasband, “Standing with the Leaders of the Church,”EnsignorLiahona,May 2016, 46–49."
+    },
+    {
+      "marker": "2.",
+      "text": "Historical Introduction to “Appendix 3: ‘Articles of the Church of Christ,’ June 1829,”josephsmithpapers.org; Joseph Smith, “History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],” 27; “Revelation, July 1830–B [D&C 26],” in Revelation Book 1, 34,josephsmithpapers.org. SeeDoctrine and Covenants 26:2."
+    },
+    {
+      "marker": "3.",
+      "text": "See David Elliott,Letters, on the General Structure, Government, Laws and Discipline of the Church(Chambersburg, PA: G. K. Harper, 1826), 120–26;The Book of Common Prayer, and Administration of the Sacraments, and Other Rites and Ceremonies of the Church, According to the Use of the Protestant Episcopal Church in the United States of America: Together with the Psalter, or Psalms of David(New York: T. & J. Swords, 1810), vii."
+    },
+    {
+      "marker": "4.",
+      "text": "Common Consent, the Basis of the Constitution of England; or, Parliamentary Reform Considered and Tried by the Tests of Law and Reason(London: Thomas and Joseph Allman, 1817)."
+    },
+    {
+      "marker": "5.",
+      "text": "See David S. Shields,Civil Tongues and Polite Letters in British America(Chapel Hill: University of North Carolina Press, 1997), 182–84; Peter Dobkin Hall,The Organization of American Culture, 1700–1900: Private Institutions, Elites, and the Origins of American Nationality(New York: New York University Press, 1982), 1–2, 24–25."
+    },
+    {
+      "marker": "6.",
+      "text": "See David Keith Stott, “Legal Insights into the Organization of the Church in 1830,”BYU Studies,vol. 49, no. 2 (2010), 121–48."
+    },
+    {
+      "marker": "7.",
+      "text": "“Revelation, 19 January 1841 [D&C 124],” in Book of the Law of the Lord, 14–15,josephsmithpapers.org."
+    },
+    {
+      "marker": "8.",
+      "text": "Joseph Smith, “History, 1838–1856, volume C-1 [2 November 1838–31 July 1842],” 1193,josephsmithpapers.org."
+    },
+    {
+      "marker": "9.",
+      "text": "“Minutes of a Special Conference,”Times and Seasons,vol. 4, no. 21 (Sept. 15, 1843), 329–30."
+    }
+  ],
+  "scripture_refs": [
+    "D&C 26",
+    "Doctrine and Covenants 26:2"
+  ]
+}

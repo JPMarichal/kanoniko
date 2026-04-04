@@ -1,0 +1,61 @@
+{
+  "title": "Doctrine and Covenants",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/doctrine-covenants?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 10,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Book of Commandments; Historical Introduction to “Doctrine and Covenants, 1835,”josephsmithpapers.org."
+    },
+    {
+      "marker": "10.",
+      "text": "“Summary of Approved Adjustments for the 2013 Edition of the Scriptures,”LDS.org."
+    },
+    {
+      "marker": "2.",
+      "text": "“Minutes, 17 August 1835,” in Minute Book 1, 76,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "“Minutes, 17 August 1835,” in Minute Book 1, 98,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topic:Lectures on Faith."
+    },
+    {
+      "marker": "5.",
+      "text": "Richard E. Turley Jr. and William W. Slaughter,How We Got the Doctrine and Covenants(Salt Lake City: Deseret Book, 2012), 56."
+    },
+    {
+      "marker": "6.",
+      "text": "See Historical Introduction to “Doctrine and Covenants, 1844,”josephsmithpapers.org."
+    },
+    {
+      "marker": "7.",
+      "text": "Sections 132, 110, 87, 121, 122, and 123, respectively. See Turley and Slaughter,How We Got the Doctrine and Covenants,71–89."
+    },
+    {
+      "marker": "8.",
+      "text": "See Topic:Lectures on Faith."
+    },
+    {
+      "marker": "9.",
+      "text": "Turley and Slaughter,How We Got the Doctrine and Covenants,101–21."
+    }
+  ],
+  "scripture_refs": [
+    "Introduction"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Seminarios e Institutos",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/seminaries-and-institutes?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 9,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase el tema:Academias de la Iglesia."
+    },
+    {
+      "marker": "2.",
+      "text": "By Study and Also by Faith: One Hundred Years of Seminaries and Institutes of Religion,Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 2015, págs. 34–39."
+    },
+    {
+      "marker": "3.",
+      "text": "By Study and Also by Faith, págs. 40, 43–50."
+    },
+    {
+      "marker": "4.",
+      "text": "VéaseBy Study and Also by Faith, págs. 53–56."
+    },
+    {
+      "marker": "5.",
+      "text": "VéaseBy Study and Also by Faith, págs. 63–83, 603."
+    },
+    {
+      "marker": "6.",
+      "text": "VéaseBy Study and Also by Faith, págs. 63, 99–106."
+    },
+    {
+      "marker": "7.",
+      "text": "VéaseBy Study and Also by Faith, págs. 139–141."
+    },
+    {
+      "marker": "8.",
+      "text": "VéaseBy Study and Also by Faith, págs. 120–130; La Iglesia de Jesucristo de los Santos de los Últimos Días, “Early-Morning Seminary Celebrates 60 Years”,Church News, 27 de septiembre de 2010,ChurchofJesusChrist.org/church/news/early-morning-seminary-celebrates-60-years."
+    },
+    {
+      "marker": "9.",
+      "text": "Véase “Facts and Statistics: Education”,newsroom.ChurchofJesusChrist.org."
+    }
+  ]
+}

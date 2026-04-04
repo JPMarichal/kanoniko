@@ -1,0 +1,26 @@
+{
+  "title": "Compañías de carros de mano",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/handcart-companies?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase “Full Company List”, Mormon Pioneer Overland Travel database,history.ChurchofJesusChrist.org. Véanse Temas:Emigración,Éxodo de los pioneros."
+    },
+    {
+      "marker": "2.",
+      "text": "El relato tradicional de que tres jóvenes rescatadores transportaron a una compañía entera a través del río Sweetwater y murieron como consecuencia del rescate, y que se les prometió la vida eterna sobre la base de ese único acto, parece ser el fruto de haberse adornado el relato. Véase Chad M. Orton, “The Martin Handcart Company at the Sweetwater: Another Look”,BYU Studies, tomo XLV, nro. 3, 2006, págs. 5–37."
+    }
+  ]
+}

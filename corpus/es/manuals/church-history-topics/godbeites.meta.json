@@ -1,0 +1,30 @@
+{
+  "title": "Godbeitas",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/godbeites?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase Tema:Movimiento cooperativo."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Tema:Neutralidad política."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase Ronald W. Walker,Wayward Saints: The Godbeites and Brigham Young, Urbana: University of Illinois Press, 1998, págs. 118–122, 254–261."
+    }
+  ]
+}

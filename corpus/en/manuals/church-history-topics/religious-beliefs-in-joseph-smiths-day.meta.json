@@ -1,0 +1,25 @@
+{
+  "title": "Religious Beliefs in Joseph Smith’s Day",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/religious-beliefs-in-joseph-smiths-day?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 1,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "For example,Doctrine and Covenants 49settles questions about Shaker beliefs raised by early convert Leman Copley (see Matthew McBride,“Leman Copley and the Shakers,”in Matthew McBride and James Goldberg, eds.,Revelations in Context: The Stories behind the Sections of the Doctrine and Covenants[Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 2016], 117–21)."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 49"
+  ]
+}

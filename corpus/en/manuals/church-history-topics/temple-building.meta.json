@@ -1,0 +1,50 @@
+{
+  "title": "Temple Building",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/temple-building?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Temple,” Glossary,https://josephsmithpapers.org/topic/temple."
+    },
+    {
+      "marker": "2.",
+      "text": "SeeDoctrine and Covenants 36(Dec. 1830),42(Feb. 1831),84(Sept. 1832),88(Dec. 1832),95(Jun. 1833), and94(Aug. 1833)."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topic:Kirtland Temple."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topic:Nauvoo Temple."
+    },
+    {
+      "marker": "5.",
+      "text": "C. Mark Hamilton,Nineteenth-Century Mormon Architecture and City Planning(New York: Oxford University Press, 1995), 39."
+    },
+    {
+      "marker": "6.",
+      "text": "Teachings of Presidents of the Church: Gordon B. Hinckley(2016),309–11."
+    }
+  ],
+  "scripture_refs": [
+    "42",
+    "84",
+    "88",
+    "94",
+    "95",
+    "Doctrine and Covenants 36"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Vigilantism",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/vigilantism?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Daniel Dunklin letter to W. W. Phelps, July 18, 1836, in W. W. Phelps, Collection of Missouri Documents, 1833–37, Church History Library, Salt Lake City; see also Richard Maxwell Brown,Strain of Violence: Historical Studies of American Violence and Vigilantism(New York: Oxford University Press, 1975), 30–33; Ronald W. Walker, Richard E. Turley Jr., and Glen M. Leonard,Massacre at Mountain Meadows: An American Tragedy(New York: Oxford University Press, 2008), 8–10; Paul A. Gilje,Rioting in America(Bloomington: Indiana University Press, 1996), 1–86."
+    },
+    {
+      "marker": "2.",
+      "text": "The Saints’ account of the event is found in “To His Excellency, Daniel Dunklin, Governor of the State of Missouri,” inThe Evening and the Morning Star,Dec. 1833, 228–29. Other Missouri settlers made their case in theJeffersonian Republican,Aug. 17, 1833; Richard Lyman Bushman,Joseph Smith: Rough Stone Rolling(New York: Alfred A. Knopf, 2005), 223, 224."
+    },
+    {
+      "marker": "3.",
+      "text": "See Militia Act of 1792, 1 Stat. chap. 33 (1792); cited in “Peace and Violence among 19th-Century Latter-day Saints,” Gospel Topics Essays,topics.lds.org."
+    },
+    {
+      "marker": "4.",
+      "text": "See “Peace and Violence among 19th-Century Latter-day Saints.”"
+    },
+    {
+      "marker": "5.",
+      "text": "See Clark V. Johnson, ed.,Mormon Redress Petitions: Documents of the 1833–1838 Missouri Conflict(Provo, Utah: Religious Studies Center, Brigham Young University, 1992)."
+    }
+  ]
+}

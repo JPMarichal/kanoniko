@@ -1,0 +1,30 @@
+{
+  "title": "La impresión y publicación del Libro de Mormón",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/printing-and-publishing-the-book-of-mormon?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Royal Skousen y Robin Scott Jensen, editores,Revelations and Translations, Volume 3, Part 1: Printer’s Manuscript of the Book of Mormon, 1 Nefi 1–Alma 35, facsímile ed., tomo III de la colección Revelations and Translations deThe Joseph Smith Papers, editado por Ronald K. Esplin y Matthew J. Grow, Salt Lake City: Church Historian’s Press, 2015, págs. XXVI–XXVIII."
+    },
+    {
+      "marker": "2.",
+      "text": "“Revelation, circa Early 1830”, enRevelation Book 1, pág. 31, josephsmithpapers.org; véase también “Revelation, circa Early 1830”, Historical Introduction."
+    },
+    {
+      "marker": "3.",
+      "text": "“Revelation, circa Summer 1829 [DC 19]”, Historical Introduction, nota al pie 4, josephsmithpapers.org."
+    }
+  ]
+}

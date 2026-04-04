@@ -1,0 +1,42 @@
+{
+  "title": "George Q. Cannon",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/george-q-cannon?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "The Journal of George Q. Cannon, 1849–1901(Salt Lake City: Church Historian’s Press, 2018),churchhistorianspress.org/george-q-cannon."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:California Gold Rush."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topic:Hawaii."
+    },
+    {
+      "marker": "4.",
+      "text": "Davis Bitton,George Q. Cannon: A Biography(Salt Lake City: Deseret Book, 1999), Appendix 2."
+    },
+    {
+      "marker": "5.",
+      "text": "See Topic:Sunday School."
+    },
+    {
+      "marker": "6.",
+      "text": "Bitton,George Q.Cannon,315; see Topic:Manifesto."
+    }
+  ]
+}

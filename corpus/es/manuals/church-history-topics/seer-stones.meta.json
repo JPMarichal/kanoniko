@@ -1,0 +1,43 @@
+{
+  "title": "Piedras de vidente",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/seer-stones?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Éxodo 8:5–6, 16–17;Números 21:9;1 Samuel 4:3–6;Juan 9:6."
+    },
+    {
+      "marker": "2.",
+      "text": "Richard E. Turley, Robin E. Jensen y Mark Ashurst-McGee,“José el vidente”,Liahona,octubre de 2015, pág. 13."
+    },
+    {
+      "marker": "3.",
+      "text": "James R. B. Vancleave, carta dirigida a Joseph Smith III en Lyndon W. Cook, ed.,David Whitmer Interviews: A Restoration Witness(Orem, Utah: Grandin Book, 1991), págs. 239–240."
+    },
+    {
+      "marker": "4.",
+      "text": "A principios de la primavera de 1830, José le dio a Oliver Cowdery la piedra de vidente que se utilizó para traducir el Libro de Mormón. Phineas Young, que había ayudado a Oliver Cowdery a reconciliarse con la Iglesia a finales de la década de 1840, obtuvo la piedra de la viuda de Cowdery y a su vez se la dio a su hermano, Brigham Young. Después de la muerte de Brigham Young, una de sus esposas, Zina D. H. Young, obtuvo en su herencia una piedra de vidente de color chocolate que coincidía con las descripciones de la piedra que José utilizó para traducir el Libro de Mormón, y la donó a la Iglesia (véase Richard E. Turley Jr., Robin S. Jensen y Mark Ashurst-McGee,“José el vidente”,Liahona,octubre de 2015, pág. 15)."
+    }
+  ],
+  "scripture_refs": [
+    "1 Samuel 4:3–6",
+    "José Smith—Historia 1:35",
+    "Juan 9:6",
+    "Números 21:9",
+    "Éter 3:1",
+    "Éter 3:24",
+    "Éxodo 8:5–6, 16–17"
+  ]
+}

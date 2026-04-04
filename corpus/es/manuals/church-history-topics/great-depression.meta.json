@@ -1,0 +1,50 @@
+{
+  "title": "Gran Depresión",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/great-depression?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Donald Q. Cannon y James B. Mayfield, “Welfare and Humanitarian Aid, 1936–Present”, en Brandon S. Plewe, editor,Mapping Mormonism: An Atlas of Latter-day Saint History, Provo, Utah, Brigham Young University Press, 2012, págs. 148–151."
+    },
+    {
+      "marker": "2.",
+      "text": "Tema:Primera Guerra Mundial"
+    },
+    {
+      "marker": "3.",
+      "text": "Cologne Branch Relief Society Minutes and Records, pág. 213, LR 1868 14, Biblioteca de Historia de la Iglesia, Salt Lake City; véase también “Germany:‘We Had Another Working Hour This Week’”, Historias mundiales,https://www.churchofjesuschrist.org/study/history/global-histories/germany/stories-of-faith/de-02-another-working-hour."
+    },
+    {
+      "marker": "4.",
+      "text": "Thomas G. Alexander,Utah: The Right Place, edición revisada, Layton, Utah: Gibbs Smith, 2007, págs. 314–315, 332–333."
+    },
+    {
+      "marker": "5.",
+      "text": "Cannon and Mayfield, “Welfare and Humanitarian Aid”, pág. 148; Richard O. Cowan y William E. Homer, “The Depression Years: 1929–1939”, enCalifornia Saints: A 150-Year Legacy in the Golden State, Provo, Utah: Religious Studies Center, 1996, págs. 283–300; Evelyn Hodges Lewis, Interview, 1979, OH 553, Biblioteca de Historia de la Iglesia, Salt Lake City."
+    },
+    {
+      "marker": "6.",
+      "text": "Harold B. Lee, “Church Security: Retrospect, Introspect, Prospect”,Improvement Era, tomo XL, nro. 4, abril de 1937, págs. 204–210; véase también Tema:Programas de bienestar."
+    },
+    {
+      "marker": "7.",
+      "text": "Tema:Segunda Guerra Mundial."
+    },
+    {
+      "marker": "8.",
+      "text": "Peter Temin, “Great Depression”, en Joel Mokyr, editor,The Oxford Encyclopedia of Economic History, New York: Oxford University Press, 2005."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Godbeites",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/godbeites?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Cooperative Movement."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Political Neutrality."
+    },
+    {
+      "marker": "3.",
+      "text": "See Ronald W. Walker,Wayward Saints: The Godbeites and Brigham Young(Urbana: University of Illinois Press, 1998), 118–22, 254–61."
+    }
+  ]
+}

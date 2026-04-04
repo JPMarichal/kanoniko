@@ -1,0 +1,50 @@
+{
+  "title": "Nauvoo Temple",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/nauvoo-temple?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 8,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "The Saints had planned temples in Independence, Far West, and Adam-ondi-Ahman."
+    },
+    {
+      "marker": "2.",
+      "text": "For more on the construction of the Nauvoo Temple, see Matthew S. McBride,A House for the Most High: The Story of the Original Nauvoo Temple(Salt Lake City: Greg Kofford Books, 2006); Don F. Colvin,Nauvoo Temple: A Story of Faith(American Fork, Utah: Covenant Communications, 2002)."
+    },
+    {
+      "marker": "3.",
+      "text": "J. Earl Arrington,“William Weeks: Architect of the Nauvoo Temple,”BYU Studies,vol. 19, no. 3 (1979), 337–60."
+    },
+    {
+      "marker": "4.",
+      "text": "McBride,A House for the Most High,xvi, 261–62, 369–70."
+    },
+    {
+      "marker": "5.",
+      "text": "Lisle G. Brown,“The Sacred Departments for Temple Work in Nauvoo: The Assembly Room and the Council Chamber,”BYU Studies,vol. 19, no. 3 (1979), 361–74."
+    },
+    {
+      "marker": "6.",
+      "text": "Sarah DeArmon Pea Rich autobiography, 1885–1893, typescript, 35–36,Church History Library, Salt Lake City."
+    },
+    {
+      "marker": "7.",
+      "text": "McBride,A House for the Most High,267–70, 336–41."
+    },
+    {
+      "marker": "8.",
+      "text": "SeeEnsign,July 2002. This issue features several articles about the newly reconstructed Nauvoo Temple."
+    }
+  ]
+}

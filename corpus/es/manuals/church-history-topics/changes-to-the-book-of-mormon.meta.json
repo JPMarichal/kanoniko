@@ -1,0 +1,75 @@
+{
+  "title": "Cambios al Libro de Mormón",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/changes-to-the-book-of-mormon?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 12,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase tema:La impresión y publicación del Libro de Mormón."
+    },
+    {
+      "marker": "10.",
+      "text": "Royal Skousen, “The Book of Mormon Critical Text Project”, en edición de Susan Easton Black y Charles D. Tate Jr.,Joseph Smith: The Prophet, The Man, Provo, UT: Religious Studies Center, Brigham Young University, 1993, págs. 65–75."
+    },
+    {
+      "marker": "11.",
+      "text": "“Final Volume of Joseph Smith Papers Published, Completing Monumental Historical Work”, News, Joseph Smith Papers, June 27, 2023, josephsmithpapers.org."
+    },
+    {
+      "marker": "12.",
+      "text": "“Summary of Approved Adjustments for the 2013 Editions of the Scriptures”, ChurchofJesusChrist.org; “New Edition of English Scriptures”,Church News, 3 de marzo de 2013, pág. 2."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Seth Perry, “The Many Bibles of Joseph Smith: Textual, Prophetic, and Scholarly Authority in Early-National Bible Culture”,Journal of the American Academy of Religion, vol. 84, nro. 3, sept. de 2016, págs. 750–775."
+    },
+    {
+      "marker": "3.",
+      "text": "Compárese con el manuscrito original del Libro de Mormón, págs. 17–18; el manuscrito del impresor del Libro de Mormón, págs. 16–17;The Book of Mormon: An Account Written by the Hand of Mormon, upon Plates Taken from the Plates of Nephi, Palmyra, NY: Joseph Smith Jr., 1830, págs. 25–26;The Book of Mormon: An Account Written by the Hand of Mormon, upon Plates Taken from the Plates of Nephi, Kirtland, Ohio: P. P. Pratt y J. Goodson, 1837, págs. 27–29; todos disponibles enjosephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "“Prefacio”, enLibro de Mormón, 1837, pág. v."
+    },
+    {
+      "marker": "5.",
+      "text": "Richard E. Turley Jr. y William W. Slaughter,How We Got the Book of Mormon, Salt Lake City: Deseret Book, 2011, pág. 58."
+    },
+    {
+      "marker": "6.",
+      "text": "Turley y Slaughter,How We Got the Book of Mormon, pág. 62."
+    },
+    {
+      "marker": "7.",
+      "text": "Paul Gutjahr, “Orson Pratt’s Enduring Influence on the Book of Mormon”, en edición de Elizabeth Fenton y Jared Hickman,Americanist Approaches to the Book of Mormon, Nueva York: Oxford University Press, 2019, págs. 83–106."
+    },
+    {
+      "marker": "8.",
+      "text": "Véase Richard L. Saunders,The 1920 Edition of the Book of Mormon: A Centennial Adventure in Latter-day Saint Book History, Salt Lake City: Greg Kofford Books, 2021."
+    },
+    {
+      "marker": "9.",
+      "text": "George Horton, “Understanding Textual Changes in the Book of Mormon”,Ensign, diciembre de 1983, págs. 24–28."
+    }
+  ],
+  "scripture_refs": [
+    "1 Nefi 8:11–27",
+    "1 Nefi 13",
+    "24",
+    "2 Nefi 2",
+    "4",
+    "Alma 12:31",
+    "Helamán 13:17"
+  ]
+}

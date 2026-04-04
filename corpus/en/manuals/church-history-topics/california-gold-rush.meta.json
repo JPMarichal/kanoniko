@@ -1,0 +1,38 @@
+{
+  "title": "California Gold Rush",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/california-gold-rush?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Mormon Battalion."
+    },
+    {
+      "marker": "2.",
+      "text": "Kenneth N. Owens,Gold Rush Saints: California Mormons and the Great Rush for Riches(Spokane, Washington: Arthur H. Clark, 2004), 109–10."
+    },
+    {
+      "marker": "3.",
+      "text": "Mark A. Eifler,Gold Rush Capitalists: Greed and Growth in Sacramento(Albuquerque: University of New Mexico Press, 2002), 38–51."
+    },
+    {
+      "marker": "4.",
+      "text": "See Heber C. Kimball, July 19, 1863, in George D. Watt and others, eds.,Journal of Discourses,26 vols. (London: Latter-day Saint Book Depot, 1854–86), 10:247."
+    },
+    {
+      "marker": "5.",
+      "text": "Owens,Gold Rush Saints,226–44, 309."
+    }
+  ]
+}

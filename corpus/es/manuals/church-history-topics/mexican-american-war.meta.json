@@ -1,0 +1,34 @@
+{
+  "title": "La guerra de Estados Unidos y México",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/mexican-american-war?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "EnManuscript History of the Mormon Battalion, July 18, 1846, págs. 1–2, Biblioteca de Historia de la Iglesia, Salt Lake City. Véase Tema:Batallón Mormón."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Tema:Leyes contra la poligamia."
+    },
+    {
+      "marker": "3.",
+      "text": "Véanse Temas:Fiebre del oro de California;Ferrocarril."
+    },
+    {
+      "marker": "4.",
+      "text": "Véanse Temas:Economía de los pioneros;Asentamientos pioneros."
+    }
+  ]
+}

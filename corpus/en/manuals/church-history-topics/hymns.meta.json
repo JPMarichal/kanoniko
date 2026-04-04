@@ -1,0 +1,41 @@
+{
+  "title": "Hymns",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/hymns?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Rachel Cope, “A Sacred Space for Women: Hymnody in Emma Hale Smith’s Theology,”Journal of Religious History(2017)."
+    },
+    {
+      "marker": "2.",
+      "text": "Michael Hicks,“Emma Smith’s 1841 Hymnbook,”Journal of the Book of Mormon and Other Restoration Scripture,vol. 21, no. 1 (2012), 12–27."
+    },
+    {
+      "marker": "3.",
+      "text": "Brigham Young, Parley P. Pratt, and John Taylor, comps.,A Collection of Sacred Hymns, for The Church of Jesus Christ of Latter-day Saints, in Europe(Manchester, England: W. R. Thomas, 1840)."
+    },
+    {
+      "marker": "4.",
+      "text": "Eliza R. Snow, comp.,Hymns and Songs: Selected from Various Authors, for the Primary Associations of the Children of Zion(Salt Lake City: Deseret News, 1880);Deseret Sunday School Songs(Salt Lake City: Deseret Sunday School Union, 1909);Relief Society Song Book(Salt Lake City: General Board of Relief Society, 1919)."
+    },
+    {
+      "marker": "5.",
+      "text": "First Presidency,“Preface,”Hymns of The Church of Jesus Christ of Latter-day Saints(Salt Lake City, 1985), ix, x."
+    }
+  ],
+  "scripture_refs": [
+    "D&C 25:12"
+  ]
+}

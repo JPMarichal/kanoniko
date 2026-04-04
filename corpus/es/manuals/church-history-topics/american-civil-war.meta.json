@@ -1,0 +1,38 @@
+{
+  "title": "Guerra Civil de Estados Unidos",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/american-civil-war?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Revelation, 25 December 1832 [D&C 87]”, en Revelation Book 2, págs. 32–33, josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "Para leer una buena historia sobre el conflicto y su contexto, escrita en un solo tomo, véase James M. McPherson,Battle Cry of Freedom: The Civil War Era, New York: Oxford University Press, 1988."
+    },
+    {
+      "marker": "3.",
+      "text": "S. George Ellsworth, “Heeding the Prophet’s Call”,Ensign, octubre de 1995, págs. 40–41."
+    },
+    {
+      "marker": "4.",
+      "text": "J. David Hacker, “A Census-Based Account of the Civil War Dead”,Civil War History, tomo LVII, nro. 4, diciembre de 2011, págs. 307–348."
+    },
+    {
+      "marker": "5.",
+      "text": "Véase el tema:Esclavitud indígena y servidumbre no remunerada."
+    }
+  ]
+}

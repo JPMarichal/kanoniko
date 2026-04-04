@@ -1,0 +1,25 @@
+{
+  "title": "La Firma Unida",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/united-firm-united-order?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 1,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Revelation, 1 March 1832 [DC 78]”, pág. 1, josephsmithpapers.org; véase tambiénDoctrina y Convenios 78:3–4; nótese que el lenguaje de los manuscritos originales de esta revelación se modificó para su publicación."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrina y Convenios 78:3–4"
+  ]
+}

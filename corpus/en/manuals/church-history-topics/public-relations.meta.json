@@ -1,0 +1,42 @@
+{
+  "title": "Public Relations",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/public-relations?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Jack Larkin, “‘Printing is something every village has in it’: Rural Printing and Publishing,” in Robert A. Gross and Mary Kelley, eds.,A History of the Book in America, vol. 2,An Extensive Republic: Print, Culture, and Society in the New Nation, 1790–1840(Chapel Hill: University of North Carolina Press, 2010), 145–60; see also Topic:Opposition to the Early Church."
+    },
+    {
+      "marker": "2.",
+      "text": "Joseph Smith, “History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],” 1,https://www.josephsmithpapers.org/paper-summary/history-1838-1856-volume-a-1-23-december-1805-30-august-1834/1; see also Joseph Smith, “Church History,”Times and Seasons, vol. 3, no. 9 (Mar. 1842), 706–10,https://www.josephsmithpapers.org/paper-summary/times-and-seasons-1-march-1842/4; Joseph Smith, “Letter to Noah C. Saxton, 12 February 1833,” in Letterbook 1, 27–28,https://www.josephsmithpapers.org/paper-summary/letter-to-noah-c-saxton-12-february-1833/1."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith, “Letter to Edward Partridge and the Church, circa 22 March 1839,” 6,https://www.josephsmithpapers.org/paper-summary/letter-to-edward-partridge-and-the-church-circa-22-march-1839/6."
+    },
+    {
+      "marker": "4.",
+      "text": "Scott M. Cutlip,The Unseen Power: Public Relations, A History(Hillsdale, New Jersey: Lawrence Erlbaum Associates, 1994), 10–26; Cayce Myers,Public Relations History: Theory, Practice, and Profession(New York: Routledge, 2021), 76–90."
+    },
+    {
+      "marker": "5.",
+      "text": "Edward H. Anderson, “The Bureau of Information,”Improvement Era, vol. 25, no. 2 (Dec. 1921), 131–39."
+    },
+    {
+      "marker": "6.",
+      "text": "Sheri L. Dew,Go Forward with Faith: The Biography of Gordon B. Hinckley(Salt Lake City: Deseret Book, 1996), 86–105."
+    }
+  ]
+}

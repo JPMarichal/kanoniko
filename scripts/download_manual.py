@@ -897,6 +897,108 @@ _STATIC_MANUALS: list[ManualConfig] = [
         tags=["education", "parents", "children", "school"],
         notes="2021; 10-chapter guide for parents",
     ),
+
+    # ══════════════════════════════════════════════════════════════════════════
+    # GROUP L: Church History — missing from /study/books-and-lessons/church-history
+    # ══════════════════════════════════════════════════════════════════════════
+
+    # Priority 1: Church History Topics (encyclopedia, ~280 articles A-Z)
+    ManualConfig(
+        key="church-history-topics",
+        slug="topics",
+        book="Church History Topics",
+        output_subdir="manuals/church-history-topics",
+        authority=65,
+        tags=["history", "church-history", "encyclopedia", "topics", "saints-companion"],
+        uri_prefix="/history",
+        link_contains="topics/",
+        notes="300+ articles A-Z; companion to Saints series; expanded with each Saints volume since 2018",
+    ),
+
+    # Priority 2: Revelations in Context
+    ManualConfig(
+        key="revelations-in-context",
+        slug="revelations-in-context",
+        book="Revelations in Context",
+        output_subdir="manuals/revelations-in-context",
+        authority=65,
+        tags=["history", "doctrine-and-covenants", "revelation", "context"],
+        notes="55 essays; ed. Matthew McBride & James Goldberg (CH Dept) 2016; recommended by SS Gen Pres for CFM D&C; narrative backstory for each D&C section",
+    ),
+
+    # Priority 3: Daughters in My Kingdom
+    ManualConfig(
+        key="daughters-in-my-kingdom",
+        slug="daughters-in-my-kingdom-the-history-and-work-of-relief-society",
+        book="Daughters in My Kingdom: The History and Work of Relief Society",
+        output_subdir="manuals/daughters-in-my-kingdom",
+        authority=65,
+        tags=["history", "relief-society", "women", "organization", "first-presidency"],
+        notes="2011; FP-directed; sent to every woman in the Church; announced Oct 2010 GC by Julie B. Beck",
+    ),
+
+    # Priority 4: D&C Historical Resources 2025
+    ManualConfig(
+        key="dc-historical-resources-2025",
+        slug="doctrine-and-covenants-historical-resources-2025",
+        book="Doctrine and Covenants Historical Resources",
+        output_subdir="manuals/dc-historical-resources",
+        authority=60,
+        tags=["history", "doctrine-and-covenants", "study-companion", "biographies"],
+        uri_prefix="/history",
+        notes="51 weekly lessons + ~170 biographical entries + chronology; meta-resource aggregating Revelations in Context, CH Topics, JSP; CFM D&C 2025",
+    ),
+
+    # Priority 5: At the Pulpit
+    ManualConfig(
+        key="at-the-pulpit",
+        slug="at-the-pulpit",
+        book="At the Pulpit: 185 Years of Discourses by Latter-day Saint Women",
+        output_subdir="manuals/at-the-pulpit",
+        authority=55,
+        tags=["history", "women", "discourses", "relief-society", "illustration"],
+        uri_prefix="/church-historians-press",
+        notes="54 discourses 1831-2016; ed. Jennifer Reeder & Kate Holbrook; Church Historians Press 2017; first major scholarly collection of LDS women's discourses",
+        author="Jennifer Reeder, Kate Holbrook (eds.)",
+    ),
+
+    # Priority 6: The First Fifty Years of Relief Society
+    ManualConfig(
+        key="first-fifty-years-rs",
+        slug="the-first-fifty-years-of-relief-society",
+        book="The First Fifty Years of Relief Society",
+        output_subdir="manuals/first-fifty-years-rs",
+        authority=55,
+        tags=["history", "women", "relief-society", "primary-documents"],
+        uri_prefix="/church-historians-press",
+        bilingual=False,
+        notes="78 primary docs 1842-1892; ed. Derr, Madsen, Holbrook, Grow; 2016; includes complete unabridged Nauvoo RS Minute Book + 6 Joseph Smith sermons to RS; EN-only",
+    ),
+
+    # Priority 7: JSP Revelations (D&C Study Companion)
+    ManualConfig(
+        key="jsp-revelations",
+        slug="jsp-revelations",
+        book="Joseph Smith's Revelations: A D&C Study Companion from the Joseph Smith Papers",
+        output_subdir="manuals/jsp-revelations",
+        authority=60,
+        tags=["history", "doctrine-and-covenants", "joseph-smith", "joseph-smith-papers"],
+        uri_prefix="/church-historians-press",
+        bilingual=False,
+        notes="137 entries; ed. Esplin, Grow, Godfrey; ebook 2016, updated 2024 for CFM D&C 2025; earliest manuscript versions + textual variants; EN-only",
+    ),
+
+    # Priority 8: Global Histories (83 countries)
+    ManualConfig(
+        key="global-histories",
+        slug="global-histories",
+        book="Global Histories",
+        output_subdir="manuals/global-histories",
+        authority=50,
+        tags=["history", "global", "international", "illustration", "didactic"],
+        uri_prefix="/history",
+        notes="99+ countries (growing); stories+chronologies; first Church survey of intl history since 2018; didactic illustration value",
+    ),
 ]
 
 

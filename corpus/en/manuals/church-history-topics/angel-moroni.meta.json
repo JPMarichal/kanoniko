@@ -1,0 +1,59 @@
+{
+  "title": "Angel Moroni",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/angel-moroni?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 9,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "James B. Allen, “Emergence of a Fundamental: The Expanding Role of Joseph Smith’s First Vision in Mormon Religious Thought,”Journal of Mormon History,vol. 7 (1980), 43–61."
+    },
+    {
+      "marker": "2.",
+      "text": "“Articles and Covenants, circa April 1830 [D&C 20],”inPainesville [Ohio] Telegraph,Apr. 19, 1831, 4, josephsmithpapers.org. This account represents the earliest mention of the 1823 vision in the historical record. (Alexander L. Baugh, “Parting the Veil: Joseph Smith’s Seventy-six Documented Visionary Experiences,” in John W. Welch, ed.,Opening the Heavens: Accounts of Divine Manifestations, 1820–1844[Provo: Brigham Young University Press], 318, footnote 2)."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith, “History, circa Summer 1832,”in Letterbook 1, 4, josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "In almost every year of the 1830s, a public source testified to a visionary event of Joseph Smith’s. The earliest accounts usually mentioned “an angel” when describing the discovery of the plates and the translation of the Book of Mormon (see Baugh, “Parting the Veil”)."
+    },
+    {
+      "marker": "5.",
+      "text": "SeeDoctrine and Covenants 27, as published in the 1835 edition of the Doctrine and Covenants. This revelation had appeared in the earlier Book of Commandments, but when Joseph prepared it for publication in the first edition of the Doctrine and Covenants, he expanded the text to include, among other things, Moroni (“Revelation, circa August 1835 [D&C 27],”Historical Introduction, josephsmithpapers.org)."
+    },
+    {
+      "marker": "6.",
+      "text": "Joseph Smith,“Letter to ‘The Church of Jesus Christ of Latter Day Saints,’ 6 September 1842 [D&C 128],”7, josephsmithpapers.org."
+    },
+    {
+      "marker": "7.",
+      "text": "Joseph Smith,“History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],”5, josephsmithpapers.org."
+    },
+    {
+      "marker": "8.",
+      "text": "Joseph Smith,“History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],”5, note 14."
+    },
+    {
+      "marker": "9.",
+      "text": "SeeTemple Souvenir Album, April, 1892, Illustrated with Portraits of the Architects, Views of the Building, Plan of Electric Lights, Engine-House and Grounds, Including Views of Logan, Manti, Nauvoo, and Kirtland Temples, and Places of Interest in Salt Lake City(Salt Lake City: Magazine Printing, 1892), 8; Wilford Woodruff journal, Mar. 29, 1892; John Nicholson, “The Statue of Moroni,”Deseret Weekly,Apr. 9, 1892, 1."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 27",
+    "Joseph Smith—History 1:30–53",
+    "Revelation 14:6"
+  ]
+}

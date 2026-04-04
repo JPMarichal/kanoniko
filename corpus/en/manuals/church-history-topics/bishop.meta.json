@@ -1,0 +1,65 @@
+{
+  "title": "Bishop",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/bishop?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 11,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Revelation, 4 February 1831 [D&C 41],”in Revelation Book 1, 61–62,josephsmithpapers.org."
+    },
+    {
+      "marker": "10.",
+      "text": "A January 1841 revelation appointed Vinson Knight “to preside over the Bishoprick,” but records thereafter do not show him functioning in that role. At the April 1841 general conference, for example, no mention was made of Knight as presiding over the other bishops (“Revelation, 19 January 1841 [D&C 124],”in Book of the Law of the Lord, 3–15,josephsmithpapers.org; “Minutes of the general conference of the Church of Jesus Christ of Latter Day Saints,”Times and Seasons,Apr. 15, 1841, 386–88; William Clayton journal, Apr. 6–9, 1841, Church History Library, Salt Lake City)."
+    },
+    {
+      "marker": "11.",
+      "text": "William G. Hartley,“Bishop, History of the Office,”inEncyclopedia of Mormonism,ed. Daniel H. Ludlow, 4 vols. (New York: Macmillan, 1992), 1:119–22."
+    },
+    {
+      "marker": "2.",
+      "text": "“Revelation, 9 February 1831 [D&C 42],”josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "“Revelation, 20 July 1831 [D&C 57],”in Revelation Book 1, 93–94,josephsmithpapers.org."
+    },
+    {
+      "marker": "4.",
+      "text": "“Revelation, 11 November 1831-B [D&C 107 (partial)],”in Revelation Book 1, 122,josephsmithpapers.org. See also“Revelation, 4 December 1831-B [D&C 72:9–23],”josephsmithpapers.org."
+    },
+    {
+      "marker": "5.",
+      "text": "“Revelation, between circa 8 and circa 24 March 1832,”josephsmithpapers.org."
+    },
+    {
+      "marker": "6.",
+      "text": "“Instruction on Priesthood, between circa 1 March and circa 4 May 1835 [D&C 107],”in Doctrine and Covenants, 1835, 83,josephsmithpapers.org. See alsoDoctrine and Covenants 68:14–19."
+    },
+    {
+      "marker": "7.",
+      "text": "“Instruction on Priesthood, between circa 1 March and circa 4 May 1835 [D&C 107],”in Doctrine and Covenants, 1835, 82–89,josephsmithpapers.org."
+    },
+    {
+      "marker": "8.",
+      "text": "“Organizational Charts,” inThe Joseph Smith Papers, Documents, Volume 6: February 1838–August 1839,ed. Mark Ashurst-McGee, and others (2017), 681–82."
+    },
+    {
+      "marker": "9.",
+      "text": "“Ecclesiastical Organization Charts,”josephsmithpapers.org."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 68:14–19"
+  ]
+}

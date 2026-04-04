@@ -1,0 +1,30 @@
+{
+  "title": "Manifesto",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/manifesto?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeDoctrine and Covenants 132."
+    },
+    {
+      "marker": "2.",
+      "text": "For additional context, see Thomas G. Alexander, “The Odyssey of a Latter-day Prophet: Wilford Woodruff and the Manifesto of 1890,”Journal of Mormon History,vol. 17 (1991), 169–206; Sarah Barringer Gordon,The Mormon Question: Polygamy and Constitutional Conflict in Nineteenth-Century America(Chapel Hill: University of North Carolina Press, 2002)."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 132",
+    "Official Declaration 1"
+  ]
+}

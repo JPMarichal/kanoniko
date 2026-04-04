@@ -1,0 +1,30 @@
+{
+  "title": "Lorenzo Snow",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/lorenzo-snow?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 3,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Woodruff made his wishes known as early as 1892 in a private interview with Lorenzo Snow. Sensing his own mortality, Woodruff urged Snow to organize the Presidency immediately and to select George Q. Cannon and Joseph F. Smith as counselors. See Lorenzo Snow, “An account of a private interview with President Woodruff,” Dec. 3, 1892, Church History Library, Salt Lake City; see also Topic:Succession of Church Leadership."
+    },
+    {
+      "marker": "2.",
+      "text": "Journal History of The Church of Jesus Christ of Latter-day Saints, Sept. 13, 1898, 4–5, Church History Library, Salt Lake City."
+    },
+    {
+      "marker": "3.",
+      "text": "LeRoi C. Snow, “An Experience of My Father’s,”Improvement Era,vol. 36, no. 11 (Sept. 1933), 677, 679."
+    }
+  ]
+}

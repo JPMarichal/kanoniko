@@ -1,0 +1,34 @@
+{
+  "title": "Treasure Seeking",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/treasure-seeking?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Joseph Smith,“History, 1838–1856, volume A-1 [23 December 1805–30 August 1834],” 7–8,josephsmithpapers.org; see alsoElders’ Journal,vol. 1, no. 3 (July 1838), 43,josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "See related Church History Topics“Joseph Smith’s 1826 Trial”and“Seer Stones.”"
+    },
+    {
+      "marker": "3.",
+      "text": "Alan Taylor, “The Early Republic’s Supernatural Economy: Treasure Seeking in the American Northeast, 1780–1830,”American Quarterly,vol. 38, no. 1 (Spring 1986), 6–34."
+    },
+    {
+      "marker": "4.",
+      "text": "William D. Purple, “Joseph Smith, the Originator of Mormonism,”Chenango Union,vol. 30, no. 33 (May 2, 1877), 3."
+    }
+  ]
+}

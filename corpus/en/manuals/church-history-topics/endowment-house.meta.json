@@ -1,0 +1,73 @@
+{
+  "title": "Endowment House",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/endowment-house?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 13,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Temple Building."
+    },
+    {
+      "marker": "10.",
+      "text": "Richard E. Bennett,Temples Rising: A Heritage of Sacrifice(Salt Lake City: Deseret Book, 2019), 171."
+    },
+    {
+      "marker": "11.",
+      "text": "See Topic:Temple Endowment."
+    },
+    {
+      "marker": "12.",
+      "text": "See Topic:Antipolygamy Legislation."
+    },
+    {
+      "marker": "13.",
+      "text": "See Topic:Manifesto."
+    },
+    {
+      "marker": "2.",
+      "text": "“Revelation, 19 January 1841 [D&C 124],” in the Book of the Law of the Lord, 5,josephsmithpapers.org; seeDoctrine and Covenants 124:29–32."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topics:Baptism for the Dead,Temple Endowment,Anointed Quorum (“Holy Order”)."
+    },
+    {
+      "marker": "4.",
+      "text": "Wilford Woodruff performed some baptisms for the dead in Winter Quarters and later in City Creek (in Salt Lake City) in 1853. About 150 sealings were performed in Winter Quarters, and at least one marriage was sealed in the Salt Lake Fort in 1848. In 1849 the endowment was given to departing missionary Addison Pratt on the top of Ensign Peak, a hill just north of the future temple site in Salt Lake. (See Richard E. Bennett, “‘The Upper Room’: The Nature and Development of Latter-day Saint Temple Work, 1846–1855,”Journal of Mormon History,vol. 41, no. 2 [April 2015], 7, 15, 23–27.)"
+    },
+    {
+      "marker": "5.",
+      "text": "About 2,200 endowments and over 2,100 sealings were administered in the Council House (see Bennett, “The Upper Room,” 18, 24, 27; see also Topic:Sealing)."
+    },
+    {
+      "marker": "6.",
+      "text": "See Topic:Salt Lake Temple."
+    },
+    {
+      "marker": "7.",
+      "text": "Lisle G. Brown, “‘Temple Pro Tempore’: The Salt Lake City Endowment House,”Journal of Mormon History,vol. 34, no. 4 (Fall 2008), 8."
+    },
+    {
+      "marker": "8.",
+      "text": "Until 1864 the font was mostly used for baptisms for the living. Thereafter it was used mostly for proxy baptisms (see Brown, “Temple Pro Tempore,” 20)."
+    },
+    {
+      "marker": "9.",
+      "text": "As early as the 1870s, a greenhouse was added to the south of the southern extension (see Brown, “Temple Pro Tempore,” 27)."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 124:29–32"
+  ]
+}

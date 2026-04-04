@@ -1,0 +1,34 @@
+{
+  "title": "Sagwitch",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/sagwitch?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topics:American Indians,Utah,Pioneer Trek."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Salt Lake Valley."
+    },
+    {
+      "marker": "3.",
+      "text": "See the sectionLatter-day Saints’ Relationship with American Indiansin “Peace and Violence among 19th-Century Latter-day Saints,” Gospel Topics Essays,topics.ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "4.",
+      "text": "Wilford Woodruff listed “Mogogah” in his record, who was probably Sagwitch’s known spouse, Beawoachee; see Scott Christensen,Sagwitch: Shoshone Chieftain, Mormon Elder, 1822–1887(Logan: Utah State University Press, 1999), 104."
+    }
+  ]
+}

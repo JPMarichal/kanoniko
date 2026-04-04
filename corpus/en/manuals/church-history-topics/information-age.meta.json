@@ -1,0 +1,66 @@
+{
+  "title": "Information Age",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/information-age?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 12,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Michael E. Hobart and Zachary S. Schiffman,Information Ages: Literacy, Numeracy, and the Computer Revolution(Baltimore: Johns Hopkins University Press, 1998); and Ronald R. Kline,The Cybernetics Moment: Or Why We Call Our Age the Information Age(Baltimore: Johns Hopkins University Press, 2015)."
+    },
+    {
+      "marker": "10.",
+      "text": "“Special Broadcast: The Work of Salvation,” Media Library, ChurchofJesusChrist.org; Scott Taylor, “A Look Back on the Digital and Online Developments in the Church’s Missionary Work,”Church News, Apr. 1, 2022, thechurchnews.com."
+    },
+    {
+      "marker": "11.",
+      "text": "James E. Faust, “This Is Our Day,”Ensign, May 1999, 17."
+    },
+    {
+      "marker": "12.",
+      "text": "J. Edward Sumerau and Ryan T. Cragun, “‘Avoid That Pornographic Playground’: Teaching Pornographic Abstinence in The Church of Jesus Christ of Latter-day Saints,”Critical Research on Religion, vol. 3, no. 2 (Aug. 2015): 168–88; “The Latest Changes to the General Handbook,” Newsroom, Dec. 18, 2020, newsroom.ChurchofJesusChrist.org;General Handbook: Serving in The Church of Jesus Christ of Latter-day Saints,38.8.41; Dallin H. Oaks, “Love Your Enemies,” General Conference, Oct. 2020, ChurchofJesusChrist.org; Russell M. Nelson, “Let God Prevail,” General Conference, Oct. 2020, ChurchofJesusChrist.org; Dallin H. Oaks, “Racism and Other Challenges,” Oct. 27, 2020, speeches.byu.edu."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topics:Broadcast Media,Family History and Genealogy,Church History and Recordkeeping."
+    },
+    {
+      "marker": "3.",
+      "text": "John Naughton, “The Evolution of the Internet: From Military Experiment to General Purpose Technology,”Journal of Cyber Policy, vol. 1, no. 1 (2016), 5–28."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topic:Family History and Genealogy."
+    },
+    {
+      "marker": "5.",
+      "text": "Shaun D. Stahle, “New Web Site Boon to Preaching Gospel,”Church News, 6 Oct. 2001, 6."
+    },
+    {
+      "marker": "6.",
+      "text": "“240 Million Names Added to FamilySearch Site,”Ancestry, Jan.–Feb. 2000, 9."
+    },
+    {
+      "marker": "7.",
+      "text": "“Welcome Change,”Church News, Aug. 19, 2006, 5; “Church Completes Major Microfilm Digitization Initiative,” Newsroom, Sept. 21, 2021, newsroom.ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "8.",
+      "text": "“About the Church History Library,” history.ChurchofJesusChrist.org;Church History Catalog, catalog.ChurchofJesusChrist.org."
+    },
+    {
+      "marker": "9.",
+      "text": "Scott Taylor, “Mormon Missionary Work Moving Online,”Deseret News, July 14, 2010, deseret.com."
+    }
+  ]
+}

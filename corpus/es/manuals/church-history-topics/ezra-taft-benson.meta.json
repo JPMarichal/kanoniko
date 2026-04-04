@@ -1,0 +1,38 @@
+{
+  "title": "Ezra Taft Benson",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/ezra-taft-benson?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Ezra Taft Benson, en Conference Report, abril de 1948, págs. 83, 85; Ezra Taft Benson, en Conference Report, octubre de 1962, pág. 19. Véase el tema:Guerra Fría."
+    },
+    {
+      "marker": "2.",
+      "text": "Sheri L. Dew,Ezra Taft Benson: A Biography, Salt Lake City: Deseret Book, 1987, pág. 355."
+    },
+    {
+      "marker": "3.",
+      "text": "Ezra Taft Benson, en Conference Report, abril de 1986, pág. 4; cursiva en el original."
+    },
+    {
+      "marker": "4.",
+      "text": "Ezra Taft Benson, en Conference Report, abril de 1987, pág. 108."
+    },
+    {
+      "marker": "5.",
+      "text": "Howard W. Hunter, “A Strong and Mighty Man”,Ensign, julio de 1994, pág. 42."
+    }
+  ]
+}

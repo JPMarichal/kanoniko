@@ -1,0 +1,29 @@
+{
+  "title": "José Smith y el matrimonio plural",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/joseph-smith-and-plural-marriage?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Véase “La Familia: Una Proclamación para el Mundo”,Liahona,mayo de 2017, pág. 145;Jacob 2:27, 30."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase “El matrimonio plural en Kirtland y en Nauvoo”, Temas del Evangelio,topics.lds.org."
+    }
+  ],
+  "scripture_refs": [
+    "Jacob 2:27, 30"
+  ]
+}

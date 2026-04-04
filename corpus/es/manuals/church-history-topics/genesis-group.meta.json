@@ -1,0 +1,49 @@
+{
+  "title": "Grupo Génesis",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/genesis-group?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Darius Gray, “Remarks”, devocional por el aniversariocincuenta de Génesis, 23 de octubre de 2021, broadcasts.ChurchofJesusChrist.org; Eugene Orr, entrevista de Clinton D. Christensen, 3 de junio de 2013, págs. 10–11, Biblioteca de Historia de la Iglesia, Salt Lake City."
+    },
+    {
+      "marker": "2.",
+      "text": "Orr, entrevista, págs. 11–12."
+    },
+    {
+      "marker": "3.",
+      "text": "R. Scott Lloyd, “Ruffin Bridgeforth, First Black High Priest, Eulogized as a Pioneer”,Church News, 5 de abril de 1997, pág. 7."
+    },
+    {
+      "marker": "4.",
+      "text": "Darius A. Gray, entrevista de Jed Woodworth y Angela Hallstrom, 28 de noviembre de 2017, págs. 141–142, 155, Biblioteca de Historia de la Iglesia, Salt Lake City."
+    },
+    {
+      "marker": "5.",
+      "text": "Lloyd, “Ruffin Bridgeforth”, pág. 7."
+    },
+    {
+      "marker": "6.",
+      "text": "Tad Walch, “LDS Church Reorganizes Genesis Group Leadership”,Deseret News, 8 de enero de 2018, deseret.com."
+    },
+    {
+      "marker": "7.",
+      "text": "R. Scott Lloyd, “Genesis Group Notes Silver Anniversary”,Church News, 26 de octubre de 1996, pág. 6; Tad Walch, “Genesis Group for Black Latter-day Saints Celebrates 50th Anniversary with Declarations of Hope”,Deseret News, 23 de octubre de 2021, deseret.com."
+    }
+  ],
+  "scripture_refs": [
+    "cincuenta de Génesis"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Nauvoo Expositor",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/nauvoo-expositor?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Prospectus of the Nauvoo Expositor, May 10, 1844."
+    },
+    {
+      "marker": "2.",
+      "text": "Nauvoo Expositor, June 7, 1844; Dallin H. Oaks and Marvin S. Hill,Carthage Conspiracy: The Trial of the Accused Assassins of Joseph Smith(Chicago: University of Illinois Press, 1979), xi–xiii."
+    },
+    {
+      "marker": "3.",
+      "text": "Joseph Smith, “Proclamation, June 11, 1844,”josephsmithpapers.org;Nauvoo Neighbor,June 12, 1844, 2–3."
+    },
+    {
+      "marker": "4.",
+      "text": "See Bertram Wyatt-Brown,Southern Honor: Ethics and Behavior in the Old South(New York: Oxford University Press, 1982)."
+    },
+    {
+      "marker": "5.",
+      "text": "Dallin H. Oaks, “The Suppression of the Nauvoo Expositor,”Utah Law Review,vol. 9, no. 4 (Winter 1965), 862–903."
+    },
+    {
+      "marker": "6.",
+      "text": "Oaks and Hill,Carthage Conspiracy,14."
+    }
+  ]
+}

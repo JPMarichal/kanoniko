@@ -1,0 +1,37 @@
+{
+  "title": "Nauvoo (Commerce), Illinois",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/nauvoo-commerce-illinois?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "It is translated as “beautiful” in the King James Version ofIsaiah 52:7."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Departure from Nauvoo."
+    },
+    {
+      "marker": "3.",
+      "text": "See Benjamin C. Pykles,Excavating Nauvoo: The Mormons and the Rise of Historical Archaeology in America(Lincoln: University of Nebraska Press, 2010)."
+    },
+    {
+      "marker": "4.",
+      "text": "See Topic:Nauvoo Temple."
+    }
+  ],
+  "scripture_refs": [
+    "Isaiah 52:7"
+  ]
+}

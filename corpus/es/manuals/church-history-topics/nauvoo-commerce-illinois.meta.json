@@ -1,0 +1,37 @@
+{
+  "title": "Nauvoo (Commerce), Illinois",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/nauvoo-commerce-illinois?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 4,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Aparece traducido como “hermoso” en la versión de Reina-Valera enIsaías 52:7."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase el tema:La partida de Nauvoo."
+    },
+    {
+      "marker": "3.",
+      "text": "Véase Benjamin C. Pykles,Excavating Nauvoo: The Mormons and the Rise of Historical Archaeology in America, Lincoln: University of Nebraska Press, 2010."
+    },
+    {
+      "marker": "4.",
+      "text": "Véase el tema:El Templo de Nauvoo."
+    }
+  ],
+  "scripture_refs": [
+    "Isaías 52:7"
+  ]
+}

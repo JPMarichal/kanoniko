@@ -1,0 +1,49 @@
+{
+  "title": "United Orders",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/united-orders?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "See Topic:Railroad."
+    },
+    {
+      "marker": "2.",
+      "text": "See Topic:Cooperative Movement."
+    },
+    {
+      "marker": "3.",
+      "text": "Following the Panic of 1873, space opened for alternative economic alliances and systems. Many local and regional experiments, like the United Orders in Utah, appeared across the United States, nearly all for only a short period (see “The Politics of Depression” in Eric Foner,Reconstruction: America’s Unfinished Revolution, 1863–1877[New York: Harper and Row, 1988], 512–63)."
+    },
+    {
+      "marker": "4.",
+      "text": "Leonard J. Arrington,Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830–1900(Lincoln: University of Nebraska Press, 1958), 327–35; James Cleith Phillips, “‘As Sisters in Zion’: Mormon Women and the United Order in Arizona’s Little Colorado Colonies,”Journal of Arizona History,vol. 51, no. 2 (Summer 2010), 161–65."
+    },
+    {
+      "marker": "5.",
+      "text": "Arrington,Great Basin Kingdom,324–34."
+    },
+    {
+      "marker": "6.",
+      "text": "See Topic:Antipolygamy Legislation."
+    },
+    {
+      "marker": "7.",
+      "text": "See Topics:United Firm (“United Order”),Consecration and Stewardship. See also Steven C. Harper, “‘All Things Are the Lord’s’: The Law of Consecration in the Doctrine and Covenants,” in Andrew H. Hedges, J. Spencer Fluhman, and Alonzo L. Gaskill, eds.,The Doctrine and Covenants: Revelations in Context(Provo, Utah: Religious Studies Center, 2008), 212–27."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 42"
+  ]
+}

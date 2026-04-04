@@ -1,0 +1,42 @@
+{
+  "title": "Church Historic Sites",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/church-historic-sites?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "SeeProceedings at the Dedication of the Joseph Smith Memorial Monument at Sharon, Windsor County, Vermont, December 23rd, 1905(Salt Lake City, 1906)."
+    },
+    {
+      "marker": "2.",
+      "text": "Jennifer L. Lund, “Joseph F. Smith and the Origins of the Church Historic Sites Program,” in Craig K. Manscill, Brian D. Reeves, Guy L. Dorius, and J. B. Haws, eds.,Joseph F. Smith: Reflections on the Man and His Times(Provo: Religious Studies Center, 2013), 345–52."
+    },
+    {
+      "marker": "3.",
+      "text": "Lund, “Origins of the Church Historic Sites Program,” 352; Larry C. Porter, “Central New York,” in Larry C. Porter, ed.,New York and Pennsylvania, vol. 2 of LaMar C. Berrett, ed.,Sacred Places: A Comprehensive Guide to Early LDS Historical Sites(Salt Lake City: Deseret Book, 2000), 140; Larry C. Porter, “Western New York,” in Porter, ed.,New York and Pennsylvania, 158; Max H Parkin, ed.,Missouri, vol. 4 of LaMar C. Berrett, ed.,Sacred Places: A Comprehensive Guide to Early LDS Historical Sites(Salt Lake City: Deseret Book, 2004), 225; Benjamin C. Pykles,Excavating Nauvoo: The Mormons and the Rise of Historical Archaeology in America(Lincoln: University of Nebraska Press, 2010), 27."
+    },
+    {
+      "marker": "4.",
+      "text": "Lund, “Origins of the Church Historic Sites Program,” 354."
+    },
+    {
+      "marker": "5.",
+      "text": "Scott C. Esplin, “Dark Tourism: Healing at Historic Carthage Jail,”Journal of Mormon History, vol. 46, no. 1 (Jan. 2020), 101."
+    },
+    {
+      "marker": "6.",
+      "text": "Pykles,Excavating Nauvoo, 71–128."
+    }
+  ]
+}

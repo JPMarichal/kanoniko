@@ -1,0 +1,26 @@
+{
+  "title": "Oficinas Generales de la Iglesia",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "es",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/church-headquarters?lang=spa",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Historical Introduction to “Plat of the City of Zion, circa Early June–25 June 1833”, Documentos de José Smith, https://www.josephsmithpapers.org/paper-summary/plat-of-the-city-of-zion-circa-early-june-25-june-1833/1#historical-intro."
+    },
+    {
+      "marker": "2.",
+      "text": "Véase Judy Dykman y Colleen Whitley, “Settling in Salt Lake City”, en Colleen Whitley, editor,Brigham Young’s HomesLogan: Utah State University Press, 2002, págs. 82–123."
+    }
+  ]
+}

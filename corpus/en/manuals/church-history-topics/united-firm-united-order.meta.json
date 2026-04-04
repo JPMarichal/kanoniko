@@ -1,0 +1,25 @@
+{
+  "title": "United Firm",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/united-firm-united-order?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 1,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Revelation, 1 March 1832 [D&C 78],” 1, josephsmithpapers.org; see alsoDoctrine and Covenants 78:3–4; note that the language in original manuscripts for this revelation was changed for publication."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 78:3–4"
+  ]
+}

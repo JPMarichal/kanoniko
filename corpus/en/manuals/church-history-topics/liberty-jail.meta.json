@@ -1,0 +1,42 @@
+{
+  "title": "Liberty Jail",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/liberty-jail?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 6,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "It is sometimes asserted that the prisoners could not stand upright in the lower floor. During a visit to the site in 1888, historians measured the ceiling at 6½ feet (about 2 meters), which would have allowed most of the prisoners to stand erect."
+    },
+    {
+      "marker": "2.",
+      "text": "Joseph Smith, “Letter to Isaac Galland, 22 March 1839,” inTimes and Seasons,Feb. 1840, 52, josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Hyrum Smith diary, March–April 1839, October 1840, Church History Library, Salt Lake City, 5; spelling, capitalization, and punctuation modernized."
+    },
+    {
+      "marker": "4.",
+      "text": "Alexander L. Baugh, “Was Joseph F. Smith Blessed by His Father Hyrum Smith in Liberty Jail?,”Mormon Historical Studies,vol. 4, no. 1 (Spring 2003), 101–5."
+    },
+    {
+      "marker": "5.",
+      "text": "“Letter to the Church and Edward Partridge, 20 March 1839” and “Letter to Edward Partridge and the Church, circa 22 March 1839,”josephsmithpapers.org; spelling and punctuation standardized."
+    },
+    {
+      "marker": "6.",
+      "text": "See Jeffrey R. Holland, “Lessons from Liberty Jail,” (Church Educational System fireside for young adults, Sept. 7, 2008),speeches.byu.edu."
+    }
+  ]
+}

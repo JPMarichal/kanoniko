@@ -1,0 +1,38 @@
+{
+  "title": "Council of Fifty",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/council-of-fifty?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 5,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "A revelation received during a council meeting named the council “The Kingdom of God and his Laws, with the keys and power thereof, and judgement in the hands of his servants” (Matthew J. Grow, Ronald K. Esplin, Mark Ashurst-McGee, Gerrit J. Dirkmaat, and Jeffrey D. Mahas, eds.,Administrative Records: Council of Fifty, Minutes, March 1844–January 1846.Vol. 1 of the Administrative Records series ofThe Joseph Smith Papers,edited by Ronald K. Esplin, Matthew J. Grow, and Matthew C. Godfrey [Salt Lake City: Church Historian’s Press, 2016], 48)."
+    },
+    {
+      "marker": "2.",
+      "text": "Grow and others, eds.,Administrative Records: Council of Fifty, Minutes,xx–xlv, 50 (note 110)."
+    },
+    {
+      "marker": "3.",
+      "text": "Grow and others, eds.,Administrative Records: Council of Fifty, Minutes,128."
+    },
+    {
+      "marker": "4.",
+      "text": "Minutes, Apr. 11, 1844, in Grow and others, eds.,Administrative Records: Council of Fifty, Minutes,97–101, spelling and punctuation standardized."
+    },
+    {
+      "marker": "5.",
+      "text": "Grow and others, eds.,Administrative Records: Council of Fifty, Minutes,xx–xlv. See also Topics:Joseph Smith’s 1844 Campaign for United States President,American Indians,American Legal and Political Institutions."
+    }
+  ]
+}

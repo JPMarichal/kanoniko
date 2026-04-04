@@ -1,0 +1,49 @@
+{
+  "title": "Anointed Quorum",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/anointed-quorum?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 7,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "“Quorum, The,”josephsmithpapers.org."
+    },
+    {
+      "marker": "2.",
+      "text": "Doctrine and Covenants 124:25–44. See“Revelation, 19 January 1841 [D&C 124],” in Book of the Law of the Lord, 5–6,josephsmithpapers.org."
+    },
+    {
+      "marker": "3.",
+      "text": "Orson Hyde, “Trial of Elder Rigdon,”Millennial Star,vol. 5 (Dec. 1844), 104."
+    },
+    {
+      "marker": "4.",
+      "text": "Heber C. Kimball,letter to Parley P. Pratt and his wife, June 17, 1842, Church History Library, Salt Lake City. Joseph Smith also trusted this group with his teachings regarding plural marriage."
+    },
+    {
+      "marker": "5.",
+      "text": "“History, 1838–1856, volume C-1 [2 November 1838–31 July 1842],” 1328,josephsmithpapers.org."
+    },
+    {
+      "marker": "6.",
+      "text": "George Q. Cannon, “Blessings Not Appreciated,”The Deseret Weekly,vol. 48, no. 12 (Mar. 10, 1894), 349."
+    },
+    {
+      "marker": "7.",
+      "text": "“Trial of Elder Rigdon,”Times and Seasons,vol. 5, no. 17 (Sept. 15, 1844), 647–655."
+    }
+  ],
+  "scripture_refs": [
+    "Doctrine and Covenants 124:25–44"
+  ]
+}

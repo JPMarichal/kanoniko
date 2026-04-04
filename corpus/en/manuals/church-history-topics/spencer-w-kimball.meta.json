@@ -1,0 +1,69 @@
+{
+  "title": "Spencer W. Kimball",
+  "book": "Church History Topics",
+  "category": "manuals",
+  "authority": 65,
+  "lang": "en",
+  "source_url": "https://www.churchofjesuschrist.org/study/history/topics/spencer-w-kimball?lang=eng",
+  "tags": [
+    "history",
+    "church-history",
+    "encyclopedia",
+    "topics"
+  ],
+  "notes": "~280 individual articles A-Z; very high KG value (each = concept node)",
+  "note_count": 12,
+  "footnotes": [
+    {
+      "marker": "1.",
+      "text": "Edward L. Kimball and Andrew E. Kimball Jr.,Spencer W. Kimball: Twelfth President of The Church of Jesus Christ of Latter-day Saints(Salt Lake City: Bookcraft, 1977), 237."
+    },
+    {
+      "marker": "10.",
+      "text": "See Doctrine and Covenants,Official Declaration 2."
+    },
+    {
+      "marker": "11.",
+      "text": "See Gospel Topics Essays, “Race and the Priesthood,” Gospel Library."
+    },
+    {
+      "marker": "12.",
+      "text": "Kimball,Lengthen Your Stride, 413."
+    },
+    {
+      "marker": "2.",
+      "text": "See Spencer W. Kimball, “Church Growth and Lamanite Involvement” (Brigham Young University devotional, Nov. 7, 1972), speeches.byu.edu."
+    },
+    {
+      "marker": "3.",
+      "text": "See Topic:Lamanite Identity."
+    },
+    {
+      "marker": "4.",
+      "text": "Edward L. Kimball,Lengthen Your Stride: The Presidency of Spencer W. Kimball(Salt Lake City: Deseret Book, 2005), 5–8."
+    },
+    {
+      "marker": "5.",
+      "text": "Spencer W. Kimball, “When the World Will Be Converted,”Ensign, Oct. 1974, 5, 8."
+    },
+    {
+      "marker": "6.",
+      "text": "See Topic:Growth of Missionary Work."
+    },
+    {
+      "marker": "7.",
+      "text": "See Topic:Priesthood and Temple Restriction."
+    },
+    {
+      "marker": "8.",
+      "text": "Kimball,Lengthen Your Stride, 209."
+    },
+    {
+      "marker": "9.",
+      "text": "Kimball,Lengthen Your Stride, 220–23."
+    }
+  ],
+  "scripture_refs": [
+    "Official Declaration 2"
+  ]
+}
