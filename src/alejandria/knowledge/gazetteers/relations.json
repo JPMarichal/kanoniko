@@ -856,6 +856,42 @@
       },
       "source_ref": "3 Nephi 28:24-26; Mormon 8:11",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Angel Moroni",
+        "type": "person"
+      },
+      "to": {
+        "name": "Three Witnesses",
+        "type": "person"
+      },
+      "source_ref": "Testimony of Three Witnesses",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John the Baptist",
+        "type": "person"
+      },
+      "to": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "source_ref": "JS-H 1:68-72",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John the Baptist",
+        "type": "person"
+      },
+      "to": {
+        "name": "Oliver Cowdery",
+        "type": "person"
+      },
+      "source_ref": "JS-H 1:68-72",
+      "confidence": "curated"
     }
   ],
   "AUTHORED": [
@@ -3618,6 +3654,210 @@
       },
       "source_ref": "3 Nephi 3:1-10",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "A Voice of Warning",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Key to the Science of Theology",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "Official Declaration 1 (Manifesto)",
+        "type": "scripture"
+      },
+      "source_ref": "OD 1",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lucy Mack Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Biographical Sketches of Joseph Smith",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eliza R. Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "O My Father (hymn)",
+        "type": "scripture"
+      },
+      "source_ref": "Hymns 292",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "W.W. Phelps",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Spirit of God (hymn)",
+        "type": "scripture"
+      },
+      "source_ref": "Hymns 2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "W.W. Phelps",
+        "type": "person"
+      },
+      "to": {
+        "name": "Praise to the Man (hymn)",
+        "type": "scripture"
+      },
+      "source_ref": "Hymns 27",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Fielding Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Doctrines of Salvation",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James E. Talmage",
+        "type": "person"
+      },
+      "to": {
+        "name": "Jesus the Christ",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James E. Talmage",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Articles of Faith",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James E. Talmage",
+        "type": "person"
+      },
+      "to": {
+        "name": "The House of the Lord",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Bruce R. McConkie",
+        "type": "person"
+      },
+      "to": {
+        "name": "Mormon Doctrine",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Bruce R. McConkie",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Mortal Messiah",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Bruce R. McConkie",
+        "type": "person"
+      },
+      "to": {
+        "name": "A New Witness for the Articles of Faith",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "B.H. Roberts",
+        "type": "person"
+      },
+      "to": {
+        "name": "Comprehensive History of the Church",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "B.H. Roberts",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Seventy's Course in Theology",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Spencer W. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Miracle of Forgiveness",
+        "type": "scripture"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
     }
   ],
   "AUTHORIZED": [],
@@ -4660,6 +4900,114 @@
       },
       "source_ref": "Helaman 13:2 (implied)",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "David Whitmer",
+        "type": "person"
+      },
+      "to": {
+        "name": "Harrisburg, Pennsylvania",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "to": {
+        "name": "Milnthorpe, England",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "Avon, Connecticut",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lorenzo Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Mantua, Ohio",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James E. Talmage",
+        "type": "person"
+      },
+      "to": {
+        "name": "Hungerford, England",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "B.H. Roberts",
+        "type": "person"
+      },
+      "to": {
+        "name": "Warrington, England",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Spencer W. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "Salt Lake City",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Gordon B. Hinckley",
+        "type": "person"
+      },
+      "to": {
+        "name": "Salt Lake City",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Russell M. Nelson",
+        "type": "person"
+      },
+      "to": {
+        "name": "Salt Lake City",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
     }
   ],
   "BROTHER_OF": [
@@ -4864,6 +5212,18 @@
         "type": "person"
       },
       "source_ref": "Ether 1:33-34",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "source_ref": "History",
       "confidence": "curated"
     }
   ],
@@ -6732,6 +7092,342 @@
       },
       "source_ref": "Alma 63:1",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "David Whitmer",
+        "type": "person"
+      },
+      "to": {
+        "name": "One of Three Witnesses",
+        "type": "role"
+      },
+      "source_ref": "D&C 17:1-3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "D&C 124:128-129",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "D&C 124:128-129",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "D&C 118:6",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "D&C 118:6",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lorenzo Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lorenzo Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith Sr.",
+        "type": "person"
+      },
+      "to": {
+        "name": "First Patriarch of the Church",
+        "type": "role"
+      },
+      "source_ref": "D&C 107:39-40",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eliza R. Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Second General President of Relief Society",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Edward Partridge",
+        "type": "person"
+      },
+      "to": {
+        "name": "First Bishop of the Church",
+        "type": "role"
+      },
+      "source_ref": "D&C 41:9",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Newel K. Whitney",
+        "type": "person"
+      },
+      "to": {
+        "name": "Bishop",
+        "type": "role"
+      },
+      "source_ref": "D&C 72:8",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "W.W. Phelps",
+        "type": "person"
+      },
+      "to": {
+        "name": "Printer and editor",
+        "type": "role"
+      },
+      "source_ref": "D&C 55:4; 57:11",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Thomas B. Marsh",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Quorum of the Twelve",
+        "type": "role"
+      },
+      "source_ref": "D&C 112:1",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Heber C. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Heber C. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "First Counselor to Brigham Young",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Willard Richards",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Willard Richards",
+        "type": "person"
+      },
+      "to": {
+        "name": "Church Historian",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Hyde",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "D&C 68:1; 124:128-129",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lyman Wight",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "D&C 124:18,128-129",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Fielding Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James E. Talmage",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Bruce R. McConkie",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostle",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "B.H. Roberts",
+        "type": "person"
+      },
+      "to": {
+        "name": "Seventy",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Spencer W. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Gordon B. Hinckley",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Russell M. Nelson",
+        "type": "person"
+      },
+      "to": {
+        "name": "President of the Church",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
     }
   ],
   "CALLED_BY_NAME": [
@@ -7606,6 +8302,30 @@
         "type": "concept"
       },
       "source_ref": "Alma 19:16",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Book of Mormon",
+        "type": "concept"
+      },
+      "source_ref": "Autobiography",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Edward Partridge",
+        "type": "person"
+      },
+      "to": {
+        "name": "Sidney Rigdon",
+        "type": "person"
+      },
+      "source_ref": "History",
       "confidence": "curated"
     }
   ],
@@ -10053,6 +10773,30 @@
       },
       "source_ref": "Alma 38:1",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith Sr.",
+        "type": "person"
+      },
+      "to": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "source_ref": "JS-H 1:4",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith Sr.",
+        "type": "person"
+      },
+      "to": {
+        "name": "Hyrum Smith",
+        "type": "person"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
     }
   ],
   "FOREORDAINED_AS": [
@@ -10681,6 +11425,18 @@
       },
       "source_ref": "Ether 9:1-12",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Satan",
+        "type": "person"
+      },
+      "source_ref": "Moses 1:12-22",
+      "confidence": "curated"
     }
   ],
   "FOUNDED": [
@@ -10735,6 +11491,18 @@
       "source_ref": "D&C 20:1",
       "confidence": "curated",
       "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "City of Zion",
+        "type": "place"
+      },
+      "source_ref": "Moses 7:18-19",
+      "confidence": "curated"
     }
   ],
   "GENRE_OF": [
@@ -13560,6 +14328,318 @@
       },
       "source_ref": "Alma 63:5",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "David Whitmer",
+        "type": "person"
+      },
+      "to": {
+        "name": "Church organized at his home",
+        "type": "role"
+      },
+      "source_ref": "D&C 20 header; History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Three Witnesses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Testified of Book of Mormon",
+        "type": "role"
+      },
+      "source_ref": "Testimony of Three Witnesses",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eight Witnesses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Handled and hefted the gold plates",
+        "type": "role"
+      },
+      "source_ref": "Testimony of Eight Witnesses",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Missionary and theologian",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Mathematician and theologian",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "to": {
+        "name": "Wounded at Carthage Jail",
+        "type": "role"
+      },
+      "source_ref": "D&C 135:2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "Kept extensive journals",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lucy Mack Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Mother of the Prophet",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eliza R. Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Poet, leader, and organizer of Relief Society",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Newel K. Whitney",
+        "type": "person"
+      },
+      "to": {
+        "name": "Hosted Joseph Smith, ran bishop's storehouse",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "W.W. Phelps",
+        "type": "person"
+      },
+      "to": {
+        "name": "Scribe and hymnwriter",
+        "type": "role"
+      },
+      "source_ref": "D&C 55; 57",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Thomas B. Marsh",
+        "type": "person"
+      },
+      "to": {
+        "name": "Apostatized and later returned",
+        "type": "role"
+      },
+      "source_ref": "D&C 112; History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Heber C. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "Led first mission to England",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Willard Richards",
+        "type": "person"
+      },
+      "to": {
+        "name": "Present at Carthage, unharmed",
+        "type": "role"
+      },
+      "source_ref": "D&C 135:2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Hyde",
+        "type": "person"
+      },
+      "to": {
+        "name": "Dedicated Holy Land for gathering of Jews",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lyman Wight",
+        "type": "person"
+      },
+      "to": {
+        "name": "Led colony to Texas",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Fielding Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Church Historian and prolific doctrinal writer",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "James E. Talmage",
+        "type": "person"
+      },
+      "to": {
+        "name": "Scholar, scientist, and theologian",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Bruce R. McConkie",
+        "type": "person"
+      },
+      "to": {
+        "name": "Doctrinal writer and scripture committee",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "B.H. Roberts",
+        "type": "person"
+      },
+      "to": {
+        "name": "Historian, defender of the faith",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Spencer W. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "Extended priesthood to all worthy males",
+        "type": "role"
+      },
+      "source_ref": "OD 2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Gordon B. Hinckley",
+        "type": "person"
+      },
+      "to": {
+        "name": "Massive temple building program",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Russell M. Nelson",
+        "type": "person"
+      },
+      "to": {
+        "name": "Heart surgeon before Church service",
+        "type": "role"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Angel Moroni",
+        "type": "person"
+      },
+      "to": {
+        "name": "Delivered gold plates",
+        "type": "role"
+      },
+      "source_ref": "JS-H 1:59",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Angel Moroni",
+        "type": "person"
+      },
+      "to": {
+        "name": "Quoted OT prophecies: Malachi 3-4, Isaiah 11, Joel 2:28-32",
+        "type": "role"
+      },
+      "source_ref": "JS-H 1:36-41",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John the Baptist",
+        "type": "person"
+      },
+      "to": {
+        "name": "Restored Aaronic Priesthood",
+        "type": "role"
+      },
+      "source_ref": "D&C 13:1; JS-H 1:69",
+      "confidence": "curated"
     }
   ],
   "HAS_TITLE": [
@@ -14756,6 +15836,54 @@
       },
       "source_ref": "3 Nephi 28:15-17",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "to": {
+        "name": "Champion of Liberty",
+        "type": "concept"
+      },
+      "source_ref": "D&C 135:3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eliza R. Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Zion's Poetess",
+        "type": "concept"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Edward Partridge",
+        "type": "person"
+      },
+      "to": {
+        "name": "Heart of Edward Partridge is right before me",
+        "type": "concept"
+      },
+      "source_ref": "D&C 41:11",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "Wild man",
+        "type": "concept"
+      },
+      "source_ref": "Moses 6:38 (self-description)",
+      "confidence": "curated"
     }
   ],
   "HEALED_BY": [
@@ -15179,6 +16307,18 @@
         "type": "concept"
       },
       "source_ref": "Helaman 10:7",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Adam",
+        "type": "person"
+      },
+      "to": {
+        "name": "First to hold priesthood keys",
+        "type": "concept"
+      },
+      "source_ref": "D&C 107:41-42",
       "confidence": "curated"
     }
   ],
@@ -17104,6 +18244,162 @@
       },
       "source_ref": "Alma 63:5",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "David Whitmer",
+        "type": "person"
+      },
+      "to": {
+        "name": "Fayette, New York",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lucy Mack Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Palmyra, New York",
+        "type": "place"
+      },
+      "source_ref": "JS-H 1:3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith Sr.",
+        "type": "person"
+      },
+      "to": {
+        "name": "Palmyra, New York",
+        "type": "place"
+      },
+      "source_ref": "JS-H 1:3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eliza R. Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Nauvoo, Illinois",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Eliza R. Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Salt Lake City",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Edward Partridge",
+        "type": "person"
+      },
+      "to": {
+        "name": "Independence, Missouri",
+        "type": "place"
+      },
+      "source_ref": "D&C 57",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Newel K. Whitney",
+        "type": "person"
+      },
+      "to": {
+        "name": "Kirtland, Ohio",
+        "type": "place"
+      },
+      "source_ref": "D&C 63 header",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "W.W. Phelps",
+        "type": "person"
+      },
+      "to": {
+        "name": "Independence, Missouri",
+        "type": "place"
+      },
+      "source_ref": "D&C 57:11",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Thomas B. Marsh",
+        "type": "person"
+      },
+      "to": {
+        "name": "Far West, Missouri",
+        "type": "place"
+      },
+      "source_ref": "D&C 112 header",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Heber C. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "Salt Lake City",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Willard Richards",
+        "type": "person"
+      },
+      "to": {
+        "name": "Nauvoo, Illinois",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Adam",
+        "type": "person"
+      },
+      "to": {
+        "name": "Garden of Eden",
+        "type": "place"
+      },
+      "source_ref": "Moses 3:8,15",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Adam",
+        "type": "person"
+      },
+      "to": {
+        "name": "Adam-ondi-Ahman",
+        "type": "place"
+      },
+      "source_ref": "D&C 107:53",
+      "confidence": "curated"
     }
   ],
   "MANAGES_FUND": [
@@ -17280,6 +18576,18 @@
         "type": "place"
       },
       "source_ref": "Hebrews 11:37 (tradition); GEE, Isaías",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Van Buren, Arkansas",
+        "type": "place"
+      },
+      "source_ref": "History",
       "confidence": "curated"
     }
   ],
@@ -17739,6 +19047,30 @@
         "type": "person"
       },
       "source_ref": "1 Nephi 18:7",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lucy Mack Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "source_ref": "JS-H 1:4",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lucy Mack Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Hyrum Smith",
+        "type": "person"
+      },
+      "source_ref": "History",
       "confidence": "curated"
     }
   ],
@@ -20143,6 +21475,78 @@
       },
       "source_ref": "Helaman 8:27; 9:36-38",
       "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "David Whitmer",
+        "type": "person"
+      },
+      "to": {
+        "name": "Angel showing gold plates",
+        "type": "concept"
+      },
+      "source_ref": "Testimony of Three Witnesses",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Three Witnesses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Angel and gold plates",
+        "type": "concept"
+      },
+      "source_ref": "Testimony of Three Witnesses",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith Sr.",
+        "type": "person"
+      },
+      "to": {
+        "name": "Tree of life vision",
+        "type": "concept"
+      },
+      "source_ref": "Lucy Mack Smith history",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "God weeping for wickedness",
+        "type": "concept"
+      },
+      "source_ref": "Moses 7:28-37",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "Noah and the flood",
+        "type": "concept"
+      },
+      "source_ref": "Moses 7:43-44",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Every particle of the earth",
+        "type": "concept"
+      },
+      "source_ref": "Moses 1:27-29",
+      "confidence": "curated"
     }
   ],
   "SPOUSE_OF": [
@@ -20714,6 +22118,42 @@
         "type": "person"
       },
       "source_ref": "Helaman 2:2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "to": {
+        "name": "Brigham Young",
+        "type": "person"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "John Taylor",
+        "type": "person"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lorenzo Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "source_ref": "History",
       "confidence": "curated"
     }
   ],
@@ -21950,6 +23390,90 @@
         "type": "concept"
       },
       "source_ref": "Alma 39-42",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lorenzo Snow",
+        "type": "person"
+      },
+      "to": {
+        "name": "As man now is, God once was",
+        "type": "concept"
+      },
+      "source_ref": "History (couplet)",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Bruce R. McConkie",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Purifying Power of Gethsemane",
+        "type": "concept"
+      },
+      "source_ref": "April 1985 GC",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Gordon B. Hinckley",
+        "type": "person"
+      },
+      "to": {
+        "name": "The Family: A Proclamation to the World",
+        "type": "concept"
+      },
+      "source_ref": "1995",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Russell M. Nelson",
+        "type": "person"
+      },
+      "to": {
+        "name": "Correct name of the Church",
+        "type": "concept"
+      },
+      "source_ref": "October 2018 GC",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Adam",
+        "type": "person"
+      },
+      "to": {
+        "name": "Gathered posterity and blessed them",
+        "type": "concept"
+      },
+      "source_ref": "D&C 107:53-56",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "All things bear record of Christ",
+        "type": "concept"
+      },
+      "source_ref": "Moses 6:63",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "to": {
+        "name": "This is my work and my glory",
+        "type": "concept"
+      },
+      "source_ref": "Moses 1:39 (God to Moses)",
       "confidence": "curated"
     }
   ],
@@ -23325,6 +24849,102 @@
         "type": "place"
       },
       "source_ref": "Alma 63:5-7",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "England (mission)",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Parley P. Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Missouri",
+        "type": "place"
+      },
+      "source_ref": "D&C 32:1-3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "England (mission)",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Pratt",
+        "type": "person"
+      },
+      "to": {
+        "name": "Salt Lake Valley (first to enter)",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Wilford Woodruff",
+        "type": "person"
+      },
+      "to": {
+        "name": "England (mission)",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Heber C. Kimball",
+        "type": "person"
+      },
+      "to": {
+        "name": "England (first mission)",
+        "type": "place"
+      },
+      "source_ref": "History",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Orson Hyde",
+        "type": "person"
+      },
+      "to": {
+        "name": "Jerusalem",
+        "type": "place"
+      },
+      "source_ref": "History (dedicated for gathering of Jews)",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lyman Wight",
+        "type": "person"
+      },
+      "to": {
+        "name": "Texas",
+        "type": "place"
+      },
+      "source_ref": "History",
       "confidence": "curated"
     }
   ],
