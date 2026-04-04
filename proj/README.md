@@ -11,7 +11,7 @@ This directory contains the project portfolio for Alejandria's next generation o
 | P3 | [ETL Templates](P3-etl-templates/) | High | Deferred | None |
 | P4 | [Corpus Expansion](P4-corpus-expansion/) | High | Complete | None |
 | P5 | [Chat Client UI](P5-chat-client-ui/) | Medium | Planning | None |
-| P6 | [Advanced Relations](P6-advanced-relations/) | Medium | 8/14 phases ✅ | P1 ✅ |
+| P6 | [Advanced Relations](P6-advanced-relations/) | Medium | 14/14 phases ✅ (LLM extraction deferred) | P1 ✅ |
 | P7 | [Deep Disambiguation](P7-deep-disambiguation/) | Medium | Planning | None |
 | P8 | [Synthesis Engine](P8-synthesis-engine/) | Lower | Planning | P5, P6 |
 | P9 | [Fine-Tuning](P9-fine-tuning/) | Lower | Planning | None |

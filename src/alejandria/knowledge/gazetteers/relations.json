@@ -166,6 +166,142 @@
       "note": "Grace after all we can do echoes election"
     }
   ],
+  "ANTITYPE_OF": [
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Passover Lamb",
+        "type": "concept"
+      },
+      "source_ref": "1 Corinthians 5:7; Exodus 12",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Baptism",
+        "type": "concept"
+      },
+      "to": {
+        "name": "Red Sea Crossing",
+        "type": "concept"
+      },
+      "source_ref": "1 Corinthians 10:1-2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Melchizedek",
+        "type": "person"
+      },
+      "source_ref": "Hebrews 7:1-3, 15-17",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Isaac",
+        "type": "person"
+      },
+      "source_ref": "Hebrews 11:17-19; Genesis 22",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Brazen Serpent",
+        "type": "object"
+      },
+      "source_ref": "John 3:14-15; Numbers 21:8-9",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Throne of God",
+        "type": "concept"
+      },
+      "to": {
+        "name": "Ark of the Covenant",
+        "type": "object"
+      },
+      "source_ref": "Hebrews 9:4-5; Revelation 4:2",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Manna",
+        "type": "object"
+      },
+      "source_ref": "John 6:31-35, 48-51",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Temple Veil",
+        "type": "object"
+      },
+      "source_ref": "Hebrews 10:19-20; Matthew 27:51",
+      "confidence": "curated"
+    }
+  ],
+  "APPEARED_TO": [
+    {
+      "from": {
+        "name": "God",
+        "type": "person"
+      },
+      "to": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "source_ref": "Exodus 3:2-4",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Angel Moroni",
+        "type": "person"
+      },
+      "to": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "source_ref": "JS-History 1:30-33",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Brother of Jared",
+        "type": "person"
+      },
+      "source_ref": "Ether 3:13-16",
+      "confidence": "curated"
+    }
+  ],
   "AUTHORED": [
     {
       "from": {
@@ -3512,6 +3648,150 @@
       },
       "source_ref": "Journal of Discourses 23:184",
       "confidence": "metadata"
+    },
+    {
+      "from": {
+        "name": "Enos",
+        "type": "person"
+      },
+      "to": {
+        "name": "Seth",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:6",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Cainan",
+        "type": "person"
+      },
+      "to": {
+        "name": "Enos",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:9",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Mahalaleel",
+        "type": "person"
+      },
+      "to": {
+        "name": "Cainan",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:12",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jared",
+        "type": "person"
+      },
+      "to": {
+        "name": "Mahalaleel",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:15",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "Jared",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:18",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Methuselah",
+        "type": "person"
+      },
+      "to": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:21",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Lamech",
+        "type": "person"
+      },
+      "to": {
+        "name": "Methuselah",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:25",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Noah",
+        "type": "person"
+      },
+      "to": {
+        "name": "Lamech",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:28-29",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Shem",
+        "type": "person"
+      },
+      "to": {
+        "name": "Noah",
+        "type": "person"
+      },
+      "source_ref": "Genesis 5:32; 10:1",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Abraham",
+        "type": "person"
+      },
+      "to": {
+        "name": "Shem",
+        "type": "person"
+      },
+      "source_ref": "Genesis 11:10-26",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Isaac",
+        "type": "person"
+      },
+      "to": {
+        "name": "Abraham",
+        "type": "person"
+      },
+      "source_ref": "Genesis 21:2-3",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jacob",
+        "type": "person"
+      },
+      "to": {
+        "name": "Isaac",
+        "type": "person"
+      },
+      "source_ref": "Genesis 25:26",
+      "confidence": "curated"
     }
   ],
   "DESCRIBED_BY": [],
@@ -3602,6 +3882,250 @@
       },
       "source_ref": "D&C 27:13; 128:18; 138:53",
       "confidence": "curated"
+    }
+  ],
+  "DISPENSATION_OF": [
+    {
+      "from": {
+        "name": "Adam",
+        "type": "person"
+      },
+      "to": {
+        "name": "Adamic Dispensation",
+        "type": "period"
+      },
+      "source_ref": "Moses 5-6; D&C 107:41-53",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Enoch",
+        "type": "person"
+      },
+      "to": {
+        "name": "Dispensation of Enoch",
+        "type": "period"
+      },
+      "source_ref": "Moses 6-7",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Noah",
+        "type": "person"
+      },
+      "to": {
+        "name": "Dispensation of Noah",
+        "type": "period"
+      },
+      "source_ref": "Genesis 6-9; Moses 8",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Abraham",
+        "type": "person"
+      },
+      "to": {
+        "name": "Dispensation of Abraham",
+        "type": "period"
+      },
+      "source_ref": "Abraham 1-2; Genesis 12-25",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Dispensation of Moses",
+        "type": "period"
+      },
+      "source_ref": "Exodus-Deuteronomy",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Jesus Christ",
+        "type": "person"
+      },
+      "to": {
+        "name": "Meridian of Time",
+        "type": "period"
+      },
+      "source_ref": "Matthew-John; 3 Nephi 11-28",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Dispensation of the Fulness of Times",
+        "type": "period"
+      },
+      "source_ref": "D&C 27:13; 128:18; 138:53",
+      "confidence": "curated"
+    }
+  ],
+  "DUAL_FULFILLMENT": [
+    {
+      "from": {
+        "name": "Isaiah 7:14",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Birth of Maher-shalal-hash-baz",
+        "type": "concept"
+      },
+      "source_ref": "Isaiah 8:3-4",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Isaiah 7:14",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Virgin Birth of Christ",
+        "type": "concept"
+      },
+      "source_ref": "Matthew 1:22-23",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Isaiah 9:6-7",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Reign of Hezekiah",
+        "type": "concept"
+      },
+      "source_ref": "2 Kings 18-20",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Isaiah 9:6-7",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Messianic Kingdom",
+        "type": "concept"
+      },
+      "source_ref": "Luke 1:32-33",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Malachi 3:1",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "John the Baptist",
+        "type": "person"
+      },
+      "source_ref": "Matthew 11:10; Mark 1:2",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Malachi 3:1",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Second Coming",
+        "type": "concept"
+      },
+      "source_ref": "D&C 36:8; 3 Nephi 24:1",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Joel 2:28-32",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Day of Pentecost",
+        "type": "concept"
+      },
+      "source_ref": "Acts 2:16-21",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Joel 2:28-32",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Latter-day Outpouring of the Spirit",
+        "type": "concept"
+      },
+      "source_ref": "JS-H 1:41",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Isaiah 11:1-5",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Jesus Christ as Branch of Jesse",
+        "type": "concept"
+      },
+      "source_ref": "Romans 15:12; 2 Nephi 21:1-5",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Isaiah 11:1-5",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Millennial Reign",
+        "type": "concept"
+      },
+      "source_ref": "Isaiah 11:6-9; D&C 101:26-31",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Psalm 22",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Suffering of David",
+        "type": "concept"
+      },
+      "source_ref": "Psalm 22:1-21",
+      "confidence": "curated",
+      "bidirectional": false
+    },
+    {
+      "from": {
+        "name": "Psalm 22",
+        "type": "scripture"
+      },
+      "to": {
+        "name": "Crucifixion of Christ",
+        "type": "concept"
+      },
+      "source_ref": "Matthew 27:35-46; John 19:23-24",
+      "confidence": "curated",
+      "bidirectional": false
     }
   ],
   "EARLIER_VERSION_OF": [
@@ -6207,6 +6731,80 @@
       "change_type": "expansion"
     }
   ],
+  "KEYBEARER_OF": [
+    {
+      "from": {
+        "name": "Elijah",
+        "type": "person"
+      },
+      "to": {
+        "name": "Sealing Keys",
+        "type": "concept"
+      },
+      "source_ref": "D&C 110:13-16; Malachi 4:5-6",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Moses",
+        "type": "person"
+      },
+      "to": {
+        "name": "Keys of the Gathering of Israel",
+        "type": "concept"
+      },
+      "source_ref": "D&C 110:11",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Peter",
+        "type": "person"
+      },
+      "to": {
+        "name": "Keys of the Kingdom",
+        "type": "concept"
+      },
+      "source_ref": "Matthew 16:18-19",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Elias",
+        "type": "person"
+      },
+      "to": {
+        "name": "Keys of the Abrahamic Covenant",
+        "type": "concept"
+      },
+      "source_ref": "D&C 110:12",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "Joseph Smith",
+        "type": "person"
+      },
+      "to": {
+        "name": "Keys of the Dispensation of the Fulness of Times",
+        "type": "concept"
+      },
+      "source_ref": "D&C 27:13; 128:18",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "John the Baptist",
+        "type": "person"
+      },
+      "to": {
+        "name": "Keys of the Aaronic Priesthood",
+        "type": "concept"
+      },
+      "source_ref": "D&C 13:1",
+      "confidence": "curated"
+    }
+  ],
   "MARTYRED_AT": [
     {
       "from": {
@@ -8324,6 +8922,128 @@
       "source_ref": "3 Nephi 27:13-21; D&C 39:6",
       "confidence": "curated",
       "bidirectional": false
+    }
+  ],
+  "TRANSLATES_AS": [
+    {
+      "from": {
+        "name": "hesed",
+        "type": "concept"
+      },
+      "to": {
+        "name": "lovingkindness",
+        "type": "concept"
+      },
+      "source_ref": "Psalm 136 (all verses); Micah 6:8",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "berith",
+        "type": "concept"
+      },
+      "to": {
+        "name": "covenant",
+        "type": "concept"
+      },
+      "source_ref": "Genesis 15:18; Exodus 19:5",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "logos",
+        "type": "concept"
+      },
+      "to": {
+        "name": "Word",
+        "type": "concept"
+      },
+      "source_ref": "John 1:1-14",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "agape",
+        "type": "concept"
+      },
+      "to": {
+        "name": "charity",
+        "type": "concept"
+      },
+      "source_ref": "1 Corinthians 13:1-13; Moroni 7:47",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "torah",
+        "type": "concept"
+      },
+      "to": {
+        "name": "law",
+        "type": "concept"
+      },
+      "source_ref": "Deuteronomy 31:9; Psalm 19:7",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "shalom",
+        "type": "concept"
+      },
+      "to": {
+        "name": "peace",
+        "type": "concept"
+      },
+      "source_ref": "Isaiah 9:6; Numbers 6:26",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "pneuma",
+        "type": "concept"
+      },
+      "to": {
+        "name": "spirit",
+        "type": "concept"
+      },
+      "source_ref": "John 3:5-8; Romans 8:16",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "ekklesia",
+        "type": "concept"
+      },
+      "to": {
+        "name": "church",
+        "type": "concept"
+      },
+      "source_ref": "Matthew 16:18; Acts 2:47",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "baptizo",
+        "type": "concept"
+      },
+      "to": {
+        "name": "baptize",
+        "type": "concept"
+      },
+      "source_ref": "Matthew 3:11; Mark 1:4",
+      "confidence": "curated"
+    },
+    {
+      "from": {
+        "name": "christos",
+        "type": "concept"
+      },
+      "to": {
+        "name": "anointed one",
+        "type": "concept"
+      },
+      "source_ref": "Matthew 16:16; John 1:41",
+      "confidence": "curated"
     }
   ],
   "TRAVELED_TO": [

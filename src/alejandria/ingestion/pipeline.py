@@ -1261,6 +1261,13 @@ class IngestionPipeline:
         logger.info("KG rebuild: clearing existing graph...")
         self._neo4j.clear_all(preserve_sources=self.PRESERVED_NEO4J_SOURCES)
 
+        # Ensure Neo4j indexes for query performance (P6 Phase 14)
+        try:
+            from alejandria.knowledge.indexes import ensure_indexes
+            ensure_indexes(self._neo4j._driver)
+        except Exception:
+            logger.warning("Failed to create indexes — continuing without them", exc_info=True)
+
         # Load scripture structural entities and relations (P1 Phase 3)
         try:
             from alejandria.knowledge.scripture_structure import get_structure
@@ -1331,6 +1338,14 @@ class IngestionPipeline:
             logger.info("KG rebuild: metadata relations — %d total", m_counts.get("total", 0))
         except Exception:
             logger.warning("Failed to extract metadata relations — continuing without them", exc_info=True)
+
+        # Load cross-references (P6 Phase 8)
+        try:
+            from alejandria.knowledge.cross_ref_loader import load_cross_refs
+            cr_counts = load_cross_refs(self._neo4j._driver)
+            logger.info("KG rebuild: cross-refs — %d verses, %d rels", cr_counts.get("verse_nodes", 0), cr_counts.get("relationships", 0))
+        except Exception:
+            logger.warning("Failed to load cross-refs — continuing without them", exc_info=True)
 
         # Read all chunks from SQLite
         conn = self._textual.get_connection()
