@@ -14,7 +14,7 @@ from pathlib import Path
 
 from alejandria.authority import derive_authority
 from alejandria.config import settings
-from alejandria.ingestion.chunker import chunk_scripture, chunk_text
+from alejandria.ingestion.chunker import chunk_handbook, chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
 from alejandria.ingestion.registry import DocumentRegistry
 from alejandria.ingestion.conference_parser import (
@@ -740,13 +740,18 @@ class IngestionPipeline:
             return None
 
         scripture_file = is_scripture(rel_path)
+        handbook_file = _is_handbook(rel_path)
         if scripture_file:
             chunks = chunk_scripture(text, target_words=150, max_words=300)
+        elif handbook_file:
+            chunks = chunk_handbook(text, settings.chunk_size, settings.chunk_overlap)
         else:
             chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
         chunk_references: list[str | None] = [
-            build_chunk_reference(rel_path, chunk.text, text) if scripture_file else None
+            build_chunk_reference(rel_path, chunk.text, text) if scripture_file
+            else chunk.reference if handbook_file
+            else None
             for chunk in chunks
         ]
 
@@ -1037,18 +1042,23 @@ class IngestionPipeline:
             )
             return 0
 
-        # Chunk — use verse-aware chunking for scriptures
+        # Chunk — use verse-aware chunking for scriptures, section-aware for handbook
         scripture_file = is_scripture(rel_path)
+        handbook_file = _is_handbook(rel_path)
         if scripture_file:
             chunks = chunk_scripture(text, target_words=150, max_words=300)
+        elif handbook_file:
+            chunks = chunk_handbook(text, settings.chunk_size, settings.chunk_overlap)
         else:
             chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
-        # Build per-chunk scripture references
+        # Build per-chunk references (scripture verse refs, handbook section refs, or None)
         chunk_references: list[str | None] = []
         for chunk in chunks:
             if scripture_file:
                 ref = build_chunk_reference(rel_path, chunk.text, text)
+            elif handbook_file:
+                ref = chunk.reference
             else:
                 ref = None
             chunk_references.append(ref)
@@ -2040,6 +2050,12 @@ def _is_conference(rel_path: str) -> bool:
     """Check if a file is a general conference talk by corpus path."""
     parts = rel_path.replace("\\", "/").split("/")
     return len(parts) >= 2 and "general-conference" in parts
+
+
+def _is_handbook(rel_path: str) -> bool:
+    """Check if a file belongs to the General Handbook by corpus path."""
+    normalized = rel_path.replace("\\", "/")
+    return "manuals/general-handbook" in normalized
 
 
 def _load_conference_metadata(abs_path: Path, rel_path: str) -> ConferenceTalk | None:

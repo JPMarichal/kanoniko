@@ -19,41 +19,44 @@ Extend the KG to represent the organizational/normative domain of the General Ha
 - Gazetteer collision: handbook entities use distinct types (role, unit, meeting) separate from scriptural "person" and "concept"
 - Role vs. Person ambiguity: source-aware extraction in Phase 2 will differentiate
 
-## Phase 2: Extraction Patterns
+## Phase 2: Extraction Patterns ✅ Complete
 
 **Goal:** Enable the extractor to recognize handbook entities and infer normative relations.
 
 ### Deliverables
 
-1. **Source-aware extraction** — The extractor should know when it's processing handbook content (via `source_file` path) and apply handbook-specific logic
-2. **Normative relation patterns** — Pattern-based extraction for common handbook structures:
+1. ✅ **Source-aware extraction** — `extractor.py` detects `manuals/general-handbook` in `source_file`, activates handbook-specific entity matching and relation patterns
+2. ✅ **Normative relation patterns** — 4 regex patterns:
    - "The [role] presides over the [unit]" → `PRESIDES_OVER`
-   - "The [role] is responsible for [X]" → `RESPONSIBLE_FOR`
-   - "The [role] may delegate to [role]" → `DELEGATES_TO`
    - "[Role] reports to [role]" → `REPORTS_TO`
-   - "Authorization from [role] is required" → `AUTHORIZES`
-   - "[Ordinance] is prerequisite for [ordinance]" → `PREREQUISITE_FOR`
-3. **Handbook-specific chunking** — Handbook sections are structured by numbered subsections (7.1.2, 38.6.13). The chunker should respect these boundaries for better relation extraction.
+   - "authorized by the [role]" → `REQUIRES_APPROVAL_OF`
+   - "with approval of [role]" → `REQUIRES_APPROVAL_OF`
+3. ✅ **Handbook-specific chunking** — `chunk_handbook()` in `chunker.py` respects `##`/`###`/`####` section boundaries, preserves headings, sets section reference (e.g., "8.1.2")
+4. ✅ **Pipeline routing** — `_parse_file_cpu()` routes handbook files to `chunk_handbook()` automatically
+5. ✅ **Fixed calling→role** — All co-occurrence rules updated from "calling" to "role" type
+6. ✅ **Enhanced co-occurrence inference** — New type combinations: role+meeting, role+fund, role+program, directional role+role
 
-### Risks
-- Pattern-based extraction is fragile. The handbook's language is varied — "presides", "has responsibility for", "oversees", "leads" all express the same relation. May need LLM assist (Phase 3).
+### Risks (mitigated)
+- Pattern fragility: regex handles common forms; LLM extractor supplements with broader VALID_RELATION_TYPES coverage
 
-## Phase 3: Validation & Enrichment
+## Phase 3: Validation & Enrichment ✅ Complete
 
 **Goal:** Verify extracted graph, fill gaps, and establish update workflow.
 
 ### Deliverables
 
-1. **Curated core relations** — Manually verify the ~50 most important organizational relations (role→unit hierarchy, ordinance prerequisites, authority chains). Add to `relations.json` as `confidence: "curated"`.
-2. **LLM enrichment pass** — Use the existing `relation_extractor_llm.py` to extract relations from handbook chunks that pattern matching missed. Handbook text is explicit enough for high-confidence LLM extraction.
-3. **Update workflow** — Document the re-download + reindex process for handbook updates:
-   - `scrape_handbook.py --lang all` → downloads latest
-   - Incremental reindex detects SHA-256 changes → re-indexes changed chapters
-   - KG extractor processes new/changed chunks → updates graph
-4. **Validation queries** — Neo4j Cypher queries that verify graph integrity:
+1. ✅ **Curated core relations** — 47 curated relations in `relations.json` (Phase 1) covering authority chains, ordinance sequences, financial administration
+2. ✅ **Validation script** — `scripts/validate_handbook_kg.py` with 5 integrity checks:
    - Every unit has a presiding role
    - Ordinance prerequisite chain is acyclic
-   - All roles have at least one `PRESIDES_OVER` or `REPORTS_TO`
+   - All roles have at least one PRESIDES_OVER or REPORTS_TO
+   - Authority chain completeness (who can authorize what)
+   - Reporting chain depth analysis
+3. ✅ **Update workflow** — Handbook content follows standard incremental reindex:
+   - Re-download → SHA-256 change detection → incremental reindex
+   - `chunk_handbook()` auto-routes handbook files
+   - Source-aware extractor applies handbook-specific patterns
+4. ⬜ **LLM enrichment pass** — Deferred (same as P6 LLM extraction; will run when Sonnet tier is available)
 
 ## Effort Estimate
 

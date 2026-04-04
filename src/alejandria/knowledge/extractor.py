@@ -121,6 +121,7 @@ class ExtractionResult:
     entities: list[ExtractedEntity] = field(default_factory=list)
     relations: list[ExtractedRelation] = field(default_factory=list)
     scripture_refs: list[str] = field(default_factory=list)
+    handbook_xrefs: list[str] = field(default_factory=list)
 
 
 # Short gazetteer terms that collide with common words, split by language.
@@ -176,6 +177,41 @@ _CONTEXTUAL_PHRASES: list[tuple[str, str, list[re.Pattern]]] = [
         re.compile(r"\bNo\s+shall\b.*\brent\b", re.IGNORECASE),
     ]),
 ]
+
+
+# Entity types that are handbook-specific and benefit from boosted matching
+_HANDBOOK_ENTITY_TYPES = frozenset({
+    "role", "unit", "ordinance", "meeting", "fund", "program",
+})
+
+# Regex patterns for handbook-specific relation extraction.
+# Each tuple: (compiled_regex, from_group_type, relation, to_group_type)
+_HANDBOOK_RELATION_PATTERNS: list[tuple[re.Pattern, str, str, str]] = [
+    # "The bishop presides over the ward"
+    (re.compile(
+        r"\bthe\s+(\w[\w\s]*?)\s+presides?\s+over\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+        re.IGNORECASE,
+    ), "role", "PRESIDES_OVER", "unit"),
+    # "reports to the stake president"
+    (re.compile(
+        r"\b(\w[\w\s]*?)\s+reports?\s+to\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+        re.IGNORECASE,
+    ), "role", "REPORTS_TO", "role"),
+    # "authorized by the bishop" / "with approval of the stake president"
+    (re.compile(
+        r"\bauthorized\s+by\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+        re.IGNORECASE,
+    ), "_subject", "REQUIRES_APPROVAL_OF", "role"),
+    (re.compile(
+        r"\bwith\s+(?:the\s+)?approval\s+of\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+        re.IGNORECASE,
+    ), "_subject", "REQUIRES_APPROVAL_OF", "role"),
+]
+
+# Handbook internal cross-reference pattern: "see 4.2" or "see 4.2.3"
+_HANDBOOK_XREF_RE = re.compile(
+    r"\bsee\s+(\d+\.\d+(?:\.\d+)?)\b", re.IGNORECASE,
+)
 
 
 class KGExtractor:
@@ -352,6 +388,11 @@ class KGExtractor:
             if parts and parts[0] == "es":
                 lang = "es"
 
+        # Detect handbook source — enables boosted matching and handbook-specific patterns
+        is_handbook = source_file and (
+            "manuals/general-handbook" in source_file.replace("\\", "/")
+        )
+
         # 1. Gazetteer-based entity extraction (takes precedence)
         #    Uses pre-compiled single regex for O(n) scanning instead of O(n*m) loop
         found_entities: dict[str, ExtractedEntity] = {}
@@ -443,6 +484,14 @@ class KGExtractor:
                         # Track NER discoveries for gazetteer feedback loop
                         self._track_ner_candidate(entity.name, entity.type, source_file)
 
+        # 2b. Handbook-specific boosted matching and relation patterns
+        if is_handbook:
+            self._extract_handbook_entities(text, text_lower, found_entities)
+            handbook_rels = self._extract_handbook_relations(text, found_entities)
+            # Cross-references: "see 4.2.3"
+            for m in _HANDBOOK_XREF_RE.finditer(text):
+                result.handbook_xrefs.append(m.group(1))
+
         result.entities = list(found_entities.values())
 
         # 3. Scripture citation extraction
@@ -456,9 +505,105 @@ class KGExtractor:
                 ))
 
         # 4. Relation extraction (co-occurrence based)
-        result.relations = self._extract_relations(result.entities)
+        result.relations = self._extract_relations(result.entities, is_handbook=is_handbook)
+
+        # 4b. Append handbook pattern-matched relations (deduplicated)
+        if is_handbook and handbook_rels:
+            seen = {(r.from_entity, r.relation, r.to_entity) for r in result.relations}
+            for rel in handbook_rels:
+                key = (rel.from_entity, rel.relation, rel.to_entity)
+                if key not in seen:
+                    result.relations.append(rel)
+                    seen.add(key)
 
         return result
+
+    def _extract_handbook_entities(
+        self,
+        text: str,
+        text_lower: str,
+        found_entities: dict[str, ExtractedEntity],
+    ) -> None:
+        """Boost entity matching for handbook-specific types.
+
+        In handbook context, aggressively match role/unit/ordinance/meeting/fund/program
+        entities even when they appear as common phrases (e.g., "bishop" as a role,
+        "ward" as a unit). Scans for gazetteer terms of handbook types that might
+        have been skipped by the main regex due to short length or ambiguity.
+        """
+        for entity_type, entries in self._gazetteer.items():
+            if entity_type not in _HANDBOOK_ENTITY_TYPES:
+                continue
+            for entry in entries:
+                name = entry["name"]
+                key = f"{name}:{entity_type}"
+                if key in found_entities:
+                    continue
+                # Try canonical name and aliases
+                all_names = [name] + [a for a in entry.get("aliases", []) if a]
+                for n in all_names:
+                    pattern = r"\b" + re.escape(n.lower()) + r"\b"
+                    m = re.search(pattern, text_lower)
+                    if m:
+                        found_entities[key] = ExtractedEntity(
+                            name=name,
+                            type=entity_type,
+                            span=(m.start(), m.end()),
+                            source="gazetteer_handbook",
+                        )
+                        break
+
+    def _extract_handbook_relations(
+        self,
+        text: str,
+        found_entities: dict[str, ExtractedEntity],
+    ) -> list[ExtractedRelation]:
+        """Extract relations from handbook-specific sentence patterns.
+
+        Matches patterns like "The bishop presides over the ward" and resolves
+        captured groups against known entities in the chunk.
+        """
+        relations: list[ExtractedRelation] = []
+        # Build a quick lookup: lowercased name/alias -> (canonical, type)
+        entity_by_text: dict[str, tuple[str, str]] = {}
+        for key, ent in found_entities.items():
+            entity_by_text[ent.name.lower()] = (ent.name, ent.type)
+
+        for pat, from_type, rel_type, to_type in _HANDBOOK_RELATION_PATTERNS:
+            for m in pat.finditer(text):
+                groups = m.groups()
+                if from_type == "_subject":
+                    # Single-capture patterns (e.g., "authorized by [role]")
+                    captured = groups[0].strip().lower()
+                    match_ent = entity_by_text.get(captured)
+                    if match_ent and match_ent[1] == to_type:
+                        # Find any entity in this chunk that could be the subject
+                        for ent in found_entities.values():
+                            if ent.type in _HANDBOOK_ENTITY_TYPES and ent.name.lower() != captured:
+                                relations.append(ExtractedRelation(
+                                    from_entity=ent.name,
+                                    from_type=ent.type,
+                                    relation=rel_type,
+                                    to_entity=match_ent[0],
+                                    to_type=match_ent[1],
+                                ))
+                                break
+                else:
+                    # Two-capture patterns (e.g., "[role] presides over [unit]")
+                    from_text = groups[0].strip().lower()
+                    to_text = groups[1].strip().lower()
+                    from_ent = entity_by_text.get(from_text)
+                    to_ent = entity_by_text.get(to_text)
+                    if from_ent and to_ent:
+                        relations.append(ExtractedRelation(
+                            from_entity=from_ent[0],
+                            from_type=from_ent[1],
+                            relation=rel_type,
+                            to_entity=to_ent[0],
+                            to_type=to_ent[1],
+                        ))
+
+        return relations
 
     def _extract_ner(
         self,
@@ -559,7 +704,12 @@ class KGExtractor:
         except Exception:
             pass  # Don't fail extraction due to tracking issues
 
-    def _extract_relations(self, entities: list[ExtractedEntity]) -> list[ExtractedRelation]:
+    def _extract_relations(
+        self,
+        entities: list[ExtractedEntity],
+        *,
+        is_handbook: bool = False,
+    ) -> list[ExtractedRelation]:
         """Infer relations from co-occurring entities in the same chunk.
 
         Uses a two-tier approach:
@@ -601,7 +751,7 @@ class KGExtractor:
                     continue
 
                 # Tier 2: Type-based co-occurrence inference
-                rel = self._infer_relation_type(e1, e2)
+                rel = self._infer_relation_type(e1, e2, is_handbook=is_handbook)
                 if rel is None:
                     continue
 
@@ -620,7 +770,12 @@ class KGExtractor:
         return relations
 
     @staticmethod
-    def _infer_relation_type(e1: ExtractedEntity, e2: ExtractedEntity) -> str | None:
+    def _infer_relation_type(
+        e1: ExtractedEntity,
+        e2: ExtractedEntity,
+        *,
+        is_handbook: bool = False,
+    ) -> str | None:
         """Infer a relation type from the types of two co-occurring entities."""
         types = frozenset([e1.type, e2.type])
         pair = (e1.type, e2.type)
@@ -647,27 +802,34 @@ class KGExtractor:
             return "EXISTS_DURING"
 
         # Handbook entity type co-occurrence inference
-        if types == frozenset(["calling", "organization"]):
+        if types == frozenset(["role", "organization"]):
             return "PRESIDES_OVER"
-        if types == frozenset(["calling", "unit"]):
+        if types == frozenset(["role", "unit"]):
             return "PRESIDES_OVER"
-        if types == frozenset(["calling", "ordinance"]):
+        if types == frozenset(["role", "ordinance"]):
             return "AUTHORIZED_TO_PERFORM"
-        if types == frozenset(["calling", "council"]):
+        if types == frozenset(["role", "council"]):
             return "MEMBER_OF"
+        if types == frozenset(["role", "meeting"]):
+            # In handbook context, role + meeting is more likely membership/attendance
+            return "MEMBER_OF" if is_handbook else "CONDUCTS_INTERVIEW"
+        if types == frozenset(["role", "fund"]):
+            return "MANAGES_FUND"
+        if types == frozenset(["role", "program"]):
+            return "OVERSEES"
         if types == frozenset(["organization", "unit"]):
             return "ORGANIZED_UNDER"
-        if types == frozenset(["ordinance", "ordinance"]):
+        if pair == ("ordinance", "ordinance"):
             return "PREREQUISITE_FOR"
         if types == frozenset(["ordinance", "concept"]):
             return "COVENANT_OF"
         if types == frozenset(["policy", "ordinance"]):
             return "GOVERNS_POLICY"
-        if types == frozenset(["calling", "calling"]):
+        if pair == ("role", "role"):
             return "REPORTS_TO"
-        if types == frozenset(["unit", "unit"]):
+        if pair == ("unit", "unit"):
             return "UNIT_CONTAINS"
-        if types == frozenset(["organization", "organization"]):
+        if pair == ("organization", "organization"):
             return "RELATED_TO"
         if types == frozenset(["program", "organization"]):
             return "ORGANIZED_UNDER"
