@@ -1063,22 +1063,6 @@ def _rules_jacobo(window: str, source: str) -> tuple[str, str, str] | None:
     return None
 
 
-def _rules_emma(window: str, source: str) -> tuple[str, str, str] | None:
-    """Emma Smith / Emma Hale Smith — same person, maiden vs married name."""
-    if re.search(r"emma\s+hale", window):
-        return ("Emma Smith", "high", "alias: Emma Hale = Emma Smith (maiden name)")
-    if re.search(r"emma\s+smith", window):
-        return ("Emma Smith", "high", "modifier: Emma Smith")
-    # "Emma" alone in D&C or Joseph Smith context
-    src = _src(source)
-    if re.search(r"/(?:doctrine-and-covenants|d&c|d-and-c|doctrina-y-convenios)/", src):
-        return ("Emma Smith", "high", "source: D&C — Emma = Emma Smith")
-    if re.search(r"emma.{0,60}(?:joseph|jos[eé]|prophet|profeta|wife|esposa"
-                 r"|elect\s+lady|dama\s+elegida)", window):
-        return ("Emma Smith", "high", "contextual: Joseph's wife / elect lady")
-    return None
-
-
 def _rules_law(window: str, source: str) -> tuple[str, str, str, str | None] | None:
     """Law — Law of Moses vs law of the gospel vs civil law."""
     src = _src(source)
@@ -1147,10 +1131,6 @@ _DISAMBIGUATION_RULES: dict[str, _RuleFn] = {
     "pablo": _rules_paul,
     "jacob": _rules_jacob_patriarch,
     "jacobo": _rules_jacobo,          # ES: Jacobo = James/Santiago; rare: Jacob patriarch
-    "emma": _rules_emma,
-    "emma smith": _rules_emma,
-    "emma hale": _rules_emma,
-    "emma hale smith": _rules_emma,
     # --- Level 2: entity-type disambiguation ---
     "judah": _rules_judah,
     "judá": _rules_judah,

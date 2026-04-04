@@ -277,7 +277,10 @@
     },
     {
       "name": "Emma Smith",
-      "aliases": []
+      "aliases": [
+        "Emma Hale Smith",
+        "Emma Hale"
+      ]
     },
     {
       "name": "Parley P. Pratt",
@@ -10890,13 +10893,6 @@
       "aliases": [
         "Madre Celestial",
         "Heavenly Parents"
-      ]
-    },
-    {
-      "name": "Emma Hale Smith",
-      "aliases": [
-        "Emma Smith",
-        "Emma Hale"
       ]
     },
     {
