@@ -4,30 +4,20 @@
 
 Extend the KG to represent the organizational/normative domain of the General Handbook. Three phases: model, extract, validate.
 
-## Phase 1: Model Extension
+## Phase 1: Model Extension ✅ Complete
 
 **Goal:** Define and register new entity types, relation types, and bilingual gazetteers.
 
 ### Deliverables
 
-1. **Entity type registry** — Add 9 new types (`role`, `unit`, `ordinance`, `meeting`, `record`, `fund`, `program`, `standard`, `sin_category`) to the extractor's type system
-2. **Relation type registry** — Add ~30 new relation types across 5 categories (authority/governance, ordinance/procedure, financial, membership/discipline, meetings)
-3. **Handbook gazetteer** — Bilingual gazetteer file with all handbook-specific entities:
-   - Roles: ~40 entries (Bishop/Obispo, Stake President/Presidente de Estaca, etc.)
-   - Units: ~25 entries (Ward/Barrio, Stake/Estaca, Branch/Rama, etc.)
-   - Ordinances: ~20 entries (Baptism/Bautismo, Endowment/Investidura, etc.)
-   - Meetings: ~15 entries (Sacrament Meeting/Reunión Sacramental, etc.)
-   - Records: ~10 entries (Temple Recommend/Recomendación para el Templo, etc.)
-   - Funds: ~8 entries (Tithing/Diezmo, Fast Offering/Ofrenda de Ayuno, etc.)
-   - Programs: ~10 entries (Seminary/Seminario, Institute/Instituto, etc.)
-   - Standards: ~8 entries
-   - Total: ~136 bilingual entries
+1. ✅ **Entity types** — 6 types in `entities.json`: role (24), unit (15), ordinance (18), meeting (8), fund (5), program (10) — all bilingual EN/ES
+2. ✅ **Relation types** — Already in `VALID_RELATION_TYPES` from P6: PRESIDES_OVER, REPORTS_TO, MEMBER_OF, AUTHORIZED_TO_PERFORM, MANAGES_FUND, CONDUCTS_INTERVIEW, etc.
+3. ✅ **Curated relations** — 47 handbook relations in `relations.json`: PRESIDES_OVER (10), REPORTS_TO (8), AUTHORIZED_TO_PERFORM (10), PREREQUISITE_FOR (5 new), MANAGES_FUND (4), CONDUCTS_INTERVIEW (5), MEMBER_OF (5)
+4. ✅ **Merged calling→role** — Consolidated duplicate "calling" type into "role" (24 unique entries)
 
-4. **Neo4j schema update** — Ensure new types work with existing indexes and constraints
-
-### Risks
-- Gazetteer collision: terms like "church", "temple", "priesthood" may conflict with existing concept entries. Needs disambiguation rules.
-- Role vs. Person ambiguity: "the bishop" in scriptural text = a person; in handbook = a role. Source-aware extraction needed.
+### Risks (addressed)
+- Gazetteer collision: handbook entities use distinct types (role, unit, meeting) separate from scriptural "person" and "concept"
+- Role vs. Person ambiguity: source-aware extraction in Phase 2 will differentiate
 
 ## Phase 2: Extraction Patterns
 
