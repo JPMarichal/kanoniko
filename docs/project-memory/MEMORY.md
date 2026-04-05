@@ -74,3 +74,4 @@
 - [project_covenant_path_architecture.md](project_covenant_path_architecture.md) — Covenant path: 8 collections, 60 forms (intro+6 doctrinal+vidas)
 - [feedback_continuous_improvement.md](feedback_continuous_improvement.md) — Products are living: continuous improvement, theme detection skill, controversies/misunderstandings as source
 - [feedback_no_prayer_for_dead.md](feedback_no_prayer_for_dead.md) — No orar por los muertos: listas del templo son para vivos; para difuntos, ordenanzas vicarias
+- [feedback_doctrine_exists_search_harder.md](feedback_doctrine_exists_search_harder.md) — No asumir "sin doctrina" por falta de escritura directa; buscar en Handbook, Ayudas para la vida, conferencia
