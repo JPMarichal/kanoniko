@@ -65,3 +65,4 @@
 - [feedback_solera_403.md](feedback_solera_403.md) — No WebFetch a mormontextsproject.org: proxy Solera lo bloquea; usar WebSearch o bookshelf de Gutenberg
 - [feedback_source_citations_fcd.md](feedback_source_citations_fcd.md) — Citar fuentes en FCD bibliográfico, no rutas de archivo del corpus
 - [feedback_forma_t_purpose.md](feedback_forma_t_purpose.md) — Formas T are teaching tools first, not apologetic; controversy resolution is byproduct, not purpose
+- [procedure_forma_t_generation.md](procedure_forma_t_generation.md) — 7-step procedure: corpus search, single responsibility, audience design, Bible-first ordering, sequence review, ≤15 words, format
