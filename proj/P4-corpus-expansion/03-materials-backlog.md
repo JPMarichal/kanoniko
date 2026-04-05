@@ -16,34 +16,75 @@ relaciones KG esperadas, consideraciones especiales y estado del script.
 
 ## Corpus actual (referencia)
 
+> Actualizado 2026-04-05 contra contenido real en disco.
+
+### Escrituras y ayudas de estudio
+
 | Material | Estado | Notas |
 |----------|--------|-------|
 | Escrituras EN (todos los standard works) | `ingested` | |
 | Escrituras ES (Book of Mormon) | `ingested` | AT/NT/D&C/PGP ES pendientes |
 | Conferencia General 1971–2025 EN | `ingested` | ~6,900 charlas — **completo** |
 | Conferencia General ES (~1990–2025) | `ingested` | Completo para lo disponible digitalmente — **completo** |
-| General Handbook | `ingested` | EN+ES |
-| Missionary Standards + Supplement | `ingested` | EN+ES |
-| Proclamations (Family, Living Christ) | `ingested` | EN+ES |
 | Bible Dictionary | `ingested` | EN (1,275 entradas) |
 | Guide to the Scriptures (GEE) | `ingested` | EN (813) + ES (810) — consolida TG+BD en ES |
 | Topical Guide | `ingested` | EN (3,513 entradas) — en GEE ES |
 | JST Appendix | `ingested` | EN+ES (94 caps) |
 | Chapter headings / superscriptions | `ingested` | EN+ES — en `.meta.json` de cada capítulo |
 | Volume introductions (BoM, D&C, PGP, OT, NT) | `ingested` | EN+ES — 29 archivos vía `scrape_introductions.py` |
-| Harmony of the Gospels | `prepared` | Tier 0a — P0 — Script: `scrape_harmony.py` |
-| Bible Chronology (AT + NT) | `prepared` | Tier 0a — P0 — Script: `scrape_bible_chronology.py` |
-| Abbreviations | `prepared` | Tier 0a — P0 — Script: `scrape_abbreviations.py` |
+| Harmony of the Gospels | `ingested` | 8 partes + intro — EN+ES |
+| Bible Chronology (AT + NT) | `ingested` | intro + OT + NT — EN+ES |
+| Abbreviations | `ingested` | EN+ES |
 | Reference Guide to Holy Bible + BoM | `backlog` | Tier 0a — MEDIUM |
-| Preach My Gospel 2023 | `ingested` | EN+ES — KG analysis: ver sección abajo |
-| **Jesus the Christ** (Talmage) | `prepared` | Script: `download_jesus_the_christ.py` — KG analysis: ver sección abajo |
-| **Christmas Study Plan** (anual) | `prepared` | Script: `download_christmas_study_plan.py` — `--year YYYY` |
-| **Easter / Holy Week Study Plan** | `prepared` | Script: `download_easter_study_plan.py` — slug permanente |
-| **Himnos** (Himnario clásico) | `prepared` | Script: `download_music.py --collection hymns` |
-| **Himnos para el hogar y la Iglesia** (nuevo himnario) | `prepared` | Script: `download_music.py --collection hymns-home-church` |
-| **Canciones para los niños** | `prepared` | Script: `download_music.py --collection childrens-songbook` |
-| **Música para los jóvenes** | `prepared` | Script: `download_music.py --collection youth-music` |
-| **Ayudas para los Himnos** | `prepared` | Script: `download_music.py --collection hymn-helps` |
+
+### Manuales y materiales oficiales
+
+| Material | Estado | Notas |
+|----------|--------|-------|
+| General Handbook | `ingested` | EN+ES |
+| Missionary Standards + Supplement | `ingested` | EN+ES |
+| Proclamations (Family, Living Christ) | `ingested` | EN+ES |
+| Preach My Gospel 2023 | `ingested` | EN+ES |
+| Gospel Principles | `ingested` | 51 archivos EN+ES |
+| True to the Faith | `ingested` | ~180 entradas EN+ES |
+| Come Follow Me (2019–2026, 8 años) | `ingested` | Ciclo completo: NT, LdM, D&C, AT × 2 ciclos |
+| Teachings of Presidents (17 volúmenes) | `ingested` | Todos: JS a Nelson, ~560 capítulos EN+ES |
+| For the Strength of Youth (2022) | `ingested` | EN+ES |
+| Gospel Topics Essays | `ingested` | 15 ensayos EN+ES |
+| First Vision Accounts | `ingested` | 9 documentos EN+ES |
+| Our Heritage | `ingested` | 11 capítulos EN+ES |
+| Saints vols 1–4 | `ingested` | 214 capítulos EN+ES |
+| Institute Manuals (CES) | `ingested` | 8 cursos (LdM, D&C, PGP, NT, Familia Eterna, Restauración, etc.) |
+| Doctrines of the Gospel | `ingested` | Manual de seminario/instituto |
+| Revelations in Context | `ingested` | D&C contexto histórico |
+| At the Pulpit | `ingested` | 68 capítulos — mujeres de la Iglesia |
+| Daughters in My Kingdom | `ingested` | 17 capítulos — historia de la Sociedad de Socorro |
+| Christmas Study Plan (2024) | `ingested` | 9 archivos — 2025 vacío |
+| Easter / Holy Week Study Plan | `ingested` | 18 archivos (NT + BoM pistas paralelas) |
+
+### Música
+
+| Material | Estado | Notas |
+|----------|--------|-------|
+| Himnos (Himnario clásico) | `ingested` | 341 archivos EN+ES |
+| Himnos para el hogar y la Iglesia | `ingested` | 73 archivos EN+ES |
+| Canciones para los niños | `ingested` | 268 archivos EN+ES |
+| Ayudas para los Himnos | `ingested` | 90 archivos (About the Hymns 72 + Using 18) |
+| Música para los jóvenes | `prepared` | Script: `download_music.py --collection youth-music` — directorio no existe aún |
+
+### Libros (Gutenberg + BYU Studies + Church site)
+
+| Material | Estado | Notas |
+|----------|--------|-------|
+| Jesus the Christ (Talmage) | `ingested` | 43 capítulos EN |
+| Articles of Faith (Talmage) | `ingested` | 24 capítulos EN (Gutenberg) |
+| Great Apostasy (Talmage) | `ingested` | 10 capítulos EN (Gutenberg) |
+| House of the Lord (Talmage) | `ingested` | 11 capítulos EN (Gutenberg) |
+| Discourses of Brigham Young | `ingested` | 42 capítulos EN (Gutenberg) |
+| History of the Church vols 1–7 | `ingested` | 266 capítulos EN (HC7 BYU Studies, HC1-6 Gutenberg) |
+| Autobiography of Parley P. Pratt | `ingested` | 54 capítulos EN |
+| Gospel Doctrine (Joseph F. Smith) | `ingested` | 25 capítulos EN |
+| + 30 libros adicionales de Gutenberg | `ingested` | Ver `corpus/en/books/` — ~40 dirs total |
 
 ---
 
@@ -51,7 +92,7 @@ relaciones KG esperadas, consideraciones especiales y estado del script.
 
 ### Christmas Study Plan (anual)
 
-**Estado:** `prepared` — Script: `download_christmas_study_plan.py`
+**Estado:** `ingested` — Script: `download_christmas_study_plan.py` — 2024 descargado (9 archivos), 2025 directorio vacío
 
 **Estructura:** 9 páginas — intro + "Light the World" overview + 7 lecturas
 diarias (19–25 dic). Slug **año-sufijado** (`christmas-study-plan-2024`):
@@ -76,7 +117,7 @@ con un directorio nuevo por edición. Priorizar la más reciente.
 
 ### Easter / Holy Week Study Plan
 
-**Estado:** `prepared` — Script: `download_easter_study_plan.py`
+**Estado:** `ingested` — Script: `download_easter_study_plan.py` — 18 archivos en corpus
 
 **Estructura:** 18 páginas en **dos pistas paralelas** que recorren
 simultáneamente la misma semana:
@@ -107,7 +148,7 @@ El slug es **permanente** (`easter-plan`) — se actualiza in-place cada año.
 
 ### Jesus the Christ — James E. Talmage
 
-**Estado corpus:** `prepared` | Script: `download_jesus_the_christ.py` | authority=45, author="James E. Talmage"
+**Estado corpus:** `ingested` (43 capítulos EN) | Script: `download_jesus_the_christ.py` | authority=45, author="James E. Talmage"
 
 **KG — qué ya está capturado:**
 
@@ -184,7 +225,7 @@ Estas relaciones NO están en `relations.json`. Se producen co-ocurrencias gené
 
 ### Harmony of the Gospels
 
-**Estado:** `prepared` — Script: `scrape_harmony.py`
+**Estado:** `ingested` — Script: `scrape_harmony.py` — 8 partes + intro en corpus
 
 **URL:** `/study/scriptures/harmony` — 8 partes + introducción | **Bilingüe:** verificar
 **Autoridad:** 80 (parte del Quad oficial)
@@ -210,7 +251,7 @@ D&C y PGP — es la única harmonía que existe con paralelos LDS integrados.
 
 ### Bible Chronology
 
-**Estado:** `prepared` — Script: `scrape_bible_chronology.py`
+**Estado:** `ingested` — Script: `scrape_bible_chronology.py` — intro + OT + NT en corpus
 
 **URL:** `/study/scriptures/bible-chron` — intro + AT + NT | **Bilingüe:** verificar
 **Autoridad:** 80
@@ -232,7 +273,7 @@ D&C y PGP — es la única harmonía que existe con paralelos LDS integrados.
 
 ### Abbreviations
 
-**Estado:** `prepared` — Script: `scrape_abbreviations.py`
+**Estado:** `ingested` — Script: `scrape_abbreviations.py` — EN+ES en corpus
 
 **URL:** `/study/scriptures/quad` | **Bilingüe:** sí (mismas abreviaturas, distintos nombres)
 **Autoridad:** 80
@@ -278,7 +319,7 @@ de la misma forma.
 
 ### Himnos (Himnario clásico, 1985)
 
-**Estado:** `prepared` — `download_music.py --collection hymns`
+**Estado:** `ingested` — `download_music.py --collection hymns` — 341 archivos EN+ES en corpus
 
 **Estructura:** 333 himnos numerados. Aprobados por la Primera Presidencia.
 Algunos usados en ordenanzas (por ej. "Oh Dios, Nuestro Padre Eterno" —
@@ -306,7 +347,7 @@ en meta.json habilita futura búsqueda por tune o audio embedding.
 
 ### Himnos para el Hogar y la Iglesia (nuevo himnario, 2024–)
 
-**Estado:** `prepared` — `download_music.py --collection hymns-home-church`
+**Estado:** `ingested` — `download_music.py --collection hymns-home-church` — 73 archivos EN+ES en corpus
 
 **Estructura:** 72 himnos en el primer lanzamiento; el colección irá creciendo.
 Diseñado para uso tanto en el hogar como en reuniones. Formato más flexible
@@ -323,7 +364,7 @@ clásicos → relación `arrangement_of` → himno original.
 
 ### Canciones para los Niños (Children's Songbook)
 
-**Estado:** `prepared` — `download_music.py --collection childrens-songbook`
+**Estado:** `ingested` — `download_music.py --collection childrens-songbook` — 268 archivos EN+ES en corpus
 
 **Estructura:** 148 canciones. Usadas en Primaria (niños 3–11 años).
 Incluyen canciones doctrinales simples, canciones de acción, y canciones
@@ -359,7 +400,7 @@ contemporáneos → nuevos nodos de personas.
 
 ### Ayudas para los Himnos (Hymn Helps)
 
-**Estado:** `prepared` — `download_music.py --collection hymn-helps`
+**Estado:** `ingested` — `download_music.py --collection hymn-helps` — 90 archivos EN (About the Hymns 72 + Using Hymnbook 11 + Using Songbook 7)
 
 **Sub-recursos:**
 
@@ -388,11 +429,7 @@ Es esencialmente el comentario exegético oficial del nuevo himnario.
 
 ### 1. The Articles of Faith — James E. Talmage
 
-**Estado:** `backlog`
-
-> ⚠️ **Disponibilidad incierta:** Solo *Jesus the Christ* ha sido confirmado
-> en el sitio oficial de Talmage. Requiere verificar si este título está en
-> `/study/manual/the-articles-of-faith` o solo en Gospel Library / dominio público.
+**Estado:** `ingested` — 24 capítulos EN en `corpus/en/books/articles-of-faith/` (descargado de Gutenberg)
 
 **Estructura:** 13 capítulos, uno por artículo de fe. El libro expande cada
 artículo con historia, doctrina comparada con otras tradiciones cristianas,
@@ -426,10 +463,7 @@ doctrina oficial, y el libro es su expansión canónica.
 
 ### 2. The Great Apostasy — James E. Talmage
 
-**Estado:** `backlog`
-
-> ❌ **No disponible en el sitio oficial** (confirmado 2026-04-02). Requiere fuente externa
-> (Project Gutenberg / archive.org, dominio público 1909).
+**Estado:** `ingested` — 10 capítulos EN en `corpus/en/books/great-apostasy/` (descargado de Gutenberg)
 
 **Estructura:** 8 capítulos. Argumento histórico-doctrinal de que la apostasía
 era prevista, ocurrió, y requería una restauración. Usa fuentes patrísticas
@@ -483,7 +517,7 @@ oficial. Requiere investigar disponibilidad digital en el sitio.
 
 ### 5. Gospel Principles
 
-**Estado:** `prepared` — Script: `download_manual.py --manual gospel-principles`
+**Estado:** `ingested` — 51 archivos EN+ES en corpus | Script: `download_manual.py --manual gospel-principles`
 **Seed file:** `data/kg-seeds/gospel-principles.json` ✅
 
 #### Fase 0 — Análisis de contenido
@@ -544,7 +578,7 @@ Manual de clase para nuevos conversos y preparación para el templo. ~300 págin
 
 ### 6. True to the Faith: A Gospel Reference
 
-**Estado:** `prepared` — Script: `download_manual.py --manual true-to-the-faith`
+**Estado:** `ingested` — ~180 entradas EN+ES en corpus | Script: `download_manual.py --manual true-to-the-faith`
 **Seed file:** `data/kg-seeds/true-to-the-faith.json` ✅
 
 #### Fase 0 — Análisis de contenido
@@ -600,7 +634,7 @@ chunks pequeños, buena precisión semántica.
 
 ### 7. Come Follow Me (manuales anuales 2019–2026)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual come-follow-me --cfm-year YYYY`
+**Estado:** `ingested` — 8 años completos (2019–2026) EN+ES en corpus | Script: `download_manual.py --manual come-follow-me --cfm-year YYYY`
 **Seed file:** `data/kg-seeds/cfm.json`
 
 #### Fase 0 — Investigación del material
@@ -662,7 +696,7 @@ Las páginas CFM NO usan el sistema de notas al pie de la API (`footnotes: {}`).
 
 ### 8. Teachings of Presidents of the Church (serie)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual teachings-{nombre}` o `--all-prophets`
+**Estado:** `ingested` — 17 volúmenes completos (~560 capítulos) EN+ES en corpus | Script: `download_manual.py --manual teachings-{nombre}` o `--all-prophets`
 **Seed file:** `data/kg-seeds/teachings-of-presidents.json` ✅
 
 #### Fase 0 — Investigación del material
@@ -732,7 +766,7 @@ Fe, expiación, familia, templos, misiones — aparecen en los 17 volúmenes →
 
 ### 9. Institute Manuals (CES)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}` (bom-institute-student, dc-institute-student, pgp-institute-student, nt-institute-teacher)
+**Estado:** `ingested` — 8 cursos con ~340 archivos EN+ES en corpus | Script: `download_manual.py --manual {key}`
 
 **Serie:** Old Testament, New Testament, Book of Mormon, Doctrine & Covenants,
 Church History — cada uno ~40 lecciones densas. Son la base del estudio
@@ -748,7 +782,7 @@ extensas entre todos los standard works.
 
 ### 10. Our Heritage: A Brief History of The Church
 
-**Estado:** `prepared` — Script: `download_manual.py --manual our-heritage`
+**Estado:** `ingested` — 11 capítulos EN+ES en corpus | Script: `download_manual.py --manual our-heritage`
 **Seed file:** `data/kg-seeds/our-heritage.json` ✅
 
 #### Fase 0 — Análisis de contenido
@@ -793,7 +827,7 @@ siglo XX. Narrativa oficial, concisa. Usado en clases de historia de la Iglesia.
 
 ### 11. Saints: The Story of the Church — Volumes 1–4
 
-**Estado:** `prepared` — Script: `download_manual.py --manual saints-v{1-4}`
+**Estado:** `ingested` — 214 capítulos EN+ES (v1: 59, v2: 55, v3: 50, v4: 50) | Script: `download_manual.py --manual saints-v{1-4}`
 
 **Descripción:** Historia narrativa oficial de la Iglesia (2018–2024),
 ~400 páginas por volumen. Altamente citada en conferencia reciente.
@@ -805,7 +839,7 @@ Es la historia institucional más moderna y completa.
 
 ### 12. For the Strength of Youth
 
-**Estado:** `prepared` — Script: `download_manual.py --manual for-the-strength-of-youth`
+**Estado:** `ingested` — EN+ES en corpus | Script: `download_manual.py --manual for-the-strength-of-youth`
 **Seed file:** — (cubierto por `_enrich_kg_from_meta`; NER captura las entidades doctrinales)
 
 #### Fase 0 — Análisis de contenido
@@ -845,7 +879,7 @@ y principios morales. Útil para preguntas sobre estándares.
 
 ### 13. Discourses of Brigham Young
 
-**Estado:** `backlog` — Fuera del sitio oficial; diferir
+**Estado:** `ingested` — 42 capítulos EN en `corpus/en/books/discourses-brigham-young/` (Gutenberg)
 
 **Descripción:** Compilación de ~600 páginas de discursos de Brigham Young
 organizados temáticamente (por John A. Widtsoe, 1925). Dominio público.
@@ -917,7 +951,7 @@ contexto histórico.
 
 ### Gospel Topics Essays
 
-**Estado:** `prepared` — Script: `download_manual.py --manual gospel-topics-essays`
+**Estado:** `ingested` — 15 ensayos EN+ES en corpus | Script: `download_manual.py --manual gospel-topics-essays`
 **Seed file:** `data/kg-seeds/gospel-topics-essays.json` ✅
 
 **URL:** `/study/manual/gospel-topics-essays` | **Bilingüe:** sí
@@ -966,7 +1000,7 @@ documentos donde la Iglesia aborda temas histórico-doctrinales sensibles de for
 
 ### First Vision Accounts
 
-**Estado:** `prepared` — Script: `download_manual.py --manual first-vision-accounts`
+**Estado:** `ingested` — 9 documentos EN+ES en corpus | Script: `download_manual.py --manual first-vision-accounts`
 **Seed file:** `data/kg-seeds/first-vision-accounts.json` ✅
 
 **URL:** `/study/manual/first-vision-accounts` | **Bilingüe:** sí
@@ -1013,7 +1047,7 @@ La diferencia 1 vs 2 personajes es teológicamente significativa y KG-expresable
 
 ### Seminary Student Manuals (ciclo actual)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}` (bom-seminary-student, nt-seminary-student, ot-seminary-student, doctrinal-mastery)
+**Estado:** `ingested` — 5 manuales con ~1,014 archivos EN en corpus | Script: `download_manual.py --manual {key}`
 
 **Serie disponible:**
 | Manual | Slug | Año | Tamaño estimado |
@@ -1081,7 +1115,7 @@ La diferencia 1 vs 2 personajes es teológicamente significativa y KG-expresable
 
 ### Institute Scripture Course Manuals
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}` (ver tabla abajo)
+**Estado:** `ingested` — 8 cursos EN+ES en corpus (ver tabla de Cornerstone abajo también) | Script: `download_manual.py --manual {key}`
 
 **Serie disponible:**
 | Manual | Slug |
@@ -1105,7 +1139,7 @@ citas de profetas. Priorizar BoM y D&C por complementar el corpus existente.
 
 ### Institute Cornerstone Courses
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}` (eternal-family, foundations-restoration, jesus-christ-everlasting-gospel, teachings-doctrine-bom)
+**Estado:** `ingested` — 4 cursos EN+ES en corpus | Script: `download_manual.py --manual {key}`
 
 **Serie:**
 | Manual | Slug | Lecciones |
@@ -1171,7 +1205,7 @@ citas de profetas. Priorizar BoM y D&C por complementar el corpus existente.
 
 ### Saints: Story of the Church (Vols. 1–4)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual saints-v{1-4}`
+**Estado:** `ingested` — 214 capítulos EN+ES (v1: 59, v2: 55, v3: 50, v4: 50) | Script: `download_manual.py --manual saints-v{1-4}`
 **Seed file:** `data/kg-seeds/saints.json` ✅
 
 #### Fase 0 — Investigación del material
@@ -1225,7 +1259,7 @@ El `download_manual.py` ya usa `uri_prefix="/history"` y sigue los links del TOC
 
 ### Doctrines of the Gospel (Student + Teacher Manual)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual doctrines-of-the-gospel`
+**Estado:** `ingested` — 43 archivos EN+ES en corpus | Script: `download_manual.py --manual doctrines-of-the-gospel`
 **Seed file:** `data/kg-seeds/doctrines-of-the-gospel.json` ✅
 
 #### Fase 0 — Análisis de contenido
@@ -1269,7 +1303,7 @@ profetas y escrituras → fuente ideal para relaciones `teaches_doctrine`.
 
 ### Gospel Topics (Topics and Questions)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual gospel-topics`
+**Estado:** `ingested` — 299 archivos EN+ES en corpus | Script: `download_manual.py --manual gospel-topics`
 
 **URL:** `/study/manual/gospel-topics` | **Bilingüe:** sí
 **Autoridad:** 65
@@ -1288,7 +1322,7 @@ aliases y relaciones.
 
 ### Missionary Preparation Teacher Manual 2025
 
-**Estado:** `prepared` — Script: `download_manual.py --manual missionary-preparation`
+**Estado:** `ingested` — 26 archivos EN+ES en corpus | Script: `download_manual.py --manual missionary-preparation`
 
 **URL:** `/study/manual/missionary-preparation-teacher-manual-2025`
 **Autoridad:** 60 | **Bilingüe:** sí
@@ -2141,32 +2175,28 @@ fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP →
 
 ### Ya ingested
 
-| Slug | Título | Caps | Estado |
-|------|--------|------|--------|
-| history-of-the-church-vol7 | History of the Church, Vol. 7 | 42 | `ingested` — 2.7 MB |
+| Slug | Título | Caps | Estado | Fuente |
+|------|--------|------|--------|--------|
+| history-of-the-church-vol7 | History of the Church, Vol. 7 | 42 | `ingested` | BYU Studies |
+| history-of-the-church-vol1 | History of the Church, Vol. 1 | 33 | `ingested` | Gutenberg |
+| history-of-the-church-vol2 | History of the Church, Vol. 2 | 71 | `ingested` | Gutenberg |
+| history-of-the-church-vol3 | History of the Church, Vol. 3 | 28 | `ingested` | Gutenberg |
+| history-of-the-church-vol4 | History of the Church, Vol. 4 | 30 | `ingested` | Gutenberg |
+| history-of-the-church-vol5 | History of the Church, Vol. 5 | 28 | `ingested` | Gutenberg |
+| history-of-the-church-vol6 | History of the Church, Vol. 6 | 34 | `ingested` | Gutenberg |
+
+> Nota: HC vols 1-6 descargados de Gutenberg (plain text). Si se quiere mejorar
+> la calidad, re-descargar de BYU Studies (HTML limpio con footnotes).
+> Decisión: mantener Gutenberg por ahora; upgrade opcional.
 
 ### Backlog
 
 ### Catálogo completo BYU Studies online (38 libros — verificado 2026-04-05)
 
 > Inventario: 2026-04-05 via `download_byustudies.py --list-books`
-> Nota: el catálogo real tiene 38 títulos (no 65 como se estimó previamente).
+> **38 títulos reales** — la estimación anterior de 65 era incorrecta.
 
-**History of the Church (7 volúmenes):**
-
-| Slug | Estado | Prioridad |
-|------|--------|-----------|
-| history-of-the-church-volume-7 | `ingested` | — |
-| history-of-the-church-volume-1 | `backlog` | **ALTA** |
-| history-of-the-church-volume-2 | `backlog` | **ALTA** |
-| history-of-the-church-volume-3 | `backlog` | **ALTA** |
-| history-of-the-church-volume-4 | `backlog` | **ALTA** |
-| history-of-the-church-volume-5 | `backlog` | **ALTA** |
-| history-of-the-church-volume-6 | `backlog` | **ALTA** |
-
-> Nota: HC vols 1-6 también están en Gutenberg, pero la versión BYU Studies
-> tiene mejor calidad de texto (HTML limpio vs plain text con line wrapping).
-> Preferir BYU Studies.
+**History of the Church (7 volúmenes):** ✅ Todos `ingested` (ver tabla arriba)
 
 **BYU NT Commentary (4 volúmenes):**
 
@@ -3725,75 +3755,61 @@ automáticamente.
 
 ---
 
-## Prioridades recomendadas
+## Prioridades recomendadas (actualizado 2026-04-05)
 
-> **Conferencias Generales (EN 1971–2025 + ES ~1990–2025):** ya ingresadas. No hay pendiente.
+> **Lo que ya está completo:** Escrituras, Conferencia General, 40+ manuales oficiales,
+> 40 libros Gutenberg, himnos/canciones, study aids, HC 1-7 — TODO ingested.
+> Ver tabla "Corpus actual" arriba para el inventario completo.
 >
-> **Fuentes externas:** ver "Jerarquía de fuentes externas por calidad" arriba.
-> Regla: Iglesia > RSC > BYU Studies > MTP > Gutenberg > CCEL > Archive.org.
+> **Lo que queda:** RSC BYU (214 libros), BYU Studies (31 libros pendientes),
+> MTP/Gutenberg (~89 títulos), fuentes secundarias (CCEL, womeninthescriptures.com).
+>
+> **Regla:** Iglesia > RSC > BYU Studies > MTP > Gutenberg > CCEL > Archive.org.
 
-### Fuentes oficiales de la Iglesia (scripts `prepared`)
+### Materiales oficiales pendientes (Church site)
 
 | Prioridad | Material | Script | Justificación |
 |-----------|----------|--------|---------------|
-| 🔴 **P0** | Jesus the Christ | `download_jesus_the_christ.py` | Script listo; clásico doctrinal |
-| 🔴 **P0** | Himnos + Himnario nuevo + Canciones niños | `download_music.py` | 553 himnos/canciones con metadata rica |
-| 🔴 **P0** | Ayudas para los Himnos | `download_music.py --collection hymn-helps` | Comentario exegético oficial (EN only) |
-| 🔴 **P0** | Harmony of the Gospels | `scrape_harmony.py` | PARALLEL_ACCOUNT_OF MT/MC/LC/JN ↔ BoM/D&C |
-| 🔴 **P0** | Bible Chronology | `scrape_bible_chronology.py` | Eje temporal del KG |
-| 🔴 **P0** | Abbreviations | `scrape_abbreviations.py` | Normalizador de scripture refs; 2 archivos |
-| 🟠 **P1** | Gospel Topics Essays | `download_manual.py` | Temas sensibles, authority=70 |
-| 🟠 **P1** | First Vision Accounts | investigar | Relatos primarios, authority=75 |
-| 🟠 **P1** | Christmas + Easter Study Plans | scripts listos | Alta densidad de intertextualidad |
-| 🟠 **P1** | Gospel Principles | `download_manual.py --manual gospel-principles` | Doctrina básica, muy referenciado |
-| 🟡 **P2** | True to the Faith | `download_manual.py --manual true-to-the-faith` | Enciclopedia doctrinal oficial |
-| 🟡 **P2** | Doctrines of the Gospel | `download_manual.py --manual doctrines-of-the-gospel` | Manual de instituto clásico |
-| 🟡 **P2** | Música para los jóvenes | `download_music.py --collection youth-music` | Complementa himnario |
-| 🟢 **P3** | Teachings of Presidents (Joseph Smith) | `download_manual.py --manual teachings-joseph-smith` | Serie profetas, empezar por JS |
-| 🟢 **P3** | Come Follow Me 2019–2026 (8 años) | `download_manual.py --manual come-follow-me --cfm-year YYYY` | Exégesis oficial actual |
-| 🟢 **P3** | Our Heritage + FSOY | `download_manual.py --manual our-heritage` | Historia oficial y guía de juventud |
-| 🟢 **P3** | Seminary Student Manuals | `download_manual.py --manual bom-seminary-student` | Exégesis escritural para jóvenes |
-| 🔵 **P4** | Teachings of Presidents (serie completa) | `download_manual.py --all-prophets` | 16 profetas |
-| 🔵 **P4** | Institute Manuals (BoM + D&C) | `download_manual.py --manual bom-institute-student` | Exégesis profunda |
-| 🔵 **P4** | Saints Vols 1–4 | `download_manual.py --manual saints-v1` | Narrativa histórica oficial |
-| 🔵 **P4** | Institute Cornerstone Courses | `download_manual.py --manual eternal-family` | Cursos doctrinales |
-| 🔵 **P4** | Gospel Topics (enciclopedia general) | `download_manual.py --manual gospel-topics` | Enciclopedia general |
-| ⚪ **P5** | Missionary Preparation | `download_manual.py --manual missionary-preparation` | Manual misional |
-| ⚫ **P6** | Institute manuals OT/NT | `download_manual.py --manual nt-institute-teacher` | Exégesis bíblica |
+| 🟡 **P1** | Música para los jóvenes | `download_music.py --collection youth-music` | Único material musical no descargado |
+| 🟡 **P1** | Gospel Topics ES gap (24 tópicos) | `download_manual.py --manual gospel-topics --lang spa` | Completar bilingüe |
+| 🟡 **P1** | Christmas Study Plan 2025 | `download_christmas_study_plan.py --year 2025` | Directorio vacío |
+| 🟡 **P2** | Seminary Teacher Manuals (3 vols) | `download_manual.py` | OT/NT/D&C teacher — complementan student manuals |
+| 🟡 **P2** | Family Strengthening Manuals | `download_manual.py` | Marriage & Family Relations + Strengthening Marriage |
+| 🟢 **P3** | Self-Reliance admin guides | `download_manual.py` | Leader's Guide, My Path, PEF |
+| 🟢 **P3** | Institute Student Readings | `download_manual.py` | Compilación de lecturas (EN only) |
+| 🔵 **P4** | Teacher Development Skills | `download_manual.py` | Competencias S&I |
 | ⚫ **P6** | Ensign / Liahona archive | investigar | Volumen enorme; priorizar por tema |
 
-### RSC BYU — exégesis académica SUD (authority=25–35)
+### RSC BYU — exégesis académica SUD (214 libros, inventario completo arriba)
 
-| Prioridad | Categoría | Material | Script | Notas |
-|-----------|-----------|----------|--------|-------|
-| 🟠 **P1** | 7 | Libros de Book of Mormon | `download_rsc.py --list-books --category 7` | Inventariar primero |
-| 🟠 **P1** | 8 | Libros de D&C | `download_rsc.py --list-books --category 8` | Inventariar primero |
-| 🟠 **P1** | 9 | Libros de Pearl of Great Price | `download_rsc.py --list-books --category 9` | Inventariar primero |
-| 🟡 **P2** | 10 | Bible Studies | `download_rsc.py --list-books --category 10` | Perspectiva SUD sobre la Biblia |
-| 🟡 **P2** | 1 | Scripture Study general | `download_rsc.py --list-books --category 1` | Estudios escriturales |
-| 🟡 **P2** | 2 | Church History | `download_rsc.py --list-books --category 2` | Historia académica |
-| 🟢 **P3** | 15 | Sperry Symposium | `download_rsc.py --list-books --category 15` | Conferencias escriturales |
-| 🟢 **P3** | 13 | Church History Symposium | `download_rsc.py --list-books --category 13` | Conferencias historia |
-| 🔵 **P4** | 14 | Easter Conference | `download_rsc.py --list-books --category 14` | Cristología |
-| 🔵 **P4** | 12 | Gospel Questions | `download_rsc.py --list-books --category 12` | Preguntas doctrinales |
-| ⚪ **P5** | 309 | Book of Mormon Symposium | `download_rsc.py --list-books --category 309` | Conferencias LdM |
-| ⚪ **P5** | 11, 3, 16, 17 | Teaching, Self-Help, Other, World Religions | `download_rsc.py --list-books` | Baja prioridad doctrinal |
+> Ver sección "Libros RSC prioritarios — por tipo de contenido" para la lista completa con slugs.
 
-### Fuentes externas históricas (authority=15–40)
+| Prioridad | Tipo de contenido | Libros | Notas |
+|-----------|-------------------|--------|-------|
+| 🔴 **P1** | Exégesis escritural (LdM, D&C, PGP, Bible, Isaías, JST) | 23 | `opening-isaiah`, `abinadi`, `introduction-book-abraham`, etc. |
+| 🟡 **P2** | Doctrina, convenios, templo, cristología | 19 | Easter Conference (10), Sperry Symposium, templo |
+| 🟢 **P3** | Fe práctica, apologética, salud mental | 16 | `freedom-scrupulosity`, `reason-faith`, etc. |
+| 🔵 **P4** | Historia selectiva | 13 | `council-fifty`, `sister-prophet`, `my-dear-sister` |
+| ⚪ **P5** | Relaciones interreligiosas | 7 | `view-hebrews`, `mormons-muslims`, etc. |
 
-| Prioridad | Material | Fuente preferida | Script | Notas |
-|-----------|----------|------------------|--------|-------|
-| 🟡 **P2** | Lectures on Faith | Gutenberg #56684 | `download_gutenberg.py` | Doctrina fundacional Kirtland |
-| 🟡 **P2** | Wentworth Letter | Gutenberg #6720 | `download_gutenberg.py` | Artículos de Fe originales |
-| 🟡 **P2** | Articles of Faith (Talmage) | Gutenberg #42238 | `download_gutenberg.py` | Clásico doctrinal |
-| 🟡 **P2** | Great Apostasy (Talmage) | Gutenberg #35514 | `download_gutenberg.py` | Patrística, muy citado |
-| 🟢 **P3** | Mediation and Atonement (Taylor) | Gutenberg #36327 | `download_gutenberg.py` | Cristología profética |
-| 🟢 **P3** | Key to Theology (Pratt) | Gutenberg #35470 | `download_gutenberg.py` | Teología sistemática |
-| 🟢 **P3** | A Voice of Warning (Pratt) | Gutenberg #35554 | `download_gutenberg.py` | Clásico misional |
-| 🟢 **P3** | Life of Joseph Smith (Cannon) | Gutenberg #59970 | `download_gutenberg.py` | Biografía por apóstol |
-| 🟢 **P3** | Ancient Apostles (McKay) | Gutenberg #54309 | `download_gutenberg.py` | Cristología de profeta |
-| 🔵 **P4** | Discourses of Brigham Young | Gutenberg / MTP | `download_gutenberg.py` | 600 págs, controversial |
-| 🔵 **P4** | History of the Church Vols 1–6 | BYU Studies | `download_byustudies.py` | Investigar disponibilidad |
-| ⚪ **P5** | Representative Women of Deseret | Gutenberg #50958 | `download_gutenberg.py` | Perspectiva femenina |
-| ⚪ **P5** | Women of Mormondom | Gutenberg #54335 | `download_gutenberg.py` | Historia de mujeres SUD |
-| ⚫ **P6** | Journal of Discourses (26 vols) | MTP > Archive.org | investigar | Enorme; authority baja |
+### BYU Studies — pendientes (31 libros)
+
+| Prioridad | Material | Script | Notas |
+|-----------|----------|--------|-------|
+| 🟠 **P1** | BYU NT Commentary (4 vols) | `download_byustudies.py` | Comentario académico SUD del NT |
+| 🟠 **P1** | Doctrine and Covenants Contexts | `download_byustudies.py` | Contexto histórico D&C |
+| 🟠 **P1** | Opening the Heavens | `download_byustudies.py` | Manifestaciones divinas 1820-1844 |
+| 🟡 **P2** | NT New Renditions (14 vols) | `download_byustudies.py` | Traducción moderna del NT |
+| 🟡 **P2** | My Fellow Servants | `download_byustudies.py` | Historia del sacerdocio |
+| 🟢 **P3** | Charting the Scriptures (2 vols) | `download_byustudies.py` | Charts escriturales |
+| 🔵 **P4** | Remaining standalone books (5) | `download_byustudies.py` | Sustaining the Law, McLellin, etc. |
+| ⚪ Upgrade | HC vols 1-6 de BYU Studies | `download_byustudies.py` | Mejorar calidad vs Gutenberg (opcional) |
+
+### MTP / Gutenberg — textos pendientes (~89 títulos, ver sección MTP arriba)
+
+| Prioridad | Material | Notas |
+|-----------|----------|-------|
+| 🟡 **P2** | Lectures on Faith, Wentworth Letter | Doctrina fundacional Kirtland |
+| 🟢 **P3** | Mediation and Atonement (Taylor), Key to Theology (Pratt) | Teología profética |
+| 🔵 **P4** | Representative Women of Deseret, Women of Mormondom | Perspectiva femenina |
+| ⚫ **P6** | Journal of Discourses (26 vols) | MTP no lo tiene; enorme; authority baja |
