@@ -61,6 +61,21 @@ relaciones KG esperadas, consideraciones especiales y estado del script.
 | Daughters in My Kingdom | `ingested` | 17 capítulos — historia de la Sociedad de Socorro |
 | Christmas Study Plan (2024) | `ingested` | 9 archivos — 2025 no existe en el sitio |
 | Easter / Holy Week Study Plan | `ingested` | 18 archivos (NT + BoM pistas paralelas) |
+| Seminary Teacher Manuals (OT, NT, BOM, D&C) | `ingested` | OT 278, NT 312, BOM 312, D&C 280 archivos EN+ES cada uno |
+| Seminary Student Manuals (OT, NT, BOM) | `ingested` | OT 218, NT 255-256, BOM 257 archivos EN+ES |
+| Doctrinal Mastery (Seminary) | `ingested` | 4 archivos EN+ES |
+| Marriage and Family Relations | `ingested` | 18 archivos EN+ES (bajo family-resources/) |
+| Strengthening Marriage (Instructor + Couples) | `ingested` | 17 EN+ES (instructor bilingüe, couples EN-only) |
+| Strengthening Family (Instructor + Parents) | `ingested` | 19 EN+ES (instructor bilingüe, parents EN-only) |
+| Self-Reliance: Leaders Guide | `ingested` | 4 archivos EN+ES |
+| Self-Reliance: My Path | `ingested` | 3 archivos EN+ES |
+| Self-Reliance: Perpetual Education Fund | `ingested` | 1 archivo EN+ES |
+| Self-Reliance: Facilitating Groups | `ingested` | 3 archivos EN+ES |
+| Self-Reliance: Plan + Bishop's Guide | `ingested` | 1 archivo EN+ES |
+| Institute Student Readings | `ingested` | 39 archivos EN-only (ES 404) |
+| Institute Elevate Learning Experience | `ingested` | 10 EN + 11 ES |
+| Teacher Development Skills | `ingested` | 27 archivos EN+ES (bajo seminaries-and-institutes/) |
+| Principles of Christlike Teaching | `ingested` | 1 archivo EN-only |
 
 ### Música
 
@@ -70,7 +85,7 @@ relaciones KG esperadas, consideraciones especiales y estado del script.
 | Himnos para el hogar y la Iglesia | `ingested` | 73 archivos EN+ES |
 | Canciones para los niños | `ingested` | 268 archivos EN+ES |
 | Ayudas para los Himnos | `ingested` | 90 archivos (About the Hymns 72 + Using 18) |
-| Música para los jóvenes | `prepared` | Script: `download_music.py --collection youth-music` — directorio no existe aún |
+| Música para los jóvenes | `blocked` | API `/study/api/v3/` retorna 404 para `/music/youth-music/` — requiere investigación de endpoint alternativo |
 
 ### Libros (Gutenberg + BYU Studies + Church site)
 
@@ -383,7 +398,7 @@ de feriados.
 
 ### Música para los Jóvenes (Youth Music)
 
-**Estado:** `prepared` — `download_music.py --collection youth-music`
+**Estado:** `blocked` — API `/study/api/v3/` retorna 404 para todas las rutas `/music/youth-music/*`. Los álbumes existen en el sitio web pero no están expuestos vía la Study API. Requiere investigación de endpoint alternativo o scraping HTML directo.
 
 **Estructura:** ~6 álbumes (2022–2026), ~12 canciones c/u. Publicados por
 la Iglesia para apoyar al Programa de Jóvenes (Young Men/Young Women).
@@ -1340,7 +1355,7 @@ PME con énfasis en el proceso de preparación personal. Bilingüe.
 
 ### Seminary Teacher Manuals (generación actual CFM-aligned)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}`
+**Estado:** `ingested` — Descargados 2026-04-05. OT 278, NT 312, BOM 312 archivos EN+ES (D&C 280 ya existía)
 
 **Fuente:** Seminaries and Institutes of Religion (S&I). Autoría institucional,
 sin autores individuales. Dirección curricular: Chad H Webb (administrador S&I)
@@ -1433,7 +1448,7 @@ Doctrinal Mastery, Assess Your Learning, S&I Annual Training Broadcast
 
 ### Family Strengthening Manuals (Family Services + Curriculum Dept)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}`
+**Estado:** `ingested` — Descargados 2026-04-05. Marriage 18 EN+ES, Str.Marriage 17 (couples EN-only), Str.Family 19 (parents EN-only)
 
 **Contexto institucional:** Dos productores distintos, dos contextos de uso:
 - **Marriage and Family Relations** (2000): Departamento de Currículo de la Iglesia.
@@ -1543,7 +1558,7 @@ Families and Temples — pamphlet misionero, género diferente
 
 ### Self-Reliance — manuales secundarios (Self-Reliance Services / Obispado Presidente)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}`
+**Estado:** `ingested` — Descargados 2026-04-05. Leaders 4, My Path 3, PEF 1, Facilitating 3, Plan 1 archivos EN+ES
 
 **Contexto institucional:** Todos producidos por Self-Reliance Services (antes Welfare and
 Self-Reliance Services), bajo el Obispado Presidente. Forman un ecosistema integrado:
@@ -1623,7 +1638,7 @@ principio del evangelio. Prioridad media.
 
 ### Institute — materiales nuevos (S&I)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}`
+**Estado:** `ingested` — Descargados 2026-04-05. Student Readings 39 EN-only, Elevate 10 EN + 11 ES
 
 **Contexto institucional:** Seminaries and Institutes of Religion (S&I), bajo CES y la
 Junta de Educación de la Iglesia. Instituto atiende adultos 18-30+ (abierto a todos).
@@ -1658,7 +1673,7 @@ los conceptos clave de cada curso. Prioridad media-baja.
 
 ### Teaching — materiales complementarios
 
-**Estado:** `prepared` — Script: `download_manual.py --manual {key}`
+**Estado:** `ingested` — Teacher Development Skills 27 archivos EN+ES (ya existían), Christlike Teaching 1 EN-only (ya existía)
 
 **Contexto:** Ambos derivan de "Teaching in the Savior's Way" (2022, ya en corpus) pero
 para audiencias diferentes.
@@ -3757,12 +3772,14 @@ automáticamente.
 
 ## Prioridades recomendadas (actualizado 2026-04-05)
 
-> **Lo que ya está completo:** Escrituras, Conferencia General, 40+ manuales oficiales,
+> **Lo que ya está completo:** Escrituras, Conferencia General, 60+ manuales oficiales
+> (incluyendo seminary teachers ×4, family strengthening, self-reliance, institute),
 > 40 libros Gutenberg, himnos/canciones, study aids, HC 1-7 — TODO ingested.
 > Ver tabla "Corpus actual" arriba para el inventario completo.
 >
 > **Lo que queda:** RSC BYU (214 libros), BYU Studies (31 libros pendientes),
 > MTP/Gutenberg (~89 títulos), fuentes secundarias (CCEL, womeninthescriptures.com).
+> Church site: solo Youth Music (blocked — API 404) y Ensign/Liahona (sin investigar).
 >
 > **Regla:** Iglesia > RSC > BYU Studies > MTP > Gutenberg > CCEL > Archive.org.
 
@@ -3771,12 +3788,12 @@ automáticamente.
 | Prioridad | Material | Script | Justificación |
 |-----------|----------|--------|---------------|
 | ~~🟡 P1~~ | ~~Gospel Topics ES gap~~ | ~~resuelto~~ | ✅ 3 descargados, 21 no existen en ES |
-| 🟡 **P1** | Música para los jóvenes | `download_music.py --collection youth-music` | Único material musical no descargado |
-| 🟡 **P2** | Seminary Teacher Manuals (3 vols) | `download_manual.py` | OT/NT/D&C teacher — complementan student manuals |
-| 🟡 **P2** | Family Strengthening Manuals | `download_manual.py` | Marriage & Family Relations + Strengthening Marriage |
-| 🟢 **P3** | Self-Reliance admin guides | `download_manual.py` | Leader's Guide, My Path, PEF |
-| 🟢 **P3** | Institute Student Readings | `download_manual.py` | Compilación de lecturas (EN only) |
-| 🔵 **P4** | Teacher Development Skills | `download_manual.py` | Competencias S&I |
+| ~~🟡 P2~~ | ~~Seminary Teacher Manuals (4 vols)~~ | ~~resuelto~~ | ✅ OT 278, NT 312, BOM 312, D&C 280 — EN+ES |
+| ~~🟡 P2~~ | ~~Family Strengthening Manuals~~ | ~~resuelto~~ | ✅ Marriage 18 + Str.Marriage 17 + Str.Family 19 archivos |
+| ~~🟢 P3~~ | ~~Self-Reliance admin guides~~ | ~~resuelto~~ | ✅ Leaders 4, My Path 3, PEF 1, Facilitating 3, Plan 1 — EN+ES |
+| ~~🟢 P3~~ | ~~Institute Student Readings + Elevate~~ | ~~resuelto~~ | ✅ Readings 39 EN-only, Elevate 10 EN + 11 ES |
+| ~~🔵 P4~~ | ~~Teacher Development Skills + Christlike Teaching~~ | ~~resuelto~~ | ✅ Ya existían (27 + 1 archivos) |
+| 🔴 **blocked** | Música para los jóvenes | `download_music.py` | API 404 — endpoint `/music/` no soportado por Study API |
 | ⚫ **P6** | Ensign / Liahona archive | investigar | Volumen enorme; priorizar por tema |
 
 ### RSC BYU — exégesis académica SUD (214 libros, inventario completo arriba)
