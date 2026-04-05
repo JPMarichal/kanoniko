@@ -1196,7 +1196,7 @@ class IngestionPipeline:
         # Read all chunks from SQLite
         conn = self._textual.get_connection()
         rows = conn.execute(
-            "SELECT rowid, file_path, chunk_index, text, metadata, reference "
+            "SELECT id, file_path, chunk_index, text, metadata, reference "
             "FROM chunks ORDER BY file_path, chunk_index"
         ).fetchall()
         conn.close()
@@ -1221,7 +1221,7 @@ class IngestionPipeline:
             payloads = []
 
             for row, vec in zip(batch_rows, batch_vectors):
-                rowid = row[0] if isinstance(row, (list, tuple)) else row["rowid"]
+                rowid = row[0] if isinstance(row, (list, tuple)) else row["id"]
                 file_path = row[1] if isinstance(row, (list, tuple)) else row["file_path"]
                 chunk_index = row[2] if isinstance(row, (list, tuple)) else row["chunk_index"]
                 text = row[3] if isinstance(row, (list, tuple)) else row["text"]
