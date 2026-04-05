@@ -129,14 +129,16 @@ The pipeline automatically backs up SQLite and Neo4j before any indexing run. No
 |-------|----------|-------|
 | Source code | `src/`, `docker/`, `scripts/` | |
 | Corpus | `corpus/` | Bind-mounted, full text in git |
-| SQLite DB | `data/sqlite/alejandria.db` (~130 MB) | FTS chunks + vectors (sqlite-vec) + registry |
+| SQLite DB | `data/sqlite/alejandria.db.gz` (LFS, ~625 MB) | gzip-compressed; authoritative DB lives in GPU container |
 | Gazetteers | `data/gazetteers/` | 7 NER assets, hard to rebuild |
 | Project memory | `docs/project-memory/` | Primary source — tracked directly in git |
 | Skills/hooks | `.claude/` | |
 | Secrets | **NOT in git** — backed up to `OneDrive/alejandria-secrets/.env` | |
 
+**IMPORTANT:** The raw `data/sqlite/alejandria.db` on Windows is **NOT the source of truth** — it's gitignored and may be stale. The authoritative DB is in the GPU container at `/home/jpmarichal/alejandria-data/sqlite/alejandria.db`. The pre-commit hook auto-syncs it as `.db.gz` via LFS.
+
 ### Recovery Procedures
-- **SQLite lost:** `git checkout data/sqlite/alejandria.db` or restore from backup endpoint
+- **SQLite lost:** `gunzip -k data/sqlite/alejandria.db.gz` or restore from backup endpoint
 - **Vectors lost:** `POST /index/rebuild-vectors` (~5 min on GPU) — rebuilds sqlite-vec table from chunk text
 - **Neo4j lost:** `POST /backup/neo4j/restore?filename=...` or rebuild from SQLite via reindex (~3h)
 - **Full disaster:** Clone repo, copy `.env` from OneDrive, `docker compose up`, data is in git

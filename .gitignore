@@ -20,6 +20,7 @@ env/
 *.swo
 
 # Data — track everything except large generated backups
+data/sqlite/alejandria.db
 data/sqlite/backups/
 data/sqlite/neo4j_backups/
 
@@ -45,3 +46,4 @@ docker/ca-certificates.crt
 
 # Large source assets (SQL dumps, etc.)
 proj/**/recursos/
+data/sqlite/alejandria.db

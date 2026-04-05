@@ -2,9 +2,12 @@
 
 from __future__ import annotations
 
+import contextlib
 import logging
+from collections.abc import AsyncIterator
 
 from fastapi import FastAPI
+from starlette.routing import Mount
 
 from alejandria.api.routes_chat import router as chat_router
 from alejandria.api.routes_docs import router as docs_router
@@ -22,10 +25,31 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
 
+# ---------------------------------------------------------------------------
+# MCP server — Streamable HTTP transport, same uvicorn process (zero extra
+# Python processes).  Endpoint: POST/GET /mcp
+# ---------------------------------------------------------------------------
+
+from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
+from alejandria.mcp_server import app as _mcp_app
+
+_mcp_manager = StreamableHTTPSessionManager(
+    app=_mcp_app,
+    stateless=True,
+)
+
+
+@contextlib.asynccontextmanager
+async def _lifespan(_app: FastAPI) -> AsyncIterator[None]:
+    async with _mcp_manager.run():
+        yield
+
+
 app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
     description="Bilingual text library with textual, semantic, and knowledge graph search.",
+    lifespan=_lifespan,
 )
 
 app.include_router(search_router)
@@ -35,6 +59,7 @@ app.include_router(chat_router)
 app.include_router(index_router)
 app.include_router(docs_router)
 app.include_router(backup_router)
+app.routes.append(Mount("/mcp", app=_mcp_manager.handle_request))
 
 
 @app.get("/health", response_model=HealthResponse, tags=["system"])
