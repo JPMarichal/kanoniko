@@ -18,7 +18,7 @@
 - [feedback_iaismos.md](feedback_iaismos.md) — Evitar iaísmos: no abusar del imperfecto (-ía) ni pluscuamperfecto (había+part.); preferir pretérito simple
 - [feedback_verify_categorical_claims.md](feedback_verify_categorical_claims.md) — Siempre buscar contraejemplos antes de afirmar "nunca/siempre/ninguno" sobre el corpus
 - [feedback_proactive_kg_associations.md](feedback_proactive_kg_associations.md) — Proactively add any new data association to the KG; every linkable datum is an opportunity
-- [feedback_corpus_query_strategy.md](feedback_corpus_query_strategy.md) — Corpus questions: knowledge first, KG to structure, 2-5 surgical API calls max, never exhaustive subagent
+- [feedback_corpus_query_strategy.md](feedback_corpus_query_strategy.md) — Corpus questions: exhaust KG tools (find+neighbors), always search books/, verify before dismissing, 3-7 surgical calls
 - [dev_machine.md](dev_machine.md) — Laptop with NVIDIA RTX PRO 500 Blackwell 6GB, Rancher Desktop (WSL2), no Docker GPU yet; user depends on Rancher for work
 - [reference_church_api.md](reference_church_api.md) — Church site API v3: URI = strip /study from page path; works for manuals/conference, less for study aids
 - [reference_church_site_download_patterns.md](reference_church_site_download_patterns.md) — Complete download patterns: API vs HTML strategy, URL formats, TOC discovery, output conventions, CLI args, authority levels, new-script recipe

@@ -1,11 +1,23 @@
 ---
-name: Corpus query strategy - knowledge first, corpus to verify
-description: When answering theological/corpus questions, use own knowledge + KG first, corpus only to verify and cite. Never delegate exhaustive search to subagent.
+name: Corpus query strategy - thorough tool coverage
+description: When answering corpus questions, exhaust KG tools (find+neighbors, not just profile), always search in books/, and verify sources before dismissing them.
 type: feedback
 ---
 
-Para preguntas sobre contenido del corpus (teología, escrituras, doctrina): el corpus descubre, el LLM sintetiza. No al revés.
+Para preguntas sobre contenido del corpus (teología, escrituras, historia, doctrina): el corpus descubre, el LLM sintetiza. No al revés.
 
-**Why:** (1) Un subagente genérico hizo 48 tool calls en 4.5 minutos — demasiado exhaustivo. (2) Después, el LLM respondió desde su conocimiento sin buscar en el corpus — ignorando el valor diferencial de Alejandría (conferencias, manuales, fuentes no canónicas). Ninguno de los dos extremos es correcto.
+**Regla 1 — KG: no abandonar tras un solo intento.**
+Si `kg_profile` falla, seguir con `kg_find` (buscar variantes del nombre) y `kg_neighbors` (ver relaciones). Solo descartar el KG después de agotar las tres herramientas.
 
-**How to apply:** Seguir el procedimiento en CLAUDE.md § "Answering Corpus Questions": KG primero para estructura y conexiones, hybrid search para descubrir (especialmente fuentes no canónicas), luego sintetizar con conocimiento propio. Nunca lanzar subagente exhaustivo, pero tampoco responder solo desde conocimiento base.
+**Regla 2 — Siempre buscar en `books/`.**
+Para preguntas históricas o doctrinales, incluir al menos una búsqueda con `source_filter: "en/books"` (o `es/books`). Los libros (Roberts, Talmage, Taylor, BY) aportan narrativa de primera mano que manuales y conferencias no tienen.
+
+**Regla 3 — No descartar fuentes sin leerlas.**
+Si una búsqueda dice "1 resultado en archivo X", leer ese resultado antes de declarar que no aporta. Un solo dato factual puede ser el que falta.
+
+**Regla 4 — Nunca subagente exhaustivo, pero sí cobertura quirúrgica.**
+Total de tool calls para una pregunta de corpus: 3–7 llamadas, cubriendo KG (1–2), hybrid general (1–2), hybrid filtrado por books (1), y lectura directa si se necesita precisión.
+
+**Why:** En la cronología de Winter Quarters: (1) abandoné el KG tras un solo `kg_profile` fallido, cuando `kg_find` sí encontraba el nodo; (2) no busqué en `en/books/` donde *Life of John Taylor* tenía 10 menciones valiosas; (3) descarté *Outlines of Ecclesiastical History* sin leer su única mención, que confirmaba la fecha de reorganización de la Primera Presidencia.
+
+**How to apply:** Al planificar las llamadas para una pregunta de corpus, asegurar cobertura de: KG (find → profile/neighbors), búsqueda general, búsqueda en books, y verificación de fuentes mencionadas.
