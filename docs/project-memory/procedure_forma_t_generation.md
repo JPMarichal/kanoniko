@@ -26,14 +26,20 @@ Procedimiento completo para generar colecciones de Formas T.
 - Identificar los subtemas naturales que el corpus revela.
 - **Revisar colecciones existentes** para evitar solapamiento y descubrir conexiones (`derived_from`, `feeds_into`).
 
-### A3. Plan y subdivisión
+### A3. Cuestionamiento profundo
+- Antes de proponer formas, **agotar las preguntas que el tema genera**: ¿qué es? ¿por qué? ¿cómo? ¿quiénes? ¿qué habilita? ¿qué pasa si se rechaza? ¿qué relación tiene con X?
+- No fijar el número de formas prematuramente. La Expiación comenzó con 4 propuestas y terminó en 14 porque las preguntas revelaron dimensiones que la propuesta inicial no cubría.
+- **Why:** Una propuesta prematura produce formas genéricas; el cuestionamiento profundo produce formas precisas que responden preguntas reales.
+
+### A4. Plan y subdivisión
 - Proponer Formas T individuales: título, objetivo breve y subtema enfocado.
 - Cada Forma T = un subtema con responsabilidad simple. Si bifurca, subdividir.
 - Los subtemas surgen del corpus y de las preguntas que el tema genera.
 - Evaluar si algún subtema pertenece mejor a otra colección futura.
 - Si un dominio tiene múltiples colecciones, considerar si necesita una **colección introductoria** que defina términos y establezca el marco conceptual.
+- **Separar lo pastoral de lo extremo:** si una forma busca ayudar a alguien (ej: aceptar la Expiación), no mezclar con casos doctrinales extremos (ej: hijos de perdición) que intimidan en lugar de enseñar. Estos merecen su propia forma o colección.
 
-### A4. Presentación y aprobación
+### A5. Presentación y aprobación
 - Presentar la propuesta completa al usuario (lista numerada de Formas T con títulos y objetivos).
 - El usuario revisa, ajusta, reordena, agrega o elimina antes de aprobar.
 - **No generar archivos hasta obtener aprobación explícita.**
@@ -77,6 +83,12 @@ Procedimiento completo para generar colecciones de Formas T.
 
 Revisar cada Forma T generada contra este checklist:
 
+- [ ] **Filas libres:** cada forma tiene las filas que su tema necesita — ni más, ni menos. No hay número fijo (se han observado de 5 a 12).
+- [ ] **Anti-relleno:** ninguna fila cae en estos patrones:
+  - Versículo único partido en 2+ filas (ej: AdeF 1:2 en dos filas)
+  - 3+ testigos escriturales para el mismo punto (uno fuerte basta)
+  - Fila editorial que restata el objetivo de la forma
+  - Contenido que pertenece a otra forma de la colección
 - [ ] **Longitud:** cada concepto ≤ ~15 palabras.
 - [ ] **Claridad:** cada concepto es autoexplicativo (no depende de jerga o contexto previo). Si usa un término fuerte ("obra muerta"), explicar en la misma fila.
 - [ ] **Orden didáctico:** Biblia primero → Libro de Mormón → DyC. General antes que detalle.
@@ -86,6 +98,16 @@ Revisar cada Forma T generada contra este checklist:
 - [ ] **Fuentes oficiales:** verificado contra Temas del Evangelio, MG, folletos didácticos, FTSOY (paso B5 completado).
 
 Iterar hasta que todas las formas pasen el checklist.
+
+---
+
+## Revisión contra inercia
+
+Al completar un lote de formas dentro de una colección:
+- **Revisar las formas anteriores** de la misma colección para detectar inercia (patrones que se arrastraron sin cuestionar, como el fijo de 10 filas).
+- Aplicar el checklist anti-relleno a las formas ya comprometidas.
+- Corregir y hacer commit de las mejoras.
+- **Why:** La colección plan-de-salvación reveló que las primeras 15 formas tenían 32 filas de relleno (150→118) por inercia del patrón inicial. La revisión posterior las mejoró significativamente.
 
 ---
 
@@ -100,4 +122,4 @@ Periódicamente (o al completar un grupo de colecciones):
 
 **Why:** Las sesiones de bautismo y Espíritu Santo revelaron que: (1) sin plan previo aprobado, se genera material que luego se descarta o reubica; (2) sin checklist de revisión, los conceptos quedan largos, el orden mezcla niveles de familiaridad y la secuencia no sigue la lógica real. La investidura añadió que: (3) sin verificación contra fuentes oficiales, se pierden conceptos que la Iglesia enseña explícitamente. El sellamiento y la formalización añadieron que: (4) las colecciones se entrelazan por temas comunes y la investigación previa debe incluir colecciones existentes; (5) toda forma debe tener metadatos completos.
 
-**How to apply:** Seguir las fases (A→B→C) cada vez que se genere una colección de Formas T. No saltar de A1 a B4. B5 es obligatorio antes de dar por cerrada la Fase B.
+**How to apply:** Seguir las fases (A→B→C) cada vez que se genere una colección de Formas T. No saltar de A1 a B4. A3 (cuestionamiento profundo) no es opcional — invertir tiempo aquí ahorra retrabajos. B5 es obligatorio antes de dar por cerrada la Fase B.
