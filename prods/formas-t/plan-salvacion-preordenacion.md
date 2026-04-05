@@ -17,14 +17,12 @@ feeds_into: ""
 |---|----------|------------|
 | 1 | Antes de ser formado en el vientre, Dios ya conocía a Jeremías | Jeremías 1:5 |
 | 2 | Los nobles y grandes fueron escogidos para ser gobernantes en la Iglesia | Abraham 3:22-23; DyC 138:55 |
-| 3 | Sacerdotes fueron llamados y preparados desde la fundación del mundo | Alma 13:3 |
-| 4 | Fueron llamados por su fe excepcional y buenas obras en el primer estado | Alma 13:3-4 |
-| 5 | Antes de nacer, recibieron primeras lecciones y fueron preparados para servir | DyC 138:56 |
-| 6 | La preordenación se aplica a todos los miembros, no solo a profetas | TE: Preordenación |
-| 7 | No garantiza llamamientos; las oportunidades vienen por el ejercicio justo del albedrío | TE: Preordenación |
-| 8 | Hombres y mujeres fieles recibieron responsabilidades antes de nacer | TE: Preordenación; La Familia |
-| 9 | La bendición patriarcal puede revelar aspectos del propósito preterrenal | PE cap. 2 |
-| 10 | Preordenación no es predestinación; requiere fidelidad para cumplirse | AdeF, Talmage cap. 10; Alma 13:4 |
+| 3 | Sacerdotes fueron llamados desde la fundación del mundo por su fe y obras | Alma 13:3-4 |
+| 4 | Antes de nacer, recibieron primeras lecciones y fueron preparados para servir | DyC 138:56 |
+| 5 | La preordenación se aplica a todos los miembros, no solo a profetas | TE: Preordenación |
+| 6 | Preordenación no es predestinación: requiere fidelidad y recto ejercicio del albedrío | TE: Preordenación |
+| 7 | Hombres y mujeres fieles recibieron responsabilidades antes de nacer | TE: Preordenación; La Familia |
+| 8 | La bendición patriarcal puede revelar aspectos del propósito preterrenal | PE cap. 2 |
 
 **Abreviaturas:**
 - **TE** — *Temas del Evangelio*

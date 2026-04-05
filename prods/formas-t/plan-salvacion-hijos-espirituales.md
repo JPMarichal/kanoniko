@@ -22,9 +22,7 @@ feeds_into: ""
 | 5 | El hombre fue en el principio con Dios; la inteligencia no fue creada | DyC 93:29 |
 | 6 | Las inteligencias fueron organizadas antes que existiera el mundo | Abraham 3:22 |
 | 7 | Cada persona tiene naturaleza divina y un destino eterno | La Familia: Una Proclamación para el Mundo |
-| 8 | El propósito de Dios es llevar a cabo la inmortalidad y la vida eterna del hombre | Moisés 1:39 |
-| 9 | Fuimos creados a imagen de Dios; nuestro cuerpo espiritual tiene Su forma | Éter 3:15-16 |
-| 10 | Saber que somos hijos de Dios define nuestra verdadera identidad | TE: Hijos espirituales de padres celestiales |
+| 8 | Fuimos creados a imagen de Dios; nuestro cuerpo espiritual tiene Su forma | Éter 3:15-16 |
 
 **Abreviaturas:**
 - **TE** — *Temas del Evangelio*

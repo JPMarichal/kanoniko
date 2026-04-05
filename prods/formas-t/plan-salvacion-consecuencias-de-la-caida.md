@@ -17,11 +17,10 @@ feeds_into: ""
 |---|----------|------------|
 | 1 | Por un hombre el pecado entró en el mundo, y por el pecado la muerte | Romanos 5:12 |
 | 2 | En Adán todos mueren; en Cristo todos serán vivificados | 1 Corintios 15:22 |
-| 3 | Murió espiritualmente: fue separado de la presencia de Dios | DyC 29:41 |
-| 4 | La caída trajo una muerte espiritual y una temporal sobre todo el género humano | Alma 42:9 |
-| 5 | Fueron separados de la presencia del Señor, temporal y espiritualmente | Alma 42:7 |
-| 6 | El hombre se vio perdido para siempre; se tornó en hombre caído | Alma 42:6 |
-| 7 | Le fue concedido un tiempo para arrepentirse: un tiempo de probación | Alma 42:4 |
-| 8 | Esta vida llegó a ser un estado de preparación para presentarse ante Dios | Alma 12:24 |
-| 9 | Se hizo menester que la humanidad fuese rescatada de la muerte espiritual | Alma 42:9 |
-| 10 | Es preciso que sea una expiación infinita para vencer la Caída | 2 Nefi 9:7 |
+| 3 | Con dolor comerás de la tierra; con el sudor de tu rostro comerás el pan | Génesis 3:17-19 |
+| 4 | La Caída trajo muerte espiritual y temporal sobre toda la humanidad | Alma 42:9 |
+| 5 | El hombre se vio perdido para siempre; se tornó en hombre caído | Alma 42:6 |
+| 6 | Le fue concedido un tiempo para arrepentirse: un tiempo de probación | Alma 42:4 |
+| 7 | Esta vida llegó a ser un estado de preparación para presentarse ante Dios | Alma 12:24 |
+| 8 | Se hizo menester que la humanidad fuese rescatada de la muerte espiritual | Alma 42:9 |
+| 9 | Es preciso que sea una expiación infinita para vencer la Caída | 2 Nefi 9:7 |
