@@ -59,7 +59,7 @@ relaciones KG esperadas, consideraciones especiales y estado del script.
 | Revelations in Context | `ingested` | D&C contexto histórico |
 | At the Pulpit | `ingested` | 68 capítulos — mujeres de la Iglesia |
 | Daughters in My Kingdom | `ingested` | 17 capítulos — historia de la Sociedad de Socorro |
-| Christmas Study Plan (2024) | `ingested` | 9 archivos — 2025 vacío |
+| Christmas Study Plan (2024) | `ingested` | 9 archivos — 2025 no existe en el sitio |
 | Easter / Holy Week Study Plan | `ingested` | 18 archivos (NT + BoM pistas paralelas) |
 
 ### Música
@@ -92,7 +92,7 @@ relaciones KG esperadas, consideraciones especiales y estado del script.
 
 ### Christmas Study Plan (anual)
 
-**Estado:** `ingested` — Script: `download_christmas_study_plan.py` — 2024 descargado (9 archivos), 2025 directorio vacío
+**Estado:** `ingested` — Script: `download_christmas_study_plan.py` — 2024 descargado (9 archivos). 2025 confirmado inexistente en el sitio oficial.
 
 **Estructura:** 9 páginas — intro + "Light the World" overview + 7 lecturas
 diarias (19–25 dic). Slug **año-sufijado** (`christmas-study-plan-2024`):
@@ -1709,25 +1709,25 @@ Savior's Way" que contiene todo el contenido fuente. Prioridad baja.
 
 ---
 
-### Gospel Topics — gap ES (24 tópicos)
+### Gospel Topics — gap ES (RESUELTO 2026-04-05)
 
-**Estado:** `prepared` — Script: `download_manual.py --manual gospel-topics --lang spa`
+**Estado:** `ingested` — 279 ES / 299 EN
 
-Los 24 tópicos faltantes en ES **existen** en el sitio (verificado 2026-04-04). Son:
+**Resultado de verificación (2026-04-05):** De los 24 tópicos faltantes en ES:
+- **3 existían y fueron descargados:** patriarchal-blessings, restoration-of-the-church-study-guide, tithing
+- **21 NO existen en ES** — la API devuelve la página índice ("Temas y preguntas") en vez de contenido individual. No están traducidos al español.
+
+**Tópicos sin traducción al español (21):**
 church-financial-administration, debt, divorce, high-council, joseph-smiths-character,
 journal-of-discourses, mormon-church, mormonism, mormons, movies-and-television,
-patriarchal-blessings, plural-marriage, prison-ministry,
+plural-marriage, prison-ministry,
 race-and-the-church-of-jesus-christ-of-latter-day-saints, religion-and-science,
-religion-vs-violence, restoration-of-the-church-study-guide, sacrament-meeting,
-single-parent-families, temples-of-the-church-of-jesus-christ-of-latter-day-saints,
-tithing, transgression, transparency-about-church-history-questions,
-womens-service-and-leadership-in-the-church.
+religion-vs-violence, sacrament-meeting, single-parent-families,
+temples-of-the-church-of-jesus-christ-of-latter-day-saints, transgression,
+transparency-about-church-history-questions, womens-service-and-leadership-in-the-church.
 
-**Causa del gap:** Probablemente el scraper original no recogió nuevas adiciones al índice ES,
-o el TOC ES tenía menos enlaces al momento de la descarga.
-
-**Acción:** Re-ejecutar descarga gospel-topics solo para ES, o ejecutar incremental con
-`--lang spa`. El script ya existe y los slugs son los mismos.
+**No hay acción posible** — el contenido simplemente no existe en ES en el sitio oficial.
+Diferencia final: 299 EN vs 279 ES = 20 tópicos sin traducir (normal para el sitio).
 
 ---
 
@@ -3770,9 +3770,8 @@ automáticamente.
 
 | Prioridad | Material | Script | Justificación |
 |-----------|----------|--------|---------------|
+| ~~🟡 P1~~ | ~~Gospel Topics ES gap~~ | ~~resuelto~~ | ✅ 3 descargados, 21 no existen en ES |
 | 🟡 **P1** | Música para los jóvenes | `download_music.py --collection youth-music` | Único material musical no descargado |
-| 🟡 **P1** | Gospel Topics ES gap (24 tópicos) | `download_manual.py --manual gospel-topics --lang spa` | Completar bilingüe |
-| 🟡 **P1** | Christmas Study Plan 2025 | `download_christmas_study_plan.py --year 2025` | Directorio vacío |
 | 🟡 **P2** | Seminary Teacher Manuals (3 vols) | `download_manual.py` | OT/NT/D&C teacher — complementan student manuals |
 | 🟡 **P2** | Family Strengthening Manuals | `download_manual.py` | Marriage & Family Relations + Strengthening Marriage |
 | 🟢 **P3** | Self-Reliance admin guides | `download_manual.py` | Leader's Guide, My Path, PEF |
