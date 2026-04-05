@@ -65,4 +65,7 @@
 - [feedback_solera_403.md](feedback_solera_403.md) — No WebFetch a mormontextsproject.org: proxy Solera lo bloquea; usar WebSearch o bookshelf de Gutenberg
 - [feedback_source_citations_fcd.md](feedback_source_citations_fcd.md) — Citar fuentes en FCD bibliográfico, no rutas de archivo del corpus
 - [feedback_forma_t_purpose.md](feedback_forma_t_purpose.md) — Formas T are teaching tools first, not apologetic; controversy resolution is byproduct, not purpose
-- [procedure_forma_t_generation.md](procedure_forma_t_generation.md) — 7-step procedure: corpus search, single responsibility, audience design, Bible-first ordering, sequence review, ≤15 words, format
+- [procedure_forma_t_generation.md](procedure_forma_t_generation.md) — 3-phase workflow (A: propose+approve, B: generate, C: quality checklist) for Forma T collections
+- [feedback_doctrinal_precision.md](feedback_doctrinal_precision.md) — Prefer precise doctrinal language over common simplifications (e.g., "two orders" not "two priesthoods")
+- [feedback_bible_roots_mandatory.md](feedback_bible_roots_mandatory.md) — Every Forma T must exhaust Bible roots before Restoration sources — Hebrews lesson learned
+- [feedback_symbol_vs_doctrine_mapping.md](feedback_symbol_vs_doctrine_mapping.md) — Not every biblical symbol maps to Restoration doctrine — verify connection before citing (key of David ≠ priesthood keys)
