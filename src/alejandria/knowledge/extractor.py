@@ -686,6 +686,29 @@ class KGExtractor:
             if len(name) < _MIN_ENTITY_LEN:
                 continue
 
+            # Skip entities containing URLs (from Topical Guide cross-refs)
+            if "http://" in name or "https://" in name:
+                continue
+
+            # Skip "BD " prefix (Bible Dictionary cross-reference markers)
+            if name.startswith("BD "):
+                continue
+
+            # Skip cross-reference fragments ("See ...", "... See ...", "... See")
+            if (name.startswith("See ") or " See " in name
+                    or name.endswith(" See")):
+                continue
+
+            # Skip overly long NER extractions (manual section titles,
+            # run-on phrases) — real entity names rarely exceed 60 chars
+            if len(name) > 60:
+                continue
+
+            # Skip entities that start with article + quote (book/document
+            # titles spaCy misidentifies as people: the "Articles of Faith")
+            if re.match(r'^[Tt]he\s+"', name):
+                continue
+
             # Skip if this NER match is a scripture citation abbreviation
             # e.g., spaCy tags "Matt" as PERSON in "Matt. 5:3"
             after_ner = text[ent.end_char:]
