@@ -2,6 +2,8 @@
 title: "La vida del apóstol Pedro"
 date: 2026-04-04
 status: draft
+collection: vidas
+collection_order: 2
 tags: [pedro, apóstoles, nuevo-testamento, restauración]
 derived_from: ""
 feeds_into: ""

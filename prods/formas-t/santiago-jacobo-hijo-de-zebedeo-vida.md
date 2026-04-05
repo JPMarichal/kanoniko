@@ -2,6 +2,8 @@
 title: "La vida de Santiago (Jacobo) hijo de Zebedeo"
 date: 2026-04-04
 status: draft
+collection: vidas
+collection_order: 3
 tags: [santiago, jacobo, apóstoles, nuevo-testamento, restauración]
 derived_from: ""
 feeds_into: ""

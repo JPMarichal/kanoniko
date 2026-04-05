@@ -2,6 +2,8 @@
 title: "La Santa Cena y los oficios del sacerdocio"
 date: 2026-04-04
 status: draft
+collection: santa-cena
+collection_order: 8
 tags: [santa-cena, sacerdocio, ordenanzas, oficios]
 derived_from: ""
 feeds_into: ""
