@@ -1985,32 +1985,32 @@ post-indexación sin bloquear el proceso.
 
 | # | Título | Autor | Prioridad | Notas |
 |---|--------|-------|-----------|-------|
-| 45054 | Essentials in Church History | Joseph Fielding Smith | **ALTA** | `researched` — Fase 0 abajo |
-| 45619 | History of the Prophet Joseph, by His Mother | Lucy Mack Smith | **ALTA** | `researched` — Fase 0 abajo |
+| 45054 | Essentials in Church History | Joseph Fielding Smith | **ALTA** | `ingested` — 54 ch |
+| 45619 | History of the Prophet Joseph, by His Mother | Lucy Mack Smith | **ALTA** | `ingested` — 54 ch |
 | 59970 | The Life of Joseph Smith, the Prophet | George Q. Cannon | ALTA | Biografía por apóstol/consejero FP |
 | 56698 | The Latter-Day Prophet (para jóvenes) | George Q. Cannon | MEDIA | Versión juvenil de la anterior |
 | 16534 | A Young Folks' History of the Church | Nephi Anderson | MEDIA | Historia popular simplificada |
-| 2443 | The Story of the Mormons (hasta 1901) | William A. Linn | BAJA | `researched` — Fase 0 abajo |
+| 2443 | The Story of the Mormons (hasta 1901) | William A. Linn | BAJA | `ingested` — 81 ch |
 | 36486 | The City of the Mormons; Three Days at Nauvoo, 1842 | Henry Caswall | BAJA | Relato de viajero, perspectiva crítica |
-| 46783 | Early Scenes in Church History | Various | MEDIA | Faith-Promoting Series #8; Fase 0 abajo |
+| 46783 | Early Scenes in Church History | Various | MEDIA | `ingested` — 17 ch |
 | 9661 | Mormon Settlement in Arizona | James H. McClintock | BAJA | Historia regional |
 
 ### Biografías y memorias
 
 | # | Título | Autor | Prioridad | Notas |
 |---|--------|-------|-----------|-------|
-| 44896 | Autobiography of Parley Parker Pratt | Parley P. Pratt | **ALTA** | `researched` — Fase 0 abajo |
-| 47708 | Biography and Family Record of Lorenzo Snow | Eliza R. Snow | **ALTA** | `researched` — Fase 0 abajo |
-| 47703 | Wilford Woodruff, Fourth President | Wilford Woodruff | **ALTA** | `researched` — Fase 0 abajo |
-| 35333 | Life of Heber C. Kimball | Orson F. Whitney | **ALTA** | `researched` — Fase 0 abajo |
-| 47519 | President Heber C. Kimball's Journal | Heber C. Kimball | ALTA | `researched` — Fase 0 abajo |
-| 45051 | William Clayton's Journal | William Clayton | ALTA | `researched` — Fase 0 abajo |
+| 44896 | Autobiography of Parley Parker Pratt | Parley P. Pratt | **ALTA** | `ingested` — 54 ch |
+| 47708 | Biography and Family Record of Lorenzo Snow | Eliza R. Snow | **ALTA** | `ingested` — 87 ch (biographies/) |
+| 47703 | Wilford Woodruff, Fourth President | Wilford Woodruff | **ALTA** | `ingested` — 56/57 ch (ch19 missing in source) |
+| 35333 | Life of Heber C. Kimball | Orson F. Whitney | **ALTA** | `ingested` — 66/68 ch (ch29,64 missing in source) |
+| 47519 | President Heber C. Kimball's Journal | Heber C. Kimball | ALTA | `ingested` — 17 ch |
+| 45051 | William Clayton's Journal | William Clayton | ALTA | `ingested` — 18 monthly sections |
 | 54331 | Life of a Pioneer (autobiografía) | James S. Brown | MEDIA | Pionero, Batallón Mormón |
 | 48284 | Jacob Hamblin (fronterizo/misionero) | Jacob Hamblin | MEDIA | Misión a los indios, frontera |
 | 46391 | Memoirs of John R. Young, Utah Pioneer, 1847 | John R. Young | MEDIA | Pionero temprano |
-| 51730 | Life of David W. Patten, First Apostolic Martyr | Lycurgus A. Wilson | MEDIA | `researched` — Fase 0 abajo |
+| 51730 | Life of David W. Patten, First Apostolic Martyr | Lycurgus A. Wilson | MEDIA | `ingested` — 8 ch |
 | 46602 | Lydia Knight's History | Susa Young Gates | MEDIA | Perspectiva femenina pionera |
-| 46028 | Leaves from My Journal | Wilford Woodruff | MEDIA | `researched` — Fase 0 abajo |
+| 46028 | Leaves from My Journal | Wilford Woodruff | MEDIA | `ingested` — 28 ch |
 | 54337 | Reminiscences of Joseph, the Prophet | Edward Stevenson | MEDIA | Testimonios personales de JS |
 | 46521 | Forty Years Among the Indians | Daniel W. Jones | MEDIA | Misiones, frontera |
 | 50958 | Representative Women of Deseret | Augusta J. Crocheron | MEDIA | Biografías de mujeres SUD |
@@ -2024,9 +2024,9 @@ post-indexación sin bloquear el proceso.
 | # | Título | Autor | Prioridad | Notas |
 |---|--------|-------|-----------|-------|
 | 35514 | The Great Apostasy | James E. Talmage | **ALTA** | Ya en backlog Tier 3, patrística |
-| 47109 | Gospel Doctrine (sermones) | Joseph F. Smith | **ALTA** | `researched` — Fase 0 abajo |
+| 47109 | Gospel Doctrine (sermones) | Joseph F. Smith | **ALTA** | `ingested` — 25/26 ch (ch16 missing in source) |
 | 56684 | The Lectures on Faith | Joseph Smith Jr. | **ALTA** | Doctrina fundacional (Kirtland) |
-| 44941 | The Government of God | John Taylor | ALTA | `researched` — Fase 0 abajo |
+| 44941 | The Government of God | John Taylor | ALTA | `ingested` — 12 ch |
 | 36327 | Mediation and Atonement | John Taylor | ALTA | Cristología profética |
 | 35470 | Key to the Science of Theology | Parley P. Pratt | ALTA | Teología sistemática temprana |
 | 35562 | A Rational Theology | John A. Widtsoe | ALTA | Teología moderna SUD |

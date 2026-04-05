@@ -45,6 +45,20 @@ Run `python scripts/download_gutenberg.py --list-books` for the full list. Key e
 | 60757 | history-of-the-church-vol4 | Smith/Roberts | 30 chapters |
 | 60706 | history-of-the-church-vol5 | Smith/Roberts | 32 chapters |
 | 60758 | history-of-the-church-vol6 | Smith/Roberts | 12 chapters |
+| 45054 | essentials-in-church-history | J.F. Smith | 54 chapters |
+| 45619 | history-of-prophet-joseph-by-his-mother | Lucy M. Smith | 54 chapters |
+| 44896 | autobiography-parley-p-pratt | P.P. Pratt | 54 chapters |
+| 47109 | gospel-doctrine | Joseph F. Smith | 25 chapters |
+| 35333 | life-of-heber-c-kimball | O.F. Whitney | 66 chapters |
+| 44941 | government-of-god | John Taylor | 12 chapters |
+| 46028 | leaves-from-my-journal | W. Woodruff | 28 chapters |
+| 47703 | wilford-woodruff-fourth-president | M.F. Cowley | 56 chapters |
+| 47519 | heber-c-kimball-journal | H.C. Kimball | 17 chapters |
+| 45051 | william-clayton-journal | W. Clayton | 18 monthly sections |
+| 47708 | biography-of-lorenzo-snow | Eliza R. Snow | 87 chapters+letters |
+| 2443 | story-of-the-mormons | W.A. Linn | 81 chapters (6 books) |
+| 46783 | early-scenes-church-history | Various | 17 chapters |
+| 51730 | life-of-david-w-patten | L.A. Wilson | 8 chapters |
 
 ## Commands
 
