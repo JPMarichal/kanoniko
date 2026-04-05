@@ -88,6 +88,34 @@ Existing: FATHER_OF, MOTHER_OF, BROTHER_OF, SPOUSE_OF, SON_OF, CALLED_AS, TRAVEL
 
 **Future tiers:** Tier 2 (~100 secondary characters), Tier 3 (remaining gazetteer entries via LLM extraction — deferred to P6 LLM phases)
 
+### WI-2: Formas T as Curated KG + Corpus Source
+
+**Priority:** Medium — value multiplier for both search and KG quality
+**Status:** Planning
+**Parent:** P6 Advanced Relations (curated relation ingestion)
+
+**Goal:** Treat Formas T as living documents that feed both the corpus (full-text search, semantic search) and the KG (curated relations with `curated` confidence tier).
+
+**Design constraints:**
+- Formas T are **living documents** — they can be edited or corrected at any time
+- Ingestion must use the existing **incremental pipeline with SHA-256 change detection**
+- When a Forma T changes, its KG relations must be replaced (delete old, create new from current state)
+- Each table row maps to one or more KG relations: concept → scripture reference, concept → doctrinal topic
+
+**Two ingestion paths:**
+1. **Text ingestion** (existing pipeline) — Formas T are indexed like any corpus document for FTS and semantic search. No new code needed, only adding `prods/formas-t/` to the corpus paths.
+2. **Curated KG ingestion** (new) — A parser reads the Markdown table, extracts (concept, reference) pairs, and creates typed relations at `curated` confidence. Requires:
+   - Markdown table parser for Forma T format
+   - Reference resolver (scripture citation → KG node)
+   - Relation type inference from concept text
+   - Idempotent upsert: on re-ingestion, old relations from that document are replaced
+
+**Success criteria:**
+- All Formas T appear in hybrid search results when relevant
+- KG contains `curated`-tier relations derived from Formas T
+- Editing a Forma T and re-indexing correctly updates both FTS and KG
+- No manual intervention needed beyond the standard `POST /index` call
+
 ## Relationship to Completed Work
 
 | Phase | Status | Notes |
