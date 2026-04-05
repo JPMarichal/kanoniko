@@ -3,7 +3,7 @@ title: "¿Pueden los espíritus visitarnos?"
 date: 2026-04-05
 status: draft
 collection: plan-de-salvacion
-collection_order: 47
+collection_order: 46
 tags: [plan-de-salvacion, mundo-de-los-espiritus, angeles, espiritus, discernimiento, adversario]
 derived_from: ""
 feeds_into: ""
