@@ -8,15 +8,43 @@ description: Download books from Project Gutenberg into the Alejandría corpus. 
 Download public-domain books from Project Gutenberg, process them into
 corpus-ready chapters (.txt + .meta.json), and place them in `corpus/en/manuals/`.
 
+## Discovery workflow
+
+Before adding books, use the `/book-discovery` skill to check MTP catalog first,
+then Gutenberg, then archive.org. This avoids wasted effort on OCR when clean
+transcriptions exist.
+
 ## Pre-configured books
+
+Run `python scripts/download_gutenberg.py --list-books` for the full list. Key entries:
 
 | ID | Slug | Author | Notes |
 |----|------|--------|-------|
-| 42238 | articles-of-faith | Talmage | 24 lectures, ~70K words |
-| 35514 | great-apostasy | Talmage | 10 chapters, ~30K words |
-| 45149 | house-of-the-lord | Talmage | ~10 chapters, ~30K words |
-| 47182 | vitality-of-mormonism | Talmage | 104 essays, ~80K words |
-| 74447 | discourses-brigham-young | BY/Widtsoe | 42 chapters, ~250K words |
+| 42238 | articles-of-faith | Talmage | 24 lectures |
+| 35514 | great-apostasy | Talmage | 10 chapters |
+| 45149 | house-of-the-lord | Talmage | ~10 chapters |
+| 47182 | vitality-of-mormonism | Talmage | 104 essays |
+| 74447 | discourses-brigham-young | BY/Widtsoe | 42 chapters |
+| 46202 | new-witness-for-god-vol1 | Roberts | 18 chapters |
+| 47316 | new-witnesses-for-god-vol2 | Roberts | 37 chapters |
+| 59951 | new-witnesses-for-god-vol3 | Roberts | 38 chapters |
+| 52391 | outlines-ecclesiastical-history | Roberts | sequential |
+| 49526 | missouri-persecutions | Roberts | 22 chapters |
+| 35974 | corianton | Roberts | word-numbered chapters |
+| 60235 | seventys-course-theology-1st | Roberts | sequential |
+| 60490 | seventys-course-theology-2nd | Roberts | sequential |
+| 60575 | seventys-course-theology-3rd | Roberts | sequential |
+| 60491 | seventys-course-theology-4th | Roberts | sequential |
+| 60492 | seventys-course-theology-5th | Roberts | 5 chapters |
+| 50302 | rise-and-fall-of-nauvoo | Roberts | 45 chapters |
+| 45464 | mormon-doctrine-of-deity | Roberts | 7 chapters |
+| 45303 | life-of-john-taylor | Roberts | 46 chapters |
+| 47091 | history-of-the-church-vol1 | Smith/Roberts | 48 chapters |
+| 47192 | history-of-the-church-vol2 | Smith/Roberts | sequential |
+| 47316 | history-of-the-church-vol3 | Smith/Roberts | 15 chapters |
+| 60757 | history-of-the-church-vol4 | Smith/Roberts | 30 chapters |
+| 60706 | history-of-the-church-vol5 | Smith/Roberts | 32 chapters |
+| 60758 | history-of-the-church-vol6 | Smith/Roberts | 12 chapters |
 
 ## Commands
 
