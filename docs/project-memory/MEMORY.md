@@ -26,7 +26,7 @@
 - [reference_citation_norms.md](reference_citation_norms.md) — Formal citation norms in docs/citation-norms.md: scriptures, TG/BD/GEE/JST, intros, conference, FCD format
 - [feedback_citation_style.md](feedback_citation_style.md) — Citations always inline/parenthetical (never isolated line); GA titles use highest known rank
 - [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
-- [feedback_docker_engine.md](feedback_docker_engine.md) — NEVER use plain docker from Windows for Alejandría; always wsl -d Ubuntu-20.04
+- [feedback_docker_engine.md](feedback_docker_engine.md) — ALL Alejandría ops MUST use GPU Docker stack (Ubuntu-20.04 WSL); never Rancher, never optional
 - [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
 - [feedback_batch_neo4j.md](feedback_batch_neo4j.md) — Always batch Neo4j writes (UNWIND); individual calls = 19h, batched = 30min
 - [feedback_bilingual_dedup.md](feedback_bilingual_dedup.md) — Report unique counts, not EN+ES sum; 50 bilingual records = 25 unique items
@@ -73,3 +73,4 @@
 - [feedback_corpus_as_commentary.md](feedback_corpus_as_commentary.md) — Corpus as scripture commentary: conference talks, Talmage, study aids (GEE/TG/BD) must be leveraged by topic
 - [project_covenant_path_architecture.md](project_covenant_path_architecture.md) — Covenant path: 8 collections, 60 forms (intro+6 doctrinal+vidas)
 - [feedback_continuous_improvement.md](feedback_continuous_improvement.md) — Products are living: continuous improvement, theme detection skill, controversies/misunderstandings as source
+- [feedback_no_prayer_for_dead.md](feedback_no_prayer_for_dead.md) — No orar por los muertos: listas del templo son para vivos; para difuntos, ordenanzas vicarias

@@ -3,7 +3,7 @@ title: "La gran respuesta de la Restauración"
 date: 2026-04-05
 status: draft
 collection: plan-de-salvacion
-collection_order: 48
+collection_order: 47
 tags: [plan-de-salvacion, mundo-de-los-espiritus, apologetica, restauracion, redencion-de-los-muertos, justicia]
 derived_from: ""
 feeds_into: ""
