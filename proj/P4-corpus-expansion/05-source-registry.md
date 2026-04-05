@@ -69,55 +69,55 @@ fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP →
 
 **🔴 P1 — Exégesis escritural (Book of Mormon, D&C, PGP, Bible):**
 
-| Slug | Título | Cat | Notas |
-|------|--------|-----|-------|
-| illuminating-jaredite-records | Illuminating the Jaredite Records | 7 | Multi-autor, ed. Belnap — verificado |
-| give-ear-my-words | Give Ear to My Words | 15 | Multi-autor Sperry — verificado |
-| opening-isaiah | Opening Isaiah | 1,7,10 | Clave para entender Isaías en el LdM |
-| abinadi | Abinadi | 1,7 | Análisis profundo de Mosíah 11-17 |
-| samuel-lamanite | Samuel the Lamanite | 7 | Profeta LdM poco estudiado |
-| jacob | Jacob | 7 | Análisis del libro de Jacob |
-| search-diligently-words-isaiah | Search Diligently the Words of Isaiah | 7,10 | Isaías en contexto SUD |
-| introduction-book-abraham | An Introduction to the Book of Abraham | 9,2 | Exégesis PGP clave |
-| book-moses-joseph-smith-translation-manuscripts | The Book of Moses and the JST Manuscripts | 9,1 | Exégesis Moisés/PGP |
-| pearl-great-price-revelations-god | The Pearl of Great Price: Revelations from God | 9,1 | PGP completo |
-| foundations-restoration | Foundations of the Restoration | 8,15 | Multi-autor, D&C — verificado |
-| you-shall-have-my-word | You Shall Have My Word | 8,15 | D&C exégesis |
-| doctrine-covenants-revelations-context | The D&C: Revelations in Context | 8,1 | Contexto histórico de cada sección |
-| genesis | Genesis | 10,2 | Génesis desde perspectiva SUD |
-| prophets-prophecies-old-testament | Prophets and Prophecies of the OT | 1,10 | AT desde perspectiva SUD |
-| gospel-jesus-christ-old-testament | The Gospel of Jesus Christ in the OT | 1,10,15 | Cristo en el AT |
-| thou-art-christ-son-living-god | Thou Art the Christ, the Son of the Living God | 1,10,15 | Cristología NT |
-| ministry-peter-chief-apostle | The Ministry of Peter, the Chief Apostle | 1,10,15 | Pedro, primer apóstol |
-| sermon-mount-latter-day-scripture | The Sermon on the Mount in Latter-day Scripture | 1,15 | Sermón del Monte vs 3 Nefi |
-| new-testament-history-culture-society | NT History, Culture, and Society | 1,10 | Contexto NT |
-| joseph-smiths-new-translation-bible | Joseph Smith's New Translation of the Bible | 9,1,10 | JST completa |
-| understanding-joseph-smiths-translation-bible | Understanding JS's Translation of the Bible | 10,2 | JST académico |
-| king-james-bible-restoration | The King James Bible and the Restoration | 1,10,16 | KJV en contexto SUD |
+| Slug | Título | Cat | Estado | Notas |
+|------|--------|-----|--------|-------|
+| illuminating-jaredite-records | Illuminating the Jaredite Records | 7 | ✅ ingested | Multi-autor, ed. Belnap — 12 files |
+| give-ear-my-words | Give Ear to My Words | 15 | ✅ ingested | Multi-autor Sperry — 23 files |
+| opening-isaiah | Opening Isaiah | 1,7,10 | ❌ PDF-only | No disponible para lectura online |
+| abinadi | Abinadi | 1,7 | ✅ ingested | 13 files |
+| samuel-lamanite | Samuel the Lamanite | 7 | ✅ ingested | 14 files |
+| jacob | Jacob | 7 | ❌ PDF-only | No disponible para lectura online |
+| search-diligently-words-isaiah | Search Diligently the Words of Isaiah | 7,10 | ❌ PDF-only | No disponible para lectura online |
+| introduction-book-abraham | An Introduction to the Book of Abraham | 9,2 | ✅ ingested | 18 files |
+| book-moses-joseph-smith-translation-manuscripts | The Book of Moses and the JST Manuscripts | 9,1 | ✅ ingested | 14 files |
+| pearl-great-price-revelations-god | The Pearl of Great Price: Revelations from God | 9,1 | ✅ ingested | 14 files |
+| foundations-restoration | Foundations of the Restoration | 8,15 | ✅ ingested | 17 files |
+| you-shall-have-my-word | You Shall Have My Word | 8,15 | ✅ ingested | 17 files |
+| doctrine-covenants-revelations-context | The D&C: Revelations in Context | 8,1 | ✅ ingested | 11 files |
+| genesis | Genesis | 10,2 | ❌ PDF-only | No disponible para lectura online |
+| prophets-prophecies-old-testament | Prophets and Prophecies of the OT | 1,10 | ✅ ingested | 12 files |
+| gospel-jesus-christ-old-testament | The Gospel of Jesus Christ in the OT | 1,10,15 | ✅ ingested | 17 files |
+| thou-art-christ-son-living-god | Thou Art the Christ, the Son of the Living God | 1,10,15 | ✅ ingested | 21 files |
+| ministry-peter-chief-apostle | The Ministry of Peter, the Chief Apostle | 1,10,15 | ✅ ingested | 21 files |
+| sermon-mount-latter-day-scripture | The Sermon on the Mount in Latter-day Scripture | 1,15 | ✅ ingested | 20 files |
+| new-testament-history-culture-society | NT History, Culture, and Society | 1,10 | ✅ ingested | 46 files |
+| joseph-smiths-new-translation-bible | Joseph Smith's New Translation of the Bible | 9,1,10 | ✅ ingested | 16 files |
+| understanding-joseph-smiths-translation-bible | Understanding JS's Translation of the Bible | 10,2 | ❌ PDF-only | No disponible para lectura online |
+| king-james-bible-restoration | The King James Bible and the Restoration | 1,10,16 | ✅ ingested | 16 files |
 
 **🟡 P2 — Doctrina, convenios, templo, cristología:**
 
-| Slug | Título | Cat | Notas |
-|------|--------|-----|-------|
-| ascending-mountain-lord | Ascending the Mountain of the Lord | 10,15 | Templo en la Biblia |
-| household-god | The Household of God | 15 | Convenios y familia |
-| covenant-compassion | Covenant of Compassion | 10,15 | Convenios en el AT |
-| how-what-you-worship | How and What You Worship | 1,10,15 | Adoración |
-| our-rites-worship | By Our Rites of Worship | 1,10,12 | Ordenanzas y adoración |
-| he-was-seen | He Was Seen | 14 | Resurrección — Easter Conference |
-| power-christs-deliverance | The Power of Christ's Deliverance | 14 | Expiación |
-| tragedy-triumph | The Tragedy and the Triumph | 14 | Crucifixión y resurrección |
-| his-majesty-mission | His Majesty and Mission | 14,10 | Cristología |
-| our-saviors-love | Our Savior's Love | 14,10 | Cristología |
-| healing-his-wings | With Healing in His Wings | 1,14 | Expiación |
-| my-redeemer-lives | My Redeemer Lives! | 1,14 | Resurrección |
-| save-lost | To Save the Lost | 1,14 | Misión de Cristo |
-| celebrating-easter | Celebrating Easter | 14 | Conferencia pascual |
-| behold-lamb-god | "Behold the Lamb of God" | 14 | Cristología |
-| fulness-gospel | The Fulness of the Gospel | 15 | Plenitud del evangelio |
-| temple-antiquity | The Temple in Antiquity | 12,16 | Templo en la antigüedad |
-| lectures-faith-historical-perspective | Lectures on Faith in Historical Perspective | 1,2 | Lecturas sobre la fe |
-| life-beyond-grave | Life Beyond the Grave | 11,12 | Escatología SUD |
+| Slug | Título | Cat | Estado | Notas |
+|------|--------|-----|--------|-------|
+| ascending-mountain-lord | Ascending the Mountain of the Lord | 10,15 | ✅ ingested | 23 files — templo en la Biblia |
+| household-god | The Household of God | 15 | ❌ PDF-only | No disponible para lectura online |
+| covenant-compassion | Covenant of Compassion | 10,15 | ✅ ingested | 20 files |
+| how-what-you-worship | How and What You Worship | 1,10,15 | ✅ ingested | 13 files |
+| our-rites-worship | By Our Rites of Worship | 1,10,12 | ✅ ingested | 17 files |
+| he-was-seen | He Was Seen | 14 | ❌ PDF-only | No disponible para lectura online |
+| power-christs-deliverance | The Power of Christ's Deliverance | 14 | ❌ PDF-only | No disponible para lectura online |
+| tragedy-triumph | The Tragedy and the Triumph | 14 | ✅ ingested | 7 files |
+| his-majesty-mission | His Majesty and Mission | 14,10 | ✅ ingested | 7 files |
+| our-saviors-love | Our Savior's Love | 14,10 | ✅ ingested | 9 files |
+| healing-his-wings | With Healing in His Wings | 1,14 | ✅ ingested | 7 files |
+| my-redeemer-lives | My Redeemer Lives! | 1,14 | ✅ ingested | 7 files |
+| save-lost | To Save the Lost | 1,14 | ✅ ingested | 8 files |
+| celebrating-easter | Celebrating Easter | 14 | ✅ ingested | 13 files |
+| behold-lamb-god | "Behold the Lamb of God" | 14 | ✅ ingested | 13 files |
+| fulness-gospel | The Fulness of the Gospel | 15 | ⚠️ partial | 1/20 files — URL bug en PDFs |
+| temple-antiquity | The Temple in Antiquity | 12,16 | ✅ ingested | 13 files |
+| lectures-faith-historical-perspective | Lectures on Faith in Historical Perspective | 1,2 | ✅ ingested | 20 files |
+| life-beyond-grave | Life Beyond the Grave | 11,12 | ✅ ingested | 14 files |
 
 **🟢 P3 — Fe, salud mental, vida práctica, apologética:**
 
