@@ -137,12 +137,79 @@ Al completar un lote de formas dentro de una colección:
 
 ---
 
+## Arquitectura de colecciones
+
+### Una colección es una narrativa, no una agrupación
+- La colección cuenta una historia completa. Un lector que siga las formas en secuencia debe sentir que completó un curso coherente.
+- La última forma debe cerrar el círculo que abrió la primera (ej: F67 "La obra y la gloria de Dios" cierra lo que F1 "Hijos espirituales de Dios" abrió).
+
+### Estructura interna: grupos temáticos
+- Las colecciones se organizan internamente en **grupos temáticos** (bloques de formas relacionadas).
+- Los grupos se definen en el frontmatter de cada forma con el campo `group`.
+- Cada grupo puede tener:
+  - Una **forma definitoria** que establece términos (ej: F65 "Salvación, inmortalidad y vida eterna").
+  - Un **capstone apologético o de síntesis** que cierra el grupo (ej: F47 "La gran respuesta de la Restauración").
+  - **Formas puente** que conectan un grupo con el siguiente (ej: F54 "La resurrección: antesala del juicio").
+
+### Cuándo separar un grupo en dos
+- Si dos temas tienen **identidad doctrinal distinta**, se separan en grupos distintos aunque sean secuenciales en la narrativa (ej: muerte ≠ mundo de los espíritus; juicio ≠ reinos de gloria).
+
+### Cuándo separar una colección en dos
+- Si un tema desborda la narrativa de la colección actual, **sembrar el germen** de una nueva colección: la colección actual establece el POR QUÉ (base doctrinal) y la futura cubre el CÓMO (práctica, mecánica).
+- No duplicar contenido entre colecciones — fundamentar en una, operacionalizar en otra.
+- Usar `derived_from` y `feeds_into` para conectar formas entre colecciones.
+
+### El tamaño lo dicta el tema
+- No hay número fijo de formas por colección. Plan de salvación tiene 67. Otras pueden tener 10 o 40.
+- El cuestionamiento profundo (A3) expande legítimamente — frenar prematuramente produce colecciones superficiales.
+
+### Nomenclatura de archivos
+
+```
+{CCCC}-{slug-coleccion}-{FF}-{slug-forma}.md
+```
+
+| Componente | Dígitos | Ejemplo | Descripción |
+|---|---|---|---|
+| `CCCC` | 4 | `0001` | ID de la colección (hasta 9,999) |
+| `slug-coleccion` | — | `plan-salvacion` | Identificador legible de la colección |
+| `FF` | 2 | `67` | ID de la forma dentro de la colección (hasta 99) |
+| `slug-forma` | — | `la-obra-y-la-gloria-de-dios` | Identificador legible de la forma |
+
+Ejemplo: `0001-plan-salvacion-67-la-obra-y-la-gloria-de-dios.md`
+
+### Frontmatter de cada forma
+
+```yaml
+---
+title: "La obra y la gloria de Dios"
+date: 2026-04-05
+status: draft
+collection: plan-de-salvacion
+collection_id: "0001"
+collection_order: 67
+group: "la-exaltacion"
+tags: [...]
+derived_from: ""
+feeds_into: ""
+---
+```
+
+Campos de organización interna:
+- `collection` — slug legible de la colección
+- `collection_id` — ID numérico de 4 dígitos
+- `collection_order` — posición secuencial en la colección (1-99)
+- `group` — slug del grupo temático dentro de la colección
+
+---
+
 ## Formalización periódica
 
 Periódicamente (o al completar un grupo de colecciones):
-- Verificar que **todas** las formas tienen `collection` y `collection_order`.
+- Verificar que **todas** las formas tienen frontmatter completo (incluyendo `collection_id` y `group`).
 - Detectar e integrar formas huérfanas.
 - Actualizar la memoria de arquitectura con totales y estructura actual.
+- Verificar que la nomenclatura de archivos coincide con el frontmatter.
 
 ---
 
