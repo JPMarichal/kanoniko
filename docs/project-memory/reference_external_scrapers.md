@@ -48,8 +48,17 @@
 
 ## Backlog Counts (verified 2026-04-05)
 
-- RSC BYU: 214 unique online books across 15 categories (full inventory in backlog)
+- RSC BYU: 214 unique online books across 15 categories (full catalog in `proj/P4-corpus-expansion/05-source-registry.md`)
 - BYU Studies: 38 books (37 not yet in corpus) — was estimated 65, actual catalog has 38
 - MTP/Gutenberg: ~89 LDS titles not yet in corpus
-- Church site: ~51 items in priority tables (P0-P6)
+- Church site: Youth Music (blocked — API 404) + Ensign/Liahona (uninvestigated)
 - Total backlog: ~300+ distinct items (many RSC books overlap across categories)
+
+## P4 File Structure (reorganized 2026-04-05)
+
+| File | Purpose |
+|------|---------|
+| `proj/P4-corpus-expansion/03-corpus-inventory.md` | What's ingested (inventory) |
+| `proj/P4-corpus-expansion/04-backlog.md` | What's pending (active work + priorities) |
+| `proj/P4-corpus-expansion/05-source-registry.md` | Source catalogs (RSC, Gutenberg, BYU Studies) |
+| `proj/P4-corpus-expansion/fase0/{slug}.md` | Fase 0 analysis per material (permanent reference) |

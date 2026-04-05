@@ -1,6 +1,6 @@
 # Alejandría Project Memory Index
 
-- [reference_external_scrapers.md](reference_external_scrapers.md) — External source scrapers: hierarchy (Church>RSC>BYU Studies>MTP>Gutenberg>Archive.org), scripts, skills, site details, backlog ~250+ items
+- [reference_external_scrapers.md](reference_external_scrapers.md) — External source scrapers: hierarchy, scripts, skills, site details, P4 file structure (03-inventory/04-backlog/05-registry/fase0/)
 - [project_alejandria.md](project_alejandria.md) — Project vision: independent containerized text library with textual, semantic, and KG search over LDS church literature
 - [project_chat_vision.md](project_chat_vision.md) — Final goal: specialized chat client for scripture/gospel study, RAG over the knowledge engine
 - [phase5_complete.md](phase5_complete.md) — Phase 5 fully closed: entity profiles, disambiguation, volume-diverse passages, staleness, stopword handling, RAG enrichment, 18 docs
@@ -33,7 +33,7 @@
 - [feedback_user_facing_language.md](feedback_user_facing_language.md) — No system jargon (corpus, KG, FTS) in user-facing responses; use natural language ("las Autoridades Generales han dicho")
 - [vision_scripture_commentary.md](vision_scripture_commentary.md) — Conference talks as scripture commentary base: exegesis via precise citations, thematic cross-referencing
 - [feedback_footnotes_essential.md](feedback_footnotes_essential.md) — Footnotes are essential content: always download, put in both .txt and .meta.json; they feed KG relations and RAG
-- [procedure_corpus_addition.md](procedure_corpus_addition.md) — 8-step procedure for adding corpus material: classify, research, authority, KG pre-seed, format, commit+sync, paths, index
+- [procedure_corpus_addition.md](procedure_corpus_addition.md) — 9-step procedure for adding corpus material: classify, research (Fase 0→fase0/), authority, KG pre-seed, format, commit+sync, paths, index, update status
 - [reference_indexing_benchmarks.md](reference_indexing_benchmarks.md) — Real benchmarks: 779 files/1632 chunks = 8min GPU; ETA from chunk count not file count
 - [feedback_gitignore_data.md](feedback_gitignore_data.md) — Never exclude data/ from git; only exclude sqlite/backups/ and sqlite/neo4j_backups/ (large, regenerable)
 - [feedback_proactive_before_expensive_ops.md](feedback_proactive_before_expensive_ops.md) — Stop antes de ops costosas: revisar deuda técnica conocida y optimizar primero; no lanzar hasta tener el camino despejado
@@ -47,7 +47,7 @@
 - [feedback_tuteo.md](feedback_tuteo.md) — Hablar de tú al lector en artículos, no de usted
 - [feedback_no_secretismo.md](feedback_no_secretismo.md) — Evitar "secretismo"; usar "acceso a la información" o "transparencia"
 - [feedback_preseed_before_discovery.md](feedback_preseed_before_discovery.md) — Pre-seed known data (paths, KG relations) before expensive automated discovery; never let the system re-derive what preparation already determined
-- [feedback_step2_blocking_gate.md](feedback_step2_blocking_gate.md) — HARD GATE: write Fase 0 analysis in backlog BEFORE any ManualConfig, authority, or download script work
+- [feedback_step2_blocking_gate.md](feedback_step2_blocking_gate.md) — HARD GATE: write Fase 0 file in fase0/{slug}.md BEFORE any ManualConfig, authority, or download; update 04-backlog.md
 - [feedback_avoid_ai_patterns.md](feedback_avoid_ai_patterns.md) — Patrones léxicos, estructurales y de tono que delatan texto IA; checklist de revisión
 - [reference_doctrinal_spine.md](reference_doctrinal_spine.md) — Columna doctrinal serie Revolución Silenciosa: escrituras ancla, fuentes proféticas, redistribución tema mujeres
 - [reference_seo_longtail_interlinking.md](reference_seo_longtail_interlinking.md) — Long-tail SEO, modelo pillar-cluster, interlinking contextual, anchor text, checklist pre-publicación WordPress
@@ -64,3 +64,4 @@
 - [reference_mtp_workflow.md](reference_mtp_workflow.md) — MTP-first workflow: check Mormon Texts Project before archive.org; skill `/book-discovery` codifies the process
 - [feedback_solera_403.md](feedback_solera_403.md) — No WebFetch a mormontextsproject.org: proxy Solera lo bloquea; usar WebSearch o bookshelf de Gutenberg
 - [feedback_source_citations_fcd.md](feedback_source_citations_fcd.md) — Citar fuentes en FCD bibliográfico, no rutas de archivo del corpus
+- [feedback_forma_t_purpose.md](feedback_forma_t_purpose.md) — Formas T are teaching tools first, not apologetic; controversy resolution is byproduct, not purpose

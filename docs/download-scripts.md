@@ -222,7 +222,7 @@ Antes de tocar código, entender el material en profundidad. **No saltar esta fa
 ### Fase 4 — Validar y marcar `prepared`
 
 14. **Authority** — definir según `docs/authority-model.md`
-15. **Cambiar estado a `prepared`** en `03-materials-backlog.md`
+15. **Cambiar estado a `prepared`** en `proj/P4-corpus-expansion/04-backlog.md`
 
 > Solo después de completar las fases 0–3 el material está **ready to ingest**.
 > La primera indexación debe dejar el KG completo sin intervención manual posterior.
