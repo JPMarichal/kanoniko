@@ -23,14 +23,10 @@ services:
       - ALEJANDRIA_CORPUS_PATH=/app/corpus
       - ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
       - ALEJANDRIA_EMBEDDING_DEVICE=cpu
-      - ALEJANDRIA_QDRANT_HOST=qdrant
-      - ALEJANDRIA_QDRANT_PORT=6333
       - ALEJANDRIA_NEO4J_URI=bolt://neo4j:7687
       - ALEJANDRIA_NEO4J_USER=neo4j
       - ALEJANDRIA_NEO4J_PASSWORD=${NEO4J_PASSWORD:-alejandria}
     depends_on:
-      qdrant:
-        condition: service_healthy
       neo4j:
         condition: service_healthy
     mem_limit: 2g
@@ -41,22 +37,6 @@ services:
       timeout: 30s
       retries: 5
       start_period: 60s
-
-  qdrant:
-    image: qdrant/qdrant:v1.13.2
-    container_name: alejandria-qdrant
-    ports:
-      - "6333:6333"
-    volumes:
-      - alejandria-qdrant:/qdrant/storage
-    mem_limit: 512m
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD-SHELL", "bash -c ':> /dev/tcp/localhost/6333' || exit 1"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
 
   neo4j:
     image: neo4j:5-community
@@ -82,6 +62,5 @@ services:
       start_period: 30s
 
 volumes:
-  alejandria-qdrant:
   alejandria-models:
   alejandria-neo4j:

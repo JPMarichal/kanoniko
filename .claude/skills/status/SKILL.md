@@ -55,7 +55,7 @@ Summarize the health of each component:
 - GPU: model, VRAM used/total
 - API: running/down, embedding device (cpu/cuda)
 - Neo4j: connected/disconnected
-- Qdrant: connected/disconnected
+- sqlite-vec: loaded/unavailable
 - Documents indexed: count
 - KG entities/relations: counts
 - LLM models available: list

@@ -1,8 +1,8 @@
 """FastAPI dependency injection for shared services.
 
-Optional services (Neo4j, Qdrant, KG extractor) use retry-on-None caching:
+Optional services (Neo4j, sqlite-vec, KG extractor) use retry-on-None caching:
 if a service is unavailable at first call, subsequent calls retry the
-connection instead of permanently caching None.
+initialization instead of permanently caching None.
 """
 
 from __future__ import annotations
@@ -58,13 +58,13 @@ def get_textual_search() -> TextualSearch:
 
 @_cache_success
 def get_semantic_search():
-    """Get SemanticSearch instance, or None if Qdrant/sentence-transformers unavailable."""
+    """Get SemanticSearch instance, or None if sqlite-vec/sentence-transformers unavailable."""
     try:
         from alejandria.search.semantic import SemanticSearch
 
-        return SemanticSearch()
+        return SemanticSearch(settings.sqlite_db_path)
     except Exception:
-        logger.warning("Semantic search unavailable (Qdrant not connected or deps missing)")
+        logger.warning("Semantic search unavailable (sqlite-vec not loaded or deps missing)")
         return None
 
 

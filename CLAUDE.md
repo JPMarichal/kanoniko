@@ -27,9 +27,9 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 
 ## Stack
 
-- Python 3.11, FastAPI, SQLite FTS5 (textual), Qdrant (semantic), Neo4j (graph)
+- Python 3.11, FastAPI, SQLite FTS5 (textual), sqlite-vec (semantic), Neo4j (graph)
 - spaCy + domain gazetteers for KG extraction
-- Docker Compose (3 containers: api, qdrant, neo4j)
+- Docker Compose (2 containers: api, neo4j)
 
 ## Vision
 
@@ -108,29 +108,28 @@ When the user asks a theological, doctrinal, or scripture-content question:
 
 ## Backup & Disaster Recovery
 
-**SQLite is the source of truth.** From it alone, Qdrant (~5 min) and Neo4j (~3h) can be fully reconstructed.
+**SQLite is the source of truth.** It contains FTS chunks and semantic vectors (via sqlite-vec). Neo4j (~3h) can be fully reconstructed from it.
 
 ### Backup Endpoints (API running at :4300)
 | Endpoint | What it does |
 |----------|-------------|
-| `POST /backup/sqlite?label=manual` | Timestamped copy, rotates last 5 |
-| `POST /backup/qdrant` | Qdrant native snapshot |
+| `POST /backup/sqlite?label=manual` | Timestamped copy (includes vectors), rotates last 5 |
 | `POST /backup/neo4j` | Cypher streaming export to JSON (~90s for 75K nodes + 4.5M rels) |
 | `GET /backup/sqlite` | List available SQLite backups |
 | `GET /backup/neo4j` | List available Neo4j backups |
 | `POST /backup/sqlite/restore?filename=...` | Restore SQLite from backup |
 | `POST /backup/neo4j/restore?filename=...` | Restore Neo4j from backup (clears graph first) |
-| `POST /index/rebuild-vectors` | Rebuild Qdrant from SQLite (no filesystem I/O) |
+| `POST /index/rebuild-vectors` | Rebuild vectors in sqlite-vec from chunk text (no filesystem I/O) |
 
 ### Automatic Pre-Index Backup
-The pipeline automatically backs up all three stores before any indexing run. No manual action needed.
+The pipeline automatically backs up SQLite and Neo4j before any indexing run. No manual action needed.
 
 ### What's Tracked in Git (disaster recovery baseline)
 | Asset | Location | Notes |
 |-------|----------|-------|
 | Source code | `src/`, `docker/`, `scripts/` | |
 | Corpus | `corpus/` | Bind-mounted, full text in git |
-| SQLite DB | `data/sqlite/alejandria.db` (85 MB) | FTS chunks + registry |
+| SQLite DB | `data/sqlite/alejandria.db` (~130 MB) | FTS chunks + vectors (sqlite-vec) + registry |
 | Gazetteers | `data/gazetteers/` | 7 NER assets, hard to rebuild |
 | Project memory | `docs/project-memory/` | Primary source — tracked directly in git |
 | Skills/hooks | `.claude/` | |
@@ -138,7 +137,7 @@ The pipeline automatically backs up all three stores before any indexing run. No
 
 ### Recovery Procedures
 - **SQLite lost:** `git checkout data/sqlite/alejandria.db` or restore from backup endpoint
-- **Qdrant lost:** `POST /index/rebuild-vectors` (~5 min on GPU)
+- **Vectors lost:** `POST /index/rebuild-vectors` (~5 min on GPU) — rebuilds sqlite-vec table from chunk text
 - **Neo4j lost:** `POST /backup/neo4j/restore?filename=...` or rebuild from SQLite via reindex (~3h)
 - **Full disaster:** Clone repo, copy `.env` from OneDrive, `docker compose up`, data is in git
 - **NEVER run full reindex casually** — it takes 7+ hours and deletes existing data first. Always use incremental.

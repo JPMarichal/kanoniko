@@ -14,7 +14,7 @@
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
 | Full-text search | SQLite FTS5 | BM25 ranking, chunk storage, document registry, entity profiles |
-| Semantic search | Qdrant | Vector similarity search |
+| Semantic search | sqlite-vec | In-process vector similarity search (same SQLite DB) |
 | Knowledge graph | Neo4j | Entity/relation graph, document linkage |
 | Embeddings | sentence-transformers | `paraphrase-multilingual-MiniLM-L12-v2` (384 dims, bilingual ES/EN) |
 
@@ -30,11 +30,11 @@
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
-| Containerization | Docker Compose | 3 services: api, qdrant, neo4j |
+| Containerization | Docker Compose | 2 services: api, neo4j |
 | GPU runtime | NVIDIA Container Toolkit + PyTorch nightly cu128 | Blackwell sm_120 GPU support |
 | API server | Uvicorn | ASGI server |
 | MCP protocol | `mcp` Python SDK | AI assistant integration |
-| Backup | SQLite copy + Qdrant REST snapshot + Neo4j Cypher export | Disaster recovery |
+| Backup | SQLite copy (includes vectors) + Neo4j Cypher export | Disaster recovery |
 
 ## Python Dependencies
 
@@ -42,7 +42,7 @@ Key packages (see `pyproject.toml` for full list):
 - `fastapi`, `uvicorn` — Web server
 - `pydantic`, `pydantic-settings` — Data validation
 - `sentence-transformers` — Embedding model
-- `qdrant-client` — Vector DB client
+- `sqlite-vec` — In-process vector search (SQLite extension)
 - `neo4j` — Graph DB driver
 - `spacy` — NER
 - `click` — CLI

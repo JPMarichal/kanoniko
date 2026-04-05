@@ -97,7 +97,7 @@ TOOLS = [
         name="search_semantic",
         description=(
             "Semantic (embedding) search — finds passages by meaning, not just keywords. "
-            "Best for conceptual queries. Bilingual ES/EN. Requires Qdrant."
+            "Best for conceptual queries. Bilingual ES/EN."
         ),
         inputSchema={
             "type": "object",
@@ -377,7 +377,7 @@ def _do_search_text(args: dict) -> dict:
 def _do_search_semantic(args: dict) -> dict:
     sem = _get_semantic()
     if sem is None:
-        return {"error": "Semantic search unavailable (Qdrant not connected)"}
+        return {"error": "Semantic search unavailable (sqlite-vec not loaded)"}
     from alejandria.embeddings.model import encode_single
     query_vector = encode_single(args["query"]).tolist()
     rows = sem.search(
@@ -409,7 +409,7 @@ def _do_search_hybrid(args: dict) -> dict:
     ts = _get_textual()
     sem = _get_semantic()
     if sem is None:
-        return {"error": "Hybrid search requires semantic search (Qdrant not connected)"}
+        return {"error": "Hybrid search requires semantic search (sqlite-vec not loaded)"}
     limit = args.get("limit", 10)
     fetch_limit = min(limit * 3, 100)
     text_rows = ts.search(query=args["query"], limit=fetch_limit,

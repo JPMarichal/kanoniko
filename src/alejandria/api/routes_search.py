@@ -53,7 +53,7 @@ def search_semantic(
     semantic=Depends(get_semantic_search),
 ) -> SearchResponse:
     if semantic is None:
-        raise HTTPException(503, "Semantic search is not available (Qdrant not connected)")
+        raise HTTPException(503, "Semantic search is not available (sqlite-vec not loaded)")
 
     from alejandria.embeddings.model import encode_single
 
@@ -89,7 +89,7 @@ def search_hybrid(
     semantic=Depends(get_semantic_search),
 ) -> HybridSearchResponse:
     if semantic is None:
-        raise HTTPException(503, "Hybrid search requires semantic search (Qdrant not connected)")
+        raise HTTPException(503, "Hybrid search requires semantic search (sqlite-vec not loaded)")
 
     from alejandria.embeddings.model import encode_single
     from alejandria.search.hybrid import reciprocal_rank_fusion

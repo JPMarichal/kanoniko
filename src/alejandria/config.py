@@ -13,11 +13,6 @@ class Settings(BaseSettings):
     # SQLite FTS
     sqlite_db_path: Path = Path("/app/data/sqlite/alejandria.db")
 
-    # Qdrant
-    qdrant_host: str = "qdrant"
-    qdrant_port: int = 6333
-    qdrant_collection: str = "alejandria"
-
     # Neo4j
     neo4j_uri: str = "bolt://neo4j:7687"
     neo4j_user: str = "neo4j"

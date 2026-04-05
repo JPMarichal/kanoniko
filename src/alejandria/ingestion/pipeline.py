@@ -40,7 +40,7 @@ except ImportError:
 
 logger = logging.getLogger(__name__)
 
-# Optional semantic search — None when Qdrant is not available
+# Optional semantic search — None when sqlite-vec is not available
 try:
     from alejandria.embeddings.model import encode
     from alejandria.search.semantic import SemanticSearch
@@ -396,7 +396,7 @@ class IngestionPipeline:
                     fd.vectors = all_vectors[offset:offset + n]
                     offset += n
 
-            # Phase 3 (I/O): Qdrant + Neo4j
+            # Phase 3 (I/O): sqlite-vec + Neo4j
             self.progress.phase = 3
             self.progress.phase_start_time = time.time()
             self.progress.phase_3_total = len(file_data_list)
@@ -460,7 +460,7 @@ class IngestionPipeline:
         Uses a 3-phase pipeline to maximize GPU utilization:
           Phase 1 (CPU): Parse, chunk, build metadata, index FTS → collect chunk IDs
           Phase 2 (GPU): Batch-encode ALL chunks across all files in one call
-          Phase 3 (I/O): Batch-upsert vectors to Qdrant + KG extraction to Neo4j
+          Phase 3 (I/O): Batch-upsert vectors to sqlite-vec + KG extraction to Neo4j
         """
         stats = IndexingStats()
         self.progress = IndexingProgress(running=True, start_time=time.time())
@@ -471,7 +471,7 @@ class IngestionPipeline:
                 logger.warning("Corpus path does not exist: %s", corpus_path)
                 return stats
 
-            # Pre-index backup (SQLite + Qdrant snapshot)
+            # Pre-index backup (SQLite + sqlite-vec snapshot)
             try:
                 from alejandria.backup import pre_index_backup
                 backup_result = pre_index_backup()
@@ -674,7 +674,7 @@ class IngestionPipeline:
             else:
                 logger.info("Phase 2/3: Skipped (semantic search not available)")
 
-            # ── Phase 3 (I/O): Qdrant upsert + Neo4j KG extraction ──
+            # ── Phase 3 (I/O): sqlite-vec upsert + Neo4j KG extraction ──
             phase_3_start = time.time()
             self.progress.phase = 3
             self.progress.phase_start_time = phase_3_start
@@ -824,8 +824,8 @@ class IngestionPipeline:
         return fd
 
     def _index_file_data(self, fd: _FileData) -> None:
-        """Phase 3: Upsert vectors to Qdrant + KG extraction to Neo4j."""
-        # Qdrant upsert (vectors were computed in phase 2)
+        """Phase 3: Upsert vectors to sqlite-vec + KG extraction to Neo4j."""
+        # sqlite-vec upsert (vectors were computed in phase 2)
         if self._semantic and _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
             # Conference-specific payload fields
@@ -1084,7 +1084,7 @@ class IngestionPipeline:
 
         metadata_str = json.dumps(base_meta)
 
-        # Index into FTS — collect chunk IDs for Qdrant
+        # Index into FTS — collect chunk IDs for sqlite-vec
         chunk_ids: list[int] = []
         conn = self._textual.get_connection()
         with conn:
@@ -1101,7 +1101,7 @@ class IngestionPipeline:
                 )
                 chunk_ids.append(cid)
 
-        # Index into Qdrant (semantic)
+        # Index into sqlite-vec (semantic)
         if self._semantic and _SEMANTIC_AVAILABLE:
             chunk_texts = [c.text for c in chunks]
             vectors = encode(chunk_texts)
@@ -1180,7 +1180,7 @@ class IngestionPipeline:
         """Rebuild ONLY semantic vectors from already-indexed chunks in SQLite.
 
         Reads chunk text + metadata from SQLite, batch-encodes on GPU, and
-        upserts to Qdrant. No filesystem I/O — ideal for GPU migration.
+        upserts to sqlite-vec. No filesystem I/O — ideal for GPU migration.
 
         Returns stats dict.
         """
@@ -1189,8 +1189,8 @@ class IngestionPipeline:
 
         start = time.time()
 
-        # Drop and recreate Qdrant collection
-        logger.info("Vector rebuild: dropping Qdrant collection...")
+        # Drop and recreate sqlite-vec collection
+        logger.info("Vector rebuild: dropping sqlite-vec collection...")
         self._semantic.drop_collection()
 
         # Read all chunks from SQLite
@@ -1208,9 +1208,9 @@ class IngestionPipeline:
         all_texts = [r[3] if isinstance(r, (list, tuple)) else r["text"] for r in rows]
         all_vectors = encode(all_texts, batch_size=256)
 
-        logger.info("Vector rebuild: encoding done in %.1fs, upserting to Qdrant...", time.time() - start)
+        logger.info("Vector rebuild: encoding done in %.1fs, upserting to sqlite-vec...", time.time() - start)
 
-        # Batch upsert to Qdrant in groups of 500
+        # Batch upsert to sqlite-vec in groups of 500
         batch_size = 500
         for i in range(0, total, batch_size):
             batch_rows = rows[i:i + batch_size]
@@ -1267,7 +1267,7 @@ class IngestionPipeline:
         """Rebuild ONLY the knowledge graph from already-indexed chunks in SQLite.
 
         This is much faster than full_reindex because it skips parsing,
-        chunking, embedding, FTS, and Qdrant — only reads chunk text from
+        chunking, embedding, FTS, and sqlite-vec — only reads chunk text from
         SQLite and runs the KG extractor against the current gazetteers.
 
         Returns stats dict with counts.

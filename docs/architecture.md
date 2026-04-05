@@ -11,7 +11,7 @@ Alejandria is organized in four layers, each building on the previous:
 │  Knowledge: RAG Pipeline, Entity Profiles,      │
 │             LLM Integration, Synthesis          │
 ├─────────────────────────────────────────────────┤
-│  Index: FTS5, Qdrant Vectors, Neo4j Graph       │
+│  Index: FTS5 + sqlite-vec Vectors, Neo4j Graph   │
 ├─────────────────────────────────────────────────┤
 │  Corpus: Bilingual documents (bind-mounted)     │
 └─────────────────────────────────────────────────┘
@@ -22,8 +22,7 @@ Raw documents in multiple formats (md, txt, html, json), organized by language a
 
 ### Layer 2 — Index
 Three complementary search indices:
-- **SQLite FTS5**: Full-text search with BM25 ranking. Primary storage for chunks, metadata, and document registry.
-- **Qdrant**: Vector database for semantic similarity search using multilingual embeddings.
+- **SQLite FTS5 + sqlite-vec**: Full-text search with BM25 ranking, plus in-process vector search via sqlite-vec extension. Primary storage for chunks, vectors, metadata, and document registry.
 - **Neo4j**: Knowledge graph storing entities, relations, and document connections.
 
 ### Layer 3 — Knowledge
@@ -43,7 +42,7 @@ Multiple access points to the knowledge engine:
 ### Ingestion
 ```
 Corpus files → Parser → Chunker → FTS5 (text + metadata)
-                                 → Qdrant (embeddings)
+                                 → sqlite-vec (embeddings)
                                  → Neo4j (entities + relations)
                                  → Profile staleness marking
 ```
