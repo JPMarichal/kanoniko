@@ -15,13 +15,10 @@ feeds_into: ""
 
 | # | Concepto | Referencia |
 |---|----------|------------|
-| 1 | En el principio era el Verbo, y el Verbo estaba con Dios, y era Dios | Juan 1:1 |
-| 2 | Todas las cosas por medio de él fueron hechas | Juan 1:3 |
-| 3 | Por el Hijo hizo Dios el universo | Hebreos 1:2 |
-| 4 | Por él fueron creadas todas las cosas en los cielos y en la tierra | Colosenses 1:16-17 |
-| 5 | Dios creó estas cosas por medio de Su Unigénito | Moisés 2:1 |
-| 6 | He creado incontables mundos por medio del Hijo | Moisés 1:33 |
-| 7 | Por el poder de Su palabra el hombre y la tierra fueron creados | Jacob 4:9 |
-| 8 | Los mundos son y fueron creados por él y de él | DyC 76:24 |
-| 9 | Los Dioses descendieron y organizaron los cielos y la tierra | Abraham 4:1 |
-| 10 | La obra y la gloria de Dios: llevar a cabo la inmortalidad y la vida eterna | Moisés 1:39 |
+| 1 | En el principio era el Verbo; todas las cosas fueron hechas por él | Juan 1:1,3 |
+| 2 | Por el Hijo hizo Dios el universo | Hebreos 1:2 |
+| 3 | Por él fueron creadas todas las cosas en los cielos y en la tierra | Colosenses 1:16-17 |
+| 4 | He creado incontables mundos por medio del Hijo | Moisés 1:33 |
+| 5 | Por el poder de Su palabra el hombre y la tierra fueron creados | Jacob 4:9 |
+| 6 | Los mundos son y fueron creados por él y de él | DyC 76:24 |
+| 7 | Los Dioses descendieron y organizaron los cielos y la tierra | Abraham 4:1 |

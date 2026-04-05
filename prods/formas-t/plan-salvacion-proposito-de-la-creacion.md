@@ -20,11 +20,6 @@ feeds_into: ""
 | 3 | La obra y la gloria de Dios: la inmortalidad y la vida eterna del hombre | Moisés 1:39 |
 | 4 | Dios ha creado todas las cosas, las que actúan y sobre las que se actúa | 2 Nefi 2:14 |
 | 5 | Era menester una oposición para realizar los eternos designios de Dios | 2 Nefi 2:15 |
-| 6 | Sin la Caída, Adán no habría tenido hijos ni conocido el gozo | 2 Nefi 2:22-23 |
-| 7 | Todas las cosas son hechas para el beneficio y el uso del hombre | DyC 59:18-19 |
-| 8 | Espíritu y elemento, inseparablemente unidos, reciben plenitud de gozo | DyC 93:33 |
-| 9 | La Creación da a cada persona la oportunidad de ejercer su albedrío | LF: Creación; Abraham 3:25 |
-| 10 | A quienes guarden su segundo estado les será aumentada gloria eternamente | Abraham 3:26 |
-
-**Abreviaturas:**
-- **LF** — *Leal a la Fe* (manual de la Iglesia)
+| 6 | Todas las cosas son hechas para el beneficio y el uso del hombre | DyC 59:18-19 |
+| 7 | Espíritu y elemento, inseparablemente unidos, reciben plenitud de gozo | DyC 93:33 |
+| 8 | A quienes guarden su segundo estado les será aumentada gloria eternamente | Abraham 3:26 |
