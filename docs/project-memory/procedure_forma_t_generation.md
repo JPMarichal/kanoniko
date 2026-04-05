@@ -63,8 +63,13 @@ Procedimiento completo para generar colecciones de Formas T.
 ### B0. Verificación doctrinal previa
 - **Antes de construir cualquier forma, verificar que la Iglesia enseña la posición que la forma presenta.**
 - No basta con que una pregunta sea interesante o que existan pasajes tangencialmente relacionados. Los pasajes deben ser **probatorios**, no meramente asociables.
+- **Filtro de las tres capas** — identificar a cuál pertenece lo que se quiere enseñar:
+  1. **Doctrina oficial** — escrituras canónicas, declaraciones oficiales de la Primera Presidencia y el Quórum de los Doce, proclamaciones.
+  2. **Política institucional** — Manual General, normas administrativas. Puede cambiar; no es doctrina eterna.
+  3. **Opinión/cultura popular** — creencias comunes de miembros, interpretaciones individuales de líderes, tradiciones. No es doctrina.
+  - Solo la capa 1 sostiene una Forma T por sí sola. La capa 2 puede complementar pero no sustituir. La capa 3 nunca debe presentarse como doctrina.
 - Si la Iglesia desrecomienda una práctica (ej: orar por los muertos), no construir una forma que la presente como doctrina.
-- Si un tema depende enteramente de opiniones proféticas individuales o política institucional (Manual General) sin base escritural canónica, reconocerlo pero no fabricar una Forma T con referencias forzadas.
+- Si un tema parece carecer de base escritural directa, **buscar más profundo** antes de descartar: Ayudas para la vida, Manual General, conferencia general y FTSOY frecuentemente conectan escrituras con temas que las escrituras no abordan explícitamente. "Sin doctrina" muchas veces significa "no busqué lo suficiente."
 - **Why:** F46 (orar por los muertos) se construyó con pasajes que no eran probatorios. La Iglesia desrecomienda la práctica. La forma tuvo que ser eliminada. Verificar antes de construir ahorra retrabajo y evita enseñar error.
 
 ### B1. Audiencias
@@ -115,6 +120,8 @@ Revisar cada Forma T generada contra este checklist:
 - [ ] **Responsabilidad simple:** la forma no bifurca en dos subtemas distintos.
 - [ ] **Formato:** título corto SEO long-tail (3-5 palabras), sin dos puntos, capitalización hispana. Frontmatter completo (title, date, status, collection, collection_order, tags, derived_from, feeds_into). Nota/abreviaturas solo si se usan fuentes no escriturarias.
 - [ ] **Fuentes oficiales:** verificado contra Temas del Evangelio, MG, folletos didácticos, FTSOY (paso B5 completado).
+- [ ] **Verificación de referencias:** cada referencia dice lo que el concepto afirma. No inventar, no parafrasear creativamente, no atribuir ideas que el pasaje no enseña. Ante la duda, leer el versículo antes de incluirlo. (Errores reales cometidos: DyC 76:22-24 "innumerables como la arena" — el pasaje no dice eso; Alma 7:10 confundido con 7:11; Alma 5:53 atribuido a un tema que no trata.)
+- [ ] **Probatorio, no asociable:** cada pasaje debe ENSEÑAR el concepto, no simplemente poder asociarse con él. Si la conexión requiere un salto interpretativo, el pasaje no es probatorio.
 
 Iterar hasta que todas las formas pasen el checklist.
 
