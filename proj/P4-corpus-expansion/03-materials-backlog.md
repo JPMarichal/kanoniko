@@ -1967,6 +1967,1191 @@ post-indexación sin bloquear el proceso.
 
 ---
 
+## Gutenberg Bookshelf "Latter Day Saints" — Inventario completo
+
+> Fuente: [gutenberg.org/ebooks/bookshelf/404](https://www.gutenberg.org/ebooks/bookshelf/404)
+> Inventario tomado: 2026-04-04
+> Excluye obras de B.H. Roberts (sección propia arriba) y Book of Mormon (#17).
+> Estado por defecto: `backlog` salvo que se indique otra cosa.
+
+### Ya en corpus o preparados
+
+| # | Título | Autor | Estado |
+|---|--------|-------|--------|
+| 22542 | Jesus the Christ | James E. Talmage | `prepared` (script listo) |
+| 42238 | The Articles of Faith | James E. Talmage | ver Tier 1 |
+
+### Historia de la Iglesia
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 45054 | Essentials in Church History | Joseph Fielding Smith | **ALTA** | `researched` — Fase 0 abajo |
+| 45619 | History of the Prophet Joseph, by His Mother | Lucy Mack Smith | **ALTA** | `researched` — Fase 0 abajo |
+| 59970 | The Life of Joseph Smith, the Prophet | George Q. Cannon | ALTA | Biografía por apóstol/consejero FP |
+| 56698 | The Latter-Day Prophet (para jóvenes) | George Q. Cannon | MEDIA | Versión juvenil de la anterior |
+| 16534 | A Young Folks' History of the Church | Nephi Anderson | MEDIA | Historia popular simplificada |
+| 2443 | The Story of the Mormons (hasta 1901) | William A. Linn | BAJA | `researched` — Fase 0 abajo |
+| 36486 | The City of the Mormons; Three Days at Nauvoo, 1842 | Henry Caswall | BAJA | Relato de viajero, perspectiva crítica |
+| 46783 | Early Scenes in Church History | Various | MEDIA | Faith-Promoting Series #8; Fase 0 abajo |
+| 9661 | Mormon Settlement in Arizona | James H. McClintock | BAJA | Historia regional |
+
+### Biografías y memorias
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 44896 | Autobiography of Parley Parker Pratt | Parley P. Pratt | **ALTA** | `researched` — Fase 0 abajo |
+| 47708 | Biography and Family Record of Lorenzo Snow | Eliza R. Snow | **ALTA** | `researched` — Fase 0 abajo |
+| 47703 | Wilford Woodruff, Fourth President | Wilford Woodruff | **ALTA** | `researched` — Fase 0 abajo |
+| 35333 | Life of Heber C. Kimball | Orson F. Whitney | **ALTA** | `researched` — Fase 0 abajo |
+| 47519 | President Heber C. Kimball's Journal | Heber C. Kimball | ALTA | `researched` — Fase 0 abajo |
+| 45051 | William Clayton's Journal | William Clayton | ALTA | `researched` — Fase 0 abajo |
+| 54331 | Life of a Pioneer (autobiografía) | James S. Brown | MEDIA | Pionero, Batallón Mormón |
+| 48284 | Jacob Hamblin (fronterizo/misionero) | Jacob Hamblin | MEDIA | Misión a los indios, frontera |
+| 46391 | Memoirs of John R. Young, Utah Pioneer, 1847 | John R. Young | MEDIA | Pionero temprano |
+| 51730 | Life of David W. Patten, First Apostolic Martyr | Lycurgus A. Wilson | MEDIA | `researched` — Fase 0 abajo |
+| 46602 | Lydia Knight's History | Susa Young Gates | MEDIA | Perspectiva femenina pionera |
+| 46028 | Leaves from My Journal | Wilford Woodruff | MEDIA | `researched` — Fase 0 abajo |
+| 54337 | Reminiscences of Joseph, the Prophet | Edward Stevenson | MEDIA | Testimonios personales de JS |
+| 46521 | Forty Years Among the Indians | Daniel W. Jones | MEDIA | Misiones, frontera |
+| 50958 | Representative Women of Deseret | Augusta J. Crocheron | MEDIA | Biografías de mujeres SUD |
+| 51097 | Heroines of "Mormondom" | Various | MEDIA | Más biografías femeninas |
+| 46734 | Scraps of Biography | Various | BAJA | Colección miscelánea |
+| 49739 | Gems of Reminiscence | Various | BAJA | Colección miscelánea |
+| 49401 | Eventful Narratives | R. Aveson / O.B. Huntington | BAJA | Narrativas pioneras |
+
+### Teología y doctrina (con valor histórico)
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 35514 | The Great Apostasy | James E. Talmage | **ALTA** | Ya en backlog Tier 3, patrística |
+| 47109 | Gospel Doctrine (sermones) | Joseph F. Smith | **ALTA** | `researched` — Fase 0 abajo |
+| 56684 | The Lectures on Faith | Joseph Smith Jr. | **ALTA** | Doctrina fundacional (Kirtland) |
+| 44941 | The Government of God | John Taylor | ALTA | `researched` — Fase 0 abajo |
+| 36327 | Mediation and Atonement | John Taylor | ALTA | Cristología profética |
+| 35470 | Key to the Science of Theology | Parley P. Pratt | ALTA | Teología sistemática temprana |
+| 35562 | A Rational Theology | John A. Widtsoe | ALTA | Teología moderna SUD |
+| 47336 | Cowley's Talks on Doctrine | Matthias F. Cowley | MEDIA | Charlas doctrinales de apóstol |
+| 50535 | Blood Atonement and Plural Marriage | Joseph Fielding Smith | MEDIA | Discusión apologética |
+| 47182 | The Vitality of Mormonism (ensayos) | James E. Talmage | MEDIA | Ensayos breves |
+| 46099 | The Vitality of "Mormonism" (discurso) | James E. Talmage | BAJA | Discurso individual |
+| 5630 | The Story of "Mormonism" / Philosophy of "Mormonism" | James E. Talmage | MEDIA | Ensayos apologéticos |
+| 45149 | The House of the Lord | James E. Talmage | MEDIA | Templos, alto interés |
+| 50536 | Gospel Themes | Orson F. Whitney | MEDIA | Ensayos doctrinales |
+| 56691 | Saturday Night Thoughts | Orson F. Whitney | BAJA | Ensayos misceláneos |
+| 46536 | The Gospel: Exposition of First Principles | B.H. Roberts | MEDIA | Ya en corpus como Roberts |
+| 54292 | What Jesus Taught | Osborne J.P. Widtsoe | MEDIA | Cristología |
+| 54309 | Ancient Apostles | David O. McKay | ALTA | Profeta, cristología |
+| 34362 | Joseph Smith as Scientist | John A. Widtsoe | MEDIA | Filosofía mormona |
+| 49357 | Outlines of Mormon Philosophy | Lycurgus A. Wilson | BAJA | Filosofía especulativa |
+| 46635 | Gospel Philosophy | J.H. Ward | BAJA | Teología popular |
+
+### Escritos misionales y apologéticos
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 45846 | Letters Exhibiting Prominent Doctrines | Orson Spencer | BAJA | Apologética epistolar |
+| 35554 | A Voice of Warning | Parley P. Pratt | MEDIA | Clásico misional, muy citado |
+| 46243 | Divine Authority; Was Joseph Smith Sent of God? | Orson Pratt | BAJA | Apologética |
+| 44907 | An Interesting Account of Several Remarkable Visions | Orson Pratt | MEDIA | Temprano relato de la Primera Visión |
+| 45005 | Absurdities of Immaterialism | Orson Pratt | BAJA | Filosofía teológica |
+| 46244 | The Kingdom of God, Part 1 | Orson Pratt | BAJA | Teología del reino |
+| 46974 | Rays of Living Light | Charles W. Penrose | BAJA | Folletos misionales |
+| 46617 | The Plan of Salvation | John Morgan | BAJA | Manual misional |
+
+### Documentos históricos y discursos
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 45006 | General Smith's Views (Gobierno de EEUU) | Joseph Smith Jr. | MEDIA | Plataforma presidencial 1844 |
+| 6720 | The Wentworth Letter | Joseph Smith Jr. | **ALTA** | Contiene Artículos de Fe originales |
+| 54278 | Proclamation of the Twelve Apostles | Council of Q12 | ALTA | Documento fundacional 1845 |
+| 46221 | Items on the Priesthood | John Taylor | MEDIA | Doctrina del sacerdocio |
+
+### Perspectiva femenina SUD
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 54335 | The Women of Mormondom | Edward W. Tullidge | MEDIA | Historia colectiva de mujeres SUD |
+| 50958 | Representative Women of Deseret | Augusta J. Crocheron | MEDIA | (también en biografías arriba) |
+| 51097 | Heroines of "Mormondom" | Various | MEDIA | (también en biografías arriba) |
+
+### Colecciones y miscelánea
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 60056 | Scrap Book of Mormon Literature (Vol. 1) | — | BAJA | Antología |
+| 54298 | Scrap Book of Mormon Literature (Vol. 2) | — | BAJA | Antología |
+| 51095 | Book of Mormon Stories No. 1 | George Q. Cannon | BAJA | Para niños |
+| 49382 | The Life of Nephi, Son of Lehi | George Q. Cannon | MEDIA | Ficción/exégesis |
+| 48517 | Mother Stories from the Book of Mormon | William A. Morton | BAJA | Para niños |
+| 50029 | The Story of the Book of Mormon | — | BAJA | Resumen narrativo |
+| 46601 | Gems for the Young Folks | Various | BAJA | Colección juvenil |
+| 46733 | A String of Pearls | Various | BAJA | Colección devocional |
+| 49830 | Treasures in Heaven | — | BAJA | Colección devocional |
+| 50072 | Fragments of Experience | Various | BAJA | Colección miscelánea |
+| 49327 | Labors in the Vineyard | Various | BAJA | Relatos misionales |
+| 49362 | Helpful Visions | — | BAJA | Colección devocional |
+
+### Ficción SUD
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 13756 | Story of Chester Lawrence | Nephi Anderson | BAJA | Novela SUD |
+| 17249 | Added Upon | Nephi Anderson | BAJA | Novela teológica (plan de salvación) |
+| 12684 | Dorian | Nephi Anderson | BAJA | Novela |
+| 52552 | Venna Hastings: Eastern Mormon Convert | Julia Farr | BAJA | Novela |
+| 50955 | The Cities of the Sun | Elizabeth Cannon Porter | BAJA | Ficción |
+| 56685 | Mr. Durant of Salt Lake City | Ben. E. Rich | BAJA | Ficción |
+
+### Perspectiva externa / crítica (authority=15-20)
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 2443 | The Story of the Mormons | William A. Linn | BAJA | (también en historia arriba) |
+| 44414 | The Mormon Prophet and His Harem | C.V. Waite | BAJA | Anti-mormón, valor documental |
+| 7066 | Under the Prophet in Utah | Frank J. Cannon | BAJA | Hijo de GQC, crítico; controversial |
+| 14661 | Conditions in Utah | Thomas Kearns | BAJA | Informe político senatorial |
+| 54079 | Sinners and Saints | Phil Robinson | BAJA | Relato de viajero |
+| 36791 | The Mormon Puzzle | R.W. Beers | BAJA | Perspectiva externa |
+| 17279 | The Mormon Prophet | L. Dougall | BAJA | Novela sobre JS (ficción externa) |
+| 51096 | The Mormons (discurso) | Thomas L. Kane | MEDIA | Amigo de la Iglesia, perspectiva simpática |
+| 35565 | The Mormons and the Theatre | John S. Lindsay | BAJA | Historia cultural |
+| 23519 | The Mormon Menace (Confessions of J.D. Lee) | A.H. Lewis / J.D. Lee | BAJA | Mountain Meadows, controversial |
+| 49432 | The Myth of the "Manuscript Found" | — | MEDIA | Refutación del origen Spaulding |
+
+### Poesía
+
+| # | Título | Autor | Prioridad | Notas |
+|---|--------|-------|-----------|-------|
+| 60077 | The Millennium, and Other Poems | Parley P. Pratt | BAJA | Poesía teológica |
+| 37718 | Elias: An Epic of the Ages | Orson F. Whitney | BAJA | Poema épico, plan de salvación |
+
+---
+
+## Gutenberg Bookshelf — Fase 0 Analyses
+
+### Essentials in Church History (Gutenberg #45054)
+
+**Estado:** `researched` | authority=45 | Corpus path: `corpus/en/books/essentials-in-church-history/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Historia de la Iglesia en un solo volumen, desde la antigüedad
+  del Evangelio hasta la administración de Heber J. Grant (~1922). Subtítulo:
+  "A History of the Church from the Birth of Joseph Smith to the Present Time
+  (1922), with Introductory Chapters on the Antiquity of the Gospel and the
+  'Falling Away.'" 6 partes, 54 capítulos, ~675 páginas, 5 apéndices.
+
+| Parte | Título | Capítulos | Cobertura |
+|-------|--------|-----------|-----------|
+| I | Introductory | 1-3 | Antigüedad del Evangelio, Apostasía, Reforma Protestante |
+| II | Opening of the Dispensation | 4-14 | Restauración hasta ~1831 |
+| III | Ohio and Missouri Period | 15-26 | Kirtland, Zion's Camp, expulsión de Missouri (~1831-1839) |
+| IV | Nauvoo Period | 27-36 | Nauvoo, templo, martirio, sucesión (~1839-1846) |
+| V | Settlement in Rocky Mountains | 37-48 | Éxodo, pioneros, Guerra de Utah, colonización (~1846-1877) |
+| VI | Recent Development | 49-54 | Administraciones Taylor–Grant (~1877-1922) |
+
+  Apéndices: organizaciones auxiliares, lista completa de AG, estacas de Sión,
+  publicaciones de la Iglesia, bibliografía de autoridades. Ilustrado con
+  retratos, escenas históricas, mapas (rutas de migración, Batallón Mormón).
+
+- **¿Quién lo produjo?** Joseph Fielding Smith Jr. (1876-1972), apóstol
+  (ordenado 1910) y recién nombrado Historiador y Registrador de la Iglesia
+  (1921). Luego 10º Presidente de la Iglesia (1970-1972). Nieto de Hyrum
+  Smith. Copyright: Heber J. Grant (Trustee-in-Trust). Publisher: Deseret
+  News Press, Salt Lake City, 1922.
+- **¿Cuándo?** 1ª edición: 1922. Al menos 27 ediciones/reimpresiones hasta
+  1974. La edición Gutenberg es la de 1922 (dominio público), digitalizada
+  por el Mormon Texts Project (2014). Ediciones posteriores extendieron la
+  cobertura a presidentes subsiguientes — NO están en Gutenberg.
+- **¿Para quién?** Explícitamente diseñado como volumen de lectura general Y
+  como **libro de texto para quórumes del sacerdocio y escuelas de la Iglesia**.
+  Fue EL texto estándar de historia de la Iglesia por décadas, usado en
+  instrucción del sacerdocio y CES antes de ser reemplazado por "Church
+  History in the Fulness of Times" (1989/2003) y luego "Saints" (2018+).
+- **¿Cómo referenciado?** Ampliamente citado en historiografía SUD como
+  historia semi-oficial. La Joseph Smith Foundation lo distribuye digitalmente.
+  Harold B. Lee y otros líderes lo citaron como referencia doctrinal/histórica.
+  Superseded en currículo actual pero sigue en bibliografías.
+- **Relaciones KG — densidad extraordinaria:**
+  - **Personas:** Todos los presidentes hasta Grant, Doce Apóstoles originales,
+    familia Smith, Council of Fifty, antagonistas (Boggs, McKean), Batallón
+    Mormón, pioneros, Oliver Cowdery, Martin Harris, David Whitmer, Sidney Rigdon
+  - **Eventos:** Primera Visión, visitas de Moroni, traducción del LdM,
+    restauración del sacerdocio, organización (1830), Campamento de Sión,
+    dedicación Kirtland, persecuciones Missouri, Haun's Mill, Orden de
+    Exterminio, fundación de Nauvoo, ordenanzas del templo, martirio,
+    crisis de sucesión, éxodo, Batallón Mormón, trek pionero, Guerra de
+    Utah (1857-58), Mountain Meadows, ferrocarril, legislación antipoligamia,
+    Manifiesto
+  - **Lugares:** Palmyra, Fayette, Colesville, Kirtland, Hiram, Independence,
+    Far West, Adam-ondi-Ahman, Nauvoo, Carthage, Winter Quarters, Council
+    Bluffs, Salt Lake Valley, toda la geografía de colonización de Utah
+  - **Doctrinas:** Apostasía/Restauración (caps 1-4), sacerdocio, testigos
+    del LdM, ordenanzas del templo, sucesión presidencial, recogimiento,
+    teología de Sión
+- **Consideraciones:**
+  - Historiografía de 1922 — apologética, no crítica-moderna. No incorpora
+    Joseph Smith Papers ni erudición post-1970.
+  - Edición Gutenberg = solo 1922 (hasta administración Grant temprana).
+  - Complementa Roberts HC: Smith es más conciso y doctrinal; Roberts más
+    detallado y analítico.
+  - Solo EN — nunca traducido oficialmente al español.
+  - Los apéndices (listas de AG, estacas, publicaciones) son metadatos
+    únicos para el KG no disponibles en otra fuente del corpus.
+
+---
+
+### History of the Prophet Joseph, by His Mother (Gutenberg #45619)
+
+**Estado:** `researched` | authority=35 | Corpus path: `corpus/en/books/history-of-prophet-joseph-by-his-mother/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Memorias familiares / biografía de Joseph Smith Jr., dictadas
+  por su madre Lucy Mack Smith. Única cuenta de primera persona de la vida
+  de la familia Smith desde la perspectiva de un progenitor. 54 capítulos +
+  apéndice (diarios y elegías de Don Carlos Smith).
+  - Caps I-IX: genealogía Mack/Smith
+  - Caps X-XVII: mudanzas y dificultades tempranas
+  - Caps XVIII-XXVII: experiencias espirituales de Joseph, manuscrito del LdM
+  - Caps XXVIII-XXXIV: Oliver Cowdery, traducción, organización de la Iglesia
+  - Caps XXXV-LIV: misiones, persecuciones, martirio
+- **¿Quién lo produjo?** Lucy Mack Smith (1775-1856), madre de Joseph Smith.
+  Dictó las memorias a Martha Jane Knowlton Coray (amanuense) en Nauvoo,
+  invierno 1844-1845. Howard Coray (esposo) compiló notas en dos borradores.
+  **Edición Gutenberg (45619) = edición revisada de 1902**, NO la edición
+  Orson Pratt de 1853. Título: "History of the Prophet Joseph by His Mother,
+  Lucy Smith, as Revised by George A. Smith and Elias Smith." Revisores:
+  George A. Smith (Historiador de la Iglesia, primo de JS Sr.) y Elias Smith
+  (patriarca). Producida por Mormon Texts Project, mayo 2014.
+- **¿Cuándo?** Historia textual compleja:
+  - 1844-45: Lucy dicta en Nauvoo tras las muertes de Joseph, Hyrum y Samuel
+  - 1853: Orson Pratt publica en Liverpool como *Biographical Sketches* —
+    sin autorización de Brigham Young
+  - 1865: BY suprime oficialmente la edición de 1853
+  - 1856-66: George A. Smith y Elias Smith trabajan correcciones
+  - 1901-03: Serializada en Improvement Era
+  - **1902: Publicada como libro — esta es la edición Gutenberg**
+  - 2001: Lavina Fielding Anderson publica *Lucy's Book* (edición crítica,
+    Signature Books) — texto paralelo del manuscrito original de 1845
+- **¿Para quién?** Familia y miembros SUD. La edición 1902 fue la versión
+  autorizada por la Iglesia para consumo general.
+- **¿Cómo referenciado?** Una de las fuentes primarias fundamentales para
+  historia SUD temprana. Leonard Arrington: "informative, basically accurate,
+  and extremely revealing." Jan Shipps: "of central importance in the Mormon
+  historical corpus." 190+ de 200 nombres corroborados por fuentes
+  independientes. Citada extensamente en *Saints*, manuales de seminario/
+  instituto, *Rough Stone Rolling* (Bushman), y virtualmente todas las
+  biografías de Joseph Smith. Joseph Smith Papers la trata como documento
+  primario clave.
+- **Relaciones KG — altísima densidad:**
+  - **Personas:** Joseph Smith Jr., Joseph Smith Sr., Lucy Mack Smith, Hyrum,
+    Samuel, Don Carlos, Alvin, William, Sophronia Smith; Solomon Mack
+    (abuelo), familia Mack extendida; Emma Hale, Oliver Cowdery, Martin
+    Harris, David Whitmer; Martha Jane Coray (amanuense)
+  - **Eventos únicos (perspectiva materna):** cirugía de pierna de Joseph
+    (infancia), Primera Visión (contexto familiar), visitas de Moroni,
+    obtención de las planchas, pérdida de las 116 páginas, organización
+    de la Iglesia, Kirtland, Campamento de Sión, Missouri, martirio
+  - **Lugares:** Sharon VT, Tunbridge VT, Lebanon NH, Palmyra NY, Manchester
+    NY, Harmony PA, Fayette NY, Kirtland OH, Far West MO, Nauvoo IL,
+    Carthage IL
+- **Consideraciones:**
+  - **~14% del contenido original fue eliminado** en la revisión 1902.
+    Material que BY consideró "erróneo" fue editado o suprimido — la
+    revisión suavizó pasajes que conflictuaban con la narrativa de liderazgo
+    de BY. Académicos prefieren *Lucy's Book* (2001) o transcripciones JSP.
+  - Para el corpus, la edición 1902 sigue siendo enormemente valiosa —
+    fue el texto estándar por más de un siglo y contiene la gran mayoría
+    del contenido histórico.
+  - Solo EN.
+
+---
+
+### Autobiography of Parley Parker Pratt (Gutenberg #44896)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/autobiography-of-parley-p-pratt/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Autobiografía póstuma de Parley P. Pratt, uno de los primeros
+  apóstoles. Título completo: *...Embracing His Life, Ministry and Travels,
+  with Extracts, in Prose and Verse, from His Miscellaneous Writings.*
+  54 capítulos + apéndice + genealogía, 502 páginas. Los últimos capítulos
+  transicionan de narrativa a entradas de diario y cartas familiares.
+  - Caps 1-6: infancia, juventud en Nueva York, conversión (1807-1830)
+  - Caps 7-16: primeras misiones, Missouri, Zion's Camp, Kirtland
+  - Caps 17-20: misión a Canadá (conversión de John Taylor), muerte de 1ª esposa
+  - Caps 21-35: persecuciones Missouri, prisión Richmond/Liberty, escape
+  - Caps 36-41: misión a Inglaterra, Millennial Star, emigración
+  - Caps 42-45: martirio de JS, éxodo, Winter Quarters, Montañas Rocosas
+  - Caps 46-50: Utah, misiones al Pacífico (California, Chile — 1er misionero
+    en Sudamérica, 1851)
+  - Caps 51-54: última misión, cartas, poema "My Fiftieth Year", respuesta
+    de John Taylor
+- **¿Quién lo produjo?** Parley Parker Pratt (1807-1857), apóstol original
+  (ordenado 1835). Compilado por su hijo Parley P. Pratt Jr. desde "various
+  forms of manuscript, some in book form, some in loose leaves, whilst others
+  were extracts from the Millennial Star." Publicado por Russell Brothers,
+  New York, 1874 (17 años después del asesinato de Pratt).
+- **¿Cuándo?** Escrito durante su vida; últimos caps son diario de 1856-57.
+  Asesinado 13 mayo 1857 por Hector McLean. Publicado 1874.
+- **¿Para quién?** Audiencia SUD general. Sigue siendo uno de los textos SUD
+  más leídos en el siglo XXI por su prosa accesible.
+- **¿Cómo referenciado?** Descrito como **"possibly the most important [LDS]
+  historical work written in the nineteenth century."** "Remains one of the
+  most frequently read texts for Latter-day Saints even in the twenty-first
+  century." Fuente primaria citada extensamente en manuales, academia y
+  conferencia general. Artículo académico dedicado: R.A. Christmas, *Dialogue*
+  vol. 1 no. 1 (1966).
+- **Relaciones KG �� altísima densidad:**
+  - **Personas:** Joseph Smith, Brigham Young, John Taylor (co-editor),
+    Hyrum Smith, Sidney Rigdon, Orson Hyde, Orson Pratt (hermano), Hector
+    McLean (asesino), Thankful Halsey (1ª esposa), Mary Ann Frost (2ª esposa)
+  - **Eventos como testigo presencial:** conversión (1830), Zion's Camp (1834),
+    persecuciones Missouri, Orden de Exterminio, Haun's Mill, prisión
+    Richmond, escape de la prisión, templo Kirtland, misión a Inglaterra,
+    Millennial Star, martirio (1844), éxodo, trek pionero, 1ª misión SUD
+    a Sudamérica (Chile 1851)
+  - **Lugares:** Burlington NY, Kirtland, Independence, Far West, Richmond MO,
+    Nauvoo, Winter Quarters, SLC, San Francisco, Valparaíso Chile, Toronto,
+    Preston/Manchester England, Van Buren AR
+  - **Misiones:** Indios lamanitas (1830-31), Canadá (1836), Inglaterra
+    (1839-42), Pacífico/Chile (1851), última misión al este (1856-57)
+- **Consideraciones:**
+  - Edición del hijo — no hay certeza de cuánto reorganizó u omitió.
+  - Tratamiento evasivo del matrimonio plural — notable dado que su asesinato
+    fue causado por su matrimonio con Eleanor McLean.
+  - La autobiografía termina antes del asesinato (por razones obvias).
+  - Gutenberg = edición original 1874 (sin las 700+ notas de la edición
+    Proctor 2000, que es con copyright).
+
+---
+
+### Gospel Doctrine (Gutenberg #47109)
+
+**Estado:** `researched` | authority=50 | Corpus path: `corpus/en/books/gospel-doctrine/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Antología de sermones y escritos de Joseph F. Smith organizada
+  temáticamente en 26 capítulos: Truth, Eternal Nature, Revelation, Free
+  Agency, God and Man, Mission of the Church, First Principles, Church and
+  Man, Priesthood, Spiritual Gifts, Obedience, Prayer, Tithing/Poor/Industry,
+  Temperance/Sabbath, Duties, Marriage/Home/Family, Amusements, Love Your
+  Enemies, Education, Missionaries, False Teachings, Auxiliary Organizations,
+  Political Government, Eternal Life/Salvation, Joseph Smith the Prophet,
+  Personal Testimonies. NO es un libro escrito por JFS — es compilación
+  de extractos de sermones publicados, agrupados por tema.
+- **¿Quién lo produjo?** Joseph F. Smith (1838-1918), 6º presidente (1901-18).
+  Compiladores: John A. Widtsoe (líder), Osborne J.P. Widtsoe, Albert E.
+  Bowen, F.S. Harris, Joseph Quinney. Patrocinador: Lorenzo N. Stohl.
+  Editor: Deseret News, SLC. Copyright: 1919 por Heber J. Grant.
+- **¿Cuándo?** 1919 (un año después de la muerte de JFS). Múltiples
+  reimpresiones; 12ª edición 1966. Sigue en catálogo de Deseret Book.
+  Gutenberg release: oct 2014, producido por Mormon Texts Project.
+- **¿Para quién?** Originalmente **libro de texto para quórumes del
+  Sacerdocio de Melquisedec**, bajo iniciativa de David O. McKay. Con el
+  tiempo se convirtió en referencia doctrinal general.
+- **¿Cómo referenciado?** Clásico de la literatura SUD. Harold B. Lee:
+  "When I want to seek for a more clear definition of doctrinal subjects,
+  I have usually turned to the writings and sermons of President Joseph F.
+  Smith." El manual *Teachings of Presidents: Joseph F. Smith* (1998)
+  toma extensamente de este libro. 961 descargas/mes en Gutenberg.
+- **Doctrinas clave:**
+  - **Visión de la Redención de los Muertos** (Cap XXIV) — texto fuente
+    pre-canonización de lo que luego fue D&C 138 (canonizado 1976/1979).
+    Valor intertextual alto.
+  - Preexistencia, inmortalidad, vida después de la muerte (Caps II, XXIV)
+  - Sacerdocio: autoridad, organización, llaves (Cap IX)
+  - Primeros principios: fe, arrepentimiento, bautismo, EG (Cap VII)
+  - Libre albedrío (Cap IV), revelación (Caps III, X)
+  - Matrimonio y familia (Cap XVI) — doctrina pre-Proclamación
+  - El Profeta Joseph Smith — testimonios de nieto de Hyrum (Cap XXV)
+  - Diezmo, Palabra de Sabiduría, día de reposo (Caps XIII, XIV)
+  - Gobierno político: relación Iglesia-Estado (Cap XXIII)
+- **Relaciones KG:** Alta densidad — JFS conecta con JS Sr., Hyrum,
+  BY, John Taylor, Wilford Woodruff, Lorenzo Snow (todos presidentes que
+  conoció). También David O. McKay, John A. Widtsoe, Heber J. Grant.
+- **Consideraciones:**
+  - D&C 138 pre-canonización — el texto de la Visión es la versión
+    publicada antes de entrar al canon. Intertextualidad valiosa.
+  - No duplica el manual de 1998 (Teachings of Presidents) — Gospel Doctrine
+    es la fuente completa y no editada; el manual es selección oficial.
+  - Solo EN — el manual Teachings of Presidents sí está en español.
+
+---
+
+### Life of Heber C. Kimball (Gutenberg #35333)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/life-of-heber-c-kimball/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Biografía completa en 68 capítulos + apéndice, 515 páginas.
+  Título: *Life of Heber C. Kimball, an Apostle: The Father and Founder of
+  the British Mission.* El autor deja al sujeto "speak for himself" —
+  incorpora extensos extractos de diarios y cartas verbatim, haciendo que
+  sea simultáneamente biografía y compilación de fuentes primarias.
+  - Caps I-X: vida temprana, matrimonio con Vilate Murray, bautismo, Kirtland
+  - Caps XI-XX: primera misión de los Doce, Kirtland Temple, British Mission
+  - Caps XXI-XXX: 1ª Misión Británica (1837-38), conversiones en Preston
+  - Caps XXXI-XL: persecuciones Missouri, Nauvoo, 2ª Misión Británica
+  - Caps XLI-L: conferencia de Londres, trabajo apostólico, templo Nauvoo
+  - Caps LI-LX: éxodo, trek pionero 1847, colonización
+  - Caps LXI-LXVIII: historia familiar, anécdotas, muerte de Vilate, muerte
+    de Heber (1868)
+- **¿Quién lo produjo?** Orson Ferguson Whitney (1855-1931), **nieto** de
+  Kimball (hijo de Helen Mar Kimball Whitney). Whitney luego fue **apóstol**
+  (ordenado 1906). También autor de la *History of Utah* (4 vols). Publicado
+  por la familia Kimball, impreso en Juvenile Instructor Office, 1888.
+  Originado en reunión familiar Kimball (14 jun 1887).
+- **¿Cuándo?** 1888. Gutenberg release: feb 2011, Mormon Texts Project.
+- **¿Para quién?** Miembros SUD y familia Kimball. Estilo devocional-
+  hagiográfico típico del siglo XIX. Goodreads 4.29/5 (194 ratings).
+- **¿Cómo referenciado?** Fue LA biografía de Kimball por casi un siglo
+  (1888-1981). Superseded como biografía académica definitiva por Stanley
+  B. Kimball, *Heber C. Kimball: Mormon Patriarch and Pioneer* (U. of
+  Illinois Press, 1981). Sigue citada como fuente primaria por las
+  transcripciones verbatim de diarios.
+- **Relaciones KG — alta densidad (68 caps, vida completa):**
+  - **Personas:** Heber C. Kimball (sujeto), Brigham Young (amigo de toda
+    la vida), Joseph Smith, Vilate Murray Kimball, Helen Mar Kimball,
+    Orson F. Whitney (autor/nieto), Willard Richards, Orson Hyde, Parley
+    P. Pratt, John Taylor
+  - **Eventos:** 1ª y 2ª Misión Británica, dedicación Kirtland, persecuciones
+    Missouri, Nauvoo y templo, revelación del matrimonio celestial, éxodo,
+    trek pionero 1847, colonización
+  - **Lugares:** Kirtland, Preston (Inglaterra), Londres, Far West, Nauvoo,
+    Winter Quarters, Salt Lake Valley
+
+| Relación | from | to |
+|----------|------|----|
+| `FIRST_COUNSELOR_TO` | Heber C. Kimball | Brigham Young |
+| `FOUNDED` | Heber C. Kimball | British Mission |
+| `GRANDSON_OF` | Orson F. Whitney | Heber C. Kimball |
+| `MARRIED_TO` | Heber C. Kimball | Vilate Murray |
+
+- **Consideraciones:**
+  - 68 capítulos — libro grande, ~150-200 chunks estimados.
+  - Prosa victoriana densa — funcionalmente correcta para el chunker pero
+    estilísticamente diferente del material moderno.
+  - Transcripciones de diario embebidas sin delimitadores claros.
+  - **Complementa #47519** (Kimball's Journal) — ingestar juntos maximiza
+    cross-references.
+  - Sesgo hagiográfico — escrito por nieto devoto para audiencia familiar.
+
+---
+
+### The Government of God (Gutenberg #44941)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/government-of-god/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Tratado de teología política en 12 capítulos (~200 páginas).
+  Contrasta el gobierno de Dios (orden, armonía) con los gobiernos humanos
+  (confusión, desigualdad), argumentando que solo el reino literal de Cristo
+  resolverá los males del mundo. Estructura progresiva: diagnóstico (caps 1-3)
+  → naturaleza del hombre (4-6) → gobierno divino en la historia (7-9) →
+  reino literal de Cristo (10-12).
+
+| Cap | Título |
+|-----|--------|
+| I | The Wisdom, Order, and Harmony of the Government of God |
+| II | The Government of Man |
+| III | On the Incompetency of the Means Made Use of by Man to Regenerate the World |
+| IV | What Is Man? What Is His Destiny and Relationship to God? |
+| V | The Object of Man's Existence on the Earth |
+| VI | Man's Accountability to God |
+| VII | The Lord's Course in the Moral Government of the World |
+| VIII | Whose Right Is It to Govern the World? |
+| IX | Will Man Always Be Permitted to Usurp Authority Over Men? |
+| X | Will God's Kingdom Be a Literal or a Spiritual Kingdom? |
+| XI | The Establishment of the Kingdom of God upon the Earth |
+| XII | The Effects of the Establishment of Christ's Kingdom |
+
+- **¿Quién lo produjo?** John Taylor (1808-1887), apóstol al momento de
+  escribir, luego 3er presidente de la Iglesia (1880-87). Publicado por
+  S.W. Richards, Liverpool, agosto 1852. Tiraje: 5,000 copias. Editor:
+  James Linforth. Impreso por W. Bowden, Londres.
+- **¿Cuándo?** Escrito 1849-1852 durante la misión de Taylor en Francia y
+  Alemania. Publicado agosto 1852. Contexto: revoluciones europeas fallidas
+  de 1848 + Taylor era miembro del Council of Fifty de Joseph Smith.
+  Gutenberg release: feb 2014, Mormon Texts Project.
+- **¿Para quién?** Público general europeo + investigadores. Tono accesible,
+  no técnico. Propósito parcial: recaudar fondos para la Misión Francesa.
+- **¿Cómo referenciado?** B.H. Roberts lo llamó **"Elder Taylor's
+  masterpiece"** y "a work which is sufficient at once to establish both his
+  literary ability and his power as a moral philosopher" (en *Life of John
+  Taylor*, ya en corpus). El manual *Teachings of Presidents: John Taylor*
+  (cap 13) extrae ideas de este libro. BYU RSC lo analiza en estudios
+  sobre teología política mormona. Es la articulación más sistemática de
+  la doctrina del reino de Dios en la literatura SUD del siglo XIX.
+- **Doctrinas clave:**
+  - **Teocracia / Reino literal de Dios** — no metafórico, gobierno literal
+    en la tierra durante el Milenio (Cap X argumenta contra interpretaciones
+    espiritualizantes)
+  - **Incompetencia de gobiernos humanos** (Caps 2-3) — crítica sistemática
+  - **Soberanía divina** (Cap 8) — derecho inherente de Dios a gobernar
+  - **Accountability ante Dios** (Cap 6) — gobernantes rinden cuentas
+  - **Destino del hombre** (Caps 4-5) — propósito divino, trasciende mortalidad
+  - **Efectos del reino milenial** (Cap 12) — paz, justicia, fin de pobreza
+- **Relaciones KG:**
+
+| Relación | from | to |
+|----------|------|----|
+| `AUTHORED` | John Taylor | The Government of God |
+| `TEACHES` | The Government of God | Kingdom of God |
+| `TEACHES` | The Government of God | Theocracy |
+| `TEACHES` | The Government of God | Millennium |
+| `MEMBER_OF` | John Taylor | Council of Fifty |
+| `PUBLISHED_IN` | The Government of God | Liverpool |
+
+- **Consideraciones:**
+  - **Teocracia es doctrina sensible** — Taylor argumenta que todos los
+    gobiernos serán destruidos y reemplazados. Matiza con obediencia a leyes
+    civiles, pero la tesis central puede malinterpretarse fuera de contexto.
+  - **Council of Fifty** — la versión pública y articulada de ideas exploradas
+    en ese consejo secreto.
+  - No menciona poligamia (a pesar de publicarse el mismo año que el anuncio
+    público de 1852).
+  - 12 capítulos — obra compacta, buen ratio valor/tamaño.
+
+---
+
+### Leaves from My Journal (Gutenberg #46028)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/leaves-from-my-journal/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Autobiografía abreviada en 28 capítulos extraída de los
+  diarios personales de Wilford Woodruff. 3er libro de la Faith-Promoting
+  Series. Cubre desde infancia en Connecticut (~1807) hasta experiencias
+  espirituales tardías. Narrativa en primera persona con relatos de misiones,
+  milagros, encuentros con Joseph Smith, y experiencias espirituales.
+  ~100 páginas originales.
+- **¿Quién lo produjo?** Wilford Woodruff (autor). Serie editada por
+  George Q. Cannon. Publicado por Juvenile Instructor Office, SLC, 1882.
+- **¿Cuándo?** 1882 (2ª edición en Gutenberg; 1ª vendió 4,000+ copias).
+- **¿Para quién?** Juventud SUD — Faith-Promoting Series "designed for the
+  instruction and encouragement of young Latter-day Saints."
+- **¿Cómo referenciado?** Ampliamente citado. Los diarios de Woodruff son
+  una de las fuentes primarias más importantes ("his elaborate journal has
+  always been one of the principal sources from which the Church history has
+  been compiled"). El Wilford Woodruff Papers Project cataloga esta obra
+  como documento A-23.
+- **Relaciones KG:**
+  - **Personas:** Joseph Smith, Brigham Young, Robert Mason (profeta local
+    de Connecticut — figura única, casi no aparece en otras fuentes),
+    David W. Patten, Warren Parrish, George Q. Cannon
+  - **Eventos:** Campamento de Sión (1834), misiones al sur de EE.UU.,
+    Fox Islands (Maine), investiduras, bautismos
+  - **Lugares:** Connecticut, Kirtland, Missouri, Arkansas, Tennessee,
+    Fox Islands, Memphis
+- **Consideraciones:**
+  - Libro breve (28 caps cortos) — buen ratio valor/tamaño.
+  - Títulos de capítulo muy largos y descriptivos — chapter_pattern debe
+    usar "CHAPTER [ROMAN]" sin los subtítulos.
+  - Devocional, no riguroso históricamente.
+  - Complementa #47703 (biografía completa por Cowley) — este aporta la
+    voz en primera persona y el episodio único de Robert Mason.
+
+---
+
+### Wilford Woodruff, Fourth President (Gutenberg #47703)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/wilford-woodruff-fourth-president/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Biografía exhaustiva en 57 capítulos + 4 apéndices. Subtítulo:
+  "History of His Life and Labors as Recorded in His Daily Journals." Cubre
+  vida completa: nacimiento (1807), genealogía, accidentes juveniles,
+  conversión, Campamento de Sión, misiones (sur EE.UU., Fox Islands, Gran
+  Bretaña), Nauvoo, martirio, éxodo pionero, vida en Utah, presidencia,
+  el Manifiesto (1890), dedicación del Templo de Salt Lake (1893), muerte
+  (1898). Apéndices sobre Sidney Rigdon, discurso a santos británicos,
+  tormenta en Lake Michigan, racionalidad de la Expiación. Estadísticas:
+  172,369 millas viajadas, 7,655 reuniones, 3,526 discursos.
+- **¿Quién lo produjo?** Matthias F. Cowley (editor/compilador), apóstol
+  ordenado por el propio Woodruff en 1897. Publicado en SLC, 1909. Nota:
+  Cowley tuvo sacerdocio suspendido en 1911 (matrimonios plurales post-
+  Manifiesto) y restaurado en 1936 — no fue excomulgado; la disciplina
+  fue posterior a la publicación.
+- **¿Cuándo?** 1909 (11 años tras muerte de Woodruff). Gutenberg: MTP.
+- **¿Para quién?** Miembros SUD. Biografía autorizada — LA referencia
+  biográfica estándar de Woodruff por más de un siglo. Cowley describió a
+  Woodruff como "perhaps, the best chronicler of events in all the history
+  of the Church."
+- **¿Cómo referenciado?** Obra fundamental. Citada extensamente en obras
+  históricas SUD. La Wilford Woodruff Papers Foundation la usa como fuente
+  de referencia. Es para Woodruff lo que la HC es para Joseph Smith.
+- **Relaciones KG — muy alta densidad (91 años documentados):**
+  - **Personas:** Joseph Smith, Hyrum Smith, Brigham Young, John Taylor,
+    Sidney Rigdon, Heber C. Kimball, Parley P. Pratt, Orson Pratt, esposas
+  - **Eventos:** Campamento de Sión (1834), misión a GB (1840-41, 1844-46),
+    martirio (1844), sucesión, partida pioneros (1847), dedicación St.
+    George, muerte de BY (1877), Manifiesto (1890), dedicación SLC Temple
+    (1893)
+  - **Lugares:** Connecticut, Kirtland, Nauvoo, Missouri, Fox Islands, GB,
+    Winter Quarters, SLC, Rich County, St. George, Arizona
+  - Apéndice A sobre Sidney Rigdon — relaciones únicas sobre crisis de
+    sucesión
+- **Consideraciones:**
+  - 57 capítulos + apéndices — libro extenso, ingesta significativa.
+  - Cowley omite y edita material — no es transcripción literal.
+  - Apéndice y material suplementario (esposas, hijos) requieren atención
+    especial en parsing.
+  - **Prioridad sobre #46028:** subsume la mayoría del contenido de *Leaves*
+    con mucho más detalle. Idealmente ambos — *Leaves* aporta la voz directa.
+  - Ingestar juntos como batch.
+
+---
+
+### President Heber C. Kimball's Journal (Gutenberg #47519)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/heber-c-kimball-journal/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Seventh Book of the Faith-Promoting Series. Memoir/journal
+  covering Heber C. Kimball's mission to England (1837-1838) and subsequent
+  events in Missouri and Illinois through 1839. 17 chapters: Ch. I-IX cover
+  the first LDS mission to England (June 1837 – April 1838); Ch. X-XIV cover
+  Missouri persecutions, Far West siege, and expulsion; Ch. XV-XVII cover
+  the second mission departure and supplementary letters. Not a raw diary —
+  Ch. I-X were dictated from memory to Robert B. Thompson in Nauvoo (1840)
+  and published as a pamphlet; Ch. XI-XVII were compiled posthumously by his
+  daughter Helen Mar Whitney from manuscript sources.
+- **¿Quién lo produjo?** Heber C. Kimball (1801-1868), original Apostle and
+  First Presidency counselor. Edited by George C. Lambert (series editor).
+  Published by the Juvenile Instructor Office, Salt Lake City, 1882.
+- **¿Cuándo?** Events: 1837-1839. First publication (pamphlet): 1840 (Nauvoo).
+  This edition: 1882. Gutenberg release: Dec 3, 2014.
+- **¿Para quién?** "Designed for the Instruction and Encouragement of Young
+  Latter-day Saints" — the Faith-Promoting Series was Sunday School youth
+  curriculum material. Accessible, devotional tone.
+- **¿Cómo referenciado?** Widely cited as a primary source for the 1837
+  British Mission — in some cases the only contemporary account of events.
+  Referenced in Church manuals (Lesson 15 of LDS History 1815-1846 Teacher
+  Material). Superseded for scholarly purposes by Stanley Kimball's critical
+  edition *On the Potter's Wheel: The Diaries of Heber C. Kimball* (1987),
+  and by Orson F. Whitney's *Life of Heber C. Kimball* (Gutenberg #35333)
+  which draws heavily on these same sources.
+- **Relaciones KG clave:**
+
+| Entidad | Tipo | Relación |
+|---------|------|----------|
+| Heber C. Kimball | person | `AUTHORED_BY` — author |
+| Brigham Young | person | Traveling companion, fellow apostle |
+| Orson Hyde | person | Co-missionary to England |
+| Joseph Fielding | person | Co-missionary to England |
+| Willard Richards | person | Converted in England, baptized by Kimball |
+| Joseph Smith | person | Called Kimball to mission; imprisoned at Far West |
+| Helen Mar Whitney | person | Daughter, compiled Ch. XI-XVII |
+| George C. Lambert | person | Series editor |
+| Robert B. Thompson | person | Scribe for original 1840 dictation |
+| Preston, England | place | First LDS preaching location in England |
+| Liverpool | place | Port of departure/arrival |
+| Far West, Missouri | place | Siege and betrayal (Ch. XI) |
+| Chatburn / Downham | place | Sites of extraordinary conversion success |
+| British Mission (1837) | event | First LDS mission to England |
+| Battle of Crooked River | event | Ch. X |
+| Missouri Expulsion | event | Ch. XII-XIII |
+
+- **Consideraciones:**
+  - **Not a raw diary** — dictated memoir (Ch. I-X) and posthumous compilation
+    (Ch. XI-XVII). Lacks the immediacy of a daily journal; memory-based
+    accounts may conflate or idealize events.
+  - **Faith-Promoting editorial lens** — the series was devotional youth
+    literature; tone is inspirational rather than critical-historical.
+  - **Complements Gutenberg #35333** — Whitney's *Life of Heber C. Kimball*
+    is the full biography that draws on this journal plus other sources.
+    Ingesting both creates rich cross-reference opportunities.
+  - **Kimball was barely literate** — his diaries have unique spelling and
+    grammar; the 1882 edition is editorially polished.
+  - **KG density:** High for British Mission events and Missouri persecutions.
+    Many entities already in gazetteers from History of the Church volumes.
+
+---
+
+### William Clayton's Journal (Gutenberg #45051)
+
+**Estado:** `researched` | authority=40 | Corpus path: `corpus/en/books/william-clayton-journal/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Daily record of the Mormon pioneer exodus from Nauvoo, Illinois
+  to the Salt Lake Valley. Covers February 1846 through October 1847.
+  Organized chronologically by daily entries. Documents the Iowa crossing
+  (Feb-June 1846), Winter Quarters (1846-47), and the vanguard pioneer
+  company trek (April-October 1847). Clayton meticulously recorded distances
+  traveled, weather, geography, wildlife, camp organization, and social
+  dynamics. This is the 1921 edition — the first published version, covering
+  only the pioneer trek journal. Clayton kept other journals (Nauvoo diaries
+  1842-1846) that are NOT included in this edition.
+- **¿Quién lo produjo?** William Clayton (1814-1879), English convert,
+  secretary to Joseph Smith (from Feb 1842), scribe, record-keeper. Edited
+  by Lawrence Clayton (grandson, trustee of the Clayton Family Association).
+  Introduction by Levi Edgar Young (of the First Council of the Seventy).
+  Produced electronically by the Mormon Texts Project.
+- **¿Cuándo?** Events: Feb 1846 – Oct 1847. Published: 1921 by the Clayton
+  Family Association (Salt Lake City). Gutenberg release: March 2, 2014.
+  Editor acknowledged it was a somewhat hasty first edition prepared for
+  family distribution on Clayton's birthday (July 17).
+- **¿Para quién?** Originally for Clayton Family Association members and those
+  interested in pioneer-era Western history. Now a standard primary source
+  for LDS historians and general students of the westward migration.
+- **¿Cómo referenciado?** One of the most important primary sources for the
+  1847 pioneer trek. Cited extensively in LDS scholarship. Clayton's Nauvoo
+  journals (NOT in this edition) were used as a source for Joseph Smith's
+  History of the Church and for D&C 132 (Clayton was the scribe when Joseph
+  Smith dictated the revelation on plural marriage, July 12, 1843). The
+  complete journals were published as *An Intimate Chronicle: The Journals
+  of William Clayton* (ed. George D. Smith, Signature Books, 1991/1995) —
+  that edition covers 1840-1879 and reveals ~50% of the pioneer journal was
+  omitted or condensed in the 1921 family edition. A full critical edition
+  of the Nauvoo journals is planned by Joseph Smith Papers editors (Yale
+  University Press, expected ~2026).
+- **Relaciones KG clave:**
+
+| Entidad | Tipo | Relación |
+|---------|------|----------|
+| William Clayton | person | `AUTHORED_BY` — author |
+| Brigham Young | person | Appointed Clayton as company historian |
+| Joseph Smith | person | Clayton's employer/prophet (Nauvoo period, pre-journal) |
+| Heber C. Kimball | person | Fellow pioneer in vanguard company |
+| Levi Edgar Young | person | Wrote introduction |
+| Lawrence Clayton | person | Editor (grandson) |
+| Nauvoo, Illinois | place | Point of departure |
+| Winter Quarters | place | Winter camp 1846-47 |
+| Salt Lake Valley | place | Destination, arrival July 1847 |
+| Council Bluffs / Kanesville | place | Staging area |
+| "Come, Come, Ye Saints" | work | Hymn written by Clayton, April 1846, during Iowa crossing |
+| Pioneer Odometer / Roadometer | object | Designed by Clayton, first used May 12, 1847 |
+| Latter-Day Saints' Emigrants' Guide | work | Published by Clayton after trek, based on odometer data |
+| Council of Fifty | organization | Clayton was secretary (Nauvoo period) |
+| Pioneer Trek 1847 | event | Core subject of the journal |
+| D&C 132 | scripture | Clayton was scribe (Nauvoo, not in this journal) |
+
+- **Consideraciones:**
+  - **1921 family edition is incomplete** — George D. Smith's collation shows
+    ~50% of entries were condensed or omitted. The family may have removed
+    sensitive content (polygamy references, internal conflicts). For corpus
+    purposes, this is still a valuable primary source but users should be
+    aware it is not the full text.
+  - **Pioneer journal only** — Clayton's more historically explosive Nauvoo
+    diaries (1842-1846), which document Joseph Smith's personal life,
+    polygamy, the Council of Fifty, and temple ordinances, are NOT in this
+    edition. Those are in *An Intimate Chronicle* (copyrighted, not available).
+  - **Unique historical contributions:** Clayton invented the pioneer
+    odometer (roadometer) and wrote "Come, Come, Ye Saints" — both documented
+    in this journal. His distance measurements became the basis for the
+    *Emigrants' Guide*.
+  - **Clayton as bureaucrat, not leader** — his perspective is that of a
+    "faithful follower and veritable workhorse," providing ground-level
+    detail that leaders' accounts often lack.
+  - **KG density:** Very high for pioneer trek entities (places, distances,
+    dates, camp dynamics). Moderate overlap with other pioneer narratives
+    already in corpus.
+
+---
+
+### Biography and Family Record of Lorenzo Snow (Gutenberg #47708)
+
+**Estado:** `backlog` — requiere script Gutenberg | authority=40 | Corpus path: `corpus/en/biographies/lorenzo-snow-biography/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Biografía de Lorenzo Snow (1814–1901), quinto presidente de
+  la Iglesia, escrita y compilada por su hermana Eliza R. Snow Smith.
+  63 capítulos (numerados en romano I–LXIII) + genealogía familiar + 14
+  cartas de Lorenzo desde su misión en Palestina. Subtítulo completo: "One
+  of the Twelve Apostles of the Church of Jesus Christ of Latter-day Saints."
+  Cubre desde el nacimiento y linaje familiar, conversión, misiones
+  (Inglaterra, Italia, Hawái, Palestina), apostolado, vida en Utah, y
+  registro genealógico extenso de esposas, hijos y nietos. ~200K palabras.
+- **¿Quién lo produjo?** Eliza R. Snow Smith (1804–1887). Segunda presidenta
+  general de la Sociedad de Socorro (1880–1887), poetisa prolífica (~500
+  poemas, incluyendo "Oh mi Padre"/"O My Father"), esposa plural de Joseph
+  Smith (sellada en junio de 1842) y luego de Brigham Young. Una de las
+  mujeres más influyentes del mormonismo del siglo XIX. Publicado por
+  Deseret News Company, Salt Lake City, 1884.
+- **¿Cuándo?** 1884, cuando Lorenzo tenía 70 años y era apóstol (aún no
+  presidente — asumió en 1898). Eliza murió en 1887, tres años después
+  de la publicación.
+- **¿Para quién?** Familia Snow y miembros SUD. El prólogo indica que fue
+  concebida como "tribute of sisterly affection" y "family Memorial" para
+  ser "handed down in lineal descent from generation to generation."
+- **¿Cómo referenciado?** Fuente primaria ampliamente citada en estudios
+  sobre Lorenzo Snow. Disponible en Archive.org, Wikisource, HathiTrust,
+  Joseph Smith Foundation. Es la principal fuente biográfica sobre Lorenzo
+  Snow anterior al siglo XX. Menos conocida que la autobiografía de Parley
+  P. Pratt pero igualmente valiosa como fuente primaria.
+- **Relaciones KG — alta densidad:**
+  - **Personas:** Lorenzo Snow, Eliza R. Snow, Oliver Snow (padre),
+    Rosetta Snow (madre), Brigham Young, Joseph Smith, David W. Patten,
+    Heber C. Kimball, Franklin D. Richards, Warren Parrish (apostasía),
+    y toda la familia Snow extendida (cap. LXIII)
+  - **Eventos:** Conversión en Kirtland, Gran Apostasía (1837-38, cap. IV —
+    "disaffection in every Quorum, pride and speculation, apostates
+    claiming the Temple, Warren Parrish as ringleader"), misión a
+    Inglaterra, apertura de la misión en Italia, misión a Palestina,
+    migración pionera, cooperativa de Brigham City
+  - **Lugares:** Mantua (Ohio), Kirtland, Nauvoo, Salt Lake City, Italia
+    (Piamonte), Palestina/Tierra Santa, Hawái, Brigham City, Oberlin
+    College (educación pre-conversión)
+  - **Relaciones familiares:** Cap. LXIII contiene registro genealógico
+    extenso — esposas, hijos, nietos, yernos/nueras, hijos de Mary
+    Adaline por primer matrimonio — fuente rica para edges `FAMILY_OF`,
+    `MARRIED_TO`, `PARENT_OF`
+
+**Valor KG único:**
+
+| Relación | from | to | Fuente |
+|----------|------|----|--------|
+| `SIBLING_OF` | Eliza R. Snow | Lorenzo Snow | Biográfico — hermana mayor |
+| `MARRIED_TO` | Eliza R. Snow | Joseph Smith | Cap. biográfico — sellada 1842 |
+| `MARRIED_TO` | Eliza R. Snow | Brigham Young | Post-martirio |
+| `MISSION_TO` | Lorenzo Snow | Italy | Primera misión SUD a Italia (Piamonte) |
+| `MISSION_TO` | Lorenzo Snow | Palestine | 14 cartas en apéndice |
+| `MISSION_TO` | Lorenzo Snow | Hawaii | Misión 1864, ~3 meses |
+| `PRESIDED_OVER` | Lorenzo Snow | Brigham City | Comunidad cooperativa modelo |
+| `CONVERTED_BY` | Lorenzo Snow | David W. Patten | Cap. I — primer contacto con el evangelio |
+| `STUDIED_AT` | Lorenzo Snow | Oberlin College | Cap. I — estudios pre-conversión |
+| `AUTHORED` | Eliza R. Snow | "O My Father" | Contexto biográfico de la poetisa |
+
+**Entidades nuevas para gazetteer:** Oliver Snow, Rosetta Snow, Brigham City
+(como comunidad cooperativa), Warren Parrish (si no existe)
+
+**Consideraciones:**
+- **Perspectiva:** 100% interna/devocional. Escrita por hermana del sujeto,
+  líder prominente SUD. Tono hagiográfico — presenta a Lorenzo como modelo
+  de virtud y fe. No hay pretensión de objetividad: es un tributo familiar.
+- **Authority override:** authority=40 — biografía por figura prominente SUD,
+  publicada por Deseret News (imprenta oficial de la Iglesia). No es manual
+  ni escritura, pero es fuente primaria de alto valor histórico.
+- **Estructura para parser:** 63 capítulos en romano (I–LXIII) + "Brief
+  Biography" + "Fourteen Letters" (Palestina). El skill `/gutenberg`
+  debería manejar la división por capítulos. Las cartas van como capítulos
+  adicionales o como apéndice.
+- **Valor diferencial vs. corpus existente:** Única biografía en el corpus
+  escrita por una mujer sobre un profeta. Perspectiva femenina SUD del
+  siglo XIX. Complementa las conferencias de Lorenzo Snow (ya en corpus
+  vía General Conference) con contexto biográfico y familiar.
+
+---
+
+### The Story of the Mormons, from the Date of Their Origin to the Year 1901 (Gutenberg #2443)
+
+**Estado:** `backlog` — requiere script Gutenberg | authority=20 | Corpus path: `corpus/en/books/story-of-the-mormons/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Historia comprensiva del movimiento mormón desde sus orígenes
+  hasta 1901. 637 páginas (xxv + 637 p.), organizada en 6 "Books" con
+  ~54 capítulos totales:
+  - **Book I — The Mormon Origin** (7 caps): familia Smith, money-digging,
+    anuncio de la "Golden Bible", diferentes relatos de la revelación,
+    traducción y publicación, doctrinas y gobierno eclesiástico
+  - **Book II — In Ohio** (6 caps): primeros conversos en Kirtland, dones
+    de lenguas y milagros, crecimiento, empresas comerciales de Smith,
+    últimos días en Kirtland
+  - **Book III — In Missouri** (6 caps): asentamiento en Sión, primera
+    visita de Smith a Missouri, expulsión de Jackson County, Ejército de
+    Sión, condados de Clay/Caldwell/Daviess, danitas y diezmo
+  - **Book IV — In Illinois** (15 caps): recepción, asentamiento de Nauvoo,
+    proselitismo extranjero, gobierno municipal, política, candidatura
+    presidencial de Smith, condiciones sociales, ruptura con Bennett y
+    Higbee, institución de la poligamia, anuncio público de la doctrina,
+    supresión del Expositor, levantamiento, arresto y asesinato del profeta
+  - **Book V — The Migration to Utah** (~8 caps): preparativos para la
+    marcha, del Mississippi al Missouri, Batallón Mormón, campamentos en
+    el Missouri, viaje pionero, llegada al Valle de Salt Lake, compañías
+    posteriores
+  - **Book VI — In Utah** (~12 caps): fundación de SLC, progreso del
+    asentamiento, inmigración extranjera, tragedia de los carros de mano,
+    historia política temprana, conflictos con el gobierno federal, fin
+    de la poligamia, statehood
+  Incluye mapas e ilustraciones en la edición original.
+- **¿Quién lo produjo?** William Alexander Linn (1846–1917). Periodista
+  estadounidense, graduado de Phillips Academy (Andover) y Yale (1868,
+  class poet). Staff del New York Tribune, luego managing editor del New
+  York Evening Post (1891–1900) — considerado "almost unique in the
+  journalism of that time" por la fiabilidad de su trabajo. Se retiró
+  del periodismo en 1900 para dedicarse a la escritura. También publicó
+  "Horace Greeley, Founder and Editor of the New York Tribune" (1903).
+  Admitido al bar de Nueva York en 1883. No era miembro SUD. Publicado
+  por Macmillan, New York, 1902.
+- **¿Cuándo?** 1902, un año después de la muerte de Lorenzo Snow y el
+  inicio de la presidencia de Joseph F. Smith. Cubre hasta el statehood
+  de Utah (1896) y el Manifiesto (1890).
+- **¿Para quién?** Público general estadounidense educado. Linn buscaba
+  presentar una "consecutive history" secular, basada mayormente en fuentes
+  mormonas primarias pero filtrada por su perspectiva periodística.
+- **¿Cómo referenciado?** Considerada una de las primeras historias serias
+  del mormonismo por un no-miembro. La Millennial Star (reseña moderna)
+  la describe como "the first attempt to seriously consider the Mormon
+  religion and culture" desde fuera. Todavía citada en bibliografías de
+  Mormon studies como referencia de época. Sin embargo, la recepción es
+  mixta: Linn era consciente de que fuentes anti-mormonas exageran, pero
+  no logró mantener distancia crítica consistente — terminó aceptando
+  demasiadas fuentes hostiles al pie de la letra. El tono es "clearly
+  quite hostile to the church" aunque no es panfletario.
+- **Relaciones KG — altísima densidad (historia completa):**
+  - **Personas:** Joseph Smith Sr., Joseph Smith Jr., Brigham Young, Sidney
+    Rigdon, Oliver Cowdery, Martin Harris, Parley P. Pratt, Orson Pratt,
+    John C. Bennett, Lilburn Boggs, Thomas L. Kane, John Taylor, Wilford
+    Woodruff, Lorenzo Snow, Joseph F. Smith, Warren Parrish, William Law
+  - **Eventos:** Primera Visión (versión crítica), traducción del Libro de
+    Mormón, money-digging, organización de la Iglesia, Ejército de Sión,
+    expulsión de Missouri, Orden de Exterminio, fundación de Nauvoo,
+    candidatura presidencial de Smith 1844, destrucción del Nauvoo
+    Expositor, martirio, migración pionera, Batallón Mormón, tragedia
+    de los carros de mano, Guerra de Utah (1857), Mountain Meadows,
+    Manifiesto de 1890, statehood de Utah 1896
+  - **Lugares:** Palmyra, Fayette, Kirtland, Independence, Far West,
+    Adam-ondi-Ahman, Haun's Mill, Nauvoo, Council Bluffs, Winter Quarters,
+    Salt Lake City, St. George, Camp Floyd
+  - **Temas doctrinales (perspectiva externa):** poligamia (extenso),
+    gobierno teocrático, diezmo, danitas, bautismo por los muertos,
+    endowment, profecía y revelación
+
+**Valor KG único:**
+
+| Relación | from | to | Fuente |
+|----------|------|----|--------|
+| `NARRATES_EVENT` | Linn (obra) | Expulsion from Jackson County | Book III |
+| `NARRATES_EVENT` | Linn (obra) | Zion's Camp (Army of Zion) | Book III |
+| `NARRATES_EVENT` | Linn (obra) | Danite organization | Book III — perspectiva externa detallada |
+| `NARRATES_EVENT` | Linn (obra) | Smith presidential campaign 1844 | Book IV |
+| `NARRATES_EVENT` | Linn (obra) | Nauvoo Expositor suppression | Book IV |
+| `NARRATES_EVENT` | Linn (obra) | Martyrdom of Joseph Smith | Book IV |
+| `NARRATES_EVENT` | Linn (obra) | Mormon Battalion march | Book V |
+| `NARRATES_EVENT` | Linn (obra) | Handcart tragedy | Book VI |
+| `NARRATES_EVENT` | Linn (obra) | Utah War 1857 | Book VI |
+| `AUTHORED_BY` | Story of the Mormons | William Alexander Linn | Macmillan 1902 |
+
+**Entidades nuevas para gazetteer:** William Alexander Linn (autor externo),
+John C. Bennett (si no existe), Nauvoo Expositor (evento/entidad), William
+Law (disidente Nauvoo)
+
+**Consideraciones:**
+- **Perspectiva:** Externa/secular con sesgo hostil. Linn era consciente de
+  que las fuentes anti-mormonas exageran, pero no logró filtrar consistente-
+  mente. Presenta la historia como fenómeno sociológico, no como narrativa
+  de fe. Trata a Joseph Smith con escepticismo sostenido (lo presenta como
+  money-digger, autocrat). Los capítulos sobre poligamia son los más extensos
+  del libro (Book IV) y cargan con la moral victoriana de la época.
+- **Authority override:** authority=20 — perspectiva externa, sin revisión
+  eclesiástica, sesgo documentado. Valor principal: es la narrativa externa
+  más completa del mormonismo del siglo XIX, útil para contrastar con fuentes
+  internas (B.H. Roberts HC, Lucy Mack Smith, etc.).
+- **⚠️ Nota editorial para RAG:** Contiene afirmaciones sobre money-digging,
+  danitas, poligamia y carácter de Joseph Smith que reflejan fuentes hostiles
+  no verificadas independientemente. El RAG debe contextualizar cualquier
+  cita con el nivel de autoridad (20) y la perspectiva del autor. Nunca
+  presentar afirmaciones de Linn como dato factual sin contrastar con
+  fuentes internas de mayor autoridad.
+- **Estructura para parser:** 6 Books con capítulos titulados (títulos
+  descriptivos largos, no numeración simple). El skill `/gutenberg`
+  necesitará manejo de la jerarquía Book > Chapter — los capítulos podrían
+  mapearse como `book-i-ch-01-facility-of-human-belief.txt` o similar.
+  ~54 capítulos totales.
+- **Valor diferencial vs. corpus existente:** Única historia completa del
+  mormonismo desde perspectiva externa secular en el corpus. Contrabalanza
+  las fuentes internas (HC de Roberts, Missouri Persecutions, Rise and Fall
+  of Nauvoo). Permite al RAG responder preguntas como "¿cómo veían los
+  no-mormones a la Iglesia en 1900?" con fuente primaria.
+
+---
+
+### Early Scenes in Church History (Gutenberg #46783)
+
+**Estado:** `researched` | authority=35 | Corpus path: `corpus/en/books/early-scenes-church-history/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Colección de relatos de primera mano sobre experiencias
+  milagrosas y fe en la Iglesia temprana. Octavo libro de la Faith-Promoting
+  Series (17 volúmenes, 1879-1915). Contiene testimonios personales de
+  curaciones, protecciones divinas, don de lenguas, expulsión de espíritus
+  malignos, y cumplimiento de profecías. NO es historia analítica — es
+  literatura devocional testimonial con relatos autobiográficos organizados
+  por autor, cada una con sub-capítulos propios.
+- **¿Quién lo produjo?** Autores múltiples: B.F. Johnson, A.O. Smoot,
+  Elias Morris, John Parry, John T. Evans, Thomas D. Giles, William J. Smith,
+  Martin H. Peck, Philo Dibble, entre otros. Editado por George C. Lambert
+  bajo la supervisión de George Q. Cannon (consejero de la Primera Presidencia).
+  Publicado por Juvenile Instructor Office, Salt Lake City.
+- **¿Cuándo?** 1882. La serie completa abarca 1879-1915.
+- **¿Para quién?** "Designed for the Instruction and Encouragement of Young
+  Latter-Day Saints." Audiencia juvenil SUD — Cannon quería libros que
+  enseñaran fe y principios del evangelio de forma entretenida para jóvenes.
+- **¿Cómo referenciado?** No ampliamente citado individualmente, pero la
+  Faith-Promoting Series como conjunto es reconocida en historiografía SUD.
+  Mormon Texts Project digitalizó los 17 volúmenes completos (2015).
+  El relato de Philo Dibble es una fuente primaria citada ocasionalmente
+  en obras sobre la Guerra de Missouri y Zion's Camp.
+- **Relaciones KG clave:**
+
+| Entidad | Tipo | Relación |
+|---------|------|----------|
+| George Q. Cannon | person | Series supervisor, First Presidency counselor |
+| George C. Lambert | person | Series editor |
+| A.O. Smoot | person | Author — 4 chapters covering missionary work, Far West, exile |
+| Philo Dibble | person | Author — 4 chapters covering Kirtland, Missouri, Nauvoo |
+| David W. Patten | person | Prophetic healing gifts, mentioned across multiple accounts |
+| Wilford Woodruff | person | Smoot's missionary companion |
+| Joseph Smith | person | Central figure in Dibble's narrative |
+| Sidney Rigdon | person | Mentioned in Dibble's Kirtland account |
+| Brigham Young | person | Dibble's account of succession |
+| Elias Morris | person | Author — British Mission, scaffold fall miracle |
+| Abel Evans | person | British Mission — gift of healing |
+| Far West, Missouri | place | Siege and imprisonment (Smoot, Dibble) |
+| Kirtland, Ohio | place | Early manifestations (Dibble) |
+| Nauvoo, Illinois | place | Final chapters of Dibble's narrative |
+| Winter Quarters | place | Smoot's account |
+| Wales / Cornwall | place | British Mission chapters |
+| Missouri War 1838 | event | Covered by both Smoot and Dibble |
+| Zion's Camp | event | Dibble's narrative |
+| British Mission (1840s) | event | Morris, Evans, Parry chapters |
+
+- **Consideraciones:**
+  - **Estructura irregular** — no capítulos numerados secuenciales sino
+    secciones por autor, cada una con sub-capítulos propios. El splitter
+    debe respetar la jerarquía autor > capítulo.
+  - **Contenido anecdótico-testimonial**, no doctrinal ni analítico.
+    No genera relaciones causales fuertes pero sí enlaces persona-evento
+    y persona-lugar de alta densidad.
+  - **Superposición parcial** con History of the Church (HC) y Missouri
+    Persecutions (Roberts) para los mismos eventos, pero desde perspectiva
+    de participantes individuales (no del historiador).
+  - **Complementa directamente** #51730 (Life of David W. Patten) — A.O.
+    Smoot relata experiencias con Patten, y Dibble cubre los mismos eventos
+    de Missouri desde otra perspectiva.
+  - **Parte de la Faith-Promoting Series** junto con Heber C. Kimball's
+    Journal (#47519, ya analizado arriba). Comparte editor (Lambert),
+    publisher (Juvenile Instructor Office), y audiencia (jóvenes SUD).
+  - **Valor KG principal:** testimonios de primera mano de personas menores
+    que no tienen otra biografía en el corpus (Dibble, Morris, Evans, Giles).
+
+**Estructura detallada (~15 secciones/capítulos):**
+1. "Show Us a Sign" ��� B.F. Johnson (curación milagrosa, escepticismo)
+2. "Contest with Evil Spirits" — H.G.B. (posesión demoniaca, Virginia)
+3. "Early Experience of A.O. Smoot" — Ch. I-IV (misión con Woodruff,
+   Far West, prisión, éxodo, misión a Tennessee, martirio de JS)
+4. "Scenes in the British Mission" — Ch. I-IV (Morris scaffold fall,
+   Evans healing gifts, Parry Welsh mission, Evans cholera/conversions)
+5. "Remarkable Healings" — Martin H. Peck (curaciones múltiples)
+6. "Philo Dibble's Narrative" — Ch. I-IV (Kirtland manifestations,
+   personal shooting at Haun's Mill, Far West siege/betrayal, Nauvoo
+   prophecies of Joseph Smith)
+7. Thomas D. Giles (ch. VI) — coal crushing injury, miraculous healing
+8. William J. Smith (ch. VII) — prophecy and fulfillment
+
+---
+
+### Life of David W. Patten, the First Apostolic Martyr (Gutenberg #51730)
+
+**Estado:** `researched` | authority=35 | Corpus path: `corpus/en/books/life-of-david-w-patten/`
+
+#### Fase 0 — Análisis de contenido
+
+- **¿Qué es?** Biografía completa de David W. Patten (1799-1838), miembro
+  original del Quórum de los Doce Apóstoles y primer apóstol martirizado
+  en esta dispensación. 8 capítulos cubriendo su vida completa: juventud,
+  conversión metodista, bautismo (1832), misiones, ordenación apostólica
+  (1835), liderazgo en Missouri, designación como "Captain Fear Not",
+  y muerte en la Batalla de Crooked River (25 oct 1838). Formato
+  narrativo-biográfico con testimonios de terceros y citas de fuentes
+  primarias. Incluye prefacio de Lorenzo Snow. ~139 KB texto plano.
+- **¿Quién lo produjo?** Lycurgus A. Wilson (1856-1940), autor y filósofo
+  SUD (también escribió "Outlines of Mormon Philosophy", Gutenberg #49357).
+  No fue Autoridad General. Contribuyeron: Thomas Jefferson Patten (sobrino
+  del apóstol), Wilford Woodruff, Lorenzo Snow. Prefacio de Lorenzo Snow
+  (entonces presidente de la Iglesia), quien relata un viaje a caballo
+  de 25 millas con Patten que fue "the turning point" en su vida espiritual.
+  Publicado por Deseret News, Salt Lake City.
+- **¿Cuándo?** 1900 (prefacio fechado 8 feb 1900; publicación efectiva 1904).
+  Producción Gutenberg por Christopher Dunn (Mormon Texts Project Intern),
+  release 11 abr 2016.
+- **¿Para quién?** Miembros SUD interesados en historia de la Iglesia
+  temprana y los primeros apóstoles. Dedicado "to the missionaries of
+  the Church of Jesus Christ of Latter-day Saints."
+- **¿Cómo referenciado?** Fuente primaria estándar sobre David W. Patten —
+  prácticamente la única biografía dedicada a él. Citado en el Religious
+  Studies Center de BYU, en Doctrine and Covenants Central, y en artículos
+  del Church News y Deseret News sobre Patten. La frase de Joseph Smith
+  sobre su muerte ("There lies a man who has done just as he said he would
+  — he has laid down his life for his friends") se cita frecuentemente
+  en conferencia general y materiales de la Iglesia.
+- **Relaciones KG clave:**
+
+| Entidad | Tipo | Relación |
+|---------|------|----------|
+| David W. Patten | person | `SUBJECT_OF` — biography subject |
+| Lycurgus A. Wilson | person | `AUTHORED_BY` — author |
+| Lorenzo Snow | person | Wrote preface; personal testimony of Patten's influence |
+| Wilford Woodruff | person | Contributed testimony; missionary companion |
+| Abraham O. Smoot | person | Missionary companion to Patten |
+| Joseph Smith | person | Called Patten to missions; eulogized him at death |
+| Thomas B. Marsh | person | Co-president pro tempore in Missouri with Patten |
+| Oliver Cowdery | person | Ordained Patten as Apostle (with Whitmer, Harris) |
+| David Whitmer | person | Ordained Patten as Apostle |
+| Martin Harris | person | Ordained Patten as Apostle |
+| Samuel Bogart | person | Ray County militia captain at Crooked River |
+| Thomas Jefferson Patten | person | Nephew, contributed source material |
+| Theresa, New York | place | Birthplace of Patten |
+| Far West, Missouri | place | Headquarters; Patten's base 1836-1838 |
+| Adam-ondi-Ahman | place | Ch. VII — Patten's address to Saints |
+| Kirtland, Ohio | place | Temple endowments, apostolic ordination |
+| Paris, Tennessee | place | Missionary field, prophecy |
+| Crooked River, Missouri | place | Battle site, mortal wounding |
+| D&C 114 | scripture | Revelation calling Patten to mission (Apr 1838) |
+| D&C 124:130 | scripture | Posthumous memorial (Jan 1841) |
+| Battle of Crooked River | event | 25 Oct 1838 — Patten's death |
+| Apostolic Ordination 1835 | event | Original Quorum of Twelve |
+| Missouri War 1838 | event | Context for Patten's martyrdom |
+| Extermination Order | event | Precipitated by Crooked River battle |
+
+- **Consideraciones:**
+  - **Alta densidad KG para obra corta** (8 capítulos, ~139 KB). Cada
+    capítulo conecta múltiples personas y eventos del periodo 1832-1838.
+  - **Enlace causal critico para el KG:** la muerte de Patten en Crooked
+    River fue el evento que precipitó la Orden de Exterminio de Boggs
+    (CAUSED_BY / PRECEDED_BY).
+  - **Superposición significativa** con History of the Church vols 2-3 y
+    Missouri Persecutions (Roberts) para 1835-1838, pero desde la
+    perspectiva específica de Patten.
+  - **Prefacio de Lorenzo Snow** valioso por derecho propio: testimonio
+    personal de un futuro profeta sobre el impacto espiritual de un apóstol.
+  - **Wilson no es historiador de primer nivel** (no es Roberts ni Cannon),
+    pero la obra fue avalada por Lorenzo Snow como presidente de la Iglesia.
+  - **Complementa directamente** Early Scenes (#46783) — A.O. Smoot relata
+    experiencias con Patten en ese libro. Ingestar ambos juntos maximiza
+    las conexiones cruzadas.
+  - **Wilson también escribió** "Outlines of Mormon Philosophy" (#49357) —
+    perfil de autor filosófico-devocional, no historiográfico.
+  - **Capítulo 5 contiene** el encuentro de Patten con Caín — relato
+    legendario frecuentemente citado en folklore SUD. Requiere nota de
+    contexto (no es doctrina oficial).
+
+**Estructura (8 capítulos):**
+1. Early life, parentage, Methodism, Gospel discovery, baptism (1832), first mission
+2. Healing practices, visit to Prophet Joseph, missionary labors, family baptism, move to Missouri
+3. Missouri Saints' conditions, revelation, Tennessee mission, healing testimonies
+4. Apostolic ordination (Feb 1835), revelation to the Twelve, Lorenzo Snow impressions
+5. Rest, Kirtland temple endowments, second Tennessee mission, Woodruff/Smoot meetings, mob court, Cain encounter
+6. Physical appearance, healing incidents, Paris TN prophecy, Far West, Kirtland apostasy visit, Missouri presidency succession
+7. Adam-ondi-Ahman, "Captain Fear Not," storm calming, succession to presidency of the Twelve
+8. Battle of Crooked River, mortal wounding, death scene, Woodruff's testimony, Joseph Smith's eulogy
+
+---
+
 ## Tier EXT — Diccionarios bíblicos clásicos (authority=15-20, external reference)
 
 > Obras de referencia protestantes del siglo XIX, dominio público.

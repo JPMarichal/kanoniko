@@ -25,6 +25,7 @@
 - [reference_citation_norms.md](reference_citation_norms.md) — Formal citation norms in docs/citation-norms.md: scriptures, TG/BD/GEE/JST, intros, conference, FCD format
 - [feedback_citation_style.md](feedback_citation_style.md) — Citations always inline/parenthetical (never isolated line); GA titles use highest known rank
 - [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
+- [feedback_docker_engine.md](feedback_docker_engine.md) — NEVER use plain docker from Windows for Alejandría; always wsl -d Ubuntu-20.04
 - [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
 - [feedback_batch_neo4j.md](feedback_batch_neo4j.md) — Always batch Neo4j writes (UNWIND); individual calls = 19h, batched = 30min
 - [feedback_bilingual_dedup.md](feedback_bilingual_dedup.md) — Report unique counts, not EN+ES sum; 50 bilingual records = 25 unique items
@@ -61,3 +62,4 @@
 - [project_disambiguation_depth.md](project_disambiguation_depth.md) — P7: three disambiguation levels + generative syntactic patterns (19 EN/ES) + gazetteer cleanup (2805→2671)
 - [reference_mtp_workflow.md](reference_mtp_workflow.md) — MTP-first workflow: check Mormon Texts Project before archive.org; skill `/book-discovery` codifies the process
 - [feedback_solera_403.md](feedback_solera_403.md) — No WebFetch a mormontextsproject.org: proxy Solera lo bloquea; usar WebSearch o bookshelf de Gutenberg
+- [feedback_source_citations_fcd.md](feedback_source_citations_fcd.md) — Citar fuentes en FCD bibliográfico, no rutas de archivo del corpus
