@@ -96,6 +96,18 @@ Group books by source and download method:
 3. Verify chapter count matches expected TOC
 4. Commit per batch (group by author or source)
 
+## Step 8 — Update Status
+
+After successful download + indexing:
+1. Move item from `proj/P4-corpus-expansion/04-backlog.md` → `03-corpus-inventory.md`
+2. Fase 0 analysis in `fase0/` stays as permanent reference
+
+**P4 file structure:**
+- `proj/P4-corpus-expansion/03-corpus-inventory.md` — what's ingested
+- `proj/P4-corpus-expansion/04-backlog.md` — what's pending + priorities
+- `proj/P4-corpus-expansion/05-source-registry.md` — source catalogs (RSC, Gutenberg, BYU Studies)
+- `proj/P4-corpus-expansion/fase0/{slug}.md` — Fase 0 analysis (write here BEFORE downloading)
+
 ## Known Gotchas
 
 - **MTP proxy block:** mormontextsproject.org is blocked by Solera proxy. Use WebSearch instead of WebFetch.

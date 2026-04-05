@@ -30,6 +30,8 @@ This step prevents superficial authority assignment based on titles alone. A doc
 
 **How to do it:** Web search for Church Newsroom announcements, reviews, scholarly references, usage in curriculum. Look for who announced it, in what setting, and how it's been received. For well-known manuals, general knowledge may suffice. For unfamiliar materials, the research is essential.
 
+**Deliverable:** Write a Fase 0 analysis file in `proj/P4-corpus-expansion/fase0/{slug}.md` covering the above points plus KG relationships. This file is the verifiable proof that the gate was passed.
+
 **Anti-pattern (learned the hard way):** Verifying URL slugs and counting TOC entries is NOT research — that's technical preparation for step 5. Research means understanding the *nature, purpose, and weight* of the material. Without it, authority values are guesses, tags are superficial, and KG pre-seeds miss important relationships.
 
 ## 3. Authority level
@@ -74,6 +76,19 @@ This step prevents superficial authority assignment based on titles alone. A doc
 - Launch `POST /index/ingest` with the prepared paths list from step 7 and the KG pre-seeded from step 4.
 - **Never** run full reindex for additions.
 - Alejandría runs on the native Docker Engine in Ubuntu WSL (NOT Rancher Desktop).
+
+## 9. Update status
+
+After successful indexing:
+- Move the item from `04-backlog.md` to `03-corpus-inventory.md` (add a row in the appropriate table).
+- Remove or mark as complete in `04-backlog.md`.
+- The Fase 0 analysis in `fase0/` stays as permanent reference — no changes needed.
+
+**File locations (P4 corpus expansion):**
+- `proj/P4-corpus-expansion/03-corpus-inventory.md` — what's ingested (inventory)
+- `proj/P4-corpus-expansion/04-backlog.md` — what's pending (active work)
+- `proj/P4-corpus-expansion/05-source-registry.md` — source catalogs (RSC, Gutenberg, BYU Studies)
+- `proj/P4-corpus-expansion/fase0/{slug}.md` — Fase 0 analysis per material (permanent reference)
 
 **Why:** The user corrected placement of the Family Proclamation (was going into scriptures/dc/official-declarations, should be proclamations/). Every document's canonical status and authority level must be considered before placement. Authority levels were being assigned superficially from titles — e.g., "The Charted Course" got authority=65 without knowing it's a foundational 1938 J. Reuben Clark address that defines S&I philosophy.
 

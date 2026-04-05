@@ -40,7 +40,7 @@ before any NER/gazetteer extraction. This ensures:
 
 When preparing a new corpus material:
 1. Research the content and identify key entities and relations
-2. Document them in `03-materials-backlog.md` under the material's KG section
+2. Document them in a Fase 0 file: `proj/P4-corpus-expansion/fase0/{slug}.md`
 3. Create a seed file here encoding the machine-readable form of that analysis
 4. Run `POST /index/rebuild-kg` to apply seeds + re-extract NER
 
