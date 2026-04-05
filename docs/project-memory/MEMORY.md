@@ -71,4 +71,5 @@
 - [feedback_symbol_vs_doctrine_mapping.md](feedback_symbol_vs_doctrine_mapping.md) — Not every biblical symbol maps to Restoration doctrine — verify connection before citing (key of David ≠ priesthood keys)
 - [feedback_forma_t_architecture.md](feedback_forma_t_architecture.md) — Formas T interweave across collections; exhaustive research is prerequisite, not optional
 - [feedback_corpus_as_commentary.md](feedback_corpus_as_commentary.md) — Corpus as scripture commentary: conference talks, Talmage, study aids (GEE/TG/BD) must be leveraged by topic
-- [project_covenant_path_architecture.md](project_covenant_path_architecture.md) — Covenant path: 6 collections in sequence (bautismo→espíritu santo→santa cena→sacerdocio→investidura→sellamiento)
+- [project_covenant_path_architecture.md](project_covenant_path_architecture.md) — Covenant path: 8 collections, 60 forms (intro+6 doctrinal+vidas)
+- [feedback_continuous_improvement.md](feedback_continuous_improvement.md) — Products are living: continuous improvement, theme detection skill, controversies/misunderstandings as source
