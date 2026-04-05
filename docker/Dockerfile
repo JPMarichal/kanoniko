@@ -30,7 +30,7 @@ RUN pip install --no-cache-dir \
 # Semantic deps (separate layer — heavier, changes less often)
 RUN pip install --no-cache-dir \
     "sentence-transformers>=3.0" \
-    "qdrant-client>=1.12"
+    "sqlite-vec>=0.1.6"
 
 # Graph deps
 RUN pip install --no-cache-dir \
@@ -68,8 +68,6 @@ ENV ALEJANDRIA_PORT=4300
 ENV ALEJANDRIA_CORPUS_PATH=/app/corpus
 ENV ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
 ENV ALEJANDRIA_EMBEDDING_DEVICE=cpu
-ENV ALEJANDRIA_QDRANT_HOST=qdrant
-ENV ALEJANDRIA_QDRANT_PORT=6333
 ENV ALEJANDRIA_NEO4J_URI=bolt://neo4j:7687
 ENV ALEJANDRIA_NEO4J_USER=neo4j
 ENV ALEJANDRIA_NEO4J_PASSWORD=alejandria

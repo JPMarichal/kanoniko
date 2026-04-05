@@ -11,13 +11,9 @@ All settings are managed via environment variables with the `ALEJANDRIA_` prefix
 | `ALEJANDRIA_CORPUS_PATH` | `/app/corpus` | Path to the bind-mounted corpus directory |
 | `ALEJANDRIA_SQLITE_DB_PATH` | `/app/data/sqlite/alejandria.db` | SQLite database for FTS, registry, and profiles |
 
-### Qdrant (Semantic Search)
+### Semantic Search (sqlite-vec)
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `ALEJANDRIA_QDRANT_HOST` | `qdrant` | Qdrant server hostname |
-| `ALEJANDRIA_QDRANT_PORT` | `6333` | Qdrant server port |
-| `ALEJANDRIA_QDRANT_COLLECTION` | `alejandria` | Qdrant collection name |
+Vectors are stored in the same SQLite database via the sqlite-vec extension. No separate configuration needed — uses `ALEJANDRIA_SQLITE_DB_PATH`.
 
 ### Neo4j (Knowledge Graph)
 

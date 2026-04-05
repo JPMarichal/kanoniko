@@ -90,7 +90,7 @@ def semantic(query: str, limit: int, source: str | None, as_json: bool) -> None:
     """Semantic (embedding) search."""
     sem = _semantic()
     if sem is None:
-        click.echo("Error: Semantic search unavailable (Qdrant not connected)", err=True)
+        click.echo("Error: Semantic search unavailable (sqlite-vec not loaded)", err=True)
         sys.exit(1)
     query_vector = _encode(query)
     rows = sem.search(query_vector=query_vector, limit=limit, source_filter=source)

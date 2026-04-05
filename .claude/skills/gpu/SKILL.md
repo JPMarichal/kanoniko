@@ -46,7 +46,7 @@ wsl -d Ubuntu-20.04 -e bash //mnt/c/own/alejandria/scripts/gpu-up.sh logs
 ## Important Notes
 
 - **Port conflict:** Stop Rancher Desktop Alejandría containers before starting GPU stack, or vice versa.
-- **Separate volumes:** GPU stack has its own Qdrant/Neo4j volumes — data is NOT shared with Rancher Desktop.
+- **Separate volumes:** GPU stack has its own Neo4j volumes — data is NOT shared with Rancher Desktop.
 - **Rancher Desktop safety:** This skill NEVER touches Rancher Desktop. All commands target Ubuntu-20.04 WSL only.
 - **Credential helper:** The script strips Rancher paths from PATH to avoid `docker-credential-secretservice` conflicts.
 

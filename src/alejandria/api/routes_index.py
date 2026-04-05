@@ -146,7 +146,7 @@ def rebuild_vectors(
 ) -> dict:
     """Rebuild semantic vectors from already-indexed chunks in SQLite.
 
-    Reads chunk text from SQLite, batch-encodes on GPU, upserts to Qdrant.
+    Reads chunk text from SQLite, batch-encodes on GPU, upserts to sqlite-vec.
     No filesystem I/O — ideal for GPU migration or after model change.
     """
     if pipeline.progress.running:

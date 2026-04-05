@@ -1,7 +1,7 @@
 """GPU-accelerated full reindex — run from WSL with CUDA.
 
 Runs the full Alejandria ingestion pipeline using GPU for embeddings,
-connecting to Qdrant and Neo4j on localhost (Docker containers).
+connecting to Neo4j on localhost (Docker container). Vectors stored in SQLite via sqlite-vec.
 
 Usage (from WSL):
     source ~/miniconda3/etc/profile.d/conda.sh
@@ -20,8 +20,6 @@ import time
 os.environ.setdefault("ALEJANDRIA_CORPUS_PATH", "/mnt/c/own/alejandria/corpus")
 os.environ.setdefault("ALEJANDRIA_SQLITE_DB_PATH", "/mnt/c/own/alejandria/data/sqlite/alejandria.db")
 os.environ.setdefault("ALEJANDRIA_EMBEDDING_DEVICE", "cuda")
-os.environ.setdefault("ALEJANDRIA_QDRANT_HOST", "localhost")
-os.environ.setdefault("ALEJANDRIA_QDRANT_PORT", "6333")
 os.environ.setdefault("ALEJANDRIA_NEO4J_URI", "bolt://localhost:7687")
 os.environ.setdefault("ALEJANDRIA_NEO4J_USER", "neo4j")
 os.environ.setdefault("ALEJANDRIA_NEO4J_PASSWORD", "alejandria")
@@ -36,7 +34,6 @@ def main():
     print("=" * 60)
     print(f"  Corpus:    {settings.corpus_path}")
     print(f"  SQLite:    {settings.sqlite_db_path}")
-    print(f"  Qdrant:    {settings.qdrant_host}:{settings.qdrant_port}")
     print(f"  Neo4j:     {settings.neo4j_uri}")
     print(f"  Device:    {settings.embedding_device}")
 
@@ -68,8 +65,8 @@ def main():
     semantic = None
     try:
         from alejandria.search.semantic import SemanticSearch
-        semantic = SemanticSearch()
-        print("  Semantic: connected to Qdrant")
+        semantic = SemanticSearch(db_path)
+        print("  Semantic: sqlite-vec loaded")
     except Exception as e:
         print(f"  Semantic: unavailable ({e})")
 

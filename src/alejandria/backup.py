@@ -1,12 +1,11 @@
 """Backup and restore for Alejandría data stores.
 
 Backup hierarchy (recovery time):
-  1. SQLite snapshot  — protects FTS chunks (fastest, most critical)
-  2. Qdrant snapshot  — protects vectors (rebuildable from SQLite in ~5 min)
-  3. Neo4j dump       — protects KG (rebuildable from SQLite in ~3 hours)
+  1. SQLite snapshot  — protects FTS chunks + vectors (fastest, most critical)
+  2. Neo4j dump       — protects KG (rebuildable from SQLite in ~3 hours)
 
-SQLite is the critical backup: from it alone, both Qdrant and Neo4j
-can be fully reconstructed via rebuild_vectors / rebuild_kg.
+SQLite is the critical backup: vectors are stored in the same DB via
+sqlite-vec, and Neo4j can be fully reconstructed via rebuild_kg.
 """
 
 from __future__ import annotations
@@ -17,8 +16,6 @@ import shutil
 import time
 from datetime import datetime
 from pathlib import Path
-
-import httpx
 
 from alejandria.config import settings
 
@@ -113,49 +110,6 @@ def _rotate_sqlite_backups() -> None:
         old = backups.pop(0)
         old.unlink()
         logger.info("Rotated old backup: %s", old.name)
-
-
-# ── Qdrant Snapshot ──
-
-def backup_qdrant() -> dict | None:
-    """Create a Qdrant collection snapshot via its REST API.
-
-    Returns snapshot info dict, or None on failure.
-    """
-    url = f"http://{settings.qdrant_host}:{settings.qdrant_port}"
-    collection = settings.qdrant_collection
-
-    try:
-        start = time.time()
-        resp = httpx.post(f"{url}/collections/{collection}/snapshots", timeout=120)
-        resp.raise_for_status()
-        result = resp.json().get("result", {})
-        elapsed = time.time() - start
-
-        logger.info(
-            "Qdrant snapshot: %s (%.1f MB) in %.1fs",
-            result.get("name", "?"),
-            result.get("size", 0) / (1024 * 1024),
-            elapsed,
-        )
-        return result
-    except Exception:
-        logger.exception("Qdrant snapshot failed")
-        return None
-
-
-def list_qdrant_snapshots() -> list[dict]:
-    """List available Qdrant snapshots."""
-    url = f"http://{settings.qdrant_host}:{settings.qdrant_port}"
-    collection = settings.qdrant_collection
-
-    try:
-        resp = httpx.get(f"{url}/collections/{collection}/snapshots", timeout=30)
-        resp.raise_for_status()
-        return resp.json().get("result", [])
-    except Exception:
-        logger.exception("Failed to list Qdrant snapshots")
-        return []
 
 
 # ── Neo4j Backup (via Cypher export — no APOC file access needed) ──
@@ -344,27 +298,11 @@ def pre_index_backup() -> dict:
     """
     result = {}
 
-    # SQLite — always (critical)
+    # SQLite — always (critical; includes vectors via sqlite-vec)
     sqlite_path = backup_sqlite(label="pre-index")
     result["sqlite"] = str(sqlite_path) if sqlite_path else None
 
-    # Qdrant — only if vectors exist (skip on empty collection)
-    try:
-        resp = httpx.get(
-            f"http://{settings.qdrant_host}:{settings.qdrant_port}"
-            f"/collections/{settings.qdrant_collection}",
-            timeout=10,
-        )
-        vectors_count = resp.json().get("result", {}).get("vectors_count", 0)
-        if vectors_count > 0:
-            qdrant_snap = backup_qdrant()
-            result["qdrant"] = qdrant_snap.get("name") if qdrant_snap else None
-        else:
-            result["qdrant"] = "skipped (empty)"
-    except Exception:
-        result["qdrant"] = "skipped (unavailable)"
-
-    # Neo4j — only if graph has nodes (APOC export, skip if unavailable)
+    # Neo4j — only if graph has nodes (Cypher export, skip if unavailable)
     try:
         neo4j_result = backup_neo4j()
         result["neo4j"] = neo4j_result.get("file") if neo4j_result else None

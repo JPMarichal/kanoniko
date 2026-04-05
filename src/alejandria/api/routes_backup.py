@@ -9,10 +9,8 @@ from fastapi import APIRouter, HTTPException
 
 from alejandria.backup import (
     backup_neo4j,
-    backup_qdrant,
     backup_sqlite,
     list_neo4j_backups,
-    list_qdrant_snapshots,
     list_sqlite_backups,
     restore_neo4j,
     restore_sqlite,
@@ -25,7 +23,7 @@ router = APIRouter(prefix="/backup", tags=["backup"])
 
 @router.post("/sqlite")
 def create_sqlite_backup(label: str = "manual") -> dict:
-    """Create a SQLite backup snapshot."""
+    """Create a SQLite backup snapshot (includes vectors via sqlite-vec)."""
     path = backup_sqlite(label=label)
     if path is None:
         raise HTTPException(404, "SQLite database not found")
@@ -56,28 +54,12 @@ def restore_sqlite_backup(filename: str) -> dict:
     return {"status": "restored", "from": filename}
 
 
-@router.post("/qdrant")
-def create_qdrant_snapshot() -> dict:
-    """Create a Qdrant collection snapshot."""
-    result = backup_qdrant()
-    if result is None:
-        raise HTTPException(500, "Qdrant snapshot failed")
-    return {"status": "ok", "snapshot": result}
-
-
-@router.get("/qdrant")
-def get_qdrant_snapshots() -> dict:
-    """List available Qdrant snapshots."""
-    snapshots = list_qdrant_snapshots()
-    return {"snapshots": snapshots, "count": len(snapshots)}
-
-
 @router.post("/neo4j")
 def create_neo4j_backup() -> dict:
-    """Export Neo4j graph via APOC to JSON. No server restart needed."""
+    """Export Neo4j graph via Cypher to JSON. No server restart needed."""
     result = backup_neo4j()
     if result is None:
-        raise HTTPException(500, "Neo4j backup failed (is APOC installed?)")
+        raise HTTPException(500, "Neo4j backup failed")
     return {"status": "ok", **result}
 
 

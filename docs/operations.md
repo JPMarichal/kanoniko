@@ -88,14 +88,14 @@ Phase 1 runs parse and FTS insert in two sub-steps:
 
 | Sub-phase | What | Implementation |
 |-----------|------|----------------|
-| 1a. Delete (updates only) | Remove old chunks from FTS + Qdrant | Serial, single connection, skipped for new files |
+| 1a. Delete (updates only) | Remove old chunks from FTS + sqlite-vec | Serial, single connection, skipped for new files |
 | 1b. Parse + chunk | Parse text, chunk, build metadata | **Parallel** — `ThreadPoolExecutor(8 workers)`, no SQLite |
 | 1c. FTS insert | Insert chunks into SQLite FTS5 | Serial, **single shared connection** for all files |
 
 | Phase | What | Bottleneck |
 |-------|------|------------|
 | 1. Parse/Chunk/FTS | See sub-phases above | I/O + SQLite writes |
-| 2. Embeddings | Batch-encode ALL chunks at once, upsert to Qdrant | GPU (fast) or CPU (slow) |
+| 2. Embeddings | Batch-encode ALL chunks at once, upsert to sqlite-vec | GPU (fast) or CPU (slow) |
 | 3. KG extraction | spaCy NER + Neo4j batch writes per file | Neo4j I/O |
 
 **`/index/status` only tracks Phase 1 progress.** It can show 100% while phases 2 and 3
@@ -161,11 +161,8 @@ curl "http://localhost:4300/search/graph/profiles?status=profiled&limit=1"
 ### Create Backups
 
 ```bash
-# SQLite (critical — source of truth)
+# SQLite (critical — source of truth, includes vectors via sqlite-vec)
 curl -X POST "http://localhost:4300/backup/sqlite?label=manual"
-
-# Qdrant snapshot
-curl -X POST http://localhost:4300/backup/qdrant
 
 # Neo4j graph export (75K nodes + 4.5M rels in ~90s)
 curl -X POST http://localhost:4300/backup/neo4j
@@ -176,7 +173,6 @@ curl -X POST http://localhost:4300/backup/neo4j
 ```bash
 curl http://localhost:4300/backup/sqlite
 curl http://localhost:4300/backup/neo4j
-curl http://localhost:4300/backup/qdrant
 ```
 
 ### Restore
@@ -188,22 +184,22 @@ curl -X POST "http://localhost:4300/backup/sqlite/restore?filename=alejandria_ma
 # Restore Neo4j (WARNING: clears existing graph first)
 curl -X POST "http://localhost:4300/backup/neo4j/restore?filename=alejandria_graph_20260401_120000.json"
 
-# Rebuild Qdrant vectors from SQLite (no filesystem I/O)
+# Rebuild sqlite-vec vectors from chunk text (no filesystem I/O)
 curl -X POST http://localhost:4300/index/rebuild-vectors
 ```
 
 ### Automatic Pre-Index Backup
 
-The ingestion pipeline automatically backs up all three stores before any indexing run.
+The ingestion pipeline automatically backs up SQLite and Neo4j before any indexing run.
 No manual action needed. SQLite rotates last 5 snapshots.
 
 ### Recovery Hierarchy
 
-SQLite is the **source of truth**. From it alone, everything can be reconstructed:
+SQLite is the **source of truth** (includes vectors via sqlite-vec). From it alone, everything can be reconstructed:
 
 | Store | Recovery from SQLite | Time |
 |-------|---------------------|------|
-| Qdrant | `POST /index/rebuild-vectors` | ~5 min (GPU) |
+| Vectors (sqlite-vec) | `POST /index/rebuild-vectors` | ~5 min (GPU) |
 | Neo4j | Full reindex or restore from backup | ~3 hours / ~90s |
 
 ### Full Disaster Recovery
@@ -233,8 +229,7 @@ SQLite is the **source of truth**. From it alone, everything can be reconstructe
 | KG rebuild | ~15 min | ~15 min | CPU-bound (spaCy NER) |
 | Neo4j backup (75K nodes) | ~90s | ~90s | Cypher streaming |
 | Neo4j restore (75K nodes) | TBD | TBD | Node-by-node Cypher import |
-| SQLite backup (85 MB) | <1s | <1s | File copy |
-| Qdrant snapshot (118 MB) | ~1s | ~1s | Native REST API |
+| SQLite backup (~130 MB, includes vectors) | <1s | <1s | File copy |
 | Metadata profiles (all entities) | ~2s | ~2s | Computational only |
 | Generate profiles (200 entities) | ~3 min | ~3 min | LLM calls, ~$0.05 |
 | Single chat question | 3-10s | 3-10s | Depends on model tier |

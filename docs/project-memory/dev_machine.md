@@ -27,7 +27,7 @@ type: user
 - **CRITICAL:** Do NOT modify Rancher Desktop — user depends on it for regular work
 - **CRITICAL:** Alejandria containers are in Ubuntu-20.04, NOT Rancher. NEVER use plain `docker` from Windows — it hits Rancher Desktop, not Alejandría. ALWAYS use `wsl -d Ubuntu-20.04 bash -c "docker ..."`.
 - **CRITICAL:** `docker ps` from Windows shows Rancher containers (k8s_*), NOT Alejandría. To see Alejandría containers: `wsl -d Ubuntu-20.04 bash -c "docker ps"`.
-- **Container names:** `alejandria-api`, `alejandria-qdrant`, `alejandria-neo4j`
+- **Container names:** `alejandria-api`, `alejandria-neo4j` (2 containers only — Qdrant was replaced by sqlite-vec in April 2026)
 - **After git push:** MUST sync WSL repo before containers see changes. Plain Docker bind mounts reflect Linux FS, not Windows.
 
 ## Mandatory Pre-Reindex Checklist
@@ -63,9 +63,8 @@ type: user
 - Model cache at `/home/jpmarichal/alejandria-data/models/`
 
 ## Backup System (Tested & Working)
-- **SQLite:** timestamped copy, rotates last 5 (`POST /backup/sqlite`)
-- **Qdrant:** native REST snapshot (`POST /backup/qdrant`)
+- **SQLite:** timestamped copy, rotates last 5 (`POST /backup/sqlite`) — includes vectors via sqlite-vec
 - **Neo4j:** Cypher streaming to JSON on API filesystem — 75K nodes + 4.5M rels in ~90s (`POST /backup/neo4j`)
-- **Pre-index:** automatic backup of all three stores before any indexing run
+- **Pre-index:** automatic backup of SQLite + Neo4j before any indexing run
 - Neo4j backup does NOT use APOC file export (avoids permission issues); uses plain Cypher queries streamed to API container
-- SQLite DB (85 MB) tracked in git as disaster recovery baseline
+- SQLite DB (~130 MB with vectors) tracked in git as disaster recovery baseline

@@ -1,17 +1,17 @@
 # Docker Setup
 
-Alejandria runs as three containerized services via Docker Compose.
+Alejandria runs as two containerized services via Docker Compose.
 
 ## Architecture
 
 ```
-┌─────────────────┐    ┌──────────────┐    ┌──────────────┐
-│   alejandria-api │    │  qdrant      │    │  neo4j       │
-│   (Python/FastAPI)│───→│  (vectors)   │    │  (graph)     │
-│   Port: 4300     │    │  Port: 6333  │    │  Port: 7687  │
-│                  │───→│              │    │  UI: 7474    │
-│                  │───→│              │    │              │
-└────────┬─────────┘    └──────────────┘    └──────────────┘
+┌─────────────────┐    ┌──────────────┐
+│   alejandria-api │    │  neo4j       │
+│   (Python/FastAPI)│───→│  (graph)     │
+│   Port: 4300     │    │  Port: 7687  │
+│   SQLite + FTS5  │    │  UI: 7474    │
+│   + sqlite-vec   │    │              │
+└────────┬─────────┘    └──────────────┘
          │
     ┌────▼────┐
     │ corpus/ │  (bind mount)
@@ -21,14 +21,13 @@ Alejandria runs as three containerized services via Docker Compose.
 
 ## Services
 
-| Service | Image | Purpose | Ports | Typical RAM |
-|---------|-------|---------|-------|-------------|
-| `api` | Custom (Dockerfile/Dockerfile.gpu) | FastAPI + Python app | 4300 | ~220 MB |
-| `qdrant` | `qdrant/qdrant:v1.13.2` | Vector database | 6333, 6334 | ~90 MB |
-| `neo4j` | `neo4j:5-community` | Graph database | 7687, 7474 | ~900 MB |
+| Service | Image | Purpose | Ports | mem_limit |
+|---------|-------|---------|-------|-----------|
+| `api` | Custom (Dockerfile/Dockerfile.gpu) | FastAPI + SQLite + sqlite-vec | 4300 | 2 GB |
+| `neo4j` | `neo4j:5-community` | Graph database | 7687, 7474 | 1 GB |
 
-Neo4j is the heaviest container. Its JVM heap is capped at 512 MB with 128 MB page cache
-(see `docker-compose.yml` environment variables).
+Semantic vectors are stored in SQLite via the sqlite-vec extension (in-process, no separate container).
+Neo4j's JVM heap is capped at 512 MB with 128 MB page cache (see `docker-compose.yml`).
 
 ## Two Docker Environments
 
