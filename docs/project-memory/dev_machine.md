@@ -39,6 +39,13 @@ type: user
 - WSL user `jpmarichal` is in `docker` group for native Docker Engine
 - Credential helper: use `DOCKER_CONFIG=/tmp/alejandria-docker-config` to avoid Rancher Desktop's secretservice
 
+## Auto-Start Chain (always-on GPU stack)
+- **Windows login** → scheduled task `WSL-Ubuntu-Autostart` launches `wsl -d Ubuntu-20.04`
+- **WSL starts** → systemd starts Docker Engine (`enabled`)
+- **Docker starts** → `restart: unless-stopped` brings up `alejandria-api` + `alejandria-neo4j`
+- **Result:** GPU stack always available, indexing always uses GPU automatically
+- **Script:** `scripts/install-wsl-autostart.ps1` (run once as admin to create the scheduled task)
+
 ## WSL
 - **Distros:** Ubuntu-20.04 (running, systemd enabled), rancher-desktop (running)
 - **Kernel:** 6.6.87.2-microsoft-standard-WSL2
