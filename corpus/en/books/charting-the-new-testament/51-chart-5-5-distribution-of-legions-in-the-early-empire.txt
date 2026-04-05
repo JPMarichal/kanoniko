@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+Charts 5-5, 5-6
+
+The empire of the Romans encompassed the Mediterranean and the surrounding areas in Europe, western Asia, and North Africa. The empire was divided for administrative purposes into provinces. In New Testament times during the reign of Augustus, the empire had achieved boundaries consistent with the natural geography of the lands surrounding the Mediterranean. Britain and Thrace were added as provinces under Claudius and the territory of the empire reached its fullest extent with Trajan's additions of Dacia and the eastern provinces of Armenia, Assyria, and Mesopotamia.
+
+The boundaries of the empire were protected by the Roman legions. Augustus stationed them in more or less permanent quarters in the provinces bordering the frontier. The individual legions and the provinces where they were quartered are listed on the opposite page.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St. Martin's, 1975), 436-37.
+
+G. Webster, The Roman Imperial Army of the First and Second Centuries A.D. (London: Block, 1979).
+
+1d:T530,
+
+Explanation:
+
+Charts 5-5, 5-6
+
+The empire of the Romans encompassed the Mediterranean and the surrounding areas in Europe, western Asia, and North Africa. The empire was divided for administrative purposes into provinces. In New Testament times during the reign of Augustus, the empire had achieved boundaries consistent with the natural geography of the lands surrounding the Mediterranean. Britain and Thrace were added as provinces under Claudius and the territory of the empire reached its fullest extent with Trajan's additions of Dacia and the eastern provinces of Armenia, Assyria, and Mesopotamia.
+
+The boundaries of the empire were protected by the Roman legions. Augustus stationed them in more or less permanent quarters in the provinces bordering the frontier. The individual legions and the provinces where they were quartered are listed on the opposite page.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St. Martin's, 1975), 436-37.
+
+G. Webster, The Roman Imperial Army of the First and Second Centuries A.D. (London: Block, 1979).
+
+12:["$","$L1b",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":694,"title":"Chart 5-5: Distribution of Legions in the Early Empire","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1c","intro_text":null,"page_number":52,"previous_chapter":"chart-5-4-roman-campaigns-in-judea","next_chapter":"chart-5-6-the-roman-empire-from-augustus-to-trajan","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-05-05.pdf","footnotes":null,"slug":"chart-5-5-distribution-of-legions-in-the-early-empire","public":1,"wp_id":25708,"test":"693","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 5-5, 5-6","tagName":"H3"},{"id":"heading-2","textContent":"References:","tagName":"H2"}]}}] 1e:I[38175,[],"IconMark"] 16:{"metadata":[["$","title","0",{"children":"Chart 5-5: Distribution of Legions in the Early Empire - Charting the New Testament"}],["$","meta","1",{"name":"description","content":"Read this chapter from our online book collection."}],["$","meta","2",{"name":"keywords","content":"Chart 5-5: Distribution of Legions in the Early Empire, Charting the New Testament, online books, BYU Studies"}],["$","link","3",{"rel":"canonical","href":"https://byustudies.byu.edu/online-book/charting-the-new-testament/chart-5-5-distribution-of-legions-in-the-early-empire"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L1e","5",{}]],"error":null,"digest":"$undefined"} 1a:"$16:metadata"

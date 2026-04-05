@@ -1,0 +1,21 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+Major Book of Mormon authors used sixty-seven different names to refer to Jesus Christ. Of these names, many were used exclusively by one author, while others were used almost universally. This may be because the Lord was to them, as he is to each of us, both the same and different: his atonement is universal, but each of us also has a relationship with him that is entirely personal. For example, King Benjamin is the only prophet in the Book of Mormon who calls Jesus the "Heavenly King" or the "Lord Omnipotent." This could be in part because Benjamin himself was a king, identified with Christ on that level, and recognized the true authority and power of the Son of God. This table shows the names for Christ that appear in the Book of Mormon and the frequency with which its major authors used them. Names for Christ that are unique to certain authors appear in boldface type. The data below show which texts are used to represent each major author.
+
+Lehi: 1 Nephi 1; 8; 10; 2 Nephi 1–4Nephi1: 1 Nephi 11–22; 2 Nephi 25–33Jacob: 2 Nephi 6–10; Jacob 2–4; 6Abinadi: Mosiah 12–16Benjamin: Mosiah 1–6Alma2: Alma 5; 7; 12–13; 32–33; 36–42Amulek: Alma 9–11; 34Samuel: Helaman 13–15Mormon: Helaman 12; 3 Nephi 5; Mormon 1–7; Moroni 7–9Moroni: Mormon 8–9; Ether 4–5; 12:6–41; Moroni 1–10
+
+1e:T803,
+
+Explanation:
+
+Major Book of Mormon authors used sixty-seven different names to refer to Jesus Christ. Of these names, many were used exclusively by one author, while others were used almost universally. This may be because the Lord was to them, as he is to each of us, both the same and different: his atonement is universal, but each of us also has a relationship with him that is entirely personal. For example, King Benjamin is the only prophet in the Book of Mormon who calls Jesus the "Heavenly King" or the "Lord Omnipotent." This could be in part because Benjamin himself was a king, identified with Christ on that level, and recognized the true authority and power of the Son of God. This table shows the names for Christ that appear in the Book of Mormon and the frequency with which its major authors used them. Names for Christ that are unique to certain authors appear in boldface type. The data below show which texts are used to represent each major author.
+
+Lehi: 1 Nephi 1; 8; 10; 2 Nephi 1–4Nephi1: 1 Nephi 11–22; 2 Nephi 25–33Jacob: 2 Nephi 6–10; Jacob 2–4; 6Abinadi: Mosiah 12–16Benjamin: Mosiah 1–6Alma2: Alma 5; 7; 12–13; 32–33; 36–42Amulek: Alma 9–11; 34Samuel: Helaman 13–15Mormon: Helaman 12; 3 Nephi 5; Mormon 1–7; Moroni 7–9Moroni: Mormon 8–9; Ether 4–5; 12:6–41; Moroni 1–10
+
+12:["$","$L1c",null,{"book":{"id":64,"title":"Charting the Book of Mormon","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-bom.png","excerpt":null,"book_series_id":19,"series_ordering":2,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-book-of-mormon","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":921,"title":"Chart 44: Names Used for Christ by Major Book of Mormon Authors","subtitle":null,"online_book_id":64,"excerpt":null,"content":"$1d","intro_text":null,"page_number":51,"previous_chapter":"chart-43-consistent-elements-in-nephite-declarations-of-faith","next_chapter":"chart-45-names-and-concepts-associated-with-christ-by-major-book-of-mormon-authors","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CBM-044.pdf","footnotes":null,"slug":"chart-44-names-used-for-christ-by-major-book-of-mormon-authors","public":1,"wp_id":24998,"test":"920","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"}]}}]

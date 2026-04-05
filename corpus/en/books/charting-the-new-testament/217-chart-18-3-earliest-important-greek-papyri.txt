@@ -1,0 +1,25 @@
+Explanation:
+
+All the books of the New Testament were originally written in Greek. Other sources, written and oral, certainly stood behind these final literary products, but in the end the good news of the ministry of Jesus Christ and his apostles was disseminated to the world in the common language of the day throughout the Roman Empire, namely Greek. Over 64 fragments of individual gospels or letters have been found by archaeologists or archivists that date before A.D. 325. Chart 18-3 lists the most famous of these early texts, which were written on papyrus. Some contain only a few words or verses, but a few are quite extensive and extremely precious.
+
+References:
+
+Harry Y. Bramble, "Canon: New Testament," ABD, 1:852-61.
+
+Bruce M. Metzger, The Text of the New Testament (New York: Oxford University Press, 1992).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":861,"title":"Chart 18-3: Earliest Important Greek Papyri","subtitle":null,"online_book_id":65,"excerpt":null,"content":"
+
+[caption][/caption]
+
+Explanation:
+
+All the books of the New Testament were originally written in Greek. Other sources, written and oral, certainly stood behind these final literary products, but in the end the good news of the ministry of Jesus Christ and his apostles was disseminated to the world in the common language of the day throughout the Roman Empire, namely Greek. Over 64 fragments of individual gospels or letters have been found by archaeologists or archivists that date before A.D. 325. Chart 18-3 lists the most famous of these early texts, which were written on papyrus. Some contain only a few words or verses, but a few are quite extensive and extremely precious.
+
+References:
+
+Harry Y. Bramble, \"Canon: New Testament,\" ABD, 1:852-61.
+
+Bruce M. Metzger, The Text of the New Testament (New York: Oxford University Press, 1992).
+
+","intro_text":null,"page_number":219,"previous_chapter":"chart-18-2-timeline-of-persecutions","next_chapter":"chart-18-4-earliest-important-greek-parchments","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-18-03.pdf","footnotes":null,"slug":"chart-18-3-earliest-important-greek-papyri","public":1,"wp_id":25965,"test":"860","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

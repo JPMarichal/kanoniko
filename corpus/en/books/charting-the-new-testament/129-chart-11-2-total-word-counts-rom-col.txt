@@ -1,0 +1,17 @@
+[caption][/caption]
+
+Explanation:
+
+Charts 11-1, 11-2, 11-3, 11-4, 11-5
+
+This section presents ten charts that count and compare interesting data about the vocabulary of the New Testament. Living in a world that extracts meaning from unsuspected details, readers may find these charts to be more than mere curiosities. Charts 11-1 through 11-4 compare the total word counts in the ancient Greek and more recent English versions of the New Testament. Not only does this allow a quick visual comparison of the lengths of the books of the New Testament, but one readily sees that Greek is a more efficient language than English. Greek uses fewer words to express the same thoughts. This means that translators must often turn to longer idiomatic English expressions to attempt to capture and express the original intent of the New Testament writers. Chart 11-5 shows that Peter is harder to render into English in a word-for-word manner, whereas John can be translated much more directly.
+
+1e:T491,
+
+Explanation:
+
+Charts 11-1, 11-2, 11-3, 11-4, 11-5
+
+This section presents ten charts that count and compare interesting data about the vocabulary of the New Testament. Living in a world that extracts meaning from unsuspected details, readers may find these charts to be more than mere curiosities. Charts 11-1 through 11-4 compare the total word counts in the ancient Greek and more recent English versions of the New Testament. Not only does this allow a quick visual comparison of the lengths of the books of the New Testament, but one readily sees that Greek is a more efficient language than English. Greek uses fewer words to express the same thoughts. This means that translators must often turn to longer idiomatic English expressions to attempt to capture and express the original intent of the New Testament writers. Chart 11-5 shows that Peter is harder to render into English in a word-for-word manner, whereas John can be translated much more directly.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":773,"title":"Chart 11-2: Total Word Counts (Rom-Col)","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":131,"previous_chapter":"chart-11-1-total-word-counts-mt-acts-rev","next_chapter":"chart-11-3-total-word-counts-1-th-heb","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-11-02.pdf","footnotes":null,"slug":"chart-11-2-total-word-counts-rom-col","public":1,"wp_id":25810,"test":"772","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 11-1, 11-2, 11-3, 11-4, 11-5","tagName":"H3"}]}}]

@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+Greek, Roman, and Jewish coins circulated in Judea and Galilee during New Testament times. Many of these pieces of copper, silver, or gold are mentioned by name in the Gospels. They range from the smallest "widow's mite" to the much larger "denarius" or "stater." Values represented by these coins are important in understanding the meaning of certain passages, such as the coin in the fish's mouth, which was one stater, exactly the amount needed to pay the annual temple tax for two people. A talent was not a coin but a large ingot of metal, weighing from 65 to 92 pounds. Variations occurred from one century to another and from one land to another. One talent of gold was an enormous sum, let alone the 10,000 talent debt owed by the unjust steward to his lord.
+
+References:
+
+Christopher Howgego, Ancient History from Coins (London: Routledge, 1995).
+
+Nanci DeBloois, "Coins in the New Testament," MWNT, 239-51.
+
+John W. Betlyon, "Coinage," ABD, 1:1076-89.
+
+T. Edgar Lyon, "Greco-Roman Influences on the Holy Land," Ensign, September 1974, 20-21.
+
+1e:T510,
+
+Explanation:
+
+Greek, Roman, and Jewish coins circulated in Judea and Galilee during New Testament times. Many of these pieces of copper, silver, or gold are mentioned by name in the Gospels. They range from the smallest "widow's mite" to the much larger "denarius" or "stater." Values represented by these coins are important in understanding the meaning of certain passages, such as the coin in the fish's mouth, which was one stater, exactly the amount needed to pay the annual temple tax for two people. A talent was not a coin but a large ingot of metal, weighing from 65 to 92 pounds. Variations occurred from one century to another and from one land to another. One talent of gold was an enormous sum, let alone the 10,000 talent debt owed by the unjust steward to his lord.
+
+References:
+
+Christopher Howgego, Ancient History from Coins (London: Routledge, 1995).
+
+Nanci DeBloois, "Coins in the New Testament," MWNT, 239-51.
+
+John W. Betlyon, "Coinage," ABD, 1:1076-89.
+
+T. Edgar Lyon, "Greco-Roman Influences on the Holy Land," Ensign, September 1974, 20-21.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":661,"title":"Chart 2-7: Money","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":19,"previous_chapter":"chart-2-6-taxes-in-judea","next_chapter":"chart-2-8-animals-and-plants","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-02-07.pdf","footnotes":null,"slug":"chart-2-7-money","public":1,"wp_id":25677,"test":"660","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

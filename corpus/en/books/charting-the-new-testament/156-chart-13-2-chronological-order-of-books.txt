@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+Chart 13-2 lists the books of the New Testament in the likely chronological order of their composition. The probable place of composition is also listed. In some cases, these dates and places are conjectural, but in a few cases the dates are quite certain. An awareness of the time and place of composition helps readers today to appreciate the situations and the audiences addressed in these compositions.
+
+Although in recent years some scholars have argued against accepting traditional authorship, we remain unconvinced. Sufficient evidence has not been produced to prove that the books of the New Testament were not written by the traditionally claimed authors. Indeed, early Christian sources corroborate that, during the generations immediately following their composition, the apostolic and evangelistic authority of these books was unchallenged. Only later, in a changed Christian church, did various clerics and scholastics raise questions of legitimacy as the New Testament canon evolved. (See chart 18-6).
+
+References:
+
+Raymond E. Brown, An Introduction to the New Testament (New York: Doubleday, 1997).
+
+Henry C. Thiessen, Introduction to the New Testament (Grand Rapids: Eerdmans, 1955).
+
+L. M. McDonald, The Formation of the Christian Biblical Canon (Peabody, Mass.: Hendrickson, 1995).
+
+1e:T61b,
+
+Explanation:
+
+Chart 13-2 lists the books of the New Testament in the likely chronological order of their composition. The probable place of composition is also listed. In some cases, these dates and places are conjectural, but in a few cases the dates are quite certain. An awareness of the time and place of composition helps readers today to appreciate the situations and the audiences addressed in these compositions.
+
+Although in recent years some scholars have argued against accepting traditional authorship, we remain unconvinced. Sufficient evidence has not been produced to prove that the books of the New Testament were not written by the traditionally claimed authors. Indeed, early Christian sources corroborate that, during the generations immediately following their composition, the apostolic and evangelistic authority of these books was unchallenged. Only later, in a changed Christian church, did various clerics and scholastics raise questions of legitimacy as the New Testament canon evolved. (See chart 18-6).
+
+References:
+
+Raymond E. Brown, An Introduction to the New Testament (New York: Doubleday, 1997).
+
+Henry C. Thiessen, Introduction to the New Testament (Grand Rapids: Eerdmans, 1955).
+
+L. M. McDonald, The Formation of the Christian Biblical Canon (Peabody, Mass.: Hendrickson, 1995).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":800,"title":"Chart 13-2: Chronological Order of Books","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":158,"previous_chapter":"chart-13-1-chronology-of-the-new-testament-era","next_chapter":"chart-13-3-significant-parallels-between-luke-and-josephus","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-13-02.pdf","footnotes":null,"slug":"chart-13-2-chronological-order-of-books","public":1,"wp_id":25908,"test":"799","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

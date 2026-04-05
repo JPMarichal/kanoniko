@@ -1,0 +1,21 @@
+Explanation:
+
+Certain chapters in the New Testament are especially famous. These doctrinal highlights express key concepts in unforgettably eloquent or powerful terms. To the list in chart 12-13 could be added many other topics and chapters, but those listed are certainly among the top favorites concerning the first principles and ordinances of the gospel (namely faith, repentance of the prodigal son, baptism, and the gift of the Holy Ghost), Christian living (charity, love of the good Samaritan, family relations, missionary work, priesthood, and unity), and the salvation history of the world (atonement, apostasy, second coming, and resurrection).
+
+Reference:
+
+BYU Studies Staff, "We Rejoice in Christ: A Bibliography of LDS Writings on Jesus Christ and the New Testament" (Provo, Utah: BYU Studies, 1995).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":795,"title":"Chart 12-13: Main Doctrinal Chapters in the New Testament","subtitle":null,"online_book_id":65,"excerpt":null,"content":"
+
+[caption][/caption]
+
+Explanation:
+
+Certain chapters in the New Testament are especially famous. These doctrinal highlights express key concepts in unforgettably eloquent or powerful terms. To the list in chart 12-13 could be added many other topics and chapters, but those listed are certainly among the top favorites concerning the first principles and ordinances of the gospel (namely faith, repentance of the prodigal son, baptism, and the gift of the Holy Ghost), Christian living (charity, love of the good Samaritan, family relations, missionary work, priesthood, and unity), and the salvation history of the world (atonement, apostasy, second coming, and resurrection).
+
+Reference:
+
+BYU Studies Staff, \"We Rejoice in Christ: A Bibliography of LDS Writings on Jesus Christ and the New Testament\" (Provo, Utah: BYU Studies, 1995).
+
+","intro_text":null,"page_number":153,"previous_chapter":"chart-12-12-church-policies-and-practices","next_chapter":"chart-12-14-christian-virtues","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-12-13.pdf","footnotes":null,"slug":"chart-12-13-main-doctrinal-chapters-in-the-new-testament","public":1,"wp_id":25831,"test":"794","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Reference:","tagName":"H2"}]}}]

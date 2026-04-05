@@ -1,0 +1,41 @@
+[caption][/caption]
+
+Explanation:
+
+This chart lists the names and approximate dates of several of the Jewish books known to have existed in the first century B.C. or around the lifetime of Jesus. This was a highly literary world. Scrolls were written and read in Greek and Hebrew, covering a variety of topics and genres. Modern scholars have divided these works into three broad categories although in antiquity they usually existed only as separate scrolls.
+
+The Old Testament Apocrypha, written mostly in Hebrew but preserved in Greek, contains thirteen books that were included in the three main Greek manuscripts of the Bible from the fourth century. They contain a variety of historical, devotional, heroic, and instructional materials. While they were eventually rejected by Luther and early Protestants, during the time of Jesus they were considered by some people to be authoritative or valuable writings.
+
+Books contained in the Old Testament Pseudepigrapha are Jewish (and, later, Christian) works written in the two centuries before or after Jesus but more recently rediscovered and collected. These writings are often attributed to older historic figures and may reflect longstanding traditions, but they are not of equal antiquity with the Old Testament. Some of these writings were influential among Jews and Christians at the time of Jesus. Enoch, for example, is quoted in the Epistle of Jude.
+
+The Dead Sea Scrolls were hidden in caves near Qumran, about 17 miles east of Jerusalem, before the fall of Jerusalem to the Romans. This collection of writings contained many biblical scrolls and also a number of interesting sectarian documents, listed in the bottom section of chart 2-3, probably written by Essenes. Although the influence of these writings on the New Testament is probably not direct, these texts show the kinds of books that were being written and used by other Jews during the lifetimes of Jesus, Peter, and Paul.
+
+References:
+
+James H. Charlesworth, "Old Testament Apocrypha," ABD, 1:292-94.
+
+James H. Charlesworth, "Pseudepigrapha, OT," ABD, 5:537-40.
+
+John J. Collins, "Dead Sea Scrolls," ABD, 2:85-101.
+
+1f:T92f,
+
+Explanation:
+
+This chart lists the names and approximate dates of several of the Jewish books known to have existed in the first century B.C. or around the lifetime of Jesus. This was a highly literary world. Scrolls were written and read in Greek and Hebrew, covering a variety of topics and genres. Modern scholars have divided these works into three broad categories although in antiquity they usually existed only as separate scrolls.
+
+The Old Testament Apocrypha, written mostly in Hebrew but preserved in Greek, contains thirteen books that were included in the three main Greek manuscripts of the Bible from the fourth century. They contain a variety of historical, devotional, heroic, and instructional materials. While they were eventually rejected by Luther and early Protestants, during the time of Jesus they were considered by some people to be authoritative or valuable writings.
+
+Books contained in the Old Testament Pseudepigrapha are Jewish (and, later, Christian) works written in the two centuries before or after Jesus but more recently rediscovered and collected. These writings are often attributed to older historic figures and may reflect longstanding traditions, but they are not of equal antiquity with the Old Testament. Some of these writings were influential among Jews and Christians at the time of Jesus. Enoch, for example, is quoted in the Epistle of Jude.
+
+The Dead Sea Scrolls were hidden in caves near Qumran, about 17 miles east of Jerusalem, before the fall of Jerusalem to the Romans. This collection of writings contained many biblical scrolls and also a number of interesting sectarian documents, listed in the bottom section of chart 2-3, probably written by Essenes. Although the influence of these writings on the New Testament is probably not direct, these texts show the kinds of books that were being written and used by other Jews during the lifetimes of Jesus, Peter, and Paul.
+
+References:
+
+James H. Charlesworth, "Old Testament Apocrypha," ABD, 1:292-94.
+
+James H. Charlesworth, "Pseudepigrapha, OT," ABD, 5:537-40.
+
+John J. Collins, "Dead Sea Scrolls," ABD, 2:85-101.
+
+13:["$","$L1d",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":657,"title":"Chart 2-3: Some Non-Canonical Jewish Writings or Writers from before the Christian Era","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1e","intro_text":null,"page_number":15,"previous_chapter":"chart-2-2-the-herodian-dynasty","next_chapter":"chart-2-4-number-of-quotations-per-book","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-02-03.pdf","footnotes":null,"slug":"chart-2-3-some-non-canonical-jewish-writings-or-writers-from-before-the-christian-era","public":1,"wp_id":25673,"test":"656","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1f","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

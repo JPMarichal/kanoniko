@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+Chart 8-6 offers comparative stemma of the genealogy of Joseph, known as the legal father of Jesus, as differently depicted in the Gospels of Matthew and Luke. These genealogies serve different purposes: Matthew's demonstrates the Abrahamic descent of Jesus as heir of David; Luke emphasizes that Jesus was the son of God through Adam. Accordingly, Matthew's genealogy descends from Abraham, while Luke's ascends from Jesus and Joseph to Adam and God. Since Luke includes the pre-Abrahamic era, his list of ancestors is much longer, seventy-seven names compared to forty-one in Matthew. However, even in the periods where names overlap, Luke lists fifty-six names to Matthew's forty-one. From the time of David on, the genealogies are quite separate and intersect only on several occasions as is readily apparent with perusal of the chart.
+
+This discrepancy has usually been explained by scholars in two ways. Some say that the lineage given by Matthew is that of Joseph, while the lineage found in Luke could be that of Mary. On the other hand, the more prevalent view among scholars today is that Matthew provides an official genealogy of the Davidic heir to which the names of Joseph and Jesus were attached. The parallel periods of fourteen names each, which Matthew is careful to point out, suggests something of the sort. By contrast, Luke's account is held to reveal the actual ancestors of Joseph who, while being descendants of David, were not the actual heirs to the throne.
+
+References:
+
+Raymond E. Brown, The Birth of the Messiah (New York: Doubleday, 1977), 57-95.
+
+Joachim Jeremias, Jerusalem in the Time of Jesus (Philadelphia: Fortress, 1969), 275-97.
+
+James E. Talmage, Jesus the Christ (Salt Lake City: Deseret Book, 1984), 85-87.
+
+1e:T7db,
+
+Explanation:
+
+Chart 8-6 offers comparative stemma of the genealogy of Joseph, known as the legal father of Jesus, as differently depicted in the Gospels of Matthew and Luke. These genealogies serve different purposes: Matthew's demonstrates the Abrahamic descent of Jesus as heir of David; Luke emphasizes that Jesus was the son of God through Adam. Accordingly, Matthew's genealogy descends from Abraham, while Luke's ascends from Jesus and Joseph to Adam and God. Since Luke includes the pre-Abrahamic era, his list of ancestors is much longer, seventy-seven names compared to forty-one in Matthew. However, even in the periods where names overlap, Luke lists fifty-six names to Matthew's forty-one. From the time of David on, the genealogies are quite separate and intersect only on several occasions as is readily apparent with perusal of the chart.
+
+This discrepancy has usually been explained by scholars in two ways. Some say that the lineage given by Matthew is that of Joseph, while the lineage found in Luke could be that of Mary. On the other hand, the more prevalent view among scholars today is that Matthew provides an official genealogy of the Davidic heir to which the names of Joseph and Jesus were attached. The parallel periods of fourteen names each, which Matthew is careful to point out, suggests something of the sort. By contrast, Luke's account is held to reveal the actual ancestors of Joseph who, while being descendants of David, were not the actual heirs to the throne.
+
+References:
+
+Raymond E. Brown, The Birth of the Messiah (New York: Doubleday, 1977), 57-95.
+
+Joachim Jeremias, Jerusalem in the Time of Jesus (Philadelphia: Fortress, 1969), 275-97.
+
+James E. Talmage, Jesus the Christ (Salt Lake City: Deseret Book, 1984), 85-87.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":720,"title":"Chart 8-6: Lineages of Joseph","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":78,"previous_chapter":"chart-8-5-the-birth-of-jesus","next_chapter":"chart-8-7-the-lives-of-joseph-and-jesus","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-08-06.pdf","footnotes":null,"slug":"chart-8-6-lineages-of-joseph","public":1,"wp_id":25732,"test":"719","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

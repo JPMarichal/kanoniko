@@ -1,0 +1,143 @@
+Names and Places
+
+BY Brigham Young
+
+BYU Brigham Young University
+
+HamGodbe Hampden C. Godbe
+
+LDS Archives The Library-Archives of the Church of Jesus Christ of Latter-day Saints, Salt Lake City, Utah
+
+LDS Church The Church of Jesus Christ of Latter-day Saints
+
+SL Salt Lake
+
+SLC Salt Lake City
+
+WSGodbe William S. Godbe
+
+Books
+
+HSLC History of Salt Lake City
+
+RMSaints Rocky Mountain Saints
+
+TIAll âTell It Allâ
+
+Periodicals and Sources
+
+DEN Deseret Evening News
+
+DN Deseret News
+
+DNWeekly Deseret News Weekly
+
+JD Journal of Discourses
+
+JH âJournal Historyâ of the Church of Jesus Christ of Latter-day Saints
+
+JMH Journal of Mormon History
+
+MStar Millennial Star
+
+MTrib Mormon Tribune
+
+NYHer New York Herald
+
+OPH Our Pioneer Heritage
+
+PODay Peep OâDay
+
+SLHer Salt Lake Herald
+
+SLTel Salt Lake Telegraph
+
+SLTrib Salt Lake Tribune, Salt Lake Daily Tribune, Salt Lake Daily Tribune and Mining Gazette
+
+SLWTrib Salt Lake Weekly Tribune
+
+TPH Treasures of Pioneer History
+
+TQMag Tullidgeâs Quarterly Magazine
+
+UHQ Utah Historical Quarterly
+
+UMag Utah Magazine
+
+1e:T79b,
+
+Names and Places
+
+BY Brigham Young
+
+BYU Brigham Young University
+
+HamGodbe Hampden C. Godbe
+
+LDS Archives The Library-Archives of the Church of Jesus Christ of Latter-day Saints, Salt Lake City, Utah
+
+LDS Church The Church of Jesus Christ of Latter-day Saints
+
+SL Salt Lake
+
+SLC Salt Lake City
+
+WSGodbe William S. Godbe
+
+Books
+
+HSLC History of Salt Lake City
+
+RMSaints Rocky Mountain Saints
+
+TIAll âTell It Allâ
+
+Periodicals and Sources
+
+DEN Deseret Evening News
+
+DN Deseret News
+
+DNWeekly Deseret News Weekly
+
+JD Journal of Discourses
+
+JH âJournal Historyâ of the Church of Jesus Christ of Latter-day Saints
+
+JMH Journal of Mormon History
+
+MStar Millennial Star
+
+MTrib Mormon Tribune
+
+NYHer New York Herald
+
+OPH Our Pioneer Heritage
+
+PODay Peep OâDay
+
+SLHer Salt Lake Herald
+
+SLTel Salt Lake Telegraph
+
+SLTrib Salt Lake Tribune, Salt Lake Daily Tribune, Salt Lake Daily Tribune and Mining Gazette
+
+SLWTrib Salt Lake Weekly Tribune
+
+TPH Treasures of Pioneer History
+
+TQMag Tullidgeâs Quarterly Magazine
+
+UHQ Utah Historical Quarterly
+
+UMag Utah Magazine
+
+12:["$","$L1c",null,{"book":{"id":88,"title":"Wayward Saints: The Social and Religious Protests of the Godbeites against Brigham Young","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/wayward-saints-cover.jpg","excerpt":"
+
+A story that includes spiritualist sÃ©ances, conspiracy, and an important church trial, Wayward Saints chronicles the 1870s challenge of a group of British Mormon intellectuals to Brigham Young's leadership and authority. William S. Godbe and his associates protested against Young because they disliked his demanding community and resented what they perceived to be Young's intrusion into matters of personal choice. Excommunicated from the Church, they established the \"New Movement,\" which eventually faltered. Both a study in intellectual history and an investigation of religious dissent, Wayward Saints explores nineteenth-century American spiritualism as well as the ideas and intellectual structure of first- and second-generation Mormonism.
+
+A compelling story, and the author has a compelling way of drawing the reader into it. I recommend it.
+
+âKlaus Hansen, author of Mormonism and the American Experience
+
+","book_series_id":null,"series_ordering":0,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":"website-files-bucket/books/book_pdf/WalkerDiss-TXT.pdf","footnotes":null,"public":1,"slug":"wayward-saints","wp_id":null,"product_link":"product/wayward-saints-the-social-and-religious-protests-of-the-godbeites-against-brigham-young","author_id":null},"chapter":{"id":1550,"title":"Abbreviations","subtitle":null,"online_book_id":88,"excerpt":null,"content":"$1d","intro_text":"","page_number":-1,"previous_chapter":"preface-to-the-first-printing","next_chapter":"rebellion-in-zion","pdf_id":null,"footnotes":"","slug":"abbreviations-wayward-saints","public":1,"wp_id":null,"test":null,"podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Names and Places","tagName":"H2"},{"id":"heading-1","textContent":"Books","tagName":"H2"},{"id":"heading-2","textContent":"Periodicals and Sources","tagName":"H2"}]}}]

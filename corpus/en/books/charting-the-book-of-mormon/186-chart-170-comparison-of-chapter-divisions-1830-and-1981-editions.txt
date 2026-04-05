@@ -1,0 +1,19 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+The differences in the chapter divisions between the first edition of the Book of Mormon and the 1981 edition are listed in this four-page chart. Chapters in the 1830 edition were longer, in part because the Book of Mormon was printed in narrative rather than verse form—what we would expect from a historical record. The text was first arranged into its present verses in the 1879 edition to facilitate the location of particular passages. Modern readers may be interested to see how the sections of the Book of Mormon were divided in the 1830 edition, which are divided along broad conceptual lines. For example, all of Jacob's speech in Jacob 2–3 and all of Alma's blessing to his son Corianton in Alma 39–42 were single chapters.
+
+1d:T586,
+
+Explanation:
+
+The differences in the chapter divisions between the first edition of the Book of Mormon and the 1981 edition are listed in this four-page chart. Chapters in the 1830 edition were longer, in part because the Book of Mormon was printed in narrative rather than verse form—what we would expect from a historical record. The text was first arranged into its present verses in the 1879 edition to facilitate the location of particular passages. Modern readers may be interested to see how the sections of the Book of Mormon were divided in the 1830 edition, which are divided along broad conceptual lines. For example, all of Jacob's speech in Jacob 2–3 and all of Alma's blessing to his son Corianton in Alma 39–42 were single chapters.
+
+12:["$","$L1b",null,{"book":{"id":64,"title":"Charting the Book of Mormon","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-bom.png","excerpt":null,"book_series_id":19,"series_ordering":2,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-book-of-mormon","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":1057,"title":"Chart 170: Comparison of Chapter Divisions: 1830 and 1981 Editions","subtitle":null,"online_book_id":64,"excerpt":null,"content":"$1c","intro_text":null,"page_number":187,"previous_chapter":"chart-169-testimony-of-the-eight-witnesses","next_chapter":"section-15-invitations-of-the-book-of-mormon","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CBM-170.pdf","footnotes":null,"slug":"chart-170-comparison-of-chapter-divisions-1830-and-1981-editions","public":1,"wp_id":25195,"test":"1056","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"}]}}] 1e:I[38175,[],"IconMark"] 16:{"metadata":[["$","title","0",{"children":"Chart 170: Comparison of Chapter Divisions: 1830 and 1981 Editions - Charting the Book of Mormon"}],["$","meta","1",{"name":"description","content":"Read this chapter from our online book collection."}],["$","meta","2",{"name":"keywords","content":"Chart 170: Comparison of Chapter Divisions: 1830 and 1981 Editions, Charting the Book of Mormon, online books, BYU Studies"}],["$","link","3",{"rel":"canonical","href":"https://byustudies.byu.edu/online-book/charting-the-book-of-mormon/chart-170-comparison-of-chapter-divisions-1830-and-1981-editions"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L1e","5",{}]],"error":null,"digest":"$undefined"} 1a:"$16:metadata"

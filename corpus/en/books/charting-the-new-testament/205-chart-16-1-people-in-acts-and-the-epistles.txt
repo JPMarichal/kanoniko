@@ -1,0 +1,17 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+1e:T459,
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":849,"title":"Chart 16-1: People in Acts and the Epistles","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":207,"previous_chapter":"section-16-people-and-places","next_chapter":"chart-16-2-places-in-acts-and-the-epistles","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-16-01.pdf","footnotes":null,"slug":"chart-16-1-people-in-acts-and-the-epistles","public":1,"wp_id":25955,"test":"848","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[]}}]

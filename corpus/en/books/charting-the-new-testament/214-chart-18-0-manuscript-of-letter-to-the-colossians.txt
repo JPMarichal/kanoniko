@@ -1,0 +1,21 @@
+[caption][/caption]
+
+Explanation:
+
+After the death of the original apostles, other leaders continued to write and teach their followers. Coming from the late first and second centuries A.D., some of the exhortations and doctrinal expositions of these early Christian leaders have survived to the modern era. Because chronologically they follow the apostles, and more importantly because some had been chosen and ordained bishops by men who were apostles, these authors are collectively identified by the term "apostolic fathers." As chart 18-1 shows, their writings reveal their struggle to maintain doctrinal purity in a rapidly growing church, for which the poor communication opportunities of the time were made more difficult by Jewish and sometimes Greek or Roman opposition to Christianity. The teachings of the apostolic fathers are varied and span a considerable time, but in general they can be categorized as (1) exhortations to Christians to continue righteous behavior, (2) explanations of Christianity to non-Christians, and (3) condemnation of doctrinal corruption and growing apostasy. Several of these writings were actually once included in early versions of the New Testament, but later they were removed by Constantine's bishops.
+
+Reference:
+
+J. B. Lightfoot, The Apostolic Fathers, ed. M.W. Holmes (Grand Rapids: Baker, 1989).
+
+1e:T609,
+
+Explanation:
+
+After the death of the original apostles, other leaders continued to write and teach their followers. Coming from the late first and second centuries A.D., some of the exhortations and doctrinal expositions of these early Christian leaders have survived to the modern era. Because chronologically they follow the apostles, and more importantly because some had been chosen and ordained bishops by men who were apostles, these authors are collectively identified by the term "apostolic fathers." As chart 18-1 shows, their writings reveal their struggle to maintain doctrinal purity in a rapidly growing church, for which the poor communication opportunities of the time were made more difficult by Jewish and sometimes Greek or Roman opposition to Christianity. The teachings of the apostolic fathers are varied and span a considerable time, but in general they can be categorized as (1) exhortations to Christians to continue righteous behavior, (2) explanations of Christianity to non-Christians, and (3) condemnation of doctrinal corruption and growing apostasy. Several of these writings were actually once included in early versions of the New Testament, but later they were removed by Constantine's bishops.
+
+Reference:
+
+J. B. Lightfoot, The Apostolic Fathers, ed. M.W. Holmes (Grand Rapids: Baker, 1989).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":858,"title":"Chart 18-0: Manuscript of Letter to the Colossians","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":216,"previous_chapter":"section-18-the-post-apostolic-era","next_chapter":"chart-18-1-the-apostolic-fathers","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-18-00.pdf","footnotes":null,"slug":"chart-18-0-manuscript-of-letter-to-the-colossians","public":1,"wp_id":25962,"test":"857","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Reference:","tagName":"H2"}]}}]

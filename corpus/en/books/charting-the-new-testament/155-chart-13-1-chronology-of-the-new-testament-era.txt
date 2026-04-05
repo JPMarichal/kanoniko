@@ -1,0 +1,29 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+The timeline of the apostolic era on chart 13-1 encompasses events from the time of Christ until the departure of the last of the apostles, John the Beloved. About half of the events noted are of certain date. Most relate to Roman governance and are documented in Roman historical records, official transcripts, or monuments. Some of the notations (in italics) are of conjectural date, based on careful reconstruction of the activities of leading individuals and the most likely chronological sequencing of events. The remaining items listed very likely occurred as dated, since they fit into a sequence of related happenings, or are confirmed by strong, though not certain, evidence. These dates are listed in accordance with the dating system of the time, that of the Roman year, with the modern date equivalent also provided. Events listed are either of particular importance to early Christian history or of empire-wide importance.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St.Martin's, 1975).
+
+F. E. Peters, The Harvest of Hellenism (New York: Simon & Schuster, 1970).
+
+1e:T688,
+
+Explanation:
+
+The timeline of the apostolic era on chart 13-1 encompasses events from the time of Christ until the departure of the last of the apostles, John the Beloved. About half of the events noted are of certain date. Most relate to Roman governance and are documented in Roman historical records, official transcripts, or monuments. Some of the notations (in italics) are of conjectural date, based on careful reconstruction of the activities of leading individuals and the most likely chronological sequencing of events. The remaining items listed very likely occurred as dated, since they fit into a sequence of related happenings, or are confirmed by strong, though not certain, evidence. These dates are listed in accordance with the dating system of the time, that of the Roman year, with the modern date equivalent also provided. Events listed are either of particular importance to early Christian history or of empire-wide importance.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St.Martin's, 1975).
+
+F. E. Peters, The Harvest of Hellenism (New York: Simon & Schuster, 1970).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":799,"title":"Chart 13-1: Chronology of the New Testament Era","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":157,"previous_chapter":"section-13-the-apostolic-era","next_chapter":"chart-13-2-chronological-order-of-books","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-13-01.pdf","footnotes":null,"slug":"chart-13-1-chronology-of-the-new-testament-era","public":1,"wp_id":25907,"test":"798","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

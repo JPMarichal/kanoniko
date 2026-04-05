@@ -1,0 +1,29 @@
+[caption][/caption]
+
+Explanation:
+
+Charts 11-6, 11-7, 11-8
+
+Charts 11-6 through 11-8 reveal some interesting features of the vocabularies of Matthew, Mark, and Luke. This information may be relevant in assessing the degree of dependence or independence of these writers on each other. Chart 11-6 shows that some of Mark's words are unique to that work; others he shares only with Matthew and Luke; and over half are fairly common throughout the New Testament.
+
+Chart 11-7 examines the degree of overlap that exists between the material of Matthew with that of the other two synoptic writers and, similarly, between the material of Luke and the other two. Interestingly, all three Gospels contain a fair amount of unique material, although Luke contains the most information (almost 40 percent) not mentioned in the others. In addition, all three share a significant amount of common ground, as chart 11-8 confirms.
+
+Reference:
+
+Eta Linnemann, Is there a Synoptic Problem? Rethinking the Literary Dependence of the First Three Gospels, trans. Robert W. Yarbrough (Grand Rapids: Baker, 1992).
+
+1e:T524,
+
+Explanation:
+
+Charts 11-6, 11-7, 11-8
+
+Charts 11-6 through 11-8 reveal some interesting features of the vocabularies of Matthew, Mark, and Luke. This information may be relevant in assessing the degree of dependence or independence of these writers on each other. Chart 11-6 shows that some of Mark's words are unique to that work; others he shares only with Matthew and Luke; and over half are fairly common throughout the New Testament.
+
+Chart 11-7 examines the degree of overlap that exists between the material of Matthew with that of the other two synoptic writers and, similarly, between the material of Luke and the other two. Interestingly, all three Gospels contain a fair amount of unique material, although Luke contains the most information (almost 40 percent) not mentioned in the others. In addition, all three share a significant amount of common ground, as chart 11-8 confirms.
+
+Reference:
+
+Eta Linnemann, Is there a Synoptic Problem? Rethinking the Literary Dependence of the First Three Gospels, trans. Robert W. Yarbrough (Grand Rapids: Baker, 1992).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":779,"title":"Chart 11-8: Comparison of Parallel Synoptic Passages' Vocabulary","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":137,"previous_chapter":"chart-11-7-matthews-overlap-with-mark-and-luke-lukes-overlap-with-mark-and-matthew","next_chapter":"chart-11-9-pauls-unique-greek-vocabulary-by-individual-epistle","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-11-08.pdf","footnotes":null,"slug":"chart-11-8-comparison-of-parallel-synoptic-passages-vocabulary","public":1,"wp_id":25816,"test":"778","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 11-6, 11-7, 11-8","tagName":"H3"},{"id":"heading-2","textContent":"Reference:","tagName":"H2"}]}}]

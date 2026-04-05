@@ -1,0 +1,35 @@
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+Charts 5-5, 5-6
+
+The empire of the Romans encompassed the Mediterranean and the surrounding areas in Europe, western Asia, and North Africa. The empire was divided for administrative purposes into provinces. In New Testament times during the reign of Augustus, the empire had achieved boundaries consistent with the natural geography of the lands surrounding the Mediterranean. Britain and Thrace were added as provinces under Claudius and the territory of the empire reached its fullest extent with Trajan's additions of Dacia and the eastern provinces of Armenia, Assyria, and Mesopotamia.
+
+The boundaries of the empire were protected by the Roman legions. Augustus stationed them in more or less permanent quarters in the provinces bordering the frontier. The individual legions and the provinces where they were quartered are listed on the opposite page.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St. Martin's, 1975), 436-37.
+
+G. Webster, The Roman Imperial Army of the First and Second Centuries A.D. (London: Block, 1979).
+
+1e:T5d3,
+
+Explanation:
+
+Charts 5-5, 5-6
+
+The empire of the Romans encompassed the Mediterranean and the surrounding areas in Europe, western Asia, and North Africa. The empire was divided for administrative purposes into provinces. In New Testament times during the reign of Augustus, the empire had achieved boundaries consistent with the natural geography of the lands surrounding the Mediterranean. Britain and Thrace were added as provinces under Claudius and the territory of the empire reached its fullest extent with Trajan's additions of Dacia and the eastern provinces of Armenia, Assyria, and Mesopotamia.
+
+The boundaries of the empire were protected by the Roman legions. Augustus stationed them in more or less permanent quarters in the provinces bordering the frontier. The individual legions and the provinces where they were quartered are listed on the opposite page.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St. Martin's, 1975), 436-37.
+
+G. Webster, The Roman Imperial Army of the First and Second Centuries A.D. (London: Block, 1979).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":695,"title":"Chart 5-6: The Roman Empire from Augustus to Trajan","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":53,"previous_chapter":"chart-5-5-distribution-of-legions-in-the-early-empire","next_chapter":"section-6-demographics-of-the-roman-empire","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-05-06.pdf","footnotes":null,"slug":"chart-5-6-the-roman-empire-from-augustus-to-trajan","public":1,"wp_id":25709,"test":"694","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 5-5, 5-6","tagName":"H3"},{"id":"heading-2","textContent":"References:","tagName":"H2"}]}}]

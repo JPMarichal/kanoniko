@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+Knowing how Rome governed its provinces helps readers understand the situation in Judea during New Testament times. Roman provinces were first formed in the middle of the third century B.C. after the conclusion of the First Punic War. It was standard Roman practice under the republic to dispatch a former magistrate and give him extended authority (imperium prorogatum) to act as governor for several years. The Roman governor usually handled judicial or administrative matters involving Roman citizens; but if no Roman citizen was involved, he delegated the matter to local officials who continued to preside over the local populace. The basic premise of Roman provincial government was to have as little direct Roman involvement as possible.
+
+With the advent of imperial government under Augustus, these principles were not abandoned. The most important provinces were governed directly by the emperor, who appointed his own legates, or deputies, with authority to command large complements of troops. Significant provinces were administered directly by the Senate through proconsuls and propraetors. The least important provinces, such as Judea, were assigned to minor officials known as procurators or prefects. Their provinces did not contain Roman armies but only a small contingent of six hundred soldiers to serve as the governor's bodyguard. Pontius Pilate was a low ranking prefect.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St. Martin's, 1975).
+
+John F. Hall, "Procurator," ABD, 5:473-74.
+
+James S. Jeffers, The Greco-Roman World of the New Testament Era (Downers Grove, Ill.: InterVarsity, 1999), 110-79.
+
+1e:T77e,
+
+Explanation:
+
+Knowing how Rome governed its provinces helps readers understand the situation in Judea during New Testament times. Roman provinces were first formed in the middle of the third century B.C. after the conclusion of the First Punic War. It was standard Roman practice under the republic to dispatch a former magistrate and give him extended authority (imperium prorogatum) to act as governor for several years. The Roman governor usually handled judicial or administrative matters involving Roman citizens; but if no Roman citizen was involved, he delegated the matter to local officials who continued to preside over the local populace. The basic premise of Roman provincial government was to have as little direct Roman involvement as possible.
+
+With the advent of imperial government under Augustus, these principles were not abandoned. The most important provinces were governed directly by the emperor, who appointed his own legates, or deputies, with authority to command large complements of troops. Significant provinces were administered directly by the Senate through proconsuls and propraetors. The least important provinces, such as Judea, were assigned to minor officials known as procurators or prefects. Their provinces did not contain Roman armies but only a small contingent of six hundred soldiers to serve as the governor's bodyguard. Pontius Pilate was a low ranking prefect.
+
+References:
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St. Martin's, 1975).
+
+John F. Hall, "Procurator," ABD, 5:473-74.
+
+James S. Jeffers, The Greco-Roman World of the New Testament Era (Downers Grove, Ill.: InterVarsity, 1999), 110-79.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":684,"title":"Chart 4-5: Administration of Roman Provinces","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":42,"previous_chapter":"charts-4-3-and-4-4-roman-government-officials-of-the-republic-and-of-the-empire","next_chapter":"chart-4-6-rights-and-privileges-of-citizenship","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-04-05.pdf","footnotes":null,"slug":"chart-4-5-administration-of-roman-provinces","public":1,"wp_id":25699,"test":"683","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

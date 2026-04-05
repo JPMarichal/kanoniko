@@ -1,0 +1,31 @@
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+Charts 10-2 to 10-6
+
+Each of the four Gospels provides unique information about the arrest, interrogations, trials, and execution of Jesus. The following charts spell out the data that is found exclusively in each of these accounts. Charts 10-3 through 10-6 are based on the Greek text of the New Testament, further details of which are conveniently displayed in tabular form in Kurt Aland, Synopsis of the Four Gospels, published by the German Bible Society. Careful readers of the New Testament will gain appreciation for each of the four Gospels by seeing how each one uniquely contributes to our understanding of the trial of Jesus. Chart 10-2 points out the details supplied exclusively by the Joseph Smith Translation.
+
+References:
+
+Raymond E. Brown, The Death of the Messiah (New York: Doubleday, 1994).
+
+John W. Welch and Matthew G. Wells, "Recent Bibliography on the Trials of Jesus," BYU Studies 32/4 (1992): 78-86.
+
+1e:T553,
+
+Explanation:
+
+Charts 10-2 to 10-6
+
+Each of the four Gospels provides unique information about the arrest, interrogations, trials, and execution of Jesus. The following charts spell out the data that is found exclusively in each of these accounts. Charts 10-3 through 10-6 are based on the Greek text of the New Testament, further details of which are conveniently displayed in tabular form in Kurt Aland, Synopsis of the Four Gospels, published by the German Bible Society. Careful readers of the New Testament will gain appreciation for each of the four Gospels by seeing how each one uniquely contributes to our understanding of the trial of Jesus. Chart 10-2 points out the details supplied exclusively by the Joseph Smith Translation.
+
+References:
+
+Raymond E. Brown, The Death of the Messiah (New York: Doubleday, 1994).
+
+John W. Welch and Matthew G. Wells, "Recent Bibliography on the Trials of Jesus," BYU Studies 32/4 (1992): 78-86.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":757,"title":"Chart 10-6: Unique Information or Features in John","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":115,"previous_chapter":"chart-10-5-unique-information-or-features-in-luke","next_chapter":"chart-10-7-the-arrest-of-jesus","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-10-06.pdf","footnotes":null,"slug":"chart-10-6-unique-information-or-features-in-john","public":1,"wp_id":25795,"test":"756","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 10-2 to 10-6","tagName":"H3"},{"id":"heading-2","textContent":"References:","tagName":"H2"}]}}]

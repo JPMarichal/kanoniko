@@ -1,0 +1,37 @@
+[caption][/caption]
+
+Explanation:
+
+Charts 15-18, 15-19, 15-20, 15-21
+
+Chiasmus and several varieties of inverted parallel structures are found in many places in the New Testament. In reading Bible commentaries, students will often encounter figures displaying chiastic patterns. The following charts offer a few samples of such literary arrangements. Chart 15-18 lays out the elegant configuration of the Hymn to Charity (Agape) found in 1 Corinthians 13; Paul may have imported or modified this poetical unit from some other source. Chart 15-19 helps a reader to follow the logic of the Epistle to the Galatians, focusing especially on the central chiasm in Galatians 4:1-7. Chart 15-20 gives an overview of the letter of Paul to Philemon. The argument of the Epistle to the Hebrews also has a central pivot point, drawing attention to Jesus Christ as the new High Priest. These and many other examples show that Paul and other writers of the New Testament were skilled writers, conversant with the literary styles of their day.
+
+References:
+
+John W. Welch and Daniel B. McKinley, Chiasmus Bibliography (Provo, Utah: Research Press, 1999), 116-45.
+
+Nils W. Lund, Chiasmus in the New Testament (Chapel Hill: University of North Carolina Press, 1942).
+
+John W. Welch, "Chiasmus in the New Testament," in Chiasmus in Antiquity, ed. John W. Welch (Hildesheim, Germany: Gerstenberg, 1981), 211-49.
+
+On chiasmus in 1 Corinthians, see Lund, 176; Welch, 215-16; in Galatians, see Welch, 214; in Philemon see, Thomas Boys, Tactica Sacra (London: Hamilton, 1824), 65-67; Lund, 219; Welch, 225-26; in Hebrews, see Welch, 220.
+
+1e:T75b,
+
+Explanation:
+
+Charts 15-18, 15-19, 15-20, 15-21
+
+Chiasmus and several varieties of inverted parallel structures are found in many places in the New Testament. In reading Bible commentaries, students will often encounter figures displaying chiastic patterns. The following charts offer a few samples of such literary arrangements. Chart 15-18 lays out the elegant configuration of the Hymn to Charity (Agape) found in 1 Corinthians 13; Paul may have imported or modified this poetical unit from some other source. Chart 15-19 helps a reader to follow the logic of the Epistle to the Galatians, focusing especially on the central chiasm in Galatians 4:1-7. Chart 15-20 gives an overview of the letter of Paul to Philemon. The argument of the Epistle to the Hebrews also has a central pivot point, drawing attention to Jesus Christ as the new High Priest. These and many other examples show that Paul and other writers of the New Testament were skilled writers, conversant with the literary styles of their day.
+
+References:
+
+John W. Welch and Daniel B. McKinley, Chiasmus Bibliography (Provo, Utah: Research Press, 1999), 116-45.
+
+Nils W. Lund, Chiasmus in the New Testament (Chapel Hill: University of North Carolina Press, 1942).
+
+John W. Welch, "Chiasmus in the New Testament," in Chiasmus in Antiquity, ed. John W. Welch (Hildesheim, Germany: Gerstenberg, 1981), 211-49.
+
+On chiasmus in 1 Corinthians, see Lund, 176; Welch, 215-16; in Galatians, see Welch, 214; in Philemon see, Thomas Boys, Tactica Sacra (London: Hamilton, 1824), 65-67; Lund, 219; Welch, 225-26; in Hebrews, see Welch, 220.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":844,"title":"Chart 15-18: Chiastic Hymn to Charity","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":202,"previous_chapter":"chart-15-17-comparing-conversionspaul-and-alma","next_chapter":"chart-15-19-chiasmus-in-galatians","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-15-18.pdf","footnotes":null,"slug":"chart-15-18-chiastic-hymn-to-charity","public":1,"wp_id":25951,"test":"843","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 15-18, 15-19, 15-20, 15-21","tagName":"H3"},{"id":"heading-2","textContent":"References:","tagName":"H2"}]}}]

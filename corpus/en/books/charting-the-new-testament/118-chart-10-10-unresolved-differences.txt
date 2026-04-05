@@ -1,0 +1,25 @@
+[caption][/caption]
+
+Explanation:
+
+(Charts 10-9, 10-10, 10-11)
+
+The trial of Jesus is one of the most complicated historical matters in the entire New Testament and perhaps in all of legal history. Commentators have greatest difficulty dealing with varying details in the four accounts, particularly when those variations contradict each other. Chart 10-9 spells out the varying details. In these cases, it is possible to reconcile the accounts by assuming that both are correct, even though this may produce puzzling or awkward results. Chart 10-10 shows twenty ways in which the accounts of the trials of Jesus contradict each other. In these instances, reconciliation is less obvious. Usually a reader must choose to follow one account or another. Chart 10-11 points out well-attested elements in the trial of Jesus that are absent in some of the Gospels but are present in all three of the other accounts. John contains by far the greatest amount of unique information, but Luke also has expanded his account well beyond those of Mark and Matthew.
+
+Reference:
+
+Kurt Aland, Synopsis of the Four Gospels: Greek-English Edition of the Synopsis Quattuor Evangeliorum, 10th ed. (Stuttgart: German Bible Society, 1993).
+
+1e:T5b1,
+
+Explanation:
+
+(Charts 10-9, 10-10, 10-11)
+
+The trial of Jesus is one of the most complicated historical matters in the entire New Testament and perhaps in all of legal history. Commentators have greatest difficulty dealing with varying details in the four accounts, particularly when those variations contradict each other. Chart 10-9 spells out the varying details. In these cases, it is possible to reconcile the accounts by assuming that both are correct, even though this may produce puzzling or awkward results. Chart 10-10 shows twenty ways in which the accounts of the trials of Jesus contradict each other. In these instances, reconciliation is less obvious. Usually a reader must choose to follow one account or another. Chart 10-11 points out well-attested elements in the trial of Jesus that are absent in some of the Gospels but are present in all three of the other accounts. John contains by far the greatest amount of unique information, but Luke also has expanded his account well beyond those of Mark and Matthew.
+
+Reference:
+
+Kurt Aland, Synopsis of the Four Gospels: Greek-English Edition of the Synopsis Quattuor Evangeliorum, 10th ed. (Stuttgart: German Bible Society, 1993).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":761,"title":"Chart 10-10: Unresolved Differences ","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":"","page_number":119,"previous_chapter":"chart-10-9-varying-details","next_chapter":"chart-10-11-conspicuous-omissions","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-10-10.pdf","footnotes":"","slug":"chart-10-10-unresolved-differences","public":1,"wp_id":25799,"test":"760","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Reference:","tagName":"H2"}]}}]
