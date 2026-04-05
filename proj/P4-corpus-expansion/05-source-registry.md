@@ -121,54 +121,54 @@ fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP →
 
 **🟢 P3 — Fe, salud mental, vida práctica, apologética:**
 
-| Slug | Título | Cat | Notas |
-|------|--------|-----|-------|
-| freedom-scrupulosity | Freedom from Scrupulosity | 3 | Salud mental + fe |
-| our-savior-self-doubt | Our Savior from Self-Doubt | 3 | Auto-duda y fe |
-| finding-christ-covenant-path | Finding Christ in the Covenant Path | 3 | Sendero del convenio |
-| reason-faith | A Reason for Faith | 3 | Apologética SUD |
-| no-weapon-shall-prosper | No Weapon Shall Prosper | 1,12 | Apologética SUD |
-| shield-faith | Shield of Faith | 1,3,12 | Apologética |
-| divine-design | By Divine Design | 3,11 | Propósito divino |
-| moral-foundations-standing-firm-world-shifting-values | Moral Foundations | 16,3 | Ética y valores |
-| let-us-reason-together | Let Us Reason Together | 11 | Diálogo interreligioso |
-| converging-paths-truth | Converging Paths to Truth | 1,11,16 | Diálogo ecuménico |
-| eye-faith | An Eye of Faith | 12,2 | Fe y razón |
-| notes-amateur | Notes from an Amateur | 11 | Reflexiones sobre la fe |
-| religion-mental-health-latter-day-saints | Religion, Mental Health, and the LDS | 3 | Salud mental |
-| religion-family-connection | The Religion and Family Connection | 3,17 | Fe y familia |
-| no-other-success | No Other Success | 3,2 | Éxito y fe |
-| commitment-covenant | Commitment to the Covenant | 3 | Convenios |
+| Slug | Título | Cat | Estado | Notas |
+|------|--------|-----|--------|-------|
+| freedom-scrupulosity | Freedom from Scrupulosity | 3 | ❌ PDF-only | Salud mental + fe |
+| our-savior-self-doubt | Our Savior from Self-Doubt | 3 | ❌ PDF-only | Auto-duda y fe |
+| finding-christ-covenant-path | Finding Christ in the Covenant Path | 3 | ✅ ingested | 18 files |
+| reason-faith | A Reason for Faith | 3 | ✅ ingested | 19 files |
+| no-weapon-shall-prosper | No Weapon Shall Prosper | 1,12 | ✅ ingested | 20 files |
+| shield-faith | Shield of Faith | 1,3,12 | ✅ ingested | 14 files |
+| divine-design | By Divine Design | 3,11 | ✅ ingested | 12 files |
+| moral-foundations-standing-firm-world-shifting-values | Moral Foundations | 16,3 | ✅ ingested | 16 files |
+| let-us-reason-together | Let Us Reason Together | 11 | ✅ ingested | 22 files |
+| converging-paths-truth | Converging Paths to Truth | 1,11,16 | ✅ ingested | 9 files |
+| eye-faith | An Eye of Faith | 12,2 | ✅ ingested | 21 files |
+| notes-amateur | Notes from an Amateur | 11 | ✅ ingested | 44 files |
+| religion-mental-health-latter-day-saints | Religion, Mental Health, and the LDS | 3 | ✅ ingested | 14 files |
+| religion-family-connection | The Religion and Family Connection | 3,17 | ✅ ingested | 20 files |
+| no-other-success | No Other Success | 3,2 | ✅ ingested | 12 files |
+| commitment-covenant | Commitment to the Covenant | 3 | ✅ ingested | 14 files |
 
 **🔵 P4 — Historia (selectiva, no exhaustiva):**
 
-| Slug | Título | Cat | Notas |
-|------|--------|-----|-------|
-| joseph-smith-visionary | Joseph Smith as a Visionary | 2 | JS como visionario |
-| council-fifty | The Council of Fifty | 2 | Consejo de los Cincuenta |
-| darkness-unto-light | From Darkness unto Light | 2 | Surgimiento del LdM |
-| coming-forth-book-mormon | The Coming Forth of the Book of Mormon | 7,2,15 | Surgimiento del LdM |
-| joseph-smiths-seer-stones | Joseph Smith's Seer Stones | 1,2 | Piedras videntes |
-| joseph-smiths-uncanonized-revelations | Joseph Smith's Uncanonized Revelations | 2 | Revelaciones no canónicas |
-| sister-prophet | Sister to the Prophet | 2 | Lucy Mack Smith — mujer clave |
-| my-dear-sister | My Dear Sister | 2 | Mujeres de la Restauración |
-| brigham-young-journals | The Brigham Young Journals | 2 | Diarios de BY |
-| exploring-first-vision | Exploring the First Vision | 1,2,11 | Primera Visión |
-| repicturing-restoration | Repicturing the Restoration | 2 | Arte de la Restauración |
-| joseph-smith-his-first-vision | Joseph Smith and His First Vision | 2,13 | Primera Visión académico |
-| well-sing-well-shout | We'll Sing and We'll Shout | 2 | Música SUD histórica |
+| Slug | Título | Cat | Estado | Notas |
+|------|--------|-----|--------|-------|
+| joseph-smith-visionary | Joseph Smith as a Visionary | 2 | ❌ PDF-only | JS como visionario |
+| council-fifty | The Council of Fifty | 2 | ✅ ingested | 18 files |
+| darkness-unto-light | From Darkness unto Light | 2 | ❌ PDF-only | Surgimiento del LdM |
+| coming-forth-book-mormon | The Coming Forth of the Book of Mormon | 7,2,15 | ✅ ingested | 16 files |
+| joseph-smiths-seer-stones | Joseph Smith's Seer Stones | 1,2 | ❌ PDF-only | Piedras videntes |
+| joseph-smiths-uncanonized-revelations | Joseph Smith's Uncanonized Revelations | 2 | ❌ PDF-only | Revelaciones no canónicas |
+| sister-prophet | Sister to the Prophet | 2 | ❌ PDF-only | Lucy Mack Smith — mujer clave |
+| brigham-young-journals | The Brigham Young Journals | 2 | ❌ PDF-only | Diarios de BY |
+| my-dear-sister | My Dear Sister | 2 | ✅ ingested | 27 files |
+| exploring-first-vision | Exploring the First Vision | 1,2,11 | ✅ ingested | 11 files |
+| repicturing-restoration | Repicturing the Restoration | 2 | ❌ PDF-only | Arte de la Restauración |
+| joseph-smith-his-first-vision | Joseph Smith and His First Vision | 2,13 | ✅ ingested | 15 files |
+| well-sing-well-shout | We'll Sing and We'll Shout | 2 | ✅ ingested | 38 files |
 
 **⚪ P5 — Relaciones interreligiosas y mundo:**
 
-| Slug | Título | Cat | Notas |
-|------|--------|-----|-------|
-| view-hebrews | View of the Hebrews | 17 | Texto histórico relevante para LdM |
-| peter-popes | Peter and the Popes | 17 | Pedro y la sucesión apostólica |
-| understanding-covenants-communities | Understanding Covenants and Communities | 17 | Convenios interreligioso |
-| mormons-muslims | Mormons and Muslims | 17 | Diálogo SUD-Islam |
-| global-mormonism-21st-century | Global Mormonism in the 21st Century | 16 | Iglesia global |
-| salvation-christ-comparative-christian-views | Salvation in Christ: Comparative Views | 2 | Soteriología comparada |
-| alexander-campbell-joseph-smith | Alexander Campbell and Joseph Smith | 2 | Contexto restauracionista |
+| Slug | Título | Cat | Estado | Notas |
+|------|--------|-----|--------|-------|
+| view-hebrews | View of the Hebrews | 17 | ✅ ingested | 8 files |
+| peter-popes | Peter and the Popes | 17 | ✅ ingested | 16 files |
+| understanding-covenants-communities | Understanding Covenants and Communities | 17 | ❌ PDF-only | Convenios interreligioso |
+| mormons-muslims | Mormons and Muslims | 17 | ✅ ingested | 18 files |
+| global-mormonism-21st-century | Global Mormonism in the 21st Century | 16 | ✅ ingested | 22 files |
+| salvation-christ-comparative-christian-views | Salvation in Christ: Comparative Views | 2 | ✅ ingested | 17 files |
+| alexander-campbell-joseph-smith | Alexander Campbell and Joseph Smith | 2 | ❌ PDF-only | Contexto restauracionista |
 
 ---
 
@@ -202,52 +202,52 @@ fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP →
 
 **BYU NT Commentary (4 volúmenes):**
 
-| Slug | Prioridad | Notas |
-|------|-----------|-------|
-| the-testimony-of-luke | **ALTA** | Comentario académico SUD del NT |
-| the-gospel-according-to-mark | **ALTA** | |
-| pauls-first-epistle-to-the-corinthians | ALTA | |
-| the-revelation-of-john-the-apostle | ALTA | |
+| Slug | Prioridad | Estado | Notas |
+|------|-----------|--------|-------|
+| the-testimony-of-luke | **ALTA** | ✅ ingested | 29 files |
+| the-gospel-according-to-mark | **ALTA** | ✅ ingested | 30 files |
+| pauls-first-epistle-to-the-corinthians | ALTA | ✅ ingested | 21 files |
+| the-revelation-of-john-the-apostle | ALTA | ✅ ingested | 27 files |
 
 **BYU NT Commentary: New Renditions (14 volúmenes):**
 
-| Slug | Prioridad | Notas |
-|------|-----------|-------|
-| the-gospel-according-to-matthew-a-new-rendition | MEDIA | Traducción moderna del NT |
-| the-gospel-according-to-mark-a-new-rendition | MEDIA | |
-| the-testimony-of-luke-a-new-rendition | MEDIA | |
-| pauls-first-epistle-to-the-corinthians-a-new-rendition | MEDIA | |
-| pauls-second-epistle-to-the-corinthians-a-new-rendition | MEDIA | |
-| the-epistle-to-the-ephesians-a-new-rendition | MEDIA | |
-| pauls-first-epistle-to-the-thessalonians-a-new-rendition | MEDIA | |
-| pauls-second-epistle-to-the-thessalonians-a-new-rendition | MEDIA | |
-| pauls-first-epistle-to-timothy-a-new-rendition | MEDIA | |
-| pauls-second-epistle-to-timothy-a-new-rendition | MEDIA | |
-| pauls-epistle-to-titus-a-new-rendition | MEDIA | |
-| philemon-a-new-rendition | MEDIA | |
-| epistle-to-the-hebrews-a-new-rendition | MEDIA | |
-| the-revelation-of-john-the-apostle-a-new-rendition | MEDIA | |
+| Slug | Prioridad | Estado | Notas |
+|------|-----------|--------|-------|
+| the-gospel-according-to-matthew-a-new-rendition | MEDIA | ✅ ingested | 28 files |
+| the-gospel-according-to-mark-a-new-rendition | MEDIA | ✅ ingested | 16 files |
+| the-testimony-of-luke-a-new-rendition | MEDIA | ✅ ingested | 24 files |
+| pauls-first-epistle-to-the-corinthians-a-new-rendition | MEDIA | ✅ ingested | 16 files |
+| pauls-second-epistle-to-the-corinthians-a-new-rendition | MEDIA | ✅ ingested | 13 files |
+| the-epistle-to-the-ephesians-a-new-rendition | MEDIA | ✅ ingested | 6 files |
+| pauls-first-epistle-to-the-thessalonians-a-new-rendition | MEDIA | ✅ ingested | 5 files |
+| pauls-second-epistle-to-the-thessalonians-a-new-rendition | MEDIA | ✅ ingested | 3 files |
+| pauls-first-epistle-to-timothy-a-new-rendition | MEDIA | ✅ ingested | 6 files |
+| pauls-second-epistle-to-timothy-a-new-rendition | MEDIA | ✅ ingested | 4 files |
+| pauls-epistle-to-titus-a-new-rendition | MEDIA | ✅ ingested | 3 files |
+| philemon-a-new-rendition | MEDIA | ✅ ingested | 1 file |
+| epistle-to-the-hebrews-a-new-rendition | MEDIA | ✅ ingested | 13 files |
+| the-revelation-of-john-the-apostle-a-new-rendition | MEDIA | ✅ ingested | 22 files |
 
 **Charting the Scriptures (2):**
 
-| Slug | Prioridad | Notas |
-|------|-----------|-------|
-| charting-the-new-testament | MEDIA | Tablas/charts escriturales |
-| charting-the-book-of-mormon | MEDIA | |
+| Slug | Prioridad | Estado | Notas |
+|------|-----------|--------|-------|
+| charting-the-new-testament | MEDIA | ✅ ingested | 226 files |
+| charting-the-book-of-mormon | MEDIA | ✅ ingested | 194 files |
 
 **Libros individuales (9):**
 
-| Slug | Prioridad | Notas |
-|------|-----------|-------|
-| doctrine-and-covenants-contexts | **ALTA** | Contexto histórico de cada sección D&C |
-| opening-the-heavens | **ALTA** | Manifestaciones divinas 1820-1844, fuentes primarias |
-| my-fellow-servants | ALTA | Historia del sacerdocio |
-| sustaining-the-law | MEDIA | Encuentros legales de JS |
-| the-journals-of-william-e-mclellin | MEDIA | Diario de apóstol temprano (1831-36) |
-| the-willie-handcart-company | MEDIA | Historia pionera |
-| voyages-of-faith | BAJA | Historia mormona del Pacífico |
-| wayward-saints | BAJA | Movimiento Godbeite |
-| the-st-louis-luminary | BAJA | Periódico SUD histórico |
+| Slug | Prioridad | Estado | Notas |
+|------|-----------|--------|-------|
+| doctrine-and-covenants-contexts | **ALTA** | ✅ ingested | 136 files |
+| opening-the-heavens | **ALTA** | ✅ ingested | 13 files |
+| my-fellow-servants | ALTA | ✅ ingested | 27 files |
+| sustaining-the-law | MEDIA | ✅ ingested | 25 files |
+| the-journals-of-william-e-mclellin | MEDIA | ✅ ingested | 28 files |
+| the-willie-handcart-company | MEDIA | ✅ ingested | 11 files |
+| voyages-of-faith | BAJA | ✅ ingested | 30 files |
+| wayward-saints | BAJA | ✅ ingested | 25 files |
+| the-st-louis-luminary | BAJA | ❌ not attempted | Periódico SUD histórico |
 
 **Newsletters (ignorar):** 2 newsletters de BYU Religious Publications — no relevantes.
 
@@ -265,66 +265,66 @@ fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP →
 > El libro "Discourses of Brigham Young" (#74447) ya está en el corpus
 > como antología temática compilada por Widtsoe.
 
-### P2 — Alta prioridad doctrinal (no en corpus)
+### P2 — Alta prioridad doctrinal ✅
 
-| # | Título | Autor | Notas |
-|---|--------|-------|-------|
-| 56684 | Lectures on Faith | Joseph Smith Jr. | Doctrina fundacional Kirtland, 7 lecturas |
-| 6720 | The Wentworth Letter | Joseph Smith Jr. | Artículos de Fe originales |
-| 35470 | Key to the Science of Theology | Parley P. Pratt | Teología sistemática temprana |
-| 35554 | A Voice of Warning | Parley P. Pratt | Clásico misional, muy citado |
-| 36327 | Mediation and Atonement | John Taylor | Cristología profética |
-| 35562 | A Rational Theology | John A. Widtsoe | Teología moderna SUD |
-| 54309 | Ancient Apostles | David O. McKay | Cristología por profeta |
+| # | Título | Autor | Estado | Notas |
+|---|--------|-------|--------|-------|
+| 56684 | Lectures on Faith | Joseph Smith Jr. | ✅ 6 files | Doctrina fundacional Kirtland, 7 lecturas |
+| 6720 | The Wentworth Letter | Joseph Smith Jr. | ✅ 1 file | Artículos de Fe originales |
+| 35470 | Key to the Science of Theology | Parley P. Pratt | ✅ 17 files | Teología sistemática temprana |
+| 35554 | A Voice of Warning | Parley P. Pratt | ✅ 7 files | Clásico misional, muy citado |
+| 36327 | Mediation and Atonement | John Taylor | ✅ 24 files | Cristología profética |
+| 35562 | A Rational Theology | John A. Widtsoe | ✅ 36 files | Teología moderna SUD |
+| 54309 | Ancient Apostles | David O. McKay | ✅ 4 files | Cristología por profeta |
 
-### P3 — Biografías y memorias valiosas
+### P3 — Biografías y memorias valiosas ✅
 
-| # | Título | Autor | Notas |
-|---|--------|-------|-------|
-| 59970 | Life of Joseph Smith, the Prophet | George Q. Cannon | Biografía por apóstol |
-| 54331 | Life of a Pioneer | James S. Brown | Autobiografía, Batallón Mormón |
-| 48284 | Jacob Hamblin: A Narrative | Jacob Hamblin | Misión a indios, frontera |
-| 46391 | Memoirs of John R. Young | John R. Young | Pionero 1847 |
-| 54337 | Reminiscences of Joseph the Prophet | Edward Stevenson | Testimonios personales de JS |
-| 45049 | My First Mission | George Q. Cannon | Memorias misionales |
+| # | Título | Autor | Estado | Notas |
+|---|--------|-------|--------|-------|
+| 59970 | Life of Joseph Smith, the Prophet | George Q. Cannon | ✅ 65 files | Biografía por apóstol |
+| 54331 | Life of a Pioneer | James S. Brown | ✅ 67 files | Autobiografía, Batallón Mormón |
+| 48284 | Jacob Hamblin: A Narrative | Jacob Hamblin | ✅ 24 files | Misión a indios, frontera |
+| 46391 | Memoirs of John R. Young | John R. Young | ✅ 1 file | Pionero 1847 (single doc) |
+| 54337 | Reminiscences of Joseph the Prophet | Edward Stevenson | ✅ 3 files | Testimonios personales de JS |
+| 45049 | My First Mission | George Q. Cannon | ✅ 17 files | Memorias misionales |
 
-### P3 — Historia y apologética
+### P3 — Historia y apologética ✅
 
-| # | Título | Autor | Notas |
-|---|--------|-------|-------|
-| 42152 | The Mormon Battalion | B. H. Roberts | Historia militar |
-| 44907 | Interesting Account of Remarkable Visions | Orson Pratt | Relato temprano Primera Visión |
-| 54278 | Proclamation of the Twelve Apostles | Council of Q12 | Documento fundacional 1845 |
-| 45006 | General Smith's Views | Joseph Smith Jr. | Plataforma presidencial 1844 |
-| 49432 | Myth of the Manuscript Found | Various | Refutación tesis Spaulding |
+| # | Título | Autor | Estado | Notas |
+|---|--------|-------|--------|-------|
+| 42152 | The Mormon Battalion | B. H. Roberts | ✅ 1 file | Historia militar (single doc) |
+| 44907 | Interesting Account of Remarkable Visions | Orson Pratt | ✅ 1 file | Relato temprano Primera Visión |
+| 54278 | Proclamation of the Twelve Apostles | Council of Q12 | ✅ 1 file | Documento fundacional 1845 |
+| 45006 | General Smith's Views | Joseph Smith Jr. | ✅ 1 file | Plataforma presidencial 1844 |
+| 49432 | Myth of the Manuscript Found | Various | ✅ 1 file | Refutación tesis Spaulding |
 
-### P4 — Perspectiva femenina
+### P4 — Perspectiva femenina ✅
 
-| # | Título | Autor | Notas |
-|---|--------|-------|-------|
-| 50958 | Representative Women of Deseret | Augusta J. Crocheron | Biografías de mujeres SUD |
-| 54335 | The Women of Mormondom | Edward W. Tullidge | Historia colectiva de mujeres |
-| 51097 | Heroines of Mormondom | Various | Narrativas de mujeres pioneras |
-| 46602 | Lydia Knight's History | Susa Young Gates | Perspectiva femenina pionera |
+| # | Título | Autor | Estado | Notas |
+|---|--------|-------|--------|-------|
+| 50958 | Representative Women of Deseret | Augusta J. Crocheron | ✅ 1 file | Biografías de mujeres SUD (single doc) |
+| 54335 | The Women of Mormondom | Edward W. Tullidge | ✅ 119 files | Historia colectiva de mujeres |
+| 51097 | Heroines of Mormondom | Various | ✅ 6 files | Narrativas de mujeres pioneras |
+| 46602 | Lydia Knight's History | Susa Young Gates | ✅ 12 files | Perspectiva femenina pionera |
 
-### P4 — Colecciones y antologías
+### P4 — Colecciones y antologías (parcial)
 
-| # | Título | Autor | Notas |
-|---|--------|-------|-------|
-| 60056 | Scrap Book of Mormon Literature, Vol. 1 | Ben E. Rich | 38 panfletos (Roberts, Pratt, Snow) |
-| 54298 | Scrap Book of Mormon Literature, Vol. 2 | Ben E. Rich | Más panfletos |
-| 46734 | Scraps of Biography | Various | Colección biográfica |
+| # | Título | Autor | Estado | Notas |
+|---|--------|-------|--------|-------|
+| 60056 | Scrap Book of Mormon Literature, Vol. 1 | Ben E. Rich | ❌ pendiente | 38 panfletos — necesita config para splitting |
+| 54298 | Scrap Book of Mormon Literature, Vol. 2 | Ben E. Rich | ✅ 4 files | Más panfletos |
+| 46734 | Scraps of Biography | Various | ✅ 36 files | Colección biográfica |
 
-### P5 — Doctrina menor y miscelánea
+### P5 — Doctrina menor y miscelánea ✅
 
-| # | Título | Autor | Notas |
-|---|--------|-------|-------|
-| 56700 | Mormon Doctrine, Plain and Simple | Charles W. Penrose | Doctrinal |
-| 47336 | Cowley's Talks on Doctrine | Matthias F. Cowley | Charlas de apóstol |
-| 50536 | Gospel Themes | Orson F. Whitney | Ensayos doctrinales |
-| 46617 | The Plan of Salvation | John Morgan | Manual misional |
-| 46974 | Rays of Living Light | Charles W. Penrose | Folletos misionales |
-| 54292 | What Jesus Taught | Osborne J.P. Widtsoe | Cristología |
+| # | Título | Autor | Estado | Notas |
+|---|--------|-------|--------|-------|
+| 56700 | Mormon Doctrine, Plain and Simple | Charles W. Penrose | ✅ 1 file | Doctrinal (single doc) |
+| 47336 | Cowley's Talks on Doctrine | Matthias F. Cowley | ✅ 1 file | Charlas de apóstol |
+| 50536 | Gospel Themes | Orson F. Whitney | ✅ 1 file | Ensayos doctrinales |
+| 46617 | The Plan of Salvation | John Morgan | ✅ 1 file | Manual misional |
+| 46974 | Rays of Living Light | Charles W. Penrose | ✅ 1 file | Folletos misionales |
+| 54292 | What Jesus Taught | Osborne J.P. Widtsoe | ✅ 1 file | Cristología |
 
 ### P6 — Ficción, poesía, perspectiva externa
 
@@ -372,81 +372,81 @@ fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP →
 | 47708 | Biography of Lorenzo Snow | Eliza R. Snow | `ingested` |
 | 2443 | The Story of the Mormons | William A. Linn | `ingested` |
 
-### Historia de la Iglesia (no en corpus)
+### Historia de la Iglesia
 
-| # | Título | Autor | Prioridad |
-|---|--------|-------|-----------|
-| 59970 | The Life of Joseph Smith, the Prophet | George Q. Cannon | ALTA |
-| 56698 | The Latter-Day Prophet (para jóvenes) | George Q. Cannon | MEDIA |
-| 16534 | A Young Folks' History of the Church | Nephi Anderson | MEDIA |
-| 36486 | The City of the Mormons; Three Days at Nauvoo | Henry Caswall | BAJA |
-| 9661 | Mormon Settlement in Arizona | James H. McClintock | BAJA |
+| # | Título | Autor | Estado | Prioridad |
+|---|--------|-------|--------|-----------|
+| 59970 | The Life of Joseph Smith, the Prophet | George Q. Cannon | ✅ 65 files | ALTA |
+| 56698 | The Latter-Day Prophet (para jóvenes) | George Q. Cannon | ✅ 1 file | MEDIA |
+| 16534 | A Young Folks' History of the Church | Nephi Anderson | ❌ pendiente | MEDIA |
+| 36486 | The City of the Mormons; Three Days at Nauvoo | Henry Caswall | ❌ pendiente | BAJA |
+| 9661 | Mormon Settlement in Arizona | James H. McClintock | ❌ pendiente | BAJA |
 
-### Biografías y memorias (no en corpus)
+### Biografías y memorias
 
-| # | Título | Autor | Prioridad |
-|---|--------|-------|-----------|
-| 54331 | Life of a Pioneer | James S. Brown | MEDIA |
-| 48284 | Jacob Hamblin | Jacob Hamblin | MEDIA |
-| 46391 | Memoirs of John R. Young | John R. Young | MEDIA |
-| 46602 | Lydia Knight's History | Susa Young Gates | MEDIA |
-| 54337 | Reminiscences of Joseph the Prophet | Edward Stevenson | MEDIA |
-| 46521 | Forty Years Among the Indians | Daniel W. Jones | MEDIA |
-| 50958 | Representative Women of Deseret | Augusta J. Crocheron | MEDIA |
-| 51097 | Heroines of "Mormondom" | Various | MEDIA |
-| 46734 | Scraps of Biography | Various | BAJA |
-| 49739 | Gems of Reminiscence | Various | BAJA |
-| 49401 | Eventful Narratives | R. Aveson / O.B. Huntington | BAJA |
+| # | Título | Autor | Estado | Prioridad |
+|---|--------|-------|--------|-----------|
+| 54331 | Life of a Pioneer | James S. Brown | ✅ 67 files | MEDIA |
+| 48284 | Jacob Hamblin | Jacob Hamblin | ✅ 24 files | MEDIA |
+| 46391 | Memoirs of John R. Young | John R. Young | ✅ 1 file | MEDIA |
+| 46602 | Lydia Knight's History | Susa Young Gates | ✅ 12 files | MEDIA |
+| 54337 | Reminiscences of Joseph the Prophet | Edward Stevenson | ✅ 3 files | MEDIA |
+| 46521 | Forty Years Among the Indians | Daniel W. Jones | ❌ pendiente | MEDIA |
+| 50958 | Representative Women of Deseret | Augusta J. Crocheron | ✅ 1 file | MEDIA |
+| 51097 | Heroines of "Mormondom" | Various | ✅ 6 files | MEDIA |
+| 46734 | Scraps of Biography | Various | ✅ 36 files | BAJA |
+| 49739 | Gems of Reminiscence | Various | ❌ pendiente | BAJA |
+| 49401 | Eventful Narratives | R. Aveson / O.B. Huntington | ❌ pendiente | BAJA |
 
-### Teología y doctrina (no en corpus)
+### Teología y doctrina
 
-| # | Título | Autor | Prioridad |
-|---|--------|-------|-----------|
-| 56684 | The Lectures on Faith | Joseph Smith Jr. | **ALTA** |
-| 36327 | Mediation and Atonement | John Taylor | ALTA |
-| 35470 | Key to the Science of Theology | Parley P. Pratt | ALTA |
-| 35562 | A Rational Theology | John A. Widtsoe | ALTA |
-| 54309 | Ancient Apostles | David O. McKay | ALTA |
-| 47336 | Cowley's Talks on Doctrine | Matthias F. Cowley | MEDIA |
-| 50535 | Blood Atonement and Plural Marriage | Joseph Fielding Smith | MEDIA |
-| 47182 | The Vitality of Mormonism (ensayos) | James E. Talmage | MEDIA |
-| 5630 | The Story of "Mormonism" / Philosophy | James E. Talmage | MEDIA |
-| 50536 | Gospel Themes | Orson F. Whitney | MEDIA |
-| 34362 | Joseph Smith as Scientist | John A. Widtsoe | MEDIA |
-| 54292 | What Jesus Taught | Osborne J.P. Widtsoe | MEDIA |
-| 56700 | Mormon Doctrine, Plain and Simple | Charles W. Penrose | MEDIA |
-| 46099 | The Vitality of "Mormonism" (discurso) | James E. Talmage | BAJA |
-| 56691 | Saturday Night Thoughts | Orson F. Whitney | BAJA |
-| 49357 | Outlines of Mormon Philosophy | Lycurgus A. Wilson | BAJA |
-| 46635 | Gospel Philosophy | J.H. Ward | BAJA |
+| # | Título | Autor | Estado | Prioridad |
+|---|--------|-------|--------|-----------|
+| 56684 | The Lectures on Faith | Joseph Smith Jr. | ✅ 6 files | **ALTA** |
+| 36327 | Mediation and Atonement | John Taylor | ✅ 24 files | ALTA |
+| 35470 | Key to the Science of Theology | Parley P. Pratt | ✅ 17 files | ALTA |
+| 35562 | A Rational Theology | John A. Widtsoe | ✅ 36 files | ALTA |
+| 54309 | Ancient Apostles | David O. McKay | ✅ 4 files | ALTA |
+| 47336 | Cowley's Talks on Doctrine | Matthias F. Cowley | ✅ 1 file | MEDIA |
+| 50535 | Blood Atonement and Plural Marriage | Joseph Fielding Smith | ✅ 1 file | MEDIA |
+| 47182 | The Vitality of Mormonism (ensayos) | James E. Talmage | ✅ ingested | MEDIA |
+| 5630 | The Story of "Mormonism" / Philosophy | James E. Talmage | ✅ 1 file | MEDIA |
+| 50536 | Gospel Themes | Orson F. Whitney | ✅ 1 file | MEDIA |
+| 34362 | Joseph Smith as Scientist | John A. Widtsoe | ✅ 1 file | MEDIA |
+| 54292 | What Jesus Taught | Osborne J.P. Widtsoe | ✅ 1 file | MEDIA |
+| 56700 | Mormon Doctrine, Plain and Simple | Charles W. Penrose | ✅ 1 file | MEDIA |
+| 46099 | The Vitality of "Mormonism" (discurso) | James E. Talmage | ❌ pendiente | BAJA |
+| 56691 | Saturday Night Thoughts | Orson F. Whitney | ❌ pendiente | BAJA |
+| 49357 | Outlines of Mormon Philosophy | Lycurgus A. Wilson | ❌ pendiente | BAJA |
+| 46635 | Gospel Philosophy | J.H. Ward | ❌ pendiente | BAJA |
 
-### Escritos misionales y apologéticos (no en corpus)
+### Escritos misionales y apologéticos
 
-| # | Título | Autor | Prioridad |
-|---|--------|-------|-----------|
-| 35554 | A Voice of Warning | Parley P. Pratt | MEDIA |
-| 44907 | Interesting Account of Remarkable Visions | Orson Pratt | MEDIA |
-| 45846 | Letters Exhibiting Prominent Doctrines | Orson Spencer | BAJA |
-| 46243 | Divine Authority | Orson Pratt | BAJA |
-| 45005 | Absurdities of Immaterialism | Orson Pratt | BAJA |
-| 46244 | The Kingdom of God, Part 1 | Orson Pratt | BAJA |
-| 46974 | Rays of Living Light | Charles W. Penrose | BAJA |
-| 46617 | The Plan of Salvation | John Morgan | BAJA |
+| # | Título | Autor | Estado | Prioridad |
+|---|--------|-------|--------|-----------|
+| 35554 | A Voice of Warning | Parley P. Pratt | ✅ 7 files | MEDIA |
+| 44907 | Interesting Account of Remarkable Visions | Orson Pratt | ✅ 1 file | MEDIA |
+| 45846 | Letters Exhibiting Prominent Doctrines | Orson Spencer | ❌ pendiente | BAJA |
+| 46243 | Divine Authority | Orson Pratt | ❌ pendiente | BAJA |
+| 45005 | Absurdities of Immaterialism | Orson Pratt | ❌ pendiente | BAJA |
+| 46244 | The Kingdom of God, Part 1 | Orson Pratt | ❌ pendiente | BAJA |
+| 46974 | Rays of Living Light | Charles W. Penrose | ✅ 1 file | BAJA |
+| 46617 | The Plan of Salvation | John Morgan | ✅ 1 file | BAJA |
 
-### Documentos históricos y discursos (no en corpus)
+### Documentos históricos y discursos
 
-| # | Título | Autor | Prioridad |
-|---|--------|-------|-----------|
-| 6720 | The Wentworth Letter | Joseph Smith Jr. | **ALTA** |
-| 54278 | Proclamation of the Twelve Apostles | Council of Q12 | ALTA |
-| 45006 | General Smith's Views | Joseph Smith Jr. | MEDIA |
-| 46221 | Items on the Priesthood | John Taylor | MEDIA |
+| # | Título | Autor | Estado | Prioridad |
+|---|--------|-------|--------|-----------|
+| 6720 | The Wentworth Letter | Joseph Smith Jr. | ✅ 1 file | **ALTA** |
+| 54278 | Proclamation of the Twelve Apostles | Council of Q12 | ✅ 1 file | ALTA |
+| 45006 | General Smith's Views | Joseph Smith Jr. | ✅ 1 file | MEDIA |
+| 46221 | Items on the Priesthood | John Taylor | ❌ pendiente | MEDIA |
 
-### Perspectiva femenina SUD (no en corpus)
+### Perspectiva femenina SUD
 
-| # | Título | Autor | Prioridad |
-|---|--------|-------|-----------|
-| 54335 | The Women of Mormondom | Edward W. Tullidge | MEDIA |
+| # | Título | Autor | Estado | Prioridad |
+|---|--------|-------|--------|-----------|
+| 54335 | The Women of Mormondom | Edward W. Tullidge | ✅ 119 files | MEDIA |
 
 ### Colecciones, ficción, perspectiva externa
 

@@ -521,6 +521,384 @@ BOOK_CONFIGS: dict[int, dict] = {
         "note": "Published 1900/1904 by Deseret News. Only biography of the first "
                 "martyred apostle. 8 chapters. Preface by Lorenzo Snow.",
     },
+    # ----- P2: Alta prioridad doctrinal (2026-04) -----
+    56684: {
+        "slug": "lectures-on-faith",
+        "author": "Joseph Smith Jr.",
+        "category": "books",
+        "tags": ["doctrine", "prophet-authored", "kirtland", "lectures"],
+        "authority": 45,
+        "chapter_pattern": r"^LECTURE\s+(FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)\.?\s*$",
+        "title_offset": 0,
+        "has_toc": False,
+        "note": "7 lectures delivered at Kirtland School of the Prophets, 1834-35. "
+                "Originally published as part of D&C (1835 ed.), removed in 1921.",
+    },
+    6720: {
+        "slug": "wentworth-letter",
+        "author": "Joseph Smith Jr.",
+        "category": "books",
+        "tags": ["doctrine", "prophet-authored", "articles-of-faith", "primary-source"],
+        "authority": 50,
+        "has_toc": False,
+        "note": "Letter to John Wentworth, 1842. Contains the Articles of Faith "
+                "and earliest known First Vision account for public audience.",
+    },
+    35470: {
+        "slug": "key-to-science-of-theology",
+        "author": "Parley P. Pratt",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "theology", "systematic"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1855. Early systematic theology by Apostle Pratt. "
+                "One of the most influential doctrinal works of the Restoration.",
+    },
+    35554: {
+        "slug": "voice-of-warning",
+        "author": "Parley P. Pratt",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "missionary", "prophecy"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1837. Classic missionary tract, widely distributed. "
+                "Covers prophecy, Book of Mormon, and latter-day restoration.",
+    },
+    36327: {
+        "slug": "mediation-and-atonement",
+        "author": "John Taylor",
+        "category": "books",
+        "tags": ["doctrine", "prophet-authored", "atonement", "christology"],
+        "authority": 45,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1882. President Taylor's treatise on the Atonement. "
+                "Extensive scripture citations. Companion to 'The Government of God'.",
+    },
+    35562: {
+        "slug": "rational-theology",
+        "author": "John A. Widtsoe",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "theology", "philosophy"],
+        "authority": 40,
+        "chapter_pattern": r"^Chapter\s+(\d+)\.",
+        "title_offset": 0,
+        "title_from_pattern": 0,
+        "has_toc": False,
+        "sequential_numbering": True,
+        "note": "Published 1915. Modern systematic theology by Apostle Widtsoe. "
+                "30 chapters covering God, man, agency, ordinances, eternity.",
+    },
+    54309: {
+        "slug": "ancient-apostles",
+        "author": "David O. McKay",
+        "category": "books",
+        "tags": ["doctrine", "prophet-authored", "apostles", "new-testament"],
+        "authority": 45,
+        "chapter_pattern": r"^PART\s+(ONE|TWO|THREE|FOUR)\b",
+        "title_offset": 0,
+        "has_toc": False,
+        "note": "Published 1918. Prophet McKay on Peter, James, John, and Paul. "
+                "Written as Sunday School lessons, later expanded.",
+    },
+    # ----- P3: Biografías y memorias (2026-04) -----
+    59970: {
+        "slug": "life-of-joseph-smith-prophet",
+        "author": "George Q. Cannon",
+        "category": "books",
+        "tags": ["biography", "apostle-authored", "joseph-smith", "church-history"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1888. Definitive 19th-century biography by First Presidency counselor. "
+                "Covers 1805-1844.",
+    },
+    54331: {
+        "slug": "life-of-a-pioneer",
+        "author": "James S. Brown",
+        "category": "books",
+        "tags": ["biography", "autobiography", "mormon-battalion", "pioneer"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1900. Autobiography: Mormon Battalion, California gold, "
+                "Pacific Islands missions, frontier life.",
+    },
+    48284: {
+        "slug": "jacob-hamblin",
+        "author": "Jacob Hamblin",
+        "category": "books",
+        "tags": ["biography", "autobiography", "missionary", "native-american", "frontier"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1881. Faith-Promoting Series #5. Missionary to the Indians, "
+                "peacemaker, and explorer of southern Utah/Arizona frontier.",
+    },
+    46391: {
+        "slug": "memoirs-of-john-r-young",
+        "author": "John R. Young",
+        "category": "books",
+        "tags": ["biography", "autobiography", "pioneer-1847", "utah"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+(\d+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1920. Pioneer of 1847, nephew of Brigham Young. "
+                "First-hand account of the trek and early Utah settlement.",
+    },
+    54337: {
+        "slug": "reminiscences-of-joseph-the-prophet",
+        "author": "Edward Stevenson",
+        "category": "books",
+        "tags": ["biography", "joseph-smith", "testimonies", "primary-source"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": False,
+        "note": "Published 1893. Personal experiences and collected testimonies "
+                "about Joseph Smith and the coming forth of the Book of Mormon.",
+    },
+    45049: {
+        "slug": "my-first-mission",
+        "author": "George Q. Cannon",
+        "category": "books",
+        "tags": ["biography", "autobiography", "missionary", "hawaii", "faith-promoting-series"],
+        "authority": 40,
+        "chapter_pattern": r"^Chapter\s+(\d+)\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1879. Faith-Promoting Series #1. Cannon's Hawaiian mission (1850-54). "
+                "One of the earliest and most beloved missionary memoirs.",
+    },
+    # ----- P3: Historia y apologética (2026-04) -----
+    42152: {
+        "slug": "mormon-battalion",
+        "author": "B. H. Roberts",
+        "category": "books",
+        "tags": ["church-history", "seventy-authored", "mormon-battalion", "military"],
+        "authority": 35,
+        "note": "Published 1919. The march of the Mormon Battalion (1846-47). "
+                "Roberts' military history monograph.",
+    },
+    44907: {
+        "slug": "interesting-account-remarkable-visions",
+        "author": "Orson Pratt",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "first-vision", "missionary-tract"],
+        "authority": 40,
+        "note": "Published 1840 (Edinburgh). Earliest published account of JS's "
+                "First Vision and Book of Mormon story by an apostle.",
+    },
+    54278: {
+        "slug": "proclamation-of-the-twelve-apostles",
+        "author": "Quorum of the Twelve Apostles",
+        "category": "books",
+        "tags": ["doctrine", "foundational-document", "twelve-apostles", "1845"],
+        "authority": 50,
+        "note": "1845 proclamation to the world by the Twelve, including "
+                "Brigham Young, Parley Pratt, Orson Hyde, and others.",
+    },
+    45006: {
+        "slug": "general-smiths-views",
+        "author": "Joseph Smith Jr.",
+        "category": "books",
+        "tags": ["political", "prophet-authored", "presidency-1844", "government"],
+        "authority": 40,
+        "note": "Published 1844. Joseph Smith's presidential platform: "
+                "'Views of the Powers and Policy of the Government of the United States.'",
+    },
+    49432: {
+        "slug": "myth-of-manuscript-found",
+        "author": "Various",
+        "category": "books",
+        "tags": ["apologetics", "book-of-mormon", "spaulding-theory"],
+        "authority": 30,
+        "note": "Refutation of the Spaulding/Rigdon theory of BoM authorship. "
+                "Multiple contributors.",
+    },
+    # ----- P4: Perspectiva femenina (2026-04) -----
+    50958: {
+        "slug": "representative-women-of-deseret",
+        "author": "Augusta Joyce Crocheron",
+        "category": "books",
+        "tags": ["biography", "women", "utah", "pioneer-era"],
+        "authority": 35,
+        "note": "Published 1884. Biographical sketches of leading LDS women "
+                "including Eliza R. Snow, Emmeline B. Wells, and others.",
+    },
+    54335: {
+        "slug": "women-of-mormondom",
+        "author": "Edward W. Tullidge",
+        "category": "books",
+        "tags": ["history", "women", "church-history", "collective-biography"],
+        "authority": 30,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.",
+        "title_offset": 0,
+        "title_from_pattern": 0,
+        "has_toc": False,
+        "sequential_numbering": True,
+        "note": "Published 1877. Collective history of women in the LDS Church. "
+                "One of the earliest works on Mormon women's history.",
+    },
+    51097: {
+        "slug": "heroines-of-mormondom",
+        "author": "Various",
+        "category": "books",
+        "tags": ["biography", "women", "pioneer-era", "faith-promoting-series"],
+        "authority": 35,
+        "chapter_pattern": r"^Chapter\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1884. Faith-Promoting Series #2. Narratives of women "
+                "pioneers and their faith, trials, and contributions.",
+    },
+    46602: {
+        "slug": "lydia-knights-history",
+        "author": "Susa Young Gates",
+        "category": "books",
+        "tags": ["biography", "women", "pioneer-era", "faith-promoting-series"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1883. Written by BY's daughter. Story of Lydia Goldthwaite Knight, "
+                "one of the earliest converts. Faith-Promoting Series #4.",
+    },
+    # ----- P4: Colecciones (2026-04) -----
+    54298: {
+        "slug": "scrap-book-mormon-literature-vol2",
+        "author": "Ben E. Rich",
+        "category": "books",
+        "tags": ["anthology", "missionary-tracts", "pamphlets", "doctrine"],
+        "authority": 30,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": False,
+        "sequential_numbering": True,
+        "note": "Published 1913. Volume 2 of collected missionary tracts and pamphlets.",
+    },
+    46734: {
+        "slug": "scraps-of-biography",
+        "author": "Various",
+        "category": "books",
+        "tags": ["biography", "testimonies", "faith-promoting-series", "primary-source"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "sequential_numbering": True,
+        "note": "Published 1883. Faith-Promoting Series #10. Short biographical "
+                "sketches and testimonies of early members.",
+    },
+    # ----- P5: Doctrina y miscelánea (2026-04) -----
+    56700: {
+        "slug": "mormon-doctrine-plain-and-simple",
+        "author": "Charles W. Penrose",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "missionary"],
+        "authority": 35,
+        "note": "Published 1897. Plain doctrinal exposition by future Church President "
+                "Penrose. Widely used as missionary resource.",
+    },
+    47336: {
+        "slug": "cowleys-talks-on-doctrine",
+        "author": "Matthias F. Cowley",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "talks"],
+        "authority": 35,
+        "note": "Published 1902. Doctrinal talks by Apostle Cowley (later dropped from Q12).",
+    },
+    50536: {
+        "slug": "gospel-themes",
+        "author": "Orson F. Whitney",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "essays"],
+        "authority": 35,
+        "note": "Doctrinal essays by Apostle Whitney, covering diverse gospel topics.",
+    },
+    46617: {
+        "slug": "plan-of-salvation",
+        "author": "John Morgan",
+        "category": "books",
+        "tags": ["doctrine", "missionary", "plan-of-salvation"],
+        "authority": 30,
+        "note": "Published 1884. Missionary manual by Seventy John Morgan. "
+                "Plain presentation of LDS soteriology.",
+    },
+    46974: {
+        "slug": "rays-of-living-light",
+        "author": "Charles W. Penrose",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "missionary-tracts"],
+        "authority": 35,
+        "note": "Published 1903. Collection of missionary tracts by Penrose. "
+                "Clear, concise doctrinal statements.",
+    },
+    54292: {
+        "slug": "what-jesus-taught",
+        "author": "Osborne J. P. Widtsoe",
+        "category": "books",
+        "tags": ["doctrine", "christology", "new-testament"],
+        "authority": 30,
+        "note": "Synopsis of Christ's teachings as understood in LDS theology.",
+    },
+    # ----- Additional Gutenberg books (2026-04) -----
+    56698: {
+        "slug": "latter-day-prophet-for-young",
+        "author": "George Q. Cannon",
+        "category": "books",
+        "tags": ["biography", "joseph-smith", "youth", "church-history"],
+        "authority": 35,
+        "note": "The Life of Joseph Smith, the Prophet, for young readers. "
+                "Simplified version by Cannon.",
+    },
+    50535: {
+        "slug": "blood-atonement-and-plural-marriage",
+        "author": "Joseph Fielding Smith",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "apologetics", "polygamy"],
+        "authority": 40,
+        "note": "Published 1905. Apostle JFS addresses two controversial topics. "
+                "Historical apologetics.",
+    },
+    47182: {
+        "slug": "vitality-of-mormonism",
+        "author": "James E. Talmage",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "essays"],
+        "authority": 40,
+        "chapter_pattern": r"^--\s*(\d+)\s*--\s*$",
+        "title_offset": 1,
+        "has_toc": False,
+        "note": "104 brief essays published weekly over two years. Boston: Gorham Press.",
+    },
+    5630: {
+        "slug": "story-of-mormonism-philosophy",
+        "author": "James E. Talmage",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "philosophy"],
+        "authority": 40,
+        "note": "Two works in one volume: 'The Story of Mormonism' and "
+                "'The Philosophy of Mormonism'. Popular expositions by Talmage.",
+    },
+    34362: {
+        "slug": "joseph-smith-as-scientist",
+        "author": "John A. Widtsoe",
+        "category": "books",
+        "tags": ["doctrine", "apostle-authored", "science-and-religion"],
+        "authority": 35,
+        "note": "Published 1908. Widtsoe argues JS's revelations anticipated "
+                "modern scientific discoveries.",
+    },
 }
 
 

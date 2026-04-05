@@ -1,0 +1,31 @@
+{
+  "title": "Birth.--Childhood Recollections",
+  "author": "John R. Young",
+  "book": "Memoirs Of John R Young",
+  "chapter": 1,
+  "category": "books",
+  "subcategory": "memoirs-of-john-r-young",
+  "tags": [
+    "biography",
+    "autobiography",
+    "pioneer-1847",
+    "utah"
+  ],
+  "authority": 35,
+  "lang": "eng",
+  "source_url": "https://www.gutenberg.org/ebooks/46391",
+  "source": "Project Gutenberg",
+  "gutenberg_id": 46391,
+  "note": "Published 1920. Pioneer of 1847, nephew of Brigham Young. First-hand account of the trek and early Utah settlement.",
+  "note_count": 2,
+  "footnotes": [
+    {
+      "marker": "A",
+      "text": "President Woodruff's statement makes it plain that I am wrong. My memory has become confused. It must have been some other man that father hauled home."
+    },
+    {
+      "marker": "B",
+      "text": "The horses were not Captain Preston's; they belonged to a small company of men who were returning from Oregon."
+    }
+  ]
+}

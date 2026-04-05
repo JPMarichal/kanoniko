@@ -1,0 +1,630 @@
+{
+  "title": "Joseph Smith As Scientist",
+  "author": "John A. Widtsoe",
+  "book": "Joseph Smith As Scientist",
+  "chapter": 1,
+  "category": "books",
+  "subcategory": "joseph-smith-as-scientist",
+  "tags": [
+    "doctrine",
+    "apostle-authored",
+    "science-and-religion"
+  ],
+  "authority": 35,
+  "lang": "eng",
+  "source_url": "https://www.gutenberg.org/ebooks/34362",
+  "source": "Project Gutenberg",
+  "gutenberg_id": 34362,
+  "note": "Published 1908. Widtsoe argues JS's revelations anticipated modern scientific discoveries.",
+  "note_count": 152,
+  "footnotes": [
+    {
+      "marker": "A",
+      "text": "\"And truth is knowledge of things as they are, and as they were and as they are to come.\"--Doctrine and Covenants, 93:24. \"Teach ye diligently and my grace shall attend you, that you may be instructed more perfectly in theory, in principle, in doctrine, in the law of the Gospel, in all things that pertain unto the Kingdom of God, that are expedient for you to understand; \"Of things both in heaven and in the earth, and under the earth; things which have been, things which are, things which must shortly come to pass; things which are at home, things which are abroad; the wars and the perplexities of the nations, and the judgments which are on the land, and a knowledge also of countries and kingdoms, \"That ye may be prepared in all things when I shall send you again to magnify the calling, whereunto I have called you, and the mission with which I have commissioned you.\"--Doctrine and Covenants, 88:78-80. \"And verily, I say unto you, that it is my will that you should hasten to translate my Scriptures, and to obtain a knowledge of history, and of countries, and of kingdoms, of laws of God and man, and all this for the salvation of Zion.\"--Doctrine and Covenants, 93:53. \"It (theology) is the science of all other sciences and useful arts, being in fact the very foundation from which they emanate. It includes philosophy, astronomy, history, mathematics, geography, languages, the science of letters, and blends the knowledge of all matters of fact, in every branch of art and research.......All that is useful, great and good, all that is calculated to sustain, comfort, instruct, edify, purify, refine or exalt intelligences, originated by this science, and this science alone, all other sciences being but branches growing out of this, the root.\"--Pratt, Key to Theology, chap. 1."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants 9:7, 8."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants 1:24."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 93:33."
+    },
+    {
+      "marker": "B",
+      "text": "The Contributor, Vol. 4, p. 257."
+    },
+    {
+      "marker": "A",
+      "text": "The Conservation of Heat--Stewart, pp. 38, 39."
+    },
+    {
+      "marker": "A",
+      "text": "The Conservation of Energy--Stewart, pp. 44, 45. Recent Advances in Physical Science--Tait, pp. 63, 65."
+    },
+    {
+      "marker": "A",
+      "text": "First Principles, Spencer, 4th ed., p. 200."
+    },
+    {
+      "marker": "A",
+      "text": "Key to Theology, P. P. Pratt, 5th ed., p. 40."
+    },
+    {
+      "marker": "A",
+      "text": "Compendium, Richards and Little, 3rd ed., p. 150."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 93:29."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Inductive Sciences, Whewell, 3rd edition, Vol. II, p. 114."
+    },
+    {
+      "marker": "B",
+      "text": "Loc. cit., 117."
+    },
+    {
+      "marker": "A",
+      "text": "Vol. II, p. 184."
+    },
+    {
+      "marker": "B",
+      "text": "Heat, A Mode of Motion, Tyndall, 6th ed., p. 38."
+    },
+    {
+      "marker": "A",
+      "text": "Lehrbuch der Physik, Riecke, (1896), 2ter Band, p. 315."
+    },
+    {
+      "marker": "B",
+      "text": "Popular Lectures and Addresses, Kelvin (1891) Vol. 1, page 334."
+    },
+    {
+      "marker": "A",
+      "text": "Kelvin's Lectures, Vol. 1, pp. 317, 334, 336, 354."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, section 88:11-13."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 84:45."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid, 131:7."
+    },
+    {
+      "marker": "A",
+      "text": "Ibid, 88:41."
+    },
+    {
+      "marker": "A",
+      "text": "Ibid, 130:22."
+    },
+    {
+      "marker": "A",
+      "text": "Key to Theology, 5th ed., pp. 38-41."
+    },
+    {
+      "marker": "A",
+      "text": "Rays of Living Light, No. 2, p. 3."
+    },
+    {
+      "marker": "A",
+      "text": "Golden Treasury edition, pp. 235, 236."
+    },
+    {
+      "marker": "A",
+      "text": "See The Grammar of Science, Pearson, pp. 117, 118."
+    },
+    {
+      "marker": "A",
+      "text": "The Credentials of Science, the Warrant of Faith, Cooke, pp. 169, 170."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 28:13; 132; 8."
+    },
+    {
+      "marker": "B",
+      "text": "Doctrine and Covenants, 130:20, 21."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 121:30-32."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 131:7."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 88:36-33, 42, 43."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 98:8."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Inductive Sciences, Whewell, 3rd ed. Vol. I, pp. 467-469."
+    },
+    {
+      "marker": "A",
+      "text": "See C. G. Abbott, Report of Smithsonian Institution, for 1901, pp. 153-155."
+    },
+    {
+      "marker": "B",
+      "text": "Light Science for Leisure Hours, Proctor, pp. 42-52."
+    },
+    {
+      "marker": "C",
+      "text": "The Problems of Astronomy, S. Newcomb, Science, May 21, 1897."
+    },
+    {
+      "marker": "A",
+      "text": "The Story of the Sun, R. S. Ball, pp. 360, 361."
+    },
+    {
+      "marker": "A",
+      "text": "The Sun, C. A. Young, p. 11."
+    },
+    {
+      "marker": "A",
+      "text": "Popular Astronomy, C. Flammarion, p. 309."
+    },
+    {
+      "marker": "A",
+      "text": "The Problems of Astronomy, S. Newcomb."
+    },
+    {
+      "marker": "A",
+      "text": "Book of Moses, 1:33."
+    },
+    {
+      "marker": "B",
+      "text": "Doctrine and Covenants, 88:37."
+    },
+    {
+      "marker": "C",
+      "text": "Book of Moses, 1:35."
+    },
+    {
+      "marker": "D",
+      "text": "Doctrine and Covenants, 1:38."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 88:38."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 88:43, 45."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 121:30, 31."
+    },
+    {
+      "marker": "A",
+      "text": "Book of Abraham, chapter 3."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 130:4."
+    },
+    {
+      "marker": "B",
+      "text": "Loc. cit., verses 6 and 7. See also 88:61."
+    },
+    {
+      "marker": "A",
+      "text": "Dana's New Text Book of Geology, p. 375."
+    },
+    {
+      "marker": "B",
+      "text": "Lectures and Addresses, vol. 2, p. 10."
+    },
+    {
+      "marker": "A",
+      "text": "Compare The Mosaic Record of Creation, A. McCaul, D. D., p. 213."
+    },
+    {
+      "marker": "A",
+      "text": "For instance Aids to Faith, containing McCaul's most able discussion. The Origin of the World, J. W. Dawson."
+    },
+    {
+      "marker": "A",
+      "text": "The writer understands the creation, reported in Abraham, 4th chapter, to be spiritual in its nature; but he also believes that this spiritual account is a perfect picture of the actual material creation. If chapter 4 of Abraham represents the Gods planning creation, the measuring of time becomes easily understood. It then means, \"How long will it take to accomplish the work?\" All this, however, has no bearing upon the present argument."
+    },
+    {
+      "marker": "A",
+      "text": "It may be remarked that other geological doctrines were taught by the Prophet, that science has since confirmed. One of these was discussed by Dr. J.E. Talmage in the Improvement Era, Vol. 7, p. 481."
+    },
+    {
+      "marker": "A",
+      "text": "Tyndall, Fragments of Science, I. chaps. I and II."
+    },
+    {
+      "marker": "A",
+      "text": "Compare, Fiske, Outlines of Cosmic Philiosophy, chap. XVI. Pearson, Grammar of Science, pp. 404-407. Dolbear, Matter, Ether and Motion, chap. XI, pp. 294-297."
+    },
+    {
+      "marker": "A",
+      "text": "Pearson, Grammar of Science, p. 408."
+    },
+    {
+      "marker": "A",
+      "text": "Tyndall, Fragments of Science. II, chaps. IV and VI."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants 88:25, 26."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants 93:23 and 29."
+    },
+    {
+      "marker": "B",
+      "text": "Book of Abraham 3:19."
+    },
+    {
+      "marker": "A",
+      "text": "Book of Abraham, 4th chap. (Note verse 27.)"
+    },
+    {
+      "marker": "B",
+      "text": "Doctrine and Covenants 88:15."
+    },
+    {
+      "marker": "C",
+      "text": "Doctrine and Covenants 93:33 and 34."
+    },
+    {
+      "marker": "A",
+      "text": "The Resurrection, p. 3. Ed. of 1884."
+    },
+    {
+      "marker": "A",
+      "text": "Journal of Discourses, vol. 7:285. (Brigham Young.)"
+    },
+    {
+      "marker": "A",
+      "text": "Book of Moses 3:9."
+    },
+    {
+      "marker": "A",
+      "text": "Absurdities of Immaterialism, ed. 1849, p. 26."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid, p. 29."
+    },
+    {
+      "marker": "A",
+      "text": "Key to Theology, 5th ed., p. 46."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid, p. 49."
+    },
+    {
+      "marker": "C",
+      "text": "Ibid, p. 51."
+    },
+    {
+      "marker": "D",
+      "text": "Ibid, p. 131."
+    },
+    {
+      "marker": "E",
+      "text": "Roberts, Mormon Doctrine of Deity, pp. 278, 279."
+    },
+    {
+      "marker": "A",
+      "text": "See especially the Prophet Joseph Smith's Sermon, Contributor, vol. 4, pp. 256-268."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, Lecture I, verses 8, 9."
+    },
+    {
+      "marker": "A",
+      "text": "Dextrose and laevulose combine to form ordinary cane or beet sugar. Dextrose and galactose combine to form the sugar found in milk."
+    },
+    {
+      "marker": "A",
+      "text": "Read for a fuller exposition, We walk by Faith, Improvement Era, Volume 3, p. 561."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 84:63, 64."
+    },
+    {
+      "marker": "A",
+      "text": "John 14:26."
+    },
+    {
+      "marker": "B",
+      "text": "Key to Theology, 5th ed., pp. 101, 102."
+    },
+    {
+      "marker": "C",
+      "text": "History of the Church, Vol. III, p. 380."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 89:5, 7."
+    },
+    {
+      "marker": "A",
+      "text": "Page 129, art., Alcohol Ethylicum."
+    },
+    {
+      "marker": "A",
+      "text": "Pages 206, 207."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 89:8."
+    },
+    {
+      "marker": "B",
+      "text": "Wormley, Micro-chemistry of Poisons, 2nd ed., pp. 434, 435."
+    },
+    {
+      "marker": "A",
+      "text": "Ibid, pp. 436, 437."
+    },
+    {
+      "marker": "A",
+      "text": "The Contributor, vol. iv., p. 13; Improvement Era, Vol. 4. pp. 943-9."
+    },
+    {
+      "marker": "A",
+      "text": "Wormley, Micro-chemistry of Poisons, p. 436."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 89:9."
+    },
+    {
+      "marker": "A",
+      "text": "See The Contributor, vol. iv. p. 13; Improvement Era, vol 4, pp. 943-9."
+    },
+    {
+      "marker": "A",
+      "text": "U. S. Dispensatory, 17th ed., pp. 278 and 279."
+    },
+    {
+      "marker": "A",
+      "text": "Practical Dietetics, p. 199."
+    },
+    {
+      "marker": "A",
+      "text": "Page 249."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants 89:10, 11."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 89:12, 13."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 89:14, 16 and 17."
+    },
+    {
+      "marker": "A",
+      "text": "The Feeding of Animals, Jordan, p. 424."
+    },
+    {
+      "marker": "A",
+      "text": "First Principles, p. 287."
+    },
+    {
+      "marker": "A",
+      "text": "Loc. cit., p. 292."
+    },
+    {
+      "marker": "B",
+      "text": "Loc. cit., p. 337."
+    },
+    {
+      "marker": "A",
+      "text": "First Principles, p. 408."
+    },
+    {
+      "marker": "B",
+      "text": "Loc. cit., p. 494."
+    },
+    {
+      "marker": "A",
+      "text": "Loc. cit., p. 496."
+    },
+    {
+      "marker": "B",
+      "text": "Loc. cit., p. 550."
+    },
+    {
+      "marker": "A",
+      "text": "Loc. cit., p. 564."
+    },
+    {
+      "marker": "A",
+      "text": "First Principles, pp. 570 and 572."
+    },
+    {
+      "marker": "A",
+      "text": "Origin of Species, p. 6."
+    },
+    {
+      "marker": "A",
+      "text": "Origin of Species, p. 6; also Darwin and After Darwin Romanes, Vol. II. pp. 2-6."
+    },
+    {
+      "marker": "A",
+      "text": "Man's Place in Nature, p. 128."
+    },
+    {
+      "marker": "B",
+      "text": "Loc. cit., p. 183."
+    },
+    {
+      "marker": "A",
+      "text": "Book of Abraham, 3:21."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 93:12-14."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, Lectures on Faith, 7:8."
+    },
+    {
+      "marker": "B",
+      "text": "Doctrine and Covenants, 132:20."
+    },
+    {
+      "marker": "A",
+      "text": "Ibid., 50:24."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid., 93:20."
+    },
+    {
+      "marker": "A",
+      "text": "Contributor, vol. 4, pp. 254 and 255."
+    },
+    {
+      "marker": "A",
+      "text": "Book of Moses, 3:5 and 9. See also Doctrine and Covenants, 29:31, 32."
+    },
+    {
+      "marker": "A",
+      "text": "First Principles, p. 550."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 93:33, 34."
+    },
+    {
+      "marker": "A",
+      "text": "It must not be assumed that in this chapter has been given a full account of the Mormon doctrine of the Atonement. These essays are not in any sense a full exposition of Mormon theology."
+    },
+    {
+      "marker": "A",
+      "text": "The writer is aware of the beliefs held by many students regarding the so-called touch sense, heat sense, magnetic sense, electrical sense, spiritual sense, etc. So little is known of these subdivisions of the sense of feeling, that they are not considered in this popular writing. There is, moreover, no evidence that the magnetic sense, as an example, if it exists, is a direct effect of magnetic forces; it is as easily believed that the body somehow converts magnetic forces, under certain circumstances, into other forces that may be sensed by man."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Church, vol. 1, p. 12."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 10:1."
+    },
+    {
+      "marker": "B",
+      "text": "History of the Church, vol. 1, p. 23."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Church, vol. 1, pp. 33, 36, 45, 49 and 53."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 9:7-9."
+    },
+    {
+      "marker": "A",
+      "text": "Moroni 10:4, 5."
+    },
+    {
+      "marker": "A",
+      "text": "Plato, The Apology, chap. XXIV."
+    },
+    {
+      "marker": "B",
+      "text": "Aristotle, Metaphysics, chap. VII, sec. 4."
+    },
+    {
+      "marker": "C",
+      "text": "First Principles, p. 48."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Prophet by his Mother, Improvement Era, Vol. 5, p. 166."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid., p. 247."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Church, vol. 1, p. 7."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid., p. 9."
+    },
+    {
+      "marker": "C",
+      "text": "History of the Church, Vol. 1, pp. 16, 17."
+    },
+    {
+      "marker": "A",
+      "text": "History of the Prophet Joseph, Improvement Era, Vol. 5, p. 257."
+    },
+    {
+      "marker": "A",
+      "text": "Autobiography of P. P. Pratt, p. 140."
+    },
+    {
+      "marker": "A",
+      "text": "History of Joseph Smith, George Q. Cannon, pp. 341, 343."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 88:78, 79, 118."
+    },
+    {
+      "marker": "B",
+      "text": "Ibid., 93:53."
+    },
+    {
+      "marker": "C",
+      "text": "Ibid., 90:15."
+    },
+    {
+      "marker": "D",
+      "text": "Ibid., 131:6."
+    },
+    {
+      "marker": "A",
+      "text": "First Principles, pp. 133 and 136."
+    },
+    {
+      "marker": "A",
+      "text": "The Founder of Mormonism. Riley."
+    },
+    {
+      "marker": "A",
+      "text": "Doctrine and Covenants, 121:33."
+    }
+  ]
+}

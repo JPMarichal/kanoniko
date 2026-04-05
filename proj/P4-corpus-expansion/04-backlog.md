@@ -110,10 +110,11 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 ## Prioridades recomendadas (actualizado 2026-04-05)
 
 > **Lo que ya está completo:** Escrituras, Conferencia General, 60+ manuales oficiales,
-> 40+ libros Gutenberg, himnos/canciones, study aids, HC 1-7 — TODO ingested.
+> **~70 libros Gutenberg** (19 previos + 34 nuevos + B.H. Roberts), himnos/canciones,
+> study aids, HC 1-7, **57 libros RSC BYU**, **28 libros BYU Studies** — TODO descargado.
 >
-> **Lo que queda:** RSC BYU (214 libros), BYU Studies (31 pendientes),
-> MTP/Gutenberg (~89 títulos), fuentes secundarias (CCEL, womeninthescriptures.com).
+> **Lo que queda:** ~20 RSC PDF-only (sin HTML), 1 RSC parcial (`fulness-gospel` URL bug),
+> fuentes secundarias (CCEL, womeninthescriptures.com), ~30 Gutenberg ficción/baja prioridad.
 > Church site: solo Youth Music (blocked — API 404) y Ensign/Liahona (sin investigar).
 >
 > **Regla:** Iglesia > RSC > BYU Studies > MTP > Gutenberg > CCEL > Archive.org.
@@ -127,35 +128,47 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 
 ### RSC BYU — 214 libros (catálogo completo en `05-source-registry.md`)
 
-| Prioridad | Tipo de contenido | Libros | Notas |
-|-----------|-------------------|--------|-------|
-| 🔴 **P1** | Exégesis escritural (LdM, D&C, PGP, Bible, Isaías, JST) | 23 | `opening-isaiah`, `abinadi`, `introduction-book-abraham`, etc. |
-| 🟡 **P2** | Doctrina, convenios, templo, cristología | 19 | Easter Conference (10), Sperry Symposium, templo |
-| 🟢 **P3** | Fe práctica, apologética, salud mental | 16 | `freedom-scrupulosity`, `reason-faith`, etc. |
-| 🔵 **P4** | Historia selectiva | 13 | `council-fifty`, `sister-prophet`, `my-dear-sister` |
-| ⚪ **P5** | Relaciones interreligiosas | 7 | `view-hebrews`, `mormons-muslims`, etc. |
+> **Completado 2026-04-05:** 57 libros descargados de ~78 seleccionados.
+> ~20 libros son PDF-only ("not available for online reading").
+> 1 libro parcial (`fulness-gospel` — URL bug en PDF construction).
 
-### BYU Studies — pendientes (31 libros, catálogo en `05-source-registry.md`)
+| Prioridad | Tipo de contenido | Libros | ✅ Descargados | ❌ PDF-only |
+|-----------|-------------------|--------|---------------|------------|
+| 🔴 **P1** | Exégesis escritural (LdM, D&C, PGP, Bible, Isaías, JST) | 23 | 18 | 5 |
+| 🟡 **P2** | Doctrina, convenios, templo, cristología | 19 | 14 (+1 partial) | 3 |
+| 🟢 **P3** | Fe práctica, apologética, salud mental | 16 | 14 | 2 |
+| 🔵 **P4** | Historia selectiva | 13 | 6 | 7 |
+| ⚪ **P5** | Relaciones interreligiosas | 7 | 5 | 2 |
 
-| Prioridad | Material | Notas |
-|-----------|----------|-------|
-| 🟠 **P1** | BYU NT Commentary (4 vols) | Comentario académico SUD del NT |
-| 🟠 **P1** | Doctrine and Covenants Contexts | Contexto histórico D&C |
-| 🟠 **P1** | Opening the Heavens | Manifestaciones divinas 1820-1844 |
-| 🟡 **P2** | NT New Renditions (14 vols) | Traducción moderna del NT |
-| 🟡 **P2** | My Fellow Servants | Historia del sacerdocio |
-| 🟢 **P3** | Charting the Scriptures (2 vols) | Charts escriturales |
-| 🔵 **P4** | Remaining standalone books (5) | Sustaining the Law, McLellin, etc. |
-| ⚪ Upgrade | HC vols 1-6 de BYU Studies | Mejorar calidad vs Gutenberg (opcional) |
+### BYU Studies — ~~pendientes~~ ✅ completado (catálogo en `05-source-registry.md`)
 
-### MTP / Gutenberg — textos pendientes (catálogo en `05-source-registry.md`)
+> **Completado 2026-04-05:** 28 de 29 libros online descargados (excl. HC 1-6 ya en corpus
+> vía Gutenberg y `the-st-louis-luminary` no intentado).
 
-| Prioridad | Material | Notas |
-|-----------|----------|-------|
-| 🟡 **P2** | Lectures on Faith, Wentworth Letter | Doctrina fundacional Kirtland |
-| 🟢 **P3** | Mediation and Atonement (Taylor), Key to Theology (Pratt) | Teología profética |
-| 🔵 **P4** | Representative Women of Deseret, Women of Mormondom | Perspectiva femenina |
-| ⚫ **P6** | Journal of Discourses (26 vols) | MTP no lo tiene; enorme; authority baja |
+| Prioridad | Material | Estado |
+|-----------|----------|--------|
+| 🟠 **P1** | BYU NT Commentary (4 vols) | ✅ 107 files |
+| 🟠 **P1** | Doctrine and Covenants Contexts | ✅ 136 files |
+| 🟠 **P1** | Opening the Heavens | ✅ 13 files |
+| 🟡 **P2** | NT New Renditions (14 vols) | ✅ 160 files |
+| 🟡 **P2** | My Fellow Servants | ✅ 27 files |
+| 🟢 **P3** | Charting the Scriptures (2 vols) | ✅ 420 files |
+| 🔵 **P4** | Standalone books (5) | ✅ 119 files |
+| ⚪ Upgrade | HC vols 1-6 de BYU Studies | Pendiente — mejorar calidad vs Gutenberg (opcional) |
+
+### MTP / Gutenberg — ~~textos pendientes~~ ✅ batch completado (catálogo en `05-source-registry.md`)
+
+> **Completado 2026-04-05:** 34 libros descargados (~461 archivos).
+> Incluye P2-P5 + extras. Varios textos cortos como documento único (sin capítulos).
+
+| Prioridad | Material | Estado |
+|-----------|----------|--------|
+| 🟡 **P2** | Lectures on Faith, Wentworth Letter, Key to Theology, Voice of Warning, Mediation & Atonement, Rational Theology, Ancient Apostles | ✅ 95 files |
+| 🟢 **P3** | Life of JS (Cannon), Life of a Pioneer, Jacob Hamblin, My First Mission, Reminiscences, Mormon Battalion, Pratt's Visions, Proclamation, Gen. Smith's Views, Myth of MS Found | ✅ 181 files |
+| 🔵 **P4** | Women of Mormondom, Heroines, Lydia Knight, Rep. Women, Scrap Book Vol 2, Scraps of Biography | ✅ 178 files |
+| ⚪ **P5** | Mormon Doctrine (Penrose), Cowley's Talks, Gospel Themes, Plan of Salvation, Rays of Living Light, What Jesus Taught | ✅ 6 files |
+| ⚪ **Extra** | Blood Atonement, Story of Mormonism, Joseph Smith as Scientist, Latter-day Prophet for Young | ✅ 4 files |
+| ⚫ **P6** | Journal of Discourses (26 vols) | Pendiente — MTP no lo tiene; enorme; authority baja |
 
 ---
 
