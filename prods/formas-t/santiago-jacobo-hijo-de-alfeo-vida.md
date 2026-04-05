@@ -2,6 +2,8 @@
 title: "La vida de Santiago (Jacobo) hijo de Alfeo"
 date: 2026-04-04
 status: draft
+collection: vidas
+collection_order: 4
 tags: [santiago, jacobo, apóstoles, nuevo-testamento]
 derived_from: ""
 feeds_into: ""

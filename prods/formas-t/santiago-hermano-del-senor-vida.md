@@ -2,6 +2,8 @@
 title: "La vida de Santiago hermano del Señor"
 date: 2026-04-04
 status: draft
+collection: vidas
+collection_order: 5
 tags: [santiago, jacobo, hermano-del-señor, nuevo-testamento, epístola-de-santiago]
 derived_from: ""
 feeds_into: ""

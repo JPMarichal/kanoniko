@@ -2,6 +2,8 @@
 title: "La vida del apóstol Juan"
 date: 2026-04-04
 status: draft
+collection: vidas
+collection_order: 6
 tags: [juan, apóstoles, nuevo-testamento, apocalipsis, restauración, seres-trasladados]
 derived_from: ""
 feeds_into: ""
