@@ -3,7 +3,7 @@ title: "El gárment del santo sacerdocio"
 date: 2026-04-05
 status: draft
 collection: investidura
-collection_order: 4
+collection_order: 5
 tags: [investidura, gárment, vestidura, símbolo, convenio, recordatorio, protección]
 derived_from: ""
 feeds_into: ""
