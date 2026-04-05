@@ -3,7 +3,7 @@ title: "Los convenios de la investidura"
 date: 2026-04-05
 status: draft
 collection: investidura
-collection_order: 3
+collection_order: 4
 tags: [investidura, convenios, obediencia, sacrificio, evangelio, castidad, consagración]
 derived_from: ""
 feeds_into: ""

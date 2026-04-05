@@ -3,7 +3,7 @@ title: "Las bendiciones de la investidura"
 date: 2026-04-05
 status: draft
 collection: investidura
-collection_order: 5
+collection_order: 6
 tags: [investidura, bendiciones, poder, protección, conocimiento, exaltación, vida-eterna]
 derived_from: ""
 feeds_into: ""

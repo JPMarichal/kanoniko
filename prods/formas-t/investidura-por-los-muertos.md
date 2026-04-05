@@ -3,7 +3,7 @@ title: "La investidura por los muertos"
 date: 2026-04-05
 status: draft
 collection: investidura
-collection_order: 6
+collection_order: 7
 tags: [investidura, obra-vicaria, muertos, redención, templo, eslabón, bautismo-muertos]
 derived_from: ""
 feeds_into: ""
