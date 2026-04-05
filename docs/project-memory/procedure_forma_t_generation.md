@@ -28,7 +28,14 @@ Procedimiento completo para generar colecciones de Formas T.
 
 ### A3. Cuestionamiento profundo
 - Antes de proponer formas, **agotar las preguntas que el tema genera**: ¿qué es? ¿por qué? ¿cómo? ¿quiénes? ¿qué habilita? ¿qué pasa si se rechaza? ¿qué relación tiene con X?
-- No fijar el número de formas prematuramente. La Expiación comenzó con 4 propuestas y terminó en 14 porque las preguntas revelaron dimensiones que la propuesta inicial no cubría.
+- No fijar el número de formas prematuramente. La Expiación comenzó con 4 propuestas y terminó en 14 porque las preguntas revelaron dimensiones que la propuesta inicial no cubría. El juicio final comenzó con 3 formas genéricas y terminó en 5 específicas porque las dimensiones doctrinales exigían separación.
+- **Incluir las preguntas que la gente REALMENTE hace:**
+  - Inquietudes pastorales (muerte de infantes, duelo, situaciones difíciles)
+  - Situaciones inesperadas o extremas (suicidio, aborto, cremación)
+  - Ángulos apologéticos (qué responde la Restauración que otros no)
+  - Controversias y preguntas sin respuesta oficial
+  - "Lo que no sabemos" — la honestidad fortalece, no debilita
+- **No toda pregunta genera una forma válida.** Si un tema carece de profundidad escritural para sostener una tabla de conceptos/referencias, es mejor reconocerlo como área sin doctrina oficial que forzar una forma débil con pasajes no probatorios.
 - **Why:** Una propuesta prematura produce formas genéricas; el cuestionamiento profundo produce formas precisas que responden preguntas reales.
 
 ### A4. Plan y subdivisión
@@ -38,6 +45,11 @@ Procedimiento completo para generar colecciones de Formas T.
 - Evaluar si algún subtema pertenece mejor a otra colección futura.
 - Si un dominio tiene múltiples colecciones, considerar si necesita una **colección introductoria** que defina términos y establezca el marco conceptual.
 - **Separar lo pastoral de lo extremo:** si una forma busca ayudar a alguien (ej: aceptar la Expiación), no mezclar con casos doctrinales extremos (ej: hijos de perdición) que intimidan en lugar de enseñar. Estos merecen su propia forma o colección.
+- **Si un tema tiene dimensiones doctrinales distintas, cada una merece su propia forma.** Resistir la tentación de colapsar temas ricos en resúmenes genéricos. "Cristo como juez y abogado" no es una nota al pie de "el juicio final" — es un tema en sí mismo.
+- **Grupos con identidad doctrinal distinta deben separarse**, aunque sean secuenciales en la narrativa (ej: muerte ≠ mundo de los espíritus; juicio ≠ reinos de gloria).
+- **Cuando un tema se solapa con una colección futura:** la colección actual establece el POR QUÉ (base doctrinal); la futura cubre el CÓMO (práctica, mecánica). No duplicar, pero sí fundamentar.
+- **Formas apologéticas como cierre de grupo:** una forma de síntesis que muestra qué responde la Restauración que otros no pueden es un patrón efectivo como capstone.
+- **Títulos específicos, no genéricos.** "Registros que serán abiertos en el juicio" > "Los registros y los libros." SEO long-tail + claridad.
 
 ### A5. Presentación y aprobación
 - Presentar la propuesta completa al usuario (lista numerada de Formas T con títulos y objetivos).
@@ -47,6 +59,13 @@ Procedimiento completo para generar colecciones de Formas T.
 ---
 
 ## Fase B — Generación
+
+### B0. Verificación doctrinal previa
+- **Antes de construir cualquier forma, verificar que la Iglesia enseña la posición que la forma presenta.**
+- No basta con que una pregunta sea interesante o que existan pasajes tangencialmente relacionados. Los pasajes deben ser **probatorios**, no meramente asociables.
+- Si la Iglesia desrecomienda una práctica (ej: orar por los muertos), no construir una forma que la presente como doctrina.
+- Si un tema depende enteramente de opiniones proféticas individuales o política institucional (Manual General) sin base escritural canónica, reconocerlo pero no fabricar una Forma T con referencias forzadas.
+- **Why:** F46 (orar por los muertos) se construyó con pasajes que no eran probatorios. La Iglesia desrecomienda la práctica. La forma tuvo que ser eliminada. Verificar antes de construir ahorra retrabajo y evita enseñar error.
 
 ### B1. Audiencias
 - Diseñar para: no-miembros, conversos nuevos, miembros reactivándose, líderes nuevos.
@@ -120,6 +139,6 @@ Periódicamente (o al completar un grupo de colecciones):
 
 ---
 
-**Why:** Las sesiones de bautismo y Espíritu Santo revelaron que: (1) sin plan previo aprobado, se genera material que luego se descarta o reubica; (2) sin checklist de revisión, los conceptos quedan largos, el orden mezcla niveles de familiaridad y la secuencia no sigue la lógica real. La investidura añadió que: (3) sin verificación contra fuentes oficiales, se pierden conceptos que la Iglesia enseña explícitamente. El sellamiento y la formalización añadieron que: (4) las colecciones se entrelazan por temas comunes y la investigación previa debe incluir colecciones existentes; (5) toda forma debe tener metadatos completos.
+**Why:** Las sesiones de bautismo y Espíritu Santo revelaron que: (1) sin plan previo aprobado, se genera material que luego se descarta o reubica; (2) sin checklist de revisión, los conceptos quedan largos, el orden mezcla niveles de familiaridad y la secuencia no sigue la lógica real. La investidura añadió que: (3) sin verificación contra fuentes oficiales, se pierden conceptos que la Iglesia enseña explícitamente. El sellamiento y la formalización añadieron que: (4) las colecciones se entrelazan por temas comunes y la investigación previa debe incluir colecciones existentes; (5) toda forma debe tener metadatos completos. El plan de salvación (67 formas, 11 bloques) añadió que: (6) A3 debe incluir preguntas pastorales, apologéticas y "lo que no sabemos" — las preguntas reales de la gente expanden el alcance legítimamente; (7) no toda pregunta genera una forma válida — sin base escritural probatoria no hay forma; (8) temas con dimensiones doctrinales distintas merecen formas separadas, no resúmenes genéricos; (9) verificar la posición doctrinal de la Iglesia ANTES de construir (B0) — una forma sobre una práctica que la Iglesia desrecomienda es error enseñado.
 
-**How to apply:** Seguir las fases (A→B→C) cada vez que se genere una colección de Formas T. No saltar de A1 a B4. A3 (cuestionamiento profundo) no es opcional — invertir tiempo aquí ahorra retrabajos. B5 es obligatorio antes de dar por cerrada la Fase B.
+**How to apply:** Seguir las fases (A→B→C) cada vez que se genere una colección de Formas T. No saltar de A1 a B4. A3 (cuestionamiento profundo) no es opcional — invertir tiempo aquí ahorra retrabajos. B0 (verificación doctrinal) es un filtro duro antes de B1. B5 es obligatorio antes de dar por cerrada la Fase B.
