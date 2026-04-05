@@ -346,6 +346,181 @@ BOOK_CONFIGS: dict[int, dict] = {
         "note": "Edited by B. H. Roberts. Published 1912. Covers events through the "
                 "martyrdom of Joseph and Hyrum Smith.",
     },
+    # ----- Gutenberg Bookshelf batch (2026-04) -----
+    45054: {
+        "slug": "essentials-in-church-history",
+        "author": "Joseph Fielding Smith",
+        "category": "books",
+        "tags": ["church-history", "apostle-authored", "restoration", "textbook"],
+        "authority": 45,
+        "chapter_pattern": r"^Chapter\s+(\d+)\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1922. One-volume church history, 6 parts, 54 chapters. "
+                "Standard priesthood/CES textbook for decades. Deseret News Press.",
+    },
+    45619: {
+        "slug": "history-of-prophet-joseph-by-his-mother",
+        "author": "Lucy Mack Smith",
+        "category": "books",
+        "tags": ["biography", "joseph-smith", "smith-family", "primary-source"],
+        "authority": 35,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "1902 revised edition (George A. Smith / Elias Smith). "
+                "54 chapters. Mother's first-hand account of the Smith family.",
+    },
+    44896: {
+        "slug": "autobiography-parley-p-pratt",
+        "author": "Parley P. Pratt",
+        "category": "books",
+        "tags": ["biography", "apostle-authored", "autobiography", "missionary"],
+        "authority": 40,
+        "chapter_pattern": r"^[Cc][Hh][Aa][Pp][Tt][Ee][Rr]\s+([IVXLC]+)\.\s*$",
+        "title_offset": 4,
+        "has_toc": False,
+        "note": "Published 1874 by Russell Brothers, NY. 54 chapters. "
+                "Edited posthumously by son Parley P. Pratt Jr. Covers 1807-1857.",
+    },
+    47109: {
+        "slug": "gospel-doctrine",
+        "author": "Joseph F. Smith",
+        "category": "books",
+        "tags": ["doctrine", "prophet-teachings", "priesthood", "sermons"],
+        "authority": 50,
+        "chapter_pattern": r"(?i)^CHAPTER\s+([IVXLC]+)\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1919. Sermons and writings of 6th President. "
+                "26 chapters. Compiled by John A. Widtsoe. Deseret News.",
+    },
+    35333: {
+        "slug": "life-of-heber-c-kimball",
+        "author": "Orson F. Whitney",
+        "category": "books",
+        "tags": ["biography", "apostle-authored", "heber-kimball", "british-mission"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1888. Whitney (grandson, later apostle). 68 chapters. "
+                "Incorporates extensive verbatim journal extracts.",
+    },
+    44941: {
+        "slug": "government-of-god",
+        "author": "John Taylor",
+        "category": "books",
+        "tags": ["doctrine", "prophet-authored", "theocracy", "political-theology"],
+        "authority": 40,
+        "chapter_pattern": r"^Chapter\s+([IVXLC]+)\.\s*$",
+        "title_offset": 4,
+        "has_toc": True,
+        "note": "Published 1852, Liverpool. John Taylor's treatise on divine "
+                "vs human government. 12 chapters. Called 'Taylor's masterpiece' by Roberts.",
+    },
+    46028: {
+        "slug": "leaves-from-my-journal",
+        "author": "Wilford Woodruff",
+        "category": "books",
+        "tags": ["biography", "autobiography", "prophet-authored", "faith-promoting-series"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1882. Faith-Promoting Series #3. 28 chapters. "
+                "Autobiographical journal excerpts from the 4th President.",
+    },
+    47703: {
+        "slug": "wilford-woodruff-fourth-president",
+        "author": "Matthias F. Cowley",
+        "category": "books",
+        "tags": ["biography", "church-president", "wilford-woodruff", "church-history"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+(\d+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1909. Compiled by Cowley (apostle) from Woodruff's journals. "
+                "57 chapters + 4 appendices. Definitive biography for over a century.",
+    },
+    47519: {
+        "slug": "heber-c-kimball-journal",
+        "author": "Heber C. Kimball",
+        "category": "books",
+        "tags": ["biography", "journal", "apostle-authored", "british-mission", "faith-promoting-series"],
+        "authority": 40,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "note": "Published 1882. Faith-Promoting Series #7. 17 chapters. "
+                "British Mission (1837-38) and Missouri persecutions.",
+    },
+    45051: {
+        "slug": "william-clayton-journal",
+        "author": "William Clayton",
+        "category": "books",
+        "tags": ["journal", "pioneer-trek", "primary-source", "1847"],
+        "authority": 40,
+        "chapter_pattern": r"^((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+184[67])\s*$",
+        "title_offset": 0,
+        "title_from_pattern": 1,
+        "has_toc": True,
+        "sequential_numbering": True,
+        "note": "Published 1921. Clayton Family Association. Pioneer exodus journal "
+                "Feb 1846 - Oct 1847. 18 monthly sections. Abridged family edition.",
+    },
+    47708: {
+        "slug": "biography-of-lorenzo-snow",
+        "author": "Eliza R. Snow",
+        "category": "biographies",
+        "tags": ["biography", "church-president", "lorenzo-snow", "women-authored"],
+        "authority": 40,
+        "chapter_pattern": r"^(?:CHAPTER|LETTER)\s+([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "sequential_numbering": True,
+        "note": "Published 1884 by Deseret News. Written by Lorenzo Snow's sister "
+                "Eliza R. Snow. 63 chapters + 15 letters from Palestine.",
+    },
+    2443: {
+        "slug": "story-of-the-mormons",
+        "author": "William Alexander Linn",
+        "category": "books",
+        "tags": ["church-history", "external-perspective", "secular-history"],
+        "authority": 20,
+        "chapter_pattern": r"^CHAPTER\s+([IVXLC]+)\.\s*--\s*(.+)$",
+        "title_offset": 0,
+        "title_from_pattern": 2,
+        "has_toc": False,
+        "sequential_numbering": True,
+        "note": "Published 1902 by Macmillan. External/secular history, hostile bias. "
+                "6 Books, ~78 chapters. Chapter numbering restarts per Book.",
+    },
+    46783: {
+        "slug": "early-scenes-church-history",
+        "author": "Various",
+        "category": "books",
+        "tags": ["church-history", "testimonials", "faith-promoting-series", "primary-source"],
+        "authority": 35,
+        "chapter_pattern": r"^(CHAPTER\s+[IVXLC]+\.|\"SHOW US A SIGN\.\"|CONTEST WITH EVIL SPIRITS\.|REMARKABLE HEALINGS\.)\s*$",
+        "title_offset": 2,
+        "has_toc": True,
+        "sequential_numbering": True,
+        "note": "Published 1882. Faith-Promoting Series #8. Anthology of first-hand "
+                "accounts by B.F. Johnson, A.O. Smoot, Philo Dibble, Elias Morris, et al.",
+    },
+    51730: {
+        "slug": "life-of-david-w-patten",
+        "author": "Lycurgus A. Wilson",
+        "category": "books",
+        "tags": ["biography", "apostle", "david-patten", "martyrdom", "missouri"],
+        "authority": 35,
+        "chapter_pattern": r"^([IVXLC]+)\.\s*$",
+        "title_offset": 2,
+        "has_toc": False,
+        "note": "Published 1900/1904 by Deseret News. Only biography of the first "
+                "martyred apostle. 8 chapters. Preface by Lorenzo Snow.",
+    },
 }
 
 
@@ -475,12 +650,12 @@ def strip_transcriber_notes(text: str) -> str:
     ]
     for pat in patterns:
         text = re.sub(pat, "", text, count=1)
-    # End of text
-    end_patterns = [
-        r"(?i)\n\s*TRANSCRIBER'?S?\s+NOTE[S]?.*$",
-    ]
-    for pat in end_patterns:
-        text = re.sub(pat, "", text, flags=re.DOTALL)
+    # End of text — only strip if the note is in the last 5% of the text
+    # (avoids stripping mid-text transcriber notes that precede body chapters)
+    end_pat = re.compile(r"(?i)\n\s*TRANSCRIBER'?S?\s+NOTE[S]?.*$", re.DOTALL)
+    m = end_pat.search(text)
+    if m and m.start() > len(text) * 0.95:
+        text = text[:m.start()]
     return text
 
 
@@ -610,12 +785,15 @@ def split_into_chapters(text: str, config: dict) -> list[dict]:
 
     lines = text.split("\n")
 
+    title_from_pattern = config.get("title_from_pattern")  # group number for title
+
     # Find all chapter boundary lines
     boundaries = []
     for i, line in enumerate(lines):
         m = re.match(pattern, line.strip())
         if m:
-            boundaries.append((i, m.group(1)))
+            extra_title = m.group(title_from_pattern) if title_from_pattern and title_from_pattern <= len(m.groups()) else None
+            boundaries.append((i, m.group(1), extra_title))
 
     if not boundaries:
         logger.warning("No chapter boundaries found with pattern: %s", pattern)
@@ -626,7 +804,7 @@ def split_into_chapters(text: str, config: dict) -> list[dict]:
     if has_toc and len(boundaries) > 1:
         first_ch = boundaries[0][1]
         second_occurrence = None
-        for idx, (line_num, ch_num) in enumerate(boundaries[1:], 1):
+        for idx, (line_num, ch_num, _et) in enumerate(boundaries[1:], 1):
             if ch_num == first_ch:
                 second_occurrence = idx
                 break
@@ -635,19 +813,23 @@ def split_into_chapters(text: str, config: dict) -> list[dict]:
 
     # Extract chapter content
     chapters = []
-    for i, (line_num, ch_num) in enumerate(boundaries):
-        # Get title from the line after the chapter marker
-        title = ""
-        for offset in range(1, title_offset + 2):
-            if line_num + offset < len(lines):
-                candidate = lines[line_num + offset].strip()
-                if candidate and not re.match(pattern, candidate):
-                    title = candidate
-                    break
+    for i, (line_num, ch_num, extra_title) in enumerate(boundaries):
+        # Get title: prefer pattern-captured title, then scan nearby lines
+        if extra_title:
+            title = extra_title
+        else:
+            title = ""
+            for offset in range(1, title_offset + 2):
+                if line_num + offset < len(lines):
+                    candidate = lines[line_num + offset].strip()
+                    if candidate and not re.match(pattern, candidate):
+                        title = candidate
+                        break
 
         # Clean up title
         title = re.sub(r"^_(.+)_$", r"\1", title)  # strip italic markers
         title = re.sub(r"\*\*(.+?)\*\*", r"\1", title)  # strip bold markers
+        title = re.sub(r'^"|"$', "", title)  # strip surrounding quotes
         title = title.strip(".")
 
         # Get body: from after title to next chapter
