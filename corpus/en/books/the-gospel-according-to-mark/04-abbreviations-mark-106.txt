@@ -1,0 +1,67 @@
+Abbreviations
+
+BCE and CEBefore the Common Era and Common Era1
+
+D&CThe Doctrine and Covenants
+
+ESVEnglish Standard Version
+
+HBHebrew Bible2
+
+JSTThe Joseph Smith Translation3
+
+KJVKing James Version
+
+LXXThe Septuagint4
+
+NETThe New English Translation
+
+NIVThe New International Version
+
+NRSVThe New Revised Standard Version
+
+NTNew Testament
+
+SBLGNTSBL Greek New Testament5
+
+1e:T6f0,
+
+1. These terms replace âBCâ and âADâ; they are used to conform to current academic convention.
+
+2. While the term âOld Testamentâ is more common for the general reader, I have chosen to use the term âHebrew Bibleâ in deference to current academic convention and out of respect for those who find the idea of referring to their sacred text as âoldâ dismissive. But there is controversy surrounding the terminology here; Amy-Jill Levine (a Jewish scholar of the NT) has argued against the use of âHebrew Bible.â See Amy-Jill Levine, The Misunderstood Jew (San Francisco: HarperSanFrancisco, 2006), 193â99.
+
+3 See appendix I: âThe Joseph Smith Translation.â
+
+4. The Septuagint is the ancient Greek translation of the HB/Old Testament. It was the version of the Bible known to Markâs community. As with all translations, it differs in some respects from its source text. In some cases, the numbering of the Psalms differs from the KJV to the LXX; the commentary indicates both to avoid confusion.
+
+5. Copyright Â© 2010 Society of Biblical Literature http://www.sbl-site.org and Logos Bible Software http://www.logos.com. Creative Commons Attribution 4.0 International Public License.
+
+1f:T538,
+
+Abbreviations
+
+BCE and CEBefore the Common Era and Common Era1
+
+D&CThe Doctrine and Covenants
+
+ESVEnglish Standard Version
+
+HBHebrew Bible2
+
+JSTThe Joseph Smith Translation3
+
+KJVKing James Version
+
+LXXThe Septuagint4
+
+NETThe New English Translation
+
+NIVThe New International Version
+
+NRSVThe New Revised Standard Version
+
+NTNew Testament
+
+SBLGNTSBL Greek New Testament5
+
+12:["$","$L1c",null,{"book":{"id":106,"title":"The Gospel according to Mark","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/SmithGospel.png","excerpt":null,"book_series_id":27,"series_ordering":0,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":"","footnotes":null,"public":1,"slug":"the-gospel-according-to-mark","wp_id":null,"product_link":"https://byustudies.byu.edu/product/byu-new-testament-commentary-the-gospel-according-to-mark","author_id":null},"chapter":{"id":1964,"title":"List of Abbreviations","subtitle":null,"online_book_id":106,"excerpt":null,"content":"$1d","intro_text":"","page_number":-1,"previous_chapter":"acknowledgments-mark","next_chapter":"introduction-106","pdf_id":null,"footnotes":"$1e","slug":"abbreviations-mark-106","public":0,"wp_id":null,"test":null,"podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1f","headings":[]}}]
