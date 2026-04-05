@@ -22,6 +22,7 @@ Procedimiento completo para generar colecciones de Formas T.
   3. Manuales oficiales vigentes (Manual General, folletos didácticos, FTSOY)
   4. Conferencias generales relevantes al tema
   5. Libros doctrinales (Talmage, McConkie, etc.)
+  6. Obras de referencia externas (comentarios bíblicos, diccionarios bíblicos, etc.)
 - Identificar los subtemas naturales que el corpus revela.
 - **Revisar colecciones existentes** para evitar solapamiento y descubrir conexiones (`derived_from`, `feeds_into`).
 
