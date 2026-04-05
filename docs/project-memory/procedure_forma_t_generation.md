@@ -4,40 +4,69 @@ description: Complete procedure for generating Formas T — audience design, cor
 type: feedback
 ---
 
-Procedimiento para generar Formas T sobre un tema dado.
+Procedimiento completo para generar colecciones de Formas T.
 
-## 1. Investigación
+---
+
+## Fase A — Propuesta y aprobación
+
+### A1. Tema genérico
+- El usuario presenta un tema amplio (ej: "bautismo", "Espíritu Santo").
+
+### A2. Investigación exploratoria
 - Buscar en **todo el corpus** (escrituras, manuales, conferencia, libros), no solo en escrituras.
 - Usar MCP tools (`search_hybrid`, `kg_find`) con 3-7 llamadas quirúrgicas.
+- Identificar los subtemas naturales que el corpus revela.
 
-## 2. Subdivisión por responsabilidad simple
-- Cada Forma T = un subtema enfocado. Si bifurca, subdividir.
-- Los subtemas surgen naturalmente del corpus y de las preguntas que el tema genera.
+### A3. Plan y subdivisión
+- Proponer Formas T individuales: título, objetivo breve y subtema enfocado.
+- Cada Forma T = un subtema con responsabilidad simple. Si bifurca, subdividir.
+- Los subtemas surgen del corpus y de las preguntas que el tema genera.
+- Evaluar si algún subtema pertenece mejor a otra colección futura.
 
-## 3. Audiencias
+### A4. Presentación y aprobación
+- Presentar la propuesta completa al usuario (lista numerada de Formas T con títulos y objetivos).
+- El usuario revisa, ajusta, reordena, agrega o elimina antes de aprobar.
+- **No generar archivos hasta obtener aprobación explícita.**
+
+---
+
+## Fase B — Generación
+
+### B1. Audiencias
 - Diseñar para: no-miembros, conversos nuevos, miembros reactivándose, líderes nuevos.
 - Los conceptos deben enseñar sin requerir conocimiento previo SUD.
 - Algunas Formas T pueden ser específicamente apologéticas cuando el tema lo requiere.
 
-## 4. Orden didáctico (de lo conocido a lo avanzado)
+### B2. Orden didáctico (de lo conocido a lo avanzado)
 - **Biblia primero** (ancla más accesible para todas las audiencias) → Libro de Mormón → DyC/Restauración.
 - Dentro de cada bloque, de lo general al detalle.
 
-## 5. Secuencia lógica/cronológica
+### B3. Secuencia lógica/cronológica
 - Si algo ocurre antes en la práctica, aparece antes en la tabla.
 - Revisar cada forma como guión: ¿un lector que sigue las filas en orden entiende una progresión coherente?
 - Causas antes de consecuencias. Habilitadores antes de lo que habilitan (ej: llaves de Elías antes de la obra del templo).
 
-## 6. Revisión de conceptos
-- Máximo ~15 palabras por concepto.
-- Cada concepto debe ser autoexplicativo (no depender de jerga o contexto previo).
-- Si usa un término fuerte ("obra muerta"), explicar qué significa en la misma fila.
+### B4. Generación de archivos
+- Producir cada Forma T como archivo .md en `prods/formas-t/`.
 
-## 7. Formato
-- Títulos: cortos, SEO long-tail (3-5 palabras), sin dos puntos, capitalización hispana.
-- Frontmatter: title, date, status, collection, collection_order, tags, derived_from, feeds_into.
-- Nota/abreviaturas solo si se usan fuentes no escriturarias.
+---
 
-**Why:** Sesión de generación de 8 Formas T sobre bautismo reveló que sin este procedimiento, los conceptos quedan largos, el orden mezcla niveles de familiaridad, y la secuencia no sigue la lógica real.
+## Fase C — Revisión con checklist de calidad
 
-**How to apply:** Seguir estos 7 pasos cada vez que se genere una Forma T o colección de Formas T.
+Revisar cada Forma T generada contra este checklist:
+
+- [ ] **Longitud:** cada concepto ≤ ~15 palabras.
+- [ ] **Claridad:** cada concepto es autoexplicativo (no depende de jerga o contexto previo). Si usa un término fuerte ("obra muerta"), explicar en la misma fila.
+- [ ] **Orden didáctico:** Biblia primero → Libro de Mormón → DyC. General antes que detalle.
+- [ ] **Secuencia:** causas antes de consecuencias; habilitadores antes de lo habilitado; pasos prácticos en orden real.
+- [ ] **Responsabilidad simple:** la forma no bifurca en dos subtemas distintos.
+- [ ] **Formato:** título corto SEO long-tail (3-5 palabras), sin dos puntos, capitalización hispana. Frontmatter completo (title, date, status, collection, collection_order, tags, derived_from, feeds_into). Nota/abreviaturas solo si se usan fuentes no escriturarias.
+
+Iterar hasta que todas las formas pasen el checklist.
+
+---
+
+**Why:** Las sesiones de bautismo y Espíritu Santo revelaron que: (1) sin plan previo aprobado, se genera material que luego se descarta o reubica; (2) sin checklist de revisión, los conceptos quedan largos, el orden mezcla niveles de familiaridad y la secuencia no sigue la lógica real.
+
+**How to apply:** Seguir las tres fases (A→B→C) cada vez que se genere una colección de Formas T. No saltar de A1 a B4.
