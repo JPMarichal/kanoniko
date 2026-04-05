@@ -1,12 +1,7 @@
 {
   "mcpServers": {
     "alejandria": {
-      "command": "wsl",
-      "args": [
-        "-d", "Ubuntu-20.04",
-        "docker", "exec", "-i", "alejandria-api",
-        "python", "-m", "alejandria.mcp_server"
-      ]
+      "url": "http://localhost:4300/mcp/"
     }
   }
 }
