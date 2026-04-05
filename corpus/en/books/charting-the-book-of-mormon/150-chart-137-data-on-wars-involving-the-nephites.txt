@@ -1,0 +1,17 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+This three-page chart is a more detailed representation of the fifteen Nephite wars listed in chart 136. It tracks each major war's approximate dates and locations, as well as its causes and results. Though the wars are very different from each other, they share some interesting patterns. For example, several of the wars were caused when one group of people tried to separate from the main group. Apparently, the Nephites were restricted in their travel, and defection from the land was considered an act of treason and a cause for armed intervention. Another pattern is that opponents to the government chose to strike right after a new leader had taken office or when the government or the church was weakened by dissension. Amalickiah's wars, for instance, were initiated when dissenters banded together and desired a king, shortly after Alma left and Helaman was newly in office (see Alma 45:23–46:7). Studying the amazingly consistent complexity and sensible realism of these war accounts brings to light the real-life issues and dynamics behind the Nephite history told in the Book of Mormon.
+
+1e:T64d,
+
+Explanation:
+
+This three-page chart is a more detailed representation of the fifteen Nephite wars listed in chart 136. It tracks each major war's approximate dates and locations, as well as its causes and results. Though the wars are very different from each other, they share some interesting patterns. For example, several of the wars were caused when one group of people tried to separate from the main group. Apparently, the Nephites were restricted in their travel, and defection from the land was considered an act of treason and a cause for armed intervention. Another pattern is that opponents to the government chose to strike right after a new leader had taken office or when the government or the church was weakened by dissension. Amalickiah's wars, for instance, were initiated when dissenters banded together and desired a king, shortly after Alma left and Helaman was newly in office (see Alma 45:23–46:7). Studying the amazingly consistent complexity and sensible realism of these war accounts brings to light the real-life issues and dynamics behind the Nephite history told in the Book of Mormon.
+
+12:["$","$L1c",null,{"book":{"id":64,"title":"Charting the Book of Mormon","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-bom.png","excerpt":null,"book_series_id":19,"series_ordering":2,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-book-of-mormon","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":1021,"title":"Chart 137: Data on Wars Involving the Nephites","subtitle":null,"online_book_id":64,"excerpt":null,"content":"$1d","intro_text":null,"page_number":151,"previous_chapter":"chart-136-wars-in-the-book-of-mormon","next_chapter":"chart-138-the-two-final-battles","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CBM-137.pdf","footnotes":null,"slug":"chart-137-data-on-wars-involving-the-nephites","public":1,"wp_id":25159,"test":"1020","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"}]}}]

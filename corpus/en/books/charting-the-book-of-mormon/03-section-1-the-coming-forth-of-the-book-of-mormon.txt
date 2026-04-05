@@ -1,0 +1,55 @@
+Charts 1â12
+
+1 - Joseph Smith on the Correctness and Importance of the Book of Mormon
+
+2 - The Keystone of Our Religion
+
+3 - Joseph Smith on How the Book of Mormon Will Prove Him a True Prophet
+
+4 - Emma Smith on the Book of Mormon Translation Process, Quote 1
+
+5 - Emma Smith on the Book of Mormon Translation Process, Quote 2
+
+6 - Emma Smith on the Physical Characteristics of the Book of Mormon Plates
+
+7 - Elder B. H. Roberts on the Holy Spirit and Scholarly Evidence
+
+8 - Austin Farrer on Rational Argument and Belief
+
+9 - Events Surrounding the Translation of the Book of Mormon, 1827â1828
+
+10 - Events Surrounding the Translation of the Book of Mormon, 1829â1830
+
+11 - Church History Sites near Palmyra, New York, 1820â1831
+
+12 - Church History Sites in Western New York, 1820â1831
+
+1e:T6f0,
+
+Charts 1â12
+
+1 - Joseph Smith on the Correctness and Importance of the Book of Mormon
+
+2 - The Keystone of Our Religion
+
+3 - Joseph Smith on How the Book of Mormon Will Prove Him a True Prophet
+
+4 - Emma Smith on the Book of Mormon Translation Process, Quote 1
+
+5 - Emma Smith on the Book of Mormon Translation Process, Quote 2
+
+6 - Emma Smith on the Physical Characteristics of the Book of Mormon Plates
+
+7 - Elder B. H. Roberts on the Holy Spirit and Scholarly Evidence
+
+8 - Austin Farrer on Rational Argument and Belief
+
+9 - Events Surrounding the Translation of the Book of Mormon, 1827â1828
+
+10 - Events Surrounding the Translation of the Book of Mormon, 1829â1830
+
+11 - Church History Sites near Palmyra, New York, 1820â1831
+
+12 - Church History Sites in Western New York, 1820â1831
+
+12:["$","$L1c",null,{"book":{"id":64,"title":"Charting the Book of Mormon","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-bom.png","excerpt":null,"book_series_id":19,"series_ordering":2,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-book-of-mormon","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":874,"title":"Section 1: The Coming Forth of the Book of Mormon","subtitle":null,"online_book_id":64,"excerpt":null,"content":"$1d","intro_text":null,"page_number":4,"previous_chapter":"preface-charting-the-book-of-mormon","next_chapter":"chart-1-joseph-smith-on-the-correctness-and-importance-of-the-book-of-mormon","pdf_id":null,"footnotes":null,"slug":"section-1-the-coming-forth-of-the-book-of-mormon","public":1,"wp_id":null,"test":"873","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[]}}]

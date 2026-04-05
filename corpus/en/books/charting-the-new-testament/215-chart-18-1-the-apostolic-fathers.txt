@@ -1,0 +1,29 @@
+[caption][/caption]
+
+Explanation:
+
+As chart 18-2 shows, persecution of Christians was sporadic and varied. The earliest attacks on Christianity, from the time of its inception, came from the Jews who were angry or concerned that some of their number had embraced the new religion. They and other enemies of individual Christians sometimes brought actions against Christians in the courts of Roman magistrates, who were left with the daunting task of determining guilt or innocence. During the first and second centuries, Roman law and the general religious tolerance of Rome actually served to protect Christians from their attackers.
+
+By the end of the second century, a heretical group of Christians in Asia Minor, known as Montanists, had formulated a doctrine that heavenly salvation would be assured, regardless of the worthiness of an individual's life, if that life were given in testimony or "martyrdom" of the Christian message. Montanist practice spread, and the third and fourth centuries witnessed in some quarters aggressive effort by Christians to effect their own death at the hands of either enemies or the Roman government.
+
+Nevertheless, Christian numbers continued to grow so that by the time of Diocletian (A.D. 285) and Constantine (A.D. 315), the Christians comprised a force to be reckoned with. Christians became an important political factor in the dynastic struggles of Roman emperors, and under some rulers in that era they became the objects of actual government persecution for about thirty years.
+
+References:
+
+Details and quotes extracted from W. H. C. Frend, Martyrdom and Persecution in the Early Church (Oxford: Blackwell, 1965). For an extensive synopsis of events, see W. H. C. Frend, The Rise of Christianity (Philadelphia: Fortress, 1984), 912-85. Robert C. Patch, "Martyrs," EM, 2:862-63.
+
+1e:T802,
+
+Explanation:
+
+As chart 18-2 shows, persecution of Christians was sporadic and varied. The earliest attacks on Christianity, from the time of its inception, came from the Jews who were angry or concerned that some of their number had embraced the new religion. They and other enemies of individual Christians sometimes brought actions against Christians in the courts of Roman magistrates, who were left with the daunting task of determining guilt or innocence. During the first and second centuries, Roman law and the general religious tolerance of Rome actually served to protect Christians from their attackers.
+
+By the end of the second century, a heretical group of Christians in Asia Minor, known as Montanists, had formulated a doctrine that heavenly salvation would be assured, regardless of the worthiness of an individual's life, if that life were given in testimony or "martyrdom" of the Christian message. Montanist practice spread, and the third and fourth centuries witnessed in some quarters aggressive effort by Christians to effect their own death at the hands of either enemies or the Roman government.
+
+Nevertheless, Christian numbers continued to grow so that by the time of Diocletian (A.D. 285) and Constantine (A.D. 315), the Christians comprised a force to be reckoned with. Christians became an important political factor in the dynastic struggles of Roman emperors, and under some rulers in that era they became the objects of actual government persecution for about thirty years.
+
+References:
+
+Details and quotes extracted from W. H. C. Frend, Martyrdom and Persecution in the Early Church (Oxford: Blackwell, 1965). For an extensive synopsis of events, see W. H. C. Frend, The Rise of Christianity (Philadelphia: Fortress, 1984), 912-85. Robert C. Patch, "Martyrs," EM, 2:862-63.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":859,"title":"Chart 18-1: The Apostolic Fathers","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":217,"previous_chapter":"chart-18-0-manuscript-of-letter-to-the-colossians","next_chapter":"chart-18-2-timeline-of-persecutions","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-18-01.pdf","footnotes":null,"slug":"chart-18-1-the-apostolic-fathers","public":1,"wp_id":25963,"test":"858","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

@@ -1,0 +1,25 @@
+[caption][/caption]
+
+Explanation:
+
+Each Gospel delivers the message of Jesus Christ through its own distinctive style and approach. Significantly, each Gospel traces the origins of Jesus back to a different point. Read from the bottom up, chart 7-2 shows that Matthew takes the genealogy of Jesus only back to David and Abraham, reflecting Matthew's Jewish interests. Luke takes the genealogy back to Adam, reflecting his broader gentile interest in all humankind. Mark gives Jesus no mortal genealogy, for his declared purpose at the outset of his gospel is to emphasize Jesus as the Son of God, not of man. John begins even farther back, where "in the beginning" Jesus was with God and was a God. These points of reference reflect and influence in many ways the different purposes, styles, vocabularies, contents, and characteristics of each of the four Gospels.
+
+References:
+
+Philip A. Cunningham, Jesus and the Evangelists: The Ministry of Jesus and its Portrayal in the Synoptic Gospels (London: University Press of America, 1993).
+
+Gerd Theissen, The Gospels in Context: Social and Political History in the Synoptic Tradition (Minneapolis: Fortress, 1991).
+
+1e:T55b,
+
+Explanation:
+
+Each Gospel delivers the message of Jesus Christ through its own distinctive style and approach. Significantly, each Gospel traces the origins of Jesus back to a different point. Read from the bottom up, chart 7-2 shows that Matthew takes the genealogy of Jesus only back to David and Abraham, reflecting Matthew's Jewish interests. Luke takes the genealogy back to Adam, reflecting his broader gentile interest in all humankind. Mark gives Jesus no mortal genealogy, for his declared purpose at the outset of his gospel is to emphasize Jesus as the Son of God, not of man. John begins even farther back, where "in the beginning" Jesus was with God and was a God. These points of reference reflect and influence in many ways the different purposes, styles, vocabularies, contents, and characteristics of each of the four Gospels.
+
+References:
+
+Philip A. Cunningham, Jesus and the Evangelists: The Ministry of Jesus and its Portrayal in the Synoptic Gospels (London: University Press of America, 1993).
+
+Gerd Theissen, The Gospels in Context: Social and Political History in the Synoptic Tradition (Minneapolis: Fortress, 1991).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":704,"title":"Chart 7-2: Four Gospels: Four Beginnings","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":62,"previous_chapter":"chart-7-1-who-were-the-evangelists","next_chapter":"chart-7-3-purposes-and-approaches-of-the-four-gospels","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-07-02.pdf","footnotes":null,"slug":"chart-7-2-four-gospels-four-beginnings","public":1,"wp_id":25716,"test":"703","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

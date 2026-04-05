@@ -1,0 +1,21 @@
+Explanation:
+
+An important doctrinal tenet of the restored Church of Jesus Christ concerns the organization of the priesthood which it shares with its counterpart in the meridian of time. Chart 12-8 demonstrates this correlation. It lists priesthood offices or church functionaries, giving modern names and New Testament counterparts, which are noted under their Greek names along with brief translations. A scriptural reference where the Greek term occurs in the New Testament is also provided. Each of these offices and functions was crucial in the establishment and nurturing of Christian congregations, communities, and churches from the earliest decades of the New Testament era, as they are in similar although not identical ways today.
+
+References:
+
+Richard G. Ellsworth and Melvin J. Luthy, "Priesthood," EM, 3:1133-38.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":790,"title":"Chart 12-8: Offices of the Priesthood","subtitle":null,"online_book_id":65,"excerpt":null,"content":"
+
+[caption][/caption]
+
+Explanation:
+
+An important doctrinal tenet of the restored Church of Jesus Christ concerns the organization of the priesthood which it shares with its counterpart in the meridian of time. Chart 12-8 demonstrates this correlation. It lists priesthood offices or church functionaries, giving modern names and New Testament counterparts, which are noted under their Greek names along with brief translations. A scriptural reference where the Greek term occurs in the New Testament is also provided. Each of these offices and functions was crucial in the establishment and nurturing of Christian congregations, communities, and churches from the earliest decades of the New Testament era, as they are in similar although not identical ways today.
+
+References:
+
+Richard G. Ellsworth and Melvin J. Luthy, \"Priesthood,\" EM, 3:1133-38.
+
+","intro_text":null,"page_number":148,"previous_chapter":"chart-12-7-levitical-and-melchizedek-priesthoods","next_chapter":"chart-12-9-duties-of-a-bishop","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-12-08.pdf","footnotes":null,"slug":"chart-12-8-offices-of-the-priesthood","public":1,"wp_id":25826,"test":"789","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

@@ -1,0 +1,21 @@
+[caption][/caption]
+
+Explanation:
+
+A number of events noted in the New Testament are also mentioned in other of the few sources from antiquity that have survived to our own time. As an example, Luke's Gospel and Acts, and the Jewish War (Bellum Judaicum, abbreviated B.J.) and Jewish Antiquities (Antiquitates Judaicae, abbreviated Ant.) of Josephus share references to many of the same events. Although both authors wrote in Rome, and despite the works being more or less contemporary (Luke probably wrote in the A.D. 70s; Josephus's Jewish War began to be published in 75 and Jewish Antiquities in 93), it is unlikely that either was familiar with the other, as a source. Of greatest importance to students of the New Testament is that the two historians corroborate the accounts of one another on several occasions.
+
+Reference:
+
+Steve Mason, Josephus and the New Testament (Peabody, Mass.: Hendrickson, 1992).
+
+1e:T49f,
+
+Explanation:
+
+A number of events noted in the New Testament are also mentioned in other of the few sources from antiquity that have survived to our own time. As an example, Luke's Gospel and Acts, and the Jewish War (Bellum Judaicum, abbreviated B.J.) and Jewish Antiquities (Antiquitates Judaicae, abbreviated Ant.) of Josephus share references to many of the same events. Although both authors wrote in Rome, and despite the works being more or less contemporary (Luke probably wrote in the A.D. 70s; Josephus's Jewish War began to be published in 75 and Jewish Antiquities in 93), it is unlikely that either was familiar with the other, as a source. Of greatest importance to students of the New Testament is that the two historians corroborate the accounts of one another on several occasions.
+
+Reference:
+
+Steve Mason, Josephus and the New Testament (Peabody, Mass.: Hendrickson, 1992).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":801,"title":"Chart 13-3: Significant Parallels between Luke and Josephus","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":159,"previous_chapter":"chart-13-2-chronological-order-of-books","next_chapter":"chart-13-4-four-lists-of-the-original-twelve-apostles","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-13-03.pdf","footnotes":null,"slug":"chart-13-3-significant-parallels-between-luke-and-josephus","public":1,"wp_id":25909,"test":"800","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Reference:","tagName":"H2"}]}}]

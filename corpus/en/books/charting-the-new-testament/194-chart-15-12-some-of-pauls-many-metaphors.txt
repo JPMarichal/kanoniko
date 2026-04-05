@@ -1,0 +1,33 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+The letters of Paul are difficult to understand, for many reasons. Besides his convoluted sentence structures and huge vocabulary (see chart 11-10), Paul loved to use metaphors. This is fine for people who know the surrounding culture from which Paul drew those metaphors. But for modern readers, many of these images require clarification. Chart 15-12 displays and explains Paul's main metaphors, drawn from the worlds of city, country, and family life; law, slavery, and freedom; manufacturing, marketing, and travel; warfare, sports, and entertainment. By understanding the Greek cultural worlds of Corinth, Ephesus, Thessalonica, and the other cities where Paul worked, modern readers can better appreciate the vivid and beautiful images invoked and evoked by his writings.
+
+References:
+
+Extracted from David J. Williams, Paul's Metaphors: Their Context and Character (Peabody, Mass.: Hendrickson, 1999).
+
+1e:T830,
+
+Explanation:
+
+The letters of Paul are difficult to understand, for many reasons. Besides his convoluted sentence structures and huge vocabulary (see chart 11-10), Paul loved to use metaphors. This is fine for people who know the surrounding culture from which Paul drew those metaphors. But for modern readers, many of these images require clarification. Chart 15-12 displays and explains Paul's main metaphors, drawn from the worlds of city, country, and family life; law, slavery, and freedom; manufacturing, marketing, and travel; warfare, sports, and entertainment. By understanding the Greek cultural worlds of Corinth, Ephesus, Thessalonica, and the other cities where Paul worked, modern readers can better appreciate the vivid and beautiful images invoked and evoked by his writings.
+
+References:
+
+Extracted from David J. Williams, Paul's Metaphors: Their Context and Character (Peabody, Mass.: Hendrickson, 1999).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":838,"title":"Chart 15-12: Some of Paul's Many Metaphors","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":196,"previous_chapter":"chart-15-11-map-showing-st-pauls-voyage-to-rome","next_chapter":"chart-15-13-speeches-of-paul-in-acts","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-15-12.pdf","footnotes":null,"slug":"chart-15-12-some-of-pauls-many-metaphors","public":1,"wp_id":25944,"test":"837","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

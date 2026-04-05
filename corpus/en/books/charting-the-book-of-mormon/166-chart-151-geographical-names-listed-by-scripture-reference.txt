@@ -1,0 +1,21 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+This five-page chart lists, in scriptural order, the place-names that appear in the Book of Mormon. The names of cities, as well as geographical features or places, are all listed. There are well over a hundred named geographical references in the Book of Mormon. Students interested in moving geographically through the texts of the Book of Mormon may find this chart useful. It moves from place to place in the order in which one encounters these places when reading straight through the book.
+
+1e:T521,
+
+Explanation:
+
+This five-page chart lists, in scriptural order, the place-names that appear in the Book of Mormon. The names of cities, as well as geographical features or places, are all listed. There are well over a hundred named geographical references in the Book of Mormon. Students interested in moving geographically through the texts of the Book of Mormon may find this chart useful. It moves from place to place in the order in which one encounters these places when reading straight through the book.
+
+12:["$","$L1c",null,{"book":{"id":64,"title":"Charting the Book of Mormon","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-bom.png","excerpt":null,"book_series_id":19,"series_ordering":2,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-book-of-mormon","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":1037,"title":"Chart 151: Geographical Names Listed by Scripture Reference","subtitle":null,"online_book_id":64,"excerpt":null,"content":"$1d","intro_text":null,"page_number":167,"previous_chapter":"chart-165-geographical-names-listed-alphabetically","next_chapter":"chart-152-journeys-indicating-distances","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CBM-151.pdf","footnotes":null,"slug":"chart-151-geographical-names-listed-by-scripture-reference","public":1,"wp_id":25175,"test":"1036","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"}]}}]

@@ -1,0 +1,29 @@
+[caption][/caption]
+
+Explanation:
+
+At first, the books of the New Testament were individually composed and circulated. Only later were they collected and combined together. It is unknown when or where this process of collection began. Gradually, a great controversy arose as to which books should be included in the New Testament and which omitted. The standard for inclusion became the authority of the author and the authenticity of the authorship. The issue came to a head in the fourth century when prominent churchmen, entire churches, or general councils of Christians held differing opinions about what books should continue to comprise the New Testament. Chart 18-5 lists gospel writings known to have been included by various people as accepted books. Many books received widespread approval; others were accepted only in certain areas. Those meeting the criteria of particular councils or churchmen came to constitute the "canon" or "rod of scriptural integrity." The books that survived the critics of the fourth century in a canonized state are today's New Testament.
+
+References:
+
+Lee M. McDonald, The Formation of the Christian Biblical Canon (Peabody, Mass.: Hendrickson, 1995).
+
+Harry Y. Bramble, "Canon: New Testament," ABD, 1:852-61.
+
+Victor L. Ludlow, "Bible," EM, 1:104-8.
+
+1e:T5eb,
+
+Explanation:
+
+At first, the books of the New Testament were individually composed and circulated. Only later were they collected and combined together. It is unknown when or where this process of collection began. Gradually, a great controversy arose as to which books should be included in the New Testament and which omitted. The standard for inclusion became the authority of the author and the authenticity of the authorship. The issue came to a head in the fourth century when prominent churchmen, entire churches, or general councils of Christians held differing opinions about what books should continue to comprise the New Testament. Chart 18-5 lists gospel writings known to have been included by various people as accepted books. Many books received widespread approval; others were accepted only in certain areas. Those meeting the criteria of particular councils or churchmen came to constitute the "canon" or "rod of scriptural integrity." The books that survived the critics of the fourth century in a canonized state are today's New Testament.
+
+References:
+
+Lee M. McDonald, The Formation of the Christian Biblical Canon (Peabody, Mass.: Hendrickson, 1995).
+
+Harry Y. Bramble, "Canon: New Testament," ABD, 1:852-61.
+
+Victor L. Ludlow, "Bible," EM, 1:104-8.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":863,"title":"Chart 18-5: The Canonization of the Books of the New Testament","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":221,"previous_chapter":"chart-18-4-earliest-important-greek-parchments","next_chapter":"chart-18-6-renderings-of-the-new-testament-leading-up-to-the-king-james-version","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-18-05.pdf","footnotes":null,"slug":"chart-18-5-the-canonization-of-the-books-of-the-new-testament","public":1,"wp_id":25967,"test":"862","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

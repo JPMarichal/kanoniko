@@ -1,0 +1,23 @@
+Salutation (1:1)
+
+1:1Â Paul and Silvanus and Timothy to the Thessalonian church in God the Father and the Lord Jesus Christ. Grace to you and peace.
+
+The Thessaloniansâ Faith and Model (1:2â10)
+
+2Â We always thank God for all of you, constantly making mention of you in our prayers. 3Â We remember your faithful work, your labor of love, and your steadfast hope in our Lord Jesus Christ before our God and Father. 4Â We know, brothers and sisters who are loved by God, that you are chosen 5Â because our gospel did not come to you only with words but also with power and with the Holy Spirit and with great conviction, just as you know what kind of people we were among you for your sake. 6Â And you became imitators of us and the Lord, receiving the word in great tribulation with the joy inspired by the Holy Spirit 7Â so that you became an example to all the believers in Macedonia and Achaia. 8Â For from you the word of the Lord has echoed forth not only in Macedonia and Achaea but everywhere your faith in God has gone forth so that we have no need to say anything.
+
+9Â For, concerning us, they themselves tell what kind of welcome we had from you and how you turned away from idols to God to serve the living and true God 10Â and to wait for his Son from heaven, whom he raised from the deadâJesus, who delivers us from the coming wrath.
+
+1e:T6b9,
+
+Salutation (1:1)
+
+1:1Â Paul and Silvanus and Timothy to the Thessalonian church in God the Father and the Lord Jesus Christ. Grace to you and peace.
+
+The Thessaloniansâ Faith and Model (1:2â10)
+
+2Â We always thank God for all of you, constantly making mention of you in our prayers. 3Â We remember your faithful work, your labor of love, and your steadfast hope in our Lord Jesus Christ before our God and Father. 4Â We know, brothers and sisters who are loved by God, that you are chosen 5Â because our gospel did not come to you only with words but also with power and with the Holy Spirit and with great conviction, just as you know what kind of people we were among you for your sake. 6Â And you became imitators of us and the Lord, receiving the word in great tribulation with the joy inspired by the Holy Spirit 7Â so that you became an example to all the believers in Macedonia and Achaia. 8Â For from you the word of the Lord has echoed forth not only in Macedonia and Achaea but everywhere your faith in God has gone forth so that we have no need to say anything.
+
+9Â For, concerning us, they themselves tell what kind of welcome we had from you and how you turned away from idols to God to serve the living and true God 10Â and to wait for his Son from heaven, whom he raised from the deadâJesus, who delivers us from the coming wrath.
+
+12:["$","$L1c",null,{"book":{"id":57,"title":"Paul's First Epistle to the Thessalonians: A New Rendition","subtitle":"A New Rendition","image_id":"website-files-bucket/books/book_cover_images/1thes.png","excerpt":null,"book_series_id":2,"series_ordering":13,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":"website-files-bucket/books/book_pdf/FirstThessalonians-ebook.pdf","footnotes":null,"public":1,"slug":"pauls-first-epistle-to-the-thessalonians-a-new-rendition","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":578,"title":"1 Thessalonians 1","subtitle":null,"online_book_id":57,"excerpt":null,"content":"$1d","intro_text":null,"page_number":1,"previous_chapter":null,"next_chapter":"1-thessalonians-2","pdf_id":"website-files-bucket/books/chapter_pdf/BYUSB-NTC-NR-14-1-Thessalonians-1-New-Rendition.pdf","footnotes":null,"slug":"1-thessalonians-1","public":1,"wp_id":null,"test":"579","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Salutation (1:1)","tagName":"H2"},{"id":"heading-1","textContent":"The Thessaloniansâ Faith and Model (1:2â10)","tagName":"H2"}]}}]

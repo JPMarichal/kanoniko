@@ -1,0 +1,51 @@
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+[caption][/caption]
+
+Explanation:
+
+Charts 2-4 to 2-5
+
+The authors of the New Testament knew their scriptures, but some Old Testament writers were quoted more often than others. As chart 2-4 conveniently shows, Matthew used the Old Testament much more than John. Likewise, the epistles to the Romans and Hebrews (written mainly to Jewish Christians) drew very heavily on the Old Testament, while other letters such as 1 Thessalonians and Colossians (written to Greek audiences) made no direct use of the Old Testament.
+
+Likewise, certain books of the Old Testament are more prevalent than others in the New Testament. The Psalms, Isaiah, and Deuteronomy lead the way, with Genesis and Exodus also being frequently cited. Most of these citations involve only a phrase or two, not the entire verse.
+
+The Hebrew Bible had been translated in Alexandria, Egypt, into Greek around two hundred years before the birth of Jesus. That Greek version of the Old Testament is known as the Septuagint. Because the New Testament was written in Greek, its authors generally used the Greek translation when quoting from the Old Testament. Usually the quotations are quite precise (shown in bold type in chart 2-5), but occasionally the New Testament writers paraphrased or alluded to the Old Testament source. On a few occasions, these renditions may reflect their own translations from the original Hebrew scriptures.
+
+References:
+
+Hans HÃÂ¼bner, "New Testament, OT Quotations in the," ABD, 4:1096-104.
+
+Barbara Aland, et al., The Greek New Testament (Stuttgart: Deutsche Bibelgesellschaft, 1998).
+
+Emanuel Tov, The Greek and Hebrew Bible: Collected Essays on the Septuagint (Leiden: Brill, 1999).
+
+1d:Taa5,
+
+Explanation:
+
+Charts 2-4 to 2-5
+
+The authors of the New Testament knew their scriptures, but some Old Testament writers were quoted more often than others. As chart 2-4 conveniently shows, Matthew used the Old Testament much more than John. Likewise, the epistles to the Romans and Hebrews (written mainly to Jewish Christians) drew very heavily on the Old Testament, while other letters such as 1 Thessalonians and Colossians (written to Greek audiences) made no direct use of the Old Testament.
+
+Likewise, certain books of the Old Testament are more prevalent than others in the New Testament. The Psalms, Isaiah, and Deuteronomy lead the way, with Genesis and Exodus also being frequently cited. Most of these citations involve only a phrase or two, not the entire verse.
+
+The Hebrew Bible had been translated in Alexandria, Egypt, into Greek around two hundred years before the birth of Jesus. That Greek version of the Old Testament is known as the Septuagint. Because the New Testament was written in Greek, its authors generally used the Greek translation when quoting from the Old Testament. Usually the quotations are quite precise (shown in bold type in chart 2-5), but occasionally the New Testament writers paraphrased or alluded to the Old Testament source. On a few occasions, these renditions may reflect their own translations from the original Hebrew scriptures.
+
+References:
+
+Hans HÃÂ¼bner, "New Testament, OT Quotations in the," ABD, 4:1096-104.
+
+Barbara Aland, et al., The Greek New Testament (Stuttgart: Deutsche Bibelgesellschaft, 1998).
+
+Emanuel Tov, The Greek and Hebrew Bible: Collected Essays on the Septuagint (Leiden: Brill, 1999).
+
+12:["$","$L1b",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":659,"title":"Chart 2-5: Old Testament Quotations","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1c","intro_text":null,"page_number":17,"previous_chapter":"chart-2-4-number-of-quotations-per-book","next_chapter":"chart-2-6-taxes-in-judea","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-02-05.pdf","footnotes":null,"slug":"chart-2-5-old-testament-quotations","public":1,"wp_id":25675,"test":"658","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"Charts 2-4 to 2-5","tagName":"H3"},{"id":"heading-2","textContent":"References:","tagName":"H2"}]}}] 1e:I[38175,[],"IconMark"] 16:{"metadata":[["$","title","0",{"children":"Chart 2-5: Old Testament Quotations - Charting the New Testament"}],["$","meta","1",{"name":"description","content":"Read this chapter from our online book collection."}],["$","meta","2",{"name":"keywords","content":"Chart 2-5: Old Testament Quotations, Charting the New Testament, online books, BYU Studies"}],["$","link","3",{"rel":"canonical","href":"https://byustudies.byu.edu/online-book/charting-the-new-testament/chart-2-5-old-testament-quotations"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L1e","5",{}]],"error":null,"digest":"$undefined"} 1a:"$16:metadata"

@@ -1,0 +1,25 @@
+[caption][/caption]
+
+Explanation:
+
+From the time of Augustus, Rome was ruled by emperors. The manner of their accession to imperial power varied. Some were selected by the Senate, others by the imperial guard, others as a result of revolution, many with the support of one or another faction of the military. Day-to-day governance was accomplished with the assistance of the Senate and an ever-increasing imperial bureaucracy. Usually individual emperors ruled, but on occasion two colleagues governed together, or, as under Diocletian, a college of four emperors. Some reigns were of long duration, others of only a few weeks, as in the calamitous year 69. The chart lists emperors and the dates of their reigns, from Augustus to Constantine, concurrent with the first three centuries of Christian history.
+
+References:
+
+Chris Scarre, Chronicle of the Roman Emperors (London: Thames & Hudson, 1995).
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St.Martin's, 1975).
+
+1d:T4a7,
+
+Explanation:
+
+From the time of Augustus, Rome was ruled by emperors. The manner of their accession to imperial power varied. Some were selected by the Senate, others by the imperial guard, others as a result of revolution, many with the support of one or another faction of the military. Day-to-day governance was accomplished with the assistance of the Senate and an ever-increasing imperial bureaucracy. Usually individual emperors ruled, but on occasion two colleagues governed together, or, as under Diocletian, a college of four emperors. Some reigns were of long duration, others of only a few weeks, as in the calamitous year 69. The chart lists emperors and the dates of their reigns, from Augustus to Constantine, concurrent with the first three centuries of Christian history.
+
+References:
+
+Chris Scarre, Chronicle of the Roman Emperors (London: Thames & Hudson, 1995).
+
+M. Cary and H. H. Scullard, A History of Rome (New York: St.Martin's, 1975).
+
+12:["$","$L1b",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":682,"title":"Chart 4-2: Roman Emperors","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1c","intro_text":null,"page_number":40,"previous_chapter":"chart-4-1-family-of-caesar","next_chapter":"charts-4-3-and-4-4-roman-government-officials-of-the-republic-and-of-the-empire","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-04-02.pdf","footnotes":null,"slug":"chart-4-2-roman-emperors","public":1,"wp_id":25696,"test":"681","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}] 1e:I[38175,[],"IconMark"] 16:{"metadata":[["$","title","0",{"children":"Chart 4-2: Roman Emperors - Charting the New Testament"}],["$","meta","1",{"name":"description","content":"Read this chapter from our online book collection."}],["$","meta","2",{"name":"keywords","content":"Chart 4-2: Roman Emperors, Charting the New Testament, online books, BYU Studies"}],["$","link","3",{"rel":"canonical","href":"https://byustudies.byu.edu/online-book/charting-the-new-testament/chart-4-2-roman-emperors"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L1e","5",{}]],"error":null,"digest":"$undefined"} 1a:"$16:metadata"

@@ -1,0 +1,69 @@
+[caption][/caption]
+
+Explanation:
+
+This chart adds a time factor to chart 22. The number of pages in the Book of Mormon given to each year of Nephite history varies significantly. Some shorter books cover long periods of time, and longer books document relatively few years. For example, the book of Jacob on the average documents a year in one-third of a page, while the book of Alma averages about four pages per year. This suggests that Mormon most likely abridged some records more extensively than others or had less underlying text to work with in certain eras. The data used for this chart is listed below. Nephite Book Approximate Years Covered Total Years Covered Number of Pages 1 Nephi 600–588 B.C. 13 52.5 2 Nephi 587–545 B.C. 43 64 Jacob 544–482 B.C. 63 18.5 Enos 481–420 B.C. 62 2.5 Jarom 419–361 B.C. 59 2 Omni 360–131 B.C. 230 3 Mosiah 130–91 B.C. 40 62 Alma 91–53 B.C. 39 161 Helaman 52–1 B.C. 52 38 3 Nephi A.D. 1–35 35 58 4 Nephi A.D. 36–321 286 4 Mormon A.D. 322–400 79 18.5 Moroni A.D. 401–421 21 13.5
+
+Nephite BookApproximate Years CoveredTotal Years CoveredNumber of Pages
+
+1 Nephi600–588 B.C.1352.5
+
+2 Nephi587–545 B.C.4364
+
+Jacob544–482 B.C.6318.5
+
+Enos481–420 B.C.622.5
+
+Jarom419–361 B.C.592
+
+Omni360–131 B.C.2303
+
+Mosiah130–91 B.C.4062
+
+Alma91–53 B.C.39161
+
+Helaman52–1 B.C.5238
+
+3 NephiA.D. 1–353558
+
+4 NephiA.D. 36–3212864
+
+MormonA.D. 322–4007918.5
+
+MoroniA.D. 401–4212113.5
+
+1e:T92c,
+
+Explanation:
+
+This chart adds a time factor to chart 22. The number of pages in the Book of Mormon given to each year of Nephite history varies significantly. Some shorter books cover long periods of time, and longer books document relatively few years. For example, the book of Jacob on the average documents a year in one-third of a page, while the book of Alma averages about four pages per year. This suggests that Mormon most likely abridged some records more extensively than others or had less underlying text to work with in certain eras. The data used for this chart is listed below. Nephite Book Approximate Years Covered Total Years Covered Number of Pages 1 Nephi 600–588 B.C. 13 52.5 2 Nephi 587–545 B.C. 43 64 Jacob 544–482 B.C. 63 18.5 Enos 481–420 B.C. 62 2.5 Jarom 419–361 B.C. 59 2 Omni 360–131 B.C. 230 3 Mosiah 130–91 B.C. 40 62 Alma 91–53 B.C. 39 161 Helaman 52–1 B.C. 52 38 3 Nephi A.D. 1–35 35 58 4 Nephi A.D. 36–321 286 4 Mormon A.D. 322–400 79 18.5 Moroni A.D. 401–421 21 13.5
+
+Nephite BookApproximate Years CoveredTotal Years CoveredNumber of Pages
+
+1 Nephi600–588 B.C.1352.5
+
+2 Nephi587–545 B.C.4364
+
+Jacob544–482 B.C.6318.5
+
+Enos481–420 B.C.622.5
+
+Jarom419–361 B.C.592
+
+Omni360–131 B.C.2303
+
+Mosiah130–91 B.C.4062
+
+Alma91–53 B.C.39161
+
+Helaman52–1 B.C.5238
+
+3 NephiA.D. 1–353558
+
+4 NephiA.D. 36–3212864
+
+MormonA.D. 322–4007918.5
+
+MoroniA.D. 401–4212113.5
+
+12:["$","$L1c",null,{"book":{"id":64,"title":"Charting the Book of Mormon","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-bom.png","excerpt":null,"book_series_id":19,"series_ordering":2,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-book-of-mormon","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":898,"title":"Chart 23: Average Number of Pages Covering One Nephite Year","subtitle":null,"online_book_id":64,"excerpt":null,"content":"$1d","intro_text":null,"page_number":28,"previous_chapter":"chart-22-number-of-pages-in-books-of-the-book-of-mormon","next_chapter":"chart-24-nephite-books-compared-by-length-and-years-covered","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CBM-023.pdf","footnotes":null,"slug":"chart-23-average-number-of-pages-covering-one-nephite-year","public":1,"wp_id":24977,"test":"897","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"}]}}]

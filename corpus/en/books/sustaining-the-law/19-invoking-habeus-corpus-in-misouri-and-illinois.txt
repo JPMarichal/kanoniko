@@ -1,0 +1,1009 @@
+I. Introduction
+
+Habeas corpus has been referred to as the cornerstone of the common law. Indeed, it is the âGreat Writ of Liberty.â1 This article explores the use of this most famous writ during the early nineteenth century and specifically how Joseph Smith used it against those who sought his incarceration.
+
+A writ of habeas corpus is essentially an order directing one who has a person in custody to deliver that person to a court so that the reasons for the incarceration can be independently reviewed. The legal process typically starts with a petition by the prisoner requesting a writ of habeas corpus to a local court authorized to hear the petition. If the local court determines that the petition has merit, it orders the person who has custody of the prisoner, often a sheriff, to bring the prisoner before a court with jurisdiction to hear the writ (as compared to a court with jurisdiction to grant the petition) at a specific time and place. This is referred to as the âreturn.â At the hearing on the writ of habeas corpus, the court determines whether the prisoner is remanded back to jail, allowed to post bail, or discharged and released.2
+
+During Joseph Smithâs life (1805â1844), he invoked the habeas corpus laws on several occasions: From seeking review of his incarceration in Liberty Jail to seeking approval for the charter for the City of Nauvoo (which included the right of the municipal court to hear writs of habeas corpus) to seeking review of his arrests during the various extradition efforts to return him to Missouri, Smith developed a keen understanding of the protections that habeas corpus afforded, and he needed that understanding. Joseph Smith believed, and accurately so, that if he were to be jailed in Illinois as he had been in Missouri, he would not survive his incarceration. It was in fact his jailing in Illinois that ended in his murder.
+
+Historians and commentators, however, have almost uniformly assumed or acquiesced that Joseph Smithâs use of habeas corpus was unusual and overreaching.3 Some critics even assert that such improper use was a catalyst to his death.4 While it is true that some people in the 1840s were critical of Josephâs use of the right of habeas corpus, and while lawyers in that day still argued about the correct application of this writ in particular cases, the idea that Josephâs use of habeas corpus was not fully within the laws of his day is not supported by careful legal analysis.
+
+II. History of the Writ of Habeas Corpus Leading Up to the Nineteenth Century
+
+The history of habeas corpus predates the Magna Carta of 12155 and can be traced to a series of writs from the Middle Ages providing protection from imprisonment unrecognized in law, which had the aggregate effect of the modern writ.6 The Magna Carta itself makes only an oblique reference to the writ of habeas corpus.7 This is because the writ had already emerged as the law by the time of the Magna Carta and was thus already a fundamental part of the unwritten common law of the land.
+
+The four hundred years following the Magna Carta saw a growing tension between the rights of the individual and those of the state. The British Parliament codified the common law practice through the enactment of the Habeas Corpus Act of 1679.8
+
+Habeas corpus laws traveled across the ocean to the American colonies with the full panoply of English common law and practice. This right was regarded as a fundamental protection guaranteed to each citizen, and historical records confirm that petitions for writs of habeas corpus were filed in colonial America.9 Indeed, the British restriction of this right was a major cause of the American Revolution.10 So fundamental was the right of habeas corpus that the Founding Fathers placed it in the Constitution itself.11
+
+III. History of the Writ of Habeas Corpus in Nineteenth-Century America
+
+A. Introduction
+
+Historical legal research requires the discipline to not look forward to subsequent events or laws; it is not an exercise to determine whether a judgeâs or attorneyâs proposition was subsequently validated, followed, or even cited. The primary historical objective is to determine whether the law was being properly applied according to the practice and status of the law of that time. It requires an understanding of the judicial system that then existed, the statutes and case law of the time, and the nature of the practice. These understandings are prerequisites to forming any legitimate opinion about the prosecution or defense in a particular historical judicial proceeding.
+
+B. Nineteenth-Century vs. Modern Habeas Corpus Practices
+
+Such a historical understanding is necessary when analyzing the writ of habeas corpus in Americaâs nineteenth century, since many differences exist between the historical and modern use and interpretations. Between 1800 and 1850, there were 906 reported federal and state cases involving the use of habeas corpus (on average, less than eighteen per year).12 In contrast, today there are an average of more than twenty thousand reported habeas corpus cases each year,13 with that number rising yearly. While this increase in filings is certainly a result of the dramatic growth in the population in America coupled with the increased size and complexity of the American judiciary, the numbers alone do not tell the whole story.
+
+An even more telling observation of how this fundamental legal vehicle has changed during the past two hundred years emerges when one separates the early nineteenth century cases into the three different phases in which a writ may be sought and compares them to a sampling of such filings today.
+
+Habeas corpus can be sought anytime after an arrest. For purposes of discussion, the application of habeas corpus can be separated into three distinct phases:
+
+(1) postarrest, but prior to indictment;14
+
+(2) postindictment, but prior to conviction; and
+
+(3) postconviction.
+
+Chart 1. Three Periods in Which a Writ of Habeas Corpus May Be Used.
+
+During any of these three phases of the case, there are three principal outcomes of a petition for habeas corpus. First, the prisonerâs petition could be denied and he would be remanded back to jail to await the outcome of the prosecution. Second, the prisonerâs petition for release could be denied, but the prisoner would be offered bail pending trial. Third, the prisonerâs petition could be granted in full and he would be discharged and released. The process for determining which outcome should result is the central point of discussion of Joseph Smithâs use of habeas corpus.
+
+A review of the petitions for habeas corpus reported during the first half of the nineteenth century shows that approximately 40 percent of the writs were filed after arrest but before indictment; approximately 10 percent were filed after indictment but before conviction; and 50 percent were filed after conviction.
+
+Chart 2. 1800â1850 Use for Writs of Habeas Corpus.
+
+In contrast, today less than 1 percent of the habeas corpus cases are filed after arrest but before indictment; approximately 5 percent are filed after indictment but before conviction; and more than 95 percent of the cases are filed after conviction.15 The change in the timing of habeas corpus use not only highlights differences in the judiciary, but also further underscores the problem of looking at the historical interpretation of habeas corpus through modern lenses.
+
+Chart 3. 2000â2011 Use for Writs of Habeas Corpus.
+
+C. Applying the Writ of Habeas Corpus in Nineteenth-Century America
+
+To properly understand the application of the habeas corpus laws during Joseph Smithâs time, we first look at the organization of the court system in that era. Next we consider the applicable legal commentary and case law that defined the use of habeas corpus in the various phases of litigationâfrom arrest to indictment to convictionâto determine how the application of the writ changed as the case moved through the legal process.
+
+1. How the Nineteenth-Century American Judicial System Encouraged the Use of Habeas Corpus
+
+Engaging in a discussion of Smithâs use of habeas corpus first requires an understanding of how the judicial process has evolved over the past two hundred years. One dramatic evolution for purposes of this discussion is the change from a âterm-basedâ court system to a âstandingâ court system. In the early nineteenth century, with the exception of the most local level of the courts (typically the justices of the peace), a court would be in session only twice a year.16 These terms were most often held in the spring (the May Term, or Spring Term) and the fall (the October Term). In contrast, modern courts, both state and federal, are in session throughout the year. This difference is central to the corresponding change in trends regarding the filing of petitions for writs of habeas corpus.
+
+The term system created a unique situation wherein a person could be arrested for an alleged crime and held until the next term began. For example, if a person were arrested for a crime in November, after the October Term had concluded, his or her charges would not be brought before a grand jury until the May Term began. Moreover, if the charges were not bailable, that person could be held for five or more months, based only on an affidavit or a preliminary hearing. During this period, a prisoner would have both significantly more time and opportunity to seek a review of his or her incarceration by petitioning for a writ of habeas corpus. These long incarceration periods obviously increased incentive to contest the incarceration.
+
+It is during this early phase of the litigation that we see the emergence of an American approach that diverges from the traditional British one. Under British jurisprudence habeas corpus was fundamentally a vehicle to protect against misuse of the judicial process. A review by a court on a writ of habeas corpus under this approach was therefore limited to a consideration of whether the procedural requirements were satisfied. In contrast, under the emerging American approach, while due process considerations remained important, the courts began âlooking behind the writâ to review the underlying charges that allegedly supported an arrest and detention.
+
+2. Nineteenth-Century Writs of Habeas Corpus after Arrest but before Indictment (First Phase)
+
+While the most recognized treatise on habeas corpus was not written until 1858,17 early commentaries are helpful in assessing the use of habeas corpus. For example, Joseph Chittyâs 1819 treatise on criminal law18 provides a general discussion regarding the propriety of looking behind the writ in ruling on a petition for habeas corpus during this first phase. Chittyâs discussion of looking into the underlying factual allegations indicates that it was a common, even expected examination:
+
+We do not find that the mere informality of the warrant of commitment [a procedural aspect] is, of itself, a sufficient ground for discharging or admitting to bail; . . . even though the commitment be regular; the court will examine the proceedings, and if the evidence [the factual aspects] appear altogether insufficient, will admit him to bail; for the court will rather look to the depositions which contain the evidence, than to the commitment, in which the justice may have come to a false conclusion.19
+
+Chittyâs explanation was further developed in 1827 by James Kent, who authored perhaps the most cited and authoritative treatise on nineteenth-century American law in his Commentaries on American Law. Kent traced American jurisprudenceâs departure from the British common law principle of limited procedural review on a writ of habeas corpus during this first phase of a possible incarceration:
+
+Upon the return of the habeas corpus, the judge is not confined to the face of the return, but he is to examine into the facts contained in the return. . . . [and] authorizes the judge to re-examine all of the testimony taken before the magistrate who originally committed, and to take further proof on the subject, for he is âto examine into the facts.â20
+
+Kentâs explanation on looking behind the writ in a petition for habeas corpus is further developed in Rollin Hurdâs seminal 1858 work, A Treatise on the Right of Personal Liberty, and on the Writ of Habeas Corpus and the Practice Connected with It with a View of the Law of Extradition of Fugitives, wherein he conducted a careful analysis of the United States Supreme Court 1807 case Ex parte Bollman & Swartwout.21 This case involved Erick Bollman and Samuel Swartwoutâs use of habeas corpus to challenge the charges of treason brought against them for recruiting persons to participate in Aaron Burrâs failed attempt to create a separate nation in the West. Hurd examined how the Supreme Court addressed the use of extrinsic evidence in proving or defending the charge of treason, outside of that evidence presented in the charging pleadings used in the initial arrest.22
+
+James Kent. His Commentaries on American Law provide an accurate understanding of the law on writs of habeas corpus in nineteenth-century America. Library of Congress.
+
+Hurd noted that the Supreme Court addressed the issue again in the principal Burr case itself, finding,
+
+The presence of the witnesses to be examined by the committing justice, confronted with the accused, is certainly to be desired; and ought to be obtained, unless considerable inconvenience and difficulty exist in procuring his attendance. An ex parte23 affidavit, shaped perhaps, by the person pressing the prosecution, will always be viewed with some suspicion, and acted upon with some caution; but the court thought it would be going too far to reject it altogether. If it was obvious, that the attendance of the witness was easily attainable, but that he was intentionally kept out of the way, the question might be otherwise decided.24
+
+Lastly, William Churchâs 1884 treatise on the writ of habeas corpus25 provides some additional clarification. Church provides a summary of how the courts treated the postarrest, but preindictment, petition for habeas corpus during the nineteenth century:
+
+The decisions on this point may be divided into two classes . . . 1. Those which hold that, upon a commitment regular and valid upon its face, the only open question before a court on the hearing of a return to a writ of habeas corpus is the jurisdiction of the committing magistrate [procedural]; and, 2. Those which hold that not only the proceedings but the evidence taken before the committing magistrate may be examined [factual], and the commitment revised if necessary, or a commitment made de novo26 by the court hearing the matter. . . . The practice set down in the first rule seems to have been followed in many of the states, and is probably supported by a preponderance of authorities; but we consider the second to be the soundest, most in accord with the spirit which gave birth to the writ of habeas corpus, and one from which will flow the greatest and best results of this beneficent writ.27
+
+Church recognized the tension between the traditional common law approach (as derived under British precedents), which was that only the form of the writ should be subject for examination, and the more expansive American approach, noted with approval from the United States Supreme Court, which permitted or even required inquiry into the underlying factual predicates.
+
+These legal commentators provide a consistent paradigm to view the use of habeas corpus during the nineteenth century as it evolved from a British model to an American one. This same evolution can be viewed through the courts. For example, in People v. Martin,28 the New York Supreme Court in 1848 confronted the prosecutionâs position âthat the commitment of the magistrate is conclusive upon me, and that I have no right on this return to look beyond the question of its regularity or that if I do look beyond it, I can look only at the depositions taken before the magistrate.â29 The judge confessed that while such an approach appeared consistent with his âreading of [his] boyhood [rather] than of riper years,â because of the vital nature of the underlying principals of habeas corpus, he took the time for an âextendedâ examination, to ensure âan accurate and intimate knowledge of the properties of this great instrument of personal liberty, the writ of habeas corpus.â30 The judge summarized the law after arrest but before indictment:
+
+If in custody on criminal process before indictment, the prisoner has an absolute right to demand that the original dispositions be looked into to see whether any crime is in fact imputed to him, and the inquiry will by no means be confined to the return. Facts out of the return may be gone into to ascertain . . . whether the commitment was not palpably and evidently arbitrary, unjust, and contrary to every principle of positive law or rational justice.31
+
+The same court in 1851 acknowledged the continuing fluid development of the American approach of looking behind the writs in People v. Tompkins, explaining:
+
+It was very strenuously urged on the argument of this case, on the part of the public prosecutor, that on habeas corpus the court or officer had no right to go behind the warrant on which the prisoner was detained, and inquire from facts out of the return into the legality of the imprisonment. The effect of this principle would be, that the warrant of a committing magistrate, when legal upon its face, would be conclusive upon the prisoner, and he could have no relief from imprisonment, even if no charge whatever had in fact been preferred against him. . . . I have examined the subject very carefully, and rejoice to find that there is no authority to shake my previous convictions on this subject.32
+
+After reviewing the cases and authority cited by the prosecution advocating only a procedural review [the British approach], the Tompkins Court explained:
+
+Of all the cases which I can find, or to which I have been referred in support of the doctrine contended for in behalf of the prosecution none of them sustain the doctrine, and it is well they do not, for the habeas corpus would be a mockery, whenever a magistrate might please to make the instrument of oppression and false imprisonment formal and regular on its face, and personal liberty would be at the mercy of ignorance or design, beyond anything yet known to our laws, careless as they too frequently are of freedom in the detail, from the abundance of it in the gross.33
+
+A sampling of cases from other jurisdictions involving a postarrest, but preindictment, scenario shows that the courts routinely allowed a substantive analysis of the underlying facts rather than just looking at the procedural formalities.34 State courts also interpreted the statutory provisions of their respective habeas corpus acts to permit close scrutiny of the factual predicates of the crime.35
+
+3. Nineteenth-Century Writs of Habeas Corpus after Indictment but before Conviction (Second Phase)
+
+The American courtsâ treatment of habeas corpus after indictment in the nineteenth century closely aligns with the traditional English common law. As articulated by the New York Supreme Court in People v. McLeod, âNothing is better settled, on English authority, than that on habeas corpus, the examination as to guilt or innocence cannot, under any circumstances, extend beyond the depositions or proofs upon which the prisoner was committed.â36 This is fundamentally because grand jury testimony is not publicly available to scrutinize. These limitations, however, on review after indictment but before conviction are not applicable when allegations of fraud or perjured testimony are involved. For example, in United States v. Burr, one of Aaron Burrâs central arguments accepted by the court against the indictments of treason was that they âhad been obtained by perjury.â37 Similarly, in Commonwealth v. Carter, the Supreme Court of Massachusetts held that its Habeas Corpus Act itself provided for relief after indictment upon showing the prosecutorâs âwitness is occasioned by fraud,â reasoning âthat such avoidance is fraudulent, unlawful and collusive, and done or caused with a design to defeat the claims of justice.â38 As noted by the Arkansas Supreme Court in Ex parte White, in a postindictment but pretrial stage:
+
+The law requires the party to make an affidavit of merits to warrant this court in going behind the indictment, and the affidavit must state such particular facts that, if proven to be false, the affiant [the person who signs an affidavit] could be indicted for perjury: otherwise, the requiring of an affidavit would be a merely idle form.39
+
+4. Nineteenth-Century Writs of Habeas Corpus after Conviction (Third Phase)
+
+The nineteenth-century application of habeas corpus after conviction followed more closely the modern application in the same phase: âThe writ of habeas corpus was not framed to retry issues of fact, or to review the proceedings of a legal trial.â40 Consequently, postconviction writs of habeas corpus are predominantly limited to constitutional challenges to the charges or procedure of the case and challenges to the implementation of the sentence.41
+
+5. Summary
+
+As the foregoing illustrates, these three phases are really parts of a continuum. In a postarrest but preindictment phase, a person is in custody based on a complaint supported at most by an affidavit. In the postindictment but preconviction phase, a person is in custody based on a grand jury finding. Finally, in the postconviction phase, a person is in custody based on the trial itself. At each consecutive phase, there is an increased amount of information supporting the incarceration. The affidavit supporting an arrest does not carry much weight. There is more weight given to an indictment and even more weight yet given to a conviction. Thus, the ability to look behind the writ depends on where the case is heard, with the level of review decreasing or narrowing as the case makes its way through the judicial process.
+
+IV. Joseph Smithâs Use of Habeas Corpus
+
+Joseph Smithâs first use of habeas corpus was in response to the preliminary hearing before Circuit State Judge Austin A. King in November 1838, which hearing resulted in his incarceration in Liberty Jail. While in the Missouri jail he joined in two petitions for habeas corpusâone in January 1839 to the county judge in Clay County and a second to the Missouri Supreme Court in March 1839. In Nauvoo, Smith was involved in enacting ordinances that articulated the rights extended by the Nauvoo Charter for issuing and hearing writs of habeas corpus. Later, still in Illinois, Smith used the writ of habeas corpus again as a key protection during extradition attempts by the State of Missouri. These events provide a window into his understanding and application of this most important writ.
+
+A. Habeas Corpus in Missouri (1838â1839)
+
+On November 1, 1838, Major General Samuel D. Lucas arrested Joseph Smith and six of his colleagues outside of Far West, Missouri, thereby marking the effective end of the Missouri conflict and the start of a forced exodus by the Mormons from Missouri.42 More than sixty who were charged with crimes ranging from arson, burglary, and robbery to treason and even murder, joined Smith.43 Because some of the alleged crimes occurred in Ray County, Missouri, the preliminary hearing (referred to as a Court of Inquiry) was held in Richmond, the county seat of Ray County, before Fifth Circuit State Court Judge Austin King.44 This hearing lasted two weeks, concluding on November 29, 1838, at which time Judge King found probable cause to charge thirty-four of the defendants. Bail was available for twenty-three of the thirty-four,45 leaving eleven to be held in custody pending a grand jury, wherein indictments would be considered. Of those eleven, Joseph Smith, Hyrum Smith, Lyman Wight, Alexander McRae, Caleb Baldwin, and Sidney Rigdon were charged with treason and sent to Liberty Jail in Clay County (because no jail existed in either Caldwell or Daviess County, where the alleged crimes had occurred) on December 1, 1838.46 There they were incarcerated to await a grand jury, which, the October Term having already concluded, would not occur until the 1839 Spring Term, in April.
+
+The Missouri legislature began a review of the matter almost immediately after Judge King bound them over. On December 5, 1838, Governor Boggs provided the Missouri Legislature with a report of the Mormon dispute to support the charges for the incarcerated. The Mormons answered by providing the âMemorial of a Committee to the State Legislature of Missouri in Behalf of the Citizens of Caldwell Countyâ on December 10, 1838.47 On December 18, 1838, a joint committee of the legislature charged with investigating the Mormon dispute submitted their preliminary findings, concluding that a full investigation lasting several months was necessary, and that their findings should not be made public until after the grand jury had heard the case during the upcoming Spring Term.48 With the prospects of timely help from the Missouri legislature gone, Joseph Smith and the other prisoners looked to the courts for assistance. Smith recalled,
+
+Under such circumstances, sir, we were committed to this jail, on a pretended charge of treason, against the State of Missouri, without the slightest evidence to that effect. We collected our witnesses the second time, and petitioned a habeas corpus: but were thrust back again into prison, by the rage of the mob; and our families robbed, and plundered: and families, and witnesses, thrust from their homes, and hunted out of the State.49
+
+Sidney Rigdon prepared an extensive affidavit delineating his experiences in Missouri, including a summary of their efforts for review via this same petition for habeas corpus:
+
+During the hearing under the habeas corpus, I had, for the first time, an opportunity of hearing the evidence, as it was all written and read before the court. It appeared from the evidence that they attempted to prove us guilty of treason in consequence of the militia of Caldwell County being under arms at the time that General Lucasâ army came to Far West. This calling out of the militia, was what they founded the charge of treason uponâan account of which I have given above . . . The other charges were founded on things which took place in Davies. As I was not in Davies county at that time, I cannot testify anything about them.50
+
+These two accounts provide some useful insights into nineteenth-century application of habeas corpus. Both accounts note that the hearing included the examination of the evidence, Joseph Smith noting that they âcollected [their] witnesses the second timeâ (the first being the King hearing), and Rigdon writing that all of the written evidence was âread before the court.â These examinations were in accord with the law of looking behind the writ on a petition for habeas corpus when the petition was brought during the first phase (after arrest but before indictment), which was exactly the status of Smith, Rigdon, and their companions.
+
+During this habeas corpus hearing before Clay County Judge Turnham, Alexander Doniphan recruited Peter Burnett,51 a local attorney, to assist him in representing Smith, Rigdon, and the other prisoners held at Liberty Jail. Burnettâs account of this hearing provides some additional details, as well as a flavor of the intensity of the persecution that the Mormons were experiencing. Burnett recorded:
+
+We had the prisoners out upon a writ of habeas corpus, before the Hon. Joel Turnham, the County Judge of Clay County. In conducting the proceedings before him there was imminent peril. . . . We apprehended that we should be mobbed, the prisoners forcibly seized, and most probably hung. Doniphan and myself argued the case before the County Judge . . . We rose above all fear, and felt impressed with the idea that we had a sublime and perilous but sacred duty to perform. We armed ourselves, and had a circle of brave and faithful friends armed around us; and, it being cold weather, the proceedings were conducted in one of the smaller rooms in the second story of the Court-house in Liberty, so that only a limited number, say a hundred persons, could witness the proceedings . . .
+
+I made the opening speech, and was replied to by the District Attorney; and Doniphan made the closing argument. Before he rose to speak, or just as he rose, I whispered to him: âDoniphan! Let yourself out, my good fellow; and I will kill the first man that attacks you.â And he did let himself out, in one of the most eloquent and withering speeches I ever heard. The maddened crowd foamed and gnashed their teeth, but only to make him more and more intrepid. He faced the terrible storm with the most noble courage. All the time I sat within six feet of him, with my hand upon my pistol, calmly determined to do as I had promised him.
+
+The Judge decided to release Sidney Rigdon, against whom there was no sufficient proof in the record of the evidence taken before Judge King. The other prisoners were remanded to await the action of the grand jury of Davis County. Rigdon was released from the jail at night to avoid the mob.52
+
+Burnettâs account is consistent with both Smithâs and Rigdonâs accounts that Judge Turnham âlooked behind the writâ and reviewed the underlying facts.
+
+At the conclusion of this hearing, Judge Turnham ruled that there was not sufficient evidence to hold Rigdon and released him. While there are several accounts noting Rigdonâs release, the basis for the release has remained largely uncertain. Burnettâs account helps to clarify the legal basis, which fits squarely within the legal parameters of the applicable habeas corpus laws.
+
+Following Rigdonâs release in January, but before the grand jury was held in Daviess County in April 1839, Joseph Smith, his fellow prisoners, and others sought a second writ of habeas corpus from the Missouri Supreme Court in a series of documents simply titled âPetition,â dated March 1839. These petitions not only articulated procedural irregularities in the events leading up to their imprisonment in Liberty Jail but also noted irregularities in the underlying factual allegations altogether.53 They did this in two manners: first, they disputed the factual allegations themselves; and second, they argued that the facts testified of were insufficient to constitute the crime of treason. The Missouri Supreme Court refused to hear these petitions.
+
+A review of the preliminary hearing before Judge King reveals that the treason charge that held Joseph Smith and his colleagues in Liberty Jail can be separated into two categories. The first is the alleged illegal activities that occurred in Daviess County in October 1838. The second category involves various speeches given by Sidney Rigdon in Far West, Caldwell County.
+
+It was these cumulative factual allegations that supported binding these men over for the grand jury and holding them in Liberty Jail until the grand jury would convene.54
+
+The law of treason finds its roots in the United States Constitution.55 The Missouri Constitution directly borrows its language on treason from the United States Constitution. Judicial refinements of the law were defined early in American history through a series of cases arising out of Aaron Burrâs failed effort to create a separate nation from Spanish-owned Mexico, which included states west of the Mississippi valley. The most applicable refinement was the affirmation by the United States Supreme Court that treason required an âovert actâ to âlevy war.â56 Justice Marshall, in the opinion for the Burr conspiracy case, held that accessory rules, which make accessories equally guilty as the principal who actually commits the crime, were inapplicable to cases of treason; that is, advising, counseling, advocating, or even assisting in preparing for treasonous actions does not constitute treason.57
+
+Applying the foregoing rules and factors to the habeas corpus hearing before Judge Turnham is relatively straightforward. As discussed above, if a petition for habeas corpus falls within the first phase (after arrest and before indictment), a judge may look behind the writ to assure that there are sufficient factual allegations to support the charges. While the evidence in the record implicating Joseph Smith, Hyrum Smith, Lyman Wight, Alexander McRae, and Caleb Baldwin would ultimately be insufficient to warrant a conviction, the record does articulate generally that these men were the leaders of or directed various military or riotous actions.58 Thus apparently Judge Turnham determined that sufficient evidence had been admitted to find that the minimum standard of probable cause was established. Consequently, the judge denied their request to be released from Liberty Jail. It is not clear whether Smith and his colleagues were allowed to affirmatively present additional testimony, although Smith indicates that they had at least prepared to do so.
+
+In contrast, the only evidence implicating Sidney Rigdon was the two speeches he gave in Far West. As Justice Marshall articulated in the Burr case, speech alone is insufficient to constitute treasonâthere must be an actual overt action in levying war; none could be found in the record against Rigdon. As their attorney, Peter Burnett, recounted, âThe Judge decided to release Sidney Rigdon, against whom there was no sufficient proof in the record of the evidence taken before Judge King.â59
+
+This analysis illustrates that courts were allowed, during the period between arrest and indictment, to look behind the procedural niceties of an arrest and resulting incarceration, and examine the underlying facts of the matter. That is exactly what Judge Turnham did for Joseph Smith and his colleagues in hearing their collective petitions for a writ of habeas corpus.
+
+Through these events, Smith became both a student and practitioner in the use of the writ of habeas corpus. He subsequently left Missouri in April 1839, with a growing understanding of the need to protect the right of habeas corpus. This skill became even more evident as he found himself in need of such protection while residing in Illinois.
+
+B. Habeas Corpus in Illinois under the Nauvoo City Charter
+
+The Nauvoo Charter, granted by the Illinois legislature on December 16, 1840,60 granted the city council the âpower and authority to make, ordain, establish, and execute, all such ordinances, not repugnant to the Constitution of the United States or of this State, as they deem necessary for the peace, benefit, good order, regulation, convenience, and cleanliness, of said city.â61 Under this charter, the Nauvoo City Council had the power to enact laws pertaining to the use of habeas corpus in Nauvoo. The charter also provided for the creation of a court system, as follows:
+
+Sec. 16: The Mayor and Aldermen shall be conservators of the peace within the limits of said city, and shall have all powers of Justices of the Peace therein, both in civil and criminal cases, arising under the laws of the State: . . .
+
+Sec. 17: . . . The Municipal Court shall have power to grant writs of habeas corpus in all cases arising under the ordinances of the City Council.62
+
+These sections provided that the mayor and aldermen were âjustices of the peaceâ within Nauvoo and together constituted the âmunicipal court.â The municipal court was the equivalent in some limited situations to the Illinois circuit courts wherein appeals from the justices of the peace could be taken and where original jurisdiction was expanded. Such original jurisdiction expressly extended to the municipal court was the power to grant writs of habeas corpus. While some have viewed this inclusion as unique, two of the five city charters adopted in Illinois before the Nauvoo Charter contained a similar provision.63
+
+The drafting of the Nauvoo charter was undoubtedly influenced by the Mormonsâ experiences in Missouri and the perceived threat of additional efforts by the Missourians to apprehend Mormon leaders, especially Joseph Smith. Yet its grant of rights to issue writs of habeas corpus cannot be seen as unique. The cumulative effect of these provisions in the charter was the progressive development of ordinances dealing with the rights and uses of habeas corpus. As will be discussed, it appears from these ordinances that the leaders in Nauvoo understood that the charter provided them the right to enact these types of ordinances and that they were restricted only by the contours of the United States Constitution or the Illinois Constitution, whichever was broader. Consequently, these ordinances must therefore be read not only in light of the general law of habeas corpus as understood and applied in the first half of nineteenth-century America, but also in harmony with the broader provisions of the United States and Illinois Constitutions.
+
+C. Missouriâs First Effort to Extradite Joseph Smith (June 1841)
+
+In early April 1839, Joseph Smith, Hyrum Smith, Lyman Wight, Alexander McRae, and Caleb Baldwin were taken from Liberty Jail, where they had been incarcerated since early December 1838, to Gallatin, Daviess County, where a grand jury was empanelled at the commencement of the Spring 1839 court term to consider the charges brought against them, including the nonbailable charge of treason. There, after a two-day hearing, they were indicted on several charges. At the close of the grand jury hearing, Judge Thomas Burch granted a request to change venue to Boone County due to the fact that he had been the prosecuting attorney in the preliminary hearing before Judge Austin King. En route to Boone County all of the prisoners either escaped or were released and made their way to Illinois to join the body of the Church.64
+
+Sixteen months later, on September 1, 1840, Governor Boggs sent a requisition to Illinois Governor Thomas Carlin seeking the extradition of Joseph Smith and five others to Missouri based on these outstanding indictments. The extradition request was supported by the indictments, of which Governor Boggs had secured certified copies in July 1839.65 What is not clear is whether Governor Boggs knew that in August 1839 all of these indictments had been dismissed based on a motion by the Boone County prosecuting attorney.66 The judge in Boone County was Governor Boggsâs successor, Thomas Reynolds.
+
+Unfortunately, the resulting arrest warrant issued by Illinois Governor Carlin based on the extradition request of the succeeding Missouri Governor Reynolds for the arrest of Joseph Smith and others is not extant. It apparently was carried to Nauvoo, where the legal officer could not locate Smith or the others listed in it, and the warrant was consequently returned to Governor Carlin.
+
+No further action was taken until Joseph Smith, who was returning to Nauvoo with his brother Hyrum and William Law from a mission in the East, was arrested outside of Quincy, Illinois, on June 5, 1841.67 Upon arrest, Smith filed a petition for a writ of habeas corpus with Calvin Warren, the master in chancery for the Warren County Circuit Court. Warren granted Smithâs petition and issued the writ of habeas corpus. That same evening, Associate Illinois Supreme Court Justice Stephen A. Douglas arrived in Quincy and agreed to hear the writ68 at the Warren County Circuit Courthouse located in Monmouth. He scheduled the hearing for the following Monday, June 8, 1841, and after a one-day postponement to allow the state to better prepare, the matter was heard on June 9, 1841.
+
+Stephen A. Douglas. While an Associate Illinois Supreme Court Justice, Douglas heard Joseph Smithâs writ of habeas corpus over the first extradition attempt, ruling that the arrest itself was invalid. He was a witness for Joseph Smith during the second extradition effort, heard before Federal Judge Nathaniel Pope. Library of Congress.
+
+The hearing started on a procedural matter, as the underlying indictments from the Missouri courts had not been attached to the arrest warrant as required by law. As this procedural irregularity could result in further postponement, both sides stipulated that such indictments existed. Ironically, had Joseph Smithâs counsel further investigated this issue, they would have discovered that in fact no indictments existed, all of them having been dismissed in August 1840 by the now-sitting Missouri Governor Reynolds. Notwithstanding this oversight, Joseph Smithâs counsel argued that the indictments supporting the requisition from Missouri were obtained by âfraud, bribery and duress.â This phraseology closely paralleled the language in the Illinois 1827 Act for summarily ruling on a writ of habeas corpus.69
+
+Joseph Smithâs counsel called four witnesses: Morris Phelps, Elias Higbee, Reynolds Cahoon, and George Robinson. The state objected that these witnesses should not be allowed to testify pertaining to the underlying merits of the case because the indictments sufficiently established the facts required at this stage of the litigation. Defense attorney Orville Browning argued for the admissibility of the testimony for more than two hours, concluding his remarks as follows:
+
+Great God! Have I not seen it? Yes, my eyes have beheld the blood stained traces, and the women and children, in the drear winter, who had travelled hundreds of miles barefoot, through frost and snow, to seek a refuge from their savage pursuers. Twas a scene of horror sufficient to enlist sympathy from an adamantine heart. And shall this unfortunate man, whom their fury has seen proper to select for sacrifice, be driven into such a savage band, and none dare to enlist in the cause of justice? If there was no other voice under heaven ever to be heard in this cause, gladly would stand alone, and proudly spent my latest breath in defence of an oppressed American citizen.70
+
+In the end, Judge Douglas allowed the testimony from these witnesses, as well as several unidentified state witnesses before ruling on the testimonyâs admissibility.
+
+Judge Douglas delivered his ruling the next morning. He sidestepped the issue as to whether the court could go beyond the indictments, and based his ruling on a narrow procedural issueâthe validity of the warrant used to arrest Joseph Smith. It was undisputed that the arrest warrant actually used was the same warrant initially issued by Governor Carlin and returned to him after the legal officer failed to find Joseph Smith in Nauvoo. Douglas held that âthe writ once being returned to the executive, by the Sheriff of Hancock County was dead and stood in the same relationship as any other writ which might issue from the Circuit Court and consequently the defendant [Smith] could not be held in custody on that writ.â71 Future Illinois Governor and former Illinois Supreme Court Justice Thomas Ford recorded in his work History of Illinois that Smith âwas discharged upon the ground that the writ upon which he had been arrested had been once returned, before it had been executed, and was functus officio.â72 (Functus officio is Latin for âhaving performed his office.â This term is applied to something which once had life and power, but which now has no utility whatsoever.)
+
+While some would argue that Douglasâs ruling was solely political move to garner the Mormon vote and lacked legal merit, a review of the doctrine of functus officio shows that it was actually the proper legal ruling.73 Justice Douglasâs ruling, while on a technical rather than a substantive basis, was in accord with established law. Accordingly, Joseph Smith was properly discharged.
+
+D. Nauvoo City Councilâs First Ordinances on Habeas Corpus (July and August 1842)
+
+The Nauvoo City Councilâs first ordinance regarding habeas corpus was passed on July 5, 1842 (the âJuly 1842 City Ordinanceâ). What precipitated the passage of this ordinance is not certain. Yet, it may have been in response to the publishing on July 2, 1842, by the Sangamon Journal the first of a series of letters by John C. Bennett, the former mayor of Nauvoo and leading antagonist against the Mormons, especially Smith. This first letter, in part, solicits Governor Reynolds to seek the extradition of Smith âaloneâ to Governor Carlin and should Governor Carlin issue a writ for the arrest of Smith âin my hands, I will deliver him up to justice, or die in the attempt.â74
+
+The July 1842 City Ordinance provides as follows:
+
+Sec. 1. Be it, and it is hereby ordained by the city council of the city of Nauvoo, that no citizen of this city shall be taken out of the city by any writs without the privilege of investigation before the municipal court, and the benefit of a writ of habeas corpus, as granted in the 17th section of the Charter of this city. Be it understood that this ordinance is enacted for the protection of the citizens of this city, that they may in all cases have the right of trial in this city, and not be subjected to illegal process by their enemies.75
+
+This ordinance is in accord with the Illinois 1827 Act. Section 3 that provides, in pertinent part, for the following rights of the prisoner and responsibilities of the court hearing the writ:
+
+Sec. 3. . . . The said prisoner may deny any of the material facts set forth in the return, or may allege any fact to shew, either that the imprisonment or detention is unlawful, or that he is then entitled to his discharge; which allegations or denials shall be made on oath.76
+
+The July 1842 City Ordinance, which gives the prisoner the right to investigate the basis for his incarceration and the right to a trial arising from such investigation, does not broaden the right of habeas corpus further than section 3 of the Illinois 1827 Act.
+
+On August 8, 1842, the Nauvoo City Council refined the July 1842 City Ordinance by further delineating the procedures for an investigation.
+
+The following charts compare the August 8 City Ordinance procedures to those provided in the Illinois 1827 Act. The August 8 City Ordinance can be separated into two parts: The first part examines the process of the arrest, and the second part examines the substance of the charges (looking behind the writ).
+
+1. Challenging the process of the arrest
+
+August 1842 City OrdinanceIllinois 1827 Act
+
+âupon sufficient testimonyâ (sec. 1)âby hearing the testimony and argumentsâ (sec. 3)
+
+âthat said writ or process was illegalâ (sec. 1)âsecond, where, though the original imprisonment was lawful, yet by some act, omission, or event, which has subsequently taken place, the party has become entitled to his dischargeâ (sec. 3)
+
+âthat said writ or process was not legally issuedâ (sec. 1)âthird, where the process is defective in some substantial form required by law; fourth, where the process, though in proper form, has been issued in a case, or under circumstance where the law does not allow process, or orders for imprisonment or arrest to issueâ (sec. 3)
+
+âthat said writ or process did not proceed from proper authorityâ (sec. 1)âfirst, where the court has exceeded the limits of its jurisdiction, either as to the matter, place, sum, or person . . . ; fifth, where, although in proper form, the process has been issued or executed by a person either unauthorized to issue or execute the same, or where the person having the custody of the prisoner under such process is not the person empowered by law to detain himâ (sec. 3)
+
+2. Challenging the substance of the arrest
+
+August 1842 City OrdinanceIllinois 1827 Act
+
+âfully hear the merits of the case, upon which said arrest was made, upon such evidence as may be produced and sworn before said courtâ (sec. 1)âThe said prisoner may deny any of the material facts set forth in the return, or may allege any fact to shew, either that the imprisonment or detention is unlawful, or that he is then entitled to his discharge; which allegations or denials shall be made on oath. The said return may be amended by leave of the court or judge, before or after the same is filed, as also may all suggestions made against it, that thereby material facts may be ascertainedâ (sec. 3)
+
+âand shall have power to adjourn the hearing, and also issue process from time to time, in their discretion, in order to procure the attendance of witnesses, so that a fair and impartial trial and decision may be obtained in every such case.â (sec. 1)âIf any person shall be committed for a criminal, or supposed criminal matter, and not admitted to bail, and shall not be tried on or before the second term of the court having jurisdiction of the offence, the prisoner shall be set at liberty by the court, unless the delay shall happen on the application of the prisoner. If such court, at the second term, shall be satisfied that due exertions have been made to procure the evidence for, and on behalf of the people, and that there are reasonable grounds to believe that such evidence may be procured at the third term, they shall have power to continue such case till the third term. If any such prisoner shall have been admitted to bail for a crime other than a capital offence, the court may continue the trial of said cause to a third term, it shall appear by oath or affirmation that the witness for the people of the state are absent, such witnesses being mentioned by name, and the court shewn wherein their testimony is materialâ (sec. 9)
+
+As these charts demonstrate, section 1 of the August 8 City Ordinance was drafted in accord with corresponding rights and duties found in the Illinois 1827 Act. Thus, in enacting this ordinance, the Nauvoo City Council acted within its rights as granted under section 11 of the Nauvoo Charter.77
+
+Section 2 of the August 8 City Ordinance further articulates the duty of the municipal court to assure that the underlying charges were not brought âthrough private pique, malicious intent, or religious or other persecution, falsehood or misrepresentation;â if so, the prisoner would be âdischarged.â Similar provisions are found in section 3 of the Illinois 1827 Act.78 This section provides further evidence that this ordinance was created within the bounds granted under the Nauvoo Charter.
+
+The term âdischarged,â as used in the August 8 City Ordinance and the Illinois 1827 Act, rendered into modern terminology, means âdismissed without prejudice.â This means that should other facts or theories of law be discovered, the person released may be rearrested on the same or different charges arising from the same set of events. Stated another way, the doctrine of âdouble jeopardyâ does not apply to a person discharged (or released) based on a writ of habeas corpus.79 The Illinois 1827 Act has a similar provision in section 7,80 again evidencing the validity of the August 8 City Ordinance.
+
+E. Missouriâs Second Extradition Attempt (July 1842)
+
+On May 6, 1842, former Missouri Governor Lilburn W. Boggs was shot at his home in Independence, Missouri.81 Although serious, the injuries were not fatal.82 A local citizens committeeâs initial investigation could find no legitimate suspects.83 Early insinuations about a possible Mormon involvement gained traction in July 1842 with the published claims of dissident and former Nauvoo mayor John C. Bennett, alleging that Orrin Porter Rockwell, who was in Independence at the time, committed the crime under the direction of Joseph Smith.84 While there was never any direct evidence implicating either Rockwell or Joseph Smith, Boggsâs pivotal role in the displacement of the Mormons from Missouri in 1838 during his governorship made him a supposed target of the Mormons.
+
+Boggs fueled this notion of Mormon involvement with an affidavit dated July 20, 1842, stating that he had information leading him to âbelieveâ that Smith was an accessory before the fact in orchestrating the assassination attempt.85 Based on this affidavit, Missouri Governor Thomas Reynolds issued a requisition for the extradition of Smith and Rockwell86 from Illinois to Missouri. As a result of this requisition, Illinois Governor Carlin issued an arrest warrant for Smith and Rockwell.87 Adams County Sheriff Thomas C. King arrested Smith and Rockwell in Nauvoo on August 8, 1842, on the governorâs warrant.
+
+Anticipating that Joseph Smith and Rockwell would petition for a writ of habeas corpus, the Nauvoo City Council convened in the morning of August 8, 1842, and enacted the August 8 City Ordinance.88
+
+Both Smith and Rockwell retained Sylvester Emmons as their counsel to prepare and argue their petitions for writs of habeas corpus. The basis for the petition included both procedural claims of the âillegality of the arrest under the Writ issued by Thomas Carlin Governor of this State,â as well as factual claims as to âthe utter groundlessness of the Charge preferred in said Writ.â89 The municipal court âheard the Petition read, and the reasons addressed by Councilor Emmons upon behalf of the Prisoner, and the nature of the Case, and prayer of the Petition,â and granted the petition issuing a writ of habeas corpus for both Joseph Smith and Rockwell.90 The return was âdirected to Thomas C. King, to forthwith bring the body of Joseph Smith before this Court.â91 The minutes of this hearing ended with the court being adjourned âuntil the first Monday in September next.â92
+
+Sheriff King left Smith and Rockwell in the custody of the Nauvoo Marshal Dimick B. Huntington.93 However, Sheriff King took with him the original arrest warrant from Governor Carlin, as well as the writs of habeas corpus granted by the municipal court. Without the arrest warrant, there was no legal basis for Marshal Huntington to keep Smith and Rockwell in custody, and for that reason they were released.94
+
+Upon learning of these proceedings, coupled with Rockwellâs and Smithâs release, Governor Carlin took the position that the municipal court lacked judicial authority to rule on the warrant and that the ordinances passed by the Nauvoo City Council overstepped its legislative authority. Specifically, Governor Carlin contested the interpretation of sections 16 and 17 of the Nauvoo Charter that created the municipal court and articulated its jurisdiction, including its right to grant âwrits of habeas corpus in all cases arising under the ordinances of the City Council.â95 Carlin argued that this provision only extended to cases that originated under a violation of a Nauvoo City Council ordinance. Carlinâs position was that the underlying charge (accessory before the fact) and the resulting warrant did not arise from a Nauvoo ordinance and therefore was beyond the scope of the municipal court and the city council.
+
+Nauvoo officials, however, argued that these sections must be read in conjunction with section 11 of the Nauvoo Charter that gave the Nauvoo City Council âpower and authority to make, ordain, establish, and execute, all such ordinances, not repugnant to the Constitution of the United States or of this State.â96 Nauvoo officials argued that the laws protecting the citizens of Nauvoo (for example, rights pertaining to writs of habeas corpus) were well within the contours of both the U.S. and Illinois Constitutions and therefore fell directly within the jurisdiction of the municipal court and city council.
+
+Most commentators unfortunately miss the legal dichotomy raised by Carlin and the Nauvoo officials. The issue was not whether the July, August, or November ordinances passed by the Nauvoo City Council were in legal accord with state or federal law, but whether the Nauvoo City Council could enact habeas corpus laws that applied to alleged crimes that did not occur in Nauvoo. Therefore, the issue for Carlin was not how the Nauvoo Municipal Court handled a petition for a writ of habeas corpus, but rather whether it could handle a petition.
+
+The fact that no case or appeal was ever filed in any Illinois court to challenge the legality of any of these ordinances based on the Nauvoo City Councilâs interpretation of the Nauvoo Charter evidences their validity despite open hostility to the Mormons generally. In the end, the only remedy that was sought was to repeal the Nauvoo Charter itself. These actions in great measure legitimized these ordinances as being in accord with a charter that the Illinois legislature enacted for the operations of Nauvoo.
+
+Governor Carlin attempted to circumvent the issue of the legality of these ordinances by simply offering a reward for the capture of Smith and Rockwell. Captioned as a âProclamation,â Governor Carlin on September 20, 1842, announced a $200 reward each for the arrest of Smith and Rockwell. The basis of the proclamation was that âthe said Rockwell and Joseph Smith resisted the Laws by refusing to go with the officers who had them in custody as fugitives from Justice, and escaped from the custody of said officers.â97 Such a basis is belied by (1) the facts of the petitions for habeas corpus being made by Smith and Rockwell, (2) the proceedings before the Nauvoo Municipal Court granting the writs, (3) the decision of Sheriff King to take the arrest warrants with him when he left Nauvoo to report to Carlin, and (4) the release of Smith and Rockwell by Marshal Huntington based on not having the arrest warrants. Nevertheless, Joseph Smith and Porter Rockwell thereafter went into hiding to avoid being rearrested.
+
+Thomas Ford was elected Illinois governor in November 1842, replacing Thomas Carlin. With this change in administration, a delegation representing Joseph Smith traveled from Nauvoo to Springfield in early December to determine, in part, Governor Fordâs disposition regarding the Missouri extradition efforts.98 After meeting with several prominent attorneys and judges, including Judge Stephen Douglas and Governor Ford, the delegation concluded that if Joseph Smith would voluntarily appear in Springfield, the entire situation could be acceptably resolved. The delegation also met99 and retained Justin Butterfield,100 the United States Attorney for the District of Illinois, to represent Joseph Smith in this matter.101
+
+Consistent with the delegationâs findings, on December 27, 1842, Joseph Smith, accompanied by a few close colleagues, left for Springfield, arriving on December 30, 1842. Upon their arrival Butterfieldâs initial efforts were to make sure the niceties of the procedural requirements were satisfied. Wilson Law, a general in the Nauvoo militia, officially âarrestedâ Joseph Smith pursuant to the September 20 proclamation of Governor Carlin.102 However, because the arrest warrant that Carlin had previously issued was still in the possession of Sheriff King and it became apparent that getting the arrest warrant in a timely manner might prove difficult, Butterfield recommended seeking a new arrest warrant from Governor Ford. The new warrant could then be used as the legal basis for filing a new petition for a writ of habeas corpus.
+
+The next morning (December 31), Butterfield prepared a petition to Governor Ford for a new arrest warrant. Ford granted the petition and issued the warrant. Butterfield then filed a petition in the United States Circuit Court in Springfield for a writ of habeas corpus to review the arrest the same day.103 With the filing of the petition, Federal Judge Nathaniel Pope104 permitted Butterfield to address the court. Butterfield articulated the procedural posture of the matter (the requisition from Governor Reynolds, the proclamation of Governor Carlin and the new arrest warrant from Governor Ford), as well as the substantive position of Joseph Smith (that the requisition was flawed because Joseph Smith never fled from Missouri as alleged). He then introduced Joseph Smith to the court, read the petition for a writ of habeas corpus, and requested a trial on the underlying extradition effort and for bail pending the trial.105 Judge Pope granted the writ of habeas corpus,106 set bail at $4,000,107 and scheduled the hearing on the return of the writ for the following Monday, January 2, 1843.
+
+On Monday morning, Joseph Smith was represented before Judge Pope by two attorneys: Justin Butterfield, who lived in Chicago, and Benjamin S. Edwards,108 who lived in Springfield. Illinois Attorney General Josiah Lamborn represented the state of Illinois.109
+
+Lamborn immediately sought a continuance to have additional preparation time for the hearing on the return of the writ. Judge Pope granted the request and moved the hearing to Wednesday, January 4, 1843. Butterfield then moved to file objections to the factual basis of the extradition warrant upon which the writ of habeas corpus was taken. It does not appear that Lamborn objected to the motion. Butterfieldâs motion was supported by an affidavit of Joseph Smith that noted:
+
+Joseph Smith being brought up on Habeas Corpus before this Court comes and denies the matter set forth in the return to the same in this, that he is not a fugitive from the justice of the State of Missouri; but alleges and is ready to prove that he was not in the State of Missouri at the time of the Commission of the alleged crime set forth in the affidavit of L. W. Boggs, nor had he been in said State for more than three years previous to that time, nor has he been in that State since that timeâbut on the contrary at the time the said alleged assault was made upon the said Boggs as set forth in said Affidavit the said Smith was at Nauvoo in the County of Hancock in the State of Illinois, and that he has not fled from the justice of the State of Missouri and taken refuge in the State of Illinois, as is most untruly stated in the warrant upon which he is arrested and that the matter set forth in the requisition of the Governor of Missouri and in the said Warrant are not supported by oath.
+
+Joseph Smith110
+
+The following day, Butterfield drafted two additional affidavitsâone to be signed by a group of Mormons and the other by a group of non-Mormons, both affirming Joseph Smithâs presence in Nauvoo around the date that Boggs was shot.111 It appears that these affidavits were prepared to make sure that this evidence became part of the record, as Butterfield probably anticipated the objections from Lamborn. Both of these affidavits were submitted and read into the record at the beginning of the hearing the following day.
+
+On Wednesday, January 4, 1843, the court convened at 9 a.m., all parties being present.112 The court started by inquiring whether either party had any preliminary motions. Both did. Lamborn had twoâthe first was a motion to dismiss the issuance of the writ of habeas corpus on the ground that the court had no jurisdiction to hear the matter and the second was effectively a motion in limine (a motion before the trial to resolve evidentiary rulings) to prevent any inquiry into any facts âbehind the writ.â113 Butterfield and Edwards countered the two motions, first articulating that the court not only had jurisdiction over this matter but exclusive jurisdiction, because Joseph Smith was in custody âunder color of U.S. Law.â114 Concerning Lambornâs second motion, Butterfield argued that the facts were undisputableâSmith could not be a fugitive from a crime that occurred in Missouri when he was in Illinois at the time.115 Butterfield then had read into the record the two prepared affidavits. The first affidavit, signed by ten Mormons, itemized the times they knew Smith was in Nauvoo, making it impossible for him to have been in Missouri participating in the attempt on Boggsâs life.116
+
+The second affidavit, signed by Stephen A. Douglas and Jacob Backenstos, confirmed âthat [they] were at Nauvoo, in the County of Hancock in this State, on the seventh day of May last, that they saw Joseph Smith on that day reviewing the Nauvoo Legion at that place, in the presence of several thousand persons.â117
+
+With these preliminary matters heard, open statements were given. Butterfieldâs opening lines have been recorded in numerous reports and were so poetic and classic that they bear repeating. As reported by a fellow attorney who was present:
+
+Mr. Butterfield . . . rose with dignity and amidst the most profound silence. Pausing, and running his eyes admiringly from the central figure of Judge Pope, along the rows of lovely women on each side of him, he said: âMay it please the Court: I appear before you today under circumstances most novel and peculiar. I am to address the âPopeâ (bowing to the Judge) surrounded by angels (bowing still lower to the ladies), in the presence of the holy Apostles, in behalf of the Prophet of the Lord.â118
+
+Butterfield then argued that the federal court not only had jurisdiction but also had exclusive jurisdiction to hear the return. In support, Butterfield cited Jack v. Martin, a New York case involving the return of a slave from Louisiana. The New York Court of Errors held that the state process could not circumvent federal process, noting that âwhenever the terms in which a power is granted to Congress, or the nature of the power requires that it should be exercised exclusively by Congress, the subject is as completely taken from the state legislature as if they had been expressly forbidden to act.â119 Butterfield opined, âHas not my client, Joseph Smith, the rights of a [slave]?â120
+
+Butterfield turned to the second and substantive issue before the court, framing it as follows: âHas the court power to issue Habeas Corpus? It has. Is the return sufficient to hold the prisoner in custody without further testimony? Unless it appears on the testimony that he is a fugitive, it is not sufficient.â121 Butterfield then dissected the affidavit of exâMissouri Governor Boggs and the requisition from Missouri Governor Carlin, noting that Boggsâs affidavit never alleges that Smith was in Missouri when the crime occurred. Next, he cited Carlinâs requisition that claimed that Smith was a âfugitive from justice.â Butterfield repeated that to qualify as a fugitive Smith had to have âfledâ from Missouri, summarising: âGovernor Carlin would not have given up his dog on such a requisition.â122
+
+Butterfield examined the facts supported by the two affidavits previously read into the record that Joseph Smith was in Nauvoo at the time the crime occurred in Missouri as follows: âHe [Smith] was at officerâs drill until 6 and in the Lodge from 6 to 9 oâclock. . . . 300 miles off in uniform reviewing the Nauvoo Legion, instead of running away from Boggs in uniform. Judge Douglas partook of the hospitality of General Smith[;] instead of fleeing from Justice, he was dining with the highest court judge in our land.â123
+
+Butterfield then articulated the established status of the law as to when one could look behind the writ on a return for a writ of habeas corpus stating that â[the] power of Habeas Corpus is pretty well settled.â Citing a case involving a conviction for embezzlement, Butterfield noted that on a return for a writ of habeas corpus one âcannot go behind the Judgment. [When a] judgment is not at issue, [one] can go behind the writ.â124
+
+Butterfield closed his argument with the following summation:
+
+That an attempt should be made to deliver up a man who has never been out of the State strikes at all the liberty of our institutions. His fate today may be yours tomorrow. I do not think the defendant ought under any circumstances to be delivered up to Missouri. It is a matter of history that he and his people have been murdered and driven from the state. He had better been sent to the gallows. He is an innocent and unoffending man. The difference is this people believe in prophecy and others do not. Old prophets prophesied in poetry and the modern in prose.125
+
+After a short recess, Lamborn made his final argument and the case was submitted to Judge Pope. The judge indicated that the court would issue its opinion at 9:00 a.m. the following day.126 Willard Richards provides us with a succinct summary of the dayâs hearing:
+
+The courtroom was crowded the whole of the trial and the utmost decorum and good feeling prevailed. Esquire Butterfield managed the case very learned and judiciously. Preceeded by Esquire Edwards who made some very pathetic allusions to our sufferings in Missouri. Esquire Lamborn was not severe apparently saying little more than the nature of his situation requiredâand no more than would be useful in satisfying the public mindâthat there had been a fair investigation of the whole matter.â127
+
+The following morning Judge Pope rendered his opinion in open court, ruling in Joseph Smithâs favor and discharging him.128 Popeâs written opinion was published in the Sangamo Journal on January 19, 1843. Mormon-operated newspapers the Times and Seasons and the Wasp ran the opinion as well.129 The opinion was cited in federal and state courts for more than a hundred years.
+
+The importance of the case was not lost on Judge Pope, who introduced the opinion as follows:
+
+The importance of this case, and the consequences which may flow from an erroneous precedent, affecting the lives and liberties of our citizens, have impelled the court to bestow upon it the most anxious consideration. . . . When the patriots and wise men who framed our constitution were in anxious deliberation to form a perfect union among the states of the confederacy, two great sources of discord presented themselves to their consideration; the commerce between the states, and fugitives from justice and labor. The border collisions in other countries had been seen to be a fruitful source of war and bloodshed, and most wisely did not constitution confer upon the national government, the regulation of those matters, because of its exemption from the excited passions awakened by conflicts between neighboring states, and its ability alone to adopt a uniform rule, and establish uniform laws among all the states in those cases.130
+
+Pope dismissed Lambornâs argument that there was âgreater sanctity in a warrant issued by the governor, than by an inferior officer.â Pope poetically responded:
+
+Magna Charta established the principles of liberty; the habeas corpus protected them. It matters not how great or obscure the prisoner, how great or obscure the prison-keeper, this munificent writ, wielded by an independent judge, reaches all. It penetrates alike the royal towers and the local prisons, from the garret to the secret recesses of the dungeon. All doors fly open at its command, and the shackles fall from the limbs of prisoners of state as readily as from those committed by subordinate officers.131
+
+Pope then turned his attention to the second issue before him: Could the factual basis of the moving pleadings be questionedâhere the Boggs affidavit and the Reynolds requisition. To answer this question, Pope focused on what âproofâ existed to support the extradition. Pope identified that the âproof is âan indictment or affidavit,â to be certified by the governor demanding the extradition. The return brings before the court the warrant, the demand and the affidavit.â Pope concluded that the âaffidavit being thus verified, furnished the only evidence upon which the Governor of Illinois could act.â He acknowledged that Joseph Smith presented opposing âaffidavits proving that he was not in Missouri at the date of the shooting of Boggs.â While the state objected to such testimony on the basis that it required looking behind the return, Pope determined that such evidence was unnecessary, âinasmuch as it thinks Smith entitled to his discharge for defect in the affidavit.â132
+
+The affidavits presented by Joseph Smith all focused on the fact that Smith was not in Missouri when the crime was committed and therefore could not have fled from the justice of Missouri. Pope succinctly reasoned:
+
+As it is not charged that the crime was committed by Smith in Missouri, the governor of Illinois could not cause him to be removed to that state, unless it can be maintained that the state of Missouri can entertain jurisdiction of crimes committed in other states. The affirmative of this proposition was taken in the argument with a zeal indicating sincerity. But no adjudged case or dictum was adduced in support of it. The court conceives that none can be.133
+
+Some commentators have pointed out that the crime of being an accessory was somehow different in the early nineteenth century than it is today and that Smith would not have to be in Missouri to be an accessory today. However, being physically in Missouri is not a requisite then or today to conspire to commit a crime. The issue was not whether Smith had committed a crime, but whether the extradition by Missouri was proper.
+
+Pope then criticized and dismissed the facts asserted in the Boggs affidavit, finding that âbeliefsâ without facts are insufficient, as are âlegal conclusions.â Pope simply found that the âaffidavit is fatally defective.â Pope then, in preparation for the inevitable conclusion, provided a context to his ruling:
+
+The return is to be most strictly construed in favor of liberty . . . No case can arise demanding a more searching scrutiny into the evidence, than in cases arising under this part of the constitution of the United States. It is proposed to deprive a freeman of his libertyâto deliver him into the custody of strangers, to be transported to a foreign state, to be arraigned for trial before a foreign tribunal, governed by laws unknown to himâseparated from his friends, his family and his witnesses, unknown and unknowing. Had he an immaculate character, it would not avail him with strangers. Such a spectacle is appalling enough to challenge the strictest analysis. The framers of the constitution were not insensible of the importance of courts possessing the confidence of the parties.134
+
+Popeâs ruling was clear and concise: âThe affidavit is insufficientâ 1st. because it is not positive; 2d. because it charges no crime; 3d. it charges no crime committed in the state of Missouri. Therefore, he [Smith] did not flee from the justice of the state of Missouri, nor has he taken refuge in the state of Illinois.â135 Joseph Smith was discharged.
+
+F. Nauvoo City Councilâs Final Ordinance on Habeas Corpus (November 1842)
+
+The Nauvoo City Council made its final additions to the Municipal Code regarding habeas corpus in November 1842 (the âNovember 1842 City Ordinanceâ).136 The November 1842 City Ordinance was the most detailed ordinance passed by the city council regarding writs of habeas corpus. It was this ordinance that some later writers claimed was abusive and overreaching. However, a careful reading of the November 1842 City Ordinance demonstrates that the Nauvoo City Council merely adopted, in substance, the entire Illinois 1827 Act.
+
+Indeed, more than 80 percent of the Illinois 1827 Act was incorporated verbatim by the Nauvoo City Council in the November 1842 City Ordinance. Yet, while the similarities are striking, looking at the differences is crucial. These differences highlight both the sophisticated understanding that the Nauvoo City Council had of the habeas corpus laws, as well as the rights it understood were extended to the cityâs inhabitants through the Nauvoo Charter.
+
+Section 1 of the November 1842 City Ordinance differs from the Illinois 1827 Act only in that the November 1842 City Ordinance refers to the city of Nauvoo and the Nauvoo Municipal Court (as authorized to hear writs of habeas corpus in section 17 of the Nauvoo Charter) instead of referring to the state of Illinois and the courts of Illinois. The other change in section 1 centered on the process to file a petition requesting a writ of habeas corpus. While the Illinois 1827 Act describes the process, the November City Ordinance provides sample forms to use for a petition.
+
+Section 2 defines who can file for a petition for a writ of habeas corpus, beyond those arrested for a crime. The November 1842 City Ordinance adds a penalty for violating the provisions of sections 1 and 2.
+
+Sections 3â7 of the November 1842 City Ordinance are materially identical to the corresponding sections in the Illinois 1827 Act, including provisions dealing with the hearings on writs of habeas corpus (sections 3), issues of bail, recognizance, and security (sections 4), procedures for remand (sections 5), second writs of habeas corpus after discharge (sections 6), and procedures for discharge (sections 7).
+
+Section 8 of the November 1842 City Ordinance omitted the corresponding section of the Illinois 1827 Act in its entirety. In the Illinois 1827 Act, this section excluded federal claims, war claims, slavery claims, and high crimes from the act, leaving them to the federal courts. The November 1842 City Ordinance does not include these exclusions. This was done in apparent reliance on section 11 of the Nauvoo Charter. As the Constitution of the United States provided for relief under a writ of habeas corpus for these exclusions, the Nauvoo City Council included them within the scope of its municipal code.
+
+No material differences are found in section 9, with the exception that the November 1842 City Ordinance does not grant as much discretion to the court to delay the resolution of a habeas corpus hearing as does the Illinois 1827 Act.
+
+Section 10 of the Illinois 1827 Act is omitted in the November 1842 City Ordinance. This section deals with the moving of a prisoner from one county to another that would have the impact of delaying or avoiding a trial. As the interest of the Nauvoo City Council was to allow its citizens to have their concerns addressed in Nauvoo, the issue of moving a prisoner out of Nauvoo was apparently deemed unnecessary.
+
+Section 11 of the November 1842 City Ordinance does not include a provision for moving a prisoner to a different jail should an overcrowding issue arise, or moving to a different jail based on a federal law or executive demand. Basically, it said that if prisoners were in Nauvoo, they would stay in Nauvoo until the habeas corpus matter was resolved.
+
+Sections 12â17 of the November 1842 City Ordinance are virtually identical to the corresponding provisions of the Illinois 1827 Act.
+
+Finally, section 18 of the November 1842 City Ordinance differs from the last section of the Illinois 1827 Act in the fact that the Act provided that the supreme and circuit courts shall have power to grant petitions for writs of habeas corpus. The November City Ordinance deleted these provisions, since section 17 of the Nauvoo Charter provides that the âMunicipal Court shall have power to grant writs of habeas corpus in all cases arising under the ordinances of the City Council.â
+
+As this summary evidence shows, the Nauvoo City Council, under the leadership of Mayor Joseph Smith, adopted a consistent, albeit increasingly detailed, approach to the use of habeas corpus in Nauvoo. This approach is characterized by three guiding principles. First, the Nauvoo Municipal Court was fully vested with the power to grant and hear writs of habeas corpus. Second, the Nauvoo City Council was empowered with the rights to enact ordinances for the city of Nauvoo to the extent permitted by the United States Constitution or the Illinois Constitution, whichever was broader. Lastly, the municipal court had a duty when hearing a writ of habeas corpus to look at both the procedural legality of an arrest and the substantive merits of the underlying charges.
+
+V. Conclusion
+
+Any credible analysis of Joseph Smithâs use of the writ of habeas corpus must start with an understanding of the law as it existed and applied in the early nineteenth century. Without this indispensible perspective, the legal theories, arguments, enactments, and actions raised by or for Smith under the rubric of âhabeas corpus rightsâ cannot be properly understood. With this understanding, the actions of the various witnesses, lawyers, clerks, aldermen, council members, sheriffs, and judges involved in Joseph Smithâs world make legal sense.
+
+While placing the right of habeas corpus in the United States Constitution itself evidenced the importance that the Founding Fathers placed on this great writ, Americaâs jurisprudence of the writ diverged quickly and distinctively from English law. A central aspect of this evolution was the allowance of an expanded review of the underlying charges allegedly supporting an arrest and detention. The courts often referred to this review as âlooking behind the writ.â Nineteenth-century legal scholars and practitioners recognized this development and provided useful legal analysis and rules of application. The need for a review of both the procedural and substantive aspects of a case necessarily decreased as a case moved through the system: a person who claimed he was incorrectly arrested could demand looking at both; a need to examine the substance of a detention decreases once a grand jury indicts the accused, absent fraud or bad faith; and if a trial resulted in a conviction, the need to look at the substance of the detention would be only to challenge the trial itself.
+
+This analysis is crucial in understanding how Joseph Smith employed the use of habeas corpus when he was arrested. Critics have argued that Smith attempted to use habeas corpus in an overreaching, even abusive manner. Their critique is principally based on his repeated efforts to have the court look âbehind the writâ and determine the legitimacy (or illegitimacy, as he argued) of the underlying charges. Yet these critics have failed to acknowledge that these cases all involved the first phase of the litigation or arose in cases where fraud and bad faith were alleged. In these circumstances, his request to look behind the writ was supported both by the applicable law and the facts.
+
+In the end, it is clear that Joseph Smith and his advisors had a very sophisticated and accurate understanding of the scope and application of the right to habeas corpus in his day. This scope included the important evolution that the writ experienced as it was transformed from an English prerogative writ of the king to a constitutionally based right of all Americans. Upon his return to Nauvoo on June 30, 1843, being under arrest pursuant to a third and final extradition request from the governor of Missouri, and in anticipation of having his petition for a writ of habeas corpus heard the next day, Smith, in speaking to the citizens of Nauvoo, aptly and passionately summarized how he saw the right of habeas corpus: âThe Constitution of the United States declares that the privilege of the writ of Habeas Corpus shall not be denied. Deny me the right of Habeas Corpus, and I will fight with gun, sword, cannon, whirlwind, and thunder, until they are used up like the Kilkenny cats.â137
+
+This article was originally published as part of âHabeas Corpus in Early Nineteenth-Century Mormonism: Joseph Smithâs Legal Bulwark for Personal Freedom,â BYU Studies Quarterly 52, no. 1 (2013): 4â97. The unabridged version of this article may be found at byustudies.byu.edu.
+
+1e:T8f31,
+
+1. Eric M. Freedman, Habeas Corpus: Rethinking the Great Writ of Liberty (New York: New York University Press, 2001), 1.
+
+2. James Kent, Commentaries on American Law (O. Halstead, 1827), 2:22-30; Giles Jacob, The Law-Dictionary (I. Riley, 1811), 3:222â31; John Bouvier, A Law Dictionary, Adapted to the Constitution and Laws of the United States of America and of the Several States of the American Union; with References to the Civil and Other Systems of Foreign Law, 2 vols. (T. and J. W. Johnson, 1839), 1:454â57.
+
+3. See John S. Dinger, âJoseph Smith and the Development of Habeas Corpus in Nauvoo, 1841â44,â Journal of Mormon History 36 (Summer 2010): 136; Morris Thurston, âThe Boggs Shooting and Attempted Extradition: Joseph Smithâs Most Famous Case,â BYU Studies 48, no. 1 (2009): 5, 18â19, 54â56; Glen M. Leonard, Nauvoo: A Place of Peace, a People of Promise (Salt Lake City: Deseret Book, 2002), 281, 285; but compare Nate Oman, âJoseph Smith, Justice Frankfurter and the Great Writ,â Times and Seasons, January 28, 2005, http://timesandseasons.org/index.php/2005/01/joseph-smith-justicefrankfurter-and-the-great-writ/ (accessed December 15, 2012).
+
+4. Robert Flanders, Nauvoo: Kingdom on the Mississippi (Urbana: University of Illinois Press, 1965), 99; Thurston, âBoggs Shooting and Attempted Extradition,â 55â56.
+
+5. Larry W. Yackle, Postconviction Remedies (Rochester, N.Y.: Lawyers Cooperative Pub. Co., 1981), sec. 4, 7â9; St. George Tucker, Blackstoneâs Commentaries: With Notes of Reference, to the Constitution and Laws, of the Federal Government of the United States; and of the Commonwealth of Virginia, 5 vols. (Philadelphia: William Young Birch and Abraham Small, 1803), 3:132; Louis B. Wright, Magna Carta and the Tradition of Liberty, ed. Russell Bourne (American Revolution Bicentennial Administration, 1976), 56.
+
+6. See W. S. Holdsworth, A History of English Law (Methuen and Co., 1903), 1:95â98; Henry Hallam, View of the State of Europe during the Middle Ages (A. C. Armstrong and Sons, 1880), 2:116â19.
+
+7. âNo free man shall be seized or imprisoned, or stripped of his rights or possessions, or outlawed or exiled, or deprived of his standing in any other way, nor will we proceed with force against him, or send others to do so, except by the lawful judgment of his equals or by the law of the land.â
+
+8. Forsythe, âHistorical Origins of Broad Federal Habeas Review Reconsidered,â 1095â96.
+
+9. William S. Church, A Treatise of the Writ of Habeas Corpus including Jurisdiction, False Imprisonment, Writ of Error, Extradition, Mandamus, Certiorari, Judgment, etc. with Practice and Forms VI (A. L. Bancroft and Co., 1884), 35.
+
+10. The Declaration of Independence, para. 20 (articulating objections to King George IIIâs abuse of his detention power); see generally Allen H. Carpenter, âHabeas Corpus in the Colonies,â American Historical Review 8 (1902): 18.
+
+11. U.S. Constitution, art. 1, sec. 9.
+
+12. The author accessed LEXISÂ® searching in the all-federal and state courts database using the following search: âhabeas w/2 corpusâ with date restriction of 1/1/1800 and 12/31/1850. This search found 957 cases. Of the 957 cases, 906 dealt with habeas corpus while the others only made a mention of the writ.
+
+13. Nancy J. King, Fred L. Cheesman II, and Brian J. Ostrom, Final Technical Report: Habeas Litigation In U.S. District Courts: An Empirical Study of Habeas Corpus Cases Filed by State Prisoners Under the Antiterrorism and Effective Death Penalty Act of 1996 (Nashville, Tenn.: Vanderbilt University Law School, 2007), 9â10.
+
+14. An indictment is the written accusation of a crime found by a grand jury. See Bouvier, Law Dictionary, 1:496â98; Black, Blackâs Law Dictionary, 5th ed., 695.
+
+15. See Andrea Lyon, Emily Hughes, Mary Prosser, Justin Marceau, Federal Habeas Corpus (Durham, N.C.: Carolina Academic Press, 2010), 5â7; Sara Rodriguez, âAppellate Review of Pretrial Requests for Habeas Corpus Relief in Texas, 32 Tex. Tech. L. Rev. 45 (2000).
+
+16. See The Revised Statutes of the State of Missouri, sec. 16 at 169 (1845); An Act Regulating the Terms of Holding the Circuit Courts in this State, in The Public and General Statutes Laws of the State of Illinois (Stephen F. Gale, 1839), 180.
+
+17. âThere is now but one work [on habeas corpus], to our knowledge, upon the subject, and the first edition of that appeared in 1858, followed by a second in 1876.â Church, Treatise of the Writ of Habeas Corpus, vii.
+
+18. Joseph Chitty, A Practical Treatise on the Criminal Law; Comprising the Practice, Pleadings, and Evidence which Occur in the Course of Criminal Prosecutions, Whether by Indictment or Information: with a Copious Collection of Precedents of Indictments, Informations, Precedents, and Every Description of Practical Forms, with Comprehensive Notes as to Each Particular Offence, the Process, Indictment, Plea, Defence, Evidence, Trial, Verdict, Judgment, and Punishment (Edward Earle, 1819).
+
+19. Chitty, A Practical Treatise on Criminal Law, 87.
+
+20. James Kent, Commentaries on American Law, 1st ed. (1827), 2:26. Kentâs Commentaries was first published in 1827. Fifteen editions have been published, the last in 2002.
+
+21. Ex parte Bollman and Swartwout, 8 U.S. (4 Cranch) 75 (1807).
+
+22. Rollin C. Hurd, A Treatise of the Right of Personal Liberty and on the Writ of Habeas Corpus and the Practice Connected with It (Albany, N.Y.: W. C. Little, 1858), 310â19.
+
+23. Ex parte means on the part of one side only.
+
+24. Hurd, Treatise on the Right of Personal Liberty, 313 (quoting 1. Burr. Tr. 97).
+
+25. Church, Treatise of the Writ of Habeas Corpus.
+
+26. De novo means from the beginning.
+
+27. Church, Treatise of the Writ of Habeas Corpus, 285â86.
+
+28. 2 Edm. Sel. Cas. 28 (N.Y. 1848).
+
+29. 2 Edm. Sel. Cas. 29 (N.Y. 1848).
+
+30. 2 Edm. Sel. Cas. 28â29 (N.Y. 1848).
+
+31. 2 Edm. Sel. Cas. 38 (N.Y. 1848).
+
+32. 2 Edm. Sel. Cas. 191, 191â92 (N.Y. 1851). Both the New York courts and legislature were leading voices for the development of jurisprudence and policy that would be adopted throughout the other states. James Kent, Commentaries on American Law (O. Halstead, 1827), 2:24.
+
+33. 2 Edm. Sel. Cas. 194 (N.Y. 1851).
+
+34. See, for example, State v. Doty, 1 Walk. 230 (Miss. 1826); State v. Best, 7 Blackf. 611, 612 (Ind. 1846); In re McIntyre, 10 Ill. (5 Gilm.) 422, 425 (1849); In re Powers, 25 Vt. 261, 269 (1853); Ex parte Mahone, 30 Ala. 49, 50 (Ala. 1857); People v. Stanley, 18 How. Pr. 179, 180 (N.Y. 1859).
+
+35. See, for example, In re Clark, 9 Wend. 212, 220 (N.Y. 1832); Snowden et al. v. State, 8 Mo. 483, 486 (1844).
+
+36. 25 Wend. 483, 568 (N.Y. 1841); see , State v. Mills, 13 N.C., 420, 421â22 (1830); People v. Martin, 2 Edm. Sel. Cas. 28, 31â32 (N.Y. 1848)
+
+37. 25 F.Cas. 55, 70 (D.Va. 1807).
+
+38. 28 Mass. 277, 279 (Ma. 1831).
+
+39. 9 Ark. 223, 226 (1848).
+
+40. Ex Parte Bird, 19 Cal. 130, 131 (1851).
+
+41. See, for example, Stewartâs Case, 1 App. Pr. 210, 212 (NY 1820); People v. Martin, 2 Edm. Sel. Cas. 28, 37 (N.Y. 1848).
+
+42. See Rough Draft Notes of History of the Church, 1838-033 to 036, Church History Library, The Church of Jesus Christ of Latter-day Saints, Salt Lake City; see generally Richard L. Anderson, âAtchisonâs Letters and the Causes of Mormon Expulsion from Missouri,â BYU Studies 26, no. 3 (1986): 3â28; Alexander L. Baugh, âA Call to Arms: The 1838 Mormon Defense of Northern Missouriâ (PhD diss., Brigham Young University, 1996; Provo, Utah: BYU Studies, 2000); Kenneth H. Winn, Exiles in a Land of Liberty: Mormons in America, 1830â1846 (University of North Carolina Press, 1989). ch. 4â7.
+
+43. Document Containing the Correspondence, Orders, &C., in Relation to the Disturbances with the Mormons; and the Evidence Given before the Hon. Austin A. King, Judge of the Fifth Judicial Circuit of the State of Missouri, at the Court-house in Richmond, in a Criminal Court of Inquiry, Begun November 12, 1838, on the Trial of Joseph Smith, Jr., and Others, for High Treason and Other Crimes against the State (Fayette, Mo.: Boonâs Lick, 1841), 19â20, 34 (hereafter cited as Missouri Documents); Document Showing the Testimony Given before the Judge of the Fifth Judicial Circuit of the State of Missouri, on the Trial of Joseph Smith, Jr., and Others, for High Treason and Other Crimes against That State (Washington, D.C.: United States Senate, 1841), 119, 132, 140 (hereafter cited as Senate Documents).
+
+44. Austin A. King (1802â1870) was appointed judge of the Fifth Judicial Circuit Court in 1837. He remained on the bench until 1848 when he was elected governor of Missouri. William Van Ness Bay, Reminiscences of the Bench and Bar of Missouri (F. H. Thomas and Co., 1878), 153â55.
+
+45. Missouri Documents, 97, 150; Senate Documents, 1.
+
+46. Missouri Documents, 150. Five were bound over for murder arising from the Battle of Crooked River. They included Parley P. Pratt, Norman Shearer, Darwin Chase, Lyman Gibbs, and Maurice Phelps.
+
+47. Rough Draft Notes of History of the Church, 1838-038.
+
+48. Rough Draft Notes of History of the Church, 1838-039; Missouri Documents, 11.
+
+49. Joseph Smith to Isaac Galland, March 22, 1839, Church History Library.
+
+50. Affidavit of Sidney Rigdon, July 2, 1843, Church History Library.
+
+51. For Peter Hardeman Burnett (1807â1895), see Roger D. Launius, âBurnett, Peter Hardeman (1807â1895),â in Dictionary of Missouri Biography, ed. Lawrence O. Christensen, William E. Foley, Gary R. Kremer, and Kenneth H. Winn (University of Missouri Press, 1999), 134â35.
+
+52. Peter Hardeman Burnett, Recollections and Opinions of an Old Pioneer (D. Appleton and Co., 1880), 53â55.
+
+53. Joseph Smith Letter Book, 2:21â24, Joseph Smith collection, Church History Library.
+
+54. They were held in Liberty Jail because the first alleged activities occurred in Daviess County, and since there was no jail in Daviess County, the Liberty Jail the closest. And the speeches were given by Rigdon in Caldwell County, where no jail had been constructed, also leaving Liberty Jail as the closest available jail to hold him. The group of Mormons charged with murder, including Parley P. Pratt, was held in the Richmond Jail pending a grand jury hearing.
+
+55. U.S. Constitution, art. 3, sec. 3: âTreason against the United States, shall consist only in levying War against them, or in adhering to their Enemies, giving them Aid and Comfort. No Person shall be convicted of Treason unless on the Testimony of two Witnesses to the same overt Act, or on Confession in open Court.â
+
+56. U.S. Constitution, art. 3, sec. 3.
+
+57. See United States v. Burr, 8 U.S. (4 Cranch) 470, 473 (1807); Ex parte Bollman and Ex parte Swartwout, 8 U.S. (4 Cranch) 75, 126 (1807); see generally David Robertson, Trial of Aaron Burr for Treason (James Cockcroft and Company, 1875).
+
+58. This conclusion is based on the testimony given during the Court of Inquiry. For purposes of this analysis such testimony is accepted as true. See Madsen, âJoseph Smith and the Missouri Court Inquiry,â 115â19, for a discussion about the chronic problem with the extant testimony of this preliminary hearing to establish treason.
+
+59. Peter Hardman Burnett, Recollections and Opinions of an Old Pioneer (D. Appleton, 1880), 55.
+
+60. For a discussion about the process for obtaining the Nauvoo City Charter, see generally James L. Kimball Jr., âA Wall to Defend Zion: The Nauvoo Charter,â BYU Studies 15, no. 4 (1975): 492â97; see also B. H. Roberts, The Rise and Fall of Nauvoo (Salt Lake City: Deseret News, 1900), 81.
+
+61. âThe City Charter: Laws, Ordinances, and Acts of the City Council of the City of Nauvoo,â sec. 11 (1840) (hereafter cited as Nauvoo City Charter), Church History Library. Very similar provisions were also incorporated into the Illinois charters of Galena (1839), Springfield (1840), and Quincy (1840). See James L. Kimball, âA Study of the Nauvoo Charter, 1840â1845â (masterâs thesis, University of Iowa, 1966), 36.
+
+62. Nauvoo City Charter, secs. 16â17.
+
+63. See An Act to Amend an Act, Entitled âAn Act to Incorporate the City of Alton,â sec. 1, Incorporation Laws of the State of Illinois Passed by the Eleventh General Assembly, at Their Session Began and Held at Vandalia, on the Third of December, One Thousand Eight Hundred and Thirty-eight (Vandalia, Ill.: William Walters, 1839), 240; An Act to Incorporate the City of Chicago, Laws of the State of Illinois Passed by the Tenth General Assembly, at Their Special Session, Commencing December 5, 1836, ending March 6, 1837 (Vandalia, Ill.: William Walters, 1837), 75, Sec. 69; An Act in Relation to the Municipal Court of Chicago, and for Other Purposes, Laws of the State of Illinois Passed by the Tenth General Assembly, at Their Special Session, Commencing July 16, 1837 ending July 22, 1837 (Vandalia, Ill.: William Walters, 1837), 15â16, sec. 1.
+
+64. See Joseph Smith Letter Book 2:6, Joseph Smith collection, Church History Library; see also Jeffrey Walker, âA Change of Venue: Joseph Smithâs Escape from Liberty,â presented at the Mormon History Association Conference, Sacramento, California, 2007 (copy in possession of author).
+
+65. Thomas C. Burch to James L. Minor, June 24, 1839, Mormon Papers, Missouri Historical Society, St. Louis, Mo.; Indictment [for treason], Gallatin, Missouri, April [11,] 1839, certified copy, July 6, 1839, Joseph Smith Extradition Records, Abraham Lincoln Presidential Library, Springfield, Ill.; Indictment [for burglary], Gallatin, Missouri, April [11,] 1839, certified copy, July 6, 1839, Joseph Smith Extradition Records, Lincoln Presidential Library; Parley Prattâs Indictment [murder], Richmond, Missouri, April 24, 1839, certified copy, July 18, 1839, Joseph Smith Extradition Records, Lincoln Presidential Library.
+
+66. See Circuit Court Record C, Boone County Circuit Court, Columbia, Missouri, 222, 261â62, 280â81, 316â17. Governor Boggs did not send these indictments to Illinois until near the close of his term as governor in December 1840. While this timing is not critical by itself, it becomes more intriguing as a result of Thomas Reynolds becoming the successor governor in Missouri. Prior to being elected governor, Thomas Reynolds was a circuit judge in the stateâs Second Circuit, which included Boone County that dismissed all of the indictments in August 1840. He, therefore, must have been fully aware that there were no outstanding indictments against any of the men identified in Governor Boggsâs requisition made in September 1840. Whether Boggs knew this is uncertain. Circuit Court Record C, Boone County Circuit Court, Columbia, Missouri, 222, 261â62, 280â81, 316â17.
+
+67. âThe Late Proceedings,â Times and Seasons, June 15, 1841.
+
+68. An Act Regulating the Proceeding on Writs of Habeas Corpus, sec. 1, in The Public and General Statute Laws of the State of Illinois (Stephen F. Gale, 1839), 322 (hereafter cited as Illinois 1827 Act).
+
+69. Illinois 1827 Act, sec. 3, 323â24.
+
+70. âLate Proceedings.â
+
+71. âLate Proceedings.â
+
+72. Thomas Ford, A History of Illinois: From its Commencement as a State in 1818 to 1847 (S.C. Griggs and Co., 1854), 266.
+
+73. See Bouvier, Law Dictionary, 1:551; Hall v. Hall, 6 G. & L. 386, 411 (Md. 1834); Filkins v. Brockway, 19 Johns. 170, 170-171 (1821).
+
+74. See Sangamon Journal, July 2, 1842.
+
+75. Nauvoo City Council, Minutes, July 5, 1842, Church History Library. This ordinance was published in the Wasp (Nauvoo) on July 16, 1842.
+
+76. Illinois 1827 Act sec. 3, 323.
+
+77. See Nauvoo City Charter.
+
+78. Illinois 1827 Act, secs. 3, 12 at 323â24, 326.
+
+79. Kent, Commentaries, 2:30â31; see also Ex parte Bollman, 8 U.S. 75, 136-37, 4 Cranch 75 (1807); Gerard v. People, 4 Ill. 362, 363, 3 Scam 362 (1842).
+
+80. Illinois 1827 Act, sec. 7, at 325.
+
+81. William M. Boggs, âA Short Biographical Sketch of Lilburn W. Boggs by His Son,â ed. F. A. Sampson, Missouri Historical Review 4 (1910): 106â8.
+
+82. His injuries were so serious that several reported them as fatal. These erroneous reports quickly reached Nauvoo. See âAssassination of Ex-Governor Boggs of Missouri,â Wasp, May 28, 1842, 4; Andrew H. Hedges, Alex B. Smith, and Richard Lloyd Anderson, eds., Journals, Volume 2: December 1841âApril 1843, vol. 2 of the Journals series of The Joseph Smith Papers, ed. Dean C. Jessee, Ronald K. Esplin, and Richard Lyman Bushman (Salt Lake City: Church Historianâs Press, 2011), 57 (hereafter cited as JSP Journals 2).
+
+83. Citizens of Jackson County to Governor Reynolds, May 13, 1842, Thomas Reynolds, 1840â44, Office of Governor, Record Group 3.7, Missouri State Archives, Jefferson City, Mo; Samuel D. Lucas to Governor Reynolds, May 16, 1842, Thomas Reynolds, 1840â44, Office of Governor, Record Group 3.7, Missouri State Archives.
+
+84. As noted above, Bennett wrote a series of published letters attacking the Mormon leadership, especially Joseph Smith. These letters were published initially in the Springfield newspaper Sangamo Journal. See Sangamo Journal, July 2, 15, 22, and 29, 1842.
+
+85. Affidavit of Lilburn W. Boggs, July 20, 1842, Lincoln Presidential Library.
+
+86. Discussing Orrin Porter Rockwellâs involvement and circumstances connected to these events is beyond the scope of this article. For information see Harold Schindler, Orrin Porter Rockwell: Man of God, Son of Thunder, 2d ed. (Salt Lake City: University of Utah Press, 1983), 67â91, 94â102; Richard L. Dewey, Porter Rockwell: A Biography, 10th ed. (New York City: Paramount Books, 1996), 49, 50, 55â77.
+
+87. This was done in accord with the Act Concerning Fugitives from Justice, in The Public and General Statute Laws of the State of Illinois (Stephen F. Gale, 1839), 318â20.
+
+88. Nauvoo City Council Proceedings (August 8, 1842), MS 3435, Church History Library.
+
+89. JSP Journals 2, 181.
+
+90. JSP Journals 2, 181.
+
+91. JSP Journals 2, 181.
+
+92. JSP Journals 2, 181.
+
+93. Law of the Lord, 129, Church History Library.
+
+94. Having the arrest warrant âin handâ was a threshold requirement for detaining a person. See An Act to Regulate the Apprehension of Offenders, and for Other Purposes, sec. 7, in Public and General Statutes of the State of Illinois, 239.
+
+95. Nauvoo City Charter, secs. 16, 17 (1842). See page 306 above.
+
+96. Nauvoo City Charter, sec. 11. See page 304 above.
+
+97. âProclamation,â Illinois Register, September 30, 1842.
+
+98. This trip to Springfield had been previously scheduled to hopefully conclude Smithâs bankruptcy. Smith and several other prominent Mormon leaders had filed under the newly enacted bankruptcy laws on April 28, 1842. Dallin H. Oaks and Joseph I. Bentley, âJoseph Smith and Legal Process: In the Wake of the Steamboat Nauvoo,â BYU Law Review (1976): 735â82.
+
+99. Sidney Rigdon had contacted Justin Butterfield through Calvin A. Warren, an attorney who was assisting various Church leaders file under the newly enacted federal bankruptcy laws in October 1842. Rigdon had asked for a more formal opinion. By letter dated October 20, 1842, written from Chicago, where Butterfield lived and practiced law, Butterfield further articulated his legal position. Justin Butterfield to Sidney Rigdon, October 20, 1842, Sidney Rigdon Collection, Church History Library. Butterfield outlined his core argument: âIt is not sufficient . . . that he should be âchargedâ with having fled from justice, unless he has actually fled from the state where the office was committed to another state; the governor of this state has no jurisdiction over his persons and cannot deliver him up.â Butterfield to Rigdon, October 20, 1842, 2, spelling, grammar and punctuation regularized, emphasis in original.
+
+Butterfield also addresses an apparent concern that the court would not look behind the Reynolds requisition. To this point Butterfield replied: âTo this I answer that upon a writ of habeas corpus the court would be bound to try the question whether Smith fled from justice from Missouri to this state; the affidavit of Mr. Boggs is not conclusive on this pointâit may be rebutted that unless Smith is a person who has fled from justice, he is not subject to be delivered up under the specific provisions of our own Habeas Corpus Act. He has a right to show the affidavit as false evidence and that the order for his arrest was obtained by false pretenses.â Butterfield to Rigdon, October 20, 1842, 2â3, 5, spelling and punctuation regularized.
+
+100. Justin Butterfield (1790â1855) was appointed in 1841 by President Harrison as the United States District Attorney for the District of Illinois. Historical Encyclopedia of Illinois, ed. Newton Bateman and Paul Selby (Munsell Publishing, 1918), 1:70. Perhaps his admiration of Daniel Webster was the reason that he often attended court dressed âa la Webster, in blue dress-coat and metal buttons, with bluff vest.â History of Sangamon County, Illinois (Inter-State Publishing, 1881), 103. Usher F. Linder, Reminiscences of the Early Bench and Bar of Illinois (Chicago Legal News Company, 1879), 87â88.
+
+101. Justin Butterfield to Joseph Smith, December 17, 1842; Law of the Lord, 215; JSP Journals 2 (December 17, 1842), 181â82.
+
+102. JSP Journals 2 (December 27, 1842), 195.
+
+103. Smithâs Petition for a Writ of Habeas Corpus issued by Governor Ford, December 31, 1842, Lincoln Presidential Library (spelling regularized).
+
+104. Nathaniel Pope (1784â1850) was appointed by President James Monroe to the federal bench for the District of Illinois in 1819. Paul M. McClelland, Nathaniel Pope from 1784 to 1850, a Memoir (Springfield, Ill., 1937); Linder, Reminiscences of the Early Bench, 215â17. Paul M. Angle, Nathaniel Pope 1784â1850âa Memoir (Privately Printed, 1937).
+
+105. JSP Journals 2 (December 31, 1842), 200â204.
+
+106. Writ of Habeas Corpus ordered by Judge Nathaniel Pope, December 31, 1842, Lincoln Presidential Library, spelling regularized.
+
+107. Section 4 of the Illinois 1827 Habeas Corpus Act required that if bail is admitted, the prisoner (Smith, in this case) âshall enter into recognizance with one or more securities.â The record indicates that Judge James Adams and Wilson Law acted as securities for Smith. JSP Journals 2 (December 31, 1842), 204.
+
+108. Benjamin S. Edwards (1818â1886). See Linder, Reminiscences of the Early Bench, 350â52. See David Herbert Donald, Lincolnâs Herndon: A Biography (Da Capo Press, 1948), 139â41; Illinois State Register (Springfield), February 5, 1886, 7.
+
+109. Josiah Lamborn (1809â1847). See Bateman and Selby, Historical Encyclopedia of Illinois, 1:327. Transactions of the Illinois State Historical Society (Springfield, Ill.: Phillips Bros., 1903), 218. Linder, Reminiscences of the Early Bench, 258â59.
+
+110. Affidavit of Joseph Smith, January 2, 1843, Church History Library.
+
+111. See JSP Journals 2 (May 7, 1842), 54â55, identifying that Smith was in Nauvoo on the date that Boggs was shot, where he both reviewed the Nauvoo Legion and had dinner with a group of âdistinguished Strangers,â including Stephen A. Douglas.
+
+112. Numerous accounts report that Judge Pope had several young ladies sit on either side of him at the bench during these proceedings, including his daughters, Butterfieldâs daughter, and Mary Todd Lincoln, who had recently married Abraham Lincoln. History of Sangamon County, Illinois, 103â4; Angle, Nathaniel Pope 1794â1850, 56; Isaac Newton Arnold, Reminiscences of the Illinois Bar Forty Years Ago (Fergus Printing Co., 1881), 6â7; JSP Journals 2 (January 2, 1843), 211â12.
+
+113. JSP Journals 2 (January 4, 1843), 216â18.
+
+114. JSP Journals 2 (January 4, 1843), 219â20.
+
+115. JSP Journals 2 (January 4, 1843), 222â24.
+
+116. Collaborative Affidavits of Wilson Law, Henry Sherwood, Theodore Turley, Shadrach Roundy, William Clayton, Hyrum Smith, John Taylor, William Marks, Lorin Walker, and Willard Richards, January 4, 1843, Church History Library.
+
+117. Collaborative Affidavits of Stephen A. Douglas, James H. Ralson, Almeron Wheat, J. B. Backenstos, January 4, 1843, Church History Library.
+
+118. Arnold, Reminiscences of the Illinois Bar, 3.
+
+119. Jack v. Martin, 14 Wend. 507 at 535 (N.Y. Court for the Correction of Errors, 1835), quoting Sturges v. Crowninshield, 17 U.S. (4 Wheat.) 122, 193 (1819).
+
+120. JSP Journals 2 (January 4, 1843), 220. Butterfield also quoted for the same proposition Priggs v. Commonwealth of Pennsylvania, 41 U.S. 539, 16 Peters 611 (1842). The Priggs court cited to Sturges v. Crowninshield, 17 U.S. (4 Wheat.) 122 (1819).
+
+121. JSP Journals 2 (January 4, 1843), 220â21 (spelling and punctuation regularized).
+
+122. JSP Journals 2 (January 4, 1843), 222, spelling, grammar, and punctuation regularized.
+
+123. JSP Journals 2 (January 4, 1842), 222â23.
+
+124. JSP Journals 2 (January 4, 1843), 223, spelling, grammar, and punctuation regularized. Butterfield cited and discussed Ex Parte Watkins, 32 U.S. (7 Pet.) 568 (1833), Ex Parte Burfurd, 7 U.S. (3 Cranch) 448, 451â52 (1806); In re Clark, 9 Wend. 212, 220â21 (Supreme Court of Judicature of New York, 1832); and the unsuccessful requisition by an Alabama governor to extradite a newspaper publisher in New York for distributing a libelous newspaper in Alabama despite having never been in Alabama. Documents of the Assembly of the State of New-York, Fifty-Ninth Session (E. Cromwell, 1836), 1:40â51.
+
+125. JSP Journals 2 (January 4, 1843), 224, spelling, grammar, and punctuation regularized.
+
+126. JSP Journals 2, 225.
+
+127. JSP Journals 2, 225, spelling, grammar, and punctuation regularized.
+
+128. JSP Journals 2, 233.
+
+129. âCircuit Court of the U. States for the District of Illinois,â Times and Seasons, January 16, 1843 (three days earlier than the Sangamo Journal); âCircuit Court of the United States for the District of Illinois,â Wasp, January 28, 1843.
+
+130. Ex parte Smith, 22 F. Cas. 373, 376 (C.C.D. Ill. 1843) (No. 12,968).
+
+131. Ex parte Smith, 22 F. Cas. at 377.
+
+132. Ex parte Smith, 22 F. Cas. at 377.
+
+133. Ex parte Smith, 22 F. Cas. 378.
+
+134. Ex parte Smith, 22 F. Cas. at 379.
+
+135. Ex parte Smith, 22 F. Cas. at 379.
+
+136. Rough Draft Notes of History of the Church, 1842b-015, Church History Library.
+
+137. Joseph Smith, in Journal of Discourses, 26 vols. (Liverpool: F. D. Richards, 1855â86), 2:163, 167. The term âKilkenny catâ refers to anyone who is a tenacious fighter. To âfight like a Kilkenny catâ refers to an anonymous Irish limerick about two cats that fought to the death and ate each other up so that only their tails were left.
+
+1f:T17c5f,
+
+I. Introduction
+
+Habeas corpus has been referred to as the cornerstone of the common law. Indeed, it is the âGreat Writ of Liberty.â1 This article explores the use of this most famous writ during the early nineteenth century and specifically how Joseph Smith used it against those who sought his incarceration.
+
+A writ of habeas corpus is essentially an order directing one who has a person in custody to deliver that person to a court so that the reasons for the incarceration can be independently reviewed. The legal process typically starts with a petition by the prisoner requesting a writ of habeas corpus to a local court authorized to hear the petition. If the local court determines that the petition has merit, it orders the person who has custody of the prisoner, often a sheriff, to bring the prisoner before a court with jurisdiction to hear the writ (as compared to a court with jurisdiction to grant the petition) at a specific time and place. This is referred to as the âreturn.â At the hearing on the writ of habeas corpus, the court determines whether the prisoner is remanded back to jail, allowed to post bail, or discharged and released.2
+
+During Joseph Smithâs life (1805â1844), he invoked the habeas corpus laws on several occasions: From seeking review of his incarceration in Liberty Jail to seeking approval for the charter for the City of Nauvoo (which included the right of the municipal court to hear writs of habeas corpus) to seeking review of his arrests during the various extradition efforts to return him to Missouri, Smith developed a keen understanding of the protections that habeas corpus afforded, and he needed that understanding. Joseph Smith believed, and accurately so, that if he were to be jailed in Illinois as he had been in Missouri, he would not survive his incarceration. It was in fact his jailing in Illinois that ended in his murder.
+
+Historians and commentators, however, have almost uniformly assumed or acquiesced that Joseph Smithâs use of habeas corpus was unusual and overreaching.3 Some critics even assert that such improper use was a catalyst to his death.4 While it is true that some people in the 1840s were critical of Josephâs use of the right of habeas corpus, and while lawyers in that day still argued about the correct application of this writ in particular cases, the idea that Josephâs use of habeas corpus was not fully within the laws of his day is not supported by careful legal analysis.
+
+II. History of the Writ of Habeas Corpus Leading Up to the Nineteenth Century
+
+The history of habeas corpus predates the Magna Carta of 12155 and can be traced to a series of writs from the Middle Ages providing protection from imprisonment unrecognized in law, which had the aggregate effect of the modern writ.6 The Magna Carta itself makes only an oblique reference to the writ of habeas corpus.7 This is because the writ had already emerged as the law by the time of the Magna Carta and was thus already a fundamental part of the unwritten common law of the land.
+
+The four hundred years following the Magna Carta saw a growing tension between the rights of the individual and those of the state. The British Parliament codified the common law practice through the enactment of the Habeas Corpus Act of 1679.8
+
+Habeas corpus laws traveled across the ocean to the American colonies with the full panoply of English common law and practice. This right was regarded as a fundamental protection guaranteed to each citizen, and historical records confirm that petitions for writs of habeas corpus were filed in colonial America.9 Indeed, the British restriction of this right was a major cause of the American Revolution.10 So fundamental was the right of habeas corpus that the Founding Fathers placed it in the Constitution itself.11
+
+III. History of the Writ of Habeas Corpus in Nineteenth-Century America
+
+A. Introduction
+
+Historical legal research requires the discipline to not look forward to subsequent events or laws; it is not an exercise to determine whether a judgeâs or attorneyâs proposition was subsequently validated, followed, or even cited. The primary historical objective is to determine whether the law was being properly applied according to the practice and status of the law of that time. It requires an understanding of the judicial system that then existed, the statutes and case law of the time, and the nature of the practice. These understandings are prerequisites to forming any legitimate opinion about the prosecution or defense in a particular historical judicial proceeding.
+
+B. Nineteenth-Century vs. Modern Habeas Corpus Practices
+
+Such a historical understanding is necessary when analyzing the writ of habeas corpus in Americaâs nineteenth century, since many differences exist between the historical and modern use and interpretations. Between 1800 and 1850, there were 906 reported federal and state cases involving the use of habeas corpus (on average, less than eighteen per year).12 In contrast, today there are an average of more than twenty thousand reported habeas corpus cases each year,13 with that number rising yearly. While this increase in filings is certainly a result of the dramatic growth in the population in America coupled with the increased size and complexity of the American judiciary, the numbers alone do not tell the whole story.
+
+An even more telling observation of how this fundamental legal vehicle has changed during the past two hundred years emerges when one separates the early nineteenth century cases into the three different phases in which a writ may be sought and compares them to a sampling of such filings today.
+
+Habeas corpus can be sought anytime after an arrest. For purposes of discussion, the application of habeas corpus can be separated into three distinct phases:
+
+(1) postarrest, but prior to indictment;14
+
+(2) postindictment, but prior to conviction; and
+
+(3) postconviction.
+
+Chart 1. Three Periods in Which a Writ of Habeas Corpus May Be Used.
+
+During any of these three phases of the case, there are three principal outcomes of a petition for habeas corpus. First, the prisonerâs petition could be denied and he would be remanded back to jail to await the outcome of the prosecution. Second, the prisonerâs petition for release could be denied, but the prisoner would be offered bail pending trial. Third, the prisonerâs petition could be granted in full and he would be discharged and released. The process for determining which outcome should result is the central point of discussion of Joseph Smithâs use of habeas corpus.
+
+A review of the petitions for habeas corpus reported during the first half of the nineteenth century shows that approximately 40 percent of the writs were filed after arrest but before indictment; approximately 10 percent were filed after indictment but before conviction; and 50 percent were filed after conviction.
+
+Chart 2. 1800â1850 Use for Writs of Habeas Corpus.
+
+In contrast, today less than 1 percent of the habeas corpus cases are filed after arrest but before indictment; approximately 5 percent are filed after indictment but before conviction; and more than 95 percent of the cases are filed after conviction.15 The change in the timing of habeas corpus use not only highlights differences in the judiciary, but also further underscores the problem of looking at the historical interpretation of habeas corpus through modern lenses.
+
+Chart 3. 2000â2011 Use for Writs of Habeas Corpus.
+
+C. Applying the Writ of Habeas Corpus in Nineteenth-Century America
+
+To properly understand the application of the habeas corpus laws during Joseph Smithâs time, we first look at the organization of the court system in that era. Next we consider the applicable legal commentary and case law that defined the use of habeas corpus in the various phases of litigationâfrom arrest to indictment to convictionâto determine how the application of the writ changed as the case moved through the legal process.
+
+1. How the Nineteenth-Century American Judicial System Encouraged the Use of Habeas Corpus
+
+Engaging in a discussion of Smithâs use of habeas corpus first requires an understanding of how the judicial process has evolved over the past two hundred years. One dramatic evolution for purposes of this discussion is the change from a âterm-basedâ court system to a âstandingâ court system. In the early nineteenth century, with the exception of the most local level of the courts (typically the justices of the peace), a court would be in session only twice a year.16 These terms were most often held in the spring (the May Term, or Spring Term) and the fall (the October Term). In contrast, modern courts, both state and federal, are in session throughout the year. This difference is central to the corresponding change in trends regarding the filing of petitions for writs of habeas corpus.
+
+The term system created a unique situation wherein a person could be arrested for an alleged crime and held until the next term began. For example, if a person were arrested for a crime in November, after the October Term had concluded, his or her charges would not be brought before a grand jury until the May Term began. Moreover, if the charges were not bailable, that person could be held for five or more months, based only on an affidavit or a preliminary hearing. During this period, a prisoner would have both significantly more time and opportunity to seek a review of his or her incarceration by petitioning for a writ of habeas corpus. These long incarceration periods obviously increased incentive to contest the incarceration.
+
+It is during this early phase of the litigation that we see the emergence of an American approach that diverges from the traditional British one. Under British jurisprudence habeas corpus was fundamentally a vehicle to protect against misuse of the judicial process. A review by a court on a writ of habeas corpus under this approach was therefore limited to a consideration of whether the procedural requirements were satisfied. In contrast, under the emerging American approach, while due process considerations remained important, the courts began âlooking behind the writâ to review the underlying charges that allegedly supported an arrest and detention.
+
+2. Nineteenth-Century Writs of Habeas Corpus after Arrest but before Indictment (First Phase)
+
+While the most recognized treatise on habeas corpus was not written until 1858,17 early commentaries are helpful in assessing the use of habeas corpus. For example, Joseph Chittyâs 1819 treatise on criminal law18 provides a general discussion regarding the propriety of looking behind the writ in ruling on a petition for habeas corpus during this first phase. Chittyâs discussion of looking into the underlying factual allegations indicates that it was a common, even expected examination:
+
+We do not find that the mere informality of the warrant of commitment [a procedural aspect] is, of itself, a sufficient ground for discharging or admitting to bail; . . . even though the commitment be regular; the court will examine the proceedings, and if the evidence [the factual aspects] appear altogether insufficient, will admit him to bail; for the court will rather look to the depositions which contain the evidence, than to the commitment, in which the justice may have come to a false conclusion.19
+
+Chittyâs explanation was further developed in 1827 by James Kent, who authored perhaps the most cited and authoritative treatise on nineteenth-century American law in his Commentaries on American Law. Kent traced American jurisprudenceâs departure from the British common law principle of limited procedural review on a writ of habeas corpus during this first phase of a possible incarceration:
+
+Upon the return of the habeas corpus, the judge is not confined to the face of the return, but he is to examine into the facts contained in the return. . . . [and] authorizes the judge to re-examine all of the testimony taken before the magistrate who originally committed, and to take further proof on the subject, for he is âto examine into the facts.â20
+
+Kentâs explanation on looking behind the writ in a petition for habeas corpus is further developed in Rollin Hurdâs seminal 1858 work, A Treatise on the Right of Personal Liberty, and on the Writ of Habeas Corpus and the Practice Connected with It with a View of the Law of Extradition of Fugitives, wherein he conducted a careful analysis of the United States Supreme Court 1807 case Ex parte Bollman & Swartwout.21 This case involved Erick Bollman and Samuel Swartwoutâs use of habeas corpus to challenge the charges of treason brought against them for recruiting persons to participate in Aaron Burrâs failed attempt to create a separate nation in the West. Hurd examined how the Supreme Court addressed the use of extrinsic evidence in proving or defending the charge of treason, outside of that evidence presented in the charging pleadings used in the initial arrest.22
+
+James Kent. His Commentaries on American Law provide an accurate understanding of the law on writs of habeas corpus in nineteenth-century America. Library of Congress.
+
+Hurd noted that the Supreme Court addressed the issue again in the principal Burr case itself, finding,
+
+The presence of the witnesses to be examined by the committing justice, confronted with the accused, is certainly to be desired; and ought to be obtained, unless considerable inconvenience and difficulty exist in procuring his attendance. An ex parte23 affidavit, shaped perhaps, by the person pressing the prosecution, will always be viewed with some suspicion, and acted upon with some caution; but the court thought it would be going too far to reject it altogether. If it was obvious, that the attendance of the witness was easily attainable, but that he was intentionally kept out of the way, the question might be otherwise decided.24
+
+Lastly, William Churchâs 1884 treatise on the writ of habeas corpus25 provides some additional clarification. Church provides a summary of how the courts treated the postarrest, but preindictment, petition for habeas corpus during the nineteenth century:
+
+The decisions on this point may be divided into two classes . . . 1. Those which hold that, upon a commitment regular and valid upon its face, the only open question before a court on the hearing of a return to a writ of habeas corpus is the jurisdiction of the committing magistrate [procedural]; and, 2. Those which hold that not only the proceedings but the evidence taken before the committing magistrate may be examined [factual], and the commitment revised if necessary, or a commitment made de novo26 by the court hearing the matter. . . . The practice set down in the first rule seems to have been followed in many of the states, and is probably supported by a preponderance of authorities; but we consider the second to be the soundest, most in accord with the spirit which gave birth to the writ of habeas corpus, and one from which will flow the greatest and best results of this beneficent writ.27
+
+Church recognized the tension between the traditional common law approach (as derived under British precedents), which was that only the form of the writ should be subject for examination, and the more expansive American approach, noted with approval from the United States Supreme Court, which permitted or even required inquiry into the underlying factual predicates.
+
+These legal commentators provide a consistent paradigm to view the use of habeas corpus during the nineteenth century as it evolved from a British model to an American one. This same evolution can be viewed through the courts. For example, in People v. Martin,28 the New York Supreme Court in 1848 confronted the prosecutionâs position âthat the commitment of the magistrate is conclusive upon me, and that I have no right on this return to look beyond the question of its regularity or that if I do look beyond it, I can look only at the depositions taken before the magistrate.â29 The judge confessed that while such an approach appeared consistent with his âreading of [his] boyhood [rather] than of riper years,â because of the vital nature of the underlying principals of habeas corpus, he took the time for an âextendedâ examination, to ensure âan accurate and intimate knowledge of the properties of this great instrument of personal liberty, the writ of habeas corpus.â30 The judge summarized the law after arrest but before indictment:
+
+If in custody on criminal process before indictment, the prisoner has an absolute right to demand that the original dispositions be looked into to see whether any crime is in fact imputed to him, and the inquiry will by no means be confined to the return. Facts out of the return may be gone into to ascertain . . . whether the commitment was not palpably and evidently arbitrary, unjust, and contrary to every principle of positive law or rational justice.31
+
+The same court in 1851 acknowledged the continuing fluid development of the American approach of looking behind the writs in People v. Tompkins, explaining:
+
+It was very strenuously urged on the argument of this case, on the part of the public prosecutor, that on habeas corpus the court or officer had no right to go behind the warrant on which the prisoner was detained, and inquire from facts out of the return into the legality of the imprisonment. The effect of this principle would be, that the warrant of a committing magistrate, when legal upon its face, would be conclusive upon the prisoner, and he could have no relief from imprisonment, even if no charge whatever had in fact been preferred against him. . . . I have examined the subject very carefully, and rejoice to find that there is no authority to shake my previous convictions on this subject.32
+
+After reviewing the cases and authority cited by the prosecution advocating only a procedural review [the British approach], the Tompkins Court explained:
+
+Of all the cases which I can find, or to which I have been referred in support of the doctrine contended for in behalf of the prosecution none of them sustain the doctrine, and it is well they do not, for the habeas corpus would be a mockery, whenever a magistrate might please to make the instrument of oppression and false imprisonment formal and regular on its face, and personal liberty would be at the mercy of ignorance or design, beyond anything yet known to our laws, careless as they too frequently are of freedom in the detail, from the abundance of it in the gross.33
+
+A sampling of cases from other jurisdictions involving a postarrest, but preindictment, scenario shows that the courts routinely allowed a substantive analysis of the underlying facts rather than just looking at the procedural formalities.34 State courts also interpreted the statutory provisions of their respective habeas corpus acts to permit close scrutiny of the factual predicates of the crime.35
+
+3. Nineteenth-Century Writs of Habeas Corpus after Indictment but before Conviction (Second Phase)
+
+The American courtsâ treatment of habeas corpus after indictment in the nineteenth century closely aligns with the traditional English common law. As articulated by the New York Supreme Court in People v. McLeod, âNothing is better settled, on English authority, than that on habeas corpus, the examination as to guilt or innocence cannot, under any circumstances, extend beyond the depositions or proofs upon which the prisoner was committed.â36 This is fundamentally because grand jury testimony is not publicly available to scrutinize. These limitations, however, on review after indictment but before conviction are not applicable when allegations of fraud or perjured testimony are involved. For example, in United States v. Burr, one of Aaron Burrâs central arguments accepted by the court against the indictments of treason was that they âhad been obtained by perjury.â37 Similarly, in Commonwealth v. Carter, the Supreme Court of Massachusetts held that its Habeas Corpus Act itself provided for relief after indictment upon showing the prosecutorâs âwitness is occasioned by fraud,â reasoning âthat such avoidance is fraudulent, unlawful and collusive, and done or caused with a design to defeat the claims of justice.â38 As noted by the Arkansas Supreme Court in Ex parte White, in a postindictment but pretrial stage:
+
+The law requires the party to make an affidavit of merits to warrant this court in going behind the indictment, and the affidavit must state such particular facts that, if proven to be false, the affiant [the person who signs an affidavit] could be indicted for perjury: otherwise, the requiring of an affidavit would be a merely idle form.39
+
+4. Nineteenth-Century Writs of Habeas Corpus after Conviction (Third Phase)
+
+The nineteenth-century application of habeas corpus after conviction followed more closely the modern application in the same phase: âThe writ of habeas corpus was not framed to retry issues of fact, or to review the proceedings of a legal trial.â40 Consequently, postconviction writs of habeas corpus are predominantly limited to constitutional challenges to the charges or procedure of the case and challenges to the implementation of the sentence.41
+
+5. Summary
+
+As the foregoing illustrates, these three phases are really parts of a continuum. In a postarrest but preindictment phase, a person is in custody based on a complaint supported at most by an affidavit. In the postindictment but preconviction phase, a person is in custody based on a grand jury finding. Finally, in the postconviction phase, a person is in custody based on the trial itself. At each consecutive phase, there is an increased amount of information supporting the incarceration. The affidavit supporting an arrest does not carry much weight. There is more weight given to an indictment and even more weight yet given to a conviction. Thus, the ability to look behind the writ depends on where the case is heard, with the level of review decreasing or narrowing as the case makes its way through the judicial process.
+
+IV. Joseph Smithâs Use of Habeas Corpus
+
+Joseph Smithâs first use of habeas corpus was in response to the preliminary hearing before Circuit State Judge Austin A. King in November 1838, which hearing resulted in his incarceration in Liberty Jail. While in the Missouri jail he joined in two petitions for habeas corpusâone in January 1839 to the county judge in Clay County and a second to the Missouri Supreme Court in March 1839. In Nauvoo, Smith was involved in enacting ordinances that articulated the rights extended by the Nauvoo Charter for issuing and hearing writs of habeas corpus. Later, still in Illinois, Smith used the writ of habeas corpus again as a key protection during extradition attempts by the State of Missouri. These events provide a window into his understanding and application of this most important writ.
+
+A. Habeas Corpus in Missouri (1838â1839)
+
+On November 1, 1838, Major General Samuel D. Lucas arrested Joseph Smith and six of his colleagues outside of Far West, Missouri, thereby marking the effective end of the Missouri conflict and the start of a forced exodus by the Mormons from Missouri.42 More than sixty who were charged with crimes ranging from arson, burglary, and robbery to treason and even murder, joined Smith.43 Because some of the alleged crimes occurred in Ray County, Missouri, the preliminary hearing (referred to as a Court of Inquiry) was held in Richmond, the county seat of Ray County, before Fifth Circuit State Court Judge Austin King.44 This hearing lasted two weeks, concluding on November 29, 1838, at which time Judge King found probable cause to charge thirty-four of the defendants. Bail was available for twenty-three of the thirty-four,45 leaving eleven to be held in custody pending a grand jury, wherein indictments would be considered. Of those eleven, Joseph Smith, Hyrum Smith, Lyman Wight, Alexander McRae, Caleb Baldwin, and Sidney Rigdon were charged with treason and sent to Liberty Jail in Clay County (because no jail existed in either Caldwell or Daviess County, where the alleged crimes had occurred) on December 1, 1838.46 There they were incarcerated to await a grand jury, which, the October Term having already concluded, would not occur until the 1839 Spring Term, in April.
+
+The Missouri legislature began a review of the matter almost immediately after Judge King bound them over. On December 5, 1838, Governor Boggs provided the Missouri Legislature with a report of the Mormon dispute to support the charges for the incarcerated. The Mormons answered by providing the âMemorial of a Committee to the State Legislature of Missouri in Behalf of the Citizens of Caldwell Countyâ on December 10, 1838.47 On December 18, 1838, a joint committee of the legislature charged with investigating the Mormon dispute submitted their preliminary findings, concluding that a full investigation lasting several months was necessary, and that their findings should not be made public until after the grand jury had heard the case during the upcoming Spring Term.48 With the prospects of timely help from the Missouri legislature gone, Joseph Smith and the other prisoners looked to the courts for assistance. Smith recalled,
+
+Under such circumstances, sir, we were committed to this jail, on a pretended charge of treason, against the State of Missouri, without the slightest evidence to that effect. We collected our witnesses the second time, and petitioned a habeas corpus: but were thrust back again into prison, by the rage of the mob; and our families robbed, and plundered: and families, and witnesses, thrust from their homes, and hunted out of the State.49
+
+Sidney Rigdon prepared an extensive affidavit delineating his experiences in Missouri, including a summary of their efforts for review via this same petition for habeas corpus:
+
+During the hearing under the habeas corpus, I had, for the first time, an opportunity of hearing the evidence, as it was all written and read before the court. It appeared from the evidence that they attempted to prove us guilty of treason in consequence of the militia of Caldwell County being under arms at the time that General Lucasâ army came to Far West. This calling out of the militia, was what they founded the charge of treason uponâan account of which I have given above . . . The other charges were founded on things which took place in Davies. As I was not in Davies county at that time, I cannot testify anything about them.50
+
+These two accounts provide some useful insights into nineteenth-century application of habeas corpus. Both accounts note that the hearing included the examination of the evidence, Joseph Smith noting that they âcollected [their] witnesses the second timeâ (the first being the King hearing), and Rigdon writing that all of the written evidence was âread before the court.â These examinations were in accord with the law of looking behind the writ on a petition for habeas corpus when the petition was brought during the first phase (after arrest but before indictment), which was exactly the status of Smith, Rigdon, and their companions.
+
+During this habeas corpus hearing before Clay County Judge Turnham, Alexander Doniphan recruited Peter Burnett,51 a local attorney, to assist him in representing Smith, Rigdon, and the other prisoners held at Liberty Jail. Burnettâs account of this hearing provides some additional details, as well as a flavor of the intensity of the persecution that the Mormons were experiencing. Burnett recorded:
+
+We had the prisoners out upon a writ of habeas corpus, before the Hon. Joel Turnham, the County Judge of Clay County. In conducting the proceedings before him there was imminent peril. . . . We apprehended that we should be mobbed, the prisoners forcibly seized, and most probably hung. Doniphan and myself argued the case before the County Judge . . . We rose above all fear, and felt impressed with the idea that we had a sublime and perilous but sacred duty to perform. We armed ourselves, and had a circle of brave and faithful friends armed around us; and, it being cold weather, the proceedings were conducted in one of the smaller rooms in the second story of the Court-house in Liberty, so that only a limited number, say a hundred persons, could witness the proceedings . . .
+
+I made the opening speech, and was replied to by the District Attorney; and Doniphan made the closing argument. Before he rose to speak, or just as he rose, I whispered to him: âDoniphan! Let yourself out, my good fellow; and I will kill the first man that attacks you.â And he did let himself out, in one of the most eloquent and withering speeches I ever heard. The maddened crowd foamed and gnashed their teeth, but only to make him more and more intrepid. He faced the terrible storm with the most noble courage. All the time I sat within six feet of him, with my hand upon my pistol, calmly determined to do as I had promised him.
+
+The Judge decided to release Sidney Rigdon, against whom there was no sufficient proof in the record of the evidence taken before Judge King. The other prisoners were remanded to await the action of the grand jury of Davis County. Rigdon was released from the jail at night to avoid the mob.52
+
+Burnettâs account is consistent with both Smithâs and Rigdonâs accounts that Judge Turnham âlooked behind the writâ and reviewed the underlying facts.
+
+At the conclusion of this hearing, Judge Turnham ruled that there was not sufficient evidence to hold Rigdon and released him. While there are several accounts noting Rigdonâs release, the basis for the release has remained largely uncertain. Burnettâs account helps to clarify the legal basis, which fits squarely within the legal parameters of the applicable habeas corpus laws.
+
+Following Rigdonâs release in January, but before the grand jury was held in Daviess County in April 1839, Joseph Smith, his fellow prisoners, and others sought a second writ of habeas corpus from the Missouri Supreme Court in a series of documents simply titled âPetition,â dated March 1839. These petitions not only articulated procedural irregularities in the events leading up to their imprisonment in Liberty Jail but also noted irregularities in the underlying factual allegations altogether.53 They did this in two manners: first, they disputed the factual allegations themselves; and second, they argued that the facts testified of were insufficient to constitute the crime of treason. The Missouri Supreme Court refused to hear these petitions.
+
+A review of the preliminary hearing before Judge King reveals that the treason charge that held Joseph Smith and his colleagues in Liberty Jail can be separated into two categories. The first is the alleged illegal activities that occurred in Daviess County in October 1838. The second category involves various speeches given by Sidney Rigdon in Far West, Caldwell County.
+
+It was these cumulative factual allegations that supported binding these men over for the grand jury and holding them in Liberty Jail until the grand jury would convene.54
+
+The law of treason finds its roots in the United States Constitution.55 The Missouri Constitution directly borrows its language on treason from the United States Constitution. Judicial refinements of the law were defined early in American history through a series of cases arising out of Aaron Burrâs failed effort to create a separate nation from Spanish-owned Mexico, which included states west of the Mississippi valley. The most applicable refinement was the affirmation by the United States Supreme Court that treason required an âovert actâ to âlevy war.â56 Justice Marshall, in the opinion for the Burr conspiracy case, held that accessory rules, which make accessories equally guilty as the principal who actually commits the crime, were inapplicable to cases of treason; that is, advising, counseling, advocating, or even assisting in preparing for treasonous actions does not constitute treason.57
+
+Applying the foregoing rules and factors to the habeas corpus hearing before Judge Turnham is relatively straightforward. As discussed above, if a petition for habeas corpus falls within the first phase (after arrest and before indictment), a judge may look behind the writ to assure that there are sufficient factual allegations to support the charges. While the evidence in the record implicating Joseph Smith, Hyrum Smith, Lyman Wight, Alexander McRae, and Caleb Baldwin would ultimately be insufficient to warrant a conviction, the record does articulate generally that these men were the leaders of or directed various military or riotous actions.58 Thus apparently Judge Turnham determined that sufficient evidence had been admitted to find that the minimum standard of probable cause was established. Consequently, the judge denied their request to be released from Liberty Jail. It is not clear whether Smith and his colleagues were allowed to affirmatively present additional testimony, although Smith indicates that they had at least prepared to do so.
+
+In contrast, the only evidence implicating Sidney Rigdon was the two speeches he gave in Far West. As Justice Marshall articulated in the Burr case, speech alone is insufficient to constitute treasonâthere must be an actual overt action in levying war; none could be found in the record against Rigdon. As their attorney, Peter Burnett, recounted, âThe Judge decided to release Sidney Rigdon, against whom there was no sufficient proof in the record of the evidence taken before Judge King.â59
+
+This analysis illustrates that courts were allowed, during the period between arrest and indictment, to look behind the procedural niceties of an arrest and resulting incarceration, and examine the underlying facts of the matter. That is exactly what Judge Turnham did for Joseph Smith and his colleagues in hearing their collective petitions for a writ of habeas corpus.
+
+Through these events, Smith became both a student and practitioner in the use of the writ of habeas corpus. He subsequently left Missouri in April 1839, with a growing understanding of the need to protect the right of habeas corpus. This skill became even more evident as he found himself in need of such protection while residing in Illinois.
+
+B. Habeas Corpus in Illinois under the Nauvoo City Charter
+
+The Nauvoo Charter, granted by the Illinois legislature on December 16, 1840,60 granted the city council the âpower and authority to make, ordain, establish, and execute, all such ordinances, not repugnant to the Constitution of the United States or of this State, as they deem necessary for the peace, benefit, good order, regulation, convenience, and cleanliness, of said city.â61 Under this charter, the Nauvoo City Council had the power to enact laws pertaining to the use of habeas corpus in Nauvoo. The charter also provided for the creation of a court system, as follows:
+
+Sec. 16: The Mayor and Aldermen shall be conservators of the peace within the limits of said city, and shall have all powers of Justices of the Peace therein, both in civil and criminal cases, arising under the laws of the State: . . .
+
+Sec. 17: . . . The Municipal Court shall have power to grant writs of habeas corpus in all cases arising under the ordinances of the City Council.62
+
+These sections provided that the mayor and aldermen were âjustices of the peaceâ within Nauvoo and together constituted the âmunicipal court.â The municipal court was the equivalent in some limited situations to the Illinois circuit courts wherein appeals from the justices of the peace could be taken and where original jurisdiction was expanded. Such original jurisdiction expressly extended to the municipal court was the power to grant writs of habeas corpus. While some have viewed this inclusion as unique, two of the five city charters adopted in Illinois before the Nauvoo Charter contained a similar provision.63
+
+The drafting of the Nauvoo charter was undoubtedly influenced by the Mormonsâ experiences in Missouri and the perceived threat of additional efforts by the Missourians to apprehend Mormon leaders, especially Joseph Smith. Yet its grant of rights to issue writs of habeas corpus cannot be seen as unique. The cumulative effect of these provisions in the charter was the progressive development of ordinances dealing with the rights and uses of habeas corpus. As will be discussed, it appears from these ordinances that the leaders in Nauvoo understood that the charter provided them the right to enact these types of ordinances and that they were restricted only by the contours of the United States Constitution or the Illinois Constitution, whichever was broader. Consequently, these ordinances must therefore be read not only in light of the general law of habeas corpus as understood and applied in the first half of nineteenth-century America, but also in harmony with the broader provisions of the United States and Illinois Constitutions.
+
+C. Missouriâs First Effort to Extradite Joseph Smith (June 1841)
+
+In early April 1839, Joseph Smith, Hyrum Smith, Lyman Wight, Alexander McRae, and Caleb Baldwin were taken from Liberty Jail, where they had been incarcerated since early December 1838, to Gallatin, Daviess County, where a grand jury was empanelled at the commencement of the Spring 1839 court term to consider the charges brought against them, including the nonbailable charge of treason. There, after a two-day hearing, they were indicted on several charges. At the close of the grand jury hearing, Judge Thomas Burch granted a request to change venue to Boone County due to the fact that he had been the prosecuting attorney in the preliminary hearing before Judge Austin King. En route to Boone County all of the prisoners either escaped or were released and made their way to Illinois to join the body of the Church.64
+
+Sixteen months later, on September 1, 1840, Governor Boggs sent a requisition to Illinois Governor Thomas Carlin seeking the extradition of Joseph Smith and five others to Missouri based on these outstanding indictments. The extradition request was supported by the indictments, of which Governor Boggs had secured certified copies in July 1839.65 What is not clear is whether Governor Boggs knew that in August 1839 all of these indictments had been dismissed based on a motion by the Boone County prosecuting attorney.66 The judge in Boone County was Governor Boggsâs successor, Thomas Reynolds.
+
+Unfortunately, the resulting arrest warrant issued by Illinois Governor Carlin based on the extradition request of the succeeding Missouri Governor Reynolds for the arrest of Joseph Smith and others is not extant. It apparently was carried to Nauvoo, where the legal officer could not locate Smith or the others listed in it, and the warrant was consequently returned to Governor Carlin.
+
+No further action was taken until Joseph Smith, who was returning to Nauvoo with his brother Hyrum and William Law from a mission in the East, was arrested outside of Quincy, Illinois, on June 5, 1841.67 Upon arrest, Smith filed a petition for a writ of habeas corpus with Calvin Warren, the master in chancery for the Warren County Circuit Court. Warren granted Smithâs petition and issued the writ of habeas corpus. That same evening, Associate Illinois Supreme Court Justice Stephen A. Douglas arrived in Quincy and agreed to hear the writ68 at the Warren County Circuit Courthouse located in Monmouth. He scheduled the hearing for the following Monday, June 8, 1841, and after a one-day postponement to allow the state to better prepare, the matter was heard on June 9, 1841.
+
+Stephen A. Douglas. While an Associate Illinois Supreme Court Justice, Douglas heard Joseph Smithâs writ of habeas corpus over the first extradition attempt, ruling that the arrest itself was invalid. He was a witness for Joseph Smith during the second extradition effort, heard before Federal Judge Nathaniel Pope. Library of Congress.
+
+The hearing started on a procedural matter, as the underlying indictments from the Missouri courts had not been attached to the arrest warrant as required by law. As this procedural irregularity could result in further postponement, both sides stipulated that such indictments existed. Ironically, had Joseph Smithâs counsel further investigated this issue, they would have discovered that in fact no indictments existed, all of them having been dismissed in August 1840 by the now-sitting Missouri Governor Reynolds. Notwithstanding this oversight, Joseph Smithâs counsel argued that the indictments supporting the requisition from Missouri were obtained by âfraud, bribery and duress.â This phraseology closely paralleled the language in the Illinois 1827 Act for summarily ruling on a writ of habeas corpus.69
+
+Joseph Smithâs counsel called four witnesses: Morris Phelps, Elias Higbee, Reynolds Cahoon, and George Robinson. The state objected that these witnesses should not be allowed to testify pertaining to the underlying merits of the case because the indictments sufficiently established the facts required at this stage of the litigation. Defense attorney Orville Browning argued for the admissibility of the testimony for more than two hours, concluding his remarks as follows:
+
+Great God! Have I not seen it? Yes, my eyes have beheld the blood stained traces, and the women and children, in the drear winter, who had travelled hundreds of miles barefoot, through frost and snow, to seek a refuge from their savage pursuers. Twas a scene of horror sufficient to enlist sympathy from an adamantine heart. And shall this unfortunate man, whom their fury has seen proper to select for sacrifice, be driven into such a savage band, and none dare to enlist in the cause of justice? If there was no other voice under heaven ever to be heard in this cause, gladly would stand alone, and proudly spent my latest breath in defence of an oppressed American citizen.70
+
+In the end, Judge Douglas allowed the testimony from these witnesses, as well as several unidentified state witnesses before ruling on the testimonyâs admissibility.
+
+Judge Douglas delivered his ruling the next morning. He sidestepped the issue as to whether the court could go beyond the indictments, and based his ruling on a narrow procedural issueâthe validity of the warrant used to arrest Joseph Smith. It was undisputed that the arrest warrant actually used was the same warrant initially issued by Governor Carlin and returned to him after the legal officer failed to find Joseph Smith in Nauvoo. Douglas held that âthe writ once being returned to the executive, by the Sheriff of Hancock County was dead and stood in the same relationship as any other writ which might issue from the Circuit Court and consequently the defendant [Smith] could not be held in custody on that writ.â71 Future Illinois Governor and former Illinois Supreme Court Justice Thomas Ford recorded in his work History of Illinois that Smith âwas discharged upon the ground that the writ upon which he had been arrested had been once returned, before it had been executed, and was functus officio.â72 (Functus officio is Latin for âhaving performed his office.â This term is applied to something which once had life and power, but which now has no utility whatsoever.)
+
+While some would argue that Douglasâs ruling was solely political move to garner the Mormon vote and lacked legal merit, a review of the doctrine of functus officio shows that it was actually the proper legal ruling.73 Justice Douglasâs ruling, while on a technical rather than a substantive basis, was in accord with established law. Accordingly, Joseph Smith was properly discharged.
+
+D. Nauvoo City Councilâs First Ordinances on Habeas Corpus (July and August 1842)
+
+The Nauvoo City Councilâs first ordinance regarding habeas corpus was passed on July 5, 1842 (the âJuly 1842 City Ordinanceâ). What precipitated the passage of this ordinance is not certain. Yet, it may have been in response to the publishing on July 2, 1842, by the Sangamon Journal the first of a series of letters by John C. Bennett, the former mayor of Nauvoo and leading antagonist against the Mormons, especially Smith. This first letter, in part, solicits Governor Reynolds to seek the extradition of Smith âaloneâ to Governor Carlin and should Governor Carlin issue a writ for the arrest of Smith âin my hands, I will deliver him up to justice, or die in the attempt.â74
+
+The July 1842 City Ordinance provides as follows:
+
+Sec. 1. Be it, and it is hereby ordained by the city council of the city of Nauvoo, that no citizen of this city shall be taken out of the city by any writs without the privilege of investigation before the municipal court, and the benefit of a writ of habeas corpus, as granted in the 17th section of the Charter of this city. Be it understood that this ordinance is enacted for the protection of the citizens of this city, that they may in all cases have the right of trial in this city, and not be subjected to illegal process by their enemies.75
+
+This ordinance is in accord with the Illinois 1827 Act. Section 3 that provides, in pertinent part, for the following rights of the prisoner and responsibilities of the court hearing the writ:
+
+Sec. 3. . . . The said prisoner may deny any of the material facts set forth in the return, or may allege any fact to shew, either that the imprisonment or detention is unlawful, or that he is then entitled to his discharge; which allegations or denials shall be made on oath.76
+
+The July 1842 City Ordinance, which gives the prisoner the right to investigate the basis for his incarceration and the right to a trial arising from such investigation, does not broaden the right of habeas corpus further than section 3 of the Illinois 1827 Act.
+
+On August 8, 1842, the Nauvoo City Council refined the July 1842 City Ordinance by further delineating the procedures for an investigation.
+
+The following charts compare the August 8 City Ordinance procedures to those provided in the Illinois 1827 Act. The August 8 City Ordinance can be separated into two parts: The first part examines the process of the arrest, and the second part examines the substance of the charges (looking behind the writ).
+
+1. Challenging the process of the arrest
+
+August 1842 City OrdinanceIllinois 1827 Act
+
+âupon sufficient testimonyâ (sec. 1)âby hearing the testimony and argumentsâ (sec. 3)
+
+âthat said writ or process was illegalâ (sec. 1)âsecond, where, though the original imprisonment was lawful, yet by some act, omission, or event, which has subsequently taken place, the party has become entitled to his dischargeâ (sec. 3)
+
+âthat said writ or process was not legally issuedâ (sec. 1)âthird, where the process is defective in some substantial form required by law; fourth, where the process, though in proper form, has been issued in a case, or under circumstance where the law does not allow process, or orders for imprisonment or arrest to issueâ (sec. 3)
+
+âthat said writ or process did not proceed from proper authorityâ (sec. 1)âfirst, where the court has exceeded the limits of its jurisdiction, either as to the matter, place, sum, or person . . . ; fifth, where, although in proper form, the process has been issued or executed by a person either unauthorized to issue or execute the same, or where the person having the custody of the prisoner under such process is not the person empowered by law to detain himâ (sec. 3)
+
+2. Challenging the substance of the arrest
+
+August 1842 City OrdinanceIllinois 1827 Act
+
+âfully hear the merits of the case, upon which said arrest was made, upon such evidence as may be produced and sworn before said courtâ (sec. 1)âThe said prisoner may deny any of the material facts set forth in the return, or may allege any fact to shew, either that the imprisonment or detention is unlawful, or that he is then entitled to his discharge; which allegations or denials shall be made on oath. The said return may be amended by leave of the court or judge, before or after the same is filed, as also may all suggestions made against it, that thereby material facts may be ascertainedâ (sec. 3)
+
+âand shall have power to adjourn the hearing, and also issue process from time to time, in their discretion, in order to procure the attendance of witnesses, so that a fair and impartial trial and decision may be obtained in every such case.â (sec. 1)âIf any person shall be committed for a criminal, or supposed criminal matter, and not admitted to bail, and shall not be tried on or before the second term of the court having jurisdiction of the offence, the prisoner shall be set at liberty by the court, unless the delay shall happen on the application of the prisoner. If such court, at the second term, shall be satisfied that due exertions have been made to procure the evidence for, and on behalf of the people, and that there are reasonable grounds to believe that such evidence may be procured at the third term, they shall have power to continue such case till the third term. If any such prisoner shall have been admitted to bail for a crime other than a capital offence, the court may continue the trial of said cause to a third term, it shall appear by oath or affirmation that the witness for the people of the state are absent, such witnesses being mentioned by name, and the court shewn wherein their testimony is materialâ (sec. 9)
+
+As these charts demonstrate, section 1 of the August 8 City Ordinance was drafted in accord with corresponding rights and duties found in the Illinois 1827 Act. Thus, in enacting this ordinance, the Nauvoo City Council acted within its rights as granted under section 11 of the Nauvoo Charter.77
+
+Section 2 of the August 8 City Ordinance further articulates the duty of the municipal court to assure that the underlying charges were not brought âthrough private pique, malicious intent, or religious or other persecution, falsehood or misrepresentation;â if so, the prisoner would be âdischarged.â Similar provisions are found in section 3 of the Illinois 1827 Act.78 This section provides further evidence that this ordinance was created within the bounds granted under the Nauvoo Charter.
+
+The term âdischarged,â as used in the August 8 City Ordinance and the Illinois 1827 Act, rendered into modern terminology, means âdismissed without prejudice.â This means that should other facts or theories of law be discovered, the person released may be rearrested on the same or different charges arising from the same set of events. Stated another way, the doctrine of âdouble jeopardyâ does not apply to a person discharged (or released) based on a writ of habeas corpus.79 The Illinois 1827 Act has a similar provision in section 7,80 again evidencing the validity of the August 8 City Ordinance.
+
+E. Missouriâs Second Extradition Attempt (July 1842)
+
+On May 6, 1842, former Missouri Governor Lilburn W. Boggs was shot at his home in Independence, Missouri.81 Although serious, the injuries were not fatal.82 A local citizens committeeâs initial investigation could find no legitimate suspects.83 Early insinuations about a possible Mormon involvement gained traction in July 1842 with the published claims of dissident and former Nauvoo mayor John C. Bennett, alleging that Orrin Porter Rockwell, who was in Independence at the time, committed the crime under the direction of Joseph Smith.84 While there was never any direct evidence implicating either Rockwell or Joseph Smith, Boggsâs pivotal role in the displacement of the Mormons from Missouri in 1838 during his governorship made him a supposed target of the Mormons.
+
+Boggs fueled this notion of Mormon involvement with an affidavit dated July 20, 1842, stating that he had information leading him to âbelieveâ that Smith was an accessory before the fact in orchestrating the assassination attempt.85 Based on this affidavit, Missouri Governor Thomas Reynolds issued a requisition for the extradition of Smith and Rockwell86 from Illinois to Missouri. As a result of this requisition, Illinois Governor Carlin issued an arrest warrant for Smith and Rockwell.87 Adams County Sheriff Thomas C. King arrested Smith and Rockwell in Nauvoo on August 8, 1842, on the governorâs warrant.
+
+Anticipating that Joseph Smith and Rockwell would petition for a writ of habeas corpus, the Nauvoo City Council convened in the morning of August 8, 1842, and enacted the August 8 City Ordinance.88
+
+Both Smith and Rockwell retained Sylvester Emmons as their counsel to prepare and argue their petitions for writs of habeas corpus. The basis for the petition included both procedural claims of the âillegality of the arrest under the Writ issued by Thomas Carlin Governor of this State,â as well as factual claims as to âthe utter groundlessness of the Charge preferred in said Writ.â89 The municipal court âheard the Petition read, and the reasons addressed by Councilor Emmons upon behalf of the Prisoner, and the nature of the Case, and prayer of the Petition,â and granted the petition issuing a writ of habeas corpus for both Joseph Smith and Rockwell.90 The return was âdirected to Thomas C. King, to forthwith bring the body of Joseph Smith before this Court.â91 The minutes of this hearing ended with the court being adjourned âuntil the first Monday in September next.â92
+
+Sheriff King left Smith and Rockwell in the custody of the Nauvoo Marshal Dimick B. Huntington.93 However, Sheriff King took with him the original arrest warrant from Governor Carlin, as well as the writs of habeas corpus granted by the municipal court. Without the arrest warrant, there was no legal basis for Marshal Huntington to keep Smith and Rockwell in custody, and for that reason they were released.94
+
+Upon learning of these proceedings, coupled with Rockwellâs and Smithâs release, Governor Carlin took the position that the municipal court lacked judicial authority to rule on the warrant and that the ordinances passed by the Nauvoo City Council overstepped its legislative authority. Specifically, Governor Carlin contested the interpretation of sections 16 and 17 of the Nauvoo Charter that created the municipal court and articulated its jurisdiction, including its right to grant âwrits of habeas corpus in all cases arising under the ordinances of the City Council.â95 Carlin argued that this provision only extended to cases that originated under a violation of a Nauvoo City Council ordinance. Carlinâs position was that the underlying charge (accessory before the fact) and the resulting warrant did not arise from a Nauvoo ordinance and therefore was beyond the scope of the municipal court and the city council.
+
+Nauvoo officials, however, argued that these sections must be read in conjunction with section 11 of the Nauvoo Charter that gave the Nauvoo City Council âpower and authority to make, ordain, establish, and execute, all such ordinances, not repugnant to the Constitution of the United States or of this State.â96 Nauvoo officials argued that the laws protecting the citizens of Nauvoo (for example, rights pertaining to writs of habeas corpus) were well within the contours of both the U.S. and Illinois Constitutions and therefore fell directly within the jurisdiction of the municipal court and city council.
+
+Most commentators unfortunately miss the legal dichotomy raised by Carlin and the Nauvoo officials. The issue was not whether the July, August, or November ordinances passed by the Nauvoo City Council were in legal accord with state or federal law, but whether the Nauvoo City Council could enact habeas corpus laws that applied to alleged crimes that did not occur in Nauvoo. Therefore, the issue for Carlin was not how the Nauvoo Municipal Court handled a petition for a writ of habeas corpus, but rather whether it could handle a petition.
+
+The fact that no case or appeal was ever filed in any Illinois court to challenge the legality of any of these ordinances based on the Nauvoo City Councilâs interpretation of the Nauvoo Charter evidences their validity despite open hostility to the Mormons generally. In the end, the only remedy that was sought was to repeal the Nauvoo Charter itself. These actions in great measure legitimized these ordinances as being in accord with a charter that the Illinois legislature enacted for the operations of Nauvoo.
+
+Governor Carlin attempted to circumvent the issue of the legality of these ordinances by simply offering a reward for the capture of Smith and Rockwell. Captioned as a âProclamation,â Governor Carlin on September 20, 1842, announced a $200 reward each for the arrest of Smith and Rockwell. The basis of the proclamation was that âthe said Rockwell and Joseph Smith resisted the Laws by refusing to go with the officers who had them in custody as fugitives from Justice, and escaped from the custody of said officers.â97 Such a basis is belied by (1) the facts of the petitions for habeas corpus being made by Smith and Rockwell, (2) the proceedings before the Nauvoo Municipal Court granting the writs, (3) the decision of Sheriff King to take the arrest warrants with him when he left Nauvoo to report to Carlin, and (4) the release of Smith and Rockwell by Marshal Huntington based on not having the arrest warrants. Nevertheless, Joseph Smith and Porter Rockwell thereafter went into hiding to avoid being rearrested.
+
+Thomas Ford was elected Illinois governor in November 1842, replacing Thomas Carlin. With this change in administration, a delegation representing Joseph Smith traveled from Nauvoo to Springfield in early December to determine, in part, Governor Fordâs disposition regarding the Missouri extradition efforts.98 After meeting with several prominent attorneys and judges, including Judge Stephen Douglas and Governor Ford, the delegation concluded that if Joseph Smith would voluntarily appear in Springfield, the entire situation could be acceptably resolved. The delegation also met99 and retained Justin Butterfield,100 the United States Attorney for the District of Illinois, to represent Joseph Smith in this matter.101
+
+Consistent with the delegationâs findings, on December 27, 1842, Joseph Smith, accompanied by a few close colleagues, left for Springfield, arriving on December 30, 1842. Upon their arrival Butterfieldâs initial efforts were to make sure the niceties of the procedural requirements were satisfied. Wilson Law, a general in the Nauvoo militia, officially âarrestedâ Joseph Smith pursuant to the September 20 proclamation of Governor Carlin.102 However, because the arrest warrant that Carlin had previously issued was still in the possession of Sheriff King and it became apparent that getting the arrest warrant in a timely manner might prove difficult, Butterfield recommended seeking a new arrest warrant from Governor Ford. The new warrant could then be used as the legal basis for filing a new petition for a writ of habeas corpus.
+
+The next morning (December 31), Butterfield prepared a petition to Governor Ford for a new arrest warrant. Ford granted the petition and issued the warrant. Butterfield then filed a petition in the United States Circuit Court in Springfield for a writ of habeas corpus to review the arrest the same day.103 With the filing of the petition, Federal Judge Nathaniel Pope104 permitted Butterfield to address the court. Butterfield articulated the procedural posture of the matter (the requisition from Governor Reynolds, the proclamation of Governor Carlin and the new arrest warrant from Governor Ford), as well as the substantive position of Joseph Smith (that the requisition was flawed because Joseph Smith never fled from Missouri as alleged). He then introduced Joseph Smith to the court, read the petition for a writ of habeas corpus, and requested a trial on the underlying extradition effort and for bail pending the trial.105 Judge Pope granted the writ of habeas corpus,106 set bail at $4,000,107 and scheduled the hearing on the return of the writ for the following Monday, January 2, 1843.
+
+On Monday morning, Joseph Smith was represented before Judge Pope by two attorneys: Justin Butterfield, who lived in Chicago, and Benjamin S. Edwards,108 who lived in Springfield. Illinois Attorney General Josiah Lamborn represented the state of Illinois.109
+
+Lamborn immediately sought a continuance to have additional preparation time for the hearing on the return of the writ. Judge Pope granted the request and moved the hearing to Wednesday, January 4, 1843. Butterfield then moved to file objections to the factual basis of the extradition warrant upon which the writ of habeas corpus was taken. It does not appear that Lamborn objected to the motion. Butterfieldâs motion was supported by an affidavit of Joseph Smith that noted:
+
+Joseph Smith being brought up on Habeas Corpus before this Court comes and denies the matter set forth in the return to the same in this, that he is not a fugitive from the justice of the State of Missouri; but alleges and is ready to prove that he was not in the State of Missouri at the time of the Commission of the alleged crime set forth in the affidavit of L. W. Boggs, nor had he been in said State for more than three years previous to that time, nor has he been in that State since that timeâbut on the contrary at the time the said alleged assault was made upon the said Boggs as set forth in said Affidavit the said Smith was at Nauvoo in the County of Hancock in the State of Illinois, and that he has not fled from the justice of the State of Missouri and taken refuge in the State of Illinois, as is most untruly stated in the warrant upon which he is arrested and that the matter set forth in the requisition of the Governor of Missouri and in the said Warrant are not supported by oath.
+
+Joseph Smith110
+
+The following day, Butterfield drafted two additional affidavitsâone to be signed by a group of Mormons and the other by a group of non-Mormons, both affirming Joseph Smithâs presence in Nauvoo around the date that Boggs was shot.111 It appears that these affidavits were prepared to make sure that this evidence became part of the record, as Butterfield probably anticipated the objections from Lamborn. Both of these affidavits were submitted and read into the record at the beginning of the hearing the following day.
+
+On Wednesday, January 4, 1843, the court convened at 9 a.m., all parties being present.112 The court started by inquiring whether either party had any preliminary motions. Both did. Lamborn had twoâthe first was a motion to dismiss the issuance of the writ of habeas corpus on the ground that the court had no jurisdiction to hear the matter and the second was effectively a motion in limine (a motion before the trial to resolve evidentiary rulings) to prevent any inquiry into any facts âbehind the writ.â113 Butterfield and Edwards countered the two motions, first articulating that the court not only had jurisdiction over this matter but exclusive jurisdiction, because Joseph Smith was in custody âunder color of U.S. Law.â114 Concerning Lambornâs second motion, Butterfield argued that the facts were undisputableâSmith could not be a fugitive from a crime that occurred in Missouri when he was in Illinois at the time.115 Butterfield then had read into the record the two prepared affidavits. The first affidavit, signed by ten Mormons, itemized the times they knew Smith was in Nauvoo, making it impossible for him to have been in Missouri participating in the attempt on Boggsâs life.116
+
+The second affidavit, signed by Stephen A. Douglas and Jacob Backenstos, confirmed âthat [they] were at Nauvoo, in the County of Hancock in this State, on the seventh day of May last, that they saw Joseph Smith on that day reviewing the Nauvoo Legion at that place, in the presence of several thousand persons.â117
+
+With these preliminary matters heard, open statements were given. Butterfieldâs opening lines have been recorded in numerous reports and were so poetic and classic that they bear repeating. As reported by a fellow attorney who was present:
+
+Mr. Butterfield . . . rose with dignity and amidst the most profound silence. Pausing, and running his eyes admiringly from the central figure of Judge Pope, along the rows of lovely women on each side of him, he said: âMay it please the Court: I appear before you today under circumstances most novel and peculiar. I am to address the âPopeâ (bowing to the Judge) surrounded by angels (bowing still lower to the ladies), in the presence of the holy Apostles, in behalf of the Prophet of the Lord.â118
+
+Butterfield then argued that the federal court not only had jurisdiction but also had exclusive jurisdiction to hear the return. In support, Butterfield cited Jack v. Martin, a New York case involving the return of a slave from Louisiana. The New York Court of Errors held that the state process could not circumvent federal process, noting that âwhenever the terms in which a power is granted to Congress, or the nature of the power requires that it should be exercised exclusively by Congress, the subject is as completely taken from the state legislature as if they had been expressly forbidden to act.â119 Butterfield opined, âHas not my client, Joseph Smith, the rights of a [slave]?â120
+
+Butterfield turned to the second and substantive issue before the court, framing it as follows: âHas the court power to issue Habeas Corpus? It has. Is the return sufficient to hold the prisoner in custody without further testimony? Unless it appears on the testimony that he is a fugitive, it is not sufficient.â121 Butterfield then dissected the affidavit of exâMissouri Governor Boggs and the requisition from Missouri Governor Carlin, noting that Boggsâs affidavit never alleges that Smith was in Missouri when the crime occurred. Next, he cited Carlinâs requisition that claimed that Smith was a âfugitive from justice.â Butterfield repeated that to qualify as a fugitive Smith had to have âfledâ from Missouri, summarising: âGovernor Carlin would not have given up his dog on such a requisition.â122
+
+Butterfield examined the facts supported by the two affidavits previously read into the record that Joseph Smith was in Nauvoo at the time the crime occurred in Missouri as follows: âHe [Smith] was at officerâs drill until 6 and in the Lodge from 6 to 9 oâclock. . . . 300 miles off in uniform reviewing the Nauvoo Legion, instead of running away from Boggs in uniform. Judge Douglas partook of the hospitality of General Smith[;] instead of fleeing from Justice, he was dining with the highest court judge in our land.â123
+
+Butterfield then articulated the established status of the law as to when one could look behind the writ on a return for a writ of habeas corpus stating that â[the] power of Habeas Corpus is pretty well settled.â Citing a case involving a conviction for embezzlement, Butterfield noted that on a return for a writ of habeas corpus one âcannot go behind the Judgment. [When a] judgment is not at issue, [one] can go behind the writ.â124
+
+Butterfield closed his argument with the following summation:
+
+That an attempt should be made to deliver up a man who has never been out of the State strikes at all the liberty of our institutions. His fate today may be yours tomorrow. I do not think the defendant ought under any circumstances to be delivered up to Missouri. It is a matter of history that he and his people have been murdered and driven from the state. He had better been sent to the gallows. He is an innocent and unoffending man. The difference is this people believe in prophecy and others do not. Old prophets prophesied in poetry and the modern in prose.125
+
+After a short recess, Lamborn made his final argument and the case was submitted to Judge Pope. The judge indicated that the court would issue its opinion at 9:00 a.m. the following day.126 Willard Richards provides us with a succinct summary of the dayâs hearing:
+
+The courtroom was crowded the whole of the trial and the utmost decorum and good feeling prevailed. Esquire Butterfield managed the case very learned and judiciously. Preceeded by Esquire Edwards who made some very pathetic allusions to our sufferings in Missouri. Esquire Lamborn was not severe apparently saying little more than the nature of his situation requiredâand no more than would be useful in satisfying the public mindâthat there had been a fair investigation of the whole matter.â127
+
+The following morning Judge Pope rendered his opinion in open court, ruling in Joseph Smithâs favor and discharging him.128 Popeâs written opinion was published in the Sangamo Journal on January 19, 1843. Mormon-operated newspapers the Times and Seasons and the Wasp ran the opinion as well.129 The opinion was cited in federal and state courts for more than a hundred years.
+
+The importance of the case was not lost on Judge Pope, who introduced the opinion as follows:
+
+The importance of this case, and the consequences which may flow from an erroneous precedent, affecting the lives and liberties of our citizens, have impelled the court to bestow upon it the most anxious consideration. . . . When the patriots and wise men who framed our constitution were in anxious deliberation to form a perfect union among the states of the confederacy, two great sources of discord presented themselves to their consideration; the commerce between the states, and fugitives from justice and labor. The border collisions in other countries had been seen to be a fruitful source of war and bloodshed, and most wisely did not constitution confer upon the national government, the regulation of those matters, because of its exemption from the excited passions awakened by conflicts between neighboring states, and its ability alone to adopt a uniform rule, and establish uniform laws among all the states in those cases.130
+
+Pope dismissed Lambornâs argument that there was âgreater sanctity in a warrant issued by the governor, than by an inferior officer.â Pope poetically responded:
+
+Magna Charta established the principles of liberty; the habeas corpus protected them. It matters not how great or obscure the prisoner, how great or obscure the prison-keeper, this munificent writ, wielded by an independent judge, reaches all. It penetrates alike the royal towers and the local prisons, from the garret to the secret recesses of the dungeon. All doors fly open at its command, and the shackles fall from the limbs of prisoners of state as readily as from those committed by subordinate officers.131
+
+Pope then turned his attention to the second issue before him: Could the factual basis of the moving pleadings be questionedâhere the Boggs affidavit and the Reynolds requisition. To answer this question, Pope focused on what âproofâ existed to support the extradition. Pope identified that the âproof is âan indictment or affidavit,â to be certified by the governor demanding the extradition. The return brings before the court the warrant, the demand and the affidavit.â Pope concluded that the âaffidavit being thus verified, furnished the only evidence upon which the Governor of Illinois could act.â He acknowledged that Joseph Smith presented opposing âaffidavits proving that he was not in Missouri at the date of the shooting of Boggs.â While the state objected to such testimony on the basis that it required looking behind the return, Pope determined that such evidence was unnecessary, âinasmuch as it thinks Smith entitled to his discharge for defect in the affidavit.â132
+
+The affidavits presented by Joseph Smith all focused on the fact that Smith was not in Missouri when the crime was committed and therefore could not have fled from the justice of Missouri. Pope succinctly reasoned:
+
+As it is not charged that the crime was committed by Smith in Missouri, the governor of Illinois could not cause him to be removed to that state, unless it can be maintained that the state of Missouri can entertain jurisdiction of crimes committed in other states. The affirmative of this proposition was taken in the argument with a zeal indicating sincerity. But no adjudged case or dictum was adduced in support of it. The court conceives that none can be.133
+
+Some commentators have pointed out that the crime of being an accessory was somehow different in the early nineteenth century than it is today and that Smith would not have to be in Missouri to be an accessory today. However, being physically in Missouri is not a requisite then or today to conspire to commit a crime. The issue was not whether Smith had committed a crime, but whether the extradition by Missouri was proper.
+
+Pope then criticized and dismissed the facts asserted in the Boggs affidavit, finding that âbeliefsâ without facts are insufficient, as are âlegal conclusions.â Pope simply found that the âaffidavit is fatally defective.â Pope then, in preparation for the inevitable conclusion, provided a context to his ruling:
+
+The return is to be most strictly construed in favor of liberty . . . No case can arise demanding a more searching scrutiny into the evidence, than in cases arising under this part of the constitution of the United States. It is proposed to deprive a freeman of his libertyâto deliver him into the custody of strangers, to be transported to a foreign state, to be arraigned for trial before a foreign tribunal, governed by laws unknown to himâseparated from his friends, his family and his witnesses, unknown and unknowing. Had he an immaculate character, it would not avail him with strangers. Such a spectacle is appalling enough to challenge the strictest analysis. The framers of the constitution were not insensible of the importance of courts possessing the confidence of the parties.134
+
+Popeâs ruling was clear and concise: âThe affidavit is insufficientâ 1st. because it is not positive; 2d. because it charges no crime; 3d. it charges no crime committed in the state of Missouri. Therefore, he [Smith] did not flee from the justice of the state of Missouri, nor has he taken refuge in the state of Illinois.â135 Joseph Smith was discharged.
+
+F. Nauvoo City Councilâs Final Ordinance on Habeas Corpus (November 1842)
+
+The Nauvoo City Council made its final additions to the Municipal Code regarding habeas corpus in November 1842 (the âNovember 1842 City Ordinanceâ).136 The November 1842 City Ordinance was the most detailed ordinance passed by the city council regarding writs of habeas corpus. It was this ordinance that some later writers claimed was abusive and overreaching. However, a careful reading of the November 1842 City Ordinance demonstrates that the Nauvoo City Council merely adopted, in substance, the entire Illinois 1827 Act.
+
+Indeed, more than 80 percent of the Illinois 1827 Act was incorporated verbatim by the Nauvoo City Council in the November 1842 City Ordinance. Yet, while the similarities are striking, looking at the differences is crucial. These differences highlight both the sophisticated understanding that the Nauvoo City Council had of the habeas corpus laws, as well as the rights it understood were extended to the cityâs inhabitants through the Nauvoo Charter.
+
+Section 1 of the November 1842 City Ordinance differs from the Illinois 1827 Act only in that the November 1842 City Ordinance refers to the city of Nauvoo and the Nauvoo Municipal Court (as authorized to hear writs of habeas corpus in section 17 of the Nauvoo Charter) instead of referring to the state of Illinois and the courts of Illinois. The other change in section 1 centered on the process to file a petition requesting a writ of habeas corpus. While the Illinois 1827 Act describes the process, the November City Ordinance provides sample forms to use for a petition.
+
+Section 2 defines who can file for a petition for a writ of habeas corpus, beyond those arrested for a crime. The November 1842 City Ordinance adds a penalty for violating the provisions of sections 1 and 2.
+
+Sections 3â7 of the November 1842 City Ordinance are materially identical to the corresponding sections in the Illinois 1827 Act, including provisions dealing with the hearings on writs of habeas corpus (sections 3), issues of bail, recognizance, and security (sections 4), procedures for remand (sections 5), second writs of habeas corpus after discharge (sections 6), and procedures for discharge (sections 7).
+
+Section 8 of the November 1842 City Ordinance omitted the corresponding section of the Illinois 1827 Act in its entirety. In the Illinois 1827 Act, this section excluded federal claims, war claims, slavery claims, and high crimes from the act, leaving them to the federal courts. The November 1842 City Ordinance does not include these exclusions. This was done in apparent reliance on section 11 of the Nauvoo Charter. As the Constitution of the United States provided for relief under a writ of habeas corpus for these exclusions, the Nauvoo City Council included them within the scope of its municipal code.
+
+No material differences are found in section 9, with the exception that the November 1842 City Ordinance does not grant as much discretion to the court to delay the resolution of a habeas corpus hearing as does the Illinois 1827 Act.
+
+Section 10 of the Illinois 1827 Act is omitted in the November 1842 City Ordinance. This section deals with the moving of a prisoner from one county to another that would have the impact of delaying or avoiding a trial. As the interest of the Nauvoo City Council was to allow its citizens to have their concerns addressed in Nauvoo, the issue of moving a prisoner out of Nauvoo was apparently deemed unnecessary.
+
+Section 11 of the November 1842 City Ordinance does not include a provision for moving a prisoner to a different jail should an overcrowding issue arise, or moving to a different jail based on a federal law or executive demand. Basically, it said that if prisoners were in Nauvoo, they would stay in Nauvoo until the habeas corpus matter was resolved.
+
+Sections 12â17 of the November 1842 City Ordinance are virtually identical to the corresponding provisions of the Illinois 1827 Act.
+
+Finally, section 18 of the November 1842 City Ordinance differs from the last section of the Illinois 1827 Act in the fact that the Act provided that the supreme and circuit courts shall have power to grant petitions for writs of habeas corpus. The November City Ordinance deleted these provisions, since section 17 of the Nauvoo Charter provides that the âMunicipal Court shall have power to grant writs of habeas corpus in all cases arising under the ordinances of the City Council.â
+
+As this summary evidence shows, the Nauvoo City Council, under the leadership of Mayor Joseph Smith, adopted a consistent, albeit increasingly detailed, approach to the use of habeas corpus in Nauvoo. This approach is characterized by three guiding principles. First, the Nauvoo Municipal Court was fully vested with the power to grant and hear writs of habeas corpus. Second, the Nauvoo City Council was empowered with the rights to enact ordinances for the city of Nauvoo to the extent permitted by the United States Constitution or the Illinois Constitution, whichever was broader. Lastly, the municipal court had a duty when hearing a writ of habeas corpus to look at both the procedural legality of an arrest and the substantive merits of the underlying charges.
+
+V. Conclusion
+
+Any credible analysis of Joseph Smithâs use of the writ of habeas corpus must start with an understanding of the law as it existed and applied in the early nineteenth century. Without this indispensible perspective, the legal theories, arguments, enactments, and actions raised by or for Smith under the rubric of âhabeas corpus rightsâ cannot be properly understood. With this understanding, the actions of the various witnesses, lawyers, clerks, aldermen, council members, sheriffs, and judges involved in Joseph Smithâs world make legal sense.
+
+While placing the right of habeas corpus in the United States Constitution itself evidenced the importance that the Founding Fathers placed on this great writ, Americaâs jurisprudence of the writ diverged quickly and distinctively from English law. A central aspect of this evolution was the allowance of an expanded review of the underlying charges allegedly supporting an arrest and detention. The courts often referred to this review as âlooking behind the writ.â Nineteenth-century legal scholars and practitioners recognized this development and provided useful legal analysis and rules of application. The need for a review of both the procedural and substantive aspects of a case necessarily decreased as a case moved through the system: a person who claimed he was incorrectly arrested could demand looking at both; a need to examine the substance of a detention decreases once a grand jury indicts the accused, absent fraud or bad faith; and if a trial resulted in a conviction, the need to look at the substance of the detention would be only to challenge the trial itself.
+
+This analysis is crucial in understanding how Joseph Smith employed the use of habeas corpus when he was arrested. Critics have argued that Smith attempted to use habeas corpus in an overreaching, even abusive manner. Their critique is principally based on his repeated efforts to have the court look âbehind the writâ and determine the legitimacy (or illegitimacy, as he argued) of the underlying charges. Yet these critics have failed to acknowledge that these cases all involved the first phase of the litigation or arose in cases where fraud and bad faith were alleged. In these circumstances, his request to look behind the writ was supported both by the applicable law and the facts.
+
+In the end, it is clear that Joseph Smith and his advisors had a very sophisticated and accurate understanding of the scope and application of the right to habeas corpus in his day. This scope included the important evolution that the writ experienced as it was transformed from an English prerogative writ of the king to a constitutionally based right of all Americans. Upon his return to Nauvoo on June 30, 1843, being under arrest pursuant to a third and final extradition request from the governor of Missouri, and in anticipation of having his petition for a writ of habeas corpus heard the next day, Smith, in speaking to the citizens of Nauvoo, aptly and passionately summarized how he saw the right of habeas corpus: âThe Constitution of the United States declares that the privilege of the writ of Habeas Corpus shall not be denied. Deny me the right of Habeas Corpus, and I will fight with gun, sword, cannon, whirlwind, and thunder, until they are used up like the Kilkenny cats.â137
+
+This article was originally published as part of âHabeas Corpus in Early Nineteenth-Century Mormonism: Joseph Smithâs Legal Bulwark for Personal Freedom,â BYU Studies Quarterly 52, no. 1 (2013): 4â97. The unabridged version of this article may be found at byustudies.byu.edu.
+
+12:["$","$L1c",null,{"book":{"id":71,"title":"Sustaining the Law: Joseph Smithâs Legal Encounters","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/BYUS-WBK-STL-CVR-cover-Sustaining-the-Law.jpg","excerpt":null,"book_series_id":null,"series_ordering":0,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":"website-files-bucket/books/book_pdf/MadsenSustaining-TXT.pdf","footnotes":null,"public":1,"slug":"sustaining-the-law","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":1413,"title":"16 Invoking Habeus Corpus in Missouri and Illinois","subtitle":null,"online_book_id":71,"excerpt":null,"content":"$1d","intro_text":"","page_number":357,"previous_chapter":"serving-as-guardian-under-the-lawrence-estate-1842-1844","next_chapter":"defining-adultery-under-illinois-and-nauvoo-law","pdf_id":"website-files-bucket/books/chapter_pdf/16Habeas.pdf","footnotes":"$1e","slug":"invoking-habeus-corpus-in-misouri-and-illinois","public":1,"wp_id":null,"test":null,"podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[{"id":36,"topic":"Joseph Smith","slug":"joseph-smith","wp_id":"23"},{"id":1225,"topic":"Joseph Smith, legal encounters","slug":"joseph-smith-legal-encounters","wp_id":null},{"id":39,"topic":"Missouri Period","slug":"missouri-period","wp_id":"27"},{"id":41,"topic":"Nauvoo Period","slug":"nauvoo-period","wp_id":"29"},{"id":51,"topic":"Political Science and Law","slug":"political-science-and-law","wp_id":"39"}],"scriptures":[],"authors":[{"id":333,"first_name":"Jeffrey","middle_name":"N.","last_name":"Walker","suffix":null,"title":null,"biography":null,"image_id":null,"slug":"jeffrey-n-walker","wp_id":"942"}],"processedContent":{"html":"$1f","headings":[{"id":"heading-0","textContent":"I. Introduction","tagName":"H2"},{"id":"heading-1","textContent":"II. History of the Writ of Habeas Corpus Leading Up to the Nineteenth Century","tagName":"H2"},{"id":"heading-2","textContent":"III. History of the Writ of Habeas Corpus in Nineteenth-Century America","tagName":"H2"},{"id":"heading-3","textContent":"A. Introduction","tagName":"H3"},{"id":"heading-4","textContent":"B. Nineteenth-Century vs. Modern Habeas Corpus Practices","tagName":"H3"},{"id":"heading-5","textContent":"C. Applying the Writ of Habeas Corpus in Nineteenth-Century America","tagName":"H3"},{"id":"heading-6","textContent":"IV. Joseph Smithâs Use of Habeas Corpus","tagName":"H2"},{"id":"heading-7","textContent":"A. Habeas Corpus in Missouri (1838â1839)","tagName":"H3"},{"id":"heading-8","textContent":"B. Habeas Corpus in Illinois under the Nauvoo City Charter","tagName":"H3"},{"id":"heading-9","textContent":"C. Missouriâs First Effort to Extradite Joseph Smith (June 1841)","tagName":"H3"},{"id":"heading-10","textContent":"D. Nauvoo City Councilâs First Ordinances on Habeas Corpus (July and August 1842)","tagName":"H3"},{"id":"heading-11","textContent":"E. Missouriâs Second Extradition Attempt (July 1842)","tagName":"H3"},{"id":"heading-12","textContent":"F. Nauvoo City Councilâs Final Ordinance on Habeas Corpus (November 1842)","tagName":"H3"},{"id":"heading-13","textContent":"V. Conclusion","tagName":"H2"}]}}]

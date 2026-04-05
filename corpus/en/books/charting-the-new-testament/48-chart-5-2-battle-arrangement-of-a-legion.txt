@@ -1,0 +1,29 @@
+[caption][/caption]
+
+Explanation:
+
+The classical Roman legion depicted on chart 5-2 was invented at the end of the second century B.C. by Rome's military genius Gaius Marius, uncle by marriage of the great Julius Caesar. This amazingly effective arrangement of soldiers in battle supplanted an older legion formation that had been used for the two preceding centuries. The legion was an extremely flexible tactical structure that enabled Roman soldiers to confront vastly superior numbers of enemy forces, absorbing the impact of enemy formations through the use of space and balanced placement of personnel. Due to the power of the legion, Rome conquered the Mediterranean world and large tracts of its hinterland in Europe, Asia, and Africa.
+
+A full legion was comprised of six thousand soldiers, organized into ten cohorts, each of six hundred men. The cohorts were divided into six centuries of one hundred men each (centurions). The legionnaires within each century were also stationed in three lines, the famous Roman triple battle line or tres acies, with an interval of approximately a meter between individuals. The second line was staggered by half a meter so as to fill the meter interval of the first line. The triple line arrangement was repeated as the ten cohorts were themselves stationed in three lines, with large intervals between them, as indicated on the chart. The third line, consisting of cohorts VIII, IX, and X, was considered a reserve that could be moved as needed to fill cohort intervals or extend the battle line in a flanking maneuver.
+
+References:
+
+H. M. D. Parker, The Roman Legions (Oxford: Oxford University Press, 1928).
+
+James S. Jeffers, The Greco-Roman World of the New Testament Era (Downers Grove, Ill.: InterVarsity, 1999), 171-78.
+
+1d:T7cd,
+
+Explanation:
+
+The classical Roman legion depicted on chart 5-2 was invented at the end of the second century B.C. by Rome's military genius Gaius Marius, uncle by marriage of the great Julius Caesar. This amazingly effective arrangement of soldiers in battle supplanted an older legion formation that had been used for the two preceding centuries. The legion was an extremely flexible tactical structure that enabled Roman soldiers to confront vastly superior numbers of enemy forces, absorbing the impact of enemy formations through the use of space and balanced placement of personnel. Due to the power of the legion, Rome conquered the Mediterranean world and large tracts of its hinterland in Europe, Asia, and Africa.
+
+A full legion was comprised of six thousand soldiers, organized into ten cohorts, each of six hundred men. The cohorts were divided into six centuries of one hundred men each (centurions). The legionnaires within each century were also stationed in three lines, the famous Roman triple battle line or tres acies, with an interval of approximately a meter between individuals. The second line was staggered by half a meter so as to fill the meter interval of the first line. The triple line arrangement was repeated as the ten cohorts were themselves stationed in three lines, with large intervals between them, as indicated on the chart. The third line, consisting of cohorts VIII, IX, and X, was considered a reserve that could be moved as needed to fill cohort intervals or extend the battle line in a flanking maneuver.
+
+References:
+
+H. M. D. Parker, The Roman Legions (Oxford: Oxford University Press, 1928).
+
+James S. Jeffers, The Greco-Roman World of the New Testament Era (Downers Grove, Ill.: InterVarsity, 1999), 171-78.
+
+12:["$","$L1b",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":691,"title":"Chart 5-2: Battle Arrangement of a Legion","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1c","intro_text":null,"page_number":49,"previous_chapter":"chart-5-1-roman-army-under-augustus","next_chapter":"chart-5-3-roman-armor-and-weapons","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-05-02.pdf","footnotes":null,"slug":"chart-5-2-battle-arrangement-of-a-legion","public":1,"wp_id":25705,"test":"690","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1d","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}] 1e:I[38175,[],"IconMark"] 16:{"metadata":[["$","title","0",{"children":"Chart 5-2: Battle Arrangement of a Legion - Charting the New Testament"}],["$","meta","1",{"name":"description","content":"Read this chapter from our online book collection."}],["$","meta","2",{"name":"keywords","content":"Chart 5-2: Battle Arrangement of a Legion, Charting the New Testament, online books, BYU Studies"}],["$","link","3",{"rel":"canonical","href":"https://byustudies.byu.edu/online-book/charting-the-new-testament/chart-5-2-battle-arrangement-of-a-legion"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","$L1e","5",{}]],"error":null,"digest":"$undefined"} 1a:"$16:metadata"

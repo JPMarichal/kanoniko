@@ -1,0 +1,29 @@
+[caption][/caption]
+
+Explanation:
+
+The New Testament was originally written in Greek. Those original Greek texts of the individual books of the New Testament were combined into Greek codices of the entire New Testament. From these books, a myriad of manuscripts were produced over the centuries, many of which have survived. Through a long and complicated process of transmission and translation more than fifteen centuries long, the King James Version was produced.
+
+The schematic in chart 18-6 depicts this process, including the translation or "rendering" from the original Greek into Old Latin translations, which became the basis of Jerome's Latin Vulgate translation. The latter remained the standard version of the New Testament in European countries for a millennium.
+
+The famous classical scholar Erasmus produced a critical Greek text during the Renaissance. Martin Luther used Erasmus's Greek edition to translate the New Testament into German, and Tyndale made use of the same for his English Bible. The King James Version followed very closely three previous English renderings which were based not only on Tyndale's earlier English Bible, but also directly on the Latin Vulgate.
+
+References:
+
+Philip W. Comfort, ed., The Origin of the Bible (Wheaton, Ill.: Tyndale House, 1992). Alister McGrath, In the Beginning: The Story of the King James Bible (London: Hodder & Stoughton, 2001).
+
+1f:T64f,
+
+Explanation:
+
+The New Testament was originally written in Greek. Those original Greek texts of the individual books of the New Testament were combined into Greek codices of the entire New Testament. From these books, a myriad of manuscripts were produced over the centuries, many of which have survived. Through a long and complicated process of transmission and translation more than fifteen centuries long, the King James Version was produced.
+
+The schematic in chart 18-6 depicts this process, including the translation or "rendering" from the original Greek into Old Latin translations, which became the basis of Jerome's Latin Vulgate translation. The latter remained the standard version of the New Testament in European countries for a millennium.
+
+The famous classical scholar Erasmus produced a critical Greek text during the Renaissance. Martin Luther used Erasmus's Greek edition to translate the New Testament into German, and Tyndale made use of the same for his English Bible. The King James Version followed very closely three previous English renderings which were based not only on Tyndale's earlier English Bible, but also directly on the Latin Vulgate.
+
+References:
+
+Philip W. Comfort, ed., The Origin of the Bible (Wheaton, Ill.: Tyndale House, 1992). Alister McGrath, In the Beginning: The Story of the King James Bible (London: Hodder & Stoughton, 2001).
+
+13:["$","$L1d",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":864,"title":"Chart 18-6: Renderings of the New Testament Leading up to the King James Version","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1e","intro_text":null,"page_number":222,"previous_chapter":"chart-18-5-the-canonization-of-the-books-of-the-new-testament","next_chapter":"chart-18-7-biblical-precreedal-statements-of-belief","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-18-06.pdf","footnotes":null,"slug":"chart-18-6-renderings-of-the-new-testament-leading-up-to-the-king-james-version","public":1,"wp_id":25968,"test":"863","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1f","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

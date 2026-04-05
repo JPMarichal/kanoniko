@@ -1,0 +1,37 @@
+[caption][/caption]
+
+Explanation:
+
+Roman law gave order to life in the world of the New Testament. Chart 4-7 lists some of the basic aspects of Roman law and suggests some of the ways they would have been pertinent to legal cases involving Jesus and Paul.
+
+The Roman civil and criminal laws would have applied only to Roman citizens, but the Ius Gentium would have regulated commercial affairs even in Judea or Galilee. Governors, but not lesser magistrates such as Pilate, would have held the broad legal powers of imperium.
+
+Roman officials could hear cases involving non-citizens under their extraordinary jurisdiction, cognitio extra ordinem. Cases could either be convened in the town of a person's domicile or in the locale where the infraction occurred. Rights of appeal were limited.
+
+References:
+
+John F. Hall, "Appeal to Caesar," ABD, 1:317.
+
+A. N. Sherwin-White, Roman Society and Roman Law in the New Testament (Oxford: Oxford University Press, 1978).
+
+Wolfgang Kunkel, An Introduction to Roman Legal and Constitutional History (Oxford: Clarendon, 1966).
+
+1e:T52e,
+
+Explanation:
+
+Roman law gave order to life in the world of the New Testament. Chart 4-7 lists some of the basic aspects of Roman law and suggests some of the ways they would have been pertinent to legal cases involving Jesus and Paul.
+
+The Roman civil and criminal laws would have applied only to Roman citizens, but the Ius Gentium would have regulated commercial affairs even in Judea or Galilee. Governors, but not lesser magistrates such as Pilate, would have held the broad legal powers of imperium.
+
+Roman officials could hear cases involving non-citizens under their extraordinary jurisdiction, cognitio extra ordinem. Cases could either be convened in the town of a person's domicile or in the locale where the infraction occurred. Rights of appeal were limited.
+
+References:
+
+John F. Hall, "Appeal to Caesar," ABD, 1:317.
+
+A. N. Sherwin-White, Roman Society and Roman Law in the New Testament (Oxford: Oxford University Press, 1978).
+
+Wolfgang Kunkel, An Introduction to Roman Legal and Constitutional History (Oxford: Clarendon, 1966).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":686,"title":"Chart 4-7: Roman Legal Procedure","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":44,"previous_chapter":"chart-4-6-rights-and-privileges-of-citizenship","next_chapter":"chart-4-8-roman-administrators-of-judea","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-04-07.pdf","footnotes":null,"slug":"chart-4-7-roman-legal-procedure","public":1,"wp_id":25701,"test":"685","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

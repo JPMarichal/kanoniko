@@ -1,0 +1,29 @@
+[caption][/caption]
+
+Explanation:
+
+Rome became involved in affairs in Judea at the request of Maccabean ambassadors who sought protection from one of Rome's enemies, Seleucid Syria. After Rome became the dominant power in the Near East, Romans were compelled to maintain peace in the region by settling frequent dynastic disputes and civil conflicts in Judea among the Maccabean heirs. After one of these sought to overthrow the legitimate High Priest by introducing Parthian armies into Roman territory, Herod came to power as Rome's loyal client, ruling as king over the Jews.
+
+Although Rome maintained no troops in Judea until A.D. 6, when the first Roman governor was accompanied by a six-hundred-man bodyguard, hatred of the Herods intensified resentment against Rome among fanatical elements of the Jewish populace, Zealots and Sicarii, who for over a century engaged in guerrilla and open warfare against both Roman and Jewish authorities until their final destruction and dispersion.
+
+Chart 5-4 provides information about each of the campaigns Rome was forced to undertake in Judea, either to settle dynastic civil conflict or to repress Zealot insurrection.
+
+References:
+
+William J. Hamblin, "The Roman Army in the First Century,"MWNT, 337-49.
+
+1e:T5b1,
+
+Explanation:
+
+Rome became involved in affairs in Judea at the request of Maccabean ambassadors who sought protection from one of Rome's enemies, Seleucid Syria. After Rome became the dominant power in the Near East, Romans were compelled to maintain peace in the region by settling frequent dynastic disputes and civil conflicts in Judea among the Maccabean heirs. After one of these sought to overthrow the legitimate High Priest by introducing Parthian armies into Roman territory, Herod came to power as Rome's loyal client, ruling as king over the Jews.
+
+Although Rome maintained no troops in Judea until A.D. 6, when the first Roman governor was accompanied by a six-hundred-man bodyguard, hatred of the Herods intensified resentment against Rome among fanatical elements of the Jewish populace, Zealots and Sicarii, who for over a century engaged in guerrilla and open warfare against both Roman and Jewish authorities until their final destruction and dispersion.
+
+Chart 5-4 provides information about each of the campaigns Rome was forced to undertake in Judea, either to settle dynastic civil conflict or to repress Zealot insurrection.
+
+References:
+
+William J. Hamblin, "The Roman Army in the First Century,"MWNT, 337-49.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":693,"title":"Chart 5-4: Roman Campaigns in Judea","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":51,"previous_chapter":"chart-5-3-roman-armor-and-weapons","next_chapter":"chart-5-5-distribution-of-legions-in-the-early-empire","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-05-04.pdf","footnotes":null,"slug":"chart-5-4-roman-campaigns-in-judea","public":1,"wp_id":25707,"test":"692","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+From Mattathias to Mariamme (the first wife of Herod the Great), chart 2-1 traces the genealogy of the Maccabean Dynasty. Mattathias revolted in 167 B.C. against the Greek Seleucid government, which ruled Judea at that time. He killed one of the king's representatives and a Jew who was willing to follow the king's decree requiring Jews to build pagan altars and to sacrifice swine. His sons carried on the fight for Jewish religious purity and independence, and Judas Maccabeus fell in battle. Simon's descendants remained in power for the ensuing century.
+
+From the Maccabeans came the Pharisees of New Testament times, together with strong sentiments encouraging independence, religious extremism, zealousness for the law, protecting the temple, and killing opponents. Precedents regarding the appointment and influence of the High Priest also trace back to Maccabean practices. The Feast of Dedication or Hanukkah, mentioned in John 10:22, celebrates the reclaiming and cleansing of the temple at the time of the Maccabean revolt.
+
+References:
+
+Richard Neitzel Holzapfel, "King Herod," Masada and the World of the New Testament, 45.
+
+Gaye Strathearn, "Who Were the Maccabees, and How Did They Influence Jewish History?" Ensign, December 1998, 49-53.
+
+Uriel Rappaport, "Maccabean Revolt," Anchor Bible Dictionary, 4:433-39.
+
+1e:T636,
+
+Explanation:
+
+From Mattathias to Mariamme (the first wife of Herod the Great), chart 2-1 traces the genealogy of the Maccabean Dynasty. Mattathias revolted in 167 B.C. against the Greek Seleucid government, which ruled Judea at that time. He killed one of the king's representatives and a Jew who was willing to follow the king's decree requiring Jews to build pagan altars and to sacrifice swine. His sons carried on the fight for Jewish religious purity and independence, and Judas Maccabeus fell in battle. Simon's descendants remained in power for the ensuing century.
+
+From the Maccabeans came the Pharisees of New Testament times, together with strong sentiments encouraging independence, religious extremism, zealousness for the law, protecting the temple, and killing opponents. Precedents regarding the appointment and influence of the High Priest also trace back to Maccabean practices. The Feast of Dedication or Hanukkah, mentioned in John 10:22, celebrates the reclaiming and cleansing of the temple at the time of the Maccabean revolt.
+
+References:
+
+Richard Neitzel Holzapfel, "King Herod," Masada and the World of the New Testament, 45.
+
+Gaye Strathearn, "Who Were the Maccabees, and How Did They Influence Jewish History?" Ensign, December 1998, 49-53.
+
+Uriel Rappaport, "Maccabean Revolt," Anchor Bible Dictionary, 4:433-39.
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":655,"title":"Chart 2-1: The Maccabean Dynasty","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":13,"previous_chapter":"chart-2-0-menorah-from-capernaum-synagogue-from-masada","next_chapter":"chart-2-2-the-herodian-dynasty","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-02-01.pdf","footnotes":null,"slug":"chart-2-1-the-maccabean-dynasty","public":1,"wp_id":25671,"test":"654","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]

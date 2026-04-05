@@ -1,0 +1,33 @@
+[caption][/caption]
+
+Explanation:
+
+In 48 B.C., Gaius Iulius Caesar, whom we call Julius Caesar, became sole ruler of the Roman world. For the next century Rome and its empire were ruled by Caesar's descendants and heirs. The family had long been known as one of the most prestigious Roman aristocratic clans, claiming descent from Iulus, son of Aeneas, Trojan prince and legendary founder of the Roman race.
+
+The Caesars belonged to the gens Iulia, or Julian clan. Their clan or first family name was, therefore, Iulius or Julius, and the branch of the clan they belonged to was the Caesar family whose cognomen was their second family name. The name Caesar later became a title for any supreme ruler of Rome, but originally it referred to only one very distinguished family.
+
+Julius Caesar's grandnephew and adopted son, Augustus, was the first Roman emperor. Other family members were emperors during the era of the New Testament and early Christianity, including Tiberius, Caligula, Claudius, and Nero. The stemma that follows depicts the family tree of the Caesars.
+
+References:
+
+John F. Hall, "The Saeculum Novum of Augustus," in Aufstieg und Niedergang der Romischen Welt (Berlin: De Gruyter, 1986), 16 no. 2, 2564-89.
+
+Ronald Syme, The Roman Revolution (Oxford: Oxford University Press, 1939).
+
+1e:T5f8,
+
+Explanation:
+
+In 48 B.C., Gaius Iulius Caesar, whom we call Julius Caesar, became sole ruler of the Roman world. For the next century Rome and its empire were ruled by Caesar's descendants and heirs. The family had long been known as one of the most prestigious Roman aristocratic clans, claiming descent from Iulus, son of Aeneas, Trojan prince and legendary founder of the Roman race.
+
+The Caesars belonged to the gens Iulia, or Julian clan. Their clan or first family name was, therefore, Iulius or Julius, and the branch of the clan they belonged to was the Caesar family whose cognomen was their second family name. The name Caesar later became a title for any supreme ruler of Rome, but originally it referred to only one very distinguished family.
+
+Julius Caesar's grandnephew and adopted son, Augustus, was the first Roman emperor. Other family members were emperors during the era of the New Testament and early Christianity, including Tiberius, Caligula, Claudius, and Nero. The stemma that follows depicts the family tree of the Caesars.
+
+References:
+
+John F. Hall, "The Saeculum Novum of Augustus," in Aufstieg und Niedergang der Romischen Welt (Berlin: De Gruyter, 1986), 16 no. 2, 2564-89.
+
+Ronald Syme, The Roman Revolution (Oxford: Oxford University Press, 1939).
+
+12:["$","$L1c",null,{"book":{"id":65,"title":"Charting the New Testament","subtitle":null,"image_id":"website-files-bucket/books/book_cover_images/charting-nt.png","excerpt":null,"book_series_id":19,"series_ordering":1,"ebook_link_kindle":null,"ebook_link_deseret":null,"ebook_link_nook":null,"free_book":0,"pdf_id":null,"footnotes":null,"public":1,"slug":"charting-the-new-testament","wp_id":null,"product_link":null,"author_id":null},"chapter":{"id":681,"title":"Chart 4-1: Family of Caesar","subtitle":null,"online_book_id":65,"excerpt":null,"content":"$1d","intro_text":null,"page_number":39,"previous_chapter":"section-4-roman-administration","next_chapter":"chart-4-2-roman-emperors","pdf_id":"https://website-files-bucket.s3.us-west-2.amazonaws.com/books/chapter_pdf/BYUS-CNT-04-01.pdf","footnotes":null,"slug":"chart-4-1-family-of-caesar","public":1,"wp_id":25695,"test":"680","podcast_file_id":null,"section_heading":null,"chapter_author":null},"topics":[],"scriptures":[],"authors":[],"processedContent":{"html":"$1e","headings":[{"id":"heading-0","textContent":"Explanation:","tagName":"H2"},{"id":"heading-1","textContent":"References:","tagName":"H2"}]}}]
