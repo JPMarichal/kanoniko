@@ -1,5 +1,6 @@
 # Alejandría Project Memory Index
 
+- [reference_external_scrapers.md](reference_external_scrapers.md) — External source scrapers: hierarchy (Church>RSC>BYU Studies>MTP>Gutenberg>Archive.org), scripts, skills, site details, backlog ~250+ items
 - [project_alejandria.md](project_alejandria.md) — Project vision: independent containerized text library with textual, semantic, and KG search over LDS church literature
 - [project_chat_vision.md](project_chat_vision.md) — Final goal: specialized chat client for scripture/gospel study, RAG over the knowledge engine
 - [phase5_complete.md](phase5_complete.md) — Phase 5 fully closed: entity profiles, disambiguation, volume-diverse passages, staleness, stopword handling, RAG enrichment, 18 docs

@@ -1,35 +1,67 @@
 ---
 name: book-discovery
-description: Discover and prioritize public-domain books for the Alejandria corpus. MTP-first workflow — check Mormon Texts Project catalog, then Gutenberg, then archive.org OCR.
+description: Discover and prioritize books for the Alejandria corpus. Source hierarchy — Church site > RSC BYU > BYU Studies > MTP/Gutenberg > CCEL > Archive.org.
 user_invocable: true
 ---
 
-# Book Discovery Workflow (MTP-First)
+# Book Discovery Workflow
 
-Use this workflow when adding public-domain books (pre-1930, LDS authors) to the corpus.
-The key insight: **Mormon Texts Project (MTP) is the upstream producer** of most LDS texts
-on Gutenberg. Checking MTP first reveals what's available as clean transcriptions, avoiding
-noisy archive.org OCR.
+Use this workflow when adding books to the corpus. Check sources in
+priority order — higher-quality sources produce cleaner text with richer
+metadata.
 
-## Step 1 — MTP Catalog Check
+## Source Hierarchy (always check in this order)
 
-Search the Mormon Texts Project catalog to see what's available as volunteer-transcribed text.
+| Priority | Source | Script | Quality |
+|----------|--------|--------|---------|
+| 1 | **Church site** (churchofjesuschrist.org) | `download_manual.py` etc. | Best — API, bilingual |
+| 2 | **RSC BYU** (rsc.byu.edu) | `download_rsc.py` | Very good — HTML, footnotes, per-chapter author |
+| 3 | **BYU Studies** (byustudies.byu.edu) | `download_byustudies.py` | Good — RSC payload, 65 books |
+| 4 | **MTP / Gutenberg** | `download_gutenberg.py` | Good — clean text, no metadata |
+| 5 | **CCEL** (ccel.org) | ad-hoc | Good — XML structured |
+| 6 | **Archive.org** | case-by-case | Variable — OCR, last resort |
+
+## Step 1 — Church Site Check
+
+Is the book on the official Church site? (manuals, conference, scriptures)
+
+```bash
+# Check if API serves it
+curl -s "https://www.churchofjesuschrist.org/study/api/v3/language-pages/type/content?lang=eng&uri=/manual/{slug}" | head -50
+```
+
+If yes → use appropriate `download_*.py` script. Stop here.
+
+## Step 2 — RSC BYU Check
+
+Is it an academic/scholarly LDS book? Check RSC.
+
+```bash
+REQUESTS_CA_BUNDLE=docker/ca-certificates.crt python scripts/download_rsc.py --list-books | grep -i "{keyword}"
+REQUESTS_CA_BUNDLE=docker/ca-certificates.crt python scripts/download_rsc.py --list-books --category 7  # Book of Mormon
+```
+
+~215 online books. If found → `/rsc-byu` skill.
+
+## Step 3 — BYU Studies Check
+
+Historical texts, NT Commentary, HC volumes?
+
+```bash
+REQUESTS_CA_BUNDLE=docker/ca-certificates.crt python scripts/download_byustudies.py --list-books | grep -i "{keyword}"
+```
+
+65 online books. If found → `/byu-studies` skill.
+
+## Step 4 — MTP / Gutenberg Check
+
+Public-domain (pre-1930) LDS texts?
+
+**MTP is the upstream producer** of most LDS texts on Gutenberg. Checking
+MTP first reveals clean human transcriptions (no OCR artifacts).
 
 ```
-Web search: site:mormontext.org "{author name}"
-Web search: site:mormontext.org "{book title}"
-```
-
-MTP texts are clean human transcriptions — no OCR artifacts. Most are also uploaded to
-Project Gutenberg with the same structure.
-
-**Output:** List of titles available on MTP, with Gutenberg IDs if linked.
-
-## Step 2 — Gutenberg Cross-Reference
-
-For each MTP title, find the Gutenberg ID:
-
-```
+Web search: site:mormontextsproject.org "{book title}"
 Web search: site:gutenberg.org "{book title}" "{author}"
 ```
 
@@ -38,55 +70,26 @@ Or use the Gutendex API:
 curl "https://gutendex.com/books/?search=roberts+new+witness"
 ```
 
-**Output:** Map of title -> Gutenberg ID. Books found here go to the Gutenberg download
-pipeline (`/gutenberg` skill).
+If found → `/gutenberg` skill.
 
-## Step 3 — Remaining Books Assessment
+## Step 5 — CCEL / Archive.org (last resort)
 
-Books NOT on MTP/Gutenberg need alternative sources. Check in order:
+- **CCEL:** Bible dictionaries, patristic texts (ThML/XML format)
+- **Archive.org:** OCR scans — variable quality. Verify before ingesting.
 
-1. **Archive.org** — DjVuTXT format (OCR, needs cleanup)
-   ```bash
-   python scripts/download_archive_org.py --list-books
-   # Or search: https://archive.org/search?query=creator%3A%22{author}%22
-   ```
-2. **BYU WordCruncher** — CC BY 4.0 but locked in ETBU binary format (last resort)
-3. **Church Historians Press** — some titles freely available online
-
-**Output:** Source assignment for each remaining title + quality notes.
-
-## Step 4 — Batch Planning
+## Step 6 — Batch Planning
 
 Group books by source and download method:
 
-| Source | Script | Quality | Priority |
-|--------|--------|---------|----------|
-| Gutenberg (via MTP) | `download_gutenberg.py` | Clean | First |
-| Archive.org | `download_archive_org.py` | OCR, needs cleanup | Second |
-| Manual transcription | — | Best but slow | Last resort |
+| Source | Script | Gotchas |
+|--------|--------|---------|
+| Church site | `download_manual.py` | API uri != URL path |
+| RSC BYU | `download_rsc.py` | Multi-author detection automatic |
+| BYU Studies | `download_byustudies.py` | RSC payload may be empty → HTML fallback |
+| Gutenberg | `download_gutenberg.py` | Chapter patterns vary wildly |
+| Archive.org | ad-hoc | Always verify OCR quality |
 
-For each book, note:
-- Chapter structure (regular chapters vs essay collections vs sections-per-part)
-- Special flags needed: `sequential_numbering`, `_WORD_TO_NUM`, `has_toc`
-- Whether the book needs a custom `chapter_pattern`
-
-## Step 5 — Configure and Download
-
-### Gutenberg books
-Add `BOOK_CONFIGS` entry to `scripts/download_gutenberg.py`, then:
-```bash
-python scripts/download_gutenberg.py --book-id {id} --dry-run
-python scripts/download_gutenberg.py --book-id {id}
-```
-
-### Archive.org books
-Add item config to `scripts/download_archive_org.py`, then:
-```bash
-python scripts/download_archive_org.py --item-id {id} --dry-run
-python scripts/download_archive_org.py --item-id {id}
-```
-
-## Step 6 — Verify and Commit
+## Step 7 — Verify and Commit
 
 1. Spot-check first and last chapters for content quality
 2. Check for spurious chapters (embedded text matching chapter patterns)
@@ -95,28 +98,22 @@ python scripts/download_archive_org.py --item-id {id}
 
 ## Known Gotchas
 
-- **Essay/article collections** (Defense of the Faith, Scrap Book of Mormon Literature)
-  don't have regular chapter structure — need custom splitting logic per book
-- **Sequential numbering**: Books where section numbers restart per Part need
-  `sequential_numbering: True` to avoid filename collisions
-- **Word-spelled chapters**: Some books use "CHAPTER ONE" instead of "CHAPTER I" —
-  use `_WORD_TO_NUM` support in `chapter_sort_key()`
-- **TOC duplication**: Books with `has_toc: True` may have mixed casing between TOC
-  and body chapter markers — test with `--dry-run` first
-- **NW v3 false chapter**: Embedded Book of Mormon text within a chapter can match
-  `CHAPTER I` pattern, creating spurious files — verify after download
-- **HC v2 mixed casing**: History of the Church volumes can have `Chapter` (TOC)
-  vs `CHAPTER` (body) — `sequential_numbering` handles this
+- **MTP proxy block:** mormontextsproject.org is blocked by Solera proxy. Use WebSearch instead of WebFetch.
+- **Essay/article collections:** Need custom splitting logic per book.
+- **Sequential numbering:** Books where section numbers restart per Part need `sequential_numbering: True`.
+- **RSC BYU purchase-only:** Recent books show "not been released for online reading" — script auto-skips.
+- **BYU Studies RSC empty:** Some chapters return empty RSC payload — fallback to HTML scraping.
+- **HC volumes on both BYU Studies and Gutenberg:** BYU Studies version is better (cleaner, with metadata). Prefer it.
 
 ## Example Session
 
 ```
-User: "Get B.H. Roberts' books"
+User: "Get the BYU NT Commentary"
 
-1. Search MTP for Roberts → find 15+ titles with Gutenberg IDs
-2. Cross-reference Gutenberg → confirm IDs, note which need special config
-3. Remaining (CHC 6 vols) → only on archive.org/WordCruncher
-4. Batch 1: 8 easy Gutenberg books → download, verify, commit
-5. Batch 2: 12 more Gutenberg (HC, remaining Seventy's) → download, commit
-6. Batch 3: archive.org OCR for CHC (future, needs cleanup pipeline)
+1. Church site? No — these are BYU Studies publications
+2. RSC BYU? No — different publisher
+3. BYU Studies? YES — 4 commentary + 14 rendition volumes
+4. Download: download_byustudies.py --book the-testimony-of-luke
+5. Repeat for remaining volumes
+6. Verify, commit
 ```

@@ -43,6 +43,17 @@ All scripts live in `scripts/` and share common infrastructure from `scripts/lib
 | `download_easter_study_plan.py` | Easter / Holy Week Study Plan | API | Yes | ~36 |
 | `download_music.py` | Hymns, children's songs, youth, hymn helps | API | Yes (hymn-helps: EN only) | ~1,100 |
 
+### External source scripts
+
+| Script | Source | Strategy | ~Books | ~Files |
+|--------|--------|----------|--------|--------|
+| `download_gutenberg.py` | Project Gutenberg | Plain text + chapter splitting | 62 configured | varies |
+| `download_rsc.py` | RSC BYU (rsc.byu.edu) | Drupal HTML, BeautifulSoup | ~215 online | varies |
+| `download_byustudies.py` | BYU Studies (byustudies.byu.edu) | Next.js RSC payload + HTML fallback | 65 online | varies |
+
+**Source hierarchy:** Church site > RSC BYU > BYU Studies > MTP/Gutenberg > CCEL > Archive.org.
+See `/book-discovery` skill for the full workflow.
+
 ## Shared module: `scripts/lib/church_scraper.py`
 
 ### Classes
