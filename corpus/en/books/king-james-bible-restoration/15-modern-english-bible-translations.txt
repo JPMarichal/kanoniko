@@ -1,0 +1,335 @@
+The work of translation from one language to another is always fraught with difficulties—philological, contextual, and even procedural difficulties. If a word has numerous meanings, as most do, how does the translator decide which one to use? Should the translation reflect a word-for-word translation (i.e., formal equivalence), or should it reflect the idiomatic language of the receptor language (i.e., functional/dynamic equivalence)? The major benefit of a formal-equivalence approach is that the translation maintains a feel for the language and format of the original text. The construction of Hebrew and Greek words and sentences are maintained, as much as possible, in the translation. But one only needs to use a basic computer translation program to realize that this approach can sometimes lead to a stilted translation. A functional-equivalence approach, on the other hand, is more concerned with how the translation flows in the receptor language than with how it was written in the original language. It is more concerned with what the original text meant than with the specifics of what it said. This approach, in many ways, makes for a smoother and more elegant translation, but it also carries the danger of missing nuances from the original text. The reality is that translation is a very complex process and is, to an extent, a mixture of both techniques. [[1]] Eugene Nida argues, “The competent translator actually goes through a seemingly roundabout process of analysis, transfer, and restructuring. That is to say, the translator first analyses the message of the SOURCE language into its simplest and structurally clearest forms, transfers it at this level, and then restructures it to the level in the RECEPTOR language that is most appropriate for the audience which he intends to reach.” [[2]] Further, a translator must grapple with what David Tuggy refers to as the “container metaphor.” [[3]] This is “the idea that words and other linguistic structures are containers for meaning,” which can carry multiple definitional possibilities with differing and complex nuances attached to them. “Translation thus requires a process of deducing and reducing meaning from relative chaos.” [[4]]
+
+These translation difficulties are heightened when the text being translated represents the word of God, because now we must also consider theological issues. For example, how does one determine how to translate the Hebrew word rua h. or the Greek word pneuma in the Bible? Should they be translated as “wind,” “breath,” “spirit,” or “Spirit”? All are valid, but any one of these would give a different nuance to the translation. [[5]] How one decides says a lot about the assumptions a translator brings to the text. In addition, as David Daniell has noted, “The world is divided into those who think that sacred Scripture should always be elevated above the common run—is not, indeed, sacred without some air of religiosity, of being remote from real life, with a whiff of the antiquarian: and on the other side those who say that the point of the Incarnation was that God became man, low experiences and all, and if the Greek is ordinary Greek, then ordinary English words are essential.” [[6]]
+
+In this chapter I will compare the King James Version of the Bible with modern translations. This is a mammoth task, so I have narrowed my focus to include only recent English translations, and even there I will restrict my comments primarily to five main English texts: the New Revised Standard Version (1989), the New International Version (1984), the New Jerusalem Bible (1985), the Contemporary English Bible (1995), and the English Standard Version (2001). I have chosen these texts because each was commissioned by a different group, and each had a different approach to its specific translation. In addition, each of these versions was commissioned to some extent to replace the King James Bible as the common English Bible, to make the Bible more accessible to people, and, from the perspective of the committees, to provide a more accurate Bible. But such is the influence of the King James Bible that none of them have been able to completely divorce themselves from.
+
+The King James Bible and Its Contributions
+
+David Norton has noted, “The surviving evidence about the making of the KJB [King James Bible] is patchy and tantalising.” [[7]] As the companies of translators began their work, it soon became evident that although King James called for “a translation [to] be made of the whole Bible, as consonant as can be to the original Hebrew and Greek,” [[8]] the result was a revision, rather than a new translation. [[9]] In accordance with Bishop Bancroft’s rule 1, which called for the Bishops’ Bible to be followed, “forty unbound copies of the 1602 Bishops’ Bible [were prepared] for the translators.” [[10]] Unfortunately the Bishops’ Bible, as Daniell notes, “was, and is, not loved. Where it reprints Geneva it is acceptable, but much of the original work is incompetent, both in its scholarship and its verbosity. It was a turning-back by the Establishment in the direction of those clergy who still believed that the true Bible was the Latin version.” [[11]] However, Bancroft’s rule 13 allowed that other English translations such as Tyndale’s, Matthew’s, Coverdale’s, Whitchurch’s, and the Geneva could be used if they agreed better with the Hebrew and Greek texts than the Bishops’ Bible.
+
+This is not to say, however, that the companies did not work with original-language texts. It is clear from the account of translation that Samuel Ward, one of the translators, gave to Synod of Dort in 1618 that they did. The account includes the following “rules”: “Where a Hebrew or Greek word admits two meanings of a suitable kind, the one was to be expressed in the text, the other in the margin. The same to be done where a different reading was found in good copies. . . . The more difficult Hebraisms and Graecisms were consigned to the margin.” [[12]] Nevertheless, it was the Bishops’ Bible that provided the foundation that was then adjusted according the Hebrew and Greek texts or other modern translations.
+
+Of course, the work of the KJV translators did not emerge from a vacuum. Rather, Harry M. Orlinski and Robert G. Bratcher place the KJV in what they call the Third Great Age of Bible Translation. They characterize this period as “essentially Protestant in origin.” Although it included a number of European languages, they view it as being “overwhelmingly English: Tyndale and such immediate revisions of his Bible as the Coverdale, Great, Geneva, Bishops’, and King James Bibles” and some of the modern English Bibles. “The main centers of activity were located in those regions where the (essentially Protestant) capitalist system was developing at the expense of the old (essentially Catholic) feudalist establishments; and the period of activity the half-millennium between the beginning of the sixteenth century and the first half of the twentieth, constituting—not at all merely coincidentally—the almost five centuries during which Great Britain conquered and dominated so much of the world that ‘the sun never set on the British Empire.’” [[13]]
+
+As the British Empire expanded militarily and culturally, the KJV became an important religious part of that expansion, and although its impact perhaps cannot be measured, it cannot be underestimated. Neal MacGregor, director of the British Museum, has said that the KJV has been “used by churches of the whole English speaking world even though they have different understandings of the faith. It is, I think, one of the most unifying texts probably that has ever been made. . . . For several hundred years it was the one shared text of English speakers around the whole world, and it held that world together, I think, in a way that no other text could have and indeed that very few texts have done anywhere.” [[14]] In fact, one Jewish scholar, Leonard J. Greenspoon, has written, “In my opinion, a copy of the King James Version belongs in every household. And this holds true not only for Protestants, but also for Roman Catholics and Orthodox Christians, Jews, adherents of other religions, and believers in none. The KJV is not just an English classic; it is the English classic, and everyone should have easy access to its elegant diction and cadence. With its frequent ‘and . . . and . . . and’ structure (as in ‘And God saw the light . . . and God called the light Day’) and such expressions as ‘It came to pass,’ the KJV replicates in English many of the characteristic features of biblical Hebrew, thereby qualifying it as a literal translation.” [[15]]
+
+Without doubt, one of the most common areas of praise for the King James Version is its linguistic music—words and phrases that have become embedded into the English language, religious psyche, and sacred music of English-speaking Christians: “The Lord is my shepherd; I shall not want” (Psalm 23:1). “For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace” (Isaiah 9:6). “Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted. But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed” (Isaiah 53:4–5). “And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room for them in the inn. And there were in the same country shepherds abiding in the field, keeping watch over their flock by night. And, lo, the angel of the Lord came upon them, and the glory of the Lord shone round about them: and they were sore afraid. And the angel said unto them, Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord” (Luke 2:7–11). “In the beginning was the Word, and the Word was with God, and the Word was God” (John 1:1). “Who shall separate us from the love of Christ?” (Romans 8:35). “Charity never faileth” (1 Corinthians 13:8).
+
+Although much work has gone on in recent years to identify the dependence of the King James scholars on the work of earlier English Bibles, particularly that of Tyndale, [[16]] the important thing to remember is that for the vast majority of English-speaking Christians, this language became embedded into their souls because they read the King James Bible, not because they read the versions of Tyndale, Coverdale, Geneva, or the Bishops. But the modern trend in both academic and lay circles during the past century has been to move away from the KJV.
+
+Modern Translations
+
+The twentieth century saw an explosion of new English translations of the Bible. It has been calculated that, if we include “whole Bibles, New Testaments and some single books like the Psalms, the twentieth century saw about 1,500 new translations from Greek and Hebrew into English.” [[17]] While it is impossible to discuss all of these versions here, let me make a few brief comments about the translation methodologies of the five that we will examine. Each of the modern versions that we will discuss has some common elements that differentiate it from the KJV. For example, the prefaces in each of the translations state that they have been translated from the original Hebrew, Aramaic, and Greek texts, although, like the King James Bible, some of them, such as the ESV, state frankly that they are also influenced by earlier English translations, including the KJV. All of the new translations have typeset their text to differentiate between narrative and poetic passages. In addition, all of the modern versions use modern language in their translations, either implicitly or explicitly reacting to what they view to be the archaic language of the KJV, although to varying degrees. [[18]]
+
+New Revised Standard Version (NRSV)
+
+The New Revised Standard Version [[19]] was published in 1989 by the National Council of Churches, which, according to its website, “encompass[es] a wide spectrum of American Christianity—representing traditions as varied as Protestant, Orthodox, Evangelical, Anglican, and African-American, historic peace churches and ethnic-language immigrant churches.” [[20]] The translation committee consisted of “scholars affiliated with various Protestant denominations as well as several Roman Catholic members, an Eastern Orthodox member, and a Jewish member who serves in the OT section.” [[21]] Bruce M. Metzger, on behalf of the committee, characterized the NRSV as “yet another step in the long, continual process of making the Bible available in the form of the English language that is most widely current in our day. . . . In the course of time, the King James Version came to be regarded as the ‘Authorized Version.’ With good reason it has been termed ‘the noblest monument of English prose,’ and it has entered, as no other book has, into the making of the personal character and the public institutions of the English-speaking peoples. We owe to it an incalculable debt.” Metzger continues, “Yet the King James Version has serious defects,” and emphasizes the discovery of new texts. [[22]]
+
+The NRSV is an authorized revision of the Revised Standard Version, which in the 1950s evoked considerable criticism from conservative Christians, including President J. Reuben Clark Jr., [[23]] because of some of its translation decisions. Two of the most mentioned ones, which were followed by the NRSV, were its translations of Isaiah 7:14 and John 3:16. Isaiah 7:14 reads, “Therefore the Lord himself will give you a sign. Look, the young woman is with child and shall bear a son, and shall name him Immanuel.” The translation of “young woman” instead of “virgin” was a linguistic, not a theological, decision. It translates the Hebrew rather than the Septuagint (a third-century-BC Greek version of the Old Testament). It was the Septuagint reading that was used in Matthew 1:22–23, and the KJV translators chose to follow it rather than the Hebrew. Unlike the RSV, however, the NRSV does include a footnote: “Gk the virgin.” John 3:16 reads, “For God so loved the world that he gave his only Son.” Thus, instead of “only begotten Son” (KJV), it now reads, “only Son.” In this instance, the NRSV does not include a footnote. This translation is also found in the New Jerusalem Bible, the English Standard Version, and the Contemporary English Version. The difficulty here, although it carries theological connotations, is primarily linguistic. The Greek word translated as “only begotten Son” in the KJV is monogeneswhich means “only (one of its kind), unique.” [[24]] Even the KJV sometimes translates monogenesas “only” (see Luke 7:12; 8:42; 9:38). In fact, it is primarily in the Johannine writings where monogenesdescribes Christ that the KJV translates it as “only begotten” (see John 1:14, 18; 3:16, 18; 1 John 4:9). Dale Moody shows that the Old Latin manuscripts translated monogenesin the Greek texts as unicus, “only.” It was Jerome, in the Latin Vulgate, who revised the Johannine Christological passages to translate monogenesas unigenitus, “only begotten.” [[25]]
+
+On the functional/formal-equivalence continuum, the NRSV, like the KJV, leans towards the formal equivalence pole. I think that it is fair to say that the NRSV is the English translation of choice in the academic world. [[26]]
+
+New International Version (NIV)
+
+The New International Version of the Bible [[27]] is an evangelical translation, which was published in 1978 by the Committee on Bible Translation. This committee was formed from the impetus of two groups: the Christian Reformed Church and the National Association of Evangelicals. [[28]] Scholars from the United States, Great Britain, Canada, Australia, and New Zealand worked on the project—hence the name. The translators included members from a wide selection of Christian denominations: “Anglican, Assemblies of God, Baptist, Brethren, Christian Reformed, Church of Christ, Evangelical Free, Lutheran, Mennonite, Methodist, Nazarene, Presbyterian, Wesleyan.” [[29]] A significant difference between the translators of the NRSV and the NIV is represented by the constitution of the Committee on Bible Translation (article 7, section 1), which states: “All those engaged by the Committee as translators or editors shall be required to affirm the following article of faith: ‘The Bible alone, and the Bible in its entirety, is the Word of God written, and is therefore inerrant in the autographs’; or the statement in the Westminster Confession, the Belgic Confession, the New Hampshire Confession, or the creedal basis of the National Association of Evangelicals; or some other comparable statement.” [[30]]
+
+Each biblical book was assigned to a team of scholars whose work went through three revisions. In addition, the translations were submitted to style consultants at least twice. The NIV translators maintained a certain KJV feel. Their translation of the Psalm 23 is very familiar; Isaiah 7:14 has “virgin” rather than “young woman.” It translates John 3:16 as “one and only Son,” with a footnote that says, “Or his only begotten Son.” But it differs from the KJV because it pursues a mediating position in the functional/formal equivalence continuum. [[31]] Its preface states, while the translators “weighed the significance of the lexical and grammatical details of Hebrew, Aramaic and Greek texts, . . . they have striven for more than a word-for-word translation. Because thought patterns and syntax differ from language to language, faithful communication of the meaning of the writers of the Bible demands frequent modifications in sentence structure and constant regard for the contextual meanings of words.” [[32]]
+
+New Jerusalem Bible (NJB)
+
+The New Jerusalem Bible [[33]] is a Catholic translation published in 1985 that updates the 1966 Jerusalem Bible. The 1966 edition was heavily influenced by an earlier French edition, Bible de JŽrusalem (1956), which received praise because it was the first Catholic edition translated from Hebrew and Greek texts rather than the traditional Latin Vulgate and because it included valuable introductions to the biblical texts. The Jerusalem Bible was frequently criticized for following the French translation more closely than the originals. In 1973 a new French edition was published which reworked the introductions and notes to reflect “linguistic, archaeological and theological advances” in biblical scholarship. [[34]] These changes in the French edition led to a new English edition. The NJB responded to the criticisms of its predecessor by translating from the original languages, although it is still reliant to some degree on the French translation.
+
+Four important translation decisions in the NJB are as follows. First, “paraphrase has been avoided more rigorously than in the first edition,” [[35]] and thus it favors a formal-equivalence approach to translation. Second, unlike other modern translations, it renders the tetragrammaton (Hebrew yhwh) as “Yahweh”, rather than “Lord”. For example, in Exodus 3:15, when Moses is called to deliver the Israelites from Egypt, God said, “You are to tell the Israelites, ‘Yahweh, the God of your ancestors, the God of Abraham, the God of Isaac and the God of Jacob, has sent me to you.’” Additionally, it transliterates, rather than translates, some Hebrew words such as “sabaoth.” In 1 Samuel 1:3, Elkenah, the prophet Samuel’s father, went up yearly “to worship, and to sacrifice to Yahweh Sabaoth at Shiloh.” The decision reflects the difficulty in pinpointing the exact nuance of the Hebrew word. The KJV, the NRSV, and the ESV translate it as “Lord of hosts,” while the NIV uses “Lord Almighty,” and the CEV uses “Lord All-Powerful.” Third, “key terms in the originals, especially those theological key concepts on which there is a major theological note, have been rendered throughout (with very few exceptions) by the same English word, instead of by the variety of words used in the first edition.” [[36]] Fourth, the NJB, in accordance with Catholic practice, includes books in the Old Testament that are not generally found in Protestant translations (except occasionally as a separate section, usually between the Old and New Testaments). These books, known as the Apocrypha, include Tobit, Judith, 1 and 2 Maccabees, Wisdom, Ecclesiasticus, Baruch (including the Letter of Jeremiah), and some additions to the texts of Esther and Daniel. They were included in early manuscripts of the Septuagint but were not included in the Hebrew Bible. Although they were included in the 1611 KJV, they were generally omitted from printings by the mid-nineteenth century. Some modern translations such as the NRSV and ESV have special editions that also include the Apocrypha as a separate section either between the Testaments (NRSV) or at the end (ESV).
+
+Although the NJB is a Catholic edition of the Bible, the translation reflects an ecumenical approach, making a concerted effort to avoid Catholic dogma in both the translation and its notes. [[37]]
+
+Contemporary English Version (CEV)
+
+The Contemporary English Version [[38]] was published in 1995 by the American Bible Society. It is very different from the other translations mentioned thus far. It emphasizes a functional equivalence approach to translation and is particularly sensitive to how the text is heard as well as how it reads. The preface states, “Today more people hear the Bible read aloud than read it for themselves! And statistics released by the National Center for Education indicate that ‘almost half of U.S. adults have very limited reading and writing skills.’ If this is the case, a contemporary translation must be a text that an inexperienced reader can read aloud without stumbling, that someone unfamiliar with traditional biblical terminology can hear without misunderstanding, and that everyone can listen to with enjoyment because the style is lucid and lyrical.” It is des
+
+igned for a fourth-grade reading level. Again, the preface states, “Each English translation is, in its own right, the Word of God, yet each translation serves to meet the needs of a different audience. In this regard, the Contemporary English Version should be considered a companion—the mission arm—of traditional translations, because it takes seriously the words of the apostle Paul that ‘faith comes by hearing.’” [[39]]
+
+A positive example from this translation philosophy is how well Psalm 23 reads when compared with the version in the KJV.
+
+KJV, following Tyndale and Geneva
+
+CEV
+
+The Lord is my shepherd; I shall not want.
+
+You, Lord, are my shepherd.
+
+I will never be in need
+
+He maketh me to lie down in green pastures:
+
+he leadeth me beside the still waters.
+
+You let me rest in fields of green grass.
+
+You lead me to streams of peaceful water,
+
+He restoreth my soul:
+
+he leadeth me in the paths of righteousness for his name’s sake.
+
+and you refresh my life.
+
+You are true to your name, and you lead me along the right paths.
+
+Yea, though I walk through the valley of the shadow of death, I will fear no evil:
+
+for thou art with me; thy rod and thy staff they comfort me.
+
+I may walk through valleys as dark as death, but I won’t be afraid.
+
+You are with me, and your shepherd’s rod makes me feel safe.
+
+Thou preparest a table before me in the presence of mine enemies:
+
+thou anointest my head with oil; my cup runneth over.
+
+You treat me to a feast, while my enemies watch.
+
+You honor me as your guest, and you fill my cup until it overflows.
+
+Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the Lord for ever.Your kindness and love will always be with me each day of my life, and I will live forever in your house, Lord.
+
+On the other hand, its functional equivalence approach eliminates some important theological terms, such as atonement, covenant, justification, redemption, and repentance. For example, note the following KJV passages in comparison with the CEV:
+
+Citation
+
+KJV
+
+CEV
+
+atonement in Romans 5:11And not only so, but we also joy in God through our Lord Jesus Christ, by whom we have now received the atonement.And in addition to everything else, we are happy because God sent our Lord Jesus Christ to make peace with us.
+
+covenant in Genesis 15:18In the same day the Lord made a covenant with Abram . . .At that time the Lord made an agreement with Abram.
+
+justified in James 2:21Was not Abraham our father justified by works, when he had offered Isaac his son upon the altar?Well, our ancestor Abraham pleased God by putting his son Isaac on the altar to sacrifice him.
+
+grace and redeemed in Romans 3:24Being justified freely by his grace through the redemption that is in Christ Jesus:But God treats us much better than we deserve, and because of Christ Jesus, he freely accepts us and sets us free from our sins.
+
+English Standard Version (ESV)
+
+The English Standard Version, [[40]] is an increasingly popular evangelical translation, published in 2001 by Crossway Books, little has been published on the details of how this version emerged. However, the finished product has been described as “a conservative alternative to the NRSV.” [[41]] Compared with the NIV, it is closer to the formal-equivalence end of the spectrum. The preface reads, “The ESV is an ‘essentially literal’ translation that seeks as far as possible to capture the precise wording of the original text and the personal style of each Bible writer. As such, its emphasis is on ‘word-for-word’ correspondence, at the same time taking into account differences of grammar, syntax, and idiom between current literary English and the original languages.” Although it does recognize that any translation is “at many points a trade-off between literal precision and readability, between ‘formal equivalence’ in expression and ‘functional equivalence’ in communication, and the ESV is no exception.” [[42]]
+
+Even though this translation is based on the original Hebrew and Greek texts, it is also heavily dependent upon the RSV for its English translation. [[43]] It has been suggested that only 6 percent of the RSV has been changed in the ESV. [[44]] Describing those changes, the preface reads, “Archaic language has been brought to current usage and significant corrections have been made in the translation of key texts.” [[45]] Unfortunately, the preface does not give any specific examples of what the “key texts” are, but one would be Isaiah 7:14, where the ESV uses “virgin” rather than the RSV’s “young woman.” Most of the major criticisms for this version focus on the more literal approach to the translation process.
+
+Contributions of Modern Translations
+
+Elder John K. Carmack taught, “We clearly prefer the King James Version of the New Testament, but we are not adamant about that. Any responsibly prepared version could be used and might be helpful to us.” [[46]] While the King James Bible has an important legacy and remains the preferred choice of English-speaking Latter-day Saints, there are also many ways that modern translations can further our understanding of the Bible. Here I will briefly discuss just three: further development of our understanding of the biblical languages; discovery of texts that predate those used by the companies of King James scholars; and further advancement in understanding of text criticism. I will then conclude with a short discussion of the influence of theology upon translations.
+
+Understanding of Biblical Languages
+
+Although those chosen to participate in the translation for the King James Bible were some of the best and brightest Greek and Hebrew scholars from Cambridge and Oxford, since the early seventeenth century there have been some major advances in our understanding of the ancient biblical languages. These advances can be reflected in modern Bible translations. For example, although the Greek scholars were well trained in the classical Greek of Thucydides and Plato, the Greek of the New Testament was very different. It wasn’t until the discovery of papyrus documents in the late nineteenth century that scholars began to understand that New Testament Greek was a form of Koine Greek, the conversational Greek used from about 300 BC to AD 300. In addition, the seminal work of Robert Lowth on Hebrew poetry would not be published for more than a century after the KJV. Lowth was the first modern Bible scholar to recognize that Hebrew poetry was based on parallelism. In modern Bibles, the poetic passages are typeset so that parallelisms and chiasmus (an inverted form of parallelism) are immediately distinguished from narrative texts. Even the most casual reader, without any background in the specifics of Hebrew poetry, can thus recognize that they can’t read the poetic sections in the same way that they read the narrative passages in Genesis, Joshua, 1 Kings, or elsewhere.
+
+In addition, it has been estimated that the vocabulary of the Hebrew Bible consists of about eight thousand words, with 1500 hapax legomena, words that are only found once in the text. [[47]] How do we know what those 1500 words mean? In many cases we can look at cognates in other related languages, but sometimes we need even more help. For example, when the early translators were working with 1 Samuel 13, they came across the Hebrew word pym [[GS1]] in verse 21. This word was unattested in other Semitic literature. Therefore their only recourse was to determine a translation through the context. The Geneva Bible, followed by the KJV, translated it as “‘a file,’ used by blacksmiths to sharpen hoes and other agricultural tools.” [[48]] Thus the King James Bible reads, “Yet they had a file for the mattocks, and for the coulters, and for the forks, and for the axes, and to sharpen the goads” (1 Samuel 13:21). At the beginning of the twentieth century, however, new archaeological evidence shed light that indicated that the word had a very different meaning. According to Bruce M. Metzger, “Archaeologists discovered at various places in Palestine ancient sets of weights used for business transactions, each bearing a Hebrew word. One of these, weighing almost two and two-thirds ounces, is marked??? [[GS2]], and so translators now know this was the amount that the blacksmiths charged for sharpening various tools.” [[49]] This discovery is reflected in the NRSV, NIV, NJB, CEV, and ESV translations of the passage.
+
+Recent Textual Finds
+
+Since the start of the seventeenth century, numerous textual discoveries and a host of New Testament manuscripts have been brought to light which enrich our understanding of biblical texts. In some cases these texts, such as the Dead Sea Scrolls, predate those used by the King James scholars by up to a thousand years. The work of evaluating these texts is ongoing, and scholars are not always in agreement about how these texts should influence the biblical text. Nevertheless, there are some significant textual variants that have influenced some of the modern translations of the Bible. For example, 1 Samuel 11:1–2 has long been understood to be a difficult passage in the Hebrew Bible. In the KJV we read, “Then Nahash the Ammonite came up, and encamped against Jabesh-gilead: and all the men of Jabesh said unto Nahash, Make a covenant with us, and we will serve thee. And Nahash the Ammonite answered them, On this condition will I make a covenant with you, that I may thrust out all your right eyes, and lay it for a reproach upon all Israel.” As it stands, there seems to be no reason why Nahash the Ammonite would only make a treaty with men of Jabesh if he “thrust out” everyone’s right eye. The Dead Sea Scrolls account in the document 4QSama seems to have an answer, [[50]] which the NRSV includes as the last verse of chapter 10: “Now Nahash, king of the Ammonites, had been grievously oppressing the Gadites and the Reubenites. He would gouge out the right eye of each of them and would not grant Israel a deliverer. No one was left of the Israelites across the Jordan whose right eye Nahash, king of the Ammonites, had not gouged out. But there were seven thousand men who had escaped from the Ammonites and had entered Jabesh-gilead.”
+
+Not all modern translations, however, have added this passage to the text. The passage in the NIV and CEV is relegated to a footnote, but it is omitted altogether in the ESV and NJB.
+
+Another example where the Dead Sea Scrolls have had an influence upon some of the modern translations is Isaiah 60:19. The KJV reads, “The sun shall be no more thy light by day; neither for brightness shall the moon give light unto thee.” The NRSV, influenced by the 1QSa reading, includes the phrase “by night.” It reads, “The sun shall no longer be your light by day, nor for brightness shall the moon give light to you by night” (emphasis added). The inclusion certainly “gives the parallelism of the verse better balance.” [[51]] But the question must be asked whether the phrase was original to the text, or whether a later scribe added it to improve the parallelism. The textual evidence is unclear. This uncertainty is evidenced by the fact that while the NRSV includes the phrase in the text, the ESV includes the phrase in a footnote, but it is omitted altogether in the NIV and the NJB. The dynamic translation in the CEV destroyed the parallelism and thus avoided the problem. This variance in the modern translations over the value of these passages, and many more like them from the Dead Sea Scrolls, reminds us that scholars are not always unified on such textual questions.
+
+Advances in Textual Criticism
+
+Simply stated, textual criticism is the evaluation of different texts in order to try to reconstruct what the original author may have written. Since the publication of the King James Version of the Bible, many important biblical manuscripts have been discovered, but it is important to remember that no autographs, or original texts, have survived from antiquity. All that scholars have to work with are copies of texts, which date to different periods of time. With the New Testament there are over five thousand manuscripts, which contain numerous variants.
+
+These variants enter the text for a number of reasons, but it is also important to realize that very few of them are significant for the meaning of the text. [[52]] For example, Revelation 1:5 in the KJV reads, “Unto him that loved us, and washed us (lousanti; λο?σαντι) from our sins.” This reading comes from texts that primarily date from the ninth to the thirteenth centuries. But some earlier texts from the third to fifth centuries [[53]] read, “unto him that loved us, and freed us (lusanti; λ?σαντι) from our sins.” The difference here seems to be the result of a scribal error because the Greek word for “washed” (lousanti), although spelled differently, sounds very similar to the Greek word for “loosed/freed” (lusanti). In this case, the NRSV (with a footnote reading “Other ancient authorities read washed), NIV, ESV, and CEV all reflect the earlier reading, but the NJB, like the KJV, retains the later one.
+
+Sometimes the textual variants seem to reflect scribal interpolations in an attempt to harmonize passages. For example, the KJV of Revelation 1:11 reads: “Saying, I am Alpha and Omega, the first and the last: and, What thou seest, write in a book” (emphasis added). None of the modern translations we are examining here include the italicized phrase, because it is not found in many of our earliest manuscripts of Revelation. [[54]] This may be an example where a scribe added the phrase, as one scholar notes, to “supplement the title in 1:8 and to form a well-suited introduction to the book, which concludes in 22:13 with the same threefold titles found in 1:8 and 1:11.” [[55]]
+
+For Latter-day Saints, one textual variant is particularly important because it aligns with the text of the Book of Mormon. In Matthew 5:22, the KJV reads, “Whosoever is angry with his brother without a cause shall be in danger of the judgment” (emphasis added). The phrase “without a cause” is found in some late texts but is not present in earlier ones. [[56]] The phrase seems to be an addition to “allow room for righteous indignation,” [[57]] maybe even to allow for Jesus’ actions when he cleansed the temple. None of the modern translations that we are examining include this phrase, although the ESV includes a footnote saying, “Some manuscripts insert without a cause.” For Latter-day Saints in particular, this point is significant because the phrase is not found in the 3 Nephi account (3 Nephi 12:22).
+
+One variant that is theologically significant is the Johannine comma (1 John 5:7–8), discussed in a previous chapter in this volume. [[58]]
+
+In addition to the New Testament, the Old Testament also has numerous textual variants. Again, very few of these are theologically significant, and not all modern translators agree whether they should be included in the text of the Bible. One example is Genesis 1:6–7. The KJV, following the Masoretic Text, reads, “And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters. And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so” (emphasis added). The Septuagint, however, reads, “And God said, ‘Let a firmament come into being in the midst of the water, and let it be a separator between water and water.’ And it became so. And God made the firmament, and God separated between the water that was under the firmament and between the water that was above the firmament” (emphasis added). The difference between the two texts is whether the phrase “and it was so/and it became so” belongs at the end of verse 6 or the end of verse 7. David Noel Freedman and David Miano have argued, “The reading of the Greek tradition is consistent with the order of events on the other creative days, while that of MT is not. Because the Masoretic Text has the more difficult reading, many have concluded that it represents the archetype. However, the placement of [[GS3]][wyhy kn] at the end of verse 7 makes no sense, and no convincing explanation has been given as to why the author would have put the phrase there, particularly when it is at variance with his established modus operandi and disturbs the flow of the discourse.” [[59]] Modern translations are varied in how they judge the importance of the Septuagint reading. The NJB places the phrase at the end of verse 6 rather than at the end of verse 7, the CEV places it at the beginning of verse 7, whereas the NRSV, NIV, and ESV all follow the Masoretic text and place it at the end of verse 7.
+
+Theological Interpretations
+
+Of the thousands of textual variants in the Bible translations, few are theologically significant. This is not to say, however, that translators don’t have to deal frequently with theological issues as they translate the Bible. Although the reading of the Hebrew or Greek text may be certain, it is not always certain how it should be translated. All translators, therefore, have to make theological decisions as they translate. For example, how should a translator deal with the Greek word sarx in Paul’s writings? The KJV consistently translates it as “flesh” (see, for example, Romans 8:5–9, 12–13; 9:3, 5, 8; 11:14; 13:14; 1 Corinthians 1:26). Many modern translations use a number of different translations depending on the context. The NIV translators, for example, decided that whenever it is used by Paul with a negative connotation, they would translate it as “sinful nature.” [[60]] This decision has been criticized as an unnecessary theological interpretation. [[61]] The philosophy-of-translation question here deals with whether the reader should be left to determine the theological interpretation, or whether the translator should make that decision.
+
+Another example is the translation of Galatians 2:16. The KJV translates it as, “Knowing that a man is not justified by the works of the law, but by the faith of Jesus Christ, even we have believed in Jesus Christ, that we might be justified by the faith of Christ, and not by the works of the law: for by the works of the law shall no flesh be justified” (emphasis added). All of the modern translations we are examining here translate the italicized phrase as “faith in Christ.” [[62]] Both translations are acceptable ways of translating the Greek genitive construction. It can be translated as either a subjective genitive (where Christ is the subject—the faith is his), or as an objective genitive (where Christ is the object of the faith we have in him). At stake in this translation issue is the theological question, Are we justified, or made righteous, by the faith we have in Christ, or are we saved by his faith? This is not an insignificant theological question. The KJV translates it in a way that is open to either interpretation. The majority of modern translations, however, make a theological interpretation by their choice of translation. [[63]]
+
+Modernizing the “Archaic” Language of the King James Bible
+
+One of the most recurring criticisms of the KJV is that, although the language is in many instances sublime, it is also in many instances out-of-date, difficult to read and, therefore, difficult to understand. For example, one critic has written, “The plain truth of the matter is that the version that is so cherished among senior saints who have more or less come to terms with Elizabethan English, is obscure, confusing, and sometimes even incomprehensible to many younger or poorly educated Christians.” [[64]] According to David Daniell, this criticism is not just a modern concern. He argues that the “KJV was born archaic.” Even when it was first published, the language was out-of-date because the language of its base text, the 1568 Bishops’ Bible, was already out-of-date. [[65]]
+
+Of course, difficult language, in and of itself, is not always a negative. Having to read a text carefully because of its unfamiliar language can, in fact, facilitate understanding. For example, reading a familiar English text in a second language can help the reader notice nuances that were not immediate when reading in English. In my classes, numerous students have commented that reading the Book of Mormon in their “mission language” has done this for them.
+
+Even so, the criticism of the archaic nature of the KJV continues unabated. The criticism can be summarized by four main characteristics. First is its use of the second-person singular pronouns such thee, thou, and thine and its use of verb forms such as art, hast, and hadst. As a matter of policy, the NRSV, NIV, ESV, NJB, and CEV have removed this language in their translations.
+
+Second, the KJV does contain words that are no longer in use. For example, in 1 Corinthians 10:25 it reads, “Whatsoever is sold in the shambles, that eat, asking no question for conscience sake” (emphasis added). The word shambles translates the Greek word makellon, which is a meat market. According to Laurence M. Vance, a shambles refers to a table or counter that was used to display items that were for sale. “Since they often held meat, the word shambles began to be associated with just a meatmarket.” [[66]] Modern translations prefer to translate makellon as “meat market” (NRSV, NIV, ESV) or “butcher’s shop” (NJB).
+
+Third, and perhaps more difficult, are words that are still in use in English but have changed meaning. For example, the KJV of 1 Thessalonians 4:15 reads, “For this we say unto you by the word of the Lord, that we which are alive and remain unto the coming of the Lord shall not prevent them which are asleep” (emphasis added). In modern English, the word prevent means to stop something from happening. The King James translators, however, used it to translate the Greek word phthan?, which means to “come before” or “precede.” Modern translations, therefore, translate phthan? as “precede” (NRSV, NIV, NAB), or “go up ahead” (CEV). More loosely, the NJB translate it as “have no advantage over.”
+
+Another example in this category is the King James Bible’s use of conversation, which in modern parlance usually refers to speaking. However, in Philippians 1:27 we read, “Only let your conversation be as it becometh the gospel of Christ,” where conversation is a translation of the Greek word, politeuomai, which means to “conduct one’s life.” Modern translations use “live your life” (NRSV), “live” (CEV), “conduct your life” (NIV), “behave” (NJB), and “manner of life” (ESV). In the Old Testament there are also numerous examples of this phenomenon. For example, the KJV uses meat to translate a number of Hebrew words that carry a broader connotation than just the flesh of an animal. Modern translations usually translate them as “food” (’okl‰, Genesis 1:29–30), “grain” (min h.‰, Exodus 30:9; 40:29), or “bread/food” (leh.em, 2 Samuel 13:5). Another Old Testament example is Psalm 5:6 (Hebrew, Psalm 5:7). The KJV reads, “Thou shalt destroy them that speak leasing” (emphasis added). Here they translated the Hebrew word k?z?b as “leasing,” but modern English speakers generally understand “leasing” in the sense of leasing a car, office space, or a house. Unless a modern reader is familiar with the synonymous parallelism of this verse, it would be difficult for them to understand that it refers to someone who lies. Thus the NRSV, NIV, and ESV translate it as “those who speak/tell lies,” the NJB translates it as “liars,” and the CEB has “every liar.”
+
+A fourth, and final, area where the KJV is criticized as being archaic is its lack of inclusive language. In this respect, it reflects a literal translation of the ancient texts. Not all modern translations use gender-inclusive language. Of the modern translations we are discussing, the NRSV, however, has made a concerted effort. In the editors’ “To the Reader,” we read that there is an “inherent bias of the English language toward the masculine gender, a bias that in the case of the Bible has often restricted or obscured the meaning of the original text.” Therefore, the committee determined that “in references to men and women, masculine-oriented language should be eliminated as far as this can be done without altering the passages that reflect the historical situation of ancient patriarchal culture.” [[67]] Thus, where Jesus in the KJV says, “Why beholdest thou the mote that is in thy brother’s eye” (emphasis added; followed by the NIV, NJB, and ESV), the NRSV has, “Why do you see the speck in your neighbor’s eye” (emphasis added). The CEV, with its emphasis on functional equivalence, has, “How can you say, ‘My friend, let me take the speck out of your eye.’” Another example is in the Pauline epistles where the KJV uses “brethren.” The NRSV often changes it to “brothers and sisters” (e.g., Romans 1:13; 7:1; 8:12; 10:1; 11:25; 12:1). The NRSV, however, continues to use masculine pronouns to refer to Deity (see Genesis 1:5). In contrast to the NRSV, “the goal of the ESV [with regard to gender language] is to render literally what is in the original. . . . In each case the objective has been transparency to the original text, allowing the reader to understand the original on its own terms rather than on the terms of our present-day culture.” [[68]]
+
+Conclusion
+
+As Leonard Greenspoon wrote, “everyone should have easy access to [the King James Bible’s] elegant diction and cadence.” [[69]] While many of the phrases that people love about the King James Bible were original to earlier English translations such as Tyndale and Geneva, it is important to remember that they have entered the hearts of people today through the vehicle of the King James Bible. But the twentieth century has seen a flood of new English translations that have been influenced, either directly or indirectly, by the King James Bible. Each of these translations has some merit. Increased understanding of the biblical languages, of the history and culture of biblical times, and of the increased availability and understanding of textual discoveries have all played their part in deepening our understanding of the Bible. Yet of the thousands of textual variants, very few have any significant theological importance, and we have seen that not all scholars are united over whether these variants should alter the text, be relegated to a footnote, or even be ignored.
+
+For Latter-day Saints, the King James Bible has become the official English-language Bible of the Church. [[70]] In a letter dated May 22, 1992, the First Presidency, recognizing the advances in textual studies, nevertheless affirmed the Church’s ongoing commitment to the KJV. [[71]] Parts of this letter were included in the Church’s handbook of instructions: “Although other versions of the Bible may be easier to read, in doctrinal matters, latter-day revelation supports the King James Version in preference to other English translations. . . . The most reliable way to measure the accuracy of any biblical translation is not by comparing different texts, but by comparison with the Book of Mormon and modern-day revelations.” [[72]] Thus Latter-day Saints are not in the same position as many other Christians when it comes to some issues regarding the Bible. We love and honor and study the King James Version of the Bible, but it is not the only source of our doctrine. Thus some of the challenges that were the catalyst for modern translations, although certainly not all, are ameliorated by the expanded LDS scriptural corpus.
+
+But in acknowledging this fact, we also recognize that the eighth article of faith declares, “We believe the Bible to be the word of God as far as it is translated correctly.” Unlike some Christians, Latter-day Saints do not believe that the Bible is inerrant, or that it contains no mistakes. Nor do we believe that the King James Bible is inerrant, nor any translation. The Prophet Joseph Smith himself engaged in a “new translation” of the KJV, and Brigham Young declared, “If [the Bible] be translated incorrectly, and there is a scholar on the earth who professes to be a Christian, and he can translate it any better than King James’s translators did it, he is under obligation to do so, or the curse is upon him. If I understood Greek and Hebrew as some may profess to do, and I knew the Bible was not correctly translated, I should feel myself bound by the law of justice to the inhabitants of the earth to translate that which is incorrect and give it just as it was spoken anciently. Is that proper? Yes, I would be under obligation to do it.” [[73]]
+
+Notes
+
+[1]For a discussion, see D. A. Carson, “The Limits of Functional Equivalence in Bible Translation—and Other Limits, Too,” in The Challenge of Bible Translation: Communicating God’s Word to the World: Essays in Honor of Ronald F. Youngblood, ed. Glen G. Scorgie, Mark L. Strauss, and Steven M. Voth (Grand Rapids, MI: Zondervan, 2003), 65–113.
+
+[2]Eugene A. Nida, “Science of Translation,” Language 45, no. 3 (1969): 484.
+
+[3]David Tuggy, “The Literal-Idiomatic Bible Translation Debate from the Perspective of Cognitive Grammar,” in The Bible Through Metaphor and Translation: A Cognitive Semantic Perspective, Religions and Discourse 15, ed. Kurt Feyaerts (New York: Peter Lang, 2003), 243.
+
+[4]C. Lombaard, “Hide and Seek. Aspects of the Dynamics of Bible Translation,” Acta Theologica Supplementum 12 (2009): 1.
+
+[5]For a philological discussion of this specific issue, see Harry M. Orlinsky and Robert G. Bratcher, A History of Bible Translation and the North American Contribution (Atlanta: Scholars Press, 1991), 164–68.
+
+[6]David Daniell, The Bible in English: Its History and Influence (New Haven, CT: Yale University Press, 2003), 442.
+
+[7]David Norton, A Textual History of The King James Bible (Cambridge: Cambridge University Press, 2005), 4.
+
+[8]Alister E. McGrath, In the Beginning: The Story of the King James Bible and How It Changed a Nation, a Language, and a Culture (New York: Doubleday, 2001), 164.
+
+[9]Daniell, The Bible in English, 440.
+
+[10]Norton, A Textual History, 4, 12. Norton notes that “only one—quite possibly a composite copy made up from several of the forty—is known to have survived.”
+
+[11]David Daniell, Tyndale’s New Testament: Translated from the Greek by William Tyndale in 1534 (New Haven, CT: Yale University Press, 1989), xii.
+
+[12]Norton, A Textual History, 10.
+
+[13]Orlinski and Bratcher, A History of Bible Translation, xi–xii.
+
+[14]Personal transcription of a video clip, “The Book That Changed the World,” onhttp://www.kingjamesbibletrust.org/, accessed February 21, 2011.
+
+[15]Leonard J. Greenspoon, “The Holy Bible: A Buyer’s Guide,” Bible Review, Fall 2005, 39.
+
+[16]See, for example, Jon Nielson and Royal Skousen, “How Much of the King James Bible Is William Tyndale’s?: An Estimation Based on Sampling,” Reformation 3 (1998): 49–74. Nielson and Skousen have used computer analysis to show that “nearly 84 per cent of the New Testament and close to 76 per cent of the portions of the Old Testament that Tyndale translated have been transmitted to the KJV just as he left them” (73).
+
+[17]Daniell, The Bible in English, 769; see also 764–65.
+
+[18]Laurence M. Vance, Archaic Words and the Authorized Version, rev. ed. (Pensacola, FL: Vance Publications, 1999). Vance shows that many of the “archaic” words used by the KJV are used in modern publications and that many of the modern translations of the Bible are inconsistent in their “updating” of the language (x–xi).
+
+[19]Holy Bible with the Apocryphal/Deuterocanonical Books: New Revised Standard Version (New York: HarperCollins, 2007).
+
+[20]National Council of Churches, “Member Communions and Denominations,” www.ncccusa.org/members/, accessed April 25, 2011.
+
+[21]New Revised Standard Version, “To the Reader,” xvi.
+
+[22]New Revised Standard Version, “To the Reader,” xv.
+
+[23]See J. Reuben Clark Jr., Why the King James Version (Salt Lake City: Deseret Book, 1956), 351–94.
+
+[24]Joseph A. Fitzmyer, “μονογεν?ς,” in Exegetical Dictionary of the New Testament, 11 vols., English translation, ed. Horst Balz and Gerhard Schneider (Grand Rapids, MI: Eerdmans, 1991), 2:439–40. *****Designer, get the correct font for here. See the pdf version that I sent to Kent Jackson.
+
+[25]Dale Moody, “God’s Only Son: The Translation of John 3:16 in the Revised Standard Version,” Journal of Biblical Literature 72, no. 4 (1953): 213–19.
+
+[26]For a more detailed description of the NRSV, see Bruce M. Metzger, “The New Revised Standard Version of the Bible: Its Making and Character,” Proceedings of the American Philosophical Society 135, no. 3 (1991): 368–81.
+
+[27]The Holy Bible: New International Version (Grand Rapids, MI: Zondervan, 1989).
+
+[28]For a discussion on the history of the NIV, see John H. Stek, “The New International Version: How It Came To Be,” in Scorgie, Strauss, and Voth, The Challenge of Bible Translation, 235–63.
+
+[29]New International Version, preface, ix.
+
+[30]Quoted in Stek, “The New International Version,” 246.
+
+[31]Kenneth L. Barker, “Bible Translation Philosophies with Special Reference to the New International Version,” in Scorgie, Strauss, and Voth, The Challenge of Bible Translation, 53.
+
+[32]New International Version, preface, ix.
+
+[33]The New Jerusalem Bible (Garden City, NY: Doubleday, 1985).
+
+[34]New Jerusalem Bible, “General Editor’s Foreword,” v.
+
+[35]New Jerusalem Bible, “General Editor’s Foreword,” v.
+
+[36]New Jerusalem Bible, “General Editor’s Foreword,” v.
+
+[37]Dom Henry Wansbrough, “Editing the New Jerusalem Bible,”www.tyndale.org/TSJ/6/wansbrough.html, accessed May 4, 2011.
+
+[38]Holy Bible: Contemporary English Version (New York: American Bible Society, 1995).
+
+[39]Contemporary English Version, “The Contemporary English Version” (preface); emphasis in original.
+
+[40]The Holy Bible: English Standard Version (Wheaton, IL: Crossway, 2001).
+
+[41]D. M. Stec, untitled review, Vetus Testamentum 54, no. 3 (2004): 421.
+
+[42]English Standard Version, preface, vii, viii.
+
+[43]English Standard Version, preface, vii.
+
+[44]Mark L. Strauss, “Why the English Standard Version (ESV) Should Not Become the Standard English Version: How to Make a Good Translation Better,” unpublished paper presented at the 2008 annual meeting of the Evangelical Theological Society, Providence, Rhode Island, November 20, 2008. An online copy of the paper is available at http://bible-translation.110mb.com/improvingesv.pdf, accessed April 25, 2011. See also Allan Chapple, “The English Standard Version: A Review Article,” Reformed Theological Review 62, no. 2 (2003): 61–96.
+
+[45]English Standard Version, preface, vii.
+
+[46]John K. Carmack, “The New Testament and the Latter-day Saints,” in The New Testament and the Latter-day Saints (Orem, UT: Randall Book, 1987), 2.
+
+[47]Bruce M. Metzger, “Persistent Problems Confronting Bible Translators,” Bibliotheca Sacra 150 (July–September 1993): 276.
+
+[48]Metzger, “Persistent Problems Confronting Bible Translators,” 276.
+
+[49]Metzger, “Persistent Problems Confronting Bible Translators,” 276.
+
+[50]Harold Scanlin, The Dead Sea Scrolls and Modern Translations of the Old Testament (Wheaton, IL: Tyndale House, 1993), 119–20. For two recent LDS discussions of this verse, see Donald W. Parry, “The Dead Sea Scrolls Bible,” Studies in the Bible and Antiquity 2 (2010): 11–16; Dana M. Pike, “The Dead Sea Scrolls and Latter-day Saints: Where Do We Go from Here?,” Studies in the Bible and Antiquity 2 (2010): 42–46.
+
+[51]Scanlin, The Dead Sea Scrolls and Modern Translations, 132.
+
+[52]Textual differences affect only twenty to thirty verses, and only a few of those make a significant change in the meaning.
+
+[53]See Oxyrhynchus papyrus 18 and Codices Sinaiticus, Alexandrinus, and Ephraemi.
+
+[54]The additional phrase in the KJV is found in a large number of manuscripts with commentary by Andreas of Caesarea on Revelation (variously dated from the fifth to the ninth century) but is not found in Codex Sinaiticus (fourth century), Codex Alexandrinus (fifth century), or Codex Ephraemi (fifth century).
+
+[55]G. K. Beale, The Book of Revelation: A Commentary on the Greek Text (Grand Rapids, MI: Eerdmans, 1999), 205.
+
+[56]The phrase is found in a seventh-century correction made in Codex Sinaiticus and in Codices Bezae (fifth century), Regius (eighth century), Freer (fourth–fifth century), and Koridethi (ninth century). But the Madalen papyrus (ca. AD 200), the original hand of Codex Sinaiticus, and the Codex Vaticanus (fourth century) all omit the phrase.
+
+[57]W. D. Davies and Dale C. Allison Jr., The Gospel According to Saint Matthew, 3 vols. (Edinburgh: T&T Clark, 1988), 1:512n4.
+
+[58]See the discussion on pages xxxxxxxxxxx–yyyyyyyyy (chapter 5).
+
+[59]David Noel Freedman and David Miano, “Slip of the Eye: Accidental Omission in the Masoretic Tradition,” in Scorgie, Strauss, and Voth, The Challenge of Bible Translation, 278.
+
+[60]Douglas J. Moo, “‘Flesh’ in Romans: A Challenge for the Translator,” in Scorgie, Strauss, and Voth, The Challenge of Bible Translation, 365–79.
+
+[61]James D. G. Dunn, The Theology of Paul the Apostle (Grand Rapids, MI: Eerdmans, 1998), 70.
+
+[62]The NRSV, NIV, and ESV include footnotes that “faith of,” or “faithfulness of,” are possible readings.
+
+[63]For a more detailed discussion, including a discussion on the implication of this reading for the Book of Mormon, see Gaye Strathearn, “The Faith of Christ,” in A Witness for the Restoration: Essays in Honor of Robert J. Matthews, ed. Kent P. Jackson and Andrew C. Skinner (Provo, UT: Religious Studies Center, Brigham Young University, 2007), 93–127.
+
+[64]D. A. Carson, The King James Version Debate: A Plea for Realism (Grand Rapids, MI: Baker Book House, 1979), 101–2.
+
+[65]Daniell, The Bible in English, 441.
+
+[66]Vance, Archaic Words and the Authorized Version, 309.
+
+[67]New Revised Standard Version, “To the Reader,” xviii.
+
+[68]English Standard Version, preface, viii–ix.
+
+[69]Greenspoon, “The Holy Bible: A Buyer’s Guide,” 39.
+
+[70]For a discussion of some of the historical influences of this position, see Philip L. Barlow, “Why the King James Version?: From the Common to the Official Bible of Mormonism,” Dialogue: A Journal of Mormon Thought 22, no. 2 (1989): 19–42. See also Clark, Why the King James Version? Although President Clark acknowledges that his book does not represent the official position of the Church (v), it was nonetheless a very influential work. For example, see Bruce R. McConkie, Mormon Doctrine, 2nd ed. (Salt Lake City: Bookcraft, 1966), 421–23.
+
+[71]Ezra Taft Benson, Gordon B. Hinckley, and Thomas S. Monson, “First Presidency Statement on the King James Version of the Bible,” Ensign, August 1992, 80.
+
+[72]Handbook 2: Administering the Church, 2010 (Salt Lake City: The Church of Jesus Christ of Latter-day Saints,2010), 21.1.7.
+
+[73]Brigham Young, in Journal of Discourses, 26 vols. (London: Latter-day Saints’ Book Depot, 1854–86), 14:226–27.
+
+[GS1]These Hebrew letters are in reverse order to what they should be.
+
+[GS2]These Hebrew letters are in reverse order to what they should be.
+
+[GS3]These Hebrew letters are in reverse order to what they should be.
