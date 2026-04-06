@@ -62,7 +62,18 @@ graph TD
 |-------|------|------|
 | [Otro dossier o Forma T] | profundiza / precede / contrasta | [Breve explicación] |
 
-## 7. Lagunas y preguntas abiertas
+## 7. Ilustraciones
+
+Ilustraciones listas para usar en discursos y artículos derivados de este dossier. Cada una tiene un objetivo (`clarify`, `prove`, `apply`, `attention`, `resonate`).
+
+### [Título breve de la ilustración]
+
+> [Texto breve, citable. ~50-150 palabras. Parafrasear si la fuente es larga.]
+
+— **[Autor y título]**, *[Fuente]* ([año])
+**Objetivo:** [función] | **Forma:** [tipo] | **Parafraseada:** sí/no
+
+## 8. Lagunas y preguntas abiertas
 
 - [Qué falta por investigar, controversias no resueltas, material pendiente de incorporar.]
 

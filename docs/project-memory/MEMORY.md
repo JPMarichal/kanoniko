@@ -4,6 +4,8 @@
 - [project_alejandria.md](project_alejandria.md) — Project vision: independent containerized text library with textual, semantic, and KG search over LDS church literature
 - [project_chat_vision.md](project_chat_vision.md) — Final goal: specialized chat client for scripture/gospel study, RAG over the knowledge engine
 - [project_dossier_product.md](project_dossier_product.md) — Dossier doctrinal: exhaustive reference docs in prods/dossiers/, template, naming, design rules
+- [project_discursos_product.md](project_discursos_product.md) — Discursos: full-draft talks, flexible spine (singular/progression), calibrated for simultaneous translation
+- [user_mtc_calling.md](user_mtc_calling.md) — Juan Pablo serves in MTC branch presidency; talks subject to simultaneous translation (+20% time)
 - [phase5_complete.md](phase5_complete.md) — Phase 5 fully closed: entity profiles, disambiguation, volume-diverse passages, staleness, stopword handling, RAG enrichment, 18 docs
 - [project_portfolio.md](project_portfolio.md) — proj/ has 9 prioritized projects (P1-P9) with requirements and plans; 00-backlog.md formalizes incubator as backlog
 - [project_study_aids_inventory.md](project_study_aids_inventory.md) — Full inventory: Tier 1 (ch headings, superscriptions, intros — missing from corpus) + Tier 2 (GEE, TG, BD, JST, maps)
@@ -28,6 +30,7 @@
 - [feedback_citation_style.md](feedback_citation_style.md) — Citations always inline/parenthetical (never isolated line); GA titles use highest known rank
 - [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
 - [feedback_docker_engine.md](feedback_docker_engine.md) — ALL Alejandría ops MUST use GPU Docker stack (Ubuntu-20.04 WSL); never Rancher, never optional
+- [feedback_always_eta.md](feedback_always_eta.md) — Always include ETA in progress reports; never make user ask
 - [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
 - [feedback_batch_neo4j.md](feedback_batch_neo4j.md) — Always batch Neo4j writes (UNWIND); individual calls = 19h, batched = 30min
 - [feedback_bilingual_dedup.md](feedback_bilingual_dedup.md) — Report unique counts, not EN+ES sum; 50 bilingual records = 25 unique items
@@ -77,4 +80,8 @@
 - [project_covenant_path_architecture.md](project_covenant_path_architecture.md) — Covenant path: 8 collections, 60 forms (intro+6 doctrinal+vidas)
 - [feedback_continuous_improvement.md](feedback_continuous_improvement.md) — Products are living: continuous improvement, theme detection skill, controversies/misunderstandings as source
 - [feedback_no_prayer_for_dead.md](feedback_no_prayer_for_dead.md) — No orar por los muertos: listas del templo son para vivos; para difuntos, ordenanzas vicarias
+- [feedback_discurso_no_clone.md](feedback_discurso_no_clone.md) — Discursos: never clone one talk; minimum 3 diverse sources, no single source >30% of content
 - [feedback_doctrine_exists_search_harder.md](feedback_doctrine_exists_search_harder.md) — No asumir "sin doctrina" por falta de escritura directa; buscar en Handbook, Ayudas para la vida, conferencia
+- [reference_testimony_concept.md](reference_testimony_concept.md) — Testimony: definition (True to the Faith/GEE/PMG), dual nature, five pillars, how obtained, DyC 76 consequence, biblical roots
+- [reference_illustration_concept.md](reference_illustration_concept.md) — Illustration as resource AND product: definition, taxonomy, quality criteria, metadata schema, FCD rules, extraction skill
+- [feedback_illustration_quality.md](feedback_illustration_quality.md) — Illustrations must be self-contained narratives ready to copy-paste, not compressed summaries

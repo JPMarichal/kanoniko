@@ -93,6 +93,27 @@ Agrupaciones temáticas sugeridas por el análisis de tags y currículo.
 
 ---
 
+## Nuevo tipo de producto: Discursos
+
+Producto diseñado (2026-04-05). Borradores completos de discursos grounded en el corpus, calibrados para traducción simultánea. Template y guía de estilo en `prods/discursos/`.
+
+- Columna vertebral flexible (escrituraria, conceptual, narrativa) en modo singular o progresión
+- Default 8 min (~950 palabras con traducción), escalable a 15 min
+- Conectado a Formas T (source_forms) y Dossiers (source_dossiers)
+
+---
+
+## Nuevo tipo de producto: Ilustraciones
+
+Producto diseñado (2026-04-06). Biblioteca de ilustraciones retóricas extraídas del corpus, listas para uso en discursos, artículos y dossiers. Doble rol: recurso cross-product + producto extractable.
+
+- Estructura en `prods/ilustraciones/` con metadata (forma, objetivo, autor, fuente, parafraseada)
+- Skill `/ilustracion` para extracción del corpus
+- Fuentes primarias: conferencia general, revistas de la Iglesia
+- Integrado en templates de dossiers (sec. 7), GUIDELINES de discursos (sec. 6), y skill de artículos
+
+---
+
 ## Mejoras a colecciones existentes
 
 - [x] Investidura: agregar "Investidos antes de ir" (forma 3) — completado 2026-04-05

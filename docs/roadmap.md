@@ -76,6 +76,7 @@ Phase 6 has been decomposed into an incubator of independent projects. Each repr
 **Priority**: Lower — builds on everything above
 **Vision**: Knowledge generation beyond Q&A — producing structured artifacts from the corpus.
 **Scope**: Endpoints for generating discourses, T-charts, timelines, concept maps, articles, comparative analyses. The 4th layer of the architecture (corpus→index→knowledge→synthesis).
+**Product: Discursos** — first synthesis product, already designed. Full-draft talks grounded in corpus, calibrated for simultaneous translation (~120 wpm). Template, guidelines, and calibration tables in `prods/discursos/`. See FR-1 in `proj/P8-synthesis-engine/01-requirements.md`.
 
 ### P9 — Fine-Tuning
 **Priority**: Lower — optimization after core features stabilize
