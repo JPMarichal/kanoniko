@@ -30,7 +30,8 @@ Para análisis detallado por material → `fase0/`.
 | Doctrines of Salvation (JFS, 3 vols) | 45 | MEDIA | No en sitio oficial; investigar BYU/MTP | — |
 | Journal of Discourses (26 vols) | 25 | BAJA | Enorme. MTP declinó transcribirlo. Solo PDF/OCR en Archive.org/BYU | — |
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
-| Ensign / Liahona archive | 60 | BAJA | Volumen enorme (~12,000 docs); priorizar por tema | — |
+| Ensign archive (1971-2020) | 60 | BAJA | Volumen enorme; separado de Liahona | — |
+| Liahona (1977-2026) | 60 | MEDIA | ~17,300 arts (excl. conf); script listo | `fase0/liahona.md` |
 
 ### `researched` — Gutenberg, script pendiente
 
@@ -124,7 +125,8 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 | Prioridad | Material | Script | Justificación |
 |-----------|----------|--------|---------------|
 | 🔴 **blocked** | Música para los jóvenes | `download_music.py` | API 404 — endpoint `/music/` no soportado por Study API |
-| ⚫ **P6** | Ensign / Liahona archive | investigar | Volumen enorme; priorizar por tema |
+| ⚫ **P6** | Ensign archive (1971-2020) | investigar | Volumen enorme; separado de Liahona |
+| 🟡 **P6** | Liahona (1977-2026) | `download_liahona.py` ✅ | ~17,300 arts excl. conf; script listo, pendiente D1-D4 |
 
 ### RSC BYU — 214 libros (catálogo completo en `05-source-registry.md`)
 

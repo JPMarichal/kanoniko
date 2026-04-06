@@ -1,0 +1,27 @@
+Fact: The Book of Mormon is currently published in less than one percent of the world’s languages.
+
+Fact: According to one estimate, it takes somewhere between four and ten years to translate the Book of Mormon, about five years to translate fifteen tracts and the missionary discussions.
+
+Fact: If we translate the Book of Mormon into four new languages a year, it will take nearly forty years to cover only the languages spoken by groups of one million people or more—and there are more than 3,000 spoken languages and major dialects.
+
+A key to making it happen faster may be the Translation Sciences Institute at Brigham Young University, where they are working on two different problems simultaneously: (1) computer word processing and translation aids, and (2) interactive computer translation.
+
+Getting the words from one page in English to another page in Spanish is not a simple process. A translator has to convert the text from one language to another; his draft is typed; he proofreads and corrects; it is typed again, it is reviewed and retyped, reviewed again and retyped, proofread, typeset, proofread again, and printed. At any stage, errors can be introduced. And all of these steps take time.
+
+At BYU’s Translation Sciences Institute, another process is under study—word processing. That means that a translator takes the original document and types his translation directly into the computer, following his process on a screen above the keyboard. He can proofread, edit, and correct as he translates. If a word doesn’t need to be changed, it will never be typed again and, hence, can never be misspelled. He can add, delete, or change letters, words, phrases, sentences, paragraphs, or even pages.
+
+When he is finished, he simply records the translated document on a cassette tape or computer disc. His reviewers, using the same kind of terminal, can make all their own changes without altering the parts that should stay the same. The computer will also typeset it. TSI did not invent word processing (newspapers use it too) but TSI pioneered its use for translation in conjunction with the Church’s Translation Services.
+
+Results? Actual translation still takes the same amount of time, but the other steps can be done so quickly that it decreases the total time by almost exactly half. And, since a computer works so quickly, the savings in money are equally dramatic.
+
+Can anything be done to decrease the translation time itself? Yes. One of the current projects is an instantaneous retrieval system that will call to the video screen the dictionaries and all translated scriptures, which now have to be laboriously found one at a time.
+
+Some helps that are now ready to be used are a system that will represent the accent marks of most languages, and the ability to print 10,000 Chinese characters, plus the development of analytical concordances for the standard works. Under development is a system for editing Chinese—to their knowledge one of the few such projects in the world.
+
+The second major focus is one that sounds like science fiction—interactive computer translation. This means that the human operator “guides” the computer through the translation process, and BYU’s Translation Sciences Institute is the only major center in the country where it is functioning. BYU’s Institute has received international recognition for its pioneering efforts. Traditionally, one of the problems that has always hampered computer translation is that the machine does not know what to do with ambiguities, colloquial phrases, and grammatical peculiarities. Dr. Eldon Lytle, associate professor of linguistics and director of the institute, developed a language system called Junction Grammar which “instructs” the computer concerning the relationship between the various parts of the sentence and also “tells” it what the equivalent would be in the language it is being translated into. It creates its structural representation in the computer and generates a corresponding structure in the target language.
+
+And when an ambiguity comes up that the machine does not know what to do with, it stops and asks the operator a question. (The human operator working with the computer at this stage is highly trained in English, the language of origin.) When the ambiguity is resolved, the computer finishes its processing and produces a draft translation.
+
+Then the translation is reviewed by a native speaker of the target language at a video terminal that shows both English and target language. Thus a human operator makes the final decisions about the meaning of the original text and the translation, and each is primarily responsible for the subtleties of his own language. This double expertise inevitably produces more accurate interpretations.
+
+Just how accurate are these translations? An independent evaluation by Sperry Univac Corporation (a computer firm) in June 1977 showed about 96 percent technical accuracy in grammar, word selection, and completeness. When all of the systems are operative, accuracy will rise even higher. TSI will start with five languages—English to German, French, Portuguese, Spanish, and Chinese. Since all five translations can be made simultaneously and since much less editing will be required after translation, a project that used to take five hours should be done in two.
