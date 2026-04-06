@@ -1,0 +1,67 @@
+DIRECTIONS: Each player chooses a button for his playing piece. Cut out the circle and put it in the bottom of a dish. Choose another button to drop onto the circle.
+
+To play the game, take turns dropping the button onto the circle and moving the number of spaces indicated. Now stop and wait for your next turn. The winner is the first one to reach the “You Are a Missionary” space.
+
+START
+
+You invited a friend to Primary.
+Move ahead 1
+
+You read the scriptures with your family.
+Move ahead 2
+
+You put some money in your missionary bank.
+Move ahead 3
+
+You forgot to go to Primary.
+Move back 3
+
+You memorized a scripture.
+Move ahead 2
+
+You told a friend about Joseph Smith.
+Move ahead 3
+
+You forgot to take your friend to Primary.
+Move back 3
+
+You were reverent in sacrament meeting.
+Move ahead 1
+
+You memorized an article of faith.
+Move ahead 2
+
+You said hello to a new boy or girl at school.
+Move ahead 1
+
+You wrote a letter to a missionary.
+Move ahead 3
+
+You didn’t listen to your teacher.
+Move back 2
+
+You gave a talk about missionaries in Sunday School.
+Move ahead 2
+
+You know who Mormon is.
+Move ahead 1
+
+You had family prayers with your family.
+Move ahead 2
+
+You didn’t invite a nonmember friend to church.
+Move back 1
+
+This month you didn’t save any money for your mission.
+Move back 2
+
+You did a good deed.
+Move ahead 2
+
+You forgot to pray for the missionaries.
+Move back 2
+
+You attended a friend’s baptism.
+Move ahead 1
+
+You Are a Missionary!

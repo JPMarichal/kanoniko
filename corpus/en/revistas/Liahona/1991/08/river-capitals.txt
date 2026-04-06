@@ -1,0 +1,14 @@
+The first column names the capital cities of different countries. The second column names the rivers on which these cities are located. Match each city with its river, then name the country it is capital of.
+
+  --------------------- ------------
+  1. Paris              a. Han
+  2. London             b. Tiber
+  3. Ottawa             c. Nile
+  4. Seoul              d. Seine
+  5. Washington, D.C.   e. Thames
+  6. Cairo              f. Danube
+  7. Rome               g. Ottawa
+  8. Vienna             h. Potomac
+  --------------------- ------------
+
+Answers:
