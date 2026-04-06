@@ -3,6 +3,7 @@
 - [reference_external_scrapers.md](reference_external_scrapers.md) — External source scrapers: hierarchy, scripts, skills, site details, P4 file structure (03-inventory/04-backlog/05-registry/fase0/)
 - [project_alejandria.md](project_alejandria.md) — Project vision: independent containerized text library with textual, semantic, and KG search over LDS church literature
 - [project_chat_vision.md](project_chat_vision.md) — Final goal: specialized chat client for scripture/gospel study, RAG over the knowledge engine
+- [project_dossier_product.md](project_dossier_product.md) — Dossier doctrinal: exhaustive reference docs in prods/dossiers/, template, naming, design rules
 - [phase5_complete.md](phase5_complete.md) — Phase 5 fully closed: entity profiles, disambiguation, volume-diverse passages, staleness, stopword handling, RAG enrichment, 18 docs
 - [project_portfolio.md](project_portfolio.md) — proj/ has 9 prioritized projects (P1-P9) with requirements and plans; 00-backlog.md formalizes incubator as backlog
 - [project_study_aids_inventory.md](project_study_aids_inventory.md) — Full inventory: Tier 1 (ch headings, superscriptions, intros — missing from corpus) + Tier 2 (GEE, TG, BD, JST, maps)
@@ -52,6 +53,7 @@
 - [reference_doctrinal_spine.md](reference_doctrinal_spine.md) — Columna doctrinal serie Revolución Silenciosa: escrituras ancla, fuentes proféticas, redistribución tema mujeres
 - [reference_seo_longtail_interlinking.md](reference_seo_longtail_interlinking.md) — Long-tail SEO, modelo pillar-cluster, interlinking contextual, anchor text, checklist pre-publicación WordPress
 - [feedback_no_scripture_speculation.md](feedback_no_scripture_speculation.md) — No reinterpretar escrituras: reportar lo que dice el texto, no llenar vacíos con especulación propia
+- [feedback_certainty_over_speculation.md](feedback_certainty_over_speculation.md) — Regla global: certezas sobre especulaciones; lo especulativo va marcado aparte, nunca mezclado con doctrina
 - [feedback_member_belief_vs_doctrine.md](feedback_member_belief_vs_doctrine.md) — Tres capas distintas: creencia común de miembros, doctrina oficial, cultura popular — nunca conflacionar
 - [feedback_clarity_over_erudition.md](feedback_clarity_over_erudition.md) — Preferir claridad sobre erudición académica; cortar detalles que confundan al lector
 - [feedback_spanish_capitalization.md](feedback_spanish_capitalization.md) — Capitalización hispana en títulos: solo primera palabra y nombres propios, nunca title case inglés
@@ -66,6 +68,7 @@
 - [feedback_source_citations_fcd.md](feedback_source_citations_fcd.md) — Citar fuentes en FCD bibliográfico, no rutas de archivo del corpus
 - [feedback_forma_t_purpose.md](feedback_forma_t_purpose.md) — Formas T are teaching tools first, not apologetic; controversy resolution is byproduct, not purpose
 - [procedure_forma_t_generation.md](procedure_forma_t_generation.md) — 3-phase workflow (A: propose+approve, B: generate, C: quality checklist) for Forma T collections
+- [procedure_dossier_generation.md](procedure_dossier_generation.md) — 4-phase workflow (A: territorio, B: investigación, C: redacción, D: revisión) for dossiers doctrinales
 - [feedback_doctrinal_precision.md](feedback_doctrinal_precision.md) — Prefer precise doctrinal language over common simplifications (e.g., "two orders" not "two priesthoods")
 - [feedback_bible_roots_mandatory.md](feedback_bible_roots_mandatory.md) — Every Forma T must exhaust Bible roots before Restoration sources — Hebrews lesson learned
 - [feedback_symbol_vs_doctrine_mapping.md](feedback_symbol_vs_doctrine_mapping.md) — Not every biblical symbol maps to Restoration doctrine — verify connection before citing (key of David ≠ priesthood keys)
