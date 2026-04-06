@@ -296,7 +296,7 @@ El tipo actual es el **artículo editorial estándar** (~3,000 palabras, ameno+a
 - Fresco, ameno, accesible, reflexivo
 - **Tutear** al lector: "imagina", "considera", "si fuiste"
 - Romper la cuarta pared en ocasiones
-- Ilustraciones verificables: anécdotas, reflexiones, ejemplos prácticos
+- **Ilustraciones** verificables con objetivo explícito (clarificar, probar, aplicar, captar atención, crear resonancia). Fuentes: anécdotas, reflexiones, ejemplos prácticos, historias de conferencia, incidentes históricos. Si verbatim: FCD inline; si parafraseada: citar en bibliografía. Usar biblioteca de `prods/ilustraciones/` cuando existan relevantes.
 - **Llamamientos** o **asignaciones**, nunca "puestos" ni "cargos"
 - AG siempre con título honroso: "el élder Ballard", "el presidente Nelson"
 - No "secretismo" — preferir "acceso a la información", "transparencia"
