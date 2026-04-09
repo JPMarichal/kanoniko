@@ -43,6 +43,7 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 - [docker.md](docker.md) — Docker Compose setup, CPU/GPU stacks, two Docker engines
 - [operations.md](operations.md) — Indexing, backup/recovery, KG rebuild, profile generation
 - [performance.md](performance.md) — Memory tuning, .wslconfig, I/O optimization, pipeline profiling
+- [pcloud-backup.md](pcloud-backup.md) — DB & secrets distribution via pCloud, backup frequency, new machine setup
 
 ### Project
 - [roadmap.md](roadmap.md) — Completed phases and project incubator
