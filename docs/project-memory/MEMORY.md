@@ -85,3 +85,4 @@
 - [reference_testimony_concept.md](reference_testimony_concept.md) — Testimony: definition (True to the Faith/GEE/PMG), dual nature, five pillars, how obtained, DyC 76 consequence, biblical roots
 - [reference_illustration_concept.md](reference_illustration_concept.md) — Illustration as resource AND product: definition, taxonomy, quality criteria, metadata schema, FCD rules, extraction skill
 - [feedback_illustration_quality.md](feedback_illustration_quality.md) — Illustrations must be self-contained narratives ready to copy-paste, not compressed summaries
+- [feedback_fase0_editorial_gate.md](feedback_fase0_editorial_gate.md) — Fase 0 editorial research is a hard gate: never assign authority/KG without web-based editorial investigation first

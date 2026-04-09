@@ -51,8 +51,8 @@
 - RSC BYU: 214 unique online books across 15 categories (full catalog in `proj/P4-corpus-expansion/05-source-registry.md`)
 - BYU Studies: 38 books (37 not yet in corpus) — was estimated 65, actual catalog has 38
 - MTP/Gutenberg: ~89 LDS titles not yet in corpus
-- Church site: Youth Music (blocked — API 404) + Ensign/Liahona (uninvestigated)
-- Total backlog: ~300+ distinct items (many RSC books overlap across categories)
+- Church site: Youth Music (blocked — API 404) + Ensign archive (uninvestigated); Liahona DONE (19,747 arts)
+- Total backlog: ~200+ distinct items (many RSC books overlap across categories)
 
 ## P4 File Structure (reorganized 2026-04-05)
 
