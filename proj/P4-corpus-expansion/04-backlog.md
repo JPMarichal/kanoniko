@@ -32,7 +32,7 @@ Para análisis detallado por material → `fase0/`.
 | Our Search for Happiness (M.R. Ballard) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Teachings of the Prophet Joseph Smith | 45 | MEDIA | Investigar: sitio oficial vs dominio público | — |
 | Doctrines of Salvation (JFS, 3 vols) | 45 | MEDIA | No en sitio oficial; investigar BYU/MTP | — |
-| Journal of Discourses (26 vols) | ? | BAJA | 1,426 discursos. Análisis técnico de fuente hecho; Fase 0 editorial pendiente (authority TBD). Solo EN. | `fase0/journal-of-discourses.md` |
+| Journal of Discourses (26 vols) | 20 | BAJA | 1,426 discursos, ~5M palabras. Fase 0 completa. Solo EN. No oficial, imprecisión documentada. | `fase0/journal-of-discourses.md` |
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
 | Ensign archive (1971-2020) | 60 | BAJA | Volumen enorme; separado de Liahona | — |
 | ~20 RSC BYU PDF-only | varies | BAJA | No disponibles para lectura online; requieren scraper de PDF o compra | — |
@@ -154,7 +154,7 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 | 🔵 **P4** | Women of Mormondom, Heroines, Lydia Knight, Rep. Women, Scrap Book Vol 2, Scraps of Biography | ✅ 178 files |
 | ⚪ **P5** | Mormon Doctrine (Penrose), Cowley's Talks, Gospel Themes, Plan of Salvation, Rays of Living Light, What Jesus Taught | ✅ 6 files |
 | ⚪ **Extra** | Blood Atonement, Story of Mormonism, Joseph Smith as Scientist, Latter-day Prophet for Young | ✅ 4 files |
-| ⚫ **P6** | Journal of Discourses (26 vols) | `backlog` — análisis técnico hecho (fuente, selectores, prueba), Fase 0 editorial pendiente |
+| ⚫ **P6** | Journal of Discourses (26 vols) | `researched` — Fase 0 completa, authority 20, fuente: journalofdiscourses.com |
 
 ---
 
