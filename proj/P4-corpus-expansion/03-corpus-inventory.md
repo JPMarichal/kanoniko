@@ -5,17 +5,20 @@ Para ver qué queda pendiente → `04-backlog.md`.
 Para catálogos de fuentes externas → `05-source-registry.md`.
 Para análisis detallados por material → `fase0/`.
 
-> Actualizado 2026-04-05 contra contenido real en disco.
+> Actualizado 2026-04-09 contra contenido real en disco.
 
 ## Estados
 
 | Estado | Significado |
 |--------|-------------|
 | `ingested` | En el corpus, indexado |
-| `prepared` | Investigado + script listo para ejecutar |
-| `researched` | Investigado, script pendiente |
+| `descargado` | En el corpus (archivos en disco), pendiente indexación |
+| `prepared` | Análisis técnico completo, script listo para ejecutar |
+| `researched` | Fase 0 completa: contexto editorial investigado, authority modelada, valor KG evaluado |
 | `backlog` | Identificado, requiere investigación |
 | `blocked` | No se puede proceder por impedimento técnico |
+
+> Protocolo completo de transiciones en `04-backlog.md`.
 
 ---
 
@@ -36,6 +39,13 @@ Para análisis detallados por material → `fase0/`.
 | Harmony of the Gospels | 8 partes + intro — EN+ES |
 | Bible Chronology (AT + NT) | intro + OT + NT — EN+ES |
 | Abbreviations | EN+ES |
+
+## Revistas
+
+| Material | Notas |
+|----------|-------|
+| Liahona EN (1977-2026) | 11,975 artículos (excl. conferencia general deduplicada) |
+| Liahona ES (2002-2026) | 7,772 artículos |
 
 ## Manuales y materiales oficiales
 
