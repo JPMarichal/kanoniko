@@ -129,19 +129,19 @@ The pipeline automatically backs up SQLite and Neo4j before any indexing run. No
 |-------|----------|-------|
 | Source code | `src/`, `docker/`, `scripts/` | |
 | Corpus | `corpus/` | Bind-mounted, full text in git |
-| SQLite DB | pCloud (`Backups/alejandria/alejandria.db.gz`, ~625 MB) | Derived artifact, NOT in git; download via `scripts/pcloud-pull.sh db` |
+| SQLite DB | GitHub Release (`backup-*`, ~1.4 GB compressed) | Derived artifact, NOT in git; download via `scripts/backup-pull.sh db` |
 | Gazetteers | `data/gazetteers/` | 7 NER assets, hard to rebuild |
 | Project memory | `docs/project-memory/` | Primary source — tracked directly in git |
 | Skills/hooks | `.claude/` | |
-| Secrets | **NOT in git** — backed up to pCloud (`Backups/alejandria-secrets/.env`) | Download via `scripts/pcloud-pull.sh secrets` |
+| Secrets | **NOT in git** — encrypted (`env.enc`) in GitHub Release | Download via `scripts/backup-pull.sh secrets`, decrypt with `openssl` passphrase |
 
-**IMPORTANT:** The raw `data/sqlite/alejandria.db` on Windows is **NOT the source of truth** — it's gitignored and may be stale. The authoritative DB is in the GPU container at `/home/jpmarichal/alejandria-data/sqlite/alejandria.db`. The DB is stored in pCloud (not Git LFS) to avoid bandwidth limits.
+**IMPORTANT:** The raw `data/sqlite/alejandria.db` on Windows is **NOT the source of truth** — it's gitignored and may be stale. The authoritative DB is in the GPU container at `/home/jpmarichal/alejandria-data/sqlite/alejandria.db`. The DB is stored as GitHub Release assets (not Git LFS) to avoid bandwidth limits.
 
 ### Recovery Procedures
 - **SQLite lost:** `gunzip -k data/sqlite/alejandria.db.gz` or restore from backup endpoint
 - **Vectors lost:** `POST /index/rebuild-vectors` (~5 min on GPU) — rebuilds sqlite-vec table from chunk text
 - **Neo4j lost:** `POST /backup/neo4j/restore?filename=...` or rebuild from SQLite via reindex (~3h)
-- **Full disaster:** Clone repo, `bash scripts/pcloud-pull.sh all`, `docker compose up`, data is in git
+- **Full disaster:** Clone repo, `bash scripts/backup-pull.sh all`, decrypt `.env`, `docker compose up`, data is in git
 - **NEVER run full reindex casually** — it takes 7+ hours and deletes existing data first. Always use incremental.
 - **Incremental is fast** (~2-3 sec/file for new material). Only `force: true` is slow (~2h for 7K files on CPU).
 - **`/index/status` ETA underestimates** — it only tracks Phase 1 (parse/FTS). Phases 2+3 (vectors/KG) can add significant time on CPU.
