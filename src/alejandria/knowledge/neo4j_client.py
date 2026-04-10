@@ -259,6 +259,94 @@ class Neo4jClient:
                 links=links,
             )
 
+    def batch_delete_documents(self, file_paths: list[str]) -> None:
+        """Batch delete documents and their relationships.
+
+        More efficient than per-file delete_document_relations() — single session,
+        single query for all documents.
+        """
+        if not file_paths:
+            return
+        with self._driver.session() as session:
+            session.run(
+                "UNWIND $paths AS fp "
+                "MATCH (d:Document {file_path: fp}) "
+                "DETACH DELETE d",
+                paths=file_paths,
+            )
+
+    def batch_write_all(
+        self,
+        delete_paths: list[str],
+        documents: list[dict],
+        entities: list[dict],
+        links: list[dict],
+        relations: list[dict],
+    ) -> None:
+        """Write all KG data in a single session (minimizes connection overhead).
+
+        Combines delete + merge documents + merge entities + link + merge relations
+        into one session with sequential queries.
+        """
+        with self._driver.session() as session:
+            if delete_paths:
+                session.run(
+                    "UNWIND $paths AS fp "
+                    "MATCH (d:Document {file_path: fp}) "
+                    "DETACH DELETE d",
+                    paths=delete_paths,
+                )
+            if documents:
+                session.run(
+                    "UNWIND $docs AS d "
+                    "MERGE (n:Document {file_path: d.file_path}) "
+                    "SET n.source = d.source",
+                    docs=documents,
+                )
+            if entities:
+                session.run(
+                    "UNWIND $entities AS e "
+                    "MERGE (n:Entity {name: e.name, type: e.type}) "
+                    "ON CREATE SET n.aliases = e.aliases "
+                    "ON MATCH SET n.aliases = "
+                    "  CASE WHEN n.aliases IS NULL THEN e.aliases "
+                    "  ELSE [x IN n.aliases WHERE NOT x IN e.aliases] + e.aliases END",
+                    entities=entities,
+                )
+            if links:
+                session.run(
+                    "UNWIND $links AS l "
+                    "MATCH (e:Entity {name: l.entity_name, type: l.entity_type}) "
+                    "MATCH (d:Document {file_path: l.file_path}) "
+                    "MERGE (e)-[r:MENTIONED_IN]->(d) "
+                    "SET r.resolved_name = CASE WHEN l.resolved_name IS NOT NULL THEN l.resolved_name ELSE r.resolved_name END, "
+                    "    r.confidence = CASE WHEN l.confidence IS NOT NULL THEN l.confidence ELSE r.confidence END",
+                    links=links,
+                )
+            if relations:
+                by_type: dict[str, list[dict]] = {}
+                for r in relations:
+                    by_type.setdefault(r["rel_type"], []).append(r)
+                for rel_type, rels in by_type.items():
+                    batch = [
+                        {
+                            "from_name": r["from_name"],
+                            "from_type": r["from_type"],
+                            "to_name": r["to_name"],
+                            "to_type": r["to_type"],
+                            "props": r.get("props", {}),
+                        }
+                        for r in rels
+                    ]
+                    session.run(
+                        "UNWIND $rels AS r "
+                        "MERGE (a:Entity {name: r.from_name, type: r.from_type}) "
+                        "MERGE (b:Entity {name: r.to_name, type: r.to_type}) "
+                        f"MERGE (a)-[rel:{rel_type}]->(b) "
+                        "SET rel += r.props",
+                        rels=batch,
+                    )
+
     def delete_document_relations(self, file_path: str) -> None:
         """Delete all relationships involving a document and orphaned entities."""
         with self._driver.session() as session:
