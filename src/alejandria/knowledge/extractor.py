@@ -98,6 +98,16 @@ _CITATION_AFTER_RE = re.compile(
     r"\.?\s*\d+(?::\d+(?:\s*[-–,]\s*\d+)*)?(?:\s*\([^)]+\))?"
 )
 
+# Cross-reference patterns for reference works (encyclopedias, dictionaries)
+# Matches: "See ALEPH", "See also ABBA", "compare BAPTISM", "cf. PRIEST"
+# Also matches inline: "(see NOACH)", "(compare TEMPLE)"
+# Captures the referenced entry name (uppercase headwords, possibly with 's, spaces, commas)
+_XREF_RE = re.compile(
+    r"(?:[Ss]ee(?:\s+also)?|[Cc]ompare(?:\s+with)?|[Cc]f\.?)\s+"
+    r"([A-Z][A-Z' ,;]*[A-Z)]?(?<=[A-Z]))",
+    re.MULTILINE,
+)
+
 
 @dataclass
 class ExtractedEntity:
@@ -371,14 +381,17 @@ class KGExtractor:
             logger.info("spaCy not installed — using gazetteer only")
             self._ner_available = False
 
-    def extract(self, text: str, source_file: str = "") -> ExtractionResult:
+    def extract(self, text: str, source_file: str = "", *, reference_mode: bool = False) -> ExtractionResult:
         """Extract entities, relations, and scripture references from text.
 
         Pipeline:
         1. Gazetteer matching (precise, curated)
         2. spaCy NER (auto-discovery of unknown entities)
         3. Scripture citation regex
-        4. Co-occurrence relation inference
+        4. Co-occurrence relation inference (or cross-reference parsing in reference_mode)
+
+        When reference_mode=True (encyclopedias, dictionaries), skips O(n²) co-occurrence
+        relation generation and instead parses explicit cross-references (See X, cf. Y).
         """
         result = ExtractionResult()
         text_lower = text.lower()
@@ -506,17 +519,31 @@ class KGExtractor:
                     name=ref, type="scripture", source="regex",
                 ))
 
-        # 4. Relation extraction (co-occurrence based)
-        result.relations = self._extract_relations(result.entities, is_handbook=is_handbook)
+        # 4. Relation extraction
+        if reference_mode:
+            # Reference works: parse cross-references instead of O(n²) co-occurrences
+            # Detect headword from first ## heading in text as source entity
+            headword_match = re.search(r"^##\s+(.+)$", text, re.MULTILINE)
+            headword = headword_match.group(1).strip() if headword_match else None
+            xref_ents, xref_rels = self._extract_cross_references(
+                text, source_entity=headword, source_type="concept",
+            )
+            for ent in xref_ents:
+                key = f"{ent.name}:{ent.type}"
+                if key not in found_entities:
+                    result.entities.append(ent)
+            result.relations = xref_rels
+        else:
+            result.relations = self._extract_relations(result.entities, is_handbook=is_handbook)
 
-        # 4b. Append handbook pattern-matched relations (deduplicated)
-        if is_handbook and handbook_rels:
-            seen = {(r.from_entity, r.relation, r.to_entity) for r in result.relations}
-            for rel in handbook_rels:
-                key = (rel.from_entity, rel.relation, rel.to_entity)
-                if key not in seen:
-                    result.relations.append(rel)
-                    seen.add(key)
+            # 4b. Append handbook pattern-matched relations (deduplicated)
+            if is_handbook and handbook_rels:
+                seen = {(r.from_entity, r.relation, r.to_entity) for r in result.relations}
+                for rel in handbook_rels:
+                    key = (rel.from_entity, rel.relation, rel.to_entity)
+                    if key not in seen:
+                        result.relations.append(rel)
+                        seen.add(key)
 
         # 5. Disambiguate entity mentions (P7)
         try:
@@ -532,6 +559,226 @@ class KGExtractor:
             pass  # disambiguator not available yet
 
         return result
+
+    def extract_batch(self, texts: list[str], source_file: str = "", *, reference_mode: bool = False) -> list[ExtractionResult]:
+        """Batch-extract entities from multiple texts using nlp.pipe().
+
+        Same logic as extract() but batches the spaCy NER calls for ~2-5x speedup.
+        All non-spaCy stages (gazetteer, scripture regex, relations, disambiguation)
+        run per-text as before.
+        """
+        if not texts:
+            return []
+
+        # Detect language once for the whole batch (same source_file)
+        lang = "en"
+        if source_file:
+            parts = source_file.replace("\\", "/").split("/")
+            if parts and parts[0] == "es":
+                lang = "es"
+
+        is_handbook = source_file and (
+            "manuals/general-handbook" in source_file.replace("\\", "/")
+        )
+
+        # Stage 1: Gazetteer matching for all texts (pure regex, fast)
+        pre_ner: list[tuple[str, str, dict, set, bool, list]] = []
+        for text in texts:
+            text_lower = text.lower()
+            found_entities: dict[str, ExtractedEntity] = {}
+            gazetteer_spans: set[tuple[int, int]] = set()
+
+            # 1a. Gazetteer regex
+            if self._gazetteer_re:
+                for match in self._gazetteer_re.finditer(text_lower):
+                    term = match.group(1).lower()
+                    after = text_lower[match.end():]
+                    if _CITATION_AFTER_RE.match(after):
+                        continue
+                    for canonical, entity_type in self._lookup.get(term, []):
+                        key = f"{canonical}:{entity_type}"
+                        if key not in found_entities:
+                            found_entities[key] = ExtractedEntity(
+                                name=canonical, type=entity_type,
+                                span=(match.start(), match.end()), source="gazetteer",
+                            )
+                            gazetteer_spans.add((match.start(), match.end()))
+
+            # 1b. Contextual phrases
+            for canonical, entity_type, patterns in _CONTEXTUAL_PHRASES:
+                key = f"{canonical}:{entity_type}"
+                if key in found_entities:
+                    continue
+                for pat in patterns:
+                    m = pat.search(text)
+                    if m:
+                        found_entities[key] = ExtractedEntity(
+                            name=canonical, type=entity_type,
+                            span=(m.start(), m.end()), source="gazetteer_contextual",
+                        )
+                        break
+
+            # 1c. Cross-language stopwords
+            cross_lookup = self._en_only_stopwords if lang == "es" else self._es_only_stopwords
+            for term, candidates in cross_lookup.items():
+                pattern = r"\b" + re.escape(term) + r"\b"
+                if re.search(pattern, text_lower):
+                    for canonical, entity_type in candidates:
+                        key = f"{canonical}:{entity_type}"
+                        if key not in found_entities:
+                            found_entities[key] = ExtractedEntity(
+                                name=canonical, type=entity_type,
+                                span=(0, 0), source="gazetteer_crosslang",
+                            )
+
+            # 2b. Handbook-specific entities
+            handbook_rels: list = []
+            if is_handbook:
+                self._extract_handbook_entities(text, text_lower, found_entities)
+                handbook_rels = self._extract_handbook_relations(text, found_entities)
+
+            pre_ner.append((text, text_lower, found_entities, gazetteer_spans, is_handbook, handbook_rels))
+
+        # Stage 2: Batch spaCy NER via nlp.pipe()
+        self._load_ner_models()
+        if self._ner_available:
+            nlp = self._nlp_es if lang == "es" and self._nlp_es else self._nlp_en
+            if nlp:
+                docs = list(nlp.pipe([t[0] for t in pre_ner], batch_size=64))
+                for idx, doc in enumerate(docs):
+                    text, text_lower, found_entities, gazetteer_spans, _, _ = pre_ner[idx]
+                    ner_entities = self._process_ner_doc(doc, found_entities, gazetteer_spans, text)
+                    for entity in ner_entities:
+                        key = f"{entity.name}:{entity.type}"
+                        if key not in found_entities:
+                            found_entities[key] = entity
+                            self._track_ner_candidate(entity.name, entity.type, source_file)
+
+        # Stage 3-5: Post-NER processing per text
+        results: list[ExtractionResult] = []
+        try:
+            from alejandria.knowledge.disambiguator import Disambiguator
+            _disambiguator = Disambiguator()
+        except ImportError:
+            _disambiguator = None
+
+        for text, text_lower, found_entities, gazetteer_spans, is_handbook, handbook_rels in pre_ner:
+            result = ExtractionResult()
+            result.entities = list(found_entities.values())
+
+            # Handbook xrefs
+            if is_handbook:
+                for m in _HANDBOOK_XREF_RE.finditer(text):
+                    result.handbook_xrefs.append(m.group(1))
+
+            # 3. Scripture citations
+            for match in _SCRIPTURE_RE.finditer(text):
+                ref = match.group(1).strip()
+                result.scripture_refs.append(ref)
+                key = f"{ref}:scripture"
+                if key not in found_entities:
+                    result.entities.append(ExtractedEntity(
+                        name=ref, type="scripture", source="regex",
+                    ))
+
+            # 4. Relations
+            if reference_mode:
+                headword_match = re.search(r"^##\s+(.+)$", text, re.MULTILINE)
+                headword = headword_match.group(1).strip() if headword_match else None
+                xref_ents, xref_rels = self._extract_cross_references(
+                    text, source_entity=headword, source_type="concept",
+                )
+                for ent in xref_ents:
+                    key = f"{ent.name}:{ent.type}"
+                    if key not in found_entities:
+                        result.entities.append(ent)
+                result.relations = xref_rels
+            else:
+                result.relations = self._extract_relations(result.entities, is_handbook=is_handbook)
+                if is_handbook and handbook_rels:
+                    seen = {(r.from_entity, r.relation, r.to_entity) for r in result.relations}
+                    for rel in handbook_rels:
+                        key = (rel.from_entity, rel.relation, rel.to_entity)
+                        if key not in seen:
+                            result.relations.append(rel)
+                            seen.add(key)
+
+            # 5. Disambiguation
+            if _disambiguator:
+                for entity in result.entities:
+                    mention = _disambiguator.resolve(entity.name, entity.type, text, source_file)
+                    if mention and mention.confidence in ("high", "medium"):
+                        result.disambiguations[entity.name] = mention.resolved_name
+                        if mention.entity_type_resolved:
+                            result.disambiguated_types[entity.name] = mention.entity_type_resolved
+
+            results.append(result)
+
+        return results
+
+    def _process_ner_doc(
+        self,
+        doc,
+        found_entities: dict[str, ExtractedEntity],
+        gazetteer_spans: set[tuple[int, int]],
+        text: str,
+    ) -> list[ExtractedEntity]:
+        """Process a pre-computed spaCy Doc into entities (same filters as _extract_ner)."""
+        entities: list[ExtractedEntity] = []
+
+        known_names_lower = set()
+        for key in found_entities:
+            name = key.split(":")[0]
+            known_names_lower.add(name.lower())
+            for word in name.lower().split():
+                if len(word) > 2:
+                    known_names_lower.add(word)
+
+        for ent in doc.ents:
+            entity_type = _SPACY_LABEL_MAP.get(ent.label_)
+            if entity_type is None:
+                continue
+            name = ent.text.strip()
+            if len(name) < _MIN_ENTITY_LEN:
+                continue
+            if name.lower() in _NER_STOPWORDS:
+                continue
+            if name.lower() in known_names_lower:
+                continue
+            if name.replace(" ", "").isdigit():
+                continue
+            if re.match(r"^\d+\s+\w", name):
+                continue
+            if re.search(
+                r"\b(?:hath|begat|saith|spake|smote|doth|shalt|wilt|cometh|goeth|maketh|taketh|dwelt)\b",
+                name, re.IGNORECASE,
+            ):
+                continue
+            name = re.sub(r"^\d+\s+", "", name).strip()
+            if len(name) < _MIN_ENTITY_LEN:
+                continue
+            if "http://" in name or "https://" in name:
+                continue
+            if name.startswith("BD "):
+                continue
+            if name.startswith("See ") or " See " in name or name.endswith(" See"):
+                continue
+            if len(name) > 60:
+                continue
+            if re.match(r'^[Tt]he\s+"', name):
+                continue
+            after_ner = text[ent.end_char:]
+            if _CITATION_AFTER_RE.match(after_ner):
+                continue
+
+            key = f"{name}:{entity_type}"
+            if key not in found_entities:
+                entities.append(ExtractedEntity(
+                    name=name, type=entity_type,
+                    span=(ent.start_char, ent.end_char), source="ner",
+                ))
+
+        return entities
 
     def _extract_handbook_entities(
         self,
@@ -741,6 +988,65 @@ class KGExtractor:
             self._ner_tracker.record(name, entity_type, source_file)
         except Exception:
             pass  # Don't fail extraction due to tracking issues
+
+    def _extract_cross_references(
+        self,
+        text: str,
+        source_entity: str | None = None,
+        source_type: str = "concept",
+    ) -> tuple[list[ExtractedEntity], list[ExtractedRelation]]:
+        """Extract cross-reference relations from reference works (encyclopedias, dictionaries).
+
+        Parses patterns like "See ALEPH", "See also BAPTISM", "cf. PRIEST"
+        and returns entities + SEE_ALSO/COMPARE_WITH relations.
+
+        Returns (new_entities, relations).
+        """
+        entities: list[ExtractedEntity] = []
+        relations: list[ExtractedRelation] = []
+        seen_refs: set[str] = set()
+
+        for match in _XREF_RE.finditer(text):
+            raw = match.group(1).strip().rstrip(",;. ")
+            if not raw or len(raw) < 2:
+                continue
+
+            # Split multiple references: "See ALEPH; ALPHABET"
+            ref_parts = [r.strip().rstrip(",;. ") for r in re.split(r"[;,]", raw)]
+
+            # Determine relation type from the prefix
+            prefix = match.group(0).lower()
+            if "compare" in prefix or "cf" in prefix:
+                rel_type = "COMPARE_WITH"
+            else:
+                rel_type = "SEE_ALSO"
+
+            for ref_name in ref_parts:
+                if not ref_name or len(ref_name) < 2:
+                    continue
+                # Normalize: title case for entity name
+                normalized = ref_name.strip().title()
+                if normalized in seen_refs:
+                    continue
+                seen_refs.add(normalized)
+
+                entities.append(ExtractedEntity(
+                    name=normalized,
+                    type="concept",
+                    span=(0, 0),
+                    source="cross_reference",
+                ))
+
+                if source_entity:
+                    relations.append(ExtractedRelation(
+                        from_entity=source_entity,
+                        from_type=source_type,
+                        relation=rel_type,
+                        to_entity=normalized,
+                        to_type="concept",
+                    ))
+
+        return entities, relations
 
     def _extract_relations(
         self,

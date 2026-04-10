@@ -122,7 +122,7 @@ def ingest_paths(
 
     def _run_in_background():
         try:
-            pipeline.ingest_paths(req.paths, force=req.force)
+            pipeline.ingest_paths(req.paths, force=req.force, skip_kg=req.skip_kg, kg_flush_interval=req.kg_flush_interval)
         except RuntimeError as e:
             logger.warning("Ingest rejected: %s", e)
         except Exception:

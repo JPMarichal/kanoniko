@@ -237,13 +237,14 @@ class IngestionPipeline:
     # Sources to preserve in Neo4j during full reindex
     PRESERVED_NEO4J_SOURCES = ["topical_guide"]
 
-    def ingest_paths(self, paths: list[str], *, force: bool = False) -> IndexingStats:
+    def ingest_paths(self, paths: list[str], *, force: bool = False, skip_kg: bool = False, kg_flush_interval: int = 15) -> IndexingStats:
         """Index specific corpus paths (files or directories) without scanning the full corpus.
 
         Args:
             paths: Relative corpus paths (e.g. ["en/proclamations/", "es/proclamations/doc.txt"]).
                    Directories are expanded to all supported files within.
             force: If True, re-index even if the file hash hasn't changed.
+            skip_kg: If True, skip Phase 3 KG extraction (NER+Neo4j) — only FTS+vectors.
 
         Raises:
             RuntimeError: If another indexing run is already in progress.
@@ -252,11 +253,11 @@ class IngestionPipeline:
             raise RuntimeError("Indexing already in progress")
 
         try:
-            return self._ingest_paths_impl(paths, force=force)
+            return self._ingest_paths_impl(paths, force=force, skip_kg=skip_kg, kg_flush_interval=kg_flush_interval)
         finally:
             self._index_lock.release()
 
-    def _ingest_paths_impl(self, paths: list[str], *, force: bool = False) -> IndexingStats:
+    def _ingest_paths_impl(self, paths: list[str], *, force: bool = False, skip_kg: bool = False, kg_flush_interval: int = 15) -> IndexingStats:
         """Internal implementation for targeted path ingestion."""
         stats = IndexingStats()
         self.progress = IndexingProgress(running=True, start_time=time.time())
@@ -404,19 +405,136 @@ class IngestionPipeline:
             self.progress.phase_3_chunks_total = sum(len(fd.chunks) for fd in file_data_list)
             self.progress.phase_3_chunks_done = 0
             self.progress._phase_3_window.clear()
+
+            # Cross-file KG accumulators with async small-batch flush
+            KG_FLUSH_INTERVAL = kg_flush_interval  # configurable: 15 for normal, 2-3 for entity-dense (ISBE)
+            KG_CHUNK_FLUSH_THRESHOLD = 500  # flush when accumulated chunks exceed this, even mid-file
+            kg_accumulated_chunks = 0
+            kg_ents: list[dict] = []
+            kg_lnks: list[dict] = []
+            kg_rels: list[dict] = []
+            kg_docs: list[dict] = []
+            kg_delete_paths: list[str] = []
+            kg_seen_ents: set[tuple[str, str]] = set()
+            kg_seen_lnks: set[tuple[str, str, str]] = set()
+            kg_seen_rels: set[tuple[str, str, str, str, str]] = set()
+            kg_file_count = 0
+            _flush_thread: threading.Thread | None = None
+            _flush_error: Exception | None = None
+
+            def _do_flush(
+                del_paths: list[str], docs: list[dict],
+                ents: list[dict], lnks: list[dict], rels: list[dict],
+                n_files: int,
+            ):
+                """Neo4j write in background thread."""
+                nonlocal _flush_error
+                try:
+                    neo4j = self._neo4j
+                    if neo4j:
+                        neo4j.batch_write_all(
+                            delete_paths=del_paths,
+                            documents=docs,
+                            entities=ents,
+                            links=lnks,
+                            relations=rels,
+                        )
+                        logger.info(
+                            "KG flush: %d files, %d entities, %d links, %d relations",
+                            n_files, len(ents), len(lnks), len(rels),
+                        )
+                except Exception as exc:
+                    logger.exception("KG flush failed")
+                    _flush_error = exc
+
+            def _flush_kg(*, wait_only: bool = False):
+                """Swap buffers and launch async flush. If wait_only, just wait for pending."""
+                nonlocal kg_ents, kg_lnks, kg_rels, kg_docs, kg_delete_paths
+                nonlocal kg_seen_ents, kg_seen_lnks, kg_seen_rels, kg_file_count
+                nonlocal _flush_thread, _flush_error
+
+                # Wait for any previous flush to finish before swapping
+                if _flush_thread is not None:
+                    _flush_thread.join()
+                    _flush_thread = None
+                    if _flush_error:
+                        raise _flush_error
+
+                if wait_only or (not kg_docs and not kg_delete_paths):
+                    return
+
+                # Swap buffers: hand off current data to flush thread, reset accumulators
+                flush_del = kg_delete_paths
+                flush_docs = kg_docs
+                flush_ents = kg_ents
+                flush_lnks = kg_lnks
+                flush_rels = kg_rels
+                flush_n = kg_file_count
+
+                # Reset accumulators for next batch (seen sets keep growing for dedup)
+                kg_ents = []
+                kg_lnks = []
+                kg_rels = []
+                kg_docs = []
+                kg_delete_paths = []
+                # Note: seen_ents/seen_lnks/seen_rels persist across flushes for dedup
+                kg_file_count = 0
+                kg_accumulated_chunks = 0
+
+                _flush_thread = threading.Thread(
+                    target=_do_flush,
+                    args=(flush_del, flush_docs, flush_ents, flush_lnks, flush_rels, flush_n),
+                    daemon=True, name="kg-flush",
+                )
+                _flush_thread.start()
+
             for i, fd in enumerate(file_data_list):
                 self.progress.current_file = fd.rel_path
-                try:
-                    self._index_file_data(fd)
-                except Exception:
-                    logger.exception("Error indexing %s", fd.rel_path)
-                    stats.errors += 1
+                n_chunks = len(fd.chunks)
+
+                # For large files, process NER in sub-batches to limit memory
+                if n_chunks > KG_CHUNK_FLUSH_THRESHOLD and not skip_kg and self._neo4j and self._kg_extractor:
+                    try:
+                        self._index_file_data_chunked(
+                            fd, chunk_batch_size=KG_CHUNK_FLUSH_THRESHOLD,
+                            kg_ents=kg_ents, kg_lnks=kg_lnks, kg_rels=kg_rels,
+                            kg_docs=kg_docs, kg_delete_paths=kg_delete_paths,
+                            kg_seen_ents=kg_seen_ents, kg_seen_lnks=kg_seen_lnks,
+                            kg_seen_rels=kg_seen_rels,
+                            flush_callback=_flush_kg,
+                        )
+                        kg_file_count += 1
+                    except Exception:
+                        logger.exception("Error indexing %s", fd.rel_path)
+                        stats.errors += 1
+                else:
+                    try:
+                        self._index_file_data(
+                            fd, skip_kg=skip_kg,
+                            kg_ents=kg_ents, kg_lnks=kg_lnks, kg_rels=kg_rels,
+                            kg_docs=kg_docs, kg_delete_paths=kg_delete_paths,
+                            kg_seen_ents=kg_seen_ents, kg_seen_lnks=kg_seen_lnks,
+                            kg_seen_rels=kg_seen_rels,
+                        )
+                        kg_file_count += 1
+                        kg_accumulated_chunks += n_chunks
+                    except Exception:
+                        logger.exception("Error indexing %s", fd.rel_path)
+                        stats.errors += 1
 
                 self.progress.phase_3_done = i + 1
-                self.progress.phase_3_chunks_done += len(fd.chunks)
+                self.progress.phase_3_chunks_done += n_chunks
                 self.progress._phase_3_window.append(
                     (time.time(), self.progress.phase_3_chunks_done)
                 )
+
+                # Periodic async flush to Neo4j — by file count OR chunk count
+                if kg_file_count >= KG_FLUSH_INTERVAL or kg_accumulated_chunks >= KG_CHUNK_FLUSH_THRESHOLD:
+                    _flush_kg()
+
+            # Final flush (blocking — must complete before returning)
+            _flush_kg()
+            _flush_kg(wait_only=True)
 
             self.progress.files_processed = len(to_process)
 
@@ -426,9 +544,9 @@ class IngestionPipeline:
                     logger.info("Marked %d entity profiles as stale", staled)
 
             logger.info(
-                "Targeted ingest complete: new=%d updated=%d errors=%d chunks=%d in %.1fs",
+                "Targeted ingest complete: new=%d updated=%d errors=%d chunks=%d in %.1fs%s",
                 stats.new_files, stats.updated_files, stats.errors, stats.total_chunks,
-                self.progress.elapsed,
+                self.progress.elapsed, " (skip_kg)" if skip_kg else "",
             )
             return stats
 
@@ -823,8 +941,113 @@ class IngestionPipeline:
         self._fts_insert(fd, conn)
         return fd
 
-    def _index_file_data(self, fd: _FileData) -> None:
-        """Phase 3: Upsert vectors to sqlite-vec + KG extraction to Neo4j."""
+    def _index_file_data_chunked(
+        self, fd: _FileData, *, chunk_batch_size: int = 500,
+        kg_ents: list[dict], kg_lnks: list[dict],
+        kg_rels: list[dict], kg_docs: list[dict],
+        kg_delete_paths: list[str],
+        kg_seen_ents: set[tuple[str, str]],
+        kg_seen_lnks: set[tuple[str, str, str]],
+        kg_seen_rels: set[tuple[str, str, str, str, str]],
+        flush_callback=None,
+    ) -> None:
+        """Phase 3 for large files: process NER in sub-batches with mid-file flushes.
+
+        This avoids OOM by flushing KG accumulators every chunk_batch_size chunks
+        instead of accumulating all entities/relations for a 1000-chunk file.
+        """
+        # sqlite-vec upsert (same as _index_file_data)
+        if self._semantic and _SEMANTIC_AVAILABLE and fd.vectors is not None:
+            auth_dict = fd.auth_meta.to_dict()
+            payloads = [
+                {
+                    "text": c.text,
+                    "file_path": fd.rel_path,
+                    "chunk_index": c.index,
+                    "source": fd.source,
+                    "reference": ref,
+                    **({"lang": fd.lang} if fd.lang else {}),
+                    "authority": auth_dict["authority"],
+                    "rigor": auth_dict["rigor"],
+                    "importance": auth_dict["importance"],
+                    "official": auth_dict["official"],
+                }
+                for c, ref in zip(fd.chunks, fd.chunk_references)
+            ]
+            self._semantic.upsert_chunks(
+                ids=fd.chunk_ids,
+                vectors=[v.tolist() for v in fd.vectors],
+                payloads=payloads,
+            )
+
+        # KG: register document once, then process chunks in sub-batches
+        kg_delete_paths.append(fd.rel_path)
+        kg_docs.append({"file_path": fd.rel_path, "source": fd.source})
+
+        chunk_texts = [chunk.text for chunk in fd.chunks]
+        total_chunks = len(chunk_texts)
+
+        for batch_start in range(0, total_chunks, chunk_batch_size):
+            batch_end = min(batch_start + chunk_batch_size, total_chunks)
+            batch_texts = chunk_texts[batch_start:batch_end]
+
+            ref_mode = _is_reference_work(fd.rel_path)
+            extractions = self._kg_extractor.extract_batch(
+                batch_texts, source_file=fd.rel_path, reference_mode=ref_mode,
+            )
+
+            for extraction in extractions:
+                for entity in extraction.entities:
+                    ekey = (entity.name, entity.type)
+                    if ekey not in kg_seen_ents:
+                        kg_seen_ents.add(ekey)
+                        kg_ents.append({"name": entity.name, "type": entity.type, "aliases": []})
+                    lkey = (entity.name, entity.type, fd.rel_path)
+                    if lkey not in kg_seen_lnks:
+                        kg_seen_lnks.add(lkey)
+                        link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": fd.rel_path}
+                        if entity.name in extraction.disambiguations:
+                            link["resolved_name"] = extraction.disambiguations[entity.name]
+                            link["confidence"] = "high"
+                        if entity.name in extraction.disambiguated_types:
+                            link["entity_type"] = extraction.disambiguated_types[entity.name]
+                        kg_lnks.append(link)
+                for rel in extraction.relations:
+                    rkey = (rel.from_entity, rel.from_type, rel.relation, rel.to_entity, rel.to_type)
+                    if rkey not in kg_seen_rels:
+                        kg_seen_rels.add(rkey)
+                        kg_rels.append({
+                            "from_name": rel.from_entity, "from_type": rel.from_type,
+                            "rel_type": rel.relation,
+                            "to_name": rel.to_entity, "to_type": rel.to_type,
+                            "props": {},
+                        })
+
+            # Mid-file flush: if accumulated enough data, flush to Neo4j
+            if flush_callback and batch_end < total_chunks:
+                logger.info(
+                    "Mid-file flush at chunk %d/%d of %s: %d ents, %d rels",
+                    batch_end, total_chunks, fd.rel_path, len(kg_ents), len(kg_rels),
+                )
+                flush_callback()
+
+        # Note: meta.json enrichment for conference talks not applicable to ISBE
+        # (ISBE files have no meta_json). If needed for other large files, add here.
+
+    def _index_file_data(
+        self, fd: _FileData, *, skip_kg: bool = False,
+        kg_ents: list[dict] | None = None, kg_lnks: list[dict] | None = None,
+        kg_rels: list[dict] | None = None, kg_docs: list[dict] | None = None,
+        kg_delete_paths: list[str] | None = None,
+        kg_seen_ents: set[tuple[str, str]] | None = None,
+        kg_seen_lnks: set[tuple[str, str, str]] | None = None,
+        kg_seen_rels: set[tuple[str, str, str, str, str]] | None = None,
+    ) -> None:
+        """Phase 3: Upsert vectors to sqlite-vec + KG extraction to Neo4j.
+
+        When kg_* accumulators are provided, appends data instead of writing
+        to Neo4j immediately — caller is responsible for flushing.
+        """
         # sqlite-vec upsert (vectors were computed in phase 2)
         if self._semantic and _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
@@ -860,17 +1083,37 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
-        # Neo4j KG extraction (batched per file)
-        if self._neo4j and self._kg_extractor:
-            self._neo4j.delete_document_relations(fd.rel_path)
-            self._neo4j.batch_merge_documents([{"file_path": fd.rel_path, "source": fd.source}])
-            batch_ents: list[dict] = []
-            batch_lnks: list[dict] = []
-            batch_rels: list[dict] = []
-            seen_ents: set[tuple[str, str]] = set()
-            seen_lnks: set[tuple[str, str, str]] = set()
-            for chunk in fd.chunks:
-                extraction = self._kg_extractor.extract(chunk.text, source_file=fd.rel_path)
+        # Neo4j KG extraction
+        if self._neo4j and self._kg_extractor and not skip_kg:
+            # Use cross-file accumulators if provided, else per-file (legacy)
+            use_accumulators = kg_ents is not None
+            if use_accumulators:
+                batch_ents = kg_ents
+                batch_lnks = kg_lnks
+                batch_rels = kg_rels
+                seen_ents = kg_seen_ents
+                seen_lnks = kg_seen_lnks
+                seen_rels = kg_seen_rels
+                kg_delete_paths.append(fd.rel_path)
+                kg_docs.append({"file_path": fd.rel_path, "source": fd.source})
+            else:
+                self._neo4j.delete_document_relations(fd.rel_path)
+                self._neo4j.batch_merge_documents([{"file_path": fd.rel_path, "source": fd.source}])
+                batch_ents = []
+                batch_lnks = []
+                batch_rels = []
+                seen_ents = set()
+                seen_lnks = set()
+                seen_rels = set()
+
+            # Batch NER via nlp.pipe() instead of per-chunk nlp() calls
+            chunk_texts = [chunk.text for chunk in fd.chunks]
+            ref_mode = _is_reference_work(fd.rel_path)
+            extractions = self._kg_extractor.extract_batch(
+                chunk_texts, source_file=fd.rel_path, reference_mode=ref_mode,
+            )
+
+            for extraction in extractions:
                 for entity in extraction.entities:
                     ekey = (entity.name, entity.type)
                     if ekey not in seen_ents:
@@ -887,12 +1130,15 @@ class IngestionPipeline:
                             link["entity_type"] = extraction.disambiguated_types[entity.name]
                         batch_lnks.append(link)
                 for rel in extraction.relations:
-                    batch_rels.append({
-                        "from_name": rel.from_entity, "from_type": rel.from_type,
-                        "rel_type": rel.relation,
-                        "to_name": rel.to_entity, "to_type": rel.to_type,
-                        "props": {},
-                    })
+                    rkey = (rel.from_entity, rel.from_type, rel.relation, rel.to_entity, rel.to_type)
+                    if rkey not in seen_rels:
+                        seen_rels.add(rkey)
+                        batch_rels.append({
+                            "from_name": rel.from_entity, "from_type": rel.from_type,
+                            "rel_type": rel.relation,
+                            "to_name": rel.to_entity, "to_type": rel.to_type,
+                            "props": {},
+                        })
 
             # Conference-specific KG enrichment: DELIVERED_BY + CITES
             if fd.conference_talk:
@@ -1013,9 +1259,12 @@ class IngestionPipeline:
                     seen_ents, seen_lnks,
                 )
 
-            self._neo4j.batch_merge_entities(batch_ents)
-            self._neo4j.batch_link_entities_to_document(batch_lnks)
-            self._neo4j.batch_merge_relations(batch_rels)
+            # Write immediately only in legacy (per-file) mode;
+            # accumulator mode defers writes to the caller's _flush_kg()
+            if not use_accumulators:
+                self._neo4j.batch_merge_entities(batch_ents)
+                self._neo4j.batch_link_entities_to_document(batch_lnks)
+                self._neo4j.batch_merge_relations(batch_rels)
 
         # Update registry
         self._registry.upsert(
@@ -2107,6 +2356,16 @@ def _load_conference_metadata(abs_path: Path, rel_path: str) -> ConferenceTalk |
 
 
 _MONTH_TO_SEASON = {"04": "April", "10": "October"}
+
+
+def _is_reference_work(rel_path: str) -> bool:
+    """Detect reference works (encyclopedias, dictionaries) by corpus path.
+
+    Reference works use cross-reference parsing instead of O(n²) co-occurrence
+    relation generation, which is too expensive for entity-dense entries.
+    """
+    normalized = rel_path.replace("\\", "/")
+    return "/reference/" in normalized
 
 
 def _conference_event_name(date_str: str) -> str:
