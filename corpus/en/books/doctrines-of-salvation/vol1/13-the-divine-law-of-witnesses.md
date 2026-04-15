@@ -1,0 +1,235 @@
+#### NATURE AND HISTORY OF LAW OF WITNESSES
+
+WITNESSES SENT IN ALL DISPENSATIONS. There is a law definitely stated in the scriptures governing testimony and the appointment of witnesses. This law the Lord has always followed in granting new revelation to the people.203.1
+
+All down through the ages this law has been a fixed and definite one. If we had perfect records of all ages, we would find that whenever the Lord has established a dispensation, there has been more than one witness to testify for him. Paul in writing to the Corinthians said: "In the mouth of two or three witnesses shall every word be established." 203.2
+
+If you will look in your Bible, you will find that the Lord gave the law to Israel and it is recorded in Deuteronomy: At the mouth of two witnesses, or three witnesses, shall he that is worthy of death be put to death; but at the mouth of one witness he shall not be put to death." 203.3
+
+Of course, that reference to the trial of an individual is based upon the general law, which was to be applied not merely in trial where life was at stake, but in every important undertaking. In one of the discourses of our Lord, he said: "Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou hast gained thy brother. But if he will not hear thee, then take with thee one or two more, that in the mouth of two or three witnesses every word may be established."203.4
+
+OTHER WITNESSES AIDED NOAH. It is generally thought that the Lord called Noah, when he had determined to cleanse the earth with the flood, and sent him out alone to preach to the wicked inhabitants. It is sometimes said, without basis in fact, that Noah preached 120
+ years; and nothing is said of the preaching of other witnesses.
+
+Let me call your attention to the fact that Noah was not alone in bearing witness. It is recorded in the Pearl of Great Price that: "It came to pass that Methuselah, the son of Enoch, was not taken, that the covenants of the Lord might be fulfilled, which he made to Enoch; for he truly covenanted with Enoch that Noah should be of the fruit of his loins. And it came to pass that Methuselah prophesied that from his loins should spring all the kingdoms of the earth (through Noah), and he took glory unto himself."204.5
+
+Now Methuselah, grandfather of Noah, was a righteous man and a prophet. He knew by the spirit of revelation that the flood would come in the days of Noah. Moreover, he lived until the year of the flood when he died. Do you not think that this righteous man was also declaring repentance to the perverse world, and warning them of the flood which was to come? Again, Lamech, father of Noah, was also a righteous man and he lived until five years before the flood. It is reasonable to suppose that he, too, was preaching to the people, as well as his father and his son.
+
+OTHER WITNESSES IN DAYS OF ABRAHAM AND OF MOSES. We do not know much about the dispensation of Abraham. We speak of it as the dispensation of Abraham, but what about Elias who held the keys of that dispensation? Melchizedek was living in the days of Abraham, was the one who blessed him, and without question understood the covenant the Lord had made with Abraham.204.6 . . .
+
+When Moses was called to lead Israel, that was another great and important event. Moses had to flee from the courts of Egypt. He went out among the Midianites and became a herdsman, tending the flocks of Jethro, sometimes spoken of in the scriptures as Reuel. The Lord appeared to Moses in the burning bush as he was thus employed and called him to a mission. But the Lord did not leave him alone to testify to the Pharaoh of Egypt. What did he do? He sent Aaron the brother of Moses to assist him.
+
+Moses said to the Lord, "I am not eloquent, neither heretofore, nor since thou has spoken unto thy servant: but I am slow of speech, and of a slow tongue." 204.7 So the Lord appointed Aaron to be a spokesman for him. Why did Aaron wait 40 years before he came to Moses and then appear just at the right time? Because the Lord sent him, not only to be spokesman, but to bear witness with Moses that the Lord had spoken.205.8
+
+The Savior took Peter, James, and John with him on the mount at the time of the transfiguration. 205.9 Why did he not take Peter alone? Because he wanted more than one witness. And we would find, I am confident, if we had the perfect record, all down the ages, whenever the Lord introduced a dispensation, he did not leave one man to testify alone.
+
+JOSEPH SMITH OBEYS LAW OF WITNESSES. Joseph Smith was alone when he went into the grove to pray and beheld the Father and the Son. He was alone when Moroni
+ appeared to him in his father's home, and he was alone in meeting the angel at the Hill Cumorah each year for four years. This was true because it was not necessary on these occasions for another witness to be present, anymore than for two witnesses to witness the power of the Lord in the burning bush.
+
+But suppose that this had continued on through the entire mission of Joseph Smith and he had declared to the world: "I received the plates of the Book of Mormon and translated them by the gift and power of God, but I was alone. I wrote the translation when I was alone. John the Baptist came to me and gave me the Aaronic Priesthood, but I was alone; there was no other witness. Also Peter, James, and John came to me and conferred upon me the Melchizedek Priesthood, but I was alone."
+
+Suppose that in each instance when keys of authority were bestowed he had declared that it was a personal visitation to himself, and that it was the will of the Lord that he be alone? Then we could with perfect propriety reject the testimony of Joseph Smith, for it would not be true.
+
+CHRIST OBEYS LAW OF WITNESSES. Now let me refer you again to the scriptures: "I can of mine own self do nothing: as I hear, I judge: and my judgment is just; because I seek not mine own will, but the will of the Father which hath sent me. If I bear witness of myself, my witness is not true. There is another that beareth witness of me; and I know that the witness which he witnesseth of me is true. Ye sent unto John, and he bear witness unto the truth." 206.10
+
+Let us not misunderstand. When Christ said, "There is another that beareth witness of me," he was not speaking primarily of John, although John did bear such a witness. He was speaking of Another Witness, and what he says is true: "If I stand alone and no one testifies for me, then you can reject my testimony because the witness would not be true." It was his Father he had in mind when he said there was Another Witness.
+
+CHRIST ACCUSED OF BREAKING LAW OF WITNESSES. We turn now to the 8th chapter of John, where we have a statement from our Lord as he was under fire by those wicked Pharisees. I can imagine the Savior surrounded by this group of evil men, trying to teach them the truth and bring them to repentance, and they stood there ridiculing him and casting aspersions upon him. This is the conversation as we have it given by John:
+
+"Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life. The Pharisees therefore said unto him, Thou bearest record of thyself; thy record is not true."
+
+It is very evident that they understood the law, and it is as if they had said: "You are alone; nobody testifies for you. You say you are the light of the world, but the law demands that there shall be another witness if what you say is true." That this was in their minds is evident
+ from what follows:
+
+"Jesus answered and said unto them, Though I bear record of myself, yet my record is true: for I know whence I came, and whither I go; but ye cannot tell whence I come, and whither I go. Ye judge after the flesh; I judge no man. And yet if I judge, my judgment is true: for I am not alone, but I and the Father that sent me. It is also written in your law, that the testimony of two men is true."
+
+THE FATHER BEARS WITNESS OF CHRIST. "I am one that bear witness of myself, and the Father that sent me beareth witness of me. Then said they unto him, Where is thy Father? Jesus answered, Ye neither know me, nor my Father: if ye had known me, ye should have known my Father also."207.11
+
+Let me ask this question: Jesus Christ being the Only Begotten Son of the Father, and having been sent into this world to perform the greatest mission that was ever performed -- he being the Son of God -- who could be a witness for him, logically, except his Father?
+
+Did not Jesus fill the requirements of this divine law? He acknowledged the law, and said, "It is also written in your law, that the testimony of two men is true." Then he declared that he was one Man bearing witness in fulfilment of that law, and his Father was the other what? -- Man, who bore witness to that fulfilment.
+
+HOW CHRIST TESTIFIED OF HIMSELF. Now let us examine the evidence for a moment. How did Christ become a witness for himself? By word of mouth; 208.12 in the preaching of the gospel, because he taught as one having authority and not as the scribes; in the great work that he performed: restoring sight to the blind, healing withered hands, raising the dead, and in many other ways blessing and administering to the people. In this way his words and his work spoke for him.
+
+VOICE OF FATHER TESTIFIES OF SON. Who, I say, could testify for him, other than his Father? Do we find any references in the scriptures where the Father testified for him? Take the baptism of Jesus, for instance, where the Holy Ghost descended and the Father spoke from the heavens.208.13 Was not that a witness?
+
+On another occasion, when Jesus was praying to his Father before a group of people, the Father spoke to him from the heavens answering his prayer, saying, "I have both glorified it [the name of Jesus], and will glorify it again."208.14 Some who were present said it thundered, some said an angel spoke to him, but it was his Father.
+
+At the transfiguration on the mount, the Savior stood with Peter, James and John, also Moses and Elias, and again the voice of the Father spoke, saying. "This is my beloved Son, in whom I am well pleased; hear ye him."208.15
+
+LORD'S SYSTEM TO USE WITNESSES. There are other references in the scriptures, but these will suffice.208.16 Naturally the Father was not testifying to all the Jews. That is not the way he does. You know, if the Lord wished he could preach this gospel to the world by declaring it from the heavens. He could have his angels blow their trumpets and declare the message of salvation in the ears of all the world. Would not that be a much easier way to get the message of truth before the world than the expensive way of sending messengers clothed with authority at great expense and toil to try to teach the world?
+
+But the ways of the Lord are not man's ways. He works through his witnesses, and in establishing his work in every age, he uses the few, not the many. Never since the beginning has the Lord declared himself to the unbelieving world, but he has sent out his messengers to preach the gospel to the world.
+
+How easy it would have been for him to have sent an angel to Nineveh to cry repentance, rather than to ask Jonah who was unwilling to take that message. And what a time Jonah had! It was a great burden to him, and he hesitated, but finally went with his message. Could not the Lord have done it in a much easier way?
+
+We read of the coming forth of the Book of Mormon in these last days. The Lord said to us, through Nephi, something of his plans as follows: "And there is none other which shall view it [that is, the Nephite record], save it be a few according to the will of God to bear testimony of his word unto the children of men; for the Lord God hath said that the words of the faithful should speak as it were from the dead. Wherefore, the Lord God will proceed to bring forth the words of the book; and in the mouth of as many witnesses as seemeth him good, will he establish his word; and wo be unto him that rejecteth the word of God!"209.17
+
+NO PERSONAL MINISTRATION OF CHRIST TO UNBELIEVING. This is the way the Lord has always worked. When the Savior rose from the dead, how easy it would have been for him to have gone to Pilate and said: "Here I am. You condemned me to death. I said I would rise on the third day. Here I am." Rut Pilate did not see him after his resurrection.
+
+How easy it would have been for him to have gone to the members of the Sanhedrin, before those leaders of the Jews who cried out against him and who were responsible for his death, and said: "Here I am. You had the tomb sealed, but I told you I would rise on the third day; now will you believe." But he did not appear to one of them.
+
+He appeared to Peter, and to the apostles. to Mary at the tomb. and to many others, but never to those who had persecuted him and put him to death. The Romans did not see him; the unbelieving Jews did not see him; and he sent his chosen witnesses out into all the world to declare the message of his risen glory. It is true he appeared to Paul, an exception, but the reason for this is made apparent in the scriptures.
+
+After the healing of the lame man through the power of God, by Peter and John, these two
+ apostles were summoned before the leaders of the Jews and commanded to cease preaching about Jesus as the Son of God, but this Peter said they could not and would not do, for they were his witnesses. Whether it be right in the sight of God to hearken unto you more than unto God," said Peter, "judge ye. For we cannot but speak the things which we have seen and heard." 210.18
+
+So we see this is the way the Lord works, through his chosen witnesses.
+
+#### JOSEPH SMITH AND THE LAW OF WITNESSES
+
+KEYS AND PRIESTHOOD ALWAYS GIVEN TO TWO WITNESSES. Every time that the heavens were opened and keys had to be restored what happened? We have two witnesses. Joseph Smith was not alone. He was alone in the first vision, alone when Moroni brought the message to him, alone when he received the plates; but after that he was not alone. The Lord called other witnesses. Grandmother Smith in her history says that the Prophet came home weeping for joy after the witnesses had beheld the plates under the direction of an angel of God, because, he said, "The load has been lifted and I am no longer alone."
+
+Every time keys were restored, two men received them. Why? Because it was necessary according to the divine law of witnesses for Joseph Smith to have a companion holding those keys; otherwise it would not have happened. So, as Oliver Cowdery states, when John the Baptist came, he and Joseph Smith received the Aaronic Priesthood under his hands; and when Peter, James, and John came, he was with Joseph Smith.
+
+It was Oliver Cowdery and Joseph Smith who received the keys in the Kirtland Temple on the 3rd of April, 1836, when Christ appeared when Moses appeared, when Elias appeared, when Elijah appeared. And every time when the keys of a dispensation were bestowed it was to Joseph Smith and Oliver Cowdery -- not Joseph Smith alone. Why? Just because of what the Savior said: "If I bear witness of myself, my witness is not true."211.19
+
+If Joseph Smith had said, "I testify, and I testify alone," his testimony would not be true. There had to be two, that the testimony might be valid.
+
+OLIVER COWDERY STOOD AS ASSISTANT PRESIDENT OF CHURCH. Now let me call your attention to this. In the Kirtland Temple in 1836, when Joseph Smith and Oliver Cowdery were behind the pulpit and received keys from heavenly messengers there was a First Presidency of the Church and the Prophet had counselors, Sidney Rigdon and Frederick G. Williams. But Sidney Rig don and Frederick Williams did not go behind the veil, or the curtain, when it was drawn; they were not asked to kneel there behind the pulpit. It was Joseph Smith and Oliver Cowdery. Why? Because that was Oliver Cowdery's place.
+
+Now I am going to call your attention to something that is not, I regret to say, generally known. Oliver Cowdery was called to be what? The "Second Elder" of the Church, the
+
+"Second President" of the Church. We leave him out in our list of Presidents of the Church, we do not include Oliver Cowdery; but he was an Assistant President. Oliver Cowdery's standing in the beginning was as the "Second Elder" of the Church, holding the keys jointly with the Prophet Joseph Smith. He preceded the counselors in the First Presidency in authority, standing next to the Prophet Joseph Smith. December 5, 1834, Oliver Cowdery was ordained by Joseph Smith. by the command of the Lord, an Assistant President of the High Priesthood, to hold the keys of Presidency jointly with the Prophet in the ministry. I am going to read that record to you.
+
+NATURE OF OFFICE OF ASSISTANT PRESIDENT OF CHURCH. "The office of Assistant President is to assist in presiding over the whole Church, and to officiate in the absence of the President, according to his rank and appointment, viz.; President Cowdery, first; President Rigdon, second; and President Williams, third, as they were severally called. The office of this priesthood is also to act as spokesman, taking Aaron for an example. The virtue of the above priesthood is to hold the keys of the kingdom of heaven or of the Church militant." That is copied from the history of the Church.
+
+So Oliver Cowdery, through that place as the "Second President," preceded the counselors in the Presidency -- naturally so. Why shouldn't he? He had the same authority, had received the same keys with the Prophet Joseph Smith every time the heavens were opened, and he was an Assistant President of the Church and the second witness of the dispensation of the fulness of times, which is the greatest of all dispensations, for it was necessary that there be two Presidents, two witnesses standing at the head of this dispensation.212.20
+
+PROPHET ORDAINS OLIVER COWDERY AS ASSISTANT PRESIDENT. In harmony with this law the Lord called Oliver Cowdery as the second witness to stand at the head of this dispensation assisting the Prophet in holding the keys. The records inform us that every time the Prophet received authority and the keys of the priesthood from the heavens, Oliver Cowdery shared in the conferring of those powers with the Prophet. Had Oliver Cowdery remained faithful and had he survived the Prophet under those conditions, he would have succeeded as President of the Church by virtue of this divine calling.
+
+This blessing was also confirmed upon the head of Oliver Cowdery by the Prophet, December 5, 1834, in the following words: "I laid my hands upon Brother Oliver Cowdery, and ordained him an Assistant President, saying these words: 'In the name of Jesus Christ, who was crucified for the sins of the world, I lay my hands upon thee and ordain thee an Assistant President of the high and holy priesthood, in the Church of the Latter-day Saints.'" 213.21
+
+OTHER WITNESSES SHARED BURDEN WITH PROPHET. In the case of Joseph Smith, his claims are greater than the claims of other religious teachers of the present time. He declared that he stood in the presence of Jesus Christ and the holy angels who instructed him and gave him authority to organize the Church. Not only was such authority given to him,
+ but also to others. In addition to Joseph Smith, Oliver Cowdery, David Whitmer, Martin Harris, Sidney Rigdon, and others have testified that they beheld the presence of angels and were instructed by them.
+
+By heavenly messengers they were taught the doctrines of the restoration. In these things Joseph Smith did not stand alone.
+
+COLLUSION AMONG MANY WITNESSES IMPOSSIBLE. Had there been collusion between these men to practice deceit and organize a church based in fraud, then these men never would have held together, and one or more of them would have exposed the others and revealed the secret of collusion. This certainly would have proved the case for Oliver Cowdery, Martin Harris, and David Whitmer all deserted Joseph Smith while he was living.
+
+For a time they manifested a spirit of opposition, if not of bitterness, towards him. Yet all three of these men remained true to their testimony to the day of death. David Whitmer never returned to the Church, but was always true to his testimony that he stood in the presence of an angel. Oliver Cowdery and Martin Harris, after the death of Joseph Smith, both returned to the Church in its darkest hour, and died in the faith. All of this is evidence that there was no fraud and that these men had from the beginning spoken the truth.214.22
+
+SIGN SEEKERS OF EVERY AGE REJECT LORD'S WITNESSES. We see then, that the methods adopted by Joseph Smith -- and that by revelation -- in bringing forth the Book of Mormon and in organizing the Church, are in perfect harmony with the work of the Lord in all other generations.
+
+We can easily imagine some prominent scribe, lawyer, or Pharisee, saying to Peter and the apostles when they declared that they were witnesses of the resurrection of Jesus Christ: "If what you say is true, why did not Jesus show himself to us and to the world? What a wonderful thing it would be in convincing people of your story if you could only show him to the people that they might know that he is risen from the dead!"
+
+In fact, the contemptuous cry of the chief priests and scribes to the Savior when he was on the cross was: "He saved others; himself he cannot save. If he be the King of Israel, let him now come down from the cross, and we will believe him. He trusted in God; let him deliver him now, if he will have him: for he said, I am the Son of God." 215.23
+
+They knew he saved others. They had been witnesses that he raised the dead, healed the sick and was a benefactor to the afflicted, but they sought a great sign, and how true are the words of the Lord: "An evil and adulterous generation seeketh after a sign." 215.24
+
+MEN CONDEMNED FOR REJECTING LORD'S WITNESSES. Our Savior after his resurrection, did not appear to the non-believing Jews, to Herod, or Pilate; he did not go before the Sanhedrin in triumph to convince them that he had risen. It was only to his
+ disciples to whom he appeared, and then he sent them into all the world as witnesses declaring to every nation that he was in very deed the Resurrection and the Life.
+
+Said he to the apostles: "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem and in all Judea, and in Samaria, and unto the uttermost part of the earth."215.25 Again he said as he appeared to them in his glorified body: "Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day: . . . And ye are witnesses of these things." 215.26
+
+Does it not appear that when Peter and the other disciples went forth, as they had been commanded, as witnesses having the perfect knowledge that Jesus Christ was risen from the dead and is verily the Son of God, that the people who heard their testimony and rejected it were under condemnation? Moreover, was it not sufficient for these disciples to testify to the world of this truth, to leave men without excuse who would not believe, without the Lord giving a direct manifestation, or making a personal appearance to each individual upon the face of the earth?
+
+OUR RESPONSIBILITY TO ACCEPT LATTER-DAY WITNESSES. The course taken by Joseph Smith is in perfect harmony with this course adopted by our Savior. In truth it is the only consistent course that could be taken. In this life we are expected to walk by faith and not by sight, and yet the Lord sends among us witnesses who have seen and heard and who can speak with direct knowledge to encourage us to seek and find the truth, as Paul says: "That they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us."216.27
+
+It is the duty of all men to heed the message of the divinely appointed witnesses of the Lord and to prove their words by obeying the will of God which will be the means, through the guidance of the Spirit of the Lord, in convincing us of the truth.
+
+Yet, how many accepted the story told by Peter, James, and John, while they lived and testified? How many have accepted the testimony of Joseph Smith, Oliver Cowdery, David Whitmer, Martin Harris and other witnesses who have testified in this generation?
+
+The world today, like the world in the day of our Lord's ministry, have before them Moses and the prophets whom, if they will not hear, "neither will they be persuaded, though one rose from the dead."216.28
+
+#### JOSEPH AND HYRUM: JOINT WITNESSES
+
+JOSEPH AND HYRUM HOLD KEYS OF DISPENSATION. My grandfather, the Patriarch Hyrum Smith, was called to hold the keys of this dispensation jointly with the Prophet Joseph, his younger brother. The Lord has said that in the mouths of two witnesses shall all things be established. . . . Joseph Smith could not have stood alone, else his work would
+ have failed, just as the work of the Savior required the confirmation of another witness, and who could testify for Christ other than his Father? And so the Lord called another man to stand with Joseph Smith and to hold the keys of salvation in this dispensation as a witness with him.
+
+The Prophet Joseph was alone in his first vision. He was alone when the Angel Moroni first came to him and revealed the Book of Mormon, but whenever keys were to be bestowed, when the Lord had light and information to reveal in which the power of priesthood was to play a part, Joseph Smith and one other witness received the blessings.
+
+KEYS FIRST GIVEN TO JOSEPH AND OLIVER. It was Oliver Cowdery who was appointed to stand with Joseph Smith to hold the keys of this dispensation, It was Oliver Cowdery who, with Joseph Smith, received the Priesthood of Aaron under the hands of John the Baptist. It was Oliver Cowdery who received the authority of the Melchizedek Priesthood with Joseph Smith from Peter, James, and John. It was Oliver Cowdery who knelt with the Prophet Joseph in the Kirtland Temple in 1836, when Moses and Elias and Elijah came with the keys of their dispensations.
+
+I am convinced that if we had the full record, we would discover that Oliver Cowdery was associated with Joseph Smith the Prophet when the keys of all the other dispensations were revealed and restored in this dispensation. In this manner Oliver Cowdery was appointed and ordained to stand with the Prophet Joseph Smith as an associate and witness, holding all the authority and keys of this most glorious of all dispensations -- the dispensation of the fulness of times.
+
+OLIVER COWDERY FELL FROM HIS HIGH STATUS. Unfortunately -- at least unfortunately for Oliver Cowdery, who was called to this wonderful and responsible position, jointly associated with Joseph Smith holding all the authority and presidency in this dispensation -- Oliver, in a spirit of rebellion and darkness, turned away. He lost his fellowship in the Church, the power of the priesthood was taken from him, and for a season he stood excommunicated from the Church. Fortunately he eventually overcame this spirit of darkness, but never again was he privileged to receive the keys of power and authority which once were placed upon him.
+
+HYRUM SMITH RECEIVES BLESSINGS OF OLIVER COWDERY. That this testimony of witnesses might be continued and made complete, the Lord chose another to take the place of Oliver Cowdery, and that other fitness was the Patriarch Hyrum Smith. By revelation through Joseph Smith, Hyrum was called and ordained to the priesthood and standing once held by Oliver Cowdery. Hyrum Smith received a double portion, not only was he called to become the Patriarch of the Church, which was his birthright, but at the same time the Lord said to him:
+
+"And from this time forth I appoint unto him that he may be a prophet, and a seer, and a
+ revelator unto my church, as well as my servant Joseph: that he may act in concert also with my servant Joseph; and that he shall receive counsel from my servant Joseph. who shall show unto him the keys whereby he may asks and receive, and be crowned with the same blessing, and glory, and honor. and priesthood, and gifts of the priesthood, that once were put upon him that was my servant Oliver Cowdery; That my servant Hyrum may bear record of the things which I shall show unto him, that his name may be had in honorable remembrance from generation to generation, forever and ever."218.29
+
+JOSEPH AND HYRUM JOINT PRESIDENTS OF CHURCH. In accord with this calling and commandment, the Prophet Joseph Smith conferred upon Hyrum Smith all the keys, authority and gifts of the priesthood which he, the Prophet, held, and which were formerly held by Oliver Cowdery. The Lord also revealed to Hyrum Smith all that was necessary to make him completely and to the full degree, a witness with his brother Joseph, as a prophet, seer, revelator and president of the Church, and to stand through all time and all eternity at the head of this dispensation with his brother Joseph, a witness for Jesus Christ.
+
+Thus, we see, Hyrum Smith became a president of the Church with Joseph Smith, which place Oliver Cowdery might have held had he not wavered and fallen from his exalted station. I am firmly of the opinion that had Oliver Cowdery remained true to his covenants and obligations as a witness with Joseph Smith, and retained his authority and place, he, and not Hyrum Smith, would have gone with Joseph Smith as a prisoner and to martyrdom at Carthage.
+
+The sealing of the testimony through the shedding of blood would not have been complete in the death of the Prophet Joseph Smith alone; it required the death of Hyrum Smith who jointly held the keys of this dispensation. It was needful that these martyrs seal their testimony with their blood, that they "might be honored and the wicked might be condemned." 219.30
+
+PROPHET'S TRIBUTE TO HIS BROTHER HYRUM. Now if I may take just a moment or two longer -- there are many things I would like to say, but time forbids -- I would like to read to you the opinion of the Prophet expressed of his brother Hyrum, who was almost six years older. This is what the Prophet says:
+
+"Brother Hyrum, what a faithful heart you have got! Oh may the Eternal Jehovah crown eternal blessings upon your head, as a reward for the care you have had for my soul! O how many are the sorrows we have shared together; and again we find ourselves shackled with the unrelenting hand of oppression. Hyrum, thy name shall be written in the book of the Law of the Lord, for those who come after thee to look upon, that they may pattern after thy works."
+
+On another occasion the Prophet said: "I could pray in my heart that all my brethren were like unto my beloved brother Hyrum, who possesses the mildness of a lamb, and the integrity
+ of a Job, and in short, the meekness and humility of Christ; and I love him with that love that is stronger than death, for I never had occasion to rebuke him, nor he me, which he declared when he left me today.220.31
+
+ORDER OF SUCCESSION IN PRESIDENCY. Oliver Cowdery turned away and lost his place, and he ceased to be the second President, although he could always bear witness and did. He ceased, as far as the priesthood was concerned. to be the "Second Elder," the "Second President," in the Church. So time went on. Frederick G. Williams turned away and Hyrum Smith was called to take the place of Second Counselor.
+
+It went on in that way -- Joseph Smith, President, Sidney Rigdon and Hyrum Smith counselors -- until the 19th day of January, 1841. On that day the Lord commanded Joseph Smith to ordain Hyrum Smith and confer upon him all the keys, authority, and privileges placed upon the head of Oliver Cowdery, and make him the "Second President" of the Church. Hyrum Smith, like Oliver Cowdery, has not received his place properly in the minds of many as the "Second President" of the Church -- but that was his place.
+
+President Brigham Young, after the death of Joseph Smith, when they were discussing the matter of succession, said: "Did Joseph Smith ordain a successor? Who was it? Hyrum Smith. But Hyrum Smith fell martyr before the Prophet did." Well, he did not ordain him as his successor, exactly, but if Hyrum Smith had hearkened to the Prophet and taken his family to Cincinnati, there would have been a President of the Church and it would not have been Brigham Young. Brigham Young was President of the Council of the Twelve, and Hyrum Smith would have been President of the Church by virtue of his ordination, holding the place held by Oliver Cowdery.
+
+That is as plain and simple as it can be, as it is stated in our scriptures and in the history of the Church. Joseph Smith and Hyrum Smith, after 1841, signed documents as Presidents of the Church. With many members of the Church Hyrum Smith was just the Patriarch. Hyrum Smith received a double portion. He received the office of Patriarch which belonged to his father and came to him by right, and also received the keys to be "Second President' and precede the counselors as Oliver Cowdery had done. So he would have remained as President of the Church had he not died a martyr.
+
+DEATH OF TWO TESTATORS REQUIRED. But here is another point. He had to die. Why? Because we read in the scriptures that the testimony is not of force without the death of the testator -- that is, in his particular case, and in the case of Christ. 221.32 It was just as necessary that Hyrum Smith lay down his life a martyr for this cause as a witness for God as it was for Joseph Smith, so the Lord permitted them both to be taken in that way and both sealed their testimony with their blood. Both of them held the keys of the dispensation of the fulness of times jointly, and they will through all the ages of eternity. Then naturally the Council of the Twelve came into its place, and by right Brigham Young became President of the Church.
+
+Had Oliver Cowdery remained true, had he been faithful to his testimony and his calling as the "Second Elder" and Assistant President of the Church, I am just as satisfied as I am that I am here that Oliver Cowdery would have gone to Carthage with the Prophet Joseph Smith and laid down his life instead of Hyrum Smith. That would have been his right. Maybe it sounds a little strange to speak of martyrdom as being a right, but it was a right. Oliver Cowdery lost it and Hyrum Smith received it. According to the law of witnesses -- and this is a divine law -- it had to be.222.33
+
+NO ASSISTANT PRESIDENT NEEDED TODAY. The question is sometimes asked: If Oliver Cowdery was ordained to hold the keys jointly with the Prophet, and after his loss by transgression, this authority was conferred on Hyrum Smith, then why do we not have today in the Church the same order of things, and an Assistant President as well as two counselors in the First Presidency?
+
+The answer to this is a simple one. It is because the peculiar condition requiring two witnesses to establish the work, is not required after the work is established. Joseph and Hyrum Smith stand at the head of this dispensation, jointly holding the keys, as the two necessary witnesses fulfilling the law as it is set down by our Lord in his answer to the Jews. Since the gospel will never again be restored there will be no occasion for this condition to arise again. We all look back to the two special witnesses, called to bear witness in full accord with the divine law. 222.34
+
+#### WITNESSES OF THE BOOK OF MORMON
+
+THREE WITNESSES ADHERE TO TESTIMONY, What the three witnesses saw was in the presence of the angel; and they heard the voice of God speaking to them. All three witnesses became disaffected for varying reasons and left the Church. If you will read the history of the Church, you will find that charges were brought against each of these three men and that they were brought before the Prophet and the councils of the Church and were excommunicated.
+
+Do you think for one moment if Joseph Smith and these witnesses had entered into collusion to defraud and deceive, that no matter what the cause Joseph Smith could under any circumstances have permitted a falling out with these witnesses? Do you think he would have dared to permit a high council of this Church to excommunicate these men and cast them out, if the testimony were not true?
+
+It is absolutely out of the question, because under those conditions immediately Oliver Cowdery, David Whitmer, and Martin Harris would have come out and said: "We just entered into a fraud to deceive. It is not true. We did not see an angel. What Joseph Smith is saying is not true." But they never said it. All the days of their lives they were true to their testimony, though they became bitter toward the Prophet Joseph Smith personally. All three
+ got over that bitterness before they died, but there was a time when they were very, very bitter in their feelings toward him.
+
+TESTIMONY OF DAVID WHITMER, I have here the testimony given by David Whitmer. I copied this from the original in his handwriting, signed by his own name, as we have it in the Historian's Office. We got it not so very long ago, obtained it by purchase from the grandson of David Whitmer. He said he thought we ought to have it here.
+
+It is filed in the archives of the Church, and with the signatures of the men I am going to name attached to it -- non-members of the Church, none believing in the mission of Joseph Smith. This testimony was given in 1881, because a certain individual had said that David Whitmer had declared to him that his testimony was not true. David Whitmer calls attention to the fact that this man lied.
+
+"Unto all nations, kindred, tongues and people unto whom these presents shall come --
+
+"It having been represented by one John Murphy of Polo (Caldwell County) Missouri that I had in a conversation with him last summer, denied my testimony as one of the three witnesses to the Book of Mormon --
+
+"To the end therefore, that he may understand me now, if he did not then, and that the world may know the truth, I wish now, standing as it were, in the very sunset of life, and in the fear of God, once for all to make this public statement:
+
+"That I have never at any time, denied that testimony or any part thereof, which has so long since been published with that book, as one of the three witnesses.
+
+"Those who know me best, will know that I have always adhered to that testimony."
+
+ENDORSEMENT OF DAVID WHITMER'S STANDING AS A CITIZEN. I cannot take time to read it all, I copied it so I could say I copied it from the original document in the handwriting of David Whitmer, with his own signature and with these names attached to it:
+
+A. W. Doniphan, (Alexander W. Doniphan -- who was an old man too. He was the attorney for the Prophet at one time.) George W. Dunn, Judge of the Fifth Judicial Circuit. T. D. Woodson, President, Ray County Savings Bank. Jacob O. Child, Editor of Conservator, (In which this was also published.) H. C. Garner, Cashier, Ray County Savings Bank. W. A. Holman, County Treasurer. J. S. Hughes, Banker, Richmond, Mo. James Hughes, Banker, Richmond, Mo. D. P. Whitmer, Attorney at Law, (He was a grandson of David Whitmer.) James W. Black, Attorney at Law, L. C. Cantwell, Postmaster, Richmond, Mo. Geo. I. Wassen, Mayor. Jas. A. Davis, Revenue Collector. C. J. Hughes, Probate Judge and P. J. Ray County Court. Geo. W. Trigg, County Clerk. W. W. Mosby, M.D, Thos. McGinnis, Late Sheriff, Ray Co., W. R. Holman, Furniture Merchant. J. P. Queensbury, Merchant. Lewis
+
+Slaughter, Recorder of Deeds. George W. Buchanan, M.C. A. K. Reyburn.
+
+Thus some of the leading citizens of the town of Richmond, in Ray County, Missouri, put their names to that document, and it was published in the local newspaper in 1881.
+
+Now David Whitmer was a sober man, in his right mind when he wrote that. He lived for a number of years after that, and that is his testimony when he was out of the Church. What are you going to do with it?
+
+EDITOR APPROVES DAVID WHITMER'S TESTIMONY. And these men testify as to his integrity. I will read what the editor said: "Elsewhere we publish a letter from David Whitmer, Sen., an old and well known citizen of Ray, as well as an endorsement of his standing as a man, signed by a number of the leading citizens of this community, in reply to some unwarranted aspersions made upon him.
+
+"There is no doubt that Mr. Whitmer, who was one of the Three Witnesses of the authenticity of the gold plates, from which he asserts that Joe Smith translated the Book of Mormon (a facsimile of the same he now has in his possession with the original records) -- is firmly convinced of its divine origin, and while he makes no effort to obtrude his views or belief, he simply wants the world to know that so far as he is concerned there is no 'variableness or shadow of turning.' Having resided here for a half of a century, it is with no little pride that he points to his past record, with the consciousness that he has done nothing derogatory to his character as a citizen and a believer in the Son of Mary to warrant such an attack on him, come from what source it may, and now, with the lilies of seventy-five winters crowning him like an aureole, and his pilgrimage on earth well nigh ended, he reiterates his former statement and will leave futurity to solve the problem that he was but a passing witness of its fulfilment."
+
+That is what they said of David Whitmer, and I ask you, What you are going to do with it? Do you not think it should have some weight?
+
+TESTIMONY OF MARTIN HARRIS. Now let me say something about Martin Harris The High Council in Kirtland excommunicated him as a dissenter in December, 1837. While continuing true to his testimony of the Book of Mormon he was for many years disgruntled with the Church, But some time after the saints came to Utah some of our good brethren went after him, found him and warmed him up, and brought him back. He came out here, was re-baptized, and lived here for a number of years, bearing witness of his testimony among the settled merits. He died here and was buried up in Cache Valley.
+
+TESTIMONY OF OLIVER COWDERY. Now we come to Oliver Cowdery. What about Oliver Cowdery, the most important of the three, who was with Joseph Smith so many times at the appearing of angels and the restoration of keys? What about him? He left the Church and became extremely bitter, but never denied the testimony. Some people have said he did,
+ but he did not. Always he was true to that testimony. I have his testimony in his own handwriting, and I have copied it from his own handwriting so I could say I did. It is taken from a letter from Oliver Cowdery written to his brother-in-law, and I am going to read to you what he says. He was out of the Church when he wrote it.
+
+"I have cherished a hope, and that one of my fondest, that I might leave such a character as those who might believe in my testimony, after I should be called hence, might do so, not only for the sake of the truth, but might not blush for the private character of the man who bore that testimony. I have been sensitive on this subject, I admit, but I ought to be so; you would be, under the circumstances, had you stood in the presence of John with our departed brother Joseph, to receive the lesser priesthood, and in the presence of Peter, to receive the greater and looked down through time, and witnessed the effects these two must produce -- you would feel, what you have never felt, were wicked men conspiring to lessen the effects of your testimony to man, after you have gone to your long sought rest.
+
+OLIVER COWDERY'S RETURN TO THE CHURCH. We have other testimonies of Oliver Cowdery. We have the testimony of Oliver Cowdery when he returned to the Church at Kanesville. Oliver Cowdery came back to the Church, and I want to call your attention to the conditions and circumstances under which he came.
+
+When the Prophet Joseph Smith was in Nauvoo and very shortly before the martyrdom, he said to his clerk, "I wish you would write to Oliver Cowdery and ask him if he hasn't eaten husks long enough." Evidently the letter was written, because the very day of the martyrdom a letter was received from Oliver Cowdery. The contents of that letter I have always regretted I did not know; in the perilous times it was lost and no record was made of it. But I believe it was Oliver Cowdery's answer to that communication, and he was feeling his way back to the Church.
+
+Well, after the saints were driven from Nauvoo and were out on the plains and everything looked the darkest (Sidney Rig don said they had gone to their destruction and there was no hope for them, and the newspapers said they could not survive!), under those conditions, Oliver Cowdery found his way out to Kanesville and asked to come back to the Church. If he had been a fraud do you think he would have done it? If you think that, I pity you. He came back and asked humbly for a place in the Church. He was received back, and was preparing to take a mission to Great Britain when he was taken ill and died. He died at the home of David Whitmer, bearing testimony to the truth.
+
+PENALTY FOR REJECTING TESTIMONY OF WITNESSES. The Lord says: "Wo be unto him that rejecteth the word of God"228.35 -- as it comes to us through two, three, or eight witnesses. And that testimony will stand against the world at the last day, and every man that is living who has heard the testimony of Oliver Cowdery, David Whitmer. Martin Harris, and Joseph Smith and has refused to receive this message will have to give a reason why he rejected it before the judgment seat of God, because that testimony has gone out solemnly
+ and they were God's witnesses to all the world. 228.36

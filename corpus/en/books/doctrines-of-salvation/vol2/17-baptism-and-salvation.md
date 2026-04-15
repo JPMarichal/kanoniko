@@ -1,0 +1,137 @@
+#### BAPTISM: A BIRTH AND RESURRECTION
+
+BAPTISM IN OLD TESTAMENT TIMES. Baptism dates from the fall. 323.1 Without modern revelation this truth would have remained hidden from the world. The plan of salvation was declared before the foundation of the world was laid. God is unchangeable.
+
+The word of the Lord to Joseph Smith and through him, has cleared this doctrine and established it. 323.2 I believe there are passages in the Old Testament that we might term as having reference to baptism, although they are very indistinct, and without modern revelation we would not know it. Baptism is a Greek word, not a Hebrew word. The Jews had a font in the temple upon 12 oxen, and there are places where the word washing appears.323.3
+
+WHY BAPTISM MUST BE BY IMMERSION. The mode of baptism is by immersion in water. Sprinkling or pouring did not come into vogue until two or three centuries after Christ, and such a practice was not universal until about the 13th century A.D. We have to go into history to find these particulars. Baptism cannot be by any other means than immersion of the entire body in water, for the following reasons:
+
+1. It is in the similitude of the death, burial, and resurrection of Jesus Christ, and of all others who have received the resurrection.
+
+2. Baptism is also a birth and is performed in the similitude of the birth of a child into this world.
+
+3. Baptism is not only a figure of the resurrection, but also is literally a transplanting or resurrection from one life to another -- from the life of sin to the life of spiritual life.
+
+I want to take up the second reason: Baptism is also a birth and is performed in the similitude of the birth of a child into this world. When this earth was created, it came into existence the same way. (I am not speaking scientifically, and yet scientific doctrine tells us the same thing.) This earth was born in water. Before the land appeared the whole sphere was covered with water.
+
+BIRTH COMES BY WATER, BLOOD, AND SPIRIT. In the Book of Moses we read: "Therefore I give unto you a commandment, to teach these things freely unto your children, saying: That by reason of transgression cometh the fall, which fall bringeth death, and inasmuch as ye were born into the world by water, and blood, and the spirit, which I have made, and so became of dust a living soul, even so ye must be born again into the kingdom of heaven, of water, and of the Spirit, and be cleansed by blood, even the blood of mine Only Begotten; that ye might be sanctified from all sin, and enjoy the words of eternal life in this world, and eternal life in the world to come, even immortal glory; For by the water ye keep the commandment; by the Spirit ye are justified, and by the blood ye are sanctified."324.4
+
+That is one of the finest passages I know, and we find practically the same thing recorded by John.324.5
+
+SAME ELEMENTS PRESENT IN FIRST AND SECOND BIRTHS. Every child that comes into this world is carried in water, is born of water, and of blood, and of the spirit, So when
+ we are born into the kingdom of God, we must be born in the same way. By baptism, we are born of the water. Through the shedding of the blood of Christ, we are cleansed and sanctified: and we are justified, through the Spirit of God, for baptism is not complete without the baptism of the Holy Ghost. You see the parallel between birth into the world and birth into the kingdom of God. How foolish it is to think for a moment that baptism could be accomplished by pouring water on a child's head. it does not meet the requirements.
+
+I have heard some of our young elders preaching on baptism say that the Lord could have brought to pass the remission of sins in some other way. They reasoned he could have done it by sprinkling, or in this way or that way. The Lord could not consistently do it any other way, only by being buried in the water, born of water and of the spirit, and cleansed by the blood of Christ, just as a child is born into this world of water, blood, and spirit. The comparison is very striking.
+
+BAPTISM: A RESURRECTION TO LIFE. Coming now to the third reason: Baptism is not only a figure of the resurrection. but also is literally a transplanting or resurrection from one life to another -- from the life of sin to the life of spiritual life. For proof of that, I am going to read first something the Lord said to Joseph Smith.
+
+"Wherefore, I, the Lord God, caused that he [Adam] should be cast out from the Garden of Eden, from my presence, because of his transgression, wherein he became spiritually dead, which is the first death, even that same death which is the last death, which is spiritual, which shall be pronounced upon the wicked when I shall say: Depart, ye cursed."
+
+Here we have two conditions, spiritual life and spiritual death. The condition of Adam in the Garden of Eden was spiritual life. He was in the presence of God. Through his transgression, he was banished into spiritual death -- a new life entirely. He was no longer in the presence of God. He was shut out, separated, a veil drawn between him, and the Lord.
+
+Adam, after the fall, was in spiritual death, and not
+
+Only Adam but every man and woman upon the face of the earth who is accountable before God, We will not consider the last death more than to say it is also banishment from the presence of God.
+
+"But, behold, I say unto you that I, the Lord God, gave unto Adam and unto his seed, that they should not die as to the temporal death, until I, the Lord God, should send forth angels to declare unto them repentance and redemption, through faith on the name of mine Only Begotten Son. And thus did I, the Lord God, appoint unto man the days of his probation -- that by his natural death he might be raised in immortality unto eternal life, even as many as would believe; And they that believe not unto eternal damnation; for they cannot be redeemed from their spiritual fall, because they repent not."326.6
+
+We find Adam, then, in spiritual death, and all his posterity, excepting little children. All men and women need repentance. Death is banishment. They are in spiritual death. How are they going to get back? By being buried in the water. They are dead and are buried in the water and come forth in the resurrection of the Spirit back into spiritual life. That is what baptism is.
+
+WHY BAPTISM REMITS FUTURE SINS. I have heard some of our young men, and some not so young, when talking on baptism, say they do not know why it is, since baptism is for the remission of sins, that a man does not have to be baptized every time he commits a sin. Do you see the reason? As long as a man sins and stays within spiritual life, he is alive, he can repent and be forgiven. He does not need to be baptized to be brought back to where he already is, But there are sins, John says, "unto death," and if a man commits a sin unto death, he is banished again and comes back into spiritual death.326.7
+
+Through this kind of transgression he loses the effect of baptism and is banished into spiritual death. When a man commits a sin unto death, he is banished from spiritual life. The shedding of innocent blood is one such sin and blasphemy against the Holy Ghost another. The enemies of the Prophet Joseph Smith carried him off to Carthage and put him and his brother to death. Deliberately murdering the servants of God is the shedding of innocent blood.
+
+If a man sins unto death, he goes back again to spiritual death, but as long as he stays within spiritual life, he does not have to be baptized again.
+
+DEATH TO SIN BRINGS RESURRECTION TO LIFE. Paul had that very clearly in mind. He says, in writing to the Romans: "What shall we say then? Shall we continue in sin, that grace may abound? God forbid. How shall we, that are dead to sin, live any longer therein? Know ye not, that so many of us as were baptized into Jesus Christ were baptized into his death?
+
+"Therefore we are buried with him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life. For if we have been planted together in the likeness of his death, we shall be also in the likeness of his resurrection: Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin."327.8
+
+Paul is speaking to members of the Church. We are dead to sin because we have left it. Banishment works one way as well as the other. In other words, when we are in spiritual life (or in the Church or in the kingdom of God), we ought not to sin. Through baptism we come back from the spiritual death which is upon all unbaptized men. Whether they are Roman Catholic or Protestant, if they are unrepentant and unbaptized they are in spiritual death. But we who have received the gospel, why should we live in sin when we have been baptized and are in spiritual life?
+
+HOW SAINTS ARE IN PRESENCE OF GOD. We are back in the presence of God. The question might naturally be raised: How do we come back into the presence of God if we do not see him? We do not see him now, but are we not in his presence when we have the gift of the Holy Ghost, one of the members of the Godhead, to lead and direct us in righteousness? We are back in his presence, if we keep the commandments and do not longer live in sin; then we are in spiritual life. That is an important thing in connection with baptism not generally understood. 328.9
+
+#### HOW BAPTISM BRINGS SALVATION
+
+NATURE OF COVENANT OF BAPTISM. Every person baptized into this Church has made a covenant with the Lord to keep his commandments. 328.10 We are to serve the Lord with all the heart, and all the mind, and all the strength that we have, and that too in the name of Jesus Christ. Everything that we do should be done in the name of Jesus Christ. 328.11
+
+In the waters of baptism, we covenanted that we would keep these commandments; that we would serve the Lord; that we would keep this first and greatest of all commandments, and love the Lord our God; that we would keep the next great commandment, we would love our neighbor as ourselves; and with all the might that we have, with all the strength, with all our hearts, we would prove to him that we would "live by every word that proceedeth forth from the mouth of God"; 328.12 that we would be obedient and humble, diligent in his service, willing to obey, to hearken to the counsels of those who preside over us and do all things with an eye single to the glory of God.
+
+We should not forget these things, for this commandment is binding upon us as members of the Church.328.13
+
+OBLIGATION TO KEEP COVENANT OF BAPTISM. Every soul baptized, truly baptized, has humbled himself; his heart is broken; his spirit is contrite; he has made a covenant before God that he will keep his commandments, and he has forsaken all his sins. Then after he gets into the Church, is it his privilege to sin after he is in? Can he let down? Can he indulge in some of the things which the Lord has said he should avoid? No. it is just as necessary that he have that contrite spirit, that broken heart, after he is baptized as it is before. 329.14
+
+GOSPEL ORDINANCES FOR CELESTIAL KINGDOM ONLY. Will those who enter the terrestrial and telestial kingdoms have to have the ordinance of baptism? No! Baptism is the door into the celestial kingdom. The Lord made this clear to Nicodemus. 329.15 We are not preaching a salvation for the inhabitants of the terrestrial or the telestial kingdoms. All of the ordinances of the gospel pertain to the celestial kingdom, and what the Lord will require by way of ordinances, if any, in the other kingdoms he has not revealed.
+
+It seems to me to be so clear that the ordinances of the gospel are for those who are entitled
+ to enter the celestial kingdom, based on obedience to the principles of the gospel, that there should be no question about it.
+
+BAPTISM FOR CELESTIAL KINGDOM ONLY. If the Lord intended baptism and other ordinances for everyone, why did he say, "He that believeth not shall be damned"? 329.16
+
+Why should he say what he has said of those who enter the telestial kingdom: "And they shall be servants of the Most High; but where God and Christ dwell they cannot come, worlds without end"?329.17
+
+Why did he say: "Verily, verily, I say unto you, except ye abide my law ye cannot attain to this glory.
+
+For strait is the gate, and narrow the way that leadeth unto the exaltation and continuation of the lives, and few there be that find it, because ye receive me not in the world neither do ye know me. . . Broad is the gate, and wide the way that leadeth to the deaths; and many there are that go in thereat, because they received me not, neither do they abide in my law"? 330.18
+
+How can we explain this: "Verily, verily, I say unto you, they who believe not on your words, and are not baptized in water in my name, for the remission of their sins, that they may receive the Holy Ghost, shall be damned, and shall not come into my Father's kingdom where my Father and I am. And this revelation unto you, and commandment, is in force from this very hour upon all the world, and the gospel is unto all who have not received it"? 330.19
+
+And, again, this: "And he that endureth not unto the end, the same is he that is also hewn down and cast into the fire, from whence they can no more return, because of the justice of the Father"? 330.20
+
+We know that the great majority of men will be barred from the celestial kingdom forever. If this is not so, then the word of the Lord must be revised. 330.21
+
+BAPTISM SAVES MEN FROM LOWER KINGDOMS. The First Presidency have said in answer to a similar question: "We know of no ordinances pertaining to the terrestrial or the telestial kingdom. All of the ordinances of the gospel are given for the salvation of men in the celestial kingdom and pertain unto that kingdom."
+
+The Lord has said positively that those who reject the gospel shall be "damned." Baptism and obedience are to save them from damnation. If we are to be baptized for all who are dead without regard to the glory which they receive, then logically we must say that they are not to be damned, and such a thing is a contradiction of the word of the Lord,
+
+This doctrine, that baptism is to be required of all men, is doing a great deal of harm in that it tends to encourage men in the procrastination of their repentance and holds out to them the false hope that they shall eventually, notwithstanding their unfaithfulness and disobedience, receive the blessings of the celestial kingdom of God. The doctrine is entirely foreign to the gospel plan which has been given to men to prepare them for celestial glory.
+
+REPENTANCE MUST PRECEDE BAPTISM. Consider the instruction the Lord gave to candidates for baptism, Doctrine and Covenants, section 20, verse 37. Did he not mean it? I read in this verse that the candidate should have a broken heart, and a contrite spirit, and give witness before the Church that he has truly repented of all his sins and that he has a determination to serve the Lord to the end.
+
+I ask, how can a man do all of this and still be addicted to tobacco or liquor? How can he do it if he is living in violation of any other commandment?
+
+Again: "And we know that all men must repent and believe on the name of Jesus Christ, and worship the Father in his name, and endure in faith on his name to the end, or they cannot be saved in the kingdom of God."331.22
+
+Again: "And he commandeth all men that they must repent, and be baptized in his name, having perfect faith in the Holy One of Israel, or they cannot be saved in the kingdom of God." 331.23 How can a man have perfect faith when he is violating a commandment?
+
+"And no unclean thing can enter into his kingdom; therefore nothing entereth into his rest save it be those who have washed their garments in my blood, because of their faith, and the repentance of all their sins, and their faithfulness unto the end." 332.24 How can a man obtain the remission of all his sins, if he has not repented of all his sins? The trouble with many of us is that we do not take the word of the Lord seriously; we do not think he means what he says.
+
+REPENTANCE REMOVES SCAR OF SIN. It appears to me the most extreme folly to believe, much less to teach, that the atonement of Jesus Christ merely paved the way for the remission and forgiveness of the sins of those who truly repent; and after one has truly repented and been baptized, he still must pay the price to some extent for his transgressions. This means that the man has not been truly forgiven, but is placed on probation with a penalty attached. This idea, which has so often been taught by saying that the holes remain after the nails are withdrawn, is a false doctrine when applied to the atonement for the truly repentant sinner. 332.25
+
+#### REBAPTISM
+
+TWOFOLD PURPOSE OF BAPTISM. The question has been asked why rebaptism was established in the day of the Prophet Joseph Smith, why it was continued for a number of
+ years in Utah under the direction of President Brigham Young, and why it is now abandoned?
+
+There is really in the Church no such thing as rebaptism. Baptism, as we understand it, is one of the cardinal principles of the gospel, commanded primarily for the remission of sins, and, secondarily, as the door by which we enter into the Church. It was first made known and taught, as one of the ordinances of the gospel, to Adam who was commanded to instruct his children and call upon them to be baptized for the remission of sins.
+
+The ordinance of baptism was known and practiced in ancient Israel, and in all ages of the world, as one of the essential ordinances of the gospel where the gospel has been found on the earth. It is just as necessary today as at any other period in the history of the world, for without it the sinner cannot receive a remission of his sins and be admitted into the kingdom of God.
+
+PIONEERS AND OTHERS REBAPTIZED. It is true that during the administration of the Prophet Joseph Smith some members of the Church who were in transgression were again baptized, without first having lost their membership by excommunication. And so it has been from that day down to the present, where the repentant transgressor has desired that the ordinance be performed for the remission of sins. Frederick G. Williams was rebaptized and on August 5, 1838, was confirmed at Far West, Missouri, although he was then a member of the Church. 333.26
+
+After the arrival of the Pioneers in the Salt Lake Valley, and subsequently for a considerable period, all those who entered the valley were baptized anew at the request of President Brigham Young who, with the Council of the Twelve, set the example to the people who were gathering from all parts of the world.
+
+PIONEERS RENEWED COVENANTS BY BAPTISM. There were various reasons for this action on the part of President Young and the leading brethren. They stated that it was for the "renewal of their covenants. They came into the valley rejoicing after many trials and untold hardships from a land where they had been subject to mob violence and dictation on the part of enemies who denied to them the privilege guaranteed in the Constitution of our land, to worship God according to the dictates of conscience.
+
+After their arrival in this western land, they were free from molestation, and in humility they approached the Lord, not because of transgression, but because of thankfulness for their deliverance from wicked enemies, and knowing no better way to express their gratitude decided to make covenant with the Lord that from that time forward they would serve him and keep his commandments. As a token of this covenant they entered the water and were baptized and confirmed, renewing their covenants and obligations as members of the Church.
+
+LOST RECORDS LED TO REBAPTISM. Another reason that caused these brethren to take such a step and make the renewal of the covenant general, applying to all who came into the valley, was the fact that during their drivings, mobbings, persecutions, and final exodus, many branch and ward records had been lost. When the people entered the Salt Lake Valley and sought a standing in the communities of the saints, many of them were without certificates of baptism and were unable to point to the records from whence they came to show their proper claim to full fellowship among the saints. As it is essential that a record of the members be kept, it was thought well to have all such do their first works over again, that the record might be made, and thus no question could be raised in later years regarding their standing in the Church. To make the matter fair and avoid feelings that otherwise might have arisen, the requirement was made of all.
+
+SOME WAYWARD SAINTS REBAPTIZED. Another reason was the fact that following the martyrdom of Joseph and Hyrum Smith some members of the Church had actually strayed away and in their darkness had followed after false shepherds such as James J. Strang, William Smith, Zenas H. Gurley, and Jason W. Briggs, not knowing what to do and not being firmly founded in the faith by which they could recognize the true Shepherd. After their repentance and return to the fold, they desired to renew their covenants and be again established in their full standing in the Church. For these reasons and others of lesser import the practice of rebaptizing all who entered the Valley of Salt Lake prevailed at that early day.
+
+REBAPTISM NOT ESSENTIAL TO SALVATION. As already stated, baptism is for the remission of sins on the part of those who have not come into the Church and the door by which they enter. Those who have been baptized and confirmed members of the Church, who transgress, may receive the remission of their sins through the atonement of our Savior on conditions of their humility and repentance, without again entering the waters of baptism.
+
+Should a person sin to that degree that it would be necessary to deprive him of his membership in the Church, it would be necessary, of course, for him after repenting again to enter the Church through baptism. Rebaptism as understood in the question has not been done away, for even today where persons feel that they have transgressed to such a degree that they cannot conscientiously claim membership in the Church, and request baptism, even as new members, in order to be restored to fellowship among the saints, their request may be granted.
+
+It is unnecessary, however, to rebaptize persons merely as a renewal of their covenants every time they transgress in order that they may obtain forgiveness, for this would greatly cheapen this sacred ordinance and weaken its effectiveness. One baptism by water for the remission of sins should be enough, and there are other means by which sins may be forgiven for those who have made covenant with the Lord, provided they do not sin away their right to a standing in the Church.
+
+The rebaptism spoken of in section 22 of the Doctrine and Covenants applied to those who
+ had been baptized into some other organization, without authority from the Lord and who afterwards desired to unite with the Church and he accepted on their unauthorized baptism, which had been performed by one without the priesthood and power to officiate in gospel ordinances. 336.27
+
+REBAPTISM AMONG NEPHITES. When Christ appeared to the Nephites on this continent, he commanded them to be baptized, although they had been baptized previously for the remission of their sins. We read how Nephi beheld angels who came and ministered to him daily; how he baptized all who came to be baptized for the remission of sins; how he organized the Church; and how he even raised his brother from the dead, since he held the priesthood. 336.28 Then we read that the Savior commanded Nephi and the people to be baptized again, because he had organized anew the Church under the gospel.336.29 Before that it had been organized under the law.336.30
+
+REBAPTISM OF JOSEPH SMITH. For the same reason Joseph Smith and those who had been baptized prior to April 6, 1830, were again baptized on the day of the organization of the Church. Joseph Smith and Oliver Cowdery were baptized on the 15th day of May, 1829, Samuel Smith a few days later, Hyrum Smith a little later, and a few others, before the Church was organized. That baptism was for the remission of sins.
+
+When the Church was organized, each of the brethren who organized the Church, and the others who had been baptized, were baptized again. They had to be in order to come into the Church by the door. Suppose Joseph Smith had overlooked that. It is just a little thing, but how vital it is. You will find all through the ministry of Joseph Smith that all these little things are there; not a thing is overlooked that is vital to the story.336.31
+
+WHY ALMA IMMERSED HIMSELF. Alma was baptized and held the priesthood before the coming of Abinadi. but he became involved with other priests under the reign of the wicked King Noah, and when he baptized Helem, he felt he needed a cleansing himself so he buried himself in the water as a token of full repentance.337.32

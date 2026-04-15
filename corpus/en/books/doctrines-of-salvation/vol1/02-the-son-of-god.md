@@ -1,0 +1,187 @@
+#### THE ONLY BEGOTTEN SON
+
+THE FIRSTBORN. Our Father in heaven is the Father of Jesus Christ, both in the spirit and in the flesh. Our Savior is the Firstborn in the spirit,18.1 the Only Begotten in the flesh.18.2
+
+CHRIST NOT BEGOTTEN OF HOLY GHOST. I believe firmly that Jesus Christ is the Only Begotten Son of God in the flesh. He taught this doctrine to his disciples. 18.3 He did
+ not teach them that he was the Son of the Holy Ghost, but the Son of the Father. Truly, all things are done by the power of the Holy Ghost. It was through this power that Jesus was brought into this world, but not as the Son of the Holy Ghost, but the Son of God. Jesus is greater than the Holy Spirit, which is subject unto him,18.4 but his Father is greater than he!18.5 He has said it. Christ was begotten of God. He was not born without the aid of Man, and that Man was God!
+
+CHRIST NOT REINCARNATED. Christ was born a babe at Bethlehem. That is where he got his body. and the only physical body, or body of flesh and bones, that he ever had or ever will have. The doctrine of reincarnation is, says the Prophet Joseph, the doctrine of the devil! 18.6 Of course the devil will teach people any doctrine that will contradict the truth. The great works accomplished by our Redeemer before he was born, including the creation of worlds at the command of his Father, were accomplished by him in his spirit existence.18.7
+
+FALSE "REORGANITE" DOCTRINE ABOUT BIRTH OF CHRIST. "Reorganites" claim that Brigham Young went astray and apostatized because he declared that Jesus Christ was not begotten of the Holy Ghost. "Reorganites claim that he was begotten of the Holy Ghost, and they make the statement that the scriptures so teach. But they do err not understanding the scriptures. They tell us the Book of Mormon states that Jesus was begotten of the Holy Ghost. I challenge the statement. The Book of Mormon teaches no such thing! Neither does the Bible. It is true there is one passage that states so, but we must consider it in the light of other passages with which it is in conflict.
+
+CHRIST CONCEIVED BY POWER OF HOLY GHOST. The Book Of Mormon says: "And behold. he shall be born of Mary. at Jerusalem which is the land of our forefathers, she being a virgin, a precious and chosen vessel, who shall be overshadowed and conceive by the power of the Holy Ghost, and bring forth a son, yea, even the Son of God." 19.8
+
+With this Luke agrees: "Then said Mary unto the angel, How shall this be, seeing I know not a man? And the angel answered and said unto her, The Holy Ghost shall come upon thee. and the power of the Highest shall overshadow thee: therefore also that holy thing which shall be born of thee shall be called the Son of God."19.9
+
+In Matthew it reads "of the Holy Ghost,"19.10 which evidently means "power of the Holy Ghost," to agree with the Book of Mormon and with Luke.
+
+CHRIST NOT SON OF THE HOLY GHOST. If "Reorganites" are correct, then Jesus is not the Only Begotten Son of the Father, but the Son of the Holy Ghost. This will not do for it conflicts with the scriptures. The Prophet taught that the Father. Son, and Holy Ghost were three separate personages, and that Jesus was the Only Begotten of the Father. In the Book of Genesis (Inspired Version), Jesus is spoken of throughout as the Only Begotten of the Father not less than 12 times, and in the Book of Mormon at least five times, and a great number of times in the Doctrine and Covenants; and in these scriptures he is spoken of as the
+
+Son of God innumerable times.
+
+Now, if he is the Only Begotten of the Father in flesh, he must be the Son of the Father and not the Son of the Holy Ghost. Yet, to be consistent, "Reorganites" must claim that Jesus is the Son of the Holy Ghost and not the Son of God the Father. Their alternative -- if it can be called such -- must be, then, the stand of Mr. William H. Kelley, "president" of their "apostles," who gave a written statement in answer to the question put to him by the writer, September 10, 1903: "You say that Jesus Christ, the Son of God, was begotten of the Holy Ghost. Is he the Son of the Holy Ghost?"
+
+Mr. Kelley signed his answer as follows: "I do not know. Wm. H. Kelley."
+
+Just think of this for a moment. Here is a man professing to be the chief of the special witnesses for Christ, declaring that he does not know whether Jesus is the Son of God the Father or the Son of the Holy Ghost. And the Savior declared it so plainly that he was the Son of the Father, his Only Begotten, and was so acknowledged by the Father throughout the scriptures. "And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent." 20.11
+
+#### ADVENT AND MISSION OF CHRIST FORETOLD
+
+SHILOH PROPHECY. When Jacob blessed his son Judah, he declared that the scepter should not depart from Judah until Shiloh come.20.12 Who is Shiloh? He is Christ. And Judah had the scepter in Israel or Judah, until the days of Christ.
+
+Joseph who was sold into Egypt foretold the delivery of Israel from that land by Moses. In that prophecy he says that Christ is Shilo. He said: "The Lord God will raise up . . . unto thee, whom my father Jacob hath named Israel, a prophet; (not the Messiah who is called Shilo;) and this prophet shall deliver my people out of Egypt in the days of thy bondage." 21.13
+
+The Shiloh prophecy has reference to the authority which should in course of time be conferred upon the descendants, or tribe of Judah, when Israel became established in the land of their inheritance. This authority was to be that of kingly rule or exercise of authority in making and enforcing the law.
+
+FULFILLMENT OF SHILOH PROPHECY. This prophecy was fulfilled, for after Judah came to power in Israel, when David was exalted to the throne, that tribe held authority until the time of the coming of Christ. Even after the division of the kingdom into the two kingdoms, Judah and Israel, still kings of Judah sat on the throne until the time of the captivity 600 years before Christ.
+
+Judah continued even during the captivity and after the return to Palestine 70 years later to
+ have lawgivers for the Jews. Daniel and others in Babylon held power, and as prophets directed the people. When they returned under Zorababbel (who was the legal descendant of David, and who acted as governor of Jerusalem), and when Ezra and others rebuilt the temple and Jerusalem, they were still directed by lawgivers. Eventually the Sanhedrin was established and it continued in this capacity until after the death of Christ, when in the destruction of Jerusalem and the scattering of the Jews that authority ceased on the earth; and the Jews had no lawgiver unto whom they could turn. It is true that there were times when these lawgivers were iniquitous and did wrong, but nevertheless this prophecy was fulfilled.21.14
+
+BRAZEN SERPENT A SIMILITUDE OF CHRIST. In the third chapter of John, we have the account of the Lord's conversation with Nicodemus in which the Lord said: "And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up: That whosoever believeth in him should not perish, but have eternal life." 22.15 Do you recall how in the wilderness when they came among the serpents, the Lord told Moses to put a brazen serpent upon a pole and they who looked upon it should be healed, for some of them were dying when bitten? That was done in the similitude of our Lord's being lifted upon the cross, so that all who believed in him should not perish.22.16
+
+ANIMAL SACRIFICE A SIMILITUDE OF CHRIST. When the Israelites left Egypt, the Lord gave them the passover.22.17 They were to take a lamb without blemish; they were not to break any of its bones. They were to kill it, cook it, and eat it with bitter herbs and unleavened bread. This feast they were to remember annually thereafter until Christ should come. This was also in the similitude of the sacrifice of Jesus Christ. If you stop to consider it, it was at the time of the passover that our Lord was taken and crucified in fulfillment of the promises that had been made that he would come to be our Redeemer. 22.18
+
+All these things point to his coming and to his ministry. In fact sacrifice goes right back to the days of Adam. Animal sacrifices were to be without blemish, for it was in the similitude of the sacrifice of Jesus Christ, and pointed to his coming. We do not learn much in the Book of Genesis what sacrifice was for, because the plain things pertaining to sacrifice have been removed. 22.19
+
+When Noah came out of the Ark the first thing that he did was to take a clean animal and offer sacrifice, although animals were scarce. In the Book of Moses in the Pearl of Great Price, we get the full understanding why sacrifice was practiced. 23.20 It is because it pointed to the sacrifice of Jesus Christ, and every animal had to be without spot or blemish. When Christ was crucified, he was placed on the cross between two thieves. The bones of the thieves were broken, but not the bones of the Savior.
+
+ISAIAH FORETELLS LIFE OF CHRIST. I want to read to you the 53rd chapter of Isaiah. Now Bible commentators will tell you that this has nothing to do with the life of Jesus Christ. To them this story is one concerning suffering Israel. I want to tell you that it is a
+ story, a synopsis of the life of our Redeemer, revealed to Isaiah 700 years before the Lord was born. If you have the proper discernment you will discover this. I am going to make some comments on it as I read it.
+
+HE OUTWARDLY APPEARED AS OTHER MEN. "Who hath believed our report? and to whom is the arm of the Lord revealed? For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him."
+
+What is the meaning of that? Did not Christ grow up as a tender plant? There was nothing about him to cause people to single him out. In appearance he was like men; and so it is expressed here by the prophet that he had no form or comeliness, that is, he was not so distinctive, so different from others that people would recognize him as the Son of God. He appeared as a mortal man.
+
+CHRIST A MAN OF SORROWS. "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not. Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted."
+
+Was not Christ a man of sorrows? Was he not rejected of men? Was he not acquainted with grief? Did not the people (figuratively) hide their faces from him? Did not the people esteem him not? Surely he knew our griefs and carried our sorrows, but he was thought to be stricken of God and forsaken by him. Did not the people say that? How true all these things are!
+
+HIS SUFFERING FORETOLD. "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed."
+
+Now this is poetic language of course. Why should it not be? But can't you get the true picture? Was he not wounded for our transgressions and bruised for our iniquities? Was he not chastised for us, and if we will believe on him, are we not healed with his stripes?
+
+"All we like sheep have gone astray; we have turned every one to his own way; and the Lord hath laid on him the iniquity of us all."
+
+Does not the gospel teach us that he carried the burden of our sins and that we as sheep have strayed away?
+
+"He was oppressed, and be was afflicted, yet he opened not his mouth: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth."
+
+Is this not true of Christ? Can you not read it in the gospels?
+
+"He was taken from prison and from judgment: and who shall declare his generation? for he was cut off out of the land of the living: for the transgression of my people was he stricken."
+
+It was for our transgressions that he died. And who are mentioned as his generation? Those who accept him and keep his commandments.
+
+"And he made his grave with the wicked, and with the rich in his death; because he had done no violence, neither was any deceit in his mouth."
+
+Was he not buried among the wicked, and was not the sepulchre in which he was placed one belonging to the rich? Surely there was no deceit in his mouth for he was perfect.
+
+HE SHALL SEE HIS SEED. "Yet it pleased the Lord to bruise him; he hath put him to grief: when thou shalt make his soul an offering for sin, he shall see his seed, he shall prolong his days, and the pleasure of the Lord shall prosper in his hand."
+
+The Father "so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life." 25.21
+
+"He shall see of the travail of his soul, and shall be satisfied: by his knowledge shall my righteous servant justify many; for he shall bear their iniquities. Therefore will I divide him a portion with the great, and he shall divide the spoil with the strong; because he hath poured out his soul unto death; and he was numbered with the transgressors; and he bare the sin of many, and made intercession for the transgressors."25.22
+
+THE SEED OF CHRIST. Is this not just as clear as sunshine, at least to those who have the inspiration of the Spirit of the Lord? In the 15th chapter of Mosiah, Abinadi comments on this chapter in Isaiah and makes it plain. He declares that the seed of Christ are those who believe in him.25.23 Christ was numbered with the transgressors and he bare the sins of many, but he made intercession for the transgressors, and through their repentance gives unto them eternal life.
+
+In relation to his seed, I wish to quote the words of King Benjamin in the 5th chapter of Mosiah: "And now, because of the covenant which ye have made ye shall be called the children of Christ, his sons, and his daughters; for behold, this day he hath spiritually begotten you; for ye say that your hearts are changed through faith on his name; therefore, ye are born of him and have become his sons and his daughters."26.24
+
+These and all who have made such covenants are the "seed" of Christ. 26.25
+
+#### OUR ADVOCATE AND OUR MEDIATOR
+
+FATHER PRESENT IN EDEN. When Adam was in the Garden of Eden he was in the presence of the Father and was taught by him. He learned his language. He was as familiar with our Eternal Father in that garden as we are with our fathers in mortal life. The first part of Genesis dealing with the creation and with Adam in the Garden of Eden is when the Father was present with him. 26.26
+
+After he partook of the forbidden fruit, Adam and Eve were cast out of that garden and likewise out of the presence of the Father. He was banished because of his transgression, and became spiritually dead -- that is, he was shut out from the presence of God. 26.27
+
+CHRIST STANDS BETWEEN MAN AND THE FATHER. Then Jesus Christ came upon the scene as the Mediator between man and God, and the Advocate for man with the Father. He pleads our cause. As our Mediator, through his ministry, he labors to reconcile us, to bring us into agreement with God his Father.26.28
+
+An advocate is one who defends or pleads for or in behalf of another. A mediator is one who reconciles or brings about agreement between parties.
+
+That is part of his great mission. He stands between the Father and man. When he was upon earth, he prayed frequently for his disciples, pleading with his Father in their behalf, 27.29 and he has been pleading ever since, and he stands between us and God our Father.
+
+JEHOVAH GIVES ALL REVELATION. All revelation since the fall has come through Jesus Christ, who is the Jehovah of the Old Testament. In all of the scriptures, where God is mentioned and where he has appeared, it was Jehovah who talked with Abraham, with Noah, Enoch, Moses and all the prophets. He is the God of Israel, the Holy One of Israel; the one who led that nation out of Egyptian bondage, and who gave and fulfilled the Law of Moses. 27.30 The Father has never dealt with man directly and personally since the fall, and he has never appeared except to introduce and bear record of the Son. Thus the Inspired Version records that "no man hath seen God at any time, except he hath borne record of the Son."27.31
+
+Exodus 6:3 in the King James version is a mistranslation. It reads: "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them." Now we know that Jehovah is Christ, and here is a statement that it was not our Savior who appeared to these ancient prophets. However, in the revision of the scriptures by the Prophet Joseph, the passage reads as follows: "And I appeared unto Abraham, unto Isaac, and unto Jacob. I am the Lord God Almighty; the Lord JEHOVAH. And was not my name known unto them?"27.32
+
+CHRIST MAY SPEAK AS THE FATHER. In giving revelations our Savior speaks at times
+ for himself; at other times for the Father, and in the Father's name, as though he were the Father, and yet it is Jesus Christ, our Redeemer who gives the message. So, we see, in Doctrine and Covenants 29:1, that he introduces himself as "Jesus Christ, your Redeemer," but in the closing part of the revelation he speaks for the Father, and in the Father's name as though he were the Father, 28.33 and yet it is still Jesus who is speaking, for the Father has put his name on him for that purpose.
+
+FIRST VISION AND REVELATION. We have a wonderful illustration of how revelation comes through Christ presented to us in the Vision given to the Prophet Joseph Smith. The Father and the Son appeared unto him, but it was not the Father who answered his question! The Father introduced Joseph to his Son, and it was the Son who answered the important question and gave the instruction.28.34
+
+Had Joseph Smith come home from the grove and declared that the Father and the Son appeared to him and that the Father spoke to him and answered his question while the Son stood silently by, then we could have accepted the story as a fraud. Joseph Smith was too young and inexperienced to know this at the time, but he made no mistake, and his story was in perfect harmony with divine truth, with the divine law that Christ is the Mediator between God and man.
+
+#### CHRIST THE FATHER AND THE SON
+
+FATHER BECAUSE OF THE ATONEMENT. Our scriptures teach that Jesus Christ is both the Father and the Son.28.35 The simple truth is that he is the Son of God by birth, both in the spirit and in the flesh. He is the Father because of the work that he has performed.
+
+The difference between our Savior and the rest of us is that we have had fathers who were mortal and therefore subject to death. Our Savior did not have a mortal Father and therefore death was subject to him. He had power to lay down his life and to take it again, but we do not have power to lay down our lives and to take them again.29.36 It is through the atonement of Jesus Christ that we receive eternal life, through the resurrection of the dead and obedience to the principles of the gospel.
+
+The Savior becomes our Father, in the sense in which this term is used in the scriptures, because he offers us life, eternal life, through the atonement which he made for us. In the wonderful instruction given by King Benjamin we find this: "And now, because of the covenant which ye have made ye shall be called the children of Christ, his sons, and his daughters; for behold, this day He hath spiritually begotten you; for ye say that your hearts are changed through faith on his name; therefore, ye are born of him and have become his sons and his daughters." 29.37
+
+So, we become the children, sons and daughters of Jesus Christ, through our covenants of obedience to him. Because of his divine authority and sacrifice on the cross, we become
+ spiritually begotten sons and daughters, and he is our Father.
+
+FATHER BY DIVINE INVESTITURE OF AUTHORITY. Christ is also our Father because his Father has given him of his fulness; that is, he has received a fulness of the glory of the Father. This is taught in Doctrine and Covenants 93:1-5, 16-17, and also by Abinadi in the 15th chapter of Mosiah. Abinadi's statement that he is "the Father, because he was conceived by the power of God," harmonizes with the Lord's own words in section 93 that he is the Father because he has received of the fulness of the Father. Christ says he is the Son because, "I was in the world and made flesh my tabernacle, and dwelt among the sons of men." Abinadi expresses this truth by saying he is "the Son because of the flesh."
+
+The Father has honored Christ by placing his name upon him, so that he can minister in and through that name as though he were the Father; and thus, so far as power and authority are concerned, his words and acts become and are those of the Father.
+
+FATHER AS CREATOR. Our Lord is also called the Father in the sense that he is the Father or Creator of the heavens and the earth and all things. 30.38
+
+#### CHRIST ONLY HATH POWER OF IMMORTALITY
+
+"SOUL-SLEEPERS" DENY IMMORTALITY. Perhaps the most important passage that the "soul-sleepers," as they are called, rely upon in their contention that the body is the soul of man (divested of life, save for a "short, average tenure of three score years and ten"), is Paul's reference to our Savior as "the King of kings, and Lord of lords; Who only hath immortality, dwelling in the light which no man can approach unto."30.39 Basing their claims upon this passage, they argue that this is conclusive proof that man in no sense has the gift of immortality, and shall cease to exist when mortal death overtakes him.
+
+SAINTS RESURRECTED WITH CHRIST. It is strange they will hold so tenaciously to this expression, interpreting it to mean that the Savior is the only one who has received the resurrection from the dead, and therefore the only one "who hath immortality," and overlook the fact recorded by Matthew that "the graves were opened; and many bodies of the saints which slept arose, And came out of the graves after his resurrection, and went into the holy city, and appeared unto many." 30.40 If these had also partaken of the resurrection, as we are assured by an eye witness, had they not also received the blessing of immortality and eternal life as well as the Son of God? It is recorded in the Book of Mormon that after the resurrection of Jesus Christ, the faithful dead on this continent also arose in the resurrection.30.41
+
+CHRIST HAD POWER OVER DEATH. This being true, what then did Paul mean by saying to Timothy, according to the King James Bible, that the Son of God "only hath immortality"? Simply this: That of all who have dwelt upon this earth, the Son of God stands out alone as the only one who possessed life in himself and power over death inherently. Christ was
+ never subject unto death, even on the cross, but death was ever subject unto him. "As the Father hath life in himself," the Savior said, "so hath he given to the Son to have life in himself." 31.42 Again, he said: "Therefore doth my Father love me, because I lay down my life, that I might take it again. No man taketh it from me, but I lay it down of myself. I have power to lay it down, and I have power to take it again. This commandment have I received of my Father." 31.43
+
+Can any man say this? Is there anyone else who could truthfully say that he had life in himself, by which he could lay down his body and take it again? We are all subject to the mortal death, and none of us has power over death. The Savior, however, because he was the Only Begotten Son of the Father in the flesh, was endowed with life in himself from his birth, even as his Father had life in himself -- which is immortality.31.44
+
+THE LIGHT AND HOPE OF IMMORTALITY. With this understanding we can use this passage in Timothy effectively as it now reads. But the further fact is that this same controversial passage has not come down to us in the King James Bible with the same clarity it had when Paul wrote it. As corrected by the Prophet in the Inspired Version it declares that Christ is "the King of kings, and Lord of lords, to whom be honor and power everlasting; Whom no man hath seen, nor can see, unto whom no man can approach, only he who hath the light and the hope of immortality dwelling in him."31.45
+
+#### CHRIST WORKED OUT HIS OWN SALVATION
+
+CHRIST BEGAN MORTALITY AS MEN Do. Our Savior was a God before he was born into this world, and he brought with him that same status when he came here. He was as much a God when he was born into the world as he was before. But as far as this life is concerned it appears that he had to start just as all other children do and gain his knowledge line upon line. Luke says be "increased in wisdom and stature, and in favour with God and man." 32.46 John records that "he received not of the fulness at the first," but had to progress "from grace to grace, until he received a fulness."32.47 Paul wrote, "Though he were a Son, yet learned he obedience by the things which he suffered." 32.48
+
+HOW HE GAINED LIGHT AND TRUTH. Evidently, before he was 12 years old -- for then he astonished the doctors and wise men in the temple -- he had learned a great deal about his Father's business.32.49 This knowledge could come to him by revelation, by the visitation of angels, or in some other way. But his knowledge, so far as this life was concerned, had to come line upon line and precept upon precept. Without question he was in communication, from time to time, with his Heavenly Father.
+
+The Inspired Version tells us: "Jesus grew up with his brethren, and waxed strong, and waited upon the Lord for the time of his ministry to come. And he served under his father, and he spake not as other men, neither could he be taught; for he needed not that any man should teach him. And after many years, the hour of his ministry drew nigh." 32.50
+
+HOW HE DID WHAT HE HAD SEEN THE FATHER DO. The statement of our Lord that he could do nothing but what he had seen the Father do, 32.51 means simply that it had been revealed to him what his Father had done. Without doubt, Jesus came into the world subject to the same condition as was required of each of us -- he forgot everything, and he had to grow from grace to grace. His forgetting, or having his former knowledge taken away, would be requisite just as it is in the case of each of us, to complete the present temporal existence.
+
+CHRIST GAINED FULNESS AFTER RESURRECTION. The Savior did not have a fulness at first, but after he received his body and the resurrection all power was given unto him both in heaven and in earth.33.52 Although he was a God, even the Son of God, with power and authority to create this earth and other earths, yet there were some things lacking which he did not receive until after his resurrection. In other words he had not received the fulness until he got a resurrected body, and the same is true with those who through faithfulness become sons of God. Our bodies are essential to the fulness and the continuation of the seeds forever.33.53
+
+#### TEACH THAT CHRIST WAS MORE THAN A MAN
+
+EVENTUAL SORROW OF FALSE TEACHERS. If the worth of souls is great and our joy shall be great in heaven with those we may be able to bring unto the strait and narrow way, what will be our feelings if, through any teachings of ours, one soul is barred from the celestial kingdom? If that which we have taught and practiced shall destroy the faith of one individual so that he does not accept the truth, and that fact is made known unto us when we stand before the judgment seat, then, let me ask, how great will be our sorrow? How great will be the condemnation which we will merit in that we have barred, through our influence and through our teachings, one of the children of our Father from entering into eternal exaltation?
+
+SEVERE PUNISHMENT FOR FALSE TEACHERS. I tell you that these men who stand up and say that Jesus is not the Christ, that he was a great teacher, but not the Son of God, the Only Begotten of the Father, and thus lead many to deny the power of the resurrection and the divinity of Christ, are taking upon themselves a most terrible responsibility that should cause them to fear and tremble. I could not stand it to know that I had taught an untruth that would lead people to destruction. And when these men realize what they have done and that, not only their own souls have not been saved, but they have been the means of destroying the souls of other men, leading them away from truth and righteousness, I tell you that it shall be hard with them, and their punishment shall be most severe in eternity.34.54
+
+#### HISTORICITY OF JESUS
+
+ENEMIES OF CHRIST ADMIT HE LIVED. Many who deny the divinity of Jesus Christ are
+ convinced of his historicity. One of the most persistent and determined foes of Jesus Christ in modern times admits that the evidence is beyond reasonable dispute and that Jesus Christ lived and taught the people of Judea. Moreover, he declares that Paul, the chief writer of epistles and advocate for Jesus Christ, was a real personality who came in contact with the Christians within the first decade after the death of Christ.
+
+"Paul . . . habitually speaks of Cephas and others who were actual companions of Jesus. We have to deny the genuineness of all the epistles to doubt this. . . . He joined the Christian body and mingled with them in Jerusalem, within less than ten years of the execution of Jesus. No Jew there seems to have told him that Jesus was a mere myth. In all the bitter strife of Jew and Christian the idea seems to have occurred to nobody. Setting aside the gospels entirely, ignoring all the Latin writers are supposed to have said in the second century, we have a large and roughly organized body of Christians at the time when men were still alive who remembered events of the fourth decade of the century.
+
+"I conclude that it is more reasonable to believe in the historicity of Jesus. There is no parallel in history to the sudden growth of a myth and its conversion into a human personage in one generation. . . . From the earliest moment that we catch sight of Christians in history the essence of their belief is that Jesus was an incarnation, in Judea, of the great God of the universe. . . . So it seems to me fare more reasonable, far more scientific, far more consonant with the facts of religious history which we know, to conclude that Jesus was a man who was gradually turned into a God." 35.55
+
+BOOK OF MORMON PROVES CHRIST LIVED. We have "a more sure word of prophecy," as Peter might put it, "whereunto ye do well that ye take head," 35.56 by which we may know that Jesus Christ lives and is indeed the Only Begotten Son of God.
+
+The Book of Mormon, while an ancient record, has come to light within the knowledge of this generation. We all know how it was revealed and how it was translated, and that the Lord raised up witnesses, "as seemeth him good," who testified "to the truth of the book and the things therein." Moreover, the Book of Mormon was preserved, as it is recorded, to come forth in the latter days to bear witness of the truth of the record of the Jews (Bible), and to bear witness, "to the convincing of the Jew and Gentile that JESUS is the CHRIST, the ETERNAL GOD, manifesting himself unto all nations."35.57 The Book of Mormon bears record of the personality and reality of Jesus Christ, both by prophecy uttered hundreds of years before he was born and by recording his personal appearance among the ancient people on this American continent. In this sacred volume we have his words recorded and the testimony of witnesses who saw him and unto whom he ministered after his resurrection.
+
+CHRIST SEEN BY MODERN PROPHETS. However, we are not dependent upon the writings and the testimony of men who lived and wrote in ancient times. Although we accept their sayings, we have the testimony of witnesses of our own time. Joseph Smith, Oliver Cowdery, Sidney Rigdon, and others, have borne witness to the world -- as they were
+ commanded to do -- that they saw Jesus Christ, conversed with him, were ministered to by him, and received from him instruction. These facts are recorded as they were written at the time. This testimony has gone forth into all the world and has been before the world for more than 100 years.
+
+Joseph Smith and Oliver Cowdery were in the presence of the Lord Jesus Christ in the Kirtland Temple, April 3, 1836, and heard his voice.36.58 Joseph Smith and Sidney Rigdon were in his presence February 16, 1832, and have given their testimony as follows: "And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives! For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father -- That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God." 36.59
+
+RIGHTEOUS MAY STILL SEE CHRIST. This testimony has gone forth into all the world. There are thousands who know it is true for they too have had witness borne in upon their souls. There are thousands who believe in the promise of the Lord, "that every soul who forsaketh his sins and cometh unto me, and calleth on my name, and obeyeth my voice, and keepeth my commandments, shall see my face and know that I am." 36.60 And this promise is unto all men everywhere so that all may know if they will. 37.61
+
+#### APPEARANCE OF THE LORD TO BROTHER OF JARED
+
+CHRIST REVEALED HIMSELF PARTIALLY TO SOME. I have always considered Ether 3:15 to mean that the Savior stood before the Brother of Jared plainly, distinctly, and showed him his whole body and explained to him that he was a spirit. In his appearance to Adam and Enoch, he had not made himself manifest in such a familiar way. His appearances to earlier prophets had not been with that same fulness.
+
+The scriptural accounts of talking face to face and of walking with God should not be interpreted in the sense that the Savior stood before those prophets and revealed his whole person. That he may have done so at later periods in the cases of Abraham and Moses is possible, but he had not done so in that fulness in the antediluvian days. For the Brother of Jared he removed the veil completely. He had never showed himself to man before in the manner and way he did to that prophet. 37.62

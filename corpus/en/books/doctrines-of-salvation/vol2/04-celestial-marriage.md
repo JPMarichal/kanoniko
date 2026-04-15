@@ -1,0 +1,205 @@
+#### MARRIAGE AND EXALTATION
+
+MARRIAGE: THE COVENANT OF EXALTATION. Marriage, as understood by Latter-day Saints, is a covenant ordained to be everlasting. It is the foundation for eternal exaltation, for without it there could be no eternal progress in the kingdom of God. 58.1
+
+The Lord taught Joseph Smith the doctrine of the eternity of the marriage covenant and the perpetuity of the family after death. This revelation has proved a wonderful, if not terrible shock to the believers in the doctrine that at death a man and his wife are forever separated and the family relationship comes to an eternal end. Yet there are very few, if they have natural feelings, who do not hope that the eternity of the family may prove to be a fact. 58.2
+
+There is no ordinance connected with the gospel of Jesus Christ of greater importance, of more solemn and sacred nature, and more necessary to the eternal joy of man, than marriage. Yet there is no principle which has been made the butt of coarser jokes, a greater jest by the vulgar and the unclean, and even by many who think themselves refined, than that of marriage.
+
+MARRIAGE BRINGS CROWNING BLESSINGS OF GOSPEL. Marriage is a principle which, when entered, presents more serious problems than any other. It should be received in the spirit of patience and love, even that greater love which comes through the power of the Holy Spirit. Nothing will prepare mankind for glory in the kingdom of God as readily as faithfulness to the marriage covenant. Through this covenant, perhaps more than any other, we accomplish the perfect decree of the Divine will, but this covenant is only one of many required of man who seeks to do the will of the Father.
+
+If properly received, this covenant becomes the means of the greatest happiness. The greatest honor in this life, and in the life to come -- honor, dominion, and power in perfect love -- are the blessings which come out of it. These blessings of eternal glory are held in reserve for those who are willing to abide in this and all other covenants of the gospel. Others shall not be so blessed.
+
+Marriage is the grandest, most glorious, and most exalting principle connected with the gospel. It is that which the Lord holds in reserve for those who become his sons and daughters; all others are servants only, even if they gain salvation. They do not become members of the household of our Father and our God, if they refuse to receive the celestial covenant of marriage. 59.3
+
+MARRIAGE BY MAN'S AUTHORITY ENDS AT DEATH. The Lord has informed us through his servants the prophets, that all things are governed by law. His house is a house of order, because all things within are obedient to law. He will not accept at the hand of man, an offering, vow, or contract, which is not entered into in accordance with the laws which govern in his kingdom and which he, the Lord, has established. Man-made obligations and agreements, in which the Lord does not enter, and which were not made by him, or by his word, which is his law, shall come to an end when men are dead.
+
+Therefore, all marriage contracts, as well as other contracts and obligations made in this life by parties who have not accepted the everlasting gospel, must come to an end when the contracting parties have passed from this existence. In order to make the marriage contract valid and binding for eternity as well as for time, the contracting parties must enter into the marriage relationship in full obedience and accordance with the laws upon which such blessings are predicated.60.4
+
+SAINTS COMMANDED To MARRY FOR ETERNITY. The Lord has commanded us, as it is recorded in the revelations, that marriage among members of the Church should be performed in his holy house, and not for time only, but for time and all eternity. Therefore, those who are satisfied to receive a ceremony for time only, uniting them for this life, and are content with that, are ignorant of this fundamental principle of the gospel and its consequences, or they are in rebellion against the commandments of the Lord.
+
+Now, what I want to say is intended very largely for the parents of the young people. I think the parents, perhaps, are more to be blamed, because, in many instances, very many instances, they have not taught their children the sacredness of the marriage covenant. . . .
+
+It fills my heart with sadness when I see in the paper the name of a daughter or a son of members of this Church, and discover that she or he is going to have a ceremony and be married outside of the temple of the Lord, because I realize what it means, that they are cutting themselves off from exaltation in the kingdom of God.60.5
+
+SORROW IN RESURRECTION IF NO ETERNAL MARRIAGE. These young people who seem to be so happy now, when they rise in the resurrection -- and find themselves in the condition in which they will find themselves -- then there will be weeping, and wailing, and gnashing of teeth, and bitterness of soul; and they have brought it upon themselves because of their lack of faith and understanding of the gospel, and from, I am sorry to say, the encouragement they have received many times from their own parents. . . .
+
+UNWORTHY NOT TO GO TO TEMPLE. Of course there are people who are not worthy to go to the temple, and therefore should not go to the temple. No one should go to the temple except those who are worthy, as the Lord has said, "who [have] overcome by faith," and are cleansed and are just and true.61.6 Then they can go to the temple. If they are unclean, if they lack the faith, they had better stay out until they get the faith and are clean.61.7
+
+CIVIL MARRIAGE MAKES SERVANTS IN ETERNITY. The Lord says in regard to marriage: "For whatsoever things remain are by me: and whatsoever things are not by me shall be shaken and destroyed. Therefore, if a man marry him a wife in the world, and he marry her not by me nor by my word, and he covenant with her so long as he is in the world and she with him, their covenant and marriage are not of force when they are dead, and when they are out of the world; therefore, they are not bound by any law when they are out of the world." 61.8
+
+That is, they are not bound by any law of the gospel. It has no claim upon them: when they are dead their contract, and obligations, and bonds come to an end; they have no claim upon each other, and no claim upon their children. Their children are left without parents, only as they themselves through their own faithfulness may be adopted into some other man's family.
+
+"Therefore, when they are out of the world they neither marry nor are given in marriage; but are appointed angels in heaven; which angels are ministering servants, to minister for those who are worthy of a far more, and an exceeding, and an eternal weight of glory.
+
+"For these angels did not abide my law; therefore, they cannot be enlarged, but remain separately and singly, without exaltation, in their saved condition, to all eternity; and from henceforth are not gods, but are angels of God forever and ever." 61.9
+
+The implication here is this, that they who are clean in their lives; who are virtuous; who are honorable; but who will not receive this covenant of eternal marriage in the house of God, shall come forth -- and they may even enter into the celestial kingdom, but when they enter there they enter as servants -- to wait upon those "who are worthy of a far more, and an exceeding, and an eternal weight of glory."
+
+CHOICE BETWEEN WORLDLY THINGS AND EXALTATION. Do you want to go on in this brief span that is called mortality, loving the fashions -- the temptations, the allurements,
+ all that this world can offer -- because they are pleasant, and then come up in the resurrection from the dead to be a servant, to wait upon those "who are worthy of a far more, and an exceeding, and eternal weight of glory"? That is what such persons are going to get. And it may be, if they are not honest and honorable they may even go into the terrestrial or the telestial kingdoms and may miss the celestial kingdom altogether, because we are going to receive according to our works.
+
+Now that is the end, as far as marriage is concerned, for those who are content to be married simply by the law of the land and not the law of God.
+
+CELESTIAL MARRIAGE MAKES GODS IN ETERNITY. But if we are married for time and for all eternity and it is sealed upon our heads by those who have the authority so to seal, and if we then keep our covenants and are faithful to the end, we shall come forth in the resurrection from the dead and receive the following promised blessings:
+
+"Then shall they be gods, because they have no end; therefore shall they be from everlasting to everlasting, because they continue; then shall they be above all, because all things are subject unto them. Then shall they be gods, because they have all power, and the angels are subject unto them." 62.10
+
+Who are the angels? Those who would not abide the law.
+
+"Verily, verily, I say unto you, except ye abide my law ye cannot attain to this glory." 63.11
+
+Abide what law? The law of the new and everlasting covenant, which is all the covenants.
+
+"For strait is the gate, and narrow the way that leadeth unto the exaltation and continuation of the lives, and few there be that find it, because ye receive me not in the world neither do ye know me.
+
+"But if ye receive me in the world, then shall ye know me, and shall receive your exaltation; that where I am ye shall be also."63.12
+
+What a wonderful promise! And it is open to us; it is a free gift; it doesn't cost us anything: only righteousness, faith, obedience; and surely we can pay that price. It means, of course, giving up the things of the world; but is that a sacrifice? Does anybody consider that giving up the things that pertain to this world is a sacrifice? Some people would look upon it that way, but it isn't. You cannot sacrifice anything for the gospel of Jesus Christ. It would be just as consistent if a man gave me a dollar and I gave him ten cents, and then I would go out and say that was a great sacrifice I made.
+
+So if you want to enter into exaltation and become as God, that is a son of God or a daughter of God, and receive a fulness of the kingdom, then you have got to abide in his law -- not
+ merely the law of marriage but all that pertains to the new and everlasting covenant -- and then you have the "continuation of the lives" forever, for the Lord says:
+
+"This is eternal lives -- to know the only wise and true God, and Jesus Christ, whom he hath sent. I am he. Receive ye, therefore, my law."63.13
+
+UNMARRIED TO INHERIT THE DEATHS. Now what about the others? Let us see what the Lord says: "Broad is the gate, and wide the way that leadeth to the deaths; and many there are that go in thereat, because they receive me not, neither do they abide in my law." 64.14
+
+What does the Lord mean by "the deaths"? That does not mean annihilation; that does not mean they are not going to get immortality. Every man will get immortality, will live forever. That is a free gift of God. The resurrection will come to every soul. Then what does the Lord mean when he says those who enter into the broad way enter into "the deaths"?
+
+He means they enter into the world-to-come "separately and singly," and they have no continuation of the "lives," no increase. That is death. They don't go on; they come to an end as far as that progression is concerned. The Lord calls it "the deaths," and I am sure, I am confident, that every soul who rejects this commandment of the Lord and enters into the broad way, will discover when he enters into the eternities that he surely has entered into "the deaths," he has reached the end -- not the end of his life but the end of increase.64.15
+
+MARRIAGE AND BECOMING SONS OF GOD. The gift promised to those who receive this covenant of marriage and remain faithful to the end, that they shall "have no end," means that they shall have the power of eternal increase. Only those who have this power will truly "know the only wise and true God, and Jesus Christ, whom he hath sent." Others may see the Lord and may be instructed by him, but they will not truly know him or his Father unless they become like them.
+
+Who desires to enter the eternal world and be a servant, when the promise is held out that we may be sons and daughters of God? Yet there will be the vast majority who will enter into the eternal world as servants, and not as sons, and this simply because they think more of the world and its covenants, than they do of God and his covenants; simply because in their blindness of heart, they refuse to keep these sacred and holy commandments. Oh, what bitterness there will be in the day of judgment, when every man receives his reward according to his works! 65.16
+
+NO EXALTATION WITHOUT MARRIAGE. Since marriage is ordained of God, and the man is not without the woman, neither the woman without the man in the Lord, there can be no exaltation to the fulness of the blessings of the celestial kingdom outside of the marriage relation. A man cannot be exalted singly and alone; neither can a woman. Each must have a companion to share the honors and blessings of this great exaltation. Marriage for time and
+ all eternity brings to pass the crowning glory of our Father's kingdom, by which his children become his heirs, into whose hands he gives all things.65.17
+
+If a man and his wife are saved in separate kingdoms, for instance, the celestial and terrestrial, automatically the sealing is broken; it is broken because of the sins of one of the parties. No one can be deprived of exaltation who remains faithful. In other words, an undeserving husband cannot prevent a faithful wife from an exaltation and vice versa. In this case the faithful servant would be given to someone who is faithful.65.18
+
+#### ETERNITY OF THE FAMILY
+
+ETERNAL HAPPINESS BECAUSE FAMILY CONTINUES. Not only was marriage instituted by the Lord to endure eternally, but it also naturally follows that the same is true of the family. The plan given in the gospel for the government of man on this earth is typical of the laws governing in the kingdom of God. Is it possible to imagine a greater source of sorrow than to be left in the eternal world without claim on father or mother or children?
+
+The thought of a nation without the family unit as its fundamental foundation; where all the citizens are, comparatively, strangers to each other, and where natural affection is not found; where no family ties bind the groups together, is one of horror. Such a condition could lead to but one end -- anarchy and dissolution. Is it not reasonable to believe the same thing true in relation to the kingdom of God? If in that kingdom, there were no family ties and all men and women were "angels" without the natural kinships, as many people believe, could it be a place of happiness -- a heaven?
+
+THE FAMILY OF GOD THE FATHER. The prevailing doctrines that there are no such ties and that sex disappears in the granting of salvation to the righteous, certainly are not in accord with the scriptures. The Lord said to John, "He that overcometh shall inherit all things; and I will be his God, and he shall be my son."66.19
+
+Moreover, Paul, writing to the Ephesian Saints said to them, "For this cause I bow my knees unto the Father of our Lord Jesus Christ, Of whom the whole family in heaven and earth is named." 66.20 Since all who obey the gospel in the fulness are to become heirs, members of the household of God, why should there not be such a thing as the whole family of God in heaven?
+
+The scriptures inform us that we are the offspring of God. 66.21 He has called upon us to address him as Father: not in some mythical sense, but literally as our Father. It was in this manner that Jesus taught his disciples to pray,66.22 and when he appeared to Mary after his resurrection, he said to her, "Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father: and to my God, and your God." 66.23 Does not this indicate family organization?
+
+Through the restoration of the priesthood held by Elijah, knowledge has been given to the Church that each family unit, where the parents have been married for time and for eternity, shall remain intact through all eternity. Moreover, each family unit is to be linked to the generation which went before, until all the faithful, who have proved their title to family membership through obedience to the gospel, shall be joined in one grand family from the beginning to the end of time, and shall find place in the celestial kingdom of God. In this way all who receive the exaltation become heirs of God, and joint-heirs with Jesus Christ in the possession of eternal family relationships.67.24
+
+FAMILY UNIT CONTINUES ONLY IN CELESTIAL KINGDOM. There is no substitute for a righteous home. That may not be so considered in the world, but it is and ought to be in the Church of Jesus Christ of Latter-day Saints. The family is the unit in the kingdom of God. . . .
+
+Outside of the celestial kingdom there is no family organization. That organization is reserved for those who are willing to abide in every covenant and every obligation which we are called upon to receive while we sojourn here in this mortal life. 67.25
+
+We believe that the family will go on. I get a great deal of comfort out of the thought that if I am faithful and worthy of an exaltation, my father will be my father, and I will be subject to him as his son through all eternity; that I will recognize and know my mother and she will be my mother in all eternity; and my brothers and sisters will be my brothers and sisters for all eternity; and that my children and my wives will be mine in eternity. I don't know how some other people feel, but that is a glorious thought to me. That helps to keep me sober. 67.26
+
+FAMILY CHAIN AMONG EXALTED BEINGS. Every married man stands at the head of his household, that is, his immediate family. Thus I, for instance, will stand at the head of my family group by virtue of the sealing for time and eternity, and my children will belong to me. I will belong to my parents in their family group. My father likewise, with his brothers and sisters, will belong to his father's unit in that family group, and his father to his father before him -- all linked together generation to generation like a chain. So it will be of the righteous from the days of Adam down -- Adam standing at the head as Michael, having authority and jurisdiction over his posterity in this large family group who have kept the commandments of God.
+
+Now that is the order of the priesthood. Of course there will be chains that will be broken, links that will be missing, because we can not force people into the kingdom. Those who are unworthy to be joined in this grouping of families will have to stand aside, and those who are worthy will be brought together and the chain will go on just the same. 68.27
+
+Eventually, when this work is perfected, and Christ delivers up to his Father the keys and makes his report. and death is destroyed, then that great family from the days of Adam down, of all the righteous, those who have kept the commandments of God, will find that they are
+ one family, the family of God, entitled to all the blessings that pertain to the exaltation." 68.28
+
+SPIRIT CHILDREN IN THE RESURRECTION. Those who attain to the exaltation in the celestial kingdom shall have the power of eternal increase of posterity, and they shall be "above all, because all things are subject unto them."68.29 Children born to parents who have obtained. through their faithfulness, the fulness of these blessings, shall be spirit children not clothed upon with tabernacles of flesh and bones. These children will be like we were before we came into this world. We are taught in the scriptures that we are the offspring of God in the spirit, Jesus Christ being the Firstborn Son of our Eternal Father in that spirit world.69.30
+
+#### ADAM AND CELESTIAL MARRIAGE
+
+ADAM MARRIED BEFORE DEATH ENTERED WORLD. The Lord created man in his own image, male and female, and the woman was given as a companion to the man because the Lord said, "It is not good that the man should be alone." 69.31
+
+When Eve was given to Adam, the union was an eternal one. There was no death in the world, for the fall of man came later.69.32 When the seeds of death were sown and man was banished from the presence of the Lord because of his transgression, the union previously formed was not severed.
+
+The scriptures say that, "Adam began to till the earth, and to have dominion over all the beasts of the field, and to eat his bread by the sweat of his brow," and "Eve, also, his wife, did labor with him."69.33 This holy companionship is destined to endure forever. Adam shall be known as the "prince of all, the ancient of days,"69.34 and Eve shall be known as "the mother of all living."69.35 Throughout eternity both shall be honored by their posterity.
+
+It was not "good" for man to be alone in the beginning, and it never was and never will be "good" for man to be alone. That man or that woman who remains "separately and singly" 69.36 throughout eternity shall have lost the greatest blessing the Lord has prepared for them that love him. It is an inherent, or God-given desire, for a man when he becomes mature, to "leave his father and his mother" and "cleave unto his wife"69.37 in a companionship and union that in all righteousness should endure forever. 70.38
+
+ADAM'S MARRIAGE TO BE EVERLASTING. Paul declared that, "Neither is the man without the woman, neither the woman without the man, in the Lord." 70.39 And the Lord said he would give the man a companion who would be a help meet for him: 70.40 that is, a help who would answer all the requirements, not only of companionship, but also through whom the fulness of the purposes of the Lord could be accomplished regarding the mission of man through mortal life and into eternity.
+
+"Neither the man nor the woman were capable of filling the measure of their creation alone. The union of the two was required to complete man in the image of God." 70.41 The Lord said, "Let us make man in our image, after our likeness. . . . So God created man in his own image, in the image of God created he him; male and female created he them." 70.42
+
+Moreover when the woman was presented to the man, Adam said: "This [woman] is now bone of my bones, and flesh of my flesh."70.43 From this we understand that his union with Eve was to be everlasting. The Savior confirmed this doctrine when he said to the Jews: "For this cause shall a man leave father and mother, and shall cleave to his wife: and they twain shall be one flesh. Wherefore they are no more twain, but one flesh."70.44 Then how can husband and wife be separated as we find them so frequently among the people today and be justified in the sight of God? When a man and his wife separate, the law of God has been broken.
+
+The Prophet Joseph taught that "marriage was an institution of heaven, instituted in the Garden of Eden; [and] that it is necessary it should be solemnized by the authority of the everlasting priesthood."70.45
+
+GOD THE FATHER MARRIED ADAM AND EVE. Marriage as established in the beginning was an eternal covenant. The first man and the first woman were not married until death should part them, for at that time death had not come into the world. The ceremony on that occasion was performed by the Eternal Father himself whose work endures forever. It is the will of the Lord that all marriages should be of like character, and in becoming "one flesh" the man and the woman are to continue in the married status, according to the Lord's plan, throughout all eternity as well as in this mortal life.71.46
+
+#### MARRIAGE IN HEAVEN
+
+APOSTATE TEACHINGS DENY ETERNAL MARRIAGE. Righteous parents throughout the world long for the continuation of their union with each other and with their children beyond the grave. Poets have sung of such unions down through the ages. It is safe to say that no husband who dearly loves his wife, and who has been called upon to lay her away in death, ever did so without a yearning desire that he may meet her again and renew the companionship in eternity forever.
+
+No parent ever laid away a child, if love dwelt in his heart, without having the same yearning desire. Yet the teachings of the world today deny to him this blessing.
+
+It was not always so. This false doctrine, which has caused so many needless heartaches, is the outgrowth of apostasy and is based in large measure upon the misunderstanding of uninspired religious teachers, who misinterpret the words of the Lord to the unbelieving Sadducees.
+
+These Sadducees, who denied the resurrection, endeavoring to catch the Lord in his words, set a trap for him.71.47 In asking their question. they said that a certain woman had been married seven times, or at least had lived with seven men presumably as her husbands, in accordance with the law as designated by Moses. Since these Sadducees did not believe in the resurrection, neither did they believe in marriage for eternity; and they thought there could be no suitable answer to their question.
+
+The very fact that they asked the question indicates that the doctrine of marriage for eternity was taught and accepted by those who were not of their particular faith. Otherwise they never would have presented the question to the Savior. His answer was just such an answer as we would give today, and as we do give, and as the Lord has given it in the revelations to the Church.
+
+NO MARRIAGE IN HEAVEN FOR THE SADDUCEES. This is the answer: Marriage, like baptism, is an ordinance which has to be performed in this life; it cannot be performed after men are dead, except as in the case of baptism by proxy, and so the Lord said that they neither marry nor are given in marriage in heaven. He might have answered those who questioned baptism, by saying, there is no baptism in heaven. All of the ordinances of the gospel given to us here pertain to this mortal probation and must be attended to here by the contracting parties or by some one in their behalf after they are dead . . . but they must be performed here.
+
+The Savior, answering them according to their folly, said: "The children of this world [i.e. the world to which these Sadducees belonged] marry, and are given in marriage." I call your attention to the fact that the Lord said that he and his disciples did not belong to this world; 72.48 the Sadducees did.
+
+Then he added: "But they [those of "this world" who do not keep the whole law] which shall be accounted worthy to obtain that world [i.e. even those who obtain the celestial kingdom but being unmarried do not obtain an exaltation in that kingdom]. and the resurrection from the dead, neither marry, nor are given in marriage: Neither can they die any more: for they are equal unto the angels; and are the children of God, being the children of the resurrection." 73.49
+
+NO MARRIAGE IN HEAVEN FOR UNRIGHTEOUS. This is the only answer the Lord could have given to these unbelievers. It is in full accord with the revelation given to the Prophet Joseph Smith, wherein the Lord says that, "when they [those of "this world" who do not keep the whole law] are out of the world they neither marry nor are given in marriage; but are appointed angels in heaven; which angels are ministering servants, to minister for those who are worthy of a far more, and an exceeding, and an eternal weight of glory. For these angels did not abide my law; therefore, they cannot be enlarged, but remain separately and singly, without exaltation, in their saved condition, to all eternity; and from henceforth are not gods, but are angels of God forever and ever." 73.50
+
+The answers are exactly the same and apply to those who may be worthy of some salvation, notwithstanding their rejection of the eternal marriage covenant. 73.51 There will be no marrying, neither giving in marriage among those who reject the truth of the everlasting gospel. That privilege is confined to those who keep the commandments of the Lord in their fulness and who are obedient to the laws of God.73.52
+
+Restrictions will be placed upon those who enter the terrestrial and telestial kingdoms, and even those in the celestial kingdom who do not get the exaltation; changes will be made in their bodies to suit their condition; and there will be no marrying or giving in marriage, nor living together of men and women, because of these restrictions.73.53
+
+#### LAWS GOVERNING ETERNAL MARRIAGE
+
+KEYS REQUIRED FOR CELESTIAL MARRIAGE. Now marriage for eternity can be performed only in the temples. It cannot be performed anywhere else. Authority by which such marriages are solemnized must be vested in the one who performs the ordinances, by virtue of appointment by the one who holds the keys.74.54
+
+There is but one man living on the earth at a time who holds the keys of this binding or sealing power. No other man has the right to officiate in a marriage, or sealing ceremony, for time and all eternity, unless he has obtained the direct appointment from the one who holds the keys of this power.
+
+That appointment may be cancelled at any time, when the one who holds those keys shall say the privilege is withdrawn. No man can officiate in these ceremonies unless he himself holds the holy priesthood. Any man who presumes to perform such marriages by virtue of his office in the priesthood, without having been appointed by the man who holds the keys of this power, is without authority and such acts are null and void.74.55
+
+OBLIGATION OF MEN TO MARRY. Any young man who carelessly neglects this great commandment to marry, or who does not marry because of a selfish desire to avoid the responsibilities which married life will bring, is taking a course which is displeasing in the sight of God. Exaltation means responsibility. There can be no exaltation without it.
+
+If a man refuses to take upon himself the responsibilities of married life, because he desires to avoid the cares and troubles which naturally will follow, he is taking a course which may bar him forever from the responsibilities which are held in reserve for those who are willing to keep in full the commandments of the Lord, His eternal progression will thus be limited. Like the Sadducees of old, he will be numbered among the angels who cannot be enlarged. 74.56 It will not be his privilege to be numbered among the sons of God, and thus be entitled as an heir to partake of the blessings reserved for those who receive an inheritance in the Father's kingdom.
+
+DO NOT MARRY OUT OF CHURCH. For the reasons previously stated, it is a most serious error for a young man or a young woman to marry outside of the Church, for they cannot then be married with a promise of eternal union. No matter who should perform such a ceremony of marriage, it must be for time only, and then death will separate the contracting parties who will not have claim upon their children after they are dead.
+
+This same condition will also prevail where both the contracting parties are members of the Church and refuse, or fail, to receive the ordinance in the proper way in the house of the Lord. However, there is a possibility that such may go to the house of the Lord later and have their blessings sealed upon them: but it is much better to have it done properly in the beginning, and then they will know they are on safe ground without danger of neglecting the opportunity until it may be too late.75.57
+
+TEACH LAW OF ETERNAL MARRIAGE TO CHILDREN. May all Latter-day Saint fathers and mothers see to it that they teach their children the sacredness of the marriage covenant. Let them impress upon their children that in no other way than by honoring the covenants of God, among which the covenant of eternal marriage is one of the greatest and most mandatory. can they obtain the blessings of eternal lives.
+
+If they refuse to receive this ordinance and other blessings of the house of God, then shall they be cut off from these higher blessings. They shall wear no crown; they shall have no rule and sway no scepter; they shall be denied the fulness of knowledge and power, and like the prodigal son, they may return again to their Father's house, but it will be as servants, not to inherit as sons.
+
+If they will be true to these commandments, their glory and exaltation shall have no bounds. 76.58
+
+MARRY RIGHT OR NOT AT ALL. I have heard President Joseph F. Smith say on several occasions that he would rather take his children one by one to the grave in their innocence and purity, knowing that they would come forth to inherit the fulness of celestial glory, than to have them marry outside of the Church, or even outside the temple of the Lord.
+
+Why should he have been so emphatic? Because he had perfect knowledge of what marriage, according to the law of the Lord, means; and because he knew the consequences attending the rejection of this covenant in the house of the Lord, For those who refuse to receive this ordinance, as the Lord ordained, cannot enter into the fulness of celestial glory. 76.59
+
+EXALTATION FOR FAITHFUL UNMARRIED WOMEN. You good sisters, who are single and alone, do not fear, do not feel that blessings are going to be withheld from you. You are not under any obligation or necessity of accepting some proposal that comes to you which is distasteful for fear you will come under condemnation. If in your hearts you feel
+ that the gospel is true, and would under proper conditions receive these ordinances and sealing blessings in the temple of the Lord; and that is your faith and your hope and your desire, and that does not come to you now; the Lord will make it up, and you shall be blessed -- for no blessing shall be withheld.
+
+The Lord will judge you according to the desires of your hearts when blessings are withheld in this life, and he is not going to condemn you for that which you cannot help. 76.60
+
+UNMARRIED WOMEN JUDGED BY DESIRES. According to modern custom, it is the place of the man to take the initiative in the matter of a marriage contract. Women are, by force of such custom, kept in reserve and whether it be right or wrong for a woman to take the lead and offer a proposal of marriage, she feels, and she knows that the public would also feel, that she was acting in a forward and unbecoming manner, This is all wrong, but nevertheless it is the fact. The responsibility therefore rests upon the man.
+
+No woman will be condemned by the Lord for refusing to accept a proposal which she feels she could not properly accept. In my judgment it is far better for our good girls to refuse an offer of marriage when they think that the companionship of the man would be disagreeable, or if he is one they do not and believe they cannot learn to love.
+
+If in her heart the young woman accepts fully the word of the Lord, and under proper conditions would abide by the law, but refuses an offer when she fully believes that the conditions would not justify her in entering a marriage contract, which would bind her forever to one she does not love, she shall not lose her reward. The Lord will judge her by the desires of the heart, and the day will come when the blessings withheld shall be given, though it be postponed until the life to come.
+
+USE CARE IN CHOOSING MARRIAGE COMPANION. This life is short, and eternity is long. When we contemplate that the marriage covenant will endure forever, it is well that it should be given careful consideration. Hasty action in this most important step in life may fill the mortal lives of husband, wife, and children with endless sorrow. The results may and often do reach into eternity and cause irreparable regrets that will endure forever. Marriage, from the viewpoint of the Latter-day Saint, is the one thing in life where it might prove fatal to act in haste with the idea in mind that repentance could come at leisure.
+
+The proper advice to our youth is to consider carefully with the view of choosing well a companion with an abiding faith in the gospel. Such a person is more likely to prove true to every vow and covenant. When the young man and the young woman are thoroughly grounded in the divine mission of our Lord and believe the gospel as revealed through Joseph Smith, the Prophet, the chances are all in favor of a happy union that will endure forever.
+
+My advice is to our girls, if you cannot find a husband who would be true to his religion and
+ have faith in the gospel of our Lord, it is better to abide in "single blessedness." It is better to suffer some denial in mortal life and receive life everlasting than to lose your salvation in the kingdom of God. Remember the Lord will make up to you in joy and eternal union more than you have temporarily lost if you will be true and faithful. "If in this life only we have hope in Christ, we are of all men [and women] most miserable."78.61
+
+SECOND MARRIAGES OUT OF TEMPLE. When a person has been through the temple and has made solemn covenants, and then, after his companion has died, marries someone out of the Church, it shows a very grave lack of loyalty to covenants, of weakness in the faith, and of unbelief in the promises of the Lord.
+
+A person who violates covenants and disregards commandments and proves himself unfaithful in the Church may lose not only his children but also his own salvation.
+
+RAISING UP SEED UNTO ONE'S BROTHER. When a man and a woman are married in the temple for time and all eternity, and then the man dies and the woman marries another man, she can be married to him for time only.
+
+When a man marries a woman who was married previously to her husband in the temple but who has now died, he does so, or should, with his eyes open. If the children are born to this woman and her "time" husband, he has no claim upon those children. They go with the mother. This is the law. Certainly a man cannot in reason expect to take another man's wife, after that man is dead, and rear a family by her and then claim the children.
+
+If he wants a family of his own, then he should marry a wife that he can have in eternity. This is in full harmony with the patriarchal order. What was the law anciently? Was not the second husband supposed to raise up seed for his brother?" 79.62

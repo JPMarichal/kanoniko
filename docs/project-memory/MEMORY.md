@@ -43,6 +43,8 @@
 - [feedback_proactive_before_expensive_ops.md](feedback_proactive_before_expensive_ops.md) — Stop antes de ops costosas: revisar deuda técnica conocida y optimizar primero; no lanzar hasta tener el camino despejado
 - [feedback_never_skip_to_download.md](feedback_never_skip_to_download.md) — After inventory, always prepare (classify, authority, KG, script) before any download
 - [feedback_church_terminology.md](feedback_church_terminology.md) — Usar "llamamientos" o "asignaciones", nunca "puestos" ni "cargos"
+- [feedback_scripture_skill.md](feedback_scripture_skill.md) — Siempre usar /scripture para citas textuales de escritura, nunca de memoria
+- [feedback_pdf_extraction.md](feedback_pdf_extraction.md) — PDF extraction: PyMuPDF by default, Marker only with explicit authorization
 - [feedback_corpus_first.md](feedback_corpus_first.md) — Protocolo DF: consultar Alejandría antes de web search para material de la Iglesia
 - [feedback_df_acronym.md](feedback_df_acronym.md) — DF = documentation-first (acrónimo del protocolo)
 - [feedback_no_guessing.md](feedback_no_guessing.md) — Never present guesses as facts; investigate before answering when unsure
