@@ -394,7 +394,8 @@ mindmap
 
 ## 8. Lagunas y preguntas abiertas
 
-- **Material pendiente de corpus:** *Teaching No Greater Call*, *Teach Ye Diligently* (Packer), artículos de BYU/RSC sobre preguntas pedagógicas, capítulo 31 del manual CES. Tres chips de descarga fueron creados en la sesión de investigación.
+- **Material recién incorporado:** *Teaching No Greater Call* ya está en el corpus (bilingüe, ~95 capítulos por idioma). El cap. 16 contiene una taxonomía propia de tipos de pregunta (sí/no, hechos, reflexión, aplicación, meditación silenciosa) que complementa la taxonomía escritural de este dossier. Analizado en dp04.
+- **Material pendiente de corpus:** *Teach Ye Diligently* (Packer), artículos de BYU/RSC sobre preguntas pedagógicas, capítulo 31 del manual CES. Chips de descarga fueron creados en la sesión de investigación.
 - **Antiguo Testamento profético:** Las preguntas de Isaías, Jeremías y Ezequiel (preguntas proféticas a Israel, no de Dios al individuo) no fueron investigadas exhaustivamente. Podrían constituir un subtipo adicional.
 - **Preguntas en las ordenanzas:** El templo usa preguntas como parte integral de las ordenanzas. Por razones de sacralidad no se documentan públicamente, pero su existencia es doctrinalmente significativa.
 - **Análisis cuantitativo:** No se intentó un conteo exhaustivo de todas las preguntas divinas en cada volumen canónico. Un análisis así revelaría la distribución de tipos por libro.

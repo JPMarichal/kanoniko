@@ -90,7 +90,7 @@ graph TD
 |--------|---------------|
 | *Enseñar a la manera del Salvador* (2022) | Caps. 10-11, 13: preguntas como método central |
 | Conferencia general | Ballard (oct 2001), Holland (oct 2012), Osguthorpe (oct 2012), Newman (abr 2021), Browning (oct 2024), McConkie (oct 2010), Judd (oct 2007), Soares (abr 2019) |
-| Manual institucional | *Predicad Mi Evangelio*, *Teaching No Greater Call* (pendiente de corpus) |
+| Manual institucional | *Teaching No Greater Call* (en corpus, cap. 16 central), *Predicad Mi Evangelio* 2023 (en corpus, cap. 10 central) |
 | Académicos SUD | Packer, *Teach Ye Diligently* (pendiente de corpus) |
 
 ## Dossiers contiguos
@@ -104,7 +104,7 @@ graph TD
 
 ## Lagunas del panorámico
 
-- Material pendiente de incorporar al corpus: *Teaching No Greater Call*, *Teach Ye Diligently* (Packer), artículos Ensign/RSC sobre preguntas.
+- *Teaching No Greater Call* ya en corpus (bilingüe). Material pendiente: *Teach Ye Diligently* (Packer), artículos Ensign/RSC sobre preguntas.
 - Preguntas pedagógicas en el Antiguo Testamento profético (Isaías, Jeremías, Ezequiel) — requieren investigación adicional.
 - El papel de las preguntas en las ordenanzas del templo — no documentable públicamente, pero doctrinalmente significativo.
 - Análisis cuantitativo: ¿cuántas preguntas registra cada volumen canónico? Una contabilización exhaustiva podría revelar patrones adicionales.
