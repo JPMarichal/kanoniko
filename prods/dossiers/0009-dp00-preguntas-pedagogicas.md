@@ -90,7 +90,7 @@ graph TD
 |--------|---------------|
 | *Enseñar a la manera del Salvador* (2022) | Caps. 10-11, 13: preguntas como método central |
 | Conferencia general | Ballard (oct 2001), Holland (oct 2012), Osguthorpe (oct 2012), Newman (abr 2021), Browning (oct 2024), McConkie (oct 2010), Judd (oct 2007), Soares (abr 2019) |
-| Manual misional histórico | *Missionary Guide* (1988, en corpus EN), cap. 7 «Find Out»: ancestro del método de preguntas misional |
+| Manual misional histórico | *Missionary Guide* (1988, en corpus EN), cap. 7 «Descubrir»: ancestro del método de preguntas misional |
 | Manual institucional | *Teaching No Greater Call* (en corpus, cap. 16 central), *Predicad Mi Evangelio* 2023 (en corpus, cap. 10 central) |
 | Académicos SUD | Packer, *Teach Ye Diligently* (pendiente de corpus) |
 
