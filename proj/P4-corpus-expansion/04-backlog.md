@@ -35,7 +35,7 @@ Para análisis detallado por material → `fase0/`.
 | Teaching, No Greater Call (1999) | 60 | ALTA | Fase 0 completa. Bilingüe. Sitio oficial (`download_manual.py`). Cadena pedagógica CES. | `fase0/teaching-no-greater-call.md` |
 | Teach Ye Diligently (Boyd K. Packer) | 45 | BLOCKED | Fase 0 completa. archive.org = DRM/CDL, sin texto extraíble. Solo compra o OCR físico. | `fase0/teach-ye-diligently.md` |
 | Journal of Discourses (26 vols) | 20 | BAJA | 1,426 discursos, ~5M palabras. Fase 0 completa. Solo EN. No oficial, imprecisión documentada. | `fase0/journal-of-discourses.md` |
-| Interpreter Journal (~700 arts) | 25 | MEDIA | `prepared` — Script listo (`download_interpreter.py`). ~894 URLs en sitemap, ~700 tras filtrar reviews. Solo EN. HTML via `div.cmstext`. ~1.5s/art. ETA ~22min. | `fase0/interpreter-journal.md` |
+| Interpreter Journal (888 arts) | 25 | MEDIA | `descargado` — 888 artículos (50 MB), 6 reviews excluidos. Script: `download_interpreter.py`. Pendiente: indexación. | `fase0/interpreter-journal.md` |
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
 | Ensign archive (1971-2020) | 60 | BAJA | Volumen enorme; separado de Liahona | — |
 | ~20 RSC BYU PDF-only | varies | BAJA | No disponibles para lectura online; requieren scraper de PDF o compra | — |
