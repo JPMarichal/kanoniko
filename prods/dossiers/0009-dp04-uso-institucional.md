@@ -20,7 +20,16 @@ tags: [pedagogia, preguntas, ensenanza, manual, conferencia-general, institucion
 
 Los dossiers dp01-dp03 documentan el uso de preguntas en las escrituras canónicas. Este dossier examina cómo la Iglesia ha tomado ese patrón escritural y lo ha convertido en instrucción institucional. El arco va de las escrituras al aula: primero el Salvador pregunta, luego los apóstoles modernos describen esa práctica, y finalmente los manuales la codifican como método pedagógico para todo maestro y padre.
 
-El documento central es *Enseñar a la manera del Salvador* (2022), que dedica capítulos enteros a la pregunta como método. Pero la línea doctrinal viene de más atrás: conferencias generales de las últimas dos décadas contienen un corpus significativo de instrucción sobre el papel de las preguntas en la enseñanza del Evangelio.
+El documento central es *Enseñar a la manera del Salvador* (2022), que dedica capítulos enteros a la pregunta como método. Pero la línea institucional viene de mucho más atrás: el *Missionary Guide* de 1988 ya codificaba la pregunta como habilidad misional central bajo el nombre «Find Out», dentro del marco del *commitment pattern*. La cadena pedagógica completa abarca cuatro décadas:
+
+```
+Missionary Guide (1988) — habilidades: «Find Out» (escuchar + preguntar)
+  → Teaching, No Greater Call (1999) — taxonomía de preguntas para maestros
+    → Enseñar a la manera del Salvador (2022) — preguntas como método del Salvador
+      → Predicad Mi Evangelio (2023) — «preguntas inspiradas» para misioneros
+```
+
+Conferencias generales de las últimas dos décadas complementan esta línea con un corpus significativo de instrucción apostólica sobre el papel de las preguntas.
 
 ---
 
@@ -64,7 +73,43 @@ El capítulo 10 ofrece preguntas prácticas para maestros: «¿Cómo puede ayuda
 
 El capítulo 13 extiende el principio a contextos específicos. Para niños: «Cuando los niños hagan preguntas, considérelas como oportunidades, no como distracciones.» Para adultos: «Preguntarles a qué principios del Evangelio les gustaría dedicar un tiempo para aprender juntos.»
 
-### 3.2 *La enseñanza: No hay llamamiento más grande* (TNGC, 1999)
+### 3.2 *Missionary Guide: Training for Missionaries* (1988) — el eslabón perdido
+
+El *Missionary Guide* — conocido coloquialmente como «el manual rosa» — fue el compañero pedagógico de las seis charlas misionales de 1986 (*A Uniform System for Teaching the Gospel*). Mientras las charlas contenían el mensaje doctrinal, este manual enseñaba las **habilidades** para transmitirlo. Su capítulo 7, «Find Out», es el ancestro directo de las «preguntas inspiradas» de *Predicad Mi Evangelio* (2023).
+
+El marco central del manual es el **commitment pattern** (patrón de compromiso): Preparar → Invitar → Dar seguimiento. «Finding out» — descubrir lo que el interlocutor piensa, siente y cree — es una de las habilidades de preparación:
+
+> «Finding out is an important part of the preparation stage. It shows that you sincerely care about another person.» (*Missionary Guide*, 1988, cap. 7)
+
+El sistema completo operaba como un tándem: las seis charlas misionales (*A Uniform System for Teaching the Gospel*) marcaban en su margen derecho los momentos de «Find Out», clasificando las preguntas en tres tipos funcionales: **de comprensión** (¿entiende el principio?), **de aceptación** (¿lo cree?) y **de compromiso** (¿actuará en consecuencia?). El *Missionary Guide* era el manual de entrenamiento que enseñaba *cómo* hacer esas preguntas. El capítulo 7 explícitamente remite a «when indicated in the right column of the discussions» — es decir, las charlas mandaban *cuándo* preguntar y el manual enseñaba *cómo*.
+
+Las preguntas no se limitaban al cap. 7: permeaban todo el modelo de compromiso. El capítulo 5 («Build Relationships of Trust») las usaba para conocer al investigador — familia, trabajo, intereses — como base de la relación. El cap. 9 («Resolve Concerns») las usaba para descubrir las verdaderas preocupaciones antes de intentar resolverlas. Es decir, preguntar era una competencia transversal del modelo, no una habilidad aislada.
+
+El cap. 7 estructura esas competencias en tres habilidades: (1) escuchar, (2) hacer preguntas apropiadas, y (3) hacer preguntas adicionales. Para cada una, el manual ofrece tablas de contraste «Less Effective / Effective» que anticipan exactamente el formato que PMG 2023 heredaría 35 años después:
+
+| Menos efectiva | Efectiva |
+|----------------|----------|
+| «Do you understand that our sins will keep us from returning to God?» | «What is the result of sin?» |
+| «You understand what we have told you about Joseph Smith, don't you?» | «What do you think about the Prophet Joseph Smith?» |
+| «Since you told us that you believe in Jesus Christ, how do you feel about the fact that he loves us enough to send us a prophet like Joseph Smith?» | «How do you feel about Joseph Smith as a prophet of God?» |
+
+Las preguntas «menos efectivas» comparten tres defectos: (1) permiten solo un «sí» o «no», (2) manipulan al investigador hacia la respuesta deseada, o (3) son demasiado largas y compuestas. Las «efectivas» son «simple and direct» y buscan genuinamente los sentimientos del interlocutor.
+
+El manual codifica tres principios para las preguntas:
+
+1. **Mantener una relación igualitaria** — «Ask questions that maintain an equal relationship between you and the investigator.»
+2. **No manipular** — «You should not ask questions designed to make the investigator give you the answer you want.»
+3. **Simples y directas** — «Ask questions that are simple and direct. They should be specific and should relate to the principle being discussed.»
+
+Un converso citado en el capítulo ofrece el testimonio más elocuente del método:
+
+> «They really seemed interested in me. They had a message, but they were not just telling me about it. They always wanted to know my feelings about what they were telling me and were always willing to listen to my questions.» (*Missionary Guide*, 1988, cap. 7)
+
+La sección «Ask Additional Questions» enseña una habilidad que TNGC llamará después «preguntas complementarias» y que el manual de 2022 llamará «preguntas de seguimiento»: cuando el investigador da señales no verbales de confusión o duda, el misionero debe detenerse y preguntar hasta entender el verdadero sentimiento. El manual incluye un diálogo modelo extenso (Elder Jones y Mr. Bennett) donde el misionero hace cinco preguntas adicionales antes de descubrir la verdadera preocupación del investigador.
+
+**Significado histórico:** El RSC de BYU documentó que el comité que diseñó *Preach My Gospel* (2004) concluyó que «no había evidencia» de que las habilidades enseñadas en el *Missionary Guide* se correlacionaran con bautismos. Esto motivó el cambio filosófico de PMG: de habilidades a conversión, de técnicas a Espíritu. Sin embargo, la habilidad de preguntar sobrevivió la transición: el capítulo «Find Out» migró conceptualmente a «Haga preguntas inspiradas» en PMG cap. 10. Lo que cambió no fue el *qué* (preguntar) sino el *para qué*: de «find out» (descubrir información) a «invitar al Espíritu» (facilitar conversión).
+
+### 3.3 *La enseñanza: No hay llamamiento más grande* (TNGC, 1999)
 
 Este manual, predecesor de *Enseñar a la manera del Salvador*, dedica el capítulo 16 íntegramente a «La enseñanza por medio de las preguntas». Abre con una declaración directa sobre el modelo del Salvador:
 
@@ -90,7 +135,7 @@ El capítulo 13 del mismo manual contiene una cita de la hermana Virginia H. Pea
 
 Y el capítulo 15 («Dispóngase a escuchar») establece que escuchar es el complemento necesario de preguntar: «El escuchar con atención es una manifestación de amor y con frecuencia requiere sacrificio. Cuando verdaderamente escuchamos a otras personas, por lo general debemos refrenarnos de lo que queremos decir para entonces permitir que otros puedan expresarse.»
 
-### 3.3 *Predicad Mi Evangelio* (2023) — el manual misional
+### 3.4 *Predicad Mi Evangelio* (2023) — el manual misional
 
 PMG dedica una sección del capítulo 10 («Enseñe para edificar la fe en Jesucristo») específicamente a las preguntas. Abre con la conexión directa al Salvador:
 
@@ -106,9 +151,9 @@ PMG codifica el método con orientación práctica misionera:
 
 El material de preparación misional (`missionary-preparation/017-ask-inspired-questions.txt`) refuerza el punto: «Las buenas preguntas pueden invitar al Espíritu y ayudar a las personas a aprender.»
 
-La convergencia entre los tres manuales (TNGC → *Enseñar a la manera del Salvador* → PMG) muestra una línea institucional consistente: la pregunta no es una técnica opcional sino el método central que la Iglesia enseña a sus maestros y misioneros.
+La convergencia entre los cuatro manuales (*Missionary Guide* → TNGC → *Enseñar a la manera del Salvador* → PMG) muestra una línea institucional de cuatro décadas: la pregunta no es una técnica opcional sino el método central que la Iglesia enseña a sus maestros y misioneros. Lo que evoluciona es la teología del método: de «habilidad proselitista» (1988) a «medio para invitar al Espíritu» (2004-2023).
 
-### 3.4 Conferencia general — las voces apostólicas
+### 3.5 Conferencia general — las voces apostólicas
 
 **Élder M. Russell Ballard** (octubre de 2001) identificó las preguntas y las parábolas como las dos «técnicas de enseñanza favoritas» de Jesús:
 
@@ -189,19 +234,23 @@ graph TD
     CONF -->|"Los apóstoles describen"| MAN
     MAN -->|"El manual codifica"| AULA
     
+    MG["Missionary Guide (1988)<br/>Cap. 7: Find Out"]
     TNGC["TNGC (1999)<br/>Cap. 16: Preguntas"]
     PMG["PMG (2023)<br/>Cap. 10: Preguntas"]
     PACK["Packer,<br/>Teach Ye Diligently"]
     
+    MG -->|"habilidades → taxonomía"| TNGC
     TNGC -->|"predecesor"| MAN
     PACK -.->|"pendiente"| MAN
     PMG -->|"aplica al campo misional"| AULA
     MAN -->|"también alimenta"| PMG
+    MG -->|"Find Out → preguntas inspiradas"| PMG
     
     style ESC fill:#d0e4f7,color:#1a1a1a
     style CONF fill:#e0d4f7,color:#1a1a1a
     style MAN fill:#d4edda,color:#1a1a1a
     style AULA fill:#f5ecd0,color:#1a1a1a
+    style MG fill:#f5d0d0,color:#1a1a1a
     style TNGC fill:#d0e4f7,color:#1a1a1a
     style PMG fill:#d0e4f7,color:#1a1a1a
     style PACK fill:#f5f5f5,color:#999
@@ -219,6 +268,8 @@ graph TD
 | [dp03 — Dirección inversa](0009-dp03-direccion-inversa.md) | se basa en | Soares y Uchtdorf validan la pregunta ascendente del aprendiz |
 | (Futuro) Pedagogía del hogar | aplica | Cap. 13 del manual extiende las preguntas al hogar y la crianza |
 | *Predicad Mi Evangelio* (2023) | aplica | Cap. 10: preguntas inspiradas como método misional central |
+| *Missionary Guide* (1988) | predecesor | Cap. 7 «Find Out»: ancestro directo de las preguntas inspiradas de PMG |
+| *Uniform System for Teaching the Gospel* (1986) | pendiente | Las charlas misionales con los tres tipos de pregunta marcados en el margen |
 
 ## 7. Ilustraciones
 
@@ -236,6 +287,20 @@ graph TD
 — Observación estructural sobre *Enseñar a la manera del Salvador* (2022)
 **Objetivo:** attention | **Forma:** observación formal | **Parafraseada:** sí
 
+### La pregunta que no manipula
+
+> El *Missionary Guide* de 1988 puso lado a lado dos preguntas: «Since you told us that you believe in Jesus Christ, how do you feel about the fact that he loves us enough to send us a prophet like Joseph Smith?» versus «How do you feel about Joseph Smith as a prophet of God?» La primera suena religiosa y elaborada — pero en realidad arrincona al investigador: usa su propia fe como palanca para forzar una respuesta. La segunda es limpia, directa, y deja al interlocutor libre de decir lo que genuinamente siente. El manual no enseñaba a ser más persuasivo; enseñaba a ser más honesto.
+
+— Basado en *Missionary Guide: Training for Missionaries* (1988), cap. 7 «Find Out»
+**Objetivo:** clarify | **Forma:** contraste textual | **Parafraseada:** sí
+
+### De «Find Out» a «preguntas inspiradas»
+
+> En 1988, la Iglesia enseñaba a los misioneros a preguntar para *descubrir información* — lo llamó «Find Out». En 2023, les enseña a preguntar para *invitar al Espíritu* — lo llama «preguntas inspiradas». La habilidad sobrevivió treinta y cinco años de revisiones institucionales. Lo que cambió fue el marco teológico: la pregunta dejó de ser una técnica de comunicación y se convirtió en un acto de ministerio. El misionero de 1988 preguntaba para saber qué decir a continuación. El misionero de 2023 pregunta para que el Espíritu enseñe a través de la respuesta.
+
+— Observación comparativa entre *Missionary Guide* (1988) y *Predicad Mi Evangelio* (2023)
+**Objetivo:** clarify | **Forma:** contraste histórico | **Parafraseada:** sí
+
 ### El carpintero danés
 
 > Boyd K. Packer tuvo un maestro de carpintería, un danés, que nunca daba la respuesta. Cuando un estudiante se acercaba con una pieza mal cortada, el maestro no señalaba el error: preguntaba. «¿Qué ves aquí?» «¿Está recto?» El estudiante encontraba el error solo. Packer, que llegaría a ser presidente del Quórum de los Doce, aprendió más de un carpintero que de muchos profesores — y el método era idéntico al del Salvador.
@@ -245,9 +310,10 @@ graph TD
 
 ## 8. Lagunas y preguntas abiertas
 
-- **Material pendiente de corpus:** *Teach Ye Diligently* (Packer), artículos del *Ensign* (2002) y RSC (2004), capítulo 31 del manual CES. Chips de descarga creados. *Teaching No Greater Call* ya incorporado al corpus (bilingüe, ~95 capítulos por idioma).
+- **Material pendiente de corpus:** *Teach Ye Diligently* (Packer), artículos del *Ensign* (2002) y RSC (2004), capítulo 31 del manual CES. Chips de descarga creados.
+- **Material ya en corpus:** *Missionary Guide* (1988, EN, 17 caps), *Teaching No Greater Call* (bilingüe, ~95 caps/idioma), *Predicad Mi Evangelio* (2023, bilingüe), *Enseñar a la manera del Salvador* (2022, bilingüe).
+- **Charlas misionales de 1986 (*Uniform System*):** No están en el corpus. Contenían las marcas en el margen derecho que clasificaban las preguntas en tres tipos (comprensión, aceptación, compromiso). El *Missionary Guide* las referencia pero no las reproduce. Obtener este material completaría el eslabón faltante.
 - ***Predicad Mi Evangelio* — lecciones específicas:** El cap. 10 fue analizado, pero las lecciones individuales (caps. 3.1-3.4) también contienen preguntas diseñadas para los investigadores. No se analizaron en detalle.
-- **Evolución histórica:** No se rastreó cómo ha evolucionado la instrucción pedagógica de la Iglesia desde los primeros manuales del siglo XX hasta *Enseñar a la manera del Salvador* (2022). ¿El énfasis en preguntas es reciente o viene de siempre?
 - **Contraste con la tradición pedagógica secular:** El enfoque de preguntas del Salvador se alinea con la mayéutica socrática y con la pedagogía constructivista moderna. Este dossier no exploró esas conexiones, que podrían enriquecer la sección 4 (Voces académicas).
 - **Capacitación de maestros en la práctica:** ¿Cuánto de lo que el manual enseña se implementa efectivamente en las clases dominicales? La brecha entre instrucción y práctica es un tema educativo significativo que está fuera del alcance doctrinal de este dossier.
 
@@ -257,6 +323,7 @@ graph TD
 
 - DyC 50:12-13; 88:118
 - Éter 2:22-25
+- *Missionary Guide: Training for Missionaries* (1988), caps. 5, 7, 9
 - *La enseñanza: No hay llamamiento más grande* (1999), caps. 13, 15, 16
 - *Enseñar a la manera del Salvador* (2022), caps. 10, 11, 13
 - *Predicad Mi Evangelio* (2023), cap. 10
