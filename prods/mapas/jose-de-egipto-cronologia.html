@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Conceptual — Cronología de José de Egipto</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #1a1a2e;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 20px 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #e8d5b7;
+      font-size: 1.6em;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #999;
+      font-size: 0.9em;
+      margin-bottom: 24px;
+    }
+    .mermaid {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    .legend {
+      max-width: 900px;
+      margin: 30px auto 0;
+      padding: 16px 24px;
+      background: #16213e;
+      border-radius: 8px;
+      border: 1px solid #334;
+      font-size: 0.85em;
+      line-height: 1.7;
+    }
+    .legend h3 {
+      color: #e8d5b7;
+      margin-top: 0;
+    }
+    .legend .explicit { color: #4ecca3; }
+    .legend .calc { color: #f0a500; }
+    .legend .uncertain { color: #e07b7b; }
+    .legend table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+    .legend td, .legend th {
+      padding: 4px 10px;
+      text-align: left;
+      border-bottom: 1px solid #334;
+    }
+    .legend th { color: #bbb; }
+  </style>
+</head>
+<body>
+
+<h1>Cronologia de Jose de Egipto</h1>
+<p class="subtitle">Mapa conceptual con respaldo escritural — edades explicitas, calculadas e inciertas</p>
+
+<div class="mermaid">
+%%{init: {
+  'theme': 'dark',
+  'themeVariables': {
+    'fontSize': '13px',
+    'primaryColor': '#1f4068',
+    'primaryTextColor': '#e0e0e0',
+    'primaryBorderColor': '#4ecca3',
+    'lineColor': '#4ecca3',
+    'secondaryColor': '#162447',
+    'tertiaryColor': '#1a1a2e',
+    'clusterBkg': '#16213e',
+    'clusterBorder': '#334'
+  }
+}}%%
+flowchart TB
+
+  subgraph CANAAN["CANAAN — Juventud"]
+    A17["<b>17 anos</b><br/>Suenos profeticos<br/><i>Genesis 37:2-11</i>"]
+    VENTA["<b>17 anos</b><br/>Vendido por sus hermanos<br/>20 piezas de plata<br/><i>Genesis 37:18-28</i>"]
+    A17 --> VENTA
+  end
+
+  subgraph EGIPTO_SERV["EGIPTO — Servicio a Potifar"]
+    POTIFAR["<b>17-? anos</b><br/>Mayordomo de Potifar<br/>'Jehova estaba con Jose'<br/><i>Genesis 39:1-6</i>"]
+    ACUSADO["Acusado falsamente<br/>por la esposa de Potifar<br/><i>Genesis 39:7-20</i>"]
+    POTIFAR --> ACUSADO
+  end
+
+  subgraph PRISION["EGIPTO — Prision"]
+    CARCEL["<b>?-~28 anos</b><br/>Supervisor de la prision<br/>'3 anos o mas'<br/><i>Genesis 39:21-23<br/>Ayudas para las Escrituras</i>"]
+    SUENOS_PRIS["<b>~28 anos</b><br/>Suenos del copero<br/>y el panadero<br/><i>Genesis 40:1-23</i>"]
+    ESPERA["<b>28-30 anos</b><br/>2 anos completos<br/>de espera<br/><i>Genesis 41:1</i>"]
+    CARCEL --> SUENOS_PRIS --> ESPERA
+  end
+
+  subgraph GOBERNADOR["EGIPTO — Gobernador"]
+    FARAON["<b>30 anos</b><br/>Interpreta suenos de Faraon<br/>Nombrado gobernador<br/>Nombre: Zafnat-panea<br/>Esposa: Asenat<br/><i>Genesis 41:14-46</i>"]
+    ABUNDANCIA["<b>30-37 anos</b><br/>7 anos de abundancia<br/>Nacen Manases y Efrain<br/><i>Genesis 41:47-52</i>"]
+    HAMBRUNA["<b>37+ anos</b><br/>Comienza la hambruna<br/><i>Genesis 41:53-57</i>"]
+    FARAON --> ABUNDANCIA --> HAMBRUNA
+  end
+
+  subgraph REUNION["EGIPTO — Reunion familiar"]
+    HERMANOS["<b>~39 anos</b><br/>Se revela a sus hermanos<br/>'Para preservacion de vida<br/>me envio Dios'<br/><i>Genesis 42-45</i>"]
+    JACOB_LLEGA["<b>~39 anos</b><br/>Jacob (130 anos) baja<br/>a Egipto con 70 almas<br/><i>Genesis 46:1-47:12</i>"]
+    HERMANOS --> JACOB_LLEGA
+  end
+
+  subgraph FINAL["EGIPTO — Ultimos anos"]
+    JACOB_MUERE["<b>~56 anos</b><br/>Muere Jacob (147 anos)<br/>Sepultado en Macpela<br/><i>Genesis 47:28-50:13</i>"]
+    PERDON["Perdon final a sus hermanos<br/>'Dios lo encamino a bien'<br/><i>Genesis 50:15-21</i>"]
+    MUERTE["<b>110 anos</b><br/>Muere Jose<br/>Ve 3.a generacion de Efrain<br/>Profetiza el exodo<br/><i>Genesis 50:22-26</i>"]
+    POSTMORTEM["<i>Post mortem</i><br/>Huesos llevados por Moises<br/>Sepultados en Siquem<br/><i>Exodo 13:19; Josue 24:32</i>"]
+    JACOB_MUERE --> PERDON --> MUERTE --> POSTMORTEM
+  end
+
+  VENTA --> POTIFAR
+  ACUSADO --> CARCEL
+  ESPERA --> FARAON
+  HAMBRUNA --> HERMANOS
+  JACOB_LLEGA --> JACOB_MUERE
+
+  subgraph DEBATE["Debate: distribucion de los 13 anos (17-30)"]
+    direction LR
+    SUD["<b>Ayudas para las Escrituras</b><br/>'No se dice cuanto sirvio a Potifar'<br/>'3 anos o mas en prision'"]
+    RAB["<b>Tradicion rabinica</b><br/>~1 ano con Potifar<br/>~12 anos en prision"]
+    PROT["<b>Comentaristas protestantes</b><br/>~11 anos con Potifar<br/>~2 anos en prision"]
+    SALMO["<b>Salmos 105:17-19</b><br/>'La palabra de Jehova le probo'<br/>Sugiere periodo prolongado"]
+  end
+
+  style A17 fill:#1f4068,stroke:#4ecca3,stroke-width:2px
+  style FARAON fill:#1f4068,stroke:#4ecca3,stroke-width:2px
+  style MUERTE fill:#1f4068,stroke:#4ecca3,stroke-width:2px
+  style VENTA fill:#2d4059,stroke:#f0a500
+  style HERMANOS fill:#2d4059,stroke:#f0a500
+  style JACOB_LLEGA fill:#2d4059,stroke:#f0a500
+  style JACOB_MUERE fill:#2d4059,stroke:#f0a500
+  style ESPERA fill:#2d4059,stroke:#f0a500
+  style SUENOS_PRIS fill:#2d4059,stroke:#f0a500
+  style CARCEL fill:#3d1c1c,stroke:#e07b7b,stroke-dasharray: 5 5
+  style POTIFAR fill:#3d1c1c,stroke:#e07b7b,stroke-dasharray: 5 5
+  style SUD fill:#1a3a2a,stroke:#4ecca3
+  style RAB fill:#3d2c1c,stroke:#f0a500
+  style PROT fill:#3d2c1c,stroke:#f0a500
+  style SALMO fill:#1a3a2a,stroke:#4ecca3
+  style POSTMORTEM fill:#162447,stroke:#667
+</div>
+
+<div class="legend">
+  <h3>Leyenda de edades</h3>
+  <table>
+    <tr>
+      <th>Color del borde</th>
+      <th>Tipo</th>
+      <th>Significado</th>
+    </tr>
+    <tr>
+      <td><span class="explicit">&#9632; Verde solido</span></td>
+      <td>Edad explicita</td>
+      <td>Declarada directamente en el texto (17, 30, 110 anos)</td>
+    </tr>
+    <tr>
+      <td><span class="calc">&#9632; Amarillo solido</span></td>
+      <td>Edad calculada</td>
+      <td>Derivada de datos biblicos (~28, ~39, ~56 anos)</td>
+    </tr>
+    <tr>
+      <td><span class="uncertain">&#9634; Rojo punteado</span></td>
+      <td>Periodo incierto</td>
+      <td>El texto no precisa la duracion (tiempo con Potifar y en prision)</td>
+    </tr>
+  </table>
+
+  <h3 style="margin-top:16px">Fuentes del corpus</h3>
+  <ul>
+    <li><b>Ayudas para las Escrituras, Genesis 37-41</b> — "Es posible que Jose haya estado en prision durante tres anos o mas"</li>
+    <li><b>Manual del AT para Seminario, Leccion 33</b> — Resena de Genesis 37-41</li>
+    <li><b>Kelly R. Johnson, "Jehova estaba con Jose"</b>, Liahona, marzo 2022 — La mano del Senor en cada etapa</li>
+    <li><b>Elder L. Tom Perry, Conferencia General, abril 2002</b> — "Vendido a los 17... debio tener el sacerdocio desde antes"</li>
+    <li><b>Elder D. Todd Christofferson, Conferencia General, abril 2022</b> — Jose como ejemplo de acudir a Dios en la afliccion</li>
+    <li><b>Liahona, febrero 2026</b> — El perdon de Jose: perspectiva ampliada por el plan de Dios</li>
+  </ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    securityLevel: 'loose',
+    flowchart: {
+      htmlLabels: true,
+      curve: 'basis',
+      nodeSpacing: 30,
+      rankSpacing: 40
+    }
+  });
+</script>
+</body>
+</html>
