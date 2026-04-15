@@ -1,0 +1,116 @@
+#### LAW OF THE SACRAMENT
+
+SAINTS COMMANDED TO PARTAKE OF SACRAMENT. In the present dispensation, at the time of the organization of the Church, the Lord said: "It is expedient that the church
+ meet together often to partake of bread and wine in the remembrance of the Lord Jesus." Then follow the exact words which are to be used in blessing the bread and the wine, or water, which by revelation has been substituted for wine.338.1
+
+To meet together often for this purpose is a requirement made of members of the Church, which is just as binding upon them in its observance as the requirement in relation to any other principle or ordinance of the gospel. No member of the Church who refuses to observe this sacred ordinance can retain the inspiration and guidance of the Holy Ghost.
+
+It is as true today as it was in the days of Paul, that many members of the Church are weak and sickly, in spirit and body, and many sleep, because they have failed to show their love for, and obedience to, the Lord Jesus Christ in the keeping of this commandment. 338.2
+
+SACRAMENT BEARS RECORD OF ATONING SACRIFICE. Ingratitude is the most prevalent of all sins; it is also one of the greatest. Jesus Christ came into the world, not to do the will of man, but to do the will of his Father, and he said, "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life." 338.3 The love of our Savior was equally as great, and because of it he was willing to suffer and die, that he might bring to all men the resurrection, and eternal life to those who were willing to believe and obey his gospel. 339.4
+
+In remembrance of this great act of infinite love, which has been the means of redeeming a fallen world, those who profess his name show their gratitude and likewise "the Lord's death till he come,"339.5 by observing this holy ordinance.
+
+SAINTS GAIN SPIRIT THROUGH SACRAMENT. But the ordinance means more than this. When we eat the bread and drink the water, we covenant that we will eat and drink in remembrance of the sacrifice which he made for us in the breaking of his body and the shedding of his blood; that we are willing to take upon us the name of the Son; that we will always remember him; that we will always keep his commandments which he has given us, In this act we witness to the Father, by solemn covenant in the name of the Son, that we will do all of these things. Through our faithfulness to these covenants, we are promised that we will always have the Spirit of the Lord to be with us to guide us in all truth and righteousness. 339.6
+
+How can a man who refuses to meet often with his fellow worshippers to keep this commandment have a claim upon the guidance and the blessings of the Lord? Yet, strange to say, there are those who seemingly have this false understanding. 339.7
+
+SACRAMENT REPLACES SACRIFICE. The partaking of these emblems constitutes one of the most holy and sacred ordinances in the Church, an ordinance which has replaced the slaying and eating of the paschal lamb which was typical of the sacrifice upon the cross of our Redeemer, an ordinance given to Israel in Egypt in remembrance of the great sacrifice
+ which was, to them, future.
+
+From the time of the exodus from Egypt to the crucifixion of our Redeemer, the Israelites were commanded to observe the passover at a certain time each year. 340.8 On the solemn night before the crucifixion, the Lord changed this ordinance and gave in its stead the sacrament. 340.9 We have been commanded to meet often, not merely once each year, and go to the house of prayer and there remember our Redeemer and make covenant with him in partaking oft of his holy ordinance. 340.10
+
+SACRAMENT NOT A SUPPER. This ordinance was not intended merely for the apostles, but for all the members of the Church, and it was the custom of the ancient saints to meet often for this purpose, as they were commanded. Then came the days of apostasy when this simple and holy ordinance was turned into a feast which brought from Paul a rebuke because the sacrament had been turned into a supper of revelry and drunkenness. The sacrament is not a "supper," although it has become the custom to refer to it as such.340.11
+
+#### SACRAMENT MEETING
+
+THE FIRST SACRAMENT MEETING. In my judgment the sacrament meeting is the most sacred, the most holy, of all the meetings of the Church. When I reflect upon the gathering of the Savior and his apostles on that memorable night when he introduced the sacrament, when I think of that solemn occasion, my heart is filled with wonderment and my feelings are touched. I consider that gathering one of the most solemn and wonderful since the beginning of time.
+
+There the Savior taught them of his coming sacrifice, which in their bewilderment they could not understand. He plainly told them of his death and that his blood should be shed, and this was said in the very hour of his agony for the sins of the world. It was a very solemn occasion; there the sacrament was instituted, and the disciples were commanded to meet together often and commemorate the death and sufferings of Jesus Christ for his sacrifice was for the redemption of the world.341.12
+
+He was about to take upon him the responsibility of paying the debt brought upon the world through the fall, that men might be redeemed from death and from hell. He had taught the people that he was to be lifted up that he might draw all men unto him, and that all who would repent and believe in him, keeping his commandments, should not suffer for he would take upon himself their sins.341.13
+
+RENEW COVENANTS IN SACRAMENT MEETING. We have been called upon to commemorate this great event and to keep it in mind constantly. For this purpose we are called together once each week to partake of these emblems, witnessing that we do remember our Lord, that we are willing to take upon us his name, and that we will keep his commandments. This covenant we are called upon to renew each week, and we cannot retain
+ the Spirit of the Lord if we do not consistently comply with this commandment. If we love the Lord, we will be present at these meetings in the spirit of worship and prayer, remembering the Lord and the covenant we are to renew each week through this sacrament as he has required it of us.
+
+STANDARDS FOR SACRAMENT MEETINGS. I do not believe that the Lord is pleased with us when we turn this sacred meeting into a concert. I do not believe that he is pleased with us if we assemble in this meeting in a spirit of levity and not solemnity. I am sure he is not pleased when men are called to speak in these services whose hearts are not touched by the principles of the gospel, and when they have no faith in the mission of Jesus Christ, and when they cast doubts upon the efficacy of his atonement and the sacrifice he made for the sins of the world. I am sure he is not pleased when we meet on such occasions to be amused, to be entertained, rather than to be instructed and to obtain spiritual education and thought and reflection.
+
+I do not believe it is necessary, very frequently at least, for presiding officers to go outside of their wards and stakes to find speakers; not that this is something they should never do, but I think we many times ignore worthy men living in our wards, who are filled with the spirit of the gospel. I know it is not pleasing to me when I attend a service and someone is called upon to speak who stands before the people and presents, though it be in a pleasing way, some platitudes, some philosophy of men -- the ideas of those who today mould the thought of the world, but who in their own hearts have no faith in or love for Jesus Christ -- or who discuss questions at variance with the fundamental principles of the gospel.
+
+SOLEMN NATURE OF SACRAMENT MEETINGS. I think this is an occasion when the gospel should be presented, when we should be called upon to exercise faith, and to reflect on the mission of our Redeemer, and to spend time in the consideration of the saving principles of the gospel, and not for other purposes. Amusement, laughter, light-mindedness, are all out of place in the sacrament meetings of the Latter-day Saints. We should assemble in the spirit of prayer, of meekness, with devotion in our hearts. I know of no other place where we can gather where we should be more reflective and solemn and where more of the spirit of worship should be maintained. 342.14
+
+REVERENCE NEEDED IN SACRAMENT MEETINGS. Members of the Church are under obligation and commandment to "live by every word that proceedeth forth from the mouth of God," and through their study and faith, worship the Father and the Son in Spirit and in truth. 343.15 Too frequently Latter-day Saints indulge in conduct foreign to these definite instructions.
+
+In our sacrament meetings, and other solemn gatherings, there occasionally enters a spirit of levity and noisy conduct before the meeting is called to order. And, then, at times, there are exercises which are permitted to enter into the worship which are not in harmony with the spirit of the meeting. We are commanded to cast away "idle thoughts," and excess of
+ laughter," and to "cease from all your light speeches, from all laughter, from all your lustful desires, from all your pride and light-mindedness, and from all your wicked doings." 343.16
+
+Undue levity in a sacred meeting hampers the free expression of the Holy Spirit. All our singing as well as our speaking should be in full accord with the nature of these sacred services. Missionary farewells, conducted in the sacrament meetings, frequently partake of a spirit detrimental to the nature of those services. All such detractions from sacred worship, the Lord directs we should avoid.343.17
+
+PARTAKING OF SACRAMENT UNWORTHILY. The sacrament meeting is the most sacred and the most important meeting required of all the members of the Church. If any of the members are not in good standing; if they have in their hearts any feeling of hatred, envy, or sin of any kind, they should not partake of these emblems. If there are any differences or feelings existing between brethren, these differences should be adjusted before the guilty parties partake; otherwise they will eat and drink unworthily and bring upon them the condemnation spoken of by Paul. 343.18 We should all see that our hearts and hands are clean and pure.
+
+Those members of the Church who habitually absent themselves from the sacrament meeting and who do not enter into the covenants which the sacrament requires of them, are guilty of grievous sin and are under grave condemnation. The Spirit of the Lord cannot dwell in them, and they deny to themselves the guidance of that Spirit.
+
+Willful and protracted absence is a sign of apostasy, and if persisted in will lead to faultfinding, disagreement with authorities, and misunderstanding and criticism of the doctrines of the Church. If such a course is continued, it will lead those who are guilty out of the Church, for the Spirit of the Lord cannot be their companion when they show indifference to this sacred commandment. 344.19
+
+#### COVENANT OF THE SACRAMENT
+
+NATURE OF THE COVENANT OF SACRAMENT. I have often wondered if we fully realize the significance and importance of the covenants we make in partaking of these emblems in remembrance of the body and blood of Jesus Christ. It is our duty carefully and thoughtfully to consider the nature of these prayers, when we hear them offered in our meetings. There are four very important things we covenant to do each time we partake of these emblems, and in partaking, there is the token that we subscribe fully to the obligations, and thus they become binding upon us. These are as follows:
+
+1. We eat in remembrance of the body of Jesus Christ, promising that we will always remember his wounded body slain upon the cross.
+
+2. We drink in remembrance of the blood which was shed for the sins of the world, which
+ atoned for the transgression of Adam, and which frees us from our own sins on condition of our true repentance.
+
+3. We covenant that we will be willing to take upon us the name of the Son and always remember him. In keeping this covenant we promise that we will be called by his name and never do anything that would bring shame or reproach upon that name.
+
+4. We covenant that we will keep his commandments which he has given us, not one commandment, but that we will be willing to "live by every word that proceedeth forth from the mouth of God."345.20
+
+If we will do these things, then we are promised the continual guidance of the Holy Ghost, and if we will not do these things, we will not have that guidance. 345.21
+
+VIOLATION OF COVENANT OF SACRAMENT. Again, I have wondered how members of the Church can go to the sacrament service and partake of these emblems, and make these solemn covenants, and then immediately after the close of the meeting go out to some place of amusement, to attend a picture show, a baseball game, or some resort, or to gather at some home to play cards.
+
+When any of these things is done, the guilty person violates this sacred covenant so recently made or renewed. Do they who do this pay so little attention to their obligations that they really do not sense their significance? Or do they think that the Lord in his abundant goodness and mercy will overlook their shortcomings, and do they look upon it as being not a very great sin after all to violate covenants made in this manner? Of course, only those who are guilty are able to answer these questions.
+
+The fact remains, however, that when we indulge in habits of this kind we are covenant breakers guilty of offenses, as taught by Paul, of the most serious kind. Because of these breaches of the commandments, and the violation of covenants thus solemnly taken, many among us are in the same condition as they were in the days of Paul; they are spiritually sick, weak in the faith, and they sleep the spiritual sleep that leads to death.345.22 . . .
+
+SACRAMENT AN INCENTIVE TO RIGHTEOUSNESS. The primary and outstanding reason why we should attend these services is that we may renew our covenants by partaking of the sacrament. The question, who will speak, is of secondary importance, although it is too frequently considered the first. Our faith is always measured by our works. If we fully appreciated the many blessings which are ours through the redemption made for us, there is nothing that the Lord could ask of us that we would not anxiously and willingly do. 346.23
+
+Do you think a man who comes into the sacrament service in the spirit of prayer, humility, and worship, and who partakes of these emblems representing the body and blood of Jesus Christ, will knowingly break the commandments of the Lord?
+
+If a man fully realized what it means when he partakes of the sacrament, that he covenants to take upon him the name of Jesus Christ and to always remember him and keep his commandments, and this vow is renewed week by week -- do you think such a man will fail to pay his tithing? Do you think such a man will break the Sabbath day or disregard the Word of Wisdom? Do you think he will fail to be prayerful, and that he will not attend his quorum duties and other duties in the Church? It seems to me that such a thing as a violation of these sacred principles and duties is impossible when a man knows what it means to make such vows week by week unto the Lord and before the saints.
+
+If we have the right understanding, we will live in full accord with the principles of truth and walk in righteousness before the Lord. How can we receive his Spirit otherwise? I can see the significance in the commandment the Lord has given us to assemble frequently and partake of these emblems in commemoration of his death. It is our duty to assemble and renew our covenants and take upon us fresh obligations to serve the Lord and keep his sayings.
+
+REMEMBER CHRIST'S SUFFERINGS DURING SACRAMENT. How can a man go forth after making such covenants and cheat his neighbor? Or rob the Lord? Or violate any other commandment and refuse to walk in the light of truth? I am sure if we could picture before us (as I have tried many times to do), the solemn occasion when the Savior met with his apostles, if we could see them there assembled -- the Lord in his sadness, sorrowing for the sins of the world, sorrowing for one of his apostles who was to betray him, yet teaching these 11 men who loved him and making covenant with them -- I am sure we would feel in our hearts that we would never forsake him.
+
+If we could see them there assembled and could realize the weight of the burden which was upon our Lord, and after their supper and the singing of an hymn, their going forth, the Lord to be betrayed, mocked and scorned, the disciples to forsake him in the deepest hour of his trial -- if we could understand all this (feebly though it be, and feebly it must be, I am sure, my brethren and sisters), we would forever more want to walk in the light of truth. If we could see the Savior of men suffering in the garden and upon the cross and could fully realize all that it meant to us, we would desire to keep his commandments and we would love the Lord our God with all our heart, with all our might, mind and strength, and in the name of Jesus Christ would serve him. 347.24
+
+#### CHILDREN AND THE SACRAMENT
+
+ALL SAINTS TO ATTEND SACRAMENT MEETING. This requirement is made of all members of the Church. None are exempt or excused, except it be on account of disability due to sickness or disease. Neither is there any age limit. Many years ago the privilege of administering the sacrament in the Sunday School was granted, as it was thought that here the children would be taught reverence for this sacred ordinance. This innovation, however,
+ does not excuse or exempt, and was never intended so to do, any members of the Church from attendance at the regularly appointed sacramental service. This commandment is for all members of the Church, both old and young, the halt, the blind, the deaf and all who are physically able to attend.
+
+The fact that this ordinance has been granted to the Sunday Schools has caused the feeling to grow up among some members of the Church that the children are excused from the regular sacrament service, but this is not the case. "Remember now thy Creator," we read in the scriptures, "in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them."348.25
+
+And Malachi declares: "Then they that feared the Lord spake often one to another: and the Lord hearkened, and heard it, and a book of remembrance was written before him for them that feared the Lord, and that thought upon his name."348.26 So it shall be today, a book of remembrance shall be kept for all those who honor the Lord in the covenants required of us in the ordinance of the sacrament.
+
+CHILDREN TO BE TAUGHT IN SACRAMENT MEETING. Among the Nephites, at the time their souls had been fully charged with faith due to the personal visit of the Lord, it is written that they found pleasure in walking after the commandments which they had received, "continuing in fasting and prayer, and in meeting together oft both to pray and to hear the word of the Lord." 348.27 Moreover, their small children were blessed with remarkable manifestations.
+
+The Lord has set the age of accountability at eight years. At this age children are to be baptized and thus become entitled to all blessings as members of the Church. A child who has become a member of the Church through baptism is under the same commandment -- for it is to all members of the Church -- to attend the regularly established sacramental meetings.
+
+Any man who thinks himself to be devout and who is faithful in his own personal attendance at these meetings, but who neglects this duty in behalf of his children, permitting them to run the streets, or otherwise occupy their time contrary to the way the Lord has commanded, is guilty of a transgression. Has not the Lord emphatically declared that it is the duty of parents in Zion or any of her stakes to teach their children the doctrines of the kingdom, and if they neglect this important duty, the sin shall be upon the heads of the parents? 349.28
+
+In what better way can parents teach their children than by example? Where can the children be instructed in the ways Of the Lord any better than in their attendance at these sacred meetings? Yet it is too frequently the case that the younger members of the Church are absent from the sacramental meetings.
+
+CHILDREN TO ATTEND SACRAMENT MEETING. We are not justified in thinking that if the children attend the Sunday School, and there partake of the bread and water in
+ remembrance of the body and blood of our Redeemer, that they have fulfilled their duty, The Lord has required them -- as members of the Church -- to be in attendance at the constituted meeting which he has himself ordained and appointed for the benefit and salvation of all members of his Church.
+
+There is nothing complicated in the plan of salvation that little children cannot understand. Some churches have clouded their doctrines with mysteries and symbolic ceremonies which even adults cannot comprehend, but this is all foreign to the gospel of Jesus Christ. Otherwise our Savior would have placed the year of accountability at the age of 21 or some other period when the mind is mature and not at eight years of age. brethren and sisters -- parents in Zion -- it is your solemn duty to be in attendance regularly at the sacramental service of the Church, and the obligation is also upon you to see that your children, who are given into your charge by their Heavenly Father, are also there.350.29
+
+CHILDREN TO PARTAKE OF SACRAMENT. All little children virtually belong to the Church until they are eight years of age. Should they die before that age, they would enter the celestial kingdom. The Savior said, "Of such is the kingdom of heaven." 350.30 Then why should they be deprived of the sacrament?
+
+NON-MEMBERS AND THE SACRAMENT. Non-members cannot comply with the covenants embodied in the blessings of the sacrament and, therefore, should not partake of it. They are old enough to reason and should understand that the sacrament, so far as adults are concerned, is for those who have repented of their sins in the waters of baptism.
+
+It would be proper in a meeting to say, "The sacrament will now be administered to the members of the Church," in cases where there are non-members present; otherwise nothing need be said of this nature. If non-members are present and partake of the sacrament, we would not do anything to prevent it, for evidently they would take it in good faith, notwithstanding the nature of the covenant.
+
+DENYING SACRAMENT TO UNWORTHY. The Lord has said that we should not permit anyone to partake of the sacrament unworthily. This means, as I understand it, anyone in the Church who has been in transgression of some kind and who has not repented. It would also apply to the apostate.350.31

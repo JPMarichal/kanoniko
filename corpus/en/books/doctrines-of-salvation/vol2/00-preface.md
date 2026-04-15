@@ -1,0 +1,15 @@
+### PREFACE
+
+This second volume in the Doctrines of Salvation series has one central theme: Salvation -- What it is; How to gain it; and the Laws which pertain to it.
+
+For nearly half a century President Joseph Fielding Smith, true to his apostolic anointing, has travelled in the Church and throughout the world bearing special witness of Christ, raising the warning voice, and teaching the "Doctrines of Salvation" in plainness and simplicity. He is universally esteemed as the chief doctrinal authority of the Church.
+
+No teachings are of greater worth to man than those revealing the truths about salvation, "for there is no gift greater than the gift of salvation";v.1 and there is no one better qualified to teach these truths than President Smith.
+
+The selections from his sermons and writings which make up this volume -- continuing the pattern set in the first volume -- have been arranged by subjects and copiously footnoted.
+
+In Doctrines of Salvation, Volume II, the gospel student will find plain and authoritative explanations to virtually every important phase of salvation, the degrees of glory, exaltation, celestial marriage, the Holy Spirit of Promise, salvation for the dead, spiritual life and death, the resurrection, and much more. The devout seeker after salvation will turn to these teachings with an intense desire to master them.
+
+To many I express deep appreciation for help, suggestions, and encouragement: Chiefly, of course, to President Smith, himself, for his scriptural insight, his plain teachings, and his power of expression; to Elder Oscar W. McConkie, my father, for much counsel and many helpful suggestions; to Elder Milton R. Hunter of the First Council of the Seventy, for like assistance; to Joseph Fielding Smith, Jr., for setting the type and making many valued suggestions; to Velma Harvey, for typing the host of documents from which these choice teachings have been taken; and to Harold Lundstrom, for a painstaking and careful reading of the proof.
+
+--Bruce R. McConkie Salt Lake City, Utah September 25, 1955
