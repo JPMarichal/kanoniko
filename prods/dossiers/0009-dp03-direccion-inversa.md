@@ -109,7 +109,7 @@ Las preguntas de Moisés funcionan como escudo: cada una reafirma su propia iden
 
 El élder Ulisses Soares usó la historia del eunuco etíope como paradigma de la pregunta ascendente humilde:
 
-> El eunuco preguntó a Felipe: «¿Cómo puedo entender, si alguno no me enseña?» (Hechos 8:31). Soares presenta esta disposición a preguntar como la condición previa a la comprensión. (Élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019)
+El eunuco preguntó a Felipe: «¿Cómo puedo entender, si alguno no me enseña?» (Hechos 8:31). El élder Soares presenta esta disposición a preguntar como la condición previa a la comprensión (élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019).
 
 El presidente Dieter F. Uchtdorf validó la pregunta como acto de crecimiento:
 

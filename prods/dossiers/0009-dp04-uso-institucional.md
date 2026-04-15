@@ -129,7 +129,7 @@ El manual también codifica principios pedagógicos sobre las preguntas:
 - **Evitar controversia:** «Tenga especial cuidado de no hacer preguntas que promuevan altercados o que destaquen temas sensacionales.»
 - **Responder con respeto a errores:** «Responda con respeto y cortesía a las contestaciones incorrectas.»
 
-El capítulo 13 del mismo manual contiene una cita de la hermana Virginia H. Pearce que precede y anticipa la formulación de Bednar:
+El capítulo 13 del mismo manual contiene una cita de la hermana Virginia H. Pearce que precede y anticipa la formulación del élder Bednar:
 
 > «Un buen maestro no piensa: "¿Qué haré hoy en clase?", sino, "¿Qué harán mis alumnos hoy en clase?" No piensa: "¿Qué enseñaré hoy?", sino, "¿Cómo podré hacer que mis alumnos se den cuenta de lo que tienen que saber?"» (Hermana Virginia H. Pearce, citada en *TNGC*, cap. 13)
 
@@ -159,13 +159,9 @@ La convergencia entre los cuatro manuales (*Missionary Guide* → TNGC → *Ense
 
 > «Dos de las técnicas de enseñanza favoritas de Jesús eran hacer preguntas y contar historias, o parábolas.» (Élder M. Russell Ballard, «Doctrina de la inclusión», conferencia general, octubre de 2001)
 
-**Élder Jeffrey R. Holland** (octubre de 2012) analizó la triple pregunta de Juan 21 como acto restaurador — tres preguntas para sanar tres negaciones:
+**Élder Jeffrey R. Holland** (octubre de 2012) analizó la triple pregunta de Juan 21 como acto restaurador — tres preguntas para sanar tres negaciones. El élder Holland presenta «¿me amas?» no como interrogación sino como rehabilitación: cada pregunta abre espacio para que Pedro reafirme lo que negó (élder Jeffrey R. Holland, «El primer y grande mandamiento», conferencia general, octubre de 2012).
 
-> Holland presenta «¿me amas?» no como interrogación sino como rehabilitación: cada pregunta abre espacio para que Pedro reafirme lo que negó. (Élder Jeffrey R. Holland, «El primer y grande mandamiento», conferencia general, octubre de 2012)
-
-**Élder Russell T. Osguthorpe** (octubre de 2012) describió al Salvador como alguien que «siempre prestaba atención a sus preguntas» — las de los aprendices, no solo las suyas:
-
-> Osguthorpe señaló que el Salvador no solo formulaba preguntas sino que tomaba en serio las preguntas que otros le hacían, tratándolas como puertas de acceso a la verdad, no como interrupciones. (Élder Russell T. Osguthorpe, «Un paso más cerca del Salvador», conferencia general, octubre de 2012)
+**Élder Russell T. Osguthorpe** (octubre de 2012) describió al Salvador como alguien que «siempre prestaba atención a sus preguntas» — las de los aprendices, no solo las suyas. El élder Osguthorpe señaló que el Salvador no solo formulaba preguntas sino que tomaba en serio las preguntas que otros le hacían, tratándolas como puertas de acceso a la verdad, no como interrupciones (élder Russell T. Osguthorpe, «Un paso más cerca del Salvador», conferencia general, octubre de 2012).
 
 **Hermana Jan E. Newman** (abril de 2021) modeló la pregunta sobre la pregunta: enseñó sobre la importancia de las preguntas usando preguntas.
 
@@ -175,37 +171,25 @@ La convergencia entre los cuatro manuales (*Missionary Guide* → TNGC → *Ense
 
 Esta declaración es doctrinalmente significativa porque valida la pregunta como acto de fe, no de duda. Contrasta directamente con la cultura popular (dentro y fuera de la Iglesia) que a veces equipara preguntar con dudar.
 
-**Élder David M. McConkie** (octubre de 2010) relató la historia del maestro de Boyd K. Packer — un profesor danés de carpintería cuyo método era preguntar en lugar de instruir:
+**Élder David M. McConkie** (octubre de 2010) relató la historia del maestro de carpintería del presidente Boyd K. Packer — un profesor danés cuyo método era preguntar en lugar de instruir. El élder McConkie usó esta historia para ilustrar que el Espíritu Santo enseña del mismo modo que un buen maestro mortal: guiando mediante preguntas en lugar de depositar respuestas (élder David M. McConkie, «El aprendizaje y la enseñanza del Evangelio», conferencia general, octubre de 2010).
 
-> McConkie usó esta historia para ilustrar que el Espíritu Santo enseña del mismo modo que un buen maestro mortal: guiando mediante preguntas en lugar de depositar respuestas. (Élder David M. McConkie, «El aprendizaje y la enseñanza del Evangelio», conferencia general, octubre de 2010)
+**Élder Daniel K. Judd** (octubre de 2007) usó DyC 50:13 como paradigma. El élder Judd presentó la frase «yo, el Señor, os hago esta pregunta» como evidencia de que incluso el Señor omnisciente prefiere preguntar. Si Dios pregunta, nosotros deberíamos enseñar del mismo modo (élder Daniel K. Judd, «Nutridos por la buena palabra de Dios», conferencia general, octubre de 2007).
 
-**Élder Daniel K. Judd** (octubre de 2007) usó DyC 50:13 como paradigma:
+**Élder Dallin H. Oaks** (octubre de 1999) presentó el programa *Enseñar: No Hay Mayor Llamamiento* como esfuerzo institucional para mejorar la enseñanza. El élder Oaks enfatizó que la calidad de la enseñanza determina la calidad de la conversión (élder Dallin H. Oaks, «La enseñanza del Evangelio», conferencia general, octubre de 1999).
 
-> Judd presentó «yo, el Señor, os hago esta pregunta» como evidencia de que incluso el Señor omnisciente prefiere preguntar. Si Dios pregunta, nosotros deberíamos enseñar del mismo modo. (Élder Daniel K. Judd, «Nutridos por la buena palabra de Dios», conferencia general, octubre de 2007)
+**Élder Ulisses Soares** (abril de 2019) usó al eunuco etíope como modelo del aprendiz que pregunta. Citando Hechos 8:31 — «¿Cómo puedo entender, si alguno no me enseña?» — el élder Soares presentó la disposición a preguntar como condición previa a la comprensión (élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019).
 
-**Élder Dallin H. Oaks** (octubre de 1999) presentó el programa *Enseñar: No Hay Mayor Llamamiento* como esfuerzo institucional para mejorar la enseñanza:
+**Élder Russell T. Osguthorpe** (octubre de 2009) formuló preguntas de autoexamen para maestros — preguntas sobre la enseñanza misma. El élder Osguthorpe invitó a los maestros a preguntarse: ¿estoy ayudando a salvar vidas, o solo cubriendo material? (élder Russell T. Osguthorpe, «La enseñanza ayuda a salvar vidas», conferencia general, octubre de 2009).
 
-> Oaks enfatizó que la calidad de la enseñanza determina la calidad de la conversión. (Élder Dallin H. Oaks, «La enseñanza del Evangelio», conferencia general, octubre de 1999)
-
-**Élder Ulisses Soares** (abril de 2019) usó al eunuco etíope como modelo del aprendiz que pregunta:
-
-> «¿Cómo puedo entender, si alguno no me enseña?» (Hechos 8:31). Soares presentó la disposición a preguntar como condición previa a la comprensión. (Élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019)
-
-**Élder Russell T. Osguthorpe** (octubre de 2009) formuló preguntas de autoexamen para maestros — preguntas sobre la enseñanza misma:
-
-> Osguthorpe invitó a los maestros a preguntarse: ¿Estoy ayudando a salvar vidas, o solo cubriendo material? (Élder Russell T. Osguthorpe, «La enseñanza ayuda a salvar vidas», conferencia general, octubre de 2009)
-
-**Élder Matthew O. Richardson** (octubre de 2011) describió la enseñanza familiar como imitación del Espíritu Santo:
-
-> Richardson señaló que los padres deben enseñar como el Espíritu: guiando, recordando, revelando — no dictando. (Élder Matthew O. Richardson, «El enseñar de acuerdo con el Espíritu», conferencia general, octubre de 2011)
+**Élder Matthew O. Richardson** (octubre de 2011) describió la enseñanza familiar como imitación del Espíritu Santo. El élder Richardson señaló que los padres deben enseñar como el Espíritu: guiando, recordando, revelando — no dictando (élder Matthew O. Richardson, «El enseñar de acuerdo con el Espíritu», conferencia general, octubre de 2011).
 
 ---
 
 ## 4. Voces académicas y otros autores
 
-### 4.1 Boyd K. Packer — *Teach Ye Diligently* (pendiente de corpus)
+### 4.1 Presidente Boyd K. Packer — *Teach Ye Diligently* (pendiente de corpus)
 
-El élder Packer dedicó un libro completo a la pedagogía del Evangelio. El libro no ha sido incorporado al corpus pero fue identificado como fuente relevante. La historia del maestro danés de carpintería, citada por McConkie, proviene de esta obra.
+El presidente Packer dedicó un libro completo a la pedagogía del Evangelio. El libro no ha sido incorporado al corpus pero fue identificado como fuente relevante. La historia del maestro danés de carpintería, citada por el élder McConkie, proviene de esta obra.
 
 ### 4.2 Asahel D. Woodruff — *Teaching the Gospel* (1962)
 
@@ -226,7 +210,7 @@ Estos materiales fueron identificados durante la investigación pero no están d
 ```mermaid
 graph TD
     ESC["Escrituras<br/>(dp01-dp03)"]
-    CONF["Conferencia general<br/>Ballard, Holland,<br/>Osguthorpe, Uchtdorf"]
+    CONF["Conferencia general<br/>Élderes Ballard, Holland,<br/>Osguthorpe, Uchtdorf"]
     MAN["Enseñar a la manera<br/>del Salvador (2022)"]
     AULA["Aula dominical<br/>Hogar, Seminario,<br/>Instituto"]
     
@@ -237,7 +221,7 @@ graph TD
     MG["Missionary Guide (1988)<br/>Cap. 7: Descubrir"]
     TNGC["TNGC (1999)<br/>Cap. 16: Preguntas"]
     PMG["PMG (2023)<br/>Cap. 10: Preguntas"]
-    PACK["Packer,<br/>Teach Ye Diligently"]
+    PACK["Pte. Packer,<br/>Teach Ye Diligently"]
     
     MG -->|"habilidades → taxonomía"| TNGC
     TNGC -->|"predecesor"| MAN
@@ -265,7 +249,7 @@ graph TD
 | [dp00 — Panorámico](0009-dp00-preguntas-pedagogicas.md) | pertenece a | Dossier panorámico del territorio |
 | [dp01 — Taxonomía](0009-dp01-taxonomia-preguntas.md) | se basa en | La taxonomía escritural es la base que dp04 muestra institucionalizada |
 | [dp02 — Pregunta vs. reprensión](0009-dp02-pregunta-vs-represion.md) | complementa | dp04 no aborda la reprensión; la Iglesia institucionaliza primariamente el registro de pregunta |
-| [dp03 — Dirección inversa](0009-dp03-direccion-inversa.md) | se basa en | Soares y Uchtdorf validan la pregunta ascendente del aprendiz |
+| [dp03 — Dirección inversa](0009-dp03-direccion-inversa.md) | se basa en | Los élderes Soares y Uchtdorf validan la pregunta ascendente del aprendiz |
 | (Futuro) Pedagogía del hogar | aplica | Cap. 13 del manual extiende las preguntas al hogar y la crianza |
 | *Predicad Mi Evangelio* (2023) | aplica | Cap. 10: preguntas inspiradas como método misional central |
 | *Missionary Guide* (1988) | predecesor | Cap. 7 «Descubrir»: ancestro directo de las preguntas inspiradas de PMG |
@@ -275,7 +259,7 @@ graph TD
 
 ### La pregunta que no pregunta qué decir
 
-> El élder Bednar invirtió la pregunta del maestro. En lugar de «¿Qué les digo?», propuso: «¿Qué preguntas inspiradas puedo hacer?» La diferencia es abismal: la primera pregunta busca contenido para depositar; la segunda busca llaves para abrir. El maestro que pregunta «¿qué les digo?» se ve a sí mismo como depósito; el que pregunta «¿qué preguntas puedo hacer?» se ve como guía.
+> El élder David A. Bednar invirtió la pregunta del maestro. En lugar de «¿Qué les digo?», propuso: «¿Qué preguntas inspiradas puedo hacer?» La diferencia es abismal: la primera pregunta busca contenido para depositar; la segunda busca llaves para abrir. El maestro que pregunta «¿qué les digo?» se ve a sí mismo como depósito; el que pregunta «¿qué preguntas puedo hacer?» se ve como guía.
 
 — Basado en élder David A. Bednar, citado en *Enseñar a la manera del Salvador*, cap. 11
 **Objetivo:** clarify | **Forma:** contraste conceptual | **Parafraseada:** sí
@@ -303,14 +287,14 @@ graph TD
 
 ### El carpintero danés
 
-> Boyd K. Packer tuvo un maestro de carpintería, un danés, que nunca daba la respuesta. Cuando un estudiante se acercaba con una pieza mal cortada, el maestro no señalaba el error: preguntaba. «¿Qué ves aquí?» «¿Está recto?» El estudiante encontraba el error solo. Packer, que llegaría a ser presidente del Quórum de los Doce, aprendió más de un carpintero que de muchos profesores — y el método era idéntico al del Salvador.
+> El presidente Boyd K. Packer tuvo un maestro de carpintería, un danés, que nunca daba la respuesta. Cuando un estudiante se acercaba con una pieza mal cortada, el maestro no señalaba el error: preguntaba. «¿Qué ves aquí?» «¿Está recto?» El estudiante encontraba el error solo. El presidente Packer, que llegaría a ser presidente del Quórum de los Doce, aprendió más de un carpintero que de muchos profesores — y el método era idéntico al del Salvador.
 
 — Basado en élder David M. McConkie, conferencia general, octubre de 2010, relatando historia de Boyd K. Packer
 **Objetivo:** resonate | **Forma:** anécdota | **Parafraseada:** sí
 
 ## 8. Lagunas y preguntas abiertas
 
-- **Material pendiente de corpus:** *Teach Ye Diligently* (Packer), artículos del *Ensign* (2002) y RSC (2004), capítulo 31 del manual CES. Chips de descarga creados.
+- **Material pendiente de corpus:** *Teach Ye Diligently* (presidente Packer), artículos del *Ensign* (2002) y RSC (2004), capítulo 31 del manual CES. Chips de descarga creados.
 - **Material ya en corpus:** *Missionary Guide* (1988, EN, 17 caps), *Teaching No Greater Call* (bilingüe, ~95 caps/idioma), *Predicad Mi Evangelio* (2023, bilingüe), *Enseñar a la manera del Salvador* (2022, bilingüe).
 - **Charlas misionales de 1986 (*Uniform System*):** No están en el corpus. Contenían las marcas en el margen derecho que clasificaban las preguntas en tres tipos (comprensión, aceptación, compromiso). El *Missionary Guide* las referencia pero no las reproduce. Obtener este material completaría el eslabón faltante.
 - ***Predicad Mi Evangelio* — lecciones específicas:** El cap. 10 fue analizado, pero las lecciones individuales (caps. 3.1-3.4) también contienen preguntas diseñadas para los investigadores. No se analizaron en detalle.
