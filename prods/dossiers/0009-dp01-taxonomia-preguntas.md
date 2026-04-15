@@ -299,7 +299,7 @@ El élder M. Russell Ballard identificó las preguntas como una de las «técnic
 
 El élder Jeffrey R. Holland analizó la triple pregunta a Pedro como un acto de restauración deliberada:
 
-> Holland conecta las tres preguntas de Juan 21 con las tres negaciones de Juan 18: cada «¿me amas?» sana una negación. (élder Jeffrey R. Holland, «El primer y grande mandamiento», conferencia general, octubre de 2012)
+El élder Holland conecta las tres preguntas de Juan 21 con las tres negaciones de Juan 18: cada «¿me amas?» sana una negación (élder Jeffrey R. Holland, «El primer y grande mandamiento», conferencia general, octubre de 2012).
 
 El presidente Dieter F. Uchtdorf afirmó el valor de la pregunta como acto de crecimiento espiritual:
 
@@ -307,17 +307,17 @@ El presidente Dieter F. Uchtdorf afirmó el valor de la pregunta como acto de cr
 
 El élder Ulisses Soares usó la historia del eunuco etíope (Hechos 8) como modelo de la dirección inversa — el hombre que pregunta y recibe enseñanza:
 
-> Soares presentó la pregunta del eunuco («¿Cómo puedo entender, si alguno no me enseña?») como paradigma de la humildad que precede a la comprensión. (élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019)
+El élder Soares presentó la pregunta del eunuco — «¿Cómo puedo entender, si alguno no me enseña?» — como paradigma de la humildad que precede a la comprensión (élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019).
 
 El élder Daniel K. Judd usó DyC 50:13 como ejemplo del Señor que pregunta en lugar de declarar:
 
-> Judd presentó la frase «yo, el Señor, os hago esta pregunta» como paradigma de la enseñanza divina: incluso cuando el Señor conoce la respuesta, prefiere preguntar. (élder Daniel K. Judd, «Nutridos por la buena palabra de Dios», conferencia general, octubre de 2007)
+El élder Judd presentó la frase «yo, el Señor, os hago esta pregunta» como paradigma de la enseñanza divina: incluso cuando el Señor conoce la respuesta, prefiere preguntar (élder Daniel K. Judd, «Nutridos por la buena palabra de Dios», conferencia general, octubre de 2007).
 
 ---
 
 ## 4. Voces académicas y otros autores
 
-*Pendiente.* Los materiales académicos SUD (Packer, *Teach Ye Diligently*; artículos de BYU/RSC) están identificados pero aún no incorporados al corpus. Ver sección 8 (Lagunas).
+*Pendiente.* Los materiales académicos SUD (presidente Packer, *Teach Ye Diligently*; artículos de BYU/RSC) están identificados pero aún no incorporados al corpus. Ver sección 8 (Lagunas).
 
 ---
 
@@ -395,7 +395,7 @@ mindmap
 ## 8. Lagunas y preguntas abiertas
 
 - **Material recién incorporado:** *Teaching No Greater Call* ya está en el corpus (bilingüe, ~95 capítulos por idioma). El cap. 16 contiene una taxonomía propia de tipos de pregunta (sí/no, hechos, reflexión, aplicación, meditación silenciosa) que complementa la taxonomía escritural de este dossier. El *Missionary Guide* (1988) también está en corpus (EN, 17 caps); su cap. 7 «Find Out» organiza las preguntas misionales en tres tipos funcionales: de comprensión, de aceptación y de compromiso — una taxonomía pragmática que complementa la escritural de este dossier y la pedagógica de TNGC. Ambos analizados en dp04.
-- **Material pendiente de corpus:** *Teach Ye Diligently* (Packer), artículos de BYU/RSC sobre preguntas pedagógicas, capítulo 31 del manual CES. Chips de descarga fueron creados en la sesión de investigación.
+- **Material pendiente de corpus:** *Teach Ye Diligently* (presidente Packer), artículos de BYU/RSC sobre preguntas pedagógicas, capítulo 31 del manual CES. Chips de descarga fueron creados en la sesión de investigación.
 - **Antiguo Testamento profético:** Las preguntas de Isaías, Jeremías y Ezequiel (preguntas proféticas a Israel, no de Dios al individuo) no fueron investigadas exhaustivamente. Podrían constituir un subtipo adicional.
 - **Preguntas en las ordenanzas:** El templo usa preguntas como parte integral de las ordenanzas. Por razones de sacralidad no se documentan públicamente, pero su existencia es doctrinalmente significativa.
 - **Análisis cuantitativo:** No se intentó un conteo exhaustivo de todas las preguntas divinas en cada volumen canónico. Un análisis así revelaría la distribución de tipos por libro.

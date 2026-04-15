@@ -104,13 +104,13 @@ DyC 95:1 ofrece la declaración doctrinal más directa sobre la reprensión como
 
 > «A los que amo también disciplino para que les sean perdonados sus pecados, porque con la disciplina preparo un medio para librarlos de la tentación en todas las cosas.» (DyC 95:1)
 
-El élder Daniel K. Judd (conferencia general, octubre de 2007) observó que el Señor prefiere preguntar incluso cuando conoce la respuesta, usando DyC 50:13 como paradigma. Sin embargo, Judd no aborda los contraejemplos de reprensión directa — su observación describe el patrón dominante, no el único.
+El élder Daniel K. Judd (conferencia general, octubre de 2007) observó que el Señor prefiere preguntar incluso cuando conoce la respuesta, usando DyC 50:13 como paradigma. Sin embargo, el élder Judd no aborda los contraejemplos de reprensión directa — su observación describe el patrón dominante, no el único.
 
 ---
 
 ## 4. Voces académicas y otros autores
 
-*Pendiente.* La literatura académica SUD sobre los estilos comunicativos del Señor no fue investigada para este dossier. *Teach Ye Diligently* de Boyd K. Packer podría contener análisis relevante.
+*Pendiente.* La literatura académica SUD sobre los estilos comunicativos del Señor no fue investigada para este dossier. *Teach Ye Diligently* del presidente Boyd K. Packer podría contener análisis relevante.
 
 ---
 
@@ -189,7 +189,7 @@ graph TD
 - **Reprensión en el Libro de Mormón:** Los casos de reprensión directa del Señor (no de profetas) en el Libro de Mormón no fueron investigados exhaustivamente. Los discursos de Jesucristo en 3 Nefi merecen un análisis separado.
 - **¿Hay reprensión en la Perla de Gran Precio?** No se identificaron casos claros de reprensión directa de Dios en Moisés o Abraham. Esto podría indicar que estos textos privilegian el registro de pregunta, o simplemente que el corpus es más breve.
 - **El papel de los profetas como voz de reprensión:** ¿Delega Dios la reprensión en sus profetas cuando el interlocutor directo es un pueblo? Los profetas del Antiguo Testamento (Isaías, Jeremías, Amós) usan extensamente la reprensión — ¿es un tercer patrón distinto?
-- **Material pendiente:** *Teach Ye Diligently* de Packer podría contener análisis sobre cuándo preguntar y cuándo declarar en contextos de enseñanza.
+- **Material pendiente:** *Teach Ye Diligently* del presidente Packer podría contener análisis sobre cuándo preguntar y cuándo declarar en contextos de enseñanza.
 
 ---
 
