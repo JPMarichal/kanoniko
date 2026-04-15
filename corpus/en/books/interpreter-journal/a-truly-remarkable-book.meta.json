@@ -1,0 +1,20 @@
+{
+  "title": "A Truly Remarkable Book",
+  "author": "Louis C. Midgley",
+  "author_slug": "louis",
+  "volume": 57,
+  "year": 2023,
+  "pages": "225-230",
+  "category": "article",
+  "source_url": "https://interpreterfoundation.org/journal/a-truly-remarkable-book",
+  "source": "Interpreter Foundation",
+  "authority": 25,
+  "lang": "eng",
+  "tags": [
+    "interpreter",
+    "academic",
+    "peer-reviewed"
+  ],
+  "pdf_url": "https://cdn.interpreterfoundation.org/jnlpdf/midgley-v57-2023-225-230-PDF.pdf",
+  "note_count": 3
+}

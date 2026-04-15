@@ -1,0 +1,776 @@
+[Page 13] Abstract: This article is the third in a series of three articles responding to the recent assertion by Jonathan Neville that Benjamin Winchester was the anonymous author of three unsigned editorials published in Nauvoo in 1842 in the Times and Seasons . The topic of the unsigned editorials was the possible relationship of archeological discoveries in Central America to places described in the Book of Mormon narrative. The first article shows that, contrary to Neville’s claims, Winchester was not a proponent of a Mesoamerican setting for the Book of Mormon, but rather a hemispheric one. Since this was a view commonly held by early Mormons, his ideas did not warrant any anonymity for their dissemination. The second article shows that, also contrary to Neville’s claims, Joseph Smith was not opposed to considering Central American geographic parallels to the Book of Mormon. The Prophet even seemed to find such possibilities interesting and supportive of the Book of Mormon. This third article shows that despite Neville’s circumstantial speculations, the historical and stylometric evidence is overwhelmingly against Winchester as the author of the Central America editorials.
+
+Neville claims that Joseph Smith was opposed to drawing Mesoamerican connections with the Book of Mormon account and felt that they posed a threat to his prophetic authority. In order to explain how the three editorials came to be published, Neville invents an elaborate tale of subterfuge and conspiracy masterminded by Winchester. Neville also includes a pseudo-stylometric “analysis” in an attempt to support his speculations. Neville is the author of at least twelve self-published novels. He is an attorney by training. He is not a historian, statistician, or stylometrician.
+
+
+## Summary of “Joseph Smith, the Times and Seasons , and Central American Ruins”
+
+Candidate Authors Used: Joseph Smith, John Taylor and Wilford Woodruff
+
+As we discussed in “Joseph Smith, the Times and Seasons , and Central American Ruins,” there are sound reasons to consider Joseph Smith, John Taylor, and Wilford Woodruff as potential candidate authors of the unsigned material on Central America and the Book of Mormon. All three men were in Nauvoo during the time of publication, they were responsible for the publication of the Times and Seasons, and they were all familiar with Stephens and Catherwood’s work. As Roper shows in the second article of this series, Joseph Smith’s letter to John Bernhisel shows that Joseph Smith shared the enthusiasm of his companions about [Page 16] the correspondences between Central American history, Stephens and Catherwood’s discoveries, and the Book of Mormon.
+
+John Taylor’s account suggests that in working with John Taylor, Joseph Smith would sometimes explain in his own language what he wanted written. Then John Taylor would write, after which the Prophet [Page 17] would critique and correct, sometimes repeatedly, what John Taylor wrote if needed. While we do not know if the same process was followed in all the writing done under his direction, it does suggest that Joseph Smith could be very involved in the process, particularly if he considered it a matter of significant doctrinal importance.
+
+John Taylor and Wilford Woodruff were seriously ill during August and September, and both men were essentially bedridden from August 9 until middle to late September. This suggests the chance that someone besides them might have penned the editorials for September 15 and October 1. Neville thinks that Joseph Smith could not have contributed to the content of any of the articles because he was in hiding from his enemies in September 1842 and may not have been able to visit the printing office during that time. None of the editorial portions of the Central America articles for 1842 were long, and they would not have required an inordinate amount of time to write. The editorials for July 15 (signed “Ed”) and September 15 (unsigned) both mention Stephens and Catherwood’s discoveries and have a similar theme. The September 15 material may have been written in September, but it could have been written just as easily previous to John Taylor’s and Wilford Woodruff’s illnesses in July or early August.
+
+Neville notes that in Joseph Smith’s journal, “There is no hint that Joseph is reading, writing, or conversing about any topic related to Book of Mormon geography” (p. 130). While true, the way that Neville presents this information is misleading. Indeed, as far as we are aware, there is no hint of any discussion of Book of Mormon geography in anyone’s Nauvoo journal during 1842. Thus, the journal’s silence cannot be taken to mean very much, since someone was interested in it, and the Times and Seasons published a handful of articles relating to that subject while Joseph Smith was editor, despite the subject’s absence from anyone’s personal diaries.
+
+[Page 18] Joseph Smith’s journal does not record everything that Joseph Smith did or did not do during this time, but it does show that Joseph Smith was in or near Nauvoo while printing activities were going on, which is why he must be considered seriously as a candidate author. Joseph Smith’s journal does show that he met with John Taylor on September 21 about the work of the printing office and also on September 23. This would have given him and John Taylor the opportunity to read or discuss what was to appear in the October 1 editorial and at least allow Joseph Smith to provide his own input, had he wished to do so.
+
+Methods Used and Results: Our previous article examined the probable authorship of the Times and Seasons editorials related to Central America. A timeline of significant events, as well as other [Page 19] historical evidence, indicate that the most likely candidates are limited to Joseph Smith, John Taylor and Wilford Woodruff. To characterize the writing style of each potential author, we assembled a collection of texts known to have been written by each author.
+
+For Joseph Smith we took a sample of texts for which he is the known author (holographic documents written in his own hand) and combined them with texts from the Times and Seasons signed “Joseph Smith,” editorials signed “Ed” when Joseph Smith was editor, and unsigned editorials when he was the editor. We refer to these texts together as the “Joseph Smith Group.”
+
+
+## The “Lost City” of Zarahemla
+
+In The Lost City of Zarahemla , Neville claims that the Central America editorials do not belong to the Joseph Smith Group and spends about 200 pages speculating how Winchester could have been the author. He repeatedly states his speculations as “fact” without scientific substantiation, and he even resorts to using a weak stylometric analysis for support.
+
+
+## Neville’s Foundational Premise is Invalid
+
+Neville asserts that there must be an unrecognized anonymous author for the Central America editorials by claiming that Figure 1 shows the Central America editorials collectively to be an “outlier” (pp. 219-20) in relation to the other texts in the Joseph Smith Group. He says this leads him to believe that there was a different author other than Joseph Smith, [Page 20] John Taylor or Wilford Woodruff for the unsigned Central America editorials. Neville conjectures that Benjamin Winchester was that unrecognized latent author of the unsigned editorials.
+
+What Neville means by “outlier” is more properly referred to as an “extreme value.” The term “outlier” refers to an extreme value among a set of values that is so far from the other data points that it is probably incongruent with the other members of that set of values. His method of assessment is purely visual; and, as he correctly says, it is only his “layman’s opinion” (p. 219). Yet his claim that the Central America editorials are an “outlier” is the foundational premise of his entire argument. If this claim is false, his entire argument has no basis and cannot be substantiated.
+
+Ignoring rigorous statistical analysis and only visually examining the plot in Figure 1, Neville concludes that the Central American texts are “too far” from the Joseph Smith Group to be congruent in style with the other texts. He does not realize that the distances shown in the plot are scaled relative to only the texts examined and do not represent any absolute measure of separation between the texts, as would be the case if the data points were simple two-dimensional locations of physical items plotted on a map in a Cartesian coordinate system.
+
+Figure 2: Histogram of Euclidean Distances of Each Text in the Joseph Smith Group from the Centroid of the Group. The distances from the Joseph Smith Group centroid to typical points from the John Taylor group and the Wilford Woodruff group have been added to show what truly incongruent values look like. The Central America editorials are not inconsistent as part of the Joseph Smith Group, and there is even another Joseph Smith Group text more distant than the Central America editorials.
+
+The “box” contains the middle 50% of the data points. The vertical line extending down from the box spans the lower 25% of the data, ending at the minimum value. The vertical line extending upwards from the box spans the upper 25% of the data, ending at the maximum value.
+
+The threshold distance for an extreme value for the Joseph Smith Group using typical box plot methodology is 4.41. The Central America editorials distance of 3.83 is not beyond the threshold. Therefore, here again, the Central America editorials are not an extreme value within the Joseph Smith Group of texts.
+
+Figure 3: Box Plot of Euclidean Distances from the Centroid of Joseph Smith Group with the Extreme Value Threshold Distance. The Central America editorials distance is not an extreme value in relation to the other texts in the Joseph Smith Group.
+
+[Table omitted]
+
+Extreme Value Test
+
+Central America’s Test Value
+
+Extreme Value Criteria
+
+Result
+
+Dixon’s Q
+
+0.115
+
+>0.206
+
+Not Extreme
+
+Grubb’s
+
+2.379
+
+>3.230
+
+Not Extreme
+
+Iglewicz Y Hoaglin
+
+2.343
+
+>3.500
+
+Not Extreme
+
+Rosner’s GESD
+
+2.168
+
+>2.768
+
+Not Extreme
+
+Tietjen-Moore
+
+0.841
+
+<0.751
+
+Not Extreme
+
+Table 1 : Results of Extreme Value Tests of the Euclidean Distances in Figure 1. All the tests show no evidence that the Central America editorials are an extreme value within the Joseph Smith Group.
+
+Each test uses the data and calculates a test value for the Central America editorials. The test value is compared to a criterion value that indicates whether the Central America editorials might be an extreme value or not. For example, Dixon’s Q test calculates a test value for the Central America editorials of 0.116. This is compared to the criterion value of 0.206. Since 0.116 is not greater than 0.206, there is no evidence that the Central America editorials are an extreme value. For the first four tests in Table 1, if the calculated test value is greater than the criterion value, then that would indicate an extreme value. The Tietjen-Moore test is different. If its test value is less than the criterion value then this would indicate an extreme value.
+
+As we can easily see in Table 1, all the tests show no evidence that the Central America editorials are an extreme value from the other texts in the Joseph Smith Group.
+
+Multivariate Test: Since the data measure the proportions each author used 67 noncontextual words, the data constitute a 67-dimensional multivariate data set. To visualize the multi-dimensional data in graphical form on paper we needed to depict it in our previous article in only two dimensions. The amateur Neville sees two-dimensional plots and thinks this is all the information. Consequently, Neville was easily [Page 24] deceived by his “eyeball test.”
+
+[Table omitted]
+
+Joseph Smith
+
+John Taylor
+
+Wilford Woodruff
+
+Critical Value
+
+Mahalnobis Distance
+
+12.79
+
+72.80
+
+100.74
+
+13.82
+
+Group Membership Probability
+
+100.0%
+
+0.0%
+
+0.0%
+
+>95%
+
+Table 2. Mahalanobis Distances and Probability of Group Membership for the Central America Editorials. The Mahalanobis distance from the editorials to the centroid of the Joseph Smith Group is not beyond the critical value. The probability of the editorials’ membership in the Joseph Smith Group is virtually 100%.
+
+Since the Mahalanobis distance from the Central America editorials to the centroid of the Joseph Smith Group (12.79) is not larger than the critical value (13.82), while the distances to the centroids of the John Taylor and Wilford Woodruff groups are larger than the critical value, the editorials are judged to be “outliers” from John Taylor and Wilford Woodruff but not from Joseph Smith. The probability of group membership of the editorials in the Joseph Smith Group is virtually 100%. This further indicates that there is no evidence the Central America editorials are “outliers” in the Joseph Smith Group when tested with the appropriate statistical technique.
+
+Using ENSCM, we tested Joseph Smith, John Taylor and Wilford Woodruff as an open-set of candidate authors of the Central American editorials. ENSCM first establishes a profile of word-use frequencies for each candidate author based on texts he or she is known to have written. Then ENSCM computes the probability that each candidate author’s writing style is closest in style to the style of the texts of unknown authorship. However, ENSCM allows for the possibility of an additional unknown latent author — sometimes referred to as the “none of the above” alternative. Should the latent author’s probability of closest writing style exceed the probability of any of the candidate authors, then the group of authors should be considered to be an open-set and include the possibility of an unknown author.
+
+Applying ENSCM, we found that the latent author probability — the probability someone else needs to be considered as having a writing style closer than at least one of the candidate authors — is less than one in a thousand (probability < 0.001). See Figure 4. This means that the word-use frequencies of the candidate authors are close enough to the word-use frequencies in the Central America editorials that we can conclude there is insufficient evidence of the need to consider other authors. Consistent with the historical evidence, Joseph Smith, John Taylor and [Page 26] Wilford Woodruff can be considered to be a closed-set of candidates for authorship of the three Central America editorials.
+
+Consequently, in our previous paper we included only Joseph Smith (and the editorials that group with Joseph Smith), John Taylor, and Wilford Woodruff in the analysis. Since the question of authorship of the Central American editorials could be addressed as a closed-set, the evidence indicates that Joseph Smith is the most probable author, as we concluded in the previous paper.
+
+Figure 4: Extended Nearest Shrunken Centroid Method (ENSCM) Probability of Closest Pattern. The probability of a latent author is less than 0.001. This indicates that Joseph Smith, John Taylor and Wilford Woodruff (along with “Ed.”) can be considered as a closed-set of candidates for attributing authorship of the Central America editorials.
+
+Thus, Neville’s biased “layman’s opinion” based on his “eyeball test” is contradicted by a host of relevant objective statistical tests and analyses. Therefore, his assertion that another author needs to be considered is baseless. Consequently, the entire foundational premise of Neville’s book is invalid.
+
+
+## Adding Benjamin Winchester to the Analysis
+
+We have shown that the foundational premise of Neville’s argument is invalid; nevertheless, to directly test Neville’s contention, we added Winchester to the data from our 2013 article and reanalyzed the data to see how close his style is to the style in the Central America editorials. We also tested for evidence that his style is closer to the editorials than to Joseph Smith’s. We followed objective, formal scientific hypothesis-testing methodology.
+
+We formulate the research question as follows:
+
+> [Page 27] Is Benjamin Winchester’s writing style the same as the writing style in the Central America editorials, and is his style closer to that of the editorials than to Joseph Smith’s style?
+
+To answer this research question we formulate the null (H 0 ) and alternative (H a ) hypotheses as follows:
+
+> H 0 : The Central America editorials writing style is closest to Joseph Smith’s style. H a : The Central America editorials writing style is closest to Benjamin Winchester’s style.
+
+We performed discriminant analysis and determined the probabilities of group membership. Figure 5 shows a plot of a discriminant analysis similar to that in Figure 1 with Winchester added as a candidate author.
+
+Figure 5: Discriminant Analysis, including Winchester. The Central America editorials are closer to those of the Joseph Smith Group than to the Winchester texts.
+
+The first discriminant function (the dimension of greatest distinctiveness) differentiates Winchester from the other three authors. The second function differentiates Joseph Smith from Wilford Woodruff.
+
+The Central America editorials clearly cluster with the Joseph Smith Group and not with Winchester. Even Neville’s “eyeball test” would [Page 28] conclude that the Central America editorials are an “outlier” relative to the Benjamin Winchester texts rather than the Joseph Smith Group of texts. To make matters worse for Neville’s eyeball, the third function, which is not shown in the two-dimensional plot in Figure 5, separates John Taylor from the others and moves Winchester even further from the Central America editorials.
+
+Applying the appropriate statistical distance measure for multivariate data — the Mahalanobis distance — the evidence shows the Central America editorials to be an “outlier” from the Benjamin Winchester, John Taylor and Wilford Woodruff groups, but not from the Joseph Smith Group. This is shown in Table 3.
+
+[Table omitted]
+
+Joseph Smith
+
+Benjamin Winchester
+
+John Taylor
+
+Wilford Woodruff
+
+Critical Value
+
+Mahalnobis Distance
+
+15.97
+
+25.48
+
+45.61
+
+54.35
+
+16.27
+
+Group Membership Probability
+
+98.9%
+
+1.1%
+
+0.0%
+
+0.0%
+
+>95%
+
+Table 3 . Mahalanobis Distances and Probability of Group Membership for the Central America Editorials. The Mahalanobis distance from the editorials to the centroid of the Joseph Smith Group is not beyond the critical value. The probability of the editorials’ membership in the Joseph Smith Group is 98.9%.
+
+Since the Mahalanobis distance from the Central America editorials to the centroid of the Joseph Smith Group (15.97) is not larger than the critical value (16.27), while the distances to the centroids of the Benjamin Winchester, John Taylor and Wilford Woodruff groups are larger than the critical value, the editorials can be judged to be “outliers” from the others, but not from Joseph Smith. Of the four, Joseph Smith is a much more likely candidate as author of the Central America editorials. The probability of group membership of the editorials with the Benjamin Winchester text is a mere 1.1%. This shows even more lack of evidence contrary to the null hypothesis.
+
+We could end the article here, since we have fully demonstrated that Winchester is not a more likely author of the Central America editorials than Joseph Smith. But, since Neville spends hundreds of pages trying to build his case, it is necessary to analyze his methods more deeply. We will discuss Neville’s “pseudo-stylometry,” and then to show further how poor a candidate Winchester is, we compare him to an expanded pool of candidate authors. [Page 29]
+
+
+## Stylometry: The Statistical Analyses of Writing Style
+
+Our previous article and this article use stylometry : the statistical analyses of written text to characterize the writing style of the author. In authorship attribution it is necessary to first examine the historical evidence for authorship. Without a solid historical foundation, attribution assertions are baseless. Yet, if we consider only the historical evidence, we can get only so far towards an answer, since multiple scenarios could still remain plausible. Applying stylometrics, if done correctly, can provide additional information showing who the most likely author is, given the historical context.
+
+Stylometry uses statistical measures to characterize an author’s writing style and identify what makes it unique from other authors’ styles. Many approaches have been used to define an author’s unique writing style. All have looked at various features of an author’s writing as measures of style. Some have counted letters, words, word-pair choices, unique words, word lengths, sentence length, paragraph length, language complexity, and many other metrics of style in an attempt to distinguish one author from another. Some have proven to be better than others.
+
+A good metric of writing style is one that is consistent within an author’s writing and yet different from that of other authors. Many naïve methods are not capable of meeting these requirements. Among these deficient methods are average sentence length, unique words, and language complexity. However, some methods are capable of satisfying the criteria.
+
+Focusing on what are called noncontextual words has been shown to be highly useful. Examples of noncontextual words are the words and , for , of , the , and to . These are function words — they do not convey the author’s message but provide the structure by which the author forms his or her message. They define the grammatical relationships among words instead of conveying specific information themselves.
+
+It is best to select the noncontextual words for a specific study that truly distinguish the authors in that study. If this is not done, then the words selected may not be the ones that will show differences among the writing styles in the study. Once the noncontextual words for a study have been selected, an appropriate analysis method must be used. Discriminant analysis is well-suited to the requirements for a good stylistic measure because it can find the combination of weights for the words that (1) best shows consistency of word-use within authors, and (2) at the same time discriminates among different authors’ word-use tendencies.
+
+Discriminant analysis is the method we used in our previous article and one of the methods used in this article. Studies that do not use powerful validated statistical methods are deficient and prone to yield misleading, unsupportable conclusions. Neville’s methodological approach is a textbook example of how not to do stylometric research and the consequences of doing it inappropriately.
+
+
+## Neville’s Pseudo-Stylometry
+
+Average Sentence Length: Neville compares Winchester’s average sentence length (ASL) to the ASL of the Central America editorials, [Page 31] showing they are about the same (p. 225). However, ASL is not a good measure of style by the two criteria for a good style metric: consistency within an author and differentiation among authors.
+
+The authorship of twelve of the eighty-five Federalist Papers has been disputed, but stylometric analyses have shown that they were all probably written by Madison, with the possible exception of one paper. However, attempting to identify the author of the disputed Federalist Papers using ASL proves problematic. Figure 6 shows the ranges (lowest to highest) of ASLs for the papers commonly attributed to Hamilton, Madison and Jay, along with the range of ASLs for the disputed papers (with Winchester added as a comparative control). In order to be comparable, Winchester’s texts were concatenated and split into blocks of text that were about the length of the average size of The Federalist Papers (2058 words).
+
+Based on the ASLs, although Jay might be ruled out as the author of the disputed papers, it would appear that Hamilton may be a better choice than Madison, but the difference is small and unconvincing. Using ASLs as a method of author identification fails to identify the author of the disputed Federalist Papers . [Page 32]
+
+Figure 6 : Ranges of Average Sentence Length (ASL) for The Federalist Papers with Winchester Added for Comparison. The ASLs vary widely within authors and do not provide a basis to make convincing conclusions about authorship of the disputed Federalist Papers . Winchester appears to be the best choice as the author of the disputed papers — a clear sign that the method is inadequate.
+
+Furthermore, ASL as a measure of writing style fails to distinguish the control author (Winchester) from the other candidates. In fact, Winchester’s ASL matches the range of ASLs of the disputed Federalist Papers more closely than any of the actual Federalist Papers authors, but Winchester had not yet been born when The Federalist Papers were written. So using ASL can lead to absurd conclusions for The Federalist Papers . It is equally not useful when Neville applies it to the Times and Seasons editorials. Based on ASL, Winchester is more likely to be the author of the disputed Federalist Papers than he is to be author of the Central America editorials.
+
+Again using The Federalist Papers as a standard to evaluate Neville’s technique, we find that 16% of Madison’s unique words are also in the disputed papers, 14% of Hamilton’s unique words are in the disputed [Page 33] papers, and 5% of Jay’s unique words are in the disputed papers. Adding Winchester to the mix as a control, we find that he has 3% of his unique words (which is twenty “marker” words) in the disputed papers. Although 3% is less than the percentages of Madison, Hamilton and Jay, Neville did not use percent but only pointed out that there were some of Winchester’s unique words in the Central America editorials. By his approach, we ought to conclude — as Neville’s approach would require — that Winchester wrote the disputed Federalist Papers simply because the disputed papers contain some of his unique words!
+
+Repeating this exercise using Neville’s words in The Lost City of Zarahemla, we find that Neville has forty-two unique words that appear in the disputed Federalist Papers . Neville’s method of pointing out unique words used in the Central America editorials, and saying that that provides evidence of authorship, would require him to conclude that he himself had written the disputed Federalist Papers . The use of unique so-called “marker” words fails to distinguish clearly the author of the disputed papers, and Neville’s way of using them would not eliminate the control, Winchester, nor would it even eliminate himself as the author.
+
+So using Neville’s method leads to useless results. Thus applying Neville’s “unique words” method is not reliable and cannot provide useful support for his Winchester conjecture.
+
+Cherry-picked Word Pattern Similarities: Neville singles out 73 words and phrases in the Central America editorials and asserts that they are similar to words and phrases used by Winchester (pp. 207‒16). However, his statements rely only on mere circumstantial similarities. Many people use words similar to the words in the Central America editorials simply because the words are commonly used by English speakers. At best the word pattern similarities only show that Winchester and the author of the three editorials were speaking English. Contextually similar phrases are insufficient to attribute authorship. Such similarities can only generate a question about authorship, not an answer.
+
+As we have noted, noncontextual words rather than contextual words are well-recognized among stylometricians as useful in characterizing authorial styles, but all the words and phrases Neville focuses on are contextual words. Contextual words are not as much an indication of an author’s style as an indication of the author’s subject matter. None of the 73 words and phrases that Neville focuses on is distinctive of Winchester’s writing style as opposed to other authors’ styles. He tries to make Winchester’s use of the 73 words mean something, when they are not distinguishing among other English-speaking authors to begin with. [Page 34] His method is saying, in effect, “See, the author of the Central America editorials uses these words and so does Winchester.” When in reality so do many other English-speaking people.
+
+If we use Neville’s similarities between Winchester and the Central America editorials and apply discriminate analysis with Joseph Smith and John Taylor included, the evidence still indicates that Joseph Smith is more likely to be the author of the editorials due to stronger similarities than Winchester. So we must conclude that there is no evidence that Winchester is the author of the editorials based on Neville’s cherry-picked similarities.
+
+Conclusion about Neville’s Attempt at Stylometry: In sum, the pseudo-stylometric analysis done by Neville is unreliable. He relies on average sentence length, so-called “unique” marker words, and cherry-picked similarities, all of which have been shown to be nondistinguishing. Neville’s “layman’s” observations, analytic methods and reasoning result in unfounded, misleading, erroneous conclusions. They do not provide valid support for his Winchester authorship theory. For further consideration, Neville’s pseudo-stylometric analysis is evaluated in even greater detail in the Appendix.
+
+
+## Appropriate Stylometric Analysis
+
+If Benjamin Winchester should be considered as a candidate, perhaps there are other early LDS writers who also should be considered. Up to this point all the analyses we have shown use the data from our previous article. We transition now to performing stylometry, using an expanded set of comparison authors.
+
+To do stylometry appropriately one needs an appropriate set of authors, focused texts, truly distinguishing features to analyze, and high-powered methods to rule out unlikely candidates. Objective formal scientific hypothesis testing methodology should be used.
+
+How We Picked an Expanded Comparison Set of Authors: Although we contend, on the basis of historical and statistical evidence, that the Central America editorials authorship question is a closed-set problem, to directly test Neville’s assertions we stylometrically evaluated Winchester as a candidate author among an expanded comparison group of authors with historical backgrounds that make them potentially plausible authors and who published writings about American antiquities comparable in subject matter to the unsigned Times and Seasons editorials during the same period of time in Church history. [Page 35]
+
+Expanded List of Other Potential Candidate Authors for the Unsigned Editorials: In addition to Joseph Smith, John Taylor, and Wilford Woodruff, it might be conjectured based on historical evidence alone, that the unsigned editorials were written by other members of the Church who are known to have written about the Book of Mormon and American antiquities previous to the Times and Seasons editorials. These include George J. Adams, John E. Page, W. W. Phelps, Orson Pratt, Parley P. Pratt, William Smith, Erastus Snow, Charles B. Thompson, and Benjamin Winchester.
+
+Although ENSCM showed that Joseph Smith, John Taylor, and Wilford Woodruff could be considered a closed set, we compared Winchester to these others to see if he is the closest in style among them to the style in the Central America editorials. If he is not, then his viability as a candidate for authorship diminishes even more.
+
+Although each of the above men had written on the Book of Mormon and pre-Columbian antiquities previous to 1844, Page, Snow, Thompson, and Winchester were not in Nauvoo during the fall of 1842, making them less likely candidates as writers of the unsigned editorials. It is possible, however, that one of these men wrote the unsigned articles and with the help of a collaborator in the Nauvoo printing office may have succeeded in publishing them. Neville argues that Winchester may have done so with the assistance of William Smith while Joseph Smith was in hiding and unable to oversee the work in the printing office. William himself may have written the unsigned editorials. The same could be said of George Adams, who met with Joseph Smith in September 1842 and, given his interest in the Book of Mormon, could conceivably have written or contributed to the editorials.
+
+Chronological considerations suggest that the Pratt brothers likely did not write them. Parley, though familiar with Stephens’ work, was in England in 1842. Unlike Parley, Orson was in Nauvoo in 1842, but was in the middle of perhaps the most severe emotional and spiritual crisis of his life. From May 1842 until January 1843 he was not involved in the work of the Twelve; and with his faith and marriage in crisis, American antiquities and Book of Mormon geography would likely have been the furthest topic from his mind.
+
+As a journalist, Phelps could certainly write, was in Nauvoo at the time, and given his activities as a ghostwriter for Joseph Smith, should also be considered as a potential candidate. Although these candidates all seem less likely than Joseph Smith, John Taylor, or Wilford Woodruff, we have nevertheless included them in our statistical analysis below.
+
+The comparison set thus has nine authors as shown in Table 4. [Page 40]
+
+[Table omitted]
+
+Adams, George J.
+
+Page, John D.
+
+Phelps, W. W.
+
+Pratt, Orson
+
+Pratt, Parley P.
+
+Smith, William
+
+Snow, Erastus
+
+Thompson, Charles D.
+
+Winchester, Benjamin
+
+Table 4 : Expanded Set of Comparison Authors. There are nine in total who can be considered plausible candidates due to possible historical connections.
+
+Topic Matched: The Central America editorials deal with parallels between the recently explored Central America ruins and the Book of Mormon. For topic matching, we selected only texts dealing with the relevant topic as indicated by key words or phrases from the Central America editorials, such as those shown in Table 5. [Page 41]
+
+[Table omitted]
+
+Antiquities*
+
+Guatemala*
+
+Narrow Neck of Land
+
+Ruins
+
+Central America
+
+Incidents
+
+Palenque
+
+Stephens*
+
+Darien
+
+Isthmus
+
+Quiriua
+
+Zarahemla
+
+Table 5 . Typical Topic-Specifying Key Words in the Central America Editorials. The asterisks indicate that we included all spelling variations.
+
+These words are indicative of the topic covered by the unsigned Central America editorials. We did not use “Book of Mormon,” since that phrase is used many times in numerous articles that have nothing to do with Central America. Some phrases, like “authenticity of the Book of Mormon,” were not included, because they did not add any texts that were not already included by those in Table 5. Other words that seemed peculiar to these editorials were noted, but because they were not topic-specifying, they were not included.
+
+This topic criterion is crucial because it gives the best chance of matching authors’ styles with the Central America editorials. The inclusion of other topics has the effect of producing a less focused style characterization. Neville includes a mix of topics in his textual analyses, thus adding further confusion to his results and diminishing the distinctiveness of the stylistic measures.
+
+By focusing on the published editorial or expository genre, the Central America ruins topic, and the relevant timeframe, we compiled a set of texts that can specifically distinguish between the authors relative to the Central America editorials. Without meeting these crucial criteria, analyses can give misleading, erroneous results. Significantly, Neville’s naïve analyses do not meet any of these criteria.
+
+How We Prepared the Texts for Analysis: To guarantee that each and every word was correct, we independently verified our electronic texts against photo copies of the original publications. If this is not done, the computed frequencies of word usage can misrepresent each author due to typographical errors. Neville did not verify all of the texts he used in his analyses.
+
+To get an unsullied characterization of the authors, we also deleted all non-authorial words, like quoted material and scriptural references. If this is not done, an author’s words can be mixed with the words of other people and can once again lead to mischaracterization of his or her style. Neville did not make this effort consistently in his analyses.
+
+How We Found Truly Distinguishing Words: Since all the authors share many words in common, it is necessary to find which words are truly distinguishing. A criteria-based method of selecting words can be used to provide a sound, unbiased basis for decisions. To obtain a set of truly distinguishing words, we examined all words; only those that met the following four criteria were selected:
+
+  - The word has to be a noncontextual word. This is a standard approach in stylometry, as discussed previously.
+  - To help guarantee that the words used will differentiate among authors, the word has to be one of the words whose range of proportions is in the top five percent of all the words. A lower percentage gives too few words; a higher percentage gives too many.
+  - To guarantee that the word is used frequently enough to give statistically meaningful results, the overall pooled proportion for the word has to be greater than one in a thousand.
+  - To help guarantee statistical relevancy and ensure that the word is characteristic of the author of the Central America editorials, the word must appear at least three times in the composite Central America editorial texts.
+
+[Page 43] Thirty-seven noncontextual words met all four criteria: a, all, and, are, as, at, be, been, but, by, can, could, from, has, have, his, in, is, it, more, not, of, on, our, so, such, that, the, they, this, those, to, upon, was, we, will, with . Selecting words in this fashion helps distinguish among authors using statistically significant words specific to the Central America editorials. This methodological rigor contributes to achieving the goal of high overall specificity for the study.
+
+Validation of Word Selection Method and Discriminant Analysis: To demonstrate the usefulness of our criteria-based word selection method and discriminant analysis, we applied them to The Federalist Papers . This yields seventy-five noncontextual distinguishing words. Figure 7 shows discriminant analysis results for these words.
+
+The discriminant analysis had 99% correct classification of the seventy training-set papers. Three papers are considered co-authored by Madison and Hamilton, so they were not included. All but one of the disputed papers is assigned to Madison — the attribution generally accepted by historians.
+
+Figure 7: Discriminant Analysis for The Federalist Papers . There are clear separations among authors, and all but one of the disputed papers are assigned to Madison, consistent with the findings of previous historical and stylometric analyses.
+
+[Page 44] Will this method also discriminate between The Federalist Papers authors and Winchester and Neville? Including Winchester and Neville as negative controls in the discriminant analysis generates the plot shown in Figure 8.
+
+As they should, Winchester and Neville clearly separate from Hamilton, Madison, and Jay, as well as from the disputed papers. Interestingly, Neville’s style is the most distinctive, as captured in the first discriminate function (horizontal axis). Winchester’s style, the next most distinctive, is contrasted with Jay’s style in the second function. Although not shown in Figure 8, the third function displays less separation between Hamilton and Madison, who are known to be similar in style. Thus we can see that the criteria-based, word-selection method, coupled with discriminant analysis, form a powerful and accurate technique.
+
+Figure 8: Discriminant Analysis of The Federalist Papers , including Winchester and Neville. Winchester and Neville are easily distinguishable from The Federalist Papers authors.
+
+
+## Objective, Scientific Hypothesis Test Methodology
+
+Having observed that the three Central America editorials are unsigned and that Neville offers Winchester as the author, we formulated the research question as follows: [Page 45]
+
+> Is the writing style in the Central America editorials closer to Benjamin Winchester than to the other candidate authors in the expanded set?
+
+To test this research question we formulate the null (H 0 ) and alternative (H a ) hypotheses as follows:
+
+> H 0 : Winchester’s style is not the closest to the style of the Central America editorials among the other comparison authors (at least one other is closer). H a : Winchester’s style is the closest to the style of the Central America editorials among the other comparison authors.
+
+Note that since we have already shown the results of an analysis comparing Winchester with Joseph Smith, John Taylor and Wilford Woodruff, in this analysis we compared only Winchester to the other comparison authors.
+
+Performing discriminant analysis, we obtained the plot of group centroids shown in Figure 9. Six comparison authors are closer to the Central America editorials than to Winchester. The probability that the Central America editorials belong with the Winchester texts is less than one in a thousand (< 0.001).
+
+Figure 9: Group Centroids from Discriminant Analysis. Winchester is not the closest to the Central America editorials. Neither is William Smith. We point out William Smith because Neville conjectures he could have been another possible source of the editorials.
+
+To help ensure that the results were not affected by the number of texts we included for each author, we checked to see if there is any relationship with sample size. There was no evidence of a strong relationship. This indicated that the stylometric results are unaffected by varying sample sizes.
+
+This array of five analytic techniques showed Winchester to be an even worse candidate among a group of other plausible candidates for authorship of the Central America editorials than when he was compared to Joseph Smith, John Taylor, and Wilford Woodruff. The results are shown in Table 6.
+
+[Table omitted]
+
+Test Method
+
+Number of Comparison Authors Closer than Winchester to the Editorials
+
+Principal Components
+
+8
+
+Discriminant Analysis
+
+6
+
+Burrow’s Delta
+
+6
+
+Fisher’s Method
+
+2
+
+n-Grams Matching
+
+2
+
+Table 6: Number of Comparison Authors Closer than Winchester to the Central America Editorials. Among the expanded set of comparison authors, for each test there are always other candidates who are closer to the Central America editorials than Winchester.
+
+Winchester is never the closest in any of these tests: Two to eight other candidates are always closer in style to the Central America editorials than Winchester. The highest he ever ranked was a distant third place. Consequently, once again we find no persuasive evidence that [Page 47] Winchester is a good candidate for authorship of the three unsigned Central America editorials.
+
+Stylometric Evidence Conclusion: The results of multiple formal, statistical tests of hypothesis combined provide consistent, overwhelming lack of evidence that Winchester is a viable candidate for authorship of the unsigned Central America editorials.
+
+
+## Neville’s Highly Speculative Style
+
+In contrast to the evidence provided by these objective tests, Neville’s conclusions throughout his book are not based on facts, but on a continual framework of conjectures, speculations and suppositions — so much so that they can be easily measured. He frequently uses speculative words such as could , maybe , perhaps , possibly , seems , suggests , supposedly , and a host of other similar words. Figure 10 shows a “word cloud” to illustrate how frequently he uses speculative words. The most prominent word is suggests .
+
+To see how unusually often he uses speculative words, we compared them to the frequencies tabulated in the Corpus of Contemporary American English (COCA), available online at http://corpus.byu.edu/. It is described as follows.
+
+> COCA is the largest freely-available corpus of English, and the only large and balanced corpus of American English. The corpus was created by Mark Davies of Brigham Young University, and it is used by tens of thousands of users every month — linguists, teachers, translators, and other researchers. The corpus contains more than 450 million words of text and is equally divided among spoken, fiction, popular magazines, newspapers, and academic texts. It includes 20 million words each year from 1990‒2012 and the corpus is also updated regularly. The most recent texts are from summer 2012. Because of its design, it is perhaps the only corpus of English that is suitable for looking at current, ongoing changes in the language. [Page 48]
+
+Figure 10: Word Cloud of Neville’s Speculative Words. The font size of each word is in proportion to how frequently Neville uses that word in excess of common usage in American English today.
+
+Using COCA, we calculated the difference in relative frequency of Neville’s use of speculative words compared to their relative frequency in standard American English today. Figure 11 shows the ten words with the largest differences.
+
+Figure 11: Neville’s Top Ten Speculative Words Compared to the Corpus of Contemporary American English. Neville uses speculative words more frequently than standard American English.
+
+We can see that Neville uses these words in higher frequencies than commonly used in Standard American English. For example, he uses suggests almost 1,000 times per million words more often in The Lost City of Zarahemla than people use the word on average in a wide spectrum of texts.
+
+Figure 12 shows cumulatively how frequently Neville uses speculative wording in ten-page increments in the first 192 pages of his book. In summary, Neville uses speculative wording over 800 times in the first 192 pages of his book. In one ten-page segment he uses an average of almost nine speculative words per page. We can see that he starts off using speculative words at a high rate, and then his rate of using [Page 49] speculative vocabulary increases as his narration continues. From the information displayed in Figures 10, 11 and 12, we can describe Neville’s style in The Lost City of Zarahemla as “highly speculative.”
+
+Figure 12: Frequency of Neville’s Speculations. In the first 192 pages of his book, Neville uses speculative words over 800 times, and his speculation rate even increases as he goes along.
+
+
+## Neville’s Speculations Unscientifically Morph into Facts
+
+Within a cloud of speculation, Neville is unable to distinguish fact from fiction. He accuses Winchester of creating facts out of the whole-cloth of inference (123) and disparages “Winchester’s inference … which morphed into a fact in his Times and Seasons articles” (p. 180). Yet he himself does the same thing.
+
+Neville repeatedly creates “facts” morphed out of the whole-cloth of his own original inferences, suppositions and speculations. For example, on page 7 he speculates: “led me … to suspect someone else entirely [Page 50] had written the 900 words.” Then one page later he asserts flat out, with no hedging: “Joseph did not write these editorials.” Throughout his book, there are numerous such morphs of speculated conjectures into statements of fact.
+
+Neville asserts as facts his speculations and spins a tale based merely on things he imagines seeing in the data. If we use his speculative vocabulary, The Lost City of Zarahemla “suggests, perhaps, that maybe, it appears, that it could be that” his imagination is reality.
+
+
+## Conclusion
+
+Our previous article, “Joseph Smith, The Times and Seasons , and Central American Ruins,” concludes that our analysis pointed to Joseph Smith as the most likely author of the Central America editorials, with possible influence from John Taylor and Wilford Woodruff.
+
+In The Lost City of Zarahemla Neville conjectures that there is another author — Benjamin Winchester — and spins an elaborate tale based on speculation and imagination which he often states as fact while weaving a baseless story of conspiracy.
+
+He ignores the simple fact that unsigned editorials are common in newspapers then and now, and do not imply a clandestine desire for anonymity by the author. In fact, the most logical assumption then and now is that the editor is the author of unsigned editorials. It is also common practice now, as it was then, for editorials to be the “voice” of the editor expressing the opinion of the publisher. The most logical assumption is that editorials — signed or unsigned — are official statements of the people responsible for the newspaper. When that is not the case, a disclaimer is published which says, in effect, “The views expressed in this article are not necessarily the views and opinions of the editor or publisher of this newspaper.”
+
+Further, he ignores the fact that it is completely irrational for Joseph Smith to have published in the Times and Seasons three editorials of unknown authorship that contradicted his views, since he took over the editorship due to his concerns for what was being published in the paper. And it would be even more irrational for him to publish material for which he did not know the author after he had assured his readers at the onset of his editorship that he was responsible for the content of the paper with the clear statement “I stand for it.”
+
+Even in the unlikely event that something he disagreed with had slipped by his notice and was published three times, Joseph Smith still had numerous opportunities and venues to correct those statements, [Page 51] even after he was editor. There is simply no logical basis for Neville’s characterization of the publication of the unsigned Central America editorials as being contrary to Joseph Smith’s views and due to clandestine conspiracy. The Prophet could have corrected any errors at any time.
+
+The first article in a series of three Interpreter articles showed that Winchester did not promote a limited Mesoamerican geographical setting for the Book of Mormon, but rather a hemispheric one. His ideas were nothing new and thus did not warrant any subterfuge for their dissemination. The second article showed that Joseph Smith was not opposed to considering Central American cultural, geographical, and historical correspondences with the Book of Mormon, but to the contrary found them interesting and supportive of the Book of Mormon.
+
+In this third article we have shown the inadequacy of Neville’s arguments. Neville says he sees an “outlier” in the discriminant plots in our article “Joseph Smith, the Times and Seasons , and Central American Ruins.” But statistical tests contradict his “eyeball” test and show no evidence that the Central America editorials are inconsistent in style with the texts in the Joseph Smith Group of texts. So the foundational premise for his book is false. What he sees is due to his preconceived bias for Winchester’s authorship of the unsigned Central America editorials.
+
+We have also shown that Winchester is no better candidate than Joseph Smith as author of the Central American editorials; and we have further shown, using an array of objective statistical techniques, that Winchester is a poor choice among an expanded set of comparison authors. The historical and stylometric evidence is overwhelmingly against Winchester as the author of the Central America editorials.
+
+Neville’s book is at best a work of fiction. In fiction an author can create an imaginary world to match the way he or she wants things to be. However, in history and science we are constrained by the evidence provided by data. There is only imagination in Neville’s pseudo-science masquerading as history. The Lost City of Zarahemla is just the latest entry Neville has added to the list of his other novels.
+
+
+## Appendix: Dissection of Neville’s Pseudo-Stylometric Statements in Appendix III of The Lost City of Zarahemla
+
+By his own admission, Neville is an amateur when it comes to stylometry (p. 219). Since he evinces no experience, expertise or sound judgment in stylometric research, it is not surprising that he uses archaic, low-power, [Page 52] nondistinguishing methods, and jumps to baseless conclusions. In the following we address by topic each of his assertions in Appendix III (pp. 217‒33) of The Lost City of Zarahemla.
+
+Excessive Variation
+
+• Neville says that a problem in applying stylometric analysis is that the unsigned Times and Seasons editorials vary so widely in style, content and approach that they cannot be grouped to Joseph Smith (pp. 217‒218).
+
+>> This statement is unfounded. Discriminant analysis shows that the unsigned editorials group together and cluster with Joseph Smith’s writings and editorials.
+
+Outlier Claims
+
+• Neville says that we have previously concluded that Joseph Smith is the author “because his writing style is a little closer to the unsigned articles than are the styles of Wilford Woodruff and John Taylor” (p. 218).
+
+• He claims that these previous studies by Roper and Lund tend to show that Joseph Smith is not the author of the unsigned editorials (p. 218).
+
+• He repeatedly asserts that the Central America editorials are “so distant from Joseph that it appears to be an outlier” (p. 219) and that the composite of the Central America editorials “appears to be an outlier” (p. 220).
+
+>> Univariate and multivariate distance measures show that the Central America editorials are much closer to Joseph Smith than to John Taylor or Wilford Woodruff. Multiple analyses testing for extreme values show that the Central America editorials are not incompatible with the Joseph Smith Group of texts. Neville’s opinions are not supported by objective statistical analyses.
+
+“Someone Else Wrote Them”
+
+• Neville says, “In my layman’s opinion, Roper’s results suggest someone other than the three writers he tested actually wrote the 900 words” (p. 219).
+
+• He asserts that analyses by Roper and by Lund “assume” that the only possible authors are Joseph Smith, Wilford [Page 53] Woodruff, and John Taylor; he ignores the role of William Smith (p. 218).
+
+• He claims that Roper made a “simple mistake, … forgot about The Wasp, ” i.e., about The Wasp’s editor, William Smith (p. 220).
+
+>> Joseph Smith, John Taylor and Wilford Woodruff are the three candidates for whom the historical evidence is the strongest, since they were responsible for the paper and were known to be directly connected with the Times and Seasons production during this time. All other candidates are only circumstantially possibilities. The Extended Nearest Shrunken Centroid Method (ENSCM) open-set test found no evidence of a latent author, and thus no need to consider another candidate besides the historically justifiable Joseph Smith, John Taylor and Wilford Woodruff. Even so, when Benjamin Winchester and William Smith are included individually as possible candidates along with Joseph Smith, John Taylor and Wilford Woodruff, and when they are tested as part of the extended set of comparison authors, statistical tests show repeated that neither is a likely candidate.
+
+In fact, when we took each author from the extended set of authors (Table 4) and used discriminant analysis to compare his writings to those of Joseph Smith, John Taylor and Wilford Woodruff, for nine out of nine comparisons, the Central America editorials are closer in style to Joseph Smith than the comparison author, and the lowest probability of group membership for the editorials in the Joseph Smith Group is 99%. We did not forget anyone. No one else is a more likely candidate than Joseph Smith. There is no evidence that “someone else wrote them.”
+
+About Techniques
+
+• Neville says, “A writer’s use of function words can be unique enough to yield statistically significant results” (p. 217).
+
+• He claims that collocation habits and rare pairs can be distinguishing (p. 217).
+
+• He claims, “I decided to apply similar stylometric methodology” (p. 218).
+
+>> Though Neville recognizes the value of function words [Page 54] (noncontextual words), he does not use them in his analyses. We use them in our analyses. Further, an author’s word pattern habits can be distinguishing, yet Neville analyzed only a few collocation and word pairs, whereas we analyzed all the phrases from two-word to six-word sequences for the extended set of candidate authors in comparison to the Central American editorials. We looked for the author with the greatest number of phrases in common with the Central America editorials. As Figure 13 shows, Winchester was never the top choice. The closest he ever came was third place — at best a bronze medal but never a gold medal.
+
+Figure 13: Comparison Authors with More Two-word to Six-word Phrases in Common with the Central America Editorials than Winchester. Winchester always shares fewer phrases with the editorials than do other authors.
+
+Neville did not use valid and reliable stylometric techniques, so his claim of applying “similar stylometric methodology” is a gross misrepresentation.
+
+Average Sentence Length
+
+• Neville uses average sentence length (ASL) as an authorial style metric (pp. 217, 225).
+
+>> ASL is particularly weak and nondistinguishing as a measure of authorial style. It is an antiquated and amateurish metric. The following shows the deficiency of ASL as a stylometric measure:
+
+Splitting each of the comparison author’s composite texts into blocks that are roughly the size of the Central America editorials while maintaining whole sentences, the ASLs of [Page 55] the blocks are not consistent within an author, thus violating a crucial criterion of a useful stylistic measure. The ASL of the Central America editorials is 32. Figure 14 shows the range of ASLs of the comparison authors and of the ASL of the Central America editorials.
+
+Figure 14: Ranges of Average Sentence Length (ASL) of Expanded Set of Comparison Authors and the ASL of the Central America Editorials. The Central America editorials’ ASL is within the range of ASLs for all comparison authors except William Smith. Clearly, ASL is not a distinguishing measure.
+
+Winchester’s ASL is not distinguished from the other comparison authors’ ASLs. The range of ASLs for each comparison author overlaps Winchester’s ASL range. All the comparison authors’ ranges overlap each other. The ASL for the Central America editorials is within the range of all the comparison authors’ ASLs, except William Smith’s (who by Neville-logic would thus be disqualified as the author). ASL is obviously a weak and nondistinguishing measure.
+
+Skilled stylometricians abandoned using ASL a century ago. Neville should also.
+
+Unique Words
+
+• Neville discusses “unique” words or phrases he claims are “exclusive to one author” (pp. 222‒25).
+
+>> This is not a distinguishing metric, as we have shown with The Federalist Papers example.
+
+In addition, each of the candidate authors in the extended comparison group has so-called unique words compared to those of others. These range from 13% to 27% of their words, [Page 56] with Winchester having 17% “unique” words. Seven of the other authors have more of their unique words appearing in the Central America editorials than does Winchester. Using Neville’s unique-words approach would actually disqualify Winchester as the author of the unsigned editorials, since other authors are better choices based on so-called unique words. Even Neville himself has some of his unique words in common with the unsigned Central America editorials and, in fact, more “unique” words than Winchester. Using Neville-logic, this is evidence that he wrote the editorials. By his own method, Neville is a better choice for author of the editorials than Winchester.
+
+Similarities
+
+• Neville cites his Appendix II, where he annotated words in the Central America editorials and notes that Winchester also used these words (p. 218).
+
+• In particular, he focuses on three words: foregoing , credulous , and incontrovertible ; and points out that Winchester also used these words (pp. 221‒22).
+
+• He discusses phrases offered by Lund such as assist us to , cannot doubt , cuts , the eyes of all the people , and so forth. (p. 223).
+
+• He focuses on several more phrases and words: none can hinder , so much , surely and great joy (pp. 225-26).
+
+>> Neville bases much of his “analysis” on “cherry-picking” similar wording and uses them to imply equality of source (same authorship). His approach of searching for similarities is nothing more than snooping around in the data looking for confirmatory evidence.
+
+To see how absurd and misleading this can be, we applied his method to his own book and looked for similarities between Winchester and Neville. We found over fifty examples. Using Neville-logic, these similarities between Neville and Winchester would mean that Neville and Winchester are the same person, but such a conclusion is obviously absurd. To Neville, these similarities would be crucial “facts” that prove equality, but such reasoning is vacuous and intellectually dishonest.
+
+To further illustrate the fallacy of this method, consider the case of two identical twins. Many people have trouble telling them apart, since there are hundreds of similarities in their physical characteristics, and even in their personalities and behaviors. However, it takes only one feature to tell them apart — perhaps one’s nose is a little different than the other’s nose. Their myriad similarities do not make them the same person. We see, then, that it is necessary to focus on distinguishing characteristics rather than on similarities, or we risk being fooled.
+
+Neville alters the phrase great joy and then claims that since Winchester used the word joy a number of times, his writing is similar to the writing in the Central America editorials. Does such a similarity really identify him as the author of the editorials? How many other people use the word joy ? Millions! Did you use it recently? If so, by Neville’s way of thinking, maybe you wrote the Central America editorials. Nor are any of Neville’s other cherry-picked similarities informative about the authorship of the editorials.
+
+We put Neville’s “similarity words” to the test. The statistical technique of stepwise discriminant analysis examines the groups within a data set to determine the features within the data that are the most distinguishing (discriminating) among the groups. It picks the most distinguishing feature first and subsequent features in descending order of distinctiveness. Applying stepwise discriminant analysis to the expanded set [Page 58] of candidate authors, we found that only 14 of Neville’s words were even slightly distinguishing features among the authors. Therefore he is correct that his words show similarity, but his word list also shows that all the authors use those words similarly. This is depicted in Figure 15.
+
+Since Winchester’s range of word-use frequencies for Neville’s similarity words spans the range for those words in the Central American editorials, he is “similar,” but all the authors’ ranges overlap with the range in the editorials completely or mostly. So if Neville wants to conclude that Winchester wrote the Central America editorials based on his “similarity words,” he must also conclude that at least six of the other authors did so as well, and maybe even the other two. Using Neville’s “similarities” approach, we could pick any one of the nine authors and claim he was the author of the unsigned editorials. Winchester is not a materially better choice than any of the others. Incidentally, William Smith, whom Neville also suggests as the author of the Central America editorials, is the least likely choice, since he has least overlap of Neville’s similarities.
+
+Figure 15: Ranges of Word-Use Frequencies for Neville’s “Similarities” for the Expanded Set of Comparison Authors and for the Central America Editorials. Winchester’s range of word-use frequencies is “similar” to that in the Central America editorials, since his range spans that of the editorials, but that is true for six of the other authors as well.
+
+At best, similarities can only generate questions. In the case of Neville’s book, it would be “Could Winchester be the author of the Central America editorials?” Neville cannot validly [Page 59] assert that the supposed similarities he claims to have found answer this question.
+
+To quote Neville’s own words, “ Until now, these facts were never put together. The various threads … woven here were loose strands, unattached, unimportant, and unnoticed. Until now, they’ve been meaningless” (p. 118). Despite Neville’s claims, they are still meaningless.
+
+Other Specious Arguments
+
+• Neville implies that if an article is unsigned, the author “desired anonymity,” as if the real author had something to hide (p. 218).
+
+• He suggests that someone wanting anonymity could alter their style and include phrases borrowed from Joseph Smith to imitate the Prophet (p. 218).
+
+• To support his case, Neville cites an example of William Smith borrowing wording from Don Carlos Smith (pp. 218, 229).
+
+• Among his similarity arguments he asserts that “the proximity of these uses over less than a year suggests a connection between Winchester and these editorials” (p. 228).
+
+>> Hundreds of unsigned articles were published in this time period in myriads of periodicals. It is unjustifiable to conclude that all anonymous authors were trying to hide something. Rather, this was just simply part of common editorial practice in those days, as it is today. Should we conclude that all the unsigned editorials in Winchester’s own newspaper, Gospel Reflector, were not signed because Winchester was trying not to reveal his identity in his own publication and thus had something to hide? Why apply such a claim to unsigned Times and Seasons editorials?
+
+The possibility that William Smith may have borrowed phrases is irrelevant to the question of Winchester‘s authorship of the Central America editorials. There is nothing informative about one author employing in his writing useful phrases he or she may have found elsewhere. Further, Neville’s “proximity argument” is a spurious assertion. It is merely “guilt by association.” It is prima fascia obvious that many things can be in proximity and not be connected. Neville relies only on circumstantial evidence.
+
+Neville’s Basic Conclusions
+
+• He says, “In my view, the results of both analyses [by Roper and by Lund] contradict the conclusions of their authors” (p. 218).
+
+• He says, “Evidence suggests Winchester wrote these” (p. 227).
+
+>> Neville’s view is based only on his preconceived bias against the results of others’ research and his propensity to replace facts with his imagination. Neville’s stylometric assertions are ill-informed and baseless. None of Neville’s pseudo-stylometric statements are supported by the evidence from appropriate analyses. He finds confirmatory evidence because all he is looking for is confirmation of his theory. He seems to be in love with his theory; and, like a love-struck suitor, everything he sees confirms his ardor. The dispassionate, skeptical eyes of a historian, statistician and stylometrician look at numerous objective statistical tests and see no persuasive evidence that Winchester authored the unsigned Central America editorials. [Page 61]
+
+1 . Jonathan Neville, The Lost City of Zarahemla: From Iowa to Guatemala — and Back Again (New York: Let Me Read It.com, 2015). Page number references to Neville’s book throughout this article are for this edition.
+
+2 . The three editorials are “Extract from Stephens’ ‘Incidents of Travel in Central America,’” Times and Seasons 3/22 (15 September 1842): 914‒15. “’Facts Are Stubborn Things,’” Times and Seasons 3/22 (15 September 1842): 921‒22. “Zarahemla,” Times and Seasons 3/23 (1 October 1842): 927.
+
+3 . John Lloyd Stephens and Frederick Catherwood. Incidents of Travel in Central America, Chiapas, and Yucatan , 2 vols., Arthur Hall, Virtue [and] Company, 1854. Both volumes were reprinted in their entirety by Dover Publications in 1969.
+
+4 . Matthew Roper, “The Treason of the Geographers: Mythical Mesoamerican Conspiracy and the Book of Mormon,” Interpreter: A Journal of Mormon Scripture , 16 (2015): 161‒05.
+
+5 . Matthew Roper, “John Bernhisel’s Gift to a Prophet: Incidents of Travel in Central America and the Book of Mormon,” Interpreter: A Journal of Mormon Scripture , 16 (2015): 207‒253.
+
+6 . Matthew Roper, Paul J. Fields, and Atul Nepal. “Joseph Smith, The Times and Seasons , and Central American Ruins,” Journal of the Book of Mormon and Other Restoration Scripture 22/2 (2013): 84‒97.
+
+7 . All statistical analyses were performed using SAS/STAT® Software, JMP® Software, IBM SPSS Statistics®, R: A language and environment for statistical computing®, or Wordprint 4©.
+
+8 . Scott G. Kenney, “Wilford Woodruff’s Journal, 1833–1898, 9 vols,” Midvale, Utah: Signature Books 85/2 (1983): 19 February 1842, 2:155.
+
+9 . John Taylor, 31 December 1876, in JD 18:330. Emphasis added.
+
+10 . Kenneth W. Godfrey, “A Note on the Nauvoo Library and Literary Institute,” Brigham Young University Studies 14/3 (Spring 1974): 388.
+
+11 . For color versions of the figures in this article see the electronic version of the article on the Interpreter ’s website, https://journal.interpreterfoundation.org/ .
+
+12 . Alvin C. Rencher, Multivariate Statistical Inference and Application (Wiley Interscience, 1998), “”232, 239.
+
+13 . Michel Marie Deza and Elena Deza, Encyclopedia of Distances , ed. 3 (Heidelberg: Springer, 2014), 100.
+
+14 . Mary Natrella, NIST/SEMATECH e-Handbook of Statistical Methods , Section 1.3.3.14, http://www.itl.nist.gov/div898/handbook/ (accessed August 2015).
+
+15 . Karl Pearson, “Contributions to the Mathematical Theory of Evolution. II. Skew Variation In Homogeneous Material,” Philosophical Transactions of the Royal Society of London , A (1895): 343‒414.
+
+16 . NIST, section 1.3.3.7.
+
+17 . R. B., Dean, and W. J. Dixon, “Simplified Statistics for Small Numbers of Observations,” Analytical Chemistry 23/4 (1951): 636‒38. For the four other tests see: NIST Section 1.3.5.17. Also see: Bernard Rosner, “Percentage Points for a Generalized ESD Many-Outlier Procedure,” Technometrics 25/2 (1983): 165‒172.
+
+18 . Rencher, Multivariate, 22-23.
+
+19 . Kay I. Penny, “Appropriate Critical Values When Testing for a Single Multivariate Outlier by Using the Mahalanobis Distance,” Applied Statistics (1996): 73‒81.
+
+20 . Robert Tibshirani, Trevor Hastie, Balasubramanian Narasimhan, and Gilbert Chu, “Class Prediction by Nearest Shrunken Centroids, with Applications to DNA Microarrays,” Statistical Science 18/1 (2003):104‒17.
+
+21 . G. Bruce Schaalje, Paul J. Fields, Matthew Roper, and Gregory L. Snow, “Extended nearest shrunken centroid classification: a new method for open-set authorship attribution of texts of varying sizes,” Literary and Linguistic Computing 26/1 (2011): 71‒88.
+
+22 . G. Bruce Schaalje and Paul J. Fields, “Open-set nearest shrunken centroid classification,” Communications in Statistics-Theory and Methods 41/4 (2012): 638‒52.
+
+23 . Paul J. Fields, G. Bruce Schaalje, and Matthew Roper, “Examining a Misapplication of Nearest Shrunken Centroid Classification to Investigate Book of Mormon Authorship,” Mormon Studies Review 23/1 (2011): 87‒111.
+
+24 . Michael P. Oaks, Literary Detective Work on the Computer , Volume 12 of Natural Language Processing (Philadelphia, PA: John Benjamins Publishing Company, 2014), 197‒98.
+
+25 . Frederick Mosteller and David L. Wallace, “ Inference and Disputed Authorship The Federalist,” The David Hume Series Philosophy and Cognitive Science Reissues , CSLI Publications, 2007, 17.
+
+26 . Harold Love, Attributing Authorship: An Introduction (Cambridge: Cambridge University Press, 2002), 162.
+
+27 . One example from over ninety years ago is Harold H. Scudder, “Sentence length,” The English Journal 12/9 (1923): 617‒20. Published by: National Council of Teachers of English, Article DOI: 10.2307/802036, Stable URL: http://www.jstor.org/stable/802036 , Page Count: 4.
+
+28 . Patrick Juola, “Authorship attribution,” Foundations and Trends in information Retrieval 1/3 (2006): 240.
+
+29 . Mosteller, Inference and Disputed Authorship .
+
+30 . David I. Holmes, “The Evolution of Stylometry in Humanities Scholarship,” Literary and linguistic computing 13/3 (1998): 112, col. 2.
+
+31 . L. Maurer, Stylometry Using Adjacent Word Graphs , Leon Maurer, March 10, 2008, 1.
+
+32 . George J. Adams, A Few Plain Facts, Shewing the Folly, Wickedness, and Imposition of the Rev. Timothy R. Matthews … (Bedford: C. B. Merry, 1841); Adams, A Lecture on the Authenticity and Scriptural Character of the Book of Mormon (Boston: J. E. Farwell, 1844).
+
+33 . Joseph Smith Journal, 7 September, 1842, in Andrew Hedges, Alex D. Smith, and Richard Lloyd Anderson, eds., The Joseph Smith Papers. Journals Volume 2: December 1841‒April 1843 (Salt Lake City: Church Historian’s Press, 2011), 133, 137.
+
+34 . Joseph Smith Journal, 12 September 1842, in Hedges, The Joseph Smith Papers, Journals Volume 2, 151.
+
+35 . Joseph Smith Journal, 16, 17, 19–20 September 1842, in Hedges, The Joseph Smith Papers p. , 157.
+
+36 . Peter Amann, “Prophet in Zion: The Saga of George J. Adams,” New England Quarterly 37/4 (December 1964): 477‒500; Reed M. Holmes, The Forerunners (Independence, Missouri: Herald Publishing House, 1981).
+
+37 . John Quist, “John E. Page: An apostle of Uncertainty,” Journal of Mormon History 12 (1985): 53‒68.
+
+38 . Samuel Brown, “The Translator and the Ghostwriter: Joseph Smith and W. W. Phelps,” Journal of Mormon History 34/1 (Winter 2008): 26‒62.
+
+39 . Bruce Van Orden is currently preparing a bibliography of Phelps. We thank him for suggesting this possibility.
+
+40 . Breck England, The Life and Thought of Orson Pratt (University of Utah Press, 1985).
+
+41 . Terry L. Givens and Matthew J. Grow, Parley P. Pratt, The Apostle Paul of Mormonism (Oxford: Oxford University Press, 2011).
+
+42 . Kyle R. Walker, William Smith: In the Shadow of the Prophet (Draper: Kofford Books, 2015).
+
+43 . Andrew Jenson, Latter-day Saint Biographical Encyclopedia (Salt Lake City: Andrew Jenson History Company, 1901), 1103‒15.
+
+44 . Charles B. Thompson, Evidences in Proof of the Book Of Mormon (Batavia, New York: 1841).
+
+45 . Junia Braby, “Charles B. Thompson: Harbinger of Zion or Master of Humbuggery?” John Whitmer Historical Association Journal 23 (2003): 149‒64; Crawley, A Descriptive Bibliography of the Mormon Church. Volume One 1830‒1847 (Provo, Utah: Religious Studies Center, Brigham Young University, 1997): 178­–79; Christopher J. Blythe, “Sophisticated Dissent: Charles B. Thompson’s Inspired Enoch—A Case Study in Scriptural Rivalry and Narrative Theology in Nineteenth-Century Mormon Sects,” Restoration Studies 11 (2010): 12‒40; Junia Silsby Braby, “An Abode in the Wilderness: Charles B. Thompson’s Communal Society in Western Iowa,” John Whitmer Historical Association Journal 35/1 (Spring-Summer 2015): 84‒103.
+
+46 . David J. Whittaker, “East of Nauvoo: Benjamin Winchester and the early Mormon Church,” Journal of Mormon History 21/2 (Fall 1995), 31‒83; Stephen J. Fleming, “Discord in the City of Brotherly Love: The Story of Early Mormonism in Philadelphia,” Mormon Historical Studies 5/1 (Spring 2004), 3‒28.
+
+47 . Efstathios Stamatatos, “A Survey of Modern Authorship Attribution Methods,” Journal of the American Society for information Science and Technology 60/3 (2009): 552.
+
+48 . Shlomo Argamon, Moshe Koppel, Jonathan Fine, and Anat Rachel Shimoni, “Gender, genre, and writing style in formal written texts,” Text – Interdisciplinary Journal for the Study of Discourse 23/3 (2003): 321‒46.
+
+49 . Fazli Can and Jon M. Patton, “Change of Writing Style with Time,” Computers and the Humanities 38/1 (2004): 61‒82.
+
+50 . Fields, “Examining a Misapplication,” 104.
+
+51 . A list of all of the texts used in the analyses is available from the authors to interested researchers upon request.
+
+52 . John Burrows, “‘Delta’: A Measure of Stylistic Difference and a Guide to Likely Authorship,” Literary and Linguistic Computing 17/3 (2002): 267‒87.
+
+53 . John Houvardas and Efstathios Stamatatos, “N-Gram Feature Selection for Authorship Identification,” Artificial Intelligence: Methodology, Systems, and Applications (Springer-Verlag Berlin Heidelberg, 2006), 77‒86.
+
+54 . Elsa Pic and Grégory Furmaniak, “A study of epistemic modality in academic and popularised discourse: The case of possibility adverbs perhaps, maybe and possibly,” Revista de Lenguas para Fines Específicos 18 (2015): 13‒44.
+
+55 . Pic, “A study of epistemic modality,” 41.
+
+56 . Benjamin L. McGuire, “Finding Parallels: Some Cautions and Criticisms, Part One,” Interpreter: A Journal of Mormon Scripture , 5 (2013): 1‒59. Benjamin L. McGuire, “Finding Parallels: Some Cautions and Criticisms, Part Two,” Interpreter: A Journal of Mormon Scripture , 5 (2013): 61‒104.
+
+57 . John L. Hilton, “On Verifying Wordprint Studies: Book of Mormon Authorship,” Brigham Young University Studies (1990): 91.
+
+---
+Notes
+
+[1] In The Lost City of Zarahemla from Iowa to Guatemala — and Back Again , novelist Jonathan Neville tries to discredit what he calls the “limited Mesoamerican geography” of Book of Mormon events. 1 To do so he argues that Benjamin Winchester — an early Mormon missionary, writer and eventual apostate — was the anonymous author of three unsigned editorials published in the Times and Seasons on correspondences between the discoveries in Central America by Stephens [Page 14] and Catherwood and the Book of Mormon. 2 3 The three editorials were published during Joseph Smith’s editorship of the Times and Seasons from March to November of 1842.
+
+[2] This paper is the third in a series of three articles that address Neville’s assertions. In the first article Matthew Roper showed that what Neville characterized as the “limited Mesoamerican geography” of the Book of Mormon was actually the traditional hemispheric view, which assumed that North and South America were the lands described in the Book of Mormon and that Central America was the “narrow neck of land” referred to in the account. 4 Winchester’s writings merely reflected that commonly held perspective, which was never challenged during Joseph Smith’s lifetime. Neville claims that Winchester and possibly a co-conspirator had to conceal their identities in order to get their ideas published. But, since the idea that the “narrow neck of land” was in Central America was a widely held view, Mormons did not think of it as controversial, and the motive for a secret publication scheme evaporates. Winchester’s writings did not present anything especially new or controversial; thus there was no need for subterfuge and conspiracy to publish them.
+
+[3] In the second article Roper discussed the influence of Stephens and Catherwood’s work Incidents of Travel in Central America on early [Page 15] Latter-day Saint readers, including Joseph Smith. 5 The Prophet embraced with interest and enthusiasm the book’s description of Central American history and ancient ruins, and asserted they corresponded with and supported the Book of Mormon account.
+
+[4] In this third article we apply statistical and stylometric analyses to examine whether Winchester is a likely author of the three unsigned Central America editorials. We first summarize the results of our previous paper — “Joseph Smith, The Times and Seasons , and Central American Ruins” — regarding the Central America editorials, since Neville used that article to form the foundational premise for his book. 6 We show that his premise is invalid, and therefore the entire argument put forth in his book is baseless. However, going further to address the specific assertions in his book, we explain “stylometry,” discuss Neville’s pseudo-stylometry, and present the results of appropriate stylometric analyses. 7 Our results show consistently that Winchester is not a viable candidate author of the Central America editorials, and there is no evidence that he is a better candidate than Joseph Smith.
+
+[5] On February 19, 1842, after Joseph Smith had taken control of the Times and Seasons , Wilford Woodruff wrote in his journal, “Joseph the Seer is now the Editor of that paper & Elder Taylor assists him in writing while it has fallen to my lot to take charge of the Business part of the establishment.” 8 In a later recollection, John Taylor provided some insight into what it was like writing for the Prophet and then having him critique and correct what John Taylor had written. The subject on one occasion had to do with priesthood keys, the judgment, and the Ancient of Days.
+
+[6] In speaking with the Prophet Joseph once on this subject, he traced it from the first down to the last, until he got to the Ancient of Days. He wished me to write something for him on this subject , but I found it a very difficult thing to do. He had to correct me several times . We are told that the “judgment shall sit and the books be opened.” He spoke of the various dispensations and of those holding the keys thereof, and said there would then be a general giving up or accounting for. I wrote that each one holding the keys of the several dispensations would deliver them up to his predecessor, from one to another, until the whole kingdom should be delivered up to the Father, and then God would be “all in all.” Said he, “That is not right.” I wrote it again, and again he said it was not right . It is very difficult to find language suitable to convey the meaning of spiritual things. The idea was that they should deliver up or give an account of their administrations, in their several dispensations, but that they would all retain their several positions and Priesthood. The Bible and Doctrine and Covenants speak about certain books which should be opened; and another book would be opened, called the Book of Life, and out of the things written in these books would men be judged at the last day. 9
+
+[7] The Prophet also placed Incidents of Travel in Central America, Chiapas, and Yucatan in the Nauvoo Library and Literary Institute — a strange decision if he disapproved of the use of the books by John Taylor, Wilford Woodruff, and others. 10
+
+[8] Figure 1: Discriminant Analysis Plot from “Joseph Smith, the Times and Seasons , and Central American Ruins.” 11 The Joseph Smith holographic texts, editorials signed “Joseph Smith,” editorials signed “Ed.” during his editorship, and the unsigned editorials during his editorship cluster together as a group and are obviously separate from the John Taylor and Wilford Woodruff texts. The editorials on the topic of Central America cluster closest to the Joseph Smith Group.
+
+[9] We applied the statistical technique of discriminant analysis to identify how the texts group together based on the word-use frequencies in each text and then determined the probable group membership of the texts of unknown authorship. 12 We showed (see Figure 1) that the Joseph Smith Group of texts cluster together, and they are distinct from the John Taylor texts and the Wilford Woodruff texts. The Central America editorials composited together are closest to the Joseph Smith Group of texts and obviously closer to those texts than to the John Taylor or Wilford Woodruff texts. Thus we concluded that the writing style in the Central American editorials is closest to the writing style of Joseph Smith, and consequently that Joseph Smith is the most likely author of the Central America editorials of the three historically justifiable candidate authors.
+
+[10] Graphical Tests: His “eyeball method” is a simplistic approximation of applying a Euclidean distance measure like the distance-between-two-points calculation taught in high school algebra. 13 Figure 2 shows a histogram plot (frequency plot) of the Euclidean distances of each text in the Joseph Smith Group from the centroid of the group. 14 Along with these we have included the distances to typical points from the John Taylor and Wilford Woodruff groups to show what true “outliers” would look like on the plot. The points for John Taylor and Wilford Woodruff are extreme values, but not the Central America point. In fact, there is another text in the Joseph Smith Group even farther away than the Central America editorials. [Page 21]
+
+[11] A data point exactly at the centroid of the Joseph Smith Group would have a Euclidean distance of zero (0.00). The first bar on the left in the plot shows five points with Euclidean distances between 0.00 and 0.50. The distances are deviations from the centroid and thus positive with no direction indicated. The next bar shows twelve points with distances between 0.50 and 1.00. An extreme value is one that is inconsistent with the rest of the data points in a set of data. For a point to be an extreme value in the plot, it would be to the right of the other Joseph Smith Group points, as indicated by a gap between it and the other group points. There is no such gap for the Central America editorials, which have a distance of 3.83, but there is an obvious gap in the distance to the typical John Taylor and Wilford Woodruff points, 6.08 and 6.10 respectively, showing what true extreme values look like. The histogram plot shows that the Central America editorials are within the distribution of the other points in the Joseph Smith Group and do not exhibit characteristics of an extreme value. 15
+
+[12] [Page 22] A “box plot” is another standard statistical representation of a set of data. 16 The box plot shown in Figure 3 further illustrates that the Central America editorials are not an extreme value of the Joseph Smith Group.
+
+[13] Univariate Tests: There are numerous objective statistical tests for extreme values in a set of data: Dixon’s Q Test, Grubb’s Test, Iglewicz and Hoaglin Test, Rosner’s Generalized Extreme Studentized Deviate [Page 23] (GESD) Test, and Tietjen-Moore Test. 17 To further test Neville’s eyeball method, we applied each of these statistical tests to the two-dimensional distance data in Figure 1. Table 1 shows the results.
+
+[14] The most commonly used test for extreme values within a high-dimensional multivariate data set is to test the Mahalanobis distance. 18 For a Mahalanobis distance to be considered an extreme value, the random sampling chance of observing that distance is generally required to be less than one in a thousand (probability < 0.001). 19 Using the data from our previous article, this test shows that the Central America editorials are not extreme values in comparison to all the other texts in the Joseph Smith Group. The results are shown in Table 2.
+
+[15] Open-Set Test: Is There Evidence of a Latent Candidate Author?A statistical technique that can be applied directly to Neville’s claim of someone other than Joseph Smith, John Taylor or Wilford Woodruff [Page 25] authoring the three unsigned Central America editorials is the Extended Nearest Shrunken Centroid Method (ENSCM). ENSCM is an extension of a sophisticated technique developed for high-dimensional classification problems in genomics research and DNA microarray analysis that we and others have used in authorship attribution, including our studies of the Book of Mormon. 20 21 22 23 24
+
+[16] Noncontextual function words are used by all authors, but not in the same way or with the same frequencies. Therefore, different usage frequencies for noncontextual words are useful in characterizing an author’s subconscious word “fingerprint,” sometimes referred to as his or her wordprint . Consequently, the use of noncontextual words is a standard approach in the field of stylometry. Although the specific noncontextual words that are distinguishing among authors vary from [Page 30] study to study, their effectiveness in measuring writing style is well established. 25
+
+[17] Noted authorship attribution historian Harold Love says, “Anyone wishing to conduct serious research in attribution studies cannot do so today without a good general understanding of the nature and basic techniques of statistical reasoning.” 26 Neville, lacking such an understanding, presents the unwary reader with several pseudo-stylometric analyses which he claims provide evidence in support of his Winchester-authorship theory. The main ones he uses are average sentence length measured as average number of words per sentence, words unique to one author compared to those of other candidate authors, and “cherry-picked” word-pattern similarities. All these methods are amateurish, nondistinguishing techniques. We examine Neville’s use of these in detail and show their deficiencies.
+
+[18] ASL was first used to attribute possible authorship over one hundred years ago. 27 It is an archaic method that has been shown to be unreliable and nondistinguishing. A specialist in disputed authorship of documents, Patrick Joula, says, “Many other statistics have been proposed and largely discarded, including average sentence length.” 28 Naïvely using ASL can lead to faulty conclusions and self-deception.
+
+[19] To show the deficiency of ASL to distinguish between authors we use The Federalist Papers , commonly used for testing the usefulness of authorship-attribution methods. 29 Well-known stylometrician David I. Holmes says, “ The Federalist problem has been used … as stylometry’s ‘testing ground’ for new techniques.” 30
+
+[20] Words “Unique” to an Author: Neville focuses on an author’s “unique” words, i.e., words which he claims one candidate author uses but which the other candidate authors do not use. Such words are sometimes referred to as “marker” words. However, stylometrician Leon Maurer notes, “It turns out that rare words do not provide as reliable a ‘fingerprint’ because, while it is easy to work in certain words now and then, it is hard to change personal modes of common word use.” 31
+
+[21] George J Adams. George J. Adams was an actor who joined the Church in New York in early 1840. His flamboyance and skills as an orator were often used in defense of the Church in the Eastern States, and England, and reports of his debates with opponents were often printed in the Times and Seasons and the Millennial Star . He published several pamphlets in defense of the Mormons. 32 Adams visited Nauvoo in September 1842. On September 7 the Prophet’s journal records:
+
+[22] Early this morning Elder Adams and brother Rogers from New York visited president Joseph and brought several letters from some of the brethren in that region. … In the P.M. brother Adams & Rogers came to visit him again. They conversed upon the present persecution &c president Joseph in the discourse to brothers Adams and Rogers shewed the many great interpositions of the Almighty in his behalf not only during the present trouble, but more especially during the persecution in Missouri &c. The remarks droped on this occasion was truly encouraging and calculated to increase the confidence of those present. 33
+
+[23] [Page 36] The two men again visited the Prophet five days later on September 12: “At home all day in company with brothers [George J.] Adams & [David] Rogers, and councilling brother Adams to write a letter to the Governor.” 34 The Prophet sat to have his portrait painted by Rogers at his home on September 16, 17, 19 and 20. 35 Following his excommunication in 1845, Adams followed the leadership of James Strang, organized his own church in 1861, and led an ill-fated attempt to settle in the Holy Land in 1866. 36
+
+[24] John E. Page. John E. Page, baptized in 1833 and ordained an apostle in 1838, received a call to accompany Orson Hyde on a mission to Holy Land, but was unable to fulfill the assignment. He actively labored as a missionary in the Eastern United States from 1840 until 1844, after which he rejected the leadership of Brigham Young and the Twelve and became associated with several rival factions. Page visited Nauvoo for a conference in April 1842, but then returned to Pittsburgh, where he resided until June 1843. While there he published a short-lived newspaper, the Gospel Light, and two pamphlets in refutation of the Spalding theory. 37
+
+[25] W. W. Phelps. W. W. Phelps had joined the Church in 1831 and been the editor of the Church’s first newspaper, the Evening and Morning Star , published in Independence, Missouri, from 1832 to 1834. Phelps had written several brief editorials discussing assorted reports of antiquities, including an article describing a ruined city in Central America. He left the Church during the troubles in Missouri in 1838 but returned and was rebaptized in Nauvoo during 1840. In 1843 he was considered, but passed over, for editor of the Nauvoo Neighbor , but there is evidence that Joseph Smith made use of him as a ghost writer for some material attributed to the Prophet during 1843 and 1844. 38 It is conceivable that [Page 37] he may have contributed to or authored some of the articles published during Joseph Smith’s tenure as editor. 39
+
+[26] Orson Pratt. Orson Pratt, also an early convert to the Church, was baptized in 1830 and became a well-known missionary and writer. Like his older brother and fellow apostle Parley, Orson labored in Great Britain from 1839 to 1841, after which he returned to Nauvoo with other members of his quorum. In May 1842, he was out of harmony with Joseph Smith and the Twelve over the issues relating to plural marriage. He returned to full fellowship in early 1843. 40
+
+[27] Parley P. Pratt. Parley P. Pratt joined the Church in 1830 after reading and gaining a testimony of the Book of Mormon. His pamphlet A Voice of Warning was widely read; and an 1839 expanded revision cited several reports of antiquities from North and Central America which supported the Book of Mormon. He participated in the apostolic mission to Great Britain and from 1840 until 1842 was editor of the Latter-day Saints’ Millennial Star . Pratt returned to Nauvoo in early 1843. 41
+
+[28] William Smith. William Smith, the younger brother of Joseph Smith, was one of the earliest converts to the Church. In 1835 he was ordained an apostle and continued to serve in that office until the Prophet was killed in 1844. William’s relationship with Joseph and fellow apostles from 1835 to 1844 was sometimes contentious. In April 1842 he became editor of The Wasp in Nauvoo. In August he was elected a representative to the Illinois State Legislature, but continued to edit The Wasp until early December, after which he was replaced by John Taylor. Following the martyrdom, he became Church Patriarch, but in later 1845 he broke with the Twelve and was excommunicated; later he became associated with several religious factions. 42
+
+[29] Erastus Snow. Erastus Snow was baptized in 1833. In the spring of 1840, at the suggestion of the Prophet he moved to Pennsylvania, where he served as a missionary in Philadelphia, New York, New Jersey, and [Page 38] Rhode Island. In September 1840 he returned briefly to Nauvoo to escort his wife back to Pennsylvania, where he returned the following month. In August 1841 he moved to Salem Massachusetts, where he labored until 1843. He briefly visited Philadelphia in April 1842, after which he returned to Salem, where he remained until his return to Nauvoo in March 1843. He would later serve as an apostle from 1849 until his death in 1888. 43
+
+[30] Charles B. Thompson. Charles B. Thompson joined the Church in 1835. After the Saints were expelled from Missouri, Thompson moved to New York. In 1841 he published his book Evidences in Proof of the Book of Mormon in Batavia, New York, and extracts from it were published in the Times and Seasons that same year. 44 He moved to Macedonia in Hancock County Illinois in the summer 1843. After the death of Joseph Smith he formed a Church of his own and led a somewhat colorful career. 45
+
+[31] Benjamin Winchester. Benjamin Winchester, who joined the Church in 1833, participated in Zion’s Camp in 1834. He published a newspaper, the Gospel Reflector , in Philadelphia from January 1841 to June 1841. From 1840 to 1843 he also published several books and pamphlets. Winchester was an industrious writer and missionary, but became a contentious figure during his time in Philadelphia from 1841 to 1843. He returned to Nauvoo in October 1841, where he was reproved by Church leaders for his conduct and counseled to do better. He briefly assisted as an editor of the Times and Seasons from November until January 1841, when the Twelve, at Joseph Smith’s direction, purchased the paper from Ebenezer Robinson. Winchester then returned to Philadelphia, where he continued to cause problems in the local branch. In June 1842 he again visited Nauvoo for a brief period, then returned again to Philadelphia until October of that year. [Page 39] He continued to cause difficulties in the Eastern branches of the Church until he was excommunicated from the Church in 1844. 46
+
+[32] How We Selected Texts Specific to the Style of the Central America Editorials: Efstathios Stamatatos, a specialist in textual analysis, says, “Any good evaluation corpus for authorship attribution should be controlled for genre and topic. … In addition, all the texts per author should be written in the same period to avoid style changes over time.” 47 To be able to distinguish clearly between authors, we focused on constructing a study with texts from the comparison group of authors that meet these three specifying criteria: (1) genre matched, (2) topic matched, and (3) time period matched to the unsigned Central America editorials.
+
+[33] Genre Matched: Since the Central America articles in question are editorials, for genre matching we selected only published works of an editorial or expository nature. This criterion is crucial because it is recognized that an author’s writing style can change with genre. 48 By focusing the text selection on the editorial or expository genre we did not include items such as personal letters, journal entries, or news items. If these other genres are included in the analysis set they can dilute the accurate characterization of the authors and confuse the results. Neville’s discussions refer to using a large corpus of articles and other writings — an apparent potpourri of genres; thus he subjects his conclusions to a multitude of potential confounding errors.
+
+[34] Time-Period Matched: The Central America editorials were published in 1842. For time-period matching we restricted the selected texts to those written from 1837 to 1852. Thus we excluded texts written in the 1880s, for example. This criterion is crucial because an author’s writing style can evolve over time. 49 For example Sidney Rigdon’s writing style changed in his later years from his early years in the Church. 50 Again, if too large a timeframe is included in an analysis, an author’s style in a relevant period can be diluted, and this can lead to inconsistent results. In his analyses, Neville includes references to texts from later time periods, which is methodologically unwise.
+
+[35] Twenty-one texts comprising over 114,000 words from the expanded set of authors were found to match these three important specifying criteria. 51 Note that we were careful to consider all the Winchester texts [Page 42] mentioned by Neville in his Appendices II and III. Most are off topic. Those that are on topic were included in the analyses.
+
+[36] [Page 46] Robust Results: Many studies rely on only one approach to analyze the styles of authors. But in order to not be fooled by the results of only a single approach, we incorporated an array of analysis techniques to confirm that the results are consistent and reliable. When viewing the data from these various angles we can see a more robust picture of the real situation. With the word-use proportions for the selected words for each author, we performed the following analyses: Burrow’s Delta Method, Discriminant Analysis, Fisher’s Combined Probability Test, n-Gram Matching, and Principal Components Analysis. 52 , 53
+
+[37] Neville’s speculative language indicates the nonresearch nature of his work, since speculative language is used more frequently in popular articles than in research articles. 54 Two linguists who have studied speculative language and its functions, Elsa Pic and Grégory Furmaniak, state, “If such hypotheses [speculations] were too numerous in research articles, they would be severely received, as readers of [research articles] are peers who do not accept unsupported conjectures and do not expect to be treated as less knowledgeable.” 55
+
+[38] [Page 57] Although we can find similarities between two things or people, similarity does not establish sameness or equality. Neville commits the fallacy of equating Winchester with the author of the Central America editorials because of “similarities” he thinks he sees. It is always possible to find any number of superfluous similarities between two things, if we are determined enough, but similarity does not establish equality. 56
+
+[39] Winchester himself, in the Gospel Reflector , borrows many phrases from others, as Roper has shown in the first article of this series. This is one of the reasons contextual words are not reliable as distinguishing markers of authorship. Stylometric researcher John Hilton stated, “Our wordprinting technique has shown that most highly skilled authors (e.g., Twain, [Page 60] Johnson, Heinlein, etc.), when intentionally trying to imitate the writings of different persons, are unable to successfully change their own free-flow non-contextual word patterns enough to simulate a different wordprint.” 57
+

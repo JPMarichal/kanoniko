@@ -1,0 +1,702 @@
+## Preliminary remarks
+
+
+## Introduction
+
+It’s important and helpful to bear in mind that the original BofM language is, generally speaking, only nonstandard from our standpoint, centuries after the Elizabethan era, which appears to be the epicenter of the book’s syntax. To be clear, I still allow for a small portion of the language of the BofM to be the result of human error, on the part of Smith and scribe, what Skousen calls dialectal overlay . But many words and phrases initially found in the text, which we have thought to be American dialectal idiosyncrasies, are not. Many of the nonstandard ModE word forms and phrases emended through the years are simply examples of typical EModE. (Please note that I do not call these examples cases of standard EModE, since it’s doubtful that there was a standard at that stage of the English language — see below.)
+
+The impetus for most of the edits that the BofM has suffered through the decades has been to “clean up” the language and make it more closely conform to a ModE standard. It’s perhaps ironic that through the years emendations have removed language that clearly points to the objective impossibility of Joseph Smith being able to either compose the book or put it into his own language. It has obscured our ability to see that it is, in large part, an EModE text.
+
+
+## The notion of nonstandard in relation to Early Modern English
+
+The KJV seemingly has less variation, but that is due in part to the KJV translation committees consciously working to reduce it, and also the result of standardization over time since its initial publication in 1611. Take, for example, thou saidest / saidst . There is one of each in the (Earliest Text of the) BofM: Alma 11:25 and Helaman 11:14. In contrast, there are 21 instances of saidst in the KJV Old Testament, but no variant forms. So is the KJV a purer, better text than the BofM? Is the BofM faulty or defective in this regard? We can answer this question with a decisive no.
+
+> in them days [Helaman 13:37] ( in them days 2×: Helaman 7:8) I had smote [1 Nephi 4:19] ( had smote 3×: Alma 20:30; Ether 15:31) [Page 217] they was yet wroth [1 Nephi 4:4] ( they was 5×: Mosiah 18:17; 29:36; Alma 9:31; 9:32)
+
+
+## Demonstrative them
+
+> 1596 H. Clapham Bible Hist. 92 To Samaria and them partes . 1598 Barret Theor. Warres i. i. 4 The warres and weapons are now altered from them dayes . 1621 Ainsworth Annot. Pentat. Gen. xviii. 6 Foure of them Logs make a Kab.
+
+[Page 218] The 1598 quotation shows the use of them dayes , just as we see twice in the BofM.
+
+
+## Levelled past-participial verb forms
+
+As a result, we are justified in thinking that smote is the correctly translated word.
+
+Again, this paper focuses on exceptional word forms, and this is the case here as well. Past-participial smitten is used 42 times in the BofM; only 6 times is the levelled form smote used [Page 220] (12.5%). Still, Shakespeare goes along with the exceptional BofM usage; there is no occurrence of smitten in his large body of work. There is one case of have smote , another of have smit , but no cases of have/be+ smitten (small caps is often used here and elsewhere in order to indicate any relevant form of a verb).
+
+Shakespeare’s smit is a clipped past-participial form akin to hid up , which is found 10 times in the BofM, including twice in the title page. Here is an interesting 17th-c. usage found in the OED:
+
+> a 1652 J. Smith Sel. Disc. vi. 200 That so his sublime and recondite doctrine might be the better hid up therein .
+
+
+## Past-tense number agreement levelling
+
+> Some of our chief commanders , as Col. Sands and Duglas, was wounded, and are since both dead (1642) | That in the evening from a steeple wch hath advantage for itt, was [discerned] 300 vessels . They are merchantmen in generall (1652)
+
+> For as I said unto you from the beginning, that I had much desire that ye was not in the state of dilemma like your brethren, even so I have found that my desires have been gratified. For I perceive that ye are in the paths of righteousness. Alma 7:18–19
+
+The correspondence between EModE some was / are and BofM ye was / are is clear.
+
+
+## Existential verb use in the past tense
+
+> [1 Nephi 18:25] there was beasts in the forests of every kind [Alma 4:9] there was envyings and strifes [Mormon 9:19] if there was miracles wrought [Ether 13:26] there was robbers
+
+Worth mentioning here are the three places in the BofM where instead of there was + plural noun we surprisingly find the reverse situation — that is, there were + singular noun . These are all of the form there were no followed by a singular noun:
+
+> … and they were in one body. Therefore there were no chance for the robbers to plunder and to obtain food save it were to come up in open battle against the Nephites. 3 Nephi 4:4 [Page 225] Nevertheless … it did pierce them that did hear to the center, insomuch that there were no part of their frame that it did not cause to quake 3 Nephi 11:3 peace did remain for the space of about four years, that there were no bloodshed Mormon 1:12
+
+Is this bad BofM grammar? The KJV doesn’t have any cases of this curious syntax, and these readings have all been changed subsequently to there was no . ATV 6: 3589–90 discusses these examples, noting that there was no is used in the text in this context at least 36 times. And there was no was also commonly used in the 16th century. Yet a search for the plural construction in EModE does turn up a number of examples:
+
+> 1523 Cromwell in Merriman Life & Lett. (1902) I. 30 Whereoff there were no dowte but that ryght haboundant stremys shuld from his most liberall magnyfysence be dereuyed… 1548 Hall Chron., Edw. V 9 Put the case that we neither loued her nor her kynne, yet there were no cause why [etc.]. 1594 Blundevil Exerc . v. (1636) 592 There were no way..to be compared vnto it, neither for the truenesse, easinesse, nor readinesse of working thereby. 1681 Otway Soldier’s Fort. v. (1687) 61 … I and my Watch going my morning Rounds, and finding your door open, made bold to enter to see there were no danger.
+
+In short, these OED quotations have: there were no doubt / cause / way / danger . This subjunctive construction was therefore optionally available for use in the EModE period to express the unreality of the situation described (an old example of what is commonly termed the irrealis mood). Consequently, not only do we find that this particular BofM syntax — there were no chance / part / bloodshed — is not bad grammar, but from an [Page 226] examination of the syntactic structure in EModE we obtain additional confirmation that the BofM is a well-formed EModE text.
+
+
+## Notional concord and the principle of proximity
+
+> [Page 228] 1508 Fisher Wks. (1876) 279 The assautes of deth was fyers and sharpe. 1593 Rites & Mon. Church of Durham (Surtees) 79 All the pippes of it was of Sylver to be sleaven on a long speare staffe.
+
+
+## Past-tense second-person singular inflection
+
+> thou hast great cause to rejoice … thou hast been faithful in keeping the commandments of God from the time which thou received thy first message from him Alma 8:15
+
+This indicates that thou received could well be a case of EModE syntax, not a failed attempt at archaic usage or an inadvertent human error.
+
+> Behold, these six onties — which are of great worth — I will give unto thee — when thou had it in thy heart to retain them from me. [Page 230] Alma 11:25
+
+The OED has eight examples of uninflected thou had from the 15th to the 17th centuries, and Alma 11:25 fits right in with these quotations. Here’s one EModE example:
+
+One other past-tense, 2sg verb form without inflection is relevant to this discussion. However, unlike the previous two, thou beheld (1 Nephi 14:23) has never been changed by a BofM editor to beheldest . This is a rare verb form in the textual record, but we see the same usage in a late ME quotation:
+
+
+## The effect of word order on subject–verb agreement
+
+> Remember thou the covenants of the Father unto the house of Israel? 1 Nephi 14:8
+
+Again, this example is the outlier. There are 26 cases of present-tense yes-no question syntax in the BofM with 2sg verb forms, and all of them, with the exception of 1 Nephi 14:8, adopt marked forms with 2sg inflection: believest (17), knowest (6), seest (1), deniest (1). So the tendency to use 2sg inflection is very strong, but the rare variation here can still be explained by the positional effect. As is commonly seen in many languages (including English during its various stages of historical development), lack of verb agreement with postverbal subjects is more frequent than it is when the word order is canonical (see, for example,England 1976: 816–18, discussing some Old Spanish examples). Here are two examples of nonagreement, one from the Old English period, and another from the EModE period:
+
+To be clear, what is being put forward here for consideration is not that Old English directly influenced the BofM text. Rather, I am trying to show that the tendency towards this kind of nonagreement was present in English at an early stage of the language. And that tendency — found in many languages over time — carried through to EModE, which is the language of the text.
+
+Next we take a brief look at did thou in the following passage:
+
+> [Page 233] For thus did thou manifest thyself unto thy disciples; for after that they had faith and did speak in thy name, thou didst shew thyself unto them in great power Ether 12:31
+
+EModE past-tense levelling of 2sg inflection is possible in Ether 12:31 (OED thou did = 8×). But it is less likely because of no instances of * thou did in the text and the use of thou didst later in the verse. The positional effect is a more likely explanation — that is, because the verb did preceded its (overt 2sg) subject, the analogical force pushing the use of did — a very high frequency, unmarked verb form — trumped the force of subject–verb agreement.
+
+Another similar example is the following:
+
+> so great was i [ the blessings of the Lord ] i upon us 1 Nephi 17:2
+
+Roughly 20% of the time there is no plural agreement in the BofM when the agreement controller follows the past-tense verb be. That agreement rate is very similar to the rate calculated for there was with plural noun phrase subjects, as noted above, and the syntax is effectively like it. In both these cases there may also be an effect from the formally singular element — there or great — which precedes the verb, but we don’t need to stretch that far in order to explain the variation; the positional effect is sufficient to explain it. Again, more typical syntax in the BofM is the following:
+
+> great were j [ the groanings of the people ] j because of the darkness 3 Nephi 8:23
+
+[Page 234]
+
+
+## Third-person plural subjects used with archaic third-person singular inflection
+
+Another curiosity of the BofM in the domain of subject–verb agreement is that third-person plural subjects are often found with archaic third-person singular inflection: Nephi’s brethren rebell eth , they dieth / yieldeth / sleepeth , flames ascendeth , hearts delighteth , Gentiles knoweth, men / many hath , etc. This syntax is not found in the KJV, as noted in ATV 1: 48. So is this usage ungrammatical? No, it’s characteristic of EModE. The OED has about 60 examples of they (and thei ) followed directly by verbs ending in eth :
+
+> 1526 Pilgr. Perf. (W. de W. 1531) 174 b, They consumeth superfluously & spendeth in waste, in one daye, the goodes that wolde suffyse & serve for theyr necessite many dayes.
+
+And there are clear quotations, such as the following ones with noun phrase subjects, that are part of the EModE textual record:
+
+
+## Has/hath variation
+
+
+## Faith on the Lord and if it so be
+
+> by faith on his name wee may haue life Johann Gerhard, The conquest of temptations (1614) and when all faile, renew thy faith on his Name Thomas Godwin, A child of light walking in darknessse (1636) They are altogether sufficient for that, inasmuch as Faith on the Lord Jesus Christ , and obedience to his Commandments … The Racovian Catechism (1652) he makes them to see their sins, and bewail them, and raise them by renewing and strengthening faith on the Lord Jesus Christ Obadiah Sedgwich, The bowels of tender mercy sealed in the everlasting covenant (1661)
+
+The emphatic hypothetical if it so be (that) is used 41 times in the BofM (almost always with that ); it isn’t found in the KJV. In the biblical text if so be is used almost 20 times (half the time with that ),and the verbal phrase if it be so / if it were so (which is more like ModE syntax) is found three times, never with that . In view of this, is if it so be an error on the part of the BofM? No, on the contrary, the hypothetical phrase if it so be (that) is well-attested in the OED (8×), the last time in 1534. Quotations include two by these famous authors:
+
+> [Page 237] c 1386 Chaucer 2nd Nun’s T. 258 If it so be thou wolt with-outen slouthe Bileue aright. 1534 More Comf. agst. Trib. ii. Wks. 1200/2 If it so be [that] a man..perceiueth that in welth & authoritie he doth his own soule harme…
+
+The structure found in the BofM constitutes evidence of the independence of the book’s language vis-à-vis the KJV and testifies to the historical depth of its syntax.
+
+
+## Dative impersonal constructions
+
+> 1390 Gower Conf . II. 128 Bot al to lytel him supposeth , Thogh he mihte al the world pourchace.
+
+There is also this example taken from Early English Books Online (EEBO):
+
+> 1482 Caxton polychronicon me supposeth that they toke that vyce of kynge Hardekunt
+
+The next impersonal construction it sorroweth me is also attested in the EModE record (see, for example, the EEBO and OED quotations below), and it whispereth me is exemplified [Page 238] with many similar quotations from EModE and ModE (see, for example, the OED quotes below):
+
+> It sorroweth me to thinke of the Ministers of England Adam Hill, The crie of England (1595) 1574 Hellowes Gueuara’s Fam. Ep. (1577) 189 The ague that held you, sorroweth me . 1637 Heywood Royall King ii. iv, It sorrows me that you misprize my love. 1605 Shakes . Macb . iv. iii. 210 Giue sorrow words; the griefe that do’s not speake, Whispers the o’re-fraught heart , and bids it breake. 1640 S. Harding Sicily & Naples iii. i. 33 This day ( There’s something whispers to me ) will prove fatall. 1713 Addison Cato ii. i, Something whispers me All is not right.
+
+The presence of these impersonal verb phrases in the BofM is an indication of the historical range of the book’s language.
+
+
+## The analogical past participle arriven and auxiliary selection
+
+> c 1435 Torr. Portugal Fragm. 1 In a forest she is aryven . c 1450 Lovelich Grail xliv. 113 To morwen schole ȝe hem alle se To londe aryven … [Tomorrow [Page 239] shall ye them all see to land arriven ] ‘Tomorrow you will see them all arrived to land’.
+
+
+## The more part of the people
+
+The phrase fell out of use at the beginning of the ModE period.
+
+
+## Nominative absolute syntax
+
+> The people having loved Nephi exceedingly — he having been a great protector for them, having [Page 242] wielded the sword of Laban in their defence, and having labored in all his days for their welfare — wherefore the people were desirous to retain in remembrance his name Jacob 1:10–11
+
+The clarity of the syntax is heightened in the BofM because almost always (1) an overt subject precedes the present participle ( I Nephi having been born , the people having loved Nephi ), (2) a logical, adverbial connector ( therefore / wherefore ) is used between the clauses, and (3) even if the subject of the main clause is the same as the one in the nominative absolute clause, it is repeated following the logical connector ( therefore I was taught , wherefore the people were desirous ). The book’s nominative absolute syntax is distinctive, emphatic, and more closely aligned to what is found in EModE and the early ModE period than the KJV’s usage; and it is notably plainer in use. Here is a biblical example taken from the OED, also showing the way the BofM might have expressed it:
+
+> 1611 Bible John iv. 6 Now Iacobs Well was there. Iesus therefore [ Tindale then], being wearied with his iourney, sate thus on the Well.
+
+BofM style : Jesus being wearied with his journey, therefore he sat thus on the well.
+
+Here are two more examples from the KJV which demonstrate the relative clarity of BofM nominative absolute style because of the overt initial subject and the use of therefore at the clausal junction:
+
+> Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear. Acts 2:33 [Page 243] BofM style : He being … exalted, and having received … the promise of the Holy Ghost, therefore he hath shed forth this, which ye now see and hear. Therefore being justified by faith, we have peace with God through our Lord Jesus Christ: Romans 5:1 BofM style : We being justified by faith, therefore we have peace .…
+
+
+## The verb beseech used with the personal preposition of
+
+The KJV and the BofM differ in the following way in their use of the archaic verb beseech :
+
+Is this use of beseech defective syntax on the part of the BofM, a bad imitation of the KJV? No. The use of the personal preposition is old syntax found in both the late ME period and EModE (see OED [ beseech , v . †2c]; the entry also indicates several variant dialectal forms, as are seen in the quotations below):
+
+> a 1400 Morte Arth. 305 [He] of hyme besekys To ansuere þe alyenes wyth austerene wordes. 1563 Mirr. Mag. Induct. xliv. 7 And to be yong againe of Joue [he would] beseke .
+
+This use of of before the person who is besought may seem like a minor, inconsequential difference, yet the OED clearly distinguishes between these constructions — see [ beseech , [Page 244] v . †2c & 3c] — and declares the one used in the BofM to be obsolete. Furthermore, the usage in the texts is distinct and consistent. The most rigorous statistical test for this pattern of usage gives the odds that this difference in the texts occurred by chance at five in one million (Fisher’s exact test).
+
+
+## Auxiliary usage following beseech
+
+What about the use of should in the clause that follows besought in the following BofM passage (also see Moroni 7:19)? This specific usage is absent in the KJV:
+
+> Now when [Korihor] had said this, he besought that Alma should pray unto God that the curse might be taken from him. Alma 30:54
+
+In the KJV only would (cf.Alma 15:5) or might is used after besought (15× in the New Testament). And when present-tense beseech is used, then only will and may are used, never shall . This KJV auxiliary usage is consonant with the semantics of the verb: ‘supplicate, beg earnestly’. The auxiliary will / would in particular, with its notion of voluntary action, is a good semantic fit for the clause following and syntactically linked to beseech because the meaning of the full verb directly implies that notion. On the other hand, when the auxiliary should is used with beseech , the use is somewhat anomalous since there is a combination of some degree of compulsion or command (see OED [ will , v . 1 46]) and supplication (from beseech ).
+
+Nevertheless, usage of should following beseech is found in 14th  and 15th c. quotations in the OED and also in a 16th-c. example from EEBO. The important thing to notice in these quotations is the co-occurrence of besought and should , in boldface (a rough translation for the first two excerpts is given below):
+
+The 1390 poetic passage appears to say that the clergy besought God so they wouldn’t foolishly squander ( scholden noght befole ) their intellect on earthly matters, and so they’d be able to avoid ( myhten fle ) the corruption of Simon Magus (Acts 8:18–24). (Interestingly, both should and might are used in the same syntactic sequence after besought ; both these auxiliaries are also used immediately after besought in Alma 30:54 — one in the same way [ should ], the other in a related purposive clause [ might ].) In the 1390 quotation the clergy themselves wanted God to compel them to engage in worthy study ( should ), and also evinced a desire to have the ability to avoid corruption ( might ). In the 1450 excerpt a queen knelt before her lord and besought him to compel others to similarly show deference to a steward.
+
+[Page 246] As a result of these findings, we learn that the use of should with beseech in the BofM reflects a well-formed early structure found in both late ME and in EModE. And we also learn that Korihor made a forceful plea to Alma (even perhaps one of a commanding nature); otherwise the auxiliary would would have been used (as used in Alma 15:5 with Zeezrom). The use of should with besought , like the use of beseech of , reveals the depth of BofM language.
+
+
+## Grammatical mood after the hypothetical if
+
+> if he have subj. more abundantly, he should impart more abundantly Mosiah 18:27 But if he repenteth indic. not, he shall not be numbered among my people, that he may not destroy my people. 3 Nephi 18:31
+
+The following example indicates compactly free variation in grammatical mood in two verses, one chapter apart (the source language derives from the Old Testament):
+
+> as a young lion among the flocks of sheep who, if he goeth / go through, both treadeth down and teareth [Page 247] in pieces, and none can deliver. 3 Nephi 20:16 = goeth ; 3 Nephi 21:12 = Go [cf. Micah 5:8 ]
+
+But this kind of variation is not found in the current state of the KJV; because of the aforementioned emendation there is now no mixture of use. As a result, when conjoined verb phrases follow if , the KJV uniformly uses the subjunctive or the indicative. Consistent patterns of use are also found in Shakespeare and the BofM:
+
+> Consistent subjunctive use For what is a man advantaged, if he gain the whole world, and lose himself, or be cast away? Luke 9:25 yea, if thou repent of all thy sins and will bow down before God Alma 22:16 [Page 248] If he be credulous, and trust my tale, I’ll make him glad to seem Vincentio Taming of the Shrew iv. ii. 67–68 Consistent indicative use Yea, if thou criest after knowledge, and liftest up thy voice for understanding Proverbs 2:3 for if he listeth to obey him and remaineth and dieth in his sins, the same drinketh damnation to his own soul Mosiah 2:33 If thou but think’st him wrong’d, and mak’st his ear A stranger to thy thoughts. Othello, the Moor of Venice iii. iii. 143
+
+
+## Variation in grammatical mood and conjunct effects
+
+When there is variable mood after if in the BofM, the pattern of use is always the following: [subjunctive & indicative], never *[indicative & subjunctive]. Here are the three verses that show this pattern and one from Shakespeare (bracketed [ø ø] as used below indicates ellipted “if he / it”):
+
+> And if he confess his sins before thee and me and [ø ø] repenteth in the sincerity of his heart, him shall ye forgive; and I will forgive him also. Mosiah 26:29 For as the Lord liveth, if a prophet come among you and [øø] declareth unto you the word of the Lord, which testifieth of your sins and iniquities, ye are [Page 249] angry with him and cast him out and seek all manner of ways to destroy him. Helaman 13:26 But if it be not built upon my gospel and [ø ø] is built upon the works of men or upon the works of the devil, verily I say unto you: They have joy in their works for a season; and by and by the end cometh, and they are hewn down and cast into the fire from whence there is no return. 3 Nephi 27:11 He must before the deputy, sir, he has given him warning. The deputy cannot abide a whoremaster. If he be a whoremonger, and [ø ø] come s before him, he were as good go a mile on his errand. Measure for Measure iii. ii. 35–37
+
+In short, these are the verb forms showing variation in grammatical mood after if found in the BofM, Shakespeare, and the KJV:
+
+> 1829 Book of Mormon: if confess & repenteth | if come & declareth | if be & is 1603 Shakespeare: if be & comes 1611 King James Bible: if do & if doest
+
+In summary, if calls for the subjunctive, analogy calls for the indicative. In the first verb, closely following the hypothetical, if overcomes analogy and controls the shape of the verb. In the second verb, far from the overt hypothetical, analogy outweighs if (in ellipsis) and controls the shape of the verb. That being the case, while it isn’t surprising for both conjuncts to show only subjunctive marking or to show only indicative use (as we’ve seen above), it would be anomalous if the following were found in the text:
+
+* if + indicative & ellipsis + subjunctive
+
+This of course doesn’t occur in the text and the unreality of that fact is indicated in the following expressions by an asterisk:
+
+> * if he confess eth <indic.> his sins … and [øø] repent <subj.> in the sincerity of his heart * if [he] com eth <indic.> among you and [øø] declare <subj.> unto you the word of the Lord
+
+[Page 251]
+
+
+## Another example with variable marking
+
+These verses are similar to Alma 39:3, which also has subject ellipsis and variable marking, in this case on the past-tense auxiliary did (see the discussion in ATV 4: 2388–89):
+
+> for thou did st forsake the ministry and [ø] did go over into the land of Siron
+
+> *for thou did forsake the ministry and [ø] did st go over into the land of Siron
+
+
+## A counterexample to levelled forms under ellipsis?
+
+Here is a verse that appears at first glance to qualify as a counterexample to the foregoing since an indicative verb form is followed by a subjunctive one (see ATV 3: 2044–46; the discussion here has a limited, different approach):
+
+> But Aaron saith unto him: If thou desirest this thing, if thou will bow down before God — yea, if thou repent of all thy sins and [ø ø] will bow down before God and call on his name in faith, believing that ye shall receive — then shalt thou receive the hope which thou desirest. Alma 22:16
+
+To begin with, this isn’t a counterexample to Mosiah 26:29 and Helaman 13:26 since there’s no ellipsis of if thou before the first occurrence of will bow down . So the two uses of if can convey different hypothetical force. In this doctrinally powerful [Page 253] verse there is one instance of the indicative after if at the outset, and then three cases of the subjunctive — will , repent , will . And there is only ellipsis of if thou — indicated by [ø ø] — with the final subjunctive use of will (like Skousen, I take underlined bow and call to be parallel infinitives ).
+
+
+## Much horses or many horses?
+
+> much afflictions / fruits / threatenings / horses / contentions / provisions
+
+Is this a reflection of nonstandard U.S. dialectal use? No, usage in the 16th and 17th centuries definitively says otherwise.
+
+Helaman 3:3 nicely illustrates free variation in use (taken to be an intended part of the divine translation):
+
+> there were much contention s and many dissension s
+
+
+## The periphrastic past and an obsolete use of the relative adjective which
+
+Next we consider this late 16th-c. quotation taken from the OED:
+
+> 1588 Parke tr. Mendoza’s Hist. China 190 Many of the Gentlemen of the cittie did go vnto the Spaniards to visite them.. in the which visitation they spent all the whole day.
+
+Third, the emphatic, pleonastic phraseology all…whole occurs here and once in the BofM in Mosiah 2:21 — all your whole soul .
+
+To be plain, some analogous forms are found in the KJV; it has similar relative-adjective prepositional phrases: by the which will (Hebrews 10:10), and for the which cause (2 Timothy 1:12). And as has been mentioned, it also has didst eat (Ezekiel 16:13; Acts 11:3), etc. But the KJV didn’t use these analogous forms frequently (the relative adjective after a preposition) or anywhere near as often as the BofM (the periphrastic past), and it didn’t ever use in the which with a noun, or did(st) go , when it had ample opportunity to do so. And so the BofM exhibits significant usage of 16th-c. forms like these which are well-attested in that time period but barely present in the KJV. As a result, the syntax of the BofM is appropriately and even sophisticatedly creative beyond what is readily apparent in the biblical text.
+
+
+## [Page 258] By the way of Gentile
+
+Finally, one item in the title page is worth mentioning here. The phrase by the way of Gentile is an obsolete use of both way and Gentile . The use of way in this phrase is noted in the OED but only one 16th-c. example is provided:
+
+> way , n . †32h = Through the medium of (a person). Obs . 1560 Sir N. Throgmorton in Wright Q. Eliz. (1838) I. 49 The 29th of October last, I wrote to you from Paris by the waye of Monsieur de Chantonet.
+
+By the way of is frequent in the KJV but it is used exclusively in locative expressions and is not used with persons. (What seems like a use with a person in Numbers 21:1 is actually a covert locative use.) So by the way of used with a person with the meaning of ‘through the medium of ’ is non-KJV EModE, and perhaps rare, if the scarcity of examples in the OED is any indication. Also, singular-in-form Gentile is an adjective used absolutely as a collective noun; the OED demonstrates the obsolete use with one late ME quotation:
+
+> c 1400 Apol. Loll. 6 Constreyning þe gentil to be com Jewes in obseruaunce.
+
+
+## Summary
+
+This article has reviewed many forms and much syntax that are not found in the KJV but which are found in the broader EModE textual record. Because what we know to be standard EModE (for a religious book in particular) largely comes from our acquaintance with KJV language, readily identifiable discrepancies on the part of the BofM from KJV modes of expression have been viewed as nonstandard, even ungrammatical. And from the perspective of ModE the Earliest Text of the BofM certainly often reads that way. But because much of its language is independent of the KJV, even reaching back in time to the transition period from late ME into EModE, it needs to be compared broadly to those earlier stages of English. And we have seen in this paper that the BofM has many syntactic structures that are typical and well-formed when compared to those of earlier periods of English. The correspondences are plentiful and plain.
+
+Therefore, in view of the totality of the evidence adduced here, I would assert that it is no longer possible to argue that the Earliest Text of the BofM is defective and substandard in its grammar. And that follows in large part because we would [Page 259] then have to call EModE defective and substandard, since so much of what we see in the book is like that stage of the English language. And it was a human language like any other, fraught with variation and exhibiting diverse forms of expression. My hope is that this article has managed to disabuse us of the idea that the BofM is full of “errors of grammar and diction” and appreciate the text for what it is: a richly embroidered linguistic work that demonstrates natural language variation appropriately and whose forms and patterns of use are strikingly like those found in the EModE period. There is now clear and convincing evidence that the BofM is, in large part, an independent, structurally sound EModE text.
+
+The bulk of the foregoing textual usage was beyond the reach of Joseph Smith (and also his scribes, who put the BofM text in writing). Because of the way language use works, even written texts naturally resist conscious manipulation. That is because we express conscious thought by a largely subconscious act of drawing on an internal grammar built up over time by experience, analogy, and inference. Yet in the case of the BofM, even if the composition of the book had been consciously manipulated by Smith and his associates in order to create a structurally and lexically plausible work of scripture based on the Bible they knew, the evidence is abundantly clear that the language is broader in scope and in many cases deeper in time than what might possibly have been derived from the KJV. Its grammar shows that it is markedly different in a number of ways. So the text itself presents solid evidence of its non-KJV origins since it clearly draws on a wide array of other language forms and syntax from the EModE period, some of them obscure and inaccessible to virtually everyone 200 years ago. Only now are we beginning to appreciate the book’s surprising linguistic depth and breadth.
+
+[Page 260]
+
+
+## References
+
+Barber, Charles Laurence. Early Modern English . Edinburgh: Edinburgh UP, 1997.
+
+Claridge, Claudia and Merja Kytö. “Non-standard language and earlier English.” Varieties of English in Writing . Ed. Raymond Hickey. Amsterdam: Benjamins, 2010. 15–41.
+
+DeVoto, Bernard. “The Centennial of Mormonism.” The American M ercury 19.73 (1930): 1–13.
+
+Early English Books Online . <eebo.chadwyck.com>. Chadwyck-Healey.
+
+England, John. “ ‘Dixo Rachel e Vidas’: Subject–Verb Agreement in Old Spanish.” Modern Language Review 71 (1976): 812–26.
+
+Hickey, Raymond. “Linguistic evaluation of earlier texts.” Varieties of English in Writing . Ed. Raymond Hickey. Amsterdam: Benjamins, 2010. 1–14.
+
+Howe, E. D. Mormonism Unvailed . Painesville, OH: E. D. Howe, 1834.
+
+McFadden, Thomas and Artemis Alexiadou. “Counterfactuals and be in the History of English.” Proceedings of the 24th West Coast Conference on Formal Linguistics . Ed. John Alderete et al. Somerville, MA: Cascadilla Proceedings Project, 2005. 272–80. <www.lingref.com>, document #1232.
+
+Morgan, Jerry. “Some Problems of Agreement in English and Albanian.” Proceedings of the Tenth Annual Meeting of the Berkeley Linguistics Society . Berkeley: Berkeley Linguistics Society, 1984. 233–47.
+
+Nevalainen, Terttu. “Vernacular universals? The case of plural was in Early Modern English.” Types of Variation: Diachronic, dialectal and typological interfaces . Ed. Terttu Nevalainen et al. Amsterdam: Benjamins, 2006. 351–369.
+
+[Page 261] Pietsch, Lukas. “ ‘Some do and some doesn’t’ ”: Verbal concord variation in the north of the Brit­ish Isles.” A comparative grammar of English dialects: Agreement, gender, relat­ive clauses. Ed. Bernd Kortmann et al. Berlin: Mouton de Gruyter, 2005. 125–210.
+
+Quirk, Randolph, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik. A Comprehensive Grammar of the English Language . London: Longman, 1985.
+
+Roberts, B. H. “Translation of the Book of Mormon.” Improvement Era 9.6 (1906) 425–36.
+
+Skousen, Royal. “The Original Language of the Book of Mormon: Upstate New York Dialect, King James English, or Hebrew?” Journal of Book of M ormo n Studies 3.1 (1994): 28–38.
+
+Skousen, Royal. “How Joseph Smith Translated the Book of Mormon: Evidence from the Original Manuscript.” Journal of Book of M ormo n Studies 7.1 (1998): 22–31.
+
+Skousen, Royal. Analysis of Textual Variants of the Book of M ormo n . 6 parts. Vol. 4 of t he Critical Text of the Book of Mormon . Provo, UT: FARMS and BYU, 2004–09.
+
+Skousen, Royal, ed. The Book of M ormo n: The Earliest Text . New Haven, CT: Yale UP, 2009.
+
+Skousen, Royal. “The Original Text of the Book of Mormon and its Publication by Yale University Press.” Interpreter: A Journal of M ormon Scripture 7 (2013): 57–96.
+
+Spencer, E. B. T. “Notes on the Book of Mormon.” The Methodist Review . Ed. William V. Kelley. Vol. 87 — 5th series, Vol. 21. New York: Eaton & Mains, 1905. 31–43.
+
+The Oxford English Dictionary . 2nd ed. on CD-ROM, v.4. Oxford: Oxford UP, 2009.
+
+Twain, Mark. Roughing It . Hartford, CT: American, 1872. [Page 262]
+
+1. Royal Skousen, ed., The Book of Mormon: The Earliest Text (New Haven, CT: Yale UP, 2009).
+
+2. Royal Skousen, “How Joseph Smith Translated the Book of Mormon: Evidence from the Original Manuscript,” Journal of Book of Mormon Studies 7.1 (1998): 24ff.
+
+3. Royal Skousen, Analysis of Textual Variants of the Book of Mormon , 6 Parts, (Provo, UT: FARMS and BYU, 2004–09). These will be referenced within the text by part and page, for example ATV 6: 3589–90.
+
+4. Skousen, The Book of Mormon: The Earliest Text .
+
+5. The Oxford English Dictionary , 2nd ed., on CD-ROM, v.4 (Oxford: Oxford UP, 2009).
+
+6. See, e.g., E. D. Howe, Mormonism Unvailed (Painesville, OH: E. D. Howe, 1834), 23–24; Mark Twain, Roughing It (Hartford, CT: American, 1872), 127–28, 135; and Bernard DeVoto, “The Centennial of Mormonism.” The American Mercury 19.73 (1930: 5); and compare E. B. T. Spencer “Note on the Book of Mormon.” The Methodist Review. Ed. William V. Kelley. Vol. 87 — 5th series, Vol. 21. New York: Eaton & Mains, (1905: 33–38), who made many specific criticisms that clearly reveal, however, a lack of knowledge of Early Modern English.
+
+7. See Royal Skousen, “The Original Language of the Book of Mormon: Upstate New York Dialect, King James English, or Hebrew?” Journal of Book Mormon Studies 3.1 (1994): 33.
+
+8. B. H. Roberts, “Translation of the Book of Mormon.” Improvement Era 9.6 (1906), 428–29.
+
+9. See also Skousen, “How Joseph Smith Translated the Book of Mormon: Evidence from the Original Manuscript,” 28.
+
+10. For example, striped changed to stripped (Alma 11:2) in 1840 — see Royal Skousen, Analysis of Textual Variants of the Book of Mormon: Part 3 (Provo, UT: FARMS and BYU, 2007), 1802–04.
+
+11. See Royal Skousen, “The Original Text of the Book of Mormon and its Publication by Yale University Press,” Interpreter: A Journal of M ormon Scripture 7 (2013): 81. Yet when considered together, the hundreds of faulty emendations do add up to something. So it behooves us, going forward, to use throughout the Church a version of the BofM that is closer to the one God initially provided for us. I advocate using Skousen’s 2009 Yale edition as a base text for such an endeavor. With the textual analysis capabilities of our present era, we can now make consistent substantive edits and in a limited way standardize the Earliest Text, noting such changes. In addition, valuable notes and glosses could be provided in order to point out to readers EModE meanings and syntax as well as conjectural emendations.
+
+12. Skousen has pointed this out (see, Skousen, “The Original Language of the Book of Mormon: Upstate New York Dialect, King James English, or Hebrew?” 29–30 [with some KJV examples]; 2009: xxxvii–xxxix; 2013: 90–93).
+
+13. Skousen, “The Original Language of the Book of Mormon: Upstate New York Dialect, King James English, or Hebrew?” 31–32. See also Skousen, “How Joseph Smith Translated the Book of Mormon,” 31.
+
+14. Raymond Hickey, “Linguistic evaluation of earlier texts,” Varieties of English in Writing , Raymond Hickey, ed. (Amsterdam: Benjamins, 2010), 1.
+
+15. Claudia Claridge and Merja Kytö, “Non-standard language and earlier English,” Varieties of English in Writing , Raymond Hickey, ed., (Amsterdam: Benjamins, 2010), 15.
+
+16. Skousen has standardized the spelling as if Smith had had one scribe throughout the translation who consistently had first-rate spelling knowledge and ability. Thus he controlled what are called the accidentals , but not the substantives .
+
+17. Here are some EModE examples from the OED showing riches clearly used in the singular:
+
+1535 Stewart Cron. Scot. I. 449 Ȝour riches thus is waistit and euill waird. 1590 Lodge Euphues Gold. Leg. B 4 b, Riches (Saladyne) is a great royalty, & there is no sweeter phisick than store. 1604 Shakes . Oth . iii. iii. 173 But Riches finelesse is as poore as Winter, To him that euer feares he shall be poore. 1606 B. Barnes Offices i. 2 It [ sc . riches ] is the bone of that strong arme, by which the kingdome is in time of peace strengthened against all hostile attempts. 1607 J. Carpenter Spir. Plough 209 All that copie or riches .. is nought else but extreame povertie. 1667 Waterhouse Fire London 30 This riches ..was as well devoured by the Suburbian thieves.
+
+18. Skousen, “The Original Language of the Book of Mormon: Upstate New York Dialect, King James English, or Hebrew?” 30.
+
+19. The possible intrusion of dialectal forms is an example of what Skousen’s tight control view of BofM translation might have allowed: as Joseph Smith dictated the text to his scribe, with a resulting human error in seeing, reading, hearing, or writing (see Skousen, “How Joseph Smith Translated the Book of Mormon,” 24).
+
+20. Hickey, “Linguistic evaluation of earlier texts,” 5.
+
+21. The relevant dictionary entry is [ them , pers. pron. 5]. The OED provides two early nominative uses as well (such uses are absent in the BofM):
+
+1607 Topsell Four-f. Beasts (1658) 126 Them few [ dogs ] which be kept must be tyed up in the day time. 1610 Healey Vives’ Comment St. Aug. Citie of God xii. xvi, Augustine… saith that them times were called eternall.
+
+22. Claridge and Kytö, “Non-standard language and earlier English,” 30.
+
+23. Here are two examples of in those days taken from the OED:
+
+1571 Golding Calvin on Ps. xlix. 5 It was a customable matter in those dayes to sing Psalmes to the harp. 1611 Bible 2 Kings x. 32 In those dayes the Lord began to cut Israel short [ margin , Hebr. to cut off the ends].
+
+24. Spencer, “Notes on the Book of Mormon,” 35, pointed out this usage as an error of the BofM (Alma 51:20). He was thus unknowingly criticizing the writing of an English clergyman and theologian who wrote around the same time that the KJV was written.
+
+25. There are at least six other OED quotations with smote used as a verbal past participle, from the 16th c. to the 19th c., plus one early one with smot :
+
+1590 Spenser F.Q. iii. ii. 46 Till thou in open field adowne be smot . 1624 Quarles Job Militant iii. 43 Which [wind] with a full-mouth Blast Hath smote the House. a 1716 South serm . (1744) X. 192 Being smote upon the face, they expostulated the injury of the blow. 1768–74 Tucker Lt. Nat. (1834) II. 523 Turning the right cheek to him that has smote the left. 1777 Warton Poems 76 But since, *gay-thron’d in fiery chariot sheen, Summer has smote each daisy-dappled dale. 1813 T. Busby Lucretius II. vi. 676 Eruptive winds, what cities have they smote ! 1818 Byron Mazeppa xviii, Once so near me he alit, I could have smote .
+
+26. 1872 ‘Mark Twain’ Roughing It xvi. 128 “Hid up” is good. And so is “wherefore” — though why “wherefore”? Any other word would have answered as well — though in truth it would not have sounded so Scriptural. 1884 ‘Mark Twain’ Huck. Finn xxiv. 241 It’s reckoned he left three or four thousand in cash hid up som’ers.
+
+27. Here are a few OED quotations showing had spoke / had spake :
+
+c 1400 Three Kings Cologne (1886) 56 Whan þey had spoke togedir and euerych of hem had tolde his purpos and þe cause of his weye. c 1500 Three Kings’ Sons 61 That he had spake to hym. 1602 Shakes . Ham. iii. ii. 4, I had as liue the Town-Cryer had spoke my Lines. 1612 Drayton Poly-olb. xvi. 311 To much beloued Lee, this scarcely Sturt had spoke . 1699 Garth Dispens . i. 11 More had He spoke but sudden Vapours rise, And with their silken Cords tye down his Eyes. a 1716 South Serm. VIII. vii. (R.), Just as if Cicero had spoke commendatories of Anthony. 1725 tr. Dupin’s Eccl. Hist. 17th C. v. I. 184 He begs Aleander to send him the figur’d Inscription of the Sicles, of which he had spoke to him. a 1774 Goldsm . tr. Scarron’s Com. Romance (1775) I. 63 When she had spoke these last words. 1814 Scott Ld. of Isles iii. ii, When that grey Monk His prophet-speech had spoke .
+
+28. We note further that Henry Fielding used had spoke five times in the 18th c., Sir Walter Scott used it four times in the early 19th c., but the early 19th-c. American author J. Fenimore Cooper never did in his extensive writings (4.5m words). This also points to had spake and had smote as not deriving from an American source.
+
+The OED contains this 17th-c. quotation:
+
+1694 Echard Plautus 53 If I had got Pacolet’s Horse, I cou’dn’t ha’ came sooner.
+
+This is an example of a phenomenon that persists to this day: modal perfect use increases the likelihood that a levelled past-participial verb form will be used. For many English speakers he must have fell sounds acceptable, while he has fell does not.
+
+29. Terttu Nevalainen, “Vernacular universals? The case of plural was in Early Modern English,” Types of Variation: Diachronic, dialectal and typological interfaces . Terttu Nevalainen et al., ed. (Amsterdam: Benjamins, 2006), 362–63. The OED has only two 17th c. examples of they was out of about 1,500 examples of they were (0.13% nonstandard):
+
+1675 – 7 G. Fox Jrnl. (1911) I. 267 About this time [sc. 1656] I was moved to sett uppe ye mens Quarterly meetinges throughout ye nation though in ye north they was setled before. 1694 T. Houghton Royal Instit. Ded. A 3 Which Veyns and Mines, if they was ..Set to Work, by any that understands them, would..prove as Rich.
+
+30. c 1450 Henryson Mor. Fab. 19 You was our drowrie and our dayes darling. a 1529 Skelton Poems agst. Garnesche 46 In dud frese ye was schryned With better frese lynyd.
+
+31. Nevalainen, “Vernacular universals?” 360.
+
+32. Nevalainen, “Vernacular universals?” 358.
+
+33. The second example is not as strong since the subject comes after the past-tense verb and there may be a positional effect; also, there isn’t ellipsis, as there is in the first excerpt. Still, we note the contrastive use of singular past-tense was and plural present-tense are with the same referent.
+
+34. See also Jerry Morgan, “Some Problems of Agreement in English and Albanian.” Proceedings of the Tenth Annual Meeting of the Berkely Linguistics Society (Berkely: Berkely Linguistics Society, 1984), 235. Shakespeare has: There was three fools fell out about an howlet ( Two Noble Kinsmen iii. v. 67); There is reasons and causes for it (Merry Wives of Windsor iii i. 48), etc.
+
+35. Some of the counts are difficult; I am not making an effort to be exact here, only close.
+
+36. Others include: [1 Nephi 18:15] the judgments of God was upon them; [Mosiah 27:8] the sons of Mosiah was numbered among the unbelievers; [Alma 25:9] the words of Abinadi was brought to pass; [Ether 12:1] the days of Ether was in the days of Coriantumr; [3 Nephi 7:6] the regulations of the government was destroyed.
+
+These contrast with: [Jarom 1:5] the laws of the land were exceeding strict; [Mosiah 18:34] Alma and the people of the Lord were apprised of the coming of the king’s army; [Mosiah 19:2] the forces of the king were small; [ Alma 14:27 ] the walls of the prison were rent in twain; [Alma 17:2] these sons of Mosiah were with Alma at the time the angel first appeared unto him; [Alma 17:15] the promises of the Lord were extended unto them on the conditions of repentance; [Alma 17:27] as Ammon and the servants of the king were driving forth their flocks to this place of water; [Alma 46:29] the people of Moroni were more numerous than the Amalickiahites; [Alma 48:25] the promises of the Lord were if they should keep his commandments, they should prosper in the land; [Alma 50:22] those who were faithful in keeping the commandments of the Lord were delivered at all times; [Alma 52:28] the men of Lehi were fresh; [Alma 52:39] their weapons of war were taken from them; [Alma 62:24] the armies of Moroni were within the walls; [Helaman 5:27] they that were in the prison were Lamanites and Nephites which were dissenters; [Helaman 8:21] the sons of Zedekiah were not slain; [3 Nephi 26:17] as many as were baptized in the name of Jesus were filled with the Holy Ghost; [3 Nephi 26:21] they which were baptized in the name of Jesus were called the church of Christ; [3 Nephi 27:1] as the disciples of Jesus were journeying and were preaching; [Ether 13:31] the people upon all the face of the land were a shedding blood; [Ether 15:6] the people of Coriantumr were stirred up to anger; [Ether 15:6] the people of Shiz were stirred up to anger; [Ether 15:13] the people which were for Coriantumr were gathered together to the army of Coriantumr; [Ether 15:13] the people which were for Shiz were gathered together to the army of Shiz.
+
+37. Randolph Quirk, Sidney Greenbaum, Geoffrey Leech, and Jan Svartvik, A Comprehensive Grammar of the English Language (London: Longman, 1985), 757 (§10.35). Quirk et al. also call this phenomenon “attraction” in their descriptive, comprehensive treatise on English grammar.
+
+38. Quirk et al., A Comprehensive Grammar of the English Language , 757.
+
+39. Compare 1 Nephi 2:5; 5:11; 15:3; etc. See Terttu Nevalainen, “Vernacular universals? The case of plural was in Early Modrn English.” Types of Variation: Diachronic, dialectal, and typological interfaces. Ed. Terttu Nevalainen et al (Amsterdam: Benjamins, 2006), 364.
+
+40. Nevalainen, “Vernacular universals?” 362.
+
+41. Skousen, Analysis of Textual Variants of the Book of Mormon: Part 3 , 1740–41, notes that the change to receivèdst came in 1920.
+
+42. There are two instances of 2sg ha st immediately preceding thou received . It seems that their use in that passage could have analogically led to the use of st in received , but it did not.
+
+43. Here are some further examples from the OED:
+
+1402 in Pol. Poems (Rolls) II. 45 A! for-writhen serpent, thi wyles ben aspied, with a thousand wrynkels thou vexed many soules. 1430–40 Lydg . Bochas viii. i. (1558) 3 b, Thou died in preson at mischefe like a wretch. 1507 Communyc . (W. de W.) A iij, Thou purposed the daye by daye To set my people in synnynge. c 1510 Barclay Mirr. Gd. Manners (1570) D iij, Reputing in his thought By suche maner giftes thee greatly to content, Because thou resembled as poore and indigent. 1526 Pilgr. Perf. (W. de W. 1531) 262 All the compassyons & mercyes that thou shewed to the people. ~ 262 b, That vnspekable mercy that thou shewed in theyr vocacyon or callynge. ~ 20 b, I am the soule of hym that thou watched the last nyght. 1562 Foxe A. & M. I. 456/2 For so thou behited us sometime. 1577–87 Holinshed Scot. Chron. (1805) II. 51 Though thou seemed as enemie..ȝit we found mair humanities and plaisures than damage by thy cumming. c 1600 Shakes . Sonn. i, But thou contracted to thine owne bright eyes. a 1625 A. Garden Theat. Scot. Kings (Abbotsf. Club.) 14 Thou forced for to fald Such as deboir’d from thy Obedience darre. 1638 Diary of Ld. Warriston (S.H.S.) 295 Thou prayed earnestly for the Lords direction..about..the hol busines to be trusted to the staits~men. a 1656 Sir Cawline xxi. in Child Ballads II. 59/1 For because thou minged not Christ before, The lesse me dreadeth thee. 1720 Welton Suffer. Son of God I. viii. 202 Thou Deigned to Come down..to dwell with Me in this Exile-World.
+
+44. See Skousen, Analysis of Textual Variants of the Book of Mormon: Part 3 , 1821–22, for a discussion, noting that the change to hadst came in 1911. Thou hadst occurs once in an Isaiah passage as an auxiliary, never as a full verb as had is in Alma 11:25.
+
+45. Here are several more examples from the OED:
+
+c 1420 Sir Amadas (Weber) 746 Yette was Y ten so glad When that thou gaffe all that thou had . a 1425 tr. Arderne’s Treat. Fistula , etc. 6 Ȝif þou had bene stille thou had bene holden a philosophre. c 1460 Towneley Myst. 190 (Mätzn.) As good that thou had Halden stille thy clater. 1513 Douglas Æneis xi. Prol. 162 Haill thy meryt thou had tofor thi fall, That is to say, thy warkis meritable, Restorit ar agane. 1578 Ps . li. in Scot. Poems 16th C. (1801) II. 119 Gif thou had pleased sacrifice I suld have offered thee. c 1650 Merlin 2094 in Furniv. Percy Folio I. 487 , & thou had comen eare, indeed, thou might haue found him in that stead. 1684 Yorksh. Dial. 481 (E.D.S. No. 76 ) Thou Glincks and glimes seay, I’d misken’d thy Face, If thou had wont at onny other place.
+
+Some of the above quotations have thou had used under a hypothetical condition. Yet there are 12 instances of if thou hadst in the OED showing that past-tense 2sg inflection was used after the hypothetical.
+
+46. Milton’s Paradise Lost (xi: 697) contains a conscious, metrical instance with an otherwise unattested complex consonant cluster [ltst]: thou beheldst .
+
+47. In the OED, thou with shall(e) (25×), with will(e) (15×), and with may (32×). These are the exceptions, in both the BofM and the OED. Present-tense 2sg agreement runs at 99% in the BofM.
+
+48. Changed in 1849 to Rememberest thou — see Royal Skousen, Analysis of Textual Variants of the Book of Mormon: Part 1 (Provo, UT: FARMS and BYU, 2005), 304–05.
+
+49. Changed in 1879 to didst thou — see Royal Skousen, Analysis of Textual Variants of the Book of Mormon: Part 6 (Provo, UT: FARMS and BYU, 2009), 3834, and Royal Skousen, Analysis of Textual Variants of the Book of Mormon: Part 2 (Provo, UT: FARMS and BYU, 2005), 794.
+
+50. See Lukas Pietsch, “’Some do and some doesn’t’”:Verbal concord variation in the north of the British Isles.” A comparative grammar of English dialects: Agreement, gender, reative clause. Ed. Bernd Kartmann et al. (Berlin: Mouton de Gruyter, 2005), 129; quoting Frederic T. Visser, An historical syntax of the English language . Vol. 1. (Leiden: E. J. Brill. 1963).
+
+51. A modern-day example might be: A rooster and a turkey were in the corral, and so was a duck and a goose .
+
+This example, however, isn’t directly on point, since there is a complex postverbal subject. Thus it’s a case of nonagreement in part because of a lack of plural number resolution; still, there is certainly a positional effect. (In this article I do not address directly such resolution issues in the BofM exemplified by the following construction: [ the land of Nephi and the land of Zarahemla ] i was i nearly surrounded by water.)
+
+52. Here are a few more OED quotations containing third-person plural np subjects associated with verbs carrying third-person singular inflection:
+
+1477 Norton Ord. Alch. (in Ashmole 1652) v. 76 Liquors conveieth all Aliment and Food To every part of Mans Body. 1526 Pilgr. Perf. (W. de W. 1531) 274 b, The hopes kepeth fast the bordes of the vessell..& holdeth in ye endes that they start not. 1534 Ld. Berners Gold. Bk. M. Aurel. (1546) B iij, For certaine al the fruites cometh not togither. 1534 Whitinton Tullyes Offices iii. (1540) 142 The lawes taketh away craftyng one way, and phylosophers another way. 1578 Lyte Dodoens i. xl. 58 ..Amongst the leaues groweth fayre azured or blew floures ..
+
+53. That being the case, researchers need to be cautious and resist the temptation to analyze BofM syntax as non-English Hebrew-like language or instances of nonstandard use before analyzing past English usage.
+
+54. The following phrases are (nearly) exclusive: the Lord hath , hath commanded / spoken / given / made . These are relatively favored: has been , has not , and he hath .
+
+55. Shakespeare’s rate of use of has (16.5%) reflects the trend and transition to 17th-c. usage.
+
+56. Personal communication, May 2014.
+
+57. Spencer, “Notes on the Book of Mormon,” 36, criticized the use of it supposeth / sorroweth me . He wrongly believed that Joseph Smith manufactured these phrases on the analogy of it sufficeth us (John 14:8), etc. By extension, other similar criticisms levelled at the book through the years, and even to this day, are likewise devoid of merit. The rare neologisms that are found in the book are both well-motivated and well-formed from the point of view of EModE.
+
+58. Part of the etymological entry for arrive in the OED reads as follows: “inflected after strong vbs., with pa. tense arove ( rove, arofe ), pa. pple. ariven ( aryven ).” Spencer, “Notes on the Book of Mormon,” 35, was unaware of this, asserting that there was “no such word in the language as ‘arriven.’ ”
+
+59. This standard past-participial form might have been arriven in the original MS, but we have no way of knowing for sure.
+
+60. Royal Skousen, Analysis of Textual Variants of the Book of Mormon: Part 4 (Provo, UT: FARMS and BYU, 2007), 3296, notes that this was changed to had by Joseph Smith in 1837.
+
+61. In fact they were…become is also exceptional in its class because it’s the only time the past tense is used with be and this class of past participles in the BofM. The text has a simple, reduced system in this regard; it uses the present tense 9 out of 10 times with be and this class of past participles — e.g., when I am again ascended (3 Nephi 11:21).
+
+62. This sentence in the body of the article has examples of the counterfactual pluperfect and the modal perfect with the past participle used . Other examples of these are if I had come and they would have become . These verbal structures arose in English during the late ME period. When they were first used, the modal perfect was always used with the auxiliary have (with past participles like come and arriven ), never with be , and the counterfactual was used only 2% of the time with be and this class of past participles. These were the initial drivers of the change to the present-day English system, which uses have with these past participles exclusively (see Thomas McFadden and Artemis Alexiadou, “Counterfactuals and BE in the History of English.” Proceedings of the 24 th West Coast Conference on Formal Linguistics. Ed. John Alderete et al (Somerville, MA: Cascadilla Proceedings Project, 2005), 273–74.
+
+63. I performed nonexhaustive counts for Shakespeare of 28 have + come and 115 be + come = 19.6%. OED counts for the 16th c. are 10 had come and 48 was/were come = 17%. McFadden and Alexiadou (2005: 273) calculated 15% usage.
+
+64. By way of comparison with contemporaneous authors, we note that Walter Scott used have + come about 70% of the time, J. Fenimore Cooper about 95% of the time. The latter then is a close match with BofM usage in this regard. Henry Fielding, writing around 1750, used have + come only one-third of the time. His usage was slightly archaic for its time.
+
+65. Skousen has found an EModE example with be from 1658, the shape perhaps influenced by rhyme: “Until I safely am arriven At the desired Haven, Heaven”.
+
+66. Spencer, “Notes on the Book of Mormon,” 37, criticized its frequent use in the BofM, unaware of EModE usage.
+
+67. That relevant OED definition reads as follows: more , a . †A1b = Greater in number, quantity, or amount. 1529 Rastell Pastyme, Hist. Brit. (1811) 125 The Danis, with a more strenght, enteryd the west part of this land. a 1648 Ld. Herbert Hen. VIII (1683) 298 The more Party of the Sutors of this Your Realm.
+
+68. Here are some more examples from the OED:
+
+c 1380 Wyclif Wks . (1830) 369 Siþ þai han now þe more part of þe temporal lordeschips, and wiþ þat þe spiritualtees and þe greete mouable tresouris of þe rewme. 1535 Coverdale Acts xxvii. 12 The more parte off them toke councell to departe thence. [Also 1611 .] 1610 Acta Capit. Christ Church , Canterbury 17 July (MS.), To ymbarn in the Barnes..all or the more part of the tythe corne.
+
+There is one outlier among these, an 1871 quotation from the historian Edward Freeman, who wrote with an intentionally archaistic style:
+
+1871 Freeman Norm. Conq. (1876) IV. xviii. 117 The more part of them perished by falling over the rocks.
+
+69. A well regulated Militia being necessary to the security of a free State, the right of the people to keep and bear Arms shall not be infringed.
+
+70. The four instances of I beseech of you / of thee are found at Jacob 6:5; Alma 34:33; 36:3; Moroni 7:19.
+
+71. This book is a translation into English from the French original. The passage is quoted from Richard Hakluyt (1599) The principal nauigations, voyages, traffiques and discoueries of the English nation , from Early English Books Online .
+
+72. At times the use of a verb in the indicative mood after if points to an atypical meaning for if ; other times if carries its standard meaning after an indicative form.
+
+73. The OED provides the following quotation of Genesis 4:7, indicating that later in the 17th century “if thou do” was changed to “if thou doest”, and that Coverdale had “if thou do” for the second instance, something the KJV never had: 1611 Bible Gen . iv. 7 If thou doe [16.. doest ] well, shalt thou not be accepted? and if thou doest [ Coverd . do ] not well, sinne lieth at the doore.
+
+The hypothetical if seems to have the same meaning in both instances because the phrases closely match each other. Cf. Alma 22:16 and the discussion below.
+
+74. And this indicative analogical force persists to this day; that’s why there’s levelling of if I were to if I was in ModE, and levelling elsewhere in the BofM.
+
+75. Did Joseph Smith and his scribes have EModE linguistic competence — i.e., native-speaker intuition? No, certainly not. But while it’s a stretch, they could have been sensitive to this from a ModE analog. For example, we could think up a realistic phrase in present-day English that is similar to what is found in these verses:
+
+If I were <subj>. to go to the store today in order to buy that, and [ø ø] was <indic.>. really hungry, then I might buy something that I shouldn’t.
+
+Using subjunctive, then indicative under ellipsis, would be an acceptable, even typical way to say something like this in present-day English, and perhaps it was for Joseph Smith as well.
+
+76. Other similar present-tense examples are found in Helaman 10:4 and Ether 3:3 — “thou hast . . . and hast . . . but hath” and “thou hast . . . and hath” (see Royal Skousen, Analysis of Textual Variants of the Book of Mormon: Part 5 [Provo, UT: FARMS and BYU, 2008], 3047).
+
+77. Skousen, Analysis of Textual Variants of the Book of Mormon: Part 4 , 2389, notes that “there has been no tendency to emend and did in Alma 39:3 to and didst .”
+
+Note the proximity agreement at the start of this sentence (in the body of the article): examples have .
+
+78. I take every instance of indicative and subjunctive to be intentional, especially since shalt thou with 2sg marking is used towards the end of the verse even though the inverted word order doesn’t favor it and three verb forms lacking 2sg inflection have just been used. Of course it is possible that thou will is a levelled form (as in Alma 8:20), but the odds of that with respect to this verb are low (less than 5%), and they are even lower in the case of the full verb repent (about 1%). The second use of will (with ellipsis) is almost certainly subjunctive because it’s the second verbal conjunct after if . As we’ve seen in the three BofM verses just discussed, in this linguistic context will could have understandably adopted an indicative shape wilt .
+
+79. See OED [ if , conj. (n.) I & 1]. The dictionary indicates, and this study verifies, that in Genesis 4:7 the original 1611 KJV had if thou doe (subjunctive). According to the OED (see [ if , conj. (n.) A1a(α)]), this was changed at some point in the 1600s to if thou doest (indicative), reflecting a sense similar to what is found in Alma 22:16 with if thou desirest .
+
+80. See OED [ much , a. , quasi- n. , and adv . 2d]. This entry points out that vestiges of this use remain in the phrase much thanks .
+
+81. As we’ve seen near the beginning of this article, riches in EModE was not clearly plural ( much riches : Joshua 22:8; 2 Chronicles 32:27; Daniel 11:13; Alma 10:4). And alms could also be construed as singular. And in the phrase much people — an obsolete use found in both texts — much conveyed the notion of ‘a great number of ’ [OED much , a. †2b].
+
+82. Here are some more OED examples of much with plural nouns taken collectively:
+
+1546 J. Heywood Prov. i. xi. (1867) 32 We maie doo much ill, er we doo much wars . c 1550 H. Lloyd Treas. Health viii. C viii, Agaynst to much watchynges … The Sygnes. That he can not slepe after his accustomyd fashyon. 1555 W. Watreman Fardle Facions G viij, The Arabiens named Nomades occupie much Chamelles , bothe in warre, and burden. 1558 T. Phaer Æneid vi. R iv, Much things congendrid long [L. multa diu concreta ]. 1564 Brief. Exam. **iij b, There are much paynes bestowed of these discoursours. 1591 Sparry tr. Cattan’s Geomancie 165 This figure..sheweth that the seruantes of the saide Lords shall get much friends . 1569 Depos. John Hawkins in Arb. Garner V. 231 The said Sir William Garrard and Company, did also then provide, prepare, and lade in those ships much wares . 1596 Shakes . Merch. V . i. iii. 123 You cald me dog: and for these curtesies Ile lend you thus much moneyes . 1597 Shakes . 2 Hen. IV , ii. iv. 29 I’ faith, you have drunk too much canaries .
+
+83. This estimate is subject to sampling bias from OED quotation selection and overlap in query retrieval counts.
+
+84. Charles Laurence Barber, Early Modern English (Edinburgh: Edinburgh UP, 1997), references a study and chart from p. 162 of Alvar Ellegård’s The Auxiliary Do: The Establishment and Regulation of its Use in English (Stockholm: Almqvist & Wiksell, 1953).
+
+85. The KJV’s low usage rate of this periphrasis reflects syntactic practice of the year 1530, after Tyndale.
+
+86. The relevant OED entry is: [ which , a . and pron . 13a]. The OED has quotations from the 1300s to 1607, plus two consciously archaic ones from the 19th century. Here is one from Tyndale whose language carried through to the KJV in this case:
+
+1526 Tindale Heb . x. 10 By the which will we are sanctified.
+
+87. The OED and other sources may show later usage. Here are some OED quotations:
+
+c 1374 Chaucer Boeth . iv. pr. vi. 109 (Camb. MS.) In the which thing I trowe þat god dispensith. c 1450 Godstow Reg. 352 In the which .. mese ..the Chapelayn..shold haue a dwellyng to serue by the tymys succedyng. 1495 Act 11 Hen. VII , c. 63 Preamble , In the which Acte ..the seid Francis Lovell was ignorauntly lefte oute and omitted. 1597 A. M. tr. Guillemeau’s Fr. Chirurg . 26/3 In the which wound , we must impose a silvern or goulden pipe. 1617 Abp. Abbot Descr. World, Peru V iv, Which bedds are deuised of Cotten wooll, and hung vp betweene two trees.. in the which flagging downe in the middle, men and their wiues and their children doe lie together.
+
+Here are two EModE examples taken from EEBO:
+
+1568 “…and he was a louer of his neighbor, as thou doest well know, in the which things consisteth all christian religion” English translation: The fearfull fansies of the Florentine couper (original Italian: Giovanni Battista Gelli).
+
+1615 “ in the which things Israel ought to be commended” H. S., A diuine dictionarie .
+
+88. 1568 Grafton Chron . II. 47 The Bishops and Priestes..were contented yet to ayde him with money. For the which thing , he being desyrous to gratefie them againe, caused it to be ordeyned and enacted [that].
+
+The BofM also has for the which holiness (Alma 31:17).
+
+---
+Notes
+
+[1] [Page 209] Abstract: Much of the earliest Book of Mormon language which has been regarded as nonstandard through the years is not. Furthermore, when 150 years’ worth of emendations are stripped away, 1 the grammar presents extensive evidence of its Early Modern English character, independent in many cases from the King James Bible. This paper argues that this character stems from its divine translation.
+
+[2] This article provides additional solid evidence in favor of Skousen’s tight control view of Book of Mormon translation and that the words of the text were revealed to Joseph Smith from the Lord (see 2 Nephi 27:11, 19–24). Skousen came to this view after scrutinizing the manuscripts, the printed editions, and internal and external textual evidence over many years (see, for example, “How Joseph Smith Translated the Book of Mormon: Evidence from the Original Manuscript” 2 and Analysis of Textual Variants 3 ). His approach is abundantly supported by many cases of obsolete Early Modern English and even some non-English, Hebrew-like constructions that [Page 210] exist in the earliest English text of the Book of Mormon and whose syntax would have been unknown to Joseph Smith and his scribes.
+
+[3] [Skousen’s Earliest Text of the Book of Mormon 4 — the “Yale edition” — is used throughout this study. For date ranges of Early Modern English, some scholars use 1470 to 1670, others 1500 to 1700, and there are other opinions as well. As for late Middle English, it began during the early 1300s and ended sometime in the late 1400s. Boldface will often be used in this article for emphasis since so many word forms are italicized . And small caps is often used to indicate pregnant meaning or to highlight various word forms in examples. The following abbreviations are used throughout much of this article: Book of Mormon (BofM), King James Version of the Bible (KJV), Oxford English Dictionary (OED), 5 Analysis of Textual Variants (ATV), Modern English (ModE), Early Modern English (EModE), Middle English (ME).]
+
+[4] Early assessments of the quality of the English language of the Book of Mormon were largely dismissive. Many criticisms were merely unsubstantiated, derisive comments lacking in analysis, sometimes made for comic effect, while others were more substantive but still without an awareness of older English beyond that found in the King James Bible. 6 A close syntactic [Page 211] examination of the language of the BofM, however, reveals that the quality of English in the book is excellent and even sophisticated. But because in many cases it is English that we don’t use today, it seems to the casual observer to be deficient in many ways. The English certainly is very frequently different from and foreign to current modes of expression. But it turns out to be nonstandard only sporadically. When we consider more advanced syntax, such as the nominative absolute construction (discussed later in this article), nested structures (3 Nephi 5:14; 7 Jacob 1:10–11 [see below]; 3 Nephi 7:12), and command syntax or causative constructions (hundreds of these in the text, with usage strikingly different from that of the KJV), we find the BofM to be quite elaborate in its patterns of use.
+
+[5] Beyond fairly routine, shallow, derogatory statements about BofM language, we note that B. H. Roberts, who was largely (and admirably) self-educated, showed concern for “errors in grammar and diction” apparent in the text. 8 He viewed imputing “such errors to God [as] unthinkable, not to say blasphemous.” 9 Yet Roberts — with good motives but no expertise in Early Modern English — fell prey, as many of us do, to the allure of grammatical prescriptivism. And by asserting what he did, he put constraints on the Lord, imposing specific choices. We hardly need to remind ourselves that God has supreme intelligence and that we are limited by human understanding. With that in mind, it is right to be expansive in [Page 212] our acceptance of grammatical possibilities within the book and grant that the Lord could have intentionally made a translation using forms that are nonstandard in Modern English; and he also could have allowed dialectal forms to enter the first written text. Indeed, he has permitted many incorrect and unnecessary emendations (largely inconsequential) to become part of the fabric of the book’s text through the years. 10 Because of the frequency and number of subsequent substantive edits through the decades, we conclude that Moroni did not instruct Joseph Smith against making such changes to the text. So the Lord knew it would happen through the years, and though aware of the loss of meaning that some of the faulty emendations entailed, he has waited patiently for them to be corrected, in all likelihood because they have not been doctrinally significant. 11
+
+[6] God chose the language variety that was delivered to Joseph Smith, despite its archaic and obsolete character, consistent with his divine purposes. But still, many of us, like B. H. Roberts, have tended to doubt the quality of the textual language through the centuries because some of the older forms in the book look wrong or sound bad to us, even from the perspective of the KJV. A portion of that doubt stems from the fact that we don’t have a linguist’s knowledge of KJV language, but more of it derives from the fact that we aren’t [Page 213] experts in EModE (both comprehensible positions). As a result, we’ve missed some arcane linguistic correspondences between the KJV and the BofM, but what is more important, we haven’t realized that many ostensibly defective forms reflect usage from earlier stages of the English language. Most of these are clearly attested in the textual record of EModE and even late ME — some frequently, some rarely. 12
+
+[7] While ascribing some “nonstandard” language to deity is against Roberts’s view of over a century ago, this reality is not [Page 214] problematic to faithful views of the text’s provenance. By virtue of his supremely intelligent nature, the Lord must be viewed as having native-speaker competence in all language varieties and being fully capable of putting together the English text of the BofM with its normal if extensive linguistic variation. Skousen has asserted “that since God is not … a respecter of tongues, he is perfectly willing to speak to his ‘servants in their weakness, after the manner of their language, that they might come to understanding’ ” (quoting D&C 1:24). 13 In other words, the Lord doesn’t discriminate against linguistic variation or the intrinsic worth of different languages and dialects (when not used in an evil way, for evil purposes). Therefore, had another time and place been right for the publication of the BofM, or another style of language, then another language (variety) could have been chosen.
+
+[8] With those introductory remarks, we now review some recent statements about the idea of nonstandard as it relates to earlier stages of English. Hickey notes that the “modern notion of standard English is an eighteenth-century development which builds on formal usage prior to that. The prescriptivism which arose at this time led to the social marginalisation of dialects and their literature.” 14 Claridge and Kytö observe that the “concept of ‘non-standard’ remains somewhat fuzzy during the Early Modern English period. Language change and especially ongoing standardization can make it difficult [Page 215] to pin down an individual feature at any given time as clearly non-standard.” 15
+
+[9] The goal of standardization has always been to achieve maximal functional capacity with minimal variation in form. In other words, a lexical or syntactic standard is one that can be used in a maximum number of contexts with variation kept to a minimum — variation in vocabulary, spelling, grammar. 16 Prescriptivists want to eliminate variation, but that is never possible in spoken language or in extended written texts, nor is it desirable. The BofM exhibits plenty of variation, and that is the result of its being a natural language translation. God conveyed the important eternal truths and doctrines found in the text after the manner of an earlier stage of English — a human language full of both free variation and principled variation. And of course we must conclude that he chose not to reduce or eliminate the variation.
+
+[10] We currently read a cleaned-up, standardized version of the KJV (and the BofM as well [the current, partially regularized [Page 216] text of the BofM has two instances of only saidst ]). The 1611 Old Testament had 13 instances of saidst (the “standard” form), 4 of saidest , 3 of saydst , and 1 of saydest (Job 35:2). That verb form has been completely standardized in the biblical text, in both spelling and phonology. An example of incomplete standardization is riches . In Jeremiah 48:36 we now read “because the riches that he hath gotten are perished.” But in the 1611 original this reads “ is perished”, since riches coming out of the ME period was singular, being derived from Old French richesse (singular) = ‘wealth’. Indeed, Revelation 18:17 still shows the singular usage (with archaic auxiliary selection): “For in one hour so great riches is come to nought.” 17 And so we have incomplete syntactic standardization still to be found in the venerable KJV.
+
+[11] With that in mind we now consider some forms found in the BofM which are generally accepted to be nonstandard. Skousen mentions three in one of his earlier articles on BofM usage: 18
+
+[12] These deserve a second look. Are these nonstandard forms? From a ModE perspective, they certainly are. Are they clearly attested in EModE? Yes. Must they necessarily be regarded as the intrusion of upstate New York dialect in the translation process? 19 No, they don’t have to be at all.
+
+[13] First we consider in them days . The use of demonstrative them has been an American nonstandard dialect form for some time, but it actually arose at least in the 16th century in England and was part of formal usage in that time period. It simply wasn’t “adopted into the codified standard of British English which emerged during the eighteenth century and which was shaped by the strictures of normative grammars which were published at that time.” 20 In the OED we see these three early “nonstandard” examples of the demonstrative used after a preposition and with a following noun: 21
+
+[14] “Apart from the fact that there was no unambiguous standard at that time, one can only say that [these quotations] are from contexts which make a careful and formal use of language very likely.” 22 So while it isn’t accurate to call them days standard EModE usage (because of the absence of a standard), we can properly view it as formal EModE usage. It thus fits well in the BofM text. So it is reasonable to surmise that them days was indeed transmitted to Joseph Smith twice; there was probably no inadvertent conversion of those days by Smith or scribe into dialectal them days in the scribal transmission process. While its use may grate on our prescriptivist nerves, them days can reasonably be viewed as an intentional part of the translation.
+
+[15] By way of a brief aside, this article singles out for discussion examples that appear to be ungrammatical or nonstandard. Much of the time, however, the superficial grammar of the Earliest Text actually seems standard from a ModE perspective. A case in point is the phrase type we’ve just been discussing: in them + plural noun phrase. The BofM has more examples of the ModE standard: in those cities / traditions / signs / lands / circumstances . And those was also used in this way in the KJV and more generally in EModE. 23
+
+[16] Next we consider I had smote . To many of us, smote seems to be a past-tense verb form defectively used in a pluperfect construction. The KJV doesn’t use smote in this way. From [Page 219] the perspective of that important biblical text, past-participial smote is a grammatical error; it seems like smitten should have been used in 1 Nephi 4:19 (and in Alma 17:39; 20:30; 26:29; 51:20; Ether 15:31). Indeed, in the latest LDS edition there is only standardized smitten in these contexts, a clear reflection of that view. But smote is specifically noted in the OED as functioning as a past participle for centuries in English, beginning in the 16th century. The OED contains about 10 examples of this usage. Here are two representative quotations from that dictionary, one with smote used in the passive voice, 24 one with smote used in the active voice:
+
+[17] Beard Theatre God’s Judgm. (1612) 309 He caused..the Citie of the Priests to be smote with the edge of the sword. 1658 Manton Exp. Jude verse 3. Wks. 1871 V. 98 The goose-quill hath smote antichrist under the fifth rib. 25
+
+[18] The OED declares therein to be a word used formally in EModE, and the Latinate adjective recondite fits in such a context, supporting the assertion that hid up could appear in formal language. So hid up, which Twain poked fun at back in 1872, 26 is not just a 19th c. American colloquialism, but a formal usage from the EModE period.
+
+[19] It is noteworthy that had smote occurs three times in the BofM, never * had smitten . This is a good example of a pattern widely seen in the text: past-tense verb forms used as past participles are especially favored in the BofM with the past-tense auxiliary had . Some notable ones are had spake , had came , and had began . Had spoke is a usage directly analogous to had smote , and it is found at least eight times in the OED [Page 221] ( had spake once), beginning in the late ME period. 27 And had spoke also occurs six times in the Shakespeare œuvre ; there is no case of * had spoken . As a result, have / be+ smote and have / be+ spake (13×) should not be considered nonstandard dialectal forms in the BofM; they have deep English roots. (The same can be said for many other analogous forms in the BofM — for example, had came [also 13×]. 28 )
+
+[20] Next we consider they was yet wroth . They was is uncommon in the book (and in the EModE record): it occurs five times in the BofM while they were occurs 628 times (0.8% they was ). Nevalainen notes that plural pronouns — we, ye / you , they — were used with singular was in EModE written correspondence [Page 222] about 5% of the time (from 1440 to 1639). 29 Of these, they was is the least frequent. This overall rate of use is slightly higher than what is noted in the BofM, the kind of difference that might be expected in comparisons of written correspondence with a formal religious text. The variation from the EModE period is thus properly reflected in the text. So we conclude that the rare instances of they was found in the text were likely intended and not caused by dialectal overlay; each of them could’ve come from the divine translation.
+
+[21] The usage rate of we was and ye was is higher in the BofM, but the counts are much lower. We was occurs once (1 Nephi 17:6), we were 35 times (2.8%). Ye was occurs once (Alma 7:18), ye were 20 times (4.8%). Northern British writers demonstrate singular past-tense usage with ye / you as far back as the 15th and the 16th centuries. 30 Nevalainen has found that in EModE written correspondence “ we turns out to be the only plural pronoun to occur with any frequency with was .” 31 The observed relative frequency is, in descending order: we was, then ye / you was, then they was . There isn’t much relevant data in the BofM text, but they was does show the lowest rate of use of the three plural pronouns, as was the case in EModE.
+
+[22] Also consistent with EModE behavior is the observed fact that plural-to-singular levelling occurs only in the marked past [Page 223] tense in the BofM — that is,there isn’t any occurrence of * they is in the book (or * we is , * ye is ). Nevalainen has found EModE language that exemplifies this directly: 32
+
+[23] The 1642 excerpt strikingly and effectively illustrates the use of the past tense in the singular and the present tense in the plural. The subject is the same for both verbs. 33 The BofM in effect shows the same usage pattern:
+
+[24] Nevalainen also indicates that the existential past-tense there was was frequently used with plural noun phrase subjects in EModE written correspondence (29% of the time). 34 That [Page 224] should not surprise speakers of present-day English; the same tendency is noted today with both there’s and there was . A check of there was followed by plural noun phrase subjects in the BofM yields 30 counts. Here are four plain examples:
+
+[25] On the other hand, there are about 120 instances of there were + plural noun phrase subjects in the book. This yields a 20% usage rate for plural subjects with (past-tense) singular verbs. 35 Thus the BofM rate of there was usage with plural noun phrase subjects is lower than, but fairly close to, the observed EModE written correspondence rate. Again, this is the kind of difference we expect when we compare the BofM with the less formal corpus used by Nevalainen in her study.
+
+[26] How about syntax such as [ the arms of mercy ] i was i extended towards them (Mosiah 16:12)? It appears twice in this verse and once with present-tense is in Alma 5:33. Singular was is used about one-third of the time in the book in these contexts. 36 Nowadays we tend to focus on grammatical concord with the head of the noun phrase (the noun phrase is in brackets — [Page 227] its head is arms ). So from that point of view this is defective agreement. But in this particular case there may be notional concord — that is, [ mercy ] sg was sg — or even “agreement of a verb with a closely preceding noun phrase in preference to agreement with the head of the noun phrase that functions as subject.” 37
+
+[27] In the case of the arms of mercy was , proximity agreement is probably reinforced by notional concord. Quirk et al. also provide the following example (and four others are included below theirs). 38 These sentences demonstrate the prevalence of the phenomenon in present-day English:
+
+[28] No one except his own supporters agree with him. More than one was there. Less than two were there. None of these examples were very clear. I asked her two specific things which I didn’t think was in her article. 39
+
+[29] Some verses showing proximity agreement or notional concord can of course also simply be cases of EModE plural–singular agreement variation. That is because singular was was used with plural noun phrase subjects 20% of the time at the beginning of the EModE era. 40 That rate diminished over time. Sixteenth-century examples of this kind of agreement (and of proximity agreement) from the OED include the following:
+
+[30] One of the signal achievements of Skousen’s Earliest Text is the uncovering of EModE usage through unflinching editorial rigor despite apparent ungrammaticality. Take, for example, thou received as found in the following passage: 41
+
+[31] The second-person singular (2sg) past-tense verb form in this verse initially carried no st inflection, even though Luke 16:25 has thou … receivedst . This, then, makes it seem like the BofM is faulty when compared to the KJV. 42 So isn’t thou received just the result of dictation / scribal error, a mispronouncing or mishearing of a rare verb form with a difficult consonant cluster? Almost certainly not. First, the pronunciation is very different — two syllables versus three, very different ending sounds: [rə · ’sivd] versus [rə · ’si · vətst]. Second, the textual record of EModE shows that 2sg inflection was often not used with (regular) past-tense verb stems. This absence of marking is present from at least the ME period. There are many examples of [Page 229] thou used with bare past-tense stems in the OED. Here is one very similar to thou received :
+
+[32] Pilgr. Perf. (W. de W. 1531) 182 Thou .. conceyued thy chylde without corrupcyon or violacyon of thy virginite. 43
+
+[33] Similar to this is thou had , used as a full verb in this choppy verse: 44
+
+[34] Skelton Magnyf . 1148 Fol. In faythe I wolde thou had a marmosete. 45
+
+[35] c 1400 Rom. Rose 2505 …Where thou biheld hir fleshly face. 46
+
+[36] In addition, present-tense auxiliaries with thou are very similar to past-tense 2sg full-verb forms. There are dozens of examples of 2sg shall / will / may without (s)t inflection in the OED; that indicates it was a prevalent usage in EModE. 47 Consequently, [Page 231] thou shall (2 Nephi 29:6; Mosiah 12:11; Alma 10:7), thou will (Alma 8:20), and thou may (Mosiah 26:11) are not cases of bad grammar but typical forms that were used widely in EModE.
+
+[37] Remember thou (1 Nephi 14:8) 48 and did thou (Ether 12:31) 49 are examples of the effect that word order may have in potential agreement contexts. The first one is the only time a present-tense full verb lacks 2sg inflection in the Earliest Text:
+
+[38] [Page 232] On þæm selfan hrægle wæs eac awriten þa naman ðara twelf heahfædra ‘On that same garment was also written the names of the twelve patriarchs’ [Ælfred, C.P. 6,15] 50 1549 Chron. Grey Friars (Camden) 65 That nyght was the comyneres of London … dyscharged of ther waching at alle the gattes of London in harnes…
+
+[39] These examples are reminiscent of was discerned 300 vessels , given above. 51 Though remember thou is slightly different since it involves person marking, it is nevertheless another instance of the same general phenomenon.
+
+[40] R. Copland , Guydon’s Quest. Cyrurg. , The vaynes bereth the nourysshyng blode… 1590 R. Payne , Descr. Irel. (1841) 5 The seas fretteth away the Ice and Snowe. 52
+
+[41] [Page 235] Consequently, such syntax constitutes one more piece of evidence that BofM language is not a derivative of KJV language, either poor or otherwise. Hearts delighteth and flames ascendeth are not grammatical flaws (or even syntactic calques of a base Hebrew text), but EModE syntax. 53
+
+[42] One of the inconsistent modernizations the book has undergone, after a score of global edits, has been the increase of the appearance of has at the expense of hath (currently 36% has ). Excluding biblical passages (and the witness statements), hath occurs 724 times in the Yale edition, but has only 76 times (9.5% has ). 54 The highest rate of use of has is in Mosiah and Alma, the lowest rate is in the small plates . The KJV doesn’t use has (not even the original 1611 text). So is the presence of has in the BofM an instance of bad grammar? No; on the contrary, it is directly in line with pre-Shakespearean EModE usage . The OED points toward the following has usage rates during the EModE period (some sampling bias is undoubtedly present in these figures): 15th c. = 32%; 16th c. = 7.5% ; 17th c. = 25%. The nadir of has use was squarely in the middle of that period. The BofM is right at home with 16th c. hath / has usage rates. 55
+
+[43] The BofM uniquely and consistently uses the phrase faith on the Lord (Jesus Christ) , not found in the KJV. The biblical text [Page 236] only uses faith in . The BofM also uses faith on the name of the Lord several times. Skousen has found these relevant 17th-c. examples in Early English Books Online : 56
+
+[44] Dative impersonal constructions like it supposeth me , it sorroweth me , and it whispereth me are also not found in the KJV, though they appear in the BofM (some analogous syntax is found in the KJV 57 ). The first phrase — used four times in the text — is classified as rare in the OED; that dictionary provides a single late ME example from a poet who was a contemporary of Chaucer:
+
+[45] Another item which indicates that range is the past participle arriven ‘arrived’, with analogical, strong inflection, used (at least) five times in the BofM (see ATV 1: 356 for a discussion). 58 The verb arrive is not used in the KJV. The analogy with the three-form verb drive is apparent: drive ~ drove ~ driven :: arrive ~ arrove ~ arriven. There are two relevant late ME entries in the OED with aryven :
+
+[46] The first quotation — ‘she has arrived in a forest’ — shows the use of is with the past participle aryven — akin to he is risen (ModE ‘he has risen’). In the Earliest Text arriven is used only with have : had (3×), have , and has (plus having arrived ). 59 So this parallels the infrequent use of be in the book with other similar verbs (of motion and change-of-state) like come and become — for example, they were nearly all become wicked
+
+[47] (3 Nephi 7:7). 60 This usage is the exception in the BofM, 61 and the overall usage pattern in the BofM in relation to auxiliary selection with these verbs is completely different from what we see in the KJV; that text prefers the use of were come , etc. So had the biblical text used arriven , it would likely have used was arriven , am arriven , etc. 62
+
+[48] [Page 240] At the time the KJV was being written, the usage rate in EModE of have with this class of past participles was below 20%. This rate would jump during the late 1600s to 30% or more. This estimate of the 1611 rate is backed up by data from the OED, Shakespeare, and a recent linguistic study. 63 The KJV, with 15 cases of have + come , but 494 instances of be + come , has only a 3% rate of usage with have . Thus it is archaic for its time in terms of auxiliary selection. On the other hand, the BofM is the complete opposite in usage (91 of 95 have + come / came = 96% have ). It functions like an early 19th-c. text in this regard. 64 This is one of the areas where the BofM is a ModE text. And the use of arriven with have in the MSs is an example of a curious mixture of modern verbal syntax ( have ) with older morphology ( arriven ). 65
+
+[49] The obsolete though transparent phrase the more part of occurs 24 times in the BofM but is not found in that exact form in the KJV. It is, however, used twice without of (Acts 19:32; 27:12). 66 The BofM is always explicit in its use, perhaps for plainness — for example, the more part of the people — while the KJV only uses the bare phrase the more part . More as used in this phrase carries a sense of ‘greater in number’, which became obsolete in [Page 241] the 17th century. 67 The OED provides several examples with the more part of from the late ME period and the EModE period (from 1380 to 1610). Here are two quotations from the 16th century:
+
+[50] Bale Eng. Votaries Pref. A iij, The more part of their temptynge spretes they haue made she deuyls. 1585 T. Washington tr. Nicholay’s Voy. i. xviii. 21 Palm trees: of the fruit of which trees, the more part of the inhabitants..are nourished. 68
+
+[51] The BofM uses the nominative absolute construction frequently, clearly, and differently from the KJV (two notable examples are found in the first verse of 1st Nephi — cf.the 2nd amendment of the U.S. Constitution 69 ). Here is one showing nested syntax. Note the repeat of the people after wherefore :
+
+[52] KJV: I beseech you / thee… (46×) BofM: I beseech of you / of thee… (4×) 70
+
+[53] [Page 245] 1390 Gower Conf . I. 10 Unto the god ferst thei besoughten As to the substaunce of her Scole, That thei ne scholden noght befole Her wit upon none erthly werkes, Which were ayein thestat of clerkes, And that thei myhten fle the vice Which Simon hath in his office. a 1450 Knt. de la Tour 87 Thanne the quene after kneled tofore her lorde, and besought hym that men shulde do semble iustice to Amon the seneschall. 1587 A notable historie containing foure voyages …which aboue all thinges besought vs that none of our men should come neere their lodgings nor their Gardens. 71
+
+[54] The BofM exhibits plenty of variation in its use of grammatical mood : subjunctive as opposed to indicative — for example, present-day English if I were versus if I was . One word that optionally controls the subjunctive mood in the book is the hypothetical if . 72 In other words, after the hypothetical we find that the verb is sometimes in the subjunctive, and other times in the indicative, with no discernible difference in meaning of if :
+
+[55] In a few places in the BofM there is more than one verb after if , and in three of these passages there is variation in mood : Mosiah 26:29; Helaman 13:26; 3 Nephi 27:11. These interesting cases can tell us about deeper linguistic behavior. Still, some find this variation to be unsatisfactory usage. But the same pattern of use is also found in at least one Shakespearean example. And the original 1611 KJV has a similar example as well. 73 This testifies to its well-formed nature in relation to EModE, telling us at the same time that it is not substandard usage in the BofM.
+
+[56] The ellipsis of if (and the subject) in these BofM verses tells us two things. First, it indicates that these verb phrases are closely linked syntactically and therefore that both are under the same hypothetical condition. And we know that the hypothetical condition in these verses is sufficient to control subjunctive marking in the first verb. Yet there was also [Page 250] analogical force in the language to use indicative forms for these verbs since indicative forms are used in the majority of contexts. This analogical force is weaker than the hypothetical force for the first verbal conjuncts. 74 Second, ellipted if also makes it more likely that the indicative will be used in the second verb, the distant conjunct, since if is not overtly used and that is the element that overcomes analogy (which drives the use of the indicative) and controls the use of the subjunctive for the close conjuncts in these passages.
+
+[57] The complex syntax of conjuncts in the BofM exhibits native-speaker sensitivity to EModE and typical cross-linguistic behavior. 75
+
+[58] In this verse the distant conjunct did is unmarked for person even though the (understood) subject is thou . This is another example of the tendency of distant conjuncts under ellipsis to level to less marked shapes. 76 Again, we would be surprised if the text had the following:
+
+[59] None of these examples have been changed through the years, precisely because they represent — at a subconscious level — acceptable syntax. 77 Yet because this syntax is absent in the KJV and since it involves the (non)use of archaic verb inflection and variable marking which was outside the scope of Smith and associates’ daily usage patterns, these examples constitute [Page 252] some evidence for (divine) EModE authorship, just as the use of words with non-KJV EModE meaning does. In addition, an author consciously attempting to sound “scriptural” or express things using biblical language would likely have been mechanical in usage with unfamiliar forms and probably would have followed the consistent 1769 KJV.
+
+[60] In this verse, fine points of grammar can aid our understanding of the intended import. 78
+
+[61] Lamoni’s father has just indicated his desire to Aaron, and so desirest , in the indicative, conveys that Aaron entertains no adverse opinion as to the truth of the statement. The hypothetical if therefore conveys a notion akin to ‘given or granted that; supposing that’. 79 After that, however, the subjunctive is used three times, conveying the notion that Aaron is faced with a normal lack of certainty surrounding the realization of his statements. This is therefore a good example of the Earliest Text elucidating meaning, while well-intentioned (conjectural) emendations have obscured it. It also tells us that at a deep level the BofM is an intelligently crafted, sophisticated text.
+
+[62] How about the strange use of the adjective much found in the Yale edition with plural nouns (taken collectively)? 80
+
+[63] Half of the above phrases have been emended through the years, with the noun usually suffering the change and thereby affecting nuance (see ATV 2: 1092–93). Perhaps the motivation [Page 254] for emendation was because the KJV clearly shows this use only once ( much goods in Luke 12:19), 81 or perhaps because it’s nonstandard ModE. Yet the 16th-c. textual record has many examples of this use; these two are reminiscent of BofM syntax (cf. Mosiah 27:9; 4 Nephi 1:16):
+
+[64] Stapleton tr. Bede’s Hist. Ch. Eng. Ded., The same Emperour after much disputations and conferences had with the Arrians,..commaunded [etc.]. 1586 J. Hooker Ireland Ep. Ded. in Holinshed Chron ., You..haue through so much enuiengs ..perseuered in your attempts. 82
+
+[65] [Page 255] In EModE, although much could be used and was used before a variety of plural nouns, many was used more frequently, perhaps as much as 85% of the time in the 16th century. 83
+
+[66] Remarkably, there are three things in this excerpt that are found in the BofM but not in the KJV. First, did go . This particular wording is a grammatical structure that is familiar to any serious reader of the BofM and is currently used in ModE for emphasis and contrast. Back in the 1500s and early 1600s did go could be used without indicating any emphasis at all. When it was used in that way, it simply conveyed the same meaning as went . The periphrasis did + infinitive appears more than 1,000 times in the BofM! And it is used 54 times with the infinitive go , either as did go or didst go . On the other hand, the KJV uses went or wentest more than 1,400 times, but never did(st) … go in affirmative declarative syntax. The EModE usage of expressing the affirmative declarative simple past with did + infinitive peaked in the latter half of the 16th c. (probably in the 1560s — see Barber 1997: 195). 84 The BofM is full of this periphrastic syntax, using it more than 20% of the time, while the KJV uses [Page 256] it sparingly, less than 2% of the time, and mainly with did eat . 85 This is additional evidence that the BofM’s syntactic center of gravity is this time period.
+
+[67] Second, although in the which is found in the KJV, it is not used with a syntactically linked noun as it is with visitation in the 1588 quotation above. 86 This occurs a handful of times in the BofM: in the which things / rebellion / strength / alliance / time . More than a dozen examples of this prepositional phrase with the relative adjective which are to be found in the OED. The earliest ones noted in that dictionary come from the late ME period, the majority from the 16th c., and the latest one isolated thus far is from the year 1617. 87 The BofM has both in the which things [Page 257] (like Chaucer) and for the which things , similar to a 1568 quotation. 88
+

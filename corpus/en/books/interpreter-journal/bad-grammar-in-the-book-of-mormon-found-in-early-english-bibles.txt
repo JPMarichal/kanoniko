@@ -1,0 +1,689 @@
+[Page 1] Abstract: This study describes ten types of grammatical usage found in early modern Bibles with correlates in the original text of the Book of Mormon. In some cases Joseph Smith’s own language could have produced the matching grammar, but in other cases his own linguistic preferences were unlikely to have produced the patterns or usage found in the original text. Comparative linguistic research indicates that this grammatical correspondence shouldn’t be a surprise, since plenty of Book of Mormon syntax matches structures and patterns found in Early Modern English.
+
+It can be difficult to know what to call the Book of Mormon’s grammatical usage that was considered substandard by prescriptive norms of the early 19th century. I’ve decided to refer to its questionable usage using the short phrase at the beginning of the title: bad grammar . This comports with the understanding of many nonspecialists and most Book of Mormon scholars, as exemplified in these excerpts from a recent essay:
+
+[Page 2] This paper looks at ten different kinds of grammatical usage that occur in both the Book of Mormon and early English biblical texts. Most of the time the usage isn’t found in the 1611 King James Bible. When it was part of the original King James text, it was edited out over the following decades, either completely or mostly. The ten topics addressed in this study cover usage often thought of as poor grammar — either from an early 19th-century perspective or from a biblical imitation perspective. The topics are these: “things that/which is,” plural was , object they , plural hath , subject you , third person singular verb forms in {-s}, irregular past participles, double negation, subjunctive ~ indicative variation after if , and object who .
+
+The purpose of this paper isn’t to give the views of specialists on grammatical usage, nor is it to determine whether a particular Book of Mormon archaism is a close or perfect match with popularity rates and diachronic shifts during the early modern era. Rather, its primary purpose is to show that early biblical grammatical usage thought to be bad grammar by Joseph Smith’s time is well represented in the Book of Mormon. Text-critical studies strongly suggest that the matching is present in the original text because it has so many linguistic features of the 16th and 17th centuries (along with features of other centuries, but far fewer of them). The original text’s lexis and syntax indicate that implicit knowledge of a wide variety of earlier modes of expression informed the English-language translation of the Book of Mormon. Almost all the bad grammar is part of its mostly early modern syntax.
+
+The primary sources consulted include Early English Books Online (EEBO), early English Bibles (from EEBO), the earliest text of the Book of Mormon (edited by Skousen), parts 3.1 to 3.4 of the critical text, Eighteenth Century Collections Online, Google Books, 25 pseudobiblical texts, and Joseph Smith’s early writings (see the appendix for further information on these sources).
+
+The nine early English biblical texts examined for this study are the following:
+
+Though the language of these scriptural texts is old, it’s useful to bear in mind that it came from literate translators, many of whom knew more than one of the classical source languages: Greek, Hebrew, Aramaic, and Latin.
+
+Writing for the Oxford Dictionary of National Biography , David Daniell had this to say of the man responsible for much of the language of these early Bibles:
+
+Before addressing the grammatical topics individually, I present here a summary of what is currently known about these in relation to pseudobiblical usage and early Joseph Smith usage (plural hath has been expanded to the more general case of the {-th} plural):
+
+> GRAMMATICAL TOPIC PSEUDOBIBLICAL USAGE JOSEPH’S EARLY WRITINGS “Things that/which is” none none Plural was none yes Object they none limited Plural { – th} limited limited Subject you yes yes 3sg verb forms in {-s} yes yes Irregular past participles yes none Double negation limited none Mood variation after if limited none Object who none yes
+
+[Table omitted]
+
+These observations are subject to change, and details of the comparative studies may appear in later publications. None of them, however, are crucial for determining Book of Mormon authorship.
+
+That said, the most relevant ones in relation to Joseph’s potential authorship appear to be “things which is,” object they , plural {-th}, and double negation. There is little evidence for this kind of usage in pseudobiblical texts or in his early writings or from the greater textual record that might lead one to conclude that he would have been responsible for producing so many varied examples of these in his 1829 dictation. In the case of object they and double negation, additional details strengthen this determination: they which predominates in object they contexts, and “<personal pronoun> which” was not Joseph’s native relative pronoun usage; “nor no manner of X” occurs four times, which was very rare double negation by the 1820s. In addition, sometimes Joseph was unlikely to generate a subset of usage, as in the case of irregular past participles. In this domain, he certainly could have generated some of it, [Page 5] but he was unlikely to produce arriven five or six times and “had (been) spake” 13 times.
+
+
+## “Things that is” and “things which is”
+
+Here is one example showing immediate agreement variation (in the quotations below the spelling has almost always been adjusted, and less often the punctuation):
+
+> 1661, Francis Howgill, The glory of the true church [EEBO A44790] all that come to the beginning again, to union with God, must die to all these things which is got and entered into the hearts of men since the transgression, and while these things are loved, they alienate the mind from the living God, [page 146]
+
+> all that come to the beginning again, to union with God, must die to all these things which is got and entered into the hearts of men since the transgression, and while these things are loved, they alienate the mind from the living God, [page 146]
+
+The difference in the syntax almost certainly led to the agreement difference: “all these things which is got” versus “these things are loved,” the latter without any relative pronoun. (There is also a plural personal expression “all that come” at the beginning of this excerpt.)
+
+The syntax “things <relative pronoun> is” wasn’t found in any 17th-century Bibles, but three distinct examples were found in 16th-century Bibles:
+
+> 1539, Great Bible (1540 edition) [A10405] The robberies of the ungodly shall be their own destruction, for they will not do the things that is right. [Proverbs 21:7; page image 483] The 1568 Bishops’ Bible has singular thing in this verse.
+
+> The robberies of the ungodly shall be their own destruction, for they will not do the things that is right. [Proverbs 21:7; page image 483] The 1568 Bishops’ Bible has singular thing in this verse.
+
+> The 1568 Bishops’ Bible has singular thing in this verse.
+
+> 1560, Geneva Bible (1561 edition) [A10675] Let our strength be the law of unrighteousness: for the things that is feeble is reproved as unprofitable. [Wisdom of Solomon 2:11; page image 801] The 1568 Bishops’ Bible has singular thing in this verse.
+
+> Let our strength be the law of unrighteousness: for the things that is feeble is reproved as unprofitable. [Wisdom of Solomon 2:11; page image 801] The 1568 Bishops’ Bible has singular thing in this verse.
+
+> The 1568 Bishops’ Bible has singular thing in this verse.
+
+> 1568, Bishops’ Bible [A10708] and if thou wilt take out the things that is precious from the vial, thou shalt be even as mine own mouth: [Jeremiah 15:29; page cxi] The 1539 Great Bible also has “things that is” in this verse.
+
+> and if thou wilt take out the things that is precious from the vial, thou shalt be even as mine own mouth: [Jeremiah 15:29; page cxi] The 1539 Great Bible also has “things that is” in this verse.
+
+> The 1539 Great Bible also has “things that is” in this verse.
+
+The original Book of Mormon text has 18 instances of this syntactic construction (counting both contiguous and noncontiguous examples), [Page 7] which may be a record for a single book. All but one of these involve the relative pronoun which . There are also 42 instances of “things . . which are” (none of “things . . that are”). These numbers mean that the Book of Mormon employs is in this construction 30 percent of the time. Here is the one case of “things that is”:
+
+> Alma 30:44 Yea, and all things denote there is a God; yea, even the earth and all things that is upon the face of it, This passage provides a close syntactic contrast of “all things denote” and “all things that is,” similar to the 1661 Howgill example shown above.
+
+> Yea, and all things denote there is a God; yea, even the earth and all things that is upon the face of it, This passage provides a close syntactic contrast of “all things denote” and “all things that is,” similar to the 1661 Howgill example shown above.
+
+> This passage provides a close syntactic contrast of “all things denote” and “all things that is,” similar to the 1661 Howgill example shown above.
+
+Here are three more examples of this grammar from the 16th and 17th centuries:
+
+> 1530, Hugh Latimer, quoted in Foxe’s Book of Martyrs (1583) [A67927] For the world loveth all that are of the world, and hateth all things that is contrary to it. This excerpt has contrastive personal “all that are” and nonpersonal “all things that is.”
+
+> For the world loveth all that are of the world, and hateth all things that is contrary to it. This excerpt has contrastive personal “all that are” and nonpersonal “all things that is.”
+
+> This excerpt has contrastive personal “all that are” and nonpersonal “all things that is.”
+
+> about 1540, Alexander Seton, quoted in Knox’s History of the Reformation in Scotland (1644 edition) [A47584] For all things that is contrary to the verity (which is Christ and his law) is of necessity a lie. This might be a 17th-century modification of Seton’s original language, which reads variously in other editions: “all thing that is” and “all things which are.”
+
+> For all things that is contrary to the verity (which is Christ and his law) is of necessity a lie. This might be a 17th-century modification of Seton’s original language, which reads variously in other editions: “all thing that is” and “all things which are.”
+
+> This might be a 17th-century modification of Seton’s original language, which reads variously in other editions: “all thing that is” and “all things which are.”
+
+> 1682, William Penn [1644–1718] Some sober and weighty reasons against prosecuting Protestant dissenters for difference of opinion in matters of religion [A54221] for it is to do the same things that is condemned in others:
+
+> for it is to do the same things that is condemned in others:
+
+
+## Plural was
+
+As an example of this, Tyndale employed plural was with things twice in his 1534 New Testament translation (besides seven examples of “things were”), and the Bishops’ Bible provides another instance from the Apocrypha (besides 21 examples of “things were”):
+
+> 1534, William Tyndale (translator) [about 1494–1536] The New Testament [A68940] and was also very God and that all things was created and made by it [prologue to the four evangelists; page image 22] And they told what things was done in the way, and how they knew him in breaking of bread. [Luke 24:35; page image 275] Other translations have were in Luke 24:35, or language without a form of the verb be .
+
+> and was also very God and that all things was created and made by it [prologue to the four evangelists; page image 22] And they told what things was done in the way, and how they knew him in breaking of bread. [Luke 24:35; page image 275] Other translations have were in Luke 24:35, or language without a form of the verb be .
+
+> Other translations have were in Luke 24:35, or language without a form of the verb be .
+
+> 1568, Bishops’ Bible [A10708] and so at Ecbatana, a tower in the region of Media, there was found a place where these things was laid up for memory. [1 Esdras 6:23; page image 1073] [Page 9] The Coverdale Bible and the Great Bible have “there was found such a writing”; the Geneva Bible has “a place where such things were laid up for memory”; the King James text reads “there was found a roll wherein these things were recorded.”
+
+> and so at Ecbatana, a tower in the region of Media, there was found a place where these things was laid up for memory. [1 Esdras 6:23; page image 1073] [Page 9] The Coverdale Bible and the Great Bible have “there was found such a writing”; the Geneva Bible has “a place where such things were laid up for memory”; the King James text reads “there was found a roll wherein these things were recorded.”
+
+> [Page 9] The Coverdale Bible and the Great Bible have “there was found such a writing”; the Geneva Bible has “a place where such things were laid up for memory”; the King James text reads “there was found a roll wherein these things were recorded.”
+
+The Book of Mormon also has one instance of “things was” (along with 15 examples of “things were”):
+
+> Mosiah 28:14 Now these things was prepared from the beginning
+
+> Now these things was prepared from the beginning
+
+The Coverdale Bible has the following instance of plural was , which is probably due to the Greek text having a clause-initial singular verb:
+
+> 1535, Coverdale Bible [A10349] Jesus also and his disciples was called unto the marriage. [John 2:2; page xli] Tyndale 1534 has “And Jesus was called also and his disciples unto the marriage.” The Greek verb is ἐκλήθη = ‘was called,’ the aorist passive indicative of kaleō .
+
+> Jesus also and his disciples was called unto the marriage. [John 2:2; page xli] Tyndale 1534 has “And Jesus was called also and his disciples unto the marriage.” The Greek verb is ἐκλήθη = ‘was called,’ the aorist passive indicative of kaleō .
+
+> Tyndale 1534 has “And Jesus was called also and his disciples unto the marriage.” The Greek verb is ἐκλήθη = ‘was called,’ the aorist passive indicative of kaleō .
+
+These are not the only cases of plural was immediately following noun phrases in the early Bibles. For instance, the Bishops’ Bible has “the waters was risen” at Ezekiel 47:5 (cf. KJB “the waters were risen”; ESV “the water had risen”) and “the heavens was open” at Matthew 3:16 (cf. KJB “the heavens were opened”).
+
+> 1539, Great Bible (1540 edition) [A10405] because they had understand the words that was declared unto them. [2 Esdras 8:12 (Nehemiah 8:12 in later Bibles); page cxcvij] The Bishops’ Bible has “because they had understand the words that were declared unto them.” The Geneva Bible has “the words that they had taught them.”
+
+> because they had understand the words that was declared unto them. [2 Esdras 8:12 (Nehemiah 8:12 in later Bibles); page cxcvij] The Bishops’ Bible has “because they had understand the words that were declared unto them.” The Geneva Bible has “the words that they had taught them.”
+
+> The Bishops’ Bible has “because they had understand the words that were declared unto them.” The Geneva Bible has “the words that they had taught them.”
+
+> [Page 10] 1560, Geneva Bible (1561 edition) [A10675] Then the city was broken up, and all the men of war fled by night, by the way of the gate, which is between two walls that was by the king’s garden: [2 Kings 25:4; page 153] The syntax and punctuation make gate the agreement controller of is , and walls the agreement controller of was . In the King James Bible, the syntax and punctuation make gate the only agreement controller: “by the way of the gate, between two walls, which is by the king’s garden.”
+
+> Then the city was broken up, and all the men of war fled by night, by the way of the gate, which is between two walls that was by the king’s garden: [2 Kings 25:4; page 153] The syntax and punctuation make gate the agreement controller of is , and walls the agreement controller of was . In the King James Bible, the syntax and punctuation make gate the only agreement controller: “by the way of the gate, between two walls, which is by the king’s garden.”
+
+> The syntax and punctuation make gate the agreement controller of is , and walls the agreement controller of was . In the King James Bible, the syntax and punctuation make gate the only agreement controller: “by the way of the gate, between two walls, which is by the king’s garden.”
+
+The Book of Mormon has many instances of this kind of language; there are no fewer than 53 cases of plural was after the relative pronoun which (there are also three cases of plural “that was”). Seven times the agreement controller is words , as in the Great Bible’s “the words that was declared.” Here is one example of this:
+
+> Helaman 8:13 and also the words which was spoken by this man Moses,
+
+> and also the words which was spoken by this man Moses,
+
+
+## Object they
+
+Besides employing an apparent instance of plural was (John 2:2, shown above), the translator and clergyman Miles Coverdale (1488–1569) also employed they in object position after the preposition for . Here is how he expressed this phraseology in his translation of Acts:
+
+> 1535, Coverdale Bible [A10349] As for all they of Athens and strangers and guests, they gave themselves to nothing else, but either to tell or to hear some news. [Acts 17:21; page lx] This object they syntax is not found in Tyndale 1534, and the King James Bible has a parenthetical here with different phraseology: “(For all the Athenians and strangers which were there, spent their time in nothing else, but either to tell or to hear some new thing.)”
+
+> As for all they of Athens and strangers and guests, they gave themselves to nothing else, but either to tell or to hear some news. [Acts 17:21; page lx] This object they syntax is not found in Tyndale 1534, and the King James Bible has a parenthetical here with different phraseology: “(For all the Athenians and strangers which were there, spent their time in nothing else, but either to tell or to hear some new thing.)”
+
+> This object they syntax is not found in Tyndale 1534, and the King James Bible has a parenthetical here with different phraseology: “(For all the Athenians and strangers which were there, spent their time in nothing else, but either to tell or to hear some new thing.)”
+
+The usual way to express such language was “as for (all) those of” followed by “as for (all) them of.” In this case, those is favored over them a little more than three to one in EEBO 1 .
+
+A similar example is the following:
+
+> before 1553, Nicholas Udall [1505–1556] What creature is in health, either young or old [ Ralph Roister Doister ] (1566) [A14193] And as for all they that would do you wrong,
+
+> And as for all they that would do you wrong,
+
+The Book of Mormon has three examples of object they after the preposition for , each with a following relative clause. Thus these are structurally the same as the Udall case. Here is one such instance:
+
+> 3 Nephi 19:23 And now Father, I pray unto thee for them, and also for all they which shall believe on their words, The other two instances read “for they which are at Jerusalem” (1 Nephi 19:13, 20).
+
+> And now Father, I pray unto thee for them, and also for all they which shall believe on their words, The other two instances read “for they which are at Jerusalem” (1 Nephi 19:13, 20).
+
+> The other two instances read “for they which are at Jerusalem” (1 Nephi 19:13, 20).
+
+The Book of Mormon has a total of 36 instances of object they usage, which might be a record-setting amount for a single text. Twenty-three of these involve the two-word phrase they which , usage which was far down on a list of Joseph Smith’s native syntactic preference.
+
+
+## Plural hath
+
+William Tyndale’s translation contains a conjoined case of plural hath:
+
+> 1534, William Tyndale (translator), The New Testament [A68940] When his branches are yet tender and hath brought forth leaves [Mark 13:28] The plural noun phrase his branches is the most likely subject of hath , while clearly it is the subject of are . If the grammatical subject of hath were the fig tree, then we would expect an it after the conjunction — that is, *“and it hath brought forth leaves.” The King James Bible reads consistently in the singular: “When her branch is yet tender, and putteth forth leaves.”
+
+> When his branches are yet tender and hath brought forth leaves [Mark 13:28] The plural noun phrase his branches is the most likely subject of hath , while clearly it is the subject of are . If the grammatical subject of hath were the fig tree, then we would expect an it after the conjunction — that is, *“and it hath brought forth leaves.” The King James Bible reads consistently in the singular: “When her branch is yet tender, and putteth forth leaves.”
+
+> The plural noun phrase his branches is the most likely subject of hath , while clearly it is the subject of are . If the grammatical subject of hath were the fig tree, then we would expect an it after the conjunction — that is, *“and it hath brought forth leaves.” The King James Bible reads consistently in the singular: “When her branch is yet tender, and putteth forth leaves.”
+
+Instead of employing have after the conjunction and , Tyndale used a less-common option of the early modern period. A conjoined predicate made the use of the {-th} plural more likely during that time. That is what we see in this next Book of Mormon example:
+
+> [Page 12] Alma 26:36 Yea, blessed is the name of my God, who hath been mindful of this people , which are a branch of the tree of Israel and hath been lost from its body in a strange land. The grammatical subject is which (in italics above) and the agreement controller is people (in small caps above). Even though the relative pronoun which doesn’t tell us by its form whether it is plural or singular, we know it’s plural because of the immediately following verb are . The subject of hath is understood to be the same plural which .
+
+> Yea, blessed is the name of my God, who hath been mindful of this people , which are a branch of the tree of Israel and hath been lost from its body in a strange land. The grammatical subject is which (in italics above) and the agreement controller is people (in small caps above). Even though the relative pronoun which doesn’t tell us by its form whether it is plural or singular, we know it’s plural because of the immediately following verb are . The subject of hath is understood to be the same plural which .
+
+> The grammatical subject is which (in italics above) and the agreement controller is people (in small caps above). Even though the relative pronoun which doesn’t tell us by its form whether it is plural or singular, we know it’s plural because of the immediately following verb are . The subject of hath is understood to be the same plural which .
+
+By way of comparison, here is what we read in Tyndale’s Mark 13:28 translation and Joseph Smith’s 1829 dictation of the Book of Mormon:
+
+  - branches are . . . and hath . . .
+  - people which are . . . and hath . . .
+
+The earliest text of the Book of Mormon has at least 180 verb forms that take {-th} inflection when the grammatical subjects are not third person singular. Among these are close to 70 instances of plural hath , in various syntactic contexts.
+
+These next examples of plural hath are not conjoined cases. In these, hath immediately follows the plural noun phrase. The first is from a margin note in Revelation 15 and the second is from a biblical preface:
+
+> 1560, Geneva Bible (1561 edition) [A10675] For in all kings’ courts, the popes hath had his ambassadors to hinder the kingdom of Christ. [Revelation 15:14, note o; page 109] The his of “his ambassadors” appears to refer to the devil.
+
+> For in all kings’ courts, the popes hath had his ambassadors to hinder the kingdom of Christ. [Revelation 15:14, note o; page 109] The his of “his ambassadors” appears to refer to the devil.
+
+> The his of “his ambassadors” appears to refer to the devil.
+
+> 1568, Bishops’ Bible [A10708] It is not unknown, but that many things hath been more diligently discussed, and more clearly understanded by the wits of these latter days, as well concerning the Gospels as other scriptures, than in old time they were . [preface; page image 44] Here we read “things hath,” but also “they were,” referring back to things .
+
+> It is not unknown, but that many things hath been more diligently discussed, and more clearly understanded by the wits of these latter days, as well concerning the Gospels as other scriptures, than in old time they were . [preface; page image 44] Here we read “things hath,” but also “they were,” referring back to things .
+
+> Here we read “things hath,” but also “they were,” referring back to things .
+
+Other verbs with plural agreement controllers carry {-th} inflection in early Bibles, as in the following examples with the plural relative pronoun that:
+
+> 1539, Great Bible (1540 edition) [A10405] O how beautiful are the feet of the ambassadors that bringeth the message from the mountain and proclaimeth peace: [Isaiah 52:7; page image 523] Then I looked, and behold, in process of time the feathers that followeth were set up upon the right side, that they might rule also: [4 Esdras 11:20; in later Bibles , 2 Esdras 11:20; page lvij]
+
+> O how beautiful are the feet of the ambassadors that bringeth the message from the mountain and proclaimeth peace: [Isaiah 52:7; page image 523] Then I looked, and behold, in process of time the feathers that followeth were set up upon the right side, that they might rule also: [4 Esdras 11:20; in later Bibles , 2 Esdras 11:20; page lvij]
+
+> [Page 13] 1560, Geneva Bible (1561 edition) [A10675] And every beast that parteth the hoof, and cleaveth the cleft into two claws, and is of the beasts that cheweth the cud, that shall ye eat. [Deuteronomy 14:16; page 85] Under him was the foundation of the double height laid, and the high walls that compasseth the temple. [Ecclesiasticus 50:2; page 403]
+
+> And every beast that parteth the hoof, and cleaveth the cleft into two claws, and is of the beasts that cheweth the cud, that shall ye eat. [Deuteronomy 14:16; page 85] Under him was the foundation of the double height laid, and the high walls that compasseth the temple. [Ecclesiasticus 50:2; page 403]
+
+> 1568, Bishops’ Bible [A10708] All the griefs that lieth hid in your hearts.[Psalm 62:8, note a; page image 693] even so shall the multitude of all nations that fighteth against mount Sion. [Isaiah 29:8; page lxxxiij] The Geneva Bible and the King James Bible have the base form of the verb in Isaiah 29:8, fight . Even if the agreement controller is multitude instead of nations , fighteth might still be plural, since multitude was sometimes construed as plural, as in Matthew 9:25 in the Geneva Bible and 1 Samuel 14:16 in the Bishops’ Bible. Or shall the cold flowing waters that cometh from another place be forsaken? [Jeremiah 18:14; page image 875] The King James Bible has the base form of the verb here, come .
+
+> All the griefs that lieth hid in your hearts.[Psalm 62:8, note a; page image 693] even so shall the multitude of all nations that fighteth against mount Sion. [Isaiah 29:8; page lxxxiij] The Geneva Bible and the King James Bible have the base form of the verb in Isaiah 29:8, fight . Even if the agreement controller is multitude instead of nations , fighteth might still be plural, since multitude was sometimes construed as plural, as in Matthew 9:25 in the Geneva Bible and 1 Samuel 14:16 in the Bishops’ Bible. Or shall the cold flowing waters that cometh from another place be forsaken? [Jeremiah 18:14; page image 875] The King James Bible has the base form of the verb here, come .
+
+> The Geneva Bible and the King James Bible have the base form of the verb in Isaiah 29:8, fight . Even if the agreement controller is multitude instead of nations , fighteth might still be plural, since multitude was sometimes construed as plural, as in Matthew 9:25 in the Geneva Bible and 1 Samuel 14:16 in the Bishops’ Bible.
+
+> The King James Bible has the base form of the verb here, come .
+
+
+## Subject you
+
+Subject you is included as an example of bad grammar, since almost all the usage was edited out of the King James Bible and many think that instances of subject you in the Book of Mormon are errors, cases of Joseph failing to measure up to a biblical standard.
+
+In the textual record, you overtook ye in subject position during the decade of the 1560s. The earlier pronominal variation mostly proceeded in the absence of judgments about correctness; it happened before attempts to codify English usage became prevalent.
+
+Shakespeare, writing at the turn of the century, employed ye only one percent of the time in these same contexts (11 out of 1,055 instances in the Riverside Edition available in WordCruncher). The low-level [Page 14] maintenance of subject ye seen at the right of Chart 1 can be ascribed in large part to biblical quoting and influence.
+
+The variation that was an integral part of the process of replacing subject ye with subject you in English is why we can find instances of these forms used very close together in 16th-century Bibles. Here are three examples of this:
+
+> 1560, Geneva Bible (1561 edition) [A10675] And I will bring a morsel of bread, that you may comfort your hearts, afterward ye shall go your ways: [Genesis 18:5; page image 21]
+
+> And I will bring a morsel of bread, that you may comfort your hearts, afterward ye shall go your ways: [Genesis 18:5; page image 21]
+
+> 1568, Bishops’ Bible [A10708] on this manner, see that you speak unto Esau when ye meet him. [Genesis 32:18; page xxij]
+
+> on this manner, see that you speak unto Esau when ye meet him. [Genesis 32:18; page xxij]
+
+> 1582, Rheims New Testament [A16049] And do ye all things without murmurings and staggerings: that you may be without blame, [Philippians 2:14; page 528]
+
+> And do ye all things without murmurings and staggerings: that you may be without blame, [Philippians 2:14; page 528]
+
+The Book of Mormon has at least 15 instances of subject you , and most of the time these occur near instances of subject ye , as in these two cases:
+
+> Mosiah 5:15 that Christ the Lord God Omnipotent may seal you his, that you may be brought to heaven, that ye may have everlasting salvation and eternal life The first you (in italics) is an object and the second you (in bold) is a subject.
+
+> that Christ the Lord God Omnipotent may seal you his, that you may be brought to heaven, that ye may have everlasting salvation and eternal life The first you (in italics) is an object and the second you (in bold) is a subject.
+
+> The first you (in italics) is an object and the second you (in bold) is a subject.
+
+> Alma 7:6 Yea, I trust that ye have not set your hearts upon riches and the vain things of the world. Yea, I trust that you do not worship idols, but that ye do worship the true and the living God and that ye look forward for the remission of your sins Here we see a nearby minimal pair: “I trust that ye/you.” The EEBO 1 database has 34 instances of “trust that ye” and 54 instances of “trust that you” (using several spelling variants).
+
+> Yea, I trust that ye have not set your hearts upon riches and the vain things of the world. Yea, I trust that you do not worship idols, but that ye do worship the true and the living God and that ye look forward for the remission of your sins Here we see a nearby minimal pair: “I trust that ye/you.” The EEBO 1 database has 34 instances of “trust that ye” and 54 instances of “trust that you” (using several spelling variants).
+
+> Here we see a nearby minimal pair: “I trust that ye/you.” The EEBO 1 database has 34 instances of “trust that ye” and 54 instances of “trust that you” (using several spelling variants).
+
+The late 16th-century Bibles have the majority of the scriptural examples of nearby subject you ~ subject ye variation. But the earlier Bibles do have [Page 15] instances of subject you . Here are two examples of subject you from two biblical texts of the 1530s, the first with nearby object you and subject you:
+
+Chart 1. Comparison of nominative you and ye.
+
+> 1534, William Tyndale (translator), The New Testament [A68940] that is to say, whosoever receiveth you , there abide as long as you are in the city or town, [addendum; page image 860] The first you is an object (in italics) and the second you is a subject (in bold). This excerpt is found in an addendum at the end of the book.
+
+> that is to say, whosoever receiveth you , there abide as long as you are in the city or town, [addendum; page image 860] The first you is an object (in italics) and the second you is a subject (in bold). This excerpt is found in an addendum at the end of the book.
+
+> The first you is an object (in italics) and the second you is a subject (in bold). This excerpt is found in an addendum at the end of the book.
+
+> 1539, Great Bible (1540 edition) [A10405] how happeneth it then, that you come unto me now in time of your tribulation? [Judges 11:7; page ciij] The Geneva Bible also has you , but the King James Bible has ye . (The EEBO 1 copy of the Bishops’ Bible is missing a page for this passage.) It cannot be that you and we together should build the house unto our God: [1 Esdras 4:3; in later Bibles , Ezra 4:3; page image 385] The Geneva Bible has different syntax here, but the Bishops’ Bible has subject you , and the King James Bible has subject you with quite different wording.
+
+> how happeneth it then, that you come unto me now in time of your tribulation? [Judges 11:7; page ciij] The Geneva Bible also has you , but the King James Bible has ye . (The EEBO 1 copy of the Bishops’ Bible is missing a page for this passage.) It cannot be that you and we together should build the house unto our God: [1 Esdras 4:3; in later Bibles , Ezra 4:3; page image 385] The Geneva Bible has different syntax here, but the Bishops’ Bible has subject you , and the King James Bible has subject you with quite different wording.
+
+> The Geneva Bible also has you , but the King James Bible has ye . (The EEBO 1 copy of the Bishops’ Bible is missing a page for this passage.)
+
+> The Geneva Bible has different syntax here, but the Bishops’ Bible has subject you , and the King James Bible has subject you with quite different wording.
+
+> 1611, King James Bible Why are ye so fearful? How is it that you have no faith? [Mark 4:40]
+
+> Why are ye so fearful? How is it that you have no faith? [Mark 4:40]
+
+
+## Third person singular verb forms in {-s}
+
+The use of third person singular {-s} forms is included as an example of bad grammar, since this variation has been edited out of the King James Bible and people tend to think that the scriptural {-s} forms of the Book of Mormon are errors, cases of Joseph failing to measure up to a biblical standard.
+
+> 1568, Bishops’ Bible [A10708] What imagine ye against the Lord? he makes an utter destruction: ye shall not be troubled twice. [Nahum 1:9; page image 1037] Two verses earlier, the 3sg verb form knoweth is used, so there is nearby variation. The King James Bible has a future tense here: “he will make an utter end.”
+
+> What imagine ye against the Lord? he makes an utter destruction: ye shall not be troubled twice. [Nahum 1:9; page image 1037] Two verses earlier, the 3sg verb form knoweth is used, so there is nearby variation. The King James Bible has a future tense here: “he will make an utter end.”
+
+> Two verses earlier, the 3sg verb form knoweth is used, so there is nearby variation. The King James Bible has a future tense here: “he will make an utter end.”
+
+> 1611, King James Bible every man that takes it up, will shake his hand. [Ecclesiasticus 22:2] Instead of 3sg takes , the Bishops’ Bible employs 3sg toucheth .
+
+> every man that takes it up, will shake his hand. [Ecclesiasticus 22:2] Instead of 3sg takes , the Bishops’ Bible employs 3sg toucheth .
+
+> Instead of 3sg takes , the Bishops’ Bible employs 3sg toucheth .
+
+Here is an example of nearby {-s} ~ {-th} variation, which was eventually edited to be {-th} consistently:
+
+> 1611, King James Bible He sticks not to spend his life with his wife, and remembereth neither father nor mother nor country. [1 Esdras 4:21]
+
+> He sticks not to spend his life with his wife, and remembereth neither father nor mother nor country. [1 Esdras 4:21]
+
+The Book of Mormon has more than a dozen examples of nearby 3sg inflectional variation with main verbs, as in these two examples:
+
+> [Page 17] 1 Nephi preface The Lord warns Lehi to depart out of the land of Jerusalem because he prophesieth unto the people concerning their iniquity Nephi taketh his brethren and returns to the land of Jerusalem after the record of the Jews.
+
+> The Lord warns Lehi to depart out of the land of Jerusalem because he prophesieth unto the people concerning their iniquity Nephi taketh his brethren and returns to the land of Jerusalem after the record of the Jews.
+
+This same nearby variation is attested in the 17th-century textual record. EEBO 1 has one instance of warns and prophesieth occurring in the same paragraph (1677, A42781), and there are 11 distinct cases of the verbs taketh and returns occurring within 20 words of each other (dating between 1579 and 1700), as in these two examples:
+
+> 1652, Alexander Ross [1591–1654] The history of the world [A57652] he taketh divers towns and returns to Spain; [page image 762]
+
+> he taketh divers towns and returns to Spain; [page image 762]
+
+> 1679, Robert Barclay [1648–1690] Apology for the true Christian divinity [A30896] To all this he returns no answer, which taketh up six pages in my apology, [page 17]
+
+> To all this he returns no answer, which taketh up six pages in my apology, [page 17]
+
+A corpus linguist might be interested in quantifying this inflectional variation during the early modern period. For the purposes of this study, I am merely interested in showing that sometimes we find specific matching between early modern variation and Book of Mormon usage, many times with very little or no pseudobiblical support.
+
+
+## Irregular past participles
+
+Three-form verbs such as drive ~ drove ~ driven or sink ~ sank ~ sunk are much less common than two-form verbs in English, and so the force of analogy toward the more common, simpler two-form type drives the leveling of past participles toward past-tense verb forms. Tyndale provides an example of the leveled past participle smote (instead of King James–style smitten ). The syntax is a match with a Book of Mormon example (shown further below):
+
+> 1530, William Tyndale (translator), [The Pentateuch] [A13203] And it continued a week after that the Lord had smote the river [Exodus 7:25; page xii] This 1530 translation has another case of “had smote” and one of “had smoten” (there are 15 instances of smoten in EEBO 1 ). The 1611 King James text reads “And seven days were fulfilled, after that the Lord had smitten the river.” The Coverdale Bible, Great Bible, Geneva Bible, and Bishops’ Bible each have 10 or 11 examples of invariant “had smitten.”
+
+> And it continued a week after that the Lord had smote the river [Exodus 7:25; page xii] This 1530 translation has another case of “had smote” and one of “had smoten” (there are 15 instances of smoten in EEBO 1 ). The 1611 King James text reads “And seven days were fulfilled, after that the Lord had smitten the river.” The Coverdale Bible, Great Bible, Geneva Bible, and Bishops’ Bible each have 10 or 11 examples of invariant “had smitten.”
+
+> This 1530 translation has another case of “had smote” and one of “had smoten” (there are 15 instances of smoten in EEBO 1 ). The 1611 King James text reads “And seven days were fulfilled, after that the Lord had smitten the river.” The Coverdale Bible, Great Bible, Geneva Bible, and Bishops’ Bible each have 10 or 11 examples of invariant “had smitten.”
+
+Even though the use of smote as a past participle instead of smitten in this past perfect context was the exception during the early modern period, it wasn’t rare. In EEBO 1 it occurs about nine percent of the time [Page 18] (29 out of 328 possible cases), despite strong biblical influence favoring “had smitten.” Though it was on balance always the less-common usage, past participle leveling became particularly prevalent in the textual record in the 1600s, with a wide variety of verbs.
+
+The earliest text of the Book of Mormon has dozens of instances of past participle leveling, with many different verbs (see GV 599–627). Here is the one that is just like the above example:
+
+> 1 Nephi 4:19 And after that I had smote off his head with his own sword, The syntactic match with Tyndale’s rendering of Exodus 7:25 includes archaic “after that” (in italics) as well as “had smote.”
+
+> And after that I had smote off his head with his own sword, The syntactic match with Tyndale’s rendering of Exodus 7:25 includes archaic “after that” (in italics) as well as “had smote.”
+
+> The syntactic match with Tyndale’s rendering of Exodus 7:25 includes archaic “after that” (in italics) as well as “had smote.”
+
+The Book of Mormon clearly favors the past-participial verb form smitten over smote , 42 to 6, but it has three instances of “had smote” and none of “had smitten.”
+
+Tyndale provides an example of another kind of past participle leveling, involving the verb eat:
+
+> 1530, William Tyndale (translator), [The Pentateuch] [A13203] And when they had eat up that corn which they brought out of the land of Egypt [Genesis 43:2; page image 145]
+
+> And when they had eat up that corn which they brought out of the land of Egypt [Genesis 43:2; page image 145]
+
+The past participle of eat has adopted a few different forms through the centuries. In the above example, the pronunciation of the past participle was probably /εt/, with a short e , to judge from the Oxford English Dictionary entry. Here is another instance of this leveled past participle from Tyndale’s writings, along with a Book of Mormon example:
+
+> 1536, William Tyndale, An exposition upon . . Matthew [A14133] and the rest they and their households did eat before God, as though they had eat and drunk with God,
+
+> and the rest they and their households did eat before God, as though they had eat and drunk with God,
+
+> Alma 8:23 after he had eat and was filled, he saith unto Amulek:
+
+> after he had eat and was filled, he saith unto Amulek:
+
+The original Book of Mormon text has four instances of “had . . . eat” (all edited out) and two of “had . . . eaten.”
+
+> [Page 19] 1609, Douay Old Testament [A11777] and therefore spoke , as if God himself had spoke in divine person, [Exodus 3:1, annotation; page 162] Past-tense spoke (in italics) occurs just before the past participle spoke (in bold).
+
+> and therefore spoke , as if God himself had spoke in divine person, [Exodus 3:1, annotation; page 162] Past-tense spoke (in italics) occurs just before the past participle spoke (in bold).
+
+> Past-tense spoke (in italics) occurs just before the past participle spoke (in bold).
+
+The Book of Mormon has 12 examples of the leveled form “had spake,” as in the following case:
+
+> 3 Nephi 28:4 And when he had spake unto them,
+
+> And when he had spake unto them,
+
+The poet John Donne provides a similar example of “had spake” (also in a subordinate clause headed by when ) in a sermon that he gave as a Church of England clergyman:
+
+> 1619, John Donne [1572–1631] Fifty sermons (1649) [A36296] when he had spake of light, and a firmament, and earth, and sea, [page 93] Sermon No. 11, preached at Lincoln’s Inn, most likely before 18 April 1619.
+
+> when he had spake of light, and a firmament, and earth, and sea, [page 93] Sermon No. 11, preached at Lincoln’s Inn, most likely before 18 April 1619.
+
+> Sermon No. 11, preached at Lincoln’s Inn, most likely before 18 April 1619.
+
+Past participle leveling was less common in passive contexts (and it still is), but it did occur, and so we can find examples of passive “been smote” and “been spake” in the textual record, with matches found in the Book of Mormon:
+
+> 1683, John Bulteel (translator) [fl. 1683] | François Eudes de Mézeray [1610–1683] A general chronological history of France [A70580] They say he immediately fell into a fit of madness, as if he had been smote from heaven, [page 60]
+
+> They say he immediately fell into a fit of madness, as if he had been smote from heaven, [page 60]
+
+> Alma 17:39 bearing the arms which had been smote off by the sword of Ammon
+
+> bearing the arms which had been smote off by the sword of Ammon
+
+▪ ▪ ▪
+
+> 1646, John Bastwick [1593–1654] The utter routing of the whole army of all the independents and sectaries [A26759] This had not been spake of at all (saith the Author) if some idle men to gull the world had not given the honor of the day to those who had but little or no share in it. [page 634]
+
+> This had not been spake of at all (saith the Author) if some idle men to gull the world had not given the honor of the day to those who had but little or no share in it. [page 634]
+
+> Alma 6:8 according to the revelation of the truth of the word which had been spake by his fathers
+
+> according to the revelation of the truth of the word which had been spake by his fathers
+
+[Page 20] This latter match is rare; currently only three instances of “been spake” are known outside of the Book of Mormon: the above 17th-century example and two others from the same century.
+
+▪ ▪ ▪
+
+Another kind of past participle leveling is when a past participle immediately follows a conjunction. The distance from the auxiliary verb have increases the likelihood of leveling. Here is a possible example of this:
+
+> 1610, Douay Old Testament [A11777] All these things I have considered and gave my heart on all the works that are done under the sun. [Ecclesiastes 8:9; page 327]
+
+> All these things I have considered and gave my heart on all the works that are done under the sun. [Ecclesiastes 8:9; page 327]
+
+The interpretation that gave in this verse might actually be a past participle — that is, “have . . . gave” — finds support in an earlier Bible, which has “have given” in this verse:
+
+> 1560, Geneva Bible (1561 edition) [A10675] All this have I seen and have given mine heart to every work which is wrought under the sun, [Ecclesiastes 8:9; page 249]
+
+> All this have I seen and have given mine heart to every work which is wrought under the sun, [Ecclesiastes 8:9; page 249]
+
+The original Book of Mormon text has an example of this kind of leveling with the same verb:
+
+> 1 Nephi 5:8 the Lord hath protected my sons and delivered them out of the hands of Laban and gave them power
+
+> the Lord hath protected my sons and delivered them out of the hands of Laban and gave them power
+
+Here is one of three similar examples I’ve been able to verify in EEBO 1 :
+
+> 1560, John Daus (translator), Sleidane’s Commentaries [A09567] He hath chosen Octavius to his son in law, and gave to his father Aloise the city of Novaria forever, [page image 749] Two other examples of this syntax are found in A57385 (1657) and A51846 (1684).
+
+> He hath chosen Octavius to his son in law, and gave to his father Aloise the city of Novaria forever, [page image 749] Two other examples of this syntax are found in A57385 (1657) and A51846 (1684).
+
+> Two other examples of this syntax are found in A57385 (1657) and A51846 (1684).
+
+
+## Double negation
+
+Double negation wasn’t uncommon in Early Modern English, and so it’s possible to find it in early English Bibles. Here are two examples of one type of double negation that is also found in the Book of Mormon:
+
+> 1560, Geneva Bible (1561 edition) [A10675] When the jaws shall scarce open and not be able to chew no more. [Ecclesiastes 12:4, note g; page 250] therefore he feared him, and would not see his face no more. [1 Maccabees 7:30; page 415]
+
+> When the jaws shall scarce open and not be able to chew no more. [Ecclesiastes 12:4, note g; page 250] therefore he feared him, and would not see his face no more. [1 Maccabees 7:30; page 415]
+
+[Page 21] Other Bibles, including the King James text, have single negation in 1 Maccabees 7:30: “would [ø] see his face no more.”
+
+> Alma 23:7 they did lay down the weapons of their rebellion, that they did not fight against God no more,
+
+> they did lay down the weapons of their rebellion, that they did not fight against God no more,
+
+While the 1611 King James Bible doesn’t have any examples of “nor no,” the EEBO 1 database has nearly 4,500 instances in just over 2,300 texts. In the 16th century, “nor no” (as opposed to “nor any”) occurred about 20 percent of the time. In the 17th century, the usage rate of “nor no” dropped to 12.5 percent, and in the last decade of the century it was approaching nine percent. Chart 2 compares the usage rates of “nor no” and “nor any” during the early modern era. This chart shows that the decade of the 1550s was the last one where “nor no” was used as frequently as “nor any.”
+
+Here is an example of “nor no” in a 16th-century Bible, along with a Book of Mormon example:
+
+> 1560, Geneva Bible (1561 edition) [A10675] That our oxen may be strong to labor: that there be none invasion nor going out nor no crying in our streets: [Psalm 144:14; page image 509] The King James text reads “that there be no complaining in our streets.”
+
+> That our oxen may be strong to labor: that there be none invasion nor going out nor no crying in our streets: [Psalm 144:14; page image 509] The King James text reads “that there be no complaining in our streets.”
+
+> The King James text reads “that there be no complaining in our streets.”
+
+> Mosiah 3:17 And moreover I say unto you that there shall be no other name given nor no other way nor means whereby salvation can come unto the children of men,
+
+> And moreover I say unto you that there shall be no other name given nor no other way nor means whereby salvation can come unto the children of men,
+
+[Page 22] Chart 2. Comparison of “nor no” and “nor any.”
+
+Chart 2. Comparison of “nor no” and “nor any.”
+
+Tyndale has an example of “nor no” in a prologue:
+
+> 1530, William Tyndale (translator) [The Pentateuch] [A13203] For the Holy Ghost is no doom God [‘God of judgment’] nor no God that goeth a mumming [‘who disguises himself ’] [Leviticus, prologue; page image 359]
+
+> For the Holy Ghost is no doom God [‘God of judgment’] nor no God that goeth a mumming [‘who disguises himself ’] [Leviticus, prologue; page image 359]
+
+In addition, the Bishops’ Bible has an example of “nor no” in a margin note at Romans 10:2; the Rheims New Testament has five instances: one in the preface and four in annotations; and the later Douay Old Testament has one as well:
+
+> 1609, Douay Old Testament [A11777] we attribute no more nor no less to Christ, nor to our lady, by the one reading than by the other: [Genesis 3:15, annotation; page 12]
+
+> we attribute no more nor no less to Christ, nor to our lady, by the one reading than by the other: [Genesis 3:15, annotation; page 12]
+
+
+## Subjunctive ~ indicative variation after if
+
+There are quite a few cases of variation in grammatical mood after the hypothetical if in early English Bibles. This variational syntax involves a subjunctive verb form followed by a conjoined indicative verb form. Here are nine examples of this:
+
+> [Page 23] 1534, William Tyndale (translator) The New Testament [A68940] If any man long after life and loveth to see good days [1 Peter 3:10; page cccxviii]
+
+> If any man long after life and loveth to see good days [1 Peter 3:10; page cccxviii]
+
+> 1535, Coverdale Bible [A10349] But if his offering be a goat and bringeth it before the Lord, [Leviticus 3:12; page image 105] But if he be poor and getteth not so much with his hand, [Leviticus 14:21; page xlviij] If any man teach otherwise and agreeth not unto the wholesome words of our Lord Jesus Christ, [1 Timothy 6:3; page image 1139]
+
+> But if his offering be a goat and bringeth it before the Lord, [Leviticus 3:12; page image 105] But if he be poor and getteth not so much with his hand, [Leviticus 14:21; page xlviij] If any man teach otherwise and agreeth not unto the wholesome words of our Lord Jesus Christ, [1 Timothy 6:3; page image 1139]
+
+> 1539, Great Bible (1540 edition) [A10405] Either if a soul swear and pronounceth with his lips to do evil or to do good [Leviticus 5:4; page image 87] For if any man hear the word and declareth not the same by his works, [James 1:23; page image 1014] The Bishops’ Bible has the same verb forms as the first excerpt.
+
+> Either if a soul swear and pronounceth with his lips to do evil or to do good [Leviticus 5:4; page image 87] For if any man hear the word and declareth not the same by his works, [James 1:23; page image 1014] The Bishops’ Bible has the same verb forms as the first excerpt.
+
+> The Bishops’ Bible has the same verb forms as the first excerpt.
+
+> 1560, Geneva Bible (1561 edition) [A10675] If any man teach otherwise and consenteth not to the wholesome words of our Lord Jesus Christ, [1 Timothy 6:3; page 90] The Bishops’ Bible has the same verb forms.
+
+> If any man teach otherwise and consenteth not to the wholesome words of our Lord Jesus Christ, [1 Timothy 6:3; page 90] The Bishops’ Bible has the same verb forms.
+
+> The Bishops’ Bible has the same verb forms.
+
+> 1582, Rheims New Testament [A16049] If any man come to me and hateth not his father and mother, [Luke 14:26; page 181] The Bishops’ Bible and the King James Bible have subjunctive hate .
+
+> If any man come to me and hateth not his father and mother, [Luke 14:26; page 181] The Bishops’ Bible and the King James Bible have subjunctive hate .
+
+> The Bishops’ Bible and the King James Bible have subjunctive hate .
+
+> 1611, King James Bible If a man say , I love God, and hateth his brother, he is a liar. [1 John 4:20]
+
+> If a man say , I love God, and hateth his brother, he is a liar. [1 John 4:20]
+
+As shown immediately above, even the 1611 King James Bible has an example of this syntactic variation, and surprisingly, hateth has never been changed to hate .
+
+The Book of Mormon has four examples of this nearby variation:
+
+> Mosiah 26:29 And if he confess his sins before thee and me and repenteth in the sincerity of his heart,
+
+> And if he confess his sins before thee and me and repenteth in the sincerity of his heart,
+
+> Helaman 13:26 if a prophet come among you and declareth unto you the word of the Lord,
+
+> if a prophet come among you and declareth unto you the word of the Lord,
+
+> [Page 24] 3 Nephi 27:11 But if it be not built upon my gospel and is built upon the works of men or upon the works of the devil,
+
+> But if it be not built upon my gospel and is built upon the works of men or upon the works of the devil,
+
+> Moroni 7:44 And if a man be meek and lowly in heart and confesses by the power of the Holy Ghost
+
+> And if a man be meek and lowly in heart and confesses by the power of the Holy Ghost
+
+Searches indicate that the mixture of subjunctive and indicative verb forms in 3 Nephi 27:11 — “if <subject> be . . . and is” — rarely occurred after the hypothetical in the textual record. Here is one early 16th-century example:
+
+> 1525, translation, Jerome Brunschwig [about 1450–about 1512] The noble experience of the virtuous handiwork of surgery [A03315] If it be in a fleshly place and is not possible to be holpen after this manner aforesaid [page image 66]
+
+> If it be in a fleshly place and is not possible to be holpen after this manner aforesaid [page image 66]
+
+In contrast with this 1525 usage, in 3 Nephi 27:11 the subjunctive is used for what is not the case, and the indicative is used for what is the case.
+
+
+## Object who
+
+Although whom is used in object position the vast majority of the time, the late 16th-century Bibles have at least two instances of object who . In both cases below, the relative pronoun who precedes the verb that normally triggers object marking on who:
+
+> 1568, Bishops’ Bible [A10708] Meaning that he was not like in strength to the king of the Assyrians, who the Babylonians overcame. [Ezekiel 31:2, note b; page image 963] The relative pronoun who is the object of the verb overcome .
+
+> Meaning that he was not like in strength to the king of the Assyrians, who the Babylonians overcame. [Ezekiel 31:2, note b; page image 963] The relative pronoun who is the object of the verb overcome .
+
+> The relative pronoun who is the object of the verb overcome .
+
+> 1582, Rheims New Testament [A16049] the obdurate obstinacy that is in such who I have, for so great sins, forsaken. [Romans 9:17, annotation; page 407] The relative pronoun who is the object of the verb forsake .
+
+> the obdurate obstinacy that is in such who I have, for so great sins, forsaken. [Romans 9:17, annotation; page 407] The relative pronoun who is the object of the verb forsake .
+
+> The relative pronoun who is the object of the verb forsake .
+
+When a pronoun precedes a verb that normally triggers object marking on the pronoun, then the pronoun adopts the object form at a slightly lower rate.
+
+The following Book of Mormon example of object who occurs in the same syntactic context:
+
+> Mosiah 2:19 And behold also, if I, who ye call your king, who has spent his days in your service The second instance of who (in italics) is in subject position.
+
+> And behold also, if I, who ye call your king, who has spent his days in your service The second instance of who (in italics) is in subject position.
+
+> The second instance of who (in italics) is in subject position.
+
+[Page 25] The same syntactic phenomenon is seen in the case of object they here:
+
+> Jacob 1:14 they (object) which are friendly to Nephi I shall call (governing verb) Nephites
+
+> they (object) which are friendly to Nephi I shall call (governing verb) Nephites
+
+Examples of this kind of object they syntax — including a close paraphrase of Luke 11:52 — are found in the early modern textual record:
+
+> before 1534, John Bourchier (translator), Antonio de Guevara’s The golden book of Marcus Aurelius (1537) [A02303] He hated delicate and gay nurses, and they that were laborous, homely, and wholesome he loved , [page image 51]
+
+> He hated delicate and gay nurses, and they that were laborous, homely, and wholesome he loved , [page image 51]
+
+> before 1687, Thomas Watson, A body of practical divinity (1692) [A65285] ye entered not in yourselves, and they that were entering in ye hindered . [page 9] King James Bible, Luke 11:52 ye entered not in yourselves, and them that were entering in, ye hindered .
+
+> ye entered not in yourselves, and they that were entering in ye hindered . [page 9] King James Bible, Luke 11:52 ye entered not in yourselves, and them that were entering in, ye hindered .
+
+> King James Bible, Luke 11:52 ye entered not in yourselves, and them that were entering in, ye hindered .
+
+> ye entered not in yourselves, and them that were entering in, ye hindered .
+
+
+## Conclusion
+
+This study has presented a number of matches involving the grammatical usage of early Bibles and the original Book of Mormon text. In the case of the latter, most of these instances have been and are considered to be instances of poor grammar produced by Joseph Smith. However, a broad early modern view of most of its English usage accounts nicely for this bad grammar, while a modern dialectal view fails in several respects. This reality supports not viewing any of the above items as emanating from Joseph’s own language, except rarely as inadvertent misreadings of words that were given to him. The same reasoning applies to virtually all of the bad grammar found in the earliest text, whether or not it appears in earlier Bibles.
+
+
+## [Page 26] Appendix
+
+Early English Books Online: https://quod.lib.umich.edu/e/eebogroup .
+
+Early English Bibles: EEBO A13203 (1530), A68940 (1534), A10349 (1535), A10405 (1540), A10675 (1561), A10708 (1568), A16049 (1582), A11777 (1609–1610).
+
+Critical text: Royal Skousen, ed., The Book of Mormon: The Earliest Text (New Haven, Connecticut: Yale University Press, 2009).
+
+GV: Grammatical Variation (Provo, Utah: FARMS and BYU Studies, 2016)
+
+NOL: The Nature of the Original Language (Provo, Utah: FARMS and BYU Studies, 2018)
+
+Eighteenth Century Collections Online: https://www.gale.com/primary-sources/eighteenth-century-collections-online .
+
+Google Books: https://books.google.com/advanced_book_search .
+
+▪ ▪ ▪
+
+Twenty-five pseudobiblical texts consulted for this study (about 580,000 words total):
+
+LONGER PSEUDOBIBLICAL TEXTS (12)
+
+  - Robert Dodsley, Chronicle of the Kings of England (1740) [London] [about 16,500 words]
+  - Jacob Ilive, The Book of Jasher (1751) [London] [about 22,800 words]
+  - John Leacock, American Chronicles (1775) [Philadelphia] [about 14,500 words]
+  - Richard Snowden, The American Revolution (1793) [Philadelphia] [about 49,300 words]
+  - Matthew Linning, The First Book of Napoleon (1809) [Edinburgh] [about 19,000 words]
+  - Elias Smith, History of Anti-Christ (1811) [Portland ME] [about 15,000 words]
+  - Gilbert Hunt, The Late War (1816) [New York] [about 42,500 words]
+  - Roger O’Connor, Chronicles of Eri (1822) [London] [about 131,000 words]
+  - W. K. Clementson, The Epistles of Ignatius and Polycarp (1827) [Brighton UK] [about 18,000 words]
+  - Philemon Stewart, Sacred Roll (1843) [Canterbury NH] [about 62,000 words]
+  - Charles Linton, The Healing of the Nations (1855) New York] [about 111,000 words]
+  - Richard Grant White, The New Gospel of Peace (1863) [New York] [about 59,000 words]
+
+[Page 27] SHORTER PSEUDOBIBLICAL TEXTS (13) Horace Walpole, Book of Preferment (1742) [London] [about 2,700 words] The French Gasconade Defeated (1743) [Boston] [about 900 words] Benjamin Franklin, Parable Against Persecution (1755) [Philadelphia] [about 400 words] Chronicles of Nathan Ben Saddi (1758) [Philadelphia] [about 3,000 words] Samuel Hopkins, Samuel the Squomicutite (1763) [Newport RI] [about 600 words] The Book of America (1766) [Boston] [about 2,500 words] Chapter 37th (1782) [ Boston Evening Post ] [about 600 words] Chronicles of John (1812) [Charleston SC?] [about 800 words] The First Book of Chronicles, Chapter the Fifth (1812) [ The Investigator , SC] [about 1,800 words] Jesse Denson, Chronicles of Andrew (1815) [Lexington KY] [about 4,800 words] White Griswold, A Chronicle of the Chiefs of Muttonville (1830) [Harwinton CT] [about 900 words] Reformer Chronicles (1832) [Buffalo NY] [about 700 words] Chronicles of the Land of Gotham (1888) [New York] [about 1,300 words] ▪ ▪ ▪ Eleven early writings of Joseph Smith consulted for this study (up to January 1833; texts available at https://www.josephsmithpapers.org ): INDEXED WORDS Letter to Oliver Cowdery, 22 October 1829 334 Letter to the Church in Colesville, 2 December 1830 908 Letter to Martin Harris, 22 February 1831 245 Letter to Hyrum Smith, 3–4 March 1831 579 Letter to Emma Smith, 6 June 1832 632 Letter to William W. Phelps, 31 July 1832 2,731 Letter to Emma Smith, 13 October 1832 836 Letter to William W. Phelps, 27 November 1832 1,088 Letter to Noah C. Saxton, 4 January 1833 1,771 Letter to William W. Phelps, 11 January 1833 766 History, circa Summer 1832 2,037 1 . Grant Hardy, “ The Book of Mormon and the Bible,” in Americanist Approaches to The Book of Mormon, edited by Elizabeth Fenton and Jared Hickman (New York: Oxford University Press, 2019), 110, 113, 125. These remarks are close to those made by B. H. Roberts in the early 1900s, who mentioned “errors in grammar and diction” and “awkwardness” — see Roberts, “The Translation of the Book of Mormon,” Improvement Era 9, no. 6 (1906): 428; and Roberts, Defense of the Faith and the Saints 1 (Salt Lake City: Deseret News, 1907), 295.
+
+  - Horace Walpole, Book of Preferment (1742) [London] [about 2,700 words]
+  - The French Gasconade Defeated (1743) [Boston] [about 900 words]
+  - Benjamin Franklin, Parable Against Persecution (1755) [Philadelphia] [about 400 words]
+  - Chronicles of Nathan Ben Saddi (1758) [Philadelphia] [about 3,000 words]
+  - Samuel Hopkins, Samuel the Squomicutite (1763) [Newport RI] [about 600 words]
+  - The Book of America (1766) [Boston] [about 2,500 words]
+  - Chapter 37th (1782) [ Boston Evening Post ] [about 600 words]
+  - Chronicles of John (1812) [Charleston SC?] [about 800 words]
+  - The First Book of Chronicles, Chapter the Fifth (1812) [ The Investigator , SC] [about 1,800 words]
+  - Jesse Denson, Chronicles of Andrew (1815) [Lexington KY] [about 4,800 words]
+  - White Griswold, A Chronicle of the Chiefs of Muttonville (1830) [Harwinton CT] [about 900 words]
+  - Reformer Chronicles (1832) [Buffalo NY] [about 700 words]
+  - Chronicles of the Land of Gotham (1888) [New York] [about 1,300 words]
+
+▪ ▪ ▪
+
+Eleven early writings of Joseph Smith consulted for this study (up to January 1833; texts available at https://www.josephsmithpapers.org ):
+
+[Table omitted]
+
+Reading Hardy’s remarks on Book of Mormon grammar, which noticeably lack important context, we might think we were still back in 1907, in the dark ages of Book of Mormon grammatical study — in an era without large digital corpora and without the benefit of any text- critical work. Readers in 2020 are entitled to a qualifying remark related to the complex topic of grammatical usage in the original Book of Mormon text, something as simple as “(although text-critical studies show that a lot of the bad grammar defies easy explanations).”
+
+---
+Notes
+
+[1] The language of The Book of Mormon does not evince an appreciation for the aesthetic qualities of the King James Bible — the grammar and diction are quite awkward in comparison — yet the narratology is surprisingly sophisticated, ∗ ∗ ∗ the book’s language was so obviously imperfect — it was difficult to find the miracle in poor grammar and monotonous phrasing. ∗ ∗ ∗ the work has more literary interest than is often assumed, despite its sometimes awkward grammar and diction. 1
+
+[2] Extensive comparative study shows that the Book of Mormon contains archaic, nonbiblical usage to such a degree as to reasonably rule out Joseph Smith as its author. In the case of lexis, Royal Skousen laid out in 2018 about 80 potential cases of nonbiblical, obsolete lexical usage in the Book of Mormon (see NOL §§1, 3, 4, 7). 2 Even though many of these don’t hold [Page 3] up as instances of standalone archaism, the cases that remain represent a level of nonbiblical archaism that far exceeds any known pseudobiblical baseline. In the case of syntax, the Book of Mormon contains various large-scale archaic patterns and many individual archaic structures that are nonbiblical and nonpseudobiblical.
+
+[3] Tyndale’s 1530 translation of the Pentateuch Tyndale’s 1534 translation of the New Testament (a revision of his 1526 translation) 1535 Coverdale Bible 1539 Great Bible (1540 edition) 1560 Geneva Bible (1561 edition) 1568 Bishops’ Bible 1582 Rheims New Testament 1609–1610 Douay Old Testament (including the Apocrypha) 3 1611 King James Bible
+
+[4] Tyndale’s gift to the English language is unmeasurable. He translated into a register just above common speech, allied in its clarity to proverbs. It is a language which still speaks directly to the heart. His aims were always accuracy and clarity. King James’s revisers adopted his style, and his words, for much of the Authorized Version. At a time when European scholars and professionals communicated in Latin, Tyndale insisted on being understood by ordinary people. He preferred a simple Saxon syntax of subject–verb–object. His vocabulary is predominantly Saxon, and often monosyllabic. An Oxford scholar, he was always rhetorically alert. He gave the Bible-reading nation an English plain style. It is a basis [Page 4] for the great Elizabethan writers, and there is truth in the remark ‘without Tyndale, no Shakespeare’. It is not fanciful to see a chief agent of the energizing of the language in the sixteenth century in the constant reading of the Bible in English, of which Tyndale was the great maker. 4
+
+[5] During the early modern period, it wasn’t rare for authors to employ the singular verb form is when the noun influencing the agreement was plural things . This peculiarity of present-tense verb agreement occurred almost all the time in contexts involving relative clauses. Consequently, it isn’t surprising that this grammatical usage is found in early English Bibles. (In the case of the syntax “things <relative pronoun> is,” the grammatical subject is the relative pronoun, but the agreement controller is the antecedent things .) 5
+
+[6] For this study, 196 examples of “things that is” and “things which is” were noted in the EEBO Phase 1 database (25,368 texts; EEBO 1 ). 6 These 196 instances were found in 166 texts. Just under three-fourths of these 196 examples employ that as the relative pronoun (145 of them), reflecting the general preference of the early modern period for the relative pronoun that over which (yet some writers clearly preferred which ). Tallying the number of texts with instances, we find that their [Page 6] normalized frequency is nearly five times higher in the 16th century, suggesting that this syntax was more popular in the first half of the early modern period than in the second half. 7
+
+[7] Rarely do we encounter relatively heavy use of this syntax in a single text. The EEBO 1 text found to have the most examples was the encyclopedic work, De proprietatibus rerum (“On the properties of things”: 1582, A05237; about 615,000 words). It has eight instances of “things that is” (none of “things which is”), along with 17 instances of “things <relative pronoun> are” and 82 instances of “things <relative pronoun> be.” (In these searches, I excluded cases with intervening punctuation.) An example of this is “he apprehendeth all things that is without himself.” If we count the be usage as plural, then this text’s singular to plural ratio is far from that of the Book of Mormon: 8:99 versus 18:42. If we don’t count the be usage, then the ratios are close. Also of note is that in the 17th century the Quaker Edward Burrough (1633–1663) employed at least eight examples of “things [Page 8] <relative pronoun> is” in his writings (in several texts). An example of this is “to suffer all things that is put upon us” (1660, A30561). 8
+
+[8] A closely related construction is the so-called plural was , with or without a relative pronoun subject. Tense was a factor in influencing usage rates of singular forms of the verb be with plural noun phrases. For example, “things is” usage (without a relative pronoun) was rare in Early Modern English, but “things was” usage was much more common. Plural was usage was more frequent than plural is precisely because of tense. 9 This tendency persisted into the late modern period.
+
+[9] The Great Bible and the Geneva Bible also have examples of plural was that occur right after the relative pronoun that: 10
+
+[10] The structural difference is that this example has a following relative clause, while the Coverdale example has a following prepositional phrase. (The relative pronoun and the preposition are in italics above.) [Page 11] These were the syntactic structures — both involving post-modification — that made the use of object they more likely for these authors. 11
+
+[11] Chart 1 gives an idea of the change in usage over time. It was generated from hundreds of thousands of instances of subject you and subject ye taken from the EEBO 1 database. The search strings “if you,” “then you,” “that you”; “if ye,” “then ye,” “that ye” were used as a simple way to reliably isolate nominative forms. 12
+
+[12] Charles Barber wrote that “the first examples of nominative you go back to the fourteenth century, but in the standard literary language its encroachment was not rapid until the 1540s.” 13 Chart 1 shows that the last part of this statement is quite accurate.
+
+[13] The King James Bible originally had hundreds of examples of subject you (about 300, according to one source). 14 Consequently, there are quite [Page 16] a few examples of nearby variation between subject you and subject ye in the 1611 text, such as the following:
+
+[14] Third person singular (3sg) verb forms ending in {-s} (the northern form, historically) eventually took over from 3sg {-th} forms (the southern form, historically). 15 Nearby variation in the written record began to be prevalent in the late 16th century. The 1568 Bishops’ Bible has an example with the verb make (shown immediately below), and even the King James Bible originally had a few examples, such as the one below with the verb take:
+
+[15] For a long time, past participle leveling was relatively favored after had , in the pluperfect, which is the tense of the above examples. This tendency even persists to this day with some verbs, such as speak . For example, “had spoke” is still more commonly used than “have/has spoke.” 16 Here is an example of “had spoke” from a Douay–Rheims annotation:
+
+[16] Another kind of double negation which was quite common during the early modern period is “nor no,” occurring with various noun phrases. 17 For instance, the original reading of 4 Nephi 1:17 was “nor no murderers.” Similar examples of this double negation with agentive noun phrases can be found in the textual record, such as “nor no preachers” (1648, A64135) and “nor no troublers of Israel” (1656, A27047).
+
+[17] The Ngram Viewer indicates that the usage rate of “nor no” (as opposed to “nor any”) was about 3.5 percent in the 1820s, but the actual rate was lower than that (probably much lower), since there are many instances of old, reprinted language in that decade of the Google Books database. 18
+

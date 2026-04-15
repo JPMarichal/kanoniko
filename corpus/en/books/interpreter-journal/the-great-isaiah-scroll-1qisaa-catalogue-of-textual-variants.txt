@@ -1,0 +1,336 @@
+[Page 55] Abstract: In this erudite survey of textual variants in the “Great Isaiah Scroll” from Qumran, Donald W. Parry lays out the major categories of these differences with illustrative examples. This significant description of the most significant book of Old Testament prophecy provides ample evidence of Parry’s conclusion that the “Great Isaiah Scroll” “sets forth such a wide diversity and assortment of textual variants that [it] is indeed a catalogue, as it were, for textual criticism.”
+
+[Editor’s Note: Part of our book chapter reprint series, this article is reprinted here as a service to the LDS community. Original pagination and page numbers have necessarily changed, otherwise the reprint has the same content as the original.
+
+See Donald W. Parry, “The Great Isaiah Scroll (1QIsa a )—Catalogue of Textual Variants,” in “To Seek the Law of the Lord”: Essays in Honor of John W. Welch , ed. Paul Y. Hoskisson and Daniel C. Peterson (Orem, UT: The Interpreter Foundation, 2017), 247–65. Further information at https://interpreterfoundation.org/books/to-seek-the-law-of-the-lord-essays-in-honor-of-john-w-welch-2/.]
+
+The Qumran caves, located near the northwestern area of the Dead Sea, yielded twenty-one copies of the book of Isaiah—two from Cave 1, eighteen from Cave 4, and one from Cave 5. An additional copy (making a total of twenty-two copies) of Isaiah was discovered south of Qumran in a cave at Wadi Murabba‘at. All twenty-two copies of Isaiah are written in Hebrew. Most of these scrolls are severely damaged and fragmented, owing to long-term exposure to the elements. Altogether, [Page 56] the Isaiah scrolls represent about 10 percent of all biblical scrolls discovered at Qumran. This statistic alone indicates that Isaiah held a prominent place in the Qumran community, but other indications also reveal Isaiah’s significance. Isaiah’s book is treated as an authoritative work by the Qumran covenanters; in their sectarian writings, they cite, paraphrase, and allude to Isaiah more than any other prophet. These Isaiah quotations and allusions are located in legal, eschatological, and poetic contexts of the sectarian writings and reveal ideological and theological positions of the Qumran community. In addition to the twenty-two Isaiah scrolls themselves and the sectarian writings that include quotes and allusions to Isaiah, the Qumran discoveries included six Isaiah pesharim (commentaries).
+
+The twenty-two copies of Isaiah represent significant archaeological finds. These Isaiah texts, discovered between the years 1947 and 1952, have impacted our understanding of the textual history of the Bible, and translators have utilized them for modern translations of the Bible.
+
+The most significant of the twenty-two copies of Isaiah is called the Great Isaiah Scroll, or 1QIsa a . This scroll is virtually complete, containing all sixty-six chapters. It is the only complete biblical scroll discovered in the eleven Qumran caves; as such, it presents a view of what biblical manuscripts looked like at the end of the Second Temple era, around the first century CE. Unlike the Masoretic Text (MT) with its consonantal and vocalization framework and system of notes, accents, and versification, 1QIsa a features a handwritten manuscript without vocalization or accents. Additionally, 1QIsa a contains interlinear or marginal corrections, scribal marks and notations, a different paragraphing system, and special morphological and orthographic features.
+
+With regard to the topic of this present paper, 1QIsa a contains such an assortment of textual variants versus the readings of MT, that this Qumran scroll may be considered a catalogue of textual variants. By catalogue , I refer to a “complete list of items.” But unlike most catalogues, which generally present items in a systematic manner (such as alphabetical order), the textual variants of 1QIsa a are not so systematized.
+
+
+## Scribal Activity in 1QIsa a Produces Textual Variants
+
+The scribe(s) who copied 1QIsa a from a master copy had somewhat of a free approach to the text, characterized by exegetical or editorial pluses, morphological smoothing and updating, harmonizations, phonetic variants, and modernizations of terms. There is also evidence that a [Page 57] well-intended scribe simplified the text for an audience that no longer understood certain classical Hebrew forms. His editorial tendencies resulted in a popularization of certain terms, some from Aramaic that reflected the language of Palestine in his time period. This free approach, together with errors that occurred during the transmission of the text (e.g., haplography, dittography, graphic similarity, misdivision of words, interchange of letters, transposition of texts), occasionally produced textual variants.
+
+> These textual variants may be divided into four categories: (1) inadvertent errors that have occurred during transmission of the text (2) intentional changes of the text on the part of the scribes and copyists of either MT Isaiah or 1QIsa a (3) synonymous readings (4) scribes’ stylistic approaches and conventions to the text
+
+Not all variant readings, of course, fit neatly into one of these four categories; some readings are indeterminate.
+
+It should be understood that examples of textual variants do not exist solely because of the scribal activity of one single witness or its ancestors, but because of the scribal activity of one or more of the major witnesses. Most of these scribal errors may easily be categorized according to the rules of textual criticism. A single type of reading does not dominate the deviations between MT Isaiah and 1QIsa a . The following examples, which serve to illustrate the variety of such variant readings listed above, demonstrate that 1QIsa a is indeed a catalogue of sorts of textual variants.
+
+
+## (1) Inadvertent Errors
+
+
+## Pluses—Minor Readings
+
+
+## 1:2 Xra MT | Xrah 1QIsa a •
+
+Most pluses that exist in either MT Isaiah or 1QIsa a consist of function words or common words, such as and, the, all, one, to, for, in, like, et cetera. In Isaiah 1:2, 1QIsa a has the plus of the article on Xra , thus reading Xrah ; but the article is lacking on MT Isaiah.
+
+
+## 1:15 > MT 4QIsa f | Nwaob Mkytwobxa 1QIsa a •
+
+
+## Conflations
+
+
+## Dittography
+
+
+## 30:30 Aoy°ImVvIh◊w MT | oymCh oymCh 1QIsa a •
+
+Aoy°ImVvIh◊w —1QIsa a ’s duplication of oymCh serves no rhetorical purpose; rather, it is a dittography.
+
+
+## [Page 60] Haplography
+
+
+## 2:3 hGÎwh◊y_rAh_lRa MT 4QIsa e ([ hwhy ] rh la ) Mic 4:2 | > 1QIsa a •
+
+hGÎwh◊y_rAh_lRa —For an example of a haplography, see Isaiah 2:3 where 1QIsa a omitted the expression hGÎwh◊y_rAh_lRa by means of haplography, triggered by the prepositions lRa . . . lRa .
+
+
+## 6:2 Mˆy™ApÎnV;k v¶Ev Mˆy¢ApÎnV;k vªEv MT | Mypnk CC 1QIsa a •
+
+Mˆy™ApÎnV;k v¶Ev Mˆy¢ApÎnV;k vªEv —The copyist of 1QIsa a wrote down Mypnk CC and then skipped the second Mypnk CC , another example of haplography.
+
+
+## Homoioteleuton
+
+
+## 4:5–6 M™Dmwøy_lExVl h¶RyVhI;t h¢D;kUs◊w :h`DÚpUj dwäøbD;k_lD;k_lAo y¶I;k hDl◊y¡Dl h™DbDhRl v¶Ea ;hÅgöOn◊w N$DvDo◊w MT 4QIsa a (] |M|m»wy lxl [ hyht ] hkwsw hpj dwbk lk lo yk \\zl hbhl Ca hgnw [) | > 1QIsa a •
+
+Verses 5b–6a dropped out of 1QIsa a through homoioteleuton , when the scribe’s eye went from Mmwy to Mmwy . The reading of MT is supported by both 4QIsa a and other versions.
+
+Graphically similar readings account for a small number of the readings of 1QIsa a , where either the copyists of MT or the Qumran scroll incorrectly copied the text by using graphically similar characters.
+
+
+## 4:4 rob MT | ros 1QIsa a •
+
+rob —The variant of 1QIsa a ( ros jwrbw , “and by the whirlwind”) has no contextual significance in this passage; it is likely that a copyist slipped by writing samek rather than bet , an error that pertains to the graphic similarity of the two characters. Or he was impacted by the expression hros jwr (“whirlwind” or “stormy wind.”) in Ezekial 1:4; 13:11, 13; Psalms 107:25; 148:8. For support of MT’s reading of rob , see also Jeremiah 21:12 which also collocates the words fpvm and √ rob in the context of the execution of judgment.
+
+
+## 9:8[English v. 9] wodyw MT | w«oryw 1QIsa a •
+
+
+## 22:5 owCw rq MT | wCdq 1QIsa a •
+
+
+## Misdivision of Words
+
+
+## 9:2[English v. 3] al MT ket 1QIsa a ( awl ) | MT qere wl •
+
+
+## 3:7 hlmc MT | hmlC 1QIsa a •
+
+
+## Possible Ligature
+
+
+## 20:6 …wnVs§An MT | Kmsn 1QIsa a •
+
+
+## 1:30 Ny¶Ea Mˆy™Am MT 4QIsa f ([ Nya ] |M»ym ) | mym Nya 1QIsa a •
+
+
+## 36:12 ‹ÔKy‹RlEa◊w ÔKy§RnOdSa l°RaAh MT 2 Kings 18:27 ( ‹ÔKy‹RlEa◊w ÔKy§RnOdSa l°AoAh ) | hmkynwda low hmkylah 1QIsa a
+
+‹ÔKy‹RlEa◊w ÔKy§RnOdSa l°RaAh —1QIsa a ( hmkynwda low hmkylah ) presents a different word order than MT’s. For a discussion of syntactical inversions or variations between MT and 1QIsa a , see 1:30 above.
+
+
+## 37:7 j…w$r ‹wø;b MT 2 Kings 19:7 | awb jwr 1QIsa a •
+
+j…w$r ‹wø;b —MT and 1QIsa a ( awb jwr ) have a different word order for these two words. Note that the scribe often spelled wb with the alep (cf. also ayk = yk ; awl = wl ).
+
+
+## (2) Intentional Changes
+
+Scribes and copyists of either MT or 1QIsa a intentionally made changes to the Isaiah text. These changes include exegetical pluses or late editorial [Page 64] additions, harmonizations (when a scribe blends one reading with a second reading that is located in the immediate or greater context, or with a parallel text), morphological smoothing, morphological updating, updating the vocabulary, euphemistic changes, orthographic variants, and phonetic differences.
+
+
+## Exegetical Plus
+
+
+## 44:3 qxa 2 MT | qxa Nk prec 1QIsa a •
+
+qxa 2 —The adverbial particle Nk ( thus, so ) is an exegetical plus in 1QIsa a that was inserted interlinearly, probably to assist in the flow of reading between two clauses in the verse.
+
+
+## Harmonizations
+
+
+## 34:4 > MT | woqbty Myqmohw 1QIsa a •
+
+
+## 57:18 wäøl My¢ImUj`In MªE;lAvSaÅw MT 1QIsa b ( wl M»y«mjn hmlCaw ) | awl Mymwjnt awl MlCaw 1QIsa a •
+
+The deviation between MT ( wáø;l “to him”) and 1QIsa a ( awl “to him”) is not a variant reading, but an orthographic difference. Often the scroll writes “to him” with an alep (compare also ayk = yk ; awb = wb ). For other examples of awl (“to him”), see Isaiah 5:26; 9:2 (MT qere = wl ; MT ket = al ); 31:8; 36:22; 44:7; 57:18 ( bis in the scroll); 59:16; 63:9.
+
+
+## 62:1 h$RvTjRa MT | Cyrja 1QIsa a •
+
+
+## [Page 66] Morphological Updating
+
+
+## 13:10 …w;l™EhÎy MT | wryay 1QIsa a •
+
+…w;l™EhÎy —MT …w;l™EhÎy (via √ llh , “to shine”) sets forth the difficult reading, because √ llh occurs only four times in the Bible (Isa. 13:10; Job 29:3; 31:26; 41:10) and this verb does not exist in Rabbinic Hebrew. The scribe of 1QIsa a replaced the rare wlhy with the common wryay (via √ rwa ), thus updating the text to a common biblical and Rabbinic Hebrew root.
+
+
+## 37:13 h`D…wIo◊w MT 2 Kings 19:9 | + NwrmwCw 1QIsa a •
+
+h`D…wIo◊w —37:11–13 refers to nations, kingdoms, and city-states that Assyria had destroyed, including Gozen, Haran, Rezeph, Telassar, Hamath, Arpad, Sepharvaim, Hena, and Ivvah. At the end of the list of names of nations and city-states, 1QIsa a adds “and Samaria” ( NwrmwCw ). Scholars generally agree that the invasion of Sennacherib into the kingdom of Judah (36:1–21) and Hezekiah’s reaction (36:22–37:20) occurred after Samaria’s destruction in 722 BCE. The 1QIsa a scribe therefore added “and Samaria” to the text with the intent of updating the list of kingdoms and city-states. But this addition is unnecessary because the list of names in verses 11–13 was not meant to be comprehensive, but representative. Samaria was not listed simply because Hezekiah would have already been painfully aware of its destruction, for Samaria was his northern neighbor.
+
+
+## 33:7 …wëqSoDx MT | wqoz 1QIsa a
+
+
+## [Page 67] Euphemistic Changes
+
+
+## 36:12 MRhyEa√rAj MT ket 1QIsa a ( hmhyrj ) 2 Kings 18:27 | Mtawx MT qere • MRhy´nyEv MT ket 1QIsa a ( hmhynyC ) 2 Kings 18:27 MT ket | Mhylgr ymym MT qere 2 Kings 18:27 qere •
+
+MRhyEa√rAj —This word (cf. 2 Kings 18:27) belongs to the list of words in Megilla 25b that are considered to be indelicate expressions; Mtawx (“filth”) is to be its euphemistic substitution. Hence the MT ket / MT qere reading here.
+
+
+## 19:18 s®r$RhAh MT | srjh 1QIsa a 4QIsa b | brjml adytod CmC tyb Tg •
+
+
+## [Page 68] Phonetic Differences
+
+
+## 40:11 My$IaDlVf MT | Mylf 1QIsa a •
+
+
+## 16:1 oAl∞R;sIm MT | hlsm 1QIsa a •
+
+A few of the textual variants in MT Isaiah and 1QIsa a consist of synonymous readings. According to Talmon, synonymous readings are characterized as follows:
+
+[Page 69] Representative examples of synonymous readings include the following.
+
+
+## 24:1 X®r™DaDh MT 4QIsa c | hmdah 1QIsa a •
+
+
+## 29:3 tíOrUxVm MT | twdwxm 1QIsa a | røwxm 4QIsa f •
+
+
+## 35:9 l`A;b MT 4QIsab | + awl 1QIsa a · añøl 2 4QIsa b | awlw 1QIsa a •
+
+
+## 39:2 wáø;tVlAvVmRm MT 2 Kings 20:13 | wtklmm 1QIsa a •
+
+
+## (4) Scribes’ Stylistic Approaches and Conventions to the Text
+
+The scribes’ stylistic choices, conventions, or idiosyncrasies account for a number of variant readings that exist in the Hebrew witnesses of Isaiah. Examples of scribal stylistic preferences include the following:
+
+
+## Changes to Proper Names
+
+
+## 1:1 …whªD¥yˆΩzUo MT | hyzwo 1QIsa a • …wh™D¥yIq◊zIj◊y MT | hyqzjy 1QIsa a •
+
+
+## Division of Letters
+
+
+## 66:1 h¶Rz_yEa . . . h¶Rz_yEa◊w | hzya . . . hzyaw 1QIsa a 1QIsa b •
+
+h¶Rz_yEa . . . h¶Rz_yEa◊w —The deviations here are not textual variants, but stylistic differences.
+
+
+## Filling Out a Parallelism
+
+
+## 35:6 > MT | wkly 1QIsa a •
+
+
+## Particles Kya and hkya
+
+
+## 1:21 ‹hDkyEa MT | hkyh 1QIsa a •
+
+
+## Orthographic Variants
+
+
+## 15:3 ly™Il´y◊y MT | lylyhy 1QIsa a •
+
+ly™Il´y◊y —The deviation between MT (= ly™Il´y◊y ) and 1QIsa a (= lylyhy ) is orthographic. The root letters are lly for both words and both have the same translational values. Note that in Isaiah 52:5, MT sets forth ‹…‹…wly‹IlyEh◊y with the infixed he , as it is found in 1QIsa a in the verse under discussion. For two textual variants of √ lly that exist between these two Hebrew witnesses, see 23:1 and 52:5.
+
+
+## Presentative Exclamations
+
+
+## 20:6 h´…nIh MT 1QIsa a | Nh 4QIsa a •
+
+
+## Abbreviated Form ynm
+
+
+## 22:4 ynm MT | ynmm 1QIsa a •
+
+ynm — ynmm is a common form in the Bible, occurring approximately one hundred eighty times. Contrast ynmm with the abbreviated ynm (vocalized as yˆ…nIm ), which is found only in Isaiah 22:4; 30:1; 38:12; Psalms 18:23; 65:4; 139:19; Job 16:6; 21:16; 22:18; and 30:10. For MT’s three occurrences of ynm in Isaiah, 1QIsa a reads ynmm in 22:4 and 30:1, but equals MT with its reading of ynm in Isaiah 38:12. The translational value of ynm and ynmm are the same, as indicated by Ibn Ezra in his commentary to Isaiah 30:1.
+
+
+## Prepositions dAo and ydo
+
+
+## 26:5 dAo . . . dAo MT 4QIsa c ( do . . . [ do ]) | ydo . . . ydo 1QIsa a •
+
+
+## Morphological Forms hdwob and hndwob
+
+
+## 28:4 ;hñ∂dwøoV;b MT | hndwob 1QIsa a •
+
+
+## Conclusion
+
+1QIsa a contains a great number of textual variants, which may be categorized as follows: (1) accidental errors; (2) intentional changes; (3) synonymous readings; and (4) scribes’ stylistic approaches. These four categories include multiple examples of haplography, homoioteleuton, dittography, confusion of letters (graphic similarity), conflation, pluses, minuses, misdivision of words, interchange of letters (metathesis), transposition of word order, possible ligature, exegetical or editorial pluses, synonymous readings, changes to proper names, improper division of letters, filling out a poetic parallelism, morphological smoothing and updating, euphemistic changes, harmonizations, phonetic variants, peculiar orthographic variants, and modernizations of terms. The textual variants of 1QIsa a sets forth such a wide diversity and assortment of textual variants that this scroll is indeed a catalogue, as it were, for textual criticism.
+
+The most complete and up-to-date study of biblical Hebrew textual criticism is Emanuel Tov’s Textual Criticism of the Hebrew Bible (Minneapolis: Fortress Press, 1992). See also Christian D. Ginsburg, Introduction to the Massoretico-Critical Edition of the Hebrew Bible (London: Trinitarian Bible Society, 1897; reprinted with prolegomenon by Harry M. Orlinsky, New York: Ktav, 1966); J. Weingreen, Introduction to the Critical Study of the Text of the Hebrew Bible (Oxford: Oxford University Press, 1982). Compare also the more brief treatments of the subject by Julio T. Barrera, The Jewish Bible and the Christian Bible , trans. W. G. E. Watson (Brill: Leiden, 1998), 367–421 and Ernst Würthwein, The Text of the Old Testament , trans. Erroll F. Rhodes; Eerdmans (Grand Rapids, MI, 1995), 107–22.
+
+---
+Notes
+
+[1] Various publications that reveal the nature of textual criticism refer to mishaps that occur during the transmission of texts. 1 These include [Page 58] pluses (e.g., dittography, conflate readings), minuses (e.g., haplography, homoioteleuton , 2 homoioarcton ), changes (e.g., misdivision of letters or words, ligatures, graphic similarity), and differences in sequence (interchange of letters or metathesis and transposition of words). All of these major categories of accidental errors are present in both of the Hebrew witnesses MT Isaiah and 1QIsa a .
+
+[2] A well-known example of a plus in 1QIsa a is located in Isaiah 1:15, Nwaob Mkytwobxa ( your fingers with iniquity ). This plus is lacking in MT 4QIsa f . Nwaob Mkytwobxa serves to fill out the parallelism, thus, Nwaob Mkytwobxa walm Mymd hmkydy (“your hands are full of blood, your fingers with iniquity”). It is possible that this plus is a primary reading, which dropped out of the proto-Masoretic text during its transmission history. Watts writes, “The addition [of 1QIsa a ] is parallel to the previous stich and would be a metrical improvement on MT.” 3 So, too, Burrows states regarding 1QIsa a ’s plus that “a fourth stichos would undoubtedly improve the metrical structure.” 4 Cohen provides a compelling argument in favor of the originality of the plus belonging to 1QIsa a , presenting four reasons as to why the scroll is to be preferred. Not only does he produce Ugaritic parallels, but he points out that “the parallelism in the first two clauses makes the possibility of parallelism in the second half of the verse more likely.” 5
+
+[3] [Page 59] Or, as some textual critics maintain, 1QIsa a features a harmonization, a word or phrase that has been drawn from a similar context or parallel passage, either from Isaiah itself or from another biblical book. This harmonization may have been created from the scribal school that produced 1QIsa a or from its Vorlage . This particular plus, some critics claim, was adapted from 59:3, which reads hmkytwobxaw Mdb wlagn hMkypk ayk . For other passages where blood is paired with iniquity , see 26:21; Ezekial 3:18. For examples of other harmonizations in the scroll, see also 34:4 (cf. Micah 1:4); 51:3 (cf. 35:10; 51:11; 51:6 (cf. 40:26); 52:12 (cf. 54:5); and 60:4 (cf. 66:12). 6
+
+[4] Some deviant readings between the witnesses are conflated readings. Although conflated readings are not always clear-cut, one or more textual critics have identified a conflated element in the deviations. In Isaiah 11:9, the reading of 1QIsa a ( halmt ) is a hybrid verbal form, a conflation, possessing elements of a perfect feminine singular verb (= MT halm ) and also the imperfect feminine prefix. 7 See also the conflated/hybrid form in Isaiah 63:3 ( ytlaga ). In Isaiah 14:2, MT reads MDmwøqVm_lRa , but 1QIsa a has a plus, mmwqm law Mtmda la ; from whence came Mtmda la ? The scroll’s scribe was possibly impacted by the double manifestation of hmda in the immediate context, first attested in verse 1 and then again later in verse 2. Or, 1QIsa a ’s reading may be a conflation, based either on its Vorlage or another manuscript that read Mtmda la .
+
+[5] Confusion of Letters or Graphic Similarity 8
+
+[6] wodyw —The variants between MT ( wodyw ) and 1QIsa a ( woryw ) most likely arose because of the confusion of the letters dalet/resh in the Assyrian square script. For other instances of the dalet/resh interchange in MT [Page 61] and 1QIsa a , see also Isaiah 16:14; 17:6, 12; 22:5; 23:10; 27:2; 33:8; 40:20; 41:19, and others. But it is also possible that the 1QIsa a scribe (or his Vorlage ) intentionally rendered the verb woryw (via √ oor ), thus reading, “And all the people will do evil ( woryw ), even Ephraim and the inhabitants of Samaria, who say in pride and arrogance of heart…” There is one additional possibility, set forth by Kutscher. 9 He reminds us that the √ ory (“to tremble”; see Isa. 15:4) may have been the scroll’s intended meaning.
+
+[7] QIsa a reads wCdq . According to Weingreen, this is an example of graphic similarity: owCw rq = wCdq . The ayin may have lost its guttural sound late in antiquity and a scribe read the dalet for the resh . 10 Consequently, the same scribe or a subsequent copyist changed the preposition la to lo in order to make sense of the passage. Contrast Weingreen with Blenkinsopp, 11 who prefers the reading of 1QIsa a . He writes that verse “5b [of MT] defies translation and has probably been seriously damaged in the transmission; the present translation depends on 1QIsa a ( mqrqr qdšv ‘lhhr ), which makes better though by no means perfect sense and which MT ( mqrqr qr všv‘ ’l hhr ) may represent a damaged version.” Blenkinsopp, therefore, translates verse 5b, “with crying out for help to his holy place on the mountain.”
+
+[8] al ywgh —For other occasions where awl reads “to him” (versus “no, not”), see Isaiah 3:11. Ginsburg proposes that the original reading was alygh = hlygh (“the rejoicing”); this word experienced an improper misdivision of words and subsequently the waw was incorrectly added. 12 hlygh fits the context and also corresponds with hjmCh in the parallelism: “You have increased the rejoicing, you have magnified the joy.”
+
+[9] [Page 62] Interchange of Letters or Metathesis 13
+
+[10] hlmc —MT ( h¡DlVmIc ) and 1QIsa a ( hmlC ) exhibit two different words for garment or clothing . In the Hebrew Bible, hlmc (31 times) is attested approximately twice as often as hmlC (16 times). Both carry the same meaning. Kutscher produces a body of evidence “that hmlC is the original form and hlmC of later vintage”; at some point through the transmission of the word, hmlC came about by means of metathesis. 14 Based on the fact that the previous verse (3:6) is part of the same pericope and that verse attests hlmc for both MT and 1QIsa a , then hmlC in 1QIsa a 3:7 signifies an error, an example of metathesis of the mem and lamed . Or, alternatively, the scribe’s Vorlage already contained the reading of hmlC .  Compare also the variant of wntlmcw and wntmlCw in 4:1.
+
+[11] …wnVs§An —MT and 1QIsa a produce two different verbal roots, √ swn (“to flee”) and √ Kms (“to lean, support”) respectively. MT has the primary reading, because √ swn is often collocated with ‹MDv (e.g., Gen. 19:20; Exod. 21:13; Num. 35:6), an adverbial particle that follows the verb in both MT and 1QIsa a in the verse under discussion. √ Kms followed by Mv (= 1QIsa a ) is unprecedented in the Bible and achieves an awkward reading. It is possible that the scroll’s scribe changed the verbal root to reflect his particular historical understanding regarding the pericope under discussion, the Conquest of Ethiopia and Egypt: Isaiah’s Dramatization (Isa. 20:1–6). Thus Pulikottil has written, “The scribe wanted to make it clear that the people of the coastland did not flee to Egypt for help, which never happened; they only relied on the military assistance of Egypt.” 15 It is more probable, owing to the graphic similarities of wnsn and Kmsn (both forms begin with nun and samek , plus a ligatured nun and waw share the appearance of a mem ), that the scribe simply misread or miscopied the verb that was in his Vorlage .
+
+[12] [Page 63] Word Order 16
+
+[13] Ny¶Ea Mˆy™Am —These terms are syntactically variegated (or transposed) in MT versus 1QIsa a . Both Nya Mym (= MT and 4QIsa f ; see also Num. 20:5) and Mym Nya (= 1QIsa a ; see also Exod. 17:1; Num. 21:5; Deut. 8:15; Isa. 50:2; Jer. 38:6; Zech. 9:11) exist in the Bible, although Mym Nya is more common. Because of the multiple examples of such variations, Talmon has written that the “widely encountered textual phenomenon of inter-Version variations in the form of syntactical inversion cannot be judged to be merely an indication of ordinary scribal laxity.” 17 Instead, Talmon sees many examples of such variations as “evidence for the existence of equally valid text-traditions which cannot be reduced to one common archetype, and/or scribal manifestations of stylistic conventions.” 18 For other examples of syntactical variations between MT and 1QIsa a , see Isaiah 23:9; 36:12; 37:1, 7, 32–33; 38:19; 43:3; 49:6, 25; 52:7; 55:13; 60:7; 61:7; 62:8; 63:9, 17. For syntactical variations between MT and for 1QIsa b , see 52:13 and 62:8. And for an example of a syntactical variation between MT and 4QIsa f , see 8:7.
+
+[14] woqbty Myqmohw —This plus of 1QIsa a , listed by scholars in verse 4, actually belongs to verse 3. Brownlee declares the plus of 1QIsa a to be a harmonization, derived from Micah 1:4 ( woqbty Myqmohw ). He further argues that the reading of MT (v. 3), minus the plus of 1QIsa a , comprises a tristich as follows: “Their slain shall be flung out, and from their corpses their own stench shall rise—the mountains melting down with blood!” (translation by Brownlee). The third line of this tristich, writes Brownlee, serves as a “climax or conclusion” to the parallelistic structure, and that such a configuration is quite acceptable by modern scholars. 19 While the reading of MT is acceptable, the following two bicolons that are attested in the Qumran scroll also comprise a satisfactory structure, with “the valleys will be split” filling out the second bicolon: “Their slain will be cast down, and the stench of their corpses will rise, mountains will melt with their blood, the valleys will be split.” The plus of the scroll may have been derived from Micah 1:4 (or vice versa) or from a source that is common to both the book of Micah and the Isaiah Scroll or its Vorlage .
+
+[15] [Page 65] Morphological Smoothing 20
+
+[16] QIsa a doubles the dative pronoun ( awl Mymwjnt awl MlCaw ) via conflation. With regard to the MT reading Mymjn , 1QIsa b and 1QIsa a has Mymwjnt , which is the Mishnaic Hebrew form. 21 This is direct evidence that the scroll’s scribe has modernized this word.
+
+[17] h$RvTjRa —Following the negative particle al are variant verbal roots, √ hCj in MT and √ Crj in 1QIsa a . These verbs are employed as synonymous readings in at least two parallelistic structures (see Isa. 42:14; Ps. 28:1), but here they are deviations in the first bicolon of verse 1. The reading of 1QIsa a may have been assimilated from one of these two parallelisms (Isa. 42:14 or Ps. 28:1); or, according to Talmon, the Qumran scroll “presumably perpetuated an established reading.” 22 The theory held by Kutscher 23 that a scribe of 1QIsa a modernized the reading from the relatively rare √ hCj (16 occurrences in the Hebrew Bible) to the more popular √ Crj (47 occurrences in the Hebrew Bible) may be questioned because √ hCj was not modernized in other verses of 1QIsa a , i.e., 42:14; 57:11; 62:6; 64:11, and 65:6.
+
+[18] Updating the Vocabulary 24
+
+[19] wëqSoDx —In the Bible, √ qoz and √ qox have the same meaning (“to cry out”). In Isaiah 14:31; 15:4–5; 26:17; 30:19; 57:13, both MT and 1QIsa a attest √ qoz ; in Isaiah 19:20, both MT and 1QIsa a have √ qox . But in Isaiah 33:7; 42:2; 46:7; 65:14, these two witnesses have deviations—MT reads √ qox and the scroll has √ qoz . In other words, of the eleven occurrences of √ qoz /√ qox in Isaiah, the Qumran scroll has √ qoz ten times, but uses √ qox only once. Inasmuch as the √ qoz is used more often in later biblical books, 25 it appears that the scroll’s copyist updated the vocabulary from √ qox to √ qoz in 33:7; 42:2; 46:7; 65:14. The versions cannot shed light on these readings.
+
+[20] Biblical scholars provide examples of indelicate words or anthropomorphisms that have been removed from the Hebrew Bible and replaced with euphemisms 26 or dysphemisms. Yeivin, for example, cites TB Megilla 25b, “Wherever the text is written indelicately, we read it delicately” and posits, “In 16 cases in the Bible, the qere form presents a euphemism.” 27 Ginsburg maintains that “authoritative redactors of the Sacred Scriptures” 28 removed indelicate words and anthropomorphisms.
+
+[21] s®r$RhAh —MT reads “the city of destruction” and two Qumran scrolls attest “the city of the sun.” On the one hand, the variants between the Qumran scrolls and MT may be represented by a simple copyist error, writing he instead of het , or vice versa. 29 On the other hand, critics have argued that a redactor/editor of MT made a tendentious change to the text, or what McCarthy calls “a secondary dysphemism.” 30 This textual change came about, according to one theory, to protect the legitimacy of the Jerusalem temple against a Jewish temple that was believed to have existed in Heliopolis. 31 HOTTP, Kutscher, and Wildberger support “City of the Sun” as the original reading. 32
+
+[22] My$IaDlVf —1QIsa a ’s Mylf deviation of My$IaDlVf is an orthographic deviation, based on phonetics. 33
+
+[23] oAl∞R;sIm — Sela in this verse may refer to a proper name of a site in Moab, which some lexica suggest is Petra; or Sela may signify a cliff. 34 Elsewhere in the Bible, ols means “rock” or “cliff.” 1QIsa a ’s hls may be an alternate spelling found in the scribe’s Vorlage or known to the scribe; or more likely, hls indicates a phonetic error. 35
+
+[24] (3) Synonymous Readings 36
+
+[25] a) They result from the substitution of words and phrases by others which are used interchangeably and synonymously with them in the literature of the OT. b) They do not affect adversely the structure of the verse, nor do they disturb either its meaning or its rhythm. Hence they cannot be explained as scribal errors. c) No sign of systematic or tendentious emendation can be discovered in them. They are to be taken at face value…If, as far as we can tell, they are not the product of different chronologically or geographically distinct linguistic strata.” 37
+
+[26] X®r™DaDh —MT and 4QIsa c set forth X®r™DaDh , versus 1QIsa a ’s synonymous reading of hmdah . Two items support the reading of Xrah : the pericope, consisting of 24:1–12, features Xra eight times (but never hmda ); and verse 3a ( Xrah qwbt qwbh , “the earth is completely made empty”) rhetorically develops the reading of verse 1a ( Xrah qqwb hwhy , “the LORD makes the earth empty”); that is, both expressions collocate Xra with √ qqb . 38
+
+[27] tíOrUxVm —MT and 1QIsa a attest readings that are graphically similar and that have synonymous meanings: MT has tíOrUxVm (“fortresses”) and 1QIsa a sets forth twdwxm (“strongholds”). Inasmuch as both words work well in the context, it is not easy to settle on a primary reading. These two readings may point to a vario lectio , but it is more probable that a scribe of either Hebrew witness (or tradition, i.e., the proto-MT or 1QIsa a ) misread his Vorlage and wrote a resh in place of a dalet , or vice versa. See also the variants htdxmw and htrxmw in Isaiah 29:7. Another possibility, set forth by Kutscher, is that the words hrxm and hdxm “changed places” between verses 3 and 7. 39
+
+[28] l`A;b —The double negative in 1QIsa a ( awl lb ), unknown in the Hebrew Bible, is probably the result of a error. The scribe first wrote lb , which is the primary reading, and then duplicated the awl from verse 8, vertically located on the line above on the scroll (see col. xxviii, line 25). The vertical borrowing explains why MT and 4QIsa b lack the double negative. Other possibilities, however, exist. awl lb may be a conflated reading; or awl may be the primary reading and lb a synonymous reading acquired from another text-type. 40
+
+[29] wáø;tVlAvVmRm —The nouns wáø;tVlAvVmRm and wtklmm are synonymous or near synonymous readings. Tov refers to synonymous readings as [Page 70] “interchangeable words [that] entered the manuscript tradition at all stages of the transmission, both consciously and unconsciously.” 41
+
+[30] whªD¥yˆΩzUo —During the Second Temple era, theophoric names customarily featured shorter forms, that is, hyqzjy and hyzwo . 1QIsa a generally employs the shorter forms throughout Isaiah, but with a few exceptions the longer form is used. In verse 1, for example, the scroll attests whyoCy instead of hyoCy . See also the theophoric names listed in Isaiah 36:1, 14–16, 22; 37:1–3, 6, etc. 42
+
+[31] wkly —The plus of 1QIsa a , having no support from other witnesses, may be an attempt to fill out the parallelism, with wkly corresponding to …wôoVqVbˆn . Tov attributes the plus of 1QIsa a to a scribal contextual change, derived “from the copyist’s stylistic feelings” 43 and points out that all nouns in this verse, except for My™IlDj◊n…w (“streams”), are “assigned specific verbs. The scroll sensed the lack of a verb in this last clause and supplied [Page 71] it, thus filling a conceptual void.” 44 But Blenkinsopp prefers this plus of 1QIsa a , and thus translates the bicolon as “Yes, water will burst forth in the desert, wadis flow ( wkly ) in the wilderness.” 45 MT, followed by the versions, has the primary reading.
+
+[32] ‹hDkyEa —The particles KyEa (61x in MT), hDkyEa (17x in MT), hDk¶DkyEa (4x in MT), and JKyEh (2x in MT) are exclamatory interrogatives meaning “how.” In the verse under discussion, 1QIsa a ’s unique reading hkyh is a derivation of JKyEh , which appears only in late BH texts (Dan. 10:17, 1 Chron. 13:12). 1QIsa a ’s hkyh may have been influenced by Aramaic 46 or it is a hybrid of hkya and yh . 47 See also Isaiah 14:12, where the scroll reads |hkyh , versus MT’s Ky¢Ea . Elsewhere in Isaiah, MT has KyEa where 1QIsa a reads hkya (Isa. 14:4; 36:9 [MT = 2 Kings 18:24]; 48:11  [MT = 4QIsa d ]). Only twice does MT and the scroll have the equivalent reading of the particle JKyEa (Isa. 19:11; 20:6).
+
+[33] h´…nIh — Nh and h´…nIh are presentative exclamations that serve to give emphasis to “the immediacy, the here-and-now-ness, of the situation.” 48 [Page 72] In the Bible, hnh is ten times more common than Nh (approximately 1,060 occurrences of hnh versus 100 attestations of Nh ), with Nh found most often in the books of Job (32 times) and Isaiah (27 times). There is no difference in meaning or use between the two presentatives. 49 MT and 1QIsa a deviate with Nh and hnh in the following verses: 23:13; 32:1; 38:17; 41:24, 29; 42:1; 44:11; 49:16, 21; 50:1–2, 9 bis, 11; 54:15–16 (MT qere h´…nIh ); 55:4–5; 56:3; 58:4; 59:1; 64:4, 8. With the exception of 38:17, MT reads Nh versus 1QIsa a , which has hnh . In 38:17, MT attests hnh and 1QIsa a reads Nh . These deviations (a) indicate a different scribal school; (b) that the Vorlage of the scroll read hnh ; or (c) the 1QIsa a scribe had a tendency to popularize Nh to read hnh .
+
+[34] dAo . . . dAo —For this preposition that is attested in MT and 4QIsa c , 1QIsa a has the older form ydo . 50 The translational value is the same for both dAo and ydo , although suffixed forms ( ÔKy#®dDoŒ , Dhy#®dDoŒ , M#Rkyéd`Do◊w , etc.) of the preposition were built upon ydo . For the reading Xra ydo in 1QIsa a 26:5, compare Psalms 147:6 ( X®r`Da_yédSo ).
+
+[35] ;hñ∂dwøoV;b —Both MT (= hñ∂dwøoV;b ) and 1QIsa a (= hndwob with an unetymological letter nun ) are legitimate morphological forms, with both having the same translational value. Watts remarks that hndwob is “a seemingly [Page 73] meaningless nun epenthetic before the suffix.” 51 For the form hndwob , see also 1 Kings 1:22.
+

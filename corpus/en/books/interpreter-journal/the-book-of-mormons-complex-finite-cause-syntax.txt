@@ -1,0 +1,473 @@
+Abstract: This paper describes and compares the Book of Mormon’s 12 instances of complex finite cause syntax, the structure exemplified by the language of Ether 9:33: “the Lord did cause the serpents that they should pursue them no more.” This is not King James language or currently known to be pseudo-archaic language (language used by modern authors seeking to imitate biblical or related archaic language), but it does occur in earlier English, almost entirely before the year 1700. In the Book of Mormon, the syntax is always expressed with the modal auxiliary verbs should and shall . Twenty-five original examples of this specific usage have been identified so far outside of the Book of Mormon (not counting two cases of creative biblical editing — see the appendix). The text’s larger pattern of clausal verb complementation after the verb cause , 58 percent finite in 236 instances, is utterly different from what we encounter in the King James Bible and pseudo-archaic texts, which are 99 to 100 percent infinitival in their clausal complementation. The totality of the evidence indicates that Joseph Smith would not have produced this causative syntax of the Book of Mormon in a pseudo-archaic effort. Therefore, this dataset provides additional strong evidence for a revealed-words view of the 1829 dictation.
+
+In grammar, a complement is one or more words added to another to complete the meaning. Complementation is completion of the meaning by the addition of a complement. In this paper, we are interested in clausal complementation — specifically, where the complement that completes the meaning of the verb cause is another verb phrase. Finite complementation means that there is a tensed verb in the complement [Page 114] clause. In the Book of Mormon, these tensed verbs are very often auxiliary verbs, most often shall and should . Infinitival complementation means there is no tensed verb in the complement, only an infinitive. This will all become clear as we consider quite a few examples.
+
+Within the syntactic domain of verb complementation, we can break down usage by verb. Each verb has its own idiosyncrasies. For this paper, the verb of interest is cause , a verb of influence. Within these causative constructions, one syntactic subtype is the focus of this paper.
+
+Table 1. Types and instances of clausal complementation after the verb cause in the Book of Mormon.
+
+[Table omitted]
+
+Following the terminology used in NOL, this paper refers to the two types of finite verb complementation as simple finite and complex finite . The terminology is less important than being generally aware of the syntactic structures, which readers can grasp intuitively.
+
+It is also important to make clear that though the form of the expression is different in these three types, the meaning that is conveyed is essentially the same. In other words, the differences in the syntactic structures are meaning-neutral.
+
+The rest of this paper will provide a brief comparative treatment of this syntactic structure, one presumably formed from imitating biblical language. Yet it is a syntactic type that no known biblical imitators actually used. It is certainly language that is out of place in a book first written down in 1829 and published in 1830.
+
+
+## [Page 116] Complex Finite Example
+
+Consider the following excerpt, as it was originally dictated by Joseph Smith in 1829:
+
+> 1 Nephi 17:46     he can cause the earth that it shall pass away
+
+The Book of Mormon’s overall modal auxiliary usage is, generally speaking, early modern in orientation and sometimes sophisticated and nonbiblical. Nonbiblical aspects indicate that the overall usage was not something that Joseph Smith came up with based on a knowledge of King James idiom.
+
+Textual databases currently indicate that the above complex finite syntactic structure involving the verb cause was effectively obsolete a long time before Joseph Smith’s birth. It appears to have been in the process of becoming obsolete during the early part of the 1700s. If it had been biblical, then its obsolescence would have been delayed.
+
+
+## Simple Finite Examples
+
+A modified, simple finite version of 1 Nephi 17:46 would read as follows:
+
+> 1 Nephi 17:46     * he can cause that the earth shall pass away
+
+This general simple finite structure occurs 124 times after the verb cause in the Book of Mormon, and hundreds of times after other verbs of influence, so readers of the text in English are quite familiar with this syntax. The way the King James Bible would have worded this is with an infinitival complement. Had 1 Nephi 17:46 been phrased like a rare biblical simple finite construction, it would have been without a future subjunctive shall , either with no auxiliary or with the modal auxiliary may:
+
+> [Page 117] 1 Nephi 17:46     * he can cause that the earth (may) pass away
+
+Simple finite constructions were still used in the early 19th century, but they were very uncommon by then. A contemporaneous example of this simple finite syntax is the following, taken from the Google Books database:
+
+> and to cause that the proprietor thereof shall not be able to live,
+
+
+## Infinitival Example
+
+The construction that we almost always hear and use today is the one with an infinitive:
+
+> 1 Nephi 17:46     * he can cause the earth to pass away
+
+
+## On the Complex Finite
+
+
+## Summary of Findings
+
+By way of summary, complex finite cause syntax has not been found to occur in
+
+As just mentioned, 25 close matches with the Book of Mormon’s complex finite cause syntax have been identified so far (in 24 texts), and their dates of composition range between the late 15th century and the early 18th century. This specific causative structure occurred mainly before the 18th century, and at markedly higher rates during the first half of the early modern period. One-half of the 24 texts with this language are older than the King James Bible, which was first printed in 1611. Because far fewer texts were published in the 16th century than in following centuries, this indicates that the popularity of this syntactic structure was much greater in earlier years.
+
+
+## Complex Finite Examples with Mandative Shall
+
+Of the 12 instances of the Book of Mormon’s complex finite cause syntax, two have mandative shall and 10 have mandative should . Here are the two with mandative shall , with the linked arguments (objects and subjects) in bold and the auxiliary verb in italics:
+
+At this point, 14 syntactic matches with this specific Book of Mormon construction have been identified in the earlier textual record, ranging in [Page 119] time between 1469 and 1713. Here are two examples that closely match the above language (see the beginning of the appendix for all 14 of them):
+
+
+## Complex Finite Examples with Mandative Should
+
+Here are the Book of Mormon’s 10 complex finite examples with mandative should , the most common variety of this specific syntactic structure in the text:
+
+[Table omitted]
+
+> Note: The two marked with a plus sign (+) have two verb-dependent object clauses. The one marked with an asterisk (*) might have a second object clause, if it is asyndetically conjoined. If not, then it is a resultative clause.
+
+[Page 120] At this point, 11 syntactic matches with this Book of Mormon construction have been identified in the earlier textual record, ranging in time between 1494 and 1700. Here are the earliest and latest examples that closely match the above language (see the appendix for all 11 of them):
+
+[Table omitted]
+
+
+## Complex Finite Usage by Century
+
+Here is the breakdown by century of currently known textual instances of complex finite complementation after the verb cause , where the auxiliary is mandative:
+
+Table 2. Instances and textual rates of “«cause» NP that S” syntax with mandative shall or should — as found in the greater textual record and arranged by century.
+
+
+## Complex Finite Usage by Auxiliary
+
+Table 3 shows the usage broken down according to whether the auxiliary verb is shall or should . The Book of Mormon has nearly one-half of currently known instances of this specific syntactic construction with should . Only one text has two instances (see immediately below), and 10 texts have one instance each. This means that the Book of Mormon is unique in this respect, and it is an additional indication that Joseph Smith was not responsible for choosing this specific syntax.
+
+[Page 121] Table 3. Instances of mandative auxiliary verb usage in complex finite complementation after the verb cause .
+
+[Table omitted]
+
+
+## Repeated Complex Finite Usage
+
+One EEBO text has two consecutive instances of “«cause» NP that S” syntax with should:
+
+[Table omitted]
+
+In addition, another early 17th-century text (1616, A00419) has four instances of complex finite cause syntax, but without mandative shall or should . Four instances of complex finite cause syntax are possibly the most that occur in a single text, besides the Book of Mormon, which has three times as many.
+
+
+## Conjoined Complementation
+
+Two or three of the Book of Mormon’s complex causative constructions have additional conjoined that -clauses: 2 Nephi 5:17, Alma 21:3 (possibly — see the above note), and Ether 9:33 (all of these are shown above). This extended, conjoined syntax is a rare configuration; in the greater textual record it has also been found in EEBO A69038. Here are two examples laid out so that the matching can be easily seen:
+
+[Table omitted]
+
+This 1620 textual example is thus a rare, exclusively early modern match with Book of Mormon usage, and it provides an additional small point in favor of the Book of Mormon exhibiting real archaism rather than pseudo-archaism. For many, the thought has been that Joseph Smith dictated a text whose grammar was pseudo-archaic. Yet the text has [Page 122] so much Early Modern English usage beyond known pseudo-archaic production that it appears that Joseph dictated a text that had already been elaborated with early modern expertise. By this, I don’t mean to say that the text is entirely early modern. What I mean is that it’s not fake early modern — that is, it’s not pseudo-archaic.
+
+Such conjoined syntax is more often found in simple finite constructions during the early modern period, but it hardly ever occurred even in that simpler syntax. Here are two rare examples (spelling modernized):
+
+[Table omitted]
+
+
+## Complex Finite Usage Co-occurring with Early Modern (Non-emphatic) “Did Cause”
+
+The Book of Mormon also exhibits combined archaism in this domain, since seven of the instances with mandative should co-occur with non-emphatic “did cause” (see Book of Mormon examples above). Here are four simple finite examples with non-emphatic “did cause,” taken from EEBO (in the original spelling):
+
+[Table omitted]
+
+[Page 123] When the same EEBO search was repeated, no examples of “did cause” with simple finite complementation came up in the largest 18th-century database, ECCO, which has more than nine billion words.
+
+
+## Conclusion
+
+Because of the strong growth in the publishing of new titles, we would need to find nearly 300 original examples of this complex finite cause syntax in ECCO (as this database is currently constituted) in order to come close to matching the observed popularity of the first half of the early modern era. At this point, this appears to be an impossibility, since EEBO indicates that the usage diminished in popularity in the 1600s and because ECCO currently indicates that it died out in the early 1700s. (The ECCO database does stand in need of significant improvement, but what is currently available has been carefully searched.)
+
+This distinctive construction, then, is a prime example of how the language of Joseph Smith’s 1829 dictation differed from what biblical imitators produced, with the Book of Mormon using esoteric forms of expression missing from the King James Bible. It is this kind of comparative study — which in the case of the Book of Mormon is not a one-off proposition — that leads one to consider rejecting a biblical imitation hypothesis for its English, and to consider accepting that the text might actually contain genuine nonbiblical archaism.
+
+
+## [Page 124] Appendix
+
+
+## Complex Finite Complementation with Shall
+
+So far, 14 instances of syntax of the form “«cause» NP that NP shall <infinitive>” have been noted in the textual record before the time of the Book of Mormon (see further below for two biblically reworked examples):
+
+[Table omitted]
+
+Twelve of these date from the early modern period, when far fewer texts were published. In the above set of examples, this complex finite syntax occurs 10 times with two linked pronouns.
+
+
+## Complex Finite Complementation with Should
+
+So far, 11 instances of “«cause» NP that NP should <infinitive>” syntax have been noted in the textual record before the time of the Book of Mormon:
+
+[Table omitted]
+
+All of these are from the early modern period, when far fewer texts were published compared to the following 18th century. In the above set of examples, this complex finite syntax occurs six times with two linked pronouns. In total, two linked pronouns occur 16 out of 25 times. This same redundant pronominal expression occurs in the Book of Mormon after the verb cause five out of 12 times.
+
+The above are the closest overall matches with Book of Mormon usage, although as noted above, similar examples with other auxiliary verbs do occur, such as “this shame caused him that he would not ask any help of the king” (1598, A16164) and “the veil of blindness … caused them that they could neither apprehend nor comprehend this light” (1659, A89447).
+
+
+## Complex Finite Complementation without Shall or Should
+
+Many attempts have been made to find original late modern instances of complex finite complementation with the verb cause leading up to the time of the Book of Mormon, using the largest databases. It has been verified that most examples found in the large 18th-century ECCO database represent much earlier language from the early modern period and even before.
+
+The following 11 examples found in ECCO have linked pronouns but no shall or should auxiliary. Of these 11, seven or eight are from the late middle and early modern periods, and just three originated in the late modern period:
+
+[Table omitted]
+
+The 1716 example is a paraphrase of Colossians 4:16, which occurs as a simple finite construction in the King James Bible. This 1716 paraphrase matches the language first appearing in a 1679 book, which could have been the later author’s source (this 1716 book was reprinted in 1794). Setting this one aside leaves only three early 18th-century pronominal examples of the complex finite construction without shall or should . Of course, some later examples could be found as databases like ECCO and Google Books improve in quality, but for now the syntax appears to have been in a fairly complete state of obsolescence by the middle of the 18th century, an observation that is also supported by its apparent absence from the 5,012 texts consulted in the Evans database, a 17th- and 18th-century early American corpus.
+
+
+## Two Biblical Reworkings with Complex Finite Complementation
+
+One even later example of the Book of Mormon’s complex finite cause syntax that I found for this study is an artificially created instance that is different from even pseudo-archaic production. It was published 65 years before the Book of Mormon was set down in writing. It is from Anthony Purver’s “Quaker Bible” and is a reworking or retranslation of Revelation 11:3. It reads as follows:
+
+> [Page 128] 1764, CW0119450491 And I will cause my two witnesses , that the y shall prophesy a thousand two hundred sixty days, cloathed with sackcloth.
+
+> And I will cause my two witnesses , that the y shall prophesy a thousand two hundred sixty days, cloathed with sackcloth.
+
+In the King James Bible, this passage does not have a causative verb, and it reads with the conjunction and , not that:
+
+> Revelation 11:3 I will give power unto my two witnesses, and they shall prophesy a thousand two hundred and threescore days, clothed in sackcloth. Greek δώσω, δίδωμι “(will) give” and καί “and”.
+
+> I will give power unto my two witnesses, and they shall prophesy a thousand two hundred and threescore days, clothed in sackcloth. Greek δώσω, δίδωμι “(will) give” and καί “and”.
+
+> Greek δώσω, δίδωμι “(will) give” and καί “and”.
+
+This 1764 outlier is the result of an author consciously tinkering with an established King James wording, and doing so by investigating the language of other English versions, as well as the Latin Vulgate and the original Greek. In contrast, every Book of Mormon instance of this complex finite structure is an original English expression that works within the surrounding extrabiblical narrative. And of course Joseph Smith did not know any other languages in 1829 when he dictated the Book of Mormon. He was a monolingual English speaker.
+
+What Purver might have done first was change the verb from give to cause , even though the original Greek equivalent means “will give,” as shown above. The object of give in this passage is power , and this word is italicized in the King James Bible, meaning that it does not occur in the original Greek. This might have prompted a revision in the first place. If Purver first replaced give with cause , and deleted “power unto,” he would have then been faced with a choice as to what to do with the independent King James clause that begins with “and they shall prophesy.” His initial rewrite probably gave him “I will cause my two witnesses.” Unlike the King James clause with give , such a clause with cause is ungrammatical without a following complement. Because of that, he would have needed to create a complement. He could have replaced “and they shall” with to , making an infinitival complement, but instead he decided on a simpler replacement of and with that , creating the archaic, complex finite causative construction.
+
+We can see in some of Purver’s notes that he consulted Tyndale’s original language and the Latin Vulgate and the views of various scriptural experts. Yet he avoided Tyndale’s similar syntax in a slightly earlier passage — wording that found its way into the King James Bible:
+
+[Table omitted]
+
+The above King James language is the best model for the complex finite causative syntax of the Book of Mormon, yet despite its presence in the biblical text, it does not occur in the 25 pseudo-archaic writings, and the syntax was hardly ever produced, except in the early modern era. Besides this complex finite case, the King James Bible does not have any other finite examples with the verb make , whether simple or complex. The Book of Mormon has several finite examples after the verb make , including a simple finite instance with shall at 1 Nephi 17:12.
+
+Suppose we were to argue, on the basis of Purver’s work or even 2 Peter 1:8, that because Joseph Smith was likewise saturated with biblical language, this led to his producing 12 complex finite constructions with the verb cause . The argument fails at the outset, of course, since no known pseudo-archaic author produced original examples of the syntax, even though many of them were also saturated with King James idiom. Indeed, no pseudo-archaic author is known to have produced even simple finite syntax after the verb make . Among the 25 texts, clausal complementation following make is all infinitival. Yet there are several complex finite examples in the Book of Mormon, as well as the simple finite with shall at 1 Nephi 17:12. Structurally speaking, then, this means that in the case of the verb make , just as in the case of cause , the Book of Mormon’s syntax does not present as any known pseudo-archaic production.
+
+
+## .  .  .
+
+Joseph Bryant Rotherham’s Emphasised Bible provides us with an odd late 19th-century example of complex finite complementation after the verb cause:
+
+> I will cause them that they shall have come, This is from the tenth edition of the Emphasised Bible, first published in 1872.
+
+> This is from the tenth edition of the Emphasised Bible, first published in 1872.
+
+The finite that -clause appears here because Rotherham literally translated the Greek conjunction ἵνα ”that”. In the King James Bible, the last part of this verse reads with infinitival complements:
+
+> Revelation 3:9 behold, I will make them to come and worship before thy feet, and to know that I have loved thee
+
+> behold, I will make them to come and worship before thy feet, and to know that I have loved thee
+
+The co-occurrence of future tense “will cause” with a verb-dependent perfect tense “shall have come” (more specifically, a future subjunctive perfect) is a nonstandard tense sequence. The EEBO Phase 1 database does not have this language; it does not even have a simple finite example of “will cause that NP shall have <past.pple>.” Rotherham’s rewording also has conjoined “shall worship” and “shall get to know,” which is more standard syntax.
+
+
+## Likely Alternatives to the Causative Construction in 3 Nephi 29:4
+
+If Joseph Smith had been responsible for expressing the relevant portion of 3 Nephi 29:4 in 1829 (the first it was deleted for the 1837 edition), based on specific ideas that were revealed to him, he would have had a few choices available to him. Here are those choices, ordered according to what syntactic studies indicate would have been likely for him in the early 19th century:
+
+[Table omitted]
+
+> Note: Biblical usage is not to use a future modal auxiliary verb in this context; such simpler usage might have also been generally preferred in the late modern period. In addition, Joseph’s early writings show that he preferred the future auxiliary will over shall . (There is a similar example with will [Page 131] rather than shall after the verb suffer at 1 Nephi 13:30, and an analogous 1598 example with caused and would given above.) The modal auxiliary may was also a possibility that might have been more likely than shall in 1829. Some fluidity in the position of the adverb soon was possible in this case, but these possibilities have not been counted as additional choices. For example, the adverb could have split the infinitive in choice 1: “to soon overtake you.”
+
+The actual language of the text at 3 Nephi 29:4 was likely to have been far from Joseph’s preferred native expression. There are many other ways he probably would have preferred to have phrased it. It is evidence like this — something we frequently encounter in the Book of Mormon — which strongly suggests that he was not responsible for wording the text.
+
+This complex finite syntax can be less simply stated as:
+
+> <subj.> «cause» NP(obj.) [ that NP(subj.) <modal aux.> <infinitive> ](obj. clause)
+
+The first NP, “the earth,” is an object (historically, an indirect object) and a full noun phrase; the second NP, it , is a subject pronoun that refers back to “the earth” (a pronoun is also technically a [short] noun phrase).
+
+Stanford Carmack
+
+Stanford Carmack has a linguistics and a law degree from Stanford University as well as a doctorate in Hispanic Languages and Literature from the University of California, Santa Barbara, specializing in historical syntax and textual analysis. He currently researches Book of Mormon syntax and lexis as they relate to earlier English usage and he contributed to aspects of the Book of Mormon critical text project carried out by Royal Skousen.
+
+11 Comment (s)
+
+Robert D. Crockett , 01-12-2022 at 12:00 am Reply
+
+Robert D. Crockett , 01-12-2022 at 12:00 am
+
+Show me a proper statistical analysis and then I’ll start believing.  Until then —
+
+Show me a proper statistical analysis and then I’ll start believing.  Until then —
+
+
+## Replies
+
+Stanford Carmack , 01-14-2022 at 12:00 am Reply
+
+Stanford Carmack , 01-14-2022 at 12:00 am
+
+Not all comparative syntactic analysis of the Book of Mormon is amenable to rigorous statistical comparisons, but some of it is. Three papers of mine were just published by Interpreter: https://journal.interpreterfoundation.org/personal-relative-pronoun-usage-in-the-book-of-mormon-an-important-authorship-diagnostic/ https://journal.interpreterfoundation.org/the-book-of-mormons-complex-finite-cause-syntax/ https://journal.interpreterfoundation.org/a-comparison-of-the-book-of-mormons-subordinate-that-usage/ The first one was reviewed by statisticians, who gave their input to me and the head editor of the paper. Their suggestions were incorporated. Clearly, then, this comment is merely a red herring.
+
+Not all comparative syntactic analysis of the Book of Mormon is amenable to rigorous statistical comparisons, but some of it is.
+
+Three papers of mine were just published by Interpreter:
+
+https://journal.interpreterfoundation.org/personal-relative-pronoun-usage-in-the-book-of-mormon-an-important-authorship-diagnostic/ https://journal.interpreterfoundation.org/the-book-of-mormons-complex-finite-cause-syntax/ https://journal.interpreterfoundation.org/a-comparison-of-the-book-of-mormons-subordinate-that-usage/
+
+The first one was reviewed by statisticians, who gave their input to me and the head editor of the paper. Their suggestions were incorporated.
+
+Clearly, then, this comment is merely a red herring.
+
+Blair Lucas , 12-10-2021 at 12:00 am Reply
+
+Blair Lucas , 12-10-2021 at 12:00 am
+
+Bro Carmack ….just a “thank you” for these two articles.  As a grass roots member I greatly appreciate your many continuing  contributions.. I’ve read all your articles on this subject…. the BoM is so simple on a readability level, yet so surprisingly complex on EME syntax level … and this complexity is hiding in plain sight….. basically there is no person capable of personally producing the BoM in 1829 or today …. you’ve taught me that archaic languages are not recoverable by the current generation of writers … it is so interesting to me to see this EME syntax phenomenon being revealed …. turns out that when JS says the BoM was produced by the “gift & power of God” ….. he wasn’t kidding!  I stand all amazed at JS huge prophetic gifts!
+
+Bro Carmack ….just a “thank you” for these two articles.  As a grass roots member I greatly appreciate your many continuing  contributions.. I’ve read all your articles on this subject…. the BoM is so simple on a readability level, yet so surprisingly complex on EME syntax level … and this complexity is hiding in plain sight….. basically there is no person capable of personally producing the BoM in 1829 or today …. you’ve taught me that archaic languages are not recoverable by the current generation of writers … it is so interesting to me to see this EME syntax phenomenon being revealed …. turns out that when JS says the BoM was produced by the “gift & power of God” ….. he wasn’t kidding!  I stand all amazed at JS huge prophetic gifts!
+
+Richard Hills , 12-03-2021 at 12:00 am Reply
+
+Richard Hills , 12-03-2021 at 12:00 am
+
+For me it’s reasonable to say that the possibility of Joseph Smith getting Early Modern English from books is exceedingly remote; but also, not being able to imagine any details of how translating “by the gift and power of God” works, who’s to say that it’s possibility isn’t also  exceedingly remote?  What about the possibility of his hearing Early Modern English-isms (and bad grammar-isms) that were subconsciously recalled? I’m remembering the Bridey Murphy craze of the mid 1950’s where a Colorado housewife under hypnosis supposedly regressed to a previous life as an Irishwoman named Bridey Murphy, born in 1798 in Cork.  She recounting impressive details of her former life complete with appropriate accent.  It was widely presumed at first that reincarnation was the only possibility, there being absolutely no way the untraveled housewife could have come up with this.  Later investigation revealed that she had lived with her partly Irish birthparents until age three and that an Irish immigrant named Bridie Murphy Corkell (who immigrated to the U.S. in 1906) lived across the street from her childhood home.  It’s now firmly suggested that the housewife was recalling things she heard as a child. So where could Joseph Smith have heard Early Modern English-isms?  Some Book of Mormon critics have suggested that exhortations by its prophets sound a lot like sermons of preachers in the early 1800’s.  Having been heard by young Joseph, could they have been subconsciously recorded in his memory?  If there were instances of early 1800’s preachers in the Burnt Over District preaching in King James English and maybe someone sprinkling in Early Modern English-isms, this possibility might not be so exceedingly remote.  What’s the possibility of researchers finding word-for-word transcriptions of such sermons?
+
+For me it’s reasonable to say that the possibility of Joseph Smith getting Early Modern English from books is exceedingly remote; but also, not being able to imagine any details of how translating “by the gift and power of God” works, who’s to say that it’s possibility isn’t also  exceedingly remote?  What about the possibility of his hearing Early Modern English-isms (and bad grammar-isms) that were subconsciously recalled?
+
+I’m remembering the Bridey Murphy craze of the mid 1950’s where a Colorado housewife under hypnosis supposedly regressed to a previous life as an Irishwoman named Bridey Murphy, born in 1798 in Cork.  She recounting impressive details of her former life complete with appropriate accent.  It was widely presumed at first that reincarnation was the only possibility, there being absolutely no way the untraveled housewife could have come up with this.  Later investigation revealed that she had lived with her partly Irish birthparents until age three and that an Irish immigrant named Bridie Murphy Corkell (who immigrated to the U.S. in 1906) lived across the street from her childhood home.  It’s now firmly suggested that the housewife was recalling things she heard as a child.
+
+So where could Joseph Smith have heard Early Modern English-isms?  Some Book of Mormon critics have suggested that exhortations by its prophets sound a lot like sermons of preachers in the early 1800’s.  Having been heard by young Joseph, could they have been subconsciously recorded in his memory?  If there were instances of early 1800’s preachers in the Burnt Over District preaching in King James English and maybe someone sprinkling in Early Modern English-isms, this possibility might not be so exceedingly remote.  What’s the possibility of researchers finding word-for-word transcriptions of such sermons?
+
+Richard Hills , 12-02-2021 at 12:00 am Reply
+
+Richard Hills , 12-02-2021 at 12:00 am
+
+Some wonder why the Reformed Egyptian on the Gold Plates wasn’t translated into current English.  When I read the Book of Mormon, the King James English inspires feelings of reverence and piety and I can visualize it as being written long ago by ancient prophets.  The Early Modern English-isms in the First Edition disturb those feelings which is why I believe Church Leaders have been inspired to remove them in later editions.  They would seem to have no divine purpose except to test my faith. (My definition: “Faith is something you have to have to believe in something you wouldn’t believe in if you didn’t have it.” – Richard Hills)
+
+Some wonder why the Reformed Egyptian on the Gold Plates wasn’t translated into current English.  When I read the Book of Mormon, the King James English inspires feelings of reverence and piety and I can visualize it as being written long ago by ancient prophets.  The Early Modern English-isms in the First Edition disturb those feelings which is why I believe Church Leaders have been inspired to remove them in later editions.  They would seem to have no divine purpose except to test my faith. (My definition: “Faith is something you have to have to believe in something you wouldn’t believe in if you didn’t have it.” – Richard Hills)
+
+Tim Ernst , 12-01-2021 at 12:00 am Reply
+
+Tim Ernst , 12-01-2021 at 12:00 am
+
+I’ve mentioned before the possibility, if not the probability that at some point in the future, if we accept that eModE is prevalent, provable and authentically attested to in the Critical Text of the Book of Mormon, that the next step for those of such a mind, is to “discover, locate or find” that “undiscovered text” which was written by some unknown, unheralded and un-championed playwright of the past who must obviously have written the manuscript now known as the Book of Mormon. Obviously, said author must be of the near-caliber penmanship of a William Shakespeare in order to explain the intricacies, geography, prescience, Hebraic poetry, Onomastic wordplay and yet a totally compelling storyline commensurate with that book as now published.  Said manuscript would obviously (with its apparent eModE stylistic patterns) have been written near the same time, place and vintage as William Shakespeare’s writings, although it perchance could have originated as easily in the Old World as it could have in the “Colonies.”  Either location would work for this now forgotten genius to have penned his opus magnus, one never to be published in his lifetime, nor the lifetime of his children, nor even that of his grand-children.  And not only not published, but not mentioned, not described and kept totally and completely secret.  In order to have been written in the eModE era, it means that indeed, the author must have been a veritable genius with near-prophetic vision and undeniably lucky in describing anachronisms which would all prove out to actually have been correct, but only provable and discoverable hundreds and hundreds of years later.  Amazing and outstanding set of circumstances, almost as virtually impossible in that early day as what Joseph Smith claimed in his! Almost certainly, the Smith family would have had to have retained the manuscript and passed it carefully down from generation to generation waiting for just the right individual to come along.  (Why they would have picked Joseph Smith, Jr. instead of Joseph, Sr. or a sibling like Alvin or Hyrum is way beyond the scope of this conjecture.  How they managed to acquire it, retain it and keep its existence hidden for generations is also beyond the scope of this conjecture…) The ludicrosity of this avenue of thought boggles the imagination.  Let alone the difficulty involved in managing to utilize (translate) the supposed manuscript under the confines of the actual historical methodology as we now understand it to have functioned during the translation process.  If Joseph Smith had produced any manuscript from which he read or “translated” as his scribes hurriedly transposed, then that avenue as described above could potentially become plausible, but even then doubtful. After everything is said and done, Occam’s razor applies most unerringly to the question of Book of Mormon origination.  The easiest and most forthright manner for its appearance is as Joseph Smith said, that it came by “the gift and power of God.”  All other inventive and belabored accounts punish the issue to the point of irrationality and way beyond the tipping point of easy feasibility required by Occam’s razor. Granted those unwilling to acknowledge the Supernatural or Divine will not be satisfied with Joseph’s explanation, though the man himself, to his dying day insisted upon Divinity as his source.  In their minds, it is easier to thread a camel through the needle’s eye than it is for God to speak to man, especially a man as unexpected, unheralded, uneducated and uninformed as was Joseph Smith. Well, here’s to Joseph Smith.  Either the world’s greatest charlatan and imposter or a simple farm-boy utilized by Divinity for Divinity’s sake.  Indeed, it is but for these two choices which are really all we have left to choose between.
+
+I’ve mentioned before the possibility, if not the probability that at some point in the future, if we accept that eModE is prevalent, provable and authentically attested to in the Critical Text of the Book of Mormon, that the next step for those of such a mind, is to “discover, locate or find” that “undiscovered text” which was written by some unknown, unheralded and un-championed playwright of the past who must obviously have written the manuscript now known as the Book of Mormon.
+
+Obviously, said author must be of the near-caliber penmanship of a William Shakespeare in order to explain the intricacies, geography, prescience, Hebraic poetry, Onomastic wordplay and yet a totally compelling storyline commensurate with that book as now published.  Said manuscript would obviously (with its apparent eModE stylistic patterns) have been written near the same time, place and vintage as William Shakespeare’s writings, although it perchance could have originated as easily in the Old World as it could have in the “Colonies.”  Either location would work for this now forgotten genius to have penned his opus magnus, one never to be published in his lifetime, nor the lifetime of his children, nor even that of his grand-children.  And not only not published, but not mentioned, not described and kept totally and completely secret.  In order to have been written in the eModE era, it means that indeed, the author must have been a veritable genius with near-prophetic vision and undeniably lucky in describing anachronisms which would all prove out to actually have been correct, but only provable and discoverable hundreds and hundreds of years later.  Amazing and outstanding set of circumstances, almost as virtually impossible in that early day as what Joseph Smith claimed in his!
+
+Almost certainly, the Smith family would have had to have retained the manuscript and passed it carefully down from generation to generation waiting for just the right individual to come along.  (Why they would have picked Joseph Smith, Jr. instead of Joseph, Sr. or a sibling like Alvin or Hyrum is way beyond the scope of this conjecture.  How they managed to acquire it, retain it and keep its existence hidden for generations is also beyond the scope of this conjecture…)
+
+The ludicrosity of this avenue of thought boggles the imagination.  Let alone the difficulty involved in managing to utilize (translate) the supposed manuscript under the confines of the actual historical methodology as we now understand it to have functioned during the translation process.  If Joseph Smith had produced any manuscript from which he read or “translated” as his scribes hurriedly transposed, then that avenue as described above could potentially become plausible, but even then doubtful.
+
+After everything is said and done, Occam’s razor applies most unerringly to the question of Book of Mormon origination.  The easiest and most forthright manner for its appearance is as Joseph Smith said, that it came by “the gift and power of God.”  All other inventive and belabored accounts punish the issue to the point of irrationality and way beyond the tipping point of easy feasibility required by Occam’s razor.
+
+Granted those unwilling to acknowledge the Supernatural or Divine will not be satisfied with Joseph’s explanation, though the man himself, to his dying day insisted upon Divinity as his source.  In their minds, it is easier to thread a camel through the needle’s eye than it is for God to speak to man, especially a man as unexpected, unheralded, uneducated and uninformed as was Joseph Smith.
+
+Well, here’s to Joseph Smith.  Either the world’s greatest charlatan and imposter or a simple farm-boy utilized by Divinity for Divinity’s sake.  Indeed, it is but for these two choices which are really all we have left to choose between.
+
+
+## Replies
+
+Blair Lucas , 12-10-2021 at 12:00 am Reply
+
+Blair Lucas , 12-10-2021 at 12:00 am
+
+Just a thought on who prepped the manuscript that was transmitted to JS thru the seer stone …. the book “Wide as the Waters…” has a pretty good list of individuals that could have been involved + it’s an awesome book start to finish …
+
+Just a thought on who prepped the manuscript that was transmitted to JS thru the seer stone …. the book “Wide as the Waters…” has a pretty good list of individuals that could have been involved + it’s an awesome book start to finish …
+
+Tim Ernst , 11-29-2021 at 12:00 am Reply
+
+Tim Ernst , 11-29-2021 at 12:00 am
+
+As is typical of a Stanford Carmack text, this paper shows a great deal of painstaking and in-depth textual analysis with research that goes well beyond the exigencies required for a typical paper of this nature.  Stan is required to “go beyond the mark” for the simple reason that if he didn’t cross every t and dot every i, then his conclusions could be misinterpreted or contradicted.  By that I mean that there are those who would take his silence on any given situation to suggest that the absence of proof is sufficient to provide proof of its opposite.  Because of that contrarian stance, Stan is required to go beyond mere research to first provide examples and from there he provides counter-examples, and by this method ensures that all his bases are covered.  He does a marvelous job doing so and it is difficult to determine how, for instance, anyone can claim to find evidence contradicting his research.
+
+As is typical of a Stanford Carmack text, this paper shows a great deal of painstaking and in-depth textual analysis with research that goes well beyond the exigencies required for a typical paper of this nature.  Stan is required to “go beyond the mark” for the simple reason that if he didn’t cross every t and dot every i, then his conclusions could be misinterpreted or contradicted.  By that I mean that there are those who would take his silence on any given situation to suggest that the absence of proof is sufficient to provide proof of its opposite.  Because of that contrarian stance, Stan is required to go beyond mere research to first provide examples and from there he provides counter-examples, and by this method ensures that all his bases are covered.  He does a marvelous job doing so and it is difficult to determine how, for instance, anyone can claim to find evidence contradicting his research.
+
+Lynda Wilson , 11-28-2021 at 12:00 am Reply
+
+Lynda Wilson , 11-28-2021 at 12:00 am
+
+I am so grateful that scholars like Stanford Carmack and Royal Skousen have done and are doing this kind of research. It is easy to make hasty assumptions about how Joseph Smith translated the Book of Mormon absent the specific examples that their research unearths. Those who question Joseph Smith’s prophetic role make that claim that the Book of Mormon is pseudo-archaic. This shows the falsity of this “easy to claim; impossible to prove” accusation. This is strong proof of the BoM’s authenticity. Thank you!
+
+I am so grateful that scholars like Stanford Carmack and Royal Skousen have done and are doing this kind of research. It is easy to make hasty assumptions about how Joseph Smith translated the Book of Mormon absent the specific examples that their research unearths. Those who question Joseph Smith’s prophetic role make that claim that the Book of Mormon is pseudo-archaic. This shows the falsity of this “easy to claim; impossible to prove” accusation. This is strong proof of the BoM’s authenticity. Thank you!
+
+Robert F. Smith , 11-26-2021 at 12:00 am Reply
+
+Robert F. Smith , 11-26-2021 at 12:00 am
+
+Another brilliant contribution, Stanford. However, you state that this “dataset provides additional strong evidence for a revealed-words view of the 1829 dictation,” as opposed to the sometimes suggested “revealed-ideas” theory. Wouldn’t it be even more likely to indicate that Joseph somehow got his hands on an EmodE pseudepigraphon, or that he managed to obtain a text translated by someone like William Caxton?
+
+Another brilliant contribution, Stanford.
+
+However, you state that this “dataset provides additional strong evidence for a revealed-words view of the 1829 dictation,” as opposed to the sometimes suggested “revealed-ideas” theory.
+
+Wouldn’t it be even more likely to indicate that Joseph somehow got his hands on an EmodE pseudepigraphon, or that he managed to obtain a text translated by someone like William Caxton?
+
+
+## Replies
+
+Tim Ernst , 11-29-2021 at 12:00 am Reply
+
+Tim Ernst , 11-29-2021 at 12:00 am
+
+Not knowing Stan’s mind on this, still I think that “yes” he easily could have said what you just said.  But, the evidence just doesn’t point to that.  “Yes,” Joseph could have done this, could have done that, could have done a multiplicity of actions, and none of which bear resemblance to what we actually know of his experience. I think that all Stan is saying is that the evidence as he outlines shows that eModE is analytically and statistically evidenced in the Critical Text, regardless of where it came from.  Stan leaves the resulting decision to the individual to determine, or for other historians to demonstrate.  For as other historians have readily shown, Joseph did not have manuscripts, ledgers, Bibles nor other notes and texts hidden in front of him nor within his hat. Once again, Stan was not trying to find proof of point of origination when he said that the text was revealed-word dependent, he was just trying to say that the words as delivered reveal eModE dependencies which cannot be concluded from pseudo-archaic depictions.
+
+Not knowing Stan’s mind on this, still I think that “yes” he easily could have said what you just said.  But, the evidence just doesn’t point to that.  “Yes,” Joseph could have done this, could have done that, could have done a multiplicity of actions, and none of which bear resemblance to what we actually know of his experience.
+
+I think that all Stan is saying is that the evidence as he outlines shows that eModE is analytically and statistically evidenced in the Critical Text, regardless of where it came from.  Stan leaves the resulting decision to the individual to determine, or for other historians to demonstrate.  For as other historians have readily shown, Joseph did not have manuscripts, ledgers, Bibles nor other notes and texts hidden in front of him nor within his hat.
+
+Once again, Stan was not trying to find proof of point of origination when he said that the text was revealed-word dependent, he was just trying to say that the words as delivered reveal eModE dependencies which cannot be concluded from pseudo-archaic depictions.
+
+
+## Donate Now
+
+
+## Donate to the cause
+
+The Interpreter Foundation is a nonprofit organization. All journal publications and video presentations are available for free by digital download and streaming. The price of hard copy versions of journal articles covers only the cost of printing; books are typically priced to help cover both upfront pre-publication expenses and royalties to authors when applicable. In some cases, the Foundation may subsidize publication costs to keep retail prices affordable. The Foundation does not profit from sales of its publications.
+
+  - CURRENT VOLUME
+  - JOURNAL INDEXES
+  - VOLUME INDEX
+  - TOPIC INDEX
+  - AUTHOR INDEX
+  - TITLE INDEX
+  - SCRIPTURE INDEX
+
+  - Blog
+  - NEWS & EVENTS
+  - COME, FOLLOW ME
+  - INTERPRETER PODCASTS
+  - INTERPRETER CONFERENCES
+  - INTERPRETER STUDY TRAVEL
+  - STUDY SERIES
+  - STUDY ARCHIVE
+  - STUDY INDEXES
+
+  - Foundation Events
+  - Foundation Books
+  - Foundation Films
+  - Foundation Expenses
+  - My Subscription
+  - Contact
+  - DONATE
+
+  - PRIVACY POLICY
+  - TERMS OF SERVICE
+
+  - Facebook
+  - X
+  - Youtube
+  - Tiktok
+  - Instagram
+  - Podcast Channels
+
+© 2012-2026 The Interpreter Foundation.
+
+A 501(c)(3) nonprofit organization
+
+All journal publications and video presentations are available for free by digital download and streaming.
+The price of hard copy versions of journal articles covers only the cost of printing; books are typically
+priced to help cover both upfront pre—publication expenses and royalties to authors when applicable.
+In some cases, the Foundation may subsidize publication costs to keep retail prices affordable.
+
+We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in our Privacy Policy.
+
+---
+Notes
+
+[1] Example: “… the Lord did cause the serpents that they should pursue them no more” (Ether 9:33) 1
+
+[2] In carrying out these syntactic studies, the issue I am primarily interested in is whether the Book of Mormon was the result of a revelation of ideas or a revelation of words. Much of the hard linguistic evidence I have analyzed indicates to me that it was a revelation of words. The unique clausal verb complementation of the Book of Mormon is strong evidence of that. 2 I have not encountered any text that has the sustained heavily finite verb complementation of the Book of Mormon: hundreds of instances with quite a few different verbs.
+
+[3] In the Book of Mormon, clausal complementation after the verb cause occurs 236 times (see page 577 of the critical-text volume The Nature of the Original Language [NOL]). 3 Table 1 shows the three types of clausal complementation and the number of instances, in descending order, that occur in the Book of Mormon. The last type, complex finite complementation, is the focus of this paper.
+
+[4] As shown in Table 1, the simple finite is the most common type of complementation occurring after the verb cause in the Book of Mormon, followed by the infinitive type, and then the complex finite type. [Page 115] The Book of Mormon is 58 percent finite and 42 percent infinitival, in 236 instances. This is an extraordinarily high finite rate for this verb and a very large number of finite instances. In view of this, the Book of Mormon presents us with a pattern quite unlike virtually any text we might consult. It is possible that no other text with at least 20 instances of this causative language has this heavily finite pattern. So far, database searches have not revealed any text that has 24 simple finite constructions after the verb cause , let alone 124. 4
+
+[5] In Joseph Smith’s time, infinitival complementation after the verb cause was almost always used, and complex finite complementation was obsolete. We can see in two early letters that Joseph Smith used infinitival complementation: “cause to be brought” (1831); “has caused me to overlook” (1833). The simple finite construction was still in use, but it was only rarely used. Even before the year 1700, during the early modern period, 5 infinitival complementation was dominant, with the simple finite uncommon, and the complex finite very uncommon. The last structural type shown in Table 1 — the complex finite construction with the related modal auxiliary verbs shall and should — was very rare language after the year 1700.
+
+[6] That there are 12 instances in the text shows that it was not an aberration, that it was either intentional on the part of Joseph Smith or that it reflected the apparent early modern sensibilities of the Book of Mormon’s English-language translation. The latter is by far the more likely reason for the usage, as well as for the text’s heavy finite complementation after this verb and other similar verbs of influence. 6 In other words, the English-language translation seems to have involved implicit, wide-ranging knowledge of Early Modern English, beyond biblical knowledge, as well as knowledge of some earlier and later English.
+
+[7] At this point, only 25 complex finite instances similar to what we read in the Book of Mormon have been identified outside of the text, 23 of them before the modern period of English began after 1700. 7 The original Book of Mormon text thus contains nearly one-third of currently identified instances of this specific syntax.
+
+[8] The Book of Mormon has 12 instances of this complex finite syntax. 8 (For a discussion of Doctrine and Covenants usage, see pages 310–12 of my 2017 article. 9 )
+
+[9] All 12 of these syntactic structures consistently occur with either shall or should as the auxiliary verb, so I will confine the discussion to this consistent Book of Mormon type, even though the textual record has more examples of “«cause» NP that S” language without any auxiliary or with other auxiliaries besides shall and should . After a verb like cause , shall and should are mandative in function, a term that means “pertaining to command.” 10
+
+[10] The biblical text does not use a subjunctive shall after most verbs of influence, including the high-frequency verbs cause , command , desire , and suffer . 11
+
+[11] , sj4AAAAAYAAJ 12 and to cause that the proprietor thereof shall not be able to live,
+
+[12] This was the heavily dominant causative syntax of Joseph Smith’s day, and it was also the most likely pseudo-archaic form, since the 25 pseudo-archaic texts consulted for this study are all infinitival after the verb cause . 13
+
+[13] In some contexts, such as with pronouns, the difference in textual usage rates between the finite and the infinitival was very large. In the late 1700s, for example, the simple finite occurred only about 0.1 percent of the time with pronominal arguments (one out of a thousand, on average). 14
+
+[14] Book of Mormon language like “king Mosiah did cause his people that they should till the earth” (Mosiah 6:7) is biblical-sounding, yet the specific syntax is not biblical. We can encounter a limited number of analogs in the King James text with other verbs. The above complex finite construction with this verb does not appear in the King James Bible or in the 25 pseudo-archaic texts consulted for this study. So it was not biblically imitative by analogy with other verbs, such as the verbs command and desire . 15
+
+[15] The King James Bible has only three instances of simple finite syntax (“«cause» that S”), out of 303 constructions with the verb cause; the rest are infinitival (“«cause» NP to <infin. phrase>”). To repeat, the King James text is 99 percent infinitival after the verb cause , and one percent simple finite. In a direct comparison with the Book of Mormon, these [Page 118] dramatic differences yield a large chi-square statistic and an extremely low p-value (X 2 = 222.4; p < 10 –48 ). 16
+
+[16] Furthermore, the 25 pseudo-archaic texts examined for this study have only infinitival complementation in this domain. They do not even have simple finite syntax after the verb cause , in 115 instances. To repeat, these pseudo-archaic writings have infinitival complementation after the verb cause 100 percent of the time. 17
+
+[17] the King James Bible (including the Apocrypha: about 932,000 words) 25 pseudo-archaic texts (first published between 1740 and 1888) Joseph Smith’s early writings (10 letters and his 1832 personal history) 18 any original writings first published after 1713, 19 outside of the Book of Mormon
+
+[18] Nephi 17:46 he can cause the earth that it shall pass away 3 Nephi 29:4 he will cause it that it shall soon overtake you 20
+
+[19] c 1469, EEBO A21703 (1485) 21 that shall cause me that I shall not be known 1701, ECCO CW0106164956 22 for this will cause it , that it shall not easily come off
+
+[20] The 1701 example is a nearly perfect syntactic match with 3 Nephi 29:4. Not only is there complex finite complementation with a repeat of the pronoun it , but in each case, there is an adverb following mandative shall . 23
+
+[21] Late 15c & 16c 17c 18c Instances 10 13 2 Number of titles (ESTC) 24 10,603 70,815 302,074 Rate (per 100,000 ESTC titles) 94 18 0.7
+
+[22] Table 2 shows that thirteen 17th-century instances is a rate effectively equivalent to more than 20 times the 18th-century rate. Similarly, ten late 15th-century and 16th-century instances is effectively equivalent to more than 100 times the 18th-century rate. Though uncommon, complex finite complementation after the verb cause was primarily an early modern construction (as mentioned, there are even more instances in databases without a mandative auxiliary). It was very rare or obsolete by the middle of the 18th century. 25
+
+[23] As databases improve and expand, known instances of this syntax occurring outside the Book of Mormon will likely increase over time. Yet it will be difficult to alter the position that Joseph Smith was unlikely to produce this kind of language on the basis of revealed ideas. First, the heavily finite verb complementation sustained throughout the Book of Mormon, after quite a few different verbs, argues against a revealed-ideas approach. From what I have seen so far in my detailed searches of the EEBO and ECCO databases, only some of William Caxton’s late 15th-century translations out of Latin and French have anything like the Book of Mormon’s patterns in this regard. 26 Second, a lack of contemporary, early 19th-century textual support for this specific construction argues against a revealed-ideas approach. A finding of several contemporary authors who use multiple, original instances of this specific syntactic structure should be necessary in order to overturn this position. Third, the combined archaism and the redundant pronominal usage and even perhaps the extended, multiple complementation argue against a revealed-ideas approach.
+
+[24] Writing for the Oxford Dictionary of National Biography (ODNB), David Norton had this to say about Anthony Purver’s Bible: “In its renderings and its language, his ‘Quaker’s Bible ’ sometimes anticipates later versions, but it was rarely appreciated. Not only was the language constantly unlike that of the King James Bible but it was often decidedly colloquial.” 27 Charles Spurgeon said of Purver’s work: “Often [Page 129] ungrammatical and unintelligible. Not without its good points, but much more curious than useful.” 28
+
+[25] [Page 130] Revelation 3:9; EYt3pKfob2UC (1890) 29 I will cause them that they shall have come, This is from the tenth edition of the Emphasised Bible, first published in 1872.
+

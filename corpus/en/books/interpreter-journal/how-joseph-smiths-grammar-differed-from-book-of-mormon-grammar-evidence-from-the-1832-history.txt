@@ -1,0 +1,315 @@
+[Page 239] Abstract: Some of the grammar of Joseph Smith’s 1832 History is examined. Three archaic, extra-biblical features that occur quite frequently in the Book of Mormon are not present in the history, even though there was ample opportunity for use. Relevant usage in the 1832 History is typical of modern English, in line with independent linguistic studies. This leads to the conclusion that Joseph’s grammar was not archaizing in these three types of morphosyntax which are prominent in the earliest text of the Book of Mormon. This corroborating evidence also indicates that English words were transmitted to Joseph throughout the dictation of the Book of Mormon.
+
+Joseph Smith’s 1832 History is a text of slightly more than 2,000 words, originally written down partly in his own hand (about two-thirds of it), and partly by Frederick G. Williams. 1 Here I look at some language usage in the history — both frequent and occasional — that has a bearing on Book of Mormon patterns of use. This evidence provides insight into the nature of Joseph’s own linguistic preferences. In short, the 1832 History contains a significant amount of language typical of the early 19th century. Given what linguists know about English usage of this time, these particular usage tendencies would have been expected in this short write-up by Joseph of his personal history.
+
+A descriptive linguistic analysis of the 1832 History shows that Joseph’s language differed substantially from Book of Mormon usage in at least three important respects. This provides support for the view that English words were actually transmitted in some way to Joseph in 1829, words that he then dictated to scribes.
+
+[Page 240] No attempt has been made to examine a larger corpus of Joseph’s language at this time. Further studies based on a larger corpus may be carried out in the future. The 1832 History is examined for what it is and what it can tell us about Joseph’s grammar in relation to the grammar of the Book of Mormon. The history has the advantage of being mostly written down by Joseph himself and close in time to when the Book of Mormon was set down in writing, making it a fairly reliable, homogeneous text. Also, some features of the history are archaizing and biblical, such as verbal inflection. These things tend to make a linguistic comparison of the Book of Mormon and the 1832 History valid and meaningful.
+
+
+## Findings
+
+Against both frequent and occasional Book of Mormon usage, Joseph Smith’s 1832 History does not employ:
+
+  - periphrastic did in positive declarative statements
+  - the relative pronoun which after personal antecedents
+  - the {-th} plural — that is, archaic {-th} inflection after plural subjects
+  - finite complementation after the verbs desire and suffer
+
+Consonant with frequent or occasional Book of Mormon usage, Joseph Smith’s 1832 History does employ:
+
+  - plural was as well as were
+  - “exceeding great” (as well as “exceedingly distressed”)
+  - past-tense come and become (as well as came and became )
+
+
+## Frequent, Consistent Usage of the 1832 History
+
+
+## No Periphrastic did 2
+
+There is no did -periphrasis in positive declarative statements in the 1832 History, even though 88 past-tense main verbs are present. 3 To match Book of Mormon rates there would need to be 26 instances of periphrastic did in this account. 4
+
+The complete lack of periphrastic did in this account agrees with independent linguistic studies that did not find appreciable maintenance of this Early Modern English phenomenon after the 17th century (Early Modern English can be thought of as ranging in time from 1500 to 1700). 5 It constitutes strong evidence that periphrastic did was not part of Joseph’s own dialect. Because Book of Mormon usage is not derivable [Page 241] from biblical usage, the nearly 2,000 instances of positive periphrastic did found throughout the Book of Mormon point to English words being transmitted to Joseph throughout the dictation.
+
+Skousen defined “tight control” nearly 20 years ago as the following: “Joseph saw specific words written out in English and read them off to the scribe — the accuracy of the resulting text depending on the carefulness of Joseph and his scribe .” 6 This description, however, is no longer unambiguous since Brant Gardner has developed an approach that involves Joseph seeing specific words even though Gardner believes that only ideas were revealed to Joseph: “We need a mechanism that explains how Joseph could be the translator and still read what he saw on the interpreters or his seer stone .” 7 For clarity, we must step back one degree and state that either ideas or words were transmitted to Joseph, something I do in this paper.
+
+The delivery of words mentioned in 2 Nephi 27:24 supports the view that the Lord caused mostly English words to be sent to Joseph. 8 A concrete form of expression — words — is mentioned as being delivered. The primary evidence, however, resides in the archaic, extra-biblical vocabulary, form, and structure of the Book of Mormon text. Such language was foreign to Joseph Smith’s way of speaking and writing. More than 1,800 instances of positive declarative periphrastic did is a prime example of that. The match with 16th-century English usage is present on multiple levels: rate of use, syntactic distribution of the auxiliary and infinitive, and individual verb use tendencies. 9
+
+
+## No Personal which
+
+The relative pronoun which is not used with personal antecedents in the 1832 History. There are only a dozen clear instances of personal that and personal who:
+
+Personal that [2 instances]
+
+  - all that were able to render any assistance [JS’s hand] (cf. “that they might get all which were upon the face of the land” [Ether 15:14]) 10
+  - but could find none that would believe the hevnly vision [JS’s hand] (cf. “there were none which were Amlicites or Amulonites” [Alma 24:29])
+
+[Page 242] Personal who [10 instances]
+
+  - the son of the living God of whom he beareth record [FGW’s hand] (cf. “I am Jesus Christ of which the prophets testified” [3 Nephi 11:10])
+  - goodly Parents who spared no pains [JS’s hand] (cf. “our first parents which came out of the land of Jerusalem” [Helaman 5:6])
+  - even in the likeness of him who created him ^[ them ] [JS’s hand] (cf. “and slay him which should attempt to approach” [Alma 50:5])
+  - a being who makith Laws … who filleth Eternity who was and is and will be from all Eternity to Eternity (three instances) [JS’s hand] (cf. “a being which never hath been seen nor known” [Alma 30:28])
+  - for there was none else to whom I could go [JS’s hand] (cf. “the Men, to which He speakes” [1610, John Boys, EEBO A16549]) 11
+  - all those who believe on my name [JS’s hand] (cf. “And whosoever of those which belonged to their band” [Helaman 6:24])
+  - Daughtr of Isaach Hale who lived in Harmony Susquehana County [FGW’s hand] (cf. “the Gaddianton robbers, which dwelt upon the mountains” [3 Nephi 1:27])
+  - a man by the name of Martin Haris who became convinced of the vision [FGW’s hand] (cf. “a man which was large and was noted for his much strength” [Alma 1:2])
+
+Above we can see that Joseph Smith favored the use of personal who, which agrees generally with the textual record and independent linguistic research. 12
+
+The systematic use of the relative pronouns who and that with personal antecedents in the 1832 History is also a problem for those who favor Joseph being responsible for the wording of the Book of Mormon, since the earliest text is quite heavy in its use of personal which (much of it edited out by 1837), 13 and relative-pronoun selection mostly reflects subconscious authorial preferences.
+
+[Page 243] This is a complex area of study. Factors such as the function of the relative pronoun (restrictive [defining] versus non-restrictive; object versus subject) and the type of antecedent affect the (subconscious) choice of the relative pronoun. I have limited my analysis to restrictive contexts but have considered various antecedents.
+
+On average, the earliest text of the Book of Mormon clearly prefers personal which, followed by personal that, followed by who(m). I have considered four different types of personal antecedents in the Book of Mormon and have found the earliest text employs which 56% of the time, that 28% of the time, and who(m) 16% of the time. This is very different from the usage found in the 1832 History, which contains 10 instances of who(m), two instances of personal that, but none of personal which.
+
+Significantly, the Book of Mormon does not imitate biblical usage in this regard, although it is definitely archaic. 14 The King James Bible strongly prefers personal that (more than 80% of the time), followed distantly by which (about 12% of the time), and then who(m). 15 Overall, these two scriptural texts are uncorrelated in their choice of relative pronouns after personal antecedents.
+
+With different antecedents, relative-pronoun usage varies in the scriptural texts. In the case of the antecedent he/him, the Book of Mormon is 80% “he/him that ,” approaching the 96% of the King James Bible. But when the antecedent is those/they/them, the Book of Mormon is only 20% that. This is quite different from the 81% of the King James Bible.
+
+The Book of Mormon is very heavy in its use of “people which” (93%), while the King James Bible is heavy in its use of “people that” (82%). Thus far I have pinpointed only two or three Early Modern English writings that employ restrictive “people which” in the majority of possible cases. The two texts that clearly contain the distribution of Book of Mormon usage are Richard Hakluyt’s The Principal Navigations … of the English Nation (1589–1600, 57% “people which”) and Edward Grimeston’s translation of a French work titled The Estates, Empires, and Principalities of the World (1615, 54% “people which”). The third text that is a candidate for majority “people which” usage is a mid-17th-century encyclopedia by Peter Heylin (1652, 56% “people which”). This work, however, has a large number of non-restrictive “people, who” examples.
+
+After the year 1700, “people who” begins to dominate the written record, followed by “people that .” “People which” is merely an occasionally found minor variant in the 18th century and beyond. I have cross-verified this by considering usage in two five-million-word corpora [Page 244] of the authors Walter Scott and James Fenimore Cooper. I found only one instance of restrictive “people which” in these two single author databases — in one of Cooper’s books. These authors employed “people who” more than 80% of the time, with almost all the remaining use being “people that .”
+
+
+## No {-th} Plural 16
+
+There are 12 verbs that carry archaic {-th} inflection in the 1832 History:
+
+> doeth (twice), hath (twice), beareth, bindeth, decreeth, filleth, lieth, makith, saith, seeketh
+
+All these verb forms occur after third-person singular subjects, meaning that these archaic, inflected forms are biblical in character. Consequently, there is not a single example of the {-th} plural in the account. I have noted at least eight possible contexts for the {-th} plural in this short text: 17
+
+  - they have turned aside … and keep not the commandments (two instances) [JS’s hand] (cf. except they humble themselves … and believeth ” [Mosiah 3:18])
+  - they draw near to me [JS’s hand] (cf. “for because they yieldeth unto the devil” [2 Nephi 26:10])
+  - many things … which since have been revealed [FGW’s hand] (cf. “my account of the things which hath been before me” [3 Nephi 5:19])
+  - all these bear testimony and bespeak an omnipotent and omnipreasant power (two instances) [JS’s hand] (cf. “them that are left in Zion and remaineth in Jerusalem” [2 Nephi 14:3]) 18
+  - all those who believe on my name [JS’s hand] (cf. “save it be unto those who repenteth of their sins” [Helaman 7:23])
+  - my Fathers family have suffered many persicutions [FGW’s hand] (cf. “angels hath ministered unto him” [1 Nephi 16:38])
+
+In four cases the {-th} plural would have been particularly favored syntactically, historically speaking, and as reflected in the Book of Mormon: in conjoined predicates (“and keepeth ,” “and bespeaketh”), and after relative pronouns (“things … which … hath ,” “those who believeth”). But the {-th} plural is not used in these syntactic contexts in [Page 245] the history. The non-use of the {-th} plural in the 1832 History suggests that it wasn’t part of Joseph’s own language. This view is corroborated by independent linguistic observations on the history of the {-th} plural in English. 19
+
+An examination of the textual record shows that the {-th} plural was very rare in the 1820s. However, it is anything but rare in the Book of Mormon, since we find about 200 instances of it in the text. 20 It is used in the earliest text with all the variety of the Early Modern English period: after noun phrases and infrequently after pronouns, 21 after relative pronouns and in conjoined predicates, and with different kinds of nearby variation.
+
+Thus, the absence of the {-th} plural in the 1832 History also casts into doubt the view that Joseph was responsible for the wording of the Book of Mormon from revealed ideas. The fairly frequent and variable use of the {-th} plural found in the earliest text was almost certainly not a part of his dialect.
+
+
+## Summary and Implications of the Foregoing Linguistic Evidence
+
+The 1832 History provides solid evidence that Joseph’s dialect did not retain Early Modern English did -periphrasis in positive declarative statements or the {-th} plural, and that personal which usage was not common in his dialect. Yet these are found in great abundance in the earliest text of the Book of Mormon: periphrastic did occurs nearly 2,000 times; there are close to 200 instances of the {-th} plural; and there are close to 1,000 cases of personal which, the usage being dominant.
+
+By way of comparison, the King James Bible contains less than 2% positive declarative periphrastic did 22 and no clear instances of the {-th} plural; 23 also, personal that is dominant in this biblical text.
+
+These three linguistic features of Early Modern English are present in such quantities in the earliest text of the Book of Mormon that it is accurate to say that two of them are essential syntactic components of the book, and the third — the {-th} plural — is fairly prominent. These same features of the 1832 History, by reason of their frequency of occurrence and systematic, categorical nature, constitute the primary evidence found in this account that the Lord did indeed transmit words and their grammatical forms to Joseph Smith for the dictation of the Book of Mormon. This view is established by the following types of manuscript and textual evidence:
+
+  - spelled-out names in the original manuscript 24
+  - [Page 246] archaic, extra-biblical semantic usage in context 25
+  - archaic, extra-biblical morphology 26
+  - archaic, extra-biblical syntax 27
+
+These are mutually supportive. To these we can now add the following specific evidence:
+
+  - no periphrastic did, personal which, or {-th} plural in Joseph Smith’s 1832 History
+
+The absence of these features from Joseph’s 1832 History argues against the notion that the earliest text of the Book of Mormon might have emanated from a very conservative American dialect that Joseph grew up speaking. Such a dialect has been presumed to have maintained a host of archaic forms, structures, vocabulary, and systematic usage from centuries before. 28 That was always a doubtful view — whenever it might have been first conjectured — because of known, documented diachronic shifts in English usage. It does not appear that proponents of this theory have taken into account linguistic studies of the kind referenced in this paper.
+
+Specific and general linguistic evidence indicates that the following view of the translation process of the Book of Mormon is an extremely unlikely one: “Because this process occurred in Joseph Smith’s mind, the conversion of thought to language had access to his normal vocabulary, grammar, and cultural contexts .” 29
+
+Descriptive linguistic research on Book of Mormon language provides concrete evidence that the earliest text is not fashioned specifically after Joseph’s language. The present-tense verbal system of the earliest text of the Book of Mormon is different from both 19th-century American dialect and biblical usage. Nonetheless, the present-tense verbal system is archaic, with nearby {­-s} ~ {­-th} inflectional variation, ample doses of the {-th} plural, and some non-emphatic do -periphrasis as well, all characteristic of the 1500s and 1600s. In addition, the past-tense system is clearly different from both 19th-century American dialect and biblical usage, and the complex, variable perfect verbal system is as well. So also is verbal complementation, subjunctive marking, auxiliary usage, etc. 30
+
+In 2006, Skousen wrote that “the biblically styled language of the text seems to date from [the 1500s and 1600s], yet it does not imitate the specific language of the King James Bible .” 31 This studied view generally runs counter to Oaks (2003:119), as quoted in Gardner (2011:165): “The [Page 247] language of the Book of Mormon translation was likely influenced by Joseph’s own language .” 32
+
+Some aspects of the earliest text might have been tailored to specific dialectal idiosyncrasies that Joseph shared with others of his speech community (taken in a broad, multi-regional sense of upstate New York and New England), but a large amount of the language was not tailored to this dialect.
+
+Archaic, extra-biblical features of the text, however, did not make it difficult to understand for 19th-century English speakers, especially for anyone familiar with archaic King James English, since there was plenty of shared use. But, as partially outlined, in quite a few important ways the usage of the two scriptural texts is systematically distinct. And the texts are different in many ways that fall short of being called systematic because there is less-than-frequent occurrence of forms and constructions.
+
+
+## Occasional and/or Mixed Usage of the 1832 History
+
+The remaining sections of this short study address other linguistic evidence from the 1832 History.
+
+
+## No Finite Complementation after the Verbs desire and suffer
+
+There is one example of the verb desire used with verbal complementation in the 1832 History and another example of the verb suffer. The instance involving the verb desire reads “he desired to carry them to read to his friends” [JS’s hand]. The complementation in this case is infinitival, which is typical when the person desiring something and the person doing the desired action are the same. But twice the Book of Mormon employs a that -clause and the auxiliary might in such a case. Had this syntax been employed in this part of the history, it would have been of the form “he desired that he might carry them to read to his friends .” Here are the two Book of Mormon examples of this:
+
+> Helaman 16:1 they confessed unto him their sins and denied not, desiring that they might be baptized unto the Lord. 3 Nephi 28:9 for ye have desired that ye might bring the souls of men unto me
+
+[Page 248] It is important to note that in contexts with no change in subject between the main clause and the embedded clause, as in the above passages, finite complementation after the verb desire is exceptional in the Book of Mormon. 33 There is usually infinitival complementation when there is no change in subject. Consequently, there was only a small chance that Joseph would have used this uncommon construction once in the 1832 History, had he been responsible for its usage in the Book of Mormon.
+
+It was more likely for Joseph to have employed finite complementation after the verb suffer in the 1832 History (had he been responsible for the wording of the Book of Mormon), since finite complementation after suffer occurs more than 60% of the time in the earliest text. The 1832 usage in question reads in the infinitive: “the Lord suffered the writings to fall into the hands of wicked men” [JS’s hand].
+
+Verbal complementation after the verb suffer in the Book of Mormon most commonly occurs with a that -clause and the auxiliary should, although there is substantial variation in usage, almost all similar to what is found in the Early Modern English period. In the 1832 History finite complementation in this case would have read: “the Lord suffered that the writings should fall into the hands of wicked men .” Such language would have been analogous to the following Book of Mormon passages:
+
+> 1 Nephi 17:12 For the Lord had not hitherto suffered that we should make much fire Mosiah 2:13 neither have I suffered that ye should be confined in dungeons
+
+
+## “ Exceeding Great”
+
+The 1832 History contains the following language written in Joseph’s hand: “the things which are so exceding great and marvilous” and “my mind become excedingly distressed .” The bigrams “exceeding great” and “exceedingly distressed” are found both before the year 1700 and after that time, in the modern period. They are also typical Book of Mormon usage: the earliest text always employs the abbreviated form of the adverb with the adjective great and the {-ly} form with verbal past participles. 34
+
+[Page 249] The Google Books Ngram Viewer indicates that around the year 1830 “exceeding great” appeared in printed books 77% of the time, and the later, modern form “exceedingly great” 23% of the time. 35 Over the following decades both phrases are used at decreasing rates, and the share of the older one, “exceeding great,” diminishes so that it is close to 50% by 1940.
+
+The 1816 pseudo-biblical text The Late War , written by the New Yorker Gilbert J. Hunt, has one instance of “exceeding great” and one of “exceedingly great .” Based on Hunt’s mixed usage and Ngram Viewer data, one would expect at least a few instances of modern “exceeding ly great” if Joseph Smith had been responsible for the wording of this bigram in the Book of Mormon. Consequently, the earliest text’s consistent usage of “exceeding great” (57 times) is remarkable. A single instance of “exceeding great” in the 1832 History doesn’t provide sufficient evidence that would lead one to alter that view. Frequent, categorical usage of “exceeding great” in the Book of Mormon also points to words and their grammatical forms having been transmitted to Joseph.
+
+
+## Nonstandard Usage of the 1832 History
+
+Plural was and were
+
+The 1832 History contains several examples of nonstandard plural was:
+
+  - There was plates [FGW’s hand]
+  - there was engravings [FGW’s hand]
+  - where the plates was deposited [FGW’s hand]
+  - wherefore the Plates was taken from me [JS’s hand]
+
+There is variability in the account, with were used in the following cases: 36
+
+  - they were given unto him [FGW’s hand]
+  - all that were able [JS’s hand]
+  - we were deprived [JS’s hand]
+  - there were many things [FGW’s hand]
+
+We note that the earliest text of the Book of Mormon contains 47 instances of “there were many” and eight of “there was many .” This means that the earliest text employs plural was 14.5% of the time in this three-word sequence. But “there was <plural noun phrase>” is found at much higher rates when was is not followed by many.
+
+[Page 250] Either Early Modern English usage or Joseph Smith’s dialect can explain a goodly portion of the earliest text’s plural was usage, but dialectal usage doesn’t explain all of it. For example, when archaic language is combined with plural was, an Early Modern English view is more likely. A prime example of this is “Adam and Eve, which was our first parents” (1 Nephi 5:11). This phraseology combines plural was with archaic personal which (a non-restrictive relative pronoun). This is a relative-pronoun usage that we don’t expect to have come from Joseph’s own language, based on evidence from the 1832 History and independent studies of American English.
+
+The five-word sequence “Adam and Eve, which was” can be found in the 16th century by an author who also wrote about hiding up things in the ground — archaic, extra-biblical language that we read in the books of Helaman and Mormon. 37
+
+There is also no syntactically influenced was ~ were variation in the 1832 History, while there are a number of examples of this variation in the earliest text of the Book of Mormon (as well as analogous subject–verb agreement variation with is ~ are and has / hath ~ have ). The extensive variation present in the earliest text points to Early Modern English possibilities, as in the following case: 38
+
+> Mosiah 24:15 the BURDENS which was laid upon Alma and his brethren were made light; 1560, John Knox, An answer to a great number of blasphemous cavillations written by an Anabaptist That … proveth not that all the ISRAELITES which was called from Egypt were within God’s holy election to life everlasting in Christ Jesus.
+
+Consequently, one cannot convincingly assert that the plural was of the Book of Mormon is 19th-century vernacular usage, nor that the earliest text’s plural is / has / hath usage must stem from Joseph’s American dialect.
+
+
+## Past-tense come and become
+
+There are four instances of past-tense come and become in the 1832 History (all in Joseph Smith’s hand):
+
+  - [Page 251] a piller of fire light … come down from above and rested upon me
+  - my mind become seriously imprest
+  - my mind become excedingly distressed for I become convicted of my sins
+
+Ignoring cases of “it came to pass ,” we also note the following instances of standard past-tense came and became:
+
+  - an angel of the Lord came [FGW’s hand]
+  - who became convinced of th[e] vision [FGW’s hand]
+  - and ^[ h [ e ]] imediately came to Suquehannah [JS’s hand]
+
+These examples provide evidence that past-tense come and become was a feature of Joseph Smith’s language and that he varied his usage.
+
+There might be a few examples of past-tense come and become in the earliest text of the Book of Mormon, although all possible candidates may be cases of scribal mix-ups A detailed treatment of the manuscript and first-edition evidence of past-tense come and become will appear shortly in part 3 of Royal Skousen, The History of the Text of the Book of Mormon.
+
+
+## Summary
+
+Linguistic evidence from Joseph Smith’s 1832 History appreciably strengthens the position that the delivery of the English-language text of the Book of Mormon involved transmitted words. This view ultimately rests on observable, descriptive linguistic facts: the earliest text of the Book of Mormon contains a large amount of archaic language — vocabulary, syntax, and morphology — that is not found, either systematically or at all, in 19th-century American dialect or in the King James Bible. Massively represented syntax supports independent instances of archaic, extra-biblical vocabulary. Obsolete lexical usage supports the descriptive linguistic conclusion that there is archaic, extra-biblical syntax and morphology.
+
+
+## Primary Sources
+
+[Page 252] Besides the page images and transcription of the 1832 History made available online by the Joseph Smith Papers project, https://yalebooks.yale.edu/book/9780300142181/book-mormon , the Yale edition of the Book of Mormon was essential to this study: Royal Skousen, ed., The Book of Mormon: The Earliest Text (New Haven, CT: Yale University Press, 2009), bit.ly/2ocoerM . Directly related to this is Royal Skousen, Analysis of Textual Variants of the Book of Mormon (Provo, UT: FARMS and BYU Studies, 2004–2009); Royal Skousen, Analysis of Textual Variants of the Book of Mormon, 2nd edition (Provo, UT: FARMS and BYU Studies, 2017); and Royal Skousen, Grammatical Variation [Parts 1 and 2 of The History of the Text of the Book of Mormon ] (Provo, UT: FARMS and BYU Studies, 2016). LDS View provided access to the current LDS text of the scriptures ( ldsview.wordcruncher.com ; Salt Lake City, UT: Intellectual Reserve, 2001–).
+
+The principal English textual source used in this study was the Early English Books Online database (EEBO; eebo.chadwyck.com ). It currently contains close to 60,000 transcribed texts printed between the years 1473 to 1700. The publicly searchable portion of EEBO (Phase 1 texts) is to be found at < quod.lib.umich.edu/e/eebogroup >. Other important textual sources include Literature Online (LION; literature.proquest.com ), Google Books ( books.google.com ), and Eighteenth Century Collections Online (ECCO; quod.lib.umich.edu/e/ecco ). The full database of ECCO is available through some public libraries, as is the Oxford English Dictionary ( www.oed.com ).
+
+I have mainly derived Early Modern English examples from a 700-million-word WordCruncher corpus that I made from almost 25,000 EEBO Phase 1 texts ( www.wordcruncher.com ; Provo, UT: BYU, 1991–). This corpus is precisely searchable, making it a valuable resource for discovering Early Modern English usage. In addition to ECCO, the Google Books database was essential for the modern period, as well as the associated Ngram Viewer.
+
+Notes
+
+1. Page images, a transcript, source notes, and a historical introduction of Joseph Smith’s 1832 History are available at “History, circa Summer 1832,” 1, The Joseph Smith Papers, http://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/1 ( bit.ly/2piHjMI ).
+
+2. For some background, see Stanford Carmack, “The Implications of Past-Tense Syntax in the Book of Mormon,” Interpreter: A Journal of Mormon Scripture 14 (2015): 119–186, https://journal.interpreterfoundation.org/the-implications-of-past-tense-syntax-in-the-book-of-mormon/ .
+
+3. Here is a current alphabetical listing of past-tense main verbs taken from the 1832 History: appeared (4), became, become (3), brake, brought (2), built, called (2), came (2), come, commenced, considered (2), constituted, contained, covenanted, cried (3), desired, discovered, established, exclaimed, fell, felt, found (3), gave (3), heard, inquired (2), knew, learned, led (2), lived, looked, made (2), moved (2), obtained (2), opened, pervaded, pondered (2), proceeded, required, rested, returned, revealed (2), said (7), sought (2), saw, shewed (3), sinned, spake (2), spared, stood, suffered, took (3), transpired, went.
+
+For most of these verbs we can find Book of Mormon usage of positive declarative periphrastic did . According to a recent count, there are 397 cases of “did <infinitive>” adjacency with these verbs in the earliest text (see primary sources section at the end of this paper).
+
+4. This figure is derived from a 30% usage rate in primarily non-biblical portions of the Book of Mormon and a current count of 88 positive past-tense main-verb instances in the 1832 History.
+
+Of course here I properly exclude five negative declarative cases: “they did not adorn,” “mankind did not come,” “[I] kept not,” “[I] obtained them not,” and “I had not where to go”; these give evidence of variation in Joseph’s language with respect to verbal negation.
+
+5. See, for example, Matti Rissanen, “Spoken language and the history of do -periphrasis,” in Historical English Syntax , ed. Dieter Kastovsky (Berlin: Mouton de Gruyter, 1991), 324, 328, 332 (Table 2), bit.ly/2p2kHjK ; and Alvar Ellegård, The Auxiliary Do: The Establishment and Regulation of Its Use in English (Stockholm: Almqvist & Wiksell, 1953), 157, 161–162. Citing two earlier studies, Ellegård wrote on page 157 that periphrastic do (both present-tense and past-tense) “first occurred in prose ca. 1400, gained ground slowly in the 15th and rapidly in the 16th century. In the 17th century the tide fell fast in affirmative declarative sentences, whereas the use of do became regular in negative and interrogative ones. The modern state of things was practically achieved around 1700.”
+
+Matti Rissanen wrote the following: “In the second half of the sixteenth century, the use of do -periphrasis in affirmative statements reaches a peak … The periphrasis is common in most text types” Matti Rissanen, The Cambridge History of the English Language, Volume III, 1476–1776, ed. Roger Lass (Cambridge: Cambridge University Press, 1999), 240, bit.ly/2nN4FKs . On page 242 he observed that “in the eighteenth century do -periphrasis was used more or less in the same way as today.”
+
+Susanne Wagner discussed the lack of maintenance in a conservative North American dialect in “Unstressed periphrastic do — from Southwest England to Newfoundland?” English World-Wide 28 (2007): 249–278. On page 254 Wagner mentioned the 19th-century Dorset dialect and its use of did for “imperfect or habitual action .”
+
+6. Royal Skousen, “How Joseph Smith Translated the Book of Mormon: Evidence from the Original Manuscript,” Journal of Book of Mormon Studies 7.1 (1998): 24, https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=1186&context=jbms
+
+7. Brant Gardner, The Gift and Power: Translating the Book of Mormon (Salt Lake City, UT: Greg Kofford Books, 2011), 274
+
+8. The phraseology “the words which I have commanded thee” (2 Nephi 27:22), where the I is the Lord, is an expression that has a somewhat obscure, biblical meaning for the verb command (see definition 6b of the Oxford English Dictionary, both online and in the second edition). Taking this biblical meaning into account, we get that the above phrase means ‘the words that I have caused to come to you, or sent to you with authority.’
+
+9. See Carmack, “Past-Tense Syntax,” 158–159, 169–172.
+
+10. Royal Skousen, ed., The Book of Mormon: The Earliest Text (New Haven, CT: Yale University Press, 2009), bit.ly/2ocoerM .
+
+11. The possible Book of Mormon case with personal “to which” is questionable: “and also by the maintenance of the sacred word of God to which we owe all our happiness” (Alma 44:5). Here the which may refer to maintenance, word, or God. If the which refers to Deity, it would be similar to the following: “to whom we owe this great victory” (Alma 57:22).
+
+12. Xavier Dekeyser, on page 71 (Table XI) of “Relativizers in Early Modern English: A dynamic quantitative study,” Historical Syntax, ed. Jacek Fisiak (Berlin: Mouton, 1984), 61–88, outlined the “de-humanization” of which over the period 1520–1649, a change that was “virtually completed by 1700,” bit.ly/2pA1J0e .
+
+For a brief overview, see Matti Rissanen, “Syntax,” The Cambridge History of the English Language, Volume III, 1476–1776, ed. Roger Lass (Cambridge: Cambridge University Press, 1999), 293–294, bit.ly/2p2wL4I . See also, for example, Catherine N. Ball, “A diachronic study of relative markers in spoken and written English,” Language Variation and Change 8.2 (1996), 227–258.
+
+13. See Royal Skousen, Grammatical Variation (Provo, UT: FARMS and BYU Studies, 2016), 1188–1247.
+
+14. Matti Rissanen, on page 430 of “The choice of relative pronouns in 17th century American English,” Historical Syntax, ed. Jacek Fisiak (Berlin: Mouton, 1984), 417–435, wrote the following: “ Which can be found with personal antecedents in seventeenth century texts, but the number of cases is low and decreases towards the end of the century. In the earlier corpus there are fifteen cases of which out of the total of 134 cases with personal antecedent, in the later [corpus there are] twelve out of 169 [cases with personal antecedent],” bit.ly/2pdeaCs . In other words, Rissanen’s pre-1650s American English corpus is only 11% personal which; his late-1600s American English corpus is only 7% personal which.
+
+15. One can rather quickly see that the King James Bible employs personal that more than personal which, and personal which more than personal who, by noting instances of “people that/which/who,” “men that/which/who,” and “a man that/which/who .” My own counts of restrictive (defining) “people that/which/who” reveal that the 1769 biblical text (the last extensive standardization of the KJV) is 82% restrictive “people that,” 14% restrictive “people which,” and 4% restrictive “people who(m).”
+
+16. For some background, see Stanford Carmack, “The Case of the {-th} Plural in the Earliest Text,” Interpreter: A Journal of Mormon Scripture 18 (2016): 79–108, https://journal.interpreterfoundation.org/the-case-of-the-th-plural-in-the-earliest-text/ .
+
+17. In the first, second, and second-to-last items of this list, the Lord is quoted by Joseph Smith. The Lord could have tailored the language to Joseph’s language, or Joseph could have remembered it according to his own language. Evidence that he could have imposed his own linguistic form on portions of the statements is provided by the close error kindling for kindled (as used in the phrase “mine anger is kindling against the inhabitants of the earth”). In any event, there is no direct evidence of Early Modern English {-th} plural usage in these four present-tense instances of the third-person plural.
+
+18. The {-th} plural is not found in the corresponding biblical passage.
+
+19. Herbert Schendl, on page 144 of “The 3rd Plural Present Indicative in Early Modern English — Variation and Linguistic Contact,” English Historical Linguistics 1994: Papers from the 8th International Conference on English Historical Linguistics, ed. Derek Britton (Amsterdam: John Benjamins, 1996), 143–160, wrote that the {-th} plural was obsolete from the standard by the middle of the 17th century ( bit.ly/2oFWNcO ).
+
+Charles Barber, on page 169 of Early Modern English (Edinburgh, UK: Edinburgh University Press, 1997), wrote that already in “the later sixteenth century, plural {-eth} is very rare.” Roger Lass, on page 166 of The Cambridge History of the English Language, Volume III, 1476–1776, ed. Roger Lass (Cambridge, UK: Cambridge University Press, 1999), wrote that “the southern {-th} plural is always a minority form, though it persists (if decreasingly) in the standard well into the seventeenth century” ( bit.ly/2obexd8 ). Henry Cecil Wyld, on page 339 of A History of Modern Colloquial English, 3rd edition (Oxford: Basil Blackwell, 1936), gave about 25 examples of the {­-th} plural, mostly from the 16th century.
+
+Google Books shows that the {-th} plural is rare in 18th-century writings. By the early 19th century the {-th} plural is almost non-existent.
+
+Laura Wright, on pages 244–245 of “Third Person Plural Present Tense Markers In London Prisoners’ Depositions, 1562–1623,” American Speech 77.3 (2002): 242–263, discusses a historical they -constraint, something that the earliest text of the Book of Mormon shows signs of, since it has very low levels of {-th} usage after plural pronouns, and significantly higher rates of use in other plural contexts. Mosiah 3:18 contains a specific example of the they -constraint in which the {­-th} inflection is used only in a predicate linked to they, not immediately after they: “They humble themselves and become … and believeth .” Counterexamples to this occur in both Early Modern English and the Book of Mormon.
+
+20. Skousen, Grammatical Variation, 465–474.
+
+21. This includes first-person and second-person pronouns — for example, “we layeth” (Helaman 13:34) and “ye doth” (Alma 41:15)
+
+22. See Carmack, “Past-Tense Syntax,” 123, 143, 160. If “did eat” is excluded from counts, then positive declarative periphrastic did is only employed about 1% of the time in the King James Bible.
+
+23. See Carmack, “The Case of the {-th} Plural,” 86–89.
+
+24. Skousen, “How Joseph Smith Translated,” 24, 25, 31. Book of Mormon spelling control is largely confined to the first instance of proper nouns.
+
+25. Evidence of archaic vocabulary was first published in Royal Skousen, “The Archaic Vocabulary of the Book of Mormon,” Insights: A Window on the Ancient World 25.5 (2005): 2–6, https://criticaltext.byustudies.byu.edu/archaic-vocabulary-book-mormon ; and in his Analysis of Textual Variants of the Book of Mormon (Provo, UT: FARMS and BYU, 2004–2009), under Mosiah 19:24, http://criticaltext.byustudies.byu.edu/volume-iv-analysis-textual-variants-book-mormon . Further discussion can be found on pages xxxvii–xxxix of Royal Skousen, “Editor’s Preface,” The Book of Mormon: The Earliest Text, ed. Royal Skousen (New Haven, CT: Yale University Press, 2009), xxix–xlv; and on pages 89–93 of Royal Skousen, “The Original Text of the Book of Mormon and its Publication by Yale University Press,” Interpreter: A Journal of Mormon Scripture 7 (2013): 57–96, https://journal.interpreterfoundation.org/the-original-text-of-the-book-of-mormon-and-its-publication-by-yale-university-press/ . See also pages 45–47 of Stanford Carmack, “Joseph Smith Read the Words,” Interpreter: A Journal of Mormon Scripture 18 (2016): 41–64, https://journal.interpreterfoundation.org/joseph-smith-read-the-words/ .
+
+26. See Skousen, Grammatical Variation, 481–483, 491–492. An example of archaic, extra-biblical morphology is the occasional use in the earliest text of the Book of Mormon of the verb form art in non–second-person singular contexts. For instance, the earliest text has one example of “they who art” (Alma 32:15). This is a case of Book of Mormon grammar that was probably not part of Joseph’s 19th-century vernacular. We can find this kind of language on Early English Books Online: “And a man’s foes shall be they that art of his household” (1548, EEBO A16036 ); “Experience teacheth that those which art apt will construe almost as soon without the book” (1612, EEBO A16865 ).
+
+27. See the examples scattered throughout Skousen, Grammatical Variation, as well as my various articles on the subject in this journal.
+
+28. See Dallin D. Oaks, “Book of Mormon, Language of the Translated Text of,” in Book of Mormon Reference Companion, ed. Dennis L. Largey (Salt Lake City, UT: Deseret Book, 2003), 116–119, as cited in Brant Gardner, The Gift and Power: Translating the Book of Mormon (Salt Lake City, UT: Greg Kofford Books, 2011), 164–165. This may not be Oaks’ view of things now. The statements Gardner quotes are basically 1990s conclusions based on non-systematic study of the 1981 text. Skousen once had similar, American dialectal views of the text, before systematically studying the earliest text.
+
+29. Gardner, The Gift and Power, 276.
+
+30. The future-tense system of expression ( will ~ shall variation) appears to be close to biblical use, particularly Old Testament patterns, but it is different from 19th-century patterns.
+
+31. Skousen, Analysis of Textual Variants of the Book of Mormon (Provo, UT: FARMS and BYU, 2004–2009), 1393 (Mosiah 19:24); Analysis of Textual Variants of the Book of Mormon, 2nd edition (Provo, UT: FARMS and BYU Studies, 2017), 1445 (Mosiah 19:24).
+
+32. See Oaks, “Book of Mormon, Language of the Translated Text of,” as cited in Gardner, The Gift and Power, 164–165.
+
+33. See Skousen, Grammatical Variation, 1061 (bottom of page).
+
+34. See Skousen, Grammatical Variation, 296–305.
+
+35. Ngram Viewer ( books.google.com/ngrams ); Jean-Baptiste Michel et al., “Quantitative Analysis of Culture Using Millions of Digitized Books,” Science 331/6014 (2011): 176–182 (published online ahead of print on 16 December 2010).
+
+36. There is also an anomalous instance of were: “my Father Joseph Smith Seignior moved to Palmyra Ontario County in the State of New York and being in indigent circumstances were obliged to labour hard for the support of a large Family .” This is either a case of proximity agreement, a switch to an unexpressed plural subject, or singular were.
+
+There are various examples of proximity agreement with were in the earliest text of the Book of Mormon, such as “whomsoever suffered himself to be led away by the Lamanites were called under that head” (Alma 3:10). There are also cases of singular were in the earliest text, such as “they whose flight were swifter than the Lamanites did escape” (Mormon 5:7).
+
+37. See page 114 of Stanford Carmack, “The Case of Plural Was in the Earliest Text,” Interpreter: A Journal of Mormon Scripture 18 (2016): 109–137, https://journal.interpreterfoundation.org/the-case-of-plural%E2%80%89was-in-the-earliest-text/ . Thomas Becon also wrote “but have hid them up in the ground” (1550, EEBO A06898 ). The phrasal verb “hide up” is characteristic of Early Modern English, as shown by more than 200 instances to be found on Early English Books Online and fewer than 150 instances to be found on Eighteenth Century Collections Online. See the final section for information on these primary sources.
+
+38. Skousen, Grammatical Variation, 912, has this pair of examples as well as another similar to the curious was ~ were variation of Helaman 1:7 (which still persists in the current LDS text). Many Early Modern English examples similar to these could be provided. Some of these are shown in my article Carmack, “The Case of Plural Was in the Earliest Text.”

@@ -1,0 +1,69 @@
+Abstract: A little more than 40 years ago, Cyrus Gordon discovered and described for the first time an ancient literary technique which he had found in the Hebrew Bible, and he gave it a name — a Janus parallel. That is why no one, more than 40 years ago, could have faked a Hebrew Janus parallel in an English translation of an ancient document. But, as I reasoned, if Janus parallels were a Hebrew literary device at the time Lehi left Jerusalem (for an analog see chiasmus), then such parallels probably can be found in the Book of Mormon. In this article I describe the technical methodology for discovering Janus parallels in an English translation, and I provide two new examples.
+
+> The blessings of thy father have prevailed above the blessings of my progenitors unto the utmost bound of the everlasting hills. ברכת אביך גברו על ברכת הורי עד תאות גבעת עולם
+
+[Table omitted]
+
+The King James translators followed the first interpretation which produced a translation similar to the following (my own) rendering:
+
+The Septuagint (the ancient Greek translation of the Old Testament) and a few modern translations preserve the second interpretation, which I render from the Hebrew as follows:
+
+> The blessings of your father surpass The blessings of the mountains of old, The delight of the eternal hills.
+
+It can clearly be seen in this tristich that “the blessings of your father surpass” in line one and “the delight of the eternal hills” in line three are neither synonymously nor antithetically parallel with each other. Yet the polyvalence of the middle stich produces parallels both with “the blessings of your father surpass” and with “the delight of the eternal hills.”
+
+> I did look unto my God, and I did praise him all the day long; and I did not murmur against the Lord because of mine afflictions.
+
+The polysemy centers on the verb in the second stich, praise . The best candidate in this verse for a back translation of “praise” into Hebrew would be the piel verb zammēr , which can mean both “to praise” and “to sing.” With these two meanings of zammēr , 1 Nephi 18:16 can be read two ways:
+
+> I did look unto my God, and I did sing unto him all the day long; and I did not murmur against the Lord because of mine afflictions.
+
+Or,
+
+> I did look unto my God and I did praise him all the day long and I did not murmur against the Lord because of mine afflictions
+
+[Page 84] Since publishing this proposed Janus parallel, I have found two more possible examples of Janus parallels in the Book of Mormon. The first example I discuss, 2 Nephi 4:20, is fairly straightforward (I have italicized the possibly polysemous word):
+
+> My God hath been my support; he hath conducted me through mine afflictions in the wilderness; and he hath preserved me upon the waters of the great deep;
+
+or, with the √2 meaning,
+
+> My God hath been my support; he hath stood by me through mine afflictions in the wilderness; and he hath preserved me upon the waters of the great deep.
+
+In the first reading, “hath conducted me” in the second stich anticipates the parallel “hath preserved me” in the third stich. In the second reading, “hath stood by me” is parallel retrospectively with “hath been my support” in the first stich. Though not a strict requirement for a simple Janus parallel, the semantic separation between the first stich and the third stich is not strong. Nevertheless, the subtle nuances of the parallels in 2 Nephi 4:20 are quite poetic and beautiful.
+
+> that we should be led with one accord into the land of promise,
+
+> unto the fulfilling of the word of the Lord, that we should be scattered upon all the face of the earth.
+
+The Janus parallel in this verse can be overly simplified as being led ← fulfilling the word of the Lord → being scattered . The author has deftly placed before the middle stich the subordinate clause, “that we should be led with one accord into the land of promise,” which is then explained in the second line as “the fulfilling of the word of the Lord.” The third line, like the first line, is also couched as a subordinate clause, “that we should be scattered upon all the face of the earth.” This third line is also explained by the middle (second) line as “the fulfilling of the word of the Lord.” In other words, the second line explains the first and third line. Yet the first and third lines are not close parallels, even though when viewed through the historical lenses of the Restoration, the phrases “led with one accord into the land of promise” and “scattered upon all the face of the earth” can be viewed as somewhat parallel, if not synonymously then antithetically.
+
+> May the blessings of your father be added to the blessings, Wherewith Abraham and Isaac who are like mountains blessed you, And to the blessings of the four mothers who are like hills, Sara and Rebekah, Rachel and Leah.
+
+---
+Notes
+
+[1] Cyrus Gordon, in his 1978 publication “New Directions,” drew attention to a heretofore unrecognized ancient literary technique in the Bible 1 and called this ancient technique “Janus Parallelism.” 2 In doing so, he was giving a nod to the Roman god Janus who has one face on the front of his head looking forward and another on the back of his head looking back. 3
+
+[2] In its simplest and strictest form, 4 a Janus parallel consists of a tristich, three lines or stichs, often of poetry. Hebrew poetry in general consists of two parallel stichs, or colons, and Hebrew prose also often employs parallel lines. But a Janus parallel must consist of at least three stichs to allow for the double parallel, as will be explained. The middle line of such a tristich usually contains a polysemous word or phrase. One meaning of the second line anticipates a synonymous or antithetical parallel with the third line, while the other meaning of the second line looks retrospectively at a synonymous or antithetical parallel in the first line. In a well-constructed Janus parallel, the first line and third line will [Page 82] not usually parallel each other closely, while the middle stich looks both forward and back.
+
+[3] By way of example, I offer the analysis of Gary A. Rendsburg, a student of Cyrus Gordon, published in 1980, on a verse of interest to Latter-day Saints. 5 In the King James translation of Genesis 49:26, Jacob blessed his son Joseph saying, “The blessings of thy father have prevailed above the blessings of my progenitors unto the utmost bound of the everlasting hills.” This tristich can be structured as follows:
+
+[4] The Janus parallel turns on the two Hebrew words at the end of the second stich, הורי עד. Depending on which vowels are supplied to the unpointed text, it can be read as “my progenitors of old,” which parallels with “your father” in the first stich. Or with different vowels, it can be read “mountains of old” which proleptically points to “everlasting hills” in the third stich. 6
+
+[5] The blessings of your father surpass The blessings of my progenitors of old, The delight 7 of the eternal hills.
+
+[6] If, as Gordon, Rendsburg, and others have demonstrated, ancient Hebrew literary techniques included Janus parallels, they could appear in the Book of Mormon. 8 However, just as with the King James translation [Page 83] of Genesis 49:26, there is a major issue with recognizing Janus parallels in an English translation of an ancient text. Janus parallels depend most often on the polysemous nature of a word or phrase in the middle line of a three-line parallel set, as can be seen in the above biblical example. Even a practiced and adept translator will find it nearly impossible to find a word or phrase in the target language that replicates the polysemy of the middle line of the original text and allows the middle line to still parallel with one of its meanings the first line and with its second meaning the third line. (As a thought experiment, the reader should try to find an English rendering of the second line of this biblical tristich that at once parallels the first and third stich.)
+
+[7] Succinctly put, the English translation of the Book of Mormon will probably not replicate any polysemous parallels of a Nephite vorlage. If polysemous Janus parallels exist on the gold plates the only way to ferret them out is to make a conjectured but well-reasoned backtranslation from the English text to a supposed Hebrew or Egyptian vorlage, an obvious highly speculative exercise rife with subjective traps and semantic pitfalls. 9
+
+[8] Despite the difficulties, to my delight I eventually found a plausible example in the Book of Mormon of a Janus parallel in 1 Nephi 18:16 and published my discovery in 2017: 10
+
+[9] My God hath been my support; he hath led me through mine afflictions in the wilderness; and he hath preserved me upon the waters of the great deep. 11
+
+[10] The Janus feature of this verse depends on the polysemous nature of the posited Hebrew vorlage of “led” ( lead in the present tense). The verb led in the middle stich could be the English rendering of the Hebrew verb n ḥ h that can signify two (slightly?) different homographic lexemes: √1, n ḥ h , “lead” or “conduct” as in Isaiah 11:2; or √2, n ḥ h , “join with, stand by (someone)” as in Isaiah 7:2. 12 Thus, if the two meanings are separated and rendered individually, the text in my rendering can be read either with the √1 meaning,
+
+[11] My second example, found in 1 Nephi 10:13, is quite different in that it does not depend on a possible backtranslation into Hebrew. In fact, unlike nearly all explanations of Janus parallels, it does not depend on polysemous words or phrases at all. 13 The parallels in 1 Nephi 10:13 work thematically, with the theme of the middle stich pointing retrospectively to the first stich and proleptically to the third. Because it is not dependent [Page 85] on polyvalence or polysemy it survived intact the translation into English. Structured as a tristich, 1 Nephi 10:13 reads,
+
+[12] The three examples of Janus parallelism in the Book of Mormon that I have discussed so far, two here and one in a previously published paper, are surely only the tip of the iceberg of an ancient literary technique on display in this sacred volume. Their presence in the Book of Mormon makes it increasingly more evident that the door John W. Welch opened when he discovered chiasmus in the Book of Mormon more than 40 years ago was only the incipient notification to students of the Book of Mormon, prescient as it was, to pay attention to ancient literary techniques that bring out the meticulous construction and exquisite literary and doctrinal beauty evident in its pages. 14
+

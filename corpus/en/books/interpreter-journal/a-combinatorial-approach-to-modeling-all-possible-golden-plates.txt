@@ -1,0 +1,746 @@
+Abstract: Historical reports containing information about the properties of the golden plates provide upper and lower bounds for calculating possible configurations of their size, weight, and material composition, as well as the possible properties of reformed Egyptian. This study employs a two-part process to analyze these configurations. First, it examines the physical properties of the plates, generating over 4 billion possible combinations. Second, it analyzes the nature of the writing on the plates, assuming the translated English text of the Book of Mormon is directly representative of the reformed Egyptian engravings. This process involves calculating and filtering combinations based on historical accounts, physical constraints, and linguistic considerations. The study demonstrates that while most configurations are unworkable, nearly one million configurations remain both physically possible and consistent with the documentary record. Key findings suggest the plates likely had less than 20% gold content, weighed more than 54 lb., contained between 187 and 259 plates, and had dimensions slightly smaller than, but within 10% of, Joseph Smith’s description. The writing on the plates likely averaged less than 5 mm square, with each character representing at least three English characters, similar to Egyptian Demotic. Although there are inherent limitations in historical analysis of this kind, this mathematical approach provides a novel perspective on the physical reality of the plates.
+
+This process consists of two parts. Part One determines the physical properties of the plates and involves the following processes:
+
+  - Evaluate the historical record for information on physical properties.
+  - Assign reasonable minimums, maximums, and steps for each physical property.
+  - Calculate all possible combinations of physical properties.
+  - [Page 3] `Apply filters to eliminate physically impossible or historically unsupported configurations.
+
+Part Two analyzes the nature of the writing on the plates. The required analysis, for validating the physical property combinations, assumes that the translated English text of the Book of Mormon is directly representative of the reformed Egyptian engravings on the plates. This analysis includes the following procedures:
+
+  - Evaluate the historical record for information on properties related to writing on the plates.
+  - Assign reasonable minimums, maximums, and steps for each writing property.
+  - Calculate all possible combinations of writing properties.
+  - Apply filters to eliminate implausible configurations.
+
+This two-part process yields a comprehensive set of combinations representing the physical properties of plates that are both consistent with the documentary record and capable of containing the complete text of the Book of Mormon. By employing this mathematical approach, a more objective basis for understanding the possible characteristics of the golden plates can be provided while accounting for the inherent limitations of historical analysis.
+
+
+## Part One
+
+
+## Step 1: Evaluate the Historical Record for Information on Physical Properties
+
+Table 1 presents a summary of the ranges of physical properties reported in the historical records. Minimum or maximum values that deviate significantly from typical reports are shown in parentheses.
+
+Table 1. Physical properties of the plates from the documentary record.
+
+> Figure 1. A . Tumbaga composed of 15% gold, 84% copper and 1% silver that has been depletion gilded with oxalic acid. B . 100% gold. C . 100% copper. Photo from the author. D . Columbian (Muisca) lost-wax cast of tumbaga, estimated to contain up to 70% copper. Double Eagle Pendant, Metropolitan Museum of Art (1983.168).
+
+
+## [Page 6] Step 2: Assign Reasonable Minimums, Maximums, and Steps for Each Physical Property
+
+Although there is significant support from the historical records for most of the physical properties of the plates, assigning a minimum and maximum for a given property is somewhat subjective. In addition to minimums and maximums, a step value is assigned to each property. The step value represents the incremental change from the minimum to the maximum of a given property used in calculating all possible combinations. For instance, if assigning a Plate Length of 7" with a step of ⅛", the calculations will include lengths of 7", 7⅛", 7¼", 7⅜", 7½", and so on. While steps could theoretically be infinitesimally small, this would result in an infinite number of calculations, and so step sizes were selected that balance precision with computational practicality.
+
+Table 2 presents all physical properties included in the calculations, along with their assigned minimums, maximums, and step values. Note that two key properties—the height of the plate stack and the total number of plates—are not included in this table. These properties are dependent variables determined by the combination of other properties in each calculated configuration.
+
+[Page 7] Table 2. Minimum, maximum, and step of physical properties of the plates.
+
+The values in table 2 were selected based on the analysis of historical accounts (see Step 1) and considerations of physical plausibility. For properties where historical records provide a clear range, the reported values have been closely followed. In cases where historical accounts are less definitive, informed decisions were made by considering both the broader context of the accounts and relevant physical constraints.
+
+Note that step sizes vary between properties. Smaller step sizes are used for properties where small variations could significantly impact the overall configuration (such as plate thickness), while larger steps are used for properties where minor variations are less consequential (such as weight).
+
+This approach allows for the systematic exploration of the full range of possible plate configurations while maintaining a manageable computational load. The resulting calculations will provide a comprehensive view of all physically plausible combinations that align with historical accounts.
+
+
+## [Page 8] Step 3: Calculate All Possible Combinations of Physical Properties
+
+Based on the ranges and steps established in Step 2, the initial calculations yielded 4,164,048,000 possible combinations of physical properties for the plates. However, not all these combinations are consistent with historical accounts or physical plausibility. By applying a preliminary filter to remove combinations resulting in a stack height of less than 4" or greater than 8" (the range supported by historical accounts), 86.6% of these combinations can be eliminated. This leaves 559,457,522 potentially valid combinations for further analysis.
+
+
+## Calculating height
+
+The height of the plate stack is the most restrictive property, invalidating most possible combinations. Historical accounts consistently place the height of the plates between 4" and 8", with Joseph Smith specifically stating the height was “near six inches.”
+
+
+## Visualizations
+
+Visual representation of the data presents a significant challenge as there are nine dimensions of physical properties (see table 1). To provide some level of visualization, a three-dimensional scatterplot with a color gradient representing a fourth dimension may be utilized. This shows the relationships between plate thickness, alloy gold content, total weight, and total number of plates. In figure 2, each point represents a valid combination of plate properties. The x, y, and z axes show Plate Thickness, Alloy Gold Content, and Total Weight, respectively, while the color gradient indicates the Total Number of Plates. This visualization allows us to observe patterns and relationships between these key properties that would be difficult to discern from raw data alone.
+
+Figure 2. Scatter plot showing a 1% random sample of 559,457,522 valid combinations of plate thickness, alloy gold content, total weight, and total number of plates. Combinations that do not meet the height requirement of 4” to 8” are excluded as invalid. Note that as gold content increases, total weight must also increase.
+
+Note that while this visualization is informative, it still represents a [Page 10] simplification of the complete dataset. The remaining five dimensions of physical properties, while not visually represented in figure 2, are still utilized in determining the validity of each combination in the analyses.
+
+
+## Step 4: Apply Filters to the Results
+
+The initial calculations yield over four billion possible combinations of physical properties for the plates. Given that these calculations are based on historical reports of varying quality, and the assessment of report quality is somewhat subjective, it is challenging to confidently narrow the results further. What these initial calculations demonstrate is that if only the historical descriptions of the plates are considered, then billions of mathematically valid configurations exist.
+
+There is no record of Smith measuring the plates, and his use of the phrase “somewhat near” to describe the height suggests he was estimating rather than providing precise measurements. To account for potential errors in these estimates, a margin of error is applied to the dimensions in this filter; see table 3.
+
+Table 3. Joseph Smith description filter,
+
+Applying this filter reduces the initial four billion combinations to 505,634,400. Of these, 99.6% are invalid due to their calculated [Page 11] height, leaving 2,266,258 valid combinations that approximate Smith’s dimensional description; see figure 3.
+
+Figure 3. Scatter plot showing 2,266,258 valid combinations of plate thickness, alloy gold content, total weight, and total number of plates. Combinations that do not match the approximate length, width, height, and plate thickness described by Joseph Smith are excluded. The results indicate a minimum weight of about 42 lb., an alloy of less than 48% gold, and a total number of plates between 151 and 259.
+
+An additional filter can be applied to further refine the number of valid combinations. In Step 3, the void between unsealed plates was set to 10%–100% with a step of 10%. This range can be narrowed based on experimental data.
+
+An experiment was conducted using 165 copper discs, each approximately 4 inches in diameter and averaging 0.020 inches in thickness. These discs were fabricated, stacked, and measured. The void between sheets was calculated to be approximately 53%. After applying compression, this void was reduced to approximately 41%, a 23% reduction. It is expected that larger plates would have less uniformity, suggesting that an average void of 53% may be a lower bound for uncompressed plates. However, this experiment has limitations, including variations in compression, sheet size, and uniformity. See Appendix D: Plate Void Experiment.
+
+Based on this experimental data, a second filter may be applied, [Page 12] calculating the Stack Height property using unsealed voids between 30%–60% with a 23% compression factor on the sealed portion. Increasing the precision of the void from 10% to 2.5% and applying the new void range yields 657,324,720 total combinations to consider. Excluding results that do not meet the height requirement eliminates 99.9% of these combinations, leaving 37,657 combinations that meet both the Joseph Smith description criteria and the void experimental data. See figures 4 and 5.
+
+This refined set of combinations provides a more focused group of physically plausible configurations that align more closely with historical accounts and experimental data.
+
+[Page 13] Figure 4. Scatter plot showing 37,657 valid combinations of plate thickness, alloy gold content, total weight, and total number of plates. Combinations that do not match the approximate length, width, height, and plate thickness described by Joseph Smith and are outside of a void range of 40%–60% are excluded. The results indicate a minimum weight of about 55 lb., an alloy with a maximum of 20% gold, and a total number of plates between 187 and 259. Figure 5. Each of the scatter plots shows 37,657 valid combinations of the plates filtered by the length, width, height, and plate thickness described by Joseph Smith and a void of 40%–60% between unsealed plates. The plot on the left indicates the percentage of the sealed portion, whereas the plot on the right indicates the void of unsealed plates. The red circles indicate the 8” length and 6” width and “somewhat near six inches” in height that Joseph specified. Note that the valid combinations shown are within 10% of his estimates.
+
+Figure 4. Scatter plot showing 37,657 valid combinations of plate thickness, alloy gold content, total weight, and total number of plates. Combinations that do not match the approximate length, width, height, and plate thickness described by Joseph Smith and are outside of a void range of 40%–60% are excluded. The results indicate a minimum weight of about 55 lb., an alloy with a maximum of 20% gold, and a total number of plates between 187 and 259.
+
+Figure 5. Each of the scatter plots shows 37,657 valid combinations of the plates filtered by the length, width, height, and plate thickness described by Joseph Smith and a void of 40%–60% between unsealed plates. The plot on the left indicates the percentage of the sealed portion, whereas the plot on the right indicates the void of unsealed plates. The red circles indicate the 8” length and 6” width and “somewhat near six inches” in height that Joseph specified. Note that the valid combinations shown are within 10% of his estimates.
+
+
+## Part Two
+
+
+## Step 1: Evaluate the Historical Record for Information on Properties Related to Writing on the Plates
+
+
+## Text size
+
+  - The “Caractors” document
+  - The “Stick of Joseph” broadside
+  - The Oliver Cowdery characters document
+  - The Frederick G. Williams characters document
+
+The most promising source for estimating engraving-scale comes from measurements of ancient metal plates from the Near East. A forthcoming survey by Neal Rappleye provides valuable data on this subject. The draft of this survey indicates that engravings on various metal objects, written in Semitic, Greek, Demotic, and Cuneiform scripts, range from sub-millimeter to over 9 millimeters in height. The most common height observed in the survey is approximately 2 millimeters. See Appendix A: Algorithms for visual examples of texts of various sizes for reference.
+
+
+## Translation density
+
+Translation density is a metric that indicates the difference in space [Page 15] required between a source language and its translation into a target language. It is particularly relevant in determining the surface area needed for the text on the plates. Languages with high translation densities convey meaning more concisely, requiring significantly fewer characters than their target language translations.
+
+For example, Chinese has a high translation density, with each Chinese character requiring approximately 3.9 English characters to translate. This means an English translation of a Chinese text requires about 3.9 times more space than the original. Conversely, Spanish has a low translation density relative to English, requiring about 1.1 English characters per Spanish character, which means that a Spanish book typically requires a similar number of pages as its English translation. See Appendix B: Translation Density Sources.
+
+In the case of reformed Egyptian, no direct translations to English are available for evaluation. To overcome this limitation, the translation densities of other languages to English must be used as potential analogues. Table 4 presents the translation densities of several relevant ancient languages that have been translated into English, including Demotic, Hieratic, and Hebrew.
+
+Table 4. Translation densities of various languages.
+
+[Table omitted]
+
+By examining these comparative translation densities, it becomes possible to estimate a plausible range for the translation density of reformed Egyptian. This estimation is required to determine which physical configurations of the plates could feasibly contain the full text of the Book of Mormon and the lost 116 pages.
+
+
+## Step 2: Assign Reasonable Minimums, Maximums, and Steps for Each Writing Property
+
+The process of assigning limits for writing properties parallels that used for physical properties, though it involves even more subjectivity [Page 16] due to the limited historical data available. Table 5 presents the minimums, maximums, and step values assigned to each writing property.
+
+Table 5. Minimum, maximum, and step of writing properties of the plates.
+
+The values in table 5 were chosen based on the analysis of historical accounts, comparative linguistic data, and considerations of physical plausibility. For properties where historical accounts or comparative data provide clear guidance, the assigned values closely adhere to these references. In cases where direct evidence is lacking, informed decisions were made based on the broader context of ancient writing systems and the physical constraints of the plates.
+
+
+## Step 3: Calculate All Possible Combinations of Writing Properties
+
+Using the ranges and steps established in Step 2, the calculation yields 1,987,536,460 possible combinations of writing properties for the plates. However, not all combinations are compatible with the physical properties of the plates determined in Part One.
+
+To refine these results, a filter is applied to remove any writing property combinations that lack a corresponding valid physical plate configuration. This filter eliminates combinations that would require more plates than physically possible or would not provide sufficient surface area for the text.
+
+This filtering process removes 99.8% of the initial combinations, leaving 3,493,916 valid writing combinations. These remaining combinations represent writing properties that are both internally consistent and compatible with at least one valid physical configuration of the plates; see figure 6.
+
+[Page 17] Figure 6. Scatter plot showing 3,493,916 valid combinations of the plates filtered by the length, width, height, and plate thickness described by Joseph Smith, assuming a void of 40%–60% between unsealed plates.
+
+Figure 6. Scatter plot showing 3,493,916 valid combinations of the plates filtered by the length, width, height, and plate thickness described by Joseph Smith, assuming a void of 40%–60% between unsealed plates.
+
+
+## Step 4: Apply Filters to the Results
+
+After calculating all possible combinations of writing properties, further refinement is possible by applying additional filters based on linguistic and historical considerations. Two filters are applied in this step: one related to translation density and another concerning the estimated length of the lost 116 pages.
+
+
+## Translation density
+
+Moroni, who completed the abridged Nephite records, indicated that they were written in reformed Egyptian. He further stated that they would have been written in Hebrew if the plates had sufficient surface area (Mormon 9:32–33). This implies that Hebrew has a lower translation density than reformed Egyptian.
+
+Figure 7. Scatter plot showing 2,302,902 valid combinations of the plates filtered by translation densities near to or less than Hebrew as well as the length, width, height, and plate thickness described by Joseph Smith, assuming a void of 40%–60% between unsealed plates.
+
+
+## The lost 116 pages
+
+Removing all combinations that consider the lost 116 pages to be longer than the plates of Nephi further reduces the number of valid writing combinations from about 2.3 million to 863,830; see figure 8.
+
+Figure 8. Scatter plot showing 863,830 valid combinations of the plates where the 116 lost pages are smaller than the small plates of Nephi. The plot also excludes translation densities near to or less than Hebrew as well as the length, width, height, and plate thickness described by Joseph Smith, assuming a void of 40%–60% between unsealed plates.
+
+
+## Conclusion
+
+This study presents a novel approach to understanding the physical and linguistic properties of the golden plates described in the historical record of the Book of Mormon. By systematically analyzing all mathematically possible configurations consistent with the range of constraints derived from historical accounts, this research yields several significant insights.
+
+Second, the analysis of translation density provides a quantitative [Page 19] basis for understanding how the text of the Book of Mormon may have been contained within the described physical constraints of the plates.
+
+Third, based on the most plausible configurations, the study suggests the following likely characteristics for the plates:
+
+  - The plates likely contained less than 20% gold content.
+  - The total weight of the plates was at least 54 lb.
+  - The total number of plates ranged between 187 and 259, including the plates in the sealed portion.
+  - The dimensions of the plates were slightly smaller than Joseph Smith’s description but within 10% of his estimates.
+  - The engraved characters on the plates averaged less than 5 mm square.
+  - Each character of reformed Egyptian likely represented at least three English characters, similar to the density of Demotic text.
+
+While these findings provide a more precise understanding of the possible characteristics of the plates, it is important to note that the exact physical and writing properties remain unknown. This study does not prove the existence or authenticity of the plates but, rather, demonstrates their mathematical plausibility within the framework of historical descriptions.
+
+
+## [Page 20] Appendix A: Algorithms
+
+Table 6. Variables of physical properties algorithm.
+
+[Table omitted]
+
+The algorithm for generating combinations of writing properties of the plates relies on the results of the physical properties combinations ( C valid ) and is as follows:
+
+Table 7. Variables of physical writing algorithm.
+
+[Page 22] Table 8. Algorithm constants.
+
+Figures 9 and 10 provide visual examples of randomly generated characters that approximate the results of the algorithm to determine the typical space required for text of a specific size.
+
+[Page 23]
+
+[Table omitted]
+
+Figure 9. Single side plate example (Hieratic)
+
+[Table omitted]
+
+Figure 10. Single side plate example (Caractor’s Document)
+
+
+## Appendix B: Translation Density Sources
+
+To determine the approximate translation density of a source language and a target language, an adequate amount of source and target language text must be evaluated. For the purposes of the calculations in this paper, the source text of the fifty chapters in the book of Genesis from the Old Testament (198,948 characters in the English translation) was used to evaluate the densities of Spanish, Chinese, and Hebrew. To evaluate the densities of Demotic, the third century BCE source text of First Tale of Setne Khaemwas (figure 11) was used (10,242 characters in the English translation), and for Hieratic, the thirteenth century BCE source text of the Tale of Two Brothers (figure 12) was used (22,127 characters in the English translation).
+
+[Page 24] Figure 11. A portion of the third column of the Demotic text of the First Tale of Setne Khaemwas , including restoration text. Steve Vinson, The Craft of a Good Scribe: History, Narrative and Meaning in the First Tale of Setne Khaemwas (Leiden, NDL: Brill, 2017). Figure 12. A portion of the first column from the thirteenth century BCE Hieratic text of the Tale of Two Brothers . Papyrus D’Orbiney; sheet 1: Hieratic text verso and recto—Tale of the Two Brothers, British Museum, Asset 438103001, britishmuseum.org/collection/object/Y_EA10183-1 .
+
+Figure 11. A portion of the third column of the Demotic text of the First Tale of Setne Khaemwas , including restoration text. Steve Vinson, The Craft of a Good Scribe: History, Narrative and Meaning in the First Tale of Setne Khaemwas (Leiden, NDL: Brill, 2017).
+
+Figure 12. A portion of the first column from the thirteenth century BCE Hieratic text of the Tale of Two Brothers . Papyrus D’Orbiney; sheet 1: Hieratic text verso and recto—Tale of the Two Brothers, British Museum, Asset 438103001, britishmuseum.org/collection/object/Y_EA10183-1 .
+
+Because the primary motivation for using the Translation Density metric is to compare the approximate space requirements for a particular language, the important unit of measurement is not the number of words but, rather, the number of characters required for a translation; see table 9.
+
+Table 9. Translation density calculations for various texts.
+
+Below are excerpts used for the evaluations.
+
+> English (196 characters)
+
+> In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
+
+> Spanish (195 characters)
+
+> En el principio creó Dios los cielos y la tierra. Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas.
+
+> Chinese (Simplified; 30 characters)
+
+> 起初，神创造天地。地是空虚混沌，渊面黑暗；神的灵运行在水面上
+
+> Biblical Hebrew (Masoretic text; 82 characters)
+
+> בְּרֵאשִׁ֖יתבָּרָ֣אאֱלֹהִ֑יםאֵ֥תהַשָּׁמַ֖יִםוְאֵ֥תהָאָֽרֶץ
+
+> וְהָאָ֗רֶץהָיְתָ֥התֹ֙הוּ֙וָבֹ֔הוּוְחֹ֖שֶׁךְעַל־פְּנֵ֣יתְה֑וֹםוְר֣וּחַאֱלֹהִ֔יםמְרַחֶ֖פֶתעַל־פְּנֵ֥יהַמָּֽיִם
+
+
+## Appendix C: Gold and Copper Alloy
+
+[Page 27] Figure 13. Cross section of a gold-copper-silver alloy (15%, 84%, and 1% respectively) plate after depletion gilding revealing outer layers of gold and an inner layer of alloy. Photo from author. Figure 14. Dagger #30–12–550, PG 1054 from the Royal Cemetery of Ur, 2500–2000 BCE. The dagger has been depletion gilded and is made of a gold, copper, and silver alloy. Metallurgic analysis was performed in 2009 at the Penn Museum (Zettler et al., 2017). Figure 15. Examples of tumbaga artifacts housed in the Museum Royal Tombs of Sipan, Lambayeque, Peru. A . Chin protector. B . Right and left eye protectors, nose protection, and tooth protection. C . Brain container. D . Convex nose protector. Antonio Brunetti et al., “Combining X-ray Fluorescence and Monte Carlo Simulation Methods to Differentiate between Tumbaga and Gold-Alloy or Gildings,” Materials 15, no 13 (2022): 4452, doi.org/10.3390/ma15134452 .
+
+Figure 13. Cross section of a gold-copper-silver alloy (15%, 84%, and 1% respectively) plate after depletion gilding revealing outer layers of gold and an inner layer of alloy. Photo from author.
+
+Figure 14. Dagger #30–12–550, PG 1054 from the Royal Cemetery of Ur, 2500–2000 BCE. The dagger has been depletion gilded and is made of a gold, copper, and silver alloy. Metallurgic analysis was performed in 2009 at the Penn Museum (Zettler et al., 2017).
+
+Figure 15. Examples of tumbaga artifacts housed in the Museum Royal Tombs of Sipan, Lambayeque, Peru. A . Chin protector. B . Right and left eye protectors, nose protection, and tooth protection. C . Brain container. D . Convex nose protector. Antonio Brunetti et al., “Combining X-ray Fluorescence and Monte Carlo Simulation Methods to Differentiate between Tumbaga and Gold-Alloy or Gildings,” Materials 15, no 13 (2022): 4452, doi.org/10.3390/ma15134452 .
+
+After the depletion gilding process, the color of the surface of the object is determined by the remaining elements, which are primarily gold and silver, with some copper remaining in tumbaga if it is copper-rich. See figure 17. Depending on the concentrations of gold, silver, and copper that the depletion gilding leaves on the surface, the gold color of the tumbaga may be whitish, yellowish, reddish, or even greenish in appearance. See figure 18.
+
+[Page 28] Figure 16. A . Tumbaga composed of 15% gold, 84% copper, and 1% silver. B . 100% gold. C . Tumbaga after depletion gilding with sodium bisulfate. D . Tumbaga after depletion gilding with oxalic acid. Photo from the author. Figure 17. X-ray Fluorescence (XRF) analysis of two tumbaga artifacts showing surface concentrations of gold, silver, and copper. As the depth from the surface increases, the effect of depletion gilding diminishes, and the base alloy is shown. For example, the Tooth protection artifact (left graph) alloy has trace amounts of silver, but the depletion gilded surface shows a silver concentration of over 30%. See figure 15 for images of these items. Figure 18. A ternary plot illustrating colors of gold alloys determined by concentrations of gold, silver, and copper. Wikipedia , s.v. “Ag-Au-Cu-colours-english,” en.m.wikipedia.org/wiki/File:Ag-Au-Cu-colours-english.svg . See also Cristian Cretu and Elma Van der LIngen, “Coloured gold alloys,” Gold Bulletin 32 (1999): 115–26.
+
+Figure 16. A . Tumbaga composed of 15% gold, 84% copper, and 1% silver. B . 100% gold. C . Tumbaga after depletion gilding with sodium bisulfate. D . Tumbaga after depletion gilding with oxalic acid. Photo from the author.
+
+Figure 17. X-ray Fluorescence (XRF) analysis of two tumbaga artifacts showing surface concentrations of gold, silver, and copper. As the depth from the surface increases, the effect of depletion gilding diminishes, and the base alloy is shown. For example, the Tooth protection artifact (left graph) alloy has trace amounts of silver, but the depletion gilded surface shows a silver concentration of over 30%. See figure 15 for images of these items.
+
+Figure 18. A ternary plot illustrating colors of gold alloys determined by concentrations of gold, silver, and copper. Wikipedia , s.v. “Ag-Au-Cu-colours-english,” en.m.wikipedia.org/wiki/File:Ag-Au-Cu-colours-english.svg . See also Cristian Cretu and Elma Van der LIngen, “Coloured gold alloys,” Gold Bulletin 32 (1999): 115–26.
+
+
+## Appendix D: Plate Void Experiment
+
+As a proxy for the plates, 165 copper discs were formed, stacked, and measured. The copper discs were formed from 1 troy oz. 99.9% pure copper rounds by a process that included machine rolling, hammering, annealing, stress relieving, and descaling.
+
+The discs were flattened to an irregular oval shape with an approximate average thickness of 0.020". A hole was drilled into the center of each disc to facilitate stacking onto an aluminum rod. See figure 19.
+
+The resting height of the stack is approximately 5.1". The calculated resting void is approximately 55%, which is to say that due to the irregularities in the flatness of the discs, the stack of discs is 55% higher than a theoretical stack of 165 discs of 0.020" thickness. Manual compression was applied, resulting in a measured height of 4.7", resulting in a calculated void of approximately 42%.
+
+Figure 19. 165 copper discs stacked. Photo from the author.
+
+
+## Appendix E: Nineteenth-Century Tinplate
+
+Tinplate is thin sheet metal coated in tin. In the nineteenth and early twentieth centuries it was used to manufacture items such as [Page 31] household utensils, food cans, lanterns, buckets, and toys. It was valuable because unlike sheet metal, tinplate was resistant to rust. Up until the late 1800s the import of tinplate to America primarily came from Wales.
+
+[Page 32] Table 10. Units of measurement of tinplate.
+
+[Table omitted]
+
+Archives of late eighteenth- and early nineteenth-century American newspapers contain only a few advertisements selling tinplate, but they are primarily of type 1XXX which is approximately 0.019" in thickness. Although this is not definitive, it supports the idea that “common tin” in early nineteenth-century America was likely to be of type 1XXX tinplate. See figures 24, 25 and 26 for examples.
+
+[Page 33] Figure 20. Table of tinplate size, length, breadth and weight from the 1860 reference “Tinman’s Manual and Builder’s and Mechanic’s Handbook,” by I. R. Butts. Figure 21. Table of thickness, BWG and tinplate designation. Paul N. Hasluck, ed., Tinplate Work (London: Cassell & Co., 1907), 20, archive.org/details/tinplateworkwith00hasl . [Page 34] Figure 22. Table of tinplate name, size, length, breadth, weight, and label. Samuel Parkes, A Descriptive Account of the Several Processes Which Are Usually Pursued in the Manufacture of the Article Known in Commerce by the Name of Tin-Plate (London: R. Bickerstaff, 1818). Figure 23. Glossary of tinplate trade terms. “Glossary of Trade Terms and Hints to Purchasers of Tinplates,” in Welsh Tinplate, Its History, Manufacture, Application & Use . Figure 24. Tinplate advertisement, New York Evening Post , 15 August 1807. The entry for “160 boxes Tinplates one third X,” is circled in red. [Page 35] Figure 25. Tinplate advertisement, Commercial Advertiser and Journal (Buffalo, NY), 10 May 1841. The entry for “200 boxes Tin-Plate, 1–3X,” is circled in red. Figure 26. Tinplate advertisement, New York Evening Post , 27 June 1818. The entry for “800 boxes Tinplates, Pont-pool brand 1–3X,” is circled in red. Figure 27. Footnote x of page 118 from the Encyclopaedia Britannica. 1/600 th is circled in red.
+
+Figure 20. Table of tinplate size, length, breadth and weight from the 1860 reference “Tinman’s Manual and Builder’s and Mechanic’s Handbook,” by I. R. Butts.
+
+Figure 21. Table of thickness, BWG and tinplate designation. Paul N. Hasluck, ed., Tinplate Work (London: Cassell & Co., 1907), 20, archive.org/details/tinplateworkwith00hasl .
+
+Figure 22. Table of tinplate name, size, length, breadth, weight, and label. Samuel Parkes, A Descriptive Account of the Several Processes Which Are Usually Pursued in the Manufacture of the Article Known in Commerce by the Name of Tin-Plate (London: R. Bickerstaff, 1818).
+
+Figure 23. Glossary of tinplate trade terms. “Glossary of Trade Terms and Hints to Purchasers of Tinplates,” in Welsh Tinplate, Its History, Manufacture, Application & Use .
+
+Figure 24. Tinplate advertisement, New York Evening Post , 15 August 1807. The entry for “160 boxes Tinplates one third X,” is circled in red.
+
+Figure 25. Tinplate advertisement, Commercial Advertiser and Journal (Buffalo, NY), 10 May 1841. The entry for “200 boxes Tin-Plate, 1–3X,” is circled in red.
+
+Figure 26. Tinplate advertisement, New York Evening Post , 27 June 1818. The entry for “800 boxes Tinplates, Pont-pool brand 1–3X,” is circled in red.
+
+Figure 27. Footnote x of page 118 from the Encyclopaedia Britannica. 1/600 th is circled in red.
+
+
+## [Page 36] Appendix F: Lost 116 Pages
+
+The lost manuscript of the initial translation of the Book of Mormon is referred to as the “lost 116 pages,” but the specific amount of text from the plates that this represents is unknown. Examining the references made to this lost text in the Book of Mormon and Doctrine and Covenants seem to indicate that the lost 116 pages were less detailed, implying they had less characters than the small plates of Nephi. The following is an exposition starting with Doctrine and Covenants 10, which references the lost 116 pages:
+
+> And now, verily I say unto you, that an account of those things that you have written, which have gone out of your hands, is engraven upon the plates of Nephi . (Doctrine and Covenants 10:38)
+
+Thus, an “account” of the 116 pages is on the “plates of Nephi.” The next verse characterizes this “account”:
+
+> Yea, and you remember it was said in those writings that a more particular account was given of these things upon the plates of Nephi. (Doctrine and Covenants 10:39)
+
+Thus, a “more particular” account of the lost 116 pages is on the “plates of Nephi.” The Book of Mormon appears to use the term particular to mean larger or more detailed . For instance, Nephi indicated that the large plates of Nephi are a more particular version of the small plates:
+
+> And I knew not at the time when I made them that I should be commanded of the Lord to make these plates; wherefore, the record of my father, and the genealogy of his fathers, and the more part of all our proceedings in the wilderness are engraven upon those first plates of which I have spoken; wherefore, the things which transpired before I made these plates are, of a truth, more particularly made mention upon the first plates. (1 Nephi 19:2)
+
+Later, Nephi indicated that if people want to know more “particular” history, they should refer to the large plates:
+
+> And if my people desire to know the more particular part of the history of my people they must search mine other plates. (2 Nephi 5:33)
+
+[Page 37] Mormon commented that there are many records among the people that are “particular and very large”:
+
+> And now there are many records kept of the proceedings of this people, by many of this people, which are particular and very large, concerning them. But behold, a hundredth part of the proceedings of this people . . . cannot be contained in this work. (Helaman 3:13–14)
+
+So, a “more particular” account, or a more detailed account, or an account with more information, is on the “plates of Neph.” In other words, the “plates of Nephi” has more information than the lost 116 pages.
+
+In the Doctrine and Covenants, the Lord gives more detail about what is meant by the “plates of Nephi”:
+
+> Therefore, you shall translate the engravings which are on the plates of Nephi , down even till you come to the reign of king Benjamin , or until you come to that which you have translated, which you have retained. (Doctrine and Covenants 10:41)
+
+Thus, Joseph Smith is told that he shall translate the “plates of Nephi” which include the reign of King Benjamin. Words of Mormon indicates that plates that contain the reign of King Benjamin are the ones that Mormon is adding to record:
+
+> I searched among the records which had been delivered into my hands, and I found these plates , which contained this small account of the prophets , from Jacob down to the reign of this king Benjamin , and also many of the words of Nephi . And the things which are upon these plates pleasing me, because of the prophecies of the coming of Christ; (Words of Mormon 1:3–4)
+
+In other words, Mormon found “these plates” that are a “small account” of Nephi and Jacob down to King Benjamin. Mormon indicates they he would “take these plates . . . and put them with the remainder of [his] record” (Words of Mormon 1:6). In other words, the “plates of Nephi” were the small plates of Nephi.
+
+Based on the references to the lost text in Doctrine and Covenants 10 and Words of Mormon, it seems reasonable to conclude that the lost 116 pages are a less detailed, smaller account of the small plates of Nephi.
+
+
+## [Page 38] Appendix G: Examples of Valid Configurations
+
+The following plate configurations are examples from the 863,830 valid combinations of writing and physical properties of the plates. Note that there are many variations of Most Plates , Least Plates , etc., and the table indicates one of many possible examples.
+
+Table 11. Examples of most and least plates configurations.
+
+[Table omitted]
+
+Table 12. Examples of largest and smallest characters configurations.
+
+[Table omitted]
+
+[Table omitted]
+
+
+## Appendix H: Historical Record of Plate Descriptions
+
+This appendix includes all the historical records that make reference to the physical properties of the plates. The records are organized in chronological order. If only an approximate date is known for a source, then the record is ordered according to the earliest possible date.
+
+> And also the testimony of eight witnesses
+
+> Be it known unto all Nations kindreds tongues & people unto whom this work shall come that Joseph Smith jun. the author & proprietor of this work has shewn unto us the plates of which hath been spoken which have the appearance of gold & as many of the leave <leaves> as the said Smith has translated wit <we> did handle with our hands & we also saw the engravings thereon all of which has the appearance of ancient work & of curious workmanship & this we <we> bear record with words of soberness that the said Smith has shewn unto us for we have seen & hefted & know of a surety that the said Smith has got the plates of [Page 40] which we have spoken & we give our names unto the world to witness unto the world that which we have seen & we lie not God bearing witness of it
+
+> Christian Whitmer) Jacob Whitmer) Peter Whitmer Jun—) John Whitmer) Hiram Page) Joseph Smith sen—) Hyrum Smith) Samuel H Smith)
+
+> Just about in this particular region, for some time past, much speculation has existed, concerning a protended discovery, through superhuman means, of an ancient record of a religious and divine nature and origin, written in ancient characters, impossible to be interpreted by any to whom the special gift has not been imparted by inspiration. It is generally known and spoken of as the “Golden Bible.”
+
+> It was said that the leaves of the Bible were plates of gold, about 8 inches long, 6 wide, and one eighth of an inch thick, on which were engraved characters or Hyeroglyphics. By placing the spectacles in a hat, and looking into it, Smith could (he said so, at least) interpret these characters.
+
+> “Palmyra, Wayne, co., N. Y., Nov. 9th, 1829.
+
+> [Page 41] Sir;-You wrote to Mr. Harris, some time since, respecting the book of Mormon, of which he was concerned in the publication.”-
+
+> “Your first inquiry was, whether it was proper to say, that Joseph Smith Jr., was the author? If I rightly understand the meaning of the word author, it is, the first beginner, or mover of any thing, or a writer. Now Joseph Smith Jr., certainly was the writer of the work, called the book of Mormon, which was written in ancient Egyptian characters ,—which was a dead record to us until translated. And he, by a gift from God, has translated it into our language. Certainly he was the writer of it, and could be no less than the author.”
+
+> The editor of the Palmyra Freeman, their neighbor, adds to the above, that “in the fall of 1827, Joseph Smith, of Manchester, Ontario county, reported that he had been visited in a dream by the spirit of the Almighty, and informed, that in a certain hill, in that town, was deposited this Golden Bible, containing an ancient record of a divine nature and origin. After being thrice visited thus, as he states, he proceeded to the spot, and found the bible, with a huge pair of spectacles. He has been directed, however, not to let any mortal being examine them [i.e., the plates and the stone-eyed spectacles] under no less penalty than instant death! It was said that the leaves of the bible were plates of gold, about eight inches long, six inches wide, and one-eighth of an inch thick [i.e. 8 plates are one inch thick, 8 long and 6 wide.] On these plates were characters, or hieroglyphics, engraved.” The whole of the plates are said to weigh about thirty pounds; which would be in gold near eight thousand dollars, beside the value of the engraving. . . .
+
+> According to the narrative given by one of these [Page 42] disciples-Oliver Cowdery-at their late exhibition in Kirtland, this pretended Revelation was written on golden plates, or something resembling golden plates, of the thickness of tin-7 inches in length, 6 inches in breadth, and a pile about 6 inches deep. None among the most learned in the United States could read, and interpret the hand-writing, (save one, and he could decipher but a few lines correctly,) excepting this ignoramus, Joseph Smith, Jr. To him, they say, was given the spirit of interpretation; but he was ignorant of the art of writing, he employed this Oliver Cowdery and others to write, while he read, interpreted, and translated this mighty Revelation.
+
+> Upon opening this, he found enclosed a bundle of plates similar to gold, about 7 inches long, 6 broad, and in all about 6 inches deep, each sheet being of about the thickness of tin. They were united, at one edge with 3 silver wires, so that they opened in a manner similar to a book. “ They were engraven in a character unintelligible to the learned men of the United States, to many of whom it is said to have been presented. . . .
+
+> There appears to be a great discrepancy, in the stories told by the famous three witnesses to the Gold Bible; and these pious reprobates, individually, frequently give different versions of the same transaction. In the first place, it was roundly asserted that the plates on which Mormon wrote his history, (in the reformed Egyptian language) were [Page 43] of gold, and hence its name; gentlemen in this vicinity were called on to estimate its value from its weight, (something more than 20 lbs) Smith and Harris gave out that no mortal save Jo could look upon it and live; and Harris declares, that when he acted as amanuenes, and wrote the translation, as Smith dictated, such was his fear of the Divine displeasure that a screen (sheet) was suspended between the prophet and himself.
+
+> Whitmar’s description of the Book of Mormon, differs entirely from that given by Harris; both of whom it would seem have been of late permitted, not only to see and handle it, but to examine its contents. Whitmar relates that he was led by Smith into an open field, on his father’s farm near Waterloo, when they found the book lying on the ground; Smith took it up and requested him to examine it, which he did for the space of half an hour or more, when he returned it to Smith who placed it in its former position, alledging that the book was in the custody of another, intimating that some Divine agent would have it in safe keeping.
+
+> This witness describes the book as being something like 8 inches square; (our informant did not recollect precisely,) the leaves were plates of metal of a whitish yellow color, and of the thickness of tin plate; the back was secured with three small rings of the same metal, passing through each leaf in succession;—that the leaves were divided equi-distant, between the back & edge, by cutting the plates in two parts, and united again with solder, so that the front might be opened, as it were on a hinge, while the back part remained stationary and immovable and in this manner remained to him and the other witnesses a sealed book, which would not as yet be revealed for ages to come, and that event the prophet himself was not as yet permitted to understand. On opening that portion of the book which was not secured by the seals, he discovered inscribed on the aforesaid plates, divers and wonderful characters; some of them large and some small, but beyond the wisdom of man to understand without supernatural aid.
+
+> Some of the other apostles give somewhat similar accounts, but varying in many particulars, according to their various powers of description.—Harris, however, gives [Page 44] the lie to a very important part of Whitmar’s relation, and declares that the leaves or pages of the book are not cut, and a part of them sealed, but that it opens like any other book, from the edge to the back, the rings operating in the place of common binding.
+
+> At the place appointed he found in the earth a box which contained a set of thin plates resembling gold, with Arabic characters inscribed on them. The plates were minutely described as being connected with rings in the shape of the letter D, which facilitated the opening and shutting of the book. The preacher said he found in the same place two stones, with which he was enabled by placing them over his eyes and putting his head in a dark corner, to decypher the hieroglyphics on the plates!
+
+> We of this place were visited on Saturday last by a couple of young men styling themselves Mormonites. They explained their doctrine to a large part of the citizens in the court house that evening. They commenced by reading the first chapter of Paul’s Epistle to the Galatians; also by giving an account of their founder, Joseph Smith, then an inhabitant of the state of New-York, county of Ontario, and town of Manchester. Having repented of his sins, but not attached himself to any party of Christians, owing to the numerous divisions among them, and being in doubt what his duty was, he had recourse prayer. After retiring to bed one night, he was visited by an Angel and directed to proceed to a hill in the neighborhood where he would find a stone box containing a quantity of Gold plates. The plates were six or eight inches [Page 45] square, and as many of them as would make them six or eight inches thick, each as thick as a pane of glass. They were filled with characters which the learned of that state were not able to translate.
+
+> On Wednesday, the 8th of this month, two strangers called at my house and stated that they were sent by God to preach the gospel to every creature and said if a number should be convened they would deliver a discourse. . . . he went into the township of Manchester, and there, on the side of a hill, found in a stone box, or a square space enclosed by stone on every side, the plates on which the revelation was inscribed. The box in thickness was about 6 inches, and about 7 by 5 otherwise; the plates themselves were about as thick as window glass, or common tin, pure gold, and well secured by silver rings or loops in the box as an effectual defence against all weather. Smith, being entirely ignorant of any language but the English, and knowing that itself in a very imperfect manner, was unable to read or decypher a single word—he therefore sent the plates to the city of New York to be translated by Professor Anthony, who could make nothing of them;—here seemed to be an insurmountable difficulty.
+
+> It was supposed that the language of the plates was Arabic, Chaldean, and Egyptian; but God by his goodness inspired Smith himself to translate the whole.—Smith, however, not being qualified to write, employed an amanuensis, who wrote for him—they thus translated about two thirds of what the plates contained, reserving the residue for a future day as the Lord might hereafter direct.
+
+> An angel of the Lord came and stood before me and it was [Page 46] by night and he called me by name and he said the Lord had forgiven me my sins and he revealed unto me that in the Town of Manchester Ontario County N.Y. there was plates of gold upon which there was engravings which was engraven by Maroni & his fathers the servants of the living God in ancient days and deposited by th[e] commandments of God and kept by the power thereof.
+
+> Some time in July 1831, Two men [Elders Samuel H. Smith and Reynolds Cahoon] came to Paris & held an evening meeting. . . . They said that in September 1827 an Angel appeared to Joseph Smith (in Ontario Co. New York) and showed to him the confusion on the earth respecting true religion. It also told him to go a few miles distant to a certain hill and there he should find some plates with engravings, which (if he was faithful) he should be enabled to translate. He went as directed and found plates (which had the appearance of fine Gold) about 8 inches long 5 or 6 wide and alltogether about 6 inches thick; each one about as thick as thin paste board fastened together and opened in the form of a book containing engravings of reformed Egyptian Hieroglyphical characters: which he was inspired to translate and the record was published in 1830 and is called the book of Mormon.
+
+> Josiah Stowel, being by me sworn, saith, he has been acquainted with Smith, the prisoner, for quite a number of years . . . that prisoner told witnesses, that the Lord had told prisoner that a golden Bible was in a certain hill; that Smith, the prisoner, went in the night, and brought the Bible, (as Smith said;) witness saw a corner of it; it resembled a stone of a greenish caste; should judge it to have been about [Page 47] one foot square and six inches thick; he would not let it be seen by any one; the Lord had commanded him not; it was unknown to Smith, that witness saw a corner of the Bible, so called by Smith; told the witness the leaves were of gold; there were written characters on the leaves . . .
+
+> These plates were generally made from the sixteenth to the thirty second part of an inch thick (of metal) and something like six by eight inches square, and fastened at the back with three rings through which a rod was put to carry them, or hang them.
+
+> After about ten days, it having been suggested that some one had got his book, his wife went after him; he [Joseph Smith] hired a horse, and went home in the afternoon, staid long enough to drink one cup of tea, and then went for his book, found it safe, took off his frock, wrapt it round it, put it under his arm and run all the way home, a distance of about two miles. He said he should think it would weigh sixty pounds, and was sure it would weigh forty.
+
+> [David Whitmer] describes the plates as being about eight inches square, the leaves being metal of a whitish yellow color, and of the thickness of tin plates. The back was secured with three small rings of the same metal, passing through each leaf in succession; that the leaves were divided equidistant between the back and the edge, by cutting the plates in [Page 48] two parts, and again united with solder, so that the front might be opened, while the back part remained stationary and immovable, and was consequently a sealed book, which would not be revealed for ages to come, and which Smith himself was not permitted to understand. On opening that part of the book which was not secured by seals, he discovered inscribed on the aforesaid plates, divers and wonderful characters, some large and some small, but beyond the wisdom of man to understand without supernatural aid this account is sometimes partly contradicted by Harris.
+
+> Smith pretended that he had found some golden or brass plates, like the leaves of a book, hid in a box in the earth, to which he was directed by an Angel, in 1827,—that the writing on them was in the “Reformed Egyptian language,”—that he was inspired to interpret the writing, or engraving, by putting a plate in his hat, putting two smooth flat stones, which he found in the box, in the hat, and putting his face therein—that he could not write, but as he translated, one Oliver Cowdery wrote it down.
+
+> He said unto me I am a messenger sent from God, be faithful and keep his commandments in all things, he told me of a sacred record which was written on plates of gold, I saw in the vision the place where they were deposited, he said the indians, were the literal descendants of Abraham.
+
+> These records were engraved on plates, which had the appearance of gold. Each plate was not far from seven by eight inches in width and length, being not quite as thick as common tin. They were filled on both sides with engravings, in Egyptian characters, and bound together in a volume, as the leaves of a book, and fastened at one edge with three rings running through the whole. This volume was something near six inches in thickness, a part of which was sealed. The characters or letters upon the unsealed part were small, and beautifully engraved. The whole book exhibited many marks of antiquity in its construction, as well as much skill in the art of engraving. With the records was found “a curious instrument, called by the ancients the Urim and Thummim, which consisted of two transparent stones, clear as crystal, set in the two rims of a bow. This was in use, in ancient times, by persons called seers. It was an instrument, by the use of which, they received revelation of things distant, or of things past or future.”
+
+> The record consisted of a large volume, in the Egyptian language, engraven on plates of gold. The plates were each about 7 by 8 inches in width and length, being about the thickness of common tin. These were engravings on both sides, and a volume of them were bound together like the leaves of a book, and fastened at one edge with three rings running through the whole. The volume was something near six inches in thickness.
+
+> [Original]
+
+> I have not heard but one sermon sence wee have bin in the place and that by hyrem Smith as he wass mooving to mesur<ia> he taried with us a litles while his dissorse wass butifull wee wass talking about th Book of mormon which he is ons of the witnesses he said he had but too hands and too eyes he said he had seene the plates with his eyes and handeled them with his hands and he saw a brest plate and he told how it wass maid it wass fixed for the brest of a man with a holen stomak and too pieces upon eatch side with a hole throu them to put in a string to tye <it> on but that wass mot so good gold as the plates for that was pure why I write this is because thay dispute the Book so muc[h.]
+
+> [Edited]
+
+> For I have not heard but one sermon since we have been in the place and that by Hyrum Smith. As he was moving to Missouri he tarried with us a little while. His discourse was beautiful. We were talking about the Book of Mormon, [of] which he is one of the witnesses. He said he had but two hands and two eyes. He said he had seen the plates with his eyes and handled them with his hands and he saw a breast plate and he told how it was made. It was fixed for the breast of a man with a hole in [the] stomach and two pieces upon each side with a hole through them to put in a string to tie it on, but that was not so good gold as the plates for that was pure. Why I write this is because they dispute the book so much.
+
+> The simple story as related by others was this. Sometime in [Page 51] A. D. 1825, as nearly as I can recollect, Smith was informed by an angel, that there was a valuable record concealed in the earth, and the time had now arrived for it to be brought forth and published to the world. After being warned several times, he went to the spot and found the record engraved on leaves or plates of gold, fastened together by rings passing through one edge of all the leaves, on which they would turn as you opened them. The plates, as near as I can remember, were said to be about six by eight inches square, and very thin. This Book was carefully enclosed in a stone box, provided for that purpose, which Smith broke open.
+
+> Turley said, Gentlemen, “I presume there are men here who have heard Corrill say, Mormonism was true, Joseph Smith was a Prophet, and inspired of God &c I now call upon you, John Whitmer, you say Corrill is a moral and good man, do you believe him, when he says the Book of Mormon is true, or when it is not true, there are … many things published that they say is true, and again turn round and say it is false” Whitmer asked do you hint at me? Turley replied “if the cap fits you, wear it, all I know, you have published to the world that an angel did present those plates to Joseph Smith” Whitmer replied “I now say, I handled those plates, there was fine engravings on both sides— I handled them,” and he described how they were hung, and “they were shewn to me by a supernatural power” he acknowledged all—Turley asked him “why the translation is not now true,” he said “I cannot read it, and I do not know whether it is true or not”
+
+> He said there was a book deposited written upon gold plates, [Page 52] giving an account of the former inhabitants of this continent and the source from whence they sprang. He also said that the fullness of the everlasting Gospel was contained in it as delivered by the Savior to the ancient inhabitants.
+
+> The next day he [Joseph Smith] went alone to the spot, and by digging discovered the plates in a sort of rude stone box. They were eight or ten inches long, less in width, about the thickness of panes of glass; and together, made a pile about five or six inches high. They were in a good state of preservation, had the appearance of gold, and bore inscriptions in strange characters on both sides.
+
+> These were engraved on uniform plates which had the appearance of gold. Each plate was almost 7 inches wide and almost 8 inches long and in thickness somewhat less than common tin. They were engraven with a fine script similar to Egyptian hieroglyphs and fastened together in the form of a book by three rings, which were drawn through the whole by means of small holes on the ends. The entire book was approximately 8 inches thick and one part of it was sealed. The characters or letters of the unsealed part were small and artistically beautifully engraved (according to the words of Mr. [Orson] Pratt, from whose writings I have taken the foregoing account).
+
+> The angel of the Lord appeared to him fifteen years since, and shewed him the cave where the original golden plates of the book of Mormon were deposited. He shewed him also the Urim and Thummim, by which he might understand the meaning of the inscriptions on the plates, and he shewed him the golden breastplate of the high priesthood. My son received these precious gifts, he interpreted the holy record, and now the believers in that revelation are more than a hundred thousand in number. I have myself seen and handled the golden plates; they are about eight inches long, and six wide; some of them are sealed together and are not to be opened, and some of them are loose. They are all connected by a ring which passes through a hole at the end of each plate, and are covered with letters beautifully engraved. I have seen and felt also the Urim and Thummim. They resemble two large bright diamonds set in a bow like a pair of spectacles. My son puts these over his eyes when he reads unknown languages, and they enable him to interpret them in English. I have likewise carried in my hands the sacred breastplate. It is composed of pure gold, and is made to fit the breast very exactly.
+
+> These records were engraven on plates which had the appearance of gold. Each plate was six inches wide and eight inches long and not quite so thick as common tin. They were filled with engravings in Egyptian characters and bound together in a volume, as the leaves of a book with three rings running through the whole. The volume was something near six inches in thickness, a part of which was sealed. The characters on the unsealed part were small, and beautifully engraved. The whole book exhibited many [Page 54] marks of antiquity in its construction and much skill in the art of engraving.
+
+> Mr. Smith having been shown in the Vision the place where the Record was deposited; accordingly the next morning, 23d day of September, A. D. 1823, visited the place, and from that time he received more and more information concerning what he had to do until the year 1827, when he obtained the Recods [sic]. A hole of sufficient depth had been dug, and a flat stone laid in the bottom; then there were four set erect at the outer edges of the bottom stone, joined together with some kind of cement, so as to form a Box. On the bottom stone was laid a Shield or Breastplate, from that arose three pillars made of cement. On the top of these pillars laid the Record, together with the “Urim and Thummim,” the whole not to extend quite even with the top of the side stones. Over the whole was placed a crowning stone, a small part of which was visible, when he first visited the spot. Each plate was about six by eight inches, and as thick as common tin, and on each side beautifully engraved, and filled with black cement, the whole being about six inches in thickness, and put together with three rings, running through the whole, a part of which was sealed. The unsealed part has been translated; and contains the Book of Mormon; and living witnesses, who saw the plates and hefted them have borne testimony to the same. In the year 1830, after the Book was translated and published, the Angel of God according to promise conferred the Holy Priesthood upon Mr. Smith, and gave unto him commandments to Baptize with water in the name of Jesus, and build up the Church of Christ; which accordingly was organized April 6th, A. D. 1830, with six members.
+
+> Friends and brethren my name is Cowdrey, Oliver Cowdrey, [Page 55] In the early history of this church I stood Identified with her. And [was] one in her councils. . . . I wrote with my own pen the intire book of mormon (Save a few pages) as it fell from the Lips of the prophet [Joseph Smith]. As he translated <it> by the gift and power of god, By [the] means of the urum and thummim, or as it is called by that book holy Interperters. I beheld with my eyes. And handled with my hands the gold plates from which it was translated. I also beheld the Interperters. That book is true. Sidney Rigdon did not write it. Mr [Solomon] Spaulding did not write it. I wrote it myself as it fell from the Lips of the prophet.
+
+> About two-thirds were sealed up, and Joseph was commanded not to break the seal; that part of the record was hid up. The plates which were sealed contained an account of those things shewn unto the brother of Jared.
+
+> Eight other witnesses testify that Joseph Smith showed them the plates, and that they saw the engravings upon them, and that they had the appearance of ancient work and curious workmanship. They describe these plates as being about the thickness of common tin, about eight inches in length, and from six to seven in breadth. Upon each side of the leaves of these plates there were fine engravings, which were stained with a black, hard stain, so as to make the letters more legible and easier to be read. Through the back of the plates were three rings, which held them together, and through which a rod might easily be passed, serving as a greater convenience for carrying them; the construction and form of the plates being similar to the gold, brass, and lead plates of the ancient Jews in Palestine.
+
+> “Joseph did not dig for these plates. They were placed in this way: four stones were set up and covered with a flat stone, oval on the upper side and flat on the bottom. Beneath this was a little platform upon which the plates were laid; and the two stones set in a bow of silver by means of which the plates were translated were found underneath the plates.
+
+> “These were seven inches wide by eight inches in length, and were of the thickness of plates of tin; and when piled one above the other, they were altogether about four inches thick; and they were put together on the back by three silver rings, so that they would open like a book.
+
+> “The two stones set in a bow of silver were about two inches in diameter, perfectly round, and about five-eighths of an inch thick at the centre; but not so thick at the edges where they came into the bow. They were joined by a round bar of silver, about three-eighths of an inch in diameter, and about four inches long, which, with the two stones, would make eight inches.
+
+> “The stones were white, like polished marble, with a few gray streaks. I never dared to look into them by placing them in the hat, because Moses said that ‘no man could see God and live,’ and we could see anything we wished by looking into them; and I could not keep the desire to see God out of my mind. And beside, we had a command to let no man look into them, except by the command of God, lest he should ‘look aught and perish.’
+
+> “These plates were usually kept in a cherry box made for that purpose, in the possession of Joseph and myself. The plates were kept from the sight of the world, and no one, save Oliver Cowdrey, myself, Joseph Smith, jr., and David Whitmer, ever saw them. Before the Lord showed the plates to me, Joseph wished me to see them. But I refused, unless the Lord should do it. At one time, before the Lord showed them to me, Joseph said I should see them. I asked him, why he would break the commands of the Lord! He said, you [Page 57] have done so much I am afraid you will not believe unless you see them. I replied, ‘Joseph, I know all about it. The Lord has showed to me ten times more about it than you know.’ “—Here we inquired of Mr. Harris—How did the Lord show you these things! He replied, “I am forbidden to say anything how the Lord showed them to me, except that by the power of God I have seen them.”
+
+> Mr. Harris continues: “I hefted the plates many times, and should think they weighed forty or fifty pounds.
+
+> “While at Mr. Smith’s I hefted the plates, and I knew from the heft that they were lead or gold, and I knew that Joseph had not credit enough to buy so much lead. I left Mr. Smith’s about eleven o’clock and went home. I retired to my bedroom and prayed God to show me concerning these things, and I covenanted that if it was his work and he would show me so, I would put forth my best ability to bring it before the world. He then showed me that it was his work, and that it was designed to bring in the fullness of his gospel to the gentiles to fulfill his word, that the first shall be last and the last first. He showed this to me by the still small voice spoken in the soul. Then I was satisfied that it was the Lord’s work, and I was under a covenant to bring it forth.
+
+> I then addressed Mr. Harris relative to his once high and exalted station in the Church, and his then fallen and afflicted condition. I afterwards put the following question to Mr. Harris, to which he severally replied with the greatest cheerfulness: — ‘What do you think of the Book of Mormon? Is it a divine record?’
+
+> Mr. Harris replied and said—’I was the right-hand man of Joseph Smith, and I know that he was a Prophet of God. [Page 58] I know the Book of Mormon is true.’ Then smiting his fist on the table, he said—’And you know that I know that it is true. I know that the plates have been translated by the gift and power of God, for his voice declared it unto us; therefore I know of a surety that the work is true. For,’ continued Mr. Harris, ‘did I not at one time hold the plates on my knee an hour-and-a-half, whilst in conversation with Joseph, when we went to bury them in the woods, that the enemy might not obtain them? Yes, I did. And as many of the plates as Joseph Smith translated I handled with my hands, plate after plate.’ Then describing their dimensions, he pointed with one of the fingers of his left hand to the back of his right hand and said, ‘I should think they were so long, or about eight inches, and about so thick, or about four inches; and each of the plates was thicker than the thickest tin.’
+
+> In answer to our question, as to what it was that Joseph had thus obtained, [Joseph Smith Sr.] said it consisted of a set of gold plates, about six inches wide, and nine or ten inches long. They were in the form of a book, half an inch thick, but were not bound at the back, like our books, but were held together by several gold rings, in such a way that the plates could be opened similar to a book.
+
+> A few days since we acknowledged a call at our sanctum, from Martin Harris, who was on his way from Ohio to take up [Page 59] his residence at Salt lake City, to spend the remainder of his days with the “chosen people.”  . .
+
+> In September, 1828, as the story goes, Joseph Smith, directed by an angel, proceeded to a spot about 4 miles from Palmyra, New York, and upon the point of a hill, extending northward, dug up a very solid stone chest within which were the tablets of gold, inscribed with the characters which no man could read. Joseph Smith was the first to handle the tablets, and Martin Harris, one of the appointed witnesses, the second. Mr. Harris describes the plates as being of thin leaves of gold, measuring seven by eight inches, and weighing altogether, from forty to sixty lbs. There was also found in the chest, the urim and thummim, by means of which the writing upon the plates was translated, but not until after the most learned men had exhausted their knowledge of letters in the vain effort to decipher the characters.
+
+> The Prophet and Oliver Cowdery, David Whitmer and myself went into a little grove to pray, to obtain a promise that we should behold it with our own eyes. That we could testify to the world We prayed two or three times, and at length the angel stood befor Oliver and David, and showed them the plates, But, Behold I had gone myself to pray and in my desperation I asked the Prophet to kneel down with me, and pray for me, that I may see the plates. and we did so and immediately the angel stood before me and said ‘look’ and when I glanced at him I fell, But I stood on my feet and saw the angel turn the golden leaves over, and I said “it is enough, my Lord and my God! Then I heard the voice of God say the book is true, and translated correctly. He then turned himself as though he had no more to say; and we made ready to go.
+
+> The Binghamton Republican publishes some personal [Page 60] recollections of Mrs. Doolittle, a lady seventy-five years old, who is now visiting with her son-in-law, Chief of Police Johnson of that city. She was personally acquainted with the first wife of Joseph Smith, the Mormon prophet, Miss Emma Hale, whom he married near Susquehanna, Pa.
+
+> From her statement it appears that Joe came to the neighborhood of Susquehanna to dig for gold, and made several excavations for that purpose, but it never was known that his labors in that direction were rewarded. While thus employed he became acquainted with Miss Hale, whose parents opposed the proposed marriage, and the young people eloped to Windsor, where they were married.
+
+> They returned and settled down upon a farm adjoining the lands of Mr. Hale and Mr. McKune. There was already a small house upon the farm, a story and a half frame building, and Joe put on a small addition. The farm and the house is now the property of Benjamin McKune, a grand-son of Joseph McKune. This same McKune farm is again becoming somewhat famous in consequence of preparations to bore into it for oil a short distance from the prophet’s first domicile.
+
+> While Joe was upon his farm he had the Mormon Bible. Whether he professed to find it before or after marriage Mrs. Doolittle does not remember. Her grandfather was once privileged to take in his hands a pillowcase in which the supposed saintly treasure was wrapped, and to feel through the cloth that it had leaves. From the size and the weight of the book, Mr. McKune supposed that in dimensions it closely resembled an ordinary Bible in the print of those days.
+
+> The next Morning Davids Mother Saw the Person at the Shed and he took the Plates from A Box & Showed them to her She Said that they Were fastened with Rings thus D he [Page 61] turned the leaves over this was a Sattisfaction to her. She Died in the room ware Wee visited Sitting up in her chair without a Strugle.
+
+> Mr. Whitmer is considered a truthful, honest and law abiding citizen by this community, and consequently, his appointment [to preach] drew out a large audience. Mr. Whitmer stated that he had often handled the identical golden plates which Mr. Smith received from the angel, he said it was of pure gold, part of the book was sealed up solid, the other part was open and it was this part which was translated, and is termed to-day the Mormon Bible.
+
+> The following letter contains several items that will prove interesting to the Latter-day Saints. We publish it without knowing anything personally of the incidents related by the writer. The testimony of John Whitmer, however, is prefixed to the Book of Mormon in connection with that of the other witnesses, and remains unimpeached and unimpeachable.
+
+> Ovid City, Idaho, July 31, 1878 Editors of the Deseret News:
+
+> I received, to-day, a letter from Miss Sarah Whitmer, at Far West, Missouri, in which she informs me about the death of her father, John Whitmer, Esq., one of the eight witnesses to the plates from which the Book of Mormon is translated. She writes:
+
+> . . . So far from Sarah Whitmer’s letter. I visited this last one of the eight witnesses in April this year, at his fine residence at Far West. On John’s farm is located the foundation of Far West Temple, and the cornerstone is laid of gray sandstone. A short distance from John Whitmer’s residence [Page 62] we discover the house in which the Prophet Joseph Smith dwelt with his family, and in the adjoining county is the beautiful valley, Adam-ondi-Ahman. John Whitmer received me as a dear father would receive a son, and answered readily all my questions. I said: I am aware that your name is affixed to the testimony in the Book of Mormon, that you saw the plates? He—It is so, and that testimony is true. I—did you handle the plates with your hands? He—I did so! I—Then they were a material substance? He—Yes, as material as anything can be. I—Were they heavy to lift? He—Yes, and as you know gold is a heavy metal, they were very heavy. I—How big were the leaves? He—So far as I recollect, 8 by 6 or 7 inches. I—Were the leaves thick? He—Yes, just so thick, that characters could be engraven on both sides. I—How were the leaves joined together? He—In three rings, each one in the shape of a D with the straight line towards the center. I—In what place did you see the plates? He—In Joseph Smith’s house; he had them there. I—Did you see them covered with a cloth? He—No. He handed them uncovered into our hands, and we turned the leaves sufficient to satisfy us. I—Were you all eight witnesses present at the same time? He—No. At that time Joseph showed the plates to us, we were four persons, present in the room, and at another time he showed them to four persons more.
+
+> I – Did the angel turn all the leaves before you as you looked on it?
+
+> He – No, not all, only that part of the book which was not sealed, and what there was sealed appeared as solid to my view as wood.
+
+> I – How many of the plates were sealed?
+
+> He – About half of the book was sealed. Those leaves which were not sealed, about the half of the first part of the book, [Page 63] were numerous, and the angel turned them over before our eyes. There is yet to be given a translation about Jared’s people’s doings and of Nephi, and many other records and books, which all has to be done, when the time comes.
+
+> I – How large were the plates?
+
+> He – About eight inches wide and six or seven inches long, as they appeared a little wider than long, and three rings kept the plates together; one above, one in the middle, and one below, so the angel could turn every leaf entirely over. The thickness was about of a common sheet of tin used by tinsmiths.
+
+> I – How did the engravings look?
+
+> He – There were characters. We copied some, and if you visit my brother John, one of the Eight Witnesses, who wrote for Joseph, John can show you some of the old manuscript which he borrowed from me. I must have it returned to me again, as it belongs to the Church, in connection with other records.
+
+> Q. Are you sure that he had the plates at the time you were writing for him?
+
+> A. The plates often lay on the table without any attempt at concealment, wrapped in a small linen table cloth, which I had given him to fold them in. I once felt of the plates, as they thus lay on the table, tracing their outline and shape. They seemed to be pliable like thick paper, and would rustle with a metallic sound when the edges were moved by the thumb, as one does sometimes thumb the edges of a book.
+
+> “Did you see the angel?”
+
+> [Page 64] “Yes, he stood before us. Our testimony as recorded in the Book of Mormon is absolutely true, just as it is written there.”
+
+> “Can you describe the plates?”
+
+> “They appeared to be of gold, about six by nine inches in size, about as thick as parchment, a great many in number, and bound together like the leaves of a book by massive rings passing through the back edges. The engravings upon them were very plain and of very curious appearance. Smith made fac similes of some of the plates and sent them by Martin Harris to Professors Anthon and Mitchell, of New York City, for examination. They pronounced the characters reformed Egyptian, but were unable to read them.”
+
+> In consequence of [Joseph Smith’s] vision, and his having the golden plates and refusing to show them, a great persecution arose against the whole family, and he was compelled to remove into Pennsylvania with the plates, where he translated them by means of the Urim and Thummim, (which he obtained with the plates), and the power of God. The manner in which this was done was by looking into the Urim and Thummim, which was placed in a hat to exclude the light, (the plates lying near by covered up), and reading off the translation, which appeared in the stone by the power of God. He was engaged in this business as he had opportunity for about two years and a half. In the winter of 1829 and thirty, the Book of Mormon, which is the translation of part of the plates he obtained, was published. He then showed the plates to my father and my brothers Hyrum and Samuel, who were witnesses to the truth of the book which was translated from them. I was permitted to lift them as they laid in a pillow-case; but not to see them, as it was contrary to the commands he had received. They weighed about sixty pounds according to the best of my judgment.
+
+> The time to receive the plates came at last. When Joseph received them, he came in and said: “Father, I have got the plates.” All believed it was true, father, mother, brothers and sisters. You can tell what a child is. Parents know whether their children are truthful or not. The proof of the pudding is not in chewing the string, but in eating the pudding. Father knew his child was telling the truth. When the plates were brought in they were wrapped up in a tow frock. My father then put them into a pillow case. Father said, “What, Joseph, can we not see them?” “No. I was disobedient the first time, but I intend to be faithful this time; for I was forbidden to show them until they are translated, but you can feel them.” We handled them and could tell what they were. They were not quite as large as this Bible. Could tell whether they were round or square. Could raise the leaves this way (raising a few leaves of the Bible before him). One could easily tell that they were not a stone, hewn out to deceive, or even a block of wood. Being a mixture of gold and copper, they were much heavier than stone, and very much heavier than wood.
+
+> . . . When Joseph received the plates he also received the Urim and Thummim, which he would place in a hat to exclude all light, and with the plates by his side he translated the characters, which were cut into the plates with some sharp instrument, into English . . .
+
+> A gentleman in the congregation asked,
+
+> “Where are these plates?”
+
+> Ans.—”They were delivered to the angel again.”
+
+> Ques.—”How much did they weigh?”
+
+> Ans.—”As near as I could tell, about sixty pounds.”
+
+> Mister Gregg
+
+> [Page 66] Dear Sir. I received your note ready at hand and will try (to) answer the best I can and give all the information I can as respecting Mormonism and the first origin. As respecting Oliver Cowdery, he came from Kirtland in the summer of 1826 and was about there until fall and took a school in the district where the Smiths lived and the next summer he was missing and I didn’t see him until fall and he came back and took our school in the district where we lived and taught about a week and went to the schoolboard and wanted the board to let him off and they did and he went to Smith and went to writing the Book of Mormon and wrote all winter . . .
+
+> He had an old glass box with a tile (spelling doubtful, C. A. S.) in it, about 7×8 inches, and that was the gold plates and Martin Harris didn’t know a gold plate from a brick at this time.
+
+> It was during the early part of June, 1829, that David [Whitmer] first heard that a young man named Joseph Smith had found an exceedingly valuable golden treasure in the northern part of the county. In company with his brother-in-law, Oliver Cowdery, young Whitmer set out to ascertain the truth or falsity of the story. Smith, who was at that time living with his father on a farm near Manchester, was indisposed at first to exhibit his treasure, but was finally persuaded to do so. The treasure consisted of a number of golden plates about eight inches long, seven inches wide, and of the thickness of ordinary sheet tine. They were bound together in the shape of a book by three gold rings. A large portion of the leaves were to securely bound together that it was impossible to separate them, but upon the loose leaves were engraved hieroglyphics which were unintelligible to any person who had seen them. With the tablets was an immense pair of spectacles set in a silver bow. Smith announced that he had been commanded to translate the characters upon the plates as soon as possible, and stated further that the work [Page 67] must be done in the presence of three witnesses, Smith, his wife, Cowdery, and Whitmer then proceeded to the house of Whitmer’s father, where the work of translation was carried out, Smith reading the characters by means of the magic spectacles, Cowdery, Christian Whitmer, a brother of David, and Smith’s wife acting as amanuenses.
+
+> Bro. Briggs then handed me a pencil and asked Bro. Smith if he ever saw the plates his brother had had, from which the Book of Mormon was translated.
+
+> He replied, “I did not see them uncovered but I handled them and hefted them while wrapped in a tow frock and judged them to have weighed about sixty pounds. I could tell they were places of some kind and that they were fastened together by rings running through the back. Their size was as described in mother’s history.”
+
+> Catherine Smith Salisbury, told me she was present at home when her brother, Joseph Smith, came in near exhausted, carrying the package of gold plates from which the Book of Mormon was translated. He was carrying the package clasped to his side with his left hand and arm, and his right hand was badly bruised from knocking down at least three men who had leaped at him from behind bushes or fences as he ran until out of breath. She said he entered the house running and threw himself on a couch panting from his extraordinary exertion.
+
+> She told me Joseph allowed her to “heft” the package but not to see the gold plates, as the angel had forbidden him to show at that period. She said they were very heavy.
+
+> Catherine Smith Salisbury then told me that while dusting up the room where the Prophet had his study she saw a package on the table containing the gold plates on which was engraved the story of the Book of Mormon. She said she hefted those plates and found them very heavy like gold and also rippled her fingers up the edge of the plates and felt that they were separate metal plates and heard the tinkle of sound that they made.
+
+
+## Appendix I: Study Limitations
+
+While this paper presents a comprehensive mathematical model for analyzing the possible configurations of the golden plates, there are, at least, the following limitations of the analysis to be considered:
+
+  - Character Count Approximation: The character count of the Book of Mormon used in calculations is only approximate. A more precise count could potentially affect the results, particularly in cases where the calculated configurations are near the boundaries of validity.
+  - Translation Density Variability: The translation densities for Spanish and Chinese were calculated using only the King James Version of Genesis, relying on the Latter-day Saint translation. Similarly, the translation density for Hebrew was based on the Masoretic text and the Latter-day Saint King James Version. Other source texts and translations may yield slightly different densities for these languages, which could impact the overall results.
+  - Limited Hieratic and Demotic Samples: The Hieratic text used to calculate the translation density is from the nineteenth dynasty, approximately 600 years before Nephi began to engrave the plates. Additionally, the sample size is relatively small. Other forms of Hieratic from different dynasties may yield different results. Similarly, the Demotic text used for calculation is from the Ptolemaic era and is a relatively small sample, and the character count is an approximation based on sampling. A more precise character count [Page 69] and/or a larger body of Demotic source texts may yield different results.
+  - Numerical Precision: The calculations rely on code with varying levels of numerical precision depending on the specific calculation. Rounding errors may lead to slightly different results, particularly in edge cases.
+  - Subjectivity in Historical Interpretation: Interpreting historical statements about the plates is inherently subjective, and different interpretations may lead to different constraints, which would, in turn, lead to different results. The model’s outcomes are sensitive to these interpretations.
+  - Simplification of Character Size: The calculation averages the square size of reformed Egyptian characters, which is a simplification of what is normally a complicated function of spacing, leading, and kerning. In hand-written (or engraved) text, these factors are scribe-dependent and may vary considerably.
+  - Exclusion of Ring Bindings: The calculations of weight and surface area available to text excludes the consideration of the three binding rings, which are fastened through holes in the plates, that are described in the documentary record. This exclusion will result in a slight overestimation of surface area and a slight underestimation of weight.
+  - Arbitrary Margin Constant: The margin of 0.0625" used in calculations is an arbitrary constant. Applying different margins to the calculation will lead to different results, potentially affecting the number of valid configurations.
+  - Fixed Silver Content: The calculation fixes the amount of silver at 10% of the amount of gold in the alloy. While this simplification assumes the coloring of the plates, it does not represent all possible alloy compositions.
+  - Limited Consideration of Plate Surface Irregularities: The void between plates is modeled using experimental data from copper discs, which may differ from the surface characteristics of the actual plates.
+
+These limitations suggest that while the model provides valuable insights into the possible configurations of the golden plates, the results should be interpreted with caution. Future research could address these limitations by refining the input data, improving the [Page 70] precision of calculations, and considering a wider range of historical interpretations.
+
+---
+Notes
+
+[1] There are dozens of nineteenth-century reports about the physical properties of the ancient record Joseph Smith recovered from a [Page 2] hill near his home in Palmyra, New York, in 1827. 1 The reliability of these sources varies widely, ranging from early firsthand accounts to late, unsourced reports, thus presenting a challenge for historical analysis. 2
+
+[2] Despite the abundance of reports, the exact physical properties of the plates remain uncertain. While many scholars have made reasonable estimates about the size, weight, number of plates, and their material composition, the current paper takes a novel approach. 3 Rather than contributing another estimate, it describes a systematic process for determining all mathematically possible configurations of the plates, given a set of constraints derived from historical accounts. This process not only computes valid configurations of the plates but also demonstrates that numerous physical and writing configurations are plausible, contradicting the claims of critics who have argued otherwise. 4
+
+[3] The documentary record attributes firsthand interactions with the plates to at least twenty-four individuals. 5 These eyewitness accounts vary in their usefulness, with some providing detailed information about the plates’ physical properties and others offering little to no relevant data. 6 Supplementing these primary sources are numerous [Page 4] newspaper accounts, both attributed and unattributed, which describe the characteristics of the plates. 7 It is important to note that the quality and reliability of these reports vary significantly, and their evaluation necessarily involves a degree of subjectivity. 8 For a comprehensive list and transcriptions of these sources, refer to Appendix H: Historical Record of Plate Descriptions.
+
+[4] Property Reported Minimum Reported Maximum Plate Length 7" 10" (12") 9 Plate Width 5" 7" (12") Plate Thickness “parchment” 10 0.0325" (0.125") 11 Stack Height 4" (½") 12 8" Void between Plates 13 unspecified unspecified [Page 5] Weight of Plates 30 lb. (more than 20 lb.) 14 60 lb. Alloy Gold Content unspecified mix of copper and gold 15 100% gold 16 Percent Sealed 17 33% 66% Total Number of Plates unspecified unspecified
+
+[5] While the text of the Book of Mormon itself does not specify the composition of the plates, 18 nineteenth-century witnesses described them as having the “appearance of gold.” 19 William Smith was the only witness to say that the plates were made of a gold and copper alloy, although it is unclear how or why he came to this conclusion. 20 Examples of gold and copper alloys capable of being worked to resemble pure gold have been discovered in both the Old and New Worlds; see figure 1. These findings provide historical context for the possibility that such an alloy was used in the creation of the plates. See Appendix C: Gold and Copper Alloy.
+
+[6] Property Minimum Maximum Step Plate Length 7" 10" ⅛” Plate Width 5" 7" ⅛” Plate Thickness 21 0.005" 0.0325" 0.001" Void between Plates 22 10% 100% 10% Weight of Plates 23 40 lb. 60 lb. ¼ lb. Alloy Gold Content 24 12.5% 100% 2.5% Percent Sealed 33% 66% 3%
+
+[7] Height is calculated by computing the sum of the thickness of plates and the voids between them, then multiplying by the number of plates calculated for that combination. Because absolute flatness in metalworking is unachievable, 25 when thin plates are stacked, small voids exist between them due to surface irregularities.
+
+[8] While it is not known exactly how the plates in the sealed portion were sealed, 26 it seems reasonable to suppose that the process of sealing would compress the void space between the sealed plates to some degree. 27 For a detailed discussion of the experimental [Page 9] approach to estimating void space and compression, see Appendix D: Plate Void Experiment.
+
+[9] Further refinement of the results is possible by privileging the firsthand reports of Joseph Smith, who was most familiar with the plates. Smith reported that the plates were six inches wide, eight inches long, and “somewhat near” six inches in height. 28 He also described the thickness of the plates as “not quite so thick as common tin.”
+
+[10] Property Minimum Maximum Step Plate Length 7.5" 8.5" 1/16" Plate Width 5.5" 6.5" 1/16" Plate Thickness 29 0.015" 0.019" 0.001" Stack Height 5.5" 6.25" N/A
+
+[11] Valid configurations of the plates require sufficient surface area to fit the entire text of the Book of Mormon, as well as the text of the lost 116 pages. 30 Determining the required surface area involves two primary considerations: the size of the text as it appeared on the plates and the translation density of English text to reformed Egyptian.
+
+[12] Many historical accounts of the plates reference the engravings. 31 Descriptions of the engraving size typically use terms such as “fine” and “small.” 32 However, these qualitative descriptions lack the specificity needed to assign precise measurements to the engravings.
+
+[13] [Page 14] There are four extant documents 33 that purportedly contain copies of characters from the plates:
+
+[14] While these documents provide examples of the characters, they offer no indication of scale nor the intent to be facsimiles. 34 Consequently, they prove unhelpful in determining the scale of the engravings on the plates.
+
+[15] Property Minimum Maximum Step Character Size 35 1 mm 9 mm ⅛ mm Translation Density 36 1.5 5 0.125 Lost 116 Pages (characters) 37 180,000 720,000 20,000
+
+[16] Based on this implication, it is reasonable to exclude all writing combinations that are less dense than Hebrew. Applying this filter reduces the ~3.5 million valid writing combinations to 2,302,902 valid combinations. 38 See figure 7.
+
+[17] The initial calculations allowed for a wide range in the estimated length of the lost 116 [Page 18] pages, up to twice the length of the small plates of Nephi. However, a careful examination of the text of the Book of Mormon and of the Doctrine and Covenants seems to indicate that the lost 116 pages were a less detailed and shorter summary of the small plates of Nephi. 39 See Appendix F: Lost 116 Pages.
+
+[18] First, the study demonstrates that the golden plates, as described in historical accounts, are mathematically possible with over 4 billion possible configurations. 40 Through the application of various heuristics, linguistic considerations, and experimental data the number of plausible configurations may be narrowed to about 865,000.
+
+[19] The algorithm for generating combinations of physical properties 41 of the plates is as follows:
+
+[20] Property Variable Minimum Maximum Step Character Size c 1 mm 9 mm ⅛ mm Translation Density r 1.5 5 0.125 Lost 116 Pages (characters) p 180,000 720,000 20,000 Total Number of Plates 42 N 187 259 N/A
+
+[21] Property Variable lb./g 0.00220462 Copper density (g/in 3 ) 146.5 Gold density (g/in 3 ) 316.6 Silver density (g/in 3 ) 171.9 Sealed void compaction factor 43 23% Number of characters in the Book of Mormon text 44 ~1,429,319 Text margins on the plates (in.) 45 0.0625
+
+[22] Source Text Source Characters English Translation Characters Translation Density Genesis 1–50 (Hebrew) 46 83,168 198,948 ~2.4 Genesis 1–50 (Spanish) 47 184,501 198,948 ~1.1 Genesis 1–50 (Simplified Chinese) 48 50,612 198,948 ~3.9 [Page 25] Column three of First Tale of Setne Khaemwas (Demotic) 49 ~3,320 10,242 ~3.1 Tale of Two Brothers (Hieratic) 50 ~8,634 22,127 ~2.6
+
+[23] Artifacts of gold and copper alloy have been found in the New World dating as far back as the second millennium and in the Old World dating to the third millennium BCE. 51 Artifacts made from this alloy were [Page 26] typically treated to make the surface of the object have the “appearance of gold” through various methods of depletion gilding.
+
+[24] Depletion gilding is the process of exposing the surface to some form of corrosive material that attacks the surface level of copper and leaves the gold, which is then burnished and made to have the appearance of pure gold. 52 See figures 13, 14, and 15. Gold and copper alloys appear similar in color to copper, but after depletion gilding, the surface appears similar to pure gold. See figure 16.
+
+[25] [Page 26] The Spaniards who colonized the New World referred to Mesoamerican gold-copper or gold-copper-silver alloys as tumbaga . 53 The process of depletion gilding of tumbaga was noted by Gonzalo Fernandez de Oviedo (1535–1548), who wrote that the indigenous people of Mexico
+
+[26] know very well how to gild the objects and items they make from copper and low grade gold. And they have such ability and excellence in this, and give such a high lustre to what they gild, that it looks like good gold of 23 carats or more. . . . They do this with a certain herb, and it is such a secret that any goldsmith in Europe or in any other part of Christendom, would soon become a rich man from this manner of gilding. 54
+
+[27] In considering the elemental makeup of the plates, the calculation includes the copper, gold, and silver, but the ratio of silver is fixed to be 10% of the gold. For example, if a valid combination of the physical properties of the plates has Gold Alloy Content at 65%, then the [Page 29] silver content will be set to 6.5%. The rationale for this constraint is twofold. The first consideration is that ancient depletion gilding was only able to remove copper 55 and not silver, and when high concentrations of silver are present in a tumbaga alloy, the color no longer has “the appearance of gold” but tends to appear greenish or white (see figure 18). The second consideration is that, while there are many examples of ternary alloys of tumbaga artifacts of varying concentrations of gold, silver, and copper, many tumbaga artifacts are essentially binary alloys with just trace amounts of silver. 56
+
+[28] [Page 30] Silver is marginally denser than copper (per cubic inch, silver is 171.9 grams, copper is 146.5 grams, and gold is 316.6 grams), so minimizing the amount of silver in calculations will not have a significant impact on the overall results compared with variations in gold content. However, more precision may be gained in calculations that include a greater variation in silver content. 57
+
+[29] Many early descriptions of the golden plates state that the individual plates were about the thickness of “common tin.” 58 The following is a brief explanation of what the documentary record tells us about the thickness of early nineteenth-century tinplate.
+
+[30] Standard units of measurement of tinplate thickness are expressed in somewhat cryptic terms, starting with “1C” or “one common,” which is about 0.012" in thickness. 59 The next standard thickness is “1X” or “one cross,” which is about 0.013" in thickness. The next standard thicknesses is “2X” or “two cross,” and so on. Tinplate is also measured using the Birmingham Wire Gauge (BWG) scale. References and tables of units of tinplate measurements can be found in various records from the late eighteenth century through the early twentieth century. 60 See table 10 and figures 20, 21, 22 and 23 for examples.
+
+[31] There is one important source in the documentary record related to the thickness of tinplate which seems to contain an error. The Encyclopædia Britannica 61 has a footnote which states that the “The tin-sheet used in various arts, is commonly about 1/600th part of an inch.” (See figure 27). 1/600th of an inch is approximately 0.0017" which is smaller than the minimum size on the BWG scale 62 and is a thickness designation not found in tinplate catalogues in the nineteenth or early twentieth centuries. 63 It is reasonable to assume that the 1/600 th entry was intended to be 1/60 th of an inch (0.017") which approximates the 1XX or 1XXX standard tinplate thicknesses.
+
+[32] [Page 39] Table 13. Average properties of plate configurations. 64
+
+[33] Printer’s Manuscript of the Book of Mormon (August 1829) 65
+
+[34] The Wayne Sentinel (June 1829) 66
+
+[35] Jonathan A. Hadley, Palmyra Freeman (August 1829) 67
+
+[36] Oliver Cowdery, Gospel Luminary (November 1829) 68
+
+[37] C. C. Blatchley, New-York Telescope (February 1830) 69
+
+[38] A. S., Observer and Telegraph (November 1830) 70
+
+[39] The Philadelphia Album (December 1830) 71
+
+[40] Abner Cole (as Obadiah Dogberry), The Reflector (March 1831) 72
+
+[41] Illinois Patriot (September 1831) 73
+
+[42] Franklin Democrat (March 1832) 74
+
+[43] B. Stokley, Mercer Press (April 1832) 75
+
+[44] Joseph Smith, History (Summer 1832) 76
+
+[45] William E. McLellin (August 1832) 77
+
+[46] Josiah Stowell, New England Christian Herald (November 1832) 78
+
+[47] The Evening and Morning Star (January 1833) 79
+
+[48] Willard Chase, Mormonism Unvailed (1833) 80
+
+[49] Eber D. Howe, Mormonism Unvailed (1833) 81
+
+[50] William Burnett, New York Weekly Messenger and Young Men’s Advocate (April 1835) 82
+
+[51] Joseph Smith, Journal (1835–1836) 83
+
+[52] [Page 49] Orson Pratt, A Interesting Account of Several Remarkable Visions, and of the Late Discovery of Ancient American Records (1840) 84
+
+[53] Parley P. Pratt, Millennial Star (June 1840) 85
+
+[54] [Page 50] Sally Bradford Parker (August 1838) 86
+
+[55] John Corrill, A Brief History of the Church of Christ of Latter Day Saints (1839) 87
+
+[56] Theodore Turley, History (April 1839) 88
+
+[57] Joseph Smith, History (March 1842) 89
+
+[58] William Smith, Congregational Observer (July 1841) 90
+
+[59] Orson Hyde, Ein Ruf aus der Wüste (1842) 91
+
+[60] [Page 53] Lucy Mack Smith, The City of the Mormons; or, Three Days at Nauvoo (1842) 92
+
+[61] Joseph Smith, Times and Seasons (March 1842) 93
+
+[62] W. I. Appleby, A Dissertation of Nebuchadnezzar’s Dream (1844) 94
+
+[63] Reuben Miller, Journal (October 1848) 95
+
+[64] Orson Pratt, Deseret News (July 1856) 96
+
+[65] Orson Pratt, Journal of Discourses (January 1859) 97
+
+[66] [Page 56] Martin Harris, Tiffany’s Monthly (August 1859) 98
+
+[67] Martin Harris, Tiffany’s Monthly (August 1859) 99
+
+[68] David B. Dille, Millennial Star (August 1859) 100
+
+[69] Fayette Lapham, Report of an Interview with Joseph Smith Sr. (1870) 101
+
+[70] Martin Harris, Daily Iowa State Register (August 1870) 102
+
+[71] Ole A. Jensen, Testimony of Martin Harris (July 1875) 103
+
+[72] Chenango Union (April 1877) 104
+
+[73] Edward Stevenson, Journal (December 1877) 105
+
+[74] John Whitmer, The Saints’ Herald (February 1878) 106
+
+[75] John Whitmer, Deseret News (August 1878) 107
+
+[76] David Whitmer, Deseret Evening News (August 1878) 108
+
+[77] Emma Smith, The Saints’ Herald (October 1879) 109
+
+[78] David Whitmer, Kansas City Journal (July 1881) 110
+
+[79] William Smith, William Smith on Mormonism (1883) 111
+
+[80] [Page 65] William Smith, The Saints’ Herald (October 1884) 112
+
+[81] Lorenzo Saunders, The True Origin of the Book of Mormon (January 1885) 113
+
+[82] Chicago Tribune (January 1888) 114
+
+[83] J. W. Peterson, Zion’s Ensign (January 1894) 115
+
+[84] Herbert. S. Salisbury (June 1945) 116
+
+[85] [Page 68] Herbert S. Salisbury, The Messenger (October 1954) 117
+

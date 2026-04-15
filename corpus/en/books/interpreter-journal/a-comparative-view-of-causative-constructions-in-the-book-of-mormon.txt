@@ -1,0 +1,210 @@
+Abstract: One type of English frequently found in the Book of Mormon is the finite causative construction. For example, “they caused that he should be bound” (Alma 30:29). There are 136 finite instances after the verb cause . Twenty-five pseudo-archaic texts do not have any finite causatives. The King James Bible has only three in more than 300 contexts. A subtype of the finite causative is the ditransitive causative. The King James Bible does not have any. The Book of Mormon has twelve. The most found in another text is four. This usage was obsolete around the year 1725. John Bunyan employed one ditransitive causative in about forty writings. Neither that nor his limited finite causative usage prompted pseudo-archaic imitation. In many ways, it is clear that there was no Bunyanesque influence on Book of Mormon English. The comparative evidence indicates that the Book of Mormon’s causative complex did not originate with Joseph Smith.
+
+In searching these databases over the past eleven years, I have found that the Book of Mormon has dozens of outliers of historical English usage, in some cases extreme outliers, such as its “save it were|be” phraseology. In cases such as these, the Book of Mormon seemingly fills gaps in historical English usage that were little used, though the syntactic structures could have been frequently used by analogy. In the case of the archaic syntax “save it were,” there are fewer than ten original instances in the databases before 1830; at present I know of six. Joseph Smith dictated seventy-seven of them.
+
+
+## Numbers of Words in the Book of Mormon
+
+The Book of Mormon text that I searched for this study has 270,002 indexed and tagged words. (See the end of note 1 for the critical text assembled by Royal Skousen that was digitized for searching in WordCruncher.) There are 252,355 words marked as nonbiblical—mostly occurring outside identifiable biblical quotation sections. There are 17,168 words marked as biblical; they are part of thirty-six biblical sections. There are 479 words marked as part of the two witness statements. For this study, 252,350 is the number used most often in comparisons and for normalization.
+
+
+## Comparison of Cause and Make
+
+In nonbiblical portions of the text, the Book of Mormon has 235 causative constructions after the verb cause , and ten after the verb make (for example, “I will make that thy food shall become sweet”; 1 Nephi 17:12). The King James Bible (not including the Apocrypha) has 303 causative constructions after the verb cause , and 291 after the verb make .
+
+Table 1. Causative constructions in scriptural texts: instances and infinitive rates.
+
+[Table omitted]
+
+
+## Biblical passages
+
+> I make the rivers a wilderness and their fish to stink .
+
+As indicated above, the causative verb distribution ( cause | make ) in nonbiblical sections of the Book of Mormon is 235|10 (96%|4%). This preferential use of cause over make for the causative verb was [Page 226] atypical for the year 1830. It is also unlike King James usage, whose distribution is 303|291 (51%|49%).
+
+We have been told repeatedly that Joseph Smith imitated King James English as he dictated, even though there are many stark differences between biblical English usage and the language he dictated, in thousands of cases, such as in finite complementation rates after many verbs and the lexical distribution of the causative verb. Another clear difference involving rhetorical if is discussed below.
+
+
+## Causative syntax and a historical view of causatives
+
+Consider the causative expression, “they caused us to wait.” Expressed with a finite complement, this would be “they caused that we waited” or “they caused that we wait” (tense-leveling in the dependent clause) or “they caused that we should wait” (general case: “cause [verb] that X <verb.phrase>”). In the last finite expression, the function of the modal auxiliary verb should , historically speaking, was primarily grammatical rather than semantic.
+
+The Book of Mormon dataset of 235 cause causatives, which are about 58 percent finite, disproves the idea that Joseph Smith dictated in the same way he spoke, since no one spoke English that way. The following paragraph provides independent confirmation of this. Cause causatives began to be used in Late Middle English as mostly infinitival in their verbal complementation, not finite. By Late Modern English they were even more infinitival. This observation is not limited to Book of Mormon causatives, but applies to hundreds of instances of verbal complementation in the text, after quite a few other verbs, most notably after the verbs command and suffer . There are more than 500 finite complements after suasive verbs in the text. This means that large amounts of its English usage might be different from how Joseph spoke.
+
+
+## Historical outliers of finite causatives
+
+It is possible that there is another English-language text with more than eighteen finite causatives, but less likely that it is an original English-language composition. An earlier text is more likely than a later one, because finite rates gradually fell over time. At this point, the vast majority of longer early modern texts have been searched, since they are part of the early modern corpus of the approximately 60,000 texts searched. The early modern database is also much more accurately transcribed than the eighteenth-century ECCO database, which is much less likely to have texts with many finite causatives. In any event, if an earlier text with more than eighteen is found, then the difference between the Book of Mormon and the next highest text will be less than 118. Yet the difference could still be quite large.
+
+
+## Finite rates, instances, and intensity
+
+This study considers finite causative rates and finite instances (or tokens) as possibly statistically significant values. The finite rate, as calculated here, is independent of the number of words in a text or corpus. It is an internal rate calculated as the number of finite causatives divided by the total number of causative constructions in a text or corpus. Although tokens can be normalized, the raw numbers might be statistically significant since large numbers might indicate sustained use. This is distinct from a limited amount of finite usage in a short text or limited clumping of finite usage in a long text. To take this into account, I have calculated a normalized finite intensity for individual texts and corpora. The normalized intensity is the finite rate multiplied by a normalized value of finite tokens. Of course, calculating usage intensity in other cases, based on the total number of words, also differentiates sustained use in a longer text from limited use in a shorter text.
+
+The finite intensity of cause causatives in the Book of Mormon is 31.0, normalizing on the basis of a text length of 100,000 words. The normalized finite intensity for the King James Bible, not including the Apocrypha, is only 0.004. The finite intensity in the pseudo-archaic texts with causatives is zero, since there are no examples of finite causatives at all, neither with the verb cause nor with the verb make . The pseudo-archaic authors who used causatives, in the corpus of twenty-five texts, had more than 100 opportunities to employ a finite [Page 229] cause causative, but they did not do so. These values will be revisited, in a comparative way, after the following section.
+
+In view of these stark contrasts in finite intensity, neither biblical influence nor pseudo-archaic influence on Book of Mormon causatives is supported. On the other hand, the King James Bible’s extremely low finite intensity is similar to the pseudo-archaic intensity of zero, so biblical influence was possible. The Book of Mormon, in possibly having more than 100 finite causatives than earlier texts, has a finite intensity that could be uniquely high. In any event, it is an un-English pattern.
+
+
+## Bunyanesque Influence on Book of Mormon English
+
+One problem relevant to studies of Book of Mormon English is that the topic is vast. There is no way to properly treat the subject in a paper, not even in a short series of papers. Those who might think that Davis’s paper provides a thorough analysis of Book of Mormon English ought to know that he was limited in what he could cover due to the constraints of article length in journals.
+
+Before comparing Bunyan’s causative usage further, it is worth mentioning two items of Davis’s analysis and two items of counterevidence to Bunyanesque influence on Book of Mormon English. There are many such items, which cannot be discussed here due to scope limitations.
+
+As for what he covered in his paper, there were errors in his analysis. Here, I confine myself to the following two points. First, a number of [Page 230] times, vocabulary that Bunyan employed, which did not match the targeted vocabulary usage of the Book of Mormon, was used to explain it. For example, the preposition/conjunction but , although not used as a subordinating conjunction by Bunyan, was used to explain the possible use of but as a subordinating conjunction in the Book of Mormon.
+
+
+## Counterevidence to Bunyanesque Influence
+
+Another item of counterevidence is the “if so be” and “if it so be” difference. Both phrases are primarily characteristic of earlier English, and both were popular in Late Middle English. Indeed, “if it so be” was more popular earlier than later, which is noticeable in a scan of EEBO.
+
+[Page 231] Table 2. A comparison of rhetorical “if so be” and “if it so be” usage.
+
+One interesting recent discovery is that this phrase exhibits an uneven distributional pattern in the text. Other linguistic features do as well, suggesting a division of the text into two sections. If we follow the order that Joseph Smith dictated the text in 1829, textual usage often motivates dividing the text into a section going from Mosiah 1 to 3 Nephi 7, and from 3 Nephi 8 to Words of Mormon. The first section is approximately 57.5 percent of the dictation (counting nonbiblical words). The forty-two instances of “if it so be” in these two sections of the dictation exhibit a 3|39 split. In percentage terms, the distribution of rhetorical “if it so be” usage is 7%|93%, in a 57.5%|42.5% division of the text. Usage rates are sharply different; almost all instances of “if it so be” occur in the second, shorter part of the dictation.
+
+The most dramatic distributional difference in the text occurs with archaic, biblical “after that S” usage, whose raw distribution is 0|115 when using a 3 Nephi 7|8 boundary (examples begin at 3 Nephi 12:1). In a 57.5%|42.5% division of the text, then, the percentage usage of “after that S” is 0%|100%.
+
+Taken together, shifts in English usage suggest multiple English authorship. For those who reject revelation, this is a problem, since Joseph Smith was the only one who dictated the text. For those who [Page 232] think he worded the text from revelation, this is a problem, since he was the only one who dictated the text.
+
+
+## Bunyan’s complementation tendencies after cause and suffer
+
+Table 3. Finite cause causatives and normalized finite intensity.
+
+[Table omitted]
+
+[Page 233] Consider also that Bunyan never employed finite complements after the suasive verb suffer , in at least 120 instances. This datapoint shows that for Bunyan, finite complementation tendencies after cause and suffer were distinct. They were not both 0 or 12 percent finite.
+
+The Book of Mormon has sixty-three finite complements after suffer (63.6 percent finite). Bunyanesque influence is contraindicated. According to current searches, sixty-three is about forty more than any other text. This is one additional example of syntax that is sharply different from Bunyan’s early modern usage. It is also another example of an extreme outlier in the Book of Mormon that points away from nineteenth-century, monolingual English authorship.
+
+
+## Ditransitive Causatives
+
+Five ditransitive causatives in the Book of Mormon have two co-referential pronouns, as in “he will cause it that it shall soon overtake you” (3 Nephi 29:4; the first it was later removed). Four of these pronominal examples have a subjunctive, modal should; these four persist in the text:
+
+> and did cause us that we should hope for our deliverance in him (Alma 58:11)
+
+> causing them that they should suffer all manner of afflictions (Alma 60:17)
+
+> to cause us that we should believe in some great and marvelous thing (Helaman 16:20)
+
+> tempting them and causing them that they should do great wickedness in the land (3 Nephi 3:3)
+
+
+## [Page 234] Obsolescence of ditransitive causatives
+
+The obsolescence of ditransitive causatives shows that potential analogical influence is not always operative. This syntax could have been used into the future, but it died out. There were analogs that conceivably could have prompted persistence of the construction, yet there was no persistence. One analog that potentially could have maintained the use was ditransitive command syntax, which continued to be used sporadically.
+
+
+## “Did cause” and purposive syntax with the noun cause
+
+These two linguistic features of the text are examples of many similar items found in the Book of Mormon. The number of outliers makes it a statistically weak claim that Joseph Smith accidentally or deliberately expanded rare and obsolete English usage in dozens of different ways.
+
+
+## Bunyan and Malory
+
+Malory’s Late Middle English usage is a closer match with the Book of Mormon’s ditransitive causative modal usage:
+
+> and that shall cause me that I shall not be known (Malory, Morte d’Arthur (1470–85), book 7, chapter 27, spelling modernized)
+
+> he will cause it that it shall soon overtake you (3 Nephi 29:4)
+
+> he can cause the earth that it shall pass away (1 Nephi 17:46)
+
+Malory’s English usage is also a strong match with the Book of Mormon’s use of whereby to mean “why?” (Ether 8:9), but if to mean “unless” (Mosiah 3:19), and plural mights (ten and twelve instances, respectively), as well as other usage.
+
+
+## [Page 236] Scribal Shaping
+
+One reviewer of this paper provided a list of conceivable naturalistic explanations for the Book of Mormon’s causative complex. However, there is no pseudo-archaic or general textual support for these explanations. The one suggestion that was new to me was “scribal shaping.” Even if Oliver Cowdery had shaped the language, there is no pseudo-archaic support for him shaping causatives the way they read.
+
+
+## Interpretive Conclusion
+
+Bunyanesque influence is not supported textually in many different ways; most of these could not be discussed here due to scope limitations. Though there is overlap in linguistic features, the Book of Mormon has many not found in his writings. Some pseudo-archaic authors were probably as familiar as Joseph Smith with Bunyan’s language, yet they did not employ the Book of Mormon’s preferentially finite verbal complementation. As noted, suffer syntax is utterly different.
+
+Two other sources are Google Books , books.google.com/advanced_book_search and Google Books Ngram Viewer , books.google.com/ngrams . In 2024, Google Books had about 20.5 billion words from 1801 to 1829, but it had only about 4.9 billion words from 1470 to 1800. This overrepresentation misleads the perceptions of casual researchers.
+
+Additionally, I use a corpus of twenty-five pseudo-archaic texts containing approximately 582,500 words. This corpus includes twelve longer texts (close to 561,300 words total): Chronicle of the Kings (1740), Book of Jasher (1751), American Chronicles (1775), American Revolution (1793), Napoleon the Tyrant [Page 238] (1809), History of Anti-Christ (1811), Late War (1816), Chronicles of Eri (1822), Ignatius and Polycarp (1827), Sacred Roll (1843), Healing of the Nations (1855), and New Gospel of Peace (1863). Because of their length, and the possibility of sustained language use, these are the most important texts for comparison with the Book of Mormon.
+
+The pseudo-archaic corpus also includes thirteen shorter texts (close to 21,100 words total): Book of Preferment (1742), French Gasconade (1743), Parable Against Persecution (1755), Chronicles of Nathan (1758), Samuel the Squomicutite (1763), Book of America (1766), Chapter 37th (1782), Chronicles of John (1812), Book of Chronicles (1812), Chronicles of Andrew (1815), Muttonville Chronicle (1830), Reformer Chronicles (1832), and Chronicles of Gotham (1888).
+
+I have made this corpus freely available in WordCruncher, wordcruncher.com . Anyone can download the app and find the corpus in the book repository and search it precisely. To make this corpus, I consulted Eran Shalev, a pseudo-biblical expert, and Duane Johnson, who gathered many different pseudo-biblical texts more than ten years ago. More details are provided in Stanford Carmack, “Is the Book of Mormon a Pseudo-Archaic Text?,” Interpreter: A Journal of Mormon Scripture 28 (2018): 177–232, interpreterfoundation.org/journal/is-the-book-of-mormon-a-pseudo-archaic-text .
+
+All quotations from the Book of Mormon in this paper are taken from Royal Skousen, ed., The Book of Mormon: The Earliest Text (New Haven, CT: Yale University Press, 2009). A slightly modified version is available as a searchable WordCruncher e-book with part-of-speech tagging in the WordCruncher book repository.
+
+Bunyan’s writings, in publication order according to the EEBO database, begin with name.umdl.umich.edu and proceed as follows: ~/A30208, ~/A77832, ~/A77813, ~/A30128, ~/A30158, ~/A30200, ~/A30143, ~/A30152, ~/A30212, ~/A30136, ~/A30137, ~/A30138, ~/A30198, ~/A30159, ~/A30167, ~/A30209, ~/A30130, ~/A30170, ~/A30211, ~/A30164, ~/A30127, ~/A30168, ~/A58733, ~/A30153, ~/A30202, ~/B01830, ~/A30141, ~/A30197, ~/A30122, ~/A30125, ~/A30139, ~/A30206, ~/A30213, ~/A30214, ~/A30118, ~/A30160, ~/A30150, ~/A30201; plus The Holy War (1682), available in the ECCO database and elsewhere.
+
+The finite causatives of this translation are historically atypical in their embedded modal use. The main oddity is that finite causatives have modal will (9×) but no modal shall. Overall, the embedded modal use, the low finite rate, the low finite intensity, and the lack of ditransitive causatives mean that it is not a close match with the Book of Mormon. The data were hastily pointed out to me as evidence that substantial finite use might have been expected in Joseph Smith’s dictation.
+
+Itemized details: The ditransitive causative dated a1732 on page 127 of my “Complex Finite Cause Syntax” paper dates internally to 1723. The ditransitive dated 1727 seems to be accurately dated. The latest example given in this 2021 paper, dated 1744, is a false positive. The 1737 second edition shows that it is an infinitive construction, because of a comma that is missing in the 1744 fourth edition: “or cause them that they have, to be new tinned” (emphasis added). In other words, “cause them to be new tinned.”
+
+Late nineteenth-century examples are resultative in nature, such as the expression “caused it that it should . . . ” occurring here: babel.hathitrust.org/cgi/pt?id=coo.31924106296399&seq=323 . This language is equivalent to “made it so that it would . . . . ”
+
+---
+Notes
+
+[1] It is appropriate to compare the Book of Mormon text to written texts, since it reads like a written text in various ways. Relevant to this study, which treats a portion of the text’s verbal complementation, there are more than 500 finite complements after verbs of influence. This kind of complementation is typical of formal, written registers. 1 There is also a very large amount of matching syntax between the Book of Mormon and earlier written texts.
+
+[2] For this study, as in my other studies of Book of Mormon English, I have made a best effort at searching the largest databases, using many spelling variants and searching for both continuous stretches of language and discontinuous combinations. The primary sources [Page 224] searched are in the accompanying note. 2 I use WordCruncher for searches, 3 employing filters and taking into account punctuation and many syntactic possibilities, as needed. Consequently, the searches are good at gathering a wide variety of syntactic examples. Nevertheless, later studies will be able to improve on these results since databases improve over time. Examples have been missed due to incomplete and flawed databases.
+
+[3] The focus of this paper is on a subset of the text’s verbal complementation after verbs of influence (suasive verbs). 4 The verb cause obligatorily takes a complement in English. As an example, it would be ungrammatical to say “they caused” without a complement. Sometimes the complement is an object: “they caused trouble”; sometimes it is a verbal complement: “they caused us to wait.” The latter is called a causative construction ( causative , for short). The verb make is also a causative verb. In present-day English, the expression with the verb make would most often be “they made us wait.” In earlier [Page 225] English, “they made us to wait” was a possibility as well. EEBO has eleven original instances of “they made us to <infinitive>.”
+
+[4] For both causative verbs in the Book of Mormon and the King James Bible, the finite–infinitive complementation binaries contrast sharply, as indicated in table 1. Specifically, in the King James Bible, after both verbs, verbal complementation is almost entirely infinitival (99.3 percent infinitival; for example, “they caused it to be proclaimed”; Exodus 36:6). But in the Book of Mormon, complementation is mostly finite after the verb cause (57.9 percent); and after the verb make there is an equal split (five of each). 5
+
+[5] In biblical sections of the Book of Mormon, there are seven cause causatives, all infinitival and all found in the King James text. 6 These are not included in the tally of 235 cause causatives. Also, in biblical sections, there are seven make causatives, all infinitival and all but 2 Nephi 7:2 found in the King James text. 7 Only 2 Nephi 7:2 is counted as one of the ten make causatives in the Book of Mormon:
+
+[6] The end of this sentence shows a difference from the biblical reading, which is “I make the rivers a wilderness: their fish stinketh ” (Isaiah 50:2). This is one of quite a few complex differences between biblical readings and what is found in biblical sections of the Book of Mormon. 8
+
+[7] Except for one partial exception, 9 all finite causative constructions after the verb cause in the Book of Mormon have embedded modal auxiliary verbs; most of the time the modal is should . The other two embedded modals occurring in the text are shall and may . Historically speaking, should , shall , and may were the modals most commonly used, and the absence of a modal auxiliary verb was quite common as well. The use of the modals might , will , and would was less common.
+
+[8] In 2018, two linguists discussed historical causative syntax in English. Hubert Cuyckens stated that “the replacement of finite that -clauses by to -infinitives with causative verbs would already have [Page 227] occurred in the transition from OE to ME [Old English to Middle English].” 10 (Causative constructions with the verb cause only began in the fourteenth century; before that, other verbs were used.) In an accompanying paper, Brian Lowrey made the following observations about causatives: “The shift from finite to non-finite complementation remains one of the elements that characterize the transition from the OE to the ME period”; “I should perhaps begin by confirming the essentially marginal status of finite causative complements in ME”; “his figures show that finite complements in general occur only occasionally with causatives throughout the ME period, suggesting that, like that complements to other verbs, they become less frequent over time.” 11
+
+[9] Moreover, the language of Joseph Smith’s mother’s biographical book, 12 dictated after his death, repeatedly disproves that he dictated the same way he spoke (she was born in 1776). Although both books were dictated, the linguistic usage and patterns of their dictated English are sharply different, in many different ways, including in causatives and verbal complementation. These differences are often not explainable as a pseudo-archaic response on the part of Joseph Smith, as in the case at hand. That is, the preferential finite pattern of complementation in causative constructions in the Book of Mormon is not a pseudo-archaic pattern.
+
+[10] The language that Joseph Smith dictated in 1829, as found in both the original and printer’s manuscripts, has 136 finite cause causatives (for example, “they caused that he should be bound”; Alma 30:29). I have tried to determine the historical upper bound of this finite causative usage in English-language texts, considering more than 300,000 earlier texts. The most I have found so far in one text is eighteen (in about 143,700 words). It is a 1620 translation from Latin by a native French speaker who was fluent in English. 13 The influence of French and Latin syntax led to the text being an outlier in its finite causative usage. That influence was absent in the case of the Book of Mormon; Joseph Smith was a monolingual English speaker in 1829.
+
+[11] Trailing this 1620 translation in finite causative usage, four translated texts dating between 1583 and 1664 were found to have twelve each, but with much lower finite rates than the 1620 translation, whose rate exceeds 75 percent. The finite rates in these four texts range [Page 228] between three and 21 percent. Two are Latin translations; two are French translations. 14
+
+[12] William L. Davis has recently proposed that the English usage of John Bunyan (1628–1688) noticeably influenced Joseph Smith (1805–1844) in the spiritual language he chose in dictating the Book of Mormon in 1829. 15 I first noted linguistic overlap ten years ago, also noting extensive non-overlap. Davis’s theory of Book of Mormon English sees a text with substantive and syntactic errors beyond those traditionally recognized as mistakes. Some explanations lack textual support; others are unlikely. I do not favor implausible naturalistic explanations over the possibility of specific revelation to Joseph Smith, since I do not view the latter as a zero-probability case.
+
+[13] Davis mentioned the verb cause in his paper, but did not discuss it, presumably due to scope limitations. The normalized finite intensity of cause causatives in thirty-nine writings by John Bunyan is only 0.22. 16 This is less than 1 percent of the Book of Mormon’s finite intensity. Moreover, there is no observable Bunyanesque influence in pseudo-archaic writings toward finite causatives.
+
+[14] Second, in order to explain the Book of Mormon’s un-English “if, and” expressions, non-matching biblical syntax was used. Specifically, the syntactic coordination found in Matthew 17:20 and Luke 17:6 does not match the coordination found in Helaman 10:9 and elsewhere, yet it is used to explain the odd syntax. 17 A clear example of this distinctive, original Book of Mormon usage, after a when -clause, is the following: “ when Coriantumr had leaned upon his sword, that he rested a little, and he smote off the head of Shiz” (Ether 15:30).
+
+[15] Davis did not mention many items of counterevidence to his theory that Bunyanesque English influenced Joseph Smith. For example, the Book of Mormon has early modern periphrastic did usage that is not in Bunyan’s writings or pseudo-archaic texts or the King James Bible. The main one is archaic “did have,” which was very uncommon in Early Modern English. I have verified only about twelve early modern instances (late modern instances are emphatic, contrastive, legalistic, or poetic). Only the Book of Mormon has many examples of archaic “did have.” I specifically mentioned this aspect of the text in the 2015 paper. 18
+
+[16] Table 2 shows a categorical difference in usage. The Book of Mormon turns out to have the most instances of “if it so be” of any text. The writing with the second most is shown, authored in the early fifteenth century. The text with the highest known usage rate is shown as well. The Book of Mormon ranks second in usage rate, after this 1540 translation, 19 but highest in intensity among known texts.
+
+[17] “If it so be” is one example of an extreme outlier in the Book of Mormon. 20 If this were a one-off match of archaism, this would not be noteworthy. That is not the case. The rhetorical if -phrase also triggers a subjunctive, modal shall in the following clause six times. This shows substantial archaic usage.
+
+[18] Text | Corpus if so be if it so be per 100k Intensity King James Bible (1611, with Apocrypha) 18 0 1.9 3.4 Pseudo-archaic corpus (25 texts, 1740–1888) 5 0 0.9 0.5 John Bunyan corpus (39 texts, 1656–1688) 9 0 0.6 0.5 Book of Mormon (1829, nonbiblical sections) 0 42 16.6 69.7 The birth of mankind (1540) 3 10 32.6 32.6 Lydgate’s Troy Book (1412–1420) 21 13 21 9.8 20.6
+
+[19] There are at least thirty of these English usage shifts noticeable in the text, including these two. 22 My interpretation of this textual reality is as follows: Thirty or more shifts show that a large-scale English-language usage shift was not accidental. But the shifts also could not have occurred from a conscious decision on Joseph Smith’s part. The complex and extensive nature of the usage shifts was too diverse for him to have been the one who controlled the text.
+
+[20] The strongest case to be made of similarity between Book of Mormon causatives and John Bunyan’s usage is found in The Holy War (1682). The normalized finite intensity is 2.4, 23 one-twelfth of the Book of Mormon’s usage. The intensity of the 1620 translation mentioned above ( The Anatomy of Arminianisme ), 9.8, is the only one noted that somewhat approaches the Book of Mormon. 24 Table 3 compares texts and corpora.
+
+[21] Although the 1620 translated text does not explain how someone in Joseph Smith’s position could have dictated so many finite causatives, it does provide the profile of a person who might have done so on their own: an earlier translator who was translating from Latin or French into English (or from another language with a higher degree of finite causatives than English). 25
+
+[22] Some of the twenty-five pseudo-archaic authors in the corpus I searched (see note 1) could have been familiar with Bunyanesque language. In fact, some of the more literate authors were probably more familiar with Bunyan’s writings than Joseph Smith. For example, Roger O’Connor was a man of extensive reading and literary acquirements 26 and Richard Grant White was a Shakespearean scholar. Seven finite causatives by Bunyan in The Holy War did not prompt these authors to produce any finite causatives. 27 While no one consciously notes finite rates of causatives except linguists, pseudo-archaic evidence argues that any possible Bunyanesque influence on causative formation was more likely infinitival. Perhaps Bunyan’s strong preference for infinitive causatives in dozens of writings (87.4 percent) was actually the salient aspect of his language that they internalized.
+
+[23] The Book of Mormon, as originally dictated, had twelve instances of ditransitive complementation after the verb cause . (The current edition has eleven.) For example, “they did cause the Lamanites that they should harden their hearts” (Alma 21:3; general case: “cause [verb] <noun.phrase> that <pronoun> <verb.phrase>”). The 1620 text ( The Anatomy of Arminianisme ) does not have any ditransitive causatives. Database searches currently indicate that twelve ditransitive causatives are three times as many as occur in any other text. The text found with four is a 1616 translation from several Romance languages, with structural borrowing primarily from French syntax. 28
+
+[24] Lowrey wrote that ditransitive cause syntax was obsolete by around 1700 (the end of the early modern period). 29 In all, I have verified at least forty ditransitive cause causatives, dating between 1430 and 1727. 30 So the above language is not nineteenth-century phraseology, and Joseph Smith did not speak with this kind of language. Some do not believe in the obsolescence of any textual usage in the Book of Mormon, including its twelve ditransitive causatives. They reject independent linguistic assessments such as Lowrey’s.
+
+[25] When a past usage has become obsolete, then it was no one’s native expression anymore. Thus, Joseph Smith did not use his native expression when he dictated these. This observation is supported by dictating the causative complementation pattern differently from how he spoke. There are other linguistic features in the text that he did not dictate according to his native expression. He did not dictate “it supposeth me” syntax according to his native expression. 31 He did not dictate “they which” in object position according to his native expression (for example, “I remember they which are upon the isles of the sea”; 2 Nephi 29:7; one of twenty-three). 32 He did not dictate “if/when/after/as/because . . . and” syntax according to his native expression (more than forty instances). He did not dictate some obsolete vocabulary items according to his native expression. And so on and so forth.
+
+[26] Alma 58:11 has “did cause,” where did is a past-tense marker, as in Early Modern English. At least twenty-one of these occur in causative constructions. Searches have indicated that the Book of Mormon has more “did cause” than any known text (forty-seven instances). The closest text was published in 1597 and has thirty-nine instances. 33 The normalized intensity of “did cause” in these two texts is unmatched. 34 EEBO indicates that archaic “did cause” usage rates peaked during the 1590s (1591–1600; 152 instances; 46.1 million words). 35
+
+[27] English from the end of the sixteenth century ought to be of interest [Page 235] to readers of the Book of Mormon since the text has a substantial amount of syntactic usage that was most prevalent in the history of the language around this time. One example that has received little or no attention is this phraseology: “for this cause that he might not bring upon him injustice” (Alma 55:19; general case: “for this cause that X may/might (not) <infinitive.phrase>.”) The noun cause conveys an archaic meaning of purpose in these. The Book of Mormon has seven instances, 36 which is a high level of usage and a historical outlier. Only two texts have been found to have more, both published in the 1580s and both translations of Calvin. 37 Among early modern texts with at least two instances of this syntax, the Book of Mormon ranks seventh in per-word usage, right between these two Calvin translations. In intensity, these texts rank higher.
+
+[28] John Bunyan (1628–1688) employed one ditransitive causative in his writings, in The Holy War (1682). It has repeated pronouns but no modal auxiliary: “and you shall cause me that I [ø] dwell securely with you.” 38 This did not lead to pseudo-archaic imitation. Thus, there is no support for saying that this ditransitive causative prompted Joseph Smith to imitate it.
+
+[29] Skousen has addressed this topic, without using the above term, in presentations and in a recent text-critical publication, The Early Transmission of the Text . 39 There is manuscript evidence against scribal shaping by Oliver. He read back to Joseph Smith the text he had scribed, and in fifteen cases changes to manuscript readings were made, from one acceptable reading to another equally acceptable reading, presumably under Joseph’s direction.
+
+[30] In summary, there is no earlier textual support for someone in Joseph Smith’s position composing so many finite and ditransitive causatives. The idea that the text was specifically revealed explains why his 1829 dictation ended up with these. A revealed text also explains various features of the original manuscript, as Skousen has pointed out. A revealed text also explains the thirty-six closely quoted (non-paraphrastic) biblical passages, but with more than 700 differences from biblical readings, some complex. 40
+
+[31] We also learn from the causative complex that Joseph Smith did not speak the way the verbal complementation reads in more than 500 instances. He did not use his native expression to word ditransitive causatives, similar to “it supposeth me” and many vocabulary items. He did not word the personal relative pronoun system, since it is not the way he spoke, nor is there biblical or pseudo-archaic support [Page 237] for it. 41 He did not word the uneven textual distribution of “if it so be” and “after that S.” And so on and so forth.
+
