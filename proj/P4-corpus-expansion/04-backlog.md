@@ -32,7 +32,7 @@ Para análisis detallado por material → `fase0/`.
 | Our Search for Happiness (M.R. Ballard) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Teachings of the Prophet Joseph Smith | 45 | MEDIA | Investigar: sitio oficial vs dominio público | — |
 | Doctrines of Salvation (JFS, 3 vols) | 45 | MEDIA | No en sitio oficial; investigar BYU/MTP | — |
-| Teaching, No Greater Call (1999) | 60 | ALTA | Fase 0 completa. Bilingüe. Sitio oficial (`download_manual.py`). Cadena pedagógica CES. | `fase0/teaching-no-greater-call.md` |
+| ~~Teaching, No Greater Call (1999)~~ | ~~60~~ | ~~ALTA~~ | ✅ **Descargado** — bilingüe, en corpus. Fase 0 en `fase0/teaching-no-greater-call.md` | — |
 | Teach Ye Diligently (Boyd K. Packer) | 45 | BLOCKED | Fase 0 completa. archive.org = DRM/CDL, sin texto extraíble. Solo compra o OCR físico. | `fase0/teach-ye-diligently.md` |
 | Journal of Discourses (26 vols) | 20 | BAJA | 1,426 discursos, ~5M palabras. Fase 0 completa. Solo EN. No oficial, imprecisión documentada. | `fase0/journal-of-discourses.md` |
 | Interpreter Journal (888 arts) | 25 | MEDIA | `descargado` — 888 artículos (50 MB), 6 reviews excluidos. Script: `download_interpreter.py`. Pendiente: indexación. | `fase0/interpreter-journal.md` |
@@ -52,6 +52,17 @@ Para análisis detallado por material → `fase0/`.
 
 Material ya descargado al corpus pero que no ha pasado por el pipeline de indexación
 (FTS + vectors + KG).
+
+### Missionary Guide: Training for Missionaries (1988)
+
+> Análisis detallado: `fase0/missionary-guide-1988.md`
+
+| Material | Caps | authority | Corpus path |
+|----------|------|-----------|-------------|
+| Missionary Guide (1988) | 17 (front + 16 caps) | 90/60 | `corpus/en/manuals/missionary-guide-1988/` |
+
+Fuente: Archive.org (PDF escaneo + OCR DjVu). Solo EN. "El manual rosa" — compañero pedagógico
+de las charlas misionales 1986, predecesor directo de *Preach My Gospel* 2004.
 
 ### B.H. Roberts — Obras completas
 
