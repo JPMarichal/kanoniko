@@ -1,0 +1,2315 @@
+Abstract: Some students of the Book of Mormon have claimed that chapter 36 of the book of Alma is structured as a chiasm. Some of the proposals depart from perfect symmetry, presenting elements of the suggested chiasm seemingly out of sequence. This has often been pointed to as a weakness in the proposed chiasm or as a problem arising from translation or editorial work, or even as evidence that no real chiasm exists over the text of the chapter. Perhaps, however, asymmetry may be a deliberate feature of ancient chiasmus. Understanding the presence and role of occasional asymmetry or skews, as they are called, may help us better appreciate the rhetorical tools employed in crafting chiastic texts anciently. In particular, we can see that the structure of Alma 36 may well be a beautifully crafted chiasmus featuring what may be an intentional skew similar to those that scholars have identified elsewhere in scripture. One such other chiastic text with a skew in it appears to be Deuteronomy 8. Indeed, one skew proposed in Alma 36, together with conceptual and other structural characteristics of the text, including the proposed chiasm of the text, perhaps suggests that some of the message and structure of Deuteronomy 8 may have served as a model for part of the message and structure of Alma 36.
+
+[Page 192] A   Prayer for deliverance (vv. 1–4)
+
+B   “From my youth you are my God” (vv. 5–7)
+
+C   “My mouth shall be filled” (v. 8)
+
+D   Prayer against enemies of “my soul” (vv. 9–11)
+
+E   “O God, be near” (v. 12a)
+
+E'   “O God, help” (v. 12b)
+
+D'   Prayer against adversaries of “my soul” (vv. 13–14)
+
+C'   “My mouth shall tell” (vv. 15–16)
+
+B'   “From my youth I am yours” (vv. 17–18)
+
+Sometimes, however, analysts identify chiastic structures for texts where the sequence of repeated elements in the second half of the text departs from perfect mirror symmetry. One example would be an A-B-C-D-D'- B' – C' -A' chiasm, where the repeated elements B'and C' in the second half of the text revert to direct parallelism with the B and C elements of the first half. Another example would be the A-B-C-D- C' – D' -B'-A' structure of the eight verses of the text of Psalm 114, as observed by Nils W. Lund (the verse numbers appear against the right margin):
+
+This reversion to direct parallelism is called a skew , a departure from the expected structure of an ideal chiasmus, as discussed below. Other lengthy texts proposed to be chiastic, some of them with a skew and some without, are Exodus 14:4–31; Leviticus 24:13–23; Deuteronomy 8:1–20; Isaiah 41:1–20; James 1:1–5:20; and Luke’s Travel Narrative, Luke 9:51–19:27. These will be briefly mentioned in this paper. [Page 193] Often the proposals show mirror symmetry, a perfect reversal, often they do not, producing asymmetry . Alma 36:1–30 is one such lengthy text that analysts have proposed is chiastic with a skew in it (see a listing of the names of those analysts in footnote 36 below). The scope of this present article does not include seeking to establish that Alma 36 is chiastic; rather, we accept the conclusions of prior analysts that the text is chiastic and here focus instead on the role and significance of skews.
+
+This paper first will discuss what a skew is and what generally is said about skews in ancient chiastic texts. The paper then will note that six various skews have been proposed in the past for the proposed chiasm of Alma 36 and identify the three that have most often been noted. The paper will then discuss “levels analysis” generally and discuss the question whether a study of any of the three most commonly depicted skews in the proposed Alma 36 chiasm arguably can enhance the “levels analysis” of the proposed chiasm. The various skews identified for the proposed Alma 36 chiasm will be evaluated in light of the question of whether any are legitimate and, if so, whether their presence enhances the “levels analysis” of the proposed chiasm. Finally, after discussing the question of why so many potential skews have been identified in the “single-level” analysis of the proposed chiasm of Alma 36, the skews and asymmetrical chiasms of Deuteronomy 8 and Alma 36 will be compared.
+
+
+## What Is a Skew?
+
+The diagram below depicts a hypothetical skewed chiasm over eight verses of hypothetical text, one verse of text per chiasm element and one chiasm element per verse of text. The reference to verses here is merely arbitrary; any amount of text, from one word or phrase through to a large block of text, could constitute an element of the hypothetical skewed chiasm depicted here:
+
+A   (v. 1)
+
+B   (v. 2)
+
+C   (v. 3)
+
+D   (v. 4)
+
+D'   (v. 5)
+
+B'   (v. 6)
+
+C'   (v. 7)
+
+A'   (v. 8)
+
+
+## What Is Said Generally About Skews and Chiastic Asymmetry?
+
+a   “But you, …” (vv. 8-9)
+
+b   “Do not fear…” (v. 10)
+
+c   “Lo!” ( hn ; vv. 11-12)
+
+d   “I, Yahweh, your God” (v. 13)
+
+b'   “Do not fear…” (v. 14)
+
+c'   “Behold!” ( hnh ; vv. 15-16a)
+
+a'   “But you, …” (v. 16b)
+
+Says Walsh:
+
+> In vv . 14–16 the three elements function similarly. The “Do not fear” and “But you” elements are closely related: “Your rescuer is Israel’s Holy One … and you will exult in Yahweh.” The “Behold!” element illustrates the message by painting another picture, this time of Israel’s future triumph over natural obstacles blocking its way.
+
+> However, the order of the elements in vv . 14–16 is awkward: the “Behold” element appears between the other two, thus interrupting their smooth connection and at the same time violating the pattern established in vv . 8–12. We would have expected “Behold!” first, followed by “Do not fear,” then “But you,” in order to carry out the concentric organization that, as we shall see, characterizes the whole poem.
+
+Similarly, Joanna Dewey makes the following relevant observation:
+
+Yet, on the other hand, strict adherence to symmetry does not seem universally to characterize chiasmus seen in biblical texts. Thomson himself for example cautions:
+
+[Page 197] Thomson adds:
+
+> [T]o develop a chiasmus in which the second half precisely mirrors (in thought and language) the first would be a somewhat sterile endeavour. Its function in terms of the argument would effectively be limited to reinforcement. Thus, paradoxically, in a device which depends for its definition on symmetry, it is often the asymmetries that emerge from the pattern that drive the argument forward. Part of the task of exegesis is to identify those asymmetries, and to suggest what prompts their introduction.
+
+In short, symmetry results from the operation of the two definitional characteristics of chiasmus: repetition and reversal. But asymmetry does [Page 199] not necessarily destroy the prospect that a text is chiastic. Symmetry alone is not determinative, but neither is asymmetry. Skews resulting in asymmetry, and said to result from what some call symmetrophobia , may or may not be inspired in Hebrew texts by the second commandment (that notion is not well attested). But chiastic analysis often reveals asymmetry by the presence of one or more (and sometimes numerous) skews in the pattern.
+
+One example from the realm of biblical studies is proposed by Yehuda Radday for the text of Exodus 14:4–31, depicting a skew at verses 25–26 (with the skew here bolded):
+
+A   “the Egyptians shall know that I am the Lord” (14:4)
+
+B   with a high hand (8)
+
+C   “the salvation of the Lord” ( yešuˁah ) (13)
+
+D   “the Lord will fight for you” (14)
+
+E   “stretch out your hand” (16)
+
+F   “on dry ground through the sea” (16)
+
+A'   “the Egyptians shall know that I am the Lord” (18)
+
+F'   “on dry ground through the sea” (22)
+
+D'   “the Lord fights for them” (25)
+
+E'   “stretch out your hand” (26)
+
+C'   “the Lord saved Israel” ( wa-yošaˁ ) (30)
+
+B'   the great hand (31)
+
+Another example is the chiasm proposed by Welch for James 1:1–5:20, manifesting skews in numerous places (with the skews here bolded):
+
+A   Be patient in temptation (1:1–4)
+
+B   Ask and you shall receive, being not double-minded (5–8)
+
+C   The poor exalted, the rich shall fade (9–11)
+
+D   Man is tempted of his own lust (12–16)
+
+E   Every good gift comes from above (17–18)
+
+F   Be slow to anger (19–20)
+
+G   Save your souls (21)
+
+H   Be ye doers of the word; the mirror of life (22–25)
+
+I   Bridle your tongue (26)
+
+J   Attend to the widows and orphans (27)
+
+K   Do not be a respecter of persons (2:1–9)
+
+L   One either keeps all of the law or none of the law (2:10–12)
+
+[Page 200] M   Faith without works is dead (2:14–26)
+
+K'   Do not offend in word (3:1–8)
+
+L'   One either produces good fruit or bad fruit (9–12)
+
+E'   The wisdom which comes from above (13–18)
+
+D'   Lust in your members (4:1–5)
+
+B'   God gives grace and purifies double-mindedness (6–10)
+
+I'   Speak not evil (11)
+
+H'   Be ye doers of the law; the vapor of life (11–17)
+
+C'   The wealth of the rich shall be moth-eaten and worthless (5:1–6)
+
+A'   Be patient in temptation (7–11)
+
+F'   Swear not (12)
+
+J'   Attend to the sick and sinful (14–18)
+
+A
+
+B
+
+C
+
+D
+
+E
+
+F
+
+G
+
+H
+
+I
+
+J
+
+K
+
+L
+
+M
+
+N
+
+O
+
+P
+
+Q
+
+R
+
+S
+
+T
+
+U
+
+[Page 201] V
+
+W
+
+W’
+
+U’
+
+O’
+
+S’
+
+V’
+
+T’
+
+D’
+
+N’
+
+E’
+
+J’
+
+P’
+
+L’
+
+Q’
+
+F’
+
+M’
+
+H’
+
+G’
+
+I’
+
+K’
+
+B’
+
+A’
+
+C’
+
+In short, skews either appropriately appear in large-scale chiasms or they do not. The literature discussed above suggests that skews not only are evident in ancient chiasms but are the norm.
+
+
+## What Skews Have Been Proposed in the Past for Alma 36?
+
+[Page 202] The three skews most often proposed for Alma 36 are those of verses 28, 26, and 3. They will be depicted and introduced in cursory fashion here and then discussed in more detail later in this paper.
+
+
+## The Verse 28 [“raise me up”] Skew
+
+Welch’s 1999 proposed single-level pattern is shown below, with the italic font here replicated from the original 1999 Welch portrayal, and with the skew here bolded (at element I' at verse 28) :
+
+A   My son give ear to my words (v. 1)
+
+B Keep the commandments and ye shall prosper in the land (v. 1)
+
+C   Do as I have done (v. 2)
+
+D Remember the captivity of our fathers (v. 2)
+
+E   They were in bondage (v. 2)
+
+F   He surely did deliver them (v. 2)
+
+G Trust in God (v. 3)
+
+H   Supported in trials, troubles, and afflictions (v. 3)
+
+I   Lifted up at the last day (v. 3)
+
+J I know this not of myself but of God (v. 4)
+
+K Born of God (v. 5)
+
+L   I sought to destroy the church (vv. 6–9)
+
+M   My limbs were paralyzed (v. 10)
+
+N   Fear of being in the presence of God (vv. 14–15)
+
+[Page 203] O Pains of a damned soul (v. 16)
+
+P Harrowed up by the memory of sins (v. 17)
+
+Q   I remembered Jesus Christ, a son of God (v. 17)
+
+Q'   I cried, Jesus Christ, son of God (v. 18)
+
+P' Harrowed by the memory of sins no more (v. 19)
+
+O'   Joy as exceeding as was the pain (v. 20)
+
+N'   Long to be in the presence of God (v. 22)
+
+M'   My limbs received strength again (v. 23)
+
+L'   I labored to bring souls to repentance (v. 24)
+
+K' Born of God (v. 26)
+
+J'   Therefore my knowledge is of God (v. 26)
+
+H'   Supported under trials, troubles, and afflictions (v. 26)
+
+G' Trust in him (v. 27)
+
+F'   He will deliver me (v. 27)
+
+I' And raise me up at the last day (v. 28)
+
+E'   As God brought our fathers out of bondage and captivity (vv. 28–29)
+
+D'   Retain a remembrance of their captivity (v. 29)
+
+C'   Know as I do know (v. 30)
+
+B' Keep the commandments and ye shall prosper in the land (v. 30)
+
+Note that element I' above (quoting part [Page 204] of verse 28) is indented further from the left margin than elements F' and E' that surround it. That element I' is indented the same distance as element I (quoting part of verse 3) to show a meaningful correspondence between verses 3 and 28.
+
+
+## The Verse 26 [“knowledge”] Skew
+
+Gregory B. Wright identifies a skew in verse 26 (reproducing here from his proposal only those elements affected by his proposed skew, which is bolded here, and to avoid confusion substituting here introductory alphabetic letters in place of his numbers):
+
+I   “And I would not that ye think that I know of myself — not of the temporal but of the spiritual, not of the carnal mind but of God.” (4)
+
+J   “Now, behold, I say unto you, if I had not been born of God” (5)
+
+K   “I should not have known these things;” (5)
+
+L   “but God has, by the mouth of his holy angel, made these things known unto me, not of any worthiness of myself;” (5)
+
+* * * *
+
+L'   “For because of the word which he has imparted unto me,” (26)
+
+J'   “behold, many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen;” (26)
+
+K'   “therefore they do know of these things of which I have spoken, as I do know;” (26)
+
+
+## The Verse 3 [“my son, hear my words”] Skew
+
+Set forth below is the format for the full text of verses 1–4 as Welch depicted it in 1988. Bold font is supplied here for the text from within verse 3 where Welch depicts the skew in the pattern, a pattern that otherwise would be expected to appear as A-B-C-D-E-F… but which instead manifests as A-B-C-D-A-E-F…, with a second element A between elements D and E:
+
+A   My son, give ear to my words:
+
+B   for I swear unto you that inasmuch as ye shall keep the commandments of God ye shall prosper in the land.
+
+C   I would that ye should do as I have done, in remembering the captivity of our fathers;
+
+D   for they were in bondage and none could deliver them except it was the God of Abraham, and the God of Isaac, and the God of Jacob; and he surely did deliver them in their afflictions.
+
+A   And now, O my son Helaman, behold, thou art in thy youth, and therefore, I beseech of thee that thou wilt hear my words and learn of me;
+
+E   for I do know that whosoever shall put their trust in God shall be supported in their trials and their troubles and their afflictions and shall be lifted up at the last day.
+
+F   And I would not that ye think that I know of myself [Page 206] not of the temporal but of the spiritual, not of the carnal mind but of God.
+
+Elements A, B, C, D, A , E, and F in Welch’s proposed pattern above sets forth all of the text of verses 1–4, corresponding with the reversed and repeated elements F', E', D', C', B', and A' in the second flank of the chiasm of the chapter, structuring the text of verses 26–30. But the occurrence of the second element A above (quoting the first half of verse 3) constitutes a skew in the pattern. In the case of the verse 3 skew of Alma 36, rather than the proposed elements of the chiasm flowing uninterruptedly from element A to element F, an interruption occurs between elements D and E. The thought and even the wording of the second element A (the text in verse 3) parallels the introductory salutation in verse 1 of the chapter, with some of the words and phrases of verse 1 (“My son, give ear to my words”) being repeated either precisely or nearly precisely in verse 3 (“my son … hear my words”).
+
+
+## [Page 208] What is “Levels Analysis” of a Chiastic Text?
+
+In 1980, Shimon Bar-Efrat outlined what he perceived to be “the various elements upon which structural analysis may be based,” offering the following form of “levels” analysis:
+
+[Table omitted]
+
+a  9:51–56
+
+b  9:57–62
+
+c  10:1–12
+
+d  10:13–16
+
+c'  10:17–20
+
+b'  10:21–24
+
+a'  10:25–37
+
+a  10:38–42
+
+b  11:1–13
+
+c  11:14–23
+
+d  11:24–26
+
+a'  11:27–28
+
+b'  11:29–32
+
+c'  11:33–36
+
+d'  11:37–54
+
+a  12:1–12
+
+b  12:13–34
+
+b'  12:35–48
+
+a'  12:49–59
+
+a  13:1–9
+
+b  13:10–17
+
+c  13:18–21
+
+d  13:22–30
+
+a'  13:31–35
+
+b'  14:1–6
+
+c'  14:7–24
+
+d'  14:25–35
+
+a  15:1–32
+
+b  16:1–13
+
+a'  16:14–18
+
+b'  16:19–31
+
+a  17:1–10
+
+b  17:11–19
+
+a'  17:20–37
+
+b'  18:1–8
+
+a  18:9–14
+
+b  18:15–17
+
+c  18:18–30
+
+d  18:31–34
+
+c'  18:35–43
+
+b'  19:1–10
+
+a'  19:11–27
+
+Without commenting on the credibility of Buckwalter’s analysis, it is sufficient to say here that his proposal is easily seen as an example where within each of the elements of the larger, full-text chiasm (labeled A B C D C' B' A') there is depicted a smaller feature with a rhetorical structure of some sort. The smaller rhetorical features he identifies consist of four directly parallel structures (two of them being a-b-c-d || a'-b'-c'-d' structures and two of them being a-b || a'-b' structures); one chiastic structure (an a-b-b'-a' chiasm); and two concentric structures (each an a-b-c-d-c'-b'-a' concentrism).
+
+A   “my words” (v. 1)
+
+B   “that inasmuch as ye shall keep the commandments of God ye shall prosper in the land” (v. 1)
+
+C   remember “the captivity” of our fathers (v. 2)
+
+D   “trust in God” and be “supported in trials, troubles,” and afflictions (faith in Jesus Christ and enduring to the end) (v. 3)
+
+E   knowledge “of God” (v. 4)
+
+F   “destroy the church of God” (v. 6)
+
+G   “fell to the earth” (vv. 10–11)
+
+H   “that I might not be brought to stand in the presence of my God” (v. 15)
+
+I   Jesus Christ atoned for the sins of the world (vv. 17–19)
+
+H* “my soul did long to be there” (v. 22)
+
+G* “stood upon my feet” (v. 23)
+
+F* “bring souls unto repentance” (v. 24)
+
+E* “born of God” (v. 26)
+
+D* “trust in God” and be “supported in trials, troubles,” and afflictions (faith in Jesus Christ and enduring to the end) (v. 27)
+
+C* remember “the captivity” of our fathers (v. 29)
+
+B* “that inasmuch as ye shall keep the commandments of God ye shall prosper in the land” (v. 30)
+
+A* “his word” (v. 30)
+
+[Table omitted]
+
+a   for I swear unto you ,
+
+b that inasmuch as ye shall keep the commandments of God,
+
+c ye shall prosper in the land .
+
+a   But behold, my son, this is not all. For ye ought to know as I do know
+
+b that inasmuch as ye shall keep the commandments of God
+
+c ye shall prosper in the land;
+
+a*   and ye had ought to know also
+
+b* that inasmuch as ye will not keep the commandments of God ,
+
+c* ye shall be cut off from his presence .
+
+
+## Do the Skews Enhance the Levels Analysis?
+
+It is appropriate to determine whether the three most-noted skews of verses 28, 26, and 3 enhance a levels analysis of Alma 36. Let’s consider this for each verse, in turn.
+
+
+## [Page 213] The Verse 28 [“raise me up”] Skew
+
+The verse 28 skew readily appears in Welch’s single-level analysis (here depicted with only the two surrounding chiastic elements):
+
+F'   He will deliver me (v. 27)
+
+I'   And raise me up at the last day (v. 28)
+
+And it also appears in the multi-level analyses presented by Reynolds in 2019 and 2020. The two analyses differ slightly; the 2019 analysis appears here first (bolding here added to highlight the skew in the following parallelism with skew, appearing as a-b-c-d, a-b-c-d || c'-b'-a'- d' ):
+
+And now, O my son Helaman,
+
+a   behold, thou art in thy youth,
+
+b   and therefore I beseech of thee
+
+c   that thou wilt hear my words
+
+d   and learn of me,
+
+a   for I do know
+
+b   that whomsoever shall put his trust in God
+
+c   shall be supported in their trials and their troubles and their afflictions
+
+d   and shall be lifted up at the last day .
+
+c'   And I have been supported under trials and troubles of every kind, yea, and in all manner of afflictions .
+
+i   Yea, God hath delivered me from prisons and from bonds and from death.
+
+b'   Yea, and I do put my trust in him
+
+i   and he will still deliver me.
+
+a'   And I know
+
+d ' that he will raise me up at the last day,
+
+i   to dwell with him in glory.
+
+Reynolds’ slightly different 2020 analysis appears here second (bolding here added to highlight the skew in the following partial parallelism with skew, appearing as a-b-c, a-b-c-d || c'-b'-a'- d' ):
+
+[Table omitted]
+
+And now, O my son Helaman, behold, thou art in thy youth,
+
+a   and therefore I beseech of thee
+
+b   that thou wilt hear my words
+
+c   and learn of me,
+
+=================================
+
+a   for I do know
+
+b   that whomsoever shall put his trust in God
+
+c   shall be supported in their trials and their troubles and their afflictions
+
+d   and shall be lifted up at the last day .
+
+c*   And I have been supported under trials and troubles of every kind, yea, and in all manner of afflictions .
+
+i   Yea, God hath delivered me from prisons and from bonds and from death.
+
+b*   Yea, and I do put my trust in him
+
+i   and he will still deliver me.
+
+a*   And I know
+
+d*   that he will raise me up at the last day,
+
+i   to dwell with him in glory.
+
+The verse 28 skew is accounted for differently in the three analyses. Whereas in Welch’s single-level analysis the verse 28 skew appears as a part of the main chapter-long chiasm, in Reynolds’ multi-level analyses, it appears as an a-b-c-d || c*-b*-a*-d* skew in the subordinate level parallelism of verses 27 and 28 and not as part of the main chapter-long chiasm. Because perceived chiastic structures of lengthy texts are said to appear because of a reversal in the sequence of repeated words, phrases, and ideas, such appearances of the phrases “lifted up at the last day” (Alma 36:3) and “raise me up at the last day” (Alma 36:28) can be accounted for in one of two ways:
+
+In either case, the skew should be and is accounted for. But if the accounting takes place only in depicting the correspondence at the lower-level (level-5), the depiction of the upper-level chiasm (at level-4) is deprived of some of the meaning it otherwise could and should reflect. It is here that recognition of the verse 28 skew becomes valuable in the analysis. But in this case it is not the fact that it is a skew that makes it valuable (though it does draw attention to the text that forms the skew). Rather, it is the fact that as a skew it draws attention to text that is of such significance that it likely should be accounted for in any analysis.
+
+[Table omitted]
+
+a   for I do know
+
+b   that whomsoever shall put his trust in God
+
+c   shall be supported in their trials and their troubles and their afflictions
+
+d   and shall be lifted up at the last day .
+
+c*   And I have been supported under trials and troubles of every kind, yea, and in all manner of afflictions.
+
+b*   Yea, and I do put my trust in him
+
+a*   And I know
+
+d*   that he will raise me up at the last day,
+
+Clearly, the distant skewed chiasm of a-b-c-d || c*-b*-a*-d* successfully accounts at level five for all of the text. But the “key parallel semantic elements” that Reynolds otherwise identifies for his “level 4 analysis” do not reflect all of the level-5 subelements and instead refer only to the language of the b, c, c*, and b* subelements (“‘trust in God’ and ‘be supported in trials, troubles’ and afflictions”). The analysis does not refer to, quote, or cite the a, d, a*, and d* subelements (“for I do know,” “and I know,” “and shall be lifted up at the last day,” and “he will raise me up at the last day”). The skew thus suggests that the descriptions of the level-4 analysis of the “concentric organization of Alma 36” might even more accurately describe the D and D* sub-units if they are not limited to a selection of subelements b, c, c*, and b* alone. Instead of being limited only to those level-5 subelements, the level-4 D element, as articulated, could more fully describe the “textual level-4 sub-units” of D and D* in a way that includes all of the ideas conveyed in all of the text of subelements a, b, c, d, d*, c*, b*, and a*. The D/D* structure might be worded even more fully as follows (the added text here bolded ):
+
+[Page 217] Such wording would account for all of the text — and all of the meaning of all of the text — of D and D*. Reynolds does account for the skew in his rewriting of vv. 27 and 28, though he does so only at the subordinate level (the level of the text itself, which is where it should be accounted for). But the substantive text and its meaning, as reflected in the skew, does not otherwise appear in his analysis at level 4. But with the above modification, accounting for it could be accomplished now at both levels. The full meaning of the level-4 subunits D and D* apparently is this (paraphrased here to reflect the meaning of the above-suggested modification):
+
+> D/D* Alma knows that whosoever shall put his trust in God [as he, Alma, does], shall be supported in their trials and their troubles and their afflictions [as he has been], and shall be lifted up at the last day [as he shall be].
+
+In short, the verse 28 skew is evident in Welch’s above-noted chiastic analysis and it is evident also in the Reynolds analysis, though only in the level-5 analysis and not in the Level-4 analysis. The language that is the subject of the skew (“and raise me up at the last day”) is not part of the D* or C* elements of the level-4 analysis articulated by Reynolds; rather, that phraseology is accounted for otherwise only in the subordinate level-5 structure. Recognizing its presence there and evaluating the Reynolds level-4 proposal in light of its presence may offer added insight to what Reynolds and Welch and others before them have offered in analyzing Alma 36. In the Reynolds analysis of the entire “Concentric Organization of Alma 36,” Reynolds could have expanded each of the seventeen “key parallel semantic elements” to include all of the ideas expressed by the quoted and paraphrased words and phrases within each of those elements, leaving out none of the thoughts expressed in any of them. The above iteration of the “D/D*” element is one example of what could be accomplished. It is aided by recognition of the fact that the skew observed by Welch and others in the overall, chapter-wide chiasm is important enough to appear there and perhaps should also be accounted for in level 4 of Reynolds’s analysis and not solely in the subordinate level 5.
+
+
+## The Verse 3 [“my son, hear my words”] Skew
+
+A My son , give ear to my words for I swear unto you ,
+
+B 1 that inasmuch as ye shall keep the commandments of God ye shall prosper in the land.
+
+B 2 I would that ye should do as I have done, in remembering the captivity of our fathers;
+
+C   for they were in bondage , and none could deliver them
+
+D   except it was the God of Abraham, and the God of Isaac, and the God of Jacob;
+
+C'   and he surely did deliver them in their afflictions .
+
+A'   And now, O my son Helaman, behold, thou art in thy youth, and therefore, I beseech of thee that thou wilt hear my words and learn of me.
+
+In short, the repetition offered in verse 3 seems to close what at first might have seemed to Helaman, hearing rather than reading it, to be a meaningfully complete message in and of itself, with the first half of verse three serving as the second element of an inclusio based on “my son,” “ear,” “my words,” “swear,” and “beseech.”
+
+
+## The Verse 26 [“knowledge”] Skew
+
+12'   “for because of the word which he has imparted unto me,” (26)
+
+[Page 219] 10'   “behold, many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen;” (26)
+
+11'   “therefore they do know of these things of which I have spoken, as I do know;” (26)
+
+9'   “and the knowledge which I have is of God.” (26)
+
+a   for because of the word which he hath imparted unto me ,
+
+b   behold, many hath been born of God
+
+c   and hath tasted as I have tasted
+
+c*   and hath seen eye to eye as I have seen .
+
+b*   Therefore they do know of these things of which I have spoken as I do know;
+
+a*   and the knowledge which I have is of God .
+
+a   And I would not that ye think that I know of myself —
+
+b not of the temporal but of the spiritual ,
+
+c not of the carnal mind but of God .
+
+c*      Now behold, I say unto you: If I had not been born of God ,
+
+i   I should not have known these things.
+
+b*   But God hath by the mouth of his holy angel made these things known unto me,
+
+a* not of any worthiness of myself .
+
+[Page 220] J   I know [not] of myself … but of God (v. 4)
+
+K   If I had not been born of God (v. 5)
+
+L I should not have known these things (v. 5)
+
+M   But God has, by the mouth of his holy angel, made these things known unto me (v. 5)
+
+* * * *
+
+M'   Because of the word which he has imparted unto me (v. 26)
+
+K’   Many have been born of God (v. 26)
+
+L'   They know of these things … as I do know (v. 26)
+
+J’   The knowledge which I have is of God (v. 26)
+
+The “word” and “things” of elements L, M, M', and L' of vv. 5 and 26 in the above proposed pattern rely on the Egyptian and Hebrew word-pair word(s) // thing(s) — where the two occurrences of “these things” of elements L and M in the first flank (v. 5) correspond to the occurrence of “word” of element M' and “these things” of element L' in the second flank (v. 26). The skew thus accounts for what otherwise formerly was a “gap” in the single-level analysis.
+
+The Reynolds multi-level analysis (shown below) is even more dramatic, for it not only fully accounts for the skew and the previously skipped text but it also suggests correspondences not otherwise revealed in the single-level analysis. Yet, on the other hand, the single-level skew tends both to confirm the Reynolds analysis and perhaps also to suggest correspondences not emphasized in his multi-level analysis. Below is depicted the Reynolds analysis of verses 4–5 and 26 followed by a discussion of it. The context for the discussion requires a view of all of his rewriting of the text of verses 4, 5, and 26 (his elements E and E*). The rewriting by Reynolds is quoted below with bold font here added to highlight phrases that may play a role in two skewed elements and one new chiasm newly proposed here, a chiasm for the text of verses 4, 5, and 26. Both the phrases in v. 26 and the phrases in the corresponding text in v. 5 are highlighted by retaining the italics used by Reynolds in his rewriting and by adding underlining here to emphasize additional correspondences of words and phrases:
+
+[Table omitted]
+
+a   And I would not that ye think that I know of myself —
+
+b   not of the temporal but of the spiritual ,
+
+c   not of the carnal mind but of God .
+
+c*   Now, behold, I say unto you, if I had not been born of God
+
+i   I should not have known these things .
+
+b* But God hath, by the mouth of his holy angel , made these [Page 221] things known unto me ,
+
+a   not of any worthiness of myself.
+
+a   for because of the word which he has imparted unto me ,
+
+b   behold, many hath been born of God
+
+c   and hath tasted as I have tasted
+
+c*   and hath seen eye to eye as I have seen .
+
+b*   therefore they do know of these things of which I have spoken as I do know;
+
+a*   and the knowledge which I have is of God .
+
+  - perhaps the phrase “these things” and the word “word” where they appear in Eb*, in E*a, and in E*b*, could be italicized or underlined in the Reynolds analysis, given the linguistic interrelationship of the word pair;
+  - maybe the words “I” and “know(n)” in the “I have known” and “I do know” phrases, where they appear in Ec*i and in E*b*, could be italicized or underlined to reflect the fact that those elements correspond to one another, referring to what Alma knows;
+  - Reynolds already italicizes the word “word” and the phrase “imparted unto me” in E*a (v. 26) and yet the skew seems to suggest that italics or underlining could be used in Eb* (v. 5) where it is “these things” that Alma says are “made … known unto me.”
+
+[Table omitted]
+
+And I would not that ye think that I know of myself —
+
+a not of the temporal
+
+b but of the spiritual ,
+
+a not of the carnal mind
+
+b but of God . (antithetical)
+
+a   Now, behold, I say unto you, if I had not been born of God
+
+b   I should not have known these things ;
+
+a   but God has, by the mouth of his holy angel ,
+
+b   made these things known unto me, not of any worthiness of myself .
+
+In the end, the above perhaps merely results in suggesting the existence of — and an opportunity to highlight and draw attention to — additional correspondences not previously discussed or depicted in the Reynolds analysis. The suggestion of additional correspondences arises because of the skew proposed by Wright and the correspondences noted by Welch. The suggestion inherent in the above enhanced analysis seems entirely consistent with the correspondences that Reynolds already notes (including the six negative correspondences founded on the six iterations of the word “not,” a repetition that is important in the Reynolds analysis).
+
+
+## Additional Potential Skews Proposed by Wright
+
+A   The Lord said to Moses (24:13)
+
+B   “Bring out of the camp him who cursed” (14)
+
+C   “stone him’ (14)
+
+D   “say to the people of Israel” (15)
+
+[Page 223] E   “Whoever curses his God … blasphemes the Lord” (15–16)
+
+F   “the sojourner and the native” (16)
+
+G   “who kills a man” (17)
+
+H   “who kills a beast” (18)
+
+I   “causes a disfigurement” (19)
+
+J   “fracture for fracture, eye for eye, tooth for tooth” (20)
+
+I'   “he has been disfigured” (20)
+
+H'   “who kills a beast” (21)
+
+G'   “who kills a man” (21)
+
+F'   “the sojourner and the native” (22)
+
+E'   “I am the Lord your God” (22)
+
+D'   “Moses spoke to the people of Israel” (23)
+
+B'   “ they brought him who had cursed out of the camp ” (23)
+
+A'   “as the Lord commanded Moses” (23)
+
+Each of the additional possible skews suggested by Wright for the Alma 36 chiasm and discussed below is similar to that of the Leviticus example above. Each of the skews involves only elements of the proposed chiasm that are immediately adjacent to one another. The following can be said regarding other potential skews identified by Wright:
+
+
+## The Proposed Verse 23 [“stood upon my feet”] Skew (Wright’s Elements 15' and 16')
+
+14   “And he said unto me: If thou wilt of thyself be destroyed, seek no more to destroy the church of God.” (9)
+
+15   “And it came to pass that I fell to the earth; …” (10)
+
+16   “I could not open my mouth,” (10)
+
+17   “neither had I the use of my limbs … .” (10)
+
+* * * *
+
+17'   “… But behold, my limbs did receive their strength again,” (23)
+
+15'   “and I stood upon my feet,” (23)
+
+16'   “and did manifest unto the people that I had been born of God.” (23)
+
+[Page 224] 14'   “Yea, and from that time even until now, I have labored without ceasing, that I might bring souls unto repentance; …” (24)
+
+[Table omitted]
+
+a   But behold, the voice said unto me: Arise .
+
+b   And I arose and stood up and beheld the angel.
+
+c   And he said unto me: If thou wilt of thyself be destroyed, seek no more to destroy the church of God .
+
+b*   And it came to pass that I fell to the earth ;
+
+d   and it was for the space of three days and three nights that I could not open my mouth, neither had I the use of my limbs .
+
+e   And the angel spake more things unto me, which were heard by my brethren ,
+
+e* but I did not hear them .
+
+d*   For when I heard the words, If thou wilt be destroyed of [Page 225] thyself, seek no more to destroy the church of God, I was struck with such great fear and amazement
+
+c*   lest perhaps that I should be destroyed
+
+b*   that I fell to the earth
+
+a*   and I did hear no more .
+
+a   But behold, my limbs did receive their strength again,
+
+b   and I stood upon my feet
+
+c   and did manifest unto the people that I had been born of God.
+
+
+## The Proposed Verse 26 [“born of God”] Skew
+
+9   “And I would not that ye think that I know of myself — not of the temporal but of the spiritual, not of the carnal mind but of God.” (4)
+
+10   “Now, behold, I say unto you, if I had not been born of God” (5)
+
+11   “I should not have known these things;” (5)
+
+12   “but God has, by the mouth of his holy angel, made these things know unto me, not of any worthiness of myself.” (5)
+
+* * * *
+
+[Page 226] 12'   “For because of the word which he has imparted unto me,” (26)
+
+10'   “behold, many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen;” (26)
+
+11'   “therefore they do know of these things of which I have spoken; as I do know;” (26)
+
+9'   “and the knowledge which I have is of God.” (26)
+
+This proposed skew rests upon what Wright perceives to be a positive correspondence between the following two phrases: (1) “Now, behold, I say unto you, if I had not been born of God” (of verse 5) and (2) “behold, many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen” (of verse 26), his elements 10 and 10'. Those are the very same phrases and very same verses containing those phrases that Reynolds correlates to one another as his sub-units Ec* (v. 5) and E*b (v. 26).
+
+[Table omitted]
+
+And I would not that ye think that I know of myself —
+
+not of the temporal
+
+but of the spiritual,
+
+not of the carnal mind
+
+but of God . (antithetical)
+
+Now, behold, I say unto you,
+
+a   if I had not been born of God
+
+b   I should not have known these things ;
+
+a   but God has, by the mouth of his holy angel,
+
+b   made these things known unto me, (simple alternate)
+
+not of any worthiness of myself.
+
+For because of the word which he has imparted unto me, behold, many have been born of God ,
+
+a   and have tasted
+
+b   as I have tasted ,
+
+a   and have seen eye to eye
+
+b   as I have seen ;
+
+a   therefore they do know of these things of which I have spoken,
+
+b   as I do know ; (extended alternate)
+
+and the knowledge which I have is of God .
+
+[Table omitted]
+
+a   And I would not that ye think that I know of myself —
+
+b   not of the temporal but of the spiritual ,
+
+c   not of the carnal mind but of God .
+
+c*   Now behold, I say unto you: If I had not been born of God ,
+
+i   I should not have known these things.
+
+b*   But God hath by the mouth of his holy angel made these things known unto me,
+
+a*   not of any worthiness of myself .
+
+a   for because of the word which he hath imparted unto me ,
+
+b   behold, many hath been born of God
+
+c   and hath tasted as I have tasted
+
+c*   and hath seen eye to eye as I have seen .
+
+b*   Therefore they do know of these things of which I have spoken as I do know;
+
+a*   and the knowledge which I have is of God .
+
+Wright’s proposed skew seems consistent with the two a-b-c-c*-b*-a* chiasms in the Reynolds analysis (shown immediately above). Indeed, the Reynolds analysis surpasses in detail the simple structure suggested by Wright’s skew. And yet that modified analysis could be modified even slightly more by incorporating the observations made by Parry, though not because of the existence of any skew in his analysis. Such a modification would only be technical in nature but would seem to reconcile the analyses of Reynolds, Wright, and Parry. Without changing the boundaries of elements E and E* of the Reynolds proposal, the analysis proposed by Parry can be merged into the Reynolds analysis to strengthen it and to draw out the correspondences even further. As with Wright and Reynolds, the Perry rewriting, both in 1992 and 2007, correlates the text of verses 4, 5 and 26 with reference to subordinate [Page 228] elements, though they are arranged by Parry differently from how Reynolds and Wright arrange them. Parry depicts them as direct parallelisms which he terms as a “simple alternate” in verse 5 and as an “extended alternate” in verse 25. Still he correlates the phrase “Now, behold, I say unto you, if I had not been born of God” (of verse 5, as his first-flank element G) with the phrase “behold, many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen” (of verse 26, as his second-flank element G). Presented below is a depiction that incorporates the Parry and Reynolds proposals into one another. The depiction presents no skew. Newly added lowercase alphabetic letter designations slightly alter the Reynolds analysis and incorporate into it some of the Parry analysis. Bolded font, italic font, and underlining , all newly imposed here, draw attention to the lower-level correspondences otherwise proposed by Reynolds and Parry; and double-underlining highlights the word-pair correspondence of word(s) // thing(s):
+
+[Table omitted]
+
+And I would not that ye think that I know of myself —
+
+a not of the temporal
+
+b but of the spiritual ,
+
+a not of the carnal mind
+
+b but of God . (antithetical)
+
+a   Now, behold, I say unto you, if I had not been born of God
+
+b   I should not have known these things ;
+
+a   but God has, by the mouth of his holy angel ,
+
+b   made these things known unto me, (simple alternate) not of any worthiness of myself .
+
+b   For because of the word which he has imparted unto me , behold,
+
+a   many have been born of God ,
+
+c and have tasted
+
+d as I have tasted ,
+
+c and have seen eye to eye
+
+d as I have seen ;
+
+b   therefore they do know of these things of which I have spoken,
+
+d as I do know; (extended alternate)
+
+a   and the knowledge which I have is of God .
+
+
+## The Proposed Verse 19b [“harrowed up”] Skew (Wright’s Elements 21 and 21')
+
+Wright perceives a possible skew in verse 19b (in the center of the chapter). But his proposed skew seems to be defeated by his own analysis. The correspondence between his elements 21 (v. 16) and 21' (v. 19b) does not seem significant enough (based as it is solely on the word “pains”):
+
+20   “Oh, thought I, that I could be banished and become extinct both soul and body, that I might not be brought to stand in the presence of my God, to be judged of my deeds.” (15)
+
+21   “And now, for three days and for three nights was I racked, even with the pains of a damned soul” (16)
+
+22   “… while I was harrowed up by the memory of my many sins,” (17)
+
+23   “behold, I remembered also to have heard my father prophesy unto the people concerning the coming of one Jesus Christ, a Son of God” (17)
+
+24   “to atone for the sins of the world.” (17)
+
+25   “Now, as my mind caught hold upon this thought;” (18)
+
+23'   “I cried within my heart: O Jesus, thou Son of God,” (18)
+
+24'   “have mercy on me, …” (18)
+
+25'   “And now, behold, when I thought this,” (19)
+
+21'   “I could remember my pains no more;” (19)
+
+22'   “yea, I was harrowed up by the memory of my sins no more” (19)
+
+20'   “And oh, what joy, and what marvelous light I did behold; yea, my soul was filled with joy as exceeding as was my pain!” (20)
+
+Wright justifies setting apart his element 21' (v. 19) as a proposed correspondence to his element 21 (v. 16) solely because of their common use of the word “pains.” That proposed correspondence does not seem [Page 230] vigorous enough to overcome (or prompt any revision of) the Reynolds analysis. Reynolds analyzes the “pains” correspondence differently. Below the Reynolds analysis is quoted. Underlining is added here to highlight the “pains” correspondence proposed by Wright and bold font is added here to draw attention both to the v. 19b text employed by Wright in his proposed v. 19b skew and the corresponding v. 16 text answered by that proposed skew:
+
+[Table omitted]
+
+a* And now for three days and for three nights was I racked ,
+
+i even with the pains of a damned soul .
+
+a   And it came to pass that as I was thus racked with torment ,
+
+i while I was harrowed up by the memory of my many sins ,
+
+b   behold, I remembered also to have heard my father prophesy unto the people
+
+i   concerning the coming of one Jesus Christ, a Son of God ,
+
+c to atone for the sins of the world.
+
+b*   Now, as my mind catched hold upon this thought ,
+
+i   I cried within my heart: O Jesus, thou Son of God ,
+
+ii have mercy on me ,
+
+a*   And now behold, when I thought this, I could remember my pains no more .
+
+i Yea, I was harrowed up by the memory of my sins no more .
+
+
+## Why So Many Potential Skews?
+
+One might ask why so many skews can be proposed in any suggested chiasm for Alma 36. Are any of them valid? Do the skews here advanced, if valid, alone disqualify the text as chiastic? For example, is Welch’s proposal of Deuteronomy 18 and 20 as a chiastic text (as depicted earlier) so replete with skews that the proposal of a chiasm should be [Page 231] rejected altogether? Where does one draw the line? At what point does the appearance of skews and asymmetry disqualify a text as chiastic? The answer may be both simple and complex. Simply put, relevant commentary generally agrees that the mere presence of skews and the resulting manifestation of asymmetry in texts proposed to be chiastic do not defeat the possibility that the texts are chiastic.
+
+Indeed, as mentioned earlier, chiastic texts may well require asymmetry. But the question may nevertheless be one of degree. At what point does the sheer number of skews overwhelm the pattern and defeat it? And it may well also be a question of purpose or motive: did ancient authors generally, and did Alma specifically, include or allow one or more or even many skews seeking to accomplish a purpose? If so, what purpose (or purposes)? This perhaps cannot be known for sure, of course. But two major possibilities have been advanced by others: (1) to draw attention to a portion of the text where it interrupts mirror symmetry; and (2) to avoid perfect symmetry altogether. The former of these two may be self-defeating when the numbers of skews (or the ratio of skews to length of text) make the skews seem ineffectual. But the latter of these two purposes may not be self-defeating but, rather, simply more effectual in accomplishing a rhetorical goal. Perhaps the aversion to symmetry (symmetrophobia) is better manifest in greater numbers (perhaps as an unmeasurable ratio of skews to length of text, immune from calculation).
+
+In any event, whether a text is chiastic depends not on whether skews appear or can be discerned. This seems clear from the input from others on the issue, for the presence of a chiastic structure for a text depends on the definition of chiasmus in the first place. Symmetry is not essential to the existence of a chiasm. It surely is a characteristic of many, perhaps most, chiasms that have been identified. Its near ubiquity surely makes it seem like symmetry is essential. After all, symmetry generally results from the operation of the two defining features of chiasmus: (1) repetition and (2) reversal in the sequence of the repeated elements. But a text may be chiastic even if asymmetry exists in its structure (perhaps even if it abounds).
+
+[Page 233] the section titled “What is Said Generally About Skews and Chiastic Asymmetry?”
+
+Importantly, in composing his text as a chiasm as various modern-day analysts propose, Alma was not limited to composing the text using only the words and phrases that appear in the labels assigned by modern-day analysts. Rather, Alma wrote all of the words that we have in his text. Thus, if there is a chiastic pattern in Alma’s text, it likely should be discerned in light of all of the text, not just words and phrases selected [Page 234] by the modern analyst. When analysts like Welch, Parry, Reynolds, and others quote the full text of chapter 36 and discern and depict rhetorical structures in it, they are on safer ground than if they were either to pick and choose words and phrases (or characterize blocks of text) as representing ideas that potentially they read into rather than read out of the text. If an analyst accounts for all of the text that Alma has given us and proposes a full-chapter chiasm forming either a perfect reversal or a skewed reversal in the sequence of repeated elements, only then is the analyst in a position to depict lower-level (subordinate-level) patterns within those blocks of text.
+
+
+## Some Observations about Deuteronomy 8 and Alma 36
+
+
+## A Few Similarities in the Ideas Expressed in Deuteronomy 8 and Alma 36
+
+The seemingly similar characteristics of the messages and ideas of both the Deuteronomy 8 text and the Alma 36 text are as follows:
+
+  - both offer repeated positive admonitions to keep the commandments: “All the commandments which I command thee this day shall ye observe to do, that ye may live, and multiply [= become much, many, or great; prosper ], and go in and possess the land which the Lord sware unto your fathers” (Deuteronomy 8:1); “keep the commandments” (Alma 36:1), “keep the commandments” (Alma 36:30);
+  - both state a motive for obedience, namely, prosperity in the land: it is not our own “power” or the “might” of our own “hand” that brings prosperity (Deuteronomy 8:17), but it is the Lord who brings it “inasmuch” as we keep — and do not forget to keep — His commandments (Deuteronomy 8:1, 11, [Page 235] 19; see also Alma 36:1, 30, “inasmuch as ye shall keep the commandments of God ye shall prosper in the land” in both verse 1 and verse 30);
+  - both require remembrance of the wilderness period of the fathers: “And thou shalt remember all the way which the Lord thy God led thee these forty years in the wilderness, to humble thee, and to prove thee, to know what was in thine heart, whether thou wouldest keep his commandments, or no” (Deuteronomy 8:2); “remembering the captivity of our fathers” (Alma 36:2);
+  - both refer to knowledge or lack of knowledge: see Deuteronomy 8:3a, 16a and Alma 36:4, 5, 26, 28, 30;
+  - both refer to the Lord’s chastening of his people or his sons (Deuteronomy 8:5; see also Alma 36:6–16);
+  - both refer to the author’s warning not to forget the Lord’s commandments, identifying the consequences of disobedience to the commandments: it leads to death and banishment (Deuteronomy 8:19; see also Alma 36:30): “Beware that thou forget not the Lord thy God, in not keeping his commandments, and his judgments, and his statutes, which I command thee this day” (Deuteronomy 8:11; see also Alma 36:30, “inasmuch as ye will not keep the commandments of God ye shall be cut off from his presence”);
+  - both refer to the deliverance of the Israelites from the bondage of Egypt (Deuteronomy 8:2, 14; see also Alma 36:2, 28, 29);
+  - perhaps especially importantly the center of Deuteronomy 8, in verses 7–9, and the center of Alma 36, in verses 17–18, refer to the Lord’s rich blessings; the reference to olive trees in verse 8, in the central chiastic element of Deuteronomy 8, possibly is presciently symbolic of the place of atoning sacrifice, the Garden of Gethsemane, emblematic of what one also gleans from the chiastic centerpiece of Alma 36 (at vv. 17–18).
+
+
+## A Few Similarities in the Proposed Structures of Deuteronomy 8 and Alma 36
+
+In addition to correspondences in themes of Deuteronomy 8 and Alma 36, the proposed structure of at least a portion of the text of Alma 36 seems to reflect some of the structure of Deuteronomy 8. Emphasized here are three important similarities:
+
+  - [Page 236] An inclusio opens and closes Deuteronomy 8, with element A (vs. 1) and element A' (vs. 20), the extreme verses, reciting the injunction to be obedient to the Lord’s commandments (vs. 1) and issuing a warning not to be disobedient (vs. 20), mentioning in those extremes the resulting promised prosperity in the land as sworn to the patriarchs (vs. 1) and the destruction that accompanies disobedience (vs. 20), just as in Alma 36:1, 30;
+  - The inclusio is followed (element B, vv. 2–3) by the command to remember the divine guidance through the desert out from the bondage of Egypt, corresponding to the admonition to Israel to not forget that deliverance (element B', vv. 14–16), just as in Alma 36:2, 29;
+  - The centerpiece of Deuteronomy 8 speaks of the blessings of the Lord God to Israel (vv. 7–9) just as the centerpiece of Alma 36 speaks of blessings of the Lord Jesus to Alma (vv. 17–18).
+
+It may thus seem reasonable to suggest that the structure of Deuteronomy 8 perhaps might have played a role in at least some of Alma’s effort to structure the text of his testimony as set forth for us in Alma 36. Both texts focus in the beginning on keeping the commandments and warn at the end of the consequences of not keeping the commandments and both offer a focus at the middle of their text on a blessing from the Lord.
+
+In addition, the chiastic structure of Deuteronomy 8 apparently features two skews as analyzed by O’Connell and one of them is akin to the Alma 36:28 [“knowledge”] skew. The two Deuteronomy 8 skews appear at elements E', F', G', and H' of O’Connell’s rewriting of the text of verses 16–17, as bolded below. Single underlining of words and phrases is here added to draw attention to synonymic and antithetical correspondences that appear in the proposed chiasm. Double underlining is here added to highlight O’Connell’s emphasis on eight references to the phrase “the Lord thy God” (at D, J, K, L, L', K', J', D'), the balanced appearances of which help to firmly establish the chiastic centrality of verses 7b–9. Substituted into the structure here is the full text of the KJV in place of the quoted Hebrew and paraphrased English excerpts that O’Connell sets forth in his article:
+
+A   All the commandments which I command thee this day shall ye observe to do, (1a)
+
+[Page 237] B   that ye may live , and multiply, and go in and possess the land (1bαβ)
+
+C   which the Lord sware unto your fathers . (1bγ)
+
+D   And thou shalt remember all the way which the Lord thy God led thee these forty years in the wilderness, (2a)
+
+E   to humble thee , and to prove thee , (2bα)
+
+G   And he humbled thee and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know ; (3a)
+
+H   that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the Lord doth man live. (3b)
+
+I   Thy raiment waxed not old upon thee, neither did thy foot swell, these forty years. (4)
+
+J   Thou shalt also consider in thine heart , that, as a man chasteneth his son, so the Lord thy God chasteneth thee. (5)
+
+K   Therefore thou shalt keep the commandments of the Lord thy God to walk in his ways, and to fear him. (6)
+
+L   For the Lord thy God bringeth thee into a good land, (7a) a land of brooks of water, of fountains and depths that spring out of valleys and hills; A land of wheat, and barley, and vines, and fig trees, [Axis (vv. 7b–9)] and pomegranates; a land of oil olive [i.e., olive trees], and honey; A land wherein thou shalt eat bread without scarceness, thou shalt not lack any thing in it; a land whose stones are iron, and out of [Page 238] whose hills thou mayest dig brass. (7b–9)
+
+L'   When thou hast eaten and art full, then thou shalt bless the Lord thy God for the good land which he hath given thee. (10)
+
+K'   Beware that thou forget not the Lord thy God , in not keeping his commandments , and his judgments, and his statutes, which I command thee this day: (11)
+
+J'   Lest when thou hast eaten and art full, and hast built goodly houses, and dwelt therein; And when thy herds and thy flocks multiply, and thy silver and thy gold is multiplied, and all that thou hast is multiplied; Then thine heart be lifted up, and thou forget the Lord thy God , (12–14a)
+
+I'   which brought thee forth out of the land of Egypt, from the house of bondage; Who led thee through that great and terrible wilderness, wherein were fiery serpents, and scorpions, and drought, where there was no water; who brought thee forth water out of the rock of flint; (14b–15)
+
+G' Who fed thee in the wilderness with manna, which thy fathers knew not , (16a)
+
+E' that he might humble thee , and that he might prove thee , (16bαβ)
+
+H' to do thee good at thy latter end; (16bγ)
+
+F' And thou say in thine heart , My power and the might of mine hand hath gotten me this wealth. (17)
+
+D'   But thou shalt remember the Lord thy God : for it is he that giveth thee power to get wealth, (18a)
+
+C'   that he may establish his covenant which he sware unto thy fathers , as it is this day. (18b)
+
+[Page 239] A'   And it shall be, if thou do at all forget the Lord thy God , and walk after other gods , and serve them , and worship them , (19a)
+
+B'   I testify against you this day that ye shall surely perish . (19b)
+
+B''   As the nations which the Lord destroyeth before your face, so shall ye perish ; (20a)
+
+A observe [meaning to obey God’s commandments] (v. 1)
+
+B live [the result of obedience to God’s commandments] (v. 1)
+
+C sware unto your fathers (v. 1)
+
+D shalt remember … which the Lord thy God … (v. 2a)
+
+[Page 240] E   to humble thee , and to prove thee (v. 2c)
+
+F in thine heart (v. 2)
+
+G fed thee with manna … neither did thy fathers know (v. 3)
+
+H   “Purpose of humbling (to teach YHWH is Provider)” (v. 3b)
+
+I   YHWH provides apparel and health (v. 4)
+
+J in thine heart (v. 5)
+
+K keep the commandments (v. 6)
+
+L a good land (v. 7a)
+
+M   Axis (vv. 7b–9)
+
+L' the good land (v. 10)
+
+K' not keeping his commandments (v. 11)
+
+J' thine heart (v. 14)
+
+I'   YHWH provides protection and water in the wilderness (vv. 14b–15b)
+
+G' fed thee … with manna … which thy fathers knew not (v. 16)
+
+E'   that he might humble thee , and that he might prove thee (v. 16b)
+
+H'   “Purpose of humbling and testing (to benefit Israel)” (v. 16b)
+
+F' in thine heart (v. 17)
+
+D' shalt remember the Lord thy God (v. 18)
+
+C' sware unto thy fathers (v. 18b)
+
+A   walk after other gods, and serve them, and worship them [disobedience to God] (v. 19)
+
+B'   ye shall surely perish [the result of disobedience to God’s commandments] (v. 19)
+
+B'   so shall ye perish [the result of disobedience to God’s commandments] (v. 20a)
+
+For purposes of discussion, in addition to the unaccounted-for text of verses 12–13 mentioned above, the sum of all text not accounted for by O’Connell consists of the following:
+
+The above-quoted statement clearly seems to portend that more robust multi-level analysis of the chapter might be appropriate.
+
+
+## The Skews, Asymmetries, and Chiastic Structures of Deuteronomy 8 and Alma 36
+
+
+## The Proposed Chiastic Centrality of “Word” and “Thought”
+
+Perhaps the seeming relationship of the terms “thought,” “word,” and “words” as they appear in verses 1, 18, and 30 in Alma 36, may be reflected in the relationship of those terms as they appear also in Psalm 56:5: “Every day they wrest my words: all their thoughts are against me for evil.” So, too, perhaps as they appear in Deuteronomy 15:9 where instead of choosing the English word “word” for דָּבָר ( debar ), the KJV translators rendered it as “a thought.”
+
+Moreover, as a proposed centerpiece for Alma 36, the phrase “my mind caught hold upon this thought” employs the verb “caught hold.” That phrase appears only two other times in the Book of Mormon, once in Nephi’s quotation of Lehi’s account, and once in Nephi’s summary of Lehi’s account, of the dream Lehi had about people catching hold of the word of God, the “word” being symbolized in that dream as “the rod of iron” (1 Nephi 8:24, 30). Thus, meaningful correspondence apparently exists between and among the “thought” that is “caught hold” of in Alma 36:18 and the “words” of 36:1 (element A) and the “word” of 36:30 (element A'):
+
+[Table omitted]
+
+
+## Cautionary Notes
+
+
+## Conclusions
+
+My impression of the rhetorical beauties of Alma 36 is that it is amenable to more than one believable type of chiastic analysis. It clearly manifests a structure as a large-scale chiasm based on the symmetrical correspondence of words and phrases, with a verse 28 skew, as exemplified by Welch and Welch in 1999 and by John Welch and others in earlier years. Perhaps that one-level set of correspondences may be enhanced by recognition both of the verse 3 skew and of both the centrally located emphasis on the redeeming power of Christ’s atoning sacrifice and also on the central role of “word” and “thought” as introduced by Welch and as discussed more fully earlier. The chapter manifestly reflects a good measure of chiastic sophistication with additional rhetorical structures evident on multiple levels as analyzed most recently by Reynolds and by some others before him, including Welch, Tensmeyer, Crowell, Parry, Demke and Vanatter, and Lindsay (as noted in endnote 80). The chiastic form of the chapter based on themes or ideas, as shown by various analysts, began in 1969 when Welch made his first discovery and has been confirmed and refined over the years by him and others. The chapter is a rich resource of inspiration about the centrality of Christ in the life and conversion story of Alma as well as in our own spiritual life and our own quest for forgiveness and salvation.
+
+
+## [Page 247] Appendix Other Examples of Skewed Chiasms
+
+The skews are noted below in bold font; the proposals by Yehuda T. Radday all appear in his “Chiasmus in Hebrew Biblical Narrative” in Chiasmus in Antiquity .
+
+A   Sketch of four empires finally destroyed by God’s kingdom (2:1–49)
+
+B   Three Jews cast into fire by a king and emerging unharmed (3:1–25)
+
+C   The turnabout; their promotion (3:26–30)
+
+D   A disturbing dream interpreted (4:1–37)
+
+D'   A mysterious writing interpreted (5:1–30)
+
+B'   A Jew cast into a lions’ den by a king and emerging unharmed (6:1–23)
+
+C'   The turnabout: his promotion (6:24–28)
+
+A'   Sketch of world power finally destroyed by God’s kingdom (7:1–28)
+
+A   The chiefs of Persia and Media (1:3)
+
+B   The king’s splendor, pomp, and glory (1:4)
+
+C   it may not be altered (1:19)
+
+D Mordecai … Esther (2:5, 7)
+
+E   A remission of taxes to the provinces (2:18)
+
+F   The King took his signet ring … Shushan was perplexed (3:10–15), and in every province wherever the King’s command and decree came, there was great mourning among the Jews, with fasting, weeping and lamenting, and many lay in sackcloth and ashes (4:3)
+
+G   [the King] held out to Esther the golden sceptre that was in his hand (5:2)
+
+H   So the King and Haman came to dinner … and the King said to Esther, “What is your petition? It shall be granted to you. Even to the half of my kingdom, it shall be fulfilled.” But Esther said, “ If I have found favor and it please the King .” (5:5–8)
+
+I   Haman went out … joyful and glad of heart (5:9)
+
+J   He went home (5:10)
+
+K   He fetched his friends and his wife Zeresh (5:10)
+
+L   And Haman recounted to them (5:11)
+
+M   “So long as I see Mordecai the Jew sitting at the King’s gate” (5:13)
+
+N   Then his wife Zeresh and his friends said to him (5:14):
+
+O   “Let a gallows fifty cubits high be made … to have Mordecai hanged upon it” (5:14)
+
+P   “On that night the King could not sleep” (6:1–3)
+
+[Page 248] M'   “And do so to Mordecai the Jew sitting at the King’s gate” (6:10)
+
+J'   Haman sneaked off to his home (6:12)
+
+I'   Mourning and his head covered (6:12)
+
+L'   and Haman recounted (6:13)
+
+N'   to his wife Zeresh and all his friends (6:13)
+
+K'   his counsellors and his wife Zeresh said to him (6:13)
+
+H'   So the King and Haman went to dinner … and the King said to Esther, “What is your petition? It shall be granted to you. And what is your request? Even to the half of my kingdom, it shall be fulfilled.” And she said, “ If it please the King and I have found favor. ” (7:14)
+
+O'   “the gallows … fifty cubits high” … “hang him on that” (7:9, 10)
+
+G'   the King held out the golden sceptre to Esther (8:4)
+
+F'   I have given Esther Haman’s house … seal it with the ring … Sushan was jubilant and rejoiced … and in every province and in every city, wherever the King’s command and his edict came, there was gladness and joy among the Jews, a feast and holiday, and many … declared themselves Jews (8:7–17)
+
+C'   it may not be altered (9:27)
+
+D' Esther … Mordecai (9:29)
+
+E'   the king … imposed a tax on the land (10:1)
+
+B'   [Mordecai’s] power, might, and glory (10:2)
+
+A'   The kings of Media and Persia (10:2)
+
+A   Preparatory: Joshua in charge of the people (ch. 1)
+
+B   Outwitting the King of Jericho by spying (ch. 2)
+
+C   Crossing the Jordan waters (ch. 3)
+
+D   Laying down stones in the River (ch. 4)
+
+E   The stone monument at Gilgal (ch. 5)
+
+F   The covenant of circumcision (ch. 5)
+
+G   The fall of Jericho (ch. 6)
+
+B'   Outwitting the inhabitants of Ai by ambush (chs. 7 and 8)
+
+E'   Building a stone altar on Mount Ebal (ch. 8)
+
+F'   The covenant with the Gibeonites (ch. 9)
+
+D'   Setting up stones at Makkedah (10:27)
+
+C'   Victory at the Waters of Meron (11:1–15)
+
+A'   Concluding: summary of conquests (11:16–12:26)
+
+
+## d. Concerning the Solomon Cycle of 1 Kings 3:1–11:43, Radday identifies the following chiastic pattern (with what he refers to as “deviations from perfect symmetry”):
+
+A   Solomon’s justice and wisdom (3:1–15)
+
+B   Solomon’s wisdom exemplified concerning two women (3:16–28)
+
+C   Organization of the realm within (4:1–20)
+
+D   Solomon’s magnificence (5:1–14)
+
+E   Negotiations with Hiram (5:15–20)
+
+F   The building of the Temple foretold (5:21–25)
+
+G   The corvée (5:26–32)
+
+H   The Temple (6:1–8:66)
+
+[Page 249] F'   The destruction of the Temple foretold (9:1–9)
+
+E'   Negotiations with Hiram (9:10–14)
+
+C'   Fortification of the realm against external attack (9:15–19)
+
+G'   The corvée (9:20–28)
+
+B'   Solomon’s wisdom exemplified concerning a woman (10:1–13)
+
+D'   Solomon’s magnificence (10:14–29)
+
+A'   Solomon’s apostasy and folly (11:1–43)
+
+A   The Lord’s speech (3:2)
+
+B   Nineveh, the great city (3:3)
+
+C   Jonah enters the city (3:4)
+
+D   The King sits in ashes (3:6)
+
+E   Voluntary sufferings (3:7)
+
+F   The people go back on their sins (3:8)
+
+G   God repents of the evil (3:10)
+
+H   “which He said He would do to them, and He did not” (3:11)
+
+G'   God repents of the evil (4:3)
+
+F'   Jonah prefers the people to continue sinning (4:3)
+
+C'   Jonah leaves the city (4:5)
+
+D'   Jonah sits in the shade (4:5)
+
+E'   Involuntary suffering (4:8)
+
+B'   Nineveh, the great City (4:11)
+
+A'   The Lord’s speech (4:10–11)
+
+A   Elijah’s sudden appearance (17:1–2)
+
+B   His flight to the Brook Kerit (17:3–7)
+
+C   The woman of Zarephat (17:8–16)
+
+D   A dead child revived (17:17–24)
+
+E   Obadiah, a loyal follower (8:1–15)
+
+F   Theophany on Mount Carmel (18:16–48)
+
+F'   Theophany on Mount Horeb (19:1–14)
+
+E'   Elisha, a loyal successor (19:15–21)
+
+C'   Nabot’s vineyard (21:1–29)
+
+D'   A sick king healed (1:1–8)
+
+B'   The king’s officers (1:9–16)
+
+A'   Elijah’s sudden disappearance (2:1–18)
+
+A   Progeny lost (I)
+
+B   Orpah’s unfaithfulness (II)
+
+C   Ruth’s devotion (II')
+
+D   Naomi’s emptiness (I')
+
+E   Ruth to Naomi: her faith in finding grace (III)
+
+F   Boaz to Ruth in the fields: “your good works shall be recompensed” (IV)
+
+G   Naomi speaking with Ruth: blessing Boaz (III')
+
+G'   Naomi speaking to Ruth: instructions in respect to Boaz (V)
+
+[Page 250] F'   Boaz to Ruth on the threshingfloor: “Your kindness and virtue shall bring blessings” (VI)
+
+E'   Ruth to Naomi: her report in finding grace (V')
+
+B'   The kinsman’s unfaithfulness (VII)
+
+C'   Ruth a blessing to Boaz’ house (VIII)
+
+D'   Naomi restored (VII')
+
+A'   Progeny regained (VIII')
+
+A   War against Saul’s second son (ch. 2)
+
+B   Lament over Abner’s death (3:31–34)
+
+C   Murder of Ishboshet (ch. 4)
+
+D   Conquest of Jerusalem (ch. 5)
+
+E   Moving the Ark to Jerusalem (6:1–19)
+
+F   Negative interference of a woman (6:20–23)
+
+G   Nathan’s good counsel (ch. 7)
+
+H   Conquests abroad (ch. 8)
+
+I   Mephiboshet (ch. 9)
+
+J   Victory in Transjordania (ch. 10)
+
+K   David and Bathsheba: Adultery and murder (ch. 11)
+
+L   The Poor Man’s Lamb (ch. 12)
+
+K'   Amnon and Tamar: Rape and murder (chs. 13–14)
+
+H'   Internal revolt (ch. 15)
+
+E'   Moving the Ark from Jerusalem (15:24)
+
+I'   Mephiboshet (ch. 16)
+
+G'   Achitophel’s evil counsel (17:1–14)
+
+J'   Flight to Transjordania (17:22–18:32)
+
+B'   Lament over Absalom’s death (19:1)
+
+F'   Positive interference of a woman (ch. 20)
+
+C'   Murder of the Saulides (ch. 21)
+
+D'   Acquisition of the Temple Mount (24:18–25)
+
+A'   Revolt of David’s second son (I Kings 1)
+
+A   Lack of faith when facing the Egyptians (Ex. 14:11)
+
+B   Lack of faith in the prophet (Ex. 14:31, cf. Ps. 106:7)
+
+C   Craving for water at Marah (Ex. 15:24)
+
+D   Craving for bread at Sin (Ex. 16:2)
+
+E   Hoarding the Manna at Sin (Ex. 16:20)
+
+E'   Collecting the Manna on the Sabbath (Ex. 16:27)
+
+C'   Craving for water at Rephidim (Ex. 17:1–7)
+
+B'   The Golden Calf (Ex. 32)
+
+D'   Craving for meat at ‘The Graves’ (Num. 11)
+
+A'   Lack of faith when facing the Canaanites (Num. 14)
+
+A   “the Egyptians shall know that I am the Lord” (14:4)
+
+B   with a high hand (8)
+
+[Page 251] C   “the salvation of the Lord” (yesu’ah) (13)
+
+D   “the Lord will fight for you” (14)
+
+E   “stretch out your hand” (16)
+
+F   “on dry ground through the sea” (16)
+
+A'   “the Egyptians shall know that I am the Lord” (18)
+
+F''   “on dry ground through the sea” (22)
+
+D'   “the Lord fights for them” (25)
+
+E'   “stretch out your hand” (26)
+
+C'   “the Lord saved Israel ( wa-yosa’ ) (30)
+
+B'   the great hand (31)
+
+A'   they believed in the Lord (31)
+
+A   the whole earth (11:1)
+
+B   one language (1)
+
+C   they settled there (2)
+
+D   to one another (3)
+
+E   “Let us make bricks” (3)
+
+F   “come let us …” (4)
+
+G   “… build” (4)
+
+H   “a city and a tower” (4)
+
+I   “and make a name” (4)
+
+J   “lest we be scattered” (4)
+
+K   The Lord came down to see … (5)
+
+H'   the city and the tower (5)
+
+G'   which men had built … (5–6)
+
+F'   “come let us …” (7)
+
+E'   “let us confuse” (7)
+
+D'   “one another” (7)
+
+J'   the Lord scattered them (8)
+
+I'   its name was called (9)
+
+B'   the language (9)
+
+C'   from there he scattered them (9)
+
+A'   the whole earth (9)
+
+A   “Here I am” (22:1)
+
+B   “your son, your only one” (2)
+
+C   “raise him as an offering” (2)
+
+D   “one of the mountains” (2)
+
+E   young men (3)
+
+F   the wood (3)
+
+G   he rose and went (3)
+
+H   the place of which God had told him (3)
+
+I   he lifted up his eyes and saw (4)
+
+J   “we will return” (5)
+
+K   he laid it (6)
+
+L   the knife (6)
+
+M   together (6)
+
+A'   “Here I am” (7)
+
+[Page 252] M'   together (8)
+
+H'   the place of which God had told him (9)
+
+F'   the wood (9)
+
+K'   he laid (10)
+
+L'   the knife (10)
+
+A   “Here I am” (11)
+
+B'   “your son, your only one” (12)
+
+I'   he lifted up his eyes and saw (13)
+
+C'   he raised him as an offering (13)
+
+D'   the mountain (14)
+
+J'   he returned (19)
+
+E'   young men (19)
+
+G'   they rose and went (19)
+
+M   together (19)
+
+If any principle can be gleaned regarding the order of repetition in the second flanks of the above cited chiastic systems, it might be similar to that described by Holladay in connection with skewed chiasmus: all elements identified in the first half of the chiasmus are repeated (in almost whatever order) in the second half of the chiasmus. Here a word might be timely said about some of the criteria of chiasmus generally. So long as the above-cited “less ordered and more scrambled” chiasms are not plagued by reduplication (repetition of the same word or element over and over within the system, outside of the pattern depicted), the fact that the reversal of terms or concepts is not perfect seems not to detract from the fact the passage is chiastic, only from the symmetry of the reversal of terms or concepts of the chiasm.
+
+A   Lehi prophesies warnings of destruction to the Jews and foresees the mercy of God (Chapter 1)
+
+B   Lehi’s group departs from Jerusalem (2:2–15)
+
+C   Nephi establishes himself over his brothers by obtaining the Plates of Brass (2:16–4:38)
+
+D   The sword of fine steel (4:9)
+
+E   Sariah’s concern (5:1–9)
+
+F   The Plates of Brass as a guide (5:10–6:6)
+
+G   The sons of Lehi get the daughters of Ishmael and Ishmael joins the group (7:1–5, 22)
+
+H   Nephi bound with cords in the wilderness (7:6–21)
+
+I   Lehi’s vision of the Tree of Life (8:1–38)
+
+J   Lehi prophesies about the Old World and about the coming of the Lamb (10:1–22)
+
+K   Nephi and the Spirit of the Lord (11:1–36)
+
+J'   Nephi prophesies about the New World and the coming of the Lamb (12:1–14:30)
+
+I'   Lehi’s vision of the Tree of Life interpreted (15:1–36)
+
+[Page 253] G'   The sons of Lehi marry the daughters of Ishmael and Ishmael dies (16:1–8, 34–35)
+
+F'   The Brass Ball as a guide (16:9–17, 26–33)
+
+D'   The bow of fine steel (16:18)
+
+C'   Nephi establishes himself over his brothers by building a ship (17:1–18:4) (3:7 // 17:3)
+
+H'   Nephi bound with cords on the ship (18:11–16, 20–21)
+
+E'   Sariah’s afflictions (18:17–19)
+
+B'   Lehi’s group arrives at the Promised Land (18:23–25)
+
+A'   Nephi prophesies concerning the fate of the Jews and concerning the mercy of the Lord unto the afflicted (chapters 19–22)
+
+A   Be patient in temptation (1:1–4)
+
+B   Ask and you shall receive, being not double-minded (5–8)
+
+C   The poor exalted, the rich shall fade (9–11)
+
+D   Man is tempted of his own lust (12–16)
+
+E   Every good gift comes from above (17–18)
+
+F   Be slow to anger (19–20)
+
+G   Save your souls (21)
+
+H   Be ye doers of the word; the mirror of life (22–25)
+
+I   Bridle your tongue (26)
+
+J   Attend to the widows and orphans (27)
+
+K   Do not be a respecter of persons (2:1–9)
+
+L   One either keeps all of the law or none of the law (2:10–12)
+
+M   Faith without works is dead (2:14–26)
+
+K'   Do not offend in word (3:1–8)
+
+L'   One either produces good fruit or bad fruit (9–12)
+
+E'   The wisdom which comes from above (13–18)
+
+D'   Lust in your members (4:1–5)
+
+B'   God gives grace and purifies double-mindedness (6–10)
+
+I'   Speak not evil (11)
+
+H'   Be ye doers of the law; the vapor of life (11–17)
+
+C'   The wealth of the rich shall be moth-eaten and worthless (5:1–6)
+
+A'   Be patient in temptation (7–11)
+
+F'   Swear not (12)
+
+J'   Attend to the sick and sinful (14–18)
+
+G'   Save your souls (19–20).
+
+Concerning the above pattern for the book of James, Welch states:
+
+> Without doubt, the organization of this epistle is far from exemplifying prototypical chiasmus. The inversion is not precise; there is no slavish adherence to this or any other literary form here. Yet how else can the complete balancing of elements in the first and second halves of this epistle be explained except by general reference to chiasmus? And indeed the equilibrium here is delicately maintained. Every section bears close affinities to its counterpart. Observe especially the use of complementary metaphors in C and C'; the recurrence [Page 254] of the hapax legomenon “doubleminded” (dipsychos) in B and B'; the strong similarities between H and H', both of which fall at the middle of their respective halves; the equally strenuous requirement of total righteousness elaborated in L and L'; and many other similar correspondences. Even the central exposition, M, begins and ends by duplicating the assertion, “Faith without works is dead.” (James 2:17, 26).
+
+A   A divine monologue; “It grieved Him to His heart” (6:3, 6, 7)
+
+B   Noah (6:10a)
+
+C   Shem, Ham and Japheth (6:10b)
+
+D   Ark to be built (6:14–16)
+
+E   Flood announced (6:17)
+
+F   Covenant with Noah: “I will establish My covenant” (6:18–20)
+
+G   Food in the ark (6:21)
+
+H   First of four stages of entering the ark “as commanded” (6:22)
+
+I   “Go into the ark” (7:1)
+
+J   Command to enter ark (7:1–3)
+
+K   Seven days waiting for flood (7:4–5)
+
+L   Second of four stages of entering the ark “as commanded” (7:5)
+
+M   Seven days waiting for flood (7:7–10)
+
+N   Third of four stages of entering the ark “as commanded” (7:9)
+
+O   The fountains of the deep burst forth (7:11)
+
+P   Entry into ark (7:11–15)
+
+Q   Fourth of four stages of entering the ark “as commanded” (7:16)
+
+R   Yahweh shuts Noah in (7:16)
+
+S   Forty days’ flood (7:17a)
+
+T   Three of seven verbs of “ascent”: increased, bore, rose (7:17)
+
+U   Two of seven verbs of “ascent”: prevailed, waters increased greatly (7:17b–18)
+
+V   Two of seven verbs of “ascent”: prevailed mightily, mountains were covered (7:19)
+
+W   Mountains covered 7:19–20)
+
+X   Waters prevail 150 days (7:[21]–24)
+
+V'   Two of seven verbs of “descent”: subsided (8:1); were restrained (8:2)
+
+O'   The fountains of the deep were closed (8:2)
+
+U'   (1) Two of seven verbs of “descent”: receded, abated (8:3)
+
+X'   Waters abate 150 days (8:3)
+
+[Page 255] T'   Three of seven verbs of “descent”: came to rest (8:4); continued to abate, mountains were seen (8:5)
+
+W'   Mountain tops visible (8:4–5)
+
+U'   (2) Waters abate (8:5)
+
+S'   Forty days (end of) (8:6a)
+
+R'   Noah opens window of ark (8:6b)
+
+Q'   First of four stages of leaving the ark (once a raven) (8:7)
+
+P'   Raven and dove leave ark (8:7–9)
+
+N'   Second of four stages of leaving the ark (first of thrice a dove) (8:8)
+
+L'   Third of four stages of leaving the ark (second of thrice a dove) (8:10)
+
+H'   Fourth of four stages of leaving the ark (third of thrice a dove) (8:12)
+
+M'   Seven days waiting for waters to subside (8:10–11)
+
+I'   “Go forth from the ark” (8:11)
+
+K'   Seven days waiting for waters to subside (8:12–13)
+
+J'   Command to leave ark (8:15–17[22])
+
+A'   (1) The Lord said in His heart (8:20)
+
+G'   Food outside ark (9:1–4)
+
+F'   Covenant with all flesh; “I established My covenant” (9:8–10)
+
+E'   No flood in future (9:11–17)
+
+A'   (2) Divine monologue (9:12–16)
+
+D'   Ark (9:18a)
+
+C'   Shem, Ham and Japheth (9:18b)
+
+B'   Noah (9:19)
+
+A   “And [Jesus] sent and signified [the Revelation] by his angel unto his servant John” (1:3)
+
+B   A blessing to those who read and keep the things written in the Apocalypse (1:3)
+
+C   The coming of Jesus (1:4–8)
+
+D   Description of Jesus: “I am the Alpha and Omega, the beginning and the ending, which is and which was and which is to come, the Almighty” (1:8)
+
+E   John’s commission to the Churches (1:9–20)
+
+F   John’s description of his own experience before the Lord: “I John, your brother, heard behind me a great voice … (w)hen I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not” (1:10, 17)
+
+G   The rewards for faithfulness and endurance include the promise that one may eat of the tree of life (2:7)
+
+H   The rewards for faithfulness and endurance include the promise that one may not be harmed by the second death (2:11)
+
+I   The rewards for faithfulness and endurance include the promise that one may eat of the hidden manna, receive a white stone and a new name (2:17)
+
+J   The rewards for faithfulness and endurance include the promise that one may have power over the nations (2:26)
+
+K   The rewards for faithfulness and endurance include the promise that one may obtain white raiment and a new name which is not blotted out of the book of life (3:5)
+
+L   The rewards for faithfulness and endurance include the promise that one may become a pillar in the temple of the new Jerusalem (3:12)
+
+[Page 256] M   The rewards for faithfulness and endurance include the promise that one may sit with Christ upon his divine throne (3:21)
+
+N   Christ praised around the throne as the only one strong enough to break the seals (4:1–5:14)
+
+O   Those surrounding the throne shout, “Worthy is the Lamb that was slain to receive power, and riches, and wisdom, and strength, and honor, and glory, and blessing” (5:12)
+
+P   The judgment commences: the opening of the seals (6:1–17)
+
+N   Christ praised around the throne by the 144,000 as the only one through whom there is salvation (7:1–17)
+
+Q   The trumpets sound forth hail, fire, and blood on the earth (8:7)
+
+R   The trumpets sound forth the turning of the sea to blood (8:8)
+
+S   The trumpets sound forth the turning of the seas into wormwood (8:12)
+
+T   The trumpets sound forth the darkening of the sun and the day (8:12)
+
+U   The trumpets sound forth pit, smoke, locusts and torment (9:1)
+
+V   The trumpets sound forth armies from the Euphrates (9:4)
+
+W   The trumpets sound forth the announcement “it is the Lord’s” 11:15)
+
+X   The trumpets sound (3:1–9:21; 11:15–19)
+
+Y   The seven thunders roar and the bitter book eaten — seven thunders rock the sky (10:1–11)
+
+Z   The two witnesses slain and resurrected — two emissaries of God perform great signs, are killed, and are resurrected (11:1–14)
+
+AA   Satan attempts to devour the virgin’s child — Satan attempts to devour the virgin’s child as soon as he has been born (12:1–5)
+
+BB   The woman flees into the wilderness — the child [Page 257] is caught up to heaven (12:6)
+
+CC   Satan is cast out of heaven — a war ensues and as a result Satan is cast out of heaven and thrust down to earth (12:7–12)
+
+BB   The woman flees into the wilderness (12:14)
+
+AA   Satan pursues the virgin and the remnant of her seed — where he pursues and makes war upon the remnant of the virgin’s seed (12:15–17)
+
+Z   The two beasts, one mortally wounded and healed — two dragons work their evil deeds, one is mortally wounded, yet is miraculously healed (13:1–18)
+
+Y   The seven angels cry out and bless the patient — seven angels, flying through the midst of heaven, proclaim the gospel (14:1–20)
+
+X   The plagues poured out (15:1–16:21)
+
+Q   The vials pour out noisome and grievous sores upon men (16:2)
+
+R   The vials pour out the turning of the sea to blood (16:3)
+
+S   The vials pour out the turning of the rivers to blood (16:4)
+
+[Page 258] T   The vials pour out the overheating of the sun (16:8)
+
+U   The vials pour out darkness in the kingdom of the beast, and pain (16:10)
+
+V   The vials pour out the drying up of the Euphrates (16:12)
+
+W   The vials pour out the announcement “It is done” (16:17)
+
+P 1 The fall of Babylon and the kings of the earth (17:1–18:24)
+
+O   Those in heaven shout, “Salvation, and glory, and honor, and power unto the Lord, our God … the marriage of the Lamb is come (19:l,7)
+
+N   Christ praised by the multitude as the King of Kings (19:1–16)
+
+P 2 The fall of Satan and the kings of the earth (19:17–20:10)
+
+K 1 Fulfillment of the promises of reward for faithfulness and endurance includes fact that the new name given to the inhabitants of the New Jerusalem is not blotted out of the book of life (20:12–15)
+
+H   Fulfillment of the promises of reward for faithfulness and endurance includes fact that the inhabitants of the New Jerusalem are not harmed by the second death (21:8)
+
+L   Fulfillment of the promises of reward for faithfulness and endurance include fact that the inhabitants of the New Jerusalem serve in the temple which is none other than the Lord God Almighty and the Lamb (21:22)
+
+J   Fulfillment of the promises of reward for faithfulness and endurance includes fact that the inhabitants of the New Jerusalem have power over nations (21:24–26)
+
+G   Fulfillment of the promises of reward for faithfulness and endurance includes fact that the inhabitants of the New Jerusalem eat of the Tree of Life (22:2)
+
+M   Fulfillment of the promises of reward for faithfulness and endurance includes fact that the inhabitants of the New Jerusalem serve the Lamb in the presence of his throne and God’s (22:3)
+
+K 2 Fulfillment of the promises of reward for faithfulness and endurance includes fact that the inhabitants of the New Jerusalem receive a new name (22:4)
+
+I   Fulfillment of the promises of reward for faithfulness and endurance includes fact that the inhabitants of the New Jerusalem behold the radiance of the city which is like unto a stone of crystal (22:11)
+
+F   John’s description of his own experience before the Lord: “I John heard these things, and saw them. And when I had heard and seen, I fell down to worship before the feet of the angel … . And he said Do not, for I am they fellowservant” (22:8–9)
+
+D   Description of Jesus: “I am the Alpha and Omega, the beginning and the ending, the first and the last” (22:13)
+
+C   The coming Jesus (22:10–15)
+
+A   “I Jesus have sent mine angel to testify unto you these things” (22:16)
+
+[Page 259] B   An invitation to all to read the book and a curse upon any person who changes the writing (22:17, 18)
+
+E   John’s commission to the Churches (22:16–21)
+
+Note that the elements in the first flank, while not in perfect reverse order in the second flank, nonetheless are repeated in the second flank. Only a full reading of the entirety of the book will manifest whether reduplication has occurred; most of the elements are topical and thus discovery of reduplication of words requires recourse to the text itself, not the above topical diagram.
+
+Alma 36:26–27 possibly manifests a skew in verse 27 (my observation):
+
+1   He surely did deliver them (v. 2)
+
+2   Hear my words (v. 3)
+
+3   Trust in God (v. 3)
+
+…
+
+2   Because of the word (v. 26)
+
+3   Trust in him (v. 27)
+
+1   He will deliver me (v. 27)
+
+A   A Divine monologue (6 :3,7)
+
+B   it grieved Him to His heart (6 :6)
+
+C   “I will establish My covenant” (6:18)
+
+D   Four stages of entering the ark “as commanded” (6:22, 7:5, 9, 16)
+
+E   “Go into the Ark” (7:1)
+
+F   the fountains of the deep burst forth (7:11)
+
+G   Seven verbs of “ascent”: increased, bore, rose (7:17), prevailed, increased greatly (7:18), prevailed mightily, mountains were covered (7: 19)
+
+H   God remembered Noah (8:1)
+
+G'   Seven verbs of “descent”: subsided (8:1), were restrained (8:2), receded, abated (8:3), came to rest (8:4), continued to abate, mountains were seen (8:5)
+
+F'   the fountains of the deep were closed (8:2)
+
+E'   “Go forth from the ark” (8:11)
+
+D'   Four stages of leaving the ark (once a raven, thrice a dove) (8:7, 8, 10, 12)
+
+B'   the Lord said in His heart (8:20)
+
+C'   “I established My covenant” (9:9)
+
+A'   A Divine monologue (9:12–16)
+
+C2:   Earth dries and Noah and animals leave ark (8:13–19, 9:1)
+
+a1   God tells Noah and family to leave ark
+
+b1   And then to take animals out of ark (8:15–17a)
+
+c1   This is so they can be fruitful and multiply (8:17b)
+
+a2   Noah and family leave ark (8:18)
+
+b2   and then animals leave ark (8:19)
+
+c2   Humans to be fruitful (9:1)
+
+B2:   Humans can now eat animals (9:1–7)
+
+a1   Humans to be fruitful (9:1)
+
+b1   Creatures will fear humans (9:2)
+
+c1   Creatures are food for humans (9:3)
+
+c2   Humans cannot eat animal blood (9:4)
+
+b2   All flesh will be punished for shedding human blood (9:5–6)
+
+a2   Humans to be fruitful (9:7)
+
+A2:   God makes covenant with Noah, promises never to destroy all flesh with a flood, rainbow as sign to remember (9:8–17)
+
+a1    God makes covenant with Noah
+
+b1    And with all creatures
+
+c1    God will never destroy all flesh by flood, the sign of the covenant is the rainbow, and it will help God remember
+
+Following are the last two elements of the “J Chiasm” (preceding a “conclusion”), as analyzed by Scott, which manifests the pattern he perceives to be the product of author “J,” showing the pattern that encompasses text from 8:20 through 9:22, not skipping 8:20 (part of what Radday otherwise reports as a skew):
+
+B2:   Clean animals sacrificed (8:20)
+
+a1   Noah builds altar
+
+b1   he takes from clean animals and birds
+
+a2   he offers them as burnt offering on the altar
+
+What was a skew for Radday ultimately appears to have been the result of his selection of text from two sources. Scott perceives the second-flank elements of the “Redactor’s Chiasm,” accounting for text over the relevant portion of the narrative, to be simply this (without any [Page 261] skew and accounting for the text produced by author “P” and the text produced by author “J”):
+
+Noah does as God instructs (8:18–19) P
+
+C2 Scene 12: Animals sacrificed as food for LORD (8:20–22) J
+
+God blessed Noah and his sons (9:1)
+
+B2 Scene 13: Animals as food for humans (9:2–7) P
+
+Then God said to Noah and his sons (9:8)
+
+A2 Scene 14: God makes covenant to never end all flesh again (9:9–17) P
+
+Genealogy: Noah’s sons (9:18)
+
+  - [Page 262] “the Symmetrophobia of the architects of antient Egypt” in William Hamilton, Remarks on Several Parts of Turkey, part 1 , Ӕgyptiaca (London: T. Payne and Cadell and Davies, 1809), 131. “the symmetrophobia (dislike of symmetry) of the architects of antient Egypt” in George Long, The British Museum: Egyptian Antiquities I (London: Charles Knight, 1832), 91. “the usual symmetrophobia of Egyptian monuments” and “Egyptian symmetrophobia” in John Gardner Wilkinson, Topography of Thebes, and General View of Egypt. Being a Short Account of the Principal Objects Worthy of Notice in the Valley of the Nile [&c.] (London: John Murray, 1835), 3 and 39, respectively.
+
+  - Gregory B. Wright, “Chiasm in Alma” (unpublished paper, 1986), in the John Welch Chiasmus Collection, BYU Special Collections, MSS 3776, Box 3, Folder 79, pages 53 and unnumbered 54. Depicts proposed skews at verses 19, 23, and 26. John W. Welch, “Alma 36” (August 1988), in the John Welch Chiasmus Collection, BYU Special Collections, MSS 3776, Box 3, Folder 74 (Folder title: “Chiasmus in Alma”). Depicts the skew at verse 3 but not the skew at verse 28. [Page 266] John W. Welch, “A Masterpiece: Alma 36,” in Rediscovering the Book of Mormon , ed. John L. Sorenson and Mel Thorne (Salt Lake City: Deseret Book; Provo, UT: FARMS, 1991), 114–31. In his depiction of the “Overall Structure” (p. 117), Welch depicts the skew at verse 28 but not at verse 3. In his “Full Text” presentation (pages 119–24), Welch depicts the skew at verse 3 but not the skew at verse 28. Donald W. Parry, The Book of Mormon Text Reformatted According to Parallelistic Patterns (Provo, UT: Foundation for Ancient Research and Mormon Studies, 1992), 278–81. Depicts the skew at verse 3 but not the skew at verse 28. Jeff Lindsay, “Chiasmus in the Book of Mormon,” https://www.jefflindsay.com/chiasmus.shtml and https://www.jefflindsay.com/chiasmus.shtml#alma36 , last updated December 30, 2020. Depicts the skew at verse 28 but not the skew at verse 3. John W. Welch and Greg Welch, Charting the Book of Mormon (Provo, UT: Foundation for Ancient Research and Mormon Studies, 1999), chart 132. Depicts the skew at verse 28. David Demke and Scott Leigh Vanatter, “Alma 36: Nothing So Exquisite and Sweet,” May 16, 2000, https://web.archive.org/web/20000516202552/http://www.geocities.com/CapitolHill/3500/bomal36.html . Depicts a proposed skew at verses 23–26. Donald W. Parry, Poetic Parallelisms in the Book of Mormon: The Complete Text Reformatted . (Provo, UT: Neal A. Maxwell Institute for Religious Scholarship, 2007). Depicts the skew at verse 3 but not the skew at verse 28. Yvonne Bent, “Alma 36, Summary outline – extended,” in “Discoveries in Chiasmus: A Pattern in All Things,” unpublished, 2010, in the John W. Welch Chiasmus Collection, BYU Special Collections, MSS 3776, Box 16, Folder 60. Depicts the skew at verse 28 but not at verse 3. Jeff Lindsay, “‘Arise from the Dust’: Insights from Dust-Related Themes in the Book of Mormon, Part 3: Dusting Off a Famous Chiasmus, Alma 36,” Interpreter: A Journal of Latter-day Saint Faith and Scholarship 22 (2016): 299, https://journal.interpreterfoundation.org/arise-from-the-dust-insights-from-dust-related-themes-in-the-book-of-mormon-part-3-dusting-off-a-famous-chiasmus-alma-36/ . [Page 267] Depicts skew at verse 28 but not at verse 3. Noel B. Reynolds, “Rethinking Alma 36,” in Give Ear to My Words: Text and Context of Alma 36–42 , ed. Kerry M. Hull, Nicholas J. Frederick, and Hank R. Smith (Provo, UT: Religious Studies Center, 2019), 451–72; also Noel B. Reynolds, “Rethinking Alma 36,” Interpreter: A Journal of Latter-day Saint Faith and Scholarship 34 (2020): 279–312, https://journal.interpreterfoundation.org/rethinking-alma-36/ . Depicts the verse 28 skew in his multi-level analysis (his element D*d*) and notes the reversion at verse 3 though not analyzing it as a skew.
+
+Mormon’s Editorial Insertions Manifesting Awareness of Deuteronomy:
+
+  - Deuteronomy 6:12 (“beware lest thou forget the Lord”); Alma 46:8 (beware lest thou forget the Lord) Deuteronomy 34:5‒6 (“no man knoweth of [Moses’] sepulchre”); Alma 45:19 (“we know nothing concerning [Alma’s] death and burial”) Deuteronomy 10:17 (the Lord “regardeth not persons”); Alma 1:30 (faithful people of the church had “no respect to persons”)
+
+People of Ammonihah’s Awareness of Deuteronomy’s Law of Witnesses:
+
+  - Deuteronomy 17:6 (the law of witnesses); Alma 9:2 (the law of witnesses)
+
+Amulek’s Awareness of Deuteronomy’s Teaching About Punishment for Sin:
+
+  - Deuteronomy 24:16 (men are punished for their own sins); Alma 34:11 (men are punished for their own sins);
+
+Alma’s Own Awareness of Deuteronomistic Doctrines and Principles:
+
+  - Deuteronomy 11:9 (obey and the Lord will “prolong your days in the land”); Alma 9:16 (speaking of the Lamanites, the Lord will “prolong their existence in the land”); [Page 279] Deuteronomy 18:15 (“the Lord thy God will raise up unto thee a Prophet”); Alma 33:19 (Moses spoke of a Prophet, the Son of God, who would be “raised up”); Deuteronomy 26:7 (“when we cried unto the Lord God of our fathers, the Lord heard our voice”); Alma 9:26 (the Son of God is “quick to hear the cries of his people”) Deuteronomy 26:7 (when we cried unto Him, the Lord “looked on our affliction, and our labour, and our oppression); Alma 36:3 (those who put their trust in God shall be supported “in their trials, and their troubles, and their afflictions”). Note that in addition to correspondences between Deuteronomy 8 and Alma 36 generally, the message of Deuteronomy 26:6‒9 (the triplet of “affliction, labour, and oppression”) seems intimately related to the message of Alma 36:3, 27 (the triplet of “trials, troubles, and afflictions”). Deuteronomy 29:20 (“the Lord shall blot out” the name of him whose heart turneth away from the Lord our God); Alma 5:57 (the names of the wicked “shall be blotted out”).
+
+It therefore may be at least plausible to suggest that Alma might have drawn upon some of the message of Deuteronomy 8 when fashioning his commandment to his son Helaman.
+
+---
+Notes
+
+[1] Many analysts have proposed that numerous lengthy scriptural texts are chiastic. The analysts often use indented lines, underlining, enhanced fonts, and numbers or letters to depict identified words, phrases, or ideas in the first half of a lengthy text and show how they are repeated, generally in mirror image reversed sequence, in the second half of the text. Chiasms may have one central element (such as A-B-C-D- E -D'-C'-B'-A') or two (such as A-B-C-D- E – E '-D'-C'-B'-A'). 1 A proposed mirror-image chiasm over the 21 verses of the text of Psalm 71 is an example:
+
+[2] A'   Praise for deliverance (vv. 19–21) 2
+
+[3] A When Israel went forth out of Egypt The house of Jacob from a people of strange speech, 1 B Judah became his sanctuary, Israel his dominion. 2 C The sea saw it, and fled, The Jordan turned back. 3 D The mountains skipped like rams, The little hills like lambs. 4 C' What aileth thee, O sea, that thou fleest? Thou Jordan, that thou turnest back? 5 D' Ye mountains, that ye skip like rams? Ye hills, like lambs? 6 B' At the presence of Adon tremble, thou earth, At the presence of the God of Jacob, 7 A’ Who turneth the rock into a pool of waters, The flint into a fountain of waters. 3 8
+
+[4] The above can be identified as an A-B-C-D-D '-B' – C' -A' skewed chiasm. The skew occurs because the sequence of elements in the first flank of the chiasm, from elements A through D, is not perfectly mirrored [Page 194] by symmetrical reversal of D' through A' in the second flank. The flow of the hypothetical text from D' to A' in the second half of the text features the skew at the transition from element D' to element C'. If an analyst wrongly expects and seeks to identify mirror symmetry in a text when the text actually manifests asymmetry caused by a skew, the analyst might proceed with the expectation that the transition from elements A to D in the first half (the first flank) of the text will be answered in precisely the reversed sequence, as D' to A', in the second flank, thus improperly imposing symmetry, perhaps by ignoring some of the text. 4
+
+[5] Skews are said to result from what some refer to as “symmetrophobia,” defined as an author’s purposeful avoidance (not fear ) of symmetry, perhaps inspired by the second commandment, perhaps inspired by superstition, or by a quest for beauty, or to create emphasis. Symmetrophobia is defined as “a characteristic asymmetry (as in ancient Egyptian architecture and in Japanese design) implying an aversion to symmetry.” 5 As discussed by Charles H. Talbert, asymmetry in ancient texts was (according to him and others) apparently the rule and not the exception:
+
+[6] Why these imperfections if the author intended a chiastic architectural pattern? One does not have to look far for an answer. Imperfections of form are the rule in antiquity. They are found in all the various classical sources to which we referred earlier. It was, moreover, a stated rule that perfect symmetry was to be avoided (e.g., Horace, On the Art of Poetry , 347ff.; Longinus, On the Sublime , 33, 1; Demetrius, On Style , 5, 250). For the Classical mind “pure form is never beautiful; it is neither natural nor living. It is the infinite minute variations within the law of form which give beauty both to nature and the greatest art.” Flaws in symmetry were also the rule in the Ancient Near East. G. A. Smith’s term for it is “symmetrophobia,” an instinctive “aversion to absolute symmetry” which may “express itself in arbitrary and even violent disturbances of the style or pattern of the work.” 6
+
+[7] This is where the idea of the skew, the existence of “skewed chiasmus,” and the concept of asymmetry in chiasms come into play. The term “skewed chiasmus” was coined by William L. Holladay and refers to “a chiasmus which, after the midpoint, begins its way back, only to plunge [Page 195] forward briefly once more. … It is a striking compromise between the chiastic pattern and sequentiality.” 7 By “sequentiality,” Holladay means a reversion to direct parallelism. Citing Holladay, 8 Wilfred G. E. Watson differentiates “straightforward structural chiasmus” from “other forms of chiasmus” and identifies four types of these “other” forms of chiasmus, saying they are “based on different principles,” one of them being “skewed chiasmus.” 9 Says James E. Patrick, “[A]s regards deliberate asymmetry beyond that of the central climax, structural imbalance can be a technique for emphasizing particular passages.” 10 Jerome T. Walsh refers to a skew as a “disturbance” and observes, “[T]he clearer the fundamental symmetry and the more obtrusive the disturbance, the more the asymmetrical element draws a reader’s attention.” 11 Walsh elsewhere identifies an “imperfect concentric pattern” of A-B-C-D- B' – C' -A' in a proposed chiasm of Isaiah 41:1–20, manifesting what he characterizes as an “irregularity in the pattern” and an “awkward” interruption occasioned by the skew at verses 14–16: 12
+
+[8] [Page 196] The reason for the asymmetry is that, in each case, Yahweh’s help (“Do not fear, … I have helped you”; vv . 10, 14) must be announced before the poet can depict the results of that help. 13
+
+[9] [B]alanced literary patterns (whether symmetrical or repetitive parallelism) in the ancient world normally contained asymmetric elements. Ancient authors on rhetoric or literary criticism may be cited either praising the lack of perfect balance or condemning too perfect balance. (The fact that it is apparently easier to find such statements in ancient writings than statements arguing for extended balance perhaps implies that balance in literary compositions was taken for granted, consciously or unconsciously.) … [F]rom a rhetorical perspective, an effective way to emphasize an element is to make it stand out from the general rhetorical pattern. 14
+
+[10] On the one hand, in 1965, Paul Gaechter characterized symmetry as a feature “accomplished by an equal number of pericopes preceding and following a central pericope” that “correspond in placement (i.e., in their distance to the center).” 15 Responding to what he refers to as John W. Welch’s 1981 “plea” for objectivity in identifying chiasmus, Ian Thomson suggests as one of his own “three requirements … without the fulfilment of which an alleged pattern could not be accepted as chiastic” a precondition that “the symmetrical elements will be present in precisely inverted order.” 16
+
+[11] The existence of non-balancing elements in an otherwise well-developed symmetrical pattern must be very carefully accounted for … [S]uch deviation may, in fact, be very significant exegetically. To allow even one such non-balancing pair may arguably be seen as a compromise with the stated priority of objectivity and clarity of parallels. However, … it is often the paradoxical presence of asymmetries in a pattern, built by definition on symmetry , that draws the reader’s attention to the content of those elements, giving them consequently more prominence. 17
+
+[12] Another kind of asymmetry in a chiasmus occurs when no clear parallel can be seen between a single pair of elements in an otherwise viable pattern. There are a number of possible explanations. 18
+
+[13] Thomson then notes five explanations: (1) accidental or unintentional imbalance created by the author, something that “could never be proved”; (2) inability of the author to sustain the pattern (considered unlikely); (3) an overriding consideration attracting the author’s attention, or an author’s distraction; (4) “cultural aversion to perfect symmetry” (citing George Adam Smith); and (5) deliberate use by an author of asymmetry or imbalance “as an emphasizing device.” 19 On this last point, Thomson cites Van Dyke Parunak 20 and quotes him: “In this case the emphasized item is highlighted precisely because it does not fit into the expected symmetrical scheme.” Noting that Van Dyke Parunak calls this phenomenon a “broken chiasm,” Thomson adds, “The author produces his effect by the unexpected absence of parallelism.” 21
+
+[14] R. Alan Culpepper states as a consideration in the task of discerning chiasmus that “one should generally not expect perfect symmetry or complete adherence to the identifiable pattern.” 22 Cheryl Exum and Charles Talbert cite Smith on this point and add that “chiastic structures are often accompanied with an intentional flaw.” 23 Without using the term skewed , Welch refers to a skewed chiasmus as one with an inversion that is “less than perfect.” 24 And while taking issue with use of the term symmetrophobia , Ernst R. Wendland refers to “certain deliberate alterations to basic generic patterns as a means of augmenting the artistic appeal and rhetorical impact of the discourse.” 25 Says Wendland further:
+
+[15] In the hands of the Hebrew composers (cf. 1 Chr 6:31), literary structure was never a straitjacket but was always a flexible tool [Page 198] whereby subdued as well as powerful communicative effects could be achieved when the need arose. 26
+
+[16] To designate such subtle structural modifications by the term “symmetrophobia” suggests a certain artificiality or undue arbitrariness in this compositional strategy. On the contrary it was skillfully exercised to accomplish specific rhetorical objectives within the text — that is, in addition to the general aim of using formal difference to enhance similarity. 27
+
+[17] Leslie C. Allen simply refers to Smith’s symmetrophobia as “a refreshingly human aspect of Hebrew composition.” 28 Victor M. Wilson goes so far as to state that the symmetrophobia to which Smith referred (at least insofar as the feature appears in Hebrew texts) was occasioned by obedience to “the second commandment (Exodus 20:4, Deuteronomy 5:8), forbidding the making of any representation or likeness of God, compell[ing] the author to build an occasional flaw into the system.” 29 Says Angelico di Marco regarding asymmetry in chiastic poetic texts, “[W]e are in the field of literature and not in that of geometry; for the poetic compositions … smaller deviations can be expected.” 30 Similarly, in discussing asymmetry in Psalm 145, Jonathan Magonet notes a numerical asymmetry in the text and warns:
+
+[18] It is worth noting that the sections [Psalm 145:4–10 and 145:14–20], though both consisting of seven verses, are asymmetrical in their form: the first one has two verses enclosed by a set of four and one, the second has one verse enclosed by a set of three and three. The possibility of such asymmetry in a concentric structure is an important point to remember, both as a warning against attempting to recognize or impose too tidy a pattern upon the text (and rearrange where it does not fit!) and as a further indication of the freedom of the author to play with the form, and the reader’s expectations, in whatever way he wishes to achieve his effects. Perhaps this is also an indication of the feeling that total symmetry is a dangerous thing (so that, I understand, into the pattern of every Persian carpet a flaw is deliberately built). 31
+
+[19] J. Paul Tanner refers to “asymmetrical patterns where there is a disruption of the symmetry for the purpose of causing something to stand out for emphasis.” 32
+
+[20] A'   they believed in the Lord (31) 33
+
+[21] G'   Save your souls (19–20) 34
+
+[22] One noteworthy current-day proposal of a skewed chiasm is that evidenced by Welch in the chiastic structure of the combined texts of Leviticus 18 and 20. 35 The proposal is rewritten below in the conventional method with indented left margins but with text omitted to more readily show the correspondences and skews, with elements A to W representing the text of Leviticus 18 and elements W’ to A’ representing the chiastic counterpart text of Leviticus 20:
+
+[23] Welch identified asymmetrical chiasmus in Alma 36 in 1988, 1989, 1991, and 1999, and others noted it in 1986, 1992, 1999, 2000, 2007, 2010, and 2019/2020, all resulting from one, two, or three of six various skews they each discerned and depicted in verses 3, 19, 23, 26 (x 2), or 28. 36 But apart from one comment by Noel B. Reynolds 37 concerning what here will be referred to as a rare form of skew in verse 3, and apart from Jeff Lindsay’s observations about the skew he observes in verse 28, 38 there is essentially no discussion of the skews the analysts otherwise have only depicted. Among proposals advanced over the years discerning a chiasm in Alma 36, those that have noted a skew in the proposed chiasm of the chapter have identified one proposed skew each, either at verse 3, at verse 19, at one of two places in verse 23, at verse 26, or at verse 28, with one analyst, Wright (1986), identifying three skews in the text (at vv. 19, 23, and 26). Three of the skews most often identified by these analysts are evaluated next to seek to learn if any of those three skews may be beneficial to analysis of the chapter as a chiasm. 39
+
+[24] Alone in 1991 40 and together with his son Greg in 1999, 41 Welch depicted but did not discuss a skew in the proposed pattern over the text of verse 28. Years later, in 2016, Jeff Lindsay 42 would not only refer to but also discuss this verse 28 skew, though not using the terms skew or asymmetry . He identifies the feature as creating one of the “loose spots” in the chiasm, with text, as he says, “apparently showing up a verse late (due to a slip or more of a necessity in the original language or a translation issue?)” 43 Lindsay notes that the “raised up at the last day” phraseology of verse 28 corresponds to the “lifted up at the last day” phraseology of verse 3, serving respectively as the opening and closing elements of what he terms the “rising strand,” stating that the verse 28 skew otherwise is “out of place” and “works better” if “moved slightly.” 44
+
+[25] A'   This according to his word (v. 30) 45
+
+[26] If the earlier discussion of skews, skewed chiasmus, and chiastic asymmetry is plausible, it would suggest that the presence of the skew in verse 28 and the resulting asymmetry of the proposed chiastic pattern need not be rejected. Indeed, the skew identified here also is manifest when the proposed chiasm of Alma 36 is subjected to “levels analysis,” as discussed by Noel B. Reynolds in 2019 and 2020 and as shown by others earlier. 46 The concept of “levels analysis” will be examined further below, and the verse 28 skew will be evaluated in light of that analysis.
+
+[27] I'   “and the knowledge which I have is of God.” (26) 47
+
+[28] The above proposed skew is not manifested as a skew in the levels analyses offered either in 2019 and 2020 by Reynolds or in 1997 and 2000 by Demke and Vanatter; 48 only Wright depicts an asymmetrical chiastic pattern over the text of verse 26. The proposals by Reynolds and by Demke and Vanatter will be discussed further below in light of Wright’s proposed verse 26 skew.
+
+[29] In 1988, Welch was the first to recognize and record (albeit in an unpublished study 49 ) the verse 3 skew of Alma 36. Welch’s proposal, otherwise depicting a chiasm for the entire chapter, quotes all of the [Page 205] text of the chapter, rewrites the text to display not only the various correspondences between elements of the proposed overall chiasm of the chapter but also smaller chiasms and parallelisms within each of the elements of the proposed overall chiasm of the text. As a subpattern for the text of the first four verses of the chapter, Welch suggests an A-B-C-D-A-E-F… pattern — thus showing an element A reversion in verse 3 (“my son … hear my words”), hearkening back to the A element of verse 1 (“My son, give ear to my words”). The skew thus appears as a second element A in the first half of the chapter , comprised of words found in the first half of verse 3 (“my son … hear my words”), repeating the concepts and some of the words of verse 1 (“My son, give ear to my words”).
+
+[30] It should be noted that the proposed verse 3 skew is different from the skews proposed for verses 26 and 28. While skews generally result from a reversion to direct parallelism only after the middle of a chiastic text, as with verses 26 and 28, the reversion to direct parallelism here, in verse 3, repeating element A prior to the middle of the text, can be characterized as a special instance of a skew. Other instances of skews in the first half of a chiastic pattern are evident elsewhere — for example, in the A-B-C- B' -D-D'-C'-B''-A' pattern of Jeremiah 23:1–4 50 and the A-B-C-D-E-F- D -G-H-I-J- G -K-L-M-M'-L'-J'-H'-G''-F'-E'-H''-D'-F''-I'-K'-A'-B'-B''-A'' pattern of Deu­ter­on­o­my 7:1–26. 51 Perhaps in the face of examples such as those, it indeed might well have been appropriate for Welch and Parry early on to have suggested that the text of the first half of verse 3 of Alma 36 may be part of a reversion to the A element of verse 1 rather than being, as Reynolds describes it, “largely independent from the rest of the presentation’s structure.” 52
+
+[31] It is important also to note the history of treatment of verse 3 in chiastic analysis of Alma 36. In 1989, Welch slightly refined his full-text 1988 proposal. 53 In that refinement of his proposal for Alma 36, he did not note the skew of verse 3. However, when Reynolds published his “Rethinking Alma 36” paper three decades later (in 2019 in Give Ear to My Words 54 and in 2020 in Interpreter 55 ), he stated that he was offering “extensions and modifications” of Welch’s 1989 analysis. 56 The verse 3 skew that Welch had depicted in 1988 but had not depicted in 1989 [Page 207] nevertheless was indeed accounted for (though not depicted as such) in Reynolds’ 2019/2020 analysis. 57 Reynolds depicts an a-b-c-d || a-b-c-d direct parallelism between the text of the first half of verse 3 with the text of the second half of verse 3, with no correspondence depicted between verse 3 and verse 1, though he nevertheless offers in the 2020 version of the paper an insightful observation about how the repetition of Alma’s command to Helaman falls outside of the rhetorical structure of the chapter. 58 Reynolds’ analysis accounts for all of the text of the chapter and therefore necessarily includes the skew, even though he does not refer to it as a skew. In accounting for the text of verse 3 (which in this present paper is considered to be a special form of skew, appearing as it does in the first flank of the chapter-wide chiasm), Reynolds refers to the text of verse 3 as a “repetition and expansion” of the appeal Alma made to his son Helaman in verse 1. 59 And Reynolds sets off the text of the first half of verse 3 from his depiction of the rest of the text, thus acknowledging the importance of the first half of that verse. Reynolds provides the following insight into the important role played by that part of the text of that verse:
+
+[32] Verse 3 begins with a repetition and expansion of the same appeal to Alma’s son Helaman made in verse 1. These statements addressing his son as the audience provide the second of six such forms of address that are largely independent from the rest of the presentation’s structure, though they are rather evenly distributed — three in each half of the chiasm. This second appeal, however, is unique in that it points to Helaman’s youth as Alma’s reason for sharing these words and for encouraging him to learn from his father. Presumably, this appeal, like the teaching that follows, is intended to have universal application to all who may benefit from Alma’s teaching, and especially to the youth. 60
+
+[33] In 1991, Welch published “A Masterpiece: Alma 36,” a chapter in Rediscovering the Book of Mormon , 61 that provided what Reynolds characterizes as Welch’s “much abbreviated” summary of the 1989 study. 62 In his 1991 “Masterpiece” chapter, Welch again depicts the skew of verse 3 though he does not discuss it. 63 Concerning this verse 3 skew, it should be observed that in his 1992 Book of Mormon Text Reformatted According to Parallelistic Patterns , 64 Donald W. Parry quotes the entire text of Alma 36, and in displaying patterns of the text, he too depicts the skew of verse 3 (without discussing it), supporting Welch’s 1988 analysis and foreshadowing the importance Reynolds places on it.
+
+[34] In order to evaluate whether any of the skews identified in the proposed chiasm of Alma 36 might enhance “levels analysis” of that proposed chiasm, we must first address what “levels analysis” is. Simply put, it consists of analyzing a text both to discern an overall chiasm formed by the reversed repetition of large sections of text (on one level) while also analyzing structures of smaller portions of text within each of the larger sections to discern what additional chiastic, parallelistic, or other rhetorical features appear there (on another level). In 1975, David J. Clark emphasized “that multiple levels of patterning may coexist, superimposed and interpenetrating. The recognition of one of them does not necessarily involve the repudiation of others.” 65 Similarly, in analyzing portions of the book of 2 Samuel, Charles Conroy notes that “chiastic disposition, understood in the strict sense of an A-B-B'-A' pattern, can be noted on the level of verbal expression (17:6; 18:20; 19:1,7,28,39,44), on the level of sentence-types or syntactical elements (14:24; 19:12f.), and on the level of content elements (17:24–29; 19:7; 19:20–24).” 66
+
+[35] With regard to these elements four different levels should be distinguished: (1) the verbal level; (2) the level of narrative technique; (3) the level of the narrative world; (4) the level of the conceptual content. 67
+
+[36] Regarding “the Verbal Level,” Bar-Efrat stated, “The analysis of structure on this level is based on words and phrases.” Regarding “the Level of Narrative Technique,” Bar-Efrat noted, “The analysis of structure on this level is based on variations in narrative method, such as narrator’s account as opposed to character’s speech (dialogue), scenic presentation versus summary, narration as against description, explanation, comment, etc.” 68 Regarding “the level of the Narrative World,” Bar-Efrat observed, “The analysis of structure on this level is based on the narrative content as created by the language and the techniques. The two chief components of narrative content are characters and events (other components are setting, clothes, arms and similar items).” 69 And regarding “the Level of Conceptual Content,” Bar-Efrat stated, “On this level the analysis of structure is based on the themes of the narrative units or the ideas contained therein.” 70
+
+[37] [Page 209] As another example of levels analysis, in 1981, Yehuda T. Radday noted specifically that “chiasmus in the Scroll of Ruth reaches to many levels,” 71 and he noted generally also that
+
+[38] where we are dealing with chiasmus in small units, it is easy to speak of a rhetorical or stylistic device which the author consciously employed. Should it be any more difficult to account similarly for larger arrangements when the very same pattern recurs over and over again, on all levels of organization, within a volume whose vast composition spanned the course of a millennium and when almost one hundred writers had a share in its composition and collation? 72
+
+[39] Similarly, in 1995, Neil R. Leroux observed, “Chiastic structure can occur at many linguistic levels: ‘lower’ levels of letter-sounds, syllables, and words; or ‘higher’ levels of phrases, sentences, even larger units such as what we today often set off as paragraphs and chapters.” 73
+
+[40] In his own discussion of chiasmus in Alma 36, Reynolds cites to Roland Meynet, 74 who, Reynolds says, gives “the most detailed explanation of rhetorical levels.” Meynet published his two extensive works concerning levels analysis in 1998 75 and 2012. 76 Meynet’s explanation is thoroughgoing and comprehensive, and he places “levels analysis” in its historical context. 77
+
+[41] An easily understood, simple, and yet elegant example of levels analysis is H. Douglas Buckwalter’s analysis of Luke’s Travel Narrative, 78 as represented below, with the structure of an overall chiasm for all of the text of Luke 9:51 through Luke 19:27 depicted in the first three columns in the following table and with the parallelistic structures (chiasms and direct parallelisms) appearing in subordinate levels of that same text depicted in the fourth column:
+
+[42] Reynolds likewise depicts numerous similar structures at the subordinate levels of his analysis, accounting as he does for rhetorical features in all of the text of Alma 36. Reynolds does not claim to be the first to introduce levels analysis to a study of the chiasm of Alma 36. [Page 211] Regarding levels analysis in “Hebrew writing” generally, 79 Reynolds’ discussion of levels analysis and the depiction of his proposal regarding Alma 36 builds upon, expands, and brings nearly to completed fruition all prior discussions or depictions of this sort of analysis. Numerous other analysts previously had exemplified levels analysis of Alma 36. 80
+
+[43] In his analysis of Alma 36, Reynolds perceives the following overall chiasm for the chapter. His proposal is rendered here in the more common indented-left-margin format, retaining here the quoted and paraphrased wording chosen by Reynolds, and adding here the verse number references he supplies for his quotations and paraphrases: 81
+
+[44] Reynolds refers to the above analysis as his “Level 4 Analysis.” Necessarily it omits reference to significant amounts of text (vv. 5, 7–9, 12–14, 20–21, 25, and 28), text otherwise accounted for in other levels of his analysis . For example, in analyzing sections B and B* Reynolds discerns a direct parallelism of a-b-c | a-b-c || a*-b*-c* within elements B and B*: 82
+
+[45] The above three a-b-c | a-b-c || a*-b*-c* direct parallelisms represent Reynolds’ “Level 5” analysis of those two level-4 B and B* elements. When Reynolds advanced his 2019/2020 multi-level proposal, he accounted for patterns in text previously omitted from others’ proposals. In doing so he stated, “While criticisms of published chiastic analyses of Alma 36 have pointed to large sections of text that are not readily included in the traditional chiastic analysis of that chapter, application of the tools of Hebrew rhetoric reveals a chiastic structure that appears to be fully organized at subordinate levels , leaving no extra text unaccounted for in the analysis.” 83 Although Reynolds does not specify what the “unaccounted for” text is that he says critics identify as omitted by other analysts, recourse to the criticisms identified in his footnote 5 and discernible otherwise reveals that one of the “sections of text” that previously were “not readily included in the traditional chiastic analysis” was part of the text of verse 3 (specifically the lone word “words”). 84 Critics had considered the appearance of “words” in verse 3 to be an unanswered element — a “maverick” appearance of the word as Welch would term it 85 — a word with no counterpart in the second half of the chapter’s text. Yet when the word is considered to be part of a special skew consisting of all of the words of the first half of verse three, it rightly is seen as a parallel to and an “expansion” of the verse 1 salutation.
+
+[46] E'   As God brought our fathers out of bondage and captivity (vv. 28–29) 86
+
+[47] D 3 And now, O my son Helaman, a   behold, thou art in thy youth, b   and therefore I beseech of thee c   that thou wilt hear my words d   and learn of me, ~ a   for I do know b   that whomsoever shall put his trust in God c   shall be supported in their trials and their troubles and their afflictions d   and shall be lifted up at the last day . D' 27 c'   And I have been supported under trials and troubles of every kind, yea, and in all manner of afflictions . i   Yea, God hath delivered me from prisons and from bonds and from death. b'   Yea, and I do put my trust in him i   and he will still deliver me. 28 a'   And I know d ' that he will raise me up at the last day, i   to dwell with him in glory. Yea, and I will praise him forever. (ballast line) 87
+
+[48] within the pattern of the chiasm that is proposed to structure the entire chapter, as with Welch and Welch (1999), 88 with the text of verse 28 forming a skew visible in the depiction of the chiasm that otherwise spans the entire chapter, 89 or in a subordinate-level (“level-5”) flank of a short chiasm, such as what Reynolds proposes as the a-b-c-d || c-b-a-d skewed structure for the text of verses 3 and 27–28, which is where Reynolds accounts for those phrases, without labeling it as [Page 215] a skew, a special sort of skew not visible or accounted for in the depiction of the level 4 chiasm proposed for the entire chapter.
+
+[49] Thus the appropriateness and success of the approach taken by Reynolds lies in the fact that he accounts for all of the text of Alma 36. Alma wrote a text, not an outline. The level-four analysis presented by Reynolds is built on what he calls the “key parallel semantic elements.” 90 And in the subordinate levels of his analysis, he accounts for all of the text of the chapter, discerning not only the parallels that are noted in his level-4 analysis but also all of the parallels that he notes in the single-level analyses of others, including Welch and Welch (1999). While level-4 analysis by Reynolds identifies a chapter-wide concentric organization for the chapter based on elements fashioned on quotations and paraphrases selected from the text, the selection of elements for his level-4 analysis is indeed only a selection . That means that in presenting his chapter-wide concentric structure, he could well include reference to the missing text for which he otherwise accounts.
+
+[50] For example, the “parallel semantic elements” he chooses to exemplify as his elements D and D* at level 4 do not draw upon all of the text within the “sub-units” or “text units” that he defines as his D and D* text units. Brevity of expression in a short article is a virtue; but characterization of what fully the text of Alma 36 itself reflects as one of the seventeen main proposed elements of “the concentric organization of Alma 36,” might well merit full expression. Reynolds describes the “parallel semantic elements” of D and D* as “‘trust in God’ and ‘be supported in trials, troubles’ and afflictions (faith in Jesus Christ and enduring to the end).” 91 But what of the remaining text within the D and D* units? Putting aside for now the “ballast line” of verse 28 (“Yea, and I will praise him forever”) and putting aside also what Reynolds describes as the two level-6 commentaries of Alma’s “personal facts” (“from prisons and from bonds and from death” and “he will still deliver me” of verse [Page 216] 27), Reynolds identifies the following as the subelements within his unit D (v. 3b) that correspond with the subelements within his unit D* (vv. 27–28) — namely, a to a*, b to b*, c to c*, and d to d*, with the subelements of D* forming neither a direct parallelism nor a symmetric chiastic parallelism, those subelements of D manifesting, instead, a sequence that otherwise manifests as a c*-b*-a*-d* skew:
+
+[51] D/D* “trust in God” and be “supported in trials, troubles,” and afflictions (faith in Jesus Christ and enduring to the end), 92 [when I] shall be lifted up at the last day.
+
+[52] Perhaps what has been said above about the verse 3 skew is sufficient to show it may be a special kind of skew, reiterating the v. 1 salutation of Alma to Helaman rather than being simply a diversion in the text. Reynolds [Page 218] refers to it as “a repetition and expansion of the same appeal to Alma’s son Helaman made in verse 1.” 93 That, of course, is accurate. But perhaps here it could be added that the first half of the text of verse 3 constitutes not only a reversion to the thought and wording of verse 1 (a repeat of element A) but also perhaps the closing of an attention-promoting chiastic statement from father to son. Reading only the two and one-half verses of text as if they first were spoken by Alma to his son 94 and then later recorded in fully crafted written form, the impression perhaps left by the first half of verse three is that it presents the closing phrase of a short A-B 1 -B 2 -C-D-C'-A' rhetorical structure, with two admonitions in B and B', parallel ideas in C and C, and a central idea in D focused on God, closing with a repeated A element (perhaps giving Helaman an initial chiastic message):
+
+[53] The subject matter of the text affected by the skew proposed by Wright (his elements 12' to 9') 95 concerns the concept of “knowledge,” appearing as a reversion to direct parallelism in his elements 10' and 11' of the second half of the text of verse 26 (here replicating only his elements constituting and surrounding the skew):
+
+[54] While Demke and Vanatter in 1997 and 2000 do depict a non-symmetrical parallelistic pattern over the text of verse 26 96 (they are the only analysts other than Wright to do so), Wright’s proposed verse 26 skew may shed light on the proposal advanced by Reynolds.
+
+[55] Reynolds proposes two interrelated a-b-c-c*-b*-a* chiasms, one proposed for the text of verses 4–5 and one for the text of verse 26; the chiasm of verse 26 is reproduced here: 97
+
+[56] Reynolds offers a thorough explanation of the correspondences between the a, b, and c elements of the proposed verse 26 chiasm (shown above) and what he proposes as the corresponding a, b, and c elements of the proposed matching chiasm of verses 4–5 (shown below): 98
+
+[57] Welch identifies the “knowledge of God” theme as a subject of correspondence between verses 4 and 26. 99 The verse 26 skew proposed by Wright (shown in bold earlier above), when combined with the verse 4 / verse 26 correspondence seen by Welch (shown below), suggests additional correspondences for verses 4–5 and 26 beyond those emphasized by Reynolds, albeit still consistent with Reynolds (with underlining and bolding here added to Welch’s proposal such as to identify the additional correspondences):
+
+[58] By thus combining the results of efforts by Welch, Wright, and Reynolds, perhaps the outcome suggests some minor refinements to the multi-level analysis Reynolds has offered. First and foremost is the appearance within the E and E* text units of the Reynolds subordinate-level analysis of two chiasms, a-b-c || c*-b*-a* in E and a-b-c || c*-b*-a* in E*. The skews seem to confirm not only the upper-level Reynolds analysis (that is, his elements E and E* clearly relate to one another) but also the subordinate-level analysis. Perhaps the skews may serve to identify words and phrases in the Reynolds analysis of subordinate levels within E and E*, suggesting maybe that those correspondences should be identified in the Reynolds analysis. For example, note that in Ec*i and Eb* Reynolds does not italicize the phrase “these things” as he does in E*b* 100 and feasibly there is some justification for slight structural refinements of the Reynolds analysis, owing to attention that could be given to the verse 26 skew as proposed by Wright:
+
+[59] [Page 222] And conceivably presentation of the rhetorical structure of element E (verses 4–5) could be enhanced to reflect the following correspondences, set forth here in a format that expands upon that proposed in 2007 by Parry 101 and serves as an alternative to what Reynolds offers 102 (I retain Parry’s bolding here and add underlining to his original underlining and impose it all on Reynolds’ pattern):
+
+[60] Some other skews have been proposed for the chiasm of Alma 36. Each of them is very much akin to the type of skew evident in the following intermediate-length skewed chiastic text of Leviticus 24. Note the skew in elements B' and C' (v. 23), bolded below in the second flank in the following pattern for Leviticus 24:13–23, as analyzed by Yehuda T. Radday: 103
+
+[61] C'   “ and stoned him ” (23) 104
+
+[62] Identified by Gregory B. Wright, this proposed skew rests upon what he perceives to be the negative correspondence between the phrase “and I stood upon my feet” of verse 23 and the phrase “I fell to the earth” of verse 10 (his elements 15 and 15'): 105
+
+[63] Reynolds also correlates those very same phrases, but not the very same verses containing those phrases . Reynolds correlates to one another as his sub-units Gb* and G*b the texts respectively of verse 11 (not verse 10) and verse 23. 106 The phrase “I fell to the earth” appears both in verse 10 (Reynolds’ subelement Gd 107 ) and in verse 11 (Reynolds’ subelement G*b* 108 ). Reynolds does not correlate the “I fell to the earth” phrase of v. 10 (his sub-element Gd) with the “I fell to the earth” phrase of v. 11 (his sub-element Gb*) or, for that matter, with any text of verse 23. Yet reconciliation of the Wright and Reynolds proposals might yield worthy results, as follows:
+
+[64] Note that Reynolds finds correspondence between the “stood upon my feet” phraseology of verse 23 in the second flank and the “arose and stood up” and the “fell to the earth” phraseology of verses 8 and 11 . 109 On the other hand, Wright by his element 15' skew identifies the “stood upon my feet” phraseology of verse 23 as corresponding with his element 15, the “And it came to pass that I fell to the earth” text of v. 10 . Wright’s analysis, including its skew, may be helpful in suggesting the following minor modification of the internal structure Reynolds proposes for his elements G and G*, and in the process an A-B-C- B -D-E-E-D-C-B-A skewed chiasm emerges within verses 8–11, preserving and enhancing the Reynolds proposal. His proposal is set forth below, with additional correspondences now emphasized, with altered fonts and underlining, including a reversion to direct parallelism at b* in the “fell to the earth” phraseology, thus incorporating the correspondences identified by Wright’s skew:
+
+[65] Such a suggested modification retains and enhances the original Reynolds proposal, recognizes the verse 23 skew proposed by Wright, and recognizes a distant A-B-B'-A' chiasm on the phrases A — “stood up,” B — “fell to the earth,” B' — “fell to the earth,” and A' — “stood upon.” And even though the newly proposed analysis of the “fell to the earth” wording of verse 10 would separate that phrase off from the balance of the text of that verse (as a reversion to the first element b of verse 8), that is what Reynolds already does with his subelements Gb (v. 8), G*b* (v. 11), and G*b (v. 23), emphasized above by single and double underlining. Similarly, while it also is true that the suggested interposition of an element Gb*, constituting a reversion to Gb, interrupts the neat and tidy a-b-c-d-e-e*-d*-c*-b*-a* chiasm of element G over verses 8 through 11, that is the nature of asymmetries caused by skews — something already manifested elsewhere in the multi-level Reynolds analysis of the chapter ( see the a-b-c-d of element D for the second half of verse 3 as Reynolds depicts it, corresponding with the skewed c*-b*-a*-d* counterpart of D* of verses 27–28). 110
+
+[66] Wright proposes the following skew: 111
+
+[67] Additionally, Parry identifies a-b || a-b direct parallels within verse 5 and within verse 26: 112
+
+[68] A proposed slight alteration of the Reynolds proposal for the text of verses 4–5 and 26 would seem to reconcile the proposals of Reynolds, [Page 227] Parry, and Wright and yet retain all of the correspondences seen by all three analysts. As for the skew identified by Wright in verse 26, his correlation of the phrase “Now, behold, I say unto you, if I had not been born of God” (v. 5) with the phrase, “behold, many have been born of God, and have tasted as I have tasted, and have seen eye to eye as I have seen” (v. 26), harmonizes well with the E/E* structure of the Reynolds analysis, 113 as shown here, with bold font employed to highlight within the E/E* Reynolds analysis the correspondence noted by Wright’s verse 26 skew:
+
+[69] [Page 229] The above continues to reflect the correspondences drawn out by Reynolds 114 but rearranges the subordinate level elements (1) to reflect the correspondence between the things // word(s) word pair and other phraseology within the subordinate elements, (2) to retain attention on the six-fold use of “not” as noted by Reynolds, and (3) seemingly to strengthen the attention given to correlations that otherwise appear in the proposed chiasms of a-b-c-c*-b*-a* / a-b-c-c*-b*-a* in the Reynolds analysis.
+
+[70] Wright’s proposed skew correlates the “pains” of verse 19 with the “pains” of verse 16, which in the Reynolds analysis appear in two different level-4 units (unit H and unit I). The “And it came to pass” language (v. 17), however, is so strong 115 that the H-to-I boundary proposed by Reynolds must be seen to prevail. Wright’s proposed verse 19b skew seems to yield to the Iai-to-Ia*i correspondence that Reynolds perceives.
+
+[71] No fewer than nineteen analysts have, over the years, identified what they variously refer to as “laws,” “characteristics,” “rules,” “criteria,” “requirements,” “constraints,” “guidelines,” “controls,” “safeguards,” “axioms,” “assumptions,” “errors,” and “fallacies” useful in the identification and evaluation of texts as chiastic or not. 116 Those analysts are Nils Wilhem Lund (1942), Paul Gaechter (1965), Joanna Dewey (1973 and 1980), David J. Clark [Page 232] (1975), R. Alan Culpepper (1981), David Noel Freedman (1981), Wilfred G. E. Watson (1981), John W. Welch (1981, 1989, 1995), Craig Blomberg (1989), George Michael Butterworth (1992), John Breck (1994), Ian H. Thomson (1995), Mark J. Boda (1996), Bernard M. Levinson (1997), Wayne Brouwer (1999, 2000), David P. Wright (2004), Steven R. Scott (2010), James E. Patrick (2016), and Jonathan P. Burnside (2017).
+
+[72] The range of their statements about symmetry and asymmetry extends from, on the one hand, almost perfect skepticism that an asymmetrical text can also be chiastic to, on the other hand, acceptance of the notion that asymmetry is not only the norm in chiastic texts but even required, even to the point of allowing it to appear abundantly in a text that at the same time also is accepted as chiastic. Perhaps Thomson, in his 1995 text, Chiasmus in the Pauline Letters, 117 best exemplifies the skeptical view, whereby, upon reviewing what he refers to as Welch’s 1981 “plea” for objectivity in the identification of chiasmus, Thomson suggests “three requirements … without the fulfilment of which an alleged pattern could not be accepted as chiastic”:
+
+[73] The chiasmus will be present in the text as it stands, and will not require unsupported textual emendation in order to “recover” it. 118 The symmetrical elements will be present in precisely inverted order. The chiasmus will begin and end at a reasonable point.
+
+[74] Of these three “requirements,” Thomson elucidates: 119
+
+[75] Nothing, perhaps, needs to be said about the first of these, but the second is a little more problematical. Many examples of chiasmus are suggested in which there is a greater or smaller degree of perturbation in the order of the elements in the second half. 120 However, if any disturbance at all in the order of the elements is allowed, the problem becomes that of deciding at what point a perturbation becomes so severe that the pattern fails as a chiasmus. In the present atmosphere, this is a case for erring, if any way, on the side of caution in order to exclude doubtful structures.
+
+[76] Yet Thomson himself also points out that asymmetries may well be accepted as a “paradoxical presence” in a text otherwise acceptable as chiastic. 121 Perhaps the best examples of acceptance of asymmetry in proposed chiasms are those quoted above in this present paper in
+
+[77] Moreover, insofar as whether the numerical extent of skews present in a text affects whether the text can still be accepted as chiastic, it can be noted that O’Connell identifies four skews in his proposed chiasm for Deuteronomy 7:1–26 122 and Yehuda Radday identified five skews in the chiasm he proposed for the book of Esther, two in the book of Jonah, three in the book of 2 Samuel, and eight in the book of Genesis. 123 Those seem to be more significant numbers than the one or two that most analysts identify in Alma 36 (as noted above under the heading “What Skews Have Been Proposed in the Past for Alma 36?”).
+
+[78] It should be noted that of the six potential skews that have been proposed over the years by various analysts of Alma 36 (see endnote 36), only one analyst proposes three skews in the chapter (Wright 1986 in vv. 19, 23, and 26 124 ) and all the others propose either two skews (Welch 1991 in vv. 3 and 28; 125 Reynolds 2019 and 2020 in vv. 3 and 28 126 ) or only one skew (Welch 1988 in v. 3; 127 Parry 1992 and 2007 in v. 3; 128 Lindsay 1999 and 2016 in v. 28; 129 Welch and Welch 1999 in v. 28; 130 Demke and Vanatter 2000 at vv. 23–26; 131 Bent 2010 in v. 28 132 ). While this present paper discusses these six potential skews, I note the following:
+
+[79] One skew appears to be self-defeating (Wright’s proposed “harrowing up” skew of v. 19b 133 ). Of the remaining five potential skews, the one proposed for the text of verse 3 is not truly a reversion to parallelism but instead a reiteration of a salutation appearing in the first half of the text (noted by Welch, 134 Reynolds, 135 and Parry 136 ), treated here as a special sort of skew. One skew proposed for the text of verses 23–26 is an outlier proposed only by Demke and Vanatter in 2000. 137
+
+[80] The verse 28 skew is the one skew that is depicted as such most commonly (noted by Welch, 138 Reynolds, 139 Lindsay, 140 and Bent 141 ). Verses 3 and 28 are the two skews that are most commonly advanced by the analysts and the ones that seem most notably accountable for meaningful asymmetry in the text.
+
+[81] A chiasm proposed in 1990 by the late Robert H. O’Connell for the text of Deuteronomy 8, together with its skew and message, 142 invites inquiry into the possibility of a relationship between Deuteronomy 8 and Alma 36. Perhaps chiastic analysis of Alma 36 may well be enhanced by comparing its message and structure to that of Deuteronomy 8. The earlier text may possibly have been a model for at least a portion of the wording, message, structure, and ideas of Alma 36, including the occurrence of skews in the proposed single-level chiastic structure of each respective text. O’Connell analyzed the “asymmetrical concentric structure” of Deuteronomy 8:1–20, adding to and revising a concentric analysis that in 1963 had first been proposed by Norbert Lohfink. 143
+
+[82] F   to know what was in thine heart (2bβ) 144
+
+[83] A''   because ye would not be obedient unto the voice of the Lord your God . (20b) 145
+
+[84] While O’Connell promises to identify the “possible rhetorical motivations for the asymmetrical distribution of matched tiers” (in elements G', E', and F' of his proposal), 146 he eventually offers only the following, which seems limited to identifying merely an aesthetic purpose or motivation (at best perhaps a purpose solely to enhance the reader’s or listener’s “rhetorical interest” in the text):
+
+[85] Although the author could have adhered to a strictly symmetrical arrangement, it seems that these inner tiers alternate positions and rhetorical roles to enhance rhetorical interest in the palistrophe. Thus, it would appear that the tension which results from architectural and rhetorical arrangements playing off against one another is the product of artifice. 147
+
+[86] Over the years single-level analyses of Alma 36 have, for the most part, identified words, phrases, and rhetorical function of various elements in the proposed chiasm of the chapter. So too with O’Connell’s single-level analysis of Deuteronomy 8:1–20. He supplies two analyses, and the second of them is an abbreviated, vocabulary-based analysis founded on selected words and phrases quoted from the text. In his second analysis, quoted below, he features two observations concerning correspondences in the rhetorical function of his elements H and H' and his elements I and I'. O’Connell states that his elements H and H' relate to one another not by “correspondence in shared vocabulary” but “by virtue of the fact that both comprise purpose clauses which focus on Israel’s covenant welfare” and he states that his elements I and I' “feature multiple evidences of YHWH’s provision of covenant benefits.” 148 His abbreviated, vocabulary-based proposal here follows (here again English wording is substituted for O’Connell’s original):
+
+[87] A' obedient unto the voice of the Lord (v. 20b) 149
+
+[88] Yet, notwithstanding the correspondences O’Connell identifies between and among elements of his proposal — whether they be elements of the full text, 150 elements consisting of selected words and phrases, 151 or elements showing rhetorical correspondences, 152 some amount of the text is not accounted for in his analyses — namely, for one example, text appearing in verses 12–13 (between his elements K' and L'). In short, O’Connell does not account for all of the words and [Page 241] phrases of Deuteronomy 8 in his analyses. Words and phrases that are not accounted for in parts of analyzed texts generally, and that therefore lack correspondence with text elsewhere in those texts, are referred to by Welch as “mavericks.” 153 They are words and phrases that do not contribute to the chiastic pattern discerned; but they may be relevant in a multi-level analysis, which O’Connell does identify in his study, 154 reflecting the interesting “partially symmetrical” pattern of D-E-F-G-H-I || I'-G'-E' / H'-F'-D' in verses 2–4 and 14–18.
+
+[89] the phrase “led thee … in the wilderness” (in v. 2b) and the phrase “led thee through … [that] … wilderness” (in v. 15) are not accounted for; those phrases appear, respectively, between O’Connell’s elements D and E and in within his element I' (which could be considered to be a skewed appearance when included in the single-level analysis); the two appearances of the phrase “these forty years” in verses 2 and 4, seemingly unanswered in the second half of the chapter, are not accounted for; perhaps therefore this omission is indicative of the need for multi-level analysis of verses 2–4, an analysis that might account for those time signals; 155 the seemingly unanswered additional appearance of the phrase “humbled thee” in verse 3a, separate from the already-answered appearances of that phrase in verses 2 and 16b, is not accounted for (perhaps suggesting the need for multi-level analysis of the text of verse 16b); and the two appearances of the phrase “thou has eaten and art full” appearing in verses 10 and 12, both in the second half of the chapter, are not accounted for and apparently do not answer any similar phrases appearing in the first half of the chapter (suggesting perhaps that verses 10 and 12 might well manifest textual structures at other rhetorical levels).
+
+[90] All of these might be considered to result in skews in the chiasm of the chapter when analyzed as a single-level chiasm. And yet perhaps these simply suggest the need to analyze the chiasm of Deuteronomy 8 not solely as a single-level pattern but as one that actually manifests multiple subordinate levels of rhetorical structure to which the skewed text belongs. Perhaps chapter 8 of the book of Deuteronomy is even more [Page 242] complex than O’Connell’s analysis reveals. O’Connell does note that “where there are aberrations from an otherwise consistent symmetrical concentric structure” there may be other “rhetorical functions” at work, and he says they are made more apparent “when we consider the rhetorical function of each tier within the larger semantic units which comprise the chapter.” 156 He does not supply further discussion of the point, though he does state the following:
+
+[91] Concentricity furnishes the architectural framework for Deut. viii and, to some extent, influences its rhetorical structure. This is not consistently the case, however, for, as Lohfink has accurately stated, there are different systems of order throughout the text which stand in tension with the formal structure. 157
+
+[92] We have seen so far that skews, producing asymmetry, may be apparent within the one-level chiastic analyses of the Deuteronomy 8 and Alma 36 texts. This may be so for one of two reasons. Either analysis by modern analysts is incomplete — suggesting the need for more detailed analysis to account for structures to be discerned at subordinate-levels, a need apparently met by the analysis exemplified by Reynolds in his 2019 chapter and 2020 article. 158 Or perhaps the skews themselves, appearing in the text as originally written, were intentionally included in the author’s text either in order to draw attention to the ideas or in order to avoid perfect symmetry. In either case, though, perhaps skews appearing in a chiastic text, be it Deuteronomy 8 or Alma 36, probably should be expressly accounted for in any analysis of the text, be it single-level analysis or multi-level analysis.
+
+[93] Importantly, in referring to Alma 36, Welch has noted that “mind/ caught  // hold/upon the thought” is the precise pivot point of the chapter.” 159 It is noted above that “the preeminence of the word” is “central both to Deuteronomy 8 and to Alma 36.” What Welch also previously has observed should also be noted: “Identical ideas are often distributed in the extremes and at the center of the system and nowhere else in the [Page 243] system.” 160 This observed feature possibly is manifest by the appearance of the word “thought” in Alma 36:18 (at the center) and the appearance of “words” in 36:1 (at the beginning of the chapter) and “word” in 36:30 (at the end of the chapter). That “mind,” “thought,” and “word(s)” are intimately related and thus appropriately appear both in the center of Alma 36 and at its extremes is supported by a number of evidences. For example, it may be relevant also that the note accompanying the appearance of the word “thoughts” in the New English Translation of Proverbs 1:23 states the following concerning the relationship between thoughts, words, and mind:
+
+[94] Heb “my spirit.” The term “spirit” (רוּחַ, ruakh ) functions as a metonymy (= spirit) of association (= thoughts), as indicated by the parallelism with “my words” (דְּבָרַי, d e varay ). The noun רוּחַ ( ruakh , “spirit”) can have a cognitive nuance, e.g., “spirit of wisdom” (Exod 28:3; Deut 34:9). It is used metonymically for “words” (Job 20:3) and “mind” (Isa 40:13; Ezek 11:5; 20:32; 1 Chr 28:12; see BDB 925 s.v. רוּחַ 6). The “spirit of wisdom” produces skill and capacity necessary for success (Isa 11:2; John 7:37–39). 161
+
+[95] This correspondence is especially reinforced by the observations made by Matthew L. Bowen, who notes that Nephi unambiguously asserts “that the ‘word of God’ is a ‘rod’” and that “the Egyptian word mdw means not only ‘a staff [or] rod’ but also ‘to speak’ a ‘word.’” 162 Bowen similarly notes that
+
+[96] the Egyptian word mdw means not only “a staff [or] rod” but also “to speak” a “word.” The derived word md.t , or mt.t , probably pronounced *mateh in Lehi’s day, was common in the Egyptian dialect of that time and would have sounded very much like a common Hebrew word for rod or staff, matteh . It is also very interesting that the expression mdw–ntr was a technical term for a divine revelation, literally the “word of God [or] divine decree.” The phrase mdw–ntr also denoted [Page 245] “sacred writings,” what we would call scriptures, as well as the “written characters [or] script” in which these sacred writings were written. 163
+
+[97] Robert F. Smith cautions: “Sometimes apparent skews are merely a failure of the reader to back off a bit from the surface in order to see a different sort of grouping of elements. For example, … in Deut. 8, might we combine EFG || GEF, rather than dividing them up into three discrete units?” 164 This is true, both of Deuteronomy 8 and perhaps any other proposed chiastic text where analysis discerns a skew. The tension between “combining” two or more proposed elements of a proposed chiasm into one element exists because of the tension between choosing “headings” or “labels” for larger swaths of text, ignoring some swaths of text in fashioning the “headings” or “labels,” and accounting for all of the text being analyzed.
+
+[98] Another cautionary note concerns whether Alma 36 is, indeed, a chiastic text. As mentioned previously, the scope of this present article does not include addressing the question whether Alma 36 is chiastic; the article merely proceeds on the assumption it is. That issue has been addressed by numerous proponents and critics over the years. There is remarkable consistency in analysts’ proposals concerning the basic elements of the proposed Alma 36 chiasm, even in light of refinements in the proposals and especially in light of the levels analysis proposed by Welch, Reynolds, and others. Probably the most prominent biblical example of a chiastic pattern over a text of about the same length as that of Alma 36 is one proposed for Ezekiel 20:3–31 by Leslie C. Allen. 165 Allen proposes an extensive chiasm of A-B-C-D-E-F-G-H-I-I'-H'-G'-F'-E'-D'-C'-B'-A' over those 29 verses. Allen’s proposal is further discussed by the author in the recent volume on chiasmus titled Chiasmus: The State of the Art , published by BYU Studies Quarterly and Book of Mormon Central. 166 Similar chiastic proposals that include skews are set forth in the Appendix below.
+
+[99] This article suggests that asymmetry, symmetrophobia, and skews may at times be relevant to chiastic analysis generally and of Alma 36 specifically. One might ask why would authors purposefully interpose a skew in what otherwise would be a chiastic text featuring perfect mirror symmetry? The answer suggested by a number of scholars is [Page 246] two-fold: (1) avoiding literary perfection, and (2) attracting a reader’s (or listener’s) attention. One might also ask, Does a chiastic text lose its character as chiastic once it reaches a certain threshold of asymmetry? That is: Where is the balance between asymmetry and repetition, between symmetry and seeming chaos? Large-scale chiasms easily survive translation. But shorter texts are subject to question. Where does an analyst draw the line? The concepts of asymmetry and skews may be helpful in confirming and perhaps sometimes suggesting refinements to the rhetorical structures discerned in multi-level chiastic analysis of Alma 36. Some skews previously identified suggest that multi-level analysis of Alma 36 may benefit from awareness of skews. Some features of the reported chiasm and skew recognized in the single-level analysis of the text of Deuteronomy 8 — which itself may noticeably be related to one of the observed skews in a single-level analysis of Alma 36 — may suggest that the former may have served as part of the inspiration for some of the message, 167 wording, and structure of the latter, as may be evidenced by other textual and structural similarities between the two texts.
+
+[100] a. Radday depicts Daniel 2:1–7:28 as follows: 168
+
+[101] b. Radday diagrams the entire book of Esther in this way: 169
+
+[102] c. Radday offers the following depiction of a chiastic pattern for the entire book of Joshua: 170
+
+[103] e. Here is Radday’s depiction of Jonah 3:2–4:11: 171
+
+[104] f. Here Radday portrays the Elijah Cycle of 1 Kings 17:1–2 Kings 2:18: 172
+
+[105] g. Radday advances the following thematic organization for the Scroll of Ruth: 173
+
+[106] h. The book of 2 Samuel receives the following treatment by Radday: 174
+
+[107] i. Radday portrays a chiasmus that serves as a resume for Exodus and Numbers (Exodus 14:11–17:1–7, Exodus 32, and Numbers 11 and 14), which are “arranged symmetrically around Leviticus”: 175
+
+[108] j. Exodus 14:4–31 is depicted by Radday as follows: 176
+
+[109] k. Radday identifies the following chiastic pattern for The Tower of Babel account of Genesis 11:1–9: 177
+
+[110] l. And for Genesis 22:1–19, Radday posits the following chiastic pattern with “deviations from chiastic order”: 178
+
+[111] Other examples of “less ordered” chiasmus might be cited. For example, Welch identifies the following impressive pattern for the First Book of Nephi 179 showing only two elements detracting from a perfect reversal:
+
+[112] On the other hand, Welch also portrays the following chiastic pattern for James 1:1–5:20, manifesting considerable “scrambling” in the second flank: 180
+
+[113] The following is adapted from Radday and Longman on Genesis 6:1–9:19: 181
+
+[114] Y   God remembered Noah 182
+
+[115] The following depicts a chiastic system for the entire book of Revelation drawing upon numerous studies of chiasmus in that text: 183
+
+[116] A note of caution about skews that do appear in single-level analyses but that may not be accounted for or appear in multi-level analyses of the same text: This may result from chiastic patterning actually having been introduced into the text by more than one author or by a redactor, or as appears to be the case with the Flood Narrative by two authors and one redactor. In 1981, Radday perceived the following skewed chiasm for Genesis 6:3–9:16: 184
+
+[117] In 2020, Steven R. Scott 185 not only analyzed the individual chiasms that he could discern from the two authors, the P and J sources, and also a third chiasm produced by the redactor who combined the P and [Page 260] J sources, but he also performed multi-level analysis on the chiasms, all discernible in text of the Flood Narrative. The text that Radday saw as producing a skew (as shown for 8:20 and 9:9 above) is accounted for separately in the P chiasm and the J chiasm. Following are the last three elements of the “P Chiasm” as analyzed by Scott, which manifests the pattern he perceives to be the product of author “P,” showing the pattern that encompasses text from 8:13 through 9:18, skipping 8:20 (part of what Radday otherwise reports as a skew):
+
+[118] b2    Rainbow will make God remember covenant with all flesh 186
+
+[119] A2:   LORD promises never again to destroy all humans and animals (8:21–22) 187
+
+[120] Conclusion: sexual sin and punishment (9:18–10:1) J 188
+

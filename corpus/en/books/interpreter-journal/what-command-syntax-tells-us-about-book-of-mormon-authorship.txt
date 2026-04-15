@@ -1,0 +1,738 @@
+[Page 175] Abstract: The variety of command syntax found in the Book of Mormon is very different from what is seen in the King James Bible. Yet it is sophisticated and principled, evincing Early Modern English linguistic competence. Interestingly, the syntactic match between the 1829 text and a prominent text from the late 15th century is surprisingly good. All the evidence indicates that Joseph Smith would not have produced the structures found in the text using the King James Bible as a model, nor from his own language. The overall usage profile of command syntax seen in the Book of Mormon strongly supports the view that the Lord revealed specific words to Joseph Smith, not simply ideas.
+
+This paper considers the systematic use of the verb command when it governs another verb, in both the 1829 Book of Mormon and the 1611 King James Bible (excluding the Apocrypha). This analysis leads to some important conclusions in relation to Book of Mormon authorship. Because there are profound differences between the two scriptural texts, and because there are more than 150 instances of command syntax in each text, it is possible to make strong claims with respect to this question.
+
+As part of this study, some structural properties of command syntax are examined. The two main parameters to be investigated are (1) whether an infinitive or a finite verb [Page 176] follows the command verb, and (2) whether the command verb itself is in the active voice or in the passive voice.
+
+As shown in this paper, the Book of Mormon is a relatively strong match with an important 1483 English translation out of Latin by the early printer / publisher / translator William Caxton. From this match we can conclude that the Book of Mormon’s systematic use of command syntax is not unheard of in the annals of English literature. Yet neither is it commonly found. Although I have discovered that another text is close to the Book of Mormon in terms of command syntax, the particular usage patterns were not prevalent in the general textual record, and they have been thoroughly obscured by language change and the passage of time.
+
+While the forms found in the Book of Mormon constitute old syntax, they are not difficult to understand or impenetrable in meaning. Yes, the syntax can be complex and even a bit cumbersome (especially when judged according to present-day sensibilities), but the meaning is usually plain. Of course the text often sacrifices economy for clarity, and its favored form of command syntax fits within that paradigm.
+
+
+## Grammatical Details of Command Syntax
+
+In the particular grammatical construction of interest to this study, some form of the verb command is followed by a syntactically related finite clause or infinitival complement. The finite clause may or may not have an auxiliary ( should or shall ):
+
+> Finite command syntax (past tense, active voice) X commanded that Y (should) do something Infinitival command syntax (past tense, active voice) X commanded Y to do something
+
+Command syntax is, generally speaking, complex. That is because two or more verbs are involved — either active or passive in construction — and often there are multiple [Page 177] grammatical subjects and objects. As a result, the usage of this structure is diverse and exhibits interesting patterns of use.
+
+Even so, the syntax can occasionally be fairly simple. The following example involves two verbs and just one subject and one object — pronominal he and him :
+
+> 1483 Caxton, tr. Golden Legend [spelling modernized] He commanded to put him in prison
+
+> 3 Nephi 20:14 [ here the standard lds text is the same ] the Father hath commanded me that I should give unto you this land for your inheritance
+
+More than half of the occurrences of command syntax in the Book of Mormon (B of M) have this general structure. In this verse the verb hath commanded has both an indirect object ( me ) and a direct object clause headed by that . Along with its grammatical subject, these are the main-clause arguments :
+
+> [the Father] subject [hath commanded] present-perfect verb [me] indirect object [that I should give unto you this land] direct object clause
+
+The object clause in this kind of syntax is commonly referred to as both embedded and finite. In 3 Nephi 20:14 this clause has a ditransitive verb give that has three arguments of its own: subject, direct object, and indirect object:
+
+> [that] conjunction / complementizer [I] embedded subject [should] subjunctive auxiliary [give] embedded infinitive [unto you] embedded indirect object [this land] embedded direct object
+
+[Page 178] The pronouns me and I are referentially identical; they are the main-clause indirect object and the embedded subject of the structure. In this paper I will refer to command syntax with such an object and subject as layered . In this passage the auxiliary should functions as a subjunctive marker indicating compulsion, a notion inherent in the semantics of command syntax.
+
+Unlike what is commonly encountered in Modern English and in the King James Bible (KJB), an infinitive is not employed after hath commanded me in this and most cases of command syntax in the B of M. If this verse had used an infinitive, it would have simply read:
+
+> the Father hath commanded me to give unto you this land for your inheritance
+
+The construction with an infinitival complement is more compact. A parenthetical phrase elsewhere in the text provides evidence that the above syntax would have been permissible:
+
+> Helaman 4:22 — or that which the Lord commanded him to give unto the people —
+
+In this verse the relative pronominal that which precedes the main-clause verb commanded but it is notionally the direct object of the embedded verb give . This parenthetical phrase thus illustrates the connectedness of command syntax. The option of using either finite or infinitival complementation in command syntax is an example of usage variation that is a feature of all texts. The general meaning is the same but the syntactic expression is different.
+
+I have transformed the following verse in order to exemplify some of the structures that this study discusses:
+
+> Alma 52:4 — as it appears in the text he [Ammoron] did command that his people should maintain those cities which they had taken [Page 179]
+
+Transformations of Alma 52:4 ( did command → commanded )
+
+> Layered syntax (the most common B o f M type) he commanded his people that they should maintain those cities which they had taken Infinitival complement with a raised object he commanded his people to maintain those cities Infinitival complement without a raised object (KJB) he commanded to maintain those cities Finite-clause syntax, no auxiliary ( tense-levelled ) he commanded that his people maintain those cities Main-clause passive, infinitival complement his people were commanded to maintain those cities Main-clause passive, finite object clause the people were commanded by Ammoron that they should maintain those cities Embedded-clause passive, infinitival complement (KJB) he commanded those cities to be maintained Embedded-clause passive, finite object clause (B o f M) he commanded that those cities should be maintained Multiple embedded verbs he commanded that his people should guard and maintain those cities which they had taken Embedded negation he commanded that his people should not maintain those cities which they had taken Intervening adverbial he commanded that his people should with great energy maintain those cities which they had taken Double passive those cities were commanded to be maintained [Page 180]
+
+
+## Layered Command Syntax
+
+Returning to consider 3 Nephi 20:14 —
+
+> the Father hath commanded me that I should give unto you this land for your inheritance
+
+> c 1400 M andeville (Roxb.) xxiv. 110 He commanded to all that they should forsake all that they had.
+
+> Nehemiah 13:22 [I commanded the Levites ] i that they should cleanse themselves, and [ i ] { that they should } j come and { j } keep the gates, to sanctify the sabbath day
+
+The other seven biblical instances of active-voice, obsolete layered syntax are shown below, along with two in passive constructions. Main-clause indirect objects and embedded subjects are in small caps :
+
+> Active-voice examples Genesis 3:11 Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat? Exodus 27:20 thou shalt command the children of Israel , that they bring thee pure oil olive beaten for the light Lamentations 1:10 whom thou didst command that they should not enter into thy congregation Mark 6:8 And commanded them that they should take nothing for their journey Acts 1:4 Jesus . . . commanded them that they should not depart from Jerusalem, but wait for the promise of the Father [Page 182] Acts 5:28 Did not we straitly command you that ye should not teach in this name . . . ? Acts 24:23 he commanded a centurion . . . that he should forbid none of his acquaintance to minister or come unto him Main-clause impersonal passives Daniel 3:4–5 Then an herald cried aloud, To you it is commanded , O people, nations, and languages, that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, dulcimer, and all kinds of musick, ye fall down and worship the golden image that Nebuchadnezzar the king hath set up Revelation 9:4 it was commanded them that they should not hurt the grass of the earth, neither any green thing, neither any tree
+
+The last two examples have passive command verbs whose grammatical subject is the expletive it ; these are discussed later.
+
+The next example is different from the others since it involves an embedded passive verb phrase should be stoned :
+
+> Embedded-clause passive (not a case of layered syntax) John 8:5 Moses in the law commanded us , that such should be stoned
+
+> 1 Nephi 19:4 this have I done and commanded my people that they should do after that I was gone and that these plates should be handed down
+
+This syntax is complex since it has a fronted direct object this with subject–verb inversion: have I instead of I have . The fronting of this eliminates the need for a repeat. The pronominal object functions as the understood object of the embedded verb do :
+
+> [this] i have I . . . commanded my people that they should do [ i ]
+
+With all these elements, it qualifies as a fairly typical EModE construction. This is also the only occurrence in the B of M with both an indirect object — my people — and an embedded passive verb phrase:
+
+> [I have] commanded my people . . . that these plates should be handed down
+
+Joseph Smith could hardly have authored this elaborate syntax.
+
+
+## Overview of Command Syntax in the B o f M and the KJB
+
+Table 1 breaks down command syntax in the B of M and KJB according to whether the embedded clause is finite or strictly infinitival:
+
+Table 1. A Comparison of Command Syntax in the 1829 B o f M and the 1611 KJB
+
+[Table omitted]
+
+Embedded syntax
+
+B of M
+
+KJB
+
+finite
+
+129
+
+32
+
+infinitival
+
+34
+
+138
+
+finite rate
+
+79.1%
+
+18.8%
+
+Chi-square test: X² ≈ 120; p < 10 –27
+
+The B of M uses finite command syntax nearly 80% of the time, while the KJB prefers compact infinitival syntax, using it slightly more than 80% of the time. (In addition, the B of M uses command syntax at 2.5 times the rate of the KJB.) Statistically speaking, there is a significant difference in usage between the two texts that almost certainly did not arise by accident. So either Joseph Smith consciously preferred and used the less-common biblical syntax, or he dictated specific, revealed words to his scribes. The latter is more plausible as this analysis attempts to show. [Page 185]
+
+
+## Historical Overview of Command Syntax in English
+
+Infinitival command syntax is attested at least from the early 14th century. The OED has examples with to , without to (akin to bid ), and with for to (accidentals regularized):
+
+> 1382 Wyclif Matt . xviii. 25 His lord commanded him to be sold. c 1350 Will. Palerne 236 Of what kin he were come he commanded him [Ø] tell. c 1386 Chaucer Clerk’s T. 477 This child I am commanded for to take.
+
+Infinitival usage with to persists to this day and is the nearly exclusive type. The notion is now often expressed with a different verb like order , as in “ I was ordered to pay the fine.”
+
+Moving beyond EModE into the 18th-century textual record (using Ngram Viewer ), we find that finite command syntax was still used less than 5% of the time. Layered syntax, the most common type found in the B of M, and which the OED declares to be obsolete, occurred no more than 1% of the time.
+
+If we consider only active-voice finite constructions, we find that the B of M employs layered syntax 73% of the time; the KJB uses it only 38% of the time. To be clear, here are these structures and their rate of use in the B of M:
+
+> Active-voice layered finite syntax (73%) [obsolete] X commands Y that Y/Z should/shall do something Active-voice simple finite syntax (27%) [archaic] X commands that Y should/shall do something
+
+The first set of OED quotes below contains examples of layered finite command syntax (obsolete), with both an indirect object and an object clause. The second group of quotes contains simple finite command syntax (archaic), with only an object clause (spelling has been regularized and some lexical items have been replaced by semantically equivalent modern words):
+
+> command + indirect object + that c 1400 Mandeville (Roxb.) xi. 41 He urgently commanded his subjects that they should let me see all the places. 1530 in W. H. Turner Select. Rec. Oxford 80 The university heads commanded the servants that they should neither buy nor sell with him. command + that c 1420 Prose Life Alex. 41 & 76 He commanded that he should go home to his fellows without any harm. [Page 187] Then commanded Alexander that they should make many fires. For it began to be unsufferable cold.
+
+The use of that in finite command syntax was optional through the centuries. The following OED quotations show the use of should without that . These have embedded passive verbs or intransitive verbs with only a grammatical subject:
+
+> 1580 North Plutarch (1676) 729 Antonius . . . commanded [Ø] his head and his hands should . . . be set up over the pulpit. 1596 Shakes . Tam. Shr. iv. iii. 148 I commanded [Ø] the sleeues should be cut out, and sow’d vp againe. c 1611 Chapman Iliad vii. 357 Priam commanded [Ø] none should mourne . . .
+
+We find command syntax without that at least three times in the B of M, but not in the KJB. The first one we consider is the following:
+
+> Mosiah 18:23 he commanded them that they should observe the sabbath day and keep it holy, and also [ Ø ] every day they should give thanks to the Lord their God
+
+This passage is like the following excerpt from Caxton’s Golden Legend , a text whose command syntax is similar to the B of M’s:
+
+> 1483 Caxton, tr. Golden Legend [spelling modernized] anon the cruel tyrant commanded to slay all the people that were with St. Edmund and destroy them, but [ Ø ] they should hold and keep only the king, whom he knew rebel unto his wicked laws
+
+In both cases it is the second embedded clause that lacks the complementizer that . Other elements — conjunctions and adverbials — take its place.
+
+The other two without that are these:
+
+> [Page 188] Alma 63:12 save it were those parts which [had been commanded by Alma] should not go forth Helaman 6:25 it is these secret oaths and covenants which [Alma commanded his son] should not go forth unto the world
+
+These two examples are similar to the 1611 Chapman quote from the OED seen above (also with an intransitive verb), and they are also similar to the following 17th-century quotes:
+
+> 1635 William Tyrwhit, tr. A mirrour for Christian states a Drum . . . which [he commanded ] should be beaten up 1664 Peter Wyche, tr. The life of Dom John de Castro the Fortress, which [he commanded ] should be Scal’d
+
+In all four examples command syntax occurs in a relative clause and the complementizer that is not used before should . This particular syntactic match is striking. In the case of the B of M, which clearly favors the use of that -clauses, its absence here strongly suggests knowledgeable EModE authorship.
+
+
+## Nineteenth-Century Usage
+
+The prolific Scottish author Walter Scott never used layered syntax in the first third of the 19th century, but he did use simple archaic syntax with an auxiliary. However, this linguistically conservative writer employed past-tense command syntax with object clauses only seven times (my count) in his extensive writings for his Waverley novels:
+
+> 1814 – 1831 , Walter Scott, Waverley novels [Brit. usage] it is said the king had commanded that it should not be further inquired into | Sir Richard commanded that he should prepare himself for attending him on an immediate journey | I sent you this morning to attend my nephew on the first tidings of his illness, and commanded that he should make no attempt to be present on this day’s solemnity | he [Page 189] was answered, that the King had commanded that none should be admitted to him for some time | the colonel, in base revenge, commanded that they should not spare that rogue Hudson | then commanded fiercely that I should be deprived of the sight of my eyes! | he commanded that the minstrel should be enlarged from the dungeon.
+
+The American author James Fenimore Cooper used infinitives after commanded approximately 50 times in his copious writings. His output was roughly contemporaneous with the Scottish author. I have found that Cooper used that -clauses with shall and should only twice (my count — a 2% past-tense rate), once with an embedded passive and once in the context of statutory language:
+
+> 1820 – 1851 , James Fenimore Cooper [Amer. usage] After which he incontinently commanded that the runaways should be apprehended | the statute commanding that all executions shall take place by the light of the sun.
+
+This tells us that archaic command syntax was uncommon in American English in the early 1800s, and perhaps less common than it was in British English.
+
+[Page 190] By the 20th century command syntax with shall or should was defunct, effectively remaining only with bare finite verbs in the shape of present-tense subjunctive verb forms, as in “they commanded that he go .”
+
+
+## Auxiliary Usage in Finite-Clause Syntax
+
+The last example from Cooper has the auxiliary shall . This auxiliary usage was uncommon, but it is found in the EModE textual record despite being absent in the KJB:
+
+> 1536 Miles Coverdale, tr. A myrrour or glasse for them that be syke [and] in payne [EEBO] Therfore also doth Christ commaunde that we shall so shewe the lyght of oure fayth before men 1598 Stow Surv. 36 [OED] I . . . will and command, that they shall [enjoy] the same, well and quietly and honourably
+
+The KJB never uses the auxiliary shall in the object clause of command syntax. Instead, the biblical text always employs bare finite verbs when the tense is non-past:
+
+> Leviticus 13:54 the priest shall command that they wash the thing wherein the plague is
+
+Yet shall occurs seven times in the B of M in present and future contexts (and other times after command nominals). In this way, then, it is properly independent in its usage, following EModE but not the KJB.
+
+Table 2 shows the breakdown of auxiliary usage and non-usage in the two texts; six B of M examples with shall follow.
+
+Table 2 . Comparison of Finite-Clause Auxiliary Usage
+
+[Table omitted]
+
+Auxiliary
+
+B of M
+
+KJB
+
+none
+
+9
+
+7
+
+shall
+
+7
+
+0
+
+should
+
+113
+
+25
+
+> [Page 191] Alma 37:2 I also command you that ye shall keep a record of this people, according as I have done Alma 44:7 I will command my men that they shall fall upon you and inflict the wounds of death in your bodies Alma 61:13 he doth not command us that we shall subject ourselves to our enemies Helaman 10:11 I command you that ye shall go and declare unto this people 3 Nephi 3:8 on the morrow month I will command that my armies shall come down against you 3 Nephi 16:4 I command you that ye shall write these sayings after that I am gone
+
+
+## The Periphrastic Past
+
+Both the KJB and the B of M use the periphrasis did + command as part of command syntax; it is also attested in EModE:
+
+> Lamentations 1:10 whom thou didst command that they should not enter into thy congregation 3 Nephi 15:16 This much did the Father command me that I should tell unto them 1575 Rishton / Allen, tr. A notable discourse [EEBO] yet our Sauiour did commaund that they should pay him tribute
+
+This is another strong piece of syntactic evidence pointing to the independence of the B of M vis-à-vis the KJB. The latter uses the periphrastic past heavily and noticeably only with the verb eat (and never for instance with did go ). The B of M employs the syntax at a high rate and with many different verbs (about 50 times with did go ). It is thus a mid–16th-century EModE text in this regard, and it was something Joseph Smith would not have been aware of from the KJB.
+
+
+## Finite-Clause Syntax
+
+As has been noted, when command syntax is not infinitival, the B of M prefers to use obsolete layered syntax, while the KJB does not. Table 3 shows the breakdown, limiting it to cases where the grammatical voice of both verbs is active:
+
+Table 3. Comparison of Active-Voice, Finite-Clause Syntax
+
+[Table omitted]
+
+X² = 11.33; p < 10 –3
+
+B of M
+
+KJB
+
+layered
+
+84
+
+9
+
+simple
+
+31
+
+15
+
+layered rate
+
+73.0%
+
+37.5%
+
+Therefore, the predominant finite-clause construction (active voice) for each text is as follows.
+
+> B o f M: X commanded Y that Y should do something KJB: X commanded that Y should do something
+
+The type favored by the B of M is emphatic, versatile, and precise. When should and shall are used (more than 90% of these cases), the notion of compulsion is reinforced. When [Page 193] the indirect object is repeated as the embedded subject, the structure is emphatic. And when the embedded subject is different from the indirect object, the command structure is versatile and precise; this usage is not directly possible with infinitival syntax. Furthermore, the complementizer that , unlike the infinitival preposition to , may be used far from the embedded subject and verb and can be used to clarify complex syntax and separate constituents. Finally, layered syntax is clear and direct. The person commanded is made explicit, as is what is commanded.
+
+> 1 Nephi 3:2 the Lord hath commanded me that thou and thy brethren shall return to Jerusalem 1 Nephi 3:4 the Lord hath commanded me that thou and thy brothers should go unto the house of Laban and seek the records and bring them down hither into the wilderness. 1 Nephi 7:2 the Lord commanded him that I Nephi and my brethren should again return into the land of Jerusalem and bring down Ishmael and his family into the wilderness Mosiah 18:21 he commanded them that there should be no contention one with another Mosiah 18:24 he also commanded them that the priests which he [Page 194] had ordained should labor with their own hands for their support Mosiah 19:11 the king commanded them that all the men should leave their wives and their children and flee before the Lamanites
+
+Here is an early example with a passive command verb:
+
+> 1483 Caxton, tr. Golden Legend [spelling modernized] Ciriacus . . . was commanded that he and his fellows should delve the earth
+
+It is worth noting that the syntactic structure of the first three examples is noticeably consistent. Yet there is free variation in 1 Nephi 3:2,4 with the auxiliaries shall and should , and with brethren and brothers .
+
+
+## Infinitival Syntax
+
+Switching now to examine active, infinitival contexts, we find that the KJB has 26 occurrences without a raised object, while the B of M always explicitly identifies this object:
+
+> X commanded [ ø ] to do something: B of M = 0%; KJB = 23%
+
+This makes the B of M a plain text, consonant with a stated priority. The counts in Table 4 and the examples that follow exclude cases with embedded passives.
+
+Table 4 . Comparison of Active, Infinitival Command Syntax
+
+[Table omitted]
+
+X² = 5.50; p ≈ 0.019
+
+B of M
+
+KJB
+
+raised object
+
+19
+
+86
+
+none
+
+0
+
+26
+
+raised object rate
+
+100%
+
+76.8%
+
+> Esther 6:1 he commanded [ø] to bring the book of records of the chronicles [Page 195] Daniel 3:13 Nebuchadnezzar in his rage and fury commanded [ø] to bring Shadrach, Meshach, and Abed-nego 1 Nephi 5:8 the Lord hath commanded my husband to flee into the wilderness Mosiah 18:22 he commanded them to preach
+
+Considering now infinitival command syntax with embedded passive verb phrases, we find that the KJB often employs this construction — 24 times — but that the B of M never does:
+
+> Acts 22:24 The chief captain commanded [him to be brought into the castle]
+
+The B of M only employs embedded passives in finite object clauses (1 Nephi 19:4; Mosiah 9:2; 12:18; 3 Nephi 17:11; 23:13; Ether 4:2), as in this example:
+
+> 3 Nephi 17:11 he commanded [that their little children should be brought ]
+
+The KJB uses this construction as well:
+
+> Nehemiah 13:19 I commanded [that the gates should be shut ]
+
+There is one case in the KJB in which both the main verb and the embedded verb are used in the passive; such a construction is not found in the B of M:
+
+> Nehemiah 13:5 [ double passive ] he had prepared for him a great chamber, where aforetime they laid the meat offerings, the frankincense, and the vessels, and the tithes of the corn, the new wine, [Page 196] and the oil , [ which was commanded to be given ] to the Levites, and the singers, and the porters
+
+The relative pronoun which — whose lengthy antecedent is shown in italics — functions as the subject of the command verb but refers to the things given, the past participle.
+
+
+## Active–Passive Effects in Command Syntax
+
+Table 5 shows the breakdown of command syntax in the B of M according to whether the command verb was used in the active voice or in the passive voice, and whether the construction has an infinitival complement or a finite clause:
+
+Table 5 . Active–Passive Effects in the B o f M
+
+[Table omitted]
+
+X² = 31.9; p < 10 –7
+
+Voice of the command verb
+
+Embedded syntax
+
+active
+
+passive
+
+finite
+
+121
+
+8
+
+infinitival
+
+19
+
+15
+
+finite rate
+
+86.4%
+
+34.8%
+
+Table 5 demonstrates that while infinitival syntax is decidedly not favored in the B of M in main-clause active contexts, it is favored in main-clause passive contexts. The chi-squared test indicates that it is highly unlikely that this grammatical pattern occurred by accident.
+
+The KJB only has five main-clause passives so there is little data to analyze in this regard. Yet the biblical text uses finite-clause syntax with passive command verbs at twice the rate that it does with active command verbs. So the B of M pattern cannot derive from the KJB.
+
+The following two B of M passages effectively illustrate the active–passive usage difference in the text since they have the same embedded verb phrase:
+
+> Alma 52:4 he did command that his people should maintain those cities which they had taken [Page 197] Alma 56:20 They were commanded by Ammoron to maintain those cities which they had taken
+
+Alma 52:4 has an active main-clause verb, while Alma 56:20 has a passive main-clause verb (with an overt agent, Ammoron).
+
+Cases of object-clause syntax after passive command verbs are rare in the OED. Although there are probably more than I have found, I located only three examples in that voluminous dictionary. Moreover, there are 26 instances of was / were / been commanded to in the OED, but no cases of was / were / been commanded . . . that . . . should . The EEBO database shows that the latter syntax was always the minority usage in the EModE period, but that passive finite syntax was more common in the 16th century than in the 17th century. By the year 1700 the infinitival rate after passive command verbs was at least 98%.
+
+From the evidence in the textual record, we conclude that there was a strong preference in EModE for infinitival complementation after passive command verbs. Therefore, in view of the fact that the B of M strongly favors finite-clause syntax generally, but favors infinitival syntax after passive command verbs, the text evinces a contrastive regard for the general EModE tendency. And it is important to note that there is no biblical evidence for this tendency. In fact, if anything, the KJB points to heavier finite-clause use with passive command verbs.
+
+> Omni 1:1 I, Omni, being commanded by my father, Jarom, that I should write somewhat upon these plates to preserve our genealogy [Page 198] Mosiah 7:8 and they stood before the king and was permitted — or rather commanded — that they should answer the questions which he should ask them Alma 6:6 the children of God were commanded that they should gather themselves together oft and join in fasting and mighty prayer Alma 8:25 I have been commanded that I should turn again and prophesy unto this people Alma 9:1 I Alma having been commanded of God that I should take Amulek and go forth and preach again unto this people Mormon 6:6 I Mormon . . . having been commanded of the Lord that I should not suffer that the records which had been handed down by our fathers, which were sacred, to fall into the hands of the Lamanites Ether 4:3 I am commanded that I should hide them up again in the earth
+
+In every case there is something, syntactically speaking, that might have led to the choice of finite-clause syntax. Four of these verses have embedded verb phrases with elements that favor finite embedded syntax. In Alma 6:6 the embedded verb is reflexive and in Mormon 6:6 it is negated. In Alma 8:25; 9:1 the embedded verb phrase has two or more verbs. These factors are discussed below.
+
+Mosiah 7:8 has broken main-clause syntax: first the verb permit is used, then it changes to command . This correction interrupts straightforward syntactic usage. Also, Ether 4:3 has [Page 199] an embedded phrasal verb hide up . Such phrasal verbs are not used with embedded infinitival complementation in the text. The adverbial up may have a syntactic effect analogous to what is seen with embedded reflexive verbs (discussed below).
+
+Finally, Omni 1:1 has a purposive infinitival preposition to that is part of the embedded clause. So the choice of finite syntax meant that only one infinitival preposition was used in the embedded clause. That is also a possibility in Mormon 6:6 which has double embedding with the verb suffer . An analogous situation is present in Acts 24:23, discussed below.
+
+The intervening prepositional phrase in the next example (cf. Omni 1:1 above) may have led to the use of an object clause:
+
+> 1483 Caxton, tr. Golden Legend [spelling modernized] she was commanded by a voice in her sleep that she should go to the holy King Edward
+
+There are only five passive command verbs in the KJB data set: two with embedded finite clauses and three with infinitival complementation:
+
+> Finite complementation Daniel 3:4–5 To you it is commanded . . . that . . . ye fall down and worship [Nebuchadnezzar’s] golden image Revelation 9:4 it was commanded them that they should not hurt . . . Infinitival complementation Numbers 36:2 my lord was commanded by the Lord to give the inheritance . . . unto his daughters Nehemiah 13:5 which was commanded to be given to the Levites 1 Corinthians 14:34 they are commanded to be under obedience
+
+[Page 200] So, as stated above, the KJB actually uses that -clauses at a higher rate (40%) with main-clause passives than it does when the command verb is in the active voice.
+
+As far as Daniel 3:4–5 is concerned, the extended aspect of the command structure, with many intervening elements (and an embedded conjoined verb phrase as well), could have influenced KJB translators not to use an infinitive. The complex wording of this verse demonstrates the increased clarity of finite-clause syntax with intervening constituents.
+
+
+## What Main-Clause Passive Command Syntax Tells Us
+
+There are some conclusions that can be drawn from the foregoing evidence. We have seen that there is no discernible preference for passive infinitival syntax in the KJB. Consequently, countervailing passive infinitival syntax in the B of M cannot be attributed to the KJB.
+
+Stepping back to a more general argument, if we ascribe the text of the B of M to the authorship of Joseph Smith, then we must assume that he followed the nine instances of active-voice layered syntax found in the KJB and vastly expanded its [Page 201] use in the B of M, making it the predominant form of command syntax. That follows directly from the uncontroversial position that Joseph Smith was not an expert in EModE syntax and would have known of layered syntax only from the KJB, and not from obscure EModE texts (nor from his environment). But then, because there was no passive infinitival tendency to be found in the KJB, this view must lead us to conclude that he would have also used the same variety of syntax that he favored — with finite complementation — just as heavily with main-clause passives. It is clear that he did not.
+
+The reliable EEBO database points to 98% infinitival rates at the end of the EModE period. The writings of Scott and Cooper show that infinitival syntax had nearly supplanted finite syntax by the 1820s. The American author used infinitival complementation 98% of the time, and the OED and Ngram Viewer provide cross-verification of similar rates. So it is almost certain that Joseph Smith’s spoken and written language was predominantly infinitival (see JS–History 1:49,70; 1:29,48,50). And this is directly in line with what is found in the 1611 KJB.
+
+As a result, it is highly likely that Smith would have used infinitival command syntax at a 90% rate or higher had he been responsible for the language of the text of the B of M. Therefore, the heavy use of obsolete and archaic finite syntax in the B of M, in conjunction with a contrastive preference for passive infinitival syntax, argues strongly against inexpert 1820s authorship. It is a virtual certainty that a nonscholarly author could not have produced this mix of syntactic structures. And this is especially apparent when we consider all the other intricacies of command syntax found in the text.
+
+
+## Mixed Syntax and Embedded Negation
+
+Next we look at passages in the B of M and the KJB where both infinitival and finite syntax are used after a single command verb. The following B of M passage shifts from infinitival to [Page 202]finite, seemingly focusing the command Mosiah makes about not having a king:
+
+> Mosiah 29:30 I commanded you to do these things in the fear of the Lord; and I commanded you to do these things and that ye have no king
+
+Note that there is tense levelling in the finite clause, just as there is in present-day English: “we insist ed that they leave .” We see this in EModE as well:
+
+> 1483 Caxton, tr. Golden Legend [spelling modernized] Then Hermogenes was angry and called many devils and command ed them that they bring to him St. James bound
+
+This same type of switch — from infinitival to finite — is found in the KJB as well. In the following passage there are first two infinitivals, then an object clause headed by that . The finite clause is complex, containing a conjoined infinitival of its own:
+
+> Acts 24:23 he commanded a centurion to keep Paul, and to let him have liberty, and that he should forbid none of his acquaintance to i minister or [ i ] come unto him
+
+The switch to a finite clause effectively prevents the use of multiple embedded infinitives: * he commanded . . . to forbid none . . . to minister or come unto him . Also, it adds variety given the preceding infinitival prepositions.
+
+[Page 203]
+
+Table 6. Embedded Verbal Negation in Command Synta x
+
+[Table omitted]
+
+B of M
+
+KJB
+
+Syntax
+
+negation
+
+none
+
+negation
+
+none
+
+finite
+
+20
+
+109
+
+6
+
+26
+
+infinitival
+
+0
+
+34
+
+3
+
+135
+
+X² = 6.01; p = 0 . 014
+
+By and large the KJB prefers infinitival complementation, but it favors finite complementation when there is embedded negation.
+
+
+## Embedded Complexity: Ellipsis and Counting
+
+The tendency in the two texts, but especially in the B of M, is not to use an infinitival construction when there is embedded complexity of one kind or another. For instance, when there are conjoined verb phrases after the command verb, the B of M always uses finite syntax except in one instance. The exception is the following verse with a main-clause passive:
+
+> Alma 5:44 I am commanded to stand and testify unto this people Expanded: I am commanded to stand and I am commanded to testify unto this people
+
+There were two syntactic forces at work in this verse: the passive command verb called for an infinitival complement, and the conjoined verb phrases called for a finite clause. The former effectively outweighed the latter.
+
+Because there is not another instance of to , this verse is counted as containing only one instance of command syntax. The use of the simple intransitive verb stand , without any following adverbial element such as up or forth before the conjunction and the next infinitive, may have favored to ellipsis. There are two similar cases of ellipsis in the KJB. These verses have more robust ellipsis, since there are adverbials that follow the first infinitive in each case:
+
+> [Page 204] Luke 9:54 Lord, [wilt thou that we command fire] i {to} j come down from heaven, and [ i ] { j } consume them, even as Elias did? Acts 4:18 And [they] i called them, and [commanded them] i not {to} j speak at all nor [ i ] { j } teach in the name of Jesus
+
+The expansion of the ellipsis in Acts 4:18 would conceivably be something like nor did they command them to .
+
+The following B of M verse does not have ellipsis of the infinitival preposition:
+
+> Mosiah 26:39 [they . . . being commanded of God] i to pray without ceasing and [ i ] to give thanks in all things
+
+It is counted as two cases of infinitival syntax because of the second use of to and the possibility that there could have been a switch to a finite clause. In other words, the above verse could have been expressed in the following way:
+
+> they . . . being commanded of God to pray without ceasing and that they should give thanks in all things
+
+As we have seen, this switch from infinitival to finite is found elsewhere in the B of M and KJB (Mosiah 29:30 and Acts 24:23).
+
+The KJB has 12 instances of embedded, conjoined verb phrases; the B of M has 11. The only pure infinitival case in the B of M with more than one instance of to is Mosiah 26:39; here are two infinitival examples from the KJB:
+
+> Genesis 42:25 Then Joseph commanded to fill their sacks with corn, and to restore every man’s money into his sack, and to give them provision for the way [Page 205] Acts 23:10 the chief captain . . . commanded the soldiers to go down, and to take him by force from among them, and to bring him into the castle
+
+> Jeremiah 37:21 Zedekiah the king commanded that they should commit Jeremiah into the court of the prison, and that they should give him daily a piece of bread out of the bakers’ street, until all the bread in the city were spent 3 Nephi 18:8 when he had said these words, he commanded his disciples that they should take of the wine of the cup and drink of it, and that they should also give unto the multitude that they might drink of it
+
+Note the conjoined verbs take and drink after the first instance of that they should in 3 Nephi 18:8. The text could have read and that they should drink of it , with a complete expansion. We consider that kind of syntax next.
+
+
+## Conjoined Verb Phrases in the Embedded Clause
+
+This section examines conjoined embedded verb phrases in the B of M. Besides Alma 5:44 (with a main-clause passive: I am commanded to stand and testify ), finite-clause syntax is always used when there is more than one embedded main verb. A comparison of usage is shown in Table 7: [Page 206]
+
+Table 7. Embedded Verb Phrases in B o f M Command Syntax [ embedded verb phrases limited to active contexts without negation ]
+
+[Table omitted]
+
+Syntax
+
+1 verb
+
+2+ verbs
+
+finite
+
+79
+
+18
+
+infinitival
+
+19
+
+0
+
+X² = 4.17; p = 0.041
+
+Because the text favors finite syntax anyway, this particular usage pattern barely enters the realm of statistical significance. We have already seen some instances of conjoined, embedded verb phrases; here are four more examples:
+
+> Mosiah 19:11 the king commanded them that all the men should leave their wives and their children and flee before the Lamanites Alma 8:16 I am sent to command thee that thou return to the city of Ammonihah and preach again unto the people of the city Alma 44:7 I will command my men that they shall fall upon you and inflict the wounds of death in your bodies Alma 47:27 Amalickiah commanded that his armies should march forth and see what had happened to the king
+
+In every case in the B of M, the ellipsis involves that and the embedded subject, and it usually involves an auxiliary. In short, this is an additional way in which the B of M uses command syntax in a regulated manner, favoring once again finite syntax with embedded complexity, perhaps because of its greater clarity and syntactic flexibility (the conjunction that and the auxiliary verb are freer, syntactically speaking, than the infinitival preposition to ).
+
+[Page 207] We have seen that the KJB has two cases of embedded ellipsis with infinitives (Luke 9:54; Acts 4:18). It also has five instances of embedded ellipsis in object clauses. One of these has a reflexive verb (Acts 27:43) and is mentioned below, another has been discussed more than once (Daniel 3:4–5), and another has been shown before as well (Nehemiah 13:22). The remaining two verses are these:
+
+> Acts 1:4 And, being assembled together with them, commanded them that they should not depart from Jerusalem, but wait for the promise of the Father Joshua 8:29 Joshua commanded that they should take his carcase down from the tree, and cast it at the entering of the gate of the city, and raise thereon a great heap of stones
+
+Joshua 8:29 has three embedded main verbs, similar to 1 Nephi 3:4 and Alma 9:1. (Alma 39:12 may have four [see below].)
+
+With these counts in mind, we see that the biblical text opts for finite syntax more than 70% of the time with this type of embedded complexity. There are few cases of this, but we can say that this high finite rate with conjoined verb phrases contrasts with a complementary 17% finite rate with simple verb phrases (p < 0.003; Fisher’s exact test).
+
+
+## Finite Followed by Infinitival Syntax in the B o f M
+
+The B of M has two cases of finite followed by infinitival syntax; the KJB does not have similar examples. In both cases the finite-clause verb phrase is more complex than the infinitival one, as we expect from the evidence considered thus far:
+
+> Alma 8:25 [I have been commanded] i that I should turn again and prophesy unto this people, yea, and [ i ] to testify against them concerning their iniquities [Page 208] 3 Nephi 4:23 [Zemnarihah did give command unto his people] i that they should withdraw themselves from the siege and [ i ] to march into the farthermost parts of the land northward
+
+In Alma 8:25 the finite-clause verb phrase is complex, consisting of two verbs: prophesy and an obsolete phrasal verb turn again = ‘return’ (see OED turn , v . †66b). In contrast, the infinitival verb phrase is simple. The next example, 3 Nephi 4:23, does not contain the verb command ; so it has not been included in database counts. But I include it here because (1) it has relevant syntax and (2) the semantics of did give command is equivalent to ‘commanded.’ Note that the finite-clause verb is reflexive and that the infinitival verb phrase is a simple intransitive.
+
+Although this complex syntax is not biblical, we find it in EModE; this switch was used more than once by Caxton:
+
+> 1483 Caxton, tr. Golden Legend He commaunded that she shold be brought to fore hym And to be tormented wyth so many tormentes that she shold be estemed for dede Thenne he commaunded that she shold be put in pryson and on the morn to be byheded And after this themperour commaunded that they shold be hanged with cordes And theyr bodyes to be gyuen to houndes and woluys to be deuoured
+
+Caxton is free with his use of ellipsis in the first two examples, since objective her does not occur in the preceding clause and that would be the grammatical expansion in front of the infinitival preposition to . The B of M is likewise free, at times, with ellipsis. Also, Caxton’s infinitivals are used in passive verb phrases. These have the same, simple argument structure (an elliptical subject, no grammatical object) that the intransitives have in the infinitivals in Alma 8:25 and 3 Nephi 4:23. [Page 209]
+
+
+## On Embedded Reflexives
+
+The B of M uses finite-clause syntax exclusively with embedded reflexive verb phrases (five times if we count 3 Nephi 4:23):
+
+> 3 Nephi 18:2 he commanded the multitude that they should sit themselves down upon the earth Alma 6:6 the children of God were commanded that they should gather themselves together oft and join in fasting and mighty prayer Alma 61:13 [he doth not command us] i that we shall subject ourselves to our enemies, but [ i ] that we should put our trust in him and he will deliver us Mosiah 12:17 he commanded that the priests should gather themselves together
+
+This is taken to be a real pattern in the B of M because the same behavior is noted more extensively in causative syntax (13 times), which is similar in construction. Furthermore, the KJB, which disfavors finite-clause syntax, uses it both times with embedded reflexive verbs:
+
+> Acts 27:43 But the centurion, willing to save Paul, kept them from their purpose; and commanded that they which could swim should cast themselves first into the sea, and get to land Nehemiah 13:22 I commanded the Levites that they should cleanse themselves
+
+In Alma 61:13 the tense of the auxiliary shifts from present to past under main-clause ellipsis. This is the only case of such [Page 210] a tense shift in embedded command syntax. Skousen’s work shows that this has never been emended in the history of the text. Hence, no editor has determined it to be unacceptable from a grammatical standpoint. We note here that should is found frequently after present-tense commandeth in EModE:
+
+> 1485 Caxton, tr. The Royal Book God commandeth that he should fast; the belly saith nay.
+
+
+## Auxiliary Usage Patterns in the B o f M
+
+Embedded finite verbs are used without an auxiliary only 7% of the time in the B of M. In one of these the bare verb overtly shows subjunctive marking, similar to what is seen elsewhere in the text, such as in the second example below containing an impersonal construction with flee :
+
+> Alma 8:16 I am sent to command thee that thou return to the city of Ammonihah 1 Nephi 3:18 Wherefore, it must needs be that he flee out of the land
+
+Because subjunctive is clearly used in Alma 8:16, and since shall and should act as subjunctive markers, the other verses with bare embedded finite verbs likely contain covert subjunctive verb forms. These are shown immediately below (the last example, Alma 39:12, has three instances of that ye after a single command verb):
+
+> 1 Nephi 17:48 I command you that ye touch me not Mosiah 29:30 I commanded you . . . that ye have no king Alma 5:61 I Alma do command you in the language of him who [Page 211] hath commanded me that ye observe to do the words which I have spoken unto you Alma 37:1 I command you that ye take the records which have been entrusted with me Alma 37:27 I command you that ye retain all their oaths and their covenants and their agreements in their secret abominations Alma 39:12 I command you, my son, in the fear of God, that ye refrain from your iniquities, that ye turn to the Lord with all your mind, might, and strength, that ye lead away the hearts of no more to do wickedly, but rather return unto them and acknowledge your faults and repair that wrong which ye have done
+
+Five other times ye is used with should or shall :
+
+> Alma 37:2 I also command you that ye shall keep a record of this people Alma 61:20 the Lord hath commanded you that ye should go against them Helaman 10:11 I command you that ye shall go and declare unto this people [Page 212] 3 Nephi 16:4 I command you that ye shall write these sayings after that I am gone 3 Nephi 18:25 but rather have commanded that ye should come unto me
+
+And as we have already seen, shall and should are used with a pair of verses in 1 Nephi 3:2,4 with resolved second- person plural subjects. This distribution of usage means that more than 50% of the time there is no auxiliary with embedded second-person subjects, as shown in Table 8:
+
+Table 8. Finite-Clause Auxiliary Usage in the B o f M
+
+[Table omitted]
+
+Person of the embedded subject
+
+Auxiliary
+
+2nd
+
+1st or 3rd
+
+none
+
+9
+
+0
+
+shall or should
+
+7
+
+113
+
+Fisher’s exact test (a more demanding test for this data set) points to this as being statistically significant (p < 10–9). This means that it is unlikely that exclusive non-auxiliary usage with second-person embedded subjects occurred by accident in the B of M text.
+
+
+## Caxton’s Golden Legend (1483)
+
+This paper has shown how the B of M is systematically different from the KJB in terms of command syntax. A prominent EModE text is significantly closer to the B of M in this regard. This book — titled Legenda aurea sanctorum — is a hagiographical work. Caxton published a translation in 1483 that he made from the original Latin. The book went through many editions before the middle of the 16th century. We have seen a number of examples from this text in the course of this discussion.
+
+I have tallied and considered 380 past-tense instances of command syntax in this lengthy text (more than twice as [Page 213] long as the B of M). Both the B of M and this Caxton translation employ command syntax at a rate of 600 instances per million words. And both texts show a remarkable similarity along quite a few different dimensions, even though they were published 350 years apart. Table 9 shows how the three texts compare:
+
+Table 9. Comparison of Various Command Syntax Rates
+
+It seems significant that both texts show the same active finite and passive infinitival complementation preferences, and that both have many instances and high rates of layered syntax in active contexts. This state of affairs appears to be rare in the textual record. Further investigation will clarify this picture.
+
+
+## Summary of Command Syntax in the B o f M and the KJB
+
+  - B o f M active command verb finite rate = 86%; KJB active command verb finite rate = 18% B o f M passive command verb finite rate = 35%; KJB passive command verb finite rate = 40% [ no evidence that the KJB favored passive infinitival complementation ]
+  - Layered syntax in active contexts: B o f M = 84 times (73% of finite-clause instances) KJB = 9 times (38% of finite-clause instances)
+  - Active infinitival raised object usage rates: B o f M = 100% (plain syntax); KJB = 77%
+  - The B o f M always uses finite-clause syntax with embedded negation (20 times), passive participles (6 times), reflexive verbs (4 times); 21 of 22 times with conjoined verb phrases: remarkably systematic usage!
+  - The KJB also favors finite-clause syntax with embedded negation, reflexives, and conjoined verb phrases; yet infinitival syntax with embedded passive participles is frequent and typical (24 times; 80%)
+  - Finite-clause auxiliary usage: B o f M = 93%; KJB = 78% (never uses shall ) [Page 215] B o f M shall usage = 7 times; should/shall are always used except with thou and ye (9 times); again, systematic usage
+
+
+## Conclusion
+
+Command syntax in the B of M and the KJB is markedly different. Caxton’s 1483 usage profile is significantly closer to the B of M’s. The principal difference between the scriptural texts lies in their rates of finite and infinitival complementation. They are opposites in this regard. Both texts display a number of statistically significant usage patterns, and the B of M does so to an impressive degree. It prefers layered finite syntax with the auxiliary should , occasionally employing shall as an auxiliary — a less common EModE usage notably absent in the KJB. In spite of its heavy use of finite syntax, the B of M is consonant with the strong EModE preference for infinitival complementation after passive command verbs. Despite the KJB’s strong preference for infinitival syntax, it uses finite syntax at a significantly higher rate with embedded complexity, but not with embedded passives.
+
+The B of M represents a late 15th-century form of command syntax that is less modern in construction than most of what is found in the KJB. It certainly does not systematically match the KJB in most instances, yet it incontrovertibly evinces principled usage of the grammatical construction. A linguistically unsophisticated author could not have produced the array of syntactic structures found in the B of M. Deep, native-speaker knowledge of EModE was required to achieve the regulated patterns of use found in the B of M.
+
+Those involved in putting the text into writing in the late 1820s were not EModE scholars but were familiar with the KJB. Had they composed the B of M themselves, they naturally would have used the KJB as a template not only to make it sound “scriptural,” as Twain put it back in 1872, but in order to fashion complex syntactic structures such as the ones this [Page 216] article has examined. Moreover, since the majority infinitival usage of the KJB was largely consonant with their own native-speaker intuitions, that is exactly what they would have employed extensively, not the linguistically distant and obscure usage from more than three centuries earlier that is so prevalent in the B of M. Both the KJB and 19th-century American usage would have led them to adopt infinitival command syntax as the default case for the B of M because that was the most obvious feature of the KJB and that was also the predominant feature of their own language.
+
+Therefore, in order to maintain a belief that Joseph Smith authored the B of M, one must assume that he chose to consciously and independently adopt an obsolete finite-clause construction as the main form of command syntax, against the KJB and his own language. One must also ascribe to him the ability to follow principled usage patterns not found in the KJB and incapable of being derived from a normal reading of that text. These include: favoring active finite and passive infinitival complementation, as well as heavy doses of layered syntax (both obscure phenomena to be found mainly at the beginning of the EModE period); nearly always using finite syntax with four types of embedded complexity; always employing finite syntax with an auxiliary (occasionally shall ), except when the embedded subject was second person (optionally); and always using main-clause raised objects with embedded infinitives. Because syntactic knowledge is largely tacit, Joseph Smith would have been unaware of such linguistic fine points, just as we are today. And because much of this language was inaccessible to him, it is possible to assert with confidence that he would have been incapable of implementing this complex syntax in the remarkably consistent fashion the text presents.
+
+In summary, a scrutiny of command syntax in the 1829 B of M, the 1611 KJB, and Caxton’s 1483 translation of Legenda aurea (and in EModE generally) emphatically tells us that the [Page 217] B of M is an advanced EModE text in terms of this syntactic structure and that linguistic competence in earlier forms of English was necessary for its elaboration. Thus we have further evidence in favor of Skousen’s view that Joseph Smith received specific, revealed words from the Lord. Had Smith received distinct ideas and put them in his own language or in biblical language, he would have used infinitival complementation heavily, and any infrequent finite syntax would not have been predominantly of the layered variety.
+
+1 . Royal Skousen, ed., The Book of Mormon: The Earliest Text (New Haven, CT: Yale UP, 2009).
+
+2 . The Oxford English Dictionary , 2nd ed. on cd-rom , v4 (Oxford: Oxford UP, 2009).
+
+3 . Jean-Baptiste Michel et al ., “Quantitative Analysis of Culture Using Millions of Digitized Books,” Science (published online ahead of print on 16 December 2010).
+
+4 . Because there are two separate object clauses headed by that , I have counted Nehemiah 13:22 as containing two instances of command syntax.
+
+5 . When the embedded verb is in the active voice, its subject is commanded to do something. But when the embedded verb is in the passive voice, its subject is the recipient of the commanded action.
+
+6 . See Royal Skousen, Analysis of Textual Variants of the Book of Mormon (Provo, UT: FARMS and BYU, 2004–09), 1:402.
+
+7 . I have simplified this analysis by not including any command nominals in counts. While it is not always a straightforward matter to tally instances of command syntax, these cases are few in number. That being so, unresolvable counting issues are minor in effect and do not affect the conclusions of this study. The approach taken here counts each occurrence of infinitival to or conjunctive that (or an auxiliary without that ) governed by a form of the verb command .
+
+8 . Chadwyck-Healey, < eebo.chadwyck.com >. Mark Davies, Early English Books Online, 400 million words, 1470 s– 1690 s (2013–). I am indebted to Mark Davies for providing me with access to his large corpus and excellent interface.
+
+9 . There are elements in each of the above excerpts that made Scott’s use of finite-clause syntax with should more likely. First, four of these have embedded passives: should be + past participle . Second, two have embedded negation, should not (and one has should make no which is similar to should not make any ). Third, one has an embedded reflexive, should prepare himself . In short, each one of the above syntactic structures exhibits embedded complexity. This almost certainly prompted Scott, at a subconscious level, to employ that -clauses. These issues are addressed later in this paper.
+
+10 . Alvar Ellegård, The Auxiliary Do: The Establishment and Regulation of its Use in English (Stockholm: Almqvist & Wiksell, 1953), 161–62.
+
+11 . Here I exclude the lone case with an embedded passive, in 1 Nephi 19:4 (see above), where the arguments are necessarily different.
+
+12 . This arcane usage is also consistent with the EEBO database — it shows that shall was hardly ever used with present-tense passives (1 of 18; my count).
+
+13 . Wycliffe : It is comaundid to hem, that thei shulden not hirte hay of the erthe | Tyndale : hit was sayde vnto them thatt they shulde nott hurt the grasse off the erth | Geneva : it was commanded them, that they shulde not hurt the grasse of the earth.
+
+14 . However, neither Mosiah 29:30 nor Acts 24:23 has been counted as an instance of verb negation. That is because the negative element is restricted to a noun phrase; it does not act as an adverbial modifying the verb.
+
+15 . 2 Nephi 26:32 (not shown) is remarkable in that it has nine instances after a single command verb.
+
+16 . Singular ye was typical EModE usage — see OED ye , pers. pron. 2 nd pers. nom. (obj.), pl. (sing.) , definition 2.
+
+17 . Another Caxton translation, the first book printed in English (circa 1473–1474 in Bruges), is also similar to the B of M, but it has fewer than 50 examples of command syntax, and no main-clause passives.
+
+18 . See Stanford Carmack, “A Look at Some ‘Nonstandard’ Book of Mormon Grammar,” Interpreter: A Journal of Mormon Scripture 11 (2014), 216ff.
+
+---
+Notes
+
+[1] Here is one example from the Book of Mormon that we will take a look at in order to facilitate an initial understanding of the structure (Skousen’s Earliest Text of the Book of Mormon is used throughout this discussion): 1
+
+[2] — we note that the first-person pronoun me is the indirect object of hath commanded . In earlier English the preposition to (indicating dative case) optionally preceded the indirect object. This is seen in the following Oxford English Dictionary 2 (OED) quotation from around the year 1400 (spelling modernized):
+
+[3] The KJB uses the dative preposition to once (in Daniel 3:4: To you it is commanded ); the B of M never does (except after command nominals). This syntactic marking became obsolete in the EModE period. In the Mandeville quotation, as in 3 Nephi 20:14, the indirect object is recapitulated by a pronoun that functions as the subject of the embedded clause. The OED indicates that this layered syntax is obsolete. However, because of biblical influence, its use persisted in a minor way into the 18th century and beyond. Google books Ngram Viewe r 3 shows usage rates of approximately 1% between 1700 and 1820 (some of this is biblical, and some is reprinted older language, including sermons using biblical phraseology).
+
+[4] In contexts where both verbs are in the active voice, the B of M has 84 instances of this layered syntax while the KJB has only 9, two in one Old Testament verse. This verse, Nehemiah 13:22, contains the last-dated example of layered syntax that [Page 181] is listed in the OED. That suggests that the KJB’s use of the structure was a vestige of older syntax. Here is the structure with ellipsis shown by brackets and indexing. Main-clause ellipsis is shown in square brackets, and embedded-clause ellipsis is shown in curly brackets; the embedded infinitives are underlined: 4
+
+[5] As a result, the embedded subject such is not related to the indirect object us in the same way that the arguments in the other verses are related to each other. This verse is the only time in the KJB that the embedded subject is different from the indirect object; this state is essentially obligatory in embedded [Page 183] passive syntax. 5 It is similar to the relation between my people and these plates in the following B of M verse: 6
+
+[6] According to the counts carried out for this study, 7 there are 163 instances of command syntax in the B of M, and 170 in the KJB. Overall, the B of M has 92 cases of layered command [Page 184] syntax and the KJB has only 12. Consequently, had the KJB used layered syntax as often as the B of M, there would have been more than 300 of them in the 1611 text. Thus the B of M is markedly different from the KJB in terms of rate of use of this obsolete structure. Yet because layered syntax is found in the KJB, the construction does not constitute evidence on its own that the B of M is independent of the KJB in relation to command syntax. It is the totality of usage patterns that points to independence, as is amply evident from a comprehensive analysis of the construction. This article seeks to perform such an analysis, drawing conclusions from systematic usage patterns and the sum of the evidence.
+
+[7] The Early English Books Online database 8 (EEBO) indicates that only in 15th-century EModE was finite command syntax common (see above chart). This is largely due to Caxton. By the [Page 186] year 1500 the infinitival was the default type. Thus a match between the B of M’s command syntax and that of the printed textual record of English can be found only in the 15th century.
+
+[8] In contrast to a limited use of command syntax with should , Scott used commanded . . . to + infinitive about 120 times in his Waverley novels (also my count). That means that he used past-tense finite-clause syntax only 6% of the time. These figures and Scott’s conservative style tell us that archaic command syntax was infrequent in British English in the early 1800s. 9 And the absence of layered command syntax in his writings reinforces the assertion made by the OED that it was obsolete.
+
+[9] Past-tense syntax with did , with main-verb lexical stress, is a distinct EModE phenomenon that peaked at an average rate [Page 192] of 10% in the middle of the 16th century. 10 It is characteristic of the B of M and is used more than 25% of the time to express the simple past, but less than 2% of the time in the KJB (my estimates).
+
+[10] There are six instances in the B of M where the indirect object is different from the embedded subject: 11
+
+[11] Here are the seven exceptional cases of finite syntax with passive command verbs in the B of M, all with the auxiliary should , regardless of the tense of the main clause: 12
+
+[12] Given the strong preference in both the KJB and EModE for passive infinitival syntax, it is natural to ask why object clauses were used in Revelation 9:4 and Daniel 3:4–5. The reason may ultimately reside in embedded complexity. In Revelation 9:4 there is embedded negation. Furthermore, Wycliffe in 1382, Tyndale in 1526, and the Geneva Bible in 1560 used that -clauses in this verse, 13 probably because of the negation. Their syntactic choice may have prompted the King James translators to do the same since earlier biblical translations are known to have influenced KJB usage.
+
+[13] It is also possible, in both Mosiah 29:30 and Acts 24:23, that the negative aspect of the embedded verb phrases influenced the choice of a that clause. That claim is made because there is an observed preference for finite command syntax in both texts with negated embedded verbs: 14
+
+[14] Here are examples with finite-clause syntax, one from each scriptural text: 15
+
+[15] What is noteworthy about these is that they all involve second-person pronouns. Alma 8:16 has second-person singular thou , and the rest have second-person plural ye , with the pronoun in Alma 37 and 39 used with singular meaning to refer to one of Alma’s sons. 16
+
+[16] The KJB has a considerable amount of Tyndale’s language in it, and Tyndale made his biblical translations about 45 years after Caxton published this translated text. So the 68% correlation between the KJB and Caxton’s Golden Legend understandably follows from that observation. Yet the B of M correlates even more closely with Caxton’s 1483 translation, and it does so when nearly 20 esoteric usage rates are directly [Page 214] compared — rates that can be known only after performing a close linguistic analysis. 17
+
+[17] The many obsolete EModE aspects of the text 18 (including command syntax in its richness and diversity) suggest that the process of translation, as we usually understand the term, occurred without human participation. Yet translation — in the sense of conveyance from one condition to another — did indeed occur with human participation, by the gift and power of God. In our sphere, Joseph Smith (and his scribes) required faith, receptivity, and concentration in order to receive and set down in writing the B of M in a divinely sanctioned form. It was no easy task. The effect for us has been a transformation of the plate script into (Early Modern) English by the bestowal of God’s miraculous power.
+

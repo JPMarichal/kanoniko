@@ -20,10 +20,11 @@ Para inventario de lo ya ingresado → `03-corpus-inventory.md`.
 | 4 | **Mormon Texts Project** (mormontextsproject.org) | Buena — texto corregido manualmente, dominio público | Pendiente | Transcripciones revisadas de Journal of Discourses y otros. ⚠️ Bloqueado por proxy Solera. |
 | 5 | **Project Gutenberg** (gutenberg.org) | Variable — texto plano limpio, sin footnotes, sin metadata rica | `download_gutenberg.py` | Bookshelf LDS: ~120 títulos. Buena calidad textual pero splitting manual. |
 | 6 | **CCEL** (ccel.org) | Buena — ThML/XML estructurado | Script ad-hoc por obra | Diccionarios bíblicos clásicos (Easton ya ingested). |
-| 7 | **Archive.org** | Baja — OCR variable, formatos inconsistentes | Caso por caso | **Último recurso.** Solo cuando no hay alternativa. Verificar OCR antes de ingestar. |
+| 7 | **Interpreter Foundation** (interpreterfoundation.org) | Buena — HTML completo, footnotes, abstract, Next.js (React SSR) | `download_interpreter.py` | Journal peer-reviewed, ~600 artículos, acceso abierto. Apologético-académico. |
+| 8 | **Archive.org** | Baja — OCR variable, formatos inconsistentes | Caso por caso | **Último recurso.** Solo cuando no hay alternativa. Verificar OCR antes de ingestar. |
 
 **Regla:** Antes de escribir un script nuevo, verificar si el texto existe en una
-fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP → Gutenberg → CCEL → Archive.org.
+fuente de mayor prioridad. Workflow: Iglesia → RSC → BYU Studies → MTP → Gutenberg → Interpreter → CCEL → Archive.org.
 
 ---
 

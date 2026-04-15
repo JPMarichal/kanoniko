@@ -1,0 +1,322 @@
+Abstract: In the Rubáiyát of Omar Khayyám, based upon verses composed by an eleventh-century Persian mathematician and astronomer, the English Victorian poet Edward FitzGerald eloquently portrays human life in an indifferent, deterministic universe that lacks any evident purpose and is bereft of divine Providence. The poem’s suggested response to such a universe is an unambitious life of hedonism, distraction, and gentle despair. It is curiously modern, and those considering the adoption of anything like its worldview might want to read it, and to think about its implications, very carefully.
+
+This too-long essay tries to set forth one perspective on a life lived without a religious faith broadly approximating the Restored Gospel. In order to do this, I’ll be quoting extensively from a once widely read and still somewhat famous poem called the Rubáiyát of Omar Khayyám . It was written, depending on your point of view, in either early twelfth-century Persia or late nineteenth-century England. (More on that question later.)
+
+Let me first introduce the two men involved in its production, Omar Khayyám and Edward FitzGerald. The first of them, Ghiyāth al-Dīn Abū al-Fatḥ ʿUmar ibn Ibrāhīm Nīsābūrī, was a Persian mathematician, astronomer, and philosopher — an at least nominal Muslim — who also wrote poetry. As his name indicates, he was born in Nishapur, Khorasan (which is to say, in modern-day northeastern Iran), on 18 May 1048, thereafter spending at least part of his childhood in Balkh (which is located in modern Afghanistan). In the English-speaking world, he is most commonly known as Omar Khayyám .
+
+The second element of that nickname, Khayyám , means something like “tentmaker.” It wasn’t really a surname in his time, though. Rather, it was a byname from his father’s craft or from that of some family [Page viii] ancestor. (Many of our modern Western surnames — e.g., Farmer , Carpenter , Smith , Forrester , Cooper , Bridger , Sawyer , Weaver , Carrier , Porter , Bauer , and Zimmerman — have similar origins.)
+
+Khayyám, as I often call him, was educated in Samarkand and then moved to Bukhara, both of which are located within the borders of modern Uzbekistan. It is said that he was extremely hardworking: By day, he taught algebra and geometry. In the evening, he attended the Seljuq court as an advisor to Sultan Malik-Shah I. At night, he studied astronomy and worked on a revised calendar that had been commissioned by the sultan. After a very productive life of 83 years, he died on 4 December 1131 in his home city of Nishapur. His younger compatriot Farid al-Din Attar (ca. 1145–1220), one of the greatest of Persian mystical poets, is buried in the same cemetery as Khayyám.
+
+Khayyám is known for his Treatise on Demonstration of Problems of Algebra (1070), as well as for treatises on mechanics, geography, mineralogy, and music. (The sciences were less specialized in those days; there were fewer scientists and much less scientific literature to master before one could launch one’s own career.) In his astronomy work, Khayyám argued, among other things, that the stars are stationary and that the universe doesn’t revolve around the Earth. He is particularly famous for his work on calendrical reform, which I’ve already mentioned. The resulting “Jalali calendar,” as it is often known, has been in use since the eleventh century. It was reformed in the twentieth century, but it is still used in Iran and Afghanistan. One of the reasons for this is that it is more accurate than the Gregorian calendar, the dominant western calendar since it was created five centuries after Khayyám’s. The Gregorian year is 365.24 days, whereas Omar Khayyám measured the length of a terrestrial year out to 365.24219858156 days.
+
+Along the way, perhaps in spare moments, Khayyám also wrote brief verses on scraps of paper. These are, in modern transliteration, his ruba‘iyat or “quatrains” (four-line stanzas). Some of them seem to form a sequence; most are free-standing. (And their fragmentary character raises other questions, perhaps unanswerable ones: Are they all his? How can we know? Should they be published in any particular order? If so, what order?)
+
+It is these poems, largely as transmitted to the world by Edward FitzGerald, that have created Omar Khayyám’s modern image as an agnostic freethinker and a hedonist. Accordingly, numerous bars and nightclubs are named after him around the globe. I still remember an excited young man who approached me some years ago after a lecture on [Page ix] Islam that I had delivered at a university in Vancouver, British Columbia. The young man was, as I had guessed, of Iranian origin, but he had spent most of his life in Canada. He was also, he proudly affirmed, an atheist — and, he said, Omar Khayyám was an atheist, too, and his hero.
+
+I pushed back. It’s far from clear to me that Omar Khayyám was an agnostic, let alone an atheist. For example, he wrote a treatise on the praise of God entitled Al-khutba al-gharra (“The Spendid Sermon”) that seems to be Islamically orthodox, and he appears to have agreed with the great philosopher Ibn Sina (Avicenna) on the nature of God’s unity — a rather strange thing for an atheist to profess. According to Khayyám’s philosophy of mathematics, moreover, God is the ultimate source of order in the universe and, in fact, in mathematics itself.
+
+It is not, perhaps, the most upbeat or optimistic piece of writing in English literature.
+
+Back, though, to the Rubáiyát of Omar Khayyám. I begin by relating a personal experience from graduate school, many decades ago, that I continue to find instructive.
+
+I once spent some time with a German translation of William Shakespeare’s tragedy Hamlet . It very accurately transmitted the meaning of Shakespeare’s verses, and it certainly would have enabled a reader of German to follow and understand the plot of the play, its storyline. But the translation’s lucid and workmanlike German suggested virtually nothing of Shakespeare’s peerless mastery of the richness of Elizabethan English — which is surely one of the great glories of his plays and his sonnets. Such an experience illustrates, for me, the truth of a witty definition that I once encountered somewhere: “Poetry (n.): that which cannot be translated.”
+
+Poetry composed in another language must, in my view, be recreated in order to be fully “translated.” Which is to say that the translator should probably be at least as talented, literarily speaking, as the author whose work he or she is attempting to reproduce in a second language — a miracle that rarely if ever actually occurs. For many non-literary works (e.g., technical manuals, instructions for assembling children’s toys, or even prosaic mystery novels), that doesn’t represent an insuperable hurdle. For translating Shakespeare, though, it’s a very high bar. And I flatly think it impossible, simply given the differences in the languages, for a translator to represent the Qur’an’s pervasive rhyming or the terza rima of Dante Alighieri’s Divina Commedia in any English that wouldn’t be excruciatingly painful to read or to hear for more than a minute or two. But Edward Fitzgerald may well have cleared the bar for Omar Khayyám.
+
+From this point on, though, I will be working from FitzGerald’s fifth-edition translation of Khayyám’s ruba‘iyat as my primary text, treating it as if it were the original (which, for my purposes, it actually is, [Page xiv] since this isn’t really an essay on Persian literature or Omar Khayyám) and I’ll refer to it in the singular, as a single poem (which isn’t strictly true). Along the way, I’ll offer brief commentary and, where necessary, explanatory notes.
+
+I begin by sharing selected verses from the Rubáiyát of Omar Khayyám that express skepticism about religious claims and about religion itself. In the very first passage, FitzGerald refers to “the Two Worlds.” He is on solid Islamic grounds in doing so. Already in the opening chapter of the Qur’an, God is described as “the Lord of the Worlds” (Qur’an 1:2). Typically, two such worlds are distinguished — al-dunya (“this world” or “this life,” literally “the nearer”) and al-akhira (“the next world” or “the next life,” literally “the further”).
+
+> XXVI Why, all the Saints and Sages who discuss’d Of the Two Worlds so wisely — they are thrust Like foolish Prophets forth; their Words to Scorn Are scatter’d, and their Mouths are stopt with Dust. XXVII Myself when young did eagerly frequent Doctor and Saint, and heard great argument About it and about: but evermore Came out by the same door where in I went. XXVIII With them the seed of Wisdom did I sow, And with mine own hand wrought to make it grow; And this was all the Harvest that I reap’d — “I came like Water, and like Wind I go.” XXIX Into this Universe, and Why not knowing Nor Whence, like Water willy-nilly flowing; And out of it, as Wind along the Waste, I know not Whither, willy-nilly blowing.
+
+
+## XXVI
+
+
+## XXVII
+
+
+## XXVIII
+
+
+## XXIX
+
+The point, of course, is that nobody really knows anything, not even those who confidently profess the most wisdom and learning. Not even purported prophets. The film Man’s Search for Happiness , produced for the Mormon Pavilion at the 1964 World’s Fair in New York City, posed — and purported to answer — such questions as “Who am I?”, “Where did I come from?”, and “Where am I going?.” The Rubáiyát of [Page xv] Omar Khayyám declares that nobody can answer those questions. All that we can know is that life passes quickly. We are transient, soon to be forgotten, and, other than the grave, we have no idea where we’re headed:
+
+> XXXII There was the Door to which I found no Key; There was the Veil through which I might not see: Some little talk awhile of Me and Thee There was — and then no more of Thee and Me. LXIII Of threats of Hell and Hopes of Paradise! One thing at least is certain — This Life flies; One thing is certain and the rest is Lies; The Flower that once has blown for ever dies. LXIV Strange, is it not? that of the myriads who Before us pass’d the door of Darkness through, Not one returns to tell us of the Road, Which to discover we must travel too. LXV The Revelations of Devout and Learn’d Who rose before us, and as Prophets burn’d, Are all but Stories, which, awoke from Sleep, They told their comrades, and to Sleep return’d.
+
+
+## XXXII
+
+
+## LXIII
+
+
+## LXIV
+
+
+## LXV
+
+This last is a familiar and very old literary motif, and it reflects our overwhelmingly sad usual experience. Even the prophet Lehi uses it, speaking of “the cold and silent grave, from whence no traveler can return” (2 Nephi 1:14). To a believing Latter-day Saint, however, the claim is ultimately untrue: The resurrected angel Moroni appeared at the very inauguration of the Restoration, as did John the Baptist, Peter, James, and John, and others. And, of course, the supreme counterexample is Jesus himself, who rose from the dead on the third day. Moreover, from outside of scripture one might also mention accounts of near-death experiences, which, by now, are documented in the tens of thousands.
+
+> VIII Whether at Naishapur or Babylon, Whether the Cup with sweet or bitter run, The Wine of Life keeps oozing drop by drop, The Leaves of Life keep falling one by one. IX Each Morn a thousand Roses brings, you say; Yes, but where leaves the Rose of Yesterday? And this first Summer month that brings the Rose Shall take Jamshyd and Kaikobad away. X Well, let it take them! What have we to do With Kaikobad the Great, or Kaikhosru? Let Zal and Rustum bluster as they will, Or Hatim call to Supper — heed not you.
+
+
+## VIII
+
+
+## IX
+
+
+## X
+
+Even fame, wealth, and greatness, says the poem, are ephemeral; they perish with us. In his famous 1903 essay “A Free Man’s Worship,” the great British logician, philosopher, and mathematician Bertrand Russell — by far the most vocal atheist of his day in the English-speaking world — put a similar attitude this way:
+
+> That Man is the product of causes which had no prevision of the end they were achieving; that his origin, his growth, his [Page xvii] hopes and fears, his loves and his beliefs, are but the outcome of accidental collocations of atoms; that no fire, no heroism, no intensity of thought and feeling, can preserve an individual life beyond the grave; that all the labours of the ages, all the devotion, all the inspiration, all the noonday brightness of human genius, are destined to extinction in the vast death of the solar system, and that the whole temple of Man’s achievement must inevitably be buried beneath the debris of a universe in ruins–all these things, if not quite beyond dispute, are yet so nearly certain, that no philosophy which rejects them can hope to stand. Only within the scaffolding of these truths, only on the firm foundation of unyielding despair, can the soul’s habitation henceforth be safely built. …
+
+Life, says the Rubáiyát of Omar Khayyám , is scarcely even fully real. Rather, it resembles the images cast upon a wall by a “magic lantern,” an early forerunner of the film projector that was known to Edward FitzGerald’s Victorian audience — though, significantly, perhaps not to the historical Omar Khayyám’s ancient Persian contemporaries. As a child, I was lulled to sleep by the ever-moving image of a steam locomotive and a freight train projected onto my bedroom wall by a small revolving lamp.
+
+> LXVIII We are no other than a moving row Of Magic Shadow-shapes that come and go Round with the Sun-illumined Lantern held In Midnight by the Master of the Show;
+
+
+## LXVIII
+
+> LXIX But helpless Pieces of the Game He plays Upon this Chequer-board of Nights and Days; Hither and thither moves, and checks, and slays, And one by one back in the Closet lays.
+
+
+## LXIX
+
+There is more than a hint of predestination as a theme here. I’ll return to that. First, though, comes a suggestion of the very modern and popular notion — often associated with Sigmund Freud — that our concepts of heaven are simply fantasy, mere wish-projection:
+
+> LXVII Heav’n but the Vision of fulfill’d Desire, And Hell the Shadow from a Soul on fire, Cast on the Darkness into which Ourselves, So late emerged from, shall so soon expire.
+
+
+## LXVII
+
+In any event, nothing will matter in the long run. Whether or not we discipline ourselves, work hard, and restrain our appetites, in the end we’ll all die and it will have made no real difference. To put it bluntly — and the poem does put it bluntly — we will all turn into compost. So we might as well live it up while we can. “Eat, drink, and be merry, for tomorrow we die; and it shall be well with us” (2 Nephi 28:7).
+
+> XV And those who husbanded the Golden grain, And those who flung it to the winds like Rain, Alike to no such aureate Earth are turn’d As, buried once, Men want dug up again. XVI The Worldly Hope men set their Hearts upon Turns Ashes — or it prospers; and anon, [Page xix] Like Snow upon the Desert’s dusty Face, Lighting a little hour or two — is gone.
+
+
+## XV
+
+
+## XVI
+
+In order to illustrate its point about the transitory nature of fame, greatness, beauty, and achievement, the Rubáiyát of Omar Khayyám again cites the legendary Persian king Jamshid and the historical fifth-century Persian king Bahram Gur, who was famous for his exploits as a great hunter. Both of them also figure prominently in the Shahnameh .
+
+> XVII Think, in this batter’d Caravanserai Whose Portals are alternate Night and Day, How Sultan after Sultan with his Pomp Abode his destined Hour, and went his way. XVIII They say the Lion and the Lizard keep The Courts where Jamshyd gloried and drank deep: And Bahram, that great Hunter — the Wild Ass Stamps o’er his Head, but cannot break his Sleep. XIX I sometimes think that never blows so red The Rose as where some buried Caesar bled; That every Hyacinth the Garden wears Dropt in her Lap from some once lovely Head. XX And this reviving Herb whose tender Green Fledges the River-Lip on which we lean — Ah, lean upon it lightly! for who knows From what once lovely Lip it springs unseen! XXII For some we loved, the loveliest and the best That from his Vintage rolling Time hath prest, Have drunk their Cup a Round or two before, And one by one crept silently to rest. XXIII And we, that now make merry in the Room They left, and Summer dresses in new bloom [Page xx] Ourselves must we beneath the Couch of Earth Descend — ourselves to make a Couch — for whom?
+
+
+## XVII
+
+
+## XVIII
+
+
+## XIX
+
+
+## XX
+
+
+## XXII
+
+
+## XXIII
+
+The poem uses images of the palace servants of a sultan to make its point that none of us, no matter how exalted our rank, is irreplaceable. A ferash or ferrash was a menial member of the waitstaff, scurrying silently about to do the bidding of his master. And a saqi was a cupbearer, refilling the master’s empty wine glass and the glasses of his guests. Here, though, the master is no mortal but rather God, Fate, or Destiny, and even sultans — the term sultan comes from an Arabic word for “power” — are merely Destiny’s passing “guests”:
+
+> XLV ‘Tis but a Tent where takes his one day’s rest A Sultan to the realm of Death addrest; The Sultan rises, and the dark Ferrash Strikes, and prepares it for another Guest. XLVI And fear not lest Existence closing your Account, and mine, should know the like no more; The Eternal Saki from that Bowl has pour’d Millions of Bubbles like us, and will pour. XLVII When You and I behind the Veil are past, Oh, but the long, long while the World shall last, Which of our Coming and Departure heeds As the Sea’s self should heed a pebble-cast. XLVIII A Moment’s Halt — a momentary taste Of Being from the Well amid the Waste — And Lo! — the phantom Caravan has reach’d The NOTHING it set out from — Oh, make haste!
+
+
+## XLV
+
+
+## XLVI
+
+
+## XLVII
+
+
+## XLVIII
+
+So how should we respond to this seemingly pointless world? The poem has already given us its answer — that we should respond by simply seeking pleasure where we can get it, while we can get it. But it restates that point many times over, in memorable stanzas:
+
+> VII Come, fill the Cup, and in the fire of Spring Your Winter Garment of Repentance fling: [Page xxi] The Bird of Time has but a little way To flutter — and the Bird is on the Wing. XII A Book of Verses underneath the Bough, A Jug of Wine, a Loaf of Bread — and Thou Beside me singing in the Wilderness — Oh, Wilderness were Paradise enow [enough]! XIII Some for the Glories of This World; and some Sigh for the Prophet’s Paradise to come; Ah, take the Cash, and let the Credit go, Nor heed the rumble of a distant Drum! XXI Ah, my Beloved, fill the Cup that clears TO-DAY of past Regrets and future Fears: To-morrow — Why, To-morrow I may be Myself with Yesterday’s Sev’n thousand Years. LVIII And lately, by the Tavern Door agape, Came shining through the Dusk an Angel Shape Bearing a Vessel on his Shoulder; and He bid me taste of it; and ’twas — the Grape! LIX The Grape that can with Logic absolute The Two-and-Seventy jarring Sects confute: The sovereign Alchemist that in a trice Life’s leaden metal into Gold transmute: XXIV Ah, make the most of what we yet may spend, Before we too into the Dust descend; Dust into Dust, and under Dust to lie Sans Wine, sans Song, sans Singer, and — sans End! XXXV Then to the Lip of this poor earthen Urn I lean’d, the Secret of my Life to learn: [Page xxii] And Lip to Lip it murmur’d — “While you live Drink! — for, once dead, you never shall return.”
+
+
+## VII
+
+
+## XII
+
+
+## XIII
+
+
+## XXI
+
+
+## LVIII
+
+
+## LIX
+
+
+## XXIV
+
+
+## XXXV
+
+Rather morbidly, the poem imagines that the clay goblet containing the wine from which the speaker is drinking may actually be made from the clay of a cemetery, from a grave whose occupant once lived and loved as we ourselves now briefly do. After all, was not Adam made originally from the dust of the earth? In the words of the funeral service as given in the Church of England’s Book of Common Prayer , “we . . . commit this body to the ground, earth to earth, ashes to ashes, dust to dust.”
+
+> XXXVI I think the Vessel, that with fugitive Articulation answer’d, once did live, And drink; and Ah! the passive Lip I kiss’d, How many Kisses might it take — and give! XXXVIII And has not such a Story from of Old Down Man’s successive generations roll’d Of such a clod of saturated Earth Cast by the Maker into Human mould?
+
+
+## XXXVI
+
+
+## XXXVIII
+
+Accordingly, supposedly sharing the thoughts of the eleventh-century polymath Omar Khayyám, the poem advises us to
+
+> LIV Waste not your Hour, nor in the vain pursuit Of This and That endeavour and dispute; Better be jocund with the fruitful Grape Than sadden after none, or bitter, Fruit. LV You know, my Friends, with what a brave Carouse I made a Second Marriage in my house; Divorced old barren Reason from my Bed And took the Daughter of the Vine to Spouse. LXXIV YESTERDAY This Day’s Madness did prepare; TO-MORROW’s Silence, Triumph, or Despair: Drink! for you not know whence you came, nor why: Drink! for you know not why you go, nor where. [Page xxiii] XCI Ah, with the Grape my fading Life provide, And wash the Body whence the Life has died, And lay me, shrouded in the living Leaf, By some not unfrequented Garden-side. XCII That ev’n my buried Ashes such a snare Of Vintage shall fling up into the Air As not a True-believer passing by But shall be overtaken unaware.
+
+
+## LIV
+
+
+## LV
+
+
+## LXXIV
+
+
+## [Page xxiii] XCI
+
+
+## XCII
+
+But this pose — for such it seems to be — is very difficult to reconcile with what we know of the real, historical Khayyám. A man who used the daylight hours to teach and write treatises about algebra, geometry, various other sciences, and theology; a man who spent his evenings at the royal court, advising the sultan; a man who stayed up late at night to observe the motions of the stars and the planets while brilliantly revising the astronomical calendar, Omar scarcely appears to have abandoned “endeavors” and to have divorced himself from reason.
+
+> LVII Ah, by my Computations, People say, Reduce the Year to better reckoning? — Nay ’Twas only striking from the Calendar Unborn To-morrow and dead Yesterday.
+
+
+## LVII
+
+It seems that the narrator is striking a pose, an attitude. He is pretending to be a wastrel and a libertine quite unlike the historical Omar Khayyám, quite entirely unlike anything that the productive polymath ʿUmar Nīsābūrī could conceivably have been.
+
+> XCIII Indeed the Idols I have loved so long Have done my credit in this World much wrong: Have drown’d my Glory in a shallow Cup And sold my Reputation for a Song. XCIV Indeed, indeed, Repentance oft before I swore — but was I sober when I swore? And then and then came Spring, and Rose-in-hand My thread-bare Penitence apieces tore. [Page xxiv] XCV And much as Wine has play’d the Infidel, And robb’d me of my Robe of Honor — Well, I wonder often what the Vintners buy One half so precious as the stuff they sell.
+
+
+## XCIII
+
+
+## XCIV
+
+
+## [Page xxiv] XCV
+
+The narrator of the poem appears to have assumed a fictional persona. Edward FitzGerald seems to have been quite a private person who, because he was independently wealthy, didn’t need to work at a day job. But the publicly much-involved Omar Khayyám seems very unlike the libertine depicted in these verses.
+
+We come now to another major theme of the Rubáiyát of Omar Khayyám — its emphasis on Fate. This is also a theme among not a few modern materialistic naturalists who often deny genuine human agency. And, indeed, a world made up only of purposeless material objects and governed entirely by impersonal laws is likely to be a deterministic one. Consequently, the poem asserts a strongly deterministic worldview:
+
+> LXXI The Moving Finger writes; and, having writ, Moves on: nor all your Piety nor Wit Shall lure it back to cancel half a Line, Nor all your Tears wash out a Word of it. LXXII And that inverted Bowl they call the Sky, Whereunder crawling coop’d we live and die, Lift not your hands to It for help — for It As impotently moves as you or I. LXXIII With Earth’s first Clay They did the Last Man knead, And there of the Last Harvest sow’d the Seed: And the first Morning of Creation wrote What the Last Dawn of Reckoning shall read.
+
+
+## LXXI
+
+
+## LXXII
+
+
+## LXXIII
+
+Sir Francis Crick shared the 1962 Nobel Prize in Physiology or Medicine with James Watson and Maurice Wilkins for their discovery (with Rosalind Franklin) of the helical structure of the DNA molecule. In his later years, especially, Sir Francis was a very outspoken atheist who did not hesitate even slightly to draw the implications of his thorough-going materialism:
+
+I like the response to such notions of the American essayist Curtis White:
+
+One of the most powerful scenes in the Rubáiyát of Omar Khayyám , and its longest sustained sequence, is set on an evening during the Muslim fasting month of Ramadan, during which devout practitioners of the faith abstain from all food and drink and other kinds of sensory pleasure from sunrise in the morning until the setting of the sun at evening. The narrator of the poem enters into a potter’s studio, where all manner of pots (plainly representing different types of people) sit on the floor, on tables, and on shelves.
+
+Some of them are malformed, presumably in the various ways — not just physical, but mental, emotional, and psychological — that we humans actually are.
+
+One of them is a Sufi. Sufism is the mystical tradition in Islam, important strands of which have focused on trying to achieve oneness with God — or, perhaps better, on striving to recognize the oneness of all things, including the divine, that (according to Sufism) already exists .
+
+All of them are speculating rather self-importantly about the Potter (God, Fate, Destiny, or the Universe) that made them, and about the Potter’s attitude toward them. And they speculate, suggests the poem, without real knowledge about what they can’t really comprehend.
+
+> [Page xxvi] LXXXII As under cover of departing Day Slunk hunger-stricken Ramazan away, Once more within the Potter’s house alone I stood, surrounded by the Shapes of Clay. LXXXIII Shapes of all Sorts and Sizes, great and small, That stood along the floor and by the wall; And some loquacious Vessels were; and some Listen’d perhaps, but never talk’d at all. LXXXIV Said one among them — ”Surely not in vain My substance of the common Earth was ta’en And to this Figure moulded, to be broke, Or trampled back to shapeless Earth again.” LXXXVI After a momentary silence spake Some Vessel of a more ungainly Make; “They sneer at me for leaning all awry: What! did the Hand then of the Potter shake?” LXXXVII Whereat some one of the loquacious Lot — I think a Sufi pipkin — waxing hot — “All this of Pot and Potter — Tell me then, Who is the Potter, pray, and who the Pot?” LXXXVIII “Why,” said another, “Some there are who tell Of one who threatens he will toss to Hell The luckless Pots he marr’d in making — Pish! He’s a Good Fellow, and ‘twill all be well.” LXXXIX “Well,” murmur’d one, “Let whoso make or buy, My Clay with long Oblivion is gone dry: But fill me with the old familiar Juice, Methinks I might recover by and by.”
+
+
+## [Page xxvi] LXXXII
+
+
+## LXXXIII
+
+
+## LXXXIV
+
+
+## LXXXVI
+
+
+## LXXXVII
+
+
+## LXXXVIII
+
+
+## LXXXIX
+
+[Page xxvii] In the end, the narrator of the Rubáiyát of Omar Khayyám blames God, or Fate, or the Cosmos, not only for wine but for all the temptations with which this world confronts us:
+
+> LXI Why, be this Juice the growth of God, who dare Blaspheme the twisted tendril as a Snare? A Blessing, we should use it, should we not? And if a Curse — why, then, Who set it there? LXXX Oh, Thou, who didst with pitfall and with gin Beset the Road I was to wander in, Thou wilt not with Predestined Evil round Enmesh, and then impute my Fall to Sin! LXXXI Oh Thou, who Man of baser Earth didst make, And ev’n with Paradise devise the Snake: For all the Sin wherewith the Face of Man Is blacken’d — Man’s forgiveness give — and take! XCIX Ah Love! could you and I with Him conspire To grasp this sorry Scheme of Things entire, Would not we shatter it to bits — and then Re-mould it nearer to the Heart’s Desire!
+
+
+## LXI
+
+
+## LXXX
+
+
+## LXXXI
+
+
+## XCIX
+
+This depictive translation is how at least one poet, Edward FitzGerald, responded to the disenchanted world seemingly offered up by Darwinism when it first rocked Victorian England.
+
+We are obviously no longer in the Victorian era and one need not succumb to any such bleak worldview. It should be evident that the authors, reviewers, designers, source checkers, copy editors, donors, and other volunteers who make the work of The Interpreter Foundation possible do not share the worldview of the Rubáiyát of Omar Khayyám .
+
+They have chosen to “husband the Golden grain” rather than, either literally or metaphorically, to “be jocund with the fruitful Grape” and to “divorce” Reason. Indeed, more like the remarkably productive historical Omar Khayyám, the overwhelming majority of our writers and editors and other volunteers contribute their time and effort on top of their full-time employment and other obligations elsewhere. This for the simple reason that they do not find themselves in a meaningless universe without [Page xxviii] hope but, instead, recognize themselves as citizens of the Kingdom of God and look forward to still greater things yet to come. Serving in the Kingdom and, yes, striving to commend and defend the Kingdom via The Interpreter Foundation is (mostly!) a pleasure, because — as I also do — they believe. With regard to this particular volume, I thank the authors and others who have contributed their work and the managing or production editors — Allen Wyatt, Jeff Lindsay, and Godfrey Ellis — who have overseen and directed it. I’m deeply appreciative.
+
+---
+Notes
+
+[1] Now, though, to Khayyám’s great translator: Edward FitzGerald (1809–1883) was an English gentleman of literary inclinations and independent fortune who developed a strong interest in what the British of the time called “the Orient” — meaning the Near East or the Middle East. 1 By far his most famous work is the Rubáiyát of Omar Khayyám , which made its first muted appearance in Victorian England, in a private publication in 1859. Gradually, though, it gained followers, popularity, and fame. I have even heard it said that it was Edward FitzGerald who introduced the poetry of Omar Khayyám to the people of modern Persia or Iran. Khayyám had been known to his countrymen as a mathematician and a master of calendrics, but not particularly as a poet. (Persian poetry is one of the greatest bodies of literature in any language, but — overshadowed by such luminaries as Firdawsi, Sa‘di, Hafez, Attar, Nizami, and Rumi — Omar Khayyám was not regarded as an especially significant practitioner of the art.)
+
+[2] Eventually, Edward FitzGerald authorized four editions of his continually changing English translation during his lifetime (1859, 1868, 1872, and 1879), and a significant posthumous edition was published in 1889. When I refer to the Rubáiyát of Omar Khayyám , I’m referring to [Page x] FitzGerald’s translation of Khayyám’s ruba‘iyat , and I’ll specifically be using the posthumous fifth edition. 2
+
+[3] Edward FitzGerald was an almost exact contemporary of Charles Darwin (1809–1882), who had published his pivotally important book On the Origin of Species in 1859, the same year in which the Rubáiyát of Omar Khayyám appeared. 3 Darwin’s The Descent of Man , which expressly applied his theory to the evolution of humankind, appeared in 1871.
+
+[4] For many Victorians, Darwin’s theory dealt a body blow to their traditional religious beliefs. It seemed to many to suggest that God is unnecessary in creation, and that the world, including the lives of the humans who dwell upon it, is governed not by divine Providence but, instead, by random, purposeless, pitiless chance. 4 Edward FitzGerald seems to have been a religious skeptic himself; he was certainly a deliberate non-church-goer in an age of fashionable church attendance. I’ll illustrate that religious skepticism by extensive quotations from his Rubáiyát of Omar Khayyám , but another really fine example of the spiritual mood among many eminent Victorian intellectuals is to be found in the famous poem “Dover Beach,” by Matthew Arnold (1822–1888), a slightly younger contemporary of both FitzGerald and Darwin. I quote it here in its entirety:
+
+[5] The sea is calm tonight. The tide is full, the moon lies fair Upon the straits; on the French coast the light Gleams and is gone; the cliffs of England stand, Glimmering and vast, out in the tranquil bay. Come to the window, sweet is the night-air! Only, from the long line of spray Where the sea meets the moon-blanched land, Listen! you hear the grating roar Of pebbles which the waves draw back, and fling, [Page xi] At their return, up the high strand, Begin, and cease, and then again begin, With tremulous cadence slow, and bring The eternal note of sadness in. Sophocles long ago Heard it on the Ægean, and it brought Into his mind the turbid ebb and flow Of human misery; we Find also in the sound a thought, Hearing it by this distant northern sea. The Sea of Faith Was once, too, at the full, and round earth’s shore Lay like the folds of a bright girdle furled. But now I only hear Its melancholy, long, withdrawing roar, Retreating, to the breath Of the night-wind, down the vast edges drear And naked shingles of the world. Ah, love, let us be true To one another! for the world, which seems To lie before us like a land of dreams, So various, so beautiful, so new, Hath really neither joy, nor love, nor light, Nor certitude, nor peace, nor help for pain; And we are here as on a darkling plain Swept with confused alarms of struggle and flight, Where ignorant armies clash by night. 5
+
+[6] One morning, I was attending a small seminar on early Arabic poetry at the University of California at Los Angeles. Suddenly, the teacher, Professor Seeger Bonebakker, launched into an aside on the Rubáiyát of [Page xii] Omar Khayyám , which he pronounced to be arguably the single worst and most dishonest translation that he had ever encountered from any language of the Islamic Near East. 6 And he definitely had a point: A student of Persian — the language that Omar Khayyám used in writing his poetry — who tried to match any particular passage of Edward FitzGerald’s translation with any single passage of Khayyám’s original would find the task difficult, if not altogether impossible. FitzGerald’s English rendition is, to put it mildly, a free and loose approximation of Khayyám’s Persian.
+
+[7] I was enrolled during that same quarter in a seminar on classical Persian literature that was taught by Professor Amin Banani. 7 That evening, and I suppose by sheer coincidence — I was the only person who was enrolled in both classes — Professor Banani launched suddenly into an aside on the Rubáiyát of Omar Khayyám , which he pronounced perhaps the single finest translation that he had ever encountered from any language of the Islamic Near East. What Edward FitzGerald had accomplished, he rhapsodized, was to write a poem in English that, although it wasn’t a literal rendition of Khayyám’s medieval verses, reflected both the quality and at least some of the spirit and feel of the Persian original. Inspired by the work of a medieval Iranian polymath and poet, FitzGerald had created a work of art that powerfully spoke to his own era and that has remained an important landmark in the history of nineteenth-century English literature.
+
+[8] I’ve thought about that day and about those curiously juxtaposed professorial opinions ever since. They represent, for me, important lessons on the question of what constitutes translation. Is there such a thing, for instance, as a “perfect” translation? I think not. But even the question of whether a translation is a “good” one is complicated. Answering it depends partially on what one is seeking in a translation. I’ve seen overly literal (published!) translations from Greek and Arabic poetry that are largely gibberish — what my former Brigham Young [Page xiii] University colleague Dilworth B. Parkinson calls “word salad.” 8 I’ve seen fairly literal translations of Omar Khayyám’s verses. They possess little or no literary quality, but they might be helpful to an English-speaking student of Greek or Arabic or Persian who was trying to understand the poems in their original language — a purpose for which Edward FitzGerald’s rendering would be essentially useless.
+
+[9] In the next selections — which emphasize the message that, well, we’re doomed — the poem refers to the prominent Persian city in which Khayyám was born and died as well as to famous legendary or quasi-legendary figures from Persian (and, in one case, pre-Islamic Arabian) history. According to the great eleventh-century Persian national epic [Page xvi] of Firdawsi that is known as the Shahnameh , Jamshid and Kay Qobad (or Kay Kawad) and Kay Khosrow were important early kings of “Iran.” 9 So was Zal, but the Shahnameh seems to admire him even more as a great warrior. He was, in fact, the father of Rostam, who is perhaps the greatest of all Iranian warriors, with some intriguing parallels to the Greek Herakles or Hercules. 10 And, finally, Hatim al-Tai was a Bedouin Arab prince and poet of the period immediately preceding the rise of Islam. (In fact, if his traditional death-date of ad 579 is accurate, his life actually overlapped with that of the Prophet Muhammad, who was born circa ad 570.) Hatim is proverbial still today for his extravagantly generous hospitality.
+
+[10] Brief and powerless is Man’s life; on him and all his race the slow, sure doom falls pitiless and dark. Blind to good and evil, reckless of destruction, omnipotent matter rolls on its relentless way; for Man, condemned to-day to lose his dearest, to-morrow himself to pass through the gate of darkness, it remains only to cherish, ere yet the blow falls, the lofty thoughts that ennoble his little day. 11
+
+[11] Next, in order to symbolize our fate as short-lived pawns manipulated by “a greater power than we can contradict,” he uses the image of a chess [Page xviii] board. 12 (Chess, of course, is an ancient Indo-Iranian war game. 13 ) Its alternating light and dark squares represent the days and nights of our mortal lives. We are
+
+[12] [Page xxv] The Astonishing Hypothesis is that “You,” your joys and your sorrows, your memories and your ambitions, your sense of personal identity and free will, are in fact no more than the behavior of a vast assembly of nerve cells and their associated molecules. As Lewis Carroll’s Alice might have phrased it: “You’re nothing but a pack of neurons.” 14
+
+[13] The thing that I find most inscrutable about all of the recent books and essays that have sought to give mechanistic explanations for consciousness, personality, emotions, creativity, the whole human sensorium, is how happy the authors seem about it. They’re nearly giddy with the excitement, and so, for some reason, are many of their readers. But for me, as Dylan sang, they’re just ‘selling postcards of the hanging.’ 15
+

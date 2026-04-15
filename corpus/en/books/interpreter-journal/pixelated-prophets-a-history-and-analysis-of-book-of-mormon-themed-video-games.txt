@@ -1,0 +1,478 @@
+Abstract: Video games represent an innovative medium for entertainment and artistic expression with potential for fostering deeper engagement with religious texts such as the Book of Mormon. Over the past three decades, developers have produced dozens of video games based on the Book of Mormon. This paper provides a comprehensive history of these video games. We examine how these games use different genres, styles, and levels of scriptural fidelity to creative immersive and interactive experiences based on ancient stories and teachings. We also discuss the challenges and opportunities for developing and distributing Book-of-Mormon–themed video games in a competitive and changing market and discuss the future potential of religious-themed video games in fostering unique spiritual experiences.
+
+For centuries, the scriptures have inspired artists and authors. Sacred texts provide the basis for countless paintings, sculptures, novels, songs, and films. Unsurprisingly, since the advent of computer games in the late twentieth century, the scriptures have also inspired many video game developers.
+
+
+## Video Game Genres
+
+Although the term video game correctly refers to a variety of styles of entertainment software, we choose to focus on the following genres:
+
+  - Adventure/RPG
+  - Action/Arcade
+  - Puzzle/Recreational
+
+Though there are additional genres of video games, many of the Book-of-Mormon–themed video games created to date tend to fall into one of these three broad categories. Specifically, we exclude from our analysis “quiz-style” games (i.e., games that focus solely on answering trivia questions) about the Book of Mormon. There are many high-quality [Page 306] scripture quiz games on the various app stores, and we enjoy playing them. However, we have found that most quiz games consist primarily of sequences of multiple-choice questions, with little room for innovation.
+
+The first commercially available video game based on Book of Mormon events, Nephi’s Quest , was published in 1991. Nephi’s Quest was a pioneering outlier; no additional Book-of-Mormon–themed games would appear until more than a decade later. However, the advent of the Web, and later of mobile app storefronts, have significantly lowered the barrier of entry for aspiring developers, leading to a veritable flood over the past two decades of Book-of-Mormon–themed games of varying scope, genre, and — alas — quality.
+
+In this paper, we first present a chronological overview of 29 Book-of-Mormon–themed video games. We then analyze them based on several factors, including genre, setting, and scriptural fidelity. Finally, we discuss why the creation of new Book-of-Mormon–themed video games is in decline and suggest avenues for future development.
+
+
+## Scriptural Fidelity
+
+For each of the games in this paper, we include a ranking for scriptural fidelity . In this context, scriptural fidelity refers to how closely the events portrayed in the video game mirror the actual events as recorded in the Book of Mormon. For simplicity, we have categorized each game into one of three general scriptural fidelity groupings: low, medium, or high. Since our judgments are admittedly subjective, we present below the criteria we used for our classification.
+
+  - Low: A game with “low” scriptural fidelity might feature scriptural characters out of context or use religious artwork in a non-religious setting. For example, the game Book of [Page 307] Mormon Match 3 features graphics inspired by the Book of Mormon but is otherwise just a standard “match 3” game.
+  - Medium: In a game with “medium” scriptural fidelity, characters and events from the scriptures are portrayed in their natural context without adhering strictly to the scriptural record. Non-canonical characters and activities may have been added for the sake of the narrative and for playability. Most of the games reviewed in this paper fall under the “medium” category. For example, the game Ancient Adventures of the Book of Mormon includes a scene in which Jared confronts Nimrod atop the Tower of Babel. Although such an event could conceivably have taken place in real life, it is not mentioned in the scriptural account.
+  - High: A “high”-fidelity game features scriptural characters participating in events described in the scriptures. Non-canonical characters and activities are minimal or non-existent. For example, in the game Journey to the Desert , the player must collect each of the supplies listed in Ether 1:41, 2:2–3 to help the Jaredites prepare for their journey across the ocean. Although a few puzzles have been added for the sake of playability, we rank this game as “high fidelity” because the supply list is taken directly from the scriptural account and there are no non-canonical characters or dialogue.
+
+
+## A Chronological Review
+
+We have compiled an exhaustive list of every Book-of-Mormon–themed video game published between 1991 and 2021; however, since many of these games are no longer distributed, some titles may have slipped through the cracks. This paper includes screenshots from each game for which we had permission from the publisher or developer. Interestingly, only two games were distributed on traditional media (i.e., discs in a shrink-wrapped box); the rest were made available online, either as web pages or mobile apps. Moreover, of the 29 games cataloged below, only 12 are available for sale or download as of this writing.
+
+Technological changes make historical research into video games difficult. Tracking down copies of discontinued titles can be a challenge. Older PC-based games published on physical media (like floppy disks or CDs/DVDs) are relatively easy to find secondhand. The advent of Web and mobile computing platforms increased the ease of distribution for games; however, it also decreased the longevity of these applications. [Page 308] Once a webpage goes offline or a mobile app is unlisted from an app store, tracking down original copies of these games becomes quite difficult.
+
+These same challenges make it difficult for video game developers to create applications with an ongoing relationship with their gaming audience. Small developers with relatively little funding often lack the financial means or incentive to continue updating their applications after the initial publication of the game. In the scripture-based video game genre, these pressures impact the resources that developers are willing to allocate toward making a game that is both creative and tightly connected to the scripture text on which it is based.
+
+
+## Nephi’s Quest
+
+> Year: 1991 Publisher: Eagle Marketing Corporation Genre: Adventure Platform: MS-DOS Media: 3.5-inch floppy disk Availability: No longer sold in stores. Based on: 1 Nephi 2 Scriptural fidelity: Medium Price: $29.95
+
+In Nephi’s Quest , the player assumes the titular role of Nephi. Early in the game, Lehi informs his family that they will be moving into the wilderness, and Nephi is assigned the task of purchasing supplies for the journey (Figures 1 and 2).
+
+[Page 309] Figure 1. In Nephi’s Quest , the player assumes the role of Nephi, who must explore ancient Jerusalem in search of supplies for his family’s upcoming journey into the wilderness. Figure 2. Nephi’s Quest did not require any typing. The player interacted with the game using a series of icons along the righthand side of the screen.
+
+Figure 1. In Nephi’s Quest , the player assumes the role of Nephi, who must explore ancient Jerusalem in search of supplies for his family’s upcoming journey into the wilderness.
+
+Figure 2. Nephi’s Quest did not require any typing. The player interacted with the game using a series of icons along the righthand side of the screen.
+
+
+## Gideon Fu
+
+> Year: 2005 Publisher: BoMToons Genre: Arcade/Action Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: Mosiah 19:4–8 Scriptural fidelity: Medium Price: Free
+
+Following the publication of Nephi’s Quest , thirteen years would pass before the publication of additional Book-of-Mormon–themed video games. The initial foray of this new wave was instigated by the BoMToons studio, which published four games in 2005. These could be played in a web browser with the Adobe Flash plugin. Between 2006 and 2010, BoMToons published four more video games, ultimately comprising 8 of the 29 games included in our review.
+
+The first game published by BoMToons was Gideon Fu . It takes inspiration from the side-scrolling martial arts arcade games typical of the 1980s. The player assumes the role of the Nephite patriot Gideon, who is attempting to assassinate the corrupt King Noah. When the game starts, Gideon is pursuing Noah who has retreated to his tower. The player must jump, kick, and punch his way past hordes of non-canonical ninja soldiers unleashed by Noah to prevent Gideon from reaching the top of the tower (Figure 3).
+
+[Page 311] Figure 3. In Gideon Fu , the player assumes the role of Gideon (center) who must get past an army of henchmen on his way to confront the evil King Noah.
+
+Figure 3. In Gideon Fu , the player assumes the role of Gideon (center) who must get past an army of henchmen on his way to confront the evil King Noah.
+
+
+## Donkey BoM
+
+> Year: 2005 Publisher: BoMToons Genre: Arcade/Action Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: Alma 55:6–20 Scriptural fidelity: Medium Price: Free
+
+Donkey BoM , as the name implies, is a parody of the classic arcade game Donkey Kong . The game’s introductory screen states:
+
+> You’re Laman (the one from Alma 55). The Lamanites are holding some Nephites prisoner. Since you’re a converted Lamanite, you’ve been sent as a covert operative to infiltrate the Lamanite city of Gid and cast weapons to the prisoners to prepare them for the final showdown. Good luck!
+
+[Page 312] Like the original Donkey Kong , the player’s character starts at the bottom of the screen and has to scale a series of platforms to the top of the screen to reach a goal. The goal of the first level is to reach a bottle of wine, located in the upper left corner of the game screen (Figure 4). An interstitial cartoon portrays Laman giving the wine to the Lamanite guards as described in Alma 55:8–13 (Figure 5). In the second level, the player must retrieve a weapon, located at the bottom of the screen, and deliver it to the Nephite prisoner at the top of the screen (Figure 6).
+
+
+## Nephi’s Stake-Out
+
+> Full title: Brother Nephi’s Ultra-Funtastic Point and Click Adventure, Part 1: Nephi’s Stake-Out Year: 2005 Publisher: BoMToons Genre: Adventure Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: 1 Nephi 3:24–26, 4:4–5 Scriptural fidelity: Medium Price: Free
+
+Brother Nephi’s Ultra-Funtastic Point and Click Adventure, Part 1: Nephi’s Stake-Out was published by BoMToons in 2005. As far as adventure games go, Nephi’s Stake-Out is extremely short: all the action takes place along a single section of Jerusalem’s outer wall. The game begins with an introductory cartoon that sets up the backstory: After Lehi’s sons’ second attempt to retrieve the brass plates from Laban, Laban steals their property and sends his servants to kill them. When the game begins, Nephi and his brothers have successfully escaped Laban’s minions and are safely hiding outside the walls of Jerusalem. At this point, the game takes a humorously non-canonical turn. Sam and Laman pass the time by playing a game of marbles while Lemuel naps peacefully (Figure 7). The player assumes the role of Nephi, whose one goal is to find a way to get into the city. Since the gate is padlocked, the player has to find a rope with which to scale the walls. Once Nephi gets to the other side of the wall, the game ends. For purposes of the narrative, the game introduces a non-scriptural character, a cynical meat salesman with whom Nephi barters for supplies.
+
+The sheer brevity of this game leads us to conclude that it was never intended as a stand-alone game, but rather as a prologue to its much longer sequel, Brother Nephi’s Ultra-Funtastic Point and Click Adventure, Part 2: Quest for the Plates , released in 2010.
+
+[Page 313] Figure 4. In Level 1 of Donkey BoM , the player must climb a series of platforms to reach a bottle of wine. Figure 5. In Donkey BoM , a brief cartoon between Levels 1 and 2 depicts Nephite spies offering wine to the Lamanite guards. [Page 314] Figure 6. In Level 2 of Donkey BoM , the player has to rescue the Nephite prisoners at the top of the screen. Figure 7. In Nephi’s Stake-Out , the player interacts with the game environment using point-and-click icons for walking and talking, as well as for examining, taking, and dropping objects. This user interface would be refined and improved in the sequel Quest for the Plates .
+
+Figure 4. In Level 1 of Donkey BoM , the player must climb a series of platforms to reach a bottle of wine.
+
+Figure 5. In Donkey BoM , a brief cartoon between Levels 1 and 2 depicts Nephite spies offering wine to the Lamanite guards.
+
+Figure 6. In Level 2 of Donkey BoM , the player has to rescue the Nephite prisoners at the top of the screen.
+
+Figure 7. In Nephi’s Stake-Out , the player interacts with the game environment using point-and-click icons for walking and talking, as well as for examining, taking, and dropping objects. This user interface would be refined and improved in the sequel Quest for the Plates .
+
+
+## [Page 315] Overcome
+
+> Year: 2005 Publisher: BoMToons Genre: Arcade/Action Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: Alma 19:14–30 Scriptural fidelity: Medium Price: Free
+
+As recorded in Alma 19, King Lamoni and his people were taught the gospel by the Nephite missionary, Ammon, assisted by a local convert named Abish. Memorably, those in Lamoni’s household experienced temporary unconsciousness upon their conversion. It is this unique phenomenon from which the game draws its premise. Although the game’s setting and characters are canonical, the gameplay itself is not. To the best of our knowledge, this is the first Book-of-Mormon–themed game to require two players. One player assumes the role of Ammon, and the other player plays the role of Abish. The game screen has an upstairs and downstairs platform; the player-characters can move between the two platforms by passing through specific on-screen doorways. In addition to Ammon and Abish, there are several non-player characters (NPCs) that move around randomly (Figure 8). In stark contrast to the scriptural account, in the game, Ammon and Abish are at odds with [Page 316] each other, engaged in a sort of comical zero-sum game. Abish’s goal is to induce people to faint, and Ammon’s goal is to catch them before they faint. The player controlling Ammon earns points for each NPC that he can catch before fainting, while the Abish player earns points for every NPC that faints without being caught first. The game is timed; whichever player gets more points in the allotted time is declared the winner.
+
+Figure 8. In Overcome , one player controls Abish (shown in a green tunic) and another controls Ammon (in red). Players move freely between platforms in an effort to induce or prevent fainting spells among residents of Lamoni’s household.
+
+
+## Stripling Warriors 2060
+
+> Year: 2006 Publisher: BoMToons Genre: Arcade/Action Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: Alma 57:19–20 Scriptural fidelity: Low Price: Free
+
+Stripling Warriors 2060 is not a full-fledged game, but rather a slapstick parody of the fighting game genre. Here, the number 2060 does not refer to a futuristic year, but rather to the total number of stripling warriors in Helaman’s army (see Alma 57). The player assumes the role of a luckless Lamanite soldier who must duel against a stripling warrior. Unlike most games, there is no way to “win” — in fact, it is impossible to defeat the stripling warrior. The humor/novelty of the game comes from discovering all the ways that the stripling warrior can defeat you. The game’s documentation sums it up nicely:
+
+> Can you endure death after death at the hands of all 2060 stripling warriors?
+
+The game keeps track of how many battles the player has lost (up to a maximum of 2060), but we confess we did not have the patience to make it that far (Figure 9).
+
+
+## Moroni’s March
+
+> Year: 2006 Publisher: BoMToons Genre: Arcade/Action Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: Alma 62:3–6 Scriptural fidelity: Low Price: Free
+
+[Page 317] Moroni’s March is patterned after the classic video game Lemmings . The setting is based on Alma 62:3–6, in which Captain Moroni leads a march of soldiers to the land of Gideon, to overthrow the king-men and reinstate Pahoran as chief judge. In the original Lemmings game, the player controls a collection of small creatures who must follow a path from one part of the game-screen to another. The player temporarily endows upon individual creatures various abilities — such as digging, bridge-building, or flight — which facilitates the pathway for others. Moroni’s March is similar, except that the lemmings are replaced with Nephite soldiers (Figure 10). The game consists of several screens of generally increasing difficulty. The game ends either when Moroni runs out of soldiers, or when he arrives in the land of Gideon.
+
+
+## BoM Beat Battle
+
+> Year: 2007 Publisher: BoMToons Genre: Arcade/Action Platform: Web browser, with Flash plugin Availability: Unavailable due to Flash end-of-life Based on: Alma, Helaman Scriptural fidelity: Low Price: Free
+
+On the surface, BoM Beat Battl e looks like a parody of the typical fighting game: two on-screen characters, Captain Moroni and Gadianton, face off in hand-to-hand combat. However, the game more closely resembles such classic rhythm games as Guitar Hero and Rock Band . A pattern of “notes” that the player must “play” flow across the screen, and the player can only attack/defend himself against the opponent if the notes are played correctly. Since BoM Beat Battle is intended to be played on home computers, the “notes” are actually just keys that the user must press on the keyboard, rather than actual musical notes (Figure 11). BoM Beat Battle can be played either by one or two players; the players can choose whether to be Moroni or Gadianton. In one-player mode, the computer assumes the role of the opposing player. This game scores “low” on the scriptural fidelity rating simply because there is no recorded meeting between Moroni and Gadianton in the Book of Mormon. In fact, Captain Moroni’s death is recorded in Alma 63:3, two chapters before Gadianton is first mentioned in Helaman 2:4.
+
+[Page 318] Figure 9. In Stripling Warriors 2060 , the player is a hapless Lamanite soldier (left) repeatedly defeated by an indomitable stripling warrior (right). Figure 10. The goal of Moroni’s March is to safely transport the Nephite soldiers. Players can endow soldiers with special powers to help navigate the terrain. [Page 319] Figure 11. Inspired by rhythm games such as Guitar Hero , BoM Beat Battle requires the player to “play” different “notes” to attack or evade one’s opponent.
+
+Figure 9. In Stripling Warriors 2060 , the player is a hapless Lamanite soldier (left) repeatedly defeated by an indomitable stripling warrior (right).
+
+Figure 10. The goal of Moroni’s March is to safely transport the Nephite soldiers. Players can endow soldiers with special powers to help navigate the terrain.
+
+Figure 11. Inspired by rhythm games such as Guitar Hero , BoM Beat Battle requires the player to “play” different “notes” to attack or evade one’s opponent.
+
+
+## Quest for the Plates
+
+> Full title: Brother Nephi’s Ultra Funtastic Point and Click Adventure, Part 2: Quest for the Plates Year: 2010 Publisher: BoMToons Genre: Adventure Platform: Web browser, with Flash plugin. Also available for Android. Availability: Unavailable due to Flash end-of-life. No longer available on Google Play either. Based on: 1 Nephi 4:5–38 Scriptural fidelity: Medium Price: Free to play online, $0.99 for the offline Android version
+
+Brother Nephi’s Ultra Funtastic Point and Click Adventure, Part 2: Quest for the Plates is by far the most ambitious of BoMToons’ many offerings. Unlike most of BoMToons’ other games, in which all the action is confined to one or two game screens, Quest for the Plates features several locations to explore, multiple items to collect, and eight NPCs with whom Nephi can engage in detailed conversations. It was released as both a free online Web-based version (Figure 12) and an offline version for Android devices (Figure 13) for 99 cents. Unfortunately, due to the discontinuance of Flash, the Web and Android versions are both currently unavailable.
+
+[Page 320] Figure 12. The Web version of Quest for the Plates contains several improvements over its predecessor, Nephi’s Stake-Out . The actions toolbar has been streamlined, and the player’s inventory is always onscreen for easy access. Figure 13. The Android version of Quest for the Plates moves the actions toolbar to the right side of the screen to make better use of phones’ limited screen real estate. It also includes a “save game” feature that is missing from the Web version.
+
+Figure 12. The Web version of Quest for the Plates contains several improvements over its predecessor, Nephi’s Stake-Out . The actions toolbar has been streamlined, and the player’s inventory is always onscreen for easy access.
+
+Figure 13. The Android version of Quest for the Plates moves the actions toolbar to the right side of the screen to make better use of phones’ limited screen real estate. It also includes a “save game” feature that is missing from the Web version.
+
+[Page 321] Quest for the Plates picks up exactly where Nephi’s Stake-Out leaves off. Now that he’s inside the walls of Jerusalem, Nephi must make his way to Laban’s house and retrieve the brass plates. Along the way, Nephi must complete several non-canonical tasks, such as outsmarting a dreidel-wielding smuggler, deflecting the advances of a lovesick maiden, bartering with a homeless inventor, rescuing a cat from a tree (Figure 12), traversing a river of mud, disabling a laser defense system, and making homemade mushroom paste.
+
+Of course, the expected scriptural elements are present as well. Near the end of the game, Nephi does have to kill Laban, don his armor, and convince Zoram that he is Laban in order to retrieve the brass plates and return them safely to his waiting brothers. Despite all the humorous non-scriptural additions to the story, the game is consistently respectful of the character of Nephi as a prophet. The game has two modes, which the user can select at the start of the game: “Cartoony Blood” and “Gumdrop Mode.” The primary difference between the two is how the death of Laban is portrayed: in Cartoony Blood mode, blood is shown when Nephi slays Laban; in Gumdrop Mode, butterflies and rainbows are shown instead. In addition, an extra task is included in Cartoony Blood mode: Nephi must wash the blood from Laban’s armor before being admitted to Laban’s house. In Gumdrop Mode, this scene is simply skipped: Laban’s armor is already clean when Nephi puts it on.
+
+
+## Lamanite
+
+> Year: 2010 Publisher: Spentak Labs Genre: Arcade Platform: iOS Availability: No longer available Based on : Helaman 16:2–3 Scriptural fidelity: Medium Price: $1.99
+
+Lamanite was a mobile game published in 2010 in the iOS App Store. Details about this discontinued game are difficult to find; only a few [Page 322] online references to it exist. A promotional summary about this game states:
+
+> You are Samuel, a Lamanite Prophet sent to declare repentance unto the people. You must preach to the people while evading arrows, stones, and more. Not everyone wants to listen to you and will work hard to destroy you. The longer you survive, the more believers you can obtain. As time moves forward and the levels go by, Lamanite becomes exceedingly difficult. Will you help the city repent, or will you become victim to its wickedness?
+
+
+## Helam: A Stripling Warrior Quest
+
+> Year: 2011 Developer: React Games, distributed by Excel Entertainment Genre: RPG Platform: Windows, MacOS Media: DVD-ROM Availability: Deseretbook.com Based on: Alma Scriptural fidelity: Low Price: $24.98
+
+In Helam: A Stripling Warrior Quest , the player assumes the titular role of Helam, a fictional Nephite boy who tries to find a Lamanite robber who burned down the synagogue in his village. Helam later learns that this robber is the same man who killed Helam’s father during the battle described in Alma 24:20–22. Along the way, Helam is joined by two friends, Naomi and Hem, who assist him in his quest (Figure 14). The characters in the game are not to be confused with the canonical Helam, Naomi, and Hem mentioned in Mosiah 18:12, Ruth 1:2, and Mosiah 7:6, respectively. Although the game is set in ancient America and refers to Book of Mormon geography and events, the game’s characters and storyline are fictional.
+
+Helam is arguably the most technologically advanced Book of Mormon game ever made. Helam’s gameplay reflects the advances in computer hardware in the twenty years since Nephi’s Quest , featuring real-time smoothly animated 3D graphics and an instrumental soundtrack.
+
+In contrast to most games we reviewed, Helam includes a significant combat component, with many enemies — both animal and human — that must be defeated as part of the game. This is, however, standard fare for a typical RPG.
+
+[Page 323] Figure 14. By far the most elaborate Book of Mormon video game ever made, Helam chronicles the adventures of Helam, a Nephite youth, on a quest to avenge his father’s death. (© 2011 Deseret Book)
+
+Figure 14. By far the most elaborate Book of Mormon video game ever made, Helam chronicles the adventures of Helam, a Nephite youth, on a quest to avenge his father’s death. (© 2011 Deseret Book)
+
+
+## Celestial Glory
+
+> Full title: Celestial Glory I: Journey to the Promised Land Year: 2012 Developer: Cheek Genre: RPG Platform: Android, iOS Based on: 1 Nephi Availability: Amazon Appstore, formerly for Apple devices Scriptural fidelity: Low Price: Free, with in-app purchases
+
+Little is known about Celestial Glory I: Journey to the Promised Land. The screenshots on Amazon Appstore for this discontinued game look [Page 324] interesting. But the game itself is currently unplayable. When it launches, it attempts to retrieve data from a defunct website and then crashes. From the documentation, it appears to have been a multiplayer RPG in which players can form “clans” to accomplish in-game tasks collaboratively (Figure 15). Despite the Roman numeral “I” in the title, to the best of our knowledge, no sequel was ever developed or released.
+
+
+## Journey to the Desert
+
+> Year: 2013 Developer: Bruno Monteiro Genre: Arcade/Action Platform: Android Availability: No longer available Based on: Ether 1:41, 2:1–3 Scriptural fidelity: High Price: Free
+
+[Page 325] Figure 15. Celestial Glory appears to have been a multi-player RPG in which teams collaborated to complete tasks, or “quests,” based on passages from the Book of Mormon. [Page 326] Figure 16. In Journey to the Desert , the player (in the role of the Brother of Jared) must collect supplies for the Jaredites’ voyage across the sea. In this screenshot, the Brother of Jared is attempting to convince a timid sheep to follow him.
+
+Figure 15. Celestial Glory appears to have been a multi-player RPG in which teams collaborated to complete tasks, or “quests,” based on passages from the Book of Mormon.
+
+Figure 16. In Journey to the Desert , the player (in the role of the Brother of Jared) must collect supplies for the Jaredites’ voyage across the sea. In this screenshot, the Brother of Jared is attempting to convince a timid sheep to follow him.
+
+
+## Ancient Adventures of the Book of Mormon
+
+> Year: 2014 Developer: TegTap, LLC Genre: Adventure Platform: Android and iOS Availability: Amazon and Apple appstores, but not Google Play Based on: Ether 1, 2 Scriptural fidelity: Medium Price: $1.99
+
+Ancient Adventures of the Book of Mormon consists of two distinct episodes, both of which take place in the period described in chapters 1 and 2 of Ether. The user can select which episode to play from the app’s title screen. In the first episode, “Jared at the Tower of Babel,” the player assumes the role of Jared, who is on a quest to investigate the nearby Tower of Babel and report his findings back to his brother. If Jared reaches the top of the tower, he confronts Nimrod and witnesses the confounding of the language (Figure 17). In the second episode, “The Brother of Jared,” the player assumes the role of the Brother of Jared, i.e., Mahonri Moriancumr. In this game, the player needs to collect supplies, notably wood, to construct barges (Figure 18). Both episodes feature beautiful 3D graphics and smooth animation (Figure 19).
+
+[Page 327] Figure 17. In the first episode of Ancient Adventures of the Book of Mormon , entitled “Jared at the Tower of Babel,” the player (Jared) confronts Nimrod atop the Tower of Babel and witnesses the confounding of the language. Figure 18. In the second episode of Ancient Adventures of the Book of Mormon , entitled “The Brother of Jared,” the player (Mahonri) collects materials needed to construct barges.
+
+Figure 17. In the first episode of Ancient Adventures of the Book of Mormon , entitled “Jared at the Tower of Babel,” the player (Jared) confronts Nimrod atop the Tower of Babel and witnesses the confounding of the language.
+
+Figure 18. In the second episode of Ancient Adventures of the Book of Mormon , entitled “The Brother of Jared,” the player (Mahonri) collects materials needed to construct barges.
+
+The game’s puzzles seem out of place in the ancient Mesopotamian setting. For example, as Jared makes his way to the Tower of Babel, a random villager challenges him to a game of four-in-a-row. Another villager requires Jared to complete a sliding tile puzzle. To be sure, Ancient Adventures of the Book of Mormon is not the only game with [Page 328] anachronistic elements. After all, in Quest for the Plates , Nephi must disable a laser beam to enter Laban’s house. The difference is that Quest for the Plates is intentionally and unabashedly a comedy; indeed, the anachronisms are an essential part of the game’s humor. In contrast, Ancient Adventures of the Book of Mormon has a more subdued and serious tone, thus making the anachronistic puzzles feel a bit “off.”
+
+Figure 19. Ancient Adventures of the Book of Mormon features very detailed 3D artwork, creating an immersive environment for the player to explore.
+
+
+## Lehi’s Escape
+
+> Year: 2014 Developer: Freeman Hyzer and Alejandra Hyzer Genre: Adventure Platform: Android and Windows Availability: Amazon Appstore and Windows Store Based on: 1 Nephi 1 Scriptural fidelity: Medium Price: $1.00
+
+Figure 20. In Lehi’s Escape , the player can freely explore an immersive 3D world. There are a few NPCs with which the player can interact, but most of the game is spent searching one’s environment for hidden items.
+
+
+## Book of Mormon Match 3
+
+> Year: 2014 Developer: uTappz Mobile Development LLC Genre: Puzzle/Recreational Platform: iOS Availability: Apple App Store Based on: N/A Scriptural fidelity: Low Price: Free, with ads
+
+Book of Mormon Match 3 is just a clone of other well-known “match 3” games like Bejeweled or Candy Crush , except it uses icons like Liahona, swords, bows, Mesoamerican temples, and the tree of life instead of conventional jewels or candy.
+
+
+## [Page 330] Book of Mormon Jump
+
+> Year: 2014 Developer: uTappz Mobile Development LLC Genre: Arcade Platform: iOS Availability: Apple App Store Based on: N/A Scriptural fidelity: Low Price: Free, with ads
+
+Book of Mormon Jump is a simple platform-jumping game with a tenuous connection to the Book of Mormon. The main character bears a superficial resemblance to Captain Moroni as portrayed in Arnold Friberg artwork.
+
+
+## 3D Book of Mormon Infinite Run
+
+> Year: 2014 Developer: uTappz Mobile Development LLC Genre: Arcade Platform: iOS Availability: Apple App Store Based on: N/A Scriptural fidelity: Low Price: Free, with ads
+
+This is a simple clone of running games like Temple Run but set in a jungle environment. Despite the words “Book of Mormon” in the game’s title, its only connection to the scriptures is that the characters are wearing clothes like those worn by Nephites in Church artwork.
+
+We note in passing that in addition to these three Book-of-Mormon–themed games, uTappz also distributes several other virtually identical games that feature characters such as princesses, Vikings, and ninjas. Their apparent strategy is to create several versions of the same game targeted for various audiences. Once the up-front development costs are absorbed, it takes very little effort to “skin” an app with different themes and market it as a different game. It is a compelling business strategy, even though their games have only a superficial relevance to the Book of Mormon.
+
+
+## [Page 331] The Great Book of Mormon Adventure
+
+> Year: 2014 Developer: Mormon Cartoonist, LLC Genre: Puzzle Platform: iOS Availability: Apple App Store Based on: Several stories throughout the Book of Mormon Scriptural fidelity: High Price: Free with limited functionality, $3.99 to access all content
+
+The Great Book of Mormon Adventure is a “hidden object” game with a scriptural flair. There are 13 chapters or levels, each with two pictures: one depicting a scene from the Book of Mormon, and another picture that “likens” the corresponding message from the Book of Mormon to our day. For example, Chapter 1 contains both a picture of Nephi’s family crossing the sea, and a family moving to a new house (see Figure 21). Similarly, Chapter 2 contains a picture of the prophet Enos praying in the forest, and a picture of a young boy saying the opening prayer in family home evening.
+
+Figure 21. In The Great Book of Mormon Adventure , each chapter contains two “hidden object” puzzles, one from a Book of Mormon story, and one that likens the story to our day. The Book of Mormon scenes contain several intentional anachronisms for humor (such as the young man holding a cell phone on the upper deck of the boat).
+
+
+## [Page 332] LDS Scripture Heroes
+
+> Year: 2014 Developer: Mormon Cartoonist, LLC Genre: Puzzle Platform: iOS Availability: Apple App Store Based on: Several stories throughout the Book of Mormon Scriptural fidelity: High Price: Free with limited functionality, $3.99 to access all content
+
+LDS Scripture Heroes is a collection of jigsaw puzzle and picture matching games featuring cartoon renderings of Book of Mormon and Bible characters. Some activities are purely picture-based; some require knowledge of scriptures stories (Figure 22). A prerecorded voiceover provides a descriptive biography of each featured scriptural character.
+
+
+## Heroes of the Book of Mormon: The Servant of Helaman
+
+> Year: 2015 Developer: Levi Hilton Genre: RPG Platform: Windows Availability: No longer available Based on: Helaman 2 Scriptural fidelity: Medium Price: Free
+
+[Page 333] Figure 22. LDS Scriptures Heroe contains several educational activities for children. For example, the first screenshot presents a summary about Abish, while the second invites the player to find two matching portraits of the same. [Page 334] Figure 23. The Servant of Helaman from the Kickstarter campaign promo video.
+
+Figure 22. LDS Scriptures Heroe contains several educational activities for children. For example, the first screenshot presents a summary about Abish, while the second invites the player to find two matching portraits of the same.
+
+Figure 23. The Servant of Helaman from the Kickstarter campaign promo video.
+
+
+## Heroes of the Book of Mormon: The Servant of Teancum
+
+> Year: 2015 Developer: Levi Hilton Genre: RPG Platform: Windows Availability: No longer available Based on: Alma 50–52, 62 Scriptural fidelity: Medium Price: Free
+
+The Servant of Teancum is a prequel to The Servant of Helaman . Unlike The Servant of Helaman , we did obtain a copy of The Servant of Teancum to evaluate. We assume the gameplay is similar across the two games. In this game, the player assumes the role of Teancum’s servant mentioned in Alma 51:33. In a bit of historical license, this character is assumed to be the same individual who was the servant of Helaman from the previous game. Like its predecessor, The Servant of Teancum was created with the game-authoring system RPG Maker. As a convenience, RPG Maker includes many samples of stock art that developers can use in [Page 335] their games; this artwork appears frequently in The Servant of Teancum (see Figure 24).
+
+As in many RPGs, the player must also fight a variety of enemies — both human and animal — which are randomly located around the environment (Figure 25). If the player is injured during the course of these battles, his or her health can be restored by drinking “potions” — a non-canonical gimmick doubtlessly borrowed from the RPG genre. Other than that, the plot of The Servant of Teancum follows the Book of Mormon narrative fairly faithfully. The player, in the role of the title character, begins by escorting Morianton’s maidservant to Moroni’s camp (see Alma 50:30–31) and later accompanies Teancum on his two stealth missions to assassinate Amalickiah and his brother Ammoron (see Alma 51:33–34, 62:36) — the latter of which proved fatal for Teancum (see Figure 26).
+
+
+## Scripture Hero
+
+> Year: 2015 Developer: Dustin Hill Genre: Puzzle/Recreational Platform: iOS Availability: Apple App Store Based on: 1 Nephi Scriptural fidelity: Low Price: Free, with ads
+
+Scripture Hero purports to be about Nephi but has almost nothing to do with the Book of Mormon. The player controls a cartoon smiley face that is perched atop a series of narrow walls that resemble Stonehenge. The player must construct temporary bridges to allow the smiley face to roll from one wall to the next without falling. The game’s documentation refers to the smiley face as “Nephi” — presumably because it is sporting a headband like those Nephi is shown wearing in Arnold Friberg paintings. The only genuinely scriptural aspect of the game is that it flashes verses from the Book of Mormon on the screen between each round.
+
+[Page 336] Figure 24. The stock art from RPG Maker gives The Servant of Teancum a manga-style quality. Figure 25. In The Servant of Teancum , the player must battle against various enemies that appear throughout the game. This screenshot shows the player facing off against Morianton (shown wearing a purple cape) and some henchmen. [Page 337] Figure 26. Teancum’s funeral as portrayed in The Servant of Teancum .
+
+Figure 24. The stock art from RPG Maker gives The Servant of Teancum a manga-style quality.
+
+Figure 25. In The Servant of Teancum , the player must battle against various enemies that appear throughout the game. This screenshot shows the player facing off against Morianton (shown wearing a purple cape) and some henchmen.
+
+Figure 26. Teancum’s funeral as portrayed in The Servant of Teancum .
+
+
+## BoMA: The Great War
+
+> Year: 2015 Developer : Experience Games Genre: RPG Platform: Android Availability: No longer available Based on: Alma 49 Scriptural fidelity: Medium Price: $0.99
+
+BoMA: The Great War is a cross between a war simulation game and a “choose your own adventure”-style narrative. In BoMA , the player assumes the role of newly promoted Nephite military leader who must help protect the city of Moroni from a Lamanite invasion. The player must make various choices like how many soldiers to deploy and which offensive and defensive tactics to use. As the battle progresses, the game presents the player with other choices, which ultimately will determine if the campaign is successful. The game also includes simple hand-drawn artwork (Figure 27).
+
+As an aside, we note that this game is best played on a tablet — the graphics and text are hard to read on phones with small screens.
+
+[Page 338] Figure 27. BoMA: The Great War combines a narrative with simple illustrations. At key junctions in the plot, the player is asked to make strategic choices that will affect the outcome of the battle.
+
+Figure 27. BoMA: The Great War combines a narrative with simple illustrations. At key junctions in the plot, the player is asked to make strategic choices that will affect the outcome of the battle.
+
+
+## Book of Mormon Touch
+
+> Year: 2016 Developer: Inner Active Studios Genre: Puzzle/casual Platform: Android Availability: No longer available Based on: Several stories throughout the Book of Mormon Scriptural fidelity: High Price: Free, with in-app purchases
+
+Book of Mormon Touch features two modes: “story mode” and “game mode.” In story mode, the app is essentially a children’s picture book with several stories from the Book of Mormon. The illustrations and narration are very nicely done. In game mode, the app allows users to choose from a variety of simple activities, such as adding color to black-and-white line drawings or re-creating scenes from scripture stories by dragging character cutouts onto a background picture. Originally, the app followed a “freemium” business model in which a few stories were included for free, with additional stories available for purchase. Later versions included all the stories gratis, but with a request for donations.
+
+
+## [Page 339] Las Aventuras de Nefi
+
+> English title: Nephi’s Adventures: Jerusalem Year: 2016 Developer: Akahatá Studios Genre: Adventure Platform: Android Availability: No longer available Based on: 1 Nephi 2:4 Scriptural fidelity: Medium Price: Free, with ads
+
+Las Aventuras de Nefi is notable for being multilingual; the title screen lets the user select between English, Spanish, and Portuguese. Like other adventure games, the player controls a character that moves around a 3D environment and interacts with other NPCs. The player assumes the role of Nephi, who must explore Jerusalem looking for his parents and older brothers, who are scattered around random locations in the city. Once found, each family member follows Nephi until they are all together. The game ends with the whole family walking out of the city gate. Periodically, the game will pop up a multiple-choice trivia question whose answer can be found in the Book of Mormon. Like BoMA above, this game also is best played on a tablet; the font used in the text captions is quite small and may be difficult to read on small screens.
+
+This game occasionally displays full-screen ads, which may be distracting for some players.
+
+
+## Tree of Life AR
+
+> Year: 2019 Developer: Continuum XR (based in Orem, Utah) Publisher: The Church of Jesus Christ of Latter-day Saints Genre: Adventure Platform: Android, iOS Availability: No longer available Based on: 1 Nephi 8 Scriptural fidelity: High Price: Free
+
+
+## Book of Mormon Heroes
+
+> Year: 2021 Developer: Christine Orton Genre: Trading card/RPG Platform: iOS, Android Availability: Apple App Store and Google Play Based on: Multiple characters from the Book of Mormon Scriptural fidelity: Medium Price: Free, with in-app purchases
+
+Taking inspiration from collectible trading card games like Pokémon and Magic: The Gathering , Book of Mormon Heroes is essentially a set of trading cards featuring artistic renditions of characters from the Book of Mormon. The player starts with a random assortment of five cards. The player can earn additional cards by answering quiz questions based on the Book of Mormon. The game even allows players to trade cards with other players. In addition, there are a few cards featuring imaginary non-canonical characters, such as “Dinah the Jaredite” and “Sarah the Nephite.” Of course, since this is a computer game rather than a physical card game, the “cards” are virtual — just pictures on the screen. Each card also has a reverse side (viewable by tapping an on-screen button) that lists a selection of scripture verses related to that character. As with other trading card games, there is an optional combat component: the player can use their cards to wage battle against canonical villains such as Laman or Amalickiah. Each card has a different “ability,” “level,” “attack strength,” and “health points” that influence its performance in a battle.
+
+The cards are drawn in a mythic style that differs markedly from traditional artistic depictions of scriptural characters. For example, many characters are depicted carrying glowing orbs of energy (see Figure 28) or streams of magical glitter (Figures 29). This style of artwork is common and expected in fictional wizarding universes. Such style decisions illustrate the tension between following established expectations for a [Page 341] game genre and adhering to the fidelity of a record of actual people from the Book of Mormon.
+
+Interestingly, of all the games in this paper, this is the only one that is still being actively developed.
+
+Figure 28. An example of one of the trading cards in Book of Mormon Heroes . Figure 29. Screenshot from the opening tutorial in Book of Mormon Heroes . The prophet Abinadi serves as tour guide through the various features of the game.
+
+Figure 28. An example of one of the trading cards in Book of Mormon Heroes .
+
+Figure 29. Screenshot from the opening tutorial in Book of Mormon Heroes . The prophet Abinadi serves as tour guide through the various features of the game.
+
+
+## Analysis
+
+Some game genres tend to be marked by certain levels of scriptural fidelity (see Table 1). Not surprisingly, many action/arcade games exhibit [Page 342] “low” scriptural fidelity. This is perhaps because the fast nature of arcade games does not leave much time for doctrinal or historical nuance. Most adventure/RPG games fall in the “medium” category: their slow pace allows them to tell a story based on the scriptures. However, due to the nonlinear nature of adventure games, non-canonical elements are often introduced to account for situations not specifically addressed in the scriptural record. Puzzle games can go either way. Some, such as [Page 343] Scripture Hero and Book of Mormon Match 3 , use the Book of Mormon merely as a scenic backdrop for the game. In others, such as Mormon Cartoonist’s LDS Scripture Heroes and The Great Book of Mormon Adventure , the gameplay serves primarily as a vehicle to teach players about Book of Mormon characters and stories.
+
+Table 1. A list of all 29 Book-of-Mormon–themed video games, arranged by genre and scriptural fidelity.
+
+[Table omitted]
+
+
+## A Decline in Game Development
+
+Figure 30. Most Book-of-Mormon–themed video games were developed during two distinct bursts of productivity approximately ten years apart.
+
+Not only is the number of Book-of-Mormon–themed video games not growing , it is shrinking. We base this on a few observations.
+
+
+## [Page 345] Observation 1. Most Games are No Longer Available
+
+Many Book-of-Mormon–themed video games are no longer being actively maintained by their developers. Of the 29 games we reviewed, only 12 are still available for purchase or download. This does not necessarily mean that the developers purposefully unlisted their apps. Rather, it is simply a reflection of the ephemeral nature of technology. Both Google and Apple regularly update the terms of use for developers. Apps whose developers are either unable or unwilling to comply with the latest requirements are simply removed from the store. Presumably, this is done to ensure that apps from these stores are regularly updated to work with the newest devices and operating systems. In contrast, Microsoft and Amazon have been comparatively lenient; apps submitted to the Windows Store and Amazon Appstore tend to stay available for years, even after the app has been abandoned by its developer. Celestial Glory is a prime example of this.
+
+
+## Observation 2: The Games that are Available are No Longer being Actively Updated
+
+With the sole exception of the trading-card game Book of Mormon Heroes , no other game in this paper has been updated since 2016. From this, we postulate that the developers initially created these apps in a burst of creative energy and religious zeal. Then, when the number of downloads did not meet expectations, they could no longer justify the time and effort to maintaining these apps and simply turned their attention to other projects.
+
+
+## Observation 3: Most of these Games’ Websites are Offline
+
+When developers release a new game, they will often create a website (or add a new webpage to an existing site) to publicize it. As further evidence of the poor financial performance of many Book-of-Mormon–themed video games, the vast majority of these websites are now offline or no longer maintained. Of the eleven websites that were made to promote or otherwise accompany the games listed in the Chronological Overview, seven are now completely offline, while one (BoMToons.com) is still available but has not been updated since 2017.
+
+
+## Observation 4: The Developers Report Poor Sales
+
+The biggest question, of course, is why? Why did these games — many of which are very nicely done — not fare better commercially? We don’t claim to have a definitive answer, but some possible contributing factors may include the following.
+
+  - Aversion to paid content. The Church has a culture of free content. Every single app published by the Church is available free of charge. For example, the Gospel Library app and the Sacred Music apps provide virtually unlimited reading and listening material at no cost. The Church’s YouTube channel contains hundreds of hours of free inspirational videos. As a result, some Latter-day Saints may be hesitant to purchase, or even be slightly suspicious of, for-profit digital religious content. Ironically, the same hesitation does not appear to apply to traditional media: Deseret Book, for example, has been profitably publishing religiously oriented books for over a hundred years.
+  - Aversion to advertising. Advertising may seem out of place in religious media: after all, the Church’s website, mobile apps, and print magazines contain no advertisements. Many of the [Page 348] games reviewed in this paper are adware , meaning they are free to download and play, but display advertisements during the game. These advertisements provide revenue for the developers. Whereas app developers have direct control over the content of the app itself, the ads are typically provided by a third party over which the developer has little control. As a result, occasionally offensive ads may creep into an otherwise innocuous video game. Indeed, many of the negative reviews an otherwise quality app receives are the result of inappropriate ads (see Figure 31).
+  - Aversion to violence. Although the Book of Mormon itself is replete with references to wars and contention, many parents choose not to let their children play games with significant amounts of violence. This may explain why the slow-paced, puzzle-oriented adventure game Nephi’s Quest sold more copies than the battle-heavy RPG Helam , in spite of its inferior graphics and the twenty-year distance between their release dates. However, an aversion to violent content alone does not explain the lack of popularity of Book-of-Mormon–themed video games. Indeed, of all the for-profit games reviewed in this paper, only a handful ( Helam , The Great War , Book of Mormon Heroes ) involve actual combat.
+
+
+## A Possible Resurgence in Game Development
+
+Figure 31. A review posted to the Apple App Store for one Book-of-Mormon–themed game.
+
+What types of games will these developers create? Most of the existing games are single-player games revolving around just three main “story arcs” from the Book of Mormon (see Figure 32):
+
+[Page 350] Figure 32. Most of the Book-of-Mormon–themed video games are drawn from just a few books in the Book of Mormon.
+
+Figure 32. Most of the Book-of-Mormon–themed video games are drawn from just a few books in the Book of Mormon.
+
+  - The journey of Lehi’s family from Jerusalem to the Americas.
+  - The Nephites’ military campaigns under Captain Moroni.
+  - The journey of the Jaredites to the Americas.
+
+This is not surprising, as these story arcs contain some of the most memorable and “exciting” tales in the whole Book of Mormon. However, there are still plenty of under-explored topics to consider. Many of these could reasonably be adapted as single- or multi-player games. Some possible ideas include:
+
+  - Adventure game about the life of Zeniff, one of the most poetically tragic characters in the Book of Mormon — all he wanted was to reunite Lehi’s posterity, but things never seemed to work out for him.
+  - Arcade game about Ammon defending Lamoni’s flocks. (It is astonishing that no one has made a video game about this yet. This one especially seems like “low-hanging fruit.”)
+  - Alma the Elder escaping capture after Abinadi’s death, establishing a community, teaching people, gathering supplies, etc.
+  - Captain Moroni’s Great Escapes: liberating Nephite cities captured by Lamanite armies.
+  - Nephite soldier training game: Teancum: javelin toss; Ammon: sling-throwing; etc.
+  - Sim-style game to optimize internal food stores/economics to break the siege of the Gadianton robbers (see chapters 3 and 4 of Third Nephi).
+  - [Page 351] King Benjamin’s Tower Builder: The tower needs to reach the optimal height for viewing/projection; constraints can include materials, base width, etc.
+  - A Nephite Coinage Game: Change making activities, unit conversions for various measures of grain, etc.
+  - Help Mormon collect hidden records, assemble the plates, avoid getting captured/killed.
+
+Of course, some topics are so fertile that they stay fresh even after multiple explorations. For example, no less than seven games catalogued in this paper deal with Lehi’s family’s exodus from Jerusalem, but each one approaches the story from a different angle. Future games could likely do the same. We have surely not seen the “last” game about Nephi, Sam, Laman, and Lemuel.
+
+
+## Advice to Aspiring Developers
+
+In closing, we offer some advice for software developers looking to create their own Book-of-Mormon–themed video games.
+
+  - Do not put advertising in religiously themed games. Unless you can afford to make your game 100% free, the most effective business model is the so-called freemium model: offer a free version with limited functionality, then allow users to unlock the rest of the features for a fee. This allows the users to “test drive” the app — making sure it provides value and is compatible with their device — before making a monetary commitment. The puzzle game The Great Book of Mormon Adventure is distributed using this model, and it has been a modest but steady source of revenue for its developer for many years. However, none of the games we’ve reviewed have been very big money-makers for their creators. Be patient, recognizing that app development is unlikely to become your primary income source, at least at first.
+  - Maintain your game over time. Publishing an app is a long-term commitment. Keep up with the changing requirements of the four main app distributors: Apple, Google, Amazon, and Microsoft. It takes work to keep your apps updated, but it will save your users from the frustration of having their apps (especially ones they paid for) disappear from the storefront, with no way to recover them.
+
+
+## [Page 352] Conclusion
+
+Each new game represents a substantial time commitment for its developers, yet very few Book-of-Mormon–themed video games have seen widespread commercial success — and overall, the number of new titles being produced is in decline. In this paper, we have discussed some reasons for this phenomenon, and offered suggestions for revitalizing the development of these games. It is our hope that this paper will inspire academics, entrepreneurs, and especially developers to “flood the earth” with wholesome and fun video games based on the Book of Mormon.
+
+---
+Notes
+
+[1] The first video games based on Christian scriptures trace their origin to the books Bible Basic 1 and Computer Bible Games 2 published in the early 1980s. These books contained several Bible-themed “type-in programs” that could run on popular home computers of the day, such [Page 304] as the TRS-80 or Commodore 64. Since then, developers worldwide have created an extensive collection of scripturally themed video games. The most common text is the Old Testament. But there are also games based on the New Testament and the Book of Mormon.
+
+[2] However, the development of Christian-themed video games frequently faces a lack of funding, partly because of a history of mediocre games and the relatively small size of the core gamer audience for such games. 3 Despite the small size of this niche in the gaming industry, a historical examination of these efforts can help to shed light on the ways that video game development serves to provide marketable products as well as to act as an expression of the faith of game developers.
+
+[3] This paper focuses on video games based on the Book of Mormon. Indeed, some Latter-day Saint game developers may feel a special call to create and distribute games inspired by the Book of Mormon. In an October 1988 General Conference address, Ezra Taft Benson declared, “I have a vision of artists putting into film, drama, literature, music, and paintings great themes and great characters from the Book of Mormon.” 4 It is not unreasonable to imagine game developers being among the “artists” referred to by President Benson. In a review of literature related to the Book of Mormon, Paul Gutjahr hints at the existence of Book-of-Mormon–themed video games, but he does not cite any specific examples. 5 Our paper is the first effort to collect, analyze, and categorize every commercial video game ever made about the Book of Mormon.
+
+[4] An adventure game is typically a single-player game in which the player goes on a “quest” to acquire some valuable object or rescue someone in danger. The player must overcome obstacles by using [Page 305] creativity or logic. Combat is either absent or minimal. A role-playing game (or RPG) is like an adventure game, except that combat serves as a problem-solving technique. Examples of mainstream adventure games include the King’s Quest 6 and Myst 7 series for desktop computers and the Room 8 series for mobile devices.
+
+[5] In an action/arcade game, quick reflexes take priority over plot and character development. Players may need to jump over obstacles, navigate a maze, or blast enemy ships or fighters. Longtime examples include titles such as Pac-Man 9 or Super Mario Brothers. 10 Newer franchises include Fortnite, 11 Halo, 12 or Need for Speed. 13
+
+[6] Puzzle/recreational games started as a sub-genre of action/arcade games, but their ubiquity on mobile devices merits a category of their own. Puzzle/recreational games usually feature 2D graphics, bright colors, and a simplified plot. Typically, they involve solving simple visual puzzles. They are often intended to be played in small spurts when the player has only a few minutes available. For this reason, puzzle/recreational games are sometimes referred to as “casual games.” Tetris 14 was an early example of this genre. So-called “match 3” games such as Bejeweled 15 or Candy Crush Saga 16 are also popular. Other contemporary puzzle/recreational games include Wordscapes 17 or Flow Free. 18
+
+[7] In contrast, developers of adventure, arcade, and puzzle video games have significant creative latitude in creating their works. Since the Book of Mormon is first and foremost a religious text, its authors rarely provided details about other “mundane” aspects of daily living. Thus, as game developers build their simulated worlds, they are forced to add non-canonical elements to the gameplay. They must make educated (or fanciful) guesses about ancient architecture, clothing, and weaponry. Author Chris Heimerdinger referred to this process as “put[ting] flesh on the bones.” 19
+
+[8] Nephi’s Quest was the first commercially available Book-of-Mormon–themed video game. It is difficult to overstate the historical significance of this game. As the first commercially available Book-of-Mormon–themed video game, this pioneering effort predates its successors in the genre by more than a decade. Steven Shallenberger, the executive producer of Nephi’s Quest , was already an established publisher of scripture-themed picture books through his company Eagle Marketing Corporation. According to Shallenberger, the decision to create Nephi’s Quest was inspired by a desire to provide a spiritually uplifting alternative to the existing video games of the day. 20 Author Stephen R. Covey served as an advisor to the project, and veteran game programmer Chuck Peavey was recruited to develop the game.
+
+[9] [Page 310] The game manual refers to the game at one point as Nephi’s Quest 1 , thus implying the possibility of a second adventure. In fact, when Peavey developed Nephi’s Quest , he implemented a general-purpose game engine that could be reused for sequels as needed. 21 However, no sequel was ever developed. According to Shallenberger, about 5,000 copies of Nephi’s Quest were sold. 22
+
+[10] At the end of the game, a brief cartoon shows Lehi asking his sons to “go back up to Jerusalem to get wives.” A teaser is then displayed for a third installment to the series, entitled Quest for Wives . Although some concept artwork was created, the third game was never produced. 23
+
+[11] Helam was designed and developed by React Games, an independent game development team based in Salt Lake City. According to Chad Lee, CEO of React Games, the idea to create a Book-of-Mormon–themed video game was the result of a series of discussions with the leadership of Deseret Book. 24 In the end, however, Helam did not sell as well as Nephi’s Quest . Lee estimates that less than 1,000 copies were sold.
+
+[12] As a 2D side-scrolling platform game, Journey to the Desert bears a superficial resemblance to the original Super Mario Bros games, yet the tasks in the game are grounded in historical fact, not fantasy. The player must solve puzzles to gather grain, as well as capture birds, sheep, fish, and beehives — the same supplies that the Jaredites gathered prior to their journey. The game begins by reviewing Ether 1:41 and 2:2–3, which lists the supplies Jared and his brother took with them on their initial journey into the valley of Nimrod. In the game, the player assumes the role of the Brother of Jared. The goal is to collect supplies for the Jaredites’ upcoming journey (Figure 16). In contrast to many other arcade games reviewed herein, Journey to the Desert is quite faithful to the scriptural record. Simple puzzles are included, but they are derived from the scriptural account: the player must find an empty hive before he can capture a swarm of bees; the player has to lure a fish into a “vessel” and lay a snare to capture a bird. The game ends after the player collects all the items and implies that additional “chapters” of the game will be released soon. However, no sequels were created. As of this writing, Journey to the Desert is no longer available on Google Play. This is one of the games that was created for the LDSTech Gospel App and Game Contest. 25
+
+[13] Lehi’s Escape is set in Jerusalem, perhaps a year or so before Lehi’s exodus to the Americas. The player assumes the role of Lehi, who must complete a series of 27 quests to complete the game. The gameplay itself tends to be somewhat repetitive; each quest consists of wandering around the landscape searching for a certain number of hidden objects (Figure 20). This game is notable for being one of the few Book of Mormon games [Page 329] available on the Windows Store. It was also the winner of the “People’s Choice Award” at the 2014 Gospel Games and App Contest. 26
+
+[14] The Servant of Helaman is one of several scriptural games created by Levi Hilton, son of noted BYU Religion Professor John Hilton III. It was featured in an article in the Deseret News . 27 At the time he created this game, Levi was only 14 years old. He created it with RPG Maker, 28 a game authoring tool that creates top-down 2D games similar in style to old Nintendo games like The Legend of Zelda . We were unable to obtain a copy of The Servant of Helaman for review. Based on the Kickstarter campaign information for the project (see Figure 23), we conclude it is a fictionalized retelling of the story in Helaman 2:6–9 in which a Nephite patriot foils a plot to assassinate the chief judge Helaman.
+
+[15] Tree of Life AR is unique in that it is the only one distributed by The Church of Jesus Christ of Latter-day Saints. For classification purposes, we put its genre as “adventure,” but it is not really a game. Rather, Tree of Life AR is an augmented reality (AR) system that projects imagery from Lehi’s dream — taken from the Church’s Book of Mormon video series — onto the user’s surrounding environment. Unfortunately, Tree of Life [Page 340] AR suffered from both hardware limitations and software bugs, and the Church discontinued it after only a few months. Although the app is no longer available for download, its webpage 29 is still up, which offers a glimpse of the vision the app’s creators held for it.
+
+[16] Looking at the release dates of the Book-of-Mormon–themed games, we see spurts of activity in the mid-2000s and in the mid-2010s (Figure 30). The first bump is easy to explain: these games are almost entirely created [Page 344] by a single team, BoMToons, during their time as students at Brigham Young University before the demands of family and career pulled them away from their game-development hobby. 30 The second bump is more nuanced. These games were written by a variety of developers from across the world, rather than by one highly motivated group of auteurs. What brought about this flurry of activity, and why did it drop off afterward?
+
+[17] In 2014 and 2015, the Church’s IT department in Riverton, Utah, sponsored an “LDS App and Game Contest.” 31 This contest solicited entries in three categories: Primary , Youth , and Family . By submitting their own new original games and apps to this contest, developers could compete for a variety of prizes — mostly gift cards to Deseret Book. The rewards themselves were nominal: the gift cards were worth at most $100, far less than the amount of money it would cost to commercially develop an app. Other than “bragging rights,” we believe the greatest incentive for participation in this contest was the sense of community that it afforded to Latter-day Saint app developers. After the contest was discontinued in 2015, there was no single unifying entity around which aspiring Latter-day Saint app developers could rally. Consequently, the number of new Book-of-Mormon–themed video games declined.
+
+[18] Another reason for the disappearance of some online games is the demise of Flash. Adobe Flash was a software development platform that allowed developers to create interactive content, such as games and videos, for websites. Many of the web-based games reviewed in this paper (in particular, those by BoMToons) were made with Flash. In 2010, Apple announced they would not support the use of Flash on iOS devices due to multiple security flaws and performance issues. 32 Other mobile platforms and Web browsers would ultimately follow suit. In 2017, Adobe encouraged Flash developers to migrate their apps to other technologies. 33 Adobe officially ended support for Flash on 12 January 2021. 34 On that date, virtually all Flash-based software worldwide stopped working. (The screenshots of the Flash-based games shown in this paper were all collected prior to this cutoff.)
+
+[19] As a result of Adobe’s shutdown of Flash, many of the BoMToons games are no longer available for play. As of this writing, the BoMToons.com site is still online, but none of the game links are functional anymore. [Page 346] Just a few years ago, it was a thriving games site; now it is little more than a collection of predominately inactive hyperlinks. However, some of the BoMToons games can still be played on the website newgrounds.com, using a Flash emulator. 35
+
+[20] The above three observations alone would suggest that these games did not provide a sustainable revenue stream for their creators. We contacted many of the developers to be sure, and the sales figures they quoted to us were discouraging. Only two games, Nephi’s Quest and Helam: A Stripling Warrior Quest , were sold in traditional retail stores on physical media. Nephi’s Quest sold around 5,000 copies, 36 while Helam: A Stripling Warrior Quest sold less than a thousand. 37 Given the up-front costs of manufacturing printed manuals, floppy disks and [Page 347] DVDs, and shrink-wrapped packaging, it is unlikely that either one of these projects broke even. Of course, newer titles are distributed online only and without physical media, resulting in lower up-front costs for developers. However, mobile apps are usually priced far lower than traditional shrink-wrapped software, meaning a high number of sales is still required to make a profit.
+
+[21] The greatest commercial success we’ve seen is from the two games LDS Scripture Heroes and The Great Book of Mormon Adventure , both from Mormon Cartoonist LLC. At their peak, these games generated about $1,000 per month, although more recently it has dropped to about $100 per month. 38 This could be helpful as an additional revenue stream but is hardly sufficient as a primary source of income.
+
+[22] Other mobile games have not fared nearly as well. BoMA: The Great War sold only nine copies before being dropped from Google Play for technical reasons. 39 Although BoMToons did not provide us exact sales figures for the Android version of Quest for the Plates , they did tell us that it was not a money-maker for them. 40
+
+[23] Book-of-Mormon–themed video games are, for many, an enjoyable way to bring stories of the Book of Mormon to life. These games can also serve as a non-threatening introduction to the Book of Mormon for those unaffiliated with The Church of Jesus Christ of Latter-day Saints. [Page 349] We believe that these games do, in fact, encourage players to explore the scriptures for themselves. As an example, BoMToons reports that 12,869 users clicked on a link to read 1 Nephi chapter 4 online upon completing the game Quest for the Plates . 41 As such, Book-of-Mormon–themed video games are an under-utilized educational and missionary tool. Although there has been a decline in recent years in Book-of-Mormon–themed game development, we believe a rebound is both possible and probable.
+
+[24] The data suggests that the LDS App and Game Contest was a significant catalyst for the development of Book-of-Mormon–themed videogames. The discontinuance of that program in 2015 strongly correlates to the observed decrease in the number of new Book-of-Mormon–themed video games. The contest was one of several parallel efforts 42 made by Church headquarters staff to actively engage the Latter-day Saint developer community in the production of games, applications, and content for the broader Church members. Since 2015, those efforts have been deprioritized in favor of other valuable initiatives. We believe this contest, and its attendant benefits could be brought back, albeit without requiring continuing sponsorship by the technology leads in Church administration. As an alternative, we suggest that the App and Game Contest or a similar effort be reinstated under the aegis of academic departments of Church-sponsored universities, through businesses like Deseret Book, or perhaps through independent organizations like Meridian Magazine or The Interpreter Foundation. Indeed, this may allow the contest to reach a far wider audience than before. We encourage interested academics, practitioners, and enthusiasts to sponsor and organize new forums in which Latter-day Saint software developers can showcase their work. We hope that these new venues could restore the sense of community that the App and Game contest once provided, and thereby spur the creation of new Book-of-Mormon–themed video games.
+
+[25] The Book of Mormon has inspired multiple generations of artists, songwriters, and storytellers. Video games are a relatively new, if perhaps under-utilized, vehicle for creative exploration of the Book of Mormon. We have reviewed — insofar as we are aware — every arcade, adventure, and puzzle video game based on the Book of Mormon. Since many of these games are no longer generally available online or in stores, we felt a special urgency to preserve a record of them for posterity. 43 Indeed, we consider our historical survey of these 29 games to be one of the major contributions of this paper.
+

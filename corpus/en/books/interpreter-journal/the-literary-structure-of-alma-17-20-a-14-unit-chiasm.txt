@@ -1,0 +1,581 @@
+Abstract: This article is an analysis of the literary structure of Alma 17–20. These four chapters in the current Book of Mormon were originally a single chapter in the first edition of the Book of Mormon (originally, chapter 12). The current article describes a process and rationale that was used to identify several major literary units whose structure is no longer obvious with the division into four chapters. The original literary structure appears to have been written as a 14-part chiasm in which the matching units share many strong links and parallels. According to this analysis, the central units of this chiasm highlight the turning point of the narrative. Ammon preaches the gospel to King Lamoni, and Lamoni then proceeds to cry unto the Lord for mercy upon himself and his people. Thousands of Lamanites then repent and are converted unto the Lord. This critical episode in the Book of Mormon had far-reaching and long-lasting effects. It now appears that Mormon carefully structured this episode to help readers remember key events that transpired and to highlight its importance as a hinge point in Nephite/Lamanite history.
+
+In this article, I will do the following:
+
+  - Explain the methodology used to identify this proposed chiasm.
+  - Provide a summary of the epic account shared in Alma 17–20 and offer reasons why a chiastic structure of its contents could have been intentionally employed by Mormon.
+  - Present the proposed 14-element chiasm I have identified in Alma 17–20.
+  - Detail the links, parallels, and correspondences found between paired elements.
+  - Analyze the chiasticity of the proposed chiasm using criteria from John Welch and Neal Rappleye to strengthen the case for the assumed intentionality of this structure.
+  - Summarize some of the key findings and insights resulting from the chiastic structure of this chapter.
+
+In addition to these six objectives, I am including a separate appendix that will provide a literary analysis of each of the major literary units that make up the 14-element chiasm. The appendix is actually longer than the article itself. It is provided for the benefit of those wishing to dig deeper into any or all of the 14 elements of the main chiasm. However, the main thesis of the paper can be understood in the first section by itself.
+
+
+## An Explanation of Methodology
+
+There are three main steps to the methodology I have used to identify and analyze this chiasm. The first step is to pay particular attention to the section breaks that are found on the original and printer’s manuscripts of the Book of Mormon. Royal Skousen explains:
+
+I operate on the assumption that these chapter breaks were made purposefully by Mormon in his abridgement in the Book of Mormon. There are 114 chapters in the Book of Mormon based on these breaks in contrast to the 239 chapters in the most recent edition of the Book of Mormon. I have used these chapter breaks as natural boundary markers for my literary analysis of the original chapter that now comprises Alma 17–20.
+
+The second step is to identify and delimit the major literary units within this chapter. James Muilenburg, in his 1968 Presidential Address to the Society of Biblical Literature, “Form Criticism and Beyond,” says the following:
+
+This work is quite detailed, and it is actually longer on its own than the rest of the article combined. Although this step needs to be done before moving on to the final step below, I’ve included this work in an appendix so the chiasm can be the main focus of the article. The reader is still able to assess the proposed chiasm by evaluating parallels and links between its paired elements without knowing the exact boundaries of each literary unit. However, anyone looking for additional detail on how the major literary units were determined can find that information in the appendix.
+
+The third and final step is to analyze the major literary units identified for patterns, parallels, and other links between units. This step [Page 92] led to the discovery of this proposed chiasm and will be the emphasis of this article.
+
+The patterns and parallels noted below became apparent after I delimited the literary units of the chapter. The outer frames for the chiasm were then easier to recognize. The center and turning point of the chapter (Ammon’s teaching Lamoni about the Plan of Redemption and the coming of Christ, and Lamoni’s response to this message) appeared to serve as a strong hinge point for the overall narrative, and then branching out from the center it was possible to find other obvious links and parallels.
+
+Moving forward, this framework of delimiting the major literary units in each original chapter of the Book of Mormon and then analyzing the structure of those units may prove quite fruitful. There is still much to be done in this area of Book of Mormon studies.
+
+Some preliminary work done on the next chapter, which consists of Alma 21–22, has revealed some strong parallels between matching literary units. This methodology has also aided the discovery of two other exciting chiastic structures in this section of the text that goes through Alma 29.
+
+
+## An Epic Missionary Journey
+
+Before presenting the 14-element chiasm I have identified, it is best to start with an overall summary of this chapter and to explain why we may benefit from taking particular care in studying it. Alma 17–20 recounts Ammon’s epic missionary journey in the land of Ishmael among the Lamanites. The sons of Mosiah, with a select number of other missionaries, go up to the land of Nephi, to preach the word of God to the Lamanites (17:8). The events that take place in the first part of this chapter crescendo to what becomes a dramatic turning point for the entire Book of Mormon, the conversion of King Lamoni and many other Lamanites unto the Lord. Before the chapter concludes, the Church [Page 93] begins to be established among the Lamanites for the first time (19:35; 20:1).
+
+In between, not unlike Alma in Ammonihah or Samuel the Lamanite in Zarahemla (Alma 8:13–18; Helaman 13:2–3), Ammon and his brethren almost turn back while they are in the wilderness before they even get to the land of Nephi (Alma 26:27). The Lord ends up comforting them and promises them success amid inevitable long-suffering and afflictions (17:10–11). Their hearts take courage, and they continue forward, aware of the great work which they had undertaken to preach to “a wild and a hardened and a ferocious people” (17:12–14).
+
+“Many mighty works” and miracles occur throughout this chapter (19:4). Included among these mighty works are the following:
+
+  - Ammon shows forth great power in confronting the Lamanites who sought to scatter the king’s flocks. He slays seven with his sling and sword and smites off the arms of many others in the fray (17:27–39).
+  - Ammon is blessed by the Spirit to be able to perceive King Lamoni’s thoughts when speaking to him in his house (18:16). He is given the opportunity to boldly preach the Plan of Redemption to King Lamoni and his servants (18:24–39).
+  - Lamoni cries unto the Lord for mercy and then falls to the earth as if he were dead. He stays in this state until he arises on the third day (18:41–42; 19:12).
+  - Lamoni declares that he saw his Redeemer while in his fallen state (19:13).
+  - The king, queen, Ammon, and the king’s servants all fall to the earth, overpowered by the Spirit (19:13–16).
+  - Abish, a Lamanitish servant who was converted unto the Lord on account of a remarkable vision of her father, witnesses the scene (19:16). She runs forth from house to house to let people know what has taken place at the king’s house that “by beholding this scene it would cause them to believe in the power of God” (19:17).
+  - Ammon is miraculously spared from certain death when an attacker falls dead while attempting to slay Ammon while he is sunk down on the earth (19:22).
+  - Abish touches the queen’s hand, and she immediately arises and blesses Jesus for saving her. The queen speaks in tongues and then takes King Lamoni by the hand and he also arises. Ammon and the king’s servants also arise (19:28–30, 33). [Page 94] King Lamoni teaches the people Ammon’s words, changing many people’s hearts. They have no more desire to do evil (19:31, 33).
+  - Many of the king’s servants declare that they had seen angels and conversed with them. Those who believe in their words become a righteous people (19:34–35).
+  - The voice of the Lord reveals to Ammon that his brethren are in prison in a distant land (20:2,5).
+  - Ammon is spared again when Lamoni’s father, the king over all the land, raises his sword to slay Ammon. Ammon withstands his blows, spares the king’s life, and negotiates Lamoni’s retaining of his kingdom. Lamoni’s father then desires that Ammon and his brethren come see him to teach him (20:19–27).
+  - Aaron, Muloki, and Ammah are delivered from prison in Middoni by Ammon and King Lamoni (20:28–30).
+
+All these events happen within one original chapter in the Book of Mormon. What an extraordinary epic, indeed!
+
+Literary devices and structures also abound within this chapter. There are numerous chiastic structures; antithetical, synonymous, and synthetic parallels; keyword repetitions; biblical allusions and parallels; inclusios and other framing devices; various poetic outbursts of praise and pleading; wordplay; and the use of numerology. The sheer number of literary devices employed and the careful structuring of the text in this chapter point to the significance of these events as a hinge point and foundational story in Nephite/Lamanite history.
+
+Much of this foundational story likely shared a prolific oral tradition among the Nephites and Lamanites as they remembered and recounted the miraculous events that led to the conversion of these people unto the Lord. As such, it is likely that Alma, and possibly Ammon, intentionally used chiastic structures to help people remember important elements of the story that were then shared and passed down to subsequent generations. Some of these structures may have been included in his written record which Mormon used for his abridgement.
+
+As the sons of Mosiah experience success among the Lamanites, this occasion is depicted in the following manner: “And thus the work of the Lord did commence among the Lamanites. Thus the Lord did begin to pour out his Spirit upon them. And we see that his arm is extended to all people who will repent and believe on his name” (Alma 19:36). Mormon often concludes narratives using a “thus we see” statement or [Page 95] statements to make sure the reader understands the point he is making (see Alma 28:13–14, 50:19–21; Helaman 6:34–36, 12:1–3). Mormon gives us three such statements to highlight the profundity of this moment by using “And thus…,” “thus,” and “and we see” in this verse.
+
+The story told in Alma 17–20 has major repercussions for the remaining Book of Mormon narrative. The sons of Mosiah “rejected their rights to the kingdom for the word of God” (heading to Alma 17), which led to a new form of Nephite government that existed for more than 100 years (Mosiah 29). Theirs is the first successful missionary journey made to the Lamanites since Nephi and his followers separated from Laman and Lemuel roughly 480–500 years earlier. Subsequent accounts in the Book of Mormon are directly impacted by these converted Lamanites and their progeny such as the stripling Ammonites in Alma 53 and 56–58, Samuel the Lamanite’s preaching to the Nephites in Helaman 13–15, and Lamanites that are in Bountiful for Christ’s appearance in 3 Nephi 11–28.
+
+This chapter appears to be one of the most carefully structured chapters in Mormon’s entire abridgement in the Book of Mormon. It is evident that Mormon crafted his writing meticulously and calculatedly to make this story more memorable for his future readers. Unfortunately, the current chapter divisions may hide the possible structural intent behind this original chapter. This story is divided up and unfolds as if it were a dramatic play with numerous acts. As such, while there are chiastic elements and parallels throughout this chapter, its meaning is most magnified, and the richness of the text is best relished, by properly delimiting its individual units and then analyzing those units for the patterns and links purposefully placed there for readers to recognize and ponder.
+
+A 14-element chiasm is a beautiful structure to use for this foundational account. These 14 elements correspond to the 14 major literary units identified within this chapter. This chiastic structure can help more readily remind readers of the key elements of this account and help us make natural comparisons among them. The 14 elements can also remind us of the 14 years that the sons of Mosiah preached among the Lamanites.
+
+
+## The 14-Unit Chiasm in Alma 17–20
+
+The 14-unit chiasm that I propose was intended by Mormon for Alma 17–20 is shown below:
+
+> A. Alma meets the sons of Mosiah after their 14-year mission to the Lamanites; Alma rejoices exceedingly to see his brethren; sufferings, afflictions, and successes are summarized (17:1–5) B. Sons of Mosiah begin their missionary journeyings to the Lamanites after refusing the kingdom (17:6–18) C. Ammon goes to the land of Ishmael ; he is bound and carried before Lamoni, king over the land of Ishmael ; Ammon becomes Lamoni’s servant (17:19–25) D. Ammon at the waters of Sebus; by showing the power in him , Ammon hopes to win the hearts of his [Page 97] fellow-servants ; they gather the flocks ; Ammon contends with those who scattered the flocks ; the Lord’s promise to Mosiah about his sons ; flocks are returned to the pasture of the king (17:26–39) E. King Lamoni’s servants testify of Ammon’s great power and faithfulness; Lamoni surely knows Ammon is the Great Spirit ; he fears lest he has done wrong (18:1–11) F. Ammon goes to the king ; the king’s countenance has changed ; Ammon asks the king, “Believest thou?” three times; he responds, “I believe;” Ammon’s faith gives him knowledge and power (18:12–35) G. Ammon teaches King Lamoni and his servants the Plan of Redemption (18:36–39) G'. King Lamoni believes Ammon’s words; he cries unto the Lord for mercy upon him and his people ; he falls to the earth as if he were dead (18:40–19:1) F'. Ammon goes to the queen ; the king’s mind and soul are lit up while under the power of God ; Ammon tells the queen her husband will rise again; Ammon asks the queen, “Believest thou?” she responds, “I believe;” the queen’s exceeding faith (19:2–10) E'. The king rises and blesses the queen; he tells the queen, “ For as sure as thou livest …I have seen my Redeemer; the king, queen, and Ammon sink down to the earth overpowered by the Spirit ; the servants who testified of Ammon’s great power cry unto God, for the fear of God was upon them (19:11–15) D'. Abish , the queen’s mistress, witnesses the scene at the king’s house and takes the opportunity to gather the people in hopes that they will believe in the power of God ; the Lord’s promise to Mosiah about his sons ; Abish stops the multitude’s contention ; many are converted unto the Lord (19:16–36) C'. The voice of the Lord tells Ammon to leave the land of Ishmael and deliver his brethren from prison in Middoni; Lamoni says he will go with Ammon to Middoni, for the king of the land of Middoni, Antiomno , is a friend unto Lamoni (20:1–7) [Page 98] B'. While journeying to the land of Middoni, Ammon and Lamoni meet Lamoni’s father, king over all the land; Lamoni’s father attempts to slay Ammon; Ammon spares the king’s life and refuses to accept half of his kingdom (20:8–27) A'. Ammon and Lamoni meet Ammon’s brethren after their deliverance from prison; Ammon is exceedingly sorrowful ; sufferings and afflictions are summarized (20:28–30)
+
+
+## Correlations between Matching Elements
+
+There are many correlations between the matching elements of this chiasm that will be described in further detail below. Units G and G', which serve as the chiasm’s central episodes, are highlighted as the turning point in the narrative of Alma 17–20 and could very well serve as a hinge point for the entire Book of Mormon. These central elements aptly consist of Ammon teaching King Lamoni and his servants the Plan of Redemption followed by King Lamoni’s response to this teaching. He cries unto the Lord for mercy — that same abundant mercy that was given to the Nephites — to be given to him and his people. This sets in motion the conversion of many of the people in the land of Ishmael as well as the deliverance of Ammon’s brethren from prison. By the end of the 14-year missionary journey undertaken by Ammon and his brethren, many thousands of the Lamanites in seven lands are converted to the Lord (Alma 23:5,8–13).
+
+Analysis of the matching units in the proposed chiasm will start with the outside elements and move toward the central elements (A and A', then B and B', and so on). This analysis will culminate with correspondences between the central elements, G and G', which represent the climax and hinge point of the narrative.
+
+
+## Correspondences Between A and A' (Alma 17:1–5 and 20:28–30)
+
+Elements A and A' describe two meetings involving Ammon and some of his brethren. Not all of Ammon’s brothers are at both meetings. In A, Alma “met” the sons of Mosiah after not seeing each other for 14 years (17:1,4). In A', Ammon did “meet” his brethren — Aaron, Muloki, and Ammah — after they were brought forth out of prison (20:29). The words meet or met are used elsewhere in this chapter only in Alma 17:13 and 20:8. However, these two references are to a hypothetical, future meeting the missionaries hope to enjoy when they first separate from each other, and a meeting between Ammon, Lamoni, and Lamoni’s father. The only [Page 99] two actual meetings involving Ammon and at least some of his brethren are in these two verses, making this a unique link.
+
+In A, Alma “did rejoice exceedingly” to see Ammon and his brethren (17:2). Later in the book of Alma, Ammon’s joy from this meeting is described as so great that it exhausted him of his strength, and he fell to the earth (27:17). In contrast to this joyful meeting, in A', Ammon was “exceeding sorrowful” when he saw his brethren naked, having suffered so greatly (20:29).
+
+There is a significant inclusio formed by Alma 17:1–2 and 27:16–19. Both texts describe the joyful meeting that occurred between Alma and the sons of Mosiah after 14 years of not seeing each other. The text between this inclusio is a flashback of the sons of Mosiah’s mission, and then the narrative starts up again in real time in Alma 27:20.
+
+Both elements share the keywords afflictions , suffer/suffered , hunger , and thirst (17:5; 20:29). In A, a summary is given of the afflictions Ammon and his brethren suffered throughout their entire 14-year missionary journey. In contrast, in A', a summary is given of the afflictions Aaron and his brethren suffered while imprisoned in Middoni. The combination of the words suffer , hunger , and thirst are only found in this chapter in these two verses as well as in one of the central elements of the chiasm in 18:37 in reference to Lehi’s family’s journey in the wilderness to the promised land. The significance of this is discussed below in element G. If the word afflictions is added to this group of keywords, such a combination is only found in 17:5 and 20:29.
+
+The framing for this entire chapter is provided by these two meetings and by the reference to sufferings and afflictions the sons of Mosiah experienced among the Lamanites.
+
+The use of sevens also occurs in each element. Both elements have a list of seven trials that these missionaries faced (17:5; 20:30). Success versus failure is also contrasted in these two elements. In A, the sons of Mosiah “had much success in bringing many [Lamanites] to the knowledge of the truth” (17:4). In A', Aaron and his brethren who had been in prison in Middoni had undergone the opposite experience up [Page 100] to that point. “It was their lot to have fallen into the hands of a more hardened and a more stiffnecked people. Therefore they would not hearken unto their words” (20:30).
+
+
+## Correspondences Between B and B' (Alma 17:6–18 and 20:8–27)
+
+Elements B and B' describe two distinct journeyings. In both elements, the keyword journeying ( s ) is used to describe the events taking place (17:6; 20:8). In B, the sons of Mosiah journey into the wilderness to go preach the word of God among the Lamanites in the land of Nephi. In B', Ammon and King Lamoni journey to the land of Middoni to free Ammon’s brethren from prison.
+
+One of the correspondences between these elements involves Ammon’s refusal to accept an earthly kingdom. In B, the sons of Mosiah “refused the kingdom which their father was desirous to confer upon them” (17:6). In B', Ammon is explicitly offered half of Lamoni’s father’s kingdom but does not accept (20:23–24). In contrast, Ammon only requests of Lamoni’s father “that Lamoni may retain his kingdom” (20:24).
+
+In B, the Lord instructs the sons of Mosiah to “shew forth good examples” unto the Lamanites and he would make an instrument of them in his hands unto the salvation of many souls (Alma 17:11). In B', it is Ammon’s example of great love for Lamoni that impresses Lamoni’s father and leads him to invite Ammon and his brethren to come see him (Alma 20:26–27).
+
+Another parallel provided in these matching elements is the descriptions given of the Lamanites and Nephites from the other’s perspective (17:13–15; 20:10,13). In the narrative in Alma 17:13–15, the Lamanites are described in harsh terms to underscore how great the work was which the sons of Mosiah had undertaken. They are described as “a wild and a hardened and a ferocious people, a people which delighted in murdering the Nephites, and robbing and plundering them” among other things (17:14). Lamoni’s father described the Nephites in harsh terms as well. He called them “children of a liar” (20:10) and said that Nephi “robbed our fathers. And now his children also are come amongst us that they may by their cunning and their lyings deceive us, that they again may rob us of our property” (20:13). The only three mentions of robbing in this chapter are included in these matching units (17:14; 20:13).
+
+Repentance is also mentioned in these two sections and only in one other place within this chapter. In B, the sons of Mosiah hope to brin [Page 101] g the Lamanites to repentance (17:15–16). In B', Ammon tells Lamoni’s father that Lamoni has repented of his sins (20:17). Mormon’s “thus we see” statement that “we see that [the Lord’s] arm is extended to all people who will repent and believe on his name” is the only other reference to repentance in this chapter (19:36).
+
+There is one other interesting link between these two elements worth noting even though it is not strongly tied to the actual wording of the text. In B, the sons of Mosiah’s journey in the wilderness is described in terms of lasting “many days” and their “[fasting] much and [praying] much” (17:9). The Lord visited them with his Spirit who comforted them, insomuch that their hearts “took courage to go forth unto the Lamanites to declare unto them the word of God” (17:10,12). Verse 12 hints at what we later learn was going on at this time. This verse reveals the hesitancy that the sons of Mosiah and their group had in going to preach to the Lamanites. Verse 8 stated that they had departed into the wilderness to go up to the land of Nephi. Now, verse 12 declares that their hearts took courage to go forth unto the Lamanites after they had already been journeying in the wilderness for many days.
+
+Ammon gives us the background for this episode in Alma 26:27. He said, “Now when our hearts were depressed and we were about to turn back, behold, the Lord comforted us and said: Go amongst thy brethren, the Lamanites, and bear with patience thine afflictions; and I will give unto thee success.” Ammon’s insight here echoes wording from Alma 17:9–12 to solidify the connection between these verses. He said “the Lord comforted us” which echoes Alma 17:10. Also, the Lord said to “bear with patience thine afflictions” echoing Alma 17:11. So, the backstory to Alma 17:9–12 is that the group almost turned back in the wilderness, after they had already started out on their journey.
+
+This parallels Lamoni’s experience with his father in B'. Lamoni’s father commands his son to return with him to the land of Ishmael in the middle of Lamoni’s journey to the land of Middoni (20:14). Lamoni, however, tells his father that he will not return to the land of Ishmael, but will go to the land of Middoni to release Ammon’s brethren from prison (20:15). Lamoni’s refusal to follow his father’s commands must have taken great courage. Instead of returning to his own land with his father, he chose to keep moving forward on the journey to help Ammon’s brethren.
+
+
+## Correspondences Between C and C' (Alma 17:19–25 and 20:1– 7)
+
+Elements C and C' involve Ammon’s going to the land of Ishmael and then being told by the voice of the Lord to leave the land of Ishmael. In C, Ammon goes to the land of Ishmael (Alma 17:19). In C', Ammon is told to leave the land of Ishmael for the land of Middoni where his brethren are in prison (Alma 20:2).
+
+Both elements introduce a king over a land of the Lamanites by using the same keywords king , land , and name (Alma 17:21; 20:4). In C, it is “the king who was over the land of Ishmael; and his name was Lamoni” (Alma 17:21). In C', it is “the king of the land of Middoni, whose name is Antiomno” (Alma 20:4). The only other introduction to a king is to Lamoni’s father in 20:8. He is introduced as “king over all the land,” but curiously, his name is never provided.
+
+In C, the custom of the Lamanites was “to bind all the Nephites which fell into their hands and carry them before the king. And thus, it was left to the pleasure of the king to slay them or to retain them in captivity or to cast them into prison or to cast them out of his land, according to his will and pleasure” (Alma 17:20). Ammon is taken and bound and carried before the king when he first enters the land of Ishmael (17:20–21). In C', there are two instances of this custom in action. First, the voice of the Lord tells Ammon not to go to the land of Nephi because the king (Lamoni’s father) will seek his life (20:2). Second, the king over the land of Middoni had already cast Ammon’s brethren into prison (Alma 20:2).
+
+[Page 103] In both episodes, flattery is used to influence a certain king. In C, Ammon uses flattering words when he tells Lamoni, “Yea, I desire to dwell among this people for a time, yea, and perhaps until the day I die” (Alma 17:23). In C', Lamoni explicitly says that he will “flatter” the king of Middoni to have Ammon’s brethren released from prison (Alma 20:4).
+
+
+## Correspondences Between D and D' (Alma 17:26–39 and 19:16– 36)
+
+Elements D and D' contain two of the most dramatic episodes in this account. Both elements begin with reference to “Lamanitish” people. In D, Ammon is watching the flocks with “Lamanitish” servants (17:26). In D', Abish is described as one of the “Lamanitish” women (19:16). Nowhere else is the word Lamanitish used in the Book of Mormon other than in these two instances in these two matching elements.
+
+The Lord’s promise to Mosiah that his sons would be kept safe is referenced only in these matching elements within the chapter. In D, the Lamanites supposed they could slay Ammon, not knowing that “the Lord had promised Mosiah that he would deliver his sons out of their hands” (17:35). In D', after the slain leader’s brother attempts to slay Ammon, the Lord’s promise to Mosiah is again explicitly mentioned that he would spare Ammon’s life (19:23). Alma 19:27 shares additional language with the wording of the promise in Alma 17:35 which, due to its proximity in the text, may further strengthen this connection. In that verse, some Lamanites said that it was the Great Spirit “which had ever delivered [the Nephites] out of their hands.”
+
+There are subtle differences in these two references to the Lord’s promise to Mosiah. In Alma 17:35, the Lord’s promise is in reference to all of Mosiah’s sons, that they would be “delivered” out of the Lamanites’ hands. This language more closely matches the original reference to this promise found in Mosiah 28:7 in which the Lord tells Mosiah that he would “deliver [his] sons out of the hands of the Lamanites.” In Alma 19:23, the Lord’s statement refers to Ammon specifically, that he would be “spared” and that this was dependent on Mosiah’s faith in the Lord.
+
+In both D and D', people came forth to slay Ammon. In D, a certain number of the Lamanites scattered the king’s flocks, and when Ammon confronted them and began to slay them, “they came forth with clubs to slay him” (17:36). Ammon slays seven of these Lamanites, including their leader whom Ammon slew with the sword (17:38). In D', the brother of the leader who was slain (explicitly linking these two units together) “went forth that he might let [the sword] fall upon Ammon to slay him” [Page 104] (19:22). Also, the “sword of Ammon” is only mentioned twice in this chapter, once in each unit (17:39; 19:22).
+
+In both elements, these men are “angry because of the slain of their brethren” (17:36; 19:21). This language is found only in these two verses within this chapter. These men are “astonished at [Ammon’s] power,” while the multitude at the king’s house “marvel…what could be the cause of this great power” (17:36; 19:24). The men supposed that “one of their men” could slay Ammon according to their pleasure whereas “one of them,” the brother of the slain leader, indeed attempts to slay Ammon (17:35; 19:22).
+
+The men who stood to scatter the king’s flocks “did not fear Ammon” as he went forth to contend with them (17:35). In contrast, after the multitude behold the brother of the slain leader fall dead in attempting to slay Ammon, “fear came upon them all” (19:24). In both D and D', the men who stood at the waters of Sebus and scattered the flocks are specifically mentioned (17:27,33; 19:21). They are only mentioned on one other occasion in 18:7.
+
+There are several links that may not be as strong on their own, but the case to include them is strengthened by the significant number of them. The servants of Lamoni and the multitude that Abish gathered both “murmur” (17:28; 19:19). These are the only two mentions of murmuring in this chapter. Also, the scattered flocks “fled many ways” (17:27), whereas many among the multitude would not hear King Lamoni’s words and “went their way” (19:32). Both the men at the waters of Sebus and the brother of their slain leader “lift” weapons to “smite” Ammon (17:37; 19:22).
+
+There are at least three additional parallels between Ammon and Abish. First, Ammon caused those who stood to scatter the flocks to fall, whereas Abish helped the fallen rise from the ground (17:38; 19:29). Second, both Ammon and Abish experienced a threat or potential threat of physical harm. The physical threat that Ammon experienced has already been detailed. Abish, on the other hand, ran the apparent risk of touching the queen. The multitude “durst not put forth their hands to touch [Ammon] or any of those which had fallen” after seeing the brother of the slain leader fall dead while attempting to slay Ammon as he was sunk down upon the earth (19:24). Only Abish had the courage to accept this risk among the multitude by touching the queen’s hand to raise her from the ground (19:29). Third, Ammon and the servants “rushed forth with much swiftness” to gather the scattered flocks; and Abish “ran forth from house to house” making known what had happened to the king, the queen, and the king’s servants (17:32; 19:17).
+
+
+## Correspondences Between E and E' (Alma 18:1–11 and 19:11– 15)
+
+Elements E and E' are directly connected by an explicit reference to the king’s servants standing and testifying before the king of Ammon’s great power. In E, the servants stand and testify to the king of all that they had seen and of Ammon’s “great power” (18:1–3). In E', these same servants are again mentioned as being “they which had stood before the king and testified unto him concerning the great power of Ammon” (19:15).
+
+The Great Spirit is contrasted with God in the flesh in these elements. In E, Lamoni believes there is a Great Spirit because of the tradition of his father. Lamoni is certain Ammon is this Great Spirit after hearing of Ammon’s exploits. In E', Lamoni arises and declares to the queen, “For as sure as thou livest, behold, I have seen my Redeemer, and he shall come forth and be born of a woman, and he shall redeem all mankind who believe on his name” (19:13). He learned for himself that the Great Spirit he believed in would actually receive a body and be born of a woman and come to earth! There is also a parallel of Lamoni using the word surely in E (18:11) and then using “for as sure as thou livest” in E' (19:13).
+
+A connection also exists between the Great Spirit in E and the Spirit of the Lord in E'. Not only does Lamoni see his Redeemer while he was laid upon his bed, but he also has a dramatic experience with the Spirit of the Lord. After speaking with the queen, Lamoni’s “heart was swollen [Page 106] within him. And he sunk again with joy; and the queen also sunk down, being overpowered by the Spirit” (19:13). Ammon, too, is “overpowered with joy” when he saw “the Spirit of the Lord poured out…upon the Lamanites his brethren” (19:14). The king’s servants are also impacted by the Spirit. They “also began to cry unto God, for the fear of the Lord had come upon them” (19:15).
+
+One parallel in this chapter, which falls outside the bounds of the current structure, concerns the Great Spirit. Both Lamoni and some in the multitude believe at one point that Ammon is the Great Spirit (18:2– 11; 19:25–27). While this is a compelling link, the current structure holds up well and teaches something quite significant in the process. The current structure demands that readers look at Lamoni’s progression in his understanding and knowledge of the nature of God in these matching elements. The Spirit of the Lord also plays a leading role in E', interacting with Lamoni, his servants, the queen, and Ammon.
+
+In both elements, reasons are offered for why punishments or mourning had come upon the people. In E, Lamoni wonders if the Great Spirit is sending such great punishments upon the Lamanites “because of their murders” (18:2). In E', Ammon says the Lamanites were “the cause of so much mourning among the Nephites…because of their iniquities and their traditions (19:14).
+
+Two other links can be made between these elements. First, fear is referred to in both of them. In E, Lamoni “began to fear exceedingly, with fear lest he had done wrong” (18:5). In E', the “fear of the Lord had come upon” the servants of the king (19:15). While the word fear appears eight times in this chapter, these are the only references to fear in relation to God or the Great Spirit. Second, “traditions” of the Lamanites are specifically mentioned in both elements (18:5; 19:14). Traditions are referenced only two other times in this chapter (17:9,15).
+
+
+## Correspondences Between F and F' (Alma 18:12–35 and 19:2– 10)
+
+In elements F and F', Ammon “went in unto the king/queen” (18:12; 19:3). The only other reference in this chapter occurs in 17:39 when the servants (without Ammon) “went in unto the king.” In both elements, Ammon asks the king/queen what he/she would that Ammon should do (18:14; 19:3). Also, in both elements, Ammon’s desires are fulfilled (18:22; 19:6–7).
+
+The king/queen are asked questions by Ammon beginning with “Believest thou?” in both elements (18:24,26,28; 19:9). The king is asked three such questions while the queen is asked one. In both elements, [Page 107] the king/queen says, “I believe” (18:23,29,33; 19:9). Again, there are three such belief statements from the king in F and one from the queen in F'.
+
+In F, the king desires that Ammon should stay (18:13). In F', the queen desires that Ammon should come in unto her (19:2). The queen had heard of “the fame of Ammon” in F' (19:2). In F, Ammon perceived that the king had also heard of his fame, so to speak. Ammon asked the king if he marveled because he “heard that [Ammon] defended [his] servants and [his] flocks and slew seven of their brethren with the sling and with the sword and smote off the arms of others” (18:16).
+
+In F', the queen said that the servants of the king made it known that Ammon had “power to do many mighty works in [God’s] name” (19:4). In F, Ammon’s power to do mighty works is a common theme. The king wished to know how Ammon knew the thoughts of his heart and “by what power [Ammon] slew and smote off the arms of [his] brethren” (18:20). Ammon is also called “Rabbanah” by one of the king’s servants, “which is being interpreted powerful or great king” (18:13). Ammon declares that “a portion of that Spirit dwelleth in me, which giveth me…power” (18:35).
+
+Another parallel involves the king’s countenance. In F, Ammon “went in unto the king. And he saw that the countenance of the king was changed” (18:12). In F', while the king was fallen upon the earth as if he were dead, Ammon “knew that king Lamoni was under the power of God. He knew that the dark veil of unbelief being cast away from his mind, and the light which did light up his mind…yea, this light had infused such joy into his soul, the cloud of darkness having been dispelled, and the light of everlasting life was lit up in his soul” (19:6). This language describes such a change in the king’s countenance, his mind and soul being lit up in him through the power of God.
+
+The phrase “for the space of” is used in reference to measurements of time in both elements. In F, the king did not answer Ammon’s question “for the space of an hour” (18:14). In F', the king had been “laid upon his bed for the space of two days and two nights” (19:5). The only other use of “for the space of” in the chapter comes in Alma 18:43, also in relation to how long the king had been laid upon his bed.
+
+
+## Correspondences Between G and G' (Alma 18:36–39 and 18:40– 19:1) — The Turning Point
+
+These two central elements comprise the highlighted center of the chapter and mark the turning point of the narrative. Here, Ammon teaches King Lamoni and his servants the Plan of Redemption. Ammon [Page 108] teaches them that God is the Creator of the world and of man. He teaches them of the Fall of man and reads the holy scriptures to them. He teaches them of the journeyings of their fathers in the wilderness and of the rebellions of Laman and Lemuel and the sons of Ishmael. He expounds all the scriptures unto them. And most importantly, Ammon expounds unto Lamoni and his servants the Plan of Redemption prepared from the foundation of the world, the coming of Christ, and all the works of the Lord. What a beautiful and powerful message to highlight in the first of the two central elements of this chiasm!
+
+However, the turning point of this narrative would not be a turning point at all without King Lamoni responding positively to what he had been taught by Ammon. He believes all of Ammon’s words and then cries unto the Lord for mercy upon him and his people. It is significant that he mentions the Lord’s mercy twice in his short pleading. He recognizes the abundant mercy that had been given to the Nephites up to this point and yearns for the same mercy to be given to himself and his people.
+
+This focus on the Lord’s abundant mercy at the center of this foundational conversion story of the Lamanites also fits perfectly with Mormon’s agenda as the author. One of the main purposes of the Book of Mormon stated on the title page is “to shew unto the remnant of the House of Israel how great things the Lord hath done for their fathers.” The Lord had done great things for the Nephites, and now he was going to do great things for these Lamanites.
+
+Still, it is difficult to jump to Lamoni’s action of crying to the Lord for mercy only by reading Alma 18:36–39. Yes, these verses mention the Plan of Redemption and the coming of Christ, but Lamoni specifically mentions the “abundant mercy which [the Lord] hast had upon the people of Nephi” (18:41). Verses 37 and 38 mention Ammon’s teachings about the people of Nephi, but seemingly only negative things – “all the journeyings of their fathers in the wilderness and all their sufferings with hunger and thirst and their travail” and “the rebellions of Laman and Lemuel and the sons of Ishmael; yea, all their rebellions….” The key is in what comes next in verse 38: “And he expounded unto them all the records and scriptures from the time that Lehi left Jerusalem down to the present time.” It is in these records and scriptures that Lamoni would have been taught about abundant mercies, or “tender mercies,” the Lord had given the people of Nephi (1 Nephi 1:20).
+
+After King Lamoni cries unto the Lord, he falls unto the earth as if he were dead and has an experience similar in many respects to Alma’s experience in Mosiah 27:11–31. Lamoni testifies that he has seen his [Page 109] Redeemer (19:13) and repents of his sins (20:17). His conversion is the first of thousands to come among the Lamanites (23:5; 26:4).
+
+
+## Analyzing the Chiasticity of the Proposed Chiasm
+
+  - Chiasms should conform to natural literary boundaries.
+  - A climax or turning point should be found at the center.
+  - Chiasms should display a relatively well-balanced symmetry.
+  - The structure of chiasms should be based on major keywords, phrases, or themes.
+  - Chiasms should manifest little, if any, extraneous repetition or divergent materials.
+  - Chiastic order should typically not compete with other strong literary forms.
+
+The proposed chiasm for Alma 17–20 holds up well when measured against these criteria. It fits nicely within a single original chapter of the text. Major literary units within the chapter are identified in the appendix. These literary units also create strong natural boundaries to which the chiasm conforms.
+
+There is a well-defined turning point, or hinge point, at the center of the chiasm. Lamoni is taught the Plan of Redemption and about the coming of Christ, and he responds positively to Ammon’s preaching by [Page 110] crying unto the Lord for mercy upon him and his people. This chiasm also exhibits good balance overall. There are 148 total verses in Alma 17–20. There are 74 verses before the first of the two central elements of the chiasm and 65 verses after the second central element. The greatest imbalance is found in elements F and F' with Ammon’s discussions with the king and queen, respectively. Element F has 24 verses whereas F' only has 9 verses.
+
+The structure of the chiasm is based on keywords, phrases, and themes found within the chapter. Throughout the analysis on the matching elements above, extraneous repetition has been identified and considered. Most of the keywords and phrases included in the chiasm are unique to their matching elements. Strong literary forms can be found throughout this chapter for a particular verse or verses but none that I could find from outside sources that provide an overall structure for all of Alma 17–20.
+
+
+## Conclusions
+
+Many insights have been identified throughout this article that come from evaluating the structure of this chapter. In summary, there are four major conclusions, as detailed in the following sections.
+
+
+## The Plan of Redemption and King Lamoni’s Response
+
+The two central episodes feature the Plan of Redemption and the response that must be taken for it be fully efficacious. They also serve as the turning point in the narrative. Up until this point, the Lamanites were viewed as a “wild and a hardened and a ferocious people, a people which delighted in the murdering the Nephites, and robbing and plundering them.” (Alma 17:14). Once Ammon teaches the king and his servants the Plan of Redemption and about the coming of Christ, it sets in motion their conversion unto the Lord and the conversion of many others in the land of Ishmael; and “they became a righteous people” (Alma 19:35). What a miraculous turnaround! This once bloodthirsty people became a righteous people. This description of the converted Lamanites as “righteous people” continues to be used throughout the record of the sons of Mosiah’s mission among the Lamanites (23:7; 24:26; 25:14).
+
+
+## Parallels between Ammon and Abish
+
+One somewhat unexpected parallel identified from this structure comes from the matching episodes of Ammon watching the king’s flocks at the waters of Sebus, and Abish’s efforts in gathering the multitude and [Page 111] helping the queen. At first glance, a careful reader can spot a few parallels between these two episodes, but the structure of this chapter ensures we take a closer look at how these two units interact with each other. Ammon and Abish were both watching the king’s flocks – Ammon literally and Abish metaphorically. They were both servants, but in their lowly station, they effected incredible change in the lives of many, many people. It has always been so in the Lord’s work. Only in his service, only as his humble servants, are people able to further his work and properly care for his flock.
+
+
+## Positive Descriptions of the Lamanites
+
+Another key finding highlighted by this structure is the positive emphasis that is placed on the Lamanites throughout the second half of this narrative. Lamanites are meant to be front and center at every turn. The king acts quickly and cries unto the Lord for mercy in G'. The queen’s faith is featured and even declared to be greater than the faith of any Nephite in F'. The king testifies that he has seen his Redeemer in E'. Many are converted unto the Lord, and they become a righteous people in D'. Lamoni shows his willingness to follow Ammon when he learns about the revelation he’s received from the Lord in C'. Lamoni shares beautiful, powerful testimony in both C' and B'.
+
+The Lamanites’ familial strength and values are also emphasized in G'. Lamoni’s wife, sons, and daughters are mourning and lamenting over King Lamoni. It is important to note that their family titles are used here instead of titles such as queen, princes, or princesses. This matches the description given of the Lamanites hundreds of years earlier by Jacob in Jacob 3:7. He said, “Behold, their husbands love their wives and their wives love their husbands, and their husbands and their wives love their children.”
+
+It is no coincidence that the Lamanites are positively portrayed at the center of multiple chiasms (as shown in the appendix in units G', C', and B') in the second half of Alma 17–20. This is their story. This is the moment the work of the Lord commenced among their people. This is the moment the Lord began to pour out His Spirit upon them. Old, wicked traditions were cast aside, and the rich scriptural heritage of their righteous fathers was received and welcomed.
+
+
+## [Page 112] Careful, Deliberate Structure of the Text Heightens its Importance
+
+The highly developed structure of this episode heightens its importance in the overall layout of the Book of Mormon. It gives the reader greater appreciation for the beauty and brilliance of the text, but more importantly for the mercy and miracle of the Lord’s great work among the Lamanites. These converted Lamanites had a lasting impact on the remaining history shared in the Book of Mormon. It is felt in stories about the Stripling Ammonites in Alma 53 and 56–58; Samuel the Lamanite’s preaching and prophesying in Helaman 13–15; and those Lamanites who were spared and had the resurrected Christ minister directly to them in 3 Nephi 11–28.
+
+
+## Appendix
+
+This appendix details the analysis that was performed to identify the 14 major literary units in Alma 17–20. As stated previously in the section, “An Explanation of the Methodology Used to Identify this Chiasm,” the second step listed is to identify and delimit the major literary units within this chapter. This work is quite detailed and is, therefore, longer than the main portion of this article. I’ve placed this analysis in the appendix so the chiasm can be the main focus of the article. The reader is still able to assess the proposed chiasm by evaluating parallels and links between paired elements without knowing the exact parameters of each element. However, anyone looking for additional detail on how the major literary units were determined can find that information here.
+
+Most of the major literary units in Alma 17–20 have clear beginning and/or end markers. Also, many units exhibit their own internal [Page 113] structure that allows us to define their shape as complete, self-contained units. A few units are a bit harder to define precisely and could have slightly different beginning or ending verses depending on the weight given to different identifying criteria. However, the above identified chiastic structure and the many correspondences that exist between matching units lends support to the unit breakdown proposed. The analysis to delimit, or mark the boundaries of, the major literary units in Alma 17–20 follows. The literary units themselves are labeled to match up with the corresponding elements in the chiasm.
+
+
+## Unit A (Alma 17:1–5)
+
+This first unit notes Alma’s joyous meeting with the sons of Mosiah after a 14-year absence from each other. Brief summaries are also given of the characteristics of the sons of Mosiah as “brethren in the Lord” (17:2), successes they enjoyed as missionaries, and afflictions they endured among the Lamanites.
+
+The meeting between Alma and the sons of Mosiah occurs in the 15th year of the reign of the judges. This meeting is documented in verse 1. The summaries given in verses 2–4 describe actions, events, and attributes acquired throughout the 14 years that the sons of Mosiah taught the word of God to the Lamanites. Verses 5 and 6 both begin [Page 114] with similar introductory phrases and appear at first glance to be transitional verses that could mark the beginning of a new unit. Verse 5 begins, “Now these are the circumstances which attended them in their journeyings…” Verse 6 then begins in similar fashion: “Now these were their journeyings…” Verse 5 appears to transition back to the beginning of the actual journeyings of the sons of Mosiah. Instead, verse 5 provides a catalog of afflictions they endured throughout their journeyings; it does not describe a specific point in time. This summary of their afflictions also fits well with other summaries appearing within unit A.
+
+Verse 6 has a more pronounced shift to mark the beginning of a new unit. This verse goes back to a specific point in time, the first year of the reign of the judges, when the sons of Mosiah depart the land of Zarahemla to go up to the land of Nephi. The summary language in verses 2–5 has concluded and the flashback begins. Verse 5 therefore represents the end of this first unit while verse 6 signals the beginning of the second unit.
+
+Epanalepsis, or repetitive resumption, also helps to identify verse 6 as the beginning of a new unit. After a long break, the account of the sons of Mosiah’s proceedings, promised by Mormon to be included in the record all the way back in Mosiah 28:9, begins in earnest starting with Alma 17:6. Mosiah 29 is the last mention of the sons of Mosiah’s activities until the heading to Alma 17. Alma 17:6 repeats three elements from Mosiah 29:1–3 to indicate that the account of the sons of Mosiah is resuming. As such, this verse functions as the beginning of the next unit.
+
+These are the three matching elements between Mosiah 29:1–3 and Alma 17:6:
+
+  - The “will” and “voice of the people”/ “The minds of the people” concerning who should be their king (Mosiah 29:1–2; Alma 17:6)
+  - “The king could not confer the kingdom upon”/ “The kingdom which their father was desirous to confer upon them” (Mosiah 29:3; Alma 17:6)
+  - “Neither would Aaron…neither was any of the sons of Mosiah willing to take upon them the kingdom”/ “Having refused the kingdom” (Mosiah 29:3; Alma 17:6)
+
+[Page 115] The three elements from Mosiah 29:1–3 are also presented in inverted order in Alma 17:6. This is an effective use of repetitive resumption to alert us that the sons of Mosiah’s story is continuing here in Alma 17:6 from Mosiah 29.
+
+This first unit is marked by a theme of sevens which appear to be used on at least four occasions. The first instance of sevens in this unit is found in verses 2 and 3 in which there are seven attributes or actions listed that qualify the sons of Mosiah to be “brethren in the Lord.” These include the following:
+
+  - “waxed strong in the knowledge of the truth”
+  - “of a sound understanding”
+  - “searched the scriptures diligently”
+  - “given themselves to much prayer and fasting”
+  - “had the spirit of prophecy”
+  - “[had] the spirit of revelation”
+  - “taught with power and authority, even as with the power and authority of God”
+
+Second, in verse 5, there are seven circumstances which attended the sons of Mosiah in their journeyings. These circumstances include the following:
+
+  - “many afflictions”
+  - “suffer much…in body”
+  - “[suffer much] in mind”
+  - “hunger”
+  - “thirst”
+  - “fatigue”
+  - “much labor in the spirit”
+
+A third use of sevens is found in verses 3–5 in which the keywords many and much are used seven times. These uses are shown below:
+
+  - “Much prayer and fasting” (v. 3)
+  - “Much success” (v. 4)
+  - “Bringing many to the knowledge of the truth” (v. 4)
+  - “Many were brought before the altar of God” (v. 4)
+  - “Many afflictions” (v. 5)
+  - “Suffer much” (v. 5)
+  - “Much labor in the spirit” (v. 5)
+
+The words many and much in these verses help illustrate the totality of their successes and afflictions experienced during these 14 years.
+
+A fourth instance of sevens comes from verse 4. Ammon and the sons of Mosiah “had been teaching the word of God for the space of 14 years among the Lamanites.” Fourteen is a multiple of seven and holds special significance in the book of Alma as detailed earlier on page 5 [Page 116] of this article. There are many instances of multiples of sevens being used in the scriptures. While any one of these instances of seven may be unintentional, there is a greater probability of intent when there are multiple uses of sevens in such proximity to each other within the same literary unit. What better way to summarize the sons of Mosiah’s entire experience among the Lamanites—their spiritual growth, their successes, and their sufferings—than by using sevens to add an extra layer of meaning as Mormon does here.
+
+
+## Unit B (Alma 17:6–18)
+
+Unit B begins in verse 6 with a clear shift in time from the preceding unit as explained in the previous section. The narrative goes back to a specific point in time, the first year of the reign of the judges when the sons of Mosiah left Zarahemla for the land of Nephi.
+
+This unit is framed by the keywords journeyings / journeys in verses 6 and 18. This provides an outer frame for this unit. An inner frame is also present in these verses, comprised of the keyword departed used twice in verses 7–8 and then likewise used twice more in verse 18 ( departed and departure ). The only other time departed is used in this chapter is in verse 13 within this unit.
+
+This unit is tied together by this common theme of departing or separating. The sons of Mosiah, and others they had selected, departed out of Zarahemla to go up to the land of Nephi to preach to the Lamanites (vv. 7–8). Once they arrived within the borders of the land of the Lamanites, they “separated themselves and departed one from another” and went forth among the Lamanites (v. 13). This separation is also mentioned in verse 17, marking the only two occasions the word “separated” is used in the entire chapter. Also, Ammon blessed each of them before his own “departure,” and then they took their “several journeys,” or separate journeys, in verse 18.
+
+
+## Unit C (Alma 17:19–25)
+
+Unit C begins with Ammon leaving his brethren to go to the land of Ishmael in Alma 17:19. This is a clear beginning marker due to a shift in location (from the borders of the land of the Lamanites to the land of Ishmael) and in characters (from all missionaries that go preach to the Lamanites to focusing just on Ammon). As Ammon enters the land of Ishmael, he is taken and bound by the Lamanites and carried before the king so the king can determine what should happen to him. This was the Lamanites’ “custom to bind all the Nephites that fell into their [Page 117] hands” (verse 20). Ammon’s first interaction with King Lamoni is fully contained within this unit ending with verse 25.
+
+
+## Unit D (Alma 17:26–39)
+
+Unit D has a clear beginning marker in verse 26 with shifts in location, characters, and time. The location shifts from Ammon being in front of the king to now being at the waters of Sebus. The shift in characters is represented by the addition of other servants of the king going with Ammon to the place of water. Also, the king is no longer present at the scene. The shift in time is explicitly stated in verse 26 that Ammon has been in the service of the king for three days when these events take place.
+
+This unit is framed by the activity of watering the flocks described in verses 26 and 39. The events between these verses all transpire at the same location, the waters of Sebus, giving the unit a sense of cohesion.
+
+
+## Unit E (Alma 18:1–11)
+
+Unit E has a clear beginning marker due to another shift in location in Alma 18:1. This time, the servants who were with Ammon at the Waters of Sebus, have now returned from watering the flocks and stand in front of the king to speak with him. This also represents a shift in characters with the addition of the king and the subtraction of Ammon. The servants’ conversation with the king from beginning to end frames this unit as the king concludes speaking with them in Alma 18:11.
+
+This unit is highly structured with the use of chiasmus and other parallels and patterns. One pattern worth noting in these verses is the movement from narrative (N) to Lamoni’s dialogue (L) to the servants’ dialogue (S). Only direct quotes from Lamoni and his servants are counted as dialogue in this analysis; brief statements to introduce the [Page 118] speakers are not counted as their own narrative block. These verses exhibit the following pattern:
+
+As the pattern above indicates, the first narrative segment in vv. 1–2 is followed by direct dialogue by Lamoni which starts in the middle of v. 2, followed by the servants’ response in v. 3, which is then followed by Lamoni speaking again in v. 4. The second narrative in vv. 5–7 is followed by Lamoni speaking in v. 8, which is then followed by the servants’ response in v. 9. The third narrative in vv. 9–10 is followed only by Lamoni speaking in vv. 10–11.
+
+By reducing the number of elements in each segment of the pattern above, tension builds up to a climax that comes at the end of the unit. This pattern focuses our attention on the last thing that Lamoni says in vv. 10–11, which is fittingly the climax of this episode. Lamoni declares of Ammon, “Surely there has not been any servant among all my servants that has been so faithful as this man, for even he doth remember all my commandments to execute them. Now I surely know that this is the Great Spirit” (18:10–11).
+
+A similar pattern, but one that adds to each segment of the unit, can be found in 3 Nephi 9:3–10 when Christ proclaims the destruction of numerous cities. In these verses, there is a 1–1–2–3–4–5 pattern in which cities are grouped and counted according to the type of destruction they experienced. This pattern elicits a feeling of complete and total destruction as more and more cities are included in each grouping that is described. Both this pattern and the one above from Alma 18:1–11 effectively elicit feelings that fit within the overall context of their narratives.
+
+Parallels abound in this unit between vv. 2–4 and vv. 8–11, including the following:
+
+  - King Lamoni is “astonished” (vv. 2,10)
+  - “The faithfulness of Ammon” (vv. 2,10)
+  - Lamoni’s declaration that Ammon is the Great Spirit (vv. 4,11)
+  - “Such great power” (vv. 3,8)
+  - Statements including the word “surely” (vv. 2,10–11)
+  - [Page 119] Lamoni questions the servants (vv. 2,8)
+  - The servants answer Lamoni’s questions (vv. 3,9)
+  - Ammon takes care of the king’s animals (vv. 2–3,9)
+
+
+## The 17-element Modified Chiasm in Unit E (Alma 18:1–11)
+
+These parallels also appear to form a 17-element modified chiasm which further strengthens support for these verses to be treated as an independent and self-contained unit. F' is out of order from the rest of the chiasm, which leads to its classification as a modified chiasm. This proposed modified chiasm is shown below:
+
+> A. King Lamoni caused servants to stand forth and testify B. The faithfulness of Ammon (18:2) C. The king was astonished exceedingly (18:2) D. Neither can they scatter the king’s flocks when he is with us (18:3) E. Servants do not believe man has such great power (18:3) F. “Now I know that it is the Great Spirit” (18:4) G. Tradition of Lamoni received from his father is described (18:5) H. “Slain…scattered flocks” (18:6) I. “At the place of water” (18:6) H'. “Flocks scattered…slain” (18:6) G'. Practice of Lamanites is described (18:7) E'. “Where is this man that has such great power ?” (18:8) D'. Ammon is preparing the king’s horses and chariots (18:9) C'. The king was more astonished (18:10) B'. Because of the faithfulness of Ammon (18:10) F'. “Now I surely know that this is the Great Spirit” (18:11) A'. King Lamoni desires Ammon to come in unto him, but he durst not (18:11)
+
+
+## Explaining the 17-element Modified Chiasm in Unit E (Alma 18:1–11)
+
+The king’s actions are contrasted in elements A and A'. King Lamoni caused his servants to stand forth before him in A, whereas in A' he wants Ammon to come in to see him but does not dare order him to do so. The delimitation of the overall unit to verses 1–11 is well defined and thus lends itself to considering this contrast as part of its overall structure. The parallel between elements B and B' is unmistakable. Both mention [Page 120] the “faithfulness of Ammon,” a phrase used only two times in the Book of Mormon. The same goes for elements C and C' in which the king is “astonished” by Ammon’s works. Elements D and D' mention different kinds of animals of the king that Ammon cares for as his servant. Both elements E and E' use the phrase “such great power” regarding Ammon. This phrase is only found here within the chapter and only six times in the Book of Mormon (1 Nephi 17:51; Alma 14:20; 18:3; 18:8; Helaman 5:18; 8:13). Lamoni’s declaration that Ammon is the Great Spirit in element F is repeated in F' with the key difference being the addition of the word “surely” in F'. In elements G and G', traditions and practices of the Lamanites parallel one another. In element H, three keywords are used — slain , scattered , and flocks — which are then inverted in H'.
+
+In the center unit, element I, the location of these events is highlighted as the place where the king’s flocks were scattered. In the overall chiasm for this unit, verse 6 serves as an unexpected center. The action of the king slaying his servants who had had their flocks scattered at the place of water is highlighted. This does not seem like a suitable candidate for the climax or turning point of this unit. Instead, Lamoni’s statement that he knows that Ammon is the Great Spirit appears to be of greatest significance. This is where the inconsistent ordering of F' within the chiasm highlights the importance of Lamoni’s declaration.
+
+Modified or asymmetrical chiasms frequently place emphasis on the element that is out of order. As Jerome Walsh states,
+
+In this asymmetrical chiasm, F' fits in between B' and A' and sticks out as the only element out of order. In F', Lamoni repeats his declaration that he knows Ammon is the Great Spirit — and this time in even stronger terms by adding the word “surely” (18:11) — after he learns that Ammon was feeding his horses. This gives greater emphasis to Lamoni’s declaration. Also, this second declaration reasonably would not occur until after the king had learned something new about [Page 121] Ammon’s faithfulness, so it would not be placed in perfect chiastic order just for the sake of structure.
+
+
+## Unit F (Alma 18:12–35)
+
+Unit F begins with a shift in characters as its beginning marker in Alma 18:12 as Ammon next goes in to see the king. The major literary unit involved most likely includes the entirety of Ammon’s conversation with the king through verse 35. It is tempting to break this episode up into further subunits and classify them as major literary units, but further analysis will show that this need not be done.
+
+In addition to a shift from direct to indirect dialogue starting in verse 36, verse 35 is preferable as an end to this unit for two other reasons. First, there is a strong introductory formula given at the start of verse 36: “Now when Ammon had said these words, he began….” Second, there is a shift in characters of who is taking part in this indirect dialogue. Verse 37 makes it clear that Ammon was teaching both the king and his servants. Mormon’s use of the word also in verse 37 indicates that the reader is to include the servants as being taught in verse 36 as well. While the word him is written in verse 36 in reference to King Lamoni, it is as if Mormon is checking himself after seeing an apparent inconsistency when he uses the word them next in verse 37 and needed to explain that the servants were also being taught at this time.
+
+Three statements of the king’s belief in verses 23, 33, and 40 need to be evaluated at this juncture even though they technically span two separate literary units. After Ammon expresses his desire to have the king hearken unto his words, the king responds in verse 23, “Yea, I will believe all thy words.” After Ammon begins teaching King Lamoni about God as the Great Spirit and Creator of all things in heaven and in the earth, King Lamoni declares in verse 33, “I believe all these things which thou hast spoken” (18:33). Then, at the conclusion of Ammon teaching him the Plan of Redemption, verse 40 notes that “the king believed all his words.”
+
+While these three statements in verses 23, 33, and 40 appear to be almost identical, there are subtle differences between them. The first phrase is used in the future tense, the second in the present tense, and the third in the past tense. Also, verses 23 and 40 state that the king would or did believe Ammon’s words . In verse 33, the wording is slightly different. The king says he believes all the things which Ammon has spoken . The subtlety apparent here and all throughout the Book of Mormon provide many opportunities to ponder and be taught different gospel truths.
+
+
+## Unit G (Alma 18:36–39)
+
+Unit G, as explained above, begins in verse 36 with the shift from direct dialogue between Ammon and King Lamoni to indirect dialogue between Ammon and King Lamoni and his servants. This teaching concludes in verse 39, making these four verses a well-defined unit. Verse 40 has an introductory formula to mark the transition to a new unit that is similar to the one in verse 36. [Page 123] Verse 40 begins, “And it came to pass that after he had said all these things…”
+
+
+## The 6-element Chiasm in Unit G (Alma 18:36–39)
+
+Without appearing to brush quickly over Ammon’s teaching of various aspects of the Plan of Redemption, but also choosing not to write all of Ammon’s exact words to the king and his servants, Mormon gives proper attention and respect to the subject matter of Ammon’s teaching by the placement of these verses in one of the central units of the overall chiasm for Alma 17–20, and by forming this content into what appears to be its own chiasm as well. Here is the proposed 6-element chiasm:
+
+> A. “ Told him all the things concerning the fall of man ” (18:36) B. “Rehearsed and laid before him the records and the holy scriptures…even down to the time that their father Lehi left Jerusalem” (18:36) C. “Rehearsed…all the journeyings of their fathers in the wilderness and all their sufferings with hunger and thirst and their travail etc.” (18:37) C'. “ Rehearsed …concerning the rebellions of Laman and Lemuel and the sons of Ishmael ; yea, all their rebellions did he relate unto them” (18:38) B'. “Expounded unto them all the records and scriptures from the time that Lehi left Jerusalem down to the present time” (18:38) A'. “Expounded unto them the plan of redemption” (18:39)
+
+
+## Explaining the 6-element Chiasm in Unit G (Alma 18:36–39)
+
+The Fall of man in element A is paralleled by the Plan of Redemption in A'. The Plan of Redemption parallels the Fall of man because it is the Plan of Redemption that allows each one of us to overcome the physical and spiritual consequences of the Fall. Elements B and B' parallel each other closely in their mention of the “scriptures” being rehearsed or expounded unto the king and his servants. The time frame differs in that B is from the beginning of time “even down to the time that their father Lehi left Jerusalem,” whereas B' goes “from the time that Lehi left Jerusalem down to the present time.” Elements C and C' both regard Ammon’s rehearsals about their fathers. In C, he rehearsed unto them all the journeyings and sufferings of their fathers, whereas in C' he rehearsed unto them concerning all the rebellions of their fathers.
+
+It is significant that in the center of this chiasm, in element C, there is mention of sufferings, hunger, and thirst. The importance of this theme is magnified by its location in one of the two center elements of this chiasm. Sufferings, hunger, and thirst are also mentioned in the first and last elements of the overall chiasm and nowhere else in this chapter than in these three locations. The theme of suffering is critical to the story of Ammon and his brethren’s work among the Lamanites. Suffering was also a critical part of the story of Lehi’s journeyings in the wilderness with his family (1 Nephi 16:35). Through this structuring of the text, Mormon reminds us that suffering is an integral part of our mortal journey on earth. We cannot escape it. However, if we handle it well, great success and our own promised land awaits (17:4).
+
+The structure and wording of these verses also effectively highlight the theme of the extensiveness of Ammon’s teaching. This is shown in a couple of different ways. First, Ammon teaches Lamoni and his servants with the scriptures. He begins by teaching about the Creation, using the scriptures from that point “even down to the time their father Lehi left Jerusalem” in verse 36. He also expounded the teachings of the scriptures available “from the time that Lehi left Jerusalem down to the present time” in verse 38. Those two descriptions cover all of time from the Creation of the world down to their day. Ammon then reaches into the future and prophesies of the coming of Christ.
+
+Second, the use of the keyword all contributes to the portrayal of the comprehensiveness and completeness of Ammon’s teachings to the king and his servants. All is used seven times just in these four verses alone.
+
+
+## [Page 125] Unit G' (Alma 18:40–19:1)
+
+Unit G' begins in Alma 18:40 as Ammon’s teaching to Lamoni and his servants concludes. The king believed all of Ammon’s words and was now ready to act on this belief. The beginning marker for this unit is a shift in theme and characters. Ammon has finished speaking with Lamoni and his servants and now the focus returns solely onto King Lamoni. Lamoni cries unto the Lord for mercy upon himself and upon his people. He falls to the earth as if he were dead after pleading unto the Lord. He is carried in unto the queen and laid upon a bed where he stays in this state for two days and two nights up to this point in the account. In Alma 19:2, there is a natural transition to the queen’s sending for Ammon, thus marking the beginning of a new unit with another shift in characters.
+
+The internal structure of this unit strengthens support for these verses to be treated as an independent, self-contained unit. Lamoni’s plea for mercy upon his people and his falling to the earth in Alma 18:41–42 foreshadow the events that occur in Alma 19.
+
+The subsequent two verses (Alma 18:43–19:1) appear to form a 5-element chiasm as shown below:
+
+> A. Servants took him and carried him in unto his wife and laid him upon a bed (18:43) B. The king lay as if he were dead for two days and two nights (18:43) C. Lamoni’s wife, sons, and daughters mourn over him, greatly lamenting his loss (18:43) B'. After two days and two nights (19:1) A'. They were about to take his body and lay it in a sepulchre (19:1)
+
+This proposed chiasm is framed in elements A and A' by the action of taking Lamoni or his body and laying it either upon a bed or in a sepulchre. Elements B and B' share the common phrase “two days and two nights.” This phrase also appears in Alma 19:5, but this is clearly in the subsequent unit. In the central element of the chiasm, C, Lamoni’s wife, sons, and daughters mourn and lament over Lamoni, emphasizing their familial relationships and their sincere mourning for their loved one.
+
+
+## Unit F' (Alma 19:2–10)
+
+Unit F' begins in Alma 19:2 with a shift in characters as Ammon reemerges. Also, while the queen is mentioned in Alma 18:43 as Lamoni’s wife, Alma 19:2 is the first reference to her as the “queen.” This [Page 126] subtle transition to using her official title also signals a new literary unit. She sends for Ammon and speaks with him. This unit ends in verse 10 with Ammon’s last direct dialogue with the queen as he boldly decrees, “Blessed art thou because of thy exceeding faith. I say unto thee, woman, there has not been such great faith among all the people of the Nephites.”
+
+Donald Parry identified a 10-element chiasm in Alma 19:6–7, which is within Unit F'.
+
+In Alma 19:6, which begins this chiasm, there is a vivid description of King Lamoni’s experience while he laid upon his bed in a coma-like state. It is evident that some type of description of Lamoni’s transformation was necessary at this juncture. This verse is highly structured and full of vivid, powerful imagery. The climax of this episode is found in the central elements, E and E'. King Lamoni’s mind and soul were lit up by “the light of the glory of God, which was a marvelous light of his goodness” (Alma 19:6). Ammon was an eyewitness to a similar scene when Alma fell to the earth after being visited by an angel and was down for three days and three nights until he stood again and testified that he had repented of his sins and was born of the Spirit (Mosiah 27:24; Alma 36:10).
+
+Some of the language in verse 6 appears to come from Alma’s encounter with the angel in Mosiah 27. Mosiah 27:22 mentions “the goodness and glory of God.” Mosiah 27:29 uses the phrase “the marvelous light of God” as well as “the darkest abyss,” similar to the “dark” and “darkness” used in Alma 19:6. Alma recounts his conversion experience to his son, Helaman, by exclaiming, “And O what joy and what marvelous light I did behold! Yea, my soul was filled with joy as exceeding as was my pains” (Alma 36:20). Joy in the soul also parallels verse 6. Ammon also [Page 127] speaks of “the marvelous light of God” in Alma 26:3. These are the only four mentions of “marvelous light” in the Book of Mormon. The phrase “veil of unbelief” is only found here and in Ether 4:15. The phrase “cloud of darkness” is only found here and nine times in Helaman 5:28–43. This verse has such a beautiful, poetic description of the transformation Lamoni experienced and draws upon powerful phrases that appear in other grand episodes in the Book of Mormon.
+
+It makes sense that Alma and/or Ammon would draw upon their own experience with the angel in Mosiah 27 in describing Lamoni’s experience in which he, too, was in such a state for two days and two nights and then for one more night as the queen watched over him (19:11). Alma “fell to the earth; and it was for the space of three days and three nights that [he] could not open [his] mouth, neither had [he] the use of [his] limbs” (Alma 36:10), but his father and others “fasted and prayed for the space of two days and two nights” and then “the limbs of Alma received their strength” (Mosiah 27:23). There is also terminology that matches that of the story of Lazarus being raised from the dead in John 11. “Stinketh” and “sleepeth” in verses 5 and 8, respectively, are also found in John 11:11 and 11:39.
+
+Numerous questions arise from this section of the text. Wouldn’t the people have been able to tell if Lamoni was alive or not? Why was there so much disagreement among the people about this? Wouldn’t they know for certain if the king smelled bad or not? Why was the queen’s faith described as greater than any faith exhibited among all the Nephites if she knew the king was still alive? Was it because she had to wait until the next day for the king to arise? What dangers did the queen face while waiting for these three days?
+
+While we cannot definitively know the answers to all these questions, a lot can be explained by placing this scene in the context of a political power struggle. Those saying that the king was dead and that he stank were most likely those that wanted to take power unto themselves. The queen would have known from a quick inspection of her husband that he was still breathing and was not dead and that he did not stink. Her faith described by Ammon then may have been so great not only because she believed Ammon and the servants’ words that the king would be raised from his comatose state, but also because of her willingness to stay with the king through the night until the appointed time he was to rise again.
+
+
+## [Page 128] Unit E' (Alma 19:11–15)
+
+The next unit begins in Alma 19:11 with the queen acting on her faith by watching over the bed of her husband until he was to rise again. There is also a common introductory formula to mark the beginning of a new unit as this verse begins, “And it came to pass that she watched over the bed of her husband from that time….”
+
+The end of this unit is a bit less apparent. The king arises and then blesses the queen. Both sink down to the earth. Ammon sees this occur and then “began to pour out his soul in prayer and thanksgiving to God for what he had done for his brethren” (verse 14). He then also sinks down to the earth. The servants see this occur, and then they begin to cry unto God in verse 15. They, too, fall to the earth in verse 16. Thus, verse 16 would seem to be a part of this unit.
+
+The Maxwell Institute Study Edition does indeed have this unit go through verse 16 with the shared theme of everyone falling to the earth. However, a new character is introduced to us in verse 16, a Lamanitish woman named Abish, the one person that sees the servants fall but does not herself fall. Abish is a major, central figure to the upcoming episode and presents a shift in characters which would indicate the beginning of a new unit. As such, the next unit begins in verse 16 with the mention of Abish even though the servants haven’t yet fallen to the earth by the end of verse 15. They have at least started the process of crying unto the Lord in verse 15, “for the fear of the Lord had come upon them also.” This fits with the theme of each of the characters in this scene being touched by the Spirit.
+
+Other factors also point to verse 15 as the end of this unit. One of these factors is a chiasm in verses 16 and 17 which further connects verse 16 to the subsequent unit. This chiasm will be shown in the next unit. Another factor which points to verse 15 serving as the end of this unit involves the interaction of verse 16 with its matching element in the overall chiasm for the chapter. The story of Abish in Alma 19:16–36 parallels the story of Ammon in Alma 17:26–39 in several ways. The details of that analysis are shared in the section on matching units and their respective parallels. For the sake of delimiting this current unit and the beginning of the next, one parallel deserves mention here. The story of Abish beginning in verse 16 has a strong, unique parallel to the beginning of the story of Ammon’s defending the king’s flocks in Alma 17:26. In verse 16, Abish is introduced as “one of the Lamanitish women.” The story of Ammon defending the king’s flocks begins with “as he was with Lamanitish servants a going forth with their flocks to the [Page 129] place of water” (17:26). The word Lamanitish is found only in these two locations in the Book of Mormon, both opening these respective stories. This is another reason for having verse 16 function as the beginning of a major unit in this chapter.
+
+At the end of verse 15, Mormon provides an explicit connection to Alma 18:1–3. He describes the servants as “they which had stood before the king and testified unto him concerning the great power of Ammon.” These servants did “stand forth and testify” before the king of Ammon’s “great power” in Alma 18:1–3, which is in the matching element of the chiasm, E, to this one. It appears that Mormon wanted us to connect these two verses. Once they are viewed as being in parallel units, it gives greater strength to the overall structure of this chapter.
+
+
+## Unit D' (Alma 19:16–36)
+
+Unit D' begins in Alma 19:16, marked by a shift in characters as noted above. In addition to the usual characters who have had a large role in the narrative up to this point (Ammon, King Lamoni, the king’s servants, and the queen), a new person is introduced to the scene named Abish. She is a witness to the others falling to the earth and is the only one remaining who has not fallen to the earth. Unfortunately, we are only furnished with a few scant details about Abish. We know that she is one of the Lamanitish women, that she was converted unto the Lord many years prior due to a remarkable vision of her father, and that the queen is her mistress. She is also later given the title of “woman servant” in verse 28, 12 verses after she is first introduced.
+
+
+## The 7-element Chiasm in Unit D' (Alma 19:16–17)
+
+There also appears to be a chiasm that spans verses 16 and 17, further connecting verse 16 to verse 17, thus further integrating it with this unit. This proposed 7-element chiasm is shown below:
+
+> A. Even until they (the servants) had all fallen to the earth (19:16) B. Save it were one of the Lamanitish women whose name was Abish (19:16) C. She having been converted unto the Lord for many years (19:16) D. On account of a remarkable vision of her father (19:16) C'. Thus having been converted to the Lord — never had made it known (19:17) B'. Therefore when she [Abish] saw (19:17) A'. That all the servants of Lamoni had fallen to the earth (19:17)
+
+
+## [Page 130] Explaining the 7-element Chiasm in Unit D' (Alma 19:16–17)
+
+This proposed chiasm is quite straightforward. It has distinct framing in elements A and A' with mention of the servants having fallen to the earth. The center of the chiasm, in element D, highlights the remarkable vision of Abish’s father which led to her conversion to the Lord.
+
+The location of this unit is the king’s house. This unit is framed by the king, queen, servants of the king, and Ammon having sunk to the earth at the start of the unit and all arising again by the end of the unit. This group of four is mentioned three times in this unit. First, in verse 17, Abish saw that “all the servants of Lamoni had fallen to the earth, and also her mistress the queen and the king, and Ammon lay prostrate upon the earth.” Second, in verse 18, the gathered multitude “beheld the king and the queen and their servants prostrate upon the earth…and they also saw Ammon — and behold, he was a Nephite.” Finally, in verses 29–33, the queen, the king, Ammon, and the servants all arose.
+
+Verses 17 and 18 exhibit some chiasticity in the ordering of participants. In verse 17, the participants are listed in order of the servants, queen, and king. This order is inverted in verse 18 to the king, queen, and servants. Ammon is mentioned last in both groupings. The order in which these people arise in verses 29–33 is entirely different from the order in the first two groupings. There may be something else at work here. Verses 17 and 18 could indeed be intentionally chiastic, but the ordering given tells us more about the perspective of the people beholding the scene.
+
+Verse 17 provides the perspective of Abish. As a servant, Abish first notices other servants like herself. She then notices her queen — whom she serves — followed by the king and then by the outsider Nephite, [Page 131] Ammon. In verse 18, the multitude beholds the scene and recognizes the people in order of importance in their minds. They behold the king, queen, servants, and then a Nephite, Ammon. In verses 29–33, the queen and king arise after Abish first touches the hand of the queen who arises and then takes the king by the hand, and he arises. Then in verse 33, Ammon arises as do all the servants of Lamoni. As this is all told according to the record of Alma by Mormon, it makes sense that Ammon would be mentioned before the servants of Lamoni because Ammon plays a more prominent role in both Mormon and Alma’s minds.
+
+This unit is also framed by noting Abish’s remarkable vision in verse 16 and the visions of angels many of the king’s servants had in verse 34. Mormon’s tidy summary in Alma 19:36 also serves as a common end marker for literary units in the Book of Mormon. As previously noted, Mormon gives us three “thus we see” statements (or derivatives of “thus we see”) in this verse to mark its conclusion.
+
+One of the major themes in this unit is conversion to the Lord and his gospel. It begins with Abish being introduced as “having been converted unto the Lord for many years” in verse 16 and “having been converted to the Lord” in verse 17. The king teaches the people, and many believe his words and are “converted unto the Lord” in verse 31. These are the only three instances of “converted” in this chapter. However, conversion continues to be the main theme, just using different terminology starting in verse 33. Ammon and the servants of the king administer to the people and declare unto them “that their hearts had been changed, that they had no more desire to do evil.” In verse 34, many of them “did declare unto the people that they had seen angels and had conversed with them. And thus they had told them things of God and of his righteousness.” Many of the people “believe in their words,” are baptized, and “[become] a righteous people” in verse 35. Finally, Mormon’s summary of this scene in verse 36 is appropriately about the spread of the gospel among the Lamanites and the outpouring of the Spirit upon them.
+
+
+## Unit C' (Alma 20:1–7)
+
+Unit C' begins in Alma 20:1 with the beginning clearly marked by a shift in time and scene. The church is now established (stated in the past tense, thus differing from Alma 19:35 when it was still being established) in the land of Ishmael, implying that some time has passed. Lamoni desires to take Ammon to the land of Nephi to see his father. His conversation with Ammon is fully encapsulated in this unit.
+
+[Page 132] Ammon is told by the voice of the Lord not to go with Lamoni to the land of Nephi, but rather to go to the land of Middoni to deliver his brethren out of prison. In these verses, Ammon shares with Lamoni his desire to go to the land of Middoni to deliver his brethren out of prison, and Lamoni eventually decides to go with him to help.
+
+
+## The 7-element Chiasm in Unit C' (Alma 20:1–7)
+
+These verses appear to form a 7-element chiasm that provides additional support that they be treated as an independent, self-contained unit. This chiasm is shown below:
+
+> A. Lamoni desires that Ammon go with him to the land of Nephi (20:1) B. Voice of the Lord comes to Ammon — go to the land of Middoni for your brethren are in prison (20:2) C. Ammon tells Lamoni, “ My brother and brethren are in prison at Middoni ; and I go that I may deliver them ” (20:3) D. Lamoni testifies to Ammon — “I know in the strength of the Lord thou canst do all things” (20:4) C'. Lamoni tells Ammon, “ I will go with thee to… Middoni … that I may flatter the king of the land and he will cast thy brethren out of prison ” (20:4) B'. Lamoni asks Ammon, “Who told thee that thy brethren were in prison?” Ammon answers, “ No one hath told me save it be God ; and he said … go and deliver thy brethren, for they are in prison in the land of Middoni ” (20:4–5) A'. Lamoni makes ready his horses and his chariots; He tells Ammon, “I will go with thee down to the land of Middoni ” (20:6–7)
+
+
+## Explaining the 7-element Chiasm in Unit C' (Alma 20:1–7)
+
+This proposed chiasm is framed by matching elements about Ammon and Lamoni going to a particular land. Lamoni wants to go with Ammon to the land of Nephi in element A, and the land of Middoni in A'. Elements B and B' share the theme of how Ammon knows that his brethren are in prison. In B, “the voice of the Lord came to Ammon.” In B', Lamoni asks Ammon who told him his brethren were in prison, and Ammon declares that God told him. The order of elements is also inverted in B'. “The land of Middoni” is now mentioned last and “brethren … are in prison” is mentioned first. In element C, Ammon tells Lamoni he is going to Middoni to deliver his brethren from prison. In C', Lamoni tells Ammon he will go with him to Middoni and help to deliver his brethren out of prison by flattering the king. In the central element, D, Lamoni testifies [Page 133] to Ammon that “[he knows] in the strength of the Lord [Ammon] canst do all things” (20:4). Ammon shares this beautiful testimony with his brethren later in Alma 26:12.
+
+
+## Unit B' (Alma 20:8–27)
+
+Unit B' begins in Alma 20:8 marked by a shift in location and characters. Ammon and Lamoni begin their journey to the land of Middoni but are interrupted along the way by an unplanned encounter with Lamoni’s father. This unit concludes with verse 27 at the end of Ammon and Lamoni’s interactions with Lamoni’s father. The next unit begins as Ammon and Lamoni again proceed on their journey towards the land of Middoni in verse 28, serving as repetitive resumption from verse 8 when they first began “journeying thither.”
+
+
+## The 8-element Chiasm in Unit B' (Alma 20:8–27)
+
+These verses appear to form an 8-element chiasm that grants further support that they be treated as an independent, self-contained unit. This chiasm is shown below:
+
+> A. Ammon and Lamoni “ met the father of Lamoni ” (20:8) B. Lamoni’s father asks Lamoni two questions — “Why did ye not come to the feast?” and Whither art thou going with this Nephite?” Lamoni answers both questions “for he feared to offend him” (20:9–12) C. Lamoni’s father says Lamoni is “going to deliver these Nephites, which are sons of a liar ;” the father of Lamoni commands his son to slay Ammon with the sword (20:13–14) D. Lamoni’s father commands Lamoni that he should not go to the land of Middoni , but return with him to the land of Ishmael (20:14) D'. Lamoni responds that he will not slay Ammon and that he will not return to the land of Ishmael , but he will go to the land of Middoni to release Ammon’s brethren; Lamoni testifies, “For I know that they are just men and holy prophets of the true God” (20:15) C'. The father of Lamoni draws his sword to smite Lamoni; Ammon speaks of the consequences for slaying his innocent son ; the father of Lamoni then instead attempts to slay Ammon (20:16–20) B'. The father of Lamoni, “ fearing that he should lose his life,” pleads to Ammon for his life; Ammon asks that he grant two things — that his brethren be cast out of prison, and that [Page 134] Lamoni retain his kingdom without his displeasure; the father of Lamoni says, “I will govern [my son] no more ” (20:21–26) A'. The father of Lamoni tells Ammon and his brethren, “ Come unto me …for I shall greatly desire to see thee” (20:27)
+
+
+## Explaining the 8-element Chiasm in Unit B' (Alma 20:8–27)
+
+This proposed chiasm has some similarities to the chiasm in Alma 20:1–7, most significantly by having Lamoni’s testimony in the center of the chiasm, here in element D'. This chiasm is framed by meeting with Lamoni’s father in element A and Lamoni’s father inviting Ammon and his brethren to come see him in A'. In element B, Lamoni’s father asks Lamoni two questions that demonstrate his governing power over his son. Despite the disappointment and anger that truthful answers might elicit to the questions Lamoni’s father posed, Lamoni provides them anyway out of fear of offending his father. In B', Lamoni’s father fears for his life and pleads with Ammon that he be spared. Ammon requests that the king grant two things — that his brethren may be cast out of prison, and that Lamoni may retain his kingdom and be governed no more by his father. These requests are in direct contrast to how Lamoni was treated by his father in B. Lamoni’s father governed over his son. He also wanted nothing to do with a Nephite, let alone help one in some way. In element C, Lamoni’s father describes the Nephites as “sons of a liar” (20:13). In contrast, in C', Ammon tells Lamoni’s father that his son is an innocent man and has repented of his sins. In C, Lamoni’s father commands Lamoni to slay Ammon with the sword. In C', Lamoni’s father pulls his sword out against Lamoni, but Ammon rebukes him for doing so. He then attempts to slay Ammon instead. Thus, Lamoni’s father seeks to slay Ammon or have him slain in both C and C'. (This is different than verse 15 in element D'. In verse 15, Lamoni says that he will not slay Ammon. While the theme of slaying Ammon is repetitive, only in elements C and C' does the father of Lamoni seek to have Ammon slain.) In the first central element, D, Lamoni’s father commands Lamoni to not go to the land of Middoni, but rather return with him to the land of Ishmael. In the second central element, D', Lamoni responds by directly refuting his father’s commands. This shift in power dynamics represents the turning point in the narrative. Lamoni says that he will not slay Ammon, neither will he return to the land of Ishmael, but he will go to the land of Middoni to release Ammon’s brethren from prison. “The land of Middoni” and “the land of Ishmael” in verse 14 are inverted in verse 15. Lamoni’s testimony to his father is highlighted here as well. He [Page 135] testifies, “For I know that [Ammon and his brethren] are just men and holy prophets of the true God” (20:15).
+
+An earlier verse in this chapter now shines greater light on this account. In Alma 18:9, the king’s servants told the king that Ammon was feeding his horses in preparation for conducting him forth to the land of Nephi for a great feast that had been appointed by his father, the king over all the land. This verse serves at least two purposes. First, it exemplifies Ammon’s faithfulness in executing the king’s commands as his servant (18:10). Second, it makes it abundantly clear that Ammon was himself preparing the king’s horses and chariots for the king’s journey to that feast and did not try to keep Lamoni from going.
+
+
+## Unit A' (Alma 20:28–30)
+
+Unit A' begins in Alma 20:28 with clear shifts in characters and location. Lamoni’s father leaves the scene and “Ammon and Lamoni proceeded on their journey towards the land of Middoni.” Verse 28 also serves as a repetitive resumption from verse 8. In verse 8, Ammon and Lamoni begin their journey to the land of Middoni. In verse 28, after they are interrupted by an encounter with Lamoni’s father, Ammon and Lamoni again proceed on their journey towards the land of Middoni. They arrive in Middoni, and Ammon’s brethren are freed from prison.
+
+Verse 30 marks the end of this unit. There is a new heading before Alma 21, which serves as a transitional marker for a new unit. This is further reinforced by an inclusio between Alma 17:13 and 21:1. Both [Page 136] verses share the phrases “separated themselves” and “in the borders of the land of the Lamanites,” but they are presented in inverted order, further strengthening the intentionality of this inclusio. This inclusio frames Ammon’s journeyings in the land of Ishmael, while Alma 21:1 begins the narrative of Aaron’s journeyings among the Lamanites.
+
+This unit is framed by the double mention of Ammon’s brethren being delivered from prison. In Alma 20:28, Lamoni finds favor in the king’s eyes and “the brethren of Ammon was brought forth out of prison.” And in verse 30, the narrative is wrapped up by restating that Ammon’s brethren were “kept in prison for many days and were delivered by Lamoni and Ammon.”
+
+There is another use of sevens in verse 30 summarizing the trials that Aaron and his brethren faced in their journeyings up to and including their time in Middoni. These include the following:
+
+  - “cast them out”
+  - “smote them”
+  - “driven them from house to house”
+  - “taken”
+  - “cast into prison”
+  - “bound with strong cords”
+  - “kept in prison for many days”
+
+The above work identified 14 major literary units for Alma 17–20. This wraps up the second step in the methodology used in identifying the proposed chiasm. The third and final step of analyzing these major literary units for patterns, parallels, and other links between units could then occur. That step was already completed in the above section, “Correlations between Matching Elements.”
+
+---
+Notes
+
+[1] Analysis of literary structures in the scriptures has become increasingly important in recent years. Jack R. Lundbom’s, Biblical Rhetoric and Rhetorical Criticism , along with David A. Dorsey’s, The Literary Structure of the Old Testament , are two sources that provide a more complete understanding of literary techniques used in the Old Testament. Literary studies on the Book of Mormon have increased exponentially since the [Page 88] turn of the century thanks to the work of John Welch, 1 Grant Hardy, 2 Donald Parry, 3 Brant Gardner, 4 Noel Reynolds, 5 Joseph Spencer, 6 and many others.
+
+[2] Much of the literary analysis done on the Book of Mormon has concentrated on chiasmus. Since John Welch first identified chiasmus in the Book of Mormon in 1967, scholars and novices alike have attempted to identify chiasms of all sizes within the text. As thrilling as it can be to identify a new chiasm, there is great risk of superimposing chiasms onto the text that were most likely not intentionally formed by the author. Thankfully, scholars such as John Welch, 7 Boyd Edwards, 8 Neal Rappleye, 9 and David Dorsey 10 have formulated criteria that can be used more objectively to determine the likelihood of intentionality of a proposed chiasm. These criteria will be cited and used throughout this article.
+
+[3] One of the original manuscript chapters 11 is Alma 12, which consists of Alma 17–20 in the 2013 edition of the Book of Mormon. Mormon [Page 89] appears to have intended this original chapter to have 14 major literary units. These 14 units, in turn, form a beautiful chiasm with the seventh and eighth units 12 highlighted at the center as the turning point, or hinge point, and climax, in the narrative.
+
+[4] [Page 90] Evidence from both the original and printer’s manuscripts shows that Joseph Smith apparently saw some visual indication at the end of a section that the section was ending…. Recognizing that the section was ending, Joseph then told the scribe to write the word chapter, with the understanding that the appropriate number would be added later. 13
+
+[5] The first concern of the rhetorical critic, it goes without saying, is to define the limits or scope of the literary unit, to recognize precisely where and how it begins and where and how it ends. He will be quick to observe the formal rhetorical devices that are employed, but more important, the substance or content of these most strategic loci. An examination of the commentaries will reveal that there is great disagreement on this matter, and, what is more, more often than not, no defense is offered for the isolation of the pericope. It has even been averred that it does not really matter. On the contrary, it seems to me to be of considerable consequence. 14
+
+[6] Defining the limits (or delimiting) of the major literary units in this chapter involves a fair amount of analysis and attention to detail. Precisely delimiting these units is key to an understanding of relationships, parallels, and patterns that may exist in the text. Unfortunately, there has not been much work done in this area of Book of Mormon studies. In The Book of Mormon: Another Testament of Jesus Christ, Maxwell [Page 91] Study Edition , 15 literary units are delimited and headings are provided throughout the text, but it is one of the few works that breaks the text down in such a manner. This work of delimiting the major literary units in the Book of Mormon is a fruitful endeavor, which leads to greater insights and understanding of the text.
+
+[7] One of the main goals of such literary analysis is to minimize the effects of subjectivity as much as possible. While it is almost impossible to eliminate subjectivity entirely in this discipline, it can be reduced by following certain guidelines. Dorsey identifies three devices that are used to mark literary units: beginning markers; end markers; and shaping the unit into a cohesive whole so that its parts are bound together to form an independent, complete, self-contained package. 16 Beginning markers include the following: titles; introductory formulas; common beginning words or phrases; shifts in time, place, characters or speakers, and theme; rhetorical questions; and imperatives. End markers include the following categories: concluding formula, summary, last part of inclusio or chiasmus, and conclusion or resolution of an action or outcome. Shaping units into a cohesive whole can be done using various techniques including the following: sameness of time, sameness of place, sameness of participants, sameness of topic or theme, sameness of literary form, inclusio, chiasmus, patterned repetition of information, and repetition of a keyword. These lists are not all-inclusive. There are other techniques and ways that can be used to identify individual units, but the present analysis will generally involve using markers and techniques listed above.
+
+[8] While it is true that chiasms can be found outside the boundaries of chapter breaks and individual major literary units, as suggested by Neal Rappleye, they generally conform to such natural literary boundaries. 17 By identifying the major literary units within this chapter, I have been able to discover and evaluate connections more effectively between different sections of the text.
+
+[9] According to David A. Dorsey, many larger sections of text in the Old Testament were comprised of 7-, 13-, and 14-element chiasms. Each of these structures highlights the significance of the number seven in biblical numerology. In 13-element chiasms, the seventh element is the central unit of the chiasm. In 14-element chiasms, there are usually two [Page 96] central elements — the seventh and eighth. In additional to the seventh element being highlighted in such structures, the number 14 is also significant as a multiple of seven. 18
+
+[10] Corbin Volluz points out many instances of the use of the number seven in the Book of Mormon. 19 He assumes the symbolic use of the number seven prevalent among the ancient Hebrews was also similarly used in the Book of Mormon. He quotes Didier Colin’s observation that “Jews and the first authors of the Bible felt that [the number seven] symbolized a sense of perfection or completeness in the Holy Scriptures.” 20
+
+[11] Corbin Volluz further indicates that “the book of Alma appears to be structured around the number seven, and more specifically, around double the number of seven.” 21 He notes a sevenfold structure of the entire book of Alma observed by Grant Hardy. He also notes Alma’s fourteen-year ministry among the Nephites, the concurrent fourteen-year mission of the sons of Mosiah, and a fourteen-year period of war between the Nephites and Lamanites. 22 It is possible that Mormon was further honoring the use of sevens and fourteens in the book of Alma with a 14-part chiasm in this chapter.
+
+[12] While Alma 17:1–2 is a part of this larger inclusio, these verses need not be excluded from functioning within the framework of this chapter. Lundbom provides numerous examples of inclusios with dual functions. 23 Verses 1 and 2 have such a dual function. They still play a significant structural role with the matching unit, A', in Alma 20:28–30.
+
+[13] It is noteworthy that Lamoni’s relationship with his father in this episode was much more of a tributary monarch being commanded to do something by the king over all the land than a familial one. As [Page 102] Noel B. Reynolds observed, “The Lamanites seem to have installed a system of tributary kings appointed by the superior monarch.” 24
+
+[14] Lamoni’s courage to stand up to the king over all the land is, if anything, understated in these verses. As Brant Gardner noted, “Refusal would be rebellion against his father and all of his father’s allies. He would declare antagonism toward former allies and renounce political, kinship, and economic connections without having replaced them. In an ancient society, such a move could be literally fatal.” 25 Lamoni put his life and his kingdom on the line by declaring that he wanted to continue forward on his journey with Ammon to Middoni to free Ammon’s brethren from prison.
+
+[15] There are other parallels between Abish and Ammon from these two elements that Joseph Spencer has articulated in a series of posts on Alma 19. 26 He compares the “unmistakable opportunism” of Ammon in trying to win the hearts of his fellow-servants when the king’s flocks are scattered with Abish’s “opportunity” to make events known to the people and cause them to believe in the power of God (17:29; 19:17). He contrasts Ammon demonstrating the power of God by starting contentions with Abish demonstrating the power of God by ending contentions (17:33; 19:28–29). He also points out the parallel that the servants “began [Page 105] to weep exceedingly” when the flocks were scattered with the description of Abish being “exceeding sorrowful, even unto tears” when she sees the multitude contending with one another (17:28; 19:28).
+
+[16] Once a potential chiasm has been identified, it can be measured against certain objective criteria to determine the likelihood that the author purposefully formed that structure. Clearly, one cannot know with certainty that a chiasm was intentional without being able to inquire of the author. There will always be some subjectivity to such determinations on chiasms in the Book of Mormon. John Welch observed, “It is apparent that all possible chiasms were not created equal and that in order to be clear in discussing chiasmus it is necessary for commentators to recognize that ‘degrees of chiasticity’ exist from one text to the next…. The higher the degree of chiasticity, the greater the likelihood that the chiastic structure was created intentionally.” 27
+
+[17] There are many different criteria from many different scholars that have been used to measure the degree of chiasticity of a text. Neal Rappleye surveyed numerous chiastic studies, including John Welch’s 15 criteria for identifying and evaluating chiasms, to come up with the six most widely agreed upon criteria for chiasms: 28
+
+[18] Prior to Alma 17:1, there is a heading that was a part of the translation of the plates that introduces the entire chapter, if not multiple chapters of the sons of Mosiah’s preaching among the Lamanites. As such, it is considered separate from unit A, but it does serve to delimit the beginning of this unit with verse 1. In the printer’s manuscript of the Book of Mormon, “Chapter XII” is written followed by the heading. 29 The heading appears to be set apart from the rest of the text of this chapter by a marking before what we now call Alma 17:1.
+
+[19] Delimiting the end of unit A is less clear than delimiting its beginning. The Maxwell Institute Study Edition of the Book of Mormon has this unit ending with verse 4. 30 Understanding the timing of the verses within this unit is integral to delimiting its end properly. Such analysis supports an ending for this unit after verse 5, instead.
+
+[20] This unit is also framed by the keyword custom in verses 20 and 25, further supporting verse 25 as the end marker for this unit, and for this group of verses to be treated as an independent unit. 31 This word is only used seven times in the Book of Mormon and nowhere else in Alma 17–20. Unique links such as this one strengthen the case in showing intentionality behind marking literary units and connecting matching units together.
+
+[21] N, L, S, L (vv. 1–4) N, L, S (vv. 5–9a) 32 N, L (vv. 9b–11)
+
+[22] One variation of symmetry deserves particular mention. Hebrew narrative will sometimes violate an otherwise symmetrical pattern with an insertion, deletion, or other disturbance of the patterned regularity. The clearer the fundamental symmetry and the more obtrusive the disturbance, the more the asymmetrical element draws a reader’s attention. This gives asymmetry great potential as a literary tool. 33
+
+[23] It is also interesting to note that there is a second motivation in this unit for why the men stood at the waters of Sebus to scatter the king’s flocks. The reason given here is “that thereby they might drive away many [flocks] that were scattered unto their own land” (18:7). Earlier, in Alma 17:35, the motive given is that “they delighted in the destruction of their brethren.” There are allusions to political intrigue behind these actions, which Brant Gardner 34 and Val Larsen 35 describe in detail. There appears to be a political rival faction attempting to usurp power from Lamoni in these actions. Again, the theme of politics plays a large role throughout this narrative.
+
+[24] Wordplay adds greater depth and meaning to how King Lamoni and his servants describe Ammon. Matthew L. Bowen used various sources to identify potential meanings of the name “Ammon.” Possibilities include “faithful” in Hebrew and “craftsman or expert” in Akkadian. 36 These meanings tie in perfectly with the description of Ammon’s “faithful(ness)” in verses 2 and 10, and his “expertness” in verse 3.
+
+[25] The Maxwell Institute Study Edition has this group of verses broken up into two separate units. It has Alma 18:12–21 as one unit and then Alma 18:22–39 as another unit. 37 There are some, what may be termed, shifts in what Ammon and the king are talking about throughout verses 12–35, but such shifts are relatively minor compared to the shift from first [Page 122] person dialogue to third person narrative that occurs in verse 36. Verse 21 could possibly serve as an end to a subunit, but the major literary unit for this block of text includes verses 12–35, encapsulating the entirety of direct dialogue between Ammon and King Lamoni.
+
+[26] Outside of this chiasm, Ammon begins in verse 36 by teaching about the creation of the world and the creation of man. And in verse [Page 124] 39, “he also made known unto them concerning the coming of Christ, and all the works of the Lord did he make known unto them.” A case could be made that these four elements could also be paired up together as parallels. The Creation of man could be paired with the coming of Christ. The Creation of Adam is his coming to earth which parallels the coming of Christ. The preeminence of the Creation of the world could be paired with the all-encompassing phrase “all the works of the Lord.” In any case, Mormon carefully structured these verses to highlight the importance of teaching the Plan of Redemption via the “three pillars of eternity;” 38 namely, the Creation, the Fall, and the Atonement of Christ (and the redemption He provides).
+
+[27] A. Now this was what Ammon desired , B. for he knew that king Lamoni was under the power of God ; C. he knew that the dark veil of unbelief was being cast away from his mind, D. and the light which did light up his mind , E. which was the light of the glory of God , E'. which was a marvelous light of his goodness — D'. yea, this light had infused such joy into his soul , C'. the cloud of darkness having been dispelled, B'. and that the light of everlasting life was lit up in his soul, yea, he knew that this had overcome his natural frame, and he was carried away in God — A'. therefore, what the queen desired of him was his only desire . 39
+
+[28] Matthew Bowen notes that Abish’s name possibly comes from Hebrew meaning “father is a man,” which “accentuates the importance of this woman and the knowledge that came from ‘her father.’” 40 Abish is one of only three women whose name appears in the Book of Mormon outside of three women also from the Bible (Eve, Sarah, and Mary, mother of Jesus). The other two are Sariah, the mother of Nephi, and Isabel, the harlot (Heading to 1 Nephi; Alma 39:3). This fact alone makes her role in the account of the conversion of the Lamanites significant.
+
+[29] There is a political drama interwoven throughout this chapter and Ammon is always shown acting in a correct and politically prudent manner within this drama. Ammon astutely handles all of the political situations he encounters along the way. He does not take one of Lamoni’s daughters to wife (17:24–25). As an outsider, he can protect the king’s flocks in a manner that Lamoni’s own servants might not have been able (17:36–38). He does not want to take power from Lamoni (18:21–22). He speaks very highly of the queen (19:10). He refuses to take half of Lamoni’s father’s kingdom (20:23–24). There are solid political reasons behind each of these actions, 41 but for the purposes of this article, it is simply worth noting that Ammon was not a hindrance to Lamoni attending the feast of his father, the king over all the land.
+

@@ -1,0 +1,126 @@
+[Page 261] Abstract: We do not have the Book of Mormon metal plates available to us. We cannot heft them, examine the engravings, or handle the leaves of that ancient record as did the Three Witnesses, the Eight Witnesses, and the many other witnesses to both the existence and nature of the plates. In such a situation, what more can we learn about the physical nature of the plates without their being present for our inspection? Building on available knowledge, this article estimates the total surface area of the plates using two independent approaches and finds that the likely surface area was probably between 30 and 86 square feet, or roughly 15% of the surface area of the paper on which the English version of the Book of Mormon is now printed.
+
+There are two questions I seek to address in this article. First, what is the estimated surface area of the plates on which the Book of Mormon was engraved? Second, is this estimate a reasonable value when compared with the printed surface area of the current English translation of Book of Mormon? This article provides two separate, independent calculations that estimate the surface area of the plates on which the Book of Mormon was engraved. These calculations are what engineers and scientists refer to as “order of magnitude” estimates — they are not intended to yield exact results. If the two independent calculations give roughly comparable and physically reasonable results, then our confidence in both the calculations and the reality of the plates is strengthened.
+
+The two approaches taken here are: 1) how many square feet of plates were actually used to engrave the Book of Mormon, given what we know about the physical nature of the plates, and 2) how many square feet of plates would be required in order to write the Book of Mormon, given what we [Page 262] know or can infer about the language and script used. We will begin with things we already know and then use that knowledge to learn more.
+
+
+## Estimating the Thickness of the Plates
+
+[Page 263] Obviously, for the tinplate sheets to fit in the box, they would have to be somewhat smaller than the outside dimensions of the box. The full box of tinplate sheets weighed well over 100 pounds and would need to be quite sturdy to withstand shipping and storage. Accordingly, I assume that each of the boards from which the box was constructed was about 1 inch thick, meaning the tinplate sheets measured about 12 inches by 18 inches, a convenient width and length for construction purposes. I neglect the contribution of the density of tin to the overall density of a sheet of tinplate and assume the density of the tinplate is roughly equal to the density of iron (491 pounds per cubic foot).
+
+With these assumptions, we can estimate the thickness of a sheet of tinplate. The formulae are:
+
+  - Weight = density x volume
+  - Volume = area (length x width) x thickness
+
+Since each sheet of tinplate weighed about one pound, the thickness of tinplate can be calculated using this formula:
+
+  - 1.0 pound = (491 pounds/cubic foot) x (12 inches x 18 inches) x thickness x conversion factor (cubic feet to cubic inches)
+
+Rearranging the equation above to calculate thickness we find:
+
+  - Thickness (in inches) = (1.0 pounds/(491 pounds per cubic foot x 12 inches x 18 inches)) x 1728 cubic inches per cubic foot) = 0.0163 inches
+
+Grover evaluates four different likely scenarios for the composition and construction of the plates. Two of the scenarios exceed the weight limit of 60 pounds, and the third applies to gold gilding on a copper base. Plates prepared under the third scenario would have been more susceptible to corrosion and therefore would probably not have been used by Nephi.
+
+Grover’s fourth scenario uses an upper limit of plate thickness of 0.01 inches and estimates a total weight of the plates of 53.6 pounds with a composition of 85.2% copper, 11.4% gold, and 3.4% silver. For purposes of my calculations, I assume Grover’s fourth scenario is both realistic and possible.
+
+
+## First Approach: Calculating the Area from the Mass and Thickness of the Plates
+
+Given the background information considered so far, a reasonable questioner might ask if it is plausible to write a record like the Book of Mormon on 20–30 pounds of plates, each plate being about between about 0.008 to 0.016 inches thick by 6 inches wide and 8 inches long.
+
+The relevant equations are:
+
+  - Mass of plates = density x volume of plates = density x (plate thickness x plate width x plate length x number of plates)
+  - Total surface area for writing = 2 x area per plate (accounts for the front and back sides of a plate) x number of plates
+
+[Page 265] We want to calculate the total surface area available for writing on 20 to 30 pounds of this metal. The math is straightforward if the thickness of the plates and the density of the metal in the plates are known. The thickness is estimated at between 0.008 to 0.016 inches, and the density can be estimated from Grover’s calculations, assuming the densities of copper, gold, and silver are additive according to their mass percentages in the mixture (85.2%, 11.4%, and 3.4% respectively). Applying this assumption, the density of the metal in the plates is about 646 pounds per cubic foot.
+
+We solve Equation 1 for the number of plates using a plate thickness of between 0.008 and 0.016 inches and total weight of plates between 20 and 30 pounds and then multiply the number of plates by 2 x the area per plate (48 square inches) and divide by 144 square inches per square foot to get the total surface area for writing.
+
+The result is that 10–31 square feet would be available for writing on these plates. The estimate of 31 square feet is probably closer to being correct than the lower estimate because a thinner plate is needed to provide the necessary pliability, as Grover indicates. If so, I estimate the plates contained about 30 square feet for engraving.
+
+This is one estimate, but there is an independent way of checking this calculation. We can try to estimate how many square feet of plates would be needed to write the Book of Mormon.
+
+
+## Second Approach: Calculating by Word Count Compared to the Qu’ran
+
+We can also compare the Book of Mormon with the Qu’ran. The Book of Mormon contains about 250,000 words in my English translation, while my English translation of the Qu’ran contains about 77,500 words. Why the Qu’ran? Because Hebrew and Arabic are both Semitic languages and thus have no vowels and no punctuation. As a result they are very compact. The Book of Mormon was apparently written in some system that allowed for a more compact script than even Hebrew (Mormon 9:33). The combination of a compact language written in a compact script would help Mormon write a long book on relatively few plates.
+
+Several years ago I visited Kuala Lumpur, Malaysia, and was taken by my hosts to tour the Museum of Islam. In this museum there is a beautiful framed painting containing the entire text of the Qu’ran. The painting of the text is done in very small but perfectly legible Arabic script. As I looked at the painting, and admired its beauty, the idea for this calculation came into my mind. I asked my hosts to take a picture [Page 266] of me standing by the painting. (I did not want to ask for a tape measure and measure the painting. My hosts were very friendly and kind people, but I did not want to risk causing them any offense.)
+
+How about the Book of Mormon? If we are willing to make some assumptions and approximations, how many square feet of plates would it take to write the Book of Mormon?
+
+Given the presumed similarities of the languages and the size and compactness of both scripts, one approach is to assume it would take proportionally the same square footage of plates to write the Book of Mormon in Arabic as it did to write the entire Qu’ran. To state this assumption in another way: we are assuming for the sake of this calculation that the language in which the Book of Mormon was written is similar to Arabic in its compactness and can express the same ideas in a similar surface area devoted to writing.
+
+Since the painting required about 26.5 square feet to write 77,500 words of Arabic it would take approximately (250,000/77,500) x 26.5 square feet or about 86 square feet of plates to write the Book of Mormon in Arabic, assuming that as many words can be written per square foot of plates in Reformed Egyptian as in Arabic.
+
+Thus, the two independent estimates of the writing area required to engrave the Book of Mormon differ by a factor of three or less. One estimate is about 30 square feet and the other estimate is about 86 square feet.
+
+The two estimates would tend to converge if:
+
+  - the reformed Egyptian characters used by Mormon were more compact than the Arabic characters used in the painting, so that more words would fit on one square foot of plates, reducing the number of plates in the second calculation
+  - [Page 267] the characters used by Mormon were placed together on the plates even more closely than the Arabic script was on the painting, again allowing more words per square foot of plates and also decreasing the number of plates in the second calculation
+
+I believe these conditions could be achieved and likely were achieved in the construction of the plates and their engraving with the Book of Mormon. In each case, the primary motivation would be to reduce the weight of the plates that Mormon and Moroni (and later Joseph Smith) would be required to carry around.
+
+Engraving on a hard metal is well suited to producing small characters and is very difficult work, as Jacob attests (Jacob 4:1). While the Arabic characters of the painting in the museum were compact, I believe they could have been placed even more closely than they were without loss of readability.
+
+Using the 60 square feet estimate, if each plate measured 6 inches by 8 inches (roughly the page size of the modern Book of Mormon) and was engraved on both sides, then the entire Book of Mormon was engraved on approximately 40 individual plates. In other words, it was about 80 pages long (two pages per plate), roughly fifteen percent of the length of our modern English copies of the Book of Mormon (531 pages).
+
+These calculations and estimates all pass the test of reasonableness. They are two completely independent estimates of a single variable: the total surface area on which the Book of Mormon was engraved. And the different estimates vary by a factor of about three or less.
+
+This may be only a small coincidence, but perhaps it is a useful addition to the many other correspondences, large and small, with which the Book of Mormon is filled. Cumulatively these correspondences gain great force as their number increases.
+
+
+## Conclusion
+
+The total surface area required to engrave the characters in which the Book of Mormon is written on the plates is unknown. However, we do [Page 268] have a considerable amount of eyewitness testimony as to the dimensions and weight of the plates. We also have a modern language, Arabic, which is likely similar to the language in which the Book of Mormon plates were written. We know approximately how much surface area was required to write the Qu’ran, using very small Arabic characters. Based on this and other information, several questions can be asked: 1) Can we estimate the surface area required to engrave the Book of Mormon? 2) Can we check that estimate using an independent method of calculation? 3) Do these two estimates give physically reasonable results?
+
+Two separate and completely independent calculation approaches were taken to address the question of the surface area of the Book of Mormon plates. The results of the calculations are between about 30 and 86 square feet, a difference of less than three-fold. The average of these two values is about 60 square feet, meaning the Book of Mormon was engraved on about 40 individual plates. This is roughly 15 percent of the surface area of the text of the Book of Mormon in our modern English translation. Thus the two independent calculation approaches give consistent and reasonable values. They also support the idea that the Book of Mormon authors achieved great economy of space in writing the Book of Mormon.
+
+1 . Jerry D. Grover, Ziff, Magic Goggles, and Golden Plates: Etymology of Zyf and a Metallurgical Analysis of the Book of Mormon Plates (Provo, UT: Grover Publishing, 2015). Available online at https://archive.bookofmormoncentral.org/content/ziff-magic-goggles-and-golden-plates-etymology-zyf-and-metallurgical-analysis-book-mormon
+
+2 . Ibid., 67–70.
+
+3 . Joseph Smith, “Church History,” in Times and Seasons (Nauvoo, IL), 1 Mar. 1842, vol. 3, no. 9 (whole no. 45), pp. 707, online at http://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/2 .
+
+4 . “What was the Appearance of the Engravings on the Gold Plates?” FairMormon Answers , online at https://www.fairmormon.org/answers/Question:_What_was_the_appearance_of_the_engravings_on_the_gold_plates%3F .
+
+5 . Martin Harris interview, Iowa State Register , August 1870, as quoted in Richard Lloyd Anderson, Investigating the Book of Mormon Witnesses (Salt Lake City: Deseret Book, 1981), 14.
+
+6 . Kirk B. Henrichsen, “What Did the Golden Plates Look Like?,” New Era (July 2007): 31.
+
+7 . Mike Smith, “Tin Plate,” http://mike.da2c.org/igg/rail/12-linind/tinplate.htm.
+
+8 . “The Old Soldier’s Testimony. Sermon preached by Bro. William B. Smith, in the Saints’ Chapel, Detroit, Iowa, June 8th, 1884. Reported by C.E. Butterworth,” Saints’ Herald 31 (4 October 1884): 643–44; reproduced in Dan Vogel ed., Early Mormon Documents (Salt Lake City: Signature Books, 1996), 1:505. https://www.fairmormon.org/answers/Source:William_Smith:The_Old_Soldier%27s_Testimony:1884:When_the_plates_were_brought_in_they_were_wrapped_up_in_a_tow_frock._My_father_then_put_them_into_a_pillow_case .
+
+9 . See “Tumbaga,” Antique Jewelry University , online at http://www.langantiques.com/university/index.php/Tumbaga .
+
+10 . Warwick Bray, “Gold-Working in Ancient America” Gold Bulletin 11/4 (1978): 137–38. (My thanks to Dr. John Sorenson and his book Mormon’s Codex for this valuable reference.)
+
+11 . “Last Testimony of Sister Emma,” Saints’ Herald , 26 (1879): 290; interview conducted between Februay 4 and February 10, 1879.
+
+12 . The photograph is in my collection but is not provided here, as it would likely not reproduce well in the printed version of this article.
+
+13 . Joseph Smith, “Church History,” in Times and Seasons (Nauvoo, IL), 1 Mar. 1842, vol. 3, no. 9 (whole no. 45), 707.
+
+---
+Notes
+
+[1] I am indebted to Jerry Grover for his interesting and useful paper entitled Ziff, Magic Goggles and Golden Plates . 1 Grover provides a thorough summary of various accounts of the physical properties of the plates. 2 He also performed an impressive number of experiments and calculations to learn more about the plates . I have relied heavily on his work for portions of my analysis.
+
+[2] Since Joseph Smith Jr. had more contact with the plates than anyone else, I will use the physical information provided by him whenever possible. Smith said the plates containing the Book of Mormon measured about 6 inches wide by 8 inches long and were “not quite so thick as common tin.” 3 The engravings were small and filled both sides of the plates. 4 The plates weighed approximately 40–60 pounds, 5 and about half of the plates were sealed. 6 Thus the Book of Mormon as we have it today was written on about 20–30 pounds of thin metal plates.
+
+[3] We have reasonably good estimates of the weight, length, and width of the plates, but not the thickness. In the time of Joseph Smith, “common tin” was actually tinplate, which was iron covered with a thin layer of tin to prevent corrosion. A standard wooden box of tinplate sheets was 14 inches by 20 inches and held 112 sheets, each weighing about a pound. 7
+
+[4] There are other ways we can estimate the plate thickness as well. William Smith, Joseph’s brother, stated that the plates were made of gold and copper. 8 Mesoamericans did use a copper-gold alloy the Spaniards called “tumbaga,” but there was no fixed ratio of copper to gold in the [Page 264] alloy, which could vary from 95% copper to 95% gold. 9 (Tumbaga also contained some silver that was naturally present along with the gold.)
+
+[5] Ancient American metal workers could form metal to a thickness of about 0.2 millimeters (about 0.008 inches), 10 agreeing well with Joseph’s statement that the plates on which the Book of Mormon were written were “not quite as thick as common tin” and also with Grover’s estimate that the plates may have been up to 0.01 inches thick. (Grover’s experiments actually indicate a plate thickness less than 0.01 inches for ease of manipulation.) The fact that the plates could be manipulated with the thumb and would make a noise like paper does when ruffled also argues strongly for a thin, somewhat pliable sheet of metal. 11
+
+[6] The hat that I wore to the museum measured 12 inches front to back and about 10.8 inches side to side. By proportion with my hat in the photograph, and by my own visual estimates while looking closely at the painting, this painting is about 4 feet high by 8 feet wide, or 32 square feet. There are four decorative circles in the painting that I estimate are about 6 inches in diameter (0.8 square feet in total for the four of them) and a decorative strip running lengthwise that is about 8 inches tall and 7 feet long (4.7 square feet). So the entire text of the Qu’ran can be written on about 32–4 .7–0 .8 = 26.5 square feet. 12
+
+[7] Therefore, to a first approximation, the Book of Mormon was engraved on about 60 square feet of plates. This figure splits the difference between the two independent estimates and allows some room for the three rings by which the plates were bound 13 and also free space around the edges so the engravings did not fill the entire plate.
+

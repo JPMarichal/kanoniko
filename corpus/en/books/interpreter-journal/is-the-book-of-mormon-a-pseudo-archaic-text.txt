@@ -1,0 +1,210 @@
+[Page 177] Abstract: In recent years the Book of Mormon has been compared to pseudo-biblical texts like Gilbert J. Hunt’s The Late War (1816). Some have found strong linguistic correspondence and declared that there is an authorial relationship. However, comparative linguistic studies performed to date have focused on data with low probative value vis-à-vis the question of authorship. What has been lacking is non-trivial descriptive linguistic analysis that focuses on less contextual and more complex types of data, such as syntax and morphosyntax (grammatical features such as verb agreement  and inflection), as well as data less obviously biblical and/ or less susceptible to conscious manipulation. Those are the kinds of linguistic studies that have greater probative value in relation to authorship, and that can determine whether Joseph Smith might have been able to produce Book of Mormon grammar. In order to determine whether it is a good match with the form and structure of pseudo-biblical writings, I investigate nearly 10 kinds of syntax and morphosyntax that occur in the Book of Mormon and the King James Bible, comparing their usage with each other and with that of four pseudo-biblical texts. Findings are summarized toward the end of the article, along with some observations on biblical hypercorrection and alternative LDS views on Book of Mormon language.
+
+This  study addresses the degree to which Book of Mormon language differs  from that of pseudo-biblical writings of the late 1700s and early  1800s, investigating whether there are small or large differences in  form and structure. Pseudo-biblical writings can be considered a  control group in relation to the linguistic form and structure that  Joseph Smith might have produced had he been attempting to mimic  biblical style in 1829. He was repeatedly exposed to King James idiom  growing up. Thus, either adherence [Page 178] to biblical language or deviations  from biblical language that are close to pseudo-biblical patterns  could support the position that Joseph was the author or  English-language translator of the Book of Mormon text. On the other  hand, there is nothing to indicate that Joseph was well versed  in many Early Modern English texts when he dictated the Book of  Mormon. Hence, large deviations from both biblical and  pseudo biblical patterns that approach attested archaic usage  could support the position that Joseph was not its author or  English-language translator.
+
+By  means of deeper linguistic analysis we can discover whether the  influence of pseudo-biblical style on the earliest text of the Book  of Mormon is noticeable, or (as another possibility) whether there is  substantial correspondence in style between pseudo-biblical texts and  the Book of Mormon. Are there fundamental, structural similarities in  syntax and morphosyntax? Alternatively, do low-level differences rule  out classifying the Book of Mormon as just another pseudo-biblical  literary production? Does the earliest text match Early Modern  English usage sufficiently so that it should not be regarded as a  pseudo-archaic text?
+
+Specifically,  this study focuses on those grammatical features whose usage patterns  are either less noticeable (to non-linguists) or not as easily  imitated. This is a crucial point. Linguistic items that are readily  noticed and easily imitated are, at least as far as authorship  determination is concerned, trivial and uninteresting. Such items  have made up the bulk of the linguistic comparisons that the Book of  Mormon has been subjected to up to this point. In contrast, some of  the features analyzed [Page 179] for this study are reliably characterized only  after rather detailed linguistic analysis.
+
+
+## The Pseudo-Biblical Texts Examined
+
+
+## Other Primary Sources
+
+The  critical edition of the Book of Mormon was essential to this study:  Royal Skousen, editor, The Book of Mormon: The Earliest Text (New Haven, Connecticut: Yale  University Press, 2009). Directly related to this is Skousen, Analysis of Textual Variants of the Book of Mormon , 2nd edition (Provo,  UT: FARMS and BYU Studies, 2017) and Skousen, Grammatical Variation (Provo, UT: FARMS and BYU Studies, 2016). LDS View  provided access to the current LDS text of the scriptures, [Page 181] https://ldsview.wordcruncher.com (Salt Lake City: Intellectual  Reserve, 2001–).
+
+The  principal English textual source used in this study was the Early  English Books Online database ( http://eebo.chadwyck.com/home ). The  publicly searchable portion of EEBO (Phase 1 texts) is currently  found at https://quod.lib.umich.edu/e/eebogroup . I have mainly  derived Early Modern English examples from a precisely searchable  700-million-word WordCruncher corpus I made from approximately 25,000  EEBO Phase 1 texts. Other important textual sources include  Eighteenth Century Collections Online  ( https://www.gale.com/primary-sources/eighteenth-century-collections-online and https://quod.lib.umich.edu/e/ecco ), Literature Online  ( https://literature.proquest.com ), and Google Books  ( https://books.google.com ).
+
+
+## Observations on Pseudo-Biblical Influence
+
+Both  LDS and non-LDS perspectives on Book of Mormon language have tended  toward the pseudo-archaic or pseudo-biblical. Two commonly held  beliefs are the following: (1) archaic Book of Mormon usage is not  systematically different from King James language; (2) the earliest  text is often defective in its implementation of archaic vocabulary  and grammar. Many scholars believe Book of Mormon grammar is a flawed  imitation of biblical usage. That conclusion, however, has been  founded on insufficient grammatical and lexical study.
+
+For  purposes of determining possible influence on authorship, RT has  focused on linguistic and narrative evidence. However, the linguistic  evidence he has considered is not syntactic in character, and there  is no discussion of possibly obsolete lexis. Instead, this  commentator has concentrated on archaic phrasal and lexical evidence  that is rather obviously biblical or that is contextual to a larger  degree than syntactic structures are, which can be employed in a wide  array of diverse contexts. Phrases and lexical items routinely  identifiable as biblical are of course more susceptible to imitation.  Moreover, they are also less likely to have been produced  subconsciously than syntax, so they are of secondary importance in  determining authorship influence, compared to more complex linguistic  studies. Also, the narrative evidence RT has considered is, by its  nature, weaker than substantive linguistic evidence from the domains  of semantics, morphology, and syntax.
+
+To  these points I would add that issues of lemmatization have been  ignored as well. Lemmatization involves regularizing words with  inflectional differences as equivalent variants of the same lexeme.  And even many lemmatization efforts cannot remedy the inherent  deficiencies of most n-gram analyses. For example, Nicholas Lesse’s  translation language “do not cause hym, that he shuld  performe . . .” (1550, EEBO A22686) is a syntactic  match with “causing them that they should . . .”  (3 Nephi 2:3). These are both ditransitive causative constructions  with repeated pronominals. But such a correspondence isn’t caught  by standard n-gram comparisons, nor by narrowly drawn lemmatized  comparisons, so that competent linguistic analysis is ultimately  needed to determine relevant syntactic matching.
+
+The  website that contains the above comment comparing The Late War to the Book of Mormon has a large quantity of material to  digest, and the linguistic analysis is confined to phrasal and  lexical elements, which have their interest but are contextual in  many cases. If there were [Page 184] no syntax, morphosyntax, or obsolete lexis  to study, then we would have to content ourselves with studying  mostly contextual linguistic evidence, such as we find on this  website. But there are other things that can be studied that are  either more complex and less contextual or can be studied in a way  that brings out relevant complexity. Hence, the choice of data and  methodologies are quite important.
+
+> The  tradition of writing in biblical style paved the way for the Book of  Mormon by conditioning Americans to reading American texts, and texts  about America, in biblical language. Yet the Book of Mormon, an  American narrative told in the English of the King James Bible , has thrived long  after Americans abandoned the practice of recounting their affairs in  biblical language. It has thus been able to survive and flourish for  almost two centuries, not because, but in spite of the literary  ecology of the mid-nineteenth century and after. The Book of Mormon  became a testament to a widespread cultural practice of writing in biblical English that could not accommodate to the  monumental transformations America endured in the first half of  nineteenth century. [emphasis added]
+
+The  character of the Book of Mormon’s English is a matter that demands  special study, not unstudied assumptions. Before Skousen, no one had  acknowledged and accepted this reality.
+
+If  we include angry in calculations and determine a relative rate  of archaism, we find that the King James Bible is 53 percent wroth (49 of 93) and that the Book of Mormon is only 26 percent wroth (24 of 93). As a result, even though the absolute rate of wroth in the Book of Mormon is greater than it is in the King James Bible,  the Book of Mormon’s archaic wroth – angry rate is  half that of the King James Bible. This extra bit of analysis —  which recognizes the importance of also considering the close synonym angry — reveals that the Book of Mormon’s high rate of wroth is partly due to archaism and partly due to a higher  textual frequency of the notion ‘angry.’
+
+In  summary, after duly considering a variety of evidence, a number of  critics and researchers have concluded that the Book of Mormon isn’t [Page 187] genuinely archaic, and that its language is close to that of Gilbert  J. Hunt’s The Late War and similarly  styled texts. Some see direct influence from The Late War, others see indirect influence. Yet no one has drilled  down to the foundational elements of style beyond shared lexical and  phrasal usage in context and simple morphological studies; all have  ignored independent archaic semantic usage, syntactic structure, and  in-depth morphosyntactic research. Those are the things that can tell  us most reliably and convincingly whether the Book of Mormon is  similar to pseudo-biblical texts in terms of style and archaism. My  primary concern in this study is with syntactic structure and  morphosyntax. To my knowledge, a substantive syntactic comparison of  the Book of Mormon with pseudo-biblical writings has never been  performed. There is much to compare; I only touch on a few things  here.
+
+
+## Summary of Analyses
+
+Topics  covered include agentive of and by , lest syntax,  relative-pronoun usage with personal antecedents, periphrastic did , more – part usage, had (been) spake ,  the {-th} plural, and verbal complementation after five common verbs  as well as the adjective desirous .
+
+
+## Agentive of and by
+
+In  most syntactic domains, Book of Mormon archaism turns out to be  different from that of the King James Bible, while exceeding that of  the four pseudo-biblical writings. The following is one example.  Agentive of is biblical syntax, but it is the kind that was  apparently more difficult for pseudo-biblical authors to imitate. Its  use is less obvious than that of lexical items like thou , saith , unto , or past-tense spake (to this we may  also add the prominent lexical phrase it came to pass) .
+
+Royal  Skousen has carried out systematic but incomplete sampling of past  participles followed by either agentive of or by in the  two scriptural texts (mostly from an inspection of the syntax of  regular verbs ending in {-ed} that are immediately followed by of or by and an animate agent). I have done the same for the  four pseudo-biblical writings. This research has yielded the  following estimates:
+
+Estimated  agentive of rates
+
+[Table omitted]
+
+  - King  James Bible
+  - Book  of Mormon
+  - Scottish  pseudo-biblical text
+  - American  pseudo-biblical texts
+
+In  this domain we find that the King James Bible has the greatest  archaism, followed by the Book of Mormon, and followed more distantly  by the four pseudo-biblical writings. The one by the Scottish author  Matthew Linning comes closest to the scriptural texts in its level of  archaism at less than 20 percent agentive of . The Book of  Mormon exhibits considerable biblical influence, while the  pseudo-biblical texts exhibit slight biblical influence.
+
+The  King James Bible favors the use of agentive of (estimated at  72 percent), but there are still significant levels of use of  agentive by . The Book of Mormon slightly favors the use of  agentive by (estimated at 54 percent), but there is almost as  much agentive of usage. In contrast, the four pseudo-biblical  writings do not use much agentive of , strongly preferring the  modern alternative.
+
+The  kind of verb and agent involved in the syntax influence the selection  of the agentive preposition ( of or by ) , complicating matters. Yet the large differences in agentive of rates permit one to reliably observe that while the Book of Mormon is  quite archaic in agentive of usage, pseudo-biblical writings  are not — especially the American ones.
+
+Pseudo-biblical  texts are not that archaic in this regard, especially the three  American ones. Of the four pseudo-biblical writings considered in  this study, the Scottish one contains the highest rate of agentive of usage — estimated to be 15 percent. This is about one-third the  rate found in the Book of Mormon. The three American pseudo-biblical  writings have been estimated to be below 10 percent in their agentive of usage. Some details follow:
+
+  - Leacock’s  text (1774–1775) has no examples of agentive of out of about  10 possibilities. The agentive of rate in this text is 0%.
+  - Snowden’s  text (1793) has three instances of “beloved of the people”  (5:14, 19:13, 26:2). The estimated agentive of rate in this  text is 7% (3 of 43 regular verbs). (There are also three instances  of “beloved by ,” with various noun phrases [3:13, 45:7,  52:3].)
+  - Linning’s  text (1809) has four instances of agentive of: “despised of men” (twice: 12:7; 14:2), “favoured of Heaven” (14:5)  and “approved of men” (21:19). The estimated agentive of rate in this text is 15% (4 of 27 regular verbs).
+  - Hunt’s  text (1816) has only one example of agentive of: “the king  was possessed of an evil spirit” (1:14). The estimated  agentive of rate in this text is 2.5% (1 of 40 regular verbs).
+
+
+## Lest syntax
+
+Next,  we consider the syntax of sentences that occur after the conjunction lest . The 1611 King James Bible consistently employs the  subjunctive mood in sentences following this conjunction. About 80  percent of the [Page 190] time no modal auxiliary verb is used. This of course  means that about 20 percent of the time a modal auxiliary verb is  used with an infinitive after lest , most frequently should .
+
+A  fairly comprehensive search of the 1611 King James Bible (including  the Apocrypha) yielded 63 lest – should constructions.  This tally is probably close to the actual figure and is equivalent  to a textual rate of 68 wpm. But because lest – should usage continued into the late modern period robustly (after the year  1700), use of lest – should syntax in pseudo-biblical  texts isn’t actually a good candidate for possible biblical  hypercorrection. Some of it could represent late modern usage.
+
+A  few details of lest constructions in the other texts are the  following:
+
+  - The  Book of Mormon employs a modal auxiliary verb in sentences after lest about 80 percent of the time, usually should . It has much  higher levels of modal auxiliary usage after lest than the  biblical text does. Its 44 lest – should constructions  translate to a rate of 175 wpm — 2.6 times the biblical rate.
+  - Leacock’s American Chronicles (1774–1775) and Linning’s Book of Napoleon (1809) have six and five instances of lest ,  respectively, without any following modal auxiliary usage. These  pseudo-biblical texts are more closely aligned with biblical patterns  than the other two pseudo-biblical texts.
+  - Richard  Snowden’s The American Revolution (1793) has  14 lest – should constructions, a rate of 284 wpm.  Snowden’s lest – should rate is more than four times  that of the King James Bible, and higher than the Book of Mormon’s.
+  - Gilbert  J. Hunt’s The Late War (1816) has six  instances of lest , and five times the sentences that follow  employ a modal auxiliary: three with should and two with might . Its lest – should rate of 70 wpm is  very close to the biblical rate.
+
+Continuing  our investigation, we find that there is only one short passage in  the entire King James Bible (including the Apocrypha) where the modal  auxiliary verb shall occurs in sentences following lest:
+
+2  Corinthians 12:20–21
+
+For I fear lest when I come, I shall not find you such as I  would, and that I shall be found unto you such as ye would  not, …
+
+And lest when I come again, my God will humble me among you, and that I shall bewail many which have  sinned already,
+
+The  phrase when I come may have triggered the shall usage.  This passage also has a simple case of lest there be (not shown), as well as one instance of the auxiliary verb will (“my God will humble me”).
+
+Yet  the four pseudo-biblical writings do not have any examples of lest – shall syntax. As noted, Snowden’s The American Revolution and Hunt’s The Late War do have lest – should constructions — 14  and 3 instances, respectively — but the other two pseudo-biblical  texts do not. So, lest – should syntax, which is both  biblical and persistent usage, is fairly well represented in the  pseudo-biblical set, while the lest – shall usage of 2  Corinthians 12:20–21 is not represented at all.
+
+Nonetheless,  the Book of Mormon has 14 cases of the conjunction lest followed immediately by sentences with the modal auxiliary verb shall , as in the following example:
+
+Mosiah  2:32
+
+But O my  people, beware lest there shall arise contentions among  you,  and ye list to obey the evil spirit which was spoken of by my  father Mosiah.
+
+Present-tense ye list , conjoined to there shall arise ,  suggests the shall may  primarily be a subjunctive mood marker. The Book of Mormon variation  — “lest there shall arise . . . and ye [ø]  list” — has been found in the textual record after lest and should .
+
+These  14 cases represent an extraordinary amount of lest – shall usage. It is equivalent to a rate of approximately 55 wpm, which is  slightly more than 17 times the rate of the King James Bible. An  analyst such as Bowen would call this outsized use of lest – shall in the Book of Mormon a biblical hypercorrection. As noted, however,  there is no supporting pseudo-biblical usage; in this domain Joseph  Smith rather obviously exceeded the four pseudo-biblical texts in  reproducing hardly noticeable, archaic biblical syntax. This same set  of circumstances is encountered in the Book of Mormon in many  different linguistic domains and raises the possibility that Book of  Mormon authorship might have involved Early Modern English competence  (implicit knowledge).
+
+The  argument for the Book of Mormon’s lest – shall usage  not being a biblical hypercorrection, but rather representing Early  Modern English competence, gains a measure of support from a passage  in the olive tree allegory, which displays triple variation in  auxiliary selection after lest:
+
+Jacob  5:65
+
+[A]nd ye  shall not clear away the bad thereof all at once,
+
+lest the  roots thereof should be too strong for the graft,
+
+and the  graft thereof shall perish,
+
+and I [  ø ] lose the  trees of my vineyard.
+
+Here  we read three clauses after the conjunction lest: the first  one has the auxiliary should , the second one shall , and  the third one has no auxiliary (shown by [ø]). Initially, without  any knowledge of past grammatical possibilities, we might assign the  auxiliary mixture in Jacob 5:65 to Joseph making a mistake. Yet there  are rare textual precedents found in the early modern period to  consider, as in this example:
+
+[Page 193] 1662,  Abraham Wright, A Practical Commentary [on] the Pentateuch [EEBO  A67153]
+
+Lest either Abraham should not do that for which he came, or shall want means of speedy thanksgiving for so gracious a  disappointment;
+
+Here  and below the spelling of EEBO examples has been regularized. In this  case, only a hyphen has been deleted from thanks-giving .
+
+The  auxiliary variation of this 1662 example and Jacob 5:65 provide us  with a clear syntactic match. Neither the King James Bible nor  pseudo-biblical texts contain this variation. It slightly strengthens  the position against biblical hypercorrection and for Early Modern  English competence. Without further support, however, this should be  regarded as a coincidence. As it turns out, however, there are dozens  of coincidences in the earliest text — of one kind or another —  some of them edited out. These things taken together materially  strengthen the position against biblical hypercorrection in this  specific case and for the entire Book of Mormon text.
+
+
+## Personal that , which , and who(m)
+
+The  cataloguing of relative-pronoun usage after human antecedents in the  Book of Mormon has much to tell us about the issue of authorship.  That is because the majority of such usage is generated  subconsciously. This contrasts with the mostly conscious use of  content-rich phrases and words, some of which are obviously biblical.
+
+Just  as speakers and writers today rarely pay attention to whether they  use that or who(m) to refer back to human antecedents  (in phrases like “those who were there” or “the people that heard those things”), 400 years ago speakers and  writers would have paid little attention to whether they employed that , which , or who(m) — the three options  available in the early modern period — to refer back to human  antecedents. They would have followed personal and dialectal  preferences, almost always subconsciously.
+
+[Page 194] Syntax  and the antecedent affect relative pronoun selection. Also, the  antecedent cannot always be determined. Yet enough clear data exists  to lead to the conclusion that the Book of Mormon usage is different  from modern who – that usage and from the usage  patterns of the four pseudo biblical writings considered in this  study. Book of Mormon usage is also significantly different from the  dominant form of Early Modern English represented in the King James  Bible. Book of Mormon usage is not derivable from any of these  sources, but it is similar to less common Early Modern English  usage.
+
+Details  for the Book of Mormon and the King James Bible are as follows:
+
+Three  of the pseudo-biblical writings have examples of personal which but are dominant in who or that: Leacock’s text (six  instances of personal which) , Linning’s text (two instances:  “multitudes/captives which”), and Hunt’s text (one instance:  “false prophets which come”). No examples of personal which in Snowden’s text were found in a recent search. All  pseudo-biblical writings but the earliest one, Leacock’s, are  strictly modern in their profile. Thus, three pseudo-biblical authors  didn’t break from the preferences they learned as native speakers  and writers of late modern English.
+
+Recent  counts yielded the following details (here I exclude prepositional  contexts):
+
+  - Leacock’s  text has 45 instances of personal that (58%), 6 instances of  personal which (8%), and 26 instances of who(m) (34%).  The relative order of use of these relative pronouns (in descending  frequency) — that , who(m) , which — makes  this text a biblical–modern hybrid.
+  - Snowden’s  text has about 20 instances of personal that (10%), no  instances of personal which (0%), and about 180 instances of [Page 196] who(m) (90%); this text exhibits a strong preference for who(m) over that .
+  - Linning’s  text has 8 instances of personal that (20%), 2 instances  of personal which (5%), and 31 instances of who(m) (75%); this text exhibits a strong preference for who(m) over that .
+  - Hunt’s  text has 44 instances of personal that (47%), 1 instance  of personal which (1%), and 49 instances of who(m) (52%); this text exhibits a slight preference for who(m) over that .
+
+To  recap, here is the breakdown of usage in the texts considered in this  study:
+
+Table 1 . Percentage usage of relative pronouns with personal  referents.
+
+[Table omitted]
+
+---
+Notes
+
+[1] There  is of course a very large amount of syntactic data to consider, and  much of the syntax would have been produced subconsciously, based as  it is on implicit knowledge. 1 Consequently, systematic analysis is possible and meaningful.  Careful, thorough investigation of Book of Mormon grammar can  therefore go a long way toward telling us whether Joseph could have  been the author or English-language translator.
+
+[2] The  four pseudo-biblical texts examined for this study have been chosen  based on frequent comparison to the Book of Mormon and/or being  prominent, worthy specimens of the genus. 2 The four texts include John Leacock’s The First Book of the American Chronicles of the Times (1774–1775), Richard Snowden’s The American Revolution (1793), Michael Linning’s The First Book of Napoleon (1809), and  Gilbert Hunt’s The Late War (1816). 3 These  four pseudo-biblical texts are freely available in the WordCruncher  library. 4
+
+[3] The  background of these authors is as follows: John Leacock (1729– 1802)  was a goldsmith and silversmith from Philadelphia, Richard Snowden  (1753– 1825) was a Quaker from southwest New Jersey, Michael  Linning [Page 180] (1774–1838) was a Scottish solicitor originally from  Lanarkshire near Glasgow, and Gilbert J. Hunt was a manufacturer from  New York City. 5
+
+[4] According  to Eran Shalev, Leacock’s work was “the most popular writing in  biblical style of the Revolutionary era;” Snowden’s two-volume  effort was “the first full-blown, thorough, earnest, and mature  attempt to biblicize the United States and its historical record;”  and Hunt’s history of the War of 1812 was “the most impressive  text among the numerous published during the opening decades of the  nineteenth century.” 6 A contemporary review of Linning’s pseudo-biblical effort  found that
+
+[5] the  book gives, in language with which they [the Bible-reading public]  are best acquainted, a just view of the principle which led to the  French revolution, to the elevation of Buonaparte to the throne of  the Bourbons, and to all the miseries under which the continent of  Europe has so long groaned; contrasting those miseries with the  happiness which Britons, here denominated Albions, enjoy under the  mild government of our excellent and amiable sovereign. 7
+
+[6] A  number of LDS scholars believe that because Joseph Smith’s mind was  saturated with biblical language, he could have produced the text of  the Book of Mormon from a mixture of biblical language and his own  dialect. 8 Other commentators, whose affiliation is not always known, [Page 182] have drawn  similar conclusions. Here is one observation made in 2013 by a  blogger — who goes by the initials RT — on the influence that one  pseudo-biblical writing might have had on the formulation of the Book  of Mormon text:
+
+[7] In  sum, linguistic and narrative elements of the [Book of Mormon] are  probably descended, at least in part, from Gilbert Hunt’s  pseudo-biblical account of the War of 1812. The relationship between  these two literary works is relatively strong, suggesting that the  book had quite a memorable impact on Joseph Smith. But Smith did not  borrow directly from [ The Late War ] (at least  for the majority of the narrative content) during the process of  composing the [Book of Mormon]. 9
+
+[8] Here  is another summarizing comment about the Book of Mormon which one can  currently find online: “Joseph most likely grew up reading a school  book called The Late War by Gilbert J. Hunt and  it heavily influenced his writing of The Book of Mormon .” 10 Again, a comparison of phrases and lexical usage shared between the  Book of Mormon and The Late War led to this  comment. Specifically, the two researchers [Page 183] responsible for this  comment carried out n-gram comparisons between the Book of Mormon and  more than 100,000 pre-1830 texts. A significant flaw in the  comparisons they made was failing to incorporate many Early Modern  English texts — regularized for spelling and morphology — in  their large corpus. 11 Nor is it clear that they used the critical text, the text closest to  Joseph Smith’s 1829 dictation. 12 In addition, as Benjamin McGuire pointed out in 2013 (using different  language), n-gram analyses provide only a brute-force approach to the  question of authorship, since they ignore constituent structure. 13
+
+[9] As  McGuire mentions in his 2013 article, quoting Harold Love, the  explosion of available textual data has made “intelligent  selectivity” extremely important. 14 Syntactic studies rank very high in terms of intelligent selectivity.  (To this may be added studies of potentially obsolete lexis not  undertaken here but soon to be available in Royal Skousen, The Nature of the Original Language . A  substantially different version of this paper will be available in  that two-part book as section 12.) Syntactic studies constitute a  richer source of linguistic information and a more reliable data set  on which to base conclusions about Book of Mormon  authorship. One specific example is the study of relative-pronoun  selection after human antecedents in earlier English, addressed  below.
+
+[10] The  aforementioned website liberally employs the ellipsis symbol (…),  at times in lengthy or discontinuous passages. The way this symbol is  used goes against customary practice in quite a few cases and can  mislead the unaware. The casual reader is led to believe there is  much more compact correspondence between the Book of Mormon and The Late War (and other texts) than there actually is. This  analysis has been referred to by the CES letter, whose latest  iteration links to the site rather than incorporating it in the body  of the letter. 15 A recent imitation of the CES letter provides the reader with a  reprint of some of the color-coded comparisons that are heavy in  ellipsis. 16
+
+[11] Another  short blog entry to consider is one titled “American Pseudobibles  (and the Book of Mormon).” The author, John Turner, quotes Eran  Shalev as suggesting that “the unique combination of the biblical  form and style that the Book of Mormon shares with the pseudobiblical  texts, as well as their distinctly American content, provide a case  for seeing Smith’s book as meaningfully affiliated to that [Page 185] American  mode of writing.” 17 This view of things — that pseudo-biblical style and Book of Mormon  style are not substantively distinguishable — is only based on  superficial linguistic considerations. We must dig deeper before we  can be confident that such a view is accurate.
+
+[12] Eran  Shalev wrote the following at the end of his article on  pseudo-biblicism: 18
+
+[13] Just  before final submission of this piece, I was alerted to a recent  Purdue University dissertation by Gregory A. Bowen. 19 Bowen’s thesis examines usage in 10 texts and two small corpora,  with the focus on the King James Bible and the Book of Mormon.  Because the net is cast wide and touches on several linguistic areas,  this study is a preliminary one in relation to the Book of Mormon.  Hunt’s The Late War is one of the 19th-century  texts examined.
+
+[14] [Page 186] Bowen  either begins with or comes to an expected academic conclusion. 20 He doesn’t explore the possibility that a significant amount of  Book of Mormon usage could be genuinely archaic, despite the  existence of extra-biblical archaic markers occurring throughout the  text. Although he mentions a few, he never pursues lines of inquiry  that might have revealed true archaism. In short, there is good  material in this thesis, but it doesn’t approach lexical and  grammatical issues that might be dispositive of the authorship  question.
+
+[15] Bowen  concludes that some heavy usage of archaisms found in the Book of  Mormon were biblical hypercorrections by Joseph Smith. In the case at  hand, a hypercorrection is a presumed overuse by Joseph of a  prestigious biblical form. 21 The issue of biblical hypercorrection will be addressed at various  points in this study.
+
+[16] One  item of archaic vocabulary that Bowen tracked was the adjective wroth . This word is a strong marker of archaism because the  EEBO database clearly shows that usage rates dropped off  significantly during the first half of the early modern era. He  classifies the Book of Mormon’s high-frequency wroth usage  as a biblical hypercorrection, since its textual rate exceeds that of  the King James Bible: 90 words per million (wpm) versus 64 wpm. 22 In this case, however, the close synonym angry could have been  considered as well.
+
+[17] In  late Middle English, just before the early modern period, the chief  preposition used in passive constructions to indicate the agent was of , later giving way to by . 23 (Late Middle English ended around the time  William Caxton began to  print books in English in the final quarter of the 15th century, and  Early Modern English continued to the end of the 17th century.) An  example is the following sentence from a book found in the EEBO  database: “God requireth the law to be kepte of all men”  (1528, EEBO A14136). By the late modern period this expression would  have [Page 188] almost always been worded “God requires the law to be kept by all men.” A Book of Mormon example is “Moses was commanded of the Lord” (1 Nephi 17:26), equivalent to “Moses was  commanded by the Lord.”
+
+[18] Agentive of is used with a wide variety of verbs in the scriptural  texts, and the usage in many cases is not overlapping. In other  words, the King James Bible employs agentive of with some  verbs quite frequently whereas the Book of Mormon does not; the Book  of Mormon also employs agentive of with some verbs quite  frequently while the King James Bible does not. An example of this is  the passive construction “commanded of/by.” The King James Bible  has four examples of “commanded by ” but no [Page 189] examples of  “commanded of ”; the Book of Mormon has nine examples of  “commanded of ” and three examples of “commanded by .”  This means it is not inaccurate to state that the Book of Mormon’s  agentive of usage approaches but is independent of biblical  usage. This is statistically verifiable. 24
+
+[19] [Page 191] In  descending order of frequency, the auxiliaries most commonly found in  the Early Modern English textual record after the conjunction lest are should , might , may , would , will ,  and shall (based on extensive searches of the EEBO Phase 1  database). 25 Consequently, we wouldn’t have expected there to be many lest constructions with shall in the King James Bible, and this  expectation is borne out by the text. Taking into account the close  to one million words found in the 1611 Bible (including the  Apocrypha), these three instances mean that the lest – shall rate of the biblical text is 3.2 wpm. Because lest – shall usage did not continue into the late modern period robustly,  heavier usage in other texts could qualify as a biblical  hypercorrection.
+
+[20] Specifically,  Snowden’s text had five contexts in which he might have employed lest – shall syntax and Hunt’s text had one; 26 all 11 of Leacock’s and Linning’s lest sentences could  have employed shall . Because lest – shall syntax  is missing in 17 possible cases, it is possible that the [Page 192] pseudo-biblical authors were unaware of the rare biblical usage (only  three times after 240 instances of lest) , and this was also  possible for Joseph Smith.
+
+[21] Personal that was the most common option coming out of late Middle  English and throughout most of the 1500s and 1600s, and it has  persisted to this day, at close to a 10 percent usage rate. 27 Over time, personal which (e.g. “Our Father which art  in heaven”) became less and less common and personal who took over from personal that as the dominant form. Personal which is the option that has become very rare except in  narrowly confined contexts.
+
+[22] The  Book of Mormon’s personal which usage rate probably exceeds 50%; one sampling involving four  different types of high-frequency antecedents — those/they/them , he/him , man/men ,  and people —  shows an interesting diversity in usage patterns and an overall  personal which usage rate of 52%; personal that (30.5%) and who(m) (17.5%), taken together, are used slightly less than half the time  after these antecedents in the earliest text. 28 The  King James Bible employs personal which only 12.5% of the time after these same antecedents; personal that is dominant (83.5%), with who(m) occurring only 4% of the time; only when the relative pronoun’s  antecedent is he/him are these two scriptural texts correlated; otherwise their usage is  uncorrelated or negatively correlated. 29
+
+[23] Personal which was extensively but incompletely edited out of the Book  of Mormon by Joseph Smith for the 1837 second edition. 30 It is more likely this was a case of Joseph’s attempting to  grammatically [Page 195] change and partially modernize the text rather than  attempting to achieve original authorship aims. 31
+
+[24] On  the topic of personal which , Bowen recently wrote the  following in his dissertation: “Smith modernized this feature  aggressively in the 2nd edition and only a few instances  of the older form remain.” 32 However, in the process of performing thorough text-critical work,  Skousen has noted that 952 of 1,032 instances were changed in 1837  and only several more later. 33 Consequently, calling the remaining instances of personal which “a few” gives the wrong picture; there aren’t fewer than 10  remaining (the typical upper-bound meaning of “a few”) but  actually almost 80. If we take “a few” to mean less than 10  percent, then it works. As we might expect, in changing so many  instances of which to who , Joseph occasionally  over-edited which to who , making mistakes. 34
+
+[25] As  a side note, Joseph Smith’s 1832 History is strictly modern in its  profile since it contains 10 instances of the relative pronoun who(m) , two instances of personal that , but none of  personal which . This agrees generally with the contemporary  textual record and independent linguistic research. 35 Moreover, Bowen’s 2016 dissertation provides supporting evidence  from Joseph Smith’s letters (see pages 167 and 171). This means, of  course, that Book of Mormon usage is different from Joseph’s own  linguistic preferences.
+
+[26] It  is relevant and important to note that the short 1832 History has  quite a few archaizing, biblical features in it. Thus, if a desire  for archaism on the part of Joseph Smith had been the driver of the  heavy usage of personal which in the earliest text of the Book  of Mormon, 36 we would expect some personal which to have been employed in  the History. The lack of it there weakens the position that heavy  doses of personal which in the Book of Mormon emanated from  Joseph’s attempts to be archaic and biblical.
+

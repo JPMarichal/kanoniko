@@ -1,0 +1,65 @@
+[Page 231] Review of Book of Mormon Central, “ScripturePlus” ( https://www.scriptureplus.org/ ); The Church of Jesus Christ of Latter-day Saints, “Gospel Library” ( https://www.churchofjesuschrist.org/pages/mobileapps/gospellibrary ); and Living Tree Software, “ScriptureNotes” ( https://scripturenotes.com/ ).
+
+Abstract: ScriptureNotes is a valuable tool for serious, in-depth scripture study, and it definitely has the best search functionality. ScripturePlus, in its current state, is good for daily reading of the Book of Mormon, thanks to its helpful linked resources. But if you often mark or underline as you read, you’ll need to use Gospel Library, which is also the only app that includes the Church’s vast resources beyond the scriptures.
+
+With today’s technology, many resources are available for members of The Church of Jesus Christ of Latter-day Saints to follow Nephi’s admonition to “feast upon the words of Christ” (2 Nephi 32:3). This review explores three made specifically for Latter-day Saints. They all have their strengths and weaknesses, but I found each of them to be very useful in different aspects of my gospel study.
+
+
+## ScripturePlus
+
+ScripturePlus from Book of Mormon Central is a free app available for Android and iOS. I’m reviewing the Android version. It contains all the Standard Works in English and Spanish. Each book has at least two versions — a licensed copy of the 2013 edition from The Church of Jesus Christ of Latter-day Saints and a Book of Mormon Central edition. For all but the Book of Mormon, these appear to be the same at this time, though the greater differences between Book of Mormon versions hint at more coming in the future.
+
+[Page 232]
+
+The Book of Mormon is available in four versions in English: the 1830 Palmyra Edition, Royal Skousen’s “The Earliest Text,” 2013 LDS Scriptures, and the Book of Mormon Central Edition (the latter two are also available in Spanish). The Book of Mormon Central version is particularly interesting, having been reformatted into paragraphs and with a red lettering option for “Names for Deity” and “Words Spoken by Deity.” All versions with paragraph formatting also still have verse numbers embedded for reference.
+
+But the attractive feature of the app is the context-sensitive help that shows up in the bottom as you work your way through the verses of scripture. This help includes pictures, videos, and commentary in the form of “KnoWhys” and short selections from the writings of John Welch and Brant Gardner as well as quotes from Church leaders. At this time, it appears that the Book of Mormon has many resources linked to it, but the other books of scripture only have small amounts, if any. There [Page 233] is a basic search function, which brings up results not just from the scriptures but also the other resources.
+
+The biggest drawbacks right now are that you can’t make your own notes, and you can’t do any highlighting. However, I have been told that these are features the authors plan to add in the future. There are also currently no footnotes or chapter headings, even in the 2013 version.
+
+
+## Gospel Library
+
+The Church’s Gospel Library is probably the best known among members, available for mobile devices as well as on the web. I’m reviewing the Android version. It contains not just the scriptures but also just about everything else the Church has published, including videos, hymns, manuals, and magazines.
+
+The scriptures appear just as they do in the paper editions, complete with chapter headings and footnotes. The version in the app and on the [Page 234] web is the most up-to-date and for that reason has recently been referred to by the Church as the preferred version.
+
+The footnotes have links that lead easily to referenced scriptures. There is functionality for marking, making notes, adding tags, etc. These are saved to your Church account, so they appear on any device you are logged in to as well as the Church’s website. It also keeps track of your history, which makes it easy to start up where you were reading yesterday, even if you’ve since used other resources in the app.
+
+One thing I have found very useful is the ability to have several different “screens” going to keep your place in multiple things at once, which you can then switch between. These are stored and can be renamed, duplicated, and deleted. You can also drag them around on the screen to change their order.
+
+A new feature, added recently, possibly in answer to Book of Mormon Central’s ScripturePlus app, is “Related Content,” which is tied to the scriptural text. Tiny icons appear in the right margin next to certain verses that open up related pictures and videos when you select them.
+
+This product has been in development for much longer than the other two in this review, and it shows. However, it does have its drawbacks, the biggest being the limitations of the search facility. It will only search in content that has already been downloaded to your device, and you can only do simple searches of words and phrases. Content is apparently updated frequently, because it often updates right when you want to access something, making you wait until it’s finished.
+
+
+## [Page 235] ScriptureNotes
+
+ScriptureNotes, a web app available at https://scripturenotes.com/ , has been in development for more than a decade by Oak Norton, beginning when he was dissatisfied with the search abilities available in other programs. The feature that most sets it apart is that you can open an unlimited number of panes that appear side by side as you research, so you can see all of your progress open at once. It also has extensive note- taking abilities and a flexible Boolean search engine that does things I’ve always wished I could do with the Gospel Library app. The site currently contains a licensed version of the 2013 edition of the standard works. There are plans to add other content, such as the 2013 study helps and the Apocrypha.
+
+The site uses a subscription model, with limited functionality available for free. Norton says that many features are yet to be added, and indeed I expected other features to be there, such as hyperlinked footnotes, which he told me are still in the works. He is hoping enough people will subscribe to finance his full plans. He has been very responsive to suggestions and criticisms. Finding the user interface to be a little nonintuitive, I suggested that tooltips for the icons would help, and he has been actively working on getting them added throughout the app.
+
+[Page 236] One thing I discovered from using this tool is that I’ve gotten out of the habit of making notes as I read the scriptures after I quit using the paper version years ago. I’ve only been underlining, which means I’ve missed out on being able to revisit insights I’ve had. This app lets you not only make notes for individual verses, but you can add your own footnotes and create what are called “collection notes,” in which you can include unlimited verses and have them all linked together. You can also organize things by topic and create tags.
+
+When you get a number of panes open, it does become a little tedious to click on arrow buttons to scroll back and forth. I tried a touchscreen Chromebook and found that it makes scrolling much easier than on my PC with a regular screen. Norton recommends using a USB touchpad that allows you to scroll easily with a couple fingers. And because of the horizontal multi-pane user interface, the web app would not work well on a smartphone. But Norton says he has plans to do a mobile app in the future.
+
+[Page 237]
+
+All the information is, of course, saved in the ScriptureNotes database in the cloud. This could be a concern for long-term reliability. Norton has pointed out that the subscription program helps with that, because the money paid helps pay for storage and will eventually pay for redundant backups. He has also said that he plans to create export tools so you can create your own backups.
+
+
+## Conclusion
+
+ScriptureNotes is a valuable tool for serious, in-depth scripture study and talk or lesson preparation. It definitely has the best search functionality. ScripturePlus, in its current state, is good for daily reading of the Book of Mormon, thanks to its helpful commentaries and other material. But if you often mark verses or make notes as you read, you’ll probably [Page 238] want to stick with the Gospel Library app until ScripturePlus is more mature. Gospel Library is the only app that has access to the Church’s vast resources beyond scriptures.
+
+---
+Notes
+
+[1] A tutorial is available the first time you open the app as well as a User Guide in the Help menu. A YouTube video introduces the app and also shows some of the features planned to be added. 1 At the 2019 FairMormon Conference, Book of Mormon Central introduced the app and gave a preview. The video of their presentation is available at the FairMormon blog. 2
+
+[2] Because there is a learning curve, when you sign up at the site you are sent a series of training emails, followed by a Resources series and a Study Topics series, which provide more helps and suggestions for scripture study and encourage use of the ScriptureNotes app. A YouTube channel is also available, with training videos. 3
+
+[3] But what the app really seems to be built for is topical research. You can do a search using the powerful Boolean search engine (a cheat sheet 4 is available to learn what kinds of searches you can do) and then create a collection note with the results found. For each verse that was found, you can add verses before and after to provide context with simple button clicks. You can also click a button to remove a verse. I can see this making it much easier to research a talk or lesson. And having each task automatically open in a separate pane, side by side, you can keep track of where you are and easily refer back to earlier steps.
+
+[4] Besides the app itself, the site also has articles about scripture study and lists of recommended resources. (These articles are linked to from the training e-mails mentioned previously). Caution should be used here, unfortunately. Not only have some of the greatest resources currently available been missed, but some included are by people involved in the “gnostic” movement, 5 one of whom was recently excommunicated. On the other hand, in another place the author does give warnings about some of the antagonistic material you may stumble upon when doing online searches. His advice could be applied to both extremes: Just remember to be discerning in the sources you go to and be open to the Spirit; you may find some real gems online. 6
+

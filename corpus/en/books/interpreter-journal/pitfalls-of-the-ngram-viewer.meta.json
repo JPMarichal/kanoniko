@@ -1,0 +1,20 @@
+{
+  "title": "Pitfalls of the Ngram Viewer",
+  "author": "Stanford Carmack",
+  "author_slug": "stanfordc",
+  "volume": 36,
+  "year": 2020,
+  "pages": "187-210",
+  "category": "article",
+  "source_url": "https://interpreterfoundation.org/journal/pitfalls-of-the-ngram-viewer",
+  "source": "Interpreter Foundation",
+  "authority": 25,
+  "lang": "eng",
+  "tags": [
+    "interpreter",
+    "academic",
+    "peer-reviewed"
+  ],
+  "pdf_url": "https://cdn.interpreterfoundation.org/jnlpdf/carmack-v36-2020-pp187-210-PDF.pdf",
+  "note_count": 14
+}
