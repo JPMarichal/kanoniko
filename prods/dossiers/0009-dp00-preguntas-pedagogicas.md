@@ -90,6 +90,7 @@ graph TD
 |--------|---------------|
 | *Enseñar a la manera del Salvador* (2022) | Caps. 10-11, 13: preguntas como método central |
 | Conferencia general | Ballard (oct 2001), Holland (oct 2012), Osguthorpe (oct 2012), Newman (abr 2021), Browning (oct 2024), McConkie (oct 2010), Judd (oct 2007), Soares (abr 2019) |
+| Manual misional histórico | *Missionary Guide* (1988, en corpus EN), cap. 7 «Find Out»: ancestro del método de preguntas misional |
 | Manual institucional | *Teaching No Greater Call* (en corpus, cap. 16 central), *Predicad Mi Evangelio* 2023 (en corpus, cap. 10 central) |
 | Académicos SUD | Packer, *Teach Ye Diligently* (pendiente de corpus) |
 
@@ -104,7 +105,7 @@ graph TD
 
 ## Lagunas del panorámico
 
-- *Teaching No Greater Call* ya en corpus (bilingüe). Material pendiente: *Teach Ye Diligently* (Packer), artículos Ensign/RSC sobre preguntas.
+- *Teaching No Greater Call* ya en corpus (bilingüe). *Missionary Guide* (1988) ya en corpus (EN, 17 caps). Material pendiente: *Teach Ye Diligently* (Packer), artículos Ensign/RSC sobre preguntas, *Uniform System for Teaching the Gospel* (1986, charlas misionales con tipos de pregunta en el margen).
 - Preguntas pedagógicas en el Antiguo Testamento profético (Isaías, Jeremías, Ezequiel) — requieren investigación adicional.
 - El papel de las preguntas en las ordenanzas del templo — no documentable públicamente, pero doctrinalmente significativo.
 - Análisis cuantitativo: ¿cuántas preguntas registra cada volumen canónico? Una contabilización exhaustiva podría revelar patrones adicionales.
@@ -114,5 +115,6 @@ graph TD
 **Fuentes citadas**
 
 - Escrituras: Génesis, 1 Reyes, Jonás, Job, Mateo, Marcos, Lucas, Juan, Romanos, Alma, 3 Nefi, DyC, Moisés, Abraham
+- *Missionary Guide: Training for Missionaries* (1988), caps. 5, 7, 9
 - *Enseñar a la manera del Salvador* (2022), caps. 10, 11, 13
 - Discursos de conferencia general: Ballard (oct 2001), Holland (oct 2012), Osguthorpe (oct 2009, oct 2012), Newman (abr 2021), Browning (oct 2024), McConkie (oct 2010), Judd (oct 2007), Soares (abr 2019), Richardson (oct 2011), Oaks (oct 1999)
