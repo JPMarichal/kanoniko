@@ -480,6 +480,15 @@ _STATIC_MANUALS: list[ManualConfig] = [
         notes="2022 edition; Church-wide manual for all gospel teachers",
     ),
     ManualConfig(
+        key="teaching-no-greater-call",
+        slug="teaching-no-greater-call-a-resource-guide-for-gospel-teaching",
+        book="Teaching, No Greater Call",
+        output_subdir="manuals/teaching-no-greater-call",
+        authority=60,
+        tags=["teaching", "pedagogy", "methods", "teacher-development", "home-teaching"],
+        notes="1999; predecessor to Teaching in the Savior's Way; 7 parts (A-G), ~90 pages",
+    ),
+    ManualConfig(
         key="for-parents-covenant-path",
         slug="for-parents-preparing-your-children-for-a-lifetime-on-gods-covenant-path",
         book="For Parents: Preparing Your Children for a Lifetime on God's Covenant Path",

@@ -32,6 +32,8 @@ Para análisis detallado por material → `fase0/`.
 | Our Search for Happiness (M.R. Ballard) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Teachings of the Prophet Joseph Smith | 45 | MEDIA | Investigar: sitio oficial vs dominio público | — |
 | Doctrines of Salvation (JFS, 3 vols) | 45 | MEDIA | No en sitio oficial; investigar BYU/MTP | — |
+| Teaching, No Greater Call (1999) | 60 | ALTA | Fase 0 completa. Bilingüe. Sitio oficial (`download_manual.py`). Cadena pedagógica CES. | `fase0/teaching-no-greater-call.md` |
+| Teach Ye Diligently (Boyd K. Packer) | 45 | BLOCKED | Fase 0 completa. archive.org = DRM/CDL, sin texto extraíble. Solo compra o OCR físico. | `fase0/teach-ye-diligently.md` |
 | Journal of Discourses (26 vols) | 20 | BAJA | 1,426 discursos, ~5M palabras. Fase 0 completa. Solo EN. No oficial, imprecisión documentada. | `fase0/journal-of-discourses.md` |
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
 | Ensign archive (1971-2020) | 60 | BAJA | Volumen enorme; separado de Liahona | — |

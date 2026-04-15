@@ -21,6 +21,7 @@ env/
 
 # Data — track everything except large generated backups
 data/sqlite/alejandria.db
+data/sqlite/alejandria.db.gz
 data/sqlite/backups/
 data/sqlite/neo4j_backups/
 
