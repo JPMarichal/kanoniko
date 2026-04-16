@@ -14,6 +14,7 @@ services:
       - /home/jpmarichal/alejandria-data/models:/root/.cache
     environment:
       - ALEJANDRIA_EMBEDDING_DEVICE=cuda
+      - ALEJANDRIA_LLM_OLLAMA_BASE_URL=http://ollama:11434/v1
     mem_limit: 4g
     deploy:
       resources:
@@ -22,6 +23,30 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: alejandria-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - /home/jpmarichal/alejandria-data/ollama:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    mem_limit: 6g
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:11434/api/tags || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
   neo4j:
     environment:
       # APOC plugin for graph utilities (not needed for backup — backup uses Cypher streaming)

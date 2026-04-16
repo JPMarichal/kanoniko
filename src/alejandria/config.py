@@ -47,6 +47,9 @@ class Settings(BaseSettings):
     llm_openai_api_key: str = ""
     llm_deepseek_api_key: str = ""
 
+    # Ollama (local LLM inference)
+    llm_ollama_base_url: str = "http://localhost:11434/v1"
+
     # Alternative LLM (legacy — kept for /chat/compare backward compat)
     llm_alt_provider: str = ""  # e.g., "gemini"
     llm_alt_model: str = ""  # e.g., "gemini-2.5-flash"

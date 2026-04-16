@@ -72,6 +72,17 @@ case "$cmd" in
         $COMPOSE $COMPOSE_FILES ps
         echo ""
         echo "API: http://localhost:4300/health"
+        # Pull default Ollama model if not already present
+        if $DOCKER ps --format '{{.Names}}' | grep -q alejandria-ollama; then
+            echo ""
+            echo "Checking Ollama model..."
+            if ! $DOCKER exec alejandria-ollama ollama list 2>/dev/null | grep -q "qwen2.5:7b"; then
+                echo "Pulling qwen2.5:7b-instruct-q4_K_M (first time only, ~4.4 GB)..."
+                $DOCKER exec alejandria-ollama ollama pull qwen2.5:7b-instruct-q4_K_M
+            else
+                echo "Ollama model: qwen2.5:7b ready"
+            fi
+        fi
         ;;
     down)
         check_docker
@@ -105,8 +116,14 @@ case "$cmd" in
         cd "$PROJECT_DIR"
         $COMPOSE $COMPOSE_FILES logs -f --tail=50 api
         ;;
+    ollama)
+        check_docker
+        shift
+        ollama_cmd=${1:-list}
+        $DOCKER exec alejandria-ollama ollama "$ollama_cmd" "${@:2}"
+        ;;
     *)
-        echo "Usage: $0 {up|down|status|test|logs}"
+        echo "Usage: $0 {up|down|status|test|logs|ollama}"
         exit 1
         ;;
 esac
