@@ -109,6 +109,26 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 | Jesus the Christ | `TAUGHT` (Resurrection, Atonement, Law of Moses), `QUOTED_BY` (Isaiah→JC), `TYPE_OF` (High Priest) | `fase0/jesus-the-christ.md` |
 | Preach My Gospel | `PREREQUISITE_FOR` cadena primeros principios (Faith→Repentance→Baptism→HG→Endure) | `fase0/preach-my-gospel.md` |
 
+### Indexados sin investigación editorial + KG pre-seed (retroactivo)
+
+Materiales ingested en la sesión 2026-04-16 con el pipeline automático (NER + co-ocurrencia),
+pero **sin re-verificar la investigación editorial de Fase 0** y **sin KG pre-seeding manual**
+de las relaciones tipadas curadas. Requieren una pasada posterior para:
+
+1. Re-verificar o expandir la investigación editorial (web research actualizada)
+2. Identificar y pre-seedar relaciones tipadas específicas (TAUGHT, PREREQUISITE_FOR, TYPE_OF, etc.)
+
+| Material | Ingested | Fase 0 original | Notas |
+|----------|----------|-----------------|-------|
+| Missionary Guide 1988 | 2026-04-16 | `fase0/missionary-guide-1988.md` | Relaciones clave: `PREDECESSOR_OF` (→PMG), `COMPANION_TO` (1986 discussions) |
+| Teach Ye Diligently | 2026-04-16 | `fase0/teach-ye-diligently.md` | Relaciones clave: `AUTHORED_BY` (Packer), `CITES` (Charted Course), cadena pedagógica CES |
+| Teaching, No Greater Call (EN+ES) | 2026-04-16 | `fase0/teaching-no-greater-call.md` | Relaciones clave: `PREDECESSOR_OF` (→TITSW), `SUCCESSOR_OF` (→Teaching—No Greater Call earlier versions) |
+
+> **Nota para sesiones futuras:** Estos tres materiales deben recibir pasada de web research +
+> KG pre-seed antes de considerarse "completamente ingested" según el protocolo de Fase 0.
+> Mientras tanto, el FTS y la búsqueda semántica funcionan normalmente; solo las relaciones
+> KG tipadas curadas están pendientes.
+
 ---
 
 ## 3. Prioridad de indexación recomendada
