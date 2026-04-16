@@ -33,7 +33,7 @@ Para análisis detallado por material → `fase0/`.
 | Teachings of the Prophet Joseph Smith | 45 | MEDIA | Investigar: sitio oficial vs dominio público | — |
 | Doctrines of Salvation (JFS, 3 vols) | 45 | MEDIA | No en sitio oficial; investigar BYU/MTP | — |
 | ~~Teaching, No Greater Call (1999)~~ | ~~60~~ | ~~ALTA~~ | ✅ **Descargado** — bilingüe, en corpus. Fase 0 en `fase0/teaching-no-greater-call.md` | — |
-| Teach Ye Diligently (Boyd K. Packer) | 45 | descargado | 18 caps EN desde EPUB (bibsud). Solo EN. Pendiente de indexación. | `fase0/teach-ye-diligently.md` |
+| ~~Teach Ye Diligently (Boyd K. Packer)~~ | ~~45~~ | ~~descargado~~ | ✅ **En corpus** — 18 caps EN. Solo EN. Pendiente de indexación. | `fase0/teach-ye-diligently.md` |
 | Journal of Discourses (26 vols) | 20 | BAJA | 1,426 discursos, ~5M palabras. Fase 0 completa. Solo EN. No oficial, imprecisión documentada. | `fase0/journal-of-discourses.md` |
 | Interpreter Journal (888 arts) | 25 | MEDIA | `descargado` — 888 artículos (50 MB), 6 reviews excluidos. Script: `download_interpreter.py`. Pendiente: indexación. | `fase0/interpreter-journal.md` |
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
