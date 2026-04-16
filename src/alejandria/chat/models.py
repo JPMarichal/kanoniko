@@ -58,6 +58,7 @@ MODEL_REGISTRY: list[ModelDef] = [
 
     # --- Ollama (local inference — $0 cost) ---
     ModelDef("ollama-qwen2.5-7b", "ollama", "qwen2.5:7b-instruct-q4_K_M", Tier.BALANCED, 0.0, 0.0),
+    ModelDef("ollama-qwen2.5-7b-fast", "ollama", "qwen2.5:7b-instruct-q4_K_M", Tier.FAST, 0.0, 0.0),
     ModelDef("ollama-qwen2.5-14b", "ollama", "qwen2.5:14b-instruct-q3_K_M", Tier.QUALITY, 0.0, 0.0),
     ModelDef("ollama-gemma2-9b", "ollama", "gemma2:9b-instruct-q4_K_M", Tier.BALANCED, 0.0, 0.0),
 ]
@@ -91,14 +92,21 @@ def select_model(tier: Tier) -> ModelDef | None:
     """Select the best available model for a given tier.
 
     Returns the first model in the tier that has a configured API key.
+    Prefers models from the default provider (settings.llm_provider).
     If no model is available in the requested tier, falls back to the
     nearest available tier (up for quality, down for cost).
     """
+    from alejandria.config import settings as _s
+
     available = get_available_models()
     if not available:
         return None
 
-    # Try exact tier match first
+    # Try exact tier match — prefer default provider first
+    preferred = _s.llm_provider.lower()
+    for model in available:
+        if model.tier == tier and model.provider == preferred:
+            return model
     for model in available:
         if model.tier == tier:
             return model
