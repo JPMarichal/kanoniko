@@ -163,6 +163,4 @@ Dos entradas en archive.org:
 - Complementa *Teaching in the Savior's Way* (ya ingested) con la perspectiva histórica y personal
 - Solo EN — limitación, pero el valor KG relacional es alto
 
-**Siguiente paso:** Sin fuente digital abierta. Solo opciones: compra eBook Deseret Book o OCR de ejemplar físico.
-
-**Estado:** `blocked` — archive.org confirmado como CDL/DRM (2026-04-15), no extraíble
+**Estado:** `descargado` — obtenido de biblioteca personal Calibre (bibsud). EPUB splitting a 18 archivos .txt + .meta.json en `corpus/en/books/teach-ye-diligently/`. Solo EN.
