@@ -1,15 +1,13 @@
-# Corpus Expansion — Backlog
+# Corpus Expansion — Backlog de descarga
 
-Items pendientes de trabajo. Se divide en tres categorías:
-1. **Pendientes de descarga** — material aún no en el corpus
-2. **Pendientes de indexación** — descargados, esperando ingest pipeline
-3. **KG enrichment** — material ingested que necesita relaciones adicionales
+Material identificado pero **aún no descargado** al corpus. Este archivo cubre exclusivamente
+el ciclo de descarga. Para material ya descargado pendiente de indexación → `04b-indexation-backlog.md`.
 
 Para inventario de lo ya completo → `03-corpus-inventory.md`.
 Para catálogos de fuentes → `05-source-registry.md`.
 Para análisis detallado por material → `fase0/`.
 
-> **Última reconciliación:** 2026-04-09 — validado contra contenido real en disco.
+> **Última reconciliación:** 2026-04-16 — auditoría FTS vs disco, separación descarga/indexación.
 
 ---
 
@@ -21,7 +19,7 @@ Para análisis detallado por material → `fase0/`.
 |----------|--------|----------|--------|
 | Música para los jóvenes | `download_music.py --collection youth-music` | API `/study/api/v3/` retorna 404 para `/music/youth-music/` — requiere endpoint alternativo | `fase0/music.md` |
 
-### `backlog` — requieren investigación
+### `backlog` — requieren investigación y/o descarga
 
 | Material | authority | Prioridad | Notas | Fase 0 |
 |----------|-----------|-----------|-------|--------|
@@ -31,90 +29,44 @@ Para análisis detallado por material → `fase0/`.
 | A Marvelous Work and a Wonder (LeGrand Richards) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Our Search for Happiness (M.R. Ballard) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Teachings of the Prophet Joseph Smith | 45 | MEDIA | Investigar: sitio oficial vs dominio público | — |
-| Doctrines of Salvation (JFS, 3 vols) | 45 | MEDIA | No en sitio oficial; investigar BYU/MTP | — |
-| ~~Teaching, No Greater Call (1999)~~ | ~~60~~ | ~~ALTA~~ | ✅ **Descargado** — bilingüe, en corpus. Fase 0 en `fase0/teaching-no-greater-call.md` | — |
-| Teach Ye Diligently (Boyd K. Packer) | 45 | BLOCKED | Fase 0 completa. archive.org = DRM/CDL, sin texto extraíble. Solo compra o OCR físico. | `fase0/teach-ye-diligently.md` |
-| Journal of Discourses (26 vols) | 20 | BAJA | 1,426 discursos, ~5M palabras. Fase 0 completa. Solo EN. No oficial, imprecisión documentada. | `fase0/journal-of-discourses.md` |
-| Interpreter Journal (888 arts) | 25 | MEDIA | `descargado` — 888 artículos (50 MB), 6 reviews excluidos. Script: `download_interpreter.py`. Pendiente: indexación. | `fase0/interpreter-journal.md` |
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
 | Ensign archive (1971-2020) | 60 | BAJA | Volumen enorme; separado de Liahona | — |
 | ~20 RSC BYU PDF-only | varies | BAJA | No disponibles para lectura online; requieren scraper de PDF o compra | — |
 
 > **Nota:** La sección `researched` (Gutenberg) fue eliminada 2026-04-09.
 > Todos los libros Gutenberg listados previamente ya están descargados e ingested.
-> Sus análisis Fase 0 se preservan en `fase0/` como referencia histórica.
 > Liahona también fue eliminada: 19,747 artículos descargados (11,975 EN + 7,772 ES).
 > Harmony of the Gospels, Bible Chronology y Abbreviations ya descargados (study-aids).
 
----
+### Recientemente completados (descarga)
 
-## 2. Pendientes de indexación
+Materiales que pasaron de este backlog a disco. Pendientes de indexación en `04b-indexation-backlog.md`.
 
-Material ya descargado al corpus pero que no ha pasado por el pipeline de indexación
-(FTS + vectors + KG).
-
-### Missionary Guide: Training for Missionaries (1988)
-
-> Análisis detallado: `fase0/missionary-guide-1988.md`
-
-| Material | Caps | authority | Corpus path |
-|----------|------|-----------|-------------|
-| Missionary Guide (1988) | 17 (front + 16 caps) | 90/60 | `corpus/en/manuals/missionary-guide-1988/` |
-
-Fuente: Archive.org (PDF escaneo + OCR DjVu). Solo EN. "El manual rosa" — compañero pedagógico
-de las charlas misionales 1986, predecesor directo de *Preach My Gospel* 2004.
-
-### B.H. Roberts — Obras completas
-
-> Análisis detallado: `fase0/bh-roberts.md`
-
-| Material | Caps | authority | Corpus path |
-|----------|------|-----------|-------------|
-| Corianton | 11 | 25 | `corpus/en/books/corianton/` |
-| Missouri Persecutions | 20 | 40 | `corpus/en/books/missouri-persecutions/` |
-| New Witness for God (3 vols) | 70 | 40 | `corpus/en/books/new-witness-for-god-*/` |
-| Outlines of Ecclesiastical History | 50 | 40 | `corpus/en/books/outlines-ecclesiastical-history/` |
-| Seventy's Course in Theology (5 vols) | 84 | 40 | `corpus/en/books/seventys-course-theology-*/` |
-| Life of John Taylor | 40 | 40 | `corpus/en/books/life-of-john-taylor/` |
-| Mormon Doctrine of Deity | 13 | 40 | `corpus/en/books/mormon-doctrine-of-deity/` |
-| Rise and Fall of Nauvoo | 32 | 40 | `corpus/en/books/rise-and-fall-of-nauvoo/` |
-
-### Diccionarios bíblicos clásicos
-
-> Análisis detallado: `fase0/bible-dictionaries.md`
-
-| Material | Entradas | authority | Corpus path |
-|----------|----------|-----------|-------------|
-| Easton's Bible Dictionary | ~3,964 | 15 | `corpus/en/reference/easton-bible-dictionary/` |
-| Smith's Bible Dictionary | ~4,556 | 15 | `corpus/en/reference/smith-bible-dictionary/` |
-| Hitchcock's Bible Names | 2,614 | 15 | `corpus/en/reference/hitchcock-bible-names/` |
-| ISBE | ~10,121 | 20 | `corpus/en/reference/isbe/` |
-| Hastings' Dictionary | ~5,915 | 20 | `corpus/en/reference/hastings-dictionary-of-the-bible/` |
+| Material | Fecha | Archivos | Destino |
+|----------|-------|----------|---------|
+| ~~Teaching, No Greater Call~~ | 2026-04-15 | 182 (EN+ES) | `corpus/{lang}/manuals/teaching-no-greater-call/` |
+| ~~Teach Ye Diligently~~ | 2026-04-15 | 18 (EN) | `corpus/en/books/teach-ye-diligently/` |
+| ~~Interpreter Journal~~ | 2026-04-09 | 888 (EN) | `corpus/en/books/interpreter-journal/` |
+| ~~Journal of Discourses~~ | 2026-04-08 | 1,425 (EN) | `corpus/en/books/journal-of-discourses/` |
+| ~~Missionary Guide 1988~~ | 2026-04-12 | 18 (EN) | `corpus/en/manuals/missionary-guide-1988/` |
+| ~~Doctrines of Salvation~~ | 2026-04-07 | 60 .md (EN) | `corpus/en/books/doctrines-of-salvation/` |
 
 ---
 
-## 3. KG enrichment pendiente (material ya ingested)
+## 2. Prioridades recomendadas (actualizado 2026-04-16)
 
-Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
-
-| Material | Relaciones pendientes | Fase 0 |
-|----------|----------------------|--------|
-| Jesus the Christ | `TAUGHT` (Resurrection, Atonement, Law of Moses), `QUOTED_BY` (Isaiah→JC), `TYPE_OF` (High Priest) | `fase0/jesus-the-christ.md` |
-| Preach My Gospel | `PREREQUISITE_FOR` cadena primeros principios (Faith→Repentance→Baptism→HG→Endure) | `fase0/preach-my-gospel.md` |
-
----
-
-## Prioridades recomendadas (actualizado 2026-04-09)
-
-> **Lo que ya está completo:** Escrituras, Conferencia General, 60+ manuales oficiales,
-> **~70 libros Gutenberg** (19 previos + 34 nuevos + B.H. Roberts), himnos/canciones,
+> **Lo que ya está descargado + indexado:** Escrituras, Conferencia General, 60+ manuales oficiales,
+> ~70 libros Gutenberg (19 previos + 34 nuevos + B.H. Roberts), himnos/canciones,
 > study aids (GEE, TG, BD, JST, Harmony, Chronology, Abbreviations), HC 1-7,
-> **57 libros RSC BYU**, **28 libros BYU Studies**, **Liahona EN+ES (19,747 arts)** — TODO descargado.
+> 57 libros RSC BYU, 28 libros BYU Studies, Liahona EN+ES (19,747 arts),
+> 5 diccionarios bíblicos, 543 biografías AG — TODO descargado e indexado.
 >
-> **Lo que queda:** ~20 RSC PDF-only (sin HTML), 1 RSC parcial (`fulness-gospel` URL bug),
+> **Descargado, pendiente de indexación:** → ver `04b-indexation-backlog.md`
+>
+> **Lo que queda por descargar:** ~20 RSC PDF-only (sin HTML), 1 RSC parcial (`fulness-gospel` URL bug),
 > fuentes secundarias (CCEL, womeninthescriptures.com), ~30 Gutenberg ficción/baja prioridad.
 > Church site: Youth Music (blocked — API 404) y Ensign archive (sin investigar).
-> Libros individuales (Richards, Ballard, TPJS, Doctrines of Salvation) requieren investigación.
+> Libros individuales (Richards, Ballard, TPJS) requieren investigación.
 >
 > **Regla:** Iglesia > RSC > BYU Studies > MTP > Gutenberg > CCEL > Archive.org.
 
@@ -132,93 +84,69 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 > ~20 libros son PDF-only ("not available for online reading").
 > 1 libro parcial (`fulness-gospel` — URL bug en PDF construction).
 
-| Prioridad | Tipo de contenido | Libros | ✅ Descargados | ❌ PDF-only |
-|-----------|-------------------|--------|---------------|------------|
+| Prioridad | Tipo de contenido | Libros | Descargados | PDF-only |
+|-----------|-------------------|--------|-------------|----------|
 | 🔴 **P1** | Exégesis escritural (LdM, D&C, PGP, Bible, Isaías, JST) | 23 | 18 | 5 |
 | 🟡 **P2** | Doctrina, convenios, templo, cristología | 19 | 14 (+1 partial) | 3 |
 | 🟢 **P3** | Fe práctica, apologética, salud mental | 16 | 14 | 2 |
 | 🔵 **P4** | Historia selectiva | 13 | 6 | 7 |
 | ⚪ **P5** | Relaciones interreligiosas | 7 | 5 | 2 |
 
-### BYU Studies — ~~pendientes~~ ✅ completado (catálogo en `05-source-registry.md`)
+### BYU Studies — ✅ completado (catálogo en `05-source-registry.md`)
 
 > **Completado 2026-04-05:** 28 de 29 libros online descargados (excl. HC 1-6 ya en corpus
 > vía Gutenberg y `the-st-louis-luminary` no intentado).
 
 | Prioridad | Material | Estado |
 |-----------|----------|--------|
-| 🟠 **P1** | BYU NT Commentary (4 vols) | ✅ 107 files |
-| 🟠 **P1** | Doctrine and Covenants Contexts | ✅ 136 files |
-| 🟠 **P1** | Opening the Heavens | ✅ 13 files |
-| 🟡 **P2** | NT New Renditions (14 vols) | ✅ 160 files |
-| 🟡 **P2** | My Fellow Servants | ✅ 27 files |
-| 🟢 **P3** | Charting the Scriptures (2 vols) | ✅ 420 files |
-| 🔵 **P4** | Standalone books (5) | ✅ 119 files |
 | ⚪ Upgrade | HC vols 1-6 de BYU Studies | Pendiente — mejorar calidad vs Gutenberg (opcional) |
 
-### MTP / Gutenberg — ~~textos pendientes~~ ✅ batch completado (catálogo en `05-source-registry.md`)
+### MTP / Gutenberg — ✅ batch completado (catálogo en `05-source-registry.md`)
 
 > **Completado 2026-04-05:** 34 libros descargados (~461 archivos).
-> Incluye P2-P5 + extras. Varios textos cortos como documento único (sin capítulos).
-
-| Prioridad | Material | Estado |
-|-----------|----------|--------|
-| 🟡 **P2** | Lectures on Faith, Wentworth Letter, Key to Theology, Voice of Warning, Mediation & Atonement, Rational Theology, Ancient Apostles | ✅ 95 files |
-| 🟢 **P3** | Life of JS (Cannon), Life of a Pioneer, Jacob Hamblin, My First Mission, Reminiscences, Mormon Battalion, Pratt's Visions, Proclamation, Gen. Smith's Views, Myth of MS Found | ✅ 181 files |
-| 🔵 **P4** | Women of Mormondom, Heroines, Lydia Knight, Rep. Women, Scrap Book Vol 2, Scraps of Biography | ✅ 178 files |
-| ⚪ **P5** | Mormon Doctrine (Penrose), Cowley's Talks, Gospel Themes, Plan of Salvation, Rays of Living Light, What Jesus Taught | ✅ 6 files |
-| ⚪ **Extra** | Blood Atonement, Story of Mormonism, Joseph Smith as Scientist, Latter-day Prophet for Young | ✅ 4 files |
-| ⚫ **P6** | Journal of Discourses (26 vols) | `researched` — Fase 0 completa, authority 20, fuente: journalofdiscourses.com |
 
 ---
 
-## Protocolo de actualización de status
+## 3. Protocolo de descarga
+
+### Workflow actualizado (2026-04-16)
+
+La descarga es **independiente** de Fase 0. Un material puede descargarse oportunistamente
+cuando la fuente está disponible, sin esperar investigación editorial. El gate de Fase 0
+se aplica a la **indexación**, no a la descarga.
+
+```
+identificado → descargado → [Fase 0] → indexado → ingested
+     │              │            │           │
+     │              │            │           └── Pipeline FTS+vectors+KG
+     │              │            └── Investigación editorial + authority + KG pre-seed
+     │              └── Archivos en disco, commit hecho
+     └── Material identificado como candidato
+```
+
+**Descarga oportunista:** Si la fuente está accesible y el material es claramente relevante,
+se descarga directamente. No requiere Fase 0 previa. Esto permite:
+- Aprovechar ventanas de acceso (APIs que pueden cambiar, préstamos digitales temporales)
+- Separar el trabajo mecánico (scripting) del trabajo intelectual (investigación)
+- Avanzar en paralelo: descargar mientras se investiga otro material
+
+**El gate de Fase 0 sigue siendo obligatorio**, pero ahora controla la transición
+`descargado → indexado`. Antes de indexar, el material DEBE tener:
+1. Investigación editorial (web research) — paso 1 de Fase 0
+2. Análisis de contenido y valor KG — paso 2 de Fase 0
+3. Modelo de authority fundamentado
+4. Relaciones KG pre-seeded
+
+> **Razón del cambio:** La experiencia mostró que descargar y investigar son actividades
+> con ritmos diferentes. Bloquear la descarga por falta de Fase 0 desperdicia oportunidades.
+> Pero indexar sin Fase 0 produce authority sin fundamento y KG sin pre-seeding.
 
 ### Estados
 
 | Estado | Significado | Gate de entrada |
 |--------|-------------|-----------------|
 | `backlog` | Identificado, requiere investigación | — |
-| `researched` | Fase 0 completa: contenido entendido, authority modelada, valor KG evaluado | Fase 0 paso 1-2 aprobados |
-| `prepared` | Script listo y probado, estructura corpus definida | Análisis técnico de fuente + script funcional |
 | `descargado` | En el corpus (archivos en disco) | Script ejecutado, commit hecho |
-| `ingested` | Indexado (FTS + vectors + KG) | Pipeline ejecutado, `/corpus/status` verificado |
-| `blocked` | Impedimento técnico que impide avanzar | — |
+| `blocked` | Impedimento técnico que impide descargar | — |
 
-### Transiciones
-
-**1. backlog → researched:** Escribir Fase 0 en `fase0/{slug}.md` con dos pasos obligatorios:
-
-  **Paso 1 — Investigación editorial (web research).** Esto NO es opcional ni sustituible
-  por conocimiento previo del LLM. Requiere búsqueda en internet para establecer:
-  - Historia editorial del material (quién lo publicó, cuándo, por qué, cambios a lo largo del tiempo)
-  - Contexto institucional (posición oficial de la Iglesia respecto al material, si aplica)
-  - Audiencia original y alcance
-  - Ediciones, revisiones, traducciones disponibles
-
-  **Paso 2 — Análisis de contenido y valor para el corpus.** Basado en los hallazgos del paso 1:
-  - Estructura de contenido (secciones, tipos de texto, qué contiene doctrinalmente)
-  - Modelo de authority fundamentado en el contexto editorial (no asumido)
-  - Valor KG: entidades nuevas, relaciones únicas que no se pueden inferir de otro material
-  - Deduplicación con material existente en el corpus
-  - Riesgos de contenido (doctrinas abandonadas, contexto histórico necesario, sesgos)
-  - Estimación de volumen
-
-  > **Por qué el paso 1 es un gate obligatorio:** Sin investigación editorial, los niveles de
-  > authority y las relaciones KG se asignan sin fundamento. Un material puede parecer
-  > doctrinalmente sólido pero tener un contexto editorial que cambie drásticamente su
-  > authority (ej. publicado sin correlación, desautorizado posteriormente, etc.).
-
-**2. researched → prepared:** Análisis técnico de la fuente de descarga:
-  - Estructura del sitio/API (URL patterns, selectores HTML, endpoints)
-  - Prueba de extracción (sample de 2-3 documentos)
-  - Diseño del script (flujo, encoding, manejo de errores)
-  - Estructura propuesta en corpus (paths, naming, meta.json schema)
-  - Comandos de descarga documentados
-  - Agregar script/comando en la tabla del backlog
-
-**3. prepared → descargado:** Ejecutar script, commit corpus files
-
-**4. descargado → ingested:** Ejecutar pipeline, verificar en `/corpus/status`
-
-**5. ingested (confirmado):** Mover entrada de aquí → `03-corpus-inventory.md`, eliminar de este archivo
+Para estados de indexación (`researched`, `prepared`, `ingested`) → `04b-indexation-backlog.md`.
