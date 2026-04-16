@@ -55,6 +55,11 @@ MODEL_REGISTRY: list[ModelDef] = [
     ModelDef("claude-haiku-4.5", "anthropic", "claude-haiku-4-5-20251001", Tier.QUALITY, 1.00, 5.00),
     # GPT-4.1-mini: OpenAI alternative ($0.40/$1.60) — needs OpenAI key
     ModelDef("gpt-4.1-mini", "openai", "gpt-4.1-mini", Tier.QUALITY, 0.40, 1.60),
+
+    # --- Ollama (local inference — $0 cost) ---
+    ModelDef("ollama-qwen2.5-7b", "ollama", "qwen2.5:7b-instruct-q4_K_M", Tier.BALANCED, 0.0, 0.0),
+    ModelDef("ollama-qwen2.5-14b", "ollama", "qwen2.5:14b-instruct-q3_K_M", Tier.QUALITY, 0.0, 0.0),
+    ModelDef("ollama-gemma2-9b", "ollama", "gemma2:9b-instruct-q4_K_M", Tier.BALANCED, 0.0, 0.0),
 ]
 
 
@@ -72,6 +77,8 @@ def get_api_key(provider: str) -> str:
         return settings.llm_openai_api_key or ""
     elif provider == "deepseek":
         return settings.llm_deepseek_api_key or ""
+    elif provider == "ollama":
+        return "ollama"  # Ollama needs no real key but OpenAI client requires non-empty
     return ""
 
 

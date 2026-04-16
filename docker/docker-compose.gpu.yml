@@ -21,3 +21,26 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: alejandria-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - /home/jpmarichal/alejandria-data/ollama:/root/.ollama
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    mem_limit: 6g
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:11434/api/tags || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
