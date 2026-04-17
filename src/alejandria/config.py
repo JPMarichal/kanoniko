@@ -18,6 +18,16 @@ class Settings(BaseSettings):
     neo4j_user: str = "neo4j"
     neo4j_password: str = "alejandria"
 
+    # Postgres (migration target — Phase 2+ of feature/postgres-migration)
+    postgres_host: str = "postgres"
+    postgres_port: int = 5432
+    postgres_user: str = "alejandria"
+    postgres_password: str = ""
+    postgres_db: str = "alejandria"
+    postgres_sslmode: str = "prefer"            # disable|prefer|require|verify-ca|verify-full
+    postgres_statement_timeout_ms: int = 30000   # 30s hard cap on any single query
+    postgres_application_name: str = "alejandria"
+
     # Embeddings
     embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     embedding_device: str = "cuda"
