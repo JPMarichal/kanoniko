@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: alejandria-pg-bench
+    environment:
+      POSTGRES_USER: bench
+      POSTGRES_PASSWORD: bench
+      POSTGRES_DB: alejandria_bench
+    ports:
+      - "5433:5432"
+    shm_size: 1gb
+    command: >
+      postgres
+      -c shared_buffers=1GB
+      -c effective_cache_size=2500MB
+      -c work_mem=32MB
+      -c maintenance_work_mem=512MB
+      -c max_wal_size=2GB
+      -c checkpoint_timeout=15min
+      -c random_page_cost=1.1
+      -c effective_io_concurrency=200
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bench -d alejandria_bench"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:
