@@ -317,7 +317,7 @@ El élder Judd presentó la frase «yo, el Señor, os hago esta pregunta» como 
 
 ## 4. Voces académicas y otros autores
 
-*Pendiente.* Los materiales académicos SUD (presidente Packer, *Teach Ye Diligently*; artículos de BYU/RSC) están identificados pero aún no incorporados al corpus. Ver sección 8 (Lagunas).
+El presidente Boyd K. Packer observó en *Teach Ye Diligently* (1975) que el Salvador «hacía muchas preguntas» pero «respondía muy pocas de ellas» (cap. 10, traducción propia). Su análisis del tributo al César (Mateo 22:17-22) y del buen samaritano (Lucas 10:30-37) muestra que la contrapregunta y la comprensión progresiva — tipos 2.13 y 2.9 de esta taxonomía — eran los métodos dominantes del Salvador. El presidente Packer también codificó las «preguntas de opinión» como las más efectivas para enseñar valores morales, porque «no pueden tener respuesta incorrecta» (cap. 10, traducción propia) — un subtipo funcional que complementa la taxonomía escritural de este dossier. Análisis completo en dp04, sección 4.1.
 
 ---
 
@@ -395,7 +395,7 @@ mindmap
 ## 8. Lagunas y preguntas abiertas
 
 - **Material recién incorporado:** *Teaching No Greater Call* ya está en el corpus (bilingüe, ~95 capítulos por idioma). El cap. 16 contiene una taxonomía propia de tipos de pregunta (sí/no, hechos, reflexión, aplicación, meditación silenciosa) que complementa la taxonomía escritural de este dossier. El *Missionary Guide* (1988) también está en corpus (EN, 17 caps); su cap. 7 «Find Out» organiza las preguntas misionales en tres tipos funcionales: de comprensión, de aceptación y de compromiso — una taxonomía pragmática que complementa la escritural de este dossier y la pedagógica de TNGC. Ambos analizados en dp04.
-- **Material pendiente de corpus:** *Teach Ye Diligently* (presidente Packer), artículos de BYU/RSC sobre preguntas pedagógicas, capítulo 31 del manual CES. Chips de descarga fueron creados en la sesión de investigación.
+- **Material incorporado:** *Teach Ye Diligently* (presidente Packer) ya en corpus (EN, 18 caps). Sus caps. 10-11 analizados en dp04 §4.1. Pendientes: artículos de BYU/RSC sobre preguntas pedagógicas, capítulo 31 del manual CES.
 - **Antiguo Testamento profético:** Las preguntas de Isaías, Jeremías y Ezequiel (preguntas proféticas a Israel, no de Dios al individuo) no fueron investigadas exhaustivamente. Podrían constituir un subtipo adicional.
 - **Preguntas en las ordenanzas:** El templo usa preguntas como parte integral de las ordenanzas. Por razones de sacralidad no se documentan públicamente, pero su existencia es doctrinalmente significativa.
 - **Análisis cuantitativo:** No se intentó un conteo exhaustivo de todas las preguntas divinas en cada volumen canónico. Un análisis así revelaría la distribución de tipos por libro.
@@ -428,3 +428,4 @@ mindmap
 - Élder David A. Bednar, en *Enseñar a la manera del Salvador*, cap. 11
 - Élder Daniel K. Judd, «Nutridos por la buena palabra de Dios», conferencia general, octubre de 2007
 - Élder Ulisses Soares, «¿Cómo puedo entender?», conferencia general, abril de 2019
+- Presidente Boyd K. Packer, *Teach Ye Diligently* (1975), cap. 10

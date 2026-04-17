@@ -92,7 +92,7 @@ graph TD
 | Conferencia general | Élder Ballard (oct 2001), élder Holland (oct 2012), élder Osguthorpe (oct 2012), hermana Newman (abr 2021), hermana Browning (oct 2024), élder McConkie (oct 2010), élder Judd (oct 2007), élder Soares (abr 2019) |
 | Manual misional histórico | *Missionary Guide* (1988, en corpus EN), cap. 7 «Descubrir»: ancestro del método de preguntas misional |
 | Manual institucional | *Teaching No Greater Call* (en corpus, cap. 16 central), *Predicad Mi Evangelio* 2023 (en corpus, cap. 10 central) |
-| Académicos SUD | Presidente Packer, *Teach Ye Diligently* (pendiente de corpus) |
+| Académicos SUD | Presidente Packer, *Teach Ye Diligently* (en corpus, EN, 18 caps) |
 
 ## Dossiers contiguos
 
@@ -105,7 +105,7 @@ graph TD
 
 ## Lagunas del panorámico
 
-- *Teaching No Greater Call* ya en corpus (bilingüe). *Missionary Guide* (1988) ya en corpus (EN, 17 caps). Material pendiente: *Teach Ye Diligently* (presidente Packer), artículos Ensign/RSC sobre preguntas, *Uniform System for Teaching the Gospel* (1986, charlas misionales con tipos de pregunta en el margen).
+- *Teaching No Greater Call* ya en corpus (bilingüe). *Missionary Guide* (1988) ya en corpus (EN, 17 caps). *Teach Ye Diligently* (presidente Packer) ya en corpus (EN, 18 caps). Material pendiente: artículos Ensign/RSC sobre preguntas, *Uniform System for Teaching the Gospel* (1986, charlas misionales con tipos de pregunta en el margen).
 - Preguntas pedagógicas en el Antiguo Testamento profético (Isaías, Jeremías, Ezequiel) — requieren investigación adicional.
 - El papel de las preguntas en las ordenanzas del templo — no documentable públicamente, pero doctrinalmente significativo.
 - Análisis cuantitativo: ¿cuántas preguntas registra cada volumen canónico? Una contabilización exhaustiva podría revelar patrones adicionales.
@@ -117,4 +117,5 @@ graph TD
 - Escrituras: Génesis, 1 Reyes, Jonás, Job, Mateo, Marcos, Lucas, Juan, Romanos, Alma, 3 Nefi, DyC, Moisés, Abraham
 - *Missionary Guide: Training for Missionaries* (1988), caps. 5, 7, 9
 - *Enseñar a la manera del Salvador* (2022), caps. 10, 11, 13
+- Presidente Boyd K. Packer, *Teach Ye Diligently* (1975), caps. 4, 10, 11
 - Discursos de conferencia general: élder Ballard (oct 2001), élder Holland (oct 2012), élder Osguthorpe (oct 2009, oct 2012), hermana Newman (abr 2021), hermana Browning (oct 2024), élder McConkie (oct 2010), élder Judd (oct 2007), élder Soares (abr 2019), élder Richardson (oct 2011), élder Oaks (oct 1999)

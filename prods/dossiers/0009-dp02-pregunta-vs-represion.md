@@ -110,7 +110,7 @@ El élder Daniel K. Judd (conferencia general, octubre de 2007) observó que el 
 
 ## 4. Voces académicas y otros autores
 
-*Pendiente.* La literatura académica SUD sobre los estilos comunicativos del Señor no fue investigada para este dossier. *Teach Ye Diligently* del presidente Boyd K. Packer podría contener análisis relevante.
+El presidente Boyd K. Packer abordó parcialmente este contraste en *Teach Ye Diligently* (1975). Su capítulo 11 («Cómo manejar preguntas muy difíciles») introduce el «principio de prerrequisitos»: la pregunta pedagógica solo funciona cuando el interlocutor tiene los cimientos necesarios. Cuando no los tiene — y no está dispuesto a adquirirlos — el maestro no puede satisfacerlo. La formulación del presidente Packer complementa la hipótesis de este dossier: la pregunta opera cuando hay disposición a aprender; la reprensión aparece cuando hay resistencia activa a la verdad conocida. Análisis completo en dp04, sección 4.1.
 
 ---
 
@@ -189,7 +189,7 @@ graph TD
 - **Reprensión en el Libro de Mormón:** Los casos de reprensión directa del Señor (no de profetas) en el Libro de Mormón no fueron investigados exhaustivamente. Los discursos de Jesucristo en 3 Nefi merecen un análisis separado.
 - **¿Hay reprensión en la Perla de Gran Precio?** No se identificaron casos claros de reprensión directa de Dios en Moisés o Abraham. Esto podría indicar que estos textos privilegian el registro de pregunta, o simplemente que el corpus es más breve.
 - **El papel de los profetas como voz de reprensión:** ¿Delega Dios la reprensión en sus profetas cuando el interlocutor directo es un pueblo? Los profetas del Antiguo Testamento (Isaías, Jeremías, Amós) usan extensamente la reprensión — ¿es un tercer patrón distinto?
-- **Material pendiente:** *Teach Ye Diligently* del presidente Packer podría contener análisis sobre cuándo preguntar y cuándo declarar en contextos de enseñanza.
+- **Material incorporado:** *Teach Ye Diligently* (presidente Packer, EN, 18 caps) ya en corpus. Cap. 11 aborda parcialmente este contraste via el «principio de prerrequisitos». Análisis en dp04 §4.1.
 
 ---
 
@@ -205,3 +205,4 @@ graph TD
 - 3 Nefi 17:7
 - DyC 3:1-11; 50:13-16; 93:47-50; 95:1-6; 121:1-7
 - Élder Daniel K. Judd, «Nutridos por la buena palabra de Dios», conferencia general, octubre de 2007
+- Presidente Boyd K. Packer, *Teach Ye Diligently* (1975), cap. 11
