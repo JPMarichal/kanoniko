@@ -133,7 +133,9 @@ CREATE TABLE IF NOT EXISTS ner_candidates (
     entity_type   TEXT NOT NULL,
     frequency     INTEGER NOT NULL DEFAULT 1,
     status        TEXT NOT NULL DEFAULT 'candidate',
+    sample_files  JSONB NOT NULL DEFAULT '[]',
     first_seen    TIMESTAMPTZ NOT NULL DEFAULT now(),
+    last_seen     TIMESTAMPTZ NOT NULL DEFAULT now(),
     UNIQUE (name, entity_type)
 );
 CREATE INDEX IF NOT EXISTS ner_freq_idx   ON ner_candidates(frequency DESC);
