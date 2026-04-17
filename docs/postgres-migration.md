@@ -73,6 +73,17 @@ CREATE EXTENSION IF NOT EXISTS vector;
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 CREATE EXTENSION IF NOT EXISTS unaccent;
 
+-- unaccent() es STABLE por default: no puede usarse directamente en columnas
+-- GENERATED ALWAYS AS ... STORED. Wrapper IMMUTABLE (seguro porque el
+-- diccionario 'unaccent' no cambia en runtime) — hallazgo validado en Fase 1.
+CREATE OR REPLACE FUNCTION immutable_unaccent(text)
+  RETURNS text
+  LANGUAGE sql
+  IMMUTABLE
+  PARALLEL SAFE
+  STRICT
+AS $$ SELECT public.unaccent('public.unaccent'::regdictionary, $1) $$;
+
 -- === Index Layer ===
 
 CREATE TABLE document_registry (
@@ -97,7 +108,7 @@ CREATE TABLE chunks (
   tsv           tsvector GENERATED ALWAYS AS (
                   to_tsvector(
                     CASE language WHEN 'es' THEN 'spanish' ELSE 'english' END,
-                    unaccent(text)
+                    immutable_unaccent(text)
                   )
                 ) STORED
 );
@@ -187,8 +198,8 @@ CREATE INDEX ner_status_idx ON ner_candidates(status);
 | `kg_neighbors` | `SELECT … FROM relations r JOIN entities e ON (e.id = r.dst_id) WHERE r.src_id = $1` (+ inverso) |
 | `kg_relations` | `WHERE src_id = $1 AND category = $2` |
 | `kg_profile` | Join entities + entity_profiles + agregación sobre relations |
-| `kg_genealogy_path` | Recursive CTE limitado a `rel_type IN ('parent_of','son_of','daughter_of')` con profundidad máxima |
-| `kg_genealogy_tree` | Recursive CTE hacia abajo |
+| `kg_genealogy_path` | Recursive CTE con `rel_type IN ('parent_of','son_of','daughter_of')`, profundidad máxima **y `LIMIT` sobre el conjunto intermedio** (ver nota abajo) |
+| `kg_genealogy_tree` | Recursive CTE hacia abajo, con `LIMIT` intermedio |
 | `search_text` | `WHERE tsv @@ websearch_to_tsquery(lang, query)` ordenado por `ts_rank_cd` |
 | `search_semantic` | `ORDER BY embedding <=> $query_vec LIMIT k` |
 | `search_hybrid` | RRF fusion de ambas (misma lógica de `search/hybrid.py` actual, queries distintos) |
@@ -197,6 +208,27 @@ CREATE INDEX ner_status_idx ON ner_candidates(status);
 
 **Decisión pendiente:** si AGE aporta legibilidad suficiente para genealogías como para justificar la extensión, o si recursive CTEs bastan. Se define en fase 2 con benchmark.
 
+**Patrón obligatorio para CTEs recursivos — hallazgo Fase 1.** Con grafos de alto fanout
+(hub entities, promedio >10 vecinos en algún tipo de relación), el recursive CTE **explota
+combinatoriamente** aunque los índices estén correctos y la profundidad esté acotada.
+El `LIMIT` del query externo se aplica *después* del materializado del CTE, así que no
+ayuda. Siempre incluir un `LIMIT N` sobre el rowset intermedio:
+
+```sql
+WITH RECURSIVE path AS (
+    -- anchor
+    SELECT … WHERE src_id = $1 AND rel_type IN (…)
+  UNION ALL
+    -- recursive step
+    SELECT … JOIN path ON … WHERE NOT dst_id = ANY(p.nodes) AND p.depth < 8
+), capped AS (
+    SELECT * FROM path LIMIT 5000   -- ← HARD CAP, clave
+)
+SELECT … FROM capped WHERE dst_id = $2 ORDER BY depth LIMIT 1;
+```
+
+Este patrón se codifica en `postgres_graph_client.py` como helper compartido.
+
 ---
 
 ## 3. Plan de fases
@@ -204,18 +236,16 @@ CREATE INDEX ner_status_idx ON ner_candidates(status);
 ### Fase 0 — Preparación (1-2 días)
 - Provisionar Postgres 16 en IONOS VPS (systemd, TLS con Let's Encrypt, pgbouncer opcional).
 - Configurar `postgresql.conf` para 4 GB RAM: `shared_buffers = 1GB`, `effective_cache_size = 2.5GB`, `work_mem = 32MB`, `maintenance_work_mem = 512MB`.
+- **Memoria compartida (`/dev/shm`) ≥ 1 GB** — hallazgo Fase 1: la construcción de índices HNSW sobre >10k vectores de 384-dim agota el default de 64 MB del runtime Docker. En VPS nativo (systemd) el default de `/dev/shm` es la mitad de la RAM (suficiente); verificar con `df -h /dev/shm` tras provisionar.
 - Instalar extensiones: `pgvector`, `pg_trgm`, `unaccent`.
 - Configurar backups: `pg_dump` diario cifrado a un segundo volumen.
 - Crear usuario `alejandria_rw` y `alejandria_ro`; capturar secretos en `.env.vps` (cifrado).
 - Abrir firewall solo para IPs específicas + puerto 5432 sobre TLS.
 
-### Fase 1 — Benchmark validatorio (2-3h)
-- Subset: 10k chunks + 100k relaciones.
-- Medir:
-  - Ingesta vía `COPY` vs ingesta SQLite-equivalente hoy.
-  - Latencia p50/p95/p99 de 3 queries típicas (FTS, semántica, `kg_profile`, `kg_genealogy_path` a 5 hops).
-  - Network RTT desde GPU local al VPS.
-- **Go / no-go:** si ingesta ≥3x Neo4j y queries KG < 500ms p95, continuar.
+### Fase 1 — Benchmark validatorio ✅ COMPLETADA
+- Resultados: [`benchmarks/postgres-migration/RESULTS.md`](../benchmarks/postgres-migration/RESULTS.md)
+- Veredicto: **GO con margen amplio** — ingesta ~115x más rápida que Neo4j batched, todos los queries p95 entre 2.4 ms y 44.5 ms, storage proyectado ~31% del SQLite actual.
+- Hallazgos que modificaron este diseño: `immutable_unaccent`, `shm_size`, `LIMIT` intermedio en CTEs recursivos (ya integrados arriba).
 
 ### Fase 2 — Schema + migrador (3-5 días)
 - Crear módulo `src/alejandria/storage/postgres/` con conexión, DDL, migraciones Alembic.
