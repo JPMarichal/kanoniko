@@ -187,13 +187,33 @@ Esta declaración es doctrinalmente significativa porque valida la pregunta como
 
 ## 4. Voces académicas y otros autores
 
-### 4.1 Presidente Boyd K. Packer — *Teach Ye Diligently* (pendiente de corpus)
+### 4.1 Presidente Boyd K. Packer — *Teach Ye Diligently* (1975)
 
-El presidente Packer dedicó un libro completo a la pedagogía del Evangelio. El libro no ha sido incorporado al corpus pero fue identificado como fuente relevante. La historia del maestro danés de carpintería, citada por el élder McConkie, proviene de esta obra.
+El presidente Packer dedicó dos capítulos completos de *Teach Ye Diligently* al tema de las preguntas: el capítulo 10 («La pregunta») y el capítulo 11 («Cómo manejar preguntas muy difíciles»). El capítulo 4 («Jesucristo como maestro») establece el fundamento: Jesús era, ante todo, un maestro — así lo llaman sesenta de las noventa veces que se dirigen a Él en los Evangelios.
+
+El capítulo 10 es la contribución más significativa del presidente Packer a este territorio. Abre con una observación penetrante sobre el método del Salvador:
+
+> «Hay algo interesante y significativo en la forma en que Él manejaba las preguntas y las respuestas. Hacía muchas preguntas. Respondía muy pocas de ellas.» (*Teach Ye Diligently*, cap. 10, traducción propia)
+
+El presidente Packer desarrolla la técnica de responder con preguntas citando el ejemplo del tributo al César (Mateo 22:17-22) y la parábola del buen samaritano (Lucas 10:30-37). En ambos casos, señala que fueron los oyentes quienes terminaron respondiendo su propia pregunta — el Salvador los guió hasta la respuesta, no se la entregó.
+
+De ahí extrae su consejo más memorable para maestros:
+
+> «Cuando un alumno haga una pregunta, ¡tenga cuidado de no contestarla! O más enfáticamente: tenga cuidado de que no sea el maestro quien la conteste.» (*Teach Ye Diligently*, cap. 10, traducción propia)
+
+El presidente Packer también codifica principios prácticos que anticipan lo que TNGC y *Enseñar a la manera del Salvador* formalizarían después:
+
+- **Rescatar al alumno:** Cuando alguien da una respuesta incorrecta, el maestro debe asumir la responsabilidad: «Lo siento, no hice la pregunta con claridad.» Nunca ridiculizar ni permitir que la clase se ría.
+- **Reformular la pregunta:** En lugar de «Juan, ¿quién fue el cuarto presidente de la Iglesia?» (que libera a todos excepto a Juan de pensar), preguntar primero y nombrar después: «¿Quién fue el cuarto presidente de la Iglesia?» — pausa — y luego señalar a alguien.
+- **Preguntas de opinión:** Las mejores preguntas para enseñar valores morales comienzan con «En tu opinión, ¿por qué...?» — porque no pueden tener respuesta incorrecta y liberan al alumno del miedo a equivocarse.
+
+El capítulo 11 aborda las preguntas difíciles con el «principio de prerrequisitos»: no tiene sentido intentar responder preguntas doctrinales avanzadas a quien no tiene los cimientos de fe, arrepentimiento y bautismo. Del presidente Henry D. Moyle aprendió otra lección: «Si el entrevistador no hace las preguntas correctas, yo doy las respuestas a las preguntas que debería haber hecho.»
+
+La historia del maestro danés de carpintería, citada por el élder McConkie en conferencia general (octubre de 2010), proviene de esta misma obra.
 
 ### 4.2 Asahel D. Woodruff — *Teaching the Gospel* (1962)
 
-Citado en TNGC cap. 13 a través de Virginia Pearce: «Recae sobre el alumno la responsabilidad de aprender. Por lo tanto, es a él a quien se debe poner en acción. Si el maestro es la estrella del espectáculo, si sólo habla él y se encarga de todo, es por seguro que está interfiriendo con el aprendizaje de los miembros de la clase.» Esta obra precursora de la pedagogía SUD no está en el corpus.
+Citado en TNGC cap. 13 a través de la hermana Virginia H. Pearce: «Recae sobre el alumno la responsabilidad de aprender. Por lo tanto, es a él a quien se debe poner en acción. Si el maestro es la estrella del espectáculo, si sólo habla él y se encarga de todo, es por seguro que está interfiriendo con el aprendizaje de los miembros de la clase.» Esta obra precursora de la pedagogía SUD no está en el corpus.
 
 ### 4.3 Artículos académicos SUD (pendientes de corpus)
 
@@ -225,7 +245,7 @@ graph TD
     
     MG -->|"habilidades → taxonomía"| TNGC
     TNGC -->|"predecesor"| MAN
-    PACK -.->|"pendiente"| MAN
+    PACK -->|"anticipa"| MAN
     PMG -->|"aplica al campo misional"| AULA
     MAN -->|"también alimenta"| PMG
     MG -->|"Descubrir → preguntas inspiradas"| PMG
@@ -237,7 +257,7 @@ graph TD
     style MG fill:#f5d0d0,color:#1a1a1a
     style TNGC fill:#d0e4f7,color:#1a1a1a
     style PMG fill:#d0e4f7,color:#1a1a1a
-    style PACK fill:#f5f5f5,color:#999
+    style PACK fill:#e0d4f7,color:#1a1a1a
 ```
 
 ---
@@ -294,8 +314,8 @@ graph TD
 
 ## 8. Lagunas y preguntas abiertas
 
-- **Material pendiente de corpus:** *Teach Ye Diligently* (presidente Packer), artículos del *Ensign* (2002) y RSC (2004), capítulo 31 del manual CES. Chips de descarga creados.
-- **Material ya en corpus:** *Missionary Guide* (1988, EN, 17 caps), *Teaching No Greater Call* (bilingüe, ~95 caps/idioma), *Predicad Mi Evangelio* (2023, bilingüe), *Enseñar a la manera del Salvador* (2022, bilingüe).
+- **Material pendiente de corpus:** Artículos del *Ensign* (2002) y RSC (2004), capítulo 31 del manual CES. Chips de descarga creados.
+- **Material ya en corpus:** *Teach Ye Diligently* (presidente Packer, EN, 18 caps), *Missionary Guide* (1988, EN, 17 caps), *Teaching No Greater Call* (bilingüe, ~95 caps/idioma), *Predicad Mi Evangelio* (2023, bilingüe), *Enseñar a la manera del Salvador* (2022, bilingüe).
 - **Charlas misionales de 1986 (*Uniform System*):** No están en el corpus. Contenían las marcas en el margen derecho que clasificaban las preguntas en tres tipos (comprensión, aceptación, compromiso). El *Missionary Guide* las referencia pero no las reproduce. Obtener este material completaría el eslabón faltante.
 - ***Predicad Mi Evangelio* — lecciones específicas:** El cap. 10 fue analizado, pero las lecciones individuales (caps. 3.1-3.4) también contienen preguntas diseñadas para los investigadores. No se analizaron en detalle.
 - **Contraste con la tradición pedagógica secular:** El enfoque de preguntas del Salvador se alinea con la mayéutica socrática y con la pedagogía constructivista moderna. Este dossier no exploró esas conexiones, que podrían enriquecer la sección 4 (Voces académicas).
@@ -311,6 +331,7 @@ graph TD
 - *La enseñanza: No hay llamamiento más grande* (1999), caps. 13, 15, 16
 - *Enseñar a la manera del Salvador* (2022), caps. 10, 11, 13
 - *Predicad Mi Evangelio* (2023), cap. 10
+- Presidente Boyd K. Packer, *Teach Ye Diligently* (1975), caps. 4, 10, 11
 - *Preparación misional* (2023), práctica de habilidades 4: «Hacer preguntas inspiradas»
 - Élder M. Russell Ballard, «Doctrina de la inclusión», conferencia general, octubre de 2001
 - Élder Jeffrey R. Holland, «El primer y grande mandamiento», conferencia general, octubre de 2012
