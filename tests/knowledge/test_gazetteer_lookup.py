@@ -110,6 +110,82 @@ class TestIsGarbage:
         assert is_garbage("La Iglesia de Jesucristo de los Santos de los Últimos Días") is None
         assert is_garbage("Alma the Younger") is None
 
+    # ---- scripture_ref filter (see docs/kg-noise-diagnostic.md §priorities) ----
+
+    @pytest.mark.parametrize("ref", [
+        "Matthew 3:3",
+        "Matthew 4:13–16",
+        "Matthew 6:15.28",
+        "John 1:38–39",
+        "John 12:1-8",
+        "Jer 38:21",
+        "Jeremiah 31:8",
+        "Eph 1:3-4",
+        "Ex 40:34",
+        "Ex 20:1-26",
+        "Daniel 7:24",
+        "Ezra 6:16",
+        "Psalm 12:7",
+        "Alma 55:17",
+        "Alma 3:14–19",
+        "Ro 15:18",
+        "Zec 2:8",
+        "Malachi 1:8",
+        "Mateo 3:5–8",
+        "Lucas 13:11-17",
+        "Read Luke 5:17-26",
+        "3 Nefi 17:7",
+        "1 Nephi 3:7",
+        "DyC 76:22-24",
+        "D&C 121:36",
+        "Moses 1:39",
+        "Abraham 3:22",
+        "Nahum 2",
+    ])
+    def test_scripture_refs_rejected(self, ref):
+        assert is_garbage(ref) == "scripture_ref"
+
+    @pytest.mark.parametrize("name", [
+        "Matthew",        # evangelist as person
+        "John the Baptist",
+        "Mary Magdalene",
+        "Alma the Younger",
+        "Book of Mormon",
+    ])
+    def test_plain_book_or_person_names_not_flagged_as_scripture(self, name):
+        # Scripture filter must NOT eat standalone person/book names.
+        assert is_garbage(name) != "scripture_ref"
+
+    # ---- mojibake filter ----
+
+    @pytest.mark.parametrize("name", [
+        "â€œPoll",
+        "Â­Ronald K. Esplin",
+        "Robert M. â€œReader-Response",
+        "JesusÃ¢ cross",
+        "á½ ÏÎ¿Ï ÏÏÎµÎ¯ÏÎµÏÎ±Î¹",
+    ])
+    def test_mojibake_rejected(self, name):
+        assert is_garbage(name) == "mojibake"
+
+    def test_clean_accented_not_flagged(self):
+        # Legitimate accented names must pass.
+        assert is_garbage("María Ángel") is None
+        assert is_garbage("José Smith") is None
+        assert is_garbage("Lehí") is None
+
+    # ---- html_fragment filter ----
+
+    @pytest.mark.parametrize("name", [
+        "<p>Nephi</p>",
+        'id="aside1_p1">La Resurrección',
+        'class="footnote">See Alma',
+        "Text &amp; stuff",
+        "&nbsp;empty",
+    ])
+    def test_html_fragments_rejected(self, name):
+        assert is_garbage(name) == "html_fragment"
+
 
 # --------------------------------------------------------------------------- #
 # is_canonical() / gazetteer lookup
