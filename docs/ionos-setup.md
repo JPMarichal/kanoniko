@@ -284,15 +284,33 @@ SQL
 sudo -u postgres nano /etc/postgresql/16/main/pg_hba.conf
 ```
 
-Al final del archivo, **antes** de cualquier línea `host all all 0.0.0.0/0 ...`, añade (valores ya personalizados):
+**Append** (no insertar con `sed -i /^host/ i\\...` — eso duplica reglas por cada línea `host` existente en el archivo). Añade al final con heredoc:
 
-```conf
-# Conexiones de Alejandría desde la laptop de trabajo (163.116.231.24)
+```bash
+HBA=/etc/postgresql/16/main/pg_hba.conf
+sudo cp "$HBA" "$HBA.backup-$(date -u +%Y%m%dT%H%M%SZ)"
+
+sudo tee -a "$HBA" > /dev/null <<'EOF'
+
+# Alejandria — laptop laboral (TLS obligatorio)
 hostssl alejandria  alejandria_rw  163.116.231.24/32  scram-sha-256
 hostssl alejandria  alejandria_ro  163.116.231.24/32  scram-sha-256
 # TODO: añadir IP de la máquina personal cuando se use
 # hostssl alejandria  alejandria_rw  <IP_PERSONAL>/32  scram-sha-256
+EOF
+
+sudo grep -n alejandria "$HBA"   # deben ser exactamente 2 líneas
+sudo systemctl reload postgresql@16-main
 ```
+
+> **Si por error quedaron duplicados** (p. ej. corriste un sed incorrecto antes), dedupe con:
+> ```bash
+> sudo awk '!seen[$0]++' "$HBA" | sudo tee "$HBA.tmp" > /dev/null
+> sudo mv "$HBA.tmp" "$HBA"
+> sudo chown postgres:postgres "$HBA"
+> sudo chmod 640 "$HBA"
+> sudo systemctl reload postgresql@16-main
+> ```
 
 **Importante**: `hostssl` (no `host`) fuerza TLS. Sin TLS el rechazo es automático.
 
@@ -374,21 +392,38 @@ ssl_key_file = '/etc/postgresql/16/main/certs/server.key'
 ## 8. Abrir 5432 solo a tus IPs + arrancar Postgres
 
 ```bash
-# Firewall — NO eliminar reglas existentes (MySQL usa 3306). Solo ADD:
+# Estado actual de UFW (puede estar inactive o con reglas previas)
+sudo ufw status
+
+# Si UFW está inactive y lo vas a activar ahora: ABRE SSH PRIMERO para no cortarte tú mismo
+sudo ufw allow 22/tcp comment 'SSH'
+
+# Regla específica para Postgres desde tu laptop laboral
 sudo ufw allow from 163.116.231.24 to any port 5432 proto tcp comment 'Alejandria laptop'
 # TODO: la IP de la máquina personal se añade cuando se use
 # sudo ufw allow from <IP_PERSONAL> to any port 5432 proto tcp comment 'Alejandria home'
 
-# Ver el estado final
-sudo ufw status numbered
+# Activar si no estaba (con SSH ya permitido)
+sudo ufw --force enable
 
-# Arrancar Postgres
-sudo systemctl enable postgresql@16-main
-sudo systemctl start postgresql@16-main
-sudo systemctl status postgresql@16-main --no-pager
+# Estado final
+sudo ufw status numbered
 ```
 
-Si IONOS expone firewall a nivel de consola cloud (Firewall Policies), verifica que el puerto 5432 también esté abierto ahí hacia `163.116.231.24/32`. UFW y el firewall de IONOS son capas independientes: si alguna bloquea, no entras.
+### IONOS Cloud Firewall (capa independiente)
+
+IONOS expone un firewall adicional a nivel de consola cloud que es **independiente** de UFW. Si alguna de las dos capas bloquea, no entras:
+
+1. Login https://cloud.ionos.com
+2. **Compute Engine → Servers → tu VPS → Firewall Policies**
+3. Si hay una policy asignada: añadir regla ingress para puerto 5432/tcp desde `163.116.231.24/32`.
+4. Si no hay policy asignada: el firewall IONOS está en default-allow — UFW es la única barrera y ya está configurado.
+
+Confirma antes de pasar al test que Postgres sigue corriendo:
+
+```bash
+sudo systemctl status postgresql@16-main --no-pager | head -5
+```
 
 Verificar desde dentro del VPS:
 
@@ -399,17 +434,50 @@ sudo -u postgres psql -c "SHOW ssl;"
 
 ## 9. Test de conexión remota (desde la máquina local)
 
+Dos caminos equivalentes — usa el que prefieras:
+
+### Opción A — psql en WSL (CLI)
+
 ```bash
-# Instalar cliente en WSL Ubuntu-20.04 (ya lo estamos usando para GPU Docker)
+# Instalar cliente en WSL Ubuntu-20.04 (ya lo usamos para GPU Docker)
 wsl -d Ubuntu-20.04 sudo apt install -y postgresql-client-16
 
-# Conexión con self-signed — sslmode=require (no verify-full, sin CA confiable)
+# Test de conectividad bruta (TCP)
+wsl -d Ubuntu-20.04 bash -c "nc -zv 212.227.243.210 5432"
+# Esperado: "Connection to 212.227.243.210 5432 port [tcp/postgresql] succeeded!"
+
+# Conexión autenticada con TLS (sslmode=require = cifra pero no valida CA)
 wsl -d Ubuntu-20.04 bash -c "PGPASSWORD='<password_rw>' psql \
   'host=212.227.243.210 port=5432 dbname=alejandria user=alejandria_rw sslmode=require' \
-  -c 'SELECT version(); SELECT extname FROM pg_extension;'"
+  -c 'SELECT version(); SELECT extname, extversion FROM pg_extension ORDER BY extname;'"
 ```
 
-Salida esperada: versión `PostgreSQL 16.x` + tres extensiones (`vector`, `pg_trgm`, `unaccent`).
+### Opción B — DBeaver (GUI)
+
+Si tienes DBeaver instalado, más rápido de iterar:
+
+1. **Database → New Database Connection → PostgreSQL**
+2. Pestaña **Main**:
+   - Host: `212.227.243.210`
+   - Port: `5432`
+   - Database: `alejandria`
+   - Username: `alejandria_rw`
+   - Password: `<del password manager>`
+3. Pestaña **SSL**:
+   - **Use SSL** ✓
+   - **SSL mode**: `require` (no `verify-full`, el cert es self-signed)
+   - Dejar los otros campos vacíos
+4. **Test Connection**. Debe reportar éxito.
+5. Una vez abierto, ejecutar: `SELECT version(); SELECT extname FROM pg_extension;`
+
+Salida esperada en cualquiera de las dos opciones:
+- PostgreSQL 16.13
+- 4 extensiones: `plpgsql`, `pg_trgm`, `unaccent`, `vector`
+
+Si falla con timeout o "connection refused", en orden:
+1. `nc -zv 212.227.243.210 5432` — si falla aquí, es red (UFW, IONOS Cloud Firewall, o tu IP cambió).
+2. `psql` con error de auth — es `pg_hba.conf` (verificar que tu IP pública actual coincide con la whitelist).
+3. `psql` con error de SSL — certificado o config de `ssl = on` en postgres.
 
 Si esto funciona, **estás listo para aplicar el DDL desde la máquina local**.
 
