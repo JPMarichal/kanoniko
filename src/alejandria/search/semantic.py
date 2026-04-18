@@ -172,7 +172,7 @@ class SemanticSearch:
 # Backend factory (Phase 3 of feature/postgres-migration)
 # --------------------------------------------------------------------------- #
 
-def get_semantic_search(db_path: Path | None = None):
+def make_semantic_search(db_path: Path | None = None):
     """Return the configured semantic search backend.
 
     Dispatches on ``settings.storage_backend``:
@@ -180,7 +180,9 @@ def get_semantic_search(db_path: Path | None = None):
     * ``"sqlite"`` (default): ``SemanticSearch`` over sqlite-vec (vec0).
     * ``"postgres"``: ``PostgresSemanticSearch`` over pgvector HNSW.
 
-    Same pattern as ``search/textual.py::get_textual_search``.
+    Named ``make_*`` (not ``get_*``) because the DI layer in
+    ``api/dependencies.py`` owns the name ``get_semantic_search`` (retry
+    caching wrapper around this factory).
     """
     from alejandria.config import settings
 
