@@ -18,6 +18,13 @@ class Settings(BaseSettings):
     neo4j_user: str = "neo4j"
     neo4j_password: str = "alejandria"
 
+    # Storage backend selector (Phase 3 of feature/postgres-migration).
+    # During the migration window, `sqlite` is the default (stable stack,
+    # SQLite FTS5 + sqlite-vec + Neo4j). Set `postgres` to route search and
+    # KG reads to the Postgres backend. Ingestion still writes to SQLite+Neo4j
+    # until cutover — see docs/postgres-migration.md Fase 4.
+    storage_backend: str = "sqlite"  # "sqlite" | "postgres"
+
     # Postgres (migration target — Phase 2+ of feature/postgres-migration)
     postgres_host: str = "postgres"
     postgres_port: int = 5432
