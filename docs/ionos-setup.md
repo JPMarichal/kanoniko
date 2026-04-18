@@ -479,6 +479,51 @@ Si falla con timeout o "connection refused", en orden:
 2. `psql` con error de auth — es `pg_hba.conf` (verificar que tu IP pública actual coincide con la whitelist).
 3. `psql` con error de SSL — certificado o config de `ssl = on` en postgres.
 
+#### Caso especial: red corporativa bloquea outbound 5432
+
+Muchas redes corporativas permiten 80/443/22 pero bloquean puertos no-estándar. Síntoma: `Test-NetConnection` y `nc -zv` **time out** desde la laptop, pero **`nc -zv 212.227.243.210 5432` funciona desde el propio VPS**. UFW, IONOS Firewall y Postgres están bien — el bloqueo es el firewall corporativo en la salida.
+
+**Solución: SSH tunnel sobre el 22** (que sí pasa por corporativo porque ya usas SSH).
+
+Añadir a `pg_hba.conf` acceso desde localhost (para el túnel):
+
+```bash
+sudo tee -a /etc/postgresql/16/main/pg_hba.conf > /dev/null <<'EOF'
+# SSH tunnel — desde dentro del VPS, source es 127.0.0.1
+host alejandria alejandria_rw 127.0.0.1/32 scram-sha-256
+host alejandria alejandria_ro 127.0.0.1/32 scram-sha-256
+EOF
+sudo systemctl reload postgresql@16-main
+```
+
+**DBeaver con SSH tunnel:**
+
+- Pestaña **SSH**: Use SSH Tunnel ✓, Host `212.227.243.210`, Port `22`, User `root` (o tu usuario SSH), Authentication `Public Key`, Private Key = ruta a tu clave SSH.
+- Pestaña **Main**: Host `localhost` (no el IP público), Port `5432`, Database `alejandria`, Username `alejandria_rw`.
+- Pestaña **SSL**: desactivar Use SSL (el túnel SSH ya cifra; `pg_hba` para 127.0.0.1 usa `host` no `hostssl`).
+
+**CLI equivalente para scripts/migradores:**
+
+```bash
+# Tunel abierto en background (persiste hasta que mates el proceso)
+ssh -L 15432:localhost:5432 -N -f root@212.227.243.210
+
+# Ahora localhost:15432 es equivalente a 212.227.243.210:5432 desde el VPS
+psql "host=localhost port=15432 dbname=alejandria user=alejandria_rw sslmode=disable"
+
+# Cerrar túnel cuando termines
+pkill -f "ssh -L 15432"
+```
+
+**Implicación para migradores (Fase 5):** Si sigues en red corporativa, correr los migradores con:
+```bash
+ALEJANDRIA_POSTGRES_HOST=localhost
+ALEJANDRIA_POSTGRES_PORT=15432
+ALEJANDRIA_POSTGRES_SSLMODE=disable
+```
+
+Alternativa: clonar el repo en el VPS y correr migradores ahí (evita el túnel pero sube 3.5 GB de SQLite al VPS). Decidir caso por caso.
+
 Si esto funciona, **estás listo para aplicar el DDL desde la máquina local**.
 
 ## 10. Aplicar el DDL de Alejandría desde local
