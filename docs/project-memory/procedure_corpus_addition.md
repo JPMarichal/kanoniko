@@ -41,9 +41,21 @@ This step prevents superficial authority assignment based on titles alone. A doc
 - Cross-reference with `docs/authority-model.md` for the doctrinal authority scale.
 - Proclamations: authority=90, rigor=95, official=True, context="official-declaration".
 
-## 4. KG relationship analysis + pre-seed (BEFORE downloading — BLOCKING)
+## 4. KG pre-seed — entities + relationships (BEFORE downloading — BLOCKING)
 
 **This step BLOCKS step 5 (download/format).** The pre-seed must be complete before any content enters the corpus. Rationale: once files are downloaded and committed, the temptation to "just index" is strong. The KG pre-seed is preparation, not a post-download cleanup.
+
+### 4a. Gazetteer pre-seed (canonical entities)
+
+- Identify entities central to the material that are **not already in `src/alejandria/knowledge/gazetteers/entities.json`**: recurring characters, doctrinally-significant places, new concepts that anchor the material, any person/people/place/object/period the material treats as a named referent.
+- **Add each as a gazetteer entry with EN + ES aliases before indexing.** Example entry:
+  ```json
+  {"name": "Ezra Taft Benson", "aliases": ["President Benson", "Presidente Benson", "ETB"]}
+  ```
+- Why this is blocking: without the gazetteer entry, NER discovers the entity at ingestion time and creates a candidate (`ner_candidates` table). If spaCy finds the same canonical under multiple casings/types (`Benson` as person, `President Benson` as people, `ETB` as person), each becomes a *separate node* in the KG. R0 cleanup merges these post-hoc, but prevention at step 4a is cheaper and doesn't depend on R0 ever running.
+- The ingestion filter (`knowledge/gazetteer_lookup.should_skip_ner_entity`) consults this file at runtime; an entity present here is never recorded as a "new candidate".
+
+### 4b. Relationship analysis + pre-seed
 
 - Search existing KG entities that relate to the new document (`kg_find`).
 - Check how many existing corpus documents **cite** the new document (`grep` the corpus for mentions).
@@ -92,4 +104,4 @@ After successful indexing:
 
 **Why:** The user corrected placement of the Family Proclamation (was going into scriptures/dc/official-declarations, should be proclamations/). Every document's canonical status and authority level must be considered before placement. Authority levels were being assigned superficially from titles — e.g., "The Charted Course" got authority=65 without knowing it's a foundational 1938 J. Reuben Clark address that defines S&I philosophy.
 
-**How to apply:** Every time new material is added to the corpus, run through all 8 steps. Pay special attention to step 1 (correct placement), step 2 (research before authority), step 4 (KG pre-seed, not just analysis), step 6 (commit+sync before indexing), and step 7 (explicit paths, never full scan).
+**How to apply:** Every time new material is added to the corpus, run through all 9 steps. Pay special attention to step 1 (correct placement), step 2 (research before authority), step 4a (gazetteer pre-seed for canonical entities — prevents NER contamination at source) and 4b (relationship pre-seed), step 6 (commit+sync before indexing), and step 7 (explicit paths, never full scan).
