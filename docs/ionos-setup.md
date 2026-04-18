@@ -2,6 +2,22 @@
 
 Guía paso a paso para provisionar el Postgres 16 + pgvector en el IONOS VPS M (2 vCore / 4 GB RAM / 160 GB NVMe) y dejar aplicado el DDL de Alejandría desde la máquina local.
 
+## ⚙️ Configuración concreta de este entorno (abril 2026)
+
+| Parámetro | Valor |
+|---|---|
+| VPS IP (IONOS) | `212.227.243.210` |
+| Puerto MySQL (ya en uso) | `3306` |
+| Puerto Postgres (nuevo) | `5432` |
+| IP pública de la laptop de trabajo | `163.116.231.24` |
+| IP pública de la máquina personal | *pendiente — añadir cuando se use* |
+| TLS | self-signed (sin dominio por ahora) |
+| Base de datos Postgres | `alejandria` |
+| Usuario read-write | `alejandria_rw` |
+| Usuario read-only | `alejandria_ro` |
+
+**Escenario "VPS con MySQL existente":** este VPS ya tiene MySQL corriendo con datos productivos en la base `alejandria` (histórica). Postgres se instala **en paralelo**, en puerto distinto (5432), sin tocar MySQL. Las dos DBs coexisten en el mismo host. Saltar el paso 1 (reinstall) es obligatorio.
+
 Al terminar, tendrás:
 - Postgres 16 corriendo como systemd service en el VPS
 - pgvector + pg_trgm + unaccent instaladas
@@ -17,26 +33,73 @@ Al terminar, tendrás:
 
 ## 0. Prerrequisitos (antes de empezar)
 
-Antes de tocar el VPS, decide y prepara esto en la máquina local:
+Antes de tocar el VPS, prepara esto en la máquina local:
 
-| Cosa | Qué es / dónde conseguirlo |
+| Cosa | Este entorno |
 |---|---|
-| **SSH key pair** | `ssh-keygen -t ed25519 -f ~/.ssh/ionos_alejandria -C "alejandria@vps"`. Guarda la clave pública; la pegas en la consola IONOS en el paso 1. |
-| **Dominio (opcional pero recomendado)** | Un registro A/AAAA que apunte al VPS (ej. `alejandria.tudominio.com`). Si no tienes, se puede empezar con self-signed y migrar después. |
-| **Tu IP pública actual** | `curl -4 ifconfig.me` en cada máquina desde donde te vas a conectar. Son las IPs que abriremos en el firewall. Si es dinámica, considera usar rangos de tu ISP o aceptar ajustes periódicos. |
-| **Password seguro para `postgres` y `alejandria_rw`** | Genera con `openssl rand -base64 24`. Anótalos en tu password manager. |
+| **SSH al VPS** | Ya existe (se usa para administrar MySQL). Verifica con `ssh <usuario>@212.227.243.210`. |
+| **IP pública de la laptop** | `163.116.231.24` (confirmada el 2026-04-18). Re-verifica con `curl -s -4 ifconfig.me` antes del firewall. Si tu ISP te cambia la IP, habrá que actualizar `pg_hba.conf` y UFW. |
+| **Password para los 3 usuarios Postgres** | Genera 3 distintos con `openssl rand -base64 24` — uno para `postgres` (superuser), uno para `alejandria_rw`, uno para `alejandria_ro`. Guárdalos en tu password manager **antes** del paso 5. |
+| **Snapshot defensivo del MySQL** | Ver paso 1b — no sigas si no tienes backup del MySQL productivo. |
 
 ---
 
-## 1. Reinstalar / preparar el VPS desde la consola IONOS
+## 1. Preparar el VPS
+
+### Opción 1a — VPS nuevo / reinstalar (solo si NO tienes datos productivos)
 
 1. Login en https://cloud.ionos.com
 2. **Compute Engine → Servers → tu VPS M → Reinstall**
-3. Elige imagen **Ubuntu 24.04 LTS** (o **Ubuntu 22.04** si prefieres; la guía funciona en ambos).
+3. Elige imagen **Ubuntu 24.04 LTS** (o **Ubuntu 22.04** si prefieres).
 4. En **SSH keys**, pega la clave pública generada en el paso 0.
-5. Confirma reinstall (borra todo lo que hubiera — si tienes datos valiosos, hacer backup antes).
+5. Confirma reinstall (borra todo — si tienes datos valiosos, hacer backup antes).
 6. Espera ~5 min hasta que IONOS muestre el VPS como "Running".
 7. Copia la **IP pública IPv4** del VPS — la usas en los siguientes pasos.
+
+### Opción 1b — VPS con MySQL u otros servicios ya productivos (CASO ACTUAL)
+
+**No reinstales.** El VPS tiene MySQL productivo en puerto 3306 con datos reales — un reinstall los borra. Postgres se instala al lado:
+
+1. Verifica que tienes acceso SSH actual (probablemente ya lo tienes si estás administrando MySQL):
+   ```bash
+   ssh <tu_usuario>@212.227.243.210
+   ```
+2. Confirma el OS del VPS:
+   ```bash
+   lsb_release -a
+   cat /etc/os-release
+   ```
+   La guía asume Ubuntu 20.04/22.04/24.04 o Debian. Si es CentOS / otro, cambian los nombres de paquete (`dnf` en vez de `apt`, `postgresql-server` en vez de `postgresql-16`, etc.).
+3. Verifica que MySQL está corriendo y no lo toques:
+   ```bash
+   sudo systemctl status mysql --no-pager | head -3
+   sudo ss -tlnp | grep 3306
+   ```
+4. Confirma que el puerto 5432 está libre:
+   ```bash
+   sudo ss -tlnp | grep 5432   # debe estar vacío
+   ```
+5. Snapshot defensivo de MySQL antes de tocar nada (por si acaso):
+   ```bash
+   mysqldump -u jpmarichal -p alejandria | gzip > /tmp/mysql-alejandria-$(date -u +%Y%m%dT%H%M%SZ).sql.gz
+   ls -lh /tmp/mysql-alejandria-*.sql.gz
+   ```
+   Baja ese archivo a local si la paranoia pica. No instales Postgres hasta que este snapshot exista.
+
+**Salta el paso 2 (hardening)** si el VPS ya tiene usuario no-root con sudo, UFW configurado y SSH endurecido — probablemente sí, dado que lleva MySQL en producción. Verifica sin modificar:
+
+```bash
+# Usuario actual con sudo
+sudo -v && echo "sudo OK"
+
+# SSH root deshabilitado
+sudo grep -E '^PermitRootLogin' /etc/ssh/sshd_config
+
+# UFW activo (si se usa)
+sudo ufw status
+```
+
+Si algo no está, regresa al paso 2 del manual para aplicar lo que falte sin destruir config existente.
 
 ## 2. Primera conexión + hardening básico
 
@@ -183,13 +246,14 @@ SQL
 sudo -u postgres nano /etc/postgresql/16/main/pg_hba.conf
 ```
 
-Al final del archivo, **antes** de cualquier línea `host all all 0.0.0.0/0 ...`, añade:
+Al final del archivo, **antes** de cualquier línea `host all all 0.0.0.0/0 ...`, añade (valores ya personalizados):
 
 ```conf
-# Conexiones de Alejandría (reemplaza por tus IPs reales del paso 0)
-hostssl alejandria  alejandria_rw  <TU_IP_LAPTOP>/32          scram-sha-256
-hostssl alejandria  alejandria_rw  <TU_IP_PERSONAL>/32        scram-sha-256
-hostssl alejandria  alejandria_ro  <TU_IP_LAPTOP>/32          scram-sha-256
+# Conexiones de Alejandría desde la laptop de trabajo (163.116.231.24)
+hostssl alejandria  alejandria_rw  163.116.231.24/32  scram-sha-256
+hostssl alejandria  alejandria_ro  163.116.231.24/32  scram-sha-256
+# TODO: añadir IP de la máquina personal cuando se use
+# hostssl alejandria  alejandria_rw  <IP_PERSONAL>/32  scram-sha-256
 ```
 
 **Importante**: `hostssl` (no `host`) fuerza TLS. Sin TLS el rechazo es automático.
@@ -240,14 +304,14 @@ EOF
 sudo chmod +x /etc/letsencrypt/renewal-hooks/deploy/postgres-copy.sh
 ```
 
-### Opción B — Self-signed (sin dominio)
+### Opción B — Self-signed (sin dominio) — **ESTA ES LA QUE APLICA**
 
 ```bash
 sudo mkdir -p /etc/postgresql/16/main/certs
 cd /etc/postgresql/16/main/certs
 sudo openssl req -new -x509 -days 730 -nodes -text \
   -out server.crt -keyout server.key \
-  -subj "/CN=<IP_DEL_VPS>"
+  -subj "/CN=212.227.243.210"
 sudo chown postgres:postgres server.*
 sudo chmod 600 server.key
 sudo chmod 644 server.crt
@@ -272,15 +336,21 @@ ssl_key_file = '/etc/postgresql/16/main/certs/server.key'
 ## 8. Abrir 5432 solo a tus IPs + arrancar Postgres
 
 ```bash
-# Firewall — sustituir por tus IPs reales (paso 0)
-sudo ufw allow from <TU_IP_LAPTOP> to any port 5432 proto tcp comment 'Alejandria laptop'
-sudo ufw allow from <TU_IP_PERSONAL> to any port 5432 proto tcp comment 'Alejandria home'
+# Firewall — NO eliminar reglas existentes (MySQL usa 3306). Solo ADD:
+sudo ufw allow from 163.116.231.24 to any port 5432 proto tcp comment 'Alejandria laptop'
+# TODO: la IP de la máquina personal se añade cuando se use
+# sudo ufw allow from <IP_PERSONAL> to any port 5432 proto tcp comment 'Alejandria home'
+
+# Ver el estado final
+sudo ufw status numbered
 
 # Arrancar Postgres
 sudo systemctl enable postgresql@16-main
 sudo systemctl start postgresql@16-main
 sudo systemctl status postgresql@16-main --no-pager
 ```
+
+Si IONOS expone firewall a nivel de consola cloud (Firewall Policies), verifica que el puerto 5432 también esté abierto ahí hacia `163.116.231.24/32`. UFW y el firewall de IONOS son capas independientes: si alguna bloquea, no entras.
 
 Verificar desde dentro del VPS:
 
@@ -292,23 +362,16 @@ sudo -u postgres psql -c "SHOW ssl;"
 ## 9. Test de conexión remota (desde la máquina local)
 
 ```bash
-# Instalar cliente si no lo tienes (Windows: via pgadmin o psql.exe; WSL Ubuntu: apt)
+# Instalar cliente en WSL Ubuntu-20.04 (ya lo estamos usando para GPU Docker)
 wsl -d Ubuntu-20.04 sudo apt install -y postgresql-client-16
 
-# Conectar (Opción A — Let's Encrypt)
-PGPASSWORD='<password_rw>' psql "host=alejandria.tudominio.com port=5432 \
-  dbname=alejandria user=alejandria_rw sslmode=verify-full"
-
-# Conectar (Opción B — self-signed)
-PGPASSWORD='<password_rw>' psql "host=<IP_DEL_VPS> port=5432 \
-  dbname=alejandria user=alejandria_rw sslmode=require"
-
-# Test básico
-\c alejandria
-SELECT version();
-SELECT extname FROM pg_extension;
-\q
+# Conexión con self-signed — sslmode=require (no verify-full, sin CA confiable)
+wsl -d Ubuntu-20.04 bash -c "PGPASSWORD='<password_rw>' psql \
+  'host=212.227.243.210 port=5432 dbname=alejandria user=alejandria_rw sslmode=require' \
+  -c 'SELECT version(); SELECT extname FROM pg_extension;'"
 ```
+
+Salida esperada: versión `PostgreSQL 16.x` + tres extensiones (`vector`, `pg_trgm`, `unaccent`).
 
 Si esto funciona, **estás listo para aplicar el DDL desde la máquina local**.
 
@@ -320,12 +383,12 @@ Desde el repo en la laptop:
 # En Ubuntu-20.04 WSL (per feedback_docker_engine)
 wsl -d Ubuntu-20.04 bash -c "docker run --rm \
   -v /mnt/c/own/alejandria:/app -w /app -e PYTHONPATH=/app/src \
-  -e ALEJANDRIA_POSTGRES_HOST=alejandria.tudominio.com \
+  -e ALEJANDRIA_POSTGRES_HOST=212.227.243.210 \
   -e ALEJANDRIA_POSTGRES_PORT=5432 \
   -e ALEJANDRIA_POSTGRES_USER=alejandria_rw \
   -e ALEJANDRIA_POSTGRES_PASSWORD='<password_rw>' \
   -e ALEJANDRIA_POSTGRES_DB=alejandria \
-  -e ALEJANDRIA_POSTGRES_SSLMODE=verify-full \
+  -e ALEJANDRIA_POSTGRES_SSLMODE=require \
   python:3.12-slim bash -c 'pip install -q psycopg[binary] pydantic-settings && python -c \"
 from alejandria.storage.postgres.schema import apply_schema, current_version
 v = apply_schema(notes=\\\"first apply on IONOS VPS\\\")
