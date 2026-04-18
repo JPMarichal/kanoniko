@@ -65,6 +65,59 @@ _PRONOUN_STOPWORDS = frozenset({
 # Cross-reference fragments that should never become entities.
 _XREF_PREFIX_RE = re.compile(r"^(see |véase )", flags=re.IGNORECASE)
 
+# Scripture reference patterns: "Matthew 3:3", "1 Nephi 3:7", "Alma 55:17",
+# "Jer 38:21", "DyC 76:22-24", "Nahum 2", "Lucas 13:11–17". The NER layer
+# frequently emits these as `person` or `object` nodes — they pollute ~6 % of
+# the person sample and ~9 % of objects (see docs/kg-noise-diagnostic.md).
+_SCRIPTURE_BOOK_RE = (
+    r"(?:"
+    r"gen(?:esis)?|génesis|exod(?:us|o)?|ex|éxodo|lev(?:iticus|[íi]tico)?|"
+    r"num(?:bers|eros)?|n[uú]meros|deut(?:eronom(?:y|io))?|"
+    r"josh(?:ua)?|josu[ée]|judg(?:es)?|jueces|ruth|rut|"
+    r"sam(?:uel)?|k(?:in)?gs?|reyes|chr(?:on(?:icles)?)?|cr[oó]n(?:icas)?|"
+    r"ezra|esdras|neh(?:emiah|em[íi]as)?|esth(?:er)?|ester|job|"
+    r"ps(?:alms?|\.)?|salmos?|prov(?:erbs|erbios)?|eccl(?:esiastes|esiast[eé]s)?|"
+    r"song(?:s)?|cant(?:ares)?|isa(?:iah|[íi]as)?|jer(?:emiah|em[íi]as)?|"
+    r"lam(?:entations|entaciones)?|ezek(?:iel)?|ezequiel|dan(?:iel)?|"
+    r"hos(?:ea)?|oseas|joel|amos|am[oó]s|obad(?:iah|[íi]as)?|abd[íi]as|"
+    r"jon(?:ah|[aá]s)?|mic(?:ah)?|miqueas|nah(?:um|[uú]m)?|hab(?:akkuk|acuc)?|"
+    r"zeph(?:aniah)?|sofon[íi]as|hag(?:gai|eo)?|zech(?:ariah)?|zec|"
+    r"zacar[íi]as|mal(?:achi|aqu[íi]as)?|"
+    r"matt(?:hew)?|mt|mateo|mark|mk|marcos|luke|lk|lucas|john|jn|juan|"
+    r"acts|hechos|rom(?:ans|anos)?|ro|cor(?:inthians|intios)?|"
+    r"gal(?:atians|atas|átas)?|eph(?:esians|esios)?|phil(?:ippians|ipenses)?|"
+    r"col(?:ossians|osenses)?|thess(?:alonians)?|tesalonicenses|"
+    r"tim(?:othy|oteo)?|tit(?:us|o)?|phlm|filem[oó]n|"
+    r"heb(?:rews|reos)?|jas|james|jms|santiago|pet(?:er)?|pedro|jude|judas|"
+    r"rev(?:elation)?|rv|apocalipsis|"
+    r"nephi|nefi|jacob|enos|en[óo]s|jarom|omni|mosiah|mos[íi]ah|alma|"
+    r"hel(?:aman|am[áa]n)?|mormon|morm[óo]n|ether|[éeE]ter|moroni|"
+    r"d(?:&|y)c|dc|dyc|moses|mois[ée]s|abr(?:aham)?|jsh|jsm|js-h|js-m"
+    r")"
+)
+_SCRIPTURE_REF_RE = re.compile(
+    rf"^\s*(?:read\s+|ver\s+|véase\s+|see\s+)?(?:\d\s+)?{_SCRIPTURE_BOOK_RE}"
+    r"\.?\s+\d+(?:[:\.\-–]\s*\d+)?",
+    flags=re.IGNORECASE,
+)
+
+# Mojibake: UTF-8 bytes that were double-decoded as latin-1 / cp1252. Common
+# shapes: "â€™", "â€œ", "Ã¡", "Ã©", "Ã³", "Â­" (soft hyphen), "ÏÎ±Î³" (Greek
+# through latin-1). We reject entities containing ≥2 of these glyphs — a
+# single "â" can appear legitimately in names like "María Ángel" when mis-
+# normalized, so we require clustering.
+_MOJIBAKE_PAIR_RE = re.compile(
+    r"Ã[¡¢£¤¥¦§¨©ª«®¯°±²³´µ¶·¸¹º»Ã]|â€[™œ\u009d\u009ctm\s]|Â[­·¦¥]|Ï[Î€¬†]|[ÏÎ]{2,}"
+)
+
+# HTML/markup fragments that escaped the parser: open/close tags, inline
+# attributes, stray entity-encoded strings.
+_HTML_RE = re.compile(
+    r"<\s*/?\s*[a-z][a-z0-9]*(?:\s+[^>]*)?>|"
+    r"\b(?:id|class|href|src|rel|style|data-\w+)\s*=\s*[\"']|"
+    r"&(?:amp|lt|gt|quot|nbsp|#\d+);"
+)
+
 
 # --------------------------------------------------------------------------- #
 # Normalization — shared by cleanup and ingestion
@@ -146,7 +199,8 @@ def is_garbage(name: str) -> str | None:
 
     Reasons (stable strings):
         empty, nul_bytes, too_short, too_long, all_punct, url_like,
-        archaic_verb, xref_fragment, pronoun_stopword.
+        archaic_verb, xref_fragment, pronoun_stopword, scripture_ref,
+        mojibake, html_fragment.
     """
     if name is None or not name.strip():
         return "empty"
@@ -166,6 +220,15 @@ def is_garbage(name: str) -> str | None:
 
     if _URL_RE.search(stripped):
         return "url_like"
+
+    if _HTML_RE.search(stripped):
+        return "html_fragment"
+
+    if _MOJIBAKE_PAIR_RE.search(stripped):
+        return "mojibake"
+
+    if _SCRIPTURE_REF_RE.match(stripped):
+        return "scripture_ref"
 
     if _ARCHAIC_VERB_RE.search(stripped):
         return "archaic_verb"
