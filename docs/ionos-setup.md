@@ -7,7 +7,8 @@ Guía paso a paso para provisionar el Postgres 16 + pgvector en el IONOS VPS M (
 | Parámetro | Valor |
 |---|---|
 | VPS IP (IONOS) | `212.227.243.210` |
-| Puerto MySQL (ya en uso) | `3306` |
+| OS | Ubuntu 22.04.5 LTS (jammy) |
+| DB vecina (ya existente) | **MariaDB 10.6.23**, puerto 3306, DB `ccm` (1.1 MB) |
 | Puerto Postgres (nuevo) | `5432` |
 | IP pública de la laptop de trabajo | `163.116.231.24` |
 | IP pública de la máquina personal | *pendiente — añadir cuando se use* |
@@ -15,8 +16,19 @@ Guía paso a paso para provisionar el Postgres 16 + pgvector en el IONOS VPS M (
 | Base de datos Postgres | `alejandria` |
 | Usuario read-write | `alejandria_rw` |
 | Usuario read-only | `alejandria_ro` |
+| RAM total | 3.8 GB |
+| RAM disponible antes de Postgres | ~500 MB (MariaDB usa ~3 GB) |
+| Swap | 4 GB file (añadido antes de Postgres) |
+| Disco libre | 60 GB / 155 GB |
 
-**Escenario "VPS con MySQL existente":** este VPS ya tiene MySQL corriendo con datos productivos en la base `alejandria` (histórica). Postgres se instala **en paralelo**, en puerto distinto (5432), sin tocar MySQL. Las dos DBs coexisten en el mismo host. Saltar el paso 1 (reinstall) es obligatorio.
+**Escenario "VPS con MariaDB existente":** este VPS ya tiene MariaDB productiva (DB `ccm`) en puerto 3306. Postgres se instala **en paralelo** en 5432 sin tocar MariaDB. Las dos DBs coexisten. Saltar el paso 1a (reinstall) es obligatorio.
+
+> **Nota sobre el `.env` del repo:** declara `DB_NAME=alejandria` pero la MariaDB real tiene `ccm`. El `.env` es aspiracional o referencia a otro servicio — no afecta este setup. La Postgres nueva puede usar `alejandria` sin colisión porque vive en puerto distinto.
+
+**Consecuencia operacional: RAM apretada.** Con MariaDB consumiendo ~3 GB, solo quedan ~500 MB antes de instalar Postgres. Dos decisiones derivadas:
+
+1. **Añadir 4 GB de swap ANTES de Postgres** (fase 1.5). Sin swap, un OOM-killer puede matar MariaDB bajo pico de carga.
+2. **Tuning reducido** de Postgres vs el benchmark (que corría en un VPS dedicado). Ver fase 4 con los valores ajustados.
 
 Al terminar, tendrás:
 - Postgres 16 corriendo como systemd service en el VPS
@@ -101,6 +113,28 @@ sudo ufw status
 
 Si algo no está, regresa al paso 2 del manual para aplicar lo que falte sin destruir config existente.
 
+### 1.5 Swap de 4 GB (CRÍTICO en este VPS)
+
+Con solo ~500 MB de RAM libre tras MariaDB, Postgres puede gatillar OOM-killer sin swap. Añade antes de continuar:
+
+```bash
+sudo fallocate -l 4G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
+# Usar swap conservadoramente, no agresivamente
+sudo sysctl vm.swappiness=10
+echo 'vm.swappiness=10' | sudo tee -a /etc/sysctl.d/99-alejandria.conf
+
+# Verificar
+free -h             # Swap debe mostrar 4.0Gi
+swapon --show
+```
+
+Si el VPS ya tiene swap suficiente (>= 2 GB), puedes saltar esta fase.
+
 ## 2. Primera conexión + hardening básico
 
 Desde tu máquina local:
@@ -184,11 +218,13 @@ sudo -u postgres nano /etc/postgresql/16/main/postgresql.conf
 Aplica estos valores (busca cada uno y descomenta + ajusta):
 
 ```conf
-# --- Memoria (calibrado para 4 GB RAM total) ---
-shared_buffers = 1GB
-effective_cache_size = 2500MB
-work_mem = 32MB
-maintenance_work_mem = 512MB
+# --- Memoria (ajustado a COEXISTENCIA con MariaDB, no dedicado) ---
+# Benchmark usaba shared_buffers=1GB en host dedicado.
+# Aquí MariaDB ocupa ~3 GB de los 3.8 GB totales, así que recortamos.
+shared_buffers = 512MB
+effective_cache_size = 1GB
+work_mem = 16MB
+maintenance_work_mem = 256MB
 
 # --- WAL y checkpoints ---
 max_wal_size = 2GB
@@ -205,6 +241,8 @@ port = 5432
 # --- SSL/TLS (los cert paths se configuran en paso 7) ---
 ssl = on
 ```
+
+**Impacto esperado del recorte de memoria:** queries FTS y semantic pueden ser 20-40 % más lentas vs el benchmark (que midió p95=44 ms FTS y p95=2.4 ms semantic). Queries KG simples (`kg_neighbors`, `kg_profile`) apenas se notan. Si en producción el p95 supera umbrales, considera upgrade a VPS L (8 GB) — ahí recuperamos `shared_buffers=1GB` con aire para MariaDB.
 
 **No reinicies aún** — primero configuramos `pg_hba.conf` y TLS.
 
