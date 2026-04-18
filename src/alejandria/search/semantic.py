@@ -8,7 +8,9 @@ import struct
 from dataclasses import dataclass
 from pathlib import Path
 
-import sqlite_vec
+# sqlite_vec is the SQLite-backend dependency. Import it lazily inside the
+# class methods so that callers that only use the Postgres backend (or just
+# the SemanticSearchResult dataclass) don't need sqlite-vec installed.
 
 from alejandria.config import settings
 
@@ -41,6 +43,7 @@ class SemanticSearch:
         self._ensure_table()
 
     def _conn(self) -> sqlite3.Connection:
+        import sqlite_vec  # lazy — only needed when the SQLite backend is used
         conn = sqlite3.connect(str(self._db_path), timeout=30)
         conn.enable_load_extension(True)
         sqlite_vec.load(conn)
@@ -163,3 +166,26 @@ class SemanticSearch:
         with self._conn() as conn:
             conn.execute(f"DROP TABLE IF EXISTS {self.TABLE}")
         self._ensure_table()
+
+
+# --------------------------------------------------------------------------- #
+# Backend factory (Phase 3 of feature/postgres-migration)
+# --------------------------------------------------------------------------- #
+
+def get_semantic_search(db_path: Path | None = None):
+    """Return the configured semantic search backend.
+
+    Dispatches on ``settings.storage_backend``:
+
+    * ``"sqlite"`` (default): ``SemanticSearch`` over sqlite-vec (vec0).
+    * ``"postgres"``: ``PostgresSemanticSearch`` over pgvector HNSW.
+
+    Same pattern as ``search/textual.py::get_textual_search``.
+    """
+    from alejandria.config import settings
+
+    backend = (settings.storage_backend or "sqlite").lower()
+    if backend == "postgres":
+        from alejandria.search.postgres_semantic import PostgresSemanticSearch
+        return PostgresSemanticSearch()
+    return SemanticSearch(db_path)

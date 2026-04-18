@@ -44,21 +44,19 @@ def test_jesucristo_is_consumed_by_gazetteer_not_emitted_by_ner() -> None:
         "Jesucristo must not leak through NER — it is a gazetteer alias"
 
 
-@pytest.mark.xfail(
-    reason=(
-        "Gazetteer currently has 'Church of Jesus Christ of Latter-day Saints' "
-        "with aliases 'La Iglesia de Jesucristo de los Santos de los Últimos Días', "
-        "'LDS Church', 'Iglesia SUD' — but NOT the standalone 'Iglesia' / 'La Iglesia'. "
-        "Spanish texts routinely use the short form; R4 (procedure_corpus_addition) "
-        "requires curators to add such aliases at gazetteer pre-seed time. "
-        "When the gazetteer is extended, this xfail flips to XPASSED and is a signal "
-        "to promote the test to a regular assertion."
-    ),
-    strict=True,
-)
 def test_iglesia_short_form_should_be_consumed_by_gazetteer() -> None:
-    """Known gap: 'Iglesia' (short form) isn't in the gazetteer as an alias for
-    the Church entity. Until R4 work closes that gap, NER can emit it."""
+    """Regression guard for the short form 'Iglesia' / 'La Iglesia'.
+
+    Historical note: this test was introduced as xfail(strict=True) because
+    spaCy sometimes emits 'La Iglesia' as ORG and the gazetteer only had
+    the long-form aliases ('La Iglesia de Jesucristo de los Santos de los
+    Últimos Días', 'Iglesia SUD'). In practice, the combination of spaCy
+    stopword filters + our garbage filter + the existing long-form match
+    keeps 'iglesia' out of the NER set. Promoted to a regular assertion.
+
+    If this ever flakes, add 'Iglesia' / 'La Iglesia' as aliases in
+    knowledge/gazetteers/entities.json (R4 in the ingestion refactor backlog).
+    """
     extractor = KGExtractor()
     result = extractor.extract(
         "La Iglesia enseña el evangelio a través de sus profetas."
