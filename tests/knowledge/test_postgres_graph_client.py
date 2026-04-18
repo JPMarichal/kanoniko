@@ -180,14 +180,13 @@ def test_factory_returns_postgres_when_flag_set(monkeypatch) -> None:
 # --------------------------------------------------------------------------- #
 
 def test_not_implemented_methods_raise_clearly() -> None:
-    """Methods in tiers 2b/2c/2d/Fase4 should raise NotImplementedError
+    """Methods in tiers 2c/2d/Fase4 should raise NotImplementedError
     with a message pointing at the audit doc. Fails loudly, not silently."""
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
     client = PostgresGraphClient()
 
     for method_name, args, kwargs in [
-        ("get_neighbors", ("x",), {}),
         ("get_documents_for_entity", ("x",), {}),
         ("get_typed_relations", ("x",), {}),
         ("get_genealogy_tree", ("x",), {}),
@@ -198,3 +197,98 @@ def test_not_implemented_methods_raise_clearly() -> None:
         fn = getattr(client, method_name)
         with pytest.raises(NotImplementedError):
             fn(*args, **kwargs)
+
+
+# --------------------------------------------------------------------------- #
+# get_neighbors (Tier 2b)
+# --------------------------------------------------------------------------- #
+
+def test_get_neighbors_returns_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    result = client.get_neighbors("Nephi", depth=1, limit=20)
+
+    assert isinstance(result, dict)
+    assert set(result.keys()) == {"nodes", "edges"}
+    assert isinstance(result["nodes"], list)
+    assert isinstance(result["edges"], list)
+
+
+def test_get_neighbors_nephi_depth_1_includes_family() -> None:
+    """Post R0+R7, Nephi's 1-hop neighbors should include at least some
+    of the BoM family (Lehi, Laman, Lemuel, Sam, Jacob, Joseph) via
+    curated relations."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    result = client.get_neighbors("Nephi", depth=1, limit=100)
+
+    neighbor_names = {n["name"] for n in result["nodes"]}
+    expected_family = {"Lehi", "Laman", "Lemuel", "Sam", "Jacob", "Joseph"}
+    overlap = neighbor_names & expected_family
+    assert len(overlap) >= 3, (
+        f"expected ≥3 of {expected_family} in neighbors, got overlap={overlap}. "
+        f"Sample neighbors: {sorted(neighbor_names)[:20]}"
+    )
+
+
+def test_get_neighbors_empty_entity_returns_empty() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    assert client.get_neighbors("") == {"nodes": [], "edges": []}
+    assert client.get_neighbors("xyzNotInDB") == {"nodes": [], "edges": []}
+
+
+def test_get_neighbors_respects_limit() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    result = client.get_neighbors("Jesus Christ", depth=1, limit=10)
+    assert len(result["edges"]) <= 10
+
+
+def test_get_neighbors_relation_types_filter() -> None:
+    """When relation_types given, returned edges must all have those types."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    result = client.get_neighbors(
+        "Nephi", depth=1, relation_types=["BROTHER_OF"], limit=30
+    )
+    if result["edges"]:
+        for edge in result["edges"]:
+            assert edge["type"] == "BROTHER_OF", (
+                f"relation_types filter leaked: got {edge['type']}"
+            )
+
+
+def test_get_neighbors_alias_resolves_to_canonical() -> None:
+    """Search by Spanish alias ('Nefi') should yield same neighbors as canonical
+    ('Nephi'). Validates the gazetteer resolution step."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    r_canonical = client.get_neighbors("Nephi", depth=1, limit=50)
+    r_alias = client.get_neighbors("Nefi", depth=1, limit=50)
+
+    canonical_names = {n["name"] for n in r_canonical["nodes"]}
+    alias_names = {n["name"] for n in r_alias["nodes"]}
+    overlap = canonical_names & alias_names
+    # Expect substantial overlap (should be identical modulo LIMIT ordering).
+    assert len(overlap) >= min(5, len(canonical_names) // 2), (
+        f"alias resolution broken: canonical={len(canonical_names)}, "
+        f"alias={len(alias_names)}, overlap={len(overlap)}"
+    )
+
+
+def test_get_neighbors_depth_2_recursive() -> None:
+    """depth=2 should use the recursive CTE path; must not explode."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    result = client.get_neighbors("Nephi", depth=2, limit=50)
+
+    assert len(result["nodes"]) <= 50  # respects limit
+    assert len(result["nodes"]) >= 1   # at least some neighbors at depth 2
