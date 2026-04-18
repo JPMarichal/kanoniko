@@ -24,7 +24,10 @@ from alejandria.storage.postgres.connection import get_connection
 logger = logging.getLogger(__name__)
 
 # Bump this whenever ddl.sql is modified in a way that requires re-apply.
-SCHEMA_VERSION = 1
+# v1 — initial schema (migration Fase 2).
+# v2 — entity_document_mentions added (kg-client-port-audit §6.1 decision A,
+#      2026-04-18). Unlocks get_documents_for_entity* and related methods.
+SCHEMA_VERSION = 2
 
 _DDL_PATH = Path(__file__).with_name("ddl.sql")
 

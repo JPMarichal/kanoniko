@@ -127,6 +127,21 @@ CREATE TABLE IF NOT EXISTS entity_profiles (
     updated_at      TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
+-- Entity→Document mention edges (ex-MENTIONED_IN en Neo4j).
+-- Decisión §6.1 del doc kg-client-port-audit.md (2026-04-18): añadida en
+-- SCHEMA_VERSION=2 para desbloquear 4 métodos del cliente
+-- (get_documents_for_entity, get_documents_for_entities_batch,
+-- get_all_entity_mentions, get_disambiguated_counts).
+CREATE TABLE IF NOT EXISTS entity_document_mentions (
+    entity_id     BIGINT NOT NULL REFERENCES entities(id) ON DELETE CASCADE,
+    file_path     TEXT NOT NULL REFERENCES document_registry(file_path) ON DELETE CASCADE,
+    resolved_name TEXT NOT NULL DEFAULT '',
+    confidence    TEXT,
+    PRIMARY KEY (entity_id, file_path, resolved_name)
+);
+CREATE INDEX IF NOT EXISTS entity_doc_mentions_entity_idx ON entity_document_mentions(entity_id);
+CREATE INDEX IF NOT EXISTS entity_doc_mentions_file_idx   ON entity_document_mentions(file_path);
+
 CREATE TABLE IF NOT EXISTS ner_candidates (
     id            BIGSERIAL PRIMARY KEY,
     name          TEXT NOT NULL,
