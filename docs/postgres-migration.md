@@ -359,6 +359,10 @@ Este patrón se codifica en `postgres_graph_client.py` como helper compartido.
 
 ---
 
+## 8bis. Alternativas al stack pgvector (documentadas aparte)
+
+El 2026-04-18 se evaluó si Pinecone / Weaviate / Qdrant / Milvus podrían pagar sobre el stack actual. Conclusión: no hoy, mantener pgvector. Detalles + triggers que reabrirían la pregunta en [`vector-db-options.md`](vector-db-options.md).
+
 ## 9. Referencias internas
 
 - `docs/architecture.md` — stack actual.
