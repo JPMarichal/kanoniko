@@ -193,19 +193,180 @@ class PostgresGraphClient:
     def get_neighbors(
         self,
         name: str,
-        entity_type: str | None = None,
         depth: int = 1,
+        relation_types: list[str] | None = None,
         limit: int = 50,
     ) -> dict:
-        """Return 1-hop (or multi-hop) neighbors. TO BE IMPLEMENTED — Tier 2b.
+        """Return bidirectional neighbors of ``name`` up to ``depth`` hops.
 
-        Uses bidirectional JOIN for depth=1, recursive CTE with LIMIT intermedio
-        for depth>1 (pattern per docs/postgres-migration.md §2.3).
+        Same return shape as ``Neo4jClient.get_neighbors``:
+            {"nodes": [{"name", "type"}, ...],
+             "edges": [{"from", "type", "to", "properties"}, ...]}
+
+        Implementation:
+          * depth=1: single bidirectional JOIN (fast path).
+          * depth>1: recursive CTE with hard cap on intermediate rowset
+            (pattern per docs/postgres-migration.md §2.3 — prevents blow-up
+            on hub entities).
+          * ``name`` is first resolved via gazetteer (alias → canonical).
+
+        ``relation_types`` filter maps to SQL ``WHERE r.rel_type = ANY(%s)``.
         """
-        raise NotImplementedError(
-            "PostgresGraphClient.get_neighbors pending (Tier 2b). "
-            "See docs/kg-client-port-audit.md §6.4."
+        if not name or not name.strip():
+            return {"nodes": [], "edges": []}
+
+        # Resolve alias to canonical (cross-language / case variants).
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        canonical_hit = is_canonical(name)
+        target_name = canonical_hit[0] if canonical_hit else name.strip()
+
+        # Build optional rel_type filter once.
+        rt_clause = ""
+        rt_params: list[Any] = []
+        if relation_types:
+            rt_clause = " AND r.rel_type = ANY(%s)"
+            rt_params.append(relation_types)
+
+        nodes: dict[int, dict] = {}  # dedup by entity id
+        edges: list[dict] = []
+
+        if depth == 1:
+            # Fast path: bidirectional JOIN. We emit two shapes of rows:
+            #   - where target is src    → edge goes target → dst_entity
+            #   - where target is dst    → edge goes src_entity → target
+            # ORDER BY confidence ensures curated/metadata results surface
+            # first. Without this, LIMIT would arbitrarily cut signal (curated
+            # BROTHER_OF, AUTHORED) under noise (llm_low BELONGS_TO/TEACHES),
+            # which validated in bench as the reason the first test failed.
+            sql = (
+                "WITH target AS ("
+                "  SELECT id, name, entity_type FROM entities WHERE name = %s LIMIT 1"
+                "), "
+                "combined AS ( "
+                "  SELECT 'out' AS dir, e2.id AS other_id, e2.name AS other_name, "
+                "         e2.entity_type AS other_type, r.rel_type, r.properties, r.confidence "
+                "  FROM target t JOIN relations r ON r.src_id = t.id "
+                "  JOIN entities e2 ON e2.id = r.dst_id "
+                f"  WHERE TRUE{rt_clause} "
+                "  UNION ALL "
+                "  SELECT 'in', e2.id, e2.name, e2.entity_type, r.rel_type, r.properties, r.confidence "
+                "  FROM target t JOIN relations r ON r.dst_id = t.id "
+                "  JOIN entities e2 ON e2.id = r.src_id "
+                f"  WHERE TRUE{rt_clause} "
+                ") "
+                "SELECT dir, other_id, other_name, other_type, rel_type, properties "
+                "FROM combined ORDER BY "
+                "  CASE confidence "
+                "    WHEN 'curated' THEN 1 "
+                "    WHEN 'metadata' THEN 2 "
+                "    WHEN 'llm_high' THEN 3 "
+                "    WHEN 'llm_low' THEN 4 "
+                "    WHEN 'ner' THEN 5 "
+                "    ELSE 6 END, "
+                "  rel_type "
+                "LIMIT %s"
+            )
+            params: list[Any] = [target_name]
+            params.extend(rt_params)  # outgoing filter
+            params.extend(rt_params)  # incoming filter (duplicate)
+            params.append(limit)
+
+            with get_connection() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(sql, params)
+                    rows = cur.fetchall()
+
+            for row in rows:
+                direction, other_id, other_name, other_type, rel_type, props = row
+                nodes.setdefault(other_id, {"name": other_name, "type": other_type})
+                if direction == "out":
+                    edges.append({
+                        "from": target_name, "type": rel_type, "to": other_name,
+                        "properties": props or {},
+                    })
+                else:
+                    edges.append({
+                        "from": other_name, "type": rel_type, "to": target_name,
+                        "properties": props or {},
+                    })
+            return {"nodes": list(nodes.values()), "edges": edges}
+
+        # depth >= 2: recursive CTE with LIMIT intermedio (hub safety).
+        # We walk the undirected graph, keeping visited set on the path.
+        # Node cap 5000 intermediate to prevent fan-out on highly connected
+        # entities; final LIMIT applies to the distinct neighbor set.
+        # NOTE: Postgres doesn't accept LIMIT directly in the anchor query of
+        # a recursive CTE before UNION ALL; wrap the entity lookup in a CTE.
+        sql = (
+            "WITH RECURSIVE target_entity AS ( "
+            "  SELECT id, name, entity_type FROM entities WHERE name = %s LIMIT 1 "
+            "), "
+            "bfs AS ( "
+            "  SELECT t.id AS target_id, t.id AS node_id, t.name AS node_name, "
+            "         t.entity_type AS node_type, 0 AS depth, ARRAY[t.id] AS visited, "
+            "         NULL::bigint AS edge_src, NULL::bigint AS edge_dst, "
+            "         NULL::text AS edge_type, NULL::jsonb AS edge_props "
+            "  FROM target_entity t "
+            "  UNION ALL "
+            "  SELECT b.target_id, "
+            "         CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END AS node_id, "
+            "         e2.name, e2.entity_type, b.depth + 1, b.visited || "
+            "           (CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END), "
+            "         r.src_id, r.dst_id, r.rel_type, r.properties "
+            "  FROM bfs b "
+            "  JOIN relations r "
+            "    ON (r.src_id = b.node_id OR r.dst_id = b.node_id) "
+            f"   {rt_clause}"
+            "  JOIN entities e2 ON e2.id = "
+            "    (CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END) "
+            "  WHERE b.depth < %s "
+            "    AND NOT (CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END) "
+            "        = ANY(b.visited) "
+            "), capped AS (SELECT * FROM bfs LIMIT 5000) "
+            "SELECT DISTINCT ON (node_id) node_id, node_name, node_type, "
+            "       edge_src, edge_dst, edge_type, edge_props "
+            "FROM capped WHERE depth > 0 ORDER BY node_id, depth LIMIT %s"
         )
+        params = [target_name]
+        params.extend(rt_params)
+        params.extend([depth, limit])
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        # Need a second pass for edge names: edge_src/edge_dst are ids, resolve.
+        edge_ids_needed: set[int] = set()
+        for row in rows:
+            if row[3] is not None:
+                edge_ids_needed.add(row[3])
+                edge_ids_needed.add(row[4])
+            nodes.setdefault(row[0], {"name": row[1], "type": row[2]})
+
+        id_to_name: dict[int, str] = {}
+        if edge_ids_needed:
+            with get_connection() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        "SELECT id, name FROM entities WHERE id = ANY(%s)",
+                        (list(edge_ids_needed),),
+                    )
+                    for eid, ename in cur.fetchall():
+                        id_to_name[eid] = ename
+
+        for row in rows:
+            _, _, _, edge_src, edge_dst, edge_type, edge_props = row
+            if edge_src is None:
+                continue
+            edges.append({
+                "from": id_to_name.get(edge_src, str(edge_src)),
+                "type": edge_type,
+                "to": id_to_name.get(edge_dst, str(edge_dst)),
+                "properties": edge_props or {},
+            })
+
+        return {"nodes": list(nodes.values()), "edges": edges}
 
     def get_documents_for_entity(self, name: str) -> list[dict]:
         """Return documents that mention the entity via entity_document_mentions.
