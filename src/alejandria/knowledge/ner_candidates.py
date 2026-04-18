@@ -47,7 +47,18 @@ class NERCandidateTracker:
             """)
 
     def record(self, name: str, entity_type: str, source_file: str = "") -> None:
-        """Record an NER-discovered entity. Increments frequency if already known."""
+        """Record an NER-discovered entity. Increments frequency if already known.
+
+        R1/R3 gate (kg-ingestion-refactor §3): reject garbage (URLs, punct-only,
+        archaic verbs, pronouns, length outliers, xref fragments, NULs) and
+        canonical gazetteer matches *before touching the DB*. Prevents the
+        table from refilling with noise that R0 just cleaned up.
+        """
+        from alejandria.knowledge.gazetteer_lookup import should_skip_ner_entity
+
+        if should_skip_ner_entity(name) is not None:
+            return
+
         with sqlite3.connect(self._db_path) as conn:
             # Try to update existing
             cursor = conn.execute(
