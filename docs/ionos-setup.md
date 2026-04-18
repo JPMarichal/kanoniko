@@ -481,11 +481,19 @@ Si falla con timeout o "connection refused", en orden:
 
 #### Caso especial: red corporativa bloquea outbound 5432
 
-Muchas redes corporativas permiten 80/443/22 pero bloquean puertos no-estándar. Síntoma: `Test-NetConnection` y `nc -zv` **time out** desde la laptop, pero **`nc -zv 212.227.243.210 5432` funciona desde el propio VPS**. UFW, IONOS Firewall y Postgres están bien — el bloqueo es el firewall corporativo en la salida.
+**Síntoma:** `Test-NetConnection 212.227.243.210 -Port 5432` y `nc -zv` **time out** desde la laptop, pero **`nc -zv 212.227.243.210 5432` succeeded desde el propio VPS**. UFW, IONOS Firewall y Postgres están bien — el firewall corporativo bloquea outbound en puertos no-estándar (permite 80/443/22).
 
-**Solución: SSH tunnel sobre el 22** (que sí pasa por corporativo porque ya usas SSH).
+**Solución: SSH tunnel sobre el 22** (que ya pasa por corporativo porque usas SSH normalmente).
 
-Añadir a `pg_hba.conf` acceso desde localhost (para el túnel):
+##### Paso 1 — Habilitar pg_hba para loopback
+
+El túnel SSH hace que las conexiones lleguen a Postgres con source IP `127.0.0.1`. El `pg_hba.conf` default de Ubuntu **ya tiene** `host all all 127.0.0.1/32 scram-sha-256` — verifica:
+
+```bash
+sudo grep "127.0.0.1" /etc/postgresql/16/main/pg_hba.conf
+```
+
+Si el resultado **no incluye** `alejandria`, añadir explícitamente:
 
 ```bash
 sudo tee -a /etc/postgresql/16/main/pg_hba.conf > /dev/null <<'EOF'
@@ -496,33 +504,61 @@ EOF
 sudo systemctl reload postgresql@16-main
 ```
 
-**DBeaver con SSH tunnel:**
+##### Paso 2 — DBeaver con SSH tunnel (RUTA VERIFICADA 2026-04-18)
 
-- Pestaña **SSH**: Use SSH Tunnel ✓, Host `212.227.243.210`, Port `22`, User `root` (o tu usuario SSH), Authentication `Public Key`, Private Key = ruta a tu clave SSH.
-- Pestaña **Main**: Host `localhost` (no el IP público), Port `5432`, Database `alejandria`, Username `alejandria_rw`.
-- Pestaña **SSL**: desactivar Use SSL (el túnel SSH ya cifra; `pg_hba` para 127.0.0.1 usa `host` no `hostssl`).
+Configuración que funcionó:
 
-**CLI equivalente para scripts/migradores:**
+| Pestaña | Campo | Valor |
+|---|---|---|
+| **SSH** | Use SSH Tunnel | ✓ |
+| | Host/IP | `212.227.243.210` |
+| | Port | `22` |
+| | User Name | `root` |
+| | Authentication Method | `Password` (también funciona `Public Key` si la tienes) |
+| | Password | password SSH del root |
+| | Save credentials | ✓ (opcional) |
+| **General** | Host | `localhost` ← NO el IP público |
+| | Port | `5432` |
+| | Database | `alejandria` |
+| | Username | `alejandria_rw` |
+| | Password | password PWD_RW del password manager |
+| **SSL** | SSL mode | `disable` ← el túnel SSH ya cifra; Postgres para 127.0.0.1 usa `host` no `hostssl` |
+
+Test Connection debe mostrar "Conectado (~3000 ms)" primera vez, más rápido después. Server: `PostgreSQL 16.13 on x86_64-pc-linux-gnu`. Driver: `PostgreSQL JDBC Driver 42.7.2`.
+
+##### Paso 3 — CLI equivalente para scripts/migradores
 
 ```bash
-# Tunel abierto en background (persiste hasta que mates el proceso)
+# Abre túnel en background (persiste hasta que mates el proceso)
 ssh -L 15432:localhost:5432 -N -f root@212.227.243.210
 
-# Ahora localhost:15432 es equivalente a 212.227.243.210:5432 desde el VPS
+# Verifica que el puerto está escuchando local
+ss -tlnp | grep 15432
+
+# Ahora localhost:15432 = 212.227.243.210:5432 desde dentro del VPS
 psql "host=localhost port=15432 dbname=alejandria user=alejandria_rw sslmode=disable"
 
 # Cerrar túnel cuando termines
 pkill -f "ssh -L 15432"
 ```
 
-**Implicación para migradores (Fase 5):** Si sigues en red corporativa, correr los migradores con:
+##### Implicación para Fase 5 (migradores)
+
+Correr migradores con el túnel activo:
 ```bash
 ALEJANDRIA_POSTGRES_HOST=localhost
 ALEJANDRIA_POSTGRES_PORT=15432
 ALEJANDRIA_POSTGRES_SSLMODE=disable
+ALEJANDRIA_POSTGRES_USER=alejandria_rw
+ALEJANDRIA_POSTGRES_PASSWORD=<PWD_RW>
+ALEJANDRIA_POSTGRES_DB=alejandria
 ```
 
-Alternativa: clonar el repo en el VPS y correr migradores ahí (evita el túnel pero sube 3.5 GB de SQLite al VPS). Decidir caso por caso.
+Para Docker containers en WSL, añadir `--network host` al `docker run` para que `localhost:15432` resuelva al túnel del host.
+
+**Alternativas** (por si el túnel no escala):
+- **Desde la máquina personal** (otra red, distinto ISP): conexión directa al 5432 probablemente funcione sin túnel.
+- **Correr migradores en el propio VPS**: clonar el repo allá y ejecutar directo. Evita el túnel pero requiere subir 3.5 GB de SQLite (scp o similar).
 
 Si esto funciona, **estás listo para aplicar el DDL desde la máquina local**.
 
