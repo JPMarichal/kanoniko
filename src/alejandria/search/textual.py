@@ -228,7 +228,7 @@ class TextualSearch:
 # Backend factory (Phase 3 of feature/postgres-migration)
 # --------------------------------------------------------------------------- #
 
-def get_textual_search(db_path: Path | None = None):
+def make_textual_search(db_path: Path | None = None):
     """Return the configured textual search backend.
 
     Dispatches on ``settings.storage_backend``:
@@ -236,9 +236,10 @@ def get_textual_search(db_path: Path | None = None):
     * ``"sqlite"`` (default): the battle-tested ``TextualSearch`` over FTS5.
     * ``"postgres"``: ``PostgresTextualSearch`` over tsvector + GIN.
 
-    Callers (e.g. ``search/hybrid.py``) should use this factory instead of
-    instantiating ``TextualSearch`` directly so the switch lands in one place
-    at cutover time.
+    Named ``make_*`` because the DI layer in ``api/dependencies.py`` already
+    owns the name ``get_textual_search`` (lru_cache wrapper around this
+    factory). Callers in CLI / MCP / ingestion pipeline should use this
+    factory; FastAPI routes pull via the DI accessor.
     """
     from alejandria.config import settings
 

@@ -85,11 +85,11 @@ def test_count() -> None:
 
 def test_factory_returns_postgres_when_flag_set(monkeypatch) -> None:
     from alejandria.config import settings
-    from alejandria.search.semantic import get_semantic_search
+    from alejandria.search.semantic import make_semantic_search
     from alejandria.search.postgres_semantic import PostgresSemanticSearch
 
     monkeypatch.setattr(settings, "storage_backend", "postgres")
-    backend = get_semantic_search()
+    backend = make_semantic_search()
     assert isinstance(backend, PostgresSemanticSearch)
 
 
@@ -99,9 +99,9 @@ def test_factory_returns_sqlite_by_default(monkeypatch, tmp_path) -> None:
         pytest.skip("sqlite_vec not installed in this test env (legacy stack opt-in)")
 
     from alejandria.config import settings
-    from alejandria.search.semantic import get_semantic_search, SemanticSearch
+    from alejandria.search.semantic import make_semantic_search, SemanticSearch
 
     monkeypatch.setattr(settings, "storage_backend", "sqlite")
     monkeypatch.setattr(settings, "sqlite_db_path", tmp_path / "test.db")
-    backend = get_semantic_search(db_path=tmp_path / "test.db")
+    backend = make_semantic_search(db_path=tmp_path / "test.db")
     assert isinstance(backend, SemanticSearch)

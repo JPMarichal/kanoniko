@@ -117,22 +117,22 @@ def test_result_dataclass_shape() -> None:
 # --------------------------------------------------------------------------- #
 
 def test_factory_returns_postgres_when_flag_set(monkeypatch) -> None:
-    """get_textual_search must dispatch on settings.storage_backend."""
+    """make_textual_search must dispatch on settings.storage_backend."""
     from alejandria.config import settings
-    from alejandria.search.textual import get_textual_search
+    from alejandria.search.textual import make_textual_search
     from alejandria.search.postgres_textual import PostgresTextualSearch
 
     monkeypatch.setattr(settings, "storage_backend", "postgres")
-    backend = get_textual_search()
+    backend = make_textual_search()
     assert isinstance(backend, PostgresTextualSearch)
 
 
 def test_factory_returns_sqlite_by_default(monkeypatch, tmp_path) -> None:
     from alejandria.config import settings
-    from alejandria.search.textual import get_textual_search, TextualSearch
+    from alejandria.search.textual import make_textual_search, TextualSearch
 
     monkeypatch.setattr(settings, "storage_backend", "sqlite")
     # override sqlite_db_path to a fresh temp file so we don't touch real data
     monkeypatch.setattr(settings, "sqlite_db_path", tmp_path / "test.db")
-    backend = get_textual_search(db_path=tmp_path / "test.db")
+    backend = make_textual_search(db_path=tmp_path / "test.db")
     assert isinstance(backend, TextualSearch)

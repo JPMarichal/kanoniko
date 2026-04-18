@@ -14,7 +14,7 @@ from functools import lru_cache
 from alejandria.config import settings
 from alejandria.ingestion.pipeline import IngestionPipeline
 from alejandria.ingestion.registry import DocumentRegistry
-from alejandria.search.textual import TextualSearch
+from alejandria.search.textual import TextualSearch, make_textual_search
 
 logger = logging.getLogger(__name__)
 
@@ -50,21 +50,27 @@ def get_registry() -> DocumentRegistry:
 
 
 @lru_cache
-def get_textual_search() -> TextualSearch:
-    return TextualSearch(settings.sqlite_db_path)
+def get_textual_search():
+    """Cached accessor — returns whichever backend settings.storage_backend selects.
+
+    Return type is duck-typed: ``TextualSearch`` (sqlite) or
+    ``PostgresTextualSearch``. Both expose ``.search(query, limit, file_path_filter)``,
+    ``.count_chunks()``, ``.count_documents()``.
+    """
+    return make_textual_search()
 
 
 # ── Optional services (retry until available) ──
 
 @_cache_success
 def get_semantic_search():
-    """Get SemanticSearch instance, or None if sqlite-vec/sentence-transformers unavailable."""
+    """Get semantic search backend (sqlite-vec or pgvector), or None if unavailable."""
     try:
-        from alejandria.search.semantic import SemanticSearch
+        from alejandria.search.semantic import make_semantic_search
 
-        return SemanticSearch(settings.sqlite_db_path)
+        return make_semantic_search()
     except Exception:
-        logger.warning("Semantic search unavailable (sqlite-vec not loaded or deps missing)")
+        logger.warning("Semantic search unavailable (backend deps missing)")
         return None
 
 

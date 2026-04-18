@@ -21,14 +21,15 @@ def _json_out(data: Any) -> None:
 # Lazy loaders
 # ---------------------------------------------------------------------------
 
-def _textual() -> TextualSearch:
-    return TextualSearch(settings.sqlite_db_path)
+def _textual():
+    from alejandria.search.textual import make_textual_search
+    return make_textual_search()
 
 
 def _semantic():
     try:
-        from alejandria.search.semantic import SemanticSearch
-        return SemanticSearch()
+        from alejandria.search.semantic import make_semantic_search
+        return make_semantic_search()
     except Exception:
         return None
 
