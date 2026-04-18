@@ -79,7 +79,15 @@ class Settings(BaseSettings):
     host: str = "0.0.0.0"
     port: int = 4300
 
-    model_config = {"env_prefix": "ALEJANDRIA_", "env_file": ".env"}
+    model_config = {
+        "env_prefix": "ALEJANDRIA_",
+        "env_file": ".env",
+        # El `.env` del repo contiene vars de otros subsistemas (p. ej. DB_HOST
+        # para el MariaDB histórico). Sin esto, pydantic rechaza todo el Settings
+        # por esas claves "extra". "ignore" es la semántica correcta: solo
+        # consumir ALEJANDRIA_*, dejar el resto para otros tools.
+        "extra": "ignore",
+    }
 
 
 settings = Settings()
