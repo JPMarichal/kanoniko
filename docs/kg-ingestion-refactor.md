@@ -215,6 +215,24 @@ Ver doc de migración §7. Generar summaries solo para top-K por `mention_count`
 
 ---
 
+## 4bis. Estado real al 2026-04-18
+
+Ejecutado contra bench y luego contra IONOS — paridad verificada.
+
+| Item | Estado | Detalle |
+|---|---|---|
+| R0 | ✅ Ejecutado en IONOS | -8,807 entities, -2.5M relations, duplicados canonical merged. |
+| R1 | ✅ En código | `gazetteer_lookup.should_skip_ner_entity()` + filtros en `extractor.py` y `ner_candidates.record()`. 27 tests. |
+| R2 | ✅ En código | `NERCandidateTracker.prune_low_value(min_freq=3, max_age_days=30)` llamado al final de cada KG rebuild. |
+| R3 | ✅ En código | `is_garbage()` con mismos buckets que R0 — lo que el cleanup borra es lo que la ingesta rechaza. |
+| R4 | ✅ Doc + aliases iniciales | `procedure_corpus_addition.md` §4a reforzado. Aliases "Iglesia"/"La Iglesia"/"the Church" añadidos a "Church of Jesus Christ of Latter-day Saints" al detectar el gap en integration tests. |
+| R5 | Parcial | Cross-language expandido para "Iglesia". Pendiente: honorificos tipo "Señor Jesucristo", "Su Hijo Jesucristo" — requieren normalización adicional o entries específicas. |
+| R6 | Decisión pendiente | ner_candidates — el mecanismo sigue inactivo (0 promotions). R2 mitiga el crecimiento; decisión sobre (a) usar, (b) auto-promover, (c) eliminar, abierta. |
+| R7 | ✅ Ejecutado en IONOS | Kill de 27.8M CO_OCCURS_WITH + 5M ASSOCIATED_WITH llm_low + 549k RELATED_TO llm_low. DB 11 GB → 5.8 GB. |
+| R8 | Pendiente | Profile generation lazy — no crítico hasta que la ingesta escriba a Postgres. |
+
+**R9 nuevo — Pre-port audit del `neo4j_client.py`** (derivado de este trabajo): el cliente actual se construyó sobre datos sucios; muchos métodos asumen patterns que R7 eliminó. Auditoría separada en `docs/kg-client-port-audit.md`.
+
 ## 5. Cross-references
 
 - [postgres-migration.md](postgres-migration.md) — la migración de motor que precede este trabajo.

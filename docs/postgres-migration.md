@@ -233,7 +233,14 @@ Este patrón se codifica en `postgres_graph_client.py` como helper compartido.
 
 ## 3. Plan de fases
 
-### Fase 0 — Preparación (1-2 días)
+### Fase 0 — Preparación ✅ COMPLETADA (2026-04-18)
+- Ruta verificada: Postgres 16.13 + pgvector 0.8.2 + pg_trgm + unaccent corriendo en el VPS IONOS (212.227.243.210, coexistencia con MariaDB productiva). Doc operativo en `docs/ionos-setup.md`.
+- DB `alejandria`, usuarios `alejandria_rw` / `alejandria_ro`, self-signed TLS.
+- Acceso desde la laptop laboral vía SSH tunnel (`localhost:15432` → `VPS:5432`) porque la red corporativa bloquea outbound 5432. SSH key auth configurada.
+- Backups: `pg_dump` custom+gzip diario via cron (03:15 UTC, retención 14 días). Primer backup real: 656 MB.
+- Schema v1 aplicado via `apply_schema()` — las 9 tablas presentes.
+
+### Fase 0bis — Notas de referencia (si se levantase un VPS nuevo)
 - Provisionar Postgres 16 en IONOS VPS (systemd, TLS con Let's Encrypt, pgbouncer opcional).
 - Configurar `postgresql.conf` para 4 GB RAM: `shared_buffers = 1GB`, `effective_cache_size = 2.5GB`, `work_mem = 32MB`, `maintenance_work_mem = 512MB`.
 - **Memoria compartida (`/dev/shm`) ≥ 1 GB** — hallazgo Fase 1: la construcción de índices HNSW sobre >10k vectores de 384-dim agota el default de 64 MB del runtime Docker. En VPS nativo (systemd) el default de `/dev/shm` es la mitad de la RAM (suficiente); verificar con `df -h /dev/shm` tras provisionar.
@@ -247,23 +254,35 @@ Este patrón se codifica en `postgres_graph_client.py` como helper compartido.
 - Veredicto: **GO con margen amplio** — ingesta ~115x más rápida que Neo4j batched, todos los queries p95 entre 2.4 ms y 44.5 ms, storage proyectado ~31% del SQLite actual.
 - Hallazgos que modificaron este diseño: `immutable_unaccent`, `shm_size`, `LIMIT` intermedio en CTEs recursivos (ya integrados arriba).
 
-### Fase 2 — Schema + migrador (3-5 días)
-- Crear módulo `src/alejandria/storage/postgres/` con conexión, DDL, migraciones Alembic.
-- Script `scripts/migrate_sqlite_to_postgres.py`: exporta chunks/registry/profiles/ner a CSV/TSV, `COPY` al VPS.
-- Script `scripts/migrate_neo4j_to_postgres.py`: dump nodes+edges → tablas `entities`, `entity_aliases`, `relations`.
-- Validación: conteos por tabla, checksums por file_path, spot-check de queries típicas.
+### Fase 2 — Schema + migrador ✅ COMPLETADA
+- Módulo `src/alejandria/storage/postgres/` con conexión, DDL canónico (`ddl.sql`), `apply_schema()` idempotente + `ensure_hnsw_index()` aparte.
+- `migrate_sqlite.py`: streaming con `COPY`, preserva ids, skip orphan vectors. 309k chunks + 217k embeddings + 623k ner en ~5 min vs Postgres remoto.
+- `migrate_neo4j.py`: streaming de 57M Entity→Entity relations + 820k entities + 102 aliases. Skip de 3.98M Entity→Document. ~45 min vs Postgres remoto.
+- **Cleanup post-migración** (originalmente Fase 4, adelantado aquí):
+  - R0: elimina garbage (URLs, punct, archaic, pronouns, outliers de longitud) + merge de 1,244 canonical duplicates → -8,807 entities, -2.5M relations.
+  - R7 conservador: kill CO_OCCURS_WITH + ASSOCIATED_WITH llm_low + RELATED_TO llm_low → -33.3M relations.
+  - Resultado en IONOS: **5.8 GB**, 28% menor que el stack SQLite+Neo4j combinado (8.1 GB).
+- Validación funcional: `kg_neighbors(Nephi, person)` devuelve 15 curated relations (antes: ruido BELONGS_TO). FTS `websearch_to_tsquery` funciona.
 
-### Fase 3 — Adaptación de módulos (1-2 semanas)
-Orden sugerido, de menor a mayor acoplamiento:
-1. `search/textual.py` → `search/postgres_textual.py` (tsvector + ts_rank).
-2. `search/semantic.py` → `search/postgres_semantic.py` (pgvector HNSW).
-3. `search/hybrid.py` — reutiliza, solo cambia las fuentes.
-4. `ingestion/registry.py` → cambio de driver.
-5. `knowledge/neo4j_client.py` → `knowledge/postgres_graph_client.py` (CTEs recursivos).
-6. `knowledge/profile_store.py` → cambio de driver.
-7. `ingestion/pipeline.py` → write path unificado con `COPY` por batch.
+### Fase 3 — Adaptación de módulos (en progreso)
 
-**Feature flag:** `ALEJANDRIA_BACKEND=sqlite|postgres` en `config.py`. Permite correr ambos stacks en paralelo durante transición.
+**Feature flag activo:** `ALEJANDRIA_STORAGE_BACKEND=sqlite|postgres` (default `sqlite`). Centraliza el switch.
+
+**Progreso 2026-04-18:**
+
+| # | Módulo | Estado | Nota |
+|---|---|---|---|
+| 1 | `search/textual.py` → `postgres_textual.py` | ✅ | `websearch_to_tsquery('spanish')` + GIN tsvector. 8 tests. |
+| 2 | `search/semantic.py` → `postgres_semantic.py` | ✅ | pgvector `<=>` + HNSW. 7 tests. `sqlite_vec` import ahora lazy para que el backend Postgres pueda importar `SemanticSearchResult` sin tenerlo instalado. |
+| 3 | `search/hybrid.py` | No requiere cambio | Solo hace RRF fusion sobre dicts; es backend-agnóstico. |
+| 4 | `api/dependencies.py` (DI) | ✅ | `get_textual_search` / `get_semantic_search` delegan a `make_*` factories. |
+| 5 | `cli.py` + `mcp_server.py` | ✅ | Consumen factories. |
+| 6 | `ingestion/registry.py` | Pendiente | Refactor a driver abstracto. |
+| 7 | **`knowledge/neo4j_client.py` → `postgres_graph_client.py`** | ⚠️ **Auditoría pre-port necesaria** | Ver `docs/kg-client-port-audit.md`. El cliente actual creció sobre datos sucios que R0+R7 eliminaron; portarlo tal cual arrastraría asunciones obsoletas. |
+| 8 | `knowledge/profile_store.py` | Pendiente | Cambio de driver + resolve staged profiles. |
+| 9 | `ingestion/pipeline.py` (write path) | Pendiente | `COPY` por batch vs inserts Neo4j-UNWIND. |
+
+**Principio aplicado al port del KG client** (insight del usuario): *el trabajo de ingesta se prepara primero en Fase 0; porque descubrimos el gap del gazetteer "Iglesia" durante tests, sabemos que el cliente tiene supuestos implícitos sobre datos que ya no están.* Antes de escribir `postgres_graph_client.py` se ejecuta la auditoría: inventario de métodos, callers reales, patrones que perdieron sentido tras R7, gaps de gazetteer, tabla de port plan (KEEP/REWRITE/CONSOLIDATE/DEPRECATE), golden queries para test de paridad. Detalles en `docs/kg-client-port-audit.md`.
 
 ### Fase 4 — Paralelo y cutover (3-5 días)
 - Correr ambos backends en paralelo una semana; comparar resultados de `mcp__alejandria__chat_ask` con queries de referencia.
