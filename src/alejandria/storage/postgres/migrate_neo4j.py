@@ -47,7 +47,12 @@ from alejandria.storage.postgres.schema import apply_schema
 logger = logging.getLogger(__name__)
 
 
-TARGET_TABLES_IN_FK_ORDER = ("entities", "entity_aliases", "relations")
+TARGET_TABLES_IN_FK_ORDER = (
+    "entities",
+    "entity_aliases",
+    "relations",
+    "entity_document_mentions",
+)
 
 
 @dataclass
@@ -55,21 +60,30 @@ class KGReport:
     entities: int = 0
     aliases: int = 0
     relations: int = 0
+    mentions: int = 0
     skipped_doc_edges: int = 0
     skipped_unknown_endpoint: int = 0
+    skipped_mentions_unknown_entity: int = 0
+    skipped_mentions_unknown_file: int = 0
     seconds: dict[str, float] = field(default_factory=dict)
     profiles_resolved: int = 0
 
     def summary(self) -> str:
         lines = [
             "Neo4j → Postgres migration summary:",
-            f"  entities       {self.entities:>12,} rows  {self.seconds.get('entities', 0):7.1f}s",
-            f"  entity_aliases {self.aliases:>12,} rows  {self.seconds.get('entity_aliases', 0):7.1f}s",
-            f"  relations      {self.relations:>12,} rows  {self.seconds.get('relations', 0):7.1f}s",
-            f"  (skipped {self.skipped_doc_edges:,} Entity→Document edges)",
+            f"  entities        {self.entities:>12,} rows  {self.seconds.get('entities', 0):7.1f}s",
+            f"  entity_aliases  {self.aliases:>12,} rows  {self.seconds.get('entity_aliases', 0):7.1f}s",
+            f"  relations       {self.relations:>12,} rows  {self.seconds.get('relations', 0):7.1f}s",
+            f"  mentions (E→D)  {self.mentions:>12,} rows  {self.seconds.get('mentions', 0):7.1f}s",
         ]
+        if self.skipped_doc_edges:
+            lines.append(f"  (skipped {self.skipped_doc_edges:,} Entity→Document edges NOT MENTIONED_IN)")
         if self.skipped_unknown_endpoint:
             lines.append(f"  (skipped {self.skipped_unknown_endpoint:,} edges with unknown endpoints)")
+        if self.skipped_mentions_unknown_entity:
+            lines.append(f"  (skipped {self.skipped_mentions_unknown_entity:,} mentions: entity not in id_map)")
+        if self.skipped_mentions_unknown_file:
+            lines.append(f"  (skipped {self.skipped_mentions_unknown_file:,} mentions: file_path not in document_registry)")
         if self.profiles_resolved:
             lines.append(f"  staged profiles resolved: {self.profiles_resolved}")
         return "\n".join(lines)
@@ -257,6 +271,92 @@ def migrate_relations(
     return copied, skipped_doc, skipped_unknown, time.perf_counter() - t0
 
 
+def migrate_entity_document_mentions(
+    neo4j: Session,
+    pg: psycopg.Connection,
+    id_map: dict[tuple[str, str], int] | None = None,
+) -> tuple[int, int, int, float]:
+    """Migrate `Entity-[:MENTIONED_IN]->Document` edges to `entity_document_mentions`.
+
+    Added in SCHEMA_VERSION=2 to unlock 4 methods blocked by the initial design
+    decision to skip Entity→Document edges
+    (see docs/kg-client-port-audit.md §6.1 Option A).
+
+    Args:
+        neo4j: open Neo4j session.
+        pg: open Postgres connection (writes).
+        id_map: optional pre-built (name, type) → pg_id dict. If None, loaded
+            from Postgres — useful when this function runs standalone, i.e.
+            after a previous full migration without this step.
+
+    Returns:
+        (copied, skipped_unknown_entity, skipped_unknown_file, elapsed_seconds).
+    """
+    t0 = time.perf_counter()
+
+    # Load id_map from Postgres if not provided (standalone re-run).
+    if id_map is None:
+        id_map = {}
+        with pg.cursor() as cur:
+            cur.execute("SELECT id, name, entity_type FROM entities")
+            for eid, name, etype in cur:
+                id_map[(name, etype)] = eid
+        logger.info("id_map built from Postgres with %d entries", len(id_map))
+
+    # Load valid file_paths to skip mentions that don't match any document_registry.
+    # Neo4j Documents may have been created for paths that never reached SQLite.
+    valid_paths: set[str] = set()
+    with pg.cursor() as cur:
+        cur.execute("SELECT file_path FROM document_registry")
+        for row in cur:
+            valid_paths.add(row[0])
+    logger.info("valid file_paths loaded: %d", len(valid_paths))
+
+    # Disable statement timeout for the COPY (same rationale as relations).
+    with pg.cursor() as cur:
+        cur.execute("SET statement_timeout = 0")
+
+    copied = 0
+    skipped_entity = 0
+    skipped_file = 0
+    seen: set[tuple[int, str, str]] = set()  # dedup for composite PK
+
+    cypher = (
+        "MATCH (e:Entity)-[r:MENTIONED_IN]->(d:Document) "
+        "RETURN e.name AS name, e.type AS type, d.file_path AS file_path, "
+        "       r.resolved_name AS resolved_name, r.confidence AS confidence"
+    )
+
+    with pg.cursor().copy(
+        "COPY entity_document_mentions (entity_id, file_path, resolved_name, confidence) FROM STDIN"
+    ) as cp:
+        result = neo4j.run(cypher)
+        for rec in result:
+            entity_key = (rec["name"], rec["type"])
+            eid = id_map.get(entity_key)
+            if eid is None:
+                skipped_entity += 1
+                continue
+            file_path = rec["file_path"]
+            if file_path not in valid_paths:
+                skipped_file += 1
+                continue
+            resolved_name = rec["resolved_name"] or ""
+            pk = (eid, file_path, resolved_name)
+            if pk in seen:
+                # Neo4j normally collapses to 1 edge via MERGE, but defensive
+                # against any residual duplicates.
+                continue
+            seen.add(pk)
+            cp.write_row((eid, file_path, resolved_name, rec["confidence"]))
+            copied += 1
+            if copied % 500_000 == 0:
+                logger.info("  … %d mentions copied", copied)
+    pg.commit()
+
+    return copied, skipped_entity, skipped_file, time.perf_counter() - t0
+
+
 def resolve_staged_profiles(
     pg: psycopg.Connection,
     id_map: dict[tuple[str, str], int],
@@ -332,6 +432,19 @@ def migrate_all(
             report.profiles_resolved = resolve_staged_profiles(pg_conn, id_map)
             if report.profiles_resolved:
                 logger.info("staged profiles resolved: %d", report.profiles_resolved)
+
+            # SCHEMA_VERSION=2 — Entity→Document mentions
+            n_m, n_skip_e, n_skip_f, t_m = migrate_entity_document_mentions(
+                neo4j, pg_conn, id_map=id_map,
+            )
+            report.mentions = n_m
+            report.skipped_mentions_unknown_entity = n_skip_e
+            report.skipped_mentions_unknown_file = n_skip_f
+            report.seconds["mentions"] = t_m
+            logger.info(
+                "mentions: %d in %.1fs (skipped %d unknown entity, %d unknown file)",
+                n_m, t_m, n_skip_e, n_skip_f,
+            )
     finally:
         if close_after:
             pg_conn.close()

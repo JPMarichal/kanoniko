@@ -118,7 +118,31 @@ Este doc es el contrato: si algo queda dudoso, se anota aquí antes de empezar a
 
 **Metodología**: grep de cada método public de `neo4j_client.py` contra `src/alejandria/**/*.py` para callers reales. Lectura de cada método para detectar uso de relation types post-R7 y dependencias removibles.
 
-### 6.1 Hallazgo #1 — Gap estructural MENTIONED_IN (CRÍTICO)
+### 6.1 Hallazgo #1 — Gap estructural MENTIONED_IN (CRÍTICO) ✅ RESUELTO 2026-04-18
+
+**Decisión tomada**: **Opción A** (tabla `entity_document_mentions`).
+
+**Implementación**:
+- `ddl.sql`: tabla nueva con PK `(entity_id, file_path, resolved_name)`, FKs a `entities` y `document_registry` con CASCADE.
+- `schema.py`: `SCHEMA_VERSION=2` stamp.
+- `migrate_neo4j.py::migrate_entity_document_mentions()` — nuevo paso streaming que cruza Neo4j con el id_map + valid file_paths y hace COPY.
+
+**Resultado real en IONOS (2026-04-18)**:
+- 3,546,277 mentions migradas en 131.6 s.
+- Skipped 284,365 por entity desconocida (R0 las borró/mergeó) + 154,193 por file_path no en document_registry (docs pre-ingesta limpia). Cuentas cuadran exacto con los 3,984,835 edges originales.
+- Tabla pesa 954 MB (con índices). DB total pasa de 5.8 → 6.6 GB (+14 %); sigue siendo -18 % vs stack SQLite+Neo4j combinado (8.1 GB).
+
+**Validación funcional**:
+```sql
+SELECT m.file_path FROM entity_document_mentions m
+JOIN entities e ON e.id = m.entity_id
+WHERE e.name = 'Nephi' AND e.entity_type = 'person' LIMIT 10;
+```
+→ Devuelve 10 docs reales (abinadi, articles-of-faith, etc.), confirma que `get_documents_for_entity`, `get_documents_for_entities_batch`, `get_all_entity_mentions`, y `get_disambiguated_counts` son portables.
+
+**Los 6 métodos antes BLOCKED son ahora REWRITE normales**. El gap cerró limpio.
+
+### 6.1-legacy — Análisis original del hallazgo
 
 El migrador Neo4j→Postgres explícitamente saltó 3,984,835 edges `Entity→Document` (diseño §2 del `postgres-migration.md`) porque el schema destino no tiene tabla puente entity↔document. **Pero 4 métodos del cliente dependen de esos edges**:
 
