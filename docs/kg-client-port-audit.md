@@ -233,7 +233,38 @@ Leyenda:
 | REWRITE | 16 | Lógica ajusta: CTEs recursivos, resolve de nombres a ids, ON CONFLICT, agregados SQL |
 | CONSOLIDATE | 4 | Usar `gazetteer_lookup` compartido |
 | DEPRECATE | 2 | `_ensure_indexes` (DDL cubre), `migrate_untyped_relations` (dead code post-R7) |
-| **BLOCKED** | **6** | **Dependen de Hallazgo #1 (MENTIONED_IN)** |
+| ~~BLOCKED~~ | ~~6~~ | **Desbloqueados por schema v2 (Opción A)** — ver §6.1 |
+
+### 6.5bis — Progreso de implementación (actualizado 2026-04-18)
+
+| Tier | Métodos implementados | Commit | Tests |
+|---|---|---|---|
+| 2a | `close`, `graph_summary`, `find_node` | `381d94fbf` | 12 passed |
+| 2b | `get_neighbors` (1-hop + recursive CTE) | `2c51fa181` | +7 (19 total) |
+| 2c | `get_typed_relations`, `get_documents_for_*`, `get_all_entity_mentions`, `get_disambiguated_counts`, batch variants (8 métodos) | pendiente | |
+| 2d | `get_genealogy_tree`, `get_genealogy_path` | pendiente | |
+| 2e | Factory DI wiring + captura+validación contra oracle | pendiente | |
+
+### 6.5ter — Lección cross-cutting: confidence ordering obligatorio
+
+Durante la implementación de `get_neighbors` se descubrió empíricamente que **sin `ORDER BY confidence` explícito, `LIMIT` corta arbitrariamente la señal curated bajo el ruido llm_low**. El test esperaba que 1-hop de Nephi incluyera ≥3 BoM family members; antes del fix devolvía 0 de 6 (los curated BROTHER_OF/FATHER_OF quedaban sepultados bajo BELONGS_TO/TEACHES llm_low).
+
+**Aplica a TODOS los métodos REWRITE de tier 2c/2d**, no solo `get_neighbors`. Patrón obligatorio:
+
+```sql
+ORDER BY
+  CASE confidence
+    WHEN 'curated' THEN 1
+    WHEN 'metadata' THEN 2
+    WHEN 'llm_high' THEN 3
+    WHEN 'llm_low' THEN 4
+    WHEN 'ner' THEN 5
+    ELSE 6 END,
+  rel_type
+LIMIT %s
+```
+
+Documentado para replicar en `get_typed_relations`, `get_typed_relations_batch`, `get_parallel_passages`, `get_genealogy_tree`.
 
 ### 6.6 Gaps de gazetteer identificados durante la auditoría
 

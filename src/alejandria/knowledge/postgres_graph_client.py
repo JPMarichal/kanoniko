@@ -69,39 +69,46 @@ class PostgresGraphClient:
     # ------------------------------------------------------------------ #
 
     def graph_summary(self) -> dict[str, Any]:
-        """Aggregate counts for the KG. Matches Neo4j's ``graph_summary``.
+        """Aggregate counts for the KG. **Same shape as ``Neo4jClient.graph_summary``**.
 
         Returns:
-            dict with ``total_entities``, ``total_relations``, ``entity_types``
-            (dict of type → count), ``top_rel_types`` (list of {type, count}).
+            dict with ``total_nodes``, ``total_relationships``,
+            ``nodes_by_type`` (list of {type, count}),
+            ``relationships_by_type`` (list of {type, count}).
+
+        Parity note: the key names match the Neo4j client so callers
+        (``api/routes_graph.py``, ``cli.py``, ``mcp_server.py``, ``main.py``)
+        consume both backends identically.
         """
         with get_connection() as conn:
             with conn.cursor() as cur:
                 cur.execute("SELECT count(*) FROM entities")
-                total_entities = cur.fetchone()[0]
+                total_nodes = cur.fetchone()[0]
 
                 cur.execute("SELECT count(*) FROM relations")
-                total_relations = cur.fetchone()[0]
+                total_relationships = cur.fetchone()[0]
 
                 cur.execute(
                     "SELECT entity_type, count(*) FROM entities "
                     "GROUP BY entity_type ORDER BY count(*) DESC"
                 )
-                entity_types = {row[0]: row[1] for row in cur.fetchall()}
+                nodes_by_type = [
+                    {"type": row[0], "count": row[1]} for row in cur.fetchall()
+                ]
 
                 cur.execute(
                     "SELECT rel_type, count(*) FROM relations "
                     "GROUP BY rel_type ORDER BY count(*) DESC LIMIT 20"
                 )
-                top_rel_types = [
+                relationships_by_type = [
                     {"type": row[0], "count": row[1]} for row in cur.fetchall()
                 ]
 
         return {
-            "total_entities": total_entities,
-            "total_relations": total_relations,
-            "entity_types": entity_types,
-            "top_rel_types": top_rel_types,
+            "total_nodes": total_nodes,
+            "total_relationships": total_relationships,
+            "nodes_by_type": nodes_by_type,
+            "relationships_by_type": relationships_by_type,
         }
 
     def find_node(

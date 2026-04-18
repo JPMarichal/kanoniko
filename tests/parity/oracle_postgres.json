@@ -1,0 +1,1800 @@
+{
+  "version": 1,
+  "captured_at": "2026-04-18T17:43:24.888530+00:00",
+  "captured_against": "neo4j_live_pre_port",
+  "gazetteer_hash_prefix": "dec85df182685ce3",
+  "results": {
+    "q01": {
+      "method": "find_node",
+      "args": {
+        "search": "Nephi",
+        "entity_type": "person",
+        "limit": 5
+      },
+      "elapsed_ms": 463.08,
+      "result": [
+        {
+          "id": 18918,
+          "name": "Nephi",
+          "type": "person",
+          "disambiguator": null,
+          "score": 1.0
+        },
+        {
+          "id": 19415,
+          "name": "Nephi (son of Nephi)",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.46153846
+        },
+        {
+          "id": 19380,
+          "name": "Nephite Prophet",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.29411766
+        },
+        {
+          "id": 19414,
+          "name": "Nephi (son of Helaman)",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.2857143
+        },
+        {
+          "id": 19249,
+          "name": "Nephite Missionary",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.25
+        }
+      ]
+    },
+    "q02": {
+      "method": "find_node",
+      "args": {
+        "search": "Jesucristo",
+        "entity_type": null,
+        "limit": 10
+      },
+      "elapsed_ms": 448.57,
+      "result": [
+        {
+          "id": 18133,
+          "name": "Jesus Christ's",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.8666667
+        },
+        {
+          "id": 2406,
+          "name": "The Church of Jesus Christ",
+          "type": "people",
+          "disambiguator": null,
+          "score": 0.52
+        },
+        {
+          "id": 10143,
+          "name": "Put Ye On the Lord Jesus Christ",
+          "type": "talk",
+          "disambiguator": null,
+          "score": 0.40625
+        },
+        {
+          "id": 11102,
+          "name": "Put Ye On the Lord Jesus Christ",
+          "type": "work",
+          "disambiguator": null,
+          "score": 0.40625
+        },
+        {
+          "id": 222,
+          "name": "Covenant Confidence through Jesus Christ",
+          "type": "talk",
+          "disambiguator": null,
+          "score": 0.34210527
+        },
+        {
+          "id": 526,
+          "name": "Covenant Confidence through Jesus Christ",
+          "type": "work",
+          "disambiguator": null,
+          "score": 0.34210527
+        },
+        {
+          "id": 2937,
+          "name": "Jesus Christ at the Center of Our Lives",
+          "type": "talk",
+          "disambiguator": null,
+          "score": 0.34210527
+        },
+        {
+          "id": 2978,
+          "name": "Jesus Christ at the Center of Our Lives",
+          "type": "work",
+          "disambiguator": null,
+          "score": 0.34210527
+        },
+        {
+          "id": 1254,
+          "name": "Hic de Virgine Maria Jesus Christus Natus Est",
+          "type": "people",
+          "disambiguator": null,
+          "score": 0.30232558
+        },
+        {
+          "id": 18134,
+          "name": "the Twelve Apostles of The Church of Jesus Christ of Latter-day",
+          "type": "period",
+          "disambiguator": null,
+          "score": 0.25490198
+        }
+      ]
+    },
+    "q03": {
+      "method": "find_node",
+      "args": {
+        "search": "Moroni",
+        "entity_type": "person",
+        "limit": 10
+      },
+      "elapsed_ms": 454.49,
+      "result": [
+        {
+          "id": 19324,
+          "name": "Moroni",
+          "type": "person",
+          "disambiguator": null,
+          "score": 1.0
+        },
+        {
+          "id": 4856,
+          "name": "Moroni 6:4–6",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.6363636
+        },
+        {
+          "id": 8393,
+          "name": "Soy Moroni",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.6363636
+        },
+        {
+          "id": 20500,
+          "name": "Moroni 6:5–6",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.6363636
+        },
+        {
+          "id": 21364,
+          "name": "Moroni 6:9",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.6363636
+        },
+        {
+          "id": 21492,
+          "name": "Moroni 6:3",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.6363636
+        },
+        {
+          "id": 8319,
+          "name": "Moroni rogó",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.5833333
+        },
+        {
+          "id": 8387,
+          "name": "Pues Moroni",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.5833333
+        },
+        {
+          "id": 8378,
+          "name": "Moroni llegó",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.53846157
+        },
+        {
+          "id": 19323,
+          "name": "Captain Moroni",
+          "type": "person",
+          "disambiguator": null,
+          "score": 0.46666667
+        }
+      ]
+    },
+    "q04": {
+      "method": "find_node",
+      "args": {
+        "search": "Burgundy",
+        "entity_type": "place",
+        "limit": 5
+      },
+      "elapsed_ms": 545.58,
+      "result": []
+    },
+    "q05": {
+      "method": "find_node",
+      "args": {
+        "search": "xyzqzqzqzNotExisting",
+        "entity_type": null,
+        "limit": 5
+      },
+      "elapsed_ms": 1065.36,
+      "result": []
+    },
+    "q10": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Nephi",
+        "depth": 1,
+        "limit": 20
+      },
+      "elapsed_ms": 720.72,
+      "result": {
+        "nodes": [
+          {
+            "name": "Sam",
+            "type": "person"
+          },
+          {
+            "name": "Exodus 14",
+            "type": "scripture"
+          },
+          {
+            "name": "2 Nephi",
+            "type": "scripture"
+          },
+          {
+            "name": "1 Nephi",
+            "type": "scripture"
+          },
+          {
+            "name": "Lehi",
+            "type": "person"
+          },
+          {
+            "name": "Jerusalem",
+            "type": "place"
+          },
+          {
+            "name": "Lemuel",
+            "type": "person"
+          },
+          {
+            "name": "Jacob",
+            "type": "person"
+          },
+          {
+            "name": "Joseph",
+            "type": "person"
+          },
+          {
+            "name": "Laman",
+            "type": "person"
+          },
+          {
+            "name": "1 Nephi 15:13-16",
+            "type": "scripture"
+          },
+          {
+            "name": "Zoram",
+            "type": "person"
+          },
+          {
+            "name": "Mormon",
+            "type": "person"
+          },
+          {
+            "name": "Amos",
+            "type": "person"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Sam",
+            "type": "ALLIED_WITH",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "ALLUDES_TO",
+            "to": "Exodus 14",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "AUTHORED",
+            "to": "2 Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "AUTHORED",
+            "to": "1 Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BLESSED_BY",
+            "to": "Lehi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BORN_IN",
+            "to": "Jerusalem",
+            "properties": {}
+          },
+          {
+            "from": "Sam",
+            "type": "BROTHER_OF",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Lemuel",
+            "type": "BROTHER_OF",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Jacob",
+            "type": "BROTHER_OF",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BROTHER_OF",
+            "to": "Sam",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BROTHER_OF",
+            "to": "Lemuel",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BROTHER_OF",
+            "to": "Joseph",
+            "properties": {}
+          },
+          {
+            "from": "Joseph",
+            "type": "BROTHER_OF",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Laman",
+            "type": "BROTHER_OF",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BROTHER_OF",
+            "to": "Laman",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BROTHER_OF",
+            "to": "Jacob",
+            "properties": {}
+          },
+          {
+            "from": "1 Nephi 15:13-16",
+            "type": "CHIASM_IN",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Zoram",
+            "type": "COVENANT_WITH",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "DESCENDANT_OF",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "FATHER_OF",
+            "to": "Amos",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "q11": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Lehi",
+        "depth": 1,
+        "limit": 20
+      },
+      "elapsed_ms": 1074.94,
+      "result": {
+        "nodes": [
+          {
+            "name": "Sam",
+            "type": "person"
+          },
+          {
+            "name": "Zoram",
+            "type": "person"
+          },
+          {
+            "name": "Jacob",
+            "type": "person"
+          },
+          {
+            "name": "Joseph (son of Lehi)",
+            "type": "person"
+          },
+          {
+            "name": "Nephi",
+            "type": "person"
+          },
+          {
+            "name": "Manasseh",
+            "type": "person"
+          },
+          {
+            "name": "Mormon",
+            "type": "person"
+          },
+          {
+            "name": "Promised Land",
+            "type": "place"
+          },
+          {
+            "name": "Lemuel",
+            "type": "person"
+          },
+          {
+            "name": "Joseph",
+            "type": "person"
+          },
+          {
+            "name": "Laman",
+            "type": "person"
+          },
+          {
+            "name": "Jerusalem",
+            "type": "place"
+          },
+          {
+            "name": "Destruction of Jerusalem",
+            "type": "concept"
+          },
+          {
+            "name": "Messiah to come",
+            "type": "concept"
+          },
+          {
+            "name": "Jesus Christ",
+            "type": "person"
+          },
+          {
+            "name": "Sariah",
+            "type": "person"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Sam",
+            "type": "BLESSED_BY",
+            "to": "Lehi",
+            "properties": {}
+          },
+          {
+            "from": "Zoram",
+            "type": "BLESSED_BY",
+            "to": "Lehi",
+            "properties": {}
+          },
+          {
+            "from": "Jacob",
+            "type": "BLESSED_BY",
+            "to": "Lehi",
+            "properties": {}
+          },
+          {
+            "from": "Joseph (son of Lehi)",
+            "type": "BLESSED_BY",
+            "to": "Lehi",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "BLESSED_BY",
+            "to": "Lehi",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "DESCENDANT_OF",
+            "to": "Manasseh",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "DESCENDANT_OF",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "DIED_IN",
+            "to": "Promised Land",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "FATHER_OF",
+            "to": "Lemuel",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "FATHER_OF",
+            "to": "Jacob",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "FATHER_OF",
+            "to": "Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "FATHER_OF",
+            "to": "Sam",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "FATHER_OF",
+            "to": "Joseph",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "FATHER_OF",
+            "to": "Laman",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "LIVED_IN",
+            "to": "Jerusalem",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "PROPHECY_OF",
+            "to": "Destruction of Jerusalem",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "PROPHESIED_ABOUT",
+            "to": "Messiah to come",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "PROPHESIED_ABOUT",
+            "to": "Jesus Christ",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "SPOUSE_OF",
+            "to": "Sariah",
+            "properties": {}
+          },
+          {
+            "from": "Sariah",
+            "type": "SPOUSE_OF",
+            "to": "Lehi",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "q12": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Joseph Smith",
+        "depth": 1,
+        "limit": 30
+      },
+      "elapsed_ms": 3051.64,
+      "result": {
+        "nodes": [
+          {
+            "name": "John",
+            "type": "person"
+          },
+          {
+            "name": "Angel Moroni",
+            "type": "person"
+          },
+          {
+            "name": "James",
+            "type": "person"
+          },
+          {
+            "name": "Heavenly Father",
+            "type": "person"
+          },
+          {
+            "name": "John the Baptist",
+            "type": "person"
+          },
+          {
+            "name": "Elijah",
+            "type": "person"
+          },
+          {
+            "name": "Peter",
+            "type": "person"
+          },
+          {
+            "name": "Jesus Christ",
+            "type": "person"
+          },
+          {
+            "name": "Joseph Smith—History",
+            "type": "scripture"
+          },
+          {
+            "name": "Pearl of Great Price (compiler)",
+            "type": "scripture"
+          },
+          {
+            "name": "Oliver Cowdery",
+            "type": "person"
+          },
+          {
+            "name": "Sharon, Vermont",
+            "type": "place"
+          },
+          {
+            "name": "Hyrum Smith",
+            "type": "person"
+          },
+          {
+            "name": "Joseph Smith Jr.",
+            "type": "person"
+          },
+          {
+            "name": "Elias",
+            "type": "concept"
+          },
+          {
+            "name": "Moses",
+            "type": "person"
+          },
+          {
+            "name": "Carthage Jail",
+            "type": "place"
+          },
+          {
+            "name": "Dispensation of the Fulness of Times",
+            "type": "period"
+          },
+          {
+            "name": "Joseph Smith Sr.",
+            "type": "person"
+          },
+          {
+            "name": "Prophet",
+            "type": "concept"
+          },
+          {
+            "name": "Church of Jesus Christ of Latter-day Saints",
+            "type": "concept"
+          }
+        ],
+        "edges": [
+          {
+            "from": "John",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Angel Moroni",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "James",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Heavenly Father",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "John the Baptist",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Elijah",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Peter",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Jesus Christ",
+            "type": "APPEARED_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "AUTHORED",
+            "to": "Joseph Smith—History",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "AUTHORED",
+            "to": "Pearl of Great Price (compiler)",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "BAPTIZED_BY",
+            "to": "Oliver Cowdery",
+            "properties": {}
+          },
+          {
+            "from": "Oliver Cowdery",
+            "type": "BAPTIZED_BY",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "BORN_IN",
+            "to": "Sharon, Vermont",
+            "properties": {}
+          },
+          {
+            "from": "Hyrum Smith",
+            "type": "BROTHER_OF",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith Jr.",
+            "type": "CALLED_BY_NAME",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "CALLED_BY_NAME",
+            "to": "Joseph Smith Jr.",
+            "properties": {}
+          },
+          {
+            "from": "Elijah",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "John",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Elias",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "James",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Moses",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Peter",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "John the Baptist",
+            "type": "CONFERRED_KEYS_TO",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Heavenly Father",
+            "type": "COVENANT_WITH",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "DIED_IN",
+            "to": "Carthage Jail",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "DISPENSATION_HEAD",
+            "to": "Dispensation of the Fulness of Times",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "DISPENSATION_OF",
+            "to": "Dispensation of the Fulness of Times",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith Sr.",
+            "type": "FATHER_OF",
+            "to": "Joseph Smith",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "FOREORDAINED_AS",
+            "to": "Prophet",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "type": "FOUNDED",
+            "to": "Church of Jesus Christ of Latter-day Saints",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "q13": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Mormon",
+        "depth": 1,
+        "limit": 20
+      },
+      "elapsed_ms": 2004.68,
+      "result": {
+        "nodes": [
+          {
+            "name": "4 Nephi",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Mosiah",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Alma",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Mormon (record)",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Helaman",
+            "type": "scripture"
+          },
+          {
+            "name": "3 Nephi",
+            "type": "scripture"
+          },
+          {
+            "name": "1 Corinthians 13",
+            "type": "scripture"
+          },
+          {
+            "name": "Three Nephites",
+            "type": "person"
+          },
+          {
+            "name": "Epistle of Mormon",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Mormon (compilation)",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Mormon (chapters 1-7)",
+            "type": "scripture"
+          },
+          {
+            "name": "Land Northward",
+            "type": "place"
+          },
+          {
+            "name": "Military Commander",
+            "type": "role"
+          },
+          {
+            "name": "Nephi",
+            "type": "person"
+          },
+          {
+            "name": "Lehi",
+            "type": "person"
+          }
+        ],
+        "edges": [
+          {
+            "from": "4 Nephi",
+            "type": "ABRIDGED_BY",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Book of Mosiah",
+            "type": "ABRIDGED_BY",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Book of Alma",
+            "type": "ABRIDGED_BY",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Book of Mormon (record)",
+            "type": "ABRIDGED_BY",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Book of Helaman",
+            "type": "ABRIDGED_BY",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "3 Nephi",
+            "type": "ABRIDGED_BY",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "ALLUDES_TO",
+            "to": "1 Corinthians 13",
+            "properties": {}
+          },
+          {
+            "from": "Three Nephites",
+            "type": "APPEARED_TO",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "3 Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "Book of Helaman",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "Epistle of Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "Book of Mormon (compilation)",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "Book of Alma",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "Book of Mormon (chapters 1-7)",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "4 Nephi",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "AUTHORED",
+            "to": "Book of Mosiah",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "BORN_IN",
+            "to": "Land Northward",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "type": "CALLED_AS",
+            "to": "Military Commander",
+            "properties": {}
+          },
+          {
+            "from": "Nephi",
+            "type": "DESCENDANT_OF",
+            "to": "Mormon",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "type": "DESCENDANT_OF",
+            "to": "Mormon",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "q14": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Moroni",
+        "depth": 2,
+        "limit": 50
+      },
+      "elapsed_ms": 993.36,
+      "result": {
+        "nodes": [
+          {
+            "name": "Exaltation",
+            "type": "concept"
+          },
+          {
+            "name": "Alma 37:33",
+            "type": "scripture"
+          },
+          {
+            "name": "9:34",
+            "type": "period"
+          },
+          {
+            "name": "Remarkable Visions",
+            "type": "concept"
+          },
+          {
+            "name": "D&C 88:80",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 5:49",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 1:4",
+            "type": "period"
+          },
+          {
+            "name": "Mosiah 8:17",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 98:18",
+            "type": "scripture"
+          },
+          {
+            "name": "Arcade",
+            "type": "people"
+          },
+          {
+            "name": "Acts 26:20",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 5:54",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 5:28",
+            "type": "scripture"
+          },
+          {
+            "name": "2:5. days",
+            "type": "period"
+          },
+          {
+            "name": "Ether 11:8",
+            "type": "scripture"
+          },
+          {
+            "name": "1:72",
+            "type": "period"
+          },
+          {
+            "name": "Luke 9:43",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 43:14",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 1:20",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 110:1",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 124:143",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 46:21",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 87:1",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 38:10",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 84:87",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 1:20",
+            "type": "scripture"
+          },
+          {
+            "name": "2:45",
+            "type": "period"
+          },
+          {
+            "name": "Testimony",
+            "type": "concept"
+          },
+          {
+            "name": "Alma 13:22",
+            "type": "scripture"
+          },
+          {
+            "name": "Hosea 6:9",
+            "type": "scripture"
+          },
+          {
+            "name": "Ether 8:16",
+            "type": "scripture"
+          },
+          {
+            "name": "1:74",
+            "type": "period"
+          },
+          {
+            "name": "Alma 10:5",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 24:10",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 117:11",
+            "type": "scripture"
+          },
+          {
+            "name": "Nature",
+            "type": "concept"
+          },
+          {
+            "name": "the Legislative Council",
+            "type": "people"
+          },
+          {
+            "name": "Alma 32:37",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 44:8",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 53:14",
+            "type": "scripture"
+          },
+          {
+            "name": "Mosiah 10:22",
+            "type": "scripture"
+          },
+          {
+            "name": "Luke 24:45",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 13:8",
+            "type": "scripture"
+          },
+          {
+            "name": "D&C 64:21",
+            "type": "scripture"
+          },
+          {
+            "name": "8:6",
+            "type": "period"
+          },
+          {
+            "name": "Mark 2:3",
+            "type": "scripture"
+          },
+          {
+            "name": "Ether 12:8",
+            "type": "scripture"
+          },
+          {
+            "name": "Mosiah 3:19",
+            "type": "period"
+          },
+          {
+            "name": "Alma 44:14",
+            "type": "scripture"
+          },
+          {
+            "name": "Alma 27:30",
+            "type": "scripture"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Exaltation",
+            "type": "TEACHES",
+            "to": "Moroni",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 37:33",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "9:34",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "TEACHES",
+            "to": "Remarkable Visions",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 88:80",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 5:49",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "Alma 1:4",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Mosiah 8:17",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 98:18",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "BELONGS_TO",
+            "to": "Arcade",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Acts 26:20",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 5:54",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 5:28",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "2:5. days",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Ether 11:8",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "1:72",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Luke 9:43",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 43:14",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 1:20",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 110:1",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 124:143",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 46:21",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 87:1",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 38:10",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 84:87",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 1:20",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "2:45",
+            "properties": {}
+          },
+          {
+            "from": "Testimony",
+            "type": "TEACHES",
+            "to": "Moroni",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 13:22",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Hosea 6:9",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Ether 8:16",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "1:74",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 10:5",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 24:10",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 117:11",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "TEACHES",
+            "to": "Nature",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "BELONGS_TO",
+            "to": "the Legislative Council",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 32:37",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 44:8",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 53:14",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Mosiah 10:22",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Luke 24:45",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 13:8",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "D&C 64:21",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "8:6",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Mark 2:3",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Ether 12:8",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "LIVED_DURING",
+            "to": "Mosiah 3:19",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 44:14",
+            "properties": {}
+          },
+          {
+            "from": "Moroni",
+            "type": "REFERENCED_IN",
+            "to": "Alma 27:30",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "q40": {
+      "method": "graph_summary",
+      "args": {},
+      "elapsed_ms": 10891.29,
+      "result": {
+        "total_nodes": 811954,
+        "total_relationships": 21240727,
+        "nodes_by_type": [
+          {
+            "type": "person",
+            "count": 216903
+          },
+          {
+            "type": "people",
+            "count": 133792
+          },
+          {
+            "type": "period",
+            "count": 110462
+          },
+          {
+            "type": "scripture",
+            "count": 95627
+          },
+          {
+            "type": "scripture_reference",
+            "count": 75452
+          },
+          {
+            "type": "place",
+            "count": 69381
+          },
+          {
+            "type": "concept",
+            "count": 51278
+          },
+          {
+            "type": "work",
+            "count": 34270
+          },
+          {
+            "type": "object",
+            "count": 20844
+          },
+          {
+            "type": "talk",
+            "count": 2897
+          },
+          {
+            "type": "event",
+            "count": 554
+          },
+          {
+            "type": "role",
+            "count": 301
+          },
+          {
+            "type": "conference",
+            "count": 82
+          },
+          {
+            "type": "calling",
+            "count": 26
+          },
+          {
+            "type": "organization",
+            "count": 20
+          },
+          {
+            "type": "ordinance",
+            "count": 12
+          },
+          {
+            "type": "unit",
+            "count": 11
+          },
+          {
+            "type": "program",
+            "count": 10
+          },
+          {
+            "type": "document",
+            "count": 9
+          },
+          {
+            "type": "council",
+            "count": 8
+          },
+          {
+            "type": "meeting",
+            "count": 7
+          },
+          {
+            "type": "fund",
+            "count": 4
+          },
+          {
+            "type": "policy",
+            "count": 4
+          }
+        ],
+        "relationships_by_type": [
+          {
+            "type": "REFERENCED_IN",
+            "count": 6205494
+          },
+          {
+            "type": "BELONGS_TO",
+            "count": 5703686
+          },
+          {
+            "type": "LIVED_DURING",
+            "count": 4413227
+          },
+          {
+            "type": "TEACHES",
+            "count": 3231211
+          },
+          {
+            "type": "EXISTS_DURING",
+            "count": 1429499
+          },
+          {
+            "type": "CITES",
+            "count": 193979
+          },
+          {
+            "type": "AUTHORED_BY",
+            "count": 20071
+          },
+          {
+            "type": "PART_OF",
+            "count": 17826
+          },
+          {
+            "type": "COVENANT_OF",
+            "count": 14304
+          },
+          {
+            "type": "DELIVERED_BY",
+            "count": 2448
+          },
+          {
+            "type": "PRESIDES_OVER",
+            "count": 1000
+          },
+          {
+            "type": "COMPOSED_BY",
+            "count": 787
+          },
+          {
+            "type": "FATHER_OF",
+            "count": 782
+          },
+          {
+            "type": "CALLED_AS",
+            "count": 722
+          },
+          {
+            "type": "DESCRIBED_IN",
+            "count": 633
+          },
+          {
+            "type": "ORGANIZED_UNDER",
+            "count": 600
+          },
+          {
+            "type": "PARALLEL_ACCOUNT_OF",
+            "count": 377
+          },
+          {
+            "type": "REPORTS_TO",
+            "count": 362
+          },
+          {
+            "type": "AUTHORED",
+            "count": 348
+          },
+          {
+            "type": "AUTHORIZED_TO_PERFORM",
+            "count": 333
+          }
+        ]
+      }
+    }
+  }
+}

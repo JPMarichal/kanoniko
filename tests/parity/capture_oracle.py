@@ -91,6 +91,10 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Capture golden-query oracle from Neo4j.")
     parser.add_argument("--yaml", type=Path, default=Path("tests/parity/golden_queries.yaml"))
     parser.add_argument("--out", type=Path, default=Path("tests/parity/oracle.json"))
+    parser.add_argument("--backend", choices=["neo4j", "postgres"], default="neo4j",
+                        help="Which client to run queries against.")
+    parser.add_argument("--methods", type=str, default=None,
+                        help="Comma-separated method names to filter (e.g. find_node,get_neighbors).")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
 
@@ -101,10 +105,22 @@ def main(argv: list[str] | None = None) -> int:
 
     spec = _load_yaml(args.yaml)
     queries = spec.get("queries", [])
-    logger.info("loaded %d queries from %s", len(queries), args.yaml)
+    if args.methods:
+        method_filter = {m.strip() for m in args.methods.split(",")}
+        queries = [q for q in queries if q.get("method") in method_filter]
+        logger.info("filtered to %d queries matching methods: %s",
+                    len(queries), sorted(method_filter))
+    else:
+        logger.info("loaded %d queries from %s", len(queries), args.yaml)
 
-    from alejandria.knowledge.neo4j_client import Neo4jClient
-    client = Neo4jClient()
+    if args.backend == "postgres":
+        from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+        client = PostgresGraphClient()
+        logger.info("client: PostgresGraphClient")
+    else:
+        from alejandria.knowledge.neo4j_client import Neo4jClient
+        client = Neo4jClient()
+        logger.info("client: Neo4jClient")
 
     oracle: dict[str, Any] = {
         "version": spec.get("version"),
