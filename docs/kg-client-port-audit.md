@@ -7,6 +7,22 @@ Este doc es el **Fase 0 del port del KG client**: inventariar qué hay, qué sig
 
 ---
 
+## 0. Caveat de calidad de datos (2026-04-18)
+
+Antes de empezar la auditoría es clave reconocer un hecho: **la tabla `entities` tiene ~50-60 % de filas con `entity_type` mal clasificado** a pesar de R0+R7. Ejemplos: `"John 2:1"` como `period`, `"the Cathedral St. Lorenzo"` como `people`, `"Burgundy"` como `person`.
+
+Esto se agenda como **R10 — Type correctness pass** en [`kg-ingestion-refactor.md`](kg-ingestion-refactor.md) y es **independiente** de la migración a Postgres. No bloquea el port del cliente.
+
+Consecuencia operativa **para esta auditoría**: cuando analicemos cada método del cliente Neo4j, hay que preguntarse si asume **precisión del `entity_type`**. Métodos que filtran por tipo (ej. `find_entities_by_type('scripture')`) van a devolver resultados envenenados hoy — tras R10 no, pero el port debe tenerlo en cuenta:
+
+- Añadir defensas en las queries (JOIN con regex para validar scripture refs en runtime).
+- O asumir que R10 corre ANTES de cutover (y documentarlo).
+- O aceptar la imperfección y cubrirla con reranking downstream en RAG.
+
+Esta decisión va por-método en §2.1 — columna nueva: **"¿Asume type correctness?"**.
+
+---
+
 ## 1. Por qué hace falta auditar primero
 
 El `neo4j_client.py` actual (~1000 líneas) creció sobre datos que:
@@ -28,8 +44,8 @@ Además, algunos módulos del cliente (ej. `_build_alias_lookup` en `neo4j_clien
 
 Enumerar todos los métodos de `Neo4jClient` con columnas:
 
-| Método | Callers (grep) | Usa relation types que R7 mató? | Usa alias lookup local (duplicado de gazetteer_lookup)? | ¿Deprecado? |
-|---|---|---|---|---|
+| Método | Callers (grep) | Usa relation types que R7 mató? | Usa alias lookup local (duplicado de gazetteer_lookup)? | Asume type correctness? | ¿Deprecado? |
+|---|---|---|---|---|---|
 
 Criterio "usa relation types que R7 mató":
 - `CO_OCCURS_WITH`, `ASSOCIATED_WITH` (solo llm_low), `RELATED_TO` (solo llm_low) → **método devuelve resultados vacíos o degradados post-R7**.

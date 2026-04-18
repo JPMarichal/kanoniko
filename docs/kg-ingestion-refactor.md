@@ -233,6 +233,34 @@ Ejecutado contra bench y luego contra IONOS — paridad verificada.
 
 **R9 nuevo — Pre-port audit del `neo4j_client.py`** (derivado de este trabajo): el cliente actual se construyó sobre datos sucios; muchos métodos asumen patterns que R7 eliminó. Auditoría separada en `docs/kg-client-port-audit.md`.
 
+**R10 — Type correctness pass sobre `entities`** (hallazgo 2026-04-18 inspeccionando la tabla en IONOS):
+
+Tras R0+R7 observamos que ~50-60 % de las entidades tienen el nombre bien pero `entity_type` mal clasificado. Ejemplos detectados en la primera página de la tabla:
+
+- `"John 2:1"` → `period` (debería ser `scripture_reference`)
+- `"Luke 20:34"` → `person` (duplicado; existe correctamente como `scripture` en otra fila)
+- `"commandments"` → `person` (debería ser `concept`)
+- `"the Cathedral St. Lorenzo"` → `people` (debería ser `place`)
+- `"Marseilles"`, `"Burgundy"`, `"Savoy"`, `"Fontainbleau"` → `person` o `people` (deberían ser `place`)
+- `"fifty to one"`, `"seventy acres"`, `"four hundred feet"` → frases numéricas como entidad (deberían no existir)
+- `"Chester Loveland a modern Aj…"` → concatenación de NER que unió nombre + palabras siguientes
+- `"Burgundy"` duplicado (id 201 como `person`, id 204 como `people`) — R0 solo mergea contra gazetteer; no-canónicos duplicados quedan
+
+**Origen del problema**: el mapeo `_SPACY_LABEL_MAP` en `extractor.py` traduce `DATE → period`, `ORG → people`, `PERSON → person` ciegamente. Cuando spaCy se equivoca con la etiqueta (y lo hace seguido en texto que no vio en entrenamiento: citas de escrituras, nombres propios europeos, edificios religiosos), nosotros propagamos el error sin validar.
+
+**Estimación de impacto**: en muestra de ~50 filas, 25-30 problemas de tipo o nombre raro. Extrapolado a 811,954 entities → ~400-500k potencialmente mal clasificadas.
+
+**Plan propuesto (no parte de la migración a Postgres — es hygiene del KG independiente del motor):**
+1. Extraer muestra estratificada de ~500 entities por `entity_type`, review manual + ground truth.
+2. Medir tasas de error reales por tipo.
+3. Diseñar reglas deterministas (regex para scripture refs, lookup de lugares europeos contra Wikipedia/OSM, detectores de frases numéricas).
+4. Ejecutar cleanup en lotes contra IONOS, auditoría JSONL.
+5. Re-evaluar calidad de queries post-R10.
+
+**Relación con migración**: no bloquea ni acelera. La migración pudo (y debió) concluirse con datos imperfectos. R10 es **continuo** — parte de una cultura de hygiene del KG que va a repetirse cada N meses. Vive en este doc, no en `postgres-migration.md`.
+
+**ETA**: 1-2 días concentrados una vez el ground truth sample esté curado. Se agenda cuando haya ventana; no bloquea trabajo de migración.
+
 ## 5. Cross-references
 
 - [postgres-migration.md](postgres-migration.md) — la migración de motor que precede este trabajo.
