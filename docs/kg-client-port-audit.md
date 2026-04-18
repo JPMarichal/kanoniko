@@ -112,6 +112,130 @@ Este doc es el contrato: si algo queda dudoso, se anota aquí antes de empezar a
 
 ---
 
+---
+
+## 6. Resultados de la auditoría (2026-04-18)
+
+**Metodología**: grep de cada método public de `neo4j_client.py` contra `src/alejandria/**/*.py` para callers reales. Lectura de cada método para detectar uso de relation types post-R7 y dependencias removibles.
+
+### 6.1 Hallazgo #1 — Gap estructural MENTIONED_IN (CRÍTICO)
+
+El migrador Neo4j→Postgres explícitamente saltó 3,984,835 edges `Entity→Document` (diseño §2 del `postgres-migration.md`) porque el schema destino no tiene tabla puente entity↔document. **Pero 4 métodos del cliente dependen de esos edges**:
+
+| Método | Cypher actual | Callers reales | Impacto si port ingenuo |
+|---|---|---|---|
+| `get_documents_for_entity(name)` | `MATCH (e:Entity {name:$n})-[:MENTIONED_IN]->(d)` | api/routes_graph.py:163, mcp_server.py:537 (**MCP tool kg_docs**) | Devuelve `[]` → MCP tool pierde función |
+| `get_documents_for_entities_batch(names)` | `MATCH (e:Entity)-[:MENTIONED_IN]->(d) WHERE e.name IN $names` | chat/rag.py:432 (**RAG pipeline**) | RAG pierde resolución entidad→doc |
+| `get_all_entity_mentions()` | `MATCH (e:Entity)-[:MENTIONED_IN]->(d)` | pipeline.py:1805 (profile generation) | Profile generation no encuentra menciones |
+| `get_disambiguated_counts()` | `MATCH (e)-[r:MENTIONED_IN]->(d) RETURN r.resolved_name, count(*)` | pipeline.py:1808 | Sin disambiguation counts → staleness tracking roto |
+
+**Decisión pendiente** (no la tomo yo, la traigo para review):
+
+- **Opción A — Tabla nueva `entity_document_mentions`** en Postgres + DDL v2 + re-migración Neo4j que incluya Entity→Document edges. ~+6M rows, ~+500 MB en tabla + índices. Método: añadir a `ddl.sql`, bump `SCHEMA_VERSION=2`, `migrate_neo4j.py` extendido con query separada para Entity→Document edges. ETA ~1 día implementación + 10 min run.
+
+- **Opción B — Derivar on-the-fly** desde `chunks`. Las `chunks.metadata` contienen info de entidades mencionadas por chunk (ya que el pipeline las extrajo durante ingesta). Pero hoy no hay índice explícito entity→chunk; habría que reprocesar. Más trabajo que A.
+
+- **Opción C — Re-ingesta** con el pipeline nuevo escribiendo directo a Postgres. Resuelve el gap de forma natural. Requiere completar Fase 3-5 primero. Circular.
+
+**Recomendación**: **Opción A** para destrabar el port. Es el camino más corto con el menor cambio de scope.
+
+### 6.2 Hallazgo #2 — `migrate_untyped_relations()` es dead code post-R7
+
+`neo4j_client.py:716-750` reclasifica relaciones llm_low en `CO_OCCURS_WITH / RELATED_TO / ASSOCIATED_WITH / TEACHES / BELONGS_TO / REFERENCED_IN` a tipos más específicos usando keyword matching sobre nombres.
+
+Tras R7, los primeros 3 **ya no existen**. Los últimos 3 sobreviven pero no se reclasifican en runtime — el método nunca encontrará patterns que ya fueron borrados.
+
+**Clasificación: DEPRECATE.** También el endpoint API `api/routes_index.py:202` (`POST /index/migrate-relations`) que lo expone debería retirarse.
+
+### 6.3 Hallazgo #3 — `_build_alias_lookup()` es duplicado
+
+Ya existe en `knowledge/gazetteer_lookup.py::load_alias_lookup()` — mismo schema (dict[normalized_alias] → (canonical_name, entity_type)) con cobertura más robusta (NFC, strip artículos). **CONSOLIDATE**: el nuevo cliente importa de `gazetteer_lookup`, elimina la versión local.
+
+### 6.4 Inventario completo de métodos públicos (34)
+
+Leyenda:
+- **KEEP** = portable 1:1 a Postgres (queries simples, schema ya cubre)
+- **REWRITE** = lógica cambia (CTEs recursivos, schema nuevo, semántica post-R7/R10)
+- **CONSOLIDATE** = usar módulo compartido en vez de re-implementar
+- **DEPRECATE** = sin callers, o sin sentido post-cleanup
+- **BLOCKED** = requiere decisión externa (p.ej. hallazgo #1)
+
+| # | Método | Callers externos | Clasificación | Notas |
+|---|---|---|---|---|
+| 1 | `_build_alias_lookup` (module) | neo4j_client interno | **CONSOLIDATE** | Usar `gazetteer_lookup.load_alias_lookup` |
+| 2 | `__init__` | DI | KEEP | Construct psycopg connection pool |
+| 3 | `_cached` | interno | KEEP | TTL cache helper (conservar semántica) |
+| 4 | `_ensure_indexes` | pipeline.py:1538 | DEPRECATE | Postgres crea índices via DDL; no hace falta en runtime |
+| 5 | `close` | DI | KEEP | conn.close() |
+| 6 | `merge_entity(name, type, aliases)` | pipeline.py:1549 | REWRITE | `INSERT ... ON CONFLICT (name, entity_type, disambiguator) DO UPDATE`. Aliases → tabla `entity_aliases` |
+| 7 | `merge_document(file_path, source)` | 0 externos (indirecto via batch) | KEEP | `document_registry` ya existe |
+| 8 | `merge_relation(...)` | pipeline.py:1552 | REWRITE | INSERT a `relations` con resolve de nombres → ids |
+| 9 | `link_entity_to_document(...)` | 0 externos directos | **BLOCKED** | Necesita Opción A del Hallazgo #1 |
+| 10 | `batch_merge_entities` | pipeline, relation_extractor_llm | REWRITE | `COPY ... ON CONFLICT` via unlogged staging + INSERT |
+| 11 | `batch_merge_documents` | pipeline 3 sitios | REWRITE | COPY a `document_registry` |
+| 12 | `batch_merge_relations` | pipeline, relation_extractor_llm | REWRITE | Resolve names→ids en staging temp, COPY a `relations` |
+| 13 | `batch_link_entities_to_document` | pipeline 3 sitios | **BLOCKED** | Hallazgo #1 |
+| 14 | `batch_delete_documents` | 0 externos directos | KEEP | `DELETE FROM document_registry WHERE file_path = ANY(%s)` |
+| 15 | `batch_write_all(...)` | pipeline.py:435 | REWRITE | Orquestador: llama a los batch_merge_*. Thin wrapper |
+| 16 | `delete_document_relations(file_path)` | pipeline 3 sitios | REWRITE | `DELETE FROM relations WHERE src_id IN (entities del file)` — caveat: requiere Hallazgo #1 resuelto si cubre entity→document |
+| 17 | `_resolve_name(name)` | interno | CONSOLIDATE | Import de `gazetteer_lookup` |
+| 18 | `_resolve_names(names)` | interno | CONSOLIDATE | Idem |
+| 19 | **`find_node(search, entity_type, limit)`** | **routes_graph, cli, mcp** | **REWRITE** | `SELECT ... WHERE name ILIKE '%q%' OR id IN (SELECT entity_id FROM entity_aliases WHERE alias ILIKE '%q%')`. Usa `pg_trgm` para fuzzy. ⚠️ **type correctness caveat** (R10): filtro por `entity_type` devuelve resultados envenenados hasta R10 |
+| 20 | **`get_neighbors(name, depth, limit)`** | **routes_graph, cli, mcp, rag** | **REWRITE** | Recursive CTE con LIMIT intermedio (patrón ya documentado en postgres-migration §2.3) |
+| 21 | `get_documents_for_entity(name)` | routes_graph, mcp | **BLOCKED** | Hallazgo #1 |
+| 22 | `get_documents_for_entities_batch` | chat/rag.py:432 | **BLOCKED** | Hallazgo #1 |
+| 23 | `find_nodes_batch(searches, limit_per)` | chat/rag.py:426 | REWRITE | UNION de find_node por batch; o query con `ANY(%s)` y ranking |
+| 24 | `get_typed_relations_batch(...)` | chat/rag.py:1199 | REWRITE | Filter por `rel_type` / `category` sobre `relations` + JOIN a entities |
+| 25 | `graph_summary()` | routes_graph, cli, mcp, main | REWRITE | Agregados simples (count entities, relations, top types) |
+| 26 | `get_all_entity_mentions()` | pipeline.py:1805 | **BLOCKED** | Hallazgo #1 |
+| 27 | `get_disambiguated_counts()` | pipeline.py:1808 | **BLOCKED** | Hallazgo #1 — alternativa: derivar de `relations.properties->>'resolved_name'` si existe el meta |
+| 28 | `update_entity_profile(...)` | profile_generator (indirecto) | REWRITE | UPDATE sobre `entity_profiles` (tabla ya existe) |
+| 29 | `load_curated_relations(path)` | routes_index, pipeline 2 sitios | REWRITE | Parse JSON + INSERT batch a `relations` con `confidence='curated'` |
+| 30 | `migrate_untyped_relations(batch_size)` | routes_index.py:202 | **DEPRECATE** | Hallazgo #2; retirar endpoint API también |
+| 31 | `get_parallel_passages(...)` | routes_graph.py:128 | REWRITE | Queries sobre `relations` con `rel_type IN ('PARALLEL_ACCOUNT_OF', ...)` + JOIN |
+| 32 | **`get_typed_relations(...)`** | **routes_graph, mcp** | **REWRITE** | Filter por src/dst + rel_type/category; paginación; ⚠️ type correctness caveat |
+| 33 | `clear_all(preserve_sources)` | pipeline.py:624, 1533 | REWRITE | `TRUNCATE entities, entity_aliases, relations RESTART IDENTITY CASCADE` — la semántica `preserve_sources` se traduce a `DELETE ... WHERE source NOT IN (...)` si hace falta |
+| 34 | **`get_genealogy_tree(person, direction, depth, lang)`** | **routes_genealogy, mcp** | **REWRITE** | Recursive CTE del patrón postgres-migration §2.3 con LIMIT intermedio. ⚠️ `lang` param implica `_alt_name` lookup (consolidate con gazetteer) |
+| 35 | `get_genealogy_path(name1, name2)` | routes_genealogy, mcp | REWRITE | Recursive CTE bidireccional (o 2 unidireccionales con intersection) |
+| 36 | `_alt_name(canonical, lang)` | interno (genealogy) | CONSOLIDATE | `gazetteer_lookup` puede exponer alias bilingüe |
+| 37 | `_attach_ancestors` | interno (genealogy) | KEEP | Helper puro sobre dicts post-query |
+| 38 | `_attach_descendants` | interno (genealogy) | KEEP | Idem |
+
+### 6.5 Resumen cuantitativo
+
+| Clasificación | Count | Comentario |
+|---|---:|---|
+| KEEP | 6 | Trivialmente portables o puros helpers sobre dicts |
+| REWRITE | 16 | Lógica ajusta: CTEs recursivos, resolve de nombres a ids, ON CONFLICT, agregados SQL |
+| CONSOLIDATE | 4 | Usar `gazetteer_lookup` compartido |
+| DEPRECATE | 2 | `_ensure_indexes` (DDL cubre), `migrate_untyped_relations` (dead code post-R7) |
+| **BLOCKED** | **6** | **Dependen de Hallazgo #1 (MENTIONED_IN)** |
+
+### 6.6 Gaps de gazetteer identificados durante la auditoría
+
+Candidatos a añadir a `entities.json` **antes** del port para que queries tipo `find_node("Burgundy")` no se envenenen por type correctness R10:
+
+- `Burgundy`, `Marseilles`, `Savoy`, `Fontainbleau`, `Lombardy` — regiones europeas que aparecen en biografías (McAllister, Loveland) pero mal clasificadas como `person`/`people`.
+- Evaluar además: `Mount Gandoglia`, `Cathedral St. Lorenzo`, y otros edificios/geografías italianas del contexto Chester Loveland.
+
+**No es urgente para el port** (R10 los atrapa) pero vale la pena pre-seedar cuando haya un corpus expansion hacia materiales biográficos con geografía europea.
+
+### 6.7 Golden queries — pendiente
+
+Selección de ~50 queries de referencia con input + expected top-K para el test de paridad. **Se define tras cerrar decisión de Opción A del Hallazgo #1** — depende de qué métodos existirán en el nuevo cliente.
+
+### 6.8 Criterios de arranque
+
+- [x] §2.1 Inventario completo: ✅ 34 métodos catalogados.
+- [x] §2.5 Métodos DEPRECATE documentados: ✅ 2 métodos (`_ensure_indexes`, `migrate_untyped_relations`).
+- [ ] Decisión de usuario sobre Hallazgo #1 (Opción A/B/C).
+- [ ] Golden queries curadas: depende de anterior.
+- [ ] Gaps críticos de gazetteer cerrados: pendientes (no bloqueantes).
+
+**Siguiente paso recomendado**: aprobación de **Opción A (tabla `entity_document_mentions` + re-migración con Entity→Document edges)** o alternativa. Con esa decisión se desbloquean los 6 métodos BLOCKED y puede iniciarse el port.
+
+---
+
 ## 5. Relación con otros docs
 
 - `docs/postgres-migration.md` — plan general de la migración; este es la fase 0 del último módulo grande.
