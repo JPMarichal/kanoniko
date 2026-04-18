@@ -882,12 +882,22 @@ class KGExtractor:
         except Exception:
             return entities
 
-        # Collect all canonical names from gazetteer matches for overlap detection
+        # R1 (kg-ingestion-refactor §3): filter against the GLOBAL gazetteer
+        # alias map, not just matches from this chunk. The old per-chunk set
+        # let canonical entities (Jesucristo, Iglesia, Holy Ghost, ...) leak in
+        # whenever spaCy found them with a different form than the gazetteer
+        # produced. See docs/kg-ingestion-refactor.md for the analysis.
+        from alejandria.knowledge.gazetteer_lookup import (
+            is_garbage as _gazlookup_is_garbage,
+            should_skip_ner_entity as _should_skip_ner,
+        )
+
+        # Also keep the per-chunk overlap (defense in depth for overlapping
+        # spans that the global filter doesn't catch, e.g. partial matches).
         known_names_lower = set()
         for key in found_entities:
             name = key.split(":")[0]
             known_names_lower.add(name.lower())
-            # Also add individual words for partial overlap detection
             for word in name.lower().split():
                 if len(word) > 2:
                     known_names_lower.add(word)
@@ -900,15 +910,20 @@ class KGExtractor:
 
             name = ent.text.strip()
 
-            # Skip if too short
-            if len(name) < _MIN_ENTITY_LEN:
+            # R1/R3 single gate: garbage (all_punct, url_like, archaic_verb,
+            # too_short, too_long, xref_fragment, pronoun_stopword, nul_bytes)
+            # + canonical gazetteer match. If this fires, spaCy's finding is
+            # either noise or a duplicate of a curated entity — skip entirely.
+            if _should_skip_ner(name) is not None:
                 continue
 
-            # Skip common words that aren't real entities
+            # Skip common words that aren't real entities (legacy list kept —
+            # it covers "god"/"lord"/"señor" etc. that aren't in the pronoun
+            # stopword set).
             if name.lower() in _NER_STOPWORDS:
                 continue
 
-            # Skip if it overlaps with a gazetteer match (gazetteer takes precedence)
+            # Defense-in-depth: per-chunk overlap with gazetteer matches.
             if name.lower() in known_names_lower:
                 continue
 

@@ -32,10 +32,11 @@ _neo4j: Any = None
 _profile_store: Any = None
 
 
-def _get_textual() -> TextualSearch:
+def _get_textual():
     global _textual
     if _textual is None:
-        _textual = TextualSearch(settings.sqlite_db_path)
+        from alejandria.search.textual import make_textual_search
+        _textual = make_textual_search()
     return _textual
 
 
@@ -43,8 +44,8 @@ def _get_semantic():
     global _semantic
     if _semantic is None:
         try:
-            from alejandria.search.semantic import SemanticSearch
-            _semantic = SemanticSearch()
+            from alejandria.search.semantic import make_semantic_search
+            _semantic = make_semantic_search()
         except Exception:
             pass
     return _semantic

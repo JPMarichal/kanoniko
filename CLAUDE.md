@@ -31,6 +31,16 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 - spaCy + domain gazetteers for KG extraction
 - Docker Compose (2 containers: api, neo4j)
 
+### Postgres as optional backend (Phase 1 landed 2026-04-18)
+
+The `feature/postgres-migration` branch introduced **Postgres 16 + pgvector** as an opt-in alternative backend, replicating the full data layer (chunks, FTS, embeddings, entities, relations, mentions). It runs on an external IONOS VPS with daily `pg_dump` backups.
+
+- **Feature flag:** `ALEJANDRIA_STORAGE_BACKEND` (default `"sqlite"`). Set to `"postgres"` to route reads through the Postgres backend via DI factories (`search.textual.make_textual_search`, `search.semantic.make_semantic_search`, `knowledge.postgres_graph_client.make_graph_client`).
+- **Read parity partial:** 3 KG client methods ported and validated against Neo4j oracle (`find_node`, `get_neighbors`, `graph_summary`). Remaining methods raise `NotImplementedError` — tracked in `docs/kg-client-port-audit.md`.
+- **Write path still goes to SQLite + Neo4j.** Ingestion cutover is a follow-up PR.
+- **Operational infra:** see `docs/ionos-setup.md` for VPS setup, `docs/postgres-migration.md` for the full plan, `docs/postgres-migration-status.md` for current state + follow-up PRs.
+- **Vector DB alternatives (Qdrant, Weaviate, Pinecone, Milvus)** analyzed in `docs/vector-db-options.md` — pgvector wins at current scale; triggers to reconsider documented there.
+
 ## Vision
 
 The final product is a **specialized chat client for scripture/gospel study** (RAG-based). The knowledge engine (search APIs) is the backend; the chat UI is a future service consuming it.

@@ -1,0 +1,331 @@
+# ============================================================================
+# Golden queries — oracle para test de paridad Neo4j→Postgres (Fase 3 port)
+# ============================================================================
+#
+# Cada query tiene:
+#   - id: identificador estable (q01..q50)
+#   - method: nombre del método del cliente (ver kg-client-port-audit.md §6.4)
+#   - args: kwargs a pasar al método
+#   - expectation: tipo + payload — ver abajo
+#   - notes: comentarios operativos (contexto doctrinal, gotchas, cleanup touches)
+#
+# Tipos de expectation:
+#   - exact_names: lista de nombres que deben aparecer (orden estricto)
+#   - contains_names: lista de nombres que deben estar presentes (orden libre)
+#   - set_overlap:
+#       expected_names: [...]
+#       min_overlap: int  (cuántos de los esperados deben estar)
+#   - count_range: [min, max]
+#   - must_be_nonempty: true
+#   - invariant_shape: {field1: type, field2: type}  — valida shape/tipos
+#
+# Las queries se CONGELAN en este archivo. Si el cleanup o re-ingesta cambia
+# resultados esperados, actualizar aquí intencionalmente con commit que explique.
+#
+# Estado al 2026-04-18:
+#   - Corpus: 56,073 docs, 309,089 chunks, 811,954 entities, 21.2M relations,
+#     3.5M mentions (post R0+R7 + schema v2).
+#   - Oracle NO capturado aún — se ejecuta contra Neo4j live con
+#     `python -m tests.parity.capture_oracle > oracle.json` (script TBD).
+#
+# ============================================================================
+
+version: 1
+captured_at: null   # se completa cuando se genera oracle.json
+captured_against: neo4j_live_pre_port   # vs postgres_port_v1 (segunda captura)
+
+queries:
+
+  # ==========================================================================
+  # find_node — MCP tool kg_find
+  # ==========================================================================
+  - id: q01
+    method: find_node
+    args: {search: "Nephi", entity_type: person, limit: 5}
+    expectation:
+      contains_names: [Nephi]
+      must_be_nonempty: true
+    notes: |
+      Match exacto debe ser top-1. Variantes (Nephi son of Helaman) pueden
+      aparecer según disambiguator. Post-R10 habrá menos ruido de scripture
+      refs mal clasificados como person.
+
+  - id: q02
+    method: find_node
+    args: {search: "Jesucristo", entity_type: null, limit: 10}
+    expectation:
+      contains_names: [Jesus Christ]
+    notes: |
+      Alias ES→EN debe resolver vía gazetteer. Post-R0 merge, solo debería
+      existir "Jesus Christ" (49 loser merges al canonical).
+
+  - id: q03
+    method: find_node
+    args: {search: "Moroni", entity_type: person, limit: 10}
+    expectation:
+      contains_names: [Moroni, Captain Moroni]
+    notes: |
+      Dos Moronis: profeta final BoM + Capitán Moroni (etiquetados como
+      disambiguator distinto). Ambos deben aparecer.
+
+  - id: q04
+    method: find_node
+    args: {search: "Burgundy", entity_type: place, limit: 5}
+    expectation:
+      contains_names: [Burgundy]
+    notes: |
+      Gap cerrado en audit 2026-04-18: se añadió como alias de place. Pre-fix
+      devolvía vacío o classificaba como person.
+
+  - id: q05
+    method: find_node
+    args: {search: "xyzqzqzqzNotExisting", entity_type: null, limit: 5}
+    expectation:
+      count_range: [0, 0]
+    notes: "Fallback: no hits es respuesta válida."
+
+  # ==========================================================================
+  # get_neighbors — MCP tool kg_neighbors
+  # ==========================================================================
+  - id: q10
+    method: get_neighbors
+    args: {name: "Nephi", depth: 1, limit: 20}
+    expectation:
+      contains_names: [Lehi, Sariah, Laman, Lemuel, Sam, Jacob, Joseph]
+      min_overlap: 5   # mínimo 5 de los 7 BoM family deben estar
+    notes: |
+      Relaciones curated de familia BoM. Post-R7 la mayoría del ruido
+      BELONGS_TO se eliminó. Validación visible del R0+R7.
+
+  - id: q11
+    method: get_neighbors
+    args: {name: "Lehi", depth: 1, limit: 20}
+    expectation:
+      contains_names: [Nephi, Laman, Lemuel, Sam, Jacob, Joseph, Sariah, Jerusalem]
+      min_overlap: 6
+    notes: Familia directa de Lehi + patria (Jerusalem).
+
+  - id: q12
+    method: get_neighbors
+    args: {name: "Joseph Smith", depth: 1, limit: 30}
+    expectation:
+      must_be_nonempty: true
+    notes: |
+      Perfil muy rico; no fijamos nombres porque hay muchos candidatos
+      (Moroni angel, Book of Mormon, Kirtland, etc.). Solo validamos
+      que devuelve resultados.
+
+  - id: q13
+    method: get_neighbors
+    args: {name: "Mormon", depth: 1, limit: 20}
+    expectation:
+      contains_names: [Moroni, Book of Mormon]
+      min_overlap: 1
+    notes: Mormon es padre de Moroni + editor del Book of Mormon.
+
+  - id: q14
+    method: get_neighbors
+    args: {name: "Moroni", depth: 2, limit: 50}
+    expectation:
+      must_be_nonempty: true
+      count_range: [10, 500]
+    notes: 2 hops abre red amplia; validamos rango razonable.
+
+  # ==========================================================================
+  # get_typed_relations — relaciones filtradas por tipo/categoría
+  # ==========================================================================
+  - id: q20
+    method: get_typed_relations
+    args: {name: "Nephi", entity_type: person, rel_types: [AUTHORED]}
+    expectation:
+      contains_names: ["1 Nephi", "2 Nephi"]
+    notes: Relaciones curated AUTHORED confirmadas en R0+R7 validation.
+
+  - id: q21
+    method: get_typed_relations
+    args: {name: "Nephi", entity_type: person, rel_types: [BROTHER_OF]}
+    expectation:
+      contains_names: [Sam, Laman, Lemuel, Jacob, Joseph]
+      min_overlap: 4
+    notes: Hermanos de Nephi en contexto BoM. Curated.
+
+  - id: q22
+    method: get_typed_relations
+    args: {name: "Lehi", entity_type: person, rel_types: [FATHER_OF]}
+    expectation:
+      contains_names: [Nephi, Laman, Lemuel, Sam, Jacob, Joseph]
+      min_overlap: 5
+    notes: Hijos de Lehi.
+
+  - id: q23
+    method: get_typed_relations
+    args: {name: "Jesus Christ", entity_type: person, category: prophetic}
+    expectation:
+      must_be_nonempty: true
+    notes: Profecías asociadas a Jesús — categoría prophetic.
+
+  - id: q24
+    method: get_typed_relations
+    args: {name: "Moroni", entity_type: person, rel_types: [AUTHORED]}
+    expectation:
+      contains_names: [Moroni, Ether]
+      min_overlap: 1
+    notes: Moroni compiló Moroni y Ether.
+
+  # ==========================================================================
+  # get_documents_for_entity — MCP tool kg_docs (BLOCKED pre-schema-v2)
+  # ==========================================================================
+  - id: q30
+    method: get_documents_for_entity
+    args: {name: "Nephi", entity_type: person}
+    expectation:
+      count_range: [100, 5000]
+    notes: |
+      Nephi aparece en casi todo BoM + comentarios. Validamos rango amplio.
+      Sample validado 2026-04-18: 10 docs incluyen abinadi/, articles-of-faith/.
+
+  - id: q31
+    method: get_documents_for_entity
+    args: {name: "Jesus Christ", entity_type: person}
+    expectation:
+      count_range: [500, 20000]
+    notes: Entidad más referenciada; rango muy amplio.
+
+  - id: q32
+    method: get_documents_for_entity
+    args: {name: "Joseph Smith", entity_type: person}
+    expectation:
+      count_range: [200, 10000]
+    notes: Profeta fundador, mucho material doctrinal + biográfico.
+
+  - id: q33
+    method: get_documents_for_entity
+    args: {name: "Abinadi", entity_type: person}
+    expectation:
+      count_range: [20, 2000]
+      must_contain_path_substring: "abinadi"
+    notes: |
+      El libro sobre Abinadi (books/abinadi/) debe estar entre los docs.
+      Custom assertion — validar que al menos 1 file_path contiene "abinadi".
+
+  # ==========================================================================
+  # get_documents_for_entities_batch — RAG pipeline
+  # ==========================================================================
+  - id: q35
+    method: get_documents_for_entities_batch
+    args: {names: ["Nephi", "Lehi", "Jerusalem"]}
+    expectation:
+      must_be_nonempty: true
+      invariant_shape: {Nephi: list, Lehi: list, Jerusalem: list}
+    notes: Batch debe devolver 3 keys con listas no-vacías.
+
+  # ==========================================================================
+  # find_nodes_batch — RAG pipeline
+  # ==========================================================================
+  - id: q36
+    method: find_nodes_batch
+    args: {searches: ["Nephi", "Moroni", "Jerusalem"]}
+    expectation:
+      must_be_nonempty: true
+      count_range: [3, 100]
+    notes: Batch retorna lista plana; al menos 3 hits (uno por término).
+
+  # ==========================================================================
+  # get_typed_relations_batch — chat/rag.py:1199
+  # ==========================================================================
+  - id: q37
+    method: get_typed_relations_batch
+    args: {names: ["Nephi", "Lehi"], rel_types: [FATHER_OF, BROTHER_OF]}
+    expectation:
+      must_be_nonempty: true
+    notes: Batch de familiares.
+
+  # ==========================================================================
+  # get_parallel_passages
+  # ==========================================================================
+  - id: q38
+    method: get_parallel_passages
+    args: {scripture_ref: "Isaiah 2:2-3"}
+    expectation:
+      contains_names: ["2 Nephi 12:2"]
+      min_overlap: 1
+    notes: "Parallel classic: Isaiah 2 en 2 Nephi 12."
+
+  - id: q39
+    method: get_parallel_passages
+    args: {scripture_ref: "3 Nephi 11"}
+    expectation:
+      must_be_nonempty: true
+    notes: Apariciones de Cristo en las Américas; referenciado en comentarios.
+
+  # ==========================================================================
+  # graph_summary — MCP tool kg_summary
+  # ==========================================================================
+  - id: q40
+    method: graph_summary
+    args: {}
+    expectation:
+      invariant_shape:
+        total_entities: int
+        total_relations: int
+        entity_types: dict
+        top_rel_types: list
+      count_range_field:
+        total_entities: [700000, 900000]
+        total_relations: [20000000, 60000000]
+    notes: |
+      Post R0+R7 cleanup: entities ≈ 811,954, relations ≈ 21,240,727.
+      Rango amplio porque el número cambia con re-ingestas.
+
+  # ==========================================================================
+  # get_genealogy_tree — MCP tool kg_genealogy_tree
+  # ==========================================================================
+  - id: q45
+    method: get_genealogy_tree
+    args: {person: "Lehi", direction: descendants, depth: 3, lang: en}
+    expectation:
+      contains_names: [Nephi, Laman, Lemuel, Sam, Jacob, Joseph]
+      min_overlap: 4
+    notes: Lehi es raíz del árbol BoM.
+
+  - id: q46
+    method: get_genealogy_tree
+    args: {person: "Nephi", direction: ancestors, depth: 3, lang: en}
+    expectation:
+      contains_names: [Lehi, Sariah]
+      min_overlap: 1
+    notes: Lehi es padre directo.
+
+  - id: q47
+    method: get_genealogy_tree
+    args: {person: "Joseph Smith", direction: ancestors, depth: 5, lang: en}
+    expectation:
+      must_be_nonempty: true
+    notes: Árbol real si Neo4j tiene la genealogía del profeta.
+
+  # ==========================================================================
+  # get_genealogy_path — MCP tool kg_genealogy_path
+  # ==========================================================================
+  - id: q48
+    method: get_genealogy_path
+    args: {name1: "Lehi", name2: "Nephi"}
+    expectation:
+      invariant_shape: {path: list, depth: int}
+      path_length_range: [1, 2]
+    notes: Lehi→Nephi es 1 hop (FATHER_OF).
+
+  - id: q49
+    method: get_genealogy_path
+    args: {name1: "Lehi", name2: "Mormon"}
+    expectation:
+      invariant_shape: {path: list, depth: int}
+      path_length_range: [3, 20]
+    notes: Muchas generaciones entre Lehi y Mormon (~1000 años BoM).
+
+  - id: q50
+    method: get_genealogy_path
+    args: {name1: "Nephi", name2: "xyzNotInDB"}
+    expectation:
+      invariant_shape: {path: list, depth: int}
+      path_length_range: [0, 0]
+    notes: No-path caso — debe devolver estructura con path vacío.
