@@ -37,18 +37,19 @@ pytestmark = pytest.mark.skipif(
 # --------------------------------------------------------------------------- #
 
 def test_graph_summary_shape() -> None:
+    """Match Neo4jClient.graph_summary shape exactly — callers must be agnostic."""
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
     client = PostgresGraphClient()
     summary = client.graph_summary()
 
-    for key in ("total_entities", "total_relations", "entity_types", "top_rel_types"):
+    for key in ("total_nodes", "total_relationships", "nodes_by_type", "relationships_by_type"):
         assert key in summary, f"missing field {key}"
 
-    assert isinstance(summary["total_entities"], int)
-    assert isinstance(summary["total_relations"], int)
-    assert isinstance(summary["entity_types"], dict)
-    assert isinstance(summary["top_rel_types"], list)
+    assert isinstance(summary["total_nodes"], int)
+    assert isinstance(summary["total_relationships"], int)
+    assert isinstance(summary["nodes_by_type"], list)
+    assert isinstance(summary["relationships_by_type"], list)
 
 
 def test_graph_summary_reasonable_numbers() -> None:
@@ -59,25 +60,25 @@ def test_graph_summary_reasonable_numbers() -> None:
     summary = client.graph_summary()
 
     # Post-cleanup IONOS: ~811k entities, ~21M relations.
-    assert 500_000 < summary["total_entities"] < 2_000_000
-    assert 10_000_000 < summary["total_relations"] < 50_000_000
+    assert 500_000 < summary["total_nodes"] < 2_000_000
+    assert 10_000_000 < summary["total_relationships"] < 50_000_000
 
 
-def test_graph_summary_top_rel_types_structure() -> None:
+def test_graph_summary_types_lists_structure() -> None:
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
     client = PostgresGraphClient()
     summary = client.graph_summary()
 
-    assert len(summary["top_rel_types"]) > 0
-    for item in summary["top_rel_types"]:
-        assert "type" in item and "count" in item
-        assert isinstance(item["type"], str)
-        assert isinstance(item["count"], int)
-
-    # Top types descending
-    counts = [item["count"] for item in summary["top_rel_types"]]
-    assert counts == sorted(counts, reverse=True)
+    for list_field in ("nodes_by_type", "relationships_by_type"):
+        assert len(summary[list_field]) > 0, f"{list_field} is empty"
+        for item in summary[list_field]:
+            assert "type" in item and "count" in item
+            assert isinstance(item["type"], str)
+            assert isinstance(item["count"], int)
+        counts = [item["count"] for item in summary[list_field]]
+        assert counts == sorted(counts, reverse=True), \
+            f"{list_field} not sorted by count desc"
 
 
 # --------------------------------------------------------------------------- #

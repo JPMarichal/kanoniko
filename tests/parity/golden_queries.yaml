@@ -82,14 +82,14 @@ queries:
     args: {search: "xyzqzqzqzNotExisting", entity_type: null, limit: 5}
     expectation:
       count_range: [0, 0]
-    notes: Fallback: no hits es respuesta válida.
+    notes: "Fallback: no hits es respuesta válida."
 
   # ==========================================================================
   # get_neighbors — MCP tool kg_neighbors
   # ==========================================================================
   - id: q10
     method: get_neighbors
-    args: {name: "Nephi", entity_type: person, depth: 1, limit: 20}
+    args: {name: "Nephi", depth: 1, limit: 20}
     expectation:
       contains_names: [Lehi, Sariah, Laman, Lemuel, Sam, Jacob, Joseph]
       min_overlap: 5   # mínimo 5 de los 7 BoM family deben estar
@@ -249,7 +249,7 @@ queries:
     expectation:
       contains_names: ["2 Nephi 12:2"]
       min_overlap: 1
-    notes: Parallel classic: Isaiah 2 en 2 Nephi 12.
+    notes: "Parallel classic: Isaiah 2 en 2 Nephi 12."
 
   - id: q39
     method: get_parallel_passages

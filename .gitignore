@@ -52,3 +52,4 @@ data/sqlite/alejandria.db
 # Externo: sudario proyecto independiente clonado aparte
 bibsud/
 .claude/settings.local.json
+.env.backup-*
