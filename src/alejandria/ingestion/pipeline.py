@@ -1734,12 +1734,26 @@ class IngestionPipeline:
             if staled:
                 logger.info("Marked %d entity profiles as stale after KG rebuild", staled)
 
+        # R2 (kg-ingestion-refactor §3): prune low-value NER candidates that
+        # failed to reach min frequency after the retention window. Keeps the
+        # table bounded as the corpus grows instead of accumulating forever.
+        pruned = 0
+        try:
+            from alejandria.knowledge.ner_candidates import NERCandidateTracker
+            tracker = NERCandidateTracker()
+            pruned = tracker.prune_low_value(min_frequency=3, max_age_days=30)
+            if pruned:
+                logger.info("Pruned %d low-value NER candidates (R2 retention)", pruned)
+        except Exception:
+            logger.warning("NER candidate retention pruning failed — skipped", exc_info=True)
+
         elapsed = time.time() - start
         stats = {
             "chunks_processed": total_chunks,
             "documents": len(documents_seen),
             "entity_mentions": entities_found,
             "relation_mentions": relations_found,
+            "ner_candidates_pruned": pruned,
             "elapsed_seconds": round(elapsed, 1),
         }
         logger.info(
