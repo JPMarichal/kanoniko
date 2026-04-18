@@ -48,3 +48,8 @@ docker/ca-certificates.crt
 # Large source assets (SQL dumps, etc.)
 proj/**/recursos/
 data/sqlite/alejandria.db
+
+# Externo: sudario proyecto independiente clonado aparte
+bibsud/
+.claude/settings.local.json
+.env.backup-*

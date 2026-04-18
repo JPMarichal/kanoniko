@@ -47,7 +47,18 @@ class NERCandidateTracker:
             """)
 
     def record(self, name: str, entity_type: str, source_file: str = "") -> None:
-        """Record an NER-discovered entity. Increments frequency if already known."""
+        """Record an NER-discovered entity. Increments frequency if already known.
+
+        R1/R3 gate (kg-ingestion-refactor §3): reject garbage (URLs, punct-only,
+        archaic verbs, pronouns, length outliers, xref fragments, NULs) and
+        canonical gazetteer matches *before touching the DB*. Prevents the
+        table from refilling with noise that R0 just cleaned up.
+        """
+        from alejandria.knowledge.gazetteer_lookup import should_skip_ner_entity
+
+        if should_skip_ner_entity(name) is not None:
+            return
+
         with sqlite3.connect(self._db_path) as conn:
             # Try to update existing
             cursor = conn.execute(
@@ -172,6 +183,30 @@ class NERCandidateTracker:
             )
         except Exception:
             logger.exception("Failed to write promoted entity to gazetteer")
+
+    def prune_low_value(
+        self,
+        min_frequency: int = 3,
+        max_age_days: int = 30,
+    ) -> int:
+        """Retention policy (R2, kg-ingestion-refactor §3): drop candidates that
+        never reached the minimum frequency after sitting unreviewed for N days.
+
+        Rationale: after migration+R0, we observed 206k singletons (33 %) + 228k
+        with freq 2-5 (37 %) — mostly noise that would never pass promotion
+        review. A retention policy keeps the table bounded as the corpus grows.
+
+        Returns the number of rows deleted. Always called at end of KG rebuild.
+        """
+        with sqlite3.connect(self._db_path) as conn:
+            cursor = conn.execute(
+                "DELETE FROM ner_candidates "
+                "WHERE status = 'candidate' "
+                "  AND frequency < ? "
+                "  AND julianday('now') - julianday(updated_at) > ?",
+                (min_frequency, max_age_days),
+            )
+            return cursor.rowcount or 0
 
     def dismiss(self, name: str, entity_type: str) -> bool:
         """Mark a candidate as dismissed (not useful)."""

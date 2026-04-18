@@ -1,0 +1,2181 @@
+{
+  "version": 1,
+  "captured_at": "2026-04-18T17:38:29.382851+00:00",
+  "captured_against": "neo4j_live_pre_port",
+  "gazetteer_hash_prefix": "dec85df182685ce3",
+  "results": {
+    "q01": {
+      "method": "find_node",
+      "args": {
+        "search": "Nephi",
+        "entity_type": "person",
+        "limit": 5
+      },
+      "elapsed_ms": 445.47,
+      "result": [
+        {
+          "name": "Nephi",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Nephite Missionary",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Nephite Prophet",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Nephi (son of Helaman)",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Nephi (son of Nephi)",
+          "type": "person",
+          "aliases": []
+        }
+      ]
+    },
+    "q02": {
+      "method": "find_node",
+      "args": {
+        "search": "Jesucristo",
+        "entity_type": null,
+        "limit": 10
+      },
+      "elapsed_ms": 60.82,
+      "result": [
+        {
+          "name": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+          "type": "people",
+          "aliases": []
+        },
+        {
+          "name": "Iglesia: Vivir el Evangelio de Jesucristo Cuidar",
+          "type": "people",
+          "aliases": []
+        },
+        {
+          "name": "Su Hijo Jesucristo",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "NiñosyJóvenes.LaIglesiadeJesucristo.org",
+          "type": "people",
+          "aliases": []
+        },
+        {
+          "name": "NiñosyJóvenes.LaIglesiadeJesucristo.org",
+          "type": "place",
+          "aliases": []
+        },
+        {
+          "name": "Señor Jesucristo",
+          "type": "people",
+          "aliases": []
+        },
+        {
+          "name": "discapacidad.LaIglesiadeJesucristo.org",
+          "type": "place",
+          "aliases": []
+        },
+        {
+          "name": "Jesucristo Cumplir",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Jesucristo Normas",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Jesucristo - Normas",
+          "type": "person",
+          "aliases": []
+        }
+      ]
+    },
+    "q03": {
+      "method": "find_node",
+      "args": {
+        "search": "Moroni",
+        "entity_type": "person",
+        "limit": 10
+      },
+      "elapsed_ms": 9.09,
+      "result": [
+        {
+          "name": "Moroni 6:4–6",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Moroni rogó",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Moroni llegó",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Pues Moroni",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Soy Moroni",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Captain Moroni",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Moroni",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Moroni 6:5–6",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Moroni 6:9",
+          "type": "person",
+          "aliases": []
+        },
+        {
+          "name": "Moroni 6:3",
+          "type": "person",
+          "aliases": []
+        }
+      ]
+    },
+    "q04": {
+      "method": "find_node",
+      "args": {
+        "search": "Burgundy",
+        "entity_type": "place",
+        "limit": 5
+      },
+      "elapsed_ms": 337.91,
+      "result": []
+    },
+    "q05": {
+      "method": "find_node",
+      "args": {
+        "search": "xyzqzqzqzNotExisting",
+        "entity_type": null,
+        "limit": 5
+      },
+      "elapsed_ms": 302.81,
+      "result": []
+    },
+    "q10": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Nephi",
+        "entity_type": "person",
+        "depth": 1,
+        "limit": 20
+      },
+      "error": "TypeError: Neo4jClient.get_neighbors() got an unexpected keyword argument 'entity_type'"
+    },
+    "q11": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Lehi",
+        "depth": 1,
+        "limit": 20
+      },
+      "elapsed_ms": 1887.84,
+      "result": {
+        "nodes": [
+          {
+            "name": "Jerusalem",
+            "type": "place"
+          },
+          {
+            "name": "Promised Land",
+            "type": "place"
+          },
+          {
+            "name": "Jacob (son of Lehi)",
+            "type": "person"
+          },
+          {
+            "name": "Sam",
+            "type": "person"
+          },
+          {
+            "name": "Joseph (son of Lehi)",
+            "type": "person"
+          },
+          {
+            "name": "Zoram",
+            "type": "person"
+          },
+          {
+            "name": "Nephi",
+            "type": "person"
+          },
+          {
+            "name": "Destruction of Jerusalem",
+            "type": "concept"
+          },
+          {
+            "name": "Tree of Life",
+            "type": "concept"
+          },
+          {
+            "name": "Tree of Life",
+            "type": "object"
+          },
+          {
+            "name": "Tribe of Manasseh",
+            "type": "people"
+          },
+          {
+            "name": "Valley of Lemuel",
+            "type": "place"
+          },
+          {
+            "name": "Land Bountiful",
+            "type": "place"
+          },
+          {
+            "name": "Mormon",
+            "type": "person"
+          },
+          {
+            "name": "Manasseh",
+            "type": "person"
+          },
+          {
+            "name": "Sariah",
+            "type": "person"
+          },
+          {
+            "name": "Lemuel",
+            "type": "person"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Lehi",
+            "to": "Jerusalem",
+            "type": "LIVED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 1:4",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Promised Land",
+            "type": "DIED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 4:12",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Jacob (son of Lehi)",
+            "to": "Lehi",
+            "type": "BLESSED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 2:1-4",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Sam",
+            "to": "Lehi",
+            "type": "BLESSED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 4:11",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph (son of Lehi)",
+            "to": "Lehi",
+            "type": "BLESSED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 3:1-25",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Zoram",
+            "to": "Lehi",
+            "type": "BLESSED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 1:30-32",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Nephi",
+            "to": "Lehi",
+            "type": "BLESSED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 1:28-29",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Destruction of Jerusalem",
+            "type": "PROPHECY_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 1:13,18",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Tree of Life",
+            "type": "SAW_IN_VISION",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 8:10-12",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Tree of Life",
+            "type": "SAW_IN_VISION",
+            "properties": {}
+          },
+          {
+            "from": "Lehi",
+            "to": "Tribe of Manasseh",
+            "type": "TRIBE_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Alma 10:3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Valley of Lemuel",
+            "type": "TRAVELED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 2:10",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Land Bountiful",
+            "type": "TRAVELED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 17:5",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Promised Land",
+            "type": "TRAVELED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 18:23",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Mormon",
+            "type": "DESCENDANT_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "3 Nephi 5:20",
+              "source": "genealogy_extraction"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Manasseh",
+            "type": "DESCENDANT_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Alma 10:3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Nephi",
+            "to": "Lehi",
+            "type": "SUCCESSOR_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 16:25",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Sariah",
+            "type": "SPOUSE_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 2:5",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Sariah",
+            "to": "Lehi",
+            "type": "SPOUSE_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 2:5",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Lemuel",
+            "type": "FATHER_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "1 Nephi 2:5",
+              "source": "curated_seed"
+            }
+          }
+        ]
+      }
+    },
+    "q12": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Joseph Smith",
+        "depth": 1,
+        "limit": 30
+      },
+      "elapsed_ms": 12274.13,
+      "result": {
+        "nodes": [
+          {
+            "name": "Kirtland, Ohio",
+            "type": "place"
+          },
+          {
+            "name": "Nauvoo, Illinois",
+            "type": "place"
+          },
+          {
+            "name": "Palmyra, New York",
+            "type": "people"
+          },
+          {
+            "name": "Palmyra, New York",
+            "type": "place"
+          },
+          {
+            "name": "Carthage, Illinois",
+            "type": "place"
+          },
+          {
+            "name": "Sharon, Vermont",
+            "type": "place"
+          },
+          {
+            "name": "Keys of the Dispensation of the Fulness of Times",
+            "type": "concept"
+          },
+          {
+            "name": "Dispensation of the Fulness of Times",
+            "type": "period"
+          },
+          {
+            "name": "Jesus Christ",
+            "type": "person"
+          },
+          {
+            "name": "God",
+            "type": "person"
+          },
+          {
+            "name": "Elijah",
+            "type": "person"
+          },
+          {
+            "name": "Peter",
+            "type": "person"
+          },
+          {
+            "name": "James",
+            "type": "person"
+          },
+          {
+            "name": "John",
+            "type": "person"
+          },
+          {
+            "name": "John the Baptist",
+            "type": "person"
+          },
+          {
+            "name": "Angel Moroni",
+            "type": "person"
+          },
+          {
+            "name": "Carthage Jail",
+            "type": "place"
+          },
+          {
+            "name": "Prophet",
+            "type": "concept"
+          },
+          {
+            "name": "Joseph Smith jr.",
+            "type": "person"
+          },
+          {
+            "name": "Joseph Smith Jr.",
+            "type": "person"
+          },
+          {
+            "name": "JSP Revelations",
+            "type": "concept"
+          },
+          {
+            "name": "Revelations in Context",
+            "type": "concept"
+          },
+          {
+            "name": "Brigham Young",
+            "type": "person"
+          },
+          {
+            "name": "Chapter 1: The First Vision: The Father and the Son Appear to Joseph Smith",
+            "type": "work"
+          },
+          {
+            "name": "Chapter 10: Prayer and Personal Revelation",
+            "type": "work"
+          },
+          {
+            "name": "Chapter 11: The Organization and Destiny of the True and Living Church",
+            "type": "work"
+          },
+          {
+            "name": "Chapter 12: Proclaim Glad Tidings to All the World",
+            "type": "work"
+          },
+          {
+            "name": "Chapter 13: Obedience: ‘When the Lord Commands, Do It’",
+            "type": "work"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Joseph Smith",
+            "to": "Kirtland, Ohio",
+            "type": "LIVED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 41 header",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Nauvoo, Illinois",
+            "type": "LIVED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 124 header",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Palmyra, New York",
+            "type": "LIVED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Palmyra, New York",
+            "type": "LIVED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "JS-H 1:3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Carthage, Illinois",
+            "type": "DIED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 135:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Sharon, Vermont",
+            "type": "BORN_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "JS-H 1:3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Keys of the Dispensation of the Fulness of Times",
+            "type": "KEYBEARER_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 27:13; 128:18",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Dispensation of the Fulness of Times",
+            "type": "DISPENSATION_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 27:13; 128:18; 138:53",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Jesus Christ",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "JS-H 1:17",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "God",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "JS-H 1:17",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Elijah",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 110:13-16",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Peter",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 27:12",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "James",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 27:12",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "John",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 27:12",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "John the Baptist",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "JS-H 1:68-72",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Angel Moroni",
+            "to": "Joseph Smith",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "JS-History 1:30-33",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Carthage Jail",
+            "type": "MARTYRED_AT",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 135:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Prophet",
+            "type": "HAS_ROLE",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 21:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Prophet",
+            "type": "FOREORDAINED_AS",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "2 Nephi 3:6-15",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Joseph Smith jr.",
+            "type": "CALLED_BY_NAME",
+            "properties": {}
+          },
+          {
+            "from": "Joseph Smith",
+            "to": "Joseph Smith Jr.",
+            "type": "CALLED_BY_NAME",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 135:3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Joseph Smith Jr.",
+            "to": "Joseph Smith",
+            "type": "CALLED_BY_NAME",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 135:3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "JSP Revelations",
+            "to": "Joseph Smith",
+            "type": "REFERENCES",
+            "properties": {
+              "confidence": "curated",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Revelations in Context",
+            "to": "Joseph Smith",
+            "type": "REFERENCES",
+            "properties": {
+              "confidence": "curated",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Brigham Young",
+            "to": "Joseph Smith",
+            "type": "PRECEDED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "D&C 136:1-3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Chapter 1: The First Vision: The Father and the Son Appear to Joseph Smith",
+            "to": "Joseph Smith",
+            "type": "AUTHORED_BY",
+            "properties": {
+              "source_field": "author",
+              "confidence": "metadata"
+            }
+          },
+          {
+            "from": "Chapter 10: Prayer and Personal Revelation",
+            "to": "Joseph Smith",
+            "type": "AUTHORED_BY",
+            "properties": {
+              "source_field": "author",
+              "confidence": "metadata"
+            }
+          },
+          {
+            "from": "Chapter 11: The Organization and Destiny of the True and Living Church",
+            "to": "Joseph Smith",
+            "type": "AUTHORED_BY",
+            "properties": {
+              "source_field": "author",
+              "confidence": "metadata"
+            }
+          },
+          {
+            "from": "Chapter 12: Proclaim Glad Tidings to All the World",
+            "to": "Joseph Smith",
+            "type": "AUTHORED_BY",
+            "properties": {
+              "source_field": "author",
+              "confidence": "metadata"
+            }
+          },
+          {
+            "from": "Chapter 13: Obedience: ‘When the Lord Commands, Do It’",
+            "to": "Joseph Smith",
+            "type": "AUTHORED_BY",
+            "properties": {
+              "source_field": "author",
+              "confidence": "metadata"
+            }
+          }
+        ]
+      }
+    },
+    "q13": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Mormon",
+        "depth": 1,
+        "limit": 20
+      },
+      "elapsed_ms": 4325.03,
+      "result": {
+        "nodes": [
+          {
+            "name": "Zarahemla",
+            "type": "person"
+          },
+          {
+            "name": "Zarahemla",
+            "type": "people"
+          },
+          {
+            "name": "Zarahemla",
+            "type": "place"
+          },
+          {
+            "name": "Lamanite armies (final wars)",
+            "type": "concept"
+          },
+          {
+            "name": "Cumorah",
+            "type": "place"
+          },
+          {
+            "name": "Land Northward",
+            "type": "place"
+          },
+          {
+            "name": "Three Nephites",
+            "type": "concept"
+          },
+          {
+            "name": "Three Nephites",
+            "type": "person"
+          },
+          {
+            "name": "Military Commander",
+            "type": "concept"
+          },
+          {
+            "name": "Book of Alma",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Helaman",
+            "type": "scripture"
+          },
+          {
+            "name": "3 Nephi",
+            "type": "scripture"
+          },
+          {
+            "name": "4 Nephi",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Mormon (record)",
+            "type": "scripture"
+          },
+          {
+            "name": "Book of Mosiah",
+            "type": "scripture"
+          },
+          {
+            "name": "1 Corinthians 13",
+            "type": "scripture"
+          },
+          {
+            "name": "Plates of Mormon",
+            "type": "object"
+          },
+          {
+            "name": "Large Plates of Nephi",
+            "type": "object"
+          },
+          {
+            "name": "Lehi",
+            "type": "person"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Mormon",
+            "to": "Zarahemla",
+            "type": "LIVED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Mormon",
+            "to": "Zarahemla",
+            "type": "LIVED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 1:6",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Mormon",
+            "to": "Lamanite armies (final wars)",
+            "type": "FOUGHT_AGAINST",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 6:5-15",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Mormon",
+            "to": "Cumorah",
+            "type": "DIED_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 8:2-3",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Mormon",
+            "to": "Land Northward",
+            "type": "BORN_IN",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 1:6",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Three Nephites",
+            "to": "Mormon",
+            "type": "APPEARED_TO",
+            "properties": {}
+          },
+          {
+            "from": "Three Nephites",
+            "to": "Mormon",
+            "type": "APPEARED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "3 Nephi 28:24-26; Mormon 8:11",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Mormon",
+            "to": "Military Commander",
+            "type": "HAS_ROLE",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 2:1-2",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Book of Alma",
+            "to": "Mormon",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Alma 1:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Book of Helaman",
+            "to": "Mormon",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Helaman 1:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "3 Nephi",
+            "to": "Mormon",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "3 Nephi 5:8-12",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "4 Nephi",
+            "to": "Mormon",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "4 Nephi 1:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Book of Mormon (record)",
+            "to": "Mormon",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 1:1",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Book of Mosiah",
+            "to": "Mormon",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Words of Mormon 1:3-5",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Mormon",
+            "to": "1 Corinthians 13",
+            "type": "ALLUDES_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Moroni 7:45-48",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Plates of Mormon",
+            "to": "Mormon",
+            "type": "RECORD_KEPT_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 1:1-4",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Large Plates of Nephi",
+            "to": "Mormon",
+            "type": "RECORD_KEPT_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Words of Mormon 1:3-5",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Mormon",
+            "to": "Cumorah",
+            "type": "TRAVELED_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Mormon 6:2",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Lehi",
+            "to": "Mormon",
+            "type": "DESCENDANT_OF",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "3 Nephi 5:20",
+              "source": "genealogy_extraction"
+            }
+          }
+        ]
+      }
+    },
+    "q14": {
+      "method": "get_neighbors",
+      "args": {
+        "name": "Moroni",
+        "depth": 2,
+        "limit": 50
+      },
+      "elapsed_ms": 2003.93,
+      "result": {
+        "nodes": [
+          {
+            "name": "Book of Ether",
+            "type": "scripture"
+          },
+          {
+            "name": "Moroni",
+            "type": "person"
+          },
+          {
+            "name": "Hebrews 11",
+            "type": "scripture"
+          },
+          {
+            "name": "Aaronic Priesthood",
+            "type": "concept"
+          },
+          {
+            "name": "Psalm 24:3",
+            "type": "person"
+          },
+          {
+            "name": "Russell M. Nelson",
+            "type": "person"
+          },
+          {
+            "name": "Ezekiel 37:26",
+            "type": "person"
+          },
+          {
+            "name": "Covenant",
+            "type": "concept"
+          },
+          {
+            "name": "Matthew 22:37–39",
+            "type": "person"
+          },
+          {
+            "name": "Alma 30:3",
+            "type": "person"
+          },
+          {
+            "name": "Covenants 84:20–22",
+            "type": "concept"
+          },
+          {
+            "name": "Young Women Classes",
+            "type": "concept"
+          },
+          {
+            "name": "Covenants 54:6",
+            "type": "concept"
+          },
+          {
+            "name": "The Family: A Proclamation to the World",
+            "type": "concept"
+          },
+          {
+            "name": "Alma 32:21",
+            "type": "person"
+          },
+          {
+            "name": "John 16:13",
+            "type": "person"
+          },
+          {
+            "name": "Alma 37:44",
+            "type": "person"
+          },
+          {
+            "name": "Joshua 24:15",
+            "type": "person"
+          },
+          {
+            "name": "Priesthood",
+            "type": "concept"
+          },
+          {
+            "name": "Alma 34:33",
+            "type": "person"
+          },
+          {
+            "name": "Jacob 7:5",
+            "type": "person"
+          },
+          {
+            "name": "Moroni 7:13",
+            "type": "person"
+          },
+          {
+            "name": "the Holy Ghost",
+            "type": "concept"
+          },
+          {
+            "name": "Witnesses, Aaronic Priesthood Quorums",
+            "type": "concept"
+          },
+          {
+            "name": "Covenants 8:2",
+            "type": "concept"
+          },
+          {
+            "name": "Jesus Christ",
+            "type": "person"
+          },
+          {
+            "name": "Neal A. Maxwell",
+            "type": "person"
+          },
+          {
+            "name": "Holy Ghost",
+            "type": "person"
+          },
+          {
+            "name": "Bonnie H. Cordon Bonnie H. Cordon",
+            "type": "person"
+          },
+          {
+            "name": "Daughter of Lot - Younger",
+            "type": "person"
+          },
+          {
+            "name": "Daughter of Putiel",
+            "type": "person"
+          },
+          {
+            "name": "Nephi 11:5 Doctrine and Covenants 54:6",
+            "type": "concept"
+          },
+          {
+            "name": "Covenants 84:20–22 Articles",
+            "type": "concept"
+          },
+          {
+            "name": "Jesus",
+            "type": "person"
+          },
+          {
+            "name": "Heavenly Father",
+            "type": "person"
+          },
+          {
+            "name": "Israel",
+            "type": "concept"
+          },
+          {
+            "name": "Sacrifice",
+            "type": "concept"
+          },
+          {
+            "name": "Temple",
+            "type": "concept"
+          },
+          {
+            "name": "Sacrifice and Sacrament",
+            "type": "concept"
+          },
+          {
+            "name": "Seeing the Promises Afar Off",
+            "type": "concept"
+          },
+          {
+            "name": "Gospel Topics",
+            "type": "person"
+          },
+          {
+            "name": "Day of Atonement",
+            "type": "concept"
+          },
+          {
+            "name": "Faith in Jesus Christ",
+            "type": "concept"
+          },
+          {
+            "name": "Sister Anne C. Pingree",
+            "type": "person"
+          },
+          {
+            "name": "Joy and Spiritual Survival",
+            "type": "concept"
+          },
+          {
+            "name": "Jacob (patriarch)",
+            "type": "person"
+          },
+          {
+            "name": "Paul",
+            "type": "person"
+          },
+          {
+            "name": "Sacrament",
+            "type": "concept"
+          },
+          {
+            "name": "Faith",
+            "type": "concept"
+          },
+          {
+            "name": "An High Priest of Good Things",
+            "type": "concept"
+          }
+        ],
+        "edges": [
+          {
+            "from": "Book of Ether",
+            "to": "Moroni",
+            "type": "ABRIDGED_BY",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Ether 1:1-2",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Moroni",
+            "to": "Book of Ether",
+            "type": "AUTHORED",
+            "properties": {
+              "role": "abridger",
+              "confidence": "curated",
+              "source_ref": "Ether 1:1-2",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Moroni",
+            "to": "Hebrews 11",
+            "type": "ALLUDES_TO",
+            "properties": {
+              "confidence": "curated",
+              "source_ref": "Ether 12:6-22",
+              "source": "curated_seed"
+            }
+          },
+          {
+            "from": "Aaronic Priesthood",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Psalm 24:3",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Russell M. Nelson",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Ezekiel 37:26",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Covenant",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Matthew 22:37–39",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Alma 30:3",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Covenants 84:20–22",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Young Women Classes",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Covenants 54:6",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "The Family: A Proclamation to the World",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Alma 32:21",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "John 16:13",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Alma 37:44",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Joshua 24:15",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Priesthood",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Alma 34:33",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Jacob 7:5",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Moroni 7:13",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "the Holy Ghost",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Witnesses, Aaronic Priesthood Quorums",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Covenants 8:2",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Jesus Christ",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Neal A. Maxwell",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Holy Ghost",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Bonnie H. Cordon Bonnie H. Cordon",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Daughter of Lot - Younger",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Daughter of Putiel",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Nephi 11:5 Doctrine and Covenants 54:6",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Covenants 84:20–22 Articles",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Jesus",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Heavenly Father",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Israel",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Sacrifice",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Temple",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Sacrifice and Sacrament",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Seeing the Promises Afar Off",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Gospel Topics",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Day of Atonement",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Faith in Jesus Christ",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Sister Anne C. Pingree",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Joy and Spiritual Survival",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Jacob (patriarch)",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Paul",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Sacrament",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "Faith",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          },
+          {
+            "from": "An High Priest of Good Things",
+            "to": "Hebrews 11",
+            "type": "REFERENCED_IN",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "q40": {
+      "method": "graph_summary",
+      "args": {},
+      "elapsed_ms": 7398.34,
+      "result": {
+        "total_nodes": 893638,
+        "total_relationships": 61015544,
+        "nodes_by_type": [
+          {
+            "type": "person",
+            "count": 218592
+          },
+          {
+            "type": "people",
+            "count": 135186
+          },
+          {
+            "type": "period",
+            "count": 110610
+          },
+          {
+            "type": "scripture",
+            "count": 95648
+          },
+          {
+            "type": "scripture_reference",
+            "count": 75975
+          },
+          {
+            "type": "place",
+            "count": 70788
+          },
+          {
+            "type": "concept",
+            "count": 52414
+          },
+          {
+            "type": "work",
+            "count": 36550
+          },
+          {
+            "type": "object",
+            "count": 20901
+          },
+          {
+            "type": "talk",
+            "count": 2963
+          },
+          {
+            "type": "event",
+            "count": 583
+          },
+          {
+            "type": "role",
+            "count": 313
+          },
+          {
+            "type": "conference",
+            "count": 82
+          },
+          {
+            "type": "calling",
+            "count": 50
+          },
+          {
+            "type": "organization",
+            "count": 24
+          },
+          {
+            "type": "unit",
+            "count": 18
+          },
+          {
+            "type": "ordinance",
+            "count": 17
+          },
+          {
+            "type": "document",
+            "count": 10
+          },
+          {
+            "type": "program",
+            "count": 10
+          },
+          {
+            "type": "council",
+            "count": 8
+          },
+          {
+            "type": "meeting",
+            "count": 8
+          },
+          {
+            "type": "policy",
+            "count": 6
+          },
+          {
+            "type": "fund",
+            "count": 5
+          }
+        ],
+        "relationships_by_type": [
+          {
+            "type": "CO_OCCURS_WITH",
+            "count": 29028417
+          },
+          {
+            "type": "REFERENCED_IN",
+            "count": 6620648
+          },
+          {
+            "type": "BELONGS_TO",
+            "count": 5938727
+          },
+          {
+            "type": "ASSOCIATED_WITH",
+            "count": 5290051
+          },
+          {
+            "type": "LIVED_DURING",
+            "count": 4481061
+          },
+          {
+            "type": "MENTIONED_IN",
+            "count": 3984835
+          },
+          {
+            "type": "TEACHES",
+            "count": 3349357
+          },
+          {
+            "type": "EXISTS_DURING",
+            "count": 1466077
+          },
+          {
+            "type": "RELATED_TO",
+            "count": 574305
+          },
+          {
+            "type": "CITES",
+            "count": 214072
+          },
+          {
+            "type": "AUTHORED_BY",
+            "count": 20692
+          },
+          {
+            "type": "PART_OF",
+            "count": 19642
+          },
+          {
+            "type": "COVENANT_OF",
+            "count": 14669
+          },
+          {
+            "type": "DELIVERED_BY",
+            "count": 2476
+          },
+          {
+            "type": "PRESIDES_OVER",
+            "count": 1620
+          },
+          {
+            "type": "FATHER_OF",
+            "count": 794
+          },
+          {
+            "type": "CALLED_AS",
+            "count": 793
+          },
+          {
+            "type": "COMPOSED_BY",
+            "count": 791
+          },
+          {
+            "type": "DESCRIBED_IN",
+            "count": 653
+          },
+          {
+            "type": "ORGANIZED_UNDER",
+            "count": 602
+          },
+          {
+            "type": "REPORTS_TO",
+            "count": 536
+          },
+          {
+            "type": "AUTHORIZED_TO_PERFORM",
+            "count": 498
+          },
+          {
+            "type": "PARALLEL_ACCOUNT_OF",
+            "count": 377
+          },
+          {
+            "type": "AUTHORED",
+            "count": 361
+          },
+          {
+            "type": "MEMBER_OF",
+            "count": 337
+          },
+          {
+            "type": "HAS_ROLE",
+            "count": 243
+          },
+          {
+            "type": "PRECEDED_BY",
+            "count": 228
+          },
+          {
+            "type": "OCCURRED_DURING",
+            "count": 204
+          },
+          {
+            "type": "LIVED_IN",
+            "count": 172
+          },
+          {
+            "type": "UNIT_CONTAINS",
+            "count": 151
+          },
+          {
+            "type": "OVERSEES",
+            "count": 138
+          },
+          {
+            "type": "PREREQUISITE_FOR",
+            "count": 129
+          },
+          {
+            "type": "TRAVELED_TO",
+            "count": 129
+          },
+          {
+            "type": "HAS_TITLE",
+            "count": 115
+          },
+          {
+            "type": "CONDUCTS_INTERVIEW",
+            "count": 111
+          },
+          {
+            "type": "SEE_ALSO",
+            "count": 100
+          },
+          {
+            "type": "TAUGHT",
+            "count": 98
+          },
+          {
+            "type": "BORN_IN",
+            "count": 86
+          },
+          {
+            "type": "GOVERNS_POLICY",
+            "count": 84
+          },
+          {
+            "type": "MOTHER_OF",
+            "count": 77
+          },
+          {
+            "type": "DIED_IN",
+            "count": 67
+          },
+          {
+            "type": "FOUGHT_AGAINST",
+            "count": 64
+          },
+          {
+            "type": "SAW_IN_VISION",
+            "count": 57
+          },
+          {
+            "type": "MANAGES_FUND",
+            "count": 55
+          },
+          {
+            "type": "GENRE_OF",
+            "count": 53
+          },
+          {
+            "type": "PROPHESIED_ABOUT",
+            "count": 50
+          },
+          {
+            "type": "QUOTES",
+            "count": 48
+          },
+          {
+            "type": "SPOUSE_OF",
+            "count": 45
+          },
+          {
+            "type": "CALLED_BY_NAME",
+            "count": 39
+          },
+          {
+            "type": "APPEARED_TO",
+            "count": 32
+          },
+          {
+            "type": "DESCENDANT_OF",
+            "count": 30
+          },
+          {
+            "type": "BROTHER_OF",
+            "count": 29
+          },
+          {
+            "type": "CONVERTED_BY",
+            "count": 29
+          },
+          {
+            "type": "IS_SAME_AS",
+            "count": 26
+          },
+          {
+            "type": "SUCCESSOR_OF",
+            "count": 24
+          },
+          {
+            "type": "HOLDS_PRIESTHOOD",
+            "count": 23
+          },
+          {
+            "type": "ORDAINED_BY",
+            "count": 23
+          },
+          {
+            "type": "SYMBOLIZES",
+            "count": 21
+          },
+          {
+            "type": "COVENANT_WITH",
+            "count": 20
+          },
+          {
+            "type": "REFERENCES",
+            "count": 20
+          },
+          {
+            "type": "BLESSED_BY",
+            "count": 19
+          },
+          {
+            "type": "PROPHECY_OF",
+            "count": 17
+          },
+          {
+            "type": "ALLIED_WITH",
+            "count": 17
+          },
+          {
+            "type": "DUAL_FULFILLMENT",
+            "count": 16
+          },
+          {
+            "type": "TRANSLATES_AS",
+            "count": 16
+          },
+          {
+            "type": "TYPE_OF",
+            "count": 15
+          },
+          {
+            "type": "COVERS",
+            "count": 15
+          },
+          {
+            "type": "KILLED",
+            "count": 14
+          },
+          {
+            "type": "HEALED_BY",
+            "count": 13
+          },
+          {
+            "type": "CONFERRED_KEYS_TO",
+            "count": 12
+          },
+          {
+            "type": "BAPTIZED_BY",
+            "count": 11
+          },
+          {
+            "type": "RECORD_KEPT_BY",
+            "count": 11
+          },
+          {
+            "type": "DISPENSATION_HEAD",
+            "count": 11
+          },
+          {
+            "type": "TRIBE_OF",
+            "count": 11
+          },
+          {
+            "type": "MARTYRED_AT",
+            "count": 11
+          },
+          {
+            "type": "TEACHES_ABOUT",
+            "count": 10
+          },
+          {
+            "type": "ANTITYPE_OF",
+            "count": 10
+          },
+          {
+            "type": "CHIASM_IN",
+            "count": 9
+          },
+          {
+            "type": "FOREORDAINED_AS",
+            "count": 8
+          },
+          {
+            "type": "ANCESTOR_OF",
+            "count": 8
+          },
+          {
+            "type": "CONQUERED",
+            "count": 7
+          },
+          {
+            "type": "RESTORED",
+            "count": 7
+          },
+          {
+            "type": "ALLUDES_TO",
+            "count": 7
+          },
+          {
+            "type": "ABRIDGED_BY",
+            "count": 7
+          },
+          {
+            "type": "EARLIER_VERSION_OF",
+            "count": 7
+          },
+          {
+            "type": "DISPENSATION_OF",
+            "count": 7
+          },
+          {
+            "type": "FOUNDED",
+            "count": 6
+          },
+          {
+            "type": "CONTAINS",
+            "count": 6
+          },
+          {
+            "type": "JST_OF",
+            "count": 6
+          },
+          {
+            "type": "KEYBEARER_OF",
+            "count": 6
+          },
+          {
+            "type": "USES",
+            "count": 3
+          },
+          {
+            "type": "IS_A",
+            "count": 3
+          },
+          {
+            "type": "DATED_TO",
+            "count": 2
+          },
+          {
+            "type": "COMMANDED_BY",
+            "count": 2
+          },
+          {
+            "type": "FOUNDATIONAL_FOR",
+            "count": 1
+          },
+          {
+            "type": "AUDIENCE",
+            "count": 1
+          },
+          {
+            "type": "COMPARE_WITH",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

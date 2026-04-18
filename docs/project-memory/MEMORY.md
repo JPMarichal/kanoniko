@@ -88,3 +88,4 @@
 - [reference_illustration_concept.md](reference_illustration_concept.md) — Illustration as resource AND product: definition, taxonomy, quality criteria, metadata schema, FCD rules, extraction skill
 - [feedback_illustration_quality.md](feedback_illustration_quality.md) — Illustrations must be self-contained narratives ready to copy-paste, not compressed summaries
 - [feedback_fase0_editorial_gate.md](feedback_fase0_editorial_gate.md) — Fase 0 editorial research is a hard gate: never assign authority/KG without web-based editorial investigation first
+- [feedback_docs_sync.md](feedback_docs_sync.md) — Update docs in the SAME turn as any operational correction; never defer until reminded

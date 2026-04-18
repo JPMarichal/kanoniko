@@ -18,6 +18,23 @@ class Settings(BaseSettings):
     neo4j_user: str = "neo4j"
     neo4j_password: str = "alejandria"
 
+    # Storage backend selector (Phase 3 of feature/postgres-migration).
+    # During the migration window, `sqlite` is the default (stable stack,
+    # SQLite FTS5 + sqlite-vec + Neo4j). Set `postgres` to route search and
+    # KG reads to the Postgres backend. Ingestion still writes to SQLite+Neo4j
+    # until cutover — see docs/postgres-migration.md Fase 4.
+    storage_backend: str = "sqlite"  # "sqlite" | "postgres"
+
+    # Postgres (migration target — Phase 2+ of feature/postgres-migration)
+    postgres_host: str = "postgres"
+    postgres_port: int = 5432
+    postgres_user: str = "alejandria"
+    postgres_password: str = ""
+    postgres_db: str = "alejandria"
+    postgres_sslmode: str = "prefer"            # disable|prefer|require|verify-ca|verify-full
+    postgres_statement_timeout_ms: int = 30000   # 30s hard cap on any single query
+    postgres_application_name: str = "alejandria"
+
     # Embeddings
     embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     embedding_device: str = "cuda"
@@ -69,7 +86,15 @@ class Settings(BaseSettings):
     host: str = "0.0.0.0"
     port: int = 4300
 
-    model_config = {"env_prefix": "ALEJANDRIA_", "env_file": ".env"}
+    model_config = {
+        "env_prefix": "ALEJANDRIA_",
+        "env_file": ".env",
+        # El `.env` del repo contiene vars de otros subsistemas (p. ej. DB_HOST
+        # para el MariaDB histórico). Sin esto, pydantic rechaza todo el Settings
+        # por esas claves "extra". "ignore" es la semántica correcta: solo
+        # consumir ALEJANDRIA_*, dejar el resto para otros tools.
+        "extra": "ignore",
+    }
 
 
 settings = Settings()

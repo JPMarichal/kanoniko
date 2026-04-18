@@ -10947,6 +10947,47 @@
         "Valle del Lago Salado",
         "Great Salt Lake Valley"
       ]
+    },
+    {
+      "name": "Burgundy",
+      "aliases": [
+        "Borgoña",
+        "Bourgogne"
+      ]
+    },
+    {
+      "name": "Marseille",
+      "aliases": [
+        "Marseilles",
+        "Marsella"
+      ]
+    },
+    {
+      "name": "Savoy",
+      "aliases": [
+        "Saboya",
+        "Savoie"
+      ]
+    },
+    {
+      "name": "Fontainebleau",
+      "aliases": [
+        "Fontainbleau"
+      ]
+    },
+    {
+      "name": "Lombardy",
+      "aliases": [
+        "Lombardía",
+        "Lombardia"
+      ]
+    },
+    {
+      "name": "Daviess County",
+      "aliases": [
+        "Daviess Co.",
+        "Condado de Daviess"
+      ]
     }
   ],
   "people": [
@@ -11667,7 +11708,10 @@
       "aliases": [
         "La Iglesia de Jesucristo de los Santos de los Últimos Días",
         "LDS Church",
-        "Iglesia SUD"
+        "Iglesia SUD",
+        "Iglesia",
+        "La Iglesia",
+        "the Church"
       ]
     },
     {

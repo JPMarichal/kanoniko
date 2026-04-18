@@ -222,3 +222,30 @@ class TextualSearch:
                 "SELECT COUNT(DISTINCT file_path) AS cnt FROM chunks"
             ).fetchone()
             return row["cnt"]
+
+
+# --------------------------------------------------------------------------- #
+# Backend factory (Phase 3 of feature/postgres-migration)
+# --------------------------------------------------------------------------- #
+
+def make_textual_search(db_path: Path | None = None):
+    """Return the configured textual search backend.
+
+    Dispatches on ``settings.storage_backend``:
+
+    * ``"sqlite"`` (default): the battle-tested ``TextualSearch`` over FTS5.
+    * ``"postgres"``: ``PostgresTextualSearch`` over tsvector + GIN.
+
+    Named ``make_*`` because the DI layer in ``api/dependencies.py`` already
+    owns the name ``get_textual_search`` (lru_cache wrapper around this
+    factory). Callers in CLI / MCP / ingestion pipeline should use this
+    factory; FastAPI routes pull via the DI accessor.
+    """
+    from alejandria.config import settings
+
+    backend = (settings.storage_backend or "sqlite").lower()
+    if backend == "postgres":
+        from alejandria.search.postgres_textual import PostgresTextualSearch
+        return PostgresTextualSearch()
+    # default: SQLite (legacy stack)
+    return TextualSearch(db_path or settings.sqlite_db_path)
