@@ -1,0 +1,501 @@
+name,cat,reason,degree,fam,cooc,mentions
+## Cautionary,5,starts_nonword,29,0,20,1
+## Post-Ascension,5,starts_nonword,30,0,18,1
+"145,513.78",1,clean,28,0,26,1
+sixty cents,1,clean,132,0,95,2
+10x12 feet,1,clean,54,0,35,1
+11.50,5,numeric_only,170,0,90,2
+about one hundred gallons,1,clean,36,0,20,1
+about a mile N. of Heshbon,1,clean,104,0,75,1
+## Bolster,5,starts_nonword,53,0,36,1
+about 50 feet,1,clean,19,0,15,1
+## Scripture,5,starts_nonword,202,0,142,4
+42-acre,1,clean,39,0,29,1
+25:8 | Mark 16:1–6,1,clean,120,0,95,2
+## Nigh ### Nigh ni,5,starts_nonword,53,0,35,1
+## Maranatha #,5,starts_nonword,44,0,25,1
+## Carshena #,5,starts_nonword,1,0,0,1
+## Marriage and Family,5,starts_nonword,51,0,25,1
+## Naggai ###,5,starts_nonword,133,0,73,1
+46:29,5,numeric_only,73,0,41,2
+## Setting ###,5,starts_nonword,1,0,0,1
+three marks,1,clean,116,0,78,1
+about six inches,1,clean,509,0,319,28
+about $250.00,1,clean,36,0,15,1
+## Latter-day,5,starts_nonword,240,0,170,15
+## Valley,5,starts_nonword,112,0,66,2
+## Gem ###,5,starts_nonword,1,0,0,1
+## Africa #,5,starts_nonword,26,0,0,1
+## Ezion-Geber EZION-GEBER,5,starts_nonword,64,0,32,1
+### Anoint,5,starts_nonword,19,0,0,1
+"1Co 3:6,10",1,clean,0,0,0,0
+## Stream ###,5,starts_nonword,0,0,0,0
+## Surety ###,5,starts_nonword,0,0,0,0
+36:37,5,numeric_only,125,0,67,3
+"16:13,15",3,short_scripture,1,0,0,1
+seventy-five thousand pounds,1,clean,42,0,33,1
+"14,000 meters",1,clean,52,0,34,1
+## Divination,5,starts_nonword,231,0,156,4
+## Sabaoth SABAOTH,5,starts_nonword,42,0,33,1
+8:9–25,5,numeric_only,83,0,54,1
+## Pedigree ###,5,starts_nonword,1,0,0,1
+27:9,5,numeric_only,235,0,144,5
+"about 100,000 light-years",1,clean,25,0,15,1
+thirteen hundred miles,1,clean,125,0,96,4
+## Simple ###,5,starts_nonword,0,0,0,0
+seventy-mile,4,single_lowercase,41,0,26,1
+5a,1,clean,24,0,8,1
+twenty-three feet,1,clean,97,0,63,2
+## Transgression ### Transgression,5,starts_nonword,46,0,34,1
+32:7 f.,3,short_scripture,53,0,36,1
+## Bozkath,5,starts_nonword,1,0,0,1
+## Baptist ###,5,starts_nonword,1,0,0,1
+## Haggai HAGGAI,5,starts_nonword,69,0,39,1
+"1,000-square-foot",1,clean,47,0,27,1
+## Iscah Spy,5,starts_nonword,71,0,27,1
+## Incest ## Rape ##,5,starts_nonword,44,0,24,1
+## Nineteenth-Century,5,starts_nonword,55,0,29,2
+"4,866",1,clean,163,0,112,2
+about 15 cents per day,1,clean,40,0,19,1
+## Obeisance,5,starts_nonword,42,0,26,1
+## Nephi’s Description,5,starts_nonword,36,0,22,1
+## Anchor ###,5,starts_nonword,23,0,0,1
+three degrees below zero,1,clean,62,0,36,1
+## Introduction Discovering,5,starts_nonword,61,0,42,1
+1:30,5,numeric_only,125,0,96,2
+411-408,5,numeric_only,75,0,49,1
+## Confound ###,5,starts_nonword,1,0,0,1
+128:19–22 ###,3,short_scripture,55,0,46,1
+## Japhleti #,5,starts_nonword,1,0,0,1
+## Learn and Apply Take,5,starts_nonword,14,0,10,1
+## Primogeniture #,5,starts_nonword,0,0,0,0
+ninety-five feet,1,clean,99,0,84,2
+## Activity Think,5,starts_nonword,10,0,4,1
+an additional hundred thousand,1,clean,19,0,13,1
+## Hizkiah ###,5,starts_nonword,120,0,56,1
+9:2) c1 Creatures,1,clean,32,0,18,1
+## 7,5,starts_nonword,184,0,141,5
+"over $8,000",1,clean,26,0,14,1
+## Crispus Curled,5,starts_nonword,68,0,52,1
+## Gaddi,5,starts_nonword,92,0,27,1
+### Examine,5,starts_nonword,24,0,16,2
+4½ inches,1,clean,26,0,21,1
+about 200 yards,1,clean,277,0,160,8
+## Strain ###,5,starts_nonword,0,0,0,0
+## Pick a Topic,5,starts_nonword,16,0,11,1
+## Theatre THEATRE,5,starts_nonword,68,0,39,1
+31:30,5,numeric_only,11,0,7,1
+1]]⁷ ##,1,clean,67,0,35,1
+16:10 ###,3,short_scripture,86,0,54,2
+## River ###,5,starts_nonword,72,0,39,0
+## Guard,5,starts_nonword,93,0,65,2
+twelve stewards,1,clean,1,0,0,1
+## Needle,5,starts_nonword,62,0,36,1
+some 300 ft.,1,clean,1,0,0,1
+## Unno #,5,starts_nonword,55,0,37,1
+## Zilpah ###,5,starts_nonword,76,0,30,1
+## Stations Stations,5,starts_nonword,18,0,12,1
+## Amphipolis #,5,starts_nonword,34,0,0,1
+## Kir,5,starts_nonword,280,0,171,3
+5:14,5,numeric_only,421,0,259,7
+## Lozon LOZON,5,starts_nonword,61,0,40,1
+## Nophah,5,starts_nonword,27,0,6,1
+## 34.4 Confidentiality of Tithing,5,starts_nonword,25,0,23,1
+about four miles N.,1,clean,54,0,39,1
+20:1–25 ###,3,short_scripture,67,0,49,1
+9:21-24.303,5,numeric_only,89,0,73,1
+## Conclusion Over,5,starts_nonword,25,0,14,1
+sixty-five dollars,1,clean,13,0,10,1
+## Aramitess ARAMITESS,5,starts_nonword,94,0,50,1
+11½ x 16½ cm,1,clean,7,0,6,1
+four pounds,1,clean,119,0,86,4
+## Ezbai,5,starts_nonword,83,0,56,1
+## Unno UNNO,5,starts_nonword,45,0,27,1
+## Summary #,5,starts_nonword,19,0,13,1
+About 86 miles,1,clean,85,0,63,1
+## Resheph #,5,starts_nonword,101,0,65,1
+## Razor,5,starts_nonword,62,0,23,1
+5th 6th cent,1,clean,45,0,35,1
+20:15 f.,3,short_scripture,44,0,31,1
+79-mile,1,clean,30,0,22,1
+ten thousand pounds,1,clean,133,0,82,3
+68–69 doctrine,3,short_scripture,60,0,33,1
+# Zambia #,5,starts_nonword,28,0,23,1
+## Boanerges ### Boanerges,5,starts_nonword,1,0,0,1
+## Rizpah RIZPAH,5,starts_nonword,73,0,34,1
+four or five dollars,1,clean,109,0,42,2
+## Executioner,5,starts_nonword,68,0,46,1
+nearly 900 feet,1,clean,52,0,42,1
+31:1,5,numeric_only,62,0,43,1
+23.4.1 ##,1,clean,62,0,43,1
+### Vision,5,starts_nonword,64,0,43,2
+## Zimri,5,starts_nonword,243,0,124,2
+"4,976.05",1,clean,45,0,22,1
+Nicomedia.--Some degree,1,clean,11,0,7,1
+## Allusive Scriptures,5,starts_nonword,38,0,29,1
+## Complete #,5,starts_nonword,1,0,0,1
+Omni 1:5–7,3,scripture_ref,30,0,16,1
+## Ha ###,5,starts_nonword,55,0,36,1
+eighty barrelsânine tonsâand,1,clean,46,0,38,1
+## Beam Occurs,5,starts_nonword,52,0,35,1
+966] II,1,clean,43,0,23,1
+## Humiliation of Christ ### Humiliation,5,starts_nonword,48,0,25,1
+## Wheel,5,starts_nonword,62,0,46,1
+## Achor Trouble,5,starts_nonword,69,0,27,1
+twenty-one dollars,1,clean,73,0,38,2
+## Modern Questions,5,starts_nonword,36,0,31,1
+## Grasp ###,5,starts_nonword,1,0,0,1
+14–15 ###,3,short_scripture,154,0,111,5
+### Repent,5,starts_nonword,35,0,22,1
+thousand-dollar,4,single_lowercase,49,0,38,1
+## Continuing Witness,5,starts_nonword,26,0,18,1
+## Shachia,5,starts_nonword,161,0,92,2
+1Ti 3:16,1,clean,66,0,48,1
+## Iddo,5,starts_nonword,121,0,63,1
+3.5.7 ###,1,clean,16,0,12,1
+9¼ miles,1,clean,21,0,10,1
+20:32–33 ###,3,short_scripture,54,0,34,1
+four or five acres,1,clean,19,0,15,1
+## Cupboard CUPBOARD,5,starts_nonword,56,0,39,1
+23]Andreasen,1,clean,80,0,56,1
+# Accelerate,5,starts_nonword,3,0,0,1
+## Council,5,starts_nonword,0,0,0,0
+## Ethiopic Language,5,starts_nonword,1,0,0,1
+## Lasciviousness ###,5,starts_nonword,35,0,19,1
+## Heel ### Heel hel,5,starts_nonword,40,0,22,1
+119–21 shi,3,short_scripture,66,0,51,1
+## Hosea,5,starts_nonword,42,0,22,1
+## Bealiah BEALIAH,5,starts_nonword,125,0,78,1
+## Blessedness BLESSEDNESS,5,starts_nonword,85,0,57,1
+## Heldai ###,5,starts_nonword,53,0,30,1
+15:4 [= Galatians 2:1,1,clean,99,0,88,1
+## Hukkok ###,5,starts_nonword,60,0,38,1
+## Suitable,5,starts_nonword,31,0,20,1
+## Mikloth,5,starts_nonword,70,0,16,1
+9:11,5,numeric_only,137,0,107,6
+## Crane,5,starts_nonword,41,0,28,1
+211–213 Section 2 ##,1,clean,51,0,39,1
+## Cozbi,5,starts_nonword,175,0,91,2
+"one 14,300 feet",1,clean,77,0,47,1
+9.79,5,numeric_only,108,0,42,1
+"6,400 km).</p",1,clean,39,0,30,1
+1Ch 2:51,1,clean,137,0,64,2
+## Assumption,5,starts_nonword,73,0,36,1
+## Geron #,5,starts_nonword,1,0,0,1
+20] ## Pride,1,clean,29,0,18,1
+## Fellowship,5,starts_nonword,102,0,63,1
+## Gebim ###,5,starts_nonword,1,0,0,1
+## Gangrene,5,starts_nonword,1,0,0,1
+## Resources,5,starts_nonword,10,0,5,1
+## Parcel #,5,starts_nonword,1,0,0,1
+## Eliasib #,5,starts_nonword,1,0,0,1
+571.2 grams,1,clean,41,0,34,1
+about 11 hundred miles,1,clean,37,0,29,1
+24:60,5,numeric_only,183,0,105,4
+two hundred dollar,1,clean,80,0,56,2
+170-million-pound,1,clean,45,0,36,2
+240-kilometer,1,clean,50,0,37,1
+29:33,5,numeric_only,101,0,49,3
+approximately 22 1/4 acres,1,clean,1,0,0,1
+six-ounce,4,single_lowercase,7,0,5,1
+5:38) ###,3,short_scripture,31,0,17,1
+## Taphon ###,5,starts_nonword,77,0,35,1
+## Army I. Jewish,5,starts_nonword,58,0,44,1
+## Learn More - Henry B. Eyring,5,starts_nonword,106,0,67,1
+## Cankerworm CANKERWORM,5,starts_nonword,41,0,26,1
+## Chun #,5,starts_nonword,1,0,0,1
+191] ##,1,clean,54,0,30,1
+## Scribes,5,starts_nonword,54,0,39,2
+## Olishem ##,5,starts_nonword,45,0,26,1
+48:1-25,5,numeric_only,56,0,34,1
+## Invitations Show,5,starts_nonword,13,0,10,1
+"13,000",1,clean,77,0,62,2
+about $80.00,1,clean,107,0,69,2
+3.8 cm,1,clean,53,0,35,1
+twenty-four,4,single_lowercase,169,0,127,3
+26–28,5,numeric_only,52,0,47,1
+### Decisions,5,starts_nonword,14,0,7,1
+"3:2-5,14,17",3,short_scripture,46,0,29,1
+35–40 ##,3,short_scripture,33,0,28,1
+1Ki 22:42,1,clean,1,0,0,1
+## Manuscripts ###,5,starts_nonword,59,0,31,1
+1845–1965) #,3,short_scripture,55,0,42,1
+## Gileadites,5,starts_nonword,1,0,0,1
+"2,200 pounds",1,clean,70,0,55,2
+15-acre,1,clean,31,0,22,1
+## Interest ### Interest,5,starts_nonword,31,0,19,1
+#### 38.2.9.3,5,starts_nonword,51,0,48,1
+five-foot-two,4,single_lowercase,36,0,20,1
+## Ira Citizen,5,starts_nonword,67,0,43,1
+## Chimham,5,starts_nonword,113,0,44,1
+## 32.17,5,starts_nonword,19,0,18,1
+more than 200 feet,1,clean,28,0,18,1
+44.43 centimeters,1,clean,49,0,37,1
+almost 50 miles,1,clean,55,0,38,1
+2:7 ###,3,short_scripture,87,0,53,2
+thirty per cent,1,clean,35,0,31,2
+## Akrabattine,5,starts_nonword,42,0,0,1
+about 300 acres,1,clean,45,0,28,1
+## One,5,starts_nonword,121,0,84,5
+7:50–52 ###,3,short_scripture,43,0,31,1
+18:15–19 ###,3,short_scripture,33,0,26,1
+sixty-eight cents,1,clean,61,0,39,1
+## Concordance ###,5,starts_nonword,1,0,0,1
+# We Welcome,5,starts_nonword,6,0,4,1
+## Bloom,5,starts_nonword,1,0,0,1
+about 600 feet,1,clean,215,0,126,4
+3:21,5,numeric_only,122,0,78,3
+## Wilderness Trials Test Lehi’s Family,5,starts_nonword,29,0,20,1
+about 14 inches square,1,clean,1,0,0,1
+5:21–27,5,numeric_only,118,0,84,3
+some 29 kilometres,1,clean,46,0,24,1
+## Adbeel ###,5,starts_nonword,27,0,0,1
+## Teachings of,5,starts_nonword,41,0,20,1
+64.50,5,numeric_only,69,0,36,1
+## Helkath ###,5,starts_nonword,53,0,32,1
+## Ascent,5,starts_nonword,81,0,36,1
+about sixteen square feet,1,clean,71,0,45,1
+4.3 feet,1,clean,72,0,47,2
+## Flute FLUTE,5,starts_nonword,36,0,27,1
+## Nest ### Nest,5,starts_nonword,83,0,56,1
+three to eight feet,1,clean,34,0,25,1
+24:21,5,numeric_only,33,0,2,1
+Forty-one,1,clean,60,0,52,1
+nearly two hundred miles,1,clean,51,0,47,1
+10:36 Lord,3,short_scripture,62,0,41,1
+## Cockatrice COCKATRICE,5,starts_nonword,61,0,35,1
+"120,000 dollars",1,clean,26,0,24,1
+1:40–42 ####,3,short_scripture,33,0,24,1
+## Murderers,5,starts_nonword,42,0,33,1
+## Devout ###,5,starts_nonword,39,0,25,1
+27:1,5,numeric_only,183,0,113,4
+9:7,5,numeric_only,25,0,11,1
+## Megiddo,5,starts_nonword,108,0,29,1
+## Twine ###,5,starts_nonword,43,0,31,1
+six-inch,4,single_lowercase,101,0,75,3
+## Contemporary Meaning(s,5,starts_nonword,10,0,8,1
+over 11 feet,1,clean,1,0,0,1
+25+ mile,1,clean,64,0,36,1
+40:18,5,numeric_only,36,0,22,1
+## Ox,5,starts_nonword,64,0,28,1
+13:5–12,5,numeric_only,29,0,16,1
+35.2.10,5,numeric_only,23,0,21,1
+about 80–120 feet,1,clean,28,0,23,1
+more than $40,1,clean,17,0,14,1
+twelve hundred miles,1,clean,102,0,71,4
+## Mazzaroth,5,starts_nonword,107,0,76,2
+hundreds of feet,1,clean,199,0,123,7
+## Study the Words of Latter-Day,5,starts_nonword,23,0,15,1
+"4,195,252",1,clean,36,0,31,1
+fifty-six feet,1,clean,40,0,33,1
+## Apart #,5,starts_nonword,24,0,0,1
+3.75,5,numeric_only,27,0,11,1
+messages a thousand miles,1,clean,42,0,30,1
+8n4 godliness,1,clean,59,0,43,1
+## Drawer of Water ###,5,starts_nonword,50,0,30,1
+## Dram #,5,starts_nonword,50,0,30,1
+"1,000 km",1,clean,77,0,52,2
+## Zoan,5,starts_nonword,131,0,59,2
+## Fragment ###,5,starts_nonword,30,0,19,1
+approximately $95 million,1,clean,18,0,15,1
+Omni marks,1,clean,49,0,28,1
+"18,000",1,clean,35,0,19,1
+## Christology CHRISTOLOGY,5,starts_nonword,39,0,22,1
+## Idioms,5,starts_nonword,19,0,15,1
+30+ million kilometers,1,clean,14,0,13,1
+154.1 cm,1,clean,43,0,29,1
+"some 1,800 acres",1,clean,69,0,44,1
+1/2 inches,1,clean,31,0,21,1
+approximately 50 yards,1,clean,26,0,18,1
+## Agency,5,starts_nonword,166,0,125,4
+about 10 miles N.,1,clean,178,0,103,1
+more than 265 million,1,clean,75,0,42,1
+six or eight feet,1,clean,40,0,25,1
+## Scene Three,5,starts_nonword,71,0,40,2
+about 159 kilograms,1,clean,27,0,19,1
+63.67,5,numeric_only,144,0,91,2
+## Bucket,5,starts_nonword,52,0,32,1
+## Bless,5,starts_nonword,57,0,32,2
+## Korahites,5,starts_nonword,72,0,33,2
+1:1–17 ###,3,short_scripture,114,0,82,3
+only two feet,1,clean,26,0,23,1
+24-mile,1,clean,41,0,28,1
+ÏÎ±Î½ á½¡Ï ÏÏÏÎ²Î±ÏÎ± Î¼á½,5,mojibake,39,0,21,1
+### Alma 5:53–54,5,starts_nonword,68,0,46,1
+## Points,5,starts_nonword,826,0,616,42
+## Meldrum’s Method,5,starts_nonword,20,0,10,1
+nineteen miles,1,clean,100,0,75,3
+## Jannai ###,5,starts_nonword,1,0,0,1
+59–68 Section 3 ## Studying,1,clean,39,0,28,1
+## Bench ###,5,starts_nonword,1,0,0,1
+## Approaches,5,starts_nonword,22,0,19,1
+## Weapons [Arms,5,starts_nonword,44,0,38,1
+## Esau,5,starts_nonword,103,0,57,2
+twenty-six,4,single_lowercase,55,0,34,2
+## Powders,5,starts_nonword,0,0,0,0
+at least 10 feet,1,clean,21,0,18,1
+## Ashkelon ASHKELON,5,starts_nonword,72,0,45,1
+348-355.93,5,numeric_only,84,0,73,1
+millions of miles,1,clean,39,0,20,1
+### 29.3.2,5,starts_nonword,24,0,21,1
+## Cease,5,starts_nonword,1,0,0,1
+# New Beginnings,5,starts_nonword,47,0,31,1
+three yards,1,clean,17,0,13,1
+some hundred feet,1,clean,58,0,29,1
+## Tanis ###,5,starts_nonword,47,0,27,1
+nearly three miles,1,clean,148,0,96,2
+About 13 miles,1,clean,120,0,72,2
+2:11–15 ###,3,short_scripture,50,0,30,1
+approximately 43 feet,1,clean,18,0,14,1
+## Bruce C. Hafen: There,5,starts_nonword,24,0,14,1
+## Mark,5,starts_nonword,163,0,107,3
+## Spoil ###,5,starts_nonword,0,0,0,0
+## Idiomatic Usage of “Forbid to Abstain,5,starts_nonword,19,0,15,1
+## Reconcilation,5,starts_nonword,47,0,28,1
+"over $100,000,000",1,clean,46,0,36,2
+## Vainglory,5,starts_nonword,53,0,34,1
+sixty-fifth,4,single_lowercase,32,0,22,1
+"1,027 acres",1,clean,1,0,0,1
+$1.00 to $1.25,5,starts_nonword,86,0,56,1
+about one hundred miles,1,clean,422,0,288,12
+over 250 acres,1,clean,22,0,18,1
+250.00,5,numeric_only,68,0,49,1
+## Putiel,5,starts_nonword,43,0,10,1
+### Gihon,5,starts_nonword,1,0,0,1
+#### Option,5,starts_nonword,144,0,95,3
+"1,238.32",1,clean,50,0,37,1
+## Edfu #,5,starts_nonword,34,0,22,1
+Â§ 11,1,clean,56,0,43,1
+1st cent,1,clean,288,0,201,5
+about six feet six inches,1,clean,29,0,16,1
+a few hundred miles,1,clean,228,0,157,7
+## Baking ###,5,starts_nonword,1,0,0,1
+6:16–17 ###,3,short_scripture,42,0,29,1
+## Doctrine and Covenants 65,5,starts_nonword,135,0,83,2
+## Mabdai,5,starts_nonword,83,0,41,1
+391–99 - Kristin M. Yee,1,clean,48,0,36,1
+## Coral ###,5,starts_nonword,1,0,0,1
+## Michal #,5,starts_nonword,53,0,21,1
+## Zedad Side,5,starts_nonword,79,0,37,1
+## Achan,5,starts_nonword,193,0,54,3
+about 300 yards,1,clean,84,0,50,2
+## Bell #,5,starts_nonword,1,0,0,1
+FortressFortunatusFortuneFortyForumForward,1,clean,241,0,161,19
+"between 600,000 and 700,000",1,clean,0,0,0,0
+Page 194] ##,1,clean,53,0,28,1
+& 8),5,starts_nonword,68,0,44,1
+## Balancings,5,starts_nonword,1,0,0,1
+## Abda ###,5,starts_nonword,46,0,0,1
+"about 5,000 miles",1,clean,53,0,41,1
+### 38.6.9,5,starts_nonword,31,0,24,1
+## Taanach #,5,starts_nonword,71,0,45,1
+66:15 f.,3,short_scripture,95,0,70,1
+"nearly 1,600 kilometers",1,clean,40,0,25,1
+about 280 miles,1,clean,1,0,0,1
+### 35.2.6 Stake,5,starts_nonword,42,0,39,1
+## Maani MAANI,5,starts_nonword,106,0,46,1
+## Childhood—Learning,5,starts_nonword,79,0,45,1
+## Jeiel #,5,starts_nonword,1,0,0,1
+## Hock ###,5,starts_nonword,60,0,30,1
+## Hart,5,starts_nonword,168,0,73,3
+3:11,5,numeric_only,37,0,26,1
+164.3 cm,1,clean,43,0,29,1
+6:24–28,5,numeric_only,103,0,58,1
+sixteen dollars,1,clean,73,0,35,2
+"about $3,000.00",1,clean,30,0,14,1
+no more than $25,1,clean,14,0,9,1
+19:5,5,numeric_only,65,0,37,3
+49:12,5,numeric_only,85,0,67,2
+## Knife ###,5,starts_nonword,87,0,46,1
+one-mile-square,4,single_lowercase,84,0,57,1
+44:34,5,numeric_only,40,0,20,3
+## Charchemish,5,starts_nonword,164,0,81,2
+## Cyrenius CYRENIUS,5,starts_nonword,75,0,45,1
+0.91 cm,1,clean,17,0,7,1
+$1.5 million,5,starts_nonword,47,0,27,2
+three feet,1,clean,1595,0,1133,53
+## Heleph Exchange,5,starts_nonword,52,0,17,1
+1.50.Promissory,1,clean,21,0,14,1
+camp 350 kilometers,1,clean,71,0,43,1
+about 10 bushels and,1,clean,3,0,2,1
+1.68,5,numeric_only,104,0,66,1
+## Hathath,5,starts_nonword,207,0,35,1
+111–14 ##,3,short_scripture,25,0,20,1
+## Darkon,5,starts_nonword,70,0,35,1
+more than $10 million,1,clean,62,0,51,1
+"over 61,000 tons",1,clean,24,0,18,1
+37:8,5,numeric_only,173,0,109,3
+## Rogelim ###,5,starts_nonword,64,0,39,1
+"1,610 km",1,clean,23,0,19,1
+only 450 miles,1,clean,32,0,22,1
+4:10,5,numeric_only,185,0,127,2
+roughly foot,1,clean,33,0,19,1
+"8,045 km",1,clean,34,0,24,1
+30.âAt eight-ten a.m.,1,clean,80,0,39,1
+some 7 miles,1,clean,328,0,186,6
+Heavenly” ##,1,clean,35,0,27,1
+about 1 mile,1,clean,28,0,15,2
+"3,000,000",1,clean,85,0,42,2
+Ïá½¸,1,clean,44,0,25,1
+## Case #1,5,starts_nonword,34,0,17,2
+some 1.17 miles,1,clean,40,0,31,1
+### Brazen Serpent,5,starts_nonword,1,0,0,1
+one-eighth mile,1,clean,53,0,34,1
+## Suggestions for Study - Why,5,starts_nonword,15,0,9,1
+## Ithai ITHAI,5,starts_nonword,88,0,49,1
+10-28 grams,3,short_scripture,13,0,8,1
+millions on millions,1,clean,84,0,58,5
+3:7,5,numeric_only,177,0,83,9
+"22,925-square-meter",1,clean,29,0,20,1
+## Tragacanth,5,starts_nonword,52,0,40,1
+1.5-cm,1,clean,10,0,6,1
+"9:22-23,25,42",3,short_scripture,56,0,25,1
+ninety-seven thousand,1,clean,21,0,16,1
+more than 200 miles,1,clean,105,0,71,3
+## Crises,5,starts_nonword,42,0,33,1
+about eighteen feet square,1,clean,18,0,12,1
+"more than 3,000 square miles",1,clean,48,0,29,1
+less than a cent,1,clean,22,0,16,1
+9.75,5,numeric_only,36,0,17,1
+## Summing,5,starts_nonword,14,0,8,1
+(174 miles per hour,5,starts_nonword,75,0,55,1
+## Ahimelech Brother,5,starts_nonword,74,0,33,1
+2.4.2 ###,1,clean,27,0,23,1
+## Jaasiel,5,starts_nonword,160,0,71,2
+## Nursery,5,starts_nonword,24,0,20,1
+## Fetch ###,5,starts_nonword,46,0,33,1
+179] #,1,clean,59,0,41,1
+275.00,5,numeric_only,21,0,15,1
+61:3 ###,3,short_scripture,44,0,33,1
+24:1,5,numeric_only,213,0,124,4
+## Adithaim,5,starts_nonword,82,0,42,1
+86–89 Section 4 ##,1,clean,44,0,32,1
+1Ma 13:42,1,clean,45,0,31,1
+## Monogamists “Receive Me Not?,5,starts_nonword,22,0,16,1
+## 3D Book,5,starts_nonword,61,0,38,1
+about thirteen hundred miles,1,clean,80,0,57,1
+## Charismatic Authority,5,starts_nonword,47,0,30,1
+seventy feet,1,clean,65,0,52,2
+47:31,5,numeric_only,57,0,40,1
+4:1–16,5,numeric_only,61,0,42,3
+## Narratological,5,starts_nonword,29,0,17,1
+Page 336,1,clean,54,0,41,2
+## Ensue ###,5,starts_nonword,1,0,0,1
+at least twelve miles,1,clean,72,0,45,1
+"1,609 km",1,clean,16,0,10,1
+## Elias,5,starts_nonword,76,0,24,1
+"4,200 miles",1,clean,35,0,28,1
+three divine,1,clean,585,0,394,18
+## Bethink #,5,starts_nonword,1,0,0,1
+## Basket BASKET,5,starts_nonword,45,0,29,1
+## Aholiab,5,starts_nonword,192,0,43,1
+20–22 ###,3,short_scripture,58,0,42,2
+## Aeon #,5,starts_nonword,25,0,0,1
+## Caphtor CAPHTOR,5,starts_nonword,56,0,35,1
+W. 350 miles,1,clean,46,0,24,1
+around about three miles,1,clean,21,0,13,1
+2Sa 16:1-4,1,clean,31,0,16,1
+"900,000",1,clean,20,0,18,1
+46:2 ###,3,short_scripture,33,0,24,1
+11:26–25:10,5,numeric_only,30,0,23,1
+## Caiaphas ###,5,starts_nonword,1,0,0,1

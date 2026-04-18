@@ -1,0 +1,501 @@
+name,cat,reason,degree,fam,cooc,mentions
+Peace and Violence,1,clean,382,0,187,21
+Salt of the Earth: Savor of Men and Saviors of Men,1,clean,63,0,21,14
+The Law of Tithing Up,1,clean,49,0,26,1
+The Great Recession,1,clean,206,0,99,1
+Land as Lover:,2,trailing_punct,54,0,21,1
+Older English,1,clean,62,0,20,1
+The Bridge,1,clean,25,0,13,1
+The Crack-Up,1,clean,22,0,4,3
+Baptism and Church,1,clean,186,0,79,1
+"Book of Mormon Reaches 150 Million Copies,”Church News",1,clean,68,0,32,5
+favorite book”—the Book of Mormon,1,clean,21,0,4,1
+Lineage,1,clean,21,0,11,1
+The Boyhood of the Prophet,1,clean,40,0,26,1
+The Saeculum Novum of Augustus,1,clean,38,0,22,1
+Covenants 8:2–5,1,clean,5,0,1,2
+Baruch and Jeremiah,1,clean,45,0,14,3
+Special Witness,1,clean,50,0,26,1
+the First Amendment,1,clean,537,0,259,59
+The Periplus of the Erythraean Sea,1,clean,38,0,29,0
+Accidents,1,clean,0,0,0,0
+the King’s Gate,1,clean,33,0,10,8
+Lev 8:2,3,scripture_ref,62,0,17,6
+That Our Children May Know,1,clean,126,0,48,7
+Section 18,1,clean,144,0,62,16
+Hearts Bound,1,clean,96,0,40,1
+"The White Horse (Rev 6:1,2",1,clean,48,0,20,1
+"Taking Stock,”Improvement Era",1,clean,141,0,62,1
+the Covenant People,1,clean,45,0,17,15
+the Masoretic Text,1,clean,176,0,68,31
+Tubias,1,clean,1,0,0,1
+Royal Arch,1,clean,163,0,73,3
+Challenges to the Theory,1,clean,94,0,24,4
+>Witness for His Names</cite,5,starts_nonword,35,0,9,4
+Brother So-and-So,1,clean,53,0,30,1
+Draw Strength,1,clean,20,0,4,1
+Chapter II,1,clean,208,0,57,36
+Exodus 24:5,1,clean,99,0,32,32
+Followers,1,clean,39,0,26,1
+Keeping the Sabbath Day Holy,1,clean,35,0,12,1
+Prophet of the Jubilee,1,clean,170,0,98,2
+The Fulfillment of Helaman 5:6‒7,1,clean,65,0,14,21
+Just the Facts Please,1,clean,97,0,39,3
+Contrite Heart,1,clean,31,0,12,5
+Covenants 42:11 Doctrine,1,clean,55,0,1,39
+Rising,1,clean,38,0,17,7
+The Golden Legend,1,clean,35,0,14,6
+the Code of Hammurabi,1,clean,1,0,0,1
+Numbers 26:29,1,clean,57,0,17,18
+Revelation 5:3,1,clean,49,0,8,7
+Special Experiences,1,clean,16,0,10,1
+She Made Home a Happy Place,1,clean,129,0,71,1
+Reader’s Edition of the Book of Mormon,1,clean,28,0,7,8
+Chapter 37,1,clean,242,0,73,32
+Taultees,1,clean,35,0,27,1
+A History of ‘Especially for Youth’—1976–1986,1,clean,126,0,59,1
+Ask Heavenly Father,1,clean,11,0,2,1
+Exodus 31,1,clean,27,0,7,10
+The Role of Human Sacrifice,1,clean,62,0,26,1
+JS,1,clean,4439,0,2263,623
+Sibraim,1,clean,1,0,0,1
+Terrestrial Kingdom,1,clean,1854,0,484,666
+Our Path of Duty,1,clean,27,0,9,6
+Psal 45,1,clean,36,0,8,2
+">A History of the South African Mission, Period II",5,starts_nonword,65,0,29,1
+the Book of Mormon from Moroni at the Hill Cumorah,1,clean,94,0,46,2
+Ezekiel ii,1,clean,90,0,37,2
+Doctrine and Covenants 59:21 Alma 36:30 Doctrine and Covenants 42:44 Doctrine and Covenants 122:7 Doctrine and Covenants 122:9 Alma 60:13,5,overlong,26,0,1,22
+Less Holy,1,clean,43,0,15,4
+Brim,1,clean,1,0,0,1
+Maintain Your Place,1,clean,30,0,9,2
+the Book of Mormon by the Prophet’s,2,possessive,24,0,7,1
+Mormonism in,1,clean,117,0,82,3
+Nephi 17:20</a></p,5,html_fragment,16,0,2,10
+Tabernacles (Sukkot,1,clean,76,0,38,1
+The Enlightened,1,clean,36,0,23,1
+Covenants 19:28 - M.,1,clean,37,0,6,17
+SACRED,1,clean,35,0,17,1
+Chapter 2.--Israel's,2,possessive,74,0,23,1
+Men Who Tithe,1,clean,74,0,29,3
+Phassurus,1,clean,1,0,0,1
+Come Unto Christ,1,clean,36,0,11,1
+the Book of Mormon Videos,1,clean,100,0,54,10
+Rabbi,1,clean,2,0,0,2
+The secret’s,2,possessive,31,0,13,1
+The Book of Mormon Onomasticon,1,clean,165,0,67,2
+the God of,1,clean,577,0,170,125
+Ezekiel 37:1-14,1,clean,110,0,41,27
+Keep the Church Record & History,1,clean,37,0,20,2
+True Policy for Utah,1,clean,219,0,138,3
+The Poor and the Needy,1,clean,74,0,19,22
+Givenses,1,clean,104,0,35,5
+Kingdom on the Mississippi,1,clean,52,0,27,1
+Young Men’s] Mutual Improvement Societies,1,clean,67,0,40,2
+The Meaning of Religion(The Hague,1,clean,174,0,75,1
+Six Onties of Silver,1,clean,50,0,12,14
+Above All Things,1,clean,52,0,22,4
+"""The Snail and the Rose Bush",5,unbalanced_quotes,11,0,2,1
+charity,4,single_lowercase,1,0,0,0
+Journal of Family History 5,1,clean,74,0,48,1
+Helkath,1,clean,2,0,0,2
+Justification and Atonement,1,clean,101,0,32,4
+ar'eli,4,single_lowercase,78,0,36,1
+The Gift of Working,1,clean,72,0,22,4
+Chapter I,1,clean,68,0,15,26
+Section 30,1,clean,64,0,40,1
+Gospel Art Picture Kit 240,1,clean,26,0,8,1
+I’m Trying to Be like Jesus” (Children’s Songbook,1,clean,325,0,100,90
+The Lord God Will Deliver Again the Book,1,clean,51,0,6,21
+"No, Shery! Cheating",1,clean,11,0,8,1
+Living My Covenants,1,clean,21,0,10,1
+Pairs,1,clean,1,0,0,1
+"Asked why Jesus would manifest to disciples, not world",1,clean,1,0,0,0
+Septuagint semasia,1,clean,44,0,27,1
+The LDS Book of Moses,1,clean,17,0,2,4
+l-Yahweh,4,single_lowercase,38,0,0,7
+King of Salem,1,clean,1584,0,538,331
+Rain Is Falling All Around,1,clean,13,0,4,1
+The Second Book of Esdras,1,clean,50,0,18,2
+History,1,clean,244579,0,112128,44814
+Second” Books of Samuel,1,clean,75,0,22,8
+The Sabbath Day” - Video: “Share Your Sabbath,1,clean,12,0,1,3
+Love Those You Teach,1,clean,64,0,22,4
+The Prophet Joseph,1,clean,591,0,253,59
+inOld Testament in Archaeology,1,clean,69,0,29,1
+Covenants 124:25–45,1,clean,100,0,43,14
+Anglo-Saxons and Others,1,clean,32,0,20,1
+the Book of Mormon and The Maya support the general area,1,clean,37,0,15,8
+"Book of the Law of the Lord, 4",1,clean,39,0,9,13
+Preparing for That Which Is to Come.” BYU devotional address,1,clean,93,0,36,1
+"Savior, Redeemer of My Soul",1,clean,16,0,3,1
+"Bye, Mom! Bye, Dad!",1,clean,25,0,12,1
+I Have Sinned against Heaven,1,clean,49,0,19,4
+Doctrine and Covenants 109:47–49,1,clean,57,0,11,19
+"the Acropolis are the Erechtheum and the ""Wingless Victory",5,unbalanced_quotes,0,0,0,0
+Alma Preaches the Word of God,1,clean,42,0,12,7
+"href=""/study/ya-",5,html_fragment,66,0,25,6
+Numbers 28,1,clean,90,0,34,18
+Crucified One,1,clean,37,0,7,8
+"The Individual Sacrament Cup,”Young Woman’s Journal",1,clean,96,0,42,2
+Page 82,1,clean,369,0,152,61
+The Signs of Messiah's Death,1,clean,22,0,10,1
+"""Secret Constitution",5,unbalanced_quotes,16,0,8,1
+Quadragesima,1,clean,1,0,0,1
+"Sabbath Scene in Nauvoo,”Times and Seasons",1,clean,96,0,28,6
+The Deseret Book Company of Salt Lake City,1,clean,41,0,14,2
+Our] Selfishness,1,clean,103,0,46,3
+the Parable of the Rich Man and Lazarus,1,clean,25,0,9,1
+Bible and Literature,1,clean,61,0,26,1
+Until We Meet Again,1,clean,254,0,100,29
+the Book of Mormon and Book of Moses,1,clean,112,0,27,8
+the Beautiful Gate,1,clean,33,0,18,1
+Mark 3:4,3,scripture_ref,67,0,18,23
+The Book of Mormon Ensemble a Witness for the Truth of the Hebrew and Christian Revelation,5,overlong,28,0,12,1
+Chapter 50,1,clean,48,0,14,15
+The Improvement Era 69,1,clean,127,0,61,1
+Nineteenth Century,1,clean,77,0,42,1
+the New Testament Apocrypha,1,clean,100,0,57,3
+7]“The Family: A Proclamation,1,clean,165,0,59,7
+Koran 38 41,1,clean,84,0,38,1
+"The Spirit of the Gospel, the Soul of Relief Society",1,clean,47,0,30,1
+Covenants 46:8 Doctrine and,1,clean,43,0,2,33
+Autobiography of P. P. Pratt,1,clean,90,0,45,2
+"the Book of Mormon , View of the Hebrews",1,clean,39,0,18,1
+the Level of Narrative Technique,1,clean,18,0,5,2
+Chapter 3 # Adversity,1,clean,16,0,6,1
+Isaiah 4:5,1,clean,304,0,85,127
+Emerging Infectious Diseases,1,clean,74,0,29,1
+The Book of Mormon and the,1,clean,71,0,21,24
+"Smith, Mercy Josephine",1,clean,79,0,24,1
+the Book of Mormon Closer,1,clean,42,0,14,3
+Section 68,1,clean,171,0,85,11
+Debhir,1,clean,145,0,87,1
+Heathen in Our Fair Land,1,clean,93,0,58,1
+He Invites Us to Follow Him,1,clean,70,0,26,8
+Being in the Church,1,clean,48,0,26,1
+"The Real Face of Jesus,”Popular",1,clean,71,0,26,1
+Bible Student,1,clean,80,0,37,2
+The Crown of Ionia,1,clean,53,0,44,1
+Journal of Book of Mormon Studies 5/1,1,clean,245,0,99,19
+The Explanatory Introduction,1,clean,31,0,10,2
+Great Are the Words of Isaiah” - The Savior,1,clean,42,0,10,10
+Jonah the Prophet,1,clean,113,0,23,34
+New Testament Solomon,1,clean,0,0,0,0
+The Apocalypse Attributed to St. John,1,clean,181,0,87,5
+Eshbaal,1,clean,27,0,0,1
+There Is Hope Smiling Brightly,1,clean,10,0,3,1
+A Testimony of Prophets,1,clean,39,0,19,1
+Cousin,1,clean,32,0,13,1
+The Mosaic of Christian Belief,1,clean,160,0,70,2
+Hammurabi,1,clean,3,0,0,3
+Tabernacle on Temple Square,1,clean,136,0,81,9
+Recognizing the Promptings of the Holy Ghost,1,clean,23,0,9,2
+Le 2:1-16a,1,clean,34,0,21,1
+Crucifixion 29,1,clean,30,0,14,3
+the ‘Ladder of Tyre’,1,clean,58,0,29,9
+Transgender: Understanding Yourself,1,clean,28,0,6,3
+Woman’s Exponent 4,1,clean,102,0,49,1
+>Sacred Mending</cite>,5,html_fragment,88,0,36,3
+the Holy Spirit,1,clean,621,0,209,163
+"McKay, David O.",1,clean,139,0,68,4
+Twelve Apostles and of Seventies,1,clean,72,0,32,2
+Avoid,1,clean,11,0,4,1
+Numbers 28:1–8,1,clean,145,0,67,25
+Exodus 29:15-18,1,clean,47,0,20,20
+Declare,1,clean,34,0,0,1
+Thoughts on the Sacrament,1,clean,19,0,7,1
+the Fiery Furnace: Or,1,clean,114,0,38,2
+the Book of Daniel (,1,clean,70,0,14,19
+North of the Wady,1,clean,64,0,25,1
+Bible Translation > And,1,clean,35,0,13,13
+Map 8,1,clean,51,0,27,1
+The Reading Process,1,clean,29,0,12,2
+God and Man’s Story Retold,1,clean,61,0,30,1
+Document 62,1,clean,49,0,30,1
+The Savior Taught His Disciples,1,clean,27,0,6,5
+The Little Giant,1,clean,50,0,20,1
+Nephi 23:1,3,scripture_ref,321,0,99,97
+The Decision of Judge,1,clean,34,0,18,1
+Genesis 14:1-24,1,clean,99,0,23,64
+Scenes and Incidents,1,clean,135,0,71,11
+Isaiah 53:4,1,clean,203,0,45,81
+The Dark Way,1,clean,176,0,64,9
+Death of Jesus,1,clean,21,0,6,2
+"the Honorable Men of the World,”EMS1",1,clean,73,0,28,2
+section 1 of the August 8 City Ordinance,1,clean,27,0,15,1
+Other” Twin [Salt Lake City: Eborn Books,1,clean,90,0,34,1
+Visitors Welcome,1,clean,28,0,10,4
+"id=""aside2_title3"">The Lord’s lovingkindness</p> <",5,html_fragment,26,0,6,5
+"The Atonement: All for All,”Ensign,",2,trailing_punct,64,0,14,13
+The Lead-Up to the Dedication of the Jerusalem Center,1,clean,117,0,51,1
+From Aliens to Proselytes,1,clean,176,0,75,15
+RLDS Council Minutes,1,clean,82,0,41,1
+Save the Humans,1,clean,101,0,32,3
+âSimpsonâ,4,single_lowercase,61,0,31,1
+the Aaronic Priesthood,1,clean,54,0,13,8
+the] Gospel,1,clean,47,0,19,3
+The Ancient Synagogues of the Galilee,1,clean,75,0,35,1
+"Paavo, Paavo",1,clean,45,0,19,2
+Jewish War,1,clean,140,0,58,4
+Covenants 21:1–2,1,clean,65,0,10,31
+"Harper,Making Sense of the Doctrine & Covenants",1,clean,79,0,44,2
+The Standard of Truth Has Been Erected,5,sentence_fragment,210,0,77,38
+Sherem’s Accusations Against Jacob,1,clean,63,0,16,4
+Railway Celebration at Ogden,1,clean,101,0,70,1
+Now king Mosiah,1,clean,38,0,5,7
+section 194,1,clean,20,0,3,1
+An Inspired Mission,1,clean,50,0,27,2
+Isaiah 43,1,clean,75,0,23,6
+Ladies’ Mass Meetings,1,clean,93,0,60,1
+Isaiah 2:5,1,clean,92,0,16,41
+Potter’s American,1,clean,67,0,35,3
+Arabah the north boundary,1,clean,28,0,0,1
+the Book of Hebrew Origins,1,clean,72,0,21,27
+Ainun in Wady Far`ah,1,clean,1,0,0,1
+"Elders Cowdery, Pratt",1,clean,69,0,29,1
+Directors’ Council Discussion on Branding,1,clean,104,0,61,1
+"New Testament, Edition of 1526",1,clean,63,0,25,10
+Do We Trust Him? Hard is Good,1,clean,57,0,15,15
+Covenants 33,1,clean,197,0,81,28
+The Uncertain Translation,1,clean,17,0,4,1
+What Does It Mean to Be Perfect,1,clean,54,0,16,7
+Section 78,1,clean,60,0,28,2
+Washing with Water,1,clean,33,0,7,11
+Heb 4:1,3,scripture_ref,238,0,123,4
+Outlines of Sociology,1,clean,18,0,7,1
+Emekkeziz,1,clean,72,0,42,1
+Exodus 31:13 Leviticus 19:3,1,clean,46,0,3,37
+May Booth Talmage,1,clean,153,0,75,2
+The New Testament,1,clean,1026,0,376,167
+The Importance of Malachi 3:1,1,clean,33,0,4,9
+Saigon Branch Evacuation List,1,clean,120,0,81,1
+Genesis 2:6,1,clean,31,0,5,10
+Helaman 14:4,3,scripture_ref,186,0,76,39
+âtrue.â Here,1,clean,20,0,5,1
+Revelation 14:6–8,1,clean,75,0,15,33
+Temple in the Pacific,1,clean,180,0,118,2
+Pharaoh,1,clean,4,0,0,4
+Love a Neighbor as Oneself,1,clean,26,0,7,1
+The Redeemer Himself,1,clean,44,0,12,5
+Stouthearted Men,1,clean,59,0,25,2
+The Gospel Principle of Hesed,1,clean,230,0,62,42
+The House of the Forest of Lebanon,1,clean,33,0,10,8
+Rabbah,1,clean,48,0,14,4
+The Restoration of The Church of Jesus Christ of Latter-day,1,clean,35,0,10,7
+the Gospel of the Lord Jesus Christ,1,clean,137,0,59,9
+bookThe Way of Holiness,1,clean,59,0,22,3
+the Covenant Law,1,clean,27,0,12,2
+Isaiah 24:2-5,1,clean,31,0,8,2
+Mal 3:8-10,3,scripture_ref,50,0,25,1
+330.8 Again,1,clean,50,0,31,1
+Mal 3:2,3,scripture_ref,0,0,0,0
+Historical Commentaries,1,clean,29,0,19,1
+Old Testament Lectures,1,clean,1,0,0,1
+"The Man and the Message, Bookcraft, Inc.",1,clean,15,0,6,1
+Seraiah (Sariah,1,clean,48,0,23,1
+Egyptus,1,clean,24,0,0,1
+Article 8.--We,1,clean,19,0,7,1
+Learning to Forgive,1,clean,62,0,22,5
+"New Testament Come, Follow Me",1,clean,23,0,3,6
+Nephi 15:7,3,scripture_ref,56,0,21,21
+Publius in Melita,1,clean,65,0,11,26
+Hide and Seek,1,clean,165,0,96,1
+To the Officers and Members of the Relief Society of the Salt Lake Stake of Zion,1,clean,35,0,20,1
+Mark 16:5,3,scripture_ref,44,0,23,7
+Tobit 13,1,clean,69,0,29,2
+Nephi 11:1,3,scripture_ref,268,0,69,88
+Shepherd,1,clean,28401,0,10858,7276
+the Book of Mormon from the Blackpool Ward,1,clean,24,0,9,1
+Temple List,1,clean,150,0,75,7
+Tobacco: Quitting for Good,1,clean,27,0,5,4
+6]The Book of Mormon,1,clean,74,0,19,8
+Lead Me into Life Eternal,1,clean,33,0,12,1
+Book Review: Temple Mysticism: An Introduction,1,clean,170,0,62,4
+andJewish War33.6,1,clean,74,0,37,2
+Heb 7:23-24,3,scripture_ref,0,0,0,0
+The ‘Vision,1,clean,105,0,42,11
+Egyptian Tale of the Eloquent Peasant,1,clean,27,0,9,8
+Preach My Gospel and Handbook of Instructions,1,clean,22,0,7,2
+Ezekiel 26:2,1,clean,49,0,19,14
+Encyclopedia Bibl.,1,clean,89,0,38,1
+A Linguistic Approach to Ellipsis,1,clean,111,0,41,3
+the Book of Gen,1,clean,65,0,26,3
+Eleutheros,1,clean,26,0,0,1
+Video Presentation: I Am a Child of God,1,clean,34,0,7,8
+Embedded in Elijah’s,2,possessive,59,0,11,20
+Pastoral Letter,1,clean,91,0,54,1
+Analysis The Resurrected Jesus,1,clean,56,0,26,6
+Covenants 81 - Doctrine and Covenants 90:12–16,1,clean,15,0,8,3
+Later Maya,1,clean,58,0,18,9
+Exodus 30:15-16,1,clean,60,0,22,14
+Isaiah 5:8–25,1,clean,17,0,2,4
+Doctrine and Covenants 20:22–25,1,clean,54,0,9,18
+The Last Message,1,clean,27,0,12,1
+The Scouting,1,clean,41,0,25,1
+The Aftermath Lying,1,clean,33,0,8,2
+Ahzai,1,clean,1,0,0,1
+Neh 5:7,3,scripture_ref,72,0,36,14
+Lipit-Ishtar,1,clean,32,0,17,2
+Section 1: > Hearken,1,clean,29,0,1,7
+Classy Clown,1,clean,25,0,6,2
+Covenants 64:33</a>,5,html_fragment,41,0,14,10
+Exodus 16:1–31,1,clean,49,0,13,3
+Expel the Saints,1,clean,46,0,25,1
+Seeking the Lord,1,clean,33,0,8,8
+Family Life: An Old Order Amish Manifesto,1,clean,148,0,59,2
+Shishak,1,clean,1,0,0,1
+the Gerasene Demoniacâ,1,clean,93,0,39,3
+Philemon 1:4,1,clean,34,0,8,8
+"Book Tells Story of Captivity,”Mormon Times",1,clean,53,0,21,3
+The Stoics,1,clean,31,0,14,1
+Watch Out,1,clean,26,0,17,2
+Rama,1,clean,62,0,35,1
+Chapter 96,1,clean,23,0,9,1
+The Great Basin Post Office,1,clean,81,0,41,1
+The Noncanonical Sayings of,1,clean,91,0,33,7
+Ezekiel 3:4,1,clean,80,0,21,23
+The Mormons or Latter Day Saints,1,clean,70,0,37,1
+The Message of the Joseph Smith Papyri,1,clean,190,0,56,13
+Lifestyle Series,1,clean,92,0,42,1
+Faith and Good Works,1,clean,38,0,14,1
+"Cholera, Christ",1,clean,78,0,38,3
+Plural Marriage,1,clean,29798,0,16119,2205
+Quorum and Class Presidency Resources,1,clean,102,0,35,14
+the Book of Mormon or the Bible,1,clean,59,0,25,6
+7:12–19.The Light of Christ - The Bible Dictionary,1,clean,40,0,9,7
+Dubious ‘Mormon’ Stories,1,clean,13,0,4,1
+Orbis Veteribus Notus,1,clean,11,0,0,1
+Mormon Historical Studies,1,clean,36,0,20,1
+'Book,1,clean,28,0,11,1
+Covenants 11:8,1,clean,115,0,32,31
+Purpose of Music in the Church,1,clean,95,0,35,23
+"Thank You, Heavenly Father",1,clean,58,0,32,3
+The Shipwrecked Sailor,1,clean,27,0,12,1
+Voices in Print,1,clean,98,0,62,1
+Opening Message,1,clean,159,0,60,21
+The Three Kingdoms of Heaven,1,clean,34,0,13,7
+the Zealot,1,clean,0,0,0,0
+Knowling on Acts,1,clean,1,0,0,1
+"id=""aside4_p2"">44 national",5,html_fragment,5,0,2,1
+Lost Gospels,1,clean,1,0,0,1
+General Conference: An Epistle,1,clean,89,0,46,1
+Memoirs of the Apostles,1,clean,11,0,0,2
+Album,1,clean,26,0,13,2
+Book of Moses language,1,clean,31,0,8,3
+Excellency,1,clean,1,0,0,1
+“How Gentle God’s Commands,5,starts_nonword,96,0,25,17
+An] Everlasting,1,clean,40,0,8,4
+New Translation,1,clean,106,0,23,12
+Deuteronomy 4:49 Authorized Version,1,clean,115,0,30,30
+The Mormon Disfranchisements of 1882 to 1892,1,clean,114,0,40,1
+Slipping from Our Old Moorings,1,clean,46,0,12,6
+"Shadrach, Meshach and Abed-nego (Azariah",1,clean,0,0,0,0
+"href=""/study/ya-weekly/2021/08",5,html_fragment,47,0,13,7
+Reexamining the Convergence In,1,clean,22,0,11,2
+A Prophet on the Lam” Moroni,1,clean,21,0,7,1
+Read 2 Timothy 4:8,1,clean,32,0,9,6
+The Savior of mankind,1,clean,73,0,26,2
+Dear Brethren:âIt,1,clean,47,0,22,1
+The Scapegoat of Leviticus Sixteen,1,clean,134,0,46,39
+"the Book of Revelation(Salt Lake City: Deseret Book, 2011",1,clean,126,0,44,5
+The Lighthouse of the Lord,1,clean,65,0,22,7
+The Structure of the Individual Pericopes,1,clean,1,0,0,1
+The Covenant Formulary,1,clean,71,0,23,4
+Fahrenheit 9/11,1,clean,24,0,8,2
+Mormon: The Man and the Book,1,clean,109,0,40,6
+City of the Prophet,1,clean,29,0,14,1
+the Signs of the Coming of the End of the World,1,clean,23,0,8,2
+Septuagint Codex Vaticanus,1,clean,72,0,31,1
+the Law of Circumcision,1,clean,26,0,10,2
+"the Commitment Pattern in Leadership"" Evaluate",5,unbalanced_quotes,12,0,1,2
+the “Lord of Sabaoth,1,clean,38,0,6,12
+"Sacar the Hararite, Eliphal",1,clean,59,0,9,1
+Doctrine and Covenants 131:5–6,1,clean,68,0,22,9
+"id=""aside1_p4"">Topics and Questions",5,html_fragment,24,0,5,1
+Koran 2.42,1,clean,36,0,13,5
+the Laws of the Land,1,clean,50,0,22,2
+The Lord Has Been My Guide,5,sentence_fragment,98,0,43,10
+Behold the Lord,1,clean,185,0,82,13
+The Voice of Innocence from Nauvoo,1,clean,82,0,19,3
+Another Testimony: Statement of William Smith,1,clean,69,0,23,4
+The Tapestry of God’s Hand,1,clean,35,0,12,1
+Nephi 18:22,3,scripture_ref,35,0,13,6
+Table 7,1,clean,62,0,39,4
+Ituraea,1,clean,1,0,0,1
+What More Might the Lord Be Willing,1,clean,16,0,4,3
+Nature and Revelation,1,clean,0,0,0,0
+Evidences of Eternal Life,1,clean,66,0,39,1
+The Gilbert Arizona Temple,1,clean,11,0,0,2
+the Book The Dictionary of the Bible,1,clean,51,0,10,7
+the Tamar of Ezekiel 47:19,1,clean,44,0,24,10
+notice.â51 Without,1,clean,36,0,21,1
+Departure of the Governor,1,clean,123,0,75,1
+The Devil’s Dictionary,1,clean,27,0,7,2
+The Book of Mormon fund,1,clean,26,0,11,3
+The Anointing of the Seventy: The Seventies,1,clean,37,0,23,1
+Zaanan,1,clean,1,0,0,1
+Thou art God,1,clean,26,0,8,1
+Lights and Perfections,1,clean,57,0,15,14
+"id=""aside1_title5"">When did Heavenly Father institute",5,html_fragment,41,0,16,4
+Is Mormonism Christian,1,clean,24,0,15,1
+Right,1,clean,1,0,0,1
+the Death of Jesus,1,clean,51,0,26,2
+Helaman 5:2-3,3,scripture_ref,29,0,9,6
+the Book of Mormon Alexander Campbell,1,clean,38,0,13,4
+Faith's,2,possessive,32,0,8,1
+Mosiah 27:16,3,scripture_ref,45,0,7,11
+Mosiah 18:27,3,scripture_ref,52,0,9,18
+Newcomb's Popular Astronomy,1,clean,33,0,23,1
+The Proclamation on the Family: Transcending the Cultural Confusion,1,clean,36,0,17,2
+The Early History of Heaven,1,clean,208,0,79,21
+The Eternal Saki,1,clean,38,0,23,1
+A Special Gift,1,clean,39,0,11,10
+the Protestant Cemetery,1,clean,111,0,61,1
+Mal 4:1-6,3,scripture_ref,8,0,0,1
+Closer Inspection,1,clean,42,0,13,1
+Preparing Our Youth,1,clean,41,0,9,15
+The Tower of Babel People,1,clean,9,0,1,6
+the First Book of,1,clean,11,0,0,1
+The Apostolic Age,1,clean,44,0,24,3
+Strengthening Our Testimony of the Living Christ Imagine,1,clean,51,0,14,7
+Can Fischer’s,2,possessive,38,0,18,1
+Chapter 10 # Nurturing the Eternal Partnership of Marriage,1,clean,33,0,19,1
+Unless the Saints,1,clean,30,0,14,1
+Move South,1,clean,209,0,115,2
+The Epistle of Barnabas,4,spanish_verb,40,0,14,1
+The Same Order,1,clean,52,0,11,18
+Chapter 20 # Living the Law of Chastity,1,clean,20,0,6,1
+Nephi 26:9–11</a>,5,html_fragment,39,0,10,5
+Shipler Photographers,1,clean,54,0,24,1
+Atonement in the Garden of Gethsemane,1,clean,41,0,9,4
+Nephi 14:24–25 Doctrine,3,scripture_ref,50,0,2,32
+Father,1,clean,1,0,0,1
+The Governour,1,clean,53,0,13,23
+Nephi 17:4].,3,scripture_ref,34,0,6,15
+Wachsmann,1,clean,63,0,25,2
+Sunday Schools of the Church,1,clean,67,0,30,1
+Nephi 1 to Alma 2,1,clean,53,0,9,15
+Vaticanus and Codex Alexandrinus,1,clean,554,0,245,6
+Covenants 82:8–24</a>,5,html_fragment,64,0,17,13
+the Holy Family Sisters,1,clean,25,0,13,1
+Matthew 16:18:,2,trailing_punct,204,0,64,54
+The Study Edition,1,clean,13,0,1,1
+the Deuteronomic Law (De 28:25,1,clean,52,0,30,1
+Total Depravity,1,clean,74,0,25,1
+Covenants 2:1,1,clean,115,0,24,41
+"Baptism for the Dead in Ancient Times,”Improvement Era51–52",1,clean,65,0,25,6
+April Conference in,1,clean,79,0,41,4
+Christian Science Monitor Weekly,1,clean,43,0,20,2
+Nephi 25:2,3,scripture_ref,565,0,163,201
+Deep inside I,1,clean,29,0,10,1
+Doctrine and Covenants 135,1,clean,193,0,101,12
+Exodus 3:8 Exodus 20:3–17 2 Chronicles 18:7 Mosiah 13:4 Isaiah 30:9–11,1,clean,27,0,1,21
+Bridge of the Judge,1,clean,1,0,0,1
+The Master of ocean and earth,1,clean,120,0,43,15
+This Structure,1,clean,47,0,12,6
+Locke,1,clean,245,0,93,26
+Understanding the Final Judgment,1,clean,38,0,9,6
+The Author,1,clean,92,0,26,11
+Chapter 3: Mosiah’s New Constitution,1,clean,25,0,8,3
+Correlation Between Matching Elements,1,clean,31,0,11,9
