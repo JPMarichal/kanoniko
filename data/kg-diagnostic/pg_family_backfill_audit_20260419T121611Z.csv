@@ -1,0 +1,2174 @@
+src_id,src_name,rel_type,dst_id,dst_name,src_type,source_ref
+19105,Josiah,FATHER_OF,35062,Jehoiakim,person,Jeremiah 46:1-7
+19871,Zacharias,FATHER_OF,19092,John,person,D&C 27:6-9
+18900,Helaman,FATHER_OF,18918,Nephi,person,Helaman 7:1-5
+3549,Jacob,BROTHER_OF,18918,Nephi,person,Jacob 2:1-5
+18866,Noah,FATHER_OF,29318,Limhi,person,Mosiah 7:5-9
+409023,Jeberechiah,FATHER_OF,19872,Zechariah,person,2 Nephi 18:1-7
+24105,Uzziah,FATHER_OF,24119,Jotham,person,2 Nephi 17:1-4
+24119,Jotham,FATHER_OF,24118,Ahaz,person,2 Nephi 17:1-4
+24122,Remaliah,FATHER_OF,24121,Pekah,person,2 Nephi 17:1-4
+24043,Amoz,FATHER_OF,18916,Isaiah,person,2 Nephi 12:1-4
+29680,Abinadom,FATHER_OF,29681,Amaleki,person,Omni 1:12-13
+8500,Coriantor,FATHER_OF,18686,Ether,person,Ether 11:23
+28095,Heth,FATHER_OF,3247,Aaron,person,Ether 10:31-33
+28119,Kib,FATHER_OF,28364,Corihor,person,Ether 7:1-5
+28119,Kib,FATHER_OF,28117,Shule,person,Ether 7:6-9
+18866,Noah,FATHER_OF,277951,Wherefore,person,Ether 7:16-19
+18866,Noah,FATHER_OF,8567,Cohor,person,Ether 7:20-24
+8513,Omer,FATHER_OF,19078,Jared,person,Ether 8:1-5
+8641,Kimnor,FATHER_OF,8640,Akish,person,Ether 8:10-13
+19078,Jared,FATHER_OF,8640,Akish,person,Ether 8:10-13
+3251,Mosiah,FATHER_OF,3399,Ammon,person,Alma 48:17-20
+19076,Zebedee,FATHER_OF,19073,James,person,Mark 3:16-24
+19092,John,BROTHER_OF,19073,James,person,Mark 3:16-24
+19073,James,BROTHER_OF,19092,John,person,Acts 12:1-7
+3278,Abraham,FATHER_OF,18915,Isaac,person,Acts 7:7-13
+18915,Isaac,FATHER_OF,3549,Jacob,person,Acts 7:7-13
+19087,Jesse,FATHER_OF,18663,David,person,Acts 13:19-25
+19108,Judas,BROTHER_OF,19073,James,person,Acts 1:8-13
+413972,Bosor,FATHER_OF,3518,Balaam,person,2 Peter 2:14-20
+19097,Joseph,FATHER_OF,18645,Jesus,person,John 6:38-44
+19581,Simon,FATHER_OF,19111,Judas Iscariot,person,John 6:69-71
+25524,Jonas,FATHER_OF,19581,Simon,person,John 21:13-17
+45834,Jona,FATHER_OF,19581,Simon,person,John 1:34-42
+19097,Joseph,FATHER_OF,19411,Nazareth,person,John 1:43-50
+18663,David,FATHER_OF,18644,Jesus Christ,person,Matthew 1:1-11
+3549,Jacob,FATHER_OF,19108,Judas,person,Matthew 1:1-11
+19422,Obed,FATHER_OF,19087,Jesse,person,Matthew 1:1-11
+36841,Abia,FATHER_OF,3504,Asa,person,Matthew 1:1-11
+3504,Asa,FATHER_OF,457477,JOSAPHAT,person,Matthew 1:1-11
+457477,JOSAPHAT,FATHER_OF,35434,Joram,people,Matthew 1:1-11
+35450,Achim,FATHER_OF,35451,Eliud,person,Matthew 1:12-19
+35451,Eliud,FATHER_OF,35452,Eleazar,person,Matthew 1:12-19
+35452,Eleazar,FATHER_OF,35453,Matthan,person,Matthew 1:12-19
+35453,Matthan,FATHER_OF,3549,Jacob,person,Matthew 1:12-19
+3549,Jacob,FATHER_OF,19097,Joseph,person,Matthew 1:12-19
+39689,Koz,FATHER_OF,24143,Urijah,person,Nehemiah 3:1-6
+42063,Meshezabeel,FATHER_OF,36423,Berechiah,person,Nehemiah 3:1-6
+37249,Imri,FATHER_OF,36692,Zaccur,person,Nehemiah 3:1-6
+24143,Urijah,FATHER_OF,37028,Meremoth,person,Nehemiah 3:1-6
+36423,Berechiah,FATHER_OF,36849,Meshullam,person,Nehemiah 3:1-6
+37475,Baana,FATHER_OF,35449,Zadok,person,Nehemiah 3:1-6
+42142,Besodeiah,FATHER_OF,36849,Meshullam,person,Nehemiah 3:1-6
+42149,Harhaiah,FATHER_OF,36418,Uzziel,person,Nehemiah 3:7-13
+36521,Hur,FATHER_OF,36856,Rephaiah,person,Nehemiah 3:7-13
+42150,Harumaph,FATHER_OF,36663,Jedaiah,person,Nehemiah 3:7-13
+42214,Hashabniah,FATHER_OF,36859,Hattush,person,Nehemiah 3:7-13
+42079,Col-hozeh,FATHER_OF,42156,Shallun,person,Nehemiah 3:14-17
+42157,Azbuk,FATHER_OF,19413,Nehemiah,person,Nehemiah 3:14-17
+37055,Bani,FATHER_OF,36665,Rehum,person,Nehemiah 3:14-17
+39709,Henadad,FATHER_OF,42159,Bavai,person,Nehemiah 3:18-24
+36672,Jeshua,FATHER_OF,36169,Ezer,person,Nehemiah 3:18-24
+39580,Zabbai,FATHER_OF,41068,Baruch,person,Nehemiah 3:18-24
+36430,Maaseiah,FATHER_OF,36557,Azariah,person,Nehemiah 3:18-24
+39709,Henadad,FATHER_OF,39585,Binnui,person,Nehemiah 3:18-24
+42162,Uzai,FATHER_OF,42161,Palal,person,Nehemiah 3:25-30
+39574,Parosh,FATHER_OF,36788,Pedaiah,person,Nehemiah 3:25-30
+36679,Immer,FATHER_OF,35449,Zadok,person,Nehemiah 3:25-30
+36858,Shechaniah,FATHER_OF,36417,Shemaiah,person,Nehemiah 3:25-30
+19872,Zechariah,FATHER_OF,24105,Uzziah,person,Nehemiah 11:1-5
+36344,Shephatiah,FATHER_OF,36645,Amariah,person,Nehemiah 11:1-5
+42079,Col-hozeh,FATHER_OF,41068,Baruch,person,Nehemiah 11:1-5
+37051,Adaiah,FATHER_OF,42080,Hazaiah,person,Nehemiah 11:1-5
+19872,Zechariah,FATHER_OF,36662,Joiarib,person,Nehemiah 11:1-5
+24105,Uzziah,FATHER_OF,42078,Athaiah,person,Nehemiah 11:1-5
+41068,Baruch,FATHER_OF,36430,Maaseiah,person,Nehemiah 11:1-5
+42082,Joed,FATHER_OF,36849,Meshullam,person,Nehemiah 11:6-12
+41048,Kolaiah,FATHER_OF,36788,Pedaiah,person,Nehemiah 11:6-12
+42083,Ithiel,FATHER_OF,36430,Maaseiah,person,Nehemiah 11:6-12
+36849,Meshullam,FATHER_OF,36738,Hilkiah,person,Nehemiah 11:6-12
+42087,Pelaliah,FATHER_OF,36352,Jeroham,person,Nehemiah 11:6-12
+19872,Zechariah,FATHER_OF,37054,Amzi,person,Nehemiah 11:6-12
+36849,Meshullam,FATHER_OF,37251,Sallu,person,Nehemiah 11:6-12
+36744,Zichri,FATHER_OF,19091,Joel,person,Nehemiah 11:6-12
+42086,Senuah,FATHER_OF,19106,Judah,person,Nehemiah 11:6-12
+36662,Joiarib,FATHER_OF,36663,Jedaiah,person,Nehemiah 11:6-12
+36738,Hilkiah,FATHER_OF,36904,Seraiah,person,Nehemiah 11:6-12
+36352,Jeroham,FATHER_OF,37051,Adaiah,person,Nehemiah 11:6-12
+406290,Ahasai,FATHER_OF,36348,Azareel,person,Nehemiah 11:13-18
+42057,Bunni,FATHER_OF,36705,Hashabiah,person,Nehemiah 11:13-18
+36499,Zabdi,FATHER_OF,19316,Micha,person,Nehemiah 11:13-18
+37265,Galal,FATHER_OF,36395,Shammua,person,Nehemiah 11:13-18
+36395,Shammua,FATHER_OF,37463,Abda,person,Nehemiah 11:13-18
+36705,Hashabiah,FATHER_OF,37055,Bani,person,Nehemiah 11:19-25
+37055,Bani,FATHER_OF,37026,Uzzi,person,Nehemiah 11:19-25
+42063,Meshezabeel,FATHER_OF,36682,Pethahiah,person,Nehemiah 11:19-25
+19106,Judah,FATHER_OF,35430,Zerah,person,Nehemiah 11:19-25
+42043,Hachaliah,FATHER_OF,474440,TIRSHATHA,person,Nehemiah 10:1-28
+42054,Azaniah,FATHER_OF,36672,Jeshua,person,Nehemiah 10:1-28
+35051,Shealtiel,FATHER_OF,19879,Zerubbabel,person,Nehemiah 12:1-16
+36672,Jeshua,FATHER_OF,42108,Joiakim,person,Nehemiah 12:1-16
+36674,Eliashib,FATHER_OF,42109,Joiada,person,Nehemiah 12:1-16
+42109,Joiada,FATHER_OF,19095,Jonathan,person,Nehemiah 12:1-16
+19095,Jonathan,FATHER_OF,42064,Jaddua,person,Nehemiah 12:1-16
+36674,Eliashib,FATHER_OF,36338,Johanan,person,Nehemiah 12:17-26
+39642,Kadmiel,FATHER_OF,36672,Jeshua,person,Nehemiah 12:17-26
+36417,Shemaiah,FATHER_OF,19095,Jonathan,person,Nehemiah 12:33-38
+19095,Jonathan,FATHER_OF,19872,Zechariah,person,Nehemiah 12:33-38
+36687,Delaiah,FATHER_OF,36417,Shemaiah,person,Nehemiah 6:6-10
+37179,Arah,FATHER_OF,36858,Shechaniah,person,Nehemiah 6:17-19
+20658,Nun,FATHER_OF,36672,Jeshua,person,Nehemiah 8:15-18
+36692,Zaccur,FATHER_OF,36304,Hanan,person,Nehemiah 13:12-16
+42043,Hachaliah,FATHER_OF,19413,Nehemiah,person,Nehemiah 1:1-5
+24296,Laish,FATHER_OF,391965,Phalti,person,1 Samuel 25:40-44
+18670,Eli,FATHER_OF,37023,Phinehas,person,1 Samuel 14:1-4
+37029,Ahimaaz,FATHER_OF,36829,Ahinoam,person,1 Samuel 14:48-52
+36234,Zeruiah,FATHER_OF,36245,Abishai,person,1 Samuel 26:1-6
+37691,Maoch,FATHER_OF,36479,Achish,person,1 Samuel 27:1-5
+36264,Abiel,FATHER_OF,28096,Kish,person,1 Samuel 9:1-4
+37754,Bechorath,FATHER_OF,37753,Zeror,person,1 Samuel 9:1-4
+36352,Jeroham,FATHER_OF,36345,Elkanah,person,1 Samuel 1:1-6
+37559,Tohu,FATHER_OF,32741,Elihu,person,1 Samuel 1:1-6
+36660,Ahimelech,FATHER_OF,35320,Abiathar,person,1 Samuel 23:1-6
+41278,Barachel,FATHER_OF,32741,Elihu,person,Job 32:1-8
+36246,Benaiah,FATHER_OF,36854,Pelatiah,person,Ezekiel 11:1-6
+36524,Jair,FATHER_OF,36251,Elhanan,person,1 Chronicles 20:5-8
+36609,Lahmi,BROTHER_OF,18886,Goliath,person,1 Chronicles 20:5-8
+36234,Zeruiah,FATHER_OF,36233,Joab,person,1 Chronicles 18:13-17
+36475,Ahilud,FATHER_OF,19082,Jehoshaphat,person,1 Chronicles 18:13-17
+36247,Jehoiada,FATHER_OF,36246,Benaiah,person,1 Chronicles 18:13-17
+36833,Haggith,FATHER_OF,36832,Adonijah,person,1 Chronicles 3:1-10
+36239,Dodo,FATHER_OF,35452,Eleazar,person,1 Chronicles 11:7-13
+36245,Abishai,BROTHER_OF,36233,Joab,person,1 Chronicles 11:20-24
+36239,Dodo,FATHER_OF,36251,Elhanan,person,1 Chronicles 11:25-38
+36254,Ikkesh,FATHER_OF,36253,Ira,person,1 Chronicles 11:25-38
+36262,Ribai,FATHER_OF,412212,Ithai,person,1 Chronicles 11:25-38
+36161,Shage,FATHER_OF,19095,Jonathan,person,1 Chronicles 11:25-38
+36277,Ezbai,FATHER_OF,36276,Naarai,person,1 Chronicles 11:25-38
+36279,Haggeri,FATHER_OF,36278,Mibhar,person,1 Chronicles 11:25-38
+36250,Asahel,BROTHER_OF,36233,Joab,person,1 Chronicles 11:25-38
+19091,Joel,BROTHER_OF,19330,Nathan,person,1 Chronicles 11:25-38
+36301,Ahlai,FATHER_OF,36300,Zabad,person,1 Chronicles 11:39-47
+36303,Shiza,FATHER_OF,36302,Adina,person,1 Chronicles 11:39-47
+36313,Shimri,FATHER_OF,36312,Jediael,person,1 Chronicles 11:39-47
+36486,Nahash,FATHER_OF,36487,Hanun,person,1 Chronicles 19:1-5
+35452,Eleazar,FATHER_OF,37023,Phinehas,person,1 Chronicles 6:1-15
+37023,Phinehas,FATHER_OF,37024,Abishua,person,1 Chronicles 6:1-15
+37024,Abishua,FATHER_OF,37025,Bukki,person,1 Chronicles 6:1-15
+37025,Bukki,FATHER_OF,37026,Uzzi,person,1 Chronicles 6:1-15
+37026,Uzzi,FATHER_OF,36477,Zerahiah,person,1 Chronicles 6:1-15
+35449,Zadok,FATHER_OF,37029,Ahimaaz,person,1 Chronicles 6:1-15
+37029,Ahimaaz,FATHER_OF,36557,Azariah,person,1 Chronicles 6:1-15
+36557,Azariah,FATHER_OF,36338,Johanan,person,1 Chronicles 6:1-15
+36338,Johanan,FATHER_OF,36557,Azariah,person,1 Chronicles 6:1-15
+36557,Azariah,FATHER_OF,36645,Amariah,person,1 Chronicles 6:1-15
+36738,Hilkiah,FATHER_OF,36557,Azariah,person,1 Chronicles 6:1-15
+36557,Azariah,FATHER_OF,36904,Seraiah,person,1 Chronicles 6:1-15
+37044,Shemuel,FATHER_OF,19091,Joel,person,1 Chronicles 6:29-36
+36345,Elkanah,FATHER_OF,37038,Zuph,person,1 Chronicles 6:29-36
+36366,Amasai,FATHER_OF,37045,Mahath,person,1 Chronicles 6:29-36
+19091,Joel,FATHER_OF,36345,Elkanah,person,1 Chronicles 6:29-36
+19878,Zephaniah,FATHER_OF,36557,Azariah,person,1 Chronicles 6:29-36
+36844,Assir,FATHER_OF,37037,Tahath,person,1 Chronicles 6:37-47
+36188,Korah,FATHER_OF,36422,Ebiasaph,person,1 Chronicles 6:37-47
+25342,Kohath,FATHER_OF,36419,Izhar,person,1 Chronicles 6:37-47
+37047,Baaseiah,FATHER_OF,19317,Michael,person,1 Chronicles 6:37-47
+37035,Zimmah,FATHER_OF,36424,Ethan,person,1 Chronicles 6:37-47
+37052,Abdi,FATHER_OF,36425,Kishi,person,1 Chronicles 6:37-47
+36843,Amaziah,FATHER_OF,36705,Hashabiah,person,1 Chronicles 6:37-47
+37055,Bani,FATHER_OF,37054,Amzi,person,1 Chronicles 6:37-47
+36649,Mushi,FATHER_OF,36648,Mahli,person,1 Chronicles 6:37-47
+19213,Levi,FATHER_OF,36411,Merari,person,1 Chronicles 6:37-47
+36425,Kishi,FATHER_OF,36424,Ethan,person,1 Chronicles 6:37-47
+36907,Jephunneh,FATHER_OF,3580,Caleb,person,1 Chronicles 6:56-62
+18663,David,FATHER_OF,19746,Solomon,person,1 Chronicles 29:20-24
+36498,Hezron,FATHER_OF,3580,Caleb,person,1 Chronicles 2:11-22
+36527,Machir,FATHER_OF,3519,Gilead,person,1 Chronicles 2:11-22
+3565,Boaz,FATHER_OF,19422,Obed,person,1 Chronicles 2:11-22
+36521,Hur,FATHER_OF,36522,Uri,person,1 Chronicles 2:11-22
+36523,Segub,FATHER_OF,36524,Jair,person,1 Chronicles 2:11-22
+36529,Ashur,FATHER_OF,36882,Tekoa,person,1 Chronicles 2:23-30
+36566,Mareshah,FATHER_OF,18898,Hebron,person,1 Chronicles 2:31-42
+36536,Jada,BROTHER_OF,36535,Shammai,person,1 Chronicles 2:31-42
+3580,Caleb,BROTHER_OF,36505,Jerahmeel,person,1 Chronicles 2:31-42
+36363,Attai,FATHER_OF,19330,Nathan,person,1 Chronicles 2:31-42
+19330,Nathan,FATHER_OF,36300,Zabad,person,1 Chronicles 2:31-42
+36300,Zabad,FATHER_OF,36556,Ephlal,person,1 Chronicles 2:31-42
+36556,Ephlal,FATHER_OF,19422,Obed,person,1 Chronicles 2:31-42
+19422,Obed,FATHER_OF,36335,Jehu,person,1 Chronicles 2:31-42
+36335,Jehu,FATHER_OF,36557,Azariah,person,1 Chronicles 2:31-42
+36557,Azariah,FATHER_OF,36252,Helez,person,1 Chronicles 2:31-42
+36252,Helez,FATHER_OF,36559,Eleasah,person,1 Chronicles 2:31-42
+36559,Eleasah,FATHER_OF,36560,Sisamai,person,1 Chronicles 2:31-42
+36521,Hur,FATHER_OF,3580,Caleb,person,1 Chronicles 2:43-53
+36571,Raham,FATHER_OF,457473,JORKOAM,person,1 Chronicles 2:43-53
+36580,Shaaph,FATHER_OF,36581,Madmannah,person,1 Chronicles 2:43-53
+36165,Shobal,FATHER_OF,36388,Kirjath-jearim,person,1 Chronicles 2:43-53
+36585,Hareph,FATHER_OF,478888,BETH-GADER,person,1 Chronicles 2:43-53
+36570,Shema,FATHER_OF,36571,Raham,person,1 Chronicles 2:43-53
+36569,Rekem,FATHER_OF,36535,Shammai,person,1 Chronicles 2:43-53
+36573,Haran,FATHER_OF,36575,Gazez,person,1 Chronicles 2:43-53
+36722,Kore,FATHER_OF,36721,Meshelemiah,person,1 Chronicles 26:1-8
+36765,Mikloth,FATHER_OF,37230,Shimeah,person,1 Chronicles 8:30-39
+36756,Ner,FATHER_OF,28096,Kish,person,1 Chronicles 8:30-39
+36574,Moza,FATHER_OF,37237,Binea,person,1 Chronicles 8:30-39
+36763,Zabdiel,FATHER_OF,36238,Jashobeam,person,1 Chronicles 27:1-5
+36744,Zichri,FATHER_OF,35058,Eliezer,person,1 Chronicles 27:13-20
+36784,Kemuel,FATHER_OF,36705,Hashabiah,person,1 Chronicles 27:13-20
+19317,Michael,FATHER_OF,36785,Omri,person,1 Chronicles 27:13-20
+19421,Obadiah,FATHER_OF,36786,Ishmaiah,person,1 Chronicles 27:13-20
+36787,Azriel,FATHER_OF,36341,Jerimoth,person,1 Chronicles 27:13-20
+36436,Azaziah,FATHER_OF,18911,Hoshea,person,1 Chronicles 27:13-20
+36788,Pedaiah,FATHER_OF,19091,Joel,person,1 Chronicles 27:13-20
+19872,Zechariah,FATHER_OF,36792,Iddo,person,1 Chronicles 27:21-26
+36755,Abner,FATHER_OF,36793,Jaasiel,person,1 Chronicles 27:21-26
+36352,Jeroham,FATHER_OF,36348,Azareel,person,1 Chronicles 27:21-26
+24105,Uzziah,FATHER_OF,36795,Jehonathan,person,1 Chronicles 27:21-26
+36797,Chelub,FATHER_OF,36796,Ezri,person,1 Chronicles 27:21-26
+36800,Adlai,FATHER_OF,36799,Shaphat,person,1 Chronicles 27:27-33
+36804,Hachmoni,FATHER_OF,36310,Jehiel,person,1 Chronicles 27:27-33
+36246,Benaiah,FATHER_OF,36247,Jehoiada,person,1 Chronicles 27:34
+36785,Omri,FATHER_OF,37141,Ammihud,person,1 Chronicles 9:1-8
+37055,Bani,FATHER_OF,37249,Imri,person,1 Chronicles 9:1-8
+37254,Michri,FATHER_OF,37026,Uzzi,person,1 Chronicles 9:1-8
+37141,Ammihud,FATHER_OF,37248,Uthai,person,1 Chronicles 9:1-8
+19106,Judah,FATHER_OF,35070,Pharez,person,1 Chronicles 9:1-8
+36352,Jeroham,FATHER_OF,37253,Ibneiah,person,1 Chronicles 9:1-8
+37026,Uzzi,FATHER_OF,36216,Elah,person,1 Chronicles 9:1-8
+37255,Shephathiah,FATHER_OF,36849,Meshullam,person,1 Chronicles 9:1-8
+37258,Pashur,FATHER_OF,36352,Jeroham,person,1 Chronicles 9:9-14
+37261,Meshillemith,FATHER_OF,36849,Meshullam,person,1 Chronicles 9:9-14
+36865,Azrikam,FATHER_OF,37262,Hasshub,person,1 Chronicles 9:9-14
+37262,Hasshub,FATHER_OF,36417,Shemaiah,person,1 Chronicles 9:9-14
+37265,Galal,FATHER_OF,36417,Shemaiah,person,1 Chronicles 9:15-20
+36345,Elkanah,FATHER_OF,3504,Asa,person,1 Chronicles 9:15-20
+36422,Ebiasaph,FATHER_OF,36722,Kore,person,1 Chronicles 9:15-20
+36417,Shemaiah,FATHER_OF,19421,Obadiah,person,1 Chronicles 9:15-20
+3504,Asa,FATHER_OF,36423,Berechiah,person,1 Chronicles 9:15-20
+36721,Meshelemiah,FATHER_OF,19872,Zechariah,person,1 Chronicles 9:21-27
+36765,Mikloth,FATHER_OF,37272,Shimeam,person,1 Chronicles 9:35-44
+24118,Ahaz,FATHER_OF,37236,Jarah,person,1 Chronicles 9:35-44
+37236,Jarah,FATHER_OF,37060,Alemeth,person,1 Chronicles 9:35-44
+36570,Shema,FATHER_OF,36985,Azaz,person,1 Chronicles 5:1-8
+36985,Azaz,FATHER_OF,36196,Bela,person,1 Chronicles 5:1-8
+36997,Jaroah,FATHER_OF,36996,Huri,person,1 Chronicles 5:9-15
+19317,Michael,FATHER_OF,3519,Gilead,person,1 Chronicles 5:9-15
+36999,Jahdo,FATHER_OF,36998,Jeshishai,person,1 Chronicles 5:9-15
+37003,Guni,FATHER_OF,37002,Abdiel,person,1 Chronicles 5:9-15
+36996,Huri,FATHER_OF,36539,Abihail,person,1 Chronicles 5:9-15
+37002,Abdiel,FATHER_OF,37001,Ahi,person,1 Chronicles 5:9-15
+24322,Cush,FATHER_OF,28281,Nimrod,person,1 Chronicles 1:1-16
+36070,Mizraim,FATHER_OF,36076,Ludim,person,1 Chronicles 1:1-16
+3581,Canaan,FATHER_OF,26454,Zidon,person,1 Chronicles 1:1-16
+35084,Arphaxad,FATHER_OF,36107,Shelah,person,1 Chronicles 1:17-32
+36107,Shelah,FATHER_OF,29822,Eber,person,1 Chronicles 1:17-32
+36108,Joktan,FATHER_OF,36109,Almodad,person,1 Chronicles 1:17-32
+36197,Beor,FATHER_OF,36196,Bela,person,1 Chronicles 1:43-50
+35430,Zerah,FATHER_OF,36120,Jobab,person,1 Chronicles 1:43-50
+36202,Achbor,FATHER_OF,36201,Baal-hanan,person,1 Chronicles 1:43-50
+36204,Matred,FATHER_OF,36203,Mehetabel,person,1 Chronicles 1:43-50
+36442,Nethaneel,FATHER_OF,36417,Shemaiah,person,1 Chronicles 24:6-17
+35320,Abiathar,FATHER_OF,36660,Ahimelech,person,1 Chronicles 24:6-17
+19091,Joel,FATHER_OF,32069,Heman,person,1 Chronicles 15:16-21
+36165,Shobal,FATHER_OF,36587,Reaiah,person,1 Chronicles 4:1-9
+391947,Harum,FATHER_OF,36893,Aharhel,person,1 Chronicles 4:1-9
+36519,Ephratah,FATHER_OF,36244,Beth-lehem,person,1 Chronicles 4:1-9
+36879,Penuel,FATHER_OF,36880,Gedor,person,1 Chronicles 4:1-9
+36169,Ezer,FATHER_OF,36881,Hushah,person,1 Chronicles 4:1-9
+36165,Shobal,FATHER_OF,36635,Jahath,person,1 Chronicles 4:1-9
+36635,Jahath,FATHER_OF,36872,Ahumai,person,1 Chronicles 4:1-9
+36890,Coz,FATHER_OF,36891,Anub,person,1 Chronicles 4:1-9
+36902,Tehinnah,FATHER_OF,471249,IR-NAHASH,person,1 Chronicles 4:10-17
+36915,Ishbah,FATHER_OF,36916,Eshtemoa,person,1 Chronicles 4:10-17
+36797,Chelub,BROTHER_OF,36141,Shuah,person,1 Chronicles 4:10-17
+36141,Shuah,FATHER_OF,36897,Mehir,person,1 Chronicles 4:10-17
+36898,Eshton,FATHER_OF,36899,Beth-rapha,person,1 Chronicles 4:10-17
+36905,Meonothai,FATHER_OF,36906,Ophrah,person,1 Chronicles 4:10-17
+36904,Seraiah,FATHER_OF,36233,Joab,person,1 Chronicles 4:10-17
+19106,Judah,FATHER_OF,36107,Shelah,person,1 Chronicles 4:18-23
+19499,Pharaoh,FATHER_OF,36923,Bithiah,person,1 Chronicles 4:18-23
+23350,Naham,FATHER_OF,36925,Keilah,person,1 Chronicles 4:18-23
+36059,Jered,FATHER_OF,36880,Gedor,person,1 Chronicles 4:18-23
+36921,Jekuthiel,FATHER_OF,36922,Zanoah,person,1 Chronicles 4:18-23
+36933,Laadah,FATHER_OF,36566,Mareshah,person,1 Chronicles 4:18-23
+36924,Hodiah,SISTER_OF,23350,Naham,person,1 Chronicles 4:18-23
+36843,Amaziah,FATHER_OF,36954,Joshah,person,1 Chronicles 4:24-34
+36904,Seraiah,FATHER_OF,36965,Josibiah,person,1 Chronicles 4:35-41
+36972,Allon,FATHER_OF,36971,Shiphi,person,1 Chronicles 4:35-41
+36313,Shimri,FATHER_OF,36663,Jedaiah,person,1 Chronicles 4:35-41
+36965,Josibiah,FATHER_OF,36335,Jehu,person,1 Chronicles 4:35-41
+36971,Shiphi,FATHER_OF,36970,Ziza,person,1 Chronicles 4:35-41
+36702,Gedaliah,FATHER_OF,38287,Cushi,person,Zephaniah 1:1-5
+43157,Hizkiah,FATHER_OF,36645,Amariah,person,Zephaniah 1:1-5
+38287,Cushi,FATHER_OF,19878,Zephaniah,person,Zephaniah 1:1-5
+35435,Amon,FATHER_OF,19105,Josiah,person,Zephaniah 1:1-5
+19544,Reuben,FATHER_OF,41449,Bohan,person,Joshua 18:16-20
+36272,Hepher,FATHER_OF,37117,Zelophehad,person,Joshua 17:1-4
+19097,Joseph,FATHER_OF,19265,Manasseh,person,Joshua 17:1-4
+20658,Nun,FATHER_OF,19104,Joshua,person,Joshua 17:1-4
+19265,Manasseh,FATHER_OF,3519,Gilead,person,Joshua 17:1-4
+41437,Jephunneh Hebron,FATHER_OF,3580,Caleb,person,Joshua 14:12-15
+36503,Carmi,FATHER_OF,36504,Achan,person,Joshua 7:1-5
+35430,Zerah,FATHER_OF,36499,Zabdi,person,Joshua 7:1-5
+35430,Zerah,FATHER_OF,36504,Achan,person,Joshua 7:22-26
+19265,Manasseh,FATHER_OF,36527,Machir,person,Joshua 13:28-33
+40020,Arba,FATHER_OF,38624,Anak,person,Joshua 21:11-19
+35071,Terah,FATHER_OF,3278,Abraham,person,Joshua 24:1-5
+41653,Zippor,FATHER_OF,35851,Balak,person,Joshua 24:6-10
+36197,Beor,FATHER_OF,3518,Balaam,person,Joshua 24:6-10
+34008,Hamor,FATHER_OF,34007,Shechem,person,Joshua 24:28-32
+3247,Aaron,FATHER_OF,35452,Eleazar,person,Joshua 24:33
+36158,Kenaz,FATHER_OF,36783,Othniel,person,Joshua 15:15-21
+36158,Kenaz,BROTHER_OF,3580,Caleb,person,Joshua 15:15-21
+391963,Pethuel,FATHER_OF,19091,Joel,person,Joel 1:1-7
+38310,Bichri,FATHER_OF,36072,Sheba,person,2 Samuel 20:1-4
+36305,Maacah,FATHER_OF,36830,Absalom,person,2 Samuel 3:1-7
+36834,Abital,FATHER_OF,36344,Shephatiah,person,2 Samuel 3:1-7
+36831,Talmai,FATHER_OF,36305,Maacah,person,2 Samuel 3:1-7
+24296,Laish,FATHER_OF,38370,Phaltiel,person,2 Samuel 3:13-18
+37187,Gera,FATHER_OF,36627,Shimei,person,2 Samuel 16:5-9
+36486,Nahash,FATHER_OF,36515,Abigail,person,2 Samuel 17:21-25
+36486,Nahash,FATHER_OF,38281,Shobi,person,2 Samuel 17:26-29
+18663,David,FATHER_OF,36830,Absalom,person,2 Samuel 13:1-5
+18663,David,FATHER_OF,36828,Amnon,person,2 Samuel 13:1-5
+37141,Ammihud,FATHER_OF,36831,Talmai,person,2 Samuel 13:34-39
+19095,Jonathan,FATHER_OF,37231,Mephibosheth,person,2 Samuel 21:5-9
+37408,Barzillai,FATHER_OF,37631,Adriel,person,2 Samuel 21:5-9
+36610,Shimea,FATHER_OF,19095,Jonathan,person,2 Samuel 21:20-22
+36610,Shimea,BROTHER_OF,18663,David,person,2 Samuel 21:20-22
+38340,Agee,FATHER_OF,36162,Shammah,person,2 Samuel 23:11-16
+36261,Baanah,FATHER_OF,36260,Heleb,person,2 Samuel 23:22-34
+36262,Ribai,FATHER_OF,38261,Ittai,person,2 Samuel 23:22-34
+36270,Sharar,FATHER_OF,36268,Ahiam,person,2 Samuel 23:22-34
+38346,Ahasbai,FATHER_OF,36838,Eliphelet,person,2 Samuel 23:22-34
+36805,Ahithophel,FATHER_OF,36729,Eliam,person,2 Samuel 23:22-34
+19330,Nathan,FATHER_OF,38355,Igal,person,2 Samuel 23:35-39
+35320,Abiathar,FATHER_OF,19095,Jonathan,person,2 Samuel 15:23-27
+19878,Zephaniah,FATHER_OF,19105,Josiah,person,Zechariah 6:8-13
+37031,Josedech,FATHER_OF,19104,Joshua,person,Zechariah 6:8-13
+36423,Berechiah,FATHER_OF,19872,Zechariah,person,Zechariah 1:1-6
+37229,Zur,FATHER_OF,42340,Cozbi,person,Numbers 25:10-18
+42409,Lael,FATHER_OF,42227,Eliasaph,person,Numbers 3:23-28
+36418,Uzziel,FATHER_OF,36416,Elizaphan,person,Numbers 3:29-35
+36539,Abihail,FATHER_OF,42413,Zuriel,person,Numbers 3:29-35
+36419,Izhar,FATHER_OF,36188,Korah,person,Numbers 16:1-5
+19213,Levi,FATHER_OF,25342,Kohath,person,Numbers 16:1-5
+42297,Zuar,FATHER_OF,36442,Nethaneel,person,Numbers 10:12-18
+42243,Shedeur,FATHER_OF,42220,Elizur,person,Numbers 10:12-18
+42222,Zurishaddai,FATHER_OF,42221,Shelumiel,person,Numbers 10:19-25
+42300,Pedahzur,FATHER_OF,18873,Gamaliel,person,Numbers 10:19-25
+42231,Gideoni,FATHER_OF,42225,Abidan,person,Numbers 10:19-25
+42245,Ammishaddai,FATHER_OF,36329,Ahiezer,person,Numbers 10:19-25
+42302,Ocran,FATHER_OF,42226,Pagiel,person,Numbers 10:26-31
+39529,Enan,FATHER_OF,42228,Ahira,person,Numbers 10:26-31
+19213,Levi,FATHER_OF,39304,Jochebed,person,Numbers 26:55-61
+3247,Aaron,FATHER_OF,36659,Ithamar,person,Numbers 7:7-13
+37141,Ammihud,FATHER_OF,37044,Shemuel,person,Numbers 34:1-21
+42473,Chislon,FATHER_OF,42472,Elidad,person,Numbers 34:1-21
+409520,Jogli,FATHER_OF,37025,Bukki,person,Numbers 34:22-29
+36444,Ephod,FATHER_OF,42474,Hanniel,person,Numbers 34:22-29
+392537,Shiphtan,FATHER_OF,36784,Kemuel,person,Numbers 34:22-29
+415562,Parnach,FATHER_OF,36416,Elizaphan,person,Numbers 34:22-29
+404781,Azzan,FATHER_OF,42475,Paltiel,person,Numbers 34:22-29
+402498,Shelomi,FATHER_OF,37207,Ahihud,person,Numbers 34:22-29
+37141,Ammihud,FATHER_OF,42476,Pedahel,person,Numbers 34:22-29
+36692,Zaccur,FATHER_OF,36395,Shammua,person,Numbers 13:1-11
+36170,Hori,FATHER_OF,36799,Shaphat,person,Numbers 13:1-11
+19097,Joseph,FATHER_OF,38355,Igal,person,Numbers 13:1-11
+20658,Nun,FATHER_OF,42266,Oshea,person,Numbers 13:1-11
+396060,Raphu,FATHER_OF,42261,Palti,person,Numbers 13:1-11
+403086,Sodi,FATHER_OF,42262,Gaddiel,person,Numbers 13:1-11
+42264,Susi,FATHER_OF,42263,Gaddi,person,Numbers 13:1-11
+19317,Michael,FATHER_OF,42269,Sethur,person,Numbers 13:12-20
+403600,Vophsi,FATHER_OF,42270,Nahbi,person,Numbers 13:12-20
+410045,Machi,FATHER_OF,42271,Geuel,person,Numbers 13:12-20
+19265,Manasseh,FATHER_OF,36524,Jair,person,Numbers 32:41-42
+38022,Amittai,FATHER_OF,19094,Jonah,person,Jonah 1:1-5
+40102,Beeri,FATHER_OF,18910,Hosea,person,Hosea 1:1-5
+36330,Joash,FATHER_OF,19086,Jeroboam,person,Hosea 1:1-5
+40564,Diblaim,FATHER_OF,36061,Gomer,person,Hosea 1:1-5
+36138,Jokshan,FATHER_OF,36072,Sheba,person,Genesis 25:1-8
+39300,Zohar,FATHER_OF,40008,Ephron,person,Genesis 25:9-16
+35071,Terah,FATHER_OF,36121,Abram,person,Genesis 11:16-27
+36573,Haran,FATHER_OF,19259,Lot,person,Genesis 11:16-27
+36573,Haran,FATHER_OF,39823,Milcah,person,Genesis 11:28-32
+29822,Eber,BROTHER_OF,19077,Japheth,person,Genesis 10:21-31
+35084,Arphaxad,FATHER_OF,36106,Salah,person,Genesis 10:21-31
+36106,Salah,FATHER_OF,29822,Eber,person,Genesis 10:21-31
+35072,Nahor,FATHER_OF,19199,Laban,person,Genesis 29:1-7
+19199,Laban,FATHER_OF,19536,Rachel,person,Genesis 29:8-13
+36083,Amorite,BROTHER_OF,38623,Eshcol,person,Genesis 14:8-13
+40102,Beeri,FATHER_OF,40101,Judith,person,Genesis 26:31-35
+37465,Elon,FATHER_OF,37775,Bashemath,person,Genesis 26:31-35
+40341,Poti-pherah,FATHER_OF,40325,Asenath,person,Genesis 41:41-46
+19210,Leah,FATHER_OF,40163,Dinah,person,Genesis 34:1-7
+3549,Jacob,FATHER_OF,40163,Dinah,person,Genesis 34:1-7
+18896,Ham,FATHER_OF,3581,Canaan,person,Genesis 9:20-28
+18866,Noah,FATHER_OF,19579,Shem,person,Genesis 5:31-32
+36950,Bethuel,FATHER_OF,19200,Rebekah,person,Genesis 22:18-24
+39823,Milcah,FATHER_OF,36950,Bethuel,person,Genesis 24:12-16
+35072,Nahor,SPOUSE_OF,39823,Milcah,person,Genesis 24:12-16
+36950,Bethuel,FATHER_OF,19199,Laban,person,Genesis 28:1-6
+37465,Elon,FATHER_OF,40238,Adah,person,Genesis 36:1-7
+36167,Anah,FATHER_OF,36215,Aholibamah,person,Genesis 36:1-7
+40238,Adah,FATHER_OF,36150,Eliphaz,person,Genesis 36:8-15
+36166,Zibeon,FATHER_OF,36167,Anah,person,Genesis 36:8-15
+40309,Irad,FATHER_OF,40310,Mehujael,person,Genesis 4:15-21
+40310,Mehujael,FATHER_OF,40311,Methusael,person,Genesis 4:15-21
+40311,Methusael,FATHER_OF,30365,Lamech,person,Genesis 4:15-21
+24118,Ahaz,FATHER_OF,18906,Hezekiah,person,2 Kings 18:1-5
+37936,Shaphan,FATHER_OF,37939,Ahikam,person,2 Kings 25:18-22
+37939,Ahikam,FATHER_OF,36702,Gedaliah,person,2 Kings 25:18-22
+36700,Nethaniah,FATHER_OF,18917,Ishmael,person,2 Kings 25:23-26
+38165,Tanhumeth,FATHER_OF,36904,Seraiah,person,2 Kings 25:23-26
+3301,Ahab,FATHER_OF,35433,Jehoram,person,2 Kings 3:1-7
+37299,Nebat,FATHER_OF,19086,Jeroboam,person,2 Kings 3:1-7
+36799,Shaphat,FATHER_OF,18677,Elisha,person,2 Kings 3:8-12
+38047,Remaliah Ahaz,FATHER_OF,24121,Pekah,people,2 Kings 16:1-6
+36842,Ahaziah,FATHER_OF,36330,Joash,person,2 Kings 11:1-5
+37226,Athaliah,MOTHER_OF,36842,Ahaziah,person,2 Kings 11:1-5
+35434,Joram,SISTER_OF,36842,Ahaziah,person,2 Kings 11:1-5
+36216,Elah,FATHER_OF,18911,Hoshea,person,2 Kings 17:1-6
+36330,Joash,FATHER_OF,36843,Amaziah,person,2 Kings 14:1-6
+37831,Jehoahaz,FATHER_OF,38002,Jehoash,person,2 Kings 14:7-11
+38002,Jehoash,FATHER_OF,19106,Judah,person,2 Kings 14:12-16
+36842,Ahaziah,FATHER_OF,38002,Jehoash,person,2 Kings 14:12-16
+36330,Joash,FATHER_OF,38020,Judah Jeroboam,person,2 Kings 14:17-23
+3301,Ahab,FATHER_OF,35434,Joram,person,2 Kings 8:15-20
+19082,Jehoshaphat,FATHER_OF,35433,Jehoram,person,2 Kings 8:15-20
+35433,Jehoram,FATHER_OF,36842,Ahaziah,person,2 Kings 8:21-26
+36785,Omri,FATHER_OF,37226,Athaliah,person,2 Kings 8:21-26
+36335,Jehu,FATHER_OF,38009,Judah Jehoahaz,person,2 Kings 13:1-5
+37398,Hazael,FATHER_OF,37353,Ben-hadad,person,2 Kings 13:1-5
+38130,Haruz,FATHER_OF,38129,Meshullemeth,person,2 Kings 21:17-22
+19082,Jehoshaphat,FATHER_OF,36335,Jehu,person,2 Kings 9:1-5
+36273,Ahijah,FATHER_OF,37344,Baasha,person,2 Kings 9:6-10
+37399,Nimshi,FATHER_OF,36335,Jehu,person,2 Kings 9:20-24
+19105,Josiah,FATHER_OF,37831,Jehoahaz,person,2 Kings 23:26-30
+19084,Jeremiah,FATHER_OF,38148,Hamutal,person,2 Kings 23:31-37
+36788,Pedaiah,FATHER_OF,38151,Zebudah,person,2 Kings 23:32-37
+36849,Meshullam,FATHER_OF,37937,Azaliah,person,2 Kings 22:1-5
+37937,Azaliah,FATHER_OF,37936,Shaphan,person,2 Kings 22:1-5
+37051,Adaiah,FATHER_OF,38136,Jedidah,person,2 Kings 22:1-5
+37787,Michaiah,FATHER_OF,36202,Achbor,person,2 Kings 22:12-15
+38154,Elnathan,FATHER_OF,38153,Nehushta,person,2 Kings 24:6-19
+38033,Gadi,FATHER_OF,38032,Menahem,person,2 Kings 15:13-17
+38032,Menahem,FATHER_OF,38038,Judah Pekahiah,person,2 Kings 15:18-28
+35449,Zadok,FATHER_OF,38042,Jerusha,person,2 Kings 15:33-38
+35070,Pharez,FATHER_OF,36498,Hezron,person,Ruth 4:14-22
+36498,Hezron,FATHER_OF,35069,Ram,person,Ruth 4:14-22
+35067,Nahshon,FATHER_OF,35066,Salmon,person,Ruth 4:14-22
+35066,Salmon,FATHER_OF,3565,Boaz,person,Ruth 4:14-22
+18663,David,FATHER_OF,38890,Preacher,person,Ecclesiastes 1:1-9
+37187,Gera,FATHER_OF,37105,Ehud,person,Judges 3:13-19
+41596,Anath,FATHER_OF,41788,Shamgar,person,Judges 3:26-31
+3519,Gilead,FATHER_OF,34169,Jephthah,person,Judges 11:1-6
+36239,Dodo,FATHER_OF,37092,Puah,person,Judges 10:1-6
+37092,Puah,FATHER_OF,16694,Israel Tola,person,Judges 10:1-6
+41728,Hillel,FATHER_OF,37070,Abdon,person,Judges 12:11-15
+36330,Joash,FATHER_OF,18876,Gideon,person,Judges 6:27-30
+39743,Ebed,FATHER_OF,41837,Gaal,person,Judges 9:24-28
+41793,Abinoam,FATHER_OF,34168,Barak,person,Judges 5:1-8
+36310,Jehiel,FATHER_OF,36858,Shechaniah,person,Ezra 10:1-4
+37940,Tikvah,FATHER_OF,39567,Jahaziah,person,Ezra 10:15-19
+36792,Iddo,FATHER_OF,19872,Zechariah,person,Ezra 6:11-14
+36904,Seraiah,FATHER_OF,18690,Ezra,person,Ezra 7:1-7
+36477,Zerahiah,FATHER_OF,39742,Elihoenai,person,Ezra 8:1-8
+19095,Jonathan,FATHER_OF,39743,Ebed,person,Ezra 8:1-8
+37226,Athaliah,FATHER_OF,36688,Jeshaiah,person,Ezra 8:1-8
+19317,Michael,FATHER_OF,36351,Zebadiah,person,Ezra 8:1-8
+36310,Jehiel,FATHER_OF,19421,Obadiah,person,Ezra 8:9-16
+39579,Bebai,FATHER_OF,19872,Zechariah,person,Ezra 8:9-16
+39747,Hakkatan,FATHER_OF,36338,Johanan,person,Ezra 8:9-16
+19213,Levi,FATHER_OF,36648,Mahli,person,Ezra 8:17-21
+37023,Phinehas,FATHER_OF,35452,Eleazar,person,Ezra 8:32-36
+36672,Jeshua,FATHER_OF,36368,Jozabad,person,Ezra 8:32-36
+39585,Binnui,FATHER_OF,39757,Noadiah,person,Ezra 8:32-36
+38984,Hammedatha,FATHER_OF,38983,Haman,person,Esther 3:1-6
+36524,Jair,FATHER_OF,38968,Mordecai,person,Esther 2:1-5
+28096,Kish,FATHER_OF,36627,Shimei,person,Esther 2:1-5
+36539,Abihail,FATHER_OF,18684,Esther,person,Esther 2:15-18
+32007,Bishop Edward Partridge,FATHER_OF,181594,Emily Partridge,person,en/books/well-sing-well-shout/11-zion-must-increase-beauty.txt#1
+516735,John CORRILL,FATHER_OF,605342,Nancy Corrill,person,en/books/well-sing-well-shout/11-zion-must-increase-beauty.txt#1
+42654,Jakeh,FATHER_OF,42653,Agur,person,Proverbs 30:1-8
+36709,Hanani,FATHER_OF,36335,Jehu,person,1 Kings 16:1-6
+37344,Baasha,FATHER_OF,36216,Elah,person,1 Kings 16:7-11
+37367,Ginath,FATHER_OF,37366,Tibni,person,1 Kings 16:17-22
+36785,Omri,FATHER_OF,3301,Ahab,person,1 Kings 16:28-33
+37369,Ethbaal,FATHER_OF,19089,Jezebel,person,1 Kings 16:28-33
+37313,Eliadah,FATHER_OF,37312,Rezon,person,1 Kings 11:19-24
+19746,Solomon,FATHER_OF,19540,Rehoboam,person,1 Kings 12:17-21
+36182,Jether,FATHER_OF,30774,Amasa,person,1 Kings 2:1-5
+19086,Jeroboam,FATHER_OF,36671,Abijah,person,1 Kings 14:1-5
+37106,Chenaanah,FATHER_OF,19875,Zedekiah,person,1 Kings 22:7-11
+3504,Asa,FATHER_OF,19082,Jehoshaphat,person,1 Kings 22:40-45
+37827,Shilhi,FATHER_OF,36516,Azubah,person,1 Kings 22:40-45
+3301,Ahab,FATHER_OF,36842,Ahaziah,person,1 Kings 22:46-52
+37354,Tabrimon,FATHER_OF,37353,Ben-hadad,person,1 Kings 15:16-32
+19086,Jeroboam,FATHER_OF,36537,Nadab,person,1 Kings 15:21-25
+35449,Zadok,FATHER_OF,36557,Azariah,person,1 Kings 4:1-10
+19330,Nathan,FATHER_OF,36557,Azariah,person,1 Kings 4:1-10
+19330,Nathan,FATHER_OF,37461,Zabud,person,1 Kings 4:1-10
+37463,Abda,FATHER_OF,36113,Adoniram,person,1 Kings 4:1-10
+36475,Ahilud,FATHER_OF,37475,Baana,person,1 Kings 4:11-19
+36792,Iddo,FATHER_OF,37478,Ahinadab,person,1 Kings 4:11-19
+36806,Hushai,FATHER_OF,36261,Baanah,person,1 Kings 4:11-19
+37480,Paruah,FATHER_OF,19082,Jehoshaphat,person,1 Kings 4:11-19
+36216,Elah,FATHER_OF,36627,Shimei,person,1 Kings 4:11-19
+36522,Uri,FATHER_OF,23604,Geber,person,1 Kings 4:11-19
+19746,Solomon,FATHER_OF,37474,Taphath,person,1 Kings 4:11-19
+19746,Solomon,FATHER_OF,37479,Basmath,person,1 Kings 4:11-19
+38600,Ahasuerus,FATHER_OF,18662,Darius,person,Daniel 9:1-6
+669376,John Tullidge,BROTHER_OF,19484,Edward,person,en/books/wayward-saints/13-interval-before-rebellion.txt#7
+36246,Benaiah,FATHER_OF,19872,Zechariah,person,2 Chronicles 20:13-17
+19872,Zechariah,FATHER_OF,36337,Jahaziel,person,2 Chronicles 20:13-17
+37828,Dodavah,FATHER_OF,35058,Eliezer,person,2 Chronicles 20:32-37
+37438,Imla,FATHER_OF,37433,Micaiah,person,2 Chronicles 18:6-10
+37831,Jehoahaz,FATHER_OF,36330,Joash,person,2 Chronicles 25:15-18
+36330,Joash,FATHER_OF,19106,Judah,person,2 Chronicles 25:19-23
+18663,David,FATHER_OF,36341,Jerimoth,person,2 Chronicles 11:17-23
+36744,Zichri,FATHER_OF,37809,Amasiah,person,2 Chronicles 17:14-19
+18917,Ishmael,FATHER_OF,36351,Zebadiah,person,2 Chronicles 19:7-11
+19872,Zechariah,FATHER_OF,36671,Abijah,person,2 Chronicles 29:1-6
+36557,Azariah,FATHER_OF,19091,Joel,person,2 Chronicles 29:7-12
+37052,Abdi,FATHER_OF,28096,Kish,person,2 Chronicles 29:7-12
+37886,Jehalelel,FATHER_OF,36557,Azariah,person,2 Chronicles 29:7-12
+37035,Zimmah,FATHER_OF,36727,Joah,person,2 Chronicles 29:7-12
+36727,Joah,FATHER_OF,18668,Eden,person,2 Chronicles 29:7-12
+19877,Uriel,FATHER_OF,37787,Michaiah,person,2 Chronicles 13:1-6
+37147,Imnah,FATHER_OF,36722,Kore,person,2 Chronicles 31:14-18
+35449,Zadok,FATHER_OF,37868,Jerushah,person,2 Chronicles 27:1-5
+36352,Jeroham,FATHER_OF,36557,Azariah,person,2 Chronicles 23:1-5
+36724,Jehohanan,FATHER_OF,18917,Ishmael,person,2 Chronicles 23:1-5
+19422,Obed,FATHER_OF,36557,Azariah,person,2 Chronicles 23:1-5
+37051,Adaiah,FATHER_OF,36430,Maaseiah,person,2 Chronicles 23:1-5
+36744,Zichri,FATHER_OF,37841,Elishaphat,person,2 Chronicles 23:1-5
+35433,Jehoram,FATHER_OF,36557,Azariah,person,2 Chronicles 22:6-9
+36247,Jehoiada,SPOUSE_OF,35433,Jehoram,person,2 Chronicles 22:10-12
+36247,Jehoiada,FATHER_OF,19872,Zechariah,person,2 Chronicles 24:16-20
+37850,Shimeath,FATHER_OF,36300,Zabad,person,2 Chronicles 24:25-27
+37152,Shimrith,FATHER_OF,36726,Jehozabad,person,2 Chronicles 24:25-27
+18905,Herodias,FATHER_OF,35300,Salome,person,en/books/jesus-the-christ/18-as-one-having-authority.txt#7
+37879,Hadlai,FATHER_OF,30774,Amasa,person,2 Chronicles 28:10-14
+37798,Oded,FATHER_OF,36557,Azariah,person,2 Chronicles 15:1-6
+36679,Immer,FATHER_OF,37258,Pashur,person,Jeremiah 20:1-5
+41083,Habaziniah,FATHER_OF,19084,Jeremiah,person,Jeremiah 35:1-5
+41084,Igdaliah,FATHER_OF,36304,Hanan,person,Jeremiah 35:1-5
+36600,Rechab,FATHER_OF,37993,Jonadab,person,Jeremiah 35:6-11
+19105,Josiah,FATHER_OF,19875,Zedekiah,person,Jeremiah 37:1-7
+36430,Maaseiah,FATHER_OF,19878,Zephaniah,person,Jeremiah 37:1-7
+37936,Shaphan,FATHER_OF,39587,Elasah,person,Jeremiah 29:1-5
+36738,Hilkiah,FATHER_OF,41047,Gemariah,person,Jeremiah 29:1-5
+41048,Kolaiah,FATHER_OF,3301,Ahab,person,Jeremiah 29:17-21
+36430,Maaseiah,FATHER_OF,19875,Zedekiah,person,Jeremiah 29:17-21
+36417,Shemaiah,FATHER_OF,24143,Urijah,person,Jeremiah 26:20-24
+36202,Achbor,FATHER_OF,38154,Elnathan,person,Jeremiah 26:20-24
+38164,Kareah,FATHER_OF,36338,Johanan,person,Jeremiah 41:10-13
+41069,Neriah,FATHER_OF,41068,Baruch,person,Jeremiah 45:1-5
+41128,Hoshaiah,FATHER_OF,36558,Jezaniah,person,Jeremiah 42:1-5
+37843,Mattan,FATHER_OF,36344,Shephatiah,person,Jeremiah 38:1-4
+37258,Pashur,FATHER_OF,36702,Gedaliah,person,Jeremiah 38:1-4
+37049,Melchiah,FATHER_OF,37258,Pashur,person,Jeremiah 21:1-5
+36738,Hilkiah,FATHER_OF,19084,Jeremiah,person,Jeremiah 1:1-7
+41128,Hoshaiah,FATHER_OF,36557,Azariah,person,Jeremiah 43:1-5
+36430,Maaseiah,FATHER_OF,41069,Neriah,person,Jeremiah 32:11-16
+41069,Neriah,FATHER_OF,36904,Seraiah,person,Jeremiah 51:59-64
+37936,Shaphan,FATHER_OF,41047,Gemariah,person,Jeremiah 36:10-14
+36417,Shemaiah,FATHER_OF,36687,Delaiah,person,Jeremiah 36:10-14
+36700,Nethaniah,FATHER_OF,41088,Jehudi,person,Jeremiah 36:10-14
+41089,Hammelech,FATHER_OF,36505,Jerahmeel,person,Jeremiah 36:26-30
+36787,Azriel,FATHER_OF,36904,Seraiah,person,Jeremiah 36:26-30
+18906,Hezekiah,FATHER_OF,19265,Manasseh,person,Jeremiah 15:1-4
+20658,Nun,FATHER_OF,18911,Hoshea,person,Deuteronomy 32:41-46
+18680,Enoch,FATHER_OF,19314,Methuselah,person,Moses 8:1-7
+40309,Irad,FATHER_OF,43431,Mahujael,person,Moses 5:41-45
+43431,Mahujael,FATHER_OF,40311,Methusael,person,Moses 5:41-45
+18680,Enoch,FATHER_OF,40309,Irad,person,Moses 5:46-50
+18896,Ham,FATHER_OF,18171,Egyptus,person,Abraham 1:21-26
+209992,Sophronia,SISTER_OF,19735,José,person,es/general-conference/201010/Sé ejemplo de los creyentes (Mary N CookPrimera Consejera de la Presidencia General de las Mujeres Jóvenes).txt#1
+19072,Lehi,FATHER_OF,18918,Nephi,person,en/books/interpreter-journal/improvisation-and-extemporaneous-change-in-the-book-of-mormon-part-2-structural-evidences-of-earlier-ancient-versus-later-modern-constructions.txt#22
+3332,Mormon,FATHER_OF,19324,Moroni,person,en/books/interpreter-journal/improvisation-and-extemporaneous-change-in-the-book-of-mormon-part-2-structural-evidences-of-earlier-ancient-versus-later-modern-constructions.txt#23
+19075,Alphaeus,FATHER_OF,19213,Levi,person,en/study-aids/guide-to-scriptures/matthew.txt#0
+19259,Lot,FATHER_OF,19322,Moab,person,en/study-aids/bible-dictionary/genesis.txt#0
+19108,Judas,FATHER_OF,18645,Jesus,person,en/study-aids/bible-dictionary/temple-of-zerubbabel.txt#0
+494653,Sirach,FATHER_OF,18645,Jesus,person,en/study-aids/bible-dictionary/apocrypha.txt#1
+18896,Ham,FATHER_OF,24322,Cush,person,en/study-aids/bible-dictionary/havilah.txt#0
+19082,Jehoshaphat,FATHER_OF,19106,Judah,person,en/study-aids/bible-dictionary/jehoram.txt#0
+3278,Abraham,FATHER_OF,18663,David,person,en/study-aids/bible-dictionary/christ-names-of.txt#0
+46925,Beerothite,FATHER_OF,36261,Baanah,person,en/study-aids/bible-dictionary/rimmon.txt#0
+36792,Iddo,FATHER_OF,36423,Berechiah,person,en/study-aids/bible-dictionary/zechariah.txt#0
+33818,Felix,SPOUSE_OF,33852,Drusilla,person,en/study-aids/bible-dictionary/herod.txt#1
+8377,Ammorón,FATHER_OF,8662,Tubalot,person,Helamán 1:15-18
+29680,Abinadom,FATHER_OF,9101,Amalekí,person,Omni 1:10-13
+28117,Shule,FATHER_OF,8513,Omer,person,Eter 8:1-5
+11799,Fares,FATHER_OF,11798,Esrom,person,Mateo 1:1-10
+11797,Naasón,FATHER_OF,11171,Salmón,person,Mateo 1:1-10
+12033,Jeconías,FATHER_OF,11789,Salatiel,person,Mateo 1:11-18
+35446,Abiud,FATHER_OF,11792,Eliaquim,person,Mateo 1:11-18
+11792,Eliaquim,FATHER_OF,35447,Azor,person,Mateo 1:11-18
+12036,Aquim,FATHER_OF,35451,Eliud,person,Mateo 1:11-18
+35452,Eleazar,FATHER_OF,12037,Matán,person,Mateo 1:11-18
+12037,Matán,FATHER_OF,3549,Jacob,person,Mateo 1:11-18
+3549,Jacob,FATHER_OF,19735,José,person,Mateo 1:11-18
+18663,David,FATHER_OF,19735,José,person,Mateo 1:19-25
+11338,Simón Iscariote,FATHER_OF,19108,Judas,person,Juan 13:1-7
+11783,Jana,FATHER_OF,11782,Melqui,person,Lucas 3:23-32
+35043,Esli,FATHER_OF,19327,Nahum,person,Lucas 3:23-32
+11784,Matatías,FATHER_OF,11786,Maat,person,Lucas 3:23-32
+19735,José,FATHER_OF,35048,Semei,person,Lucas 3:23-32
+11788,Resa,FATHER_OF,11787,Joana,person,Lucas 3:23-32
+11790,Adi,FATHER_OF,11782,Melqui,person,Lucas 3:23-32
+35055,Elmodam,FATHER_OF,35054,Cosam,person,Lucas 3:23-32
+11781,Matat,FATHER_OF,35059,Jorim,person,Lucas 3:23-32
+11792,Eliaquim,FATHER_OF,11791,Jonán,person,Lucas 3:23-32
+11793,Mainán,FATHER_OF,35063,Melea,person,Lucas 3:23-32
+30358,Mahalaleel,FATHER_OF,19078,Jared,person,Lucas 3:33-38
+11009,Saúl,FATHER_OF,36447,Merab,person,1 Samuel 18:15-20
+37676,Nabal,SPOUSE_OF,36515,Abigail,person,1 Samuel 25:14-18
+13663,Lais,FATHER_OF,42261,Palti,person,1 Samuel 25:40-44
+440773,Ahitob,BROTHER_OF,13546,Icabod,people,1 Samuel 14:1-6
+13078,Ahimaas,FATHER_OF,36829,Ahinoam,person,1 Samuel 14:50-52
+13666,Sarvia,BROTHER_OF,36233,Joab,person,1 Samuel 26:1-6
+13672,Maoc,FATHER_OF,13410,Aquis,person,1 Samuel 27:1-5
+37753,Zeror,FATHER_OF,36264,Abiel,person,1 Samuel 9:1-5
+13737,Afía,FATHER_OF,13736,Becorat,person,1 Samuel 9:1-5
+13508,Eliú,FATHER_OF,36352,Jeroham,person,1 Samuel 1:1-6
+13065,Zuf,FATHER_OF,37559,Tohu,person,1 Samuel 1:1-6
+16295,Baraquel,FATHER_OF,13508,Eliú,person,Job 32:1-8
+42409,Lael,FATHER_OF,17163,Eliasaf,person,Numeros 3:16-24
+12609,Uziel,FATHER_OF,17275,Elizafán,person,Numeros 3:25-31
+17151,Sedeur,FATHER_OF,17150,Elisur,place,Numeros 10:16-23
+17154,Zurisadai,FATHER_OF,17153,Selumiel,person,Numeros 10:16-23
+13142,Amiud,FATHER_OF,13143,Elisama,person,Numeros 10:16-23
+17156,Pedasur,FATHER_OF,18873,Gamaliel,person,Numeros 10:16-23
+17158,Gedeoni,FATHER_OF,17157,Abidán,person,Numeros 10:24-30
+17159,Amisadai,FATHER_OF,36329,Ahiezer,place,Numeros 10:24-30
+17161,Ocrán,FATHER_OF,42226,Pagiel,person,Numeros 10:24-30
+17164,Enán,FATHER_OF,42228,Ahira,person,Numeros 10:24-30
+12974,Jefone,FATHER_OF,3580,Caleb,person,Numeros 14:1-7
+12701,Maquir,FATHER_OF,13035,Galaad,person,Numeros 26:25-33
+13142,Amiud,FATHER_OF,17332,Semuel,person,Numeros 34:15-25
+409520,Jogli,FATHER_OF,13048,Buqui,person,Numeros 34:15-25
+17337,Parnac,FATHER_OF,17275,Elizafán,place,Numeros 34:15-25
+13142,Amiud,FATHER_OF,17340,Pedael,person,Numeros 34:26-29
+12999,Zacur,FATHER_OF,17177,Samúa,person,Numeros 13:1-12
+19735,José,FATHER_OF,38355,Igal,person,Numeros 13:1-12
+403086,Sodi,FATHER_OF,17180,Gadiel,person,Numeros 13:1-12
+17183,Gemali,FATHER_OF,12926,Amiel,place,Numeros 13:1-12
+12583,Micael,FATHER_OF,17184,Setur,person,Numeros 13:13-20
+36197,Beor,FATHER_OF,17243,Dice Balaam,person,Numeros 24:1-8
+11799,Fares,FATHER_OF,12693,Hezrón,person,Rut 4:16-22
+12693,Hezrón,FATHER_OF,35069,Ram,person,Rut 4:16-22
+13074,Hilcías,FATHER_OF,11792,Eliaquim,person,Isaias 22:15-21
+13068,Asaf,FATHER_OF,13056,Joa,person,Isaias 36:1-6
+36524,Jair,FATHER_OF,12538,Elhanán,person,1 Cronicas 20:5-8
+12763,Simea,BROTHER_OF,18663,David,person,1 Cronicas 20:5-8
+13666,Sarvia,FATHER_OF,36233,Joab,person,1 Cronicas 18:13-17
+36831,Talmai,FATHER_OF,12558,Maaca,person,1 Cronicas 3:1-10
+12926,Amiel,FATHER_OF,12925,Bet-súa,person,1 Cronicas 3:1-10
+12650,Jedutún,FATHER_OF,36381,Obed-edom,person,1 Cronicas 16:31-39
+36239,Dodo,FATHER_OF,12538,Elhanán,person,1 Cronicas 11:26-42
+12540,Iques,FATHER_OF,36253,Ira,person,1 Cronicas 11:26-42
+36262,Ribai,FATHER_OF,14186,Itai,person,1 Cronicas 11:26-42
+12554,Hagrai,FATHER_OF,36278,Mibhar,person,1 Cronicas 11:26-42
+12556,Siza,FATHER_OF,36302,Adina,place,1 Cronicas 11:26-42
+12537,Asael,BROTHER_OF,36233,Joab,person,1 Cronicas 11:26-42
+12558,Maaca,FATHER_OF,12557,Hanán,person,1 Cronicas 11:43-47
+36737,Simri,FATHER_OF,36312,Jediael,person,1 Cronicas 11:43-47
+12670,Nahas,FATHER_OF,12671,Hanún,person,1 Cronicas 19:1-5
+13077,Abisúa,FATHER_OF,13048,Buqui,person,1 Cronicas 6:1-18
+13048,Buqui,FATHER_OF,13105,Uzi,person,1 Cronicas 6:1-18
+13105,Uzi,FATHER_OF,13049,Zeraías,person,1 Cronicas 6:1-18
+13049,Zeraías,FATHER_OF,13226,Meraiot,people,1 Cronicas 6:1-18
+12732,Salum,FATHER_OF,13074,Hilcías,person,1 Cronicas 6:1-18
+18897,Samuel,FATHER_OF,19091,Joel,person,1 Cronicas 6:27-36
+36366,Amasai,FATHER_OF,13066,Mahat,person,1 Cronicas 6:27-36
+13058,Asir,FATHER_OF,13067,Tahat,person,1 Cronicas 6:37-48
+12763,Simea,FATHER_OF,13842,Berequías,person,1 Cronicas 6:37-48
+13069,Baasías,FATHER_OF,12583,Micael,person,1 Cronicas 6:37-48
+12498,Zera,FATHER_OF,13070,Etni,person,1 Cronicas 6:37-48
+37052,Abdi,FATHER_OF,13072,Quisi,person,1 Cronicas 6:37-48
+37055,Bani,FATHER_OF,13075,Amsi,person,1 Cronicas 6:37-48
+12843,Musi,FATHER_OF,36648,Mahli,person,1 Cronicas 6:37-48
+13842,Berequías,FATHER_OF,13068,Asaf,person,1 Cronicas 6:37-48
+12693,Hezrón,FATHER_OF,3580,Caleb,person,1 Cronicas 2:11-21
+12706,Asur,FATHER_OF,12707,Tecoa,person,1 Cronicas 2:22-30
+12735,Maresa,FATHER_OF,12525,Hebrón,person,1 Cronicas 2:31-42
+36536,Jada,BROTHER_OF,12714,Samai,person,1 Cronicas 2:31-42
+3580,Caleb,BROTHER_OF,12708,Jerameel,person,1 Cronicas 2:31-42
+36300,Zabad,FATHER_OF,12728,Eflal,person,1 Cronicas 2:31-42
+12728,Eflal,FATHER_OF,19422,Obed,person,1 Cronicas 2:31-42
+12539,Heles,FATHER_OF,12731,Elasa,person,1 Cronicas 2:31-42
+12731,Elasa,FATHER_OF,12720,Sismai,person,1 Cronicas 2:31-42
+12720,Sismai,FATHER_OF,12732,Salum,person,1 Cronicas 2:31-42
+36571,Raham,FATHER_OF,12738,Jorcoam,person,1 Cronicas 2:43-52
+12749,Saaf,FATHER_OF,12750,Madmana,person,1 Cronicas 2:43-52
+12751,Seva,FATHER_OF,12752,Macbena,place,1 Cronicas 2:43-52
+12737,Sema,FATHER_OF,36571,Raham,person,1 Cronicas 2:43-52
+12743,Harán,FATHER_OF,36575,Gazez,person,1 Cronicas 2:43-52
+406289,Aher,FATHER_OF,13119,Husim,person,1 Cronicas 7:8-14
+12701,Maquir,SPOUSE_OF,12558,Maaca,person,1 Cronicas 7:15-21
+13119,Husim,FATHER_OF,13182,Abitob,person,1 Cronicas 8:1-11
+12891,Miclot,FATHER_OF,12763,Simea,person,1 Cronicas 8:29-38
+13210,Joada,FATHER_OF,13082,Alemet,person,1 Cronicas 8:29-38
+483048,Mosa,FATHER_OF,13211,Bina,person,1 Cronicas 8:29-38
+12889,Zicri,FATHER_OF,35058,Eliezer,person,1 Cronicas 27:15-23
+36784,Kemuel,FATHER_OF,12867,Hasabías,person,1 Cronicas 27:15-23
+12583,Micael,FATHER_OF,36785,Omri,person,1 Cronicas 27:15-23
+36787,Azriel,FATHER_OF,12570,Jerimot,person,1 Cronicas 27:15-23
+12902,Quelub,FATHER_OF,36796,Ezri,people,1 Cronicas 27:24-30
+36800,Adlai,FATHER_OF,12904,Safat,person,1 Cronicas 27:24-30
+12530,Hacmoni,FATHER_OF,36310,Jehiel,person,1 Cronicas 27:31-34
+36785,Omri,FATHER_OF,13142,Amiud,person,1 Cronicas 9:1-8
+13223,Micri,FATHER_OF,13105,Uzi,person,1 Cronicas 9:1-8
+13142,Amiud,FATHER_OF,14826,Utai,person,1 Cronicas 9:1-8
+13105,Uzi,FATHER_OF,12506,Ela,person,1 Cronicas 9:1-8
+12938,Mesulam,FATHER_OF,13074,Hilcías,person,1 Cronicas 9:9-16
+13227,Pasur,FATHER_OF,36352,Jeroham,person,1 Cronicas 9:9-16
+13231,Mesilemit,FATHER_OF,12938,Mesulam,person,1 Cronicas 9:9-16
+12947,Azricam,FATHER_OF,13232,Hasub,place,1 Cronicas 9:9-16
+37265,Galal,FATHER_OF,12614,Semaías,person,1 Cronicas 9:9-16
+36352,Jeroham,FATHER_OF,13071,Adaía,person,1 Cronicas 9:9-16
+13232,Hasub,FATHER_OF,12614,Semaías,person,1 Cronicas 9:9-16
+12614,Semaías,FATHER_OF,12578,Obadías,person,1 Cronicas 9:9-16
+3504,Asa,FATHER_OF,13842,Berequías,person,1 Cronicas 9:9-16
+36310,Jehiel,FATHER_OF,13202,Gabaón,person,1 Cronicas 9:30-37
+12891,Miclot,FATHER_OF,13239,Simeam,person,1 Cronicas 9:38-44
+13241,Jara,FATHER_OF,13082,Alemet,person,1 Cronicas 9:38-44
+12737,Sema,FATHER_OF,36985,Azaz,person,1 Cronicas 5:1-8
+13034,Jaroa,FATHER_OF,36996,Huri,person,1 Cronicas 5:9-15
+12583,Micael,FATHER_OF,13035,Galaad,person,1 Cronicas 5:9-15
+36999,Jahdo,FATHER_OF,13036,Jesisai,person,1 Cronicas 5:9-15
+37002,Abdiel,FATHER_OF,12222,Ahí,person,1 Cronicas 5:9-15
+12446,Cus,FATHER_OF,28281,Nimrod,person,1 Cronicas 1:1-15
+11008,Canaán,FATHER_OF,8054,Sidón,place,1 Cronicas 1:1-15
+12498,Zera,FATHER_OF,36120,Jobab,person,1 Cronicas 1:41-48
+12508,Acbor,FATHER_OF,12509,Baal-hanán,person,1 Cronicas 1:49-54
+12483,Sobal,FATHER_OF,12953,Reaía,person,1 Cronicas 4:1-9
+12792,Jahat,FATHER_OF,36872,Ahumai,person,1 Cronicas 4:1-9
+557386,COS,FATHER_OF,36891,Anub,people,1 Cronicas 4:1-9
+12978,Isba,FATHER_OF,12979,Estemoa,person,1 Cronicas 4:10-17
+12902,Quelub,BROTHER_OF,15495,Súa,people,1 Cronicas 4:10-17
+12982,Jecutiel,FATHER_OF,12983,Zanoa,person,1 Cronicas 4:18-23
+12993,Laada,FATHER_OF,12735,Maresa,person,1 Cronicas 4:18-23
+13663,Lais,FATHER_OF,42475,Paltiel,person,2 Samuel 3:13-19
+12670,Nahas,FATHER_OF,14182,Sobi,person,2 Samuel 17:24-29
+12926,Amiel,FATHER_OF,12701,Maquir,person,2 Samuel 17:24-29
+12670,Nahas,FATHER_OF,36515,Abigail,person,2 Samuel 17:24-29
+13666,Sarvia,MOTHER_OF,36233,Joab,person,2 Samuel 17:24-29
+12670,Nahas,SISTER_OF,13666,Sarvia,person,2 Samuel 17:24-29
+37071,Rehob,FATHER_OF,14116,Hadar-ezer,person,2 Samuel 8:1-6
+12763,Simea,FATHER_OF,37993,Jonadab,person,2 Samuel 13:1-5
+13142,Amiud,FATHER_OF,36831,Talmai,person,2 Samuel 13:34-39
+13399,Barzilai,FATHER_OF,37631,Adriel,person,2 Samuel 21:6-9
+14252,Age,FATHER_OF,14251,Sama,person,2 Samuel 23:8-12
+12558,Maaca,FATHER_OF,38346,Ahasbai,person,2 Samuel 23:24-39
+37475,Baana,FATHER_OF,36260,Heleb,person,2 Samuel 23:24-39
+14261,Sarar,FATHER_OF,12550,Ahíam,person,2 Samuel 23:24-39
+12865,Matanías,FATHER_OF,36434,Jeiel,person,2 Cronicas 20:12-16
+13435,Silhi,FATHER_OF,12694,Azuba,place,2 Cronicas 20:27-33
+13802,Dodava,FATHER_OF,35058,Eliezer,person,2 Cronicas 20:34-37
+18663,David,FATHER_OF,12570,Jerimot,person,2 Cronicas 11:18-23
+12570,Jerimot,FATHER_OF,13760,Mahalat,person,2 Cronicas 11:18-23
+13282,Nabat,FATHER_OF,19086,Jeroboam,person,2 Cronicas 10:1-7
+13055,Zima,FATHER_OF,13056,Joa,person,2 Cronicas 29:8-12
+13056,Joa,FATHER_OF,18811,Edén,person,2 Cronicas 29:8-12
+13875,Azalía,FATHER_OF,13032,Safán,person,2 Cronicas 34:5-9
+13032,Safán,FATHER_OF,14039,Ahicam,place,2 Cronicas 34:14-20
+13880,Hasra,FATHER_OF,13879,Ticva,person,2 Cronicas 34:21-24
+13879,Ticva,FATHER_OF,12732,Salum,person,2 Cronicas 34:21-24
+13071,Adaía,FATHER_OF,17115,Maasías,person,2 Cronicas 23:1-5
+12889,Zicri,FATHER_OF,13813,Elisafat,person,2 Cronicas 23:1-5
+13819,Simrit,FATHER_OF,36368,Jozabad,person,2 Cronicas 24:23-26
+13843,Mesilemot,FATHER_OF,13842,Berequías,person,2 Cronicas 28:11-15
+13348,Ginat,FATHER_OF,37366,Tibni,person,1 Reyes 16:17-22
+12691,Jeter,FATHER_OF,30774,Amasa,person,1 Reyes 2:1-5
+12558,Maaca,FATHER_OF,13410,Aquis,person,1 Reyes 2:39-44
+19086,Jeroboam,SPOUSE_OF,13315,Entra,person,1 Reyes 14:6-10
+13330,Hezión,FATHER_OF,13329,Tabrimón,person,1 Reyes 15:16-32
+13143,Elisama,FATHER_OF,12862,Netanías,person,2 Reyes 25:23-26
+14041,Carea,FATHER_OF,12569,Johanán,person,2 Reyes 25:23-26
+13908,Recab,FATHER_OF,37993,Jonadab,person,2 Reyes 10:15-19
+13155,Somer,FATHER_OF,36368,Jozabad,person,2 Reyes 12:21
+38130,Haruz,FATHER_OF,14009,Mesulemet,person,2 Reyes 21:17-23
+12938,Mesulam,FATHER_OF,13875,Azalía,person,2 Reyes 22:1-5
+13071,Adaía,FATHER_OF,14014,Jedida,person,2 Reyes 22:1-5
+14031,Elnatán,FATHER_OF,14030,Nehusta,person,2 Reyes 24:7-13
+39300,Zohar,FATHER_OF,15345,Efrón,person,Génesis 25:1-9
+12743,Harán,FATHER_OF,19259,Lot,person,Génesis 11:18-28
+12743,Harán,FATHER_OF,15352,Milca,person,Génesis 11:29-32
+40102,Beeri,FATHER_OF,15379,Judit,person,Génesis 26:29-35
+34008,Hamor,FATHER_OF,15452,Siquem,person,Génesis 34:1-7
+3278,Abraham,SISTER_OF,12460,Nebaiot,person,Génesis 28:7-13
+12484,Zibeón,FATHER_OF,12485,Aná,person,Génesis 36:1-7
+12485,Aná,FATHER_OF,12513,Aholibama,person,Génesis 36:1-7
+40310,Mehujael,FATHER_OF,15517,Metusael,person,Génesis 4:15-21
+13053,Josadac,FATHER_OF,12816,Jesúa,person,Esdras 3:1-5
+36310,Jehiel,FATHER_OF,12817,Secanías,person,Esdras 10:1-5
+12818,Eliasib,FATHER_OF,12569,Johanán,person,Esdras 10:6-9
+13049,Zeraías,FATHER_OF,36725,Elioenai,people,Esdras 8:1-9
+36310,Jehiel,FATHER_OF,12578,Obadías,person,Esdras 8:1-9
+14824,Hacatán,FATHER_OF,12569,Johanán,person,Esdras 8:10-16
+12816,Jesúa,FATHER_OF,36368,Jozabad,person,Esdras 8:28-33
+17051,Mesezabeel,FATHER_OF,13842,Berequías,person,Nehemias 3:1-6
+37249,Imri,FATHER_OF,12999,Zacur,person,Nehemias 3:1-6
+13842,Berequías,FATHER_OF,12938,Mesulam,person,Nehemias 3:1-6
+17104,Besodías,FATHER_OF,12938,Mesulam,person,Nehemias 3:1-6
+17107,Harhaía,FATHER_OF,12609,Uziel,person,Nehemias 3:7-13
+17110,Hasabnías,FATHER_OF,17109,Hatús,place,Nehemias 3:7-13
+14743,Pahat-moab,FATHER_OF,13232,Hasub,people,Nehemias 3:7-13
+17111,Halohes,FATHER_OF,12732,Salum,person,Nehemias 3:7-13
+13908,Recab,FATHER_OF,17112,Muladar Malquías,person,Nehemias 3:14-18
+17035,Colhoze,FATHER_OF,12732,Salum,person,Nehemias 3:14-18
+12816,Jesúa,FATHER_OF,36169,Ezer,person,Nehemias 3:19-25
+39709,Henadad,FATHER_OF,14746,Binúi,person,Nehemias 3:19-25
+12817,Secanías,FATHER_OF,12614,Semaías,person,Nehemias 3:26-32
+42082,Joed,FATHER_OF,12938,Mesulam,person,Nehemias 11:6-13
+12815,Malquías,FATHER_OF,13227,Pasur,person,Nehemias 11:6-13
+17045,Azai,FATHER_OF,36348,Azareel,person,Nehemias 11:6-13
+14728,Imer,FATHER_OF,13843,Mesilemot,person,Nehemias 11:6-13
+12889,Zicri,FATHER_OF,19091,Joel,person,Nehemias 11:6-13
+36348,Azareel,FATHER_OF,36366,Amasai,person,Nehemias 11:6-13
+17047,Buni,FATHER_OF,12867,Hasabías,person,Nehemias 11:14-20
+37265,Galal,FATHER_OF,17177,Samúa,person,Nehemias 11:14-20
+17177,Samúa,FATHER_OF,37463,Abda,person,Nehemias 11:14-20
+12867,Hasabías,FATHER_OF,37055,Bani,person,Nehemias 11:21-27
+37055,Bani,FATHER_OF,13105,Uzi,person,Nehemias 11:21-27
+17051,Mesezabeel,FATHER_OF,12824,Petaías,person,Nehemias 11:21-27
+12816,Jesúa,FATHER_OF,17067,Joiacim,person,Nehemias 12:1-15
+17067,Joiacim,FATHER_OF,12818,Eliasib,person,Nehemias 12:1-15
+12818,Eliasib,FATHER_OF,42109,Joiada,person,Nehemias 12:1-15
+14766,Cadmiel,FATHER_OF,12816,Jesúa,person,Nehemias 12:16-25
+13068,Asaf,FATHER_OF,12999,Zacur,person,Nehemias 12:32-38
+36203,Mehetabel,FATHER_OF,14797,Delaía,person,Nehemias 6:7-12
+14797,Delaía,FATHER_OF,12614,Semaías,person,Nehemias 6:7-12
+37170,Ara,FATHER_OF,12817,Secanías,person,Nehemias 6:13-19
+12865,Matanías,FATHER_OF,12999,Zacur,person,Nehemias 13:12-15
+12999,Zacur,FATHER_OF,12557,Hanán,person,Nehemias 13:12-15
+18663,David,FATHER_OF,14698,Predicador,person,Eclesiastes 1:1-9
+31372,Joseph Knight Sr,SPOUSE_OF,32151,Polly Knight,person,en/manuals/institute/doctrine-and-covenants-student/chapter-22-doctrine-and-covenants-59-62.txt#0
+41944,Dibri,FATHER_OF,12798,Selomit,person,Levitico 24:9-15
+14728,Imer,FATHER_OF,13227,Pasur,person,Jeremias 20:1-5
+36499,Zabdi,FATHER_OF,36503,Carmi,person,Josue 7:1-5
+12515,Cenaz,BROTHER_OF,3580,Caleb,person,Josue 15:17-26
+36792,Iddo,FATHER_OF,13842,Berequías,person,Zacarias 1:1-6
+17500,Jaqué,FATHER_OF,42653,Agur,person,Proverbios 30:1-9
+36239,Dodo,FATHER_OF,16695,Fúa,person,Jueces 10:1-6
+16695,Fúa,FATHER_OF,16694,Israel Tola,person,Jueces 10:1-6
+13081,Hilén,FATHER_OF,16708,Israel Abdón,person,Jueces 12:6-13
+12732,Salum,FATHER_OF,17115,Maasías,person,Jeremias 35:1-6
+16083,Selemías,FATHER_OF,41094,Jucal,person,Jeremias 37:1-7
+16083,Selemías,FATHER_OF,16090,Irías,person,Jeremias 37:8-13
+13032,Safán,FATHER_OF,12731,Elasa,place,Jeremias 29:1-6
+12508,Acbor,FATHER_OF,14031,Elnatán,person,Jeremias 26:22-24
+16086,Hamelec,FATHER_OF,12815,Malquías,person,Jeremias 38:6-10
+16083,Selemías,FATHER_OF,12862,Netanías,person,Jeremias 36:11-16
+12614,Semaías,FATHER_OF,14797,Delaía,person,Jeremias 36:11-16
+12862,Netanías,FATHER_OF,16082,Jehudí,person,Jeremias 36:11-16
+16086,Hamelec,FATHER_OF,12708,Jerameel,person,Jeremias 36:24-29
+41090,Abdeel,FATHER_OF,16083,Selemías,person,Jeremias 36:24-29
+3251,Mosiah,FATHER_OF,3247,Aaron,person,bilingual-concept-bridge.json#0
+3247,Aaron,BROTHER_OF,3249,Moses,person,bilingual-concept-bridge.json#0
+3549,Jacob,FATHER_OF,18681,Enos,person,bilingual-concept-bridge.json#1
+3549,Jacob,FATHER_OF,11805,Enós,person,bilingual-concept-bridge.json#1
+3549,Jacob,FATHER_OF,18869,Gad,person,bilingual-concept-bridge.json#2
+3278,Abraham,FATHER_OF,18917,Ishmael,person,bilingual-concept-bridge.json#2
+19072,Lehi,FATHER_OF,3549,Jacob,person,bilingual-concept-bridge.json#3
+19075,Alphaeus,FATHER_OF,19073,James,person,bilingual-concept-bridge.json#3
+19076,Zebedee,FATHER_OF,19092,John,person,bilingual-concept-bridge.json#3
+19199,Laban,BROTHER_OF,19200,Rebekah,person,bilingual-concept-bridge.json#4
+19913,Zeniff,FATHER_OF,18866,Noah,person,bilingual-concept-bridge.json#7
+84138,Nancy Hanks,MOTHER_OF,58721,Abraham Lincoln,person,en/general-conference/199510/Seek First the Kingdom of God (Elder David B Haight).txt#3
+101390,Rex,SPOUSE_OF,84696,Phyllis Nielsen Reeve,person,"en/general-conference/200204/Statistical Report, 2001 (Presented by F Michael Watson).txt#0"
+24674,Spencer,SPOUSE_OF,143683,Avanelle Richards Osborn,person,"en/general-conference/200204/Statistical Report, 2001 (Presented by F Michael Watson).txt#0"
+19072,Lehi,SPOUSE_OF,19565,Sariah,person,en/general-conference/198210/Application of Welfare Principles in the Home A Key to Many Family Problems (Barbara B Smith).txt#4
+76388,George Washington,FATHER_OF,295952,Our Country,person,en/general-conference/197610/Our Priceless Heritage (President Ezra Taft Benson).txt#3
+3289,Adam,FATHER_OF,19574,Seth,person,en/general-conference/197210/Keep the Commandments (Elder Sterling W Sill).txt#2
+30365,Lamech,FATHER_OF,18866,Noah,person,en/general-conference/197810/A Basis for Faith in the Living God (President N Eldon Tanner).txt#1
+351244,Mrs,FATHER_OF,90521,Bob Brown,person,en/general-conference/197710/Seeing the Five A’s (Elder Marion D Hanks).txt#2
+19109,Jude,BROTHER_OF,19073,James,person,"en/general-conference/198704/“Some Have Compassion, Making a Difference” (Bishop Robert D Hales).txt#1"
+19073,James,SPOUSE_OF,339532,Cullimore,person,en/general-conference/197504/Statistical Report 1974 (Presented by Francis M Gibbons).txt#0
+3461,Hannah,MOTHER_OF,18897,Samuel,person,en/general-conference/197504/The People Who Influence Us (Elder William Grant Bangerter).txt#1
+95774,Henry Eddington,FATHER_OF,95773,Velma Holsinger,person,en/general-conference/199110/“And Now You Will Know” (Elder Joseph C Muren).txt#0
+19583,Hyrum Smith,SPOUSE_OF,48817,Mary Fielding Smith,person,en/general-conference/199610/Confirmed in Faith (Aileen H Clyde).txt#1
+18663,David,FATHER_OF,18661,Daniel,person,en/general-conference/198204/Sailing Safely the Seas of Life (Elder Thomas S Monson).txt#2
+63928,Edmond,FATHER_OF,63927,Tamma,person,es/general-conference/199504/La Búsqueda De Nuestra Identidad (J Brough).txt#3
+123872,Franklin Delano Roosevelt,SPOUSE_OF,71619,Eleanor Roosevelt,person,es/general-conference/199210/El Temor (Virginia H Pearce).txt#2
+84134,George Romney,SPOUSE_OF,84133,Lenore Romney,person,es/general-conference/199510/“Buscad Primeramente El Reino De Dios” (David B HaightOf the Quorum of the Twelve Apostles).txt#3
+697991,Una,SISTER_OF,231516,Africa,place,es/general-conference/199510/¿Cual Es La Función De La Sociedad De Socorro (Aileen H Clyde).txt#2
+84003,Nancy,MOTHER_OF,58637,Wendy,person,es/general-conference/199510/La Paciencia Una Virtud Celestial (Thomas S MonsonFirst Counselor in the First Presidency).txt#1
+19735,José,FATHER_OF,143368,Efrain,person,es/general-conference/199510/Las Bendiciones Del Sacerdocio (James E Faust).txt#4
+86725,Susanna Wesley,MOTHER_OF,86724,John Wesley,person,es/general-conference/201810/Tomar sobre nosotros el nombre de Jesucristo (el élder Robert C Gay).txt#4
+103921,Reid Burgess,FATHER_OF,8213,Eres,person,es/general-conference/200804/¿Sabes quién eres (Dean R BurgessFirst Counselor in the Young Men General Presidency).txt#0
+697991,Una,SISTER_OF,12332,España,place,es/general-conference/199410/Las Cosas Simples (Rex D Pinegar).txt#5
+3549,Jacob,FATHER_OF,72388,Young Joseph,person,en/general-conference/202010/God Will Do Something Unimaginable (Elder Dieter F Uchtdorf).txt#1
+75169,John Hatch,SPOUSE_OF,75168,Sandra Hatch,person,en/general-conference/201210/Becoming a True Disciple (Elder Daniel L Johnson).txt#0
+81211,Terri,SPOUSE_OF,81210,Joan Christensen,person,en/general-conference/200704/The Healing Power of Forgiveness (President James E Faust).txt#2
+19097,Joseph,FATHER_OF,18682,Ephraim,person,en/general-conference/199510/Priesthood Blessings (President James E Faust).txt#4
+103749,Carmen,MOTHER_OF,65223,Harriet,person,es/general-conference/200804/La fe de nuestro Padre (Dieter F UchtdorfSecond Counselor in the First Presidency).txt#3
+61398,Lisa,SISTER_OF,103749,Carmen,person,es/general-conference/200804/La fe de nuestro Padre (Dieter F UchtdorfSecond Counselor in the First Presidency).txt#3
+3289,Adam,FATHER_OF,3579,Cain,person,en/general-conference/201410/Guided Safely Home (President Thomas S Monson).txt#2
+71678,Willie,FATHER_OF,103893,Thomas Michael Wilson,person,en/general-conference/200804/Examples of Righteousness (President Thomas S Monson).txt#3
+178637,CHARLES,SPOUSE_OF,109226,Pioneer Sarah Rich,person,en/general-conference/200210/Tithing A Test of Faith with Eternal Blessings (Elder Robert D Hales).txt#0
+19871,Zacharias,SPOUSE_OF,18675,Elisabeth,person,en/general-conference/200210/Models to Follow (President Thomas S Monson).txt#0
+109300,Alfred Eugene Hemingway,FATHER_OF,109299,Stephen Hemingway,person,"en/general-conference/200210/Peace, Be Still (President Thomas S Monson).txt#4"
+19092,John,FATHER_OF,61216,Ann,person,en/general-conference/199704/Eternity Lies before Us (President James E Faust).txt#1
+30497,Hyrum,BROTHER_OF,19735,José,person,es/general-conference/202404/Integridad un atributo cristiano (el élder Jack N Gerard).txt#2
+66220,Fritz,SPOUSE_OF,66221,Joyce,person,es/general-conference/200110/El deber nos llama (S Monson).txt#4
+68579,Nicole,SISTER_OF,133291,Tiffany,person,es/general-conference/201310/Nunca caminamos solos (el presidente Thomas S Monson).txt#3
+133291,Tiffany,SISTER_OF,68579,Nicole,person,es/general-conference/201310/Nunca caminamos solos (el presidente Thomas S Monson).txt#3
+19735,José,SPOUSE_OF,48813,Emma,person,es/general-conference/201710/El testigo convincente de Dios El Libro de Mormón (Tad R Callister).txt#2
+71281,Ted,FATHER_OF,76548,Cooper,person,es/general-conference/201710/Amémonos unos a otros como Él nos ha amado (el élder José L Alonso).txt#0
+81209,Mac,FATHER_OF,85315,Steven,person,es/general-conference/200704/El poder sanador del perdón (James E FaustSecond Counselor in the First Presidency).txt#3
+5852,Cuando,FATHER_OF,83142,Helen Keller,person,es/general-conference/201610/“Permaneced en mi amor” (el élder D Todd ChristoffersonDel Cuórum de los Doce Apóstoles).txt#2
+19268,Thomas,SPOUSE_OF,19071,Misuri,person,es/general-conference/200910/Sé prudente… a tu alma gobernad (Thomas S MonsonPresident of the Church).txt#2
+178637,CHARLES,SPOUSE_OF,73078,Sarah Rich,person,es/general-conference/200210/El diezmo Una prueba de fe con bendiciones eternas (Robert D HalesOf the Quorum of the Twelve Apostles).txt#0
+106645,Fred Sudbury,FATHER_OF,82925,Craig,person,"es/general-conference/201304/Venid, los que tenéis de Dios el sacerdocio (el presidente Thomas S Monson).txt#3"
+697991,Una,SISTER_OF,14427,Etiopía,place,es/general-conference/200510/Instrumentos en las manos de Dios (James E FaustSecond Counselor in the First Presidency).txt#4
+35157,Jairus,FATHER_OF,141863,Jesus Raises,person,en/manuals/come-follow-me/2023/11.txt#1
+64768,Mary Whitmer,MOTHER_OF,31201,David Whitmer,person,en/manuals/come-follow-me/2025/08a-voices-of-the-restoration-witnesses.txt#1
+19097,Joseph,FATHER_OF,165048,Helen Mar Kimball,person,en/manuals/gospel-topics-essays/plural-marriage-in-kirtland-and-nauvoo.txt#3
+18681,Enos,FATHER_OF,19081,Jarom,person,en/manuals/institute/book-of-mormon-student/appendix-record.txt#0
+19081,Jarom,FATHER_OF,19426,Omni,person,en/manuals/institute/book-of-mormon-student/appendix-record.txt#0
+19426,Omni,FATHER_OF,29678,Amaron,person,en/manuals/institute/book-of-mormon-student/appendix-record.txt#0
+29679,Chemish,FATHER_OF,29680,Abinadom,person,en/manuals/institute/book-of-mormon-student/appendix-record.txt#0
+29679,Chemish,BROTHER_OF,29678,Amaron,person,en/manuals/institute/book-of-mormon-student/appendix-record.txt#0
+26061,Ammaron,BROTHER_OF,3416,Amos,person,en/manuals/institute/book-of-mormon-student/appendix-record.txt#1
+25343,Elohim,FATHER_OF,18644,Jesus Christ,concept,en/manuals/institute/book-of-mormon-student/chapter-20-mosiah-9-17.txt#6
+88482,Freeman Nickerson,FATHER_OF,281492,Moses Nickerson,person,en/manuals/institute/doctrine-and-covenants-student/chapter-38-doctrine-and-covenants-98-100.txt#12
+31362,Peter Whitmer Sr,SPOUSE_OF,64768,Mary Whitmer,person,en/manuals/institute/doctrine-and-covenants-student/chapter-4-doctrine-and-covenants-5-17.txt#9
+186973,President Russell,SPOUSE_OF,55877,Nelson,person,en/manuals/institute/eternal-family/lesson-13-class-preparation-material.txt#2
+19073,James,BROTHER_OF,18645,Jesus,person,en/manuals/institute/new-testament-teacher/47.txt#0
+207304,Hiram Kimball,SPOUSE_OF,105667,Sarah Granger Kimball,person,en/manuals/our-heritage/chapter-five.txt#4
+30781,Joseph Young,BROTHER_OF,19870,Brigham Young,person,en/manuals/our-heritage/chapter-four.txt#9
+207619,Phinehas Young,BROTHER_OF,19870,Brigham Young,people,en/manuals/our-heritage/chapter-two.txt#4
+55773,Rhoda Young,SISTER_OF,19870,Brigham Young,person,en/manuals/our-heritage/chapter-two.txt#4
+30740,George,FATHER_OF,216416,Abraham Cannon,person,en/manuals/saints/vol-2/40-the-right-thing.txt#0
+19870,Brigham Young,FATHER_OF,216589,Joseph Don Carlos Young,person,en/manuals/saints/vol-2/42-inspiration-at-the-divine-fountain.txt#2
+20135,Relief Society,FATHER_OF,292639,Zina Presendia Card,organization,en/manuals/saints/vol-3/06-our-wish-and-our-mission.txt#4
+30740,George,FATHER_OF,219630,Frank Cannon,person,en/manuals/saints/vol-3/09-struggle-and-fight.txt#3
+83519,Arnold Friberg,BROTHER_OF,792244,Jared Sees,person,en/manuals/saints/vol-3/35-we-cannot-fail.txt#12
+29722,Martin Harris,SPOUSE_OF,129298,Lucy Harris,person,en/manuals/seminary/doctrine-and-covenants-teacher/053-doctrine-and-covenants-5.txt#0
+219892,Jesusita,MOTHER_OF,19631,Rafael,person,es/manuals/saints/vol-3/11-too-heavy.txt#5
+155142,President Wilford Woodruff,SPOUSE_OF,133621,Phebe Woodruff,person,en/manuals/seminary/doctrine-and-covenants-teacher/453-doctrine-and-covenants-132-1-2-34-66.txt#2
+19106,Judah,FATHER_OF,36504,Achan,person,en/reference/smith-bible-dictionary/C.txt#9
+36312,Jediael,FATHER_OF,36183,Bilhan,person,en/reference/smith-bible-dictionary/C.txt#15
+244779,Emma Robbins Riggs,MOTHER_OF,244458,Emma Ray Riggs,person,en/manuals/teachings-of-presidents/david-o-mckay/the-life-and-ministry-of-david-o-mckay.txt#3
+404135,Agrippina,MOTHER_OF,44344,Nero,place,en/reference/smith-bible-dictionary/C.txt#24
+246712,Samuel Marion,FATHER_OF,584821,Idaho,person,en/manuals/teachings-of-presidents/harold-b-lee/the-ministry-of-harold-b-lee.txt#0
+36417,Shemaiah,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/O.txt#0
+36456,Jeduthun,FATHER_OF,36381,Obed-edom,person,en/reference/smith-bible-dictionary/O.txt#2
+406572,Asherite,FATHER_OF,42226,Pagiel,person,en/reference/smith-bible-dictionary/O.txt#2
+36163,Seir,FATHER_OF,36165,Shobal,person,en/reference/smith-bible-dictionary/O.txt#13
+386631,Potipherah,FATHER_OF,40325,Asenath,person,en/reference/smith-bible-dictionary/O.txt#13
+292531,President John Taylor,FATHER_OF,248067,Ezra Oakley Taylor,person,en/manuals/teachings-of-presidents/john-taylor/the-life-and-ministry-of-john-taylor.txt#11
+35430,Zerah,FATHER_OF,509795,Jobah,person,en/reference/hastings-dictionary-of-the-bible/B.txt#86
+20145,Righteousness,FATHER_OF,34485,Hail,concept,en/music/hymns/hark-the-herald-angels-sing.txt#0
+256249,Syria Philip,BROTHER_OF,418627,SELEUCUS,person,en/study-aids/bible-chronology/old-testament.txt#7
+55881,Lucy Mack Smith,MOTHER_OF,19735,José,person,es/manuals/come-follow-me/2021/08.txt#2
+387740,PETER WHITMER,SPOUSE_OF,64768,Mary Whitmer,person,es/manuals/institute/doctrine-and-covenants-student/chapter-4-doctrine-and-covenants-5-17.txt#9
+534315,JOHN SMITH,FATHER_OF,18668,Eden,person,es/manuals/institute/doctrine-and-covenants-student/chapter-29-doctrine-and-covenants-77-80.txt#14
+18987,Martin,SPOUSE_OF,43297,Lucy,person,es/manuals/institute/doctrine-and-covenants-student/chapter-3-doctrine-and-covenants-3-10.txt#1
+19870,Brigham Young,FATHER_OF,19092,John,person,es/manuals/our-heritage/chapter-six.txt#2
+43320,Isaac Hale,FATHER_OF,48813,Emma,person,es/manuals/our-heritage/chapter-two.txt#1
+289383,Phinheas Young,BROTHER_OF,19870,Brigham Young,person,es/manuals/our-heritage/chapter-two.txt#4
+457998,Con,FATHER_OF,48813,Emma,person,es/manuals/saints/vol-1/05-all-is-lost.txt#1
+18897,Samuel,BROTHER_OF,19735,José,person,es/manuals/saints/vol-1/06-the-gift-and-power-of-god.txt#3
+9595,Fayette,MOTHER_OF,18663,David,person,es/manuals/saints/vol-1/07-fellow-servants.txt#2
+19563,Sarah,SISTER_OF,35964,Phebe,person,es/manuals/saints/vol-1/27-we-proclaim-ourselves-free.txt#6
+33637,Lydia,SISTER_OF,3289,Adam,person,es/manuals/saints/vol-1/30-fight-like-angels.txt#2
+19092,John,SPOUSE_OF,58578,Leonora,person,es/manuals/saints/vol-1/34-build-up-a-city.txt#2
+35552,PARLEY,SPOUSE_OF,209514,Mary Ann Pratt,person,es/manuals/saints/vol-1/34-build-up-a-city.txt#2
+211533,Dwight Webster,SISTER_OF,55549,Wilford,person,es/manuals/saints/vol-2/02-glory-enough.txt#4
+211674,Lorenzo,SPOUSE_OF,211673,Harriet Young,person,es/manuals/saints/vol-2/03-word-and-will-of-the-lord.txt#9
+19870,Brigham Young,FATHER_OF,19097,Joseph,person,es/manuals/saints/vol-2/15-in-storms-and-in-calms.txt#3
+43297,Lucy,MOTHER_OF,112984,Susie,person,es/manuals/saints/vol-2/28-until-the-coming-of-the-son-of-man.txt#9
+57205,Dora,SISTER_OF,112984,Susie,person,es/manuals/saints/vol-2/29-to-die-in-the-harness.txt#5
+19735,José,FATHER_OF,103749,Carmen,person,es/manuals/saints/vol-2/32-stand-up-and-take-the-pelting.txt#1
+141755,Eliza,SISTER_OF,18663,David,person,es/manuals/saints/vol-2/33-until-the-storm-blows-past.txt#4
+3461,Hannah,FATHER_OF,55736,Lewis,person,es/manuals/saints/vol-2/35-a-day-of-trial.txt#2
+3448,Anna,MOTHER_OF,19092,John,person,es/manuals/saints/vol-2/41-so-long-submerged.txt#3
+216850,Lucy Young,MOTHER_OF,47141,Susa,person,es/manuals/saints/vol-2/44-blessed-peace.txt#1
+47141,Susa,SPOUSE_OF,3549,Jacob,person,es/manuals/saints/vol-2/44-blessed-peace.txt#1
+149545,Como,MOTHER_OF,19210,Leah,person,es/manuals/saints/vol-3/04-a-great-amount-of-good.txt#6
+19210,Leah,MOTHER_OF,19092,John,person,es/manuals/saints/vol-3/08-the-rock-of-revelation.txt#0
+109020,Ida,SPOUSE_OF,20724,Salt Lake City,person,es/manuals/saints/vol-3/11-too-heavy.txt#2
+18676,Elizabeth,FATHER_OF,220270,Betty McCune,person,es/manuals/saints/vol-3/13-heirs-of-salvation.txt#1
+220677,Ernst,BROTHER_OF,3448,Anna,person,es/manuals/saints/vol-3/16-written-in-heaven.txt#7
+5852,Cuando,MOTHER_OF,114024,Connie,person,es/manuals/saints/vol-3/23-all-that-is-necessary.txt#0
+221717,Judy,SISTER_OF,19494,Paul,person,es/manuals/saints/vol-3/24-the-aim-of-the-church.txt#8
+84120,Clara,SPOUSE_OF,221563,William Daniels,person,es/manuals/saints/vol-3/37-with-real-intent.txt#5
+66298,Henry,BROTHER_OF,221135,Helga,person,es/manuals/saints/vol-3/38-more-power-more-light.txt#3
+19092,John,SPOUSE_OF,60944,Barbara,person,es/manuals/saints/vol-4/07-children-of-the-same-god.txt#8
+135725,Matilda,MOTHER_OF,102340,Billy,person,es/manuals/saints/vol-4/13-an-undying-knowledge.txt#7
+384995,Cabo,FATHER_OF,61517,Alice,place,es/manuals/saints/vol-4/26-i-want-to-serve.txt#4
+125621,Afortunadamente,FATHER_OF,211445,Willy,person,es/manuals/saints/vol-4/28-the-lords-path.txt#7
+176512,WILLIAM,BROTHER_OF,19735,José,person,es/manuals/seminary/doctrine-and-covenants-teacher/481-doctrine-and-covenants-137.txt#0
+145583,Recientemente,FATHER_OF,311530,Miqueas,person,es/manuals/seminary/new-testament-student/romans-12-15.txt#0
+244462,Riggs,FATHER_OF,223534,Emma Ray,person,es/manuals/teachings-of-presidents/david-o-mckay/chapter-14.txt#0
+310951,Sarah Farr,FATHER_OF,57399,George Albert Smith,person,es/manuals/teachings-of-presidents/george-albert-smith/life-and-ministry.txt#0
+113464,Ada,MOTHER_OF,73176,Gordon,person,es/manuals/teachings-of-presidents/gordon-b-hinckley/chapter-5-daughters-of-god.txt#0
+73176,Gordon,FATHER_OF,64184,Richard,person,es/manuals/teachings-of-presidents/gordon-b-hinckley/the-life-and-ministry-of-gordon-b-hinckley.txt#12
+30497,Hyrum,FATHER_OF,19097,Joseph,person,es/manuals/teachings-of-presidents/joseph-f-smith/the-ministry-of-joseph-f-smith.txt#1
+30497,Hyrum,SPOUSE_OF,48817,Mary Fielding Smith,person,es/manuals/teachings-of-presidents/joseph-fielding-smith/chapter-7-joseph-and-hyrum-smith-witnesses-for-christ.txt#0
+218947,Julina Lambson Smith,MOTHER_OF,55887,Joseph Fielding Smith,person,es/manuals/teachings-of-presidents/joseph-fielding-smith/the-life-and-ministry-of-joseph-fielding-smith.txt#1
+249060,Lewis Shurtliff,FATHER_OF,89981,Louie,person,es/manuals/teachings-of-presidents/joseph-fielding-smith/the-life-and-ministry-of-joseph-fielding-smith.txt#6
+5852,Cuando,FATHER_OF,19097,Joseph,person,es/manuals/teachings-of-presidents/joseph-fielding-smith/the-life-and-ministry-of-joseph-fielding-smith.txt#9
+117822,Patrick,SISTER_OF,19097,Joseph,person,es/manuals/teachings-of-presidents/joseph-fielding-smith/the-life-and-ministry-of-joseph-fielding-smith.txt#11
+106280,Gracias,FATHER_OF,73176,Gordon,person,es/manuals/teachings-of-presidents/thomas-s-monson/chapter-22-the-marvelous-virtue-of-gratitude.txt#4
+314734,Esaí,FATHER_OF,18663,David,person,es/manuals/teachings-of-presidents/wilford-woodruff/chapter-10.txt#1
+252544,Aphek Woodruff,FATHER_OF,174956,CONNECTICUT,person,es/manuals/teachings-of-presidents/wilford-woodruff/the-life-and-ministry-of-wilford-woodruff.txt#0
+18663,David,FATHER_OF,88165,Being,person,en/manuals/scripture-helps/50-revelation-1-5.txt#6
+18896,Ham,SPOUSE_OF,18171,Egyptus,person,en/manuals/scripture-helps/07-genesis-12-17-abraham-1-2.txt#4
+18676,Elizabeth,MOTHER_OF,19092,John,person,en/manuals/scripture-helps/006-the-gospels.txt#2
+18904,Herod,FATHER_OF,27544,Antipas,person,en/manuals/scripture-helps/11-matthew-9-10-mark-5-luke-9.txt#4
+35157,Jairus,FATHER_OF,328096,Jesus Healing,person,en/manuals/scripture-helps/11-matthew-9-10-mark-5-luke-9.txt#5
+18663,David,FATHER_OF,156560,Ser,person,es/manuals/scripture-helps/50-revelation-1-5.txt#6
+18387,Herodes Agripa,FATHER_OF,569407,Era,person,es/manuals/scripture-helps/32-acts-22-28.txt#0
+19735,José,FATHER_OF,569407,Era,person,es/manuals/scripture-helps/30-acts-10-15.txt#4
+251483,Susa Young Gates,FATHER_OF,19210,Leah,person,en/manuals/church-history-topics/john-and-leah-widtsoe.txt#0
+340502,Phoebe Angell,MOTHER_OF,19870,Brigham Young,person,en/manuals/church-history-topics/pioneer-women-and-medicine.txt#0
+261358,Newel,FATHER_OF,215169,Emmeline,person,en/manuals/church-history-topics/emmeline-b-wells.txt#0
+30740,George,SPOUSE_OF,196868,Lucinda Harris,person,en/manuals/revelations-in-context/the-faith-and-fall-of-thomas-marsh.txt#3
+165491,Ferguson,FATHER_OF,347734,Catherine Heathen,person,en/manuals/at-the-pulpit/chapter-16.txt#1
+146012,Phineas Young,BROTHER_OF,380753,Rhoda Young Greene,person,en/manuals/at-the-pulpit/chapter-5.txt#8
+291220,Lorenzo Dow Young,BROTHER_OF,19870,Brigham Young,person,en/manuals/first-fifty-years-rs/3-5.txt#2
+354193,Sarah Ann Libby Smith,FATHER_OF,207414,John Henry,person,en/manuals/first-fifty-years-rs/2-4.txt#0
+19563,Sarah,FATHER_OF,354612,Augusta Cleveland,person,en/manuals/first-fifty-years-rs/1-7.txt#1
+59317,Robert,FATHER_OF,357154,William Douglas,person,en/manuals/first-fifty-years-rs/1-11.txt#5
+357148,James Smithies,SPOUSE_OF,357147,Nancy Ann Knowles Smithies,person,en/manuals/first-fifty-years-rs/1-11.txt#5
+523755,THOMAS CAMPBELL,FATHER_OF,151786,Disciples,person,en/manuals/jsp-revelations/dc-022-1830_04_16_000_07.txt#0
+19088,Jethro,FATHER_OF,19883,Zipporah,person,en/manuals/jsp-revelations/dc-132-1843_07_12_000.txt#25
+351392,Margaret Moon,SISTER_OF,87446,Clayton,person,en/manuals/jsp-revelations/dc-131-1843_05_16_000.txt#5
+84363,Jean,FATHER_OF,59153,Gérald Caussé,person,en/manuals/global-histories/fr-06-building-a-temple-in-france.txt#0
+61009,Swedish,FATHER_OF,56802,Renlund,people,en/manuals/global-histories/se-chronology.txt#2
+363663,Karori,MOTHER_OF,363650,Thomas Holder,person,en/manuals/global-histories/nz-chronology.txt#0
+19549,Ruth,FATHER_OF,370972,Mercy Opar,person,en/manuals/global-histories/rw-01-the-gathering-of-saints-in-rwanda.txt#0
+737001,Sheets,SPOUSE_OF,56945,Kathy,person,es/manuals/church-history-topics/hofmann-forgeries.txt#1
+61271,Amy,SPOUSE_OF,6870,Socorro,person,es/manuals/church-history-topics/amy-brown-lyman.txt#1
+340502,Phoebe Angell,MOTHER_OF,595920,MARY ANN ANGELL,person,es/manuals/church-history-topics/pioneer-women-and-medicine.txt#0
+19870,Brigham Young,SPOUSE_OF,595920,MARY ANN ANGELL,person,es/manuals/church-history-topics/pioneer-women-and-medicine.txt#0
+5852,Cuando,FATHER_OF,208928,Fanny,person,es/manuals/church-history-topics/fanny-alger.txt#0
+19735,José,FATHER_OF,112958,Joseph III,person,es/manuals/church-history-topics/liberty-jail.txt#0
+530150,JANE,FATHER_OF,33263,Silas,person,es/manuals/church-history-topics/jane-elizabeth-manning-james.txt#0
+67829,Samuel Harrison Smith,BROTHER_OF,19735,José,person,es/manuals/church-history-topics/early-missionaries.txt#0
+65579,Caroline,SISTER_OF,74193,Louisa,person,es/manuals/church-history-topics/louisa-barnes-pratt.txt#0
+19735,José,SPOUSE_OF,30909,Emma Smith,person,es/manuals/revelations-in-context/mercy-thompson-and-the-revelation-on-marriage.txt#10
+636198,JOSEPH KNIGHT,SPOUSE_OF,261230,Polly,person,es/manuals/revelations-in-context/the-journey-of-the-colesville-branch.txt#2
+345633,Elizabeth Hale Wasson,SISTER_OF,48813,Emma,person,es/manuals/revelations-in-context/thou-art-an-elect-lady.txt#2
+697991,Una,MOTHER_OF,225329,Tonga,place,es/manuals/daughters-in-my-kingdom/guardians-of-the-hearth-establishing-nurturing-and-defending-the-family.txt#13
+697991,Una,SISTER_OF,363404,Ghana,place,es/manuals/daughters-in-my-kingdom/guardians-of-the-hearth-establishing-nurturing-and-defending-the-family.txt#13
+697991,Una,MOTHER_OF,127533,Brasil,place,es/manuals/daughters-in-my-kingdom/guardians-of-the-hearth-establishing-nurturing-and-defending-the-family.txt#14
+346003,Theresa,FATHER_OF,379501,Athelia Call Sears,person,es/manuals/daughters-in-my-kingdom/live-up-to-your-privilege.txt#3
+697991,Una,SISTER_OF,129013,Tooele,place,es/manuals/daughters-in-my-kingdom/charity-never-faileth.txt#2
+387740,PETER WHITMER,FATHER_OF,341269,Elizabeth Ann Whitmer,person,es/manuals/dc-historical-resources/bio-oliver-cowdery.txt#0
+387740,PETER WHITMER,FATHER_OF,187849,Catherine Whitmer,person,es/manuals/dc-historical-resources/bio-hiram-page.txt#0
+19097,Joseph,FATHER_OF,390002,VERMONT,person,es/manuals/dc-historical-resources/chronology.txt#0
+470377,Judahite,FATHER_OF,36504,Achan,person,en/reference/hastings-dictionary-of-the-bible/C.txt#37
+348206,Amelia Althea Stevens,SISTER_OF,211613,Barney,person,es/manuals/at-the-pulpit/chapter-20.txt#2
+18897,Samuel,BROTHER_OF,176512,WILLIAM,person,es/manuals/at-the-pulpit/chapter-5.txt#8
+211654,William Hendricks,FATHER_OF,348571,Martha Hendricks Aylworth,person,es/manuals/at-the-pulpit/chapter-13.txt#3
+697991,Una,SISTER_OF,129057,Perú,place,es/manuals/at-the-pulpit/chapter-45.txt#6
+36163,Seir,FATHER_OF,36168,Dishon,person,en/reference/hastings-dictionary-of-the-bible/C.txt#50
+19073,James,BROTHER_OF,104442,Burnett,person,es/manuals/global-histories/nz-01-of-greater-worth-than-gold.txt#0
+5852,Cuando,FATHER_OF,382796,Ret,person,es/manuals/global-histories/us-02-go-to-work.txt#0
+65223,Harriet,SPOUSE_OF,19268,Thomas,person,es/manuals/global-histories/us-02-go-to-work.txt#0
+382757,Juana Vega García,MOTHER_OF,365971,Jesús Gómez,person,es/manuals/global-histories/es-02-out-of-darkness-into-light.txt#0
+19494,Paul,SPOUSE_OF,367916,Elsa Langheinrich,person,es/manuals/global-histories/de-03-finding-refuge.txt#0
+86575,Norma,SISTER_OF,58934,Betty,person,es/manuals/global-histories/es-01-the-timing-of-the-lord.txt#0
+385453,Tiiu,MOTHER_OF,30004,Sidney,person,es/manuals/global-histories/ee-02-the-book-of-mormon-in-estonian.txt#0
+19735,José,SPOUSE_OF,385622,Haydée,person,es/manuals/global-histories/uy-01-becoming-a-center.txt#0
+385692,María Burk,SPOUSE_OF,374236,Ural Morris Burk,person,es/manuals/global-histories/pr-01-building-a-home-for-the-church.txt#0
+384952,August Fischer,BROTHER_OF,221027,Friedrich,person,es/manuals/global-histories/pl-01-the-branch-that-wouldnt-die.txt#0
+375255,Aivar Lembit,BROTHER_OF,386106,Enn,person,es/manuals/global-histories/ee-01-deep-feelings-of-peace.txt#0
+18663,David,SPOUSE_OF,375295,Eloisa,person,es/manuals/global-histories/ph-01-the-lord-is-smiling-on-the-philippines.txt#0
+59860,Joe,BROTHER_OF,104121,Lizzie,person,es/manuals/global-histories/xs-02-granny-mckenzie.txt#0
+3512,Asher,FATHER_OF,19564,Serah,person,en/web/women-in-the-scriptures/list-of-all-women-in-old-testament.txt#1
+18683,Esau,SPOUSE_OF,40238,Adah,person,en/web/women-in-the-scriptures/list-of-all-women-in-old-testament.txt#1
+18663,David,FATHER_OF,35431,Tamar,person,en/web/women-in-the-scriptures/list-of-all-women-in-old-testament.txt#2
+36830,Absalom,FATHER_OF,35431,Tamar,person,en/web/women-in-the-scriptures/list-of-all-women-in-old-testament.txt#2
+35171,Chuza,SPOUSE_OF,35009,Joanna,person,en/web/women-in-the-scriptures/list-of-all-women-in-new-testament.txt#0
+18171,Egyptus,FATHER_OF,19499,Pharaoh,person,en/web/women-in-the-scriptures/egyptus.txt#3
+3419,Ananias,SPOUSE_OF,33943,Sapphira,person,en/web/women-in-the-scriptures/sapphira.txt#0
+3278,Abraham,FATHER_OF,24294,Midian,person,en/web/women-in-the-scriptures/moses-ethiopian-wife.txt#1
+387279,Pudens Claudia Rufina,SPOUSE_OF,387278,Been Claudia Rufina,people,en/web/women-in-the-scriptures/claudia.txt#1
+3278,Abraham,SPOUSE_OF,19563,Sarah,person,en/web/women-in-the-scriptures/bilhah-and-zilpahs-birth-stories-old.txt#0
+19499,Pharaoh,FATHER_OF,387410,Bathia,person,en/web/women-in-the-scriptures/miriam-prophetess-and-leader-of-women.txt#1
+3301,Ahab,FATHER_OF,37226,Athaliah,person,en/web/women-in-the-scriptures/athaliah.txt#0
+3519,Gilead,FATHER_OF,36272,Hepher,person,en/web/women-in-the-scriptures/daughters-of-zelophehad-mahlah-noah.txt#0
+36527,Machir,SPOUSE_OF,36741,Shuppim,person,en/web/women-in-the-scriptures/daughters-of-zelophehad-mahlah-noah.txt#0
+387614,The New Testament Elizabeth,MOTHER_OF,19092,John,people,en/web/women-in-the-scriptures/elisheba-and-daughters-of-aaron.txt#2
+3419,Ananias,SPOUSE_OF,392128,Sapphira Beautiful,person,en/reference/easton-bible-dictionary/S.txt#17
+392321,Serug Branch,FATHER_OF,35072,Nahor,person,en/reference/easton-bible-dictionary/S.txt#36
+36788,Pedaiah,BROTHER_OF,19879,Zerubbabel,person,en/reference/easton-bible-dictionary/S.txt#50
+392546,Amarpel,FATHER_OF,392545,Khammurabi,person,en/reference/easton-bible-dictionary/S.txt#51
+36486,Nahash,FATHER_OF,392571,Shobi Captor,person,en/reference/easton-bible-dictionary/S.txt#52
+36441,Shebaniah,FATHER_OF,18895,Haggai,person,en/reference/easton-bible-dictionary/S.txt#55
+393085,Kenez,FATHER_OF,36907,Jephunneh,person,en/reference/easton-bible-dictionary/C.txt#5
+666539,Nabopolassar,FATHER_OF,19412,Nebuchadnezzar,person,en/reference/easton-bible-dictionary/C.txt#18
+35072,Nahor,FATHER_OF,393436,Chesed Gain,person,en/reference/easton-bible-dictionary/C.txt#36
+33691,Gallio,BROTHER_OF,30848,Seneca,person,en/reference/easton-bible-dictionary/C.txt#67
+393846,Lagus,FATHER_OF,45762,Ptolemy,people,en/reference/easton-bible-dictionary/C.txt#85
+18659,Cyrus,FATHER_OF,425840,Cambyses,person,en/reference/easton-bible-dictionary/C.txt#86
+36150,Eliphaz,FATHER_OF,393909,Omar Eloquent,person,en/reference/easton-bible-dictionary/O.txt#5
+394086,Paruah Flourishing,FATHER_OF,19082,Jehoshaphat,person,en/reference/easton-bible-dictionary/P.txt#9
+415201,Hystaspes,FATHER_OF,18662,Darius,person,en/reference/easton-bible-dictionary/P.txt#28
+37122,Hammoleketh,SISTER_OF,3519,Gilead,person,en/reference/easton-bible-dictionary/A.txt#6
+19540,Rehoboam,FATHER_OF,19106,Judah,person,en/reference/easton-bible-dictionary/A.txt#9
+394897,Abiramu,FATHER_OF,36083,Amorite,people,en/reference/easton-bible-dictionary/A.txt#15
+35072,Nahor,FATHER_OF,19200,Rebekah,person,en/reference/easton-bible-dictionary/A.txt#17
+395045,Agee Fugitive,FATHER_OF,36162,Shammah,person,en/reference/easton-bible-dictionary/A.txt#33
+36150,Eliphaz,FATHER_OF,37602,Amalek,person,en/reference/easton-bible-dictionary/A.txt#50
+18898,Hebron,FATHER_OF,51012,Levite,person,en/reference/easton-bible-dictionary/A.txt#50
+36345,Elkanah,FATHER_OF,51012,Levite,person,en/reference/easton-bible-dictionary/A.txt#51
+36738,Hilkiah,FATHER_OF,51012,Levite,person,en/reference/easton-bible-dictionary/A.txt#51
+395241,Amittai True,FATHER_OF,19094,Jonah,person,en/reference/easton-bible-dictionary/A.txt#53
+19259,Lot,FATHER_OF,39948,Ben-ammi,person,en/reference/easton-bible-dictionary/A.txt#54
+19259,Lot,FATHER_OF,3399,Ammon,person,en/reference/easton-bible-dictionary/A.txt#54
+758134,Almighty,FATHER_OF,36329,Ahiezer,concept,en/reference/easton-bible-dictionary/A.txt#54
+395372,Herod-Philip,SPOUSE_OF,18905,Herodias,person,en/reference/easton-bible-dictionary/A.txt#77
+19097,Joseph,SPOUSE_OF,485260,HELIOPOLIS,person,en/reference/easton-bible-dictionary/A.txt#84
+38103,Esarhaddon,FATHER_OF,395601,Assur-bani-pal,person,en/reference/easton-bible-dictionary/A.txt#91
+497297,Antiochus ii,SPOUSE_OF,443454,Laodice,concept,en/reference/easton-bible-dictionary/L.txt#3
+19213,Levi,FATHER_OF,36415,Gershon,person,en/reference/easton-bible-dictionary/L.txt#13
+37237,Binea,FATHER_OF,44116,Benjamite,person,en/reference/easton-bible-dictionary/R.txt#6
+37313,Eliadah,FATHER_OF,396187,Rezon Prince,person,en/reference/easton-bible-dictionary/R.txt#21
+19581,Simon,FATHER_OF,396272,Rufus Red,person,en/reference/easton-bible-dictionary/R.txt#28
+3532,Bathsheba,SPOUSE_OF,442679,Hittite,person,en/reference/easton-bible-dictionary/U.txt#2
+36163,Seir,FATHER_OF,36169,Ezer,person,en/reference/easton-bible-dictionary/J.txt#0
+36849,Meshullam,FATHER_OF,396553,Jahzerah Returner,person,en/reference/easton-bible-dictionary/J.txt#7
+44116,Benjamite,FATHER_OF,38968,Mordecai,person,en/reference/easton-bible-dictionary/J.txt#7
+396558,Jakeh Pious,FATHER_OF,42653,Agur,person,en/reference/easton-bible-dictionary/J.txt#8
+36498,Hezron,BROTHER_OF,3580,Caleb,person,en/reference/easton-bible-dictionary/J.txt#24
+19412,Nebuchadnezzar,FATHER_OF,38168,Evil-merodach,person,en/reference/easton-bible-dictionary/J.txt#26
+396816,Kohathite Levite,FATHER_OF,35434,Joram,person,en/reference/easton-bible-dictionary/J.txt#34
+37369,Ethbaal,FATHER_OF,396855,Jezebel Chaste,person,en/reference/easton-bible-dictionary/J.txt#38
+38002,Jehoash,FATHER_OF,18876,Gideon,person,en/reference/easton-bible-dictionary/J.txt#41
+3549,Jacob,FATHER_OF,19106,Judah,person,en/reference/easton-bible-dictionary/J.txt#63
+39743,Ebed,FATHER_OF,397101,Gaal Loathing,person,en/reference/easton-bible-dictionary/G.txt#0
+19330,Nathan,FATHER_OF,397549,Zabud Gift,person,en/reference/easton-bible-dictionary/Z.txt#0
+19105,Josiah,SPOUSE_OF,397605,Zebudah Given,person,en/reference/easton-bible-dictionary/Z.txt#5
+397656,Zeruah Stricken,MOTHER_OF,19086,Jeroboam,person,en/reference/easton-bible-dictionary/Z.txt#11
+38983,Haman,SPOUSE_OF,372384,Venus,person,en/reference/easton-bible-dictionary/Z.txt#11
+36418,Uzziel,FATHER_OF,51012,Levite,person,en/reference/easton-bible-dictionary/Z.txt#14
+758134,Almighty,FATHER_OF,42221,Shelumiel,concept,en/reference/easton-bible-dictionary/Z.txt#16
+43637,Herod Agrippa,FATHER_OF,33852,Drusilla,person,en/reference/easton-bible-dictionary/F.txt#8
+35071,Terah,BROTHER_OF,3278,Abraham,person,en/reference/easton-bible-dictionary/H.txt#14
+398196,Haruz Eager,FATHER_OF,38129,Meshullemeth,person,en/reference/easton-bible-dictionary/H.txt#17
+19581,Simon,FATHER_OF,45512,Mariamne,person,en/reference/easton-bible-dictionary/H.txt#35
+398435,Josedek,FATHER_OF,19104,Joshua,place,en/reference/easton-bible-dictionary/H.txt#40
+40102,Beeri,FATHER_OF,398536,Hosea Salvation,person,en/reference/easton-bible-dictionary/H.txt#51
+398620,Ebed Slave,FATHER_OF,41837,Gaal,person,en/reference/easton-bible-dictionary/E.txt#3
+36805,Ahithophel,FATHER_OF,410140,Gilonite,person,en/reference/easton-bible-dictionary/E.txt#19
+36417,Shemaiah,FATHER_OF,36862,Neariah,person,en/reference/easton-bible-dictionary/E.txt#24
+3436,Jerusalem,FATHER_OF,38153,Nehushta,place,en/reference/easton-bible-dictionary/E.txt#27
+442679,Hittite,FATHER_OF,37775,Bashemath,person,en/reference/easton-bible-dictionary/E.txt#27
+19574,Seth,FATHER_OF,398858,Enos Man,person,en/reference/easton-bible-dictionary/E.txt#31
+36498,Hezron,MOTHER_OF,36521,Hur,person,en/reference/easton-bible-dictionary/E.txt#40
+3247,Aaron,FATHER_OF,37023,Phinehas,person,en/reference/easton-bible-dictionary/E.txt#60
+36797,Chelub,FATHER_OF,19083,Jehovah,person,en/reference/easton-bible-dictionary/E.txt#62
+37023,Phinehas,SPOUSE_OF,37337,Shiloh,person,en/reference/easton-bible-dictionary/I.txt#0
+399142,Imla Replenisher,FATHER_OF,37433,Micaiah,person,en/reference/easton-bible-dictionary/I.txt#3
+36951,Rimmon,FATHER_OF,413694,Benhadad,person,en/reference/easton-bible-dictionary/T.txt#4
+47348,Cassander,SPOUSE_OF,33479,Thessalonica,person,en/reference/easton-bible-dictionary/T.txt#22
+37367,Ginath,FATHER_OF,19083,Jehovah,person,en/reference/easton-bible-dictionary/T.txt#27
+30365,Lamech,FATHER_OF,40318,Tubal-cain,person,en/reference/easton-bible-dictionary/T.txt#41
+399789,Ner Light,FATHER_OF,28096,Kish,person,en/reference/easton-bible-dictionary/N.txt#19
+37399,Nimshi,FATHER_OF,19082,Jehoshaphat,person,en/reference/easton-bible-dictionary/N.txt#24
+36310,Jehiel,FATHER_OF,44116,Benjamite,person,en/reference/easton-bible-dictionary/B.txt#0
+41793,Abinoam,FATHER_OF,400060,Barak Lightning,person,en/reference/easton-bible-dictionary/B.txt#17
+400058,Buzite,FATHER_OF,32741,Elihu,people,en/reference/easton-bible-dictionary/B.txt#17
+495076,Meholathite,FATHER_OF,37631,Adriel,place,en/reference/easton-bible-dictionary/B.txt#20
+33863,Augustus,SPOUSE_OF,400239,Livia,person,en/reference/easton-bible-dictionary/B.txt#34
+36522,Uri,FATHER_OF,19106,Judah,person,en/reference/easton-bible-dictionary/B.txt#40
+18683,Esau,FATHER_OF,36150,Eliphaz,person,en/reference/easton-bible-dictionary/K.txt#3
+36264,Abiel,FATHER_OF,44116,Benjamite,person,en/reference/easton-bible-dictionary/K.txt#12
+36419,Izhar,FATHER_OF,51012,Levite,person,en/reference/easton-bible-dictionary/K.txt#14
+396816,Kohathite Levite,FATHER_OF,36345,Elkanah,person,en/reference/easton-bible-dictionary/M.txt#7
+484337,Danite,FATHER_OF,19560,Samson,person,en/reference/easton-bible-dictionary/M.txt#14
+400799,Maoch Compressed,FATHER_OF,36479,Achish,person,en/reference/easton-bible-dictionary/M.txt#15
+400841,Martha Bitterness,SISTER_OF,19209,Lazarus,person,en/reference/easton-bible-dictionary/M.txt#20
+19097,Joseph,MOTHER_OF,18645,Jesus,person,en/reference/easton-bible-dictionary/M.txt#21
+32069,Heman,FATHER_OF,51012,Levite,person,en/reference/easton-bible-dictionary/M.txt#25
+400989,Chemosh-Gad,FATHER_OF,19322,Moab,people,en/reference/easton-bible-dictionary/M.txt#39
+19265,Manasseh,SPOUSE_OF,401002,Meshullemeth Friend,person,en/reference/easton-bible-dictionary/M.txt#40
+36131,Hadar,SPOUSE_OF,36203,Mehetabel,person,en/reference/easton-bible-dictionary/M.txt#41
+44116,Benjamite,FATHER_OF,37026,Uzzi,person,en/reference/easton-bible-dictionary/M.txt#44
+19412,Nebuchadnezzar,FATHER_OF,400180,Nitocris,person,en/reference/easton-bible-dictionary/D.txt#5
+36074,Raamah,FATHER_OF,36142,Dedan,person,en/reference/easton-bible-dictionary/D.txt#24
+38352,Hararite,FATHER_OF,36268,Ahiam,person,en/reference/smith-bible-dictionary/S.txt#4
+35066,Salmon,FATHER_OF,401750,Boar,person,en/reference/smith-bible-dictionary/S.txt#11
+19549,Ruth,SPOUSE_OF,479772,BOAT,person,en/reference/smith-bible-dictionary/S.txt#11
+19873,Zebulun,FATHER_OF,40399,Sered,person,en/reference/smith-bible-dictionary/S.txt#25
+3512,Asher,FATHER_OF,19563,Sarah,person,en/reference/smith-bible-dictionary/S.txt#25
+35074,Reu,FATHER_OF,35073,Serug,person,en/reference/smith-bible-dictionary/S.txt#26
+19580,Simeon,FATHER_OF,19566,Shaul,person,en/reference/smith-bible-dictionary/S.txt#53
+51012,Levite,FATHER_OF,37463,Abda,person,en/reference/smith-bible-dictionary/S.txt#54
+36074,Raamah,FATHER_OF,36072,Sheba,person,en/reference/smith-bible-dictionary/S.txt#57
+37124,Shemida,FATHER_OF,409191,Gileadite,person,en/reference/smith-bible-dictionary/S.txt#60
+35433,Jehoram,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/S.txt#62
+3249,Moses,FATHER_OF,35058,Eliezer,person,en/reference/smith-bible-dictionary/S.txt#63
+406572,Asherite,FATHER_OF,37207,Ahihud,person,en/reference/smith-bible-dictionary/S.txt#63
+36442,Nethaneel,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/S.txt#64
+42176,Mehetabeel,FATHER_OF,36687,Delaiah,person,en/reference/smith-bible-dictionary/S.txt#64
+3519,Gilead,FATHER_OF,402554,Shemidah Shemida,person,en/reference/smith-bible-dictionary/S.txt#64
+3519,Gilead,FATHER_OF,37124,Shemida,person,en/reference/smith-bible-dictionary/S.txt#64
+44116,Benjamite,FATHER_OF,36849,Meshullam,person,en/reference/smith-bible-dictionary/S.txt#65
+36498,Hezron,FATHER_OF,36505,Jerahmeel,person,en/reference/smith-bible-dictionary/S.txt#68
+36516,Azubah,MOTHER_OF,19082,Jehoshaphat,person,en/reference/smith-bible-dictionary/S.txt#70
+36946,Zacchur,FATHER_OF,396612,Simeonite,person,en/reference/smith-bible-dictionary/S.txt#72
+36635,Jahath,FATHER_OF,402692,Gershonite Levite,person,en/reference/smith-bible-dictionary/S.txt#72
+37201,Elpaal,FATHER_OF,36570,Shema,person,en/reference/smith-bible-dictionary/S.txt#73
+36415,Gershon,FATHER_OF,36627,Shimei,person,en/reference/smith-bible-dictionary/S.txt#73
+396612,Simeonite,FATHER_OF,36970,Ziza,person,en/reference/smith-bible-dictionary/S.txt#76
+36689,Jaaziah,FATHER_OF,393883,Merarite Levite,person,en/reference/smith-bible-dictionary/S.txt#78
+36415,Gershon,FATHER_OF,402858,Shubael Shebuel,person,en/reference/smith-bible-dictionary/S.txt#79
+36196,Bela,FATHER_OF,22522,Iri,person,en/reference/smith-bible-dictionary/S.txt#80
+18662,Darius,FATHER_OF,328850,Xerxes,person,en/reference/smith-bible-dictionary/S.txt#80
+526975,Numb,FATHER_OF,19104,Joshua,person,en/reference/smith-bible-dictionary/S.txt#81
+19581,Simon,BROTHER_OF,18645,Jesus,person,en/reference/smith-bible-dictionary/S.txt#86
+36457,Hosah,FATHER_OF,36313,Shimri,person,en/reference/smith-bible-dictionary/S.txt#88
+29822,Eber,FATHER_OF,19496,Peleg,person,en/reference/smith-bible-dictionary/P.txt#52
+19544,Reuben,FATHER_OF,36981,Pallu,person,en/reference/smith-bible-dictionary/P.txt#52
+296833,The,SPOUSE_OF,19499,Pharaoh,person,en/reference/smith-bible-dictionary/P.txt#54
+392929,Rameses II,FATHER_OF,405151,Thouoris,person,en/reference/smith-bible-dictionary/P.txt#55
+19106,Judah,FATHER_OF,405183,Parez,person,en/reference/smith-bible-dictionary/P.txt#57
+18921,Issachar,FATHER_OF,405833,Puvah,person,en/reference/smith-bible-dictionary/P.txt#115
+403155,Pyrrhus,FATHER_OF,33756,Sopater,person,en/reference/smith-bible-dictionary/P.txt#117
+18876,Gideon,FATHER_OF,36310,Jehiel,person,en/reference/smith-bible-dictionary/A.txt#2
+18683,Esau,MOTHER_OF,36150,Eliphaz,person,en/reference/smith-bible-dictionary/A.txt#14
+37220,Shimhi,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/A.txt#15
+36638,Beriah,FATHER_OF,41777,Benjamites,person,en/reference/smith-bible-dictionary/A.txt#17
+406199,Adramys,BROTHER_OF,446094,Croesus,place,en/reference/smith-bible-dictionary/A.txt#20
+38352,Hararite,FATHER_OF,36162,Shammah,person,en/reference/smith-bible-dictionary/A.txt#23
+24119,Jotham,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/A.txt#27
+35433,Jehoram,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/A.txt#27
+36165,Shobal,FATHER_OF,466364,Horite,person,en/reference/smith-bible-dictionary/A.txt#39
+37879,Hadlai,FATHER_OF,18682,Ephraim,person,en/reference/smith-bible-dictionary/A.txt#41
+394718,Kohathite,FATHER_OF,37045,Mahath,person,en/reference/smith-bible-dictionary/A.txt#41
+396612,Simeonite,FATHER_OF,37044,Shemuel,person,en/reference/smith-bible-dictionary/A.txt#43
+33943,Sapphira,SPOUSE_OF,3436,Jerusalem,person,en/reference/smith-bible-dictionary/A.txt#47
+36638,Beriah,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/A.txt#63
+36186,Dishan,FATHER_OF,466364,Horite,person,en/reference/smith-bible-dictionary/A.txt#63
+407115,Xerxces,FATHER_OF,395558,Longimanus,place,en/reference/smith-bible-dictionary/A.txt#71
+36423,Berechiah,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/A.txt#73
+407203,Japhet,FATHER_OF,36061,Gomer,person,en/reference/smith-bible-dictionary/A.txt#75
+3519,Gilead,FATHER_OF,41527,Asriel,person,en/reference/smith-bible-dictionary/A.txt#77
+19579,Shem,FATHER_OF,36101,Asshur,person,en/reference/smith-bible-dictionary/A.txt#78
+33030,Julia,FATHER_OF,407327,Atia,person,en/reference/smith-bible-dictionary/A.txt#85
+37886,Jehalelel,FATHER_OF,395222,Merarite,person,en/reference/smith-bible-dictionary/A.txt#88
+394718,Kohathite,FATHER_OF,19091,Joel,person,en/reference/smith-bible-dictionary/A.txt#88
+36950,Bethuel,BROTHER_OF,19200,Rebekah,person,en/reference/smith-bible-dictionary/L.txt#0
+14089,Zair,FATHER_OF,36251,Elhanan,person,en/reference/smith-bible-dictionary/L.txt#1
+3556,Bethany,BROTHER_OF,19299,Martha,place,en/reference/smith-bible-dictionary/L.txt#14
+3549,Jacob,SPOUSE_OF,19199,Laban,person,en/reference/smith-bible-dictionary/R.txt#1
+19496,Peleg,FATHER_OF,35074,Reu,person,en/reference/smith-bible-dictionary/R.txt#2
+19106,Judah,FATHER_OF,408092,Shubal,person,en/reference/smith-bible-dictionary/R.txt#7
+18921,Issachar,FATHER_OF,37091,Tola,person,en/reference/smith-bible-dictionary/R.txt#16
+37775,Bashemath,SISTER_OF,18917,Ishmael,person,en/reference/smith-bible-dictionary/R.txt#18
+38380,Beeroth,FATHER_OF,36600,Rechab,person,en/reference/smith-bible-dictionary/R.txt#22
+37037,Tahath,FATHER_OF,396816,Kohathite Levite,person,en/reference/smith-bible-dictionary/U.txt#6
+36627,Shimei,FATHER_OF,36637,Zizah,person,en/reference/smith-bible-dictionary/U.txt#9
+37055,Bani,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/U.txt#10
+494653,Sirach,FATHER_OF,460286,Wisdom of Jesus,person,en/reference/smith-bible-dictionary/W.txt#17
+19084,Jeremiah,FATHER_OF,454059,Rechabite,person,en/reference/smith-bible-dictionary/J.txt#0
+36625,Laadan,FATHER_OF,36627,Shimei,person,en/reference/smith-bible-dictionary/J.txt#4
+36629,Shelomoth,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/J.txt#4
+28096,Kish,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/J.txt#5
+25342,Kohath,FATHER_OF,18898,Hebron,person,en/reference/smith-bible-dictionary/J.txt#5
+204448,Alpheus,FATHER_OF,19073,James,person,en/reference/smith-bible-dictionary/J.txt#6
+35430,Zerah,FATHER_OF,402692,Gershonite Levite,person,en/reference/smith-bible-dictionary/J.txt#10
+393883,Merarite Levite,FATHER_OF,36557,Azariah,person,en/reference/smith-bible-dictionary/J.txt#12
+409358,Bene-Elam,FATHER_OF,36858,Shechaniah,people,en/reference/smith-bible-dictionary/J.txt#13
+3504,Asa,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/J.txt#17
+36965,Josibiah,FATHER_OF,396612,Simeonite,person,en/reference/smith-bible-dictionary/J.txt#21
+37056,Shamer,FATHER_OF,3512,Asher,person,en/reference/smith-bible-dictionary/J.txt#21
+36648,Mahli,FATHER_OF,28096,Kish,person,en/reference/smith-bible-dictionary/J.txt#24
+37062,Libnah,FATHER_OF,38148,Hamutal,person,en/reference/smith-bible-dictionary/J.txt#24
+36411,Merari,FATHER_OF,36649,Mushi,person,en/reference/smith-bible-dictionary/J.txt#28
+19540,Rehoboam,FATHER_OF,36671,Abijah,person,en/reference/smith-bible-dictionary/J.txt#29
+36345,Elkanah,FATHER_OF,18897,Samuel,person,en/reference/smith-bible-dictionary/J.txt#29
+25342,Kohath,FATHER_OF,36418,Uzziel,person,en/reference/smith-bible-dictionary/J.txt#39
+36949,Bilhah,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/J.txt#44
+409489,Zeimmah,FATHER_OF,402502,Gershonite,people,en/reference/smith-bible-dictionary/J.txt#48
+36247,Jehoiada,SPOUSE_OF,37839,Jehoshabeath,person,en/reference/smith-bible-dictionary/J.txt#48
+36331,Shemaah,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/J.txt#49
+36788,Pedaiah,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/J.txt#53
+36310,Jehiel,FATHER_OF,18663,David,person,en/reference/smith-bible-dictionary/J.txt#53
+36862,Neariah,FATHER_OF,36725,Elioenai,person,en/reference/smith-bible-dictionary/J.txt#54
+35041,Mattathias,FATHER_OF,734342,Another,person,en/reference/smith-bible-dictionary/J.txt#66
+36576,Jahdai,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/J.txt#69
+36672,Jeshua,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/J.txt#69
+396911,Gadite,FATHER_OF,38032,Menahem,person,en/reference/smith-bible-dictionary/G.txt#1
+36456,Jeduthun,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/G.txt#2
+44116,Benjamite,FATHER_OF,42225,Abidan,person,en/reference/smith-bible-dictionary/G.txt#22
+19329,Naphtali,FATHER_OF,37003,Guni,person,en/reference/smith-bible-dictionary/G.txt#33
+3519,Gilead,FATHER_OF,410354,Zepher,person,en/reference/smith-bible-dictionary/Z.txt#12
+36792,Iddo,FATHER_OF,402692,Gershonite Levite,person,en/reference/smith-bible-dictionary/Z.txt#14
+18663,David,FATHER_OF,19330,Nathan,person,en/reference/smith-bible-dictionary/Z.txt#16
+36163,Seir,FATHER_OF,36166,Zibeon,person,en/reference/smith-bible-dictionary/Z.txt#16
+19106,Judah,FATHER_OF,37809,Amasiah,person,en/reference/smith-bible-dictionary/Z.txt#17
+3249,Moses,SPOUSE_OF,24294,Midian,person,en/reference/smith-bible-dictionary/Z.txt#21
+36345,Elkanah,FATHER_OF,396816,Kohathite Levite,person,en/reference/smith-bible-dictionary/Z.txt#23
+411002,Jotbah,FATHER_OF,38129,Meshullemeth,people,en/reference/smith-bible-dictionary/H.txt#13
+42057,Bunni,FATHER_OF,409085,Another Levite,person,en/reference/smith-bible-dictionary/H.txt#14
+411007,Kohath-,FATHER_OF,18898,Hebron,person,en/reference/smith-bible-dictionary/H.txt#14
+36557,Azariah,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/H.txt#22
+36167,Anah,FATHER_OF,36168,Dishon,person,en/reference/smith-bible-dictionary/H.txt#24
+45528,Herod Philip,FATHER_OF,35300,Salome,person,en/reference/smith-bible-dictionary/H.txt#28
+18905,Herodias,SISTER_OF,3299,Agrippa,person,en/reference/smith-bible-dictionary/H.txt#28
+19544,Reuben,FATHER_OF,36498,Hezron,person,en/reference/smith-bible-dictionary/H.txt#31
+37054,Amzi,FATHER_OF,393883,Merarite Levite,person,en/reference/smith-bible-dictionary/H.txt#34
+36164,Lotan,FATHER_OF,466364,Horite,person,en/reference/smith-bible-dictionary/H.txt#39
+36163,Seir,FATHER_OF,36164,Lotan,person,en/reference/smith-bible-dictionary/H.txt#39
+19580,Simeon,FATHER_OF,36799,Shaphat,person,en/reference/smith-bible-dictionary/H.txt#39
+13911,Aroer,FATHER_OF,411398,Shamu,person,en/reference/smith-bible-dictionary/H.txt#43
+36108,Joktan,FATHER_OF,39803,Obal,person,en/reference/smith-bible-dictionary/E.txt#2
+36727,Joah,FATHER_OF,402692,Gershonite Levite,person,en/reference/smith-bible-dictionary/E.txt#4
+18866,Noah,FATHER_OF,18896,Ham,person,en/reference/smith-bible-dictionary/E.txt#7
+411600,Jephuneh,FATHER_OF,3580,Caleb,place,en/reference/smith-bible-dictionary/E.txt#8
+36648,Mahli,FATHER_OF,393883,Merarite Levite,person,en/reference/smith-bible-dictionary/E.txt#11
+36160,Nahath,FATHER_OF,396816,Kohathite Levite,person,en/reference/smith-bible-dictionary/E.txt#12
+37113,Hushim,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/E.txt#21
+36627,Shimei,FATHER_OF,36539,Abihail,person,en/reference/smith-bible-dictionary/E.txt#35
+36196,Bela,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/I.txt#6
+36573,Haran,BROTHER_OF,36121,Abram,person,en/reference/smith-bible-dictionary/I.txt#9
+36542,Appaim,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/I.txt#10
+36724,Jehohanan,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/I.txt#11
+19106,Judah,FATHER_OF,36351,Zebadiah,person,en/reference/smith-bible-dictionary/I.txt#11
+36262,Ribai,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/I.txt#15
+38278,Ithra,FATHER_OF,30774,Amasa,person,en/reference/smith-bible-dictionary/I.txt#15
+36855,Jesaiah,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/I.txt#16
+18917,Ishmael,FATHER_OF,36133,Jetur,person,en/reference/smith-bible-dictionary/I.txt#17
+18682,Ephraim,FATHER_OF,37140,Tahan,person,en/reference/smith-bible-dictionary/T.txt#11
+412535,Lameth,FATHER_OF,40312,Jabal,person,en/reference/smith-bible-dictionary/T.txt#30
+412558,Thara Terah,FATHER_OF,3278,Abraham,person,en/reference/smith-bible-dictionary/T.txt#32
+465601,Antipater,FATHER_OF,47348,Cassander,person,en/reference/smith-bible-dictionary/T.txt#37
+33479,Thessalonica,SISTER_OF,33318,Alexander,place,en/reference/smith-bible-dictionary/T.txt#37
+18690,Ezra,SPOUSE_OF,413022,Jehudiah,person,en/reference/smith-bible-dictionary/N.txt#4
+35062,Jehoiakim,SPOUSE_OF,3436,Jerusalem,person,en/reference/smith-bible-dictionary/N.txt#18
+51012,Levite,FATHER_OF,36417,Shemaiah,person,en/reference/smith-bible-dictionary/N.txt#20
+39585,Binnui,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/N.txt#38
+36286,Netophathite,FATHER_OF,36260,Heleb,people,en/reference/smith-bible-dictionary/B.txt#2
+18682,Ephraim,FATHER_OF,37100,Becher,person,en/reference/smith-bible-dictionary/B.txt#5
+18876,Gideon,FATHER_OF,24119,Jotham,person,en/reference/smith-bible-dictionary/B.txt#16
+36312,Jediael,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/B.txt#33
+51012,Levite,FATHER_OF,39757,Noadiah,person,en/reference/smith-bible-dictionary/B.txt#33
+39709,Henadad,FATHER_OF,51012,Levite,person,en/reference/smith-bible-dictionary/B.txt#34
+18681,Enos,FATHER_OF,30357,Cainan,person,en/reference/smith-bible-dictionary/K.txt#3
+51012,Levite,FATHER_OF,36705,Hashabiah,person,en/reference/smith-bible-dictionary/K.txt#3
+396612,Simeonite,FATHER_OF,12562,Sephatiah,person,en/reference/smith-bible-dictionary/M.txt#0
+18906,Hezekiah,FATHER_OF,19106,Judah,person,en/reference/smith-bible-dictionary/M.txt#11
+51012,Levite,FATHER_OF,36692,Zaccur,person,en/reference/smith-bible-dictionary/M.txt#27
+35064,Menan,FATHER_OF,35063,Melea,person,en/reference/smith-bible-dictionary/M.txt#39
+414731,Shabaraim,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/M.txt#46
+44116,Benjamite,FATHER_OF,37251,Sallu,person,en/reference/smith-bible-dictionary/M.txt#47
+19265,Manasseh,SPOUSE_OF,411002,Jotbah,person,en/reference/smith-bible-dictionary/M.txt#48
+402832,An Asherite,FATHER_OF,42269,Sethur,person,en/reference/smith-bible-dictionary/M.txt#53
+19540,Rehoboam,SPOUSE_OF,460071,GIBEAH,person,en/reference/smith-bible-dictionary/M.txt#54
+37201,Elpaal,FATHER_OF,44116,Benjamite,person,en/reference/smith-bible-dictionary/M.txt#63
+36411,Merari,FATHER_OF,414945,Moli Mahli,person,en/reference/smith-bible-dictionary/M.txt#70
+25342,Kohath,FATHER_OF,36411,Merari,person,en/reference/smith-bible-dictionary/M.txt#83
+30365,Lamech,FATHER_OF,40313,Jubal,person,en/reference/smith-bible-dictionary/M.txt#83
+24322,Cush,FATHER_OF,36074,Raamah,person,en/reference/smith-bible-dictionary/D.txt#12
+36136,Keturah,FATHER_OF,36138,Jokshan,person,en/reference/smith-bible-dictionary/D.txt#12
+407203,Japhet,FATHER_OF,36063,Javan,person,en/reference/smith-bible-dictionary/D.txt#21
+3559,Bethlehem,FATHER_OF,36251,Elhanan,place,en/reference/smith-bible-dictionary/D.txt#21
+415385,DODO THE Ahohite,FATHER_OF,35452,Eleazar,people,en/reference/smith-bible-dictionary/D.txt#21
+420175,Nethanel,FATHER_OF,18663,David,person,en/reference/hastings-dictionary-of-the-bible/S.txt#127
+36162,Shammah,BROTHER_OF,18663,David,person,en/reference/hastings-dictionary-of-the-bible/S.txt#139
+19581,Simon,BROTHER_OF,19108,Judas,person,en/reference/hastings-dictionary-of-the-bible/S.txt#141
+33852,Drusilla,SISTER_OF,400216,Agrippa II,person,en/reference/hastings-dictionary-of-the-bible/C.txt#99
+431967,Lysimachus,BROTHER_OF,421456,Menelaus,person,en/reference/hastings-dictionary-of-the-bible/C.txt#118
+19549,Ruth,FATHER_OF,19087,Jesse,person,en/reference/hastings-dictionary-of-the-bible/O.txt#7
+3580,Caleb,FATHER_OF,36592,Achsah,person,en/reference/hastings-dictionary-of-the-bible/O.txt#30
+492547,Zehudah,MOTHER_OF,35062,Jehoiakim,place,en/reference/hastings-dictionary-of-the-bible/P.txt#64
+465604,Pheroras,BROTHER_OF,18904,Herod,person,en/reference/hastings-dictionary-of-the-bible/P.txt#70
+19092,John,FATHER_OF,19581,Simon,person,en/reference/hastings-dictionary-of-the-bible/P.txt#102
+15527,Potiphera,FATHER_OF,19097,Joseph,person,en/reference/hastings-dictionary-of-the-bible/P.txt#195
+421439,Antiochus,FATHER_OF,92202,Cleopatra,person,en/reference/hastings-dictionary-of-the-bible/P.txt#310
+36447,Merab,SPOUSE_OF,37631,Adriel,person,en/reference/hastings-dictionary-of-the-bible/A.txt#7
+464348,Hammolecheth,SISTER_OF,36527,Machir,person,en/reference/hastings-dictionary-of-the-bible/A.txt#8
+18663,David,MOTHER_OF,30774,Amasa,person,en/reference/hastings-dictionary-of-the-bible/A.txt#9
+19213,Levi,MOTHER_OF,42413,Zuriel,person,en/reference/hastings-dictionary-of-the-bible/A.txt#9
+37433,Micaiah,FATHER_OF,19105,Josiah,person,en/reference/hastings-dictionary-of-the-bible/A.txt#22
+36783,Othniel,BROTHER_OF,3580,Caleb,person,en/reference/hastings-dictionary-of-the-bible/A.txt#23
+414599,Darius Hystaspis,FATHER_OF,328850,Xerxes,person,en/reference/hastings-dictionary-of-the-bible/A.txt#59
+36538,Abishur,FATHER_OF,470377,Judahite,person,en/reference/hastings-dictionary-of-the-bible/A.txt#60
+36505,Jerahmeel,FATHER_OF,36273,Ahijah,person,en/reference/hastings-dictionary-of-the-bible/A.txt#61
+442519,Amarias,FATHER_OF,18690,Ezra,person,en/reference/hastings-dictionary-of-the-bible/A.txt#63
+484337,Danite,FATHER_OF,39228,Oholiab,person,en/reference/hastings-dictionary-of-the-bible/A.txt#63
+518950,Ell,FATHER_OF,36660,Ahimelech,person,en/reference/hastings-dictionary-of-the-bible/A.txt#63
+403606,Naphtalite,FATHER_OF,42476,Pedahel,person,en/reference/hastings-dictionary-of-the-bible/A.txt#87
+36785,Omri,FATHER_OF,37248,Uthai,person,en/reference/hastings-dictionary-of-the-bible/A.txt#87
+484337,Danite,FATHER_OF,36329,Ahiezer,person,en/reference/hastings-dictionary-of-the-bible/A.txt#88
+25342,Kohath,FATHER_OF,51012,Levite,person,en/reference/hastings-dictionary-of-the-bible/A.txt#98
+495545,Sinmuhallit,FATHER_OF,420747,Hammurabi,person,en/reference/hastings-dictionary-of-the-bible/A.txt#98
+37100,Becher,FATHER_OF,44116,Benjamite,person,en/reference/hastings-dictionary-of-the-bible/A.txt#102
+393403,Kudur-Mabug,FATHER_OF,399985,Larsa,person,en/reference/hastings-dictionary-of-the-bible/A.txt#166
+19725,Sin,FATHER_OF,19419,Nineveh,person,en/reference/hastings-dictionary-of-the-bible/A.txt#198
+19725,Sin,SISTER_OF,445965,Shamash,person,en/reference/hastings-dictionary-of-the-bible/A.txt#198
+477282,Ishme-Dagan,FATHER_OF,496499,Shamshi-Adad,people,en/reference/hastings-dictionary-of-the-bible/A.txt#208
+40712,Sargon,FATHER_OF,496749,Naram-Sin,person,en/reference/hastings-dictionary-of-the-bible/A.txt#209
+40163,Dinah,SISTER_OF,19580,Simeon,person,en/reference/hastings-dictionary-of-the-bible/L.txt#53
+38148,Hamutal,MOTHER_OF,37831,Jehoahaz,person,en/reference/hastings-dictionary-of-the-bible/L.txt#66
+36573,Haran,BROTHER_OF,3278,Abraham,person,en/reference/hastings-dictionary-of-the-bible/L.txt#100
+43811,Tobias,SPOUSE_OF,19563,Sarah,person,en/reference/hastings-dictionary-of-the-bible/R.txt#5
+35072,Nahor,FATHER_OF,498471,Bethnel,person,en/reference/hastings-dictionary-of-the-bible/R.txt#12
+36600,Rechab,FATHER_OF,36667,Malchijah,person,en/reference/hastings-dictionary-of-the-bible/R.txt#14
+36404,Eliada,FATHER_OF,37312,Rezon,person,en/reference/hastings-dictionary-of-the-bible/R.txt#65
+499195,Libit Urra,FATHER_OF,499194,Asir-Ramman,person,en/reference/hastings-dictionary-of-the-bible/W.txt#1
+499765,Zehedee,FATHER_OF,19073,James,people,en/reference/hastings-dictionary-of-the-bible/J.txt#15
+19076,Zebedee,FATHER_OF,76931,Apostle James,person,en/reference/hastings-dictionary-of-the-bible/J.txt#16
+19097,Joseph,FATHER_OF,18872,Galilee,person,en/reference/hastings-dictionary-of-the-bible/J.txt#89
+19089,Jezebel,FATHER_OF,37226,Athaliah,person,en/reference/hastings-dictionary-of-the-bible/J.txt#109
+398435,Josedek,FATHER_OF,18645,Jesus,place,en/reference/hastings-dictionary-of-the-bible/J.txt#112
+35062,Jehoiakim,FATHER_OF,35436,Jehoiachin,person,en/reference/hastings-dictionary-of-the-bible/J.txt#113
+19076,Zebedee,FATHER_OF,3285,Apostle,person,en/reference/hastings-dictionary-of-the-bible/J.txt#142
+38022,Amittai,FATHER_OF,500883,Analysis Jonah,person,en/reference/hastings-dictionary-of-the-bible/J.txt#190
+36158,Kenaz,FATHER_OF,425973,KENIZZITE,person,en/reference/hastings-dictionary-of-the-bible/J.txt#227
+494819,Abubus,FATHER_OF,45762,Ptolemy,person,en/reference/hastings-dictionary-of-the-bible/J.txt#228
+19073,James,FATHER_OF,19108,Judas,person,en/reference/hastings-dictionary-of-the-bible/J.txt#228
+40102,Beeri,FATHER_OF,18683,Esau,person,en/reference/hastings-dictionary-of-the-bible/J.txt#250
+458418,Gabrias,FATHER_OF,458408,Gabael,person,en/reference/hastings-dictionary-of-the-bible/G.txt#0
+35052,Neri,FATHER_OF,35051,Shealtiel,person,en/reference/hastings-dictionary-of-the-bible/G.txt#41
+19317,Michael,FATHER_OF,396911,Gadite,person,en/reference/hastings-dictionary-of-the-bible/G.txt#72
+36337,Jahaziel,FATHER_OF,36673,Shecaniah,person,en/reference/hastings-dictionary-of-the-bible/Z.txt#6
+35300,Salome,SPOUSE_OF,19092,John,person,en/reference/hastings-dictionary-of-the-bible/Z.txt#7
+36499,Zabdi,FATHER_OF,36504,Achan,person,en/reference/hastings-dictionary-of-the-bible/Z.txt#20
+421208,Tabnit,FATHER_OF,493259,Eshmunazar,people,en/reference/hastings-dictionary-of-the-bible/Z.txt#25
+496635,Bitiliashu,FATHER_OF,503002,Agum,people,en/reference/hastings-dictionary-of-the-bible/Z.txt#32
+3461,Hannah,SPOUSE_OF,36345,Elkanah,person,en/reference/hastings-dictionary-of-the-bible/F.txt#16
+38129,Meshullemeth,MOTHER_OF,35435,Amon,person,en/reference/hastings-dictionary-of-the-bible/H.txt#32
+36673,Shecaniah,FATHER_OF,36859,Hattush,person,en/reference/hastings-dictionary-of-the-bible/H.txt#35
+485127,ANTIOCHUS EPIPHANES,BROTHER_OF,418627,SELEUCUS,person,en/reference/hastings-dictionary-of-the-bible/H.txt#66
+36521,Hur,FATHER_OF,36169,Ezer,person,en/reference/hastings-dictionary-of-the-bible/H.txt#157
+18873,Gamaliel,FATHER_OF,19580,Simeon,person,en/reference/hastings-dictionary-of-the-bible/E.txt#13
+464631,Hap,FATHER_OF,505069,Amenhotp,person,en/reference/hastings-dictionary-of-the-bible/E.txt#30
+36563,Jekamiah,FATHER_OF,19106,Judah,person,en/reference/hastings-dictionary-of-the-bible/E.txt#60
+38153,Nehushta,MOTHER_OF,35436,Jehoiachin,person,en/reference/hastings-dictionary-of-the-bible/E.txt#61
+37560,Peninnah,SPOUSE_OF,464107,An Ephraimite,person,en/reference/hastings-dictionary-of-the-bible/E.txt#61
+15527,Potiphera,FATHER_OF,40325,Asenath,person,en/reference/hastings-dictionary-of-the-bible/E.txt#103
+3301,Ahab,SPOUSE_OF,19089,Jezebel,person,en/reference/hastings-dictionary-of-the-bible/E.txt#126
+3532,Bathsheba,FATHER_OF,19746,Solomon,person,en/reference/hastings-dictionary-of-the-bible/I.txt#84
+45762,Ptolemy,FATHER_OF,35032,Lysanias,people,en/reference/hastings-dictionary-of-the-bible/I.txt#93
+35975,Aristobulus,FATHER_OF,33318,Alexander,person,en/reference/hastings-dictionary-of-the-bible/T.txt#15
+45528,Herod Philip,BROTHER_OF,27544,Antipas,person,en/reference/hastings-dictionary-of-the-bible/T.txt#57
+36411,Merari,FATHER_OF,40101,Judith,person,en/reference/hastings-dictionary-of-the-bible/T.txt#133
+256237,Balas,FATHER_OF,421439,Antiochus,person,en/reference/hastings-dictionary-of-the-bible/T.txt#171
+432971,Antiochus Sidetes,BROTHER_OF,33499,Demetrius,person,en/reference/hastings-dictionary-of-the-bible/T.txt#171
+508641,Gnaens Domitius Ahenobarbus,FATHER_OF,476030,Lucius Domitius Ahenobarbus,person,en/reference/hastings-dictionary-of-the-bible/N.txt#42
+24296,Laish,FATHER_OF,42475,Paltiel,person,en/reference/hastings-dictionary-of-the-bible/B.txt#7
+481121,Mahseiah,FATHER_OF,41069,Neriah,person,en/reference/hastings-dictionary-of-the-bible/B.txt#26
+37848,Zibiah,MOTHER_OF,36330,Joash,person,en/reference/hastings-dictionary-of-the-bible/B.txt#38
+36310,Jehiel,FATHER_OF,36407,Gibeon,person,en/reference/hastings-dictionary-of-the-bible/M.txt#0
+18663,David,SPOUSE_OF,36831,Talmai,person,en/reference/hastings-dictionary-of-the-bible/M.txt#0
+465601,Antipater,FATHER_OF,18904,Herod,person,en/reference/hastings-dictionary-of-the-bible/M.txt#6
+18904,Herod,SPOUSE_OF,510370,Mariamme,person,en/reference/hastings-dictionary-of-the-bible/M.txt#8
+33365,Aretas,FATHER_OF,328508,Josephus,person,en/reference/hastings-dictionary-of-the-bible/M.txt#10
+459417,Hagri,FATHER_OF,36278,Mibhar,person,en/reference/hastings-dictionary-of-the-bible/M.txt#182
+414314,Sethite,FATHER_OF,30365,Lamech,people,en/reference/hastings-dictionary-of-the-bible/M.txt#182
+482288,Cainite,FATHER_OF,30365,Lamech,person,en/reference/hastings-dictionary-of-the-bible/M.txt#182
+396490,Bethlehemite,FATHER_OF,36251,Elhanan,concept,en/reference/hastings-dictionary-of-the-bible/D.txt#69
+31376,Oliver,FATHER_OF,29850,Lorenzo Snow,person,en/biographies/biography-of-lorenzo-snow/15-chapter-15.txt#0
+296637,Helena,MOTHER_OF,62442,Constantine,person,en/biographies/biography-of-lorenzo-snow/81-chapter-81.txt#1
+134208,Anteriormente,FATHER_OF,19206,Lamoni,person,es/manuals/seminary/book-of-mormon-teacher/270-teacher.txt#0
+19095,Jonathan,FATHER_OF,551191,Sam Parker,person,en/books/voyages-of-faith/09-the-hawaiian-mission-crisis-of-1874-the-awa-rebellion-story.txt#8
+31362,Peter Whitmer Sr,SPOUSE_OF,345669,Mary Musselman Whitmer,person,en/books/opening-the-heavens/04-the-miraculous-timing-of-the-translation-of-the-book-of-mormon.txt#15
+29699,Hiram,BROTHER_OF,19097,Joseph,person,en/books/coming-forth-book-mormon/09-eleven-witnesses.txt#11
+35599,Barachias,FATHER_OF,19871,Zacharias,person,en/books/celebrating-easter/11-it-finished-divine-accomplishment-crucifixion.txt#7
+30497,Hyrum,FATHER_OF,563244,Martha ann,person,en/books/my-dear-sister/06-joseph-f-martha-anns-parents.txt#15
+209474,Don Carlos Smith,FATHER_OF,559785,Josephine Donna Smith,person,en/books/my-dear-sister/06-joseph-f-martha-anns-parents.txt#15
+29832,William Smith,BROTHER_OF,19097,Joseph,person,en/books/my-dear-sister/06-joseph-f-martha-anns-parents.txt#15
+209474,Don Carlos Smith,FATHER_OF,82504,Donna Smith,person,en/books/my-dear-sister/06-joseph-f-martha-anns-parents.txt#16
+344086,Jerusha Smith,SPOUSE_OF,560282,William Pierce,person,en/books/my-dear-sister/10-letters-0.txt#46
+213224,Mary Jane Thompson,SPOUSE_OF,560213,David Taylor,person,en/books/my-dear-sister/10-letters-0.txt#52
+3278,Abraham,FATHER_OF,212235,Elizabeth Hoagland,person,en/books/my-dear-sister/10-letters-0.txt#56
+560213,David Taylor,FATHER_OF,560387,Robert Blashel Thompson Taylor,person,en/books/my-dear-sister/10-letters-0.txt#58
+378120,Mercy Rachel Fielding Thompson,FATHER_OF,213224,Mary Jane Thompson,person,en/books/my-dear-sister/14-letters-2.txt#23
+378120,Mercy Rachel Fielding Thompson,SISTER_OF,55494,Mary Fielding,person,en/books/my-dear-sister/14-letters-2.txt#23
+10022,Thompson,SISTER_OF,55494,Mary Fielding,person,en/books/my-dear-sister/14-letters-2.txt#24
+560191,Joseph Albert Harris,SPOUSE_OF,560545,Johanna Patten,person,en/books/my-dear-sister/14-letters-2.txt#27
+213224,Mary Jane Thompson,FATHER_OF,560387,Robert Blashel Thompson Taylor,person,en/books/my-dear-sister/14-letters-2.txt#30
+113709,Abraham Owen Smoot,FATHER_OF,561082,Margaret Thompson Smoot,person,en/books/my-dear-sister/26-appendix-d.txt#13
+534315,JOHN SMITH,SPOUSE_OF,560699,Hellen Maria Fisher,person,en/books/my-dear-sister/26-appendix-d.txt#20
+19097,Joseph,FATHER_OF,561306,Married Zina Smith,person,en/books/my-dear-sister/26-appendix-d.txt#24
+19097,Joseph,SPOUSE_OF,214296,Sarah Ellen Richards,person,en/books/my-dear-sister/26-appendix-d.txt#42
+19583,Hyrum Smith,FATHER_OF,19097,Joseph,person,en/books/my-dear-sister/26-appendix-d.txt#45
+48817,Mary Fielding Smith,MOTHER_OF,19097,Joseph,person,en/books/my-dear-sister/26-appendix-d.txt#45
+113709,Abraham Owen Smoot,SPOUSE_OF,561083,Almira Emily Hill,person,en/books/my-dear-sister/26-appendix-d.txt#80
+563244,Martha ann,SPOUSE_OF,213655,William Jasper Harris,person,en/books/my-dear-sister/26-appendix-d.txt#85
+19097,Joseph,SPOUSE_OF,562174,Mary Taylor Schwartz,person,en/books/my-dear-sister/26-appendix-d.txt#91
+19299,Martha,SPOUSE_OF,562732,Hellen Fisher Smith,person,en/books/my-dear-sister/17-decade-introduction-4.txt#8
+19097,Joseph,FATHER_OF,561717,Mary Sophronia Smith,person,en/books/my-dear-sister/17-decade-introduction-4.txt#14
+58864,Francis,SPOUSE_OF,212870,Mary Jane Dilworth,person,en/books/my-dear-sister/08-letters.txt#55
+560282,William Pierce,FATHER_OF,561990,Hannah Eveline Pierce,person,en/books/my-dear-sister/08-letters.txt#59
+19583,Hyrum Smith,FATHER_OF,352921,Sarah Smith,person,en/books/my-dear-sister/08-letters.txt#61
+212947,Elias Smith,SPOUSE_OF,562198,Lucy Brown,person,en/books/my-dear-sister/08-letters.txt#61
+560181,Albert Bailey Griffin,SPOUSE_OF,560121,Abigail Varney,person,en/books/my-dear-sister/08-letters.txt#65
+534315,JOHN SMITH,FATHER_OF,565559,Hyrum Fisher Smith,person,en/books/my-dear-sister/08-letters.txt#66
+560891,William Walton Burton,SPOUSE_OF,515607,Rachel Fielding,person,en/books/my-dear-sister/08-letters.txt#67
+560282,William Pierce,FATHER_OF,560301,Hyrum Robert Pierce,person,en/books/my-dear-sister/08-letters.txt#70
+67752,Joseph Fielding,FATHER_OF,561179,Hannah Alice Fielding,person,en/books/my-dear-sister/08-letters.txt#70
+561184,Orson Omer Heath,SPOUSE_OF,561182,Josephine Fielding,person,en/books/my-dear-sister/20-letters-5.txt#24
+86883,Mary Schwartz,FATHER_OF,564309,Royal Grant Smith,person,en/books/my-dear-sister/20-letters-5.txt#26
+344086,Jerusha Smith,FATHER_OF,561993,Eli Thomas Pierce,person,en/books/my-dear-sister/20-letters-5.txt#27
+563852,Sarah Smith Griffin,FATHER_OF,561342,Ernest Adelbert Griffin,person,en/books/my-dear-sister/20-letters-5.txt#27
+19097,Joseph,FATHER_OF,30909,Emma Smith,person,en/books/my-dear-sister/20-letters-5.txt#27
+562046,Willard Richards Smith,FATHER_OF,562378,Willard Grant Smith,person,en/books/my-dear-sister/20-letters-5.txt#28
+213655,William Jasper Harris,FATHER_OF,560565,Franklin Hill Harris,person,en/books/my-dear-sister/20-letters-5.txt#29
+560564,Zina Christine Harris,FATHER_OF,561483,Sarah Rachel Furner,person,en/books/my-dear-sister/20-letters-5.txt#29
+562277,Emily Louie Shurtliff,FATHER_OF,212851,Josephine Smith,person,en/books/my-dear-sister/20-letters-5.txt#29
+57399,George Albert Smith,FATHER_OF,562230,Margaret West Smith,person,en/books/my-dear-sister/20-letters-5.txt#29
+19097,Joseph,FATHER_OF,561654,Andrew Kimball Smith,person,en/books/my-dear-sister/20-letters-5.txt#30
+563244,Martha ann,FATHER_OF,561239,Sarah Lovina Harris,person,en/books/my-dear-sister/20-letters-5.txt#30
+19097,Joseph,FATHER_OF,561597,David Asael Smith,person,en/books/my-dear-sister/20-letters-5.txt#31
+19097,Joseph,FATHER_OF,562047,Franklin Richards Smith,person,en/books/my-dear-sister/20-letters-5.txt#32
+19097,Joseph,FATHER_OF,224509,Martha Smith,person,en/books/my-dear-sister/20-letters-5.txt#33
+561597,David Asael Smith,SPOUSE_OF,562178,Emily Jenkins,person,en/books/my-dear-sister/20-letters-5.txt#33
+563935,Heber Chase Rich Smith,SPOUSE_OF,562031,Leileth Nelson,person,en/books/my-dear-sister/20-letters-5.txt#33
+560800,Jesse Kimball Smith,SPOUSE_OF,562247,Louise May Anderson,person,en/books/my-dear-sister/20-letters-5.txt#33
+517021,Joseph Nelson,FATHER_OF,562288,Joseph Smith Nelson,person,en/books/my-dear-sister/20-letters-5.txt#34
+560706,Julina Clarissa Smith,FATHER_OF,563961,Luacine Peery,person,en/books/my-dear-sister/20-letters-5.txt#35
+209474,Don Carlos Smith,BROTHER_OF,19583,Hyrum Smith,person,en/books/my-dear-sister/07-decade-introduction.txt#22
+19097,Joseph,FATHER_OF,560591,Alice Smith,person,en/books/my-dear-sister/18-letters-4.txt#19
+560562,Mary Emily Harris,FATHER_OF,561026,Mary Elizabeth Corbett,person,en/books/my-dear-sister/18-letters-4.txt#20
+19092,John,SPOUSE_OF,564276,Mercy Dennis,person,en/books/my-dear-sister/18-letters-4.txt#22
+560870,John Fife Bowman,SPOUSE_OF,560588,Edna Melissa Smith,person,en/books/my-dear-sister/18-letters-4.txt#23
+562428,Harry Walter Startup,SPOUSE_OF,561475,Martha Artimissa Harris,person,en/books/my-dear-sister/18-letters-4.txt#24
+176512,WILLIAM,SPOUSE_OF,560602,Ellen Fielding,person,en/books/my-dear-sister/18-letters-4.txt#25
+152010,Joseph Fielding Smith Jr,FATHER_OF,215828,Julina Smith,person,en/books/my-dear-sister/18-letters-4.txt#29
+417838,Rev,SPOUSE_OF,561822,Ann Fielding,person,en/books/my-dear-sister/16-letters-3.txt#31
+561383,Jessie Lena Freckleton,FATHER_OF,561249,Delia Jessie Harris,person,en/books/my-dear-sister/16-letters-3.txt#33
+561542,Emily Angelina Hinckley,FATHER_OF,561551,Emmett Gordon Holbrook,person,en/books/my-dear-sister/16-letters-3.txt#34
+560562,Mary Emily Harris,FATHER_OF,560711,Walter Harris Corbett,person,en/books/my-dear-sister/16-letters-3.txt#34
+560373,Hyrum Smith Harris,FATHER_OF,562723,Mercy Rachel Harris,person,en/books/my-dear-sister/16-letters-3.txt#36
+517021,Joseph Nelson,SPOUSE_OF,561920,Leonora Smith,person,en/books/my-dear-sister/16-letters-3.txt#41
+19097,Joseph,FATHER_OF,560588,Edna Melissa Smith,person,en/books/my-dear-sister/16-letters-3.txt#42
+561682,Rhoda Ann Jennetta Richards,SISTER_OF,19097,Joseph,person,en/books/my-dear-sister/12-letters-1.txt#65
+344086,Jerusha Smith,FATHER_OF,560282,William Pierce,person,en/books/my-dear-sister/12-letters-1.txt#67
+561057,Albert Westley Davis,SPOUSE_OF,560846,Melissa Jane Lambson,person,en/books/my-dear-sister/12-letters-1.txt#68
+352921,Sarah Smith,SPOUSE_OF,560125,Charles Emerson Griffin,person,en/books/my-dear-sister/12-letters-1.txt#68
+352921,Sarah Smith,FATHER_OF,561339,Alice Lovina Griffin,person,en/books/my-dear-sister/12-letters-1.txt#69
+30740,George,SPOUSE_OF,354231,Susan Elizabeth West,person,en/books/my-dear-sister/12-letters-1.txt#73
+30740,George,SPOUSE_OF,290327,Bathsheba Wilson Bigler,person,en/books/my-dear-sister/12-letters-1.txt#73
+359044,Mary Jane Smith,MOTHER_OF,516669,George Gee,person,en/books/my-dear-sister/12-letters-1.txt#79
+359044,Mary Jane Smith,MOTHER_OF,561268,George Washington Gee II,person,en/books/my-dear-sister/12-letters-1.txt#83
+359044,Mary Jane Smith,FATHER_OF,561268,George Washington Gee II,person,en/books/my-dear-sister/12-letters-1.txt#84
+561142,John Osborn Fielding,BROTHER_OF,48817,Mary Fielding Smith,person,en/books/my-dear-sister/12-letters-1.txt#88
+561159,James Ibbotson Fielding,BROTHER_OF,48817,Mary Fielding Smith,person,en/books/my-dear-sister/12-letters-1.txt#88
+565583,Mary Fielding Lupton,FATHER_OF,561195,Ann Jane Lupton,person,en/books/my-dear-sister/12-letters-1.txt#91
+145385,Edna Lambson,FATHER_OF,173915,Ruth Smith,person,en/books/my-dear-sister/15-decade-introduction-3.txt#9
+48817,Mary Fielding Smith,FATHER_OF,560325,Smith Harris,person,en/books/my-dear-sister/19-decade-introduction-5.txt#8
+48817,Mary Fielding Smith,FATHER_OF,559858,Martha Ann Harris,person,en/books/my-dear-sister/19-decade-introduction-5.txt#8
+19870,Brigham Young,SPOUSE_OF,354784,Aunt Zina,person,en/books/my-dear-sister/25-appendix-c.txt#3
+19097,Joseph,FATHER_OF,565975,Martha Ann Baby Zina,person,en/books/my-dear-sister/25-appendix-c.txt#11
+35300,Salome,MOTHER_OF,568192,Apostles James,person,en/books/our-saviors-love/06-our-saviors-love-manifest-resurrection.txt#2
+35072,Nahor,BROTHER_OF,3278,Abraham,person,en/books/lectures-faith-historical-perspective/06-lecture-2.txt#9
+35157,Jairus,FATHER_OF,255653,Raising,person,en/books/tragedy-triumph/03-jesus-christ-our-healer.txt#2
+19076,Zebedee,FATHER_OF,3549,Jacob,person,en/books/the-gospel-according-to-mark/05-introduction-106.txt#25
+19075,Alphaeus,FATHER_OF,3549,Jacob,person,en/books/the-gospel-according-to-mark/05-introduction-106.txt#25
+19092,John,BROTHER_OF,3549,Jacob,person,en/books/the-gospel-according-to-mark/05-introduction-106.txt#25
+534315,JOHN SMITH,BROTHER_OF,81462,Joseph Smith Sr,person,en/books/my-fellow-servants/20-enough-water.txt#0
+387738,CHRISTIAN WHITMER,BROTHER_OF,18663,David,person,en/books/opening-the-heavens/05-documents-of-the-translation-of-the-book-of-mormon.txt#33
+387740,PETER WHITMER,FATHER_OF,18663,David,person,en/books/opening-the-heavens/05-documents-of-the-translation-of-the-book-of-mormon.txt#34
+43320,Isaac Hale,FATHER_OF,360830,Alva Hale,person,en/books/opening-the-heavens/05-documents-of-the-translation-of-the-book-of-mormon.txt#46
+76707,Austin,SISTER_OF,9567,Newel Knight,person,en/books/opening-the-heavens/05-documents-of-the-translation-of-the-book-of-mormon.txt#159
+587485,Mary Ann Stearns Pratt,FATHER_OF,250046,Mary Ann Stearns Winters,person,en/books/opening-the-heavens/12-documents-of-testimonies-of-the-mantle-experience.txt#110
+288225,Akiba,FATHER_OF,12722,Isi,place,en/books/sermon-mount-latter-day-scripture/04-audience-astonishment-sermon-mount-sermon-temple.txt#3
+19540,Rehoboam,FATHER_OF,37333,Abijam,person,en/books/sermon-mount-latter-day-scripture/09-be-ye-therefore-perfect.txt#1
+589294,Vettenos,FATHER_OF,473985,Theodotos,person,en/books/sermon-mount-latter-day-scripture/12-beholdest-thou-priests-levites.txt#8
+19073,James,FATHER_OF,590020,Seleam Haren,person,en/books/the-willie-handcart-company/05-chapter-3-iowa-city-iowa-to-florence-nebraska-territory.txt#14
+19092,John,FATHER_OF,590313,Margaret Ann Stewart,person,en/books/the-willie-handcart-company/03-chapter-1-liverpool-england-to-new-york-city-new-york.txt#11
+19268,Thomas,FATHER_OF,590248,Charles Alma Moulton,person,en/books/the-willie-handcart-company/03-chapter-1-liverpool-england-to-new-york-city-new-york.txt#12
+19268,Thomas,FATHER_OF,590200,Charles Thornton McNeil,person,en/books/the-willie-handcart-company/03-chapter-1-liverpool-england-to-new-york-city-new-york.txt#12
+19484,Edward,FATHER_OF,590317,Elizabeth Ann Farmer,person,en/books/the-willie-handcart-company/03-chapter-1-liverpool-england-to-new-york-city-new-york.txt#12
+19073,James,FATHER_OF,590331,Margaret Kay,person,en/books/the-willie-handcart-company/03-chapter-1-liverpool-england-to-new-york-city-new-york.txt#13
+176512,WILLIAM,FATHER_OF,687046,Lark,person,en/books/the-willie-handcart-company/03-chapter-1-liverpool-england-to-new-york-city-new-york.txt#13
+208801,Hepzibah Richards,SISTER_OF,522118,WILLARD RICHARDS,person,en/books/sustaining-the-law/14-losing-land-claims-and-the-missouri-conflict-in-1838.txt#5
+665531,Perry Durfee,BROTHER_OF,665532,Jabis Durfee,person,en/books/sustaining-the-law/14-losing-land-claims-and-the-missouri-conflict-in-1838.txt#10
+18663,David,FATHER_OF,18645,Jesus,person,en/books/the-testimony-of-luke-a-new-rendition/18-luke-18.txt#1
+18670,Eli,FATHER_OF,19097,Joseph,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+19213,Levi,FATHER_OF,35038,Matthat,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+408988,Jannai,FATHER_OF,35039,Melchi,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+3416,Amos,FATHER_OF,35041,Mattathias,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+35041,Mattathias,FATHER_OF,35047,Maath,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+409657,Josech,FATHER_OF,402087,Semein,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+35049,Rhesa,FATHER_OF,609195,Johannan,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+609196,Shealthiel,FATHER_OF,19879,Zerubbabel,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+35053,Addi,FATHER_OF,35039,Melchi,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+411751,Elmadam,FATHER_OF,35054,Cosam,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+35058,Eliezer,FATHER_OF,19104,Joshua,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+35038,Matthat,FATHER_OF,35059,Jorim,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+19106,Judah,FATHER_OF,19580,Simeon,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+409594,Jonam,FATHER_OF,19097,Joseph,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+19330,Nathan,FATHER_OF,35065,Mattatha,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+36498,Hezron,FATHER_OF,407094,Arni,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+19106,Judah,FATHER_OF,38566,Peres,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+35084,Arphaxad,FATHER_OF,30357,Cainan,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+18680,Enoch,FATHER_OF,609198,Methusalah,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+609199,Mahaleel,FATHER_OF,19078,Jared,place,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+19574,Seth,FATHER_OF,18681,Enos,person,en/books/the-testimony-of-luke-a-new-rendition/03-luke-3.txt#1
+86724,John Wesley,FATHER_OF,174474,Methodism,person,en/books/let-us-reason-together/20-salvation-grace-rewards-degree-works.txt#11
+350761,Elizabeth Tullidge,MOTHER_OF,19484,Edward,person,en/books/wayward-saints/16-church-of-zion.txt#1
+20724,Salt Lake City,FATHER_OF,671411,Carrie Grant,place,en/books/wayward-saints/09-intellectuals-in-zion.txt#4
+18677,Elisha,FATHER_OF,628928,Plymouth Township,person,en/books/exploring-first-vision/06-reverend-george-lane-good-gifts-much-grace-marked-usefulness.txt#3
+261358,Newel,FATHER_OF,213184,Horace Whitney,person,en/books/no-weapon-shall-prosper/08-subject-can-bear-investigation.txt#8
+651368,Pepin,FATHER_OF,482817,Charlemagne,person,en/books/peter-popes/08-pontiffs-palaces-pornocracy-godless-age.txt#2
+43625,Aeneas,FATHER_OF,594014,Iulus,person,en/books/charting-the-new-testament/38-chart-4-1-family-of-caesar.txt#0
+35041,Mattathias,FATHER_OF,19095,Jonathan,person,en/books/the-testimony-of-luke/27-luke-chapter-23-104.txt#15
+36247,Jehoiada,FATHER_OF,19871,Zacharias,person,en/books/the-testimony-of-luke/15-luke-chapter-11-104.txt#43
+18904,Herod,FATHER_OF,35568,Archelaus,person,en/books/the-testimony-of-luke/23-luke-chapter-19-104.txt#11
+19212,Matthew,MOTHER_OF,19073,James,person,en/books/the-testimony-of-luke/26-luke-chapter-22-104.txt#33
+19563,Sarah,MOTHER_OF,18915,Isaac,person,en/books/the-testimony-of-luke/05-luke-chapter-1-104.txt#4
+610916,Susanna Mary,MOTHER_OF,19073,James,person,en/books/the-testimony-of-luke/12-luke-chapter-8-104.txt#8
+3446,Andrew,BROTHER_OF,19498,Peter,person,en/books/new-testament-history-culture-society/17-life-jesus-nazareth.txt#1
+19106,Judah,BROTHER_OF,18645,Jesus,person,en/books/new-testament-history-culture-society/27-hebrews-general-epistles.txt#18
+19094,Jonah,FATHER_OF,19581,Simon,person,en/books/peter-popes/04-simon-peter.txt#0
+18663,David,FATHER_OF,19097,Joseph,person,en/books/the-gospel-according-to-matthew-a-new-rendition/01-matthew-1.txt#1
+416791,Ananus,FATHER_OF,18645,Jesus,place,en/books/view-hebrews/04-destruction-jerusalem.txt#9
+388612,Short,FATHER_OF,482817,Charlemagne,person,en/books/peter-popes/07-render-unto-caesar.txt#2
+55772,Samuel Smith,BROTHER_OF,19097,Joseph,person,en/books/our-rites-worship/10-those-who-receive-you-not-rite-wiping-dust-off-feet.txt#49
+612459,Nancy Young Kent,SISTER_OF,19870,Brigham Young,person,en/books/the-journals-of-william-e-mclellin/21-the-odyssey-of-william-earl-mclellin-man-of-diversity-1806-83.txt#50
+33867,John Russell,SPOUSE_OF,613930,Laura Russell,person,en/books/the-journals-of-william-e-mclellin/11-william-e-mclellin-journal-iii-january-28-1833-may-24-1833.txt#37
+516489,Levi Jones,SPOUSE_OF,614905,Sarah Zolide Reed Jones,person,en/books/the-journals-of-william-e-mclellin/26-biographical-register.txt#28
+33867,John Russell,SPOUSE_OF,615122,Laura Ann Spencer,person,en/books/the-journals-of-william-e-mclellin/26-biographical-register.txt#40
+19581,Simon,FATHER_OF,33318,Alexander,person,en/books/behold-lamb-god/13-jesus-ossuaries-first-century-jewish-burial-practices-lost-tomb-jesus.txt#7
+433971,Leto,FATHER_OF,451885,Apollo,person,en/books/the-revelation-of-john-the-apostle/15-the-dragon-the-woman-and-the-child-109.txt#94
+33599,Zeus,FATHER_OF,451885,Apollo,person,en/books/the-revelation-of-john-the-apostle/05-the-messages-to-the-seven-churches-110.txt#36
+735630,Latter-day Saint,SPOUSE_OF,252230,Phoebe Woodruff,person,en/books/life-beyond-grave/08-near-death-experience.txt#9
+150532,Alvin Smith,BROTHER_OF,19102,Joseph Smith,person,en/books/council-fifty/03-injustices-leading-creation-council-fifty.txt#0
+75868,Thomas Marsh,SPOUSE_OF,102666,Elizabeth Marsh,person,en/books/well-sing-well-shout/09-dedicating-land-zion.txt#11
+3332,Mormon,FATHER_OF,604608,Joseph Kilburn Bent,person,en/books/well-sing-well-shout/26-returning-prodigal.txt#18
+211674,Lorenzo,SPOUSE_OF,44232,Harriet Page Wheeler Young,person,en/books/essentials-in-church-history/39-chapter-39.txt#2
+19870,Brigham Young,SPOUSE_OF,44268,Clarissa Decker Young,person,en/books/essentials-in-church-history/39-chapter-39.txt#2
+59317,Robert,FATHER_OF,44657,Samuel Smith Samuel,person,en/books/essentials-in-church-history/05-chapter-5.txt#0
+44680,John Curtis,FATHER_OF,19201,Rebecca,person,en/books/essentials-in-church-history/05-chapter-5.txt#0
+44721,Zacheus Gould,FATHER_OF,33133,Priscilla,person,en/books/essentials-in-church-history/05-chapter-5.txt#0
+44797,John Mack,FATHER_OF,47127,Ebenezer,person,en/books/essentials-in-church-history/05-chapter-5.txt#3
+388035,Ebenezer Mack,FATHER_OF,44825,Joseph Smith Solomon,person,en/books/essentials-in-church-history/05-chapter-5.txt#3
+695884,Orlando,FATHER_OF,19563,Sarah,person,en/books/essentials-in-church-history/05-chapter-5.txt#3
+44823,Aaron Huntly,FATHER_OF,3461,Hannah,person,en/books/essentials-in-church-history/05-chapter-5.txt#3
+44833,Nathan Gates,FATHER_OF,44830,Lydia Gates,person,en/books/essentials-in-church-history/05-chapter-5.txt#4
+523854,Wasson,SISTER_OF,30909,Emma Smith,person,en/books/essentials-in-church-history/33-chapter-33.txt#0
+12537,Asael,FATHER_OF,232649,prophet Joseph Smith,person,en/books/essentials-in-church-history/06-chapter-6.txt#0
+173412,SOLOMON MACK,FATHER_OF,19741,Lucy Mack,person,en/books/essentials-in-church-history/06-chapter-6.txt#0
+207621,John Young,FATHER_OF,291725,President Brigham Young,person,en/books/essentials-in-church-history/29-chapter-29.txt#8
+18661,Daniel,FATHER_OF,89697,Wells,person,en/books/essentials-in-church-history/51-chapter-51.txt#6
+636198,JOSEPH KNIGHT,FATHER_OF,9567,Newel Knight,person,en/books/essentials-in-church-history/13-chapter-13.txt#0
+19102,Joseph Smith,SPOUSE_OF,48813,Emma,person,en/books/essentials-in-church-history/13-chapter-13.txt#3
+106978,Asael Smith,FATHER_OF,19102,Joseph Smith,person,en/books/essentials-in-church-history/13-chapter-13.txt#7
+19102,Joseph Smith,SPOUSE_OF,30909,Emma Smith,person,en/books/essentials-in-church-history/13-chapter-13.txt#9
+211343,Mercy Rachel Fielding,SISTER_OF,48817,Mary Fielding Smith,person,en/books/essentials-in-church-history/30-chapter-30.txt#7
+534315,JOHN SMITH,FATHER_OF,57399,George Albert Smith,person,en/books/essentials-in-church-history/18-chapter-18.txt#2
+70084,Gardner,FATHER_OF,86879,Levira Clark,person,en/books/history-of-the-church-vol7/18-chapter-18.txt#25
+146012,Phineas Young,BROTHER_OF,19870,Brigham Young,person,en/books/history-of-the-church-vol7/18-chapter-18.txt#26
+173564,John Chrtis,FATHER_OF,388025,Rebecca Curtis,person,en/books/history-of-prophet-joseph-by-his-mother/09-chapter-9.txt#0
+516696,Joshua Grant,FATHER_OF,246843,Caroline Grant,person,en/books/history-of-prophet-joseph-by-his-mother/09-chapter-9.txt#1
+65011,Willard,FATHER_OF,525780,Rhoda Ann,person,en/books/history-of-the-church-vol6/02-chapter-2.txt#2
+59317,Robert,FATHER_OF,18897,Samuel,person,en/books/articles-of-faith/01-chapter-1.txt#20
+19321,Miriam,SISTER_OF,3249,Moses,person,en/books/articles-of-faith/10-chapter-10.txt#3
+3549,Jacob,FATHER_OF,3416,Amos,person,en/books/articles-of-faith/15-chapter-15.txt#16
+537946,Anthony Blackburn,FATHER_OF,537945,Abner Blackburn,person,en/books/history-of-the-church-vol7/40-chapter-40.txt#11
+19104,Joshua,FATHER_OF,65579,Caroline,person,en/books/history-of-the-church-vol7/31-chapter-31.txt#18
+29832,William Smith,BROTHER_OF,19583,Hyrum Smith,person,en/books/history-of-the-church-vol7/24-chapter-24.txt#18
+19268,Thomas,FATHER_OF,48452,Marsh,person,en/books/history-of-the-church-vol3/03-chapter-3.txt#3
+133440,Frederick,FATHER_OF,516976,Swain Williams,person,en/books/history-of-the-church-vol3/03-chapter-3.txt#7
+19092,John,FATHER_OF,31138,Smith,person,en/books/history-of-the-church-vol3/22-chapter-22.txt#10
+31138,Smith,BROTHER_OF,19097,Joseph,person,en/books/history-of-the-church-vol3/17-chapter-17.txt#10
+517464,Dominicus Carter,FATHER_OF,517941,Sarah Emily,person,en/books/history-of-the-church-vol3/10-chapter-10.txt#1
+517687,Asa Wright,FATHER_OF,87003,John Wright,person,en/books/history-of-the-church-vol3/10-chapter-10.txt#11
+63071,Clark,BROTHER_OF,351244,Mrs,person,en/books/history-of-the-church-vol3/28-chapter-28.txt#2
+341485,Warren Smith,FATHER_OF,517218,Sardius Smith,person,en/books/history-of-the-church-vol3/13-chapter-13.txt#7
+19092,John,FATHER_OF,133316,Agnes,person,en/books/history-of-the-church-vol3/11-chapter-11.txt#9
+35041,Mattathias,FATHER_OF,19108,Judas,person,en/books/house-of-the-lord/02-chapter-2.txt#22
+3289,Adam,FATHER_OF,3267,Abel,person,en/books/new-witnesses-for-god-vol3/47-chapter-47.txt#0
+530651,Nimaquiche,FATHER_OF,531845,Acxopil,person,en/books/new-witnesses-for-god-vol3/30-chapter-30.txt#0
+531953,John Spaulding,BROTHER_OF,102714,Solomon Spaulding,person,en/books/new-witnesses-for-god-vol3/44-chapter-44.txt#14
+102714,Solomon Spaulding,FATHER_OF,531981,McKenstry,person,en/books/new-witnesses-for-god-vol3/44-chapter-44.txt#15
+33862,Bernice,SISTER_OF,3299,Agrippa,person,en/books/seventys-course-theology-1st/39-chapter-39.txt#2
+30781,Joseph Young,BROTHER_OF,291725,President Brigham Young,person,en/books/seventys-course-theology-1st/01-chapter-1.txt#5
+402221,God Almighty,FATHER_OF,18644,Jesus Christ,concept,en/books/gospel-doctrine/25-chapter-25.txt#18
+391257,Patriarch,FATHER_OF,19097,Joseph,role,en/books/life-of-john-taylor/49-chapter-49.txt#300
+528360,Odin,SPOUSE_OF,528365,Frigga,people,en/books/seventys-course-theology-3rd/19-chapter-19.txt#1
+701603,Holder,SPOUSE_OF,528382,Freya,person,en/books/seventys-course-theology-3rd/19-chapter-19.txt#1
+528360,Odin,FATHER_OF,528367,Balder,people,en/books/seventys-course-theology-3rd/19-chapter-19.txt#4
+340403,Atlas,FATHER_OF,672825,Maia,person,en/books/seventys-course-theology-3rd/17-chapter-17.txt#2
+482310,MARS,FATHER_OF,528578,Hermione,people,en/books/seventys-course-theology-3rd/17-chapter-17.txt#2
+372384,Venus,FATHER_OF,529039,Cupid,person,en/books/seventys-course-theology-3rd/17-chapter-17.txt#3
+444615,Kahtan,FATHER_OF,528981,Yarab,people,en/books/seventys-course-theology-3rd/23-chapter-23.txt#0
+29822,Eber,FATHER_OF,528990,Joctan,person,en/books/seventys-course-theology-3rd/23-chapter-23.txt#1
+98158,Henry VIII,FATHER_OF,468259,Edward VI,person,en/books/outlines-ecclesiastical-history/12-chapter-12.txt#6
+362770,Aaron Frost,FATHER_OF,208782,Mary Ann Frost,person,en/books/autobiography-parley-p-pratt/20-chapter-20.txt#5
+209383,John Clark,FATHER_OF,36453,Elizabeth Clark,person,en/books/autobiography-parley-p-pratt/54-chapter-54.txt#11
+77244,Christopher,FATHER_OF,36383,Obadiah Pratt,person,en/books/autobiography-parley-p-pratt/54-chapter-54.txt#13
+19421,Obadiah,FATHER_OF,36008,Jared Pratt,person,en/books/autobiography-parley-p-pratt/54-chapter-54.txt#14
+37557,Samuel Carpenter,FATHER_OF,37542,Mary Carpenter,person,en/books/autobiography-parley-p-pratt/54-chapter-54.txt#14
+37589,Samuel Dickison,FATHER_OF,37583,Charity Dickison,person,en/books/autobiography-parley-p-pratt/54-chapter-54.txt#14
+252544,Aphek Woodruff,FATHER_OF,55549,Wilford,person,en/books/wilford-woodruff-fourth-president/04-chapter-4.txt#0
+397883,Mathew Woodruff,FATHER_OF,19092,John,person,en/books/wilford-woodruff-fourth-president/01-chapter-1.txt#1
+19331,Nauvoo,SISTER_OF,520509,William Pitt,place,en/books/wilford-woodruff-fourth-president/12-chapter-12.txt#5
+292531,President John Taylor,SPOUSE_OF,249283,Leonora Cannon Taylor,person,en/books/wilford-woodruff-fourth-president/41-chapter-41.txt#10
+391251,Bishop,SPOUSE_OF,354344,Mary Woolley,role,en/books/wilford-woodruff-fourth-president/37-chapter-37.txt#10
+19583,Hyrum Smith,FATHER_OF,534315,JOHN SMITH,person,en/books/wilford-woodruff-fourth-president/32-chapter-32.txt#0
+55957,Kimball,BROTHER_OF,18663,David,person,en/books/life-of-heber-c-kimball/68-chapter-68.txt#22
+211674,Lorenzo,FATHER_OF,177031,Sobieski Young,person,en/books/life-of-heber-c-kimball/53-chapter-53.txt#1
+45834,Jona,FATHER_OF,3446,Andrew,person,en/books/jesus-the-christ/16-the-chosen-twelve.txt#2
+204448,Alpheus,FATHER_OF,19213,Levi,person,en/books/jesus-the-christ/16-the-chosen-twelve.txt#3
+19209,Lazarus,BROTHER_OF,19299,Martha,person,en/books/jesus-the-christ/27-continuation-perean-judean-ministry.txt#27
+19078,Jared,FATHER_OF,18680,Enoch,person,en/books/jesus-the-christ/05-earthly-advent-predicted.txt#1
+36418,Uzziel,FATHER_OF,19095,Jonathan,person,en/books/jesus-the-christ/13-honored-by-strangers-rejected-by-his-own.txt#12
+35157,Jairus,FATHER_OF,98183,Nain,person,en/books/jesus-the-christ/37-the-resurrection-and-the-ascension.txt#4
+174734,Abigail Carver,MOTHER_OF,174723,Ebenezer Carver,person,en/books/leaves-from-my-journal/14-chapter-14.txt#1
+35011,Cleophas,FATHER_OF,19580,Simeon,person,en/books/great-apostasy/06-chapter-6.txt#8
+696108,Gorman,FATHER_OF,529685,Blatand,person,en/books/new-witness-for-god-vol1/01-chapter-1.txt#2
+515039,Zohah,FATHER_OF,40008,Ephron,people,en/books/new-witness-for-god-vol1/29-chapter-29.txt#10
+186372,Associate Justice,SPOUSE_OF,195465,Waite,people,en/books/story-of-the-mormons/67-chapter-67.txt#1
+18915,Isaac,FATHER_OF,18683,Esau,person,en/books/history-of-the-church-vol4/14-chapter-14.txt#11
+19201,Rebecca,SPOUSE_OF,3549,Jacob,person,en/books/history-of-the-church-vol4/14-chapter-14.txt#11
+65011,Willard,FATHER_OF,560453,Heber John,person,en/books/history-of-the-church-vol4/03-chapter-3.txt#7
+19746,Solomon,FATHER_OF,43297,Lucy,person,en/books/history-of-the-church-vol4/09-chapter-9.txt#27
+3549,Jacob,FATHER_OF,521391,Ann Standley,person,en/books/history-of-the-church-vol4/24-chapter-24.txt#14
+207621,John Young,FATHER_OF,30781,Joseph Young,person,en/books/history-of-the-church-vol1/21-chapter-21.txt#15
+3504,Asa,FATHER_OF,237704,Miriam Works,person,en/books/history-of-the-church-vol1/21-chapter-21.txt#16
+36837,Eliphalet,FATHER_OF,514028,Huldah Chapman,person,en/books/history-of-the-church-vol1/30-chapter-30.txt#8
+261358,Newel,SPOUSE_OF,33637,Lydia,person,en/books/history-of-the-church-vol1/35-chapter-35.txt#27
+208921,James Fielding,BROTHER_OF,67752,Joseph Fielding,person,en/books/history-of-the-church-vol2/70-chapter-70.txt#2
+514976,Ezekiel Johnson,FATHER_OF,514974,Susan Johnson,person,en/books/history-of-the-church-vol2/63-chapter-63.txt#13
+106978,Asael Smith,SPOUSE_OF,343488,Mary Duty Smith,person,en/books/history-of-the-church-vol2/66-chapter-66.txt#0
+19092,John,FATHER_OF,224102,Chidester,person,en/books/history-of-the-church-vol2/48-chapter-48.txt#2
+208445,Chandler Holbrook,FATHER_OF,516556,Diana Holbrook,person,en/books/history-of-the-church-vol2/48-chapter-48.txt#2
+207579,Joseph Holbrook,FATHER_OF,516557,Sarah Lucretia Holbrook,person,en/books/history-of-the-church-vol2/48-chapter-48.txt#2
+207579,Joseph Holbrook,FATHER_OF,516558,Charlotte Holbrook,person,en/books/history-of-the-church-vol2/48-chapter-48.txt#2
+30785,Zera Pulsipher,FATHER_OF,516559,Sarah Pulsipher,person,en/books/history-of-the-church-vol2/48-chapter-48.txt#2
+19092,John,FATHER_OF,516561,Eunice Chidester,person,en/books/history-of-the-church-vol2/48-chapter-48.txt#2
+55881,Lucy Mack Smith,MOTHER_OF,663766,Joseph Smith jr,person,en/books/introduction-book-abraham/02-historical-overview.txt#2
+576994,Osoroeris,FATHER_OF,440393,Horos,person,en/books/introduction-book-abraham/02-historical-overview.txt#3
+381023,When,FATHER_OF,74193,Louisa,person,en/books/women-of-mormondom/76-chapter-76.txt#9
+595951,Aunt Rhoda Richards,SISTER_OF,65011,Willard,person,en/books/women-of-mormondom/104-chapter-104.txt#0
+591361,Millen,SPOUSE_OF,246760,Atwood,person,en/books/women-of-mormondom/104-chapter-104.txt#7
+18663,David,FATHER_OF,133600,Jane Neyman,person,en/books/women-of-mormondom/104-chapter-104.txt#8
+562414,Levi Snow,FATHER_OF,533048,Apostle Erastus Snow,person,en/books/women-of-mormondom/104-chapter-104.txt#9
+523183,Sanford Porter,FATHER_OF,63071,Clark,person,en/books/women-of-mormondom/104-chapter-104.txt#10
+588865,Bishop William,SPOUSE_OF,596012,Martha Granger,person,en/books/women-of-mormondom/104-chapter-104.txt#10
+522536,WILLIAM CLAYTON,SPOUSE_OF,596345,Ruth Moon,person,en/books/women-of-mormondom/107-chapter-107.txt#7
+596530,Samuel Lathrop,FATHER_OF,494729,ABIGAL,person,en/books/women-of-mormondom/80-chapter-80.txt#0
+35552,PARLEY,SPOUSE_OF,9991,Pratt,person,en/books/women-of-mormondom/114-chapter-114.txt#2
+156486,Gen,SPOUSE_OF,1609,Rich,person,en/books/women-of-mormondom/103-chapter-103.txt#2
+534719,Apostle John Taylor,SPOUSE_OF,58578,Leonora,person,en/books/women-of-mormondom/103-chapter-103.txt#6
+339306,Apostle Orson Pratt,SPOUSE_OF,596675,Marian Ross,person,en/books/women-of-mormondom/103-chapter-103.txt#7
+650625,Gioras,FATHER_OF,19581,Simon,people,en/books/pearl-great-price-revelations-god/11-gadiantonism-destruction-jerusalem.txt#12
+19078,Jared,FATHER_OF,35368,Baptist,person,en/books/illuminating-jaredite-records/09-whence-daughter-jared.txt#10
+66601,Orson Spencer,FATHER_OF,30740,George,person,en/books/representative-women-of-deseret/01-chapter-1.txt#20
+455237,Apostle Wilford Woodruff,SPOUSE_OF,79805,Carter,person,en/books/representative-women-of-deseret/01-chapter-1.txt#29
+19268,Thomas,FATHER_OF,122341,Emily Hill Woodmansee,person,en/books/representative-women-of-deseret/01-chapter-1.txt#65
+155748,President,FATHER_OF,143659,Smoot,place,en/books/representative-women-of-deseret/01-chapter-1.txt#94
+19072,Lehi,FATHER_OF,630243,Nephi Nephi,person,en/books/give-ear-my-words/10-records-relics.txt#4
+660398,Prophet Mormon,FATHER_OF,19324,Moroni,person,en/books/scrap-book-mormon-literature-vol2/04-chapter-4.txt#147
+387740,PETER WHITMER,FATHER_OF,31201,David Whitmer,person,en/books/latter-day-prophet-for-young/01-chapter-1.txt#20
+43431,Mahujael,FATHER_OF,622796,Mathusael,person,en/books/book-moses-joseph-smith-translation-manuscripts/09-moses-5.txt#3
+622796,Mathusael,FATHER_OF,30365,Lamech,place,en/books/book-moses-joseph-smith-translation-manuscripts/09-moses-5.txt#3
+621613,Zebedee Salome,FATHER_OF,19073,James,person,en/books/ancient-apostles/02-chapter-2.txt#0
+639367,John Wadley,BROTHER_OF,639368,William Wadley,person,en/books/memoirs-of-john-r-young/01-chapter-1.txt#86
+117005,Newell Knight,FATHER_OF,163203,Lydia Knight,person,en/books/memoirs-of-john-r-young/01-chapter-1.txt#139
+55816,Jochai,FATHER_OF,19581,Simon,place,en/books/samuel-lamanite/03-day-my-wisdom.txt#3
+30365,Lamech,FATHER_OF,459811,Deluge,person,en/books/gospel-themes/01-chapter-1.txt#84
+19314,Methuselah,FATHER_OF,30365,Lamech,person,en/books/gospel-themes/01-chapter-1.txt#84
+218287,John Steele,SPOUSE_OF,641872,Catherine Campbell Steele,person,en/books/mormon-battalion/01-chapter-1.txt#22
+19866,Wilford Woodruff,FATHER_OF,592236,Phoebe Amelia Woodruff,person,en/books/eye-faith/12-prophets-rendering-christlike-service-looking-peter-example.txt#14
+592350,Elaine Brockbank Evans,SISTER_OF,592351,Bernard Brockbank,person,en/books/eye-faith/18-mormon-pavilion-1964-65-new-york-worlds-fair.txt#7
+29850,Lorenzo Snow,FATHER_OF,592506,Milton Snow,person,en/books/eye-faith/05-solomons-temple-compared-salt-lake-temple.txt#1
+584821,Idaho,SPOUSE_OF,393665,CHURCH,people,en/books/eye-faith/11-monument-women-memorial-garden.txt#8
+340918,Utah,SPOUSE_OF,434836,Matheson,person,en/books/eye-faith/11-monument-women-memorial-garden.txt#8
+592808,Dan Delos Bradshaw,FATHER_OF,67101,Barbara Bradshaw Smith,person,en/books/eye-faith/11-monument-women-memorial-garden.txt#13
+89066,Samuel Marion Lee,FATHER_OF,584821,Idaho,person,en/revistas/Liahona/1980/02/revelation-and-you.txt#0
+3579,Cain,FATHER_OF,18680,Enoch,person,en/revistas/Liahona/1980/09/early-families-of-the-earth.txt#0
+36070,Mizraim,FATHER_OF,36081,Casluhim,person,en/revistas/Liahona/1980/09/early-families-of-the-earth.txt#1
+19583,Hyrum Smith,MOTHER_OF,19097,Joseph,person,en/revistas/Liahona/1982/06/a-womans-perspective-on-the-priesthood.txt#0
+19299,Martha,SISTER_OF,19209,Lazarus,person,en/revistas/Liahona/1991/02/in-this-holy-land.txt#2
+682714,Julian Rojas,FATHER_OF,682718,Aniceto Rojas,person,en/revistas/Liahona/1992/03/fidencia-garcia-de-rojas-life-of-a-mexican-pioneer.txt#1
+116480,Jussi Kemppainen,SPOUSE_OF,116479,Raija Kemppainen,person,en/revistas/Liahona/1992/05/drama-on-the-european-stage.txt#11
+261358,Newel,SPOUSE_OF,211811,Elizabeth Ann,person,en/revistas/Liahona/1993/10/house-of-revelation.txt#0
+35300,Salome,MOTHER_OF,19073,James,person,en/revistas/Liahona/1995/04/i-am-the-resurrection-and-the-life.txt#1
+315743,Spanish,FATHER_OF,366712,France,person,en/revistas/Liahona/1999/08/islands-of-light.txt#2
+55881,Lucy Mack Smith,MOTHER_OF,19102,Joseph Smith,person,en/revistas/Liahona/2005/07/did-you-know.txt#0
+178637,CHARLES,FATHER_OF,271127,Zina Young Card,person,en/revistas/Liahona/2006/06/the-profile-of-a-prophet.txt#0
+28096,Kish,FATHER_OF,393883,Merarite Levite,person,en/reference/isbe/J.txt#128
+470377,Judahite,FATHER_OF,36880,Gedor,person,en/reference/isbe/J.txt#128
+464107,An Ephraimite,FATHER_OF,36345,Elkanah,person,en/reference/isbe/J.txt#151
+18675,Elisabeth,MOTHER_OF,19092,John,person,en/revistas/Liahona/2020/09/finding-peace-from-stories-of-infertility-in-the-bible.txt#1
+430822,HEROD'S,SPOUSE_OF,35009,Joanna,people,en/reference/isbe/J.txt#289
+19498,Peter,FATHER_OF,496967,Aberdeenshire,person,en/revistas/Liahona/2022/08/local-news-007.txt#0
+40101,Judith,SPOUSE_OF,477586,Dothaim Manasses,person,en/reference/isbe/B.txt#87
+396911,Gadite,FATHER_OF,42227,Eliasaph,person,en/reference/isbe/D.txt#167
+29832,William Smith,FATHER_OF,770549,Nancy Maria Smith,person,en/books/interpreter-journal/a-response-to-grant-palmers-sexual-allegations-against-joseph-smith-and-the-beginnings-of-polygamy-in-nauvoo.txt#26
+19583,Hyrum Smith,FATHER_OF,174114,Lovina Smith,person,en/books/interpreter-journal/a-response-to-grant-palmers-sexual-allegations-against-joseph-smith-and-the-beginnings-of-polygamy-in-nauvoo.txt#36
+27730,Ammoron,BROTHER_OF,3616,Amalickiah,person,en/books/interpreter-journal/inspired-by-a-better-cause-the-function-of-alma-4344-45-in-mormons-account-of-the-monarchic-wars-against-the-nephites.txt#11
+19092,John,SPOUSE_OF,85544,Annie,person,es/revistas/Liahona/2003/09/finding-peace-through-forgiveness.txt#0
+6221,IGLESIA,MOTHER_OF,732764,Preeti,people,es/revistas/Liahona/2003/07/light-in-a-land-of-mystery.txt#2
+728768,Patrik,BROTHER_OF,732764,Preeti,person,es/revistas/Liahona/2003/07/light-in-a-land-of-mystery.txt#2
+715582,Sofía,SISTER_OF,35172,Susanna,person,es/revistas/Liahona/2004/02/susanna-stahle-of-turku-finland.txt#0
+692509,Sergey,FATHER_OF,348043,Dmitry,person,es/revistas/Liahona/2004/09/putting-family-first-in-ukraine.txt#0
+173412,SOLOMON MACK,FATHER_OF,43297,Lucy,person,es/revistas/Liahona/2004/12/birthplace-of-the-prophet.txt#1
+77622,Cassie,SPOUSE_OF,108726,Will,person,es/revistas/Liahona/2005/01/a-small-thing.txt#0
+97935,Fran,MOTHER_OF,30740,George,person,es/revistas/Liahona/2005/01/becoming-a-deacon.txt#0
+19321,Miriam,MOTHER_OF,699373,José Javier,person,es/revistas/Liahona/2005/01/valiant-in-venezuela.txt#4
+701398,Pepe,SPOUSE_OF,735464,Tepahu,person,es/revistas/Liahona/2005/10/polynesian-pearls.txt#5
+704999,Cho Yong Hyun,BROTHER_OF,737597,Sungja,person,es/revistas/Liahona/2007/08/it-started-with-a-pamphlet.txt#2
+55549,Wilford,BROTHER_OF,67910,Camilla,person,es/revistas/Liahona/2007/10/turning-hearts-in-a-land-of-temples.txt#3
+5852,Cuando,SISTER_OF,737803,Blendina,person,es/revistas/Liahona/2007/10/lds-doctors-give-the-gift-of-sight.txt#0
+30740,George,FATHER_OF,340918,Utah,person,es/revistas/Liahona/2007/10/president-james-e-faust-beloved-shepherd.txt#4
+707030,Paul Vickery,FATHER_OF,89973,David Todd Christofferson,person,es/revistas/Liahona/2008/08/elder-d-todd-christofferson-prepared-to-serve-the-lord.txt#0
+19583,Hyrum Smith,BROTHER_OF,18897,Samuel,person,es/revistas/Liahona/2008/09/first-latter-day-saint-missionary-samuel-smith-born-200-years-ago.txt#0
+739754,Eulogia,SPOUSE_OF,708970,Delio,person,es/revistas/Liahona/2009/09/one-familys-heritage-of-service.txt#1
+708981,Lina,MOTHER_OF,739764,Mercedes,person,es/revistas/Liahona/2009/09/one-familys-heritage-of-service.txt#3
+5852,Cuando,MOTHER_OF,372752,Michel,person,es/revistas/Liahona/2009/02/generations.txt#0
+134432,Últimos Días,FATHER_OF,739139,Eole,person,es/revistas/Liahona/2009/02/generations.txt#2
+63024,Katie,SISTER_OF,84626,Angie,person,es/revistas/Liahona/2009/08/the-temple-im-going-there-someday.txt#0
+3549,Jacob,FATHER_OF,18669,Egypt,person,en/books/interpreter-journal/temples-all-the-way-down-some-notes-on-the-miraj-of-muhammad.txt#13
+710331,Fiorella,FATHER_OF,8469,Soy,person,es/revistas/Liahona/2010/07/forgetting-ourselves-in-sicily.txt#0
+5852,Cuando,FATHER_OF,78738,Alex,person,es/revistas/Liahona/2012/03/alexs-great-example.txt#0
+18661,Daniel,FATHER_OF,5852,Cuando,person,es/revistas/Liahona/2013/04/helping-children-prepare-for-baptism.txt#0
+125817,Milagrosamente,FATHER_OF,23430,Josh,person,es/revistas/Liahona/2013/06/gratitude.txt#0
+743761,Marlin,FATHER_OF,714477,Nemo,place,es/revistas/Liahona/2014/01/enduring-well.txt#0
+5852,Cuando,BROTHER_OF,73734,Janet,person,es/revistas/Liahona/2015/07/finding-a-way-to-forgive.txt#0
+30156,Orson Pratt,BROTHER_OF,35552,PARLEY,person,es/revistas/Liahona/2017/10/five-lessons-for-young-adults-from-young-apostles.txt#1
+748981,Custodia,SISTER_OF,748982,Emilia Maio,place,es/revistas/Liahona/2020/03/ulisses-and-emilia-maio-porto-portugal.txt#0
+43297,Lucy,MOTHER_OF,19735,José,person,es/revistas/Liahona/2020/09/local-news-008.txt#0
+721023,Tatianna,SISTER_OF,721022,Danna,person,es/revistas/Liahona/2020/09/danna-and-the-math-test.txt#0
+5852,Cuando,FATHER_OF,97013,Charlotte,person,es/revistas/Liahona/2022/02/becoming-a-covenant-person-among-a-covenant-people.txt#1
+79341,Doug,SPOUSE_OF,724373,Alice Mae,person,es/revistas/Liahona/2022/08/14_dealing-with-an-unwelcome-diagnosis.txt#2
+59488,Julie,SPOUSE_OF,212485,Carl,person,es/revistas/Liahona/2022/12/19-we-can-find-everyday-ways-to-love-share-and-invite.txt#0
+88664,Ken,SPOUSE_OF,725861,De Ann,person,es/revistas/Liahona/2023/06/18-on-wednesday-call-him-oscar.txt#0
+98845,Louise,MOTHER_OF,726018,Mary Helen,person,es/revistas/Liahona/2023/07/stitches-of-service.txt#0
+35040,Janna,MOTHER_OF,726990,Kamryn,person,es/revistas/Liahona/2024/01/04-our-light-in-the-wilderness.txt#2
+29822,Eber,FATHER_OF,36108,Joktan,person,en/reference/isbe/S.txt#0
+476421,Sabannus,FATHER_OF,415999,Moeth,people,en/reference/isbe/S.txt#0
+387410,Bathia,FATHER_OF,3249,Moses,people,en/reference/isbe/S.txt#9
+465606,Hyrcanus,FATHER_OF,416757,Alexander Janneus,person,en/reference/isbe/S.txt#97
+416918,Josaphias,FATHER_OF,446213,SALIMOTH,person,en/reference/isbe/S.txt#108
+402110,Hassenuah,FATHER_OF,19106,Judah,person,en/reference/isbe/S.txt#108
+19549,Ruth,SPOUSE_OF,3565,Boaz,person,en/reference/isbe/S.txt#109
+18645,Jesus,FATHER_OF,417488,Jeddu,person,en/reference/isbe/S.txt#163
+417807,Sareus,FATHER_OF,18690,Ezra,person,en/reference/isbe/S.txt#196
+417823,Artaphernes,BROTHER_OF,18662,Darius,person,en/reference/isbe/S.txt#197
+37918,Sennacherib,FATHER_OF,418813,Ashurnadin-shum,person,en/reference/isbe/S.txt#285
+418947,Onias Simon,BROTHER_OF,35452,Eleazar,person,en/reference/isbe/S.txt#294
+19566,Shaul,FATHER_OF,19580,Simeon,person,en/reference/isbe/S.txt#369
+36162,Shammah,FATHER_OF,19095,Jonathan,person,en/reference/isbe/S.txt#376
+12506,Ela,FATHER_OF,36627,Shimei,person,en/reference/isbe/S.txt#377
+3278,Abraham,FATHER_OF,36138,Jokshan,person,en/reference/isbe/S.txt#385
+440078,Jezelus,FATHER_OF,420012,Sechenias,person,en/reference/isbe/S.txt#392
+3519,Gilead,FATHER_OF,34007,Shechem,person,en/reference/isbe/S.txt#395
+19579,Shem,BROTHER_OF,19077,Japheth,person,en/reference/isbe/S.txt#404
+36456,Jeduthun,FATHER_OF,19421,Obadiah,person,en/reference/isbe/S.txt#406
+395621,Assyria,MOTHER_OF,465915,Adad-nirari,person,en/reference/isbe/S.txt#420
+18882,Gog,FATHER_OF,19544,Reuben,person,en/reference/isbe/S.txt#436
+19210,Leah,FATHER_OF,19873,Zebulun,person,en/reference/isbe/S.txt#501
+36305,Maacah,FATHER_OF,36344,Shephatiah,person,en/reference/isbe/S.txt#503
+19581,Simon,FATHER_OF,18645,Jesus,person,en/reference/isbe/S.txt#541
+35452,Eleazar,FATHER_OF,18645,Jesus,person,en/reference/isbe/S.txt#550
+421449,Onias II,FATHER_OF,421446,Simon II,people,en/reference/isbe/S.txt#551
+19097,Joseph,FATHER_OF,465606,Hyrcanus,person,en/reference/isbe/S.txt#552
+19200,Rebekah,SISTER_OF,19199,Laban,person,en/reference/isbe/S.txt#784
+651799,Flavius Clemens,SPOUSE_OF,452141,Flavia Domitilla,person,en/reference/isbe/C.txt#5
+423499,Enlil,FATHER_OF,420723,Ninip,person,en/reference/isbe/C.txt#30
+18659,Cyrus,FATHER_OF,425848,Barzia,person,en/reference/isbe/C.txt#33
+45762,Ptolemy,FATHER_OF,431967,Lysimachus,people,en/reference/isbe/C.txt#68
+465526,Onias,FATHER_OF,19581,Simon,person,en/reference/isbe/C.txt#70
+426344,Ninyas,FATHER_OF,426343,Cappodax,people,en/reference/isbe/C.txt#93
+425607,Assur-nacir-apli,FATHER_OF,421273,Shalmaneser II,place,en/reference/isbe/C.txt#117
+36515,Abigail,SPOUSE_OF,37676,Nabal,person,en/reference/isbe/C.txt#125
+426991,Amukkani,FATHER_OF,426990,Musallim-Marduk,person,en/reference/isbe/C.txt#152
+427278,Durmah-ilani,FATHER_OF,427271,Eri-Akua,person,en/reference/isbe/C.txt#179
+36312,Jediael,FATHER_OF,427380,Bilham,person,en/reference/isbe/C.txt#188
+24043,Amoz,FATHER_OF,18674,Prophet,person,en/reference/isbe/C.txt#271
+36338,Johanan,FATHER_OF,42064,Jaddua,person,en/reference/isbe/C.txt#280
+425950,Ramses II,FATHER_OF,405120,Menephthah,person,en/reference/isbe/C.txt#318
+425840,Cambyses,FATHER_OF,18659,Cyrus,person,en/reference/isbe/C.txt#684
+421446,Simon II,FATHER_OF,499863,Onias iii,person,en/reference/isbe/O.txt#72
+33667,Jason,BROTHER_OF,465526,Onias,person,en/reference/isbe/O.txt#72
+36905,Meonothai,FATHER_OF,19106,Judah,person,en/reference/isbe/O.txt#80
+43046,Elimelech,FATHER_OF,43052,Mahlon,person,en/reference/isbe/O.txt#91
+433997,Cinyras,FATHER_OF,395388,Adonis,people,en/reference/isbe/P.txt#92
+36070,Mizraim,FATHER_OF,434678,Zudim,person,en/reference/isbe/P.txt#164
+19262,Luke,BROTHER_OF,19757,Titus,person,en/reference/isbe/P.txt#233
+435790,Aharun,FATHER_OF,35452,Eleazar,person,en/reference/isbe/P.txt#325
+814503,Perdition,FATHER_OF,423360,KJV Dictionary,concept,en/reference/isbe/P.txt#344
+435981,Orkhan,FATHER_OF,435980,Suleiman,place,en/reference/isbe/P.txt#352
+436054,Sarabus,FATHER_OF,436053,Aurelius Diogenes,people,en/reference/isbe/P.txt#367
+436459,Sisygambis,FATHER_OF,401312,Codomannus,people,en/reference/isbe/P.txt#390
+25524,Jonas,FATHER_OF,19498,Peter,person,en/reference/isbe/P.txt#428
+436814,Zaraias,FATHER_OF,461715,Eliaonias,person,en/reference/isbe/P.txt#459
+36898,Eshton,FATHER_OF,19106,Judah,person,en/reference/isbe/P.txt#480
+474063,Macedon,FATHER_OF,33318,Alexander,person,en/reference/isbe/P.txt#491
+51012,Levite,FATHER_OF,35452,Eleazar,person,en/reference/isbe/P.txt#543
+392929,Rameses II,FATHER_OF,469909,Minepthah,person,en/reference/isbe/P.txt#595
+434003,Antigonus,FATHER_OF,33499,Demetrius,person,en/reference/isbe/P.txt#894
+51012,Levite,FATHER_OF,36425,Kishi,person,en/reference/isbe/A.txt#8
+36830,Absalom,FATHER_OF,36305,Maacah,person,en/reference/isbe/A.txt#27
+36830,Absalom,FATHER_OF,440248,Maacha,person,en/reference/isbe/A.txt#27
+19877,Uriel,FATHER_OF,37433,Micaiah,person,en/reference/isbe/A.txt#27
+509970,Kedesh-Naphtali,FATHER_OF,34168,Barak,person,en/reference/isbe/A.txt#33
+39823,Milcah,SISTER_OF,19259,Lot,person,en/reference/isbe/A.txt#53
+490792,Ptolemy Philometor,FATHER_OF,92202,Cleopatra,person,en/reference/isbe/A.txt#79
+35975,Aristobulus,BROTHER_OF,45512,Mariamne,person,en/reference/isbe/B.txt#129
+37465,Elon,FATHER_OF,18683,Esau,person,en/reference/isbe/A.txt#139
+18917,Ishmael,FATHER_OF,441133,Basemath,person,en/reference/isbe/A.txt#139
+18663,David,FATHER_OF,38368,Chileab,person,en/reference/isbe/A.txt#166
+416757,Alexander Janneus,FATHER_OF,35975,Aristobulus,person,en/reference/isbe/A.txt#201
+419644,Shagee,FATHER_OF,19095,Jonathan,people,en/reference/isbe/A.txt#209
+19746,Solomon,FATHER_OF,441133,Basemath,person,en/reference/isbe/A.txt#246
+37201,Elpaal,FATHER_OF,36638,Beriah,person,en/reference/isbe/A.txt#249
+18660,Dan,FATHER_OF,39228,Oholiab,person,en/reference/isbe/A.txt#250
+36166,Zibeon,FATHER_OF,466364,Horite,person,en/reference/isbe/A.txt#255
+442053,Neoptolemos,FATHER_OF,481409,Olympias,people,en/reference/isbe/A.txt#267
+36165,Shobal,FATHER_OF,442481,Ahan,person,en/reference/isbe/A.txt#321
+36345,Elkanah,FATHER_OF,25342,Kohath,person,en/reference/isbe/A.txt#325
+36515,Abigail,SISTER_OF,36234,Zeruiah,person,en/reference/isbe/A.txt#325
+44116,Benjamite,FATHER_OF,36527,Machir,person,en/reference/isbe/A.txt#335
+37340,Naamah,MOTHER_OF,19540,Rehoboam,person,en/reference/isbe/A.txt#338
+442666,Ebed-Asherah,FATHER_OF,442668,Aziru,place,en/reference/isbe/A.txt#342
+36679,Immer,FATHER_OF,36709,Hanani,person,en/reference/isbe/A.txt#374
+35434,Joram,FATHER_OF,24105,Uzziah,person,en/reference/isbe/A.txt#410
+33667,Jason,FATHER_OF,465601,Antipater,person,en/reference/isbe/A.txt#455
+402966,Seleucus Philopator,FATHER_OF,476211,Demetrius Soter,people,en/reference/isbe/A.txt#458
+19872,Zechariah,FATHER_OF,19092,John,person,en/reference/isbe/A.txt#522
+444031,Apollophanes,SPOUSE_OF,444030,Stratonice,people,en/reference/isbe/A.txt#546
+444082,Stratocles,BROTHER_OF,444083,Aegeates,place,en/reference/isbe/A.txt#557
+402966,Seleucus Philopator,FATHER_OF,33499,Demetrius,people,en/reference/isbe/A.txt#580
+444617,Shalikh,FATHER_OF,804740,ABiR,people,en/reference/isbe/A.txt#628
+19579,Shem,FATHER_OF,444618,Arfakhshad,person,en/reference/isbe/A.txt#628
+444618,Arfakhshad,FATHER_OF,444617,Shalikh,person,en/reference/isbe/A.txt#629
+444622,Yaktan,FATHER_OF,444602,Jurhum,place,en/reference/isbe/A.txt#629
+37192,Shaharaim,FATHER_OF,37201,Elpaal,person,en/reference/isbe/A.txt#640
+401111,Mithridates,FATHER_OF,434458,Phraates,place,en/reference/isbe/A.txt#743
+445641,Megabyzus,FATHER_OF,445643,Zopyrus,person,en/reference/isbe/A.txt#744
+15527,Potiphera,MOTHER_OF,19265,Manasseh,person,en/reference/isbe/A.txt#763
+35300,Salome,SISTER_OF,18904,Herod,person,en/reference/isbe/A.txt#766
+432333,Ochran,FATHER_OF,42226,Pagiel,person,en/reference/isbe/A.txt#767
+426344,Ninyas,FATHER_OF,446052,Cappadox,people,en/reference/isbe/A.txt#794
+446056,Belos,FATHER_OF,446055,Ninos,people,en/reference/isbe/A.txt#794
+446255,Jokshah,FATHER_OF,36142,Dedan,place,en/reference/isbe/A.txt#822
+19097,Joseph,SPOUSE_OF,40325,Asenath,person,en/reference/isbe/A.txt#856
+432120,Cyaxares,FATHER_OF,446675,Istuvigu,person,en/reference/isbe/A.txt#892
+44116,Benjamite,FATHER_OF,42261,Palti,person,en/reference/isbe/L.txt#8
+405760,Dorymenes,FATHER_OF,45762,Ptolemy,people,en/reference/isbe/L.txt#391
+3549,Jacob,MOTHER_OF,19097,Joseph,person,en/reference/isbe/R.txt#8
+130029,Edna,FATHER_OF,19563,Sarah,person,en/reference/isbe/R.txt#14
+130029,Edna,SPOUSE_OF,43814,Ecbatana,person,en/reference/isbe/R.txt#14
+36505,Jerahmeel,FATHER_OF,35069,Ram,person,en/reference/isbe/R.txt#23
+18915,Isaac,MOTHER_OF,18683,Esau,person,en/reference/isbe/R.txt#45
+18915,Isaac,SPOUSE_OF,19199,Laban,person,en/reference/isbe/R.txt#45
+39823,Milcah,SISTER_OF,19199,Laban,person,en/reference/isbe/R.txt#45
+36951,Rimmon,FATHER_OF,38380,Beeroth,person,en/reference/isbe/R.txt#48
+36576,Jahdai,FATHER_OF,450940,Calebite,person,en/reference/isbe/R.txt#82
+36163,Seir,FATHER_OF,36186,Dishan,person,en/reference/isbe/U.txt#29
+35072,Nahor,FATHER_OF,40000,Chesed,person,en/reference/isbe/U.txt#30
+18682,Ephraim,FATHER_OF,420093,Sheerah,person,en/reference/isbe/U.txt#32
+36843,Amaziah,FATHER_OF,36557,Azariah,person,en/reference/isbe/U.txt#33
+39304,Jochebed,MOTHER_OF,3249,Moses,person,en/reference/isbe/W.txt#115
+33863,Augustus,SPOUSE_OF,33030,Julia,person,en/reference/isbe/J.txt#5
+496942,Zorzelleus,FATHER_OF,502970,Augia,person,en/reference/isbe/J.txt#35
+19872,Zechariah,FATHER_OF,454263,Asaphite,person,en/reference/isbe/J.txt#38
+36337,Jahaziel,FATHER_OF,454265,Sheconiah,person,en/reference/isbe/J.txt#38
+36498,Hezron,FATHER_OF,112136,Scrub,person,en/reference/isbe/J.txt#40
+19092,John,BROTHER_OF,19095,Jonathan,person,en/reference/isbe/J.txt#42
+37051,Adaiah,FATHER_OF,19106,Judah,person,en/reference/isbe/J.txt#88
+36305,Maacah,MOTHER_OF,3504,Asa,person,en/reference/isbe/J.txt#91
+36785,Omri,FATHER_OF,36335,Jehu,person,en/reference/isbe/J.txt#123
+36417,Shemaiah,FATHER_OF,36330,Joash,person,en/reference/isbe/J.txt#394
+19076,Zebedee,SPOUSE_OF,35300,Salome,person,en/reference/isbe/J.txt#509
+36830,Absalom,FATHER_OF,35041,Mattathias,person,en/reference/isbe/J.txt#556
+24105,Uzziah,FATHER_OF,19106,Judah,person,en/reference/isbe/J.txt#628
+402110,Hassenuah,FATHER_OF,44116,Benjamite,person,en/reference/isbe/J.txt#639
+757218,Chalphi,FATHER_OF,19108,Judas,concept,en/reference/isbe/J.txt#662
+457984,Simon Iscariot,FATHER_OF,19108,Judas,person,en/reference/isbe/J.txt#664
+414091,Kenite,SPOUSE_OF,41789,Jael,person,en/reference/isbe/J.txt#686
+412361,Tabrimmon,FATHER_OF,413694,Benhadad,person,en/reference/isbe/G.txt#41
+24296,Laish,FATHER_OF,42261,Palti,person,en/reference/isbe/G.txt#53
+18873,Gamaliel,FATHER_OF,19581,Simon,person,en/reference/isbe/G.txt#60
+36907,Jephunneh,FATHER_OF,459240,Instance Caleb,person,en/reference/isbe/G.txt#111
+393864,Elan,FATHER_OF,37775,Bashemath,people,en/reference/isbe/G.txt#120
+36167,Anah,FATHER_OF,432429,Oholibamah,person,en/reference/isbe/G.txt#120
+18917,Ishmael,FATHER_OF,37775,Bashemath,person,en/reference/isbe/G.txt#120
+36196,Bela,FATHER_OF,37187,Gera,person,en/reference/isbe/G.txt#124
+406289,Aher,FATHER_OF,459334,Benjaminite,person,en/reference/isbe/G.txt#124
+42297,Zuar,FATHER_OF,420175,Nethanel,person,en/reference/isbe/G.txt#125
+459345,Amaram,FATHER_OF,3249,Moses,people,en/reference/isbe/G.txt#125
+36498,Hezron,FATHER_OF,393071,Chelubai,person,en/reference/isbe/G.txt#126
+36498,Hezron,BROTHER_OF,36505,Jerahmeel,person,en/reference/isbe/G.txt#126
+459388,Shiftan,FATHER_OF,36784,Kemuel,people,en/reference/isbe/G.txt#128
+36764,Dodai,FATHER_OF,35452,Eleazar,person,en/reference/isbe/G.txt#129
+36234,Zeruiah,BROTHER_OF,36233,Joab,person,en/reference/isbe/G.txt#129
+36805,Ahithophel,FATHER_OF,459425,Eliham,person,en/reference/isbe/G.txt#130
+459429,Esbai,FATHER_OF,36276,Naarai,people,en/reference/isbe/G.txt#130
+19499,Pharaoh,FATHER_OF,459460,Bethiah,person,en/reference/isbe/G.txt#134
+36305,Maacah,FATHER_OF,36304,Hanan,person,en/reference/isbe/G.txt#139
+468707,Chaos,FATHER_OF,460405,Ialdaboth,people,en/reference/isbe/G.txt#292
+36783,Othniel,FATHER_OF,426918,Chabris,person,en/reference/isbe/G.txt#415
+37037,Tahath,FATHER_OF,464107,An Ephraimite,person,en/reference/isbe/Z.txt#0
+36627,Shimei,FATHER_OF,44116,Benjamite,person,en/reference/isbe/Z.txt#2
+36679,Immer,FATHER_OF,461641,Zodak,person,en/reference/isbe/Z.txt#5
+38042,Jerusha,MOTHER_OF,24119,Jotham,person,en/reference/isbe/Z.txt#5
+19084,Jeremiah,FATHER_OF,461799,Amital,person,en/reference/isbe/Z.txt#19
+36486,Nahash,FATHER_OF,494729,ABIGAL,person,en/reference/isbe/Z.txt#64
+19088,Jethro,FATHER_OF,3249,Moses,person,en/reference/isbe/Z.txt#77
+387459,Jaddus,SPOUSE_OF,502970,Augia,people,en/reference/isbe/Z.txt#94
+18645,Jesus,FATHER_OF,18893,Habakkuk,person,en/reference/isbe/H.txt#0
+40712,Sargon,FATHER_OF,37918,Sennacherib,person,en/reference/isbe/H.txt#40
+42059,Azzur,FATHER_OF,36407,Gibeon,person,en/reference/isbe/H.txt#64
+36335,Jehu,FATHER_OF,37831,Jehoahaz,person,en/reference/isbe/H.txt#105
+41789,Jael,SPOUSE_OF,414091,Kenite,person,en/reference/isbe/H.txt#132
+445894,Ashhur,FATHER_OF,36882,Tekoa,person,en/reference/isbe/H.txt#175
+19091,Joel,FATHER_OF,51012,Levite,person,en/reference/isbe/H.txt#189
+465512,Hophsiba,MOTHER_OF,19265,Manasseh,place,en/reference/isbe/H.txt#191
+45512,Mariamne,FATHER_OF,18904,Herod,person,en/reference/isbe/H.txt#209
+92202,Cleopatra,FATHER_OF,45528,Herod Philip,person,en/reference/isbe/H.txt#209
+18904,Herod,BROTHER_OF,19529,Philip,person,en/reference/isbe/H.txt#213
+18904,Herod,FATHER_OF,35975,Aristobulus,person,en/reference/isbe/H.txt#217
+465606,Hyrcanus,FATHER_OF,45512,Mariamne,person,en/reference/isbe/H.txt#217
+35975,Aristobulus,FATHER_OF,18905,Herodias,person,en/reference/isbe/H.txt#217
+19529,Philip,BROTHER_OF,18904,Herod,person,en/reference/isbe/H.txt#217
+36457,Hosah,FATHER_OF,36411,Merari,person,en/reference/isbe/H.txt#241
+24297,Anathoth,FATHER_OF,19084,Jeremiah,person,en/reference/isbe/H.txt#241
+465958,Mursilis,BROTHER_OF,465956,Arandas,person,en/reference/isbe/H.txt#256
+392929,Rameses II,FATHER_OF,465967,Seti Merenptah II,person,en/reference/isbe/H.txt#257
+18917,Ishmael,FATHER_OF,36124,Kedar,person,en/reference/isbe/E.txt#12
+394331,Rameses,FATHER_OF,394327,Merenptah,person,en/reference/isbe/E.txt#72
+467282,Karamat,FATHER_OF,18669,Egypt,place,en/reference/isbe/E.txt#77
+37187,Gera,FATHER_OF,44116,Benjamite,person,en/reference/isbe/E.txt#88
+37026,Uzzi,FATHER_OF,44116,Benjamite,person,en/reference/isbe/E.txt#89
+467500,Billama,FATHER_OF,467499,Mekubi,place,en/reference/isbe/E.txt#96
+467507,Ebari,FATHER_OF,467508,Silhaha,people,en/reference/isbe/E.txt#97
+467549,Te-umman,FATHER_OF,467558,Undasi,person,en/reference/isbe/E.txt#101
+464107,An Ephraimite,FATHER_OF,18897,Samuel,person,en/reference/isbe/E.txt#151
+3247,Aaron,MOTHER_OF,36537,Nadab,person,en/reference/isbe/E.txt#151
+3247,Aaron,SPOUSE_OF,392037,Nashon,person,en/reference/isbe/E.txt#151
+3580,Caleb,FATHER_OF,36165,Shobal,person,en/reference/isbe/E.txt#333
+19746,Solomon,FATHER_OF,469441,Menelek,person,en/reference/isbe/E.txt#441
+418627,SELEUCUS,FATHER_OF,476211,Demetrius Soter,person,en/reference/isbe/E.txt#458
+494839,Accos,FATHER_OF,19092,John,person,en/reference/isbe/E.txt#460
+36352,Jeroham,FATHER_OF,44116,Benjamite,person,en/reference/isbe/I.txt#0
+19086,Jeroboam,FATHER_OF,19872,Zechariah,person,en/reference/isbe/I.txt#0
+36689,Jaaziah,FATHER_OF,470437,Merarite Levitt,person,en/reference/isbe/I.txt#1
+36727,Joah,FATHER_OF,470468,Gershomite Levite,person,en/reference/isbe/I.txt#4
+443536,BARTACUS,FATHER_OF,478014,Apame,people,en/reference/isbe/I.txt#9
+19106,Judah,FATHER_OF,36916,Eshtemoa,person,en/reference/isbe/I.txt#191
+38164,Kareah,FATHER_OF,454053,Johnnan,person,en/reference/isbe/I.txt#197
+36843,Amaziah,FATHER_OF,19222,Kings,person,en/reference/isbe/I.txt#234
+205268,Vespasian,FATHER_OF,19757,Titus,people,en/reference/isbe/I.txt#250
+38002,Jehoash,FATHER_OF,309015,Jeroboam II,person,en/reference/isbe/I.txt#257
+36168,Dishon,FATHER_OF,466364,Horite,person,en/reference/isbe/I.txt#297
+36788,Pedaiah,FATHER_OF,452245,Zebidah,person,en/reference/isbe/Q.txt#5
+396106,Ammonitess,MOTHER_OF,19540,Rehoboam,people,en/reference/isbe/Q.txt#5
+37827,Shilhi,MOTHER_OF,19082,Jehoshaphat,person,en/reference/isbe/Q.txt#5
+36785,Omri,MOTHER_OF,36842,Ahaziah,person,en/reference/isbe/Q.txt#5
+83911,Beersheba,MOTHER_OF,38002,Jehoash,person,en/reference/isbe/Q.txt#5
+3436,Jerusalem,MOTHER_OF,36843,Amaziah,place,en/reference/isbe/Q.txt#5
+3436,Jerusalem,MOTHER_OF,36557,Azariah,place,en/reference/isbe/Q.txt#5
+35449,Zadok,MOTHER_OF,24119,Jotham,person,en/reference/isbe/Q.txt#5
+19872,Zechariah,MOTHER_OF,18906,Hezekiah,person,en/reference/isbe/Q.txt#5
+45503,Hephzibah,MOTHER_OF,19265,Manasseh,person,en/reference/isbe/Q.txt#5
+411002,Jotbah,MOTHER_OF,35435,Amon,people,en/reference/isbe/Q.txt#5
+758786,Bozkath,MOTHER_OF,19105,Josiah,concept,en/reference/isbe/Q.txt#5
+37062,Libnah,MOTHER_OF,37831,Jehoahaz,person,en/reference/isbe/Q.txt#5
+452253,Rumah,MOTHER_OF,35062,Jehoiakim,person,en/reference/isbe/Q.txt#5
+3436,Jerusalem,MOTHER_OF,35436,Jehoiachin,place,en/reference/isbe/Q.txt#5
+37062,Libnah,MOTHER_OF,19875,Zedekiah,person,en/reference/isbe/Q.txt#5
+600279,Aristobulus II,FATHER_OF,33318,Alexander,person,en/reference/isbe/T.txt#43
+589966,Adel,BROTHER_OF,396808,Saladin,people,en/reference/isbe/T.txt#44
+445885,Ishtar,SPOUSE_OF,472809,Dumuzu,person,en/reference/isbe/T.txt#64
+19581,Simon,BROTHER_OF,203561,Judas Maccabeus,person,en/reference/isbe/T.txt#230
+437076,Philip II,FATHER_OF,33479,Thessalonica,people,en/reference/isbe/T.txt#247
+19108,Judas,BROTHER_OF,18645,Jesus,person,en/reference/isbe/T.txt#258
+465960,Hattusil,FATHER_OF,465966,Dudhalia,person,en/reference/isbe/T.txt#275
+444465,ARAB,FATHER_OF,36673,Shecaniah,people,en/reference/isbe/T.txt#305
+37092,Puah,FATHER_OF,428903,JUDGES,person,en/reference/isbe/T.txt#318
+474624,Thorgom,FATHER_OF,474625,Haik,people,en/reference/isbe/T.txt#318
+418627,SELEUCUS,FATHER_OF,33499,Demetrius,person,en/reference/isbe/T.txt#412
+19581,Simon,BROTHER_OF,19095,Jonathan,person,en/reference/isbe/T.txt#427
+400911,Astyages,FATHER_OF,425842,Amytis,person,en/reference/isbe/N.txt#65
+400180,Nitocris,MOTHER_OF,475835,Nabunaid,person,en/reference/isbe/N.txt#65
+36709,Hanani,BROTHER_OF,19413,Nehemiah,person,en/reference/isbe/N.txt#76
+42130,Sanballat,FATHER_OF,425852,Dalayah,person,en/reference/isbe/N.txt#77
+33546,Claudius,FATHER_OF,476041,Octavia,person,en/reference/isbe/N.txt#87
+476073,Annaeus Mela,BROTHER_OF,30848,Seneca,person,en/reference/isbe/N.txt#93
+445965,Shamash,SPOUSE_OF,477401,Malkatu,person,en/reference/isbe/B.txt#59
+19095,Jonathan,BROTHER_OF,441241,Judas Maccabee,person,en/reference/isbe/B.txt#75
+36830,Absalom,FATHER_OF,19095,Jonathan,person,en/reference/isbe/B.txt#178
+475835,Nabunaid,FATHER_OF,19412,Nebuchadnezzar,person,en/reference/isbe/B.txt#242
+36974,Assyrians,FATHER_OF,36335,Jehu,people,en/reference/isbe/B.txt#243
+19746,Solomon,FATHER_OF,478582,Tappath,person,en/reference/isbe/B.txt#244
+37398,Hazael,FATHER_OF,478649,Benhadad III,person,en/reference/isbe/B.txt#254
+37398,Hazael,FATHER_OF,413694,Benhadad,person,en/reference/isbe/B.txt#254
+36638,Beriah,FATHER_OF,420093,Sheerah,person,en/reference/isbe/B.txt#278
+33863,Augustus,FATHER_OF,33030,Julia,person,en/reference/isbe/B.txt#291
+19108,Judas,FATHER_OF,19092,John,person,en/reference/isbe/B.txt#304
+39709,Henadad,FATHER_OF,478209,Bavvai,person,en/reference/isbe/B.txt#359
+480748,Title When,MOTHER_OF,19092,John,concept,en/reference/isbe/K.txt#34
+36648,Mahli,FATHER_OF,51012,Levite,person,en/reference/isbe/K.txt#72
+36430,Maaseiah,FATHER_OF,44116,Benjamite,person,en/reference/isbe/K.txt#83
+440248,Maacha,FATHER_OF,36479,Achish,person,en/reference/isbe/M.txt#0
+19529,Philip,FATHER_OF,116830,Macedonian,person,en/reference/isbe/M.txt#37
+33365,Aretas,FATHER_OF,27544,Antipas,person,en/reference/isbe/M.txt#44
+396911,Gadite,FATHER_OF,42271,Geuel,person,en/reference/isbe/M.txt#45
+39300,Zohar,FATHER_OF,442679,Hittite,person,en/reference/isbe/M.txt#46
+18917,Ishmael,FATHER_OF,18683,Esau,person,en/reference/isbe/M.txt#62
+36792,Iddo,FATHER_OF,36225,Abinadab,person,en/reference/isbe/M.txt#63
+36411,Merari,FATHER_OF,36648,Mahli,person,en/reference/isbe/M.txt#67
+37192,Shaharaim,FATHER_OF,41777,Benjamites,person,en/reference/isbe/M.txt#79
+36083,Amorite,BROTHER_OF,481841,Eschcol,person,en/reference/isbe/M.txt#86
+423059,Chuzas,SPOUSE_OF,35009,Joanna,person,en/reference/isbe/M.txt#181
+35041,Mattathias,FATHER_OF,19092,John,person,en/reference/isbe/M.txt#220
+36797,Chelub,FATHER_OF,19106,Judah,person,en/reference/isbe/M.txt#254
+444263,Gennaeus,FATHER_OF,421434,Apollonius,person,en/reference/isbe/M.txt#269
+36165,Shobal,FATHER_OF,420326,Kiriath-jearim,person,en/reference/isbe/M.txt#270
+37192,Shaharaim,FATHER_OF,44116,Benjamite,person,en/reference/isbe/M.txt#283
+39687,Tobiah,FATHER_OF,36724,Jehohanan,person,en/reference/isbe/M.txt#287
+23674,Mighty God,FATHER_OF,469193,Eternity,concept,en/reference/isbe/M.txt#291
+18680,Enoch,FATHER_OF,19574,Seth,person,en/reference/isbe/M.txt#306
+37433,Micaiah,FATHER_OF,36202,Achbor,person,en/reference/isbe/M.txt#308
+36434,Jeiel,FATHER_OF,44116,Benjamite,person,en/reference/isbe/M.txt#324
+35072,Nahor,SPOUSE_OF,36573,Haran,person,en/reference/isbe/M.txt#324
+483628,Nathaiah,FATHER_OF,18917,Ishmael,place,en/reference/isbe/M.txt#377
+37355,Hezion,FATHER_OF,484309,Tab-rimmon,person,en/reference/isbe/D.txt#7
+36627,Shimei,FATHER_OF,19095,Jonathan,person,en/reference/isbe/D.txt#50
+18910,Hosea,SPOUSE_OF,36061,Gomer,person,en/reference/isbe/D.txt#195
+19077,Japheth,FATHER_OF,36061,Gomer,person,en/reference/isbe/D.txt#216
+19077,Japheth,FATHER_OF,36063,Javan,person,en/reference/isbe/D.txt#267
+19875,Zedekiah,FATHER_OF,27758,Mulek,person,en/books/doctrines-of-salvation/vol3/16-kingdoms-of-this-world.txt#7
+3278,Abraham,SPOUSE_OF,36136,Keturah,person,en/books/doctrines-of-salvation/vol3/05-priesthood-god-s-eternal-power.txt#5
+3549,Jacob,FATHER_OF,19213,Levi,person,en/books/doctrines-of-salvation/vol3/06-priesthood-organization.txt#7
+30740,George,SPOUSE_OF,31138,Smith,person,en/books/doctrines-of-salvation/vol3/08-the-holy-apostleship.txt#7
+18897,Samuel,BROTHER_OF,30497,Hyrum,person,en/books/doctrines-of-salvation/vol3/09-patriarchs-blessings-and-administrations.txt#4
+207621,John Young,FATHER_OF,19870,Brigham Young,person,en/books/doctrines-of-salvation/vol3/99-footnotes.txt#6
+763402,Birchri,FATHER_OF,36072,Sheba,people,en/books/interpreter-journal/an-important-addition-to-the-library.txt#7
+26766,Anti-Nephi-Lehi,BROTHER_OF,19206,Lamoni,person,en/books/interpreter-journal/that-they-may-once-again-be-a-delightsome-people-the-concept-of-again-becoming-the-seed-of-joseph-words-of-mormon-18-and-mormon-74-5.txt#16
+3289,Adam,FATHER_OF,769663,Sitil,person,en/books/interpreter-journal/freemasonry-and-the-origins-of-modern-temple-ordinances.txt#52
+566293,Brian Hales,SPOUSE_OF,768330,Laura Hales,person,en/books/interpreter-journal/big-trouble-in-river-city-american-crucifixion-and-the-defaming-of-joseph-smith.txt#15
+624772,ISIS,FATHER_OF,398694,Horus,people,en/books/interpreter-journal/the-divine-handclasp-in-the-hebrew-bible-and-in-near-eastern-iconography.txt#2
+19583,Hyrum Smith,SPOUSE_OF,55494,Mary Fielding,person,en/books/interpreter-journal/women-and-the-priesthood-in-the-contemporary-church.txt#5
+19565,Sariah,MOTHER_OF,18918,Nephi,person,en/books/interpreter-journal/the-literary-structure-of-alma-17-20-a-14-unit-chiasm.txt#45
+226745,Lewis Bidamon,FATHER_OF,777081,Charles Bidamon,person,en/books/interpreter-journal/the-original-text-of-the-book-of-mormon-and-its-publication-by-yale-university-press.txt#1
+351670,Sylvia Lyon,FATHER_OF,341952,Josephine Lyon,person,en/books/interpreter-journal/a-response-to-denver-snuffers-essay-on-plural-marriage-adoption-and-the-supposed-falling-away-of-the-church-part-1-ignoring-inconvenient-evidence.txt#13
+44924,Osiris,FATHER_OF,398694,Horus,person,en/books/interpreter-journal/joseph-smith-the-worlds-greatest-guesser.txt#141
+528360,Odin,FATHER_OF,783870,Baldur,people,en/books/interpreter-journal/signals-of-transcendence.txt#1
+788817,Smail,FATHER_OF,788832,Meho,place,en/books/interpreter-journal/joseph-smith-as-a-book-of-mormon-storyteller.txt#7
+425950,Ramses II,FATHER_OF,557313,Merneptah,person,en/books/interpreter-journal/record-keeping-technology-among-gods-people-in-ancient-and-modern-times.txt#12
+794303,Ahimelek,FATHER_OF,35320,Abiathar,people,en/books/interpreter-journal/lehi-joseph-and-the-kingdom-of-israel.txt#2
+806155,Paanchi,BROTHER_OF,795374,Parhoran,person,en/books/interpreter-journal/that-which-you-have-translated-which-you-have-retained.txt#17
+111786,Charles Wesley,BROTHER_OF,86724,John Wesley,person,en/books/interpreter-journal/theres-the-boy-i-can-trust-dennison-lott-harris-first-person-account-of-the-conspiracy-of-nauvoo-and-events-surrounding-joseph-smiths-last-charge.txt#63
+19750,Stephen,SPOUSE_OF,796897,Diane Timmerman,person,en/books/interpreter-journal/theres-the-boy-i-can-trust-dennison-lott-harris-first-person-account-of-the-conspiracy-of-nauvoo-and-events-surrounding-joseph-smiths-last-charge.txt#65
+398694,Horus,FATHER_OF,576955,Duamutef,person,en/books/interpreter-journal/a-precious-resource-with-some-gaps.txt#58
+19536,Rachel,MOTHER_OF,19097,Joseph,person,en/books/interpreter-journal/there-is-no-beauty-that-we-should-desire-him.txt#3
+18654,Oliver Cowdery,SPOUSE_OF,18676,Elizabeth,person,en/books/interpreter-journal/joseph-smith-at-the-veil-significant-ritual-symbolism-and-temple-influence-at-latter-day-saint-beginnings.txt#34
+19479,Pahoran,FATHER_OF,806155,Paanchi,person,en/books/interpreter-journal/proper-names-and-political-claims-semitic-echoes-as-foundations-for-claims-to-the-nephite-throne.txt#29
+19529,Philip,FATHER_OF,33318,Alexander,person,en/books/interpreter-journal/when-was-christ-born.txt#16
+30121,John Johnson,FATHER_OF,379773,Marinda Nancy Johnson,person,en/books/interpreter-journal/death-to-seducers-examples-of-latter-day-saint-led-extralegal-justice-in-historical-context.txt#16
+513464,Eli Johnson,BROTHER_OF,208940,Marinda,person,en/books/interpreter-journal/death-to-seducers-examples-of-latter-day-saint-led-extralegal-justice-in-historical-context.txt#16
+38154,Elnathan,FATHER_OF,812544,Konyahu,person,en/books/interpreter-journal/verbal-punctuation-in-the-book-of-mormon-i-and-now.txt#8
+391545,Nephihah,FATHER_OF,814050,Zarahemla Parhoron,person,en/books/interpreter-journal/can-you-suppose-that-the-lord-will-spare-you-moronis-charged-rhetoric-in-alma-6030-32.txt#0
+19072,Lehi,FATHER_OF,19097,Joseph,person,en/books/interpreter-journal/i-shall-gather-in-the-name-joseph-iterative-divine-action-and-the-latter-day-harvest-ingathering-of-israel-as-themes-in-3-nephi.txt#15
+815241,Eyptes,MOTHER_OF,19499,Pharaoh,people,en/books/interpreter-journal/joseph-smith-jr-as-a-translator-the-book-of-abraham-as-a-case-study.txt#8
+18918,Nephi,FATHER_OF,3416,Amos,person,en/books/interpreter-journal/labor-diligently-to-write-the-ancient-making-of-a-modern-scripture-2.txt#30
+502148,El Elyon,FATHER_OF,416114,Yahweh,people,en/books/interpreter-journal/eye-of-the-beholder-law-of-the-harvest-observations-on-the-inevitable-consequences-of-the-different-investigative-approaches-of-jeremy-runnells-and-jeff-lindsay.txt#27
+18680,Enoch,SPOUSE_OF,40163,Dinah,person,en/books/interpreter-journal/ancient-affinities-within-the-lds-book-of-enoch-part-two.txt#24
+457559,Jacob-Israel,FATHER_OF,18660,Dan,person,en/books/interpreter-journal/ancient-affinities-within-the-lds-book-of-enoch-part-two.txt#26
+18910,Hosea,FATHER_OF,36904,Seraiah,person,en/books/interpreter-journal/revisiting-sariah-at-elephantine.txt#0
+19871,Zacharias,MOTHER_OF,19092,John,person,en/study-aids/guide-to-scriptures/elisabeth.txt#0
+19072,Lehi,SPOUSE_OF,3332,Mormon,person,en/study-aids/guide-to-scriptures/sariah.txt#0
+19265,Manasseh,BROTHER_OF,42064,Jaddua,person,en/study-aids/bible-dictionary/temple-on-mount-gerizim.txt#0
+44153,Caesar Augustus,FATHER_OF,33030,Julia,person,en/study-aids/bible-dictionary/bethsaida.txt#0
+3278,Abraham,BROTHER_OF,19200,Rebekah,person,en/study-aids/bible-dictionary/laban.txt#0
