@@ -33,6 +33,35 @@ FATHER_OF inference IS safe under polygamy because polygamous marriages
 in this corpus are one-man-multiple-wives, not multi-husband — siblings
 (full or half) always share the father.
 
+    Unconventional cases — what the engine does NOT attempt
+    --------------------------------------------------------
+    * **Endogamy (close-kin marriage)**. Amram + Jochebed (aunt-nephew,
+      Ex 6:20), Nahor + Milcah (uncle-niece, Gen 11:29), Abraham + Sarah
+      (half-siblings, Gen 20:12) — all legitimate under patriarchal/tribal
+      convention. The engine accepts `SPOUSE_OF` alongside whatever other
+      kin edges exist without fabricating contradictions, but doesn't try
+      to "explain" the endogamy. Covered by tests in
+      TestUnconventionalCases.
+
+    * **Legal vs biological parentage** (Jesus, levirate marriage under
+      Deut 25:5-10, adoption). Multiple `FATHER_OF` edges pointing to the
+      same child are stored as-is. The `role` column on the schema
+      (currently unused) is the intended place for `biological` /
+      `legal` / `adoptive` / `levirate` qualifiers once a curator
+      populates it.
+
+    * **Parónimos / aliasing** (Saul=Paul, Jacob=Israel, Abram=Abraham,
+      Sarai=Sarah, Simon=Cephas=Peter, Esau's wives under multiple
+      names — Gen 26:34 vs 28:9 vs 36:2-3). This is an entity-resolution
+      concern, not an inference concern. Handled via `entity_aliases`
+      in the schema; not attempted by this engine. Mixed canonicalization
+      in relation extraction would create false equivalences.
+
+    Rule of thumb: if a case requires knowledge outside the text
+    (theological interpretation, legal tradition, textual criticism,
+    onomastic reconciliation), leave it to curated data. The engine only
+    applies rules that are defensible from plain relations.
+
 The closure runs to a fixed point: each pass adds zero or more edges, and
 we stop when a pass adds nothing new. With at most a few thousand family
 edges this converges in 2–4 passes.
