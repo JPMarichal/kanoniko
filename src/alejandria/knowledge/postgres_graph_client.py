@@ -709,20 +709,346 @@ class PostgresGraphClient:
             "Stub kept; implement when parallels table is added."
         )
 
+    # ------------------------------------------------------------------ #
+    # Tier 2d: genealogy (recursive CTE + LIMIT intermedio)
+    # ------------------------------------------------------------------ #
+
     def get_genealogy_tree(
         self,
-        person: str,
-        direction: str = "descendants",
+        name: str,
+        direction: str = "both",
         depth: int = 3,
         lang: str = "en",
     ) -> dict:
-        raise NotImplementedError(
-            "Tier 2d — recursive CTE with LIMIT intermedio "
-            "(pattern in docs/postgres-migration.md §2.3)"
+        """Build a hierarchical family tree for an entity.
+
+        Signature + return shape match ``Neo4jClient.get_genealogy_tree``.
+        Uses separate recursive CTEs for ancestors and descendants, with
+        LIMIT intermedio = 5000 per direction (hub safety). Tree is built
+        in Python via ``_attach_ancestors`` / ``_attach_descendants``, same
+        algorithm as Neo4j version.
+        """
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        hit = is_canonical(name)
+        target = hit[0] if hit else (name or "").strip()
+        if not target:
+            return {
+                "name": name, "name_alt": None, "type": "person",
+                "relation": None, "spouses": [], "parents": [], "children": [],
+            }
+
+        depth = max(1, min(depth, 10))
+
+        root: dict[str, Any] = {
+            "name": target,
+            "name_alt": self._alt_name(target, lang),
+            "type": "person",
+            "relation": None,
+            "spouses": [],
+            "parents": [],
+            "children": [],
+        }
+
+        family_types = ("FATHER_OF", "MOTHER_OF")
+
+        # Ancestors: walk backwards. Each path: ancestor → ... → target.
+        if direction in ("up", "both"):
+            paths = self._walk_family(
+                target_name=target,
+                follow="ancestors",
+                rel_types=family_types,
+                depth=depth,
+            )
+            for ns, rs in paths:
+                self._attach_ancestors(root, ns, rs, lang)
+
+        # Descendants: forward walk. Each path: target → ... → descendant.
+        if direction in ("down", "both"):
+            paths = self._walk_family(
+                target_name=target,
+                follow="descendants",
+                rel_types=family_types,
+                depth=depth,
+            )
+            for ns, rs in paths:
+                self._attach_descendants(root, ns, rs, lang)
+
+        # Spouses at root level (bidirectional SPOUSE_OF)
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT DISTINCT b.name, b.entity_type "
+                    "FROM entities a JOIN relations r ON r.src_id = a.id "
+                    "JOIN entities b ON b.id = r.dst_id "
+                    "WHERE a.name = %s AND r.rel_type = 'SPOUSE_OF' "
+                    "UNION "
+                    "SELECT DISTINCT b.name, b.entity_type "
+                    "FROM entities a JOIN relations r ON r.dst_id = a.id "
+                    "JOIN entities b ON b.id = r.src_id "
+                    "WHERE a.name = %s AND r.rel_type = 'SPOUSE_OF'",
+                    (target, target),
+                )
+                for sn, st in cur.fetchall():
+                    if not any(s["name"] == sn for s in root["spouses"]):
+                        root["spouses"].append({
+                            "name": sn,
+                            "name_alt": self._alt_name(sn, lang),
+                            "type": st or "person",
+                        })
+
+        return root
+
+    def _walk_family(
+        self,
+        target_name: str,
+        follow: str,
+        rel_types: tuple[str, ...],
+        depth: int,
+    ) -> list[tuple[list[dict], list[dict]]]:
+        """Return list of (nodes, rels) path tuples for ``target_name``.
+
+        ``follow='ancestors'`` walks ``src_id → dst_id`` edges backwards
+        (so src is the ancestor, dst is the descendant closer to target).
+        ``follow='descendants'`` walks forward from target to leaves.
+
+        Shapes match Neo4j records:
+            nodes = [{"name": ..., "type": ...}, ...]   # ordered from ancestor to target (ancestors) or target to leaf (descendants)
+            rels  = [{"type": ..., "from": ..., "to": ...}, ...]
+        """
+        if follow == "ancestors":
+            # src is ancestor, dst is closer to target.
+            # Anchor: relations where dst = target.
+            anchor = (
+                "SELECT r.src_id AS current_id, r.dst_id AS next_id, r.rel_type, "
+                "       1 AS hop, ARRAY[r.src_id, r.dst_id] AS node_ids, "
+                "       ARRAY[r.rel_type] AS rel_types "
+                "FROM relations r JOIN target t ON t.id = r.dst_id "
+                "WHERE r.rel_type = ANY(%s) "
+            )
+            step = (
+                "SELECT r.src_id, r.dst_id, r.rel_type, b.hop + 1, "
+                "       ARRAY[r.src_id] || b.node_ids, "
+                "       ARRAY[r.rel_type] || b.rel_types "
+                "FROM relations r JOIN bfs b ON r.dst_id = b.current_id "
+                "WHERE r.rel_type = ANY(%s) AND b.hop < %s "
+                "  AND NOT r.src_id = ANY(b.node_ids)"
+            )
+        else:  # descendants
+            anchor = (
+                "SELECT r.dst_id AS current_id, r.src_id AS prev_id, r.rel_type, "
+                "       1 AS hop, ARRAY[r.src_id, r.dst_id] AS node_ids, "
+                "       ARRAY[r.rel_type] AS rel_types "
+                "FROM relations r JOIN target t ON t.id = r.src_id "
+                "WHERE r.rel_type = ANY(%s) "
+            )
+            step = (
+                "SELECT r.dst_id, r.src_id, r.rel_type, b.hop + 1, "
+                "       b.node_ids || ARRAY[r.dst_id], "
+                "       b.rel_types || ARRAY[r.rel_type] "
+                "FROM relations r JOIN bfs b ON r.src_id = b.current_id "
+                "WHERE r.rel_type = ANY(%s) AND b.hop < %s "
+                "  AND NOT r.dst_id = ANY(b.node_ids)"
+            )
+
+        sql = (
+            "WITH RECURSIVE target AS (SELECT id FROM entities WHERE name = %s LIMIT 1), "
+            "bfs AS ( "
+            f"{anchor} UNION ALL {step}"
+            "), capped AS (SELECT * FROM bfs LIMIT 5000) "
+            "SELECT node_ids, rel_types FROM capped ORDER BY hop"
         )
+        rel_list = list(rel_types)
+        params = [target_name, rel_list, rel_list, depth]
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        if not rows:
+            return []
+
+        # Collect all entity IDs to resolve in one query.
+        all_ids: set[int] = set()
+        for node_ids, _ in rows:
+            all_ids.update(node_ids)
+        id_to_info: dict[int, dict] = {}
+        if all_ids:
+            with get_connection() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        "SELECT id, name, entity_type FROM entities WHERE id = ANY(%s)",
+                        (list(all_ids),),
+                    )
+                    for eid, n, et in cur.fetchall():
+                        id_to_info[eid] = {"name": n, "type": et or "person"}
+
+        paths: list[tuple[list[dict], list[dict]]] = []
+        for node_ids, rel_type_list in rows:
+            ns = [id_to_info.get(nid, {"name": f"?{nid}", "type": "person"}) for nid in node_ids]
+            rs = []
+            for i, rt in enumerate(rel_type_list):
+                rs.append({
+                    "type": rt,
+                    "from": ns[i]["name"],
+                    "to": ns[i + 1]["name"],
+                })
+            paths.append((ns, rs))
+        return paths
 
     def get_genealogy_path(self, name1: str, name2: str) -> dict:
-        raise NotImplementedError("Tier 2d — bidirectional recursive CTE")
+        """Shortest family path between two people (FATHER_OF / MOTHER_OF / SPOUSE_OF).
+
+        Bidirectional BFS via recursive CTE: walk outward from ``name1``
+        through family edges and stop when any path reaches ``name2``.
+        Returns the shortest such path.
+
+        Return shape matches ``Neo4jClient.get_genealogy_path``.
+        """
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        h1 = is_canonical(name1)
+        h2 = is_canonical(name2)
+        n1 = h1[0] if h1 else (name1 or "").strip()
+        n2 = h2[0] if h2 else (name2 or "").strip()
+        empty = {
+            "person1": n1, "person2": n2, "path_length": -1,
+            "path": [], "edges": [],
+        }
+        if not n1 or not n2:
+            return empty
+
+        # Walk from n1 outward following family edges (undirected traversal).
+        # Stop when we reach n2. LIMIT 5000 intermediate to bound explosion.
+        sql = (
+            "WITH RECURSIVE "
+            "src AS (SELECT id FROM entities WHERE name = %s LIMIT 1), "
+            "dst AS (SELECT id FROM entities WHERE name = %s LIMIT 1), "
+            "bfs AS ( "
+            "  SELECT s.id AS node_id, 0 AS hop, ARRAY[s.id]::bigint[] AS visited, "
+            "         ARRAY[]::text[] AS rel_types "
+            "  FROM src s "
+            "  UNION ALL "
+            "  SELECT CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END, "
+            "         b.hop + 1, "
+            "         b.visited || ARRAY[CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END]::bigint[], "
+            "         b.rel_types || ARRAY[r.rel_type]::text[] "
+            "  FROM bfs b JOIN relations r "
+            "    ON (r.src_id = b.node_id OR r.dst_id = b.node_id) "
+            "  WHERE r.rel_type IN ('FATHER_OF', 'MOTHER_OF', 'SPOUSE_OF') "
+            "    AND b.hop < 12 "
+            "    AND NOT (CASE WHEN r.src_id = b.node_id THEN r.dst_id ELSE r.src_id END) "
+            "        = ANY(b.visited) "
+            "), capped AS (SELECT * FROM bfs LIMIT 5000) "
+            "SELECT c.visited, c.rel_types, c.hop "
+            "FROM capped c JOIN dst d ON d.id = c.node_id "
+            "ORDER BY c.hop LIMIT 1"
+        )
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, (n1, n2))
+                row = cur.fetchone()
+
+        if row is None:
+            return empty
+
+        visited_ids, rel_types, hop = row
+        if not visited_ids:
+            return empty
+
+        # Resolve node IDs to names/types in one query.
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT id, name, entity_type FROM entities WHERE id = ANY(%s)",
+                    (list(visited_ids),),
+                )
+                id_info = {r[0]: {"name": r[1], "type": r[2] or "person"} for r in cur.fetchall()}
+
+        nodes = [
+            id_info.get(i, {"name": f"?{i}", "type": "person"}) for i in visited_ids
+        ]
+        edges = [
+            {"type": rt, "from": nodes[i]["name"], "to": nodes[i + 1]["name"]}
+            for i, rt in enumerate(rel_types)
+        ]
+        return {
+            "person1": n1, "person2": n2, "path_length": len(edges),
+            "path": nodes, "edges": edges,
+        }
+
+    # --- Genealogy helpers (verbatim from Neo4jClient — pure Python) ---
+
+    def _alt_name(self, canonical: str, lang: str) -> str | None:
+        """Return alternate-language name from gazetteer aliases."""
+        if lang == "en":
+            return None
+        import json
+        from pathlib import Path
+        gp = (
+            Path(__file__).resolve().parent / "gazetteers" / "entities.json"
+        )
+        try:
+            gaz = json.loads(gp.read_text(encoding="utf-8"))
+            for _type, entries in gaz.items():
+                if not isinstance(entries, list):
+                    continue
+                for entry in entries:
+                    if entry.get("name") == canonical:
+                        aliases = entry.get("aliases", [])
+                        return aliases[0] if aliases else None
+        except Exception:
+            pass
+        return None
+
+    def _attach_ancestors(self, node: dict, ns: list, rs: list, lang: str) -> None:
+        """Attach ancestor path to tree (ns[0] is deepest ancestor, ns[-1] is root person)."""
+        if len(ns) < 2:
+            return
+        current = node
+        for i in range(len(rs) - 1, -1, -1):
+            parent_info = ns[i]
+            rel_type = rs[i]["type"]
+            pname = parent_info["name"]
+            existing = next((p for p in current["parents"] if p["name"] == pname), None)
+            if existing is None:
+                parent_node = {
+                    "name": pname,
+                    "name_alt": self._alt_name(pname, lang),
+                    "type": parent_info.get("type", "person"),
+                    "relation": rel_type,
+                    "spouses": [],
+                    "parents": [],
+                    "children": [],
+                }
+                current["parents"].append(parent_node)
+                current = parent_node
+            else:
+                current = existing
+
+    def _attach_descendants(self, node: dict, ns: list, rs: list, lang: str) -> None:
+        """Attach descendant path to tree (ns[0] is root person, ns[-1] is leaf)."""
+        if len(ns) < 2:
+            return
+        current = node
+        for i in range(len(rs)):
+            child_info = ns[i + 1]
+            rel_type = rs[i]["type"]
+            cname = child_info["name"]
+            existing = next((c for c in current["children"] if c["name"] == cname), None)
+            if existing is None:
+                child_node = {
+                    "name": cname,
+                    "name_alt": self._alt_name(cname, lang),
+                    "type": child_info.get("type", "person"),
+                    "relation": rel_type,
+                    "spouses": [],
+                    "parents": [],
+                    "children": [],
+                }
+                current["children"].append(child_node)
+                current = child_node
+            else:
+                current = existing
 
     # ------------------------------------------------------------------ #
     # Writes — Fase 4 (cutover)

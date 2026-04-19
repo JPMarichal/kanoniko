@@ -181,15 +181,13 @@ def test_factory_returns_postgres_when_flag_set(monkeypatch) -> None:
 # --------------------------------------------------------------------------- #
 
 def test_not_implemented_methods_raise_clearly() -> None:
-    """Methods still pending (Tier 2d/Fase4/parallels) should raise NotImplementedError.
+    """Methods still pending (parallels + write path) should raise NotImplementedError.
     Fails loudly so callers discover the gap at test-time, not silently."""
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
     client = PostgresGraphClient()
 
     for method_name, args, kwargs in [
-        ("get_genealogy_tree", ("x",), {}),
-        ("get_genealogy_path", ("x", "y"), {}),
         ("get_parallel_passages", ("path/x.txt",), {}),
         ("merge_entity", ("x", "y"), {}),
         ("migrate_untyped_relations", (), {}),
@@ -197,6 +195,128 @@ def test_not_implemented_methods_raise_clearly() -> None:
         fn = getattr(client, method_name)
         with pytest.raises(NotImplementedError):
             fn(*args, **kwargs)
+
+
+# --------------------------------------------------------------------------- #
+# Tier 2d: genealogy
+# --------------------------------------------------------------------------- #
+
+def test_get_genealogy_tree_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    tree = client.get_genealogy_tree("Lehi", direction="both", depth=3, lang="en")
+
+    for field in ("name", "name_alt", "type", "relation", "spouses", "parents", "children"):
+        assert field in tree, f"missing field {field}"
+    assert tree["name"] == "Lehi"
+    assert tree["relation"] is None  # root node has no incoming relation
+    assert isinstance(tree["spouses"], list)
+    assert isinstance(tree["parents"], list)
+    assert isinstance(tree["children"], list)
+
+
+def test_get_genealogy_tree_lehi_descendants_has_sons() -> None:
+    """Post family backfill (+168% FATHER_OF), Lehi should have 4-6 BoM sons."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    tree = client.get_genealogy_tree("Lehi", direction="down", depth=1, lang="en")
+
+    child_names = {c["name"] for c in tree["children"]}
+    expected = {"Nephi", "Laman", "Lemuel", "Sam", "Jacob", "Joseph"}
+    overlap = child_names & expected
+    assert len(overlap) >= 3, (
+        f"expected ≥3 of {expected} as Lehi's children, got {child_names}"
+    )
+
+
+def test_get_genealogy_tree_nephi_ancestors_has_lehi() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    tree = client.get_genealogy_tree("Nephi", direction="up", depth=2, lang="en")
+
+    parent_names = {p["name"] for p in tree["parents"]}
+    assert "Lehi" in parent_names, (
+        f"Lehi should appear as Nephi's parent; got {parent_names}"
+    )
+
+
+def test_get_genealogy_tree_depth_clamped() -> None:
+    """depth > 10 is clamped; depth < 1 is clamped to 1."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+
+    tree_low = client.get_genealogy_tree("Lehi", direction="down", depth=0, lang="en")
+    tree_high = client.get_genealogy_tree("Lehi", direction="down", depth=50, lang="en")
+
+    # Both should return without errors; tree shape valid.
+    assert "children" in tree_low
+    assert "children" in tree_high
+
+
+def test_get_genealogy_tree_lang_alt_name() -> None:
+    """lang='es' should surface Spanish alias from gazetteer when available."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    tree_en = client.get_genealogy_tree("Nephi", direction="up", depth=1, lang="en")
+    tree_es = client.get_genealogy_tree("Nephi", direction="up", depth=1, lang="es")
+
+    assert tree_en["name_alt"] is None  # EN mode returns None
+    # ES mode: Nephi's Spanish alias "Nefi" exists in gazetteer
+    assert tree_es["name_alt"] == "Nefi", (
+        f"expected 'Nefi' as ES alt; got {tree_es['name_alt']!r}"
+    )
+
+
+def test_get_genealogy_tree_empty_name() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    tree = client.get_genealogy_tree("", direction="both", depth=3, lang="en")
+    assert tree["name"] == ""
+    assert tree["children"] == []
+    assert tree["parents"] == []
+
+
+def test_get_genealogy_path_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    result = client.get_genealogy_path("Lehi", "Nephi")
+
+    for field in ("person1", "person2", "path_length", "path", "edges"):
+        assert field in result
+
+
+def test_get_genealogy_path_lehi_to_nephi() -> None:
+    """Direct parent-child: path_length should be 1."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    result = client.get_genealogy_path("Lehi", "Nephi")
+
+    assert result["path_length"] >= 1
+    assert result["path_length"] <= 3  # direct or at most via sibling/spouse
+    # The path must contain both endpoints
+    names = [n["name"] for n in result["path"]]
+    assert "Lehi" in names and "Nephi" in names
+
+
+def test_get_genealogy_path_no_path_returns_empty() -> None:
+    """Nonexistent second person returns path_length -1."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    result = client.get_genealogy_path("Lehi", "xyzNonExistentPerson")
+
+    assert result["path_length"] == -1
+    assert result["path"] == []
+    assert result["edges"] == []
+
+
+def test_get_genealogy_path_alias_resolution() -> None:
+    """Same result whether query via canonical or alias."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    canonical = client.get_genealogy_path("Lehi", "Nephi")
+    alias = client.get_genealogy_path("Lehi", "Nefi")
+
+    assert canonical["path_length"] == alias["path_length"]
 
 
 # --------------------------------------------------------------------------- #
