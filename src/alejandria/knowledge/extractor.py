@@ -558,6 +558,13 @@ class KGExtractor:
         except ImportError:
             pass  # disambiguator not available yet
 
+        # 6. Deterministic family-relation patterns (P2 / kg-noise-diagnostic §2).
+        # Explicit "X, son of Y" / "hijo de" / "begat" formulas that the LLM
+        # extractor either never saw or skipped. Only emit when BOTH sides
+        # appear in the already-extracted entity set, avoiding creating new
+        # nodes from regex matches.
+        self._emit_family_relations(text, result)
+
         return result
 
     def extract_batch(self, texts: list[str], source_file: str = "", *, reference_mode: bool = False) -> list[ExtractionResult]:
@@ -1196,3 +1203,46 @@ class KGExtractor:
             return "RELATED_TO"
 
         return "CO_OCCURS_WITH"
+
+    def _emit_family_relations(self, text: str, result: ExtractionResult) -> None:
+        """Step 6: layer deterministic family-relation patterns onto the result.
+
+        For every ``X, son of Y`` / ``hijo de`` / ``begat`` formula in ``text``,
+        emit FATHER_OF / SPOUSE_OF if BOTH names are already in ``result.entities``
+        (or in the disambiguation map) — this avoids creating new nodes from
+        fragile regex matches and keeps the family graph bounded to entities the
+        rest of the pipeline already trusts.
+        """
+        try:
+            from alejandria.knowledge.family_patterns import extract_family_hits
+        except ImportError:
+            return
+
+        if not result.entities:
+            return
+
+        # Build a case-insensitive name → (canonical_name, type) lookup from the
+        # entities the pipeline already extracted. Disambiguated form wins.
+        lookup: dict[str, tuple[str, str]] = {}
+        for ent in result.entities:
+            canonical = result.disambiguations.get(ent.name, ent.name)
+            etype = result.disambiguated_types.get(ent.name, ent.type)
+            lookup.setdefault(ent.name.lower(), (canonical, etype))
+            lookup.setdefault(canonical.lower(), (canonical, etype))
+
+        existing = {(r.from_entity, r.relation, r.to_entity) for r in result.relations}
+
+        for hit in extract_family_hits(text):
+            f = lookup.get(hit.from_name.lower())
+            t = lookup.get(hit.to_name.lower())
+            if not f or not t:
+                continue  # at least one side is not a recognized entity → skip
+            key = (f[0], hit.relation, t[0])
+            if key in existing:
+                continue
+            result.relations.append(ExtractedRelation(
+                from_entity=f[0], from_type=f[1],
+                relation=hit.relation,
+                to_entity=t[0], to_type=t[1],
+            ))
+            existing.add(key)

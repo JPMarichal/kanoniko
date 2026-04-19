@@ -186,6 +186,128 @@ class TestIsGarbage:
     def test_html_fragments_rejected(self, name):
         assert is_garbage(name) == "html_fragment"
 
+    # ---- leading_punct filter ----
+
+    @pytest.mark.parametrize("name", [
+        "• Amaleki",
+        "↩ Speiser",
+        "→ See PARTITION",
+        "[bracket fragment",
+        "(parenthesis fragment",
+        "*emphasis fragment",
+        "= equation",
+        "_underscore_lead",
+        "—em-dash lead",
+        "- hyphen lead text",
+    ])
+    def test_leading_punct_rejected(self, name):
+        assert is_garbage(name) == "leading_punct"
+
+    @pytest.mark.parametrize("name", [
+        "José Smith",
+        "Élder Holland",
+        "¿Quién es Amaleki?",  # opening Spanish punct treated separately
+    ])
+    def test_leading_letters_or_spanish_punct_pass(self, name):
+        # These are NOT leading_punct rejections (¿/¡ handled by Spanish rule
+        # only when followed by sentence pattern). Names starting with letters
+        # are always fine here.
+        assert is_garbage(name) != "leading_punct"
+
+    # ---- sentence_fragment_es filter ----
+
+    @pytest.mark.parametrize("name", [
+        "Así volvió Esaú",
+        "Así ganó David",
+        "Entonces Satanás dijo",
+        "Conforme Dios mandó",
+        "Cuando vino el ángel",
+        "Mientras oraba",
+        "Pues bien hermanos",
+        "Quienes son los justos",
+    ])
+    def test_spanish_sentence_fragments_rejected(self, name):
+        assert is_garbage(name) == "sentence_fragment_es"
+
+    @pytest.mark.parametrize("name", [
+        "Entonces",        # standalone — not multi-word, passes
+        "Así",             # standalone — not multi-word, passes
+        "Conforme Aguilar",  # surname after — false positive risk; we accept
+                             # this is a rare case worth catching since
+                             # 'Conforme' as a first name doesn't exist in ES.
+    ])
+    def test_spanish_starters_alone_pass(self, name):
+        # Bare connector words (no following word) are not flagged.
+        # The "Conforme Aguilar" case IS flagged — documented edge case.
+        if name == "Conforme Aguilar":
+            assert is_garbage(name) == "sentence_fragment_es"
+        else:
+            assert is_garbage(name) != "sentence_fragment_es"
+
+    # ---- lowercase_token filter ----
+
+    @pytest.mark.parametrize("name", [
+        "compartía", "terminaré", "acompañar", "preparaba", "comiendo",
+        "poseo", "estudiaron", "vivíamos", "intimidó",
+        # common nouns / fragments that NER promoted at sentence start:
+        "boznay", "shankhar", "qumranic",
+    ])
+    def test_lowercase_single_tokens_rejected(self, name):
+        assert is_garbage(name) == "lowercase_token"
+
+    @pytest.mark.parametrize("name", [
+        "José", "María", "Andrés", "Tomás", "Sofía", "Sebastián",
+        "Lehi", "Jesús", "Élder Holland", "von Neumann", "ibn Khaldun",
+        "Jean-Paul Sartre",
+    ])
+    def test_proper_names_pass_lowercase_filter(self, name):
+        # Capitalized first char + multi-word lowercase compounds must pass.
+        assert is_garbage(name) != "lowercase_token"
+
+    # ---- markdown_heading filter (P5: object type pollution) ----
+
+    @pytest.mark.parametrize("name", [
+        "## Sodomite ###",
+        "## Hat ###",
+        "## Baldness BALDNESS",
+        "### Historical Introduction",
+        "## Wheel WHEEL",
+        "## Tower of Edar",
+        "### 2 Nephi 25:20–21",
+        "# Chapter heading",
+    ])
+    def test_markdown_headings_rejected(self, name):
+        assert is_garbage(name) == "markdown_heading"
+
+    @pytest.mark.parametrize("name", [
+        "Hashtag #word",          # legitimate hashtag mid-sentence — passes
+        "Apollo 13",              # not markdown
+        "C# language",            # technology name with hash but no leading
+    ])
+    def test_non_markdown_hash_passes(self, name):
+        assert is_garbage(name) != "markdown_heading"
+
+    # ---- measurement filter ----
+
+    @pytest.mark.parametrize("name", [
+        "10,000 miles",
+        "4.2 x 4.4 meter",
+        "29 feet",
+        "45 degrees",
+        "3,200 kilometers",
+        "100 metros",
+    ])
+    def test_measurements_rejected(self, name):
+        assert is_garbage(name) == "measurement"
+
+    @pytest.mark.parametrize("name", [
+        "Apollo 11",                # mission name — only 1 digit, no unit
+        "Twelve Apostles",          # contains numeric word but no unit
+        "Doctrine and Covenants 76",# scripture-like, but no unit
+    ])
+    def test_non_measurement_passes(self, name):
+        assert is_garbage(name) != "measurement"
+
 
 # --------------------------------------------------------------------------- #
 # is_canonical() / gazetteer lookup

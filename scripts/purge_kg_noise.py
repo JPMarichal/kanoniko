@@ -26,15 +26,20 @@ URI = os.environ.get("ALEJANDRIA_NEO4J_URI", "bolt://neo4j:7687")
 USER = os.environ.get("ALEJANDRIA_NEO4J_USER", "neo4j")
 PASS = os.environ.get("ALEJANDRIA_NEO4J_PASSWORD", "alejandria")
 
-# Only the three new reasons — R0 already handled the rest.
-TARGET_REASONS = {"scripture_ref", "mojibake", "html_fragment"}
+# Filters added post-R0 cleanup. Re-runnable: subsequent purges only act
+# on whatever passed the gate before but fails the gate now.
+TARGET_REASONS = {
+    "scripture_ref", "mojibake", "html_fragment",
+    "leading_punct", "sentence_fragment_es", "lowercase_token",
+    "markdown_heading", "measurement",
+}
 
 # Scripture refs are legitimate when the node's declared type is one of these.
 # The filter exists to catch scripture refs *mis-classified* as person/concept/
 # object — not to delete canonical scripture nodes.
 SCRIPTURE_LEGITIMATE_TYPES = {"scripture", "scripture_reference"}
 
-BATCH_SIZE = 100
+BATCH_SIZE = 25
 
 
 def stream_all_entities(driver):
@@ -104,20 +109,41 @@ def main():
         print("DRY RUN — no changes made.")
         return
 
-    print(f"Applying deletion in batches of {BATCH_SIZE}...", flush=True)
+    print(f"Applying deletion in batches of {BATCH_SIZE} (with retry-shrink)...",
+          flush=True)
+    import time as _time
     deleted = 0
+    failed = 0
     with driver.session() as s:
         for reason, ids in ids_by_reason.items():
-            for i in range(0, len(ids), BATCH_SIZE):
-                batch = ids[i:i + BATCH_SIZE]
-                s.run(
-                    "MATCH (e:Entity) WHERE elementId(e) IN $ids DETACH DELETE e",
-                    ids=batch,
-                ).consume()
-                deleted += len(batch)
-                if deleted % 2500 == 0 or deleted == total_to_delete:
-                    print(f"  {reason}: {deleted:,} / {total_to_delete:,}", flush=True)
-    print(f"\nDeleted {deleted:,} nodes.")
+            i = 0
+            current_batch = BATCH_SIZE
+            while i < len(ids):
+                batch = ids[i:i + current_batch]
+                try:
+                    s.run(
+                        "MATCH (e:Entity) WHERE elementId(e) IN $ids DETACH DELETE e",
+                        ids=batch,
+                    ).consume()
+                    deleted += len(batch)
+                    i += len(batch)
+                    if current_batch < BATCH_SIZE and i % (BATCH_SIZE * 4) == 0:
+                        current_batch = min(BATCH_SIZE, current_batch * 2)
+                    if deleted % 2500 < BATCH_SIZE or deleted == total_to_delete:
+                        print(f"  {reason}: {deleted:,} / {total_to_delete:,}",
+                              flush=True)
+                except Exception as e:
+                    if current_batch <= 1:
+                        # single-node failure; skip and continue
+                        print(f"  SKIP id={batch[0]}: {e!r}", flush=True)
+                        failed += 1
+                        i += 1
+                        continue
+                    current_batch = max(1, current_batch // 4)
+                    print(f"  shrink batch -> {current_batch} after error",
+                          flush=True)
+                    _time.sleep(2)
+    print(f"\nDeleted {deleted:,} nodes. Failed: {failed}.")
     driver.close()
 
 
