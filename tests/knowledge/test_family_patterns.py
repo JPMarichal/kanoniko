@@ -151,6 +151,57 @@ class TestSiblingPatterns:
         )
 
 
+class TestSiblingFPRejection:
+    """Hardening rules to prevent FPs from cascading into wrong FATHER_OF
+    via inference. See docs/kg-noise-diagnostic.md."""
+
+    def test_all_caps_rejected(self):
+        # TOC / index text: "SYRIAN, brother of Rebekah" — SYRIAN is a
+        # nationality adjective, not a person.
+        hits = extract_family_hits("SYRIAN, brother of Rebekah, took a wife.")
+        assert not any(h.from_name == "SYRIAN" for h in hits)
+
+    def test_place_prefix_rejected(self):
+        # "Mount Shelem, brother of Jared" — Mount Shelem is a place.
+        hits = extract_family_hits("Mount Shelem, brother of Jared, stood tall.")
+        assert not any(h.from_name.startswith("Mount") for h in hits)
+
+    def test_substring_same_person_rejected(self):
+        # "Smith, brother of Joseph Smith" — same person, fragment.
+        hits = extract_family_hits("Smith, brother of Joseph Smith, preached.")
+        assert not any(
+            h.relation == "BROTHER_OF"
+            and (h.from_name == "Smith" or h.to_name == "Smith")
+            for h in hits
+        )
+
+    def test_title_prefix_rejected(self):
+        hits = extract_family_hits("King David, brother of Abigail, reigned.")
+        # "King David" should be rejected as a title + name; we don't want
+        # a sibling edge keyed on "King David".
+        assert not any(h.from_name == "King David" for h in hits)
+
+    def test_adverb_fragment_rejected(self):
+        # "Likewise Jared, brother of ..." — "Likewise" is an adverb.
+        hits = extract_family_hits(
+            "Likewise Jared, the brother of Mahonri, built barges."
+        )
+        # The capture should not be just "Likewise" or "Likewise Jared" → "Jared"
+        for h in hits:
+            assert h.from_name not in ("Likewise", "Likewise Jared")
+
+    def test_brother_of_jared_epithet_rejected(self):
+        # "And Moroni wrote of the brother of Jared" — Moroni is NOT brother
+        # of Jared; "brother of Jared" is an epithet for Mahonri Moriancumer.
+        hits = extract_family_hits(
+            "Moroni wrote concerning the brother of Jared and his faith."
+        )
+        assert not any(
+            h.relation == "BROTHER_OF" and h.to_name == "Jared"
+            for h in hits
+        )
+
+
 class TestParentReversedPatterns:
     """X, father of Y / X, padre de Y / X, mother of Y."""
 

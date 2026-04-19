@@ -117,8 +117,51 @@ _NAME_RE = (
 # of each captured name before emitting.
 _LEADING_STRIP_RE = re.compile(
     r"^(?:And|But|Now|Then|For|So|Yet|Also|O|Behold|Verily|"
-    r"Y|Pero|Entonces|Luego|Porque|Mas|Sino|He\s+aquí)\s+"
+    r"Likewise|Otherwise|Furthermore|Moreover|However|Nevertheless|"
+    r"Thus|Hence|Therefore|Meanwhile|Besides|Indeed|Truly|Wherefore|"
+    r"Y|Pero|Entonces|Luego|Porque|Mas|Sino|Asimismo|Además|"
+    r"Por\s+(?:lo\s+)?tanto|Por\s+eso|Por\s+ende|Al\s+contrario|"
+    r"Sin\s+embargo|No\s+obstante|"
+    r"He\s+aquí)\s+"
 )
+
+# Non-person indicator words. If a captured "name" STARTS with one of these,
+# the capture is almost certainly a place, epithet, or title — not a person.
+# These leak in because NER picks up any capitalized phrase.
+_NON_PERSON_PREFIXES = frozenset({
+    # English places/titles
+    "Mount", "City", "Land", "Valley", "River", "Sea", "Lake", "Plains",
+    "North", "South", "East", "West", "Great", "Lesser", "New", "Old",
+    "Upper", "Lower", "King", "Queen", "Lord", "Sir", "Lady", "Saint",
+    "Prince", "Princess", "Captain", "General", "Elder", "Brother",
+    "Sister", "Father", "Mother",
+    # Spanish places/titles
+    "Monte", "Ciudad", "Tierra", "Valle", "Río", "Mar", "Lago", "Llanura",
+    "Norte", "Sur", "Este", "Oeste", "Grande", "Menor", "Nueva", "Nuevo",
+    "Viejo", "Alto", "Bajo", "Rey", "Reina", "Señor", "Señora", "San",
+    "Santa", "Príncipe", "Princesa", "Capitán", "General",
+    # Nationality/ethnonym words NER captures as names
+    "Syrian", "SYRIAN", "Egyptian", "Greek", "Roman", "Jew", "Jewish",
+    "Sirio", "Egipcio", "Griego", "Romano", "Judío",
+    "Reubenite", "Reubenites", "Rubenita",
+})
+
+
+def _is_person_candidate(name: str) -> bool:
+    """Return False if `name` is obviously not a person — ALL CAPS fragment,
+    place/title prefix, single-char token, etc."""
+    if not name:
+        return False
+    # Reject if all tokens are uppercase AND length > 3 (WILLIAM, SYRIAN…)
+    tokens = name.split()
+    if tokens and all(t.isupper() and len(t) > 1 for t in tokens):
+        return False
+    # Reject if first token is a non-person indicator
+    first = tokens[0] if tokens else ""
+    if first in _NON_PERSON_PREFIXES:
+        return False
+    # Accept
+    return True
 
 
 def _build_search_re(prefix: str) -> re.Pattern:
@@ -173,6 +216,21 @@ def extract_family_hits(text: str) -> list[FamilyHit]:
             left = _clean(m.group(1))
             right = _clean(m.group(2))
             if not left or not right or left.lower() == right.lower():
+                continue
+            # Reject non-person captures (ALL CAPS, place prefix, title).
+            if not _is_person_candidate(left) or not _is_person_candidate(right):
+                continue
+            # Reject same-person fragments: one name is a substring of the
+            # other after lowercase comparison (e.g. "Smith" vs "Joseph Smith").
+            ll, rl = left.lower(), right.lower()
+            if ll != rl and (ll in rl or rl in ll):
+                continue
+            # Reject "brother of Jared" epithet — in the BoM, "the brother of
+            # Jared" is a standing title (Mahonri Moriancumer). Any pair with
+            # Jared as the SIBLING here is almost certainly the epithet
+            # cascading; real sibling pairs for Jared (e.g. with his actual
+            # relatives) are extremely rare.
+            if rel in {"BROTHER_OF", "SISTER_OF"} and right == "Jared":
                 continue
             # Direction: `_FWD` means group1 → group2 ("X begat Y", "X, father of Y");
             # symmetric rels (BROTHER_OF, SISTER_OF) keep group1 → group2 too;
