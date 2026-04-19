@@ -1,11 +1,27 @@
-"""Seed entity_aliases with well-known biblical paronyms — cases where
-the same person appears under multiple names (renames, Greek/Hebrew
-doubles, onomastic reconciliation like Esau's wives).
+"""Seed entity_aliases with name-variant links that are safe to collapse.
 
-Only pairs well-attested in scripture or universally accepted by LDS/
-Christian commentary are added. Anything requiring theological or
-text-critical judgment stays out of the seed; those belong in
-docs/ as curated decisions.
+Two legitimate categories handled here:
+
+    1. **True paronyms** — two genuinely distinct names for the same
+       person (scriptural renaming events, Greek/Aramaic doublets,
+       onomastic reconciliation across parallel listings).
+       Examples: Abram → Abraham (Gen 17:5), Sarai → Sarah (Gen 17:15),
+       Jacob / Israel (Gen 32:28), Saul / Paul (Acts 13:9),
+       Simon / Cephas / Peter, Mahalath / Basemath (Esau's wives
+       reconciled across Gen 26:34, 28:9, 36:2-3).
+
+    2. **Bilingual transliterations** — same underlying name rendered
+       in English and Spanish orthography. These are phonetic variants
+       of one name, not different names. Examples: Moses ↔ Moisés,
+       Nephi ↔ Nefi, Chemish ↔ Quemis, Amaleki ↔ Amalekí, Lehi ↔ Lehí.
+
+**What MUST NOT go in entity_aliases:** disambiguators. A phrase like
+'Alma the Younger' or 'Moroni (son of Mormon)' is NOT a name-variant of
+the bare 'Alma' / 'Moroni' — it's a parenthetical that distinguishes
+two distinct people sharing the same bare name. Collapsing them merges
+father with son (Alma Sr. with Alma Jr.) or confuses the Captain Moroni
+with the prophet-editor Moroni. See `_pg_fix_paronyms.py` for the
+cleanup that removed an earlier mistaken batch of these.
 
 Idempotent: uses ON CONFLICT DO NOTHING.
 """
@@ -14,32 +30,36 @@ import psycopg
 
 # (canonical_name, [aliases]) — canonical is what gets kept; aliases
 # get added to entity_aliases pointing at the canonical's id.
+#
+# Mixed here for convenience; each entry falls into one of TWO safe
+# categories (paronym / bilingual). Disambiguators like "Alma the
+# Younger" or "X (son of Y)" are INTENTIONALLY absent — see module
+# docstring.
 PARONYM_SEEDS: list[tuple[str, list[str]]] = [
-    # Name-change events in the text itself
-    ("Abraham", ["Abram"]),
-    ("Sarah", ["Sarai"]),
-    ("Israel", ["Jacob"]),            # Gen 32:28 — "Israel" as new name
-    ("Paul", ["Saul", "Saulo"]),      # Acts 13:9 — renamed post-conversion
-    ("Peter", ["Simon Peter", "Cephas", "Simón Pedro", "Cefas"]),
-    # Esau's wives — three listings, reconciled by assuming each woman
-    # had multiple names (Gen 26:34, 28:9, 36:2-3)
-    ("Basemath", ["Mahalath", "Basmat"]),
+    # ── TRUE PARONYMS (distinct names, same referent) ────────────────
+    ("Abraham", ["Abram"]),               # Gen 17:5 rename
+    ("Sarah", ["Sarai"]),                 # Gen 17:15 rename
+    ("Israel", ["Jacob"]),                # Gen 32:28 rename
+    ("Paul", ["Saul"]),                   # Acts 13:9 rename
+    ("Peter", ["Simon Peter", "Cephas"]), # Greek/Aramaic doublets
+    # Esau's wives — Gen 26:34, 28:9, 36:2-3 reconciled by assuming
+    # each wife had multiple names.
+    ("Basemath", ["Mahalath"]),
     ("Adah", ["Basemath (wife of Esau)"]),
     ("Oholibamah", ["Judith"]),
-    # Common EN/ES transliteration pairs for core scripture figures
+
+    # ── BILINGUAL TRANSLITERATIONS (same name, EN↔ES spelling) ───────
+    ("Paul", ["Saulo"]),
+    ("Peter", ["Simón Pedro", "Cefas"]),
     ("Moses", ["Moisés"]),
     ("Noah", ["Noé"]),
-    ("Isaac", ["Isaac (son of Abraham)"]),
-    ("Jacob", ["Jacob (son of Isaac)"]),
-    ("Joseph", ["José", "Joseph (son of Jacob)"]),
-    ("Mary", ["María", "Mary (mother of Jesus)"]),
+    ("Joseph", ["José"]),
+    ("Mary", ["María"]),
     ("Jesus", ["Jesús", "Jesus Christ", "Jesucristo"]),
-    # BoM figures with Spanish/English doublets or epithets
     ("Nephi", ["Nefi"]),
     ("Lehi", ["Lehí"]),
     ("Mormon", ["Mormón"]),
-    ("Moroni", ["Moroni (son of Mormon)"]),
-    ("Alma", ["Alma the Younger", "Alma el Joven", "Alma hijo de Alma"]),
+    ("Basemath", ["Basmat"]),
     ("Amaleki", ["Amalekí"]),
     ("Abinadom", ["Abinádom"]),
     ("Chemish", ["Quemis"]),
