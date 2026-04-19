@@ -29,27 +29,69 @@ import re
 from dataclasses import dataclass
 from typing import Iterable
 
-# Connective phrases that link an entity to a parent. Required before the
-# parent name so we don't accidentally match arbitrary text.
-# (lang, relation, prefix_regex, rel_type)
+# Connective phrases that link an entity to its relative. Required before the
+# second name so we don't accidentally match arbitrary text.
+#
+# Relation marker conventions:
+#   FATHER_OF        — group(1) is the CHILD, group(2) is the PARENT.
+#                      Emit FATHER_OF(parent=group2, child=group1).
+#   FATHER_OF_FWD    — group(1) is the PARENT, group(2) is the CHILD.
+#                      Emit FATHER_OF(parent=group1, child=group2).
+#   MOTHER_OF_FWD    — same shape as FATHER_OF_FWD but for mothers.
+#   SPOUSE_OF        — group(1) is one spouse, group(2) is the other.
+#                      Emit SPOUSE_OF(group2, group1).
+#   BROTHER_OF       — group(1) and group(2) are both siblings.
+#                      Emit BROTHER_OF(group1, group2). Symmetry handled by
+#                      the inference engine, not duplicated here.
+#   SISTER_OF        — same as BROTHER_OF.
+#
+# Direction tag rule: any rel ending in `_FWD` means group1 → group2.
+# Without `_FWD`, the principal is group2 (the parent / partner mentioned
+# AFTER the connective phrase) — matching the natural English/Spanish
+# phrasing "X, son of Y" / "X, esposa de Y".
 _FAMILY_PATTERNS = [
-    # English
+    # ── EN: parent via child reference ────────────────────────────────────
     ("en", "father", r",\s+(?:the\s+)?son\s+of\s+", "FATHER_OF"),
     ("en", "father", r"\s+the\s+son\s+of\s+", "FATHER_OF"),
     ("en", "father", r",\s+(?:the\s+)?daughter\s+of\s+", "FATHER_OF"),
+    ("en", "father", r"\s+the\s+daughter\s+of\s+", "FATHER_OF"),
+    # ── EN: parent via parent reference (X, father/mother of Y) ───────────
+    ("en", "father_fwd", r",\s+(?:the\s+)?father\s+of\s+", "FATHER_OF_FWD"),
+    ("en", "father_fwd", r"\s+the\s+father\s+of\s+", "FATHER_OF_FWD"),
+    ("en", "mother_fwd", r",\s+(?:the\s+)?mother\s+of\s+", "MOTHER_OF_FWD"),
+    ("en", "mother_fwd", r"\s+the\s+mother\s+of\s+", "MOTHER_OF_FWD"),
+    # ── EN: spouse ────────────────────────────────────────────────────────
     ("en", "spouse", r",\s+(?:the\s+)?wife\s+of\s+", "SPOUSE_OF"),
     ("en", "spouse", r",\s+(?:the\s+)?husband\s+of\s+", "SPOUSE_OF"),
-    ("en", "father", r"\s+begat\s+", "FATHER_OF_REV"),  # reversed: X begat Y
-    # Spanish
+    # ── EN: siblings ─────────────────────────────────────────────────────
+    ("en", "sibling_m", r",\s+(?:the\s+)?brother\s+of\s+", "BROTHER_OF"),
+    ("en", "sibling_m", r"\s+the\s+brother\s+of\s+", "BROTHER_OF"),
+    ("en", "sibling_f", r",\s+(?:the\s+)?sister\s+of\s+", "SISTER_OF"),
+    ("en", "sibling_f", r"\s+the\s+sister\s+of\s+", "SISTER_OF"),
+    # ── EN: begat ────────────────────────────────────────────────────────
+    ("en", "father_fwd", r"\s+begat\s+", "FATHER_OF_FWD"),
+    # ── ES: parent via child reference ───────────────────────────────────
     ("es", "father", r",\s+hijo\s+de\s+", "FATHER_OF"),
     ("es", "father", r",\s+hija\s+de\s+", "FATHER_OF"),
     ("es", "father", r"\s+(?:el\s+)?hijo\s+de\s+", "FATHER_OF"),
     ("es", "father", r"\s+(?:la\s+)?hija\s+de\s+", "FATHER_OF"),
+    # ── ES: parent via parent reference (X, padre/madre de Y) ────────────
+    ("es", "father_fwd", r",\s+(?:el\s+)?padre\s+de\s+", "FATHER_OF_FWD"),
+    ("es", "father_fwd", r"\s+(?:el\s+)?padre\s+de\s+", "FATHER_OF_FWD"),
+    ("es", "mother_fwd", r",\s+(?:la\s+)?madre\s+de\s+", "MOTHER_OF_FWD"),
+    ("es", "mother_fwd", r"\s+(?:la\s+)?madre\s+de\s+", "MOTHER_OF_FWD"),
+    # ── ES: spouse ───────────────────────────────────────────────────────
     ("es", "spouse", r",\s+(?:la\s+)?esposa\s+de\s+", "SPOUSE_OF"),
     ("es", "spouse", r",\s+(?:el\s+)?esposo\s+de\s+", "SPOUSE_OF"),
     ("es", "spouse", r",\s+(?:la\s+)?mujer\s+de\s+", "SPOUSE_OF"),
-    ("es", "father", r"\s+engendró\s+a\s+", "FATHER_OF_REV"),
-    ("es", "father", r"\s+engendró\s+à\s+", "FATHER_OF_REV"),  # OCR variant
+    # ── ES: siblings ─────────────────────────────────────────────────────
+    ("es", "sibling_m", r",\s+(?:el\s+)?hermano\s+de\s+", "BROTHER_OF"),
+    ("es", "sibling_m", r"\s+(?:el\s+)?hermano\s+de\s+", "BROTHER_OF"),
+    ("es", "sibling_f", r",\s+(?:la\s+)?hermana\s+de\s+", "SISTER_OF"),
+    ("es", "sibling_f", r"\s+(?:la\s+)?hermana\s+de\s+", "SISTER_OF"),
+    # ── ES: engendró ─────────────────────────────────────────────────────
+    ("es", "father_fwd", r"\s+engendró\s+a\s+", "FATHER_OF_FWD"),
+    ("es", "father_fwd", r"\s+engendró\s+à\s+", "FATHER_OF_FWD"),  # OCR variant
 ]
 
 @dataclass(frozen=True)
@@ -94,12 +136,28 @@ _SEARCH_PATTERNS = [
 ]
 
 
+_CONJUNCTION_ONLY = frozenset({
+    "And", "But", "Now", "Then", "For", "So", "Yet", "Also",
+    "Behold", "Verily",
+    "Y", "Pero", "Entonces", "Luego", "Porque", "Mas", "Sino",
+    "Shared", "Named",  # past-tense verbs NER occasionally capitalizes
+})
+
+
 def _clean(name: str) -> str:
-    """Strip leading sentence-starter conjunctions from a captured name."""
+    """Strip leading sentence-starter conjunctions from a captured name.
+
+    Returns an empty string if the cleaned name is itself a bare conjunction
+    (e.g. text like "the brother of And he…" where the capture is just "And"
+    without a trailing word — no regex strip can fire). Empty return rejects
+    the hit at the caller.
+    """
     s = name.strip()
     # Apply twice to catch chained "And Now X" sequences.
     for _ in range(2):
         s = _LEADING_STRIP_RE.sub("", s).strip()
+    if s in _CONJUNCTION_ONLY:
+        return ""
     return s
 
 
@@ -116,14 +174,22 @@ def extract_family_hits(text: str) -> list[FamilyHit]:
             right = _clean(m.group(2))
             if not left or not right or left.lower() == right.lower():
                 continue
-            # "X begat Y" — group1 is parent, group2 is child.
-            if rel == "FATHER_OF_REV":
+            # Direction: `_FWD` means group1 → group2 ("X begat Y", "X, father of Y");
+            # symmetric rels (BROTHER_OF, SISTER_OF) keep group1 → group2 too;
+            # default ("X, son of Y", "X, wife of Y") flips so the principal
+            # mentioned after the connective phrase ends up as `from_name`.
+            if rel.endswith("_FWD"):
+                base = rel[:-4]
                 hits.append(FamilyHit(
                     from_name=left, to_name=right,
-                    relation="FATHER_OF", span=m.span(),
+                    relation=base, span=m.span(),
+                ))
+            elif rel in {"BROTHER_OF", "SISTER_OF"}:
+                hits.append(FamilyHit(
+                    from_name=left, to_name=right,
+                    relation=rel, span=m.span(),
                 ))
             else:
-                # "X, son of Y" — group1 is child, group2 is parent.
                 hits.append(FamilyHit(
                     from_name=right, to_name=left,
                     relation=rel, span=m.span(),

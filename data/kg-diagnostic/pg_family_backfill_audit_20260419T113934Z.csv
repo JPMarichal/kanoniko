@@ -1,0 +1,2343 @@
+src_id,src_name,rel_type,dst_id,dst_name,src_type
+19871,Zacharias,MOTHER_OF,19092,John,person
+19072,Lehi,SPOUSE_OF,3332,Mormon,person
+18866,Noah,FATHER_OF,18896,Ham,person
+18896,Ham,FATHER_OF,18171,Egyptus,person
+19072,Lehi,FATHER_OF,18918,Nephi,person
+33818,Felix,SPOUSE_OF,33852,Drusilla,person
+19265,Manasseh,BROTHER_OF,42064,Jaddua,person
+44153,Caesar Augustus,FATHER_OF,33030,Julia,person
+19075,Alphaeus,FATHER_OF,19213,Levi,person
+19529,Philip,FATHER_OF,33318,Alexander,person
+3278,Abraham,BROTHER_OF,19200,Rebekah,person
+25342,Kohath,FATHER_OF,51012,Levite,person
+36755,Abner,FATHER_OF,36756,Ner,person
+18896,Ham,FATHER_OF,3581,Canaan,person
+33479,Thessalonica,SISTER_OF,33318,Alexander,place
+18866,Noah,FATHER_OF,19579,Shem,person
+19105,Josiah,FATHER_OF,35062,Jehoiakim,person
+19871,Zacharias,FATHER_OF,19092,John,person
+18900,Helaman,FATHER_OF,18918,Nephi,person
+3549,Jacob,BROTHER_OF,18918,Nephi,person
+18866,Noah,FATHER_OF,29318,Limhi,person
+409023,Jeberechiah,FATHER_OF,19872,Zechariah,person
+24105,Uzziah,FATHER_OF,24119,Jotham,person
+24119,Jotham,FATHER_OF,24118,Ahaz,person
+24122,Remaliah,FATHER_OF,24121,Pekah,person
+24043,Amoz,FATHER_OF,18916,Isaiah,person
+20145,Righteousness,FATHER_OF,304044,But,concept
+29680,Abinadom,FATHER_OF,29681,Amaleki,person
+306863,And,BROTHER_OF,28149,Shiblom,person
+8500,Coriantor,FATHER_OF,18686,Ether,person
+28095,Heth,FATHER_OF,3247,Aaron,person
+306863,And,BROTHER_OF,19078,Jared,person
+171400,Now,BROTHER_OF,8569,Shared,period
+28119,Kib,FATHER_OF,28364,Corihor,person
+28119,Kib,FATHER_OF,28117,Shule,person
+18866,Noah,FATHER_OF,277951,Wherefore,person
+18866,Noah,FATHER_OF,8567,Cohor,person
+8513,Omer,FATHER_OF,19078,Jared,person
+19078,Jared,FATHER_OF,171400,Now,person
+8641,Kimnor,FATHER_OF,8640,Akish,person
+19078,Jared,FATHER_OF,8640,Akish,person
+171400,Now,FATHER_OF,19206,Lamoni,period
+3251,Mosiah,FATHER_OF,3399,Ammon,person
+19076,Zebedee,FATHER_OF,19073,James,person
+19092,John,BROTHER_OF,19073,James,person
+19073,James,BROTHER_OF,19092,John,person
+3278,Abraham,FATHER_OF,18915,Isaac,person
+18915,Isaac,FATHER_OF,3549,Jacob,person
+19087,Jesse,FATHER_OF,18663,David,person
+19108,Judas,BROTHER_OF,19073,James,person
+413972,Bosor,FATHER_OF,3518,Balaam,person
+19097,Joseph,FATHER_OF,18645,Jesus,person
+19581,Simon,FATHER_OF,19111,Judas Iscariot,person
+25524,Jonas,FATHER_OF,19581,Simon,person
+45834,Jona,FATHER_OF,19581,Simon,person
+19097,Joseph,FATHER_OF,19411,Nazareth,person
+33717,Great,MOTHER_OF,624182,Harlots,person
+18663,David,FATHER_OF,18644,Jesus Christ,person
+3549,Jacob,FATHER_OF,19108,Judas,person
+19422,Obed,FATHER_OF,19087,Jesse,person
+36841,Abia,FATHER_OF,3504,Asa,person
+3504,Asa,FATHER_OF,457477,JOSAPHAT,person
+457477,JOSAPHAT,FATHER_OF,35434,Joram,people
+35450,Achim,FATHER_OF,35451,Eliud,person
+35451,Eliud,FATHER_OF,35452,Eleazar,person
+35452,Eleazar,FATHER_OF,35453,Matthan,person
+35453,Matthan,FATHER_OF,3549,Jacob,person
+3549,Jacob,FATHER_OF,19097,Joseph,person
+39689,Koz,FATHER_OF,24143,Urijah,person
+42063,Meshezabeel,FATHER_OF,36423,Berechiah,person
+37249,Imri,FATHER_OF,36692,Zaccur,person
+24143,Urijah,FATHER_OF,37028,Meremoth,person
+36423,Berechiah,FATHER_OF,36849,Meshullam,person
+37475,Baana,FATHER_OF,35449,Zadok,person
+42142,Besodeiah,FATHER_OF,36849,Meshullam,person
+42149,Harhaiah,FATHER_OF,36418,Uzziel,person
+36521,Hur,FATHER_OF,36856,Rephaiah,person
+42150,Harumaph,FATHER_OF,36663,Jedaiah,person
+42214,Hashabniah,FATHER_OF,36859,Hattush,person
+42079,Col-hozeh,FATHER_OF,42156,Shallun,person
+42157,Azbuk,FATHER_OF,19413,Nehemiah,person
+37055,Bani,FATHER_OF,36665,Rehum,person
+39709,Henadad,FATHER_OF,42159,Bavai,person
+36672,Jeshua,FATHER_OF,36169,Ezer,person
+39580,Zabbai,FATHER_OF,41068,Baruch,person
+36430,Maaseiah,FATHER_OF,36557,Azariah,person
+39709,Henadad,FATHER_OF,39585,Binnui,person
+42162,Uzai,FATHER_OF,42161,Palal,person
+39574,Parosh,FATHER_OF,36788,Pedaiah,person
+36679,Immer,FATHER_OF,35449,Zadok,person
+36858,Shechaniah,FATHER_OF,36417,Shemaiah,person
+19872,Zechariah,FATHER_OF,24105,Uzziah,person
+36344,Shephatiah,FATHER_OF,36645,Amariah,person
+42079,Col-hozeh,FATHER_OF,41068,Baruch,person
+37051,Adaiah,FATHER_OF,42080,Hazaiah,person
+19872,Zechariah,FATHER_OF,36662,Joiarib,person
+24105,Uzziah,FATHER_OF,42078,Athaiah,person
+41068,Baruch,FATHER_OF,36430,Maaseiah,person
+42082,Joed,FATHER_OF,36849,Meshullam,person
+41048,Kolaiah,FATHER_OF,36788,Pedaiah,person
+42083,Ithiel,FATHER_OF,36430,Maaseiah,person
+36849,Meshullam,FATHER_OF,36738,Hilkiah,person
+42087,Pelaliah,FATHER_OF,36352,Jeroham,person
+19872,Zechariah,FATHER_OF,37054,Amzi,person
+36849,Meshullam,FATHER_OF,37251,Sallu,person
+36744,Zichri,FATHER_OF,19091,Joel,person
+42086,Senuah,FATHER_OF,19106,Judah,person
+36662,Joiarib,FATHER_OF,36663,Jedaiah,person
+36738,Hilkiah,FATHER_OF,36904,Seraiah,person
+36352,Jeroham,FATHER_OF,37051,Adaiah,person
+406290,Ahasai,FATHER_OF,36348,Azareel,person
+42057,Bunni,FATHER_OF,36705,Hashabiah,person
+36499,Zabdi,FATHER_OF,19316,Micha,person
+37265,Galal,FATHER_OF,36395,Shammua,person
+36395,Shammua,FATHER_OF,37463,Abda,person
+36705,Hashabiah,FATHER_OF,37055,Bani,person
+37055,Bani,FATHER_OF,37026,Uzzi,person
+42063,Meshezabeel,FATHER_OF,36682,Pethahiah,person
+19106,Judah,FATHER_OF,35430,Zerah,person
+42043,Hachaliah,FATHER_OF,474440,TIRSHATHA,person
+42054,Azaniah,FATHER_OF,36672,Jeshua,person
+35051,Shealtiel,FATHER_OF,19879,Zerubbabel,person
+36672,Jeshua,FATHER_OF,42108,Joiakim,person
+36674,Eliashib,FATHER_OF,42109,Joiada,person
+42109,Joiada,FATHER_OF,19095,Jonathan,person
+19095,Jonathan,FATHER_OF,42064,Jaddua,person
+36674,Eliashib,FATHER_OF,36338,Johanan,person
+39642,Kadmiel,FATHER_OF,36672,Jeshua,person
+36417,Shemaiah,FATHER_OF,19095,Jonathan,person
+19095,Jonathan,FATHER_OF,19872,Zechariah,person
+36687,Delaiah,FATHER_OF,36417,Shemaiah,person
+37179,Arah,FATHER_OF,36858,Shechaniah,person
+20658,Nun,FATHER_OF,36672,Jeshua,person
+36692,Zaccur,FATHER_OF,36304,Hanan,person
+42043,Hachaliah,FATHER_OF,19413,Nehemiah,person
+24296,Laish,FATHER_OF,391965,Phalti,person
+18670,Eli,FATHER_OF,37023,Phinehas,person
+36756,Ner,FATHER_OF,36755,Abner,person
+37029,Ahimaaz,FATHER_OF,36829,Ahinoam,person
+36234,Zeruiah,FATHER_OF,36245,Abishai,person
+37691,Maoch,FATHER_OF,36479,Achish,person
+36264,Abiel,FATHER_OF,28096,Kish,person
+37754,Bechorath,FATHER_OF,37753,Zeror,person
+36352,Jeroham,FATHER_OF,36345,Elkanah,person
+37559,Tohu,FATHER_OF,32741,Elihu,person
+36660,Ahimelech,FATHER_OF,35320,Abiathar,person
+41278,Barachel,FATHER_OF,32741,Elihu,person
+36246,Benaiah,FATHER_OF,36854,Pelatiah,person
+36524,Jair,FATHER_OF,36251,Elhanan,person
+36609,Lahmi,BROTHER_OF,18886,Goliath,person
+36234,Zeruiah,FATHER_OF,36233,Joab,person
+36475,Ahilud,FATHER_OF,19082,Jehoshaphat,person
+36247,Jehoiada,FATHER_OF,36246,Benaiah,person
+36833,Haggith,FATHER_OF,36832,Adonijah,person
+36239,Dodo,FATHER_OF,35452,Eleazar,person
+36245,Abishai,BROTHER_OF,36233,Joab,person
+36239,Dodo,FATHER_OF,36251,Elhanan,person
+36254,Ikkesh,FATHER_OF,36253,Ira,person
+36262,Ribai,FATHER_OF,412212,Ithai,person
+36161,Shage,FATHER_OF,19095,Jonathan,person
+36277,Ezbai,FATHER_OF,36276,Naarai,person
+36279,Haggeri,FATHER_OF,36278,Mibhar,person
+36250,Asahel,BROTHER_OF,36233,Joab,person
+19091,Joel,BROTHER_OF,19330,Nathan,person
+36301,Ahlai,FATHER_OF,36300,Zabad,person
+36303,Shiza,FATHER_OF,36302,Adina,person
+36313,Shimri,FATHER_OF,36312,Jediael,person
+36486,Nahash,FATHER_OF,36487,Hanun,person
+35452,Eleazar,FATHER_OF,37023,Phinehas,person
+37023,Phinehas,FATHER_OF,37024,Abishua,person
+37024,Abishua,FATHER_OF,37025,Bukki,person
+37025,Bukki,FATHER_OF,37026,Uzzi,person
+37026,Uzzi,FATHER_OF,36477,Zerahiah,person
+35449,Zadok,FATHER_OF,37029,Ahimaaz,person
+37029,Ahimaaz,FATHER_OF,36557,Azariah,person
+36557,Azariah,FATHER_OF,36338,Johanan,person
+36338,Johanan,FATHER_OF,36557,Azariah,person
+36557,Azariah,FATHER_OF,36645,Amariah,person
+36738,Hilkiah,FATHER_OF,36557,Azariah,person
+36557,Azariah,FATHER_OF,36904,Seraiah,person
+37044,Shemuel,FATHER_OF,19091,Joel,person
+36345,Elkanah,FATHER_OF,37038,Zuph,person
+36366,Amasai,FATHER_OF,37045,Mahath,person
+19091,Joel,FATHER_OF,36345,Elkanah,person
+19878,Zephaniah,FATHER_OF,36557,Azariah,person
+36844,Assir,FATHER_OF,37037,Tahath,person
+36188,Korah,FATHER_OF,36422,Ebiasaph,person
+25342,Kohath,FATHER_OF,36419,Izhar,person
+37047,Baaseiah,FATHER_OF,19317,Michael,person
+37035,Zimmah,FATHER_OF,36424,Ethan,person
+37052,Abdi,FATHER_OF,36425,Kishi,person
+36843,Amaziah,FATHER_OF,36705,Hashabiah,person
+37055,Bani,FATHER_OF,37054,Amzi,person
+36649,Mushi,FATHER_OF,36648,Mahli,person
+19213,Levi,FATHER_OF,36411,Merari,person
+36425,Kishi,FATHER_OF,36424,Ethan,person
+36907,Jephunneh,FATHER_OF,3580,Caleb,person
+18663,David,FATHER_OF,19746,Solomon,person
+36498,Hezron,FATHER_OF,3580,Caleb,person
+36527,Machir,FATHER_OF,3519,Gilead,person
+3565,Boaz,FATHER_OF,19422,Obed,person
+36521,Hur,FATHER_OF,36522,Uri,person
+36523,Segub,FATHER_OF,36524,Jair,person
+36529,Ashur,FATHER_OF,36882,Tekoa,person
+36566,Mareshah,FATHER_OF,18898,Hebron,person
+36536,Jada,BROTHER_OF,36535,Shammai,person
+3580,Caleb,BROTHER_OF,36505,Jerahmeel,person
+36363,Attai,FATHER_OF,19330,Nathan,person
+19330,Nathan,FATHER_OF,36300,Zabad,person
+36300,Zabad,FATHER_OF,36556,Ephlal,person
+36556,Ephlal,FATHER_OF,19422,Obed,person
+19422,Obed,FATHER_OF,36335,Jehu,person
+36335,Jehu,FATHER_OF,36557,Azariah,person
+36557,Azariah,FATHER_OF,36252,Helez,person
+36252,Helez,FATHER_OF,36559,Eleasah,person
+36559,Eleasah,FATHER_OF,36560,Sisamai,person
+36535,Shammai,FATHER_OF,306863,And,person
+36521,Hur,FATHER_OF,3580,Caleb,person
+36571,Raham,FATHER_OF,457473,JORKOAM,person
+36580,Shaaph,FATHER_OF,36581,Madmannah,person
+36165,Shobal,FATHER_OF,36388,Kirjath-jearim,person
+36585,Hareph,FATHER_OF,478888,BETH-GADER,person
+36570,Shema,FATHER_OF,36571,Raham,person
+36569,Rekem,FATHER_OF,36535,Shammai,person
+36573,Haran,FATHER_OF,36575,Gazez,person
+36722,Kore,FATHER_OF,36721,Meshelemiah,person
+19095,Jonathan,FATHER_OF,306863,And,person
+36765,Mikloth,FATHER_OF,37230,Shimeah,person
+36756,Ner,FATHER_OF,28096,Kish,person
+36574,Moza,FATHER_OF,37237,Binea,person
+36763,Zabdiel,FATHER_OF,36238,Jashobeam,person
+36744,Zichri,FATHER_OF,35058,Eliezer,person
+36784,Kemuel,FATHER_OF,36705,Hashabiah,person
+19317,Michael,FATHER_OF,36785,Omri,person
+19421,Obadiah,FATHER_OF,36786,Ishmaiah,person
+36787,Azriel,FATHER_OF,36341,Jerimoth,person
+36436,Azaziah,FATHER_OF,18911,Hoshea,person
+36788,Pedaiah,FATHER_OF,19091,Joel,person
+19872,Zechariah,FATHER_OF,36792,Iddo,person
+36755,Abner,FATHER_OF,36793,Jaasiel,person
+36352,Jeroham,FATHER_OF,36348,Azareel,person
+24105,Uzziah,FATHER_OF,36795,Jehonathan,person
+36797,Chelub,FATHER_OF,36796,Ezri,person
+36800,Adlai,FATHER_OF,36799,Shaphat,person
+36804,Hachmoni,FATHER_OF,36310,Jehiel,person
+36246,Benaiah,FATHER_OF,36247,Jehoiada,person
+36785,Omri,FATHER_OF,37141,Ammihud,person
+37055,Bani,FATHER_OF,37249,Imri,person
+37254,Michri,FATHER_OF,37026,Uzzi,person
+37141,Ammihud,FATHER_OF,37248,Uthai,person
+19106,Judah,FATHER_OF,35070,Pharez,person
+36352,Jeroham,FATHER_OF,37253,Ibneiah,person
+37026,Uzzi,FATHER_OF,36216,Elah,person
+37255,Shephathiah,FATHER_OF,36849,Meshullam,person
+37258,Pashur,FATHER_OF,36352,Jeroham,person
+37261,Meshillemith,FATHER_OF,36849,Meshullam,person
+36865,Azrikam,FATHER_OF,37262,Hasshub,person
+37262,Hasshub,FATHER_OF,36417,Shemaiah,person
+37265,Galal,FATHER_OF,36417,Shemaiah,person
+36345,Elkanah,FATHER_OF,3504,Asa,person
+36422,Ebiasaph,FATHER_OF,36722,Kore,person
+36417,Shemaiah,FATHER_OF,19421,Obadiah,person
+3504,Asa,FATHER_OF,36423,Berechiah,person
+36721,Meshelemiah,FATHER_OF,19872,Zechariah,person
+36765,Mikloth,FATHER_OF,37272,Shimeam,person
+24118,Ahaz,FATHER_OF,37236,Jarah,person
+37236,Jarah,FATHER_OF,37060,Alemeth,person
+36570,Shema,FATHER_OF,36985,Azaz,person
+36985,Azaz,FATHER_OF,36196,Bela,person
+36997,Jaroah,FATHER_OF,36996,Huri,person
+19317,Michael,FATHER_OF,3519,Gilead,person
+36999,Jahdo,FATHER_OF,36998,Jeshishai,person
+37003,Guni,FATHER_OF,37002,Abdiel,person
+36996,Huri,FATHER_OF,36539,Abihail,person
+37002,Abdiel,FATHER_OF,37001,Ahi,person
+24322,Cush,FATHER_OF,28281,Nimrod,person
+36070,Mizraim,FATHER_OF,36076,Ludim,person
+3581,Canaan,FATHER_OF,26454,Zidon,person
+35084,Arphaxad,FATHER_OF,36107,Shelah,person
+36107,Shelah,FATHER_OF,29822,Eber,person
+36108,Joktan,FATHER_OF,36109,Almodad,person
+36197,Beor,FATHER_OF,36196,Bela,person
+35430,Zerah,FATHER_OF,36120,Jobab,person
+36202,Achbor,FATHER_OF,36201,Baal-hanan,person
+36204,Matred,FATHER_OF,36203,Mehetabel,person
+36442,Nethaneel,FATHER_OF,36417,Shemaiah,person
+35320,Abiathar,FATHER_OF,36660,Ahimelech,person
+19091,Joel,FATHER_OF,32069,Heman,person
+36165,Shobal,FATHER_OF,36587,Reaiah,person
+391947,Harum,FATHER_OF,36893,Aharhel,person
+36519,Ephratah,FATHER_OF,36244,Beth-lehem,person
+36879,Penuel,FATHER_OF,36880,Gedor,person
+36169,Ezer,FATHER_OF,36881,Hushah,person
+36165,Shobal,FATHER_OF,36635,Jahath,person
+36635,Jahath,FATHER_OF,36872,Ahumai,person
+36890,Coz,FATHER_OF,36891,Anub,person
+36902,Tehinnah,FATHER_OF,471249,IR-NAHASH,person
+36915,Ishbah,FATHER_OF,36916,Eshtemoa,person
+36797,Chelub,BROTHER_OF,36141,Shuah,person
+36141,Shuah,FATHER_OF,36897,Mehir,person
+36898,Eshton,FATHER_OF,36899,Beth-rapha,person
+36905,Meonothai,FATHER_OF,36906,Ophrah,person
+36904,Seraiah,FATHER_OF,36233,Joab,person
+19106,Judah,FATHER_OF,36107,Shelah,person
+19499,Pharaoh,FATHER_OF,36923,Bithiah,person
+23350,Naham,FATHER_OF,36925,Keilah,person
+36059,Jered,FATHER_OF,36880,Gedor,person
+36921,Jekuthiel,FATHER_OF,36922,Zanoah,person
+36933,Laadah,FATHER_OF,36566,Mareshah,person
+36924,Hodiah,SISTER_OF,23350,Naham,person
+36843,Amaziah,FATHER_OF,36954,Joshah,person
+36904,Seraiah,FATHER_OF,36965,Josibiah,person
+36972,Allon,FATHER_OF,36971,Shiphi,person
+36313,Shimri,FATHER_OF,36663,Jedaiah,person
+36965,Josibiah,FATHER_OF,36335,Jehu,person
+36971,Shiphi,FATHER_OF,36970,Ziza,person
+36702,Gedaliah,FATHER_OF,38287,Cushi,person
+43157,Hizkiah,FATHER_OF,36645,Amariah,person
+38287,Cushi,FATHER_OF,19878,Zephaniah,person
+35435,Amon,FATHER_OF,19105,Josiah,person
+19544,Reuben,FATHER_OF,41449,Bohan,person
+36272,Hepher,FATHER_OF,37117,Zelophehad,person
+19097,Joseph,FATHER_OF,19265,Manasseh,person
+20658,Nun,FATHER_OF,19104,Joshua,person
+19265,Manasseh,FATHER_OF,3519,Gilead,person
+41437,Jephunneh Hebron,FATHER_OF,3580,Caleb,person
+36503,Carmi,FATHER_OF,36504,Achan,person
+35430,Zerah,FATHER_OF,36499,Zabdi,person
+35430,Zerah,FATHER_OF,36504,Achan,person
+19265,Manasseh,FATHER_OF,36527,Machir,person
+40020,Arba,FATHER_OF,38624,Anak,person
+35071,Terah,FATHER_OF,3278,Abraham,person
+41653,Zippor,FATHER_OF,35851,Balak,person
+36197,Beor,FATHER_OF,3518,Balaam,person
+34008,Hamor,FATHER_OF,34007,Shechem,person
+3247,Aaron,FATHER_OF,35452,Eleazar,person
+36158,Kenaz,FATHER_OF,36783,Othniel,person
+36158,Kenaz,BROTHER_OF,3580,Caleb,person
+391963,Pethuel,FATHER_OF,19091,Joel,person
+38310,Bichri,FATHER_OF,36072,Sheba,person
+36305,Maacah,FATHER_OF,36830,Absalom,person
+36834,Abital,FATHER_OF,36344,Shephatiah,person
+36831,Talmai,FATHER_OF,36305,Maacah,person
+24296,Laish,FATHER_OF,38370,Phaltiel,person
+37187,Gera,FATHER_OF,36627,Shimei,person
+36486,Nahash,FATHER_OF,36515,Abigail,person
+36486,Nahash,FATHER_OF,38281,Shobi,person
+18663,David,FATHER_OF,36830,Absalom,person
+18663,David,FATHER_OF,36828,Amnon,person
+37141,Ammihud,FATHER_OF,36831,Talmai,person
+19095,Jonathan,FATHER_OF,37231,Mephibosheth,person
+37408,Barzillai,FATHER_OF,37631,Adriel,person
+36610,Shimea,FATHER_OF,19095,Jonathan,person
+36610,Shimea,BROTHER_OF,18663,David,person
+38340,Agee,FATHER_OF,36162,Shammah,person
+36261,Baanah,FATHER_OF,36260,Heleb,person
+36262,Ribai,FATHER_OF,38261,Ittai,person
+36270,Sharar,FATHER_OF,36268,Ahiam,person
+38346,Ahasbai,FATHER_OF,36838,Eliphelet,person
+36805,Ahithophel,FATHER_OF,36729,Eliam,person
+19330,Nathan,FATHER_OF,38355,Igal,person
+35320,Abiathar,FATHER_OF,19095,Jonathan,person
+19878,Zephaniah,FATHER_OF,19105,Josiah,person
+37031,Josedech,FATHER_OF,19104,Joshua,person
+36423,Berechiah,FATHER_OF,19872,Zechariah,person
+37229,Zur,FATHER_OF,42340,Cozbi,person
+42409,Lael,FATHER_OF,42227,Eliasaph,person
+36418,Uzziel,FATHER_OF,36416,Elizaphan,person
+36539,Abihail,FATHER_OF,42413,Zuriel,person
+36419,Izhar,FATHER_OF,36188,Korah,person
+19213,Levi,FATHER_OF,25342,Kohath,person
+42297,Zuar,FATHER_OF,36442,Nethaneel,person
+42243,Shedeur,FATHER_OF,42220,Elizur,person
+42222,Zurishaddai,FATHER_OF,42221,Shelumiel,person
+42300,Pedahzur,FATHER_OF,18873,Gamaliel,person
+42231,Gideoni,FATHER_OF,42225,Abidan,person
+42245,Ammishaddai,FATHER_OF,36329,Ahiezer,person
+42302,Ocran,FATHER_OF,42226,Pagiel,person
+39529,Enan,FATHER_OF,42228,Ahira,person
+19213,Levi,FATHER_OF,39304,Jochebed,person
+3247,Aaron,FATHER_OF,36659,Ithamar,person
+37141,Ammihud,FATHER_OF,37044,Shemuel,person
+42473,Chislon,FATHER_OF,42472,Elidad,person
+409520,Jogli,FATHER_OF,37025,Bukki,person
+36444,Ephod,FATHER_OF,42474,Hanniel,person
+392537,Shiphtan,FATHER_OF,36784,Kemuel,person
+415562,Parnach,FATHER_OF,36416,Elizaphan,person
+404781,Azzan,FATHER_OF,42475,Paltiel,person
+402498,Shelomi,FATHER_OF,37207,Ahihud,person
+37141,Ammihud,FATHER_OF,42476,Pedahel,person
+36692,Zaccur,FATHER_OF,36395,Shammua,person
+36170,Hori,FATHER_OF,36799,Shaphat,person
+19097,Joseph,FATHER_OF,38355,Igal,person
+20658,Nun,FATHER_OF,42266,Oshea,person
+396060,Raphu,FATHER_OF,42261,Palti,person
+403086,Sodi,FATHER_OF,42262,Gaddiel,person
+42264,Susi,FATHER_OF,42263,Gaddi,person
+19317,Michael,FATHER_OF,42269,Sethur,person
+403600,Vophsi,FATHER_OF,42270,Nahbi,person
+410045,Machi,FATHER_OF,42271,Geuel,person
+19265,Manasseh,FATHER_OF,36524,Jair,person
+38022,Amittai,FATHER_OF,19094,Jonah,person
+40102,Beeri,FATHER_OF,18910,Hosea,person
+36330,Joash,FATHER_OF,19086,Jeroboam,person
+40564,Diblaim,FATHER_OF,36061,Gomer,person
+36138,Jokshan,FATHER_OF,36072,Sheba,person
+39300,Zohar,FATHER_OF,40008,Ephron,person
+35071,Terah,FATHER_OF,36121,Abram,person
+36573,Haran,FATHER_OF,19259,Lot,person
+36573,Haran,FATHER_OF,39823,Milcah,person
+29822,Eber,BROTHER_OF,19077,Japheth,person
+35084,Arphaxad,FATHER_OF,36106,Salah,person
+36106,Salah,FATHER_OF,29822,Eber,person
+35072,Nahor,FATHER_OF,19199,Laban,person
+19199,Laban,FATHER_OF,19536,Rachel,person
+36083,Amorite,BROTHER_OF,38623,Eshcol,person
+40102,Beeri,FATHER_OF,40101,Judith,person
+37465,Elon,FATHER_OF,37775,Bashemath,person
+40341,Poti-pherah,FATHER_OF,40325,Asenath,person
+19210,Leah,FATHER_OF,40163,Dinah,person
+3549,Jacob,FATHER_OF,40163,Dinah,person
+36950,Bethuel,FATHER_OF,19200,Rebekah,person
+39823,Milcah,FATHER_OF,36950,Bethuel,person
+35072,Nahor,SPOUSE_OF,39823,Milcah,person
+36950,Bethuel,FATHER_OF,19199,Laban,person
+444789,SYRIAN,BROTHER_OF,19200,Rebekah,people
+37465,Elon,FATHER_OF,40238,Adah,person
+36167,Anah,FATHER_OF,36215,Aholibamah,person
+40238,Adah,FATHER_OF,36150,Eliphaz,person
+36166,Zibeon,FATHER_OF,36167,Anah,person
+40309,Irad,FATHER_OF,40310,Mehujael,person
+40310,Mehujael,FATHER_OF,40311,Methusael,person
+40311,Methusael,FATHER_OF,30365,Lamech,person
+38121,Baladan,FATHER_OF,38120,Berodach-baladan,person
+24118,Ahaz,FATHER_OF,18906,Hezekiah,person
+37936,Shaphan,FATHER_OF,37939,Ahikam,person
+37939,Ahikam,FATHER_OF,36702,Gedaliah,person
+36700,Nethaniah,FATHER_OF,18917,Ishmael,person
+38165,Tanhumeth,FATHER_OF,36904,Seraiah,person
+3301,Ahab,FATHER_OF,35433,Jehoram,person
+37299,Nebat,FATHER_OF,19086,Jeroboam,person
+36799,Shaphat,FATHER_OF,18677,Elisha,person
+38047,Remaliah Ahaz,FATHER_OF,24121,Pekah,people
+36842,Ahaziah,FATHER_OF,36330,Joash,person
+37226,Athaliah,MOTHER_OF,36842,Ahaziah,person
+35434,Joram,SISTER_OF,36842,Ahaziah,person
+36216,Elah,FATHER_OF,18911,Hoshea,person
+36330,Joash,FATHER_OF,36843,Amaziah,person
+37831,Jehoahaz,FATHER_OF,38002,Jehoash,person
+38002,Jehoash,FATHER_OF,19106,Judah,person
+36842,Ahaziah,FATHER_OF,38002,Jehoash,person
+36330,Joash,FATHER_OF,38020,Judah Jeroboam,person
+3301,Ahab,FATHER_OF,35434,Joram,person
+19082,Jehoshaphat,FATHER_OF,35433,Jehoram,person
+35433,Jehoram,FATHER_OF,36842,Ahaziah,person
+36785,Omri,FATHER_OF,37226,Athaliah,person
+36335,Jehu,FATHER_OF,38009,Judah Jehoahaz,person
+37398,Hazael,FATHER_OF,37353,Ben-hadad,person
+38130,Haruz,FATHER_OF,38129,Meshullemeth,person
+19082,Jehoshaphat,FATHER_OF,36335,Jehu,person
+36273,Ahijah,FATHER_OF,37344,Baasha,person
+37399,Nimshi,FATHER_OF,36335,Jehu,person
+19105,Josiah,FATHER_OF,37831,Jehoahaz,person
+19084,Jeremiah,FATHER_OF,38148,Hamutal,person
+36788,Pedaiah,FATHER_OF,38151,Zebudah,person
+36849,Meshullam,FATHER_OF,37937,Azaliah,person
+37937,Azaliah,FATHER_OF,37936,Shaphan,person
+37051,Adaiah,FATHER_OF,38136,Jedidah,person
+37787,Michaiah,FATHER_OF,36202,Achbor,person
+38154,Elnathan,FATHER_OF,38153,Nehushta,person
+38033,Gadi,FATHER_OF,38032,Menahem,person
+38032,Menahem,FATHER_OF,38038,Judah Pekahiah,person
+35449,Zadok,FATHER_OF,38042,Jerusha,person
+35070,Pharez,FATHER_OF,36498,Hezron,person
+36498,Hezron,FATHER_OF,35069,Ram,person
+35067,Nahshon,FATHER_OF,35066,Salmon,person
+35066,Salmon,FATHER_OF,3565,Boaz,person
+18663,David,FATHER_OF,38890,Preacher,person
+37187,Gera,FATHER_OF,37105,Ehud,person
+41596,Anath,FATHER_OF,41788,Shamgar,person
+3519,Gilead,FATHER_OF,34169,Jephthah,person
+36239,Dodo,FATHER_OF,37092,Puah,person
+37092,Puah,FATHER_OF,16694,Israel Tola,person
+41728,Hillel,FATHER_OF,37070,Abdon,person
+36330,Joash,FATHER_OF,18876,Gideon,person
+39743,Ebed,FATHER_OF,41837,Gaal,person
+41793,Abinoam,FATHER_OF,34168,Barak,person
+36310,Jehiel,FATHER_OF,36858,Shechaniah,person
+37940,Tikvah,FATHER_OF,39567,Jahaziah,person
+36792,Iddo,FATHER_OF,19872,Zechariah,person
+36904,Seraiah,FATHER_OF,18690,Ezra,person
+36477,Zerahiah,FATHER_OF,39742,Elihoenai,person
+19095,Jonathan,FATHER_OF,39743,Ebed,person
+37226,Athaliah,FATHER_OF,36688,Jeshaiah,person
+19317,Michael,FATHER_OF,36351,Zebadiah,person
+36310,Jehiel,FATHER_OF,19421,Obadiah,person
+39579,Bebai,FATHER_OF,19872,Zechariah,person
+39747,Hakkatan,FATHER_OF,36338,Johanan,person
+19213,Levi,FATHER_OF,36648,Mahli,person
+37023,Phinehas,FATHER_OF,35452,Eleazar,person
+36672,Jeshua,FATHER_OF,36368,Jozabad,person
+39585,Binnui,FATHER_OF,39757,Noadiah,person
+38984,Hammedatha,FATHER_OF,38983,Haman,person
+36524,Jair,FATHER_OF,38968,Mordecai,person
+28096,Kish,FATHER_OF,36627,Shimei,person
+36539,Abihail,FATHER_OF,18684,Esther,person
+32007,Bishop Edward Partridge,FATHER_OF,181594,Emily Partridge,person
+516735,John CORRILL,FATHER_OF,605342,Nancy Corrill,person
+38121,Baladan,FATHER_OF,40802,Merodach-baladan,person
+42654,Jakeh,FATHER_OF,42653,Agur,person
+36709,Hanani,FATHER_OF,36335,Jehu,person
+37344,Baasha,FATHER_OF,36216,Elah,person
+37367,Ginath,FATHER_OF,37366,Tibni,person
+36785,Omri,FATHER_OF,3301,Ahab,person
+37369,Ethbaal,FATHER_OF,19089,Jezebel,person
+37313,Eliadah,FATHER_OF,37312,Rezon,person
+306863,And,SISTER_OF,37311,Tahpenes,person
+19746,Solomon,FATHER_OF,19540,Rehoboam,person
+36182,Jether,FATHER_OF,30774,Amasa,person
+19086,Jeroboam,FATHER_OF,36671,Abijah,person
+37106,Chenaanah,FATHER_OF,19875,Zedekiah,person
+3504,Asa,FATHER_OF,19082,Jehoshaphat,person
+37827,Shilhi,FATHER_OF,36516,Azubah,person
+3301,Ahab,FATHER_OF,36842,Ahaziah,person
+37354,Tabrimon,FATHER_OF,37353,Ben-hadad,person
+19086,Jeroboam,FATHER_OF,36537,Nadab,person
+35449,Zadok,FATHER_OF,36557,Azariah,person
+19330,Nathan,FATHER_OF,36557,Azariah,person
+19330,Nathan,FATHER_OF,37461,Zabud,person
+37463,Abda,FATHER_OF,36113,Adoniram,person
+36475,Ahilud,FATHER_OF,37475,Baana,person
+36792,Iddo,FATHER_OF,37478,Ahinadab,person
+36806,Hushai,FATHER_OF,36261,Baanah,person
+37480,Paruah,FATHER_OF,19082,Jehoshaphat,person
+36216,Elah,FATHER_OF,36627,Shimei,person
+36522,Uri,FATHER_OF,23604,Geber,person
+19746,Solomon,FATHER_OF,37474,Taphath,person
+19746,Solomon,FATHER_OF,37479,Basmath,person
+33560,Tyre,FATHER_OF,306863,And,place
+38600,Ahasuerus,FATHER_OF,18662,Darius,person
+669376,John Tullidge,BROTHER_OF,19484,Edward,person
+36246,Benaiah,FATHER_OF,19872,Zechariah,person
+19872,Zechariah,FATHER_OF,36337,Jahaziel,person
+37828,Dodavah,FATHER_OF,35058,Eliezer,person
+37438,Imla,FATHER_OF,37433,Micaiah,person
+37831,Jehoahaz,FATHER_OF,36330,Joash,person
+36330,Joash,FATHER_OF,19106,Judah,person
+18663,David,FATHER_OF,36341,Jerimoth,person
+36744,Zichri,FATHER_OF,37809,Amasiah,person
+18917,Ishmael,FATHER_OF,36351,Zebadiah,person
+19872,Zechariah,FATHER_OF,36671,Abijah,person
+36557,Azariah,FATHER_OF,19091,Joel,person
+37052,Abdi,FATHER_OF,28096,Kish,person
+37886,Jehalelel,FATHER_OF,36557,Azariah,person
+37035,Zimmah,FATHER_OF,36727,Joah,person
+36727,Joah,FATHER_OF,18668,Eden,person
+37938,Joahaz,FATHER_OF,36727,Joah,person
+19877,Uriel,FATHER_OF,37787,Michaiah,person
+37147,Imnah,FATHER_OF,36722,Kore,person
+35449,Zadok,FATHER_OF,37868,Jerushah,person
+36352,Jeroham,FATHER_OF,36557,Azariah,person
+36724,Jehohanan,FATHER_OF,18917,Ishmael,person
+19422,Obed,FATHER_OF,36557,Azariah,person
+37051,Adaiah,FATHER_OF,36430,Maaseiah,person
+36744,Zichri,FATHER_OF,37841,Elishaphat,person
+35433,Jehoram,FATHER_OF,36557,Azariah,person
+36247,Jehoiada,SPOUSE_OF,35433,Jehoram,person
+36247,Jehoiada,FATHER_OF,19872,Zechariah,person
+37850,Shimeath,FATHER_OF,36300,Zabad,person
+37152,Shimrith,FATHER_OF,36726,Jehozabad,person
+18905,Herodias,FATHER_OF,35300,Salome,person
+37879,Hadlai,FATHER_OF,30774,Amasa,person
+37798,Oded,FATHER_OF,36557,Azariah,person
+19499,Pharaoh,FATHER_OF,306863,And,person
+36679,Immer,FATHER_OF,37258,Pashur,person
+41083,Habaziniah,FATHER_OF,19084,Jeremiah,person
+41084,Igdaliah,FATHER_OF,36304,Hanan,person
+36600,Rechab,FATHER_OF,37993,Jonadab,person
+19105,Josiah,FATHER_OF,19875,Zedekiah,person
+36430,Maaseiah,FATHER_OF,19878,Zephaniah,person
+37936,Shaphan,FATHER_OF,39587,Elasah,person
+36738,Hilkiah,FATHER_OF,41047,Gemariah,person
+41048,Kolaiah,FATHER_OF,3301,Ahab,person
+36430,Maaseiah,FATHER_OF,19875,Zedekiah,person
+36417,Shemaiah,FATHER_OF,24143,Urijah,person
+36202,Achbor,FATHER_OF,38154,Elnathan,person
+38164,Kareah,FATHER_OF,36338,Johanan,person
+41069,Neriah,FATHER_OF,41068,Baruch,person
+41128,Hoshaiah,FATHER_OF,36558,Jezaniah,person
+37843,Mattan,FATHER_OF,36344,Shephatiah,person
+37258,Pashur,FATHER_OF,36702,Gedaliah,person
+37049,Melchiah,FATHER_OF,37258,Pashur,person
+36738,Hilkiah,FATHER_OF,19084,Jeremiah,person
+41128,Hoshaiah,FATHER_OF,36557,Azariah,person
+36430,Maaseiah,FATHER_OF,41069,Neriah,person
+41069,Neriah,FATHER_OF,36904,Seraiah,person
+37936,Shaphan,FATHER_OF,41047,Gemariah,person
+36417,Shemaiah,FATHER_OF,36687,Delaiah,person
+36700,Nethaniah,FATHER_OF,41088,Jehudi,person
+41089,Hammelech,FATHER_OF,36505,Jerahmeel,person
+36787,Azriel,FATHER_OF,36904,Seraiah,person
+18906,Hezekiah,FATHER_OF,19265,Manasseh,person
+20658,Nun,FATHER_OF,18911,Hoshea,person
+18680,Enoch,FATHER_OF,19314,Methuselah,person
+40309,Irad,FATHER_OF,43431,Mahujael,person
+43431,Mahujael,FATHER_OF,40311,Methusael,person
+18680,Enoch,FATHER_OF,40309,Irad,person
+306863,And,SISTER_OF,43432,Tubal Cain,person
+173412,SOLOMON MACK,FATHER_OF,43289,Mack,person
+209992,Sophronia,SISTER_OF,19735,José,person
+3332,Mormon,FATHER_OF,19324,Moroni,person
+19259,Lot,FATHER_OF,19322,Moab,person
+19108,Judas,FATHER_OF,18645,Jesus,person
+494653,Sirach,FATHER_OF,18645,Jesus,person
+18896,Ham,FATHER_OF,24322,Cush,person
+19082,Jehoshaphat,FATHER_OF,19106,Judah,person
+3278,Abraham,FATHER_OF,18663,David,person
+46925,Beerothite,FATHER_OF,36261,Baanah,person
+36792,Iddo,FATHER_OF,36423,Berechiah,person
+8377,Ammorón,FATHER_OF,8662,Tubalot,person
+29680,Abinadom,FATHER_OF,9101,Amalekí,person
+28117,Shule,FATHER_OF,8513,Omer,person
+19078,Jared,FATHER_OF,7501,Entonces,person
+5655,Luego,FATHER_OF,19206,Lamoni,person
+11799,Fares,FATHER_OF,11798,Esrom,person
+11797,Naasón,FATHER_OF,11171,Salmón,person
+12033,Jeconías,FATHER_OF,11789,Salatiel,person
+35446,Abiud,FATHER_OF,11792,Eliaquim,person
+11792,Eliaquim,FATHER_OF,35447,Azor,person
+12036,Aquim,FATHER_OF,35451,Eliud,person
+35452,Eleazar,FATHER_OF,12037,Matán,person
+12037,Matán,FATHER_OF,3549,Jacob,person
+3549,Jacob,FATHER_OF,19735,José,person
+18663,David,FATHER_OF,19735,José,person
+11338,Simón Iscariote,FATHER_OF,19108,Judas,person
+11783,Jana,FATHER_OF,11782,Melqui,person
+35043,Esli,FATHER_OF,19327,Nahum,person
+11784,Matatías,FATHER_OF,11786,Maat,person
+19735,José,FATHER_OF,35048,Semei,person
+11788,Resa,FATHER_OF,11787,Joana,person
+11790,Adi,FATHER_OF,11782,Melqui,person
+35055,Elmodam,FATHER_OF,35054,Cosam,person
+11781,Matat,FATHER_OF,35059,Jorim,person
+11792,Eliaquim,FATHER_OF,11791,Jonán,person
+11793,Mainán,FATHER_OF,35063,Melea,person
+30358,Mahalaleel,FATHER_OF,19078,Jared,person
+11009,Saúl,FATHER_OF,36447,Merab,person
+37676,Nabal,SPOUSE_OF,36515,Abigail,person
+13663,Lais,FATHER_OF,42261,Palti,person
+440773,Ahitob,BROTHER_OF,13546,Icabod,people
+13078,Ahimaas,FATHER_OF,36829,Ahinoam,person
+13666,Sarvia,BROTHER_OF,36233,Joab,person
+13672,Maoc,FATHER_OF,13410,Aquis,person
+37753,Zeror,FATHER_OF,36264,Abiel,person
+13737,Afía,FATHER_OF,13736,Becorat,person
+13508,Eliú,FATHER_OF,36352,Jeroham,person
+13065,Zuf,FATHER_OF,37559,Tohu,person
+16295,Baraquel,FATHER_OF,13508,Eliú,person
+42409,Lael,FATHER_OF,17163,Eliasaf,person
+12609,Uziel,FATHER_OF,17275,Elizafán,person
+17151,Sedeur,FATHER_OF,17150,Elisur,place
+17154,Zurisadai,FATHER_OF,17153,Selumiel,person
+13142,Amiud,FATHER_OF,13143,Elisama,person
+17156,Pedasur,FATHER_OF,18873,Gamaliel,person
+17158,Gedeoni,FATHER_OF,17157,Abidán,person
+17159,Amisadai,FATHER_OF,36329,Ahiezer,place
+17161,Ocrán,FATHER_OF,42226,Pagiel,person
+17164,Enán,FATHER_OF,42228,Ahira,person
+12974,Jefone,FATHER_OF,3580,Caleb,person
+12701,Maquir,FATHER_OF,13035,Galaad,person
+13142,Amiud,FATHER_OF,17332,Semuel,person
+409520,Jogli,FATHER_OF,13048,Buqui,person
+17337,Parnac,FATHER_OF,17275,Elizafán,place
+13142,Amiud,FATHER_OF,17340,Pedael,person
+12999,Zacur,FATHER_OF,17177,Samúa,person
+19735,José,FATHER_OF,38355,Igal,person
+403086,Sodi,FATHER_OF,17180,Gadiel,person
+17183,Gemali,FATHER_OF,12926,Amiel,place
+12583,Micael,FATHER_OF,17184,Setur,person
+36197,Beor,FATHER_OF,17243,Dice Balaam,person
+11799,Fares,FATHER_OF,12693,Hezrón,person
+12693,Hezrón,FATHER_OF,35069,Ram,person
+13074,Hilcías,FATHER_OF,11792,Eliaquim,person
+13068,Asaf,FATHER_OF,13056,Joa,person
+36524,Jair,FATHER_OF,12538,Elhanán,person
+12763,Simea,BROTHER_OF,18663,David,person
+13666,Sarvia,FATHER_OF,36233,Joab,person
+36831,Talmai,FATHER_OF,12558,Maaca,person
+12926,Amiel,FATHER_OF,12925,Bet-súa,person
+12650,Jedutún,FATHER_OF,36381,Obed-edom,person
+36239,Dodo,FATHER_OF,12538,Elhanán,person
+12540,Iques,FATHER_OF,36253,Ira,person
+36262,Ribai,FATHER_OF,14186,Itai,person
+12554,Hagrai,FATHER_OF,36278,Mibhar,person
+12556,Siza,FATHER_OF,36302,Adina,place
+12537,Asael,BROTHER_OF,36233,Joab,person
+12558,Maaca,FATHER_OF,12557,Hanán,person
+36737,Simri,FATHER_OF,36312,Jediael,person
+12670,Nahas,FATHER_OF,12671,Hanún,person
+13077,Abisúa,FATHER_OF,13048,Buqui,person
+13048,Buqui,FATHER_OF,13105,Uzi,person
+13105,Uzi,FATHER_OF,13049,Zeraías,person
+13049,Zeraías,FATHER_OF,13226,Meraiot,people
+12732,Salum,FATHER_OF,13074,Hilcías,person
+18897,Samuel,FATHER_OF,19091,Joel,person
+36366,Amasai,FATHER_OF,13066,Mahat,person
+13058,Asir,FATHER_OF,13067,Tahat,person
+12763,Simea,FATHER_OF,13842,Berequías,person
+13069,Baasías,FATHER_OF,12583,Micael,person
+12498,Zera,FATHER_OF,13070,Etni,person
+37052,Abdi,FATHER_OF,13072,Quisi,person
+37055,Bani,FATHER_OF,13075,Amsi,person
+12843,Musi,FATHER_OF,36648,Mahli,person
+13842,Berequías,FATHER_OF,13068,Asaf,person
+12693,Hezrón,FATHER_OF,3580,Caleb,person
+12706,Asur,FATHER_OF,12707,Tecoa,person
+12735,Maresa,FATHER_OF,12525,Hebrón,person
+36536,Jada,BROTHER_OF,12714,Samai,person
+3580,Caleb,BROTHER_OF,12708,Jerameel,person
+36300,Zabad,FATHER_OF,12728,Eflal,person
+12728,Eflal,FATHER_OF,19422,Obed,person
+12539,Heles,FATHER_OF,12731,Elasa,person
+12731,Elasa,FATHER_OF,12720,Sismai,person
+12720,Sismai,FATHER_OF,12732,Salum,person
+36571,Raham,FATHER_OF,12738,Jorcoam,person
+12749,Saaf,FATHER_OF,12750,Madmana,person
+12751,Seva,FATHER_OF,12752,Macbena,place
+12737,Sema,FATHER_OF,36571,Raham,person
+12743,Harán,FATHER_OF,36575,Gazez,person
+406289,Aher,FATHER_OF,13119,Husim,person
+12701,Maquir,SPOUSE_OF,12558,Maaca,person
+13119,Husim,FATHER_OF,13182,Abitob,person
+12891,Miclot,FATHER_OF,12763,Simea,person
+13210,Joada,FATHER_OF,13082,Alemet,person
+483048,Mosa,FATHER_OF,13211,Bina,person
+12889,Zicri,FATHER_OF,35058,Eliezer,person
+36784,Kemuel,FATHER_OF,12867,Hasabías,person
+12583,Micael,FATHER_OF,36785,Omri,person
+36787,Azriel,FATHER_OF,12570,Jerimot,person
+12902,Quelub,FATHER_OF,36796,Ezri,people
+36800,Adlai,FATHER_OF,12904,Safat,person
+12530,Hacmoni,FATHER_OF,36310,Jehiel,person
+36785,Omri,FATHER_OF,13142,Amiud,person
+13223,Micri,FATHER_OF,13105,Uzi,person
+13142,Amiud,FATHER_OF,14826,Utai,person
+13105,Uzi,FATHER_OF,12506,Ela,person
+12938,Mesulam,FATHER_OF,13074,Hilcías,person
+13227,Pasur,FATHER_OF,36352,Jeroham,person
+13231,Mesilemit,FATHER_OF,12938,Mesulam,person
+12947,Azricam,FATHER_OF,13232,Hasub,place
+37265,Galal,FATHER_OF,12614,Semaías,person
+36352,Jeroham,FATHER_OF,13071,Adaía,person
+13232,Hasub,FATHER_OF,12614,Semaías,person
+12614,Semaías,FATHER_OF,12578,Obadías,person
+3504,Asa,FATHER_OF,13842,Berequías,person
+36310,Jehiel,FATHER_OF,13202,Gabaón,person
+12891,Miclot,FATHER_OF,13239,Simeam,person
+13241,Jara,FATHER_OF,13082,Alemet,person
+12737,Sema,FATHER_OF,36985,Azaz,person
+13034,Jaroa,FATHER_OF,36996,Huri,person
+12583,Micael,FATHER_OF,13035,Galaad,person
+36999,Jahdo,FATHER_OF,13036,Jesisai,person
+37002,Abdiel,FATHER_OF,12222,Ahí,person
+12446,Cus,FATHER_OF,28281,Nimrod,person
+11008,Canaán,FATHER_OF,8054,Sidón,place
+12498,Zera,FATHER_OF,36120,Jobab,person
+12508,Acbor,FATHER_OF,12509,Baal-hanán,person
+12483,Sobal,FATHER_OF,12953,Reaía,person
+12792,Jahat,FATHER_OF,36872,Ahumai,person
+557386,COS,FATHER_OF,36891,Anub,people
+12978,Isba,FATHER_OF,12979,Estemoa,person
+12902,Quelub,BROTHER_OF,15495,Súa,people
+12982,Jecutiel,FATHER_OF,12983,Zanoa,person
+12993,Laada,FATHER_OF,12735,Maresa,person
+13663,Lais,FATHER_OF,42475,Paltiel,person
+12670,Nahas,FATHER_OF,14182,Sobi,person
+12926,Amiel,FATHER_OF,12701,Maquir,person
+12670,Nahas,FATHER_OF,36515,Abigail,person
+13666,Sarvia,MOTHER_OF,36233,Joab,person
+12670,Nahas,SISTER_OF,13666,Sarvia,person
+37071,Rehob,FATHER_OF,14116,Hadar-ezer,person
+12763,Simea,FATHER_OF,37993,Jonadab,person
+13142,Amiud,FATHER_OF,36831,Talmai,person
+13399,Barzilai,FATHER_OF,37631,Adriel,person
+14252,Age,FATHER_OF,14251,Sama,person
+12558,Maaca,FATHER_OF,38346,Ahasbai,person
+37475,Baana,FATHER_OF,36260,Heleb,person
+14261,Sarar,FATHER_OF,12550,Ahíam,person
+12865,Matanías,FATHER_OF,36434,Jeiel,person
+13435,Silhi,FATHER_OF,12694,Azuba,place
+13802,Dodava,FATHER_OF,35058,Eliezer,person
+18663,David,FATHER_OF,12570,Jerimot,person
+12570,Jerimot,FATHER_OF,13760,Mahalat,person
+13282,Nabat,FATHER_OF,19086,Jeroboam,person
+13055,Zima,FATHER_OF,13056,Joa,person
+13056,Joa,FATHER_OF,18811,Edén,person
+13875,Azalía,FATHER_OF,13032,Safán,person
+13032,Safán,FATHER_OF,14039,Ahicam,place
+13880,Hasra,FATHER_OF,13879,Ticva,person
+13879,Ticva,FATHER_OF,12732,Salum,person
+13071,Adaía,FATHER_OF,17115,Maasías,person
+12889,Zicri,FATHER_OF,13813,Elisafat,person
+13819,Simrit,FATHER_OF,36368,Jozabad,person
+13843,Mesilemot,FATHER_OF,13842,Berequías,person
+13348,Ginat,FATHER_OF,37366,Tibni,person
+12691,Jeter,FATHER_OF,30774,Amasa,person
+12558,Maaca,FATHER_OF,13410,Aquis,person
+19086,Jeroboam,SPOUSE_OF,13315,Entra,person
+13330,Hezión,FATHER_OF,13329,Tabrimón,person
+13143,Elisama,FATHER_OF,12862,Netanías,person
+14041,Carea,FATHER_OF,12569,Johanán,person
+13908,Recab,FATHER_OF,37993,Jonadab,person
+13155,Somer,FATHER_OF,36368,Jozabad,person
+38130,Haruz,FATHER_OF,14009,Mesulemet,person
+12938,Mesulam,FATHER_OF,13875,Azalía,person
+13071,Adaía,FATHER_OF,14014,Jedida,person
+14031,Elnatán,FATHER_OF,14030,Nehusta,person
+39300,Zohar,FATHER_OF,15345,Efrón,person
+12743,Harán,FATHER_OF,19259,Lot,person
+12743,Harán,FATHER_OF,15352,Milca,person
+40102,Beeri,FATHER_OF,15379,Judit,person
+34008,Hamor,FATHER_OF,15452,Siquem,person
+3278,Abraham,SISTER_OF,12460,Nebaiot,person
+12484,Zibeón,FATHER_OF,12485,Aná,person
+12485,Aná,FATHER_OF,12513,Aholibama,person
+40310,Mehujael,FATHER_OF,15517,Metusael,person
+13053,Josadac,FATHER_OF,12816,Jesúa,person
+36310,Jehiel,FATHER_OF,12817,Secanías,person
+12818,Eliasib,FATHER_OF,12569,Johanán,person
+13049,Zeraías,FATHER_OF,36725,Elioenai,people
+36310,Jehiel,FATHER_OF,12578,Obadías,person
+14824,Hacatán,FATHER_OF,12569,Johanán,person
+12816,Jesúa,FATHER_OF,36368,Jozabad,person
+17051,Mesezabeel,FATHER_OF,13842,Berequías,person
+37249,Imri,FATHER_OF,12999,Zacur,person
+13842,Berequías,FATHER_OF,12938,Mesulam,person
+17104,Besodías,FATHER_OF,12938,Mesulam,person
+17107,Harhaía,FATHER_OF,12609,Uziel,person
+17110,Hasabnías,FATHER_OF,17109,Hatús,place
+14743,Pahat-moab,FATHER_OF,13232,Hasub,people
+17111,Halohes,FATHER_OF,12732,Salum,person
+13908,Recab,FATHER_OF,17112,Muladar Malquías,person
+17035,Colhoze,FATHER_OF,12732,Salum,person
+12816,Jesúa,FATHER_OF,36169,Ezer,person
+39709,Henadad,FATHER_OF,14746,Binúi,person
+12817,Secanías,FATHER_OF,12614,Semaías,person
+42082,Joed,FATHER_OF,12938,Mesulam,person
+12815,Malquías,FATHER_OF,13227,Pasur,person
+17045,Azai,FATHER_OF,36348,Azareel,person
+14728,Imer,FATHER_OF,13843,Mesilemot,person
+12889,Zicri,FATHER_OF,19091,Joel,person
+36348,Azareel,FATHER_OF,36366,Amasai,person
+17047,Buni,FATHER_OF,12867,Hasabías,person
+37265,Galal,FATHER_OF,17177,Samúa,person
+17177,Samúa,FATHER_OF,37463,Abda,person
+12867,Hasabías,FATHER_OF,37055,Bani,person
+37055,Bani,FATHER_OF,13105,Uzi,person
+17051,Mesezabeel,FATHER_OF,12824,Petaías,person
+12816,Jesúa,FATHER_OF,17067,Joiacim,person
+17067,Joiacim,FATHER_OF,12818,Eliasib,person
+12818,Eliasib,FATHER_OF,42109,Joiada,person
+14766,Cadmiel,FATHER_OF,12816,Jesúa,person
+13068,Asaf,FATHER_OF,12999,Zacur,person
+36203,Mehetabel,FATHER_OF,14797,Delaía,person
+14797,Delaía,FATHER_OF,12614,Semaías,person
+37170,Ara,FATHER_OF,12817,Secanías,person
+12865,Matanías,FATHER_OF,12999,Zacur,person
+12999,Zacur,FATHER_OF,12557,Hanán,person
+18663,David,FATHER_OF,14698,Predicador,person
+31372,Joseph Knight Sr,SPOUSE_OF,32151,Polly Knight,person
+41944,Dibri,FATHER_OF,12798,Selomit,person
+14728,Imer,FATHER_OF,13227,Pasur,person
+36499,Zabdi,FATHER_OF,36503,Carmi,person
+12515,Cenaz,BROTHER_OF,3580,Caleb,person
+36792,Iddo,FATHER_OF,13842,Berequías,person
+17500,Jaqué,FATHER_OF,42653,Agur,person
+36239,Dodo,FATHER_OF,16695,Fúa,person
+16695,Fúa,FATHER_OF,16694,Israel Tola,person
+13081,Hilén,FATHER_OF,16708,Israel Abdón,person
+12732,Salum,FATHER_OF,17115,Maasías,person
+16083,Selemías,FATHER_OF,41094,Jucal,person
+16083,Selemías,FATHER_OF,16090,Irías,person
+13032,Safán,FATHER_OF,12731,Elasa,place
+12508,Acbor,FATHER_OF,14031,Elnatán,person
+16086,Hamelec,FATHER_OF,12815,Malquías,person
+16083,Selemías,FATHER_OF,12862,Netanías,person
+12614,Semaías,FATHER_OF,14797,Delaía,person
+12862,Netanías,FATHER_OF,16082,Jehudí,person
+16086,Hamelec,FATHER_OF,12708,Jerameel,person
+41090,Abdeel,FATHER_OF,16083,Selemías,person
+3251,Mosiah,FATHER_OF,3247,Aaron,person
+3247,Aaron,BROTHER_OF,3249,Moses,person
+3549,Jacob,FATHER_OF,18681,Enos,person
+3549,Jacob,FATHER_OF,11805,Enós,person
+3549,Jacob,FATHER_OF,18869,Gad,person
+3539,King Benjamin,FATHER_OF,18900,Helaman,person
+3278,Abraham,FATHER_OF,18917,Ishmael,person
+19072,Lehi,FATHER_OF,3549,Jacob,person
+19075,Alphaeus,FATHER_OF,19073,James,person
+19076,Zebedee,FATHER_OF,19092,John,person
+19199,Laban,BROTHER_OF,19200,Rebekah,person
+19323,Captain Moroni,FATHER_OF,25969,Moronihah,person
+19913,Zeniff,FATHER_OF,18866,Noah,person
+56082,Elder,SPOUSE_OF,94918,Lawrence,person
+18680,Enoch,BROTHER_OF,19078,Jared,person
+71589,Elder Joseph Anderson,SPOUSE_OF,62544,Anderson,person
+56082,Elder,SPOUSE_OF,88835,Stone,person
+84138,Nancy Hanks,MOTHER_OF,58721,Abraham Lincoln,person
+101390,Rex,SPOUSE_OF,84696,Phyllis Nielsen Reeve,person
+24674,Spencer,SPOUSE_OF,143683,Avanelle Richards Osborn,person
+56082,Elder,FATHER_OF,87514,Mark McConkie,person
+19072,Lehi,SPOUSE_OF,19565,Sariah,person
+76388,George Washington,FATHER_OF,295952,Our Country,person
+3289,Adam,FATHER_OF,19574,Seth,person
+30365,Lamech,FATHER_OF,18866,Noah,person
+351244,Mrs,FATHER_OF,90521,Bob Brown,person
+19109,Jude,BROTHER_OF,19073,James,person
+19073,James,SPOUSE_OF,339532,Cullimore,person
+3461,Hannah,MOTHER_OF,18897,Samuel,person
+521493,Elder John,FATHER_OF,95100,Eudora,person
+95774,Henry Eddington,FATHER_OF,95773,Velma Holsinger,person
+19583,Hyrum Smith,SPOUSE_OF,48817,Mary Fielding Smith,person
+56082,Elder,SPOUSE_OF,100730,Bonnie Lee Adamson Caldwell,person
+121822,Elder Dennis,SPOUSE_OF,365098,Neuenschwander,person
+521579,Elder Robert,SPOUSE_OF,112576,Sister Norma Creer Harbertson,person
+3399,Ammon,BROTHER_OF,19078,Jared,person
+18663,David,FATHER_OF,18661,Daniel,person
+123058,Elder Lino Alvarez,SPOUSE_OF,86307,Alvarez,person
+63928,Edmond,FATHER_OF,63927,Tamma,person
+123872,Franklin Delano Roosevelt,SPOUSE_OF,71619,Eleanor Roosevelt,person
+84134,George Romney,SPOUSE_OF,84133,Lenore Romney,person
+697991,Una,SISTER_OF,231516,Africa,place
+84003,Nancy,MOTHER_OF,58637,Wendy,person
+19735,José,FATHER_OF,143368,Efrain,person
+86725,Susanna Wesley,MOTHER_OF,86724,John Wesley,person
+103921,Reid Burgess,FATHER_OF,8213,Eres,person
+294247,Mientras,BROTHER_OF,19078,Jared,person
+697991,Una,SISTER_OF,742556,Nuevo México,place
+697991,Una,SISTER_OF,12332,España,place
+19087,Jesse,FATHER_OF,36327,King David,person
+3549,Jacob,FATHER_OF,72388,Young Joseph,person
+75169,John Hatch,SPOUSE_OF,75168,Sandra Hatch,person
+81211,Terri,SPOUSE_OF,81210,Joan Christensen,person
+19097,Joseph,FATHER_OF,18682,Ephraim,person
+18918,Nephi,BROTHER_OF,19078,Jared,person
+103749,Carmen,MOTHER_OF,65223,Harriet,person
+61398,Lisa,SISTER_OF,103749,Carmen,person
+3289,Adam,FATHER_OF,3579,Cain,person
+71678,Willie,FATHER_OF,103893,Thomas Michael Wilson,person
+178637,CHARLES,SPOUSE_OF,109226,Pioneer Sarah Rich,person
+19871,Zacharias,SPOUSE_OF,18675,Elisabeth,person
+109300,Alfred Eugene Hemingway,FATHER_OF,109299,Stephen Hemingway,person
+19092,John,FATHER_OF,61216,Ann,person
+30497,Hyrum,BROTHER_OF,19735,José,person
+66220,Fritz,SPOUSE_OF,66221,Joyce,person
+68579,Nicole,SISTER_OF,133291,Tiffany,person
+133291,Tiffany,SISTER_OF,68579,Nicole,person
+19735,José,SPOUSE_OF,48813,Emma,person
+71281,Ted,FATHER_OF,76548,Cooper,person
+81209,Mac,FATHER_OF,85315,Steven,person
+5852,Cuando,FATHER_OF,83142,Helen Keller,person
+5655,Luego,BROTHER_OF,19078,Jared,person
+19268,Thomas,SPOUSE_OF,19071,Misuri,person
+178637,CHARLES,SPOUSE_OF,73078,Sarah Rich,person
+106645,Fred Sudbury,FATHER_OF,82925,Craig,person
+697991,Una,SISTER_OF,14427,Etiopía,place
+35157,Jairus,FATHER_OF,141863,Jesus Raises,person
+64768,Mary Whitmer,MOTHER_OF,31201,David Whitmer,person
+19746,Solomon,FATHER_OF,152604,King Rehoboam,person
+19097,Joseph,FATHER_OF,165048,Helen Mar Kimball,person
+18681,Enos,FATHER_OF,19081,Jarom,person
+19081,Jarom,FATHER_OF,19426,Omni,person
+19426,Omni,FATHER_OF,29678,Amaron,person
+29679,Chemish,FATHER_OF,29680,Abinadom,person
+29679,Chemish,BROTHER_OF,29678,Amaron,person
+26061,Ammaron,BROTHER_OF,3416,Amos,person
+25343,Elohim,FATHER_OF,18644,Jesus Christ,concept
+381023,When,BROTHER_OF,19078,Jared,person
+88482,Freeman Nickerson,FATHER_OF,281492,Moses Nickerson,person
+31362,Peter Whitmer Sr,SPOUSE_OF,64768,Mary Whitmer,person
+186973,President Russell,SPOUSE_OF,55877,Nelson,person
+19073,James,BROTHER_OF,18645,Jesus,person
+207304,Hiram Kimball,SPOUSE_OF,105667,Sarah Granger Kimball,person
+30781,Joseph Young,BROTHER_OF,19870,Brigham Young,person
+207619,Phinehas Young,BROTHER_OF,19870,Brigham Young,people
+55773,Rhoda Young,SISTER_OF,19870,Brigham Young,person
+212346,King Tamatoa,SPOUSE_OF,212345,Queen Pitomai,person
+30740,George,FATHER_OF,216416,Abraham Cannon,person
+19870,Brigham Young,FATHER_OF,216589,Joseph Don Carlos Young,person
+20135,Relief Society,FATHER_OF,292639,Zina Presendia Card,organization
+30740,George,FATHER_OF,219630,Frank Cannon,person
+83519,Arnold Friberg,BROTHER_OF,792244,Jared Sees,person
+29121,King Noah,FATHER_OF,29318,Limhi,person
+29722,Martin Harris,SPOUSE_OF,129298,Lucy Harris,person
+219892,Jesusita,MOTHER_OF,19631,Rafael,person
+155142,President Wilford Woodruff,SPOUSE_OF,133621,Phebe Woodruff,person
+19106,Judah,FATHER_OF,36504,Achan,person
+36312,Jediael,FATHER_OF,36183,Bilhan,person
+244779,Emma Robbins Riggs,MOTHER_OF,244458,Emma Ray Riggs,person
+404135,Agrippina,MOTHER_OF,44344,Nero,place
+246712,Samuel Marion,FATHER_OF,584821,Idaho,person
+36417,Shemaiah,FATHER_OF,51012,Levite,person
+36456,Jeduthun,FATHER_OF,36381,Obed-edom,person
+406572,Asherite,FATHER_OF,42226,Pagiel,person
+36163,Seir,FATHER_OF,36165,Shobal,person
+386631,Potipherah,FATHER_OF,40325,Asenath,person
+292531,President John Taylor,FATHER_OF,248067,Ezra Oakley Taylor,person
+35430,Zerah,FATHER_OF,509795,Jobah,person
+20145,Righteousness,FATHER_OF,34485,Hail,concept
+256249,Syria Philip,BROTHER_OF,418627,SELEUCUS,person
+633893,Shelem,BROTHER_OF,19078,Jared,concept
+55881,Lucy Mack Smith,MOTHER_OF,19735,José,person
+387740,PETER WHITMER,SPOUSE_OF,64768,Mary Whitmer,person
+5852,Cuando,BROTHER_OF,19078,Jared,person
+534315,JOHN SMITH,FATHER_OF,18668,Eden,person
+18987,Martin,SPOUSE_OF,43297,Lucy,person
+19870,Brigham Young,FATHER_OF,19092,John,person
+43320,Isaac Hale,FATHER_OF,48813,Emma,person
+289383,Phinheas Young,BROTHER_OF,19870,Brigham Young,person
+457998,Con,FATHER_OF,48813,Emma,person
+18897,Samuel,BROTHER_OF,19735,José,person
+9595,Fayette,MOTHER_OF,18663,David,person
+19563,Sarah,SISTER_OF,35964,Phebe,person
+33637,Lydia,SISTER_OF,3289,Adam,person
+19092,John,SPOUSE_OF,58578,Leonora,person
+35552,PARLEY,SPOUSE_OF,209514,Mary Ann Pratt,person
+211533,Dwight Webster,SISTER_OF,55549,Wilford,person
+211674,Lorenzo,SPOUSE_OF,211673,Harriet Young,person
+19870,Brigham Young,FATHER_OF,19097,Joseph,person
+43297,Lucy,MOTHER_OF,112984,Susie,person
+57205,Dora,SISTER_OF,112984,Susie,person
+19735,José,FATHER_OF,103749,Carmen,person
+141755,Eliza,SISTER_OF,18663,David,person
+3461,Hannah,FATHER_OF,55736,Lewis,person
+3448,Anna,MOTHER_OF,19092,John,person
+216850,Lucy Young,MOTHER_OF,47141,Susa,person
+47141,Susa,SPOUSE_OF,3549,Jacob,person
+149545,Como,MOTHER_OF,19210,Leah,person
+19210,Leah,MOTHER_OF,19092,John,person
+109020,Ida,SPOUSE_OF,20724,Salt Lake City,person
+18676,Elizabeth,FATHER_OF,220270,Betty McCune,person
+220677,Ernst,BROTHER_OF,3448,Anna,person
+5852,Cuando,MOTHER_OF,114024,Connie,person
+221717,Judy,SISTER_OF,19494,Paul,person
+83519,Arnold Friberg,BROTHER_OF,19078,Jared,person
+84120,Clara,SPOUSE_OF,221563,William Daniels,person
+66298,Henry,BROTHER_OF,221135,Helga,person
+19092,John,SPOUSE_OF,60944,Barbara,person
+135725,Matilda,MOTHER_OF,102340,Billy,person
+384995,Cabo,FATHER_OF,61517,Alice,place
+125621,Afortunadamente,FATHER_OF,211445,Willy,person
+176512,WILLIAM,BROTHER_OF,19735,José,person
+145583,Recientemente,FATHER_OF,311530,Miqueas,person
+244462,Riggs,FATHER_OF,223534,Emma Ray,person
+310951,Sarah Farr,FATHER_OF,57399,George Albert Smith,person
+113464,Ada,MOTHER_OF,73176,Gordon,person
+73176,Gordon,FATHER_OF,64184,Richard,person
+311698,Jeddy Grant,FATHER_OF,59770,Grant,person
+30497,Hyrum,FATHER_OF,19097,Joseph,person
+30497,Hyrum,SPOUSE_OF,48817,Mary Fielding Smith,person
+31138,Smith,FATHER_OF,55887,Joseph Fielding Smith,person
+218947,Julina Lambson Smith,MOTHER_OF,55887,Joseph Fielding Smith,person
+249060,Lewis Shurtliff,FATHER_OF,89981,Louie,person
+5852,Cuando,FATHER_OF,19097,Joseph,person
+117822,Patrick,SISTER_OF,19097,Joseph,person
+106280,Gracias,FATHER_OF,73176,Gordon,person
+7501,Entonces,FATHER_OF,68570,Frances,person
+314734,Esaí,FATHER_OF,18663,David,person
+252544,Aphek Woodruff,FATHER_OF,174956,CONNECTICUT,person
+18663,David,FATHER_OF,88165,Being,person
+18896,Ham,SPOUSE_OF,18171,Egyptus,person
+18676,Elizabeth,MOTHER_OF,19092,John,person
+18904,Herod,FATHER_OF,27544,Antipas,person
+35157,Jairus,FATHER_OF,328096,Jesus Healing,person
+18663,David,FATHER_OF,156560,Ser,person
+18387,Herodes Agripa,FATHER_OF,569407,Era,person
+19735,José,FATHER_OF,569407,Era,person
+251483,Susa Young Gates,FATHER_OF,19210,Leah,person
+340502,Phoebe Angell,MOTHER_OF,19870,Brigham Young,person
+261358,Newel,FATHER_OF,215169,Emmeline,person
+30740,George,SPOUSE_OF,196868,Lucinda Harris,person
+165491,Ferguson,FATHER_OF,347734,Catherine Heathen,person
+146012,Phineas Young,BROTHER_OF,380753,Rhoda Young Greene,person
+291220,Lorenzo Dow Young,BROTHER_OF,19870,Brigham Young,person
+354193,Sarah Ann Libby Smith,FATHER_OF,207414,John Henry,person
+19097,Joseph,FATHER_OF,354574,Joseph Smith Horne,person
+19563,Sarah,FATHER_OF,354612,Augusta Cleveland,person
+60961,Lucy Meserve Smith,SPOUSE_OF,31138,Smith,person
+59317,Robert,FATHER_OF,357154,William Douglas,person
+357148,James Smithies,SPOUSE_OF,357147,Nancy Ann Knowles Smithies,person
+523755,THOMAS CAMPBELL,FATHER_OF,151786,Disciples,person
+19088,Jethro,FATHER_OF,19883,Zipporah,person
+351392,Margaret Moon,SISTER_OF,87446,Clayton,person
+84363,Jean,FATHER_OF,59153,Gérald Caussé,person
+61009,Swedish,FATHER_OF,56802,Renlund,people
+102054,Anna Widtsoe,FATHER_OF,90227,Widtsoe,person
+363663,Karori,MOTHER_OF,363650,Thomas Holder,person
+19549,Ruth,FATHER_OF,370972,Mercy Opar,person
+737001,Sheets,SPOUSE_OF,56945,Kathy,person
+61271,Amy,SPOUSE_OF,6870,Socorro,person
+340502,Phoebe Angell,MOTHER_OF,595920,MARY ANN ANGELL,person
+19870,Brigham Young,SPOUSE_OF,595920,MARY ANN ANGELL,person
+5852,Cuando,FATHER_OF,208928,Fanny,person
+19735,José,FATHER_OF,112958,Joseph III,person
+530150,JANE,FATHER_OF,33263,Silas,person
+67829,Samuel Harrison Smith,BROTHER_OF,19735,José,person
+65579,Caroline,SISTER_OF,74193,Louisa,person
+19735,José,SPOUSE_OF,30909,Emma Smith,person
+636198,JOSEPH KNIGHT,SPOUSE_OF,261230,Polly,person
+345633,Elizabeth Hale Wasson,SISTER_OF,48813,Emma,person
+697991,Una,MOTHER_OF,225329,Tonga,place
+697991,Una,SISTER_OF,363404,Ghana,place
+697991,Una,MOTHER_OF,127533,Brasil,place
+346003,Theresa,FATHER_OF,379501,Athelia Call Sears,person
+697991,Una,SISTER_OF,129013,Tooele,place
+387740,PETER WHITMER,FATHER_OF,341269,Elizabeth Ann Whitmer,person
+387740,PETER WHITMER,FATHER_OF,187849,Catherine Whitmer,person
+19097,Joseph,FATHER_OF,390002,VERMONT,person
+470377,Judahite,FATHER_OF,36504,Achan,person
+348206,Amelia Althea Stevens,SISTER_OF,211613,Barney,person
+18897,Samuel,BROTHER_OF,176512,WILLIAM,person
+211654,William Hendricks,FATHER_OF,348571,Martha Hendricks Aylworth,person
+7501,Entonces,SISTER_OF,152911,Taiwán,person
+697991,Una,SISTER_OF,129057,Perú,place
+36163,Seir,FATHER_OF,36168,Dishon,person
+19073,James,BROTHER_OF,104442,Burnett,person
+5852,Cuando,FATHER_OF,382796,Ret,person
+65223,Harriet,SPOUSE_OF,19268,Thomas,person
+382757,Juana Vega García,MOTHER_OF,365971,Jesús Gómez,person
+19494,Paul,SPOUSE_OF,367916,Elsa Langheinrich,person
+86575,Norma,SISTER_OF,58934,Betty,person
+385453,Tiiu,MOTHER_OF,30004,Sidney,person
+19735,José,SPOUSE_OF,385622,Haydée,person
+385692,María Burk,SPOUSE_OF,374236,Ural Morris Burk,person
+384952,August Fischer,BROTHER_OF,221027,Friedrich,person
+375255,Aivar Lembit,BROTHER_OF,386106,Enn,person
+18663,David,SPOUSE_OF,375295,Eloisa,person
+59860,Joe,BROTHER_OF,104121,Lizzie,person
+3512,Asher,FATHER_OF,19564,Serah,person
+18683,Esau,SPOUSE_OF,40238,Adah,person
+18663,David,FATHER_OF,35431,Tamar,person
+36830,Absalom,FATHER_OF,35431,Tamar,person
+35171,Chuza,SPOUSE_OF,35009,Joanna,person
+18896,Ham,SPOUSE_OF,3278,Abraham,person
+18171,Egyptus,FATHER_OF,19499,Pharaoh,person
+3419,Ananias,SPOUSE_OF,33943,Sapphira,person
+3278,Abraham,FATHER_OF,24294,Midian,person
+387279,Pudens Claudia Rufina,SPOUSE_OF,387278,Been Claudia Rufina,people
+3278,Abraham,SPOUSE_OF,19563,Sarah,person
+19499,Pharaoh,FATHER_OF,387410,Bathia,person
+3301,Ahab,FATHER_OF,37226,Athaliah,person
+3519,Gilead,FATHER_OF,36272,Hepher,person
+36527,Machir,SPOUSE_OF,36741,Shuppim,person
+387614,The New Testament Elizabeth,MOTHER_OF,19092,John,people
+3419,Ananias,SPOUSE_OF,392128,Sapphira Beautiful,person
+392321,Serug Branch,FATHER_OF,35072,Nahor,person
+36788,Pedaiah,BROTHER_OF,19879,Zerubbabel,person
+392546,Amarpel,FATHER_OF,392545,Khammurabi,person
+36486,Nahash,FATHER_OF,392571,Shobi Captor,person
+36441,Shebaniah,FATHER_OF,18895,Haggai,person
+393085,Kenez,FATHER_OF,36907,Jephunneh,person
+666539,Nabopolassar,FATHER_OF,19412,Nebuchadnezzar,person
+35072,Nahor,FATHER_OF,393436,Chesed Gain,person
+33691,Gallio,BROTHER_OF,30848,Seneca,person
+393846,Lagus,FATHER_OF,45762,Ptolemy,people
+18659,Cyrus,FATHER_OF,425840,Cambyses,person
+36150,Eliphaz,FATHER_OF,393909,Omar Eloquent,person
+394086,Paruah Flourishing,FATHER_OF,19082,Jehoshaphat,person
+415201,Hystaspes,FATHER_OF,18662,Darius,person
+37122,Hammoleketh,SISTER_OF,3519,Gilead,person
+19540,Rehoboam,FATHER_OF,19106,Judah,person
+394897,Abiramu,FATHER_OF,36083,Amorite,people
+35072,Nahor,FATHER_OF,19200,Rebekah,person
+395045,Agee Fugitive,FATHER_OF,36162,Shammah,person
+36150,Eliphaz,FATHER_OF,37602,Amalek,person
+18898,Hebron,FATHER_OF,51012,Levite,person
+36345,Elkanah,FATHER_OF,51012,Levite,person
+36738,Hilkiah,FATHER_OF,51012,Levite,person
+395241,Amittai True,FATHER_OF,19094,Jonah,person
+19259,Lot,FATHER_OF,39948,Ben-ammi,person
+19259,Lot,FATHER_OF,3399,Ammon,person
+758134,Almighty,FATHER_OF,36329,Ahiezer,concept
+395372,Herod-Philip,SPOUSE_OF,18905,Herodias,person
+19097,Joseph,SPOUSE_OF,485260,HELIOPOLIS,person
+38103,Esarhaddon,FATHER_OF,395601,Assur-bani-pal,person
+497297,Antiochus ii,SPOUSE_OF,443454,Laodice,concept
+19213,Levi,FATHER_OF,36415,Gershon,person
+37237,Binea,FATHER_OF,44116,Benjamite,person
+37313,Eliadah,FATHER_OF,396187,Rezon Prince,person
+19581,Simon,FATHER_OF,396272,Rufus Red,person
+3532,Bathsheba,SPOUSE_OF,442679,Hittite,person
+36163,Seir,FATHER_OF,36169,Ezer,person
+36849,Meshullam,FATHER_OF,396553,Jahzerah Returner,person
+44116,Benjamite,FATHER_OF,38968,Mordecai,person
+396558,Jakeh Pious,FATHER_OF,42653,Agur,person
+396624,King Amaziah,SPOUSE_OF,19083,Jehovah,place
+36700,Nethaniah,FATHER_OF,24876,Jew,person
+36498,Hezron,BROTHER_OF,3580,Caleb,person
+19412,Nebuchadnezzar,FATHER_OF,38168,Evil-merodach,person
+396816,Kohathite Levite,FATHER_OF,35434,Joram,person
+37369,Ethbaal,FATHER_OF,396855,Jezebel Chaste,person
+38002,Jehoash,FATHER_OF,18876,Gideon,person
+3549,Jacob,FATHER_OF,19106,Judah,person
+39743,Ebed,FATHER_OF,397101,Gaal Loathing,person
+19330,Nathan,FATHER_OF,397549,Zabud Gift,person
+19105,Josiah,SPOUSE_OF,397605,Zebudah Given,person
+397656,Zeruah Stricken,MOTHER_OF,19086,Jeroboam,person
+37848,Zibiah,MOTHER_OF,402833,King Joash,person
+38983,Haman,SPOUSE_OF,372384,Venus,person
+36418,Uzziel,FATHER_OF,51012,Levite,person
+758134,Almighty,FATHER_OF,42221,Shelumiel,concept
+43637,Herod Agrippa,FATHER_OF,33852,Drusilla,person
+35071,Terah,BROTHER_OF,3278,Abraham,person
+398196,Haruz Eager,FATHER_OF,38129,Meshullemeth,person
+19581,Simon,FATHER_OF,45512,Mariamne,person
+398435,Josedek,FATHER_OF,19104,Joshua,place
+40102,Beeri,FATHER_OF,398536,Hosea Salvation,person
+398620,Ebed Slave,FATHER_OF,41837,Gaal,person
+36981,Pallu,FATHER_OF,451326,Reubenite,person
+36805,Ahithophel,FATHER_OF,410140,Gilonite,person
+36417,Shemaiah,FATHER_OF,36862,Neariah,person
+3436,Jerusalem,FATHER_OF,38153,Nehushta,place
+442679,Hittite,FATHER_OF,37775,Bashemath,person
+19574,Seth,FATHER_OF,398858,Enos Man,person
+36498,Hezron,MOTHER_OF,36521,Hur,person
+3247,Aaron,FATHER_OF,37023,Phinehas,person
+36797,Chelub,FATHER_OF,19083,Jehovah,person
+37023,Phinehas,SPOUSE_OF,37337,Shiloh,person
+399142,Imla Replenisher,FATHER_OF,37433,Micaiah,person
+36951,Rimmon,FATHER_OF,413694,Benhadad,person
+47348,Cassander,SPOUSE_OF,33479,Thessalonica,person
+37367,Ginath,FATHER_OF,19083,Jehovah,person
+30365,Lamech,FATHER_OF,40318,Tubal-cain,person
+399789,Ner Light,FATHER_OF,28096,Kish,person
+37399,Nimshi,FATHER_OF,19082,Jehoshaphat,person
+36310,Jehiel,FATHER_OF,44116,Benjamite,person
+41793,Abinoam,FATHER_OF,400060,Barak Lightning,person
+400058,Buzite,FATHER_OF,32741,Elihu,people
+495076,Meholathite,FATHER_OF,37631,Adriel,place
+33863,Augustus,SPOUSE_OF,400239,Livia,person
+36522,Uri,FATHER_OF,19106,Judah,person
+18683,Esau,FATHER_OF,36150,Eliphaz,person
+36264,Abiel,FATHER_OF,44116,Benjamite,person
+36419,Izhar,FATHER_OF,51012,Levite,person
+396816,Kohathite Levite,FATHER_OF,36345,Elkanah,person
+484337,Danite,FATHER_OF,19560,Samson,person
+400799,Maoch Compressed,FATHER_OF,36479,Achish,person
+400841,Martha Bitterness,SISTER_OF,19209,Lazarus,person
+19097,Joseph,MOTHER_OF,18645,Jesus,person
+32069,Heman,FATHER_OF,51012,Levite,person
+400989,Chemosh-Gad,FATHER_OF,19322,Moab,people
+19265,Manasseh,SPOUSE_OF,401002,Meshullemeth Friend,person
+36131,Hadar,SPOUSE_OF,36203,Mehetabel,person
+44116,Benjamite,FATHER_OF,37026,Uzzi,person
+19412,Nebuchadnezzar,FATHER_OF,400180,Nitocris,person
+36074,Raamah,FATHER_OF,36142,Dedan,person
+38352,Hararite,FATHER_OF,36268,Ahiam,person
+35066,Salmon,FATHER_OF,401750,Boar,person
+19549,Ruth,SPOUSE_OF,479772,BOAT,person
+19873,Zebulun,FATHER_OF,40399,Sered,person
+3512,Asher,FATHER_OF,19563,Sarah,person
+35074,Reu,FATHER_OF,35073,Serug,person
+19580,Simeon,FATHER_OF,19566,Shaul,person
+51012,Levite,FATHER_OF,37463,Abda,person
+36074,Raamah,FATHER_OF,36072,Sheba,person
+37124,Shemida,FATHER_OF,409191,Gileadite,person
+35433,Jehoram,FATHER_OF,44116,Benjamite,person
+3249,Moses,FATHER_OF,35058,Eliezer,person
+406572,Asherite,FATHER_OF,37207,Ahihud,person
+36442,Nethaneel,FATHER_OF,51012,Levite,person
+42176,Mehetabeel,FATHER_OF,36687,Delaiah,person
+3519,Gilead,FATHER_OF,402554,Shemidah Shemida,person
+3519,Gilead,FATHER_OF,37124,Shemida,person
+44116,Benjamite,FATHER_OF,36849,Meshullam,person
+36498,Hezron,FATHER_OF,36505,Jerahmeel,person
+36516,Azubah,MOTHER_OF,19082,Jehoshaphat,person
+36946,Zacchur,FATHER_OF,396612,Simeonite,person
+36635,Jahath,FATHER_OF,402692,Gershonite Levite,person
+37201,Elpaal,FATHER_OF,36570,Shema,person
+36415,Gershon,FATHER_OF,36627,Shimei,person
+396612,Simeonite,FATHER_OF,36970,Ziza,person
+451326,Reubenite,FATHER_OF,36302,Adina,person
+36689,Jaaziah,FATHER_OF,393883,Merarite Levite,person
+36415,Gershon,FATHER_OF,402858,Shubael Shebuel,person
+36196,Bela,FATHER_OF,22522,Iri,person
+18662,Darius,FATHER_OF,328850,Xerxes,person
+526975,Numb,FATHER_OF,19104,Joshua,person
+19581,Simon,BROTHER_OF,18645,Jesus,person
+36457,Hosah,FATHER_OF,36313,Shimri,person
+38151,Zebudah,MOTHER_OF,153726,King Jehoiakim,person
+328850,Xerxes,FATHER_OF,39715,Artaxerxes,person
+29822,Eber,FATHER_OF,19496,Peleg,person
+19544,Reuben,FATHER_OF,36981,Pallu,person
+296833,The,SPOUSE_OF,19499,Pharaoh,person
+392929,Rameses II,FATHER_OF,405151,Thouoris,person
+19106,Judah,FATHER_OF,405183,Parez,person
+393846,Lagus,FATHER_OF,256210,Soter,people
+18921,Issachar,FATHER_OF,405833,Puvah,person
+403155,Pyrrhus,FATHER_OF,33756,Sopater,person
+18876,Gideon,FATHER_OF,36310,Jehiel,person
+18683,Esau,MOTHER_OF,36150,Eliphaz,person
+37220,Shimhi,FATHER_OF,44116,Benjamite,person
+36638,Beriah,FATHER_OF,41777,Benjamites,person
+406199,Adramys,BROTHER_OF,446094,Croesus,place
+38352,Hararite,FATHER_OF,36162,Shammah,person
+24119,Jotham,FATHER_OF,19106,Judah,person
+35433,Jehoram,FATHER_OF,19106,Judah,person
+19529,Philip,FATHER_OF,33717,Great,person
+36165,Shobal,FATHER_OF,466364,Horite,person
+37879,Hadlai,FATHER_OF,18682,Ephraim,person
+394718,Kohathite,FATHER_OF,37045,Mahath,person
+396612,Simeonite,FATHER_OF,37044,Shemuel,person
+33943,Sapphira,SPOUSE_OF,3436,Jerusalem,person
+36638,Beriah,FATHER_OF,44116,Benjamite,person
+36186,Dishan,FATHER_OF,466364,Horite,person
+407115,Xerxces,FATHER_OF,395558,Longimanus,place
+36423,Berechiah,FATHER_OF,51012,Levite,person
+407203,Japhet,FATHER_OF,36061,Gomer,person
+3519,Gilead,FATHER_OF,41527,Asriel,person
+19579,Shem,FATHER_OF,36101,Asshur,person
+33030,Julia,FATHER_OF,407327,Atia,person
+37886,Jehalelel,FATHER_OF,395222,Merarite,person
+394718,Kohathite,FATHER_OF,19091,Joel,person
+451326,Reubenite,FATHER_OF,36196,Bela,person
+36950,Bethuel,BROTHER_OF,19200,Rebekah,person
+14089,Zair,FATHER_OF,36251,Elhanan,person
+3556,Bethany,BROTHER_OF,19299,Martha,place
+3549,Jacob,SPOUSE_OF,19199,Laban,person
+19496,Peleg,FATHER_OF,35074,Reu,person
+19106,Judah,FATHER_OF,408092,Shubal,person
+18921,Issachar,FATHER_OF,37091,Tola,person
+37775,Bashemath,SISTER_OF,18917,Ishmael,person
+38380,Beeroth,FATHER_OF,36600,Rechab,person
+37037,Tahath,FATHER_OF,396816,Kohathite Levite,person
+36627,Shimei,FATHER_OF,36637,Zizah,person
+37055,Bani,FATHER_OF,51012,Levite,person
+494653,Sirach,FATHER_OF,460286,Wisdom of Jesus,person
+19084,Jeremiah,FATHER_OF,454059,Rechabite,person
+36625,Laadan,FATHER_OF,36627,Shimei,person
+36629,Shelomoth,FATHER_OF,51012,Levite,person
+28096,Kish,FATHER_OF,44116,Benjamite,person
+25342,Kohath,FATHER_OF,18898,Hebron,person
+204448,Alpheus,FATHER_OF,19073,James,person
+35430,Zerah,FATHER_OF,402692,Gershonite Levite,person
+393883,Merarite Levite,FATHER_OF,36557,Azariah,person
+409358,Bene-Elam,FATHER_OF,36858,Shechaniah,people
+3504,Asa,FATHER_OF,19106,Judah,person
+36965,Josibiah,FATHER_OF,396612,Simeonite,person
+37056,Shamer,FATHER_OF,3512,Asher,person
+3519,Gilead,FATHER_OF,409191,Gileadite,person
+36648,Mahli,FATHER_OF,28096,Kish,person
+37062,Libnah,FATHER_OF,38148,Hamutal,person
+36411,Merari,FATHER_OF,36649,Mushi,person
+19540,Rehoboam,FATHER_OF,36671,Abijah,person
+36345,Elkanah,FATHER_OF,18897,Samuel,person
+25342,Kohath,FATHER_OF,36418,Uzziel,person
+36949,Bilhah,FATHER_OF,44116,Benjamite,person
+409489,Zeimmah,FATHER_OF,402502,Gershonite,people
+36247,Jehoiada,SPOUSE_OF,37839,Jehoshabeath,person
+36331,Shemaah,FATHER_OF,44116,Benjamite,person
+36788,Pedaiah,FATHER_OF,44116,Benjamite,person
+36310,Jehiel,FATHER_OF,18663,David,person
+36862,Neariah,FATHER_OF,36725,Elioenai,person
+35041,Mattathias,FATHER_OF,734342,Another,person
+36576,Jahdai,FATHER_OF,19106,Judah,person
+36672,Jeshua,FATHER_OF,51012,Levite,person
+396911,Gadite,FATHER_OF,38032,Menahem,person
+36456,Jeduthun,FATHER_OF,51012,Levite,person
+44116,Benjamite,FATHER_OF,42225,Abidan,person
+19329,Naphtali,FATHER_OF,37003,Guni,person
+46022,King Uzziah,SPOUSE_OF,37868,Jerushah,person
+3519,Gilead,FATHER_OF,410354,Zepher,person
+36792,Iddo,FATHER_OF,402692,Gershonite Levite,person
+18663,David,FATHER_OF,19330,Nathan,person
+36163,Seir,FATHER_OF,36166,Zibeon,person
+19106,Judah,FATHER_OF,37809,Amasiah,person
+3249,Moses,SPOUSE_OF,24294,Midian,person
+36345,Elkanah,FATHER_OF,396816,Kohathite Levite,person
+42151,Halohesh,FATHER_OF,410858,Halohesh Shallum,person
+411002,Jotbah,FATHER_OF,38129,Meshullemeth,people
+42057,Bunni,FATHER_OF,409085,Another Levite,person
+411007,Kohath-,FATHER_OF,18898,Hebron,person
+36557,Azariah,FATHER_OF,19106,Judah,person
+36167,Anah,FATHER_OF,36168,Dishon,person
+45528,Herod Philip,FATHER_OF,35300,Salome,person
+18905,Herodias,SISTER_OF,3299,Agrippa,person
+19544,Reuben,FATHER_OF,36498,Hezron,person
+37054,Amzi,FATHER_OF,393883,Merarite Levite,person
+505681,Mount Ephraim,FATHER_OF,37070,Abdon,person
+36164,Lotan,FATHER_OF,466364,Horite,person
+36163,Seir,FATHER_OF,36164,Lotan,person
+19580,Simeon,FATHER_OF,36799,Shaphat,person
+13911,Aroer,FATHER_OF,411398,Shamu,person
+36108,Joktan,FATHER_OF,39803,Obal,person
+494653,Sirach,FATHER_OF,421679,The Wisdom of Jesus,person
+36727,Joah,FATHER_OF,402692,Gershonite Levite,person
+411600,Jephuneh,FATHER_OF,3580,Caleb,place
+36648,Mahli,FATHER_OF,393883,Merarite Levite,person
+36160,Nahath,FATHER_OF,396816,Kohathite Levite,person
+451326,Reubenite,FATHER_OF,38649,Dathan,person
+37113,Hushim,FATHER_OF,44116,Benjamite,person
+36627,Shimei,FATHER_OF,36539,Abihail,person
+36196,Bela,FATHER_OF,44116,Benjamite,person
+36573,Haran,BROTHER_OF,36121,Abram,person
+36542,Appaim,FATHER_OF,19106,Judah,person
+36724,Jehohanan,FATHER_OF,19106,Judah,person
+19106,Judah,FATHER_OF,36351,Zebadiah,person
+36262,Ribai,FATHER_OF,44116,Benjamite,person
+38278,Ithra,FATHER_OF,30774,Amasa,person
+36855,Jesaiah,FATHER_OF,44116,Benjamite,person
+18917,Ishmael,FATHER_OF,36133,Jetur,person
+18682,Ephraim,FATHER_OF,37140,Tahan,person
+412535,Lameth,FATHER_OF,40312,Jabal,person
+412558,Thara Terah,FATHER_OF,3278,Abraham,person
+465601,Antipater,FATHER_OF,47348,Cassander,person
+18690,Ezra,SPOUSE_OF,413022,Jehudiah,person
+35062,Jehoiakim,SPOUSE_OF,3436,Jerusalem,person
+51012,Levite,FATHER_OF,36417,Shemaiah,person
+39585,Binnui,FATHER_OF,51012,Levite,person
+36286,Netophathite,FATHER_OF,36260,Heleb,people
+18682,Ephraim,FATHER_OF,37100,Becher,person
+18876,Gideon,FATHER_OF,24119,Jotham,person
+36312,Jediael,FATHER_OF,44116,Benjamite,person
+51012,Levite,FATHER_OF,39757,Noadiah,person
+39709,Henadad,FATHER_OF,51012,Levite,person
+18681,Enos,FATHER_OF,30357,Cainan,person
+51012,Levite,FATHER_OF,36705,Hashabiah,person
+396612,Simeonite,FATHER_OF,12562,Sephatiah,person
+18906,Hezekiah,FATHER_OF,19106,Judah,person
+51012,Levite,FATHER_OF,36692,Zaccur,person
+35064,Menan,FATHER_OF,35063,Melea,person
+414731,Shabaraim,FATHER_OF,44116,Benjamite,person
+44116,Benjamite,FATHER_OF,37251,Sallu,person
+19265,Manasseh,SPOUSE_OF,411002,Jotbah,person
+402832,An Asherite,FATHER_OF,42269,Sethur,person
+19540,Rehoboam,SPOUSE_OF,460071,GIBEAH,person
+37201,Elpaal,FATHER_OF,44116,Benjamite,person
+36411,Merari,FATHER_OF,414945,Moli Mahli,person
+25342,Kohath,FATHER_OF,36411,Merari,person
+30365,Lamech,FATHER_OF,40313,Jubal,person
+24322,Cush,FATHER_OF,36074,Raamah,person
+36136,Keturah,FATHER_OF,36138,Jokshan,person
+407203,Japhet,FATHER_OF,36063,Javan,person
+3559,Bethlehem,FATHER_OF,36251,Elhanan,place
+415385,DODO THE Ahohite,FATHER_OF,35452,Eleazar,people
+392307,Tiber,FATHER_OF,35031,Tiberius,person
+420175,Nethanel,FATHER_OF,18663,David,person
+36162,Shammah,BROTHER_OF,18663,David,person
+19581,Simon,BROTHER_OF,19108,Judas,person
+33852,Drusilla,SISTER_OF,400216,Agrippa II,person
+431967,Lysimachus,BROTHER_OF,421456,Menelaus,person
+19549,Ruth,FATHER_OF,19087,Jesse,person
+3580,Caleb,FATHER_OF,36592,Achsah,person
+492547,Zehudah,MOTHER_OF,35062,Jehoiakim,place
+465604,Pheroras,BROTHER_OF,18904,Herod,person
+19092,John,FATHER_OF,19581,Simon,person
+15527,Potiphera,FATHER_OF,19097,Joseph,person
+421439,Antiochus,FATHER_OF,92202,Cleopatra,person
+36447,Merab,SPOUSE_OF,37631,Adriel,person
+464348,Hammolecheth,SISTER_OF,36527,Machir,person
+18663,David,MOTHER_OF,30774,Amasa,person
+19213,Levi,MOTHER_OF,42413,Zuriel,person
+37433,Micaiah,FATHER_OF,19105,Josiah,person
+36783,Othniel,BROTHER_OF,3580,Caleb,person
+414599,Darius Hystaspis,FATHER_OF,328850,Xerxes,person
+36538,Abishur,FATHER_OF,470377,Judahite,person
+36505,Jerahmeel,FATHER_OF,36273,Ahijah,person
+442519,Amarias,FATHER_OF,18690,Ezra,person
+484337,Danite,FATHER_OF,39228,Oholiab,person
+518950,Ell,FATHER_OF,36660,Ahimelech,person
+403606,Naphtalite,FATHER_OF,42476,Pedahel,person
+36785,Omri,FATHER_OF,37248,Uthai,person
+484337,Danite,FATHER_OF,36329,Ahiezer,person
+495545,Sinmuhallit,FATHER_OF,420747,Hammurabi,person
+37100,Becher,FATHER_OF,44116,Benjamite,person
+393403,Kudur-Mabug,FATHER_OF,399985,Larsa,person
+19725,Sin,FATHER_OF,19419,Nineveh,person
+19725,Sin,SISTER_OF,445965,Shamash,person
+477282,Ishme-Dagan,FATHER_OF,496499,Shamshi-Adad,people
+40712,Sargon,FATHER_OF,496749,Naram-Sin,person
+40163,Dinah,SISTER_OF,19580,Simeon,person
+38148,Hamutal,MOTHER_OF,37831,Jehoahaz,person
+36573,Haran,BROTHER_OF,3278,Abraham,person
+43811,Tobias,SPOUSE_OF,19563,Sarah,person
+35072,Nahor,FATHER_OF,498471,Bethnel,person
+36600,Rechab,FATHER_OF,36667,Malchijah,person
+36404,Eliada,FATHER_OF,37312,Rezon,person
+499195,Libit Urra,FATHER_OF,499194,Asir-Ramman,person
+499765,Zehedee,FATHER_OF,19073,James,people
+19076,Zebedee,FATHER_OF,76931,Apostle James,person
+516157,SIR,FATHER_OF,18645,Jesus,people
+19097,Joseph,FATHER_OF,18872,Galilee,person
+19089,Jezebel,FATHER_OF,37226,Athaliah,person
+398435,Josedek,FATHER_OF,18645,Jesus,place
+35062,Jehoiakim,FATHER_OF,35436,Jehoiachin,person
+19076,Zebedee,FATHER_OF,3285,Apostle,person
+38022,Amittai,FATHER_OF,500883,Analysis Jonah,person
+36158,Kenaz,FATHER_OF,425973,KENIZZITE,person
+494819,Abubus,FATHER_OF,45762,Ptolemy,person
+19073,James,FATHER_OF,19108,Judas,person
+40102,Beeri,FATHER_OF,18683,Esau,person
+458418,Gabrias,FATHER_OF,458408,Gabael,person
+35052,Neri,FATHER_OF,35051,Shealtiel,person
+19317,Michael,FATHER_OF,396911,Gadite,person
+36337,Jahaziel,FATHER_OF,36673,Shecaniah,person
+35300,Salome,SPOUSE_OF,19092,John,person
+36499,Zabdi,FATHER_OF,36504,Achan,person
+421208,Tabnit,FATHER_OF,493259,Eshmunazar,people
+496635,Bitiliashu,FATHER_OF,503002,Agum,people
+3461,Hannah,SPOUSE_OF,36345,Elkanah,person
+38129,Meshullemeth,MOTHER_OF,35435,Amon,person
+36673,Shecaniah,FATHER_OF,36859,Hattush,person
+485127,ANTIOCHUS EPIPHANES,BROTHER_OF,418627,SELEUCUS,person
+36521,Hur,FATHER_OF,36169,Ezer,person
+18873,Gamaliel,FATHER_OF,19580,Simeon,person
+464631,Hap,FATHER_OF,505069,Amenhotp,person
+36563,Jekamiah,FATHER_OF,19106,Judah,person
+38153,Nehushta,MOTHER_OF,35436,Jehoiachin,person
+37560,Peninnah,SPOUSE_OF,464107,An Ephraimite,person
+15527,Potiphera,FATHER_OF,40325,Asenath,person
+3301,Ahab,SPOUSE_OF,19089,Jezebel,person
+3532,Bathsheba,FATHER_OF,19746,Solomon,person
+45762,Ptolemy,FATHER_OF,35032,Lysanias,people
+35975,Aristobulus,FATHER_OF,33318,Alexander,person
+18904,Herod,FATHER_OF,43900,Herod Antipas,person
+45528,Herod Philip,BROTHER_OF,27544,Antipas,person
+36411,Merari,FATHER_OF,40101,Judith,person
+256237,Balas,FATHER_OF,421439,Antiochus,person
+432971,Antiochus Sidetes,BROTHER_OF,33499,Demetrius,person
+508641,Gnaens Domitius Ahenobarbus,FATHER_OF,476030,Lucius Domitius Ahenobarbus,person
+24296,Laish,FATHER_OF,42475,Paltiel,person
+481121,Mahseiah,FATHER_OF,41069,Neriah,person
+37848,Zibiah,MOTHER_OF,36330,Joash,person
+36310,Jehiel,FATHER_OF,36407,Gibeon,person
+18663,David,SPOUSE_OF,36831,Talmai,person
+465601,Antipater,FATHER_OF,18904,Herod,person
+18904,Herod,SPOUSE_OF,510370,Mariamme,person
+33365,Aretas,FATHER_OF,328508,Josephus,person
+459417,Hagri,FATHER_OF,36278,Mibhar,person
+414314,Sethite,FATHER_OF,30365,Lamech,people
+482288,Cainite,FATHER_OF,30365,Lamech,person
+396490,Bethlehemite,FATHER_OF,36251,Elhanan,concept
+250485,Elder Jabez Woodard,SPOUSE_OF,794512,SAINT,person
+31376,Oliver,FATHER_OF,29850,Lorenzo Snow,person
+20393,Charles Merrill,FATHER_OF,97013,Charlotte,person
+561484,Eli Harvey,FATHER_OF,23596,LEONIDAS THOMAS,people
+178637,CHARLES,FATHER_OF,23843,John Archibald,person
+296637,Helena,MOTHER_OF,62442,Constantine,person
+134208,Anteriormente,FATHER_OF,19206,Lamoni,person
+19095,Jonathan,FATHER_OF,551191,Sam Parker,person
+31362,Peter Whitmer Sr,SPOUSE_OF,345669,Mary Musselman Whitmer,person
+292531,President John Taylor,FATHER_OF,48866,Taylor,person
+29699,Hiram,BROTHER_OF,19097,Joseph,person
+35599,Barachias,FATHER_OF,19871,Zacharias,person
+30497,Hyrum,FATHER_OF,563244,Martha ann,person
+209474,Don Carlos Smith,FATHER_OF,559785,Josephine Donna Smith,person
+29832,William Smith,BROTHER_OF,19097,Joseph,person
+209474,Don Carlos Smith,FATHER_OF,82504,Donna Smith,person
+18897,Samuel,FATHER_OF,560165,Samuel Harrison Bailey Smith,person
+344086,Jerusha Smith,SPOUSE_OF,560282,William Pierce,person
+213224,Mary Jane Thompson,SPOUSE_OF,560213,David Taylor,person
+3278,Abraham,FATHER_OF,212235,Elizabeth Hoagland,person
+560213,David Taylor,FATHER_OF,560387,Robert Blashel Thompson Taylor,person
+378120,Mercy Rachel Fielding Thompson,FATHER_OF,213224,Mary Jane Thompson,person
+378120,Mercy Rachel Fielding Thompson,SISTER_OF,55494,Mary Fielding,person
+10022,Thompson,SISTER_OF,55494,Mary Fielding,person
+560191,Joseph Albert Harris,SPOUSE_OF,560545,Johanna Patten,person
+213224,Mary Jane Thompson,FATHER_OF,560387,Robert Blashel Thompson Taylor,person
+113709,Abraham Owen Smoot,FATHER_OF,561082,Margaret Thompson Smoot,person
+534315,JOHN SMITH,SPOUSE_OF,560699,Hellen Maria Fisher,person
+19097,Joseph,FATHER_OF,561306,Married Zina Smith,person
+19097,Joseph,SPOUSE_OF,214296,Sarah Ellen Richards,person
+19583,Hyrum Smith,FATHER_OF,19097,Joseph,person
+48817,Mary Fielding Smith,MOTHER_OF,19097,Joseph,person
+113709,Abraham Owen Smoot,SPOUSE_OF,561083,Almira Emily Hill,person
+563244,Martha ann,SPOUSE_OF,213655,William Jasper Harris,person
+19097,Joseph,SPOUSE_OF,562174,Mary Taylor Schwartz,person
+19299,Martha,SPOUSE_OF,562732,Hellen Fisher Smith,person
+19097,Joseph,FATHER_OF,561717,Mary Sophronia Smith,person
+19097,Joseph,FATHER_OF,86869,Mercy Josephine,person
+58864,Francis,SPOUSE_OF,212870,Mary Jane Dilworth,person
+560282,William Pierce,FATHER_OF,561990,Hannah Eveline Pierce,person
+19583,Hyrum Smith,FATHER_OF,352921,Sarah Smith,person
+212947,Elias Smith,SPOUSE_OF,562198,Lucy Brown,person
+560181,Albert Bailey Griffin,SPOUSE_OF,560121,Abigail Varney,person
+534315,JOHN SMITH,FATHER_OF,565559,Hyrum Fisher Smith,person
+560891,William Walton Burton,SPOUSE_OF,515607,Rachel Fielding,person
+560282,William Pierce,FATHER_OF,560301,Hyrum Robert Pierce,person
+67752,Joseph Fielding,FATHER_OF,561179,Hannah Alice Fielding,person
+561184,Orson Omer Heath,SPOUSE_OF,561182,Josephine Fielding,person
+86883,Mary Schwartz,FATHER_OF,564309,Royal Grant Smith,person
+344086,Jerusha Smith,FATHER_OF,561993,Eli Thomas Pierce,person
+563852,Sarah Smith Griffin,FATHER_OF,561342,Ernest Adelbert Griffin,person
+19097,Joseph,FATHER_OF,30909,Emma Smith,person
+562046,Willard Richards Smith,FATHER_OF,562378,Willard Grant Smith,person
+213655,William Jasper Harris,FATHER_OF,560565,Franklin Hill Harris,person
+560564,Zina Christine Harris,FATHER_OF,561483,Sarah Rachel Furner,person
+562277,Emily Louie Shurtliff,FATHER_OF,212851,Josephine Smith,person
+57399,George Albert Smith,FATHER_OF,562230,Margaret West Smith,person
+19097,Joseph,FATHER_OF,561654,Andrew Kimball Smith,person
+563244,Martha ann,FATHER_OF,561239,Sarah Lovina Harris,person
+19097,Joseph,FATHER_OF,561597,David Asael Smith,person
+19097,Joseph,FATHER_OF,562047,Franklin Richards Smith,person
+19097,Joseph,FATHER_OF,224509,Martha Smith,person
+561597,David Asael Smith,SPOUSE_OF,562178,Emily Jenkins,person
+563935,Heber Chase Rich Smith,SPOUSE_OF,562031,Leileth Nelson,person
+560800,Jesse Kimball Smith,SPOUSE_OF,562247,Louise May Anderson,person
+517021,Joseph Nelson,FATHER_OF,562288,Joseph Smith Nelson,person
+560706,Julina Clarissa Smith,FATHER_OF,563961,Luacine Peery,person
+209474,Don Carlos Smith,BROTHER_OF,19583,Hyrum Smith,person
+19097,Joseph,FATHER_OF,560591,Alice Smith,person
+560562,Mary Emily Harris,FATHER_OF,561026,Mary Elizabeth Corbett,person
+19092,John,SPOUSE_OF,564276,Mercy Dennis,person
+560870,John Fife Bowman,SPOUSE_OF,560588,Edna Melissa Smith,person
+562428,Harry Walter Startup,SPOUSE_OF,561475,Martha Artimissa Harris,person
+176512,WILLIAM,SPOUSE_OF,560602,Ellen Fielding,person
+152010,Joseph Fielding Smith Jr,FATHER_OF,215828,Julina Smith,person
+417838,Rev,SPOUSE_OF,561822,Ann Fielding,person
+561383,Jessie Lena Freckleton,FATHER_OF,561249,Delia Jessie Harris,person
+561542,Emily Angelina Hinckley,FATHER_OF,561551,Emmett Gordon Holbrook,person
+560562,Mary Emily Harris,FATHER_OF,560711,Walter Harris Corbett,person
+560373,Hyrum Smith Harris,FATHER_OF,562723,Mercy Rachel Harris,person
+517021,Joseph Nelson,SPOUSE_OF,561920,Leonora Smith,person
+19097,Joseph,FATHER_OF,560588,Edna Melissa Smith,person
+561682,Rhoda Ann Jennetta Richards,SISTER_OF,19097,Joseph,person
+344086,Jerusha Smith,FATHER_OF,560282,William Pierce,person
+561057,Albert Westley Davis,SPOUSE_OF,560846,Melissa Jane Lambson,person
+352921,Sarah Smith,SPOUSE_OF,560125,Charles Emerson Griffin,person
+352921,Sarah Smith,FATHER_OF,561339,Alice Lovina Griffin,person
+30740,George,SPOUSE_OF,354231,Susan Elizabeth West,person
+30740,George,SPOUSE_OF,290327,Bathsheba Wilson Bigler,person
+359044,Mary Jane Smith,MOTHER_OF,516669,George Gee,person
+359044,Mary Jane Smith,MOTHER_OF,561268,George Washington Gee II,person
+359044,Mary Jane Smith,FATHER_OF,561268,George Washington Gee II,person
+561142,John Osborn Fielding,BROTHER_OF,48817,Mary Fielding Smith,person
+561159,James Ibbotson Fielding,BROTHER_OF,48817,Mary Fielding Smith,person
+565583,Mary Fielding Lupton,FATHER_OF,561195,Ann Jane Lupton,person
+145385,Edna Lambson,FATHER_OF,173915,Ruth Smith,person
+48817,Mary Fielding Smith,FATHER_OF,560325,Smith Harris,person
+48817,Mary Fielding Smith,FATHER_OF,559858,Martha Ann Harris,person
+19870,Brigham Young,SPOUSE_OF,354784,Aunt Zina,person
+19097,Joseph,FATHER_OF,565975,Martha Ann Baby Zina,person
+35300,Salome,MOTHER_OF,568192,Apostles James,person
+18663,David,FATHER_OF,27647,King,person
+35072,Nahor,BROTHER_OF,3278,Abraham,person
+35157,Jairus,FATHER_OF,255653,Raising,person
+399496,Timaeus,FATHER_OF,44085,Bartimaeus,person
+23189,Tim,FATHER_OF,44085,Bartimaeus,person
+19076,Zebedee,FATHER_OF,3549,Jacob,person
+19075,Alphaeus,FATHER_OF,3549,Jacob,person
+19092,John,BROTHER_OF,3549,Jacob,person
+534315,JOHN SMITH,BROTHER_OF,81462,Joseph Smith Sr,person
+387738,CHRISTIAN WHITMER,BROTHER_OF,18663,David,person
+387740,PETER WHITMER,FATHER_OF,18663,David,person
+43320,Isaac Hale,FATHER_OF,360830,Alva Hale,person
+76707,Austin,SISTER_OF,9567,Newel Knight,person
+587485,Mary Ann Stearns Pratt,FATHER_OF,250046,Mary Ann Stearns Winters,person
+288225,Akiba,FATHER_OF,12722,Isi,place
+19540,Rehoboam,FATHER_OF,37333,Abijam,person
+589294,Vettenos,FATHER_OF,473985,Theodotos,person
+19073,James,FATHER_OF,590020,Seleam Haren,person
+19092,John,FATHER_OF,590313,Margaret Ann Stewart,person
+19268,Thomas,FATHER_OF,590248,Charles Alma Moulton,person
+19268,Thomas,FATHER_OF,590200,Charles Thornton McNeil,person
+19484,Edward,FATHER_OF,590317,Elizabeth Ann Farmer,person
+19073,James,FATHER_OF,590331,Margaret Kay,person
+176512,WILLIAM,FATHER_OF,687046,Lark,person
+591265,Sister Ruvinia Leason,FATHER_OF,591447,Leason,people
+208801,Hepzibah Richards,SISTER_OF,522118,WILLARD RICHARDS,person
+665531,Perry Durfee,BROTHER_OF,665532,Jabis Durfee,person
+18663,David,FATHER_OF,18645,Jesus,person
+18670,Eli,FATHER_OF,19097,Joseph,person
+19213,Levi,FATHER_OF,35038,Matthat,person
+408988,Jannai,FATHER_OF,35039,Melchi,person
+3416,Amos,FATHER_OF,35041,Mattathias,person
+35041,Mattathias,FATHER_OF,35047,Maath,person
+409657,Josech,FATHER_OF,402087,Semein,person
+35049,Rhesa,FATHER_OF,609195,Johannan,person
+609196,Shealthiel,FATHER_OF,19879,Zerubbabel,person
+35053,Addi,FATHER_OF,35039,Melchi,person
+411751,Elmadam,FATHER_OF,35054,Cosam,person
+35058,Eliezer,FATHER_OF,19104,Joshua,person
+35038,Matthat,FATHER_OF,35059,Jorim,person
+19106,Judah,FATHER_OF,19580,Simeon,person
+409594,Jonam,FATHER_OF,19097,Joseph,person
+19330,Nathan,FATHER_OF,35065,Mattatha,person
+36498,Hezron,FATHER_OF,407094,Arni,person
+19106,Judah,FATHER_OF,38566,Peres,person
+35084,Arphaxad,FATHER_OF,30357,Cainan,person
+18680,Enoch,FATHER_OF,609198,Methusalah,person
+609199,Mahaleel,FATHER_OF,19078,Jared,place
+19574,Seth,FATHER_OF,18681,Enos,person
+86724,John Wesley,FATHER_OF,174474,Methodism,person
+350761,Elizabeth Tullidge,MOTHER_OF,19484,Edward,person
+20724,Salt Lake City,FATHER_OF,671411,Carrie Grant,place
+18677,Elisha,FATHER_OF,628928,Plymouth Township,person
+261358,Newel,FATHER_OF,213184,Horace Whitney,person
+651368,Pepin,FATHER_OF,482817,Charlemagne,person
+43625,Aeneas,FATHER_OF,594014,Iulus,person
+35041,Mattathias,FATHER_OF,19095,Jonathan,person
+36247,Jehoiada,FATHER_OF,19871,Zacharias,person
+18904,Herod,FATHER_OF,35568,Archelaus,person
+19212,Matthew,MOTHER_OF,19073,James,person
+19563,Sarah,MOTHER_OF,18915,Isaac,person
+610916,Susanna Mary,MOTHER_OF,19073,James,person
+18904,Herod,FATHER_OF,45528,Herod Philip,person
+598468,Abbas,FATHER_OF,598467,Bar-Abbas,person
+3446,Andrew,BROTHER_OF,19498,Peter,person
+19106,Judah,BROTHER_OF,18645,Jesus,person
+19094,Jonah,FATHER_OF,19581,Simon,person
+18663,David,FATHER_OF,19097,Joseph,person
+416791,Ananus,FATHER_OF,18645,Jesus,place
+388612,Short,FATHER_OF,482817,Charlemagne,person
+55772,Samuel Smith,BROTHER_OF,19097,Joseph,person
+515909,Elder Hyrum Smith,BROTHER_OF,19097,Joseph,person
+612459,Nancy Young Kent,SISTER_OF,19870,Brigham Young,person
+213770,Alexander Hale Smith,FATHER_OF,31138,Smith,person
+33867,John Russell,SPOUSE_OF,613930,Laura Russell,person
+614618,Elder Eaton,FATHER_OF,357435,Eaton,person
+516489,Levi Jones,SPOUSE_OF,614905,Sarah Zolide Reed Jones,person
+33867,John Russell,SPOUSE_OF,615122,Laura Ann Spencer,person
+19581,Simon,FATHER_OF,33318,Alexander,person
+3249,Moses,BROTHER_OF,19078,Jared,person
+433971,Leto,FATHER_OF,451885,Apollo,person
+33599,Zeus,FATHER_OF,451885,Apollo,person
+735630,Latter-day Saint,SPOUSE_OF,252230,Phoebe Woodruff,person
+150532,Alvin Smith,BROTHER_OF,19102,Joseph Smith,person
+27647,King,FATHER_OF,486528,Years,person
+75868,Thomas Marsh,SPOUSE_OF,102666,Elizabeth Marsh,person
+3332,Mormon,FATHER_OF,604608,Joseph Kilburn Bent,person
+604682,Henry Enon Phelps,FATHER_OF,10032,Phelps,person
+211674,Lorenzo,SPOUSE_OF,44232,Harriet Page Wheeler Young,person
+19870,Brigham Young,SPOUSE_OF,44268,Clarissa Decker Young,person
+59317,Robert,FATHER_OF,44657,Samuel Smith Samuel,person
+44680,John Curtis,FATHER_OF,19201,Rebecca,person
+44721,Zacheus Gould,FATHER_OF,33133,Priscilla,person
+44797,John Mack,FATHER_OF,47127,Ebenezer,person
+388035,Ebenezer Mack,FATHER_OF,44825,Joseph Smith Solomon,person
+695884,Orlando,FATHER_OF,19563,Sarah,person
+44823,Aaron Huntly,FATHER_OF,3461,Hannah,person
+44833,Nathan Gates,FATHER_OF,44830,Lydia Gates,person
+523854,Wasson,SISTER_OF,30909,Emma Smith,person
+12537,Asael,FATHER_OF,232649,prophet Joseph Smith,person
+173412,SOLOMON MACK,FATHER_OF,19741,Lucy Mack,person
+207621,John Young,FATHER_OF,291725,President Brigham Young,person
+520857,Patriarch Hyrum Smith,FATHER_OF,31138,Smith,people
+18661,Daniel,FATHER_OF,89697,Wells,person
+636198,JOSEPH KNIGHT,FATHER_OF,9567,Newel Knight,person
+19102,Joseph Smith,SPOUSE_OF,48813,Emma,person
+106978,Asael Smith,FATHER_OF,19102,Joseph Smith,person
+19102,Joseph Smith,SPOUSE_OF,30909,Emma Smith,person
+211343,Mercy Rachel Fielding,SISTER_OF,48817,Mary Fielding Smith,person
+209474,Don Carlos Smith,SPOUSE_OF,31138,Smith,person
+534315,JOHN SMITH,FATHER_OF,57399,George Albert Smith,person
+70084,Gardner,FATHER_OF,86879,Levira Clark,person
+146012,Phineas Young,BROTHER_OF,19870,Brigham Young,person
+173564,John Chrtis,FATHER_OF,388025,Rebecca Curtis,person
+516696,Joshua Grant,FATHER_OF,246843,Caroline Grant,person
+65011,Willard,FATHER_OF,525780,Rhoda Ann,person
+101965,John Quincy Adams,FATHER_OF,157481,Adams,person
+59317,Robert,FATHER_OF,18897,Samuel,person
+19321,Miriam,SISTER_OF,3249,Moses,person
+3549,Jacob,FATHER_OF,3416,Amos,person
+537946,Anthony Blackburn,FATHER_OF,537945,Abner Blackburn,person
+176519,Elder Wm,SPOUSE_OF,246843,Caroline Grant,person
+19104,Joshua,FATHER_OF,65579,Caroline,person
+29832,William Smith,BROTHER_OF,19583,Hyrum Smith,person
+32463,Elder Rigdon,FATHER_OF,196786,Robinson,person
+19268,Thomas,FATHER_OF,48452,Marsh,person
+133440,Frederick,FATHER_OF,516976,Swain Williams,person
+19092,John,FATHER_OF,31138,Smith,person
+516002,ELIAS HIGBEE,FATHER_OF,66881,Higbee,person
+31138,Smith,BROTHER_OF,19097,Joseph,person
+517464,Dominicus Carter,FATHER_OF,517941,Sarah Emily,person
+517687,Asa Wright,FATHER_OF,87003,John Wright,person
+63071,Clark,BROTHER_OF,351244,Mrs,person
+341485,Warren Smith,FATHER_OF,517218,Sardius Smith,person
+19092,John,FATHER_OF,133316,Agnes,person
+98063,Elder Brigham Young,FATHER_OF,84052,Mary Ann Young,person
+35041,Mattathias,FATHER_OF,19108,Judas,person
+527465,Moriancumr,BROTHER_OF,19078,Jared,person
+3289,Adam,FATHER_OF,3267,Abel,person
+530651,Nimaquiche,FATHER_OF,531845,Acxopil,person
+531953,John Spaulding,BROTHER_OF,102714,Solomon Spaulding,person
+102714,Solomon Spaulding,FATHER_OF,531981,McKenstry,person
+33862,Bernice,SISTER_OF,3299,Agrippa,person
+30781,Joseph Young,BROTHER_OF,291725,President Brigham Young,person
+402221,God Almighty,FATHER_OF,18644,Jesus Christ,concept
+19583,Hyrum Smith,FATHER_OF,31138,Smith,person
+391257,Patriarch,FATHER_OF,19097,Joseph,role
+528360,Odin,SPOUSE_OF,528365,Frigga,people
+701603,Holder,SPOUSE_OF,528382,Freya,person
+528360,Odin,FATHER_OF,528367,Balder,people
+28282,Moriancumer,BROTHER_OF,19078,Jared,person
+340403,Atlas,FATHER_OF,672825,Maia,person
+482310,MARS,FATHER_OF,528578,Hermione,people
+372384,Venus,FATHER_OF,529039,Cupid,person
+444615,Kahtan,FATHER_OF,528981,Yarab,people
+29822,Eber,FATHER_OF,528990,Joctan,person
+98158,Henry VIII,FATHER_OF,468259,Edward VI,person
+362770,Aaron Frost,FATHER_OF,208782,Mary Ann Frost,person
+209383,John Clark,FATHER_OF,36453,Elizabeth Clark,person
+77244,Christopher,FATHER_OF,36383,Obadiah Pratt,person
+19421,Obadiah,FATHER_OF,36008,Jared Pratt,person
+37557,Samuel Carpenter,FATHER_OF,37542,Mary Carpenter,person
+37589,Samuel Dickison,FATHER_OF,37583,Charity Dickison,person
+252544,Aphek Woodruff,FATHER_OF,55549,Wilford,person
+397883,Mathew Woodruff,FATHER_OF,19092,John,person
+19331,Nauvoo,SISTER_OF,520509,William Pitt,place
+292531,President John Taylor,SPOUSE_OF,249283,Leonora Cannon Taylor,person
+391251,Bishop,SPOUSE_OF,354344,Mary Woolley,role
+19583,Hyrum Smith,FATHER_OF,534315,JOHN SMITH,person
+55957,Kimball,BROTHER_OF,18663,David,person
+211674,Lorenzo,FATHER_OF,177031,Sobieski Young,person
+45834,Jona,FATHER_OF,3446,Andrew,person
+204448,Alpheus,FATHER_OF,19213,Levi,person
+19209,Lazarus,BROTHER_OF,19299,Martha,person
+19078,Jared,FATHER_OF,18680,Enoch,person
+36418,Uzziel,FATHER_OF,19095,Jonathan,person
+35157,Jairus,FATHER_OF,98183,Nain,person
+174734,Abigail Carver,MOTHER_OF,174723,Ebenezer Carver,person
+35011,Cleophas,FATHER_OF,19580,Simeon,person
+696108,Gorman,FATHER_OF,529685,Blatand,person
+515039,Zohah,FATHER_OF,40008,Ephron,people
+48551,King Zedekiah,FATHER_OF,27758,Mulek,person
+186372,Associate Justice,SPOUSE_OF,195465,Waite,people
+18915,Isaac,FATHER_OF,18683,Esau,person
+19201,Rebecca,SPOUSE_OF,3549,Jacob,person
+65011,Willard,FATHER_OF,560453,Heber John,person
+19746,Solomon,FATHER_OF,43297,Lucy,person
+30497,Hyrum,FATHER_OF,19583,Hyrum Smith,person
+3549,Jacob,FATHER_OF,521391,Ann Standley,person
+207621,John Young,FATHER_OF,30781,Joseph Young,person
+3504,Asa,FATHER_OF,237704,Miriam Works,person
+9567,Newel Knight,SPOUSE_OF,513746,Sister Knight,person
+636198,JOSEPH KNIGHT,SPOUSE_OF,513811,Sister Polly Knight,person
+36837,Eliphalet,FATHER_OF,514028,Huldah Chapman,person
+261358,Newel,SPOUSE_OF,33637,Lydia,person
+208921,James Fielding,BROTHER_OF,67752,Joseph Fielding,person
+514976,Ezekiel Johnson,FATHER_OF,514974,Susan Johnson,person
+106978,Asael Smith,SPOUSE_OF,343488,Mary Duty Smith,person
+19092,John,FATHER_OF,224102,Chidester,person
+208445,Chandler Holbrook,FATHER_OF,516556,Diana Holbrook,person
+207579,Joseph Holbrook,FATHER_OF,516557,Sarah Lucretia Holbrook,person
+207579,Joseph Holbrook,FATHER_OF,516558,Charlotte Holbrook,person
+30785,Zera Pulsipher,FATHER_OF,516559,Sarah Pulsipher,person
+19092,John,FATHER_OF,516561,Eunice Chidester,person
+218906,Queen Victoria,SPOUSE_OF,596601,PRINCE ALBERT,person
+55881,Lucy Mack Smith,MOTHER_OF,663766,Joseph Smith jr,person
+576994,Osoroeris,FATHER_OF,440393,Horos,person
+381023,When,FATHER_OF,74193,Louisa,person
+85116,Truman,SPOUSE_OF,595886,Sister Polly Angel,person
+595951,Aunt Rhoda Richards,SISTER_OF,65011,Willard,person
+88637,Bishop Smoot,SPOUSE_OF,143659,Smoot,people
+591361,Millen,SPOUSE_OF,246760,Atwood,person
+18663,David,FATHER_OF,133600,Jane Neyman,person
+562414,Levi Snow,FATHER_OF,533048,Apostle Erastus Snow,person
+523183,Sanford Porter,FATHER_OF,63071,Clark,person
+588865,Bishop William,SPOUSE_OF,596012,Martha Granger,person
+522536,WILLIAM CLAYTON,SPOUSE_OF,596345,Ruth Moon,person
+524763,Elder Thomas Bullock,SPOUSE_OF,596357,Lucy Clayton,person
+596405,Bishop Layton,SPOUSE_OF,596404,Sister Layton,person
+596530,Samuel Lathrop,FATHER_OF,494729,ABIGAL,person
+35552,PARLEY,SPOUSE_OF,9991,Pratt,person
+156486,Gen,SPOUSE_OF,1609,Rich,person
+534719,Apostle John Taylor,SPOUSE_OF,58578,Leonora,person
+339306,Apostle Orson Pratt,SPOUSE_OF,596675,Marian Ross,person
+650625,Gioras,FATHER_OF,19581,Simon,people
+638960,Jupiter Amnion,FATHER_OF,438778,King Alexander,people
+647867,First,BROTHER_OF,19078,Jared,place
+19324,Moroni,BROTHER_OF,19078,Jared,person
+39795,Babel,BROTHER_OF,19078,Jared,person
+158076,Because,BROTHER_OF,19078,Jared,place
+19078,Jared,FATHER_OF,35368,Baptist,person
+66601,Orson Spencer,FATHER_OF,30740,George,person
+455237,Apostle Wilford Woodruff,SPOUSE_OF,79805,Carter,person
+19268,Thomas,FATHER_OF,122341,Emily Hill Woodmansee,person
+155748,President,FATHER_OF,143659,Smoot,place
+155142,President Wilford Woodruff,SPOUSE_OF,55548,Woodruff,person
+19870,Brigham Young,FATHER_OF,597200,WILLIAMS,person
+155748,President,FATHER_OF,89697,Wells,place
+19072,Lehi,FATHER_OF,630243,Nephi Nephi,person
+660398,Prophet Mormon,FATHER_OF,19324,Moroni,person
+387740,PETER WHITMER,FATHER_OF,31201,David Whitmer,person
+43431,Mahujael,FATHER_OF,622796,Mathusael,person
+622796,Mathusael,FATHER_OF,30365,Lamech,place
+621613,Zebedee Salome,FATHER_OF,19073,James,person
+639367,John Wadley,BROTHER_OF,639368,William Wadley,person
+117005,Newell Knight,FATHER_OF,163203,Lydia Knight,person
+19097,Joseph,FATHER_OF,19102,Joseph Smith,person
+55816,Jochai,FATHER_OF,19581,Simon,place
+30365,Lamech,FATHER_OF,459811,Deluge,person
+19314,Methuselah,FATHER_OF,30365,Lamech,person
+218287,John Steele,SPOUSE_OF,641872,Catherine Campbell Steele,person
+19866,Wilford Woodruff,FATHER_OF,592236,Phoebe Amelia Woodruff,person
+592350,Elaine Brockbank Evans,SISTER_OF,592351,Bernard Brockbank,person
+29850,Lorenzo Snow,FATHER_OF,592506,Milton Snow,person
+584821,Idaho,SPOUSE_OF,393665,CHURCH,people
+340918,Utah,SPOUSE_OF,434836,Matheson,person
+592808,Dan Delos Bradshaw,FATHER_OF,67101,Barbara Bradshaw Smith,person
+453097,WELL,BROTHER_OF,19078,Jared,people
+89066,Samuel Marion Lee,FATHER_OF,584821,Idaho,person
+3579,Cain,FATHER_OF,18680,Enoch,person
+36070,Mizraim,FATHER_OF,36081,Casluhim,person
+19583,Hyrum Smith,MOTHER_OF,19097,Joseph,person
+673988,Bishop Richard Richardson,SPOUSE_OF,673987,Sister Fay Richardson,people
+3332,Mormon,BROTHER_OF,19078,Jared,person
+304044,But,BROTHER_OF,19078,Jared,person
+18663,David,FATHER_OF,75927,King Solomon,person
+19299,Martha,SISTER_OF,19209,Lazarus,person
+682714,Julian Rojas,FATHER_OF,682718,Aniceto Rojas,person
+116480,Jussi Kemppainen,SPOUSE_OF,116479,Raija Kemppainen,person
+261358,Newel,SPOUSE_OF,211811,Elizabeth Ann,person
+18866,Noah,BROTHER_OF,19078,Jared,person
+35300,Salome,MOTHER_OF,19073,James,person
+315743,Spanish,FATHER_OF,366712,France,person
+55881,Lucy Mack Smith,MOTHER_OF,19102,Joseph Smith,person
+178637,CHARLES,FATHER_OF,271127,Zina Young Card,person
+28096,Kish,FATHER_OF,393883,Merarite Levite,person
+470377,Judahite,FATHER_OF,36880,Gedor,person
+464107,An Ephraimite,FATHER_OF,36345,Elkanah,person
+18675,Elisabeth,MOTHER_OF,19092,John,person
+639260,REMEMBER,BROTHER_OF,19078,Jared,people
+430822,HEROD'S,SPOUSE_OF,35009,Joanna,people
+19498,Peter,FATHER_OF,496967,Aberdeenshire,person
+40101,Judith,SPOUSE_OF,477586,Dothaim Manasses,person
+396911,Gadite,FATHER_OF,42227,Eliasaph,person
+29832,William Smith,FATHER_OF,770549,Nancy Maria Smith,person
+19583,Hyrum Smith,FATHER_OF,174114,Lovina Smith,person
+27730,Ammoron,BROTHER_OF,3616,Amalickiah,person
+19092,John,SPOUSE_OF,85544,Annie,person
+6221,IGLESIA,MOTHER_OF,732764,Preeti,people
+728768,Patrik,BROTHER_OF,732764,Preeti,person
+715582,Sofía,SISTER_OF,35172,Susanna,person
+692509,Sergey,FATHER_OF,348043,Dmitry,person
+3251,Mosiah,FATHER_OF,3539,King Benjamin,person
+64042,Young,BROTHER_OF,19870,Brigham Young,person
+173412,SOLOMON MACK,FATHER_OF,43297,Lucy,person
+77622,Cassie,SPOUSE_OF,108726,Will,person
+97935,Fran,MOTHER_OF,30740,George,person
+19321,Miriam,MOTHER_OF,699373,José Javier,person
+701398,Pepe,SPOUSE_OF,735464,Tepahu,person
+704999,Cho Yong Hyun,BROTHER_OF,737597,Sungja,person
+55549,Wilford,BROTHER_OF,67910,Camilla,person
+5852,Cuando,SISTER_OF,737803,Blendina,person
+30740,George,FATHER_OF,340918,Utah,person
+707030,Paul Vickery,FATHER_OF,89973,David Todd Christofferson,person
+19583,Hyrum Smith,BROTHER_OF,18897,Samuel,person
+739754,Eulogia,SPOUSE_OF,708970,Delio,person
+708981,Lina,MOTHER_OF,739764,Mercedes,person
+5852,Cuando,MOTHER_OF,372752,Michel,person
+134432,Últimos Días,FATHER_OF,739139,Eole,person
+63024,Katie,SISTER_OF,84626,Angie,person
+3549,Jacob,FATHER_OF,18669,Egypt,person
+710331,Fiorella,FATHER_OF,8469,Soy,person
+5852,Cuando,FATHER_OF,78738,Alex,person
+18661,Daniel,FATHER_OF,5852,Cuando,person
+125817,Milagrosamente,FATHER_OF,23430,Josh,person
+743761,Marlin,FATHER_OF,714477,Nemo,place
+5852,Cuando,BROTHER_OF,73734,Janet,person
+7501,Entonces,MOTHER_OF,79890,Dave,person
+30156,Orson Pratt,BROTHER_OF,35552,PARLEY,person
+5655,Luego,FATHER_OF,99682,Mattie,person
+306734,Probablemente,BROTHER_OF,19078,Jared,person
+764231,Del,BROTHER_OF,19078,Jared,person
+748981,Custodia,SISTER_OF,748982,Emilia Maio,place
+43297,Lucy,MOTHER_OF,19735,José,person
+721023,Tatianna,SISTER_OF,721022,Danna,person
+5852,Cuando,FATHER_OF,97013,Charlotte,person
+7501,Entonces,BROTHER_OF,19078,Jared,person
+79341,Doug,SPOUSE_OF,724373,Alice Mae,person
+59488,Julie,SPOUSE_OF,212485,Carl,person
+88664,Ken,SPOUSE_OF,725861,De Ann,person
+98845,Louise,MOTHER_OF,726018,Mary Helen,person
+35040,Janna,MOTHER_OF,726990,Kamryn,person
+29822,Eber,FATHER_OF,36108,Joktan,person
+476421,Sabannus,FATHER_OF,415999,Moeth,people
+387410,Bathia,FATHER_OF,3249,Moses,people
+465606,Hyrcanus,FATHER_OF,416757,Alexander Janneus,person
+416918,Josaphias,FATHER_OF,446213,SALIMOTH,person
+402110,Hassenuah,FATHER_OF,19106,Judah,person
+19549,Ruth,SPOUSE_OF,3565,Boaz,person
+18645,Jesus,FATHER_OF,417488,Jeddu,person
+417807,Sareus,FATHER_OF,18690,Ezra,person
+417823,Artaphernes,BROTHER_OF,18662,Darius,person
+37918,Sennacherib,FATHER_OF,418813,Ashurnadin-shum,person
+418947,Onias Simon,BROTHER_OF,35452,Eleazar,person
+19566,Shaul,FATHER_OF,19580,Simeon,person
+36162,Shammah,FATHER_OF,19095,Jonathan,person
+12506,Ela,FATHER_OF,36627,Shimei,person
+3278,Abraham,FATHER_OF,36138,Jokshan,person
+440078,Jezelus,FATHER_OF,420012,Sechenias,person
+3519,Gilead,FATHER_OF,34007,Shechem,person
+19579,Shem,BROTHER_OF,19077,Japheth,person
+36456,Jeduthun,FATHER_OF,19421,Obadiah,person
+395621,Assyria,MOTHER_OF,465915,Adad-nirari,person
+757274,South,FATHER_OF,36635,Jahath,concept
+18882,Gog,FATHER_OF,19544,Reuben,person
+19210,Leah,FATHER_OF,19873,Zebulun,person
+36305,Maacah,FATHER_OF,36344,Shephatiah,person
+19581,Simon,FATHER_OF,18645,Jesus,person
+35452,Eleazar,FATHER_OF,18645,Jesus,person
+421449,Onias II,FATHER_OF,421446,Simon II,people
+19097,Joseph,FATHER_OF,465606,Hyrcanus,person
+19200,Rebekah,SISTER_OF,19199,Laban,person
+651799,Flavius Clemens,SPOUSE_OF,452141,Flavia Domitilla,person
+423499,Enlil,FATHER_OF,420723,Ninip,person
+18659,Cyrus,FATHER_OF,425848,Barzia,person
+45762,Ptolemy,FATHER_OF,431967,Lysimachus,people
+465526,Onias,FATHER_OF,19581,Simon,person
+426344,Ninyas,FATHER_OF,426343,Cappodax,people
+425607,Assur-nacir-apli,FATHER_OF,421273,Shalmaneser II,place
+36515,Abigail,SPOUSE_OF,37676,Nabal,person
+426991,Amukkani,FATHER_OF,426990,Musallim-Marduk,person
+427278,Durmah-ilani,FATHER_OF,427271,Eri-Akua,person
+36312,Jediael,FATHER_OF,427380,Bilham,person
+24043,Amoz,FATHER_OF,18674,Prophet,person
+36338,Johanan,FATHER_OF,42064,Jaddua,person
+425950,Ramses II,FATHER_OF,405120,Menephthah,person
+425840,Cambyses,FATHER_OF,18659,Cyrus,person
+36553,Peleth,FATHER_OF,451326,Reubenite,person
+421446,Simon II,FATHER_OF,499863,Onias iii,person
+33667,Jason,BROTHER_OF,465526,Onias,person
+36905,Meonothai,FATHER_OF,19106,Judah,person
+43046,Elimelech,FATHER_OF,43052,Mahlon,person
+433997,Cinyras,FATHER_OF,395388,Adonis,people
+36070,Mizraim,FATHER_OF,434678,Zudim,person
+19262,Luke,BROTHER_OF,19757,Titus,person
+435790,Aharun,FATHER_OF,35452,Eleazar,person
+814503,Perdition,FATHER_OF,423360,KJV Dictionary,concept
+435981,Orkhan,FATHER_OF,435980,Suleiman,place
+436054,Sarabus,FATHER_OF,436053,Aurelius Diogenes,people
+436459,Sisygambis,FATHER_OF,401312,Codomannus,people
+25524,Jonas,FATHER_OF,19498,Peter,person
+436814,Zaraias,FATHER_OF,461715,Eliaonias,person
+36898,Eshton,FATHER_OF,19106,Judah,person
+474063,Macedon,FATHER_OF,33318,Alexander,person
+51012,Levite,FATHER_OF,35452,Eleazar,person
+392929,Rameses II,FATHER_OF,469909,Minepthah,person
+434003,Antigonus,FATHER_OF,33499,Demetrius,person
+51012,Levite,FATHER_OF,36425,Kishi,person
+28096,Kish,FATHER_OF,44745,King Saul,person
+36830,Absalom,FATHER_OF,36305,Maacah,person
+36830,Absalom,FATHER_OF,440248,Maacha,person
+19877,Uriel,FATHER_OF,37433,Micaiah,person
+509970,Kedesh-Naphtali,FATHER_OF,34168,Barak,person
+421439,Antiochus,FATHER_OF,440392,Antiochus IV,person
+39823,Milcah,SISTER_OF,19259,Lot,person
+490792,Ptolemy Philometor,FATHER_OF,92202,Cleopatra,person
+35975,Aristobulus,BROTHER_OF,45512,Mariamne,person
+37465,Elon,FATHER_OF,18683,Esau,person
+18917,Ishmael,FATHER_OF,441133,Basemath,person
+38136,Jedidah,MOTHER_OF,88380,King Josiah,person
+18663,David,FATHER_OF,38368,Chileab,person
+44745,King Saul,FATHER_OF,36447,Merab,person
+416757,Alexander Janneus,FATHER_OF,35975,Aristobulus,person
+419644,Shagee,FATHER_OF,19095,Jonathan,people
+19746,Solomon,FATHER_OF,441133,Basemath,person
+37201,Elpaal,FATHER_OF,36638,Beriah,person
+18660,Dan,FATHER_OF,39228,Oholiab,person
+36166,Zibeon,FATHER_OF,466364,Horite,person
+442053,Neoptolemos,FATHER_OF,481409,Olympias,people
+36165,Shobal,FATHER_OF,442481,Ahan,person
+36345,Elkanah,FATHER_OF,25342,Kohath,person
+36515,Abigail,SISTER_OF,36234,Zeruiah,person
+44116,Benjamite,FATHER_OF,36527,Machir,person
+37340,Naamah,MOTHER_OF,19540,Rehoboam,person
+442666,Ebed-Asherah,FATHER_OF,442668,Aziru,place
+36679,Immer,FATHER_OF,36709,Hanani,person
+36417,Shemaiah,FATHER_OF,33717,Great,person
+35434,Joram,FATHER_OF,24105,Uzziah,person
+33667,Jason,FATHER_OF,465601,Antipater,person
+402966,Seleucus Philopator,FATHER_OF,476211,Demetrius Soter,people
+33717,Great,BROTHER_OF,35568,Archelaus,person
+19872,Zechariah,FATHER_OF,19092,John,person
+444031,Apollophanes,SPOUSE_OF,444030,Stratonice,people
+444082,Stratocles,BROTHER_OF,444083,Aegeates,place
+402966,Seleucus Philopator,FATHER_OF,33499,Demetrius,people
+444617,Shalikh,FATHER_OF,804740,ABiR,people
+19579,Shem,FATHER_OF,444618,Arfakhshad,person
+444618,Arfakhshad,FATHER_OF,444617,Shalikh,person
+444622,Yaktan,FATHER_OF,444602,Jurhum,place
+37192,Shaharaim,FATHER_OF,37201,Elpaal,person
+401111,Mithridates,FATHER_OF,434458,Phraates,place
+445641,Megabyzus,FATHER_OF,445643,Zopyrus,person
+15527,Potiphera,MOTHER_OF,19265,Manasseh,person
+35300,Salome,SISTER_OF,18904,Herod,person
+432333,Ochran,FATHER_OF,42226,Pagiel,person
+13058,Asir,SPOUSE_OF,445886,Originally Asirtu,person
+445961,Greek Astro-noe,MOTHER_OF,508407,Eshmun,concept
+426344,Ninyas,FATHER_OF,446052,Cappadox,people
+446056,Belos,FATHER_OF,446055,Ninos,people
+446255,Jokshah,FATHER_OF,36142,Dedan,place
+19097,Joseph,SPOUSE_OF,40325,Asenath,person
+432120,Cyaxares,FATHER_OF,446675,Istuvigu,person
+39579,Bebai,FATHER_OF,24876,Jew,person
+44116,Benjamite,FATHER_OF,42261,Palti,person
+405760,Dorymenes,FATHER_OF,45762,Ptolemy,people
+3549,Jacob,MOTHER_OF,19097,Joseph,person
+130029,Edna,FATHER_OF,19563,Sarah,person
+130029,Edna,SPOUSE_OF,43814,Ecbatana,person
+36505,Jerahmeel,FATHER_OF,35069,Ram,person
+18915,Isaac,MOTHER_OF,18683,Esau,person
+18915,Isaac,SPOUSE_OF,19199,Laban,person
+39823,Milcah,SISTER_OF,19199,Laban,person
+36951,Rimmon,FATHER_OF,38380,Beeroth,person
+36576,Jahdai,FATHER_OF,450940,Calebite,person
+44116,Benjamite,FATHER_OF,38261,Ittai,person
+37433,Micaiah,MOTHER_OF,401033,King Abijah,person
+36163,Seir,FATHER_OF,36186,Dishan,person
+35072,Nahor,FATHER_OF,40000,Chesed,person
+18682,Ephraim,FATHER_OF,420093,Sheerah,person
+36843,Amaziah,FATHER_OF,36557,Azariah,person
+39304,Jochebed,MOTHER_OF,3249,Moses,person
+33863,Augustus,SPOUSE_OF,33030,Julia,person
+496942,Zorzelleus,FATHER_OF,502970,Augia,person
+19872,Zechariah,FATHER_OF,454263,Asaphite,person
+36337,Jahaziel,FATHER_OF,454265,Sheconiah,person
+36498,Hezron,FATHER_OF,112136,Scrub,person
+19092,John,BROTHER_OF,19095,Jonathan,person
+37051,Adaiah,FATHER_OF,19106,Judah,person
+36305,Maacah,MOTHER_OF,3504,Asa,person
+36785,Omri,FATHER_OF,36335,Jehu,person
+36417,Shemaiah,FATHER_OF,36330,Joash,person
+19076,Zebedee,SPOUSE_OF,35300,Salome,person
+36830,Absalom,FATHER_OF,35041,Mattathias,person
+38130,Haruz,FATHER_OF,457748,King Amon,person
+38129,Meshullemeth,MOTHER_OF,457748,King Amon,person
+24105,Uzziah,FATHER_OF,19106,Judah,person
+402110,Hassenuah,FATHER_OF,44116,Benjamite,person
+757218,Chalphi,FATHER_OF,19108,Judas,concept
+457984,Simon Iscariot,FATHER_OF,19108,Judas,person
+414091,Kenite,SPOUSE_OF,41789,Jael,person
+412361,Tabrimmon,FATHER_OF,413694,Benhadad,person
+24296,Laish,FATHER_OF,42261,Palti,person
+18873,Gamaliel,FATHER_OF,19581,Simon,person
+36907,Jephunneh,FATHER_OF,459240,Instance Caleb,person
+393864,Elan,FATHER_OF,37775,Bashemath,people
+36167,Anah,FATHER_OF,432429,Oholibamah,person
+18917,Ishmael,FATHER_OF,37775,Bashemath,person
+36196,Bela,FATHER_OF,37187,Gera,person
+406289,Aher,FATHER_OF,459334,Benjaminite,person
+42297,Zuar,FATHER_OF,420175,Nethanel,person
+459345,Amaram,FATHER_OF,3249,Moses,people
+36498,Hezron,FATHER_OF,393071,Chelubai,person
+36498,Hezron,BROTHER_OF,36505,Jerahmeel,person
+459388,Shiftan,FATHER_OF,36784,Kemuel,people
+36764,Dodai,FATHER_OF,35452,Eleazar,person
+36234,Zeruiah,BROTHER_OF,36233,Joab,person
+36805,Ahithophel,FATHER_OF,459425,Eliham,person
+459429,Esbai,FATHER_OF,36276,Naarai,people
+19499,Pharaoh,FATHER_OF,459460,Bethiah,person
+36305,Maacah,FATHER_OF,36304,Hanan,person
+468707,Chaos,FATHER_OF,460405,Ialdaboth,people
+36783,Othniel,FATHER_OF,426918,Chabris,person
+37037,Tahath,FATHER_OF,464107,An Ephraimite,person
+36627,Shimei,FATHER_OF,44116,Benjamite,person
+36679,Immer,FATHER_OF,461641,Zodak,person
+38042,Jerusha,MOTHER_OF,24119,Jotham,person
+19084,Jeremiah,FATHER_OF,461799,Amital,person
+36486,Nahash,FATHER_OF,494729,ABIGAL,person
+83911,Beersheba,MOTHER_OF,396623,King Jehoash,person
+19088,Jethro,FATHER_OF,3249,Moses,person
+387459,Jaddus,SPOUSE_OF,502970,Augia,people
+18645,Jesus,FATHER_OF,18893,Habakkuk,person
+40712,Sargon,FATHER_OF,37918,Sennacherib,person
+42059,Azzur,FATHER_OF,36407,Gibeon,person
+36335,Jehu,FATHER_OF,37831,Jehoahaz,person
+41789,Jael,SPOUSE_OF,414091,Kenite,person
+445894,Ashhur,FATHER_OF,36882,Tekoa,person
+19091,Joel,FATHER_OF,51012,Levite,person
+465512,Hophsiba,MOTHER_OF,19265,Manasseh,place
+45512,Mariamne,FATHER_OF,18904,Herod,person
+92202,Cleopatra,FATHER_OF,45528,Herod Philip,person
+18904,Herod,BROTHER_OF,19529,Philip,person
+18904,Herod,FATHER_OF,35975,Aristobulus,person
+465606,Hyrcanus,FATHER_OF,45512,Mariamne,person
+35975,Aristobulus,FATHER_OF,18905,Herodias,person
+19529,Philip,BROTHER_OF,18904,Herod,person
+36457,Hosah,FATHER_OF,36411,Merari,person
+24297,Anathoth,FATHER_OF,19084,Jeremiah,person
+465958,Mursilis,BROTHER_OF,465956,Arandas,person
+392929,Rameses II,FATHER_OF,465967,Seti Merenptah II,person
+18917,Ishmael,FATHER_OF,36124,Kedar,person
+394331,Rameses,FATHER_OF,394327,Merenptah,person
+467282,Karamat,FATHER_OF,18669,Egypt,place
+37187,Gera,FATHER_OF,44116,Benjamite,person
+37026,Uzzi,FATHER_OF,44116,Benjamite,person
+467500,Billama,FATHER_OF,467499,Mekubi,place
+467507,Ebari,FATHER_OF,467508,Silhaha,people
+467549,Te-umman,FATHER_OF,467558,Undasi,person
+464107,An Ephraimite,FATHER_OF,18897,Samuel,person
+3247,Aaron,MOTHER_OF,36537,Nadab,person
+3247,Aaron,SPOUSE_OF,392037,Nashon,person
+3580,Caleb,FATHER_OF,36165,Shobal,person
+19746,Solomon,FATHER_OF,469441,Menelek,person
+418627,SELEUCUS,FATHER_OF,476211,Demetrius Soter,person
+494839,Accos,FATHER_OF,19092,John,person
+36352,Jeroham,FATHER_OF,44116,Benjamite,person
+19086,Jeroboam,FATHER_OF,19872,Zechariah,person
+36689,Jaaziah,FATHER_OF,470437,Merarite Levitt,person
+36727,Joah,FATHER_OF,470468,Gershomite Levite,person
+443536,BARTACUS,FATHER_OF,478014,Apame,people
+19106,Judah,FATHER_OF,36916,Eshtemoa,person
+38164,Kareah,FATHER_OF,454053,Johnnan,person
+36843,Amaziah,FATHER_OF,19222,Kings,person
+205268,Vespasian,FATHER_OF,19757,Titus,people
+38002,Jehoash,FATHER_OF,309015,Jeroboam II,person
+36168,Dishon,FATHER_OF,466364,Horite,person
+36788,Pedaiah,FATHER_OF,452245,Zebidah,person
+396106,Ammonitess,MOTHER_OF,19540,Rehoboam,people
+37827,Shilhi,MOTHER_OF,19082,Jehoshaphat,person
+36785,Omri,MOTHER_OF,36842,Ahaziah,person
+83911,Beersheba,MOTHER_OF,38002,Jehoash,person
+3436,Jerusalem,MOTHER_OF,36843,Amaziah,place
+3436,Jerusalem,MOTHER_OF,36557,Azariah,place
+35449,Zadok,MOTHER_OF,24119,Jotham,person
+19872,Zechariah,MOTHER_OF,18906,Hezekiah,person
+45503,Hephzibah,MOTHER_OF,19265,Manasseh,person
+411002,Jotbah,MOTHER_OF,35435,Amon,people
+758786,Bozkath,MOTHER_OF,19105,Josiah,concept
+37062,Libnah,MOTHER_OF,37831,Jehoahaz,person
+452253,Rumah,MOTHER_OF,35062,Jehoiakim,person
+3436,Jerusalem,MOTHER_OF,35436,Jehoiachin,place
+37062,Libnah,MOTHER_OF,19875,Zedekiah,person
+600279,Aristobulus II,FATHER_OF,33318,Alexander,person
+589966,Adel,BROTHER_OF,396808,Saladin,people
+445885,Ishtar,SPOUSE_OF,472809,Dumuzu,person
+19581,Simon,BROTHER_OF,203561,Judas Maccabeus,person
+437076,Philip II,FATHER_OF,33479,Thessalonica,people
+19108,Judas,BROTHER_OF,18645,Jesus,person
+465960,Hattusil,FATHER_OF,465966,Dudhalia,person
+444465,ARAB,FATHER_OF,36673,Shecaniah,people
+37092,Puah,FATHER_OF,428903,JUDGES,person
+474624,Thorgom,FATHER_OF,474625,Haik,people
+418627,SELEUCUS,FATHER_OF,33499,Demetrius,person
+19581,Simon,BROTHER_OF,19095,Jonathan,person
+400911,Astyages,FATHER_OF,425842,Amytis,person
+400180,Nitocris,MOTHER_OF,475835,Nabunaid,person
+36709,Hanani,BROTHER_OF,19413,Nehemiah,person
+42130,Sanballat,FATHER_OF,425852,Dalayah,person
+451326,Reubenite,BROTHER_OF,38649,Dathan,person
+33546,Claudius,FATHER_OF,476041,Octavia,person
+476073,Annaeus Mela,BROTHER_OF,30848,Seneca,person
+445965,Shamash,SPOUSE_OF,477401,Malkatu,person
+19095,Jonathan,BROTHER_OF,441241,Judas Maccabee,person
+36830,Absalom,FATHER_OF,19095,Jonathan,person
+37848,Zibiah,MOTHER_OF,396623,King Jehoash,person
+475835,Nabunaid,FATHER_OF,19412,Nebuchadnezzar,person
+36974,Assyrians,FATHER_OF,36335,Jehu,people
+19746,Solomon,FATHER_OF,478582,Tappath,person
+37398,Hazael,FATHER_OF,478649,Benhadad III,person
+37398,Hazael,FATHER_OF,413694,Benhadad,person
+36638,Beriah,FATHER_OF,420093,Sheerah,person
+33863,Augustus,FATHER_OF,33030,Julia,person
+39709,Henadad,FATHER_OF,478209,Bavvai,person
+37051,Adaiah,MOTHER_OF,88380,King Josiah,person
+480748,Title When,MOTHER_OF,19092,John,concept
+36648,Mahli,FATHER_OF,51012,Levite,person
+36430,Maaseiah,FATHER_OF,44116,Benjamite,person
+440248,Maacha,FATHER_OF,36479,Achish,person
+19529,Philip,FATHER_OF,116830,Macedonian,person
+33365,Aretas,FATHER_OF,27544,Antipas,person
+396911,Gadite,FATHER_OF,42271,Geuel,person
+39300,Zohar,FATHER_OF,442679,Hittite,person
+18917,Ishmael,FATHER_OF,18683,Esau,person
+36792,Iddo,FATHER_OF,36225,Abinadab,person
+36411,Merari,FATHER_OF,36648,Mahli,person
+37192,Shaharaim,FATHER_OF,41777,Benjamites,person
+36083,Amorite,BROTHER_OF,481841,Eschcol,person
+423059,Chuzas,SPOUSE_OF,35009,Joanna,person
+35041,Mattathias,FATHER_OF,19092,John,person
+36797,Chelub,FATHER_OF,19106,Judah,person
+444263,Gennaeus,FATHER_OF,421434,Apollonius,person
+36165,Shobal,FATHER_OF,420326,Kiriath-jearim,person
+37192,Shaharaim,FATHER_OF,44116,Benjamite,person
+39687,Tobiah,FATHER_OF,36724,Jehohanan,person
+23674,Mighty God,FATHER_OF,469193,Eternity,concept
+18680,Enoch,FATHER_OF,19574,Seth,person
+37433,Micaiah,FATHER_OF,36202,Achbor,person
+36434,Jeiel,FATHER_OF,44116,Benjamite,person
+35072,Nahor,SPOUSE_OF,36573,Haran,person
+483628,Nathaiah,FATHER_OF,18917,Ishmael,place
+37355,Hezion,FATHER_OF,484309,Tab-rimmon,person
+36627,Shimei,FATHER_OF,19095,Jonathan,person
+18910,Hosea,SPOUSE_OF,36061,Gomer,person
+19077,Japheth,FATHER_OF,36061,Gomer,person
+19077,Japheth,FATHER_OF,36063,Javan,person
+486299,Drimylus,FATHER_OF,24876,Jew,people
+19875,Zedekiah,FATHER_OF,27758,Mulek,person
+3278,Abraham,SPOUSE_OF,36136,Keturah,person
+3549,Jacob,FATHER_OF,19213,Levi,person
+30740,George,SPOUSE_OF,31138,Smith,person
+18897,Samuel,BROTHER_OF,30497,Hyrum,person
+207621,John Young,FATHER_OF,19870,Brigham Young,person
+88380,King Josiah,FATHER_OF,48551,King Zedekiah,person
+763402,Birchri,FATHER_OF,36072,Sheba,people
+26766,Anti-Nephi-Lehi,BROTHER_OF,19206,Lamoni,person
+765216,Lehi Nephi,FATHER_OF,18918,Nephi,people
+3289,Adam,FATHER_OF,769663,Sitil,person
+19268,Thomas,BROTHER_OF,19078,Jared,person
+566293,Brian Hales,SPOUSE_OF,768330,Laura Hales,person
+19913,Zeniff,FATHER_OF,29121,King Noah,person
+624772,ISIS,FATHER_OF,398694,Horus,people
+19583,Hyrum Smith,SPOUSE_OF,55494,Mary Fielding,person
+34317,Rabbi,FATHER_OF,775161,Rabbi Yosei,person
+19565,Sariah,MOTHER_OF,18918,Nephi,person
+226745,Lewis Bidamon,FATHER_OF,777081,Charles Bidamon,person
+351670,Sylvia Lyon,FATHER_OF,341952,Josephine Lyon,person
+44924,Osiris,FATHER_OF,398694,Horus,person
+106852,Mount Shelem,BROTHER_OF,19078,Jared,place
+528360,Odin,FATHER_OF,783870,Baldur,people
+788817,Smail,FATHER_OF,788832,Meho,place
+425950,Ramses II,FATHER_OF,557313,Merneptah,person
+31138,Smith,BROTHER_OF,19102,Joseph Smith,person
+792166,Lynn Paul,FATHER_OF,792138,K-Lynn Paul,person
+168591,Likewise,BROTHER_OF,19078,Jared,person
+794303,Ahimelek,FATHER_OF,35320,Abiathar,people
+806155,Paanchi,BROTHER_OF,795374,Parhoran,person
+612355,william law,FATHER_OF,18650,Law,person
+111786,Charles Wesley,BROTHER_OF,86724,John Wesley,person
+19750,Stephen,SPOUSE_OF,796897,Diane Timmerman,person
+779306,INTERESTINGLY,BROTHER_OF,19078,Jared,people
+398694,Horus,FATHER_OF,576955,Duamutef,person
+63307,Welch,FATHER_OF,63304,Jack Welch,person
+19536,Rachel,MOTHER_OF,19097,Joseph,person
+18654,Oliver Cowdery,SPOUSE_OF,18676,Elizabeth,person
+19479,Pahoran,FATHER_OF,806155,Paanchi,person
+3539,King Benjamin,FATHER_OF,81981,King Mosiah,person
+30121,John Johnson,FATHER_OF,379773,Marinda Nancy Johnson,person
+513464,Eli Johnson,BROTHER_OF,208940,Marinda,person
+38154,Elnathan,FATHER_OF,812544,Konyahu,person
+391545,Nephihah,FATHER_OF,814050,Zarahemla Parhoron,person
+19072,Lehi,FATHER_OF,19097,Joseph,person
+815241,Eyptes,MOTHER_OF,19499,Pharaoh,people
+18918,Nephi,FATHER_OF,3416,Amos,person
+502148,El Elyon,FATHER_OF,416114,Yahweh,people
+18680,Enoch,SPOUSE_OF,40163,Dinah,person
+457559,Jacob-Israel,FATHER_OF,18660,Dan,person
+18910,Hosea,FATHER_OF,36904,Seraiah,person
+355075,Ultimately,BROTHER_OF,19078,Jared,place
+155782,Once,BROTHER_OF,19078,Jared,people
