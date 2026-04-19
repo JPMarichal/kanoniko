@@ -315,14 +315,21 @@ def stage_family(conn, dry_run: bool) -> None:
         return cands[0]
 
     print("Scanning chunks...", flush=True)
-    edges: list[tuple[int, str, str, int, str, str]] = []
+    # edges: (src_id, src_name, rel_type, dst_id, dst_name, src_type, source_ref)
+    edges: list[tuple[int, str, str, int, str, str, str]] = []
     edge_keys: set[tuple[int, str, int]] = set()
     stats = Counter()
     n = 0
     with conn.cursor(name="fam_chunks") as cur:
         cur.itersize = 5000
-        cur.execute("SELECT id, text FROM chunks WHERE text IS NOT NULL")
-        for cid, text in cur:
+        # Pull a reference for each chunk: prefer chunks.reference ("Omni 1:9"),
+        # fall back to "{file_path}#{chunk_index}".
+        cur.execute(
+            "SELECT id, text, "
+            "       COALESCE(reference, file_path || '#' || chunk_index) AS ref "
+            "FROM chunks WHERE text IS NOT NULL"
+        )
+        for cid, text, ref in cur:
             n += 1
             if n % 25_000 == 0:
                 print(f"  scanned {n:,} chunks, candidates: {len(edges):,}",
@@ -348,7 +355,7 @@ def stage_family(conn, dry_run: bool) -> None:
                 if key in edge_keys:
                     continue
                 edge_keys.add(key)
-                edges.append((f[0], f[1], hit.relation, t[0], t[1], f[2]))
+                edges.append((f[0], f[1], hit.relation, t[0], t[1], f[2], ref))
 
     print(f"\nScanned {n:,} chunks. Candidate edges: {len(edges):,}\n")
     for k, v in stats.most_common():
@@ -357,7 +364,8 @@ def stage_family(conn, dry_run: bool) -> None:
     audit = f"{OUT_DIR}/pg_family_backfill_audit_{stamp()}.csv"
     with open(audit, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["src_id", "src_name", "rel_type", "dst_id", "dst_name", "src_type"])
+        w.writerow(["src_id", "src_name", "rel_type", "dst_id", "dst_name",
+                    "src_type", "source_ref"])
         w.writerows(edges)
     print(f"\nAudit log: {audit}")
 
@@ -365,24 +373,22 @@ def stage_family(conn, dry_run: bool) -> None:
         print("DRY RUN — no edges created.")
         return
 
-    print(f"\nInserting {len(edges):,} edges (ON CONFLICT DO NOTHING)...",
-          flush=True)
-    # Use ON CONFLICT to avoid duplicates if the same edge already exists.
+    print(f"\nInserting {len(edges):,} edges (skip-on-duplicate)...", flush=True)
     inserted = 0
     with conn.cursor() as cur:
         for i in range(0, len(edges), 1000):
             batch = edges[i:i + 1000]
-            params = [(e[0], e[3], e[2], "family", "curated",
-                       "family_pattern_backfill") for e in batch]
+            # params = src_id, dst_id, rel_type, category, confidence, source, source_ref
             cur.executemany(
-                "INSERT INTO relations (src_id, dst_id, rel_type, category, "
-                "confidence, source) "
-                "SELECT %s, %s, %s, %s, %s, %s "
+                "INSERT INTO relations "
+                "(src_id, dst_id, rel_type, category, confidence, source, source_ref) "
+                "SELECT %s, %s, %s, 'family', 'curated', "
+                "       'family_pattern_backfill', %s "
                 "WHERE NOT EXISTS ("
-                "  SELECT 1 FROM relations r WHERE r.src_id = %s "
-                "    AND r.dst_id = %s AND r.rel_type = %s"
+                "  SELECT 1 FROM relations r "
+                "  WHERE r.src_id = %s AND r.dst_id = %s AND r.rel_type = %s"
                 ")",
-                [(*p, p[0], p[1], p[2]) for p in params],
+                [(e[0], e[3], e[2], e[6], e[0], e[3], e[2]) for e in batch],
             )
             inserted += len(batch)
             if inserted % 1000 == 0 or inserted == len(edges):
@@ -466,7 +472,7 @@ def stage_infer(conn, dry_run: bool) -> None:
         print("\nDRY RUN — no inserts.")
         return
 
-    print(f"\nInserting {len(resolved):,} derived edges (ON CONFLICT skip)...",
+    print(f"\nInserting {len(resolved):,} derived edges (skip-on-duplicate)...",
           flush=True)
     inserted = 0
     with conn.cursor() as cur:
@@ -474,13 +480,14 @@ def stage_infer(conn, dry_run: bool) -> None:
             batch = resolved[i:i + 1000]
             cur.executemany(
                 "INSERT INTO relations "
-                "(src_id, dst_id, rel_type, category, confidence, source) "
-                "SELECT %s, %s, %s, 'family', 'curated', 'family_inference' "
+                "(src_id, dst_id, rel_type, category, confidence, source, "
+                " source_ref) "
+                "SELECT %s, %s, %s, 'family', 'curated', 'family_inference', %s "
                 "WHERE NOT EXISTS ("
                 "  SELECT 1 FROM relations r "
                 "  WHERE r.src_id = %s AND r.dst_id = %s AND r.rel_type = %s"
                 ")",
-                [(s, d, r, s, d, r) for (s, d, r, _reason) in batch],
+                [(s, d, r, reason, s, d, r) for (s, d, r, reason) in batch],
             )
             inserted += len(batch)
             if inserted % 1000 == 0 or inserted == len(resolved):
