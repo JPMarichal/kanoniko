@@ -1,0 +1,2315 @@
+from_name,from_type,relation,to_name,to_type
+Lehi,person,SPOUSE_OF,Mormon,person
+Felix,person,SPOUSE_OF,Drusilla,person
+Cleophas,person,SPOUSE_OF,Mary,person
+Lehi,person,SPOUSE_OF,Mormón,person
+Félix,person,SPOUSE_OF,Drusila,person
+Uriah,person,SPOUSE_OF,Eliam,person
+Mahlon,person,SPOUSE_OF,Moabitess,place
+Mary,person,SPOUSE_OF,Joseph,person
+Felipe,person,SPOUSE_OF,Herodías,person
+Chuza,person,SPOUSE_OF,Juana,person
+David,person,SPOUSE_OF,Mical,person
+Hezrón,person,SPOUSE_OF,Abías,person
+Maquir,person,SPOUSE_OF,Maaca,person
+Urías,person,SPOUSE_OF,Eliam,person
+Jeroboam,person,SPOUSE_OF,Entra,person
+Salum,person,SPOUSE_OF,Hulda,person
+Abraham,person,SPOUSE_OF,Sara,person
+Abram,person,SPOUSE_OF,Sarai,person
+Judá,person,SPOUSE_OF,Súa,person
+Jacob,person,SPOUSE_OF,Raquel,person
+Nacor,person,SPOUSE_OF,Milca,person
+Esaú,person,SPOUSE_OF,Ada,person
+Esaú,person,SPOUSE_OF,Basemat,person
+Esaú,person,SPOUSE_OF,Aholibama,person
+Moisés,person,SPOUSE_OF,Séfora,person
+Heber,person,SPOUSE_OF,Jael,person
+María,person,SPOUSE_OF,José,person
+Elder,person,SPOUSE_OF,Lawrence,person
+Elder Joseph Anderson,person,SPOUSE_OF,Anderson,person
+Elder,person,SPOUSE_OF,Stone,person
+Rex,person,SPOUSE_OF,Phyllis Nielsen Reeve,person
+Spencer,person,SPOUSE_OF,Avanelle Richards Osborn,person
+James,person,SPOUSE_OF,Cullimore,person
+Hyrum Smith,person,SPOUSE_OF,Mary Fielding Smith,person
+Elder,person,SPOUSE_OF,Bonnie Lee Adamson Caldwell,person
+Elder Dennis,person,SPOUSE_OF,Neuenschwander,person
+Elder Robert,person,SPOUSE_OF,Sister Norma Creer Harbertson,people
+Elder Lino Alvarez,person,SPOUSE_OF,Alvarez,person
+PETER WHITMER,person,SPOUSE_OF,María,person
+Franklin Delano Roosevelt,person,SPOUSE_OF,Eleanor Roosevelt,person
+George Romney,person,SPOUSE_OF,Lenore Romney,person
+John Hatch,person,SPOUSE_OF,Sandra Hatch,person
+Terri,person,SPOUSE_OF,Joan Christensen,person
+CHARLES,person,SPOUSE_OF,Pioneer Sarah Rich,person
+Fritz,person,SPOUSE_OF,Joyce,person
+José,person,SPOUSE_OF,Emma,person
+Thomas,person,SPOUSE_OF,Misuri,place
+CHARLES,person,SPOUSE_OF,Sarah Rich,person
+Zacarías,person,SPOUSE_OF,Elisabet,person
+Joseph Smith,person,SPOUSE_OF,Emma Hale Smith,person
+Joseph Knight Sr,person,SPOUSE_OF,Polly Knight,person
+Peter Whitmer Sr,person,SPOUSE_OF,Mary Whitmer,person
+President Russell,person,SPOUSE_OF,Nelson,person
+Hiram Kimball,person,SPOUSE_OF,Sarah Granger Kimball,person
+Brigham,person,SPOUSE_OF,Harriet Young,person
+King Tamatoa,person,SPOUSE_OF,Queen Pitomai,person
+Martin Harris,person,SPOUSE_OF,Lucy Harris,person
+President Wilford Woodruff,person,SPOUSE_OF,Phebe Woodruff,person
+JOSÉ Smith,person,SPOUSE_OF,Emma Hale Smith,person
+Martin,person,SPOUSE_OF,Lucy,person
+Martin Harris,person,SPOUSE_OF,Mormón,person
+PETER WHITMER,person,SPOUSE_OF,Mary Whitmer,person
+Abraham,person,SPOUSE_OF,Sarai,person
+Cleofas,person,SPOUSE_OF,María,person
+Heber,person,SPOUSE_OF,Vilate Kimball,person
+John,person,SPOUSE_OF,Leonora,person
+PARLEY,person,SPOUSE_OF,Mary Ann Pratt,person
+Lorenzo,person,SPOUSE_OF,Harriet Young,person
+Brigham,person,SPOUSE_OF,Clara,person
+Brigham,person,SPOUSE_OF,MARY ANN,person
+Susa,person,SPOUSE_OF,Jacob,person
+Ida,person,SPOUSE_OF,Salt Lake City,place
+Heber,person,SPOUSE_OF,Emily,person
+Clara,person,SPOUSE_OF,William Daniels,person
+John,person,SPOUSE_OF,Barbara,person
+Betsabé,person,SPOUSE_OF,Urías,person
+Hyrum,person,SPOUSE_OF,Mary Fielding Smith,person
+Noemí,person,SPOUSE_OF,Luego,person
+Ham,person,SPOUSE_OF,Egyptus,person
+Cam,person,SPOUSE_OF,Egyptus,person
+George,person,SPOUSE_OF,Lucinda Harris,person
+Lucy Meserve Smith,person,SPOUSE_OF,Smith,person
+James Smithies,person,SPOUSE_OF,Nancy Ann Knowles Smithies,person
+JS,person,SPOUSE_OF,Mary Fielding Smith,person
+Sheets,person,SPOUSE_OF,Kathy,person
+Amy,person,SPOUSE_OF,Socorro,person
+Brigham Young,person,SPOUSE_OF,MARY ANN ANGELL,person
+José,person,SPOUSE_OF,Emma Smith,person
+JOSEPH KNIGHT,person,SPOUSE_OF,Polly,person
+JOSÉ Smith,person,SPOUSE_OF,Emma,person
+Harriet,person,SPOUSE_OF,Thomas,person
+Paul,person,SPOUSE_OF,Elsa Langheinrich,person
+José,person,SPOUSE_OF,Haydée,person
+María Burk,person,SPOUSE_OF,Ural Morris Burk,people
+David,person,SPOUSE_OF,Eloisa,person
+Esau,person,SPOUSE_OF,Adah,person
+Artaxerxes,person,SPOUSE_OF,Queen,concept
+Chuza,person,SPOUSE_OF,Joanna,person
+Ham,person,SPOUSE_OF,Abraham,person
+Ananias,person,SPOUSE_OF,Sapphira,person
+Pudens Claudia Rufina,people,SPOUSE_OF,Been Claudia Rufina,people
+Machir,person,SPOUSE_OF,Shuppim,person
+Ananias,person,SPOUSE_OF,Sapphira Beautiful,person
+Clopas,person,SPOUSE_OF,Mary,person
+Chilion,person,SPOUSE_OF,Moabitess,place
+Saul,person,SPOUSE_OF,Ahinoam,person
+Uriah,person,SPOUSE_OF,Bathsheba,person
+Herod-Philip,person,SPOUSE_OF,Herodias,person
+Joseph,person,SPOUSE_OF,HELIOPOLIS,place
+Antiochus ii,concept,SPOUSE_OF,Laodice,people
+Bathsheba,person,SPOUSE_OF,Hittite,person
+Heber,person,SPOUSE_OF,Jael Mountain-goat,person
+King Amaziah,place,SPOUSE_OF,Jehovah,person
+Josiah,person,SPOUSE_OF,Zebudah Given,person
+Haman,person,SPOUSE_OF,Venus,person
+Phinehas,person,SPOUSE_OF,Shiloh,place
+Cassander,person,SPOUSE_OF,Thessalonica,place
+Augustus,person,SPOUSE_OF,Livia,person
+Joseph,person,SPOUSE_OF,Mary,person
+Manasseh,person,SPOUSE_OF,Meshullemeth Friend,person
+Hadar,person,SPOUSE_OF,Mehetabel,person
+Ruth,person,SPOUSE_OF,BOAT,people
+The,person,SPOUSE_OF,Pharaoh,person
+Sapphira,person,SPOUSE_OF,Jerusalem,concept
+Jacob,person,SPOUSE_OF,Laban,person
+Tobias,person,SPOUSE_OF,Sara,person
+Jehoiada,person,SPOUSE_OF,Jehoshabeath,person
+King Uzziah,person,SPOUSE_OF,Jerushah,person
+Moses,person,SPOUSE_OF,Midian,person
+David,person,SPOUSE_OF,BATH-SHEBA,people
+Ezra,person,SPOUSE_OF,Jehudiah,person
+Jehoiakim,person,SPOUSE_OF,Jerusalem,concept
+Manasseh,person,SPOUSE_OF,Jotbah,people
+Rehoboam,person,SPOUSE_OF,GIBEAH,people
+Merab,person,SPOUSE_OF,Adriel,person
+Joseph,person,SPOUSE_OF,On,person
+Tobias,person,SPOUSE_OF,Sarah,person
+Salome,person,SPOUSE_OF,John,person
+Hannah,person,SPOUSE_OF,Elkanah,person
+Huldah,person,SPOUSE_OF,Shallum,person
+Peninnah,person,SPOUSE_OF,An Ephraimite,person
+David,person,SPOUSE_OF,Talmai,person
+Herod,person,SPOUSE_OF,Mariamme,person
+Elder Jabez Woodard,person,SPOUSE_OF,SAINT,person
+Joseph Smith,person,SPOUSE_OF,Lucy Smith,person
+Jerusha Smith,person,SPOUSE_OF,William Pierce,person
+Mary Jane Thompson,person,SPOUSE_OF,David Taylor,person
+Joseph Albert Harris,person,SPOUSE_OF,Johanna Patten,person
+JOHN SMITH,person,SPOUSE_OF,Hellen Maria Fisher,person
+Joseph,person,SPOUSE_OF,Sarah Ellen Richards,person
+Abraham Owen Smoot,person,SPOUSE_OF,Almira Emily Hill,person
+Martha ann,person,SPOUSE_OF,William Jasper Harris,person
+Joseph,person,SPOUSE_OF,Mary Taylor Schwartz,person
+Martha,person,SPOUSE_OF,Hellen Fisher Smith,person
+Francis,person,SPOUSE_OF,Mary Jane Dilworth,person
+Elias Smith,person,SPOUSE_OF,Lucy Brown,person
+Albert Bailey Griffin,person,SPOUSE_OF,Abigail Varney,person
+William Walton Burton,person,SPOUSE_OF,Rachel Fielding,person
+Orson Omer Heath,person,SPOUSE_OF,Josephine Fielding,person
+David Asael Smith,person,SPOUSE_OF,Emily Jenkins,person
+Heber Chase Rich Smith,person,SPOUSE_OF,Leileth Nelson,person
+Jesse Kimball Smith,person,SPOUSE_OF,Louise May Anderson,person
+John,person,SPOUSE_OF,Mercy Dennis,person
+John Fife Bowman,person,SPOUSE_OF,Edna Melissa Smith,person
+Harry Walter Startup,person,SPOUSE_OF,Martha Artimissa Harris,person
+WILLIAM,person,SPOUSE_OF,Ellen Fielding,person
+Rev,person,SPOUSE_OF,Ann Fielding,person
+Joseph Nelson,person,SPOUSE_OF,Leonora Smith,person
+Albert Westley Davis,person,SPOUSE_OF,Melissa Jane Lambson,person
+Sarah Smith,person,SPOUSE_OF,Charles Emerson Griffin,person
+George,person,SPOUSE_OF,Susan Elizabeth West,person
+George,person,SPOUSE_OF,Bathsheba Wilson Bigler,person
+Heber,person,SPOUSE_OF,Lucy Walker,person
+Brigham Young,person,SPOUSE_OF,Aunt Zina,person
+Peter Whitmer Sr,person,SPOUSE_OF,Mary Musselman Whitmer,person
+Olof Wicklund,person,SPOUSE_OF,Ella,person
+John Russell,person,SPOUSE_OF,Laura Russell,person
+Levi Jones,person,SPOUSE_OF,Sarah Zolide Reed Jones,person
+John Russell,person,SPOUSE_OF,Laura Ann Spencer,person
+Latter-day Saint,person,SPOUSE_OF,Phoebe Woodruff,person
+Thomas Marsh,person,SPOUSE_OF,Elizabeth Marsh,person
+Lorenzo,person,SPOUSE_OF,Harriet Page Wheeler Young,person
+Brigham Young,person,SPOUSE_OF,Clarissa Decker Young,people
+Heber,person,SPOUSE_OF,Ellen Saunders Kimball,person
+Joseph Smith,person,SPOUSE_OF,Emma,person
+Joseph Smith,person,SPOUSE_OF,Emma Smith,person
+Don Carlos Smith,person,SPOUSE_OF,Smith,person
+Elder Wm,person,SPOUSE_OF,Caroline Grant,person
+Dr,person,SPOUSE_OF,Sister Jennetta Richards,people
+Odin,people,SPOUSE_OF,Frigga,person
+Holder,person,SPOUSE_OF,Freya,person
+President John Taylor,person,SPOUSE_OF,Leonora Cannon Taylor,person
+Bishop,concept,SPOUSE_OF,Mary Woolley,person
+Associate Justice,people,SPOUSE_OF,Waite,person
+Rebecca,person,SPOUSE_OF,Jacob,person
+Newel Knight,person,SPOUSE_OF,Sister Knight,person
+JOSEPH KNIGHT,person,SPOUSE_OF,Sister Polly Knight,people
+Newel,person,SPOUSE_OF,Lydia,person
+Asael Smith,person,SPOUSE_OF,Mary Duty Smith,person
+Queen Victoria,person,SPOUSE_OF,PRINCE ALBERT,person
+Heber,person,SPOUSE_OF,Helen Saunders,people
+Truman,person,SPOUSE_OF,Sister Polly Angel,concept
+Bishop Smoot,people,SPOUSE_OF,Smoot,person
+Millen,person,SPOUSE_OF,Atwood,person
+Bishop William,person,SPOUSE_OF,Martha Granger,person
+WILLIAM CLAYTON,person,SPOUSE_OF,Ruth Moon,person
+Elder Thomas Bullock,person,SPOUSE_OF,Lucy Clayton,person
+Bishop Layton,person,SPOUSE_OF,Sister Layton,person
+PARLEY,person,SPOUSE_OF,Pratt,person
+Gen,person,SPOUSE_OF,Rich,person
+Apostle John Taylor,person,SPOUSE_OF,Leonora,person
+Apostle Orson Pratt,person,SPOUSE_OF,Marian Ross,person
+Apostle Wilford Woodruff,person,SPOUSE_OF,Carter,person
+President Wilford Woodruff,person,SPOUSE_OF,Woodruff,person
+John Steele,person,SPOUSE_OF,Catherine Campbell Steele,person
+Idaho,people,SPOUSE_OF,CHURCH,person
+Utah,person,SPOUSE_OF,Matheson,person
+Bishop Richard Richardson,people,SPOUSE_OF,Sister Fay Richardson,people
+Jussi Kemppainen,person,SPOUSE_OF,Raija Kemppainen,person
+Newel,person,SPOUSE_OF,Elizabeth Ann,person
+John,person,SPOUSE_OF,Annie,person
+Cassie,person,SPOUSE_OF,Will,person
+Pepe,person,SPOUSE_OF,Tepahu,person
+Eulogia,person,SPOUSE_OF,Delio,person
+Doug,person,SPOUSE_OF,Alice Mae,person
+Julie,person,SPOUSE_OF,Carl,person
+Ken,person,SPOUSE_OF,De Ann,person
+Flavius Clemens,person,SPOUSE_OF,Flavia Domitilla,person
+Hezron,person,SPOUSE_OF,Ephrath,person
+Abigail,person,SPOUSE_OF,Nabal,person
+Apollophanes,people,SPOUSE_OF,Stratonice,period
+Asir,person,SPOUSE_OF,Originally Asirtu,concept
+Jacob,person,SPOUSE_OF,Israel,person
+Edna,person,SPOUSE_OF,Ecbatana,person
+Isaac,person,SPOUSE_OF,Laban,person
+Raguel,person,SPOUSE_OF,Edna,person
+Augustus,person,SPOUSE_OF,Julia,person
+Jehoiada,person,SPOUSE_OF,Jehosheba,person
+HEROD'S,people,SPOUSE_OF,Joanna,person
+Amram,person,SPOUSE_OF,Levi,person
+Zebedee,person,SPOUSE_OF,Salome,person
+Kenite,person,SPOUSE_OF,Jael,person
+Jaddus,people,SPOUSE_OF,Augia,person
+Jael,person,SPOUSE_OF,Kenite,person
+Aaron,person,SPOUSE_OF,Nashon,people
+Ishtar,person,SPOUSE_OF,Dumuzu,people
+Shamash,person,SPOUSE_OF,Malkatu,person
+Judith,person,SPOUSE_OF,Dothaim Manasses,person
+Chuzas,person,SPOUSE_OF,Joanna,person
+Hadad,person,SPOUSE_OF,Matred,person
+Nahor,person,SPOUSE_OF,Haran,person
+Abraham,person,SPOUSE_OF,Keturah,person
+George,person,SPOUSE_OF,Smith,person
+Brian Hales,person,SPOUSE_OF,Laura Hales,person
+Hyrum Smith,person,SPOUSE_OF,Mary Fielding,person
+Stephen,person,SPOUSE_OF,Diane Timmerman,person
+Avram,people,SPOUSE_OF,Sarai,person
+El,person,SPOUSE_OF,Elah,person
+Oliver Cowdery,person,SPOUSE_OF,Elizabeth,person
+Mary,person,SPOUSE_OF,Zacharias,person
+Enoch,person,SPOUSE_OF,Dinah,person
+Caesar Augustus,person,FATHER_OF,Julia,person
+Alphaeus,person,FATHER_OF,Levi,person
+Kohath,person,FATHER_OF,Levite,person
+Alma,person,FATHER_OF,Mormón,person
+Jetro,person,FATHER_OF,Séfora,person
+Noé,person,FATHER_OF,Cam,person
+Cam,person,FATHER_OF,Egyptus,person
+Lehi,person,FATHER_OF,Nefi,person
+Helamán,person,FATHER_OF,Mormón,person
+David,person,FATHER_OF,Salomón,person
+Jeberechiah,person,FATHER_OF,Zechariah,person
+Remaliah,person,FATHER_OF,Pekah,person
+Righteousness,person,FATHER_OF,But,person
+Abinadom,person,FATHER_OF,Amaleki,person
+Noah,person,FATHER_OF,Wherefore,person
+Noah,person,FATHER_OF,Cohor,person
+Kimnor,person,FATHER_OF,Akish,person
+Alma,person,FATHER_OF,Helaman,person
+Cis,person,FATHER_OF,Saul,person
+Bosor,person,FATHER_OF,Balaam,person
+Joseph,person,FATHER_OF,Jesus,person
+Simon,person,FATHER_OF,Judas Iscariot,person
+Jonas,person,FATHER_OF,Simon,person
+Jona,person,FATHER_OF,Simon,person
+Joseph,person,FATHER_OF,Nazareth,place
+David,person,FATHER_OF,Jesus Christ,person
+Jacob,person,FATHER_OF,Judas,person
+Judas,person,FATHER_OF,Phares,person
+Phares,person,FATHER_OF,Esrom,person
+Esrom,person,FATHER_OF,Aram,person
+Aram,person,FATHER_OF,Aminadab,person
+Aminadab,person,FATHER_OF,Naasson,person
+Naasson,person,FATHER_OF,Salmon,person
+Salmon,person,FATHER_OF,Booz,person
+Booz,person,FATHER_OF,Obed,person
+Solomon,person,FATHER_OF,Roboam,person
+Roboam,person,FATHER_OF,Abia,person
+Abia,person,FATHER_OF,Asa,person
+Asa,person,FATHER_OF,JOSAPHAT,people
+JOSAPHAT,people,FATHER_OF,Joram,person
+Joram,person,FATHER_OF,Ozias,person
+Ozias,person,FATHER_OF,Joatham,person
+Joatham,person,FATHER_OF,Achaz,person
+Manasses,person,FATHER_OF,Amon,person
+Amon,person,FATHER_OF,Josias,person
+Josias,person,FATHER_OF,Jechonias,person
+Jechonias,person,FATHER_OF,Salathiel,person
+Salathiel,person,FATHER_OF,Zorobabel,person
+Zorobabel,person,FATHER_OF,Abiud,person
+Abiud,person,FATHER_OF,Eliakim,person
+Eliakim,person,FATHER_OF,Azor,person
+Azor,person,FATHER_OF,Sadoc,person
+Sadoc,person,FATHER_OF,Achim,person
+Matthan,person,FATHER_OF,Jacob,person
+Koz,person,FATHER_OF,Urijah,person
+Meshezabeel,person,FATHER_OF,Berechiah,person
+Imri,person,FATHER_OF,Zaccur,person
+Urijah,person,FATHER_OF,Meremoth,person
+Berechiah,person,FATHER_OF,Meshullam,person
+Baana,person,FATHER_OF,Zadok,person
+Paseah,person,FATHER_OF,Jehoiada,person
+Besodeiah,person,FATHER_OF,Meshullam,person
+Harhaiah,person,FATHER_OF,Uzziel,person
+Hur,person,FATHER_OF,Rephaiah,person
+Harumaph,person,FATHER_OF,Jedaiah,person
+Hashabniah,person,FATHER_OF,Hattush,person
+Harim,person,FATHER_OF,Malchijah,person
+Pahath-moab,person,FATHER_OF,Hashub,person
+Halohesh,person,FATHER_OF,Shallum,person
+Rechab,person,FATHER_OF,Malchiah,person
+Col-hozeh,person,FATHER_OF,Shallun,person
+Azbuk,person,FATHER_OF,Nehemiah,person
+Bani,person,FATHER_OF,Rehum,person
+Henadad,person,FATHER_OF,Bavai,person
+Jeshua,person,FATHER_OF,Ezer,person
+Zabbai,person,FATHER_OF,Baruch,person
+Maaseiah,person,FATHER_OF,Azariah,person
+Henadad,person,FATHER_OF,Binnui,person
+Uzai,person,FATHER_OF,Palal,person
+Parosh,person,FATHER_OF,Pedaiah,person
+Immer,person,FATHER_OF,Zadok,person
+Shelemiah,person,FATHER_OF,Hananiah,person
+Zechariah,person,FATHER_OF,Uzziah,person
+Shephatiah,person,FATHER_OF,Amariah,person
+Col-hozeh,person,FATHER_OF,Baruch,person
+Adaiah,person,FATHER_OF,Hazaiah,person
+Zechariah,person,FATHER_OF,Joiarib,person
+Uzziah,person,FATHER_OF,Athaiah,person
+Baruch,person,FATHER_OF,Maaseiah,person
+Joed,person,FATHER_OF,Meshullam,person
+Kolaiah,person,FATHER_OF,Pedaiah,person
+Ithiel,person,FATHER_OF,Maaseiah,person
+Meshullam,person,FATHER_OF,Hilkiah,person
+Meraioth,person,FATHER_OF,Zadok,person
+Pelaliah,person,FATHER_OF,Jeroham,person
+Zechariah,person,FATHER_OF,Amzi,person
+Malchiah,person,FATHER_OF,Pashur,person
+Zichri,person,FATHER_OF,Joel,person
+Senuah,person,FATHER_OF,Judah,person
+Joiarib,person,FATHER_OF,Jedaiah,person
+Hilkiah,person,FATHER_OF,Seraiah,person
+Ahasai,person,FATHER_OF,Azareel,person
+Immer,person,FATHER_OF,Meshillemoth,person
+Azrikam,person,FATHER_OF,Hashub,person
+Bunni,person,FATHER_OF,Hashabiah,person
+Zabdi,person,FATHER_OF,Micha,person
+Galal,person,FATHER_OF,Shammua,person
+Azareel,person,FATHER_OF,Amashai,person
+Hashub,person,FATHER_OF,Shemaiah,person
+Micha,person,FATHER_OF,Mattaniah,person
+Shammua,person,FATHER_OF,Abda,person
+Hashabiah,person,FATHER_OF,Bani,person
+Bani,person,FATHER_OF,Uzzi,person
+Meshezabeel,person,FATHER_OF,Pethahiah,person
+Hachaliah,person,FATHER_OF,TIRSHATHA,people
+Azaniah,person,FATHER_OF,Jeshua,person
+Jozadak,person,FATHER_OF,Jeshua,person
+Shemaiah,person,FATHER_OF,Jonathan,person
+Michaiah,person,FATHER_OF,Mattaniah,person
+Asaph,person,FATHER_OF,Zaccur,person
+Delaiah,person,FATHER_OF,Shemaiah,person
+Arah,person,FATHER_OF,Shechaniah,person
+Nun,person,FATHER_OF,Jeshua,person
+Mattaniah,person,FATHER_OF,Zaccur,person
+Zaccur,person,FATHER_OF,Hanan,person
+Hachaliah,person,FATHER_OF,Nehemiah,person
+Kish,person,FATHER_OF,Saul,person
+Ahitub,person,FATHER_OF,Ahiah,person
+Eli,person,FATHER_OF,Phinehas,person
+Maoch,person,FATHER_OF,Achish,person
+Abiel,person,FATHER_OF,Kish,person
+Bechorath,person,FATHER_OF,Zeror,person
+Jeroham,person,FATHER_OF,Elkanah,person
+Tohu,person,FATHER_OF,Elihu,person
+Ahimelech,person,FATHER_OF,Abiathar,person
+Ahitub,person,FATHER_OF,Ahimelech,person
+Barachel,person,FATHER_OF,Elihu,person
+Azur,person,FATHER_OF,Jaazaniah,person
+Benaiah,person,FATHER_OF,Pelatiah,person
+Shaphan,person,FATHER_OF,Jaazaniah,person
+Jair,person,FATHER_OF,Elhanan,person
+Ahilud,person,FATHER_OF,Jehoshaphat,person
+Ahitub,person,FATHER_OF,Zadok,person
+Abiathar,person,FATHER_OF,Abimelech,person
+Maachah,person,FATHER_OF,Absalom,person
+Dodo,person,FATHER_OF,Eleazar,person
+Dodo,person,FATHER_OF,Elhanan,person
+Ikkesh,person,FATHER_OF,Ira,person
+Baanah,person,FATHER_OF,Heled,person
+Ribai,person,FATHER_OF,Ithai,person
+Shage,person,FATHER_OF,Jonathan,person
+Sacar,person,FATHER_OF,Ahiam,person
+Ur,person,FATHER_OF,Eliphal,person
+Ezbai,person,FATHER_OF,Naarai,person
+Haggeri,person,FATHER_OF,Mibhar,person
+Ahlai,person,FATHER_OF,Zabad,person
+Shiza,person,FATHER_OF,Adina,person
+Maachah,person,FATHER_OF,Hanan,person
+Shimri,person,FATHER_OF,Jediael,person
+Nahash,person,FATHER_OF,Hanun,person
+Zerahiah,person,FATHER_OF,Meraioth,person
+Meraioth,person,FATHER_OF,Amariah,person
+Amariah,person,FATHER_OF,Ahitub,person
+Zadok,person,FATHER_OF,Shallum,person
+Shallum,person,FATHER_OF,Hilkiah,person
+Seraiah,person,FATHER_OF,JEHOZADAK,person
+Shemuel,person,FATHER_OF,Joel,person
+Toah,person,FATHER_OF,Eliel,person
+Amasai,person,FATHER_OF,Mahath,person
+Joel,person,FATHER_OF,Elkanah,person
+Zephaniah,person,FATHER_OF,Azariah,person
+Assir,person,FATHER_OF,Tahath,person
+Israel,person,FATHER_OF,Levi,person
+Shimea,person,FATHER_OF,Berachiah,person
+Baaseiah,person,FATHER_OF,Michael,person
+Zerah,person,FATHER_OF,Ethni,person
+Zimmah,person,FATHER_OF,Ethan,person
+Gershom,person,FATHER_OF,Jahath,person
+Abdi,person,FATHER_OF,Kishi,person
+Amaziah,person,FATHER_OF,Hashabiah,person
+Bani,person,FATHER_OF,Amzi,person
+Mushi,person,FATHER_OF,Mahli,person
+Berachiah,person,FATHER_OF,Asaph,person
+Ram,person,FATHER_OF,Amminadab,person
+Amminadab,person,FATHER_OF,Nahshon,person
+Nahshon,person,FATHER_OF,Salma,person
+Salma,person,FATHER_OF,Boaz,person
+Uri,person,FATHER_OF,Bezaleel,person
+Sisamai,person,FATHER_OF,Shallum,person
+Shallum,person,FATHER_OF,Jekamiah,person
+Jekamiah,person,FATHER_OF,Elishama,person
+Shammai,person,FATHER_OF,And,person
+Kore,person,FATHER_OF,Meshelemiah,person
+Moses,person,FATHER_OF,Gershom,person
+Gershom,person,FATHER_OF,Shebuel,person
+Machir,person,FATHER_OF,Gilead,person
+Israel,person,FATHER_OF,Joseph,person
+Heber,person,FATHER_OF,Japhlet,person
+Benjamin,person,FATHER_OF,Bela,person
+Jonathan,person,FATHER_OF,And,person
+MERIB-BAAL,person,FATHER_OF,Micah,person
+Ahaz,person,FATHER_OF,Jehoadah,person
+Jehoadah,person,FATHER_OF,Alemeth,person
+Zimri,person,FATHER_OF,Moza,person
+Zabdiel,person,FATHER_OF,Jashobeam,person
+Zichri,person,FATHER_OF,Eliezer,person
+Maachah,person,FATHER_OF,Shephatiah,person
+Kemuel,person,FATHER_OF,Hashabiah,person
+Michael,person,FATHER_OF,Omri,person
+Obadiah,person,FATHER_OF,Ishmaiah,person
+Azriel,person,FATHER_OF,Jerimoth,person
+Azaziah,person,FATHER_OF,Hoshea,person
+Pedaiah,person,FATHER_OF,Joel,person
+Zechariah,person,FATHER_OF,Iddo,person
+Abner,person,FATHER_OF,Jaasiel,person
+Jeroham,person,FATHER_OF,Azareel,person
+Adiel,person,FATHER_OF,Azmaveth,person
+Uzziah,person,FATHER_OF,Jehonathan,person
+Chelub,person,FATHER_OF,Ezri,person
+Adlai,person,FATHER_OF,Shaphat,person
+Hachmoni,person,FATHER_OF,Jehiel,person
+Benaiah,person,FATHER_OF,Jehoiada,person
+Omri,person,FATHER_OF,Ammihud,person
+Bani,person,FATHER_OF,Imri,person
+Hodaviah,person,FATHER_OF,Meshullam,person
+Michri,person,FATHER_OF,Uzzi,person
+Reuel,person,FATHER_OF,Shephathiah,person
+Pashur,person,FATHER_OF,Jeroham,person
+Jahzerah,person,FATHER_OF,Adiel,person
+Meshillemith,person,FATHER_OF,Meshullam,person
+Azrikam,person,FATHER_OF,Hasshub,person
+Adiel,person,FATHER_OF,Maasiai,person
+Zichri,person,FATHER_OF,Micah,person
+Galal,person,FATHER_OF,Shemaiah,person
+Elkanah,person,FATHER_OF,Asa,person
+Ebiasaph,person,FATHER_OF,Kore,person
+Micah,person,FATHER_OF,Mattaniah,person
+Kore,person,FATHER_OF,Shallum,person
+Mikloth,person,FATHER_OF,SHIMEAM,person
+Shema,person,FATHER_OF,Azaz,person
+Jaroah,person,FATHER_OF,Huri,person
+Michael,person,FATHER_OF,Gilead,person
+Jahdo,person,FATHER_OF,Jeshishai,person
+Guni,person,FATHER_OF,Abdiel,person
+Canaan,person,FATHER_OF,Zidon,person
+Bedad,person,FATHER_OF,Hadad,person
+Matred,person,FATHER_OF,Mehetabel,person
+Nethaneel,person,FATHER_OF,Shemaiah,person
+Abiathar,person,FATHER_OF,Ahimelech,person
+Joel,person,FATHER_OF,Heman,person
+Berechiah,person,FATHER_OF,Asaph,person
+Kushaiah,person,FATHER_OF,Ethan,person
+Meonothai,person,FATHER_OF,Ophrah,person
+Seraiah,person,FATHER_OF,Josibiah,person
+Allon,person,FATHER_OF,Shiphi,person
+Shimri,person,FATHER_OF,Jedaiah,person
+Hizkiah,person,FATHER_OF,Amariah,person
+Reuben,person,FATHER_OF,Bohan,person
+Jephunneh Hebron,person,FATHER_OF,Caleb,person
+Zerah,person,FATHER_OF,Achan,person
+Zippor,person,FATHER_OF,Balak,person
+Beor,person,FATHER_OF,Balaam,person
+Bichri,person,FATHER_OF,Sheba,person
+Abital,person,FATHER_OF,Shephatiah,person
+Aiah,person,FATHER_OF,Rizpah,person
+Laish,person,FATHER_OF,Phaltiel,person
+Gera,person,FATHER_OF,Shimei,person
+Eliam,person,FATHER_OF,BATH-SHEBA,people
+Jerubbesheth,person,FATHER_OF,Abimelech,person
+Nahash,person,FATHER_OF,Shobi,person
+Ammiel,person,FATHER_OF,Machir,person
+Saul,person,FATHER_OF,Mephibosheth,person
+Saul,person,FATHER_OF,Ish-bosheth,person
+Rehob,person,FATHER_OF,Hadadezer,person
+Ammihud,person,FATHER_OF,Talmai,person
+Jonathan,person,FATHER_OF,Mephibosheth,person
+Barzillai,person,FATHER_OF,Adriel,person
+Jaare-oregim,person,FATHER_OF,Elhanan,person
+Shimea,person,FATHER_OF,Jonathan,person
+Agee,person,FATHER_OF,Shammah,person
+Baanah,person,FATHER_OF,Heleb,person
+Ribai,person,FATHER_OF,Ittai,person
+Sharar,person,FATHER_OF,Ahiam,person
+Ahasbai,person,FATHER_OF,Eliphelet,person
+Ahithophel,person,FATHER_OF,Eliam,person
+Nathan,person,FATHER_OF,Igal,person
+Abiathar,person,FATHER_OF,Jonathan,person
+Zephaniah,person,FATHER_OF,Josiah,person
+Josedech,person,FATHER_OF,Joshua,person
+Salu,person,FATHER_OF,Zimri,person
+Zur,person,FATHER_OF,Cozbi,person
+Lael,person,FATHER_OF,Eliasaph,person
+Uzziel,person,FATHER_OF,Elizaphan,person
+Abihail,person,FATHER_OF,Zuriel,person
+Peleth,person,FATHER_OF,On,person
+Zuar,person,FATHER_OF,Nethaneel,person
+Helon,person,FATHER_OF,Eliab,person
+Shedeur,person,FATHER_OF,Elizur,person
+Zurishaddai,person,FATHER_OF,Shelumiel,person
+Deuel,person,FATHER_OF,Eliasaph,person
+Ammihud,person,FATHER_OF,Elishama,person
+Pedahzur,person,FATHER_OF,Gamaliel,person
+Gideoni,person,FATHER_OF,Abidan,person
+Ammishaddai,person,FATHER_OF,Ahiezer,person
+Raguel,person,FATHER_OF,Hobab,person
+Ocran,person,FATHER_OF,Pagiel,person
+Enan,person,FATHER_OF,Ahira,person
+Reuel,person,FATHER_OF,Eliasaph,person
+Levi,person,FATHER_OF,Jochebed,person
+Kohath,person,FATHER_OF,Amram,person
+Aaron,person,FATHER_OF,Ithamar,person
+Ammihud,person,FATHER_OF,Shemuel,person
+Chislon,person,FATHER_OF,Elidad,person
+Jogli,person,FATHER_OF,Bukki,person
+Ephod,person,FATHER_OF,Hanniel,person
+Shiphtan,person,FATHER_OF,Kemuel,person
+Parnach,person,FATHER_OF,Elizaphan,person
+Azzan,person,FATHER_OF,Paltiel,person
+Shelomi,person,FATHER_OF,Ahihud,person
+Ammihud,person,FATHER_OF,Pedahel,person
+Zaccur,person,FATHER_OF,Shammua,person
+Hori,person,FATHER_OF,Shaphat,person
+Joseph,person,FATHER_OF,Igal,person
+Nun,person,FATHER_OF,Oshea,person
+Raphu,person,FATHER_OF,Palti,person
+Sodi,person,FATHER_OF,Gaddiel,person
+Susi,person,FATHER_OF,Gaddi,person
+Gemalli,person,FATHER_OF,Ammiel,person
+Michael,person,FATHER_OF,Sethur,person
+Vophsi,person,FATHER_OF,Nahbi,person
+Machi,person,FATHER_OF,Geuel,person
+Manasseh,person,FATHER_OF,Jair,person
+Beeri,person,FATHER_OF,Hosea,person
+Terah,person,FATHER_OF,Abram,person
+Haran,person,FATHER_OF,Milcah,person
+Canaan,person,FATHER_OF,Sidon,person
+Bethuel,person,FATHER_OF,Laban,person
+Bashemath,person,FATHER_OF,Reuel,person
+Baladan,person,FATHER_OF,Berodach-baladan,person
+ZACHARIAH,person,FATHER_OF,Abi,person
+Hilkiah,person,FATHER_OF,Eliakim,person
+Asaph,person,FATHER_OF,Joah,person
+Ahikam,person,FATHER_OF,Gedaliah,person
+Elishama,person,FATHER_OF,Nethaniah,person
+Nethaniah,person,FATHER_OF,Ishmael,person
+CAREAH,people,FATHER_OF,Johanan,person
+Tanhumeth,person,FATHER_OF,Seraiah,person
+Shaphat,person,FATHER_OF,Elisha,person
+Remaliah Ahaz,people,FATHER_OF,Pekah,person
+Rechab,person,FATHER_OF,JEHONADAB,person
+Elah,person,FATHER_OF,Hoshea,person
+Shimeath,person,FATHER_OF,Jozachar,person
+Shomer,person,FATHER_OF,Jehozabad,person
+Joash,person,FATHER_OF,Amaziah,person
+Jehoahaz,person,FATHER_OF,Jehoash,person
+Jehoash,person,FATHER_OF,Judah,person
+Ahaziah,person,FATHER_OF,Jehoash,person
+Joash,person,FATHER_OF,Judah Jeroboam,person
+Ahab,person,FATHER_OF,Joram,person
+Jehu,person,FATHER_OF,Judah Jehoahaz,person
+Hazael,person,FATHER_OF,Ben-hadad,person
+Haruz,person,FATHER_OF,Meshullemeth,person
+Jehoshaphat,person,FATHER_OF,Jehu,person
+Ahijah,person,FATHER_OF,Baasha,person
+Josiah,person,FATHER_OF,Eliakim,person
+Jeremiah,person,FATHER_OF,Hamutal,person
+Pedaiah,person,FATHER_OF,Zebudah,person
+Meshullam,person,FATHER_OF,Azaliah,person
+Adaiah,person,FATHER_OF,Jedidah,person
+HARHAS,person,FATHER_OF,Tikvah,person
+Michaiah,person,FATHER_OF,Achbor,person
+Tikvah,person,FATHER_OF,Shallum,person
+Elnathan,person,FATHER_OF,Nehushta,person
+Jeroboam,person,FATHER_OF,ZACHARIAH,person
+Jabesh,person,FATHER_OF,Shallum,person
+Gadi,person,FATHER_OF,Menahem,person
+Menahem,person,FATHER_OF,Judah Pekahiah,person
+Zadok,person,FATHER_OF,Jerusha,person
+David,person,FATHER_OF,Preacher,person
+Gershom,person,FATHER_OF,Jonathan,person
+Gera,person,FATHER_OF,Ehud,person
+Anath,person,FATHER_OF,Shamgar,person
+Gilead,person,FATHER_OF,Jephthah,person
+Dodo,person,FATHER_OF,Puah,person
+Puah,person,FATHER_OF,Israel Tola,person
+Hillel,person,FATHER_OF,Abdon,person
+Joash,person,FATHER_OF,Gideon,person
+Joash,person,FATHER_OF,JERUBBAAL,person
+JERUBBAAL,person,FATHER_OF,Abimelech,person
+Ebed,person,FATHER_OF,Gaal,person
+JERUBBAAL,person,FATHER_OF,Jotham,person
+Abinoam,person,FATHER_OF,Barak,person
+Jehiel,person,FATHER_OF,Shechaniah,person
+Tikvah,person,FATHER_OF,Jahaziah,person
+Iddo,person,FATHER_OF,Zechariah,person
+Zerahiah,person,FATHER_OF,Elihoenai,person
+Jonathan,person,FATHER_OF,Ebed,person
+Athaliah,person,FATHER_OF,Jeshaiah,person
+Michael,person,FATHER_OF,Zebadiah,person
+Jehiel,person,FATHER_OF,Obadiah,person
+Bebai,person,FATHER_OF,Zechariah,person
+Hakkatan,person,FATHER_OF,Johanan,person
+Levi,person,FATHER_OF,Mahli,person
+Uriah,person,FATHER_OF,Meremoth,person
+Phinehas,person,FATHER_OF,Eleazar,person
+Jeshua,person,FATHER_OF,Jozabad,person
+Binnui,person,FATHER_OF,Noadiah,person
+Hammedatha,person,FATHER_OF,Haman,person
+Jair,person,FATHER_OF,Mordecai,person
+Kish,person,FATHER_OF,Shimei,person
+Abihail,person,FATHER_OF,Esther,person
+Baladan,person,FATHER_OF,Merodach-baladan,person
+Jakeh,person,FATHER_OF,Agur,person
+Eliadah,person,FATHER_OF,Rezon,person
+Jether,person,FATHER_OF,Amasa,person
+Imlah,person,FATHER_OF,Micaiah,person
+Chenaanah,person,FATHER_OF,Zedekiah,person
+Ahab,person,FATHER_OF,Ahaziah,person
+Abishalom,person,FATHER_OF,Maachah,person
+Tabrimon,person,FATHER_OF,Ben-hadad,person
+Jeroboam,person,FATHER_OF,Nadab,person
+Zadok,person,FATHER_OF,Azariah,person
+Nathan,person,FATHER_OF,Azariah,person
+Nathan,person,FATHER_OF,Zabud,person
+Abda,person,FATHER_OF,Adoniram,person
+Ahilud,person,FATHER_OF,Baana,person
+Iddo,person,FATHER_OF,Ahinadab,person
+Hushai,person,FATHER_OF,Baanah,person
+Paruah,person,FATHER_OF,Jehoshaphat,person
+Elah,person,FATHER_OF,Shimei,person
+Uri,person,FATHER_OF,Geber,person
+Ahasuerus,person,FATHER_OF,Darius,person
+Benaiah,person,FATHER_OF,Zechariah,person
+Mattaniah,person,FATHER_OF,Jeiel,person
+Zechariah,person,FATHER_OF,Jahaziel,person
+Dodavah,person,FATHER_OF,Eliezer,person
+Imla,person,FATHER_OF,Micaiah,person
+Jehoahaz,person,FATHER_OF,Joash,person
+Joash,person,FATHER_OF,Judah,person
+Jesse,person,FATHER_OF,Eliab,person
+Maachah,person,FATHER_OF,Abijah,person
+Zichri,person,FATHER_OF,Amasiah,person
+Ishmael,person,FATHER_OF,Zebadiah,person
+Azariah,person,FATHER_OF,Joel,person
+Abdi,person,FATHER_OF,Kish,person
+Jehalelel,person,FATHER_OF,Azariah,person
+Zimmah,person,FATHER_OF,Joah,person
+Joah,person,FATHER_OF,Eden,person
+Hasrah,person,FATHER_OF,Tikvath,person
+Micah,person,FATHER_OF,Abdon,person
+Tikvath,person,FATHER_OF,Shallum,person
+Imnah,person,FATHER_OF,Kore,person
+Jeroham,person,FATHER_OF,Azariah,person
+Jehohanan,person,FATHER_OF,Ishmael,person
+Obed,person,FATHER_OF,Azariah,person
+Adaiah,person,FATHER_OF,Maaseiah,person
+Zichri,person,FATHER_OF,Elishaphat,person
+Shimeath,person,FATHER_OF,Zabad,person
+Shimrith,person,FATHER_OF,Jehozabad,person
+Meshillemoth,person,FATHER_OF,Berechiah,person
+Shallum,person,FATHER_OF,Jehizkiah,person
+Hadlai,person,FATHER_OF,Amasa,person
+Oded,person,FATHER_OF,Azariah,person
+Ahisamach,person,FATHER_OF,Aholiab,person
+Amminadab,person,FATHER_OF,Elisheba,person
+Immer,person,FATHER_OF,Pashur,person
+Habaziniah,person,FATHER_OF,Jeremiah,person
+Igdaliah,person,FATHER_OF,Hanan,person
+Jeremiah,person,FATHER_OF,Jaazaniah,person
+Shallum,person,FATHER_OF,Maaseiah,person
+Rechab,person,FATHER_OF,Jonadab,person
+Jehoiakim,person,FATHER_OF,Coniah,person
+Shelemiah,person,FATHER_OF,Jehucal,person
+Maaseiah,person,FATHER_OF,Zephaniah,person
+Shelemiah,person,FATHER_OF,Irijah,person
+Shaphan,person,FATHER_OF,Elasah,person
+Hilkiah,person,FATHER_OF,Gemariah,person
+Kolaiah,person,FATHER_OF,Ahab,person
+Maaseiah,person,FATHER_OF,Zedekiah,person
+Shemaiah,person,FATHER_OF,Urijah,person
+Achbor,person,FATHER_OF,Elnathan,person
+Kareah,person,FATHER_OF,Johanan,person
+Neriah,person,FATHER_OF,Baruch,person
+Hoshaiah,person,FATHER_OF,Jezaniah,person
+Mattan,person,FATHER_OF,Shephatiah,person
+Pashur,person,FATHER_OF,Gedaliah,person
+Shelemiah,person,FATHER_OF,Jucal,person
+Hammelech,person,FATHER_OF,Malchiah,person
+Melchiah,person,FATHER_OF,Pashur,person
+Jehoiakim,person,FATHER_OF,Jeconiah,person
+Josiah,person,FATHER_OF,Shallum,person
+Hoshaiah,person,FATHER_OF,Azariah,person
+Shallum,person,FATHER_OF,Hanameel,person
+Maaseiah,person,FATHER_OF,Neriah,person
+Azur,person,FATHER_OF,Hananiah,person
+Neriah,person,FATHER_OF,Seraiah,person
+Shaphan,person,FATHER_OF,Gemariah,person
+Shelemiah,person,FATHER_OF,Nethaniah,person
+Shemaiah,person,FATHER_OF,Delaiah,person
+Hananiah,person,FATHER_OF,Zedekiah,person
+Nethaniah,person,FATHER_OF,Jehudi,person
+Hammelech,person,FATHER_OF,Jerahmeel,person
+Azriel,person,FATHER_OF,Seraiah,person
+Abdeel,person,FATHER_OF,Shelemiah,person
+Dibri,person,FATHER_OF,Shelomith,person
+Reuben,person,FATHER_OF,Eliab,person
+Nun,person,FATHER_OF,Hoshea,person
+Irad,person,FATHER_OF,Mahujael,person
+Mahujael,person,FATHER_OF,Methusael,person
+SOLOMON MACK,person,FATHER_OF,Mack,person
+Judas,person,FATHER_OF,Jesus,person
+Jehoahaz,person,FATHER_OF,Israel,person
+Sirach,person,FATHER_OF,Jesus,person
+Jabesh,person,FATHER_OF,Israel,person
+Jehoshaphat,person,FATHER_OF,Judah,person
+Ahab,person,FATHER_OF,Israel,person
+Abraham,person,FATHER_OF,David,person
+Zacarías,person,FATHER_OF,Juan,person
+Mormón,person,FATHER_OF,Moroni,person
+Ammorón,person,FATHER_OF,Tubalot,person
+Noé,person,FATHER_OF,Limhi,person
+Mormón,person,FATHER_OF,Soy,person
+Helamán,person,FATHER_OF,Nefi,person
+Abinadom,person,FATHER_OF,Amalekí,place
+Coriantor,person,FATHER_OF,Éter,person
+Het,person,FATHER_OF,Aarón,person
+Noé,person,FATHER_OF,Cohor,person
+Jared,person,FATHER_OF,Entonces,person
+Uzías,person,FATHER_OF,Jotam,person
+Jotam,person,FATHER_OF,Acaz,person
+Remalías,person,FATHER_OF,Peca,person
+Amoz,person,FATHER_OF,Isaías,person
+Justicia,person,FATHER_OF,Mas,person
+Jonás,person,FATHER_OF,Simón,person
+Alfeo,person,FATHER_OF,Jacobo,person
+David,person,FATHER_OF,Jesucristo,person
+Jacob,person,FATHER_OF,Judá,person
+Fares,person,FATHER_OF,Esrom,person
+Aminadab,person,FATHER_OF,Naasón,person
+Naasón,person,FATHER_OF,Salmón,person
+Obed,person,FATHER_OF,Isaí,people
+Salomón,person,FATHER_OF,Roboam,person
+Roboam,person,FATHER_OF,Abías,person
+Abías,person,FATHER_OF,Asa,person
+Asa,person,FATHER_OF,Josafat,person
+Josafat,person,FATHER_OF,Joram,person
+Joram,person,FATHER_OF,Uzías,person
+Acaz,person,FATHER_OF,Ezequías,person
+Ezequías,person,FATHER_OF,Manasés,person
+Manasés,person,FATHER_OF,Amón,person
+Amón,person,FATHER_OF,Josías,person
+Josías,person,FATHER_OF,Jeconías,person
+Jeconías,person,FATHER_OF,Salatiel,person
+Salatiel,person,FATHER_OF,Zorobabel,person
+Abiud,person,FATHER_OF,Eliaquim,person
+Eliaquim,person,FATHER_OF,Azor,person
+Sadoc,person,FATHER_OF,Aquim,person
+Aquim,person,FATHER_OF,Eliud,person
+Eleazar,person,FATHER_OF,Matán,person
+Matán,person,FATHER_OF,Jacob,person
+Jacob,person,FATHER_OF,José,person
+David,person,FATHER_OF,José,person
+Berequías,person,FATHER_OF,Zacarías,person
+Cis,person,FATHER_OF,Saúl,person
+Isaí,people,FATHER_OF,David,person
+Simón,person,FATHER_OF,Judas Iscariote,person
+Simón Iscariote,person,FATHER_OF,Judas,person
+José,person,FATHER_OF,Jesús,person
+David,person,FATHER_OF,Jesús,person
+Alfeo,person,FATHER_OF,Leví,person
+Leví,person,FATHER_OF,Matat,person
+Jana,person,FATHER_OF,Melqui,person
+Amós,person,FATHER_OF,Matatías,person
+Esli,person,FATHER_OF,Nahum,person
+Matatías,person,FATHER_OF,Maat,person
+José,person,FATHER_OF,Semei,person
+Resa,person,FATHER_OF,Joana,person
+Adi,person,FATHER_OF,Melqui,person
+Eliezer,person,FATHER_OF,Josué,person
+Matat,person,FATHER_OF,Jorim,person
+Simeón,person,FATHER_OF,Leví,person
+José,person,FATHER_OF,Judá,person
+Eliaquim,person,FATHER_OF,Jonán,person
+Mainán,person,FATHER_OF,Melea,person
+Natán,person,FATHER_OF,Matata,person
+Elí,person,FATHER_OF,José,person
+Taré,person,FATHER_OF,Abraham,person
+Ragau,person,FATHER_OF,Serug,person
+Heber,person,FATHER_OF,Peleg,person
+Arfaxad,person,FATHER_OF,Cainán,person
+Noé,person,FATHER_OF,Sem,person
+Enoc,person,FATHER_OF,Matusalén,people
+Set,person,FATHER_OF,Enós,person
+Saúl,person,FATHER_OF,Merab,person
+Lais,person,FATHER_OF,Palti,person
+Saúl,person,FATHER_OF,Jonatán,person
+Finees,person,FATHER_OF,Icabod,person
+Ahitob,people,FATHER_OF,Ahías,person
+Ahimaas,person,FATHER_OF,Ahinoam,person
+Sarvia,person,FATHER_OF,Abisai,person
+Maoc,person,FATHER_OF,Aquis,person
+Zeror,person,FATHER_OF,Abiel,person
+Afía,person,FATHER_OF,Becorat,person
+Abiel,person,FATHER_OF,Cis,person
+Eliú,person,FATHER_OF,Jeroham,person
+Zuf,person,FATHER_OF,Tohu,person
+Jeroham,person,FATHER_OF,Elcana,person
+Ahimelec,person,FATHER_OF,Abiatar,person
+Ahitob,people,FATHER_OF,Ahimelec,person
+Baraquel,person,FATHER_OF,Eliú,person
+Eleazar,person,FATHER_OF,Finees,person
+Lael,person,FATHER_OF,Eliasaf,person
+Uziel,person,FATHER_OF,Elizafán,person
+Aarón,person,FATHER_OF,Eleazar,person
+Coat,person,FATHER_OF,Izhar,person
+Izhar,person,FATHER_OF,Coré,person
+Pelet,person,FATHER_OF,On,person
+Nun,person,FATHER_OF,Josué,person
+Zuar,person,FATHER_OF,Natanael,person
+Helón,people,FATHER_OF,Eliab,person
+Sedeur,place,FATHER_OF,Elisur,person
+Zurisadai,person,FATHER_OF,Selumiel,person
+Deuel,person,FATHER_OF,Eliasaf,person
+Amiud,person,FATHER_OF,Elisama,person
+Pedasur,person,FATHER_OF,Gamaliel,person
+Gedeoni,person,FATHER_OF,Abidán,person
+Amisadai,place,FATHER_OF,Ahiezer,person
+Ocrán,person,FATHER_OF,Pagiel,person
+Enán,person,FATHER_OF,Ahira,person
+Reuel,person,FATHER_OF,Hobab,person
+Reuel,person,FATHER_OF,Eliasaf,person
+Jefone,person,FATHER_OF,Caleb,person
+Hefer,person,FATHER_OF,Zelofehad,person
+Maquir,person,FATHER_OF,Galaad,person
+Leví,person,FATHER_OF,Jocabed,person
+Coat,person,FATHER_OF,Amram,person
+Aarón,person,FATHER_OF,Itamar,person
+Amiud,person,FATHER_OF,Semuel,person
+Jogli,person,FATHER_OF,Buqui,person
+Efod,person,FATHER_OF,Haniel,person
+Parnac,place,FATHER_OF,Elizafán,person
+Amiud,person,FATHER_OF,Pedael,person
+Zacur,person,FATHER_OF,Samúa,person
+José,person,FATHER_OF,Igal,person
+Nun,person,FATHER_OF,Oseas,person
+Sodi,person,FATHER_OF,Gadiel,person
+Gemali,place,FATHER_OF,Amiel,person
+Micael,person,FATHER_OF,Setur,person
+Galaad,person,FATHER_OF,Hefer,person
+Manasés,person,FATHER_OF,Maquir,person
+José,person,FATHER_OF,Manasés,person
+Zipor,person,FATHER_OF,Balac,person
+Beor,person,FATHER_OF,Dice Balaam,person
+Fares,person,FATHER_OF,Hezrón,person
+Hezrón,person,FATHER_OF,Ram,person
+Ram,person,FATHER_OF,Aminadab,person
+Salmón,person,FATHER_OF,Booz,person
+Hilcías,person,FATHER_OF,Eliaquim,person
+Asaf,person,FATHER_OF,Joa,person
+Jair,person,FATHER_OF,Elhanán,person
+Simea,person,FATHER_OF,Jonatán,person
+Sarvia,person,FATHER_OF,Joab,person
+Ahilud,person,FATHER_OF,Josafat,person
+Ahitob,people,FATHER_OF,Sadoc,person
+Abiatar,person,FATHER_OF,Abimelec,person
+Joiada,person,FATHER_OF,Benaía,person
+Talmai,person,FATHER_OF,Maaca,person
+Maaca,person,FATHER_OF,Absalón,person
+Haguit,person,FATHER_OF,Adonías,person
+Amiel,person,FATHER_OF,Bet-súa,person
+Jedutún,person,FATHER_OF,Obed-edom,person
+Dodo,person,FATHER_OF,Elhanán,person
+Iques,person,FATHER_OF,Ira,person
+Baana,person,FATHER_OF,Heled,person
+Ribai,person,FATHER_OF,Itai,person
+Sage,person,FATHER_OF,Jonatán,person
+Sacar,person,FATHER_OF,Ahíam,place
+Ur,person,FATHER_OF,Elifal,person
+Hagrai,person,FATHER_OF,Mibhar,person
+Siza,place,FATHER_OF,Adina,person
+Maaca,person,FATHER_OF,Hanán,person
+Simri,person,FATHER_OF,Jediael,person
+Nahas,person,FATHER_OF,Hanún,person
+Finees,person,FATHER_OF,Abisúa,person
+Abisúa,person,FATHER_OF,Buqui,person
+Buqui,person,FATHER_OF,Uzi,person
+Uzi,person,FATHER_OF,Zeraías,people
+Zeraías,people,FATHER_OF,Meraiot,person
+Meraiot,person,FATHER_OF,Amarías,person
+Amarías,person,FATHER_OF,Ahitob,people
+Sadoc,person,FATHER_OF,Ahimaas,person
+Ahimaas,person,FATHER_OF,Azarías,person
+Azarías,person,FATHER_OF,Johanán,person
+Johanán,person,FATHER_OF,Azarías,person
+Azarías,person,FATHER_OF,Amarías,person
+Sadoc,person,FATHER_OF,Salum,person
+Salum,person,FATHER_OF,Hilcías,person
+Hilcías,person,FATHER_OF,Azarías,person
+Azarías,person,FATHER_OF,Seraías,person
+Seraías,person,FATHER_OF,Josadac,person
+Samuel,person,FATHER_OF,Joel,person
+Toa,person,FATHER_OF,Eliel,person
+Elcana,person,FATHER_OF,Zuf,person
+Amasai,person,FATHER_OF,Mahat,person
+Joel,person,FATHER_OF,Elcana,person
+Sofonías,person,FATHER_OF,Azarías,person
+Asir,person,FATHER_OF,Tahat,person
+Coré,person,FATHER_OF,Ebiasaf,people
+Israel,person,FATHER_OF,Leví,person
+Simea,person,FATHER_OF,Berequías,person
+Baasías,person,FATHER_OF,Micael,person
+Zera,person,FATHER_OF,Etni,person
+Zima,person,FATHER_OF,Etán,person
+Gersón,person,FATHER_OF,Jahat,person
+Abdi,person,FATHER_OF,Quisi,person
+Amasías,person,FATHER_OF,Hasabías,person
+Bani,person,FATHER_OF,Amsi,person
+Musi,person,FATHER_OF,Mahli,person
+Leví,person,FATHER_OF,Merari,person
+Berequías,person,FATHER_OF,Asaf,person
+Quisi,person,FATHER_OF,Etán,person
+Hezrón,person,FATHER_OF,Caleb,person
+Isaí,people,FATHER_OF,Eliab,person
+Atai,person,FATHER_OF,Natán,person
+Natán,person,FATHER_OF,Zabad,person
+Zabad,person,FATHER_OF,Eflal,person
+Eflal,person,FATHER_OF,Obed,person
+Obed,person,FATHER_OF,Jehú,person
+Jehú,person,FATHER_OF,Azarías,person
+Azarías,person,FATHER_OF,Heles,person
+Heles,person,FATHER_OF,Elasa,person
+Elasa,person,FATHER_OF,Sismai,person
+Sismai,person,FATHER_OF,Salum,person
+Salum,person,FATHER_OF,Jecamías,person
+Jecamías,person,FATHER_OF,Elisama,person
+Sema,person,FATHER_OF,Raham,person
+Harán,person,FATHER_OF,Gazez,person
+Coré,person,FATHER_OF,Meselemías,person
+Moisés,person,FATHER_OF,Gersón,person
+Gersón,person,FATHER_OF,Sebuel,person
+Aher,person,FATHER_OF,Husim,person
+Israel,person,FATHER_OF,José,person
+Heber,person,FATHER_OF,Jaflet,person
+Benjamín,person,FATHER_OF,Bela,person
+Husim,person,FATHER_OF,Abitob,place
+Miclot,person,FATHER_OF,Simea,person
+Ner,person,FATHER_OF,Cis,person
+MERIB-BAAL,person,FATHER_OF,Micaía,person
+Acaz,person,FATHER_OF,Joada,person
+Joada,person,FATHER_OF,Alemet,person
+Zimri,person,FATHER_OF,Mosa,person
+Mosa,person,FATHER_OF,Bina,place
+Zicri,person,FATHER_OF,Eliezer,person
+Maaca,person,FATHER_OF,Sefatías,person
+Kemuel,person,FATHER_OF,Hasabías,person
+Micael,person,FATHER_OF,Omri,person
+Abdías,people,FATHER_OF,Ismaías,person
+Azriel,person,FATHER_OF,Jerimot,person
+Azazías,person,FATHER_OF,Oseas,person
+Pedaías,person,FATHER_OF,Joel,person
+Zacarías,person,FATHER_OF,Iddo,person
+Adiel,person,FATHER_OF,Azmavet,person
+Uzías,person,FATHER_OF,Jonatán,person
+Quelub,people,FATHER_OF,Ezri,person
+Adlai,person,FATHER_OF,Safat,person
+Hacmoni,person,FATHER_OF,Jehiel,person
+Benaía,person,FATHER_OF,Joiada,person
+Omri,person,FATHER_OF,Amiud,person
+Hodavías,person,FATHER_OF,Mesulam,person
+Micri,person,FATHER_OF,Uzi,person
+Reuel,person,FATHER_OF,Sefatías,person
+Amiud,person,FATHER_OF,Utai,place
+Judá,person,FATHER_OF,Fares,person
+Jeroham,person,FATHER_OF,Ibneías,person
+Uzi,person,FATHER_OF,Ela,person
+Sefatías,person,FATHER_OF,Mesulam,person
+Mesulam,person,FATHER_OF,Hilcías,person
+Meraiot,person,FATHER_OF,Sadoc,person
+Pasur,person,FATHER_OF,Jeroham,person
+Jazera,person,FATHER_OF,Adiel,person
+Mesilemit,person,FATHER_OF,Mesulam,person
+Azricam,place,FATHER_OF,Hasub,person
+Zicri,person,FATHER_OF,Micaía,person
+Galal,person,FATHER_OF,Semaías,person
+Elcana,person,FATHER_OF,Asa,person
+Jeroham,person,FATHER_OF,Adaía,person
+Adiel,person,FATHER_OF,Masai,person
+Hasub,person,FATHER_OF,Semaías,person
+Micaía,person,FATHER_OF,Matanías,person
+Semaías,person,FATHER_OF,Obadías,person
+Asa,person,FATHER_OF,Berequías,person
+Ebiasaf,people,FATHER_OF,Coré,person
+Coré,person,FATHER_OF,Salum,person
+Meselemías,person,FATHER_OF,Zacarías,person
+Miclot,person,FATHER_OF,Simeam,people
+Acaz,person,FATHER_OF,Jara,person
+Jara,person,FATHER_OF,Alemet,person
+Sema,person,FATHER_OF,Azaz,person
+Jaroa,person,FATHER_OF,Huri,person
+Micael,person,FATHER_OF,Galaad,person
+Jahdo,person,FATHER_OF,Jesisai,person
+Abdiel,person,FATHER_OF,Ahí,person
+Cus,person,FATHER_OF,Nimrod,person
+Canaán,person,FATHER_OF,Sidón,person
+Arfaxad,person,FATHER_OF,Sela,person
+Sela,person,FATHER_OF,Heber,person
+Zera,person,FATHER_OF,Jobab,person
+Acbor,person,FATHER_OF,Baal-hanán,place
+Natanael,person,FATHER_OF,Semaías,person
+Abiatar,person,FATHER_OF,Ahimelec,person
+Joel,person,FATHER_OF,Hemán,person
+Cusaías,place,FATHER_OF,Etán,person
+Saúl,person,FATHER_OF,Mical,person
+Sobal,person,FATHER_OF,Reaía,person
+Jahat,person,FATHER_OF,Ahumai,person
+COS,people,FATHER_OF,Anub,person
+Seraías,person,FATHER_OF,Joab,person
+Judá,person,FATHER_OF,Sela,person
+Faraón,person,FATHER_OF,Bitia,person
+Amasías,person,FATHER_OF,Josías,person
+Seraías,person,FATHER_OF,Josibías,person
+Simri,person,FATHER_OF,Jedaías,person
+Josibías,person,FATHER_OF,Jehú,person
+Hamedata,person,FATHER_OF,Amán,person
+Simei,person,FATHER_OF,Jair,person
+Jair,person,FATHER_OF,Mardoqueo,person
+Abihail,person,FATHER_OF,Ester,person
+Bicri,person,FATHER_OF,Seba,person
+Abital,person,FATHER_OF,Sefatías,person
+Aja,person,FATHER_OF,Rizpa,person
+Saúl,person,FATHER_OF,Is-boset,person
+Lais,person,FATHER_OF,Paltiel,person
+Gera,person,FATHER_OF,Simei,person
+Eliam,person,FATHER_OF,Betsabé,person
+Jerobaal,person,FATHER_OF,Abimelec,person
+Nahas,person,FATHER_OF,Sobi,person
+Amiel,person,FATHER_OF,Maquir,person
+Nahas,person,FATHER_OF,Abigail,person
+Rehob,person,FATHER_OF,Hadar-ezer,person
+David,person,FATHER_OF,Absalón,person
+David,person,FATHER_OF,Amnón,person
+Simea,person,FATHER_OF,Jonadab,person
+Amiud,person,FATHER_OF,Talmai,person
+Jonatán,person,FATHER_OF,Mefi-boset,person
+Barzilai,person,FATHER_OF,Adriel,person
+Jaare-oregim,person,FATHER_OF,Elhanán,person
+Isaí,people,FATHER_OF,Dijo David,person
+Age,person,FATHER_OF,Sama,person
+Maaca,person,FATHER_OF,Ahasbai,person
+Baana,person,FATHER_OF,Heleb,person
+Sarar,person,FATHER_OF,Ahíam,place
+Ahasbai,person,FATHER_OF,Elifelet,person
+Ahitofel,person,FATHER_OF,Eliam,person
+Natán,person,FATHER_OF,Igal,person
+Abiatar,person,FATHER_OF,Jonatán,person
+Benaía,person,FATHER_OF,Zacarías,person
+Matanías,person,FATHER_OF,Jeiel,person
+Zacarías,person,FATHER_OF,Jahaziel,person
+Silhi,place,FATHER_OF,Azuba,person
+Hanani,person,FATHER_OF,Jehú,person
+Dodava,person,FATHER_OF,Eliezer,person
+Imla,person,FATHER_OF,Micaías,person
+Quenaana,person,FATHER_OF,Sedequías,person
+Jehú,person,FATHER_OF,Joacaz,person
+Joacaz,person,FATHER_OF,Joás,person
+Joás,person,FATHER_OF,Judá,person
+Joás,person,FATHER_OF,Amasías,person
+David,person,FATHER_OF,Jerimot,person
+Maaca,person,FATHER_OF,Abías,person
+Jerimot,person,FATHER_OF,Mahalat,person
+Eliab,person,FATHER_OF,Abihail,person
+Absalón,person,FATHER_OF,Maaca,person
+Nabat,person,FATHER_OF,Jeroboam,person
+Zicri,person,FATHER_OF,Amasías,person
+Ismael,person,FATHER_OF,Zebadías,place
+Zacarías,person,FATHER_OF,Abías,person
+Azarías,person,FATHER_OF,Joel,person
+Abdi,person,FATHER_OF,Cis,person
+Jehalelel,person,FATHER_OF,Azarías,person
+Zima,person,FATHER_OF,Joa,person
+Joa,person,FATHER_OF,Edén,person
+Amós,person,FATHER_OF,Isaías,person
+Azalía,person,FATHER_OF,Safán,place
+Joacaz,person,FATHER_OF,Joa,person
+Safán,place,FATHER_OF,Ahicam,person
+Micaía,person,FATHER_OF,Abdón,person
+Hasra,person,FATHER_OF,Ticva,person
+Ticva,person,FATHER_OF,Salum,person
+Uriel,person,FATHER_OF,Micaías,person
+Imna,person,FATHER_OF,Coré,person
+Sadoc,person,FATHER_OF,Jerusa,person
+Jeroham,person,FATHER_OF,Azarías,person
+Johanán,person,FATHER_OF,Ismael,person
+Obed,person,FATHER_OF,Azarías,person
+Adaía,person,FATHER_OF,Maasías,person
+Zicri,person,FATHER_OF,Elisafat,person
+Joram,person,FATHER_OF,Ocozías,person
+Acab,person,FATHER_OF,Joram,person
+Omri,person,FATHER_OF,Atalía,person
+Joram,person,FATHER_OF,Azarías,person
+Nimsi,person,FATHER_OF,Jehú,person
+Josafat,person,FATHER_OF,ES,people
+Ocozías,person,FATHER_OF,Joás,person
+Joiada,person,FATHER_OF,Zacarías,person
+Simrit,person,FATHER_OF,Jozabad,person
+Remalías,person,FATHER_OF,Peka,person
+Mesilemot,person,FATHER_OF,Berequías,person
+Salum,person,FATHER_OF,Ezequías,person
+Josías,person,FATHER_OF,Joacaz,person
+Beeri,person,FATHER_OF,Oseas,person
+Joás,person,FATHER_OF,Jeroboam,person
+Baasa,person,FATHER_OF,Ela,person
+Ginat,person,FATHER_OF,Tibni,person
+Omri,person,FATHER_OF,Acab,person
+Et-baal,person,FATHER_OF,Jezabel,person
+Safat,person,FATHER_OF,Eliseo,person
+Jeter,person,FATHER_OF,Amasa,person
+Benjamín,person,FATHER_OF,Gera,person
+Maaca,person,FATHER_OF,Aquis,person
+Jeroboam,person,FATHER_OF,Abías,person
+Ahías,person,FATHER_OF,Baasa,person
+Acab,person,FATHER_OF,Ocozías,person
+Hezión,person,FATHER_OF,Tabrimón,person
+Sadoc,person,FATHER_OF,Azarías,person
+Natán,person,FATHER_OF,Azarías,person
+Natán,person,FATHER_OF,Zabud,person
+Abinadab,person,FATHER_OF,El,person
+Manasés,person,FATHER_OF,Jair,person
+Husai,person,FATHER_OF,Baana,person
+Parúa,person,FATHER_OF,Josafat,person
+Ela,person,FATHER_OF,Simei,person
+Salomón,person,FATHER_OF,Tafat,person
+Salomón,person,FATHER_OF,Basemat,person
+Ela,person,FATHER_OF,Oseas,person
+Zacarías,person,FATHER_OF,Abi,person
+Ahicam,person,FATHER_OF,Gedalías,person
+Elisama,person,FATHER_OF,Netanías,person
+Netanías,person,FATHER_OF,Ismael,person
+Carea,person,FATHER_OF,Johanán,person
+Tanhumet,person,FATHER_OF,Seraías,person
+Recab,person,FATHER_OF,Jonadab,person
+Somer,person,FATHER_OF,Jozabad,person
+Amitai,person,FATHER_OF,Jonás,person
+Haruz,person,FATHER_OF,Mesulemet,person
+Nimsi,person,FATHER_OF,Josafat,person
+Josafat,person,FATHER_OF,Jehú,person
+Jeremías,person,FATHER_OF,Hamutal,person
+Josías,person,FATHER_OF,Eliaquim,person
+Pedaías,person,FATHER_OF,Zebuda,person
+Mesulam,person,FATHER_OF,Azalía,person
+Adaía,person,FATHER_OF,Jedida,person
+HARHAS,person,FATHER_OF,Ticva,person
+Micaías,person,FATHER_OF,Acbor,person
+Elnatán,person,FATHER_OF,Nehusta,person
+Amasías,person,FATHER_OF,Azarías,person
+Jeroboam,person,FATHER_OF,Zacarías,person
+Jabes,person,FATHER_OF,Salum,person
+Gadi,person,FATHER_OF,Manahem,person
+Manahem,person,FATHER_OF,Pekaía,person
+Azur,person,FATHER_OF,Jaazanías,person
+Benaía,person,FATHER_OF,Pelatías,person
+Safán,place,FATHER_OF,Jaazanías,person
+Buzi,person,FATHER_OF,Ezequiel,person
+Zohar,person,FATHER_OF,Efrón,person
+Abraham,person,FATHER_OF,Ismael,person
+Betuel,person,FATHER_OF,Rebeca,person
+Taré,person,FATHER_OF,Abram,person
+Harán,person,FATHER_OF,Lot,person
+Harán,person,FATHER_OF,Milca,person
+Arfaxad,person,FATHER_OF,Sala,person
+Sala,person,FATHER_OF,Heber,person
+Nacor,person,FATHER_OF,Labán,person
+Labán,person,FATHER_OF,Raquel,person
+Beeri,person,FATHER_OF,Judit,person
+Elón,person,FATHER_OF,Basemat,person
+Potifera,place,FATHER_OF,Asenat,person
+Hamor,person,FATHER_OF,Siquem,people
+Milca,person,FATHER_OF,Betuel,person
+Betuel,person,FATHER_OF,Soy,person
+Nacor,person,FATHER_OF,Betuel,person
+Betuel,person,FATHER_OF,Labán,person
+Ismael,person,FATHER_OF,Mahalat,person
+Zibeón,person,FATHER_OF,Aná,person
+Elón,person,FATHER_OF,Ada,person
+Aná,person,FATHER_OF,Aholibama,person
+Ismael,person,FATHER_OF,Basemat,person
+Aná,person,FATHER_OF,Esaú,person
+Ada,person,FATHER_OF,Elifaz,person
+Basemat,person,FATHER_OF,Reuel,person
+Esaú,person,FATHER_OF,Elifaz,person
+Esaú,person,FATHER_OF,Reuel,person
+Mehujael,person,FATHER_OF,Metusael,person
+Metusael,person,FATHER_OF,Lamec,person
+Josadac,person,FATHER_OF,Jesúa,person
+Jehiel,person,FATHER_OF,Secanías,person
+Eliasib,person,FATHER_OF,Johanán,person
+Ticva,person,FATHER_OF,Jahazías,person
+Iddo,person,FATHER_OF,Zacarías,person
+Seraías,person,FATHER_OF,Esdras,person
+Zeraías,people,FATHER_OF,Elioenai,person
+Jonatán,person,FATHER_OF,Ebed,person
+Atalías,person,FATHER_OF,Jesaías,person
+Micael,person,FATHER_OF,Zebadías,place
+Jehiel,person,FATHER_OF,Obadías,person
+Bebai,person,FATHER_OF,Zacarías,person
+Hacatán,person,FATHER_OF,Johanán,person
+Leví,person,FATHER_OF,Mahli,person
+Urías,person,FATHER_OF,Meremot,person
+Finees,person,FATHER_OF,Eleazar,person
+Jesúa,person,FATHER_OF,Jozabad,person
+Binúi,person,FATHER_OF,Noadías,place
+COS,people,FATHER_OF,Urías,person
+Mesezabeel,person,FATHER_OF,Berequías,person
+Imri,person,FATHER_OF,Zacur,person
+Berequías,person,FATHER_OF,Mesulam,person
+Baana,person,FATHER_OF,Sadoc,person
+Paseah,person,FATHER_OF,Joiada,person
+Besodías,person,FATHER_OF,Mesulam,person
+Harhaía,person,FATHER_OF,Uziel,person
+Hur,person,FATHER_OF,Refaías,person
+Harumaf,person,FATHER_OF,Jedaías,person
+Hasabnías,place,FATHER_OF,Hatús,person
+Harim,person,FATHER_OF,Malquías,person
+Pahat-moab,people,FATHER_OF,Hasub,person
+Halohes,person,FATHER_OF,Salum,person
+Recab,person,FATHER_OF,Muladar Malquías,place
+Colhoze,person,FATHER_OF,Salum,person
+Azbuc,person,FATHER_OF,Nehemías,person
+Ananías,person,FATHER_OF,Maasías,person
+Jesúa,person,FATHER_OF,Ezer,person
+Zabai,person,FATHER_OF,Baruc,person
+Maasías,person,FATHER_OF,Azarías,person
+Henadad,person,FATHER_OF,Binúi,person
+Faros,person,FATHER_OF,Pedaías,person
+Imer,person,FATHER_OF,Sadoc,person
+Secanías,person,FATHER_OF,Semaías,person
+Selemías,person,FATHER_OF,Hananías,person
+Zacarías,person,FATHER_OF,Uzías,person
+Sefatías,person,FATHER_OF,Amarías,person
+Colhoze,person,FATHER_OF,Baruc,person
+Adaías,person,FATHER_OF,Hazaías,person
+Zacarías,person,FATHER_OF,Joiarib,person
+Uzías,person,FATHER_OF,Ataías,person
+Baruc,person,FATHER_OF,Maasías,person
+Joed,person,FATHER_OF,Mesulam,person
+Colaías,person,FATHER_OF,Pedaías,person
+Itiel,person,FATHER_OF,Maaseías,person
+Pelalías,person,FATHER_OF,Jeroham,person
+Zacarías,person,FATHER_OF,Amsi,person
+Malquías,person,FATHER_OF,Pasur,person
+Azai,person,FATHER_OF,Azareel,person
+Imer,person,FATHER_OF,Mesilemot,person
+Zicri,person,FATHER_OF,Joel,person
+Joiarib,person,FATHER_OF,Jedaías,person
+Hilcías,person,FATHER_OF,Seraías,person
+Jeroham,person,FATHER_OF,Adaías,person
+Azareel,person,FATHER_OF,Amasai,person
+Buni,person,FATHER_OF,Hasabías,person
+Zabdi,person,FATHER_OF,Micaía,person
+Galal,person,FATHER_OF,Samúa,person
+Samúa,person,FATHER_OF,Abda,person
+Hasabías,person,FATHER_OF,Bani,person
+Bani,person,FATHER_OF,Uzi,person
+Mesezabeel,person,FATHER_OF,Petaías,person
+Judá,person,FATHER_OF,Zera,person
+Azanías,person,FATHER_OF,Jesúa,person
+Jesúa,person,FATHER_OF,Joiacim,person
+Joiacim,person,FATHER_OF,Eliasib,person
+Eliasib,person,FATHER_OF,Joiada,person
+Joiada,person,FATHER_OF,Jonatán,person
+Jonatán,person,FATHER_OF,Jadúa,place
+Cadmiel,person,FATHER_OF,Jesúa,person
+Semaías,person,FATHER_OF,Jonatán,person
+Micaías,person,FATHER_OF,Matanías,person
+Asaf,person,FATHER_OF,Zacur,person
+Jonatán,person,FATHER_OF,Zacarías,person
+Mehetabel,person,FATHER_OF,Delaía,person
+Delaía,person,FATHER_OF,Semaías,person
+Ara,person,FATHER_OF,Secanías,person
+Matanías,person,FATHER_OF,Zacur,person
+Zacur,person,FATHER_OF,Hanán,person
+Hacalías,person,FATHER_OF,Nehemías,person
+David,person,FATHER_OF,Predicador,place
+Ahisamac,person,FATHER_OF,Aholiab,person
+Aminadab,person,FATHER_OF,Elisabet,person
+Dibri,person,FATHER_OF,Selomit,person
+Zabdi,person,FATHER_OF,Carmi,person
+Carmi,person,FATHER_OF,Acán,person
+Zera,person,FATHER_OF,Acán,person
+Cenaz,person,FATHER_OF,Otoniel,person
+Gedalías,person,FATHER_OF,Cusi,person
+Ezequías,person,FATHER_OF,Amarías,person
+Cusi,person,FATHER_OF,Sofonías,person
+Sofonías,person,FATHER_OF,Josías,person
+Josadac,person,FATHER_OF,Josué,person
+Iddo,person,FATHER_OF,Berequías,person
+Manasés,person,FATHER_OF,Gersón,person
+Israel,person,FATHER_OF,Dan,person
+Gersón,person,FATHER_OF,Jonatán,person
+Gera,person,FATHER_OF,Aod,person
+Anat,person,FATHER_OF,Samgar,person
+Dodo,person,FATHER_OF,Fúa,person
+Fúa,person,FATHER_OF,Israel Tola,person
+Hilén,person,FATHER_OF,Israel Abdón,person
+Hilel,person,FATHER_OF,Abdón,person
+Joás,person,FATHER_OF,Gedeón,person
+Joás,person,FATHER_OF,Jerobaal,person
+Jerobaal,person,FATHER_OF,Jotam,person
+Abinoam,person,FATHER_OF,Barac,person
+Jaqué,person,FATHER_OF,Agur,person
+Imer,person,FATHER_OF,Pasur,person
+Josías,person,FATHER_OF,Joacim,person
+Habasinías,person,FATHER_OF,Jeremías,person
+Jeremías,person,FATHER_OF,Jaazanías,person
+Salum,person,FATHER_OF,Maasías,person
+Josías,person,FATHER_OF,Sedequías,person
+Joacim,person,FATHER_OF,Conías,person
+Selemías,person,FATHER_OF,Jucal,person
+Maasías,person,FATHER_OF,Sofonías,person
+Hananías,person,FATHER_OF,Selemías,person
+Selemías,person,FATHER_OF,Irías,person
+Safán,place,FATHER_OF,Elasa,person
+Hilcías,person,FATHER_OF,Gemarías,person
+Colaías,person,FATHER_OF,Acab,person
+Maasías,person,FATHER_OF,Sedequías,person
+Semaías,person,FATHER_OF,Urías,person
+Acbor,person,FATHER_OF,Elnatán,person
+Nerías,person,FATHER_OF,Baruc,person
+Osaías,place,FATHER_OF,Jezanías,person
+Matán,person,FATHER_OF,Sefatías,person
+Pasur,person,FATHER_OF,Gedalías,person
+Hamelec,person,FATHER_OF,Malquías,person
+Joacim,person,FATHER_OF,Jeconías,person
+Hilcías,person,FATHER_OF,Jeremías,person
+Josías,person,FATHER_OF,Salum,person
+Osaías,place,FATHER_OF,Azarías,person
+Maasías,person,FATHER_OF,Nerías,person
+Azur,person,FATHER_OF,Hananías,person
+Babilonia,person,FATHER_OF,La,person
+Nerías,person,FATHER_OF,Seraías,person
+Safán,place,FATHER_OF,Gemarías,person
+Selemías,person,FATHER_OF,Netanías,person
+Gemarías,person,FATHER_OF,Micaías,person
+Semaías,person,FATHER_OF,Delaía,person
+Ananías,person,FATHER_OF,Sedequías,person
+Netanías,person,FATHER_OF,Jehudí,person
+Hamelec,person,FATHER_OF,Jerameel,person
+Azriel,person,FATHER_OF,Seraías,person
+Abdeel,person,FATHER_OF,Selemías,person
+Asuero,person,FATHER_OF,Darío,person
+Rubén,person,FATHER_OF,Eliab,person
+Enoc,person,FATHER_OF,Irad,person
+Enós,person,FATHER_OF,Mormón,person
+Mosíah,person,FATHER_OF,Aarón,person
+Mosíah,person,FATHER_OF,Ammón,person
+Jacob,person,FATHER_OF,Benjamín,person
+Jacob,person,FATHER_OF,Enos,person
+Jacob,person,FATHER_OF,Enós,person
+King Benjamin,person,FATHER_OF,Helaman,person
+Alma,person,FATHER_OF,Helamán,person
+Alphaeus,person,FATHER_OF,James,person
+Captain Moroni,person,FATHER_OF,Moronihah,person
+Benjamin,person,FATHER_OF,Mosiah,person
+Benjamín,person,FATHER_OF,Mosíah,person
+Zeniff,person,FATHER_OF,Noé,person
+Elder,person,FATHER_OF,Mark McConkie,person
+Mrs,person,FATHER_OF,Bob Brown,person
+Elder John,person,FATHER_OF,Eudora,person
+Henry Eddington,person,FATHER_OF,Velma Holsinger,person
+Mary,person,FATHER_OF,Bethlehem,concept
+David,person,FATHER_OF,Redeemer,concept
+José,person,FATHER_OF,Efrain,person
+El Padre,person,FATHER_OF,Jesucristo,person
+Nefi,person,FATHER_OF,Jacob,person
+Reid Burgess,person,FATHER_OF,Eres,person
+Mary,person,FATHER_OF,El,person
+Jacob,person,FATHER_OF,Young Joseph,person
+Alma,person,FATHER_OF,Corianton,person
+Willie,person,FATHER_OF,Thomas Michael Wilson,person
+Mary,person,FATHER_OF,Jesus,person
+Alfred Eugene Hemingway,person,FATHER_OF,Stephen Hemingway,person
+John,person,FATHER_OF,Ann,person
+Matilda,person,FATHER_OF,El,person
+Eva,person,FATHER_OF,Toda,person
+Alma,person,FATHER_OF,El,person
+Adán,person,FATHER_OF,Caín,person
+Julie,person,FATHER_OF,La,person
+Solomon,person,FATHER_OF,King Rehoboam,person
+Joseph,person,FATHER_OF,Helen Mar Kimball,person
+Jarom,person,FATHER_OF,Omni,person
+Omni,person,FATHER_OF,Amaron,person
+Chemish,person,FATHER_OF,Abinadom,person
+Mosiah,person,FATHER_OF,Benjamin,person
+Alma,person,FATHER_OF,Shiblon,person
+Elohim,concept,FATHER_OF,Jesus Christ,person
+Freeman Nickerson,person,FATHER_OF,Moses Nickerson,person
+George,person,FATHER_OF,Abraham Cannon,person
+Brigham Young,person,FATHER_OF,Joseph Don Carlos Young,person
+Relief Society,person,FATHER_OF,Zina Presendia Card,person
+George,person,FATHER_OF,Frank Cannon,person
+King Noah,person,FATHER_OF,Limhi,person
+Samuel Marion,person,FATHER_OF,Idaho,people
+President John Taylor,person,FATHER_OF,Ezra Oakley Taylor,person
+Mary,person,FATHER_OF,The Babe,concept
+Righteousness,person,FATHER_OF,Hail,person
+Hadad,person,FATHER_OF,Genubath,person
+Jairo,person,FATHER_OF,La,person
+Heber,person,FATHER_OF,Helen Mar Kimball,person
+Alma,person,FATHER_OF,Coriantón,person
+Remalías,person,FATHER_OF,Israel Samaria Efraín Peka,place
+Tabeel,person,FATHER_OF,El,person
+Jared,person,FATHER_OF,La,person
+María,person,FATHER_OF,Jesús,person
+Jared,person,FATHER_OF,Enoc,person
+Herodes,person,FATHER_OF,Arquelao,person
+Uzziel,person,FATHER_OF,Jonatán,person
+Jonás,person,FATHER_OF,Andrés,person
+Alfeo,person,FATHER_OF,Santiago,person
+Herodías,person,FATHER_OF,Salomé,person
+Jairo Jesús,person,FATHER_OF,La,person
+Brigham Young,person,FATHER_OF,John,person
+JANE,person,FATHER_OF,El,person
+Brigham Young,person,FATHER_OF,Joseph,person
+Martin,person,FATHER_OF,El,person
+Brigham,person,FATHER_OF,Susie,person
+José,person,FATHER_OF,Carmen,person
+Hannah,person,FATHER_OF,Lewis,person
+Lorena,person,FATHER_OF,El,person
+Elizabeth,person,FATHER_OF,Betty McCune,person
+Eva,person,FATHER_OF,La,person
+Jared,person,FATHER_OF,Oríah,person
+David,person,FATHER_OF,El,person
+Sarah Farr,person,FATHER_OF,George Albert Smith,person
+Gordon,person,FATHER_OF,Richard,person
+Jeddy Grant,person,FATHER_OF,Grant,person
+Esaí,person,FATHER_OF,David,person
+Aphek Woodruff,person,FATHER_OF,CONNECTICUT,place
+Faraón,person,FATHER_OF,La,person
+David,person,FATHER_OF,Being,person
+Mary,person,FATHER_OF,John mark,person
+Herod,person,FATHER_OF,Antipas,person
+David,person,FATHER_OF,Ser,person
+Matatías,person,FATHER_OF,Simón,person
+Herodes Agripa,person,FATHER_OF,Era,person
+Herodes,person,FATHER_OF,Antipas,person
+Herodes,person,FATHER_OF,Herodes Agripa,person
+José,person,FATHER_OF,Era,person
+Susa Young Gates,person,FATHER_OF,Leah,person
+Ferguson,person,FATHER_OF,Catherine Heathen,person
+Sarah Ann Libby Smith,person,FATHER_OF,John Henry,person
+Joseph,person,FATHER_OF,Joseph Smith Horne,person
+Sarah,person,FATHER_OF,Augusta Cleveland,place
+Robert,person,FATHER_OF,William Douglas,person
+Jethro,person,FATHER_OF,Zipporah,person
+Jean,person,FATHER_OF,Gérald Caussé,person
+Swedish,people,FATHER_OF,Renlund,person
+Anna Widtsoe,person,FATHER_OF,Widtsoe,person
+Ruth,person,FATHER_OF,Mercy Opar,place
+JOSÉ Smith,person,FATHER_OF,Joseph III,person
+WILLIAM,person,FATHER_OF,El,person
+WILLIAM,person,FATHER_OF,La,person
+José,person,FATHER_OF,Joseph III,person
+JANE,person,FATHER_OF,Silas,person
+Theresa,person,FATHER_OF,Athelia Call Sears,person
+PETER WHITMER,person,FATHER_OF,Elizabeth Ann Whitmer,person
+PETER WHITMER,person,FATHER_OF,Catherine Whitmer,person
+Joseph,person,FATHER_OF,VERMONT,person
+William Hendricks,person,FATHER_OF,Martha Hendricks Aylworth,person
+Alphonsine,person,FATHER_OF,El,person
+Choc,person,FATHER_OF,El,person
+Absalom,person,FATHER_OF,Tamar,person
+Egyptus,person,FATHER_OF,Pharaoh,person
+Abraham,person,FATHER_OF,Midian,person
+Pharaoh,person,FATHER_OF,Bathia,people
+Ahab,person,FATHER_OF,Athaliah,person
+Gilead,person,FATHER_OF,Hepher,person
+Benjamin,person,FATHER_OF,Becher,person
+Amarpel,person,FATHER_OF,Khammurabi,person
+Nahash,person,FATHER_OF,Shobi Captor,person
+Shebaniah,person,FATHER_OF,Haggai,person
+Kenez,person,FATHER_OF,Jephunneh,person
+Nabopolassar,person,FATHER_OF,Nebuchadnezzar,person
+Nahor,person,FATHER_OF,Chesed Gain,person
+Lagus,people,FATHER_OF,Ptolemy,people
+Cyrus,person,FATHER_OF,Cambyses,person
+Eliphaz,person,FATHER_OF,Omar Eloquent,person
+Hystaspes,person,FATHER_OF,Darius,person
+Uriel,person,FATHER_OF,Michaiah,person
+Rehoboam,person,FATHER_OF,Judah,person
+Abiramu,people,FATHER_OF,Amorite,person
+Nahor,person,FATHER_OF,Rebekah,person
+Beeri,person,FATHER_OF,Judith,person
+Hebron,person,FATHER_OF,Levite,person
+Elkanah,person,FATHER_OF,Levite,person
+Hilkiah,person,FATHER_OF,Levite,person
+Lot,person,FATHER_OF,Ben-ammi,person
+Lot,person,FATHER_OF,Ammon,person
+Shem,person,FATHER_OF,Aram,person
+Esarhaddon,person,FATHER_OF,Assur-bani-pal,place
+Kohat,people,FATHER_OF,Amram,person
+Binea,person,FATHER_OF,Benjamite,person
+Eliadah,person,FATHER_OF,Rezon Prince,person
+Simon,person,FATHER_OF,Rufus Red,person
+Meshullam,person,FATHER_OF,Jahzerah Returner,person
+Jehoshaphat,person,FATHER_OF,Israel,person
+Shelemiah,person,FATHER_OF,Jehucal Able,person
+Nethaniah,person,FATHER_OF,Jew,person
+Nebuchadnezzar,person,FATHER_OF,Evil-merodach,person
+Ethbaal,person,FATHER_OF,Jezebel Chaste,person
+Ebed,person,FATHER_OF,Gaal Loathing,person
+Hadad,person,FATHER_OF,Genubath Theft,person
+Nathan,person,FATHER_OF,Zabud Gift,person
+Salathiel,person,FATHER_OF,Babylon,concept
+Uzziel,person,FATHER_OF,Levite,person
+Herod Agrippa,person,FATHER_OF,Drusilla,person
+Simon,person,FATHER_OF,Mariamne,person
+Herodias,person,FATHER_OF,Salome,person
+Josedek,place,FATHER_OF,Joshua,person
+Beeri,person,FATHER_OF,Hosea Salvation,person
+Pallu,person,FATHER_OF,Reubenite,person
+Ahithophel,person,FATHER_OF,Gilonite,person
+Shemaiah,person,FATHER_OF,Neariah,person
+Seth,person,FATHER_OF,Enos Man,person
+Elon,person,FATHER_OF,Bashemath,person
+Ishmael,person,FATHER_OF,Mahalath,person
+Chelub,person,FATHER_OF,Jehovah,person
+Ginath,person,FATHER_OF,Jehovah,person
+Esau,person,FATHER_OF,Reuel,person
+Nimshi,person,FATHER_OF,Jehoshaphat,person
+Jehiel,person,FATHER_OF,Benjamite,person
+Achbor,person,FATHER_OF,Edom,person
+Abinoam,person,FATHER_OF,Barak Lightning,person
+Uri,person,FATHER_OF,Judah,person
+Abiel,person,FATHER_OF,Benjamite,person
+Izhar,person,FATHER_OF,Levite,person
+Asaph,person,FATHER_OF,Korahites,person
+Heman,person,FATHER_OF,Levite,person
+Chemosh-Gad,people,FATHER_OF,Moab,person
+Lot,person,FATHER_OF,Moab,person
+Nebuchadnezzar,person,FATHER_OF,Nitocris,person
+Asher,person,FATHER_OF,Sarah,person
+Kish,person,FATHER_OF,Israel,person
+Micah,person,FATHER_OF,Kohathite,person
+Shemida,person,FATHER_OF,Gileadite,person
+Jehoram,person,FATHER_OF,Benjamite,person
+Moses,person,FATHER_OF,Eliezer,person
+Nethaneel,person,FATHER_OF,Levite,person
+Mehetabeel,person,FATHER_OF,Delaiah,person
+Gilead,person,FATHER_OF,Shemidah Shemida,person
+Gilead,person,FATHER_OF,Shemida,person
+Hezron,person,FATHER_OF,Jerahmeel,person
+Zacchur,person,FATHER_OF,Simeonite,person
+Jahath,person,FATHER_OF,Gershonite Levite,person
+Elpaal,person,FATHER_OF,Shema,person
+Jaaziah,person,FATHER_OF,Merarite Levite,person
+Gershon,person,FATHER_OF,Shubael Shebuel,person
+Heman,person,FATHER_OF,Shebuel,person
+Numb,person,FATHER_OF,Joshua,person
+Hosah,person,FATHER_OF,Shimri,person
+Jediael,person,FATHER_OF,Bilhan,person
+Shemaiah,person,FATHER_OF,Levite,person
+Jeduthun,person,FATHER_OF,Obed-edom,person
+Malchiah,person,FATHER_OF,Pushur,person
+Zerubbabel,person,FATHER_OF,Hananiah,person
+Xerxes,person,FATHER_OF,Artaxerxes,person
+Rameses II,person,FATHER_OF,Thouoris,person
+Judah,person,FATHER_OF,Parez,people
+Gideon,person,FATHER_OF,Abimelech,person
+Mephibosheth,person,FATHER_OF,Micah,person
+Lagus,people,FATHER_OF,Soter,person
+Issachar,person,FATHER_OF,Phuvah,person
+Issachar,person,FATHER_OF,Puvah,people
+Gideon,person,FATHER_OF,Jehiel,person
+Eliab,person,FATHER_OF,Reubenite,person
+Tamai,people,FATHER_OF,Maachah,person
+Shimhi,person,FATHER_OF,Benjamite,person
+Beriah,person,FATHER_OF,Benjamites,person
+Jotham,person,FATHER_OF,Judah,person
+Jehoram,person,FATHER_OF,Judah,person
+Benjamin,person,FATHER_OF,Beecher,person
+Jehoadah,person,FATHER_OF,Benjamite,person
+Philip,person,FATHER_OF,Great,person
+Shobal,person,FATHER_OF,Horite,person
+Helem,person,FATHER_OF,Asherite,person
+Hadlai,person,FATHER_OF,Ephraim,person
+Shemidah,place,FATHER_OF,Manassite,person
+Phabi,place,FATHER_OF,Ismael,person
+Beriah,person,FATHER_OF,Benjamite,person
+Dishan,person,FATHER_OF,Horite,person
+Xerxces,place,FATHER_OF,Longimanus,people
+Berechiah,person,FATHER_OF,Levite,person
+Japhet,person,FATHER_OF,Gomer,person
+Gilead,person,FATHER_OF,Asriel,person
+Julia,person,FATHER_OF,Atia,person
+Jehalelel,person,FATHER_OF,Merarite,person
+Zair,person,FATHER_OF,Elhanan,person
+Merari,person,FATHER_OF,Mahali,place
+Manasseh,person,FATHER_OF,Shemidah,place
+Micah,person,FATHER_OF,Reubenite,person
+Judah,person,FATHER_OF,Shubal,people
+Tahath,person,FATHER_OF,Kohathite Levite,person
+Shimei,person,FATHER_OF,Zizah,person
+Bani,person,FATHER_OF,Levite,person
+Sirach,person,FATHER_OF,Wisdom of Jesus,people
+Jeremiah,person,FATHER_OF,Rechabite,person
+Gershom,person,FATHER_OF,Libni,person
+Laadan,person,FATHER_OF,Shimei,person
+Shelomoth,person,FATHER_OF,Levite,person
+Kish,person,FATHER_OF,Benjamite,person
+Kohath,person,FATHER_OF,Hebron,person
+Alpheus,person,FATHER_OF,James,person
+Zerah,person,FATHER_OF,Gershonite Levite,person
+Asa,person,FATHER_OF,Judah,person
+Josibiah,person,FATHER_OF,Simeonite,person
+Shamer,person,FATHER_OF,Asher,person
+Gilead,person,FATHER_OF,Gileadite,person
+Mahli,person,FATHER_OF,Kish,person
+Bilhah,person,FATHER_OF,Benjamite,person
+Zeimmah,people,FATHER_OF,Gershonite,people
+Shemaah,person,FATHER_OF,Benjamite,person
+Pedaiah,person,FATHER_OF,Benjamite,person
+Jehiel,person,FATHER_OF,David,person
+Potipherah,person,FATHER_OF,Asenath,person
+Judah,person,FATHER_OF,Christ,concept
+Mattathias,person,FATHER_OF,Another,person
+Jahdai,person,FATHER_OF,Judah,person
+Jeshua,person,FATHER_OF,Levite,person
+Jeduthun,person,FATHER_OF,Levite,person
+Levi,person,FATHER_OF,Gershom,person
+Gilead,person,FATHER_OF,Zepher,people
+Iddo,person,FATHER_OF,Gershonite Levite,person
+Elkanah,person,FATHER_OF,Kohathite Levite,person
+Heber,person,FATHER_OF,Hotham,person
+Halohesh,person,FATHER_OF,Halohesh Shallum,person
+Bunni,person,FATHER_OF,Another Levite,person
+Mattaniah,person,FATHER_OF,Levite,person
+Kohath-,person,FATHER_OF,Hebron,person
+Azariah,person,FATHER_OF,Judah,person
+Herod Philip,person,FATHER_OF,Salome,person
+Amzi,person,FATHER_OF,Merarite Levite,person
+Lotan,person,FATHER_OF,Horite,person
+Heber,person,FATHER_OF,Asher,person
+Joktan,person,FATHER_OF,Obal,person
+Sirach,person,FATHER_OF,The Wisdom of Jesus,concept
+Joah,person,FATHER_OF,Gershonite Levite,person
+Jephuneh,place,FATHER_OF,Caleb,person
+Mahli,person,FATHER_OF,Merarite Levite,person
+Nahath,person,FATHER_OF,Kohathite Levite,person
+Hushim,person,FATHER_OF,Benjamite,person
+Shimei,person,FATHER_OF,Abihail,person
+Helem,person,FATHER_OF,Asher,person
+Bela,person,FATHER_OF,Benjamite,person
+Appaim,person,FATHER_OF,Judah,person
+Jehohanan,person,FATHER_OF,Judah,person
+Hammoleketh,person,FATHER_OF,Jordan,concept
+Ribai,person,FATHER_OF,Benjamite,person
+Jesaiah,person,FATHER_OF,Benjamite,person
+Ishmael,person,FATHER_OF,Jetur,person
+Ephraim,person,FATHER_OF,Tahan,person
+Micah,person,FATHER_OF,Tahreah,people
+Lameth,person,FATHER_OF,Jabal,person
+Antipater,person,FATHER_OF,Cassander,person
+Zophai,person,FATHER_OF,Kohathite Levite,person
+Binnui,person,FATHER_OF,Levite,person
+Ephraim,person,FATHER_OF,Becher,person
+Gideon,person,FATHER_OF,Jotham,person
+Jediael,person,FATHER_OF,Benjamite,person
+Henadad,person,FATHER_OF,Levite,person
+Hezekiah,person,FATHER_OF,Judah,person
+Menan,person,FATHER_OF,Melea,person
+Shabaraim,person,FATHER_OF,Benjamite,person
+Elpaal,person,FATHER_OF,Benjamite,person
+Merari,person,FATHER_OF,Moli Mahli,person
+Kohath,person,FATHER_OF,Merari,person
+Lamech,person,FATHER_OF,Jubal,person
+Japhet,person,FATHER_OF,Javan,person
+Tiber,person,FATHER_OF,Tiberius,person
+Raguel,person,FATHER_OF,Sarah,person
+Nethanel,person,FATHER_OF,David,person
+Pyrrhus,person,FATHER_OF,Sopater,person
+Caleb,person,FATHER_OF,Achsah,person
+John,person,FATHER_OF,Simon,person
+Pharaoh,person,FATHER_OF,Bithiah,person
+Antiochus,person,FATHER_OF,Cleopatra,person
+Micaiah,person,FATHER_OF,Josiah,person
+Abishur,person,FATHER_OF,Judahite,person
+Jerahmeel,person,FATHER_OF,Ahijah,person
+Amarias,person,FATHER_OF,Ezra,person
+Mary,person,FATHER_OF,Little,person
+Becher,person,FATHER_OF,Benjamite,person
+Kudur-Mabug,person,FATHER_OF,Larsa,person
+Sin,person,FATHER_OF,Nineveh,place
+Ishme-Dagan,people,FATHER_OF,Shamshi-Adad,people
+Sargon,person,FATHER_OF,Naram-Sin,person
+Necho,person,FATHER_OF,Psammetichus,person
+Nahor,person,FATHER_OF,Bethnel,people
+Rechab,person,FATHER_OF,Malchijah,person
+Eliada,person,FATHER_OF,Rezon,person
+Libit Urra,person,FATHER_OF,Asir-Ramman,person
+Zehedee,people,FATHER_OF,James,person
+Zebedee,person,FATHER_OF,Apostle James,person
+SIR,people,FATHER_OF,Jesus,person
+Joseph,person,FATHER_OF,Galilee,concept
+Jezebel,person,FATHER_OF,Athaliah,person
+Josedek,place,FATHER_OF,Jesus,person
+Zebedee,person,FATHER_OF,Apostle,concept
+Amittai,person,FATHER_OF,Analysis Jonah,person
+Kenaz,person,FATHER_OF,KENIZZITE,person
+Abubus,person,FATHER_OF,Ptolemy,people
+James,person,FATHER_OF,Judas,person
+Beeri,person,FATHER_OF,Esau,person
+Gabrias,person,FATHER_OF,Gabael,person
+Michael,person,FATHER_OF,Gadite,person
+Jahaziel,person,FATHER_OF,Shecaniah,person
+Zabdi,person,FATHER_OF,Achan,person
+Bitiliashu,people,FATHER_OF,Agum,person
+Shecaniah,person,FATHER_OF,Hattush,person
+Hur,person,FATHER_OF,Ezer,person
+Gamaliel,person,FATHER_OF,Simeon,person
+Hap,person,FATHER_OF,Amenhotp,person
+Jekamiah,person,FATHER_OF,Judah,person
+Potiphera,person,FATHER_OF,Asenath,person
+Bathsheba,person,FATHER_OF,Solomon,person
+Ptolemy,people,FATHER_OF,Lysanias,person
+Aristobulus,person,FATHER_OF,Alexander,person
+Herod,person,FATHER_OF,Herod Antipas,person
+Merari,person,FATHER_OF,Judith,person
+Balas,person,FATHER_OF,Antiochus,person
+Gnaens Domitius Ahenobarbus,person,FATHER_OF,Lucius Domitius Ahenobarbus,person
+Laish,person,FATHER_OF,Paltiel,person
+Mahseiah,person,FATHER_OF,Neriah,person
+Jediael,person,FATHER_OF,Benjamin,person
+Zerah,person,FATHER_OF,Jobah,place
+Shilhi,person,FATHER_OF,Azubah,person
+Aretas,person,FATHER_OF,Josephus,person
+David,person,FATHER_OF,Messiah,concept
+Joseph,person,FATHER_OF,Messiah,concept
+Hagri,person,FATHER_OF,Mibhar,person
+Aram,person,FATHER_OF,Uz,person
+Oliver,person,FATHER_OF,Lorenzo Snow,person
+Charles Merrill,person,FATHER_OF,Charlotte,person
+Eli Harvey,people,FATHER_OF,LEONIDAS THOMAS,person
+CHARLES,person,FATHER_OF,John Archibald,person
+Ana,person,FATHER_OF,Cuando,person
+Jonathan,person,FATHER_OF,Sam Parker,person
+Barachias,person,FATHER_OF,Zacharias,person
+Hyrum,person,FATHER_OF,Martha ann,person
+Don Carlos Smith,person,FATHER_OF,Josephine Donna Smith,person
+Don Carlos Smith,person,FATHER_OF,Donna Smith,person
+Samuel,person,FATHER_OF,Samuel Harrison Bailey Smith,person
+Abraham,person,FATHER_OF,Elizabeth Hoagland,person
+David Taylor,person,FATHER_OF,Robert Blashel Thompson Taylor,person
+Mercy Rachel Fielding Thompson,person,FATHER_OF,Mary Jane Thompson,person
+Mary Jane Thompson,person,FATHER_OF,Robert Blashel Thompson Taylor,person
+JOHN SMITH,person,FATHER_OF,Lucy Smith,person
+Abraham Owen Smoot,person,FATHER_OF,Margaret Thompson Smoot,person
+Joseph,person,FATHER_OF,Married Zina Smith,person
+Joseph,person,FATHER_OF,Mary Sophronia Smith,person
+Joseph,person,FATHER_OF,Mercy Josephine,person
+William Pierce,person,FATHER_OF,Hannah Eveline Pierce,person
+Hyrum Smith,person,FATHER_OF,Sarah Smith,person
+JOHN SMITH,person,FATHER_OF,Hyrum Fisher Smith,person
+William Pierce,person,FATHER_OF,Hyrum Robert Pierce,person
+Joseph Fielding,person,FATHER_OF,Hannah Alice Fielding,person
+Mary Schwartz,person,FATHER_OF,Royal Grant Smith,people
+Jerusha Smith,person,FATHER_OF,Eli Thomas Pierce,people
+Sarah Smith Griffin,person,FATHER_OF,Ernest Adelbert Griffin,person
+Joseph,person,FATHER_OF,Emma Smith,person
+Willard Richards Smith,person,FATHER_OF,Willard Grant Smith,person
+William Jasper Harris,person,FATHER_OF,Franklin Hill Harris,person
+Zina Christine Harris,person,FATHER_OF,Sarah Rachel Furner,person
+Emily Louie Shurtliff,person,FATHER_OF,Josephine Smith,person
+George Albert Smith,person,FATHER_OF,Margaret West Smith,person
+Joseph,person,FATHER_OF,Andrew Kimball Smith,person
+Martha ann,person,FATHER_OF,Sarah Lovina Harris,person
+Joseph,person,FATHER_OF,David Asael Smith,person
+Joseph,person,FATHER_OF,Franklin Richards Smith,person
+Joseph,person,FATHER_OF,Martha Smith,person
+Joseph Nelson,person,FATHER_OF,Joseph Smith Nelson,person
+Julina Clarissa Smith,person,FATHER_OF,Luacine Peery,person
+Joseph,person,FATHER_OF,Alice Smith,person
+Mary Emily Harris,person,FATHER_OF,Mary Elizabeth Corbett,person
+Joseph Fielding Smith Jr,person,FATHER_OF,Julina Smith,person
+Jessie Lena Freckleton,person,FATHER_OF,Delia Jessie Harris,person
+Emily Angelina Hinckley,person,FATHER_OF,Emmett Gordon Holbrook,person
+Mary Emily Harris,person,FATHER_OF,Walter Harris Corbett,person
+Hyrum Smith Harris,person,FATHER_OF,Mercy Rachel Harris,person
+Joseph,person,FATHER_OF,Edna Melissa Smith,person
+Jerusha Smith,person,FATHER_OF,William Pierce,person
+Sarah Smith,person,FATHER_OF,Alice Lovina Griffin,person
+Mary Jane Smith,person,FATHER_OF,George Washington Gee II,person
+Heber,person,FATHER_OF,Lydia Holmes Kimball,person
+Mary Fielding Lupton,person,FATHER_OF,Ann Jane Lupton,person
+Edna Lambson,person,FATHER_OF,Ruth Smith,person
+Mary Fielding Smith,person,FATHER_OF,Smith Harris,person
+Mary Fielding Smith,person,FATHER_OF,Martha Ann Harris,person
+Joseph,person,FATHER_OF,Martha Ann Baby Zina,person
+David,person,FATHER_OF,King,person
+Timaeus,person,FATHER_OF,Bartimaeus,person
+Tim,person,FATHER_OF,Bartimaeus,person
+Zebedee,person,FATHER_OF,Jacob,person
+Alphaeus,person,FATHER_OF,Jacob,person
+President John Taylor,person,FATHER_OF,Taylor,person
+Isaac Hale,person,FATHER_OF,Alva Hale,person
+Mary Ann Stearns Pratt,person,FATHER_OF,Mary Ann Stearns Winters,person
+Akiba,place,FATHER_OF,Isi,person
+Vettenos,person,FATHER_OF,Theodotos,place
+James,person,FATHER_OF,Seleam Haren,people
+John,person,FATHER_OF,Margaret Ann Stewart,person
+Thomas,person,FATHER_OF,Charles Alma Moulton,person
+Thomas,person,FATHER_OF,Charles Thornton McNeil,person
+Edward,person,FATHER_OF,Elizabeth Ann Farmer,person
+James,person,FATHER_OF,Margaret Kay,person
+WILLIAM,person,FATHER_OF,Lark,person
+WILLIAM,person,FATHER_OF,Jane James,person
+Sister Ruvinia Leason,people,FATHER_OF,Leason,person
+David,person,FATHER_OF,Jesus,person
+Eli,person,FATHER_OF,Joseph,person
+Jannai,person,FATHER_OF,Melchi,person
+Amos,person,FATHER_OF,Mattathias,person
+Mattathias,person,FATHER_OF,Maath,person
+Josech,person,FATHER_OF,Semein,person
+Rhesa,person,FATHER_OF,Johannan,place
+Shealthiel,person,FATHER_OF,Zerubbabel,person
+Addi,person,FATHER_OF,Melchi,person
+Elmadam,person,FATHER_OF,Cosam,person
+Eliezer,person,FATHER_OF,Joshua,person
+Judah,person,FATHER_OF,Simeon,person
+Jonam,person,FATHER_OF,Joseph,person
+Admin,person,FATHER_OF,Aminadab,person
+Hezron,person,FATHER_OF,Arni,person
+Judah,person,FATHER_OF,Peres,person
+Ragau,person,FATHER_OF,Seruch,people
+Arphaxad,person,FATHER_OF,Cainan,person
+Enoch,person,FATHER_OF,Methusalah,people
+Mahaleel,place,FATHER_OF,Jared,person
+Brigham Young,person,FATHER_OF,Zina Young,person
+Salt Lake City,place,FATHER_OF,Carrie Grant,person
+Elisha,person,FATHER_OF,Plymouth Township,place
+Newel,person,FATHER_OF,Horace Whitney,person
+Aeneas,person,FATHER_OF,Iulus,people
+Mattathias,person,FATHER_OF,Jonathan,person
+Jehoiada,person,FATHER_OF,Zacharias,person
+Herod,person,FATHER_OF,Archelaus,person
+Herod,person,FATHER_OF,Herod Philip,person
+ZACHARIAH,person,FATHER_OF,John,person
+Abbas,person,FATHER_OF,Bar-Abbas,people
+Abia,person,FATHER_OF,Asaph,person
+Asaph,person,FATHER_OF,JOSAPHAT,people
+Manasses,person,FATHER_OF,Amos,person
+Amos,person,FATHER_OF,Josias,person
+David,person,FATHER_OF,Joseph,person
+Jonah,person,FATHER_OF,Simon,person
+Alexander Hale Smith,person,FATHER_OF,Smith,person
+MR,place,FATHER_OF,Irene,person
+Elder Eaton,person,FATHER_OF,Eaton,person
+Simon,person,FATHER_OF,Alexander,person
+Leto,person,FATHER_OF,Apollo,person
+Zeus,person,FATHER_OF,Apollo,person
+Mahalath,person,FATHER_OF,Igrath,place
+Ananus,place,FATHER_OF,Jesus,person
+David,person,FATHER_OF,Christ,concept
+Mormon,person,FATHER_OF,Joseph Kilburn Bent,person
+Henry Enon Phelps,person,FATHER_OF,Phelps,person
+Bishop Edward Partridge,person,FATHER_OF,Emily Partridge,person
+John CORRILL,person,FATHER_OF,Nancy Corrill,person
+Robert,person,FATHER_OF,Samuel Smith Samuel,person
+John Curtis,person,FATHER_OF,Rebecca,person
+Zacheus Gould,person,FATHER_OF,Priscilla,person
+John Mack,person,FATHER_OF,Ebenezer,person
+Ebenezer Mack,person,FATHER_OF,Joseph Smith Solomon,person
+Orlando,person,FATHER_OF,Sarah,person
+Aaron Huntly,person,FATHER_OF,Hannah,person
+Nathan Gates,person,FATHER_OF,Lydia Gates,people
+Asael,person,FATHER_OF,prophet Joseph Smith,person
+SOLOMON MACK,person,FATHER_OF,Lucy Mack,person
+Patriarch Hyrum Smith,people,FATHER_OF,Smith,person
+Daniel,person,FATHER_OF,Wells,person
+JOSEPH KNIGHT,person,FATHER_OF,Newel Knight,person
+JOHN SMITH,person,FATHER_OF,George Albert Smith,person
+John Chrtis,person,FATHER_OF,Rebecca Curtis,person
+Isaac Hale,person,FATHER_OF,Emma Hale,person
+Joshua Grant,person,FATHER_OF,Caroline Grant,person
+Willard,person,FATHER_OF,Rhoda Ann,person
+John Quincy Adams,person,FATHER_OF,Adams,person
+Robert,person,FATHER_OF,Samuel,person
+Jacob,person,FATHER_OF,Amos,person
+Anthony Blackburn,person,FATHER_OF,Abner Blackburn,person
+Joshua,person,FATHER_OF,Caroline,person
+Gardner,person,FATHER_OF,Levira Clark,person
+Elder Rigdon,person,FATHER_OF,Robinson,person
+Thomas,person,FATHER_OF,Marsh,person
+Frederick,person,FATHER_OF,Swain Williams,person
+John,person,FATHER_OF,Smith,person
+ELIAS HIGBEE,person,FATHER_OF,Higbee,person
+Dominicus Carter,person,FATHER_OF,Sarah Emily,person
+Asa Wright,person,FATHER_OF,John Wright,person
+Warren Smith,person,FATHER_OF,Sardius Smith,person
+Elder Brigham Young,person,FATHER_OF,Mary Ann Young,person
+Mattathias,person,FATHER_OF,Judas,person
+Nimaquiche,person,FATHER_OF,Acxopil,person
+Solomon Spaulding,person,FATHER_OF,McKenstry,person
+Jonas,person,FATHER_OF,Simon Peter,person
+Hyrum Smith,person,FATHER_OF,Smith,person
+Odin,people,FATHER_OF,Balder,person
+Atlas,person,FATHER_OF,Maia,person
+MARS,people,FATHER_OF,Hermione,people
+Venus,person,FATHER_OF,Cupid,people
+Kahtan,people,FATHER_OF,Yarab,person
+Eber,person,FATHER_OF,Joctan,person
+Henry VIII,person,FATHER_OF,Edward VI,person
+Aaron Frost,person,FATHER_OF,Mary Ann Frost,person
+John Clark,person,FATHER_OF,Elizabeth Clark,person
+Christopher,person,FATHER_OF,Obadiah Pratt,person
+Obadiah,person,FATHER_OF,Jared Pratt,person
+Samuel Carpenter,person,FATHER_OF,Mary Carpenter,person
+Samuel Dickison,person,FATHER_OF,Charity Dickison,person
+Mathew Woodruff,person,FATHER_OF,John,person
+Hyrum Smith,person,FATHER_OF,JOHN SMITH,person
+Lorenzo,person,FATHER_OF,Sobieski Young,person
+Jona,person,FATHER_OF,Andrew,person
+Alpheus,person,FATHER_OF,Levi,person
+Uzziel,person,FATHER_OF,Jonathan,person
+Jairus,person,FATHER_OF,Nain,person
+Cleophas,person,FATHER_OF,Simeon,person
+Gorman,person,FATHER_OF,Blatand,people
+Zohah,people,FATHER_OF,Ephron,person
+King Zedekiah,person,FATHER_OF,Mulek,person
+Willard,person,FATHER_OF,Heber John,person
+Solomon,person,FATHER_OF,Lucy,person
+Hyrum,person,FATHER_OF,Hyrum Smith,person
+Jacob,person,FATHER_OF,Ann Standley,person
+Asa,person,FATHER_OF,Miriam Works,person
+Eliphalet,person,FATHER_OF,Huldah Chapman,person
+Ezekiel Johnson,person,FATHER_OF,Susan Johnson,person
+John,person,FATHER_OF,Chidester,person
+Chandler Holbrook,person,FATHER_OF,Diana Holbrook,person
+Joseph Holbrook,person,FATHER_OF,Sarah Lucretia Holbrook,person
+Joseph Holbrook,person,FATHER_OF,Charlotte Holbrook,person
+Zera Pulsipher,person,FATHER_OF,Sarah Pulsipher,person
+John,person,FATHER_OF,Eunice Chidester,person
+MR,place,FATHER_OF,Pittsburg,place
+Osoroeris,person,FATHER_OF,Horos,person
+David,person,FATHER_OF,Jane Neyman,person
+Sanford Porter,person,FATHER_OF,Clark,person
+Samuel Lathrop,person,FATHER_OF,ABIGAL,people
+Gioras,people,FATHER_OF,Simon,person
+Jupiter Amnion,people,FATHER_OF,King Alexander,person
+Jared,person,FATHER_OF,Now,period
+Jared,person,FATHER_OF,Baptist,people
+Brigham Young,person,FATHER_OF,Zina,person
+Orson Spencer,person,FATHER_OF,George,person
+Thomas,person,FATHER_OF,Emily Hill Woodmansee,person
+President,place,FATHER_OF,Smoot,person
+Heber,person,FATHER_OF,Helen Mar Whitney,person
+Brigham Young,person,FATHER_OF,WILLIAMS,person
+President,place,FATHER_OF,Wells,person
+Lehi,person,FATHER_OF,Nephi Nephi,people
+PETER WHITMER,person,FATHER_OF,David Whitmer,person
+Mahujael,person,FATHER_OF,Mathusael,place
+Mathusael,place,FATHER_OF,Lamech,person
+Zebedee Salome,person,FATHER_OF,James,person
+Newell Knight,person,FATHER_OF,Lydia Knight,person
+Joseph,person,FATHER_OF,Joseph Smith,person
+Jochai,place,FATHER_OF,Simon,person
+Benjamin,person,FATHER_OF,King Mosiah,person
+Lamech,person,FATHER_OF,Deluge,person
+Wilford Woodruff,person,FATHER_OF,Phoebe Amelia Woodruff,person
+Lorenzo Snow,person,FATHER_OF,Milton Snow,person
+Dan Delos Bradshaw,person,FATHER_OF,Barbara Bradshaw Smith,person
+Samuel Marion Lee,person,FATHER_OF,Idaho,people
+Mizraim,person,FATHER_OF,Casluhim,person
+Heber,person,FATHER_OF,Abraham Kimball,person
+David,person,FATHER_OF,King Solomon,person
+Julian Rojas,person,FATHER_OF,Aniceto Rojas,person
+Spanish,person,FATHER_OF,France,person
+CHARLES,person,FATHER_OF,Zina Young Card,person
+Israel,person,FATHER_OF,Egypt,concept
+Peter,person,FATHER_OF,Aberdeenshire,place
+Lehi,person,FATHER_OF,Mormón,person
+George,person,FATHER_OF,Utah,person
+Paul Vickery,person,FATHER_OF,David Todd Christofferson,person
+Elohim,concept,FATHER_OF,Jesucristo,person
+Fiorella,person,FATHER_OF,Soy,person
+Daniel,person,FATHER_OF,Cuando,person
+Romeo,person,FATHER_OF,El,person
+Caín,person,FATHER_OF,Enoc,person
+Eber,person,FATHER_OF,Joktan,person
+Sabannus,people,FATHER_OF,Moeth,person
+Bathia,people,FATHER_OF,Moses,person
+Hyrcanus,person,FATHER_OF,Alexander Janneus,person
+Josaphias,person,FATHER_OF,SALIMOTH,person
+Hassenuah,person,FATHER_OF,Hodaviah,person
+Hassenuah,person,FATHER_OF,Judah,person
+Jesus,person,FATHER_OF,Jeddu,place
+Sennacherib,person,FATHER_OF,Ashurnadin-shum,person
+Hilkiah,person,FATHER_OF,AS,people
+Shaul,person,FATHER_OF,Simeon,person
+Col-hozeh,person,FATHER_OF,Shallum,person
+Shammah,person,FATHER_OF,Jonathan,person
+Ela,person,FATHER_OF,Shimei,person
+Abraham,person,FATHER_OF,Jokshan,person
+Jezelus,person,FATHER_OF,Sechenias,person
+Gilead,person,FATHER_OF,Shechem,person
+Helem,person,FATHER_OF,An Asherite,person
+Josiphiah,person,FATHER_OF,Shelomith,person
+South,concept,FATHER_OF,Jahath,person
+Gog,person,FATHER_OF,Reuben,person
+Amram,person,FATHER_OF,Levite,person
+Maacah,person,FATHER_OF,Shephatiah,person
+Cleopas,person,FATHER_OF,Simon,person
+Cleopas,person,FATHER_OF,Simon Nathanael,person
+Simon,person,FATHER_OF,Jesus,person
+Eleazar,person,FATHER_OF,Jesus,person
+Onias II,people,FATHER_OF,Simon II,person
+Joseph,person,FATHER_OF,Hyrcanus,person
+Enlil,person,FATHER_OF,Ninip,person
+Cyrus,person,FATHER_OF,Barzia,place
+Ptolemy,people,FATHER_OF,Lysimachus,person
+Onias,person,FATHER_OF,Simon,person
+Ninyas,people,FATHER_OF,Cappodax,people
+Assur-nacir-apli,place,FATHER_OF,Shalmaneser II,person
+Amukkani,person,FATHER_OF,Musallim-Marduk,person
+Durmah-ilani,person,FATHER_OF,Eri-Akua,people
+Jediael,person,FATHER_OF,Bilham,people
+Amoz,person,FATHER_OF,Prophet,person
+Johanan,person,FATHER_OF,Jaddua,person
+Ramses II,person,FATHER_OF,Menephthah,people
+Peleth,person,FATHER_OF,Reubenite,person
+Simon II,person,FATHER_OF,Onias iii,person
+Meonothai,person,FATHER_OF,Judah,person
+Elimelech,person,FATHER_OF,Mahlon,person
+Kenaz,person,FATHER_OF,Israel,person
+Mizraim,person,FATHER_OF,Zudim,person
+Aharun,person,FATHER_OF,Eleazar,person
+Perdition,concept,FATHER_OF,KJV Dictionary,people
+Orkhan,place,FATHER_OF,Suleiman,person
+Sarabus,people,FATHER_OF,Aurelius Diogenes,people
+Sisygambis,people,FATHER_OF,Codomannus,person
+Jonas,person,FATHER_OF,Peter,person
+Zaraias,person,FATHER_OF,Eliaonias,person
+Eshton,person,FATHER_OF,Judah,person
+Rameses II,person,FATHER_OF,Minepthah,person
+JEHOZADAK,person,FATHER_OF,Joshua,person
+Amram,person,FATHER_OF,Aaron,person
+Lagus,people,FATHER_OF,BC,people
+Antigonus,person,FATHER_OF,Demetrius,person
+Philadelphus,person,FATHER_OF,Berenice,person
+Pallu,person,FATHER_OF,Eliab,person
+Antiochus,person,FATHER_OF,Antiochus IV,person
+Ptolemy Philometor,person,FATHER_OF,Cleopatra,person
+Micah,person,FATHER_OF,Chronicles Abdon,person
+Elon,person,FATHER_OF,Esau,person
+Alexander Janneus,person,FATHER_OF,Aristobulus,person
+Shagee,people,FATHER_OF,Jonathan,person
+Phinehas,person,FATHER_OF,Ahitub,person
+Ahitub,person,FATHER_OF,Ahijah,person
+Elpaal,person,FATHER_OF,Beriah,person
+Zibeon,person,FATHER_OF,Horite,person
+Neoptolemos,people,FATHER_OF,Olympias,person
+Mary,person,FATHER_OF,James,person
+Shobal,person,FATHER_OF,Ahan,person
+Elkanah,person,FATHER_OF,Kohath,person
+Kohath,person,FATHER_OF,Amminadab,person
+Ebed-Asherah,place,FATHER_OF,Aziru,place
+Immer,person,FATHER_OF,Hanani,person
+Shemaiah,person,FATHER_OF,Great,person
+Joram,person,FATHER_OF,Uzziah,person
+Jason,person,FATHER_OF,Antipater,person
+Seleucus Philopator,people,FATHER_OF,Demetrius Soter,person
+Seleucus Philopator,people,FATHER_OF,Demetrius,person
+Shalikh,people,FATHER_OF,ABiR,people
+Shem,person,FATHER_OF,Arfakhshad,person
+Arfakhshad,person,FATHER_OF,Shalikh,people
+Yaktan,place,FATHER_OF,Jurhum,place
+Shaharaim,person,FATHER_OF,Elpaal,person
+Mithridates,place,FATHER_OF,Phraates,person
+Megabyzus,person,FATHER_OF,Zopyrus,person
+Potiphera,person,FATHER_OF,Joseph,person
+Ochran,person,FATHER_OF,Pagiel,person
+Necho,person,FATHER_OF,Psammetik,person
+Ninyas,people,FATHER_OF,Cappadox,people
+Belos,people,FATHER_OF,Ninos,people
+Antipater,person,FATHER_OF,Herod,person
+Jokshah,place,FATHER_OF,Dedan,person
+Cyaxares,person,FATHER_OF,Istuvigu,place
+Bebai,person,FATHER_OF,Jew,person
+Dorymenes,people,FATHER_OF,Ptolemy,people
+Jerahmeel,person,FATHER_OF,Ram,person
+Rimmon,person,FATHER_OF,Beeroth,person
+Jahdai,person,FATHER_OF,Calebite,person
+Nahor,person,FATHER_OF,Chesed,person
+Ephraim,person,FATHER_OF,Sheerah,person
+Amaziah,person,FATHER_OF,Azariah,person
+Isaac,person,FATHER_OF,AS,people
+Zorzelleus,person,FATHER_OF,Augia,person
+Gershom,person,FATHER_OF,Shimei,person
+Zechariah,person,FATHER_OF,Asaphite,people
+Jahaziel,person,FATHER_OF,Sheconiah,place
+Hezron,person,FATHER_OF,Scrub,person
+Adaiah,person,FATHER_OF,Judah,person
+Omri,person,FATHER_OF,Jehu,person
+Shallum,person,FATHER_OF,Judahite,person
+Perez,person,FATHER_OF,Hezron,person
+Kish,person,FATHER_OF,Merarite Levite,person
+Hananiah,person,FATHER_OF,And,person
+Shemaiah,person,FATHER_OF,Joash,person
+Absalom,person,FATHER_OF,Mattathias,person
+Haruz,person,FATHER_OF,King Amon,person
+Uzziah,person,FATHER_OF,Judah,person
+Hassenuah,person,FATHER_OF,Benjamite,person
+Chalphi,concept,FATHER_OF,Judas,person
+Simon Iscariot,person,FATHER_OF,Judas,person
+Tabrimmon,person,FATHER_OF,Benhadad,person
+Laish,person,FATHER_OF,Palti,person
+Gamaliel,person,FATHER_OF,Simon,person
+Jephunneh,person,FATHER_OF,Instance Caleb,person
+Elan,people,FATHER_OF,Bashemath,person
+Anah,person,FATHER_OF,Oholibamah,person
+Elon,person,FATHER_OF,Adah,person
+Aher,person,FATHER_OF,Benjaminite,person
+Zuar,person,FATHER_OF,Nethanel,person
+Hezron,person,FATHER_OF,Chelubai,person
+Gemali,place,FATHER_OF,Ammiel,person
+Shiftan,people,FATHER_OF,Kemuel,person
+Dodai,person,FATHER_OF,Eleazar,person
+Ahithophel,person,FATHER_OF,Eliham,person
+Esbai,people,FATHER_OF,Naarai,person
+Maacah,person,FATHER_OF,Hanan,person
+Amaraiah,person,FATHER_OF,Ahitub,person
+Meraioth,person,FATHER_OF,Azariah,person
+Chaos,people,FATHER_OF,Ialdaboth,people
+Tahath,person,FATHER_OF,An Ephraimite,person
+Shimei,person,FATHER_OF,Benjamite,person
+Immer,person,FATHER_OF,Zodak,person
+Jeremiah,person,FATHER_OF,Amital,people
+Jeroboam II,person,FATHER_OF,Israel,person
+Jethro,person,FATHER_OF,Moses,person
+Jesus,person,FATHER_OF,Habakkuk,person
+Bedad,person,FATHER_OF,Edom,person
+Azzur,person,FATHER_OF,Gibeon,person
+Jehu,person,FATHER_OF,Jehoahaz,person
+Joel,person,FATHER_OF,Levite,person
+Mariamne,person,FATHER_OF,Herod,person
+Cleopatra,person,FATHER_OF,Herod Philip,person
+Herod,person,FATHER_OF,Aristobulus,person
+Hyrcanus,person,FATHER_OF,Mariamne,person
+Hosah,person,FATHER_OF,Merari,person
+Rameses II,person,FATHER_OF,Seti Merenptah II,people
+Heber,person,FATHER_OF,An Asherite,person
+Rameses,person,FATHER_OF,Merenptah,place
+Karamat,place,FATHER_OF,Egypt,concept
+Gera,person,FATHER_OF,Benjamite,person
+Uzzi,person,FATHER_OF,Benjamite,person
+Billama,place,FATHER_OF,Mekubi,people
+Te-umman,person,FATHER_OF,Undasi,place
+Caleb,person,FATHER_OF,Shobal,person
+Solomon,person,FATHER_OF,Menelek,people
+SELEUCUS,person,FATHER_OF,Demetrius Soter,person
+Accos,person,FATHER_OF,John,person
+Jeroham,person,FATHER_OF,Benjamite,person
+Jeroboam,person,FATHER_OF,Zechariah,person
+Jaaziah,person,FATHER_OF,Merarite Levitt,person
+Joah,person,FATHER_OF,Gershomite Levite,person
+Kareah,person,FATHER_OF,Johnnan,person
+Epaal,people,FATHER_OF,Benjamin,person
+Shashak,person,FATHER_OF,Benjamin,person
+Amaziah,person,FATHER_OF,Kings,person
+Vespasian,people,FATHER_OF,Titus,person
+Jehoash,person,FATHER_OF,Jeroboam II,person
+Dishon,person,FATHER_OF,Horite,person
+Abishalom,person,FATHER_OF,Maacah,person
+Pedaiah,person,FATHER_OF,Zebidah,person
+Aristobulus II,person,FATHER_OF,Alexander,person
+Philip II,people,FATHER_OF,Thessalonica,place
+Hattusil,person,FATHER_OF,Dudhalia,person
+ARAB,people,FATHER_OF,Shecaniah,person
+Puah,person,FATHER_OF,JUDGES,people
+SELEUCUS,person,FATHER_OF,Demetrius,person
+Ana,person,FATHER_OF,Naaman,person
+Astyages,person,FATHER_OF,Amytis,people
+Sanballat,person,FATHER_OF,Dalayah,place
+Claudius,person,FATHER_OF,Octavia,place
+Kudur-Mabug,person,FATHER_OF,BC,people
+Ea,people,FATHER_OF,Adapa,person
+Absalom,person,FATHER_OF,Jonathan,person
+Nabunaid,person,FATHER_OF,Nebuchadnezzar,person
+Solomon,person,FATHER_OF,Tappath,person
+Hazael,person,FATHER_OF,Benhadad III,person
+Hazael,person,FATHER_OF,Benhadad,person
+Beriah,person,FATHER_OF,Sheerah,person
+Caleb,person,FATHER_OF,Salma,person
+Augustus,person,FATHER_OF,Julia,person
+Henadad,person,FATHER_OF,Bavvai,person
+Seth,person,FATHER_OF,Enosh,person
+Mahli,person,FATHER_OF,Levite,person
+Maaseiah,person,FATHER_OF,Benjamite,person
+Philip,person,FATHER_OF,Macedonian,person
+Aretas,person,FATHER_OF,Antipas,person
+Zohar,person,FATHER_OF,Hittite,person
+Ishmael,person,FATHER_OF,Esau,person
+Iddo,person,FATHER_OF,Abinadab,person
+Shaharaim,person,FATHER_OF,Benjamites,person
+Hadad,person,FATHER_OF,Samlah,person
+Mattathias,person,FATHER_OF,John,person
+Chelub,person,FATHER_OF,Judah,person
+King Saul,person,FATHER_OF,Merab,person
+Gennaeus,person,FATHER_OF,Apollonius,person
+Jonathan,person,FATHER_OF,Saul,person
+Shaharaim,person,FATHER_OF,Benjamite,person
+Tobiah,person,FATHER_OF,Jehohanan,person
+Enoch,person,FATHER_OF,Seth,person
+Micaiah,person,FATHER_OF,Achbor,person
+Jeiel,person,FATHER_OF,Benjamite,person
+Nathaiah,place,FATHER_OF,Ishmael,person
+Shimei,person,FATHER_OF,Jonathan,person
+Drimylus,people,FATHER_OF,Jew,person
+Zedekiah,person,FATHER_OF,Mulek,person
+El,person,FATHER_OF,Yahweh,person
+Birchri,people,FATHER_OF,Sheba,person
+Mary,person,FATHER_OF,Messiah,concept
+Lehi Nephi,people,FATHER_OF,Nephi,person
+Adam,person,FATHER_OF,Sitil,place
+William Smith,person,FATHER_OF,Nancy Maria Smith,person
+Hyrum Smith,person,FATHER_OF,Lovina Smith,person
+Zeniff,person,FATHER_OF,King Noah,person
+ISIS,people,FATHER_OF,Horus,person
+Rabbi,person,FATHER_OF,Rabbi Yosei,person
+Mosiah,person,FATHER_OF,King Benjamin,person
+Lewis Bidamon,person,FATHER_OF,Charles Bidamon,person
+Sylvia Lyon,person,FATHER_OF,Josephine Lyon,person
+Jacob,person,FATHER_OF,Egypt,concept
+Osiris,person,FATHER_OF,Horus,person
+Odin,people,FATHER_OF,Baldur,people
+Smail,place,FATHER_OF,Meho,people
+Ramses II,person,FATHER_OF,Merneptah,place
+Lynn Paul,person,FATHER_OF,K-Lynn Paul,people
+Alma the,person,FATHER_OF,Alma,person
+Ahimelek,people,FATHER_OF,Abiathar,person
+Jared,person,FATHER_OF,Salomé,person
+william law,person,FATHER_OF,Law,concept
+Horus,person,FATHER_OF,Duamutef,person
+El,person,FATHER_OF,Elohim,concept
+Pahoran,person,FATHER_OF,Paanchi,person
+King Benjamin,person,FATHER_OF,King Mosiah,person
+John Johnson,person,FATHER_OF,Marinda Nancy Johnson,person
+Elnathan,person,FATHER_OF,Konyahu,person
+Philip,person,FATHER_OF,Alexander,person
+Israel,person,FATHER_OF,Judah,person
+Nephihah,person,FATHER_OF,Zarahemla Parhoron,person
+El Elyon,people,FATHER_OF,Yahweh,person
+Jacob-Israel,person,FATHER_OF,Dan,person
+Hosea,person,FATHER_OF,Seraiah,person

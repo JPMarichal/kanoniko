@@ -118,6 +118,66 @@ _HTML_RE = re.compile(
     r"&(?:amp|lt|gt|quot|nbsp|#\d+);"
 )
 
+# Leading-punctuation noise: bullets, arrows, footnote markers, brackets,
+# math symbols, lone opening quotes — none of which start a real entity.
+# We allow `¿`/`¡` only when followed by quoted text already balanced;
+# bare `¿foo` is rejected via the spanish_sentence_fragment rule below.
+_LEADING_PUNCT_RE = re.compile(
+    r"^[\u2022\u2023\u25e6\u2043\u2219\u00b7"     # bullets
+    r"\u21a9\u2190-\u21ff"                          # arrows
+    r"\u2070-\u209f"                                # superscripts/subscripts (footnote markers)
+    r"\[\(\{\<"                                     # opening brackets
+    r"\*\+=\|\\\/~"                                 # math/separator
+    r"_\-\u2010-\u2015"                             # hyphens/dashes
+    r"]"
+)
+
+# Spanish sentence connectors that NER promoted as the start of a "name"
+# when the source text capitalized them after a period. Pattern requires
+# at least one more word so we don't collide with legitimate proper names
+# (none of these tokens are first names; in Spanish they are adverbs/
+# conjunctions). Multi-word required so "Aún" alone (legit name) passes.
+_SPANISH_SENTENCE_STARTERS = (
+    "Así", "Ası́",  # accent variants
+    "Entonces", "Cuando", "Cuándo", "Mientras", "Aunque",
+    "Porque", "Pues", "Desde", "Hasta", "Luego", "Conforme",
+    "Mas", "Sino", "Tampoco", "También", "Quizás", "Quizá",
+    "Acaso", "Apenas", "Después", "Antes", "Siempre", "Nunca",
+    "Jamás", "Quien", "Quienes", "Quién", "Quiénes",
+)
+_SPANISH_SENTENCE_RE = re.compile(
+    r"^(?:" + "|".join(re.escape(w) for w in _SPANISH_SENTENCE_STARTERS) +
+    r")\s+\w",
+)
+
+# Single-token entries that begin with a lowercase letter. In Spanish (and
+# practically any other language we care about) proper nouns are capitalized;
+# a lone lowercase token of meaningful length is almost always a verb,
+# common noun, or sentence fragment that NER fumbled. Multi-token names
+# starting with lowercase (rare: "von Neumann", "ibn Khaldun") are NOT
+# affected — only single tokens.
+_LOWERCASE_TOKEN_RE = re.compile(r"^[a-záéíóúñüç]+$")
+
+# Markdown heading markers leaked through the parser into entity names:
+# "## Sodomite ###", "### 2 Nephi 25:20–21", "## Hat ###". Catches both
+# leading "#"+space and trailing standalone "###". Source: the `object`
+# type is heavily polluted with markdown-heading text from study aids
+# (BD/TG/GEE) — see docs/kg-noise-diagnostic.md §priority 5.
+_MARKDOWN_HEADING_RE = re.compile(r"(?:^#{1,6}\s)|(?:\s#{2,}\s*$)|(?:^#{2,}$)")
+
+# Numeric/measurement strings that NER promoted as entities. Examples seen
+# in the `object` type: "10,000 miles", "4.2 x 4.4 meter", "45-degree",
+# "29½ feet", "one-fourth inch", "seventy-mile". Heuristic: ≥50 % of the
+# alphanumeric chars are digits AND a unit-like word appears (or no
+# capitalized word at all, which rules out "Apollo 11").
+_UNIT_WORD_RE = re.compile(
+    r"\b(meter|metro|kilometer|kil[oó]metro|mile|milla|foot|feet|pie|inch|"
+    r"pulgada|degree|grado|percent|por\s*ciento|cent[ií]metro|cent[ií]grade|"
+    r"yard|yarda|ounce|onza|pound|libra|gram|gramo|liter|litro|second|"
+    r"segundo|minute|minuto|hour|hora|year|a[ñn]o|day|d[ií]a|cubit|codo)s?\b",
+    flags=re.IGNORECASE,
+)
+
 
 # --------------------------------------------------------------------------- #
 # Normalization — shared by cleanup and ingestion
@@ -200,7 +260,8 @@ def is_garbage(name: str) -> str | None:
     Reasons (stable strings):
         empty, nul_bytes, too_short, too_long, all_punct, url_like,
         archaic_verb, xref_fragment, pronoun_stopword, scripture_ref,
-        mojibake, html_fragment.
+        mojibake, html_fragment, leading_punct, sentence_fragment_es,
+        lowercase_token, markdown_heading, measurement.
     """
     if name is None or not name.strip():
         return "empty"
@@ -238,6 +299,26 @@ def is_garbage(name: str) -> str | None:
 
     if stripped.lower() in _PRONOUN_STOPWORDS:
         return "pronoun_stopword"
+
+    if _LEADING_PUNCT_RE.match(stripped):
+        return "leading_punct"
+
+    if _MARKDOWN_HEADING_RE.search(stripped):
+        return "markdown_heading"
+
+    # Measurement: must contain a unit word AND ≥50 % digits among alphanumerics.
+    if _UNIT_WORD_RE.search(stripped):
+        alnum = [c for c in stripped if c.isalnum()]
+        if alnum:
+            digit_ratio = sum(1 for c in alnum if c.isdigit()) / len(alnum)
+            if digit_ratio >= 0.18:
+                return "measurement"
+
+    if _SPANISH_SENTENCE_RE.match(stripped):
+        return "sentence_fragment_es"
+
+    if _LOWERCASE_TOKEN_RE.match(stripped):
+        return "lowercase_token"
 
     return None
 
