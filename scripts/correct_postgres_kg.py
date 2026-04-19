@@ -35,6 +35,7 @@ import psycopg
 sys.path.insert(0, "/repo/src")
 from alejandria.knowledge.gazetteer_lookup import is_garbage
 from alejandria.knowledge.family_patterns import extract_family_hits
+from alejandria.knowledge.family_inference import FamilyEdge, infer as infer_family
 
 OUT_DIR = "/repo/data/kg-diagnostic"
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -391,11 +392,110 @@ def stage_family(conn, dry_run: bool) -> None:
     print(f"\nDone. Final family-edge counts will reflect upserts only.")
 
 
+# --- STAGE 4: FAMILY INFERENCE (closure rules) --------------------------------
+
+FAMILY_RELS = ("FATHER_OF", "MOTHER_OF", "BROTHER_OF", "SISTER_OF", "SPOUSE_OF")
+
+
+def stage_infer(conn, dry_run: bool) -> None:
+    """Load all family edges, run closure (symmetry + sibling-implies-parent),
+    insert what's new. Idempotent — safe to re-run."""
+    print("\n=== STAGE 4: FAMILY INFERENCE ===\n")
+    print("Loading existing family edges from Postgres...", flush=True)
+    seed: list[FamilyEdge] = []
+    name_by_id: dict[int, tuple[str, str]] = {}  # id -> (name, type)
+    with conn.cursor(name="infer_load") as cur:
+        cur.itersize = 5000
+        cur.execute(
+            "SELECT r.src_id, src.name, src.entity_type, "
+            "       r.dst_id, dst.name, dst.entity_type, r.rel_type "
+            "FROM relations r "
+            "JOIN entities src ON src.id = r.src_id "
+            "JOIN entities dst ON dst.id = r.dst_id "
+            "WHERE r.rel_type = ANY(%s)",
+            (list(FAMILY_RELS),),
+        )
+        for s_id, s_name, s_type, d_id, d_name, d_type, rel in cur:
+            name_by_id[s_id] = (s_name, s_type)
+            name_by_id[d_id] = (d_name, d_type)
+            seed.append(FamilyEdge(from_name=s_name, relation=rel, to_name=d_name))
+    print(f"  loaded {len(seed):,} existing family edges, "
+          f"{len(name_by_id):,} unique family entities", flush=True)
+
+    print("\nRunning closure inference...", flush=True)
+    closure, derived = infer_family(seed)
+    print(f"  derived {len(derived):,} new edges (closure size: {len(closure):,})")
+
+    # Resolve names back to IDs. Build lookup: (name, type-preference) -> id.
+    # We have name_by_id (id->name+type). Build name->id map (assume each
+    # family-relevant name has a single id; if not, prefer the first seen).
+    print("Building name → id resolution map...", flush=True)
+    name_to_id: dict[str, int] = {}
+    for nid, (name, _t) in name_by_id.items():
+        name_to_id.setdefault(name, nid)
+
+    # Audit + filter to derived edges that resolve to existing IDs.
+    resolved: list[tuple[int, int, str, str]] = []
+    # (src_id, dst_id, rel_type, reason)
+    unresolved = 0
+    for e in derived:
+        s = name_to_id.get(e.from_name)
+        d = name_to_id.get(e.to_name)
+        if s is None or d is None:
+            unresolved += 1
+            continue
+        resolved.append((s, d, e.relation, e.reason))
+    print(f"  resolved {len(resolved):,} derived edges, "
+          f"{unresolved} unresolved (orphan names)", flush=True)
+
+    audit = f"{OUT_DIR}/pg_family_inference_audit_{stamp()}.csv"
+    with open(audit, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["src_id", "dst_id", "rel_type", "reason"])
+        w.writerows(resolved)
+    print(f"\nAudit log: {audit}")
+
+    print("\nSample derived edges (first 15):")
+    by_reason = Counter(e.reason for e in derived)
+    for reason, n in by_reason.most_common(5):
+        print(f"  reason kind: {reason[:50]}... ({n:,} edges)")
+    for e in derived[:15]:
+        print(f"  {e.from_name} -[{e.relation}]-> {e.to_name}    [{e.reason}]")
+
+    if dry_run:
+        print("\nDRY RUN — no inserts.")
+        return
+
+    print(f"\nInserting {len(resolved):,} derived edges (ON CONFLICT skip)...",
+          flush=True)
+    inserted = 0
+    with conn.cursor() as cur:
+        for i in range(0, len(resolved), 1000):
+            batch = resolved[i:i + 1000]
+            cur.executemany(
+                "INSERT INTO relations "
+                "(src_id, dst_id, rel_type, category, confidence, source) "
+                "SELECT %s, %s, %s, 'family', 'curated', 'family_inference' "
+                "WHERE NOT EXISTS ("
+                "  SELECT 1 FROM relations r "
+                "  WHERE r.src_id = %s AND r.dst_id = %s AND r.rel_type = %s"
+                ")",
+                [(s, d, r, s, d, r) for (s, d, r, _reason) in batch],
+            )
+            inserted += len(batch)
+            if inserted % 1000 == 0 or inserted == len(resolved):
+                print(f"  inserted/checked {inserted:,} / {len(resolved):,}",
+                      flush=True)
+        conn.commit()
+    print(f"\nDone. Inference round complete.")
+
+
 # --- MAIN ---------------------------------------------------------------------
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--stage", choices=["purge", "resolve", "family", "all"],
+    ap.add_argument("--stage",
+                    choices=["purge", "resolve", "family", "infer", "all"],
                     required=True)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--apply", action="store_true")
@@ -412,6 +512,8 @@ def main():
             stage_resolve(conn, dry_run=args.dry_run)
         if args.stage in ("family", "all"):
             stage_family(conn, dry_run=args.dry_run)
+        if args.stage in ("infer", "all"):
+            stage_infer(conn, dry_run=args.dry_run)
     finally:
         conn.close()
 

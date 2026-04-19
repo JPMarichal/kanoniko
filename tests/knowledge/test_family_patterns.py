@@ -115,3 +115,73 @@ class TestMultipleEntities:
         assert ("Jaron", "Quemis") in pairs
         assert ("Quemis", "Abinadom") in pairs
         assert ("Abinadom", "Amalekí") in pairs
+
+
+class TestSiblingPatterns:
+    def test_brother_of_en(self):
+        hits = extract_family_hits("Aaron, brother of Moses, was a Levite.")
+        assert any(
+            h.from_name == "Aaron" and h.to_name == "Moses"
+            and h.relation == "BROTHER_OF"
+            for h in hits
+        )
+
+    def test_hermano_de_es(self):
+        hits = extract_family_hits("Quemis, hermano de Amarón, recibió las planchas.")
+        assert any(
+            h.from_name == "Quemis" and h.to_name == "Amarón"
+            and h.relation == "BROTHER_OF"
+            for h in hits
+        )
+
+    def test_sister_of_en(self):
+        hits = extract_family_hits("Miriam, sister of Aaron, sang.")
+        assert any(
+            h.from_name == "Miriam" and h.to_name == "Aaron"
+            and h.relation == "SISTER_OF"
+            for h in hits
+        )
+
+    def test_hermana_de_es(self):
+        hits = extract_family_hits("Marta, hermana de Lázaro, oró.")
+        assert any(
+            h.from_name == "Marta" and h.to_name == "Lázaro"
+            and h.relation == "SISTER_OF"
+            for h in hits
+        )
+
+
+class TestParentReversedPatterns:
+    """X, father of Y / X, padre de Y / X, mother of Y."""
+
+    def test_father_of_en(self):
+        hits = extract_family_hits("Lehi, father of Nephi, kept the brass plates.")
+        assert any(
+            h.from_name == "Lehi" and h.to_name == "Nephi"
+            and h.relation == "FATHER_OF"
+            for h in hits
+        )
+
+    def test_padre_de_es(self):
+        hits = extract_family_hits("Omni, padre de Amarón, escribió poco.")
+        assert any(
+            h.from_name == "Omni" and h.to_name == "Amarón"
+            and h.relation == "FATHER_OF"
+            for h in hits
+        )
+
+    def test_mother_of_en(self):
+        hits = extract_family_hits("Sariah, mother of Nephi, complained in the wilderness.")
+        assert any(
+            h.from_name == "Sariah" and h.to_name == "Nephi"
+            and h.relation == "MOTHER_OF"
+            for h in hits
+        )
+
+    def test_madre_de_es(self):
+        hits = extract_family_hits("Saríah, madre de Nefi, se afligió.")
+        assert any(
+            h.from_name == "Saríah" and h.to_name == "Nefi"
+            and h.relation == "MOTHER_OF"
+            for h in hits
+        )
