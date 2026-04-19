@@ -375,44 +375,339 @@ class PostgresGraphClient:
 
         return {"nodes": list(nodes.values()), "edges": edges}
 
+    # ------------------------------------------------------------------ #
+    # Tier 2c: mentions-based (unblocked by schema v2)
+    # ------------------------------------------------------------------ #
+
     def get_documents_for_entity(self, name: str) -> list[dict]:
-        """Return documents that mention the entity via entity_document_mentions.
+        """Documents that mention the entity. Returns [{file_path, source}, ...].
 
-        TO BE IMPLEMENTED — Tier 2c. Unblocked by SCHEMA_VERSION=2 (schema add
-        for Option A of audit §6.1).
+        Same shape as Neo4jClient. Name resolved via gazetteer first.
         """
-        raise NotImplementedError(
-            "PostgresGraphClient.get_documents_for_entity pending (Tier 2c). "
-            "Schema v2 made this unblocked; just needs implementation."
-        )
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        hit = is_canonical(name)
+        target = hit[0] if hit else (name or "").strip()
+        if not target:
+            return []
 
-    def get_documents_for_entities_batch(self, names: list[str]) -> dict[str, list[str]]:
-        raise NotImplementedError("Tier 2c")
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT DISTINCT dr.file_path, COALESCE(dr.status, 'indexed') AS source "
+                    "FROM entity_document_mentions m "
+                    "JOIN entities e ON e.id = m.entity_id "
+                    "JOIN document_registry dr ON dr.file_path = m.file_path "
+                    "WHERE e.name = %s",
+                    (target,),
+                )
+                return [{"file_path": r[0], "source": r[1]} for r in cur.fetchall()]
 
-    def find_nodes_batch(self, searches: list[str], limit_per: int = 15) -> list[dict]:
-        raise NotImplementedError("Tier 2c")
+    def get_documents_for_entities_batch(
+        self, names: list[str]
+    ) -> dict[str, list[str]]:
+        """Batch: {entity_name: [file_paths, ...]}. Input strings are keys."""
+        if not names:
+            return {}
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        name_to_canonical: dict[str, str] = {}
+        for n in names:
+            if not n or not n.strip():
+                continue
+            hit = is_canonical(n)
+            name_to_canonical[n] = hit[0] if hit else n.strip()
+        if not name_to_canonical:
+            return {}
+
+        canonicals = list(set(name_to_canonical.values()))
+        result: dict[str, list[str]] = {n: [] for n in names}
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT e.name, array_agg(DISTINCT m.file_path) "
+                    "FROM entity_document_mentions m "
+                    "JOIN entities e ON e.id = m.entity_id "
+                    "WHERE e.name = ANY(%s) GROUP BY e.name",
+                    (canonicals,),
+                )
+                rows = {r[0]: r[1] for r in cur.fetchall()}
+
+        for input_name, canonical in name_to_canonical.items():
+            result[input_name] = rows.get(canonical, [])
+        return result
+
+    def get_all_entity_mentions(self) -> list[dict]:
+        """For every entity with mentions, return name/type/aliases/doc_count/file_paths.
+
+        Ordered by doc_count desc. Aliases pulled from entity_aliases table
+        (empty list when none).
+        """
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT e.name, e.entity_type, "
+                    "       COALESCE((SELECT array_agg(ea.alias) FROM entity_aliases ea "
+                    "                 WHERE ea.entity_id = e.id), ARRAY[]::text[]) AS aliases, "
+                    "       count(DISTINCT m.file_path) AS doc_count, "
+                    "       array_agg(DISTINCT m.file_path) AS file_paths "
+                    "FROM entities e "
+                    "JOIN entity_document_mentions m ON m.entity_id = e.id "
+                    "GROUP BY e.id, e.name, e.entity_type "
+                    "ORDER BY doc_count DESC"
+                )
+                return [
+                    {
+                        "name": r[0],
+                        "type": r[1],
+                        "aliases": list(r[2]) if r[2] else [],
+                        "doc_count": r[3],
+                        "file_paths": list(r[4]),
+                    }
+                    for r in cur.fetchall()
+                ]
+
+    def get_disambiguated_counts(self) -> dict[tuple[str, str], dict[str, int]]:
+        """Per-entity mention counts grouped by resolved_name.
+
+        Only entries with non-empty resolved_name. Returns
+        {(name, type): {resolved_name: count, ...}}.
+        """
+        counts: dict[tuple[str, str], dict[str, int]] = {}
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT e.name, e.entity_type, m.resolved_name, count(*) "
+                    "FROM entity_document_mentions m "
+                    "JOIN entities e ON e.id = m.entity_id "
+                    "WHERE m.resolved_name <> '' "
+                    "GROUP BY e.name, e.entity_type, m.resolved_name "
+                    "ORDER BY e.name, count(*) DESC"
+                )
+                for name, etype, resolved, cnt in cur.fetchall():
+                    key = (name, etype)
+                    counts.setdefault(key, {})[resolved] = cnt
+        return counts
+
+    # ------------------------------------------------------------------ #
+    # Tier 2c: relation-based methods
+    # ------------------------------------------------------------------ #
+
+    def find_nodes_batch(
+        self, searches: list[str], limit_per: int = 15
+    ) -> list[dict]:
+        """Search multiple names in one query. Returns list of {name, type, aliases}."""
+        if not searches:
+            return []
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        needles: list[str] = []
+        for s in searches:
+            if not s or not s.strip():
+                continue
+            hit = is_canonical(s)
+            needles.append(hit[0] if hit else s.strip())
+        if not needles:
+            return []
+
+        total_limit = limit_per * len(searches)
+        like_patterns = [f"%{n}%" for n in needles]
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT DISTINCT ON (e.id) e.id, e.name, e.entity_type, "
+                    "       COALESCE((SELECT array_agg(ea.alias) FROM entity_aliases ea "
+                    "                 WHERE ea.entity_id = e.id), ARRAY[]::text[]) AS aliases "
+                    "FROM entities e "
+                    "LEFT JOIN entity_aliases ea ON ea.entity_id = e.id "
+                    "WHERE e.name = ANY(%s) "
+                    "   OR e.name ILIKE ANY(%s) "
+                    "   OR ea.alias ILIKE ANY(%s) "
+                    "LIMIT %s",
+                    (needles, like_patterns, like_patterns, total_limit),
+                )
+                rows = cur.fetchall()
+
+        return [
+            {
+                "name": r[1],
+                "type": r[2],
+                "aliases": list(r[3]) if r[3] else [],
+            }
+            for r in rows
+        ]
 
     def get_typed_relations(
         self,
-        name: str,
-        entity_type: str | None = None,
+        entity_name: str,
+        confidence_min: str | None = None,
         rel_types: list[str] | None = None,
-        category: str | None = None,
-        limit: int = 50,
+        limit: int = 100,
     ) -> list[dict]:
-        raise NotImplementedError("Tier 2c")
+        """Bidirectional relations for an entity, ordered by confidence.
 
-    def get_typed_relations_batch(self, *args, **kwargs) -> Any:
-        raise NotImplementedError("Tier 2c")
+        Signature matches Neo4jClient.get_typed_relations. Returns list of
+        {from_name, from_type, rel_type, to_name, to_type, props}.
+        """
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        hit = is_canonical(entity_name)
+        target = hit[0] if hit else (entity_name or "").strip()
+        if not target:
+            return []
 
-    def get_parallel_passages(self, *args, **kwargs) -> Any:
-        raise NotImplementedError("Tier 2c — parallels table query")
+        confidence_order = [
+            "curated", "metadata", "llm_high", "llm_low", "ner", "co_occurrence",
+        ]
+        allowed_confidences: list[str] | None = None
+        if confidence_min and confidence_min in confidence_order:
+            cutoff = confidence_order.index(confidence_min) + 1
+            allowed_confidences = confidence_order[:cutoff]
 
-    def get_all_entity_mentions(self) -> list[dict]:
-        raise NotImplementedError("Tier 2c — unblocked by schema v2")
+        rt_clause = ""
+        rt_params: list[Any] = []
+        if rel_types:
+            rt_clause = " AND r.rel_type = ANY(%s)"
+            rt_params.append(rel_types)
+        conf_clause = ""
+        conf_params: list[Any] = []
+        if allowed_confidences:
+            conf_clause = " AND r.confidence = ANY(%s)"
+            conf_params.append(allowed_confidences)
 
-    def get_disambiguated_counts(self) -> dict[tuple[str, str], dict[str, int]]:
-        raise NotImplementedError("Tier 2c — unblocked by schema v2")
+        # Wrap UNION ALL in a subquery so ORDER BY can use CASE expression.
+        # Postgres refuses CASE directly at the top-level of a UNION query.
+        sql = (
+            "WITH target AS (SELECT id FROM entities WHERE name = %s LIMIT 1), "
+            "combined AS ( "
+            "  SELECT a.name AS from_name, a.entity_type AS from_type, r.rel_type, "
+            "         b.name AS to_name, b.entity_type AS to_type, "
+            "         r.properties || jsonb_build_object('confidence', r.confidence) AS props, "
+            "         r.confidence AS _conf "
+            "  FROM target t JOIN relations r ON r.src_id = t.id "
+            "  JOIN entities a ON a.id = r.src_id JOIN entities b ON b.id = r.dst_id "
+            f"  WHERE TRUE{rt_clause}{conf_clause} "
+            "  UNION ALL "
+            "  SELECT a.name, a.entity_type, r.rel_type, b.name, b.entity_type, "
+            "         r.properties || jsonb_build_object('confidence', r.confidence), r.confidence "
+            "  FROM target t JOIN relations r ON r.dst_id = t.id "
+            "  JOIN entities a ON a.id = r.src_id JOIN entities b ON b.id = r.dst_id "
+            f"  WHERE TRUE{rt_clause}{conf_clause} "
+            ") "
+            "SELECT from_name, from_type, rel_type, to_name, to_type, props "
+            "FROM combined "
+            "ORDER BY "
+            "  CASE _conf WHEN 'curated' THEN 1 WHEN 'metadata' THEN 2 "
+            "             WHEN 'llm_high' THEN 3 WHEN 'llm_low' THEN 4 "
+            "             WHEN 'ner' THEN 5 ELSE 6 END, rel_type "
+            "LIMIT %s"
+        )
+        params: list[Any] = [target]
+        params.extend(rt_params); params.extend(conf_params)
+        params.extend(rt_params); params.extend(conf_params)
+        params.append(limit)
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        return [
+            {
+                "from_name": r[0], "from_type": r[1], "rel_type": r[2],
+                "to_name": r[3], "to_type": r[4], "props": r[5] or {},
+            }
+            for r in rows
+        ]
+
+    def get_typed_relations_batch(
+        self,
+        entity_names: list[str],
+        confidence_min: str | None = None,
+        limit_per: int = 30,
+    ) -> list[dict]:
+        """Batch variant of get_typed_relations. Excludes MENTIONED_IN."""
+        if not entity_names:
+            return []
+        from alejandria.knowledge.gazetteer_lookup import is_canonical
+        resolved: list[str] = []
+        for n in entity_names:
+            if not n or not n.strip():
+                continue
+            hit = is_canonical(n)
+            resolved.append(hit[0] if hit else n.strip())
+        if not resolved:
+            return []
+
+        confidence_order = [
+            "curated", "metadata", "llm_high", "llm_low", "ner", "co_occurrence",
+        ]
+        allowed_confidences: list[str] | None = None
+        if confidence_min and confidence_min in confidence_order:
+            cutoff = confidence_order.index(confidence_min) + 1
+            allowed_confidences = confidence_order[:cutoff]
+
+        conf_clause = ""
+        conf_params: list[Any] = []
+        if allowed_confidences:
+            conf_clause = " AND r.confidence = ANY(%s)"
+            conf_params.append(allowed_confidences)
+
+        total_limit = limit_per * len(entity_names)
+
+        sql = (
+            "WITH targets AS (SELECT id FROM entities WHERE name = ANY(%s)), "
+            "combined AS ( "
+            "  SELECT a.name AS from_name, a.entity_type AS from_type, r.rel_type, "
+            "         b.name AS to_name, b.entity_type AS to_type, "
+            "         r.properties || jsonb_build_object('confidence', r.confidence) AS props, "
+            "         r.confidence AS _conf "
+            "  FROM targets t JOIN relations r ON r.src_id = t.id "
+            "  JOIN entities a ON a.id = r.src_id JOIN entities b ON b.id = r.dst_id "
+            f"  WHERE r.rel_type <> 'MENTIONED_IN'{conf_clause} "
+            "  UNION ALL "
+            "  SELECT a.name, a.entity_type, r.rel_type, b.name, b.entity_type, "
+            "         r.properties || jsonb_build_object('confidence', r.confidence), r.confidence "
+            "  FROM targets t JOIN relations r ON r.dst_id = t.id "
+            "  JOIN entities a ON a.id = r.src_id JOIN entities b ON b.id = r.dst_id "
+            f"  WHERE r.rel_type <> 'MENTIONED_IN'{conf_clause} "
+            ") "
+            "SELECT from_name, from_type, rel_type, to_name, to_type, props "
+            "FROM combined "
+            "ORDER BY "
+            "  CASE _conf WHEN 'curated' THEN 1 WHEN 'metadata' THEN 2 "
+            "             WHEN 'llm_high' THEN 3 WHEN 'llm_low' THEN 4 "
+            "             WHEN 'ner' THEN 5 ELSE 6 END, rel_type "
+            "LIMIT %s"
+        )
+        params: list[Any] = [resolved]
+        params.extend(conf_params); params.extend(conf_params)
+        params.append(total_limit)
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        return [
+            {
+                "from_name": r[0], "from_type": r[1], "rel_type": r[2],
+                "to_name": r[3], "to_type": r[4], "props": r[5] or {},
+            }
+            for r in rows
+        ]
+
+    def get_parallel_passages(
+        self, file_path: str, layer: int | None = None, limit: int = 50,
+    ) -> list[dict]:
+        """Document↔Document parallel passages — NOT IMPLEMENTED.
+
+        Blocked on schema v3 (Document→Document edges not migrated). Same
+        shape of blocker as MENTIONED_IN in §6.1 of the audit; needs a
+        dedicated ``document_parallels`` table + migration step before port.
+        Tracked as Tier 2c-pending.
+        """
+        raise NotImplementedError(
+            "get_parallel_passages requires schema v3 (Document→Document edges). "
+            "Stub kept; implement when parallels table is added."
+        )
 
     def get_genealogy_tree(
         self,

@@ -181,17 +181,16 @@ def test_factory_returns_postgres_when_flag_set(monkeypatch) -> None:
 # --------------------------------------------------------------------------- #
 
 def test_not_implemented_methods_raise_clearly() -> None:
-    """Methods in tiers 2c/2d/Fase4 should raise NotImplementedError
-    with a message pointing at the audit doc. Fails loudly, not silently."""
+    """Methods still pending (Tier 2d/Fase4/parallels) should raise NotImplementedError.
+    Fails loudly so callers discover the gap at test-time, not silently."""
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
     client = PostgresGraphClient()
 
     for method_name, args, kwargs in [
-        ("get_documents_for_entity", ("x",), {}),
-        ("get_typed_relations", ("x",), {}),
         ("get_genealogy_tree", ("x",), {}),
         ("get_genealogy_path", ("x", "y"), {}),
+        ("get_parallel_passages", ("path/x.txt",), {}),
         ("merge_entity", ("x", "y"), {}),
         ("migrate_untyped_relations", (), {}),
     ]:
@@ -293,3 +292,177 @@ def test_get_neighbors_depth_2_recursive() -> None:
 
     assert len(result["nodes"]) <= 50  # respects limit
     assert len(result["nodes"]) >= 1   # at least some neighbors at depth 2
+
+
+# --------------------------------------------------------------------------- #
+# Tier 2c: mentions-based + typed_relations
+# --------------------------------------------------------------------------- #
+
+def test_get_documents_for_entity_returns_real_docs() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+    client = PostgresGraphClient()
+    docs = client.get_documents_for_entity("Nephi")
+
+    assert len(docs) > 0, "Nephi should be mentioned in many corpus docs"
+    for d in docs[:3]:
+        assert "file_path" in d and "source" in d
+        assert isinstance(d["file_path"], str) and d["file_path"]
+
+
+def test_get_documents_for_entity_empty_name() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    assert client.get_documents_for_entity("") == []
+    assert client.get_documents_for_entity("   ") == []
+
+
+def test_get_documents_for_entity_alias_resolution() -> None:
+    """'Nefi' (ES alias) should resolve to same docs as 'Nephi' (canonical)."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    canonical = {d["file_path"] for d in client.get_documents_for_entity("Nephi")}
+    via_alias = {d["file_path"] for d in client.get_documents_for_entity("Nefi")}
+    if not canonical or not via_alias:
+        pytest.skip("corpus doesn't have Nephi mentions under either form")
+    overlap = canonical & via_alias
+    assert len(overlap) >= min(5, len(canonical) // 2), (
+        f"alias resolution failed: canonical={len(canonical)} alias={len(via_alias)} overlap={len(overlap)}"
+    )
+
+
+def test_get_documents_for_entities_batch_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    result = client.get_documents_for_entities_batch(["Nephi", "Lehi", "NonexistentXYZ"])
+
+    assert set(result.keys()) == {"Nephi", "Lehi", "NonexistentXYZ"}
+    assert len(result["Nephi"]) > 0
+    assert len(result["Lehi"]) > 0
+    assert result["NonexistentXYZ"] == []
+
+
+def test_get_documents_for_entities_batch_empty() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    assert client.get_documents_for_entities_batch([]) == {}
+
+
+def test_get_all_entity_mentions_shape_and_ordering() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    mentions = client.get_all_entity_mentions()
+
+    assert len(mentions) > 100, "expect thousands of entities with mentions"
+    for m in mentions[:3]:
+        for field in ("name", "type", "aliases", "doc_count", "file_paths"):
+            assert field in m
+        assert isinstance(m["aliases"], list)
+        assert isinstance(m["file_paths"], list)
+        assert m["doc_count"] == len(set(m["file_paths"]))
+
+    # Sorted by doc_count desc
+    counts = [m["doc_count"] for m in mentions[:50]]
+    assert counts == sorted(counts, reverse=True)
+
+
+def test_get_disambiguated_counts_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    counts = client.get_disambiguated_counts()
+
+    # May be empty if no resolved_name entries — that's acceptable.
+    for key, per_resolved in list(counts.items())[:3]:
+        assert isinstance(key, tuple) and len(key) == 2
+        assert isinstance(per_resolved, dict)
+        for resolved_name, n in per_resolved.items():
+            assert isinstance(resolved_name, str) and resolved_name
+            assert isinstance(n, int) and n > 0
+
+
+def test_find_nodes_batch_returns_results() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    results = client.find_nodes_batch(["Nephi", "Lehi", "Moroni"], limit_per=5)
+
+    assert len(results) > 0
+    for r in results[:3]:
+        assert "name" in r and "type" in r and "aliases" in r
+        assert isinstance(r["aliases"], list)
+
+
+def test_find_nodes_batch_empty() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    assert client.find_nodes_batch([]) == []
+
+
+def test_get_typed_relations_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    rels = client.get_typed_relations("Nephi", limit=20)
+
+    assert len(rels) > 0
+    for r in rels[:3]:
+        for field in ("from_name", "from_type", "rel_type", "to_name", "to_type", "props"):
+            assert field in r
+        assert isinstance(r["props"], dict)
+        # props must carry confidence tag
+        assert "confidence" in r["props"]
+
+
+def test_get_typed_relations_confidence_min_filter() -> None:
+    """confidence_min='metadata' must drop llm_low/ner rows."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    rels = client.get_typed_relations("Nephi", confidence_min="metadata", limit=50)
+
+    allowed = {"curated", "metadata"}
+    for r in rels:
+        conf = r["props"].get("confidence")
+        assert conf in allowed, f"found {conf!r} despite confidence_min=metadata"
+
+
+def test_get_typed_relations_rel_types_filter() -> None:
+    """rel_types filter must be strict."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    rels = client.get_typed_relations("Lehi", rel_types=["FATHER_OF"], limit=50)
+
+    for r in rels:
+        assert r["rel_type"] == "FATHER_OF"
+
+
+def test_get_typed_relations_curated_first() -> None:
+    """Post R0+R7 +family backfill, curated relations should dominate top of the list."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    rels = client.get_typed_relations("Nephi", limit=10)
+
+    if rels:
+        top_confidences = [r["props"].get("confidence") for r in rels[:5]]
+        # At least one of the top 5 should be curated post-cleanup.
+        assert "curated" in top_confidences, (
+            f"expected curated in top 5 but got {top_confidences}"
+        )
+
+
+def test_get_typed_relations_batch_shape() -> None:
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    rels = client.get_typed_relations_batch(["Nephi", "Lehi"], limit_per=10)
+
+    assert len(rels) > 0
+    for r in rels[:3]:
+        for field in ("from_name", "from_type", "rel_type", "to_name", "to_type", "props"):
+            assert field in r
+
+
+def test_get_typed_relations_batch_excludes_mentioned_in() -> None:
+    """MENTIONED_IN lives in a separate table now, but defensively: batch must
+    not emit it even if relations table were to gain such rows."""
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    rels = client.get_typed_relations_batch(["Nephi"], limit_per=100)
+    for r in rels:
+        assert r["rel_type"] != "MENTIONED_IN"
