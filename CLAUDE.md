@@ -31,15 +31,44 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 - spaCy + domain gazetteers for KG extraction
 - Docker Compose (2 containers: api, neo4j)
 
-### Postgres as optional backend (Phase 1 landed 2026-04-18)
+### Postgres IONOS = source of truth (Phase 1 merged 2026-04-18, PR #3)
 
-The `feature/postgres-migration` branch introduced **Postgres 16 + pgvector** as an opt-in alternative backend, replicating the full data layer (chunks, FTS, embeddings, entities, relations, mentions). It runs on an external IONOS VPS with daily `pg_dump` backups.
+The `feature/postgres-migration` branch landed in `main` (commit `426fafeb1`).
+**Postgres 16 + pgvector on IONOS VPS is the authoritative store** for chunks,
+FTS, embeddings, entities, relations, mentions. Local SQLite + Neo4j are
+transitional — they remain for the write path until cutover, but they are
+NOT the source of truth and may drift.
 
-- **Feature flag:** `ALEJANDRIA_STORAGE_BACKEND` (default `"sqlite"`). Set to `"postgres"` to route reads through the Postgres backend via DI factories (`search.textual.make_textual_search`, `search.semantic.make_semantic_search`, `knowledge.postgres_graph_client.make_graph_client`).
-- **Read parity partial:** 3 KG client methods ported and validated against Neo4j oracle (`find_node`, `get_neighbors`, `graph_summary`). Remaining methods raise `NotImplementedError` — tracked in `docs/kg-client-port-audit.md`.
-- **Write path still goes to SQLite + Neo4j.** Ingestion cutover is a follow-up PR.
-- **Operational infra:** see `docs/ionos-setup.md` for VPS setup, `docs/postgres-migration.md` for the full plan, `docs/postgres-migration-status.md` for current state + follow-up PRs.
-- **Vector DB alternatives (Qdrant, Weaviate, Pinecone, Milvus)** analyzed in `docs/vector-db-options.md` — pgvector wins at current scale; triggers to reconsider documented there.
+- **For any destructive op or correctness audit, verify Postgres IONOS** —
+  not Neo4j local, not SQLite local. SSH tunnel `localhost:15432 →
+  212.227.243.210:5432` should already be active in WSL
+  (`pgrep -f "ssh.*15432"`). Credentials in `.env` (`ALEJANDRIA_POSTGRES_*`).
+- **Connecting from a container:** `docker run --rm --network host -e
+  ALEJANDRIA_POSTGRES_HOST=127.0.0.1 -e ALEJANDRIA_POSTGRES_PORT=15432 ...`
+  Load env via heredoc (`bash << 'OUTER' ... source .env; ... OUTER`) — single
+  `bash -c "..."` quoting can swallow the password.
+- **Feature flag (transitional):** `ALEJANDRIA_STORAGE_BACKEND` (default
+  `"sqlite"`). Setting `"postgres"` routes reads through the Postgres backend
+  via DI factories (`search.textual.make_textual_search`,
+  `search.semantic.make_semantic_search`,
+  `knowledge.postgres_graph_client.make_graph_client`).
+- **Read parity partial:** 3 KG client methods ported and validated against
+  Neo4j oracle (`find_node`, `get_neighbors`, `graph_summary`). Remaining
+  methods raise `NotImplementedError` — tracked in
+  `docs/kg-client-port-audit.md`.
+- **Write path cutover pending.** Ingestion still writes SQLite + Neo4j;
+  Postgres cutover is a follow-up PR. Until that lands, the Postgres copy
+  is the source of truth for **reads, audits, and corrective mutations** —
+  the local mirrors can drift.
+- **MCP tools (`mcp__alejandria__*`) read via the local API which currently
+  proxies to Neo4j.** They are a *view*, not the oracle. To verify or mutate
+  ground truth, connect directly to Postgres IONOS.
+- **Operational infra:** see `docs/ionos-setup.md` for VPS setup,
+  `docs/postgres-migration.md` for the full plan,
+  `docs/postgres-migration-status.md` for current state + follow-up PRs.
+- **Vector DB alternatives (Qdrant, Weaviate, Pinecone, Milvus)** analyzed
+  in `docs/vector-db-options.md` — pgvector wins at current scale; triggers
+  to reconsider documented there.
 
 ## Vision
 
@@ -118,7 +147,9 @@ When the user asks a theological, doctrinal, or scripture-content question:
 
 ## Backup & Disaster Recovery
 
-**SQLite is the source of truth.** It contains FTS chunks and semantic vectors (via sqlite-vec). Neo4j (~3h) can be fully reconstructed from it.
+**Postgres IONOS is the source of truth** (post Phase 1 merge — see § Stack above). The local SQLite + Neo4j remain transitionally for the write path; the SQLite vectors and Neo4j graph can be regenerated from Postgres data + corpus on demand.
+
+The endpoints below act on the **local copies only** — they exist for legacy operations and incremental recovery, not as the canonical backup of the source of truth (which is the IONOS `pg_dump` daily snapshot).
 
 ### Backup Endpoints (API running at :4300)
 | Endpoint | What it does |
