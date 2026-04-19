@@ -173,6 +173,131 @@ class TestScripturalCases:
         assert FamilyEdge("Jesus", "BROTHER_OF", "Judas") in closure
 
 
+class TestUnconventionalCases:
+    """Scripture cases where the naive model would fail — endogamy
+    (close-kin marriage common in ancient Near East), legal vs biological
+    parentage (Jesus), levirate marriage, onomastic multiplicity. The
+    closure engine must not invent contradictions when these appear, and
+    must leave room for human-curated qualifiers (role, source_ref) to
+    distinguish interpretations."""
+
+    # ── Endogamy: aunt-nephew, uncle-niece, half-sibling marriages ────────
+    def test_amram_jochebed_aunt_nephew_marriage(self):
+        """Ex 6:20 — Amram (son of Kohath, son of Levi) married Jochebed,
+        his own father's sister (daughter of Levi). Under polygamy + tribal
+        endogamy this was legitimate; the rabbinic/targumic tradition
+        sometimes reads 'aunt' more broadly as 'kinswoman'.
+
+        The engine must tolerate SPOUSE_OF(Amram, Jochebed) coexisting with
+        Jochebed being related to Amram's father, and NOT fabricate a
+        BROTHER_OF edge between Amram and Jochebed."""
+        seed = _edges([
+            ("Amram", "SPOUSE_OF", "Jochebed"),
+            ("Levi", "FATHER_OF", "Jochebed"),
+            ("Levi", "FATHER_OF", "Kohath"),
+            ("Kohath", "FATHER_OF", "Amram"),
+            ("Jochebed", "MOTHER_OF", "Moses"),
+            ("Amram", "FATHER_OF", "Moses"),
+        ])
+        closure, _ = infer(seed)
+        assert FamilyEdge("Jochebed", "SPOUSE_OF", "Amram") in closure
+        # Engine must NOT claim Amram and Jochebed are siblings.
+        assert FamilyEdge("Amram", "BROTHER_OF", "Jochebed") not in closure
+        assert FamilyEdge("Jochebed", "SISTER_OF", "Amram") not in closure
+        # Moses inherits Amram as father (already seeded).
+        assert FamilyEdge("Amram", "FATHER_OF", "Moses") in closure
+
+    def test_abraham_sarah_half_sister_spouse(self):
+        """Gen 20:12 — Abraham to Abimelech: 'she is the daughter of my
+        father, but not the daughter of my mother; and she became my wife.'
+        Same father (Terah), different mothers, legitimate under the
+        patriarchal convention. Must coexist."""
+        seed = _edges([
+            ("Abraham", "SPOUSE_OF", "Sarah"),
+            ("Sarah", "SISTER_OF", "Abraham"),   # half-sister (same father)
+            ("Terah", "FATHER_OF", "Abraham"),
+            ("Terah", "FATHER_OF", "Sarah"),
+        ])
+        closure, _ = infer(seed)
+        # All explicit edges preserved plus their symmetric/father mirrors.
+        assert FamilyEdge("Sarah", "SPOUSE_OF", "Abraham") in closure
+        assert FamilyEdge("Abraham", "SISTER_OF", "Sarah") in closure
+        # Polygamy-safe MOTHER_OF NON-propagation still holds: engine
+        # doesn't claim Sarah and Abraham share a mother.
+        # (No MOTHER_OF seeds here, but pattern confirmed by other tests.)
+
+    def test_nahor_milcah_uncle_niece(self):
+        """Gen 11:29 — Nahor married Milcah, daughter of his brother Haran.
+        Uncle-niece marriage. Engine must handle SPOUSE_OF(Nahor, Milcah)
+        alongside BROTHER_OF(Nahor, Haran) + FATHER_OF(Haran, Milcah)
+        without inventing anything."""
+        seed = _edges([
+            ("Nahor", "SPOUSE_OF", "Milcah"),
+            ("Haran", "FATHER_OF", "Milcah"),
+            ("Terah", "FATHER_OF", "Nahor"),
+            ("Terah", "FATHER_OF", "Haran"),
+            ("Nahor", "BROTHER_OF", "Haran"),
+        ])
+        closure, _ = infer(seed)
+        assert FamilyEdge("Milcah", "SPOUSE_OF", "Nahor") in closure
+        # Sibling-inference on Nahor↔Haran + Terah shared father: already
+        # seeded. No spurious father claim for Milcah from being Nahor's
+        # spouse.
+        assert FamilyEdge("Nahor", "FATHER_OF", "Milcah") not in closure
+
+    # ── Legal vs biological parentage (Jesus, levirate) ──────────────────
+    def test_jesus_dual_genealogy_coexists(self):
+        """Matt 1 traces Joseph's line (legal); Luke 3 traces what most
+        early Christian and LDS commentary takes as Mary's line (though
+        textually also via Joseph, differently reconciled). Both hand
+        different ancestors to the same point. The engine stores both
+        without picking one as canonical; role/source_ref qualifiers on
+        the schema are how downstream queries distinguish them."""
+        seed = _edges([
+            ("Joseph", "FATHER_OF", "Jesus"),
+            ("Mary", "MOTHER_OF", "Jesus"),
+            # Matt 1:16 — Jacob is Joseph's father
+            ("Jacob", "FATHER_OF", "Joseph"),
+            # Luke 3:23 — Heli is Joseph's father (alternative tradition,
+            # often read as Mary's father via levirate / legal adoption)
+            ("Heli", "FATHER_OF", "Joseph"),
+        ])
+        closure, _ = infer(seed)
+        # Both genealogies are preserved. Engine does not pick one.
+        assert FamilyEdge("Jacob", "FATHER_OF", "Joseph") in closure
+        assert FamilyEdge("Heli", "FATHER_OF", "Joseph") in closure
+        # No spurious BROTHER_OF(Jacob, Heli) fabricated from co-fathering.
+        assert FamilyEdge("Jacob", "BROTHER_OF", "Heli") not in closure
+
+    # ── Paronymy / multiple names for the same person ────────────────────
+    def test_paronyms_require_curation_not_inference(self):
+        """The engine treats 'Saul' and 'Paul' as distinct nodes unless
+        canonicalized via entity_aliases. This is intentional: textual
+        aliasing belongs in the entity layer, not the relation-inference
+        layer.
+
+        Examples the system should eventually resolve via curated aliases
+        (entity_aliases table, not code):
+          - Jacob / Israel (Gen 32:28)
+          - Abram / Abraham (Gen 17:5)
+          - Sarai / Sarah (Gen 17:15)
+          - Simon / Cephas / Peter
+          - Saul / Paul (Acts 13:9)
+          - Basemath / Mahalath, Adah / Basemath (Esau's wives —
+            Gen 26:34, 28:9, 36:2-3 — multiple listings with conflicting
+            names, resolved by assuming each wife had multiple names)
+        """
+        seed = _edges([
+            ("Saul", "AUTHORED", "letters"),
+            ("Paul", "AUTHORED", "letters"),
+        ])
+        closure, _ = infer(seed)
+        # Without a curated alias, both stay as separate entities — this
+        # is the correct default for a purely inferential engine.
+        assert FamilyEdge("Saul", "AUTHORED", "letters") in closure
+        assert FamilyEdge("Paul", "AUTHORED", "letters") in closure
+
+
 class TestOmniLineage:
     def test_quemis_to_omni_inferred(self):
         """Real testigo case: Omni 1 says "Quemis, mi hermano [de Amarón]"
