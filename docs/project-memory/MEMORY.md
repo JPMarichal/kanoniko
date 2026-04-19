@@ -2,6 +2,7 @@
 
 - [project_postgres_source_of_truth.md](project_postgres_source_of_truth.md) — **CRITICAL** Postgres IONOS = source of truth post PR #3 merge. Neo4j local + SQLite local son legacy. Toda corrección/escritura va allí.
 - [feedback_verify_authoritative_store.md](feedback_verify_authoritative_store.md) — Verify the active source of truth before destructive ops; CLAUDE.md may be stale, prefer memory + git log
+- [feedback_use_mcp_or_gh_for_git.md](feedback_use_mcp_or_gh_for_git.md) — Use MCP GitKraken tools or `gh` for git ops, not Bash; permission prompts otherwise block the flow
 - [reference_external_scrapers.md](reference_external_scrapers.md) — External source scrapers: hierarchy, scripts, skills, site details, P4 file structure (03-inventory/04-backlog/05-registry/fase0/)
 - [project_alejandria.md](project_alejandria.md) — Project vision: independent containerized text library with textual, semantic, and KG search over LDS church literature
 - [project_chat_vision.md](project_chat_vision.md) — Final goal: specialized chat client for scripture/gospel study, RAG over the knowledge engine
