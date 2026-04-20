@@ -528,7 +528,8 @@ def cmd_fetch(args):
                 resp, html = goto_and_settle(page, url)
                 if looks_like_waf(html) or (resp and resp.status >= 400):
                     print(f"  doc {doc_id}: still blocked after manual solve, skipping.")
-                    state["failed"].append(doc_id)
+                    if doc_id not in state["failed"]:
+                        state["failed"].append(doc_id)
                     continue
 
             # Save raw.
@@ -538,18 +539,27 @@ def cmd_fetch(args):
             page_title, body = convert_html(html)
             if not body or len(body) < 150:
                 print(f"  [{ordinal}/{total}] doc {doc_id}: empty body ({len(body)} chars)")
-                state["failed"].append(doc_id)
+                if doc_id not in state["failed"]:
+                    state["failed"].append(doc_id)
             else:
                 _write_corpus(txt_path, meta_path, doc_id, corpus_idx,
                               page_title, body, book_title, book_author, args)
                 done_set.add(doc_id)
                 state["done"] = list(done_set)
+                # Recovery: if previously failed, drop from failed list.
+                if doc_id in state["failed"]:
+                    state["failed"] = [d for d in state["failed"] if d != doc_id]
                 ok_count += 1
                 if ok_count % 20 == 0 or ordinal <= 5:
                     print(f"  [{ordinal}/{total}] doc {doc_id}: ok ({len(body):,} chars) — '{page_title[:60]}'")
 
             if ordinal % 50 == 0:
                 _save_state(state_path, state)
+                # Persist fresh aws-waf-token so a future bootstrap-less run inherits it.
+                try:
+                    ctx.storage_state(path=STORAGE_STATE)
+                except Exception:
+                    pass
 
             jitter_sleep()
 
