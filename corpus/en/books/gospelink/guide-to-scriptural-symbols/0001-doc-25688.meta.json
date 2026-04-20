@@ -1,0 +1,33 @@
+{
+  "title": "Introduction",
+  "author": "Donald W. Parry, Joseph Fielding McConkie",
+  "book": "Guide to Scriptural Symbols",
+  "part": 1,
+  "doc_id": 25688,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "guide-to-scriptural-symbols",
+  "tags": [
+    "gospelink",
+    "guide-to-scriptural-symbols",
+    "reference",
+    "scholarly",
+    "scripture",
+    "scripture-commentaries",
+    "symbols-and-symbolism"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/25688",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Guide to Scriptural Symbols",
+  "chapter_title": "Introduction",
+  "year": 1990,
+  "publisher": "Deseret Book Company"
+}
