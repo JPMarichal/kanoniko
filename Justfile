@@ -8,24 +8,32 @@ set windows-shell := ["powershell.exe", "-NoLogo", "-NoProfile", "-Command"]
 default:
     @just --list
 
-# Discover a Gospelink work by contents-id, derive slug + metadata, and
-# print the suggested fetch command. The user runs the printed fetch in
-# PowerShell (interactive captcha required), then `just gospelink_finalize`.
+# Full pipeline: discover → fetch (user) → finalize + commit + catalog update
+# Usage: just get_gospelink_book 579
 get_gospelink_book contents_id:
+    @echo "=== DISCOVER ==="
     python scripts/download_gospelink.py discover --contents-id {{contents_id}} --slug auto
+    @echo ""
+    @echo "Next steps:"
+    @echo "1. Review the summary above"
+    @echo "2. Copy the fetch command printed above"
+    @echo "3. Run it in PowerShell (captcha may appear)"
+    @echo "4. When fetch completes, run: just gospelink_finalize <slug>"
 
-# Audit + enrich-meta + content validation after a fetch completes.
-# Aborts if any WAF leak or structural issue is found.
+# Audit + enrich-meta + validation + commit + auto-update catalog.
+# Runs after user completes fetch in PowerShell.
 gospelink_finalize slug:
     python scripts/download_gospelink.py audit --slug {{slug}} --write-redo
     python scripts/download_gospelink.py enrich-meta --slug {{slug}}
     python scripts/_gospelink_validate.py {{slug}}
     @echo ""
-    @echo "Validation passed. To commit, run: just gospelink_commit {{slug}}"
-
-# Stage and commit the corpus folder for a Gospelink slug.
-gospelink_commit slug:
-    python scripts/_gospelink_commit.py {{slug}}
+    @echo "=== COMMIT ==="
+    @python scripts/_get_toc_metadata.py {{slug}} > /tmp/gospelink_meta.json
+    @COMMIT_MSG=$$(python scripts/_generate_commit_msg.py {{slug}})
+    git add corpus/en/books/gospelink/{{slug}} scripts/download_gospelink.py .gitignore
+    git commit -m "$$COMMIT_MSG"
+    python scripts/_update_catalog.py {{slug}} /tmp/gospelink_meta.json
+    @echo "✓ Corpus committed and catalog updated"
 
 # One-time login to refresh the Gospelink session cookies.
 # Use when data/.gospelink-session.json is missing or > 24h old.
