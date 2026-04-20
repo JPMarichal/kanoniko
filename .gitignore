@@ -24,6 +24,8 @@ data/sqlite/alejandria.db
 data/sqlite/alejandria.db.gz
 data/sqlite/backups/
 data/sqlite/neo4j_backups/
+# Raw HTML scrapes (regeneratable via scripts/download_*.py)
+data/raw/keil-delitzsch/
 
 # Docker / secrets
 .env
