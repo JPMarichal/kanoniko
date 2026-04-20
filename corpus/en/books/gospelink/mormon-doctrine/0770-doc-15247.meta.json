@@ -1,0 +1,31 @@
+{
+  "title": "Good Book",
+  "author": "Bruce R. McConkie",
+  "book": "Mormon Doctrine",
+  "part": 770,
+  "doc_id": 15247,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "mormon-doctrine",
+  "tags": [
+    "gospelink",
+    "mormon-doctrine",
+    "doctrinal",
+    "lds-classics",
+    "reference"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/15247",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Mormon Doctrine",
+  "chapter_title": "Good Book",
+  "year": 1966,
+  "publisher": "Deseret Book Company"
+}

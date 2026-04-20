@@ -1,0 +1,31 @@
+{
+  "title": "Bible Versions",
+  "author": "Bruce R. McConkie",
+  "book": "Mormon Doctrine",
+  "part": 161,
+  "doc_id": 14633,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "mormon-doctrine",
+  "tags": [
+    "gospelink",
+    "mormon-doctrine",
+    "doctrinal",
+    "lds-classics",
+    "reference"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/14633",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Mormon Doctrine",
+  "chapter_title": "Bible Versions",
+  "year": 1966,
+  "publisher": "Deseret Book Company"
+}

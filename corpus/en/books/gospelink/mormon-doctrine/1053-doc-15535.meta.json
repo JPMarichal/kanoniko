@@ -1,0 +1,31 @@
+{
+  "title": "Latin Vulgate",
+  "author": "Bruce R. McConkie",
+  "book": "Mormon Doctrine",
+  "part": 1053,
+  "doc_id": 15535,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "mormon-doctrine",
+  "tags": [
+    "gospelink",
+    "mormon-doctrine",
+    "doctrinal",
+    "lds-classics",
+    "reference"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/15535",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Mormon Doctrine",
+  "chapter_title": "Latin Vulgate",
+  "year": 1966,
+  "publisher": "Deseret Book Company"
+}
