@@ -189,7 +189,6 @@ def test_not_implemented_methods_raise_clearly() -> None:
 
     for method_name, args, kwargs in [
         ("get_parallel_passages", ("path/x.txt",), {}),
-        ("merge_entity", ("x", "y"), {}),
         ("migrate_untyped_relations", (), {}),
     ]:
         fn = getattr(client, method_name)

@@ -81,7 +81,11 @@ CREATE TABLE IF NOT EXISTS entities (
     entity_type   TEXT NOT NULL,
     disambiguator TEXT,
     metadata      JSONB NOT NULL DEFAULT '{}',
-    UNIQUE (name, entity_type, disambiguator)
+    -- NULLS NOT DISTINCT: Postgres treats NULLs as distinct by default, which
+    -- breaks ``ON CONFLICT`` upserts when disambiguator IS NULL (the common
+    -- case). v3 bump: switch to NULLS NOT DISTINCT so every (name, type)
+    -- without disambiguator is unique. See docs/postgres-migration-status.md.
+    UNIQUE NULLS NOT DISTINCT (name, entity_type, disambiguator)
 );
 CREATE INDEX IF NOT EXISTS entities_name_trgm ON entities USING GIN (name gin_trgm_ops);
 CREATE INDEX IF NOT EXISTS entities_type_idx  ON entities(entity_type);
