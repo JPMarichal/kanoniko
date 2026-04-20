@@ -99,12 +99,16 @@ def auto_slug(title: str) -> str:
     if base_for_match in KNOWN_ACRONYMS:
         acronym = KNOWN_ACRONYMS[base_for_match]
         return f"{acronym}-vol-{vol}" if vol else acronym
-    # Generic slugify
-    s = t.lower()
+    # Generic slugify — drop subtitle after ":" or ";" to keep slugs short.
+    s = t.split(":", 1)[0].split(";", 1)[0].strip()
+    s = s.lower()
     s = re.sub(r"['\u2018\u2019]", "", s)            # apostrophes
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
-    return s[:60] or "untitled"
+    # Hard cap at 40 chars, breaking at last word boundary.
+    if len(s) > 40:
+        s = s[:40].rsplit("-", 1)[0]
+    return s or "untitled"
 
 # Anti-detection Chrome args (required to pass AWS WAF headless checks).
 CHROME_ARGS = [
@@ -766,9 +770,11 @@ def _write_corpus(txt_path, meta_path, doc_id, corpus_idx,
     if args.series:
         meta["series"] = args.series
 
-    with open(txt_path, "w", encoding="utf-8") as f:
+    # Write with explicit LF newlines to avoid Windows CRLF translation
+    # (eliminates noisy "CRLF will be replaced by LF" warnings on git add).
+    with open(txt_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
-    with open(meta_path, "w", encoding="utf-8") as f:
+    with open(meta_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
 
