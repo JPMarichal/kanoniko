@@ -27,7 +27,11 @@ logger = logging.getLogger(__name__)
 # v1 — initial schema (migration Fase 2).
 # v2 — entity_document_mentions added (kg-client-port-audit §6.1 decision A,
 #      2026-04-18). Unlocks get_documents_for_entity* and related methods.
-SCHEMA_VERSION = 2
+# v3 — entities UNIQUE(name, entity_type, disambiguator) switched to NULLS
+#      NOT DISTINCT so ON CONFLICT works when disambiguator IS NULL
+#      (Approach B step 3, 2026-04-19). See docs/postgres-migration-status.md.
+#      Migration script: scripts/migrate_pg_schema_v3.py.
+SCHEMA_VERSION = 3
 
 _DDL_PATH = Path(__file__).with_name("ddl.sql")
 

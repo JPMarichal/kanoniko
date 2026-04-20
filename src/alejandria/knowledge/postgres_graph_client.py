@@ -27,7 +27,9 @@ Caveats:
 """
 from __future__ import annotations
 
+import json
 import logging
+from pathlib import Path
 from typing import Any
 
 import psycopg
@@ -440,9 +442,16 @@ class PostgresGraphClient:
 
         Ordered by doc_count desc. Aliases pulled from entity_aliases table
         (empty list when none).
+
+        Heavy query (aggregates ~3.5M mentions across ~800k entities) — used
+        internally by profile generation, NOT by user-facing routes. Disables
+        ``statement_timeout`` locally so it can complete past the default
+        30 s cap.
         """
         with get_connection() as conn:
             with conn.cursor() as cur:
+                # Session-scoped: only affects this connection.
+                cur.execute("SET LOCAL statement_timeout = 0")
                 cur.execute(
                     "SELECT e.name, e.entity_type, "
                     "       COALESCE((SELECT array_agg(ea.alias) FROM entity_aliases ea "
@@ -1051,50 +1060,477 @@ class PostgresGraphClient:
                 current = existing
 
     # ------------------------------------------------------------------ #
-    # Writes — Fase 4 (cutover)
+    # Tier 2e: write path (Approach B step 3 — ingestion cutover enablement)
     # ------------------------------------------------------------------ #
 
-    def merge_entity(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4 — ingestion cutover")
+    def merge_entity(
+        self,
+        name: str,
+        entity_type: str,
+        aliases: list[str] | None = None,
+    ) -> None:
+        """Upsert single entity. Aliases are added to ``entity_aliases`` table.
 
-    def merge_document(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+        Uses ``ON CONFLICT (name, entity_type, disambiguator) DO NOTHING`` —
+        if the entity already exists, we keep its id and just ensure aliases
+        are merged.
+        """
+        if not name or not entity_type:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                    "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                    "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                    "  SET metadata = entities.metadata "
+                    "RETURNING id",
+                    (name, entity_type),
+                )
+                eid = cur.fetchone()[0]
+                if aliases:
+                    for alias in aliases:
+                        if not alias:
+                            continue
+                        cur.execute(
+                            "INSERT INTO entity_aliases (entity_id, alias) "
+                            "VALUES (%s, %s) ON CONFLICT DO NOTHING",
+                            (eid, alias),
+                        )
+            conn.commit()
 
-    def merge_relation(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+    def merge_document(self, file_path: str, source: str) -> None:
+        """Upsert single document in ``document_registry``."""
+        if not file_path:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "INSERT INTO document_registry "
+                    "  (file_path, sha256, file_size, chunk_count, status) "
+                    "VALUES (%s, '', 0, 0, %s) "
+                    "ON CONFLICT (file_path) DO UPDATE "
+                    "  SET status = EXCLUDED.status",
+                    (file_path, source or "indexed"),
+                )
+            conn.commit()
 
-    def link_entity_to_document(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+    def merge_relation(
+        self,
+        from_name: str,
+        from_type: str,
+        rel_type: str,
+        to_name: str,
+        to_type: str,
+        properties: dict | None = None,
+    ) -> None:
+        """Upsert a typed relation between two entities. Creates both endpoints
+        if they don't exist (idempotent equivalent of Neo4j's MERGE)."""
+        if not (from_name and to_name and rel_type):
+            return
+        props = properties or {}
+        confidence = props.pop("confidence", "llm_low") if props else "llm_low"
+        source_ref = props.pop("source_ref", None) if props else None
+        source = props.pop("source", None) if props else None
+        verified = bool(props.pop("verified", False)) if props else False
+        role = props.pop("role", None) if props else None
 
-    def batch_merge_entities(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                # Resolve / create endpoints
+                cur.execute(
+                    "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                    "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                    "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                    "  SET metadata = entities.metadata RETURNING id",
+                    (from_name, from_type),
+                )
+                src_id = cur.fetchone()[0]
+                cur.execute(
+                    "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                    "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                    "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                    "  SET metadata = entities.metadata RETURNING id",
+                    (to_name, to_type),
+                )
+                dst_id = cur.fetchone()[0]
+                # Dedup: check if a relation with same (src, dst, type) exists.
+                # If yes, update properties; otherwise insert.
+                cur.execute(
+                    "INSERT INTO relations "
+                    "  (src_id, dst_id, rel_type, confidence, source_ref, source, "
+                    "   verified, role, properties) "
+                    "SELECT %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb "
+                    "WHERE NOT EXISTS ("
+                    "  SELECT 1 FROM relations "
+                    "  WHERE src_id = %s AND dst_id = %s AND rel_type = %s"
+                    ")",
+                    (
+                        src_id, dst_id, rel_type, confidence, source_ref, source,
+                        verified, role, json.dumps(props),
+                        src_id, dst_id, rel_type,
+                    ),
+                )
+            conn.commit()
 
-    def batch_merge_documents(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+    def link_entity_to_document(
+        self,
+        entity_name: str,
+        entity_type: str,
+        file_path: str,
+        rel_type: str = "MENTIONED_IN",
+        resolved_name: str | None = None,
+        confidence: str | None = None,
+    ) -> None:
+        """Create/update Entity→Document mention edge (``entity_document_mentions``).
 
-    def batch_merge_relations(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+        ``rel_type`` is ignored (kept for API parity; only MENTIONED_IN is
+        modeled in the mentions table).
+        """
+        if not (entity_name and entity_type and file_path):
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT id FROM entities "
+                    "WHERE name = %s AND entity_type = %s AND disambiguator IS NULL "
+                    "LIMIT 1",
+                    (entity_name, entity_type),
+                )
+                row = cur.fetchone()
+                if row is None:
+                    # Auto-create the entity (match Neo4j MERGE semantics)
+                    cur.execute(
+                        "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                        "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                        "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                        "  SET metadata = entities.metadata RETURNING id",
+                        (entity_name, entity_type),
+                    )
+                    row = cur.fetchone()
+                eid = row[0]
+                cur.execute(
+                    "INSERT INTO entity_document_mentions "
+                    "  (entity_id, file_path, resolved_name, confidence) "
+                    "VALUES (%s, %s, %s, %s) "
+                    "ON CONFLICT (entity_id, file_path, resolved_name) DO UPDATE "
+                    "  SET confidence = COALESCE(EXCLUDED.confidence, entity_document_mentions.confidence)",
+                    (eid, file_path, resolved_name or "", confidence),
+                )
+            conn.commit()
 
-    def batch_link_entities_to_document(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+    def batch_merge_entities(self, entities: list[dict]) -> None:
+        """Batch upsert. Each dict: {name, type, optional aliases}.
 
-    def batch_delete_documents(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+        Uses a single session with per-row INSERT … ON CONFLICT. At this scale
+        (batch ~500) the difference vs COPY + dedup is negligible; simplicity
+        wins.
+        """
+        if not entities:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                for e in entities:
+                    name = e.get("name")
+                    etype = e.get("type")
+                    if not name or not etype:
+                        continue
+                    cur.execute(
+                        "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                        "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                        "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                        "  SET metadata = entities.metadata RETURNING id",
+                        (name, etype),
+                    )
+                    eid = cur.fetchone()[0]
+                    for alias in e.get("aliases") or []:
+                        if not alias:
+                            continue
+                        cur.execute(
+                            "INSERT INTO entity_aliases (entity_id, alias) "
+                            "VALUES (%s, %s) ON CONFLICT DO NOTHING",
+                            (eid, alias),
+                        )
+            conn.commit()
 
-    def batch_write_all(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+    def batch_merge_documents(self, documents: list[dict]) -> None:
+        """Batch upsert of ``document_registry`` rows."""
+        if not documents:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                for d in documents:
+                    fp = d.get("file_path")
+                    if not fp:
+                        continue
+                    src = d.get("source") or "indexed"
+                    cur.execute(
+                        "INSERT INTO document_registry "
+                        "  (file_path, sha256, file_size, chunk_count, status) "
+                        "VALUES (%s, '', 0, 0, %s) "
+                        "ON CONFLICT (file_path) DO UPDATE "
+                        "  SET status = EXCLUDED.status",
+                        (fp, src),
+                    )
+            conn.commit()
 
-    def delete_document_relations(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+    def batch_merge_relations(self, relations: list[dict]) -> None:
+        """Batch upsert. Each dict: {from_name, from_type, rel_type, to_name, to_type, props}.
 
-    def update_entity_profile(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4 — profile_store refactor")
+        Resolves endpoints via upsert-and-return-id, then inserts relations
+        with NOT EXISTS guard to emulate Neo4j MERGE semantics.
+        """
+        if not relations:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                # Cache (name, type) → id lookups within this batch.
+                cache: dict[tuple[str, str], int] = {}
 
-    def load_curated_relations(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4")
+                def _get_id(name: str, etype: str) -> int | None:
+                    if not name or not etype:
+                        return None
+                    key = (name, etype)
+                    if key in cache:
+                        return cache[key]
+                    cur.execute(
+                        "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                        "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                        "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                        "  SET metadata = entities.metadata RETURNING id",
+                        (name, etype),
+                    )
+                    eid = cur.fetchone()[0]
+                    cache[key] = eid
+                    return eid
 
-    def clear_all(self, *args, **kwargs):
-        raise NotImplementedError("Write path: Fase 4 — TRUNCATE CASCADE")
+                for r in relations:
+                    src_id = _get_id(r.get("from_name"), r.get("from_type"))
+                    dst_id = _get_id(r.get("to_name"), r.get("to_type"))
+                    rel_type = r.get("rel_type")
+                    if not (src_id and dst_id and rel_type):
+                        continue
+                    props = dict(r.get("props") or {})
+                    confidence = props.pop("confidence", "llm_low")
+                    source_ref = props.pop("source_ref", None)
+                    source = props.pop("source", None)
+                    verified = bool(props.pop("verified", False))
+                    role = props.pop("role", None)
+                    cur.execute(
+                        "INSERT INTO relations "
+                        "  (src_id, dst_id, rel_type, confidence, source_ref, source, "
+                        "   verified, role, properties) "
+                        "SELECT %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb "
+                        "WHERE NOT EXISTS ("
+                        "  SELECT 1 FROM relations "
+                        "  WHERE src_id = %s AND dst_id = %s AND rel_type = %s"
+                        ")",
+                        (
+                            src_id, dst_id, rel_type, confidence, source_ref, source,
+                            verified, role, json.dumps(props),
+                            src_id, dst_id, rel_type,
+                        ),
+                    )
+            conn.commit()
+
+    def batch_link_entities_to_document(self, links: list[dict]) -> None:
+        """Batch Entity→Document mentions. Each link:
+        {entity_name, entity_type, file_path, optional resolved_name/confidence}.
+        """
+        if not links:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cache: dict[tuple[str, str], int] = {}
+                for l in links:
+                    name = l.get("entity_name")
+                    etype = l.get("entity_type")
+                    fp = l.get("file_path")
+                    if not (name and etype and fp):
+                        continue
+                    key = (name, etype)
+                    if key not in cache:
+                        cur.execute(
+                            "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                            "VALUES (%s, %s, NULL, '{}'::jsonb) "
+                            "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
+                            "  SET metadata = entities.metadata RETURNING id",
+                            (name, etype),
+                        )
+                        cache[key] = cur.fetchone()[0]
+                    # Ensure document_registry has the path (FK requires it).
+                    cur.execute(
+                        "INSERT INTO document_registry "
+                        "  (file_path, sha256, file_size, chunk_count, status) "
+                        "VALUES (%s, '', 0, 0, 'indexed') "
+                        "ON CONFLICT (file_path) DO NOTHING",
+                        (fp,),
+                    )
+                    cur.execute(
+                        "INSERT INTO entity_document_mentions "
+                        "  (entity_id, file_path, resolved_name, confidence) "
+                        "VALUES (%s, %s, %s, %s) "
+                        "ON CONFLICT (entity_id, file_path, resolved_name) DO UPDATE "
+                        "  SET confidence = COALESCE(EXCLUDED.confidence, entity_document_mentions.confidence)",
+                        (
+                            cache[key], fp,
+                            l.get("resolved_name") or "",
+                            l.get("confidence"),
+                        ),
+                    )
+            conn.commit()
+
+    def batch_delete_documents(self, file_paths: list[str]) -> None:
+        """Delete documents + cascade to chunks / mentions."""
+        if not file_paths:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "DELETE FROM document_registry WHERE file_path = ANY(%s)",
+                    (file_paths,),
+                )
+            conn.commit()
+
+    def batch_write_all(
+        self,
+        delete_paths: list[str],
+        documents: list[dict],
+        entities: list[dict],
+        links: list[dict],
+        relations: list[dict],
+    ) -> None:
+        """Orchestrator: delete + merge docs + merge entities + link + merge relations.
+
+        Matches ``Neo4jClient.batch_write_all`` signature + semantics.
+        Each sub-call commits independently for resilience; if one fails, the
+        others that already ran persist (same as the Neo4j version).
+        """
+        if delete_paths:
+            self.batch_delete_documents(delete_paths)
+        if documents:
+            self.batch_merge_documents(documents)
+        if entities:
+            self.batch_merge_entities(entities)
+        if links:
+            self.batch_link_entities_to_document(links)
+        if relations:
+            self.batch_merge_relations(relations)
+
+    def delete_document_relations(self, file_path: str) -> None:
+        """Delete all mentions tied to a document (cascades via FK) and any
+        dangling relations whose endpoints are now orphans.
+
+        This matches the spirit of Neo4j's DETACH DELETE semantics for the
+        Document node — the document goes away plus anything attached to it.
+        """
+        if not file_path:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "DELETE FROM entity_document_mentions WHERE file_path = %s",
+                    (file_path,),
+                )
+            conn.commit()
+
+    def update_entity_profile(
+        self,
+        name: str,
+        entity_type: str,
+        summary: str | None = None,
+        disambiguator: str | None = None,
+        mention_count: int | None = None,
+    ) -> None:
+        """Update profile metadata on an entity. Stored in entities.metadata JSONB.
+
+        (``profile_store`` table holds the richer profile; this method is for
+        quick metadata tags on the entity row itself, matching Neo4j's SET
+        syntax on entity properties.)
+        """
+        props: dict[str, Any] = {}
+        if summary is not None:
+            props["summary"] = summary
+        if disambiguator is not None:
+            props["disambiguator"] = disambiguator
+        if mention_count is not None:
+            props["mention_count"] = mention_count
+        if not props:
+            return
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "UPDATE entities SET metadata = metadata || %s::jsonb "
+                    "WHERE name = %s AND entity_type = %s",
+                    (json.dumps(props), name, entity_type),
+                )
+            conn.commit()
+
+    def load_curated_relations(self, relations_path: str | Path) -> dict[str, int]:
+        """Load curated relations from a JSON file into ``relations`` table.
+
+        The JSON shape is whatever `_RELATIONS_PATH` uses. Re-parses on every
+        call (small file). Returns count per rel_type.
+        """
+        p = Path(str(relations_path))
+        if not p.exists():
+            return {}
+        data = json.loads(p.read_text(encoding="utf-8"))
+
+        counts: dict[str, int] = {}
+        rels_batch: list[dict] = []
+        for rel_type, entries in (data.items() if isinstance(data, dict) else []):
+            if not isinstance(entries, list):
+                continue
+            for entry in entries:
+                from_name = entry.get("from") or entry.get("from_name")
+                from_type = entry.get("from_type", "person")
+                to_name = entry.get("to") or entry.get("to_name")
+                to_type = entry.get("to_type", "person")
+                if not (from_name and to_name):
+                    continue
+                rels_batch.append({
+                    "from_name": from_name, "from_type": from_type,
+                    "rel_type": rel_type,
+                    "to_name": to_name, "to_type": to_type,
+                    "props": {
+                        "confidence": entry.get("confidence", "curated"),
+                        "source": entry.get("source", "curated_seed"),
+                        "source_ref": entry.get("source_ref"),
+                    },
+                })
+                counts[rel_type] = counts.get(rel_type, 0) + 1
+        self.batch_merge_relations(rels_batch)
+        return counts
+
+    def clear_all(self, preserve_sources: list[str] | None = None) -> None:
+        """Clear KG data from Postgres.
+
+        If ``preserve_sources`` is provided, only relations whose ``source`` is
+        NOT in that list are deleted; all entities with ≥1 preserved relation
+        stay. Otherwise TRUNCATE everything (fast path — drops all mentions,
+        relations, entity_aliases, entities via CASCADE).
+        """
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                if preserve_sources:
+                    cur.execute(
+                        "DELETE FROM relations "
+                        "WHERE source IS NULL OR NOT (source = ANY(%s))",
+                        (preserve_sources,),
+                    )
+                    cur.execute("DELETE FROM entity_document_mentions")
+                    cur.execute(
+                        "DELETE FROM entities e "
+                        "WHERE NOT EXISTS (SELECT 1 FROM relations r "
+                        "                  WHERE r.src_id = e.id OR r.dst_id = e.id)"
+                    )
+                else:
+                    cur.execute(
+                        "TRUNCATE entity_document_mentions, entity_aliases, "
+                        "relations, entities RESTART IDENTITY CASCADE"
+                    )
+            conn.commit()
 
     # Explicitly deprecated methods raise a distinct error so they're caught
     # at cutover time if anything still calls them.
