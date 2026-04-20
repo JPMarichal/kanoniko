@@ -1,6 +1,9 @@
 # Alejandria task runner — `just <recipe>` to run.
 # Install: https://just.systems
 
+# Use PowerShell on Windows (no Unix sh required); leave POSIX shell elsewhere.
+set windows-shell := ["powershell.exe", "-NoLogo", "-NoProfile", "-Command"]
+
 # Default: list available recipes.
 default:
     @just --list
