@@ -99,16 +99,37 @@ def auto_slug(title: str) -> str:
     if base_for_match in KNOWN_ACRONYMS:
         acronym = KNOWN_ACRONYMS[base_for_match]
         return f"{acronym}-vol-{vol}" if vol else acronym
-    # Generic slugify — drop subtitle after ":" or ";" to keep slugs short.
-    s = t.split(":", 1)[0].split(";", 1)[0].strip()
-    s = s.lower()
-    s = re.sub(r"['\u2018\u2019]", "", s)            # apostrophes
-    s = re.sub(r"[^a-z0-9]+", "-", s)
-    s = re.sub(r"-+", "-", s).strip("-")
+
+    def _slugify(text):
+        x = text.lower()
+        x = re.sub(r"['\u2018\u2019]", "", x)        # apostrophes
+        x = re.sub(r"[^a-z0-9]+", "-", x)
+        return re.sub(r"-+", "-", x).strip("-")
+
+    # Try short form first (drop subtitle). Use it only if it's distinctive
+    # (≥3 word-segments). Else fall back to slug of full title.
+    short = _slugify(t.split(":", 1)[0].split(";", 1)[0].strip())
+    s = short if len(short.split("-")) >= 3 else _slugify(t)
     # Hard cap at 40 chars, breaking at last word boundary.
     if len(s) > 40:
         s = s[:40].rsplit("-", 1)[0]
     return s or "untitled"
+
+
+def disambiguate_slug(slug, contents_id, catalog_path="data/gospelink-catalog.json"):
+    """If slug collides with an existing catalog entry (different contents_id),
+    append `-{contents_id}` to keep it unique."""
+    if not os.path.exists(catalog_path):
+        return slug
+    try:
+        with open(catalog_path, encoding="utf-8") as f:
+            catalog = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return slug
+    for work in catalog.get("works", []):
+        if work.get("slug") == slug and work.get("contents_id") != contents_id:
+            return f"{slug}-{contents_id}"
+    return slug
 
 # Anti-detection Chrome args (required to pass AWS WAF headless checks).
 CHROME_ARGS = [
@@ -500,6 +521,8 @@ def cmd_discover(args):
         return 1
 
     final_slug = auto_slug(info["title"]) if use_auto_slug else args.slug
+    if use_auto_slug:
+        final_slug = disambiguate_slug(final_slug, args.contents_id)
 
     # If auto, move the directory under the derived slug.
     if use_auto_slug and final_slug != initial_slug:
