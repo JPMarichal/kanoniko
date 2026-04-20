@@ -63,6 +63,8 @@ KNOWN_ACRONYMS = {
     "doctrines of salvation":             "doctrines-salvation",
     "the articles of faith":              "aof",
     "articles of faith":                  "aof",
+    "new witness of articles of faith":   "new-witness-aof",
+    "a new witness for the articles of faith": "new-witness-aof",
     "jesus the christ":                   "jesus-the-christ",
     "answers to gospel questions":        "agq",
     "a new witness for the articles of faith": "new-witness-aof",
@@ -312,10 +314,10 @@ def extract_toc(html):
             doc_ids.append(d)
 
     title_m  = re.search(r'<h1>([^<]+)</h1>', html)
-    title    = title_m.group(1).strip() if title_m else ""
+    title    = re.sub(r"\s+", " ", title_m.group(1)).strip() if title_m else ""
 
     author_m = re.search(r'<h2>([^<]+)</h2>', html)
-    author   = author_m.group(1).strip() if author_m else ""
+    author   = re.sub(r"\s+", " ", author_m.group(1)).strip() if author_m else ""
 
     # Year + publisher from copyright text.
     year = None
@@ -516,14 +518,21 @@ def cmd_discover(args):
     print(f"  File:      {toc_path}")
     print()
     series = info["title"].split(",")[0].strip() if "," in info["title"] else info["title"]
-    print("Suggested fetch command (run in PowerShell):")
+    print("Suggested fetch command (single line, paste as-is in any shell):")
     print()
-    tags = " ".join(f'--tag {t.lower().replace(" ","-")}' for t in info.get("topics", []))
-    print(f'  python scripts/download_gospelink.py fetch \\')
-    print(f'      --slug {final_slug} \\')
-    print(f'      --series "{series}" \\')
-    print(f'      --authority 60 --rigor 75 \\')
-    print(f'      {tags}')
+    def _slug_tag(s):
+        s = re.sub(r"\s+", " ", s).strip().lower()
+        s = re.sub(r"[^a-z0-9]+", "-", s)
+        return re.sub(r"-+", "-", s).strip("-")
+    tags = " ".join(f'--tag {_slug_tag(t)}' for t in info.get("topics", []) if t.strip())
+    series_clean = re.sub(r"\s+", " ", series).strip()
+    print(
+        f'python scripts/download_gospelink.py fetch '
+        f'--slug {final_slug} '
+        f'--series "{series_clean}" '
+        f'--authority 60 --rigor 75 '
+        f'{tags}'
+    )
     print()
     print(f"After fetch completes:  just gospelink_finalize {final_slug}")
     return 0
