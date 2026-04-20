@@ -26,6 +26,10 @@ data/sqlite/backups/
 data/sqlite/neo4j_backups/
 # Raw HTML scrapes (regeneratable via scripts/download_*.py)
 data/raw/keil-delitzsch/
+data/raw/gospelink/
+
+# Gospelink Playwright session (cookies + storage)
+data/.gospelink-session.json
 
 # Docker / secrets
 .env
