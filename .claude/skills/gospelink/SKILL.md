@@ -191,18 +191,18 @@ python scripts/download_gospelink.py enrich-meta --slug {slug}
 Backfills `year`, `volume`, `publisher`, `chapter_title`, topic tags into
 each `.meta.json` from the TOC + body header line.
 
-### Step 9 — Commit (agent)
+### Step 9 — Commit + catalog auto-update (Justfile)
 
 ```bash
-git add corpus/en/books/gospelink/{slug} scripts/download_gospelink.py .gitignore
-git commit -m "feat(corpus): add {Author} {Title} from Gospelink ({N} docs, EN)
-
-{1-line description: e.g. covers Synoptic Gospels and Acts.} {N}/{N} docs
-validated (0 WAF leaks, structure intact). Metadata: year {Y}, volume {V},
-publisher Deseret Book, topic tags from TOC."
+just gospelink_finalize {slug}
 ```
 
-Update the catalog at the bottom of this file with the new entry.
+This runs:
+- `git add corpus/en/books/gospelink/{slug} scripts/download_gospelink.py .gitignore`
+- `git commit` with templated message from `_toc.json`
+- Automatically updates `data/gospelink-catalog.json`
+
+No manual catalog edits needed.
 
 ## Operational notes
 
@@ -223,16 +223,8 @@ Update the catalog at the bottom of this file with the new entry.
 
 ## Catalog of downloaded works
 
-| contents-id | slug | author | title | docs | committed |
-|---|---|---|---|---|---|
-| 500 | dntc-vol-1 | Bruce R. McConkie | Doctrinal NT Commentary, vol. 1 (1965) | 340 | b46a5e0c3 |
-| 501 | dntc-vol-2 | Bruce R. McConkie | Doctrinal NT Commentary, vol. 2 (1971) | 221 | 15d3e1dd9 |
-| 502 | dntc-vol-3 | Bruce R. McConkie | Doctrinal NT Commentary, vol. 3 (1973) | 219 | 57074f572 |
-| 579 | new-witness-for-aof | Bruce R. McConkie | New Witness for the Articles of Faith | 71 | d34f70103 |
-| 2556 | new-witness-aof | Bruce R. McConkie | New Witness of Articles of Faith | 85 | 26076908c |
-
-When adding a new entry: include the commit SHA short hash (or `pending`
-during the run) so future invocations can detect duplicates.
+Maintained in `data/gospelink-catalog.json` — automatically updated by `just gospelink_finalize`.
+No manual edits needed.
 
 ## Anti-patterns
 
