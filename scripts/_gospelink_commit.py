@@ -12,7 +12,13 @@ import sys
 
 
 def run(cmd, **kwargs):
-    """Run a command, raising on non-zero exit."""
+    """Run a command, raising on non-zero exit.
+
+    For git invocations, inject `-c core.safecrlf=false` to suppress noisy
+    'CRLF will be replaced by LF' warnings (we already write LF on disk).
+    """
+    if cmd and cmd[0] == "git":
+        cmd = ["git", "-c", "core.safecrlf=false"] + cmd[1:]
     return subprocess.run(cmd, check=True, **kwargs)
 
 
@@ -58,7 +64,7 @@ def main():
 
     # Get the new commit SHA (short).
     result = subprocess.run(
-        ["git", "rev-parse", "--short", "HEAD"],
+        ["git", "-c", "core.safecrlf=false", "rev-parse", "--short", "HEAD"],
         capture_output=True, text=True, check=True,
     )
     commit_sha = result.stdout.strip()
