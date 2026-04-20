@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "mcp__GitKraken__git_status",
+      "mcp__GitKraken__git_log_or_diff",
+      "mcp__GitKraken__git_add_or_commit"
     ]
   }
 }
