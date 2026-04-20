@@ -1,0 +1,31 @@
+{
+  "title": "Spaulding Manuscript",
+  "author": "Bruce R. McConkie",
+  "book": "Mormon Doctrine",
+  "part": 1704,
+  "doc_id": 16193,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "mormon-doctrine",
+  "tags": [
+    "gospelink",
+    "mormon-doctrine",
+    "doctrinal",
+    "lds-classics",
+    "reference"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/16193",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Mormon Doctrine",
+  "chapter_title": "Spaulding Manuscript",
+  "year": 1966,
+  "publisher": "Deseret Book Company"
+}
