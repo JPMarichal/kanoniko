@@ -572,7 +572,8 @@ def cmd_discover(args):
         f'{tags}'
     )
     print()
-    print(f"After fetch completes:  just gospelink_finalize {final_slug}")
+    print(f"After fetch completes:  just gospelink_finalize {args.contents_id}")
+    print(f"  (or: just gospelink_finalize {final_slug})")
     return 0
 
 

@@ -22,11 +22,10 @@ get_gospelink_book contents_id:
 
 # Audit + enrich-meta + validation + commit + auto-update catalog.
 # Runs after user completes fetch in PowerShell.
-gospelink_finalize slug:
-    python scripts/download_gospelink.py audit --slug {{slug}} --write-redo
-    python scripts/download_gospelink.py enrich-meta --slug {{slug}}
-    python scripts/_gospelink_validate.py {{slug}}
-    python scripts/_gospelink_commit.py {{slug}}
+# Audit + enrich + validate + commit + catalog update.
+# Accepts either a slug ("mormon-doctrine") or contents-id ("569").
+gospelink_finalize id_or_slug:
+    python scripts/_gospelink_finalize.py {{id_or_slug}}
 
 # One-time login to refresh the Gospelink session cookies.
 # Use when data/.gospelink-session.json is missing or > 24h old.
