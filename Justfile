@@ -26,14 +26,7 @@ gospelink_finalize slug:
     python scripts/download_gospelink.py audit --slug {{slug}} --write-redo
     python scripts/download_gospelink.py enrich-meta --slug {{slug}}
     python scripts/_gospelink_validate.py {{slug}}
-    @echo ""
-    @echo "=== COMMIT ==="
-    @python scripts/_get_toc_metadata.py {{slug}} > /tmp/gospelink_meta.json
-    @COMMIT_MSG=$$(python scripts/_generate_commit_msg.py {{slug}})
-    git add corpus/en/books/gospelink/{{slug}} scripts/download_gospelink.py .gitignore
-    git commit -m "$$COMMIT_MSG"
-    python scripts/_update_catalog.py {{slug}} /tmp/gospelink_meta.json
-    @echo "✓ Corpus committed and catalog updated"
+    python scripts/_gospelink_commit.py {{slug}}
 
 # One-time login to refresh the Gospelink session cookies.
 # Use when data/.gospelink-session.json is missing or > 24h old.
