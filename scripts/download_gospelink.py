@@ -53,6 +53,57 @@ CHROME_EXECUTABLE = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 DELAY_MIN = 3.5
 DELAY_MAX = 5.5
 
+# Known acronyms for popular works — used by --slug auto.
+KNOWN_ACRONYMS = {
+    "doctrinal new testament commentary": "dntc",
+    "mormon doctrine":                    "mormon-doctrine",
+    "the mortal messiah":                 "mortal-messiah",
+    "the promised messiah":               "promised-messiah",
+    "the millennial messiah":             "millennial-messiah",
+    "doctrines of salvation":             "doctrines-salvation",
+    "the articles of faith":              "aof",
+    "articles of faith":                  "aof",
+    "jesus the christ":                   "jesus-the-christ",
+    "answers to gospel questions":        "agq",
+    "a new witness for the articles of faith": "new-witness-aof",
+    "history of the church":              "hc",
+    "teachings of the prophet joseph smith": "tpjs",
+    "the way to perfection":              "way-to-perfection",
+    "the life of joseph fielding smith":  "life-jfs",
+    "discourses of brigham young":        "dby",
+    "journal of discourses":              "jod",
+    "lectures on faith":                  "lof",
+    "key to the science of theology":     "kst",
+}
+
+
+def auto_slug(title: str) -> str:
+    """Derive a stable slug from a Gospelink title.
+
+    1. Look up known acronyms (case-insensitive substring match on the
+       portion before "vol."). If matched, use `{acronym}-vol-{N}` when
+       the title carries a volume marker, else just `{acronym}`.
+    2. Otherwise, slugify the full title.
+    """
+    if not title:
+        return "untitled"
+    t = title.strip()
+    vol = None
+    vm = re.search(r'\bvol(?:\.|ume)?\s*(\d+)', t, re.IGNORECASE)
+    if vm:
+        vol = int(vm.group(1))
+    base_for_match = re.sub(r',?\s*vol(?:\.|ume)?\s*\d+.*$', '', t, flags=re.IGNORECASE).strip().lower()
+    base_for_match = re.sub(r'^(the\s+|a\s+)', '', base_for_match)
+    if base_for_match in KNOWN_ACRONYMS:
+        acronym = KNOWN_ACRONYMS[base_for_match]
+        return f"{acronym}-vol-{vol}" if vol else acronym
+    # Generic slugify
+    s = t.lower()
+    s = re.sub(r"['\u2018\u2019]", "", s)            # apostrophes
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
+    return s[:60] or "untitled"
+
 # Anti-detection Chrome args (required to pass AWS WAF headless checks).
 CHROME_ARGS = [
     "--disable-blink-features=AutomationControlled",
@@ -401,7 +452,12 @@ def cmd_discover(args):
         print("Run: pip install playwright", file=sys.stderr)
         return 2
 
-    raw_dir = os.path.join(RAW_BASE, args.slug)
+    # If --slug auto, we need to fetch first to learn the title, then move
+    # the directory under the derived slug.
+    use_auto_slug = (args.slug == "auto")
+    initial_slug = f"_auto-{args.contents_id}" if use_auto_slug else args.slug
+
+    raw_dir = os.path.join(RAW_BASE, initial_slug)
     os.makedirs(raw_dir, exist_ok=True)
     toc_path = os.path.join(raw_dir, "_toc.json")
 
@@ -426,12 +482,31 @@ def cmd_discover(args):
         print("ERROR: no doc links found. Wrong contents-id?", file=sys.stderr)
         return 1
 
+    final_slug = auto_slug(info["title"]) if use_auto_slug else args.slug
+
+    # If auto, move the directory under the derived slug.
+    if use_auto_slug and final_slug != initial_slug:
+        final_dir = os.path.join(RAW_BASE, final_slug)
+        if os.path.exists(final_dir):
+            # Merge: copy _toc.json into existing dir, drop the temp dir.
+            tmp_files = os.listdir(raw_dir)
+            for f in tmp_files:
+                src = os.path.join(raw_dir, f)
+                dst = os.path.join(final_dir, f)
+                os.replace(src, dst)
+            os.rmdir(raw_dir)
+        else:
+            os.replace(raw_dir, final_dir)
+        raw_dir = final_dir
+        toc_path = os.path.join(raw_dir, "_toc.json")
+
     info["contents_id"] = args.contents_id
-    info["slug"] = args.slug
+    info["slug"] = final_slug
     with open(toc_path, "w", encoding="utf-8") as f:
         json.dump(info, f, ensure_ascii=False, indent=2)
 
     print(f"TOC saved: {len(doc_ids)} docs, IDs {doc_ids[0]}..{doc_ids[-1]}")
+    print(f"  Slug:      {final_slug}")
     print(f"  Title:     {info['title']}")
     print(f"  Author:    {info['author']}")
     print(f"  Year:      {info.get('year')}")
@@ -439,6 +514,18 @@ def cmd_discover(args):
     print(f"  Publisher: {info.get('publisher')}")
     print(f"  Topics:    {info.get('topics')}")
     print(f"  File:      {toc_path}")
+    print()
+    series = info["title"].split(",")[0].strip() if "," in info["title"] else info["title"]
+    print("Suggested fetch command (run in PowerShell):")
+    print()
+    tags = " ".join(f'--tag {t.lower().replace(" ","-")}' for t in info.get("topics", []))
+    print(f'  python scripts/download_gospelink.py fetch \\')
+    print(f'      --slug {final_slug} \\')
+    print(f'      --series "{series}" \\')
+    print(f'      --authority 60 --rigor 75 \\')
+    print(f'      {tags}')
+    print()
+    print(f"After fetch completes:  just gospelink_finalize {final_slug}")
     return 0
 
 
