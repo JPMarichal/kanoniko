@@ -228,6 +228,7 @@ Update the catalog at the bottom of this file with the new entry.
 | 500 | dntc-vol-1 | Bruce R. McConkie | Doctrinal NT Commentary, vol. 1 (1965) | 340 | b46a5e0c3 |
 | 501 | dntc-vol-2 | Bruce R. McConkie | Doctrinal NT Commentary, vol. 2 (1971) | 221 | 15d3e1dd9 |
 | 502 | dntc-vol-3 | Bruce R. McConkie | Doctrinal NT Commentary, vol. 3 (1973) | 219 | 57074f572 |
+| 2556 | new-witness-aof | Bruce R. McConkie | New Witness of Articles of Faith | 85 | 26076908c |
 
 When adding a new entry: include the commit SHA short hash (or `pending`
 during the run) so future invocations can detect duplicates.
