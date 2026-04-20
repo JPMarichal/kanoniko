@@ -1,0 +1,44 @@
+{
+  "works": [
+    {
+      "contents_id": 500,
+      "slug": "dntc-vol-1",
+      "author": "Bruce R. McConkie",
+      "title": "Doctrinal NT Commentary, vol. 1 (1965)",
+      "docs": 340,
+      "committed": "b46a5e0c3"
+    },
+    {
+      "contents_id": 501,
+      "slug": "dntc-vol-2",
+      "author": "Bruce R. McConkie",
+      "title": "Doctrinal NT Commentary, vol. 2 (1971)",
+      "docs": 221,
+      "committed": "15d3e1dd9"
+    },
+    {
+      "contents_id": 502,
+      "slug": "dntc-vol-3",
+      "author": "Bruce R. McConkie",
+      "title": "Doctrinal NT Commentary, vol. 3 (1973)",
+      "docs": 219,
+      "committed": "57074f572"
+    },
+    {
+      "contents_id": 579,
+      "slug": "new-witness-for-aof",
+      "author": "Bruce R. McConkie",
+      "title": "New Witness for the Articles of Faith",
+      "docs": 71,
+      "committed": "d34f70103"
+    },
+    {
+      "contents_id": 2556,
+      "slug": "new-witness-aof",
+      "author": "Bruce R. McConkie",
+      "title": "New Witness of Articles of Faith",
+      "docs": 85,
+      "committed": "26076908c"
+    }
+  ]
+}
