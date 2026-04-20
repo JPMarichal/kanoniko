@@ -165,9 +165,20 @@ WAF_MARKERS = ("aws-waf-token", "AWS WAF", "Verify you are human",
 
 
 def looks_like_waf(html):
-    if not html or len(html) < 1000:
+    """Real WAF/challenge page — identified by specific markers.
+
+    Length alone is NOT a signal: legitimate cross-reference entries
+    (e.g., Mormon Doctrine "Abominable Church — See CHURCH OF THE DEVIL.")
+    produce short /print/doc HTML that should NOT trigger the CAPTCHA pause.
+    """
+    if not html:
         return True
-    return any(m in html for m in WAF_MARKERS)
+    if any(m in html for m in WAF_MARKERS):
+        return True
+    # Very short AND missing the standard Gospelink footer → suspicious.
+    if len(html) < 500 and "gospelink.com" not in html.lower():
+        return True
+    return False
 
 
 def looks_like_login_wall(html):
@@ -633,7 +644,10 @@ def cmd_fetch(args):
                 f.write(html)
 
             page_title, body = convert_html(html)
-            if not body or len(body) < 150:
+            # Legitimate short entries (cross-references like "See CHURCH OF THE DEVIL.")
+            # are OK as long as the HTML carries the Gospelink footer/branding.
+            has_footer = "Printed from Gospelink" in html or "gospelink.com" in html.lower()
+            if not body or (len(body) < 30 and not has_footer):
                 print(f"  [{ordinal}/{total}] doc {doc_id}: empty body ({len(body)} chars)")
                 if doc_id not in state["failed"]:
                     state["failed"].append(doc_id)
