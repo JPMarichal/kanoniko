@@ -64,18 +64,21 @@ class KnowledgeGraphWriter(Protocol):
     # ----- Singular writes (curated seeds and unit tests) ------------- #
 
     def merge_entity(
-        self, name: str, entity_type: str, **attrs: Any
+        self,
+        name: str,
+        entity_type: str,
+        aliases: list[str] | None = None,
     ) -> None:
         ...
 
     def merge_relation(
         self,
-        src_name: str,
-        src_type: str,
-        dst_name: str,
-        dst_type: str,
+        from_name: str,
+        from_type: str,
         rel_type: str,
-        **attrs: Any,
+        to_name: str,
+        to_type: str,
+        properties: dict[str, Any] | None = None,
     ) -> None:
         ...
 
