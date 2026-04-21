@@ -13,7 +13,7 @@ from functools import lru_cache
 
 from alejandria.config import settings
 from alejandria.ingestion.pipeline import IngestionPipeline
-from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.registry import DocumentRegistry, make_document_registry
 from alejandria.search.textual import TextualSearch, make_textual_search
 
 logger = logging.getLogger(__name__)
@@ -46,7 +46,8 @@ def _cache_success(func):
 
 @lru_cache
 def get_registry() -> DocumentRegistry:
-    return DocumentRegistry(settings.sqlite_db_path)
+    """Cached accessor — dispatches on ``settings.storage_backend``."""
+    return make_document_registry()
 
 
 @lru_cache

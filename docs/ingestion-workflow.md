@@ -2,7 +2,13 @@
 
 Proceso canónico para incorporar material nuevo al corpus de Alejandría.
 
-> **Estado:** propuesta aprobada, pendiente de implementación. Ingestión **congelada** hasta completar la secuencia de migración (§3).
+> **Estado:** propuesta aprobada, implementación en curso. Ingestión **congelada** hasta completar la secuencia de migración (§3).
+>
+> **Progreso §3.1 (rama `feature/postgres-write-path`):**
+> - ✅ ADR 0001 aprobado — patrón Protocol + factory para storage drivers.
+> - ✅ `DocumentRegistry` portado — Protocol + `SqliteDocumentRegistry` + `PostgresDocumentRegistry` + `make_document_registry()`. Consumidores (api, pipeline, scripts) actualizados a la factory.
+> - ⏳ `ProfileStore` — pendiente.
+> - ⏳ `WritePath` (pipeline.py) — pendiente.
 
 ## 1. Propósito y principios
 
