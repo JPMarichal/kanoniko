@@ -66,8 +66,8 @@ def _get_profile_store():
     global _profile_store
     if _profile_store is None:
         try:
-            from alejandria.knowledge.profile_store import ProfileStore
-            _profile_store = ProfileStore(settings.sqlite_db_path)
+            from alejandria.knowledge.profile_store import make_profile_store
+            _profile_store = make_profile_store()
         except Exception:
             pass
     return _profile_store

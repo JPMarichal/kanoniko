@@ -13,8 +13,11 @@ from functools import lru_cache
 
 from alejandria.config import settings
 from alejandria.ingestion.pipeline import IngestionPipeline
-from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.registry import DocumentRegistry, make_document_registry
 from alejandria.search.textual import TextualSearch, make_textual_search
+from alejandria.storage.chunk_writer import make_chunk_writer
+from alejandria.storage.kg_reader import make_kg_reader
+from alejandria.storage.kg_writer import make_kg_writer
 
 logger = logging.getLogger(__name__)
 
@@ -46,7 +49,8 @@ def _cache_success(func):
 
 @lru_cache
 def get_registry() -> DocumentRegistry:
-    return DocumentRegistry(settings.sqlite_db_path)
+    """Cached accessor — dispatches on ``settings.storage_backend``."""
+    return make_document_registry()
 
 
 @lru_cache
@@ -100,13 +104,44 @@ def get_kg_extractor():
 
 @lru_cache
 def get_profile_store():
-    """Get ProfileStore instance for entity profiles."""
-    try:
-        from alejandria.knowledge.profile_store import ProfileStore
+    """Get ProfileStore instance for entity profiles.
 
-        return ProfileStore(settings.sqlite_db_path)
+    Dispatches on ``settings.storage_backend`` via :func:`make_profile_store`.
+    Returns ``None`` if construction fails (import error, DB unreachable) so
+    RAG/chat degrade gracefully rather than crashing.
+    """
+    try:
+        from alejandria.knowledge.profile_store import make_profile_store
+
+        return make_profile_store()
     except Exception:
         logger.warning("ProfileStore unavailable")
+        return None
+
+
+@lru_cache
+def get_chunk_writer():
+    """Get the ChunkWriter selected by ``settings.storage_backend``."""
+    return make_chunk_writer()
+
+
+@_cache_success
+def get_kg_writer():
+    """Get the KGWriter, or None if the backend is unreachable."""
+    try:
+        return make_kg_writer()
+    except Exception:
+        logger.warning("KG writer unavailable")
+        return None
+
+
+@_cache_success
+def get_kg_reader():
+    """Get the KGReader, or None if the backend is unreachable."""
+    try:
+        return make_kg_reader()
+    except Exception:
+        logger.warning("KG reader unavailable")
         return None
 
 
@@ -114,9 +149,9 @@ def get_profile_store():
 def get_pipeline() -> IngestionPipeline:
     return IngestionPipeline(
         registry=get_registry(),
-        textual_search=get_textual_search(),
-        semantic_search_factory=get_semantic_search,
-        neo4j_client_factory=get_neo4j_client,
+        chunk_writer=get_chunk_writer(),
+        kg_writer=get_kg_writer(),
+        kg_reader=get_kg_reader(),
         kg_extractor_factory=get_kg_extractor,
         profile_store=get_profile_store(),
     )

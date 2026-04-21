@@ -1,0 +1,31 @@
+{
+  "title": "A Part of Me",
+  "author": "S. Michael Wilcox",
+  "book": "To See His Face",
+  "part": 14,
+  "doc_id": 134596,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "to-see-his-face",
+  "tags": [
+    "gospelink",
+    "to-see-his-face",
+    "example",
+    "gospel-living",
+    "jesus-christ"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/134596",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "To See His Face",
+  "chapter_title": "A Part of Me",
+  "year": 1982,
+  "publisher": "S. Michael Wilcox"
+}

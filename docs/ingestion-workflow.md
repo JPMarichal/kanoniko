@@ -2,7 +2,21 @@
 
 Proceso canónico para incorporar material nuevo al corpus de Alejandría.
 
-> **Estado:** propuesta aprobada, pendiente de implementación. Ingestión **congelada** hasta completar la secuencia de migración (§3).
+> **Estado:** propuesta aprobada, implementación en curso. Ingestión **congelada** hasta completar la secuencia de migración (§3).
+>
+> **Progreso §3.1 (rama `feature/postgres-write-path`):**
+> - ✅ ADR 0001 v2 aprobado — 3 Protocols cohesivos (ChunkWriter, KGWriter, KGReader) + Registry + ProfileStore, factory por flag.
+> - ✅ `DocumentRegistry` + `ProfileStore` portados.
+> - ✅ `ChunkWriter`, `KGWriter`, `KGReader` — Protocols definidos, Legacy adapters y Postgres impls entregados.
+> - ✅ `CuratedSeedLoader` extraído como servicio (orquestación ≠ persistencia).
+> - ✅ Pipeline refactorizado: 100+ call sites migrados a los 3 Protocols. Cero acceso a `_driver` raw. Los 5 helpers externos de Neo4j fueron absorbidos como métodos del KGWriter.
+> - ✅ Imagen `docker-api` reconstruida con `psycopg3`.
+> - ✅ Smoke tests verdes: Protocol-level + E2E `ingest_paths` contra Postgres IONOS (1 doc sintético → document_registry + chunks + embeddings + tsvector).
+> - ✅ Golden queries: 16/31 ok en Postgres, 10/11 ok en Neo4j, **cero regresiones** del refactor.
+> - ✅ **Default flipeado a `postgres`** (`config.py` + las 8 factorías). El flag sigue para pruebas pero las rutas de producción pasan a Postgres.
+> - ⏳ §3.2 port completo de lectura KG (15 `NotImplementedError` pendientes en `PostgresGraphClient`).
+> - ⏳ §3.3 retiro de Neo4j + `Legacy*` + contenedor `alejandria-neo4j`.
+> - ⏳ §3.4 retiro de SQLite + `Sqlite*` + `TextualSearch`/`SemanticSearch` SQLite paths + flag.
 
 ## 1. Propósito y principios
 
