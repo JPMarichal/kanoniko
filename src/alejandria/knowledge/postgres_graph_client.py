@@ -1466,43 +1466,6 @@ class PostgresGraphClient:
                 )
             conn.commit()
 
-    def load_curated_relations(self, relations_path: str | Path) -> dict[str, int]:
-        """Load curated relations from a JSON file into ``relations`` table.
-
-        The JSON shape is whatever `_RELATIONS_PATH` uses. Re-parses on every
-        call (small file). Returns count per rel_type.
-        """
-        p = Path(str(relations_path))
-        if not p.exists():
-            return {}
-        data = json.loads(p.read_text(encoding="utf-8"))
-
-        counts: dict[str, int] = {}
-        rels_batch: list[dict] = []
-        for rel_type, entries in (data.items() if isinstance(data, dict) else []):
-            if not isinstance(entries, list):
-                continue
-            for entry in entries:
-                from_name = entry.get("from") or entry.get("from_name")
-                from_type = entry.get("from_type", "person")
-                to_name = entry.get("to") or entry.get("to_name")
-                to_type = entry.get("to_type", "person")
-                if not (from_name and to_name):
-                    continue
-                rels_batch.append({
-                    "from_name": from_name, "from_type": from_type,
-                    "rel_type": rel_type,
-                    "to_name": to_name, "to_type": to_type,
-                    "props": {
-                        "confidence": entry.get("confidence", "curated"),
-                        "source": entry.get("source", "curated_seed"),
-                        "source_ref": entry.get("source_ref"),
-                    },
-                })
-                counts[rel_type] = counts.get(rel_type, 0) + 1
-        self.batch_merge_relations(rels_batch)
-        return counts
-
     def clear_all(self, preserve_sources: list[str] | None = None) -> None:
         """Clear KG data from Postgres.
 
