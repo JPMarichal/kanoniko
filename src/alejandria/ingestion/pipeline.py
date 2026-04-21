@@ -667,9 +667,10 @@ class IngestionPipeline:
 
                 # Load curated relations from gazetteers/relations.json (P6 Phase 1)
                 try:
+                    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
                     from alejandria.knowledge.extractor import _RELATIONS_PATH
                     if _RELATIONS_PATH.exists():
-                        counts = self._neo4j.load_curated_relations(_RELATIONS_PATH)
+                        counts = CuratedSeedLoader(self._neo4j).load(_RELATIONS_PATH)
                         total_curated = sum(counts.values())
                         logger.info(
                             "Loaded %d curated relations across %d types",
@@ -1575,9 +1576,10 @@ class IngestionPipeline:
         # These are high-confidence typed relations (family trees, callings,
         # authorship, etc.) that must be in the graph with curated confidence.
         try:
+            from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
             from alejandria.knowledge.extractor import _RELATIONS_PATH
             if _RELATIONS_PATH.exists():
-                counts = self._neo4j.load_curated_relations(_RELATIONS_PATH)
+                counts = CuratedSeedLoader(self._neo4j).load(_RELATIONS_PATH)
                 total_curated = sum(counts.values())
                 logger.info(
                     "KG rebuild: loaded %d curated relations across %d types",

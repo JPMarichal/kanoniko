@@ -659,60 +659,6 @@ class Neo4jClient:
                 name=name, type=entity_type, props=props,
             )
 
-    def load_curated_relations(self, relations_path: str | Path) -> dict[str, int]:
-        """Load curated relations from a JSON seed file into Neo4j.
-
-        Returns dict mapping relation_type -> count of relations loaded.
-        """
-        import json
-
-        path = Path(relations_path)
-        with open(path, encoding="utf-8") as f:
-            data = json.load(f)
-
-        counts: dict[str, int] = {}
-        for rel_type, relations in data.items():
-            count = 0
-            for rel in relations:
-                from_ent = rel["from"]
-                to_ent = rel["to"]
-
-                # Build properties dict from relation fields
-                props: dict[str, Any] = {}
-                for key in ("source_ref", "confidence", "source", "verified", "role", "verse_range"):
-                    if key in rel:
-                        props[key] = rel[key]
-                # Default confidence for curated data
-                if "confidence" not in props:
-                    props["confidence"] = "curated"
-                props["source"] = "curated_seed"
-
-                self.merge_relation(
-                    from_name=from_ent["name"],
-                    from_type=from_ent["type"],
-                    rel_type=rel_type,
-                    to_name=to_ent["name"],
-                    to_type=to_ent["type"],
-                    properties=props,
-                )
-
-                # Handle bidirectional relations
-                if rel.get("bidirectional"):
-                    self.merge_relation(
-                        from_name=to_ent["name"],
-                        from_type=to_ent["type"],
-                        rel_type=rel_type,
-                        to_name=from_ent["name"],
-                        to_type=from_ent["type"],
-                        properties=props,
-                    )
-
-                count += 1
-            counts[rel_type] = count
-            logger.info("Loaded %d %s relations from curated seed", count, rel_type)
-
-        return counts
-
     def migrate_untyped_relations(self, batch_size: int = 500) -> dict[str, int]:
         """Reclassify generic CO_OCCURS_WITH and RELATED_TO relations.
 
