@@ -24,7 +24,7 @@ get_gospelink_book contents_id:
 # Runs after user completes fetch in PowerShell.
 # Audit + enrich + validate + commit + catalog update.
 # Accepts either a slug ("mormon-doctrine") or contents-id ("569").
-gospelink_finalize id_or_slug:
+gospelink_finalize id_or_slug="":
     python scripts/_gospelink_finalize.py {{id_or_slug}}
 
 # One-time login to refresh the Gospelink session cookies.
