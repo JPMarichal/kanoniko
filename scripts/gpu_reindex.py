@@ -54,13 +54,13 @@ def main():
     print()
 
     # Wire up dependencies (same as API's get_pipeline)
-    from alejandria.ingestion.registry import DocumentRegistry
-    from alejandria.search.textual import TextualSearch
+    from alejandria.ingestion.registry import make_document_registry
+    from alejandria.search.textual import make_textual_search
 
     from pathlib import Path
     db_path = Path(settings.sqlite_db_path)
-    registry = DocumentRegistry(db_path)
-    textual = TextualSearch(db_path)
+    registry = make_document_registry(db_path)
+    textual = make_textual_search(db_path)
 
     semantic = None
     try:

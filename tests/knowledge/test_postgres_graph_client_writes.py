@@ -2,7 +2,8 @@
 
 Covers merge_entity, merge_document, merge_relation, link_entity_to_document,
 batch_* variants, batch_write_all, delete_document_relations,
-update_entity_profile, load_curated_relations.
+update_entity_profile. Curated-seed loading is covered via
+:class:`CuratedSeedLoader` (see :func:`test_curated_seed_loader_*`).
 
 All tests use the ``__pgtest__`` prefix on entity names / file_paths so they
 live in an isolated namespace and never touch real data. The ``isolate_writes``
@@ -404,22 +405,27 @@ def test_update_entity_profile_noop_when_nothing_to_set(isolate_writes) -> None:
 
 
 # --------------------------------------------------------------------------- #
-# load_curated_relations
+# CuratedSeedLoader + PostgresGraphClient as KGWriter
 # --------------------------------------------------------------------------- #
 
-def test_load_curated_relations(isolate_writes, tmp_path) -> None:
+def test_curated_seed_loader_writes_relations(isolate_writes, tmp_path) -> None:
     import json as _j
+    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
     path = tmp_path / "relations.json"
     path.write_text(_j.dumps({
-        "MARRIED_TO": [{"from": __TEST_NS + "Husb",
-                        "to": __TEST_NS + "Wife"}],
-        "FATHER_OF": [{"from": __TEST_NS + "Husb",
-                       "to": __TEST_NS + "Kid"}],
+        "MARRIED_TO": [{
+            "from": {"name": __TEST_NS + "Husb", "type": "person"},
+            "to":   {"name": __TEST_NS + "Wife", "type": "person"},
+        }],
+        "FATHER_OF": [{
+            "from": {"name": __TEST_NS + "Husb", "type": "person"},
+            "to":   {"name": __TEST_NS + "Kid",  "type": "person"},
+        }],
     }))
-    c = PostgresGraphClient()
-    counts = c.load_curated_relations(path)
+    loader = CuratedSeedLoader(PostgresGraphClient())
+    counts = loader.load(path)
     assert counts == {"MARRIED_TO": 1, "FATHER_OF": 1}
     assert _row_count(
         "SELECT count(*) FROM relations r "
@@ -429,10 +435,29 @@ def test_load_curated_relations(isolate_writes, tmp_path) -> None:
     ) == 2
 
 
-def test_load_curated_relations_missing_file_returns_empty(tmp_path) -> None:
+def test_curated_seed_loader_bidirectional(isolate_writes, tmp_path) -> None:
+    import json as _j
+    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
     from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
-    c = PostgresGraphClient()
-    assert c.load_curated_relations(tmp_path / "nope.json") == {}
+
+    path = tmp_path / "relations.json"
+    path.write_text(_j.dumps({
+        "ALLIED_WITH": [{
+            "from": {"name": __TEST_NS + "A", "type": "people"},
+            "to":   {"name": __TEST_NS + "B", "type": "people"},
+            "bidirectional": True,
+        }],
+    }))
+    counts = CuratedSeedLoader(PostgresGraphClient()).load(path)
+    # bidirectional writes both directions, so count is 2 for the same type
+    assert counts == {"ALLIED_WITH": 2}
+
+
+def test_curated_seed_loader_missing_file_returns_empty(tmp_path) -> None:
+    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    loader = CuratedSeedLoader(PostgresGraphClient())
+    assert loader.load(tmp_path / "nope.json") == {}
 
 
 # --------------------------------------------------------------------------- #

@@ -201,6 +201,46 @@
       "committed": "26076908c"
     },
     {
+      "contents_id": 2559,
+      "slug": "sperry-symposium-classics",
+      "author": "Various Authors",
+      "title": "Sperry Symposium Classics: Doctrine and Covenants (2004)",
+      "docs": 25,
+      "committed": "77d11ca52"
+    },
+    {
+      "contents_id": 2560,
+      "slug": "stone-tables",
+      "author": "Orson Scott Card",
+      "title": "Stone Tables (2000)",
+      "docs": 16,
+      "committed": "0370dad84"
+    },
+    {
+      "contents_id": 2561,
+      "slug": "suicide",
+      "author": "M. Russell Ballard",
+      "title": "Suicide (1993)",
+      "docs": 1,
+      "committed": "c0fd0cf2f"
+    },
+    {
+      "contents_id": 2562,
+      "slug": "stories-from-my-life",
+      "author": "James E. Faust",
+      "title": "Stories From My Life (2001)",
+      "docs": 60,
+      "committed": "d2bf18dae"
+    },
+    {
+      "contents_id": 2563,
+      "slug": "to-see-his-face",
+      "author": "S. Michael Wilcox",
+      "title": "To See His Face (1982)",
+      "docs": 24,
+      "committed": "4160a898a"
+    },
+    {
       "contents_id": 2564,
       "slug": "turning-from-truth",
       "author": "Alexander B. Morrison",

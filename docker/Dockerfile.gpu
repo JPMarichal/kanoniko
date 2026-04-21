@@ -40,6 +40,10 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
     "neo4j>=5.0"
 
+# Postgres deps (postgres-write-path cutover: psycopg3 + pgvector wire format)
+RUN pip install --no-cache-dir \
+    "psycopg[binary]>=3.1"
+
 # MCP + CLI deps
 RUN pip install --no-cache-dir \
     "click>=8.1" \

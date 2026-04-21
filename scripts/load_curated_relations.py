@@ -59,6 +59,7 @@ def main() -> None:
         return
 
     # Import Neo4j client only when actually connecting (not for dry-run)
+    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
     from alejandria.knowledge.neo4j_client import Neo4jClient
 
     logger.info("Connecting to Neo4j...")
@@ -77,7 +78,7 @@ def main() -> None:
 
         # Load curated relations
         logger.info("Loading curated relations from %s...", args.relations_file.name)
-        counts = client.load_curated_relations(args.relations_file)
+        counts = CuratedSeedLoader(client).load(args.relations_file)
 
         # Print summary
         print(f"\n=== Curated Relations Loaded ===\n")

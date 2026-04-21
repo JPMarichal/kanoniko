@@ -184,12 +184,13 @@ def rebuild_kg(
 def load_curated_relations(
     migrate: bool = False,
 ) -> dict:
-    """Load curated relations from gazetteers/relations.json into Neo4j.
+    """Load curated relations from gazetteers/relations.json into the KG.
 
     Also migrates existing untyped relations (RELATED_TO, CO_OCCURS_WITH)
     to co_occurrence confidence when migrate=True.
     """
     from alejandria.api.dependencies import get_neo4j_client
+    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
     from alejandria.knowledge.extractor import _RELATIONS_PATH
 
     neo4j = get_neo4j_client()
@@ -204,7 +205,7 @@ def load_curated_relations(
         if not _RELATIONS_PATH.exists():
             raise HTTPException(404, f"Relations file not found: {_RELATIONS_PATH}")
 
-        counts = neo4j.load_curated_relations(_RELATIONS_PATH)
+        counts = CuratedSeedLoader(neo4j).load(_RELATIONS_PATH)
         total = sum(counts.values())
         populated = {k: v for k, v in counts.items() if v > 0}
 

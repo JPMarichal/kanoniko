@@ -18,12 +18,13 @@ class Settings(BaseSettings):
     neo4j_user: str = "neo4j"
     neo4j_password: str = "alejandria"
 
-    # Storage backend selector (Phase 3 of feature/postgres-migration).
-    # During the migration window, `sqlite` is the default (stable stack,
-    # SQLite FTS5 + sqlite-vec + Neo4j). Set `postgres` to route search and
-    # KG reads to the Postgres backend. Ingestion still writes to SQLite+Neo4j
-    # until cutover — see docs/postgres-migration.md Fase 4.
-    storage_backend: str = "sqlite"  # "sqlite" | "postgres"
+    # Storage backend selector. The write-path cutover (§3.1 of
+    # docs/ingestion-workflow.md) landed the three Postgres drivers
+    # (ChunkWriter/KGWriter/KGReader), validated with smoke tests and
+    # golden queries. Default is now "postgres". Legacy stack (SQLite
+    # FTS5 + sqlite-vec + Neo4j) is retired in §3.3–§3.4 together with
+    # this flag, which at that point collapses to a constant.
+    storage_backend: str = "postgres"  # "sqlite" | "postgres"
 
     # Postgres (migration target — Phase 2+ of feature/postgres-migration)
     postgres_host: str = "postgres"

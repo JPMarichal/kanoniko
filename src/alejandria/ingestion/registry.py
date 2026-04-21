@@ -1,58 +1,54 @@
-"""Document registry for tracking indexed files and enabling incremental indexing."""
+"""Document registry — tracks indexed files and their content hashes.
 
+This module exposes a :class:`DocumentRegistry` Protocol and a
+:func:`make_document_registry` factory that dispatches on
+``settings.storage_backend``. Concrete implementations live in sibling
+modules:
+
+* :mod:`alejandria.ingestion.postgres_registry` — Postgres IONOS (target).
+* :mod:`alejandria.ingestion.sqlite_registry` — legacy SQLite (transitional,
+  retired in §3.4 of ``docs/ingestion-workflow.md``).
+
+Consumers should import :class:`DocumentRegistry` (for type hints),
+:class:`FileRecord`, :func:`compute_hash`, and :func:`make_document_registry`.
+They should not import the concrete classes directly — that defeats the
+factory dispatch and ties the caller to a specific backend.
+"""
 from __future__ import annotations
 
 import hashlib
-import sqlite3
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
+from typing import Protocol, runtime_checkable
 
 
 @dataclass
 class FileRecord:
+    """One row of the document registry.
+
+    ``last_indexed`` is an ISO-8601 UTC string regardless of backend, so
+    callers don't have to care whether the storage layer uses TEXT or
+    TIMESTAMPTZ internally.
+    """
+
     file_path: str
     sha256: str
     file_size: int
     chunk_count: int
     last_indexed: str
-    status: str  # 'indexed', 'error', 'pending'
+    status: str  # 'indexed' | 'error' | 'pending'
 
 
-class DocumentRegistry:
-    """Tracks which files have been indexed and their content hashes."""
+@runtime_checkable
+class DocumentRegistry(Protocol):
+    """Minimal interface for file-level index tracking.
 
-    def __init__(self, db_path: Path) -> None:
-        self._db_path = db_path
-        db_path.parent.mkdir(parents=True, exist_ok=True)
-        self._init_db()
+    Only methods actually consumed by the rest of the codebase are exposed.
+    Backend-specific conveniences (connection management, DDL, etc.) are
+    implementation details.
+    """
 
-    def _conn(self) -> sqlite3.Connection:
-        conn = sqlite3.connect(str(self._db_path))
-        conn.row_factory = sqlite3.Row
-        return conn
-
-    def _init_db(self) -> None:
-        with self._conn() as conn:
-            conn.execute("""
-                CREATE TABLE IF NOT EXISTS document_registry (
-                    file_path    TEXT PRIMARY KEY,
-                    sha256       TEXT NOT NULL,
-                    file_size    INTEGER NOT NULL,
-                    chunk_count  INTEGER DEFAULT 0,
-                    last_indexed TEXT NOT NULL,
-                    status       TEXT DEFAULT 'pending'
-                )
-            """)
-
-    def get_record(self, file_path: str) -> FileRecord | None:
-        with self._conn() as conn:
-            row = conn.execute(
-                "SELECT * FROM document_registry WHERE file_path = ?", (file_path,)
-            ).fetchone()
-        if row is None:
-            return None
-        return FileRecord(**dict(row))
+    def get_record(self, file_path: str) -> FileRecord | None: ...
 
     def upsert(
         self,
@@ -61,50 +57,41 @@ class DocumentRegistry:
         file_size: int,
         chunk_count: int,
         status: str = "indexed",
-    ) -> None:
-        now = datetime.now(timezone.utc).isoformat()
-        with self._conn() as conn:
-            conn.execute(
-                """
-                INSERT INTO document_registry (file_path, sha256, file_size, chunk_count, last_indexed, status)
-                VALUES (?, ?, ?, ?, ?, ?)
-                ON CONFLICT(file_path) DO UPDATE SET
-                    sha256 = excluded.sha256,
-                    file_size = excluded.file_size,
-                    chunk_count = excluded.chunk_count,
-                    last_indexed = excluded.last_indexed,
-                    status = excluded.status
-                """,
-                (file_path, sha256, file_size, chunk_count, now, status),
-            )
+    ) -> None: ...
 
-    def delete(self, file_path: str) -> None:
-        with self._conn() as conn:
-            conn.execute(
-                "DELETE FROM document_registry WHERE file_path = ?", (file_path,)
-            )
+    def delete(self, file_path: str) -> None: ...
 
-    def all_records(self) -> list[FileRecord]:
-        with self._conn() as conn:
-            rows = conn.execute("SELECT * FROM document_registry ORDER BY file_path").fetchall()
-        return [FileRecord(**dict(r)) for r in rows]
+    def all_records(self) -> list[FileRecord]: ...
 
-    def count(self) -> int:
-        with self._conn() as conn:
-            row = conn.execute("SELECT COUNT(*) AS cnt FROM document_registry").fetchone()
-            return row["cnt"]
+    def count(self) -> int: ...
 
-    def errors(self) -> list[FileRecord]:
-        with self._conn() as conn:
-            rows = conn.execute(
-                "SELECT * FROM document_registry WHERE status = 'error'"
-            ).fetchall()
-        return [FileRecord(**dict(r)) for r in rows]
+    def errors(self) -> list[FileRecord]: ...
 
-    @staticmethod
-    def compute_hash(path: Path) -> str:
-        h = hashlib.sha256()
-        with open(path, "rb") as f:
-            for block in iter(lambda: f.read(8192), b""):
-                h.update(block)
-        return h.hexdigest()
+
+def compute_hash(path: Path) -> str:
+    """SHA-256 digest of a file's bytes. Backend-agnostic, pure IO."""
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(8192), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def make_document_registry(db_path: Path | None = None) -> DocumentRegistry:
+    """Return the registry backend selected by ``settings.storage_backend``.
+
+    * ``"postgres"`` — :class:`PostgresDocumentRegistry` over Postgres IONOS.
+      ``db_path`` is ignored.
+    * ``"sqlite"`` (legacy) — :class:`SqliteDocumentRegistry` at ``db_path``
+      or ``settings.sqlite_db_path`` if not provided.
+    """
+    from alejandria.config import settings
+
+    backend = (settings.storage_backend or "postgres").lower()
+    if backend == "postgres":
+        from alejandria.ingestion.postgres_registry import PostgresDocumentRegistry
+
+        return PostgresDocumentRegistry()
+    from alejandria.ingestion.sqlite_registry import SqliteDocumentRegistry
+
+    return SqliteDocumentRegistry(db_path or settings.sqlite_db_path)

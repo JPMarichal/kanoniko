@@ -8,6 +8,7 @@ from pathlib import Path
 import pytest
 
 from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.sqlite_registry import SqliteDocumentRegistry
 from alejandria.search.textual import TextualSearch
 
 
@@ -18,7 +19,9 @@ def tmp_db(tmp_path: Path) -> Path:
 
 @pytest.fixture
 def registry(tmp_db: Path) -> DocumentRegistry:
-    return DocumentRegistry(tmp_db)
+    # These tests exercise the SQLite backend explicitly. They are retired
+    # alongside SQLite in §3.4 of docs/ingestion-workflow.md.
+    return SqliteDocumentRegistry(tmp_db)
 
 
 @pytest.fixture

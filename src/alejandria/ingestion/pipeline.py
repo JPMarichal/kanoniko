@@ -16,7 +16,7 @@ from alejandria.authority import derive_authority
 from alejandria.config import settings
 from alejandria.ingestion.chunker import chunk_handbook, chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
-from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.registry import DocumentRegistry, compute_hash
 from alejandria.ingestion.conference_parser import (
     ConferenceTalk,
     conference_talk_from_meta,
@@ -28,7 +28,9 @@ from alejandria.ingestion.scripture_meta import (
     build_scripture_metadata,
     is_scripture,
 )
-from alejandria.search.textual import TextualSearch
+from alejandria.storage.chunk_writer import ChunkRecord, ChunkWriter
+from alejandria.storage.kg_reader import KnowledgeGraphReader
+from alejandria.storage.kg_writer import KnowledgeGraphWriter
 
 # Optional profile store
 try:
@@ -40,19 +42,19 @@ except ImportError:
 
 logger = logging.getLogger(__name__)
 
-# Optional semantic search — None when sqlite-vec is not available
+# Encoder — required for semantic index population. Separate from the
+# ChunkWriter: the writer persists vectors; this module computes them.
 try:
     from alejandria.embeddings.model import encode
-    from alejandria.search.semantic import SemanticSearch
 
     _SEMANTIC_AVAILABLE = True
 except ImportError:
     _SEMANTIC_AVAILABLE = False
 
-# Optional knowledge graph
+# Optional knowledge graph — KGExtractor runs NER; the ChunkWriter /
+# KGWriter Protocols handle persistence and are always injected.
 try:
     from alejandria.knowledge.extractor import KGExtractor
-    from alejandria.knowledge.neo4j_client import Neo4jClient
 
     _KG_AVAILABLE = True
 except ImportError:
@@ -180,51 +182,30 @@ class IngestionPipeline:
     def __init__(
         self,
         registry: DocumentRegistry,
-        textual_search: TextualSearch,
-        semantic_search: SemanticSearch | None = None,
-        neo4j_client: Neo4jClient | None = None,
+        chunk_writer: ChunkWriter,
+        kg_writer: KnowledgeGraphWriter | None = None,
+        kg_reader: KnowledgeGraphReader | None = None,
         kg_extractor: KGExtractor | None = None,
         profile_store: ProfileStore | None = None,
         *,
-        semantic_search_factory: callable | None = None,
-        neo4j_client_factory: callable | None = None,
         kg_extractor_factory: callable | None = None,
     ) -> None:
         self._registry = registry
-        self._textual = textual_search
-        self._semantic_direct = semantic_search
-        self._neo4j_direct = neo4j_client
+        self._chunk_writer = chunk_writer
+        self._kg_writer = kg_writer
+        self._kg_reader = kg_reader
         self._kg_extractor_direct = kg_extractor
-        self._semantic_factory = semantic_search_factory
-        self._neo4j_factory = neo4j_client_factory
         self._kg_extractor_factory = kg_extractor_factory
         self._profile_store = profile_store
         self.progress = IndexingProgress()
 
     @property
-    def _semantic(self):
-        if self._semantic_direct is not None:
-            return self._semantic_direct
-        if self._semantic_factory is not None:
-            result = self._semantic_factory()
-            if result is not None:
-                self._semantic_direct = result
-            return result
-        return None
-
-    @property
-    def _neo4j(self):
-        if self._neo4j_direct is not None:
-            return self._neo4j_direct
-        if self._neo4j_factory is not None:
-            result = self._neo4j_factory()
-            if result is not None:
-                self._neo4j_direct = result
-            return result
-        return None
-
-    @property
     def _kg_extractor(self):
+        """KG extractor is the only remaining lazy dependency.
+
+        Loaded on demand because spaCy + gazetteers are heavy; pipelines
+        that run with ``skip_kg=True`` never pay the import cost.
+        """
         if self._kg_extractor_direct is not None:
             return self._kg_extractor_direct
         if self._kg_extractor_factory is not None:
@@ -234,8 +215,8 @@ class IngestionPipeline:
             return result
         return None
 
-    # Sources to preserve in Neo4j during full reindex
-    PRESERVED_NEO4J_SOURCES = ["topical_guide"]
+    # Sources to preserve in the KG during full reindex
+    PRESERVED_KG_SOURCES = ["topical_guide"]
 
     def ingest_paths(self, paths: list[str], *, force: bool = False, skip_kg: bool = False, kg_flush_interval: int = 15) -> IndexingStats:
         """Index specific corpus paths (files or directories) without scanning the full corpus.
@@ -288,7 +269,7 @@ class IngestionPipeline:
             # Build list of files to process
             to_process: list[tuple[str, Path, str, bool]] = []
             for rel_path, abs_path in disk_files.items():
-                current_hash = DocumentRegistry.compute_hash(abs_path)
+                current_hash = compute_hash(abs_path)
                 record = registry_records.get(rel_path)
 
                 if not force and record is not None and record.sha256 == current_hash and record.status == "indexed":
@@ -312,14 +293,8 @@ class IngestionPipeline:
             # Phase 1a: Delete old data for updates only
             updates = [(rp, ap, h) for rp, ap, h, is_upd in to_process if is_upd]
             if updates:
-                conn_del = self._textual.get_connection()
-                with conn_del:
-                    for rel_path, _, _ in updates:
-                        self._textual.delete_by_file(conn_del, rel_path)
-                conn_del.close()
-                if self._semantic:
-                    for rel_path, _, _ in updates:
-                        self._semantic.delete_by_file(rel_path)
+                for rel_path, _, _ in updates:
+                    self._chunk_writer.delete_by_file(rel_path)
 
             # Phase 1b: Parse in parallel
             parse_map: dict[str, _FileData | None] = {}
@@ -347,40 +322,37 @@ class IngestionPipeline:
                         )
                         stats.errors += 1
 
-            # Phase 1c: FTS insert (serial, single connection)
-            conn_fts = self._textual.get_connection()
-            try:
-                for rel_path, abs_path, current_hash, is_update in to_process:
-                    if rel_path in errored:
-                        continue
-                    fd = parse_map.get(rel_path)
-                    if fd is None:
-                        self._registry.upsert(
-                            file_path=rel_path, sha256=current_hash,
-                            file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
-                        )
-                        if is_update:
-                            stats.updated_files += 1
-                        else:
-                            stats.new_files += 1
-                        continue
-                    try:
-                        self._fts_insert(fd, conn_fts)
-                        file_data_list.append(fd)
-                        stats.total_chunks += len(fd.chunks)
-                        if is_update:
-                            stats.updated_files += 1
-                        else:
-                            stats.new_files += 1
-                    except Exception:
-                        logger.exception("Error inserting FTS for %s", rel_path)
-                        self._registry.upsert(
-                            file_path=rel_path, sha256=current_hash,
-                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
-                        )
-                        stats.errors += 1
-            finally:
-                conn_fts.close()
+            # Phase 1c: FTS insert (serial — the ChunkWriter batches each
+            # file's chunks in one transaction internally).
+            for rel_path, abs_path, current_hash, is_update in to_process:
+                if rel_path in errored:
+                    continue
+                fd = parse_map.get(rel_path)
+                if fd is None:
+                    self._registry.upsert(
+                        file_path=rel_path, sha256=current_hash,
+                        file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                    )
+                    if is_update:
+                        stats.updated_files += 1
+                    else:
+                        stats.new_files += 1
+                    continue
+                try:
+                    self._fts_insert(fd)
+                    file_data_list.append(fd)
+                    stats.total_chunks += len(fd.chunks)
+                    if is_update:
+                        stats.updated_files += 1
+                    else:
+                        stats.new_files += 1
+                except Exception:
+                    logger.exception("Error inserting FTS for %s", rel_path)
+                    self._registry.upsert(
+                        file_path=rel_path, sha256=current_hash,
+                        file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                    )
+                    stats.errors += 1
 
             total_chunks = sum(len(fd.chunks) for fd in file_data_list)
 
@@ -388,7 +360,7 @@ class IngestionPipeline:
             self.progress.phase = 2
             self.progress.phase_start_time = time.time()
             self.progress.phase_2_chunks = total_chunks
-            if self._semantic and _SEMANTIC_AVAILABLE and total_chunks > 0:
+            if _SEMANTIC_AVAILABLE and total_chunks > 0:
                 all_texts = [c.text for fd in file_data_list for c in fd.chunks]
                 all_vectors = encode(all_texts, batch_size=256)
                 offset = 0
@@ -430,9 +402,9 @@ class IngestionPipeline:
                 """Neo4j write in background thread."""
                 nonlocal _flush_error
                 try:
-                    neo4j = self._neo4j
-                    if neo4j:
-                        neo4j.batch_write_all(
+                    kg_writer = self._kg_writer
+                    if kg_writer is not None:
+                        kg_writer.batch_write_all(
                             delete_paths=del_paths,
                             documents=docs,
                             entities=ents,
@@ -493,7 +465,7 @@ class IngestionPipeline:
                 n_chunks = len(fd.chunks)
 
                 # For large files, process NER in sub-batches to limit memory
-                if n_chunks > KG_CHUNK_FLUSH_THRESHOLD and not skip_kg and self._neo4j and self._kg_extractor:
+                if n_chunks > KG_CHUNK_FLUSH_THRESHOLD and not skip_kg and self._kg_writer is not None and self._kg_extractor:
                     try:
                         self._index_file_data_chunked(
                             fd, chunk_batch_size=KG_CHUNK_FLUSH_THRESHOLD,
@@ -611,18 +583,12 @@ class IngestionPipeline:
 
             if full_reindex:
                 # Delete everything and re-ingest
-                conn = self._textual.get_connection()
-                with conn:
-                    for file_path in registry_records:
-                        self._textual.delete_by_file(conn, file_path)
-                # Delete registry records after FTS connection is released
+                self._chunk_writer.drop_all()
                 for file_path in registry_records:
                     self._registry.delete(file_path)
-                if self._semantic:
-                    self._semantic.drop_collection()
-                if self._neo4j:
-                    self._neo4j.clear_all(
-                        preserve_sources=self.PRESERVED_NEO4J_SOURCES,
+                if self._kg_writer is not None:
+                    self._kg_writer.clear_all(
+                        preserve_sources=self.PRESERVED_KG_SOURCES,
                     )
                 registry_records = {}
 
@@ -635,7 +601,7 @@ class IngestionPipeline:
             # Build list of files to process (skip unchanged)
             to_process: list[tuple[str, Path, str, bool]] = []
             for rel_path, abs_path in disk_files.items():
-                current_hash = DocumentRegistry.compute_hash(abs_path)
+                current_hash = compute_hash(abs_path)
                 record = registry_records.get(rel_path)
 
                 if (
@@ -658,18 +624,19 @@ class IngestionPipeline:
 
             # Apply KG seeds before processing — ensures research-phase knowledge
             # is in the graph before NER extraction runs on individual files
-            if self._neo4j and self._kg_extractor:
+            if self._kg_writer is not None and self._kg_extractor:
                 seed_entities, seed_relations = _load_kg_seeds()
                 if seed_entities:
-                    self._neo4j.batch_merge_entities(seed_entities)
+                    self._kg_writer.batch_merge_entities(seed_entities)
                 if seed_relations:
-                    self._neo4j.batch_merge_relations(seed_relations)
+                    self._kg_writer.batch_merge_relations(seed_relations)
 
                 # Load curated relations from gazetteers/relations.json (P6 Phase 1)
                 try:
+                    from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
                     from alejandria.knowledge.extractor import _RELATIONS_PATH
                     if _RELATIONS_PATH.exists():
-                        counts = self._neo4j.load_curated_relations(_RELATIONS_PATH)
+                        counts = CuratedSeedLoader(self._kg_writer).load(_RELATIONS_PATH)
                         total_curated = sum(counts.values())
                         logger.info(
                             "Loaded %d curated relations across %d types",
@@ -688,17 +655,11 @@ class IngestionPipeline:
             )
             file_data_list: list[_FileData] = []
 
-            # 1a: Delete old data for updated files only (serial, batched in one connection)
+            # 1a: Delete old data for updated files only
             updates = [(rp, ap, h) for rp, ap, h, is_upd in to_process if is_upd]
             if updates:
-                conn_del = self._textual.get_connection()
-                with conn_del:
-                    for rel_path, _, _ in updates:
-                        self._textual.delete_by_file(conn_del, rel_path)
-                conn_del.close()
-                if self._semantic:
-                    for rel_path, _, _ in updates:
-                        self._semantic.delete_by_file(rel_path)
+                for rel_path, _, _ in updates:
+                    self._chunk_writer.delete_by_file(rel_path)
                 logger.info("Phase 1a: deleted old data for %d updated files", len(updates))
 
             # 1b: Parse + chunk in parallel (no SQLite)
@@ -727,41 +688,37 @@ class IngestionPipeline:
                         )
                         stats.errors += 1
 
-            # 1c: FTS insert (serial, single shared connection)
-            conn_fts = self._textual.get_connection()
-            try:
-                for rel_path, abs_path, current_hash, is_update in to_process:
-                    if rel_path in errored:
-                        continue
-                    fd = parse_map.get(rel_path)
-                    if fd is None:
-                        # Empty file — register with 0 chunks
-                        self._registry.upsert(
-                            file_path=rel_path, sha256=current_hash,
-                            file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
-                        )
-                        if is_update:
-                            stats.updated_files += 1
-                        else:
-                            stats.new_files += 1
-                        continue
-                    try:
-                        self._fts_insert(fd, conn_fts)
-                        file_data_list.append(fd)
-                        stats.total_chunks += len(fd.chunks)
-                        if is_update:
-                            stats.updated_files += 1
-                        else:
-                            stats.new_files += 1
-                    except Exception:
-                        logger.exception("Error inserting FTS for %s", rel_path)
-                        self._registry.upsert(
-                            file_path=rel_path, sha256=current_hash,
-                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
-                        )
-                        stats.errors += 1
-            finally:
-                conn_fts.close()
+            # 1c: FTS insert (serial — ChunkWriter batches per file in one transaction)
+            for rel_path, abs_path, current_hash, is_update in to_process:
+                if rel_path in errored:
+                    continue
+                fd = parse_map.get(rel_path)
+                if fd is None:
+                    # Empty file — register with 0 chunks
+                    self._registry.upsert(
+                        file_path=rel_path, sha256=current_hash,
+                        file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                    )
+                    if is_update:
+                        stats.updated_files += 1
+                    else:
+                        stats.new_files += 1
+                    continue
+                try:
+                    self._fts_insert(fd)
+                    file_data_list.append(fd)
+                    stats.total_chunks += len(fd.chunks)
+                    if is_update:
+                        stats.updated_files += 1
+                    else:
+                        stats.new_files += 1
+                except Exception:
+                    logger.exception("Error inserting FTS for %s", rel_path)
+                    self._registry.upsert(
+                        file_path=rel_path, sha256=current_hash,
+                        file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                    )
+                    stats.errors += 1
 
             total_chunks = sum(len(fd.chunks) for fd in file_data_list)
             logger.info(
@@ -773,7 +730,7 @@ class IngestionPipeline:
             self.progress.phase = 2
             self.progress.phase_start_time = time.time()
             self.progress.phase_2_chunks = total_chunks
-            if self._semantic and _SEMANTIC_AVAILABLE and total_chunks > 0:
+            if _SEMANTIC_AVAILABLE and total_chunks > 0:
                 logger.info("Phase 2/3: Batch-encoding %d chunks...", total_chunks)
                 all_texts = []
                 for fd in file_data_list:
@@ -905,16 +862,28 @@ class IngestionPipeline:
             meta_json=file_meta_json or None,
         )
 
-    def _fts_insert(self, fd: _FileData, conn) -> None:
-        """Insert parsed chunks into FTS5. Fills fd.chunk_ids in-place. Must run serially."""
-        with conn:
-            for chunk, ref in zip(fd.chunks, fd.chunk_references):
-                cid = self._textual.index_chunk(
-                    conn=conn, file_path=fd.rel_path, chunk_index=chunk.index,
-                    text=chunk.text, start_char=chunk.start_char, end_char=chunk.end_char,
-                    metadata=fd.metadata_str, reference=ref,
-                )
-                fd.chunk_ids.append(cid)
+    def _fts_insert(self, fd: _FileData) -> None:
+        """Insert parsed chunks into the textual index via ChunkWriter.
+
+        Fills ``fd.chunk_ids`` in-place. Must run serially (callers expect
+        the id order to match ``fd.chunks`` order).
+        """
+        metadata = json.loads(fd.metadata_str) if fd.metadata_str else {}
+        records = [
+            ChunkRecord(
+                file_path=fd.rel_path,
+                chunk_index=chunk.index,
+                text=chunk.text,
+                language=fd.lang or "es",
+                reference=ref,
+                start_char=chunk.start_char,
+                end_char=chunk.end_char,
+                metadata=metadata,
+            )
+            for chunk, ref in zip(fd.chunks, fd.chunk_references)
+        ]
+        ids = self._chunk_writer.insert_chunks(records)
+        fd.chunk_ids.extend(ids)
 
     def _prepare_file(self, rel_path: str, abs_path: Path, file_hash: str) -> _FileData | None:
         """Phase 1 (single-file path): parse, chunk, delete old data, insert FTS.
@@ -923,11 +892,7 @@ class IngestionPipeline:
         _run_impl / _ingest_paths_impl which calls _parse_file_cpu + _fts_insert directly.
         """
         # Always treat as potential update (safe — delete is a no-op for new files)
-        conn = self._textual.get_connection()
-        with conn:
-            self._textual.delete_by_file(conn, rel_path)
-        if self._semantic:
-            self._semantic.delete_by_file(rel_path)
+        self._chunk_writer.delete_by_file(rel_path)
 
         fd = self._parse_file_cpu(rel_path, abs_path, file_hash)
         if fd is None:
@@ -937,8 +902,7 @@ class IngestionPipeline:
             )
             return None
 
-        conn = self._textual.get_connection()
-        self._fts_insert(fd, conn)
+        self._fts_insert(fd)
         return fd
 
     def _index_file_data_chunked(
@@ -957,7 +921,7 @@ class IngestionPipeline:
         instead of accumulating all entities/relations for a 1000-chunk file.
         """
         # sqlite-vec upsert (same as _index_file_data)
-        if self._semantic and _SEMANTIC_AVAILABLE and fd.vectors is not None:
+        if _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
             payloads = [
                 {
@@ -974,7 +938,7 @@ class IngestionPipeline:
                 }
                 for c, ref in zip(fd.chunks, fd.chunk_references)
             ]
-            self._semantic.upsert_chunks(
+            self._chunk_writer.upsert_embeddings(
                 ids=fd.chunk_ids,
                 vectors=[v.tolist() for v in fd.vectors],
                 payloads=payloads,
@@ -1049,7 +1013,7 @@ class IngestionPipeline:
         to Neo4j immediately — caller is responsible for flushing.
         """
         # sqlite-vec upsert (vectors were computed in phase 2)
-        if self._semantic and _SEMANTIC_AVAILABLE and fd.vectors is not None:
+        if _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
             # Conference-specific payload fields
             conf_fields: dict = {}
@@ -1077,14 +1041,14 @@ class IngestionPipeline:
                 }
                 for c, ref in zip(fd.chunks, fd.chunk_references)
             ]
-            self._semantic.upsert_chunks(
+            self._chunk_writer.upsert_embeddings(
                 ids=fd.chunk_ids,
                 vectors=[v.tolist() for v in fd.vectors],
                 payloads=payloads,
             )
 
         # Neo4j KG extraction
-        if self._neo4j and self._kg_extractor and not skip_kg:
+        if self._kg_writer and self._kg_extractor and not skip_kg:
             # Use cross-file accumulators if provided, else per-file (legacy)
             use_accumulators = kg_ents is not None
             if use_accumulators:
@@ -1097,8 +1061,8 @@ class IngestionPipeline:
                 kg_delete_paths.append(fd.rel_path)
                 kg_docs.append({"file_path": fd.rel_path, "source": fd.source})
             else:
-                self._neo4j.delete_document_relations(fd.rel_path)
-                self._neo4j.batch_merge_documents([{"file_path": fd.rel_path, "source": fd.source}])
+                self._kg_writer.delete_document_relations(fd.rel_path)
+                self._kg_writer.batch_merge_documents([{"file_path": fd.rel_path, "source": fd.source}])
                 batch_ents = []
                 batch_lnks = []
                 batch_rels = []
@@ -1262,9 +1226,9 @@ class IngestionPipeline:
             # Write immediately only in legacy (per-file) mode;
             # accumulator mode defers writes to the caller's _flush_kg()
             if not use_accumulators:
-                self._neo4j.batch_merge_entities(batch_ents)
-                self._neo4j.batch_link_entities_to_document(batch_lnks)
-                self._neo4j.batch_merge_relations(batch_rels)
+                self._kg_writer.batch_merge_entities(batch_ents)
+                self._kg_writer.batch_link_entities_to_document(batch_lnks)
+                self._kg_writer.batch_merge_relations(batch_rels)
 
         # Update registry
         self._registry.upsert(
@@ -1279,11 +1243,7 @@ class IngestionPipeline:
         lang = _extract_lang(rel_path)
 
         # Delete old data if exists
-        conn = self._textual.get_connection()
-        with conn:
-            self._textual.delete_by_file(conn, rel_path)
-        if self._semantic:
-            self._semantic.delete_by_file(rel_path)
+        self._chunk_writer.delete_by_file(rel_path)
 
         # Parse
         text = parse_file(abs_path)
@@ -1333,25 +1293,25 @@ class IngestionPipeline:
 
         metadata_str = json.dumps(base_meta)
 
-        # Index into FTS — collect chunk IDs for sqlite-vec
-        chunk_ids: list[int] = []
-        conn = self._textual.get_connection()
-        with conn:
-            for chunk, ref in zip(chunks, chunk_references):
-                cid = self._textual.index_chunk(
-                    conn=conn,
-                    file_path=rel_path,
-                    chunk_index=chunk.index,
-                    text=chunk.text,
-                    start_char=chunk.start_char,
-                    end_char=chunk.end_char,
-                    metadata=metadata_str,
-                    reference=ref,
-                )
-                chunk_ids.append(cid)
+        # Index chunks via ChunkWriter (one transaction internally)
+        metadata_dict = json.loads(metadata_str) if metadata_str else {}
+        records = [
+            ChunkRecord(
+                file_path=rel_path,
+                chunk_index=chunk.index,
+                text=chunk.text,
+                language=lang or "es",
+                reference=ref,
+                start_char=chunk.start_char,
+                end_char=chunk.end_char,
+                metadata=metadata_dict,
+            )
+            for chunk, ref in zip(chunks, chunk_references)
+        ]
+        chunk_ids = self._chunk_writer.insert_chunks(records)
 
-        # Index into sqlite-vec (semantic)
-        if self._semantic and _SEMANTIC_AVAILABLE:
+        # Compute + upsert embeddings
+        if _SEMANTIC_AVAILABLE:
             chunk_texts = [c.text for c in chunks]
             vectors = encode(chunk_texts)
             auth_dict = auth_meta.to_dict()
@@ -1370,16 +1330,16 @@ class IngestionPipeline:
                 }
                 for c, ref in zip(chunks, chunk_references)
             ]
-            self._semantic.upsert_chunks(
+            self._chunk_writer.upsert_embeddings(
                 ids=chunk_ids,
                 vectors=[v.tolist() for v in vectors],
                 payloads=payloads,
             )
 
         # Index into Neo4j (knowledge graph) — batched per file
-        if self._neo4j and self._kg_extractor:
-            self._neo4j.delete_document_relations(rel_path)
-            self._neo4j.batch_merge_documents([{"file_path": rel_path, "source": source}])
+        if self._kg_writer and self._kg_extractor:
+            self._kg_writer.delete_document_relations(rel_path)
+            self._kg_writer.batch_merge_documents([{"file_path": rel_path, "source": source}])
             batch_ents: list[dict] = []
             batch_lnks: list[dict] = []
             batch_rels: list[dict] = []
@@ -1409,9 +1369,9 @@ class IngestionPipeline:
                         "to_name": rel.to_entity, "to_type": rel.to_type,
                         "props": {},
                     })
-            self._neo4j.batch_merge_entities(batch_ents)
-            self._neo4j.batch_link_entities_to_document(batch_lnks)
-            self._neo4j.batch_merge_relations(batch_rels)
+            self._kg_writer.batch_merge_entities(batch_ents)
+            self._kg_writer.batch_link_entities_to_document(batch_lnks)
+            self._kg_writer.batch_merge_relations(batch_rels)
 
         # Update registry
         self._registry.upsert(
@@ -1433,61 +1393,45 @@ class IngestionPipeline:
 
         Returns stats dict.
         """
-        if not self._semantic or not _SEMANTIC_AVAILABLE:
-            return {"error": "Semantic search not available"}
+        if not _SEMANTIC_AVAILABLE:
+            return {"error": "Semantic encoder not available"}
 
         start = time.time()
 
-        # Drop and recreate sqlite-vec collection
-        logger.info("Vector rebuild: dropping sqlite-vec collection...")
-        self._semantic.drop_collection()
-
-        # Read all chunks from SQLite
-        conn = self._textual.get_connection()
-        rows = conn.execute(
-            "SELECT id, file_path, chunk_index, text, metadata, reference "
-            "FROM chunks ORDER BY file_path, chunk_index"
-        ).fetchall()
-        conn.close()
-
-        total = len(rows)
+        # Read all chunks from the index, then re-encode + upsert embeddings.
+        # The ChunkWriter's upsert_embeddings tolerates the same ids being
+        # overwritten, so we don't need to drop_all first.
+        all_rows = list(self._chunk_writer.iter_all_chunks())
+        total = len(all_rows)
         logger.info("Vector rebuild: encoding %d chunks...", total)
 
         # Batch-encode ALL texts in one GPU call
-        all_texts = [r[3] if isinstance(r, (list, tuple)) else r["text"] for r in rows]
+        all_texts = [r["text"] for r in all_rows]
         all_vectors = encode(all_texts, batch_size=256)
 
-        logger.info("Vector rebuild: encoding done in %.1fs, upserting to sqlite-vec...", time.time() - start)
+        logger.info("Vector rebuild: encoding done in %.1fs, upserting...", time.time() - start)
 
-        # Batch upsert to sqlite-vec in groups of 500
+        # Batch upsert in groups of 500
         batch_size = 500
         for i in range(0, total, batch_size):
-            batch_rows = rows[i:i + batch_size]
+            batch_rows = all_rows[i:i + batch_size]
             batch_vectors = all_vectors[i:i + batch_size]
 
-            ids = []
-            vectors = []
-            payloads = []
+            ids: list[int] = []
+            vectors: list[list[float]] = []
+            payloads: list[dict] = []
 
             for row, vec in zip(batch_rows, batch_vectors):
-                rowid = row[0] if isinstance(row, (list, tuple)) else row["id"]
-                file_path = row[1] if isinstance(row, (list, tuple)) else row["file_path"]
-                chunk_index = row[2] if isinstance(row, (list, tuple)) else row["chunk_index"]
-                text = row[3] if isinstance(row, (list, tuple)) else row["text"]
-                metadata_str = row[4] if isinstance(row, (list, tuple)) else row["metadata"]
-                reference = row[5] if isinstance(row, (list, tuple)) else row["reference"]
-
-                meta = json.loads(metadata_str) if metadata_str else {}
+                meta = row["metadata"] or {}
                 auth = meta.get("auth", {})
-
-                ids.append(rowid)
+                ids.append(row["id"])
                 vectors.append(vec.tolist())
                 payloads.append({
-                    "text": text,
-                    "file_path": file_path,
-                    "chunk_index": chunk_index,
+                    "text": row["text"],
+                    "file_path": row["file_path"],
+                    "chunk_index": row["chunk_index"],
                     "source": meta.get("source", ""),
-                    "reference": reference,
+                    "reference": row["reference"],
                     **({"lang": meta.get("lang")} if meta.get("lang") else {}),
                     "authority": auth.get("authority", 0),
                     "rigor": auth.get("rigor", 0),
@@ -1495,7 +1439,9 @@ class IngestionPipeline:
                     "official": auth.get("official", False),
                 })
 
-            self._semantic.upsert_chunks(ids=ids, vectors=vectors, payloads=payloads)
+            self._chunk_writer.upsert_embeddings(
+                ids=ids, vectors=vectors, payloads=payloads,
+            )
 
             if (i + batch_size) % 5000 == 0 or i + batch_size >= total:
                 logger.info(
@@ -1521,7 +1467,7 @@ class IngestionPipeline:
 
         Returns stats dict with counts.
         """
-        if not self._neo4j or not self._kg_extractor:
+        if not self._kg_writer or not self._kg_extractor:
             return {"error": "Neo4j or KG extractor not available"}
 
         import time
@@ -1530,12 +1476,11 @@ class IngestionPipeline:
 
         # Clear existing KG data (preserve external imports like TG)
         logger.info("KG rebuild: clearing existing graph...")
-        self._neo4j.clear_all(preserve_sources=self.PRESERVED_NEO4J_SOURCES)
+        self._kg_writer.clear_all(preserve_sources=self.PRESERVED_KG_SOURCES)
 
-        # Ensure Neo4j indexes for query performance (P6 Phase 14)
+        # Ensure indexes / constraints for query performance (P6 Phase 14)
         try:
-            from alejandria.knowledge.indexes import ensure_indexes
-            ensure_indexes(self._neo4j._driver)
+            self._kg_writer.ensure_indexes()
         except Exception:
             logger.warning("Failed to create indexes — continuing without them", exc_info=True)
 
@@ -1546,10 +1491,10 @@ class IngestionPipeline:
             structural_entities = structure.get_structural_entities()
             structural_relations = structure.get_structural_relations()
             for se in structural_entities:
-                self._neo4j.merge_entity(se["name"], se["type"],
+                self._kg_writer.merge_entity(se["name"], se["type"],
                                           aliases=[se["name_es"]] if se["name_es"] != se["name_en"] else [])
             for sr in structural_relations:
-                self._neo4j.merge_relation(
+                self._kg_writer.merge_relation(
                     from_name=sr["from_name"], from_type=sr["from_type"],
                     rel_type=sr["relation"],
                     to_name=sr["to_name"], to_type=sr["to_type"],
@@ -1567,17 +1512,18 @@ class IngestionPipeline:
         # Applied here so they exist before NER runs, giving them priority.
         seed_entities, seed_relations = _load_kg_seeds()
         if seed_entities:
-            self._neo4j.batch_merge_entities(seed_entities)
+            self._kg_writer.batch_merge_entities(seed_entities)
         if seed_relations:
-            self._neo4j.batch_merge_relations(seed_relations)
+            self._kg_writer.batch_merge_relations(seed_relations)
 
         # Load curated relations from gazetteers/relations.json (P6 Phase 1)
         # These are high-confidence typed relations (family trees, callings,
         # authorship, etc.) that must be in the graph with curated confidence.
         try:
+            from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
             from alejandria.knowledge.extractor import _RELATIONS_PATH
             if _RELATIONS_PATH.exists():
-                counts = self._neo4j.load_curated_relations(_RELATIONS_PATH)
+                counts = CuratedSeedLoader(self._kg_writer).load(_RELATIONS_PATH)
                 total_curated = sum(counts.values())
                 logger.info(
                     "KG rebuild: loaded %d curated relations across %d types",
@@ -1586,45 +1532,36 @@ class IngestionPipeline:
         except Exception:
             logger.warning("Failed to load curated relations — continuing without them", exc_info=True)
 
-        # Load scripture hierarchy into Neo4j (P6 Phase 6)
+        # Load scripture hierarchy (P6 Phase 6)
         try:
-            from alejandria.knowledge.hierarchy_loader import load_hierarchy
-            h_counts = load_hierarchy(self._neo4j._driver)
+            h_counts = self._kg_writer.load_scripture_structure()
             logger.info("KG rebuild: hierarchy loaded — %d chapters, %d contains rels", h_counts.get("chapters", 0), h_counts.get("contains", 0))
         except Exception:
             logger.warning("Failed to load hierarchy — continuing without it", exc_info=True)
 
         # Load parallel narratives (P6 Phase 2)
         try:
-            from alejandria.knowledge.parallels import load_parallels
-            p_counts = load_parallels(self._neo4j._driver)
+            p_counts = self._kg_writer.load_scripture_parallels()
             logger.info("KG rebuild: parallels loaded — %d narratives, %d relations", p_counts.get("narratives", 0), p_counts.get("relations", 0))
         except Exception:
             logger.warning("Failed to load parallels — continuing without them", exc_info=True)
 
-        # Extract metadata relations (P6 Phase 7) — depends on hierarchy (reads Chapter nodes)
+        # Extract metadata relations (P6 Phase 7) — depends on hierarchy
         try:
-            from alejandria.knowledge.metadata_relations import extract_metadata_relations
-            m_counts = extract_metadata_relations(self._neo4j._driver)
+            m_counts = self._kg_writer.extract_metadata_relations()
             logger.info("KG rebuild: metadata relations — %d total", m_counts.get("total", 0))
         except Exception:
             logger.warning("Failed to extract metadata relations — continuing without them", exc_info=True)
 
         # Load cross-references (P6 Phase 8)
         try:
-            from alejandria.knowledge.cross_ref_loader import load_cross_refs
-            cr_counts = load_cross_refs(self._neo4j._driver)
+            cr_counts = self._kg_writer.load_cross_references()
             logger.info("KG rebuild: cross-refs — %d verses, %d rels", cr_counts.get("verse_nodes", 0), cr_counts.get("relationships", 0))
         except Exception:
             logger.warning("Failed to load cross-refs — continuing without them", exc_info=True)
 
-        # Read all chunks from SQLite
-        conn = self._textual.get_connection()
-        rows = conn.execute(
-            "SELECT file_path, chunk_index, text FROM chunks ORDER BY file_path, chunk_index"
-        ).fetchall()
-        conn.close()
-
+        # Read all chunks from the index
+        rows = list(self._chunk_writer.iter_all_chunks())
         total_chunks = len(rows)
         logger.info("KG rebuild: processing %d chunks...", total_chunks)
 
@@ -1643,7 +1580,7 @@ class IngestionPipeline:
             """Send accumulated batch to Neo4j."""
             nonlocal batch_entities, batch_relations, batch_links, batch_documents
             if batch_documents:
-                self._neo4j.batch_merge_documents(batch_documents)
+                self._kg_writer.batch_merge_documents(batch_documents)
                 batch_documents = []
             if batch_entities:
                 # Deduplicate entities within batch (same name+type)
@@ -1654,7 +1591,7 @@ class IngestionPipeline:
                     if key not in seen:
                         seen.add(key)
                         deduped.append(e)
-                self._neo4j.batch_merge_entities(deduped)
+                self._kg_writer.batch_merge_entities(deduped)
                 batch_entities = []
             if batch_links:
                 # Deduplicate links
@@ -1665,15 +1602,15 @@ class IngestionPipeline:
                     if key not in seen_links:
                         seen_links.add(key)
                         deduped_links.append(lnk)
-                self._neo4j.batch_link_entities_to_document(deduped_links)
+                self._kg_writer.batch_link_entities_to_document(deduped_links)
                 batch_links = []
             if batch_relations:
-                self._neo4j.batch_merge_relations(batch_relations)
+                self._kg_writer.batch_merge_relations(batch_relations)
                 batch_relations = []
 
         for i, row in enumerate(rows):
-            file_path = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
-            text = row[2] if isinstance(row, (list, tuple)) else row["text"]
+            file_path = row["file_path"]
+            text = row["text"]
 
             # Ensure document node exists + load meta.json once per document
             if file_path not in documents_seen:
@@ -1781,7 +1718,7 @@ class IngestionPipeline:
 
         Returns stats dict.
         """
-        if not self._neo4j:
+        if not self._kg_writer:
             return {"error": "Neo4j not available"}
         if not self._profile_store:
             return {"error": "ProfileStore not available"}
@@ -1802,10 +1739,10 @@ class IngestionPipeline:
 
         # 1. Bulk query: all entities with their documents from Neo4j
         logger.info("Profile build: querying entity mentions from Neo4j...")
-        all_mentions = self._neo4j.get_all_entity_mentions()
+        all_mentions = self._kg_reader.get_all_entity_mentions()
 
         # 1b. Fetch disambiguated counts (P7)
-        disamb_counts = self._neo4j.get_disambiguated_counts()
+        disamb_counts = self._kg_reader.get_disambiguated_counts()
         if disamb_counts:
             logger.info("Profile build: %d entities have disambiguated counts", len(disamb_counts))
 
@@ -1819,116 +1756,105 @@ class IngestionPipeline:
         total = len(all_mentions)
         logger.info("Profile build: processing %d entities...", total)
 
-        # 2. For each entity, query SQLite chunks from its documents, extract snippets
+        # 2. For each entity, query chunks from its documents and extract snippets.
         profiles: list[EntityProfile] = []
-        conn = self._textual.get_connection()
 
-        try:
-            for i, mention in enumerate(all_mentions):
-                name = mention["name"]
-                entity_type = mention["type"]
-                aliases = mention.get("aliases") or []
-                file_paths = mention["file_paths"]
-                doc_count = mention["doc_count"]
+        for i, mention in enumerate(all_mentions):
+            name = mention["name"]
+            entity_type = mention["type"]
+            aliases = mention.get("aliases") or []
+            file_paths = mention["file_paths"]
+            doc_count = mention["doc_count"]
 
-                # Build searchable names: canonical + Neo4j aliases + gazetteer aliases
-                search_names = [name]
-                if aliases and isinstance(aliases, list):
-                    search_names.extend(a for a in aliases if a)
-                # Add gazetteer aliases (often richer than Neo4j's)
-                for ga in gazetteer_aliases.get(name, []):
-                    search_names.append(ga)
-                # Deduplicate preserving order
-                seen_names: set[str] = set()
-                unique_names: list[str] = []
-                for sn in search_names:
-                    if sn.lower() not in seen_names:
-                        seen_names.add(sn.lower())
-                        unique_names.append(sn)
+            # Build searchable names: canonical + KG aliases + gazetteer aliases
+            search_names = [name]
+            if aliases and isinstance(aliases, list):
+                search_names.extend(a for a in aliases if a)
+            # Add gazetteer aliases (often richer than KG's)
+            for ga in gazetteer_aliases.get(name, []):
+                search_names.append(ga)
+            # Deduplicate preserving order
+            seen_names: set[str] = set()
+            unique_names: list[str] = []
+            for sn in search_names:
+                if sn.lower() not in seen_names:
+                    seen_names.add(sn.lower())
+                    unique_names.append(sn)
 
-                # Query chunks that contain ANY of the searchable names
-                placeholders = ",".join("?" * len(file_paths))
-                like_clauses = " OR ".join(["LOWER(text) LIKE ?"] * len(unique_names))
-                like_params = [f"%{sn.lower()}%" for sn in unique_names]
-                rows = conn.execute(
-                    f"SELECT file_path, chunk_index, text, reference "
-                    f"FROM chunks WHERE file_path IN ({placeholders}) "
-                    f"AND ({like_clauses}) "
-                    f"ORDER BY file_path, chunk_index",
-                    [*file_paths, *like_params],
-                ).fetchall()
+            rows = self._chunk_writer.find_chunks_with_patterns(
+                file_paths=file_paths,
+                text_patterns=unique_names,
+            )
 
-                mention_count = len(rows)
+            mention_count = len(rows)
 
-                # Extract books from file_paths
-                books = sorted({_extract_book(fp) for fp in file_paths if _extract_book(fp)})
+            # Extract books from file_paths
+            books = sorted({_extract_book(fp) for fp in file_paths if _extract_book(fp)})
 
-                # Build key passages with volume diversity.
-                # Group candidate passages by corpus volume, then round-robin
-                # to ensure coverage across OT, NT, BoM, D&C, PGP, conference, etc.
-                candidates_by_volume: dict[str, list[dict]] = {}
-                seen_docs: set[str] = set()
-                for row in rows:
-                    fp = row[0] if isinstance(row, (list, tuple)) else row["file_path"]
-                    if fp in seen_docs:
-                        continue
-                    seen_docs.add(fp)
+            # Build key passages with volume diversity.
+            # Group candidate passages by corpus volume, then round-robin
+            # to ensure coverage across OT, NT, BoM, D&C, PGP, conference, etc.
+            candidates_by_volume: dict[str, list[dict]] = {}
+            seen_docs: set[str] = set()
+            for row in rows:
+                fp = row["file_path"]
+                if fp in seen_docs:
+                    continue
+                seen_docs.add(fp)
 
-                    text = row[2] if isinstance(row, (list, tuple)) else row["text"]
-                    ref = row[3] if isinstance(row, (list, tuple)) else row["reference"]
+                text = row["text"]
+                ref = row["reference"]
 
-                    snippet = None
-                    for sn in unique_names:
-                        if sn.lower() in text.lower():
-                            snippet = _extract_snippet(text, sn, max_len=200)
-                            break
-                    if snippet is None:
-                        snippet = text[:200] + ("..." if len(text) > 200 else "")
+                snippet = None
+                for sn in unique_names:
+                    if sn.lower() in text.lower():
+                        snippet = _extract_snippet(text, sn, max_len=200)
+                        break
+                if snippet is None:
+                    snippet = text[:200] + ("..." if len(text) > 200 else "")
 
-                    vol = _extract_volume(fp)
-                    candidates_by_volume.setdefault(vol, []).append(
-                        {"reference": ref or fp, "snippet": snippet}
-                    )
-
-                # Round-robin across volumes: 1 per volume first, then fill remaining
-                key_passages: list[dict] = []
-                vol_iters = {v: iter(ps) for v, ps in candidates_by_volume.items()}
-                while len(key_passages) < max_passages and vol_iters:
-                    exhausted = []
-                    for vol, it in vol_iters.items():
-                        if len(key_passages) >= max_passages:
-                            break
-                        p = next(it, None)
-                        if p is None:
-                            exhausted.append(vol)
-                        else:
-                            key_passages.append(p)
-                    for vol in exhausted:
-                        del vol_iters[vol]
-
-                # Attach disambiguated counts if available (P7)
-                dc = disamb_counts.get((name, entity_type), {})
-
-                profile = EntityProfile(
-                    entity_name=name,
-                    entity_type=entity_type,
-                    mention_count=mention_count,
-                    document_count=doc_count,
-                    books=books,
-                    key_passages=key_passages,
-                    aliases=[n for n in unique_names[1:] if n],  # all names except canonical
-                    disambiguated_counts=dc,
-                    status="metadata",
+                vol = _extract_volume(fp)
+                candidates_by_volume.setdefault(vol, []).append(
+                    {"reference": ref or fp, "snippet": snippet}
                 )
-                profiles.append(profile)
 
-                if (i + 1) % 200 == 0:
-                    logger.info(
-                        "Profile build: %d/%d entities (%.0f%%)...",
-                        i + 1, total, (i + 1) / total * 100,
-                    )
-        finally:
-            conn.close()
+            # Round-robin across volumes: 1 per volume first, then fill remaining
+            key_passages: list[dict] = []
+            vol_iters = {v: iter(ps) for v, ps in candidates_by_volume.items()}
+            while len(key_passages) < max_passages and vol_iters:
+                exhausted = []
+                for vol, it in vol_iters.items():
+                    if len(key_passages) >= max_passages:
+                        break
+                    p = next(it, None)
+                    if p is None:
+                        exhausted.append(vol)
+                    else:
+                        key_passages.append(p)
+                for vol in exhausted:
+                    del vol_iters[vol]
+
+            # Attach disambiguated counts if available (P7)
+            dc = disamb_counts.get((name, entity_type), {})
+
+            profile = EntityProfile(
+                entity_name=name,
+                entity_type=entity_type,
+                mention_count=mention_count,
+                document_count=doc_count,
+                books=books,
+                key_passages=key_passages,
+                aliases=[n for n in unique_names[1:] if n],  # all names except canonical
+                disambiguated_counts=dc,
+                status="metadata",
+            )
+            profiles.append(profile)
+
+            if (i + 1) % 200 == 0:
+                logger.info(
+                    "Profile build: %d/%d entities (%.0f%%)...",
+                    i + 1, total, (i + 1) / total * 100,
+                )
 
         # 3. Batch upsert into ProfileStore
         logger.info("Profile build: saving %d profiles...", len(profiles))
@@ -1951,13 +1877,9 @@ class IngestionPipeline:
 
     def _delete_file(self, file_path: str) -> None:
         """Remove a file from all indices."""
-        conn = self._textual.get_connection()
-        with conn:
-            self._textual.delete_by_file(conn, file_path)
-        if self._semantic:
-            self._semantic.delete_by_file(file_path)
-        if self._neo4j:
-            self._neo4j.delete_document_relations(file_path)
+        self._chunk_writer.delete_by_file(file_path)
+        if self._kg_writer is not None:
+            self._kg_writer.delete_document_relations(file_path)
         self._registry.delete(file_path)
         logger.info("Deleted from index: %s", file_path)
 
