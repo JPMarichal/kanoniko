@@ -243,7 +243,7 @@ def make_textual_search(db_path: Path | None = None):
     """
     from alejandria.config import settings
 
-    backend = (settings.storage_backend or "sqlite").lower()
+    backend = (settings.storage_backend or "postgres").lower()
     if backend == "postgres":
         from alejandria.search.postgres_textual import PostgresTextualSearch
         return PostgresTextualSearch()

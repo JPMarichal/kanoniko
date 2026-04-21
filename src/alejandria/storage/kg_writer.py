@@ -133,7 +133,7 @@ def make_kg_writer() -> KnowledgeGraphWriter:
     """Return the KG writer selected by ``settings.storage_backend``."""
     from alejandria.config import settings
 
-    backend = (settings.storage_backend or "sqlite").lower()
+    backend = (settings.storage_backend or "postgres").lower()
     if backend == "postgres":
         from alejandria.storage.postgres_kg_writer import PostgresKGWriter
 

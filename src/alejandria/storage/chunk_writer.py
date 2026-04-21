@@ -125,7 +125,7 @@ def make_chunk_writer() -> ChunkWriter:
     """
     from alejandria.config import settings
 
-    backend = (settings.storage_backend or "sqlite").lower()
+    backend = (settings.storage_backend or "postgres").lower()
     if backend == "postgres":
         from alejandria.storage.postgres_chunk_writer import PostgresChunkWriter
 
