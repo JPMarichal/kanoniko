@@ -77,10 +77,12 @@ def test_chunk_writer() -> None:
     cw.upsert_embeddings(ids=ids, vectors=vectors, payloads=payloads)
     print("  upsert_embeddings OK")
 
-    # reads
-    all_chunks = [c for c in cw.iter_all_chunks() if c["file_path"].startswith(_NS)]
-    _assert(len(all_chunks) == 3, f"iter_all_chunks found {len(all_chunks)} in namespace (expected 3)")
-    print(f"  iter_all_chunks OK — {len(all_chunks)} chunks in namespace")
+    # reads — scope via find_chunks_with_patterns to avoid a full-corpus scan
+    # (iter_all_chunks is exercised by rebuild_vectors with a larger statement
+    # timeout; the smoke test uses the narrow path).
+    scoped = cw.find_chunks_with_patterns(file_paths=[file_path], text_patterns=["chunk"])
+    _assert(len(scoped) == 3, f"find_chunks_with_patterns (all 3): got {len(scoped)}")
+    print(f"  find_chunks_with_patterns (all) OK — {len(scoped)} chunks")
 
     hits = cw.find_chunks_with_patterns(file_paths=[file_path], text_patterns=["chunk 1"])
     _assert(len(hits) == 1, f"find_chunks_with_patterns: expected 1 hit, got {len(hits)}")
@@ -89,7 +91,8 @@ def test_chunk_writer() -> None:
 
     # delete
     cw.delete_by_file(file_path)
-    remaining = [c for c in cw.iter_all_chunks() if c["file_path"] == file_path]
+    # Verify via the namespace-scoped read, not a full-corpus iter.
+    remaining = cw.find_chunks_with_patterns(file_paths=[file_path], text_patterns=["chunk"])
     _assert(len(remaining) == 0, f"delete_by_file left {len(remaining)} rows")
     print("  delete_by_file OK")
 
