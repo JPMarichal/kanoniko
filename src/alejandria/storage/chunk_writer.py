@@ -19,7 +19,7 @@ leaking ``sqlite3.Connection`` would be a category error.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Protocol, runtime_checkable
+from typing import Any, Iterable, Protocol, runtime_checkable
 
 
 @dataclass
@@ -77,16 +77,42 @@ class ChunkWriter(Protocol):
         """Wipe all chunks and embeddings. Used at the start of a full reindex."""
         ...
 
-    # ----- Read-ish helpers (counts) ---------------------------------- #
+    # ----- Read API --------------------------------------------------- #
     #
-    # Pragmatic inclusion: the public API exposes these counts and they
-    # are trivial to implement per backend. Separating into a
-    # ChunkReader for two methods would be overengineered.
+    # Pragmatic inclusion: the ingestion pipeline performs three kinds of
+    # read over chunks (full iteration for rebuild_vectors / rebuild_kg,
+    # and filtered search for Phase 4 profile consolidation). Separating
+    # into a dedicated ChunkReader would mean two Protocols touching the
+    # same table — not worth the indirection during migration. Postgres
+    # implementations can still route reads to a replica internally.
 
     def count_chunks(self) -> int:
         ...
 
     def count_documents(self) -> int:
+        ...
+
+    def iter_all_chunks(self) -> Iterable[dict[str, Any]]:
+        """Yield every chunk as a dict.
+
+        Keys: ``id``, ``file_path``, ``chunk_index``, ``text``,
+        ``metadata`` (parsed dict), ``reference``. Ordered by
+        ``(file_path, chunk_index)`` for deterministic processing.
+        """
+        ...
+
+    def find_chunks_with_patterns(
+        self,
+        file_paths: list[str],
+        text_patterns: list[str],
+    ) -> list[dict[str, Any]]:
+        """Return chunks whose ``file_path`` is in ``file_paths`` AND whose
+        ``text`` matches any of ``text_patterns`` (case-insensitive substring).
+
+        Each item has keys: ``file_path``, ``chunk_index``, ``text``,
+        ``reference``. Used by Phase 4 profile building to surface
+        supporting passages per entity.
+        """
         ...
 
 

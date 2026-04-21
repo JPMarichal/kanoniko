@@ -58,6 +58,22 @@ class LegacyKGWriter:
     def delete_document_relations(self, file_path: str) -> None:
         self._client.delete_document_relations(file_path)
 
+    def batch_write_all(
+        self,
+        delete_paths: list[str],
+        documents: list[dict[str, Any]],
+        entities: list[dict[str, Any]],
+        links: list[dict[str, Any]],
+        relations: list[dict[str, Any]],
+    ) -> None:
+        self._client.batch_write_all(
+            delete_paths=delete_paths,
+            documents=documents,
+            entities=entities,
+            links=links,
+            relations=relations,
+        )
+
     # ----- Singular writes ------------------------------------------- #
 
     def merge_entity(
@@ -85,3 +101,32 @@ class LegacyKGWriter:
             to_type=to_type,
             properties=properties,
         )
+
+    # ----- Specialized bulk loaders ---------------------------------- #
+    #
+    # Transitional: delegates to the existing Neo4j-only helpers in the
+    # knowledge/ package. At §3.3 retirement, these helpers and this
+    # adapter disappear together; the Postgres impl carries the loader
+    # logic rewritten directly against pgvector/SQL.
+
+    def load_scripture_structure(self) -> dict[str, int]:
+        from alejandria.knowledge.hierarchy_loader import load_hierarchy
+
+        return load_hierarchy(self._client._driver)  # noqa: SLF001
+
+    def load_scripture_parallels(self) -> dict[str, int]:
+        from alejandria.knowledge.parallels import load_parallels
+
+        return load_parallels(self._client._driver)  # noqa: SLF001
+
+    def extract_metadata_relations(self) -> dict[str, int]:
+        from alejandria.knowledge.metadata_relations import (
+            extract_metadata_relations,
+        )
+
+        return extract_metadata_relations(self._client._driver)  # noqa: SLF001
+
+    def load_cross_references(self) -> dict[str, int]:
+        from alejandria.knowledge.cross_ref_loader import load_cross_refs
+
+        return load_cross_refs(self._client._driver)  # noqa: SLF001
