@@ -36,6 +36,12 @@ def find_pending_slugs():
             continue
         if entry in committed:
             continue
+        # Skip leftover discover temp dirs (e.g. "_auto-2569") that never
+        # got renamed. They have no _toc.json so audit would fail.
+        if entry.startswith("_auto-"):
+            continue
+        if not os.path.exists(os.path.join(raw_dir, "_toc.json")):
+            continue
         pending.append(entry)
     return pending
 
@@ -59,20 +65,30 @@ def resolve_slug(arg: str) -> str:
     )
 
 
-def run(cmd):
-    """Run a command, propagating exit code on failure."""
+def run(cmd, check=True):
+    """Run a command. If check=True, exit on failure; else return rc."""
     print(f"$ {' '.join(cmd)}")
     result = subprocess.run(cmd)
-    if result.returncode != 0:
+    if check and result.returncode != 0:
         sys.exit(result.returncode)
+    return result.returncode
 
 
-def finalize_one(slug):
+def finalize_one(slug, check=True):
+    """Run the full pipeline for one slug. With check=False, returns True on
+    success, False on any step failure (used for batch mode to keep going)."""
     print(f"\n=== Finalizing: {slug} ===\n")
-    run(["python", "scripts/download_gospelink.py", "audit", "--slug", slug, "--write-redo"])
-    run(["python", "scripts/download_gospelink.py", "enrich-meta", "--slug", slug])
-    run(["python", "scripts/_gospelink_validate.py", slug])
-    run(["python", "scripts/_gospelink_commit.py", slug])
+    steps = [
+        ["python", "scripts/download_gospelink.py", "audit", "--slug", slug, "--write-redo"],
+        ["python", "scripts/download_gospelink.py", "enrich-meta", "--slug", slug],
+        ["python", "scripts/_gospelink_validate.py", slug],
+        ["python", "scripts/_gospelink_commit.py", slug],
+    ]
+    for cmd in steps:
+        rc = run(cmd, check=check)
+        if rc != 0:
+            return False
+    return True
 
 
 def main():
@@ -99,8 +115,24 @@ def main():
         print("Aborted.")
         sys.exit(1)
 
+    succeeded, failed = [], []
     for slug in pending:
-        finalize_one(slug)
+        if finalize_one(slug, check=False):
+            succeeded.append(slug)
+        else:
+            failed.append(slug)
+            print(f"\n!!! {slug} failed — continuing with next.\n", file=sys.stderr)
+
+    print(f"\n=== Batch summary: {len(succeeded)} ok, {len(failed)} failed ===")
+    if succeeded:
+        print("OK:")
+        for s in succeeded:
+            print(f"  ✓ {s}")
+    if failed:
+        print("FAILED:")
+        for s in failed:
+            print(f"  ✗ {s}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
