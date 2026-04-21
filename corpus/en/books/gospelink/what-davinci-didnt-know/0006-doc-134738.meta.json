@@ -1,0 +1,31 @@
+{
+  "title": "The Search for the Holy Grail",
+  "author": "Thomas A. Wayment, Andrew C. Skinner, Richard Neitzel Holzapfel",
+  "book": "What DaVinci Didn't Know",
+  "part": 6,
+  "doc_id": 134738,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "what-davinci-didnt-know",
+  "tags": [
+    "gospelink",
+    "what-davinci-didnt-know",
+    "jesus-christ",
+    "new-testament",
+    "scripture-commentaries"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/134738",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "What DaVinci Didn't Know",
+  "chapter_title": "The Search for the Holy Grail",
+  "year": 2006,
+  "publisher": "Richard Neitzel Holzapfel, Andrew C. Skinner, Thomas A. Wayment"
+}
