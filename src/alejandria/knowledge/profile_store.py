@@ -107,7 +107,7 @@ def make_profile_store(db_path: Path | None = None) -> ProfileStore:
     """
     from alejandria.config import settings
 
-    backend = (settings.storage_backend or "sqlite").lower()
+    backend = (settings.storage_backend or "postgres").lower()
     if backend == "postgres":
         from alejandria.knowledge.postgres_profile_store import PostgresProfileStore
 

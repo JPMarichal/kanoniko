@@ -1526,7 +1526,7 @@ def make_graph_client():
     """
     from alejandria.config import settings
 
-    backend = (settings.storage_backend or "sqlite").lower()
+    backend = (settings.storage_backend or "postgres").lower()
     if backend == "postgres":
         return PostgresGraphClient()
     from alejandria.knowledge.neo4j_client import Neo4jClient

@@ -87,7 +87,7 @@ def make_document_registry(db_path: Path | None = None) -> DocumentRegistry:
     """
     from alejandria.config import settings
 
-    backend = (settings.storage_backend or "sqlite").lower()
+    backend = (settings.storage_backend or "postgres").lower()
     if backend == "postgres":
         from alejandria.ingestion.postgres_registry import PostgresDocumentRegistry
 
