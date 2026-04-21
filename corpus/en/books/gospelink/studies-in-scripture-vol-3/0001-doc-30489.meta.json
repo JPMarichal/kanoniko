@@ -1,0 +1,33 @@
+{
+  "title": "Abbreviations Used",
+  "author": "Robert L. Millet, Kent P. Jackson",
+  "book": "Studies in Scripture, Vol. 3: Genesis to 2 Samuel",
+  "part": 1,
+  "doc_id": 30489,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "studies-in-scripture-vol-3",
+  "tags": [
+    "gospelink",
+    "studies-in-scripture-vol-3",
+    "essays-talks",
+    "old-testament",
+    "scripture-commentaries",
+    "essays,-talks"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/30489",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Studies in Scripture",
+  "chapter_title": "Abbreviations Used",
+  "year": 1985,
+  "volume": 3,
+  "publisher": "Deseret Book Company"
+}
