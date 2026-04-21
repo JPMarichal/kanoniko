@@ -4,7 +4,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from alejandria.ingestion.pipeline import IngestionPipeline
-from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.sqlite_registry import SqliteDocumentRegistry as DocumentRegistry
 from alejandria.search.textual import TextualSearch
 
 

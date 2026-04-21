@@ -16,7 +16,7 @@ from alejandria.authority import derive_authority
 from alejandria.config import settings
 from alejandria.ingestion.chunker import chunk_handbook, chunk_scripture, chunk_text
 from alejandria.ingestion.parsers import parse_file
-from alejandria.ingestion.registry import DocumentRegistry
+from alejandria.ingestion.registry import DocumentRegistry, compute_hash
 from alejandria.ingestion.conference_parser import (
     ConferenceTalk,
     conference_talk_from_meta,
@@ -288,7 +288,7 @@ class IngestionPipeline:
             # Build list of files to process
             to_process: list[tuple[str, Path, str, bool]] = []
             for rel_path, abs_path in disk_files.items():
-                current_hash = DocumentRegistry.compute_hash(abs_path)
+                current_hash = compute_hash(abs_path)
                 record = registry_records.get(rel_path)
 
                 if not force and record is not None and record.sha256 == current_hash and record.status == "indexed":
@@ -635,7 +635,7 @@ class IngestionPipeline:
             # Build list of files to process (skip unchanged)
             to_process: list[tuple[str, Path, str, bool]] = []
             for rel_path, abs_path in disk_files.items():
-                current_hash = DocumentRegistry.compute_hash(abs_path)
+                current_hash = compute_hash(abs_path)
                 record = registry_records.get(rel_path)
 
                 if (
