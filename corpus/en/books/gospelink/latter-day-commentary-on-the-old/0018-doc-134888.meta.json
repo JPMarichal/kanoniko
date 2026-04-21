@@ -1,0 +1,31 @@
+{
+  "title": "EZRA",
+  "author": "Ellis T. Rasmussen",
+  "book": "Latter-day Commentary on the Old Testament",
+  "part": 18,
+  "doc_id": 134888,
+  "category": "books",
+  "subcategory": "gospelink",
+  "collection_slug": "latter-day-commentary-on-the-old",
+  "tags": [
+    "gospelink",
+    "latter-day-commentary-on-the-old",
+    "old-testament",
+    "scripture",
+    "scripture-commentaries"
+  ],
+  "authority": 60,
+  "rigor": 75,
+  "lang": "eng",
+  "source_url": "https://www.gospelink.com/print/doc/134888",
+  "source": "Gospelink (licensed, Deseret Book)",
+  "official": false,
+  "current": false,
+  "context": "book-author",
+  "audience": "adult",
+  "importance": "importante",
+  "series": "Latter-day Commentary on the Old Testament",
+  "chapter_title": "EZRA",
+  "year": 1993,
+  "publisher": "Deseret Book Company"
+}
