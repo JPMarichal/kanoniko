@@ -15,6 +15,9 @@ from alejandria.config import settings
 from alejandria.ingestion.pipeline import IngestionPipeline
 from alejandria.ingestion.registry import DocumentRegistry, make_document_registry
 from alejandria.search.textual import TextualSearch, make_textual_search
+from alejandria.storage.chunk_writer import make_chunk_writer
+from alejandria.storage.kg_reader import make_kg_reader
+from alejandria.storage.kg_writer import make_kg_writer
 
 logger = logging.getLogger(__name__)
 
@@ -117,12 +120,38 @@ def get_profile_store():
 
 
 @lru_cache
+def get_chunk_writer():
+    """Get the ChunkWriter selected by ``settings.storage_backend``."""
+    return make_chunk_writer()
+
+
+@_cache_success
+def get_kg_writer():
+    """Get the KGWriter, or None if the backend is unreachable."""
+    try:
+        return make_kg_writer()
+    except Exception:
+        logger.warning("KG writer unavailable")
+        return None
+
+
+@_cache_success
+def get_kg_reader():
+    """Get the KGReader, or None if the backend is unreachable."""
+    try:
+        return make_kg_reader()
+    except Exception:
+        logger.warning("KG reader unavailable")
+        return None
+
+
+@lru_cache
 def get_pipeline() -> IngestionPipeline:
     return IngestionPipeline(
         registry=get_registry(),
-        textual_search=get_textual_search(),
-        semantic_search_factory=get_semantic_search,
-        neo4j_client_factory=get_neo4j_client,
+        chunk_writer=get_chunk_writer(),
+        kg_writer=get_kg_writer(),
+        kg_reader=get_kg_reader(),
         kg_extractor_factory=get_kg_extractor,
         profile_store=get_profile_store(),
     )

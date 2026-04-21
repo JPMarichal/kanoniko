@@ -117,3 +117,56 @@ class LegacyChunkWriter:
 
     def count_documents(self) -> int:
         return self._textual.count_documents()
+
+    # ----- Reads ------------------------------------------------------ #
+
+    def iter_all_chunks(self):
+        conn = self._textual.get_connection()
+        try:
+            rows = conn.execute(
+                "SELECT id, file_path, chunk_index, text, metadata, reference "
+                "FROM chunks ORDER BY file_path, chunk_index"
+            ).fetchall()
+        finally:
+            conn.close()
+        for row in rows:
+            metadata_str = row["metadata"]
+            yield {
+                "id": row["id"],
+                "file_path": row["file_path"],
+                "chunk_index": row["chunk_index"],
+                "text": row["text"],
+                "metadata": json.loads(metadata_str) if metadata_str else {},
+                "reference": row["reference"],
+            }
+
+    def find_chunks_with_patterns(
+        self,
+        file_paths: list[str],
+        text_patterns: list[str],
+    ) -> list[dict[str, Any]]:
+        if not file_paths or not text_patterns:
+            return []
+        placeholders = ",".join("?" * len(file_paths))
+        like_clauses = " OR ".join(["LOWER(text) LIKE ?"] * len(text_patterns))
+        like_params = [f"%{p.lower()}%" for p in text_patterns]
+        conn = self._textual.get_connection()
+        try:
+            rows = conn.execute(
+                f"SELECT file_path, chunk_index, text, reference "
+                f"FROM chunks WHERE file_path IN ({placeholders}) "
+                f"AND ({like_clauses}) "
+                f"ORDER BY file_path, chunk_index",
+                [*file_paths, *like_params],
+            ).fetchall()
+        finally:
+            conn.close()
+        return [
+            {
+                "file_path": r["file_path"],
+                "chunk_index": r["chunk_index"],
+                "text": r["text"],
+                "reference": r["reference"],
+            }
+            for r in rows
+        ]

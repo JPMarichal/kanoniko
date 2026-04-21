@@ -61,6 +61,22 @@ class KnowledgeGraphWriter(Protocol):
         """Remove all relations anchored to ``file_path`` before reindex."""
         ...
 
+    def batch_write_all(
+        self,
+        delete_paths: list[str],
+        documents: list[dict[str, Any]],
+        entities: list[dict[str, Any]],
+        links: list[dict[str, Any]],
+        relations: list[dict[str, Any]],
+    ) -> None:
+        """Combined-batch write for the hot flush path.
+
+        Groups deletions, document merges, entity merges, mention links and
+        relation merges into a single transaction / session. Pipelines
+        call this from a background thread during large ingestions.
+        """
+        ...
+
     # ----- Singular writes (curated seeds and unit tests) ------------- #
 
     def merge_entity(
@@ -80,6 +96,36 @@ class KnowledgeGraphWriter(Protocol):
         to_type: str,
         properties: dict[str, Any] | None = None,
     ) -> None:
+        ...
+
+    # ----- Specialized bulk loaders ---------------------------------- #
+    #
+    # Load curated scripture structure from on-disk JSON (volumes,
+    # divisions, books, parts, chapters + NEXT/PREV/CONTAINS edges),
+    # scripture parallels, metadata-derived relations, and cross
+    # references. These are kept on the Writer Protocol (rather than a
+    # separate Loader Protocol) to keep the pipeline's dependency
+    # surface at three Protocols. The Legacy adapter delegates to the
+    # existing ``knowledge/hierarchy_loader.py`` etc.; Postgres impl
+    # reads the same JSON sources and writes via the batch methods.
+
+    def load_scripture_structure(self) -> dict[str, int]:
+        """Load volumes/divisions/books/parts/chapters + hierarchy edges.
+
+        Returns a count dict (e.g. ``{"volumes": 4, "chapters": 1288, ...}``).
+        """
+        ...
+
+    def load_scripture_parallels(self) -> dict[str, int]:
+        """Load parallel passages between synoptic/quoted scriptures."""
+        ...
+
+    def extract_metadata_relations(self) -> dict[str, int]:
+        """Derive relations from on-graph metadata (authorship, etc.)."""
+        ...
+
+    def load_cross_references(self) -> dict[str, int]:
+        """Load footnote / cross-reference edges between chapters."""
         ...
 
 
