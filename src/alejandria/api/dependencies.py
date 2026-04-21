@@ -101,11 +101,16 @@ def get_kg_extractor():
 
 @lru_cache
 def get_profile_store():
-    """Get ProfileStore instance for entity profiles."""
-    try:
-        from alejandria.knowledge.profile_store import ProfileStore
+    """Get ProfileStore instance for entity profiles.
 
-        return ProfileStore(settings.sqlite_db_path)
+    Dispatches on ``settings.storage_backend`` via :func:`make_profile_store`.
+    Returns ``None`` if construction fails (import error, DB unreachable) so
+    RAG/chat degrade gracefully rather than crashing.
+    """
+    try:
+        from alejandria.knowledge.profile_store import make_profile_store
+
+        return make_profile_store()
     except Exception:
         logger.warning("ProfileStore unavailable")
         return None

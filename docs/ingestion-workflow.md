@@ -7,7 +7,7 @@ Proceso canónico para incorporar material nuevo al corpus de Alejandría.
 > **Progreso §3.1 (rama `feature/postgres-write-path`):**
 > - ✅ ADR 0001 aprobado — patrón Protocol + factory para storage drivers.
 > - ✅ `DocumentRegistry` portado — Protocol + `SqliteDocumentRegistry` + `PostgresDocumentRegistry` + `make_document_registry()`. Consumidores (api, pipeline, scripts) actualizados a la factory.
-> - ⏳ `ProfileStore` — pendiente.
+> - ✅ `ProfileStore` portado — Protocol + `SqliteProfileStore` + `PostgresProfileStore` + `make_profile_store()`. Consumidores (api, mcp_server, cli) actualizados. El schema Postgres está normalizado (profiles FK a `entities` + aliases en tabla hermana); resolución de `entity_id` on-the-fly. `_staging_profiles` era artefacto de migración (SQLite tiene 0 profiles) — no requiere acción en código vivo.
 > - ⏳ `WritePath` (pipeline.py) — pendiente.
 
 ## 1. Propósito y principios
