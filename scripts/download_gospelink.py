@@ -29,6 +29,7 @@ import json
 import os
 import random
 import re
+import subprocess
 import sys
 import time
 from html.parser import HTMLParser
@@ -164,13 +165,54 @@ def load_env():
     return env
 
 
+def _kill_stale_chrome():
+    """Kill orphan Chrome processes and remove locked Playwright temp profiles.
+
+    Common after Windows restart: Chrome auto-launches with the user's
+    regular profile and grabs the binary, so Playwright's launch attempt
+    is hijacked and the new process exits immediately.
+    """
+    try:
+        if sys.platform == "win32":
+            subprocess.run(["taskkill", "/F", "/IM", "chrome.exe"],
+                           capture_output=True, timeout=10)
+        else:
+            subprocess.run(["pkill", "-9", "chrome"], capture_output=True, timeout=10)
+    except Exception:
+        pass
+    # Clean up locked temp profiles.
+    import glob
+    import shutil
+    tmp = os.environ.get("TEMP") or os.environ.get("TMPDIR") or "/tmp"
+    for d in glob.glob(os.path.join(tmp, "playwright_chromiumdev_profile-*")):
+        try:
+            shutil.rmtree(d, ignore_errors=True)
+        except Exception:
+            pass
+
+
 def _launch_headed(p):
-    """Always launch headed with anti-detection. Required by AWS WAF."""
+    """Always launch headed with anti-detection. Required by AWS WAF.
+
+    Retries once after killing stale Chrome processes if the first launch
+    fails — common after a Windows restart when Chrome auto-starts and
+    holds the binary lock.
+    """
     exe = CHROME_EXECUTABLE if os.path.exists(CHROME_EXECUTABLE) else None
     kwargs = dict(headless=False, args=CHROME_ARGS)
     if exe:
         kwargs["executable_path"] = exe
-    return p.chromium.launch(**kwargs)
+    try:
+        return p.chromium.launch(**kwargs)
+    except Exception as e:
+        msg = str(e).lower()
+        if "browser closed" in msg or "target closed" in msg or "connection closed" in msg:
+            print(f"  Launch failed ({e.__class__.__name__}). "
+                  f"Killing stale Chrome and retrying...", file=sys.stderr)
+            _kill_stale_chrome()
+            time.sleep(2)
+            return p.chromium.launch(**kwargs)
+        raise
 
 
 def _new_context(browser, storage_state=None):
