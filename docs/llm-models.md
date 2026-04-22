@@ -10,8 +10,31 @@ Multi-provider LLM support with automatic tier-based model routing.
 | **Google Gemini** | Gemini 2.5 Flash, Flash Lite | `ALEJANDRIA_LLM_GEMINI_API_KEY` |
 | **OpenAI** | GPT-4o-mini | `ALEJANDRIA_LLM_OPENAI_API_KEY` |
 | **DeepSeek** | DeepSeek Chat | `ALEJANDRIA_LLM_DEEPSEEK_API_KEY` |
+| **Ollama** | Any local model (Qwen2.5, Gemma2, etc.) | None needed |
 
 Multiple providers can be configured simultaneously. The system selects the best available model per tier.
+
+## Ollama (Local Inference)
+
+Ollama provides free, local LLM inference via an OpenAI-compatible API. No API key required.
+
+**Configuration:**
+```
+ALEJANDRIA_LLM_OLLAMA_BASE_URL=http://ollama:11434/v1   # Docker (default)
+ALEJANDRIA_LLM_OLLAMA_BASE_URL=http://localhost:11434/v1 # Standalone
+```
+
+**Pre-configured models:**
+
+| Registry ID | Ollama Model | Tier | VRAM |
+|------------|-------------|------|------|
+| `ollama-qwen2.5-7b` | `qwen2.5:7b-instruct-q4_K_M` | balanced | ~5 GB |
+| `ollama-qwen2.5-14b` | `qwen2.5:14b-instruct-q3_K_M` | quality | ~6 GB + RAM offload |
+| `ollama-gemma2-9b` | `gemma2:9b-instruct-q4_K_M` | balanced | ~5.5 GB |
+
+**Adding more models:** Pull in Ollama, then add a `ModelDef` entry in `chat/models.py`.
+
+**GPU sharing:** Ollama and the embedding model (~500 MB) share the GPU. With 6 GB VRAM, a 7B Q4 model fits alongside embeddings. Larger models require CPU offloading (slower but functional).
 
 ## Tier System
 

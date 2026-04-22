@@ -23,8 +23,9 @@ Alejandria runs as two containerized services via Docker Compose.
 
 | Service | Image | Purpose | Ports | mem_limit |
 |---------|-------|---------|-------|-----------|
-| `api` | Custom (Dockerfile/Dockerfile.gpu) | FastAPI + SQLite + sqlite-vec | 4300 | 2 GB |
-| `neo4j` | `neo4j:5-community` | Graph database | 7687, 7474 | 1 GB |
+| `api` | Custom (Dockerfile/Dockerfile.gpu) | FastAPI + SQLite + sqlite-vec | 4300 | 2 GB (4 GB GPU) |
+| `neo4j` | `neo4j:5-community` | Graph database | 7687, 7474 | 1.2 GB |
+| `ollama` | `ollama/ollama:latest` | Local LLM inference (GPU only) | 11434 | 6 GB |
 
 Semantic vectors are stored in SQLite via the sqlite-vec extension (in-process, no separate container).
 Neo4j's JVM heap is capped at 512 MB with 128 MB page cache (see `docker-compose.yml`).

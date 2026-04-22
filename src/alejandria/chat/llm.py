@@ -58,10 +58,16 @@ def complete(
             system_prompt, user_message, m, k, mt,
             base_url="https://api.deepseek.com",
         )
+    elif p == "ollama":
+        base = settings.llm_ollama_base_url
+        return _complete_openai_compat(
+            system_prompt, user_message, m, k or "ollama", mt,
+            base_url=base,
+        )
     else:
         raise ValueError(
             f"Unknown LLM provider: {p}. "
-            "Use 'anthropic', 'gemini', 'openai', or 'deepseek'."
+            "Use 'anthropic', 'gemini', 'openai', 'deepseek', or 'ollama'."
         )
 
 
