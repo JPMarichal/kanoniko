@@ -2,7 +2,11 @@
 
 Proceso canónico para incorporar material nuevo al corpus de Alejandría.
 
-> **Estado:** propuesta aprobada, implementación en curso. Ingestión **congelada** hasta completar la secuencia de migración (§3).
+> **Estado:** §3 cerrado (PRs #4-7 mergeados — Postgres IONOS es el
+> único store). §Level B entregado en PR `feature/ingestion-backlogs`:
+> 4 backlogs JSON validados por schema, reconcile engine (strategy
+> pattern), pre-commit hook, template de reseña. **La ingestión está
+> descongelada.**
 >
 > **Progreso §3.1 (rama `feature/postgres-write-path`):**
 > - ✅ ADR 0001 v2 aprobado — 3 Protocols cohesivos (ChunkWriter, KGWriter, KGReader) + Registry + ProfileStore, factory por flag.
