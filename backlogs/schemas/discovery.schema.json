@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alejandria.local/schemas/discovery.schema.json",
+  "title": "DiscoveryBacklog",
+  "description": "Top-level array of candidate materials identified for the corpus.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["slug", "title"],
+    "properties": {
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+        "description": "Lowercase kebab-case identifier, shared across the four backlogs."
+      },
+      "title": { "type": "string", "minLength": 1 },
+      "source": { "type": "string" },
+      "language": {
+        "type": "string",
+        "enum": ["en", "es", "multi", ""]
+      },
+      "category": { "type": "string" },
+      "target_path": { "type": "string" },
+      "status": {
+        "type": "string",
+        "enum": ["propuesto", "clasificado", "descartado"]
+      },
+      "notes": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alejandria.local/schemas/indexing.schema.json",
+  "title": "IndexingBacklog",
+  "description": "Top-level array of Postgres ingestion state per slug.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["slug"],
+    "properties": {
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$"
+      },
+      "paths": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Corpus-relative file paths (or directories) belonging to this slug."
+      },
+      "last_sha": {
+        "type": "string",
+        "pattern": "^([a-f0-9]{64}|)$",
+        "description": "Aggregate SHA of all paths at the last successful index."
+      },
+      "indexed_at": {
+        "type": ["string", "null"],
+        "format": "date-time"
+      },
+      "status": {
+        "type": "string",
+        "enum": ["pendiente", "indexado", "stale"]
+      }
+    }
+  }
+}
