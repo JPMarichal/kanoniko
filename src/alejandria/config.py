@@ -10,23 +10,14 @@ class Settings(BaseSettings):
     # Corpus
     corpus_path: Path = Path("/app/corpus")
 
-    # SQLite FTS
+    # SQLite FTS (transitional — retired in §3.4)
     sqlite_db_path: Path = Path("/app/data/sqlite/alejandria.db")
 
-    # Neo4j
-    neo4j_uri: str = "bolt://neo4j:7687"
-    neo4j_user: str = "neo4j"
-    neo4j_password: str = "alejandria"
-
-    # Storage backend selector. The write-path cutover (§3.1 of
-    # docs/ingestion-workflow.md) landed the three Postgres drivers
-    # (ChunkWriter/KGWriter/KGReader), validated with smoke tests and
-    # golden queries. Default is now "postgres". Legacy stack (SQLite
-    # FTS5 + sqlite-vec + Neo4j) is retired in §3.3–§3.4 together with
-    # this flag, which at that point collapses to a constant.
+    # Storage backend selector. Neo4j retired in §3.3; SQLite retired in §3.4.
+    # At that point this flag collapses to a constant and is removed.
     storage_backend: str = "postgres"  # "sqlite" | "postgres"
 
-    # Postgres (migration target — Phase 2+ of feature/postgres-migration)
+    # Postgres IONOS — the authoritative store.
     postgres_host: str = "postgres"
     postgres_port: int = 5432
     postgres_user: str = "alejandria"

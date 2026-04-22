@@ -26,7 +26,6 @@ semantic = [
     "sqlite-vec>=0.1.6",
 ]
 graph = [
-    "neo4j>=5.0",
     "spacy>=3.7",
 ]
 mcp = [

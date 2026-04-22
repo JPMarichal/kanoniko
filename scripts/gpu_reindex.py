@@ -1,7 +1,8 @@
 """GPU-accelerated full reindex — run from WSL with CUDA.
 
-Runs the full Alejandria ingestion pipeline using GPU for embeddings,
-connecting to Neo4j on localhost (Docker container). Vectors stored in SQLite via sqlite-vec.
+Runs the Alejandria ingestion pipeline against Postgres IONOS using
+GPU for embeddings. The SSH tunnel (localhost:15432) must be up
+before invoking this script.
 
 Usage (from WSL):
     source ~/miniconda3/etc/profile.d/conda.sh
@@ -16,32 +17,33 @@ import os
 import sys
 import time
 
-# Set environment for WSL → Docker services
+# Set environment for WSL → Postgres IONOS via SSH tunnel on the host.
 os.environ.setdefault("ALEJANDRIA_CORPUS_PATH", "/mnt/c/own/alejandria/corpus")
 os.environ.setdefault("ALEJANDRIA_SQLITE_DB_PATH", "/mnt/c/own/alejandria/data/sqlite/alejandria.db")
 os.environ.setdefault("ALEJANDRIA_EMBEDDING_DEVICE", "cuda")
-os.environ.setdefault("ALEJANDRIA_NEO4J_URI", "bolt://localhost:7687")
-os.environ.setdefault("ALEJANDRIA_NEO4J_USER", "neo4j")
-os.environ.setdefault("ALEJANDRIA_NEO4J_PASSWORD", "alejandria")
+os.environ.setdefault("ALEJANDRIA_STORAGE_BACKEND", "postgres")
+os.environ.setdefault("ALEJANDRIA_POSTGRES_HOST", "127.0.0.1")
+os.environ.setdefault("ALEJANDRIA_POSTGRES_PORT", "15432")
 
 # Now import after env is set
 from alejandria.config import settings
 from alejandria.ingestion.pipeline import IngestionPipeline
 
+
 def main():
     print("=" * 60)
     print("Alejandria GPU Reindex")
     print("=" * 60)
-    print(f"  Corpus:    {settings.corpus_path}")
-    print(f"  SQLite:    {settings.sqlite_db_path}")
-    print(f"  Neo4j:     {settings.neo4j_uri}")
-    print(f"  Device:    {settings.embedding_device}")
+    print(f"  Corpus:     {settings.corpus_path}")
+    print(f"  Backend:    {settings.storage_backend}")
+    print(f"  Postgres:   {settings.postgres_host}:{settings.postgres_port}/{settings.postgres_db}")
+    print(f"  Device:     {settings.embedding_device}")
 
     # Verify GPU
     try:
         import torch
         if torch.cuda.is_available():
-            print(f"  GPU:       {torch.cuda.get_device_name(0)}")
+            print(f"  GPU:        {torch.cuda.get_device_name(0)}")
         else:
             print("  WARNING: CUDA not available, falling back to CPU")
     except ImportError:
@@ -55,37 +57,28 @@ def main():
 
     # Wire up dependencies (same as API's get_pipeline)
     from alejandria.ingestion.registry import make_document_registry
-    from alejandria.search.textual import make_textual_search
+    from alejandria.storage.chunk_writer import make_chunk_writer
+    from alejandria.storage.kg_reader import make_kg_reader
+    from alejandria.storage.kg_writer import make_kg_writer
 
-    from pathlib import Path
-    db_path = Path(settings.sqlite_db_path)
-    registry = make_document_registry(db_path)
-    textual = make_textual_search(db_path)
+    registry = make_document_registry()
+    chunk_writer = make_chunk_writer()
+    kg_writer = make_kg_writer()
+    kg_reader = make_kg_reader()
 
-    semantic = None
-    try:
-        from alejandria.search.semantic import SemanticSearch
-        semantic = SemanticSearch(db_path)
-        print("  Semantic: sqlite-vec loaded")
-    except Exception as e:
-        print(f"  Semantic: unavailable ({e})")
-
-    neo4j_client = None
     kg_extractor = None
     try:
-        from alejandria.knowledge.neo4j_client import Neo4jClient
         from alejandria.knowledge.extractor import KGExtractor
-        neo4j_client = Neo4jClient()
         kg_extractor = KGExtractor()
-        print("  KG: connected to Neo4j")
-    except Exception as e:
-        print(f"  KG: unavailable ({e})")
+        print("  KG extractor: loaded")
+    except Exception as exc:
+        print(f"  KG extractor: unavailable ({exc})")
 
     pipeline = IngestionPipeline(
         registry=registry,
-        textual_search=textual,
-        semantic_search=semantic,
-        neo4j_client=neo4j_client,
+        chunk_writer=chunk_writer,
+        kg_writer=kg_writer,
+        kg_reader=kg_reader,
         kg_extractor=kg_extractor,
     )
 
@@ -97,12 +90,11 @@ def main():
     print("Reindex Complete")
     print(f"{'=' * 60}")
     print(f"  New files:     {stats.new_files}")
-    print(f"  Updated files: {stats.updated_files}")
-    print(f"  Deleted files: {stats.deleted_files}")
-    print(f"  Total chunks:  {stats.total_chunks}")
+    print(f"  Updated:       {stats.updated_files}")
+    print(f"  Deleted:       {stats.deleted_files}")
     print(f"  Errors:        {stats.errors}")
-    print(f"  Time:          {elapsed:.1f}s ({elapsed/60:.1f}m)")
-    print(f"{'=' * 60}")
+    print(f"  Total chunks:  {stats.total_chunks}")
+    print(f"  Elapsed:       {elapsed:.1f}s ({elapsed/60:.1f}m)")
 
 
 if __name__ == "__main__":

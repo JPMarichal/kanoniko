@@ -32,11 +32,7 @@ RUN pip install --no-cache-dir \
     "sentence-transformers>=3.0" \
     "sqlite-vec>=0.1.6"
 
-# Graph deps
-RUN pip install --no-cache-dir \
-    "neo4j>=5.0"
-
-# Postgres deps (postgres-write-path cutover: psycopg3 + pgvector wire format)
+# Graph + storage deps (Postgres IONOS + pgvector wire format)
 RUN pip install --no-cache-dir \
     "psycopg[binary]>=3.1"
 
@@ -72,8 +68,7 @@ ENV ALEJANDRIA_PORT=4300
 ENV ALEJANDRIA_CORPUS_PATH=/app/corpus
 ENV ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
 ENV ALEJANDRIA_EMBEDDING_DEVICE=cpu
-ENV ALEJANDRIA_NEO4J_URI=bolt://neo4j:7687
-ENV ALEJANDRIA_NEO4J_USER=neo4j
-ENV ALEJANDRIA_NEO4J_PASSWORD=alejandria
+# Postgres connection is provided via .env (ALEJANDRIA_POSTGRES_*).
+# No Neo4j envs — the graph authoritative copy lives in Postgres IONOS.
 
 CMD ["/app/entrypoint.sh"]
