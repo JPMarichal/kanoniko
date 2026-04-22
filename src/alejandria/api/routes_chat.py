@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
 
-from alejandria.api.dependencies import get_neo4j_client, get_profile_store, get_semantic_search, get_textual_search
+from alejandria.api.dependencies import get_graph_client, get_profile_store, get_semantic_search, get_textual_search
 from alejandria.api.schemas import (
     ChatRequest,
     ChatResponse,
@@ -57,7 +57,7 @@ def chat(req: ChatRequest) -> ChatResponse:
     pipeline = RAGPipeline(
         textual_search=get_textual_search(),
         semantic_search=get_semantic_search(),
-        neo4j_client=get_neo4j_client(),
+        graph_client=get_graph_client(),
         profile_store=get_profile_store(),
     )
 
@@ -150,7 +150,7 @@ def chat_compare(req: ChatRequest) -> dict:
     pipeline = RAGPipeline(
         textual_search=get_textual_search(),
         semantic_search=get_semantic_search(),
-        neo4j_client=get_neo4j_client(),
+        graph_client=get_graph_client(),
         profile_store=get_profile_store(),
     )
 

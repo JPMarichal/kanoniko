@@ -324,14 +324,15 @@ class LLMRelationExtractor:
     def extract_batch(
         self,
         batches: list[ExtractionBatch],
-        neo4j_client=None,
+        graph_client=None,
         dry_run: bool = False,
     ) -> ExtractionStats:
-        """Process a batch of passages, optionally loading into Neo4j.
+        """Process a batch of passages, optionally loading into the KG.
 
         Args:
             batches: List of ExtractionBatch to process.
-            neo4j_client: Optional Neo4jClient to load results. None = collect only.
+            graph_client: Optional graph client (e.g. PostgresGraphClient) with
+                ``batch_merge_relations(list[dict])``. None = collect only.
             dry_run: If True, extract but don't load.
 
         Returns ExtractionStats.
@@ -382,8 +383,8 @@ class LLMRelationExtractor:
                     self.spent_usd,
                 )
 
-        # Load into Neo4j if not dry_run — batch via UNWIND for performance
-        if neo4j_client and not dry_run:
+        # Load into the KG if not dry_run — single batch for performance.
+        if graph_client and not dry_run:
             batch = [
                 {
                     "from_name": rel.from_name,
@@ -400,7 +401,7 @@ class LLMRelationExtractor:
                 for rel in all_relations
             ]
             try:
-                neo4j_client.batch_merge_relations(batch)
+                graph_client.batch_merge_relations(batch)
                 stats.relations_loaded = len(batch)
             except Exception:
                 logger.exception("Failed to batch-load %d relations", len(batch))
