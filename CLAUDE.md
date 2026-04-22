@@ -27,45 +27,31 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 
 ## Stack
 
-- Python 3.11, FastAPI, Postgres IONOS + pgvector (authoritative: chunks, FTS via tsvector, embeddings, KG). Transitional SQLite + sqlite-vec mirror retired in §3.4.
+- Python 3.11, FastAPI, Postgres IONOS + pgvector (sole authoritative store: chunks, FTS via tsvector, embeddings, KG).
 - spaCy + domain gazetteers for KG extraction
 - Docker Compose (1 container: api — Neo4j retired in §3.3, Postgres lives on IONOS VPS)
 
 ### Postgres IONOS = source of truth (Phase 1 PR #3; write cutover PR #4; KG read complete PR #5; Neo4j retired §3.3)
 
-**Postgres 16 + pgvector on IONOS VPS is the authoritative store** for
-chunks, FTS (tsvector), embeddings (pgvector), entities, relations, and
-mentions. The Neo4j container and SQLite write path have been retired;
-the local SQLite file is kept read-only for the transitional period
-until §3.4 closes.
+**Postgres 16 + pgvector on IONOS VPS is the sole authoritative store**
+for chunks, FTS (tsvector), embeddings (pgvector), entities, relations,
+and mentions. Both Neo4j (§3.3) and SQLite (§3.4) have been retired.
 
-- **For any destructive op or correctness audit, verify Postgres IONOS** —
-  not Neo4j local, not SQLite local. SSH tunnel `localhost:15432 →
-  212.227.243.210:5432` should already be active in WSL
-  (`pgrep -f "ssh.*15432"`). Credentials in `.env` (`ALEJANDRIA_POSTGRES_*`).
+- **For any destructive op or correctness audit, operate on Postgres IONOS.**
+  SSH tunnel `localhost:15432 → 212.227.243.210:5432` should already be
+  active in WSL (`pgrep -f "ssh.*15432"`). Credentials in `.env`
+  (`ALEJANDRIA_POSTGRES_*`).
 - **Connecting from a container:** `docker run --rm --network host -e
   ALEJANDRIA_POSTGRES_HOST=127.0.0.1 -e ALEJANDRIA_POSTGRES_PORT=15432 ...`
-  Load env via heredoc (`bash << 'OUTER' ... source .env; ... OUTER`) — single
-  `bash -c "..."` quoting can swallow the password.
-- **Feature flag (transitional):** `ALEJANDRIA_STORAGE_BACKEND` (default
-  `"sqlite"`). Setting `"postgres"` routes reads through the Postgres backend
-  via DI factories (`search.textual.make_textual_search`,
-  `search.semantic.make_semantic_search`,
-  `knowledge.postgres_graph_client.make_graph_client`).
-- **Read parity partial:** 3 KG client methods ported and validated against
-  Neo4j oracle (`find_node`, `get_neighbors`, `graph_summary`). Remaining
-  methods raise `NotImplementedError` — tracked in
-  `docs/kg-client-port-audit.md`.
-- **Write path cutover pending.** Ingestion still writes SQLite + Neo4j;
-  Postgres cutover is a follow-up PR. Until that lands, the Postgres copy
-  is the source of truth for **reads, audits, and corrective mutations** —
-  the local mirrors can drift.
-- **MCP tools (`mcp__alejandria__*`) read via the local API which currently
-  proxies to Neo4j.** They are a *view*, not the oracle. To verify or mutate
-  ground truth, connect directly to Postgres IONOS.
-- **Operational infra:** see `docs/ionos-setup.md` for VPS setup,
-  `docs/postgres-migration.md` for the full plan,
-  `docs/postgres-migration-status.md` for current state + follow-up PRs.
+  Load env via heredoc (`bash << 'OUTER' ... source .env; ... OUTER`) —
+  single `bash -c "..."` quoting can swallow the password.
+- **Read parity:** 31/31 golden queries pass against Postgres (PR #5).
+  See `tests/parity/`.
+- **MCP tools (`mcp__alejandria__*`)** read via the API which proxies to
+  Postgres (PR #6 retired the Neo4j proxy). Same data as direct Postgres.
+- **Operational infra:** `docs/ionos-setup.md` (VPS setup),
+  `docs/postgres-migration.md` (full plan),
+  `docs/postgres-migration-status.md` (current state).
 - **Vector DB alternatives (Qdrant, Weaviate, Pinecone, Milvus)** analyzed
   in `docs/vector-db-options.md` — pgvector wins at current scale; triggers
   to reconsider documented there.
@@ -147,42 +133,30 @@ When the user asks a theological, doctrinal, or scripture-content question:
 
 ## Backup & Disaster Recovery
 
-**Postgres IONOS is the source of truth** (post Phase 1 merge — see § Stack above). Its canonical backup is the `pg_dump` daily snapshot on IONOS (see `docs/ionos-setup.md`).
-
-The local endpoints below act on the **transitional SQLite mirror only** — Neo4j backup endpoints were retired in §3.3 together with the Neo4j container.
-
-### Backup Endpoints (API running at :4300)
-| Endpoint | What it does |
-|----------|-------------|
-| `POST /backup/sqlite?label=manual` | Timestamped copy (includes vectors), rotates last 5 |
-| `GET /backup/sqlite` | List available SQLite backups |
-| `POST /backup/sqlite/restore?filename=...` | Restore SQLite from backup |
-| `POST /index/rebuild-vectors` | Rebuild vectors in sqlite-vec from chunk text (no filesystem I/O) |
-
-### Automatic Pre-Index Backup
-The pipeline automatically backs up SQLite before any indexing run. KG snapshots are handled server-side by the IONOS `pg_dump` cron.
+**Postgres IONOS is the sole source of truth.** Its canonical backup is
+the `pg_dump` daily snapshot on the VPS (cron at 03:15 UTC, 14-day
+rotation — see `docs/ionos-setup.md`). Post §3.4 there are no local
+backup endpoints: the API container is stateless.
 
 ### What's Tracked in Git (disaster recovery baseline)
 | Asset | Location | Notes |
 |-------|----------|-------|
 | Source code | `src/`, `docker/`, `scripts/` | |
 | Corpus | `corpus/` | Bind-mounted, full text in git |
-| SQLite DB | GitHub Release (`backup-*`, ~1.4 GB compressed) | Derived artifact, NOT in git; download via `scripts/backup-pull.sh db` |
 | Gazetteers | `data/gazetteers/` | 7 NER assets, hard to rebuild |
 | Project memory | `docs/project-memory/` | Primary source — tracked directly in git |
 | Skills/hooks | `.claude/` | |
 | Secrets | **NOT in git** — encrypted (`env.enc`) in GitHub Release | Download via `scripts/backup-pull.sh secrets`, decrypt with `openssl` passphrase |
 
-**IMPORTANT:** The raw `data/sqlite/alejandria.db` on Windows is **NOT the source of truth** — it's gitignored and may be stale. The authoritative DB is in the GPU container at `/home/jpmarichal/alejandria-data/sqlite/alejandria.db`. The DB is stored as GitHub Release assets (not Git LFS) to avoid bandwidth limits.
-
 ### Recovery Procedures
-- **SQLite lost:** `gunzip -k data/sqlite/alejandria.db.gz` or restore from backup endpoint
-- **Vectors lost:** `POST /index/rebuild-vectors` (~5 min on GPU) — rebuilds sqlite-vec table from chunk text
-- **KG lost:** restore Postgres from the latest IONOS `pg_dump` (see `docs/ionos-setup.md`); no per-instance recovery needed.
-- **Full disaster:** Clone repo, `bash scripts/backup-pull.sh all`, decrypt `.env`, `docker compose up`, data is in git
-- **NEVER run full reindex casually** — it takes 7+ hours and deletes existing data first. Always use incremental.
-- **Incremental is fast** (~2-3 sec/file for new material). Only `force: true` is slow (~2h for 7K files on CPU).
-- **`/index/status` ETA underestimates** — it only tracks Phase 1 (parse/FTS). Phases 2+3 (vectors/KG) can add significant time on CPU.
+- **KG lost:** restore Postgres from the latest IONOS `pg_dump` snapshot.
+- **Full disaster:** clone repo, decrypt `.env`, `docker compose up`.
+  The API container has no local persistent state; Postgres is
+  recovered server-side.
+- **Incremental ingest** (`/index/ingest`) is fast (~2-3 sec/file).
+  Full reindex is rarely needed and should be done deliberately.
+- **`/index/status` ETA underestimates** — it only tracks Phase 1 (parse/FTS);
+  Phases 2+3 (embeddings/KG) add time on CPU.
 
 ### Memory Sync
 Project memory is tracked in git at `docs/project-memory/` — **this is the authoritative source.** See the "Project Memory" section below for the write protocol.

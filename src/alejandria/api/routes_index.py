@@ -140,33 +140,6 @@ def ingest_paths(
     }
 
 
-@router.post("/rebuild-vectors")
-def rebuild_vectors(
-    pipeline: IngestionPipeline = Depends(get_pipeline),
-) -> dict:
-    """Rebuild semantic vectors from already-indexed chunks in SQLite.
-
-    Reads chunk text from SQLite, batch-encodes on GPU, upserts to sqlite-vec.
-    No filesystem I/O — ideal for GPU migration or after model change.
-    """
-    if pipeline.progress.running:
-        raise HTTPException(409, "Indexing already in progress.")
-
-    def _run_in_background():
-        try:
-            pipeline.progress.running = True
-            pipeline.progress.start_time = __import__("time").time()
-            pipeline.rebuild_vectors()
-        except Exception:
-            logger.exception("Vector rebuild failed")
-        finally:
-            pipeline.progress.running = False
-
-    thread = threading.Thread(target=_run_in_background, daemon=True, name="rebuild-vectors")
-    thread.start()
-    return {"status": "started", "message": "Vector rebuild launched. Poll GET /index/status."}
-
-
 @router.post("/rebuild-kg")
 def rebuild_kg(
     pipeline: IngestionPipeline = Depends(get_pipeline),
