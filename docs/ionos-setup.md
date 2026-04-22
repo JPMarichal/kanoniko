@@ -529,17 +529,22 @@ Test Connection debe mostrar "Conectado (~3000 ms)" primera vez, más rápido de
 ##### Paso 3 — CLI equivalente para scripts/migradores
 
 ```bash
-# Abre túnel en background (persiste hasta que mates el proceso)
-ssh -L 15432:localhost:5432 -N -f root@212.227.243.210
+# Abre túnel en background (persiste hasta que mates el proceso).
+# IMPORTANTE: bind a `*` (todas las interfaces) para que contenedores
+# Docker en la red `bridge` por defecto alcancen el túnel vía
+# host.docker.internal. Si solo necesitas acceso desde el shell host,
+# usa `-L 15432:localhost:5432` (bind a 127.0.0.1).
+ssh -L '*:15432:localhost:5432' -N -f root@212.227.243.210
 
-# Verifica que el puerto está escuchando local
+# Verifica que el puerto está escuchando en todas las interfaces
+# (debe aparecer 0.0.0.0:15432, no solo 127.0.0.1:15432)
 ss -tlnp | grep 15432
 
 # Ahora localhost:15432 = 212.227.243.210:5432 desde dentro del VPS
 psql "host=localhost port=15432 dbname=alejandria user=alejandria_rw sslmode=disable"
 
 # Cerrar túnel cuando termines
-pkill -f "ssh -L 15432"
+pkill -f "ssh.*15432"
 ```
 
 ##### Implicación para Fase 5 (migradores)
@@ -554,7 +559,16 @@ ALEJANDRIA_POSTGRES_PASSWORD=<PWD_RW>
 ALEJANDRIA_POSTGRES_DB=alejandria
 ```
 
-Para Docker containers en WSL, añadir `--network host` al `docker run` para que `localhost:15432` resuelva al túnel del host.
+Para Docker containers en WSL hay dos rutas:
+
+- **`--network host`** en un `docker run` de una-sola-vez: el contenedor
+  comparte la red del host, `localhost:15432` resuelve directo al túnel.
+- **Red `bridge` por defecto** (como la usa `docker-compose.yml`): el
+  contenedor no ve `localhost` del host. Apunta a
+  `ALEJANDRIA_POSTGRES_HOST=host.docker.internal` y asegúrate de que el
+  túnel esté bound a `0.0.0.0` (ver nota sobre `-L '*:...'` arriba).
+  `docker-compose.yml` ya declara `extra_hosts: host.docker.internal:
+  host-gateway` y el override correspondiente en `environment:`.
 
 **Alternativas** (por si el túnel no escala):
 - **Desde la máquina personal** (otra red, distinto ISP): conexión directa al 5432 probablemente funcione sin túnel.
