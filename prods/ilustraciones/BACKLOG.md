@@ -24,8 +24,8 @@ La conferencia general es la fuente más rica de ilustraciones. Priorizar por:
 
 ## Fuentes primarias — revistas
 
-- [ ] Liahona EN 2020-2026 (corpus: `corpus/en/revistas/Liahona/`)
-- [ ] Liahona ES 2020-2026 (corpus: `corpus/es/revistas/Liahona/`)
+- [ ] Liahona EN 2020-2026 (corpus: `corpus/en/magazines/liahona/`)
+- [ ] Liahona ES 2020-2026 (corpus: `corpus/es/magazines/liahona/`)
 
 ---
 
