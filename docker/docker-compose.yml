@@ -14,15 +14,26 @@ services:
       # Model cache: so embedding model is downloaded once
       - alejandria-models:/root/.cache
     env_file:
-      - .env
+      # Load credentials (ALEJANDRIA_POSTGRES_*, ALEJANDRIA_LLM_*, …) from
+      # the repo-root .env rather than docker/.env so the same file the
+      # host shell sources (scripts, tunnel setup) is the single source
+      # of truth. The docker/.env.example template points at the same path.
+      - ../.env
+    extra_hosts:
+      # Containers on the default bridge network can reach the SSH tunnel
+      # bound on the host at localhost:15432 via host.docker.internal.
+      - "host.docker.internal:host-gateway"
     environment:
       - ALEJANDRIA_HOST=0.0.0.0
       - ALEJANDRIA_PORT=4300
       - ALEJANDRIA_CORPUS_PATH=/app/corpus
       - ALEJANDRIA_EMBEDDING_DEVICE=cpu
-      # Postgres connection (ALEJANDRIA_POSTGRES_*) is loaded from .env.
-      # No container service — the authoritative store lives in Postgres
-      # IONOS, reached via SSH tunnel on the host (localhost:15432).
+      # Redirect POSTGRES_HOST to the Docker host gateway: the SSH tunnel
+      # to IONOS binds on the WSL host's localhost:15432, which containers
+      # on the default bridge reach via host.docker.internal. This
+      # override wins over the env_file's "localhost" (valid only on the
+      # host shell). Other ALEJANDRIA_POSTGRES_* come from ../.env.
+      - ALEJANDRIA_POSTGRES_HOST=host.docker.internal
     mem_limit: 2g
     restart: unless-stopped
     healthcheck:
