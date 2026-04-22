@@ -132,7 +132,7 @@ class RAGPipeline:
 
     textual_search: object  # TextualSearch
     semantic_search: object | None = None  # SemanticSearch or None
-    neo4j_client: object | None = None  # Neo4jClient or None
+    graph_client: object | None = None  # PostgresGraphClient or None
     profile_store: object | None = None  # ProfileStore or None
     definition_lookup: DefinitionLookup | None = None  # BD/GEE definitions
     jst_lookup: JSTLookup | None = None  # JST variant pairing
@@ -413,7 +413,7 @@ class RAGPipeline:
 
         Returns list of (file_path, entity_label) tuples.
         """
-        if self.neo4j_client is None:
+        if self.graph_client is None:
             return []
 
         try:
@@ -423,13 +423,13 @@ class RAGPipeline:
                 return []
 
             # Step 2: Batch search KG for matching entities (1 query instead of N)
-            matches = self.neo4j_client.find_nodes_batch(entity_names)
+            matches = self.graph_client.find_nodes_batch(entity_names)
             matched_entities = [m.get("name", "") for m in matches if m.get("name")]
             if not matched_entities:
                 return []
 
             # Step 3: Batch get documents for all matched entities (1 query instead of N)
-            docs_map = self.neo4j_client.get_documents_for_entities_batch(matched_entities)
+            docs_map = self.graph_client.get_documents_for_entities_batch(matched_entities)
 
             file_hints: list[tuple[str, str]] = []
             seen_files: set[str] = set()
@@ -1153,7 +1153,7 @@ class RAGPipeline:
         Prioritizes structured, typed relations (curated/metadata/llm) over
         generic co-occurrence. Includes entity profiles when available.
         """
-        if self.neo4j_client is None:
+        if self.graph_client is None:
             return None
 
         try:
@@ -1196,7 +1196,7 @@ class RAGPipeline:
             seen_rels: set[str] = set()
             entity_names_for_rels = [e.name for e in extraction.entities]
             try:
-                all_relations = self.neo4j_client.get_typed_relations_batch(
+                all_relations = self.graph_client.get_typed_relations_batch(
                     entity_names=entity_names_for_rels,
                     confidence_min="ner",  # Skip co_occurrence (lowest tier)
                 )
@@ -1239,7 +1239,7 @@ class RAGPipeline:
                 if entity.name in entities_with_context:
                     continue
                 try:
-                    result = self.neo4j_client.get_neighbors(
+                    result = self.graph_client.get_neighbors(
                         name=entity.name, depth=1, limit=10,
                     )
                     if result["nodes"]:

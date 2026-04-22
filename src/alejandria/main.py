@@ -17,7 +17,7 @@ from alejandria.api.routes_backup import router as backup_router
 from alejandria.api.routes_genealogy import router as genealogy_router
 from alejandria.api.routes_search import router as search_router
 from alejandria.api.schemas import HealthResponse
-from alejandria.api.dependencies import get_neo4j_client, get_registry, get_semantic_search, get_textual_search
+from alejandria.api.dependencies import get_graph_client, get_registry, get_semantic_search, get_textual_search
 from alejandria.config import settings
 
 logging.basicConfig(
@@ -72,11 +72,11 @@ def health() -> HealthResponse:
             semantic_vectors = semantic.count()
         except Exception:
             pass
-    neo4j = get_neo4j_client()
+    graph = get_graph_client()
     graph_nodes = None
-    if neo4j is not None:
+    if graph is not None:
         try:
-            summary = neo4j.graph_summary()
+            summary = graph.graph_summary()
             graph_nodes = summary["total_nodes"]
         except Exception:
             pass
@@ -87,7 +87,7 @@ def health() -> HealthResponse:
         fts_chunks=textual.count_chunks(),
         semantic_available=semantic is not None,
         semantic_vectors=semantic_vectors,
-        graph_available=neo4j is not None,
+        graph_available=graph is not None,
         graph_nodes=graph_nodes,
     )
 

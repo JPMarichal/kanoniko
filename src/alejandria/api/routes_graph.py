@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, Depends, HTTPException
 
-from alejandria.api.dependencies import get_neo4j_client, get_profile_store
+from alejandria.api.dependencies import get_graph_client, get_profile_store
 from alejandria.api.schemas import (
     EntityProfileListResponse,
     EntityProfileResponse,
@@ -29,19 +29,19 @@ from alejandria.api.schemas import (
 router = APIRouter(prefix="/search/graph", tags=["graph"])
 
 
-def _require_neo4j(neo4j=Depends(get_neo4j_client)):
-    if neo4j is None:
-        raise HTTPException(503, "Knowledge graph is not available (Neo4j not connected)")
-    return neo4j
+def _require_graph(graph=Depends(get_graph_client)):
+    if graph is None:
+        raise HTTPException(503, "Knowledge graph is not available (Postgres unreachable)")
+    return graph
 
 
 @router.post("/find", response_model=GraphSearchResponse)
 def graph_find(
     req: GraphSearchRequest,
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ) -> GraphSearchResponse:
     """Search for entities by name (partial match)."""
-    results = neo4j.find_node(
+    results = graph.find_node(
         search=req.query,
         entity_type=req.entity_type,
         limit=req.limit,
@@ -63,10 +63,10 @@ def graph_find(
 @router.post("/neighbors", response_model=GraphNeighborsResponse)
 def graph_neighbors(
     req: GraphNeighborsRequest,
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ) -> GraphNeighborsResponse:
     """Get neighboring nodes and edges for an entity."""
-    result = neo4j.get_neighbors(
+    result = graph.get_neighbors(
         name=req.name,
         depth=req.depth,
         relation_types=req.relation_types,
@@ -93,10 +93,10 @@ def graph_neighbors(
 @router.post("/relations", response_model=TypedRelationsResponse)
 def graph_typed_relations(
     req: TypedRelationsRequest,
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ) -> TypedRelationsResponse:
     """Get typed relations for an entity, filtered by confidence and type."""
-    results = neo4j.get_typed_relations(
+    results = graph.get_typed_relations(
         entity_name=req.name,
         confidence_min=req.confidence_min,
         rel_types=req.rel_types,
@@ -122,10 +122,10 @@ def graph_typed_relations(
 @router.post("/parallels", response_model=ParallelPassagesResponse)
 def graph_parallels(
     req: ParallelPassagesRequest,
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ) -> ParallelPassagesResponse:
     """Find parallel passages for a scripture chapter."""
-    results = neo4j.get_parallel_passages(
+    results = graph.get_parallel_passages(
         file_path=req.file_path,
         layer=req.layer,
         limit=req.limit,
@@ -147,20 +147,20 @@ def graph_parallels(
 
 @router.get("/summary", response_model=GraphSummaryResponse)
 def graph_summary(
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ) -> GraphSummaryResponse:
     """Get overall knowledge graph statistics."""
-    summary = neo4j.graph_summary()
+    summary = graph.graph_summary()
     return GraphSummaryResponse(**summary)
 
 
 @router.get("/docs/{entity_name}", response_model=GraphDocsResponse)
 def graph_docs(
     entity_name: str,
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ) -> GraphDocsResponse:
     """Find documents that mention a specific entity."""
-    docs = neo4j.get_documents_for_entity(entity_name)
+    docs = graph.get_documents_for_entity(entity_name)
     return GraphDocsResponse(entity=entity_name, documents=docs)
 
 
@@ -258,12 +258,12 @@ def dismiss_ner_candidate(name: str, entity_type: str):
 @router.post("/extract-relations", response_model=LLMExtractRelationsResponse)
 def extract_relations_llm(
     req: LLMExtractRelationsRequest,
-    neo4j=Depends(_require_neo4j),
+    graph=Depends(_require_graph),
 ):
     """Extract typed relations from entity-rich passages using LLM.
 
     Selects passages with the most entity mentions, sends them to an LLM
-    with structured prompts, and stores extracted typed relations in Neo4j.
+    with structured prompts, and stores extracted typed relations in the KG.
     Use dry_run=true to preview without loading.
     """
     from alejandria.knowledge.relation_extractor_llm import (
@@ -288,7 +288,7 @@ def extract_relations_llm(
         extractor = LLMRelationExtractor(tier=req.tier, budget_usd=req.budget_usd)
         stats, relations = extractor.extract_batch(
             batches=batches,
-            neo4j_client=None if req.dry_run else neo4j,
+            graph_client=None if req.dry_run else graph,
             dry_run=req.dry_run,
         )
 
