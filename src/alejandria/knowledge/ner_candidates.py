@@ -1,50 +1,36 @@
-"""NER candidate tracking for gazetteer feedback loop.
+"""NER candidate tracking for the gazetteer feedback loop.
 
-Tracks entities discovered by spaCy NER that are not in the curated gazetteer.
-High-frequency candidates can be promoted to the gazetteer via API.
+Tracks entities discovered by spaCy NER that are not in the curated
+gazetteer. High-frequency candidates can be promoted to the gazetteer
+via API.
+
+Backend: Postgres ``ner_candidates`` table (declared in
+``storage/postgres/ddl.sql``). The SQLite implementation was retired
+together with the rest of the SQLite stack in §3.4.
 """
 
 from __future__ import annotations
 
 import json
 import logging
-import sqlite3
 from pathlib import Path
+
+from alejandria.storage.postgres.connection import get_connection
 
 logger = logging.getLogger(__name__)
 
-_DB_PATH_DEFAULT = Path(__file__).resolve().parent.parent.parent.parent / "data" / "sqlite" / "alejandria.db"
-
 
 class NERCandidateTracker:
-    """Track and manage NER-discovered entity candidates."""
+    """Track and manage NER-discovered entity candidates over Postgres."""
 
-    def __init__(self, db_path: Path | None = None) -> None:
-        self._db_path = db_path or _DB_PATH_DEFAULT
-        self._ensure_table()
+    def __init__(self) -> None:
+        # Schema is declared in storage/postgres/ddl.sql and applied
+        # idempotently by ``apply_schema()``. No per-instance DDL.
+        pass
 
-    def _ensure_table(self) -> None:
-        with sqlite3.connect(self._db_path) as conn:
-            conn.execute("""
-                CREATE TABLE IF NOT EXISTS ner_candidates (
-                    name TEXT NOT NULL,
-                    type TEXT NOT NULL,
-                    frequency INTEGER DEFAULT 1,
-                    sample_files TEXT DEFAULT '[]',
-                    status TEXT DEFAULT 'candidate',
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    PRIMARY KEY (name, type)
-                )
-            """)
-            conn.execute("""
-                CREATE INDEX IF NOT EXISTS idx_ner_freq
-                ON ner_candidates(frequency DESC)
-            """)
-            conn.execute("""
-                CREATE INDEX IF NOT EXISTS idx_ner_status
-                ON ner_candidates(status)
-            """)
+    # ------------------------------------------------------------------ #
+    # Write
+    # ------------------------------------------------------------------ #
 
     def record(self, name: str, entity_type: str, source_file: str = "") -> None:
         """Record an NER-discovered entity. Increments frequency if already known.
@@ -59,89 +45,176 @@ class NERCandidateTracker:
         if should_skip_ner_entity(name) is not None:
             return
 
-        with sqlite3.connect(self._db_path) as conn:
-            # Try to update existing
-            cursor = conn.execute(
-                "UPDATE ner_candidates SET frequency = frequency + 1, "
-                "updated_at = CURRENT_TIMESTAMP "
-                "WHERE name = ? AND type = ? AND status = 'candidate'",
+        with get_connection() as conn, conn.cursor() as cur:
+            # Try to bump frequency if already present as a candidate.
+            cur.execute(
+                "UPDATE ner_candidates "
+                "SET frequency = frequency + 1, last_seen = now() "
+                "WHERE name = %s AND entity_type = %s AND status = 'candidate' "
+                "RETURNING sample_files",
                 (name, entity_type),
             )
-            if cursor.rowcount == 0:
-                # Insert new
+            row = cur.fetchone()
+            if row is None:
+                # First observation (or the row is already promoted/dismissed).
+                # ON CONFLICT DO NOTHING: if a non-candidate row exists, leave it.
                 sample = json.dumps([source_file] if source_file else [])
-                conn.execute(
-                    "INSERT OR IGNORE INTO ner_candidates (name, type, sample_files) "
-                    "VALUES (?, ?, ?)",
+                cur.execute(
+                    "INSERT INTO ner_candidates "
+                    "    (name, entity_type, frequency, sample_files, status, "
+                    "     first_seen, last_seen) "
+                    "VALUES (%s, %s, 1, %s::jsonb, 'candidate', now(), now()) "
+                    "ON CONFLICT (name, entity_type) DO NOTHING",
                     (name, entity_type, sample),
                 )
             elif source_file:
-                # Append source file to sample (up to 10)
-                row = conn.execute(
-                    "SELECT sample_files FROM ner_candidates WHERE name = ? AND type = ?",
-                    (name, entity_type),
-                ).fetchone()
-                if row:
-                    files = json.loads(row[0])
-                    if source_file not in files and len(files) < 10:
-                        files.append(source_file)
-                        conn.execute(
-                            "UPDATE ner_candidates SET sample_files = ? "
-                            "WHERE name = ? AND type = ?",
-                            (json.dumps(files), name, entity_type),
-                        )
+                # Append source file to sample (cap at 10).
+                existing = row[0] if isinstance(row[0], list) else (
+                    json.loads(row[0]) if row[0] else []
+                )
+                if source_file not in existing and len(existing) < 10:
+                    existing.append(source_file)
+                    cur.execute(
+                        "UPDATE ner_candidates SET sample_files = %s::jsonb "
+                        "WHERE name = %s AND entity_type = %s",
+                        (json.dumps(existing), name, entity_type),
+                    )
+            conn.commit()
+
+    # ------------------------------------------------------------------ #
+    # Read
+    # ------------------------------------------------------------------ #
 
     def get_top_candidates(
-        self, min_frequency: int = 3, entity_type: str | None = None,
-        limit: int = 50, status: str = "candidate",
+        self,
+        min_frequency: int = 3,
+        entity_type: str | None = None,
+        limit: int = 50,
+        status: str = "candidate",
     ) -> list[dict]:
         """Get top NER candidates by frequency."""
-        with sqlite3.connect(self._db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            query = (
-                "SELECT name, type, frequency, sample_files, status, "
-                "created_at, updated_at "
-                "FROM ner_candidates "
-                "WHERE frequency >= ? AND status = ?"
-            )
-            params: list = [min_frequency, status]
-            if entity_type:
-                query += " AND type = ?"
-                params.append(entity_type)
-            query += " ORDER BY frequency DESC LIMIT ?"
-            params.append(limit)
+        sql = (
+            "SELECT name, entity_type, frequency, sample_files, status, "
+            "       first_seen, last_seen "
+            "FROM ner_candidates "
+            "WHERE frequency >= %s AND status = %s"
+        )
+        params: list = [min_frequency, status]
+        if entity_type:
+            sql += " AND entity_type = %s"
+            params.append(entity_type)
+        sql += " ORDER BY frequency DESC LIMIT %s"
+        params.append(limit)
 
-            rows = conn.execute(query, params).fetchall()
-            return [
-                {
-                    "name": r["name"],
-                    "type": r["type"],
-                    "frequency": r["frequency"],
-                    "sample_files": json.loads(r["sample_files"]),
-                    "status": r["status"],
-                }
-                for r in rows
-            ]
+        with get_connection() as conn, conn.cursor() as cur:
+            cur.execute(sql, params)
+            rows = cur.fetchall()
+
+        return [
+            {
+                "name": r[0],
+                "type": r[1],  # keep legacy key 'type' for API clients
+                "frequency": int(r[2]),
+                "sample_files": (
+                    r[3] if isinstance(r[3], list)
+                    else (json.loads(r[3]) if r[3] else [])
+                ),
+                "status": r[4],
+            }
+            for r in rows
+        ]
+
+    def get_stats(self) -> dict:
+        """Get summary statistics."""
+        with get_connection() as conn, conn.cursor() as cur:
+            cur.execute("SELECT count(*) FROM ner_candidates")
+            total = int(cur.fetchone()[0])
+
+            cur.execute(
+                "SELECT status, count(*) FROM ner_candidates GROUP BY status"
+            )
+            by_status = {row[0]: int(row[1]) for row in cur.fetchall()}
+
+            cur.execute(
+                "SELECT entity_type, count(*) FROM ner_candidates "
+                "WHERE status = 'candidate' GROUP BY entity_type "
+                "ORDER BY count(*) DESC"
+            )
+            by_type = {row[0]: int(row[1]) for row in cur.fetchall()}
+
+            cur.execute(
+                "SELECT max(frequency) FROM ner_candidates WHERE status = 'candidate'"
+            )
+            top_freq_row = cur.fetchone()
+            top_freq = int(top_freq_row[0]) if top_freq_row and top_freq_row[0] else 0
+
+        return {
+            "total": total,
+            "by_status": by_status,
+            "by_type": by_type,
+            "max_frequency": top_freq,
+        }
+
+    # ------------------------------------------------------------------ #
+    # Lifecycle
+    # ------------------------------------------------------------------ #
 
     def promote(self, name: str, entity_type: str) -> bool:
-        """Promote a candidate: update SQLite status AND write to entities.json.
+        """Promote a candidate: update status AND write to entities.json.
 
         This closes the feedback loop: NER discoveries become part of the
         curated gazetteer, taking effect on next KGExtractor instantiation.
         """
-        with sqlite3.connect(self._db_path) as conn:
-            cursor = conn.execute(
-                "UPDATE ner_candidates SET status = 'promoted', "
-                "updated_at = CURRENT_TIMESTAMP "
-                "WHERE name = ? AND type = ?",
+        with get_connection() as conn, conn.cursor() as cur:
+            cur.execute(
+                "UPDATE ner_candidates SET status = 'promoted', last_seen = now() "
+                "WHERE name = %s AND entity_type = %s",
                 (name, entity_type),
             )
-            if cursor.rowcount == 0:
-                return False
-
-        # Write to gazetteer file
+            rowcount = cur.rowcount or 0
+            conn.commit()
+        if rowcount == 0:
+            return False
         self._add_to_gazetteer(name, entity_type)
         return True
+
+    def dismiss(self, name: str, entity_type: str) -> bool:
+        """Mark a candidate as dismissed (not useful)."""
+        with get_connection() as conn, conn.cursor() as cur:
+            cur.execute(
+                "UPDATE ner_candidates SET status = 'dismissed', last_seen = now() "
+                "WHERE name = %s AND entity_type = %s",
+                (name, entity_type),
+            )
+            rowcount = cur.rowcount or 0
+            conn.commit()
+        return rowcount > 0
+
+    def prune_low_value(
+        self,
+        min_frequency: int = 3,
+        max_age_days: int = 30,
+    ) -> int:
+        """Retention policy (R2, kg-ingestion-refactor §3): drop candidates that
+        never reached the minimum frequency after sitting unreviewed for N days.
+
+        Returns the number of rows deleted.
+        """
+        with get_connection() as conn, conn.cursor() as cur:
+            cur.execute(
+                "DELETE FROM ner_candidates "
+                "WHERE status = 'candidate' "
+                "  AND frequency < %s "
+                "  AND last_seen < now() - (%s || ' days')::interval",
+                (min_frequency, max_age_days),
+            )
+            deleted = cur.rowcount or 0
+            conn.commit()
+        return deleted
+
+    # ------------------------------------------------------------------ #
+    # Gazetteer write (unchanged; filesystem-only)
+    # ------------------------------------------------------------------ #
 
     def _add_to_gazetteer(self, name: str, entity_type: str) -> None:
         """Append a promoted entity to entities.json."""
@@ -151,7 +224,6 @@ class NERCandidateTracker:
         try:
             data = json.loads(gazetteer_path.read_text(encoding="utf-8"))
 
-            # Skip if entity type doesn't exist in gazetteer
             if entity_type not in data:
                 logger.warning(
                     "Entity type '%s' not in gazetteer — skipping write for '%s'",
@@ -159,10 +231,7 @@ class NERCandidateTracker:
                 )
                 return
 
-            # Skip if already present (by name, case-insensitive)
-            existing_names = {
-                e["name"].lower() for e in data[entity_type]
-            }
+            existing_names = {e["name"].lower() for e in data[entity_type]}
             for entry in data[entity_type]:
                 for alias in entry.get("aliases", []):
                     existing_names.add(alias.lower())
@@ -171,7 +240,6 @@ class NERCandidateTracker:
                 logger.info("'%s' already in gazetteer — skipping", name)
                 return
 
-            # Add new entry
             data[entity_type].append({"name": name, "aliases": []})
             gazetteer_path.write_text(
                 json.dumps(data, ensure_ascii=False, indent=2),
@@ -183,60 +251,3 @@ class NERCandidateTracker:
             )
         except Exception:
             logger.exception("Failed to write promoted entity to gazetteer")
-
-    def prune_low_value(
-        self,
-        min_frequency: int = 3,
-        max_age_days: int = 30,
-    ) -> int:
-        """Retention policy (R2, kg-ingestion-refactor §3): drop candidates that
-        never reached the minimum frequency after sitting unreviewed for N days.
-
-        Rationale: after migration+R0, we observed 206k singletons (33 %) + 228k
-        with freq 2-5 (37 %) — mostly noise that would never pass promotion
-        review. A retention policy keeps the table bounded as the corpus grows.
-
-        Returns the number of rows deleted. Always called at end of KG rebuild.
-        """
-        with sqlite3.connect(self._db_path) as conn:
-            cursor = conn.execute(
-                "DELETE FROM ner_candidates "
-                "WHERE status = 'candidate' "
-                "  AND frequency < ? "
-                "  AND julianday('now') - julianday(updated_at) > ?",
-                (min_frequency, max_age_days),
-            )
-            return cursor.rowcount or 0
-
-    def dismiss(self, name: str, entity_type: str) -> bool:
-        """Mark a candidate as dismissed (not useful)."""
-        with sqlite3.connect(self._db_path) as conn:
-            cursor = conn.execute(
-                "UPDATE ner_candidates SET status = 'dismissed', "
-                "updated_at = CURRENT_TIMESTAMP "
-                "WHERE name = ? AND type = ?",
-                (name, entity_type),
-            )
-            return cursor.rowcount > 0
-
-    def get_stats(self) -> dict:
-        """Get summary statistics."""
-        with sqlite3.connect(self._db_path) as conn:
-            total = conn.execute("SELECT count(*) FROM ner_candidates").fetchone()[0]
-            by_status = conn.execute(
-                "SELECT status, count(*) as cnt FROM ner_candidates GROUP BY status"
-            ).fetchall()
-            by_type = conn.execute(
-                "SELECT type, count(*) as cnt FROM ner_candidates "
-                "WHERE status = 'candidate' GROUP BY type ORDER BY cnt DESC"
-            ).fetchall()
-            top_freq = conn.execute(
-                "SELECT max(frequency) FROM ner_candidates WHERE status = 'candidate'"
-            ).fetchone()[0]
-
-            return {
-                "total": total,
-                "by_status": {r[0]: r[1] for r in by_status},
-                "by_type": {r[0]: r[1] for r in by_type},
-                "max_frequency": top_freq or 0,
-            }

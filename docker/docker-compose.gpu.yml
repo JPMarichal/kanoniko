@@ -10,7 +10,6 @@ services:
       # Override corpus mount: use git clone on Linux FS for fast I/O
       # Sync with: cd /home/jpmarichal/alejandria-repo && git pull
       - /home/jpmarichal/alejandria-repo/corpus:/app/corpus:ro
-      - /home/jpmarichal/alejandria-data/sqlite:/app/data/sqlite
       - /home/jpmarichal/alejandria-data/models:/root/.cache
     environment:
       - ALEJANDRIA_EMBEDDING_DEVICE=cuda

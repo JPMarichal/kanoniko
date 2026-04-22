@@ -4,17 +4,13 @@ The two layers are consolidated because they are always written together
 per chunk during ingestion; separating them would create implicit
 synchronization between two Protocols without operational benefit.
 
-Concrete implementations:
+Canonical implementation:
+:mod:`alejandria.storage.postgres_chunk_writer` (chunks + tsvector +
+pgvector). The transitional ``LegacyChunkWriter`` adapter over
+SQLite FTS5 + sqlite-vec was retired in §3.4.
 
-* :mod:`alejandria.storage.postgres_chunk_writer` — Postgres IONOS
-  (chunks + tsvector + pgvector) — target.
-* :mod:`alejandria.storage.legacy_chunk_writer` — adapter over
-  :class:`TextualSearch` (SQLite FTS5) + :class:`SemanticSearch`
-  (sqlite-vec), transitional, retired in §3.4.
-
-Transaction management is **internal** to each implementation. Callers
-do not see connection objects — a contract we need for Postgres, where
-leaking ``sqlite3.Connection`` would be a category error.
+Transaction management is **internal** to the implementation. Callers
+do not see connection objects.
 """
 from __future__ import annotations
 
@@ -117,19 +113,7 @@ class ChunkWriter(Protocol):
 
 
 def make_chunk_writer() -> ChunkWriter:
-    """Return the chunk writer selected by ``settings.storage_backend``.
+    """Return the chunk writer over Postgres IONOS."""
+    from alejandria.storage.postgres_chunk_writer import PostgresChunkWriter
 
-    * ``"postgres"`` — :class:`PostgresChunkWriter`.
-    * anything else (transitional) — :class:`LegacyChunkWriter` over the
-      existing SQLite FTS5 + sqlite-vec stack.
-    """
-    from alejandria.config import settings
-
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        from alejandria.storage.postgres_chunk_writer import PostgresChunkWriter
-
-        return PostgresChunkWriter()
-    from alejandria.storage.legacy_chunk_writer import LegacyChunkWriter
-
-    return LegacyChunkWriter()
+    return PostgresChunkWriter()

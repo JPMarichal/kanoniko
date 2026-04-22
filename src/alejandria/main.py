@@ -13,7 +13,6 @@ from alejandria.api.routes_chat import router as chat_router
 from alejandria.api.routes_docs import router as docs_router
 from alejandria.api.routes_graph import router as graph_router
 from alejandria.api.routes_index import router as index_router
-from alejandria.api.routes_backup import router as backup_router
 from alejandria.api.routes_genealogy import router as genealogy_router
 from alejandria.api.routes_search import router as search_router
 from alejandria.api.schemas import HealthResponse
@@ -58,7 +57,6 @@ app.include_router(genealogy_router)
 app.include_router(chat_router)
 app.include_router(index_router)
 app.include_router(docs_router)
-app.include_router(backup_router)
 app.routes.append(Mount("/mcp", app=_mcp_manager.handle_request))
 
 

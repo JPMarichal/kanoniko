@@ -2,35 +2,14 @@
 
 from __future__ import annotations
 
-import tempfile
 from pathlib import Path
 
 import pytest
 
-from alejandria.ingestion.registry import DocumentRegistry
-from alejandria.ingestion.sqlite_registry import SqliteDocumentRegistry
-from alejandria.search.textual import TextualSearch
-
-
-@pytest.fixture
-def tmp_db(tmp_path: Path) -> Path:
-    return tmp_path / "test.db"
-
-
-@pytest.fixture
-def registry(tmp_db: Path) -> DocumentRegistry:
-    # These tests exercise the SQLite backend explicitly. They are retired
-    # alongside SQLite in §3.4 of docs/ingestion-workflow.md.
-    return SqliteDocumentRegistry(tmp_db)
-
-
-@pytest.fixture
-def textual_search(tmp_db: Path) -> TextualSearch:
-    return TextualSearch(tmp_db)
-
 
 @pytest.fixture
 def sample_corpus(tmp_path: Path) -> Path:
+    """Minimal synthetic corpus for tests that need real files on disk."""
     corpus = tmp_path / "corpus"
     corpus.mkdir()
 
