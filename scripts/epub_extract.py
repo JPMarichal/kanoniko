@@ -66,7 +66,27 @@ NS_CONTAINER = {"c": "urn:oasis:names:tc:opendocument:xmlns:container"}
 
 BLOCK_TAGS = {"p", "div", "section", "article", "li", "blockquote", "pre"}
 HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
-SKIP_TAGS = {"script", "style", "head", "nav"}  # drop entirely
+SKIP_TAGS = {"script", "style", "head", "nav", "title"}  # drop entirely
+
+# Block-level text patterns to drop entirely (scrape artefacts, copyright
+# footers, server-error boilerplate). Add new patterns here when new sources
+# show up with their own noise.
+BOILERPLATE_PATTERNS = [
+    re.compile(r"^Server Error$", re.IGNORECASE),
+    re.compile(r"There was a server error processing your request", re.IGNORECASE),
+    re.compile(r"The error has been logged and will be investigated", re.IGNORECASE),
+    re.compile(r"\bDeseret Book Company\.?\s*All Rights Reserved\b", re.IGNORECASE),
+    re.compile(r"^home\s*\|\s*search\s*\|\s*browse", re.IGNORECASE),
+    # bare 4-digit-year-only block (Deseret Book footer leaves the publication year alone)
+    re.compile(r"^\d{4}$"),
+]
+
+
+def is_boilerplate(text: str) -> bool:
+    t = text.strip()
+    if not t:
+        return True
+    return any(p.search(t) for p in BOILERPLATE_PATTERNS)
 
 
 # ---------- slug / normalization ----------
@@ -219,6 +239,8 @@ class _TextExtractor(HTMLParser):
         self._fn_refs = []
         if not text:
             return
+        if is_boilerplate(text):
+            return
         if self._in_fn_num is not None:
             # close the current footnote definition
             existing = self.footnotes.get(self._in_fn_num, "")
@@ -274,6 +296,14 @@ class _TextExtractor(HTMLParser):
 
         if tag == "a":
             href = attrs.get("href", "")
+            # Footnote *definition* anchor: <a id="fn-N"> with no href.
+            # Mark the enclosing block so its flushed text is routed to footnotes[N].
+            if not href:
+                fid = attrs.get("id", "")
+                m_def = FN_REF_RE.search("#" + fid) if fid else None
+                if m_def:
+                    self._in_fn_num = m_def.group(1)
+                    return
             m = FN_REF_RE.search(href)
             if m:
                 num = m.group(1)
