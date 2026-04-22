@@ -38,14 +38,11 @@ class KnowledgeGraphReader(Protocol):
 
 
 def make_kg_reader() -> KnowledgeGraphReader:
-    """Return the KG reader selected by ``settings.storage_backend``."""
-    from alejandria.config import settings
+    """Return the KG reader backed by Postgres IONOS.
 
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        from alejandria.storage.postgres_kg_reader import PostgresKGReader
+    Kept as a factory (not a bare ``PostgresKGReader()`` import) so
+    future backend swaps stay transparent to consumers.
+    """
+    from alejandria.storage.postgres_kg_reader import PostgresKGReader
 
-        return PostgresKGReader()
-    from alejandria.storage.legacy_kg_reader import LegacyKGReader
-
-    return LegacyKGReader()
+    return PostgresKGReader()

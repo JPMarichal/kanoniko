@@ -1,19 +1,10 @@
 """Postgres implementation of :class:`KnowledgeGraphWriter`.
 
-Delegates to :class:`alejandria.knowledge.postgres_graph_client.PostgresGraphClient`,
-which already owns the full KG write implementation over Postgres
-(entities, relations, documents, mentions, clear_all). This writer is the
-stable Protocol-level API; ``PostgresGraphClient`` remains the concrete
-query / write workhorse used by tests and the search/chat layer.
-
-Four specialized loaders (``load_scripture_structure`` /
-``load_scripture_parallels`` / ``extract_metadata_relations`` /
-``load_cross_references``) are **not** implemented here. They exist only
-for the Neo4j-era ``rebuild_kg()`` operation, which has no Postgres
-analogue — in Postgres the graph is just rows in ``entities`` and
-``relations``, so "rebuild" collapses to re-running the ingestion
-pipeline. These methods therefore raise :class:`NotImplementedError`;
-they will be deleted together with ``rebuild_kg()`` at §3.3 retirement.
+Thin adapter over :class:`PostgresGraphClient`, which owns the full KG
+write implementation (entities, relations, documents, mentions,
+clear_all). Keeping the Protocol layer separate from the concrete
+client lets tests and the chat/search layer use the client directly
+while the ingestion pipeline depends only on the Protocol.
 """
 from __future__ import annotations
 
@@ -23,14 +14,6 @@ from typing import Any
 from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
 
 logger = logging.getLogger(__name__)
-
-
-_REBUILD_NOT_SUPPORTED = (
-    "The rebuild_kg() entrypoint is a Neo4j-era operation and has no "
-    "Postgres implementation. In Postgres the KG is just rows in "
-    "`entities` + `relations`; re-running ingestion is the equivalent. "
-    "This method is retired together with rebuild_kg() in §3.3."
-)
 
 
 class PostgresKGWriter:
@@ -123,17 +106,3 @@ class PostgresKGWriter:
             to_type=to_type,
             properties=properties,
         )
-
-    # ----- Specialized bulk loaders (Neo4j-era only) ---------------- #
-
-    def load_scripture_structure(self) -> dict[str, int]:
-        raise NotImplementedError(_REBUILD_NOT_SUPPORTED)
-
-    def load_scripture_parallels(self) -> dict[str, int]:
-        raise NotImplementedError(_REBUILD_NOT_SUPPORTED)
-
-    def extract_metadata_relations(self) -> dict[str, int]:
-        raise NotImplementedError(_REBUILD_NOT_SUPPORTED)
-
-    def load_cross_references(self) -> dict[str, int]:
-        raise NotImplementedError(_REBUILD_NOT_SUPPORTED)

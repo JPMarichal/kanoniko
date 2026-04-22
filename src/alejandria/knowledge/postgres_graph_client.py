@@ -1,29 +1,14 @@
-"""Postgres-backend KG client — drop-in replacement for ``Neo4jClient``.
+"""Postgres-backend knowledge-graph client.
 
-Scope (Fase 3 part 2a, 2026-04-18): scaffold + 3 initial methods. Remaining
-methods raise ``NotImplementedError`` with a pointer to the audit doc §6.4
-classification so it's clear what's still pending vs what's intentionally
-dropped.
+Authoritative KG client post §3.3 Neo4j retirement. Read surface is
+validated by ``tests/parity/golden_queries.yaml`` (31/31 passing as of
+§3.2). Write surface is exercised directly by tests and via the
+``KGWriter`` Protocol when routed through
+:class:`alejandria.storage.postgres_kg_writer.PostgresKGWriter`.
 
-Contract:
-    * Same public method names and signatures as ``Neo4jClient`` — callers
-      in ``api/routes_*``, ``cli``, ``mcp_server``, ``chat/rag`` don't need
-      to change. DI in ``api/dependencies.py`` and the factory below switch
-      by ``settings.storage_backend``.
-    * Return shapes mirror the Neo4j-backed client (dicts/lists of dicts)
-      so ``tests/parity/golden_queries.yaml`` validates both sides.
-
-Audit reference:
-    docs/kg-client-port-audit.md §6.4 — inventory + classification of the
-    34 methods of the original Neo4j client, with which this module is
-    paired 1:1.
-
-Caveats:
-    * Queries that filter by ``entity_type`` carry the R10 caveat
-      (docs/kg-ingestion-refactor.md): type misclassification is not yet
-      resolved, so filter-by-type may miss or mis-include entries.
-    * Writes (merge_*, batch_*, clear_all) still need to land for ingestion
-      cutover (Fase 4). Reads are the priority for Fase 3.
+Caveat: queries filtering by ``entity_type`` carry the R10 caveat
+(docs/kg-ingestion-refactor.md) — type misclassification is not fully
+resolved, so filter-by-type may miss or mis-include entries.
 """
 from __future__ import annotations
 
@@ -39,16 +24,8 @@ from alejandria.storage.postgres.connection import get_connection
 logger = logging.getLogger(__name__)
 
 
-# Methods that the audit explicitly DEPRECATEs. Kept here for awareness —
-# callers of these in the old code path should be pruned during cutover.
-_DEPRECATED = frozenset({
-    "_ensure_indexes",          # Postgres DDL covers this; no runtime equivalent
-    "migrate_untyped_relations",  # dead code post-R7
-})
-
-
 class PostgresGraphClient:
-    """Postgres-backed drop-in replacement for Neo4jClient."""
+    """Postgres-backed knowledge-graph client."""
 
     # ------------------------------------------------------------------ #
     # Lifecycle
@@ -59,8 +36,7 @@ class PostgresGraphClient:
         # No persistent session; matches how psycopg is used elsewhere in
         # the codebase. Pool can be added later if we observe connection
         # pressure under load.
-        self._driver = self  # attribute parity with Neo4jClient for callers
-                              # that pass ``self._neo4j._driver`` to helpers.
+        pass
 
     def close(self) -> None:
         """No-op — per-call connections close themselves via context manager."""
@@ -1526,39 +1502,16 @@ class PostgresGraphClient:
                     )
             conn.commit()
 
-    # Explicitly deprecated methods raise a distinct error so they're caught
-    # at cutover time if anything still calls them.
-
-    def _ensure_indexes(self) -> None:
-        raise NotImplementedError(
-            "DEPRECATED per audit §6.4: DDL covers this, no runtime equivalent."
-        )
-
-    def migrate_untyped_relations(self, *args, **kwargs):
-        raise NotImplementedError(
-            "DEPRECATED per audit §6.2: dead code post-R7. Remove API route also."
-        )
-
 
 # --------------------------------------------------------------------------- #
-# Factory (dispatch by settings.storage_backend)
+# Factory
 # --------------------------------------------------------------------------- #
 
-def make_graph_client():
+def make_graph_client() -> "PostgresGraphClient":
     """Return the configured KG client.
 
-    Dispatches on ``settings.storage_backend``:
-
-    * ``"sqlite"`` (default): ``Neo4jClient`` — legacy stack.
-    * ``"postgres"``: ``PostgresGraphClient`` — this module.
-
-    Same naming convention as ``search/textual.py::make_textual_search``.
-    ``api/dependencies.py::get_neo4j_client`` delegates to this factory.
+    Post §3.3 this always returns :class:`PostgresGraphClient`. The
+    factory remains to keep the call-site stable against future backend
+    swaps. ``api/dependencies.py::get_graph_client`` delegates here.
     """
-    from alejandria.config import settings
-
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        return PostgresGraphClient()
-    from alejandria.knowledge.neo4j_client import Neo4jClient
-    return Neo4jClient()
+    return PostgresGraphClient()
