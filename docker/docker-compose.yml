@@ -11,9 +11,6 @@ services:
       - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
       # Scripture structure data (cross-references, etc.)
       - ../data/scripture_structure:/app/data/scripture_structure:ro
-      # SQLite data: bind mount (shared with host/WSL for GPU reindex).
-      # Transitional — retired together with SQLite in §3.4.
-      - ../data/sqlite:/app/data/sqlite
       # Model cache: so embedding model is downloaded once
       - alejandria-models:/root/.cache
     env_file:
@@ -22,10 +19,9 @@ services:
       - ALEJANDRIA_HOST=0.0.0.0
       - ALEJANDRIA_PORT=4300
       - ALEJANDRIA_CORPUS_PATH=/app/corpus
-      - ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
       - ALEJANDRIA_EMBEDDING_DEVICE=cpu
       # Postgres connection (ALEJANDRIA_POSTGRES_*) is loaded from .env.
-      # No container service — the authoritative KG lives in Postgres
+      # No container service — the authoritative store lives in Postgres
       # IONOS, reached via SSH tunnel on the host (localhost:15432).
     mem_limit: 2g
     restart: unless-stopped
