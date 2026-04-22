@@ -706,17 +706,48 @@ class PostgresGraphClient:
     def get_parallel_passages(
         self, file_path: str, layer: int | None = None, limit: int = 50,
     ) -> list[dict]:
-        """Document↔Document parallel passages — NOT IMPLEMENTED.
+        """Find parallel passages for a document via the ``document_parallels``
+        table (schema v4).
 
-        Blocked on schema v3 (Document→Document edges not migrated). Same
-        shape of blocker as MENTIONED_IN in §6.1 of the audit; needs a
-        dedicated ``document_parallels`` table + migration step before port.
-        Tracked as Tier 2c-pending.
+        Args:
+            file_path: Source document path (e.g. ``en/scriptures/ot/isaiah/2.txt``).
+            layer: Optional layer filter (1=narrative, 2=editorial, 3=thematic).
+            limit: Max rows to return.
+
+        Returns list of dicts with ``file_path``, ``narrative``, ``layer``,
+        ``rel_type`` — same shape as :meth:`Neo4jClient.get_parallel_passages`.
         """
-        raise NotImplementedError(
-            "get_parallel_passages requires schema v3 (Document→Document edges). "
-            "Stub kept; implement when parallels table is added."
+        if not file_path:
+            return []
+
+        where = ["src_file_path = %s"]
+        params: list[Any] = [file_path]
+        if layer is not None:
+            where.append("layer = %s")
+            params.append(layer)
+        params.append(limit)
+
+        sql = (
+            "SELECT dst_file_path, narrative, layer, rel_type "
+            "FROM document_parallels "
+            f"WHERE {' AND '.join(where)} "
+            "LIMIT %s"
         )
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        return [
+            {
+                "file_path": row[0],
+                "narrative": row[1],
+                "layer": row[2],
+                "rel_type": row[3],
+            }
+            for row in rows
+        ]
 
     # ------------------------------------------------------------------ #
     # Tier 2d: genealogy (recursive CTE + LIMIT intermedio)
