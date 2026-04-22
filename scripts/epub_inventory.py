@@ -29,11 +29,12 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(os.environ.get("ALEJANDRIA_ROOT") or Path(__file__).resolve().parent.parent)
 EPUB_DIR = ROOT / "epub" / "!Ready"
 CORPUS = ROOT / "corpus"
 OUT_CSV = ROOT / "epub" / "_inventory.csv"
 OUT_MD = ROOT / "epub" / "_triage.md"
+TRANSLATION_PAIRS = Path(__file__).resolve().parent.parent / "data" / "translation_pairs.json"
 
 NS = {
     "opf": "http://www.idpf.org/2007/opf",
@@ -179,6 +180,40 @@ def build_corpus_index() -> list[dict]:
     return works
 
 
+def load_translation_pairs() -> dict:
+    """Load manual EN<->ES slug pairs. Returns {(lang, slug): (other_lang, other_slug)}."""
+    lookup: dict = {}
+    if not TRANSLATION_PAIRS.exists():
+        return lookup
+    try:
+        with TRANSLATION_PAIRS.open(encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return lookup
+    for pair in data.get("pairs", []):
+        en = pair.get("en")
+        es = pair.get("es")
+        if not en or not es:
+            continue
+        lookup[("es", es)] = ("en", en)
+        lookup[("en", en)] = ("es", es)
+    return lookup
+
+
+def crosslang_match(title_slug: str, lang: str, pairs: dict, corpus_by_slug: dict) -> tuple[str, str]:
+    """Return (matched_path, other_lang) if epub's counterpart exists in corpus, else ('','')."""
+    if not title_slug or not lang:
+        return "", ""
+    other = pairs.get((lang, title_slug))
+    if not other:
+        return "", ""
+    other_lang, other_slug = other
+    w = corpus_by_slug.get((other_lang, other_slug))
+    if w:
+        return w["path"], other_lang
+    return "", ""
+
+
 def fuzzy_match_corpus(title: str, creator: str, lang: str, works: list[dict]) -> tuple[str, float, str]:
     """Return (matched_path, score, reason) or ('', 0, '')."""
     if not title:
@@ -216,6 +251,8 @@ def classify(row: dict) -> str:
         return "revisar"
     if row["corpus_match"]:
         return "duplicado-corpus"
+    if row["corpus_match_crosslang"]:
+        return "translation-pair"
     return "nuevo"
 
 
@@ -243,6 +280,9 @@ def main() -> int:
 
     corpus_works = build_corpus_index()
     print(f"Corpus index: {len(corpus_works)} works", file=sys.stderr)
+    translation_pairs = load_translation_pairs()
+    corpus_by_slug = {(w["lang"], w["slug"]): w for w in corpus_works}
+    print(f"Translation pairs loaded: {len(translation_pairs)//2}", file=sys.stderr)
 
     rows = []
     seen_hash: dict[str, str] = {}
@@ -262,6 +302,7 @@ def main() -> int:
             "lang": "",
             "title_slug": "",
             "corpus_match": "",
+            "corpus_match_crosslang": "",
             "bucket_pre": "",
             "bucket": "",
             "dest_proposed": "",
@@ -307,6 +348,13 @@ def main() -> int:
             if mpath:
                 row["corpus_match"] = mpath
                 row["note"] = mreason
+            else:
+                xpath, xlang = crosslang_match(
+                    row["title_slug"], row["lang"], translation_pairs, corpus_by_slug
+                )
+                if xpath:
+                    row["corpus_match_crosslang"] = xpath
+                    row["note"] = f"traducción {xlang} existe en corpus"
 
         row["bucket"] = classify(row)
         if row["bucket"] == "nuevo":
@@ -339,10 +387,11 @@ def main() -> int:
         "propio": "autoría Juan Pablo Marichal — no re-ingestar",
         "fuera-alcance": "Rose Publishing / Thomas Nelson — decisión editorial",
         "duplicado-corpus": "ya existe slug equivalente en `corpus/`",
+        "translation-pair": "contraparte en otro idioma ya existe en `corpus/` (ver `data/translation_pairs.json`)",
         "revisar": "metadata incompleta (sin título / autor)",
         "nuevo": "candidato a ingreso",
     }
-    for b in ("nuevo","duplicado-corpus","fuera-alcance","propio","duplicado-fs","basura","revisar"):
+    for b in ("nuevo","translation-pair","duplicado-corpus","fuera-alcance","propio","duplicado-fs","basura","revisar"):
         lines.append(f"| {b} | {bucket_count.get(b,0)} | {descs.get(b,'')} |")
     lines.append("")
 
@@ -360,6 +409,13 @@ def main() -> int:
     for r in by_bucket["basura"][:20]:
         lines.append(f"- `{r['file']}` — {r['note']}")
     lines.append("")
+
+    # Sample translation-pair
+    if by_bucket.get("translation-pair"):
+        lines.append("## `translation-pair` (contraparte en corpus)\n")
+        for r in by_bucket["translation-pair"]:
+            lines.append(f"- `{r['file']}` ({r['lang']}) → `{r['corpus_match_crosslang']}`")
+        lines.append("")
 
     # Sample duplicado-corpus
     lines.append("## Muestra `duplicado-corpus` (primeras 20)\n")

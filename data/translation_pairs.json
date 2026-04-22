@@ -1,0 +1,12 @@
+{
+  "_comment": "Manual mapping of known EN<->ES title-slug pairs for translated works. Used by scripts/epub_inventory.py to classify an EPUB as 'translation-pair' when its counterpart already exists in the corpus in the other language.",
+  "pairs": [
+    {
+      "en": "teach-ye-diligently",
+      "es": "ensenad-diligentemente",
+      "title_en": "Teach Ye Diligently",
+      "title_es": "Ense\u00f1ad Diligentemente",
+      "author": "Boyd K. Packer"
+    }
+  ]
+}

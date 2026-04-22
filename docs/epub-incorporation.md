@@ -23,7 +23,11 @@ separate phase) and reclassifying pre-existing corpus items.
 ### 1. Pick a batch
 
 Open `epub/_inventory.csv` (or the grouped `epub/_triage.md`). Filter by
-`bucket = nuevo` and group by `creator` or `category`. Work in small lots —
+`bucket = nuevo` and group by `creator` or `category`. The `translation-pair`
+bucket flags EPUBs whose counterpart in the other language already exists in
+`corpus/` — these are a decision (complete bilingual pair vs. skip), not new
+material. Pairs are declared manually in `data/translation_pairs.json`. Work
+in small lots —
 typically 1 author at a time, or a coherent sub-series (e.g. all "at a Glance"
 entries).
 
