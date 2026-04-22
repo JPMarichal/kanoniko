@@ -83,16 +83,16 @@ def _dispatch(client, method: str, args: dict) -> Any:
     """
     fn = getattr(client, method, None)
     if fn is None:
-        raise AttributeError(f"Neo4jClient has no method {method!r}")
+        raise AttributeError(f"Graph client has no method {method!r}")
     return fn(**args)
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Capture golden-query oracle from Neo4j.")
+    parser = argparse.ArgumentParser(description="Capture golden-query oracle from the Postgres KG.")
     parser.add_argument("--yaml", type=Path, default=Path("tests/parity/golden_queries.yaml"))
     parser.add_argument("--out", type=Path, default=Path("tests/parity/oracle.json"))
-    parser.add_argument("--backend", choices=["neo4j", "postgres"], default="neo4j",
-                        help="Which client to run queries against.")
+    parser.add_argument("--backend", choices=["postgres"], default="postgres",
+                        help="Kept for backwards compat; only 'postgres' is supported post §3.3.")
     parser.add_argument("--methods", type=str, default=None,
                         help="Comma-separated method names to filter (e.g. find_node,get_neighbors).")
     parser.add_argument("-v", "--verbose", action="store_true")
@@ -113,14 +113,9 @@ def main(argv: list[str] | None = None) -> int:
     else:
         logger.info("loaded %d queries from %s", len(queries), args.yaml)
 
-    if args.backend == "postgres":
-        from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
-        client = PostgresGraphClient()
-        logger.info("client: PostgresGraphClient")
-    else:
-        from alejandria.knowledge.neo4j_client import Neo4jClient
-        client = Neo4jClient()
-        logger.info("client: Neo4jClient")
+    from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+    client = PostgresGraphClient()
+    logger.info("client: PostgresGraphClient")
 
     oracle: dict[str, Any] = {
         "version": spec.get("version"),
