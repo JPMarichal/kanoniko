@@ -8,11 +8,10 @@ ADR 0001 v2):
 * :class:`KnowledgeGraphReader` — narrow read surface for Phase 4 profile
   consolidation.
 
-Each Protocol has a ``make_*`` factory that dispatches on
-``settings.storage_backend``. Transitional ``Legacy*`` implementations
-wrap the current SQLite + Neo4j stack without behavior change; the
-``Postgres*`` implementations write to Postgres IONOS (the target store
-per ``docs/postgres-migration.md`` and ``docs/ingestion-workflow.md``).
+Each Protocol has a ``make_*`` factory returning the Postgres
+implementation (the only backend post §3.3 Neo4j retirement and §3.4
+SQLite retirement). The factory layer is kept so future backend swaps
+stay transparent to consumers.
 
 Infra-level Postgres helpers (connection pool, DDL, migrators) live in
 the :mod:`alejandria.storage.postgres` subpackage.

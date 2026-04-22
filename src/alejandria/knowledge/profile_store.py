@@ -4,12 +4,9 @@ Profiles accumulate per-entity aggregates (mention counts, key passages,
 LLM-generated summaries, disambiguation notes). They survive KG rebuilds.
 
 This module exposes a :class:`ProfileStore` Protocol and a
-:func:`make_profile_store` factory dispatching on ``settings.storage_backend``.
-Concrete implementations:
-
-* :mod:`alejandria.knowledge.postgres_profile_store` — Postgres IONOS (target).
-* :mod:`alejandria.knowledge.sqlite_profile_store` — legacy SQLite (transitional,
-  retired in §3.4 of ``docs/ingestion-workflow.md``).
+:func:`make_profile_store` factory. The concrete implementation lives
+in :mod:`alejandria.knowledge.postgres_profile_store`. The transitional
+SQLite implementation was retired in §3.4.
 
 The :class:`EntityProfile` dataclass is backend-neutral. In Postgres the
 ``entity_name`` / ``entity_type`` / ``disambiguator`` / ``aliases`` fields
@@ -98,20 +95,11 @@ class ProfileStore(Protocol):
 
 
 def make_profile_store(db_path: Path | None = None) -> ProfileStore:
-    """Return the profile store selected by ``settings.storage_backend``.
+    """Return the profile store over Postgres IONOS.
 
-    * ``"postgres"`` — :class:`PostgresProfileStore` over Postgres IONOS.
-      ``db_path`` is ignored.
-    * ``"sqlite"`` (legacy) — :class:`SqliteProfileStore` at ``db_path``
-      or ``settings.sqlite_db_path`` if not provided.
+    ``db_path`` is accepted for backwards compat and ignored — the
+    store reads connection info from ``settings.postgres_*``.
     """
-    from alejandria.config import settings
+    from alejandria.knowledge.postgres_profile_store import PostgresProfileStore
 
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        from alejandria.knowledge.postgres_profile_store import PostgresProfileStore
-
-        return PostgresProfileStore()
-    from alejandria.knowledge.sqlite_profile_store import SqliteProfileStore
-
-    return SqliteProfileStore(db_path)
+    return PostgresProfileStore()

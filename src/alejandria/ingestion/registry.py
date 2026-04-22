@@ -1,13 +1,9 @@
 """Document registry — tracks indexed files and their content hashes.
 
 This module exposes a :class:`DocumentRegistry` Protocol and a
-:func:`make_document_registry` factory that dispatches on
-``settings.storage_backend``. Concrete implementations live in sibling
-modules:
-
-* :mod:`alejandria.ingestion.postgres_registry` — Postgres IONOS (target).
-* :mod:`alejandria.ingestion.sqlite_registry` — legacy SQLite (transitional,
-  retired in §3.4 of ``docs/ingestion-workflow.md``).
+:func:`make_document_registry` factory. The concrete implementation lives
+in :mod:`alejandria.ingestion.postgres_registry`. The transitional
+SQLite implementation was retired in §3.4.
 
 Consumers should import :class:`DocumentRegistry` (for type hints),
 :class:`FileRecord`, :func:`compute_hash`, and :func:`make_document_registry`.
@@ -78,20 +74,11 @@ def compute_hash(path: Path) -> str:
 
 
 def make_document_registry(db_path: Path | None = None) -> DocumentRegistry:
-    """Return the registry backend selected by ``settings.storage_backend``.
+    """Return the document registry over Postgres IONOS.
 
-    * ``"postgres"`` — :class:`PostgresDocumentRegistry` over Postgres IONOS.
-      ``db_path`` is ignored.
-    * ``"sqlite"`` (legacy) — :class:`SqliteDocumentRegistry` at ``db_path``
-      or ``settings.sqlite_db_path`` if not provided.
+    ``db_path`` is accepted for backwards compat and ignored — the
+    registry reads connection info from ``settings.postgres_*``.
     """
-    from alejandria.config import settings
+    from alejandria.ingestion.postgres_registry import PostgresDocumentRegistry
 
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        from alejandria.ingestion.postgres_registry import PostgresDocumentRegistry
-
-        return PostgresDocumentRegistry()
-    from alejandria.ingestion.sqlite_registry import SqliteDocumentRegistry
-
-    return SqliteDocumentRegistry(db_path or settings.sqlite_db_path)
+    return PostgresDocumentRegistry()

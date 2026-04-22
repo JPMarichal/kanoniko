@@ -1,29 +1,34 @@
-"""Semantic search using sqlite-vec (in-process vector search)."""
+"""Semantic search against Postgres (pgvector HNSW index).
 
+Canonical semantic-search backend post §3.4. The sqlite-vec implementation
+was retired together with the rest of the SQLite stack.
+
+Design choices:
+
+* Uses pgvector's ``<=>`` operator (cosine distance) against the HNSW index
+  built by ``storage.postgres.schema.ensure_hnsw_index``. Score is
+  ``1 - distance`` (1.0 = identical, 0.0 = orthogonal).
+* The query vector is passed as text in pgvector format (``[v1,v2,…]``);
+  psycopg3 handles the cast via the ``::vector`` annotation.
+* JOIN to ``chunks`` for text/metadata because ``chunk_embeddings`` is
+  a minimal ``(chunk_id, embedding)`` shape.
+* Per-call connection (mirrors the textual backend).
+"""
 from __future__ import annotations
 
 import logging
-import sqlite3
-import struct
 from dataclasses import dataclass
-from pathlib import Path
+from typing import Any
 
-# sqlite_vec is the SQLite-backend dependency. Import it lazily inside the
-# class methods so that callers that only use the Postgres backend (or just
-# the SemanticSearchResult dataclass) don't need sqlite-vec installed.
-
-from alejandria.config import settings
+from alejandria.storage.postgres.connection import get_connection
 
 logger = logging.getLogger(__name__)
 
 
-def _serialize_f32(vector: list[float]) -> bytes:
-    """Serialize a float vector to packed float32 bytes for sqlite-vec."""
-    return struct.pack(f"{len(vector)}f", *vector)
-
-
 @dataclass
 class SemanticSearchResult:
+    """One semantic (vector) search hit."""
+
     chunk_id: int
     text: str
     score: float
@@ -33,83 +38,21 @@ class SemanticSearchResult:
     reference: str | None = None
 
 
+def _vector_to_pg_text(vec: list[float]) -> str:
+    """pgvector accepts text format ``[v1,v2,…,vN]`` with the ::vector cast."""
+    return "[" + ",".join(f"{x:.6f}" for x in vec) + "]"
+
+
 class SemanticSearch:
-    """sqlite-vec backed semantic vector search."""
+    """HNSW-backed nearest neighbor search over ``chunk_embeddings``."""
 
-    TABLE = "chunk_vectors"
+    def __init__(self) -> None:
+        # No-op init; settings read lazily.
+        pass
 
-    def __init__(self, db_path: Path | None = None) -> None:
-        self._db_path = db_path or settings.sqlite_db_path
-        self._ensure_table()
-
-    def _conn(self) -> sqlite3.Connection:
-        import sqlite_vec  # lazy — only needed when the SQLite backend is used
-        conn = sqlite3.connect(str(self._db_path), timeout=30)
-        conn.enable_load_extension(True)
-        sqlite_vec.load(conn)
-        conn.enable_load_extension(False)
-        conn.execute("PRAGMA journal_mode=WAL")
-        conn.execute("PRAGMA busy_timeout=30000")
-        return conn
-
-    def _ensure_table(self) -> None:
-        with self._conn() as conn:
-            conn.execute(f"""
-                CREATE VIRTUAL TABLE IF NOT EXISTS {self.TABLE} USING vec0(
-                    id integer primary key,
-                    embedding float[{settings.embedding_dim}] distance_metric=cosine,
-                    source text,
-                    +file_path text,
-                    +text_content text,
-                    +chunk_index integer,
-                    +reference text
-                )
-            """)
-
-    def upsert_chunks(
-        self,
-        ids: list[int],
-        vectors: list[list[float]],
-        payloads: list[dict],
-    ) -> None:
-        """Upsert chunk vectors with metadata payloads."""
-        with self._conn() as conn:
-            for i in range(0, len(ids), 100):
-                batch_ids = ids[i : i + 100]
-                batch_vecs = vectors[i : i + 100]
-                batch_pays = payloads[i : i + 100]
-
-                conn.executemany(
-                    f"INSERT OR REPLACE INTO {self.TABLE}"
-                    f"(id, embedding, source, file_path, text_content, chunk_index, reference) "
-                    f"VALUES (?, ?, ?, ?, ?, ?, ?)",
-                    [
-                        (
-                            id_,
-                            _serialize_f32(vec),
-                            payload.get("source", ""),
-                            payload.get("file_path", ""),
-                            payload.get("text", ""),
-                            payload.get("chunk_index", 0),
-                            payload.get("reference"),
-                        )
-                        for id_, vec, payload in zip(batch_ids, batch_vecs, batch_pays)
-                    ],
-                )
-
-    def delete_by_file(self, file_path: str) -> None:
-        """Delete all vectors for a given file."""
-        with self._conn() as conn:
-            # Get rowids via the chunks table (same DB, same ids)
-            rows = conn.execute(
-                "SELECT id FROM chunks WHERE file_path = ?", (file_path,)
-            ).fetchall()
-            if rows:
-                placeholders = ",".join("?" for _ in rows)
-                conn.execute(
-                    f"DELETE FROM {self.TABLE} WHERE id IN ({placeholders})",
-                    [r[0] for r in rows],
-                )
+    # ------------------------------------------------------------------ #
+    # Read API
+    # ------------------------------------------------------------------ #
 
     def search(
         self,
@@ -117,77 +60,64 @@ class SemanticSearch:
         limit: int = 20,
         source_filter: str | None = None,
     ) -> list[SemanticSearchResult]:
-        """Search for similar vectors."""
-        query_bytes = _serialize_f32(query_vector)
+        """k-NN search with cosine distance.
 
-        with self._conn() as conn:
-            if source_filter:
-                rows = conn.execute(
-                    f"SELECT id, distance, file_path, text_content, chunk_index, reference "
-                    f"FROM {self.TABLE} "
-                    f"WHERE embedding MATCH ? AND k = ? AND source = ?",
-                    (query_bytes, limit, source_filter),
-                ).fetchall()
-            else:
-                rows = conn.execute(
-                    f"SELECT id, distance, file_path, text_content, chunk_index, reference "
-                    f"FROM {self.TABLE} "
-                    f"WHERE embedding MATCH ? AND k = ?",
-                    (query_bytes, limit),
-                ).fetchall()
+        Score = ``1 - cosine_distance`` so 1.0 = identical, 0.0 = orthogonal,
+        -1.0 = opposite.
+        """
+        if not query_vector:
+            return []
 
-        results = []
+        vec_text = _vector_to_pg_text(query_vector)
+
+        sql = (
+            "SELECT c.id, c.text, c.file_path, c.chunk_index, c.metadata, "
+            "       c.reference, (1 - (e.embedding <=> %s::vector))::float AS score "
+            "FROM chunk_embeddings e "
+            "JOIN chunks c ON c.id = e.chunk_id "
+        )
+        params: list[Any] = [vec_text]
+
+        if source_filter:
+            sql += "WHERE c.metadata->>'source' = %s "
+            params.append(source_filter)
+
+        # ORDER BY the distance operator (not the score) so the planner can
+        # use the HNSW index. Score is just the inverted display value.
+        sql += "ORDER BY e.embedding <=> %s::vector LIMIT %s"
+        params.extend([vec_text, limit])
+
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(sql, params)
+                rows = cur.fetchall()
+
+        results: list[SemanticSearchResult] = []
         for row in rows:
-            # sqlite-vec returns cosine distance (0 = identical, 2 = opposite)
-            # Convert to similarity score (1 = identical, -1 = opposite)
-            distance = row[1]
-            score = 1.0 - distance
+            metadata = row[4] if isinstance(row[4], dict) else {}
             results.append(SemanticSearchResult(
                 chunk_id=row[0],
-                text=row[3] or "",
-                score=score,
+                text=row[1] or "",
+                score=float(row[6]),
                 file_path=row[2] or "",
-                chunk_index=row[4] or 0,
-                metadata={
-                    "source": source_filter or "",
-                    "file": row[2] or "",
-                },
+                chunk_index=row[3] or 0,
+                metadata=metadata,
                 reference=row[5],
             ))
         return results
 
     def count(self) -> int:
-        with self._conn() as conn:
-            row = conn.execute(f"SELECT count(*) FROM {self.TABLE}").fetchone()
-            return row[0] if row else 0
-
-    def drop_collection(self) -> None:
-        """Drop and recreate the vector table (for full reindex)."""
-        with self._conn() as conn:
-            conn.execute(f"DROP TABLE IF EXISTS {self.TABLE}")
-        self._ensure_table()
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("SELECT count(*) FROM chunk_embeddings")
+                row = cur.fetchone()
+                return row[0] if row else 0
 
 
-# --------------------------------------------------------------------------- #
-# Backend factory (Phase 3 of feature/postgres-migration)
-# --------------------------------------------------------------------------- #
+def make_semantic_search(db_path=None) -> SemanticSearch:
+    """Return the semantic search backend.
 
-def make_semantic_search(db_path: Path | None = None):
-    """Return the configured semantic search backend.
-
-    Dispatches on ``settings.storage_backend``:
-
-    * ``"sqlite"`` (default): ``SemanticSearch`` over sqlite-vec (vec0).
-    * ``"postgres"``: ``PostgresSemanticSearch`` over pgvector HNSW.
-
-    Named ``make_*`` (not ``get_*``) because the DI layer in
-    ``api/dependencies.py`` owns the name ``get_semantic_search`` (retry
-    caching wrapper around this factory).
+    ``db_path`` accepted for backwards compat but ignored — the backend
+    reads connection info from ``settings.postgres_*``.
     """
-    from alejandria.config import settings
-
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        from alejandria.search.postgres_semantic import PostgresSemanticSearch
-        return PostgresSemanticSearch()
-    return SemanticSearch(db_path)
+    return SemanticSearch()
