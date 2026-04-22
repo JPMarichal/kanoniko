@@ -164,14 +164,15 @@ class _TextExtractor(HTMLParser):
         self.blocks: list[dict] = []
         self.footnotes: dict[str, str] = {}
         self.ref_order: list[str] = []
+        self.first_bold: str | None = None  # first short <b>/<strong>, chapter-title fallback
+        self.has_heading: bool = False
         self._stack: list[str] = []
         self._buf: list[str] = []
         self._fn_refs: list[str] = []
         self._skip_depth = 0
-        # span-stripping state
-        self._span_stack: list[dict] = []  # each: {has_attrs, start_buf_len, is_first}
-        # footnote-def routing
-        self._in_fn_num: str | None = None  # current footnote number being accumulated
+        self._span_stack: list[dict] = []
+        self._in_fn_num: str | None = None
+        self._bold_capture_start: int | None = None
 
     def _current_block_text_empty(self) -> bool:
         return not "".join(self._buf).strip()
@@ -212,6 +213,7 @@ class _TextExtractor(HTMLParser):
             return
 
         if tag in HEADING_TAGS:
+            self.has_heading = True
             self._flush_block("para")
             self._stack.append(tag)
             return
@@ -219,6 +221,10 @@ class _TextExtractor(HTMLParser):
         if tag in BLOCK_TAGS:
             self._flush_block("para")
             self._stack.append(tag)
+            return
+
+        if tag in ("b", "strong") and self.first_bold is None:
+            self._bold_capture_start = len("".join(self._buf))
             return
 
         if tag == "span":
@@ -273,6 +279,14 @@ class _TextExtractor(HTMLParser):
                 self._stack.pop()
             return
 
+        if tag in ("b", "strong") and self._bold_capture_start is not None:
+            captured = "".join(self._buf)[self._bold_capture_start:]
+            captured = re.sub(r"\s+", " ", captured).strip()
+            if 3 <= len(captured) <= 80:
+                self.first_bold = captured
+            self._bold_capture_start = None
+            return
+
         if tag == "span":
             if not self._span_stack:
                 return
@@ -304,26 +318,32 @@ class _TextExtractor(HTMLParser):
         self._buf.append(data)
 
 
-def html_to_blocks(html: str) -> tuple[list[dict], dict[str, str], list[str]]:
+def html_to_blocks(html: str) -> tuple[list[dict], dict[str, str], dict]:
     p = _TextExtractor()
     p.feed(html)
     p._flush_block("para")
-    return p.blocks, p.footnotes, p.ref_order
+    meta = {"has_heading": p.has_heading, "first_bold": p.first_bold, "ref_order": p.ref_order}
+    return p.blocks, p.footnotes, meta
 
 
 # ---------- chapter segmentation ----------
 
 def segment_into_chapters(
-    per_file: list[tuple[list[dict], dict[str, str]]],
+    per_file: list[tuple[list[dict], dict[str, str], dict]],
     min_chars: int,
 ) -> list[dict]:
-    """Group blocks into chapters, cut on h1/h2, attach footnotes used within.
+    """Group blocks into chapters and attach footnotes.
 
-    Input: list of (blocks, footnotes_from_that_file) per XHTML spine file.
+    Strategy:
+      - If any file has h1/h2 headings, cut on h1/h2 as before.
+      - If none do, fall back to one-chapter-per-spine-file with title from
+        first <b>/<strong> in the file, or "Part N".
+
+    Input: list of (blocks, footnotes, meta) per XHTML spine file.
     Output: [{title, text, fn_refs, footnotes: {N: def}}] in order.
     """
-    # Walk files in order; when we cross into a new file, its footnotes become
-    # available for the current (and subsequent) chapters within that file.
+    any_heading = any(m.get("has_heading") for _, _, m in per_file)
+
     chapters: list[dict] = []
     current_title: str | None = None
     current_lines: list[str] = []
@@ -334,7 +354,6 @@ def segment_into_chapters(
         text = "\n\n".join(current_lines).strip()
         if len(text) < min_chars:
             return
-        # Only keep footnotes actually referenced in this chapter
         used = {n: current_local_fn[n] for n in current_refs if n in current_local_fn}
         chapters.append({
             "title": current_title or "Untitled",
@@ -343,16 +362,22 @@ def segment_into_chapters(
             "footnotes": used,
         })
 
-    for blocks, footnotes in per_file:
-        # Merge file-level footnote defs into the current chapter pool
+    for file_idx, (blocks, footnotes, fmeta) in enumerate(per_file, 1):
         current_local_fn.update(footnotes)
+
+        if not any_heading:
+            # Fallback: synthetic heading per spine file
+            flush()
+            current_title = fmeta.get("first_bold") or f"Part {file_idx}"
+            current_lines = []
+            current_refs = []
+
         for b in blocks:
             if b["type"] == "heading" and b["level"] in (1, 2):
                 flush()
                 current_title = b["text"]
                 current_lines = []
                 current_refs = []
-                # Keep footnote pool rolling into new chapter within same file
             elif b["type"] == "heading" and b["level"] >= 3:
                 current_lines.append(f"### {b['text']}")
             elif b["type"] == "list":
@@ -439,15 +464,15 @@ def extract_one(
         if not slug:
             slug = slugify(epub_path.stem)
 
-        per_file: list[tuple[list[dict], dict[str, str]]] = []
+        per_file: list[tuple[list[dict], dict[str, str], dict]] = []
         for sid, href in spine:
             try:
                 data = zf.read(href)
             except KeyError:
                 continue
             html = data.decode("utf-8", errors="replace")
-            blocks, fns, _ref_order = html_to_blocks(html)
-            per_file.append((blocks, fns))
+            blocks, fns, fmeta = html_to_blocks(html)
+            per_file.append((blocks, fns, fmeta))
 
         chapters = segment_into_chapters(per_file, min_chapter_chars)
         if not chapters:
