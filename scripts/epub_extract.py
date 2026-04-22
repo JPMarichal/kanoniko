@@ -407,28 +407,46 @@ def segment_into_chapters(
     Input: list of (blocks, footnotes, meta) per XHTML spine file.
     Output: [{title, text, fn_refs, footnotes: {N: def}}] in order.
     """
-    any_heading = any(m.get("has_heading") for _, _, m in per_file)
+    # Use actual emitted heading blocks (not the raw parser flag) — empty
+    # <h2>page-break</h2> tags set has_heading=True but produce no block.
+    any_heading = any(
+        b["type"] == "heading" and b["level"] in (1, 2)
+        for blocks, _, _ in per_file
+        for b in blocks
+    )
 
     chapters: list[dict] = []
     current_title: str | None = None
     current_lines: list[str] = []
     current_refs: list[str] = []
     current_local_fn: dict[str, str] = {}
+    # Running fallback for current chapter title when no explicit heading fires
+    # before content starts (front-matter pages with bold-only "title" markup).
+    pending_first_bold: str | None = None
 
     def flush() -> None:
+        nonlocal pending_first_bold
         text = "\n\n".join(current_lines).strip()
         if len(text) < min_chars:
+            pending_first_bold = None
             return
         used = {n: current_local_fn[n] for n in current_refs if n in current_local_fn}
+        title = current_title or pending_first_bold or "Front Matter"
         chapters.append({
-            "title": current_title or "Untitled",
+            "title": title,
             "text": text,
             "fn_refs": list(current_refs),
             "footnotes": used,
         })
+        pending_first_bold = None
 
     for file_idx, (blocks, footnotes, fmeta) in enumerate(per_file, 1):
         current_local_fn.update(footnotes)
+
+        # Remember this file's first bold in case current chapter has no title
+        fb = fmeta.get("first_bold")
+        if fb and pending_first_bold is None:
+            pending_first_bold = fb
 
         if not any_heading:
             # Fallback: synthetic heading per spine file

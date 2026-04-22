@@ -1,0 +1,13 @@
+{
+  "authority": 45,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": ["teaching", "pedagogy", "CES", "gospel-teaching", "apostle-authored", "spanish-translation"],
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Spanish translation of Teach Ye Diligently (Bookcraft, 1975). Epub is a member-produced PDF reflow (digitized by Mario Labraña) of the Church Distribution Services edition. Translation pair of corpus/en/books/teach-ye-diligently/."
+}
