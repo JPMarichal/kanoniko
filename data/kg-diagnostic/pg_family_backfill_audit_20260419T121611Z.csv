@@ -1772,67 +1772,67 @@ src_id,src_name,rel_type,dst_id,dst_name,src_type,source_ref
 584821,Idaho,SPOUSE_OF,393665,CHURCH,people,en/books/eye-faith/11-monument-women-memorial-garden.txt#8
 340918,Utah,SPOUSE_OF,434836,Matheson,person,en/books/eye-faith/11-monument-women-memorial-garden.txt#8
 592808,Dan Delos Bradshaw,FATHER_OF,67101,Barbara Bradshaw Smith,person,en/books/eye-faith/11-monument-women-memorial-garden.txt#13
-89066,Samuel Marion Lee,FATHER_OF,584821,Idaho,person,en/revistas/Liahona/1980/02/revelation-and-you.txt#0
-3579,Cain,FATHER_OF,18680,Enoch,person,en/revistas/Liahona/1980/09/early-families-of-the-earth.txt#0
-36070,Mizraim,FATHER_OF,36081,Casluhim,person,en/revistas/Liahona/1980/09/early-families-of-the-earth.txt#1
-19583,Hyrum Smith,MOTHER_OF,19097,Joseph,person,en/revistas/Liahona/1982/06/a-womans-perspective-on-the-priesthood.txt#0
-19299,Martha,SISTER_OF,19209,Lazarus,person,en/revistas/Liahona/1991/02/in-this-holy-land.txt#2
-682714,Julian Rojas,FATHER_OF,682718,Aniceto Rojas,person,en/revistas/Liahona/1992/03/fidencia-garcia-de-rojas-life-of-a-mexican-pioneer.txt#1
-116480,Jussi Kemppainen,SPOUSE_OF,116479,Raija Kemppainen,person,en/revistas/Liahona/1992/05/drama-on-the-european-stage.txt#11
-261358,Newel,SPOUSE_OF,211811,Elizabeth Ann,person,en/revistas/Liahona/1993/10/house-of-revelation.txt#0
-35300,Salome,MOTHER_OF,19073,James,person,en/revistas/Liahona/1995/04/i-am-the-resurrection-and-the-life.txt#1
-315743,Spanish,FATHER_OF,366712,France,person,en/revistas/Liahona/1999/08/islands-of-light.txt#2
-55881,Lucy Mack Smith,MOTHER_OF,19102,Joseph Smith,person,en/revistas/Liahona/2005/07/did-you-know.txt#0
-178637,CHARLES,FATHER_OF,271127,Zina Young Card,person,en/revistas/Liahona/2006/06/the-profile-of-a-prophet.txt#0
+89066,Samuel Marion Lee,FATHER_OF,584821,Idaho,person,en/magazines/liahona/1980/02/revelation-and-you.txt#0
+3579,Cain,FATHER_OF,18680,Enoch,person,en/magazines/liahona/1980/09/early-families-of-the-earth.txt#0
+36070,Mizraim,FATHER_OF,36081,Casluhim,person,en/magazines/liahona/1980/09/early-families-of-the-earth.txt#1
+19583,Hyrum Smith,MOTHER_OF,19097,Joseph,person,en/magazines/liahona/1982/06/a-womans-perspective-on-the-priesthood.txt#0
+19299,Martha,SISTER_OF,19209,Lazarus,person,en/magazines/liahona/1991/02/in-this-holy-land.txt#2
+682714,Julian Rojas,FATHER_OF,682718,Aniceto Rojas,person,en/magazines/liahona/1992/03/fidencia-garcia-de-rojas-life-of-a-mexican-pioneer.txt#1
+116480,Jussi Kemppainen,SPOUSE_OF,116479,Raija Kemppainen,person,en/magazines/liahona/1992/05/drama-on-the-european-stage.txt#11
+261358,Newel,SPOUSE_OF,211811,Elizabeth Ann,person,en/magazines/liahona/1993/10/house-of-revelation.txt#0
+35300,Salome,MOTHER_OF,19073,James,person,en/magazines/liahona/1995/04/i-am-the-resurrection-and-the-life.txt#1
+315743,Spanish,FATHER_OF,366712,France,person,en/magazines/liahona/1999/08/islands-of-light.txt#2
+55881,Lucy Mack Smith,MOTHER_OF,19102,Joseph Smith,person,en/magazines/liahona/2005/07/did-you-know.txt#0
+178637,CHARLES,FATHER_OF,271127,Zina Young Card,person,en/magazines/liahona/2006/06/the-profile-of-a-prophet.txt#0
 28096,Kish,FATHER_OF,393883,Merarite Levite,person,en/reference/isbe/J.txt#128
 470377,Judahite,FATHER_OF,36880,Gedor,person,en/reference/isbe/J.txt#128
 464107,An Ephraimite,FATHER_OF,36345,Elkanah,person,en/reference/isbe/J.txt#151
-18675,Elisabeth,MOTHER_OF,19092,John,person,en/revistas/Liahona/2020/09/finding-peace-from-stories-of-infertility-in-the-bible.txt#1
+18675,Elisabeth,MOTHER_OF,19092,John,person,en/magazines/liahona/2020/09/finding-peace-from-stories-of-infertility-in-the-bible.txt#1
 430822,HEROD'S,SPOUSE_OF,35009,Joanna,people,en/reference/isbe/J.txt#289
-19498,Peter,FATHER_OF,496967,Aberdeenshire,person,en/revistas/Liahona/2022/08/local-news-007.txt#0
+19498,Peter,FATHER_OF,496967,Aberdeenshire,person,en/magazines/liahona/2022/08/local-news-007.txt#0
 40101,Judith,SPOUSE_OF,477586,Dothaim Manasses,person,en/reference/isbe/B.txt#87
 396911,Gadite,FATHER_OF,42227,Eliasaph,person,en/reference/isbe/D.txt#167
 29832,William Smith,FATHER_OF,770549,Nancy Maria Smith,person,en/books/interpreter-journal/a-response-to-grant-palmers-sexual-allegations-against-joseph-smith-and-the-beginnings-of-polygamy-in-nauvoo.txt#26
 19583,Hyrum Smith,FATHER_OF,174114,Lovina Smith,person,en/books/interpreter-journal/a-response-to-grant-palmers-sexual-allegations-against-joseph-smith-and-the-beginnings-of-polygamy-in-nauvoo.txt#36
 27730,Ammoron,BROTHER_OF,3616,Amalickiah,person,en/books/interpreter-journal/inspired-by-a-better-cause-the-function-of-alma-4344-45-in-mormons-account-of-the-monarchic-wars-against-the-nephites.txt#11
-19092,John,SPOUSE_OF,85544,Annie,person,es/revistas/Liahona/2003/09/finding-peace-through-forgiveness.txt#0
-6221,IGLESIA,MOTHER_OF,732764,Preeti,people,es/revistas/Liahona/2003/07/light-in-a-land-of-mystery.txt#2
-728768,Patrik,BROTHER_OF,732764,Preeti,person,es/revistas/Liahona/2003/07/light-in-a-land-of-mystery.txt#2
-715582,Sofía,SISTER_OF,35172,Susanna,person,es/revistas/Liahona/2004/02/susanna-stahle-of-turku-finland.txt#0
-692509,Sergey,FATHER_OF,348043,Dmitry,person,es/revistas/Liahona/2004/09/putting-family-first-in-ukraine.txt#0
-173412,SOLOMON MACK,FATHER_OF,43297,Lucy,person,es/revistas/Liahona/2004/12/birthplace-of-the-prophet.txt#1
-77622,Cassie,SPOUSE_OF,108726,Will,person,es/revistas/Liahona/2005/01/a-small-thing.txt#0
-97935,Fran,MOTHER_OF,30740,George,person,es/revistas/Liahona/2005/01/becoming-a-deacon.txt#0
-19321,Miriam,MOTHER_OF,699373,José Javier,person,es/revistas/Liahona/2005/01/valiant-in-venezuela.txt#4
-701398,Pepe,SPOUSE_OF,735464,Tepahu,person,es/revistas/Liahona/2005/10/polynesian-pearls.txt#5
-704999,Cho Yong Hyun,BROTHER_OF,737597,Sungja,person,es/revistas/Liahona/2007/08/it-started-with-a-pamphlet.txt#2
-55549,Wilford,BROTHER_OF,67910,Camilla,person,es/revistas/Liahona/2007/10/turning-hearts-in-a-land-of-temples.txt#3
-5852,Cuando,SISTER_OF,737803,Blendina,person,es/revistas/Liahona/2007/10/lds-doctors-give-the-gift-of-sight.txt#0
-30740,George,FATHER_OF,340918,Utah,person,es/revistas/Liahona/2007/10/president-james-e-faust-beloved-shepherd.txt#4
-707030,Paul Vickery,FATHER_OF,89973,David Todd Christofferson,person,es/revistas/Liahona/2008/08/elder-d-todd-christofferson-prepared-to-serve-the-lord.txt#0
-19583,Hyrum Smith,BROTHER_OF,18897,Samuel,person,es/revistas/Liahona/2008/09/first-latter-day-saint-missionary-samuel-smith-born-200-years-ago.txt#0
-739754,Eulogia,SPOUSE_OF,708970,Delio,person,es/revistas/Liahona/2009/09/one-familys-heritage-of-service.txt#1
-708981,Lina,MOTHER_OF,739764,Mercedes,person,es/revistas/Liahona/2009/09/one-familys-heritage-of-service.txt#3
-5852,Cuando,MOTHER_OF,372752,Michel,person,es/revistas/Liahona/2009/02/generations.txt#0
-134432,Últimos Días,FATHER_OF,739139,Eole,person,es/revistas/Liahona/2009/02/generations.txt#2
-63024,Katie,SISTER_OF,84626,Angie,person,es/revistas/Liahona/2009/08/the-temple-im-going-there-someday.txt#0
+19092,John,SPOUSE_OF,85544,Annie,person,es/magazines/liahona/2003/09/finding-peace-through-forgiveness.txt#0
+6221,IGLESIA,MOTHER_OF,732764,Preeti,people,es/magazines/liahona/2003/07/light-in-a-land-of-mystery.txt#2
+728768,Patrik,BROTHER_OF,732764,Preeti,person,es/magazines/liahona/2003/07/light-in-a-land-of-mystery.txt#2
+715582,Sofía,SISTER_OF,35172,Susanna,person,es/magazines/liahona/2004/02/susanna-stahle-of-turku-finland.txt#0
+692509,Sergey,FATHER_OF,348043,Dmitry,person,es/magazines/liahona/2004/09/putting-family-first-in-ukraine.txt#0
+173412,SOLOMON MACK,FATHER_OF,43297,Lucy,person,es/magazines/liahona/2004/12/birthplace-of-the-prophet.txt#1
+77622,Cassie,SPOUSE_OF,108726,Will,person,es/magazines/liahona/2005/01/a-small-thing.txt#0
+97935,Fran,MOTHER_OF,30740,George,person,es/magazines/liahona/2005/01/becoming-a-deacon.txt#0
+19321,Miriam,MOTHER_OF,699373,José Javier,person,es/magazines/liahona/2005/01/valiant-in-venezuela.txt#4
+701398,Pepe,SPOUSE_OF,735464,Tepahu,person,es/magazines/liahona/2005/10/polynesian-pearls.txt#5
+704999,Cho Yong Hyun,BROTHER_OF,737597,Sungja,person,es/magazines/liahona/2007/08/it-started-with-a-pamphlet.txt#2
+55549,Wilford,BROTHER_OF,67910,Camilla,person,es/magazines/liahona/2007/10/turning-hearts-in-a-land-of-temples.txt#3
+5852,Cuando,SISTER_OF,737803,Blendina,person,es/magazines/liahona/2007/10/lds-doctors-give-the-gift-of-sight.txt#0
+30740,George,FATHER_OF,340918,Utah,person,es/magazines/liahona/2007/10/president-james-e-faust-beloved-shepherd.txt#4
+707030,Paul Vickery,FATHER_OF,89973,David Todd Christofferson,person,es/magazines/liahona/2008/08/elder-d-todd-christofferson-prepared-to-serve-the-lord.txt#0
+19583,Hyrum Smith,BROTHER_OF,18897,Samuel,person,es/magazines/liahona/2008/09/first-latter-day-saint-missionary-samuel-smith-born-200-years-ago.txt#0
+739754,Eulogia,SPOUSE_OF,708970,Delio,person,es/magazines/liahona/2009/09/one-familys-heritage-of-service.txt#1
+708981,Lina,MOTHER_OF,739764,Mercedes,person,es/magazines/liahona/2009/09/one-familys-heritage-of-service.txt#3
+5852,Cuando,MOTHER_OF,372752,Michel,person,es/magazines/liahona/2009/02/generations.txt#0
+134432,Últimos Días,FATHER_OF,739139,Eole,person,es/magazines/liahona/2009/02/generations.txt#2
+63024,Katie,SISTER_OF,84626,Angie,person,es/magazines/liahona/2009/08/the-temple-im-going-there-someday.txt#0
 3549,Jacob,FATHER_OF,18669,Egypt,person,en/books/interpreter-journal/temples-all-the-way-down-some-notes-on-the-miraj-of-muhammad.txt#13
-710331,Fiorella,FATHER_OF,8469,Soy,person,es/revistas/Liahona/2010/07/forgetting-ourselves-in-sicily.txt#0
-5852,Cuando,FATHER_OF,78738,Alex,person,es/revistas/Liahona/2012/03/alexs-great-example.txt#0
-18661,Daniel,FATHER_OF,5852,Cuando,person,es/revistas/Liahona/2013/04/helping-children-prepare-for-baptism.txt#0
-125817,Milagrosamente,FATHER_OF,23430,Josh,person,es/revistas/Liahona/2013/06/gratitude.txt#0
-743761,Marlin,FATHER_OF,714477,Nemo,place,es/revistas/Liahona/2014/01/enduring-well.txt#0
-5852,Cuando,BROTHER_OF,73734,Janet,person,es/revistas/Liahona/2015/07/finding-a-way-to-forgive.txt#0
-30156,Orson Pratt,BROTHER_OF,35552,PARLEY,person,es/revistas/Liahona/2017/10/five-lessons-for-young-adults-from-young-apostles.txt#1
-748981,Custodia,SISTER_OF,748982,Emilia Maio,place,es/revistas/Liahona/2020/03/ulisses-and-emilia-maio-porto-portugal.txt#0
-43297,Lucy,MOTHER_OF,19735,José,person,es/revistas/Liahona/2020/09/local-news-008.txt#0
-721023,Tatianna,SISTER_OF,721022,Danna,person,es/revistas/Liahona/2020/09/danna-and-the-math-test.txt#0
-5852,Cuando,FATHER_OF,97013,Charlotte,person,es/revistas/Liahona/2022/02/becoming-a-covenant-person-among-a-covenant-people.txt#1
-79341,Doug,SPOUSE_OF,724373,Alice Mae,person,es/revistas/Liahona/2022/08/14_dealing-with-an-unwelcome-diagnosis.txt#2
-59488,Julie,SPOUSE_OF,212485,Carl,person,es/revistas/Liahona/2022/12/19-we-can-find-everyday-ways-to-love-share-and-invite.txt#0
-88664,Ken,SPOUSE_OF,725861,De Ann,person,es/revistas/Liahona/2023/06/18-on-wednesday-call-him-oscar.txt#0
-98845,Louise,MOTHER_OF,726018,Mary Helen,person,es/revistas/Liahona/2023/07/stitches-of-service.txt#0
-35040,Janna,MOTHER_OF,726990,Kamryn,person,es/revistas/Liahona/2024/01/04-our-light-in-the-wilderness.txt#2
+710331,Fiorella,FATHER_OF,8469,Soy,person,es/magazines/liahona/2010/07/forgetting-ourselves-in-sicily.txt#0
+5852,Cuando,FATHER_OF,78738,Alex,person,es/magazines/liahona/2012/03/alexs-great-example.txt#0
+18661,Daniel,FATHER_OF,5852,Cuando,person,es/magazines/liahona/2013/04/helping-children-prepare-for-baptism.txt#0
+125817,Milagrosamente,FATHER_OF,23430,Josh,person,es/magazines/liahona/2013/06/gratitude.txt#0
+743761,Marlin,FATHER_OF,714477,Nemo,place,es/magazines/liahona/2014/01/enduring-well.txt#0
+5852,Cuando,BROTHER_OF,73734,Janet,person,es/magazines/liahona/2015/07/finding-a-way-to-forgive.txt#0
+30156,Orson Pratt,BROTHER_OF,35552,PARLEY,person,es/magazines/liahona/2017/10/five-lessons-for-young-adults-from-young-apostles.txt#1
+748981,Custodia,SISTER_OF,748982,Emilia Maio,place,es/magazines/liahona/2020/03/ulisses-and-emilia-maio-porto-portugal.txt#0
+43297,Lucy,MOTHER_OF,19735,José,person,es/magazines/liahona/2020/09/local-news-008.txt#0
+721023,Tatianna,SISTER_OF,721022,Danna,person,es/magazines/liahona/2020/09/danna-and-the-math-test.txt#0
+5852,Cuando,FATHER_OF,97013,Charlotte,person,es/magazines/liahona/2022/02/becoming-a-covenant-person-among-a-covenant-people.txt#1
+79341,Doug,SPOUSE_OF,724373,Alice Mae,person,es/magazines/liahona/2022/08/14_dealing-with-an-unwelcome-diagnosis.txt#2
+59488,Julie,SPOUSE_OF,212485,Carl,person,es/magazines/liahona/2022/12/19-we-can-find-everyday-ways-to-love-share-and-invite.txt#0
+88664,Ken,SPOUSE_OF,725861,De Ann,person,es/magazines/liahona/2023/06/18-on-wednesday-call-him-oscar.txt#0
+98845,Louise,MOTHER_OF,726018,Mary Helen,person,es/magazines/liahona/2023/07/stitches-of-service.txt#0
+35040,Janna,MOTHER_OF,726990,Kamryn,person,es/magazines/liahona/2024/01/04-our-light-in-the-wilderness.txt#2
 29822,Eber,FATHER_OF,36108,Joktan,person,en/reference/isbe/S.txt#0
 476421,Sabannus,FATHER_OF,415999,Moeth,people,en/reference/isbe/S.txt#0
 387410,Bathia,FATHER_OF,3249,Moses,people,en/reference/isbe/S.txt#9
