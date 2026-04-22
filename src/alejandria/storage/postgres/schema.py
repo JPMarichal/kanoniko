@@ -31,7 +31,10 @@ logger = logging.getLogger(__name__)
 #      NOT DISTINCT so ON CONFLICT works when disambiguator IS NULL
 #      (Approach B step 3, 2026-04-19). See docs/postgres-migration-status.md.
 #      Migration script: scripts/migrate_pg_schema_v3.py.
-SCHEMA_VERSION = 3
+# v4 — document_parallels added (§3.2 close-out, 2026-04-21). Unlocks
+#      PostgresGraphClient.get_parallel_passages. Data port from Neo4j
+#      lives in scripts/migrate_postgres_document_parallels.py.
+SCHEMA_VERSION = 4
 
 _DDL_PATH = Path(__file__).with_name("ddl.sql")
 

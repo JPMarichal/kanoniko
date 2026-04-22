@@ -146,6 +146,21 @@ CREATE TABLE IF NOT EXISTS entity_document_mentions (
 CREATE INDEX IF NOT EXISTS entity_doc_mentions_entity_idx ON entity_document_mentions(entity_id);
 CREATE INDEX IF NOT EXISTS entity_doc_mentions_file_idx   ON entity_document_mentions(file_path);
 
+-- Document→Document parallel-passage edges (ex-PARALLEL_NARRATIVE /
+-- EDITORIAL_PARALLEL / THEMATIC_LINK en Neo4j). Added in SCHEMA_VERSION=4 to
+-- unblock PostgresGraphClient.get_parallel_passages (§3.2 close-out).
+-- Layer values: 1=narrative, 2=editorial, 3=thematic.
+CREATE TABLE IF NOT EXISTS document_parallels (
+    src_file_path TEXT NOT NULL REFERENCES document_registry(file_path) ON DELETE CASCADE,
+    dst_file_path TEXT NOT NULL REFERENCES document_registry(file_path) ON DELETE CASCADE,
+    rel_type      TEXT NOT NULL,     -- PARALLEL_NARRATIVE | EDITORIAL_PARALLEL | THEMATIC_LINK
+    narrative     TEXT,
+    layer         INTEGER,
+    PRIMARY KEY (src_file_path, dst_file_path, rel_type)
+);
+CREATE INDEX IF NOT EXISTS document_parallels_src_idx   ON document_parallels(src_file_path);
+CREATE INDEX IF NOT EXISTS document_parallels_layer_idx ON document_parallels(layer);
+
 CREATE TABLE IF NOT EXISTS ner_candidates (
     id            BIGSERIAL PRIMARY KEY,
     name          TEXT NOT NULL,
