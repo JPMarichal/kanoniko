@@ -1,0 +1,14 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": ["discourses", "apostle-authored", "ces-address", "byu-address", "pastoral", "doctrine"],
+  "category": "discourses",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Editorial compilation of 30 Packer addresses/essays organized in 6 thematic sections (Direction, Inspiration, Caution, Admonition, Understanding, Assurance). Published 1991 by Bookcraft. Includes the classic 1981 CES address 'The Mantle Is Far, Far Greater Than the Intellect'."
+}
