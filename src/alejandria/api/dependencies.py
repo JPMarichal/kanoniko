@@ -1,8 +1,9 @@
 """FastAPI dependency injection for shared services.
 
-Optional services (Neo4j, sqlite-vec, KG extractor) use retry-on-None caching:
-if a service is unavailable at first call, subsequent calls retry the
-initialization instead of permanently caching None.
+Optional services (KG graph client, KG extractor, semantic search, etc.)
+use retry-on-None caching: if a service is unavailable at first call,
+subsequent calls retry the initialization instead of permanently
+caching None.
 """
 
 from __future__ import annotations
@@ -49,18 +50,13 @@ def _cache_success(func):
 
 @lru_cache
 def get_registry() -> DocumentRegistry:
-    """Cached accessor — dispatches on ``settings.storage_backend``."""
+    """Cached accessor — :class:`PostgresDocumentRegistry`."""
     return make_document_registry()
 
 
 @lru_cache
 def get_textual_search():
-    """Cached accessor — returns whichever backend settings.storage_backend selects.
-
-    Return type is duck-typed: ``TextualSearch`` (sqlite) or
-    ``PostgresTextualSearch``. Both expose ``.search(query, limit, file_path_filter)``,
-    ``.count_chunks()``, ``.count_documents()``.
-    """
+    """Cached accessor — :class:`TextualSearch` over Postgres tsvector."""
     return make_textual_search()
 
 
@@ -68,7 +64,7 @@ def get_textual_search():
 
 @_cache_success
 def get_semantic_search():
-    """Get semantic search backend (sqlite-vec or pgvector), or None if unavailable."""
+    """Get semantic search (pgvector HNSW), or None if unavailable."""
     try:
         from alejandria.search.semantic import make_semantic_search
 
@@ -110,11 +106,10 @@ def get_kg_extractor():
 
 @lru_cache
 def get_profile_store():
-    """Get ProfileStore instance for entity profiles.
+    """Get ProfileStore (Postgres) for entity profiles.
 
-    Dispatches on ``settings.storage_backend`` via :func:`make_profile_store`.
-    Returns ``None`` if construction fails (import error, DB unreachable) so
-    RAG/chat degrade gracefully rather than crashing.
+    Returns ``None`` if construction fails (import error, DB unreachable)
+    so RAG/chat degrade gracefully rather than crashing.
     """
     try:
         from alejandria.knowledge.profile_store import make_profile_store
@@ -127,7 +122,7 @@ def get_profile_store():
 
 @lru_cache
 def get_chunk_writer():
-    """Get the ChunkWriter selected by ``settings.storage_backend``."""
+    """Get the ChunkWriter (Postgres)."""
     return make_chunk_writer()
 
 
