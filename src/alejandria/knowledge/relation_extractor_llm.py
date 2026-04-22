@@ -444,14 +444,9 @@ def build_batches_from_index(
     Returns list of ExtractionBatch objects.
     """
     import heapq
-    import sqlite3
 
     from alejandria.knowledge.extractor import KGExtractor
-
-    db_path = Path(settings.sqlite_db_path)
-    if not db_path.exists():
-        logger.error("SQLite DB not found: %s", db_path)
-        return []
+    from alejandria.storage.postgres.connection import get_connection
 
     # Build a lightweight gazetteer regex + lookup — skip spaCy and disambiguation
     extractor = KGExtractor()
@@ -461,16 +456,16 @@ def build_batches_from_index(
         logger.error("Gazetteer regex not available")
         return []
 
-    query = """
-        SELECT file_path, chunk_index, text, reference
-        FROM chunks
-        WHERE length(text) > 100
-          AND file_path NOT LIKE '%.meta.json'
-    """
-    params: list[Any] = []
+    query = (
+        "SELECT file_path, chunk_index, text, reference "
+        "FROM chunks "
+        "WHERE length(text) > 100 "
+        "  AND file_path NOT LIKE %s"
+    )
+    params: list[Any] = ["%.meta.json"]
 
     if volumes:
-        conditions = " OR ".join("file_path LIKE ?" for _ in volumes)
+        conditions = " OR ".join("file_path LIKE %s" for _ in volumes)
         query += f" AND ({conditions})"
         for v in volumes:
             params.append(f"%/scriptures/{v}/%")
@@ -480,19 +475,19 @@ def build_batches_from_index(
     heap: list[tuple[int, int, dict]] = []
     total_candidates = 0
 
-    with sqlite3.connect(db_path) as conn:
-        conn.row_factory = sqlite3.Row
-        cursor = conn.execute(query, params)
+    with get_connection() as conn, conn.cursor() as cur:
+        cur.execute(query, params)
         batch_size = 5000
 
         row_idx = 0
         while True:
-            rows = cursor.fetchmany(batch_size)
+            rows = cur.fetchmany(batch_size)
             if not rows:
                 break
 
             for row in rows:
-                content = row["text"]
+                # Postgres tuple: (file_path, chunk_index, text, reference)
+                file_path, chunk_index, content, reference = row
                 text_lower = content.lower()
 
                 # Lightweight gazetteer-only entity counting
@@ -519,8 +514,8 @@ def build_batches_from_index(
                     entity_count,
                     row_idx,
                     {
-                        "file_path": row["file_path"],
-                        "reference": row["reference"] or row["file_path"],
+                        "file_path": file_path,
+                        "reference": reference or file_path,
                         "text": content,
                         "entities": entities,
                     },
