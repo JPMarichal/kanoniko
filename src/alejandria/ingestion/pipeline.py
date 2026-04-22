@@ -1385,85 +1385,12 @@ class IngestionPipeline:
         logger.info("Indexed %s (%d chunks)", rel_path, len(chunks))
         return len(chunks)
 
-    def rebuild_vectors(self) -> dict:
-        """Rebuild ONLY semantic vectors from already-indexed chunks in SQLite.
-
-        Reads chunk text + metadata from SQLite, batch-encodes on GPU, and
-        upserts to sqlite-vec. No filesystem I/O — ideal for GPU migration.
-
-        Returns stats dict.
-        """
-        if not _SEMANTIC_AVAILABLE:
-            return {"error": "Semantic encoder not available"}
-
-        start = time.time()
-
-        # Read all chunks from the index, then re-encode + upsert embeddings.
-        # The ChunkWriter's upsert_embeddings tolerates the same ids being
-        # overwritten, so we don't need to drop_all first.
-        all_rows = list(self._chunk_writer.iter_all_chunks())
-        total = len(all_rows)
-        logger.info("Vector rebuild: encoding %d chunks...", total)
-
-        # Batch-encode ALL texts in one GPU call
-        all_texts = [r["text"] for r in all_rows]
-        all_vectors = encode(all_texts, batch_size=256)
-
-        logger.info("Vector rebuild: encoding done in %.1fs, upserting...", time.time() - start)
-
-        # Batch upsert in groups of 500
-        batch_size = 500
-        for i in range(0, total, batch_size):
-            batch_rows = all_rows[i:i + batch_size]
-            batch_vectors = all_vectors[i:i + batch_size]
-
-            ids: list[int] = []
-            vectors: list[list[float]] = []
-            payloads: list[dict] = []
-
-            for row, vec in zip(batch_rows, batch_vectors):
-                meta = row["metadata"] or {}
-                auth = meta.get("auth", {})
-                ids.append(row["id"])
-                vectors.append(vec.tolist())
-                payloads.append({
-                    "text": row["text"],
-                    "file_path": row["file_path"],
-                    "chunk_index": row["chunk_index"],
-                    "source": meta.get("source", ""),
-                    "reference": row["reference"],
-                    **({"lang": meta.get("lang")} if meta.get("lang") else {}),
-                    "authority": auth.get("authority", 0),
-                    "rigor": auth.get("rigor", 0),
-                    "importance": auth.get("importance", 0),
-                    "official": auth.get("official", False),
-                })
-
-            self._chunk_writer.upsert_embeddings(
-                ids=ids, vectors=vectors, payloads=payloads,
-            )
-
-            if (i + batch_size) % 5000 == 0 or i + batch_size >= total:
-                logger.info(
-                    "Vector rebuild: %d/%d upserted (%.0f%%)",
-                    min(i + batch_size, total), total,
-                    min(i + batch_size, total) / total * 100,
-                )
-
-        elapsed = time.time() - start
-        stats = {
-            "chunks_encoded": total,
-            "elapsed_seconds": round(elapsed, 1),
-        }
-        logger.info("Vector rebuild complete: %d chunks in %.1fs", total, elapsed)
-        return stats
-
     def rebuild_kg(self) -> dict:
-        """Rebuild ONLY the knowledge graph from already-indexed chunks in SQLite.
+        """Rebuild ONLY the knowledge graph from already-indexed chunks.
 
-        This is much faster than full_reindex because it skips parsing,
-        chunking, embedding, FTS, and sqlite-vec — only reads chunk text from
-        SQLite and runs the KG extractor against the current gazetteers.
+        Skips parsing, chunking, embedding, and FTS — reads chunk text
+        from the index and runs the KG extractor against current
+        gazetteers.
 
         Returns stats dict with counts.
         """
