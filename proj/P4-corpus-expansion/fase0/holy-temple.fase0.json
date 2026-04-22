@@ -1,0 +1,13 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": ["temple", "ordinances", "endowment", "covenants", "apostle-authored", "doctrine"],
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Published 1980 by Bookcraft (private LDS publisher, absorbed by Deseret Book 1999). Written by Packer as member of Q12 in his personal capacity — no explicit FP commission."
+}
