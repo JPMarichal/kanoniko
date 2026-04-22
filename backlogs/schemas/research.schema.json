@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://alejandria.local/schemas/research.schema.json",
+  "title": "ResearchBacklog",
+  "description": "Top-level array of reseña production status per slug.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["slug"],
+    "properties": {
+      "slug": {
+        "type": "string",
+        "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$"
+      },
+      "review_path": {
+        "type": "string",
+        "description": "Path to prods/reseñas/{slug}/reseña.md when present."
+      },
+      "status": {
+        "type": "string",
+        "enum": ["pendiente", "en_progreso", "completa"]
+      },
+      "completed_at": {
+        "type": ["string", "null"],
+        "format": "date-time"
+      }
+    }
+  }
+}
