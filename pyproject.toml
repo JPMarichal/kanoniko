@@ -23,7 +23,6 @@ dev = [
 ]
 semantic = [
     "sentence-transformers>=3.0",
-    "sqlite-vec>=0.1.6",
 ]
 graph = [
     "spacy>=3.7",
