@@ -8,11 +8,9 @@ edges, and lifecycle (clear, ensure indexes).
 (read-curated-file → batch_merge_*), not persistence. See
 :class:`alejandria.knowledge.curated_seed_loader.CuratedSeedLoader`.
 
-Concrete implementations:
-
-* :mod:`alejandria.storage.postgres_kg_writer` — Postgres IONOS (target).
-* :mod:`alejandria.storage.legacy_kg_writer` — adapter over
-  :class:`Neo4jClient`, retired in §3.3.
+Concrete implementation: :mod:`alejandria.storage.postgres_kg_writer`
+over Postgres IONOS. The §3.1-era ``LegacyKGWriter`` (Neo4j adapter)
+was retired together with Neo4j itself in §3.3.
 """
 from __future__ import annotations
 
@@ -98,46 +96,14 @@ class KnowledgeGraphWriter(Protocol):
     ) -> None:
         ...
 
-    # ----- Specialized bulk loaders ---------------------------------- #
-    #
-    # Load curated scripture structure from on-disk JSON (volumes,
-    # divisions, books, parts, chapters + NEXT/PREV/CONTAINS edges),
-    # scripture parallels, metadata-derived relations, and cross
-    # references. These are kept on the Writer Protocol (rather than a
-    # separate Loader Protocol) to keep the pipeline's dependency
-    # surface at three Protocols. The Legacy adapter delegates to the
-    # existing ``knowledge/hierarchy_loader.py`` etc.; Postgres impl
-    # reads the same JSON sources and writes via the batch methods.
-
-    def load_scripture_structure(self) -> dict[str, int]:
-        """Load volumes/divisions/books/parts/chapters + hierarchy edges.
-
-        Returns a count dict (e.g. ``{"volumes": 4, "chapters": 1288, ...}``).
-        """
-        ...
-
-    def load_scripture_parallels(self) -> dict[str, int]:
-        """Load parallel passages between synoptic/quoted scriptures."""
-        ...
-
-    def extract_metadata_relations(self) -> dict[str, int]:
-        """Derive relations from on-graph metadata (authorship, etc.)."""
-        ...
-
-    def load_cross_references(self) -> dict[str, int]:
-        """Load footnote / cross-reference edges between chapters."""
-        ...
-
 
 def make_kg_writer() -> KnowledgeGraphWriter:
-    """Return the KG writer selected by ``settings.storage_backend``."""
-    from alejandria.config import settings
+    """Return the KG writer backed by Postgres IONOS.
 
-    backend = (settings.storage_backend or "postgres").lower()
-    if backend == "postgres":
-        from alejandria.storage.postgres_kg_writer import PostgresKGWriter
+    Kept as a factory rather than inlining ``PostgresKGWriter()`` so
+    future backend swaps (e.g. a managed Postgres, a sharded cluster)
+    stay transparent to consumers.
+    """
+    from alejandria.storage.postgres_kg_writer import PostgresKGWriter
 
-        return PostgresKGWriter()
-    from alejandria.storage.legacy_kg_writer import LegacyKGWriter
-
-    return LegacyKGWriter()
+    return PostgresKGWriter()

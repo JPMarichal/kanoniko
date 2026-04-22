@@ -399,7 +399,7 @@ class IngestionPipeline:
                 ents: list[dict], lnks: list[dict], rels: list[dict],
                 n_files: int,
             ):
-                """Neo4j write in background thread."""
+                """KG batch write in background thread."""
                 nonlocal _flush_error
                 try:
                     kg_writer = self._kg_writer
@@ -500,7 +500,7 @@ class IngestionPipeline:
                     (time.time(), self.progress.phase_3_chunks_done)
                 )
 
-                # Periodic async flush to Neo4j — by file count OR chunk count
+                # Periodic async flush to the KG — by file count OR chunk count
                 if kg_file_count >= KG_FLUSH_INTERVAL or kg_accumulated_chunks >= KG_CHUNK_FLUSH_THRESHOLD:
                     _flush_kg()
 
@@ -987,7 +987,7 @@ class IngestionPipeline:
                             "props": {},
                         })
 
-            # Mid-file flush: if accumulated enough data, flush to Neo4j
+            # Mid-file flush: if accumulated enough data, flush to the KG
             if flush_callback and batch_end < total_chunks:
                 logger.info(
                     "Mid-file flush at chunk %d/%d of %s: %d ents, %d rels",
@@ -1532,33 +1532,14 @@ class IngestionPipeline:
         except Exception:
             logger.warning("Failed to load curated relations — continuing without them", exc_info=True)
 
-        # Load scripture hierarchy (P6 Phase 6)
-        try:
-            h_counts = self._kg_writer.load_scripture_structure()
-            logger.info("KG rebuild: hierarchy loaded — %d chapters, %d contains rels", h_counts.get("chapters", 0), h_counts.get("contains", 0))
-        except Exception:
-            logger.warning("Failed to load hierarchy — continuing without it", exc_info=True)
-
-        # Load parallel narratives (P6 Phase 2)
-        try:
-            p_counts = self._kg_writer.load_scripture_parallels()
-            logger.info("KG rebuild: parallels loaded — %d narratives, %d relations", p_counts.get("narratives", 0), p_counts.get("relations", 0))
-        except Exception:
-            logger.warning("Failed to load parallels — continuing without them", exc_info=True)
-
-        # Extract metadata relations (P6 Phase 7) — depends on hierarchy
-        try:
-            m_counts = self._kg_writer.extract_metadata_relations()
-            logger.info("KG rebuild: metadata relations — %d total", m_counts.get("total", 0))
-        except Exception:
-            logger.warning("Failed to extract metadata relations — continuing without them", exc_info=True)
-
-        # Load cross-references (P6 Phase 8)
-        try:
-            cr_counts = self._kg_writer.load_cross_references()
-            logger.info("KG rebuild: cross-refs — %d verses, %d rels", cr_counts.get("verse_nodes", 0), cr_counts.get("relationships", 0))
-        except Exception:
-            logger.warning("Failed to load cross-refs — continuing without them", exc_info=True)
+        # Scripture structural seeds (P6 phases 2, 6, 7, 8) were Neo4j-era
+        # bulk loaders reading data/scripture_structure/*.json into the graph
+        # via Cypher MERGE patterns. They were retired with Neo4j in §3.3
+        # after the Postgres migration revealed they had never actually run
+        # in production (zero rows across all four loaders). If structural
+        # seeding is revived, it should be implemented as a dedicated
+        # service that writes entities+relations via batch_merge_* on the
+        # Postgres client, not as an ingestion-pipeline step.
 
         # Read all chunks from the index
         rows = list(self._chunk_writer.iter_all_chunks())
@@ -1577,7 +1558,7 @@ class IngestionPipeline:
         batch_documents: list[dict] = []
 
         def _flush_batch() -> None:
-            """Send accumulated batch to Neo4j."""
+            """Send accumulated batch to the KG writer."""
             nonlocal batch_entities, batch_relations, batch_links, batch_documents
             if batch_documents:
                 self._kg_writer.batch_merge_documents(batch_documents)

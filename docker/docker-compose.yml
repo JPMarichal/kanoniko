@@ -11,7 +11,8 @@ services:
       - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
       # Scripture structure data (cross-references, etc.)
       - ../data/scripture_structure:/app/data/scripture_structure:ro
-      # SQLite data: bind mount (shared with host/WSL for GPU reindex)
+      # SQLite data: bind mount (shared with host/WSL for GPU reindex).
+      # Transitional — retired together with SQLite in §3.4.
       - ../data/sqlite:/app/data/sqlite
       # Model cache: so embedding model is downloaded once
       - alejandria-models:/root/.cache
@@ -23,12 +24,9 @@ services:
       - ALEJANDRIA_CORPUS_PATH=/app/corpus
       - ALEJANDRIA_SQLITE_DB_PATH=/app/data/sqlite/alejandria.db
       - ALEJANDRIA_EMBEDDING_DEVICE=cpu
-      - ALEJANDRIA_NEO4J_URI=bolt://neo4j:7687
-      - ALEJANDRIA_NEO4J_USER=neo4j
-      - ALEJANDRIA_NEO4J_PASSWORD=${NEO4J_PASSWORD:-alejandria}
-    depends_on:
-      neo4j:
-        condition: service_healthy
+      # Postgres connection (ALEJANDRIA_POSTGRES_*) is loaded from .env.
+      # No container service — the authoritative KG lives in Postgres
+      # IONOS, reached via SSH tunnel on the host (localhost:15432).
     mem_limit: 2g
     restart: unless-stopped
     healthcheck:
@@ -38,30 +36,5 @@ services:
       retries: 5
       start_period: 60s
 
-  neo4j:
-    image: neo4j:5-community
-    container_name: alejandria-neo4j
-    ports:
-      - "7474:7474"
-      - "7687:7687"
-    volumes:
-      - alejandria-neo4j:/data
-    environment:
-      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD:-alejandria}
-      # Limit JVM heap — default is too aggressive for our graph size
-      - NEO4J_server_memory_heap_initial__size=256m
-      - NEO4J_server_memory_heap_max__size=512m
-      - NEO4J_server_memory_pagecache_size=128m
-      - NEO4J_dbms_memory_transaction_total_max=512m
-    mem_limit: 1200m
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD-SHELL", "cypher-shell -u neo4j -p ${NEO4J_PASSWORD:-alejandria} 'RETURN 1' || exit 1"]
-      interval: 10s
-      timeout: 10s
-      retries: 10
-      start_period: 30s
-
 volumes:
   alejandria-models:
-  alejandria-neo4j:

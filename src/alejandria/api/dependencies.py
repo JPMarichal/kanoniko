@@ -79,14 +79,20 @@ def get_semantic_search():
 
 
 @_cache_success
-def get_neo4j_client():
-    """Get Neo4jClient instance, or None if Neo4j unavailable."""
-    try:
-        from alejandria.knowledge.neo4j_client import Neo4jClient
+def get_graph_client():
+    """Get the KG graph client, or None if unreachable.
 
-        return Neo4jClient()
+    Post §3.3 Neo4j retirement this always returns a
+    :class:`PostgresGraphClient` over Postgres IONOS. The retry-on-None
+    wrapper remains to degrade gracefully if the DB is momentarily
+    unreachable (SSH tunnel dropped, etc.).
+    """
+    try:
+        from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+
+        return PostgresGraphClient()
     except Exception:
-        logger.warning("Neo4j unavailable (not connected or deps missing)")
+        logger.warning("Graph client unavailable (Postgres unreachable?)")
         return None
 
 

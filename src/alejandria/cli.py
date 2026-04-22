@@ -34,10 +34,11 @@ def _semantic():
         return None
 
 
-def _neo4j():
+def _graph():
+    """Return a KG graph client, or None if Postgres is unreachable."""
     try:
-        from alejandria.knowledge.neo4j_client import Neo4jClient
-        return Neo4jClient()
+        from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+        return PostgresGraphClient()
     except Exception:
         return None
 
@@ -162,11 +163,11 @@ def graph() -> None:
 @click.option("--json", "as_json", is_flag=True, help="Output raw JSON")
 def graph_find(query: str, entity_type: str | None, limit: int, as_json: bool) -> None:
     """Search entities by name."""
-    neo4j = _neo4j()
-    if neo4j is None:
+    graph = _graph()
+    if graph is None:
         click.echo("Error: Knowledge graph unavailable", err=True)
         sys.exit(1)
-    results = neo4j.find_node(search=query, entity_type=entity_type, limit=limit)
+    results = graph.find_node(search=query, entity_type=entity_type, limit=limit)
     if as_json:
         _json_out(results)
         return
@@ -185,11 +186,11 @@ def graph_find(query: str, entity_type: str | None, limit: int, as_json: bool) -
 @click.option("--json", "as_json", is_flag=True, help="Output raw JSON")
 def graph_neighbors(name: str, depth: int, limit: int, as_json: bool) -> None:
     """Get connected entities."""
-    neo4j = _neo4j()
-    if neo4j is None:
+    graph = _graph()
+    if graph is None:
         click.echo("Error: Knowledge graph unavailable", err=True)
         sys.exit(1)
-    result = neo4j.get_neighbors(name=name, depth=min(depth, 3), limit=limit)
+    result = graph.get_neighbors(name=name, depth=min(depth, 3), limit=limit)
     if as_json:
         _json_out(result)
         return
@@ -211,11 +212,11 @@ def graph_neighbors(name: str, depth: int, limit: int, as_json: bool) -> None:
 @click.option("--json", "as_json", is_flag=True, help="Output raw JSON")
 def graph_summary(as_json: bool) -> None:
     """Show graph statistics."""
-    neo4j = _neo4j()
-    if neo4j is None:
+    graph = _graph()
+    if graph is None:
         click.echo("Error: Knowledge graph unavailable", err=True)
         sys.exit(1)
-    summary = neo4j.graph_summary()
+    summary = graph.graph_summary()
     if as_json:
         _json_out(summary)
         return
@@ -245,7 +246,7 @@ def ask(question: str, source: str | None, as_json: bool) -> None:
     pipeline = RAGPipeline(
         textual_search=_textual(),
         semantic_search=_semantic(),
-        neo4j_client=_neo4j(),
+        graph_client=_graph(),
         profile_store=make_profile_store(),
     )
     result = pipeline.ask(question=question, source_filter=source)
@@ -275,22 +276,22 @@ def status(as_json: bool) -> None:
     """Show system status."""
     ts = _textual()
     sem = _semantic()
-    neo4j = _neo4j()
+    graph = _graph()
     data = {
         "version": settings.app_version,
         "fts_documents": ts.count_documents(),
         "fts_chunks": ts.count_chunks(),
         "semantic_available": sem is not None,
-        "graph_available": neo4j is not None,
+        "graph_available": graph is not None,
     }
     if sem is not None:
         try:
             data["semantic_vectors"] = sem.count()
         except Exception:
             pass
-    if neo4j is not None:
+    if graph is not None:
         try:
-            s = neo4j.graph_summary()
+            s = graph.graph_summary()
             data["graph_nodes"] = s["total_nodes"]
         except Exception:
             pass
