@@ -1,0 +1,14 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": ["biography", "packer", "apostle", "church-history", "bookcraft", "authorized-biography", "tate-biographies"],
+  "category": "biographies",
+  "author": "Lucile C. Tate",
+  "source_url": null,
+  "note": "Authorized biography of Boyd K. Packer (1995, Bookcraft). Uses primary sources (interviews with Packer and his wife Donna, family diaries, CES/mission records). Sole major biography of Packer. Part of Tate's Bookcraft biography series covering LeGrand Richards, Matthias F. Cowley, Stephen L Richards, and others."
+}

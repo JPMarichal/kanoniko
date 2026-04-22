@@ -1,0 +1,14 @@
+{
+  "authority": 55,
+  "rigor": 45,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": ["discourses", "apostle-authored", "spanish-translation", "church-publication", "anthology", "packer-series"],
+  "category": "discourses",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Official Church-distributed Spanish anthology of 36 Packer discourses (part of the 'Una selección de discursos' series covering Packer, McConkie, Benson, Hinckley, Holland, Wirthlin). WARNING: source is a column-reflowed PDF, some paragraphs have left/right column lines interleaved — rigor rebajado por eso. Potential overlap with general-conference/; defer de-dup audit. TOC chapter (01-indice) removed manually before promote; 2 distinct talks both titled 'El obispo y sus consejeros' kept separate."
+}

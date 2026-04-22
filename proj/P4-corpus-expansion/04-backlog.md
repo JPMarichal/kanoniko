@@ -32,6 +32,7 @@ Para análisis detallado por material → `fase0/`.
 | Life Help (mini-manuals) | 60 | BAJA | Hubs sin texto nuevo; valor KG mínimo | — |
 | Ensign archive (1971-2020) | 60 | BAJA | Volumen enorme; separado de Liahona | — |
 | ~20 RSC BYU PDF-only | varies | BAJA | No disponibles para lectura online; requieren scraper de PDF o compra | — |
+| Conferencia General ES pre-199004 | 80 | MEDIA | Corpus `general-conference/es/` empieza abril 1990. El lote epub traía Liahona enero 1989 (= Oct 1988 GC en ES) pero la fuente es scrape pirata (`bibliotecasud.blogspot.com`) con columnas intercaladas ilegibles — rechazada 2026-04-22. Re-descargar limpio desde `churchofjesuschrist.org` con scraper GC. | `fase0/gc-198810-liahona-198901.md` (rechazado) |
 
 > **Nota:** La sección `researched` (Gutenberg) fue eliminada 2026-04-09.
 > Todos los libros Gutenberg listados previamente ya están descargados e ingested.

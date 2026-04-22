@@ -1,3 +1,12 @@
+# EPUB working lot (inbox + archive + scratch). Files live on disk for the
+# incorporation workflow (see docs/epub-incorporation.md) but are never
+# tracked in git — they're binary, large, and provenance stays via the
+# .meta.json under corpus/{lang}/{cat}/ plus the Fase 0 docs.
+epub/!Ready/
+epub/!Done/
+epub/_preview/
+epub/_smoke/
+
 # Python
 __pycache__/
 *.py[cod]
