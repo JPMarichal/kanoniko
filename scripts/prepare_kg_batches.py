@@ -5,7 +5,7 @@ from collections import defaultdict
 db = sqlite3.connect("/app/data/sqlite/alejandria.db")
 registered = [r[0] for r in db.execute("SELECT file_path FROM document_registry").fetchall()]
 
-revistas = sorted([r for r in registered if "/revistas/" in r])
+revistas = sorted([r for r in registered if "/magazines/" in r])
 isbe = sorted([r for r in registered if "/reference/isbe/" in r])
 
 rev_chunks = db.execute(
