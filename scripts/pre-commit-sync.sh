@@ -43,3 +43,15 @@ GAZETTEERS="$REPO_ROOT/data/gazetteers"
 if [ -d "$GAZETTEERS" ]; then
     git add "$GAZETTEERS"/*.csv "$GAZETTEERS"/*.json 2>/dev/null || true
 fi
+
+# 5. Validate ingestion backlogs (§Level B, docs/ingestion-workflow.md).
+#    Blocks the commit if any backlog JSON violates its schema or has
+#    duplicate slugs.
+if [ -d "$REPO_ROOT/backlogs" ]; then
+    if command -v python >/dev/null 2>&1; then
+        if ! python "$REPO_ROOT/scripts/validate_backlogs.py" >/dev/null 2>&1; then
+            echo "[pre-commit] ERROR: backlog validation failed. Running with full output:"
+            python "$REPO_ROOT/scripts/validate_backlogs.py" || exit 1
+        fi
+    fi
+fi

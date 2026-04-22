@@ -139,8 +139,11 @@ def main(argv: list[str] | None = None) -> int:
         description="Validate ingestion backlog JSON files against their schemas.",
     )
     parser.add_argument(
-        "names", nargs="*", choices=BACKLOG_NAMES + ("all",), default=["all"],
-        help="Backlogs to validate (default: all).",
+        "names", nargs="*",
+        help=(
+            "Backlogs to validate: any of "
+            f"{', '.join(BACKLOG_NAMES)}, 'all', or empty (= all)."
+        ),
     )
     parser.add_argument(
         "--root", type=Path, default=DEFAULT_BACKLOGS_ROOT,
@@ -148,7 +151,15 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    names = BACKLOG_NAMES if ("all" in args.names or not args.names) else args.names
+    requested = args.names or ["all"]
+    allowed = set(BACKLOG_NAMES) | {"all"}
+    invalid = [n for n in requested if n not in allowed]
+    if invalid:
+        parser.error(
+            f"invalid backlog name(s) {invalid!r}; "
+            f"choose from {list(BACKLOG_NAMES) + ['all']}"
+        )
+    names = BACKLOG_NAMES if ("all" in requested) else tuple(requested)
     errors = validate_all(names, root=args.root)
 
     if not errors:
