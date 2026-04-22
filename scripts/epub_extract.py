@@ -48,6 +48,18 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 PREVIEW = ROOT / "epub" / "_preview"
 CORPUS = ROOT / "corpus"
+FASE0_DIR = ROOT / "proj" / "P4-corpus-expansion" / "fase0"
+
+# Fields the Fase 0 sidecar may fill. Other keys in the sidecar are ignored
+# (reserved for human annotations). Authority is only one axis — rigor,
+# official, context, audience, importance, current, tags all come from the
+# same research.
+FASE0_FIELDS = (
+    "authority", "rigor", "importance", "official", "current",
+    "context", "audience", "tags", "note",
+    # overrides that shape placement/meta:
+    "category", "subcategory", "author", "source_url",
+)
 
 NS_OPF = {"opf": "http://www.idpf.org/2007/opf", "dc": "http://purl.org/dc/elements/1.1/"}
 NS_CONTAINER = {"c": "urn:oasis:names:tc:opendocument:xmlns:container"}
@@ -74,6 +86,29 @@ def lang_code(raw: str) -> str:
     if v.startswith("en"):
         return "en"
     return v[:2] or "en"
+
+
+def load_fase0(slug: str, explicit_path: Path | None = None) -> dict:
+    """Load structured Fase 0 sidecar for a work.
+
+    Looks for:
+      1. explicit_path if given
+      2. proj/P4-corpus-expansion/fase0/{slug}.fase0.json
+
+    Returns dict of FASE0_FIELDS (only keys present), or empty dict if absent.
+    """
+    path = explicit_path
+    if path is None:
+        path = FASE0_DIR / f"{slug}.fase0.json"
+    if not path or not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as e:
+        raise SystemExit(f"Fase 0 sidecar unreadable ({path}): {e}")
+    if not isinstance(data, dict):
+        raise SystemExit(f"Fase 0 sidecar must be a JSON object: {path}")
+    return {k: v for k, v in data.items() if k in FASE0_FIELDS}
 
 
 CHURCH_RE = re.compile(
@@ -403,29 +438,33 @@ def build_meta(
     lang: str,
     source_file: str,
     opf_meta: dict,
+    fase0: dict | None = None,
 ) -> dict:
     """Full meta.json schema (aligned with corpus/en/books/articles-of-faith/*.meta.json).
 
-    Authority fields left null — filled by Fase 0 research.
+    Fase 0 sidecar (if provided) fills authority/rigor/official/context/
+    audience/importance/current/tags/note. Otherwise they stay null and
+    authority_pending=True flags the work for Fase 0 research.
     """
-    return {
+    f = fase0 or {}
+    meta = {
         "title": chapter_title,
-        "author": author,
+        "author": f.get("author") or author,
         "book": book_title,
         "chapter": chapter_index if total_chapters > 1 else None,
         "total_chapters": total_chapters,
-        "category": category,
-        "subcategory": subcategory or None,
-        "tags": [],
-        "authority": None,            # <- Fase 0
-        "rigor": None,                # <- Fase 0
-        "importance": None,           # <- Fase 0
-        "official": None,             # <- Fase 0
-        "context": None,              # <- Fase 0
-        "audience": None,             # <- Fase 0
-        "current": None,              # <- Fase 0
+        "category": f.get("category") or category,
+        "subcategory": f.get("subcategory") or (subcategory or None),
+        "tags": f.get("tags") or [],
+        "authority": f.get("authority"),
+        "rigor": f.get("rigor"),
+        "importance": f.get("importance"),
+        "official": f.get("official"),
+        "context": f.get("context"),
+        "audience": f.get("audience"),
+        "current": f.get("current"),
         "lang": {"en": "eng", "es": "spa"}.get(lang, lang),
-        "source_url": None,
+        "source_url": f.get("source_url"),
         "source": "epub",
         "source_file": source_file,
         "opf_publisher": opf_meta.get("publisher") or None,
@@ -435,9 +474,10 @@ def build_meta(
         "opf_identifier": opf_meta.get("identifier") or None,
         "meta_description": None,
         "study_intro": None,
-        "authority_pending": True,    # flag: needs Fase 0
-        "note": None,
+        "authority_pending": not bool(f),
+        "note": f.get("note"),
     }
+    return meta
 
 
 # ---------- main extraction ----------
@@ -453,6 +493,7 @@ def extract_one(
     author_override: str | None,
     min_chapter_chars: int,
     max_single_file_kb: int,
+    fase0_path: Path | None = None,
 ) -> Path:
     with zipfile.ZipFile(epub_path) as zf:
         opf_meta, spine, opf_dir = read_opf(zf)
@@ -463,6 +504,15 @@ def extract_one(
         slug = slug_override or slugify(title)
         if not slug:
             slug = slugify(epub_path.stem)
+
+        # Fase 0 sidecar (authority, rigor, official, context, audience, tags, ...)
+        fase0 = load_fase0(slug, explicit_path=fase0_path)
+        if fase0.get("category"):
+            category = fase0["category"]
+        if "subcategory" in fase0:
+            subcategory = fase0["subcategory"]
+        if fase0.get("author"):
+            author = fase0["author"]
 
         per_file: list[tuple[list[dict], dict[str, str], dict]] = []
         for sid, href in spine:
@@ -510,6 +560,7 @@ def extract_one(
                 lang=lang,
                 source_file=str(epub_path.relative_to(ROOT)).replace("\\", "/"),
                 opf_meta=opf_meta,
+                fase0=fase0,
             )
             (target_dir / f"{slug}.meta.json").write_text(
                 json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
@@ -538,6 +589,7 @@ def extract_one(
                     lang=lang,
                     source_file=str(epub_path.relative_to(ROOT)).replace("\\", "/"),
                     opf_meta=opf_meta,
+                    fase0=fase0,
                 )
                 (target_dir / f"{base}.meta.json").write_text(
                     json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
@@ -571,6 +623,8 @@ def main() -> int:
     ap.add_argument("--promote", metavar="PREVIEW_DIR", help="Move a previewed work into corpus/")
     ap.add_argument("--min-chapter-chars", type=int, default=80)
     ap.add_argument("--max-single-file-kb", type=int, default=10)
+    ap.add_argument("--fase0", metavar="PATH",
+                    help="Explicit Fase 0 sidecar .json (overrides slug-based lookup)")
     args = ap.parse_args()
 
     if args.promote:
@@ -598,6 +652,7 @@ def main() -> int:
         author_override=args.author,
         min_chapter_chars=args.min_chapter_chars,
         max_single_file_kb=args.max_single_file_kb,
+        fase0_path=Path(args.fase0).resolve() if args.fase0 else None,
     )
     rel = target.relative_to(ROOT)
     mode = "APPLY (corpus/)" if args.apply else "PREVIEW"

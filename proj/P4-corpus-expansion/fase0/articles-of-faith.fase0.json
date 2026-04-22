@@ -1,0 +1,13 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": false,
+  "context": "book-official",
+  "audience": "adult",
+  "tags": ["doctrine", "apostle-authored", "lectures"],
+  "author": "James E. Talmage",
+  "source_url": "https://www.gutenberg.org/ebooks/42238",
+  "note": "Originally delivered as lectures at LDS University, 1893. Published 1899. FP-commissioned doctrinal treatise."
+}
