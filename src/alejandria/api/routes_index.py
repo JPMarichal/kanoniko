@@ -181,31 +181,26 @@ def rebuild_kg(
 
 
 @router.post("/load-curated-relations")
-def load_curated_relations(
-    migrate: bool = False,
-) -> dict:
+def load_curated_relations() -> dict:
     """Load curated relations from gazetteers/relations.json into the KG.
 
-    Also migrates existing untyped relations (RELATED_TO, CO_OCCURS_WITH)
-    to co_occurrence confidence when migrate=True.
+    The ``migrate=True`` flag that existed pre-§3.3 (Neo4j-only CO_OCCURS_WITH
+    reclassification) was retired together with the Neo4j client — the
+    Postgres KG never had that noise to begin with.
     """
-    from alejandria.api.dependencies import get_neo4j_client
+    from alejandria.api.dependencies import get_graph_client
     from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
     from alejandria.knowledge.extractor import _RELATIONS_PATH
 
-    neo4j = get_neo4j_client()
-    if neo4j is None:
-        raise HTTPException(503, "Neo4j not available")
+    graph = get_graph_client()
+    if graph is None:
+        raise HTTPException(503, "Knowledge graph unavailable (Postgres unreachable)")
 
     try:
-        migration_counts = {}
-        if migrate:
-            migration_counts = neo4j.migrate_untyped_relations() or {}
-
         if not _RELATIONS_PATH.exists():
             raise HTTPException(404, f"Relations file not found: {_RELATIONS_PATH}")
 
-        counts = CuratedSeedLoader(neo4j).load(_RELATIONS_PATH)
+        counts = CuratedSeedLoader(graph).load(_RELATIONS_PATH)
         total = sum(counts.values())
         populated = {k: v for k, v in counts.items() if v > 0}
 
@@ -214,10 +209,9 @@ def load_curated_relations(
             "total_relations_loaded": total,
             "types_populated": len(populated),
             "counts": populated,
-            **({"migrated": migration_counts} if migration_counts else {}),
         }
     finally:
-        neo4j.close()
+        graph.close()
 
 
 @router.post("/build-profiles", response_model=BuildProfilesResponse)

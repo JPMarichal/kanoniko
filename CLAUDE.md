@@ -27,17 +27,17 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 
 ## Stack
 
-- Python 3.11, FastAPI, SQLite FTS5 (textual), sqlite-vec (semantic), Neo4j (graph)
+- Python 3.11, FastAPI, Postgres IONOS + pgvector (authoritative: chunks, FTS via tsvector, embeddings, KG). Transitional SQLite + sqlite-vec mirror retired in §3.4.
 - spaCy + domain gazetteers for KG extraction
-- Docker Compose (2 containers: api, neo4j)
+- Docker Compose (1 container: api — Neo4j retired in §3.3, Postgres lives on IONOS VPS)
 
-### Postgres IONOS = source of truth (Phase 1 merged 2026-04-18, PR #3)
+### Postgres IONOS = source of truth (Phase 1 PR #3; write cutover PR #4; KG read complete PR #5; Neo4j retired §3.3)
 
-The `feature/postgres-migration` branch landed in `main` (commit `426fafeb1`).
-**Postgres 16 + pgvector on IONOS VPS is the authoritative store** for chunks,
-FTS, embeddings, entities, relations, mentions. Local SQLite + Neo4j are
-transitional — they remain for the write path until cutover, but they are
-NOT the source of truth and may drift.
+**Postgres 16 + pgvector on IONOS VPS is the authoritative store** for
+chunks, FTS (tsvector), embeddings (pgvector), entities, relations, and
+mentions. The Neo4j container and SQLite write path have been retired;
+the local SQLite file is kept read-only for the transitional period
+until §3.4 closes.
 
 - **For any destructive op or correctness audit, verify Postgres IONOS** —
   not Neo4j local, not SQLite local. SSH tunnel `localhost:15432 →
@@ -147,23 +147,20 @@ When the user asks a theological, doctrinal, or scripture-content question:
 
 ## Backup & Disaster Recovery
 
-**Postgres IONOS is the source of truth** (post Phase 1 merge — see § Stack above). The local SQLite + Neo4j remain transitionally for the write path; the SQLite vectors and Neo4j graph can be regenerated from Postgres data + corpus on demand.
+**Postgres IONOS is the source of truth** (post Phase 1 merge — see § Stack above). Its canonical backup is the `pg_dump` daily snapshot on IONOS (see `docs/ionos-setup.md`).
 
-The endpoints below act on the **local copies only** — they exist for legacy operations and incremental recovery, not as the canonical backup of the source of truth (which is the IONOS `pg_dump` daily snapshot).
+The local endpoints below act on the **transitional SQLite mirror only** — Neo4j backup endpoints were retired in §3.3 together with the Neo4j container.
 
 ### Backup Endpoints (API running at :4300)
 | Endpoint | What it does |
 |----------|-------------|
 | `POST /backup/sqlite?label=manual` | Timestamped copy (includes vectors), rotates last 5 |
-| `POST /backup/neo4j` | Cypher streaming export to JSON (~90s for 75K nodes + 4.5M rels) |
 | `GET /backup/sqlite` | List available SQLite backups |
-| `GET /backup/neo4j` | List available Neo4j backups |
 | `POST /backup/sqlite/restore?filename=...` | Restore SQLite from backup |
-| `POST /backup/neo4j/restore?filename=...` | Restore Neo4j from backup (clears graph first) |
 | `POST /index/rebuild-vectors` | Rebuild vectors in sqlite-vec from chunk text (no filesystem I/O) |
 
 ### Automatic Pre-Index Backup
-The pipeline automatically backs up SQLite and Neo4j before any indexing run. No manual action needed.
+The pipeline automatically backs up SQLite before any indexing run. KG snapshots are handled server-side by the IONOS `pg_dump` cron.
 
 ### What's Tracked in Git (disaster recovery baseline)
 | Asset | Location | Notes |
@@ -181,7 +178,7 @@ The pipeline automatically backs up SQLite and Neo4j before any indexing run. No
 ### Recovery Procedures
 - **SQLite lost:** `gunzip -k data/sqlite/alejandria.db.gz` or restore from backup endpoint
 - **Vectors lost:** `POST /index/rebuild-vectors` (~5 min on GPU) — rebuilds sqlite-vec table from chunk text
-- **Neo4j lost:** `POST /backup/neo4j/restore?filename=...` or rebuild from SQLite via reindex (~3h)
+- **KG lost:** restore Postgres from the latest IONOS `pg_dump` (see `docs/ionos-setup.md`); no per-instance recovery needed.
 - **Full disaster:** Clone repo, `bash scripts/backup-pull.sh all`, decrypt `.env`, `docker compose up`, data is in git
 - **NEVER run full reindex casually** — it takes 7+ hours and deletes existing data first. Always use incremental.
 - **Incremental is fast** (~2-3 sec/file for new material). Only `force: true` is slow (~2h for 7K files on CPU).

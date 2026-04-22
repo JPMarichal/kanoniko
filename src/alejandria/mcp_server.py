@@ -28,7 +28,7 @@ app = Server("alejandria")
 
 _textual: TextualSearch | None = None
 _semantic: Any = None
-_neo4j: Any = None
+_graph: Any = None
 _profile_store: Any = None
 
 
@@ -51,15 +51,15 @@ def _get_semantic():
     return _semantic
 
 
-def _get_neo4j():
-    global _neo4j
-    if _neo4j is None:
+def _get_graph():
+    global _graph
+    if _graph is None:
         try:
-            from alejandria.knowledge.neo4j_client import Neo4jClient
-            _neo4j = Neo4jClient()
+            from alejandria.knowledge.postgres_graph_client import PostgresGraphClient
+            _graph = PostgresGraphClient()
         except Exception:
             pass
-    return _neo4j
+    return _graph
 
 
 def _get_profile_store():
@@ -457,10 +457,10 @@ def _do_search_hybrid(args: dict) -> dict:
 
 
 def _do_kg_find(args: dict) -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
-    results = neo4j.find_node(
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
+    results = graph.find_node(
         search=args["query"],
         entity_type=args.get("entity_type"),
         limit=args.get("limit", 20),
@@ -476,10 +476,10 @@ def _do_kg_find(args: dict) -> dict:
 
 
 def _do_kg_relations(args: dict) -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
-    results = neo4j.get_typed_relations(
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
+    results = graph.get_typed_relations(
         entity_name=args["name"],
         confidence_min=args.get("confidence_min", "ner"),
         rel_types=args.get("rel_types"),
@@ -514,11 +514,11 @@ def _do_kg_profile(args: dict) -> dict:
 
 
 def _do_kg_neighbors(args: dict) -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
     depth = min(args.get("depth", 1), 3)
-    result = neo4j.get_neighbors(
+    result = graph.get_neighbors(
         name=args["name"],
         depth=depth,
         limit=args.get("limit", 50),
@@ -531,25 +531,25 @@ def _do_kg_neighbors(args: dict) -> dict:
 
 
 def _do_kg_docs(args: dict) -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
-    docs = neo4j.get_documents_for_entity(args["entity_name"])
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
+    docs = graph.get_documents_for_entity(args["entity_name"])
     return {"entity": args["entity_name"], "documents": docs}
 
 
 def _do_kg_summary() -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
-    return neo4j.graph_summary()
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
+    return graph.graph_summary()
 
 
 def _do_kg_genealogy_tree(args: dict) -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
-    return neo4j.get_genealogy_tree(
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
+    return graph.get_genealogy_tree(
         name=args["name"],
         direction=args.get("direction", "both"),
         depth=args.get("depth", 3),
@@ -558,10 +558,10 @@ def _do_kg_genealogy_tree(args: dict) -> dict:
 
 
 def _do_kg_genealogy_path(args: dict) -> dict:
-    neo4j = _get_neo4j()
-    if neo4j is None:
-        return {"error": "Knowledge graph unavailable (Neo4j not connected)"}
-    return neo4j.get_genealogy_path(args["name1"], args["name2"])
+    graph = _get_graph()
+    if graph is None:
+        return {"error": "Knowledge graph unavailable (Postgres unreachable)"}
+    return graph.get_genealogy_path(args["name1"], args["name2"])
 
 
 def _do_chat_ask(args: dict) -> dict:
@@ -572,7 +572,7 @@ def _do_chat_ask(args: dict) -> dict:
     pipeline = RAGPipeline(
         textual_search=_get_textual(),
         semantic_search=_get_semantic(),
-        neo4j_client=_get_neo4j(),
+        graph_client=_get_graph(),
         profile_store=_get_profile_store(),
     )
     result = pipeline.ask(
@@ -625,21 +625,21 @@ def _do_chat_classify(args: dict) -> dict:
 def _do_corpus_status() -> dict:
     ts = _get_textual()
     sem = _get_semantic()
-    neo4j = _get_neo4j()
+    graph = _get_graph()
     result = {
         "fts_documents": ts.count_documents(),
         "fts_chunks": ts.count_chunks(),
         "semantic_available": sem is not None,
-        "graph_available": neo4j is not None,
+        "graph_available": graph is not None,
     }
     if sem is not None:
         try:
             result["semantic_vectors"] = sem.count()
         except Exception:
             pass
-    if neo4j is not None:
+    if graph is not None:
         try:
-            summary = neo4j.graph_summary()
+            summary = graph.graph_summary()
             result["graph_nodes"] = summary["total_nodes"]
             result["graph_relationships"] = summary["total_relationships"]
         except Exception:
