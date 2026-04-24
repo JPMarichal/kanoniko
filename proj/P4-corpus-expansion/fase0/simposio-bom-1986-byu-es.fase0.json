@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "sperry-symposium",
+    "book-of-mormon",
+    "1986",
+    "spanish"
+  ],
+  "category": "books",
+  "author": "Various (BYU Sperry Symposium)",
+  "source_url": null,
+  "note": "Simposio BYU agosto 1986 sobre Libro de Mormón (ES)."
+}

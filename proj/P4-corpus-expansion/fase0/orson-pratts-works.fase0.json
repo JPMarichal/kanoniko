@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "19th-century-lds",
+    "doctrinal-pamphlets",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Orson Pratt",
+  "source_url": null,
+  "note": "Orson Pratt (1811-1881), Q12. Orson Pratt's Works — series of doctrinal pamphlets, 1851-1859."
+}

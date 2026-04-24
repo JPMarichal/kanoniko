@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies-center",
+    "regional-studies",
+    "illinois",
+    "nauvoo"
+  ],
+  "category": "history",
+  "author": "Various (BYU RSC)",
+  "source_url": null,
+  "note": "Regional Studies in LDS History: Illinois."
+}

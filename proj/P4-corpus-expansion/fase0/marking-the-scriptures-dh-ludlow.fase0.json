@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "scripture-marking",
+    "byu-religious-studies",
+    "study-method"
+  ],
+  "category": "study-aids",
+  "author": "Daniel H. Ludlow",
+  "source_url": null,
+  "note": "Daniel H. Ludlow. Marking the Scriptures."
+}

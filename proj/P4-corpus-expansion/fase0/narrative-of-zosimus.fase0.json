@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "christian-apocrypha",
+    "rechabites",
+    "pseudepigrapha",
+    "dyc-91"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Anonymous (Christian pseudepig.)",
+  "source_url": null,
+  "note": "Narrative of Zosimus concerning the Life of the Blessed. Pseudepigrafal Christian narrative — citado por Nibley."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "sperry-symposium",
+    "doctrine-and-covenants",
+    "2002",
+    "spanish"
+  ],
+  "category": "books",
+  "author": "Various (BYU Sperry Symposium)",
+  "source_url": null,
+  "note": "Simposio BYU 2002 sobre Doctrina y Convenios (ES)."
+}

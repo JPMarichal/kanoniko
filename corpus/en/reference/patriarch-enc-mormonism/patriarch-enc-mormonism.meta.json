@@ -1,0 +1,32 @@
+{
+  "title": "Patriarch - The Encyclopedia of Mormonism",
+  "author": "Various (Enc. Mormonism)",
+  "book": "Patriarch - The Encyclopedia of Mormonism",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "encyclopedia-of-mormonism",
+    "patriarch",
+    "reference-article"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Patriarch - The Encyclopedia of Mormonism - Various.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "40be5683-8502-4b25-8074-477ff29817b2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Patriarch article from Encyclopedia of Mormonism."
+}

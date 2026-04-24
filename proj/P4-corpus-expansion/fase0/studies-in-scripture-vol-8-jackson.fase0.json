@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "studies-in-scripture-series",
+    "book-of-mormon"
+  ],
+  "category": "books",
+  "author": "Kent P. Jackson (ed.)",
+  "source_url": null,
+  "note": "Kent P. Jackson (ed.). Studies in Scripture, Vol. 8: Alma 30 to Moroni."
+}

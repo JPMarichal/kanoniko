@@ -1,0 +1,33 @@
+{
+  "title": "Women_s Voices",
+  "author": "Various (eds.)",
+  "book": "Women_s Voices",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "lds-women",
+    "anthology",
+    "historical-voices",
+    "primary-source"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Women_s Voices - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "23356060-5ac6-4d14-8a41-3542f0188425",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Women's Voices: LDS women's historical writings anthology."
+}

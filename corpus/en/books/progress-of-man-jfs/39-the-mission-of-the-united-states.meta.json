@@ -1,0 +1,32 @@
+{
+  "title": "The Mission of the United States",
+  "author": "Joseph Fielding Smith",
+  "book": "Progress of Man",
+  "chapter": 39,
+  "total_chapters": 43,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "prophet-authored",
+    "progress",
+    "evolution-debate"
+  ],
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Progress of Man - Joseph Fielding Smith.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f028ffb1-2e84-4294-86fc-dcbabdf89bea",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. Joseph Fielding Smith (1876-1972). The Progress of Man, 1936/1964."
+}

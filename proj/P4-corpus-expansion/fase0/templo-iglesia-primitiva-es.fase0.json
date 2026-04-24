@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "early-christian-temple",
+    "patristic-temple-studies",
+    "spanish"
+  ],
+  "category": "books",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "El templo en la Iglesia Primitiva (ES)."
+}

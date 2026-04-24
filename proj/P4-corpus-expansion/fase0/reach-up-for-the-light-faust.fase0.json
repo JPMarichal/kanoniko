@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-authored",
+    "light",
+    "discipleship"
+  ],
+  "category": "books",
+  "author": "James E. Faust",
+  "source_url": null,
+  "note": "Pres. James E. Faust (1920-2007), Second Counselor. Reach Up for the Light."
+}

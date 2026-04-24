@@ -1,0 +1,31 @@
+{
+  "title": "Homesickness",
+  "author": "Anonymous",
+  "book": "Moment_s Pause",
+  "chapter": 93,
+  "total_chapters": 123,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "devotional",
+    "reflection"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Moment_s Pause - No specific author.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f113aebe-ae73-4ed2-96b7-7404679b149c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "A Moment's Pause (devotional fragment)."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "sermons-compilation"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding Smith",
+  "source_url": null,
+  "note": "Pres. Joseph Fielding Smith. Take Heed to Yourselves — sermon compilation."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "progress",
+    "evolution-debate"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding Smith",
+  "source_url": null,
+  "note": "Pres. Joseph Fielding Smith (1876-1972). The Progress of Man, 1936/1964."
+}

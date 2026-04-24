@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "women",
+    "sisters"
+  ],
+  "category": "books",
+  "author": "Spencer W. Kimball",
+  "source_url": null,
+  "note": "Pres. Spencer W. Kimball. My Beloved Sisters, 1979."
+}

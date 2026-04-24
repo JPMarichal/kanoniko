@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mesoamerican",
+    "kiche-maya",
+    "creation-myth",
+    "primary-source",
+    "book-of-mormon-context"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Anonymous (K'iche' Maya)",
+  "source_url": null,
+  "note": "Popol Vuh (ES). Texto sagrado K'iche' Maya, con posibles conexiones con el Libro de Mormón (mesoamerica)."
+}

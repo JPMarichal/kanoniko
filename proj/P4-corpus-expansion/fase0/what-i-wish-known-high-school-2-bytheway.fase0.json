@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-popular",
+    "youth",
+    "teens",
+    "humor"
+  ],
+  "category": "books",
+  "author": "John Bytheway",
+  "source_url": null,
+  "note": "John Bytheway. What I Wish I'd Known in High School: The Second Semester."
+}

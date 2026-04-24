@@ -1,0 +1,33 @@
+{
+  "title": "Part Two",
+  "author": "Various (BYU RSC)",
+  "book": "Regional Studies in LDS History, Illinois",
+  "chapter": 19,
+  "total_chapters": 21,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "byu-religious-studies-center",
+    "regional-studies",
+    "illinois",
+    "nauvoo"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Regional Studies in LDS History, Illinois - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0149fb59-4a93-41d3-911f-5134780f103f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Regional Studies in LDS History: Illinois."
+}

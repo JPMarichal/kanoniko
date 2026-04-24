@@ -1,0 +1,32 @@
+{
+  "title": "The Two Davids",
+  "author": "Rodney Turner",
+  "book": "The Two Davids",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-religious-studies",
+    "david-of-old",
+    "david-o-mckay"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/The Two Davids - Rodney Turner.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d789e390-4789-43f3-9200-ea5c0cf72f7a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Rodney Turner, BYU. The Two Davids."
+}

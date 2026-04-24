@@ -1,0 +1,32 @@
+{
+  "title": "The Prophet of Palmyra",
+  "author": "Various",
+  "book": "The Prophet of Palmyra",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "palmyra",
+    "19th-century"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Prophet of Palmyra, The - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "91838412-ee07-410b-b32e-f9019132e5d8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "The Prophet of Palmyra (biographical-historical work on Joseph Smith)."
+}

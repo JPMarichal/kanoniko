@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "reynolds-cahoon",
+    "cahoon-family",
+    "19th-century-lds",
+    "pioneer-biography"
+  ],
+  "category": "biographies",
+  "author": "Various (Cahoon family, eds.)",
+  "source_url": null,
+  "note": "Reynolds Cahoon (1790-1861) and His Stalwart Sons — family biographical compilation."
+}

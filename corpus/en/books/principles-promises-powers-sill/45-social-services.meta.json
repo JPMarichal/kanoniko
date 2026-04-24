@@ -1,0 +1,31 @@
+{
+  "title": "Social Services",
+  "author": "Sterling W. Sill",
+  "book": "Principles, Promises, and Powers",
+  "chapter": 45,
+  "total_chapters": 53,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "seventy-authored",
+    "gospel-living"
+  ],
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Principles, Promises, and Powers - Sterling W Sill.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "739f0e00-2881-42ad-84ff-3ba743923e75",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Sterling W. Sill (1903-1994), Seventy. Principles, Promises, and Powers."
+}

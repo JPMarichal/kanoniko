@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mormon-family-memoir",
+    "20th-century"
+  ],
+  "category": "biographies",
+  "author": "Various",
+  "source_url": null,
+  "note": "Windows: A Mormon Family (family memoir anthology)."
+}

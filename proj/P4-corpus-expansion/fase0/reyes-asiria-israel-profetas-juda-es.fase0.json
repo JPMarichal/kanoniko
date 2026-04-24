@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ot-kings",
+    "chronology",
+    "biblical-chart",
+    "spanish"
+  ],
+  "category": "reference",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "Reyes de Asiria, Israel, Profetas y Reyes de Judá (ES chronological chart)."
+}

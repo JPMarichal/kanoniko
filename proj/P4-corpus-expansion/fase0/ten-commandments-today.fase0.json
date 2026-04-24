@@ -1,0 +1,17 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ten-commandments",
+    "pamphlet"
+  ],
+  "category": "reference",
+  "author": "Anonymous",
+  "source_url": null,
+  "note": "Ten Commandments Today (pamphlet)."
+}

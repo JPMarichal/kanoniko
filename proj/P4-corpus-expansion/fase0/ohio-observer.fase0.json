@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century",
+    "ohio",
+    "newspaper",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Various",
+  "source_url": null,
+  "note": "The Ohio Observer — 19th-c newspaper relevant to Kirtland-era LDS context."
+}

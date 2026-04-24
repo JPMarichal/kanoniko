@@ -1,0 +1,31 @@
+{
+  "title": "Mariah Pulsipher, Autobiography, Kenneth Hales, Windows",
+  "author": "Various",
+  "book": "Windows, A Mormon Family",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "mormon-family-memoir",
+    "20th-century"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Windows, A Mormon Family - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bc9b9f17-e468-4d2b-a34d-423996143836",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Windows: A Mormon Family (family memoir anthology)."
+}

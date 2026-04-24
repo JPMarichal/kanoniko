@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "william-smith",
+    "smith-family",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "William Smith et al.",
+  "source_url": null,
+  "note": "William Smith On Mormonism (1883). William Smith (1811-1893), apóstol y hermano del profeta."
+}

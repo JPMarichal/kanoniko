@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "parenting",
+    "charity",
+    "family-values"
+  ],
+  "category": "books",
+  "author": "Richard Eyre & Linda Eyre",
+  "source_url": null,
+  "note": "Richard & Linda Eyre. Teaching Your Children Charity."
+}

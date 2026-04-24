@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lds-women",
+    "anthology",
+    "historical-voices",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Various (eds.)",
+  "source_url": null,
+  "note": "Women's Voices: LDS women's historical writings anthology."
+}

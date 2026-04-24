@@ -1,0 +1,32 @@
+{
+  "title": "El papel de",
+  "author": "N. Eldon Tanner",
+  "book": "El papel de la mujer",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "discourses",
+  "subcategory": null,
+  "tags": [
+    "first-presidency-authored",
+    "women",
+    "spanish-discourse"
+  ],
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/papel de la mujer, El - N. Eldon Tanner.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-07-13T16:59:39+00:00",
+  "opf_identifier": "85dcc024-7fa2-408d-9fc2-638f81996780",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. N. Eldon Tanner. El papel de la mujer."
+}

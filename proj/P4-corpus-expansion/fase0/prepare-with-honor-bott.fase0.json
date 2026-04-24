@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "missionary-preparation"
+  ],
+  "category": "books",
+  "author": "Randy L. Bott",
+  "source_url": null,
+  "note": "Randy L. Bott, BYU. Prepare with Honor."
+}

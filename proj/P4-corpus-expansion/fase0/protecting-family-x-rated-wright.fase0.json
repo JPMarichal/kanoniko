@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "family-protection",
+    "media-literacy",
+    "parenting"
+  ],
+  "category": "books",
+  "author": "Randal A. Wright",
+  "source_url": null,
+  "note": "Randal A. Wright. Protecting Your Family in an X-Rated World."
+}

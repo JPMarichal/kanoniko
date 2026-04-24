@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-3rd-century",
+    "ante-nicene",
+    "clement-of-alexandria",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Clement of Alexandria",
+  "source_url": null,
+  "note": "Clement of Alexandria. Stromata (Miscellanies). Major theological work."
+}

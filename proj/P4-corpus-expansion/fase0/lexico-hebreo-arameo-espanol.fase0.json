@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hebrew-lexicon",
+    "aramaic-lexicon",
+    "biblical-languages",
+    "spanish"
+  ],
+  "category": "reference",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "Léxico hebreo-español y arameo-español (ES)."
+}

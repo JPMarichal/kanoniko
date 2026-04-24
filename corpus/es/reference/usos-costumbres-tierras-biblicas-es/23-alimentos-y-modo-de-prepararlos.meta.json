@@ -1,0 +1,33 @@
+{
+  "title": "Alimentos y Modo de Prepararlos",
+  "author": "Desconocido",
+  "book": "Usos y costumbres de las tierras bíblicas",
+  "chapter": 23,
+  "total_chapters": 139,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "bible-customs",
+    "ancient-near-east",
+    "cultural-background",
+    "spanish"
+  ],
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Usos y costumbres de las tierras bíblicas - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "c3220978-28dd-46ab-8486-0543694d526b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Usos y costumbres de las tierras bíblicas (ES)."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-authored",
+    "ministering"
+  ],
+  "category": "books",
+  "author": "James E. Faust",
+  "source_url": null,
+  "note": "Pres. James E. Faust. To Reach Even unto You."
+}

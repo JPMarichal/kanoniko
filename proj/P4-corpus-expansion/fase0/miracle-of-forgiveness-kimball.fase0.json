@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "repentance",
+    "forgiveness",
+    "classic"
+  ],
+  "category": "books",
+  "author": "Spencer W. Kimball",
+  "source_url": null,
+  "note": "Pres. Spencer W. Kimball. The Miracle of Forgiveness, 1969 — classic doctrinal work."
+}

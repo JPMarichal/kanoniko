@@ -1,0 +1,33 @@
+{
+  "title": "Martyrdom of the Holy Martyrs",
+  "author": "Anonymous",
+  "book": "Martyrdom of the Holy Martyrs",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "martyrdom",
+    "primary-source"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Martyrdom of the Holy Martyrs - No specific author.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "a2b6efc8-143b-413f-8513-92db54fd4a88",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Martyrdom of the Holy Martyrs Justin, Chariton, et al."
+}

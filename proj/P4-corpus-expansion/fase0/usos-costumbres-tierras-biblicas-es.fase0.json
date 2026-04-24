@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-customs",
+    "ancient-near-east",
+    "cultural-background",
+    "spanish"
+  ],
+  "category": "reference",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "Usos y costumbres de las tierras bíblicas (ES)."
+}

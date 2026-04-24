@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "zion",
+    "gathering"
+  ],
+  "category": "books",
+  "author": "Alexander B. Morrison",
+  "source_url": null,
+  "note": "Elder Alexander B. Morrison, Seventy. Visions of Zion."
+}

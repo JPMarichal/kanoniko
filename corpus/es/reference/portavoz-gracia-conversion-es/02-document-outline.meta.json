@@ -1,0 +1,33 @@
+{
+  "title": "Document Outline",
+  "author": "Desconocido (evangelical periodical)",
+  "book": "Portavoz de la gracia: Conversión",
+  "chapter": 2,
+  "total_chapters": 2,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical-periodical",
+    "conversion",
+    "spanish",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Portavoz de la gracia_ Conversión - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": "2014-02-06T16:24:29+00:00",
+  "opf_identifier": "25f793b3-3800-404d-babc-518c713c6a49",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Portavoz de la Gracia: Conversión."
+}

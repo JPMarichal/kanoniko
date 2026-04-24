@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ethan-smith",
+    "view-of-hebrews",
+    "1825",
+    "primary-source",
+    "book-of-mormon-sources-debate"
+  ],
+  "category": "history",
+  "author": "Charles D. Tate (ed.)",
+  "source_url": null,
+  "note": "Ethan Smith (1762-1849), ed. Charles D. Tate. A View of the Hebrews, 1825 2nd edition — frequently cited in BoM-sources discussions."
+}

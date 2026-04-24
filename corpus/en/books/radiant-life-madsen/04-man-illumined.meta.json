@@ -1,0 +1,32 @@
+{
+  "title": "Man Illumined",
+  "author": "Truman G. Madsen",
+  "book": "Radiant Life",
+  "chapter": 4,
+  "total_chapters": 11,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-philosophy",
+    "gospel-living",
+    "classic-byu-devotional"
+  ],
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Radiant Life - Truman G Madsen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "384a581c-728a-4a16-b4e5-c74d1ba6bd0e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Truman G. Madsen (1926-2009), BYU. Radiant Life."
+}

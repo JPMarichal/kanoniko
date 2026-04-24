@@ -1,0 +1,33 @@
+{
+  "title": "EL TESTAMENTO DE NAFTALÍ, OCTAVO HIJO DE JACOB Y BILHA",
+  "author": "Desconocido (pseudepigraphic)",
+  "book": "Testamento de los Doce Patriarcas",
+  "chapter": 10,
+  "total_chapters": 15,
+  "category": "scriptures-apocrypha",
+  "subcategory": null,
+  "tags": [
+    "ot-pseudepigrapha",
+    "testaments-12-patriarchs",
+    "second-temple",
+    "dyc-91"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Testamento de los Doce Patriarcas - Desconocido.epub",
+  "opf_publisher": "Elejandría",
+  "opf_date": "2022-11-18T06:00:00+00:00",
+  "opf_identifier": "155ff08c-9b01-4282-99c2-c00fca60d451",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Testamento de los Doce Patriarcas (ES) — pseudepígrafo del AT, referido por Joseph Smith."
+}

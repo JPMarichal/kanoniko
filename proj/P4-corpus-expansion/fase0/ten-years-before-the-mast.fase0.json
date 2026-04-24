@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seafaring",
+    "19th-century",
+    "memoir"
+  ],
+  "category": "history",
+  "author": "Various",
+  "source_url": null,
+  "note": "Ten Years Before the Mast (seafaring memoir, 19th-c)."
+}

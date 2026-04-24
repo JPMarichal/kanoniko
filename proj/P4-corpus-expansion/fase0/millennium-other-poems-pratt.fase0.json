@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "19th-century-lds",
+    "poetry",
+    "eternal-matter",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Parley P. Pratt",
+  "source_url": null,
+  "note": "Parley P. Pratt. The Millennium and Other Poems — with essay on Eternal Duration of Matter, 1840."
+}

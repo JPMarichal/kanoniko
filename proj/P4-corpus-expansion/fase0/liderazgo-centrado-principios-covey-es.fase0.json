@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "self-help",
+    "lds-author",
+    "leadership",
+    "bestseller"
+  ],
+  "category": "reference",
+  "author": "Stephen R. Covey",
+  "source_url": null,
+  "note": "Stephen R. Covey. Liderazgo centrado en principios (ES translation of Principle-Centered Leadership)."
+}

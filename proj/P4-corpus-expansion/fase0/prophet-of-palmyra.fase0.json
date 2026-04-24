@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "palmyra",
+    "19th-century"
+  ],
+  "category": "biographies",
+  "author": "Various",
+  "source_url": null,
+  "note": "The Prophet of Palmyra (biographical-historical work on Joseph Smith)."
+}

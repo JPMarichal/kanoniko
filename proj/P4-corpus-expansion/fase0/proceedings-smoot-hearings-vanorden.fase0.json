@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "smoot-hearings",
+    "reed-smoot",
+    "senate-proceedings",
+    "early-20th-century-lds",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Bruce A. Van Orden (ed.)",
+  "source_url": null,
+  "note": "Bruce A. Van Orden (ed.). Proceedings before the Committee on Privileges re Reed Smoot."
+}

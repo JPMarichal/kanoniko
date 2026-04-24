@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ot-kings",
+    "history-israel-judah",
+    "spanish"
+  ],
+  "category": "reference",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "Los Reyes de Israel y Judá: Una guía fascinante (ES)."
+}

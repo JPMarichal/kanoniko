@@ -1,0 +1,31 @@
+{
+  "title": "Habakkuk",
+  "author": "Victor L. Ludlow",
+  "book": "Unlocking the Old Testament",
+  "chapter": 34,
+  "total_chapters": 39,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "old-testament",
+    "byu-academic"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Unlocking the Old Testament - Victor L Ludlow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "1ef85524-c57f-4170-8a76-869086372ecf",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Victor L. Ludlow. Unlocking the Old Testament, 1981."
+}

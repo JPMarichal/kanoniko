@@ -1,0 +1,33 @@
+{
+  "title": "Introduction",
+  "author": "Various (BYU RSC)",
+  "book": "Regional Studies in LDS History, Missouri",
+  "chapter": 1,
+  "total_chapters": 19,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "byu-religious-studies-center",
+    "regional-studies",
+    "missouri",
+    "far-west"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Regional Studies in LDS History, Missouri - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d1291ef5-be5b-4fdc-859b-e3554dafb882",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Regional Studies in LDS History: Missouri."
+}

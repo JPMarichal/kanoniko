@@ -1,0 +1,32 @@
+{
+  "title": "Tabla de Contenido",
+  "author": "Desconocido",
+  "book": "Los Reyes de Israel y Judá: Una guía fascinante del antiguo reino judío de David y Salomón, la monarquía dividida y las conquistas asirias y babilónicas de Samaria y Jerusalén",
+  "chapter": 3,
+  "total_chapters": 20,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "ot-kings",
+    "history-israel-judah",
+    "spanish"
+  ],
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Reyes de Israel y Judá_ Una guía fascinante del anilónicas de Samaria y Jerusalén, Los - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": "2020-06-15T06:00:00+00:00",
+  "opf_identifier": "0bd76697-66e0-4ae0-9f82-4e717bafc11b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Los Reyes de Israel y Judá: Una guía fascinante (ES)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "2-nephi",
+    "book-of-mormon"
+  ],
+  "category": "books",
+  "author": "Charles D. Tate (ed.)",
+  "source_url": null,
+  "note": "Charles D. Tate Jr. (ed.), BYU. Second Nephi: The Doctrinal Structure."
+}

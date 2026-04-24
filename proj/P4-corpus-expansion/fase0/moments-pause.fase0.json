@@ -1,0 +1,17 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "devotional",
+    "reflection"
+  ],
+  "category": "books",
+  "author": "Anonymous",
+  "source_url": null,
+  "note": "A Moment's Pause (devotional fragment)."
+}

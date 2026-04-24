@@ -1,0 +1,21 @@
+{
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "baptist",
+    "19th-century",
+    "salvation",
+    "non-lds",
+    "spurgeon"
+  ],
+  "category": "reference",
+  "author": "Charles H. Spurgeon",
+  "source_url": null,
+  "note": "Charles H. Spurgeon (1834-1892). El proceso de la salvación (ES)."
+}

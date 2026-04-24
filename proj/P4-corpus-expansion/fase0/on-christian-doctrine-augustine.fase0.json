@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-5th-century",
+    "hermeneutics",
+    "augustine",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Augustine of Hippo",
+  "source_url": null,
+  "note": "Augustine. De Doctrina Christiana (On Christian Doctrine), c. 397-426. Foundational hermeneutic work."
+}

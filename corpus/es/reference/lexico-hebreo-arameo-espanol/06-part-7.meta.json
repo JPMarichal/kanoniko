@@ -1,0 +1,33 @@
+{
+  "title": "Part 7",
+  "author": "Desconocido",
+  "book": "Léxico hebreo-español y arameo-español",
+  "chapter": 6,
+  "total_chapters": 8,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "hebrew-lexicon",
+    "aramaic-lexicon",
+    "biblical-languages",
+    "spanish"
+  ],
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Léxico hebreo-español y arameo-español - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "39ceede6-6857-4c89-b029-310fc7a94957",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Léxico hebreo-español y arameo-español (ES)."
+}

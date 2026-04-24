@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "ot-apocrypha",
+    "sefer-hayashar",
+    "book-of-jasher",
+    "joshua-2-samuel",
+    "dyc-91"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Desconocido (pseudepig.)",
+  "source_url": null,
+  "note": "El Libro de Jaser (Sefer HaYashar) ES — referenciado en Josué 10:13 y 2 Samuel 1:18."
+}

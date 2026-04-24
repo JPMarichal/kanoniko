@@ -1,0 +1,32 @@
+{
+  "title": "Book of Mormon Outline of Helaman",
+  "author": "Desconocido",
+  "book": "Outline of Book of Mormon",
+  "chapter": 15,
+  "total_chapters": 19,
+  "category": "study-aids",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "study-outline",
+    "study-aid"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Outline of Book of Mormon - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": "2007-10-01T06:29:51+00:00",
+  "opf_identifier": "5d8283da-2d96-4736-bd66-027dc6edea9b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Outline of Book of Mormon."
+}

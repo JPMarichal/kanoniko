@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "happiness",
+    "mid-20th-century"
+  ],
+  "category": "books",
+  "author": "David O. McKay",
+  "source_url": null,
+  "note": "Pres. David O. McKay (1873-1970). Pathways to Happiness."
+}

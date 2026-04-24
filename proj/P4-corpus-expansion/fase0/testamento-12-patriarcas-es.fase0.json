@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "ot-pseudepigrapha",
+    "testaments-12-patriarchs",
+    "second-temple",
+    "dyc-91"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Desconocido (pseudepigraphic)",
+  "source_url": null,
+  "note": "Testamento de los Doce Patriarcas (ES) — pseudepígrafo del AT, referido por Joseph Smith."
+}

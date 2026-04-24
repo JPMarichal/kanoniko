@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "old-testament",
+    "prophets"
+  ],
+  "category": "books",
+  "author": "Sidney B. Sperry",
+  "source_url": null,
+  "note": "Sidney B. Sperry. The Voice of Israel's Prophets, 1952."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "gospel-living"
+  ],
+  "category": "books",
+  "author": "Sterling W. Sill",
+  "source_url": null,
+  "note": "Elder Sterling W. Sill (1903-1994), Seventy. Principles, Promises, and Powers."
+}

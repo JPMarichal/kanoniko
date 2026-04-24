@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-authored",
+    "fullness-of-gospel",
+    "spanish-discourse"
+  ],
+  "category": "discourses",
+  "author": "N. Eldon Tanner",
+  "source_url": null,
+  "note": "Pres. N. Eldon Tanner (1898-1982), First Presidency. Tenemos el evangelio en su plenitud."
+}

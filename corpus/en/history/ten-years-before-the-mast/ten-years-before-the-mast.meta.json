@@ -1,0 +1,32 @@
+{
+  "title": "Ten Years Before the Mast",
+  "author": "Various",
+  "book": "Ten Years Before the Mast",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "seafaring",
+    "19th-century",
+    "memoir"
+  ],
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Ten Years Before the Mast - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f8a137a6-6f93-4f0d-bfc9-996d1641a028",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Ten Years Before the Mast (seafaring memoir, 19th-c)."
+}

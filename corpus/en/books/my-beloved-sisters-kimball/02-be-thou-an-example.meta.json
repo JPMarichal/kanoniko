@@ -1,0 +1,32 @@
+{
+  "title": "\"Be Thou an Example\"",
+  "author": "Spencer W. Kimball",
+  "book": "My Beloved Sisters",
+  "chapter": 2,
+  "total_chapters": 2,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "prophet-authored",
+    "women",
+    "sisters"
+  ],
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/My Beloved Sisters - Spencer W Kimball.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "8dc48ed1-f017-406d-bb09-dd0ff10128c3",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. Spencer W. Kimball. My Beloved Sisters, 1979."
+}

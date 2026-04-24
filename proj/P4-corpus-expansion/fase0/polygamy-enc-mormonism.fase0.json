@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "encyclopedia-of-mormonism",
+    "polygamy",
+    "reference-article"
+  ],
+  "category": "reference",
+  "author": "Various (Enc. Mormonism)",
+  "source_url": null,
+  "note": "Polygamy article from Encyclopedia of Mormonism."
+}

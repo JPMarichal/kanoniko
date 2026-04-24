@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "adam",
+    "first-man"
+  ],
+  "category": "books",
+  "author": "Robert L. Millet & Joseph Fielding McConkie",
+  "source_url": null,
+  "note": "Millet & J.F. McConkie. The Man Adam."
+}

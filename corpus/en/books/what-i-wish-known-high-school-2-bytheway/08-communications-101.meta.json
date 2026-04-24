@@ -1,0 +1,33 @@
+{
+  "title": "Communications 101",
+  "author": "John Bytheway",
+  "book": "What I Wish I_d Known in High School, The Second Semester",
+  "chapter": 8,
+  "total_chapters": 10,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-popular",
+    "youth",
+    "teens",
+    "humor"
+  ],
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/What I Wish I_d Known in High School, The Second Semester - John Bytheway.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "dd8805e7-6451-4d10-8dc4-6921387b48bb",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "John Bytheway. What I Wish I'd Known in High School: The Second Semester."
+}

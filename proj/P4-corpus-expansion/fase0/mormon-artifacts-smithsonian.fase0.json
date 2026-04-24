@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "artifacts",
+    "smithsonian",
+    "exhibition"
+  ],
+  "category": "reference",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "Mormon Artifacts on Display at the Smithsonian (exhibition notes)."
+}

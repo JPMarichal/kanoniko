@@ -1,0 +1,32 @@
+{
+  "title": "Notas",
+  "author": "Desconocido",
+  "book": "El templo en la Iglesia Primitiva",
+  "chapter": 4,
+  "total_chapters": 18,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "early-christian-temple",
+    "patristic-temple-studies",
+    "spanish"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/templo en la Iglesia Primitiva, El - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4e77305e-1608-4a76-8c12-f75c0aa5036a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "El templo en la Iglesia Primitiva (ES)."
+}

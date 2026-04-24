@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "dissertations",
+    "early-20th-century-lds"
+  ],
+  "category": "books",
+  "author": "Orson F. Whitney",
+  "source_url": null,
+  "note": "Elder Orson F. Whitney (1855-1931), Q12. Saturday Night Thoughts, 1921."
+}

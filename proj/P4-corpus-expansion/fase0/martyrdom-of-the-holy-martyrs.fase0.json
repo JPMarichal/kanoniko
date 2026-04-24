@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "martyrdom",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Anonymous",
+  "source_url": null,
+  "note": "Martyrdom of the Holy Martyrs Justin, Chariton, et al."
+}

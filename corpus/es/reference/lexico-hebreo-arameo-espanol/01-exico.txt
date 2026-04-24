@@ -1,0 +1,1381 @@
+LÉXICO
+
+HEBREO-ESPAÑOL
+
+Y ARAMEO-ESPAÑOL
+
+INTRODUCCIÓN
+
+Este Léxico contiene todo el vocabulario hebreo y arameo de la Biblia, incluyendo los fragmentos
+
+que se conservan del Eclesiástico (Sirácida). En la mayoría de los casos solamente se presentan las
+
+formas básicas, es decir, el estado absoluto en singular de los sustantivos, la forma del masculino de los
+
+adjetivos, y la forma Qal de los verbos. Solo para algunas palabras que tienen formas derivadas
+
+irregulares (estado constructo, plural, conjugaciones verbales) y son de uso frecuente se señalan las más
+
+importantes. Se han incluido también algunas formas irregulares más frecuentes y más difíciles para el
+
+estudiante. Para algunas palabras se ha indicado el plural o el estado constructo de los sustantivos, o la
+
+forma que estos adoptan cuando van con un sufijo. Generalmente se ha indicado la forma con el sufijo
+
+de tercera persona masculina (“de él”), aunque a veces sea solo hipotética. Lo mismo se ha hecho con
+
+las conjugaciones: solo se han indicado expresamente, además de la forma básica (el perfecto Qal),
+
+algunas formas irregulares más usadas. Para facilitar la pronunciación de los radicales verbales, se han
+
+puesto en todos los verbos las vocales del perfecto Qal, aunque sean solo hipotéticas. En este caso la
+
+forma verbal va seguida de un asterisco (*).
+
+Después de cada palabra hebrea de la lista alfabética se indica la pronunciación, en transcripción
+
+convencional para las consonantes y simplificada para las vocales; también se indica la pronunciación
+
+en algunos otros casos en que esta puede ofrecer duda al principiante.
+
+Como traducción española se señalan las acepciones más importantes, sin pretender abarcar todos
+
+los matices que tienen las palabras hebreas ni los sinónimos castellanos.
+
+Los casos en que a una misma forma gráfica corresponden diversas raíces se señalan con números
+
+romanos (I, II...).
+
+Se ha incluido una selección de nombres propios cuyos equivalentes españoles no son obvios. Solo en muy contados casos se citan los textos bíblicos.
+
+TRANSCRIPCIÓN
+
+Para las consonantes hebreas se usa el sistema habitual de transcripción, a saber:
+
+˒ ˒ alef l
+
+lamed
+
+b bet m mem
+
+g gimel n
+
+nun
+
+d dalet s
+
+samek
+
+h he ˒
+
+˒ ayin
+
+˒ he + mappiq p
+
+pe
+
+w waw ˒ ˒ ade
+
+z zayin q
+
+qof
+
+˒ ˒ et r reš
+
+˒ ˒ et ś ś in
+
+y yod š š in
+
+k kaf t
+
+taw
+
+Las consonantes reduplicadas se escriben dobles.
+
+La pronunciación de las vocales se ha simplificado como sigue: a = qame˒ , patah, ˒ atef pata˒
+
+e = ˒ ere, segol, ˒ a˒ ef segol, shewa mobile
+
+o = waw i = ˒ ireq qa˒ on, ˒ ireq gadol
+
+u = š ˒ olem, ˒ olem, ˒ a˒ ef qame˒ , qame˒ ˒ a˒ uf
+
+ureq, qibbu˒
+
+ABREVIATURAS
+
+* forma hipotética
+
+→ véase
+
+(?) traducción dudosa
+
+adj. adjetivo
+
+adv. adverbio
+
+Af. Afel
+
+ap. apocopado
+
+colect. colectivo
+
+cstr. constructo
+
+enf. enfático
+
+fem. femenino
+
+Haf. Hafel
+
+Hi. Hifil
+
+Hitp. Hitpael
+
+Hitpa Hitpaal
+
+Hitpe Hitpeal
+
+Hof. Hofal
+
+Itpa. Itpaal
+
+Itpe. Itpeel
+
+masc. masculino
+
+Ni. Nifal
+
+Pa. Pael
+
+part. participio
+
+partíc. partícula
+
+pas. pasivo
+
+Pe. Peal
+
+Pi. Piel
+
+pl. plural
+
+prep. preposición
+
+pron. pronombre
+
+Pu. Pual
+
+Q. Qal
+
+sust. sustantivo
+
+var. variante
+
+DICCIONARIOS CONSULTADOS:
+
+ALONSOSCHÖKEL, L.,Diccionario bíblico hebreo-español. Madrid 1994. BROWN, F., DRIVER, S. R. & BRIGGS, C. A., Hebrew and English Lexicon of the Old Testament. Oxford
+
+1968.
+
+FOHRER, G., Hebräisches und aramäisches Wörterbuch zum Alten Testament. Berlin-New York 1971. KÖHLER, L., BAUMGARTNER, W. & STAMM, J. K.,Hebräisches und aramäisches Lexikon zum Alten
+
+Testament.Leiden etc. 1967-1990.
+
+VOGT, E., Lexicon Linguae Aramaicae Veteris Testamenti. Roma 1971. ZORELL, F., Lexicon Hebraicum Veteris Testamenti. Roma 1940ss.
+
+Léxico
+
+Hebreo-Español
+
+א[ ]
+
+באָ [ ˒ ab] (pl. תוֹ באָ ) padre, antepasado .
+
+בֵ א [ ˒ eb] (וֹ בִּ א ) retoño, brote, planta.
+
+דַ באָ [ ˒ abad]Q.perderse, vagar, perecer; Pi.hacer perderse, hacer perecer, exterminar, destruir; Hi.
+
+exterminar.
+
+דֵ בֹ א [ ˒ obed] siempre. הָ דֵ בֲ א [ ˒ abedah ] cosa perdida. הֹ דַּ בֲ א [ ˒ abaddoh] perdición.
+
+ן וֹ דַּ בֲ א [ ˒ abaddon] perdición, reino de los muertos. ן דְ ָ באַ [ ˒ abdan] perdición.
+
+ן דְ ָ באָ [ ˒ obdan] perdición.
+
+ה ָ באָ [ ˒ abah]Q.querer, desear.
+
+הֶ בֵ א [ ˒ ebeh] junco, caña.
+
+י וֹ בֲ א [ ˒ aboy] lamento, ¡ay!
+
+סוּ בֵ א [ ˒ ebus] pesebrera, establo.
+
+הָ חְ בִ א [ ˒ ib˒ ah] matanza.
+
+ַ חִ טַּ בֲ א [ ˒ aba˒ ˒ ía˒] sandía.
+
+pl. plural
+
+Q.Qal
+
+Pi. Piel
+
+Hi.Hifil
+
+י באָ ִ [ ˒ abi] ojalá.
+
+בי באָ ִ [ ˒ abib] espigas; abib (mes).
+
+ן וֹ י בֶ ְ א [ ˒ ebyon] pobre, miserable. הָ נ וֹ יּ בֲ ִ א [ ˒ abiyyonah ] alcaparro. רי באָ ִ [ ˒ abir] fuerte, poderoso, defensor.
+
+רי בּאַ ִ [ ˒ abbir] adj. fuerte, poderoso, noble; sust. fuerte; ser celestial; caballo, toro. * ְ ךַ באָ [ ˒ abak]Hitp.levantar en torbellinos.
+
+לַ באָ [ ˒ abal]Q.lamentar(se), hacer lamentaciones; marchitarse; Hi.(לי בֱ ִ אֶ ה ) incitar a hacer
+
+lamentaciones; Hitp.ponerse triste, llorar.
+
+לָ בֲ א [ ˒ abal] sin duda, realmente; no, sino, sin embargo, pero. לֵ באָ [ ˒ abel] doliente, que se lamenta.
+
+לֶ בֵ א [ ˒ ébel] luto, duelo.
+
+לָ בֻ א [ ˒ ubal] conducto de agua, canal.
+
+ן בֶ ֶ א [ ˒ ében] (וֹ נ באַ ְ ; pl.םי ִ נ בֲ ָ א ) piedra, roca, peso, rueda de piedra. ן בֹ ֶ א [ ˒ óben] (dual) sexo; torno (de alfarero).
+
+טֵ נ באַ ְ [ ˒ abne˒] faja.
+
+סַ באָ [ ˒ abas]Q.part. pas. (סוּ באָ ) cebado, gordo.
+
+תֹ עֻ ב ְ עַ בֲ א [ ˒ aba˒ bu˒ ot] llagas, pústulas. קָ באָ [ ˒ abaq] polvo fino.
+
+*קַ באָ [ ˒ abaq]Ni.luchar. הָ קָ בֲ א [ ˒ abaqah ] polvo de condimento. *רַ באָ [ ˒ abar]Hi.enseñar a volar.
+
+רֶ בֵ א [ ˒ éber] alas.
+
+הָ רְ בֶ א [ ˒ ebrah] alas.
+
+ְ ךֵ רְ באַ [ ˒ abrek] primer ministro (?).
+
+הָ דּ ֻ ג א ֲ [ ˒ aguddah] haz, manojo, grupo apretado, cuerda.
+
+adj. adjetivo
+
+sust. sustantivo
+
+* forma hipotética
+
+Hitp.Hitpael
+
+part. participio
+
+pas. pasivo
+
+Ni.Nifal
+
+(?) traducción dudosa
+
+ז וֹ ג א ֱ [ ˒ egoz] nuez.
+
+הָ רוֹ גֲ א [ ˒ agorah] jornal, pago.
+
+לֶ ג א ֵ [ ˒ égel] gota. םַ ג א ֲ [ ˒ agam ] estanque, laguna. םֵ ג אָ[˒ agem] triste, afligido.
+
+ן ֹ מְ ג אַ/ן וֹ מְ ג אַ [ ˒ agmon] junco, caña; cuerda. ן גּ ָ אַ [ ˒ aggan] plato, copa, taza.
+
+ףַ גֲ א [ ˒ agap] alas de un ejército, escuadrones.
+
+רַ ג אָ [ ˒ agar]Q.almacenar, guardar.
+
+לָ טְ רַ ג א ֲ [ ˒ agar˒ al] copa, cesta (?)
+
+ףֹ רְ ג א ֶ [ ˒ egrop] puño.
+
+תֶ רֶ גִּ א [ ˒ iggéret] carta.
+
+דֵ א [ ˒ ed] fuente, corriente subte rránea, vapor (?).
+
+בַ דאָ [ ˒ adab]Q.estar abatido; Hi.hacer miserable.
+
+ן וֹ ד אָ[˒ adon] dueño, señor, amo.
+
+רי ִ דּ אַ [ ˒ addir] poderoso, magnífico.
+
+םָ דאָ [ ˒ adam] hombre, ser(es) humano(s), varón.
+
+םַ דאָ [ ˒ adam]Q.ser rojo, marrón; Pu.ser, estar rojo; Hi. ponerse rojo;Hitp.tener visos rojos. םֹ דאָ [ ˒ adom] rojo, marrón.
+
+םֶ דֹ א [ ˒ ódem] rubí, cornalina (?).
+
+םָ דְּ מַ דֲ א [ ˒ adamdam] rojizo.
+
+הָ מָ דֲ א [ ˒ adamah] tierra, arcilla, campo, terreno. י ִ נ וֹ מְ ד אַ[˒ admoni] moreno, rubio (?).
+
+ן דֶ ֶ א [ ˒ éden] (pl.םי ִ נ דֲ ָ א ) basa, escabel .
+
+*רַ י ָ נ ֹ דֲ א [ ˒ adonay] Señor (ref. a Dios). דאָ
+
+[˒ adar]Ni. ser magnífico, ilustre; Hi. honrar, acreditar.
+
+רָ דֲ א [ ˒ adar] adar (mes).
+
+רֶ דֶ א [ ˒ éder] valor, precio.
+
+םי ִ נ וֹ כְּ רַ דֲ א [ ˒ adarkonim] dracmas, dáricos. תֶ רֶ דּאַ [ ˒ addéret] (וֹ תְּ רַ דּ אַ ) brillo, magnificencia; ropa de gala. שַׁ ד אָ [ ˒ adaš ]Q.trillar.
+
+Pu.Pual
+
+בַ האָ [ ˒ ahab]Q.amar, querer;Ni. ser amado, amable;Pi. amar;Hi. ser amable. בַ האַ [ ˒ áhab] amor, amores.
+
+בַ הֹ א [ ˒ óhab] amor, caricias. א הֹ בֵ [ ˒ oheb ] amigo, amante, aliado. הָ בֲ האַ [ ˒ahabah] amor.
+
+הָּ הֲ א [ ˒ aha˒] ¡ay!
+
+*לַ האָ [ ˒ ahal] I.Hi.brillar; II.Q. acampar; Hi.acampar. לֶ הֹ א[˒ óhel] (וֹ לֳ האָ [˒ oholo]; pl.םי לָ ִ הֹ א ) tienda de campaña, carpa, habitación. תוֹ לָ הֲ א [ ˒ ahalot] áloe.
+
+םי לָ ִ הֲ א [ ˒ ahalim] áloe.
+
+וֹ א[ ˒ o] o, o bien.
+
+בוֹ א [ ˒ ob] I. odre, (recipiente de) cuero; II. fantasma, espíritu (de un muerto). דוּ א [ ˒ ud] tizón.
+
+תוֹ דוֹ א[ ˒ odot] (תוֹ ד וֹ א־ לַ ע ) por causa de. *הָ ו אָ [ ˒ awah]Ni.ser amable;Pi.desear, codiciar;Hitp.estar ávido, anhelar. הָ וּ אַ [ ˒ awwah] deseo, apetito.
+
+י וֹ א [ ˒ oy] ¡ay!, ¡ay de...!
+
+הָ י וֹ א [ ˒ oyah] ¡ay!, ¡ay de...!
+
+לי ִ ו א ֱ [ ˒ ewil] necio, tonto, estúpido (impío).
+
+לוּ א[˒ ul] vientre, cuerpo (?)
+
+י לִ ִ ו א ֱ [ ˒ ewili] torpe, inepto.
+
+י לוּ ַ א[˒ ulay] quizá, ojalá.
+
+םָ לוּ א[ ˒ ulam] I. pero, en cambio; II. atrio, vestíbulo (del templo). תֶ ל ֶ וּ א ִ [ ˒ iwwélet] (וֹ תְּ ל ַ וּ א ִ ) necedad , estupidez (impiedad).
+
+רֶ מוֹ א[˒ ómer] cosa. ן ֶ ו אָ [ ˒ áwen ] fraude, crimen, desgracia . ן וֹ א [ ˒ on] fuerza, vitalidad; fortuna, riqueza.
+
+ן פוֹ ַ א [ ˒ ófan] rueda.
+
+ץוּ א [ ˒ u˒]Q.insistir, urgir, apresurar;Hi. urgir.
+
+רָ צוֹ א [ ˒ o˒ ar] depósito, granero, despensa, tesoro. רוֹ א [ ˒ or]Q.brillar;Ni. ser alumbrado;Hi. (רי אֵ ִ ה ) iluminar, encender. רוֹ א [ ˒ or] luz, resplandor.
+
+רוּ א [ ˒ ur] luz, fuego, fogón.
+
+םי רוּ ִ א [ ˒ urim] suertes.
+
+הָ רוֹ א[ ˒ orah] I. luz; II. malva.
+
+תוֹ רֵ ו א ֲ [ ˒ awerot] establos. תוֹ א [ ˒ ot ] señal, prodigio, presagio. תוּ א [ ˒ ut]Q.consentir.
+
+ז אָ [ ˒ az] entonces.
+
+בוֹ ז א ֵ /בֹ ז א ֵ [ ˒ ezob] hisopo.
+
+רוֹ ז א ֵ [ ˒ ezor] ceñidor, faja, prenda íntima, prenda que cubre de la cintura para abajo. י ַ ז ֲ א [ ˒ azay] entonces.
+
+הָ רָ כּ ְ ז אַ [ ˒ azkarah] obsequio.
+
+לַ ז אָ[˒ azal]Q.irse, agotarse.
+
+*ן ַ ז אָ [ ˒ azan] I.Hi.(ן י ִ ז אֶ ֱ ה ) escuchar , atender; II.Pi.ponderar. ן ֶ ז ֹ א [ ˒ ózen] (dualםִ י ָ נ ְ ז אָ [˒ oznáyim];ו י ָ נ ְ ז אָ ) oreja, oído. ן ֵ ז אָ [ ˒ azen] ajuar, equipo.
+
+םי קִּ ִ ז א ֲ [ ˒ aziqqim] esposas, cadenas .
+
+רַ ז אָ [ ˒ azar]Q.ceñir(se), ponerse el cinturón;Ni. estar ceñido;Pi.ceñir; Hitp.ceñirse. ַ עוֹ רְ ז א ֶ [ ˒ ezróa˒] brazo.
+
+חָ ר ְ ז א ֶ [ ˒ ezra˒] nativo, autóctono.
+
+חאָ [ ˒ a˒] I. hermano, pariente, compañero; II. ¡ay!; III. brasero. ַ חֹ א [ ˒ óa˒] lechuza (?).
+
+דָ חֶ א [ ˒ e˒ ad] (fem.תַ חאַ ) uno, único, primero, cada uno. וּ חאָ [ ˒ a˒ u] junco.
+
+1
+
+הָ ו חאַ ְ [ ˒ a˒ wah] exposición.
+
+הָ ו חאַ ֲ [ ˒ a˒ awah] fraternidad.
+
+רוֹ חאָ [ ˒ a˒ or] atrás, espalda, trasero, occidente, futuro. תוֹ חאָ [ ˒ a˒ ot] hermana, parienta.
+
+ז חאָ ַ [ ˒ a˒ az]Q.agarrar, sujetar, retener;Ni.(ז הֱ ַ אֶ נ ) quedar preso, estar engarzado;Pi. sostener (?).
+
+fem. femenino 1 Ortiz, P., V., S.J. (2000). Lexico Hebreo-Espanol y Arameo-Espanol(electronic ed.). Miami: Sociedades Biblicas
+
+Unidas.
+
+Q.Qal
+
+Ni.Nifal
+
+Pi. Piel
+
+הָ זּ חֲ ֻ א [ ˒ a˒ uzzah] posesión, heredad .
+
+הָ י ְ ז חֲ ַ א [ ˒ a˒ azyah] Ocozías
+
+הָ י לֲ ֵ חאַ ,י לֲ ַ חאַ [ ˒ a˒ alay, ˒ a˒ ale] ojalá. ְ חאַ [ ˒ a˒ lamah ] amatista. מָ ל רַ חאָ [ ˒ a˒ ar]Q.retrasarse;Pi.(רַ חֵ א ) demorarse, retrasar; Hi.retrasarse; Hitp.tardar. י רֲ ֵ חאַ ,רַ חאַ [ ˒ a˒ ar, ˒ a˒ are] detrás (de), después (de). רֵ חאַ [ ˒ a˒ er] otro, diverso, ajeno, segundo.
+
+ן וֹ רֲ חאַ [ ˒ a˒ aron] siguiente, futuro, ocidental, tardío, último. תי רֲ ִ חאַ [ ˒ a˒ arit] final, futuro, extremo , descendencia. תי ִ נּ רֹ ַ חֲ א [ ˒ a˒ orannit] hacia atrás, de espaldas. םי ִ נ פְּ ְ רַ דְּ שַׁ חֲ א [ ˒ a˒ ašdarpenim] sátrapas. שׁוֹ רְ וְ שַׁ חֲ א [ ˒ a˒ ašweroš ] Jerjes.
+
+םי ִ נ רְ ָ תְּ שַׁ חֲ א [ ˒ a˒ ašteranim] imperiales , reales. תַ חאַ [ ˒ a˒ at]→ דָ חֶ א .
+
+טאַ [ ˒ a˒] despacio, suavemente.
+
+דָ טאָ [ ˒ a˒ ad] zarza.
+
+ן וּ טֵ א [ ˒ e˒ un] sábana.
+
+םי טִּ ִ א [ ˒ i˒ ˒ im] adivinos, magos.
+
+םַ טאָ [ ˒ a˒ am]Q.cerrar, tapar; Hi.tapar.
+
+רַ טאָ [ ˒ a˒ ar]Q.rodear, cerrar.
+
+רֵ טִּ א [ ˒ i˒ ˒er] impedido (zurdo).
+
+י א ֵ [ ˒ e] ¿dónde? ¿cuál?
+
+י א ִ [ ˒ i] (pl.םי ִ יּ א ִ ) I. isla, país marítimo, costa; II. chacal (?); III. ¡ay! בַ י אָ[˒ ayab]Q.ser enemigo.
+
+בֵ י ֹ א [ ˒ oyeb] enemigo. הָ בי א ֵ [ ˒ eba ] enemistad. די א ֵ [ ˒ ed] desgracia, tragedia.
+
+הָ יּ אַ [ ˒ ayyah] buitre, halcón.
+
+הֵ יּ אַ [ ˒ ayyeh] ¿dónde?
+
+(?) traducción dudosa
+
+Hi.Hifil
+
+Hitp.Hitpael
+
+pl. plural
+
+בוֹ יּ א ִ [ ˒ iyyob] Job.
+
+לֶ בֶ ז י א ִ [ ˒ izébel] Jezabel.
+
+ְ ךי א ֵ [ ˒ ek] ¿cómo?, ¡cómo! הָ כ י א ֵ [ ˒ ekah ] ¿cómo? ¡cómo! הֹ כי א ֵ [ ˒ ekoh] ¿dónde?
+
+הָ כָ כי א ֵ [ ˒ ekakah] ¿cómo?
+
+ל ִ י אַ [ ˒ áyil] (pl.םי לי ִ א ֵ ) carnero; poderoso, magnate; poste. ל ָ י א ֱ [ ˒ eyal] fuerza.
+
+ל ָ יּ אַ [ ˒ ayyal] ciervo.
+
+הָ ל ָ יּ אַ [ ˒ ayyalah] cierva.
+
+וֹ לי א ֵ [ ˒ elo] esto, aquello.
+
+תוּ לָ י א ֱ [ ˒ eyalut] fuerza.
+
+םָ לי א ֵ [ ˒ elam] atrio, vestíbulo.
+
+תֶ ל ֶ יּ אַ [ ˒ ayyélet] cierva.
+
+םֹ י אָ[˒ ayom] (fem.הָ מֻּ י א ֲ ) terrible.
+
+הָ מי א ֵ [ ˒ emah] terror.
+
+ן ִ י אַ [ ˒ áyin] I. (cstr.ן י א ֵ ) no existencia = no hay, no tiene, no; II. ¿dónde?; ן ִ י אֵַ מ = ¿de dónde?. הָ פ י א ֵ [ ˒ epah] efá (medida = 22 litros).
+
+הֹ פי א ֵ [ ˒ epoh] ¿dónde?
+
+ץי א ִ [ ˒ i˒]Q.insistir.
+
+שׁי א ִ [ ˒ iš ] (pl.םי שָׁ ִ נ א ֲ ; cstr.יֵ שְׁ נ אַ ) hombre, marido, uno, alguien, cada uno, quien. ן וֹ שׁי א ִ [ ˒ išon] pupila, niña de los ojos.
+
+ן וּ שׁי א ֱ leer qere:ן וּ שֱׁ א [ ˒ ešun].
+
+יַ שׁי א ִ [ ˒ išay] Jesé.
+
+ן וֹ תי א ִ [ ˒ iton] exterior (?) ן תֵ ָ א / ן תי ָ א ֵ [ ˒ etan ] perenne, siempre verde; anciano. םי ִ נ תי ָ א ֵ [ ˒ etanim] etanim (mes).
+
+ְ ךאַ [ ˒ ak] solo, en cambio, precisamente , con tal que. בָ ז כ ְ אַ [ ˒ akzab] engañoso.
+
+רָ ז כאַ ְ [ ˒ akzar] cruel.
+
+fem. femenino
+
+cstr. constructo
+
+י רָ ִ ז כאַ ְ [ ˒ akzari] cruel.
+
+תוּ יּ ִ ר ָ ז כאַ ְ [ ˒ akzariyyut] crueldad.
+
+הָ ל י כֲ ִ א [ ˒ akilah] alimento. לַ כאָ [ ˒ akal ] Q. comer, devorar, gustar; Ni.(לַ כֱ אֶ נ ) ser comido; Pu.ser consumido;Hi. (ל י ִ כֱ אֶ ה ) dar de
+
+comer, alimentar .
+
+לֶ כֹ א [ ˒ ókel] (וֹ לְ כאָ [˒ oklo]) comida, alimento; acto de comer. הָ לְ כאָ [ ˒ oklah] comida, alimento.
+
+ן כאָ ֵ [ ˒ aken] ciertamente, en verdad .
+
+ףַ כאָ [ ˒ akap]Q.estimular, incitar.
+
+ףֶ כֶ א [ ˒ ékep] urgencia, presión.
+
+רָ כִּ א [ ˒ ikkar] campesino, agricultor.
+
+לאַ [ ˒ al] no, nada.
+
+לֶ א [ ˒ el] (prep.) a, hacia, para, hasta, junto a, acerca de. לֵ א [ ˒ el] (sust.) I. Dios, dios, ídolo; II. poder, capacidad. לֵ א [ ˒ el] (adj.) estos, -as.
+
+שׁי בָ ִ גּ לֶ ְ א [ ˒ elgabiš ] granizo.
+
+םי מֻּ ִ גּ לאַ ְ [ ˒ algummim]→ םי ִ גּ מְ ֻ לאַ . הָ ל אָ [ ˒ alah] maldición, juramento.
+
+הָ ל אָ [ ˒ alah] I.Q.suspirar, gemir; II. Q.ser incapaz; III. Q.maldecir;Hi. hacer jurar.
+
+הָ לֵ א [ ˒ elah] encina. הָ לּ אַ [ ˒ allah ] encina.
+
+הֶ לֵּ א [ ˒ élleh] estos, -as.
+
+םִ הֹ לֱ א [ ˒ elohim] Dios, dioses.
+
+וּ לִּ א [ ˒ illu] si.
+
+ַ הֹּ לֱ א [ ˒ elóa˒] Dios, dios.
+
+ן וֹ לֵ א [ ˒ elon] encina.
+
+לוּ לֱ א [ ˒ elul] elul (mes).
+
+ן וֹ לּאַ [ ˒ allon] encina
+
+ףוּ לּאַ [ ˒ allup] I. amigo, compañero; buey; II. jefe.
+
+Pu.Pual
+
+prep. preposición
+
+sust. sustantivo
+
+adj. adjetivo
+
+*חַ לאָ [ ˒ ala˒]Ni.(חַ לֱ אֶ נ ) estar corrompido. הָ י ְ ל אַ [ ˒ alyah] cola gorda de la oveja.
+
+לי לֱ ִ א [ ˒ elil] dios falso, ídolo. א לֵ fut. Q. de ְ ךַ לָ ְ ךֵ ה . י לְ ַ לאַ [ ˒ alelay] ¡ay!
+
+*םַ לאָ [ ˒ alam]Ni.(םַ לֱ אֶ נ ) quedar mudo, guardar silencio; Pi. atar. םֶ לֵ א [ ˒ élem] silencio (?).
+
+םֵ לִּ א [ ˒ illem] mudo.
+
+םי ִ גּ מְ ֻ לאַ [ ˒ almuggim] madera de sándalo. הָ מֻּ לֲ א [ ˒ alummah] gavilla.
+
+ן מְ ָ לאַ [ ˒ alman] viudo.
+
+הָ נ מְ ָ ל אַ [ ˒ almanah] viuda.
+
+ן ֹ מְ לאַ [ ˒ almon] viudez.
+
+תוּ נ מְ ָ ל אַ[˒ almanut] viudez.
+
+י ִ נ ֹ מְ לאַ [ ˒ almoni] fulano.
+
+ףַ לאָ [ ˒ alap] I.Q.acostumbrarse;Pi. enseñar, acostumbrar; II.Hi.producir a millares. ףֶ לֶ א [ ˒ élep] (וֹ פְּ לאַ ; pl.םי פָ ִ לֲ א ) toro, buey; mil, clan. *ץַ לאָ [ ˒ ala˒]Pi.insistir.
+
+םוּ קְ ל אַ [ ˒ alqum] tropas (?).
+
+םֵ א [ ˒ em] (וֹ מִּ א ) madre; bifurcaci ón.
+
+םִ א [ ˒ im] si (cond.), pero si, aunque , ojalá; partíc. interrog.: ¿...?, ¿acaso?. הָ מאָ [ ˒ amah] sierva, esclava, servidora , concubina. הָ מּאַ [ ˒ ammah] codo (medida = 45 cm); umbral, jamba. הָ מֻּ א [ ˒ ummah] tribu, clan, pueblo.
+
+ן וֹ מאָ [ ˒ amon] artesano. ן וּ מֵ א [ ˒ emun ] lealtad, fidelidad; fiel, digno de confianza. ן וּ מאָ [ ˒ amun]→ ן וּ מֵ א .
+
+הָ נ וּ מֱ א [ ˒ emunah] (וֹ תָ נ וּ מֱ א ) firmeza , fidelidad, sinceridad, verdad . ץי מּאַ ִ [ ˒ ammi˒] fuerte, valiente.
+
+רי מאָ ִ [ ˒ amir] rama de un árbol.
+
+* forma hipotética
+
+partíc. partícula
+
+לַ מאָ [ ˒ amal]Pulpal(לַ לְ מֻ א ) marchitarse, desfallecer. לֻ מֲ א [ ˒ amul] calenturiento, enfermo (?).
+
+לָ לֵ מֲ א [ ˒ amelal] desgraciado. לָ לְ מֻ א [ ˒ umlal ] → לַ מאָ . ן מאָ ַ [ ˒ aman]Q.part. pas. sostenido; Ni.(ן מֱ ַ אֶ נ ) ser firme, duradero; ser fiel, de confianza; ser verdadero,
+
+veraz; durar; Hi.(ן י מֱ ִ אֶ ה ) creer, confiar, esperar. ן מּאָ ָ [ ˒ omman] orfebre.
+
+ן מאָ ֵ [ ˒ amen] amén (= en verdad), veraz.
+
+ן מֵ ֻ א [ ˒ emun] lealtad, fidelidad.
+
+הָ נ מֱ ֻ א [ ˒ emunah] lealtad, fidelidad.
+
+ן מֹ ֵ א[ ˒ omen] (fem.תֶ נ מֹ ֶ א ) tutor, educador, (f.) nodriza. ן מֹ ֶ א[ ˒ ómen] fidelidad.
+
+הָ נ מֲ ָ א [ ˒ amanah] pacto, compromiso .
+
+הָ נ מאָ ְ [ ˒ omnah] cuidado, educaci ón; en verdad. תוֹ נ מאָ ְ [ ˒ omnot] pilares, dinteles (?).
+
+םָ נ מאָ ְ [ ˒ omnam] en verdad.
+
+םָ נ מֻ ְ א [ ˒ umnam] en verdad.
+
+ץַ מאָ [ ˒ ama˒]Q.ser fuerte; Pi.fortalecer, consolidar; Hi.sentirse fuerte; Hitp. obstinarse, esforzarse . ץֹ מאָ [ ˒ amo˒] (caballo) manchado.
+
+ץֶ מֹ א [ ˒ óme˒] fuerza.
+
+הָ צְ מאַ [ ˒ am˒ ah] fuerza.
+
+רַ מאָ [ ˒ amar]Q.decir, hablar, llamar, pensar, prometer; Ni.(רַ מֱ אֶ נ ) decirse, llamarse; Hi.(רי מֱ ִ אֶ ה )
+
+comprometerse;Hitp.ufanarse.
+
+רֶ מֵ א [ ˒ émer] (וֹ רְ מִ א ) I. palabra(s), dicho(s); II. cría. רֶ מֹ א [ ˒ ómer] palabra, mensaje.
+
+הָ רְ מֶ א [ ˒ emrah] palabra.
+
+הָ רְ מִ א [ ˒ imrah] palabra, mandato, promesa.
+
+י רֹ ִ מֱ א [ ˒ emori] amorreo.
+
+שֶׁ מֶ א [ ˒ émeš ] anoche, de noche.
+
+ת ֶ מֱ א [ ˒ emet] (וֹ תִּ מֲ א ) firmeza, fidelidad, constancia, verdad. תַ חַ תְּ מאַ [ ˒ amtá˒ at] saco, costal.
+
+part. participio
+
+pas. pasivo
+
+ן אָ[ ˒ an] adonde, ¿adónde?, donde, ¿dónde?, ¿cuándo?. הָ נּ אָ /אָ נּ אָ [ ˒ onna˒ / ˒ onnah] por favor.
+
+הָ הָ נ אָ [ ˒ anah, ˒ ánah] ¿dónde?, ¿adónde?, ¿cuándo?. נ אָ
+
+[ ˒ anah] I.Q. gemir, lamentarse, hacer duelo; II. Pi. permitir; Pu. suceder, acontecer; Hitp. buscar un
+
+pretexto.
+
+הֶ נ אָ [ ˒ áneh] ¿dónde?, ¿adónde?.
+
+הֶ נ ֹ א[˒ oneh] luto, duelo.
+
+וּ נ א ֲ [ ˒ anu] nosotros.
+
+שׁוּ נ אָ [ ˒ anuš ] incurable.
+
+שׁוֹ נ א ֱ [ ˒ enoš ] ser humano, hombre; humano.
+
+*חַ נ אָ [ ˒ ana˒]Ni.(חַ נ אֶ ֱ נ ) gemir, quejarse;Hitp.suspirar, lamentarse . הָ חָ נ א ֲ [ ˒ ana˒ ah] gemido, lamento, queja, suspiro. וּ נ חַ ְ נ א ֲ [ ˒ aná˒ nu] nosotros, nosotras .
+
+י ִ נ א ֲ [ ˒ ani] yo.
+
+י ִ נ א ֳ [ ˒ oni] flota, naves.
+
+הָ יּ ִ נ א ֳ [ ˒ oniyyah] nave.
+
+הָ יּ ִ נ א ֲ [ ˒ aniyyah] lamento, queja.
+
+ְ ךָ נ א ֲ [ ˒ anak] plomada.
+
+י כֹ ִ נ אָ [ ˒ anoki] yo.
+
+סַ *ן ַ נ אָ [ ˒ anan]Hitp.lamentarse, quejarse. נ אָ
+
+[ ˒ anas] Q. obligar; Ni.verse forzado.
+
+סֶ נ ֹ א[˒ ónes] violencia.
+
+ףַ נ אָ [ ˒ anap]Q.enojarse, estar enojado; Hitp.idem.
+
+הָ פ ָ נ א ֲ [ ˒ anapah] garza, cormor án (?).
+
+קַ נ אָ [ ˒ anaq]Q.suspirar, sollozar;Ni.idem.
+
+הָ קָ נ א ֲ [ ˒ anaqah] I. suspiro, lamento; II. salamanquesa. *שַׁ נ אָ [ ˒ anaš ]Ni.enfermarse.
+
+2
+
+םי שָׁ ִ נ א ֲ [ ˒ anašim]→ שׁי א ִ .
+
+ְ ךוּ סאָ [ ˒ asuk] jarro pequeño.
+
+ן וֹ סאָ [ ˒ ason] desgracia, accidente.
+
+2 Ortiz, P., V., S.J. (2000). Lexico Hebreo-Espanol y Arameo-Espanol(electronic ed.). Miami: Sociedades Biblicas
+
+Unidas.
+
+רוּ סֵ א [ ˒ esur] atadura, cadena.
+
+ףי סאָ ִ [ ˒ asip] cosecha.
+
+רי סאָ ִ [ ˒ asir] preso, cautivo. סּאַ ִ רי [ ˒ assir ] preso, cautivo. םָ סאָ [ ˒ asam] granero.
+
+ףַ סאָ [ ˒ asap]Q.reunir, cosechar, aliarse, encarcelar, retirar, eliminar; Ni.pasiva del anterior; Pi. recoger,
+
+recibir, cerrar filas;Pu. agruparse, reunirse; Hitp. idem.
+
+ףֹ סאָ [ ˒ asop] depósito.
+
+ףֶ סֹ א [ ˒ ósep] cosecha.
+
+הָ פֵ סֲ א [ ˒ asepah] acción de recoger .
+
+הָ פֻּ סֲ א [ ˒ asuppah] colección.
+
+ףֻ סְ פַ סֲ א [ ˒ asapsup] gentío.
+
+קַ סּ ֶ א [ ˒ essaq]→ קַ לָ ס .
+
+רַ סאָ [ ˒ asar]Q.atar, ensillar, apresar , encadenar, encerrar; Ni. pasivo deQ.; Pu.pasivo de Q. רַ סִּ א [ ˒ issar] compromiso.
+
+הָ רֻ סאָ cohort.Q.deרוּ ס .
+
+ףאַ [ ˒ ap] I. y, también, incluso, cuánto más, cuánto menos, pues, pero; II. (dual: םִ י פּאַ ַ ; וֹ פּאַ ) nariz, olfato,
+
+cara; enojo, ira.
+
+*דַ פ אָ [˒ apad]Ni.ceñir, sujetar.
+
+הָ דֻּ פֲ א [ ˒ apuddah] cinturón.
+
+ן דֶ ֶ פּאַ [ ˒ appéden] palacio.
+
+הָ פ אָ [ ˒ apah]Q.cocer, hornear;Ni. pasivo deQ.
+
+הֶ פ ֹ א [ ˒ opeh] panadero.
+
+אוֹ פֵ א ,וֹ פֵ א [ ˒ epo, ˒ epo˒] partíc. que refuerza la interrogación, el imperativo o la exclamación. דוֹ פֵ א [ ˒ epod] efod (prenda del sumo sacerdote: Ex 28:6-14; túnica sacerdotal: 1 S 2:18; instrumento para
+
+consultar al Señor: Jue 8:27).
+
+הָ נ וּ פ אָ[˒ apúnah] sentido incierto (abatido?).
+
+Q.Qal
+
+Ni.Nifal
+
+Pi. Piel
+
+Pu.Pual
+
+Hitp.Hitpael
+
+* forma hipotética
+
+partíc. partícula
+
+לי פאָ ִ [ ˒ apil] tardío.
+
+קי פאָ ִ [ ˒ apiq] I. orilla, cañada, tubo, hilera; II. fuerte.
+
+לֵ פאָ [ ˒ apel] oscuridad. לֶ פֹ א [ ˒ ópel ] oscuridad, tinieblas. הָ לֵ פֲ א [ ˒ apelah] oscuridad.
+
+ן פֹ ֶ א [ ˒ ópen] oportunidad.
+
+סֵ פ אָ [ ˒ apes]Q.cesar, terminar.
+
+סֶ פֶ א [ ˒ épes] nada, vacío; extremo, confín; no hay; י כּ סֶ ִ פֶ א : pero, sólo que. םִ י סְ ַ פ אָ [ ˒ opsáyim] tobillos.
+
+עַ פֶ א [ ˒ épa˒] vacío.
+
+הֶ עְ פֶ א [ ˒ ep˒ eh] víbora.
+
+ףַ פאָ [ ˒ apap]Q. rodear, estrechar.
+
+*קַ פאָ [ ˒ apaq]Hitp.atreverse; aguantarse.
+
+רֶ פֵ א [ ˒ éper] polvo, ceniza.
+
+רֵ פֲ א [ ˒ aper] venda.
+
+ַ חֹ רְ פֶ א [ ˒ epróa˒] pichón, cría.
+
+ן וֹ י רִ ְ פּאַ[ ˒ appiryion] litera.
+
+עַ בְ צֶ א [ ˒ e˒ ba˒] (pl.תוֹ עָ בְּ צֶ א ) dedo (de la mano o del pie). לי צאָ ִ [ ˒ a˒ il] I. extremo, confín; II. noble.
+
+הָ ל י צּאַ ִ ,לי צּאַ ִ [ ˒ a˒ ˒ il, ˒ a˒ ˒ ilah] articulación, axila, codo, muñeca. לַ צאָ [ ˒ a˒ al]Q.retirar, quitar; Ni. librarse.
+
+לֶ צֵ א [ ˒ é˒ el] (וֹ לְ צֶ א ) lado; junto a.
+
+הָ דָ עְ צֶ א [ ˒ e˒ ˒ adah] brazalete.
+
+רַ צאָ [ ˒ a˒ ar]Q. amontonar;Ni.pasivo deQ.;Hi. encargar de almacenar.
+
+וֹ חָ דְ קֶ א [ ˒ eqda˒] berilo, esme-ralda (?). קּאַ
+
+[˒ aqqo] cabra montés.
+
+םָ לֶּ אְ רֶ א [ ˒ er˒ ellam] ¿leer םי לֵ ִ אִ רֲ א = guerreros? בַ ראָ [ ˒ arab]Q.espiar, tender una emboscada, intrigar; Pi.idem; Hi.poner emboscadas. בֶ רֶ א [ ˒ éreb] guarida.
+
+בֶ רֹ א [ ˒ óreb] emboscada, asechanza.
+
+pl. plural
+
+Hi.Hifil
+
+(?) traducción dudosa
+
+בֵ רֹ א [ ˒ oreb] asechador; emboscada .
+
+הֵ בְּ ראַ [ ˒ arbeh] langosta (insecto).
+
+הָ הָ בְּ ראָ [ ˒ orbah] movimiento (de los brazos). בֻּ רֲ א
+
+[˒ arubbah] ventana, compuerta , chimenea, palomar.
+
+עַ בְּ ראַ [ ˒ arba˒] cuatro, cuarto;םִ י תְּ ַ עַ בְּ ראַ cuatro veces. םי ע ִ ָ בְּ ראַ [ ˒ arba˒ im] cuarenta.
+
+ג ראָ ַ [ ˒ arag]Q.tejer, trenzar.
+
+גֵ רֹ א [ ˒ oreg] tejedor.
+
+ג רֶ ֶ א [ ˒ éreg] lanzadera de telar.
+
+ן ָ ו ְ גּ ראַ ְ[ ˒ argewan] lana roja.
+
+ז ַ גּ ראַ ְ[ ˒ argaz] alforja, recipiente.
+
+ן מָ ָ גּ ראַ ְ [ ˒ argaman] lana roja.
+
+הָ ראָ [ ˒ arah]Q.recoger, cosechar.
+
+הָ ו רֻ ְ א [ ˒ urwah] establo.
+
+ז וּ ראָ [ ˒ aruz] fuerte.
+
+הָ כ וּ רֲ א [ ˒ arukah] curación.
+
+ן וֹ רֲ א [ ˒ aron] caja, cofre, arca, ataúd.
+
+ז רֶ ֶ א [ ˒ érez] (pl.םי ִ ז רֲ ָ א , cstr.י ֵ ז ראַ ְ ) cedro. הָ ז ראַ ְ [ ˒ arzah] enchapado de cedro .
+
+חַ ראָ [ ˒ ara˒]Q.caminar, andar.
+
+ח ַ רֹ א [ ˒ óra˒] camino, conducta, proceder.
+
+הָ חְ רֹ א[˒ or˒ ah] caravana.
+
+הָ חֻ רֲ א [ ˒ aru˒ ah] provisiones, ración.
+
+י רֲ ִ א [ ˒ ari] león.
+
+הֵ לֵ אי רֲ ִ א [ ˒ ari˒ el] brasero del altar. י ראַ ְ
+
+[˒ aryeh] león.
+
+הָ י רֻ ְ א [ ˒ uryah] establo.
+
+ְ ךַ ראָ [ ˒ arak]Q.ser largo, alargarse;Hi. ( ְ ךי רֱ ִ אֶ ה ) alargar, diferir. ְ ךֵ ראָ [ ˒ arek] (cstr. ְ ךֶ רֶ א ) largo;םִ י פּאַ ְ ַ ךֶ רֶ א : paciente. ְ ךֹ ראָ [ ˒ arok] largo, duradero.
+
+ְ ךֶ רֹ א [ ˒ órek] longitud, distancia; םי פּאַ ְ ַ ךֶ רֹ א paciencia.
+
+cstr. constructo
+
+ן וֹ מְ ראַ [ ˒ armon] palacio, alcázar.
+
+תי מָ ִ רֲ א [ ˒ aramit] en arameo.
+
+ן רֹ ֶ א [ ˒ óren] ciprés, laurel (?). נ בֶ ראַ תֶ ְ [ ˒ arnébet ] liebre. ץֶ רֶ א [ ˒ ére˒] (en pausa y con art. ץֶ ראָ ;וֹ צְ ראַ ; pl.תוֹ צָ רֲ א ) tierra, suelo, campo, terreno, territorio, país. רַ ראָ [ ˒ arar]Q.maldecir;Ni.incurrir en maldición; Pi.maldecir;Ho.quedar maldito. שַׂ ראָ [ ˒ araś ]Q.comprometerse, desposarse; Pu.estar comprometida , desposada. תֶ שֶׂ רֲ א [ ˒ aréśet] petición.
+
+אָ תְּ שַׂ שְׁ חַ תְּ ראַ [ ˒ arta˒ šaśta˒] Artajerjes . שֵׁ א [ ˒ eš ] fuego, llama, incendio, rayo.
+
+דֵ שׁאָ [ ˒ ašed] ladera, declive.
+
+תי דוֹ ִ דְּ שׁאַ [ ˒ ašdodit] en asdodeo (lengua de Asdod). הָ שִּׁ א [ ˒ iššah] (cstr.תֶ שֵׁ א ;וֹ תְּ שִׁ א ; pl.םי שָׁ ִ נ ) mujer, esposa; una, cada una. הֶ שִּׁ א [ ˒ iššeh] ofrenda (que se quema).
+
+ן וּ שֱׁ א [ ˒ ešun] tiempo, hora.
+
+רוּ שּׁאַ [ ˒ aššur] Asiria.
+
+םי רוּ ִ שּׁאַ [ ˒ aššurim] asirios.
+
+הָ י שׁאָ ְ [ ˒ ošyah] pilar.
+
+ַ חי שׁאָ ִ [ ˒ ašía˒] estanque.
+
+הָ שׁי שֲׁ ִ א [ ˒ ašišah] torta de uvas pasas.
+
+ְ ךֶ שֶׁ א [ ˒ éšek] testículo.
+
+לוֹ כְּ שֶׁ א [ ˒ eškol] racimo de uvas.
+
+רָ כְּ שֶׁ א [ ˒ eškar] tributo, impuesto, regalo.
+
+לֶ שֵׁ א [ ˒ éšel] tamarisco (árbol).
+
+םַ םָ שׁאָ [ ˒ ašam] culpa, delito, responsabilidad , castigo, compensación, sacrificio expiatorio.
+
+שׁאָ [ ˒ ašam]Q.hacerse/ser culpable; pagar la culpa; Ni. perecer; Hi. castigar.
+
+םֵ שׁאָ [ ˒ ašem] culpable, responsable .
+
+הָ מְ שׁאַ [ ˒ ašmah] culpa, sacrificio expiatorio.
+
+הָ רוּ מְ שׁאַ [ ˒ ašmurah] vela nocturna (una de las tres partes en que se dividía la noche). םי ִ נּ מְ ַ שׁאַ [ ˒ ašmannim] buena salud.
+
+תֶ רֹ מְ שׁאַ [ ˒ ašmóret]→ הָ רוּ מְ שׁאַ . בָ נְ שֶׁ א [ ˒ ešnab] rejas de la ventana, ventana.
+
+ףָ שּׁאַ [ ˒ aššap] adivino.
+
+הָ פְּ שׁאַ [ ˒ ašpah] aljaba.
+
+רָ פְּ שֶׁ א [ ˒ ešpar] torta de dátiles.
+
+רַ תֹ פְּ שׁאַ [ ˒ ašpot] basura, basurero. שׁאָ
+
+[˒ ašar] I. Q. caminar, seguir; Pi. seguir; guiar; Pu. buscar un guía; II. Pi. felicitar; hacer feliz; Pu.
+
+ser feliz.
+
+רֵ שֲׁ א [ ˒ ašer] que, el/la/lo cual, los/las cuales, quien, cuyo, donde, porque, de modo que, para que, como. רֻ שּׁאַ ,רֻ שׁאָ [ ˒ ašur, ˒ aššur] pisada, paso.
+
+רֶ שֶׁ א [ ˒ éšer] (pl. cstr.י רְ ֵ שׁאַ ) felicidades de... = ¡dichoso...! רֶ שֹׁ א [ ˒ óšer] dicha, felicidad.
+
+הָ רֵ שֲׁ א [ ˒ ašera] representación de Astarté, diosa cananea de la fertilidad . י רְ ֵ שׁאַ [ ˒ ašre]→ רֶ שֶׁ א .
+
+שַׁ שׁאָ [ ˒ ašaš ]Hitpoelperder la esperanza (?), ser valiente (?). ְ תאַ [ ˒ at] (pron. fem.) tú.
+
+תֵ א [ ˒ et] I. (וֹ תֹּ א ) partícula de complemento directo, a; II. (וֹ תִּ א ) con, en;תֵ אֵ מ desde (indica procedencia,
+
+origen); III. ( וֹ תֵ א ) arado, reja.
+
+הָ תאָ [ ˒ atah]Q.venir, llegar; Hi.sacar.
+
+הָ תּאַ [ ˒ attah] (pron. masc.) tú.
+
+ן וֹ תאָ [ ˒ aton] burra, asna.
+
+קי תּאַ ִ [ ˒ attiq] galería, corredor, piso (?).
+
+3
+
+םֶ תּאַ [ ˒ attem] (pron. masc.) vosotros , ustedes.
+
+לוֹ מְ תֶ א [ ˒ etmol] ayer, hace mucho tiempo.
+
+הָ נ תּאַ ֵ ,ן תּאַ ֵ [ ˒ atten, ˒ atténah] (pron. fem.) vosotras, ustedes. הָ נ תֶ ְ א [ ˒ etnah] paga.
+
+ן ַ נ תֶ ְ א [ ˒ etnan] paga, salario.
+
+ב [ ]
+
+pron. pronombre
+
+fem. femenino
+
+masc. masculino 3 Ortiz, P., V., S.J. (2000). Lexico Hebreo-Espanol y Arameo-Espanol(electronic ed.). Miami: Sociedades Biblicas
+
+Unidas.
+
+pron. pronombre
+
+masc. masculino
+
+fem. femenino
+
+( ִ בּ , ַ בּ ) ְ בּ [ be, ba, bi] en, junto a, entre, con, por, por medio de; c. inf.: cuando, al. האִָ בּ [ bi˒ ah] entrada.
+
+רֵ *ראַָ בּ [ ba˒ ar]Pi.grabar, inculcar. אְ בּ
+
+[be˒ er] pozo, manantial.
+
+שֹׁ אְ בּ [ be˒ oš ] mal olor, peste.
+
+שׁאַָ בּ [ ba˒ aš ]Q.pudrirse, oler mal; Ni.estar enemistado; provocar;Hi. oler mal, hacer(se) odioso; Hitp.
+
+enemistarse.
+
+שֻׁ אָ בּ [ ba˒ uš ] uvas agrias.
+
+הָ שׁאָ בּ [ bo˒ šah] mala hierba.
+
+רֶ שֲׁ אַ בּ [ ba˒ ašer] porque.
+
+הָ בָ בּ [ babah] pupila.
+
+לֶ בָ בּ [ babel] Babel, Babilonia.
+
+דַ ג בּ ָ [ bagad]Q.traicionar, ser infiel.
+
+דֶ ג בּ ֶ [ béged] (וֹ ד ְ ג ִ בּ ) I. traición, infidelidad; II. ropa, traje, vestido. תוֹ דְ ג ֹ בּ [ bogedot] infidelidad.
+
+דוֹ ג בּ ָ [ bagod] infiel.
+
+לַ לְ ג בּ ִ [ biglal] a causa de.
+
+דַ בּ [ bad] I. parte;דַ בְ ל solo, aparte, fuera de; II. vara, travesa ño, rama; III. lino; IV.םי ִ דַּ בּ : charlatanes
+
+(falsos profetas); charlatanería.
+
+אָ דָ בּ [ bada˒]Q.inventar.
+
+דָ דָ בּ [ badad] solo, solitario.
+
+דַ דָ בּ [ badad]Q.estar solo, apartarse .
+
+י דְ ֵ בּ [ bede]→ י דּ ַ .
+
+לי דְ ִ בּ [ bedil] estaño.
+
+לי דָ ִ בּ [ badil] escoria.
+
+לָ דָ בּ [ badal] punta.
+
+*לַ דָ בּ [ badal]Ni.apartarse, alejarse, ser excluido, ser escogido; Hi.separar, escoger, distinguir.
+
+inf. infinitivo
+
+* forma hipotética
+
+Pi. Piel
+
+Q.Qal
+
+Ni.Nifal
+
+Hi.Hifil
+
+Hitp.Hitpael
+
+חַ ל ֹ דְ בּ [ bedóla˒] cilantro; ámbar.
+
+קַ דָ בּ [ badaq]Q.reparar.
+
+וּ קֶ דֶ בּ [ bédeq] (וֹ קְ דִ בּ ) daño, rendija. בּ [ bóhu ] caos, vacío. הֹ ן וֹ הְ בּ [ behon] dedo pulgar, dedo gordo.
+
+טַ הַ בּ [ báha˒] piedras finas.
+
+רי הָ ִ בּ [ bahir] oculto, oscurecido (?).
+
+*לַ הָ בּ [ bahal]Ni.alarmarse, sentir pánico, temblar; Pi.espantar; apresurarse; Pu.ser apresurado; Hi.
+
+acobardar; apresurarse.
+
+הָ לָ הֶ בּ [ behalah] espanto.
+
+הָ מֵ הְ בּ [ behemah] animal doméstico (cuadrúpedo), ganado , bestia de carga. תוֹ מֵ הְ בּ [ behemot] hipopótamo.
+
+ן הֹ ֶ בּ [ bóhen] dedo pulgar, dedo gordo.
+
+קַ הֹ בּ [ bóhaq] vitíligo (enfermedad de la piel).
+
+תֶ רֶ הַ בּ [ bahéret] mancha (de la piel).
+
+אוֹ בּ [ bo˒]Q.entrar, llegar, ir, venir, cumplirse, ponerse (el sol); Hi.(אי בֵ ִ ה ) hacer entrar, hacer llegar,
+
+meter, alojar, clavar, hacer caer; Ho. ser introducido.
+
+ז וּ בּ [ buz]Q.despreciar, no hacer caso.
+
+ז וּ בּ [ buz] desprecio, burla.
+
+הָ ז וּ בּ [ buzah] desprecio.
+
+* ְ ךוּ בּ [ buk]Ni.estar perplejo, inquieto.
+
+לוּ בּ [ bul] I. bul (mes); II. comida (de un animal); pedazo de palo. סוּ בּ [ bus]Q.yPolelpisar, patear;Ho.ser pisado; Hitpolelpatalear. עוּ בּ[ bu˒]Q.alegrarse;Hitpalpel disfrutar.
+
+ץוּ בּ [ bu˒] lino, hilo.
+
+הָ קוּ בּ [ buqah] vacío.
+
+רֵ קוֹ בּ [ boqer] pastor.
+
+רֹ בּ /רוֹ בּ [ bor] pozo, cisterna; calabozo; tumba.
+
+שׁוֹ בּ [ boš ]Q.avergonzarse, quedar defraudado, desesperar; Pi.avergonzar;Poleldemorarse;Hi.
+
+avergonzar, defraudar, de-rrotar; Hitpolel sentir vergüenza. הָ שׁוּ בּ [ buš ah] vergüenza, deshonra .
+
+(?) traducción dudosa
+
+Pu.Pual
+
+ז ַ בּ [ baz] botín, saqueo.
+
+אָ ז בּ ָ [ baza˒]Q.surcar.
+
+הֹ הָ ז בּ ָ [ bazah]Q.despreciar, burlarse;Ni.ser despreciable; Hi. despreciar.
+
+ז בּ ָ [ bazoh] despreciado.
+
+הָ זּ בּ ִ [ bizzah] botín, confiscación.
+
+ז ַ ז בּ ָ [ bazaz]Q.saquear, secuestrar, robar;Ni.yPu.ser saqueado. ן וֹ י ַ זּ בּ ִ [ bizzayon] desprecio.
+
+קָ ז בּ ָ [ bazaq] rayo.
+
+רַ ז בּ ָ [ bazar]Q.repartir;Pi.dispersar .
+
+ן וֹ חָ בּ [ ba˒ on] examinador.
+
+ן וּ חָ בּ [ ba˒ un] torre de asedio.
+
+רוּ חָ בּ [ ba˒ ur] joven; soldado.
+
+תוֹ רוּ חְ בּ ,םי רוּ ִ חְ בּ [ be˒ urim, be˒ urot] juventud. רי חָ ִ בּ [ ba˒ ir] escogido.
+
+לַ חָ בּ [ ba˒ al]Q.irritar (?).
+
+ן חָ ַ בּ [ ba˒ an]Q.examinar, poner a prueba, aquilatar, tentar; Ni. pasivo deQ. ן חַ ַ בּ [ bá˒ an] atalaya.
+
+ן ח ַ ֹ בּ [ bó˒ an] prueba;ן חֹ ַ בּ ן בֶ ֶ א piedra de toque. רַ חָ בּ [ ba˒ ar]Q.escoger, designar;Ni. yPu. ser preferible, elegido. הָ טָ ב /אָ טָ בּ [ ba˒ a˒ , ba˒ ah]Q.ser charlatán;Pi.hablar a la ligera. ַ חוּ טָ בּ [ ba˒ ua˒] confiado.
+
+חַ טָ בּ [ ba˒ a˒]Q.confiar, estar seguro , hacerse ilusiones; Hi.inspirar confianza. חַ טֶ בּ [ bé˒ a˒] confianza, seguridad.
+
+הָ חְ טִ בּ [ bi˒ ˒ ah] confianza.
+
+ן וֹ חָ טִּ בּ [ bi˒ ˒ a˒ on] confianza. תוֹ חֻ טַּ בּ [ ba ˒ ˒ u˒ ot ] tranquilidad. לַ טָ בּ [ ba˒ al]Q.dejar de trabajar.
+
+ן טֶ ֶ בּ [ bé˒ en] vientre, estómago, entrañas, seno. הָ נ טָ ְ בּ [ bo˒ nah] pistacho (especie de nuez). י בּ ִ [ bi] por favor, con permiso.
+
+ן בּ ֵ /ן י בּ ֵ [ ben] entre.
+
+תוֹ נ י בּ ֵ [ benot] entre.
+
+ן י ִ בּ [ bin]Q.entender, conocer, considerar, pensar; Ni.ser inteligente; Polelcuidar; Hi.entender; enseñar,
+
+explicar;Hitpolel prestar atención, refle xionar.
+
+הָ נ י בּ ִ [ binah] inteligencia, juicio, habilidad.
+
+הָ צי בּ ֵ [ be˒ ah] huevo.
+
+רִ י בּ ַ [ báyir] pozo.
+
+הָ רי בּ ִ [ birah] ciudadela, fortaleza; templo.
+
+תוֹ יּ ִ נ רי ָ בּ ִ [ biraniyyot] fortalezas.
+
+תִ י בּ ַ [ báyit] (cstr.תי בּ ֵ ;וֹ תי בּ ֵ ; pl.םי תָּ ִ בּ ֽ casa, familia, palacio, templo; dinastía; pueblo; recip iente; parte
+
+interior.
+
+תי בּ ֵ [ bet]→ תִ י בּ ַ [báyit].
+
+םֶ חֶ ל תי בּ ֵ [ bet lé˒ em] Belén.
+
+ן תי ָ בּ ִ [ bitan] palacio.
+
+ן אְָ שׁ־ תי בּ ֵ [ betš e˒ an] Betsán, Beisán.
+
+הָ אָ כָ בּ [ baka˒] morera (arbusto) (?). כָ בּ
+
+[bakah]Q. yPi. llorar.
+
+אֶ כֶ בּ [ béke˒] llanto.
+
+הָ רוּ כִּ בּ [ bikkurah] breva (higo tempranero).
+
+םי רוּ ִ כִּ בּ [ bikkurim] primicias, primeros frutos. תוּ כָ בּ [ bakut] llanto.
+
+י כְ ִ בּ [ beki] llanto, duelo.
+
+הָ רי כְ ִ בּ [ bekirah] la (hija) mayor.
+
+תי כְ ִ בּ [ bekit] luto.
+
+רַ כָ בּ [ bakar]Q.dar cosecha nueva, dar la parte del primogénito;Pu. ser primogénito; Hi.tener el primer
+
+parto.
+
+רֶ כֵ בּ [ béker] camello (joven).
+
+רוֹ כְ בּ /רֹ כְ בּ [ bekor] primogénito; primicia. הָ רֹ כְ בּ [ bekorah] derechos de primogénito.
+
+הָ רְ כִ בּ [ bikrah] camella (joven).
+
+תוֹ רֻ כַּ בּ [ bakkurot] brevas.
+
+לַ בּ [ bal] no.
+
+*ג לָ ַ בּ [ balag]Hi.tener sosiego, alegrarse.
+
+cstr. constructo
+
+pl. plural
+
+הָ לָ בּ [ balah]Q.(des)gastarse, agotarse, pudrirse; Pi.gastar, acabar. הֶ לָ בּ [ baleh] gastado, viejo.
+
+*הָ לָ בּ [ bala˒]Pi. desanimar. הָ הָ לַּ בּ [ ballahah ] espanto, terror. י וֹ לְ בּ [ beloy] trapos.
+
+י לְ ִ בּ [ beli] vacío, nada, sin, in-.
+
+לי לְ ִ בּ [ belil] forraje.
+
+הָ מ־ י לְ ִ בּ [ beli-mah] vacío.
+
+לַ ע ַ יּ לְ ִ בּ [ beliyyá˒ al] inútil, perverso, destructor. לַ לָ בּ [ balal]Q.amasar; dar pasto; confundir;Hitpoelmezclarse. םַ לָ בּ [ balam]Q.refrenar.
+
+סַ לָ בּ [ balas]Q.picar (ciertas frutas).
+
+עַ לָ בּ [ bala˒] I.Q.devorar;Ni.ser devorado;Pi.devorar, destruir; Pu.perecer;Hitp. desvanecerse. II.Pi.
+
+informar; Pu.ser comunicado. III. Ni. y Pu. confundirse; Pi. confundir; Hitp. mostrarse confundido. עַ לַּ בּ [ balla˒] momento.
+
+עַ לֶ בּ [ béla˒] bocado; destrucción.
+
+י דֲ ֵ עְ לַ ב ,י ֵ דֲ עְ לִ בּ [ bil˒ ade, bal˒ ade] sin intervención de, fuera de. םָ עְ לִ בּ [ bil˒ am] Balaam.
+
+קַ לָ בּ [ balaq]Q.asolar;Pu.ser devastado.
+
+רַ צּאַ שְׁ לֵ בּ [ belš a˒ ˒ ar] Baltasar. י תְּ ִ לִ בּ [ bilti ] no, excepto, sin, porque no, hasta que no;י תְּ ִ לִ בְ ל para que no, de modo que no, que no. הָ מָ בּ [ bamah] altura, cerro, colina.
+
+וֹ מְ בּ [ bemo] = ְ בּ [be].
+
+ן בּ ֵ [ ben] (pl.םי ִ נ בּ ָ ) hijo, niño, descendiente, sucesor; que tiene una relación estrecha con alguien o algo.
+
+4
+
+הָ נ בּ ָ [ banah]Q.construir, reconstruir, levantar, fundar; Ni.pasivo deQ. הָ י ְ נ בּ ִ [ binyah] edificio.
+
+ן ָ י ְ נ בּ ִ [ binyan] edificio.
+
+רֶ סֹ בּ [ bóser] frutas (uvas) agrias.
+
+4 Ortiz, P., V., S.J. (2000). Lexico Hebreo-Espanol y Arameo-Espanol(electronic ed.). Miami: Sociedades Biblicas
+
+Unidas.
+
+Q.Qal
+
+Ni.Nifal
+
+רוּ בֲ עָ בּ [ ba˒ abur] a causa de, para; para que, con el fin de. דַ עַ בּ [ bá˒ ad] (cstr.דַ עְ בּ ) por, a través de, detrás de, sobre, a favor de.
+
+ז הָ עָ בּ [ ba˒ ah] I.Q.preguntar;Ni.ser registrado; II. Q.hincharse, hacer hervir, incitar; Ni. combarse.
+
+ַ עֹ בּ [ bó˒ az] Booz.
+
+הָ לוּ עְ בּ [ be˒ ulah] mujer casada (→ לַ עַ בּ ). םי תוּ ִ עִ בּ [ bi˒ utim] terrores.
+
+טַ עָ בּ [ ba˒ a˒]Q.dar coces.
+
+רי עְ ִ בּ [ be˒ ir] ganado, animales.
+
+ל ַ עָ בּ [ ba˒ al]Q.ser dueño, dominar, ser marido, casarse (el hombre);Ni.casarse (la mujer). לַ עַ בּ [ bá˒ al] dueño, señor, esposo; Baal, ídolo; que tiene/está dotado de. הָ לֲ עַ בּ [ ba˒ alah] dueña, que tiene/está dotada de. רַ עָ בּ [ ba˒ ar] I.Q. yPi.arder, encender(se), incendiar(se), quemar(se);Pu. encenderse;Hi. incendiar,
+
+quemar. II. Pi. pastar, arrasar; Pu. ser arrasado; Hi. dejar pastar, extirpar. III. Q. ser necio, brutal; Ni.
+
+ser estúpido, ignorante.
+
+רַ עַ בּ [ bá˒ ar] estúpido, necio.
+
+הָ רֵ עְ בּ [ be˒ erah] incendio.
+
+*תַ עָ בּ [ ba˒ at]Ni.espantarse, sentir miedo;Pi.espantar, intimidar, infundir terror. הָ תָ עְ בּ [ be˒ atah] terror, espanto .
+
+ץֹ בּ [ bo˒] barro, lodo.
+
+הָ צִּ בּ [ bi˒ ˒ ah] ciénaga, pantano.
+
+רוּ צָ בּ [ ba˒ ur] fortificado, fuerte.
+
+רי צָ ִ בּ [ ba˒ ir] I. impenetrable; II. vendimia.
+
+לָ צָ בּ [ ba˒ al] cebolla.
+
+עַ צָ בּ [ ba˒ a˒]Q.yPi.cortar (del telar), acabar; aprovecharse, codiciar. עַ צֶ בּ [ bé˒ a˒] ganancia, provecho, soborno.
+
+קַ צָ בּ [ ba˒ aq]Q.hincharse.
+
+קֵ צָ בּ [ ba˒ eq] masa (para hacer pan, etc.).
+
+רַ צָ בּ [ ba˒ ar] I.Q. vendimiar; II.Q.humillar; III.Ni.ser irrealizable, ser excluido; Pi. hacer inexpugnable. רֶ צֶ בּ [ bé˒ er] oro.
+
+cstr. constructo
+
+Pi. Piel
+
+Pu.Pual
+
+Hi.Hifil
+
+* forma hipotética
+
+הָ רְ צָ בּ [ bo˒ rah] redil.
+
+הָ רָ צַּ בּ [ ba˒ ˒ arah] sequía.
+
+ן וֹ רָ צִּ בּ [ bi˒ ˒ aron] fortaleza. תֶ רֹ צַּ בּ [ ba ˒ ˒ óret ] sequía. קֻ בְ קַ בּ [ baqbuq] botella, cántaro.
+
+ַ עי קְ ִ בּ [ beqía˒] grieta.
+
+עַ קָ בּ [ baqa˒]Q.yPi.rajar, romper, cortar, invadir; incubar; Ni. yPu.romperse, estallar, rasgarse; Hi.
+
+abrir paso; Ho. abrirse brecha; Hitp. reventarse, agrietarse.
+
+עַ קֶ בּ [ béqa˒] medio siclo.
+
+הָ עְ קִ בּ [ biq˒ ah] valle, llanura.
+
+קַ קָ בּ [ baqaq] I.Q.arrasar;Ni.quedar arrasado;Poel devastar; II.Q. ser exuberante. רָ קָ בּ [ baqar] ganado mayor (toros, vacas), res.
+
+*רַ קָ בּ [ baqar]Pi.examinar, reflexionar, visitar.
+
+רֶ קֹ בּ [ bóqer] mañana (parte del día), madrugada; mañana (día siguiente). הָ רָ קַּ בּ [ baqqarah] preocupación.
+
+תֶ רֹ קִּ בּ [ biqqóret] indemnización.
+
+*שַׁ קָ בּ [ baqaš ]Pi.buscar, procurar, averiguar, pretender; Pu. ser buscado. הָ שָׁ קַּ בּ [ baqqaš ah] petición.
+
+רַ בּ [ bar] I. limpio, puro; II. hijo; III. trigo, grano; IV. campo abierto.
+
+אָ רֹ בּ [ bor] lejía; limpieza, pureza. רָ בּ
+
+[bara˒] I. Q. crear;Ni. ser creado, forjado; II. Hi. cebar; III. Pi. desmontar, cortar.
+
+רֻ בּרַ בּ [ barbur] ganso, cuclillo (?).
+
+דָ רָ בּ [ barad] granizo.
+
+דַ רָ בּ [ barad]Q.granizar.
+
+דֹ רָ בּ [ barod] manchado.
+
+הָ רָ בּ [ barah]Q.comer;Hi.dar de comer.
+
+רוּ רָ בּ [ barur] puro.
+
+שׁוֹ רְ בּ [ beroš ] pino, enebro (?).
+
+תוֹ רְ בּ [ berot] pino, enebro (?).
+
+תוּ רָ בּ [ barut] comida.
+
+תוֹ רָ בּ [ barot] comida.
+
+Hitp.Hitpael
+
+(?) traducción dudosa
+
+לֶ ז רַ ְ בּ [ barzel] hierro.
+
+חַ רָ בּ [ bara˒] I.Q.huir, escaparse; Hi.deslizar, ahuyentar; II. Hi.herir.
+
+אי רָ ִ בּ [ bari˒] cebado, gordo. האָי רְ ִ בּ [ beri ˒ ah ] portento; criatura. הָ י רִ ְ בּ [ biryah] alimento.
+
+ַ חי רָ ִ בּ [ baria˒] fugitivo.
+
+ַ חי רְ ִ בּ [ beria˒] cerrojo, tranca.
+
+תי רְ ִ בּ [ berit] alianza, pacto, compromiso.
+
+תי רֹ ִ בּ [ borit] lejía.
+
+ְ ךַ רָ בּ [ barak] I.Q.arrodillarse;Ni. hacer arrodillarse; II.Q. bendecir;Ni.bendecirse;Pi.bendecir, felicitar,
+
+alabar; eufemismo por maldecir; Pu. pasivo dePi.; Hitp. bendecirse, felicitarse. ְ ךֶ רֶ בּ [ bérek] (dual:םִ י כְּ ַ רִ בּ ; ו י כְּ ָ רִ בּ ) rodilla. הָ כָ רְ בּ [ berakah] bendición, regalo, acción de gracias; capitulación. הָ כֵ רְ בּ [ berekah] alberca, estanque.
+
+םי מֹ ִ רְ בּ [ beromim] tejido de varios colores. קָ רָ בּ [ baraq] rayo, relámpago.
+
+קַ רָ בּ [ baraq]Q.lanzar un rayo.
+
+םי ִ נ קְ ֳ רַ בּ [ barqonim] zarzas, espinas.
+
+תַ קְ רֽ בּ ָ [ bareqat] esmeralda, berilo.
+
+רַ תֶ קֶ רָ בּ [ baréqet] esmeralda, berilo. רָ בּ
+
+[barar] I. Q. purificar, seleccionar, sacar en limpio; Ni. conservarse limpio; Pi. purificar; Hi. cerner;
+
+Hitp.purificarse; II. Q. y Hi. afilar.

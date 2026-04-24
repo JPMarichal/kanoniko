@@ -1,0 +1,32 @@
+{
+  "title": "Epilogue",
+  "author": "Rodney Turner",
+  "book": "Woman and the Priesthood",
+  "chapter": 11,
+  "total_chapters": 11,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-religious-studies",
+    "women",
+    "priesthood"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Woman and the Priesthood - Rodney Turner.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0d106377-4c25-469e-abc8-d95c12aa4bac",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Rodney Turner. Woman and the Priesthood, 1972."
+}

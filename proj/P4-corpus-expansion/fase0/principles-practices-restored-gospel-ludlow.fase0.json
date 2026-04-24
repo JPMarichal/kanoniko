@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "doctrinal-compendium"
+  ],
+  "category": "books",
+  "author": "Victor L. Ludlow",
+  "source_url": null,
+  "note": "Victor L. Ludlow, BYU. Principles and Practices of the Restored Gospel, 1992."
+}

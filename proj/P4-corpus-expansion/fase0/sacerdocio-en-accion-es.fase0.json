@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "priesthood",
+    "melchizedek",
+    "spanish-lds"
+  ],
+  "category": "books",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "El Sacerdocio en acción (ES)."
+}

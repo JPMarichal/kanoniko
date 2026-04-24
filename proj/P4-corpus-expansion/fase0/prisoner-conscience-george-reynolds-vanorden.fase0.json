@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "george-reynolds",
+    "polygamy-trials",
+    "late-19th-century"
+  ],
+  "category": "biographies",
+  "author": "Bruce A. Van Orden",
+  "source_url": null,
+  "note": "Bruce A. Van Orden, BYU. Prisoner for Conscience' Sake: The Life of George Reynolds, 1992."
+}

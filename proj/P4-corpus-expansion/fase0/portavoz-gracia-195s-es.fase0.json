@@ -1,0 +1,18 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical-periodical",
+    "spanish",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Desconocido (evangelical periodical)",
+  "source_url": null,
+  "note": "Portavoz de la Gracia (periodical issue)."
+}

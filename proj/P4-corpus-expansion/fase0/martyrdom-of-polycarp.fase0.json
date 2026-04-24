@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "martyrdom",
+    "polycarp",
+    "primary-source",
+    "apostolic-fathers"
+  ],
+  "category": "reference",
+  "author": "Anonymous",
+  "source_url": null,
+  "note": "Martyrdom of Polycarp, c. 155-160. Earliest Christian martyrology outside the NT."
+}

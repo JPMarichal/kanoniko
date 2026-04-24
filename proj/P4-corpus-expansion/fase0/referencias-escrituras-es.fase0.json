@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "scripture-references",
+    "study-aid",
+    "spanish"
+  ],
+  "category": "study-aids",
+  "author": "Desconocido",
+  "source_url": null,
+  "note": "Referencias de las escrituras (ES study aid)."
+}

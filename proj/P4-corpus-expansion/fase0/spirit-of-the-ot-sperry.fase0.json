@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "old-testament"
+  ],
+  "category": "books",
+  "author": "Sidney B. Sperry",
+  "source_url": null,
+  "note": "Sidney B. Sperry (1895-1977), BYU. Spirit of the Old Testament, 1940."
+}

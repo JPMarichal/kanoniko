@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "apologetics",
+    "early-20th-century-lds"
+  ],
+  "category": "books",
+  "author": "Orson F. Whitney",
+  "source_url": null,
+  "note": "Elder Orson F. Whitney. The Strength of the 'Mormon' Position."
+}

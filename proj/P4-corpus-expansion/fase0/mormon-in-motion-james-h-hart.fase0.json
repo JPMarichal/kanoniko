@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "james-h-hart",
+    "19th-20th-century-lds",
+    "journals",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Various (ed.)",
+  "source_url": null,
+  "note": "Mormon in Motion: James H. Hart 1825-1906 journals."
+}

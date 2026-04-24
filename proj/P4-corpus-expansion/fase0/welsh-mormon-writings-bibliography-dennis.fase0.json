@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "welsh-mission",
+    "bibliography",
+    "byu-academic"
+  ],
+  "category": "reference",
+  "author": "Ronald D. Dennis",
+  "source_url": null,
+  "note": "Ronald D. Dennis. Welsh Mormon Writings 1844-1862: A Historical Bibliography."
+}

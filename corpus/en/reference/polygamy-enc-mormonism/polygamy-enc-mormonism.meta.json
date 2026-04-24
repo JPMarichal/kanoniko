@@ -1,0 +1,32 @@
+{
+  "title": "Polygamy - The Encyclopedia of Mormonism",
+  "author": "Various (Enc. Mormonism)",
+  "book": "Polygamy - The Encyclopedia of Mormonism",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "encyclopedia-of-mormonism",
+    "polygamy",
+    "reference-article"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Polygamy - The Encyclopedia of Mormonism - Various.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b78378fa-ff4d-4ca2-9b12-0f326d58094f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Polygamy article from Encyclopedia of Mormonism."
+}

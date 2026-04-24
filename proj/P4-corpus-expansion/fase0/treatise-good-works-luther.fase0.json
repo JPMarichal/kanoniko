@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lutheran",
+    "reformation",
+    "16th-century",
+    "works-and-faith",
+    "primary-source",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Martin Luther",
+  "source_url": null,
+  "note": "Martin Luther. A Treatise on Good Works, 1520."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "self-help",
+    "lds-author",
+    "leadership"
+  ],
+  "category": "reference",
+  "author": "Stephen R. Covey",
+  "source_url": null,
+  "note": "Stephen R. Covey. El 8º Hábito (ES translation)."
+}

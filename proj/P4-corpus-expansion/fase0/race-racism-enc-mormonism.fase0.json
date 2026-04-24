@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "encyclopedia-of-mormonism",
+    "race",
+    "racism",
+    "reference-article"
+  ],
+  "category": "reference",
+  "author": "Various (Enc. Mormonism)",
+  "source_url": null,
+  "note": "Race, Racism article from Encyclopedia of Mormonism."
+}

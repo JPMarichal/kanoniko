@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "jewish-studies",
+    "religious-studies-center"
+  ],
+  "category": "books",
+  "author": "Truman G. Madsen (ed.)",
+  "source_url": null,
+  "note": "Truman G. Madsen (ed.). Reflections on Mormonism: Judeo-Christian Parallels, 1978."
+}

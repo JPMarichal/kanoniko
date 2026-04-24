@@ -1,0 +1,33 @@
+{
+  "title": "The Ohio Observer",
+  "author": "Various",
+  "book": "The Ohio Observer",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "19th-century",
+    "ohio",
+    "newspaper",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Ohio Observer, The - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0e9586c7-6f64-4e1b-b8db-f3c5859a65c2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "The Ohio Observer — 19th-c newspaper relevant to Kirtland-era LDS context."
+}

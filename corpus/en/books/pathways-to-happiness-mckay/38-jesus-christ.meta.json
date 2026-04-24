@@ -1,0 +1,32 @@
+{
+  "title": "Jesus Christ",
+  "author": "David O. McKay",
+  "book": "Pathways to Happiness",
+  "chapter": 38,
+  "total_chapters": 103,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "prophet-authored",
+    "happiness",
+    "mid-20th-century"
+  ],
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Pathways to Happiness - David O. McKay.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "8c8a9e10-36c0-4135-b793-42ca028d84aa",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. David O. McKay (1873-1970). Pathways to Happiness."
+}
