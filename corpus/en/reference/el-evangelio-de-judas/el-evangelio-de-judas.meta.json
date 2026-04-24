@@ -1,0 +1,31 @@
+{
+  "title": "El evangelio de Judas",
+  "author": "(unknown)",
+  "book": "El evangelio de Judas",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/evangelio de Judas, El - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": "2015-10-17T06:00:00+00:00",
+  "opf_identifier": "b9d0ccf2-d978-4155-af49-7aad95c1f1c7",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'El evangelio de Judas'. Attribution pending manual research."
+}

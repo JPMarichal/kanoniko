@@ -1,0 +1,31 @@
+{
+  "title": "Were You There?",
+  "author": "(unknown)",
+  "book": "Keeping Christmas, Stories from the Heart",
+  "chapter": 15,
+  "total_chapters": 24,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Keeping Christmas, Stories from the Heart - No specific author.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "85d74a8b-24cf-415f-b538-0139895620fd",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='No specific author'. Classified by title keywords. Original title: 'Keeping Christmas, Stories from the Heart'. Attribution pending manual research."
+}

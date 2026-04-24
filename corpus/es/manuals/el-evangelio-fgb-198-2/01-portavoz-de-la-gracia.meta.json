@@ -1,0 +1,32 @@
+{
+  "title": "Portavoz de la Gracia",
+  "author": "Various",
+  "book": "El evangelio (FGB #198)",
+  "chapter": 1,
+  "total_chapters": 3,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "folleto",
+    "guia-basica",
+    "unclear-attribution"
+  ],
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/evangelio (FGB #198), El - Various.epub",
+  "opf_publisher": null,
+  "opf_date": "2012-08-07T18:20:04+00:00",
+  "opf_identifier": "7735cd57-50df-41d4-991d-a72263c2a03a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'El evangelio (FGB #198)'. Attribution pending manual research."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "activity",
+    "general-conference-aid",
+    "unclear-attribution"
+  ],
+  "category": "manuals",
+  "author": "(unknown)",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'Actividades para la conferencia general'. Attribution pending manual research."
+}

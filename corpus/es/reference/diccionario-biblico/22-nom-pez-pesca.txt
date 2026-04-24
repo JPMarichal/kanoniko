@@ -1,0 +1,1479 @@
+ver, SELA
+
+sit, a4, 198, 299
+
+vet,
+
+Nombre gr. de Sela. Ciudad de Edom. (Véase SELA).
+
+nom, PEZ, PESCA
+
+tip, FAUN ALIM PECE
+
+ver, DRAGÓN, LEVIATÁN
+
+vet,
+
+En Egipto se pescaba en el Nilo y en los diversos brazos que forma antes de llegar al Mediterráneo (Is. 19:8). Durante su esclavitud en Egipto, los israelitas podían comer pescado a voluntad (Nm. 11:5).
+
+A lo largo de la costa mediterránea de la Palestina septentrional, la pesca estaba sobre todo en manos de los tirios y de los sidonios (Neh. 13:16), y al sur en poder de los filisteos. El mar de Galilea pertenecía a los israelitas, y era su principal zona de pesca. Tristram enumera veintidós especies de peces en este mar; una gran cantidad desciende al Jordán, pero todo pez que llega al mar Muerto encuentra la muerte en sus saladas aguas. Había venta de pescado en Jerusalén (2 Cr. 33:14; Neh. 13:16).
+
+La pesca se hacía mediante cañas de pescar, anzuelos, arpones, garfios (Jb. 41:1, 7; Is. 19:8; Am. 4:2; Mt. 17:27), también se echaban redes (Lc. 5:4-7).
+
+El gran pez, o monstruo marino, heb. «Tannin», denota grandes peces del mar (Gn. 1:21; Jb. 7:12). Los dos términos heb. «Dag» y «Dagah» se hallan en Jon. 2:1, 2. En Ez. 32:2 se traduce como «dragón en los mares», siguiendo la LXX y la Vulgata, «dragón». Otras versiones traducen 1054 «monstruo de los mares» o «cocodrilo en los mares». (Véanse DRAGÓN, LEVIATÁN.) El término gr. «kêtos» (Mt. 12:40) designa todo tipo de gran animal marino: grandes peces, o mamíferos marinos, como los delfines, cachalotes, orcas, ballenas, etc. En la LXX se usó el término «kêtos mega» para traducir los dos términos heb. de Jon. 2:1, que significan «gran pez». El término «ballena» no figura ni en el AT ni en el NT, por lo que no se puede presentar objeción alguna a la historia de Jonás con argumentos acerca de lo estrecha de la abertura de algún tipo de ballenas.
+
+Otro término gr. que significa pez, «ichthus», fue adoptado por los cristianos perseguidos de los primeros siglos como símbolo de Cristo, como acróstico. En efecto, se puede formar en base a las iniciales de Iesus Christos Theou Uîos Sõter, «Jesucristo Hijo de Dios, Salvador». La imagen y el nombre del pez se hallan con mucha frecuencia en las paredes de las catacumbas romanas.
+
+nom, PIEZAS DE DINERO (Véase DINERO)
+
+nom, PI-HAHIROT
+
+ver, RAMESÉS, HICSOS, EGIPTO, ÉXODO
+
+vet,
+
+Pi-hahirot y arqueología. El Monolito de el Arish, en el museo de Ismailía fue descubierto algo después de 1860; en 1890 se hizo una traducción parcial del texto (F. L. Griffith); no fue hasta 1936 que se hizo un intento serio de traducirlo totalmente (G. Goyon «Les travaux de Chou et las tribulations de Geb d'après le Naos 2248 d'Ismailia», Kêmi, «revue de philologie et d'archéologie egyptiennes et coptes» VI, 1936, 1-42). En este monolito se menciona que «...su majestad de Shou fue a la batalla contra los compañeros de Apopi» (véase HICSOS, d). El rey y su ejército no volvieron: «Cuando la majestad de Ra-Harmachis luchó contra los malhechores en esta charca, los malhechores no prevalecieron contra su majestad. Su majestad saltó al llamado «Lugar del Torbellino» (Griffith: «The Antiquities of Tell el-Yahudiyeh», Londres, 1890, p. 73). La marcha de Faraón tuvo lugar en medio de una gran perturbación telúrica y una tempestad que ennegreció la tierra. El texto continúa: «Su majestad... (aquí faltan palabras) halla en este lugar llamado Pi-Kharoti.» Unas pocas líneas después se afirma que fue arrojado por una gran fuerza, y echado por los aires por el torbellino de agua alto. Fue al cielo. Esta mención, el paralelismo de los acontecimientos, la mención de «Apopi» como enemigo del soberano egipcio (véase HICSOS, d), la identificación de los hicsos con los amalecitas (véanse EGIPTO, a, c; ÉXODO, b; HICSOS), lleva a la conclusión de que en este monolito tenemos un relato paralelo al de la Biblia acerca de la huida de los hebreos de Egipto, de la muerte de Faraón en Pi-hahirot («ha» es en heb. el artículo determinado, equivaliendo así el Pi-kharoti egip. con el Pi-[ha]hirot heb. Se ha de tener en cuenta que las vocales de la traducción del egip. son una conjetura). Así, aunque no se conoce la situación de Pi-hahirot, aparece una mención independiente del lugar y circunstancias mencionados en la Biblia.
+
+Véase PEREGRINACIÓN POR EL DESIERTO.
+
+nom, PILATO
+
+tip, BIOG HOMB HONT
+
+ver, PROCURADOR
+
+vet,
+
+Su nombre entero era Poncio Pilato (Mt. 27:2). Poncio, en lat. «Pontius», indicaba su relación, por descendencia o adopción, con el «gens» de 1055 Pontii. Pilato podría derivar de «Pilatus», armado de «pilum», o jabalina; también podría provenir de «Pileatus», llevando el «pileus», gorro de fieltro, emblema de la libertad, reservado al esclavo libertado.
+
+Quinto procurador de Judea, a partir de la destitución de Arquelao por Augusto, en el año 6 d.C. (véase PROCURADOR). Por medio de la influencia de Séjano, fue designado procurador de Judea por Tiberio, hacia el año 26 d.C., para suceder a Valerio Grato. Llegó a Judea el mismo año de su nominación. Su esposa lo acompañó (Mt. 27:19). Durante mucho tiempo la ley romana no autorizó a que un gobernador llevara a su esposa a una provincia no pacificada, pero Augusto sí lo permitió (Tácito, Anales 3:33). En contra de la política de los procuradores precedentes, Pilato envió a Jerusalén un destacamento militar con sus enseñas. Ordenó que se entrara en la ciudad por la noche, con las enseñas provistas de águilas de plata y de pequeñas imágenes del emperador, para provocar a los judíos. Una buena cantidad de ellos acudió a Cesarea, la residencia del procurador, para exigir la retirada de las enseñas. Pilato intentó intimidarlos, pero, al ver que estaban dispuestos a dejarse matar en masa, accedió al final a su petición (Ant. 18:3, 1; Guerras 2:9, 2 y 3). Más tarde tomó del tesoro del Templo el dinero sagrado (corbán), para emplearlo en la construcción de un acueducto para llevar a Jerusalén el agua de las regiones montañosas del sur de la capital. El uso secular de un dinero consagrado a Dios provocó una sublevación. Cuando el procurador llegó a Jerusalén, los judíos asediaron su tribunal. Pilato, enterado ya de la rebelión, mezcló entre la multitud a soldados disfrazados, escondiendo garrotes y puñales. Cuando la agitación llegó a su paroxismo, Pilato dio la señal esperada por los soldados. Numerosos judíos murieron asesinados o atropellados por la multitud al huir. No parece haberse dado otra sedición. Pilato finalizó el acueducto, pero se hizo odioso a los judíos (Ant. 18:3, 2; Guerras 2:9, 4). Cuando estaba en Jerusalén, se alojaba en el palacio de Herodes. Hizo colgar después unos escudos de oro, cubiertos de inscripciones idolátricas relativas a Tiberio, aunque sin la efigie del emperador. El pueblo suplicó en vano a Pilato que los quitara. Los nobles de Jerusalén enviaron entonces una petición a Tiberio, que ordenó al procurador que llevara los escudos a Cesarea (Filón, «Legat ad Gaium», 38).
+
+Una carta de Agripa I, citada por Filón, presenta a Pilato como un hombre de carácter inflexible, tan implacable como obstinado. Agripa temía que los judíos fueran a acusar a Pilato ante el emperador de corrupción, violencia, ultrajes al pueblo, crueldad, ejecuciones continuas sin previo juicio, y atrocidades carentes de sentido.
+
+Pilato era procurador cuando Juan el Bautista y Jesús comenzaron sus ministerios (Lc. 3:1). Los procuradores de Judea acudían habitualmente a Jerusalén con ocasión de las grandes fiestas, durante las que se reunían multitudes de judíos. Es posible que fuera durante una de estas solemnidades que Pilato derramó la sangre de algunos galileos en la zona del Templo donde se ofrecían los sacrificios (Lc. 13:1, 2). Los galileos eran propensos a exaltarse durante las fiestas (Ant. 17:10, 2 y 9). Los ejecutados por Pilato habían intentado seguramente iniciar una sublevación. Es indudable que una ejecución tan sumaria de algunos de sus súbditos enfurecería a Herodes Antipas; fuera cual fuera la causa de la enemistad entre él y Pilato, el rencor de Herodes se apaciguó cuando el procurador reconoció la jurisdicción del tetrarca en las cuestiones concernientes a galileos (Lc. 23:6-12), lo que sucedió cuando hubo el proceso al Señor Jesús. La carrera de Pilato y la forma en que trató a Jesús revelan su carácter: mundano, dispuesto a juzgar con justicia siempre y cuando ello no le implicara ningún inconveniente personal. Dispuesto a cometer un crimen que le fuera de provecho, y sin preocuparse por sus deberes, sino por sus intereses. Habiendo proclamado tres veces la inocencia de Jesús, y sabiendo que su deber 1056 era liberarlo, no lo hizo para no hacerse más impopular entre los judíos. Ordenó la flagelación de Cristo, no habiéndolo hallado culpable de nada. Dejó después que los soldados romanos, que se hubieran detenido a la menor indicación de su parte, torturaran de nuevo al preso. Cediendo al final al clamor de los judíos, Pilato accedió a la demanda de ellos, entregando a Jesús a la muerte en la cruz (Mt. 27; Lc. 23).
+
+La carrera de Pilato quedó bruscamente interrumpida. Un impostor samaritano incitó a sus compatriotas a seguirle en el monte Gerizim, para buscar unos vasos de oro escondidos por Moisés y que provendrían del Tabernáculo. Se ha de señalar que Moisés jamás había estado en el monte Gerizim, por cuanto no le fue permitido cruzar el Jordán. Los samaritanos, engañados, se reunieron al pie de la montaña, listos para la ascensión. Como los desventurados iban armados, Pilato situó caballería e infantería en todos los caminos que conducían a Gerizim. Atacaron a estos buscadores de tesoros, dando muerte a muchos de ellos, y tomando a otros como prisioneros, ejecutándolos posteriormente. Los samaritanos denunciaron la crueldad de Pilato al legado de Siria, Vitelio, de quien dependía el procurador. Éste designó a otro procurador, ordenando a Pilato que se dirigiera a Roma para justificarse ante el emperador. Tiberio murió el 16 de marzo del año 37, antes de la llegada de Pilato (Ant. 18:4, 1 y 2). La tradición informa que Pilato fue desterrado a las Galias, a Viena sobre el Ródano, y que se suicidó. Existen numerosos «Hechos de Pilato» (Acta Pilati), pero se contradicen entre sí y son considerados como apócrifos.
+
+nom, PIBESET
+
+tip, CIUD
+
+sit, a4, 73, 282
+
+vet,
+
+(egip. «casa de la diosa Bast»)
+
+Ciudad egipcia (Ez. 30:17). Su nombre gr. era Bubastos, Bubastis (Herodoto 59:137). Esta localidad, que en la actualidad se llama Tell Basta se encuentra en el Delta del Nilo sobre la ribera occidental de la rama Pelusíaca del Nilo a unos 72 Km al oeste-suroeste de la Zoán bíblica.
+
+Entre las ruinas de Pibeset se hallan los vestigios de lo que fuera un soberbio templo de granito rojo dedicado a Bast, la diosa con cabeza de gata.
+
+nom, PICOL
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+Capitán del ejército de Abimelec, rey de Gerar, estuvo presente durante la celebración de un pacto entre Abimelec y Abraham. También asistió a la alianza de Isaac con Abimelec, o con su sucesor que llevaba su mismo título (Gn. 21:22; 26:26).
+
+nom, PIE
+
+tip, COST TIPO
+
+vet,
+
+Debido al polvo del camino, y a lo descubiertos que se llevaban los pies, sin calcetines ni medias, era preciso lavarse los pies con mucha frecuencia. A la llegada a una casa, el dueño de ella, o un siervo, lavaba los pies del visitante; como mínimo, se debía presentar agua para poderse lavar (Gn. 18:4; Lc. 7:44). Así, lavar los pies vino a ser una expresión denotando el hecho de mostrar 1057 hospitalidad (1 Ti. 5:10). La prestación de este servicio de manera voluntaria denotaba una gran devoción; Jesús dio una gran lección de humildad al lavar los pies de Sus discípulos (Jn. 13:4-15).
+
+Para indicar un trabajo muy humilde se usaba la expresión «desatar las correas de las sandalias» (Mr. 1:7; Lc. 3:16; Jn. 1:27).
+
+Para expresar condena y separación, se sacudía el polvo de la ciudad de los pies de uno de una manera pública (Mt. 10:14; Hch. 13:51).
+
+Para expresar el cuidado de Dios sobre Su pueblo durante la peregrinación en el desierto, Moisés les dice: «Tu vestido nunca se envejeció sobre ti, ni el pie se te ha hinchado en estos cuarenta años» (Dt. 8:4; cfr. 29:5).
+
+Como expresión de dominio, se ponía el pie sobre el cuello del vencido (Jos. 10:24, etc.). Son numerosas las expresiones que se usan en la Biblia con el término «pie»: «Cubrirse los pies» se usa eufemísticamente de «hacer las necesidades» (1 S. 24:3). «Hablar con los pies» denota la gran gesticulación con que hablan los orientales, y con la que dan a sus palabras un énfasis y matiz adicionales (Pr. 5:13). «sentado a los pies», para denotar a un discípulo recibiendo enseñanza, (Dt. 33:3; heb. lit.: Lc. 10:39; Hch. 22:3).
+
+Hay frecuentes referencias a los pies en cuanto a la conducción por Dios de los Suyos (cfr. Sal. 91:12, que tiene además aplicación mesiánica; Sal. 121:3). Se hace referencia al andar moral en relación con Dios y los demás (Sal. 73:2; Jb. 23:11; 31:5). Aplicado a los que traen gratas nuevas, «los pies» son un sinónimo de «la llegada» (cfr. Is. 52:7).
+
+nom, PIEDAD
+
+tip, DOCT
+
+vet,
+
+(heb. «ghãhseed», «piadoso», Sal. 4:3; «santo», Sal. 32:6; «rahghãmeem», «piedades», Sal. 25:6; gr. «thesebeia», «adoración» o «reverencia» a Dios, «temor reverencial a Dios», 1 Ti. 2:10; «eusebeia», etim. «adorar bien», y de ahí «piedad hacia Dios»; lat. «pietas»). Es un afecto y respeto hacia Dios y los padres. Al clamar: «misericordia quiero, y no sacrificio, y conocimiento de Dios más que holocaustos» (Os. 6:6; «misericordia» es el término traducido en otros pasajes por piedad), el Señor demanda una respuesta de corazón, un don de todo el ser, en lugar de una religión formalista que cumpla mecánicamente los sacrificios ordenados por la Ley. Pablo, que usa en varias ocasiones este término, escribe a Timoteo: «Ejercítate para la piedad... la piedad para todo aprovecha, pues tiene promesa de esta vida presente, y de la venidera» (1 Ti. 4:7-8).
+
+La encarnación y la glorificación de Cristo constituyen el gran misterio de la piedad (1 Ti. 3:16). La sana doctrina es «conforme a la piedad», por cuanto ambas cosas son inseparables (1 Ti. 6:3). La piedad es nuestra principal fuente de ganancia aquí abajo (1 Ti. 6:6), y debemos buscarla intensamente (1 Ti. 6:11), para vivir verdaderamente «en toda piedad» (1 Ti. 2:2; Tit. 2:12; cfr. 2 P. 1:6).
+
+La marca de la apostasía es la de tener «apariencia de piedad, pero negar(án) la eficacia de ella» (2 Ti. 3:5). Así, debemos dar a Dios un culto que le sea agradable «con temor y reverencia» (He. 12:28).
+
+El hombre piadoso de los Salmos es objeto de la bendición y protección del Señor (Sal. 4:3; 32:6; 86:2). Los judíos y los prosélitos piadosos acogieron felices la predicación del Evangelio (Lc. 2:25; Hch. 2:5; 8:2; 10:2; 13:43). Tanto en nuestros días como entonces, «todos los que 1058 quieren vivir piadosamente en Cristo Jesús padecerán persecución» (2 Ti. 3:12). El mismo Dios da a los creyentes todo aquello que pertenece a la vida y a la piedad, y no dejará de librar de las pruebas a todos los hombres piadosos (2 P. 1:3; 2:9).
+
+La piedad se ejerce también en el seno de la familia y hacia los padres: viene a ser la piedad filial, particularmente grata a Dios. Por cuanto si uno no se cuida de los suyos, y principalmente de los de su familia, ha renegado de la fe, y es peor que un infiel (1 Ti. 5:4, 8).
+
+nom, PIEDRA
+
+tip, CONS TIPO
+
+ver, MESA, LUGARES ALTOS, PESAS Y MEDIDAS, JEROGLÍFICOS, EGIPTO vet,
+
+El suelo rocoso de Palestina exigía frecuentemente sacar las piedras de los campos antes de poderlos cultivar (Is. 5:2). En la guerra se destruían los campos y pozos de los enemigos echando piedras en ellos (2 R. 3:19, 25).
+
+Usos diversos de las piedras:
+
+(A) Construcción:
+
+en diques, muelles (Guerras 1:21, 6);
+
+fortificaciones (1 R. 15:22; Neh. 4:3);
+
+casas (Lv. 14:45; Am. 5:11);
+
+palacios (1 R. 7:1, 9);
+
+fortalezas, templos (1 R. 6:7);
+
+enlosados de patios, columnas (Est. 1:6).
+
+Bajo Herodes, y también en otras épocas, se pavimentaban las calles. De piedra se hacían los acueductos, depósitos, puentes, paredes de protección para los viñedos (Pr. 24:30, 31).
+
+Las piedras de los altares (Éx. 20:25), de los muros y de los majanos conmemorativos no debían ser talladas (Gn. 31:46).
+
+Montones de piedras brutas eran las tumbas de las personas votadas al anatema (Jos. 7:26; 8:29; 2 S. 18:17). Esta forma de sepultura sigue siendo costumbre en Siria y Arabia, incluso si no se trata de criminales.
+
+Ciertos edificios precisaban de piedras serradas, talladas (1 P. 7:9-11), en ocasiones de gran tamaño; éste era el caso para la construcción de los muros del Templo (1 P. 7:10) y para el muelle de Cesarea, construido por Herodes (Guerras 1:21, 6). (B) Bloques aislados.
+
+Utilizados para tapar las cisternas, pozos, la entrada de las tumbas (Gn. 29:2; Mt. 27:60; Jn. 11:38), como mojones para las lindes de campos (Dt. 19:14) y, probablemente, a guisa de indicadores (Jer. 31:21).
+
+En la época romana se hallaban piedras militares a lo largo de las principales vías de comunicación; las había entre Tiro y Sidón, entre Pella y Gerasa; algunas de ellas siguen estando en su sitio. Se levantaban piedras para recordar a ciertas personas o acontecimientos (Gn. 31:45; 35:14, 20; 2 S. 18:18). Se inscribían anales en ciertos de estos monumentos (véase MESA [ESTELA DE)).
+
+Con piedras se hacían ídolos (Lv. 26:1; Dt. 29:17; 2 R. 19:18; cfr. Is. 57:6). Ciertas piedras, casi siempre aerolitos, vinieron a ser sagradas para los paganos. En gr. recibían el nombre de «baituloi» y «baitulia». Se pretendía que se podían mover, hablar, y proteger a los hombres del mal. Su nombre gr., muy probablemente de origen semita, está emparentado con el término 1059 «beth'êl» e indica, posiblemente, que se consideraba que la piedra era la morada de un poder sobrenatural, espíritu o divinidad. Los semitas empleaban este término para designar las rudimentarias estelas erigidas allí donde se celebraba un culto (Dt. 12:3). (Véase LUGARES ALTOS.)
+
+Los israelitas erigían, en ocasiones, una piedra conmemorativa en el lugar en que Dios se les había revelado (Gn. 28:18-22; 35:14; 1 S. 7:12; Is. 19:9), y le daban un nombre religioso a este lugar (Gn. 28:19; 35:7), o incluso a la piedra (1 S. 7:12). De la misma manera, daban en ocasiones a un altar uno de los nombres de Dios (Gn. 33:20; Éx. 17:15; cfr. Gn. 35:7). Sin embargo, los mismos pasajes muestran que no atribuían poder alguno ni a la piedra ni al altar, Constituían un simple recuerdo religioso; la adoración que ellos rendían a Dios era totalmente independiente de ello (Gn. 31:54; 35:1, 7; 1 S. 7:9).
+
+(C) Piedras para diversos usos:
+
+proyectiles de hondas y de catapultas (Jue. 20:16; 1 S. 17:40; 2 Cr. 26:15; Sab. 5:22; 1 Mac. 6:51);
+
+piedras que se tiraban en caso de lapidación.
+
+Se conseguían chispas a base de golpear piedras de pedernal, para encender fuego (2 Mac. 10:3). Unas piedras conformadas adecuadamente servían de cuchillos (Jos. 5:2). Los pesos se hacían frecuentemente de piedras talladas (Dt. 25:13). (Véase PESAS Y MEDIDAS.)
+
+Las tablas de piedra, inscritas, se usaban a guisa de documentos (Éx. 24:12). Se guardaba agua en vasos de piedra (Éx. 7:19; Jn. 2:6).
+
+Los animales destinados a los holocaustos eran degollados sobre mesas de piedra (Ez. 40:42). Para moler grano y reducirlo a harina, se hacía girar una piedra redonda de alrededor de 15 kg. de peso; también se molía el grano en medio de dos piedras superpuestas que servían de muelas (Dt. 24:6).
+
+La piedra, símbolo de dureza, de insensibilidad (1 S. 25:37; Ez. 36:26), representa asimismo la fuerza moral (Jb. 6:12; 42:15). Los discípulos de Cristo son comparados con piedras vivas que forman un templo espiritual, del que Cristo es la piedra angular (Ef. 2:20-22; 1 P. 2:4-8).
+
+nom, PIEDRA ANGULAR o piedra del ángulo.
+
+tip, TIPO CONS
+
+ver, MESA, LUGARES ALTOS, PESAS Y MEDIDAS, JEROGLÍFICOS, EGIPTO vet,
+
+Era la piedra fundamental que constituía el ángulo exterior de un edificio. Piedra situada en el ángulo donde se encuentran dos muros, manteniéndolos unidos. Toda piedra que ocupe esta posición desde la base (Jb. 38:6; Is. 28:16) hasta el tejado (Sal. 118:22; Zac. 4:7) es una piedra angular.
+
+En sentido figurado, Cristo es la principal piedra del ángulo (Ef. 2:20; 1 P. 2:6), así como la cabeza del ángulo (Mt. 21:42; 1 P. 2:7).
+
+nom, PIEDRA DE ROSETTA. Véase JEROGLÍFICOS, EGIPTO, e.
+
+nom, PIEDRAS PRECIOSAS
+
+tip, COSM TIPO
+
+vet, La Biblia menciona la mayor parte de las piedras preciosas que se conocen en la actualidad, pero 1060 es, en ocasiones, difícil hallar la correspondencia exacta entre los nombres que se hallan en las lenguas originales con los de nuestra nomenclatura actual. Se pueden destacar, en particular, tres listas de estas gemas:
+
+las doce piedras grabadas del pectoral del sumo sacerdote (Éx. 28:17-21; 39:10-13); las nueve piedras del ornato del rey de Tiro (en tanto que en la LXX se añaden doce, Ez. 28:13), y
+
+las doce piedras de los cimientos de la Nueva Jerusalén (Ap. 21:19-20). Las piedras preciosas eran utilizadas para:
+
+confeccionar los ornamentos sacerdotales y reales (2 S. 12:30), ofrecer ricos presentes (1 R. 10:2),
+
+servir de adorno femenino (Ap. 17:4),
+
+la decoración del Templo (1 Cr. 29:2, 8; 2 Cr. 3:6),
+
+conseguir acumular un gran valor en poco volumen (2 Cr. 32:27), servir de sello (Éx. 39:14).
+
+Ciertos pasajes indican el origen de estas piedras (Gn. 2:12; 1 R. 10:11, Jb. 28:6, 16-19, Ez. 27:16).
+
+Con frecuencia se citan las piedras preciosas como símbolo: de esplendor celeste (Éx. 24:10; Is. 54:11-12; Ez. 1:26; 10:1; Ap. 4:3), de belleza resplandeciente (Lm. 4:7; Cnt. 5:14),
+
+de gran valor (Pr. 17:8; Jb. 28:16-19),
+
+de dureza extremada (Ez. 3:9; Zac. 7:12; Jer. 17:1),
+
+de duración inalterable (1 Co. 3:12), y
+
+de un color particular (Ap. 9:17).
+
+(a) Ágata.
+
+(nombre que se deriva del de un río de Sicilia, donde abundan estas piedras). Se presenta bajo diversas especies de cuarzo coloreado: amatista, calcedonia y jaspe. Sobre el pectoral del sumo sacerdote, la ágata era la piedra central de la tercera hilera de piedras preciosas (Éx. 28:19; 39:12). (Heb. «sebo».) También es mencionada en Ap. 21:19 como tercer cimiento de la Nueva Jerusalén. Ver nota al fin de este artículo.
+
+(b) Amatista.
+
+(el nombre heb., «ahlama», sugiere la idea de una piedra preciosa que hace delirar). Piedra de gran valor, la última de la tercera hilera sobre el pectoral del sumo sacerdote (Éx. 28:19; 39:12). El duodécimo cimiento de la Nueva Jerusalén es de amatista (Ap. 21:20). Se trata de una variedad transparente de cuarzo. Es límpida, púrpura o de color morado tendiendo al azul, se cree que el origen de este color es el manganeso. Los hebreos podían conseguir la amatista en el país de Edom, en Egipto, Galacia, Chipre pero los más bellos especímenes se conseguían de la India y de España.
+
+(c) Berilo.
+
+(A) Heb. «tarshish»; piedra preciosa relacionada indudablemente con el lugar de origen de la primera piedra de la cuarta hilera del pectoral (Éx. 28:20; 39:13; Cnt. 5:14; Ez. 1:16; 10:9; 28:13; Dn. 10:6). Ninguno de los pasajes da indicación alguna del color de esta piedra. Hay algunos comentaristas que traducen el «tarshish» de Cnt. 5:14 por topacio y «tarshish» de Éx. 28:20 por calcedonia. En la LXX se traduce como crisólito en Éx. 28:20; 39:13; Ez. 28:13, y como «anthrax», que se traduce «carbunclo», en Ez. 10:9. (B) El término gr. «beryllos» de Ap. 21:20 se traduce como berilo, para designar el octavo 1061 fundamento de la Nueva Jerusalén. El berilo es un mineral de roca, formado especialmente por sílice y aluminio; por lo general es de color verde o verde azulado; aparece también en variedades azules, rosas, amarillas, o de color de aguamarina; está emparentada con la esmeralda.
+
+(d) Carbunclo.
+
+(A) Heb. «bareketh» y «bar'kath»: brillante como el rayo (Ez. 28:13); la primera piedra de la segunda hilera del pectoral (Éx. 28:18-19). En la LXX, la Vulgata y Josefo no se traduce como carbunclo, sino como esmeralda.
+
+(B) Heb. «'Ekdah», «resplandor», «chispa» (Is. 54:12). Piedra luminosa que tiene el aspecto de un carbón ardiendo. La LXX traduce «anthrax», en lat. «carbunculus». Según el naturalista y minerólogo Dana, Plinio da el nombre de carbunclo a tres piedras diferentes: al granate, al rubí y al zafiro. El granate, que Plinio clasifica entre los carbunclos, es el granate noble, llamado asimismo granate oriental, o almandino. Su transparencia y color son magníficos. Los granates más bellos vienen de Pegou, en la Baja Birmania. El rubí es el espinela, de un rojo claro o solamente translúcido. En cuanto al zafiro, ver en su apartado correspondiente. (e) Coral.
+
+heb.: «Ra'moth». Esta sustancia era clasificada entre las más preciosas (Jb. 28:18). Los mercaderes arameos llevaban el coral a los mercados de Tiro (Ez. 27:16). Se extraía del Mediterráneo y del mar Rojo, y con él se fabricaban collares y amuletos. El coral es el esqueleto calcáreo de cienos pólipos. Se trata de zoófitos provistos de una boca con tentáculos. El pólipo fijado a la roca se multiplica y forma polímeras, análogas a pequeños árboles hechos de zoófitos medio separados y medio adheridos. El carbonato de calcio que constituye el esqueleto del coral proviene del agua. Con frecuencia, el coral adopta el aspecto de un hermoso árbol ramificado, o de un arbusto, de donde viene su nombre de zoófito (animal con el aspecto de una planta). Algunas especies llegan a formar grandes arrecifes. El heb. «peninim» parece más incierto. En Lm. 4:7 la versión Reina-Valera traduce «coral», junto con la mayor parte de las otras versiones. Algunos, sin embargo, traducen «rubíes»; la misma Reina-Valera traduce este término por «piedras preciosas» en Pr. 3:15.
+
+(f) Cornalina o cornerina.
+
+Variedad de calcedonia que los griegos llamaban sardio. Piedra preciosa (Ap. 4:3) constituyendo el sexto cimiento de la Nueva Jerusalén (Ap. 21:20). Los antiguos llamaban sardiones a dos tipos de piedras, que distinguían por su color: La variedad de un rojo transparente, que es asimismo una cornalina, pero para la que se reserva el nombre de sardio. Plinio dice que los sardios se hallaban cerca de Sardis, de donde procedía el nombre, pero que las variedades más bellas procedían de Babilonia. En la actualidad, las cornalinas más bellas proceden de la India. Algunas proceden de Arabia. Es posible que los antiguos hebreos las consiguieran de este último país. En el AT, el término sardio traduce el heb. «'õdem», piedra enrojecida; figuraba como primera piedra en la primera hilera del pectoral (Éx. 28:17). El rey de Tiro se adornaba con ella (Ez. 28:13, «cornerina»). Hay exegetas que opinan que se trata de rubíes, pero la LXX traduce «'õdem» como sardio.
+
+(g) Crisólito.
+
+gr.: «piedra de oro». Mineral constituido especialmente por silicio y magnesio; hay dos variedades de crisólitos, una noble y otra común. La piedra preciosa transparente es de un verde amarillento y claro; se halla en el Medio Oriente; se ignora si el crisólito de Plinio, el del NT, tenía color de oro, o si se trataba de un topacio. El crisólito constituye el séptimo cimiento de la 1062 Nueva Jerusalén (Ap. 21:20).
+
+(h) Crisopraso.
+
+gr.: «piedra de verde dorado». Variedad de calcedonia de tintes verde manzana, color debido a la presencia de óxido de níquel. El más conocido proviene de Silesia. El crisopraso forma el décimo cimiento de la Nueva Jerusalén (Ap. 21:20).
+
+(i) Diamante.
+
+Mineral de una dureza y brillo incomparables; es transparente y puede adquirir una pulimentación maravillosa. El diamante es carbono puro cristalizado. Se cree que no había sido conocido entre los hebreos, ni incluso por los antiguos griegos. Es mencionado por primera vez de una manera inequívoca por el poeta latino Manilius (alrededor del año 12 d.C.), y Plinio lo describe sin posibilidad de confusión en su Historia Natural, aparecida dos años antes de su muerte (79 d.C.). La piedra que los griegos y romanos conocieron con el nombre de adamas (invencible) era posiblemente una especie de corindón, la piedra más dura después del diamante. En la versión de Reina-Valera se traducen dos términos como diamante: (A) Heb. «Yahalom», piedra preciosa (Ez. 28:13, traducida «jaspe» en este pasaje), la tercera de la segunda hilera del pectoral del sumo sacerdote (Éx. 28:18; 39:11). La LXX traduce «ónice». (B) Heb. «shamir», piedra dura, tallada en punta, para grabar (Jer. 17:1). En otros pasajes se menciona el diamante como símbolo de dureza (Ez. 3:9; Zac. 7:12). (j) Esmeralda,
+
+(A) Heb. «nõphek». Era la tercera piedra de la primera hilera del pectoral (Éx. 28:15, 18; 39:11). Los sirios llevaban esta piedra preciosa a Tiro (Ez. 27:16); los tirios hacían ornamentos con ella (Ez. 28:13). No se sabe con exactitud de qué piedra preciosa se trata, y es con dificultad que se distingue entre esmeralda y carbunclo, sea en la LXX, en la Vulgata, o en las versiones modernas.
+
+(B) Gr. «smeragdos», piedra preciosa de un bello color verde. Es posible que designara a cualquier cristal de color verde. Se usaba como sello (Eclo. 32:8); el arco iris es comparado con ella (Ap. 4:3); es el cuarto cimiento de la Nueva Jerusalén (Ap. 21:19). La esmeralda es una variedad del berilo; se distingue por su coloración, de un verde brillante, del tipo del berilo, que la tiene de un color verde pálido al azul claro, al amarillo o al blanco. El color del berilo proviene del hierro, en tanto que el de la esmeralda le viene dado por el cromo. Las esmeraldas se hallaban en el pasado en Chipre, en Egipto y en los montes de Etiopía. (k) Jacinto.
+
+Piedra preciosa que forma el undécimo cimiento de la Nueva Jerusalén (Ap. 21:20). Se hace alusión a su color (Ap. 9:17), que es incierto. Ciertos comentaristas piensan que se trata de un zafiro de color azul. El término heb , traducido, en ocasiones, por jacinto figura asimismo en Éx. 28:19 donde designa la primera piedra de la tercera hilera del pectoral. Es posible que se trate de un ópalo o de ámbar (Véase también Ópalo en este mismo articulo). (l) Jaspe,
+
+heb. «yãsh'pheh»; gr. «iaspis» (Éx. 28:20; Ez. 28:13; Ap. 4:3). El jaspe es una variedad de cuarzo: rojo, marrón, amarillo, verde o gris, y opaco. Los antiguos daban al término jaspe un sentido más amplio. Según Plinio, este término designaba asimismo una piedra preciosa transparente o translúcida, de color verde (cfr. Ap. 21:11), por lo que se trataría de una especie de calcedonia o de ágata. La LXX traduce el término heb. por ónice. (m) Ónice, Del gr. «onyx», «uña». Traducción del heb. «shõsham», que designa una piedra preciosa (Jb. 1063 28:16; Ez. 28:13), que se hallaba en el país de Havila (Gn. 2:12). Dos piedras de ónice que llevaban, cada una, los nombres de las seis tribus de Israel y estaban fijadas a las hombreras del efod del sumo sacerdote (Éx. 28:9, 12). La segunda piedra de la cuarta hilera del pectoral era asimismo de ónice (Éx. 28:20). David reunió ónices para el Templo que su hijo iba a construir (1 Cr. 29:2). Esta piedra es una variedad de la ágata (de cuarzo) con rayas de diferentes tintas. (n) Ópalo.
+
+heb. «Leshem», primera piedra de la tercera hilera del pectoral (Éx. 28:19). La LXX, Josefo (Guerras 5:5, 7) y la Vulgata vierten «ligurio», piedra que no ha sido identificada. Es posible que se trate del jacinto, como lo traduce la versión Reina-Valera (véase el párrafo más arriba dedicado a la piedra jacinto). También se ha propuesto el ámbar. (o) Rubí.
+
+Para el sentido de «p'ninim» véase CORAL.
+
+Los rubíes son mencionados en Is. 54:12; Ez. 27:16. En Cnt. 5:14 algunas versiones traducen «rubíes» y Reina-Valera, «jacintos». El sentido de la expresión es incierto y es posible que designe de manera general una piedra roja que los traductores interpretan de diversas maneras (p) Sardio. Véase CORNALINA en este mismo artículo.
+
+(q) Topacio.
+
+gr. «topazion», probablemente el heb. «pit'dah».
+
+Era la segunda piedra de la primera hilera del pectoral (Éx. 28:17; cfr. LXX, Ant. 3:7, 5). Se encontraba en Etiopía (Jb. 28:19), y en una isla del mar Rojo (Diódoro de Sicilia, 3:38, 39; Plinio, Historia Natural 37:9). Los tirios la conocían (Ez. 28:13). Constituye el noveno cimiento de la Nueva Jerusalén (Ap. 21:20). El topacio de los antiguos era una variedad amarilla del corindón.
+
+(r) Zafiro.
+
+heb. «sappîr»; gr. «sappheiros».
+
+Era la piedra central de la segunda hilera del pectoral del sumo sacerdote (Éx. 28:18). Constituye también el segundo cimiento de la Nueva Jerusalén (Ap. 21:19). Los príncipes de Israel son comparados a zafiros (Lm. 4:7) El zafiro era una piedra de gran valor (Jb. 28:16; cfr. Cnt. 5:14; Is. 54:11; Lm. 4:7; Ez. 10:1; 28:13). El zafiro es una variedad de corindón cristalizado azul transparente (cfr. Éx. 24:10), siendo las otras dos el corindón propiamente dicho y el esmeril. La dureza de esta piedra sólo es sobrepasada por la del diamante. Procede de la India, Ceilán y Etiopía
+
+Nota:
+
+La ágata que aparece en Ap. 21:19 es una traducción de «Chalkêdõn», «Kalkêdõn», de la ciudad de Asia Menor. Se trata de una variedad de ágata que se halla en Calcedonia, en Asia Menor. Traducida en la revisión antigua de Reina-Valera como calcedonia (cfr. también F. Lacueva: «Nuevo Testamento interlineal griego-español», loc. cit.), se traduce en las modernas revisiones como «ágata». (Véase Ágata en este mismo artículo.) La calcedonia había sido considerada como una variedad distinta del sílex, pero en la actualidad es considerada como una variedad de cuarzo; es dura, estando constituida sobre todo de sílice; de color lechoso, puede también llegar a un gris pálido, marrón, azul, etc. Al no estar perfectamente cristalizada, presenta frecuentemente venas de cuarzo en nódulos semejantes a los granos de un racimo, o a estalactitas. Esta piedra no parece haber recibido el nombre de calcedonia hasta la Edad Media. Parece, así, que el apóstol Juan quiso con este nombre designar otra piedra, quizá la esmeralda de Calcedonia o el jaspe de 1064 este país, piedras mencionadas por Plinio (37:18 y 37).
+
+nom, PIEDRECITA BLANCA
+
+vet,
+
+(Ap. 2:17).
+
+Se dan diversas explicaciones:
+
+(a) Tableta de piedra que llevaba el nombre de alguien; empleada para echar suertes. (b) Piedrecita que llevaba el nombre de un candidato a las elecciones gr.; éstas se efectuaban echando suertes entre los elegibles.
+
+(c) Tésera de absolución, utilizada en los tribunales griegos. (d) Tésera presentada al vencedor de los Juegos Olímpicos. (e) En Roma, orden que el emperador hacía arrojar a los vencedores durante los juegos en las arenas.
+
+(f) La mejor explicación parece ser la que hace referencia a una pequeña piedra blanca (de uso corriente en las inscripciones); su color simboliza el carácter celeste del cristiano victorioso. El nombre inscrito es la garantía de la promoción a la gloria venidera.
+
+nom, PINÁCULO
+
+tip, CONS
+
+vet,
+
+(gr. «pterygion»).
+
+Lleva el artículo, refiriéndose a alguna parte elevada del Templo que se desconoce en la actualidad (Mt. 4:5; Lc. 4:9).
+
+nom, PINTURAS
+
+vet,
+
+En Is. 2:16, la expresión «pinturas preciadas» puede también traducirse como «pinturas, o imágenes de deseo», con referencia a algo en lo que se pone el corazón. La mayor aproximación que se conoce en el antiguo Egipto de lo que ahora recibe el nombre de «pinturas», la constituyen las representaciones coloreadas hechas en los muros de los templos y de las tumbas.
+
+Los muros de Babilonia estaban adornados con pinturas sobre ladrillos esmaltados: parece que se hace alusión a ellas en Ez. 23:14.
+
+nom, PIOJO
+
+tip, FAUN INSE
+
+vet,
+
+(heb. «kinnãm» o «kinnim»).
+
+Pequeño insecto molesto, parásito del hombre.
+
+Fue la tercera plaga de Egipto (Éx. 8:13).
+
+Hay traductores que vierten «mosquito», pero Josefo indica que se trataba de piojos, y con toda probabilidad es él quien tiene razón. Los piojos constituyen en Oriente una plaga permanente de primera magnitud. Es difícil imaginar la angustia causada por su prodigiosa multiplicación. Para escapar a esta plaga, los musulmanes se rasuran la cabeza y se depilan todo el cuerpo; con ello siguen la antigua costumbre de los sacerdotes egipcios.
+
+nom, PIRATÓN
+
+tip, CIUD
+
+sit, a2, 293, 227
+
+vet,
+
+Ciudad del monte de los amalecitas, en Efraín.
+
+Abdón el juez, y Benaía el héroe de David, eran piratonitas (Jue. 12:13-15; 2 S. 23:30; 1 Cr. 27:14).
+
+Báquides la fortificó (1 Mac. 9:50; Ant. 13:1, 3).
+
+Robinson da una identificación plausible: Fer'ata, sobre una colina, a unos 12 Km. al oeste-suroeste de Siquem.
+
+nom, PISGA
+
+tip, MONT
+
+ver, NEBO
+
+sit, a3, 516, 100
+
+vet,
+
+= «parte, división».
+
+La parte de la cadena de los montes Abarim que se hallaba cerca del extremo noreste del mar Muerto (Dt. 34:1; 3:27; 32:49). El mar Salado (mar Muerto) bañaba el pie del Pisga (Dt. 3:17). Desde la cima se divisaba el desierto (Nm. 21:20). Balac y Balaam llegaron al campamento de Zofim, cercano a la cumbre (Nm. 23:14), que recibía el nombre de Nebo. Desde esta altura se podía ver una gran parte de Canaán, al oeste del Jordán; es desde allí que Moisés contempló la Tierra Prometida (Dt. 3:27; 34:1-4). (Véase NEBO.)
+
+El Pisga estaba sobre la frontera meridional del reino de Sehón, rey de los amorreos (Jos. 12:2, 3). En la época de Eusebio, la región montañosa vecina del monte Peor se seguía llamando Phasgo. El pico que recibe el nombre de Ras Siaghah, 31° 46' N, 35° 43' E, es probablemente el lugar.
+
+nom, PISIDIA
+
+tip, REGI
+
+sit, a9, 445, 203
+
+vet,
+
+Región del Asia Menor.
+
+Sus límites eran: al norte, Frigia; al sur, Licia y Panfilia; al este, Licaonia; al oeste, Caria; al este, la frontera iba a lo largo de Isauria, sin estar muy precisada. Pisidia era una parte de la provincia romana de Galacia. Los montes Taurus la cruzaban. Sus habitantes eran tan belicosos que ni los persas ni los romanos pudieron nunca someterlos del todo.
+
+Pablo anunció el Evangelio en Antioquía de Pisidia, su capital (Hch. 13:14).
+
+nom, PISÓN
+
+tip, RIOS
+
+ver, EDÉN
+
+vet,
+
+Uno de los cuatro brazos en que se dividía el río que salía de Edén (Gn. 2:11). (Véase EDÉN.) nom, PITÓN
+
+tip, DIOS ARQU
+
+ver, EGIPTO, ÉXODO, FARAÓN, HICSOS, CRONOLOGÍA, RAMESÉS 1066 vet,
+
+(egip.: «casa de Atum»: «Tum», «Tem»). Se refiere al dios egip. representado por el sol en su ocaso (copto: «Pethom», «Peithom»; gr. «Patoumos»).
+
+Junto con Ramesés, una de las dos ciudades-granero que los esclavos israelitas construyeron en Egipto para Faraón (Éx. 1:11). Edouard Naville, encargado por el Fondo Egipcio de llevar a cabo excavaciones en Tell el-Maskhûtah, descubrió allí la antigua Pitón, sobre la ribera meridional del canal de agua dulce que llevaba de El Cairo a Suez por el Wadi Tumilat. Neville atribuyó la primera construcción de esta ciudad a Ramsés II, manteniendo la hipótesis de que él fue el faraón de la opresión. Sin embargo, la identificación de Ramsés II, bien con So (Courville) o con Necao II (Velikovsky), en la época de los reyes de Judá, y el hecho documentado de que se llevaron a cabo extensas reconstrucciones en Egipto una vez arrojados los hicsos del país, que lo habían devastado, indica que las inscripciones de Ramsés II en Pitón y Ramesés no se refieren a su primera construcción, sino a su «reconstrucción». (Véanse EGIPTO, ÉXODO, FARAÓN, HICSOS; cfr. CRONOLOGÍA.). Como algunos reconocen, este rey es conocido por atribuirse las construcciones de sus predecesores, y así es explicable que reconstruyera y embelleciera Pitón y Ramesés (Avaris-Tanis).
+
+Se hallan grandes edificios bajo tierra al noreste del templo de Tum. Los muros de estas construcciones tienen casi 2,75 m. de grosor; están hechos de ladrillos bastos, unidos con mortero. Cosa interesante, algunos ladrillos no contienen paja (cfr. Éx. 5:10-12). Estas murallas encierran un buen número de locales rectangulares que no se comunican entre sí; se tenía que acceder a ellos desde arriba. Naville cree que se trata de graneros en los que el faraón almacenaba los víveres para el avituallamiento de sus tropas, o incluso de las caravanas dispuestas a cruzar el desierto para ir a Siria. Albright, al igual que otros, mantiene, sin embargo, la postura de que Pitón debe ser identificada con Tell Retabeh, a unos 13,5 Km. de Tell el-Maskhûtah. Este último tell es identificado por él como Sucot. De todas maneras, es evidente que ambas poblaciones están relacionadas con almacenes y suministros, y con trabajo esclavo. (Véase RAMESÉS.)
+
+Bibliografía:
+
+Courville, D. A.: «The Exodus Problem and its Ramifications» (Challenge Books, Loma Linda, Calif. 1971);
+
+Free, J. P.: «Archaeology and Bible History» (Van Kampen Press, Wheaton, Illinois, 1950); Velikovsky, I.: «Ages in Chaos» (Doubleday, Garden City, N. Y., 1952), Velikovsky, I.: «Ramses II and his time» (Abacus, Londres, 1981).
+
+nom, PLAGAS
+
+ver, MANÁ, PIOJO, PASCUA, EGIPTO (Estancia israelita), HICSOS vet,
+
+Las plagas son castigos que Dios inflige al hombre. La mayor parte de las plagas mencionadas en la Biblia son epidemias o enfermedades, pero el castigo es, en ocasiones, de otro orden. No es necesario que una enfermedad tenga un carácter prodigioso para que constituya una plaga. Una infracción de la ley divina con respecto al uso del cuerpo en general, y de la sexualidad en particular, e incluso un comportamiento inconscientemente antihigiénico sin relación patente con la moral, puede comportar una plaga contra los que así atentan contra la santidad del cuerpo. Dios es quien determina el lugar y el momento de su aparición. Ciertas epidemias de peste (tifus, 1067 p. ej.) han sido, en ocasiones, juicios patentes de Dios. La primera plaga que se menciona en la Biblia cayó sobre un faraón contemporáneo de Abraham: Dios quiso proteger a Sara (Gn. 12:17). Con respecto a las diez plagas de Egipto, véase el artículo PLAGAS DE EGIPTO (LAS DIEZ). Más tarde, Dios castigó a los israelitas que se habían hecho y adorado un becerro de oro (Éx. 32:35).
+
+Castigó asimismo a los que habían murmurado en contra del maná (Nm. 11:33, 34). (Véase MANÁ.)
+
+Hizo morir a los diez espías que hablaron mal de la Tierra Prometida (Nm. 14:37). En otra ocasión, 14.700 israelitas murieron por protestar contra el castigo que había caído sobre los rebeldes Coré, Datán y Abiram (Nm. 16:46-50).
+
+El pueblo que se entregó a la idolatría y a la inmoralidad consiguiente en el culto a Baal-peor fue azotado por una plaga mortal; perecieron 24.000 israelitas (Nm. 25:9; Jos. 22:17; Sal. 106:28-30).
+
+Los tumores de los filisteos fueron asimismo un castigo (1 S. 6:4). El censo ordenado por David hizo que se desencadenara una peste, y sucumbieron 70.000 personas (2 S. 24:13-25; 1 Cr. 21:12-30).
+
+Una gran plaga cayó sobre Joram, rey de Judá, y sobre su pueblo (2 Cr. 21:14, 15). El término traducido «azote» en Mr. 5:29, y que en algunas versiones se traduce como «plaga», no designa una enfermedad epidémica. En Lv. 14:34-54 se usa el término «plaga» de la lepra y la tiña, que son casos individuales y no epidémicos.
+
+nom, PLAGAS DE EGIPTO (LAS DIEZ)
+
+ver, MANÁ, PIOJO, PASCUA, EGIPTO (Estancia israelita), HICSOS vet,
+
+Fueron infligidas por Dios sobre Egipto para librar a Su pueblo de Israel, que sufría allí la esclavitud, para exhibir ante los egipcios Su gran poder de redención, y para mostrarles que todos los elementos de la creación estaban bajo Su autoridad (Éx. 7-12). 1. La plaga de sangre.
+
+El agua del Nilo y de todos sus canales y pozos se convirtió en sangre. El agua apestaba y los peces murieron, Ésta fue una plaga dura, y más por cuanto que el Nilo era adorado por los egipcios como dios. La destrucción de la pesca del Nilo fue también una gran catástrofe. Pero los magos pudieron hacer el mismo prodigio de transformar el agua en sangre. Faraón endureció por ello su corazón (Éx. 7:14-25).
+
+La tierra se vio invadida de ellas: en sus camas, hornos y artesas. Los magos consiguieron también hacer lo mismo. Sin embargo, la presencia de las ranas era tan molesta que Faraón llamó a Moisés para rogarle que pidiera al Señor que las sacara del país: dejaría salir al pueblo de Israel de Egipto. Las ranas murieron, y fueron recogidas en grandes montones; al verse aliviado, Faraón endureció su corazón, y no permitió que el pueblo saliera de Egipto (Éx. 8:1-15). 3. Piojos (heb. «ken», «kinnam»).
+
+El polvo de la tierra se transformó en piojos sobre hombres y animales. Los hay que han supuesto que se trata de una especie pequeña de mosquitos, porque la LXX dice «skiphes», que algunos traducen como «mosquito». Pero éstos pueden quedar incluidos en la cuarta plaga. Es mucho más probable que se aluda al piojo, como afirma Josefo (ver PIOJO) o a la pulga. Se dice que estaba «tanto en los hombres como en las bestias». Los magos no pudieron imitar esto: se trataba de una comunicación de vida. Tuvieron que reconocer: «Dedo de Dios es éste.» Sin 1068 embargo, Faraón se negó a permitir la salida de los hijos de Israel (Éx. 8:16-19). 4. Moscas.
+
+El término «moscas» está añadido, diciendo el original «enjambres», que puede referirse a enjambres de insectos de diversas clases. Iban a llenar las casas y a corromper la tierra. Gesenio vierte «arob» como «tábano», pero en Sal. 78:45 y 105:31 este mismo término se traduce «enjambres de moscas». La Reina-Valera se aproxima mucho al sentido al traducir «toda clase de moscas». Es indudable que se incluye la mosca común en Egipto: son sumamente molestas, contaminando la comida, y atacando al cuerpo insistentemente. Una característica de esta plaga es que no se dio en la tierra de Gosén, donde moraban los israelitas. Faraón se sintió tan apremiado por esta plaga que se apresuró a llamar a Moisés, proponiéndole el permiso para ofrecer sus sacrificios, pero en Egipto. A esto se opuso Moisés, porque los israelitas iban a sacrificar unos animales que los egipcios detestaban (las ovejas) y otros que consideraban sagrados (las vacas). Finalmente, Faraón accedió, con la condición de que no debían alejarse demasiado por el desierto. Sin embargo, tan pronto esta plaga fue quitada, Faraón rehusó nuevamente dejar partir a los hijos de Israel (Éx. 8:20-32). 5. La plaga en el ganado.
+
+Cayó sobre los ganados de los egipcios. Sólo los rebaños y manadas de los israelitas quedaron exentos. Pero Faraón, a pesar de haber comprobado este hecho, persistió en su negativa a dejar partir a Israel (Éx. 9:1-7).
+
+Esta plaga cayó sobre todos los egipcios, incluidos los hechiceros, que ya no pudieron estar ante Faraón como en las otras ocasiones. Sin embargo, Faraón persistió en su obstinada actitud (Éx. 9:8-12).
+
+Hay evidencias de que no se trató de un granizo normal. La antigua tradición judía (cfr. Talmud Babilónico, «Tratado Berakhoth» 54b) afirma que se trataba de piedras calientes. Es posible que el fenómeno descrito aquí estuviera relacionado con algún fenómeno de carácter cósmico, y que fuera una granizada de una grava procedente de la descomposición de un cometa (cfr. I. Velikovsky: «Worlds in Collision», p. 50). Sin embargo, la tierra de Gosén no quedó afectada. Faraón pidió la intercesión de Moisés, pero al cesar el granizo, reasumió su anterior actitud (Éx. 9:13-35).
+
+Moisés amenazó con la plaga de langostas. Los siervos de Faraón advirtieron al monarca que Egipto estaba devastado (Éx. 10:7). Sin embargo, al anunciar Moisés que todo el pueblo iba a irse, junto con todas sus posesiones en ganados y bienes, Faraón se negó nuevamente a permitir su marcha (Éx. 9:1-20).
+
+«Hubo densas tinieblas sobre toda la tierra de Egipto, durante tres días. Ninguno vio a su prójimo, ni nadie se levantó de su lugar en tres días; mas todos los hijos de Israel tenían luz en sus moradas» (Éx. 10:22, 23). Se trataba de unas tinieblas que se podían sentir, y Faraón llamó a Moisés, dándole autorización para que los israelitas salieran con sus esposas y sus pequeños; pero tenían que dejar tras sí sus rebaños y manadas. Moisés no estuvo de acuerdo: tenían que partir con todo: «No quedará ni una pezuña.» Así iba a ser la redención de Dios. Faraón se encolerizó, y exclamó: «Guárdate que no veas más mi rostro, porque en cualquier día que vieres mi rostro, morirás.» Moisés replicó: «Bien has dicho; no veré más tu rostro» (Éx. 10:29); en Éx. 11:4-8 se afirma claramente que Moisés advirtió a Faraón de la muerte de los primogénitos; ello 1069 hubiera podido ser en aquella misma audiencia por un mensaje directo de parte de Dios. Moisés salió encolerizado de la presencia de Faraón (Éx. 11:8).
+
+«Desde el primogénito de Faraón que se sienta en su trono hasta el primogénito de la sierva que está tras el molino, y todo primogénito de las bestias.» Los israelitas habían ya preparado el cordero pascual, y untado su sangre en los postes de la puerta y en el dintel, y el heridor los pasó por alto (véase PASCUA). Esto establece un tipo de la preciosa sangre de Cristo, que constituye el testimonio de que ya ha sido ejecutado el juicio sobre el hombre, y que por ello mismo es la base de todos los tratos de Dios en gracia. Moisés y Aarón fueron convocados, y se les dio orden de que partieran, ellos y sus ganados. Los egipcios los apremiaban, exclamando: «Todos somos muertos» (Éx. 12:33). Así es como Dios lanzó Sus terribles juicios sobre Egipto, para hacer saber a Faraón que Él era el Dios omnipotente, y para redimir a Su pueblo con mano alzada y brazo extendido.
+
+Un aspecto a señalar de las diez plagas es que aunque algunas de ellas, en sí, existen en la naturaleza, presentan unas características notables:
+
+(1) Su intensidad era desconocida.
+
+(2) Fueron anunciadas de antemano.
+
+(3) Se hizo separación entre los egipcios y los israelitas.
+
+(4) Aunque los hechiceros pudieron imitar las dos primeras plagas, no pudieron librar a Egipto de ellas; de hecho ellos mismos las sufrieron.
+
+(5) Por medio de estas plagas cayó el juicio no sólo sobre Egipto, sino también sobre sus dioses: el gran dios Nilo quedó contaminado; el mismo Faraón, que era considerado como divino, humillado; las ranas contaminaron los templos, y finalmente, el sol, el mayor de los dioses de Egipto, se sumió en las tinieblas.
+
+Las diez plagas dejaron sumido a Egipto en la mayor de las devastaciones. La posterior persecución de los israelitas por parte de Faraón y su ejército provocó la pérdida de las fuerzas armadas egipcias y del mismo Faraón en el mar Rojo (véase EGIPTO, (Estancia israelita, f). Egipto quedó así postrado e inerme frente a la invasión de los hicsos, que se apoderaron del país en unas circunstancias totalmente favorables (véase HICSOS) después de la derrota sufrida ante los israelitas en Refidim (Éx. 17:8-16; para la identidad de Amalec con los hicsos, véase HICSOS).
+
+Bibliografía:
+
+Velikovsky, I.: «Worlds in Collision» (Doubleday, Garden City, N. Y., 1950); Merrins: «The Plagues of Egypt», Bibliotheca Sacra, jul. y oct. 1908. Para bibliografía adicional, véase bibliografía al final del artículo EGIPTO.
+
+nom, PLAÑIDERAS (véase DUELO)
+
+nom, PLATA
+
+tip, META MEDI
+
+ver, MONEDA
+
+vet,
+
+Metal precioso.
+
+El mineral se extraía del suelo (Jb. 28:1). Se fundía en un crisol para purificarlo de las escorias (Sal. 12:6; Pr. 17:3; 25:4; Ez. 22:22). La plata provenía de Arabia (2 Cr. 9:14; cfr. 1 R. 10:22, 27) y de Tarsis (Jer. 10:9; Ez. 27:12). En 1070 la literatura apócrifa también se menciona a España (Tarsis en la canónica) como fuente de suministro de plata (1 Mac. 8:3).
+
+Desde la más remota antigüedad se usaba la plata para el trueque (Gn. 23:16; 37:28). La cantidad pedida se pesaba; la unidad de peso era el siclo (Is. 7:23; Jb. 28:15; Is. 46:6), porque la acuñación no fue conocida hasta más tarde. Los judíos no empezaron a acuñar moneda hasta mucho tiempo después del cautiverio babilónico (1 Mac. 15:6). (Véase MONEDA.) La plata permitía la fabricación de diversos objetos personales (Gn. 24:53; Éx. 3:22; Cnt. 1:11); de coronas (Zac. 6:11); de instrumentos de música, como trompetas (Nm. 10:2). Los ricos poseían utensilios de plata; José bebía de una copa de plata (Gn. 44:2). El Tabernáculo y el Templo demandaron grandes cantidades para su construcción: para las basas (Éx. 26:19), las columnas, los capiteles, las molduras (Éx. 27:10; 38:19), los platos, los jarros (Nm. 7:13; 1 Cr. 28:17), los tazones y cuchillos (Esd. 1:9, 10), los candeleros de diario y las mesas (1 Cr. 28:15, 16). La plata se usaba asimismo para hacer ídolos y reproducciones de templos paganos (Sal. 115:4; Hch. 19:24).
+
+nom, PLATERO
+
+tip, OFIC
+
+vet,
+
+Los artesanos que trabajan la plata.
+
+Las citas del AT se refieren al artesano que trabajaba en el oro (cfr. Is. 40:19) lo mismo que la plata.
+
+En el NT se hace mención sólo de Demetrio, el platero de Éfeso, que construía templecillos de Diana (Hch. 19:24-27).
+
+nom, PLAZA
+
+tip, CONS
+
+vet,
+
+La plaza era un ensanchamiento de la calle que en las ciudades antiguas se daba justo ante la muralla, detrás de una puerta de acceso a la ciudad; no se trataba de una gran área abierta como las que conocemos en la actualidad. Las ciudades estaban construidas en elevaciones, y el espacio no se podía desperdiciar. Las calles eran estrechas y serpenteantes. En la «plaza» ante la puerta se llevaban a cabo las transacciones y se celebraban mercados (2 R. 7:1). Allí también se administraba justicia (cfr. Rt. 4:2) y se sufrían los castigos públicos (cfr. Jer. 20:2). Se puede ver este mismo plan en la Jerusalén vieja actual justo tras la Puerta de Damasco.
+
+nom, PLENITUD
+
+tip, DOCT
+
+vet,
+
+(gr. «plêrõma»).
+
+Aunque se traduce generalmente como «plenitud», también se vierte como «cumplimiento», «abundancia» y «plena restauración». Derivado del verbo «pleroõ» (llenar), significa «aquello que es o ha sido llenado», y también «aquello que llena algo o con lo que se llena algo». De ahí su significado de «plenitud» o «cumplimiento». Aparte de usos más o menos literales, como el del llenado de las doce cestas con sobras (Mr. 1071 6:43; 8:20, lit. «la llenura, o plenitud de ... canastas»), se usa: (a) de «la plenitud de los gentiles» que indica el cumplimiento del número de los gentiles en esta dispensación de la gracia (cfr. Ro. 11:25).
+
+(b) de la «plena restauración» (o «plenitud») de Israel (Ro. 11:12), (c) del amor, que no es una mera parte a cumplir de la Ley, sino que es «la plenitud», el cumplimiento total de las demandas de la Ley (Ro. 13:10), (d) de la plenitud o cumplimiento del tiempo
+
+(A) en la primera venida del Señor (Gá. 4:4) y
+
+(B) en la segunda venida del Señor cuando Cristo venga «en la dispensación del cumplimiento» (o «la plenitud») de los tiempos, así: esta expresión denota aquel lapso de tiempo con el que culmina un periodo anterior a él.
+
+(e) Se aplica a la Iglesia, cuerpo de Cristo, «la plenitud de Aquel que todo lo llena en todo» (Ef. 1:23). Así, la Iglesia es la plenitud de Cristo, aquello en lo que Cristo halla Su plenitud de propósito, el cumplimiento último de Sus deseos y propósitos. A su vez, el creyente tiene como destino ser «lleno de toda la plenitud de Dios» (Ef. 3:19), unido a Cristo por el Espíritu como miembro de Su cuerpo, y llenado de todos los dones, riquezas y poder y amor de Dios consonantes con su unión con la Cabeza celestial, gozando de Su presencia, gracia y poder. En Cristo «habita toda la plenitud de la Deidad corporalmente» (cfr. F. Lacueva, «Nuevo Testamento interlineal griego-español», loc. cit.), porque «en él tuvo a bien que toda la plenitud habitase» (Col. 1:19, cfr. F. Lacueva, op. cit, loc. cit). Esta plenitud significa la manifestación de la realidad plena de Dios en Cristo de una manera ilimitada, de Su identificación con Él, morando en Cristo en todo Su poder y atributos, en toda Su naturaleza y ser. Toda la plenitud del ser y naturaleza de Dios habita constante y permanentemente en Cristo. No se puede hacer limitación alguna a esta realidad de que Dios está en Cristo, siendo así Cristo, de una manera plena y perfecta, la manifestación de Dios, el mismo Dios manifestado en toda Su plenitud y totalmente comunicado a Cristo, Dios hecho carne. Así, Cristo es denominado «la imagen del Dios invisible». En palabras de F. F. Bruce: «Llamar a Cristo la imagen de Dios es decir que en Él el ser y la naturaleza de Dios han sido perfectamente manifestadas, que en Él lo invisible se ha hecho visible.., ahora se ha concedido una revelación insuperable de Su «eterno poder y Deidad» (en Cristo). (The «Christ Hymn» of Colossians 1:15-20, Bibliotheca Sacra, abr.-jun. 1984, p. 101). Y esta plenitud de Cristo está en violento contraste con las doctrinas gnósticas, y otras, que pretendían que la plenitud estaba graduada en toda una serie de «eones» o de «emanaciones divinas» que cubrían la distancia entre un Dios totalmente espiritual y el hombre en su naturaleza corporal, en una secuencia cada vez más y más espiritual a través de la que tenía que ascender en una larga cadena de mediación. En contraste con todo esto, Pablo insiste en la singularidad de la mediación de Cristo, con exclusión de cualquier otro pretendido mediador (cfr. 1 Ti. 2:5), y en el hecho de que toda la plenitud habita en Él (Col. 1:19), siendo esta plenitud la de la Deidad (Col. 2:9).
+
+nom, PLÉYADES
+
+tip, ARQU
+
+ver, MARDIKH
+
+vet,
+
+El término heb. «Kimah» designa una estrella brillante, o también una constelación (Jb. 9:9; 38:31; Am. 5:8); la mayor parte de los comentaristas antiguos han creído que se hace referencia a las Pléyades, grupo de estrellas en la constelación de Tauro. Las tabletas procedentes de las 1072 excavaciones de Ebla (véase MARDIKH [TELL]) dan evidencia adicional en favor de esta identificación. M. Dahood, S. J., ha señalado la identidad del término sumerio «mul-mul» (Pléyades) con el eblaíta (lengua semita) «ga-ma-tù» o «ka-ma-tù». Se puede identificar fácilmente este último término con el heb. «kimah». El equivalente acad. de «mul-mul» es «zappu», «Pléyades» (tablas TM.75.G1825; 2003; 3131; 3171; véase G. Pettinato: «The Archives of Ebla», p. 250, y el apéndice de M. Dahood, S. J., en la misma obra, «Ebla, Ugarit, and the Bible», PP. 302-303 [Doubleday, Garden City, N.Y., 1981]). Los antiguos contaban siete estrellas, ignorándose el porqué de ello, por cuanto sólo se pueden ver seis con el ojo desnudo. Mediante el telescopio se puede distinguir un centenar de estrellas. Josefo veía en la posición de las Pléyades una indicación de la hora (Ant. 13:8, 2), y su salida indicaba a los marinos el tiempo favorable para la navegación.
+
+nom, PLOMO
+
+tip, META
+
+vet,
+
+(heb. «ophereth»).
+
+Era un metal conocido por los antiguos.
+
+Los israelitas hallaron plomo en el botín arrebatado a los madianitas (Nm. 31:22). Los egipcios lo utilizaban (Contra Apión 1:34); era muy abundante en la península del Sinaí; también se hallaba en Egipto y en Tarsis (Ez. 27:12), de donde se exportaba. El plomo se empleaba para pesar (Zac. 5:7); se escribía sobre tabletas de plomo (Tácito, Anales, 2:69; Plinio, Historia Natural 13:21; Pausanias 9:31, 4). Jb. 19:24 sería una alusión a estas tabletas, pero se puede admitir que Job deseara tallar las letras en la peña para que quedaran indelebles.
+
+nom, PLUMA
+
+tip, MANU ABEC
+
+vet,
+
+(heb. «gêht»: Jb. 19:24; Sal. 45:1; Jer. 8:8; 17:1; y «ghehret»: Éx. 32:4; Is. 8:1). Traducidas variamente en la versión Reina-Valera, estos dos términos denotan cualquier instrumento utilizado bien para grabar una inscripción sobre piedra o metal, bien una caña para escribir sobre papiro o pergamino.
+
+En el NT se usa en 3 Jn. 3 (gr. «kalamos»).
+
+nom, POBRES
+
+tip, LEYE
+
+ver, JUBILEO (año del)
+
+vet,
+
+La desigual distribución de los bienes materiales no se corresponde con el ideal deseado por Dios. Al otorgar la tierra de Canaán a Su pueblo (Éx. 6:4, 8), asegura de principio una distribución equitativa de las tierras. La Ley de Moisés permitía a los israelitas vender sus bienes, pero con respecto a las tierras, exige que al cabo de cada período de 50 años, cada familia pudiera retornar libremente a la propiedad que tenía como herencia. Así, la tierra no podía ser vendida, sino sólo su usufructo hasta el final del período jubilar (véase JUBILEO; cfr. Lv. 23:13, 23). Esta ordenanza, que tenía la intención de impedir el acaparamiento de las tierras, no suprimió enteramente la pobreza, debida bien a la culpa del individuo o de sus antecesores, bien 1073 a circunstancias de las que sólo Dios sabe la razón.
+
+En la teocracia israelita queda teóricamente excluida la indigencia resultante de la pereza o de un crimen; los pobres son considerados como personas desventuradas y sufriendo pruebas, pero amadas por Dios. Todos los indigentes, especialmente las viudas, los huérfanos y los extraños, son objeto de la especial atención del Señor y de los israelitas piadosos, según las instrucciones precisas de la Ley. Toda persona que tuviera hambre tenía derecho a satisfacerla con las uvas o espigas recogidas en la propiedad de otros, pero se le prohíbe que se las lleve (Dt. 23:24, 25). Los pobres son autorizados a espigar detrás de los segadores, a recoger las espigas dejadas en las lindes del campo y los rincones, que el propietario tenía que dejar para ellos (Lv. 19:9). Igualmente con la recolección de la vid (Lv. 19:11; cfr. 23:22; Dt. 24:19-21). La tierra no debía ser cultivada ni segada durante el año séptimo ni en el de jubileo. Lo que produjera de suyo durante aquel reposo pertenecía de derecho a la colectividad, que se alimentaba gratuitamente (Lv. 25:4-7, 11, 12).
+
+El israelita caído en la miseria puede vender su trabajo a un patrón durante un cierto número de años, pero en el año del jubileo recobraba su libertad (Lv. 25:38-42). El préstamo solicitado por una pobre le tenía que ser concedido, incluso al acercarse el año sabático que permitía al deudor cancelar su deuda (Dt. 15:7-10). Cuando se efectuaba un censo, cada israelita de veinte o más años, varón rico o pobre, tenía que pagar un rescate de su persona de medio siclo de plata destinado, al principio al Tabernáculo (Éx. 30:11-16) y posteriormente para el mantenimiento del Templo (2 R. 12:4-5).
+
+En cuanto a las ofrendas presentadas en el santuario por los pobres, podían ser en algunas ocasiones inferiores a las de los ricos (Lv. 12:8; 14:21; 27:8). La Ley exhorta a los israelitas a invitar a sus mesas a los menos privilegiados, durante las solemnidades religiosas y en las ocasiones de regocijo (Dt. 16:11, 14). La Biblia muestra numerosos gestos de compasión para el pobre (Jb. 31:16-22). La Ley prohibe la opresión de los débiles (Éx. 22:21-27), sin embargo, en caso de que haya de ser juzgado, se exhorta a que se haga caso omiso a su condición de pobre, debiéndose examinar objetivamente la acusación en contra de él. La exigencia de la justicia debe prevalecer (Éx. 23:3; Lv. 19:15)
+
+Los períodos de decadencia religiosa coincidieron frecuentemente con la violación de los preceptos caritativos de la Ley, lo que constituyó motivo para las proclamaciones de los profetas en contra de la dureza y de la injusticia (Is. 1:23; 10:2; Ez. 22:7, 29; Mal. 3:5). Los que se aferran a la letra de la Ley, pero descuidan su espíritu, dan la limosna por orgullo, para ser vistos por los hombres (Mt. 6:1-2).
+
+Hay numerosas promesas de gracia y de protección a los israelitas piadosos pero pobres (1 S. 2:8; Jb. 5:15; 34:28; 36:15; Sal. 9:18; 10:14; 12:5; 34:6; 35:10). El que tiene piedad del indigente es objeto de bendiciones divinas (Sal. 41:1; Pr. 14:21, 31; 29:7). Durante Su ministerio, el Señor Jesús dio testimonio de amor hacia los pobres (Mt. 19:21; Lc. 18:22; Jn. 13:29; etc.); es a ellos, de una manera especial, que se dirige la Buena Nueva (Mt. 11:5; Lc. 14:21-23).
+
+La Iglesia primitiva considera como uno de sus deberes más sagrados el de socorrer a sus miembros sin recursos, y de ayudar asimismo, en la medida de lo posible, a los pobres que no pertenecieran a la comunidad cristiana (Hch. 2:45; 4:32; 6:1-6; 11:27-30; 24:17; 1 Co .16:1-3; Gá. 2:10; 1 Ts. 3:6). El espíritu de pobreza, de humildad, tiene que caracterizar a los ricos así como a los pobres (Mt. 1074 5:3). Se exhorta de una manera expresa a no hacer acepción de personas y a no menospreciar a los pobres, que Dios ha elegido para que sean ricos en fe y herederos del reino (cfr. Stg. 2:1-5). Aunque se ha de recalcar que no es la pobreza lo que lleve a nadie a la salvación, sí que es más fácil a un pobre aceptar la gracia de Dios que a los que están aferrados a abundantes riquezas (Lc. 18:24-27).
+
+El cristiano debe ser siempre consciente de que cualquier bien que tenga en su propiedad no le pertenece de una manera absoluta, sino que le ha sido dado para su fiel administración en conformidad a la voluntad de Dios (cfr. Mt. 25:15-28; Lc. 19:13-25; 1 Co. 4:7 y Ef. 4:28).
+
+nom, PODER
+
+vet,
+
+Las dos principales palabras que se traducen «poder» en el NT son: (a) «dynamis» y (b) «exousia». Es importante discriminar entre ambas, porque no significan lo mismo. «Dynamis» puede ser descrita como «capacidad moral o física, poder». «Exousia» significa «autoridad delegada, derecho, privilegio». Esta última siempre supone el poder de ejercer el derecho, pero la primera no conlleva ningún concepto de derecho o autoridad. Así, «dynamis» se traduce capacidad, eficacia, fuerza, maravilla, milagro, poder, potencia, señal, valor, que ayuda más a ver el carácter de esta palabra, en contraste con «exousia», que se traduce autoridad, derecho, jurisdicción, libertad, poder, potestad.
+
+El término «poder» aparece en ambas listas, y es preciso evitar toda ambigüedad: «Exousia» se traduce frecuentemente como «poder», cuando otro término podría dar un mejor sentido. Así, se traduce correctamente «potestad» (o «autoridad»): «el Hijo del hombre tiene potestad (o autoridad)» (Mt. 9:6; cfr. 28:18; Mr. 2:10; Lc. 4:6; Jn. 17:2; Col. 1:13, etc.). En cambio, se traduce «poder» en la versión Reina-Valera 1960 en pasajes como Lc. 12:5; Jn. 10:18; Hch. 5:4; 8:19; Ap. 9:3, 10, 19; 11:6; 14:18; 16:9; 18:1, donde estaría mejor traducida como «autoridad», «derecho» o «potestad».
+
+Recapitulando, «dynamis» significa sólo la fuerza o poder, en tanto que «exousia» denota un derecho o potestad delegados, con el poder necesario para ponerlo en vigor.
+
+nom, POESÍA
+
+tip, ABEC
+
+ver, LAMENTACIONES, CANTAR DE LOS CANTARES vet,
+
+La poesía, una de las formas más antiguas de la literatura, acompañaba frecuentemente a la danza, dándole el ritmo (Éx. 15:20, 21). Un pueblo joven expresa sus emociones mediante imágenes contrastadas, que su viva imaginación saca de la naturaleza. La poesía de los antiguos hebreos presenta estas circunstancias. Las palabras de Sara acerca de su recién nacido tienen una forma poética (Gn. 21:6, 7). Jacob, antes de morir, reúne a sus doce hijos, y pronuncia sobre cada uno de ellos una bendición, a la vez profética y poética (Gn. 49). Lleno de gratitud hacia el Señor, que había arrojado al mar a todo el ejército de Faraón, y dándose cuenta de que los cananeos se llenarían de terror, Moisés expresó sus sentimientos y los de los israelitas en un sencillo y admirable cántico (Éx. 15:1-19), al que María, su hermana, añadió el suyo (Éx. 15:20, 21).
+
+La antigua poesía hebrea no se apoya en la rima. Se hallan algunos poemas que presentan ciertas cesuras, pero ello es la excepción. La asonancia, la aliteración y la rima, aunque son frecuentes en la poesía oriental, se hallan raramente entre los hebreos. No utilizan tampoco una sucesión 1075 regular de sílabas acentuadas y átonas. Pero un intenso sentido del ritmo hizo que los poetas produjeran versos conteniendo la misma cantidad de palabras, o al menos de acentos tónicos. Los versos y el sentido terminan simultáneamente (salvo en casos excepcionales, como en el Sal. 92, donde el versículo 14 prosigue al versículo 15).
+
+El carácter esencial de la poesía hebrea es el paralelismo, de manera que el segundo verso es de una u otra manera un eco del precedente. Esta particularidad tiene la inmensa ventaja de que persiste tras la traducción, lo que no sucede con la rima. Robert Lowth fue el primero en atraer la atención hacia esta particularidad, en 1753, y destacó tres tipos de paralelismo: el sinónimo, el sintético y el antitético. Hay además otras variedades.
+
+(a) Paralelismo sinónimo.
+
+El pensamiento del primer verso se repite en otras palabras en el segundo verso (p. ej.: Gn. 4:23): Ada y Zila, oíd mi voz;
+
+Mujeres de Lamec, escuchad mi dicho:
+
+La estrofa:
+
+Que un varón mataré por mi herida,
+
+Y un joven por mi golpe,
+
+ofrece el mismo paralelismo sinónimo que la primera. Lamec no había dado muerte a dos personas (en el original está en pretérito) sino a una sola. El conocimiento de este paralelismo sinónimo permite aclarar ciertos pasajes ambiguos a primera vista. Por ejemplo, el Sal. 22:20: Libra de la espada mi alma,
+
+Del poder del perro mi única.
+
+La única es, en efecto, el alma del salmista, su vida (de hecho, las revisiones modernas de Reina-Valera dicen «mi vida»).
+
+(b) Paralelismo por gradación ascendente.
+
+La segunda línea emite una idea nueva, más o menos estrechamente relacionada con la primera, p. ej., Jb. 3:17:
+
+Allí los impíos dejan de perturbar.
+
+Y allí descansan los de agotadas fuerzas.
+
+(c) Paralelismo sintético.
+
+La primera parte sirve de base a la idea introducida por la segunda, p. ej., Sal. 25:12: ¿Quién es el hombre que teme a Jehová?
+
+Él le enseñará el camino que ha de escoger.
+
+Pr. 26:4:
+
+Nunca respondas al necio de acuerdo con su necedad,
+
+Para que no seas tú también como él
+
+Sal. 24:9:
+
+Alzad, oh puertas, vuestras cabezas,
+
+Y alzaos vosotras, puertas eternas,
+
+Y entrará el Rey de gloria.
+
+(d) Paralelismo enfático.
+
+Los términos característicos se repiten, para redondear el pensamiento, p. ej., Sal. 29:5: Voz de Jehová que quebranta los cedros;
+
+Quebrantó Jehová los cedros del Líbano.
+
+Sal. 121:3, 4:
+
+No dará tu pie al resbaladero,
+
+Ni se dormirá el que te guarda.
+
+He aquí, no se adormecerá ni dormirá
+
+El que guarda a Israel.
+
+(e) Paralelismo antitético.
+
+El segundo pensamiento hace resurgir el primero, por antítesis; p. ej., Pr. 10:1: El hijo sabio alegra al padre,
+
+Mas el necio es tristeza de su madre.
+
+Mt. 8:20:
+
+Las zorras tienen guaridas, Y las aves del cielo nidos;
+
+Mas el Hijo del hombre no tiene dónde recostar su cabeza.
+
+(f) Paralelismo comparativo.
+
+Una similitud, tomada de un dominio familiar, aclara el pensamiento; p. ej., Sal. 42:1: Como el ciervo brama por las corrientes de las aguas,
+
+Así clama por ti, oh Dios, el alma mía.
+
+El paralelismo se sirve por lo general de dísticos (dos versos que dan conjuntamente un sentido cabal), pero en ocasiones se usan trísticos (véanse los ejemplos anteriores). Se encuentran también paralelismos extendidos a las estrofas del cuarto o quinto verso (Sal. 1:3; 27:4, 9; 37:7, 14, 20, 25, 28, 34, 40). La estrofa no constituye un elemento esencial de la poesía heb., encontrándose sin embargo en los Sal. 42 y 43, que formaban originalmente un solo poema, dividido en partes iguales por un refrán. El Sal. 46 está compuesto de tres grupos de tres versos cada uno; cada uno de ellos va seguido de una pausa (Selah), y cada uno de los dos grupos va seguido de un refrán. Hay asimismo los salmos alfabéticos, en los que cada verso comienza, en heb., con una letra del alfabeto, y en los que el salmista observa, con mayor o menor rigor el orden alfabético (Sal. 25; 34; 37). Las veintidós letras sucesivas del alfabeto se hallan en las veintidós estrofas del Sal. 119; cada estrofa tiene ocho versículos y cada uno de ellos comienza por la letra atribuida a la estrofa. El libro de las Lamentaciones de Jeremías está compuesto de una manera semejante (Véase LAMENTACIONES)
+
+El arte poético es generalmente épico, dramático, lírico o didáctico, pero en la Biblia no se hallan ni epopeyas ni dramas en verso, el Libro de Job es, sin embargo, semidramático, la acción aparece solo en el prólogo y en el epílogo. El resto del libro está constituido por los discursos alternados de Job y de sus amigos. Véase asimismo CANTAR DE LOS CANTARES. La mayor parte de los poemas bíblicos son líricos. Después del éxodo, aparece el lirismo en cada período de la historia literaria de Israel. La liberación dada por Dios se celebró con odas triunfales: el cántico de Moisés, cantando el paso del mar Rojo; el cántico de Débora; salmos del arrepentido implorando misericordia o expresando el gozo del perdón (Sal. 32; 51), clamores de angustia, afirmaciones serenas de la fe, acciones de gracias por el socorro conseguido (Sal. 38: 3; 23; Hab. 3; 1 S. 2:1-10; Is. 38:10-20; Lc. 1:46-55), salmos que anuncian la venida del Redentor y de Su reino (Sal. 2; 45; 72), elegías como la de David por Saúl y Jonatán (2 S. 1:17-27), de los hijos de Coré sobre Judá (Sal. 44); lamentaciones (Sal. 60; 74). En el libro del profeta Habacuc (Hab. 3:17-19) se halla un sublime pasaje en el que se hace 1077 patente la fe que contempla a Dios más allá de las circunstancias de esta vida, y que expresa la confianza del creyente en el Dios soberano y Salvador, que conduce a los suyos a través de las dificultades de su peregrinación:
+
+Aunque la higuera no florezca,
+
+Ni en las vides haya frutos,
+
+Aunque falte el producto del olivo,
+
+Y los labrados no den mantenimiento,
+
+Y las ovejas sean quitadas de la majada,
+
+Y no haya vacas en los corrales;
+
+Con todo, yo me alegraré en Jehová,
+
+Y me gozaré en el Dios de mi salvación.
+
+Jehová el Señor es mi fortaleza,
+
+El cual hace mis pies como de ciervas,
+
+Y en mis alturas me hace andar.
+
+nom, POLIGAMIA
+
+tip, LEYE COST TIPO
+
+ver, ANCIANO, DIÁCONO, OBISPO
+
+vet,
+
+La poligamia apareció con Lamec (Gn. 4:19), y así quedó manchada la pureza de los matrimonios, al dejarse los hombres ser dominados por impulsos carnales en la elección de sus compañeras (Gn. 6:1-2). Cuando Abraham tomó para sí una segunda mujer para conseguir el cumplimiento de la promesa, actuó insensatamente (Gn. 16:4). Isaac tuvo una sola esposa, pero Jacob fue polígamo, en parte debido al engaño de Labán (Gn. 29). Moisés reprimió los abusos, pero no los abolió de golpe. Los israelitas estaban poco crecidos espiritualmente, y encadenados a los usos y costumbres de la época, que no se correspondían en absoluto con la voluntad de Dios. El gran legislador rindió un gran servicio a la causa del matrimonio, prohibiendo las uniones entre consanguíneos y parientes políticos (Lv. 18); desalentó la poligamia (Lv. 18:18; Dt. 17:17); aseguró los derechos de las esposas de condición inferior (Éx. 21:2-11; Dt. 21:10-17); reglamentó el divorcio (Dt. 22:19, 29; 24:1); exigió el respeto al vínculo matrimonial (Éx. 20:14, 17; Lv. 20:10; Dt. 22:22). Después de Moisés, hubo aún los que se dieron a la poligamia: Gedeón, Elcana, Saúl, David, Salomón, Roboam, y otros (Jue. 8:30; 1 S. 1:2; 2 S. 5:13; 12:8; 21:8; 1 R. 11:3). Sin embargo, la Escritura expone los males inherentes a la poligamia, las míseras rivalidades que se daban entre las esposas de Abraham, de Jacob, de Elcana (Gn. 16:6; 30; 1 S. 1:6); en cambio, se destaca la belleza de las familias felices (Sal. 128:3; Pr. 5:18; 31:10-29; Ec. 9:9; cfr. Eclo. 26:1-27). Abraham se casó con una medio hermana suya; Jacob tuvo dos esposas que eran hermanas entre sí (Gn. 20:12; 29:26). En Egipto, no era raro casarse con una hermana de padre y madre; los persas lo permitían (Herodoto 3:31). Los atenienses podían casarse con una medio hermana del mismo padre, en tanto que los espartanos podían casarse con sus medio hermanas nacidas de la misma madre. La Ley de Moisés prohibió estas uniones e incluso los matrimonios con parientes más alejados (Lv. 18:6-18). El estatuto matrimonial de los romanos se parecía al de los israelitas; denunciaba como incesto la unión de parientes próximos (por ejemplo, entre hermano y hermana) o entre parientes políticos (como suegro y nuera). Todos los textos del NT hablan formalmente en contra de la poligamia. Hablando a los judíos acerca del divorcio, Cristo afirmó que Moisés lo había permitido por la dureza de sus corazones y que, excepto en caso de infidelidad, un nuevo matrimonio era un adulterio (Mt. 19:8-9). Se puede 1078 llegar a la conclusión de que la poligamia había sido permitida en la época del AT por la misma razón, aunque con las restricciones señaladas; sin embargo, queda claro que no tiene lugar alguno en el Evangelio.
+
+El caso especial de los polígamos convertidos al Evangelio se trataba con la aceptación de la situación familiar de hecho; sin embargo, el polígamo quedaba excluido de la posibilidad de ejercer cargo alguno de responsabilidad en la iglesia (cfr. 1 Ti. 3:2, 12; Tit. 1:6).
+
+nom, POLÍGLOTA
+
+tip, LIBR
+
+ver, PENTATEUCO, PENTATEUCO SAMARITANO
+
+vet,
+
+Recibe este nombre toda edición de la Biblia en varias lenguas («polys» + «glotta»). Tiene gran utilidad en el estudio crítico del texto. Se inició su edición con la generación del interés en la Palabra de Dios en sus lenguas originales.
+
+Como precursora de las modernas políglotas, aunque no equivalente a ellas por no recoger más que el AT, es la «Hexapla» de Orígenes, que data de la primera mitad del siglo III. Como su nombre indica, presentaba seis columnas paralelas: El texto consonantal hebreo; su transcripción vocalizada al griego; y las versiones griegas de Aquila, de Symmachus; la LXX y Teodoción. Existen otros ensayos parciales, entre ellos restos de la Biblia en hebreo, griego y latín, del siglo XIV, realizada por el monje Simón Autumano.
+
+La primera verdadera políglota es la debida a la iniciativa del cardenal Francisco Jiménez de Cisneros, que daba el texto de la Biblia en hebreo, griego, latín y arameo. Fue compuesta e impresa entre los años 1514 y 1517, pero no fue publicada hasta el año 1520, año en que León X dio su autorización. Recibe el nombre de «Complutense», por haber sido publicada en Alcalá de Henares (Complutum). Entre los varios colaboradores se cuentan Pablo Coronel, Alfonso de Zamora, Alfonso de Alcalá, Diego López de Zúñiga, Hernán Núñez de Guzmán Demetrio Ducas, Antonio Nebrija, y otros. Fue presentada en seis volúmenes «in folio». Fue la primera de las cuatro Políglotas Mayores.
+
+Las otras políglotas mayores son:
+
+(a) La Regia o de Amberes, en la que participó Benito Arias Montano y varios eruditos europeos. Fue patrocinada por Felipe II, y presentaba los textos hebreo, latín, griego, arameo y siríaco. Fue publicada en Amberes entre los años 1568-72, y fue presentada en ocho volúmenes «in folio». (b) La de París, dirigida por Gabriel Sionita, fue publicada en París entre los años 1628 y 1655, siendo presentada en nueve volúmenes «in folio». Su patrocinador fue Guy-Michel Le Jay, y los textos eran en hebreo, latín, griego, arameo, siríaco y árabe. (c) La Biblia Políglota de Londres es la más rica de las clásicas. Recibe este nombre por haber sido preparada en Londres, publicada entre los años 1654 y 1669. Fue patrocinada por Oliver Cromwell, y dirigida por Brian Walton, posteriormente obispo anglicano de Chester. En esta obra colaboraron Edmund Castell, Samuel Clarke, Thomas Hyde y Alexander Huish. Fue presentada en ocho volúmenes «in folio». Da el texto en hebreo, latín, griego, siríaco, arameo y árabe, más algunas secciones en etiópico y persa. Presenta el único aparato critico existente del texto siríaco.
+
+Entre las Biblias Políglotas menores se pueden mencionar: la de Heidelberg (1587), que da los textos en hebreo, griego y dos versiones latinas; la de Hamburgo (1596), con textos hebreo, griego, tres versiones latinas, incluyendo la de 1079 Teodoro de Beza, la traducción alemana de Martín Lutero. La de Bagster's de Londres (1831), que incorpora además el Pentateuco Samaritano (véanse PENTATEUCO y PENTATEUCO SAMARITANO), la LXX, la Vulgata, la Pesshita, el NT griego de Mill, la traducción alemana de Martín Lutero, la italiana de Diodati, la francesa de Osterwald, la castellana de Scio de San Miguel, y la Versión Autorizada inglesa. Fue reeditada en Londres en 1874.
+
+La Hexaglot, dirigida por Edward Riches de Levante, apareció en 1874-1876, dando los textos hebreo del AT y griego del NT, junto con la LXX, Siríaca (del NT), latina (Vulgata), la Versión Autorizada inglesa, la alemana de Martín Lutero, y la francesa de R. V. Olivetan. En esta Políglota, aparecida en Londres, se incorporan los estudios críticos del Deán Alford y de von Tischendorf.
+
+Levante también publicó la Políglota llamada Triglotta (Londres, 1890), incorporando, además del AT hebreo y NT griego, la LXX, la Vulgata y la Pesshita del NT. En la actualidad el Consejo Superior de Investigaciones Científicas de España (C.S.I.C.) está preparando la llamada Polyglotta Matritensia (Políglota de Madrid), con el siguiente plan general:
+
+I AT hebreo.
+
+II NT griego.
+
+III AT griego (LXX).
+
+IV AT arameo (Targum Palestino).
+
+V AT arameo (Targum Onkelos y Jonatán).
+
+VI AT y NT siríacos.
+
+VII Vetus Latina.
+
+VIII Vetus Hispana.
+
+IX NT copto.
+
+X Versión castellana.
+
+Un examen a los catálogos del C.S.I.C. revela que desde la última referencia bibliográfica se han hecho posteriores adiciones a este proyecto. La última obra que consta publicada con posterioridad a la fuente bibliográfica de 1971 es Díez Macho, Alejandro, «Biblia polyglotta matritensia». Series IV. Targum Palaestinense in Pentateuchum, Edición crítica al cargo de Alexandro Díez Macho ; adjuvantibus L. Díez Merino, E. Martínez Borobio, Teresa Martínez Saiz (Madrid, CSIC, 1977 - 1988). Contiene el Targum palestino del Pentateuco (Génesis a Deuteronomio) en arameo y su traducción al castellano. Ref. http://www.csic.es/hispano/informa.htm
+
+Bibliografía:
+
+Pérez Castro, F.: «Biblias Políglotas», Gran Enciclopedia Rialp (Ed. Rialp, Madrid, 1971, vol. IV, PP. 178-184);
+
+Pridham, C.: «The Hexaglot Bible», en The Bible Treasury, feb. 1875, PP. 222-224 (reimpr. H. L. Heijkoop, Winschoten, Holanda, 1969).
+
+nom, POLILLA
+
+tip, FAUN
+
+vet, Mariposa nocturna, destructora (Jb. 13:28; Mt. 6:19; Stg. 5:2), se alimenta de lana, granos, pieles 1080 (Is. 51:8). La larva se envuelve en un forro de lana, de donde emerge la cabeza para roer. En la Biblia se hace mención de la polilla de los tejidos («tinea»); existen diversas especies de ella.
+
+nom, POLVO
+
+tip, TIPO COST
+
+vet,
+
+Pequeñas partículas de materia que componen la tierra; del polvo fue formado el hombre, y al caer en pecado le fue dicho: «Polvo eres, y al polvo volverás» (Gn. 2:7; 3:19). «El primer hombre es de la tierra, terrenal» (1 Co. 15:47).
+
+Se usa como símbolo de debilidad: «Porque él conoce nuestra condición; se acuerda de que somos polvo» (Sal. 103:14).
+
+«Lamer el polvo» es una figura de derrota (Sal. 72:9).
+
+Echar polvo sobre la cabeza era una señal de dolor (Ez. 27:30; Ap. 18:19). Sacudir el polvo de los pies, al abandonar una ciudad en la que se hubiera rechazado a los siervos de Cristo, significaba abandonarlos al juicio (Mt. 10:14; Hch. 13:51). Lanzar polvo al aire era una expresión de gran indignación (Hch. 22:23).
+
+nom, PONTO
+
+tip, LUGA
+
+sit, a9, 455, 131
+
+vet,
+
+Distrito marítimo en el noreste de Asia Menor, bañado por las aguas del Ponto-Euxino (mar Negro).
+
+Junto con Bitinia formaba una provincia romana.
+
+Había judíos dispersados por el Ponto (1 P. 1:1).
+
+Había judíos del Ponto en Jerusalén en el día de Pentecostés (Hch. 2:9). Aquila era nativo del Ponto (Hch. 18:2).
+
+nom, PORTERO
+
+tip, OFIC
+
+vet,
+
+En 1 Cr. 9:19-24 y 16:38 se hace referencia a los levitas al servicio de la tienda del Tabernáculo. Había guardas para la vigilancia de las puertas de las ciudades (2 S. 18:26; 2 R. 7:10) y de las del Templo (1 Cr. 26:12); también había servidores que vigilaban las entradas de casas de alcurnia privadas (Mr. 13:34).
+
+Cuando David organizó el servicio de los levitas para la casa de Dios, asignó a cuatro mil de ellos al servicio de la guarda de las puertas. No llevaban todos a cabo esta actividad de manera simultánea: David los repartió en órdenes, que deberían turnarse en su función (1 Cr. 23:5; 26:1-19).
+
+nom, PÓRTICO
+
+tip, CONS
+
+vet, Paseo cubierto por un techo sostenido por columnas. Había mansiones que tenían pórticos de 1081 este género (1 R. 7:6, 7).
+
+Había un magnífico pórtico en la fachada oriental del Templo de Salomón (1 R. 6:3; Ez. 8:16; JI. 2:17).
+
+Había en ocasiones un patio de columnas en la terraza de los palacios (Jue. 3:23). Los pórticos de la piscina de Betesda y el pórtico de Salomón, en el segundo Templo, eran también paseos cubiertos (Jn. 5:2; 10:23; gr. «stoa»).
+
+nom, POSADA (Véase MESÓN)
+
+nom, POSTMILENIALISTAS (Véase MILENIO.)
+
+nom, POSTES
+
+tip, CONS LEYE
+
+vet,
+
+(heb. «mezuza»).
+
+Maderos a los que se aseguraban las puertas (1 R. 6:33). A veces había una columna de piedra en lugar de un madero.
+
+El esclavo hebreo que quisiera permanecer a perpetuidad con su amo al llegar el año sabático se hacía traspasar el oído contra el poste con una lezna (Éx. 21:6; Dt. 15:17). Los judíos ortodoxos ponían un trozo de pergamino llamado «mezuza» (montante de la puerta), donde estaban escritos, en veintidós líneas, Dt. 6:4-9 y 11:13-21. Los ponían dentro de una cajita de madera, de metal o de vidrio y la fijaban en el poste, como lo ordenan estos pasajes.
+
+nom, POSTRIBULACIONISMO
+
+tip, DOCT ESCA
+
+vet,
+
+En este punto de vista, la Iglesia pasa a través de la tribulación. Sus defensores proclaman que es la fe histórica de la Iglesia cristiana. Se afirma además que el mismo hecho de que a la Iglesia le fue prometida tribulación sostiene esta postura. Por otra parte, identifican la resurrección de los justos de Israel, evidentemente al final de la Gran Tribulación, y seguramente coincidente con la de los santos muertos durante ella (cfr. Dn. 12:1-3, 13; Ap. 20:4) con el arrebatamiento de la Iglesia (1 Ts. 4:13-18). Es evidente que esta postura destruye la doctrina de la inminencia de la venida de Cristo en relación con los creyentes y que aparece en pasajes como Jn. 14:2-3; 1 Co. 1:7; Fil. 3:20-21; 1 Ts. 1:9-10; 4:16-17; 5:5-9; Tit. 2:13; Stg. 5:8-9; Ap. 3:10; 22:17-22). Además, a pesar de la pretensión de «historicidad» de los postribulacionistas, en la iglesia primitiva sí se sostenía la inminencia de la vuelta del Señor a recoger a Su iglesia. Entre los que la sustentan se hallan Clemente de Roma, Cipriano, y la misma Didaché. Véase TRIBULACIÓN (GRAN).
+
+nom, POTESTADES
+
+tip, ANGE
+
+ver, PODER
+
+vet,
+
+(gr. «exousia»).
+
+Grado angélico mencionado en el NT en pasajes como:
+
+Ef. 1:21 («autoridad»),
+
+Ef. 3 10 («potestades»),
+
+Ef. 6.12 («potestades»),
+
+Col. 1:16 («potestades»),
+
+Col. 2:10 («potestad»),
+
+Col. 2:15 («potestades»),
+
+1 P. 3:22 («autoridades»).
+
+Véase una consideración del significado de «exousia» en PODER.
+
+nom, POTIFAR
+
+tip, BIOG FUNC HOMB HOAT
+
+vet,
+
+(egip.: «aquel que Ra [dios solar) ha dado»).
+
+Oficial de Faraón y jefe de la guardia. Los madianitas le vendieron José. La esposa de Potifar trató de seducir al joven esclavo pero al no conseguir sus propósitos lo acusó falsamente y lo hizo encarcelar por Potifar (Gn. 37:36; 39:1-20).
+
+nom, POTIFERA
+
+tip, SACE BIOG HOMB HOAT
+
+ver, POTIFAR
+
+vet,
+
+(misma etimología que para POTIFAR).
+
+Sacerdote de On (Heliópolis), ciudad consagrada al culto del sol. Era padre de Asenat, que Faraón dio como esposa a José (Gn. 41:45-50; 46:20).
+
+nom, POZO
+
+tip, CONS RIOS
+
+ver, CISTERNA, FUENTE
+
+vet,
+
+(heb. «b'êr»).
+
+Se halla frecuentemente formando parte de nombres compuestos (p. ej.: Beerseba, «pozo del juramento»).
+
+El pozo es una excavación en el suelo, que llega a una capa de agua en una depresión o que se filtra a través de las arenas. En ocasiones se captaba una fuente (cfr. Gn. 16:7, 14; 24:11, 13). Si se descubría agua en un terreno arenoso, se abría un pozo con toda presteza. Se abrían los lechos secos de los torrentes cuando se sospechaba que debajo de ellos corrían aguas vivas (Gn. 21:30, 31; 24:19; 26:20-25).
+
+Había numerosos pozos en la llanura marítima de Filistea, donde un inagotable curso de agua subterránea se abría camino hacia el Mediterráneo. La región montañosa de Palestina tenía pozos cavados en la roca calcárea.
+
+Exteriormente, el pozo no se diferenciaba mucho de la cisterna. El agujero estaba protegido por un brocal (Jn. 4:6), cubierto por una piedra o una plancha para que ni personas ni animales cayeran accidentalmente (Gn. 29:2, 3; Éx. 21:33; 2 S. 17:19; Ant. 4:8, 37). El interior del pozo, recubierto generalmente de obra, tenía una escalera que permitía llegar hasta el agua, si su nivel no era demasiado bajo. Se ponían pilas de madera o piedra cerca del orificio, para que abrevaran los ganados y rebaños (Gn. 24:30; Éx. 2:16). El agua era sacada con cántaros (Gn. 24:16). Si el pozo era muy profundo, se bajaba un cubo u 1083 otra vasija con una cuerda (Jn. 4:11). En ocasiones se usaba tracción animal para tirar de la cuerda. También se usaban tornos sujetos al pozo. (Véanse CISTERNA, FUENTE.)
+
+nom, PRADO
+
+vet,
+
+(heb. «'ãhû», «caña» o «junco»).
+
+Las siete vacas del sueño de Faraón pacían «en el prado» o, según otras traducciones, «en el pantano», al tratarse de la zona ribereña del río, cubierta de cañas. nom, PREDESTINACIÓN
+
+tip, DOCT
+
+ver, ELECCIÓN
+
+vet,
+
+(del gr. «proorizõ», «marcar de antemano, predeterminar»). En Ro. 8:29, 30 forma un enlace en la cadena que conecta el previo conocimiento de Dios en el pasado con la gloria en el futuro. La elección es el señalamiento que Dios hace de individuos; la predestinación es a bendición (cfr. Ef. 1:5, 11, donde los creyentes son predestinados a ser adoptados hijos, según el propósito de Dios).
+
+La predestinación no implica que Dios haya marcado a algunos para ira. En realidad, el deseo de Dios es «que todos los hombres sean salvos y vengan al conocimiento de la verdad» (1 Ti. 2:4). Para asegurar que algunos lo sean, Él los predestinó, llamó, justificó y glorificó en Sus consejos soberanos (cfr. Ro. 8:29, 30). (Véase ELECCIÓN para un examen más detallado de estas cuestiones, y bibliografía.)
+
+nom, PREDICACIÓN
+
+ver, ECLESIASTÉS, DESCENSO (de Cristo a los infiernos). vet,
+
+(gr.: «kerygma»).
+
+Se usa en el NT de «un anuncio», o «un dar a conocer», sin conllevar necesariamente la idea de una predicación formal como se entiende la palabra en la actualidad. Cuando la Iglesia en Jerusalén padeció persecución, todos se dispersaron, excepto los apóstoles, y fueron por todas partes «anunciando el evangelio» (Hch. 8:1-4).
+
+En Eclesiastés, Salomón se denomina a sí mismo «el predicador» (Ec. 1:1; véase ECLESIASTÉS). De Noé se afirma que fue «pregonero de justicia» (2 P. 2:5). Pablo fue designado como predicador (heraldo) (1 Ti. 2:7; 2 Ti. 1:11; cfr. 1 Co. 9:27). A Dios le plació «salvar a los creyentes por la locura de la predicación» (1 Co. 1:21). Dios se sirve de la predicación, del anuncio de las buenas nuevas, para dar a conocer Su amor y la obra del Señor Jesucristo. «¿Cómo creerán en aquel de quien no han oído? ¿Y cómo oirán sin haber quién les predique?... ¡Cuán hermosos son los pies de los que anuncian la paz, de los que anuncian buenas nuevas!» (Ro. 10:14-15).
+
+La importancia de la predicación viene subrayada con las siguientes palabras: «La fe es por el oír, y el oír, por la palabra de Dios» (Ro. 10:17).
+
+El objeto central de la predicación o proclamación cristiana es la persona y la obra del Señor Jesucristo, Dios manifestado en carne, muerto por nuestros pecados, y resucitado para nuestra justificación (Jn. 1:1, 14; 1 Ti. 3:16; Ro. 4:25) ,y que volverá para juzgar al mundo con justicia (Hch. 17:31; 24:25); estrechamente relacionada con esta proclamación está la instrucción dada al cristiano de la promesa de su recogimiento por Cristo (Jn. 14:1-4; 1 Ts. 4:13-18; Ap. 22:20), lo 1084 que constituye la esperanza presente del cristiano y su móvil para agradar al gran Dios y Salvador Jesucristo, que se dio a Sí mismo para rescatamos y purificarnos (Tit. 2:11-14). Acerca de la predicación «a los espíritus encarcelados», véase DESCENSO (DE CRISTO A LOS INFIERNOS).
+
+nom, PREGONERO
+
+tip, OFIC
+
+vet,
+
+El que hacia anuncios a viva voz, tanto oficiales como meramente públicos. En Dn. 3:4 se menciona a un pregonero voceando un anuncio oficial del rey de Babilonia. Los predicadores del Evangelio son pregoneros de Dios (cfr. 2 P. 3:5).
+
+nom, PREMILENIALISTAS (Véase MILENIO)
+
+nom, PREMIO (Véase RECOMPENSA)
+
+nom, PRENDA (Véase PRÉSTAMOS)
+
+nom, PREPARACIÓN
+
+tip, CALE LEYE
+
+vet,
+
+Recibía este nombre el día anterior al sábado, en el que se hacían los preparativos para todo lo necesario para el día de reposo (Mr. 15:42; Jn. 19:31; Ant. 16:6, 2; cfr. Jdt. 8:6). El sábado de la Pascua era de una gran solemnidad (Jn. 19:14, 31).
+
+nom, PREPUCIO (Véase CIRCUNCISIÓN)
+
+nom, PRESCIENCIA
+
+tip, DOCT
+
+vet,
+
+(gr.: «prognõsis»).
+
+Un conocimiento de personas y circunstancias antes de que existan. Es uno de los atributos divinos de Dios por el cual le son conocidas las personas y determinados los eventos por adelantado. Se trata de un poder totalmente más allá de la capacidad de comprensión de la mente humana.
+
+El nombre «prognõsis» se traduce «anticipado conocimiento» (Hch. 2:23) y «presciencia» (1 P. 1:2). El verbo relacionado, «proginõskõ», se traduce variamente: «antes conoció» (Ro. 8:29);
+
+«desde antes conoció» (Ro. 11:2);
+
+«ya destinado» (1 P. 1:20);
+
+«sabiéndolo de antemano» (2 P. 3:17).
+
+Se ha de señalar que la presciencia de Dios no elimina en absoluto la capacidad del hombre como agente moral responsable (Ro. 1:18-2:6).
+
+nom, PRESENTE, DON
+
+tip, LEYE vet, ver, CARISMAS, ESPÍRITU SANTO, LENGUAS (Don de), MILAGROS, SANIDAD (Don de) 1085 (En el AT se usa muy frecuentemente el término «presente», aunque también se usa «don», que es utilizado con mayor frecuencia en el NT.)
+
+Los padres daban presentes a sus hijos (Gn. 25:6), daban dote a su hija al casarse (Jue. 1:15); el prometido daba un presente al padre de la novia (Gn. 34:12); los invitados a las bodas llevaban presentes (Sal. 45:12). Los hombres de buena voluntad intercambiaban presentes, y hacían dádivas a los pobres (Est. 9:22); se ofrecían a los grandes con el fin de conseguir su favor (Pr. 18:16). Estaba prohibido comprar a los jueces mediante presentes (Éx. 23:8; Dt. 16:19; Pr. 29:4). Los soberanos recompensaban a los que les habían hecho un servicio (Dn. 2:48), y mostraban largueza hacia sus súbditos para alegrarlos (Est. 2:18). Los reyes recibían los tributos de sus súbditos (2 S. 8:2, 6; 2 Cr. 26:8; Sal. 45:12; 72:10; Mt. 2:11). El desempeño del culto público generaba unos gastos que tenían que ser mantenidos con ofrendas (Mt. 5:23, 24; 8:4; Lc. 21:5). En Oriente siguen dándose estos hábitos de liberalidad. El «don de Dios» es la vida eterna en Jesucristo (Jn. 4:10; Ro. 6:23). Cristo ha dado dones a los hombres (Ef. 4:8). No sólo ha abierto un camino que conduce a Dios, permitiendo que los hombres se presenten ante Él, el Santo y Justo, sino que ha conseguido para ellos los dones del Espíritu Santo (Jn. 14:16; 16:6; Hch. 2:38), que se manifiestan en el corazón y en la vida de los creyentes en el arrepentimiento (Hch. 5:31), la fe (Ef. 2:8), el amor (Ro. 5:5), el gozo, la paz, la paciencia, la benignidad, la bondad, la mansedumbre y la templanza (Gá. 5:22-23). Así, todas las virtudes cristianas son el fruto del Espíritu, un don de Su parte. Dios da asimismo diferentes dones a Su Iglesia, calificando a hombres que puedan contribuir a su edificación (Ro. 12:6; 1 Co. 7:7; 12:4-9; Ef. 4:7-16). (Véanse CARISMAS, ESPÍRITU SANTO, LENGUAS [DON DE), MILAGROS, SANIDAD [DON DE].)
+
+nom, PRÉSTAMOS
+
+tip, LEYE
+
+ver, BANCO
+
+vet,
+
+Un adelanto de fondos o de alguna otra cosa.
+
+Al principio, los israelitas que solicitaban un préstamo no pedían dinero sino objetos de primera necesidad. La Ley ordenaba socorrer al menesteroso (Dt. 15:7-11) sin exigir interés alguno (Éx. 22:25; Lv. 25:35-37). Sí se podía demandar interés de los extranjeros (Dt. 23:20). El israelita pobre podía venderse como siervo (Lv. 25:39-40; 2 R. 4:1). En caso de que el acreedor exigiera una prenda no podía ir a casa de su deudor, sino que tenía que esperar que éste se la trajera (Dt. 24:10-13). Si el objeto era un vestido, el acreedor se lo tenía que devolver antes de que se pusiera el sol, porque este vestido servía de cubierta (Éx. 22:26, 27). Estaba prohibido tomar en prenda las dos muelas de un molino, o la piedra de debajo, lo que impediría al pobre moler el grano necesario para su comida cotidiana (Dt. 24:6). Tampoco se podía tomar en prenda la ropa de la viuda (Dt. 24:17). Todos los séptimos años se debían perdonar los préstamos (Dt. 15: 1-11). Desafortunadamente, se implantó de manera generalizada la práctica de tomar prendas (Pr. 6:1); en época más tardía los prestamistas, en ocasiones pedían incluso interés, a pesar de la oposición de los profetas (Jer. 15:10; Ez. 18:13). Después del exilio, se descuidó muy extensamente este aspecto de la Ley, como tantos otros, y Nehemías reprimió enérgicamente los abusos, en este y otros aspectos (Neh. 5:1-13; cfr. Neh. 13). La legislación romana era de gran dureza para el deudor, en contraste con las normas de la Ley 1086 de Moisés. La Ley de las Doce Tablas permitía al acreedor encarcelar al deudor insolvente y a su familia. Es a este hecho que alude el Señor Jesús en la parábola del siervo implacable (Mt. 18:25, 34). En tiempos de Jesús estaba organizado el comercio de dinero en forma de bancos (Mt. 25:27; Lc. 19:23). En Jerusalén había un edificio público en el que se depositaban los documentos relativos a los préstamos, tanto si eran con interés como si no (Guerras 2:17, 6) (Véase BANCO).
+
+nom, PRETORIO
+
+tip, CONS
+
+vet,
+
+(lat. «que pertenece a un pretor»)
+
+Sentido primitivo: espacio alrededor de la tienda del general; después la residencia oficial del gobernador de una provincia; palacio.
+
+En el NT este término designa:
+
+(a) El palacio ocupado por Poncio Pilato en Jerusalén y ante el que se constituyó su tribunal (Mr. 15:16; Mt. 27:27; Jn. 18:28, 33; 19:9, cfr. 19:13). Ciertos arqueólogos lo sitúan en la torre Antonia, pero los procuradores de Judea solían residir en el palacio de Herodes el Grande (Filón, Legat ad Gaium 38, 39).
+
+(b) Palacio de Herodes en Cesarea. Allí estuvo Pablo encarcelado (Hch. 23:35). (c) Guardia pretoriana de Roma, encargada de la vigilancia del palacio imperial (Fil. 1:13). Parece que en Fil. 1:13 y 4:22 pretorio y casa del César son sinónimos.
+
+nom, PRETRIBULACIONISMO (Véase TRIBULACIÓN, GRAN)
+
+nom, PRIMICIAS
+
+tip, CALE LEYE
+
+vet,
+
+(a) Así como Dios afirmaba Su propiedad de los primogénitos de hombre y animales, igualmente demandaba los primeros frutos de las labores en el campo (Éx. 23:16, 19), como reconocimiento de Dios como el dador de ellos y en muestra de agradecimiento por Sus dones. Todos los varones tenían que presentarse tres veces al año ante Dios, y eran en el tiempo: de la cosecha de la cebada (en la Fiesta de los Panes sin Levadura); del trigo (en la Fiesta de las Semanas) y
+
+en la vendimia (la Fiestas de las Cabañas) (Éx. 23:16, 19; 34:22, 26; Dt. 18:4; 26:10; Ez. 58:14). (b) De los cristianos se afirma que tienen las primicias del Espíritu: tienen la prenda de una bendición futura aún más grande (Ro. 8:23; 2 Co. 5:5; Ef. 1:14). (c) Los reunidos a Dios en cualquier dispensación reciben el nombre de primicias (Ro. 11:16; 16:5; 1 Co. 16:15; Stg. 1:18; Ap. 14:4).
+
+(d) Cristo, al haber resucitado de entre los muertos, es las primicias de los que durmieron (1 Co. 15:20, 23). «Primicias» implica necesariamente que ha de haber más a su semejanza que sigan después.
+
+nom, PRIMOGÉNITO
+
+tip, LEYE
+
+ver, PASCUA, LEVITAS, PRIMOGENITURA
+
+vet,
+
+Los primogénitos de los hombres y de las bestias son declarados pertenecientes a Dios, que no 1087 sólo los ha dado (cfr. Gn. 4:4), sino que los ha rescatado en Egipto de la esclavitud y del juicio. Durante la décima y última plaga, los primogénitos de Egipto fueron muertos, en tanto que los primogénitos de los israelitas eran salvados gracias a la sangre puesta sobre el dintel y los postes de las puertas de sus casas (Éx. 12:12, 13, 23, 29; véase PASCUA). Los primogénitos, objetos de tal redención, pertenecían así por partida doble a Jehová. Todo varón primogénito de hombre o de animal era puesto aparte para el Señor (Éx. 13:2; 34:19); el hombre no tenía derecho alguno sobre ellos. El primogénito de los animales estaba destinado al sacrificio, pero el primogénito de hombre era rescatado (Éx. 13:13, 15; 34:20, cfr. Lv. 27:6). Por esta razón era llevado al santuario y presentado a Jehová (Lc. 2:22; cfr. Nm. 18:15). Más tarde, los levitas tomaron el lugar de los primogénitos de los israelitas (Nm. 3:12, 41, 46; 8:13-19; cfr. Éx. 32:26-29) y fueron asignados al servicio del culto (véase LEVITAS). Entre los primogénitos de los animales igualmente consagrados al Señor se hacían distinciones. El primogénito de los animales puros era sacrificado. Los animales impuros, de los que se cita el asno como espécimen típico, podían ser desnucados, o ser redimidos con un cordero (Éx. 13:13, 15; 22:29, 30; 34:20). La grasa del animal debía ser consumida con fuego, y la carne entregada al sacerdote. El animal impuro era rescatado o vendido (Lv. 27:27; Nm. 18:15-18). Más tarde, debido a las nuevas circunstancias que se podían prever del establecimiento del pueblo en la tierra de Canaán, y debido a que el desplazamiento al único santuario central podía ser difícil y costoso, se dio la norma de retrasar la presentación del primogénito. Se permitió que transcurrieran más de los ocho días inicialmente prescritos al inicio, y esperar a una de las fiestas anuales. La carne, en lugar de ser entregada al sacerdote, quedaba para el peregrino que había llevado el animal al santuario. El israelita y su familia lo consumían allí (Dt. 15:19, 20). Los animales con tachas no eran llevados al santuario. Eran comidos en casa, sin ceremonia cultual alguna (Dt. 15:21-23). Con respecto a los privilegios legales del primogénito, véase PRIMOGENITURA.
+
+nom, PRIMOGENITURA
+
+tip, COST DOCT
+
+ver, NUZU, PLENITUD, CREACIÓN (Nueva)
+
+vet,
+
+El derecho de primogenitura era considerado como propiedad exclusiva del primer nacido de una familia. Por lo general, el primogénito heredaba el rango, la situación y las prerrogativas de su padre; venía a ser jefe de la familia o de la tribu; heredaba asimismo una porción doble de los bienes paternos, derecho garantizado al hijo primogénito, incluso si había una segunda esposa preferida a la madre del primogénito (Dt. 21:17; cfr. 2 R. 2:9). El derecho de primogenitura podía ser vendido a un hermano menor, como lo hizo Esaú a Jacob (Gn. 25:29, 34; He. 12:1; en el artículo NUZU se puede constatar el registro de un caso semejante). La primogenitura se podía también perder por una mala conducta (1 Cr. 5:1).
+
+El título de Primogénito es dado al Señor Jesucristo en varios sentidos: (a) En su lugar en su familia terrena, como primogénito de María (Mt. 1:25; Lc. 2:7). (b) El primogénito de toda creación (Col. 1:15). Aquí tiene el sentido de la preeminencia y dignidad, de derecho, que recibía el primogénito de parte de su padre. No es por lo tanto una identificación con la Creación, como si Él fuera la parte más preeminente de ella, sino que es presentado como primogénito sobre la creación, cabeza de ella. Así, este título denota Su posición y carácter, no Su origen. Es por ello que se menciona este carácter de primogenitura PLENITUD). sobre toda la creación en relación con el hecho de que Él es la imagen del Dios invisible (véase 1088 (c) Él es el primogénito de entre los muertos (Col. 1:18; Ap. 1:5). (d) Además de ser cabeza de la creación, pues «todo fue creado por medio de él y para él» (Col. 1:16; cfr. v. 17),
+
+(e) es también la cabeza de toda la nueva creación (véase CREACIÓN [LA NUEVA]) más allá de la muerte, sobre el terreno de resurrección.
+
+Un ejemplo de que el título de primogénito es de dignidad y autoridad se ve en el Sal. 89:27, donde Salomón, décimo hijo de David (1 Cr. 3), recibe junto con el título de «primogénito» el derecho al trono de su padre. Y el Hijo eterno, al venir a ser hombre, recibe, tras Su obra de Redención y posterior exaltación, este puesto de preeminencia adicional a Su eterna dignidad: el de «Primogénito de los muertos», que se corresponde con el de «Primicia de los que durmieron» (1 Co. 15:20, 23), si bien el primer título tiene más que ver con Su dignidad y el segundo con Su prioridad en el tiempo y Su carácter de precursor en poder. Así, el título de Primogénito denota que Él es Señor Soberano sobre todas las esferas, temporales y eternas.
+
+nom, PRINCIPADOS
+
+tip, ANGE
+
+ver, ÁNGEL
+
+vet,
+
+(gr. «archai»: «principios»).
+
+Se usa de la posición de aquellos que tienen el primer lugar como gobernantes entre los hombres (Tit. 3:1, «gobernantes»). Sin embargo, este término se emplea de modo especial para denotar a los poderes espirituales del mundo invisible, sean buenos o malos (véase ÁNGEL). Fueron creados por el Señor, y Él es la cabeza de todos ellos (Col. 1:16; 2:10). Algunos cayeron de la posición de confianza que les había sido asignada: no guardaron su primer estado o principalidad (Jud. 6). Otros luchan en contra de la posición celestial de los santos (Ef. 6:12). El Señor «despojó» a los principados en la cruz (Col. 2:16), y en Su resurrección fue exaltado por Dios infinitamente por encima de todos estos poderes creados (Ef. 1:21; 3:10).
+
+nom, PRÍNCIPE
+
+tip, FUNC
+
+vet,
+
+Son dieciséis los términos heb. que se pueden traducir de esta manera. Los principales son: (a) «nasi», «uno exaltado», que también se traduce como «gobernante, capitán, jefe». Se aplica a los «príncipes de la congregación» (Jos. 9:15-21): éstos serían los cabezas de familia en las varias tribus;
+
+(b) «sar», «llevar regla», aplicado así a los cabezas de las tribus, «jefes de familias», que tiene asimismo varias traducciones; se aplica como príncipes a los sátrapas del imperio persa (Est. 1:3-21). En Daniel estos mismos dignatarios reciben el nombre de «achashdarpenayya», «sátrapas» (Dn. 3:2, 3, 27; 6:1-7). El término «sar» se emplea también para el Príncipe de paz en Is. 9:6, y para el arcángel Miguel y el príncipe de Persia que se le opuso, así como para el príncipe de Grecia (Dn. 10:13-21).
+
+En el NT el término «príncipe» es traducción de:
+
+(a) «archêgos», «autor», «Príncipe», referido al Señor Jesús (Hch. 5:31); (b) «archipoimên», «Príncipe de los pastores», también referido al Señor Jesús (1 P. 5:4); (c) «archõn», «príncipe» de los demonios (Mt. 12:24), «príncipe» de este mundo (Jn. 12:31; 1089 14:30; 16:11), referido a Satanás, también traducido como «gobernante», «magistrado» y, referido al Señor Jesucristo, en Ap. 1:5: el «soberano» de los reyes de la tierra.
+
+nom, PRINCIPIO
+
+tip, DOCT
+
+ver, TIEMPO
+
+vet,
+
+(heb. «rê'shîth»; gr. «archê»).
+
+El significado propio de este término es con referencia al tiempo. Así, se usa: (a) para indicar un punto de comienzo en el pasado en que se inaugura un evento concreto, como la inauguración del año litúrgico judío (Éx. 12:2), el comienzo del cristianismo (Jn. 15:27; 16:4; 1 Jn. 1:1; 3:11; 2 Jn. 5, 6), etc.
+
+(b) En Gn. 1:1 la referencia es a un principio absoluto de la creación, lo mismo que en Jn. 1:1. Así, aunque «principio» no puede ser separado de su relación con el tiempo, se afirma que cuando el tiempo empezó el Verbo ya existía con Dios y era Dios, siendo por lo tanto eterno. (c) En un sentido moral se usa para denotar un fundamento o fuente (Pr. 1:7), el preeminente en dignidad (Col. 1:18); el Autor o agente activo (Ap. 3:14). Un ejemplo extrabíblico del uso del término «archê», «principio», no en relación temporal sino como causa u origen, es el que da Josefo en Contra Apión (2:23), donde afirma que Dios es el principio de todas las cosas. (Véase TIEMPO.)
+
+nom, PRISCILA
+
+tip, BIOG MUJE MUNT
+
+ver, AQUILA
+
+vet,
+
+(lat., «ancianita»).
+
+Esposa de Aquila, viajaba con él. El celo de ella en difundir el Evangelio la hizo destacar al lado de su marido (Hch. 18:1-3, 18, 26; Ro. 16:3; 2 Ti. 4:19).
+
+Muy apreciada por el apóstol Pablo, es en algunas ocasiones mencionada antes que Aquila. (Véase AQUILA.)
+
+nom, PRISIÓN (Véase CÁRCEL)
+
+nom, PRISIONEROS DE GUERRA
+
+tip, LEYE EJER
+
+ver, GUERRA
+
+vet,
+
+Desde la antigüedad, y aún en nuestros días, a pesar de todas las convenciones y tratados internacionales, los prisioneros de guerra son objeto de crueles tratos. Los asirios sacaban los ojos a sus prisioneros, lo mismo que los filisteos (Jue. 16:21) y los babilonios (2 R. 25:7). Los sometían a duros trabajos forzados en estado de esclavitud (Jue. 16:21; Jos. 9:1-27; 2 S. 8:2). Muchos de ellos eran ejecutados (Nm. 31:7; Dt. 20:13 ss.; 2 S. 8:2; Jer. 52:10). Otros eran mutilados (Jue. 1:6). Las mujeres e hijos de los vencidos formaban parte del botín de los vencedores. Sin embargo, la Ley de Moisés regulaba el trato a dar a las mujeres cautivas, para que no fueran tratadas arbitrariamente (Dt. 21:10-14). Alejandro Magno trató durísimamente a los habitantes de Tiro después de su valiente resistencia, 1090 dando muerte a ocho mil de ellos, dos mil por crucifixión, y vendiendo a treinta mil como esclavos.
+
+Los romanos hacían también terribles matanzas cuando tomaban ciudades que les habían hecho frente. Los casos podrían multiplicarse, llegando hasta nuestro siglo XX, con sus crueles guerras y matanzas masivas. (Véase GUERRA.)
+
+nom, PROCÓNSUL
+
+tip, OFIC
+
+vet,
+
+(lat. «vicecónsul»).
+
+Era un gobernador de una provincia romana bajo la jurisdicción del Senado (Hch. 13:7; 18:12; 19:38). Ejercía el cargo durante un año, y administraba la provincia con la autoridad de un cónsul. Era ayudado por cuestores, que recaudaban los impuestos y lo depositaban en el tesoro administrado por el Senado.
+
+nom, PRÓCORO
+
+tip, BIOG HOMB HONT
+
+vet,
+
+(gr.: «que dirige el coro de los danzantes»).
+
+Uno de los siete que fueron elegidos para socorrer a las viudas judías de lengua griega, y probablemente también a los cristianos necesitados de Jerusalén (Hch. 6:5).
+
+nom, PROCURADOR
+
+tip, HIST OFIC
+
+vet,
+
+Cargo de la administración romana.
+
+En las provincias imperiales, esto es, las administradas directamente por el emperador, había un procurador, que era a la vez gobernador civil y militar. En Judea lo fueron, entre otros, Poncio Pilato (Mt. 28:14),
+
+Félix (Hch. 23:24),
+
+Festo (Hch. 24:27; 26:30).
+
+Fue después de la destitución de Arquelao, el año 6 d.C., que Roma decretó la fusión de Judea, Samaria e Idumea, bajo el nombre de «provincia de Judea», como división de Siria, y para ser administrada por procuradores (Ant. 17:11, 4; 13:5; Tácito, Anales 12:23; Historia 5:9). Los procuradores de Judea fueron, sucesivamente:
+
+Coponio (Ant. 18:1, 1; 2:2; Guerras 2:8, 1);
+
+Marco Ambivio;
+
+Annio Rufo, en la época de la muerte de César Augusto;
+
+Valerio Grato, que ejerció el cargo durante once años (Ant. 18:2, 2); Poncio Pilato, designado por Tiberio, y por quien fue destituido diez años más tarde. Pilato llegó a Roma justo después de la muerte de Tiberio, en marzo del año 37 (Ant. 18:2, 2; 4, 2; 6, 5; Guerras 2:9, 2; Tácito, Anales 15:44; Lc. 3:1);
+
+Marcelo (Ant. 18:6, 10-11), designado por Calígula. A la accesión del emperador Claudio, el año 41, 12:1-23). Herodes Agripa I recibió de él la corona de Judea, reinando tres años, hasta su muerte (Hch. 1091 Cuspio Fado fue nombrado procurador de Judea por Claudio en el año 44. A renglón seguido se nombró a
+
+Tiberio Alejandro (Ant. 19:9, 2; 20:1, 2; 5, 2; Guerras 2:11, 6). Después de la muerte de Herodes rey de Calcis, Claudio nombró a
+
+Cumano procurador de Judea; más tarde, el emperador lo volvió a llamar (Ant. 20:5, 2; 6, 2 y 3; Guerras 2:12, 1 y 6), poniendo a
+
+Félix en su lugar (Ant. 20:7, 1; Guerras 2:12, 8; Tácito, Historia 5:9; Anales 12); Nerón designó procurador a
+
+Porcio Festo (Ant. 20:8, 9; Guerras 2:14, 1; Hch. 24:27); lo sucedió Albino (Ant 20:9, 1); el último de ellos fue
+
+Gesio Floro, nombrado por Nerón en el año 64 (Ant. 20:11, 1; Guerras 2:14, 2; Tácito, Historia 5:10).
+
+Los procuradores de Judea estaban, en cierta medida, sujetos al legado de Siria, pero en la práctica su autoridad sobre Judea era soberana. Ellos tenían el mando supremo de la guarnición romana, juzgaban todas las causas importantes, tenían la atribución de aplicar la pena de muerte (Guerras 2:8, 1), que era ejecutada por sus soldados.
+
+Residían generalmente en Cesarea, ciudad en la costa del Mediterráneo, pero subían a Jerusalén para las fiestas importantes, y en ocasiones pasaban allí el invierno (Ant. 18:3, 1). Visitaban las ciudades sometidas a su jurisdicción. Cuando residían en Jerusalén, se instalaban en el antiguo palacio de Herodes el Grande.
+
+nom,PRODIGIOS (Véase SEÑALES, MILAGRO)
+
+nom, PROFANAR
+
+tip, LEYE
+
+vet,
+
+(heb. «halal», gr. «koinoõ»).
+
+Estos términos significan primariamente «hacer común». Otro término gr. también traducido «profanar» es «bebeloõ», que primariamente es «atravesar el umbral». Estos términos se aplican al hecho de traspasar algo sagrado a un uso común, y queda contrapuesto al concepto de la santidad, que se refiere a algo «separado», consagrado para el Señor y Su servicio. De esta manera, la profanación del día de reposo era su utilización como un día común (cfr. Éx. 31:14). El nombre de Dios era profanado si no era pronunciado con la debida reverencia, o si era usado en falsos juramentos o en prácticas que lo deshonraran (cfr. Lv. 19:8, 12, etc.). Los sacerdotes debían tener gran cuidado en tomar esposa virgen, por cuanto el sacerdocio no podía vivir según el común de la vida del pueblo, sino estar separado para el Señor (cfr. Lv. 21:14), entre otros deberes que tenía para mantener su apartamiento para Dios (cfr. todo el cap. de Lv. 21). Como juicio contra la casa de Israel, que había profanado el nombre de Dios quebrantando su vocación de vivir santos para Él, el Señor entregó Su santuario en manos enemigas, a la profanación y destrucción (cfr. Ez. 5:11; 7:22; ver también Ez. 39:1-7 y 43:7).
+
+nom, PROFECÍA
+
+tip, DOCT
+
+ver, PROFETA, APOCALIPSIS, TRIBULACIÓN (Gran), DÍA DE JEHOVÁ
+
+vet,
+
+En el sentido restringido de predicción inspirada del porvenir (para un examen de los diversos 1092 sentidos de este término, véase PROFETA), tiene un lugar singular en las Escrituras. La Biblia es esencialmente una palabra profética. Dios trasciende el tiempo y el espacio, y puede hablar a la vez del pasado, del presente y del porvenir. De los treinta y nueve libros del AT, diecisiete de ellos son «proféticos» (los judíos consideran a otros más con este carácter), y en el NT hay varios pasajes de los Evangelios, muchos de las Epístolas, y el libro de Apocalipsis, que presentan este carácter. Sólo la Biblia contiene verdaderas profecías, por cuanto es la Palabra de Dios eterno y omnisciente. Él sólo es el que anuncia «lo por venir desde el principio» (Is. 46:10). (a) CARACTERÍSTICAS.
+
+Las características de la profecía bíblica son magistralmente descritas por Pedro (1 P. 1:10-12; 2 P. 1:16, 19-21).
+
+(A) El gran tema tratado por todos los profetas es Jesucristo: Su persona, Su venida, Sus sufrimientos expiatorios, Su retorno, gloria y reino (1 P. 1:11). (B) A ellos les fueron reveladas por adelantado la época y las circunstancias de las dos apariciones de Cristo (1 P. 1:11).
+
+(C) Hay una perfecta armonía entre los profetas del AT y los del NT (1 P. 1:12). (D) El Espíritu Santo es el único autor de la profecía (1 P. 1:11, 12; 2 P. 1:21). (E) Los mismos profetas, sobrepasados por sus mensajes intentaron escudriñarlos (1 P. 1:10-12; cfr. 1 P. 1:5).
+
+(F) Los mismos ángeles desean también mirar en estas cosas (1 P. 1:12). (G) Consideramos segura la palabra profética, y es deseable prestarle atención (2 P. 1:19). Los que la descuidan cometen una insensatez.
+
+(H) La profecía es «como una antorcha que alumbra en lugar oscuro», en espera del despuntar del gran día del Señor. No lo dice todo, no muestra toda la escena; pero es plenamente suficiente para mostrar el camino a través de los precipicios.
+
+(I) Ninguna profecía puede ser objeto de una interpretación particular, o sea, separada del contexto de toda la Escritura.
+
+En la Biblia tiene el creyente todo lo que le es preciso saber hasta su recogimiento con el Señor para andar de manera perfecta (2 Ti. 3:16-17). No precisa, por ello, de nada para conocer la mente de Dios que no esté contenido en las Sagradas Escrituras. Hay el hecho cierto de que en el pasado no tuvo lugar ningún acontecimiento de importancia que Dios no revelara antes mediante Sus siervos los profetas (cfr. Am. 3:7). Dios siempre quiso preparar al mundo, y, de manera especial a los creyentes. Como ejemplos se pueden citar: el Diluvio (Gn. 6-7),
+
+la destrucción de Sodoma (Gn. 18-19),
+
+Nínive (Jon. 3),
+
+Babilonia (Dn. 4-5),
+
+Samaria, Jerusalén e Israel (2 Cr. 36:15-16),
+
+la segunda destrucción de Jerusalén en el año 70 d.C. (Lc. 19:41-44; 21:20-24). Por otra parte, la primera venida de Cristo había sido anunciada con una extraordinaria precisión de detalles. De la misma manera, la Biblia predice los acontecimientos del fin: las señales del retomo de Cristo (Mt. 24:3-15),
+
+el arrebatamiento de la Iglesia (1 Ts. 4:13-18),
+
+la aparición del Anticristo (2 Ts. 2:1-12; Ap. 13),
+
+el retorno de Israel a Palestina, sus sufrimientos y conversión (Zac. 12-14), la gran tribulación (Mt. 24:21-30; Dn. 12:1, 7),
+
+la batalla de Armagedón (Ap. 16:14-16; 19:1-21),
+
+la aparición gloriosa del Señor con todos Sus santos (Zac. 14:3-5; Ap. 19:11-14), el reinado de mil años (Ap. 20:1-10),
+
+el juicio final ante el Gran Trono Blanco (Ap. 20:11-15), la eternidad de bendición y de maldición (Ap. 21-22).
+
+(Véanse los artículos correspondientes)
+
+Después de haber dado conclusión al registro de sus visiones en Apocalipsis, que recapitula y completa todo el mensaje de los anteriores profetas, Juan afirma solemnemente que nadie tiene derecho alguno a añadir ni a quitar nada (Ap. 22:18-19). Los estudiosos reverentes y obedientes a las revelaciones divinas deben asumir la actitud de no menospreciar las profecías (cfr. 1 Ts. 5:20).
+
+nom, PROFECÍA
+
+(b) INTERPRETACIÓN DE LA PROFECÍA.
+
+En el sentido restringido de predicción inspirada del porvenir (para un examen de los diversos sentidos de este término, véase PROFETA), tiene un lugar singular en las Escrituras. Se ha planteado con frecuencia la cuestión de si a las predicciones (y a la misma Escritura) se le debe dar un sentido literal o simbólico. Con mucha frecuencia, bajo un sentido primario real y literal se esconde un significado figurado o espiritual. Muchos de los hechos de la historia de Israel tenían al mismo tiempo un significado profético:
+
+la peña golpeada en Horeb representaba a Cristo golpeado en el Calvario (Éx. 17:1-6; 1 Co. 10:4);
+
+el maná era el tipo y preanuncio de Cristo, el pan vivo venido del cielo (Éx. 16; Jn. 6:31 ss.); el cordero de la pascua representaba al Cordero de Dios inmolado para nuestra redención (Éx. 12; 1 Co. 5:7);
+
+las dos esposas de Abraham, Agar y Sara, simbolizaban los dos pactos, el de la ley y el de la gracia (Gá. 4:22-26), etc.
+
+También se da que en el mismo pasaje profético haya una yuxtaposición o superposición de sentidos literales y figurados. Por ejemplo, en el salmo 22 hay ciertos detalles expresados en términos ordinarios acerca de lo que literalmente aconteció a Cristo sobre la cruz (abandonado de Dios, menospreciado por el pueblo, sus manos y pies traspasados, sus vestidos repartidos y su túnica sorteada); sin embargo, en otros versículos se da un lenguaje figurado, cuyo sentido no es por ello menos real (los toros, los perros rodeándole, su alma amenazada por la espada, su liberación de la boca del león y de los cuernos de los búfalos). Lo mismo sucede en el célebre pasaje de Is. 53, Así, se pueden considerar dos principios esenciales a respetar en la interpretación de las profecías aún sin cumplir:
+
+(A) Establecer ante todo el significado literal normal, con un cuidadoso examen del contexto, la aplicación más sencilla y, en el AT, el sentido más relacionado con Israel. (B) Sobre esta base, investigar a continuación si se puede hallar algún significado simbólico, algún posible sentido espiritual; se debe dejar que el mismo texto dé su guía acerca de ello, y, si es oscuro, comparar con otros pasajes claros con respecto al mismo texto. Sería absurdo interpretar literalmente evidentes figuras de lenguaje, y asimismo sería falso interpretar sólo simbólicamente aquellas afirmaciones que admiten un sentido llano y natural. Para un examen de las diferentes escuelas de interpretación de Apocalipsis, véase APOCALIPSIS. Para una comprensión adecuada de ciertas profecías, hace falta darse cuenta de que comportan 1094 un cumplimiento progresivo, o varios cumplimientos progresivos y sucesivos. Por ejemplo, en Mt. 24 y Lc. 21, Jesús contempla en una misma panorámica dos acontecimientos semejantes, pero muy alejados en el tiempo; por una parte el sitio de Jerusalén en el año 70 d.C. y los sufrimientos padecidos por los judíos. Por otra parte el último asedio de Jerusalén por parte del Anticristo y la gran tribulación de Israel (véase TRIBULACIÓN [GRAN]). Ello no tiene nada de sorprendente: si vemos a distancia un macizo montañoso, dos de sus cadenas pueden parecernos una sola; en realidad, podemos constatar al acercamos que un profundo valle las separa. Es evidente que ciertas afirmaciones proféticas nos parecen oscuras, y sobre todo que su síntesis es difícil (los judíos se encontraban con fuertes dificultades, no comprendiendo el hecho de dos venidas separadas del Mesías, una primera en humillación, la segunda en gloria; particularmente, el pasaje de Is. 61:1-6 presenta este efecto de síntesis de eventos muy separados en el tiempo: los vv. 1-2a tratan de la primera venida del Señor, como lo prueba la cita que el Señor hace de esta subsección en Lc. 4:18-19, cfr. v. 21, en tanto que Is. 61:2b-6 se refiere «al día de venganza del Dios nuestro», el Día del Señor [véase DÍA DE JEHOVÁ]). La luz total no la tendremos hasta el cumplimiento integral del plan de Dios. Mientras tanto, sin pretender dogmatizar acerca de detalles, pero siguiendo con atención las grandes líneas de los propósitos de Dios, el creyente fiel se dejará conducir y corregir por el Señor en su escudriñamiento de las Escrituras, sin olvidar que «el testimonio de Jesús es el espíritu de la profecía» (Ap. 19:10).
+
+Bibliografía:
+
+Véase al final del artículo PROFETA.
+
+nom, PROFETA
+
+tip, PROF
+
+ver, PROFETAS, CANON
+
+vet,
+
+Aquel a quien Dios reviste de Su autoridad para que comunique Su voluntad a los hombres y los instruya.
+
+(a) Institución del profetismo:
+
+Dios prometió que Él suscitaría de entre el pueblo elegido a hombres inspirados, capaces de decir con autoridad la totalidad de lo que Él les ordenaría exponer (Dt. 18:18, 19). Moisés es el modelo de todos los profetas que lo siguieron, en cuanto a la unción, doctrina, actitud en cuanto a la Ley y la enseñanza. Sobre varios puntos hay unas analogías notables entre Moisés y Cristo (v. 18; Hch. 3:22, 23). Zacarías habla asimismo de esta autoridad característica: el Espíritu de Dios ha inspirado a los profetas aquello que debían decir al pueblo; los acontecimientos preanunciados han sido cumplidos (Zac. 1:6; 7:12; Neh. 9:30). Es Dios sólo quien ha elegido, preparado y llamado a los profetas; la vocación de ellos no es hereditaria, sino que con frecuencia encuentra al principio una resistencia interna (Éx. 3:1-4:17; 1 S. 3:1-20; Jer. 1:4-10; Ez. 1:1-3:15). La Palabra del Señor, transmitida a los profetas de diversas maneras, queda confirmada mediante señales, por el cumplimiento de las predicciones, y por la conformidad con las enseñanzas de la Ley. Dios pedirá cuentas al hombre por su obediencia o desobediencia con respecto a la Palabra transmitida por Sus siervos (Dt. 18:18-19, cfr. v. 20 y Dt. 13:1-5). (b) Falsos profetas. Además de los que hablan en nombre de un dios falso (Dt. 18:20; 1 R. 18:19; Jer. 2:8; 23:13), 1095 hay los que mienten invocando el nombre de Jehová (Jer. 23:16-32). Estos últimos son de dos clases:
+
+(A) Impostores, conscientes de su engaño; seducidos por su deseo de ser objeto de la consideración dada a los verdaderos profetas, son populares a causa de sus palabras suaves (1 R. 22:5-28; Ez. 13:17, 19; Mi. 3:11; Zac. 13:4).
+
+(B) Personas sinceras e incluso piadosas, fundándose en ocasiones incluso sobre la Ley, pero persuadiéndose a sí mismas de haber sido llamadas por Dios al ministerio profético, cuando no es así. A pesar de su sinceridad, éstos son falsos guías.
+
+(c) Características del profeta auténtico.
+
+(A) Las señales (Éx. 4:8; Is. 7:11, 14); pero las señales no son por sí mismas suficientes; algunas de ellas podrían ser de origen fortuito, e incluso engañosas (Dt. 13:1, 2; cfr. Éx. 7:11, 22; 2 Ts. 2:9).
+
+(B) El cumplimiento de las predicciones (Dt. 18:21, 22). El valor de este medio de comprobación aumenta cuando los acontecimientos vienen a demostrar, sobre un plano histórico, las profecías proclamadas mucho tiempo antes.
+
+(C) El mensaje espiritual (Dt. 13:1-5; Is. 8:20). Si la doctrina del pretendido profeta se desvía del Decálogo, el que la profesa no es, evidentemente, un hombre de Dios. La enseñanza del verdadero profeta tiene que ser acorde con la de la Ley, tanto en lo que respecta a Dios como al culto y a las demandas de la moral. No se trata de que deba dar meras imitaciones del texto sagrado. Basados en los mandamientos divinos, los profetas enseñan cómo se exponen en la vida cotidiana y revelan la voluntad y la mente de Dios. Por su integridad, valor moral y calidad de sus enseñanzas, los profetas israelitas auténticos sobrepasan con creces a los sabios de las otras naciones.
+
+La profecía incluye la predicción de acontecimientos (Is. 5:11-13; 38:5, 6; 39:6, 7; Jer. 20:5, 6; 25:11; 28:16; Am. .1:5; 7:9, 17; Mi. 4:10). La predicción constituye un aspecto importante del ministerio del profeta, y contribuye a acreditarlo, pero el hombre de Dios se ocupa aún más intensamente del presente y del pasado, para procurar convertir al pueblo a Dios (Is. 41:26; 42:9; 46:9).
+
+(d) Etimología del término «profeta».
+
+En gr. el profeta es:
+
+(A) El que habla en lugar de otro: intérprete, heraldo.
+
+(B) Aquel que declara los acontecimientos futuros.
+
+Esta doble acepción deriva del hecho de que la preposición «pro» significa «en lugar de» y «antes». El término heb. «nabi'», traducido «profeta», significa «aquel que anuncia». Esta expresión parece haber tenido al principio un sentido muy amplio. El participio activo se emplea en otra lengua semítica, el asirio, para designar a un heraldo. Los textos hebreos dan a Abraham el título de profeta (Gn. 20:7). Dios se comunica directamente con él, se revela a él (Gn. 15:1-18; 18:17). Abraham transmite a sus descendientes el conocimiento del verdadero Dios (Gn. 18:19), y su intercesión es eficaz (vv. 22-32). Miriam es llamada profetisa (Éx. 15:20; Nm. 12:2, 6); Aarón, el portavoz de Moisés, recibe el nombre de su «profeta» (Éx. 7:1; cfr. 4:16). La idea fundamental del término «nabi'», «profeta» (que, p. ej., figura en Dt. 18:18) es que Dios reviste a este heraldo de unos dones particulares, entre otros el de ser vidente (1 S. 3:1). Ésta es la razón de que el profeta reciba en ocasiones este nombre de vidente (1 S. 9:9, heb. «ro'eh»; Is. 3:10, heb. «hõzeh»). Como el pueblo consideraba que esta cualidad era la más importante, el término 1096 «vidente» fue el usado corrientemente para designar al profeta durante largos períodos de la historia antigua de Israel. Samuel, Gad e Iddo recibían este título. Pero Samuel es más que el vidente al que uno se dirige para conocer la voluntad de Dios, o para recibir instrucciones acerca de los temas públicos o privados. Es el maestro enviado por Dios para instruir al pueblo, que reconoce en este ministerio público la característica esencial del profetismo (1 S. 10:10-13; 19:20). La enseñanza viene a ser la función primaria del profeta, como en los tiempos de Moisés. A partir de Samuel y de sus sucesores inmediatos (y algunos siglos más tarde con una presencia con renovado vigor) el profeta estará siempre presente en el seno de la nación. Embajador de Dios ante el reino de Israel, no deja de ordenar que se practique la justicia. Interpretando la historia a la luz de la moral, el profeta advierte de los juicios de Dios sobre el pecado, y alienta al pueblo a la fidelidad hacia el Señor. El profeta está encargado de revelar los designios divinos (como Natán, que impide a David edificar el Templo, pero que profetiza la perennidad de su dinastía); ello no obstante, este anuncio de lo por venir dista de ocupar el lugar central dentro de su ministerio.
+
+Los grandes sucesores de Samuel ya no son llamados «videntes», sino «profetas». Sin eliminar del vocabulario el título de vidente, se emplea de nuevo el de profeta, que no había desaparecido nunca del todo (Jue. 4:4; 1 S. 3:20; 9:9; 10:10-13; 19:20). Amós, que tuvo visiones, es llamado «vidente» por el sacerdote de Bet-el (1 S. 7:12); pero Dios lo llama a un ministerio profético completo (1 S. 7:15). Del profeta revestido del poder del Altísimo se dice que es «el varón de espíritu» (Os. 9:7), el inspirado. Como sucede con otros hombres que cumplen un ministerio público o privado, es el hombre de Dios, su instrumento, su mensajero; es un pastor del rebaño, un centinela, un intérprete de los pensamientos divinos. Aunque todos los profetas hayan surgido de Israel, Dios, para el cumplimiento de Sus propósitos soberanos, ha concedido en ocasiones un sueño o una visión a un filisteo, a un egipcio, a un madianita, a un babilonio o a un romano (Gn. 20:6; 41:4; Jue. 7:13; Dn. 2:1; Mt. 27:19). El Señor se sirvió incluso de Balaam, el adivino, a quien el rey de Moab le había pedido que maldijera a Israel (Nm. 22-24). Estos paganos entraron momentáneamente en contacto con el plan de Dios. Para asegurar su realización, el Señor les otorgó un atisbo de revelación, pero nunca los incluyó entre Sus profetas. La aparición del ángel a Agar, a Manoa y a su esposa, y a otros, no les confirió este ministerio, reservado a hombres sometidos a la disciplina del Espíritu, y en comunión con Dios. El Espíritu del Señor enseñaba a los profetas (1 R. 22:24; 2 Cr. 15:1; 24:20; Neh. 9:30; Ez. 11:5; Jl. 2:28; Mi. 3:8; Zac. 7:12; Mt. 22:43; 1 P. 1:10-11). La acción divina no está en conflicto con la psicología humana. En ocasiones Dios se servía de una voz audible o de un ángel (Nm. 7:89; 1 S. 3:4; Dn. 9:21); pero por lo general daba Sus instrucciones mediante sueños, visiones y sugestiones que los profetas reconocían como de origen divino, externo a ellos mismos. Estos hombres no estaban continuamente bajo la inspiración del Espíritu, sino que esperaban la revelación del Señor (Lv. 24:12). Su mente no puede identificarse con la de Dios (1 S. 16:6, 7). Natán mismo estuvo de acuerdo con David en sus deseos de construir el Templo; pero tuvo que decirle después que Dios se oponía a este proyecto (2 S. 7:3). Los profetas sólo reciben las revelaciones en el momento elegido por el Señor.
+
+Desde la época de Samuel, Dios fue dando profetas a Israel de una manera regular: varios de ellos son anónimos (1 R. 18:4; 2 R. 2:7-16). Este ministerio parece que no cesó hasta la época de Malaquías. Al acercarse el tiempo de la primera venida de Cristo, se dejó oír de nuevo la Palabra profética (Lc. 1:67; 2:26-38). Había profetas en la Iglesia en la época de Pablo (1 Co. 12:28). En contraste con los apóstoles y ancianos, no constituyen un grupo definido. Hombres y mujeres (Hch. 21:9) comunicaban lo que Dios les había revelado por el Espíritu, anunciando 1097 ocasionalmente lo que había de suceder (Hch. 11:27-28; 21:10-11); especialmente, exhortaban y edificaban a la Iglesia (1 Co. 14:3, 4, 24). Pablo aplica irónicamente el calificativo de profeta a un autor pagano que describió de manera magistral y verídica el inmoral carácter de los cretenses (Tit. 1:12).
+
+(e) Llamamiento.
+
+Es el mismo Dios el que llama al profeta (Am. 7:15), el cual conoce el momento preciso de esta revelación. Moisés estaba ante una zarza ardiendo cuando le vino el llamamiento (Éx. 3:1-4:17). El niño Samuel recibió revelaciones particulares (1 S. 3:1-15) que lo prepararon para la carrera profética (1 S. 3:19-4:1). Eliseo sabía de cuándo databa su llamamiento, y no ignoraba que había recibido una doble porción del Espíritu (1 R. 19:19, 20; 2 R. 2:13, 14). Por lo general se cree que la vocación de Isaías coincide con su visión, en el año de la muerte del rey Uzías (Is. 6); pero es posible que recibiera su comisión mucho tiempo antes. Esta visión marcaba el inicio de una etapa nueva y más importante de su ministerio; cfr. la visión del apóstol Juan mucho tiempo después de su primer llamamiento (Ap. 1:10); la de Pedro en Jope (Hch. 1:10); la de Pablo en Jerusalén(Hch. 22:17). Igualmente, Ezequiel recibió mensajes (Ez. 33:1-22) años después de haber sido investido con el ministerio profético (Ez. 1:1, 4). No sabemos nada del primer llamamiento recibido por Elías, pero lo vemos un tiempo más tarde (1 R. 19) recibiendo en Horeb un mandato particular. Jeremías, consciente de su llamamiento, se resiste desde su mismo inicio (Jer. 1:4-10). Oseas hace alusión a la Palabra que el Señor le dirigió por primera vez (Os. 1:1). Por lo que se refiere al llamamiento, sólo se registra un caso de instrumentalidad humana, en el de Eliseo (1 R. 19:19). En base al Sal. 105:15 se ha lanzado la sugerencia de que los profetas eran ungidos con aceite al comenzar su ministerio. Pero el salmista se refiere, en este texto, a los patriarcas, a los que él denomina «profetas» según el uso entonces corriente (cfr. Gn. 20:7; 23:6). En Is. 61:1, que también se cita a propósito de la unción del aceite, la referencia es a la unción del Espíritu. En 1 R. 19:16 se habla de la unción de Eliseo como profeta y de Jehú como rey. Este último fue, efectivamente, ungido con aceite (2 R. 9:1-6). Por lo que respecta a Eliseo, su unción no es descrita; lo que Eliseo sí hace es tirar sobre él su manto como señal de su llamamiento al ministerio profético (2 R. 1:8; 2:9, 13-15). (f) Forma de vida.
+
+La Biblia se refiere sólo de manera incidental a la forma de vida de los profetas, que no difería demasiado de la de los demás israelitas. El vestirse con pelo no era como asceta, sino de penitente, llorando por los pecados del pueblo (2 R. 1:8; Zac. 13:4; cfr. Mt. 3:4). En ocasiones, los hombres de Dios llevaban un cilicio sobre los riñones, con el mismo propósito simbólico (Is. 20:2). La vestimenta de pelo no se ponía directamente sobre la piel, sino como manto sin mangas, sobre el cuerpo. Los profetas se alimentaban de frutos y de legumbres silvestres (2 R. 4:39; cfr. Mt. 3:4). Recibían presentes en especie (1 S. 9:8; 1 R. 14:2, 3; 2 R. 4:42), o se les ofrecía hospitalidad (1 R. 17:9; 18:4; 2 R. 4:8, 10). Ciertos profetas, los que eran de la tribu de Leví, tenían derecho al diezmo. Algunos de ellos, como Eliseo y Jeremías, eran de familias acomodadas (1 R. 19:21; Jer. 32:8-10). Gad, el vidente, así como otros hombres de Dios que también llevaban este título, fueron, posiblemente, receptores del apoyo real (2 S. 24:11; 1 Cr. 25:5; 2 Cr. 35:15). Los profetas tenían por lo general una casa, al igual que sus contemporáneos (1 S. 7:17; 2 S. 12:15; 1 R. 14:4; 2 R. 4:1, 2; 5:9; 22:14; Ez. 8:1). (Véase PROFETAS [COMPAÑÍA DE LOS])
+
+(g) Escritos.
+
+A los profetas les tocó, asimismo, una tarea literaria: debían consignar por escrito la historia en 1098 que se habían movido, y sus mensajes proféticos. Samuel, el vidente, Natán el profeta, y Gad el vidente, fueron los historiadores de los reinos de David y de Salomón. Ahías, de Silo, escribió una profecía (1 Cr. 29:29; 2 Cr. 9:29). El profeta Semaías y el vidente Iddo (2 Cr. 12:15) referían los acontecimientos del reinado de Roboam. Iddo, el vidente, consignó los referentes al reinado de Jeroboam (1 Cr. 9:29). Las memorias del profeta Iddo relataban el reinado de Abías (1 Cr. 13:22). Jehú, el hijo de Hanani refirió la historia de Josafat (1 Cr. 20:34; 19:2). Isaías describió el comienzo y fin de Uzías y registró la historia de Ezequías (1 Cr. 26:22; 32:32). El canon hebreo clasifica entre los profetas anteriores a cuatro libros históricos: Josué, Jueces, los libros de Samuel, y Reyes. Es evidente que sus autores fueron «los videntes». En la época de Isaías y de Oseas, ciertos profetas vinieron a ser grandes escritores, redactaron sus mensajes bien de una manera condensada, o bien de una manera muy detallada; en otras ocasiones nos han dado selecciones de sus discursos.
+
+Estos hombres rendidos a Dios en comunión con Él mediante la constante oración eran aptos para recibir las revelaciones divinas (1 S. 7:5; 8:6; 12:23; 15:11). Se aislaban periódicamente para poder percibir mejor las instrucciones de lo Alto (Is. 21:8; Hab. 2:1). Ezequiel y Daniel recibieron revelaciones a la orilla de un río, donde posiblemente la apacibilidad favorecería la meditación espiritual (Ez. 1:3; Dn. 10:4). asimismo, fue durante la noche que Samuel oyó la palabra del Señor (1 S. 3:2-10). El alma del profeta quedaba incesantemente abierta a la acción del Espíritu, que, sin embargo, no violentaba la personalidad del espíritu humano. Ciertos hombres que poseyeron el espíritu de profecía no fueron oficialmente clasificados entre los profetas. Los Salmos de David no fueron puestos entre los escritos proféticos, aun cuando había anunciado a Cristo. Daniel, designado por el mismo Cristo como profeta (Mt. 24:15) era oficialmente un alto funcionario de los reyes de Caldea y de Persia, y no tuvo una función profética en el seno de la nación de Israel; es por esto que el canon heb. situó su libro entre los Hagiógrafos (escritos sagrados). (Véase CANON.)
+
+El canon hebreo da el nombre de «profetas anteriores» a los libros históricos: Josué, Jueces, 1 y 2 Samuel, 1 y 2 Reyes. Los escritos estrictamente proféticos a partir de Isaías reciben el nombre de «profetas posteriores». Esta designación no se relaciona con la época de redacción, sino con el puesto que ocupan estos dos grupos de libros dentro del canon hebreo. Los libros de los Reyes, por ejemplo, escritos después de Isaías, pertenecen al grupo de los «profetas anteriores». Hubo grandes profetas, como Elías y Eliseo, que no escribieron sus discursos. En los comentarios modernos reciben el nombre de profetas oradores. Aquí y allá en la Biblia se hace alusión a las obras literarias de otros profetas que registraron sus predicaciones por escrito. Se dan citas en los «profetas anteriores» u otros libros del AT.
+
+Entre los «profetas posteriores», Oseas, Amós y Jonás predicaron en el reino del norte e incluso en Nínive (cfr. 2 R. 14:25). Los otros ejercieron su ministerio en el seno de las tribus de Judá y de Benjamín, en tierra de Canaán, o en la tierra de su exilio. Incluyendo a Daniel, la clasificación cronológica es como sigue:
+
+(A) Durante el período asirio, precediendo en poco la accesión de Tiglat-pileser (745 a.C.), y extendiéndose hasta la decadencia del poder de Nínive (hacia el año 625 a.C.): Oseas, Amós, Jonás, en el reino del norte; Joel, Abdías e Isaías, Miqueas, Nahum, en Judá. (B) Durante el período babilónico, en Judá, del año 625 a.C., y hasta la caída de Jerusalén, el año 586 a.C.: Jeremías, Habacuc, Sofonías.
+
+(C) Durante el exilio en Babilonia: Ezequiel, Daniel. (D) Después del retorno del exilio: Hageo, Zacarías, Malaquías.
+
+Bibliografía:
+
+Además de la bibliografía citada bajo los artículos correspondientes a cada libro y profeta, se puede citar la siguiente literatura:
+
+Kelly, W.: «Nature of Prophecy», Bible Treasury (H. L. Heijkoop, 58, Blijhamsterstraat, Winschoten, Holanda, reimpr., 1969);
+
+Kelly, W.: «Object of Prophecy», Bible Treasury, enero 1920; Kelly, W.: «Occasion of Prophecy», Bible Treasury; «Sphere of Prophecy», Bible Treasury, marzo 1920;
+
+Kelly, W.: «Language of Prophecy», Bible Treasury, abril 1920; Payne, J. B.: «Encyclopaedia of Biblical Prophecy» (Harper and Row, New York, 1973); Schultz, S. J.: «Habla el Antiguo Testamento» (Pub. Portavoz Evangélico, Barcelona, 1976); Tan, P. L.: «The Interpretation of Prophecy» (BMH Books, Winona Lake, Indiana, 1974); Unger, M. F.: «El mensaje de la Biblia» (Ed. Moody, Chicago, 1976); Wood, L. J.: «Los profetas de Israel» (Outreach, Grand Rapids, 1983); Young, E. J.: «Una introducción al Antiguo Testamento» (T.E.L.L., Grand Rapids, 1977).
+
+nom, PROFETAS, Escuelas de los (Véase Compañía de los)
+
+nom, PROFETAS MAYORES
+
+tip, PROF
+
+ver, NAIOT, PROFETA, PROFECÍA
+
+vet,
+
+Designación por la que se conocen los libros de Isaías, Jeremías, Ezequiel y Daniel, y que se refiere primariamente a la extensión de ellos. En el canon judío Daniel está situado, no en los Profetas, sino en los Escritos, debido a que no ejerció el oficio de profeta en el seno de la nación, aunque sí fue receptor de revelaciones proféticas procedentes de Dios.
+
+Bibliografía:
+
+Véase también bajo los artículos correspondientes a cada libro.
+
+nom, PROFETAS MENORES
+
+tip, PROF
+
+ver, NAIOT, PROFETA, PROFECÍA
+
+vet,
+
+Reciben este nombre, en contraste con los llamados profetas mayores, los escritos de menor extensión, de los siguientes doce profetas: Oseas, Joel, Amós, Abdías, Jonás, Miqueas, Nahum, Habacuc, Sofonías, Hageo, Zacarías y Malaquías. A pesar de su nombre y, en ciertos casos, muy corta extensión, dan valiosas enseñanzas, y merecen un atento examen, tanto por la luz que arrojan de una manera directa sobre los planes de Dios, como por los principios y aplicaciones al caminar del creyente en todo tiempo y lugar. (Véanse también PROFECÍA, PROFETA.)
+
+Bibliografía:
+
+Dennett, E.: «Zachariah and Malachi» (Bible Truth Publishers, Oak Park, Illinois, reimpr. s/f de la edición de Londres, 1888); Freeman, H.: «Nahum, Sofonías, Habacuc» (Pub. Portavoz Evangélico, Barcelona, 1980); 1100 Kelly, W.: «The Minor Prophets» (C. A. Hammond, Londres, reimpr. s/f de la edición de 1874); Morgan, G. C.: «Los Profetas Menores» (Clíe, Terrassa, 1984); Rossier, H.: «El profeta Oseas» (Ed. «Las Buenas Nuevas», Montebello, Calif., 1971) y Rossier, H.: «El profeta Jonás» («Las Buenas Nuevas», 1969); Tatford, E. A.: «Hageo, el profeta de la Restauración» (Pub. Portavoz Evangélico, Barcelona, 1974);
+
+Wolf, H.: «Hageo y Malaquías, rededicación y renovación» (Pub. Portavoz Evangélico, 1980). Véase también bajo los artículos correspondientes a cada libro.
+
+nom, PROFETISA
+
+tip, PROF
+
+vet,
+
+(a) Mujer llamada por Dios al ministerio profético.
+
+María, la hermana de Aarón y de Moisés, era profetisa (Éx. 15:20, 21; Nm. 12:2; Mi. 6:4); Débora fue otra profetisa (Jue. 4:4). Los israelitas recurrían a las instrucciones de Débora; el Señor se sirvió de ella para anunciar Su voluntad al pueblo (Jue. 4:5, 6, 14). Hulda ejerció también el ministerio profético. El rey Josías ordenó al sumo sacerdote que consultara con ella acerca del libro de la Ley hallado en el Templo; ella le reveló entonces los propósitos de Dios (2 R. 22:11-20).
+
+El evangelista Felipe tenía cuatro hijas vírgenes que profetizaban (Hch. 21:9). (b) Esposa de un profeta: ésta es la interpretación más plausible de Is. 8:3.
+
+nom, PRÓJIMO
+
+tip, LEYE
+
+vet,
+
+(heb. «rea», «amigo», «compañero», «vecino», Éx. 2:13; 21:14, etc.; «'amith», «vecino», «igual», «compañero», Lv. 6:2; 18:20; 19:15, etc.; «karob», «cercano», Sal. 15:3;
+
+gr. «hoplêsion», «uno cercano», Mt. 5:43; 19:19; Lc. 10:27, 29, 36, etc.). En Lv. 19:18 se define «prójimo» como «los hijos de tu pueblo». La Ley del AT, así como la concepción de los judíos, obligaba a una serie de deberes hacia aquellos que le eran cercanos, no físicamente, sino en virtud de la común descendencia en el seno del pueblo elegido, obligaciones éstas que no eran vinculantes hacia los que se hallaban fuera de la alianza. Por ejemplo, un israelita no podía exigir interés a otro por un préstamo (cfr. Dt. 23:19, 20). Se prohibía asimismo el falso testimonio contra el prójimo (Éx. 20:16; Dt. 5:20; Pr. 25:18). También se prohibía codiciar cualquier cosa que él poseyera (Éx. 20:17); robarle o calumniarle (Lv. 6:2), oprimirlo (Lv. 19:13), atentar contra su vida (Lv. 19:16), cometer adulterio con su mujer (Lv. 20:10), defraudarlo de cualquier manera (Lv. 25:14, 15) o engañarlo en forma alguna (Lv. 25:17). Todos estos preceptos quedaban expresados de una manera positiva en el que ordenaba «amarás a tu prójimo como a ti mismo» (Lv. 19:18).
+
+En el NT el Señor Jesucristo amplió el concepto de prójimo. A la pregunta de un intérprete de la Ley: «¿Y quién es mi prójimo?», el Señor respondió con la parábola del buen samaritano. En ella el Señor muestra cómo sus discípulos deben buscar hacer el bien a todos aquellos a los que pueda prestar su ayuda (Lc. 10:25-37). El apóstol Pablo expresa sucintamente este principio para los cristianos: «Así que, según tengamos oportunidad, hagamos bien a todos, y mayormente a los de la familia de la fe» (Gá. 6:10). De esta forma se amplía el circulo del «prójimo». Para el 1101 cristiano hay dos círculos concéntricos. No debe pasar por alto la oportunidad de dar su ayuda a todo aquel a quien pueda prestársela. Sí es cierto, sin embargo, que tiene que concentrar sus energías en la mutua ayuda a los miembros de la familia de Dios (He. 13:16).
+
+nom, PROLOGOS MARCIONITAS
+
+tip, MANU
+
+ver, CANON, GNOSTICISMO
+
+vet,
+
+En varios de los antiguos códices de la Vulgata aparecen unos prólogos que preceden a las epístolas del apóstol Pablo, y se cree que tuvieron origen en círculos marcionitas, seguidores del hereje Marción. Éste favorecía un intenso dualismo en el que afirmaba la contraposición del Dios del AT con Cristo, el Dios del NT, pretendiendo que el primero era un Dios de una justicia implacable e inmisericorde y sin bondad, en tanto que Cristo había aparecido en el mundo para revelarse como el Dios del amor y de la misericordia. Consiguió ejercer una gran influencia en Roma. Procedente del Ponto, llegó a la capital del imperio en el año 140, y, debido a sus falsas enseñanzas, fue excomulgado en el año 144; sin embargo, consiguió reunir a su alrededor a numerosos adeptos, y fundó agrupaciones marcionitas, gobernadas por obispos apóstatas apoyados por presbíteros asimismo apóstatas.
+
+Marción adoptó un canon concorde con sus convicciones, aceptando como libros canónicos sólo las epístolas del apóstol Pablo, a excepción de la Epístola a los Hebreos y las Pastorales, y el Evangelio de Lucas, sin los capítulos de la infancia de Jesús (véase CANON). Marción negaba también la encarnación, sosteniendo la maldad intrínseca de la materia, y por ello la imposibilidad de que Cristo se hubiera encarnado, en oposición frontal a las enseñanzas de los apóstoles (cfr. 1 P. 3:15-17). Vino a ser el más grave de los peligros para la fe cristiana en el siglo II, y su influencia se dejó sentir hasta finales del siglo III. Tanto él como su escuela de pensamiento fueron firmemente resistidos por Justino, Teófilo de Antioquía, Rodón, Tertuliano, etc. Policarpo llamó a Marción «el primogénito de Satanás» (cfr. Ireneo, Contra Herejías, 3:4). Una de las más importantes obras refutando sus enseñanzas es la de Tertuliano, «Contra Marción». Aunque no se le puede calificar propiamente de gnóstico (véase GNOSTICISMO), sí que presentaba varios elementos comunes con este sistema de pensamiento. Puede ser considerado como un gnóstico singular. En su sistema, evidencia, de una manera patente, las fuertes influencias que había recibido de este movimiento, debido, especialmente, a sus estrechos tratos con el gnóstico Cerdón.
+
+Es debido a su gran influencia en Roma, donde por vez primera se tradujeron las epístolas del apóstol Pablo al latín, que se sostiene generalmente el origen marcionita de estos prólogos.
+
+nom, PROMESA
+
+tip, DOCT
+
+vet,
+
+(heb. «omer», dicho, «promesa», Sal. 77:8;
+
+«dabar», palabra, «promesa», 1 R. 8:56;
+
+gr.: «epangelia», «promesa», Lc. 24:49;
+
+«epangelma», «promesa», 2 P. 1:4; hay asimismo varios términos derivados y compuestos). En la Biblia hallamos una gran cantidad de
+
+«preciosas y grandísimas promesas» (1 P. 1:4).
+
+«Dios, que no miente, prometió» (Tit. 1:2).
+
+Dios, que anuncia lo por venir desde el principio (Is. 46:10), mantiene siempre la palabra que ha salido de Él (cfr. Is. 46:11; 58:14). La primera promesa que se halla en la Biblia después de la caída es la de la venida del Libertador (Gn. 3:15). Empezando con este núcleo primario a partir del que Dios va revelando Su plan de redención, se pueden citar las siguientes promesas de Dios: (a) La promesa a Abraham de bendecir en él a todas las familias de la tierra, y de darle a él y a su descendencia la tierra de Canaán (Gn. 12:2, 7, etc.). De esta promesa se hace eco frecuentemente el AT (cfr. Éx. 12:25; Dt. 1:8, 11; etc.). Esta promesa es también mencionada por Pablo (Ro. 4:13-25), exponiendo cómo la Ley dada más tarde no constituye la base de la recepción de lo prometido (cfr. también Gá. 3:15-18). Así, la promesa se mantiene, en tanto que la Ley tuvo un propósito temporal (cfr. Gá. 3:19).
+
+(b) A David le fue dada la promesa de que su descendencia tendría a perpetuidad el trono de Israel (2 S. 7:12, 13, 16, cfr. 2 S. 7:28). Esta promesa fue reafirmada en los tiempos más oscuros de la historia de Judá (Jer. 23:5 8; 30:9; 33:15-17, 20-22, 25-26; Zac. 12:7-13:1; cfr. Mt. 1:1 ss; Lc. 1:32, 69; 3:32; Ap. 5:5; etc.)
+
+(c) La promesa del Nuevo Pacto (Jer. 31:31-40); de la restauración de la nación de Israel en la tierra y unida en un solo reino (Ez. 36-37), la promesa del derramamiento del Espíritu (Ez. 36:25-27)
+
+Todas las promesas se cumplen en la persona y mediante la obra del Señor Jesucristo (Hch. 13:23, 29-39). Por Su muerte efectuó la reconciliación (Ro. 5:10) y los suyos recibieron en Pentecostés «la promesa del Padre» (Lc. 24:49; Hch. 1:4). La promesa dada a Abraham es, conforme le fue dicho a él, de bendición para todas las familias de la tierra; se apropian de ella todos los que por la fe vienen a ser hijos de Abraham (Ro. 4:9-16; cfr. Gá. 3:14, 29). La promesa de la vida eterna (1 Jn. 2:25) que es en Cristo (2 Ti. 1:1) será manifestada de una manera plena cuando seamos recogidos por Él, cuando vuelva para tomar a los creyentes consigo (cfr. Jn. 14:1-4). «Porque todas las promesas de Dios son en él Sí, y en él Amén» (2 Co. 1:20). El último libro de la Biblia cierra con una promesa que debe llenar de esperanza y expectativa el corazón del creyente: «El que da testimonio de estas cosas dice: Ciertamente vengo en breve. Amén; sí, ven, Señor Jesús» (Ap. 22:20; cfr. Tit. 2:11-14).
+
+nom, PROPICIACIÓN
+
+tip, DOCT
+
+ver, EXPIACIÓN
+
+vet,
+
+(gr. «hilasmos», del verbo «ser propicio»).
+
+La propiciación denota, en las Escrituras, aquel aspecto de la muerte de Cristo en el que vindicó el carácter santo y recto de Dios, y en virtud del cual Él puede ser propicio, o misericordioso, a todo el mundo (1 Jn. 2:2; 4:10).
+
+En He. 2:17 se usa una palabra relacionada (el verbo), «expiar los pecados del pueblo», en la versión Reina-Valera, revisión antigua y 1960, o «hacer propiciación» (rev. 77; V. M.; cfr. «Nuevo Testamento interlineal griego-español» de F. Lacueva, loc. cit.). En Ro. 3:25 el término no debería ser «propiciación», sino «propiciatorio», tal y como se traduce correctamente en He. 9:5.
+
+Véase EXPIACIÓN y la bibliografía correspondiente.
+
+nom, PROPICIATORIO
+
+tip, UTEN LEYE ANGE
+
+ver, EXPIACIÓN
+
+vet,
+
+Cubierta del arca (heb. «kapporeth», «cubierta»; gr. «hilasterion» (Éx. 26:34; He. 9:5). Este término no designaba sólo la cubierta del arca, sino que evocaba a la vez el lugar y el acto mediante el que el sacrificio expiatorio hacía que Dios fuera propicio al pecador. El propiciatorio era de oro puro; medía 2,5 codos de longitud por 1,5 de anchura. Formando parte integral de una sola pieza con esta cubierta, había un querubín en cada uno de sus extremos. Ambos querubines estaban frente a frente, con las alas extendidas, inclinados hacia el propiciatorio. Una de sus alas descendía hacia el propiciatorio, en tanto que la otra se unía con la del otro querubín. La gloria del Señor se manifestaba entre los querubines. Aquél era el punto de encuentro de Jehová con Su pueblo, y desde allí hablaba con él (Éx. 25:17-22; 30:6; Nm. 7:89). En el Templo de Salomón había la misma disposición (1 R. 6:23-28; 8:6-11; 1 Cr. 28:11). Una sola vez al año entraba el sumo sacerdote en el Lugar Santísimo, y ello sólo después de haber ofrecido un sacrificio por su propio pecado, para quemar allí incienso en presencia de Jehová. Una nube de perfume se elevaba allí, símbolo de la intercesión aceptada (cfr. Ap. 8:4). La nube de incienso cubría el propiciatorio. A continuación, el sumo sacerdote rociaba el propiciatorio y delante de él con la sangre del toro sacrificado. A continuación inmolaba un macho cabrío por el pecado de la nación, llevando asimismo esta sangre derramada detrás del velo, al Lugar Santísimo. Volvía a rociar el propiciatorio, y delante de él. El sumo sacerdote hacía expiación por sus propios pecados y los del pueblo por encima de la Ley divina, escrita sobre las dos tablas de piedra depositadas dentro del arca. Los querubines, armados de una espada de fuego, habían mantenido al hombre caído lejos del árbol de la vida y del paraíso (Gn. 3:24). De derecho, deberían atravesar al pecador temerario que se introdujera en la misma presencia de Dios, dentro del Lugar Santísimo. Pero aquí estaban sin arma, con la mirada dirigida hacia el propiciatorio, donde la sangre mostraba que la muerte de la víctima había dado satisfacción plena a la Ley y a la justicia de Dios (cfr. Lv. 16:1-16; véase EXPIACIÓN [DÍA DE LA]).
+
+nom, PROSÉLITO
+
+ver, NOÉ
+
+vet,
+
+(gr.: «que ha venido a unirse»).
+
+Persona de origen pagano, pero convertida al judaísmo.
+
+Los fariseos recorrían mar y tierra para hacer un prosélito (Mt. 23:15). El poeta latino Horacio considera el proselitismo como una característica del judaísmo (Sat. 1:4, 142, 143). Había prosélitos en Jerusalén en el día de Pentecostés (Hch. 2:10). Nicolás, uno de los siete diáconos de la iglesia apostólica, era prosélito de Antioquía (Hch. 6:5), ciudad en la que había numerosos adeptos al judaísmo (Hch. 8:27). La familia real de Adiabena, al este del Éufrates, adoptó la religión judía (Ant. 20:2, 4). En Antioquía de Pisidia, un gran número de prosélitos siguió a Pablo y a Bernabé (Hch. 13:43). En el rabinismo se distinguían dos categorías de prosélitos: (a) Los prosélitos de la justicia: se adherían a la circuncisión, al bautismo, ofrecían sacrificios, y practicaban el judaísmo integral. (b) Los prosélitos de la puerta, menos avanzados, seguían los «siete preceptos de Noé» (véase 1104 NOÉ), pero no se sometían ni a la circuncisión ni al conjunto de las ordenanzas judías. Nótese también que el NT emplea las expresiones «prosélito» y «temeroso de Dios» (Hch. 10:2; 13:43; 16:14; 18:7). Los prosélitos, así, eran gentiles que habían dado su adhesión al judaísmo, en tanto que los «temerosos de Dios» eran los que, sin haber llegado a dar este paso, frecuentaban fielmente la sinagoga.
+
+nom, PROSTITUCIÓN.
+
+tip, TIPO LEYE
+
+vet,
+
+Prohibida en Israel (Lv. 19:29; 21:9; Dt. 23:17), fue sin embargo practicada debido a la relajación de las costumbres y por la influencia corruptora del paganismo que había alrededor (Gn. 38:21; Jos. 2:1; Jue. 11:1; 16:1).
+
+El culto de los lugares altos y de los templos cananeos, babilónicos, griegos, etc., comportaba una clase de «prostitutas sagradas» (gr. «hieródulas»). También había prostitución masculina «sagrada» (gr.: «hieródulos»): los cultos de Baal, Astarté y Dionisos de Biblos eran licenciosos en extremo (1 R. 14:23-24; Os. 4:13-14).
+
+En la época de Salomón y de sus sucesores, la prostitución se extendió entre los mismos israelitas, principalmente por medio de mujeres extranjeras (1 R. 3:16; 11:1; 22:38; Pr. 5:3-8, 20; 6:24-26; 7:5-27; 23:27). Llegaron a existir «casas de placer» (Ez. 16:24, 31; 2 R. 23:7). Se decía asimismo que alguien «se prostituía» cuando mantenía relaciones ilícitas, aun cuando fuera con una sola persona (Gn. 38:24; Dt. 22:21). Los profetas y los reyes fieles reaccionaron vivamente contra este estado de cosas.

@@ -1,0 +1,33 @@
+{
+  "title": "MÓN DE",
+  "author": "Azael Varas",
+  "book": "Breve historia del antiguo Egipto",
+  "chapter": 48,
+  "total_chapters": 112,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "secular-history",
+    "breve-historia-series",
+    "nowtilus",
+    "egyptian-history"
+  ],
+  "authority": 15,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Breve historia del antiguo Egipto - Azael Varas.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "8863f13a-498d-435e-b3cb-d1d24337bc9d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Serie 'Breve Historia' (Ediciones Nowtilus Spanish popular history). Material secular no-SUD para referencia comparativa. Archivado desde el lote 2026-04-23."
+}

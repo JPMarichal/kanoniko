@@ -1,0 +1,31 @@
+{
+  "title": "Authors and Books.",
+  "author": "Various",
+  "book": "International Weekly Miscellany of Literature, Art and Science — Volume 1, No. 2, July 8, 1850",
+  "chapter": 5,
+  "total_chapters": 8,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/International Weekly Miscellany of Literature, Art and Science — Volume 1, No. 2, July 8, 1850 - Various.epub",
+  "opf_publisher": null,
+  "opf_date": "2004-07-21T00:00:00+00:00",
+  "opf_identifier": "calibre:4274",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'International Weekly Miscellany of Literature, Art and Science — Volume 1, No. 2, July 8, 1850'. Attribution pending manual research."
+}

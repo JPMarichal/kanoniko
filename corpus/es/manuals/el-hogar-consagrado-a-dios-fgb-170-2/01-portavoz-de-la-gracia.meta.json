@@ -1,0 +1,32 @@
+{
+  "title": "Portavoz de la Gracia",
+  "author": "Various",
+  "book": "El hogar consagrado a Dios (FGB #170)",
+  "chapter": 1,
+  "total_chapters": 3,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "folleto",
+    "guia-basica",
+    "unclear-attribution"
+  ],
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/hogar consagrado a Dios (FGB #170), El - Various.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-05-14T10:30:21+00:00",
+  "opf_identifier": "c1ad099b-ab9d-4d89-896d-88927b36f72e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'El hogar consagrado a Dios (FGB #170)'. Attribution pending manual research."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "early-church-history",
+    "faith-promoting-series",
+    "unclear-attribution"
+  ],
+  "category": "history",
+  "author": "(unknown)",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'Helpful Visions / The Fourteenth Book of the Faith-Promoting Series. Intended for the Instruction and Encouragement of Young Latter-day Saints'. Attribution pending manual research."
+}

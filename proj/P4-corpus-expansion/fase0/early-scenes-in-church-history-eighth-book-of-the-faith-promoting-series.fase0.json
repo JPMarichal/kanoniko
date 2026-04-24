@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "early-church-history",
+    "faith-promoting-series",
+    "unclear-attribution"
+  ],
+  "category": "history",
+  "author": "Various",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'Early Scenes in Church History / Eighth Book of the Faith-Promoting Series'. Attribution pending manual research."
+}

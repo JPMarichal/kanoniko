@@ -1,0 +1,21 @@
+{
+  "authority": 55,
+  "rigor": 45,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "discourses",
+    "apostle-authored",
+    "spanish-translation",
+    "church-publication",
+    "anthology",
+    "holland-series"
+  ],
+  "category": "discourses",
+  "author": "Jeffrey R. Holland",
+  "source_url": null,
+  "note": "Antologia oficial ES 'Una seleccion de discursos' por Centros de Distribucion SUD (serie que cubre tambien Packer, McConkie, Benson, Hinckley, Holland, Wirthlin). Column-interleaved PDF caveat aplicable."
+}

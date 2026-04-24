@@ -1,0 +1,33 @@
+{
+  "title": "Part 128",
+  "author": "Miguel Angel Novillo López",
+  "book": "Breve historia de Roma",
+  "chapter": 124,
+  "total_chapters": 134,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "secular-history",
+    "breve-historia-series",
+    "nowtilus",
+    "roman-history"
+  ],
+  "authority": 15,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Breve historia de Roma - Miguel Angel Novillo López.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f8467f8c-2889-40e8-be7f-371d07b76535",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Serie 'Breve Historia' (Ediciones Nowtilus Spanish popular history). Material secular no-SUD para referencia comparativa. Archivado desde el lote 2026-04-23."
+}

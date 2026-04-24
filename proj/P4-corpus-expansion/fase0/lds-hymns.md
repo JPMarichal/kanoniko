@@ -1,11 +1,11 @@
-# Fase 0 --- LDS Hymns (IJCSUD)
+# Fase 0 --- LDS Hymns (Various)
 
-> Fecha: 2026-04-23. Batch IJCSUD.
+> Fecha: 2026-04-23. Batch unknown-creator.
 
 ## Que es
 
-Material producido por La Iglesia de Jesucristo de los Santos de los Ultimos Dias. Clasificacion: music; authority=60.
+Lot epub con OPF creator='Various authors'. Titulo: LDS Hymns. Clasificado por keywords del titulo.
 
 ## Evaluacion
 
-authority=60; rigor=60; importance=importante; category=music; tags: music, correlated, ijcsud, spanish-translation.
+authority=40; rigor=60; category=music; tags: music, unclear-attribution.

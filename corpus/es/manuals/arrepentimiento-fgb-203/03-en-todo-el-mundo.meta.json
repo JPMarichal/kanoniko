@@ -1,0 +1,32 @@
+{
+  "title": "En todo el mundo:",
+  "author": "Various",
+  "book": "Arrepentimiento (FGB #203)",
+  "chapter": 3,
+  "total_chapters": 14,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "folleto",
+    "guia-basica",
+    "unclear-attribution"
+  ],
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Arrepentimiento (FGB #203) - Various.epub",
+  "opf_publisher": null,
+  "opf_date": "2013-07-16T16:48:59+00:00",
+  "opf_identifier": "5cab7519-7350-4959-817d-682cde012fa8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'Arrepentimiento (FGB #203)'. Attribution pending manual research."
+}

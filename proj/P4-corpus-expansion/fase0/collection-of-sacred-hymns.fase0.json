@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "music",
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "category": "music",
+  "author": "Various",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Various authors'. Classified by title keywords. Original title: 'Collection of Sacred Hymns'. Attribution pending manual research."
+}

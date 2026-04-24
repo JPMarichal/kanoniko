@@ -1,0 +1,31 @@
+{
+  "title": "ERDÓN PARA EL MÁS",
+  "author": "(unknown)",
+  "book": "El evangelio de la gracia de Dios",
+  "chapter": 7,
+  "total_chapters": 28,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/evangelio de la gracia de Dios, El - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": "2014-04-29T16:09:06+00:00",
+  "opf_identifier": "7e958cc1-72c4-47e4-8944-7c704855863f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'El evangelio de la gracia de Dios'. Attribution pending manual research."
+}

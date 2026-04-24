@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "general",
+  "tags": [
+    "encyclopedia-of-mormonism",
+    "reference",
+    "byu-scholarship",
+    "unclear-attribution"
+  ],
+  "category": "reference",
+  "author": "Various",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'Covenant Israel, Latter-Day - The Encyclopedia of Mormonism'. Attribution pending manual research."
+}

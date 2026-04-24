@@ -1,0 +1,31 @@
+{
+  "title": "Hillsborough Gazette",
+  "author": "Various",
+  "book": "Hillsborough Gazette",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Hillsborough Gazette - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "6d7e9f95-4d79-4bd4-8606-cbff3c1eb20f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various authors'. Classified by title keywords. Original title: 'Hillsborough Gazette'. Attribution pending manual research."
+}

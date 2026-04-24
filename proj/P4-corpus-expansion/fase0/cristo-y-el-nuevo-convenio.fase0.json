@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "book-of-mormon",
+    "apostle-authored",
+    "deseret-book",
+    "holland",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Jeffrey R. Holland",
+  "source_url": null,
+  "note": "Traduccion ES de Christ and the New Covenant (1997). Par de traduccion."
+}

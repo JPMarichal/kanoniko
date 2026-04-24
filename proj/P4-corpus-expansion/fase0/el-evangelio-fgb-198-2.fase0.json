@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "folleto",
+    "guia-basica",
+    "unclear-attribution"
+  ],
+  "category": "manuals",
+  "author": "Various",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'El evangelio (FGB #198)'. Attribution pending manual research."
+}

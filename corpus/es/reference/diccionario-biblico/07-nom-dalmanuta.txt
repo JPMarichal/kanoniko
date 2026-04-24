@@ -1,0 +1,1037 @@
+sit, a9, 119, 11
+
+vet,
+
+Distrito de Ilírico, al este del mar Adriático, visitado por Tito, y quizá por Pablo, al ir «por los alrededores hasta Ilírico» (Ro. 15:19; 2 Ti. 4:10).
+
+nom, DALMANUTA
+
+261
+
+tip, REGI
+
+sit, a1, 520, 285
+
+vet,
+
+Región junto al lago de Genesaret a la que se retiró Jesús después de la segunda multiplicación de los panes (Mr. 8:10).
+
+Mateo dice que estaba en tierra de Magdala, y así lo escribe (Mt. 15:39).
+
+nom, DÁMARIS
+
+tip, BIOG MUJE MUNT
+
+vet,
+
+Mujer ateniense que se convirtió al cristianismo por la predicación de Pablo en el Areópago, juntamente con otras personas, entre las cuales también estaba Dionisio el areopagita (Hch. 17:34).
+
+nom, DAMASCO
+
+tip, CIUD
+
+sit, a9, 573, 330
+
+vet,
+
+Ciudad de Siria, en una meseta regada por los ríos Abana y Farfar (2 R. 5:12), región que forma un vasto oasis y donde convergen las rutas de Egipto, Arabia y Bagdad. Es antiquísima (Gn. 14:15). Conquistada por David (2 S. 8:5, 6), fue recobrada por un súbdito del rey vencido, quien fundó el nuevo reino de Siria (1 R. 11:23, 24). Fue capital de varios reyes que entraron en alianzas y contraalianzas con Judá e Israel (1 R. 15:18, 20; 20:34; 2 R. 8:8-15; 16:5). Sometida por el rey asirio Salmanasar (842 a.C.) a tributo, fue capturada por Tiglat-pileser (734), aliado del rey de Judá (2 R. 16:1-9; Is. 7:1). Después estuvo sucesivamente sujeta a babilonios, persas y macedonios. Existía en ella una numerosa colonia judía. Juega un papel importante en la historia de la conversión de Pablo (Hch. 9:2, 3, 10, 24, 25); en esa época la ciudad estaba bajo el dominio de Aretas, rey de la Arabia Pétrea (2 Co. 11:32).
+
+nom, DAN
+
+tip, CIUD BIOG REGI HOMB HOAT
+
+sit, a1, 508, 105
+
+vet,
+
+(a) Quinto hijo de Jacob, padre de la tribu del mismo nombre. (b) Ciudad antes llamada Lesem, conquistada por la tribu de Dan y llamada por ellos así (Jue. 1:34, 35; Jos. 19:47). Situada en un fértil valle cerca del Líbano, en el extremo norte (Jue. 20:1; 1 Cr. 21:2). Ahí puso Jeroboam uno de sus becerros de oro (1 R. 12:29).
+
+nom, DAN (Tribu)
+
+tip, TRIB REGI TR12
+
+sit, a6, 245, 294
+
+vet,
+
+(a) Territorio que se concedió a esta tribu en Canaán (Gn. 26:23; 49:16, 17; Nm. 64:42), comparado por Moisés con un león (Dt. 33:22). (b) Nombre de su territorio (Nm. 1:12, 38, 39; Jos. 19:40-46; 21:5, 23), el cual no llegaron a 262 poseer en toda su extensión, por la hostilidad de los amorreos.
+
+nom, DANIEL
+
+tip, BIOG HOMB HOAT PROF
+
+vet,
+
+(hebreo, «Dios es mi juez»).
+
+Nombre propio de tres personajes israelitas:
+
+(a) Daniel, el cuarto de los llamados «profetas mayores», es el principal personaje bíblico que lleva este nombre, autor del libro que lleva su nombre, muy estimado entre los judíos de todos los tiempos (Mt. 24:15), descendiente de la familia real de David (Dn. 1:3), que fue llevado cautivo a Babilonia cuando era jovencito, en el año tercero del reinado de Joacim de Judá (600 a.C.).
+
+Fue escogido con tres compañeros suyos (Ananías, Misael y Azarías) para residir en la corte de Nabucodonosor, en donde halló favor como José en Egipto, e hizo grandes progresos en las ciencias de los caldeos, así como en la lengua sagrada pero rehusó contaminarse comiendo de las provisiones de la mesa del rey, que eran a menudo ceremonialmente impuras para un judío o estaban manchadas por haber estado en contacto con el culto idólatra. Al fin de unos tres años de educación, Daniel y sus compañeros aventajaron a todos los demás y recibieron buenos empleos en el servicio real. Allí Daniel desplegó en breve sus dones proféticos, interpretando un sueño de Nabucodonosor, por quien fue hecho gobernador de Babilonia y jefe de la clase instruida y sacerdotal. Parece haber estado ausente, quizás en alguna embajada extranjera, cuando sus tres compañeros fueron arrojados en el horno ardiendo. Algún tiempo después interpretó otro sueño de Nabucodonosor, y posteriormente la célebre visión de Belsasar, uno de cuyos últimos actos fue promover a Daniel a un empleo mucho más elevado que el que previamente había tenido durante su reinado (Dn. 5:29; 8:27). Después de la captura de Babilonia por los medos y persas, Darío el Medo, que «tomó el reino» después de Belsasar, le hizo «primer presidente» de unos 120 príncipes. La envidia hizo que formaran el complot para que se le echara a la cueva de los leones, acto que les atrajo su propia destrucción (Dn. 6).
+
+Daniel continuó en todos sus altos oficios, y gozó del favor de Ciro hasta su muerte. Durante este período trabajó fervorosamente, con ayunos y oraciones, así como tomando medidas oportunas para asegurar la vuelta de los judíos a su propia tierra, habiendo llegado para ellos el tiempo prometido (Dn. 9). Vivió lo bastante para ver el decreto expedido a ese respecto y que muchos de su pueblo volvieran a Jerusalén; pero no se sabe si alguna vez volvió a visitar esa ciudad, por tener entonces (356 a.C.) más de 80 años de edad. En el tercer año de Ciro tuvo una serie de visiones que le pusieron de manifiesto cuál tenía que ser el Estado de los judíos hasta la venida del Redentor prometido; y por las cuales le vemos esperando tranquilamente el término pacífico de una vida bien empleada.
+
+Daniel siguió siempre la voluntad de Dios. Tanto su juventud como su vejez fueron igualmente consagradas a Dios. Conservó su honradez en circunstancias difíciles, y en medio de la fascinación de una corte oriental, fue puro y justo. Confesó el nombre de Dios ante los príncipes idólatras, y estuvo a punto de ser mártir, de no haber sido por el milagro que lo preservó de la muerte.
+
+(b) Entre los demás personajes que llevaban este nombre de Daniel, la Biblia destaca: (A) El segundo hijo de David, llamado también Quileab (1 Cr. 3:1; 2 S. 3:3). (B) Descendiente de Itamar, cuarto hijo de Aarón. Fue uno de los jefes que acompañaron a 263 Esdras de Babilonia a Judea, y que después tuvo una parte importante en la reforma del pueblo (Esd. 8:2; Neh. 10:6).
+
+nom, DANIEL (Libro)
+
+tip, LIBR ESCA CRIT LIAT
+
+ver, CANON, ANTICRISTO, HIJO DEL HOMBRE, BELSASAR, DARÍO vet,
+
+En la LXX, así como en nuestras versiones españolas, figura después de Ezequiel, entre los profetas del AT, en tanto que en el canon hebreo se halla en la tercera división del canon, entre los Hagiógrafos (véase CANON). Daniel recibe el nombre de profeta (Mt. 24:15; Ant 10:15, 4, 6) y es además contado entre los mayores (Ant. 10:11, 7). Su vida difirió de la de los otros profetas en que él fue un funcionario estatal, ocupado en los asuntos públicos del reino de Babilonia. La mayor parte de su libro está en hebreo, pero un fragmento se halla en arameo, la lengua comercial y diplomática de su tiempo (cp. un fenómeno análogo en Esdras); este fragmento en arameo relata casi exclusivamente la vida de los judíos en tierra extraña, las acciones de los reyes gentiles, y las profecías con respecto a los imperios gentiles; empieza en el cap. 2, a mitad del v. 4, y termina en el v. 28 del cap. 7.
+
+(a) Secciones:
+
+El libro de Daniel puede dividirse en 3 secciones:
+
+(A) Introducción: Daniel y sus 3 compañeros se preparan para su obra (Dn. 1). (B) En una corte extranjera, entre personas mayoritariamente paganas, Dios se sirve del testimonio de los 4 jóvenes para manifestar su omnipotencia, controlando los poderes de este mundo y la relación de ellos con el reino de Dios (Dn. 2-7). Esta sección está escrita en arameo. Incluye:
+
+el sueño que tuvo Nabucodonosor de una estatua hecha de cuatro materiales distintos y el relato de su destrucción (Dn. 2),
+
+la tentativa de matar a los 3 compañeros de Daniel y su liberación del horno de fuego ardiente (Dn. 3),
+
+el sueño de Nabucodonosor acerca del árbol talado que era una representación de él mismo (Dn. 4),
+
+la escritura sobre la pared durante el banquete de Belsasar (Dn. 5), el complot contra la vida de Daniel, y su liberación del foso de los leones (Dn. 6), la visión que tuvo Daniel de 4 animales y de uno semejante a un hijo del hombre (Dn. 7); este último pasaje en orden cronológico constituye la transición entre las secciones B y C. (C) Visiones complementarias y relativas al destino del pueblo de Daniel (Dn. 8-12). Se trata de 3 visiones de Daniel:
+
+(I) La cesación del sacrificio continuo, la profanación del santuario y la oposición al Príncipe de los príncipes (Dn. 8; cp. 8:13 y 25).
+
+(II) A continuación Daniel se prepara ante el próximo fin de los 70 años de cautiverio que habían sido profetizados, confiesa los pecados de su pueblo, e implora el perdón de Dios. Después de las profecías precedentes, se podría suponer que el reino mesiánico se establecería a partir del fin del cautiverio; pero una visión revela a Daniel que tendrían que transcurrir 70 «semanas» después de la promulgación del edicto para reconstruir Jerusalén antes que hubiera expiación e instauración del reino de justicia perdurable (Dn. 9). (III) Después, una nueva visión informa a Daniel, en el tercer año de Ciro, el fundador del 264 imperio persa, que este Estado caerá, que se abatirá la persecución sobre el pueblo de Dios, y que después los santos serán finalmente liberados y levantados en una gloriosa resurrección (Dn. 10-12).
+
+(b) Los cuatro imperios de Daniel.
+
+Las cuatro partes de la estatua que es hecha caer por una piedra, y los cuatro animales a los que les sucede uno semejante a un hijo de hombre (Dn. 7; cp. Dn. 7:13-14, 17-18) designan 4 poderes mundiales a los que finalmente sucederá el reino de Dios. La estatua los muestra de manera que a un gobernante pagano le parecerían de un esplendor imponente; los cuatro animales las representan ante el profeta en su feroz brutalidad. Son más de 4 imperios los que han existido sobre la tierra; pero solamente tienen carácter profético los que tienen un papel en relación directa con la nación de Israel reconocida como tal en Palestina. Cubren todos ellos los «tiempos de los gentiles» (Lc. 21:24), que tuvieron su inicio con la destrucción de Jerusalén y de la nación judía por Nabucodonosor, rey de Babilonia, y que tendrá fin cuando el reinado de la Bestia sea destruido por el Señor a Su retorno. (A) El Primer Imperio es Babilonia (Dn. 2:37-38), que expulsó a los judíos de su país. (B) El Segundo Imperio aparece en tres ocasiones (Dn. 2:32, 39; 7:5; 8:3-7). Se hallan repetidamente sus características (p. ej., su dualidad) en los brazos y el torso de la estatua, en los costados desiguales del segundo animal, y en los dos cuernos desiguales del carnero. Dn. 8:20 lo identifica de manera expresa con los reyes de Media y de Persia. Ellos fueron los que permitieron el retorno de los exiliados (cp. Esd. 1:1-2).
+
+(C) El Tercer Imperio es Grecia (Dn. 2:32, 39; 7:6; 8:5-8). Sus principales características son la velocidad y la extensión de sus conquistas; domina toda la tierra (Dn. 2:39); es rápido como el leopardo y como el ave (Dn. 7:6); iba por toda la tierra sobre su superficie, sin tocarla (Dn. 8:5); su primer rey, Alejandro, murió súbitamente sin dejar descendientes (Dn. 8:8; 11:4); su imperio fue dividido en cuatro (Dn. 7:6; 8:8; 11:4); este imperio recibe de una manera expresa el nombre de Javán (Grecia, Dn. 8:21). Los judíos retornados a Palestina sufrieron terriblemente en su propio territorio la guerra incesante que mantuvieron dos de las divisiones del imperio griego, el Egipto de los Ptolomeos (el rey del sur), y la Siria de los Seléucidas (el rey del norte: cp. Dn. 11). El peor perseguidor de Israel fue un rey de Siria, Antíoco IV Epifanes (175-164 a.C.), prefigurado por el «cuerno pequeño» de Dn. 8:9-14, 23-25; 11:21, 36 ss. Loco de soberbia, pretendiendo proceder de Júpiter, quiso imponer a la fuerza su culto; intentó destruir todas las copias de la Ley, profanó el templo de Jerusalén y erigió lo que el profeta había denominado «la abominación de desolación» (Dn. 8:11-12; 11:31). A causa de todo esto, este rey, por otra parte insignificante, es considerado como un tipo de Anticristo (Véase ANTICRISTO). (D) El Cuarto Imperio no es nombrado, pero no puede ser otro que el de Roma. Éste es, efectivamente, el que en la historia sucedió al de Grecia. Aplastando toda resistencia, estableció un imperio todavía más universal (Dn. 2:40; 7:7, 19, 23). Fue Roma la que crucificó al Mesías, y destruyó Jerusalén el 70 d.C., expulsando a los judíos de Palestina (Dn. 9:26). Su imperio estuvo largo tiempo dividido en dos partes, como las piernas de la estatua. En su visión profética, Daniel vio subsistir este cuarto imperio hasta el fin de los tiempos, bajo la forma de una confederación de 10 caudillos (Dn. 2:34; 7:7, 24). Es de su seno que surgirá el Anticristo, terrible perseguidor del pueblo de Dios, que será destruido por la venida victoriosa del Hijo del hombre (Dn. 7:8, 11, 13-14, 21-27). El Apocalipsis vuelve a tomar la imagen de la bestia monstruosa con 10 cuernos. Allí esta bestia representa al Anticristo y su imperio con toda su crueldad, su revuelta contra Dios, su dominio universal (Ap. 13:1-8), su confederación de 10 dictadores (Ap. 17:12, 17), su evidente relación con Roma (Ap. 17:9, 18). Juan expresa en estos términos el hecho de que, 265 según la profecía bíblica, el cuarto imperio de Daniel existirá aún al fin de los tiempos: «La bestia que has visto, era, y no es; ... y los moradores de la tierra... se asombrarán viendo la bestia que era y no es, y será» (Ap. 17:8). Lo que ha dejado de existir en el territorio del antiguo imperio romano es la cabeza común. El Anticristo será el agente coordinador y, a partir de esta base, llevará a cabo el viejo sueño de todos los conquistadores: imponer que toda la raza le adore (Ap. 13:3, 7-8).
+
+(c) 70 Semanas.
+
+La profecía de las 70 semanas trata asimismo de los sufrimientos inherentes al establecimiento del reino de Dios (Dn. 9:24-27). El profeta había pedido el perdón y la salvación de su pueblo, así como la restauración de la ciudad y del santuario del Señor (Dn. 9:17-19). Dios le dio como respuesta que había un periodo de tiempo determinado para expiar la iniquidad, terminar la prevaricación, poner fin al pecado, traer la justicia perdurable, finalizar y consumar todas las profecías, y ungir al Mesías ejecutor de estas cosas (Dn. 9:24). Para todo esto tienen que transcurrir 70 «semanas» (en hebreo «setenas», o grupos de 7). La «mitad de la semana» de Dn. 9:27 se corresponde con la duración de la gran tribulación, durante la que el Anticristo hará cesar el sacrificio y la ofrenda. Según Daniel y Apocalipsis, esta tribulación durará 42 meses, 1.260 días, esto es, 3 1/2 años (Ap. 11:2, 3; 12:6, 14; 13:5; Dn. 7:25; 12:7); se puede llegar a la conclusión de que una «semana» entera se corresponde con 7 años, y que 70 semanas son 490 años.
+
+(A) ¿Cuál es el punto de partida de las 70 semanas? Según Dn. 9:25, tienen su inicio «desde la salida de la orden para restaurar y edificar Jerusalén». Se mencionan otros decretos con respecto al retorno de la cautividad:
+
+(I) 1 de Ciro (Esd. 1:1-3),
+
+(II) 1 de Darío (Esd. 6:3-8), y
+
+(III) 2 de Artajerjes (Esd. 7:7; Neh. 2:1-8).
+
+Los comentaristas han diferido a este respecto, pero parece más lógico tomar como punto de partida el último, el único que menciona la reconstrucción, no sólo del templo, sino de la ciudad. Este decreto se promulgó en el año 445 a.C. Los 3 períodos indicados se sitúan a partir de esta fecha de la siguiente manera:
+
+(I) Habrá 7 semanas durante las que la ciudad y sus murallas serán reconstruidas, tiempos de angustia de 49 años (7 x 7), lo cual se corresponde con las épocas difíciles de Esdras y Nehemías;
+
+(II) después hay 62 semanas entre esta época y la manifestación del Mesías, seguida de su muerte. Ello suma, para los dos primeros períodos, un total de 69 semanas, o 483 años (69 x 7), que transcurrieron sin interrupción. Ello nos lleva exactamente al período de la manifestación pública y triunfal de Jesús del Domingo de Ramos, su entrada en Jerusalén, cuando fue aclamado con «hosannas al hijo de David». Recuérdese que en esta ocasión, a diferencia de las precedentes en que el pueblo quería proclamarle rey, aceptó las aclamaciones, y reprendió a los que querían acallarlas. Para evidenciar la cronología exacta del cumplimiento de la profecía hasta el Mesías Príncipe, se tiene que contar el año como los profetas, un año de 360 días (42 meses = 1.260 días) para restablecer la correspondencia entre el calendario judío y el calendario juliano (cp. Sir R. Anderson, «El Príncipe que ha de venir», Portavoz Evangélico, Barcelona 1980, especialmente PP. 138-144).
+
+(III) Después de las sesenta y dos semanas se quita la vida al Mesías (Dn. 9:26). Nótese la clara implicación de este versículo de que el inicio de la semana 70 no es consecutivo al final de la semana 69, porque tienen lugar una serie de hechos después del final de las primeras 62 semanas, 266 y antes del inicio de la última. Esta última semana se relaciona claramente con la carrera del Anticristo, y conduce directamente al final de los tiempos de las naciones, esto es, hacia el milenio, y al cumplimiento de todas las promesas relacionadas con Israel, y dadas en el v. 24. La profecía divide en dos partes iguales los 7 años de esta «semana», un período de paz, que quizá siga a la guerra del bloque del norte (cp. Ez. 38-39), y un período de gran tribulación correspondiente a los 3 1/2 años indicados expresamente por los textos citados; esto es lo que sigue de la indicación de la ruptura de la alianza (con Israel) por parte del Anticristo «a la mitad de la semana» (Dn. 9:27).
+
+Si la profecía con respecto a la primera venida de Cristo se cumplió de una manera tan admirable, ¿cómo se puede dudar de la exactitud de los sucesos y del tiempo anunciado para la última etapa (la septuagésima semana)?
+
+Es también entre la semana 69, que se cierra con la manifestación del Mesías Príncipe en la entrada triunfal en Jerusalén (cp. Mt. 21:1-9; Mr. 11:1-11; Lc. 19:28-40, especialmente Lc. 19:38, 40; Jn. 12:12-16) y la semana 70, que inaugura la carrera del Anticristo, que se tiene que situar necesariamente dentro de este intervalo, la era de la Iglesia, durante la que Israel no es reconocido por Dios (cp. André Lamorte, «La Vocation d'Israël et la Vocation de l'Église, Librarie Protestante, París 1957, PP. 53-57).
+
+(d) Alusiones al libro de Daniel.
+
+Las alusiones al libro de Daniel por parte de los escritores de otros libros de la Biblia muestran la amplitud de su perspectiva profética.
+
+(A) Nuestro Señor eligió el título «Hijo del hombre» en preferencia a cualquier otro, y es también una cita de Dn. 7:13, 14. Jesús puso también en evidencia el aspecto de Su ministerio y de Su reino que revela este título de «Hijo del hombre». (Véase HIJO DEL HOMBRE). (B) Cristo advirtió a Sus oyentes que la abominación de la desolación, de la que había hablado el profeta Daniel, sería puesta en el lugar santo (Mt. 24:15; Mr. 13:14; cp. Dn. 11:31; 12:11, y nótese el texto gr. de Dn. 9:27; cp. 2 Ts. 2:1-12). Según las palabras de Cristo, es evidente que estas profecías no hallaron su pleno cumplimiento cuando Antíoco Epifanes (1 Mac. 1:54) erigió un altar idólatra en el templo de Jehová.
+
+La profecía comporta frecuentemente cumplimientos sucesivos en ciclos históricos, más y más inclusivos, y el concepto de la «abominación de la desolación» parece materializarse cada vez que aparece en la historia como principio de violencia. Para los apóstoles el pequeño cuerno del cuarto animal (Dn. 7:24) y el rey que profiere palabras inicuas contra Dios (Dn. 11:36) pertenecen al futuro, y tienen que revelarse todavía (2 Ts. 2:4; Ap. 13:5, 6). Ciertas características del conflicto entre el mundo y el reino de Dios se relacionan indudablemente con la lucha encarnizada de la época de Antíoco Epifanes, pero no únicamente a aquella época. Cristo y Sus apóstoles veían en las profecías de Daniel una revelación del provenir. Tienen, indudablemente, una gran importancia en cuanto a la irrupción definitiva del reino mesiánico.
+
+En Apocalipsis, Juan no vio a los 4 imperios de Daniel de forma aislada, sino que percibió de forma colectiva todos los reinos del mundo a la vez. Los considera como un solo imperio, a pesar de sus diferencias externas. Los poderes mundiales no les son presentados ni a Daniel ni a Juan bajo su aspecto político, sino solamente como la expresión de la hostilidad del mundo hacia el reino de Dios. El principal objetivo de la profecía no es precisamente el destino de las naciones, sino su relación con el reino de Dios. Este hecho importante permite descubrir el sentido de la revelación de los capítulos 11 y 12 del libro de Daniel. En efecto, el objeto de estos capítulos no es el de exponer la historia política de los hombres, sino especialmente el de bosquejar, en estilo 267 apocalíptico, los grandes movimientos de este mundo en relación con el reino de Dios. Los enemigos de Sión vinieron y siempre vienen o del norte o del sur. Desarrollando en estilo apocalíptico esta constante histórica, la visión describe un conflicto entre los poderes en lucha por la hegemonía: Una guerra llena de vicisitudes, la derrota gradual del rey del sur, el triunfo final del rey del norte, y finalmente su enfrentamiento a ultranza contra el reino de Dios. Este cuadro se corresponde con Ez. 38 y Ez. 39.
+
+Daniel habla de los tiempos del fin, el de la consumación. Es el tiempo final de la cólera divina (Dn. 8:19; cp. Dn. 11:36); el juicio de los poderes mundiales tiene entonces lugar, y se instaura el reino eterno de Dios (cp. Dn. 10:14) a lo que sigue la consumación final (Dn. 12:1-3). Es el último tiempo de enfrentamiento entre los poderes de este mundo y el reino de Dios, con una victoria total por parte de este último (Dn. 11:40-12:4). Los apóstoles hablan asimismo de este período, que ellos denominan la hora final, los últimos tiempos, o los días postreros. Dicen que ya había empezado en tiempo de ellos, que no ha escapado, y que llegará a una manifestación del Anticristo (2 Ts. 2:2-4; 2 Ti. 3:11; 1 Jn. 2:18; Jud. 18).
+
+Los hombres del NT vieron con claridad la envergadura y el significado de las profecías de Daniel con respecto al tiempo del fin. Incluso tuvieron la consciencia de que ellos inauguraban el período predicho.
+
+(e) Unidad y autenticidad del libro de Daniel.
+
+Los hay que han pretendido que la sección aramea (en los capítulos 2 a 6) es un texto independiente, redactado 1, 2 o 3 siglos antes de la época de los Macabeos. A pesar de esto, se admite por lo general que el libro tiene una unidad esencial y un solo autor. En los 7 primeros capítulos se habla de Daniel en tercera persona, y, en ocasiones, en términos elogiosos (Dn. 1:19, 20; 2:14; 5:11, 12; 6:3; cp. Pablo, hablando de sí mismo, 2 Co. 2:15; 10:8; 11:5, 23 ss 12:1-6). Desde Dn. 8 el profeta habla en primera persona. Numerosos críticos niegan que Daniel sea el autor del libro pretendiendo que el profeta no escribió ni las secciones donde figura en primera persona, ni aquellas en las que figura en tercera persona. Estos exegetas pretenden, por lo general, que la obra fue escrita hacia el año 168 o 167 a.C., en la época de los Macabeos, para sostener la fe de los judíos durante las terribles persecuciones de Antíoco Epifanes.
+
+Sus principales argumentos contra la autenticidad de este libro son: (A) El hijo de Sirach, que escribió el libro del Eclesiástico hacia el año 200 a.C. no menciona a Daniel, en tanto que cita a Ezequiel, a Nehemías, y a los Profetas Menores (cap. 49). (B) El autor del libro de Daniel emplea palabras griegas, lo que implicaría que había vivido dentro del periodo griego.
+
+(C) Se alega que hay inexactitudes históricas, lo que demostraría que el autor, bien lejos de haber sido un testimonio ocular de los acontecimientos que describía, habría vivido en otra época. (D) Las profecías no dan detalles históricos a partir de la muerte de Antíoco Epifanes. Refutación de estos argumentos:
+
+(A) Es cierto que el hijo de Sirach no menciona a Daniel; pero tampoco cita a Esdras, ni a otros hombres eminentes, como Gedeón, Sansón y Josafat.
+
+(B) El empleo de palabras griegas se limita a algunos términos musicales, que no figuran más que en un solo pasaje, que se repite en cuatro ocasiones en el mismo capítulo (Dn. 3:5, 7, 10, 15). El origen griego de por lo menos dos de estos nombres es innegable: «p'sant'rin», para el término griego «psalterion», y «sumpson'ya» para «sumphonia». Pero esto no permite en absoluto llegar a la conclusión de que este libro no hubiera sido escrito por Daniel en Babilonia hacia el año 530 a.C. En efecto, en esta época se utilizaban estos instrumentos musicales en la cuenca del Tigris y 268 del Éufrates. Además, está demostrado que en esta región la música era un acompañamiento de las procesiones triunfales y de los acontecimientos de la corte. Los cautivos llevados de países lejanos tocaban sus propios instrumentos musicales. Assurbanipal tenía músicos elamitas, Senaquerib deportó de Judea a cantores y a cantoras. Se les pidió a los presos judíos que cantaran los cánticos de Sión y que tocaran el arpa (Sal. 137:1-3). Las relaciones que los imperios situados a lo largo del Tigris mantenían con los pueblos occidentales habían llevado a la introducción en Caldea de los instrumentos musicales griegos, junto con sus nombres. Además, los monarcas precedentes, algunos reyes asirios, a partir de Sargón (772 a.C.) habían llevado cautivos a presos de Chipre, de Ionia, de Lidia, y de Cilicia, recibiendo tributos de estos países griegos. Nabucodonosor atacó las ciudades mediterráneas. Estos conquistadores tenían la costumbre de hacer figurar en su corte a músicos de habla griega. Además, el lenguaje del pasaje en cuestión (Dn. 3:5) es arameo y no babilonio. Los arameos habían tenido contacto con el occidente a lo largo de varios siglos. Este lenguaje era el de la diplomacia, de las relaciones internacionales (cp. 2 R. 18:26). Ellos llevaban a cabo el tráfico de mercancías de oriente a occidente. Debido a este contacto su lengua adquirió algunos términos extranjeros. El autor del libro de Daniel emplea el arameo e, indudablemente, los términos corrientes entre los arameos para designar los instrumentos musicales. Los que se basan en estas palabras para demostrar que el libro no es auténtico, deberían demostrar que estos términos no habían entrado en el arameo corriente antes del siglo VI a.C.
+
+(C) La historia no contradice lo que se pretende sean inexactitudes en el libro de Daniel, puesto que los que esto alegan no poseen datos históricos completos. No se ha podido demostrar que el relato de Daniel contradiga la historia. Por otra parte, nuestro conocimiento actual más extenso de la época de Ciro ha hecho disminuir constantemente la cantidad de estas pretendidas inexactitudes históricas. Se había negado la existencia del rey Belsasar, afirmada en el libro de Daniel, pero la arqueología ha revelado relatos contemporáneos de la toma de Babilonia, demostrando precisamente que se trata de un personaje histórico que fue bien conocido. El hecho de que sea llamado «hijo de Nabucodonosor» para decir descendiente concuerda con las costumbres de la época (cp. el hecho de que al mismo Cristo se le designa como «hijo de Abraham, hijo de David», Mt. 1:1). Estos relatos explican además por qué Belsasar otorgó a Daniel la tercera dignidad en el reino, y no la segunda; en efecto, Belsasar actuaba como rey en corregencia con su padre Nabónido, por lo que él mismo tenía el segundo lugar en el reino; podemos ver también por medio de estos relatos por qué Belsasar, y no Nabónido, es designado como rey de Babilonia durante la toma nocturna de Babilonia. (Véase BELSASAR). Si la mención de Darío de Media ha sido un enigma durante mucho tiempo, los descubrimientos demuestran que el nombramiento de un regente de Babilonia por parte de Ciro era conforme a los usos establecidos; con respecto a la identificación de Darío con Gobryas véase DARÍO. A la luz de las inscripciones cuneiformes, es una temeridad seguir afirmando que Daniel contiene inexactitudes históricas.
+
+(D) Es cierto que las profecías de Daniel no dan detalles históricos a partir de la muerte de Antíoco Epifanes (Dn. 8). Pero estas profecías se encadenan asimismo con los tiempos del fin. El cuarto reino descrito en los caps. 2 y 7 no puede ser otro que el imperio romano (ver las consideraciones anteriores), que viene a ser una potencia mundial con posterioridad a Antíoco, presentándose en el libro de Daniel un desarrollo posterior de una forma detallada. (E) Unos documentos recientemente descubiertos han demostrado que el arameo del libro de Daniel era un arameo ya normal al comienzo del siglo V a.C., al menos en occidente. Cristo afirma que la profecía de Daniel es auténtica, y que se cumplirá (Mt. 24:15). El historiador 269 judío Josefo afirma que las profecías de Daniel existían ya antes de la época de Alejandro Magno, antes del año 330 a.C. (Ant. 11:8, 5), e incluso antes de Artajerjes (Contra Apión 1:8). La liberación de Sadrac, Mesac y Abed-nego, salvados del horno ardiente, y la de Daniel, salvado del foso de los leones, son mencionadas en 1 Mac. 2:59, 60 (cp. también 1:54 y Dn. 9:27; 11:31).
+
+Bibliografía:
+
+Anderson, Sir R.: «El Príncipe que ha de venir» (Portavoz Evangélico, Barcelona, 1980); Boutflower, C.: «In and Around the Book of Daniel» (Kregel P., Grand Rapids 1923/1977); Carballosa, E. L.: «Daniel y el reino mesiánico» (Portavoz Evangélico, Barcelona 1979); Culver, R. D.: «Daniel and the Latter Days» (Moody Press, Chicago 1954/1977); Dennet, E.: «Daniel the Prophet» (Central Bible Truth Depot, Londres 1967); Gaebelein, A. C.: «Clave de las visiones y profecías del libro de Daniel» (Clíe, Terrassa 1982); Ironside, H. A.: «Daniel» (Fundación Cristiana de Evangelización, Buenos Aires 1976); Lang, G. H.: «The Histories and Prophecies of Daniel» (Kregel P., Grand Rapids 1940/1973); Price, W. K.: «The Coming Antichrist» (Moody Press, Chicago 1976); Whitcomb, J. C.: «Darius the Mede» (Presbyterian and Reformed, Nutley, New Jersey 1953/1977);
+
+Wilson, R. D.: «Studies in the Book of Daniel» (Baker Book H.: Grand Rapids 1917/1979); Wood, L: «A Commentary on Daniel» (Zondervan, Grand Rapids 1973).
+
+nom, DARDO
+
+tip, TIPO UTEN EJER
+
+vet,
+
+Flecha, lanza corta, jabalina (2 S. 18:14; 2 Cr. 32:5; Jb. 41:26, 29; Pr. 7:23). «Dardos encendidos» significa dardos con la punta recubierta de un material combustible que se enciende al ser lanzado. o por percusión, quemando además de hiriendo (Ef. 6:16; cp. Sal. 120:4). El cristiano necesita el escudo de la fe para apagar tales dardos del Maligno.
+
+nom, DARÍO (Etimología incierta).
+
+tip, BIOG REYE HOMB HOAT
+
+ver, PERSIA
+
+vet,
+
+(a) DARÍO DE MEDIA.
+
+La identificación de este personaje ha sido durante mucho tiempo un enigma. Una de las personas propuestas era Gobryas, rechazada debido a una serie de dificultades en cuanto a su filiación personal. Sin embargo, una rigurosa investigación reciente ha desvelado que Gobryas era un personaje inexistente, fruto de la fusión de dos personas distintas, Ugbaru y Gubaru, debido a una desafortunada traducción de las Crónicas de Nabónido. Ugbaru aparece en tabletas cuneiformes del siglo VI a.C. Este error en la traducción de la Crónica de Nabónido llevó a muchos eruditos a negar la historicidad de Darío de Media. Una vez establecida la verdadera identidad de Gubaru, éste coincide en todas sus circunstancias personales con las relatadas en Daniel de Darío de Media (ver Whitcomb, J. C.: «Darius the Mede», Presbyterian and Reformed, Nutley, New Jersey, 1977).
+
+(b) DARÍO HISTASPES. Rey de Persia (521-485 a.C.). Confirmó el decreto de Ciro en favor de los judíos y de la 270 construcción del templo (Esd. 4:5, 24; 5:5-7; 6:1-15; Hag. 1:1, 15; 2:10; Zac. 1:1, 7; 7:1). A este rey se atribuye la consolidación del imperio de Persia, y su división en satrapías. (c) DARÍO DE PERSIA.
+
+O Darío II (424-405 a.C.). Sólo es mencionado en Neh. 12:22. Para una lista de los reyes de Persia, véase PERSIA.
+
+nom, DATÁN
+
+tip, BIOG HOMB HOAT
+
+ver, CORÉ
+
+vet,
+
+Uno de los jefes de la rebelión de Coré (véase), de la tribu de Rubén, cuya supremacía pretendía (Nm. 16:1-35).
+
+nom, DAVID
+
+tip, BIOG REYE HOMB HOAT TIPO
+
+ver, SALMOS
+
+vet,
+
+= «bienamado».
+
+Hijo de Isaí, y segundo rey de Israel. Su vida se divide en varios períodos.
+
+(a) Juventud.
+
+Transcurrió en Belén de Judá. Fue el menor de 8 hermanos (1 S. 16:10, 11; 17:12-14). En la genealogía de la tribu de Judá (1 Cr. 2:13-15) no aparecen más que siete de los hijos de Isaí, probablemente porque uno de ellos hubiera muerto sin descendencia. La madre de David es mencionada con ternura en los Salmos a causa de su piedad (Sal. 86:16; 116:16). La historia de los antepasados de David es variada, instructiva, y en general bella, pero también en ocasiones oscurecida por el pecado (Gn. 37:26, 27; 38:13-30; 43:8-10; 44:18-34; Nm. 1:7; Jos. 2:1-21; Rt. 4:17-22). David era rubio y de hermosa apariencia (1 S. 16:12). Como el menor de los hermanos, estaba encargado de pastorear las ovejas de su padre, y mostró su fidelidad y valor hasta el punto de dar muerte al león o al oso que atacara al rebaño (1 S. 16:11; 17:34-36). El joven, dotado de una capacidad notable para la música, tocaba el arpa con gran virtuosidad; más tarde compuso cánticos. Después que Dios hubiera rechazado al rey Saúl, envió al profeta Samuel a Belén, y le ordenó que ungiera a David para que fuera el sucesor de Saúl. No hubo proclamación pública, por temor a suscitar la hostilidad de Saúl. Samuel ungió a David en presencia de unos ancianos, que parece que no fueron informados acerca del objeto de esta unción (1 S. 16:4, 5, 13), pero Isaí y el mismo David ciertamente lo fueron. Éste fue un punto de inflexión en la vida del joven, y «el Espíritu de Jehová vino sobre David»; pero David no menospreció su humilde trabajo cotidiano.
+
+(b) Al servicio de Saúl.
+
+Abandonado por Dios, el rey Saúl estaba acosado por malos espíritus, sometido a depresiones y a crisis de demencia; sus servidores le aconsejaron que se sirviera. de un arpista, cuya música le calmaría su agitado ánimo. Alguien recomendó a David como excelente músico, joven valiente, de edad militar, lleno de prudencia, aun cuando no se había encontrado con la experiencia directa de guerra, y además gozando del favor del Señor (1 S. 16:14-18). Saúl le ordenó que viniera; la música de David le apaciguó, su carácter le complació, y pidió a Isaí que lo dejara en la corte, e 271 hizo de él uno de sus escuderos (1 S. 16:16-23; cp. 2 S. 18:15). Al ejercer esta función, David se instruyó; llegó a conocer la guerra, a hombres eminentes, los lados bueno y malo de la vida de la corte. No estuvo constantemente junto a Saúl. Es indudable que el rey mejoró; David iba con frecuencia a Belén para pastorear las ovejas de su padre (1 S. 17:15). Mientras que él estaba allí, los filisteos invadieron Judá y acamparon a unos 24 Km. al oeste de Belén. Saúl asumió el mando del ejército israelita y marchó a su encuentro. Los tres hermanos mayores de David, que estaban en el ejército, se había separado de su familia hacía unas 6 semanas. Isaí envió a David a que se informara de su suerte. El desafío de Goliat lo emocionó profundamente. Comprendiendo que el Señor quería servirse de él, David, para sacar el oprobio de Israel, inquirió acerca de este filisteo que desafiaba a los ejércitos de Dios viviente. Saúl fue informado acerca de sus palabras; dándose cuenta de las intenciones que tenía aquel joven, el rey permitió al pastor que se midiera con el gigante. Sin armadura, que encontraba un engorro. David, aprovechando su ligereza frente a la pesadez de movimientos del gigante, se dirigió hacia el filisteo con su honda y cinco piedras. Estaba convencido de que su causa era justa y de que Dios le ayudaría. Entre los antiguos, los combates singulares se acompañaban de insultos. Goliat se desplomó, alcanzado en la frente por una piedra de la honda. Al volver después del combate a Gabaa de Benjamín, la residencia de Saúl, o al tabernáculo de Nob, David pasó a Jerusalén y exhibió la cabeza del gigante, sin duda para desafiar a los jebuseos, dueños de la fortaleza (cp. Jos. 15:63; Jue. 1:8). En cuanto a la armadura de Goliat, la puso en su tienda (1 S. 17:54). La espada del gigante fue depositada en el tabernáculo (1 S. 21:9). Después de la victoria de David, nos sorprende ver que Saúl pregunta: «¿De quién es hijo ese joven?» (1 S. 17:55, 58). ¿Acaso no conocía a éste que tantas veces había tocado el arpa ante él? (1 S. 16:17-23). Esto se explica de dos maneras: o bien el joven David se había desarrollado y cambiado mucho, o bien la pregunta del rey tenía que ver con la posición social y material de su familia, de lo que no se había preocupado hasta entonces. Recordemos que Saúl había prometido casar al vencedor con su hija, y liberar de impuestos a la casa de su padre (1 S. 17:25; 18:18); descubrió que no tenía razón alguna para sentirse avergonzado de asociarse con la familia del joven. La victoria conseguida sobre Goliat marca otra etapa en la vida de David. El valor, la humildad, la piedad de David le ganaron el afecto desinteresado y fiel de Jonatán, hijo de Saúl (1 S. 18:1). Saúl no dejó ya a David volver periódicamente a casa de su padre, sino que le retuvo en la corte (1 S. 18:2). Los vítores que se hicieron a David como vencedor suscitaron la envidia de Saúl, que se hizo enemigo de David (1 S. 18:6-9) El rey comprendió que la predicción de Samuel acerca del traspaso del reino a uno mejor que él (1 S. 17:29) se iba a cumplir en la persona de David y trató de oponerse a ello. Intentó dar muerte a David con su lanza (1 S. 18:10-11). Habiendo fallado en su intento le envió a dirigir expediciones militares (1 S. 18:13). Dio a otro la hija que había prometido a David (1 S. 18:17-19). Aprovechando el amor de David hacia su hija Mical, Saúl intentó hacerle morir a manos de los filisteos (1 S. 18:20-27). Mientras tanto, la popularidad de David iba en continuo crecimiento (1 S. 18:29-30); el temor de Saúl fue en aumento, y dejó de esconder sus deseos de matar a David (1 S. 19:1). Y los partidarios de Saúl no intentaron disuadirle de esta intención (1 S. 24:10; Sal. 7, encabezamiento). Los celos del rey, amortecidos temporalmente, se avivaron; intentó otra vez atravesar a David con su lanza (1 S. 19:4-10), ordenando después su arresto, escapando gracias a la estratagema de Mical (1 S. 19:11-18). Fue entonces que David escribió el Salmo 59. Huyó después a Samuel en Ramá, donde Saúl intentó todavía apresarle (1 S. 19:18-24). David se salvó, se reunió con Jonatán, a quien hizo sabedor que no podía volver a la corte, donde su vida estaba amenazada (1 S. 20).
+
+272
+
+(c) El héroe fugitivo.
+
+Angustiado en su confianza en Dios, y desesperado, David huyó de Saúl. Deteniéndose en Nob, su fe decaída, mintió (1 S. 21:1-9); después se fue precipitadamente a Gat, para ponerse bajo la protección de Aquis, enemigo de Saúl. Pero los príncipes filisteos rehusaron dar asilo a aquel que los había humillado; ante el peligro que corría en sus manos (1 S. 21:14; Sal. 56, encabezamiento), David se fingió loco, y Aquis lo expulsó. Recobrando la confianza en Dios (Sal. 34) el fugitivo volvió a Judá, y habitó en la cueva de Adulam (1 S. 22:1), en tanto que ponía a sus padres a cubierto en Moab (1 S. 22:3, 4). Una compañía de hombres, proscritos o endeudados, descontentos, empezó a unirse a David; este grupo, de unos 400 hombres, acabó siendo de unos 600. Entre ellos se hallaban Abiatar, sacerdote de Jehová, que había escapado de la masacre de los sacerdotes de Nob, y había traído un efod; el profeta Gad, que probablemente se había unido a David en Ramá (1 S. 22:5, 20; 23:6). Así David tenía apoyo espiritual y un grupo de fieles. De Adulam pasó a Keila, ciudad que libró de manos de los filisteos (1 S. 23:1-5). Enterándose de que Saúl quería encerrarle en Keila, huyó al desierto de Judá (1 S. 23:14; Sal. 63). Los de Zif informaron a Saúl, que le persiguió hasta que una invasión filistea le obligó a cesar esta persecución (1 S. 23:14-28). Cuando hubo solucionado el asunto de los filisteos, Saúl empezó la búsqueda de David por el desierto vecino de En-gadí. Allí tuvo que inclinarse ante la grandeza de alma de David que, habiendo tenido la posibilidad de dar muerte al rey Saúl dentro de la cueva, le perdonó la vida (1 S. 24; Sal. 57; 142). David y su cuadrilla de guerreros defendieron las propiedades israelitas, que estaban expuestas a incursiones (1 S. 23:1; 25:16, 21; 27:8). Por lo general, los defensores recibían su alimento como precio de sus servicios. Sin embargo, David nunca había pedido nada de Nabal, ni siquiera los alimentos que hubieran sido la compensación ordinaria. Exasperado por el insulto de Nabal, David decidió destruir a Nabal y a todos sus hombres. Pero la sabiduría y diplomacia de la mujer de Nabal le detuvo (1 S. 25). Cuando ella enviudó, David la tomó como esposa. Llegó otra vez a los alrededores del desierto de Zif, cuyos moradores volvieron a dar aviso a Saúl, que de nuevo se lanzó en persecución de David. Éste volvió a demostrar su magnanimidad al no dar muerte al rey, dormido y a su merced. Se conformó con llevarse su lanza y su vasija de agua (1 S. 26). Cansado de huir de Saúl, David se fue del territorio de Judá y obtuvo permiso de Aquis para ocupar Siclag. una ciudad fronteriza, lindando con el desierto de Neguev. Estuvo allí un año y 4 meses, protegiendo a los filisteos de las tribus del desierto, y devastaba ciudades alejadas, incluso en la misma tierra filistea (1 S. 27). Cuando los filisteos se reunieron en Gilboa para atacar a Saúl, sus príncipes no quisieron que David les acompañara (1 S. 28:1, 2; 29). Volviendo a Siclag, David descubrió que los amalecitas la habían saqueado e incendiado. Los persiguió, y recobró todo el botín. Cuando supo el resultado de la batalla de Gilboa, compuso una elegía acerca de la suerte de Saúl y de Jonatán (2 S. 1).
+
+(d) Rey de Judá.
+
+Después de la muerte de Saúl, la tribu de Judá, a la que pertenecía David, lo eligió como rey; comenzó a reinar en Hebrón (2 S. 2:1-10) a la edad de 30 años (2 S. 5:4). El resto de las tribus, dirigidas por Abner, una de las personalidades con mayor capacidad de Israel, proclamó rey a Is-boset, hijo de Saúl. Este pasó a Mahanaim. Durante los dos años siguientes hubo guerra abierta entre los partidarios de Is-boset y los de David. Los asesinatos de Is-boset y de Abner fueron condenados por él. Cesó la guerra civil (2 S. 2:12-4:12) El reino de David en Hebrón duró 7 1/2 años. Sus hijos Amnón, Absalón y Adonías nacieron en Hebrón. David tenía ya varias mujeres (2 273 S. 2:11; 3:1-5; 5:5)
+
+(e) Rey de Israel.
+
+A la muerte de Is-boset, David fue elegido rey por todas las tribus (2 S. 5:1-5) y se dispuso de inmediato a consolidar la monarquía. Diversas ciudades del territorio de Israel estaban tomadas por guarniciones de los filisteos, y otras estaban tomadas por los cananeos. David comenzó el asedio de Jerusalén, fortaleza de los jebuseos. Sus habitantes la consideraban inexpugnable, pero David la tomó al asalto; hizo de ella su capital; hábiles artesanos de Tiro le hicieron un palacio. La nueva capital se hallaba en los confines de Judá y de Israel. Su situación debería contribuir a apagar los sentimientos de celos entre el norte y el sur. Al arrebatar la ciudad a los cananeos, David abrió la importante ruta de comunicación entre el norte y el sur, facilitando los intercambios, y coadyuvando a la unificación del reino. Los filisteos invadieron dos veces el país, sufriendo dos derrotas cerca de Jerusalén (2 S. 5:17-25; 1 Cr. 14:8-17). Después de su segunda victoria sobre los filisteos, el rey invadió su país, apoderándose de Gat. Esta conquista seguida de breves expediciones (2 S. 21:15-22) sometió de tal manera a los filisteos que estos enemigos hereditarios dejaron de inquietar a Israel durante siglos. Cuando el reino quedó consolidado, David se ocupó de la cuestión espiritual. Hizo traer el Arca del Pacto, que estaba en Quiriat-jearim, con solemnes fiestas, sacrificios y acciones de gracias (Jos. 15:9; 2 Cr. 13:1-14; 15:1-3). Después organizó el culto de una manera grandiosa (1 Cr. 17:1-27; 22:7-10). La gracia divina colmó a David de bendiciones. Con el fin de afirmar la seguridad de la nación y de preservarla de idolatrías, así como de vengar los insultos de los que la amenazaban, David guerreó contra pueblos vecinos, sometiendo a los moabitas, a los arameos de Soba y de Damas, a los amonitas, a los edomitas y los amalecitas (2 S. 8:1-18; 10:1-19; 12:26-31). El reino llegó de esta manera a los límites prometidos a Abraham mucho tiempo antes (Gn. 15:18). Fue durante la guerra contra los amonitas que David cometió su gran pecado, con el asunto de Urías heteo. Dios lo juzgó por medio del profeta Natán, que declaró que la espada no se apartaría jamás de la casa del rey (2 S. 11:1-12:23). David se humilló verdaderamente, y se arrepintió. Dios lo castigó de manera directa, y también indirecta, ya que David cosechó lo que su ejemplo había sembrado en su familia. El hijo que había tenido de la mujer de Urías murió (2 S. 12:19). La violación de la ley moral, la lujuria, y la sed de venganza, se manifestaron dentro de su propio hogar (2 S. 13). La ambición desencadenada, con rebelión contra el padre, triunfó durante un cierto tiempo en el mismo seno de su familia, y fue causa de una guerra civil (2 S. 14:19). El espíritu de descontento y de celos entre las tribus, que Absalón había avivado, reapareció después de la supresión de su revuelta en otra rebelión, la de Seba (2 S. 20). David hizo justicia a los gabaonitas, de manera solemne, según las ideas de la época, vengando la sangre que Saúl había derramado a pesar del juramento de Josué (2 S. 21). David cayó en el pecado de orgullo y ordenó el censo del pueblo. El castigo de ello fue una peste (2 S. 24; 1 Cr. 21). A propósito de esto se dice en un pasaje que Dios excitó a David a que actuara de esta manera (2 S. 24:1), y por otra parte que este acto fue instigado por Satán (1 Cr. 21:1). Las dos declaraciones son evidentemente complementarias: Dios permitió que Satán tentara a David, por cuanto su estado espiritual y el del pueblo demandaban un castigo, dándose con ello motivo para él. El rey reunió los materiales para la construcción del templo, y hacia el fin de su reinado aseguró que Salomón sería su sucesor (1 R. 1). Le encargó que castigara a aquellos que, bajo el reinado de David, habían escapado a la justicia (1 R. 2:1-11). David murió a los 71 años; había reinado 40 años (o, más exactamente, 40 1/2, 7 1/2 de ellos en Hebrón, y 33 en Jerusalén (2 S. 2:11; 5:4, 5; 1 Cr. 29:27). Sobre todo, se le llama a David «el dulce cantor de Israel» (2 S. 23:1). La tradición hebrea atribuye a este rey la 274 composición de 73 salmos. (Ver SALMOS [LIBRO DE LOS]).
+
+(f) Resumen.
+
+En general, su fidelidad al Señor fue de tal calibre que se le llama «el varón según el corazón de Jehová» (1 S. 13:14). En las mismas Escrituras se declara que él hizo siempre lo recto a los ojos del Señor, «salvo en lo tocante a Urías heteo» (1 R. 15:5). Habiendo servido los designios de Dios en su generación, durmió (Hch. 13:36). Fue inmensa su influencia en el seno de la humanidad. Fue él, más que Saúl, quien instauró la monarquía en Israel. Su influencia espiritual se perpetúa por sus salmos, que la cristiandad entera atesora siglo tras siglo. David es un tipo notable del Señor Jesucristo: cuando era perseguido por Saúl, prefiguraba a Cristo en Su rechazamiento; cuando en el trono, fue un tipo de Cristo como varón de guerra, destruyendo a Sus enemigos como paso previo a Su reinado de paz durante el Milenio, tipificado por Salomón. David fue el receptor del Pacto Davídico, por el que el Señor le dio la promesa incondicional de darle una descendencia eterna, y un trono estable eternamente. Esta profecía se cumple en Cristo Jesús, su descendiente según la carne (Mt. 1:1). El Señor Jesús recibe con frecuencia el nombre de Hijo de David, y con todo Él es Señor de David; sobre este hecho hizo una pregunta a los judíos (Lc. 20:41-44). También recibe el nombre de «raíz y linaje de David» (Ap. 22:16). Siendo Dios, así como hombre, bien puede ser ambas cosas. Tiene también la llave de David (Ap. 3:7; cp. Is. 22:22-24). Tiene en Sus manos todo el destino de la Iglesia, del futuro reino sobre la tierra, y en general de las naciones. En Él se cumplirá en su plenitud el pacto dado por Dios a David (2 S. 7:8-17), confirmado a través de Jeremías (Jer. 23:5-8; 33:14-21) y presentado como esperanza todavía futura para la nación de Israel al finalizar el recogimiento, de entre los gentiles, de un pueblo para Su nombre (Hch. 15:16).
+
+nom, DEBIR
+
+tip, REGI
+
+sit, a1, 521, 395
+
+vet,
+
+(a) Rey amorreo de Eglób, muerto por Josué (Jos. 10:3, 23, 26). (b) Ciudad en las tierras altas de Judá cerca de Hebrón. Fue una de las ciudades de los amorreos que fue destruida y muerto su rey. Se menciona a Josué como caudillo de Israel tomándola, pero en Jueces (Jue. 1:11-15) vemos que realmente la tomó Otoniel, a quien Caleb dio su hija Acsa como esposa por haber tomado la ciudad. Finalmente, la ciudad fue dada a los sacerdotes. Su nombre anterior había sido Quiriat-sefer o Quiriat-sana (Jos. 10:38, 39; 11:21; 12:13; 15:7, 15, 49; 21:15; Jue. 1:11, 12; 1 Cr. 6:58). Identificada con edh Dhaheriyeh, 31° 25' N, 34° 58" E. (c) Lugar en el límite septentrional de Judá, cerca del valle de Acor (Jos. 15:7). Algunos lo identifican con Thoghret ed Debr, 31° 49' N, 35° 21' E.
+
+(d) Lugar en el límite de Gad, mencionado después de Mahanaim (Jos. 13:26). Puede también leerse como Lidebir, y puede ser la misma que Lodebar (2 S. 9:4, véase LODEBAR). Se ha sugerido su identificación con Ibdar, al sur del río Yarmuk.
+
+nom, DÉBORA
+
+tip, BIOG JUEZ PROF MUJE MUAT
+
+vet,
+
+(Heb., «abeja»).
+
+Nombre propio femenino. La Biblia destaca:
+
+(a) La nodriza de Rebeca a quien ella acompañó de Aram a Canaán (Gn. 24:59). En su muerte, 275 cerca de Bet-el, fue sepultada con marcadas manifestaciones de afecto, bajo la famosa encina a la que entonces se dio el nombre de Allon-bacut, «la encina del llanto» (Gn. 35:8), 1732 a.C. Estaba en ese tiempo en la casa de Jacob, habiendo muerto ya Rebeca, sin duda alguna, y tenía como 120 años de edad (Gn. 24:59). Hay algo muy hermoso en esta sencilla consignación, que apenas podría hallarse en nuestras grandes historias de reyes, hombres de estado y guerreros afamados. Éstos, en efecto, rara vez se toman la molestia de erigir un monumento a una vida digna pero oscura que se ha pasado en el desempeño de servicios humildes. (b) Profetisa y esposa de Lapidot, que juzgó a los israelitas y habitó bajo una célebre, y acaso, solitaria palmera entre Rama y Bet-el (Jue. 4:4, 5). Cuando los judíos, especialmente los de las tribus del norte, sufrían bajo la tiranía de Jabín (1296 a.C.), como profetisa se empeñó en levantarlos de su abatimiento, y enviando por Barac lo indujo a atacar a Sísara y le prometió la victoria. Barac, sin embargo, rehusó ir a menos que ésta le acompañase, cosa a que Débora accedió; pero le dijo que el éxito de la expedición sería imputado a una mujer y no a él. Después de la victoria compuso un espléndido canto triunfal, que se conserva en Jue. 5 y que es una de las páginas más antiguas de la literatura bíblica.
+
+nom, DECÁLOGO, (también DIEZ MANDAMIENTOS). tip, LEYE
+
+vet,
+
+Tiene un puesto singular como escrito sobre tablas de piedra por «el dedo de Dios» (Éx. 31:18; Dt. 10:4: en este último pasaje la palabra usada es «debarim», «las diez palabras», y de ahí «decálogo»). También recibe la designación de «las palabras del pacto» (Éx. 34:28). Fue después de oír estos diez mandamientos, proclamados por Dios mismo de manera que los oyó todo el pueblo, que los israelitas dijeron a Moisés: «Acércate tú, y oye todas las cosas que diga Jehová nuestro Dios; y tú nos dirás todo lo que Jehová nuestro Dios te diga, y nosotros oiremos y haremos» (Dt. 5:27).
+
+Las dos piedras reciben también el nombre de «las tablas del testimonio» (Éx. 34:29), y fueron depositadas en el arca del pacto (Éx. 20:20; 1 R. 8:9; He. 9:4), sobre las que había dos querubines como guardianes de los derechos de Dios junto con el propiciatorio. Pablo se refiere a la entrega de las dos tablas de piedra de parte de Dios a Israel (que, aunque lleno de gracia y misericordia, no podía absolver al culpable), en medio de gloria, cuando describe los mandamientos escritos sobre ellas como «ministerio de muerte», en contraste con aquello que habla de la gloria del ministerio del Espíritu, del testimonio de Cristo, que es justicia para todo aquel que cree, habiendo sido puesto como propiciación «por medio de la fe en su sangre, para mostrar su justicia, a causa de haber pasado por alto, en su paciencia, los pecados cometidos anteriormente, con la mira de mostrar en este tiempo su justicia, a fin de que él sea el justo, y el que justifica al que es de la fe de Jesús» (2 Co. 3:7-11; Ro. 3:25-26). El Decálogo es la demanda de la justicia divina exigida al hombre pecador, incapaz de cumplirla, y por ello bajo la justa condenación de parte de Dios; es la gracia la que nos hace partícipes, por la fe, de la justicia de Dios como don gratuito, con la regeneración a una vida nueva en santidad y justicia (Ro. 4).
+
+nom, DECÁPOLIS
+
+tip, LUGA
+
+sit, a1, 521, 439
+
+276
+
+vet,
+
+Distrito que abarcaba diez ciudades (como lo implica su nombre). Después de la conquista de Palestina por parte de los romanos, estas ciudades fueron reconstruidas y parcialmente colonizadas, poseyendo privilegios particulares. Es generalmente aceptado que las diez ciudades eran Hipos, Gadara, Pella, Filadelfia, Gerasa, Dion, Canata, Damasco, Rafana y Escitópolis. Todas se hallaban al este del Jordán excepto Escitópolis, pero parece que el nombre Decápolis designaba también un distrito al oeste del Jordán además del oriental (Mt. 4:25; Mr. 5:20; 7:31).
+
+Fue a Pella que huyeron los cristianos justo antes de la destrucción de Jerusalén.
+
+nom, DECRETO APOSTÓLICO. También CARTA APOSTÓLICA. (Véase CONCILIO DE JERUSALÉN.)
+
+nom, DEDÁN
+
+tip, BIOG PUEB HOMB HOAT
+
+vet,
+
+(a) Pueblo árabe descendiente de Noé (Gn. 10:6, 7); vivían en la región noroeste del golfo Pérsico.
+
+(b) Nieto de Abraham y Cetura (Gn. 25:3).
+
+nom, DEDICACIÓN (Fiesta de la)
+
+tip, CALE
+
+vet,
+
+Fue instituida por Judas Macabeo para celebrar anualmente la purificación del Templo (165 a.C.), que había sido profanado en el año 162 por orden de Antíoco Epifanes. Era parecida a la de los Tabernáculos y los judíos la celebran hasta hoy.
+
+nom, DEIDAD DE CRISTO
+
+tip, DOCT
+
+ver, ÁNGEL, VIRGEN, ESPÍRITU SANTO
+
+vet,
+
+Está implícitamente presentada y claramente anunciada en el AT. Las teofanías del Ángel de Jehová (véase ÁNGEL DE JEHOVÁ) debieron hacer comprender a los patriarcas que Dios ejercería un día un ministerio de salvación, al asumir forma humana (Gn. 16:7-13; 18:1-2, 10, 13, 17; 32:24-30; cfr. Os. 12:4-5; Zac. 3:1-5). Está escrito de una manera expresa que el Mesías será el Hijo de Dios (Sal. 2; 110:1; cfr. Mt. 22:44), y el mismo Dios (Sal. 45:6-7). Se anuncia su nacimiento milagroso (véase VIRGEN), de manera que Él podrá ser Emanuel, Dios con nosotros (Is. 7:14; Mt. 1:22-23). Recibe nombres divinos (Is. 9:5). Su ministerio y Sus sufrimientos son presentados de una manera expresa como los del Señor: es Jehová quien es vendido por treinta monedas de plata (Zac. 11:4, 13); el Salvador de Jerusalén se presentará a la vez como Dios, el Ángel de Jehová y el representante de la casa de David (Zac. 12:8); es el mismo Jehová quien dice: «Y mirarán a mí, a quien traspasaron» (Zac. 12:10). El pastor herido por las ovejas recibe el nombre de «compañero de Jehová» (Zac. 13:7). Se afirma de una manera expresa la eternidad del Mesías (Mi. 5:1). El mismo Cristo destaca Su divinidad. Se aplica a Sí mismo el «Yo soy» de Jehová (Jn. 8:24, 277 58). Los judíos comprendieron sin sombra de duda Su afirmación de divinidad, y quisieron apedrearlo (Jn. 8:59; cfr. 5:18; 10:30-33). Jesús afirma que Él es el Señor del AT (Mt. 22:42-45) y que es, en esencia, uno con el Padre (Jn. 10:38; 14:9-11; 17:3, 11, 22). Posee los atributos divinos:
+
+omnipresencia (Mt. 18:20; Jn. 3:13),
+
+omnisciencia (Jn. 2:24-25; 11:11-14; Mr. 11:6-8),
+
+omnipotencia (Mt. 28:18; Lc. 7:14; Jn. 5:21-23),
+
+eternidad (Jn. 8:58; 17:5);
+
+santidad (Jn. 8:46),
+
+gracia salvadora (Mr. 2:5-7; Lc. 7:48-49).
+
+Jesús acepta y aprueba la adoración de los hombres (Mt. 2:11; 14:33; 28:9; Lc. 24:52; Jn. 5:23; 20:28).
+
+Los escritores del NT atribuyen a Cristo los títulos y atributos divinos (Jn. 1:1, 3, 10; Ro. 9:5; Col. 1:16-17; He. 1:2, 8-12; 13:8; 1 Jn. 5:20). Enseñan que se le debe rendir adoración al igual que al Padre (Hch. 7:59-60; 1 Co. 1:2; Fil. 2:6, 10-11; Col. 2:9-10; He. 1:6; Ap. 1:5-6; 5:12-13). Su resurrección de entre los muertos fue la prueba deslumbradora de Su divinidad (Ro. 1:4). Véase TRINIDAD.
+
+nom, DEIDAD DEL ESPÍRITU SANTO
+
+tip, DOCT
+
+ver, ÁNGEL, VIRGEN, ESPÍRITU SANTO
+
+vet,
+
+Es asimismo afirmada de una manera clara. El Espíritu Santo recibe el nombre de Espíritu de Jehová, de Dios, del Señor, con toda la intimidad y unidad que ello comporta (cfr. 1 Co. 2:10-11). El Señor es el Espíritu (2 Co. 3:17). Dios es espíritu (Jn. 4:24). El Espíritu habla y actúa como siendo el mismo Dios (Hch. 13:2). Mentirle a Él es mentirle a Dios (Hch. 5:3-4). Le son atribuidas obras divinas (Jb. 33:4; Sal. 104:29-30; Jn. 3:8; 6:63; Ro. 1:4; 8:11; 2 Co. 3:18, etc.). El Espíritu Santo procede del Padre y es enviado a la vez por el Padre y el Hijo (Jn. 15:26; 14:16, 26; 16:7; Hch. 2:33). (Véase ESPÍRITU SANTO.)
+
+Véase TRINIDAD.
+
+nom, DEMAS
+
+tip, BIOG HOMB HONT
+
+vet,
+
+«hombre del pueblo»
+
+Colaborador de Pablo en Roma (Col. 4:14; Fil. 24), de quien Pablo tenía que escribir cinco años más tarde: «Demas me ha desamparado, amando este mundo, y se ha ido a Tesalónica (2 Ti. 4:10). Esto puede significar no que hubiera apostatado, sino el enfriamiento de su primer amor al dar su afecto a las cosas de este siglo presente.
+
+nom, DEMETRIO
+
+tip, BIOG HOMB HONT
+
+vet,
+
+(griego, «perteneciente a Deméter» o Ceres, diosa de la agricultura). (a) Platero de Éfeso que instigó un motín contra Pablo (Hch. 19:24-41). (b) Un cristiano de alta reputación (3 Jn. 12).
+
+278
+
+nom, DEMONIO
+
+tip, DIAB ESCA
+
+vet,
+
+Entre los griegos este término designaba:
+
+(a) un dios o una divinidad en general;
+
+(b) el genio o espíritu familiar que acompañaba a uno;
+
+(c) su hado;
+
+(d) el alma de un individuo que viviera en la edad de oro (la edad anterior a la entrada de la aflicción en el mundo. Cuando se abrió la caja de Pandora, se precipitaron todos los males de la misma al mundo. [Mitología griega]), y que desde entonces actuara como divinidad tutelar; un dios de categoría inferior.
+
+La idea pagana, expuesta por los filósofos, era que los demonios eran seres mediadores entre Dios y el hombre. Así lo expresa Platón:
+
+«Cada demonio es un ser intermedio entre Dios y el mortal. El hombre no se acerca directamente a Dios, sino que toda la relación y comunicación entre los dioses y los hombres se consigue con la mediación de demonios.»
+
+Esto era un engaño satánico, lograr la adoración a Dios por mediación de demonios o semidioses. Podemos constatar cómo esta concepción pagana ha dejado su profunda impronta deformadora en grandes sectores de la llamada cristiandad, en franca oposición a las Escrituras (cp. 1 Ti. 2:5).
+
+Las Escrituras dejan de igual forma bien clara la verdadera naturaleza de los demonios como espíritus malvados (cp. Ap. 16:13, 14)
+
+En las Escrituras también se ve que la idolatría es esencialmente adoración de demonios siendo que el ídolo mismo no es nada «Sacrificaron a los demonios (shed) y no a Dios (Dt. 32:17; 1 Co. 10:19, 20), «nunca más sacrificarán sus sacrificios a los demonios (sair)» (Lv. 17:7; Ap. 9:20). Jeroboam cayó tan bajo que ordenó a sacerdotes para los demonios (sair) y para los becerros que había hecho (2 Cr. 11:15), y algunos «sacrificaron sus hijos y sus hijas a los demonios (shed)» (Sal. 106:37). Las cosas adoradas pueden haber sido objetos invisibles, o pueden haber tenido alguna representación mística, o puede haberse tratado de meros ídolos; pero detrás de todo esto se hallaban seres verdaderos, malvados e inmundos; de manera que era moralmente imposible tener comunión con el Señor Jesús y con estos demonios (1 Co. 10:19-21). Los malos espíritus que poseían a tantas personas cuando el Señor estaba en la tierra eran demonios, y por ello aprendemos mucho acerca de ellos. Los fariseos dijeron que el Señor echaba demonios por Beelzebú el príncipe de los demonios. El Señor interpretó esto como significando «Satanás echando a Satanás». Por ello sabemos que los demonios son agentes de Satán; y que Satán como hombre fuerte, tenía que ser atado antes que su reino pudiera ser asaltado (Mt. 12:24-29).
+
+Los demonios son también poderosos, por la manera en que manejaban a los que poseían, y en cómo uno poseído se lanzó sobre siete hombres, haciéndoles huir de la casa desnudos y heridos (Hch. 19:16).
+
+Sabemos también que eran seres inteligentes, reconocieron al Señor Jesús y se inclinaron ante Su autoridad. Sabían también que les esperaba el castigo, algunos preguntaron si el Señor había venido a atormentarlos antes de tiempo (Mt. 8:29). No se debe suponer que haya cesado la actividad demoníaca. Se nos da la exhortación: «No 279 creáis a todo espíritu, sino probad si los espíritus proceden de Dios» (1 Jn. 4:1). Con esto concuerda la declaración de que «en los últimos tiempos algunos apostatarán de la fe, escuchando a espíritus engañadores y a doctrinas de demonios» (1 Ti. 4:1). Los espiritistas y teosofistas tienen relación con ellos y reciben enseñanza de ellos. También en un día futuro, cuando Dios derrame Sus juicios sobre la tierra, los hombres no se arrepentirán, sino que adorarán a demonios y a todo tipo de ídolos (Ap. 9:20). También los espíritus demoníacos, obrando milagros, reunirán a los reyes de la tierra en la batalla del gran día del Dios Todopoderoso (Ap. 16:14). Y la Babilonia mística vendrá a ser «habitación de demonios y guarida de todo espíritu inmundo y albergue de toda ave inmunda y aborrecible» (Ap. 18:2).
+
+El mundo y la iglesia profesante están evidentemente madurando para este estado de cosas y muchos son los que con la pretensión de investigar fenómenos parapsicológicos están inconscientemente viniendo a ser presa de los demonios.
+
+El fin de la era de la iglesia va marcado por la terrible profecía de 2 Ts. 2:11: «Por esto Dios les envía un espíritu engañoso, para que crean la mentira, a fin de que sean condenados todos los que no creyeron a la verdad, sino que se complacieron en la injusticia.»
+
+nom, DENARIO
+
+tip, MEDI
+
+vet,
+
+Moneda de plata romana equivalente a la dracma griega; el salario diario de un jornalero (Mt. 20:2, 9, 13).
+
+Los apóstoles estimaron que serían necesarios al menos 200 denarios de pan para alimentar a la multitud de 5.000 hombres (Mr. 6:37) lo que hubiera equivalido a 1 denario para cada 25 personas.
+
+Los precios de Ap. 6:6 evidencian un periodo de penuria.
+
+nom, DEPRAVACIÓN
+
+tip, DOCT
+
+vet,
+
+Corrupción moral del hombre a tal grado que se inclina irresistiblemente hacia el mal. En este estado no puede hacer nada que agrade completamente a Dios y sin la gracia salvadora de Dios no puede salvarse (Pr. 6:12).
+
+nom, DERBE
+
+tip, CIUD
+
+sit, a9, 466, 212
+
+vet,
+
+Ciudad de Galacia, al sureste de Licaonia, visitada por Pablo en sus tres viajes. Ahí, o en Listra, conoció a Timoteo (Hch. 14:6-20; 16:1-3; 18:23).
+
+Gayo era de ahí (Hch. 20:4).
+
+Se ha identificado con dos poblaciones al sureste de Listra e Iconio, y al pie del monte Hadji Baba.
+
+nom, DESCENSO (de Cristo a los infiernos)
+
+280
+
+tip, DOCT
+
+vet,
+
+La bien conocida frase «Descendió a los infiernos» proviene del llamado Credo de los Apóstoles, y constituye una interpretación forzada de varios pasajes. No hay evidencia bíblica de que Cristo fuera en Su estado separado, en Su muerte, a otro lugar que al Paraíso (cp. Lc. 23:43, 46). Hay un solo pasaje que ha sido objeto de todo tipo de teorías e interpretaciones diversas, el de 1 P. 3:18-20. En base a este pasaje hay los que afirman que después de Su muerte Cristo fue a predicar el evangelio a los espíritus encarcelados. No obstante, esto no es lo que dice el pasaje. Pedro habla, en el contexto, de una exhortación a los cristianos, de avergonzar a los incrédulos mediante su buena conducta, que así les serviría de testimonio, de la predicación que tuvo el mundo antiguo, y cómo los espíritus encarcelados, que habían vivido en aquellos tiempos, habían sido desobedientes a la predicación que les había sido dada por el Espíritu de Cristo en Su paciencia (cfr. Gn. 6:3; 1 P. 1:11). Con esto concuerda la afirmación de las Escrituras de que Noé fue pregonero de justicia. Otros pasajes que se aducen en apoyo de esta teoría tienen su explicación más natural con independencia de ella.
+
+Bibliografía:
+
+Barbieri, L. A.: «Primera y Segunda Pedro» (Publicaciones Portavoz Evangélico, Barcelona, 1981);
+
+Harrison, E., editor: «El Comentario Bíblico Moody - Nuevo Testamento» (Moody, Chicago, 1971);
+
+Kelly, W.: «Preaching to the Spirits in Prison» (Bibles and Publications, Montreal, 1970); Kelly, W.: «Lectures on the Acts, the Catholic Epistles, and the Revelation» (Bible Truth Publishers, Oak Park, Illinois, 1970).
+
+nom, DESIERTO
+
+tip, TIPO LUGA
+
+ver, PEREGRINACIÓN POR EL DESIERTO
+
+vet,
+
+(a) Heb. «midbar» y gr. «Eremos»: llanura abierta, no cultivada, donde los animales salvajes vagan en libertad (Jb. 24:5). El desierto es frecuentemente una soledad que llena de pavor, la verdadera imagen de la desolación (Dt. 32:10; Is. 21:1); sin embargo, el desierto también era usado como tierra de pastos (Éx. 3:1). Las alusiones al desierto son numerosas (p. ej., Gn. 16:7; 21:20; 1 S. 17:28; 25:21; Mt. 3:1; Mr. 1:12; Lc. 15:4).
+
+(b) Heb. «'rabah», llanura o región árida (Is. 35:1, 6; 51:3). Acompañado del artículo determinado, este nombre significa la llanura o depresión del Jordán y del mar Muerto (Ez. 47:8; 2 S. 2:29); en este caso se transcribe con el nombre propio geográfico Arabá. (c) Heb. «Y'shimon», país incultivado y desolado (Sal. 78:40; 106:14; Is. 43:19, 20). Si el artículo definido se une como prefijo al nombre, este último se debería traducir por el nombre propio de Jesimón («desierto» en las revisiones 1960 y 1977 de Reina-Valera; Jesimón en la revisión antigua de 1909).
+
+(d) Heb. «H'raboth», regiones sin cultivar, lugares desolados (Is. 48:21; Sal. 102:7; Ez. 13:4). En tipología el desierto se halla fuera de Canaán y está en contraste con él. El desierto fue el lugar de prueba para los israelitas, y así sucede con el cristiano, para humillarlo, y para mostrar lo que hay en su corazón (Dt. 8:2). Tiene que aprender lo que es en sí mismo, y conocer al Dios de toda gracia con quien tiene que ver. Hay una necesidad de una dependencia constante o hay 281 fracaso, en tanto que la experiencia se consigue de conocer a Aquel que nunca deja de socorrer. Canaán es, de manera figurada, una posición celestial y de conflicto, que se corresponde con la necesidad de la armadura dada en Ef. 6:11, para mantenerse firmes frente a las asechanzas del diablo. Para esto se tiene que estar consciente de estar muerto y resucitado con Cristo. Es asociación en espíritu con Cristo en el cielo. (Véase PEREGRINACIÓN POR EL DESIERTO).
+
+nom, DESNUDEZ
+
+vet,
+
+En la Biblia estas dos palabras (DESNUDEZ y DESNUDO) tienen varios significados: (a) Sin ropas (Gn. 2:25).
+
+(b) Pobremente vestido (Jb. 22:6).
+
+(c) Sin la vestimenta externa (Jn. 21:7).
+
+(d) «Desnudez» es también un eufemismo que se refiere a las partes del cuerpo que no deben exponerse (Lv. 18:1-19), o a algún acto vergonzoso (Gn. 9:22).
+
+nom, DESNUDO. Ver DESNUDEZ
+
+nom, DESPOSORIO
+
+tip, TIPO COST LEYE
+
+vet,
+
+Entre los judíos se consideraba tan firme como el matrimonio, y no podía ser disuelto excepto por divorcio. Se dieron ciertas leyes en cuanto a la mujer desposada (Éx. 21:8, 9; Dt. 20:7; 28:30).
+
+María, la madre del Señor Jesús, estaba desposada con José, y éste consideró la posibilidad de repudiarla en privado, pero un ángel del Señor le informó acerca de la realidad de su condición (Mt. 1:18, 19; Lc. 1:27; 2:5).
+
+Se usa simbólicamente para expresar el favor de Jehová hacia su antiguo pueblo en un día aún futuro cuando Él los «desposará» a Sí mismo para siempre (Os. 2:19, 20). También en cuanto a la posición que la Iglesia tiene con Cristo, Pablo escribió a los santos en Corinto: «os he desposado con un sólo esposo, para presentaros como una virgen pura a Cristo» (2 Co. 11:2). La conducta de los santos debería corresponderse con la realidad de este desposorio.
+
+nom, DEUDA
+
+tip, LEYE
+
+vet,
+
+Suma que uno debe; obligación.
+
+La Ley de Moisés prohibía a los judíos que cobraran intereses a otros judíos (Éx. 22:25). Había leyes que protegían a los pobres contra los usureros (Éx. 22:25-27). Si alguno no podía pagar tenía que entregar su propiedad, su familia y aun su propia persona (Lv. 25:25-41), y podía ir a parar a la cárcel (Mt. 18:21-26).
+
+Una deuda también es una obligación moral (Mt. 6:12; Ro. 8:12). Las relaciones entre acreedores y deudores solían ser causa de acaloradas disputas en Israel. Jeremías alude al odio que las animaba (Jer. 15:10). Más de un deudor prefería salir del paso dándose a la fuga. No obstante, la legislación procuró 282 siempre proteger al deudor, refrenando los abusos de los acreedores con medidas en favor de quienes, por su insolvencia, habían sido retenidos por esclavos. Jesús no permaneció insensible en este aspecto. Además de la parábola que acabamos de mencionar, refirió la parábola del mayordomo infiel (Lc. 16:5 ss.) y la de los dos deudores desiguales (Lc. 7:41 ss.).
+
+En el modelo de oración que el Señor propuso a los suyos, dice: «Perdónanos nuestras deudas como también nosotros perdonamos a nuestros deudores» (Mt. 6:12).
+
+Son conocidas, además, aquellas palabras de Pablo: «Con nadie tengáis otra deuda que la del mutuo amor» (Ro. 13:8).
+
+Cristo pagó la deuda por nuestros pecados (Mt. 6:12-15).
+
+nom, DEUTEROCANÓNICOS
+
+tip, LIBR
+
+ver, APÓCRIFOS, BIBLIA, CANON
+
+vet,
+
+(del griego: «secundariamente canónicos»).
+
+Expresión usada por primera vez por Sixto Senense (1569) y que es el calificativo que los exegetas católico-romanos dan a aquellos libros que las versiones católicas tienen de más respecto del canon hebreo y protestante.
+
+Los protestantes los denominan apócrifos.
+
+El problema se presenta únicamente para el Antiguo Testamento, puesto que para el Nuevo todos los cristianos aceptan como inspirados solamente 27 libros. Webster define estos libros, que Roma ha puesto en el mismo nivel que el resto de las Escrituras a partir de Trento, como «un segundo canon de escritos eclesiásticos con menos autoridad que los Libros Sagrados».
+
+Estos libros deuterocanónicos son:
+
+Tobías,
+
+Judit,
+
+Sabiduría,
+
+Eclesiástico,
+
+2 Esdras,
+
+1 y 2 Macabeos.
+
+En el Nuevo Testamento la Iglesia de Etiopía llegó a contar como canónicos 35 libros, mientras la de Siria admitía solamente 22. Pero oficialmente hoy la aceptación de 27 en el Nuevo Testamento es unánime para los efectos canónicos. (Véanse APÓCRIFOS, BIBLIA, CANON) nom, DEUTERONOMIO
+
+tip, LIBR CRIT LIAT
+
+vet,
+
+(a) Es un término griego que significa «segunda ley» o «reiteración de la ley», y que designa al quinto libro del Pentateuco; proviene del nombre dado a este libro en la LXX, para traducir la expresión «copia de la ley» en Dt. 17:18. Sin embargo, esta expresión es desafortunada, por cuanto este libro no es una mera repetición o copia de la ley ya promulgada. Se trata de una recapitulación, hecha durante circunstancias particulares, y con un propósito especial. En el Éxodo, Levítico y Números, la legislación es presentada en ocasión de su promulgación. 283 La ocasión o fecha de la recepción de las sucesivas secciones son ordinariamente indicadas, y se declara de cada grupo de estatutos. por separado, que proviene de Dios. Como contraste, en Deuteronomio la ley es presentada como un conjunto, y comentada hasta cierto punto. Al darse Deuteronomio, habían ya transcurrido 38 años desde que se habían dado la mayor parte de las disposiciones de la legislación. La nueva generación estaba en vísperas de apoderarse de Canaán, y es aquí convocada a fin de escuchar la ley de la nación, para aprender a aplicar sus principios a las nuevas circunstancias que se avecinaban, de ver con mayor claridad su sentido espiritual, y de entrar con pleno conocimiento de causa en la alianza hecha con sus padres. En lugar de Dios dirigiendo la palabra a Moisés, tenemos aquí a Moisés dirigiendo, por orden de Dios, la palabra al pueblo (Dt. 1:1-4; 5:1; 29:1).
+
+El libro se compone principalmente de 3 exposiciones, consignadas por escrito, y sobre cuya base la alianza es solemnemente renovada (Dt. 1-30).
+
+(b) Primera exposición: (Dt. 1-4:43).
+
+El examen de la historia del pueblo después de la celebración del pacto en Sinaí con la generación anterior, debe ser un motivo de obedecer las leyes de Jehová. Este discurso es atribuido a Moisés (Dt. 1:1, 3, 5, 9, 15, 16, 20, etc.).
+
+Fecha: el año 40, al mes 11, día 1º; después de la victoria sobre Sehón y Og, y después del pecado que Israel cometió al unirse a los sacrificios de Baal-peor (Dt. 1:3, 4; 4:3). Fue pronunciado «al otro lado del Jordán» (Dt. 1:1), como realmente debiera traducirse. Para Abraham y los cananeos, esta expresión significa el país situado al este del río. Los descendientes de Abraham dieron a esta expresión el mismo sentido geográfico. Ellos se hallaban precisamente entonces al este del Jordán, pero, de la misma manera que los patriarcas, seguían llamando a este lugar «el otro lado del Jordán», de la misma manera que a los farallones vecinos les daban el nombre de Abarim, esto es, «los montes del otro lado». Y ciertamente el pueblo tenía la impresión de hallarse al otro lado del Jordán, al estar fuera de la Tierra Prometida. Sin embargo, al no haberse pasado todavía el río, esta ambigua expresión es completada de manera reiterada con expresiones como «en tierra de Moab» (Dt. 1:5). (c) Segunda exposición: Dt. 4:4-26:19.
+
+Recapitulación de las ordenanzas con respecto al pueblo, con insistencia en la espiritualidad de las leyes, y con una gran insistencia en prestarles obediencia. Estos estatutos son, por lo general, leyes positivas, implicando derechos y deberes; o bien se trata de leyes que el hombre, por su natural depravación, podría ignorar. Estas últimas, basadas en motivos religiosos, decretan:
+
+(A) La fundación de ciudades de refugio para homicidas involuntarios; (B) la exclusión de la idolatría;
+
+(C) las consideraciones hacia los más débiles y los menos privilegiados de la comunidad. El que habla aquí es Moisés (Dt. 5:1, 5, 22).
+
+La fecha consignada es el fin de los 40 años en el desierto, en vísperas de atravesar el Jordán, después de la profecía de Balaam (Dt. 8:2; 9:1; 11:31; 23:4). (d) Tercera exposición: Los caps. de Deuteronomio (Dt. 27-28) son la conclusión de lo precedente:
+
+(A) Mandato de inscribir la ley sobre las piedras revocadas de cal que habrían de ser erigidas en el monte Ebal.
+
+(B) Bendiciones y maldiciones consiguientes a la obediencia y desobediencia. Esta majestuosa proclamación es de inmediato seguida de una breve alocución (Dt. 29-30), pronunciada durante la ratificación de la renovación de la alianza (Dt. 29:1; 30:1). Este pacto fue consignado en un 284 libro (Dt. 29:20, 21, 27; 30:10; cp. Éx. 24:4-8), igualmente que el pacto precedente concluido en Horeb, es decir, Sinaí.
+
+El lugar y la fecha de la renovación de la alianza son mencionados en Dt. 29:1, 5, 7, 8. Después de estas tres exposiciones que forman lo esencial del libro de Deuteronomio, Moisés designa públicamente a Josué como su sucesor, y le confiere una precisa misión (Dt. 31:1-8). A continuación pone esta ley por escrito a los sacerdotes, y les ordena su lectura pública a los israelitas (Dt. 31:9-13).
+
+Después, Josué es revestido de sus funciones (Dt. 14-15). En el tabernáculo Dios inspiró a Moisés un cántico para el pueblo (Dt. 16-23), que él escribió (v. 22); después ordenó a los levitas, portadores del arca, que depositaran el libro terminado al lado del arca como testimonio (Dt. 24-29). Mandó después a los ancianos y oficiales de las tribus que se reunieran para aprender y entender este cántico (v. 28), que repitió en público (Dt. 31:30-32:47).
+
+Los adioses de Moisés se relatan en Dt. 32:48-33:29; el relato de su muerte se halla como epílogo en Dt. 34.
+
+Lo que caracteriza a Deuteronomio son los preparativos de la instalación en el país de Canaán; esta particularidad determina:
+
+(A) La manera de expresarse: la gente va a volverse sedentaria, y el campamento deja de ser mencionado, en tanto que ocupaba un gran espacio en la 1ª legislación; no se habla más de él que con respecto a guerras futuras, o con respecto al hecho de que en este momento está situado en Sitim. Por otra parte hace alusión a las casas, a las ciudades, y a sus «puertas». (B) Las modificaciones poco importantes de leyes en vigor, a fin de adaptarlas a los nuevos modos de existencia. Por ejemplo, se cambió la ley que demandaba que los animales sacrificados para su consumo fueran llevados a la entrada del tabernáculo; podrían ser muertos en cada localidad donde vivieran (Dt. 12:15, 21; Lv. 17:3, 4); por la misma razón, ya no será necesario ofrecer a Dios al 8º día los primogénitos de los animales; se podrá diferir su sacrificio hasta que el propietario, si reside muy lejos del santuario, venga a las fiestas anuales (Dt. 15:20; cp. Éx. 22:30). Cuando el esclavo hebreo prefiera quedar unido a la casa de su dueño en lugar de reclamar su derecho legal a la libertad, será suficiente la ceremonia de la puerta, no siendo preciso que vaya a presentarse delante de Dios (Dt. 15:17, cp. Éx. 21:6). (C) Se toman nuevas medidas para la salvaguarda de las clases dependientes: levitas, viudas, huérfanos, extranjeros. El código deuteronómico los protege contra el daño que les pudiera causar el egoísmo y la indiferencia de los israelitas, ya bien demostrados con demasiada frecuencia durante la peregrinación en el desierto.
+
+(D) La nación tendrá un único altar, en el lugar elegido por Jehová para poner allí Su nombre. Este altar único debería neutralizar la tendencia a la idolatría, al impedir que el pueblo celebrara su culto en los numerosos santuarios de los cananeos.
+
+Así, las ceremonias en honor de Jehová vendrían a ser infinitamente más solemnes y magníficas que los ritos idólatras de Canaán, por cuanto los hebreos deberían congregarse en grandes núcleos, aportando al Señor el homenaje de todos sus recursos. Este culto, celebrado por el conjunto de la nación, debía por otra parte potenciar la comunidad, contribuyendo a unificar la nación. Los peligros ya se habían evidenciado: celos entre personas y tribus, tendencia del pueblo a la idolatría, propensión importante de gran parte del pueblo a separarse de sus hermanos para establecerse en regiones ricas en pastos. En este período crítico el código deuteronómico subraya con una nueva insistencia la ley ya antigua de la unidad del lugar de culto. La cohesión 285 nacional y el mantenimiento de la teocracia dependían de ello.
+
+(e) El autor de Deuteronomio.
+
+De la forma más explícita, y quizá con mayor insistencia que las otras partes del Pentateuco, este libro designa a Moisés como su autor. Comienza con estas palabras: «Éstas son las palabras que habló Moisés a todo Israel...» (Dt. 1:1).
+
+Se dan detalles precisos de fecha y lugar (Dt. 1:2-6; 4:44-46). Moisés es mencionado más de 40 veces, en general como la fuente autorizada de tal o cual declaración; con mayor frecuencia habla en primera persona. Hacia el final del libro, leemos: «Escribió Moisés esta ley, y la dio a los sacerdotes... y a todos los ancianos de Israel» (Dt. 31:9). «Y cuando acabó Moisés de escribir las palabras de esta ley en un libro hasta el fin, dio órdenes Moisés a los levitas que llevaban el arca del pacto de Jehová, diciendo: «Tomad este libro de la ley, y ponedlo al lado del arca del pacto de Jehová nuestro Dios, y esté allí por testigo contra ti» (Dt. 31:24-26).
+
+Los eruditos respetuosos con las Escrituras descubren aún pruebas adicionales de la genuinidad de este libro: el carácter general de esta obra, la naturaleza de sus exhortaciones, los mandatos dados en vistas a la conquista, la legislación militar dada a un pueblo nómada acerca del tema de establecerse definitivamente de una manera sedentaria, el espíritu, en fin, que anima estas magníficas páginas, todo esto está evidentemente en relación con la época mosaica, y en absoluto con un periodo ulterior.
+
+Si este libro no fuera de Moisés, sería difícil considerarlo como otra cosa que una falsificación literaria indigna de figurar en las Escrituras.
+
+(f) Opinión de los críticos acerca de la cuestión del autor. Entre los libros del Pentateuco, el Deuteronomio es particularmente atacado por los críticos, que niegan dogmáticamente su mosaicidad. Pretenden ellos que el autor fue un profeta desconocido que escribió «a la manera de Moisés» entre el año 715 y el 640 a.C. El libro hubiera sido entonces publicado por primera vez (hallado en la «casa de Jehová»), en el año 18 del rey Josías, con el fin de apoyar la gran reforma religiosa entonces en curso (2 R. 22-23).
+
+La principal razón de proponer tal fecha es que los libros del AT no repiten de una manera explícita el mandato de Dt. 12:1-7 con respecto al santuario central. Así, argumentan ellos, esta ley no hubiera sido promulgada hasta la época de Josías. Sin embargo, el examen sin prejuicios de Deuteronomio revela que sus leyes habían sido puestas por escrito, conocidas, y aplicadas cuando Israel entró en Canaán. Se puede dar asimismo pruebas de ello. Jericó fue «dada al anatema» (Jos. 6:17-18), en base a Dt. 13:15 ss. Después de la toma de Hai, el pueblo solamente tomó «las bestias y los despojos de la ciudad» (Jos. 8:27), según las instrucciones de Dt. 20:1-4. El cadáver del rey de Hai fue bajado del madero antes del anochecer (Jos. 8:29; Dt. 21:23). El altar del monte Ebal (Jos. 8:30-31) recuerda a Dt. 27:4-6. La misma ley del santuario central era conocida ya temprano en la historia de Israel: Las tribus establecidas al este del Jordán afirmaron que su altar memorial no tenía en absoluto la intención de tomar el lugar del altar del santuario (Jos. 22:29; Dt. 12:5). Por otra parte, vemos que Elcana iba cada año a Silo, donde el culto tuvo su primer centro. Después de la destrucción de Silo, y de un período de guerra, Samuel sacrificó en Mizpa, Ramá y Belén, siendo que la reglamentación de Dt. 12:10-11 se aplicaba a las épocas de reposo y de seguridad. El avivamiento de Ezequías (2 R. 18:4, 22) no se concebiría sin conocer Deuteronomio y su ley 286 singular con respecto al santuario central, ley que era conocida igualmente de los profetas del siglo VIII.
+
+Es preferible atenerse a los hechos claros que seguir la retorcida argumentación, basada nada más que en hipótesis insostenibles, frente a las que, además, se levanta el testimonio directo y totalmente decisivo de la sanción dada al libro por el mismo Hijo de Dios, al citar tres de sus pasajes (Mt. 4:4, 7, 10; Lc. 4:4, 8, 12), en respuesta a las tres tentaciones de Satanás, como palabra de Dios.
+
+Bibliografía:
+
+Delitzsch, F. y Keil, C. F.: «Commentary on the Old Testament», vol. 1, The Pentateuch (Eerdmans Grand Rapids Michigan 1981).
+
+Mackintosh C. H.: «Estudios sobre el Pentateuco», vols V y VI, Deuteronomio (Las Buenas Nuevas, Los Angeles 1960).
+
+Kline M. G.: «Deuteronomio», en Comentario Bíblico Moody, Antiguo Testamento (Ed. Moody en inglés 1963/1978 en preparación en castellano).
+
+Harrison R. K.: «Deuteronomio», en Nuevo Comentario Bíblico (Casa Bautista de Publicaciones, El Paso, 1977);
+
+Schultz, S. J.: «Deuteronomio, el evangelio del amor» (Pub. Portavoz Evangélico, Barcelona, 1979);
+
+Schultz, S. J.: «Habla el Antiguo Testamento» (Pub. Portavoz Evangélico); Young, E. J.: «Una Introducción al Antiguo Testamento» (T.E.L.L., Grand Rapids, 1977).
+
+nom, DÍA
+
+tip, CALE
+
+ver, EXPIACIÓN, DOMINGO
+
+vet,
+
+(A) Ordinariamente se llama día al período de tiempo que transcurre entre dos amaneceres. Pero los hebreos contaban de una tarde a la siguiente (Gn. 1; Lv. 23:32; Éx. 12:18; Josefo, Guerras 4:9, 12). Los hay que han pensado que esta costumbre quizá provenía de la división del año en meses lunares que empezaban con la aparición de la luna nueva. Consiguientemente, el día «civil» se designaba con la expresión «tarde y mañana» o «una noche y un día» (Dn. 8:14; 2 Co. 11:25). Pero, aunque la tarde fuera el inicio del nuevo día, con frecuencia era contada con el día que le precedía. Así, la tarde que empezaba el día 15º de Nisán es llamado «el día catorce... por la tarde» (Éx. 12:18; cp. 2 Cr. 35:1). Los días de la semana estaban numerados (cp. Mt. 28:1; Hch. 20:7), pero carecían de nombres, a excepción del 7º, que era llamado sábado; la víspera del sábado recibía el nombre de «la preparación» (Mr. 15:42). (B) El período de tiempo desde el amanecer hasta la noche (Gn. 1:5; 8:22). Se dividía en mañana, mediodía, y tarde (Sal. 55:17; cp. Dn. 6:10). Para designar los momentos del día, se empleaban también las expresiones «amanecer, la calor del día, el fresco del día, puesta de sol», y otros términos similares. Después del Exilio, empezaron a usarse las horas y a dividir el día, desde la salida a la puesta del sol, en 12 horas (Mt. 20:1-12; Jn. 11:9); la 6ª hora se correspondía con el mediodía (Jn. 4:6; Hch. 10:9), y la 9ª hora era la de la oración ( Antigüedades 14:4, 3; Hch. 3:1).
+
+(C) Cualquier período en el que tenga lugar una acción o manera de ser (Zac. 12:3 ss.), p. ej.: «el día de conflicto» (Sal. 20:2),
+
+«el día de su furor» (Jb. 20:20),
+
+287
+
+«el día de Jehová» (Is. 2:12; 13:6);
+
+en el NT, el «día del Señor» significa la segunda venida de Cristo (1 Co. 5:5; 1 Ts. 5:2; 2 P. 3:10).
+
+En el contexto apropiado significa un período indefinido, como Gn. 2:4; cp. Nm. 7:84, englobando «doce» días literales (Nm. 7:12-83; etc.). (Véase TIEMPO). En relación con esto se puede también hacer una división de los tiempos de la siguiente manera: (I) Los días de la Ley y de los Profetas, que se extienden desde la promulgación de la Ley hasta la venida del Mesías. «Al final de estos días (Dios) nos ha hablado en (Su) Hijo», como debería leerse He. 1:2; cp. margen Revisión 1977. Esto introdujo el Día del Mesías. Pero fue rechazado y Su reino aplazado. Entretanto
+
+(II) se interpone el Día de la Gracia, durante el cual la iglesia está siendo llamada a Él. El Señor Jesús obró la redención, ascendió al cielo, y envió al Espíritu Santo. De este tiempo Él afirmó: «En aquel día conoceréis que yo estoy en mi Padre, y vosotros en mí, y yo en vosotros» (Jn. 14:20; cp. también Jn. 16:23, 26). El actual periodo es designado como el «día del hombre» (1 Co. 4:3, literal, vertido como «tribunal humano»). Éstos son también los «últimos días» en los que vendrían los burladores sarcásticos (2 P. 3:3; Jud. 18). (III) El Día del Mesías, cuando vuelva en juicio y luego a reinar. «Se acerca el día» (Ro. 13:12; He. 10:25). Entre otros nombres recibe también el de «el día grande y terrible» (Mal. 4:5). Los reyes de la tierra serán reunidos para la batalla del gran día del Dios Todopoderoso (Ap. 16:14). Es también llamado como «el día de Jesucristo» y «el día de Cristo» (Fil. 1:6, 10; 2:16; cp. 1 Co. 1:8; 2 Co. 1:14). (Véase DÍA DE JEHOVÁ).
+
+nom, DIABLO
+
+tip, DIAB
+
+vet,
+
+Nombre griego que significa «adversario», al igual que su correspondiente heb. «Satán« o «Satanás». Así es como se traduce este vocablo cuando se alude a otros adversarios. Cp. Nm. 22:22; 1 R. 11:14, 23, 25.
+
+Fue el diablo que al principio engañó a Eva, porque está claro que el dragón, la serpiente antigua y Satanás son todos ellos el mismo espíritu malvado (Ap. 20:2). El diablo, Satanás, fue el gran adversario del pueblo de Dios en los tiempos del AT (1 Cr. 21:1); fue quien tentó al Señor Jesús, que le trató como Satanás; y es el tentador y adversario de los santos y de toda la humanidad en la actualidad.
+
+Intenta neutralizar el efecto del evangelio; arrebata la buena semilla sembrada en el corazón (Mt. 13), y ciega las mentes de los incrédulos para que la luz del evangelio de la gloria de Cristo no resplandezca en ellos. Sus esfuerzos son frustrados por Dios, o nadie sería salvo. Además, para contrarrestar la obra de Dios, Satanás suscita herejes que se mezclen con los santos, para corromperlos con malas doctrinas, como se enseña en la metáfora de la cizaña sembrada entre el trigo. Va alrededor como león rugiente buscando a quién devorar (1 P. 5:8), pero los santos son exhortados a resistirle, y él se apartará de ellos (Stg. 4:7). El poder de la muerte, que tenía el diablo, ha sido anulado por Cristo en Su muerte (He. 2:14). Se advierte a los santos en contra de sus maquinaciones (2 Co. 2:11), porque se transforma en ángel de luz, en maestro de moralidad (2 Co. 11:14). Dios provee una completa armadura para Sus santos, a fin de que puedan resistirle a él y sus 288 artimañas, dándoles la espada del Espíritu (la palabra de Dios), como arma de ataque (Ef. 6:11-18)
+
+El origen de Satanás no se afirma de una manera explícita, pero parece evidente (como creía la iglesia en su época más temprana) que hay una referencia a él en Ez. 28:12-19, bajo el nombre de rey de Tiro, como «querubín protector de alas desplegadas»; todas las piedras preciosas y el oro eran también vestidura suya, resplandecientes de luz reflejada; tenía su lugar en Edén, el huerto de Dios, y estuvo en el santo monte de Dios. Era perfecto en todos sus caminos desde el día en que fue creado, hasta que se halló maldad en él. Esto difícilmente podría aplicarse al príncipe de Tiro (Ez. 28:1-10) como ser humano, pero las Escrituras lo atribuyen al rey de Tiro. Es muy indicativo el cambio que hay de príncipe (heb.: «nagid», conductor) de Tiro (Ez. 28:2) a rey (heb.: «melek», rey). Tiro, en su sabiduría y hermosura mundanas, es considerado moralmente como la creación del rey y dios de este mundo, y acabará su carrera en condenación en el lago de fuego.
+
+En la Epístola de Judas se da la acción del arcángel Miguel en relación con Satanás como ejemplo de moderación al hablar de las dignidades: él no se atrevió a proferir juicio de maldición contra el diablo, sino que dijo: «El Señor te reprenda.» Esto implica que Satanás había sido puesto en dignidad, la cual, aunque había caído, tenía que ser todavía respetada, de la misma manera que la vida de Saúl era sagrada a los ojos de David porque era el ungido de Dios, aunque había caído. Que Satanás ha sido puesto en dignidad queda confirmado por el hecho de que Cristo, en la cruz, despojó a «los principados y a las potestades», no solamente a las «potestades» (Col. 2:15).
+
+La expresión «el príncipe» de este mundo (Jn. 12:31) «el dios de este siglo» (2 Co. 4:4), y «el príncipe de la potestad del aire» (Ef. 2:2) se refieren evidentemente al diablo. Cuando el Señor fue tentado en el desierto, Satanás, después de mostrarle «todos los reinos del mundo», le ofreció darle todo el poder y la gloria de ellos, si le adoraba, añadiendo «pues a mí me ha sido entregado, y se lo doy a quien quiero» (Lc. 4:5, 6).
+
+En el libro de Job vemos que Satanás tiene acceso a Dios en los cielos (Jb. 1:6, etc.); el cristiano lucha con los poderes espirituales de maldad en los lugares celestes (Ef. 6:12); llegará el día en que Miguel y sus ángeles lucharán contra Satanás y sus ángeles, y que éstos serán expulsados del cielo (Ap. 12:7). Esto parece indicar que Satanás tiene un lugar en el cielo, tal como Dios se lo dio originalmente. Durante el milenio sería encerrado en el abismo, después dejado suelto por un corto espacio de tiempo, y finalmente será arrojado en el lago de fuego (Ap. 20:1-10), preparado para el diablo y sus ángeles (Mt. 25:41).
+
+Cuando Jesús nació, Satanás intentó destruirle (Mal. 2:16; Ap. 12:1-5). Al terminar la carrera terrena del Señor, Satanás fue el gran instigador de su muerte. Para conseguirlo, entró en Judas Iscariote, en tanto que en los otros casos, hasta allí donde nos ha sido revelado, la posesión la efectuaba un demonio, y no el mismo diablo. Cuando el Señor fue arrestado, dijo a los judíos: «ésta es vuestra hora, y la potestad de las tinieblas» (Lc. 22:53). Pero Cristo fue el verdadero vencedor. Con Su muerte venció al que tenía el imperio de la muerte, al diablo (He. 2:14); llevó cautiva la cautividad (Ef. 4:8).
+
+Sin embargo, Satanás sigue obrando, y cuando sea arrojado a la tierra vendrá a ser el espíritu de una trinidad de maldad. Dará su trono y autoridad a la Bestia (Ap. 13:2). Será también el caudillo de las naciones en la última batalla contra el campamento de los santos (Ap. 20:7-9). Es un hecho notable que, a pesar de la maldad de Satanás, Dios lo usa en la disciplina de Sus 289 santos, como en el caso de Job, pero solamente permite al diablo ir hasta donde Él quiere (cp. Jb. 1:12).
+
+Pablo usó su poder apostólico para entregar a algunos a Satanás para la destrucción de la carne (1 Co. 5:5; 1 Ti. 1:20).
+
+El aguijón que el mismo Pablo tenía en la carne era un mensajero de Satanás que le abofeteaba, para que lo sublime de las revelaciones que había recibido en el tercer cielo no le hicieran exaltarse desmedidamente (2 Co. 12:7).
+
+Se debe recordar que Satanás es ya un enemigo moralmente vencido, porque ha sido ya denunciado (Col. 2:15); también que ningún cristiano puede ser tocado por él, excepto en lo que Dios el Padre permita y controle para la disciplina de Sus hijos y para bien de ellos.
+
+Bibliografía:
+
+Chafer, L. S.: «Teología Sistemática», tomo I, PP. 453-531. «Satanalogía» (Publicaciones Españolas, Dalton, Ga. 1974);
+
+Pentecost: «Vuestro adversario el diablo» (Logoi, Miami, 1974).
+
+nom, DIÁCONO, DIACONISA
+
+tip, FUNC
+
+vet,
+
+Este nombre se aplica generalmente a los siete que fueron elegidos para supervisar la distribución de los fondos de la iglesia en Hch. 6:3; pero allí no se les llama diáconos; aunque el nombre pueda serles aplicado no puede quedar restringido a aquel servicio. El término se aplica a cualquier servicio no especificado. La palabra griega es mucho más frecuentemente traducida «siervo» y «ministro» que «diácono». Se refiere dos veces a Cristo (Ro. 15:8; Gá. 2:17), también a Pablo y a otros (Col. 1:7, 23, 25), a magistrados (Ro. 13:4) e incluso a los emisarios de Satanás (2 Co. 11:15). La Epístola a los Filipenses fue dirigida a los santos y a los «obispos y diáconos», o supervisores y siervos. En 1 Ti. 3:8-13 se dan las calificaciones morales del diácono o ministro, pero no se especifica cuál fuera su obra; es evidente que llevaban a cabo sus funciones de una forma oficial. El servicio de un diácono no debe ser confundido con un «don». Febe era diaconisa de la asamblea de Cencrea (Ro. 16:1).
+
+nom, DÍA DE JEHOVÁ
+
+tip, ESCA
+
+ver, EXPIACIÓN, DOMINGO
+
+vet,
+
+No puede separarse del día del Mesías (véase en DÍA, último párrafo). Está frecuentemente caracterizado por el juicio: «Día de tinieblas y de oscuridad, día de nublado y de densa niebla... grande es el día de Jehová, y muy terrible» (Jl. 2:2, 11, 31; Mal. 4:1) «El día del Señor vendrá del mismo modo que un ladrón en la noche. Cuando estén diciendo: Paz y seguridad, entonces vendrá sobre ellos destrucción repentina» (1 Ts. 5:2, 3) «Pero el día del Señor vendrá como un ladrón en la noche; en el cual los cielos desaparecerán con gran estruendo, y los elementos ardiendo serán desechos, y la tierra y las obras que en ella hay serán quemadas» (2 P. 3:10). Esta escena va seguida por EL DÍA DE DIOS en el v. 12, que introduce los nuevos cielos y la nueva tierra. Es importante ver el contraste entre el «día» y el arrebatamiento de los santos a reunirse con el 290 Señor en el aire; son muchos los que han aplicado mal el término, y se ha afirmado constantemente que la Segunda Epístola a los Tesalonicenses fue escrita para mostrar a los creyentes que era un error estar esperando la venida del Señor; en realidad el hecho es que los creyentes en Tesalónica pensaban que el día del Señor había llegado (cp. la revisión 1977 de 2 Ts. 2:2, «en el sentido de que el día del Señor ha llegado», frente a la errónea traducción de las revisiones anteriores, «está cerca»).
+
+Habrá juicios antes del milenio, y también después del milenio, de manera que podemos considerar que el Día del Señor se extiende a través del Milenio: será el día «del Señor» en contraste con el día «del hombre».
+
+nom, DÍA DE LA EXPIACIÓN. Véase EXPIACIÓN (Día de la)
+
+nom, DÍA DEL SEÑOR. Véase DÍA DE JEHOVÁ.
+
+nom, DÍA DEL SEÑOR (Domingo). Véase DOMINGO.
+
+nom, DIADEMA
+
+tip, COSM
+
+ver, TURBANTE
+
+vet,
+
+Traducción de varios vocablos, como sigue:
+
+(a) «Tsanif» (heb.) se usa en Is. 62:3, de una diadema real. (b) «Nezer» (heb.) aparece en Éx. 29:6; 39:30, de una diadema de santidad, en oro puro, para los sumos sacerdotes; diadema real, adornada de piedras (Zac. 9:16). (c) «Tsephirah» (heb.) se usa como diadema en Is. 28:5, compostura, adorno. (d) «Diadëma» (gr.) es una diadema real, que se distingue netamente de «stephanos». Esta última palabra significa guirnalda, trenzado, en señal de victoria en los juegos, en la guerra, o señal de fiesta y de gozo nupcial, y no se traduce diadema.
+
+Se ignora cómo eran las diademas entre los judíos. Por los textos citados está claro que se usaban como:
+
+(a) insignia real;
+
+(b) la diadema del supremo sacerdote;
+
+(c) el ornamento masculino o femenino, que se llevaba en la cabeza. Entre las otras naciones de la antigüedad, la diadema era una especie de turbante de seda de unos 5 cm. de ancho, que rodeaba la cabeza, y se anudaba por detrás. Era generalmente blanco, o en ocasiones azul, como el de Darío, y recamado de pedrería u otras joyas. (Véase TURBANTE).
+
+nom, DIAMANTE
+
+tip, PIED
+
+vet,
+
+(a) Heb. «yahalom». Aparece en Éx. 28:18; 39:11; no se puede identificar. En Ez. 28:13 se traduce «jaspe» en las revisiones 1960 y 1977, en tanto que en la antigua se traduce «diamante». (b) Solamente aparece en los pasajes citados, y no puede ser verdaderamente identificado. Se sostiene generalmente que no es lo que ahora se conoce como diamante. (c) En Jer. 17:1 y Ez. 3:9 el término es «shamir». Se cree que es corindón, una piedra de gran dureza, pero al tener diferentes colores tiene ahora varios nombres.
+
+nom, DIANA
+
+291
+
+tip, DIOS
+
+vet,
+
+Es el nombre latino de una de las principales diosas de los griegos y romanos: el nombre griego es «Artemisa».
+
+Se decía que una imagen de ella había caído del cielo, o que había sido labrada de madera o ébano que había caído de las nubes.
+
+Era adorada en toda Asia. Su templo se hallaba en Éfeso, construido de mármol escogido. En el Museo Británico se halla una moneda romana con una representación del templo y la imagen de la diosa en el centro (Hch. 19:24-35).
+
+Aunque Éfeso era en muchos respectos una ciudad ilustrada, estaba entenebrecida por este culto de la fertilidad, y el populacho excitado pudo gritar durante dos horas: «Grande es Diana de los efesios».
+
+Era considerada como la diosa de la luna, divinidad tutelar de los campos, de los bosques, y de todos los fenómenos vitales que se suponían influenciados por la luna.
+
+nom, DIÁSPORA. Véase DISPERSIÓN.
+
+nom, DIATESARÓN
+
+tip, LIBR
+
+vet,
+
+Una «armonía» de los cuatro evangelios hecha por Taciano, discípulo de Justino Mártir, hacia el año 170 d.C.
+
+Taciano había sido un sofista pagano ambulante antes de ser convertido en Roma alrededor del año 150 d.C.
+
+Después de la muerte de Justino, en el año 166, Taciano cayó en graves errores, y se retiró a Mesopotamia, donde escribió muchos tratados, todos los cuales han desaparecido. Los principales errores de Taciano fueron su ascetismo, su rechazo del matrimonio y del consumo de carne de animales, y ciertas doctrinas gnósticas acerca de un demiurgo y los eones. Fue atacado por Ireneo, Tertuliano, Hipólito, Clemente de Alejandría, y por el mismo Orígenes. Su Diatesarón es una especie de evangelio hecho de retazos de nuestros cuatro evangelios, y no una armonía en el sentido moderno.
+
+Véase VERSIONES ANTIGUAS.
+
+nom, DIBÓN
+
+tip, LUGA CIUD
+
+ver, MOAB
+
+sit, a3, 564, 224
+
+vet,
+
+= «desfallecimiento».
+
+(a) Ciudad al norte del Arnón, conquistada y reconstruida por los israelitas de Gad (Nm. 21:30; 32:34) y por eso llamada también Dibón-gad (Nm. 33:45, 46). Después pasó a Rubén (Jos. 13:9, 17) y más tarde a los moabitas (Is. 15:2; Jer. 48:18, 22). Existen ruinas con el mismo nombre y en ellas se descubrió la famosa Piedra Moabita (ver MOAB, [piedra de]). (b) Un lugar de Judá (Neh. 11:25).
+
+nom, DIEZ MANDAMIENTOS. Véase DECÁLOGO.
+
+292
+
+nom, DIEZMO
+
+tip, LEYE
+
+vet,
+
+Décima parte de la renta de una persona; se dedica a usos sagrados. Varias naciones de la Antigüedad lo practicaban, y era conocido por los patriarcas del Antiguo Testamento (Gn. 14:28; 28:10-22).
+
+La ley mosaica lo establecía sobre los frutos de la tierra y el ganado (Lv. 27:30-33; Nm. 18:27). Era entregado en su totalidad a los levitas, para el sostén de ellos y el culto (Nm. 18:21-32; Dt. 12:17-19, 22, 29; 14:22). Esta práctica decaía a veces, mereciendo amonestaciones (2 Cr. 31:4-12; Mal. 3:7-11), que solían ser oídas y obedecidas (2 Cr. 31:11). El pago de diezmos continuaba en tiempo de Cristo (Lc. 11:42; 18:12; He. 7:5), pero no fue prescrito a los cristianos ni por Cristo ni por los apóstoles. Bajo la economía de la gracia se espera de todo creyente que aporte con corazón bien dispuesto «como propuso en su corazón: no con tristeza, ni por necesidad, porque Dios ama al dador alegre» (2 Co. 9:7). El creyente es exhortado a dar no por una norma impuesta, sino presentándole el ejemplo de gracia del mismo Señor Jesucristo, «que por amor a vosotros se hizo pobre, siendo rico» (2 Co. 8:9).
+
+No es el diezmo del cristiano lo que corresponde al Señor, sino todo su ser, puesto que ha sido comprado «por precio» (1 Co. 6:20; 7:23), y debe así venir a ser eficaz administrador de todo lo que el Señor ha puesto en sus manos para la gloria de Dios.
+
+nom, DILUVIO
+
+tip, CRIT ARQU
+
+vet,
+
+Abrumadora inundación en los tiempos de Noé, en un acto judicial de Dios sobre un mundo antiguo que había llegado al colmo de la iniquidad.
+
+Dice la Escritura que «la maldad de los hombres era mucha en la tierra, y... todo designio de los pensamientos del corazón de ellos era de continuo solamente el mal... Y se corrompió la tierra delante de Dios, y estaba la tierra llena de violencia... toda carne había corrompido su camino sobre la tierra» (Gn. 6:5, 11, 12). Es por ello que Dios ordenó el juicio por medio de las aguas destructoras, declarando: «los destruiré con la tierra» (Gn. 6:13). Todo este hecho se narra en los capítulos 6, 7 y 8 del libro de Génesis. El relato bíblico nos presenta el Diluvio como una catástrofe de carácter universal, empleando la palabra hebrea «mabbul», que la versión griega LXX traduce como «cataclysmos» (Gn. 6-8; Sal. 29:10); el NT usa el mismo término griego, denotando asimismo una destrucción universal (Mt. 29:38, 39; Lc. 17:27; 2 P. 2:5).
+
+Todo el lenguaje de Génesis 6-8 señala insistentemente al hecho de una destrucción de carácter universal. «Todos los montes altos que había debajo de todos los cielos, fueron cubiertos» (Gn. 7:19). No se puede dar la vuelta a esta afirmación ni a las múltiples afirmaciones que se dan acerca del Diluvio en éste y en tantos otros pasajes sin hacer grave violencia al mismo texto, y sin caer en la práctica de introducir en el texto conceptos contrarios a lo que allí se enseña. (a) Naturaleza del Diluvio.
+
+El cataclismo del Diluvio fue un complejo de eventos en el que «fueron rotas todas las fuentes del gran abismo y las cataratas de los cielos fueron abiertas y hubo lluvia sobre la tierra cuarenta días y cuarenta noches» (Gn. 7:11, 12) «Toda carne» (término que incluye a todos los seres 293 terrestres incluyendo al hombre Gn. 7:21-23) fue destruida. La tierra misma «el mundo de entonces» pereció (cp. 2 P. 3:5).
+
+La frase «fueron rotas las fuentes del gran abismo» tiene claras implicaciones de colapsamiento de secciones vitales de la corteza terrestre, con lo que aguas marinas y/o subterráneas se lanzaron sobre los continentes, en tanto que se precipitaron sobre la tierra, con una fuerza devastadora, las «aguas que estaban sobre la expansión» (cp. Gn. 1:7) existentes en el mundo en su orden antediluviano.
+
+En este gran complejo de eventos se indican lluvias universales de un régimen torrencial indescriptible, tremenda erosión, convulsiones volcánicas y tectónicas, violentos huracanes dando origen a olas de aguaje; la universal destrucción de las formas de vida dio necesariamente lugar, junto con la intensa erosión y denudación de la tierra antediluviana, a inmensos sepultamientos de grupos y nichos ecológicos, más o menos entremezclados, en formaciones estratificadas debido al poder clasificador del agua. Muchas de estas formaciones se endurecerían posteriormente por agentes cementantes que las aguas llevaran consigo en algunas localidades. Así quedó totalmente sepultado el mundo antiguo. (b) El arca y sus ocupantes.
+
+El gran tamaño del arca, en base a las dimensiones dadas en la Biblia (300 codos, o unos 137 metros de longitud), le daba una capacidad de transporte de más de 500 vagones de carga de ganado como los que se utilizan actualmente en los ferrocarriles. Con respecto a los animales que entraron en el arca, se debe tener en cuenta que los animales grandes son relativamente pocos. Se ha calculado que el tamaño medio de los animales era el de un gato. Dos de ellos precisarían bien poco espacio, menos de medio metro cuadrado. No todos los numerosos grupos y subgrupos que ahora conocemos tuvieron que entrar en el arca. Una buena cantidad de ellos se ha originado con posterioridad al Diluvio, diversificándose de un número menor de antecesores comunes por mecanismos de reducción genética y aislamiento geográfico. Se debe observar que ello no tiene nada que ver con el concepto evolución, que demanda una emergencia de nuevas estructuras, no una mera deriva de unos caracteres genéticos ya existentes que, cuando el fondo genético posee una gran riqueza, pueden dar lugar a una enorme variedad dentro del tipo básico (para una consideración de todos estos temas y otros, recomendamos el examen de la bibliografía al final de este artículo). Se ha planteado con frecuencia la cuestión de cómo se pudieron alimentar los animales del arca durante el año entero en que estuvieron dentro. Aparte de que la capacidad del arca daba lugar para el transporte de grandes cantidades de provisiones, se debe tener en cuenta el mecanismo de hibernación al que recurren muchos animales en situaciones límite, y otros normalmente en invierno, y que Dios pudo bien haber acentuado. Con respecto a los carnívoros, éstos se alimentan de vegetación cuando les es preciso, como está sobradamente comprobado. (c) Arqueología y el Diluvio.
+
+Subestimando la verdadera magnitud del Diluvio, ha habido los que han identificado el cataclismo universal con una capa de lodo que se halló en Ur, y que pertenece a una de las numerosas inundaciones de extensión regional que se han dado en aquel lugar. No es en una pequeña y poca extensa capa de lodo que debe contemplarse el gran cataclismo del Diluvio, sino en grandes masas sedimentarias repletas de fósiles de un mundo que pereció, y que cubren toda la tierra como vasto cementerio. Noé salió del arca a un mundo nuevo, en el que la orografía, estructura climatológica, y muchos otros factores, habían cambiado radicalmente (cp. Sal. 104:5-9 ss). Por otra parte, numerosas culturas y tribus alrededor de todo el mundo han conservado relatos de 294 un diluvio universal. Los relatos babilónicos (sumerios y acádicos), evidencian su proveniencia de una tradición anterior, de la que descienden también numerosos relatos chinos, nipones, amerindios, y muchos otros esparcidos por todo el globo. La divergencia de estos relatos entre sí refuta la idea de que Moisés se hubiera basado en ninguno de ellos para escribir la narración, aunque sí es prueba de que en la memoria de las naciones descendientes de Noé, persistió el recuerdo del cataclismo.
+
+Cuando cesó el Diluvio el arca reposó en los montes de Ararat, en la región de Armenia (Gn. 8:4). Allí existen relatos populares acerca de la presencia de un gran navío sobre el monte, que está cubierto por nieves y hielos perpetuos. Ha habido exploradores, como el arcediano anglicano de Jerusalén, doctor Nouri, que visitó la región en 1882, que afirman haberla visto en los ventisqueros del sur del monte. Después de esta fecha se tienen relatos de personas de muy diversas procedencias, incluyendo aviadores, que afirman haberla visto. En la actualidad hay varios grupos que efectúan expediciones anualmente, entre ellos el «Institute for Creation Research» de San Diego, con equipos cualificados en los que se integran arqueólogos, geólogos y otros especialistas.
+
+(d) El Diluvio en su perspectiva teológica.
+
+El Diluvio es una exhibición de la soberanía de Dios en juicio (Sal. 29:10). El Diluvio del pasado se muestra como ejemplo de aquel día futuro en el que tampoco nadie podrá escapar a la acción de Dios, cuando todos los que han rechazado el conocimiento salvador de Dios se verán enfrentados con Su justa ira en retribución (Mt. 24:37; Lc. 17:26; 2 P. 2:5-9). Fue un suceso sin paralelo alguno con toda la historia anterior del hombre, y hay la promesa expresa, que constituye una adicional demostración de que no fue un fenómeno local o regional, de que Dios no va a volver a traerlo sobre la tierra (Gn. 9:11). Como señal de esta promesa se establece, en las nuevas condiciones climáticas de la tierra, el arco iris (Gn. 9:12, 13), que es desde entonces señal de gracia, que aparece incluso en medio de los juicios de Apocalipsis (Ap. 4:3; 10:1).
+
+Es por fe que Noé preparó el arca (He. 11:7). Todo lo concerniente al Diluvio fue dispuesto por Dios; Noé simplemente tuvo que seguir las instrucciones recibidas. La misma fe cree que todo ello se cumplió tal como ha sido descrito; no hay dificultad en todo ello, excepto si se deja a Dios a un lado, lo cual no debiera hacerse bajo ningún concepto, por cuanto fue una especial intervención de Dios en la historia en juicio de una manera muy directa. Fue Dios quien advirtió a Noé; fue Dios quien le envió los animales (Gn. 7:15, 16); fue Dios quien cerró la puerta del arca (Gn. 7:16); fue Dios que hizo pasar un viento sobre la tierra (Gn. 8:11); en resumen, la Escritura afirma que Jehová presidió sobre el Diluvio (Sal. 29:10). Sin embargo, los rastros del Diluvio son tan elocuentes que el apóstol Pedro afirma que los que lo niegan lo hacen ignorándolo voluntariamente (2 P. 3:5).
+
+Las rocas sedimentarias, que dan elocuente testimonio de su contenido de grandes cantidades de restos animales y vegetales de un mundo pasado, han sido «reinterpretadas» en términos de grandes épocas de producción de depósitos con gran lentitud. El último siglo vio la manipulación y supresión de numerosos datos que son evidencia de cataclismo, dando lugar a la actual concepción de la «geología histórica». Sin embargo, se mantiene en excelentes obras la evidencia de la interpretación diluvial de los depósitos geológicos, impuesta por su propia naturaleza.
+
+(e) Objeciones. Se han presentado varias objeciones como demostración incontestable de que los depósitos 295 geológicos tienen que haberse depositado a lo largo de grandes períodos de tiempo. Una de ellas es la existencia de formaciones de «anhidritas» o «evaporitas», un tipo de acumulaciones de diversas sales que comúnmente se interpretan como los restos de la evaporación de mares antiguos. Sin embargo, la evidencia interna de estos depósitos, por su pureza y ausencia de fósiles u otros restos indicativos de origen marino, y por otros factores, demanda su explicación por precipitación de mezclas de salmueras de origen tectónico. En todos los casos en que se ofrecen objeciones de este tipo, no hay verdaderas razones para adoptar una interpretación de largas épocas de deposición, sino que un estrecho examen de la evidencia muestra que estas formaciones, tanto de «evaporitas» como de «arrecifes fósiles», como depósitos de diatomeas, y muchas otras, han sido objeto de una interpretación precipitada en el pasado; la moderna investigación crítica revela condiciones cataclísmicas en la formación de todos estos depósitos.
+
+Bibliografía:
+
+Balsiger, D. y Charles E. Sellier: «In Search of Noah's Ark» (Sun Classic Books, Los Ángeles 1976; hay edición castellana de Javier Vergara, Barcelona); Montgomery, J. W.: «The Quest for Noah's Ark» (Dimension Books, Minneapolis, 1974); Morris, H. M.: «Geología: ¿Actualismo o Diluvialismo?», con una desveladora introducción histórica del profesor G. Grinnell: «Los orígenes de la moderna teoría geológica» (Clíe, Terrassa, 1980); «El Diluvio del Génesis» (con John C. Whitcomb. Clíe, Terrassa, 1982); Navarra, F.: «Yo he tocado el arca de Noé» (Clíe, Terrassa, 1978); Nelson, B. C.: «The Deluge Story in Stone» (Bethany, Minneapolis, 1931/1968); Rehwinkel, A.: «The Flood» (Concordia, Saint Louis, Missouri, 1951/1978); Schaeffer, F.: «Génesis en el tiempo y en el espacio» (Ediciones Evangélicas Europeas, Barcelona, 1974);
+
+Sedin: Simposios de varios autores, selección de S. Escuain: «Los Fósiles y el Diluvio»; «Anegado en Agua», tomos I y II; «Cronometría: Consideraciones Críticas»; «Biología y Orígenes» (Sedin, Servicio Evangélico de Documentación e Información, Apdo. 2.002, Sabadell, España);
+
+Slusher, H. S. y R. Whitelaw: «Las dataciones radiométricas: Crítica» (Clíe, Terrassa, 1980); Watson, D.C. C.: «Mitos y Milagros» (Clíe, Terrassa, 1980); Whitcomb, J.C.: «El mundo que pereció» (Grand Rapids, Ed. Portavoz, 1981). Respecto a la envolvente de agua sobre la atmósfera antes del Diluvio, cfr. Dillow, J. C.: «The Waters Above» (Moody Press, Chicago, 1981).
+
+nom, DINA
+
+tip, BIOG MUJE MUAT
+
+vet,
+
+Hija de Jacob y Lea; deshonrada por Siquem (Gn. 34:25-31), fue vengada por Simeón y Leví (Gn. 49:5) y por todos los hermanos (Gn. 34:7-24).
+
+nom, DINERO
+
+tip, MEDI
+
+vet, Se hace mención del dinero ya en época tan temprana como Gn. 17:12, 13, donde se habla de 296 personas compradas «por dinero».
+
+De Génesis a Zacarías se menciona como no contado, sino pesado. Ello daba el verdadero valor de los metales preciosos en forma de anillos o en trozos pequeños de oro o plata. Las cantidades de dinero que se usaban en el AT corresponden con Gera, Beka, Siclo, Maneh y Talento.
+
+Al volver los judíos del exilio en el año 536 a.C., se usaba entonces dinero persa. Ello fue seguido del dinero griego. Antíoco VII, alrededor del año 140 a.C., dio permiso a Simón Macabeo para acuñar dinero judío.
+
+Los siclos se acuñaban con el grabado de un vaso de maná y una vara de almendro. Bajo los romanos, se usaba dinero romano.
+
+nom, DINTEL
+
+tip, LEYE CONS
+
+ver, PASCUA
+
+vet,
+
+Parte superior del hueco de la puerta.
+
+La ley ordenaba a los israelitas que empapasen de sangre el dintel y los postes de la puerta, tal como lo hicieron en la primera Pascua para proteger a sus primogénitos del ángel destructor. (Véase PASCUA).
+
+nom, DIONISIO
+
+tip, BIOG HOMB HONT
+
+vet,
+
+Miembro del tribunal supremo de Atenas, convertido por la predicación del apóstol Pablo (Hch. 17:34).
+
+nom, DIOS
+
+tip, DOCT
+
+ver, TRINIDAD
+
+vet,
+
+(a) La revelación de Dios.
+
+Ya a partir de su primer renglón, la Biblia habla de Dios (Gn. 1:1). De un extremo al otro, se presenta como la revelación que Él ha dado de Sí mismo, revelación sin la cual nosotros no sabríamos nada suficiente acerca de Él.
+
+Es cierto que antes de revelarse mediante la palabra escrita, Dios se manifestaba por la obra de la creación. Ésta muestra la gloria, poder y deidad del Creador (Sal. 19:1; Ro. 1:20). También aquellos que no poseen las Escrituras son culpables de no buscar a Dios, de no glorificarle, y de no darle gracias (Hch. 17:27; Ro. 1:20). Pero en ningún pasaje leemos que nadie entre los hombres llegue a conocer a Dios de una manera concreta mediante la contemplación de la naturaleza.
+
+Lo mismo se puede decir acerca de la conciencia. Los hombres poseen una cierta noción de la voluntad de Dios (Ro. 2:15). De ello es que subsista un mínimo de moralidad en la sociedad humana y que los magistrados sean, a su manera, servidores de Dios (Ro. 13:4). Pero ello no impide que los paganos ignoren las ordenanzas divinas (Sal. 147:20). Como el hombre pecador no busca a Dios (Sal. 14:2; Ro. 3:11), hace falta entonces una revelación especial en la que Dios 297 toma la iniciativa para que el hombre pueda llegar a conocerle. Así, se reveló a los primeros miembros de la humanidad, Adán, Abel, Caín, Noé. Pero los recuerdos de esta revelación primitiva quedaron rápidamente oscurecidos. Se pudiera pensar que Job y sus amigos, no pertenecientes al pueblo elegido, todavía fueron beneficiarios y depositarios de aquel conocimiento anterior de Dios. Pero los mismos antepasados de Abraham estaban apartados de Dios (Jos. 24:2). Asimismo, las naciones en general son presentadas como alejadas de Dios (Ef. 2:12). En particular, las pretensiones de los filósofos son rechazadas con energía: el mundo, con su sabiduría, no conoció a Dios (1 Co. 1:21). Como consecuencia, Dios se reveló, primeramente de una manera directa, a Abraham, Isaac y Jacob, después con la mediación de los profetas, desde Moisés hasta Malaquías. Sus escritos son palabra de Dios (Dt. 18:18, 19), una palabra viva (Hch. 7:38). La revelación culmina en la encarnación, ya prevista y saludada desde antes por los creyentes del AT y del NT (Jn. 20:30; Ro. 16:26). El resultado es que en tanto que esperamos aquel día en que el Señor, a Su vuelta, nos llevará a la gloria, donde conoceremos como somos conocidos (1 Co. 13:12), no tenemos otra fuente válida de información acerca de Dios que la Biblia. Para que podamos llegar a beneficiamos de la revelación de las Escrituras hace falta, por otra parte, la acción interior del Espíritu Santo. Vista nuestra naturaleza pecadora, somos impermeables a la verdad, incluso cuando nos es presentada en todo su esplendor. Hay una total incompatibilidad entre la manera de pensar de Dios y la de los hombres (Is. 55:8, 9; 1 Co. 2:14). Es preciso que mediante el Espíritu, el Padre nos ilumine con la verdad, y nos disponga para aceptarla (Mt. 16:17; Jn. 6:45; 1 Co. 2:10; Ef. 1:17, 18).
+
+Esta revelación no comporta ninguna imperfección. Se puede admitir una cierta gradación entre la palabra transmitida por los profetas y la del Hijo (He. 1:1). Pero como el mismo Hijo puso Su sello sin reservas de ningún tipo sobre los escritos del AT (Mt. 5:17), no debemos tampoco nosotros presentar ninguna de nuestra parte.
+
+A propósito de esta revelación se puede hacer la siguiente observación: Al decirse: «Oísteis que fue dicho a los antiguos, mas yo os digo» (Mt. 5:21, 22, etc.), según los más acreditados exegetas, Jesús no hablaba aquí del texto del AT, sino solamente de las interpretaciones tendenciosas por las que los judíos trataban de restringir su alcance (cp. Mt. 15:3-6). Incluso si se quiere interpretar de otro modo los pasajes del sermón del monte, no se puede por ello llegar a la conclusión de que la revelación antigua fuera errónea: lo más que se podría decir es que no había sido dada todavía en su plenitud (cp. Mt. 19:8).
+
+(b) La unidad de Dios.
+
+De principio, Dios aparece como único. Si se emplea la misma palabra en el AT y en el NT para designar a Jehová y a los falsos dioses, se da por supuesto que jamás los autores sagrados atribuyen a los segundos existencia real. Se trata de vanidades (Sal. 115:8; Is. 44:9; 1 Co. 8:4-6). Con frecuencia se puede ver detrás de ellos a los demonios, inspiradores de idolatría, mediante la cual se hacen dar a sí mismos la honra, en lugar de a Dios (1 Co. 10:19, 20). Con toda certeza, Jehová es el Dios de Israel; pero este vínculo no tiene nada de común con las limitaciones que imaginaban los paganos. Para ellos, cada divinidad tenía sus circunscripciones, con fronteras bien delimitadas, fuera de las cuales otras divinidades ejercían su poder. Nada de esta concepción se halla en los autores sagrados. Jehová es el Dios de los israelitas por Su elección. En Su soberanía se quiso revelar a ellos (Dt. 4:33-36). Concluyó una alianza con ellos, y los eligió para que fueran Sus testigos. Esto no significa en absoluto que Su autoridad quede 72:11, 17, etc.). confiada a los que formaban parte de esta nación. Él es el Señor de todas las naciones (Sal. 82:8; 298 En el seno del pueblo de Israel hubo ciertamente los que atribuían una cierta realidad a los falsos dioses hasta el punto de rendirles culto. Incluso dentro de la Iglesia primitiva los había que no estaban del todo convencidos de la vanidad de los ídolos (1 Co. 8:7). Pero esta tendencia no apareció jamás entre los instrumentos de la revelación. Todo lo que se oye acerca del desarrollo progresivo del monoteísmo en el AT proviene de una interpretación inexacta de los textos. Desde la primera línea de Génesis, Dios es uno, Creador de todo el universo. Los Diez Mandamientos, cuya antigüedad es irrebatible, comienzan con la exclusión de toda falsa deidad (Éx. 20:3). La confesión de fe de Israel se halla en Dt. 6:4. Las afirmaciones de Is. 40-48 son insuperables en su vigor monoteísta, pero no aportan nada que sea fundamentalmente inédito con respecto a los textos más antiguos.
+
+(c) La Trinidad.
+
+La unidad de Dios no excluye en absoluto la distinción entre las Personas de la divinidad. Ya el AT deja entrever esta distinción, aunque ciertamente de una manera velada, ya que era sobre todo la unidad de Dios lo que debía ser destacado frente al politeísmo ambiental. Incluso si no se quiere tener en cuenta la forma plural «Elohim» unida a un verbo en singular, debido a que este hecho recibe varias interpretaciones, hay textos en los que el nombre de Dios es aplicable por adelantado al Mesías (Sal. 45:7-8; Is. 9:5); también, siendo que el nombre de «Señor» equivale al nombre inefable de Jehová, se ha de considerar el Sal. 11:1. Con Jehová se asocia un Hijo (2 S. 7:14; Pr. 30:4; cp. Sal. 2:12). El pasaje acerca de la Sabiduría en Proverbios (Pr. 8) nos la presenta como un ser personal, y no como una abstracción, hasta tal punto que, desde el mismo marco de referencia del judaísmo, sus filósofos llegaron a la conclusión de la existencia de un mediador, el Logos, entre Dios y el mundo.
+
+El Espíritu de Dios es igualmente mencionado con frecuencia en el AT, y ello en términos que implican a la vez Su existencia propia y su unidad sustancial con Dios (Gn. 1:2; Sal. 51:13; 2 S. 23:1). Al llegar al NT hallamos allí la doctrina de la Trinidad netamente formulada, aun cuando no se emplee este término.
+
+De entrada, el NT es tan formal como el AT al afirmar la unidad de Dios (Mr. 12:29; Stg. 2:19). La divinidad del Hijo y del Espíritu Santo no contradice en nada este hecho. Pablo opone el solo Dios y Padre y el solo Señor Jesucristo a la multiplicidad de las divinidades y de los señoríos del paganismo (1 Co. 8:5, 6).
+
+Así, en el seno de la esencia divina única se pueden distinguir tres Personas que reciben igualmente el nombre de Dios, que en el seno de la Deidad mantienen unas relaciones a nivel interpersonal. Sería prolijo enumerar todos los pasajes donde este nombre se aplica al Padre. (He aquí unos como ejemplo: Jn. 20:17; 1 Ts. 1:1; 1 P. 1:2; Stg. 1:27; Jud. 1). El Hijo es llamado Dios por el apóstol Juan (Jn. 1:1; 1 Jn. 5:20), por el apóstol Pedro (2 P. 1:1), por el apóstol Pablo (Tit. 2:13; Ro. 9:5), por el autor de la epístola a los Hebreos (He. 1:8). El texto más contundente es aquel en el que el mismo Jesús acepta que se le llame así (Jn. 20:28). En cuanto al Espíritu Santo, es evidente en base a Hch. 5:3,4 que mentirle a Él es lo mismo que mentir a Dios. Ello es debido a que se trata de Dios. Su Personalidad queda también evidenciada por cuanto tiene voluntad (He.2:4); se comunica (He.9:8); conduce a los Suyos (Gá.5:18); justifica (1Co.6:11); enseña (1Co.2:13); y da testimonio (Ro.8:16), aparte de muchas otras actividades, de las que se mencionan varias principales en Jn.14,15 y 16. Las tres Personas de la Trinidad son mencionadas juntas en la fórmula bautismal (Mt. 28:19) y 299 en la bendición apostólica (2 Co. 13:13); también en 1 Co. 12:4, 6 y en Ef. 4:4-6, de manera que queda implicada su distinción. Esta distinción queda además posiblemente destacada aún más claramente en los pasajes en los que las tres Personas aparecen con funciones distintas: Por ejemplo, en el bautismo de Jesús, el Padre da testimonio del Hijo, sobre quien desciende el Espíritu Santo (Mt. 3:16, 17); a su muerte, el Hijo se ofrece al Padre por el Espíritu (He. 9:14); en Pentecostés, el Padre envía el Espíritu Santo en nombre del Hijo, y el Hijo lo envía de parte del Padre (Jn. 14:26; 15:26).
+
+En nuestra experiencia de la salvación, la distinción entre las Personas se nos hace clara. Somos salvados según la presciencia de Dios Padre. Es el Hijo quien se ofreció en sacrificio para la redención. Es el Espíritu Santo quien aplica las bendiciones (1 P. 1:2). Pero esta distinción no está limitada a la administración de la salvación, sino que existe desde toda la eternidad en el seno de la esencia divina (Jn. 17:5).
+
+Para acabar de precisar esta doctrina, debemos mencionar los textos que destacan la unidad entre las tres Personas; el primer libro en antigüedad del NT, la 1. Epístola a los Tesalonicenses, presenta al Padre y al Hijo de tal manera unidos, que el verbo que denota la acción de ellos está en singular, lo que es tan contrario a todas las leyes de la gramática griega como pueda serlo a las de la gramática de la lengua castellana. «Mas el Dios y Padre nuestro, y nuestro Señor Jesucristo, dirija (sic) nuestro camino» (1 Ts. 3 11). Jesús dijo de una manera explícita: «Yo y el Padre somos una sola cosa» (Jn. 10:30). Por su parte el Espíritu Santo está tan estrechamente unido al Padre y al Hijo que por Su venida al corazón del creyente también el Padre y el Hijo vienen a morar allí (Jn. 14:17, 23). La subordinación del Hijo al Padre y la del Espíritu Santo al Padre y al Hijo no implican diferencia alguna de esencia entre las tres Personas. Para hacer comprender el misterio de la Trinidad, en ocasiones quizá para hacerlo aceptable al pensamiento humano, los teólogos han recurrido a diversos argumentos y a diversas comparaciones derivadas del mundo inanimado, y especialmente de la naturaleza humana. Como no hallamos ninguna argumentación de este género en la Biblia, no corresponde una discusión de este tema a un diccionario bíblico. Sin embargo, los que deseen estudiar a fondo esta cuestión hallarán un valioso tratamiento de la misma en la obra de L. S. Chafer, «Teología Sistemática», tomo I, PP. 294-313, y en la obra de F. Lacueva, «Un Dios en tres Personas» (PP. 125-166). (Véase también TRINIDAD).
+
+(d) Los atributos de Dios.
+
+A la pregunta ¿quién es Dios? hemos tratado de dar respuesta con la Biblia en la mano: Es Dios el Padre, Dios el Hijo, y Dios el Espíritu Santo. Tenemos que abordar ahora la cuestión que no puede venir más que en segundo lugar: ¿Cómo es Dios? Aquí es que deberemos mencionar lo que se denominan los atributos de Dios, esto es, los caracteres por los que se distingue de Sus criaturas. La Biblia no da una lista de Sus atributos como tal, sino que los muestra en actividad, de una manera concreta, en la historia de la revelación. De pasada se puede constatar que se aplican indiferentemente a las tres Personas divinas.
+
+(A) Dios es eterno.
+
+Esto no significa sólo que Dios haya existido siempre, y que siempre existirá (Sal. 90:2; Jn. 1:1; He. 9:14). Quiere decir además que nuestras nociones del tiempo no le son aplicables (2 P. 3:8). Por otra parte, no debiéramos por ello llegar a la conclusión de que el tiempo sea algo irreal o carente de importancia. Nuestros tiempos están en Sus manos, y es a través del curso de los años que Él manifiesta Su obra (Sal. 31:16; Hab. 3:2). Dios permanece invariable (Sal. 102:28; He. la eternidad. 13:8); pero la creación y la redención consumadas en el tiempo dan un resultado que cuenta para 300 (B) Dios es omnisciente.
+
+(Sal. 139:2-4; Jn. 16:30; 1 Co. 2:10). En virtud de Su eternidad, conoce el porvenir lo mismo que el pasado (Sal. 139:16). No se trata aquí de un mero conocimiento teórico, como si Dios fuera el espectador pasivo de lo que acontece. Cuando leemos, p. ej., que Dios conoce el camino de los justos (Sal. 1:6; 1 Co. 8:3), ello implica que viene a tener conocimiento de Su criatura, y que la admite a Su comunión. Cuando se afirma que Él contempla los hechos culpables de los pecadores (Is. 59:15, 16; Lm. 3:36), ello implica que intervendrá para castigarlos. (C) Dios es omnipresente.
+
+(Sal. 139:7-10; Mt. 18:20; 28:20), pero no en un sentido panteísta, como si no pudiera distinguirse de Su creación. Por una parte, Dios no se halla limitado a Su universo. Los cielos y los cielos de los cielos no pueden contenerle (1 R. 8:27). Por otra parte, Sus criaturas no constituyen parte de la divinidad, sino seres distintos que Dios ha creado ante Él. La omnipresencia del Creador hace que no podamos jamás hallarnos lejos de Él (Hch. 17:28). Personas extraviadas han llegado a creer que a semejanza de las divinidades paganas, Dios ejercía Su jurisdicción sobre un territorio limitado (Jer. 23:23; Jon. 1:3). Pero la historia de Jonás muestra precisamente lo real que es la omnipresencia de Dios. (D) Dios es todopoderoso.
+
+(Mt. 19:26; 28:18; Ap. 1:8). Su omnipotencia no es sólo algo virtual, sino que es eficaz (Sal. 115:3). No debemos llegar a la conclusión de que todo lo que sucede resulta directamente de su acción. Él deja a sus criaturas una responsabilidad real. No es en absoluto el autor del pecado (Hab. 1:13; Stg. 1:13), por bien que sea el hacedor del infortunio (Am. 3:6). En Su soberanía, controla el poder de los malvados y del mismo diablo (Jb. 1-2) y puede también sacar bien del mal (Gn. 50:20). Este hecho aparece particularmente en la cruz, que representa el crimen humano por excelencia, así como la obra maestra de Satanás, y que al mismo tiempo constituye el cumplimiento de la parte fundamental del plan de Dios (Hch. 2:23; 4:27, 28). (E) Dios es espíritu.
+
+(Jn. 4:24). Esto no le impide manifestarse bajo una forma visible o sensible (teofanías: Gn. 18:1, 2; Éx. 3:2; Jue. 6:11, 12; 1 R. 19:12; Is. 6:1). Pero la misma diversidad de las formas bajo las que apareció nos revela que ninguna de ellas es esencial. En el Sinaí, los israelitas no vieron ninguna figura (Dt. 4:15). De la misma manera sucede con las expresiones antropomórficas que hallamos especialmente en las primeras páginas de la Biblia y en los libros poéticos, que deben tomarse como lo que son: figuras de lenguaje que se acomodan a nuestro vocabulario, y que nos ayudan a comprender de manera más exacta cómo es Dios. Mediante la Encarnación, Dios nos dio en Su Hijo una imagen a la vez perfecta y concreta de Sí mismo (Jn. 1:14, 18; Col. 1:16). (F) y (G) Dios es misericordioso y justo.
+
+(Sal. 33:4, 5; 103:6-8; 145:17; He. 2:17; 1 Jn. 2:1). Estos dos atributos son mencionados juntos en muchas ocasiones en las Escrituras, y no sin razón, ya que se complementan el uno al otro. Sin misericordia, la justicia sería implacable, y todos los hombres estarían perdidos; sin justicia, la misericordia sería una indulgencia culpable hacia el pecado, y el universo se hundiría en la anarquía. En Su misericordia, Dios ha tenido compasión del pecador, pero en Su justicia solamente le salva quitando de sobre él sus pecados. La importancia de estos dos atributos aparece de manera particular en el texto de Éx. 34:4, 6, donde Dios mismo los menciona, al proclamar cómo Él es. Hallan su expresión suprema en la cruz. El Señor quiere comunicarlos a aquellos que son Suyos(Lc. 6:36; 1 Jn. 3:7).
+
+(H) Dios es santo.
+
+(Jn. 17:11; Hch. 4:27; Jn. 14:26). Los textos que declaran esta realidad del ser de Dios son tan 301 numerosos que sería prolijo enumerarlos todos. El término «santo» significa «separado», «puesto aparte». Dios se distingue radicalmente de los hombres pecadores. En el AT, la santidad de Dios se hacía patente en la distancia que mantenía entre Sí y los hombres. Sólo los sacerdotes podían ofrecer los sacrificios. El lugar santísimo era accesible solamente al sumo sacerdote, una vez al año (Lv. 16:2). Las víctimas debían ser intachables (Lv. 22:20; Mal. 1:13, 14). Estaba prohibido mirar el arca, y con mayor razón tocarla (1 S. 6:19; 2 S. 6:6, 7). No se puede ver el rostro del Señor, y seguir vivo (Éx. 33:20). Esta santidad exterior debe ser ilustración de la santidad moral de Dios, Su horror hacia el pecado y Su perfección en el bien. Exige la santidad de los adoradores (Lv. 19:2). En el NT, la santidad de Dios se manifiesta por la santidad perfecta del Señor Jesucristo (Jn. 8:46; 14:30) y sobre todo por el sacrificio de la cruz (He. 9:22). En el NT hay también la consecuencia que los redimidos son santos por su pertenencia a Dios, y que deben comportarse de una manera consiguiente en su conducta por la acción del Espíritu Santo (1 Co. 3:17; 2 Co. 3:18; 1 P. 1:15).
+
+(I) Dios es amor.
+
+(1 Jn. 4:8; Gá. 2:20; 2 Ti. 1:7). Es este atributo que puede ser considerado tanto en Dios como en nosotros como el vínculo de la perfección (Col. 3:14). Este amor es el motivo último de las actividades divinas. Más allá no hay nada. Une entre sí a las Personas de la Trinidad (Jn. 5:20; 14:31). Explica la elección de Israel (Dt. 7:6-8) dentro de una intención misericordiosa hacia todas las naciones (Gn. 12:3). Se extiende hacia el mundo y se manifiesta por el don del Hijo unigénito y Su muerte por los inicuos (Jn. 3:16; Ro. 5:8; 1 Jn. 4:9, 10). Implica que los redimidos quedan, a su vez, llenos de amor, primero hacia Dios (Mt. 22:37) y por ello hacia sus hermanos (1 Jn. 4:11), e incluso para sus enemigos (Mt. 5:44).
+
+nom, DIOS (Nombres)
+
+tip, DOCT CRIT
+
+ver, DIVINIDADES PAGANAS, PENTATEUCO, EJÉRCITO DE LOS CIELOS vet,
+
+Se rendía una veneración muy particular al «nombre de Dios» en Israel (Éx. 20:7; Dt. 5:11). Ello se debe a que este nombre, objeto del mayor de los respetos por parte de todos los creyentes, era para los israelitas como la misma persona del Señor. En Éx. 23:20, se dice del ángel que manifestaba Su presencia que el nombre de Jehová estaba en él, lo que significa que Dios estaba en él. En Dt. 12:11 leemos que en el país de Canaán Dios se reservará un lugar donde morará Su nombre. En otros pasajes, el nombre de Dios viene a ser sinónimo de Su presencia, p. ej., Sal. 20:2: «Jehová te oiga en el día de la angustia; el nombre del Dios de Jacob te defienda.» Así se explica el hecho de que entre los principales pecados condenados en el Decálogo figure aquel que consiste en «tomar el nombre de Dios en vano». Esta veneración del nombre inefable de Dios (Jehová) llega entre los judíos hasta extremos rayanos en la superstición. Se llegó a ni osar pronunciar este nombre, y a prohibir su utilización, e incluso a castigar con la muerte a los mismos rabinos que, por error, lo llegaban a pronunciar públicamente. Se excluyó la lectura del nombre, ya que no el nombre mismo, del texto sagrado. Sobre las cuatro consonantes del nombre, o tetragramatón, se colocaron vocales (las del vocablo «Adonai», Señor), de manera que en todas las ocasiones que al leer la Torá se hallaba el nombre de Jehová, se pronunciaba «Adonai». En el NT se halla el nombre empleado en el sentido particular que se ha estado señalando. Es 302 evidente que «creer en el nombre» de Jesús (1 Jn. 5:13) es creer en Jesús mismo. El pedir a Dios que Su nombre «sea santificado» es orar para que se reconozca y respete la santidad del mismo Dios (cp. el lugar que toma el «nombre» en Hechos 3:16; 4:10, 12, 17, 30; 5:28, 40; 8:12, 16; 9:15-16, 28; 10:43; 19:17; 21:13; 26:9).
+
+Los nombres dados a Dios en la Biblia dicen cómo es Dios. Y lo dicen indudablemente mucho mejor que todos los comentarios que puedan hacerse de Su persona.
+
+(a) ELOHIM.
+
+Elohim es ciertamente una de las designaciones más antiguas del Dios de la Revelación. Se halla en los relatos bíblicos de la creación y de la época patriarcal. Sólo la Biblia conoce este término. Es cierto que tenía un origen semítico: en las lenguas cananea y caldea Dios se llamaba El. Indudablemente, se había preservado el antiguo nombre de Dios dado en la revelación original, conocida por Noé, pero que quedó posteriormente rodeado de conceptos paganos. Así, Abraham y sus descendientes retomaron el nombre de El en su sentido originario, desvinculado de connotaciones paganas, para designar a Dios. En Israel, este nombre asume un carácter más particular, viniendo a ser el nombre propio del Dios único e incomparable. Es así que se acompaña siempre con un adjetivo que destaca un aspecto una virtud del mismo Dios El Shaddai (Dios Todopoderoso Gn. 17:1), El Elión (Dios Altísimo Gn. 14:18), El Olam (Dios eterno Gn. 21:33), El Ganna (Dios celoso Éx. 20:5), El Hai (Dios viviente Jos. 3:10). De todas maneras se usa preferentemente la forma plural Elohim. Ciertos críticos han sostenido que al ser Elohim un plural ello constituye prueba del politeísmo de los antiguos hebreos. Sin embargo, la prueba de que esto es una falsa acusación la tenemos en los adjetivos que acompañan al término Elohim de la Biblia, y que se hallan siempre en forma singular. Así, en Gn. 1:1 se dice, no que Elohim (los dioses) crearon, sino: Elohim creó (bórá). En realidad la forma plural de Dios en la Biblia evoca un sentimiento de reverencia. Es un plural mayestático, el nombre que sintetiza todas las perfecciones divinas. Al mismo tiempo, insinúa la presencia de una pluralidad de personas en el seno de la deidad. Cp. igualmente los consejos en el seno de Dios: «Hagamos al hombre...» (Gn. 1:26) y «He aquí el hombre es como uno de nosotros» (Gn. 3:22). Elohim se deriva de una raíz que significa «ser fuerte, poderoso». Este nombre del Dios poderoso conviene particularmente al Creador de Génesis 1, donde se emplea constantemente. Aparece 2.312 veces en el AT.
+
+(b) JEHOVÁ.
+
+Éste es el nombre más empleado en el AT (6.499 veces). En castellano se transcribe en esta forma. No se trata de un sustantivo, sino de un calificativo que, en hebreo, se presenta en forma de un tetragrama: YHVH. Éste es el nombre inefable, que los judíos no tenían derecho alguno a pronunciar, y que debían sustituir en la lectura del texto sagrado por Señor (mi Señor, Adonai). Es por esta lectura que los masoretas tuvieron la idea de añadir a las cuatro consonantes YHVH las vocales que pertenecían al sustantivo Señor (Adonai). El lector judío, así, no se equivocaba; sabía que tenía allí dos nombres en uno, uno todo en vocales, el otro todo en consonantes. Más tarde, los cristianos transcribieron erróneamente como «Jehová», dando así en una sola palabra las dos juntas. La verdadera transcripción debiera darse como YªHV'H, o Yahveh. YHVH significa «Aquel que es». En este nombre encontramos a la vez la afirmación metafísica del Ser eternamente presente (Yo soy), que está en el origen y al final de toda existencia, Dios único, incomparable, sin limitaciones, y la afirmación moral y espiritual de la fidelidad divina. Yahveh, éste es el Dios que se relaciona con el hombre, y que le quiere dar Su propia vida (la raíz de 303 Yahveh es a la vez ser y vivir). La inmortalidad, la verdad y la fidelidad quedan reunidas en Yahveh. Si «Elohim» destaca un atributo de Dios, el poder, «Yahveh» revela con mayor fuerza Su propia esencia. El uso de este último nombre muestra que se relaciona con el Dios de la redención y del pacto que se revela al hombre para salvarle. Es Elohim, el Creador, quien dijo: «Hagamos al hombre a nuestra imagen» (Gn. 1:26); pero es como Yahveh-Elohim que entra en relación con el hombre a partir de que éste toma su lugar en la escena, advirtiéndole, juzgándole, prometiéndole salvación, revistiéndole de pieles de animales sacrificados (Gn. 2:7, 16; 3:9, 15, 21). Otras expresiones compuestas con el mismo nombre completan esta revelación de la providencia y de la salvación divinas:
+
+(A) «Yahveh-Jireh», Jehová proveerá (Gn. 22:13-14);
+
+(B) «Yahveh-Rafah», Jehová que te sana (Éx. 15:26);
+
+(C) «Yahveh-Nissi», Jehová mi bandera (Éx. 17:15);
+
+(D) «Yahveh-Shalom», Jehová Paz (Jue. 6:24);
+
+(E) «Yahveh-Raah», Jehová mi Pastor (Sal. 23:1);
+
+(F) «Yahveh-Tsidkenu», Jehová nuestra justicia (Jer. 23:6). En verdad, Jehová, el Dios salvador, responde a todas las necesidades de nuestro ser. La teología crítica ha pretendido que el empleo de los dos nombres Elohim y Yahveh denota en el texto bíblico dos autores diferentes, el Elohísta y el Yahvista (sin hablar de otras «fuentes» constantemente puestas al día; véase PENTATEUCO), que hubieran escrito mucho tiempo después de Moisés, y con mucho tiempo entre sí. Pero el argumento basado sobre los nombres divinos no demuestra nada en absoluto: Sólo en Génesis, Elohim aparece 164 veces, y Yahveh 146 veces. ¿Acaso se puede recortar el texto en otros tantos fragmentos? ¿Y qué se va a hacer del nombre Yahveh-Elohim (Jehová Dios), que aparece desde el capítulo 2? ¿Se va a decir también que los otros nombres (Adonai, etc.) revelan cada uno de ellos a un nuevo autor, distinto de los otros? Según los críticos, el nombre de Jehová no hubiera sido revelado más que a partir de Moisés ante la zarza ardiente, puesto que Dios le afirma: «Así dirás a los hijos de Israel: El YO SOY me ha enviado a vosotros» (Yo soy, «Eheieh», ésta es la transcripción de la 1ª persona de Yahveh; «Él» es, tal es el sentido verdadero de Su Persona). El Señor añade, al enviar a Moisés: «Y aparecí a Abraham, a Isaac y a Jacob como Dios Omnipotente, mas en mi nombre JEHOVÁ no me di a conocer a ellos» (Éx. 3:15; 6:3). ¿Qué significa esta declaración, frente a todo lo que hemos afirmado acerca de la presencia de Jehová en todas las páginas del Génesis? Una explicación que se ajusta a la mentalidad oriental acerca de la naturaleza de los hombres es como sigue: El Éxodo es por excelencia el libro del pacto y de la redención. Dios se revela en el Éxodo como nunca lo había hecho a los patriarcas, y ello no solamente a Su pueblo, sino también a los egipcios y a Faraón. El rey exclamó: «¿Quién es Jehová?... Yo no conozco a Jehová» (Éx. 5:2), y la respuesta del Señor vuelve como un proverbio: .... y vosotros sabréis que yo soy Jehová» (Ez. 6:7; 7:5, 17, etc., cp. Ezequiel, donde esta expresión aparece más de 50 veces, p. ej., Ez. 5:13; 6:14, etc.). Así, conocer a Jehová es reconocer Su naturaleza, Su carácter, Su soberanía, Su obra en juicio y salvación.
+
+(c) JEHOVÁ DE LOS EJÉRCITOS.
+
+Jehová de los ejércitos. Expresión frecuentemente empleada en el AT (Is. 54:5; Os. 12:6, etc.), más particularmente en los libros preexílicos (Samuel, Reyes, Salmos, Isaías, Amós). Este nombre compuesto viene a ser sinónimo de Creador todopoderoso, de dominador supremo, de Dueño de todo el cosmos.
+
+304
+
+(d) ADONAI.
+
+Adonai, Señor, Dueño. Este nombre fue también aplicado ya desde el principio al Dios de Israel (Gn. 15:2, 8; 18:3, 27, 30; Éx. 23:17; 34:23); se utiliza 427 veces en el AT, expresando la soberanía de Dios, y por ello el sentimiento de dependencia de la creación, la noción de que el hombre está al servicio de su Creador, a quien pertenece, y a quien debe su existencia como el vasallo a su soberano. (Notemos que el término «adonai» se emplea también para un hombre; p. ej., Abraham es el «Señor» de Sara y de su siervo (Gn. 18:12; 24:9, 10, 12). Moisés, amedrentado ante el servicio al que ha sido llamado, emplea el nombre divino apropiado al decir: «¡Ay, Señor [Adonai]!, nunca he sido hombre de fácil palabra. . . » Y es Jehová [Yahveh] quien le promete Su presencia y ayuda eficaz (Éx. 4:10-17). El término Señor («Kurios») en el NT es el equivalente de «Adonai».
+
+(e) EL SANTO DE ISRAEL.
+
+El Santo de Israel. En el libro de Isaías, Dios es frecuentemente llamado el Santo de Israel, o solamente el Santo, para denotar el Dios de Israel, o el Verdadero Dios (Is. 1:4; 5:19, 24; 6; 40:25, etc.). En Ezequiel, Dios se hace conocer como Jehová, como el Dios poderoso y verdadero, al manifestar Su santidad (Ez. 20:41 ss; 28:22; 36:2 etc. Es preciso señalar que Dios jura por Su santidad, como jura por Sí mismo (Am. 4:2; Sal. 89:36; Gn. 22:16; Éx. 32:13; Jer. 22:5; Is. 45:23).
+
+La santidad parece ser sinónima con la divinidad. La lectura de un libro como Levítico deja al lector convencido de ello. La santidad, considerada en Dios, no resulta ser tanto uno de Sus atributos como Su mismo carácter. A través del AT, los textos en los que se trata la santidad divina expresan a la vez Su inefable pureza, Su horror al mal, su aborrecimiento contra el pecado, al igual que Su gloria, majestad, elevación y Su grandeza supremas. La santidad de Dios está en estrecha relación con Sus celos, Su ira y Su venganza. Su naturaleza celosa (Éx. 20:15) no es nada más que Su santidad en acción (Oehler). En Ez. 38:18, 23 leemos que en Sus celos e ira Jehová ejercerá Sus juicios sobre Israel y que así Él se glorificará y santificará. La venganza de Dios es una consecuencia de Sus celos y de Su ira (Nah. 1:2; Ez. 25:14, 17). Los celos, la ira, y la venganza estallan cada vez que la voluntad de Dios se enfrenta a la oposición de los hombres, cada vez que es menospreciada y desobedecida. Al revelarse como santo, Dios intimaba a Israel que ellos debían ser también santos (Lv. 11:44; 19:2; 20:7, 27; cp. 1 P. 1:16). Esta orden queda, como vemos en la cita de 1 Pedro, reafirmada para los creyentes del Nuevo Pacto.
+
+(f) PADRE.
+
+El NT nos dice que Dios es luz, y que es amor (1 Jn. 1:5; 4:8), pero aquí se trata de Su naturaleza y atributos y no de nombres divinos. La revelación más sublime le da el título que resume para el creyente todos los demás títulos y atributos: el de «Padre». El contenido y sentido de este nombre nos ha sido revelado claramente por Jesucristo, por Sí mismo, por la parábola del hijo pródigo (Lc. 15), el Padrenuestro (Lc. 11); por Su oración sacerdotal (Jn. 17). Y esta revelación nos la ha dado en Su calidad de «Hijo», y con el don total que consumó en el Calvario, donde Dios estaba en Cristo, reconciliando consigo al mundo (2 Co. 5:19). Pero Jehová estaba ya considerado como «Padre» en un sentido nacional, e invocado como tal, desde el mismo AT. Recordemos las incomparables estrofas del profeta Isaías: «Pues tú eres nuestro padre, si bien Abraham nos ignora, e Israel no nos reconoce; tú, oh Jehová, eres nuestro padre; nuestro Redentor perpetuo es tu nombre...» (Is. 63:16; 64:7). Sin embargo, hay más que la 305 idea del Dios que da la existencia a la nación, que la nutre, la protege, y la salva en su territorio (Os. 11:1). Al releer los pasajes en los que los escritores sagrados hablan de las relaciones entre Dios y el hombre, de la indignidad de los pecadores al título de hijos de Dios (Is. 1:2; 30:1-9; Sal. 73:15); y los que atribuyen a Dios el título de «Salvador» (Sal. 106:21; Is. 43:3, 11; 49:26; 60:16; 63:8; Jer. 14:8; Sof. 3:17, etc.). La paternidad divina se revela también en esta noción del Dios-Salvador, que da por segunda vez la vida a Sus hijos. Así, a través de los nombres de Dios, constatamos que la revelación bíblica se mantiene de una manera coherente consigo misma desde sus orígenes, y que a través de las diversas formas de Su Nombre se expresan a la vez el carácter, la identidad, la voluntad, y los actos de Dios.
+
+nom, DIÓTREFES
+
+tip, BIOG HOMB HONT
+
+vet,
+
+Una persona por otra parte desconocida, con gran poder en una iglesia, que gustaba de tener la preeminencia: rehusaba recibir a ciertos hermanos, y expulsaba a otros (3 Jn. 9). Así de tempranamente empezó a manifestarse el espíritu clerical en la iglesia.
+
+nom, DISCÍPULO
+
+tip, OFIC
+
+vet,
+
+Aquel que sigue a un profeta, maestro, etc. es enseñado por él y es partidario de esta enseñanza (cfr. Is. 8:16; Mt. 10:24; Mr. 2:18). Así los doce apóstoles son llamados discípulos (Mt. 10:1), al igual que otro grupo más numeroso de partidarios de Jesús (Jn. 6:66; cfr. Lc. 10:1-12) El encargo de Mt. 18:19 dice literalmente: haced discípulos de todos los pueblos. En los Hechos, hasta 21:16, todos los adeptos (incluso mujeres) son llamados discípulos de Jesús. Muchas normas de los Evangelios que algunos creen que están pensadas solamente para algunos, son, en cambio, válidas para todos los cristianos (Jn. 13:35, por ejemplo).
+
+nom, DISPENSACIÓN
+
+tip, DOCT ESCA
+
+ver, MILENIO
+
+vet,
+
+(gr. «oikonomia»).
+
+Significa literalmente «administración de una casa», una «economía», y de ahí un trato ordenado con los hombres por parte de Dios en la variada administración de Sus caminos en distintos tiempos.
+
+Al examinar las administraciones de Dios con los hombres, podemos señalar el estado de inocencia en Edén, aunque difícilmente participó del carácter de una dispensación. Se dio un mandato a Adán y Eva, con demanda de obediencia, anunciándose la pena si desobedecían. Esto fue seguido por un prolongado período de casi 1.600 años hasta el Diluvio, (un período sin tratos concretos de Dios con los hombres, aunque ciertamente con la promesa del Liberador dada en el Protoevangelio (Gn. 3: 15)). Durante este tiempo los hombres se corrompieron en todos sus caminos, y la tierra se llenó de violencia. Entonces Dios habló al mundo en la persona de Noé, que fue «pregonero de justicia», esperándose en paciencia por su arrepentimiento mientras el arca era preparada (1 P. 3:20; 2 P. 2:15). No mostraron arrepentimiento, y el mundo antiguo pereció. En el mundo postdiluviano Dios estableció el gobierno humano, en tanto que el 306 conocimiento de Dios, como Dios que juzgaba el mal, era dispersado por los descendientes de Noé; se hallan tradiciones del Diluvio por prácticamente todas las tribus y lenguas del mundo. Esto constituye otro testimonio divino. Siguió después la división de la tierra entre varias naciones y tribus, según sus familias y lenguas. Entre éstos prevaleció la ignorancia acerca de Dios (Hch. 17:30), a pesar del testimonio del poder y deidad de Dios, y del testimonio de la conciencia mencionado en Ro. 1-2.
+
+Unos 360 años después del Diluvio empezó la Era Patriarcal con el llamamiento de Abraham, un nuevo trato soberano de parte de Dios; pero esto quedó limitado a Abraham y a sus descendientes.
+
+(a) DISPENSACIÓN DE LA LEY.
+
+La Dispensación de la Ley vino a continuación, que es, estrictamente hablando, el primer sistema públicamente ordenado de los tratos de Dios con los hombres, y administrado por ángeles (Dt. 33:2; Hch. 7:53; Gá. 3:19).
+
+Los oráculos de Dios fueron dados a una nación, a la única nación de toda la tierra que Dios había conocido de esta manera (Am. 3:2). Fue la dispensación de «Haz esto, y vivirás con bendición; desobedece, y recibirás maldición» (cp. Dt. 28). Esta dispensación tuvo tres etapas:
+
+(A) Unos 400 años bajo los Jueces, tiempo en que Dios hubiera sido el Rey de ellos en una teocracia directa, pero en cuyo tiempo cada uno hacía lo que bien le parecía. (B) 500 años como reino bajo reyes.
+
+(C) 600 años desde el cautiverio hasta la venida de Cristo. En relación con ello hubo el testimonio profético: la Ley y los profetas fueron hasta Juan (Lc. 16:16). Durante esta «Dispensación de la Ley» tuvieron su comienzo los Tiempos de los Gentiles con la supremacía política de Nabucodonosor, la cabeza de oro y rey de reyes (Dn. 2:37, 38); siguen corriendo su curso, y continuarán hasta que el Señor Jesús comience Su reinado. (b) DISPENSACIÓN DE LA GRACIA.
+
+La Dispensación de Gracia y Verdad comenzó, después de la predicación de Juan, con la venida de Cristo.
+
+Durante esta economía se predica el Evangelio, la gran Amnistía que Dios ofrece a toda criatura bajo el cielo, y tiene lugar el llamamiento de la Iglesia a separarse para el Señor, extendiéndose este período como intervalo, desde el día de Pentecostés hasta el arrebatamiento de los santos (Hch. 2:1-4; 1 Ts. 4:13-18).
+
+Dios encomendó a Pablo una «dispensación» especial, tanto en lo que respecta al Evangelio, como para cumplir la palabra de Dios por la doctrina de la Iglesia como el cuerpo de Cristo (1 Co. 9:17; Ef. 3:2, 3; Col. 1:25, 26).
+
+(c) DISPENSACIÓN DEL REINO.
+
+La Dispensación del Reino de Cristo sobre la tierra durante el milenio. Recibe también el nombre de «la dispensación del cumplimiento de los tiempos» (Ef. 1:10; Ap. 20:1-6). (Véase MILENIO). Bajo todas estas variadas administraciones se manifiestan la bondad y fidelidad de Dios, y se hace universalmente manifiesto el fracaso del hombre.

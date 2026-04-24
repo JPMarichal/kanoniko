@@ -1,0 +1,32 @@
+{
+  "title": "46 Glorious Things of Thee Are Spoken",
+  "author": "Various",
+  "book": "LDS Hymns",
+  "chapter": 45,
+  "total_chapters": 294,
+  "category": "music",
+  "subcategory": null,
+  "tags": [
+    "music",
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/LDS Hymns - Various authors.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ec1f1937-7be5-4353-a8d7-27dcf39a7252",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various authors'. Classified by title keywords. Original title: 'LDS Hymns'. Attribution pending manual research."
+}

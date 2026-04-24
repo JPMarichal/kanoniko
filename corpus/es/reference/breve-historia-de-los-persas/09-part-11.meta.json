@@ -1,0 +1,33 @@
+{
+  "title": "Part 11",
+  "author": "Jorge Pisa Sanchez",
+  "book": "Breve historia de los persas",
+  "chapter": 9,
+  "total_chapters": 118,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "secular-history",
+    "breve-historia-series",
+    "nowtilus",
+    "persian-history"
+  ],
+  "authority": 15,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Breve historia de los persas - Jorge Pisa Sanchez.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f0bc37cd-1c24-43cf-8c20-603cae2b201d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Serie 'Breve Historia' (Ediciones Nowtilus Spanish popular history). Material secular no-SUD para referencia comparativa. Archivado desde el lote 2026-04-23."
+}

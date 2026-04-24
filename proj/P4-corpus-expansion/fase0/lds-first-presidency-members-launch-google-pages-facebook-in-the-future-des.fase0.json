@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "deseret-news",
+    "article",
+    "unclear-attribution"
+  ],
+  "category": "web",
+  "author": "Various",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Various'. Classified by title keywords. Original title: 'LDS First Presidency members launch Google+ pages, Facebook in the future | Deseret News'. Attribution pending manual research."
+}

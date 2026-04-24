@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "general",
+  "tags": [
+    "book-of-mormon-figure",
+    "biographical",
+    "unclear-attribution"
+  ],
+  "category": "reference",
+  "author": "(unknown)",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'Accent on Mormon Beliefs - The Message of Amulek'. Attribution pending manual research."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "general",
+  "tags": [
+    "book-of-mormon-figure",
+    "biographical",
+    "unclear-attribution"
+  ],
+  "category": "reference",
+  "author": "(unknown)",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'Alma 10:1-12 Amulek begins to speak - LDS Social Network Forums'. Attribution pending manual research."
+}

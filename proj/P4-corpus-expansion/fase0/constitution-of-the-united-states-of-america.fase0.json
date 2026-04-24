@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "general",
+  "tags": [
+    "us-constitution",
+    "secular",
+    "historical-document",
+    "unclear-attribution"
+  ],
+  "category": "reference",
+  "author": "(unknown)",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='No specific author'. Classified by title keywords. Original title: 'Constitution of the United States of America'. Attribution pending manual research."
+}

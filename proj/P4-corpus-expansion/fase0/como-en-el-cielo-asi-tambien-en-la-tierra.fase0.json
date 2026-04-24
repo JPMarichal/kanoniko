@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "family",
+    "devotional",
+    "apostle-authored",
+    "co-authorship",
+    "holland",
+    "patricia-holland"
+  ],
+  "category": "books",
+  "author": "Jeffrey R. Holland & Patricia T. Holland",
+  "source_url": null,
+  "note": "Folleto/libro ES co-autoria Jeffrey R. Holland y Patricia T. Holland (su esposa). Charlas devocionales sobre vida, familia y fe. Patricia sirvio como Counselor en la YW General Presidency."
+}

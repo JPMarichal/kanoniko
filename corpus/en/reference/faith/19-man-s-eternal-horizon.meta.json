@@ -1,0 +1,31 @@
+{
+  "title": "Man's Eternal Horizon",
+  "author": "(unknown)",
+  "book": "Faith",
+  "chapter": 19,
+  "total_chapters": 19,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Faith - No specific author.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4b51830d-820d-474f-bc1a-08539de010b6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='No specific author'. Classified by title keywords. Original title: 'Faith'. Attribution pending manual research."
+}

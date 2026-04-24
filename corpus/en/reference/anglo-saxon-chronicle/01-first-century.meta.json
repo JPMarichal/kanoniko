@@ -1,0 +1,31 @@
+{
+  "title": "First Century",
+  "author": "(unknown)",
+  "book": "Anglo-Saxon Chronicle",
+  "chapter": 1,
+  "total_chapters": 12,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Anglo-Saxon Chronicle - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4ad60670-a814-41c9-bb2c-aadc972b47d0",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'Anglo-Saxon Chronicle'. Attribution pending manual research."
+}

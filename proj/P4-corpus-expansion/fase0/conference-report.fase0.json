@@ -1,0 +1,19 @@
+{
+  "authority": 60,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "general-conference",
+    "conference-report",
+    "historical-record",
+    "unclear-attribution"
+  ],
+  "category": "history",
+  "author": "Various",
+  "source_url": null,
+  "note": "Lot epub with OPF creator='Various authors'. Classified by title keywords. Original title: 'Conference Report'. Attribution pending manual research."
+}

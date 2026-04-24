@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "book-of-mormon",
+    "apostle-authored",
+    "deseret-book",
+    "holland"
+  ],
+  "category": "books",
+  "author": "Jeffrey R. Holland",
+  "source_url": null,
+  "note": "1997 Deseret Book. Holland's christological treatise on the Book of Mormon as witness of Christ. Written after his 1994 Q12 call; one of his most-cited single-volume works. authority=40 (GA private)."
+}

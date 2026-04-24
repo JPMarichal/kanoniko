@@ -1,0 +1,31 @@
+{
+  "title": "Part 5",
+  "author": "(unknown)",
+  "book": "BOM Compendium",
+  "chapter": 4,
+  "total_chapters": 38,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/BOM Compendium - Desconocido.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d7b6a8be-9034-41fb-a710-d3ec79258174",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'BOM Compendium'. Attribution pending manual research."
+}

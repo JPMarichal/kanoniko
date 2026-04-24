@@ -1,19 +1,18 @@
 {
-  "authority": 60,
+  "authority": 40,
   "rigor": 60,
   "importance": "importante",
-  "official": true,
+  "official": false,
   "current": true,
-  "context": "manual",
+  "context": "book-private",
   "audience": "general",
   "tags": [
     "music",
-    "correlated",
-    "ijcsud",
-    "spanish-translation"
+    "unclear-attribution",
+    "unclear-attribution"
   ],
   "category": "music",
-  "author": "IJCSUD",
+  "author": "Various",
   "source_url": null,
-  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): LDS Hymns. Classification by filename keywords."
+  "note": "Lot epub with OPF creator='Various authors'. Classified by title keywords. Original title: 'LDS Hymns'. Attribution pending manual research."
 }

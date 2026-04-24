@@ -1,0 +1,31 @@
+{
+  "title": "Evangelio de Santiago",
+  "author": "(unknown)",
+  "book": "Evangelio de Santiago",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Evangelio de Santiago - Desconocido.epub",
+  "opf_publisher": "Elejandría",
+  "opf_date": "2023-02-20T00:00:00+00:00",
+  "opf_identifier": "calibre:1578",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Desconocido'. Classified by title keywords. Original title: 'Evangelio de Santiago'. Attribution pending manual research."
+}

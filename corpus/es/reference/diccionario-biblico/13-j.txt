@@ -1,0 +1,865 @@
+593
+
+nom, J
+
+tip, CRIT MANU
+
+ver, PENTATEUCO
+
+vet,
+
+La especulación modernista da el apelativo de «J» a los materiales del Pentateuco que se suponen fueron elaborados por un supuesto «redactor jehovista». Véase PENTATEUCO.
+
+nom, JAACÁN
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «torcedor».
+
+Hijo de Eser, descendiente de Esaú (1 Cr. 1:42), antecesor de la tribu Bene-jaacán, cuyo nombre señala una estación del viaje de los israelitas en su éxodo por el desierto (Nm. 33:31). Había pozos en esa estación (Dt. 10:6) y el pueblo estuvo allí dos veces.
+
+nom, JAAZANÍAS
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «Jehová escucha».
+
+(a) Jefe de unas bandas dispersas del ejército, después del hundimiento de Judá, era hijo de Osaías maacateo. Fue a Mizpa a rendir homenaje a Gedalías, a quien Nabucodonosor había designado gobernador de Judá después de la conquista a Jerusalén (Jer. 40:7, 8). Jaazanías no tomó parte en el asesinato de Gedalías; parece que hizo grandes esfuerzos para apoderarse de los criminales y entregarlos, pero se refugiaron en Moab. Formó parte de los que suplicaron al profeta Jeremías que consultara a Dios si aprobaba el proyecto de emigración del residuo de los israelitas, que querían dirigirse a Egipto (Jer. 42:1). Parece que en Jer. 43:2 el nombre Azarías es una alteración del de Jaazanías o Jezanías (cf. 2 R. 25:23; Jer. 40:7, 8; 42:1; 43:2). (b) Recabita que se negó a beber vino (Jer. 35:3).
+
+(c) Anciano dado a la idolatría (Ez. 8:11).
+
+nom, JABALINA
+
+tip, UTEN EJER
+
+vet,
+
+Arma de tiro, más ligera que la lanza, se llevaba colgada de la espalda (1 S. 17:6, 7); se sostenía en la mano para lanzarla contra un objetivo (Jos. 8:18, 26). El término hebreo es «kîdõn».
+
+Se halla también en 1 S. 17:45; Jb. 39:23; 41:29; Jer. 6:23; 50:42.
+
+nom, JABES
+
+tip, BIOG CIUD HOMB HOAT
+
+vet,
+
+= «lugar árido».
+
+(a) Padre de Salum rey de Israel (2 R. 15:10, 13, 14).
+
+(b) Príncipe de Judá (1 Cr. 4:9-10).
+
+(c) Ciudad de Judá cercana a Belén, residencia de escribas (1 Cr. 2:55).
+
+594
+
+nom, JABES DE GALAAD
+
+tip, CIUD
+
+ver, DAVID, SAÚL
+
+sit, a2, 543, 129
+
+vet,
+
+Ciudad de Galaad, situada, se cree, en el lugar llamado Ed-Deir, al este del Jordán. Ed-Deir está sobre el Wadi Yabis, donde parece haber quedado preservado el nombre de Jabes. 32° 23' N, 35° 40' E.
+
+Cuando en la época de los Jueces las tribus lanzaron una campaña contra la tribu de Benjamín por proteger a unos atroces criminales, Jabes de Galaad se abstuvo de enviar a sus guerreros. Por esta indiferencia hacia el pecado nacional Jabes fue destruida al final de la campaña, quedando sólo 400 jóvenes vírgenes, que fueron dadas a 400 supervivientes de la tribu de Benjamín (Jue. 21:8-15). Jabes fue pronto reocupada.
+
+Posteriormente, la ciudad fue salvada de los amonitas por Saúl (1 S. 11:1-11). Cuando Saúl y sus hijos fueron muertos en la batalla de Gilboa contra los filisteos, los valientes de Jabes de Galaad recuperaron sus cuerpos y los enterraron (1 S. 31:11-13), acto por el cual fueron alabados por David (2 S. 2:4, 5). (Véanse DAVID, SAÚL).
+
+nom, JABÍN
+
+tip, BIOG REYE HOMB HOAT
+
+ver, JAEL
+
+vet,
+
+= «Él (Dios) percibe».
+
+(a) Rey cananeo de Hazor de Galilea y de las ciudades dependientes. Jabín fue el jefe de la liga de reyes del norte y centro, que Josué venció en las aguas de Merom. Después de la batalla, los israelitas tomaron Hazor, incendiándola, y dando muerte a su rey (Jos. 11:1-14). (b) Otro rey cananeo, que reinó también sobre Hazor; probablemente descendía del anterior (Jue. 4:2). También encabezaba una coalición de reyes (Jue. 5:19), y oprimió a los israelitas durante veinte años. Finalmente, Débora y Barac vencieron a Sísara en el torrente de Cisón. Sísara fue muerto por Jael, una mujer (véase JAEL). La guerra prosiguió hasta la destrucción de Jabín (Jue. 4:17-24).
+
+nom, JABOC
+
+tip, RIOS
+
+sit, a2, 568, 259
+
+vet,
+
+Afluente del Jordán por su vertiente oriental. Jacob lo vadeó al volver de Mesopotamia (Gn. 32:22). Nace cerca de Rabá de Amón (la actual Amán). De allí fluye por más de 19 Km. hacia el noreste, virando después hacia el noroeste, manteniendo esta dirección durante 24 Km. Después corre por unos 27 Km. por un valle que separa Galaad de Amón. Desemboca en el Jordán a unos 69 Km. al sur del mar de Galilea y a 37 al norte del mar Muerto. El Jaboc se llama en la actualidad Nahr ez-Zerkã.
+
+Considerado en el pasado como frontera, el Jaboc separaba a los amonitas del reino de Sehón el amorreo, y más tarde de la tribu de Gad.
+
+nom, JABÓN
+
+595
+
+tip, COST MATE
+
+vet,
+
+No se trata del cuerpo grasoso que conocemos como jabón. Los términos hebreos «bor» y «borith» (lo que limpia) denotan un álcali.
+
+Era empleado para lavarse (Jb. 9:30; Jer. 2:22), para limpiar las vestimentas (Mal. 3:2) y para fundir los minerales (Is. 1:25).
+
+Las versiones gr. optaron por usar el nombre de una sustancia extraída de un vegetal, «poa», hierba, planta herbácea.
+
+En Palestina se emplea la raíz de saponaria («Saponaria officinalis») para lavar los tejidos, porque con ella no se encogen.
+
+El álcali que se usaba por la fusión de metales se obtenía de las cenizas de dos variedades de saponaria («Salicorn¡a fructicosa» y «Salsola kali»).
+
+Todavía en la actualidad son reducidas a cenizas para obtener sosa.
+
+nom, JACINTO
+
+tip, PIED
+
+ver, PIEDRAS PRECIOSAS
+
+vet,
+
+(gr. «hyakinthos»).
+
+En la Biblia denota una piedra preciosa de un color intensamente púrpura. En Ap. 9:17 los jinetes tienen corazas de fuego, jacinto (cf. RVR 77) y azufre. El jacinto constituye el undécimo fundamento de la Jerusalén celestial (Ap. 21:20). También aparece en varios pasajes del AT en la LXX, en Éx. 28:19; 39:12, formando parte de la tercera hilera del pectoral del sumo sacerdote. En Est. 1:6, en una exhibición de lujo del monarca de Persia.
+
+Véase PIEDRAS PRECIOSAS.
+
+nom, JACOB
+
+tip, BIOG TIPO ARQU HOMB HOAT
+
+ver, DÉBORA, ISRAEL, NUZU
+
+vet,
+
+Etimología: «Aquel que toma por el talón; que suplanta.» Hijo de Isaac y de Rebeca, y hermano mellizo de Esaú, alumbrado después de este último y, por ello, considerado como menor (Gn. 25:21-26). Isaac tenía 60 años al nacimiento de sus hijos (Gn. 25:26). A Jacob le encantaba reposar en las tiendas, siendo de naturaleza apacible (Gn. 25:27). Era el favorito de su madre, en tanto que su padre prefería a Esaú (Gn. 25:28). Sin embargo, antes de que ambos nacieran, Dios había dicho «el mayor servirá al menor» (Gn. 25:23), dando así Su promesa a Jacob. Un día, viniendo Esaú exhausto y hambriento después de cazar, Jacob, que se había preparado un potaje de color rojo, antes de dárselo a su hermano le hizo jurar que le cedería el derecho de primogenitura (Gn. 25:29-34). Así, Jacob no esperó a la intervención divina, sino que se mostró dispuesto a recurrir a cualquier argucia y fraude para procurárselo por sí mismo, no creyendo que Dios al final movería todo conforme a Su voluntad si esperaba en Él (cf. Gn. 48:14-20). Siguió un acto fraudulento. Isaac era viejo y casi ciego. Rebeca convenció a Jacob para que se vistiera con ropas de Esaú, y que se cubriera el cuello y las manos con pieles de cabritos, porque Esaú era mucho más velludo que Jacob, para hacerse pasar por su hermano. Así obtendría de Isaac, que pensaba que se estaba muriendo, la bendición 596 que correspondía al derecho de primogenitura. Cuando Esaú descubrió lo que Jacob había hecho, se lamentó violentamente de haberse dejado arrebatar su derecho por su hermano. Esaú resolvió matar a su hermano cuando su padre muriera (Gn. 27:1-41). Rebeca oyó estas amenazas y, con la esperanza de que la cólera de Esaú se enfriara con la ausencia, hizo partir a Jacob, con el pretexto de ir a buscar una esposa para sí, a Harán, donde vivía su familia. Durante el viaje, Jacob tuvo una visión de noche: una escalera comunicaba la tierra con el cielo, con ángeles que bajaban y subían, y el Señor le prometió todas las bendiciones del pacto (Gn. 27:42-46; 28:1-22). Jacob moró al menos 20 años en Padán-aram. Al servicio de Labán, trabajó al principio catorce años para que Labán le diera sus dos hijas en matrimonio, Lea y Raquel; después trabajó durante seis años para conseguir ganados. Tuvo once hijos durante su estancia en Harán, seis con Lea: Rubén, Simeón, Leví, Judá, Isacar y Zabulón, además de una hija, Dina; con Bilha, sierva de Raquel, dos: Dan y Neftalí; con Zilpa, sierva de Lea, dos: Gad y Aser; y, finalmente, uno con Raquel: José (Gn. 29-30). Este último nació cuando Jacob tenía 90 o 91 años (cf. Gn. 47:9 y Gn. 41:46, 47, 54; 45:11).
+
+Seis años después, viendo que Labán y sus hijos, envidiándole, se habían indispuesto con él, Jacob huyó. Mientras guardaba sus rebaños, probablemente a tres días de Harán (Gn. 30:36; 31:22) a orillas del Éufrates, envió a buscar a sus mujeres (Gn. 31:4), cruzó el río, y emprendió la marcha, con su familia y bienes, en dirección a Canaán (Gn. 31:21). Labán se lanzó en persecución de los fugitivos, alcanzándolos en el monte Galaad, indudablemente entre el Yarmuk y el Jaboc, a unos 500 Km. del Éufrates, al cabo de diez días, al menos, de la partida de Jacob, pero muy probablemente más tiempo, debido a que Jacob no podía hacer marchar sus rebaños y familia a mucha velocidad. Dios protegió a Jacob advirtiendo a Labán, y los dos clanes enemistados llegaron a la reconciliación y celebraron un pacto. Erigieron un monumento de piedras, y sellaron su pacto con una comida común, estipulando que ninguno de los dos clanes rebasaría aquel lugar para atacar al otro (Gn. 31:51).
+
+Dios se manifestó a Jacob en un lugar que el peregrino llamó Mahanaim. Y en el vado del Jaboc, un hombre estuvo luchando con Jacob hasta la mañana, y, no pudiendo vencerlo, tocó el encaje de su muslo, descoyuntándolo. Antes de dejarlo, el desconocido bendijo a Jacob con estas palabras: «No se dirá más tu nombre Jacob, sino Israel; porque has luchado con Dios y con los hombres y has vencido». Jacob dio a este lugar el nombre de Peniel (el rostro de Dios) «Vi a Dios cara a cara y fue librada mi alma» (Gn. 32:22-32 cf. Gn. 33:20; Os. 12:5). Este fue el momento crítico de la vida de Jacob. Hasta entonces había confiado en su propia fuerza y estratagemas, aprendió ahora que su energía no podía prevalecer contra Dios y que debería someterse recurriendo a la oración para obtener la bendición, y no ir más allá. Desde entonces, se hace frecuente alusión a la adoración que Jacob ofrece al Señor. Antes de cruzar el Jordán, Jacob, tanto tiempo desterrado por sus acciones mezquinas con respecto a Esaú, volvió a encontrarse con su hermano, que lo perdonó. Otra vez se separaron, volviendo Esaú al monte Seir, y dirigiéndose Jacob hacia Canaán (Gn. 33:1-18). Jacob plantó sus tiendas en Canaán, en Siquem. Allí compró un terreno para establecer su campamento, y allí erigió un altar al Señor (Gn. 33:18-20). Es en Siquem que el hijo del rey de la ciudad forzó a Dina, hija de Jacob. Simeón y Leví, dos de los hijos de Jacob, y hermanos de padre y madre de Dina, ejecutaron una terrible venganza, atacando la ciudad después de haber reducido a la indefensión a sus habitantes mediante un engaño (Gn. 34:13-26). Los otros hermanos se unieron a Leví y Simeón en el saqueo de la ciudad. Jacob, que no había tenido arte ni parte en este hecho, temió profundamente sus posibles consecuencias. Buscó a Dios, e hizo desaparecer de su familia todos los ídolos e impurezas, y el Señor mismo le protegió (Gn. 34:30- 597 35:5). Parece que desde entonces Siquem fue considerada propiedad de Jacob (Gn. 48:22; cf. Gn. 37:12). De allí, Jacob se dirigió a Bet-el. Débora murió allí, y allí fue sepultada (Gn. 35:6-8); véase DÉBORA (a). Dios, que se había aparecido a Jacob en este lugar cuando se dirigía a Padán-aram, volvió a aparecérsele en el mismo lugar (Gn. 35:9; 28:10-22). Confirmó el cambio del nombre de Jacob al de Israel, renovando las promesas del pacto hecho con Abraham. Durante el viaje a Hebrón, Raquel dio a luz, cerca de Belén, al duodécimo y último hijo de Jacob, Benjamín. Raquel, la esposa a quien tanto había amado Jacob, murió en el parto (Gn. 35:9-20). Finalmente, Jacob se reunió con su padre en Mamre (Gn. 35:27). Isaac murió unos 23 años más tarde. Esaú y Jacob se reunieron para sepultarlo (Gn. 35:28, 29). Parece que Jacob se detuvo en Mamre 33 años, porque llegó a Hebrón 10 años después de su vuelta a Palestina (Gn. 37:14; cf. 37:2), y es evidente que seguía allí cuando José lo mandó llamar para que fuera a Egipto (Gn. 46:1). Jacob tenía 130 años cuando se dirigió a Egipto (Gn. 47:9), y vivió todavía 17 años. Su primera bendición especial fue para los hijos de José, después bendijo a sus propios hijos, y murió a la edad de 147 años (Gn. 47:28; 48:49). Su cuerpo fue embalsamado y transportado solemnemente a Canaán, siendo sepultado en la cueva de Macpela (Gn. 50:1-14). Jacob cometió faltas notorias, por las cuales fue severamente castigado bajo la mano de Dios, y en su vejez sufrió intensamente por la pérdida de José. Al final de su vida reconoció, al menos de manera tácita, que el comienzo de su carrera había quedado ensuciado por el pecado, y que no había sido íntegro delante de Dios; en el momento de morir, hace clara mención de la gracia de Dios (Gn. 47:9; 48:15-16). Jacob mostró, durante su vida y también durante sus últimos días, una fe inquebrantable en el Señor (Gn. 48:21: He. 11:21). Es el ejemplo por excelencia del creyente carnal, con numerosos defectos, que es tratado de una manera plena por la disciplina de Dios, y llevado a una dependencia total de Él. También figura como tipo de la predestinación (Ro. 9:11-13), y su nombre entra en la mención de los héroes de la fe (He. 11:21). El Señor mismo no se avergüenza de llamarse el «Dios de Jacob» (Éx. 3:6; 4:5; 2 S. 23:1; Sal. 20:2; Is. 2:3), o «el Fuerte de Jacob» (Sal. 132:2). El Señor Jesucristo afirma explícitamente el lugar de honor que tendrá Jacob en el Reino (Mt. 8:11).
+
+La arqueología ilustra muchos de los rasgos de la vida de los patriarcas, en particular la de Jacob. Según las cartas de Nuzi (véase NUZU), descubiertas entre 1925 y 1941 en el sureste de Nínive, era posible transferir a otra persona el derecho de primogenitura; se cita en ellas un caso cuyo pago fue de tres barcos. Por otra parte, en estos documentos se ilustran las relaciones familiares entre Labán y su yerno (Gn. 31:29). En Nuzi se conocían terafines parecidos a los que Raquel hurtó a Labán (Gn. 31:34). Se trataba de dioses del hogar, poseídos por el cabeza de familia; en el caso de una hija casada, su posesión daba al marido el derecho a la propiedad del suegro (Gordon, «Revue Biblique», 44, 1935, págs. 35ss). Debido a que Labán tenía hijos varones, el hurto de los terafines representaba un daño grave.
+
+En las Escrituras se da frecuentemente al conjunto de los hebreos, descendientes de Jacob, el nombre de «hijos de Israel» (Éx. 14:16, 29; 15:1, etc.). Los profetas, en sus pasajes poéticos, citan frecuentemente en paralelo los nombres de Jacob e Israel (Dt. 33:10; Is. 43:1, 22; 44:1). Véase ISRAEL.
+
+nom, JACOB (POZO)
+
+tip, RIOS
+
+ver, DÉBORA, ISRAEL, NUZU
+
+vet,
+
+(hoy, «bir 'jaqub»).
+
+En Jn. 4 se menciona el pozo de Jacob como lugar de la conversación entre Jesús y la samaritana. 598 Desde el siglo IV d.C. se señala su ubicación; este lugar está hoy cubierto por las ruinas de una iglesia del tiempo de los cruzados.
+
+nom, JACOBO
+
+tip, BIOG HOMB HONT
+
+ver, SANTIAGO
+
+vet,
+
+Forma griega del nombre Jacob, que en castellano se traduce también por Santiago y Jaime. Varios personajes del Nuevo Testamento se llaman así.
+
+(Véase SANTIAGO.)
+
+nom, JADÚA
+
+tip, BIOG SACE HOMB HOAT
+
+vet,
+
+= «conocido».
+
+Nombre propio; entre los personajes bíblicos que lo llevaron los principales son: (a) el hijo de Jonatán, el último sumo sacerdote del Antiguo Testamento mencionado en Neh. 12:11.
+
+(b) El que suscribió el pacto con Nehemías (Neh. 10:21).
+
+nom, JAEL
+
+tip, BIOG MUJE MUAT
+
+vet,
+
+= «cabra silvestre».
+
+Esposa de Heber ceneo (Jue. 4:17). En su huida de Barac, Sísara, el general del rey cananeo Jabín, fiado en la paz que había entre su rey y Heber, se dirigió hacia la tienda de Jael. Jael lo hizo entrar y le dio leche para aliviar su sed. Cuando Sísara estaba profundamente dormido, le atravesó las sienes con una estaca (Jue. 4:11-22). Débora alabó este hecho de Jael (Jue. 5:6, 24-27). Sísara era enemigo del pueblo de Dios, y había sido instrumento de gravosa opresión durante muchos años. Pero, por otra parte, Jael violó la palabra dada y la hospitalidad sagrada. El mismo Josué se vio atado por su tratado con los gabaonitas, aunque había sido engañado por ellos (Jos. 9:3-27). Dios había profetizado que el Señor vendería a Sísara a manos de mujer. En Su soberanía, Dios usó el ardid traicionero de Jael para destrozar el poderío de Jabín con la muerte de su cruel general. Éste es un caso como otros en el que el fin es conforme a la voluntad de Dios, pero no la manera en que se lleva a cabo. De esta manera, los hijos de Israel tuvieron cuarenta años de desahogo.
+
+nom, JAFET
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «engrandecimiento».
+
+Nombre del menor de los hijos de Noé (Gn. 9:24; 10:21) que, juntamente con su padre, su mujer y los demás familiares de Noé se salvó del Diluvio (Gn. 7:7; 1 P. 3:20). El libro de Génesis dice que Jafet fue el padre de las naciones de Europa (Gn. 10:5). Jafet fue, quizás, el «Japetos» a quien las leyendas griegas representan como progenitor de la 599 raza griega. Sus siete hijos (Gn. 10:2-5; 1 Cr. 1:5) ocuparon con su posteridad el norte de Asia y la mayor parte de Europa. En tiempos posteriores los griegos y los romanos subyugaron partes considerables del Asia meridional (Gn. 9:27).
+
+Entre los pueblos identificados como sus descendientes podemos enumerar: los cimeranos (Gomer),
+
+los escitas (Askenaz),
+
+los medos (Madai),
+
+los eslavos (Mesec),
+
+los jonios (Javán),
+
+los chipriotas (Quitim) y
+
+los habitantes de Rodas (Dodanim).
+
+Bibliografía:
+
+Custance, A. C.: «Noah's Three Sons» (Zondervan, Grand Rapids 1975).
+
+nom, JAFÍA
+
+tip, BIOG HOMB HOAT REYE CIUD
+
+sit, a1, 385, 352
+
+vet,
+
+= «espléndido».
+
+(a) Rey de Laquis, uno de los cinco príncipes amorreos que se unieron a Adonisedec para atacar a Gabaón pero que fueron derrotados cerca de Bet-horón por Josué, que recibió un auxilio milagroso, y fueron muertos en la cueva de Maceda (Jos. 10:3). (b) Un hijo de David que nació en Jerusalén (2 S. 5:16) y del cual no se habla en ninguna otra parte.
+
+(c) Ciudad fronteriza de Zabulón hacia el sur entre Daberet y Get-hefer (Jos. 19:12), ahora Jafa, cerca de Nazaret.
+
+nom, JAH
+
+tip, TITU
+
+vet,
+
+Esta forma del nombre de Dios es frecuente en la poesía hebrea (Sal. 68:5; 89:9). En heb. es «yãh», al que se une a veces la forma completa Yahveh. La forma abreviada «yãh» expresa lo absoluto de la existencia de Dios. Yahveh, que significa «Él es», designa a Dios en su esencia, y en oposición a los falsos dioses (Is. 12:2; 26:4).
+
+nom, JAHAZA
+
+tip, LLAN CIUD
+
+ver, MESA (Estela)
+
+sit, a3, 590, 140
+
+vet,
+
+= «espacio abierto».
+
+Lugar de la llanura de Moab (Jer. 48:21) donde los israelitas derrotaron a Sehón, rey de los amorreos (Nm. 21:23; Dt. 2:32; Jue. 11:20). Jahaza fue asignada a la tribu de Rubén (Jos. 13:18) y separada como ciudad levítica para 600 descendientes de Merari (Jos. 21:36; 1 Cr. 6:78).
+
+Mesa, rey de Moab (Estela de Moab, 18-20, véase MESA [Estela de]), la arrebató a los israelitas; en la época de Isaías y Jeremías era Moab quien poseía este lugar (Is. 15:4; Jer. 48:21, 34). Identificación incierta.
+
+nom, JAIR
+
+tip, BIOG JUEZ HOMB HOAT
+
+vet,
+
+= «él iluminará».
+
+(a) Hijo de Segub y descendiente de Judá, pero llamado «hijo de Manasés» por parte de su madre, hija de Maquir. Conquistó el territorio de Argob con algunas ciudades, y le dio el nombre de Havot-jair (Nm. 32:41; Dt. 3:14; Jos. 13:30; 1 R. 4:13; 1 Cr. 2:22, 23). (b) Galaadita que juzgó Israel durante veintidós años (Jue. 10:3-5); tuvo treinta hijos, y treinta ciudades en tierra de Galaad.
+
+(c) Padre de Elhanán, que dio muerte a Lahmi hermano de Goliat (1 Cr. 20:5); recibe el nombre de Jaare-oregim en 2 S. 21:19.
+
+(d) Un benjamita, padre de Mardoqueo (Est. 2:5).
+
+nom, JAIRO
+
+tip, BIOG FUNC HOMB HONT
+
+vet,
+
+Jefe de una sinagoga, cuya hija el Señor Jesús resucitó (Mr. 5:22; Lc. 8:41).
+
+nom, JAMBRES
+
+tip, BIOG FUNC HOMB HOAT
+
+ver, JANES
+
+vet,
+
+JANES y JAMBRES.
+
+Nombre de los dos magos egipcios que intentaron oponerse a Moisés (2 Ti. 3:8). Esta alusión se refiere a los acontecimientos descritos en Éx. 7:11, 12, 22; 8:3, 14, 15; 9:11. Estos pasajes no dan ni el número ni el nombre de los magos, pero los Targumes y el Talmud hacen alusión a ellos. Son mencionados, uno de ellos o ambos, por Plinio y Apuleyo, que mencionan a Janes y a Moisés como famosos magos de la antigüedad.
+
+Un filósofo pitagórico del siglo II d.C., Numenius, menciona a Janes y Jambres como escribas sagrados de los egipcios (gr. «hierogrammateis»).
+
+nom, JANOA
+
+tip, CIUD
+
+sit, a2, 396, 287
+
+vet,
+
+= «reposo».
+
+Nombre de dos ciudades, una de Neftalí y la otra de Efraín (2 R. 15:29; Jos. 16:6), probablemente las modernas Yanuh.
+
+nom, JAQUÍN
+
+601
+
+tip, CONS BIOG SACE HOMB HOAT
+
+vet,
+
+= «Él establecerá».
+
+(a) Nombre de una de las columnas del templo de Salomón; la otra se llamaba Boaz (esto es, «en Él [Dios] fortaleza»); fueron erigidas por Hiram de Tiro en el pórtico del Templo. Los capiteles estaban adornados con formas de lirio (1 R. 7:15-22).
+
+(b) Nombre de uno de los descendientes de Simeón (Gn. 46:10), llamado también Jarib (1 Cr. 4:24).
+
+(c) Sacerdote del tiempo de Nehemías (Neh. 11:10).
+
+nom, JARIB. Ver JAQUÍN.
+
+nom, JAREB
+
+tip, BIOG REYE HOMB HOAT
+
+vet,
+
+= «disputador».
+
+Rey de Asiria, su nombre no ha sido identificado (Os. 5:13; 10:6). Se cree que Jareb no es un nombre propio, sino un calificativo, un título del rey de Asiria. Hay comentaristas que creen que se deriva del asirio «sharru rabu», «gran rey». Podría tratarse de una alusión a Tiglat-pileser (cf. 2 R. 18:19).
+
+nom, JASER
+
+tip, LIBR
+
+vet,
+
+(LIBRO DE).
+
+El libro de Jaser es mencionado en Jos. 10:13; 2 S. 1:18 y, en la LXX, en 1 R. 8:53. Por lo que se desprende de estas citas, parece que el libro era una recopilación de poemas, que posiblemente irían acompañados de introducciones y explicaciones en prosa. Este libro, que evidentemente era bien conocido, se perdió totalmente. A lo largo de la historia se han presentado varios libros falsos con este nombre.
+
+nom, JASOBAM
+
+tip, BIOG EJER HOMB HOAT
+
+vet,
+
+= «regrese el pueblo».
+
+(a) Jefe de los valientes de David (1 Cr. 11:11; 27:2, 3), probablemente el tacmonita de 2 S. 23:8. (b) Un benjaminita que se unió a David en Siclag (1 Cr. 12:6).
+
+nom, JASÓN
+
+tip, BIOG HOMB HONT
+
+vet,
+
+(gr. «Iasõn», «que cura»; los judíos de tendencia helenizante ponían el nombre de Jasón en lugar del de Josué, Jesúa o Jesús).
+
+Cristiano, pariente de Pablo (Ro. 16:21). Posiblemente sea el mismo que, viviendo en Tesalónica, alojó a Pablo y a Silas en su casa al pasar ellos por aquella ciudad. Los judíos adversarios y cómplices suyos llevaron a Jasón y a otros creyentes ante los magistrados, por 602 haber ofrecido hospitalidad a extranjeros indeseables. Jasón y los demás sólo fueron liberados después de haber pagado una fianza (Hch. 17:5-9).
+
+nom, JASPE
+
+tip, PIED
+
+ver, PIEDRAS PRECIOSAS
+
+vet,
+
+(heb. «yashepheh»; gr. «iaspis»).
+
+No se identifica con el jaspe moderno, que es una variedad opaca del cuarzo de muchos colores diferentes. Se desconoce a qué piedra se refiere la Escritura. Algunos piensan que pueda ser el diamante.
+
+En Ap. 21:11 es descrito «diáfana como el cristal».
+
+Formaba parte del pectoral del sumo sacerdote (Éx. 28:20; 39:13). Una de las piedras de la cubierta del simbólico rey de Tiro en Edén (Ez. 28:13). Aquel sentado en el trono en el cielo «era semejante a piedra de jaspe...» (Ap. 4:3). Es el primer fundamento de la Jerusalén celestial (Ap. 21:19). Véase PIEDRAS PRECIOSAS.
+
+nom, JAVÁN
+
+tip, BIOG LUGA HOMB HOAT
+
+ver, GRECIA
+
+vet,
+
+Cuarto hijo de Jafet y padre de Elisa, Tarsis, Quitim y Dodanim. Javán, territorialmente, se corresponde, en sentido estricto, con Ionia, la civilización griega en Asia Menor, pero pronto pasó a denotar todos los pueblos griegos (cf. Gn. 10:2, 4; 1 Cr. 1:5, 7; Is. 66:19; Dn. 8:21 [heb.: «rey de Javán»];Dn. 10:20; 11:2; Zac. 9:13). En Ez. 27:13 es indudable que el Javán que comerciaba con Tiro es Grecia; pero parece que el v. 19 se refiere a un Javán en el sur de Arabia (heb.: «Vedán y Javán de Uzal»). Véase GRECIA.
+
+nom, JAZER
+
+tip, CIUD
+
+sit, a2, 527, 364
+
+vet,
+
+= «fortificada».
+
+Ciudad y distrito de Galaad. Fue tomada por los israelitas a los amorreos, asignada a Gad, y dada a los levitas (Nm. 21:32; 32:1, 3, 35; Jos. 13:25; 21:39; 1 Cr. 6:81; Is. 16:8, 9). En Jer. 48:32 el «mar de Jazer» parece deberse a la accidental repetición, por un copista, de «mar» en la cláusula anterior.
+
+Judas Macabeo la arrebató a los amonitas y la incendió (1 Mac. 5:7, 8; Ant. 12:8, 1). Aunque ninguna identificación es segura, pudiera tratarse de Beit Zerah, 31° 50' N, 35° 51' E.
+
+nom, JEARIM
+
+tip, MONT
+
+vet,
+
+= «bosques».
+
+603
+
+Cordillera que atravesaba los límites de Judá (Jos. 15:10).
+
+nom, JEBÚS
+
+tip, CIUD LUGA
+
+sit, a2, 347, 474
+
+vet,
+
+El nombre original de Jerusalén bajo el poder de los jebuseos (Jos. 15:63; Jue. 19:10; 1 Cr. 11:4). En comparación con Jerusalén en tiempos de Salomón, el territorio de Jebús era muy pequeño. No obstante, constituyó un fuerte obstáculo para la libre circulación de los israelitas entre Judá y el norte del país, al hallarse estratégicamente situada en la vía de comunicación entre el norte y sur de Palestina.
+
+Su ciudadela vino a ser la fortaleza de Sión (2 S. 5:7; 1 Cr. 11:5).
+
+nom, JEBUSEOS
+
+tip, TRIB
+
+vet,
+
+Descendientes de Canaán, hijo de Cam (Gn. 10:16; 15:21). Poco es lo que se conoce de ellos, sólo que moraban en Jebús. Josué dio muerte a su rey (Jos. 19:23-26) y su territorio fue asignado a Benjamín (Jos. 18:28). Hallándose en la frontera de su tribu, los de Judá se apoderaron de la ciudad y la incendiaron (Jos. 15:8; Jue. 1:8). Pero los jebuseos, o bien se hicieron fuertes en la ciudadela (Ant. 5:2, 2) o bien recuperaron la ciudad después.
+
+Moraban, como extranjeros, entre los hijos de Judá y Benjamín (Jos. 15:63; Jue. 1:21; 19:11). Después de la conquista de David, quedaron jebuseos morando en Jerusalén. Arauna jebuseo poseía el territorio donde más tarde se construyó el Templo (2 S. 24:16, 18; 2 Cr. 3:1).
+
+Salomón sometió a levas para las obras públicas a los jebuseos que habían quedado (1 R. 9:20, 21).
+
+nom, JEDIDÍAS
+
+tip, BIOG REYE HOMB HOAT
+
+vet,
+
+= «amado de Jehová».
+
+Nombre dado a Salomón, en su nacimiento, por Natán el profeta, como prenda especial de que Dios volvía a mirar con favor a David una vez arrepentido después de la muerte del primer hijo de Betsabé (2 S. 12:24, 25).
+
+nom, JEDUTÚN
+
+tip, BIOG SACE MUSI HOMB HOAT
+
+vet,
+
+(hebreo, «elogiador»).
+
+Nombre propio de un levita de los hijos de Merari, director de la música del tabernáculo en tiempo de David, con Hemán el coatita y Asaf el gersonita (1 Cr. 23:6). Su cargo principal era «alzar la voz con címbalos de metal» (1 Cr. 23:19). «Los hijos de Jedutún profetizaban con el arpa» (1 Cr. 25:3, 9), y oficiaron como directores de música en la dedicación del Templo (2 Cr. 5:12), en la purificación del Templo hecha por Ezequías (2 Cr. 29:14), en la 604 Pascua celebrada por Josías (2 Cr. 35:15) y después de la cautividad (Neh. 11:17). El nombre de uno de ellos aparece en el título de los Sal. 39, 62 y 77. Probablemente es el mismo Etán que se menciona en el mismo libro (1 Cr. 15:17).
+
+nom, JEFTÉ
+
+tip, BIOG HOMB HOAT JUEZ
+
+vet,
+
+= «él abrirá, liberará».
+
+Este hombre era galaadita en dos sentidos: su padre se llamaba Galaad, y Jefté pasó su juventud en Galaad. Sus hermanos, nacidos de la esposa legítima de su padre, echaron de casa a Jefté, porque era hijo ilegítimo (Jue. 11:1-3). Se resintió profundamente de este comportamiento. Muchos años más tarde, acusó a los ancianos de Galaad, entre los cuales quizá se hallaban algunos de sus hermanos, de haberle aborrecido (Jue. 11:7). Jefté huyó al país de Tob, donde se dedicó a la caza para vivir. Su valor se hizo proverbial, y llegó a ser jefe de una banda. Sería una falsedad presentarlo como bandolero fuera de la ley, puesto que Jefté no carecía de sentido moral, ni expediciones injustificadas. Tenía reverencia hacia Dios, y así enseñó a su hija.
+
+En la época de la expulsión de Jefté, los amonitas invadieron el territorio de Israel al este del Jordán, y se mantuvieron en él durante 18 años. En su angustia, los ancianos de Galaad se vieron en el extremo de tener que implorar el retorno de aquel mismo hombre que habían expulsado, y de suplicarle además que fuera su caudillo y libertador. Al ponerse a la cabeza de los galaaditas, Jefté informó a los efrainitas, su tribu vecina, del apuro de Galaad, y los exhortó a que socorrieran a sus hermanos, pero sin resultado alguno. Pidió también al rey de los amonitas la razón de su hostilidad. Su respuesta demostró que los israelitas no tenían otro remedio que recurrir a las armas. La victoria era incierta desde el punto de vista humano. Jefté hizo entonces un imprudente voto de ofrecer en holocausto a cualquiera que saliera a recibirle de su casa, si el Señor entregaba en sus manos a sus enemigos. Al volver de la derrota de los amonitas, Jefté fue recibido con panderos y danzas por su hija única. Quedó profundamente afectado, pero no cambió su voto. Es probable que fuera sacrificada. Sin embargo, la Ley prohibía con tanta firmeza estos sacrificios (Dt. 12:31; 18:10; cf. 2 R. 3:27) que se puede estar seguro que en tal caso Jefté no cumplió en esto la voluntad de Dios.
+
+Añadamos que, según numerosos exegetas, pudo haberla redimido con plata (Lv. 27:1-8; Dt. 18:9-12) y consagrado a un celibato perpetuo. Las hijas de Israel adoptaron la costumbre de lamentar cuatro días al año su triste suerte. Aunque no hubiera sido sacrificada, la virginidad perpetua sería una inmensa tragedia para una israelita (cf. Gn. 30:1; 1 S. 1:5, 6, etc.). Estalló entonces un conflicto entre Jefté y los efrainitas que con su soberbia característica se quejaron de no haber sido convocados por Jefté contra Amón (cf. Jue. 8:1-3). Jefté rebatió sus acusaciones, y los derrotó en batalla, haciendo una gran matanza de ellos (Jue. 12:4-6). Jefté fue juez de Israel durante seis años, y fue sepultado en una de las ciudades de Galaad (Jue. 12:7). Samuel hace mención de él para demostrar que el Señor había cumplido Su promesa de suscitar liberadores cuando Israel se hallase oprimido (1 S. 12:11). En la epístola a los Hebreos se halla Jefté entre lo héroes de la fe (He. 11:32).
+
+nom, JEHOVÁ
+
+tip, TITU
+
+ver, DIOS
+
+605
+
+vet,
+
+Transcripción castellana del nombre de Dios dado en la Biblia hebrea por el tetragramatón YHVH.
+
+La pronunciación «Jehová» proviene del hecho de que para la lectura en las sinagogas YHVH se leía «Adonai» (Señor), y que a las consonantes del tetragramatón se habían añadido las vocales de Adonai para recordar al lector el nombre que debía leer. Esta pronunciación, procedente de ciertas corrientes rabínicas, se hizo común a partir de Pedro Galatino, confesor de León X (1518).
+
+Las investigaciones modernas indican que la pronunciación original fue Yahveh. Véanse DIOS, y DIOS (e: nombres). Jehová es la forma que ha quedado consagrada por el uso en las versiones castellanas de la Biblia de Reina-Valera y Moderna, aunque alguna versión reciente, como la Nácar-Colunga, translitera «Yavé»; la versión catalana «deIs Monjos de Montserrat» translitera «Jahvè», y la de la «Fundació Bíblica Catalana» translitera «Jahveh». Otras versiones, como la de Herder, ponen «Señor».
+
+nom, JEHOVÁ DE LOS EJÉRCITOS
+
+tip, DOCT CRIT
+
+ver, DIVINIDADES PAGANAS, PENTATEUCO, EJÉRCITO DE LOS CIELOS vet,
+
+Expresión frecuentemente empleada en el AT (Is. 54:5; Os. 12:6, etc.), más particularmente en los libros preexílicos (Samuel, Reyes, Salmos, Isaías, Amós). Este nombre compuesto viene a ser sinónimo de Creador todopoderoso, de dominador supremo, de Dueño de todo el cosmos. (Véase DIOS (Nombres), EJÉRCITO DE LOS CIELOS).
+
+nom, JEHÚ
+
+tip, BIOG PROF REYE HOMB HOAT
+
+ver, ACAB, SALMANSAR, AMARNA (TELL EL AMARNA) vet,
+
+(sentido prob.: «Jehová es él»).
+
+(a) Benjamita oriundo de Anatot; fue uno de los que se adhirió a David en Siclag (1 Cr. 12:3). (b) Profeta, hijo de Hanani. Pronunció la profecía de juicio contra Baasa y su dinastía, por persistir en la práctica del pecado de Jeroboam I (1 R. 16:1-4, 7). Censuró a Josafat por haber concertado alianza con el impío Acab (2 Cr. 19:2), y escribió memorias relatando los actos de Josafat (2 Cr. 20:34).
+
+(c) Fundador de la cuarta dinastía de los reyes de Israel. Hijo de un cierto Josafat y nieto de Nimsi (1 R. 19:16; 2 R. 9:2). Jehú era un oficial, al servicio de Acab (2 R. 9:25). Al ser rechazados Acab y Jezabel a causa de sus crímenes, Dios ordenó a Eliseo que ungiera a Jehú como rey de Israel (1 R. 19:16-17). Eliseo, sucesor de Elías, envió a un joven profeta para que lo hiciera así y le diera orden de destruir a la casa de Acab. Así lo hizo Jehú, que dio muerte a Joram y a Ocozías nieto de Acab; por orden de Jehú, Jezabel fue echada abajo desde una ventana. Ella había introducido en Israel el culto a Baal, e instigado muchos otros crímenes, entre ellos el de Nabot (2 R. 9:1-37; véase ACAB). Después, Jehú persuadió a los ancianos de Samaria para que dieran muerte a los setenta hijos de Acab (2 R. 9:7-8). Estas acciones, a pesar de su carácter sanguinario, fueron actos de obediencia y la ejecución que le había sido especialmente encomendada de los terribles juicios de Dios sobre la casa de Acab (2 R. 10:30). Pero no se puede decir que su motivo único fuera el de glorificar al Señor, pues no se había entregado de 606 todo corazón a Dios (2 R. 10:31). El profeta Oseas condena sus motivos (Os. 1:4). Jehú hizo dar muerte a los principales oficiales, consejeros y amigos de Acab, y después a los 42 hermanos de Ocozías. Finalmente, convocó a los sacerdotes de Baal y sus adoradores a una gran fiesta a celebrar en honor de su dios; todas las personas que entraron en el templo de Baal fueron masacradas (2 R. 10:12-28). Pero, a pesar de todo, Jehú no siguió la Ley de Jehová, ni abandonó el culto de los becerros de oro de Bet-el (2 R. 10:29, 31). Accedió al trono alrededor del año 842 a.C. Según los documentos asirios, aquel año pagó tributo a Salmansar (véase SALMANSAR), que se había dirigido a Israel para combatir contra Hazael rey de Damasco. En el Obelisco Negro descubierto en Tell Nimrud se representa el pago del tributo por parte de Jehú, cuyo nombre se menciona en la inscripción. Jehú renió 28 años (2 R. 10:36). Hacia el año 821 a.C., el rey, que había envejecido y ya no podía dirigir el ejército, asoció con él en el gobierno a su hijo Joacaz. Fue en época de Jehú que Israel empezó a disgregarse (2 R. 10:32). De esta época parecen ser las cartas de Tell el-Amarna (véase AMARNA)
+
+(d) Hombre de Judá, de la familia de Jerameel (1 Cr. 2:38). (e) Uno de la tribu de Simeón (1 Cr. 4:35).
+
+nom, JERA
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «luna».
+
+Tercer hijo de los trece que tuvo Joctán y progenitor de una tribu árabe (Gn. 10:26; 1 Cr. 1:20); perteneciente a la descendencia de Sem.
+
+nom, JERAMEEL
+
+tip, BIOG SACE FUNC HOMB HOAT
+
+vet,
+
+= «Misericordia de Dios».
+
+(a) Hijo de Hezrón, descendiente de Judá (1 Cr. 2:9-42), tuvo mucha descendencia. (b) Hijo de Cis, descendiente de Merari, levita (1 Cr. 24:29). (c) Hijo de Hamelec y oficial del rey Joacim, recibió orden de prender a Baruc y Jeremías el profeta (Jer. 36:26).
+
+nom, JEREMAI
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «Jah es exaltado».
+
+Israelita al que Esdras persuadió para que dejara a la mujer extranjera que había tomado (Esd. 10:33).
+
+nom, JEREMÍAS
+
+tip, BIOG SACE PROF HOMB HOAT
+
+vet,
+
+«Jehová levanta».
+
+(a, b, c) Nombre de un benjamita y dos gaditas que se adhirieron a David en Siclag (1 Cr. 12:4, 10, 13). (d) Jefe de una familia de la tribu de Manasés, al este del Jordán (1 Cr. 5:24). (e) Hombre oriundo de Libna, padre de Hamutal, la esposa del rey Josías y madre del rey Joacaz 607 (2 R. 23, 30, 31).
+
+(f) Hijo de Habasinías y padre de Jaazanías. recabita (Jer. 35:3). (g) Uno de los principales de los sacerdotes que volvieron de Babilonia con Zorobabel (Neh. 12:1, 7). Una familia patriarcal lleva su nombre a la siguiente generación (Neh. 12:12). (h) Sacerdote, indudablemente jefe de una casa patriarcal; puso su sello al pacto que hicieron los que se mantuvieron separados de los pueblos extranjeros, a fin de seguir la Ley de Dios (Neh. 10:2).
+
+(i) El profeta Jeremías.
+
+Hijo de un sacerdote llamado Hilcías, de Anatot, en el territorio de Benjamín (Jer. 1:1), Jeremías fue llamado mediante una visión al ejercicio del ministerio profético. Era entonces un hombre joven consciente de su falta de madurez, de experiencia y de elocuencia. El Señor extendió Su mano, tocando la boca de Jeremías, y dándole palabras divinas. Le dio poder sobre las naciones y reinos, para arrancar y destruir, arruinar y derribar. pero también para edificar y plantar. El Señor le informó que sería objeto de violenta oposición por parte de los jefes, de los sacerdotes, del pueblo. pero que sus adversarios no prevalecerían sobre él (Jer. 1:4-10). Jeremías comenzó a profetizar en el año decimotercero del reinado de Josías, y siguió haciéndolo hasta la captura de Jerusalén, en el mes quinto del año undécimo de Sedecías (Jer. 1:2, 3). Así, el ministerio público del profeta fue de:
+
+18 años bajo Josías,
+
+3 meses bajo Joacaz,
+
+11 años bajo Joacim,
+
+3 meses bajo Joaquín,
+
+11 años y 5 meses bajo Sedecías, con un total de 41 años. Y después de esto no abandonó su ministerio profético (Jer. 42-44).
+
+Los hombres de Anatot, su ciudad natal, se hallaron entre sus primeros adversarios. Amenazaron matarle si seguía profetizando. Jeremías siguió haciéndolo, a pesar de las persecuciones, pero sufrió cruelmente por la oposición contra la obra del Señor de parte de sus conciudadanos, miembros del pueblo elegido. El profeta se remite al juicio divino (Jer. 11:18-23; 12:3). La hostilidad, iniciada en Anatot, se generalizó, suscitando de nuevo la apelación del juicio de Dios (Jer. 18:18-23; cf. Jer. 20:12). Jeremías permaneció fiel, a pesar de las calumnias y persecuciones. En el cuarto año del reinado de Joacim, Jeremías dictó las profecías que había pronunciado durante los anteriores veinte años; Baruc, el escriba, las escribió en un rollo. Por una razón que no se da, Jeremías tenía prohibido acudir al Templo. Así, dio orden a Baruc que fuera con el rollo a la casa de Dios, y que leyera allí las profecías ante las personas que acudían con ocasión de ayuno. Al final, se acabó mostrando el rollo al rey que, habiendo ordenado que le leyeran algunas columnas, lo rasgó con un cortaplumas, y lo arrojó al fuego (Jer. 36:1-26). El Señor ordenó a Jeremías que inmediatamente dictara un segundo rollo semejante al primero, pero con adiciones (Jer. 36:27-32). Un enemigo de Jeremías, el sacerdote Pasur, que era gobernador del Templo, hizo azotar a Jeremías y ponerlo en el cepo, pero al día siguiente lo puso en libertad (Jer. 20:1-3). Durante el sitio de Jerusalén, las profecías de Jeremías anunciaron la victoria de los caldeos y la cautividad de Judá; las autoridades judías pretendieron no considerarlas desde el punto de vista religioso, sino desde el punto de vista político y militar. Afirmaron que estas sombrías afirmaciones derrotistas desalentaban a los defensores de Jerusalén. Cuando los caldeos levantaron el sitio a fin de ir a presentar batalla a las tropas expedicionarias egipcias que acudían en socorro de Sedequías, Jeremías quiso aprovechar la ocasión para salir de la ciudad y dirigirse 608 a Anatot. Acusado de desertor y de querer pasarse a los caldeos, fue encarcelado (Jer. 37:1-15), donde estuvo mucho tiempo. El rey Sedecías lo hizo sacar y lo dejó estar en el patio de la prisión (Jer. 37:16-21), pero pronto los príncipes lo hicieron echar al fondo de una cisterna vacía, con el fondo lleno de lodo, para dejarlo morir allí (Jer. 38:1-6). Un eunuco etíope se compadeció de Jeremías, y consiguió del rey permiso para sacarlo de allí y devolverlo al patio de la cárcel; allí se encontraba el profeta cuando Jerusalén fue tomada (Jer. 38:7-28). Los caldeos consideraron que Jeremías había sufrido por ellos, y Nabucodonosor dio orden de que se velara por él. Nabuzaradán, habiéndole dado víveres y presentes, lo puso bajo la protección de Gedalías, a quien Nabucodonosor había nombrado gobernador de Judá (Jer. 39:11-14; 40:1-6). Cuando Gedalías fue asesinado por Ismael, Jeremías exhortó a los judíos a que no se dirigieran a Egipto, pero todo fue en vano. Partieron para Egipto, obligando a Jeremías a seguirles (Jer. 41:1; 43:7). Jeremías pronunció sus últimas predicciones en Tafnes, en tierra de Egipto (Jer. 43:8-44:30). No se conocen ni la fecha ni las circunstancias de su muerte.
+
+nom, JEREMÍAS (libro)
+
+tip, LIBR ARQU LIAT
+
+vet,
+
+En sus profecías aparece la vida espiritual del autor. Éste, al anunciar la destrucción de su patria, se atrajo el odio de sus paisanos. La carga de su mensaje le hizo lanzar amargos lamentos, y el mismo deseo de no haber nunca nacido (Jer. 15:10; 20:14-18). Pero el profeta no cejó en su misión. Se halló solo, incomprendido, difamado, perseguido. Sus esfuerzos en favor del bien público se vieron frustrados desde el principio. Jeremías no tuvo ni vida de familia ni amigos (Jer. 16:1-9); frecuentemente detenido, no tuvo otro consuelo que el del Señor. Forzado a refugiarse en Dios, Jeremías comprendió en qué consiste la responsabilidad individual (Jer. 17:9; 31:29, 30). Este profeta nos muestra de manera notable cómo el hombre puede llegar a tener una profunda comunión con Dios.
+
+La predicación de Jeremías desenmascaraba la hipocresía que se anidaba en el sistema religioso, exhortando a la rectitud e integridad. El llamamiento al ministerio profético le vino cinco años antes de que fuera descubierto el libro de la Ley durante las reparaciones del Templo. El rey Josías, profundamente afectado por el mensaje del libro, lanzó una campaña contra la idolatría, restaurando el culto nacional, con lo que la primera parte de la misión de Jeremías consiguió su objetivo. El profeta exhortó al pueblo a que diera oído a las palabras del pacto concertado en el Sinaí. Mostró cómo Dios había hecho caer sobre el pueblo, a causa de sus desobediencias, los mismos males que estaban profetizados en la Ley. Jeremías afirma que la obediencia es la primera condición del pacto (Jer. 11:1-8). Dijo a los israelitas que no se contentaran con las normas externas, sino que dispusieran sus corazones. Jeremías habla en la línea de los antiguos profetas, citando proverbios bien conocidos, y se basa en el pacto celebrado entre Dios e Israel (1 S. 15:22; Is. 1:11-17; Am. 5:21-24; Mi. 6:6-8; Pr. 15:8). Mediante la negación, procedimiento retórico frecuentemente empleado para hacer destacar una antítesis (cf. Dt. 5:3), afirma que no son los sacrificios lo que Dios demanda en primer lugar, sino la obediencia. Evidentemente, el Señor había ordenado los sacrificios (Éx. 20:24; 23:14-19; Dt. 12:6); pero lo que importa es que con ellos haya integridad moral (Jer. 7:21-28; cf. 6:20; 14:12). Los sacrificios del obediente placen a Dios (Jer. 17:24-26; 33:10, 11, 18); pero Él rehúsa los ayunos y holocaustos de aquellos que vagan lejos de Él (Jer. 14:10-12). El contentarse con creer en la presencia de Jehová en el Templo, en medio de Israel, de nada sirve; la jactancia de poseer la Ley de Dios, sin ponerla en práctica, es igualmente ilusorio. El Señor solamente tiene en cuenta la obediencia (Jer. 7:4-7; 609 8:7-9). Para terminar, ya no se hablará más del arca de la alianza (Jer. 3:16). Dios contempla el corazón del hombre (Jer. 11:20; 17:10; 20:12). El servicio de Dios exige que uno se purifique el corazón de todo mal deseo (Jer. 4:4; cf. Dt. 16:10), de maldad (Jer. 4:14); que se vuelva de todo corazón a Jehová, sin reserva ni hipocresías de ningún tipo (Jer. 3:10; 17:5). Jeremías predice que un día Israel recibirá un nuevo corazón, donde será escrita la Ley de Dios (Jer. 24:7; 31:33; 32:39, 40). El profeta describió la gloria del Reino venidero; esta verdad tiene desde entonces uno de los primeros lugares en el pensamiento del pueblo de Dios. Jeremías dictó ciertas de sus profecías bajo el reino de Joacim, pero el rey destruyó el rollo (Jer. 36:1, 23); fueron inmediatamente vueltas a escribir, con importantes adiciones (Jer. 36:32). El libro que poseemos en la actualidad es aún más amplio, por cuanto contiene también las últimas profecías. Es una redacción que hizo el mismo Jeremías al final de su ministerio; reunió textos que pertenecían a diversas épocas, y puso por separado otros que son de un mismo período. Como se puede apreciar, el plan en la redacción de su libro no es cronológico, sino moral. (a) PLAN.
+
+El libro de Jeremías contiene una introducción relatando cómo el joven fue llamado al ministerio (Jer. 1); después vienen tres secciones proféticas, frecuentemente en relación con el acontecimiento que suscita el mensaje (Jer. 2-51). Concluye con un apéndice histórico, que probablemente fue añadido por un escriba posterior, quizá Baruc (Jer. 52; cf. Jer. 51:64). Las tres secciones proféticas comprenden:
+
+(A) Las predicciones relativas al inminente juicio del reino de Judá, y la promesa del recogimiento después del exilio (Jer. 2-33). En esta sección se halla una denuncia contra Judá (Jer. 2-20), acusaciones contra las autoridades civiles y religiosas (Jer. 21-23), la revelación del objeto y de la dureza del castigo (Jer. 24-29; cf. Jer. 25:11; Dn. 9:2) y el anuncio de las bendiciones que seguirán (Jer. 40-44)
+
+(B) El relato del castigo (Jer. 34-44) El profeta denuncia la corrupción que reinaba poco antes de la caída de Jerusalén (Jer. 34-38). Relata la toma de Jerusalén y su destrucción (Jer. 39), el lamentable estado en que quedaron los supervivientes, y las profecías que les fueron dirigidas (Jer. 40-44).
+
+(C) Predicciones relativas a las naciones extranjeras (Jer. 46-51); estas profecías van precedidas de un mensaje a Baruc (Jer. 45).
+
+Aparecen pasajes mesiánicos en Jer. 23:5-8; 30:4-11; 33:14-26; el pacto irrevocable de Jehová con Israel es mencionado en Jer. 31:31-40; 32:36-44; 33. Mateo (Mt. 2:17-18) revela que Jer. 31:15 se aplica también a la matanza de los inocentes. En su cántico, Zacarías hace alusión a una palabra del profeta (Lc. 1:69; Jer. 23:5). El anuncio de un nuevo pacto (Jer. 31:31-34) constituye el tema de He. 8:8-13; 10:15-17 (cf. Lc. 22:20). Al purificar el Templo, Jesús cita a Jeremías (Jer. 7:9-11; Mr. 11:17). El libro del Apocalipsis se inspira patentemente en Jeremías, especialmente en lo tocante a la caída de Babilonia (Jer. 17:10, cf. Ap. 2:23; Jer. 25:10, cf. Ap. 18:22-23; Jer. 51:7-9, 45, 63-64, cf. Ap. 14:8; 17:2-4; 18:2-5, 21). Nunca se ha dudado seriamente de la autenticidad de esta obra. En la LXX, el orden de los caps. es un poco diferente; en particular, los caps. 46 - 51 se encuentran entre los vv. 13 y 14 del cap. 25, y se evidencian varias omisiones (indudablemente debido a una tendencia del traductor a la brevedad).
+
+(b) Confirmación arqueológica.
+
+En Tafnes, el prof. Petrie descubrió las ruinas de la casa de Faraón (Jer. 43:9-10). Ésta tenía una sola entrada, y ante ella se expandía una gran extensión embaldosada, correspondiéndose exactamente con la descripción de Jeremías. En 1935 y 1938 se descubrieron las «cartas de 610 Laquis», escritas sobre tejuelas de barro (ostraka). Los eruditos están de acuerdo en fechar estos fragmentos (alrededor de 90 líneas en hebreo) hacia el final del reinado de Sedecías. Se trata de un profeta cuyo nombre acaba en «iah», y ha podido ser descifrado así: «las palabras del profeta no son buenas... pueden debilitar las manos de...» (cf. Jer. 38:4). Incluso si no figura el nombre de Jeremías, estas cartas reflejan de una manera patente las circunstancias de su época y de su libro.
+
+Bibliografía:
+
+Cawley, F., y A. R. Millard, «Jeremías», en Nuevo Comentario Bíblico (Casa Bautista de Publicaciones, El Paso, 1977);
+
+Graybill, J. F.: «Jeremías», en Comentario Bíblico Moody del Antiguo Testamento (Pub. Portavoz Evangélico, en prep.; hay edición en inglés, Moody Press 1962); Jensen, I. L.: «Jeremías y Lamentaciones» (Pub. Portavoz Evangélico, Barcelona 1979); Kelly, W.: «Notes on Jeremiah», en The Bible Treasury, vol. 7, págs. 3 y ss., enero 1868 a diciembre 1870. (Reimpresión H. L. Heijkoop, Winschoten, Holanda, 1969).
+
+nom, JERICÓ
+
+tip, CIUD ARQU
+
+ver, ÉXODO, PEREGRINACIÓN POR EL DESIERTO, EGIPTO, ÉXODO, FARAÓN, HICSOS, HETEOS
+
+sit, a2, 413, 422
+
+vet,
+
+Importante ciudad del valle del Jordán (Dt. 34:1, 3), en la ribera occidental del río, a unos 8 Km. de la costa septentrional del mar Muerto, y aproximadamente a 27 Km. de Jerusalén. Jericó se halla en la parte inferior de la cuesta que conduce a la montañosa meseta de Judá. La ciudad era conocida como la ciudad de las palmeras (Dt. 34:3; Jue. 3:13); la primera mención en las Escrituras se da en relación al campamento de los israelitas en Sitim (Nm. 22:1; 26:3). La situación de Jericó, ciudad muy fortificada, le daba el dominio del bajo Jordán y de los pasos que llevaban a los montes occidentales; la única manera de que los israelitas pudieran avanzar al interior de Canaán era tomando la ciudad. Josué envió a dos espías para que reconocieran la ciudad (Jos. 2:1-24), el pueblo atravesó milagrosamente el Jordán en seco, y plantaron las tiendas delante de la ciudad. Por orden de Dios, los hombres de guerra fueron dando vueltas a la ciudad, una vez por día, durante seis días consecutivos. En medio de los soldados, los sacerdotes portaban el arca del pacto, precedida por siete sacerdotes tocando las bocinas. El séptimo día dieron siete veces la vuelta a la ciudad; al final de la séptima vuelta, mientras resonaba el toque prolongado de las bocinas, el ejército rompió en un fuerte clamor, las murallas se derrumbaron, y los israelitas penetraron en la ciudad. En cuanto a la fecha, sería alrededor del año 1403 a.C. (cf. ÉXODO Y PEREGRINACIÓN POR EL DESIERTO).
+
+La ciudad había sido proclamada anatema. A excepción de Rahab, que había dado refugio a los espías, y su familia, todos los demás habitantes fueron muertos. El oro, la plata, los objetos preciosos, entraron al tesoro de Jehová. Josué lanzó una maldición contra quien reconstruyera la ciudad (Jos. 5:13-6:26).
+
+Fue asignada a Benjamín; se hallaba en los límites de Benjamín y Efraín (Jos. 16:1, 7; 18:12, 21). 3:13). Eglón, rey de Moab, hizo de ella su residencia en la época en que oprimió a los israelitas (Jue. 611 En el reinado de Acab, Hiel de Bet-el fortificó la ciudad; en el curso de esta fortificación perdió, o sacrificó, a sus dos hijos, en cumplimiento de la maldición de Josué (1 R. 16:34). Durante el ministerio de Eliseo había en Jericó una comunidad de profetas (2 R. 2:5). Elías, al ir a ser arrebatado al cielo, atravesó Jericó con Eliseo (2 R. 2:4, 15, 18). En Jericó fueron puestos en libertad los hombres de Judá que habían sido hechos prisioneros por el ejército de Peka, rey de Israel (2 Cr. 28:15).
+
+Los caldeos se apoderaron de Sedequías cerca de Jericó (2 R. 25:5 Jer. 39:5 52:8). Después del retorno del exilio, algunos de sus habitantes ayudaron a construir los muros de Jerusalén (Neh. 3:2).
+
+Báquides, general sirio, levantó los muros de Jericó en la época de los Macabeos (1 Mac. 9:50). Al comienzo del reinado de Herodes los romanos saquearon Jericó (Ant. 14:15, 3). Después Herodes la embelleció construyendo un palacio y, sobre la colina detrás de la ciudad, levantó una ciudadela que llamó Cipro (Ant. 16:5, 2; 17:13, 1; Guerras 121, 4, 9). La parábola del Buen Samaritano se sitúa sobre el camino de Jerusalén a Jericó (Lc. 10:30). La curación del ciego Bartimeo y de su compañero tuvo lugar en el camino de Jericó (Mt. 20:29; Lc. 18:35);
+
+Zaqueo, a quien Jesús llamó para hospedarse en su casa y darle la salvación, moraba en Jericó (Lc. 19:1, 2).
+
+Jericó se halla a casi 240 m. por debajo del nivel del mar Mediterráneo, en un clima tropical, donde crecían las balsameras, la alheña, los sicómoros (Cnt. 1:14; Lc. 19:2, 4; Guerras 4:8, 3). Las rosas de Jericó eran consideradas extraordinariamente bellas (Eclo. 24:14). La antigua Jericó se elevaba muy cerca de las abundantes aguas llamadas en la actualidad 'Ain es-Sultãn; ésta es indudablemente la fuente que Eliseo sanó (2 R. 2:12-22; Guerras 4:8, 3). La Jericó moderna, en árabe «Er-Riha», se halla a 1,5 Km. al sureste de la fuente. Arqueología:
+
+Ernst Selin y la sociedad Deutsche Orientgesellschaft (1907-1909) iniciaron allí excavaciones sobre el montículo llamado Tell es-Sultan. Fueron continuadas muy extensamente por John Garstang (1930-1936); en 1952 fueron reanudadas por Kathleen Kenyon y por las escuelas de arqueología de Inglaterra y EE. UU. Fue Garstang quien descubrió la evidencia de los muros caídos, y esta evidencia fue fotografiada por él y por posteriores investigadores. Los muros habían caído de dentro hacia afuera. Sus fundamentos no habían sido minados, sino que debieron ser derrumbados por un potente temblor de tierra. También había evidencia de un violento incendio de la ciudad. La revisión de Miss Kathleen Kenyon de esta identificación en base a la cerámica asociada con la cronología de Egipto no tiene en cuenta la necesaria revisión de la estructura cronológica de la historia de Egipto (Véanse EGIPTO, ÉXODO, FARAÓN, HICSOS, HETEOS, etc.). En base a la revisión de Velikovsky y Courville, la destrucción de Jericó concuerda perfectamente con todos los detalles físicos de la destrucción y con los restos arqueológicos, y no se puede objetar a la identificación efectuada por Garstang en 1930-1936, ni a la fecha de 1400 a.C. Los restos correspondientes a la conquista correspondían a una doble muralla de ladrillos, con un muro exterior de 2 m. de espesor, un espacio vacío de alrededor de 4,5 m. y un muro interior de 4 m. Estos muros tenían en aquel entonces 9 m. de altura. La ciudad, muy pequeña, estaba entonces tan superpoblada que se habían construido casas en la parte alta de la muralla, por encima del espacio vacío entre las dos murallas (cf. la casa de Rahab, Jos. 2:15). El muro exterior se hundió hacia afuera, y el segundo muro, con sus edificaciones encima, se hundió sobre el espacio vacío. Así, la arqueología nos da, en realidad, una evidencia totalmente 612 armónica con el relato de las Escrituras.
+
+Bibliografía:
+
+Courville, D. A.: «Is a Fixed Chronology of Egypt back to c. 2000 B.C. Mistaken?», en Creation Research Society Quarterly, vol. 11, n. 4, marzo 1975, págs. 202-210; mismo autor: «The Exodus Problem and its Ramifications» (Challenge Books, Loma Linda, California, 1971); Velikovsky, I.: «Ages in Chaos» (Doubleday, Garden City, N.Y. 1952).
+
+nom, JERIMOT
+
+tip, CIUD
+
+sit, a3, 264, 105
+
+vet,
+
+= «altura».
+
+Ciudad de las montañas bajas de Judá (Jos. 15:35). Piram, su rey, era aliado de Adonisedec. Fue poblada de nuevo después de la cautividad (Neh. 11:29).
+
+nom, JERJES. Véase ASUERO.
+
+nom, JEROBAAL
+
+tip, BIOG JUEZ HOMB HOAT
+
+ver, GEDEÓN
+
+vet,
+
+= «pelee Baal con él».
+
+Nombre recibido por Gedeón (Jue. 6:32) y que indica su vocación de servicio a la causa de Dios y del pueblo de Israel. Muchos personajes en la Biblia, al serles encomendada una misión, cambiaron de nombre, indicando la nueva esencia de su misión. (Véase GEDEÓN.)
+
+nom, JEROBOAM
+
+tip, BIOG REYE HOMB HOAT
+
+ver, FARAÓN, SALOMÓN
+
+vet,
+
+= «el pueblo se hace numeroso».
+
+(a) JEROBOAM I.
+
+Fue hijo de Nabat, de la tribu de Efraín, y primer rey del reino del norte. Reinó veintidós años (931-910 a.C.). Había sido funcionario de Salomón, pero el profeta Ahías, encontrándole, rompió su capa nueva en doce pedazos, y guardando dos para sí, le dio a él los otros diez, anunciándole que sería rey sobre diez de las tribus (1 R. 11:29-39). Por esta causa, Salomón procuró darle muerte, pero él huyó a Egipto, quedándose allí bajo la protección de Sisac hasta la muerte de Salomón (1 R. 11:40, véanse FARAÓN, SALOMÓN). Al reclamar los israelitas a Roboam que les aliviara las cargas de los impuestos y levas que les habían sido impuestas por su padre, éste replicó con dura altanería, lo que dio lugar al cisma nacional (1 R. 12:1-17; 2 Cr. 10:1-17). Jeroboam fue hecho rey sobre las diez tribus (1 R. 12:20). Temiendo que sus súbditos le fueran desleales si iban a Jerusalén a adorar, erigió dos becerros de oro, uno en Dan, el extremo norte de sus dominios, y el otro en Bet-el, el extremo sur, propiciando la adoración de Jehová bajo el simbolismo de estos dos becerros (1 R. 12:25-33). Expulsó a los levitas del sacerdocio (1 R. 12:31-33; 2 Cr. 11:13-15). Pero su pretendido culto nacional a Jehová, bajo la forma de idolatría 613 y cisma con respecto al templo de Jerusalén, fue considerado por Dios como culto a los demonios e ídolos (2 Cr. 11:16). Tal proceder provocó la emigración de muchos israelitas fieles a Dios, levitas y de las otras tribus, al reino de Judá (2 Cr. 11:16-17). De esta manera se debilitó el reino de Jeroboam, y cayó en una burda idolatría.
+
+Un varón de Dios acudió desde Judá para clamar en contra del altar de Bet-el, y al extenderse contra él la mano del rey, ésta se secó inmediatamente. Al rogar por él el profeta, le fue restaurada la mano, pero no se arrepintió de su idolatría (1 R. 13:1-6 y ss.). Le había sido anunciado que si seguía al Señor como David lo había hecho, su casa sería afirmada, pero por su rebelión contra el orden divino su dinastía se extinguió en su hijo Nadab (1 R. 14:7-11 y ss.). «El pecado de Jeroboam hijo de Nabat» vino a ser proverbio en boca de los israelitas (cf. 1 R. 16:31; 2 R. 3:3; 10:29, 31; 13:11; 14:24; 15:9, 18, 24, 28; 13:2, 6; 17:22). Durante su reinado fueron constantes las guerras con Roboam (cf. 1 Cr. 12:15). Jeroboam es un ejemplo claro de manipulador de la religión con fines políticos, y constituye una advertencia universal contra ello, contra la idolatría y contra la intromisión humana en las formas del culto, en lugar de una sencilla sumisión a las formas que Dios nos ha dado en Su palabra (cf. 1 R. 12:28-33).
+
+(b) JEROBOAM II.
+
+Hijo de Joás y sucesor suyo sobre el trono de Israel. Fue hecho corregente el año 793 y reinó en solitario durante treinta años (782-752). Consiguió extender sus territorios derrotando a los sirios, y recobró Hamat y Damasco. De él se usa el refrán «no se apartó de todos los pecados de Jeroboam, hijo de Nabat, el que hizo pecar a Israel».
+
+Amós profetizó que moriría a espada (2 R. 13:13; 14:16-29; 15:1, 8; 1 Cr. 5:17; Os. 1:1; Am. 1:1; 7:9-11).
+
+nom, JEROGLÍFICOS
+
+tip, ABEC
+
+ver, EGIPTO
+
+vet,
+
+Con este término se designan los caracteres usados en los monumentos y documentos egipcios. En su forma arcaica (la hallada en los monumentos) y en el estilo hierático, se trata de pictogramas, en los que la mayor parte de los caracteres representan animales, aves, la figura humana, u objetos familiares, que al principio representaban los objetos dibujados, y a los cuales más tarde se asignaron ideas y sonidos.
+
+Había también una forma simplificada, usada más tardíamente para su utilización en correspondencia popular, y que recibe el nombre de demótico. El erudito que logró desentrañar el significado de los jeroglíficos, Champollion, descubrió 864 caracteres diferentes. La hazaña de descifrar la lengua egipcia se logró gracias al descubrimiento de la piedra de Rosetta, que daba el mismo texto en escritura jeroglífica, demótica y griega. (Véase EGIPTO, (e)).
+
+nom, JEROHAM
+
+tip, BIOG SACE HOMB HOAT
+
+vet,
+
+(a) Abuelo de Samuel (1 S. 1:1).
+
+(b) Descendiente de Benjamín (1 Cr. 8:27).
+
+(c) Benjaminita, quizás el mismo que el anterior (1 Cr. 9:8).
+
+614
+
+(d) Sacerdote (1 Cr. 9:12).
+
+(e) Padre de dos de los reclutas de David en Siclag (1 Cr. 12:7). (f) Padre de Azareel (1 Cr. 27:22).
+
+(g) Padre de Azarías (2 Cr. 23:1).
+
+nom, JERUSALÉN
+
+tip, CIUD ARQU
+
+ver, JERUSALÉN (Historia), MARDIKH (Tell), AMARNA (TELL EL-AMARNA), GIHÓN sit, a3, 359, 76
+
+vet,
+
+(para los hebreos, este nombre significa «fundamento de la paz; posesión de la paz»; su etimología es incierta).
+
+Ciudad santa; capital de la monarquía unida bajo David y Salomón, del reino de Judá, de Judea, y modernamente declarada por el Knesset (Parlamento del Estado de Israel) la «capital eterna de Israel».
+
+Plan de este artículo:
+
+A. Nombre.
+
+B. La ciudad.
+
+a. Situación.
+
+b. Suministros de agua.
+
+c. Estructuras defensivas.
+
+d. Edificios célebres en la época de Cristo.
+
+C. Historia de la ciudad.
+
+a. La ciudad cananea.
+
+b. La ciudad israelita.
+
+c. Jerusalén a partir de Tito.
+
+A. NOMBRE.
+
+Muchos han sostenido que la mención más antigua de Jerusalén que se tiene en la Biblia es la mención de Salem en Gn. 14:18, en relación con el encuentro de Abraham con Melquisedec, «rey de Salem». En las tabletas cuneiformes de los restos de Ebla (véase MARDIKH [TELL]) aparecen por separado los nombres de Salim y de Urusalima, entre otras ciudades como Hazor, Laquis, Meguido, Gaza, Dor, Sinaí, Jope, Sodoma y las otras ciudades de la llanura. Estas ciudades estaban en relación comercial con Ebla, y estos registros, anteriores a la catástrofe que destruyó Sodoma y las otras ciudades comarcanas, parecen indicar que Salim o Salem era una ciudad distinta de Jerusalén (Urusalima). Estas tabletas están fechadas alrededor del año 2300 a.C. En el relato de la conquista de Canaán figura bajo el nombre de Jebús y de Jerusalén. Después de ello se encuentra frecuentemente el nombre de Jebús mientras los jebuseos poseyeron la ciudad. Al apoderarse David de ella, el antiguo nombre vino a ser su única designación (aunque también se usó su abreviación Salem, cf. Sal. 76:2). La pronunciación Y'rû, shãlêm se modificó posteriormente a fin de darle una forma dual, Y'rûshãla'(y) im. Esta es la interpretación de ciertos gramáticos. La forma Urusalim se encuentra en las cartas de Tell el-Amarna (véase AMARNA), en las cartas dirigidas a Amenofis IV (o Amenhotep IV), rey de Egipto. Velikovsky y Courville documentan que la asignación de este rey y de las cartas al siglo XV a.C. no es sostenible, y que se refiere a la época de Acab y Josafat, durante un período entre 870 y 840 a.C., aproximadamente (cf. Courville y Velikovsky, véase Bibliografía bajo articulo AMARNA). Así, se debe reconocer la gran antigüedad de las menciones de Urusalima en las tabletas de Ebla, en tanto que Tell el-Amarna nos da unos documentos relativamente mucho más 615 recientes, del siglo IX a.C. en la cronología revisada, frente a la asignación al siglo XV a.C. en la cronología comúnmente divulgada.
+
+B. LA CIUDAD.
+
+a. Situación.
+
+Jerusalén se halla en una meseta sobre la cordillera central que constituye el eje dorsal de Palestina, en uno de sus puntos más elevados (800 m. sobre el nivel del Mediterráneo). Se halla a la misma latitud que la extremidad septentrional del mar Muerto. Excepto en su parte norte, la ciudad está separada del resto de la meseta por profundos barrancos o torrenteras. Este promontorio está cortado a su vez por una depresión llamada Tiropeón; esta depresión desemboca en el ángulo sureste del promontorio, en la unión de los barrancos meridional y oriental (Hinom y Cedrón, respectivamente). Subiendo desde allí, el Tiropeón se extiende hacia el norte en un arco, a lo largo de más de 1,5 Km.; a la mitad, desde la zona cóncava, proyecta una ramificación que se dirige directamente hacia el oeste. Ésta era la configuración original de la localidad; pero, con el curso de los siglos, los trabajos urbanos y las devastaciones de las guerras rebajaron las alturas y terraplenaron las depresiones. Las ramificaciones de estos valles rodean tres colinas principales: una al este, otra al sudeste, y otra al noroeste: (1) La colina oriental es un monte que se extiende de norte a sur a lo largo de casi 1 Km.; dominando desde una altura entre 60 y 90 m. los valles que la rodean, se aplana en su parte meridional. Al norte, una ramificación del barranco oriental casi aislaba esta colina, en la antigua topografía, de la meseta de la que forma parte. Su cumbre tiene una altura media superior a los 731 m. Al sur, una ligera depresión de unos 30 m. de longitud y de una profundidad de 12 m. en algunos lugares, salía de la llamada «fuente de la Virgen», y se dirigía al noroeste, en dirección al valle del Tiropeón.
+
+(2) La colina oblonga del suroeste, la más grande de las tres, tiene un contrafuerte que se proyecta hacia el noreste. Esta colina se levanta formando un pico sobre los valles circundantes. Su gran cumbre se detiene al principio a una altura de 731 m. y después sube hacia el oeste hasta 775 m.
+
+(3) La tercera colina es una proyección de la meseta, más que un cerro aislado. Se halla al norte de la colina anteriormente descrita, a unos 746 m.; se hallaba incluida dentro de la ciudad antes de la era cristiana.
+
+Estas tres colinas y sus barrancos protectores hacían de Jerusalén una ciudad inexpugnable (2 S. 5:6), rodeada y dominada además por otras alturas (Sal. 125:2). El barranco oriental es el valle del Cedrón. Hacia el este, a partir del valle del Cedrón se halla el monte de los Olivos, frente a las colinas de la ciudad. El monte orientado en dirección norte-sur es la colina del Templo, llamada, al menos en la zona donde estaba el santuario, monte de Moria. Su extremidad meridional, más baja, llevaba el nombre de Ofel. El valle situado al Oeste de esta colina es el Tiropeón, en el que está situado, en el extremo meridional de la colina, el estanque de Siloé. El valle de Hinom (de donde viene el nombre Gehena) va desde el extremo noroeste de la ciudad hasta el suroeste; de allí, gira hacia el este, y se une con el valle del Cedrón. Al norte del Templo se halla el estanque de Betesda.
+
+Situación de la altura llamada «Monte Sion». Este problema ha recibido tres soluciones principales:
+
+(1) El monte Sion sería la colina del suroeste. Esta opinión ha prevalecido desde el siglo IV: (a) Sion era la ciudad de David (2 S. 5:7-9). Josefo dice que David dio a la ciudad alta el nombre 616 de ciudadela y era indudablemente la colina del suroeste (Guerras 5:4, 1) Por ello es singular que Josefo no le dé explícitamente el nombre de Sion.
+
+(b) En Neh. 3, donde tiene tanta importancia la reconstrucción de las murallas, permite ver que Sion no formaba parte de la colina del Templo.
+
+(c) El carácter sagrado de Sion se explica porque el arca reposó muchos años en este lugar del que David cantó la santidad (2 S. 6:12-18; 1 R. 8:1-4; Sal. 26). El nombre de Sion vino a ser así el título de nobleza de Jerusalén y servía para designarla en su conjunto, como ciudad santa (Sal. 48; 87; 133:3);
+
+(2) El monte Sion era la colina del noroeste (Warren). Esta eminencia ha sido identificada con el sector de la ciudad que Josefo denomina Acra y que, en griego, significa ciudadela. Si este historiador la denomina ciudad baja es porque había venido a serlo en su época; originalmente, la ciudadela se alzaba más elevada. Simón Macabeo la abatió porque dominaba el Templo (Ant. 13:6, 7). Primitivamente, esta colina del noroeste había sido un lugar adecuado para una fortaleza jebusea.
+
+(3) El monte Sion era una parte de la colina del Templo. Los principales argumentos en favor de esta opinión:
+
+(a) La colina del Templo sigue siendo la más adecuada para una fortaleza. (b) De la Puerta de la Fuente se subía al Templo en una ascensión gradual desde la ciudad de David, más allá de la Puerta de las Aguas (Neh. 12:37). Estas escaleras pueden ser las que se han descubierto que ascienden por la colina a partir del estanque en el extremo meridional. (c) Los términos que hablan de Sion como lugar santo no son aplicables a toda la ciudad, pero tienen su explicación si el Templo se levantaba sobre el monte Sion. Éste, efectivamente, recibe el nombre de santo monte, morada del Señor, monte de Jehová (Sal. 2:6; 9:11; 24:3; 132:13). (d) En 1 Mac. 1:33-38, Sion es el monte del Templo. La distinción constante que se hace entre la ciudad de David y el monte Sion, lugar del santuario, demuestra que el sentido de estas expresiones había cambiado desde la época en que eran sinónimas (2 S. 5:7). La explicación más sencilla es que el monte Sion formaba parte de la colina del Templo. Por extensión, se daba frecuentemente el nombre de Sion a toda la colina del Templo, en tanto que la expresión «ciudad de David» había tomado también un sentido más amplio, designando toda la ciudad de Jerusalén (2 S. 5:7; Ant. 7:3, 2), comprendiéndose en esta designación los nuevos suburbios de las colinas vecinas, rodeados de fortificaciones. El término «ciudad de David» podía incluir o excluir el santuario, según la oportunidad. Los sirios construyeron una fortaleza en la ciudad de David, pero Judas Macabeo entró, y se apoderó del Templo en el monte Sion (1 Mac. 1:33 ss.; 4:36 ss.). Esta tercera solución tiene todos los visos de verosimilitud. Sion, la ciudadela de los jebuseos, con cuatro puertas, ocupaba la extremidad meridional de la colina oriental al sur del Templo, al sur también de la depresión transversal. Ciertas secciones de antiguas murallas han sido exploradas, y se les asignan fechas del tercer milenio a.C.
+
+b. Suministros de agua.
+
+En el transcurso de asedios largos y terribles, los moradores de Jerusalén padecieron hambres atroces, pero no parece que carecieran nunca de agua. Eran más los asediadores que los asediados los que se arriesgaban a carecer de ella. No hay ninguna fuente al norte de la ciudad, y las que se conocen, al este, oeste y sur, se hallaban dentro de las murallas, a excepción de la de En Rogel. Esta última se halla al sur, por debajo de la unión de los valles de Hinom y del Cedrón, sobre el wadi en-Nar; recibe también el nombre de pozo de Job («'Ain' Ayyûb»); es indudable que debe ser identificada con la fuente del Dragón o del Chacal (Neh. 2:13). No se han 617 descubierto fuentes que alimenten el estanque de Mamillã ni el del Sultán al oeste. La colina del suroeste no tiene fuentes, que se sepa. En cambio, el monte del Templo está bien provisto de agua (Tácito, Hist. 5:21). Al este de la ciudad antigua, en el valle del Cedrón, hay una fuente de aguas vivas bien conocida: la fuente de la Virgen (el pozo de Santa María, también conocido como Gihón [véase GIHÓN]). Sus abundantes aguas llegaban al estanque de Siloé, situado en el extremo sur de la colina. Antiguamente, las aguas de la fuente de Gihón llegaban a la superficie por el antiguo canal, yendo a parar al estanque Viejo (llamado también estanque Inferior). Es identificado con el moderno Birket el-Hamra, por debajo de Ain Silwãn (Siloé). Previendo el ataque de Senaquerib, Ezequías cubrió el canal que había a cielo abierto, desvió del estanque Viejo (Inferior), las aguas de Gihón, y las dirigió subterráneamente al estanque Nuevo (Superior). (2 R. 18:17; 20:20; 2 Cr. 32:4, 30; Is. 7:3; 8:6; 22:9, 11; 36:2). El estanque del Rey se puede identificar con Siloé (Neh. 2:14). El estanque de Salomón se hallaba, según parece, al este de Siloé (Guerras 5:4, 2). Al lado occidental de la colina, al oeste del Templo, hay las pretendidas aguas curativas de Hammãn eshshifã, y, al lado norte de la colina, se halla Betesda. A las fuentes acompañaban las cisternas. Las torres que dominaban las murallas tenían grandes depósitos de agua de lluvia (Guerras 5:4, 3) numerosas cisternas de las que todavía existen en gran cantidad estaban diseminadas por la ciudad (Tácito, Hist. 5:12). Además del aporte de las fuentes y de las cisternas de la ciudad había también el suministro de agua traída de lejos. El estanque de Mamillã tallado en la roca se halla al principio del wadi er-Rabãbi, al oeste de la ciudad. Más abajo del Hinom, frente al ángulo suroccidental de las murallas actuales, se halla Birket es-Sultãn (el estanque del Sultán), construido en el siglo XII d.C. Algunos arqueólogos identifican el estanque de Mamillã con el de la Serpiente, mencionado por Josefo (Guerras 5:3, 2). Un acueducto llevaba el agua de Mamillã hasta el estanque del patriarca, al este de la puerta de Jafa. La tradición lo identifica con el estanque de Ezequías; es probable que se trate del estanque de Amigdalón, es decir, del almendro (o de la torre), mencionado por Josefo (Guerras 5:11, 4). En un período posterior, se construyó un depósito al norte de la zona del templo, en un terreno donde un pequeño valle se ramifica del Cedrón hacia el oeste. Sus aguas venían del oeste. Este depósito se llama «estanque de Israel» (Birket' Isrã'în). Más hacia el oeste se hallan los estanques gemelos, que Clermont-Ganneau identifica con el estanque Strouthios (del gorrión). Este estanque existía durante el asedio de Tito; se hallaba frente a la torre Antonia (Guerras 5:11, 4). El mayor acueducto era el que, desde más allá de Belén, llevaba agua hasta Jerusalén. Según el Talmud, salía un conducto de agua de la fuente de Etam para dar el suministro al templo de Jerusalén. Etam se halla en Khirbet el Khoh, cerca de 'Am 'Atán, en los parajes del pueblo de Urtãs, a unos 3 Km. al suroeste de Belén. El acueducto es muy antiguo, anterior a la época romana.
+
+c. Estructuras defensivas.
+
+Inmediatamente después de haberse apoderado de Jerusalén, David hizo construir una muralla alrededor de la ciudad. La antigua ciudadela de los jebuseos, llamada desde entonces «ciudad de David», ya existía. David fortificó también los alrededores de la ciudad, «a partir del Milo» (2 S. 5:9; 1 Cr. 11:8). El Milo de David era una fortificación (quizá de tierra) que defendía la antigua ciudad jebusea, al noroeste. Salomón «construyó» Milo y el muro de Jerusalén, para cerrar la brecha de la ciudad de David (1 R. 9:15, 24). Los siguientes reyes restauraron y agrandaron Milo, hasta que al final su muralla llegaba a la actual puerta de Jafa al oeste (2 Cr. 26:9), tocaba el valle de Hinom, al sur (Jer. 19:2), el estanque de Siloé (cf. 2 R. 25:4), englobaba Ofel (2 Cr. 27:3; 33:14) y rodeaba al norte el suburbio que creció sobre la colina del noroeste (2 R. 14:13; 2 618 Cr. 33:14; Jer. 31:38). Nabucodonosor arrasó esta muralla (2 R. 25:10). Nehemías reconstruyó este antiguo muro, sirviéndose de materiales de la antigua fortificación (Neh. 2:13-15; 4:2, 7; 6:15). La muralla de Nehemías comenzaba en la puerta de las Ovejas (Neh. 3:1), próxima al estanque de Betesda (Jn. 5:2), que fue descubierta cerca de la iglesia de Santa Ana, a unos 90 m. de la actual puerta de San Esteban. El estanque se hallaba sobre el lado septentrional de esta ramificación del valle del Cedrón que se interponía entre la colina del Templo y la meseta. Así, la puerta de las Ovejas se hallaba en esta ramificación del valle o sobre la pendiente que conducía a la meseta, al norte o al noroeste. Cerca de la puerta de las Ovejas, se hallaban, al alejarse del Templo, las torres de Hamea y de Hananeel (Neh. 3:1; 12:39). Después había la puerta del Pescado, en el barrio nuevo (segundo) de la ciudad (Neh. 3:3; Sof. 1:10), y a continuación la puerta Vieja (Neh. 3:6; 12:39). A cierta distancia se levantaba el muro ancho (Neh. 3:8; 12:38) y, aún más lejos, la torre de los Hornos (Neh. 3:11; 12:38). Seguía la puerta del Valle (técnicamente, este término designaba el valle al oeste de la ciudad (Neh. 3:13; cf. Neh. 2:13-15). A continuación: la puerta del Muladar (Neh. 3:14); la puerta de la Fuente; el muro del estanque de Siloé, cerca del huerto del rey, en el ángulo suroriental de la ciudad; y las escalinatas que descendían de la ciudad de David (Neh. 2:15); al este de este lugar se hallaba la puerta de las Aguas (¿quizá de las aguas del Templo?), ante la cual se extendía una gran plaza pública (Neh. 8:1-3; 12:37). Después la fortificación pasaba delante de los sepulcros de David, del estanque artificial, de la casa de los héroes (Neh. 3:16); la subida de la armería, en una esquina (Neh. 3:19); la casa del sumo sacerdote Eliasib (Neh. 3:20); la fortificación pasaba después por diversos sectores, indicados por otras casas (Neh. 3:23, 24); la fortificación englobaba el ángulo de la casa real y la torre que dominaba sobre el muro; esta torre tocaba el patio de la cárcel (Neh. 3:25). Los siervos del templo moraban en la colina de Ofel; su sector se extendía desde la puerta de las Aguas, al este, hasta esta torre (Neh. 3:26; cf. 11:21). La parte siguiente de la muralla iba de esta torre al muro de Ofel (Neh. 3:27); seguía la puerta de los Caballos, en la zona donde vivían los sacerdotes (Neh. 3:28). Esta puerta de los Caballos, al este de la ciudad, dominaba el valle del Cedrón (Jer. 31:40), pero no era necesariamente una puerta exterior; podría haber servido de enlace entre el Ofel y la zona norte, donde se hallaban el Templo y el palacio. Una parte del muro llegaba frente a la casa de Sadoc; después había un sector que fue restaurado por el guarda de la puerta Oriental (probablemente al este del Templo) (Neh. 3:29); inmediatamente después, frente a la puerta del Juicio (probablemente una de las puertas interiores de la zona del Templo, donde se quemaban los sacrificios por el pecado, cf. Ez. 43:21), un sector de la fortaleza subía hasta la sala de la esquina (Neh. 3:32). Finalmente, la muralla volvía a la puerta de las Ovejas, el lugar donde se ha empezado la descripción (Neh. 3:1, 2). Hay dos importantes puertas de la muralla descrita que no son mencionadas en Neh. 3 a pesar de que una de ellas, al menos, la puerta del Ángulo, existía en aquella época (2 R. 14:13; 2 Cr. 26:9; cf. Zac. 14:10); la otra era la puerta de Efraín (Neh. 8:16; 12:39). La puerta del Ángulo parece haber estado situada en el extremo nororiental de la ciudad (Jer. 31:38), a 400 codos de la puerta de Efraín (2 R. 14:13) que daba paso al camino que se dirigía a Efraín; así, se cree que esta puerta estaba al norte de la ciudad y al este de la puerta del Ángulo; en todo caso, se hallaba al oeste de la puerta Vieja (Neh. 12:39). Partiendo de la puerta de las Ovejas, y siguiendo, en dirección oeste, la muralla septentrional, la disposición de las puertas y de las torres era la siguiente:
+
+puerta de las Ovejas,
+
+torres de Hamea y de Hananeel,
+
+puerta de los Peces,
+
+619
+
+puerta Vieja,
+
+puerta de Efraín y
+
+puerta del Ángulo.
+
+Un problema difícil de resolver es si el «muro ancho» y la torre de los Hornos se hallaban más allá de la puerta del Ángulo. Se debe señalar que la puerta del Ángulo y la de Efraín se encontraban en el sector de la muralla mencionado en Neh. 3:8 como el lugar donde «dejaron reparada a Jerusalén hasta el muro ancho». Parece que la muralla no precisaba de reparación en este lugar. Esta frase de 3:8 se puede interpretar de diversas maneras. Había también una puerta de Benjamín que miraba del lado de esta tribu (Jer. 37:13; 38:7; Zac. 14:10). Es probable que se corresponda con la puerta de las Ovejas. Todavía en la actualidad se debate el problema referente a la situación de ciertas puertas. Se podría identificar la puerta de Efraín con la puerta de en medio (Jer. 39:3); se ha intentado también asimilarla a la puerta de los Peces. Ciertos comentaristas han pretendido que las expresiones puerta del Ángulo y puerta Vieja se refieren a una misma puerta.
+
+Desde la época de Nehemías a la de Cristo, las fortificaciones de Jerusalén sufrieron numerosas vicisitudes; unos 150 años después de Nehemías, Simón el Justo, sumo sacerdote, consideró necesario volver a fortificar el templo y la ciudad, en previsión de un sitio (Eclo. 50:1-4; cf. Ant. 12:1, 1). En el año 168 a.C., Antíoco Epifanes hizo derribar las murallas de Jerusalén, y erigió una fortaleza con fuertes torres «en la ciudad de David», expresión con un sentido amplio, que quizá permita diferenciar la ciudad del Templo (1 Mac. 1:31, 33, 39; 2 Mac. 5:2-26). Esta fortaleza, el Acra, se hizo célebre. Dominando el Templo (Ant. 13:67) fue, durante 25 años, una amenaza para los judíos. Unos dos años después de la demolición de las murallas de la ciudad, Judas Macabeo las reparó parcialmente, y fortifico el muro exterior del Templo; pero su obra fue destruida (1 Mac. 4:60; 6:18-27, 62). Jonatán, su hermano y sucesor, reanudó la obra, propuso la elevación de nuevas fortificaciones, y restauró las murallas, especialmente alrededor de la colina del Templo (1 Mac. 10:10; 12:36, 37; Ant. 13:5, 11). Su hermano Simón acabó la empresa (1 Mac. 13:10; 14:37; Ant. 13:6, 4). Este sumo sacerdote, que tenía la autoridad de un rey, no se conformó con construir las murallas de la ciudad, sino que, en el año 142 a.C., obligó a la guarnición extranjera a evacuar el Acra (1 Mac. 13:49-51). Al cabo de un tiempo, hizo demoler la fortaleza y rebajar la colina sobre la que había estado elevada, para que fuera más baja que el nivel del Templo (1 Mac. 14:36; 15:28; Ant. 13:6, 7). Aunque Acra significa ciudadela en gr., no debe confundirse este edificio con la Baris, llamada también torre Antonia, que se levantaba al norte del ángulo noroccidental de la zona del Templo. El Acra estaba al oeste del templo, y dio su nombre a la ciudad baja (Guerras 5:6, 1).
+
+Pompeyo descubrió que Jerusalén era una fortaleza. Cuando al fin se apoderó de la ciudad, en el año 63 a.C., destruyó las fortificaciones (Tácito, Hist. 5:9 y ss). César permitió su reconstrucción (Ant. 14:8, 5; Guerras 1:10, 3 y 4). Al norte, estas fortificaciones, eran dos murallas que Herodes y los romanos, sus aliados, tomaron en el año 37 a.C. sin destruirlas (Ant. 14:6, 2 y 4; cf. 15:1, 2).
+
+En la época de Cristo Jerusalén tenía, al norte, las dos murallas citadas; pronto adquirió una tercera. Josefo atribuye la primera (una muralla interior) a David, a Salomón y a los reyes que les sucedieron. Basándose en los puntos de referencia que existían entonces, Josefo describe así el primer cinturón fortificado: partiendo de la torre de Hippicus (inmediatamente al sur de la moderna puerta de Jafa, en el ángulo noroccidental de la muralla de la ciudad vieja), se dirigía hacia el este, hacia el pórtico occidental del Templo. Al sur y al este de la torre de Hippicus, pasaba cerca del estanque de Siloé y, por el Ofel, llegaba al pórtico oriental del Templo (Guerras 620 5:4, 2); rodeaba las colinas del sudoeste y del este. La segunda muralla protegía el norte y el principal sector comercial de la ciudad (Guerras 5:4, 2; con respecto a los bazares de este sector, véase 8:1; 1:13, 2; Ant. 14:13, 3). Esta segunda muralla comenzaba en la puerta Gennath, esto es, la puerta de los Huertos, que formaba parte del primer cinturón levantándose cerca de la torre de Hippicus al este (Guerras 5:4, 2; cf. 3:2 para los huertos); la fortificación se terminaba en la torre Antonia (llamada al principio Baris), al norte del Templo (Guerras 5:4, 2). Herodes Agripa I, que reinó en Judea del año 41 al 44 d.C., emprendió la construcción de una tercera muralla, con el fin de incluir en los limites de la ciudad el suburbio no protegido de Bezetha. Sin embargo, el emperador Claudio ordenó a Herodes que cesara los trabajos. Al final, los judíos mismos concluyeron las obras. Esta tercera muralla comenzaba en la torre de Hippicus, subía al norte, llegaba a la torre de Psephino, en el ángulo noroccidental de la ciudad (Guerras 5:3, 5; 4:3), se dirigía al este, cerca de la tumba de Elena reina de Adiabene (Guerras 5:4, 2; Ant. 20:4, 3). El muro incluía el lugar en el que la tradición situaba el campamento asirio (Guerras 5:7, 3); rebasaba las grutas de los reyes; torcía hacia el sur en la torre del Ángulo, cerca del edificio del Foulón, y se unía con la antigua muralla en el valle del Cedrón (Guerras 5:4, 2). El perímetro de las murallas era de 33 estadios, o alrededor de 6 Km. (Guerras 5:4, 3). La torre Antonia estaba contigua al Templo, y el palacio de Herodes, con sus torres que dominaban la muralla al oeste, vino a unirse a las fortificaciones ya existentes. Cuando Tito se apoderó de Jerusalén en el año 70 d.C., arrasó todas estas obras defensivas, preservando sólo tres torres: la de Hippicus, de Fasael y de Mariamne. De toda la muralla, este general sólo preservó la parte que rodeaba el Oeste de la ciudad, con el fin de proteger la guarnición romana. En cuanto a las tres torres anteriores, Tito quería que ellas fueran testimonio a las futuras generaciones de la importancia que había tenido la ciudad conquistada por el arrojo romano (Guerras 7:1, 1).
+
+d. Edificios célebres en la época de Cristo.
+
+Además de las fortificaciones ya descritas, había numerosos edificios que suscitaban la emoción en los israelitas piadosos y patriotas. Ante todo, el Templo. La gran colina rocosa sobre la que se levantaba la torre Antonia limitaba parcialmente el lado septentrional de la zona del Templo. Una guarnición romana guardaba la torre Antonia. Al oeste del Templo se levantaba la casa del Concilio; era probablemente donde se reunía el Consejo general de la nación, llamado Sanedrín. Algo más al oeste, al otro extremo del puente que, enlazando con el pórtico occidental del Templo, salvaba el Tiropeón, se hallaba el gimnasio, llamado también «xystos». Este establecimiento, aborrecido por los judíos, propagaba el paganismo griego. El palacio de los Hasmoneos, que evocaba el heroísmo de los macabeos, dominaba el gimnasio y, más allá del valle, miraba al santuario. Un poco más allá, al norte del Templo y al este de la torre Antonia, se hallaban las aguas curativas del estanque de Betesda. Más al oeste, en el distrito situado frente al Templo, se levantaba el magnifico palacio de Herodes, con sus inexpugnables torres. Esta era la residencia de los procuradores cuando visitaban Jerusalén. Al sureste de la ciudad se hallaban la piscina de Siloé y, en sus cercanías, los sepulcros de los reyes. El inmenso anfiteatro de Herodes el Grande debía hallarse por estos lugares (Ant. 15:8, 1). Es posible que haya aquí una confusión con el hipódromo situado al sur del Templo (Guerras 2:3, 1), porque parece que se celebraban carreras de carros además de combates con leones y entre gladiadores (Ant. 15:8, 1). El hipódromo sirvió ocasionalmente como cárcel (Ant. 17:9, 5; Guerras 1:33, 6). Entre los otros edificios está la casa del sumo sacerdote (Mt. 26:3; Lc. 22:54; Guerras 2:17, 6); la casa de los registros, cerca del Templo (Guerras 2:17, 6; 6:6, 3); el palacio de la reina Elena de Adiabene, 621 que había sido prosélita (cf. los mismos pasajes de Josefo).
+
+C. HISTORIA DE LA CIUDAD.
+
+a. La ciudad cananea.
+
+Si la Salem de Melquisedec se corresponde con Jerusalén, según la opinión tradicional, esta ciudad es mencionada por primera vez en la época de Abraham (Gn. 14:18). La mención de Jerusalén en las tabletas de Tell el-Amarna (véase AMARNA) se asigna generalmente al siglo XV a.C. En base a una investigación crítica, estas tabletas resultan corresponder, en realidad, al siglo IX a.C. Cuando los israelitas penetraron en Canaán, el rey cananeo de Jerusalén fue derrotado, con sus aliados, por Josué en Gabaón y en la bajada de Bet-horón (Jos. 10:10). Sin embargo no se lanzaron contra Jerusalén; fue atribuida a la tribu de Benjamín. Estando en los confines de Judá, la ciudadela dominaba una parte del territorio de las dos tribus (Jos. 15:8; 18:28). Después de la muerte de Josué, durante la guerra que las diversas tribus mantuvieron contra los cananeos que vivían dentro de sus fronteras, Judá atacó a Jerusalén, tomándola e incendiándola (Jue. 1:8), pero parece que no pudo apoderarse de la ciudadela; tampoco lo consiguió Benjamín (Jue. .1:21). Ésta es la razón de que la ciudad reconstruida siguiera estando controlada por la fortaleza jebusea, y que sus moradores fueran también jebuseos. Los israelitas se sentían avergonzados de que hubiera, en el mismo centro de su país, una fortaleza extranjera (Jos. 15:63; Jue. 1:21; 19:11, 12). Y así se mantuvo la situación al comenzar la carrera de David. Volviendo del campo de batalla, el vencedor de Goliat pasó por Jerusalén y dejó allí la cabeza del filisteo (1 S. 17:54). Al venir a ser rey de todo Israel, David pudo hacer uso de la unidad, entusiasmo y obediencia del pueblo, así como la resolución de la rivalidad existente entre Judá y Benjamín. Dirigió, acto seguido, a sus tropas contra la irreductible ciudad. A pesar de las burlas de sus moradores, que consideraban que sus muros eran inexpugnables, se apoderó de ella (2 S. 5:6 ss.).
+
+b. La ciudad israelita.
+
+David hizo de Jerusalén la capital del reino, y emprendió la tarea de hacer de ella el centro religioso de la nación. El arca no tenía morada desde que el Señor había abandonado Silo, y el rey la llevó a Jerusalén, erigiéndole un tabernáculo decoroso y se dedicó a reunir los materiales para la construcción de un santuario (2 S. 6-7). Su hijo Salomón erigió el espléndido Templo, rodeándolo de murallas, que le dieron el aspecto de una fortaleza, y se construyó además un palacio que igualaba al Templo en esplendor(1 R. 6-7). Pero, bajo el reinado siguiente, Sisac, rey de Egipto (identificado por Velikovsky y Courville como Tutmose III, en la cronología revisada de Egipto) penetró en Jerusalén, llevándose los tesoros del Templo y del palacio real (1 R. 14:25-27); después de algo más de 80 años, hordas árabes y filisteas tomaron por poco tiempo la ciudad y la saquearon (2 Cr. 21:17). A pesar de estas vicisitudes, la población fue en aumento; se empezó a diferenciar entre los diversos distritos de Jerusalén (2 R. 20:4; 22:14). Antes del inicio del siglo VIII a.C., una prolongación de la muralla englobaba un suburbio de la colina del noroeste. Se trataba del distrito comercial, que siguió siéndolo aún después del exilio y hasta la destrucción de Jerusalén por Tito (Guerras 5:8, 1). La puerta de las Ovejas y la del Pescado se hallaban en este sector, que estaba situado a lo largo del valle llamado Tiropeón (de los comerciantes del queso). Bajo el reinado de Amasías, rey de Judá, los israelitas del reino del norte destruyeron una parte de las fortificaciones al norte de la ciudad, y se apoderaron de los tesoros del Templo y del palacio (2 R. 14:13, 14). Uzías y Jotam, reyes de Judá, repararon las destrucciones y aumentaron las defensas, erigiendo nuevos torreones (2 Cr. 26:9; 27:3). Es 622 posible que tuvieran que reparar muchos otros desastres además de los causados por la guerra, porque bajo Uzías Jerusalén sufrió los efectos de una fuerte convulsión tectónica (Am. 11; Zac. 14:5; Ant. 9:10, 4). Los israelitas del reino del norte aliados con los sirios asediaron la ciudad durante el reinado de Acaz, pero en vano (2 R. 16:5). Este rey de Judá entregado a la idolatría hizo, poco después del asedio, extinguir las lámparas del santuario y detener los holocaustos, ordenando el cierre del Templo (2 R. 16:14 ss.; 2 Cr. 28:24; 29:7). Ezequías volvió a abrir el Templo, restableciendo el culto; sin embargo, para detener el ataque de los asirios, les tuvo que entregar el tesoro real, el del santuario, y las planchas de oro de que estaban revestidas las puertas del Templo. Pero esto sólo fue un alivio pasajero, porque al final los ejércitos de Asiria pusieron sitio a Jerusalén (2 Cr. 29:3; 2 R. 18:15, 16) Sin embargo el ángel del Señor azotó al ejército enemigo librando a Jerusalén de una manera prodigiosa (2 R. 19:35). Cuando Manasés volvió de su breve cautiverio en Babilonia construyó murallas y mejoró las fortificaciones (2 Cr. 33:14)
+
+Durante los reinados del hijo y nieto de Josías varios reveses abrumaron la ciudad. Bajo Joacim, Nabucodonosor asedió Jerusalén y entró en ella, encadenó al rey, y terminó liberándolo, pero se llevó consigo a una buena cantidad de jóvenes príncipes y de objetos de gran precio del Templo (2 R. 24:1; 2 Cr. 36:6; Dn. 1:1). Después Nabucodonosor volvió, vació el tesoro real y el del Templo, se apoderó del resto de los utensilios de oro y de plata del santuario, llevó cautivo al rey Joaquín a Babilonia, deportando asimismo a los más útiles de los moradores de Jerusalén, soldados, artesanos, herreros, etc. (2 R. 24:10-16). Nueve años más tarde, bajo Sedecías, Nabucodonosor atacó Jerusalén por tercera vez; la asedió durante dos años, provocando una terrible hambre. Finalmente, los atacantes consiguieron abrir una brecha en las murallas; incendió el Templo, los palacios, demolió las murallas, y deportó al resto de los habitantes, excepto a los indigentes (2 R. 25). Jerusalén estuvo en ruinas durante cincuenta años. Zorobabel, acompañado de 50.000 israelitas, volvió en el año 538 a.C. Al inicio del año siguiente, echó los cimientos del Templo (Esd. 2:64, 65; 3:8). Hacia el año 444 a.C., Nehemías reconstruyó la muralla. Los persas tenían entonces el dominio, que recayó a continuación en los macedonios, bajo Alejandro Magno. En el año 203 a.C., Antíoco Epifanes se apoderó de Jerusalén, que cayó en manos de Egipto en el año 199 a.C. En el año 198 a.C., la ciudad abrió sus puertas a Antíoco, que se presentaba como amigo. En el año 170 a.C., Antíoco se hizo el dueño de Jerusalén, profanando el Templo acto seguido; los macabeos se alzaron en armas en el año 165 a.C. Judas volvió a tomar la ciudad y purificó el Templo. Los reyes de la dinastía hasmonea erigieron cerca del Templo una ciudadela que recibió el nombre de Baris, es decir, «la Torre» (véase ANTONIA). Pompeyo se apoderó de Jerusalén en el año 63 a.C., demoliendo una parte de las murallas. Craso saqueó el Templo en el año 54 y los partos entraron a saco en la ciudad el año 40. Herodes el Grande se apoderó de Jerusalén en el año 37 a.C., reparó las murallas, construyó diversos edificios para embellecer la ciudad, reconstruyó el Templo, y le dio un esplendor que contrastaba con el carácter relativamente humilde del Templo de Zorobabel. Comenzado entre el año 20 y 19 a.C., el Templo no quedó totalmente acabado durante la vida terrenal de nuestro Señor. Herodes fortificó la ciudadela, llamándola Antonia. Al morir, Jerusalén tenía dos murallas que la rodeaban, totalmente o en parte, en tanto que en la época de Salomón sólo habla tenido una. Herodes Agripa comenzó una tercera línea de murallas, hacia el año 42 o 43 d.C., unos doce años después de la crucifixión. En el año 70 d.C., los romanos, conducidos por Tito, ocuparon Jerusalén, después de haber destruido o incendiado, durante el asedio, el Templo y casi toda la ciudad. El general romano demolió las murallas, excepto una parte de la línea occidental, y las 623 tres torres de Hippicus, Fasael y Mariamne (Guerras 7:1, 1). c. Jerusalén después de Tito.
+
+Bajo el emperador Adriano, los romanos emprendieron la reconstrucción de Jerusalén como ciudad pagana, que mantenían frente y contra los judíos; ésta parece haber sido la causa principal de la revuelta judía dirigida por Bar-Kokeba, entre los años 132-135 d.C. El alzamiento fue aplastado, y se reemprendió y finalizó la construcción de la ciudad. El nombre de Jerusalén fue reemplazado por el de Colonia Aelia Capitolina: Colonia, porque se trataba de una colonia romana; Aelia, en honor de Adriano, cuyo nombre propio era Aelio; Capitolina, porque la ciudad fue dedicada a Júpiter Capitolino. Se erigió un templo a esta divinidad pagana, sobre el emplazamiento de los antiguos templos de Salomón, Zorobabel y Herodes. Les quedó prohibido a los judíos, bajo pena de muerte, que entraran en la ciudad. Esta prohibición no afectaba a los cristianos que, sin duda alguna, ya se distinguían netamente de los judíos por aquel entonces. El nombre de Aelia persistió durante muchos siglos. El emperador Constantino levantó, al principio de una manera parcial, y después total, la prohibición que excluía a los judíos de la ciudad santa. En el año 326 Elena, la madre del emperador, erigió un santuario sobre el monte de los Olivos. En el año 333 se comenzó, por orden de Constantino, la construcción de la iglesia de la Anástasis, señalando el supuesto emplazamiento del Santo Sepulcro (véase CALVARIO). En el año 614, conducidos por su rey Cosroés II, los persas asaltaron Jerusalén. Dieron muerte a gran número de sus moradores, y deportaron a Persia a los supervivientes, e incendiaron la iglesia del Santo Sepulcro. A la muerte de Cosroés, en el año 628, el emperador romano Heraclio recuperó Jerusalén. En el año 638, la ciudad se rindió a los árabes, liderados por Omar ('Umar). 'Abd-al-Malik erigió, en el año 691, la magnífica Cúpula de la Roca (que los europeos llaman, erróneamente, la «mezquita de Omar»). Este edificio se halla sobre el emplazamiento del Templo, encima de las rocas de Moria, el posible emplazamiento del sacrificio no consumado de Isaac (Gn. 22:2; 2 Cr. 3:1). Cerca de la cúpula, en el sector meridional de la zona sagrada, 'Abd-al-Malik construyó otra mezquita, quizá sobre el lugar de una iglesia anterior. Esta mezquita se llama al-Masjid al-Aksa (la mezquita más alejada), pero esta expresión designa también el conjunto de edificios sagrados de esta zona. Al-Haram al-Sharîf (el noble santuario) es otro nombre aplicado a este grupo de construcciones. Durante la época en que los musulmanes de raza árabe reinaron sobre Jerusalén, los peregrinos cristianos que iban a visitar los lugares santos fueron tratados de diversas maneras. En una ocasión, un soberano fatimita incendió la iglesia del Santo Sepulcro; pero, por lo general, los árabes se mostraron tolerantes. Cuando, en el año 1077 d.C., los turcos (seldyúcidas) remplazaron a los árabes, la situación cambió. Los ultrajes y la opresión de estos últimos provocaron la reacción de los reinos de la Europa occidental y central, lo que provocó las Cruzadas. El 15 de julio de 1099, durante la primera de estas expediciones político-religiosas, Jerusalén fue tomada por asalto; se fundó entonces un reino cristiano que duró 88 años. Durante la ocupación cristiana, los edificios adyacentes al Santo Sepulcro fueron agrandados y hermoseados, en tanto que iban surgiendo nuevos edificios por la ciudad. En el año 1187, el reino de Jerusalén cayó en manos de Saladino, sultán de Egipto y de Siria; en 1192, este último reparó las murallas, pero el sultán de Damasco las hizo desmantelar en 1219. Federico II, emperador de Alemania, obtuvo la posesión de la ciudad santa, en 1229, por un tratado que estipulaba que las murallas no serían restauradas. Diez años más tarde, sus moradores infringieron esta condición. En 1443, la ciudad se rindió incondicionalmente a los cristianos. Al año siguiente, los turcos (Khwãrizim) se apoderaron de Jerusalén y restablecieron el Islam. Al cabo de unos tres años, los egipcios echaron a los invasores de Palestina y se hicieron con Jerusalén hasta 1517, año en el que Jerusalén cayó en manos de los turcos otomanos. El más 624 grande de sus sultanes, Solimán el Magnífico, construyó en 1542 la línea de murallas que sigue todavía en pie. Durante la Primera Guerra Mundial, los ingleses y la Legión Judía, encuadrada en el ejército inglés bajo las órdenes del general Allenby, conquistaron Palestina. Jerusalén se rindió el 9 de diciembre de 1917. Después de la primera guerra judeo-árabe (1947-48) y del renacimiento del Estado de Israel, Jerusalén quedó dividida entre los judíos y los árabes. El Reino de Transjordania consiguió conservar la Ciudad Vieja incluida dentro de las murallas, gracias a la acción de la Legión Árabe, dirigida por oficiales británicos y encabezada por el asimismo británico Sir John Bagot Glubb («Glubb Pachá»), mientras que los judíos conservaban los suburbios nuevos fuera del recinto amurallado, en una lucha tenaz. Así quedó la situación hasta el 7 de junio de 1967, durante la Guerra de los Seis Días, en que el ejército israelita, venciendo la encarnizada resistencia jordana, logró conquistar el sector oriental de Jerusalén y reunificar la ciudad, capital del actual Estado de Israel.
+
+nom, JESHÚA o JESÚA
+
+tip, BIOG HOMB HOAT CIUD SACE
+
+vet,
+
+o JESÚA (a veces, sin acento, forma hebrea posterior de Josué). (a) Nombre de varios personajes, en su mayoría levitas (1 Cr. 24:11; 2 Cr. 31:15; Esd. 2:2; Neh. 7:11, 43; 8:7).
+
+(b) También es el nombre de una aldea (Neh. 11:26) de Judá.
+
+nom, JESUCRISTO
+
+tip, BIOG HOMB HONT TITU
+
+ver, JESUCRISTO (II), JESUCRISTO (III), EVANGELIOS, GENEALOGÍA, MARÍA, ENCARNACIÓN, ESTRELLA de Oriente, MAGOS, HERMANOS DEL SEÑOR sit,
+
+vet,
+
+Nuestro Señor recibió el nombre de Jesús, según las instrucciones que el ángel transmitió a José (Mt. 1:21) y a María (Lc. 1:31). Dado en ocasiones a otros individuos, este nombre podía ser expresión de la fe de los padres en Dios, Salvador de su pueblo, o también de su certeza de la futura salvación de Israel. Impuesto al Hijo de María, el nombre revelaba las funciones particulares que iba a ejercer Su portador. «Llamarás su nombre JESÚS, porque él salvará a su pueblo de sus pecados» (Mt. 1:21). El título de Cristo proviene del gr. Christos (ungido), traducido del arameo M'shînã, del heb. Mãshîah (ungido, Mesías). Así, Jesús es el nombre personal de nuestro Señor, en tanto que Cristo es Su título. Pero este segundo nombre se ha venido empleando desde los primeros tiempos, lo mismo que en la actualidad, como nombre propio, ya a solas, ya en combinación con el nombre Jesús. En este artículo se presentan, a grandes rasgos, las etapas de la vida de nuestro Señor en la tierra, para presentar los principales acontecimientos en su orden probable y en sus relaciones mutuas. I. CRONOLOGÍA.
+
+Si bien no se pueden precisar de una manera absoluta las fechas del nacimiento, bautismo y muerte de Jesús, la mayor parte de los eruditos están de acuerdo en su datación dentro de límites muy estrechos. Nuestro calendario ordinario tiene por su autor a Dionisio el Exiguo, abate romano que murió antes del año 550 a.C. Él decidió tomar el año de la encarnación como punto de referencia que permitiera situar las fechas anteriores y posteriores a la venida de Cristo; habiendo identificado el año 754 de la fundación de Roma con el año del nacimiento del Señor, 625 pudo así determinar el año 1 de la era cristiana. Pero las afirmaciones de Josefo revelan que Herodes el Grande, que murió poco tiempo después del nacimiento de Jesús (Mt. 2:19-22), murió en realidad algunos años antes de 754 de Roma. Herodes murió 37 años después de haber sido proclamado rey por los romanos, proclamación que tuvo lugar en el año 714 de Roma. Así, la fecha de su muerte fue el año 751 o 750 (no sabemos si Josefo contaba las fracciones de años como años completos). La fecha de 751 parecería plausible, por cuanto Josefo informa que, antes de su muerte, Herodes hizo dar muerte a dos rabinos judíos, y que se produjo un eclipse de luna en la noche de su ejecución. Los cálculos astronómicos indican que en el año 750 hubo un eclipse parcial de luna, la noche del 12 al 13 de marzo; pero toda la secuencia de eventos hasta su sucesión por Arquelao muestra que Herodes murió después de la Pascua del año 751 y varios meses antes de la Pascua del 752. Así, Anderson, en su estudio cronológico de la Natividad, sitúa el nacimiento del Señor alrededor del otoño del año 750 o 4 a.C. (cf. Anderson Sir R. «El Príncipe que ha de venir», esp. págs 115-121, 241-246). La fecha del 25 de diciembre no apareció sino hasta el siglo IV d.C., y no tiene base histórica alguna. Como confiesa Agustín de Hipona, las antiguas fiestas paganas fueron asumidas, con cambios de nombre, para satisfacer a las masas paganas cristianizadas que deseaban mantener sus festivales gozosos. El 25 de diciembre se corresponde con las Saturnalias.
+
+La fecha en que nuestro Señor dio inicio a Su ministerio público se determina sobre todo en base a Lc. 3:1: «En el año decimoquinto del imperio de Tiberio César... » Éste fue el año en que empezó el ministerio del Señor, primer año del reinado de Tiberio, que empezó el 19 de agosto del año 28 d.C., hasta el 19 de agosto del año 29 d.C. Siendo que se cuenta como año uno el año del nacimiento del Señor (y no como año cero), el cómputo de años desde el 28-29 d.C. hasta el 4 a.C. nos da una edad para el Señor entre los 30 años y casi 32. Otro argumento que concuerda con esta fecha es la declaración de los judíos, poco después del bautismo de Jesús: «En cuarenta y seis años fue edificado este Templo.» Herodes propuso la reconstrucción del Templo entre el año 20 y el 19 a.C.; pero prometió entonces no empezar las obras antes de haber consumado los preparativos, ante la desconfianza del pueblo. Asumiendo un periodo de preparación de uno a dos años, los cuarenta y seis años mencionados nos llevan al 29 d.C. (cf. Anderson, op. cit., pág. 246; Ant. 15:11, 27).
+
+La duración del ministerio de Cristo, y consiguientemente el año de su muerte, se determina sobre todo en base a la cantidad de fiestas pascuales mencionadas en el Evangelio de Juan. Si sólo tuviéramos los Evangelios Sinópticos (véase EVANGELIOS), podríamos suponer que el ministerio de Jesús sólo duró un año; sin embargo, el Evangelio de Juan nos habla de tres Pascuas de una manera explícita (Jn. 2:13; 6:4; 13:1). Hengstenberg («Christology», pp 755-765) da pruebas abrumadoras de que Jn. 5:1 es también la fiesta de la Pascua. En este caso, el ministerio de Cristo incluyó cuatro fiestas de la Pascua. Si fue bautizado a finales del año 28 o a inicios del 29, entonces su crucifixión tuvo lugar en el año 32 d.C. (Para una consideración más a fondo de este tema, véase Anderson, Sir R.: «El Príncipe que ha de venir» [Pub. Portavoz Evangélico, Barcelona, 1980], y cf. Hoehner, H. W.: «Chronological Aspects of the Life of Christ», en Bibliotheca Sacra, oct. 1973, ene., abril, jul., oct. 1974; ene. 1975 [Dallas Theological Seminary, Dallas].).
+
+La cuestión cronológica ha llevado a muchas investigaciones, y hay fuertes controversias; sin embargo, las posturas de Anderson y Hoehner, aunque divergentes en un año, parecen las más sólidamente apoyadas. En este artículo se sigue la de Sir Robert Anderson. II. CIRCUNSTANCIAS POLÍTICAS DE LOS JUDÍOS. Cuando Jesús nació, Herodes el Grande era el rey de los judíos. Este hábil y cruel soberano 626 reinaba a la vez sobre Samaria, Galilea y Judea. Aunque de origen idumeo, Herodes profesaba la religión judía. Antípatro, su padre, había sido hecho gobernador de Judea por Julio César; el mismo Herodes, después de una agitada carrera, había sido proclamado rey de los judíos por los romanos. Monarca independiente en diversos sentidos, gobernaba, sin embargo, sólo gracias al apoyo de los romanos. Dependía de ellos, que eran entonces los dueños y árbitros del mundo conocido. A la muerte de Herodes, su reino fue dividido entre sus hijos. Arquelao recibió Judea y Samaria; Herodes Antipas tuvo Galilea y Perea; Herodes Felipe el territorio situado al noreste del mar de Galilea (Lc. 3:1). En el año décimo de su reinado, el 6 o 7 d.C., Arquelao fue destituido por Augusto. A partir de esta fecha, Judea y Samaria fueron administradas por gobernadores romanos, que ostentaban el título de procuradores; esta situación se mantuvo hasta la rebelión que acabó con la destrucción de Jerusalén el año 70 d.C., con excepción de los años 41 a 44, en que Herodes Agripa I ejerció la soberanía (Hch. 12:1). Durante el ministerio de Cristo, Galilea y Perea, donde tuvo lugar la mayor parte de Su ministerio, estaban sometidas a Herodes Antipas (Mt. 14:3; Mr. 6:14; Lc. 3:1, 19; 9:7; 13:31; 23:8-12), en tanto que los romanos gobernaban directamente Samaria y Judea a través de su procurador que, a la sazón, era Poncio Pilatos. El yugo, directo o indirecto, de los romanos, irritaba a los judíos en lo más vivo. Durante la vida terrenal de Cristo el país era constantemente presa de una efervescencia política. Por un lado, los romanos trataban de dar a la nación tanta autonomía política como fuera posible, de manera que el sanedrín (tribunal supremo) ejercía su jurisdicción en un gran número de casos. Los conquistadores también habían otorgado a los judíos numerosos privilegios que tenían que ver, sobre todo, con las prácticas religiosas. Pero, a pesar de todo, el pueblo tascaba el freno bajo una dominación extranjera que, en ocasiones, se hacía notar de una manera oprimente; los ocupantes, desde luego, no tenían la menor intención de devolver a los judíos la libertad de que habían gozado en una época anterior. Además, la aristocracia judía, constituida en su mayor parte por los saduceos, no tenía ninguna hostilidad contra los romanos. Los fariseos, a los que se unían los adeptos a la piedad más rígida, querían conservar el judaísmo a toda costa, pero eludían los compromisos políticos. Los escritos de la época hablan asimismo de los herodianos, que sostenían las aspiraciones de la familia de Herodes a la corona. Según Josefo, un partido de patriotas se levantó en diversas sublevaciones, pero en vano, intentando sacudir el yugo romano. En tales circunstancias, todo hombre que se presentara como Mesías se arriesgaba a verse enlazado en los conflictos políticos. A fin de poder proclamar ante todo la dimensión espiritual del reino de Dios y de sentar sus bases mediante la redención, Jesús iba a esperar el tiempo marcado para el establecimiento del Reino, que tampoco debía ser introducido mediante manejos políticos, sino que vendrá a ser impuesto por una irrupción frontal, majestuosa e irresistible del Hijo del Hombre en Su Segunda Venida.
+
+III. CONDICIÓN RELIGIOSA DE LOS JUDÍOS.
+
+Es evidente que las circunstancias políticas influyeron intensamente en el desenvolvimiento de las condiciones religiosas. Los medios oficiales del judaísmo habían casi dejado a un lado el aspecto basal de la redención y arrebatamiento como introducción al Reino, conforme a las promesas del AT; y el pueblo en general centraba sus esperanzas en un reino terrestre que les daría la independencia y grandeza nacional. Al prestar casi exclusivamente la atención a los aspectos externos del reino, olvidaban las bases morales y de redención sobre el que éste debía ser erigido. Los Evangelios nos presentan dos partidos dirigentes: los fariseos y los saduceos. Los fariseos eran religiosos y tenían mucha más influencia sobre el pueblo que los saduceos; pero ponían su tradición teológica, las ceremonias y las sutilidades de la casuística por encima de 627 la Palabra de Dios. Habían llegado a transformar la religión de Moisés y de los profetas en un formalismo estrecho, estéril, desprovisto de espiritualidad. Los fariseos se opusieron a las enseñanzas de Jesús, a Sus doctrinas tan opuestas a sus tradiciones, y, sobre todo, se resintieron de que citara las Escrituras en oposición a la tradición. Los saduceos eran los representantes de la aristocracia. Las familias de los sumos sacerdotes pertenecían a este partido. Influenciados por la cultura pagana, los saduceos rechazaban las tradiciones de los fariseos, y se interesaban más en la política que en la religión. Acabaron por manifestarse opuestos a Jesús, temiendo que sus acciones perjudicaran el equilibrio político (Jn. 11:48). Se seguía llevando a cabo el suntuoso ceremonial del Templo de Jerusalén. Grandes multitudes frecuentaban fielmente las ceremonias religiosas. El fervor de la nación, celosa de sus privilegios, no había sido nunca tan grande. De vez en cuando, una explosión de patriotismo, mezclada con fanatismo, avivaba las esperanzas del pueblo. Sin embargo, quedaban israelitas que mantenían el espíritu y la fe de una religión sin componendas. La mayor parte de ellos, aunque no todos, pertenecían a las clases inferiores de la población. La espera de un Salvador, de un Liberador del pecado, había subsistido entre ellos. Jesús vino de uno de estos medios ricos en piedad. En la época de Cristo, el pueblo judío seguía siendo aún un pueblo religioso, conocedor del AT, que era leído en las sinagogas y enseñado a los niños. La nación manifestaba su interés en la religión y se agitaba en el plano político. Estos hechos explican la efervescencia popular suscitada por las predicaciones de Juan el Bautista y de Jesús, la hostilidad que ambos suscitaron en las clases dirigentes, el éxito del método que Jesús usó en la predicación de las Buenas Nuevas, y la persecución y muerte violenta que Él mismo había ya anticipado.
+
+IV. VIDA DE JESÚS.
+
+Las circunstancias del nacimiento de Jesús relatadas por los Evangelios concuerdan con la grandeza de Cristo y con las profecías mesiánicas. Estas circunstancias armonizan al mismo tiempo con la humilde apariencia que el Salvador debió tener en Su vida en la tierra. Malaquías (Mal. 3:1 y Mal. 4:5, 6) había profetizado que un heraldo, dotado del espíritu y poder de Elías, precedería a la venida del Señor; Lucas nos relata, ante todo, el nacimiento de Juan el Bautista, el precursor de Cristo. Zacarías, sacerdote de una sincera piedad, privado de descendencia y muy anciano, estaba ocupado en el Templo cumpliendo los deberes de su cargo. Le tocó en suerte (según la costumbre establecida entre los sacerdotes) hacer la ofrenda de incienso sobre el lugar santo, símbolo de las oraciones de Israel.
+
+El ángel Gabriel se apareció a Zacarías, y le anunció que sería el padre del precursor anunciado. Esta aparición tuvo lugar, probablemente, el año 5 a.C. Después de ello, Elisabet y Zacarías se dirigieron de vuelta a su mansión, situada en un pueblo del país montañoso de Judá (Lc. 1:39). Allí esperaron el cumplimiento de la promesa. Seis meses más tarde se apareció un ángel a María, virgen de la familia de David; esta doncella de Nazaret estaba prometida a un hombre llamado José, que descendía de David, el gran soberano de Israel (Mt. 1:1-16; Lc. 1:27). (Véanse GENEALOGÍA, MARÍA). José, israelita piadoso y de humilde condición a pesar de su noble linaje, era carpintero. El ángel anunció a María que, por el poder del Espíritu Santo, ella vendría a ser la madre del Mesías (Lc. 1:28-38); el niño, cuyo nombre debía ser Jesús, heredaría el trono de Su antecesor David. El ángel anunció a María también que su prima Elisabet estaba embarazada. Cuando el ángel se hubo ido, María se apresuró a ir a visitar a Elisabet. Al encontrarse, el Espíritu de la profecía entró en ellas. Elisabet, saludando a María, la llamó la 628 madre de su Señor; María, a ejemplo de la Ana de la antigüedad (1 S. 2:1-10) entonó un cántico de alabanzas, celebrando la liberación futura de Israel, y el honor que le había sido concedido. En el tiempo en que Elisabet tenía que dar a luz, María se volvió a Nazaret. Dios mismo intervino para ahorrarle todo baldón. José, al ver el estado en que se hallaba María, quiso romper con ella en secreto, sin acusarla en público. Pero Dios no le permitió actuar así. Un ángel le reveló en sueños la razón del embarazo de María; le dijo que el niño iba a ser el Mesías, y que debía nacer de una virgen, tal como lo había profetizado Isaías. José obedeció la voz del ángel, por cuanto su fe era tan profunda como la de María, y no la abandonó. El niño nació de la virgen María, pero legalmente tuvo al mismo tiempo un padre humano, cuyo amor y honorabilidad protegieron a María; es evidente que fue ella quien más tarde dio a conocer estos hechos. Ni Cristo ni Sus apóstoles recurrieron a la concepción virginal como demostración de que Jesús es el Mesías. Este silencio, sin embargo, no permite atacar la veracidad del relato. El hecho del nacimiento sobrenatural de Cristo no es susceptible de prueba histórica. Se debe aceptar como revelación. Sin embargo, el relato de la manera en que Cristo se encarnó concuerda admirablemente con lo que sabemos de la grandeza del Mesías y de Su misión en la tierra, así como del hecho testificado de Su resurrección. El Mesías debía ser la cumbre perfecta de la espiritualidad de Israel, y Jesús nació en el seno de una familia piadosa, que practicaba celosamente la religión pura del AT. El Mesías debía presentarse de una manera humilde: Jesús vino del hogar de un carpintero de Nazaret. Era preciso que el Mesías fuera hijo de David: José, su padre legal, descendía de David, lo mismo que su madre. El Mesías debía ser la encarnación (véase ENCARNACIÓN) de Dios, uniendo en Su persona la divinidad y la humanidad: Jesús nació de una mujer, habiendo sido concebido milagrosamente por el poder del Espíritu Santo. Lucas relata el nacimiento de Juan el Bautista, y cita el cántico profético que surgió de los labios tanto tiempo silenciados de Zacarías, su padre, a propósito del Precursor (Lc. 1:57-79). A continuación explica la razón de que Jesús naciera en Belén (Lc. 2:1-6). Augusto había ordenado el censo de todos los súbditos del imperio, y su decreto incluía Palestina, aunque estuviera bajo la jurisdicción de Herodes. Pero es evidente que el censo de los judíos se hizo siguiendo el método judío: no es en el domicilio donde se registraba a cada cabeza de familia, sino en su lugar de origen. José tuvo que dirigirse a Belén, la cuna de la casa de David, y María lo acompañó. El mesón, donde los forasteros podían alojarse, estaba ya lleno cuando llegaron José y María. Sólo encontraron espacio en un establo, que posiblemente era una cueva adyacente al mesón. Era frecuente el uso de cuevas para cuadras y establos. El relato no dice que este establo alojara animales; es posible que no fuera entonces utilizado para este menester. En contra de lo que se piensa entre nosotros, el hecho de alojarse ocasionalmente en un establo no disgustaba a las gentes en aquel entonces; sin embargo, es bien cierto que el Mesías vino al mundo en un lugar extremadamente humilde. Había sido destinado a un caminar de humildad, y María lo acostó en un pesebre (Lc. 2:7).

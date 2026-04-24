@@ -1,0 +1,1845 @@
+(a) Heb. «bor», abismo, pozo, traducido «fuente» en Jer. 6:7. (b) Heb. «mabbua», «fuente» en Ec. 12:6; en Is. 35:7 se traduce «manaderos de aguas», y en Is. 49:10 «manantiales de aguas».
+
+(c) Heb. «ayin», lit., ojo, y de ahí, orificio a través del que fluye el agua (Gn. 16:7; 2 Cr. 32:3; Neh. 2:14; 3:15; 12:37; Pr. 8:28).
+
+(d) Heb. «mayan» (de «ayin»), Gn. 7:11; 8:2; Jos. 8:15; 2 R. 3:19, 25; 2 Cr. 32:4; Sal. 74:15; 84:6; 87:7; 104:10; 114:8; Cnt. 4:12, 15; Is. 12:3; Jl. 3:18); (e) «maqor», fuente perpetua, Pr. 25:26; Os. 13:15; Jer. 2:13; 9:1, «fuente de lágrimas». (f) Gr. «pëgë», se usa como «fuente de sangre» en Mr. 5:29. Las fuentes son una característica notable de la tierra de Israel, que es descrita como «tierra de arroyos, de aguas, de fuentes y de manantiales, que brotan en vegas y montes» (Dt. 8:7). La fuente de agua viva simboliza las bendiciones espirituales permanentes e inagotables que nos vienen de la misma presencia de Dios (Sal. 36:9, 10; Jn. 4:14; Ap. 7:17; 21:6).
+
+nom, FUNCIONARIO
+
+tip, FUNC
+
+ver, EUNUCO, OFICIAL
+
+vet,
+
+(gr. dunastës)
+
+El término funcionario se usa en la versión Reina-Valera, revisión 1960, sólo en referencia al eunuco etíope (Hch. 8:27).
+
+Significa un alto funcionario, o una persona de un gran poder. En Lc. 1:52 se traduce «poderosos» y en 1 Ti. 6:15 se usa de Dios como el único «soberano». (Véanse EUNUCO, OFICIAL.)
+
+nom, FUNDACIÓN
+
+vet,
+
+Traducción del término griego «katabolë», «fundación del mundo». La frase «antes de la fundación del mundo» se refiere a la eternidad antes que tuviera un principio el complejo de espacio y tiempo al que llamamos el universo (Mt. 13:35; 25:34; Lc. 11:50; Jn. 17:24).
+
+nom, FUNDAMENTO
+
+tip, TIPO CONS
+
+vet,
+
+o cimiento de un edificio en hebreo se traduce de palabras mayormente derivadas de «yãsadh», «fundar»; en griego, es traducción de «themelios» (Lc. 6:48, 49; 14:29; Hch. 16:26, etc.) Se usa metafóricamente:
+
+de Cristo, como fundamento de la Iglesia (1 Co. 3:11);
+
+de los apóstoles o profetas como fundamento, del que Cristo es la principal piedra del ángulo (Ef. 2:20); el fundamento del arrepentimiento (He. 6:1).
+
+En el Sal. 11:3: «Si fueren destruidos los fundamentos», el término hebreo es «shath». nom, FUNERALES
+
+436
+
+tip, COST
+
+ver, PLAÑIDERAS
+
+vet,
+
+Cuando alguien moría, la casa se llenaba de amigos, especialmente mujeres que lloraban con gran escándalo (Mr. 5:38). (Véase PLAÑIDERAS.).
+
+Lavaban el cuerpo (Hch. 9:37); lo envolvían en una sábana o en vendas (Mt. 17:59; Jn. 11:44). Los ricos ungían el cadáver con perfumes y especies aromáticas (Jn. 12:7; 19:39). A veces quemaban perfume (Jer. 34:5).
+
+El cadáver era conducido en un féretro o andas (2 S. 3:31; Lc. 7:14). La sepultura se hacía siempre en una cueva o en una tumba esculpida en roca, y a diferencia de lo que se hacía en Egipto, en Israel no se usaban ataúdes (Gn. 25:9, 10; Mt. 27:60).
+
+nom, FUT
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+Tercer hijo de Cam (Gn. 10:6; 1 Cr. 1:8); sus descendientes vivieron en África entre Etiopía (Cus) y Egipto (Mizraim) (Gn. 10:6); muchos fueron soldados mercenarios (Ez. 27:10; Jer. 46:9).
+
+***
+
+G
+
+nom, GAAL
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «desprecio».
+
+Hijo de Ebed. Se unió con los siquemitas cuando se rebelaron contra Abimelec el hijo de Gedeón, que enardeció sus ánimos y los condujo a la batalla; pero fue derrotado y proscrito de la ciudad (Jue. 9:26-41).
+
+nom, GABAA
+
+tip, MONT CIUD
+
+sit, a3, 361, 44
+
+vet,
+
+(heb. «gib 'ãh», monte).
+
+El término hebreo denota un monte de poca elevación, en contraste a «har», que denota una montaña o cordillera.
+
+Gabaa no debe ser confundida con Geba.
+
+(a) Una ciudad no identificada en tierras de Judá (Jos. 15:57). Es posible que sea la Gabaa mencionada en 2 Cr. 13:2. (b) Ciudad de Benjamín (Jos. 18:28; 1 S. 13:2, 15), de donde era Saúl (1 S. 11:4; Is. 10:29). 437 Escenario de un trágico acontecimiento en la época de los Jueces (Jue. 19 y ss.), cuando «no había rey en Israel; cada uno hacía lo que bien le parecía» (Jue. 21:25). Se identifica con Teleil el-Fûl, un Tell o montículo de ruinas a unos 6 Km. al norte de Jerusalén en el camino que conduce a Siquem.
+
+nom, GABAÓN
+
+tip, CIUD
+
+sit, a2, 283, 400
+
+vet,
+
+Capital de los heveos, situada 8 Km. al noroeste de Jerusalén, sobre el camino de Jope. Fue después una ciudad levítica dentro del territorio de Benjamín (Jos. 21:17). Los gabaonitas, valiéndose del engaño, lograron un tratado con Josué y los ancianos de Israel (Jos. 9); al descubrirse el engaño Josué estaba ya ligado con pacto de juramento a respetar su vida y se les asignó la tarea de cortar leña para el santuario. El tratado de los gabaonitas con los israelitas enojó a los reyes vecinos de Gabaón, quienes atacaron la ciudad. Josué corrió a su defensa, y allí se produjo el milagro en que el sol se detuvo sobre Gabaón (Jos. 9; 10). Allí estuvo el Tabernáculo varios años (1 Cr. 16:39).
+
+Gabaón fue escenario de varios otros incidentes que la Biblia relata, como la victoria de David sobre los filisteos (1 Cr. 14:16); la venganza de los gabaonitas al ahorcar a siete hijos de Saúl (2 S. 21:1-9).
+
+Allí mismo Salomón recibió una revelación divina respecto de su reinado (1 R. 3:5-15).
+
+nom, GABAONITAS. Ver GABAÓN.
+
+nom, GABATA
+
+tip, CONS
+
+ver, PRETORIO
+
+vet,
+
+El nombre arameo del lugar del tribunal donde se condenó al Señor Jesús. El significado de este término es «lugar elevado», y su nombre griego era «lithóstrõtos», «el enlosado».
+
+Es indudable que se trataba de un piso levantado, cubierto de losas, tal como era costumbre entre los romanos. De esta manera, se correspondería con los dos significados (Jn. 19:13). La tradición que sitúa el Pretorio en la Torre Antonia identifica una extensa área de grueso pavimento romano como el Gabata. Este pavimento está marcado con señales de juegos de azar a los que se entregaba la guarnición. Sin embargo, esta identificación es insostenible, por cuanto, con toda probabilidad, el Pretorio no se hallaba aquí. (Véase PRETORIO).
+
+nom, GABRIEL
+
+tip, ANGE
+
+vet,
+
+«hombre de Dios»
+
+El ángel que fue enviado a Daniel para que le explicara la visión que había tenido del carnero y del macho cabrío, y para revelarle la profecía de las Setenta Semanas. Daniel le llama «el varón Gabriel» y «uno con apariencia de hombre» (Dn. 8:11; 9:21). Fue también enviado a María la madre de Jesús, y a Zacarías el padre de Juan el Bautista, para 438 anunciarles el nacimiento de sus hijos.
+
+Aunque en la literatura apócrifa se le da la calificación de arcángel, no es así en la Biblia. A Zacarías le dijo: «Yo soy Gabriel, que estoy delante de Dios» (Lc. 1:19, 26).
+
+nom, GAD
+
+tip, TR12 BIOG TRIB HOMB HOAT
+
+sit, a6, 386, 230
+
+vet,
+
+= «fortuna».
+
+El séptimo hijo de Jacob y primero de Zilpa, la criada de Lea. Es poco lo que se sabe de Gad, excepto que tuvo siete hijos (Gn. 30:11; 46:16; 1 Cr. 5:11). En su bendición a sus hijos, Jacob dijo de Gad: «Ejército lo acometerá; mas él acometerá al fin» (Gn. 49:19). Moisés dijo: «Bendito el que hizo ensanchar a Gad; como león reposa, y arrebata brazo y testa. Escoge lo mejor de la tierra para sí, porque allí le fue reservada la porción del legislador. Y vino en la delantera del pueblo; con Israel ejecutó los mandatos y los justos decretos de Jehová» (Dt. 33:20, 21). Al partir de Egipto, la cantidad de los capaces de llevar armas en la tribu era de 45.650, pero al cruzar el Jordán, este número había disminuido en 5.000.
+
+Al hallarse su territorio al este del Jordán, con Rubén y media tribu de Manasés, iban necesariamente a tener que soportar los primeros golpes de los enemigos que atacaran desde el este (1 Cr. 5:18-22). Eran una tribu belicosa, apropiada para mantener una posición tan expuesta. De los que se unieron a David se dice que eran «hombres de guerra muy valientes para pelear, diestros con escudo y pavés; sus rostros eran como rostros de leones, y eran ligeros como las gacelas sobre las montañas» (1 Cr. 12:8-15). Jefté y Barzillai eran de esta tribu. Gad poseía un gran distrito desde un punto un poco al norte del mar Muerto hasta la punta meridional del mar de Galilea, con una llanura muy fértil y apropiada para sus ganados y manadas, que incluía las tierras altas de Galaad. Las tribus al este del Jordán fueron las primeras en ser llevadas cautivas por el rey de Asiria en el año 740 a.C., tomando los amonitas posesión del territorio de Gad (1 Cr. 5:25, 26; Jer. 49:1).
+
+Doce mil de esta tribu serán sellados en un día futuro para bendición (Ap. 7:5). Su territorio en la restauración de Israel se hallará en la extremidad meridional de la tierra (Ez. 48:27).
+
+nom, GAD (El Vidente)
+
+tip, PROF HOMB HOAT
+
+vet,
+
+Estaba con David cuando huía de Saúl, y le fue consejero (1 S. 22:5). Al final de su reinado, tuvo el doloroso deber de anunciar los juicios de Dios sobre David por el censo del pueblo (2 S. 24:11-19; 1 Cr. 21:9-19; 2 Cr. 29:25). Los hechos de David fueron escritos en «las crónicas de Gad el vidente», que no nos ha llegado (1 Cr. 29:29).
+
+nom, GADARA
+
+tip, REGI
+
+sit, a1, 490, 377
+
+vet,
+
+Gadara era la capital de la provincia romana de Perea. Se menciona en los Evangelios como en «la región de los gadarenos». La identificación con Jerash no es factible, por cuanto ésta se halla a 60 Km. al sureste del mar 439 de Galilea. La identificación correcta parece ser la de las ruinas de Kersa, situadas al sur de la ribera oriental del dicho mar de Galilea, frente a Magdala, a 8 Km. del lugar donde el Jordán se precipita al lago. A poca distancia al sur de este lugar las escarpadas laderas de las colinas caen a plomo sobre las aguas (Lc. 8:33).
+
+El término gadarenos presenta variantes en diferentes copias griegas, como gergeseos y gerasenos.
+
+nom, GADARENOS. Ver GADARA.
+
+nom, GALAAD
+
+tip, REGI MONT MDIC
+
+sit, a2, 569, 53
+
+vet,
+
+= «abrupto, áspero».
+
+(a) Región montañosa, famosa por sus bosques (Jer. 22:6-7), al este del Jordán, que se extiende de la planicie de Moab más allá del río Yarmuk.
+
+Está dividida en dos partes por el río Jaboc (Jos. 12:2; Dt. 3:16, 17). La parte sur fue asignada a la tribu de Gad y la del norte quedó incluida en el territorio de Manasés (Dt. 3:12, 13). La última entrevista entre Labán y Jacob tuvo lugar allí.
+
+Producía el famoso bálsamo de Galaad y otras plantas medicinales (Gn. 37:25; Jer. 8:22); había también muchas dehesas (Nm. 32:1).
+
+(b) Nombre de un monte adyacente al valle de Jezreel (Jue. 7:3).
+
+nom, GALACIA
+
+tip, REGI
+
+ver, GÁLATAS (Epístola)
+
+sit, a9, 473, 166
+
+vet,
+
+Distrito central del Asia Menor, limitada al norte por Bitinia, Paflagonia y el Ponto, al este por el Ponto y Capadocia, al sur por Capadocia, Licaonia y Frigia, y al oeste por Frigia y Bitinia. El nombre de Galacia proviene de que algunas tribus galas, que habían invadido Macedonia y Grecia (278-277 a.C.), penetraron en el Asia Menor. Como recompensa de servicios rendidos en guerra, Nicodemo, rey de Bitinia, otorgó a estos galos un territorio que recibió el nombre de ellos. Los griegos dieron a estos ocupantes el nombre de «galatai». Pesinonte, Ancira y Tavium eran las principales ciudades de Galacia, cuyos límites variaron en diferentes épocas históricas, según los azares de las guerras. En el año 189 a.C., los romanos sometieron a los gálatas, que sin embargo mantuvieron su autogobierno. Los vencedores dieron su favor a estos valiosos aliados. Bajo Amintas, su último rey, el territorio se expandió mucho hacia el sur, de manera que incluía parte de Frigia, Pisidia, Licaonia e Isauria. Después de la muerte de Amintas (25 a.C.), este territorio expandido se convirtió en la provincia romana de Galacia. En el año 7 a.C. se añadió al norte el territorio de Paflagonia, y una parte del Ponto; después del año 63 d.C., Galacia sufrió otros cambios territoriales. Aquí se presenta entonces el problema de saber si el nombre de Galacia en el NT (Hch. 16:6; 18:23; Gá. 1:2) se refiere a la provincia romana, o al primitivo territorio de Galacia. En el primer caso, Pablo la habría evangelizado en 440 su primer viaje misionero (Hch. 13; 14), en compañía de Bernabé. Pero en el segundo caso, Pablo no habría anunciado allí la Buena Nueva sino hasta su segundo viaje (Hch. 16:6). Hay buenas razones para apoyar ambos puntos de vista; para una consideración de los diferentes argumentos, ver Bibliografía al final del artículo sobre GÁLATAS (Epístola).
+
+nom, GÁLATAS (Epístola)
+
+tip, LIBR LINT
+
+ver, GALACIA, PABLO
+
+vet,
+
+Carta dirigida por Pablo a las iglesias de Galacia (Gá. 1:2). (a) Destinatarios y fecha:
+
+Está bien establecido que el autor de esta carta es el apóstol Pablo, no poniéndose en duda su unidad. En cambio, aparecen problemas acerca de los destinatarios, de la ocasión y fecha de la epístola. Sobre este extremo hay dos teorías.
+
+(A) Si por Galacia (véase) se entiende toda la provincia romana de este nombre englobando las iglesias fundadas por Pablo durante su primer viaje misionero en el año 47 d.C. (Hch. 13:14), esta epístola hubiera sido redactada antes del Concilio de Jerusalén (Hch. 15). Este Concilio trataba precisamente el problema de la circuncisión, y es digno de señalar que Pablo no hace alusión en esta carta a una tal confirmación de su posición (cp. Hch. 16:4). Es tan sólo después de esta conferencia que se habla en Hechos de un viaje al norte de Galacia (Hch. 16:6). Según esta hipótesis, la epístola a los Gálatas sería la más antigua de las cartas de Pablo. (B) Si se entiende por Galacia tan sólo el distrito propiamente gálata, que no fue evangelizado hasta el segundo viaje de Pablo, la epístola no hubiera podido ser escrita antes de la visita del apóstol Pablo a Éfeso; Hechos 18:23 mencionaría su segunda visita a esta región (cp. Gá. 4:13). Por otra parte, las alusiones a la acogida que recibe Pablo, y la omisión del nombre de Bernabé (Gá. 4:13-20) no parecen concordar con lo que sabemos del primer viaje (en el que Bernabé tomó parte). La semejanza de la epístola a los Gálatas con la de Romanos ha dado ocasión a sostener que las dos fueron redactadas en la misma época, hacia el año 56 o 57 d.C. (b) Contenido.
+
+Esta carta fue ocasionada por las intrigas de ciertos maestros judaizantes, que se enfrentaban a la autoridad de Pablo, enseñando que era necesario observar la ley de Moisés. Estos judaizantes afirmaban que Pablo, por cuanto no era uno de los doce, no había recibido directamente el conocimiento del Evangelio. Estos adversarios aparentemente acusaban a Pablo de inconsecuencia, por cuanto predicaba a los gentiles que no tenían que observar la ley, en tanto que los judíos convertidos lo seguían haciendo, e incluso él mismo ocasionalmente (Hch. 21:20-26). Por otra parte, atacaban abiertamente las enseñanzas del apóstol, persuadiendo a sus conversos a que asumieran las prescripciones judaicas. Así, se ponía en juego la esencia misma del Evangelio. Movido por una intensa emoción, Pablo escribió la epístola usando enérgicos argumentos. La epístola a los Gálatas es la carta magna de la libertad cristiana. Después de la introducción (Gá. 1:1-10), en la que el apóstol habla de la complacencia de los gálatas hacia los falsos maestros, afirma vigorosamente la inspiración divina de la buena nueva que ha proclamado, defendiendo su autoridad apostólica (Gá. 1:1-2). Cristo se la ha conferido directamente. El apóstol no depende de los hombres. Muestra asimismo que la iglesia de Jerusalén y los doce habían admitido su apostolado (Gá. 2:1-10). En cuanto a su enseñanza, ésta no había variado nunca (Gá. 2:11-21), ni siquiera cuando Pedro, en Antioquía, parecía oponerse 441 con su comportamiento.
+
+En el cap. 3 Pablo defiende la doctrina de la justificación por la sola fe, experiencia que los mismos gálatas habían tenido (Gá. 3:1-5); se refiere a las Escrituras para demostrar que éste fue el camino que había seguido el mismo Abraham para alcanzar la salvación (Gá. 3:6-9). Pablo destaca asimismo algunas verdades escriturales con respecto a la ley: por cuanto demanda una obediencia perfecta como condición de salvación, la ley solamente arroja maldición y castigo (Gá. 3:10-12). Cristo, hecho maldición en nuestro lugar, nos ha liberado de la maldición (Gá 3:13, 14). Dios había ratificado el pacto de salvación por la fe celebrado con Abraham y su descendencia. Por ello, la ley, venida posteriormente, no podía anular el pacto hecho anteriormente (Gá. 3:15-18); la ley tenía como objeto ser una disciplina temporal, obligando a los hombres a que se dieran cuenta de que el pecado es transgresión a los mandamientos de Dios (Gá. 3:19, 20). La ley, así, hizo el papel de pedagogo, para conducir a los pecadores a Cristo (Gá. 3:21-24).
+
+En el cap. 4, el apóstol da a sus lectores razones adicionales para mostrar la genuinidad de su Evangelio: la adopción y herencia del hijo de Dios (Gá. 4:1-11); el afecto de los gálatas hacia Pablo (Gá. 4:12-20); el paralelismo que presenta la historia de Agar, Sara, y los hijos de ellas, con el pacto de Sinaí y el pacto de la gracia (Gá. 4:21-31). De Gá. 5:1-6:10 el apóstol ilustra la doctrina de la libertad acerca de la ley: exhorta a los gálatas a que salvaguarden esta libertad, y a practicar «la ley de Cristo», que es la del amor y de la ayuda mútua.
+
+El pasaje de Gá. 6:11-18, que Pablo probablemente escribió de su puño y letra, es la conclusión; recapitula allí la esencia de su enseñanza.
+
+(c) Importancia de la epístola a los Gálatas:
+
+(1) A causa de los detalles que ofrece sobre la vida del apóstol. La concordancia que presenta con el relato que se halla en Hechos de la vida de Pablo y de su relación con la iglesia ha sido fuertemente combatida, pero puede ser totalmente demostrada. Véase PABLO para las menciones cronológicas de la visita de Pablo a Jerusalén después de su conversión (Gá. 1:18, 19; Hch. 9:26-29), y la conferencia de Jerusalén (Gá. 2:2-10; Hch. 15). (2) La epístola demuestra además que los doce estaban de acuerdo con Pablo, quedando para él la comisión de evangelizar a los gentiles.
+
+(3) Con mayor concisión que la epístola a los Romanos, que es más detallada y menos vehemente, y por medio de ejemplos particulares, la epístola a los Gálatas da el mismo plan de salvación y la misma estimación de la dispensación hebrea. Todos los hombres, por lo que respecta a la Ley, se hallan bajo condenación como transgresores; por ello es imposible la salvación por las obras de la ley. Solamente Cristo puede salvar, por cuanto Él, por su muerte, ha dado satisfacción a las exigencias de la ley con respecto a aquellos que creen. La ley no fue nunca destinada a salvar, sino a ser un tutor o pedagogo (que entre los griegos era un esclavo que llevaba los niños a la escuela) para llevarnos a Cristo. Ahora ya no estamos bajo este pedagogo. Es por la fe que fue salvado Abraham, es por la fe, y solamente por la fe, que venimos a ser hijos de Abraham, participantes de la bendición, y herederos de la promesa. El judaísmo, como método de salvación, constituye una interpretación errónea del AT. La distinción entre judíos y gentiles ha quedado abolida. La proclamación de estas verdades pone de manifiesto que el cristianismo es una fe de alcance universal, y no una secta del judaísmo. Los primeros escritores cristianos se sirvieron mucho de esta epístola a los Gálatas; durante la 442 primera mitad del siglo II la usó Policarpo en la epístola a Diognetes; en la segunda mitad del mismo siglo, Justino Mártir, obispo de Sardis, y después Ireneo, Clemente de Alejandría, y Tertuliano, que la mencionan expresamente en sus citas. Figura en la versión Vetus Latina, y en el fragmento de Muratori.
+
+Bibliografía:
+
+E. F. Harrison: «Galatians», en The Wycliffe Bible Commentary (Moody Press, Chicago, Illinois, 1962);
+
+M. Lutero: «Commentary on Galatians» (Kregel Pub., Grand Rapids, Michigan, 1979); S. J. Mikolaski, «Gálatas», en Nuevo Comentario Bíblico (Casa Bautista de Publicaciones, El Paso, Texas, 1977);
+
+H. Rossier: «Reflexiones sobre la epístola a los Gálatas» (Ed. «Las Buenas Nuevas», Montebello, California, s/f);
+
+M. C. Tenney: «Gálatas, la carta de la libertad cristiana» (Clíe, Terrassa, 1973); H. F. Vos: «Gálatas, una llamada a la libertad cristiana» (Pub. Portavoz Evangélico, Barcelona, 1981).
+
+nom, GÁLBANO
+
+tip, LEYE FLOR
+
+vet,
+
+Ingrediente en la composición que se quemaba en el tabernáculo como incienso santo (Éx. 30:34).
+
+Se supone que se extraía de dos plantas umbelífaras, la «Ferula galbaniflua» y la «Ferula rubricaulis»; en heb. es «helb'nach».
+
+nom, GALILEA
+
+tip, PAIS REGI
+
+ver, MAR (de Galilea)
+
+sit, a1, 332, 371
+
+vet,
+
+(gr. «Galilaia», heb. «Gãlîl», «círculo», región, distrito).
+
+Originalmente se trataba del país montañoso de Neftalí (2 R. 15:29; 1 Cr. 6:76). Las 20 localidades de poca importancia que Salomón dio a Hiram se hallaban en Galilea (1 R. 9:11). Muchos cananeos se quedaron en este país (Jue. 1:30-33; 4:2). La expresión «Galilea de los gentiles» o de las «naciones» implica que la mayor parte de la población de esta región no era de raza judía (Is. 9:1; cp. 1 Mac. 5:15 y Mt. 4:15). El término Galilea fue denotando una región progresivamente mayor, extendiéndose desde el sur hasta la llanura de Esdraelón (1 Mac. 5:55; 10:30; 12:47, 49). Una gran cantidad de sus habitantes fueron deportados, particularmente por los asirios (2 R. 15:29).
+
+Los judíos que se establecieron en Galilea después del retorno del exilio fueron llevados a Judea por Simón Macabeo, hacia el año 164 a.C. (1 Mac. 5:23); pero, poco después, formó parte del reino de Herodes el Grande; a su muerte, quedó bajo el cetro del tetrarca Herodes. Galilea era la más septentrional de las tres provincias situadas al oeste del Jordán (si se omite Fenicia); estas provincias se corresponden con la división administrativa romana. El distrito se dividía en Alta y Baja Galilea. Las dos Galileas contaban con 240 ciudades y 443 pueblos (Josefo, Vida, 45). La mezcla de razas en Galilea había producido un acento peculiar (Mr. 14:70; Lc. 22:59; cp. Hch. 2:7).
+
+Se pretendía que de Galilea no salían profetas. Sin embargo, casi todos los apóstoles del Señor Jesús eran galileos; el mismo Señor, aunque nacido en Belén en Judea, se había criado en Galilea (Jn. 7:41, 52). Allí ejerció la mayor parte de su ministerio, tanto en los confines orientales del mar de Galilea como en el interior del país, Corazín, Betsaida, Capernaum, Naín, Caná y Nazaret.
+
+Galilea tiene algo más de 96 Km. de longitud norte-sur y unos 40 de anchura. Es un país accidentado, con montañas y fértiles valles. Los paisajes son pintorescos. La Baja Galilea es rica en cereales; ninguna de sus montañas sobrepasa los 564 m. Las cumbres de la Alta Galilea oscilan entre los 609 y los 1.219 m.
+
+nom, GALILEA (Mar de). Véase MAR DE GALILEA.
+
+nom, GALIÓN
+
+tip, BIOG FUNC HOMB HONT
+
+ver, SÓSTENES
+
+vet,
+
+Procónsul romano de Acaya en la época de la primera visita de Pablo a Corinto. Su nombre primitivo era Marco Anneo Novato; nacido en Córdoba, lo adoptó la familia de Lucio Junio Galión y adoptó entonces el nombre de Junio Anneo Galión. Hermano del filósofo Séneca, fue como él muerto por orden de Nerón.
+
+La fecha de su proconsulado en Corinto puede ser precisada gracias al descubrimiento de la Piedra de Delfos en 1905, que lo menciona.
+
+Ostentó este cargo de mayo del año 51 a mayo del 52. Después de que los judíos, exasperados por el éxito de Pablo en Corinto, lo llevaron delante del tribunal del procónsul, Galión rehusó prestar atención a sus litigios religiosos, y no hizo caso de la acusación. Asumió asimismo una total indiferencia a los excesos del populacho que, habiéndose apoderado de Sóstenes, principal de la sinagoga, le golpearon delante del tribunal (Hch. 18:12-17). (Véase SÓSTENES).
+
+nom, GALLINA, GALLO.
+
+tip, FAUN TIPO AVES ALIM
+
+vet,
+
+En el hebreo antiguo no existía una sola palabra para designar a este animal doméstico. La circunlocución «ceñido de lomos», o también «el nivel de los riñones rápidos» (Pr. 30:31), eran las más usadas para designarlo.
+
+Fue introducida en Palestina en tiempos de Salomón (1 R. 10:22). En Jb. 38:36 aparece como el anunciador del alba, y también en el Nuevo Testamento se habla de la gallina que reúne sus pollitos bajo sus alas, como símbolo de amor y cuidado maternales que Dios brinda a los suyos (Mt. 23:37).
+
+nom, GAMALIEL
+
+tip, BIOG HOMB HONT
+
+vet,
+
+«recompensa de Dios». Miembro del sanedrín, fariseo, doctor de la Ley, de gran prestigio entre los judíos. Les dio el 444 consejo de no perseguir a los apóstoles, alegando que si la obra que habían emprendido era humana, desaparecería, en tanto que, si venía de Dios, la oposición sería inicua y en vano (Hch. 5:34-39).
+
+Gamaliel había sido el maestro de Pablo, que estudió la Ley bajo su dirección (Hch. 22:3). Según el Talmud, Gamaliel era nieto de Hillel, el famoso rabino. Murió hacia el año 50 d.C.
+
+nom, GANADO
+
+tip, FAUN
+
+vet,
+
+Se usan varios términos hebreos en referencia a la vaca y al buey como «ganado». Sin embargo, el término «miqneh», frecuentemente usado para «ganado», significa «posesión», debido a que la principal propiedad de las tribus nómadas eran sus ganados. En el ganado se incluían también las ovejas y las cabras, pero no los caballos ni los asnos (Éx. 9:3-21, etc.).
+
+Otro término, «tson», significa ganado menor, esto es, ovejas y cabras (Gn. 30:39-43; 31:8-43; Ec. 2:7). «Seh» tiene este mismo significado (Gn. 30:32; Ez. 34:17-22).
+
+nom, GARICIM
+
+tip, MONT
+
+ver, GERIZIM
+
+sit, a2, 321, 193
+
+vet,
+
+La ortografía del nombre de esta montaña no es igual en las versiones castellanas; la Reina-Valera escribe Gerizim; otras, Garicim, Garizim, Guerizim. Ver GERIZIM.
+
+nom, GARIZIM
+
+tip, MONT
+
+ver, GERIZIM
+
+sit, a2, 321, 193
+
+vet,
+
+La ortografía del nombre de esta montaña no es igual en las versiones castellanas; la Reina-Valera escribe Gerizim; otras, Garicim, Garizim, Guerizim. Ver GERIZIM.
+
+nom, GASMU. Véase GESEM.
+
+nom, GAT
+
+tip, CIUD
+
+sit, a3, 146, 166
+
+vet,
+
+= «prensa de vino».
+
+Una de las cinco ciudades reales de los filisteos (Jos. 13:3; Jue. 3:3; 1 S. 6:17; 7:14; 17:52). Era famosa como residencia de los anaceos, últimos descendientes de una raza de gigantes (Jos. 445 11:22; cp. Nm. 13:33; Dt. 10:11). Es probable que tanto Goliat como los otros soldados gigantes pertenecieran a esta raza (1 S. 17:4; 2 S. 21:15-22; 1 Cr. 20:4-8). David recurrió a Aquis, rey de Gat, cuando le falló su fe en la protección de Dios (1 S. 27:2-4; cp. 21:10, 12). Cuando llegó a rey tomó Gat y sus ciudades, arrebatándolas de las manos de los filisteos.
+
+Uzías destruyó sus muros (1 Cr. 18:1; 2 Cr, 26:6).
+
+Después de Mi. 1:10 no se oye ya de Gat entre las ciudades de los filisteos (cp. Sof. 2:4; Zac. 9:5, 6). Puede que estuviera postrada en ruinas.
+
+Su identificación más probable es Tell es Sâfi, 31° 43' N, 34° 51' E, donde se hallan extensas ruinas y cisternas cavadas en las rocas.
+
+Vigilaba la entrada del valle de Ela.
+
+nom, GAVILÁN
+
+tip, FAUN LEYE AVES
+
+vet,
+
+Era entre los hebreos ceremonialmente inmundo, si bien era sagrado entre los griegos y egipcios (Lv. 11:16; Dt. 14:15).
+
+El nombre incluye varias especies de pequeñas aves de rapiña.
+
+nom, GAYO
+
+tip, BIOG HOMB HONT
+
+vet,
+
+Transcripción griega del latín Gayo.
+
+(a) Cristiano de Macedonia, y compañero de Pablo. Juntamente con Aristarco, fue arrestado y llevado al teatro durante el tumulto en Éfeso (Hch. 19:29). (b) Converso de Derbe de Licaonia y compañero de Pablo (Hch. 20:4). (c) Cristiano de Corinto a quien Pablo había bautizado, y que no sólo le había ofrecido hospitalidad a él, sino a toda la iglesia (Ro. 16:23; 1 Co. 1:14). (d) Converso de Juan, cuyo andar en la verdad y en el amor es alabado por el apóstol. Es el destinatario de su tercera Epístola (3 Jn. 1).
+
+nom, GAZA
+
+tip, CIUD
+
+sit, a3, 23, 217
+
+vet,
+
+Una de las cinco ciudades reales de los filisteos. De gran antigüedad, es mencionada ya en Gn. 10:19 como el límite de los cananeos.
+
+Los anaceos moraban allí, pero Judá conquistó Gaza y sus ejidos (Jos. 11:22; Jue. 1:18). Al llegar a la época de Sansón, los filisteos la habían vuelto a conquistar; Sansón fue hecho prisionero allí (Jue. 16:21).
+
+Después, Salomón se apoderó de ella (1 R. 4:24).
+
+Ezequías volvió a tomarla (2 R. 18:8).
+
+Posteriormente, el rey de Egipto la atacó (Jer. 47:1, 5).
+
+Al haber sido una fortaleza filistea, los profetas pronunciaron ayes sobre ella (Am. 1:6, 7; Sof. 2:4; Zac. 9:5). Gaza era una estación de las caravanas que iban y volvían de Egipto; su estratégica situación al 446 sur de Canaán le dio una gran importancia comercial.
+
+Fue tomada a su vez por Cambises, por Alejandro Magno, y por los Ptolomeos; en el siglo XII de nuestra era fue conquistada por los caballeros del Temple. Durante el imperio turco fue capital de su provincia.
+
+Pasó a formar parte del territorio de Egipto a raíz de la derrota de Turquía frente a Gran Bretaña en la Primera Guerra Mundial (1914-1918); en 1967 fue arrebatada a los egipcios por los israelitas, que la siguen manteniendo bajo su administración.
+
+nom, GAZER. Véase GEZER.
+
+nom, GEBA
+
+tip, CIUD
+
+vet,
+
+= «colina».
+
+Ciudad en el límite nororiental de Benjamín (Jos. 18:24). Fue una de las ciudades posteriormente entregadas a los levitas. Cuando la división del reino, vino a ser el extremo norte de Judá. De 1 S. 14:5 se deduce que Geba se hallaba al sur del paso de Micmas. La versión Reina-Valera dice aquí Gabaa; debería ser Geba. Ésta fue la escena de la aventurada empresa de Jonatán y su escudero contra los filisteos.
+
+Se identifica con el pueblo de Jeba', que ocupa la antigua localidad. Se halla a unos 10 Km. al norte de Jerusalén.
+
+Fue fortificada por Asa con materiales que su enemigo Baasa había usado para fortificar Ramá contra él (1 R. 15:22).
+
+Es frecuentemente confundida con Gabaa en diversas versiones, debido a lo parecido de los nombres en el original.
+
+nom, GEBAL
+
+tip, CIUD
+
+sit, a9, 546, 309
+
+vet,
+
+= «límite».
+
+También conocida como Biblos, la moderna Jebeil. Antigua ciudad de Fenicia, sobre el Mediterráneo, cerca de la desembocadura del río Adonis, 38° 8' N. Sus habitantes son llamados «giblitas» en Jos. 13:5. Había buenos canteros entre ellos, y ayudaron a la construcción del templo (1 R. 5:18). Se mencionan también los calafateadores y constructores de naves (Ez. 27:9).
+
+En la época de Alejandro Magno, la ciudad se sometió pacíficamente, y le proveyó de una flota para ayudarle en el asedio de Tiro (332 a.C.).
+
+Estrabón la menciona en la época de Pompeyo (106-36 a.C.) como una ciudad notable.
+
+nom, GEDALÍAS
+
+tip, BIOG SACE HOMB HOAT
+
+vet,
+
+«Dios es grande». (a) Hijo de Ahicam, que había sido protector de Jeremías. Fue hecho gobernador de los que 447 fueron dejados en la tierra cuando la deportación de los judíos después de la destrucción de Jerusalén por Nabucodonosor. Jeremías le acompañó. Evidentemente gobernó bien; fue asesinado traicioneramente por Ismael de Judá, que, según Josefo, era de la familia real (Ant. 10:9, 3). Gedalías había sido advertido, pero no quiso creer que Ismael pudiera ser capaz de tal traición (2 R. 25:22-25; Jer. 39:14; 40:5-16; 41:1-18; 43:6). (b) Levita, hijo de Jedutún (1 Cr. 25:3, 9).
+
+(c) Sacerdote que se casó con una mujer extranjera (Esd. 10:18). (d) Abuelo del profeta Sofonías (Sof. 1:1).
+
+(e) Hijo de Pasur, uno de los príncipes que hizo arrojar a Jeremías a la cisterna de la cárcel (Jer. 38:1).
+
+nom, GEDEÓN
+
+tip, BIOG JUEZ HOMB HOAT
+
+vet,
+
+= «cortante».
+
+Hijo de Joás, de la familia de Abiezer, de la tribu de Manasés; vivía en Ofra (Jue. 6:11). Mientras sacudía el trigo en el lagar, en Ofra, para sustraerlo a los bandidos madianitas, el ángel de Jehová lo llamó para que librara a su pueblo (Jue. 6:12-24). Gedeón ofreció inmediatamente un sacrificio (cp. Éx. 20:24). Aquella misma noche derribó el altar de Baal, que pertenecía a su padre, y erigió un altar a Jehová (Jue. 6:25-27). Los habitantes de la ciudad exigieron la muerte de Gedeón, pero su padre argumentó que Baal mismo debía defender su causa, si era dios. Gedeón recibió el nombre de Jerobaal: «Que Baal contienda». Gedeón convocó a los hombres de Manasés, de Aser, de Zabulón y de Neftalí (Jue. 6:35). Dudó sin embargo acerca de responder al llamamiento, hasta que quedó confirmado por el doble milagro del vellón de lana (Jue. 6:36-40). Redujo el número de su tropa de 32.000 hombres a 300, a fin de que la gloria de la victoria no fuera atribuida al hombre, sino a Dios. Atacó después el campamento de los madianitas, que estaba en el valle de Jezreel (Jue. 6:33), cerca del collado de More (Jue. 7:1). En su desbandada, los madianitas huyeron en dirección al Jordán y hacia su país (cerca del golfo de Ákaba) (Jue. 7:24-8:3). Gedeón y sus hombres persiguieron a los madianitas hasta los confines del desierto; tomaron prisioneros a los dos reyes de Madián, y después Gedeón les dio muerte (Jue. 8:4-21). Los israelitas quisieron ofrecer la corona a Gedeón, que la rechazó, reafirmando el principio teocrático: Jehová era el rey de Israel (Jue. 8:22). Entonces, Gedeón se hizo un efod con los pendientes de oro de los madianitas. Lo puso en Ofra, en el lugar que Jehová se le había aparecido y donde le había ordenado erigir un altar a Jehová para ofrecerle un holocausto (Jue. 6:12, 26).
+
+Es evidente que los grandes privilegios dados a Gedeón le indujeron a pensar que le estaba abierto el camino al sacerdocio, teniendo como el sumo sacerdote el derecho a consultar a Dios por el pueblo mediante el efod. Esta falta de prudencia tuvo funestas consecuencias: el efod vino a ser un lazo para él mismo, para su familia, y para todo Israel (Jue. 8:24-27; cp. Lv. 20:6). Gedeón tuvo numerosas esposas y 70 hijos, incluyendo el nefasto Abimelec. Gedeón murió a una edad avanzada (Jue. 8:29, 32; He. 11:32).
+
+nom, GEDOR
+
+tip, CIUD BIOG HOMB HOAT
+
+sit, a3, 305, 174
+
+vet,
+
+448
+
+= «muro».
+
+(a) Nombre de una población de Judá, a igual distancia entre Belén y Hebrón, y que está situada a dos millas del camino que comunica estas dos ciudades. (b) Un nombre de los que figura entre la posteridad de Judá se conserva de esa manera (1 Cr. 4:4-18).
+
+(c) Es también el nombre propio de un jefe de la tribu de Benjamín, antecesor de Saúl (1 Cr. 8:31; 9:37).
+
+(d) Un pueblo situado en territorio de Benjamín llevaba este nombre (1 Cr. 4:39). (e) Nombre de una población situada en el límite sudeste de Judá (1 Cr. 4:39).
+
+nom, GEHENA. Véanse CASTIGO ETERNO y SEOL.
+
+nom, GENEALOGÍA
+
+vet,
+
+Lista de antecesores de una persona o de una familia.
+
+La organización de Israel como nación hacía necesario guardarlas minuciosamente. El derecho a la sucesión al trono, al sumo sacerdocio, a la dirección de una tribu, de un clan, de una casa patriarcal, la misma pertenencia al pueblo escogido, dependían de las genealogías. Así, se hallan documentos genealógicos precisos desde el mismo origen de la nación judía (Gn. 35:22-26; cp. Gn. 35:36; 46:8-27; Éx. 6:14-25; Nm. 1:2, 18; 1 Cr. 5:7, 17). En la época de Esdras, debido a la pérdida de algunos registros, hubo muchos que no pudieron demostrar su línea sacerdotal, y fueron por ello excluidos del sacerdocio (Esd. 2:61, 62; Neh. 7:63, 64).
+
+Las «genealogías interminables» contra las que advertía Pablo a Timoteo y a Tito parecen haber sido las genealogías gnósticas de eones y de otros seres imaginarios (1 Ti. 1:4; Tit. 3:9).
+
+nom, GENEALOGÍA DE JESUCRISTO
+
+vet,
+
+Mateo 1:1-16 indica la descendencia directa de Cristo desde Abraham. En Lc. 3:23-38 se halla su genealogía en sentido inverso, remontándose hasta Adán, y hasta Dios.
+
+Mateo quiere probar el derecho legal de Cristo al trono de David y a las promesas del pacto que Dios había concertado con Abraham (Mt. 1:1).
+
+Lucas, iniciando su genealogía con el Segundo Adán, el Hijo eterno y unigénito de Dios, remonta la genealogía hasta el primer Adán, hijo de Dios por creación (Lc. 3:38). Parece que es para facilitar la memorización que Mateo, al citar el registro oficial, menciona tres veces catorce generaciones, con lo que hay 42 generaciones de Abraham a Jesús: 14 de Abraham a David, 14 de David a la deportación a Babilonia, y 14 desde esta deportación a Jesucristo. Para obtener esta simetría, se ha omitido la mención de los reyes Ocozías, Joás y Amasías entre Joram y Uzías en la segunda división. Pudiera ser que hubiera alguna omisión análoga en la última lista de 14 personas. Por su parte, Lucas enumera 41 nombres de David a Jesús, en tanto que Mateo da 28, o 31 si se añaden los tres monarcas citados. Si Salatiel y Zorobabel, mencionados por Mateo, son los mismos que aparecen en la lista de Lucas, cosa muy probable, se suscita el siguiente problema: Mateo da a Jeconías como padre de Salatiel, en tanto que Lucas da el nombre de Neri. En realidad, los dos evangelistas presentan, de David a Jesús, dos líneas diferentes, que divergen a partir de David. La primera pasa por Salomón, y la segunda por su 449 hermano Natán. En el cuadro adjunto se pueden observar las diferencias entre ambas genealogías.
+
+A estas divergencias se pueden dar dos explicaciones plausibles: (A) La Iglesia primitiva pensaba mayoritariamente que estas dos listas dan la genealogía de José. Juliano el Africano (220 d.C.) fue el primero del que sepamos que estudió la cuestión. Su teoría es que Melqui (Juliano poseía una copia defectuosa) y Matán, los abuelos de José citados en las dos genealogías, se habían casado, uno después del otro, con la misma mujer. Así, Elí y Jacob serían medio hermanos, teniendo la misma madre, aunque diferentes padres. Elí se habría casado y, muerto sin dejar descendientes, Jacob, siguiendo la ley del levirato (Dt. 25:6), hubiera tomado la viuda de su hermano, engendrando para su hermano un hijo, José. Ésta sería la razón de que Mateo dice: «Matán engendró a Jacob, y Jacob engendró a José», en tanto que Lucas declara: «José hijo de Elí, hijo de Matat». Admitiendo esta teoría, se puede resolver el problema con gran sencillez, admitiendo que la lista de Mateo menciona a los herederos legales al trono de David, en tanto que Lucas indica la ascendencia paterna de José. La línea de Salomón se extinguió con Jeconías, conocido también bajo el nombre de Joaquín (Jer. 22:29-30). El derecho a la sucesión pasa a la línea davídica colateral de Natán, hijo de David. Es Salatiel el representante de esta línea. Durante un corto período de tiempo, la descendencia real coincide con la ascendencia natural de José, pero después de Zorobabel las dos líneas divergen. La familia del primogénito, a quien correspondía el derecho de la sucesión al trono, acabó extinguiéndose, y los descendientes del menor adquirieron el derecho a la sucesión. Matat (en ocasiones identificado con Matán), que pertenecía a esta línea, vino a ser el heredero aparente. Se supone que tuvo dos hijos, Jacob y Elí. Jacob, el primogénito, no habría tenido hijos, sino probablemente una hija, la virgen María. Elí, el menor, tuvo un hijo, José; como Jacob no tenía ningún descendiente varón, José vino a ser el heredero de su tío y del derecho a la sucesión. El sentido entendido de la terminología genealógica permitía decir a Lucas: «José hijo de Leví». Esta es la primera teoría. (B) Con la Reforma surgió otra concepción de las dos genealogías, que parece la más ajustada a la realidad. Según esta teoría, el registro de Mateo da la genealogía de José, presentándolo como heredero del trono de David, en tanto que Lucas expone la genealogía de María, mostrando que Jesús es el verdadero hijo de David. Para ello se presentan tres argumentos: Lucas declara categóricamente que Jesús no tuvo padre humano; en hebreo se emplea corrientemente el término «hijo» para designar a un descendiente incluso remoto; finalmente, en el texto se dice solamente que se creía que Jesús era hijo de José (Lc. 3:23). Según Lucas, Jesús es nieto de Elí el padre de María, y por ello descendiente directo de David. La afirmación de Mateo, según la que Salatiel era hijo del rey Jeconías, en tanto que Lucas dice que era hijo de Neri, suscita un problema que no se relaciona solamente con esta segunda teoría, sino también con la primera. La solución pudiera ser muy sencilla: En el año 562 a.C., 25 años después de la caída de Jerusalén, era Jeconías quien, a pesar de su prolongado cautiverio, era reconocido virtualmente como rey de Judá (2 R. 25:27). Cuando fue deportado en el año 597 a.C., no tenía hijos. Era entonces relativamente joven, pero en 2 R. 24:8, 12, 15 no se mencionan niños entre los miembros de su familia. Jeremías había profetizado que no se sentarían hijos suyos en el trono (Jer. 22:30; cp. lo que se dice de su padre en Jer. 36:30). En Mt. 1:12 se dice: «Después de la deportación a Babilonia, Jeconías engendró a Salatiel.» En todas las Escrituras, los pasajes paralelos armonizan. Las dos genealogías son inteligibles si este versículo de Mateo se entiende según el sentido amplio de una fórmula genealógica indicativa de la sucesión real legal. A la muerte de Jeconías, el derecho al trono pasó a Salatiel, descendiente directo de David. Bien podría ser que hubiera estrechos lazos de parentesco entre Jeconías y Salatiel. Si Jeconías 450 no tuvo hijos, sino sólo una hija, el derecho de la sucesión hubiera pasado a los hijos de ella, según la Ley (Nm. 27:8-11). La fraseología de estas genealogías se explicaría de esta manera por la suposición de que Neri se casó con la hija de Jeconías, y que Salatiel fue su hijo. La línea de Salatiel fue contada conforme a la costumbre, remontando de su padre a Natán y a David; el derecho de Salatiel a la corona le venía de Jeconías, su abuelo materno. Jeconías descendía de Salomón y de David.
+
+En 1 Cr. 3:17 dice, en el original: «Y los hijos de Jeconías el cautivo: Salatiel su hijo». La aposición «su hijo» se aplica especialmente a Salatiel; lo califica de una manera particular en el sentido de que se juzga necesario repetir el término hijo; en tanto que ya figura formalmente dentro del grupo de los hijos de Jeconías. Este título así destacado de hijo estipula que Salatiel debía suceder a Jeconías. Si Salatiel era hijo de la hija de Jeconías, podía con todo derecho recibir el nombre de hijo de este último, al igual que Abiezer, hijo de la hermana de Galaad, hijo de Manasés, es contado entre el número de los hijos de Manasés y de los hijos de Galaad (1 Cr. 7:14, 18; Nm. 26:30).
+
+nom, GENERACIÓN
+
+vet,
+
+(a) Heb. «dor», lit. «círculo», de ahí edad, periodo, ciclo, se usa también en plural, «muchas generaciones» (Dt. 32:7); se usa de la gente viviendo en un ciclo, el grupo de personas nacidas aproximadamente al mismo tiempo «justo delante de mí en esta generación» (Gn. 7:1); «cuatro generaciones» (Jb. 42:16); se usa también de gente de un tipo o forma particular de ser, con una cierta implicación a unas cualidades heredadas; los malos (Dt. 32:5; Pr. 30:11); los justos (Sal. 14:5; 112:2).
+
+(b) Heb. «tõl'dhõth», «nacimientos», se usa así para denotar (A) un relato de un hombre y sus descendientes: «el libro de las generaciones de Adán» (Gn. 5:1);
+
+(B) o de familias sucesivas: «las familias de los hijos de Noé por sus descendientes» (Gn. 10:32); (C) o divisiones genealógicas: «Los hijos de Rubén... por su descendencia, por sus familias» (Nm. 1:20);
+
+(D) de manera figurada, de la historia del origen de las cosas creadas: «Estos son los orígenes de los cielos y de la tierra» (Gn. 2:4).
+
+(c) Gr. «genea»: «un engendramiento», «nacimiento», «natividad»; por ello: (A) los sucesivos miembros de una genealogía: «Todas las generaciones de Abraham hasta David» (Mt. 1:17);
+
+(B) una raza o clase, distinguida por características comunes, siempre malas en el NT: «¡Oh generación incrédula y perversa!» (Mt. 17:17);
+
+(C) las personas que ocupan un período: «No pasará esta generación» (Lc. 21:32); (D) una edad (el tiempo medio de una generación, 33 años): «Que había estado oculto desde los siglos y edades» (gr.: «escondido de edades y de generaciones ) (Col. 1:26). Este término se aplica también por transferencia de pensamiento a la duración de la eternidad «Por todas las edades, por los siglos de los siglos».
+
+(d) Gr. «génesis» «fuente» «origen»: «Libro de la genealogía de Jesucristo (Mt. 1:1; Reina-Valera 1909 «Libro de la generación»).
+
+(e) Gr. «génnëma», «descendencia», «progenie», en forma figurativa «¡Oh generación de víboras!» (Lc. 3:7) (f) Gr. «génos», «raza», en este caso espiritual: «Mas vosotros sois linaje escogido» (1 P. 2:9). 451
+
+nom, GÉNEROS LITERARIOS
+
+ver, LITERATURA EN LA BIBLIA, EXÉGESIS, GRIEGO BÍBLICO, TEXTO Y VERSIONES CLÁSICAS DE LA BIBLIA
+
+vet,
+
+Es una expresión más común entre los exegetas y biblistas católico-romanos para expresar la disciplina del estudio de las fuentes que contribuyeron a la formación de los textos bíblicos. La expresión es usada a partir de los estudios del dominico francés José María Lagrange, y oficialmente se empezó a usar en la Encíclica «Spiritus Paraclitus» del papa Benedicto XV, y se hizo aún más aceptada por la de Pío XII «Divino Afflante Spiritu» (de 30 sept. 1943), que abrió las puertas a una investigación seria de la Biblia en la Iglesia de Roma, donde los biblistas fueron muchas veces perseguidos por no estar siempre de acuerdo sus investigaciones con la doctrina oficial de Roma.
+
+La frase «géneros literarios» encierra en realidad varias disciplinas que los protestantes habían cultivado ya desde el siglo XVIII tales como el estudio de las «unidades redaccionales» (Formgeschichte), el lugar y ambiente (Sitz im Leben), Alta Crítica (Higher Chriticism), Historiografía y Critica Textual (Lower Chriticism).
+
+Entre los protestantes destacan: Julius Wellhausen (1844-1918), Johann Gottefried Eichhorn (1752-1827), Rudolph Bultmann (1884-1979) y sus colegas Gunkel, H. Gressmann, O. Eissfeldt y A. Bentzen. Estos autores están considerados entre los exponentes de la llamada «Alta Crítica».
+
+En el estudio de la Crítica Textual, también llamada «Baja Crítica», los pioneros en el campo protestante son Konstantine von Tischendorf (1815-1874), los obispos anglicanos Brooke Foss Westcott (1825-1901) y Joseph Barber Ligthfoot (1828-1889), de Durham, y Rudolph Kittel (1853-1929) y su hijo Gerhard Kittel (1888-1948). Entre los católicos podemos enumerar al mismo José María Lagrange y al jesuita español José María Bover. La crítica textual ha dado muchos frutos para el estudio y edición de los textos científicos de la Biblia que redundan en la piedad y espiritualidad en las Iglesias cristianas. Esta disciplina es aceptada y apreciada también por los evangélicos conservadores, pero no así la llamada Alta Crítica. (Véanse LITERATURA EN LA BIBLIA, EXÉGESIS, GRIEGO BÍBLICO, TEXTO Y VERSIONES CLÁSICAS DE LA BIBLIA).
+
+nom, GENESARET
+
+tip, LLAN
+
+ver, MAR
+
+sit, a1, 479, 275
+
+vet,
+
+(La primera sílaba del nombre es una evidente derivación del heb. «gan», «vergel»; pudiera ser un compuesto, «gannë sãrîm», «vergel principesco»).
+
+Nombre de una llanura que bordea el lago de su nombre, o mar de Galilea (véase) por el noroeste. Tiene unos 2 Km. de anchura y 5 Km. de longitud norte-sur, llegando cerca de Tell Hum. Tiene algunos manantiales, además de tres arroyos que lo cruzan. Bien irrigado, es sumamente fértil. Josefo da una entusiasta descripción (Guerras 3:10, 8). Al estar cerca de Capernaum, es 452 indudable que el Señor lo recorrió con frecuencia, y que allí tuvieron lugar muchos de sus milagros (Mt. 14:34; Mr. 6:53).
+
+Su nombre árabe es el Ghuweir.
+
+nom, GÉNESIS
+
+tip, LIBR LIAT
+
+ver, CREACIÓN, DILUVIO, BABEL, GENERACIÓN, PENTATEUCO, CRONOLOGÍA BÍBLICA, ÁNGEL DE JEHOVÁ, ABRAHAM, MARDIKH (TELL) vet,
+
+Gr. «génesis», «origen».
+
+Nombre que se le da en la versión LXX al primer libro del AT; proviene del heb. «B'rëshith», «en el principio», frase con la que comienza el libro.
+
+Génesis se divide en tres secciones:
+
+(a) Descripción del mundo, su creación y sus relaciones con Dios, comienzo de la historia humana (Gn. 1:1-2:2).
+
+(b) Esquema de la historia de la humanidad antes de Abraham; revelación de las relaciones entre Dios y la raza humana; comienzo de la historia del pueblo escogido (Gn. 2:4-11:26). (c) Historia del pueblo del pacto hasta su ida a Egipto (Gn. 11:27-50:26). Respecto a la primera sección, véase CREACIÓN. Con respecto a la segunda sección, véanse DILUVIO, BABEL, etc.
+
+(a) SINOPSIS.
+
+Una breve sinopsis de Génesis es como sigue:
+
+Creación del universo y de la tierra con todo lo que ésta contiene (Gn. 1:1-2:3); relato particularizado de la creación del hombre y de la mujer (Gn. 2:4-25); la caída (Gn. 3),
+
+progreso del pecado (Gn. 4:1-15),
+
+la línea impía (Gn. 4:16-24),
+
+la línea elegida (Gn. 4:25-5:32),
+
+el aumento del pecado (Gn. 6:1-8),
+
+el diluvio (Gn. 6:9-9:17),
+
+la repoblación de la tierra (Gn. 9:18-10:32),
+
+la construcción de la torre de Babel (Gn. 11:1-9) y
+
+el origen de la raza semítica (Gn. 11:10-26),
+
+el inicio de la carrera de Abraham, su llamamiento, su peregrinación en Canaán (Gn. 11:27-25:10),
+
+la vida de Isaac, desde la muerte de su padre hasta la partida de Jacob hacia Mesopotamia (Gn. 25:11-27:40),
+
+la vida de Jacob desde su partida a Mesopotamia hasta la muerte de Isaac (Gn. 27:41-35:29), la descendencia de Esaú (Gn. 36),
+
+el comienzo de la historia de José hasta que fue vendido en Egipto (Gn. 37), el pecado de Judá (Gn. 38),
+
+la condición de José en Egipto (Gn. 39-45),
+
+las circunstancias relativas a la vida de Jacob, de su familia y de José en Egipto (Gn. 46-49), la muerte de Jacob y de José (Gn. 50). Génesis tiene diez divisiones naturales que tienen como encabezamiento la fórmula «Éstos son 453 los orígenes» (heb. «tol'doth», véase GENERACIÓN), o traducciones equivalentes (Gn. 2:4; 5:1; 6:9; 10:1; 11:10; 11:27; 25:12; 25:19; 36:1, 9; 37:2).
+
+Para la cuestión del autor, de la unidad, autenticidad, véase PENTATEUCO.
+
+(b) MENSAJE ESPIRITUAL.
+
+Este libro fundamental nos introduce de una manera magistral en la revelación escrita de Dios. Al explicarnos los orígenes traza, simultáneamente, las líneas maestras que conducen a través de toda la Biblia hasta la consumación final del Apocalipsis. En Génesis hallamos efectivamente el origen de todas las cosas: la creación de los cielos y de la tierra, del hombre, del paraíso, del árbol de la vida, la primera mención del tentador, la caída y el comienzo del pecado entre la raza humana, primer juicio universal mediante el agua, la torre de Babel, confusión de las lenguas, la vocación del pueblo de Dios. En el Apocalipsis todo se consuma: nuevos cielos y nueva tierra, la humanidad glorificada, el paraíso eterno y el árbol de la vida (Ap. 2:7; 22:2), castigo definitivo de Satanás, fin del pecado, segundo juicio universal por fuego (Ap. 20:11; 2 P. 3:5-12), reunión de los hombres de todas las lenguas alrededor del Cordero (Ap. 5:9), su reinado eterno en la Nueva Jerusalén en la presencia inmediata de Dios (Ap. 21:22).
+
+En ello se tiene una de las pruebas de la extraordinaria unidad de la inspiración de la Biblia, escrita a lo largo de unos 16 siglos por un cúmulo de diferentes autores. Como es natural, Génesis es citado incesantemente de manera directa o indirecta en el AT. El Señor se presenta constantemente como «el Dios de Abraham, de Isaac y de Jacob», nombre que sería incomprensible sin el libro de Génesis. Y tampoco se podrían concebir ni el origen ni el llamamiento de Israel sin este libro. Nos hallaríamos con un gran vacío si careciéramos de los primeros 11 capítulos, que sirven como semillero de toda la historia de la redención. Señalemos también que los capítulos 12-50 (39 capítulos, casi 3/4 del libro) se dedican a cuatro biografías, llenas de enseñanzas acerca del individuo, de la familia, de la educación, y de la acción de Dios a través de las generaciones.
+
+En cuanto al NT, hay más de 60 citas de Génesis:
+
+Cristo mismo confirma sus principales relatos:
+
+la creación del hombre y de la mujer (Mt. 19:4-6),
+
+asesinato de Abel (Lc. 11:49-51),
+
+el diluvio (Lc. 17:26-27),
+
+Abraham, Isaac y Jacob (Mt. 22:32; Jn. 8:56),
+
+circuncisión de los patriarcas (Jn. 7:21-23), etc.
+
+Esteban hace en Hechos un resumen desde el llamamiento de Abraham hasta el descenso a Egipto con José (Hch. 7:1-17).
+
+Pablo hace constantes alusiones a los personajes y a los hechos espirituales de Génesis (por ej., Ro. 4; 5:12-21; 9:7-13; 1 Co. 11:7-12; 2 Co. 11:3; Gá. 3:6-18; 4:21-31; 1 Ti. 2:13, etc.). En cuanto a la epístola a los Hebreos, cp. Melquisedec (He. 7:1-22), sobre la creación, y sobre los patriarcas, desde Abel hasta José (He. 11:3-22).
+
+(c) LUGAR OCUPADO POR CRISTO. El lugar ocupado por Cristo en Génesis es lo que da un mayor valor a este libro. El mismo Jesús 454 advirtió que Moisés había escrito de él, y que si no creemos a Moisés no podremos creer en sus palabras (Lc. 24:25-27, 44; Jn. 5:46-47; 8:56).
+
+Ya en el relato de la Creación podemos ver una alusión velada a la Trinidad con el plural usado a propósito de Dios (Gn. 1:1, Elohim, etc.), y en el consejo tenido en el seno de la Deidad en el momento de la creación del hombre (Gn. 1:26; cp. Jn. 1:1-3; Col. 1:16; He. 1:10). Adán era figura de Aquel que había de venir (Ro. 5:14, 15; 1 Co. 15:22, 45-49). La promesa de la simiente de la mujer que aplastará la cabeza de la serpiente (Gn. 3:15) recibe el nombre de «protoevangelio», el primer anuncio de la redención mediante la encarnación y sufrimientos. Abel es declarado justo por su fe en un sacrificio cruento, más excelente que el de Caín (Gn. 4:4; He. 11:4).
+
+El agua del diluvio fue una figura del bautismo, y el arca es una de las imágenes de la salvación en Cristo, que pasa a través del juicio dando refugio a los que se allegan a Él, y que mueren y resucitan con Él (1 P. 3:21; Ro. 6:3-4).
+
+Melquisedec es un tipo de nuestro eterno y perfecto Sumo Sacerdote (Gn. 14:18-20; He. 7:1-8, 24-25).
+
+El ángel de Jehová (véase) es igualmente una teofanía, una manifestación de Aquel que da evidencia visible de la presencia de Dios (Gn. 16:7 ss.; 18:2 ss.; 22:11 ss.; 32:24 ss.). El sacrificio de Isaac, el hijo único tanto tiempo esperado, en Moria (cp. 2 Cr. 3:1), presenta analogías extraordinarias con las del Hijo unigénito de Dios casi en el mismo lugar (Gn. 22; He. 11:17-19; Gá. 3:16).
+
+Silo, el soberano, vendrá un día de la tribu de Judá (Gn. 49:9-10). Es así que se precisa la línea del Mesías: nacerá de nuestra raza (Gn. 3:15), el pueblo originado en Abraham (Gn. 22:17-18), de la tribu de Judá (Gn. 49:10), de la familia de David (2 S. 7:13-16), de María (Lc. 1:32).
+
+(f) MARCO HISTÓRICO.
+
+Con respecto al marco histórico de Génesis, véanse última sección de ABRAHAM, MARDIKH (TELL), PENTATEUCO, y también CREACIÓN, DILUVIO.
+
+Bibliografía:
+
+J. G. Bellet: «The Patriarchs» (Bible Truth Publishers, Oak Park, Illinois, s/f); J. Calvino: «Génesis» (Banner of Truth, Londres, reimp. 1975); R. S. Candlish: «Studies in Genesis» (Kregel Pub., Grand Rapids, Michigan, 1979); U. Cassuto: «From Adam to Noah» (The Magnes Press, The Hebrew University, Jerusalem, 1961/72);
+
+C. F. Keil y F. Delitzsch: «The Pentateuch» (William B. Eerdmans Publishing Co., Grand Rapids, Michigan, reimp. 1981);
+
+H. C. Leupold: «Exposition of Genesis» (2 vols., Baker Book House, Grand Rapids, Michigan, 1942/1981);
+
+A. Jukes: «Types in Genesis» (Kregel Pub., Grand Rapids, Michigan, 1976); C. H. Mackintosh: «Génesis» (Ed. «Las Buenas Nuevas», Montebello, California, 1964); H. M. Morris: «The Genesis Record» (Creation-Life Publishers, San Diego, California, 1976); E. J. Young: «Una introducción al Antiguo Testamento» (T.E.L.L., Grand Rapids, Michigan, 1977) y
+
+E. J. Young:«Studies in Genesis One» (Reformed and Presbyterian Pub. Co., Nutley, N. J., 1975).
+
+nom, GENTILES
+
+455
+
+ver, EXTRANJERO
+
+vet,
+
+Todas las naciones que no eran de la raza israelita (Is. 49:6; Ro. 2:14; 3:29). Los judíos eran el pueblo escogido de Dios; su elevada religión contrastaba de manera acusada con los falsos cultos de los gentiles. Había rigurosas leyes para impedir la corrupción de las costumbres y de la verdadera religión, penando la promiscuidad con los idólatras. Ello indujo a los judíos a menospreciar a los gentiles, y a ser injustos con ellos. Dios había escogido a Israel para que fuera «luz de los gentiles» (Is. 49:1-6); tenía también promesas para ellos (Is. 2:2-4; Am. 9:12; Zac. 9:7).
+
+Pedro, instruido por la visión en Jope, cruzó la barrera que separaba a los israelitas de los paganos, visitó a Cornelio el gentil, comiendo con él, lo que escandalizó mucho incluso a los judíos cristianos (Hch. 10:28; 11:3).
+
+Cuando Pablo, desde la escalera de la torre Antonia, declaró que Dios le había dado la comisión de predicar a los gentiles, los judíos congregados en el patio del templo exigieron su muerte con gran clamor (Hch. 22:21, 22).
+
+Las iglesias primitivas estaban formadas principalmente por gentiles. El primer concilio de Jerusalén rechazó la imposición de la carga de las ordenanzas mosaicas a los cristianos provenientes de los gentiles (Hch. 15:1-29). (Véase EXTRANJERO).
+
+nom, GERA
+
+tip, MEDI BIOG HOMB HOAT
+
+vet,
+
+= «grano».
+
+(a) La menor de las medidas de peso, y base en el sistema de pesas de los judíos. Era la veinteava parte de un siclo (Éx. 30:13; Lv. 27:25; Nm. 3:47). (b) También se usa como nombre propio:
+
+Hijo de Benjamín (Gn. 46:21). Probablemente representa un clan familiar, puesto que Ehud y Simei se llaman «hijos de Gera» (Jue. 3:15; 2 S. 16:5).
+
+nom, GERAR
+
+tip, CIUD
+
+sit, a3, 95, 276
+
+vet,
+
+= «recipiente circular».
+
+Ciudad antigua del sur de Palestina en una región fértil cerca de Gaza (Gn. 10:19; 2 Cr. 14:13). Ocupada en tiempos antiguos por los filisteos (Gn. 36:1). Identificada comúnmente con un terraplén inmenso cubierto de ruinas al sur de Khirbet-el Gerar.
+
+nom, GERGESENOS. Véanse GADARA, GADARENOS.
+
+nom, GERGESEOS
+
+tip, TRIB
+
+vet,
+
+Pueblo descendiente de Canaán (Gn. 10:16), relacionado con los cananeos en la lista de tribus o naciones que moraban en el país (Gn. 15:21; Dt. 7:1; Jos. 3:10; 24:11; Neh. 9:8). Los hay que suponen que este nombre sobrevivió en el de «gadarenos». Sin embargo, Josefo 456 afirma que no se sabía nada de cierto (Ant. 1:6, 2).
+
+Las identificaciones con los Qarquish de los registros egipcios de Ramsés II y con los Kirkishati de una tableta asiria son dudosas.
+
+Probablemente estaban emparentados estrechamente con los heteos.
+
+nom, GERIZIM
+
+tip, MONT
+
+ver, EBAL
+
+sit, a2, 321, 193
+
+vet,
+
+(y EBAL)
+
+Montañas que forman el flanco sur del valle donde floreció la antigua Siquem, hoy Nablús. El monte Gerizim se eleva a 868 m. sobre el nivel del mar. Cuando los israelitas conquistaron la Palestina central, Josué llevó al pueblo a ese lugar, y repartiendo la mitad de las tribus en Gerizim y la otra mitad en Ebal, hizo que repitieran las bendiciones y las maldiciones de la ley (Dt. 11:29; 27:12, 13). En ese mismo lugar, Jotam, hijo de Gedeón, habló por parábolas al pueblo de Siquem (Jue. 9:7). Los samaritanos construyeron un templo de Gerizim, constituyéndolo en monte sagrado. Se refirió a él la mujer samaritana en su conversación con Jesús (Jn. 4:20-21). La pequeña comunidad samaritana que aún existe celebra allí la fiesta de la Pascua con inmolación del cordero según el antiguo ritual.
+
+La ortografía del nombre de esta montaña no es igual en las versiones castellanas; la Reina-Valera escribe Gerizim; otras, Garicim, Garizim, Guerizim.
+
+nom, GERSÓN
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «expulsión». Gersonitas.
+
+El hijo mayor de los tres de Leví, de quien recibieron su nombre las tres ramas de los levitas (Gn. 46:11; Éx. 6:16. Los hijos de Gersón fueron Libni y Simei (Éx. 6:17; 1 Cr. 6:17, 20, 21, 39-43). Durante la peregrinación por el desierto, sus descendientes tenían como misión el transporte del tabernáculo.
+
+Asaf, el famoso cantor y profeta, era de su linaje.
+
+En el censo hecho en el Sinaí los varones gersonitas llegaron a 7.500. Les fueron repartidas trece ciudades en el norte de Canaán, siendo dos de ellas ciudades de refugio (Jos. 21:6, 27-33; 1 Cr. 6:62, 71-76).
+
+nom, GESEM
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «corporeidad».
+
+Un árabe que, junto con Sanbalat y Tobías, intentó impedir la reconstrucción de Jerusalén (Neh. 2:19; 6:1, 2).
+
+En Neh. 6:6 se le da el nombre de Gasmu, posiblemente la forma asiria. Se ha especulado que se tratara del jefe de una tribu árabe establecida en Palestina en tiempos de 457 Sargón, cuando la repoblación del norte con gentes extranjeras, o quizás establecida en tierras de Judá en la época del exilio babilónico.
+
+nom, GESUR
+
+tip, PAIS
+
+sit, a6 379, 142
+
+vet,
+
+= «puente».
+
+Distrito situado entre Hermón y Basán, en los confines de Argob (Dt. 3:14; Jos. 12:5; 13:11, 13; 1 Cr. 2:23).
+
+Este país se encontraba, indudablemente, al este de Maaca, por cuanto Maaca tocaba a Neftalí. El país de Gesur probablemente se extendía del lago de Galilea a Basán; era un reino arameo (2 S. 13:37; 15:8); David tomó como esposa a una mujer de Gesur; Absalón, el hijo que tuvo con ella, se refugió allí después de haber dado muerte a Amón (2 S. 3:3; 13:37).
+
+nom, GETSEMANÍ
+
+tip, LUGA
+
+vet,
+
+Derivado del arameo: «prensa de aceite».
+
+Nombre del huerto en el monte de los Olivos donde el Señor Jesús se reunía frecuentemente con sus discípulos. Fue allí que pasó una parte de la noche después de la última Pascua, y donde sufrió una intensa agonía ante la perspectiva de tener que apurar la copa de la ira divina por el pecado. Allí vinieron ángeles a servirle. Allí también fue traicionado por Judas con un beso, y arrestado (Mt. 26:36; Mr. 14:32; Lc. 22:39; Jn. 18:1, 2).
+
+El lugar tradicional está totalmente vallado, y mantenido como jardín, en la ladera noroeste del monte Olivete.
+
+Está frente y no lejos de la puerta de San Esteban.
+
+Hay algunos venerables olivos, de los que se dice que son los que había allí en tiempos del Señor. Sin embargo, no pueden ser los mismos, por cuanto Tito, durante el asedio de Jerusalén en el año 70, hizo talar todos los árboles cercanos a la ciudad (Guerras, 6:1, 1). Los existentes, aunque muy antiguos, tienen que ser posteriores. No hay certeza en cuanto a la exacta localización del sitio donde el Señor pasó su agonía, a pesar de la localización tradicional.
+
+nom, GEZER
+
+tip, CIUD
+
+sit, a2, 215, 390
+
+vet,
+
+= «precipicio».
+
+Ciudad antigua de los cananeos colindante con Efraín (1 Cr. 7:28) y dada a los levitas (1 Cr. 6:62-67).
+
+Los efrainitas cometieron la falta de no expulsar al cananeo, dejándolo como tributario (Jue. 1:29).
+
+Fue uno de los lugares más importantes en las guerras de los macabeos (libro apócrifo 1 Mac. 9:52).
+
+Identificado con el moderno Tel-el Dyeser. Una piedra en las ruinas lleva la siguiente inscripción en hebreo y griego: «límite de Gezer». 458
+
+nom, GIBETÓN
+
+tip, CIUD
+
+sit, a3, 214, 6
+
+vet,
+
+= «montículo».
+
+Ciudad de refugio en Dan, quizá la moderna Dyibia al nordeste de Lyda (Jos. 19:44; 21:23). Sufrió dos sitios, uno por Nadab, rey de Israel, y veinticinco años más tarde por Omri, proclamado rey por el ejército (1 R. 15:27; 16:15-17).
+
+nom, GIEZI
+
+tip, BIOG HOMB HOAT
+
+vet,
+
+= «valle de vista».
+
+Siervo de Eliseo (2 R. 4:12-27; 5:20-27).
+
+Es tipo del hombre cuya avaricia le arruina. Su entrevista con el rey de Israel después de haber sido castigado con la lepra presenta dificultades. Los rabinos suponen que Giezi, arrepentido, había sido sanado por el profeta.
+
+nom, GIGANTES
+
+vet,
+
+El Antiguo Testamento habla con frecuencia de hombres de la Antigüedad cuya fuerza física y altura les ganó el nombre de «gigantes», traducción de tres términos hebreos: (a) «Nephilim».
+
+Etimológicamente significa seres caídos, seres delante de quienes uno cae en admiración, o bien «hombres de renombre».
+
+Según la mitología grecolatina, los gigantes eran seres fabulosos, hijos de la Tierra y de Tártaro, que pretendían escalar el cielo en su furia contra los dioses. Pero «nephilim» no implica grande estatura ni en Gn. 6:4 ni en Nm. 13:33, los únicos textos en que se mencionan. Las frases «vimos allí gigantes..», «éramos como langostas» es una hipérbole para expresar el miedo que les causaron.
+
+(b) Gibborim.
+
+Significa «los fuertes» o «los héroes». No se justifica la traducción gigantes. (c) Los «rephaim».
+
+Éste es el equivalente exacto de «gigantes» y se refiere a ciertos antiguos habitantes de Canaán (2 S. 21:15-16, 20-22; 1 Cr. 20:4, 6, 8). Hasta en los días de David los tenemos en Gat, entre los filisteos. Un nombre geográfico, el valle de los «Refaim», cerca de Jerusalén, indica cuando menos su paso por ese rumbo (Jos. 15:8; 2 S. 5:18). Los datos proporcionados en Gn. 14 y confirmados por Dt. 2:10-26 se remontan a una época muy antigua. Es fácil que la Palestina fuera poblada por los «rephaim» antes de la entrada de los cananeos, en el tercer milenio a.C. Goliat era racialmente de los «rephaim», si bien, políticamente, filisteo. Medía unos 2'60 m. de altura; la cama de Og (otro de los gigantes famosos) medía unos 3'50 m. de largura. Después de David no se menciona a los gigantes «rephaim».
+
+nom, GIHÓN
+
+459
+
+tip, FUEN RIOS
+
+ver, DILUVIO
+
+vet,
+
+=«salto o cascada».
+
+(a) Única fuente de agua viva en la proximidad de Jerusalén, mencionada tres veces en el Antiguo Testamento (1 R. 1:33, 45; 2 Cr. 32:30; 33:14).
+
+Se encuentra en el costado derecho del valle del Cedrón a 636 m. de altura frente a la aldea de Siloé.
+
+Desde la época cananea se emprendieron obras hidráulicas para conducir el agua dentro de los muros de Jerusalén en beneficio de los habitantes durante cualquier sitio (1 Cr. 11:6). (b) Llámase Gihón también a uno de los cuatro ríos del paraíso (Gn. 2:4), y se ha intentado inútilmente identificarlo con diversos ríos. Evidentemente, el diluvio provocó inmensos cambios en las formas de la superficie de la tierra. (Véase DILUVIO).
+
+nom, GILBOA
+
+tip, LUGA MONT
+
+sit, a2, 399, 134
+
+vet,
+
+= «fuente borboteante».
+
+Terreno montañoso en el que, derrotados por los filisteos, hallaron la muerte Saúl y Jonatán (1 S. 28:4; 31:1, 8; 2 S. 1:6, 21; 21:12; 1 Cr. 10:1, 8).
+
+Cuando llegaron las nuevas a David, dijo, en sus lamentaciones: «Montes de Gilboa, ni rocío ni lluvia caiga sobre vosotros, ni seáis tierras de ofrendas.». Se ha identificado con el monte Jebel Faku'a.
+
+Se levanta sobre el borde oriental de la llanura de Esdraelón. Tiene un imponente aspecto visto desde la llanura, pero su cumbre más alta no pasa de los 517 m.
+
+Su orientación es de noroeste a sudeste y sur. Es posible que Jelbun, una pequeña población en su ladera occidental, sea una forma del antiguo nombre Gilboa.
+
+nom, GILGAL
+
+tip, LUGA
+
+sit, a2, 427, 411
+
+vet,
+
+= «círculo de piedras», «rodar» y «oprobio» en Jos. 4:20. (a) Primer campamento de Israel después de cruzar el Jordán (Jos. 4:19; 5:2-9). Parece que Josué tuvo su cuartel general allí hasta quebrantar la fuerza de los cananeos en la batalla del lago Merom (Jos. 14:6; Jue. 2:1). Se consideró como lugar sagrado (1 S. 10:8; 11:14; 13:7-14; 15:12, 21-23). Los que permanecieron leales a David lo encontraron allí después de la muerte de Absalón (2 S. 19:12, 40). En el siglo VIII a.C. fue un santuario idólatra (Os. 4:15; Am. 5:5). (b) Un lugar entre Bet-el y Siquem incluido en la visita anual de Samuel, y lugar de encuentro entre Elías y Eliseo (1 S. 7:16; 2 R. 2:1). Hoy Dyldylia.
+
+(c) Un lugar al este del monte Gerizim, hoy Dyuledyl (Dt. 11:30; Jos. 12:23). (d) Un lugar fronterizo de Judá también llamado Guelilothy Beth-Guilgal (Jos. 15:7; 18:17; Neh. 12:29).
+
+nom, GILO
+
+460
+
+tip, LUGA
+
+vet,
+
+= «destierro».
+
+Lugar en las montañas de Judá (Jos. 15:51; 2 S. 15:12; 17:23).
+
+nom, GIMNASIO
+
+vet,
+
+(del gr. «gumnos», «desnudo»).
+
+Lugar de ejercitación física. Eran instituciones de carácter oficial en las que los jóvenes, desnudos (de ahí su nombre), aprendían diversas disciplinas deportivas. En Jerusalén se construyó uno en época del sumo pontífice Jasón, a pesar de la oposición procedente de los círculos religiosos judíos (cfr. 1 Mac. 1:12-16). Esta práctica llevó a la introducción de otros usos paganos entre los judíos, lo que llevó a la reacción macabea frente a la apostasía.
+
+En el Nuevo Testamento se muestra la ínfima importancia del ejercicio corporal frente a la ejercitación en la piedad (1 Ti. 4:8), útil para todo.
+
+nom, GIMZO
+
+tip, CIUD
+
+vet,
+
+= «rico en sicómoros».
+
+Ciudad del territorio distribuido a la tribu de Dan, tomada por los filisteos. Se encontraba en el camino que lleva de Jope a Jerusalén; hoy se llama Jimzu (2 Cr. 28:18).
+
+nom, GITAIM
+
+tip, LUGA
+
+vet,
+
+= «dos lagares».
+
+Lugar ocupado por los benjaminitas de la cautividad (2 S. 4:3; Hch. 11:33).
+
+nom, GITIT
+
+tip, MUSI
+
+vet,
+
+= «perteneciente a Gat».
+
+Nombre que se encuentra en los títulos de los Sal. 8, 81 y 84. probablemente denota un instrumento musical o una melodía procedente de Gat, lugar donde David habitó por algún tiempo durante la persecución que le hacía Saúl (1 S. 27:1-7). La palabra «Gat» significa «prensa de vino» en hebreo; de ahí que algunos estudiosos deduzcan que Gitit signifique una melodía que se cantaba durante la vendimia.
+
+nom, GLORIA
+
+ver, TEOFANÍA
+
+vet,
+
+Heb. «kabod», «peso»; gr. «doxa».
+
+(a) El primer sentido es el de ornamento: Salomón, en toda su gloria, va revestido de ropajes regios (Mt. 6:29),
+
+461
+
+el cabello es la gloria de la mujer (1 Co. 11:15),
+
+la fuerza es la gloria de los jóvenes (Pr. 20:29),
+
+los padres son la gloria de los hijos (Pr. 17:6).
+
+También se menciona la gloria del Líbano (Is. 35:2) y
+
+la gloria de las naciones (Ap. 21:26)
+
+(b) La gloria de Dios es el resplandor que emana de su persona, el aura cegadora de todas sus perfecciones. Esta gloria, comparable a un fuego devorador (Éx. 24:17), anonada, abate e inspira temor, respeto y adoración; el hombre no puede ver la gloria real de Dios y seguir vivo (Éx. 33:18, 20, 22). Así, todos aquellos que han tenido un encuentro con el Señor reciben algo de ella: Israel y Moisés ante el tabernáculo (Éx. 40:34, 35).
+
+Salomón en la dedicación del Templo (1 R. 8:11).
+
+Isaías en el momento de su llamamiento (Is. 6:3),
+
+Ezequiel en su visión (Ez. 1:28), los pastores de Belén (Lc. 2:9), Esteban ante la muerte (Hch. 7:55), etc.
+
+La gloria divina se revela en la creación (Sal. 19:2), y de manera particular en el hombre hecho a imagen de Dios (1 Co. 11:7); se manifiesta en medio de juicios (Nm. 16:42-46, etc.), se muestra en medio de las naciones (Sal. 97:6); sobre todo, aparece en la redención ofrecida al mundo entero (Is. 40:5).
+
+(c) La gloria manifestada en Jesucristo. La gloria inaccesible del Dios de Israel se ha acercado a nosotros: en Cristo la hemos podido contemplar y amar sin ser consumidos por ella (Jn. 1:14; 17:5, 24; He. 1:3).
+
+Jesús ha mostrado esta gloria:
+
+por sus milagros (Jn. 2:11; 11:4),
+
+por su santidad perfecta (Jn. 17:4),
+
+en su transfiguración (2 P. 1:17),
+
+en su resurrección (Ro. 6:4),
+
+en su ascensión (Lc. 24:26; Jn. 17:5; He. 2:9).
+
+Y el Señor de la gloria ha de volver pronto (1 Co. 2:8; Stg. 2:1), con todo el resplandor de su majestad, para juzgar y reinar (Mt. 16:27; 25:31).
+
+En principio, Él ya nos ha dado su gloria (Jn. 17:22); contemplándola como a través de un espejo, somos transformados a su imagen de gloria en gloria por el Espíritu (2 Co. 3:18). Está próximo el momento en el que recibiremos la gloria eterna (2 Ti. 2:10), cuando apareceremos con Cristo en gloria (Col. 3:4), teniendo nuestro mismo cuerpo su parte en esta glorificación (1 Co. 15:43). Entonces, y para siempre, seremos iluminados por la gloria de Dios, la única lumbrera de la santa ciudad (Ap. 21:23). Él es verdaderamente el rey de la gloria, y todo en su palacio proclama: ¡Gloria! (Sal. 24:9-10; 29:9).
+
+(d) Dar gloria a Dios es alabarle, darle honra, exaltarle y celebrar sus perfecciones (Dt. 32:3; Sal. 29:1-2; 115:1; Lc. 17:18; Ro. 14:11). De aquí viene el término «doxología» (del gr. «doxa», renombrado, honor), que es una fórmula de oración en la que se rinde gloria a Dios (cp. Sal. 41:14; 72:18-19; Mt. 6:13 b; Ro. 11:36; 16:25-27; Jud. 24-25; Ap. 1:5-6, etc.). Glorificar a Dios es también rendirle homenaje, reconocerlo como el único soberano, y la fuente de todo bien (Dn. 4:34; 5:23; Lc. 5:25; 17:15).
+
+Jesús, por su vida santa y perfecta obediencia, glorificó a Dios sobre la tierra (Jn. 17:4). Pedro debía glorificar a Dios al sufrir el martirio (Jn. 21:19). El creyente se gloría en Dios y en Cristo el Salvador (Ro. 5:11; 15:17). El que se glorifica a sí mismo comete el grave pecado de robarle a Dios el honor que le es debido 462 (Sal. 49:7; 52:3; 75:5); el Señor da su salvación gratuitamente a los humildes, «a fin de que nadie se jacte en su presencia» (1 Co. 1:29; Ef. 2:9). Será al fin glorificado por sus juicios, por cuanto éstos restablecerán su autoridad y su reino, rechazado todo ello por los impíos (Lv. 10:3; cp. Is. 5:16).
+
+Para «Shekinah», la presencia gloriosa de Dios en el santuario, véase TEOFANÍA. nom, GLOSA
+
+tip, MANU
+
+vet,
+
+Se le da este nombre a adiciones en un texto antiguo hechas por copistas posteriores, con la intención de aclarar alguna expresión arcaica, o incluso para explicarlo o mejorarlo, cuando, en opinión del glosador, tenía un significado oscuro.
+
+No tenían como función ampliar el texto, sino que se escribían al margen. Sin embargo, como las omisiones en las copias se escribían también al margen, en copias posteriores algunas glosas podían pasar, y pasaban, al cuerpo del texto.
+
+Se diferencian de las interpolaciones en que éstas sí iban intencionadamente a añadir al contenido del texto.
+
+Una de las tareas de la crítica textual, en su búsqueda de reconstruir el texto primitivo, es la identificación y excisión de las glosas, como de las interpolaciones, del texto. Cabe decir, sin embargo, que el estudio crítico del texto ha demostrado que la incidencia de tales variaciones en la transmisión del texto sobre su contenido y doctrina ha sido de mínima importancia.
+
+Las Sociedades Bíblicas publicaron en 1965 una edición del Nuevo Testamento griego donde se han identificado cuidadosamente las glosas, lo que añade otro instrumento al riguroso conocimiento de las Escrituras.
+
+nom, GLOSOLALIA. Véase LENGUAS (DON DE).
+
+nom, GNIDO
+
+tip, CIUD
+
+sit, a9, 355, 247
+
+vet,
+
+Ciudad libre de Caria, sobre un promontorio en la costa sudoeste de Asia Menor, frente a la isla de Cos, a una distancia de unos 16 Km.
+
+Era una colonia dórica.
+
+Residían en ella judíos desde el siglo II a.C.
+
+La nave de Pablo pasó delante de esta ciudad en su viaje a Roma (Hch. 27:7).
+
+nom, GNOSTICISMO
+
+tip, RELI FILO
+
+vet,
+
+Complejo movimiento religioso-filosófico que se manifestó con especial fuerza a mediados del siglo II de nuestra era.
+
+Mezcla de conceptos zoroastras, platónicos y judeo-cristianos, constituyó una fuerte amenaza para el cristianismo. Sus primeras manifestaciones fueron ya tratadas y combatidas por los apóstoles Pablo y Juan en 463 varias de sus epístolas y en el Evangelio de Juan.
+
+A pesar de la inmensa variedad de sectas y movimientos gnósticos contrapuestos, con una gran diversidad de doctrinas y enseñanzas, que imposibilitan en un corto artículo un examen particularizado, se pueden exponer los siguientes puntos que sostenía el gnosticismo con una cierta uniformidad:
+
+(a) Pretendían la posesión de un conocimiento especial de la verdad, superior a la fe, reservado a los iniciados.
+
+(b) Una combinación de dualismo persa con platonismo se manifestaba en la doctrina de una esfera espiritual pura y perfecta y de un universo material esencialmente malo y de donde todo lo malo ha surgido. Tanto Dios como el universo material son, en base a este sistema, eternos. (c) La concepción de que Dios no puede actuar directamente sobre el mundo de la materia, sino que tiene que ser por medio de un «demiurgo», o Creador o Artífice subordinado de rango inferior, distinto de la Deidad suprema, y también por medio de emanaciones o eones mediadores extendiéndose de manera gradual entre Dios y el universo material. Estas emanaciones o eones serían innumerables, pasando desde una naturaleza espiritual los más cercanos a Dios a una naturaleza más y más mezclada y material conforme se fueran hallando en esferas más y más cercanas al mundo material.
+
+(d) La negación de la verdadera humanidad de Cristo, una cristología docetista, que consideraba irreal la vida terrena de Cristo, especialmente sus sufrimientos en la cruz. (e) Negación de la personalidad del Dios supremo, y negación también de la responsabilidad en el hombre.
+
+(f) La enseñanza, por parte de unas sectas gnósticas, de un riguroso ascetismo, prohibiendo el matrimonio y el uso de este mundo material, con el fin de llegar a la comunión con Dios, mientras que otras sectas enseñaban la no influencia mutua entre cuerpo y alma, con lo que el alma podía dedicarse a la contemplación de los más altos misterios, en tanto que el cuerpo podía dar rienda suelta a todos sus apetitos. La salvación la atribuían a Cristo como «Iluminador», dador de conocimiento mediante el cual el alma recibiría la salvación. Se negaba la doctrina evangélica de la salvación por los sufrimientos vicarios de Cristo. (g) Una tendencia a la fusión de doctrinas cristianas con elementos filosóficos, místicos y mágicos de oriente.
+
+(h) Las Escrituras del AT eran atribuidas al «demiurgo» o Creador inferior del mundo, que era el Dios de los judíos, pero no el Dios Supremo.
+
+Todas estas tendencias se hallan presentes en la actualidad en diversas corrientes teológicas de signo heterodoxo.
+
+La palabra de Dios ya nos advierte sobre todas estas falsas doctrinas, y las combate. Así, entre otros, se pueden dar los siguientes pasajes contra cada uno de los apartados mencionados: (a) Col. 2:1-8
+
+(b) Jn. 1:1-3;
+
+(c) Jn. 1:1-3; Col. 2:18; 1 Ti. 1:4;
+
+(d) Jn. 1:14; 4:6; 1 Jn. 1:1-3; 2:22; 4:1-6; 5:1; 5:20;
+
+(e) Jn. 3:16-21; 5:26-27, 30, 36-38; 1 Jn. 3:1; 4:7-10, 14-16; (f) Col. 1:12-23; 2:20-23; 1 Ti. 4:1-6; 2 Ti. 3:1-7;
+
+(g) Col. 2:8-10, 18-19;
+
+(h) 1 Ti. 3:14-17; 1 P. 10:12; 2 P. 16-21. Había muchas más características heterodoxas que las mencionadas. Entre las sectas gnósticas 464 había, por ejemplo, la de los ofitas, que adoraban a la serpiente, y que se jactaban de conocer «las profundidades» (cp. Ap. 2:24). Atribuían el origen del mal directamente a Dios. Entre los ofitas había grupos como los cainitas, que invertían todos los valores, y elegían como sus héroes a los personajes malvados de las Escrituras, como Caín, los sodomitas, Coré, etc. El primer maestro gnóstico cuyo nombre se conoce es Cerinto, adversario del apóstol Juan. De él se dice que enseñaba que el milenio sería una época de sensualidad desenfrenada. Otras escuelas del gnosticismo fueron posteriormente dirigidas por hombres como Valentino, Basílides, Saturnino, y Marción. Frente a esta agresión, la iglesia reaccionó con una más clara formulación de las vitales doctrinas cristianas sometidas a ataque. Sin embargo, muchas de las corrientes gnósticas patentizaron su influencia en el pensar de muchos sectores de la cristiandad, con movimientos monásticos y manifestaciones de pensamiento maniqueo que siempre han pervivido, y mediante un cúmulo de doctrinas erróneas que han actuado como levadura corruptora del testimonio de la iglesia.
+
+El gnosticismo sigue perviviendo entre nosotros bajo muchas formas y etiquetas, y por ello es menester darnos con ahínco al estudio y asimilación de las Escrituras, para no dejar llevarnos por el error de aquellos que introducen encubiertamente herejías destructoras (cp. 2 P. 2:1), sino que, con el apóstol Juan, podamos tener comunión «con el Padre, y con su Hijo Jesucristo» (1 Jn. 1:3).
+
+Bibliografía:
+
+E. E. Ellis: «Colosenses», Comentario Bíblico Moody (Editorial Moody, Chicago, Illinois 1971). D. Guthrie: «Colosenses», Nuevo Comentario Bíblico (Casa Bautista de Publicaciones, El Paso, Texas 1977).
+
+E. F. Harrison: «Colossians» (Moody Press, Chicago, Illinois); J. R. Stott: «Las cartas de Juan» (Certeza, Buenos Aires, 1974). M. C. Tenney: «Nuestro Nuevo Testamento» (Editorial Moody Chicago, Illinois 1973). K. S. Wuest: «In These Last Days, Studies in the Greek Text of II Peter, I, II, III John and Jude for the English Reader» (W. B. Eerdmans, Grand Rapids, Michigan, reimp. 1972). Véase también:
+
+J. Rutherford: «Gnosticism», International Standard Bible Encyclopaedia (W. B. Eerdmans Pub. Co., Grand Rapids, Michigan, 1946).
+
+nom, GOB
+
+tip, LUGA
+
+vet,
+
+= «hoyo».
+
+Un lugar donde los valientes de David y los filisteos entablaron dos batallas (2 S. 21:18, 19). En otros lugares es llamado Gat (véase 2 S. 21:20).
+
+nom, GOBERNADOR
+
+tip, FUNC
+
+ver, ASIARCA, PROCÓNSUL
+
+vet,
+
+Hay casi una docena de palabras hebreas que se traducen así, y significan cualquier autoridad, delegado, virrey, etc., que estaba puesto sobre el pueblo. Así: José, el primer ministro de Egipto, llevaba el título de gobernador (Gn. 42:6; 45:26), traducido 465 por Reina-Valera como «señor».
+
+Nabucodonosor dejó a Gedalías como gobernador de la vencida Judea (Jer. 40:5; 41:2 ss.). Con el imperio persa, se establecieron gobernadores judíos sobre Jerusalén: tanto Zorobabel como Nehemías y otros eran funcionarios del rey de Persia (Neh. 5:14, 18; Hag. 1:14). En el NT tenemos:
+
+(a) «ethnarches», etnarca, traducido «gobernador» (2 Co. 11:32); (b) «hëgemõn», «gobernador»,
+
+Pilato (Mt. 27:2, etc.);
+
+Félix (Hch. 23:24, etc.);
+
+Festo (Hch. 26:30), y
+
+en general, de gobernadores (Mt. 10:18; Mr. 13:9; 1 P. 2:14, etc.); (c) «kosmokratõr», se traduce de potencias espirituales, «gobernadores» (Ef. 6:12) Los gobernadores (lat. «praeses» procuradores) constituían la autoridad romana en territorios teóricamente soberanos en los que gobernaba un monarca aliado de Roma pero en sometimiento a un protectorado.
+
+En Judea tenían su sede oficial en Cesarea pero durante fiestas importantes en Jerusalén, se desplazaban allí con una fuerte guarnición, y tomaban su residencia en el palacio de Herodes el Grande. En ocasiones pasaban el invierno allí (Ant. 18:3, 1). Para otras autoridades, véanse ASIARCA, PROCÓNSUL, etc.
+
+nom, GOEL
+
+tip, TIPO LEYE
+
+vet,
+
+(heb.: «redentor». Es el participio del verbo heb. «gã'al, «liberar»). En la ley hebrea, si un judío se había visto obligado a venderse, por deudas, a un extranjero, venía a ser obligación de su pariente más próximo rescatarlo (cp. Lv. 25:47 ss). También regía este principio si había tenido que vender algo de su propiedad (cp. Lv. 25:23 ss.; Rt. 4:4 ss.). También correspondía al pariente más próximo casarse con la viuda sin hijos del fallecido (Rt. 3:13). En caso de tener que hacer restitución a su fallecido, ésta debía hacerse al pariente más próximo, o al sacerdote si no lo había (Lv. 6:1 ss.).
+
+Era también deber del goel o pariente más próximo la venganza de la sangre del que hubiera sido víctima de un homicidio voluntario.
+
+En Lv. 25:48 se da el orden de precedencia en la actuación como goel. Para el uso figurado de goel, véase Sal. 119:154; Pr. 23:11; Jb. 19:25; Is. 41:14 b. Jesucristo vino a ser nuestro Goel, para lo cual tuvo que venir a ser «nuestro pariente próximo» mediante la encarnación.
+
+Booz es un hermoso tipo de Cristo, al rescatar la posesión perdida y casarse con Rut, que viene por ello a ser tipo de la Iglesia.
+
+Bibliografía:
+
+L. S. Chafer: «Teología Sistemática» (Publicaciones Españolas, Dalton, Georgia, 1974, tomo I, PP. 368-370).
+
+nom, GOFER
+
+tip, FLOR ARBO
+
+ver, DILUVIO
+
+466
+
+vet,
+
+Tipo desconocido de madera de la que se hizo el arca.
+
+Las tentativas de identificación no han tenido éxito alguno. Es posible que se tratara de madera de un árbol que resultara extinguido como consecuencia del Diluvio.
+
+En el registro fósil se halla gran cantidad de especies arbóreas desconocidas en nuestro mundo postdiluviano. (Véase DILUVIO.)
+
+nom, GOG
+
+tip, BIOG ESCA HOMB HOAT
+
+vet,
+
+(a) Hijo de Semaías, rubenita (1 Cr. 5:4).
+
+(b) Gog es un nombre simbólico del poderoso y soberbio caudillo de las vastas hordas de Escitia y Tartaria. Magog fue el hijo de Jafet (Gn. 10:2), cuyos descendientes se esparcieron por las inmensas estepas del norte, dando su nombre a la tierra. Estas hordas, provenientes del norte, «como nublado para cubrir la tierra» (Ez. 38:9), atacarán Israel en la tierra de Palestina, pero serán aplastadas por Dios (Ez. 38:18-23; 39:1, 6, 11).
+
+En Apocalipsis (Ap. 20:8) se vuelve a mencionar a Gog y a Magog atacando Jerusalén, «el campamento de los santos y la ciudad amada».
+
+Muchos no aceptan la identificación del Gog de Ezequiel con el de Apocalipsis, estableciendo que en Ezequiel, Gog es visto actuando antes del Milenio, en tanto que en Apocalipsis, Gog actúa después. Otra razón que se da en contra de la identificación del Gog de Ezequiel con el de Apocalipsis es que en Ezequiel, Gog es visto viniendo «de los confines del norte» (Ez. 38:6), en tanto que en Apocalipsis, Gog y Magog son identificados con «las naciones que están en los cuatro ángulos de la tierra» (Ap. 20:8). Sin embargo, ambos pasajes se pueden conciliar sin dificultades:
+
+(A) Además de la mención «confines del norte» en Ez. 38:6, se afirma la coligación de Gog con «Persia (al este), Cus (Etiopía, al sur), y Fut (Libia, al este)» (Ez. 38:5). Así, concuerda con Ap. 20:8: «los cuatro ángulos de la tierra».
+
+(B) Ez. 38:8 no puede ser conciliado con la época de la Tribulación. Se dan dos alternativas: o bien se trata de un período de transición entre la Tribulación y el Milenio, o bien se trata de Israel morando en la época del Milenio. Una tercera posibilidad, y la más armónica con la característica de la profecía bíblica, es que haya un doble cumplimiento, antes de la época del Milenio, y un cumplimiento total al término del Milenio. La destrucción definitiva de Gog y Magog dará paso final a la instauración del estado eterno, previo el Juicio del Gran Trono Blanco (Ap. 20-22). Allí, la justicia ya no sufrirá, como ahora, ni reinará, como en el Milenio (véase), sino que, una vez destruida toda oposición, morará.
+
+Bibliografía:
+
+A. T. Pearson: «Ezequiel», The Wycliffe Bible Commentary (Moody Press, Chicago, 1962); R. H. Alexander: «Ezequiel» (Pub. Portavoz Evangélico, Barcelona, 1979), PP. 123-134.
+
+nom, GOLÁN
+
+tip, CIUD
+
+sit, a1, 585, 303
+
+vet,
+
+Ciudad levítica de Manasés en Basán, y ciudad de refugio (Dt. 4:43; Jos. 20:8; 21:27; 1 Cr. 467 6:71).
+
+Identificada por algunos con Sahem al Jaulan, 32° 48' N, 35° 36' E, entre el Hermón y el río Yarmuk.
+
+nom, GÓLGOTA
+
+tip, MONT
+
+ver, CALVARIO
+
+vet,
+
+(aram. y heb.: «cráneo»). En gr. es «kranion».
+
+El término «calvario» proviene del latín «calvaria», del que se deriva el cast. «calavera». (Véase CALVARIO).
+
+nom, GOLIAT
+
+tip, TIPO BIOG HOMB HOAT
+
+ver, GIGANTES
+
+vet,
+
+El gigante de Gat, que durante cuarenta días desafió a los ejércitos de Israel. Fue muerto por David con una honda y una piedra, en nombre de Jehová. David le cortó la cabeza, llevándola a Jerusalén.
+
+La espada de Goliat fue guardada en el tabernáculo, y posteriormente David volvió a tomar posesión de ella.
+
+Su estatura era de seis codos y un palmo (más de 2,5 metros, contando el codo menor). Tipo de Satanás, demasiado poderoso para que nadie lo venciera excepto en el poder del Señor. Aquí, David es un tipo del Señor Jesús (1 S. 17:4-23; 21:9). Con referencia a 2 S. 21:19, es evidente que se trata del «hermano» de Goliat, llamado Lahmi, muerto por Elhanán (cp. el pasaje paralelo de 1 Cr. 20:5). Es evidente que ha habido aquí una corrupción en la transmisión del texto. (Véase GIGANTES).
+
+nom, GOLONDRINA
+
+tip, FAUN AVES
+
+vet,
+
+(a) Heb. «deror». Se interpreta como «errante», lo que está de acuerdo con sus hábitos. Son aves migratorias y no son domesticables (Pr. 26:2). En el Sal. 84:3 es un tipo del errante que halla reposo y protección en la casa de Dios.
+
+(b) «Sis», Is. 38:14 y Jer. 8:7, donde se mencionan sus hábitos. Son varias las especies de golondrinas que frecuentan la tierra de Israel: la «Hirundo rustica», «H. rufula», etc. Una especie de vencejo del valle del Jordán no tiene necesidad de emigrar, debido a lo suave de su invierno.
+
+nom, GOMER
+
+tip. BIOG HOMB HOAT MUJE MUAT
+
+ver, OSEAS
+
+vet,
+
+«calor» (?).
+
+(a) Hijo de Jafet, y padre de Askenaz, Rifat y Togarma (Gn. 10:2, 3). Se cree que de él provienen los antiguos cimerios.
+
+468
+
+Homero dice que habitaban el lejano norte (Odisea 11:14). Llegados de más allá del Cáucaso (Herodoto 4:11, 12), se establecieron en Capadocia, amenazando al imperio asirio, pero fueron derrotados por Esarhadón. Pasaron luego a Asia Menor, introduciéndose en Lidia, de donde Aliates los echó posteriormente (Herodoto 1:16). También los pueblos celtas occidentales descienden de Gomer, Gael y Cymry. (b) Mujer que tomó Oseas para dar a Israel una lección acerca de la fidelidad de Dios a pesar de todas sus infidelidades (Os. 1). (Véase Oseas).
+
+nom, GOMORRA
+
+tip, CIUD ARQU
+
+ver, MARDIKH (TELL), SODOMA, ABRAHAM
+
+sit, a3, 434, 446
+
+vet,
+
+«inmersión» (cp. el árabe «ghamara», «inundar»).
+
+Ciudad de la llanura del Jordán (Gn. 10:19; 13:10).
+
+Quedorlaomer y sus aliados vencieron al rey de Sodoma y al de Gomorra, saqueando ambas ciudades (Gn. 14:8-11).
+
+A causa de la desatada perversidad de sus moradores fueron poco tiempo después destruidas por fuego del cielo (Gn. 18:20; 19:24-28; Dt. 29:23; Is. 1:9; Am. 4:11; Jer. 23:14; 49:18; Sof. 2:9; Mt. 10:15).
+
+Su historicidad ha quedado vindicada con los recientes descubrimientos de Ebla en Tell Mardikh, donde se han hallado tabletas que mencionan a Gomorra y a las otras ciudades comarcanas como centros de comercio contemporáneo. (Véanse MARDIKH (TELL), SODOMA, ABRAHAM, etc.)
+
+Bibliografía:
+
+E. H. Merrill: «Ebla and Biblical Historical Inerrancy», Bibliotheca Sacra, vol. 140, Oct.-Dic. 1983, n. 560;
+
+C. Wilson: «Ebla Tablets: Secrets of a Forgotten City» (Revelations of Tell Mardikh) (Master Books, San Diego, California, 1977).
+
+nom, GOPHER. Véase GOFER.
+
+nom, GORRIÓN
+
+tip, BIOG TIPO FAUN AVES MUJE MUAT HOMB HOAT vet,
+
+(heb.: «tzippor»).
+
+(a) Término que se traduce comúnmente «ave» o «pájaro» (Gn. 7:14; Dt. 4:17; Jb. 41:5), pero que de preferencia se aplica a las avecillas pasajeras, de las cuales se han observado unas cien especies en Palestina (Dt. 14:11; Lv. 14:1; Sal. 12:4; Am. 3:5). En el Oriente, tanto en la Antigüedad como en tiempos modernos, las pequeñas aves (inclusive los gorriones, o «pajarillos», como traduce la versión Reina-Valera), abundan en el mercado y se venden como alimento (Mt. 10:29-31); eran baratas y el pueblo las usaba para el diario sustento. Jesús las usa como ejemplo del cuidado que Dios tiene de los suyos. El hábito de vagar que tienen los gorriones ejemplifica la falta de efecto que una maldición 469 inmerecida (Pr. 26:2; Nm. 23:8; Dt. 23:5) tiene sobre las personas a quienes se la dirige. (b) El vocablo «tzippor» (Sephor o Sefor) aparece en la Biblia hebraica como: el nombre del padre de Balac (Nm. 22:2) y
+
+el de la esposa madianita de Moisés (Éx. 2:21).
+
+nom, GOSÉN
+
+tip, CIUD REGI
+
+sit, a4, 73, 292
+
+vet,
+
+(a) La zona de Egipto en la que se asentaron los israelitas. Recibe frecuentemente el nombre de «tierra de Gosén» y también el de «la tierra de Rameses». El rey de Egipto ordenó a José que asentara a su padre y a sus hermanos en lo mejor de la tierra. Se hallaba en el delta del Nilo, a pocos Km. al noroeste de On (Gn. 45:10; 46:28, 29, 34; 47:1, 4, 6, 11, 27; 50:8; Éx. 8:22; 9:26).
+
+(b) Distrito en el sur de Palestina (Jos. 10:41; 11:16).
+
+(c) Ciudad no identificada en las tierras altas de Judá (Jos. 15:51).
+
+nom, GOZÁN
+
+tip, REGI
+
+vet,
+
+Región de Mesopotamia a la que fueron llevados algunos de los israelitas. «El río Gozán» (1 R. 17:6; 18:11) pudiera significar el río que pasa por Gozán, identificado como el Habor, o Khabour. Situado en 37° N, 41° E (2 R. 17:6; 18:11; 19:12; 1 Cr. 5:26; Is. 37:12).
+
+Ptolomeo menciona una ciudad de Media llamada Gauzania en estos alrededores.
+
+nom, GOZO
+
+tip, DOCT
+
+vet,
+
+Gozo es lo que el hombre anhela, y lo que busca; lo encuentra cuando encuentra a Dios, y solamente entonces. Retiene este gozo en la proporción en que crece en el conocimiento de Dios. Dios es el autor del verdadero gozo, como de toda buena dádiva. Siendo Él perfectamente bueno y por encima de todo mal. Es presentado como hallando su propio gozo en el arrepentimiento del pecador que vuelve para buscarle. Al haberse introducido el pecado, y habiendo quedado el hombre por ello alienado de Dios, su idea de gozo es llegar a ser tan feliz como pueda sin Dios y alejado de Él (véase la historia del hijo pródigo en Lc. 15). Pero el único resultado de un curso tal es el desengaño y la amargura aquí abajo y el eterno dolor en el más allá. Sin embargo, cuando la luz del amor de Dios, revelado en el don y en la muerte de su Hijo, resplandece en el corazón, éste queda lleno en el acto de «gozo inefable y glorioso» (1 P. 1:8). «El reino de Dios no es comida ni bebida, sino justicia, paz y gozo en el Espíritu Santo» (Ro. 14:17). Asimismo, el fruto del Espíritu es amor, gozo, paz, y otras hermosas características, y es producido en el corazón del creyente por el Espíritu para la gloria de Dios (Gá. 5:22, 23). El apóstol deseaba para los romanos que el Dios de esperanza los llenara de todo gozo y paz en el creer (Ro. 15:13). También los tesalonicenses habían recibido la palabra «en medio de gran tribulación, con gozo del Espíritu Santo» (1 Ts. 1:6). Muchos más pasajes podrían ser citados 470 para mostrar cómo el gozo es una de las características principales de aquellos que han sido conducidos al conocimiento de Dios. El único Hombre que jamás tuvo que ser conducido a este conocimiento, por cuanto su delicia había estado siempre en Dios, como la de Dios estaba en Él, Aquel que había sido llamado «varón de dolores», este hombre perfecto y bendito tenía su propio gozo en la comunión con Dios en dependencia de Él. Y Él desea para los suyos en este mundo que su gozo sea también el de ellos (Jn. 17:13).
+
+El verdadero gozo no es conocido en el mundo en su estado presente; pero llegará el día en que el dolor, el sufrimiento, la muerte, y todos los trágicos frutos del pecado, serán quitados, cuando Dios mismo enjugará todas las lágrimas, llenando el universo con un gozo eterno y sin sombras. Este día está descrito en Ap. 21.
+
+nom, GRACIA
+
+tip, DOCT
+
+ver, LEY
+
+vet,
+
+Uno de los términos más usados en la Biblia.
+
+En el NT (gr. «charis») aparece más de 170 veces. Tiene diversos sentidos. En plural expresa gratitud.
+
+(A) Atracción, encanto:
+
+«La gracia se derramó en tus labios» (Sal. 45:2);
+
+«graciosa gacela» (Pr. 5:19);
+
+«engañosa es la gracia, vana es la hermosura» (Pr. 31:30). «Crecía en sabiduría y en estatura, y en gracia» (Lc. 2:52). (B) Bienquerencia, favor: cp. la expresión heb. tan frecuente, «hallar gracia a los ojos de alguien» (Gn. 18:3; 33:10; 47:29; Hch. 2:47; 7:10).
+
+Las iglesias de Macedonia pidieron insistentemente el privilegio (la gracia) de poder participar en la colecta (2 Co. 8:4).
+
+«Sea vuestra palabra siempre con gracia» (Col. 4:6).
+
+(C) Beneficio, bendición:
+
+«... toda la verdad (gracia) que has usado para con tu siervo» (Gn. 32:10). «De su plenitud tomamos todos, y gracia sobre gracia» (Jn. 1:16). «Las misericordias (gracias) fieles a David» (Hch. 13:34). «A mí... me fue dada esta gracia» (Ef. 3:8).
+
+«Toda buena dádiva (gracia) y todo don perfecto desciende de lo alto» (Stg. 1:17). (D) Agradecimiento, expresión de gratitud:
+
+de donde vienen las expresiones
+
+«acción de gracias» (Lv. 3:1; Sal. 26:7; 2 Co. 4:15; Col. 2:7; 1 Ti. 2:1, etc.) y «dar gracias» (Lc. 18:11; Jn. 11:41; Ro. 1:8; 2 Co. 1:11, etc.). El término «eucaristía» que se aplica a la cena hace precisamente alusión a las acciones de gracias por las que comenzó Jesús (Lc. 22:17, 19; 1 Co. 11:24). El hábito de «dar gracias al comenzar una comida» se basa en las instrucciones y en los ejemplos precisos de las Escrituras (Mr. 8:6; Lc. 24:30; Hch. 27:35; Ro. 14:6; 1 Co. 10:30-31; 1 Ti. 4:4). (E) La expresión «María llena de gracia» proviene de un error de traducción de la Vulgata en Lc. 1:28. En este pasaje aparece el participio pasado pasivo de «charitoõ», que significa recibir con gracia, revestir de gracia. Reina-Valera traduce «muy favorecida». Las versiones católico-romanas, naturalmente; siguen la lectura de la Vulgata. Cp. en cambio el mismo verbo en Ef. 1:6: 471 «su gracia, con la cual nos hizo aceptos en el Amado». Además, el ángel le sigue diciendo a María: «Has hallado gracia delante de Dios» (Lc. 1:30), y ella misma, en el cántico llamado Magn¡ficat, dice: «Mi espíritu se regocija en Dios mi Salvador» (Lc. 1:47). Así, ella tenía necesidad de gracia y de salvación, y lo reconocía con gozo y humildad (lo cual Jesús nunca habría hecho, cp. Jn. 8:46). Ella es «bendita entre las mujeres», pero es contrario a las Escrituras pretender que sea inmaculada, sin pecado y fuente de todas las gracias.
+
+nom, GRACIA DE DIOS
+
+tip, DOCT
+
+ver, LEY
+
+vet,
+
+(A) En el AT ya se halla la pura bondad de Dios que ama al pecador, y que anhela, no su muerte, sino su conversión y su vida (Ez. 18:23). Sobre la base de la ley, el hombre sólo podía ser justificado por las obras, y ello era imposible (Gá. 3:10, 12). Ésta es la razón de que ya de entrada el Señor deje entrever que ha elegido a Israel sin mérito alguno de parte de ellos (Dt. 7:7-8; 9:4-5). Dice Él: «Tendré misericordia del que tendré misericordia, y seré clemente para con el que seré clemente», por cuanto es «misericordioso y piadoso; tardo para la ira, y grande en misericordia y verdad» (Éx. 33:19; 34:6-7). Por los sacrificios cruentos que prefiguraban la Cruz, se asoció provisionalmente a los que creían la remisión y purificación de los pecados (He. 9:22; Éx. 12:13; Lv. 4:20, 26, 31, 35; 16:30, etc.). También el salmista podía ya celebrar la gracia que le daba la salvación (Sal. 32:1-5). Si Dios guardara el recuerdo de las iniquidades, nadie podría mantenerse en pie; pero en Él se encuentra perdón, misericordia y redención en abundancia (Sal. 130:3, 4, 7- 8). Y el creyente clama: «Sea tu misericordia, oh Jehová, sobre nosotros, según esperamos en ti» (Sal. 33:22).
+
+(B) La gracia vino por Jesucristo, en tanto que la Ley fue dada por Moisés (Jn. 1:17). «Porque la gracia de Dios se ha manifestado para salvación a todos los hombres» (Tit. 2:11). El AT no podía más que prometer o anticipar aquello que la manifestación viviente y visible de la gracia de Dios en Jesucristo iba a hacer real y definitivo. «Porque ya conocéis la gracia de Nuestro Señor Jesucristo, que por amor a vosotros se hizo pobre, siendo rico, para que vosotros con su pobreza fueseis enriquecidos» (2 Co. 8:9).
+
+(C) Es en la Cruz que resplandece la gracia salvadora. La venida del Señor a la tierra no era suficiente. La gracia no es un mero efecto de la misericordia de un Dios dispuesto por su bondad a otorgar un perdón pleno. Su santidad y justicia absolutas tenían que ser satisfechas al mismo tiempo que su amor: para esto fue preciso el sacrificio expiatorio del Calvario. Jesús descendió «para que por la gracia de Dios gustase la muerte por todos» (He. 2:9). «Todos pecaron... siendo justificados gratuitamente por su gracia, mediante la redención que es en Cristo Jesús». Es Él que vino a ser «propiciación por medio de la fe en su sangre» (Ro. 3:23-25). (D) La gracia sólo puede ser recibida por la fe. Somos «justificados gratuitamente por su gracia...; es por fe, para que sea por gracia... Y si por gracia, ya no es por obras; de otra manera la gracia ya no es gracia» (Ro. 3:24; 4:16; 11:6). Esta es la gran doctrina de la salvación por la sola fe, sin obras ni méritos personales para alcanzarla, y que los Reformadores tan claramente sacaron a la luz. Volvamos a Pablo: «Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe» (Ef. 2:8-9). A Dios «tenemos entrada por la fe a esta gracia» (Ro. 5:2). Es por esta razón que la salvación es mencionada como don de la gracia en varias ocasiones (Ro. 5:15,16; Ef. 2:8; 3:7; 4:7; etc.). ¿Qué más hace falta hacer, para recibir un don tan magnánimamente ofrecido, que aceptarlo «con 472 acción de gracias»? Es también indispensable aceptarlo humildemente por la fe, por cuanto Dios resiste a los soberbios, y da gracias a los humildes (1 P. 5:5; Lc. 18:11-14). (E) Los efectos de la gracia en nosotros. Son maravillosos y completos, hasta el punto que se puede decir de la gracia que es el mismo Señor actuando para nuestra salvación. La gracia nos da el pleno perdón de los pecados:
+
+«Cuando el pecado abundó, sobreabundó la gracia» (Ro. 5:20). «Os dio vida juntamente con él (Cristo), perdonándoos todos los pecados» (Col. 2:13). Somos «justificados por su gracia» (Tit. 3:7).
+
+«Creemos que por la gracia del Señor Jesús seremos salvos» (Hch. 15:11). «Buena cosa es afirmar el corazón en la gracia» (He. 13:9), que nos da una consolación eterna y una buena esperanza (2 Ts. 2:16).
+
+Dios rodea al justo de su favor como con un escudo (Sal. 5:12). Los que reciben la abundancia de la gracia y del don de la justicia reinarán en vida por Jesucristo (Ro. 5:17, cp. v. 21).
+
+Esta gracia o favor «dura toda la vida» (Sal. 30:5).
+
+Tales beneficios son tan numerosos que el creyente no podría desear nada más. Ésta es la razón del deseo apostólico «que la gracia... sea con vosotros», que se halla 31 veces en las Epístolas y en Apocalipsis. El resumen del mensaje del evangelio es el testimonio que el Señor y los suyos rinden a «la palabra de su gracia» (Hch. 14:3; cp. Hch. 20:32). El que ve almas salvadas puede decir que ha visto la gracia de Dios (Hch. 11:23). A los nuevos convertidos se les persuadía «a que perseverasen en la gracia de Dios» (Hch. 13:43).
+
+Si ello es así, rehusar un don como éste es rechazar al mismo Dios. Así, se puede:
+
+dejar de alcanzar la gracia de Dios (He. 12:15),
+
+o recibirla en vano (2 Co. 6:1),
+
+transformarla en disolución (Jud. 4; Ro. 6:1),
+
+caer de ella (Gá. 5:4).
+
+En cambio se puede también:
+
+crecer en la gracia (2 P. 3:18),
+
+ser lleno de ella (Hch. 6:8), hasta tal punto que Dios pueda siempre decirnos: «Bástate mi gracia» (2 Co. 12:9). «Así alcanza su meta, que es mostrar en los siglos venideros las abundantes riquezas de su gracia en su bondad para con nosotros en Cristo Jesús... para alabanza de la gloria de su gracia» (Ef. 2:7; 1:6). (Véase LEY.)
+
+nom, GRAMA
+
+tip, FLOR COST
+
+vet,
+
+En Pr. 27:25 designa la hierba tierna y verde apenas renovada. Los hebreos no tenían lugares para el almacenamiento de forraje para el ganado, sino que cortaban el pasto a medida que lo iban necesitando.
+
+La palabra traducida «paja» en Is. 5:24 significa «hierba marchita». nom, GRANA. Véase ESCARLATA.
+
+473
+
+nom, GRANADA
+
+tip, FRUT FLOR ARBU
+
+fot, dib00127
+
+vet,
+
+(heb.: «rimmon»).
+
+El granado es un arbusto de hojas oblongas, con unas flores de un color rojo vivo. Se encuentra en estado silvestre en el norte de África y en el Asia occidental. Se nombra con la vid y la higuera como uno de los productos de Canaán (Nm. 13:23). Se representaban, alternadas con campanas, en el borde de la vestidura del sumo sacerdote (Éx. 28:33, 34; 39:24-26) como tipo de feracidad, y se representaron también en los capiteles del templo de Salomón (1 R. 7:18, 20, 42).
+
+Las mejillas de la esposa se comparan con «cachos de granada» (Cnt. 4:3; 6:7). De su jugo se hacía un vino aromático (Cnt. 8:2). Cp. Dt. 8:8; Cnt. 4:13; 6:11; 7:12; JI. 1:12; Hag. 2:19.
+
+Es el «Punica granatum», que sigue creciendo en el Oriente Medio tanto en estado silvestre como cultivado, y es sumamente apreciado.
+
+nom, GRANERO
+
+tip, CONS
+
+vet,
+
+Lugar donde se almacena el grano y también, por extensión, las gavillas, el heno, la paja (Sal. 144:13; JI. 1:17; Mt. 3:12).
+
+Podía tratarse de almacenes (Éx. 1:11) o de graneros excavados en el suelo, silos (Jer. 41:8). En Egipto, los graneros estaban muy desarrollados y estaban separados de las casas. Se llenaban por una apertura cercana al tejado al que se tenía acceso mediante una escalera; en la base había una puerta para sacar el grano por su propio peso. En los textos egipcios aparecen con frecuencia los nombres de escriba de los graneros, preboste, o superintendente de los graneros. Las indicaciones de Gn. 41:35, 48-49, 56 han sido verificadas hasta en sus detalles, particularmente por las escenas reproducidas en los monumentos.
+
+nom, GRANIZO
+
+vet,
+
+Agregaciones de hielo formadas de gotas de agua en las regiones muy frías de la atmósfera. Se pueden unir entre sí formando granizos muy grandes que caen con una gran fuerza, provocando graves daños.
+
+Fue una de las diez plagas de Egipto (Éx. 9:18-34; Sal. 78:47, 48; 105:32). Va en ocasiones acompañado de aparato eléctrico.
+
+Formará parte de las manifestaciones del poder de Dios en sus juicios con este mundo pecador (Ap. 8:7; 11:19; 16:21).
+
+Josefo sugiere que el granizo de Egipto fue de un tamaño singular (Ant. 2:14, 4). nom, GRASA. Véanse GROSURA, SEBO.
+
+474
+
+nom, GRECIA
+
+tip, DIOS PAIS HIST RELI
+
+ver, JAVÁN, ALEJANDRO, EPICÚREOS, ESTOICOS, FILIPOS, AREÓPAGO, TESALÓNICA, GNOSTICISMO, ALEJANDRO, DANIEL sit, a7, 260, 189
+
+vet,
+
+El pequeño y famoso país del sudeste de Europa, Javán para los hebreos, aparece en la Tabla de Naciones (Gn. 10:2, 4; cp. 1 Cr. 1:5, 7). Mencionado asimismo en Is. 66:19. (Véase JAVÁN.) Su límite norte no ha quedado nunca exactamente determinado, pero se puede hacer pasar por la cadena del Olimpo.
+
+Al sur, el límite era el Mediterráneo, al este el Egeo, al oeste el Jónico y el Adriático. Comprende también el archipiélago de la Hélade, y, antiguamente, la zona costera occidental de la actual Turquía.
+
+En la época en que el Mediterráneo era el gran vehículo de la civilización, Grecia gozó, gracias a su situación, de privilegios singulares.
+
+La verdadera historia de Grecia comienza con sus primeros documentos, desde la primera Olimpiada, en el año 776 a.C. Antes, durante el período conocido como heroico, la historia está tan mezclada con las leyendas que es difícil desentrañar entre hechos y mitos. Sin embargo, parece cierto que los griegos descendían de cuatro tribus. Afirmaban tener un antepasado común, Heleno.
+
+En el seno de estas tribus, los eolios y los aqueos jugaron un gran papel durante la era heroica. En ocasiones, Homero aplica el nombre de aqueos a todos los griegos. Las otras dos tribus, los dorios y los jonios, ascendieron en importancia en la época histórica; los atenienses descendían de los jonios; los espartanos, de los dorios. Así, la época heroica, señalada por la expedición de los Argonautas, la guerra de Troya, etc., acaba con una época de transición, y a su fin, después de una serie de invasiones, hallamos a los dorios en el Peloponeso, a los eolios en el centro del país, a los jonios en Esparta.
+
+(a) CIUDADES:
+
+Las ciudades se organizaban de manera independiente e incluso de manera sumamente contrapuesta. Se puede seguir brevemente el desarrollo histórico de Grecia hasta Alejandro Magno con el hilo conductor de las siguientes ciudades: Atenas, Esparta, Corinto y ciudades de Jonia.
+
+Atenas.
+
+Tras la destrucción de Micenas, hubo una emigración de micenos a Atenas, que aportaron sus artes y conocimientos a un esplendoroso desarrollo de la ciudad. Una rebelión llevó en el año 700 a.C. al final de la monarquía en la ciudad, que vino a ser gobernada por un consejo de nobles. Estos oprimieron a los campesinos bajo un régimen feudal. Esta situación abocó a un gran malestar social y, en el año 564 a.C., un noble llamado Solón propuso una reforma agraria. Ésta fue rechazada, y el estallido se hizo inevitable. Tras una revolución, se impuso un poderoso guerrero, Pisístrato, en el año 560 a.C., como Tirano. Este desterró a los nobles, e implantó la reforma agraria. Vino un esplendoroso desarrollo de las artes y de las letras, llegando Atenas a ser el centro cultural de Grecia. A la muerte de Pisístrato hubo un cierto periodo de turbulencia. Su sucesor, Cleístenes, destruyó totalmente el poder de los nobles que se habían vuelto a levantar y estableció un régimen de gobierno que condujo gradualmente a una especie de democracia popular. Las cuestiones de legislación y de gobierno se dirimían en una asamblea popular, 475 participando en ésta todos los ciudadanos mayores de 20 años. Se debe tener en cuenta que no eran ciudadanos ni los esclavos ni las mujeres, y desde luego tampoco los extranjeros. Esta asamblea popular era asesorada por un Consejo de los Quinientos, que era elegido por suertes entre todos los ciudadanos, no por elección. En este régimen de gobierno es donde se destacaron personajes como Pericles y Demóstenes, grandes y elocuentes oradores. En Atenas privaba el sentido civil de la vida.
+
+Esparta.
+
+Esparta presentaba un acusado contraste con Atenas. Era un estado totalitario y guerrero, donde el individuo sólo vivía en función del estado. Toda la cultura y organización se centraba en afianzar el dominio sobre los pueblos sometidos como esclavos, mediante la creación de una fiera casta de soldados que fueran imbatibles. Su sentido de la vida era militar, no civil. Sus contribuciones a la literatura, arte o arquitectura fueron mínimas. Corinto.
+
+Corinto, por su parte, estaba gobernada por dictadores que debían mantener el apoyo de sus ciudadanos. Notable entre ellos fue Periandro.
+
+Jonia.
+
+Jonia, las costas de Asia Menor, era la base de diversas ciudades fundadas por los griegos, como Éfeso, Mileto, Pérgamo, etc. De esta manera, se puede decir que el mar Egeo, cerrado al norte por el Helesponto y al sur por la isla de Creta, era el mar del mundo griego. Las ciudades griegas siguieron así un desarrollo separado e independiente hasta la crisis del año 550 a.C. Creso de Lidia fue entonces derrotado por Ciro de Persia. En el año 500 a.C., hubo una rebelión de las ciudades griegas de Jonia contra Darío Histaspes, apoyadas por fuerzas provenientes del territorio europeo. Persia hizo una campaña de castigo victoriosa, destruyendo Mileto. Entonces emprendió Darío una campaña contra la Grecia propia. En el año 490 a.C. hubo una expedición naval en el mar Egeo. Entonces lograron los atenienses una gran victoria en Maratón sobre el ejército persa que había desembarcado y avanzado hacia el interior del territorio griego. Con un ataque por sorpresa, el general Miltíades consiguió imponerse a un ejército persa muy superior. Esto llevó a la reacción del imperio persa bajo el sucesor de Darío, Jerjes (el Asuero del libro de Ester), que invadía Grecia y derrotaba a los griegos en las Termópilas en el año 480 a.C. Temístocles, con una astuta maniobra de sus ligeras naves, destruyó el poderío naval persa en la batalla de Salamis. En el año 479 quedaba definitivamente alejada la amenaza persa con la victoria griega de Plataea. De esta manera, la confederación griega bajo Atenas (Liga Delia) había conseguido la liberación de Jonia, y la seguridad de la zona. Sin embargo, cuando algunas ciudades quisieron desligarse de una confederación hecha con fines provisionales, se encontraron con un poderío ateniense no dispuesto a perder su hegemonía. Frente a este intento de formación de un Imperio Ateniense se formó la Liga Espartana, empezando una serie de luchas intestinas, llamada la Guerra del Peloponeso (431-404 a.C.), que finalizó con la derrota de Atenas, el intento de Esparta a su vez de lograr la hegemonía, y la derrota de Esparta en Naxos (376 a.C.). Una situación que desembocó en una postración que llevó al final a la conquista de Grecia por parte de Filipo II de Macedonia, a pesar de los esfuerzos de Demóstenes, y que culminó en el año 338 a.C., tras la batalla de Cheronea. Su hijo Alejandro Magno se lanzaría a la conquista del Imperio Persa. (Véase ALEJANDRO.) Tras la división del imperio de Alejandro y de la gradual pérdida de poderío de Grecia, diversas 476 circunstancias político-militares llevaron a los romanos a la conquista de Grecia, incorporada al Imperio desde el año 146 a.C. con el nombre de Acaya.
+
+(b) HISTORIA POSTERIOR.
+
+Incorporada en el año 146 a.C. al Imperio Romano, Grecia vino a formar parte del Imperio de Oriente, o Imperio Bizantino, durante la Edad Media. Los cruzados se posesionaron de ella en el siglo XIII. En el siglo XIV fue conquistada por los turcos, bajo cuyo yugo estuvo hasta la sublevación de 1821. Después de duras batallas se logró la independencia, con la ayuda de Francia, Inglaterra y Rusia, que destruyeron el poderío turco en la batalla naval de Navarín (1827). La independencia griega fue formalmente reconocida en la Conferencia de Londres (1830). Con los Tratados de Bucarest de 1919-1920 adquirió territorios en la misma Asia Menor, de la que fue expulsada por la revolución nacionalista turca (1922) iniciada en 1920 por Mustafá Kemal «Ataturk». Agredida por Italia en 1940, presentó una eficaz resistencia, que se derrumbó ante la intervención de las tropas alemanas en 1941. Liberada en 1944 de los alemanes, cayó en una guerra civil entre partisanos comunistas y tropas realistas. Después de varias incidencias es, desde 1974, una república.
+
+(c) RELIGIÓN EN GRECIA
+
+Fue durante las edades oscuras que los griegos desarrollaron sus ideas acerca de sus dioses y la vida. No se dan entre ellos dogmas ni magia, sacerdotes ni supersticiones. Sus dioses eran unos seres que habían sido humanos y que habían llegado a la inmortalidad. Se creía que los dioses griegos vivían en palacios espléndidos, en la cumbre del monte Olimpo en el norte de Grecia. Sin embargo, en lugar de permanecer siempre allí, descendían a la tierra con frecuencia, inmiscuyéndose muchas veces en los asuntos de los humanos. En los mitos se les ve con frecuencia actuando como niños malcriados, con regañinas entre ellos. En caso de que hubiera un hombre que llegara a ser un gran héroe, se le permitía unirse a los dioses, llegando a formar parte de los inmortales.
+
+Un ejemplo de la mezquindad de los dioses griegos en la mitología es que Zeus, el padre de los dioses, es presentado como un marido acobardado, siempre intentando que su vigilante esposa Hera no se enterara de lo que hacía.
+
+Mitos célebres son los de Prometeo, robando el fuego de los dioses y dándolo a los humanos, por lo que fue condenado a un suplicio eterno. Otro es el de Orestes. La madre de Orestes, Clytemnistra, había dado muerte a su marido Agamenón, padre de Orestes. Clytemnistra murió a su vez a manos de Orestes, su propio hijo. Por este crimen de matricidio fue perseguido por las Furias.
+
+Los poemas de Homero, por su parte, representan a los dioses apareciendo a los hombres para dirigirlos, alentarlos o detenerlos.
+
+Así, el panteón de dioses griegos puede recapitularse de la siguiente manera: Zeus, dios del cielo;
+
+Hera, su hermana y esposa, diosa del fuego doméstico y del matrimonio. Deméter, de la agricultura.
+
+Poseidón, del mar.
+
+Hefaístos, de la fragua y el fuego.
+
+Ares, de la guerra.
+
+Apolo, de la luz, la música, el conocimiento;
+
+Artemisa, su hermana, de la caza, el pudor, la inocencia.
+
+477
+
+Hermes, de los ladrones y los comerciantes, la suerte y la riqueza. Atenea, del trabajo manual, la sabiduría, las artes y las ciencias. Dionisos, dios del vino (equivalente a Baco entre los romanos). Afrodita, diosa de la belleza y del amor.
+
+Posteriores desarrollos son las escuelas órfica y pitagórica, con las que aparecen nuevas creencias acerca de la existencia de una vida futura con recompensas y castigos. Los cultos de los misterios (Eleusis) aseguran a los iniciados una vida después de la muerte. Hay posteriores adiciones, entre las que se destacan la introducción del culto orgiástico de Dionisos, en el siglo VII a.C., y en el siglo IV el de Esculapio, el dios de la medicina.
+
+(d) FILOSOFÍA EN GRECIA
+
+Frente a todas estas creencias y prácticas idolátricas, y una degeneración de las costumbres, surgió una profunda falta de satisfacción y descreencia en los mitos y dioses del politeísmo. Surge así la corriente de la filosofía, que intenta buscar la verdad por los propios medios del razonamiento humano. Es una larga historia en el callejón sin salida de una búsqueda a tientas, en la que lo más válido fueron las preguntas planteadas. La respuesta sólo podría ser dada por la revelación divina, que se debería aceptar con una humildad difícilmente existente en la mentalidad racionalista.
+
+Se dio así una larga andadura explorando todas las posibles avenidas para llegar a conocer la razón de la existencia del hombre, su origen y destino, su naturaleza, la naturaleza y personalidad del Dios que se entreveía detrás de todo, si es que podía llegar a ser conocido. Son varias las escuelas de pensamiento que se desarrollaron:
+
+(A) Tales de Mileto puede ser considerado como el primer filósofo conocido (624-546 a.C.). Veía en el agua el principio fundamental de todo lo existente. (B) Anaximandro (611-546 a.C.) es el primero del que tenemos noticias que propusiera abiertamente el transformismo de las formas vivientes. Sugirió que los hombres provenían de los peces.
+
+(C) Pitágoras de Samos (580-500 a.C.) funda una sociedad de iniciados que buscan en la armonía de los números la esencia última del universo, reduciéndolo todo a la matemática, y proponiendo la transmigración de las almas.
+
+(D) Parménides de Elea (475 a.C.) esboza la idea de que el pensamiento es la única y verdadera realidad, llegando a desarrollar un panteísmo monista.
+
+(E) Empédocles (450 a.C.) enuncia el principio de que el universo está formado por cuatro elementos (el agua, el aire, la tierra y el fuego), que interaccionan entre sí en base a dos fuerzas, el amor (que busca la unión), y el odio (que busca la separación). (F) Demócrito de Abdera (nacido alrededor del año 470 a.C.) propone un sistema atómico, en el que una gran multitud de átomos, con gran diversidad de formas, y en movimiento, entrando en multitud de combinaciones, dan todas las formas existentes en el universo. Para él, todo, inclusive la vida, es materia y movimiento. Reconoce una naturaleza en la que hay ley, pero no propósito. Es el padre del materialismo mecanicista. Discípulos suyos fueron Epicuro y Lucrecio, que llevó a su extremo lógico de la desesperanza este sistema ateo. (G) Platón (427-347 a.C.), discípulo del célebre Sócrates (469-399 a.C.) se opone al relativismo y llega al idealismo, en el que la realidad última reside en el mundo de las Ideas, plasmadas sólo imperfectamente en el mundo de la materia. Propone un estado paternalista totalitario. (H) Aristóteles de Estagira (324-322 a.C.) fue discípulo de Platón. Fundó el Liceo de Atenas, y 478 fue instructor de Alejandro Magno. En sus obras se dedicó a clasificar y sistematizar todo el saber de su época. Fue el fundador de la lógica formal o lógica aristotélica, intentando lograr un sistema coherente del universo en sus distintas relaciones. Después de Aristóteles, la filosofía griega entró en un lento proceso de decadencia. Se puede decir que Aristóteles había sido el punto culminante. Tras él viene un descenso a movimientos como el epicureísmo (véase EPICÚREOS), fundado por Epicuro (341-270 a.C.) y el estoicismo (véase ESTOICOS), fundado por Zenón de Kition (336-264 a.C.). Otra poderosa fuerza en esta decadencia es el nacimiento del escepticismo y la doctrina enunciada por Pirro (360-270 a.C.), que afirma la imposibilidad de un conocimiento cierto (agnosticismo). Se llega a una absoluta desconfianza en los sentidos y en la capacidad de raciocinio para llegar a un conocimiento verdadero. Se desemboca así en una postura ecléctica en la que todo cabe, por cuanto se ha llegado a una total desesperanza de poder llegar a conocer la verdad. Se rechazan los dogmas y sólo se admiten opiniones. Tenemos así en la filosofía griega la raíz de la historia del pensamiento occidental en su intento de lograr un conocimiento verdadero aparte de Dios, por el solo raciocinio humano. A un optimismo inicial sigue una desesperanza total, y la asunción de posturas materialistas, fatalistas, y/o cómodas.
+
+(e) EVANGELIZACIÓN DE GRECIA
+
+El primer punto en el que el Evangelio fue proclamado en Europa fue Filipos, en Macedonia (véase FILIPOS). La siguiente ciudad que se menciona es Tesalónica (véase). Pero fue en Atenas donde el Evangelio chocó con la filosofía. Filósofos de los epicúreos y de los estoicos quisieron oír a Pablo, y le trajeron al Areópago, que estaba situado cerca de la Acrópolis (véase AREÓPAGO). Allí pronunció un discurso que inició con el tema de «EL DIOS NO CONOCIDO». Efectivamente, con todas sus especulaciones y pretensión, la sabiduría de este mundo no ha conocido a Dios (cp. 1 Co. 1:21, 22-30; 2:4-7). El hombre debe aceptar el conocimiento que sólo Dios puede impartir: el conocimiento verdadero acerca del hombre, de su origen, de su caída en pecado, de su necesidad, de la paciencia de Dios y de su juicio venidero, y de la provisión que Él ha preparado en Cristo de salvación para todo el que cree. Todo esto lo esbozó Pablo en su discurso en el Areópago, ante aquella compañía de filósofos. Especialmente directa es su evaluación de todos los esfuerzos del hombre aparte de Dios: «Dios, habiendo pasado por alto los tiempos de esta ignorancia, ahora manda a todos los hombres en todo lugar que se arrepientan» (Hch. 17:30). Es de notar que la doctrina de la resurrección (Hch. 17:31-32) se enfrentaba abiertamente al concepto griego de liberación del alma del cuerpo. Allí es donde dejaron de escuchar, al no poder aceptar, como tantos hoy en día, esta verdad fundamental e histórica sobre la que se basa nuestra fe: el Cristo verdadero y objetivamente resucitado, vencedor de la muerte, que nos introduce, una vez efectuada la reconciliación por su muerte, en la esfera de la vida de resurrección. «Unos se burlaban, y otros decían: Ya te oiremos acerca de esto otra vez» (Hch. 17: 32). «Los griegos buscan sabiduría» (1 Co. 22). Pero la sabiduría de Dios llega mucho más alto que la de los hombres. En su Primera Epístola a los Corintios, el apóstol Pablo tuvo que enfrentarse a las tendencias filosóficas que pretendían negar el hecho de la resurrección tratando de imponer en la iglesia las concepciones filosóficas griegas. Todo el capítulo 15 de dicha epístola es una vehemente defensa de este hecho capital frente a las especulaciones racionalizantes.
+
+Posteriormente, los efectos corruptores de la aplicación de los conceptos de la filosofía griega hallarían expresión en el gnosticismo, que era una mezcla de idealismo griego y dualismo persa con otros elementos místicos y vocabulario cristiano (véase GNOSTICISMO). Más tarde, las 479 filosofías de Platón y de Aristóteles serían usadas para la erección de unas teologías ajenas en su espíritu a la revelación de Dios en su palabra. La acción de los Reformadores nos devolvió el legado de la «Sola Scriptura», a la que nos encomendó el apóstol Pablo, en su discurso de despedida a los ancianos de Éfeso: «Os encomiendo a Dios, y a la palabra de su gracia, que tiene poder para sobreedificaros y daros herencia con todos los santificados» (Hch. 20:32). Así, la historia de la filosofía griega es la historia del pensamiento humano autónomo. Comenzando con grandes vuelos, llega a un punto culminante. No habiendo hallado una respuesta que satisfaciera al hombre entero, que sólo puede hallar su satisfacción en Dios (cp. Ec. 3:11) previa la reconciliación con Él, la filosofía empieza su declinar, hasta que llega a la etapa existencialista desesperanzada. Este ciclo de la filosofía griega, hecho en ignorancia (cp. Hch. 17:30) se ha repetido en la civilización occidental a raíz del «Renacimiento» e «Ilustración», sumida ahora en la «angustia vital». Pero en occidente no ha sido en ignorancia, sino en apostasía, con el deliberado abandono de una revelación dada en Cristo.
+
+(f) Grecia en la Profecía.
+
+Véanse ALEJANDRO y DANIEL.
+
+nom, GRIEGO
+
+tip, TRIB
+
+ver, HELENISTAS
+
+vet,
+
+(gr.: «hellën»).
+
+Habitante de Grecia, o que era de raza griega (Hch. 16:1; 17:4). Cuando el NT opone los judíos a los griegos, el término griego designa, por lo general, a un extranjero; pero el griego era considerado como el tipo de gentil más desarrollado (Ro. 1:14, 16; 10:12). Después que Macedonia conquistara el imperio persa y otras tierras de oriente, y que hubiera fundado reinos helénicos en Siria y Egipto, el nombre de «griegos» fue usado, sobre todo por los orientales, para designar a aquellos que hablaban comúnmente la lengua griega, y que gozaban de los privilegios de los colonos griegos en los estados gobernados por los sucesores de Alejandro. Los griegos que querían ver a Jesús (Jn. 12:20, 21) eran unos extranjeros, pero no es seguro que fueran de raza griega (véase HELENISTAS).
+
+nom, GRIEGO BÍBLICO (lengua)
+
+tip, ABEC
+
+ver, HELENISTAS
+
+sit,
+
+vet,
+
+Desde el renacimiento se señaló la diferencia entre el griego de la literatura clásica, o ático, y el griego en que se había escrito el NT. Erasmo, y otros humanistas, lo consideraban un lenguaje imperfecto y deformado. En cambio, otros llegaron a pensar que sus peculiaridades se debían a los temas que trataba de la revelación divina. Se llegó finalmente a sostener que se trataba de «un lenguaje del Espíritu Santo», en el que gran número de expresiones y términos habrían sido acuñados especialmente para el papel de transmitir la revelación del Nuevo Testamento. Esta postura fue sostenida a lo largo del siglo pasado por diversas autoridades, en vista de la gran divergencia del lenguaje del NT con el de la literatura clásica. El descubrimiento en 1896/97 de una gran cantidad de papiros griegos, en Oxyrhyncus, Egipto, 480 aportó una gran cantidad de materiales escritos en el griego vernacular del siglo I. A. Deissmann, que los estudió profundamente, descubrió un estrecho paralelismo entre el lenguaje de estos papiros y el del NT. Muchos de los términos tenidos como «hapax legomena» (términos que aparecen sólo una vez en el NT) aparecían también en estos papiros, en contextos comerciales, domésticos, etc. Así, se pudo identificar el lenguaje del NT como la lengua «koinë» (común) del mundo grecorromano. El «koinë» era la lengua de relación de los distintos pueblos que bordeaban el Mediterráneo. No había sido, pues, acuñada expresamente para el propósito de expresar la revelación, sino que Dios se sirvió de los términos y modo de hablar de las gentes para darles su comunicación, usando sus términos diarios y comúnmente conocidos dentro del contexto de la revelación de las verdades espirituales y prácticas. Así, en lugar de erigirse una barrera lingüística, Dios se dirigía al mundo grecorromano en una lengua que les era perfectamente comprensible, un griego popular, perfecto vehículo para una comunicación que les sería rápidamente asimilable en lo tocante al lenguaje.
+
+A la luz de estos descubrimientos, tanto A. Deissmann como J. H. Moulton y G. Milligan, y muchos otros autores, emprendieron sendos estudios comparativos entre las formas literarias del NT y los papiros. Sin embargo, Deissmann llegó a extremos en su postura denigratoria de la calidad de la literatura neotestamentaria, admitiendo sólo en Hebreos una elevación literaria. Llega al punto de decir que Pablo «no escribió epístolas, sino cartas». Pero ante esta gratuita afirmación se levantan las Epístolas a los Romanos y a los Efesios. Aunque es cierto que Pedro y Juan no poseían una cultura literaria (cp. Hch. 4:13), no se puede decir lo mismo de Lucas y Pablo. No se les puede reprochar que no usaran la lengua ática. Ésta no era necesariamente superior. En los elocuentes pasajes de Pablo se halla un ritmo (cp. 1 Co. 13, 15) nacido no de la conformidad a las reglas de la retórica, sino de un alma que siente y vive profundamente lo que está expresando. No se puede negar la calidad literaria de Lucas y Pablo sin estrechar indebidamente el sentido del término «literario». Así, vemos en el NT a Dios usando a distintos tipos de hombres, en su providencia y conocimiento previo, para distintas funciones a realizar en diferentes estilos. Frente a las valoraciones drásticas de Deissmann se levanta la valoración de Milligan.
+
+Deissmann, sin embargo, hace una positiva aportación, al identificar muchas de las palabras «bíblicas» y «eclesiásticas» como pertenecientes al uso común de la época («Bible Studies» y otras obras). Ejemplos de estos términos que se habían considerado peculiares del NT son: «apóstolos», «baptismós», «pároikos», etc. En el «koinë» aparece también la característica del griego del NT a formar palabras compuestas con una y dos preposiciones prefijadas (p. ej.: «antapokrinomai», «sunantilambanomai», etc.).
+
+Es innegable, sin embargo, una cierta influencia semítica en algunos de los escritos del NT; la tendencia a rechazar una característica como semítica debido a que se halle en los papiros egipcios no tiene en cuenta el influjo judaico en la formación del lenguaje «koinë» de Egipto, con una abundante colonia judía helenizada.
+
+En un artículo de poca extensión es imposible tratar de una manera mínimamente adecuada toda la temática de las características literarias de los escritos del NT. Baste señalar que se considera Hebreos como el escrito de mayor corrección. Lucas y Pablo se entrevén hombres de cultura y capacidad, libres de artificiosidad. En Pablo, se adivina el bilingüe. Mateo usa el lenguaje con corrección y dignidad, aunque con una cierta monotonía. En Marcos se ve a un narrador más preocupado por dar expresión y viveza al relato que una expresión encorsetada. El Evangelio de Juan tiene una elevación y dignidad sin par. Se han propuesto diversas explicaciones para dar razón de la diferencia de estilos con Apocalipsis y sus cartas. Entre ellas, que el Evangelio pudo 481 haber sido revisado por los ancianos de Éfeso (cp. Jn. 21:24). Lo mismo sucede con las diferencias entre 1 y 2 Pedro. Esta última tiene un estilo que evidencia el propio estilo petrino «sin correcciones», en tanto que 1 Pedro pudo haber sentido el efecto de la mano de Silvano (cp. 1 P. 5:12). Similarmente, las diferencias de estilo en los diversos escritos de Pablo se pueden atribuir sin ningún género de dudas a su propio desarrollo personal a lo largo de una vida dedicada a la predicación de la cruz de Cristo, siempre enfrentándose con nuevas situaciones y nuevos problemas, demandantes de nuevos énfasis. Se debe tener en cuenta que en el estilo de un escritor, que evidentemente le es peculiar, entran como factores modificadores tanto el tema que trata como el hecho de que el estilo evoluciona con el paso del tiempo y las influencias diversas a que está sometido. En el caso de Pablo, se ha de tener en cuenta la posible interacción con sus amanuenses. Todo ello no hace de menos a la acción del Espíritu Santo en la inspiración, sino que muestra cómo Él se mueve y actúa usando todas las circunstancias para cumplir en todo momento su acción en revelación verbal a los hombres.
+
+Recapitulando, los estudios han llevado a la conclusión de que «el griego bíblico» no es otro, en esencia, que el «griego koinë» que se usaba en la comunicación habitual en el mundo grecorromano desde el año 300 a.C. hasta el 300 d.C.
+
+Ello muestra cómo Dios prepara la dinámica de la historia para llegar a la producción de un vehículo lingüístico admirablemente apropiado para su revelación, con todo su contenido conceptual, que hallamos en el NT.
+
+Bibliografía:
+
+H. E. Dana y J. R. Mantey: «Gramática griega del Nuevo Testamento» (Casa Bautista de Publicaciones, El Paso, Texas, 1975);
+
+F. Lacueva: «Nuevo Testamento Interlineal Griego-Español» (Clíe, Terrassa, España, 1984); A. T. Robertson: «Language of the New Testament» en ISBE (Wm. Eerdmans, Grand Rapids, Michigan, 1946);
+
+W. E. Vine: «Diccionario expositivo de palabras del Nuevo Testamento» (Ed. Clíe, Terrassa, España, 1984).
+
+nom, GROSURA
+
+tip, LEYE TIPO
+
+vet,
+
+Formando la parte más rica del cuerpo de la víctima, debía ser ofrecida a Dios sobre todo lo demás: «vianda es de ofrenda que se quema en olor grato a Jehová; toda la grosura es de Jehová» (Lv. 3:16). Abel ofreció a Dios la grosura de los primogénitos de sus ovejas (Gn. 4:4; cp. Nm. 18:17).
+
+Por la ley mosaica, toda la grosura de los animales sacrificados pertenece a Jehová. Hay una prohibición expresa de comer de ella (Lv. 3:3, 9, 17; 7:3, 23, 25), al igual que sucede con la sangre (aunque la prohibición de comer grasa queda limitada a la ley ceremonial mosaica; no así con la de comer sangre, que se extiende a toda la humanidad, y que no ha dejado de tener vigencia, Gn. 9:3, 4; cp. 15:20, 28-29). Quemada sobre el altar, la grosura era para Jehová un sacrificio de olor grato (Éx. 29:13, 22; Lv. 4:8-10, 31). Evidentemente, con ocasión del establecimiento en Canaán y por la distancia que separaba a la mayor parte de los israelitas del santuario central, se abolió la prescripción de quemar la grosura cuando se trataba de animales dedicados únicamente a su consumo como alimento (Dt. 12:15, 16, 21-24). En Is. 1:11 se traduce «sebo». En el pasaje de Neh. 8:10, donde se ordena: «id, comed grosura, 482 bebed vino dulce», el término traducido «grosura» no es «cheleb», como en los otros pasajes, sino «mashmannim», lit., sustancias aceitosas, y aparece únicamente en este pasaje en todo el AT. Es evidente que no se refiere a grasa animal. Aparentemente se refiere a comidas deliciosas. La grosura, en tipología, representa la energía interna del Señor Jesús en su ofrenda de Si mismo a Dios.
+
+nom, GRULLA
+
+tip, FAUN AVES
+
+vet,
+
+(heb. «'Agûr»).
+
+Ave migratoria cuyo grito se asemeja a un cacareo (Is. 38:14; Jer. 8:7). Ave zancuda, es de altos vuelos. Pasa del norte de Europa y Asia hacia el sur en sus migraciones al acercarse el invierno, volando en bandadas en forma de una gran «V».
+
+nom, GUARDIA
+
+tip, FUNC
+
+vet,
+
+Los reyes orientales, verdaderos déspotas que se granjeaban muchos odios, tenían que protegerse continuamente con una guardia personal, más peligrosa que útil si el soberano no podía fiarse totalmente de su lealtad. Por ello, ser miembro de la guardia era una posición muy honrosa. El capitán de la guardia era un funcionario de muy alto rango. Entre ellos se mencionan a: Potifar (Gn. 37:36; 41:12);
+
+Benaía (2 S. 23:22, 23; 1 Cr. 18:17);
+
+Nabuzaradán (2 R. 25:8; Jer. 39:9, 10);
+
+Arioc (Dn. 2:14), y otros.
+
+El capitán de la guardia y sus hombres debían aplicar frecuentemente la pena capital a los culpables de delitos políticos o de otras faltas.
+
+En Mr. 6:27 «uno de la guardia» es, en gr. «spekoulatõr», lit., espía. Dentro de cada legión romana había una sección de ellos. En el imperio, estos hombres servían de guardia personal del general, que les hacía llevar mensajes y buscar a los fuera de la ley y a los condenados a muerte.
+
+nom, GUARNICIÓN
+
+tip, EJER
+
+vet,
+
+Cuerpo de guardia; tropas estacionadas en una fortificación (1 S. 10:5; 13:3, 23; 14:1, 4, 6, 11, 15; 2 S. 8:6; 2 Cr. 17:2).
+
+Servían para mantener el poderío político del soberano que establecía estos puestos en un territorio sometido a él.
+
+nom, GUENIZÁ
+
+tip, CONS MANU
+
+vet,
+
+Estancia en las sinagogas donde se depositaban los rollos de las Escrituras ya desgastados por el uso. Después de un tiempo eran enterrados en tierra consagrada para impedir su profanación. En 1896 se descubrió una gran cantidad de estos rollos en la guenizá de la sinagoga del antiguo El Cairo. Una buena parte de ellos pasaron a integrar la llamada colección Taylor-Schechter en la 483 biblioteca de la Universidad de Cambridge. Este hallazgo fue de considerable importancia para los estudios de crítica textual, pues entre los escritos de esta guenizá se hallaba una gran cantidad de manuscritos más antiguos que el códice de Ben-Aser. Alrededor de 120 de ellos llevan la vocalización de la escuela babilónica, mientras que seis tienen la puntuación de la escuela palestina. Otros de los escritos de El Cairo se hallan en la Biblioteca Bodleian Library de Oxford, en el Museo Británico, en la Biblioteca de la Alianza Israelita de París, etc.
+
+nom, GUERIZIM
+
+tip, MONT
+
+ver, GERIZIM
+
+sit, a2, 321, 193
+
+vet,
+
+Ver GERIZIM
+
+La ortografía del nombre de esta montaña no es igual en las versiones castellanas; la Reina-Valera escribe Gerizim; otras, Garicim, Garizim, Guerizim.
+
+nom, GUERRA
+
+tip, TIPO EJER
+
+vet,
+
+La guerra es la consecuencia natural de la presencia del pecado en el mundo, y de la codicia de los hombres y de las naciones por lo que pertenece a los otros (Stg. 4:1-3). También puede tener el carácter, como en las Escrituras, de un juicio de Dios sobre una tierra por su pecado. Éste es el carácter de la conquista de la tierra de Canaán por parte de Israel, como huestes del Señor, y en su mantenimiento de su tierra, para lo cual tenían instrucciones divinas. En tipología, la guerra de ellos es figura del conflicto del cristiano contra principados, potestades, gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes (cp. Ef. 6:10-20). Hay también las guerras contra Israel, en las que Dios utilizó a otras naciones para castigar a su pueblo. Pero Dios siempre da sus propios derechos sobre su propio pueblo y sobre su propia tierra.
+
+Cuando Jehová destruyó el ejército de Faraón en el mar Rojo, fue llamado «varón de guerra», y ésta y otras victorias fueron registradas en «el libro de las batallas de Jehová» (Éx. 15:3; Nm. 21:14). David dijo de Dios: «Quien adiestra mis manos para la batalla» (2 S. 22:35; Sal. 18:34). Cuando estaban prestos a la batalla, los israelitas consultaban a Jehová (Jue. 20:23, 27, 28; 1 S. 14:37; 23:2; 1 R. 22:6). Si el conflicto no podía ser evitado, invocaban la ayuda de Dios, ofreciendo en ocasiones un sacrificio (1 S. 7:8, 9; 13:12; 2 Cr. 20:6-12; 1 Mac. 3:47-54). Los paganos recurrían a la adivinación, cuidándose de no salir a la batalla más que en un día que fuera declarado propicio (Éx. 21:26-28). Se enviaban exploradores para reconocer el territorio enemigo, a fin de valorar su capacidad de resistencia (Nm. 13:17; Jos. 2:1, 2; Jue. 7:9-11; 1 S. 26:4). Los prisioneros eran interrogados en busca de información (Jue. 8:14; 1 S. 30:11-15). Antes de la batalla, un sacerdote, o bien el general del ejército, recordaba a los soldados la presencia de Dios. Algunos eran devueltos a sus hogares (Dt. 20:2-9; 2 Cr. 20:14-20; 1 Mac. 3:56; 4:8-11).
+
+Se usaban diversas tácticas: la sorpresa, la emboscada, la huida simulada, el asedio (Gn. 14:15; Jos. 8:2-7; Jue. 7:16-22; 2 S. 5:23). En ocasiones, los campamentos enemigos presentaban a sus campeones (1 S. 17). Las tropas israelitas daban la señal de ataque y de invocación para que Dios 484 les diera su ayuda (Nm. 10:9; Jos. 6:5; Jue. 7:20; 2 Cr. 13:12; 1 Mac. 4:13; 5:33). Como los otros pueblos de la antigüedad, los israelitas saqueaban el campamento enemigo (Jue. 8:24-26; 1 S. 31:9; 2 Cr. 20:25; 1 Mac. 4:17-23), y en ocasiones daban muerte o mutilaban a prisioneros (Jos. 8:23, 29; 10:22-27; Jue. 1:6; 8:21; 2 S. 8:2). Por lo general, lo que se hacía era reducirlos a esclavitud.
+
+Las fuerzas que asediaban una ciudad cortaban el suministro de agua, y fortificaban su propio campamento, por temor a una salida de los asediados (Guerras 5:2, 3). El enemigo levantaba terraplenes, y disponía sus arietes contra las puertas de la ciudad (2 S. 20:15; Ez. 4:2; véase ARIETE), hostigándose a sus defensores con honderos y arqueros. Con ayuda de escaleras puestas sobre los terraplenes elevados, que en ocasiones llegaban a la mitad de la altura de los muros, se escalaban éstos (Jue. 9:52). Arqueros apostados sobre las torres de asedio y desde el suelo acribillaban a los asediados, que se defendían con flechas, piedras, antorchas encendidas (Guerras 5:2, 2 y 4; 6:4; 11:4; 2 Cr. 32:2-5; 2 S. 11:21, 24; 2 Cr. 26:15; 1 Mac. 6:31). La caída de una ciudad entrañaba su destrucción y la matanza de sus habitantes, sin respeto a la edad ni al sexo (Jos. 6:21, 24; 8:24-29; 10:22-27; 2 R. 15:16). La victoria se celebraba con cánticos y danzas (Éx. 15:1-21; Jue. 5; 1 S. 18:6; 2 Cr. 20:26-28; 1 Mac. 4:24). Sigue habiendo guerras en la actualidad, perfeccionándose cada día más los instrumentos de muerte. El corazón de una humanidad a espaldas de Dios no ha cambiado, lo que acarreará los duros juicios que desembocarán en la venida del Señor para imponer su reino. Israel, establecido en la tierra en incredulidad, está siendo perseguido por sus enemigos. Llegará el día en que el mundo se unirá en Armagedón para presentar batalla en el gran día del Dios todopoderoso (Ap. 16:14, 16). El Señor reinará hasta que haya puesto a todos sus enemigos por estrado de sus pies. Después seguirá el periodo en el que no se aprenderá más a hacer la guerra, cuando los instrumentos de guerra serán convertidos en aperos de labranza, y el Príncipe de Paz reinará sobre toda la tierra (Mi. 4:3).
+
+Bibliografía:
+
+R. V. G. Tasker: «La ira de Dios» (Ediciones Evangélicas Europeas, Barcelona, 1971).
+
+nom, GUSANO
+
+tip, FAUN REPT
+
+vet,
+
+(a) Término heb. que designa a todo tipo de animal invertebrado reptante: «tõlë'ãh» y «tõla'ath»; gr. «skõlëx».
+
+Ataca:
+
+a los vegetales, vid, etc. (Dt. 28:39; Jon. 4:7);
+
+al maná durante la noche (Éx. 16:20);
+
+a los cadáveres (Is. 14:11; cp. Is. 66:24 y Mr. 9:48),
+
+a los intestinos de alguien, provocando su muerte (Hch. 12:23). El ser humano, débil criatura, es comparado con un gusano (Jb. 25:6; Is. 41:14). El Señor lo usa proféticamente, como indicación de lo hondo de su humillación en su muerte; «Mas yo soy gusano, y no hombre» (Sal. 22:6).
+
+(b) Heb. «rimmãh», término colectivo que implica a la vez la putrefacción y los gusanos que se desarrollan (Jb. 21:26; 24:20; Is. 14:11; Éx. 16:24).
+
+Este término designa al hombre en Jb. 25:6.
+
+485
+
+***
+
+H
+
+nom, HABA
+
+tip, FLOR ALIM
+
+vet,
+
+Las habas (heb. «pol») formaban parte de la dieta israelita (2 S. 17:28); ocasionalmente, sobre todo en épocas de hambre, se mezclaban con grano en la confección de un pan basto (Ez. 4:9). La haba común, «Vicia faba», sigue siendo muy usada en Palestina.
+
+nom, HABACUC
+
+tip, BIOG PROF HOMB HOAT
+
+vet,
+
+Nombre de significado incierto: podría significar «abrazar» o designar «una planta de jardín» (cfr. el ac. «hambakûkû»).
+
+Profeta de Judá. Por su salmo (Hab. 3), y por las instrucciones dadas a su director de coro (Hab. 3:19), se ha llegado a la conclusión de que Habacuc pertenecía a la tribu de Leví; pero este pasaje no constituye demostración de ello de una manera absoluta (cfr. los títulos de los Sal. 3 y 5). Podría ser por esto que el escrito apócrifo de «Bel y el Dragón» lleve el encabezamiento «Habacuc, hijo de Josué, de la tribu de Leví».
+
+nom, HABACUC (Libro)
+
+tip, LIBR CRIT LIAT
+
+ver, QUMRÁN
+
+vet,
+
+Éste figura como el octavo entre los doce profetas menores. Se divide en tres secciones: (a) Primer lamento:
+
+Su clamor de protesta contra la violencia y la iniquidad, sin que Dios parezca reaccionar (Hab. 1:2-4); la iniquidad triunfa. La respuesta del Señor: Dios suscita a los caldeos (Hab. 1:5-10) que, culpables, serán castigados a su vez (Hab. 1:11).
+
+(b) Segundo lamento:
+
+El reino de Dios no se desvanecerá, y el juicio se abatirá sobre los caldeos (Hab. 1:12). Se plantea sin embargo un problema moral: Dios permite que los caldeos destruyan, den muerte, a los que son más justos que ellos. ¿Hasta cuándo continuará tal estado de cosas? (Hab. 1:13-17). Respuesta del Señor: Los caldeos son inicuos y están hinchados de soberbia; este solo hecho basta, a los ojos de los creyentes, para anunciar el castigo que se avecina sobre ellos (Hab. 1:11; Is. 10:12-16), como les sucederá también a todos los que sean semejantes a ellos. El justo vivirá por la fe (Hab. 2:1-4). Así, el conocimiento de esta verdad permite la resolución del dilema. Así, la certidumbre de que Dios castigará la maldad inspira al profeta a lanzar cinco anatemas, proferidos contra el orgulloso poderío del enemigo, y considerando cinco formas de iniquidad (Hab. 2:5-20).
+
+(c) Oración de acción de gracias (Hab. 3:1-19): Después de una invocación a la misericordia de Dios a pesar de su ira (Hab. 3:2), el profeta describe la gloriosa aparición de Jehová, el terror estupefacto de sus enemigos (Hab. 3:3-15), y después expresa la serena confianza de la fe que se 486 apoya en el Señor (Hab. 3:16-19).
+
+Este libro, aunque no está fechado, procede evidentemente de la época caldea: (a) El templo sigue estando en pie (Hab. 2:20), donde se celebran los servicios del culto acompañados de música (Heb. 3:19).
+
+(b) Esta generación (Hab. 1:5, 6) ha visto la ascensión de los caldeos hasta llegar a ser una colosal potencia entre las naciones, y el inicio de su acción de subyugar cruelmente a las naciones (Hab. 1:6-17). Los hebreos habían tenido ya relaciones con los caldeos desde hacía tiempo. Atrajeron de nuevo la atención cuando en el año 626 a.C. consiguieron librarse del yugo asirio. Comenzaron sus grandes conquistas, tomando el primer lugar entre las naciones, después de la caída de Nínive en el año 612 a.C., y gracias a su victoria sobre Egipto en Carquemis, el año 605 a.C. Se supone, por la evidencia interna, que Habacuc profetizó durante el reinado de Joacim (608-597 a.C.), pero es difícil precisar la fecha. La mayor parte de los eruditos sitúan la profecía en la primera parte de este reinado, en la época de la batalla de Carquemis, pero sería posible que su proclamación se remonte a unos años antes de la caída de Nínive. En efecto, los caldeos se agitaban ya en el año 626 a.C. e, incluso antes del hundimiento de Nínive, las operaciones militares en marcha constituían premoniciones de que este pueblo estaba en el camino de venir a ser una gran potencia mundial. Los profetas judíos habían anunciado con gran anticipación que los caldeos someterían a Judá (Is. 11:11; 39:6, 7; Mi. 4:10). Todas las naciones conocían el carácter feroz, el amor a la guerra, la crueldad, capacidad y métodos de combate de los caldeos.
+
+Sólo el conocedor del hebreo puede conseguir una idea adecuada de lo magnífico que es el estilo literario de Habacuc. El suyo es un estilo en el que las expresiones son tersas, paralelísticas, poéticas; un maestro del estilo poético, gráfico y enérgico, a decir de Driver. También el salmo del cap. 3 es de un lirismo del más elevado orden, manteniendo un ritmo y un uso de las imágenes que permite la más exigente comparación con las mejores producciones poéticas de la literatura hebrea.
+
+Las escuelas críticas han atacado duramente la unidad del libro, pero en base a presuposiciones y especulaciones carentes de base, y difieren mucho entre sí en sus conclusiones acerca de la unidad y datación de los diferentes capítulos y secciones. Se puede señalar que, p. ej., los términos musicales empleados no son postexílicos, sino que eran utilizados ya en los Salmos. Habacuc es frecuentemente citado en el NT de una manera que subraya su importancia teológica (cfr. Hch. 13:41; Hab. 1:5; Ro. 1:17; Gá. 3:11; He. 10:38; Hab. 2:4). Los judíos, al igual que la iglesia cristiana, reconocen plenamente el carácter canónico de este libro. Entre los famosos rollos del mar Muerto se descubrió un comentario de Habacuc, en el que la comunidad hacía una aplicación de este libro a sus propias circunstancias históricas. (Véase QUMRÁN [MANUSCRITOS DE], etc.)
+
+Bibliografía:
+
+Eiselen, F. C.: «Habakkuk» en ISBE (Wm. Eerdmans, Grand Rapids, Michigan, 1946); Freeman, H. E.: «Nahum, Sofonías, Habacuc - Profetas Menores del siglo VII» (Pub. Portavoz Evangélico, Barcelona, 1980, PP. 85-108);
+
+Keil, C. F., y F. Delitzsch: «Biblical Commentary on the Old Testament», tomo 2 (Wm. Eerdmans, Grand Rapids, Michigan, 1954); Kelly, W.: «Lectures on the Minor Prophets» (C. A. Hammond Trust Bible Depot, Londres, 487 reimpresión s/f de la edición de 1874, PP. 311-345);
+
+Kerr, D. W.: «Habakkuk» en The Wycliffe Bible Commentary (Moody Press, Chicago 1962/1978, PP. 871-881);
+
+Stephens Hodge, L. E. H.: «Habacuc» en Nuevo Comentado Bíblico (Casa Bautista de Publicaciones, El Paso, Texas, 1977, PP. 575-579);
+
+Vermes, G.: «The Dead Sea Scrolls in English», véase la traducción del Comentario sobre Habacuc: «Commentary on Habakkuk», PP. 235-243 (Penguin Books, Harmondsworth, Middlesex, Inglaterra, 1962).
+
+nom, HABOR
+
+tip, RIOS
+
+vet,
+
+Afluente del Éufrates que desemboca en este último a cerca de 35° N. Designa uno de los distritos a los que fueron llevados los israelitas en cautiverio en el año 722 a.C. (2 R. 17:6; 18:11; 1 Cr. 5:26).
+
+El nombre del río Habor ha sido hallado en algunos de los antiguos monumentos asirios. En historias antiguas ha recibido el nombre de Aborras, Aburas, Abora y Chaboras, etc.
+
+nom, HACHILA
+
+tip, MONT
+
+sit, a3, 335, 253
+
+vet,
+
+o HAQUILA. Collado en la tierra agreste cerca de Zif, y donde, en una de sus cavernas, se refugió David con sus hombres y perdonó la vida a Saúl (1 S. 23:19; 26:1, 3-12). Hoy se llama Yekín, y es un montón de ruinas.
+
+nom, HADAD
+
+tip, DIOS REYE BIOG HOMB HOAT
+
+vet,
+
+= «poderoso».
+
+(a) Divinidad adorada por los arameos. Su nombre figura como componente de nombres propios: Ben-adad (aunque parece que éste era un título de los reyes de Siria); Hadad-ezer.
+
+Los escribas asirios identifican a Hadad con un dios de su propio panteón, patrón del clima, Ramman, o sea, Rimón.
+
+(b) Rey de Edom, hijo de Bedad (Gn. 36:35, 36; 1 Cr. 1:46, 47). (c) Edomita de la familia real. De niño fue llevado a Egipto; Faraón le dio después su cuñada en matrimonio. A la muerte de David volvió a Edom y, movido por Dios, se convirtió en adversario de Salomón, causándole perjuicios (1 R: 11:14-22).
+
+(d) Hijo de Ismael (1 Cr. 1:30), llamado Hadar en Gn. 25:15. (e) Rey de Edom y sucesor de Baal-hanán (1 Cr. 1:51, 52). También llamado Hadar en Gn. 36:39.
+
+(f) Parece que «Hadad» era también un título de los reyes de Edom, más que un nombre propio. nom, HADAD-EZER
+
+488
+
+tip, BIOG REYE HOMB HOAT
+
+vet,
+
+= «Hadad es un socorro».
+
+Hijo de Rehob, rey sirio de Soba. Fue derrotado por el rey David, sufriendo graves pérdidas, y arrojado allende del Éufrates. David tomó mucho botín y escudos de oro, que consagró al Señor. Hadad-ezer fue también totalmente derrotado por David otras dos veces (2 S. 8:3-12; 10:6, 14, 15-18). Como consecuencia de ello, los reyes aliados con Hadad-ezer abandonaron la guerra contra Israel y se hicieron tributarios de David (2 S. 10:19).
+
+nom, HADES. Véase SEOL.
+
+nom, HADID
+
+tip, CIUD
+
+sit, a2, 230, 372
+
+vet,
+
+Ciudad situada en territorio de Dan, aunque perteneciente a la tribu de Benjamín (Esd. 2:33; Neh. 7:37; 11:34).
+
+nom, HAGEO
+
+tip, BIOG PROF HOMB HOAT
+
+vet,
+
+= «festivo», o «nacido en día festivo».
+
+Profeta contemporáneo de Zacarías (cfr. Hag. 1:1 y Zac. 1:1). Profetizó después del retorno del exilio babilónico.
+
+La reconstrucción del templo había estado interrumpida durante 15 años. Hageo contribuyó mucho a que se reanudara la reconstrucción (Esd. 5:1, 2; 6:14).
+
+nom, HAGEO (Libro)
+
+tip, LIBR LIAT
+
+vet,
+
+El libro de Hageo es el décimo en el grupo de los doce profetas menores. Se compone de cuatro profecías dadas en el espacio de cuatro meses en el año segundo de Darío Histaspes, en el año 520 a.C.:
+
+(a) Primera profecía:
+
+El primer día del sexto mes, el profeta dirige sus reproches a aquellos que se han construido casas artesonadas, pero que han dejado en ruinas el templo de Dios, y les muestra que Dios no ha dado bendición a sus trabajos habituales, A continuación de esta exhortación, se reanuda la reconstrucción del templo el día veinticuatro de este mismo mes (Hag. 1). (b) Segunda profecía:
+
+El día vigesimoprimero del mes séptimo, Hageo da palabras de aliento a los que lamentan la pobre apariencia del nuevo edificio, al compararla con el esplendor del antiguo. Predice que la gloria postrera del templo sería más grande que su gloria primera, por cuanto Dios hará temblar las naciones; lo que ellas tengan de más precioso afluirá a la casa del Señor, llena de su gloria y de su paz. Será en esta etapa del templo que vendrá el Deseado (v. 7). Es de señalar aquí cómo, a 489 diferencia de tantos comentaristas, que hablan del «primer templo», del «segundo templo», el lenguaje de la profecía se toma un sumo cuidado en destacar el carácter único del templo («Esta casa en su gloria primera... la gloria postrera de esta casa será mayor por la primera», Hag. 2:3, 9). Así, es de destacar que por lo que a Dios concierne, sólo ha habido y habrá un templo, aunque en fases históricas y glorias distintas.
+
+(c) Tercera profecía:
+
+El día vigesimocuarto del mes noveno, Hageo dio la secuela de la primera profecía. De la misma manera que el contacto con algo impuro contamina lo que es puro, de la misma manera la negligencia anterior de los israelitas con respecto a Dios había contaminado sus esfuerzos. Por tanto, Dios les había retirado su bendición. Pero la renovación de su celo por Jehová devolvería la fertilidad a las estaciones (Hag. 2:10-19).
+
+(d) Cuarta profecía:
+
+El mismo día, Hageo pronunció su última profecía. Cuando el Señor haga temblar los cielos y la tierra y trastorne las naciones, Él establecerá a Zorobabel, representante de la línea real de la casa de David (Hag. 2:20-23).
+
+El mensaje de Hageo tiene una aplicación práctica permanente. De hecho se puede resumir en la lapidaria afirmación del Señor Jesús «Buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas (Mt. 6:33).
+
+Dios quiere de su pueblo una lealtad a Él sin reservas, subordinándolo todo al cumplimiento de su voluntad, y Él cuidará fielmente de los suyos.
+
+nom, HAGIÓGRAFOS. Véase CANON.
+
+nom, HAGRITAS. Véase AGARENOS.

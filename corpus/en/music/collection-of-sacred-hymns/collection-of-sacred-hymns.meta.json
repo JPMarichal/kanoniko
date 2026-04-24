@@ -1,0 +1,32 @@
+{
+  "title": "Collection of Sacred Hymns",
+  "author": "Various",
+  "book": "Collection of Sacred Hymns",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "music",
+  "subcategory": null,
+  "tags": [
+    "music",
+    "unclear-attribution",
+    "unclear-attribution"
+  ],
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Collection of Sacred Hymns - Various authors & Emma Smith.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "32d5fe73-6ec1-4c23-8aa4-4bbf9da0a11f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lot epub with OPF creator='Various authors'. Classified by title keywords. Original title: 'Collection of Sacred Hymns'. Attribution pending manual research."
+}
