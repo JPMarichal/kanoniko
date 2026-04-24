@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "5th-century-bc",
+    "primary-source",
+    "peloponnesian-war"
+  ],
+  "category": "history",
+  "author": "Thucydides",
+  "source_url": null,
+  "note": "Thucydides (c. 460-400 BC). History of the Peloponnesian War, unfinished."
+}

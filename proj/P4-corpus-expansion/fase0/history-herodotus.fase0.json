@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "5th-century-bc",
+    "primary-source",
+    "persian-wars"
+  ],
+  "category": "history",
+  "author": "Herodotus",
+  "source_url": null,
+  "note": "Herodotus (c. 484-425 BC), 'Father of History'. Histories, c. 430 BC."
+}

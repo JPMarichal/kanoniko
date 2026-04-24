@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "jewish-history",
+    "1st-century",
+    "primary-source",
+    "second-temple"
+  ],
+  "category": "history",
+  "author": "Flavius Josephus",
+  "source_url": null,
+  "note": "Josephus (37-100). Antiquitates Judaicae, c. 93-94. Critical source for Second Temple Judaism and NT era."
+}

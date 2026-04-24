@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "roman-epic",
+    "1st-century-bc",
+    "primary-source",
+    "latin-literature"
+  ],
+  "category": "reference",
+  "author": "Virgil",
+  "source_url": null,
+  "note": "Virgil (70-19 BC). Aeneid, Rome's national epic."
+}
