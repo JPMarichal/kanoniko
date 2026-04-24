@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "geography",
+    "mesoamerica",
+    "farms",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "John L. Sorenson",
+  "source_url": null,
+  "note": "Monografia ES de Sorenson: 'UN ANALISIS CIENTIFICO DEL LIBRO DE MORMON: Los Cambios en nuestra comprension de la America antigua y de sus Escrituras'. ~82 KB texto (1.8 MB total con imagenes). Sintesis breve de su argumento geografico."
+}

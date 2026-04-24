@@ -1,0 +1,22 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "geography",
+    "mesoamerica",
+    "limited-geography-theory",
+    "farms",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "John L. Sorenson",
+  "source_url": null,
+  "note": "Traduccion ES de An Ancient American Setting for the Book of Mormon (Sorenson 1985). ~953 KB, 77 capitulos. Par de traduccion."
+}

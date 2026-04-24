@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "dead-sea-scrolls",
+    "modern-discoveries",
+    "farms",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Traduccion ES de Nibley 'Since Cumorah' (1967) — tratado sobre el Libro de Mormon en relacion con los Rollos del Mar Muerto y descubrimientos arqueologicos modernos."
+}

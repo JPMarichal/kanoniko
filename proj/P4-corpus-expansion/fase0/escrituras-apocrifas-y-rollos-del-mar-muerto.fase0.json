@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "dead-sea-scrolls",
+    "apocrypha",
+    "pseudepigrapha",
+    "farms",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Articulo/folleto ES de Nibley sobre apocrifa y Rollos del Mar Muerto. ~134 KB."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "enoch",
+    "pearl-of-great-price",
+    "pseudepigrapha",
+    "farms",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Stephen D. Ricks & Hugh Nibley",
+  "source_url": null,
+  "note": "1986 FARMS / Deseret Book. Nibley's study of Enoch in ancient traditions. Co-authored with Stephen D. Ricks."
+}

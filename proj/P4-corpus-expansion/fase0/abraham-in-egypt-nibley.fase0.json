@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pearl-of-great-price",
+    "abraham",
+    "ancient-egypt",
+    "farms",
+    "byu-scholarship",
+    "scripture-studies"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "1981 Deseret Book / FARMS. Nibley's examination of Egyptian context for the Book of Abraham and the PGP facsimiles. His ancient-Near-Eastern scholarship applied to LDS scripture."
+}

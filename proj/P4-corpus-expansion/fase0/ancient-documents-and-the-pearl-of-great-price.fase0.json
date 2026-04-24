@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pearl-of-great-price",
+    "ancient-documents",
+    "abraham",
+    "book-of-moses",
+    "farms",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Obra de Nibley sobre documentos antiguos (papiros, apocrifos, etc.) y su relacion con la Perla de Gran Precio. 27 capitulos, ~1.1 MB. OPF lang='es' pero titulo EN preservado."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "come-follow-me",
+    "study-notes",
+    "welch",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "John W. Welch",
+  "source_url": null,
+  "note": "Study notes by Welch covering the Come Follow Me curriculum for the Book of Mormon. Very large (20 MB epub, 2.7 MB text, 166 files, 50 h1s). Recent (likely 2020-2024 cycle). Valuable for BoM study companion."
+}

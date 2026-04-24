@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "islam",
+    "comparative-religion",
+    "farms",
+    "byu-scholarship",
+    "essay"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Ensayo corto de Nibley comparando tradiciones islamicas y SUD. ~26 KB."
+}

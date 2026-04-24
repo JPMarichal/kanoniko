@@ -1,0 +1,2431 @@
+### 6 - Jacob 4,6, Substantive Textual Variants Between Manuscripts and Editions
+
+Royal Skousen
+
+This computerized collation of Jacob 4-6 is based on the original manuscript (where extant), the printer's manuscript, the first three editions of the Book of Mormon (1830, 1837, and 1840), and the 1981 edition of the Book of Mormon. The base text for this collation is the 1981 edition; all substantive variants between the 1981 edition and the other five sources are shown. The collation ignores accidental variants (spelling variation, capitalization, and punctuation that make no difference in meaning).
+
+Recent work on the Wilford Wood fragments of the original manuscript has led to the discovery of 11 fragments from Jacob 4-6, the only portions of the original manuscript of these chapters known to exist. These fragments come from two different types of paper, which implies that these fragments come from two different gatherings of sheets. A fragment at the end of Jacob 6 gives page number 111, which allows us to determine the probable pagination for all these fragments from Jacob 4-6:
+
+Pages Verses Number of Fragments 101-2 4:3-5, 4:13-14 2 107-8 5:46-48, 5:57-58, 60 3 109-10 5:69-70, 5:77-6:0 3 111-12 6:11-7:6, 7:11-18 4
+
+These few fragments do not provide any evidence of change in the Book of Mormon text. In a number of instances, however, they do provide support for readings found in the printer's manuscript and the 1830 edition that were changed in later editions of the Book of Mormon.
+
+In the following collation, the various forms of a given variant appear in bold, surrounded by square brackets [ ] and separated by a vertical slash |. Each form is followed by a space and a list of the sources having that form. Single numbers and letters are used to represent the various sources:
+
+0 original manuscript (where extant) 1 printer's manuscript A 1830 edition B 1837 edition C 1840 edition Q 1981 edition
+
+Thus [was 1A | is BCQ] means that the word was occurs in the printer's manuscript and the 1830 edition; in the other three editions was is replaced by is. If there is only a blank space before the source listing, then the form is completely lacking in those sources. Thus [ye 1 | ABCQ] means that ye occurs in the printer's manuscript but is missing in all four printed editions included in this collation. Underlining is used to represent changes made in the printer's manuscript by a later corrector, not Oliver Cowdery. All but a few of these changes were made by Joseph Smith for the 1837 edition and are found in his hand. A question mark after 0 means that the assumption of how the original manuscript read is based on indirect evidence, such as spacing considerations and scribal tendencies.
+
+Certain symbols are used to represent the text of either the original or the printer's manuscript:
+
+|x| x has been inserted between words ^ insertion mark that appears in the text %5Cx/ x has been inserted above the line of text /x%5C x has been inserted below the line of text < x has been deleted by crossout <<%x%> x has been deleted by erasure {x|y} x has been overwritten by y {x} x has been partially overwritten by x - hyphenation mark x(-) the letter x is missing a stroke x(+) the letter x has an extra stroke [ ] text is completely illegible [x] x is partially legible [x|y] the letter may be x or y, with x preferred ( ) a lacuna (a portion of the manuscript is missing) (x) x is partially missing due to a lacuna
+
+Jacob 4:6
+
+Chapter [III 1ABC | 4 Q] now behold, it came to pass that I, Jacob, having ministered much unto my people in word, (and I cannot write but [ | a | 1 | a ABCQ] little of my words, because of the difficulty of engraving our words upon plates) and we know that the things which we write upon plates must remain; (2) But whatsoever things we write upon anything save it be upon plates must perish and vanish away; but we can write a few words upon plates, which will give our children, and also our beloved brethren, a small degree of knowledge concerning us, or concerning their fathers—(3) Now in this thing we do rejoice; and we labor diligently to engraven these words upon plates, hoping that our beloved brethren and our children will receive them with thankful hearts, and look upon them that they may learn with joy and not with sorrow, neither with contempt, concerning their first parents. (4) For, for this intent have we written these things, that they may know that we knew of Christ, and we had a hope of his glory many hundred years before his coming; and not only we ourselves had a hope of his glory, but also all the holy prophets which were before us. (5) Behold, they believed in Christ and worshiped the Father in his name, and also we worship the Father in his name. And for this intent we keep the law of Moses, it pointing our souls to him; and for this cause it is sanctified unto us for righteousness, even as it was accounted unto Abraham in the wilderness to be obedient unto the commands of God in offering up his son Isaac, which [was 1A | is BCQ] a similitude of God and his Only Begotten Son. (6) Wherefore, we search the prophets, and we have many revelations and the spirit of prophecy; and having all these witnesses we obtain a hope, and our faith becometh unshaken, insomuch that we truly can command in the name of Jesus and the very trees obey us, or the mountains, or the waves of the sea. (7) Nevertheless, the Lord God [sheweth 1ABC | showeth Q] us our weakness that we may know that it is by his grace, and his great condescensions unto the children of men, that we have power to do these things. (8) Behold, great and marvelous are the works of the Lord. How unsearchable are the depths of the mysteries of him; and it is impossible that man should find out all his ways. And no man knoweth of his ways save it be revealed unto him; wherefore, brethren, despise not the revelations of God. (9) For behold, by the power of his word man came upon the face of the earth, which earth was created by the power of his word. Wherefore, if God being able to speak and the world was, and to speak and man was [^%5Ccreated/ 1 | created ABCQ], O then, why not able to command the earth, or the workmanship of his hands upon the face of it, according to his will and pleasure? (10) Wherefore, brethren, seek not to counsel the Lord, but to take counsel from his hand. For behold, ye yourselves know that he counseleth in wisdom, and in justice, and in great mercy, over all his works. (11) Wherefore, beloved [^%5Cbrethren/ 1 | brethren ABCQ], be reconciled unto him through the atonement of Christ, his Only Begotten Son, [that 1A | and BCQ] ye may obtain a resurrection, according to the power of the resurrection which is in Christ, and be presented as the first-fruits of Christ unto God, having faith, and obtained a good hope of glory in him before he manifesteth himself in the flesh. (12) And now, beloved, marvel not that I tell you these things; for why not speak of the atonement of Christ, and attain to a perfect knowledge of him, as to attain to the knowledge of a resurrection and the world to come? (13) Behold, my brethren, he that prophesieth, let him prophesy to the understanding of men; for the Spirit speaketh the truth and lieth not. Wherefore, it speaketh of things as they really are, and of things as they really will be; wherefore, these things are manifested unto us plainly, for the salvation of our souls. But behold, we are not witnesses alone in these things; for God also spake them unto prophets of old. (14) But behold, the Jews were a stiffnecked people; and they despised the words of plainness, and killed the prophets, and sought for things that they could not understand. Wherefore, because of their blindness, which blindness came by looking beyond the mark, they must needs fall; for God hath taken away his plainness from them, and delivered unto them many things which they cannot understand, because they desired it. And because they desired it God hath done it, that they may stumble. (15) And now I, Jacob, am led on by the Spirit unto prophesying; for I perceive by the workings of the Spirit which is in me, that by the stumbling of the Jews they will reject the stone upon which they might build and have safe foundation. (16) But behold, according to the scriptures, this stone shall become the great, and the last, and the only sure foundation, upon which the Jews can build. (17) And now, my beloved, how is it possible that these, after having rejected the sure foundation, can ever build upon it, that it may become the head of their corner? (18) Behold, my beloved brethren, I will unfold this mystery unto you; if I do not, by any means, get shaken from my firmness in the Spirit, and stumble because of my over anxiety for you.
+
+[ 1ABC | Chapter 5 Q] Behold, my brethren, do ye not remember to have read the words of the prophet Zenos, which [ 1ABC | he Q] spake unto the house of Israel, saying: (2) Hearken, O ye house of Israel, and hear the words of me, a prophet of the Lord. (3) For behold, thus saith the Lord, I will liken thee, O house of Israel, like unto a tame olive-tree, which a man took and nourished in his vineyard; and it grew, and waxed old, and began to decay. (4) And it came to pass that the master of the vineyard went forth, and he saw that his olive-tree began to decay; and he [<<sayeth> %5Csai{< | d}/ 1 | sayeth A | said BCQ]: I will prune it, and dig about it, and nourish it, that perhaps it may shoot forth young and tender branches, and it perish not. (5) And it came to pass that he pruned it, and digged about it, and nourished it according to his word. (6) And it came to pass that after many days it began to put forth somewhat a little, young and tender branches; but behold, the main top thereof began to perish. (7) And it came to pass that the master of the vineyard saw it, and he [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his servant: It grieveth me that I should lose this tree; wherefore, go and pluck the branches from a wild olive-tree, and bring them hither unto me; and we will pluck off those main branches which are beginning to wither away, and we will cast them into the fire that they may be burned. (8) And behold, saith the Lord of the vineyard, I take away many of these young and tender branches, and I will graft them whithersoever I will; and it mattereth not that if it so be that the root of this tree will perish, I may preserve the fruit thereof unto myself; wherefore, I will take these young and tender branches, and I will graft them whithersoever I will. (9) Take thou the branches of the wild olive-tree, and graft them in, in the stead thereof; and these which I have plucked off I will cast into the fire and burn them, that they may not cumber the ground of my vineyard. (10) And it came to pass that the servant of the Lord of the vineyard [done 1A | did BCQ] according to the word of the Lord of the vineyard, and grafted in the branches of the wild olive-tree. (11) And the Lord of the vineyard caused that it should be digged about, and pruned, and nourished, saying unto his servant: It grieveth me that I should lose this tree; wherefore, that perhaps I might preserve the roots thereof that they perish not, that I might preserve them unto myself, I have done this thing. (12) Wherefore, go thy way; watch the tree, and nourish it, according to my words. (13) And these will I place in the [ni -thermost 1 | nethermost ABCQ] part of my vineyard, whithersoever I will, it mattereth not unto thee; and I do it that I may preserve unto myself the natural branches of the tree; and also, that I may lay up fruit thereof against the season, unto myself; for it grieveth me that I should lose this tree and the fruit thereof. (14) And it came to pass that the Lord of the vineyard went his way, and hid the natural branches of the tame olive-tree in the [nithermost 1 | nethermost ABCQ] parts of the vineyard, some in one and some in another, according to his will and pleasure. (15) And it came to pass that a long time passed away, and the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his servant: Come, let us go down into the vineyard, that we may labor in the vineyard. (16) And it came to pass that the Lord of the vineyard, and also the servant, went down into the vineyard to labor. And it came to pass that the servant [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his master: Behold, look here; behold the tree. (17) And it came to pass that the Lord of the vineyard looked and beheld the tree in the which the wild olive branches had been grafted; and it had [sprang 1ABC | sprung Q] forth and [began 1ABC | begun Q] to bear fruit. And he beheld that it was good; and the fruit thereof was like unto the natural fruit. (18) And he [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Behold, the branches of the wild tree [< %5Chath/ 1 | hath ABC | have Q] taken hold of the moisture of the root thereof, that the root thereof hath brought forth much strength; and because of the much strength of the root thereof the wild branches [<<hath> %5Chave/ 1 | hath A | have BCQ] brought forth tame fruit. Now, if we had not grafted in these branches, the tree thereof would have perished. And now, behold, I shall lay up much fruit, which the tree thereof hath brought forth; and the fruit thereof I shall lay up against the season, unto mine own self. (19) And it came to pass that the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Come, let us go to the [nithermost 1 | nethermost ABCQ] [parts 1 | part ABCQ] of the vineyard, and behold if the natural branches of the tree [hath 1ABC | have Q] not brought forth much fruit also, that I may lay up of the fruit thereof against the season, unto mine own self. (20) And it came to pass that they went forth whither the master [^%5Cof the vineyard/ 1 | of the vineyard A | BCQ] had hid the natural branches of the tree, and he [<<sa^yeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Behold these; and he beheld the first that it had brought forth much fruit; and he beheld also that it was good. And he [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Take of the fruit thereof, and lay it up against the season, that I may preserve it unto mine own self; for behold, [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] he, this long time have I nourished it, and it hath brought forth much [^%5Cfruit/ 1 | fruit ABCQ]. (21) And it came to pass that the servant [sayeth 1A | said BCQ] unto his master: How comest thou hither to plant this tree, or this branch of the tree? For behold, it was the poorest spot in all the land of [thy 1ABQ | the C] vineyard. (22) And the Lord of the vineyard [s<<ayet>h %5Csaid/ 1 | sayeth A | said BCQ] unto him: Counsel me not; I knew that it was a poor spot of ground; wherefore, I said unto thee, I have nourished it this long time, and thou beholdest that it hath brought forth much fruit. (23) And it came to pass that the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his servant: Look hither; behold I have planted another branch [^%5Cof the {h | tr}ee/ 1 | of the tree ABCQ] also; and thou knowest that this spot of ground was poorer [then 1 | than ABCQ] the first. But, behold the tree. I have nourished it this long time, and it hath brought forth much fruit; therefore, gather it, and lay it up against the season, that I may preserve it unto mine own self. (24) And it came to pass that the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] again unto his servant: Look hither, and behold another branch also, which I have planted; behold that I have nourished [ 1 | it ABCQ] also, and it hath brought forth fruit. (25) And he [s<<ayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Look hither and behold the last. Behold, this have I planted in a good spot of ground; and I have nourished it this long time, and only a part of the tree hath brought forth tame fruit, and the other part of the tree hath brought forth wild fruit; behold, I have nourished this tree like unto the others. (26) And it came to pass that the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Pluck off the branches that have not brought forth good fruit, and cast them into the fire. (27) But behold, the servant [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto him: Let us prune it, and dig about it, and nourish it a little longer, that perhaps it may bring forth good fruit unto thee, that thou canst lay it up against the season. (28) And it came to pass that the Lord of the vineyard and the servant of the Lord of the vineyard did nourish all the fruit of the vineyard. (29) And it came to pass that a long time had passed away, and the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his servant: Come, let us go down [in 1 | into ABCQ] the vineyard, that we may labor again in the vineyard. For behold, the time draweth near, and the end soon cometh; wherefore, I must lay up fruit against the season, unto mine own self. (30) And it came to pass that the Lord of the vineyard and the servant went down into the vineyard; and they came to the tree whose natural branches had been broken off, and the wild branches had been grafted in; and behold all sorts of fruit did cumber the tree. (31) And it came to pass that the Lord of the vineyard did taste of the fruit, every sort according to its number. And the Lord of the vineyard [sa <<-it^h> %5Csai(-)d/ 1 | saith A | said BCQ]: Behold, this long time have we nourished this tree, and I have laid up unto myself against the season much fruit. (32) But behold, this time it hath brought forth much fruit, and there is none of it which is good. And behold, there are all kinds of bad fruit; and it profiteth me nothing, notwithstanding all our labor; and now it grieveth me that I should lose this tree. (33) And the Lord of the vineyard [sayeth 1A | said BCQ] unto the servant: What shall we do unto the tree, that I may preserve again good fruit thereof unto mine own self? (34) And the servant [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his master: Behold, because thou didst graft in the branches of the wild olive-tree they have nourished the roots, that they are alive and they have not perished; wherefore thou beholdest that they are yet good. (35) And it came to pass that the Lord of the vineyard [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his servant: The tree profiteth me nothing, and the roots thereof [profiteth 1ABC | profit Q] me nothing so long as it shall bring forth evil fruit. (36) Nevertheless, I know that the roots are good, and for mine own purpose I have preserved them; and because of their much strength they have hitherto brought forth, from the wild branches, good fruit. (37) But behold, the wild branches have [< %5Cgrown/ 1 | grown ABCQ] and have [overran 1ABC | overrun Q] the roots thereof; and because that the wild branches have overcome the roots thereof it hath brought forth much evil fruit; and because that it hath brought forth so much evil fruit thou [beheldest 1 | beholdest ABCQ] that it beginneth to perish; and it will soon become ripened, that it may be cast into the fire, except we should do something for it to preserve it. (38) And it came to pass that the Lord of the vineyard [sayeth 1A | said BCQ] unto his servant: Let us go down into the [nithermost 1 | nethermost ABCQ] parts of the vineyard, and behold if the natural branches have also brought forth evil fruit. (39) And it came to pass that they went down into the [nither -most 1 | nethermost ABCQ] parts of the vineyard. And it came to pass that they beheld that the fruit of the natural branches had become corrupt also; yea, the first and the second and also the last; and they had all become corrupt. (40) And the wild fruit of the last had overcome that part of the tree which brought forth good fruit, even that the branch had withered away and died. (41) And it came to pass that the Lord of the vineyard wept, and [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: What could I have done more for my vineyard? (42) Behold, I knew that all the fruit of the vineyard, save it were these, had become corrupted. And now these which have once brought forth good fruit have also become corrupted; and now all the trees of my vineyard are good for nothing save it be to be hewn down and cast into the fire. (43) And behold this last, whose branch hath withered away, I did plant in a good spot of ground; yea, even that which was choice unto me above all other parts of the land of my vineyard. (44) And thou [beh{o | e}ldest 1 | beheldest ABCQ] that I also cut down that which cumbered this spot of ground, that I might plant this tree in the stead thereof. (45) And thou [beh{o | e}ldest 1 | beheldest ABCQ] that a part thereof brought forth good fruit, and [the 1 | a ABCQ] part thereof brought forth wild fruit; and because [<<th[a]t> 1 | that ABC| Q] I plucked not the branches thereof and cast them into the fire, behold, they have overcome the good branch that it [<<ha^th> %5Chas/ 1 | hath ABCQ] withered away. (46) And now, behold, notwithstanding all the care which we have taken of my vineyard, the trees thereof [<<hath> %5Chave/ 1 | hath AB | have CQ] become corrupted, that they bring forth no good fruit; and these I [<e^ %5Chad/ 1 | had ABCQ] [hope | d | 1 | hope AB | hoped CQ] to preserve, to have laid up fruit thereof against the season, unto mine own self. But, behold, they have become like unto the wild olive-tree, and they are of no worth but to be hewn down and cast into the fire; and it grieveth me that I should lose them. (47) But what could I have done more in my vineyard? Have I slackened mine hand, that I have not nourished it? Nay, I have nourished it, and I have digged [ 0?A | ^%5Cabout/ 1 | about BCQ] it, and I have pruned it, and I have dunged it; and I have stretched forth mine hand almost all the day long, and the end draweth nigh. And it grieveth me that I should hew down all the trees of my vineyard, and cast them into the fire that they should be burned. Who is it that [<<hath> %5Cha{s | s}/ 1 | hath A | has BCQ] corrupted my vineyard? (48) And it came to pass that the servant [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto his master: Is it not the loftiness of thy vineyard—[<<hat^h> %5Chas/ 1 | Hath A | Has B | Have C | have Q] not the branches thereof [overcame 1A | overcome BCQ] the roots which are good? And because [<<t[hat]> 1 | that A | BCQ] the branches have [overc{[a] | o}me 1 | overcame A | overcome BCQ] the roots thereof, [( r) 0 | <<for> 1 | For A | BCQ] behold they grew faster [than 0ABCQ | then 1] the strength of the roots [<<t[h]e[r]e[o]f> 1 | thereof A | BCQ], taking strength unto themselves. Behold, I say, is not this the cause that the trees of thy vineyard [hath 0A | <<hath> %5Chave/ 1 | have BCQ] become corrupted? (49) And it came to pass that the Lord of the vineyard [<<sayeth> %5Csa | i | d/ 1 | sayeth A | said BCQ] unto the servant: Let us go to and hew down the trees of the vineyard and cast them into the fire, that they shall not cumber the ground of my vineyard, for I have done all. What could I have done more for my vineyard? (50) But, behold, the servant [<<saith> %5Csaid/ 1 | saith A | said BCQ] unto the Lord of the vineyard: Spare it a little longer. (51) And the Lord [<<saith> %5Csaid/ 1 | saith A | said BCQ]: Yea, I will spare it a little longer, for it grieveth me that I should lose the trees of my vineyard. (52) Wherefore, let us take of the branches of these which I have planted in the [nithermost 1 | nethermost ABCQ] parts of my vineyard, and let us graft them into the tree from whence they came; and let us pluck from the tree those branches whose fruit is most bitter, and graft in the natural branches of the tree in the stead thereof. (53) And this will I do that the tree may not perish, that, perhaps, I may preserve unto myself the roots thereof for mine own purpose. (54) And, behold, the roots of the natural branches of the tree which I planted whithersoever I would are yet alive; wherefore, that I may preserve them also for mine own purpose, I will take of the branches of this tree, and I will graft them in unto them. Yea, I will graft in unto them the branches of their mother tree, that I may preserve the roots also unto mine own self, that when they shall be sufficiently strong [<<t[hat]> 1 | that A | BCQ] perhaps they may bring forth good fruit unto me, and I [^%5Cmay/ 1 | may ABCQ] yet have glory in the fruit of my vineyard. (55) And it came to pass that they took from the natural tree which had become wild, and grafted in unto the natural trees, which also had become wild. (56) And they also took of the natural trees which had become wild, and grafted into their mother tree. (57) And the Lord of the vineyard [s<<ayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto the servant: Pluck not the wild branches from the trees, save it be those [<^ %5Cwhich/ 1 | which ABCQ] are most bitter; and in them ye shall graft according to that which I have said. (58) And we will nourish again the trees of the vineyard, and we will trim up the branches thereof; and we will pluck from the trees those branches which are ripened, that must perish, and cast them into the fire. (59) And this I do that, perhaps, the roots thereof may take strength because of their goodness; and because of the [< %5Cchange/ 1 | change ABCQ] of the branches, that the good may overcome the evil. (60) And because that I have preserved the natural branches and the roots thereof, and that I have grafted in the natural branches again into their mother tree, and have preserved the roots of their mother tree, that, perhaps, the trees of my vineyard may bring forth again good fruit; and that I may have joy again in the fruit of my vineyard, and, perhaps, that I may rejoice exceedingly that I have preserved the roots and the branches of the first fruit—(61) Wherefore, go to, and call servants, that we may labor diligently with our [mights 1ABC | might Q] in the vineyard, that we may prepare the way, that I may bring forth again the natural fruit, which natural fruit is good and the most precious above all other fruit. (62) Wherefore, let us go to and labor with our [mights 1ABC | might Q] this last time, for behold the end draweth nigh, and this is for the last time that I shall prune my vineyard. (63) Graft in the branches; begin at the last that they may be first, and that the first may be last, and dig about the trees, both old and young, the first and the last; and the last and the first, that all may be nourished once again for the last time. (64) Wherefore, dig about them, and prune them, and dung them once more, for the last time, for the end draweth [nigh< 1 | nigh ABCQ]. And if it [so be 1ABC | be so Q] that these last grafts shall grow, and bring forth the natural fruit, then shall ye prepare the way for them, that they may grow. (65) And as they begin to grow ye shall clear away the branches which bring forth bitter fruit, according to the strength of the good and the size thereof; and ye shall not clear away the bad [<<&^ the ^sis^e the^reof & ye^ shall ^not clear a^way t(-)h(-)> 1 | ABCQ] [ | ther | %5C-eof/ 1 | thereof ABCQ] [%5Call at once/ 1 | all at once ABCQ], [%5Clest the roots thereof should/ 1 | lest the roots thereof should ABCQ] be too strong for the graft, and the graft thereof shall perish, and I lose the trees of my vineyard. (66) For it grieveth me that I should lose the trees of my vineyard; wherefore ye shall clear away the bad according as the good shall grow, that the root and the top may be equal in strength, until the good shall overcome the bad, and the bad be hewn down and cast into the fire, that they cumber not the ground of my vineyard; and thus will I sweep away the bad out of my vineyard. (67) And the branches of the natural tree will I graft in again into the natural tree; (68) And the branches of the natural tree will I graft into the natural branches of the [<l 1 | ABCQ] tree; and thus will I bring them together again, that they shall bring forth the natural fruit, and they shall be one. (69) And [< %5C</ the 1 | the ABCQ] bad shall be cast away, yea, even out of all the land of my vineyard; for behold, only this once will I prune my vineyard. (70) And it came to pass that the Lord of the vineyard sent his servant; and the servant went and did as the Lord had commanded him, and brought other servants; and they were few. (71) And the Lord of the vineyard [<<sa^ith> %5Csaid/ 1 | saith A | said BCQ] unto [< %5Cthem/ 1 | them ABCQ]: Go to, and labor in the vineyard, with your [mights 1ABC | might Q]. For behold, this is the last time that I shall nourish my vineyard; for the end is nigh at hand, and the season [< %5Cspeedily/ 1 | speedily ABCQ] cometh; and if ye labor with your [mights 1ABC | might Q] with me ye shall have joy in the fruit [< 1 | ABCQ] which I shall lay up [<^ %5Cunto/ 1 | unto ABCQ] myself against the time which will soon come. (72) And it came to pass that the servants did go [<<t[o] i[t]> 1 | to it A | BCQ] and labor with their mights; and the Lord of the vineyard labored also with them; and they did obey the commandments of the Lord of the vineyard in all things. (73) And there began to be the natural fruit again in the vineyard; and the natural branches began to grow and thrive exceedingly; and the wild branches began to be plucked off and to be cast away; and they did keep the root and the top thereof equal, according to the strength thereof. (74) And thus they labored, with all diligence, according to the commandments of the Lord of the vineyard, even until the bad had been cast away out of the vineyard, and the Lord had preserved unto himself that the trees had become again the natural fruit; and they became like unto one body; and the [fr -uit 1 | fruit ABC | fruits Q] were equal; and the Lord of the vineyard had preserved unto himself the natural fruit, which was most precious unto him from the beginning. (75) And it came to pass that when the Lord of the vineyard saw that his fruit was good, and that his vineyard was no more corrupt, he [calle{t[h] | d} 1 | calleth A | called BCQ] up his servants, and [<<sayeth> %5Csaid/ 1 | sayeth A | said BCQ] unto them: Behold, for this last time have we nourished my vineyard; and thou beholdest that I have done according to my will; and I have preserved the natural fruit, that it is good, even like as it was in the beginning. And blessed art thou; for because [< %5C<<t[h]at>/ 1 | that A | BCQ] ye have been diligent in laboring with me in my vineyard, and have kept my commandments, and [<<hath> %5Chave/ 1 | hath A | have BCQ] brought unto me again the natural fruit, that my vineyard is no more corrupted, and the bad is cast away, behold ye shall have joy with me because of the fruit of my vineyard. (76) For behold, for a long time [^%5Cwill/ 1 | will ABCQ] I lay up of the fruit of my vineyard unto mine own self against the season, which speedily cometh; and for the last time have I nourished my vineyard, and pruned it, and dug about it, and dunged it; wherefore I will lay up unto mine own self of the fruit, for a long time, according to that which I have spoken. (77) And when the time cometh that evil fruit shall again come into my vineyard, then will I cause the good and the bad to be gathered; and the good will I preserve unto myself, and the bad will I cast away into its own place. And then cometh the season and the end; and my vineyard will I cause to be burned with fire.
+
+Chapter [IIII 1 | IV ABC | 6 Q] and now, [^%5Cbehold/ 1 | behold ABCQ], my brethren, as I said unto you that I would prophesy, behold, this is my prophecy—that the things which this [^%5CProphet/ 1 | prophet ABCQ] Zenos spake, concerning the house of Israel, in the which he likened them unto a tame olive-tree, must surely come to pass. (2) And [in 1ABC | Q] the day that he shall set his hand again the second time to recover his people, is the day, yea, even the last time, that the servants of the Lord shall go forth in his power, to nourish and prune his vineyard; and after that the end soon cometh. (3) And how blessed are they who have labored diligently in his vineyard; and how cursed are they [<<which> %5Cwho/ 1 | which A | who BCQ] shall be cast out into their own place! And the world shall be burned with fire. (4) And how merciful is our God unto us, for he remembereth the house of Israel, both roots and branches; and he stretches forth his hands unto them all the day long; and they are a stiffnecked and a gainsaying people; but as many as will not harden their hearts shall be saved in the kingdom of God. (5) Wherefore, my beloved brethren, I beseech of you in words of soberness that ye would repent, and come with full purpose of heart, and cleave unto God as he cleaveth unto you. And while his arm of mercy is extended towards you in the light of the day, harden not your hearts. (6) Yea, today, if ye will hear his voice, harden not your hearts; for why will ye die? (7) For behold, after [<<that> 1 | that A | BCQ] ye have been nourished by the good word of God all the day long, will ye bring forth evil fruit, that ye must be hewn down and cast into the fire? (8) Behold, will ye reject these words? Will ye reject the words of the prophets; and will ye reject all the words which have been spoken concerning Christ, after [<<th[a]t> 1 | that A | BCQ] so many have spoken concerning him; and deny the good word of Christ, and the power of God, and the gift of the Holy Ghost, and quench the Holy Spirit, and make a mock of the great plan of redemption, which hath been laid for you? (9) Know ye not that if ye will do these things, that the power of the redemption and the resurrection, which is in Christ, will bring you to stand with shame and awful guilt before the bar of God? (10) And according to the power of justice, for justice cannot be denied, [<<t[ha]t> 1 | That A | BCQ] ye must go away into [th{e | a}t 1 | that ABCQ] lake of fire and brimstone, whose flames are unquenchable, and whose smoke ascendeth up forever and ever, which lake of fire and brimstone is endless torment. (11) O then, my beloved brethren, repent ye, and enter [ye 01 | ABCQ] in at the [strait 01Q | straight ABC] gate, and continue in the way which is narrow, until ye shall obtain eternal life. (12) O be wise; what can I say more? (13) Finally, I bid you farewell, until I shall meet you before the [^%5Cpleasing/ 0? | pleasing 1ABCQ] bar of God, which bar striketh the wicked with awful dread and fear. Amen.
+
+Notes on the Substantive Variants between Texts
+
+The following symbols are used to show changes from one text to another:
+
+T1 T2 the change from one text (T1) to another (T2);
+
+the specific differences are shown in italics,
+
+and only the changed portions in T2 are
+
+shown
+
+^ the italicized text in T2 has been inserted here
+
+in T1
+
+Ã⃜ the italicized text in T1 has been deleted in T2
+
+%5Cx/ supralinear insertion of x
+
+< deletion of x
+
+I Changes in the chapter system: For the 1879 edition,
+
+Orson Pratt broke up the larger chapters of the original
+
+text. Thus the original chapter III is split up into chap-
+
+ters 4 and 5. This collation therefore includes both chap-
+
+ters 4 and 5. Chapter 6 (originally chapter IV) is also
+
+included because it contains Jacob's commentary on
+
+Zenos's allegory.
+
+II Indirect evidence for insertion in the original manu-
+
+script (O) and copied correctly in producing the
+
+printer's manuscript (P)
+
+6:13 until I shall meet you before the ^ bar of God >
+
+pleasing
+
+[There is no room for pleasing in O except by
+
+supralinear insertion. Oliver Cowdery (OC) prob-
+
+ably first wrote the more expected expression
+
+"before the bar of God", which he then corrected
+
+by inserting the unexpected word pleasing.]
+
+III. Initial error by OC in transcribing from O to P, corrected
+
+immediately or soon thereafter by OC to conform to O
+
+A. Initial error makes sense
+
+4:1 and I cannot write but ^ little of my words
+
+> a
+
+4:9 wherefore if God being able to speak and the
+
+world was and to speak and man was ^ O
+
+then why not able to command the earth >
+
+created
+
+5:18 behold the branches of the wild tree have
+
+taken hold of the moisture of the root thereof
+
+> hath
+
+5:20 and it came to pass that they went forth
+
+whither the master ^ had hid the natural
+
+branches of the tree > of the vineyard
+
+5:20 and it hath brought forth much ^ > fruit
+
+5:23 behold I have planted another branch ^ also
+
+> of the tree
+
+5:37 but behold the wild branches have grew and
+
+have overran the roots thereof > grown
+
+5:54 that perhaps they may bring forth good fruit
+
+unto me and I ^ yet have glory in the fruit of
+
+my vineyard > may
+
+5:57 save it be those that are most bitter > which
+
+5:71 and the lord of the vineyard saith unto him >
+
+them
+
+[The context here is semantically ambiguous:
+
+Is the Lord still speaking to the one servant
+
+alone (as before) or is he now speaking to the
+
+group of servants? It seems that them is the
+
+correct reading. The most plausible explana-
+
+tion for why OC first wrote him is that there
+
+has always been only a single servant up to
+
+this point and OC is therefore used to writ-
+
+ing a singular referent after sayeth/saith, as
+
+in 5:22, 27. Another possible explanation is
+
+that O itself may have had him, an error due
+
+to identical unstressed pronunciations of him
+
+and them.]
+
+5:71 and the season soon cometh > speedily
+
+5:71 ye shall have joy in the fruit of which I shall
+
+lay up > Ã⃜
+
+5:71 which I shall lay up for myself > unto
+
+5:75 and blessed art thou for because <
+
+%5Cthat/ ye have been diligent
+
+[First thou is written (probably because of the
+
+preceding thou), then crossed out and re-
+
+placed by that, which is then followed by ye
+
+have.]
+
+5:76 for behold for a long time ^ I lay up of the
+
+fruit of my vineyard > will
+
+6:1 and now ^ my brethren > behold
+
+6:1 the things which this ^ Zenos spake >
+
+prophet
+
+6:10 ye must go away into the lake of fire and
+
+brimstone > that
+
+B Initial error produces an obvious infelicity and
+
+needs to be corrected
+
+5:46 and these I have hope to preserve to have
+
+laid up fruit thereof > had
+
+[The overall context here requires the past
+
+tense.]
+
+5:59 and because of their goodness and because
+
+of the chance of the branches > change
+
+5:64 for the end draweth night > nigh
+
+5:65 ye shall clear away the branches which bring
+
+forth bitter fruit according to the strength of
+
+the good and the size thereof and ye shall
+
+not clear away the bad <
+
+and ye shall not clear away the> %5Cthereof all
+
+at once lest the roots thereof should/ be too
+
+strong for the graft
+
+[Repetition of the preceding line is crossed
+
+out and replaced by correct text.]
+
+5:68 and the branches of the natural tree will I
+
+graft into the natural branches of the natural
+
+tree > Ã⃜
+
+5:69 and they shall be one and < the bad
+
+shall be cast away
+
+[OC accidentally wrote they (probably be-
+
+cause of the preceding they), then imme-
+
+diately crossed it out and replaced it by the
+
+bad.]
+
+IV. Subsequent changes
+
+A Later editing of P, not in OC's hand, yet the
+
+changes appear in the 1830 edition; the corrector's
+
+hand here (as well as a few other places in P) has
+
+not yet been positively determined
+
+tency
+
+4:11 wherefore beloved ^ be reconciled unto
+
+him > brethren
+
+[The phrase beloved brethren is generally
+
+used (4:2, 3, 18; 6:5, 11), yet beloved with-
+
+out brethren occurs in 4:12, 17 as well as
+
+originally here in 4:11.]
+
+2 Changing tense to get tense agreement
+
+between clauses
+
+5:44 and thou beholdest that I also cut down
+
+that which cumbered this spot of
+
+ground > beheldest
+
+5:45 and thou beholdest that a part thereof
+
+brought forth good fruit > beheldest
+
+B. Changes made by 1830 printer
+
+5:19 come let us go to the nithermost parts of
+
+the vineyard > part
+
+[Cf. use of plural in 5:14, 38, 39, 52; the
+
+singular only occurs once, in 5:13—a
+
+mistake in P?]
+
+6:11 O then my beloved brethren repent ye
+
+and enter ye in at the strait gate and
+
+continue in the way which is narrow
+
+> Ã⃜
+
+[This change may represent an attempt
+
+to eliminate the repetitive use of ye.]
+
+5:24 behold that I have nourished ^ also > it
+
+[The clause-initial direct object that is
+
+ignored; it is inserted as the direct
+
+object.]
+
+6:11 and enter ye in at the strait gate and
+
+continue in the way which is narrow >
+
+straight
+
+[OC's spelling strait is only accidentally
+
+correct since he nearly always spells
+
+both straight and strait as strait. Here
+
+OC has the spelling strait in both O
+
+and P.]
+
+a) Wrong preposition
+
+5:29 come let us go down in the vine-
+
+yard that we may labor again in
+
+the vineyard > into
+
+[If P is in error here, this may be
+
+due to the influence of the follow-
+
+ing "in the vineyard". Of course,
+
+in can also have the same sense as
+
+into. The question is whether the
+
+Book of Mormon text uses only
+
+into when motion is implied or
+
+whether variation between in and
+
+into occurs. Except for this occur-
+
+rence of in, Zenos's allegory only
+
+has into for motion rather than in.
+
+Cf. 5:15, which is otherwise the
+
+same as 5:29 except that the word
+
+again does not occur: "come let us
+
+go down into the vineyard that we
+
+may labor in the vineyard".]
+
+b) Changing tense to get tense agreement
+
+between clauses
+
+5:37 thou beheldest that it beginneth to
+
+perish > beholdest
+
+[Cf. above for two unidentified
+
+changes in P replacing beholdest
+
+with beheldest.]
+
+c) Wrong article
+
+5:45 a part thereof brought forth good
+
+fruit and the part thereof brought
+
+forth wild fruit > a
+
+[Could O have read the other part?
+
+Cf. 5:25: "and only a part of the
+
+tree hath brought forth tame fruit
+
+and the other part of the tree hath
+
+brought forth wild fruit".]
+
+a) nithermost > nethermost
+
+5:13 and these will I place in the nither-
+
+most part of my vineyard > nether-
+
+most
+
+also 5:14, 19, 38, 39, 52
+
+[The i vowel alternative dates back
+
+to Old English.]
+
+b) conjunction then > than
+
+5:23 and thou knowest that this spot of
+
+ground was poorer then the first >
+
+than
+
+5:48 for behold they grew faster then
+
+the strength of the roots thereof >
+
+than
+
+[The reduced vowel pronunciation
+
+of than as then occurs as early as
+
+the 12th century. In the second
+
+example, OC wrote than in O, but
+
+then in P.]
+
+C Changes marked by Joseph Smith in P for the 1837
+
+edition
+
+editions
+
+a) Replacement of the historical present
+
+sayeth/saith by the past tense form
+
+said
+
+5:4 and he sayeth I will prune it > said
+
+also 5:7, 15, 16, 18, 19, 20, 20, 20, 22,
+
+23, 24, 25, 26, 27, 29, 31, 34, 35, 41,
+
+48, 49, 50, 51, 57, 71, 75
+
+[Use of the historical present
+
+(saith) is common in the Greek
+
+New Testament as well as the 1611
+
+King James Version (KJV).]
+
+b) For consistency, similar removal of his-
+
+torical present for other verbs
+
+5:75 he calleth up his servants and
+
+sayeth unto them > called, said
+
+c) Removal of -th verb forms in plural
+
+contexts
+
+5:18 the wild branches hath brought
+
+forth tame fruit > have
+
+5:48 is not this the cause that the trees
+
+of thy vineyard hath become cor-
+
+rupted > have
+
+[O also has hath.]
+
+5:75 for because that ye have been dili-
+
+gent in laboring with me in my
+
+vineyard and have kept my com-
+
+mandments and hath brought unto
+
+me again the natural fruit > have
+
+[This last change also makes the
+
+text consistent with the two imme-
+
+diately preceding uses of have.]
+
+d) Replacement of -th verb forms with -s
+
+forms
+
+5:47 who is it that hath corrupted my
+
+vineyard > has
+
+5:48 hath not the branches thereof over-
+
+came the roots which are good >
+
+has
+
+[This last example should have
+
+been corrected to have; cf. above.
+
+In subsequent editions, has was
+
+changed to have, as noted below. O
+
+also has hath.]
+
+e) Insertion of preposition
+
+5:47 I have nourished it and I have
+
+digged ^ it and I have pruned it
+
+and I have dunged it > about
+
+[This makes the text agree with
+
+5:4, 5, 11, 27, 63, 64, 76 in the use of
+
+the phrase dig about. O is also
+
+probably missing about. There is
+
+no room for about except by supra-
+
+linear insertion, and OC nearly
+
+always copies insertions into P.
+
+Probably O as well as P lack about.
+
+This missing preposition may rep-
+
+resent a primitive error in O itself.
+
+Olive tree culture supports the
+
+need for the preposition about
+
+here.]
+
+f) Replacement of the simple past tense
+
+forms of verbs with past participle
+
+forms
+
+5:48 and because that the branches
+
+have overcame the roots thereof >
+
+overcome
+
+g) Removal of that when preceded by a
+
+conjunction
+
+5:48 and because that the branches
+
+have overcame the roots thereof
+
+> Ã⃜
+
+5:75 for because that ye have been dili-
+
+gent in laboring with me in my
+
+vineyard > Ã⃜
+
+6:7 for behold after that ye have been
+
+nourished by the good word of
+
+God > Ã⃜
+
+6:8 and will ye reject all the words
+
+which have been spoken concern-
+
+ing Christ after that so many have
+
+spoken concerning him > Ã⃜
+
+h) Elimination of conjunction in front of
+
+behold
+
+5:48 for behold they grew faster then
+
+the strength of the roots thereof
+
+> Ã⃜
+
+[Yet for behold is kept elsewhere:
+
+4:9, 10; 5:3, 20, 21, 29, 62, 69, 71, 76;
+
+6:7. O also has for.]
+
+i) Removal of thereof after a noun
+
+5:48 for behold they grew faster then
+
+the strength of the roots thereof > Ã⃜
+
+[But nowhere else in Jacob 4:6 is
+
+this postnominal use of thereof
+
+removed: cf. six uses of thereof in
+
+5:18.]
+
+j) Removal of repetitive or unnecessary
+
+use of that
+
+5:54 that I may preserve the roots also
+
+unto mine own self that when
+
+they shall be sufficiently strong
+
+that perhaps they may bring forth
+
+good fruit unto me > Ã⃜
+
+6:10 and according to the power of jus-
+
+tice for justice cannot be denied
+
+that ye must go away into that lake
+
+of fire and brimstone > Ã⃜
+
+k) Removal of expression go to it (with
+
+change in meaning?)
+
+5:72 and it came to pass that the ser-
+
+vants did go to it and labor with
+
+their mights > Ã⃜
+
+[Is "go to it" a mistake in P for "go
+
+to"? Cf. uses of "go to and" fol-
+
+lowed by another verb in 5:49, 61,
+
+62, 71; "go and" followed by
+
+another verb is found once, in 5:7
+
+(with a more literal sense of go).
+
+Perhaps only it should have been
+
+deleted in 5:72.]
+
+l) Replacement of which with who for
+
+humans
+
+6:3 and how cursed are they which
+
+shall be cast out into their own
+
+place > who
+
+rected in subsequent editions (all in the
+
+same place on the same manuscript page
+
+of P)
+
+a) Removal of conjunction followed by
+
+that
+
+5:45 and because that I plucked not the
+
+branches thereof > Ã⃜ (1981)
+
+b) Removal of -th verb forms in plural
+
+contexts
+
+5:46 the trees thereof hath become cor-
+
+rupted > have (1840)
+
+c) Change of hope from noun to verb
+
+5:46 and these I had hope to preserve >
+
+hoped (1840)
+
+(also in the same place on the same manu-
+
+script page of P as the preceding three exam-
+
+ples)
+
+Replacement of -th verb forms with -s forms
+
+5:45 behold they have overcome the good
+
+branch that it hath withered away > has
+
+D. Changes accidentally missed by Joseph Smith in P
+
+for 1837 edition, but should have been marked
+
+(since other examples of these changes were
+
+marked); still, these corrections were made in the
+
+1837 edition
+
+/saith by the past tense form said
+
+5:21 and it came to pass that the servant
+
+sayeth unto his master > said
+
+also 5:33, 38
+
+verbs with past participle forms
+
+5:48 hath not the branches thereof overcame
+
+the roots which are good > overcome
+
+E. Changes made in the 1837 edition not marked by
+
+Joseph Smith in P
+
+of doctrine
+
+4:5 even as it was accounted unto Abra-
+
+ham in the wilderness to be obedient
+
+unto the commands of God in offering
+
+up his son Isaac which was a similitude
+
+of God and his only begotten son > is
+
+[since the atonement is eternal]
+
+4:11 be reconciled unto him through the
+
+atonement of Christ his only begotten
+
+son that ye may obtain a resurrection
+
+according to the power of the resurrec-
+
+tion which is in Christ and be presented
+
+as the first fruits of Christ unto God >
+
+and
+
+[This may be an attempt to avoid say-
+
+ing that the resurrection is contingent;
+
+but actually the text refers to the resur-
+
+rection of the first fruits of Christ.]
+
+5:20 and it came to pass that they went forth
+
+whither the master of the vineyard had
+
+hid the natural branches of the tree > Ã⃜
+
+[The text of Zenos's allegory always has
+
+"the master of the vineyard" (5:4, 7, and
+
+here), never "the master" alone, al-
+
+though "his master" does occur (5:16,
+
+21, 34, 48); there are a few occurrences
+
+of "the lord" alone (5:51, 70, 74), but
+
+"the lord of the vineyard" is normal.]
+
+5:10 and it came to pass that the servant of
+
+the lord of the vineyard done according
+
+to the word of the lord of the vineyard
+
+> did
+
+F. Changes made in the 1840 edition
+
+5:21 for behold it was the poorest spot in all
+
+the land of thy vineyard > the
+
+[The 1840 edition also accidentally
+
+repeats the the before land.]
+
+5:48 hath not the branches thereof overcame
+
+the roots which are good (P, 1830) > has
+
+(1837) > have (1840)
+
+G. Later editing not found in first three editions
+
+(most of these changes are not original with the
+
+1981 edition; many of them are first found in the
+
+1920 edition)
+
+4:7 nevertheless the Lord God sheweth us
+
+our weakness > showeth
+
+5:1 do ye not remember to have read the
+
+words of the prophet Zenos which ^
+
+spake unto the house of Israel saying
+
+> he
+
+[The which here is probably equivalent
+
+to the modern day use of who; that is,
+
+"the words of the prophet Zenos who
+
+spake unto the house of Israel say-
+
+ing...". Another possibility is that
+
+there was a loss of the pronoun he in
+
+copying P from O. Consider, for
+
+example 2 Kings 15:12 (KJV): "This was
+
+the word of the Lord which he spake
+
+unto Jehu, saying...". Less plausible,
+
+in my opinion, is the proposal that the
+
+original text represents a literal
+
+Hebraism in which the pronoun he is
+
+understood but not actually stated, as
+
+in the Hebrew text for 2 Kings 15:12, in
+
+which the pronoun he is not actually
+
+present, but is inferred from the verb
+
+form alone.]
+
+verbs with past participle forms
+
+5:17 and it had sprang forth and began to
+
+bear fruit > sprung, begun
+
+5:37 but behold the wild branches have
+
+grown and have overran the roots
+
+thereof > overrun
+
+5:18 behold the branches of the wild tree
+
+hath taken hold of the moisture of the
+
+root thereof > have
+
+5:19 and behold if the natural branches of
+
+the tree hath not brought forth much
+
+fruit also > have
+
+5:35 the tree profiteth me nothing and the
+
+roots thereof profiteth me nothing >profit
+
+5:61 that we may labor diligently with our
+
+mights in the vineyard > might
+
+also 5:62, 71, 71
+
+[But this change is not found in 5:72:
+
+"and it came to pass that the servants
+
+did go < and labor with their
+
+mights".]
+
+5:64 and if it so be that these last grafts shall
+
+grow > be so
+
+plural verb
+
+5:74 and they became like unto one body
+
+and the fruit were equal > fruits
+
+[Here were probably should have been
+
+changed to was rather than fruit to fruits
+
+since fruit is always used in the singu-
+
+lar (as a mass noun) in Zenos's alle-
+
+gory.]
+
+6:2 and in the day that he shall set his hand
+
+again the second time to recover his
+
+people is the day yea even the last time
+
+that the servants of the Lord shall go
+
+forth in his power to nourish and prune
+
+his vineyard > Ã⃜
+
+6:11 and enter ye in at the strait gate (O, P) >
+
+straight (1830, 1837, 1840) > strait (1981)
+
+### 7 - Language Themes in Jacob 5 &#34;The Vineyard of the Lord of Hosts Is the House of Israel&#34; (&#34;
+
+Arthur Henry King
+
+The language of Zenos's parable appears to be richer rhetorically than most of what is in the Book of Mormon, though the richness of 2 Nephi 9 approaches it. The parable is reflected in 2 Nephi 15:1-7 and is a version of Isaiah 5. 1 It seems possible that Zenos's parable is the oldest piece in the Book of Mormon, except for materials in the book of Ether.
+
+Like Lehi's and Nephi's dream, our parable is a prophecy of human history; but more concentrated, more restricted. Like the dream, too, it is not a parable of exact allegorical equivalencies, but symbolic equivalencies. The Lord is both human and divine (and this assumes the incarnation). There is identification between Jehovah and Christ.
+
+Are the questions that the Lord asks rhetorical questions or real? I think the answer is that they are real rhetorical questions: they have a pedagogical intent. They are asked of the servant. And the servant, again, should not be taken precisely as having exact correspondence. His principal rhetorical function is to be there to make the narrative possible in terms of conversation. He is like the confidant in a classical Greek or French play.
+
+Analyzing the rhetoric of Jacob 5 means not an analysis of narrative and discourse, but of all the elements—one might call them the concomitant elements—such as length of sentence, clause, phrase; stress, intonation; word, sense, and image; scheme, trope; metaphor, topos, myth. What we obtain in this way may be regarded as "rhetorical truth," in distinction from "logical truth." Our meditation on the scriptures need not be prompted only by the syntactical and the lexical. A way of putting it all together might be to call it the "constructional."
+
+The material in Jacob 5 is so rich that I am omitting any consideration of the repetition of sound and its variations. We are dealing with an inspired translation, but an inspired translation can make use only of what is available in the target language; and equivalents of sound, stress, and intonation are likely to be yet further removed from the original than the other elements. Even in inspired language we may expect variation in rhetorical competence.
+
+For example, it is sometimes said that the rhetoric of the Authorized (King James) Version of the Bible is finer than that of the originals from which it is translated. Joseph Smith thought the Luther translation superior to the Authorized Version. 2 The sixteenth-century Swedish translation of the Bible is inferior to the Authorized Version. Granted our belief in continuing revelation, we should not confuse language differences in the details of translation with the nineteenth-century doctrine of evolution, certainly not in the sense that things get better and better. A sinful community debases its language, a virtuous community improves it; and English in our time is debased.
+
+My language now is less good than it might have been in the nineteenth century, the eighteenth century, the seventeenth century, or the sixteenth century. The Authorized Version itself reaches back to the greater simplicity and straightforwardness of the written English of the Middle Ages. But it does not follow that as we go back in time the language necessarily becomes simpler or more straightforward. There are periods that are richer in rhetoric, and periods that are plainer. Just as the delineation of patterns on pottery becomes generation by generation less precise, so language may become more slipshod. Language is highly vulnerable to the sin of sloth.
+
+With those preliminary remarks to establish a universe of discourse between us, I pass to the "construction" of Jacob 5. Construction is not the best word, since it means "building together." Speech, whether written or spoken, is an outflow from long immersion in the linguistic tradition of the culture. We might rather speak of the mold or the form. The mold contains an influx or outflux—according to the end you look at.
+
+There are twenty-one paragraphs in this parable. They are marked in the first edition (1830), but more recent editions are divided into verses. Verses are essential for teaching and reference, but we need to have a Book of Mormon in which the paragraphs are also marked, as they are in some editions of the Bible. The rhetorical flow is better seen and heard when the paragraphs are there.
+
+Our first reaction to the scriptures is not to understand them, but to feel them, to experience them. That is why even very young children need to be exposed to the reading of the scriptures aloud in the family circle. The message of the scriptures is not for the "mind," but for the soul. Concentrating too much on "plain sense," we may lose the experiential phase, and thereby never gain a total experience of the scriptures. The meaning of the scriptures is not the plain sense, but the total effect. That is the major reason why we don't want the Book of Mormon reduced to the level of the New English Bible, as contrasted with the Authorized Version. The tradition of several hundred years, which we share, has almost gone. Great effort is needed to preserve it.
+
+For the convenience of those who do not have a copy of the facsimile of the 1830 edition, here are the paragraphs:
+
+Paragraph 1: verses 1-9
+
+Paragraph 2: verses 10-13
+
+Paragraph 3: verses 14-15
+
+Paragraph 4: verses 16-18
+
+Paragraph 5: verses 19-20
+
+Paragraph 6: verses 21-22
+
+Paragraph 7: verse 23
+
+Paragraph 8: verses 24-25
+
+Paragraph 9: verses 26-28
+
+Paragraph 10: verse 29
+
+Paragraph 11: verse 30
+
+Paragraph 12: verses 31-34
+
+Paragraph 13: verses 35-37
+
+Paragraph 14: verses 38-40
+
+Paragraph 15: verses 41-47 (note the length of this)
+
+Paragraph 16: verse 48
+
+Paragraph 17: verses 49-54 (another long one)
+
+Paragraph 18: verses 55-69 (the parable's main speech)
+
+Paragraph 19: verses 70-71
+
+Paragraph 20: verses 72-74
+
+Paragraph 21: verses 75-77
+
+Each of the three main speeches is one paragraph; all the other paragraphs are comparatively short. They sometimes coincide with a single verse in the modern editions. It is clear that those who divided the Book of Mormon into verses had difficulty in keeping the verses of comparative length. Claims of rhetoric and plain sense may be opposed: verses in this parable are from three to eighteen lines long. On the whole, the longer the paragraph, the more intense the message and the more emotion.
+
+Each of the paragraphs except the first is introduced by the phrase, "And it came to pass." The first paragraph begins with "Behold." It is obvious why it should not begin with "And it came to pass," because the pause is longer here and this is the beginning of the parable proper. In the current version of the Book of Mormon, chapter 5 begins with "Behold, my brethren," which may be regarded as a prelude to the actual parable, which begins at verse 2. But in the 1830 edition, the parable begins well into chapter 3 of the book of Jacob. 3
+
+Readers tend to become irritated by the repetition of "and it came to pass"; but they should realize that the scriptures are intended, in the first place, not to be read in silence but to be heard. What is intended to be heard contains repetitions that the reader may feel he does not need. If the reader will read aloud to himself or to others, instead of merely reading silently, he will begin to feel the ritualistic as well as prompting effects of these repetitions, particularly this repetition of "and it came to pass." Above all, more than promptings and ritual, it is the constant reminder of the passage of time. In the Book of Mormon we feel the passage of time far more strongly than in the Bible; one of the reasons is that large portions of it have been consistently edited by one editor: whereas the Bible is a compilation and not a total as a work of art in the same way as the Book of Mormon.
+
+The twenty-one paragraphs fall into two major groups of approximately the same length. The division is at the point where the Lord's crucial speech begins; verse 40 ends the first part and verse 41 begins the second. Up to verse 40 there are 325 lines and 40 verses, with an average of eight lines per verse. From verse 41 to the end there are 336 lines, 37 verses, and the average is nine lines per verse. So the two halves are well balanced.
+
+The first half (lines 1-3 are a prologue) is narrative dialogue, which forms a whole and is not readily divisible into parts. And so the first forty verses form a unit of narrative dialogue. The Lord tells us what he's going to do and what he's doing. This is a lively, a graphic, way of narrating. It is supported here and there by the historic present. In our modern edition, this has sometimes been taken out and replaced by the past tense: for example, sayeth has been replaced by said.
+
+In this paper, the spelling and punctuation of the parable is that used in the facsimile of the 1830 edition of the Book of Mormon. The punctuation is rhetorical, in that punctuation indicates how to read the work aloud; verb forms frequently differ from those of the modern edition; deletions change the rhythm of the phrases in ways most noticeable when read aloud.
+
+The second half of the parable does divide into sections:
+
+a. the Lord's quandary: "What could I have done more?"(41-47);
+
+b. the Lord's decision to continue: "Spare it a little longer (48-54);
+
+c .the Lord's main speech of action and prophecy (55-69);
+
+d. bringing in other servants (70-74);
+
+e. the Lord's final speech (75-77).
+
+I need to say somewhat more about the second part (from verse 41 onward).
+
+In verses 41-46, the Lord summarizes the situation and expresses his quandary. In 47 he repeats from 41: "What could I have done more in my vineyard?" and then proceeds to expand that in the crucial question and self-answer: "Have I slackened mine hand, that I have not nourished it? Nay; I have nourished it, and I have digged it, and I have pruned it, and I have dunged it; and I have stretched forth mine hand almost all the day long; and the end draweth nigh." The rhetorical patterns are intensified in these verses, some of which will be examined in detail later.
+
+The next passage is the Lord's decision to spare his vineyard a little longer (48-54). The servant inaugurates this decision after introducing a new idea—"Is it not the loftiness of thy vineyard? Hath not the branches thereof overcame the roots, which are good?" (48). The word loftiness occurs only once more in the Book of Mormon; this rarity emphasizes the word.
+
+The Lord's first reaction to the servant's new idea is not immediate agreement. He reiterates his intent to hew down the trees and cast them into the fire (49). It looks as if he is pushing the servant to make the decision, or at least to suggest it, and the servant duly does so, saying, "Spare it a little longer" (50); and the Lord accedes with, "Yea, I will spare it a little longer" (51). This is a brief parallel to a longer dialogue between the Lord and Abraham in Genesis 18:23-32, where Abraham pleads with the Lord to spare Sodom and Gomorrah.
+
+Then follows the section of the Lord's prophecy and action (55-69). Immediately after agreeing to the servant's suggestion that the trees should further be spared, the Lord imposes action—the immediacy is such that we would presume that the Lord had been prepared to continue. That would mean that the Lord's decision to hew down the trees at this point functioned more to find out how the servant would react than as a decision. In the main speech of action and prophecy (beginning at 55), repetition is again intensified, especially between 62 and 69. The speech is one of firm decision, in contrast with the almost plaintive speech of the Lord at 41-47: "What could I have done more?"
+
+Already at 61, the Lord tells the servant to go and call servants, but he does not have that implemented until 70, when the preliminary action by the Lord and the servant is completed and the servant is sent to call in servants to widen the action. The newly recruited servants go forth as missionaries under the pressure of time (71). The sense of urgency that is present throughout the parable till now does not ease off until 74, when the Lord is satisfied with the fruit that is coming in. The last section (75-77) ends the parable with a sense of breadth and ease corresponding with the Millennium (75-76), the last hundred years with Satan (77), and the destruction of the vineyard, which no longer has a function. This last period is prophetic. The past and the present are there together in 75, and 76 is the future.
+
+So with this general outline of the parable into its rhetorically determined sections, I turn now to the detail of repetition and variation. I am not concerned with the almost mechanical collection of the classically rhetorical repetitions of words, and so forth, because that is easily done by patience. All I am concerned with for the rest of this presentation is the kind of repetition and variation that is relevant to the parable as a whole.
+
+I have picked out two aspects of repetition that concern the whole piece. One is repetition with variation, and the other the distribution of a repeated word or phrase throughout the piece. Here is a simple example of repetition with variation:
+
+What could I have done more for my vineyard? (41).
+
+But what could I have done more in my vineyard? (47).
+
+What could I have done more for my vineyard? (49).
+
+These lines present the statement, a slightly varied statement, and back to the original statement; a basic pattern.
+
+Here are some longer examples:
+
+a. I will prune it, and dig about it, and nourish it (4).
+
+b. He pruned it, and digged about it, and nourished it (5).
+
+c. It should be digged about, and pruned, and nourished (11).
+
+d. Let us prune it, and dig about it, and nourish it a little longer (27).
+
+Examples a and d are both present tense, but d has let us instead of a's I will. Examples b and c are both past tense, but c is passive rather than active. Also, while b and d have the same order as a, in c the order has changed.
+
+At verse 47 we have a further development that I call accretion, when something is added:
+
+"I have nourished it, and I have digged it, and I have pruned it, and I have dunged it." The word dunged comes in for the first time—and there is the further variation of the perfect tense. There is also anaphora of "I have," "I have," "I have," and the polysyndeton—the repetition of and in front of each verb. The sentence has been lengthened; and that length is a further way of adding to the feeling. All these reflect the increased emotive element, for this is the highly pathetic speech in the middle of the parable.
+
+The final repetition is at verse 76, the end of the parable: "For the last time have I [have I instead of I have] nourished my vineyard, and pruned it, and dug about it [not dig or digged but dug] and dunged it." The change to dug produced sonance (similarity of sound) with dunged and the order of the verbs is again different. Nourished comes at the beginning: it is the most comprehensive of the verbs; and in this final use, it is brought to the beginning for emphasis. Pruned and dug and dunged are matter of fact, but nourished has more feeling; there are more emotive associations with it.
+
+Note that the rhetorical order may ignore the chronological order. For that matter, the chronological order itself may vary. From the chronological point of view I should expect pruned, dunged, digged, and nourished; but there might well be times when the dunging and the digging would come before pruning. Yet it is almost essential that the dunging should come before the digging, and for purposes of emphasis that has been ignored and dunging has come to the end.
+
+The most powerful examples of variation with change of order and accretion are in verses 63 and 66 in the middle of the great speech of prophecy and action, the strong speech. The first, verse 63, is concerned with the antithesis of last and first, and the second is about the antithesis of bad and good. These two complementary antitheses are put together in the middle of this speech: "Graft in the branches: begin at the last, that they may be first, and that the first may be last, and dig about the trees, both old and young, the first and last, and the last and the first, that all may be nourished once again for the last time" (63).
+
+The main point of this verse is the antithesis, and it gives us the clue to this parable. In the first part of the parable, the effort is made to save practically everybody; this is repeated again and again. In the middle of the parable the word bad comes in for the first time, and this verse is where it comes in: bad occurs (all but one example) in the second half of the parable. Seventy-five percent of the uses of bad in the Book of Mormon are in the second part of this chapter. Now that bad has come in, the bad has to be got out, and that is the solution to the situation. The introduction of the word bad in the second part together with the first and the last, and its implication for the sense of the whole parable, is an example of rhetorical truth. It has not been made semantically explicit, but it has been made rhetorically clear.
+
+In the next verse with antithesis, verse 66, the bad and the good come in here to complement the first and the last. The reason is that the first and the last and the bad and the good are not the same categories; they are put in chiastic relation to one another:
+
+It grieveth me that I should lose the trees of my vineyard; wherefore, ye shall clear away the bad, according as the good shall grow, that the root and the top may be equal in strength, until the good shall overcome the bad, and the bad be hewn down and cast into the fire, that they cumber not the ground of my vineyard; and thus will I sweep away the bad out of my vineyard.
+
+Note that the top's being equal in strength goes back to the servant's remark, "Is it not the loftiness of the vineyard? Hath not the branches thereof overcame the roots, which are good?" (48). Note also the strength of the word sweep here; this is the only use of the word in the parable. We see very clearly what the decision is.
+
+Here are further examples of accretion and variation:
+
+These which I have plucked off, I will cast into the fire, and burn them (9).
+
+It will soon become ripened, that it may be cast into the fire (37).
+
+All the trees of my vineyard are good for nothing, save it be to be hewn down and cast into the fire. (42; hewn down has been added for the first time.)
+
+Because . . . I plucked not the branches thereof, and cast them into the fire (45).
+
+It grieveth me that I should hew down all the trees of my vineyard, and cast them into the fire (47).
+
+It grieveth me that I should lose the trees of my vineyard; wherefore, ye shall clear away the bad, according as the good shall grow, that the root and the top may be equal in strength, until the good shall overcome the bad, and the bad be hewn down and cast into the fire, that they cumber not the ground of my vineyard (66).
+
+The bad shall be cast away (69).
+
+The wild branches began to be plucked off, and to be cast away (73).
+
+Even until the bad had been cast away out of the vineyard (74).
+
+The bad is cast away (75).
+
+And the bad will I cast away into its own place (77).
+
+That means that in the last part of the parable the stress is upon success and not upon punishment.
+
+We come now to distribution. This is dealt with as general distribution or local distribution (either occurring throughout the piece or in a specific place or places of it), first half and second half, initial, initial and final, final.
+
+Distribution in General
+
+I have divided this up into words and phrases that run right through the parable, and others where there are gaps in the uniformity of use, for we need to consider why the gaps occur.
+
+Every paragraph in the actual parable begins with, "And it came to pass." As we have said already, the task of the phrase is to nudge the attention, which is why it naturally occurs at the beginning of paragraphs, but it occurs elsewhere when particular attention has to be drawn to the narrative's taking a further step.
+
+The second main nudger of attention is behold, which we shall deal with when we discuss gaps in uniformity since behold is not used consistently throughout.
+
+Apart from these two nudgers, the most frequent phrases are of course associated with the main image. There are many of these, and we shall consider only the outstanding ones.
+
+The wild branch in the singular occurs only in the first forty-five verses of the parable, that is, a little over the first half. I think the reason is that more attention is given in the first, the narrative part, to an individual tree and an individual branch:
+
+How comest thou hither to plant this tree, or this branch of the tree? (21).
+
+I have planted another branch of the tree also (23).
+
+Look hither, and behold another branch also, which I have planted (24).
+
+And the wild fruit of the last, had overcome that part of the tree which brought forth good fruit, even that the branch had withered away and died (40).
+
+Behold, this last, whose branch hath withered away (43).
+
+Because that I plucked not the branches thereof, and cast them into the fire, behold, they have overcome the good branch, that it hath withered away (45).
+
+Of the word in the plural, branches, there are twenty-six examples in the first part and twenty-four in the second. The singular branch occurs in the first half; it is clear that more attention is being paid to this image in the first half of the parable than in the second.
+
+The words natural and wild are used in opposition. Natural branches occurs seven times in the first part and six in the second. Wild branches occurs five times in the first and twice in the second. But wild is also used elsewise: wild olive tree (9, 10, 34; wild olive tree occurs again in the second part at 46), wild tree (18), wild olive branches (17), and wild fruit in contrast with tame fruit (25) and good fruit (40; in the second part also at 45).
+
+Natural is also used several times of tree (55, 56, 67, 68).
+
+Root and roots are used regularly throughout, and that follows from the fact that the main theme of this image-sequence is that the roots and the branches should be "equal." Since more attention is normally paid to the branch group than to the root group in reading this parable, I think it is worth while to cite the root/roots contexts, because these contexts do more than anything else to make the whole pattern of reference to the image of the olive tree clear. First are efforts to save the branches:
+
+I take away many of these young and tender branches, and I will graft them whithersoever I will; and it mattereth not that if it so be, that the root of this tree will perish (8).
+
+Then, in verse 11, there is a change of plan:
+
+It grieveth me that I should lose this tree; wherefore, that perhaps I might preserve the roots thereof that they perish not, that I might preserve them unto myself, I have done this thing (11).
+
+The importance of the roots becomes paramount:
+
+The branches of the wild tree hath taken hold of the moisture of the root thereof, that the root thereof hath brought forth much strength; and because of the much strength of the root thereof, the wild branches hath brought forth tame fruit (18).
+
+Later, the branches, not the roots, have saved the situation:
+
+Because thou didst graft in the branches of the wild olive tree, they have nourished the roots, that they are alive, and they have not perished (34).
+
+But the roots are not forgotten:
+
+I know that the roots are good; and for mine own purpose I have preserved them; and because of their much strength, they have hitherto brought forth from the wild branches, good fruit (36).
+
+In contrast to verse 34, the branches overcome the roots:
+
+But behold, the wild branches have grown, and have overran the roots thereof; and because that the wild branches have overcome the roots thereof, it hath brought forth much evil fruit (37).
+
+Then comes the key reference to equalization:
+
+And it came to pass that the servant, sayeth unto his master, Is it not the loftiness of thy vineyard? Hath not the branches thereof overcame the roots, which are good? And because that the branches have overcame the roots thereof? For behold, they grew faster than the strength of the roots thereof, taking strength unto themselves (48).
+
+The importance of the roots is again to the fore:
+
+And this will I do, that the tree may not perish, that perhaps I may preserve unto myself the roots thereof, for mine own purpose. And behold, the roots of the natural branches of the tree which I planted whithersoever I would, are yet alive (53-54).
+
+Again, the roots have the initiative:
+
+We will nourish again the trees of the vineyard, and we will trim up the branches thereof; and we will pluck from the trees those branches which are ripened, that must perish, and cast them into the fire.—And this I do, that perhaps the roots thereof may take strength, because of their goodness; and because of the change of the branches, that the good may overcome the evil (58-59).
+
+The effects of the branches and the roots are balanced finally:
+
+And because that I have preserved the natural branches, and the roots thereof; and that I have grafted in the natural branches again, into their mother tree; and have preserved the roots of their mother tree, that perhaps the trees of my vineyard may bring forth again good fruit (60).
+
+But the roots must not reject the graft:
+
+Ye shall not clear away the bad thereof, all at once, lest the roots thereof should be too strong for the graft, and the graft thereof shall perish, and I lose the trees of my vineyard (65).
+
+In consequence of the measured clearing out of the bad, the good flourishes:
+
+Ye shall clear away the bad, according as the good shall grow, that the root and the top may be equal in strength, until the good shall overcome the bad (66).
+
+Then comes that word equal, the solution of the problem being the equality of root and branch:
+
+They did keep the root and the top thereof, equal, according to the strength thereof (73, here comes that word equal, the solution of the problem being the equality of root and branch).
+
+There, clearly, is the solution.
+
+There are twenty-three examples of graft in Jacob 5; with four only elsewhere in the Book of Mormon. In the second part of the parable, graft is used about twice as many times as in the first part. This is less usual of the other words used in this image—most have been more frequent in the first part. There is a gap between verse 34 and verse 52, where the word does not occur, but that is accounted for because it is not used in the pathetic speech of the Lord from 41-47. The word obviously belongs to the action of the first part rather than the action of the second. However, the difficulty still exists that a tree represents the house of Israel and not trees. And there is some contradiction between the broader action of the second part and the fact that it still applies to only one tree: "The branches of the natural tree, will I graft into the natural branches of the tree" (68). There is some difficulty in reconciling the image of one tree and the image of a whole vineyard, but it is significant that of the singular tree there are thirty-one examples in part one and twelve examples in part two; whereas of the plural trees, there are no examples in part one and sixteen examples in part two. That shows the broader picture of the second part, although it does not entirely solve the problem of the one tree and a vineyard full of trees.
+
+It is not surprising to find graft and tree together, since grafts are normally made in trees and not in branches.
+
+With the word nourish, we are back at the normal preponderance of number in part one for this image. There are eleven examples of this group in part one and six in part two. On the other hand, the effective use of nourish is greater in part two than part one and comes to its climax in the last use of all: "For the last time have I nourished my vineyard" (76). Nourished is also part of the pattern of variation and accretion.
+
+The preserve group has ten examples in each of parts one and two; on the other hand, the perish group has seven examples in the first part and only three in the second. That is surprising.
+
+Good is used throughout, but has only six examples in part one and thirteen in part two. This definitely points to the work in the vineyard's becoming more hopeful as time goes on. 4 Of the nineteen examples of good, ten are associated with fruit.
+
+Finally, under distribution in general, we have the highly emotive word grieveth. Of the expression, "It grieveth me," there are eight examples. It begins early: "It grieveth me that I should lose this tree" (7); the phrase is repeated at 11 and 13. The situation becomes worse, as signified by the addition of now: "Now, it grieveth me that I should lose this tree" (32). The expression is used twice at the end of the Lord's pathetic speech: "It grieveth me that I should lose them" (46); and the climax: "It grieveth me that I should hew down all the trees of my vineyard, and cast them into the fire, that they should be burned" (47). In response to the servant's "spare it a little longer" (50), the Lord says, "Yea, I will spare it a little longer, for it grieveth me that I should lose the trees of my vineyard" (51), which is a repetition of verse 46. The same phrase is used again at 66: "For it grieveth me that I should lose the trees of my vineyard." It is not used again after that point.
+
+We turn to the examples where an expression runs right through the parable, but there are gaps in the uniformity of use.
+
+There are fifty examples of the behold group. It has ceased, of course, to have its literal sense and has come to mean "pay attention!" Sometimes it does mean "look" in the literal sense, but even then the "pay attention" element is there. The general sense, which has lost the specific, is already exemplified at verse 3: "For behold, thus saith the Lord." Here, behold almost means "listen!"
+
+That said, but behold can look after itself except, it being so frequent, we ask why it is not evenly distributed throughout. The first gap is from verses 8 to 14. This tight piece of narrative is introduced by behold at the beginning of verse 8, but there is no reason to disrupt this packed collection of acts and instructions. The gap between 46 and 48 looks long only because the verses are long. This is not really a gap. At verses 54-61, the Lord is well into his strong speech of prophecy and act, and does not need to nudge his audience. From 63 to 74, again, the pace of action has increased to height and breadth, and interest is too great for the need of a behold.
+
+The expression "Lord of the vineyard" does not appear until verse 8. It is led up to interestingly by first of all verse 3: "A tame olive tree, which a man took and nourished in his vineyard"; in the very next verse he has become the "master of the vineyard" (4). That is repeated in verse 7, and finally the step is taken to, "And behold, saith the Lord of the vineyard" (8). This is because we have here the narrative dialogue, and the two members of the dialogue have to be definitely identified: the Lord of the vineyard and the servant. But the two steps to the full Lord show the stratified symbolism of the whole parable. Between 41 and 49, this identification is not needed, because the Lord is giving his pathetic speech.
+
+Then follows a passage of dialogue between the Lord and the servant (this accounts for the examples in 49 and 50). There is a pause in the Lord's speech at 55-57 and that accounts for the use in verse 57. From then on until verse 69 the Lord continues in one swath. After this great speech comes a section of narrative that continues until verse 75; this accounts for the use of the title in 70, 71, 72 (twice), and 74 (twice); thereafter to the end it is not needed, because that is the final speech of the Lord. The point therefore is that the expression is used when identification is needed in narrative and dialogue; and when the Lord is speaking at length, it is not needed, because he is speaking.
+
+There is a similar explanation of the use of the word servant. There are twenty-four uses of the word servant, of which eighteen are by the Lord to the servant and six by the servant to the Lord. All of them occur by verse 57; and of these, nineteen are in part 1, the major narrative dialogue part. There is a final isolated couple of examples in verse 70, when the Lord sends his servant to fetch other servants. This is prepared for in verse 61: "Go to, and call servants," although not implemented until verse 70. Then there are three other references to servants in 71, 72, and 75, which is the missionary period.
+
+There are twelve examples of the word labor, in four groups: 15-16, 29 and 32, 61-62, and 71-75. Our example of labor is almost an example of local use, except that there are four "local" uses here; and it brings to mind that when there is repetition it is frequently, in the Book of Mormon, of this kind. That is to say, a particular expression is used for two or three verses, and then disused. The use of labor in this way is characteristic.
+
+Group I:
+
+And it came to pass that a long time passed away, and the Lord of the vineyard sayeth unto his servant, Come, let us go down into the vineyard, that we may labor in the vineyard.
+
+And it came to pass that the Lord of the vineyard, and also the servant, went down into the vineyard to labor (15-16).
+
+Group II:
+
+The Lord of the vineyard sayeth unto his servant, Come, let us go down into the vineyard, that we may labor again in the vineyard (29).
+
+It profiteth me nothing, notwithstanding all our labor (32).
+
+Group III:
+
+Wherefore, go to, and call servants, that we may labor diligently with our mights in the vineyard. . .Wherefore, let us go to, and labor with our mights, this last time (61-62).
+
+Group IV:
+
+And the Lord of the vineyard saith unto them, Go to, and labor in the vineyard, with your mights . . . and if ye labor with your mights with me, ye shall have joy in the fruit which I shall lay up. . . . And it came to pass that the servants did go to it, and labor with their mights; and the Lord of the vineyard labored also with them (71-72).
+
+And thus they labored, with all diligence. . . . ye have been diligent in laboring with me in my vineyard (74-75).
+
+Local Distribution
+
+It follows that after these examples we should turn to what I have called local use. When we come to this point in our investigation into repetition, variation, increment, general, and local, we realize that there are musical analogs to this kind of use. For example, in a symphonic movement there are two major themes, there is the working up and repetition of those themes and their interrelation, and at the same time there are episodes, which have local significance. I refer back to what I said earlier about "construction" and "flowing." With the rhetorician, as with the composer, what may occur to him may require work, or it may just flow. There are points at which one gets knotted up and there are others in which one feels free. When we are dealing with inspired writing, we may expect the flow to be normal. There will be points at which there is pause and reflection. Inspiration may sometimes be dictation, but at other times it consists of impulse.
+
+The outstanding example of a local phrase is "What could I have done more for my vineyard?" which occurs at 41 and 49. But in between these examples, at 47, in the form of "What could I have done more in my vineyard?" is another example of variation of a simple kind. The first example is at the beginning of the Lord's pathetic speech (41); the second example, with variation, is at the end of that speech. It seems to me that in instead of for brings us closer to the work, to remind us that the Lord actually worked in the vineyard himself, he did not simply arrange for things to happen in it.
+
+I am inclined to think that the beginning and end of his moving speech are rhetorical questions. But I think that the question at 49 is directed to the servant and is asking for an answer. The servant does not directly answer the question but simply says, "Spare it a little longer" (50); and that gives the Lord the opportunity of saying yes, he will do that (51).
+
+The word corrupt occurs eight times; six between 39 and 48 and the other two at the end of 75. It supplements and complements bad, which occurs first of all at 32 and then from 65 to 69, and finally from 74 to 77. At 75 it comes together with corrupt in the same verse. Corrupt clearly is a local use.
+
+The two occurrences of the word corrupt in 39 prepare for the Lord's pathetic speech: "It came to pass that they beheld that the fruit of the natural branches had become corrupt also . . . and they had all become corrupt." The next four examples are all in the Lord's pathetic speech:
+
+I knew that all the fruit of the vineyard, save it were these, had become corrupted. And now, these which have once brought forth good fruit, have also become corrupted (42).
+
+Notwithstanding all the care which we have taken of my vineyard, the trees thereof hath become corrupted, that they bring forth no good fruit (46).
+
+Who is it that hath corrupted my vineyard? (47).
+
+The question receives no reply, but the servant in the next verse picks up the word corrupt and says:
+
+Behold, I say, Is not this the cause that the trees of thy vineyard hath become corrupted? (48).
+
+He provides a natural explanation, but I doubt whether the Lord's question, "Who is it that hath corrupted my vineyard?" is satisfied with that explanation. Satan appears to play no part in this parable. The word is first used in Job; the only prophet to use the word is Zechariah.
+
+Corrupt is a description and a judgment; bad is only a judgment. Therefore the word corrupt is stronger than the word bad. The two come together in verse 75: "The Lord of the vineyard saw that his fruit was good, and that his vineyard was no more corrupt . . . ; my vineyard is no more corrupted, and the bad is cast away."
+
+Here are some simpler examples of local use.
+
+Overcome: there are seven examples stretching from 37 to 50 with one towards the end at 66:
+
+The wild branches have overcome the roots thereof (37).
+
+The wild fruit of the last, had overcome that part of the tree which brought forth good fruit (40).
+
+They [the bad branches] have overcome the good branch, that it hath withered away. (45)
+
+Hath not the branches thereof overcome the roots, which are good? And because that the branches have overcame the roots thereof? (48; this is the servant again picking up the word that his master has used).
+
+The last two examples are six verses apart, but they do interconnect:
+
+That the good may overcome the evil . . . until the good shall overcome the bad (59, 66).
+
+Spot: there are two separate, brief uses of this word; 21-25 and 43-44:
+
+Group I:
+
+It was the poorest spot in all the land of thy vineyard. And the Lord of the vineyard sayeth unto him, Counsel me not: I knew that it was a poor spot of ground. . . . the Lord of the vineyard sayeth unto his servant . . . thou knowest that this spot of ground was poorer than the first. . . . Look hither, and behold the last: behold, this have I planted in a good spot of ground.
+
+This is almost an altercation.
+
+Group II:
+
+I did plant in a good spot of ground. . . . I also cut down that which cumbered this spot of ground.
+
+The word is not needed elsewhere in the parable.
+
+Bitter: this word occurs three times between verses 52 and 65:
+
+Let us pluck from the tree, those branches whose fruit is most bitter (52).
+
+Pluck not the wild branches from the trees, save it be those which are most bitter (57).
+
+Ye shall clear away the branches which bring forth bitter fruit (65).
+
+Words in the First Half of the Parable
+
+The most obvious phrase is the Lord of the vineyard; the main use is "the Lord of the vineyard sayeth unto his servant" (15-18); "the Lord of the vineyard sayeth unto him" (22); "the Lord of the vineyard sayeth unto his servant" (23); "the Lord of the vineyard sayeth again unto his servant" (24); "the Lord of the vineyard sayeth unto the servant" (26); "the Lord of the vineyard sayeth unto his servant" (29); "the Lord of the vineyard sayeth unto the servant" (33); "the Lord of the vineyard sayeth unto his servant" (35); "the Lord of the vineyard wept, and sayeth unto the servant" (41; this is the beginning of the pathetic speech). There are only two separate examples in part two: verses 45 and 57. The repetition of this phrase reflects the confidant function of the servant.
+
+Go/went down occurs only in the first half: "Come, let us go down into the vineyard" (15); "The Lord of the vineyard, and also the servant, went down into the vineyard to labor" (16); "The Lord of the vineyard, and the servant, went down into the vineyard" (30); "They went down into the nethermost parts of the vineyard" (39).
+
+In the second half, the Lord is not so concerned with visiting the vineyard. It is to be remembered that the time span in the first half of this parable is much longer than that of the second half.
+
+The tame olive tree is mentioned only in the first half. There are eight examples: "I will liken thee, O House of Israel, like unto a tame olive tree" (3; that is the beginning of the scheme of symbolism); "His olive tree began to decay"(4)—already. "It grieveth me that I should lose this tree" (7). In verse 9 the wild olive tree is introduced—it is confined to one tree at this stage; "grafted in the branches of the wild olive tree" (10); "the natural branches of the tame olive tree" (14); "the branches of the wild olive tree . . . have nourished the roots, that they are alive" (34); "They have become like unto the wild olive tree; and they are of no worth" (46). This change is characteristic of the specificity of part one as opposed to the broader picture of part two.
+
+Words in the Second Half of the Parable
+
+The word bad occurs in verse 32, but the rest of its eleven examples are in the second part. We have already dealt with its interrelation with corrupt. The example in 32 is with fruit as opposed to good fruit:
+
+Ye shall not clear away the bad thereof, all at once, lest the roots thereof should be too strong for the graft (65).
+
+Ye shall clear away the bad, according as the good shall grow, that the root and the top may be equal in strength, until the good shall overcome the bad, and the bad be hewn down . . . thus will I sweep away the bad out of my vineyard (66).
+
+And the bad shall be cast away; yea, even out of all the land of my vineyard (69).
+
+And thus they labored . . . even until the bad had been cast away out of the vineyard (74).
+
+The bad is cast away (75).
+
+Then will I cause the good and the bad to be gathered . . . and the bad will I cast away into its own place (77).
+
+All through the second part, bad occurs with the definite article—it has become an entity in its own right.
+
+Initial Group of Words and Phrases
+
+We come now to a group that is well defined, small, but characteristic. That is the initial group of words and phrases. Strictly speaking, the parable begins at verse 2, verse 1 being introductory. The word prophet occurs here as "a Prophet of the Lord" (a fixed form), and it is used in the introductory verse as the Prophet Zenos. That name occurs in the introductory verse of chapter 6 in a reference back to the parable in chapter 5. The prophet does not refer to himself within the parable.
+
+The pleonastic pair "Hearken . . . and hear" (2) occurs once more in the Book of Mormon in 1 Nephi 20:1: "Hearken and hear this, O House of Jacob." The phrase sets the beginning of the parable in high register (formal language).
+
+References to the house of Israel occur early on: "O ye House of Israel" (2); "O house of Israel" (3); and "the house of Israel" (1). It is not surprising that this phrase does not recur in the parable, for it is replaced by the tree: "I will liken thee, O house of Israel, like unto a tame olive tree" (3).
+
+A man (3) occurs frequently in scripture, but not again in the parable. The phrase is replaced by Master of the Vineyard (4-7). At verse 8, Lord of the vineyard replaces master of the vineyard and is used thenceforward. The man is not discarded, but is embodied in Master of the Vineyard, and he is embodied in Lord of the Vineyard. This is significant for the symbolic interrelation.
+
+Decay: "A tame olive tree . . . it grew, and waxed old, and began to decay" (3); "He saw that his olive tree began to decay" (4). This announces the beginning of the action in the parable, the process of decay. I find no other example in the parable and no replacement until we find the word corrupt at verse 39.
+
+Main: "The main top thereof began to perish" (6) and "We will pluck off those main branches which are beginning to wither away" (7). I found no other example of main in the parable and no apparent replacement. Top is not a concept that is repeated until verse 66: "The root and the top may be equal" (the key to the solution), and that phrase is again repeated at 73: "The root and the top." Main does not occur in this phrase nor in any phrase referring to branches; nor does it occur in the Bible. Main top may have been known to Joseph Smith as a nautical term—of the topsail sometimes set above the mainsail.
+
+Tame: "A tame olive tree" (3); "The natural branches of a tame olive tree" (14); "Tame fruit" (18). Tame is replaced by natural, which occurs with it at 14 above. Tame is contrasted with wild, which is used first at 17: "Wild olive branches"; and continues to be used, although tame is discarded.
+
+Words in the Final Section
+
+I found one final word—one that occurs only in the last part of the parable—of interest and importance, and that is equal. It is first used at 66: "Ye shall clear away the bad, according as the good shall grow, that the root and the top may be equal in strength." Then at 73: "And there began to be the natural fruit again in the vineyard; and the natural branches began to grow and thrive exceedingly; and the wild branches began to be plucked off, and to be cast away; and they did keep the root and the top thereof, equal, according to the strength thereof."
+
+This is the solution of the olive-yard problem. It is not the task of this paper to go into the symbolism, but it may be worth pointing out that the roots, the trunk, and the branches of a tree are contemporaneous—one does not come before another. From the beginning, a plant shoots down and up from the seed.
+
+Initial and Final
+
+Few words of interest are present at the beginning and at the end and not in between. On top (6, 66, 73), see the previous discussion.
+
+The principal word of interest is time in various combinations. In verse 29 we have "the time draweth near, and the end soon cometh." It is difficult to realize that most of the time covered by the parable has already elapsed by this point. At verse 71 we have "fruit which I shall lay up unto myself, against the time which will soon come." And in the very last verse of the parable we still have "and when the time cometh that evil fruit shall again come into my vineyard." One time has come in verse 75, but there is still another time and another time after that.
+
+There are two phrases with time that complement one another: the last time, and a long time. The phrase a long time is used mainly up to verse 31 to remind us of the age covered by the first part of the parable: "A long time had passed away" (15); "This long time have I nourished it" (20); "I have nourished it this long time" (22; this is repeated in verse 23 and 25). At 29 we are again told in the narrative that a long time had passed away. That is succeeded by another combination with nourished at 31: "This long time have we nourished this tree." There is one example only of this phrase at the end of the parable, this time looking to the future: "For a long time will I lay up the fruit of my vineyard" (76); repeated again at the end of the verse. The complementary expression "the last time" does not begin (as we may expect) until 62: "Let us go to, and labor with our mights, this last time, . . . this is for the last time that I shall prune my vineyard"; then "That all may be nourished once again for the last time" (63); "Dung them once more, for the last time: for the end draweth nigh" (64; that was the expression already used at verse 29); "This is the last time that I shall nourish my vineyard: for the end is nigh at hand" (71 again); "For this last time have we nourished my vineyard" (75); "For the last time have I nourished my vineyard" (76, repeated again). The insistence on the length of time in the first half of the parable is complemented by the insistence on the little time left in the second half.
+
+The expression lay up is used seven times up to verse 31. It is used once at 46 and three times between 71 and 76:
+
+I may lay up fruit thereof, against the season, unto myself (13).
+
+I shall lay up much fruit, which the tree thereof hath brought forth; and the fruit thereof I shall lay up, against the season, unto mine own self (18).
+
+That I may lay up of the fruit thereof, against the season, unto mine own self (19).
+
+Take of the fruit thereof, and lay it up, against the season, that I may preserve it unto mine own self (20).
+
+I must lay up fruit, against the season, unto mine own self (29).
+
+And I have laid up unto myself against the season, much fruit (31).
+
+The isolated example is in the pathetic speech:
+
+These I had hope to preserve, to have laid up fruit thereof, against the season, unto mine own self (46).
+
+Last, at the end of the parable:
+
+Ye shall have joy in the fruit which I shall lay up unto myself, against the time which will soon come (71).
+
+Wherefore I will lay up unto mine own self of the fruit, for a long time (76).
+
+This example of lay up is a good one of variation and accretion. There is just enough variation to keep it alive and prevent it from becoming mechanical.
+
+A term of similar meaning is gather, which occurs only twice, in verses 23 and 77, towards the beginning and at the end. At 23 it occurs together with lay up: "It hath brought forth much fruit; therefore, gather it, and lay it up, against the season, that I may preserve it unto mine own self"; and "Then will I cause the good and the bad to be gathered" (77).
+
+In considering these combinations of repetition, variation, and distribution, I have only begun to exemplify the extraordinary way in which phrases are combined and accrete in this parable. The rhetorical buildup is complex and rich. There is no passage like this in the Bible. Our parable is a good example of what I mean when I say that the rhetoric of the Book of Mormon is richer than that of the Bible. This parable, with all its repetition of varying kinds, approaches more closely the condition of music than any other piece of prose that I know. An extraordinary dancing energy runs through it.
+
+In contrast with all these repetitions, I will mention the words and phrases that occur only once in this parable and sometimes only once in the whole Book of Mormon.
+
+Loftiness: this occurs only once, and only once more in the Book of Mormon: "Is it not the loftiness of thy vineyard? Hath not the branches thereof overcame the roots, which are good?" (48). The other example helps us to understand this one: "The loftiness of man shall be bowed down, and the haughtiness of men shall be made low" (2 Nephi 12:17, quoting Isaiah 2:17). Here the association is with pride. It is interesting that the Lord apparently ignores this input of the servant.
+
+Glory: "I may yet have glory in the fruit of my vineyard" (54). Similarly unique and with a similar sense in this parable is rejoice exceedingly: "And perhaps that I may rejoice exceedingly, that I have preserved the roots and the branches of the first fruit" (60). There is not much rejoicing or glory in this parable; there is hard work, real experience, and a satisfactory end.
+
+At verse 66, which is a strong one, we have the most powerful verb in the parable, sweep: "And thus will I sweep away the bad out of my vineyard." Compare 2 Nephi 24:23 (quoting Isaiah 14:23): "I will sweep it with the besom of destruction"; but a context that intimates the strength of the phrase better is at Ether 14:18: "He sweepeth the earth before him."
+
+Two expressions occur several times in Jacob 5 but nowhere else in the Book of Mormon. One phrase is cumber the ground, which appears at 9, 49, and 66; and at 30: "All sorts of fruit did cumber the tree"; and at 44: "Also cut down that which cumbered this spot."
+
+The other phrase is nethermost parts, which occurs at 13, 14, 19, 38, 39, and 52, but nowhere else in the Book of Mormon.
+
+One last example, the most important, of this unique use of words, is the word wept: "And it came to pass that the Lord of the vineyard wept" (41). The Manhood and the Godhood of the Lord of the vineyard come together here. Enoch saw the Lord weeping (Moses 7:28) and "Jesus wept" (John 11:35).
+
+It will be realized that this account is selective and far from complete. But it may point the way to a more thorough analysis of this chapter as of other parts of the Book of Mormon. It needs to be combined with observations on syntax, lexis, sound, stress, and much else.
+
+But enough has been said, I think, to illustrate how packed and rich the Book of Mormon is. It is a quality that cannot be properly appreciated unless the book is read aloud and listened to. We no longer in our culture read slowly, accurately, or aloud to the soul; we skim. We do little repeated reading. We do not read for an experience, let alone for understanding, so much as to read for immediate "comprehension." If we read aloud, and even more likely if we hear something read aloud, we take it as an experience. If we do analyze, and we must analyze, it must be to have a better whole from the parts after we have completed the analysis. Analysis has no value in itself. It has value insofar as it contributes toward the soul's being able to experience and understand the whole better in the end.
+
+We do not know how far the Bible has suffered historically, but we do know that it has had much opportunity to be changed and that it has suffered most in our century with being ignored, and from the more and more vulgar variants of it which are being used. However, I do not say that the New English Bible is vulgar; it is merely dull. But even dullness is a relief from vulgarity. In the Book of Mormon we have been given a text that was translated from plates. That text was preserved on those plates, all through the time that the Bible was subject to alteration. That is why in the Book of Mormon we have a unique gift. We are closer to the times it speaks of than we are in any other scripture. The Book of Mormon is a test of the Bible's accuracy.
+
+We need to learn ourselves and to teach our children the delight of this gift of the Book of Mormon. We can do that by reading it aloud to them, to teach them to read the scriptures aloud to themselves, and to maintain the tradition of reading aloud in the family, so that we shall not lose the power of experiencing and understanding the Book of Mormon and through the Book of Mormon, the Bible. Our children need to be exposed to the language of the scriptures at the time they learn their own language, so that they can incorporate the scriptural dialect into their familiarity. Exposure to the Book of Mormon can lead first to experience and afterwards to understanding through experience.
+
+To sit down and meditate the rhetoric of the Book of Mormon is to learn the rhetorical truth of the Book of Mormon, a truth that is all-embracing. Rhetoric does not encapsulate and communicate messages; like music, it is an art. To experience language is more than to abstract messages from it. Rhetoric is not an added decoration; it is the thing itself.
+
+Footnotes
+
+### 8 - Words and Phrases in Jacob 5
+
+John W. Welch
+
+Zenos's vocabulary is extremely simple. He spins a complex yarn out of the most elementary linguistic materials.
+
+The total English computer count for Jacob 5 is 3,733 words. That total would have been significantly lower in Zenos's Hebrew, where olive-tree and the phrase and it came to pass would undoubtedly have been single words, and several other English parts of speech would not have appeared as separate words in the ancient text.
+
+Most of the words in Jacob 5 are extremely common. Few can be thought of as truly distinctive. Several are used repeatedly by Zenos, and because of that repetition some words have become sharply characteristic of this allegory, even though they appear to be rather ordinary parts of everyday ancient Israelite speech.
+
+By my count, only 252 different words are used in the allegory. 1 Of these, 92 are conjunctions, prepositions, pronouns, articles, or other such normal parts of speech that occur universally in language. Of the remaining 160 root words, all but two are found in the Bible: the exceptions are main and spot (meaning place). Most of the words in Jacob 5 appear throughout the Old and New Testaments and other literatures: for example, from bad, begin, bring, burn, call, come, to tree, watch, words, and young.
+
+Many of these words, although appearing throughout the Bible, are used more frequently in the Old Testament than in the New. The overall vocabulary of Zenos is thus closer to the Hebrew vocabulary of the Old Testament than that of the New. For example, the following words are among those words of Zenos that are far more common in Old Testament usage: alive, bitter, branch, broken, choice, counsel, decay, dig, hew, speedily, and wither.
+
+Individual words in Jacob 5 that do not appear in the New Testament but only in the Old Testament are loftiness (Isaiah 2:17; Jeremiah 48:29), overrun (Nahum 1:8), nethermost (1 Kings 6:6; compare also "nether parts of the earth," Ezekiel 31:14, 16, 18; 32:18, 24), prune (for example, Leviticus 25:3; Isaiah 5:6), and size (for example, Exodus 36:9).
+
+Only two words in Jacob 5 are not found in the Old Testament but are found in the New: cumber (Luke 13:7), and graft (Romans 11:17). 2 The concept of grafting, however, is present in Isaiah 17:10. Likewise, the English word cumber means to encumber, crowd, obstruct, or render useless. Don Parry suggests that these meanings are present in other Old Testament words meaning hinder, burden, trouble, or destroy.
+
+Zenos's total word count breaks down into a very small vocabulary list, due to the fact that the key words in the allegory are repeated numerous times without the use of synonyms and with little variation in phraseology. Thus, of 160 total words, the is used 369 times, six others are used more than one hundred times each, twenty-five more appear thirty or more times each, and another fifty-seven appear ten to twenty-nine times. 3 More than half of the words are used more than ten times each. A few significant words appear just once: blessed, body, broken, care, change, choice, counsel, cut, died, faster, glory, hold, hoped, loftiness, moisture, pleasure, shoot, slackened, stretched, sweep, taste, thrive, together, trim, watch, waxed, wept, and wroth. For a complete listing of the words in Jacob 5, arranged according to how often they appear, see Table 1, located later in this chapter.
+
+Zenos's words combine to form a number of distinctive expressions or idioms. Interesting results come from tabulating key phrases in Zenos's allegory and their occurrences elsewhere in scripture.
+
+The following thirty phrases or expressions appear in Jacob 5 and not again in exactly this form in the four Standard Works (near equivalents can be found for less than half of these):
+
+bad fruit
+
+bitter fruit (cf. uncircumcised fruit, Leviticus 19:23)
+
+began to decay
+
+to call servants
+
+choice unto me above all others
+
+clear away
+
+counsel me not
+
+end draweth nigh
+
+end is nigh at hand
+
+end soon cometh
+
+lay up fruit against the season unto myself (11x)
+
+look hither and behold (cf. look down and behold, Lamentations 3:50)
+
+main branches
+
+main top
+
+master of the vineyard (2x; cf. Lord of the vineyard, 31x)
+
+most precious above all other (cf. desirable above all other, 1 Nephi 11:12)
+
+mother tree
+
+natural fruit
+
+natural tree
+
+nethermost part[s]
+
+preserve unto myself
+
+slackened my hand (cf. slack not thy hand, Joshua 10:6)
+
+spare it a little longer
+
+spot of ground
+
+sprung forth (cf. spring forth, Isaiah 43:19)
+
+stretched forth mine hand
+
+tame fruit
+
+tame olive tree
+
+season and the end
+
+withersoever I will
+
+Six combinations of words appear in Jacob 5 and in the Book of Mormon, but not in Bible:
+
+will and pleasure
+
+of no worth
+
+joy again in
+
+labor . . . might
+
+little longer
+
+it mattereth not
+
+From the early chapters of Genesis (especially the creation account), seven idioms are found in Jacob 5:
+
+and he beheld that it was good (2x; cf., e.g., Genesis 1:4, 10, 12, 31)
+
+be one (Genesis 2:24)
+
+bring forth (Genesis 1:11, 20, 24; 3:16, 18)
+
+let us go down (Genesis 11:7; Abraham 4:1, 26)
+
+for mine own purpose (Moses 1:31, 33)
+
+from the beginning (cf. Genesis 1:1)
+
+[The Lord] went his way (Genesis 18:33)
+
+Twenty-one further expressions, easily located with the aid of a computer or a complete concordance, are common to Jacob 5 and other texts of the Old Testament, but not the New Testament:
+
+become corrupt
+
+both old and young
+
+[boughs] broken off
+
+burned with fire—especially of Mt. Sinai
+
+cast away
+
+come, let us go down
+
+dig about
+
+go to
+
+grieveth me that
+
+[obey] in all things
+
+much strength
+
+only this once
+
+plucked off
+
+prepare the way
+
+shoot forth
+
+all the day long
+
+sweep away
+
+taken hold
+
+waxed old
+
+what could I have done more
+
+young and tender (1 Chronicles 22:5; 29:1, used only of Solomon)
+
+Eight phrases in Jacob 5 are common with New Testament vocabulary:
+
+cumber the ground (Luke 13:7)
+
+evil fruit (Matthew 7:17)
+
+first, last, last, first (Matthew 19:30)
+
+it profiteth me nothing (1 Corinthians 13:3)
+
+natural branches (Romans 11:21)
+
+once more (Hebrews 12:26-27)
+
+time draweth near (Luke 21:8)
+
+wild olive tree (Romans 11:17)
+
+Several other phrases in Jacob 5 that readers of the New Testament might think of as Greek New Testament phrases can also be found in the older texts of the Hebrew Old Testament:
+
+blessed art thou
+
+cast into the fire
+
+cast them into the fire
+
+cut down (especially refers to pagan groves and idols in the Old Testament)
+
+good for nothing
+
+good fruit
+
+go thy way
+
+hew[n] down (especially refers to graven images in the Old Testament)
+
+withered away
+
+Several conclusions can be suggested from this brief study. First, the phraseology of Jacob 5 is rather characteristic. A significant number of phrases in Jacob 5 are unique to that text in all of scripture. This explains in large measure why listeners readily recognize the allegory of Zenos when it is quoted in sermons or talks.
+
+Second, relatively few words and phrases in Jacob 5 appear also in the New Testament. In view of the overall vocabulary of Jacob 5, those few New Testament words should not be unduly weighted in assessing when the allegory of Zenos was composed. As words and phrases available in the working vocabulary of Joseph Smith, they cluster around only two ideas and were appropriate vehicles through which to communicate to his nineteenth-century audience the translated sense of the ancient allegory with respect to God's impending final judgment of the wicked world (cumber the ground; evil fruit; first, last, last, first; once more; time draweth near) and regarding the salient distinction between Israel and the Gentiles (natural branches, wild olive tree). It is doubtful, however, that the unprofitability of the tree in Jacob 5 has any connection with Paul's confession that, no matter what else he does, if he has not charity "it profiteth [him] nothing" (1 Corinthians 13:3).
+
+Third, by examining the Old Testament contexts of several phrases that also appear in Jacob 5, further significance of Zenos's messages in the minds of ancient Israelites or Nephites can be explored. For example, exact phrases that seem to be reminiscent of the theophany on Mount Sinai, for example, burned with fire, would probably have reminded any Israelite of the covenant relationship that had been formed in the wilderness between God and his people when Mount Sinai "burned with fire" (Deuteronomy 9:15). Several expressions in Jacob 5 were otherwise used primarily in Israelite literature in connection with early anti-pagan concerns—to hew down, cut down pagan groves or idols—and thus it would have horrified the Israelites to think of themselves in the same terms, being cut down or hewn down, just as Jehovah had said that the groves of the Canaanites should be hewn or cut down (Deuteronomy 12:3; Judges 6:25-30). One is drawn to observe that the noun used most often in the allegory is vineyard (ninety times); and numerologically, perhaps there is significance in the fact that master is mentioned a perfect seven times, while end, evil, and nethermost occur an ominous six times. The mixing of phraseology from the creation account into Jacob 5 on several occasions sends the strong message in Israelite terms that God views salvation history in terms of creation, leading to the creation of a spiritual harvest and a united fruitful result in this world.
+
+Finally, some of these words and expressions may help date Zenos. As shown by John Tvedtnes in this volume, in Hebrew at the time of Joshua and in early Israelite history there was only one word for vineyard and orchard. As further evidence that Zenos may have come from that time period, perhaps the most distinctive finding from the present examination of the words used by Zenos is that the phrase "young and tender," used four times by Zenos, appears only two other times in scripture, both describing David's young son Solomon as "young and tender" (1 Chronicles 22:5; 29:1). This supports the hypothesis that Zenos may have written his allegory early in the Israelite monarchy, perhaps in the latter half of David's kingship, but it is impossible to date Zenos with any degree of certainty.
+
+TABLE 1:
+
+Vocabulary Distribution in Jacob 5: By Frequency
+
+(369x) the
+
+(254x) and
+
+(133x) of
+
+(127x) that
+
+(113x) it/its
+
+(105x) I
+
+(100x) had/has/hath/have
+
+(90x) vineyard
+
+(69x) to
+
+(67x) fruit/fruits
+
+(65x) unto
+
+(64x) in/into
+
+(59x) tree/trees
+
+(54x) branch/branches
+
+(53x) beheld/beheldest/behold/beholdest
+
+(44x) came/come/comest/cometh
+
+(43x) my/myself
+
+(41x) he/him/himself/his
+
+(38x) Lord
+
+(38x) thereof
+
+(36x) forth
+
+(36x) said/saith/say/saying
+
+(36x) they
+
+(36x) will
+
+(34x) servant/servants
+
+(33x) may
+
+(33x) pass
+
+(32x) bring/brought
+
+(31x) for
+
+(30x) good/goodness
+
+(30x) this
+
+(29x) natural
+
+(29x) them/themselves
+
+(24x) be
+
+(24x) shall
+
+(23x) root/roots
+
+(22x) graft/grafted
+
+(22x) nourish/nourished
+
+(22x) which
+
+(20x) me
+
+(20x) not
+
+(20x) preserve/preserved
+
+(20x) wild
+
+(20x) time
+
+(19x) all
+
+(18x) a
+
+(17x) also
+
+(16x) away
+
+(16x) cast
+
+(16x) last
+
+(15x) again
+
+(15x) mine
+
+(15x) up
+
+(15x) we
+
+(14x) began/begin/beginneth/beginning/begun
+
+(14x) long/longer
+
+(14x) own
+
+(14x) wherefore
+
+(13x) became/become
+
+(13x) is
+
+(13x) much
+
+(12x) according
+
+(12x) because
+
+(12x) down
+
+(12x) labor/labored/laboring
+
+(12x) fire
+
+(12x) part/parts
+
+(12x) season
+
+(12x) should
+
+(12x) thou
+
+(11x) against
+
+(11x) are
+
+(11x) bad
+
+(11x) do/done
+
+(11x) go
+
+(11x) lay
+
+(11x) strength/strong
+
+(11x) these
+
+(11x) was
+
+(11x) with
+
+(10x) about
+
+(10x) did/didst
+
+(10x) let
+
+(10x) perish/perished
+
+(10x) self
+
+(10x) take/taken/taking
+
+(10x) us
+
+(10x) ye
+
+(9x) but
+
+(9x) corrupt/corrupted
+
+(9x) lose
+
+(9x) olive/olive-tree
+
+(9x) pluck/plucked
+
+(9x) prune/pruned
+
+(8x) dig/digged/dug
+
+(8x) first
+
+(8x) from
+
+(8x) grieveth
+
+(8x) ground
+
+(8x) might
+
+(8x) perhaps
+
+(8x) plant/planted
+
+(7x) like/liken
+
+(7x) master
+
+(7x) overcome
+
+(7x) their
+
+(7x) went
+
+(6x) end
+
+(6x) evil
+
+(6x) grow/grown
+
+(6x) hither/hitherto
+
+(6x) if
+
+(6x) more
+
+(6x) nethermost
+
+(6x) now
+
+(6x) spot
+
+(5x) as
+
+(5x) been
+
+(5x) cumber/cumbered
+
+(5x) even
+
+(5x) hew/hewn
+
+(5x) look/looked
+
+(5x) no/none
+
+(5x) off
+
+(5x) once
+
+(5x) other/others
+
+(5x) whither/whithersoever
+
+(5x) yea
+
+(5x) young
+
+(4x) burn/burned
+
+(4x) cause/caused
+
+(4x) draweth
+
+(4x) knew/know/knowest
+
+(4x) little
+
+(4x) most
+
+(4x) mother
+
+(4x) nigh
+
+(4x) nothing
+
+(4x) so
+
+(4x) tame
+
+(4x) thee
+
+(4x) those
+
+(4x) thus
+
+(4x) thy
+
+(4x) way
+
+(4x) what
+
+(4x) Who/whose
+
+(4x) wither/withered
+
+(4x) word/words
+
+(3x) another
+
+(3x) at
+
+(3x) bitter
+
+(3x) clear
+
+(3x) commandments
+
+(3x) could
+
+(3x) diligence/diligent/diligently
+
+(3x) dung/dunged
+
+(3x) equal
+
+(3x) hand
+
+(3x) joy
+
+(3x) land
+
+(3x) one
+
+(3x) our
+
+(3x) out
+
+(3x) poor/poorer/poorest
+
+(3x) profit/profiteth
+
+(3x) purpose
+
+(3x) save
+
+(3x) saw
+
+(3x) soon
+
+(3x) stead
+
+(3x) then
+
+(3x) there
+
+(3x) took
+
+(3x) top
+
+(3x) were
+
+(3x) when
+
+(2x) alive
+
+(2x) call/called
+
+(2x) day/days
+
+(2x) decay
+
+(2x) exceedingly
+
+(2x) gather/gathered
+
+(2x) grew
+
+(2x) hid
+
+(2x) house
+
+(2x) Israel
+
+(2x) keep/kept
+
+(2x) laid
+
+(2x) main
+
+(2x) many
+
+(2x) mattereth
+
+(2x) must
+
+(2x) notwithstanding
+
+(2x) O
+
+(2x) old
+
+(2x) only
+
+(2x) place
+
+(2x) precious
+
+(2x) prepare
+
+(2x) ripened
+
+(2x) some
+
+(2x) sort/sorts
+
+(2x) spare
+
+(2x) speedily
+
+(2x) than
+
+(2x) thing/things
+
+(2x) until
+
+(2x) would
+
+(2x) yet
+
+(2x) you
+
+(1x) after
+
+(1x) almost
+
+(1x) art
+
+(1x) bear
+
+(1x) blessed
+
+(1x) body
+
+(1x) both
+
+(1x) broken
+
+(1x) canst
+
+(1x) care
+
+(1x) change
+
+(1x) choice
+
+(1x) commanded
+
+(1x) Counsel
+
+(1x) cut
+
+(1x) died
+
+(1x) every
+
+(1x) except
+
+(1x) faster
+
+(1x) few
+
+(1x) glory
+
+(1x) hear
+
+(1x) Hearken
+
+(1x) here
+
+(1x) hold
+
+(1x) hoped
+
+(1x) How
+
+(1x) kinds
+
+(1x) lest
+
+(1x) loftiness
+
+(1x) man
+
+(1x) moisture
+
+(1x) Nay
+
+(1x) near
+
+(1x) Nevertheless
+
+(1x) number
+
+(1x) obey
+
+(1x) or
+
+(1x) overrun
+
+(1x) prophet
+
+(1x) pleasure
+
+(1x) put
+
+(1x) rejoice
+
+(1x) sent
+
+(1x) second
+
+(1x) shoot
+
+(1x) size
+
+(1x) slackened
+
+(1x) something
+
+(1x) somewhat
+
+(1x) spoken
+
+(1x) sprung
+
+(1x) stretched
+
+(1x) sufficiently
+
+(1x) sweep
+
+(1x) taste
+
+(1x) therefore
+
+(1x) thrive
+
+(1x) together
+
+(1x) too
+
+(1x) trim
+
+(1x) watch
+
+(1x) waxed
+
+(1x) wept
+
+(1x) whence
+
+(1x) worth
+
+Footnotes
+
+### 9 - Graft and Corruption, on Olives and Olive Culture in the Pre-Modern Mediterranean
+
+John Gee and Daniel C. Peterson
+
+In the background of Zenos's parable of the olive tree is a vastly important element of ancient society, olive culture. In both classical Roman and ancient Hebrew civilizations, the olive was viewed as first among trees. 1 In some ways, it is astonishing that the contemporary interest of American and other scholars in economic history has yet to chronicle or adequately describe something as important as olive culture in antiquity. Nevertheless, several facets of Zenos's parable shine with considerably more brilliance when placed against the background of ancient olive cultivation and trade. It is this background that we will explore in the present paper. 2
+
+Lexicography
+
+There are four etymological stems referring to the olive in the ancient Mediterranean and Near East: (1) Sumerian girim, (2) Akkadian serdu, (3) West Semitic zyt, and (4) Greek elaia. The Sumerian girim, written with the LAGAB sign, 3 probably indicates the shape of the fruit and thus might best be rendered "oval," or "ellipsoid," or even "berry." 4 And, indeed, the Mesopotamians seem to have considered the olive a berry, as did the Chinese, the Anglo-Saxons, and the Germans; the Romans, on the other hand, considered it a nut. 5
+
+The Akkadian serdu, listed as the second of our stems above, may well derive from the common West Semitic zyt, which is our third. 6 The Hittites, an ancient Indo-European people of the Anatolian peninsula (modern-day Turkey), simply wrote the Akkadian word for olives; 7 they borrowed the word as they had the product, for "the olive does not flourish on the highlands" of the Anatolian plateau. 8 It is yet "another instance of the debt owed by the Hittite culture to its eastern neighbors." 9 Semitic zyt is the source of Ugaritic (zyt), Hebrew (zayit), Egyptian (dt or ddtw), 10 Coptic (joeit), Arabic (zayt), Persian (zeitun), Armenian (jet), 11 and even Chinese (ci-tun) words for olives. 12 The Greek word is the source of the Etruscan (eleivana), 13 Latin (olea) and subsequent Romance, and Germanic (Middle High German olÃ®ve), 14 German (Olive), English ("olive"), Old Norse (olifa), and Icelandic (olifa) words for both olive and oil. 15 From the philological evidence, it would seem that the olive originated in the area of Syro-Palestine, or possibly (though unlikely), in the Cyclades; the Near Eastern evidence antedates the Hellenic.
+
+Most of the words for oil in these languages relate somehow to olive oil. The Greek term for "oil" (elaion; cf. English "oil" itself, as well as French huile), for example, comes from the word for "olive" (elaia); but not all elaion is olive oil. 16 One of the most important Arabic terms for oil, in the sense of "petroleum," is zayt, from zaytun ("olive"). We leave it as an exercise for the interested reader to trace out the analogous etymological lines that run through the other languages.
+
+Ancient Olive Growing
+
+The Mediterranean area constitutes a single "climatic region," marked by winter rains and long summer droughts, by light soils and dry farming for the most part, in contrast to the irrigation farming on which so much of the ancient Near Eastern economy was based. It is a region of relatively easy habitation and much outdoor living, producing on its best soils, the coastal plains and the large inland plateaus, a good supply of the staple cereal grasses, vegetables and fruits, in particular grapes and olives, with suitable pasture for small animals, sheep, pigs and goats, but not on the whole for cattle. . . . The olive-tree flourishes even in summer drought but, though not labour-intensive, it demands attention and it requires time, since the tree does not bear for the first ten or twelve years. 17
+
+The olive tree 18 thrives in the hot, dry summers and the often cool and sometimes damp winters of the Mediterranean area. Indeed, it can live to be a thousand years old, and some specimens in the region are even claimed to date from Roman times. 19 The olive tree has a small core, a small central root with large twisting shallow roots radiating therefrom. 20 Its trunk is likely to produce bulges and abnormal growths in the stem, leaving it with a characteristically gnarled appearance. 21 The olive is an evergreen, with a narrow leaf that is green on top but somewhat whiter on the underside and that grows at the end of a short twig. Olive flowers look much like olive leaves. 22 The olive berry, which occurs clustered around the branches, consists of a firm flesh surrounding a pit. 23 Not surprisingly, Theophrastus, the fourth-century B.C. scholar who studied under Aristotle and succeeded him as the director of the Aristotelian school, reports that the fruit of the tree tastes "oily" (elaiodeis). 24 So important was it in its traditional area that, for instance, no Roman garden was considered complete without at least some olive trees. 25 The olive does not, however, grow well far beyond the Mediterranean. Marcus Terentius Varro, a Roman writer of the first century B.C., recalled with perhaps some surprise, "When I led the army near the Rhine in the interior of Transalpine Gaul, I was in many regions where neither vines, nor olives, nor fruit trees grew." 26 Varro's countrymen thought that the olive must have neither too warm nor too cold a climate, and neither too high nor too low an altitude, and supposed that it did not grow more than a hundred miles from the sea. 27
+
+The ancient Romans, with their penchant for handbooks and manuals, wrote many treatises on horticulture for those of the nobility who had just come into their estates and had not the slightest idea how to run them. 28 The principal interest in farming was not to feed the hungry, but to fatten the wallet. 29 Olive oil was considered by many to be the equivalent of money, literally in liquid form. 30 In writing these manuals, they borrowed extensively from the works of their predecessors in Greece and Carthage. One of these was the Carthaginian Mago, who had written twenty-eight volumes on agriculture, a good many of which dealt with the olive. 31 The Carthaginians, of course, being a Phoenician colony, had taken their olives and olive culture from Syro-Palestine. Thus the following summation, taken mainly from Greek and Roman records, is probably somewhat indicative of Palestinian olive culture as well. We note occasional parallels to Jacob 5, but emphasize that Joseph Smith could not have concocted Jacob 5 out of the four dry Romans and the pedantic Greek who are our sources. 32
+
+General
+
+A sizable plot of land in a Mediterranean climate with proper soil conditions is a prerequisite for good olive production, 33 and to grow olives Roman style (and likely Palestinian style as well), one needs several slaves or servants (cf. Jacob 5:7, 10-11, 15-16, 20-21, 25-30, 33-35, 38, 41, 48-50, 57, 61-62, 70-72, 75), 34 and several farm animals. 35 One also needs a fair amount of equipment. 36 Of course, the villa is placed uphill of the vineyards and fields, 37 and upwind of the manure pile. Olives should not be irrigated, as it spoils the fruit. 38
+
+Wild versus Tame Olives
+
+Olives, writes Theophrastus, come in two varieties: wild (kotinos) and tame (elaa). 39 "Wild plants seem to bear more, as the wild pear and olive, but the tame bear better fruit." 40 Not only did the wild olive produce more than the tame, but it was more tenacious and hardy. 41 Ancient authors knew very well that "it is not possible for a wild olive to produce tame olives" through any amount of cultivation, 42 yet Theophrastus reports that "they say that certain such changes may occur by themselves (automatan), sometimes the fruit and sometimes even the whole tree, which the prophets (hoi manteis) think are signs (semeia). . . . Even from a tame olive may come a wild olive and from a wild olive may come a tame olive (though that is rare)." 43
+
+Planting
+
+Olive trees, the Roman guides inform us, should be planted in heavy, warm soil (for pickling, long, Sallentine, orcite, posea, Sergian, Columnian, and white varieties; thin, cold soil for the Licinian variety) about twenty-five to thirty (Roman) feet apart. 44 The land should be low lying, should face west, and should have good exposure to the sun. 45 Olives should be planted just after the vernal equinox. 46 Though olives may be propagated in nearly any way a plant may be propagated (including cases where an olive tree grew accidentally from an olive stake driven in the ground) 47—indeed, "the olive grows in more ways than any other plant" 48—propagation by shoots and grafting was preferred to planting seeds, because seeds took so long to get going. 49 Seeds of tame trees also tend, if not carefully watched, to produce wild olives. 50
+
+The olive would send forth a ring of shoots about the base and propagate itself that way, sometimes even swallowing objects. 51 These shoots were taken from the base of the tree by first burying their tips into the ground so they would take root, and, two years later, digging them up and transplanting them. 52 The slips should be one (Roman) foot long and should be planted (positioned as they were on the original tree) in trenches three and one half (Roman) feet deep and three (Roman) feet long. 53 The shoots should be spaded once monthly for three years. 54 Transplanting may take place in the autumn if the ground is dry; it is done much like the propagation of shoots, though the trees are pruned if they are broader than the palm. 55 Transplanted olives tend to have a rather delicate top that needs to be protected. 56
+
+Grafting
+
+Grafting was also to be done in the spring (in the dark of the moon). 57 A clean diagonal cut on the tree was preferable. The cultivator sharpened the end of the graft (which was, like the slips, one foot long), and then drove it into the tree, matching bark to bark. He smeared the joint with dung and dirt and, finally, bound it with some splints to support the graft. 58 Buds could also be grafted, so long as there was a bark to bark match. 59 Grafting, we are informed, increased the production of the trees. 60 Its importance in ancient Palestine is shown in the fact that it was regulated by Jewish law. 61
+
+Pruning
+
+"All trees need pruning. . . . Androtion says that the myrtle and the olive require the most pruning." 62 The olive-grove must be pruned every few years. 63 The Roman proverb was, "He who ploughs the olive grove, asks for fruit; he who dungs, begs; but he who prunes, coerces fruit!" 64 This is so because the olive bears only on the previous year's wood. 65 According to the Roman manuals, olive yards should be pruned fifteen days before the vernal equinox, and trimmed for the next forty-five days. 66 According to Columella, a grower does not want one branch doing too much better than the others. 67 For the Jews, the Sabbatical year was not only a time of pruning olives but particularly for hewing them down to be cast into the fire. 68 During the trimming of the tree, what is not used for shoots is stacked outside on flooring, as what Cato terms "firewood for the master" (cf. Jacob 5:9, 42, 49) 69 the wood, being medium-grained, hard, crooked, brittle, and knotty, is good only for burning. 70
+
+Digging
+
+Trenches should be dug about olives in the spring, and again in autumn. 71 Digging should be deep enough to keep the roots away from the surface but not so deep as to kill the tree. 72 Hoeing should be done frequently. 73
+
+Nourishing
+
+Poor soil could lessen the olive crop, and for this reason, the trees were nourished. 74 Nourishing was done either by using the lees of the pressing process, 75 or by using lime as fertilizer. 76
+
+Dunging
+
+Manure was the reason the ancient olive grower kept all those animals on his farm. So, when the weather was bad and he had nothing better to do, the prudent olive cultivator worked on his manure collection. 77 Olives, our classical experts inform us, should get one quarter of the farm's output of manure. 78 Pigeon dung, Varro explains, is the best, 79 while Columella recommends goat dung, and Androtion says that it does not matter so long as the dung is the most pungent available. 80 And, of course, manure should only be hauled in the dark of the moon. 81 Though nourishing with vegetable fertilizer is done every year, dunging, thankfully, was recommended only for every third year. 82
+
+Harvesting
+
+Anciently, as it does today, harvest occurred late in the year, in September or October, when the fruit was not yet fully ripe, or even during the winter, when the high winter winds whip through the trees. 83 The olives would drip oil when they were ripe, 84 but the best oil was made from unripe olives—just as they began to turn black, a stage the Greeks called drypetides and the Romans called druppae. 85 When harvest came, it was important to get the olives harvested before the wind knocked the fruit off the trees and bruised it; no one wants mushy olives. 86 Therefore, preparations had to be done in advance of the harvest. 87 As olives grow on top and all sides of the tree, 88 they were best picked from ladders instead of by shaking the trees (which might bruise the fruit). If the tree had to be shaken, prudent cultivators were advised not to do so by beating the tree. Otherwise, they might have to call in a tree-doctor and lose the next year's crop as well. 89 Should the paterfamilias so desire, he could hire out his harvesting or sell the olives to anyone willing to harvest them. 90
+
+Pressing
+
+"The preparation of olive oil requires even more skill than that of wine," says Pliny. 91 Immediately after harvesting, the olives should be pressed; oil thus expeditiously produced is better and less likely to be rancid. 92 Numerous ancient devices for the production of olive oil have been found throughout the lands of the Bible. Essentially, there were two distinct processes. The first and simplest method was to tread the olives and then, when they were properly crushed, to place them into special baskets from which their oil could be drained into a basin. The top layer was then skimmed off. This was the Bible's "first oil" or "pounded oil," which was used for lighting lamps (Exodus 27:20), 93 anointing, 94 and offerings; 95 the process is recalled in the prophet Micah's warning to the wicked that "thou shalt sow, but thou shalt not reap; thou shalt tread the olives, but thou shalt not anoint thee with oil" (Micah 6:15, KJV). Another method, which has obviously left behind it more tangible archaeological remains, involved a huge stone wheel, which "pressed" the olives against a circular stone basin, the stone having been roughened and hardened on the surface. 96 The oil ran off through a groove in the basin and was then either allowed to sit so that the sediment would sink and the pure oil would rise to the top or was strained to separate the "pure" or "beaten" oil. With their tendency to value efficiency over elegance, the Romans preferred milling the olives to get their oil. 97
+
+A second stage in the general process returned the olive pulp to its vat where it was heated and again crushed, this time by a large beam anchored in a wall niche and weighted down with stones. (Our Latin manuals insist, however, that olive seeds should not be crushed, lest the oil have a bitter flavor.) 98 The Romans preferred a lead cauldron to a copper one, because a copper cauldron gave the oil a bitter taste. 99 (The lead cauldron only gave them lead poisoning—de gustibus non disputandum est.) Smoke will also impart a bad taste. 100 The amurca—or lees, the watery fluid that was pressed out of the olives along with the oil, which settled—was boiled down to two-thirds of its original volume and was then stored in jars or earthenware. 101 Amurca was used in moderate quantities as a fertilizer and herbicide—significantly, in larger quantities it functioned only as an herbicide and pesticide 102—and was also used to cure new jars. 103 The pressed oilves were used for fertilizer. 104 The watchman generally took charge of the olive pressing, although it could be hired out, as well. 105 (It was in the latter business that the great pre-Socratic philosopher Thales became the richest man in Greece.) 106
+
+A good tree could reasonably be expected to yield enough olives to produce ten to fifteen gallons of oil annually. (Rabbi Meir thought it impossible for an olive to be barren.) 107 In ancient Greece, wine production has been estimated to have averaged approximately 1140 liters or more per hectare, and olive oil at a tenth of that, or 114 liters per hectare. 108
+
+Storage
+
+The head of the household, our manuals advise, should have a well-built barn and plenty of vats to hold his oil and wine until prices are most favorable and he can make a killing in the market. 109 The storage cellar should be warm, flat, large enough to accommodate the harvest and located near the kitchen. 110 Of course, the would-be speculator must not wait too long, as olive oil does not age well and goes rancid after a year—ancient storage being what it was. Therefore it was to be liberally used. 111 He should also store all the olives he can, so he can issue them, sparingly, to his hands. 112 Olives of the orcite and posea variety were preserved either green or in brine—or in oil, if bruised. 113 Black orcite varieties could be salted and dried, or preserved in boiled must. 114 White and black olives were steeped in salt before storage. 115 Green olives, our advisors suggest, should be bruised and soaked in water several times and finally steeped in vinegar and salt. Of course, olives can be used in many recipes. 116 The green variety, for instance, should be served with a fennel, mastic, and vinegar dressing. 117
+
+Seasons of the Year
+
+An accomplished farmer, says Varro, can actually tell the seasons by watching olive leaves. 118 The method, according to Theophrastus, relied upon the fact that the leaves seemed to turn upside down after the summer solstice, leaving the lighter green side toward the sun. 119 And, indeed, olive culture, as described by our classical Latin authorities, followed strongly seasonal patterns. Spring was the time for pruning, planting, grafting, nourishing, and digging around the olives, as well as for gathering firewood. 120 During the summer, by contrast, when the olive flowers, the trees required little care or attention. 121 The pace picked up again in autumn, when trenches were dug around the trees and they were dunged. 122 Rain after the flowering season could be devastating for the fruit. 123 (The richness of the harvest could also be adversely affected by diseases, by rain or winds at the wrong times, and by worms.) 124 Classical olive lore held that the fruit grew in size, though not in oil content, after the rise of Arcturus in mid-September. 125 Winter, as mentioned, was and is the harvest season for olives, 126 as well as the time when the oil is pressed. 127
+
+Domestication of the Olive
+
+Interesting and tantalizing questions surround the domestication of the olive, questions that are beyond the scope of this paper. Three observations, however, are relevant here. First, archaeological evidence is sometimes adduced to support the claim that the earliest domesticated olives known to us—supposedly to be distinguished from their wild relatives by the generally somewhat larger size of their pits—have been found at Chalcolithic sites from the fourth millennium B.C., like the modern Teleilat Ghassul near the northern tip of the Dead Sea. However, since the size of the pits of the olive offers no decisive indication of domestication or lack thereof, 128 archaeological evidence cannot at the present time determine the date at which domestication of the olive first occurred. Therefore, all evidence on this question must be historical or philological. Second, although the earliest records of the olive from Mesopotamia (essentially, modern Iraq) date to Sargonic times (circa 2350 B.C.), they mention only the wood of the olive, and not the fruit. 129 This might be taken to imply that, at this period, the olive had not yet been domesticated. However, mention of dt-oil in the Pyramid Texts would seem to argue against such a conclusion, since the word dt can be plausibly linked with the West Semitic root for olives, zyt, mentioned previously. 130 Thus, dt-oil can be argued to be olive oil. 131 The early date of the Pyramid Texts, if our identification of dt-oil with olive oil is accepted, would seem to cast doubt on the notion that the olive had not yet been domesticated by 2334-2151 B.C., and would suggest that the fact that the first Mesopotamian references to the olive refer to its wood rather than to its fruit may derive simply from accidents of historical preservation. 132 We suggest it as likely, therefore, that olive cultivation was well established in the Near East by the Early Bronze Age (which is to say, in the third millennium B.C.). Although some have claimed priority for Greece and the Aegean islands as the location of earliest olive cultivation, these regions simply lack either the historical or philological evidence to establish this proposition, and, as the situation currently stands, the credit must go to the Near East. 133
+
+The Spread of the Olive
+
+Olive products were first imported into Mesopotamia during the Sargonic period (ca. 2350 B.C.). 134 As noted immediately above, Mesopotamian evidence indicates that the olive was first imported for its wood and only later for its fruit and oil. 135 Assurnasirpal (883-859 B.C.) and Sennacherib (704-681 B.C.) both attempted to cultivate olives in Assyria as part of the royal botanical gardens. 136 However, their attempts seem to have been unsuccessful, for, centuries later, Herodotus could report that olives had never grown in Mesopotamia. 137 (Sesame was the usual oil in Mesopotamia, occupying the place in culinary and other usage that was elsewhere largely reserved for olive oil.) 138 Nevertheless, it seems likely that the Hittites of Anatolia were introduced to olives by Mesopotamians, since Hittite texts (written in an Indo-European language but in a cuneiform script of Mesopotamian origin) use only a Mesopotamian (specifically a Semitic, Akkadian) term to describe the olive. 139 Mesopotamian olives, in turn, seem to have come from Murar and from Ugarit (modern Ras Shamra, on the Syrian coast), where they were everyday items of commodity exchange. 140
+
+Olive oil is first attested in Egypt—apart from the Old Kingdom reference discussed above—in the Second Intermediate Period, when the Hyksos imported it into Egypt along with their rule. 141 In general the Egyptians used Moringa oil, among others. 142 The olive itself first appeared in Egypt during the Amarna period (circa 1350 B.C.) and is attested in the area of Thebes (modern Luxor) during the Twentieth Dynasty, or the Rameside era. 143 At first, the olives were brought into Egypt from Syro-Palestine and later from Greece. 144 Olive oil seems generally to have been "imported from Crete, Palestine, and the Aegean." 145 Attempts were also made to plant olives in the Nile valley, but, as in the case of Mesopotamia, they never grew very well there—no matter how hard the Egyptians prayed—because there was simply not enough rainfall. 146 Rostovtzeff is quite correct when he points to the excellent climate of Egypt, to its steady water supply, its fertile and adaptable soil. "Egypt in the eyes of the rest of the ancient world," he says, "was an agricultural Eldorado, a gift bestowed by the bountiful Nile on its people." 147 But, while it was marvelously suited to cereals, vegetables, grass, and fruit trees, the Nile valley was never very successful at producing olives. (Nor were its vineyards of much note.) 148
+
+In the Hellenistic or Ptolemaic period, Greek settlers—often, in the earliest days, demobilized soldiers—brought with them their expertise in such arts as viticulture and olive growing and attempted to replicate along the Nile the life they had known in their native land. Landowners once again, they sought—apparently with the necessary approval of the government in the case of these particular crops—to produce the wine and olive oil, which they had come to value in their youth, and thus to eliminate the need of expensive imports. 149 Theophrastus reports that the olive did manage to grow in the area of Thebes, although the oil was of inferior quality. He does not, however, say that it grew very well. 150 And, in fact, domestic Egyptian production of olive oil seems never to have done away with the need for imports. Thus in Rostovtzeff's Social and Economic History of the Hellenistic World we read of one Apollonius, manager of affairs for one of the Ptolemaic kings, and of his regular shipments of Syrian incense, myrrh, wine, and olive oil. 151
+
+The olive appears to flourish best in the climate of Syro-Palestine, Greece, Italy, and Spain. We have already seen that both Egypt and Mesopotamia seem originally to have obtained their olives from the area of modern Syria, Lebanon, and Israel, and we now hazard the informed guess that Greece and Italy likewise owe their olive culture to that small area along the eastern coast of the Mediterranean. (Such diffusion of agricultural elements from the Syro-Palestine westward along the northern coast of the Mediterranean is not without parallel. In somewhat later times, we know, the chicken was introduced into the Greek landscape from the Near East.) 152 Indeed, if indications that wild olives grow only in northern Israel have any validity, we can infer with some confidence that the area of what would come to be known as the southern kingdom imported the tame olive from the area of the northern kingdom. The Mishnah states that the best olive trees for the making of oil are those of Tekoa (Teqoah), to the northwest of the Sea of Galilee, followed by those of Regeb (Reqeb). 153 Thus, from the meager historical evidence, it would seem that it was northern Syro-Palestine that was the olive's native home. 154 This may help to explain why Lehi, with his background in the northern kingdom, appears to have had access to a parable of olive growing and why our modern Bible, with its background in Judea, lacks the parable of Zenos. 155
+
+Though the earliest Greek records, the Minoan tablets in Linear B, mention olives, 156 Greek legends all point to an importation of the olive into Greece. However, the legends disagree as to the ultimate source of the olive tree, as well as on the question of the identity of the person who brought it into Greek-speaking territory and on the location that first enjoyed its benefits.
+
+In the third of his Olympian Odes, the great poet Pindar (died 438 B.C.) alludes to a story according to which the "olive-spray" was brought by Heracles "from Ister, from the shady springs, as the best memorial of the Olympic games, obtained by persuading the Hyperborean folk who serve Apollo." Heracles had been rather embarassed by the treelessness of Olympia, and, remembering an earlier adventure in the forests of Ister—in modern Rumania where the Danube River empties into the Black Sea and where a Greek colony was established sometime before 600 B.C.—had determined to go there and bring back some foliage. 157 Thus, this tale supports the general notion that the olive tree was an import into the Hellenic world. But, according to Theophrastus, the olives at Olympia from which the wreaths were made were wild, not tame. 158 Thus, it is not particularly surprising to learn that, even in Roman times, the tribes of Ister were coming to Aquileia, at the head of the Adriatic Sea, to trade slaves, cattle, and hides for, among other things, wine and olive oil. 159 Their olives, like those that Heracles is supposed to have taken from them and brought to Olympia, must have been wild.
+
+The Heraclean legend is not the only bit of Greek lore surrounding the entry of the olive into Hellenic territory. Most Greek sanctuaries, it will be recalled, were associated with sacred trees. In Athens, the holy tree was a sacred olive that grew on the Acropolis near the temple of Athena and was carefully tended in the sanctuary of the dew goddess, Pandrosos. 160 A famous Athenian legend recounts how the olive—the domesticated olive, not merely the wild olive—was a gift from the goddess Athena for the benefit of mankind. "When the gods in ancient times were quarrelling over the Attic land, Athena caused this tree to grow and thereby secured Athens for herself, while Poseidon, with the salt-water spring which he had struck from the rock, was obliged to stand down." 161 Therefore, the olive is sacred to Athena. 162 "Together with Zeus she watches over olive trees in general." 163 (To Minerva, the Roman syncretization of Athena, the olive was so sacred that goats were not sacrificed to her since it was believed that the goat's saliva sterilized the tree.) 164 Just as the olive wreath was bestowed upon the winners at the Olympic games—which brought amazed comments from barbarian onlookers, who could not comprehend a competition for something other than money and power—olive oil was the prize to the victors at Athena's festival, the Panathenaia. 165 All over Attica, moriae or sacred olive trees were assumed to be offshoots of the original tree planted by Athena on the Acropolis. Such trees, and even the stumps of such trees, were protected within fences and were regularly inspected by representatives of the ruling Athenian council—perhaps in the hope that they might revive in the same way that the olive tree in Athena's temple had returned to life after its burning by the Persian invader Xerxes. In earliest times, the penalty for removing a sacred olive tree or a sacred olive stump was death, but by the classical period the penalty had been reduced to mere exile and confiscation of property. 166
+
+Whether imported wild into Olympia by Heracles or tame into Athens by Athena, the Greeks considered the olive a gift from the gods—and one, interestingly enough, granted specifically for cultic functions. The earliest references to olives and olive oil in the Linear B tablets are for cultic purposes. 167 Eventually, the cultivation of the olive spread to Miletus, the important Greek settlement in Asia Minor, and to such islands of the Aegean and the Mediterranean as Samos, Lesbos (notably in Mytilene), Rhodes, and Crete. (In the case of the latter two islands, at least, it may first have been introduced by the Phoenicians. Again, we note the connection with Syro-Palestine.) 168
+
+The olive tree flourished with all this Greek attention. "There is not the slightest doubt," writes Rostovtzeff, "that even in the third century [B.C.] Greece was one of the best cultivated countries in the world. Her vineyards and olive-groves, her fruit-gardens and kitchen gardens were famous." 169 Ironically, if we are correct in seeing the east coast of the Mediterranean as the olive's original homeland, the Greek olive industry soon outpaced the Levantine cultivators to whom, indirectly, it owed its existence. Relatively early in Athenian history, probably by the seventh century B.C., the desire of the upper class for luxuries led to a lucrative export trade with the Levant in olive oil, wine, and other agricultural products. Leading Athenian farmers, organized into commodity markets and possibly even into agricultural cooperatives, specialized in olive trees and vines. Olive culture and vine culture seem already before the time of the great sage Solon, a contemporary of Lehi, to have expanded at the expense of grain cultivation in the vicinity of Athens. Both vines and olive trees are suitable, after all, for stony and less fertile soils, and, as is evident throughout this paper, they are often associated with one another. However, Attic wine has never been especially highly esteemed, and it was first and foremost the cultivation of the olive that gave Athenian agriculture its economic clout. "When we come to consider Athenian exports," writes R. J. Hopper, "among natural products the oil obtained from the olive berry naturally occurs first to mind, owing to the traditional association of the city of Athens with the olive tree and fruit, the gift of Athena." 170
+
+In the earliest days of their trade with Greece, Phoenician traders were content to accept slaves, hides, and cattle in exchange for their goods. It was not long, however, before Greece was able to add to these products of a relatively primitive economy excellent wine and olive oil. Such luxury goods—produced by Greek and, above all, by Athenian agriculture—played an important role in the life of the Syrian, Phoenician, and Palestinian cities. Greek wine- and oil-jars are often found in the tombs and the ruins of the Greek colonies in Syro-Palestine. And the consumption of wine and olive oil was not limited to the Greeks settled in these cities. Such jars have also been found in graves that apparently do not belong to Greek immigrants. "A no less important customer was Egypt," notes Rostovtzeff, "where indeed Greek wine and olive-oil were probably consumed in larger quantities than in Syria, Phoenicia, and Palestine." 171 (Rostovtzeff does not, however, seem to realize that the olive was native to Syro-Palestine and not to Egypt, and he therefore makes nothing of the distinction.)
+
+A similar situation existed in the cities of Pontus, a region of northern Asia Minor, whose dependence upon the Greek motherland for these products extended from at least the sixth and fifth centuries B.C. into the Hellenistic period. Greek wine and olive oil also went to Sicily, while the tribes of south and central Italy; the Etruscans; the Celts of northern Italy and of Gaul; the Iberians of Spain; the Illyrians and the Thracians of the Adriatic coast, of the Danubian regions, and of the northern part of the Balkan peninsula; the Scythians of the south Russian steppes; the Lycians, Lydians, Phrygians, Thracians, and other peoples of Asia Minor, Egypt, Cyprus, Syria, Phoenicia, Palestine, Arabia, Mesopotamia, and even Iran—all became customers of Greece and absorbed steadily increasing quantities not only of Greek wine and Greek oil, but also of Greek industrial products. The high point of this Greek commercial expansion was reached in the fifth century B.C., following the Persian wars and the creation of the Athenian empire. 172
+
+It is generally agreed that the olive was an import into Italy, where it arrived relatively early—apparently from Greece. 173 (A clue to this is the fact that the Etruscan word for "olive," eleivana, is borrowed from the Greek elaia, and that the name for the containing vessel was borrowed as well.) 174 Thus, if we are correct, the olive was merely continuing its westward migration from the Levant. Within Italy, its movement seems to have been from the south to the north, which is not surprising in view of the history of Greek colonization in the area. It seems likely that "at a very early date the Greek cities of Southern Italy and of Sicily took up the culture of the vine and olive on an extensive scale in competition with their motherlands and with the Punic cities of Africa." 175 (Those Punic African cities, it will be recalled, were Phoenician colonies, and their olive culture, in an example of westward migration along the southern coast of the Mediterranean, was directly linked to Syro-Palestine.) It was not until the consulship of Pompey, in the first century B.C., that the production of olive oil within Italy proper was sufficient for export. 176
+
+The rise of olive cultivation as a major factor in the Roman economy clearly had an effect on politics, as well. One example should serve to make this clear: Since business and war, economics and politics, can be closely connected, it should not surprise us that one of the principal targets of early Italian military raids was often the enemy's vineyards and olive groves. 177 Cato's famous dictum, ceterum censeo delendam esse Carthaginem, repeated at the end of every speech he gave in the Roman senate, may well have been uttered on behalf of a consortium of Italian landowners "endeavouring to get rid of a dangerous rival and to transform her territory from a land of gardens, vineyards, and olive-groves into one of vast cornfields." 178 Carthage, after all, had usually exchanged its wine and olive oil for Italian grain, and the ever-more-ambitious Romans and their allies seem to have felt that, since olives were more profitable than grain, they were getting the short end of the deal. 179 Italians had invested large amounts of land and money in the culture of olive and vine, and thus they willingly gave tacit support to Rome's ruthless policies against Carthage and against the spread of olive and vine culture to the western provinces. 180 It did not matter that the best olives came from Africa; 181 Roman olive growers and speculators, not surprisingly, were more interested in money. Even before the war, in Rome, you could buy anything in this world with olive oil. 182
+
+The war, however, proved a boon to cultivation of the olive in Italy. Areas west and north of the Roman heartland soon became lucrative markets for the Roman olive in the absence of any Carthaginian competition. Gaul, for instance, was a rich country, very eager to buy wine and olive oil, which "it [could] not produce in sufficient quantities." 183 Trade flourished. When Julius Caesar launched into his Gallic wars (58-51 B.C.), he could rely heavily on intelligence supplied by Roman merchants who had long preceded his army into that area of the world. 184
+
+The Roman civil wars following Julius Caesar's death did not alter the situation of Italian horticulture or olive culture to any great extent, at least not immediately. 185 Indeed, the disruptions that accompanied them may have hindered change. During the days of the early empire, olives were, with grapes, the principal crop of Italy, Greece, and Asia Minor and played the leading part in the economic life of these regions. It was these areas whose agricultural surplus provisioned the far-scattered Roman army. Greece and Asia Minor supplied the eastern provinces of Rome and the shores of the Black Sea—especially the northern shores, but also the ancient Ister on the west—with oil and wine. Italy itself was the chief source of supply for the Danubian provinces, as also for Germany, Britain, and Africa. Even Gaul and Spain continued to import these products from Italy, for a time. 186
+
+With the emigration of Italians to the western provinces under Augustus and his successors, however, viticulture was allowed to spread to Gaul. Olive culture spread to Africa and Spain, with many ambitious colonists drawn by the huge profits, there for the mere plucking, to enter into competition with the motherland. Italians moving into Histria (the Greeks' Ister) transformed "almost the whole of South Histria . . . into an olive plantation" modelled on Italian counterparts. 187 (And the olive oil from Histria could compete with the best from Italy.)
+
+188 Dalmatia picked up the olive only after Roman occupation, but soon modelled its plantations after their predecessors in Italy and Histria. 189 Africa, famous for its olives not so many years before, became so again: "The production of large quantities of olive-oil . . . gave the cities of Tripolitania their wealth and prosperity, and enabled them to pay heavy tribute in cash to Carthage, to give [Augustus] Caesar an enormous contribution of olive-oil (three million librae), and later to make a voluntary gift of oil to Septimius Severus [died A.D. 211]," from which he financed his sparsio. 190 It is surprising to realize that, in imperial Roman times, there were "olive-groves, extending for mile after mile over regions where in our own days a few sheep and camels live a half-starved life in the dry prairie." 191
+
+While what now seems like a natural growth of olive culture into the western provinces "had been stunted first by the selfish policy of the agrarian magnates of the second century B.C., and then by the civil wars of the first century," such obstacles had now vanished. 192 The resulting changes were swift in coming and, from the perspective of the old olive-growing areas, were serious and occasionally catastrophic.
+
+By the end of the first century A.D., Greece and Italy and even Asia Minor were dependent for grain on other countries that produced it in large quantities, as they could not. Greece and Asia Minor were fed by southern Russia, while the Italian peninsula looked anxiously to Sicily, Sardinia, Spain, Gaul, Africa, and Egypt for its support. The spread of the culture of vines and olive trees, both in the West and in the East, meant not only economic ruin for Italy (owing to a shortage of agricultural products for exchange), but could, in very rough times, result in a corn (grain) famine throughout the Empire, as indeed happened in A.D. 93. 193 Rome had claimed Egypt as a personal dominion of Caesar under Augustus, and thus had the bread basket of the empire to supply it, but Greece and Asia Minor, less fortunate, were obliged to tough it out with only the dwindling supplies from southern Russia. These were diminished still further by the imperial army's share, for the Roman government had prohibited "the export of corn [grain] from Egypt to other places than Rome save in exceptional cases." 194 "Thus over-production of wine and olive-oil both in the East and in the West meant a permanent crisis in the East." 195
+
+Obviously, "the Roman government could not afford to let the Eastern provinces starve." Hence, emperors took measures to encourage grain production and to limit that of wine and oil. But little is known about such measures. 196 As moralists would have seen it, the greed abounding in Roman society had infected its agricultural base. Therefore, to stop the profiteering that he believed was starving the empire, Domitian (died A.D. 96) ordered a halt to all new vineyards and the destruction of half of the existing ones. (The decree was rescinded before its full execution). But Roman policy was inconsistent. Hadrian (died A.D. 138), for example, encouraged the cultivation of olives in Spain, Dalmatia, and Africa by means of his Lex Manciana. 197 And, in fact, Spanish olive oil was both better and cheaper than Italian, and popular preference for it contributed greatly to the prosperity of southern and western Spain. 198
+
+In the meantime, the old native habitat of the olive had undergone serious changes. The massive destruction of the Judean population during the two Jewish wars left now "a motley population of Syrians and Arabs" among the ruins to cultivate "the olive-tree, the vine, and cereals." 199 Before that time these elements of traditional Syro-Palestinian agriculture had even grown on the Red Sea. 200 As after Alexander's wars some centuries earlier, a number of the veterans of these conflicts settled in Egypt, where they again tried to make the plots like home. 201 In the Fayyum, this meant olives, for "the soil [there] in most cases was not very suitable for corn [grain] but was excellent for vineyards or olive groves." 202 Thus "a large part of this land was cultivated as vineyards, gardens, and olive-groves." 203 The soldiers got a tax break, but the Emperors could not afford to diminish their tax levies from Egypt during times of famine; Rome, after all, got its daily bread from Egypt, and the imperial court was dependent upon Egypt for the bread (if not for the circuses) that helped maintain its popular support in the capital. Therefore, the taxes on the rest of the Egyptian population increased. Not surprisingly, the peasants and small landowners bolted, leaving more and more of the burden on fewer and fewer people. The government in its turn responded with policies tying the farmers to the land—policies that, when allowed to run their full course, would produce serfdom in the West and would help to produce an Islamic East, rebellious against Roman regulations (and those of the Byzantine successor-state). 204 In the short term, the policies produced new landowners, new vineyards, and new olive groves. But in the third century, Egypt became depopulated and the land went to waste: "Once flourishing vineyards and olive groves ran wild and could not easily be restored to their former fertility." 205
+
+Yet the story of the olive was by no means over. After the Roman empire imploded, the Arabs took the olive to Persia and eventually to China. 206
+
+Economics
+
+The attention the olive received from ancient governments, some of which we have already noted, clearly illustrates its perceived importance. The great Athenian sage Solon ranked the citizens of Athens according to their revenues in measures of grain, olive oil, and wine. There were pentekosiommedimnoi ("500-measure men"), hippeis, who had at least three hundred measures, and zeugitai with two hundred. 207 Among the regulations Solon issued were rules stipulating a minimum distance between plantings of olive trees. 208 In Hellenistic Egypt, the oil business was "minutely monitored in every aspect by government officials, as is shown by an extraordinarily detailed set of Revenue Laws promulgated under Ptolemy II Philadelphus." 209 Something of the effect of these laws is shown in the preserved correspondence of two officials discussing a woman accused of smuggling oil. 210 This was a crime unwittingly encouraged by the high tax on olive oil. 211 The Roman emperor Hadrian regulated olive cultivation and the distribution of olive products in detail and issued an enactment in the early second century A.D. directing olive cultivators, dealers, and exporters to keep careful records of production and trade so that a one-third (or sometimes one-eighth) share could be made over to state oil buyers. 212 Subsequently, due to a revolt in Egypt, the emperor Diocletian cracked down with "a coercive, omnipresent, all-powerful organization"; after A.D. 297, all olive trees had to be registered with the government. 213 The tax on olive oil was still in place in the seventh century, when Egypt was under Byzantine rule—but just prior to the Arab conquest. 214
+
+"Oil-bearing plants" were an important factor in the prosperity—or lack thereof—of cities in the classical Mediterranean world. Indeed, there is a close correspondence between the area of the Mediterranean region where olives could be grown and the area of urbanization. 215 But such olive-induced prosperity could, in the eyes of prophets and moralists, become a serious temptation (Amos 6:6). Its sheer luxuriousness could lead its addicts into a life of neglect toward God and practical duties. "He that loveth pleasure shall be a poor man," say the Proverbs. "He that loveth wine and oil shall not be rich" (Proverbs 21:17). Thus the Psalmist compares the beguiling words of an enemy to the softness of oil; a seductive woman's mouth is smoother than oil (Psalms 55:21; Proverbs 5:3). Olive oil is one of the products listed by John the Revelator among the riches of Babylon (Revelation 18:12-13). 216
+
+By and large, though, olive culture was an innocent and useful way to earn a living. Thales of Miletus, the great pre-Socratic philosopher, is a well-known example. Like his friend Solon, he was one of the seven famous Greek sages and roughly a contemporary of Lehi. But his affinity with Lehi may go even further than mere chronological proximity. Thales may have been of Semitic background himself; certainly his cosmology has Egyptian and Semitic affinities. Herodotus identifies him as being of "Phoenician stock," which, if true, means that his ancestors came from the area of Tyre and Sidon in modern-day Lebanon. Which is to say that they came from precisely the area that we have already identified as the likely homeland of the olive and, thus, from within a relatively short distance of Lehi's ancestors. 217 Thales had taken a great deal of ribbing for his otherworldliness—notoriously, he had fallen into a pit while contemplating the sky—and his poverty, according to his critics, showed the futility of the philosophy and science to which he was devoted. So he set out to demonstrate that, if he put his mind to getting rich, he could easily do so. Foreseeing by his astronomical skills, while it was yet winter (thus almost a year in advance), that a good year for olives was in the offing, he rented all of the olive mills [elaiourgeia] in Chios and Miletus. Then, when a bumper olive crop created a huge demand for the services of olive mills, Thales the philosopher-monopolist made a fortune. 218 And he was not the only philosopher who is said to have dabbled in the olive business: Plutarch says that the illustrious Plato himself (died 347 B.C.) defrayed his travel expenses by selling oil in Egypt. 219 For all this, however, olive trees themselves played perhaps a less important role in trade than we might expect, precisely because everybody grew them. 220 (It was for this reason, perhaps, that Solon of Athens banned the export of every fruit from Attica except olive oil. The land, Plutarch relates, was simply too poor to afford a surplus of anything besides olives.) 221
+
+Nonetheless, olives and their products continued to be important items of trade. Olive oil was a major part of the annual payment sent by Solomon to Hiram of Tyre at the time he was building his temple (1 Kings 5:11). Later, during the building of the Second Temple, the Jews sent oil to the Sidonians and the Tyrians in exchange for cedar, just as Solomon had done (Ezra 3:7; cf. Ezekiel 27:17). But the fruit of the olive tree was commercially important domestically in Palestine, as well as internationally. The prophet Elisha, for instance, advised a certain widow to sell oil and, thereby, pay off her debts (2 Kings 4:7). And the foolish virgins, lacking oil, were told to replenish their supplies from a dealer (Matthew 25:8-9). The Jews of the first century A.D. were fastidious about the purity of their olive oil, so much so that when the Jews in Caesarea Philippi were locked away, John of Gischala sought permission to sell them pure olive oil so that they might not have to purchase impure oil from the Greeks, though he did this, Josephus says, "Not out of piety but through blatant greed," since he sold it to them at a nine hundred percent profit. 222 This same greed is evident in Jewish legal interpretations that exempt them from leaving olives for the poor, while they keep the best olive oil for themselves, being forbidden to export it (Leviticus 19:9-10; Deuteronomy 24:19-22). 223
+
+In transport, olives were carried in jars (Egyptian mn, ds, or gaja, Greek bikoi or moia), the object being to "try to bring them as unbruised as possible," as one third-century B.C. Hellenistic Egyptian letter from a certain Leodamus admonishes its recipient, Laomedon. 224 Athenian traders in the classical and Hellenistic periods used large pots or plain clay jars (amphorae) for the conveyance of liquids such as wine and olive oil. 225
+
+Uses of the Olive
+
+"As today in Mediterranean regions," writes archaeologist Suzanne Richard, "the olive in antiquity was the fruit par excellence; either the fresh fruit or its oil found a place at every meal." 226 To the ancient Hebrews, olive oil was one of the necessities of life. 227 Thus, when drought and famine had left the widow of Zarephath with virtually nothing else to eat, she still had "an handful of meal in a barrel, and a little oil in a cruse" (1 Kings 17:12, KJV). 228 It was one of the provisions generally laid up in royal storehouses—along with grain and wine—against times of difficulty (2 Kings 20:13, KJV "ointment"; 2 Chronicles 11:11; 32:28; Isaiah 39:2). "There was hardly a phase of life not touched by the olive tree," Richard continues. 229 Cambridge ancient historian M. I. Finley agrees: "The ubiquitious olive—the chief source of edible fat, of the best soap and of fuel for illumination—is an essential clue to the Mediterranean life-style." 230
+
+Furthermore, because of the olive's role as a staple of Near Eastern diet, its omnipresence in the biblical landscape (where it clings even to rocky hillsides that defeat many other plants), its long life and consequent venerability, Richard observes, "It is no wonder it assumed an almost mythical character." 231 M. I. Finley, for instance, notes of the olive tree that, since it does not bear for the first decade or more of its life, it was in antiquity "a symbol of sedentary existence"—again, its link to urbanization—and "its longevity was celebrated." 232 And this image itself endured well beyond classical times. Edward William Lane cites the Arab grammarian and philologist al-Asma'i (died A.D. 831) to the effect that a single olive tree can live as long as thirty thousand years. 233 Other classical Islamic scholars knew the olive as "the first tree that grew in the world, and the first tree that grew after the flood." 234 In the biblical parable told by Jotham, when the trees seek to anoint a king from among themselves, it is the olive to whom they first offer the monarchy (Judges 9:8).
+
+The importance of the olive tree, or zaytun, in the Islamic Near East is apparent from the number of words connected with it and preserved in dictionaries of the classical Arabic language. Edward William Lane's Lexicon, for instance, knows such verbs—all manifestly related to the noun zaytun—as zata ("to anoint someone"), zayyata ("to furnish someone with olive oil"), azata ("to have much olive oil"), izdata ("to anoint oneself with olive oil"), and istazata ("to seek or demand olive oil"). Separate words exist in classical Arabic for those who sell or press olive oil (zayyat), for people who anoint themselves with it (muzdat), and for food that has been prepared using it (mazit and mazyut). 235 The word zayt itself, which originally meant "olive oil" specifically, has now come to signify any kind of oil at all, and, as we have previously noted, has in fact become the most common single term for petroleum—a vitally important liquid of the contemporary Middle East. 236
+
+From earliest times—as in the case of the "freshly-picked olive leaf" brought by Noah's returning dove—the olive was a symbol of divinely bestowed peace and bounty (Genesis 8:11, NJB). Thus, the eiresione, a branch of olive or laurel bound with ribbon and hung with various fruits at harvest festival time in ancient Greece, was clearly connected with the notion of agricultural prosperity. 237 Thus, too, when the Persians burned down the temple of Athena in 480, the people of Athens nonetheless rejoiced to see the sacred olive tree burst into foliage. This demonstrated to them the continuing life of their beloved city. 238
+
+In the biblical world, the olive tree and its fruit were important elements of the promises given to ancient Israel (for example, see Deuteronomy 7:13; 8:8). Accordingly, in the blessing given by Moses to the children of Asher, the prophet asked God to grant certain things to that tribe. "Let him dip his foot in oil," Moses prayed (Deuteronomy 33:24, KJV). Agricultural and human prosperity was a gift in the power of God to give or to withhold:
+
+Your own labours will yield you a living, happy and prosperous will you be. Your wife a fruitful vine in the inner places of your house. Your children round your table like shoots of an olive tree. (Psalms 128:2-3, NJB.)
+
+But when Israel failed to recognize the hand of God in granting these gifts, among which olive oil was an important item, Israel sinned and was condemned—and the blessings were withdrawn (Hosea 2:8; Deuteronomy 28:51; Joel 1:10; Haggai 1:11). This was what made the suffering of Job so bitter: He had not sinned, but he was nonetheless deprived of the blessings that his righteousness should have brought. He longed for the days "when the Almighty was yet with me, when my children were about me: When I washed my steps with butter, and the rock poured me out rivers of oil" (Job 29:5-6). But Job's was an anomalous situation, and the general biblical rule was that righteousness brings a plentiful harvest. Abundant stores of olive oil will be one of the glorious marks of the last days (Jeremiah 31:12; Joel 2:19, 24). Indeed, according to the shorter recension of the Slavonic 2 Enoch, an olive tree stands in Paradise next to the tree of life itself, "flowing with oil continually." 239
+
+In the Qur'an, too, the olive is among the illustrations of God's generosity to mankind. "He it is who sends down water from heaven," says the Muslim holy book, which then quotes God as speaking of himself in the first person:
+
+And with it we bring forth plants of every kind. We bring forth from it green herbs, from which we cause heaped-up grains to spring forth. And from the palm tree, from its flower-sheathe, we call forth hanging clusters of dates. And [we cause to spring forth] gardens of grapes and olive trees [zaytun] and pomegranates. . . . Look upon their fruit, when they bear fruit, and upon their ripening. Truly, in them there is a sign to people who have faith. 240
+
+At one point, in one of Muhammad's early revelations, the olive even figures as an element in a divine oath. "By the fig tree and the olive tree [zaytun]," begins the ninety-fifth chapter of the Qur'an. "By Mount Sinai and this secure land!" 241
+
+Although its native aesthetic endowment is rather limited, the rich and manifold utility of the olive tree gave it a unique beauty in the eyes of pre-modern Mediterranean peoples. Its wood was among the fine materials used to ornament the temple of Solomon (1 Kings 6:23, 31-33). To those who had turned from the paths of righteousness, Jeremiah recalled nostalgically that " 'Green olive-tree covered in fine fruit,' was Yahweh's name for you" (Jeremiah 11:16). And Hosea's prophecy of the blessings to be poured out upon repentant Israel once again used the olive tree as a symbol of beauty:
+
+I shall fall like dew on Israel, he will bloom like the lily and thrust out roots like the cedar of Lebanon; he will put out new shoots, he will have the beauty of the olive tree and the fragrance of Lebanon. (Hosea 14:6-7)
+
+Food
+
+Ancient Egyptians consumed olives, but, though they do occur in the later Jewish text known as the Mishnah, there are strangely few references to the use of olives or olive oil as a food in the Bible. 242 Still, it can be safely assumed, by analogy to modern practices, that such use was not uncommon. Furthermore, the manna cakes made by the Israelites during their Exodus are said to have tasted like "fresh oil" (Numbers 11:8). In the apocrypha, Judith, en route to the camp of Holofernes, carried a flask of oil among her provisions. 243 Yigael Yadin thinks that the olive pits found in the so-called "Cave of Letters" in the Nahal Hever were the remains of a meal, as they were found with dates, pomegranates, and nuts. 244 In the rabbinic period, Jews used olive oil in the preparation of figs. 245 The ancient Greek diet included only small amounts of meat (consumed mainly at the barbecues that accompanied public sacrifices), but relied heavily for its protein content on cheese and on legumes, accompanied by certain other vegetables, by fruits such as figs and grapes, and by wine and olive oil. 246
+
+Religious Ritual
+
+Olive oil is referred to in the Hebrew Bible as "the oil of gladness" (Psalms 45:7; Isaiah 61:3; cf. Proverbs 27:9). Well-kept Hebrews, says the book of Ecclesiastes, should always have it on their heads (Ecclesiastes 9:8; cf. Psalm 23:5), 247 for oil, say the Psalms, makes the face "shine" (Psalms 104:15). 248 Indeed, anointing oneself is a good practice even during a fast, according to the Sermon on the Mount (Matthew 6:17). It is especially appropriate after a bath and is thus often associated with acts of washing and clothing (2 Samuel 12:20; Ruth 3:3). 249 So, too, a guest is highly honored when his host anoints him before a feast (Psalms 23:5; Luke 7:36-50; esp. 7:46). Of course, only olive oil may be used for anointing; other liquids, such as wine or vinegar, are inappropriate for such use. 250 In Homeric Greece, as well, newly arrived guests at the house of a great king or lord are washed, anointed with olive oil, and clothed before they sit down to the banquet table. 251 In pharaonic Egypt and among the biblical Hebrews, this olive oil was often perfumed (Ruth 3:3). 252 The Romans thought olives warmed the body and protected it against the cold. 253
+
+Such apparently secular uses shade easily into purely religious ones. As the biblical parable of Jotham puts it, both God and man are honored by means of the olive (Judges 9:9). Its oil played a role in ritual sacrifice under the Mosaic law (see, for example, Exodus 30:22-33), as did olives themselves. 254 "Cakes" made with oil were offered to God as part of Mosaic ritual, as were lambs prepared with flour and oil and accompanied by a drink offering of wine (Leviticus 2:4; Exodus 29:38-41; Numbers 28:3-29:11). (Indeed, the descriptions of these offerings lead one to suspect that they parallel actual cooking recipes of the day.) Both the ancient Hebrew patriarchs and the ancient Greeks ritually poured olive oil over certain stones (cf. Genesis 28:18; 35:14). 255 It was used in the ordination of priests and to anoint kings, possibly dedicating them to the Lord just as warriors' shields may have been dedicated (Exodus 30:22-33; Leviticus 8:10-12, 30; 1 Samuel 10:1; 16:1, 13; 1 Kings 5:1; 2 Kings 9:1-3, 6; 11:12; Isaiah 21:5; 2 Samuel 1:21). 256 (Other vessels and utensils were also anointed, as was wool.) 257 It is, thus, the olive that gives us the title of "Anointed One" (Greek Christos; Hebrew Messiah), so important in subsequent Jewish and Christian thought (cf. Isaiah 61:1). 258
+
+Lamps
+
+Olive oil as a substance used in lamps is attested in ancient Egypt, where it was mixed with salt. 259 (Supposedly, salt prevents the oil from thickening.) 260 Among the Hebrews of the Exodus, an eternal flame, presumably an olive oil lamp, was commanded to burn always in the sanctuary (Exodus 27:20; Leviticus 24:2). It is also well known in New Testament times. 261 One of the many things we can learn from the parable of the wise and foolish virgins is that, since the typical ancient lamp was rather small, prudent people should keep an adequate supply of oil on hand (Matthew 25:1-13). Olive oil continued to serve this function prominently in the Near East for many centuries, as is apparent not only in the famous medieval tale of Aladdin but in the much-beloved "Light Verse" of the Qur'an, which seems to recall the lamps of a Syrian Christian monastery:
+
+God is the light of the heavens and the earth. The similitude of his light is as a niche, wherein is a lamp. The lamp is in a glass, and the glass is, as it were, a shining star. [It is] kindled from a blessed tree, an olive tree [zaytuna] of neither east nor west. Its oil [zayt] would almost glow forth even if no fire touched it. Light upon light. God guides to his light whomever he wishes. God strikes parables for the people, and God knows all things. [This lamp is found] in houses which God has allowed to be raised up so that his name may be remembered. Therein praise him, morning and evening, men whom neither commerce nor sale distracts from the remembrance of God, and from prayer, and from giving alms. 262
+
+More than one commentator, addressing this verse, could relate that the olive tree had been blessed by seventy different individuals among the Lord's prophets, among them Abraham and Muhammad. 263 Al-Zamakhshari explains that the olive tree is called "blessed" (mubaraka) because of its "manifold uses" (kathirat al-manafic). 264 Interestingly, al-Zamakhshari says that the claim that the olive tree referred to in the "Light Verse" is "of neither east nor west" means that it comes from Syria (al-Sham), by which he meant the modern area comprising Syria, Jordan, Lebanon, and Palestine. Further, he reports that the best olive trees are those of that region, and that their oil is the clearest and the purest. 265 Another medieval commentator, al-Qurtubi, thought that the tree's blessedness consisted in its remarkable ability to grow: "The olive is among the greatest of fruits in terms of growth." Its branches, he marvelled, burst into leaf from their tops to their bottoms. But al-Qurtubi, too, was impressed by the multiple uses to which the olive tree and its products could be put. Not only is it used to light lamps, but it is the fatty substance (idam) used to moisten bread. It is used as an ointment (dihan) and in the tanner's trade (dibagh). Indeed, says al-Qurtubi, there is not a part of the olive in which there is not some use. 266
+
+Medicinal Usages
+
+Olive oil was used for medicinal purposes in biblical Israel. 267 It was thought to soften wounds, for instance, and was apparently imagined actually to soak deep into the bones when externally applied (Isaiah 1:6; Ezekiel 16:9; Luke 10:34; Psalms 109:18). Such use continued into post-biblical Judaism. 268 And the rabbis also noted that olive oil could be used as a lubricant on a weaver's fingers. 269 In New Testament times, as is well known, olive oil was used in the ritual anointing of the sick (Mark 6:13; James 5:14). Such applications of the olive to medicine were, of course, far from confined to the Judeo-Christian tradition. Sir James Frazer argued that the story of Leto—which in some versions has her clasping an olive tree as she is about to give birth to the divine twins Apollo and Artemis—points to an ancient Greek belief that certain trees ease the pain of childbearing. 270 The Romans thought it lowered fevers when applied to the head. 271 The twelfth-century Qur'an commentator al-Zamakhshari relates a tradition according to which the Prophet Muhammad described olive oil as a cure for hemorrhoids (basur). 272
+
+Given what we have already seen of the centrality of the olive in Mediterranean economics, cuisine, and ritual, such medicinal use should, perhaps, not surprise us. Yet, with the passage of time, it took on an additional, theological, dimension that is worth mentioning. Mircea Eliade has shown how the cross of the crucifixion was assimilated, by many ancient and medieval Christian thinkers, to the tree of good and evil from the garden of Eden. The cross was, indeed, believed to have been made from the wood of that tree, or from the tree of life, and thus became "the source of the sacraments (symbolized by olive oil, wheat, the grape) and of medicinal herbs." 273
+
+Fruits of Research
+
+Though we have been concerned in this essay with the economic history and historical background of the olive in the pre-modern Mediterranean, a brief note of apologia is perhaps not inappropriate here. Jacob 5 provides a classic example of Blass's Ãœbereinstimmen in Kleinen (verification in minutia). 274 It purports to be the work of an ancient northern Israelite author, living between 900-700 B.C., about olive growing. 275 Almost every detail it supplies about olive culture can be confirmed in four classical authors whose authority on the subject can be traced back to Syro-Palestine. 276 Zenos's parable fits into the pattern of ancient olive cultivation remarkably well. The placing of the villa above the vineyards 277 means that, when the master gives instructions to his servants, they have to "go down" into the vineyard (Jacob 5:15, 29, 38). It was also customary for the master of the vineyard to have several servants (cf. Jacob 5:7, 10-11, 15-16, 20-21, 25-30, 33-35, 38, 41, 48-50, 57, 61-62, 70-72, 75). 278 When only one servant is mentioned in Zenos's parable, the reference is most likely to the chief steward. Likewise, Zenos's mention of planting (Jacob 5:23-25, 52, 54), pruning (Jacob 5:11, 47, 76; 6:2), grafting (Jacob 5:8, 9-10, 17-18, 30, 34, 52, 54-57, 60, 63-65, 67-68), digging (Jacob 5:4, 27, 63-64), nourishing (Jacob 5:4, 12, 27, 28, 58, 71; 6:2), and dunging (Jacob 5:47, 64, 76), as well as the fact that dunging occurs less frequently in the parable than the nourishing, all mark it as an authentic ancient work. The unexpected change of wild olive branches to tame ones (Jacob 5:17-18) would have seemed a divine portent to our ancient authorities. 279
+
+Even more striking, for Joseph Smith to have made up the parable from these classical authors, he would have had to read all four: Theophrastus is the only one to discuss the differences between wild and tame olives, the tendency for wild olives to predominate, and prophetic use of the olive tree as a sign. 280 Varro and Columella are the only ones to acknowledge the Phoenician connections. Cato and Varro are the only ones who discuss the servants' roles. Cato and Columella alone note the placement of the villa above the groves; Varro is the only author to discuss the "main top" in association with the "young and tender branches" (cf. Jacob 5:6). Yet Joseph Smith probably did not have access to these works. 281 And even if he had, he could not read Latin and Greek in 1829. 282 Theophrastus's Historia Plantarum was first published in English in 1916, 283 and no part of his De Causis Plantarum was available in English until 1927. 284 While English translations of Cato, Varro, and Columella were available to the British in 1803, 1800, and 1745 respectively, 285 it is hardly likely that they were widely circulated in rural New York and Pennsylvania. Joseph Smith could have known nothing about olives from personal experience, as they do not grow in Vermont and New York. Can it reasonably be supposed that Joseph simply guessed right on so many details? And even if he somehow managed to get the details from classical authors, how did he know to put it into the proper Hebrew narrative form? 286
+
+Even if Joseph Smith had somehow gathered the details of ancient olive culture from someone who knew it intimately, he would still have had no plot. 287 Just as there is a vast difference between government technical manuals and a Tom Clancy novel, there is a world of difference between the arid classical agricultural manuals and Zenos's parable. Zenos was not just another olive farmer; he had a tale to tell. Far from a yokel farmer spinning another yarn, Zenos was "a prophet of the Lord" (Jacob 5:2) speaking in the name of the Lord (Jacob 5:3). Parable is the medium and olive culture is merely the particular idiom. A knowledge of the idiom enhances understanding and appreciation of the nuances of the message, but it is not itself the message. As much as a knowledge of ancient olive culture aids in understanding Zenos's parable, ancient olive culture is not the message of the parable. The message is immensely important and "speaketh of things as they really are, and of things as they really will be" (Jacob 4:13); it is not left in the realms of subjective judgment.
+
+While we will leave exegesis to others, we cannot help but notice peculiar details in the story. Particularly noteworthy is the fact that the earliest uses of the olive were generally sacral. Later, when its use was profaned, famines and wars soon followed. Like wickedness, the wild olive is more persistent and long-lived than its tame counterpart. But its fruit is worthless and undesirable. Holiness takes cultivated effort.

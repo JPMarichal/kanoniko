@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pearl-of-great-price",
+    "abraham",
+    "temple",
+    "farms",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Articulo corto (~59 KB) de Nibley sobre el drama del templo y Abraham."
+}

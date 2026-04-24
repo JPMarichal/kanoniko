@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "jacob-5",
+    "allegory",
+    "olive-tree",
+    "farms",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "John W. Welch & Stephen D. Ricks",
+  "source_url": null,
+  "note": "1994 FARMS / Deseret Book. Multi-author volume edited by Welch and Ricks examining Jacob 5 (the allegory of the olive tree) in Biblical and ancient contexts."
+}

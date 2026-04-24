@@ -1,0 +1,21 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "atonement",
+    "christology",
+    "first-presidency",
+    "counselor",
+    "deseret-book",
+    "posthumous"
+  ],
+  "category": "books",
+  "author": "J. Reuben Clark, Jr.",
+  "source_url": null,
+  "note": "1962 Deseret Book. J. Reuben Clark Jr.'s magnum opus on the Atonement. Clark was First Counselor to Heber J. Grant, George Albert Smith, and David O. McKay (1933-1961). Written in his final years (he died 1961, published posthumously 1962)."
+}

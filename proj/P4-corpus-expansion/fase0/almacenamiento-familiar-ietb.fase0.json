@@ -1,0 +1,21 @@
+{
+  "authority": 35,
+  "rigor": 60,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "adult",
+  "tags": [
+    "self-reliance",
+    "welfare",
+    "food-storage",
+    "family-preparedness",
+    "ietb",
+    "byu-institute"
+  ],
+  "category": "manuals",
+  "author": "Instituto Ezra Taft Benson",
+  "source_url": null,
+  "note": "Folleto del Instituto Ezra Taft Benson (BYU) sobre almacenamiento familiar — principios y practica de autosuficiencia material en linea con la ensenanza SUD sobre preparacion. ~40 KB texto; epub heavy en imagenes/diagramas. Publicacion: bibliotecasud.blogspot.com (scrape audited)."
+}

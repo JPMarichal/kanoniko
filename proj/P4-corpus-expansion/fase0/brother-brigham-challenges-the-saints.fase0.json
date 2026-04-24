@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "brigham-young",
+    "pioneer-era",
+    "farms",
+    "byu-scholarship",
+    "compilation"
+  ],
+  "category": "books",
+  "author": "Shirley S. Ricks & Hugh Nibley",
+  "source_url": null,
+  "note": "1994 Deseret Book / FARMS. Compilacion editada por Shirley S. Ricks de material de Nibley sobre Brigham Young. Coautoria Ricks+Nibley."
+}

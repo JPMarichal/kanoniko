@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "early-christianity",
+    "apostasy",
+    "authority",
+    "farms",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Traduccion ES de Nibley sobre autoridad apostolica en la Iglesia primitiva cristiana. Comparacion con modelo SUD de restauracion."
+}

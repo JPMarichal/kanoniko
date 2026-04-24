@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "geography",
+    "mesoamerica",
+    "limited-geography-theory",
+    "farms",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "John L. Sorenson",
+  "source_url": null,
+  "note": "1985 Deseret Book / FARMS. Sorenson's landmark geographic-cultural argument that BoM events happened in Mesoamerica. Most-cited single-volume argument for limited-geography model."
+}

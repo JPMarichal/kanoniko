@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "ancient-near-east",
+    "farms",
+    "byu-scholarship",
+    "classic-nibley"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "1957/1964 Deseret Book. Classic Nibley introduction to Book of Mormon historicity and ancient-Near-Eastern parallels. 45 chapters."
+}

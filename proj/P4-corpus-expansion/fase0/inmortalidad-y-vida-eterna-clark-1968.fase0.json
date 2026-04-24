@@ -1,0 +1,21 @@
+{
+  "authority": 60,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "adult",
+  "tags": [
+    "first-presidency",
+    "counselor",
+    "priesthood-curriculum",
+    "correlated",
+    "historical-manual",
+    "spanish-translation"
+  ],
+  "category": "manuals",
+  "author": "J. Reuben Clark, Jr.",
+  "source_url": null,
+  "note": "Manual ES del Sacerdocio de Melquisedec 1968-1969 compilado de los escritos y mensajes del presidente J. Reuben Clark Jr. Material de curriculo oficial de la Iglesia."
+}

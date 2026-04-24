@@ -1,0 +1,23 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "lehi",
+    "jaredites",
+    "ancient-near-east",
+    "farms",
+    "byu-scholarship",
+    "spanish-translation",
+    "classic-nibley"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Traduccion ES de 'Lehi in the Desert and the World of the Jaredites' (1952) — obra fundacional de Nibley sobre paralelos entre Lehi/jareditas y antiguo Oriente Proximo."
+}
