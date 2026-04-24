@@ -1,0 +1,22 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "pneumatology",
+    "cappadocian",
+    "trinity",
+    "primary-source",
+    "nicene"
+  ],
+  "category": "reference",
+  "author": "Basil the Great",
+  "source_url": null,
+  "note": "Basil of Caesarea (c. 330-379), Cappadocian Father. De Spiritu Sancto, c. 375. Foundational on the Holy Spirit."
+}

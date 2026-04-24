@@ -1,0 +1,22 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "apostolic-fathers",
+    "martyr",
+    "episcopacy",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Ignatius of Antioch",
+  "source_url": null,
+  "note": "Ignatius of Antioch (c. 35-108). Seven epistles written en route to martyrdom, c. 107-108."
+}

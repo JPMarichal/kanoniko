@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "5th-century",
+    "anti-pelagian",
+    "primary-source",
+    "nicene-post-nicene"
+  ],
+  "category": "reference",
+  "author": "Jerome",
+  "source_url": null,
+  "note": "Jerome (c. 347-420), Vulgate translator. Dialogus adversus Pelagianos, c. 415."
+}

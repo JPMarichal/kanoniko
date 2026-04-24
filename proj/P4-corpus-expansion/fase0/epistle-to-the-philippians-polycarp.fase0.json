@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "apostolic-fathers",
+    "martyr",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Polycarp of Smyrna",
+  "source_url": null,
+  "note": "Polycarp (c. 69-155), disciple of John. Epistle to the Philippians, c. 110-140."
+}

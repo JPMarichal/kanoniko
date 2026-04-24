@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "orthodox",
+    "pauline-studies",
+    "modern-commentary",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Alexander Mileant",
+  "source_url": null,
+  "note": "Bp. Alexander Mileant (1938-2005), Russian Orthodox. Study guide on Pauline epistles."
+}

@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "apologetics",
+    "apostolic-fathers",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Mathetes (anonymous)",
+  "source_url": null,
+  "note": "Epistle to Diognetus (c. 130-200). Early Christian apology, anonymous."
+}

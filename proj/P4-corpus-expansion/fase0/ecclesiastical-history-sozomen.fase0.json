@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "5th-century",
+    "church-history",
+    "post-nicene",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Sozomen",
+  "source_url": null,
+  "note": "Sozomen (c. 400-450). Historia Ecclesiastica c. 443. Parallel to Socrates Scholasticus."
+}

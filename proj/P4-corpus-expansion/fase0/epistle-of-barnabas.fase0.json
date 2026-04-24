@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "apostolic-fathers",
+    "typology",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Pseudo-Barnabas",
+  "source_url": null,
+  "note": "Epistle of Barnabas (c. 70-132), anonymous. Counted among Apostolic Fathers."
+}

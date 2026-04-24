@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "8th-century",
+    "hagiography",
+    "christian-novel",
+    "buddhist-christian"
+  ],
+  "category": "reference",
+  "author": "John Damascene (attrib.)",
+  "source_url": null,
+  "note": "Attributed to John Damascene (c. 675-749). Christianized version of Buddha legend."
+}

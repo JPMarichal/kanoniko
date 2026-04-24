@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "1st-century",
+    "apostolic-fathers",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Clement of Rome",
+  "source_url": null,
+  "note": "1 Clement (c. 95-96). Author is Clement of Rome (OPF attribution to 'Clemente de Alejandr\u00eda' is an error)."
+}

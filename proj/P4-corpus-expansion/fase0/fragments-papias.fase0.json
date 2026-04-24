@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "apostolic-fathers",
+    "gospel-origins",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Papias of Hierapolis",
+  "source_url": null,
+  "note": "Papias of Hierapolis (c. 60-130), hearer of John. Fragments preserved by Eusebius and Irenaeus."
+}

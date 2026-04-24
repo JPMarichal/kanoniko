@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "church-history",
+    "jewish-christian",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Hegesippus",
+  "source_url": null,
+  "note": "Hegesippus (c. 110-180), Jewish-Christian historian. Fragments on apostolic succession."
+}

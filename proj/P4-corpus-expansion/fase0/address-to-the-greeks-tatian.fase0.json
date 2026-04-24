@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "2nd-century",
+    "apologetics",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Tatian the Assyrian",
+  "source_url": null,
+  "note": "Tatian (c. 120-180), Syrian Christian apologist. Oratio ad Graecos, c. 165-175."
+}

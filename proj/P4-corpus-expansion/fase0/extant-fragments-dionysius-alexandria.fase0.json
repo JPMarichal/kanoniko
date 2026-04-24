@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "3rd-century",
+    "fragments",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Dionysius of Alexandria",
+  "source_url": null,
+  "note": "Dionysius of Alexandria (d. 265), disciple of Origen. Extant fragments."
+}

@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "3rd-century",
+    "anti-marcion",
+    "latin-fathers",
+    "primary-source",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Tertullian",
+  "source_url": null,
+  "note": "Tertullian (c. 155-220). Adversus Marcionem, c. 207-212. Key refutation of Marcion's heresy."
+}

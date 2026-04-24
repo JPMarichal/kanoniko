@@ -1,0 +1,22 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "catechesis",
+    "baptism",
+    "eucharist",
+    "primary-source",
+    "nicene"
+  ],
+  "category": "reference",
+  "author": "Cyril of Jerusalem",
+  "source_url": null,
+  "note": "Cyril of Jerusalem (c. 313-386). Catecheses, c. 350. Key witness to 4th-c liturgy and doctrine."
+}

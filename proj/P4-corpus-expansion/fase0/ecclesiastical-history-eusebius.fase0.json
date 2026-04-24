@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "church-history",
+    "apostolic-era",
+    "primary-source",
+    "nicene"
+  ],
+  "category": "history",
+  "author": "Eusebius of Caesarea",
+  "source_url": null,
+  "note": "Eusebius (c. 260-339), 'Father of Church History'. Historia Ecclesiastica, c. 324. Essential primary source."
+}
