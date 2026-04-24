@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "tags": [
+    "biblical-studies",
+    "adam",
+    "old-testament",
+    "plan-of-salvation",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "note": "1976 Deseret Book. Doctrinal treatise on Adam, first man, and his role in the plan of salvation."
+}

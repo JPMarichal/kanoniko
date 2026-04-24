@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "tags": [
+    "book-of-mormon",
+    "jaredites",
+    "ether",
+    "ancient-america",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "note": "1984 Deseret Book. Study of the Jaredite civilization from the Book of Ether — origins, history, destruction. One of Petersen's BoM studies."
+}

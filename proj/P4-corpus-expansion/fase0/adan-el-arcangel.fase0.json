@@ -1,0 +1,22 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "tags": [
+    "discourse",
+    "adam",
+    "michael",
+    "adam-ondi-ahman",
+    "apostle-authored",
+    "spanish-translation",
+    "booklet"
+  ],
+  "note": "Folleto de un solo discurso de Petersen sobre Adán como el arcángel Miguel, publicado en español por los centros de distribución SUD. Incluye experiencia personal de visita a Adam-ondi-Ahman (Misuri). Pre-1985 (cita a Spencer W. Kimball como profeta vigente). NO es traducción de Adam Who Is He — es un discurso corto independiente, publicado en formato booklet."
+}

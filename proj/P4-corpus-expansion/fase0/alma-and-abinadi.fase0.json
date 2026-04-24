@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "tags": [
+    "book-of-mormon",
+    "alma",
+    "abinadi",
+    "mosiah",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "note": "1981 Deseret Book. Study of Alma (the elder) and Abinadi from the Book of Mormon — Mosiah narrative. One of Petersen's BoM-figure books."
+}

@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "tags": [
+    "pre-existence",
+    "plan-of-salvation",
+    "christology",
+    "council-in-heaven",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "note": "1975 Deseret Book. Treatise on the pre-existence, the grand council in heaven, and the role of Jesus Christ in the plan of salvation as prologue to mortal existence."
+}

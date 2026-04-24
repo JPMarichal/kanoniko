@@ -1,0 +1,22 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "tags": [
+    "biblical-studies",
+    "joshua",
+    "old-testament",
+    "covenant",
+    "apostle-authored",
+    "deseret-book",
+    "booklet"
+  ],
+  "note": "1978 Deseret Book. Short devotional essay (~7 KB, single chapter 'Companion Scriptures') on Joshua as covenant keeper. Booklet-length publication, complete."
+}
