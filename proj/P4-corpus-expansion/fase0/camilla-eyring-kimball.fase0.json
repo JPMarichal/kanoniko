@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds",
+    "prophet-spouse",
+    "family-authored"
+  ],
+  "category": "biographies",
+  "author": "Caroline Eyring Miner & Edward L. Kimball",
+  "source_url": null,
+  "note": "Biography of Camilla Eyring Kimball (1894-1987), wife of Pres. Spencer W. Kimball."
+}

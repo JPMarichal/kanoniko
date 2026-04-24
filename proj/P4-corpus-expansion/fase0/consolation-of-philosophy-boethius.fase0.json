@@ -1,0 +1,21 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "late-antiquity",
+    "6th-century",
+    "christian-philosophy",
+    "providence",
+    "free-will",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Boethius",
+  "source_url": null,
+  "note": "Boethius (c. 480-524), Christian philosopher martyred for faith. De Consolatione Philosophiae, c. 524. On providence, free will, evil \u2014 foundational Christian theodicy."
+}

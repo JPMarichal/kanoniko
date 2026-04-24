@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "roman-history",
+    "1st-century",
+    "primary-source",
+    "post-apostolic-era"
+  ],
+  "category": "history",
+  "author": "Tacitus",
+  "source_url": null,
+  "note": "Tacitus. Historiae, c. 100-110. Covers 69-96 AD \u2014 post-apostolic Roman context."
+}

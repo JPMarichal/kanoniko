@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "mother-authored",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Lucy Mack Smith",
+  "source_url": null,
+  "note": "Lucy Mack Smith (1775-1856), Preston Nibley ed. Foundational biographical record, first pub. 1853."
+}

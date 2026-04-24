@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "patriarch",
+    "joseph-smith-family"
+  ],
+  "category": "biographies",
+  "author": "Mark L. McConkie",
+  "source_url": null,
+  "note": "Mark L. McConkie. Biography of Joseph Smith Sr. (1771-1840), Presiding Patriarch."
+}

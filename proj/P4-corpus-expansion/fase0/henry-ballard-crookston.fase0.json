@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "pioneer",
+    "ballard-family"
+  ],
+  "category": "biographies",
+  "author": "Douglas O. Crookston",
+  "source_url": null,
+  "note": "Douglas O. Crookston. Biography of Henry Ballard (1832-1908), pioneer, grandfather of Pres. M. Russell Ballard."
+}

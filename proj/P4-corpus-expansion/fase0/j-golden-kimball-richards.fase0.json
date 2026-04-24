@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds",
+    "seventy",
+    "folk-hero"
+  ],
+  "category": "biographies",
+  "author": "Claude Richards",
+  "source_url": null,
+  "note": "Claude Richards. Biography of J. Golden Kimball (1853-1938), beloved Seventy."
+}

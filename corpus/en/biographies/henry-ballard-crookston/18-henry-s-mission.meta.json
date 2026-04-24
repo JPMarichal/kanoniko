@@ -1,0 +1,32 @@
+{
+  "title": "Henry's Mission",
+  "author": "Douglas O. Crookston",
+  "book": "Henry Ballard, The Story of a Courageous Pioneer, 1832-1908",
+  "chapter": 18,
+  "total_chapters": 25,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "19th-century-lds",
+    "pioneer",
+    "ballard-family"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Henry Ballard, The Story of a Courageous Pioneer, 1832-1908 - Douglas O. Crookston.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "28cce383-43b5-4f98-98a4-74ab7b1ca64d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Douglas O. Crookston. Biography of Henry Ballard (1832-1908), pioneer, grandfather of Pres. M. Russell Ballard."
+}

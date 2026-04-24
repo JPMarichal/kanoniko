@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "prophet-brother",
+    "patriarch",
+    "martyr"
+  ],
+  "category": "biographies",
+  "author": "Pearson H. Corbett",
+  "source_url": null,
+  "note": "Pearson H. Corbett. Biography of Hyrum Smith (1800-1844)."
+}

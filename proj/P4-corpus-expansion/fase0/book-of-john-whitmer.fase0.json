@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "early-church",
+    "church-historian",
+    "primary-source",
+    "journal"
+  ],
+  "category": "biographies",
+  "author": "John Whitmer",
+  "source_url": null,
+  "note": "John Whitmer (1802-1878), first Church Historian. Historical record, 1831-1847."
+}

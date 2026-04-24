@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "early-20th-century-scholarship"
+  ],
+  "category": "biographies",
+  "author": "John Henry Evans",
+  "source_url": null,
+  "note": "John Henry Evans (1872-1947). Joseph Smith: An American Prophet, 1933."
+}

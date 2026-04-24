@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "autobiography",
+    "missionary-to-natives",
+    "pioneer",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Jacob Hamblin",
+  "source_url": null,
+  "note": "Jacob Hamblin (1819-1886), 'Apostle to the Lamanites'. Personal narrative, 1881."
+}

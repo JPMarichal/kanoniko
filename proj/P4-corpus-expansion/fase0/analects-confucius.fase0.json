@@ -1,0 +1,22 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "chinese",
+    "confucian",
+    "ethics",
+    "primary-source",
+    "interreligious",
+    "universal-moral-wisdom"
+  ],
+  "category": "reference",
+  "author": "Confucius",
+  "source_url": null,
+  "note": "Confucius (551-479 BC). Analects (Lunyu). Universal moral wisdom \u2014 cited in LDS interreligious discourse (Alma 29:8, 'to all nations')."
+}

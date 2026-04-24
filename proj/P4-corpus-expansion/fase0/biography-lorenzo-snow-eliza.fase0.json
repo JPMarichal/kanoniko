@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "sister-authored",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Eliza R. Snow",
+  "source_url": null,
+  "note": "Eliza R. Snow (1804-1887), sister of Lorenzo. Biography of her brother, 1884."
+}

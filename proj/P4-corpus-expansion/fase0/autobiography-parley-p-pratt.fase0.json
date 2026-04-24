@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "autobiography",
+    "19th-century-lds",
+    "early-apostle",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Parley P. Pratt",
+  "source_url": null,
+  "note": "Parley P. Pratt (1807-1857), Q12. Autobiography, published posthumously 1874."
+}

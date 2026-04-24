@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds",
+    "prophet-biography",
+    "contemporary-author"
+  ],
+  "category": "biographies",
+  "author": "Bryant S. Hinckley",
+  "source_url": null,
+  "note": "Bryant S. Hinckley (father of Gordon B.). Biography of Pres. Heber J. Grant (1856-1945)."
+}

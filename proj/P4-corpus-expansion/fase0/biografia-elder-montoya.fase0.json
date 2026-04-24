@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "latin-american",
+    "general-authority",
+    "modern",
+    "biography"
+  ],
+  "category": "biographies",
+  "author": "Marina Triana",
+  "source_url": null,
+  "note": "Marina Triana. Official biography of Elder Montoya, Latin American GA."
+}

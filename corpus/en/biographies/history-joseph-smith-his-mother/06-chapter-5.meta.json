@@ -1,0 +1,33 @@
+{
+  "title": "Chapter 5",
+  "author": "Lucy Mack Smith",
+  "book": "History of Joseph Smith by His Mother",
+  "chapter": 6,
+  "total_chapters": 57,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "mother-authored",
+    "primary-source"
+  ],
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/History of Joseph Smith by His Mother - Lucy Mack Smith & Preston Nibley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "df5699b7-b2ed-4b03-b021-fa7d59920c5f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lucy Mack Smith (1775-1856), Preston Nibley ed. Foundational biographical record, first pub. 1853."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "poet",
+    "scottish-mission",
+    "family-authored"
+  ],
+  "category": "biographies",
+  "author": "T. Edgar Lyon",
+  "source_url": null,
+  "note": "T. Edgar Lyon, descendant. Biography of John Lyon (1803-1889), Scottish pioneer poet."
+}

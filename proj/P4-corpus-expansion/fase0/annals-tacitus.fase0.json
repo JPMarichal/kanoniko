@@ -1,0 +1,22 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "roman-history",
+    "1st-century",
+    "primary-source",
+    "christus-reference",
+    "neronian-persecution",
+    "nt-context"
+  ],
+  "category": "history",
+  "author": "Tacitus",
+  "source_url": null,
+  "note": "Tacitus (c. 56-120). Annales, c. 115-120. Contains 15.44 reference to 'Christus' under Pontius Pilate \u2014 key extra-biblical evidence for historical Jesus, and first Neronian persecution."
+}

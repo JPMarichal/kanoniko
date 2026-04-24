@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds-scholarship",
+    "prophet-biography",
+    "byu-academic"
+  ],
+  "category": "biographies",
+  "author": "Kent P. Jackson & Richard Neitzel Holzapfel",
+  "source_url": null,
+  "note": "Kent P. Jackson & R. N. Holzapfel. Joseph Smith: Prophet and Seer (Spanish)."
+}

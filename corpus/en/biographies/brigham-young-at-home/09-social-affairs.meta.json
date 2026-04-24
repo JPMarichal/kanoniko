@@ -1,0 +1,33 @@
+{
+  "title": "Social Affairs",
+  "author": "Clarissa Young Spencer",
+  "book": "Brigham Young at Home",
+  "chapter": 9,
+  "total_chapters": 14,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "daughter-authored",
+    "family-memoir"
+  ],
+  "authority": 35,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Brigham Young at Home - Clarissa Young Spencer.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0f60b97e-ccf7-4a83-bd80-0563288eef53",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Clarissa Young Spencer, daughter of Brigham Young. Intimate family memoir."
+}

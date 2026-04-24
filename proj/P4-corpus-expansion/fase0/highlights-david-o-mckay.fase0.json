@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds",
+    "prophet-biography",
+    "family-authored"
+  ],
+  "category": "biographies",
+  "author": "Jeanette McKay Morrell",
+  "source_url": null,
+  "note": "Jeanette McKay Morrell, daughter. Highlights of Pres. David O. McKay (1873-1970)."
+}

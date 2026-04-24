@@ -1,0 +1,32 @@
+{
+  "title": "10",
+  "author": "Caroline Eyring Miner & Edward L. Kimball",
+  "book": "Camilla, a Biography of Camilla Eyring Kimball",
+  "chapter": 12,
+  "total_chapters": 16,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "20th-century-lds",
+    "prophet-spouse",
+    "family-authored"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Camilla, a Biography of Camilla Eyring Kimball - Caroline Eyring Miner & Edward L Kimball.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "8a29878d-3106-4412-b124-c5f881aa0e27",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Biography of Camilla Eyring Kimball (1894-1987), wife of Pres. Spencer W. Kimball."
+}

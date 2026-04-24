@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "journal",
+    "19th-century-lds",
+    "british-mission",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Heber C. Kimball",
+  "source_url": null,
+  "note": "Heber C. Kimball (1801-1868), First Counselor to Brigham Young. Journal."
+}

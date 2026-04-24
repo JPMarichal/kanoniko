@@ -1,0 +1,32 @@
+{
+  "title": "Introductory",
+  "author": "John Henry Evans",
+  "book": "Joseph Smith, an American Prophet",
+  "chapter": 11,
+  "total_chapters": 17,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "early-20th-century-scholarship"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Joseph Smith, an American Prophet - John Henry Evans.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "475c0fea-a817-42d9-aeaf-c947078a2bb6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "John Henry Evans (1872-1947). Joseph Smith: An American Prophet, 1933."
+}

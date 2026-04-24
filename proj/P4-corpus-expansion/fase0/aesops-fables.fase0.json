@@ -1,0 +1,21 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "fables",
+    "moral-literature",
+    "primary-source",
+    "illustration-source"
+  ],
+  "category": "reference",
+  "author": "Aesop",
+  "source_url": null,
+  "note": "Aesop (c. 620-564 BC) corpus of fables. Moral/illustrative value for gospel teaching (cf. Savior's parables)."
+}

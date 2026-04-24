@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds",
+    "prophet-biography",
+    "authorized"
+  ],
+  "category": "biographies",
+  "author": "Sheri Dew",
+  "source_url": null,
+  "note": "Sheri Dew. Authorized biography of Pres. Gordon B. Hinckley (1910-2008), pub. 1996."
+}

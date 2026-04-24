@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "pre-exodus"
+  ],
+  "category": "biographies",
+  "author": "S. Dilworth Young",
+  "source_url": null,
+  "note": "S. Dilworth Young, Seventy. Brigham Young: the years to 1844."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "kirtland-era",
+    "eyewitness-accounts",
+    "primary-source-anthology"
+  ],
+  "category": "biographies",
+  "author": "Karl Ricks Anderson",
+  "source_url": null,
+  "note": "Karl Ricks Anderson. Eyewitness accounts of Joseph Smith's Kirtland ministry."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "20th-century-lds",
+    "prophet-spouse",
+    "daughter-authored"
+  ],
+  "category": "biographies",
+  "author": "Virginia H. Pearce",
+  "source_url": null,
+  "note": "Virginia H. Pearce, daughter. Glimpses of Marjorie Pay Hinckley (1911-2004)."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "prophet-biography",
+    "daughter-authored",
+    "family-memoir"
+  ],
+  "category": "biographies",
+  "author": "Clarissa Young Spencer",
+  "source_url": null,
+  "note": "Clarissa Young Spencer, daughter of Brigham Young. Intimate family memoir."
+}
