@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "abolition",
+    "slave-narrative",
+    "19th-century",
+    "primary-source",
+    "civil-rights-history"
+  ],
+  "category": "history",
+  "author": "Frederick Douglass",
+  "source_url": null,
+  "note": "Frederick Douglass (1818-1895). Narrative of the Life, 1845."
+}

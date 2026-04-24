@@ -1,0 +1,33 @@
+{
+  "title": "Benjamin Franklin's Preface to the English Edition of the Report",
+  "author": "Samuel Adams",
+  "book": "Rights of the Colonists",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "american-revolution",
+    "primary-source"
+  ],
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Rights of the Colonists - Samuel Adams.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "68b09dd1-8359-4400-8a6d-78651b7b7fa2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Samuel Adams (1722-1803). The Rights of the Colonists, 1772."
+}

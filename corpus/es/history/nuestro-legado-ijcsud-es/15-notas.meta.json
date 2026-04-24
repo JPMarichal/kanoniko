@@ -1,0 +1,32 @@
+{
+  "title": "Notas",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "NUESTRO LEGADO Una breve historia de La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "chapter": 15,
+  "total_chapters": 15,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "church-history-narrative",
+    "our-heritage",
+    "official"
+  ],
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/NUESTRO LEGADO Una breve historia de La Iglesiade Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2008-04-20T21:11:12+00:00",
+  "opf_identifier": "5377c1e5-05c7-4e6f-92f7-fa9cc849e230",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Nuestro Legado: Una breve historia de la Iglesia (ES)."
+}

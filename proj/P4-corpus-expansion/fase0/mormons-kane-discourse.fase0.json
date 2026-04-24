@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "thomas-kane",
+    "ally",
+    "primary-source",
+    "mid-19th-century"
+  ],
+  "category": "history",
+  "author": "Thomas L. Kane",
+  "source_url": null,
+  "note": "Col. Thomas L. Kane (1822-1883), LDS ally. 'The Mormons': discourse at Historical Society of Pennsylvania, 1850."
+}

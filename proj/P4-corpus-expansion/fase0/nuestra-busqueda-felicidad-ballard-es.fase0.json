@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "happiness",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "M. Russell Ballard",
+  "source_url": null,
+  "note": "Pres. M. Russell Ballard. Nuestra búsqueda de la felicidad (ES)."
+}

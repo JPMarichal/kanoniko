@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "family-missionary"
+  ],
+  "category": "books",
+  "author": "Joe J. Christensen & Barbara K. Christensen",
+  "source_url": null,
+  "note": "Joe J. Christensen (Seventy) & Barbara K. Christensen. Making Your Home a Missionary Training Center."
+}

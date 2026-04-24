@@ -1,0 +1,17 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "comparative-religion",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Jessica L. T. Devesa",
+  "source_url": null,
+  "note": "Jessica L. T. Devesa. Religions, Cults and Popular Beliefs."
+}

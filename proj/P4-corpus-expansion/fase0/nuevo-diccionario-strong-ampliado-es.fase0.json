@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "strong-concordance",
+    "hebrew-greek",
+    "reference-work",
+    "expanded-edition"
+  ],
+  "category": "reference",
+  "author": "James Strong",
+  "source_url": null,
+  "note": "James Strong. Nuevo Diccionario Strong Ampliado (ES expanded edition)."
+}

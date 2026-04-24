@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "nicene",
+    "hilary",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Hilary of Poitiers",
+  "source_url": null,
+  "note": "Hilary of Poitiers (c. 310-367). On the Councils (De Synodis)."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "science-religion",
+    "lds-science"
+  ],
+  "category": "books",
+  "author": "David Clark",
+  "source_url": null,
+  "note": "David H. Clark. Of Heaven and Earth."
+}

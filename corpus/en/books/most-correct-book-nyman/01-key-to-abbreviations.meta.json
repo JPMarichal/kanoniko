@@ -1,0 +1,31 @@
+{
+  "title": "Key to Abbreviations",
+  "author": "Monte S. Nyman",
+  "book": "Most Correct Book",
+  "chapter": 1,
+  "total_chapters": 19,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "byu-religious-studies"
+  ],
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Most Correct Book - Monte S. Nyman.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d9e6551c-91ea-4734-8e41-46821e3363c1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Monte S. Nyman, BYU. The Most Correct Book."
+}

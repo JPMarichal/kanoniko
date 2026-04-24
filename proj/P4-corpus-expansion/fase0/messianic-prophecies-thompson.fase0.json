@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "messianic-prophecies",
+    "christology",
+    "bible-study"
+  ],
+  "category": "books",
+  "author": "Anna Thompson",
+  "source_url": null,
+  "note": "Anna Thompson. Messianic Prophecies and Fulfillments."
+}

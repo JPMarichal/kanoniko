@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "arizona-history",
+    "pioneer-settlement",
+    "early-20th-century"
+  ],
+  "category": "history",
+  "author": "James H. McClintock",
+  "source_url": null,
+  "note": "James H. McClintock (1864-1934). Mormon Settlement in Arizona, 1921."
+}

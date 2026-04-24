@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mountain-meadows",
+    "john-d-lee",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "John Doyle Lee",
+  "source_url": null,
+  "note": "John D. Lee. The Mormon Menace / Confessions of John Doyle Lee, Danite. Memoir of the Mountain Meadows participant."
+}

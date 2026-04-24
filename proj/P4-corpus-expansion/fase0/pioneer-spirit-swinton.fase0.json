@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lds-historian",
+    "pioneer-stories",
+    "modern-faith"
+  ],
+  "category": "books",
+  "author": "Heidi S. Swinton",
+  "source_url": null,
+  "note": "Heidi S. Swinton. Pioneer Spirit."
+}

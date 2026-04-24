@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "constantine",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Eusebius of Caesarea",
+  "source_url": null,
+  "note": "Eusebius. Vita Constantini (Life of Constantine), c. 337-339."
+}

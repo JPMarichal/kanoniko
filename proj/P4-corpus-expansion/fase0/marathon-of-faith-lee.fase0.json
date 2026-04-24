@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-president",
+    "faith-story"
+  ],
+  "category": "biographies",
+  "author": "Rex E. Lee, Janet Lee & Jim Bell",
+  "source_url": null,
+  "note": "Rex E. Lee (BYU President 1989-95), Janet Lee & Jim Bell. Marathon of Faith."
+}

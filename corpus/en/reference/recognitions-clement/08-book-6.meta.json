@@ -1,0 +1,33 @@
+{
+  "title": "Book 6",
+  "author": "Clement of Rome (attributed)",
+  "book": "Recognitions",
+  "chapter": 8,
+  "total_chapters": 12,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "patristic",
+    "clementine",
+    "pseudepigraphical-christian",
+    "ante-nicene"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Recognitions - Clement of Rome.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e54e4445-a4a2-4fd6-8fb1-ef5f72d5d7e6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Clementine Recognitions (pseudo-Clementine, 3rd-4th c.)."
+}

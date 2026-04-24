@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "protestant",
+    "martyrology",
+    "reformation",
+    "spanish-translation"
+  ],
+  "category": "history",
+  "author": "John Foxe",
+  "source_url": null,
+  "note": "John Foxe. Libro de los mártires (ES translation of Book of Martyrs, 1563)."
+}

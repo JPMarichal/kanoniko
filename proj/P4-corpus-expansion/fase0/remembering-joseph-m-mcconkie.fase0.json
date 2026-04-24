@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "eyewitness-accounts",
+    "20th-century-compilation"
+  ],
+  "category": "biographies",
+  "author": "Mark L. McConkie",
+  "source_url": null,
+  "note": "Mark L. McConkie. Remembering Joseph — eyewitness accounts of Joseph Smith."
+}

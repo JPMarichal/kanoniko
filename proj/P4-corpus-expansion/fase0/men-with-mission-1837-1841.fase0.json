@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "british-mission",
+    "twelve-apostles",
+    "19th-century-lds"
+  ],
+  "category": "history",
+  "author": "Whittaker, Esplin & Allen",
+  "source_url": null,
+  "note": "Allen, Esplin & Whittaker. Men with a Mission: The Quorum of the Twelve Apostles in the British Isles 1837-1841."
+}

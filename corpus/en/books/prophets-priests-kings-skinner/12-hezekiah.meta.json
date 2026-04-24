@@ -1,0 +1,32 @@
+{
+  "title": "HEZEKIAH",
+  "author": "Andrew C. Skinner",
+  "book": "Prophets, Priests, And Kings",
+  "chapter": 12,
+  "total_chapters": 17,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-religious-studies",
+    "ot-themes",
+    "priesthood-orders"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Prophets, Priests, And Kings - Andrew C. Skinner.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "7f300d10-bf1d-43ca-ad49-ebd5f87b224e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Andrew C. Skinner, BYU. Prophets, Priests, and Kings."
+}

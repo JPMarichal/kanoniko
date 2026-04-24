@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "soviet-union",
+    "conversion-stories",
+    "modern-mission-history"
+  ],
+  "category": "biographies",
+  "author": "Howard L. Biddulph",
+  "source_url": null,
+  "note": "Howard L. Biddulph. Morning Breaks: Conversion in the Former Soviet Union."
+}

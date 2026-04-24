@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mormon-philosophy",
+    "early-20th-century-lds"
+  ],
+  "category": "books",
+  "author": "Lycurgus A. Wilson",
+  "source_url": null,
+  "note": "Lycurgus A. Wilson. Outlines of Mormon Philosophy, 1905."
+}

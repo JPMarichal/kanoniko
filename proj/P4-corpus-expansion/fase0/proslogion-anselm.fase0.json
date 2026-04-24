@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "scholastic",
+    "11th-century",
+    "ontological-argument",
+    "primary-source",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Anselm of Canterbury",
+  "source_url": null,
+  "note": "Anselm of Canterbury (1033-1109). Proslogion (excerpts). Contiene el argumento ontológico."
+}

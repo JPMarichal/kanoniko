@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "american-revolution",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Samuel Adams",
+  "source_url": null,
+  "note": "Samuel Adams (1722-1803). The Rights of the Colonists, 1772."
+}

@@ -1,0 +1,16 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored"
+  ],
+  "category": "books",
+  "author": "Thomas S. Monson",
+  "source_url": null,
+  "note": "Pres. Thomas S. Monson (1927-2018). Live the Good Life."
+}

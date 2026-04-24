@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "freemasonry",
+    "temple-ordinances"
+  ],
+  "category": "books",
+  "author": "Anthony W. Ivins",
+  "source_url": null,
+  "note": "Anthony W. Ivins (1852-1934), Q12/First Presidency. The Relationship of Mormonism and Freemasonry, 1934."
+}

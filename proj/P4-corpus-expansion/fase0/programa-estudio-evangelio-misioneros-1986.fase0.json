@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "missionary",
+    "study-program",
+    "1986"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "source_url": null,
+  "note": "Programa de estudio del Evangelio para misioneros (1986)."
+}

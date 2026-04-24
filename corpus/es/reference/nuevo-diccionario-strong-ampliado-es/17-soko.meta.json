@@ -1,0 +1,33 @@
+{
+  "title": "Sokó",
+  "author": "James Strong",
+  "book": "Nuevo Diccionario Strong Ampliado de Palabras de la Biblia",
+  "chapter": 17,
+  "total_chapters": 26,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "strong-concordance",
+    "hebrew-greek",
+    "reference-work",
+    "expanded-edition"
+  ],
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Nuevo Diccionario Strong Ampliado de Palabras de la Biblia - James Strong.epub",
+  "opf_publisher": null,
+  "opf_date": "2015-01-30T13:28:15+00:00",
+  "opf_identifier": "477e9631-4c8b-4589-9fe9-60c418f21e50",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "James Strong. Nuevo Diccionario Strong Ampliado (ES expanded edition)."
+}

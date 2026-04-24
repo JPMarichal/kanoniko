@@ -1,0 +1,33 @@
+{
+  "title": "INTRODUCTION.",
+  "author": "Erastus Snow",
+  "book": "One year in Scandinavia",
+  "chapter": 4,
+  "total_chapters": 14,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "scandinavian-mission",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/One year in Scandinavia - Erastus Fairbanks Snow.epub",
+  "opf_publisher": null,
+  "opf_date": "2015-08-03T00:00:00+00:00",
+  "opf_identifier": "calibre:4318",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Erastus Snow (1818-1888), Q12. One Year in Scandinavia, 1851."
+}

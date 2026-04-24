@@ -1,0 +1,32 @@
+{
+  "title": "One for the Money",
+  "author": "Marvin J. Ashton",
+  "book": "One for the Money",
+  "chapter": 2,
+  "total_chapters": 2,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "finances",
+    "self-reliance"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/One for the Money - Marvin J. Ashton.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "61739893-4f71-4f9f-bc1c-527e5cddedbc",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Marvin J. Ashton. One for the Money."
+}

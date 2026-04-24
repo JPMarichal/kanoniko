@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "french-revolution",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Thomas Paine",
+  "source_url": null,
+  "note": "Thomas Paine. Rights of Man, 1791."
+}

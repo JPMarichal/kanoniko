@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "deseret-news",
+    "happiness"
+  ],
+  "category": "books",
+  "author": "William B. Smart",
+  "source_url": null,
+  "note": "William B. Smart. Messages for a Happier Life."
+}

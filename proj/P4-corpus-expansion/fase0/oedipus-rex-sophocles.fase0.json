@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek-tragedy",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Sophocles",
+  "source_url": null,
+  "note": "Sophocles. Oedipus Rex."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "pacific",
+    "sermon-compilation"
+  ],
+  "category": "books",
+  "author": "Matthew Cowley",
+  "source_url": null,
+  "note": "Elder Matthew Cowley (1897-1953), Q12. Matthew Cowley Speaks."
+}

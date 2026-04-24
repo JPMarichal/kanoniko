@@ -1,0 +1,32 @@
+{
+  "title": "CHAPTER II.",
+  "author": "L. Dougall",
+  "book": "The Mormon Prophet",
+  "chapter": 18,
+  "total_chapters": 42,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "19th-century-fiction",
+    "joseph-smith",
+    "external-novel"
+  ],
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Mormon Prophet, The - L. Dougall.epub",
+  "opf_publisher": null,
+  "opf_date": "2005-12-11T00:00:00+00:00",
+  "opf_identifier": "calibre:4294",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "L. Dougall (1858-1923). The Mormon Prophet, 1899."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-family-life",
+    "essays"
+  ],
+  "category": "books",
+  "author": "Carlfred Broderick",
+  "source_url": null,
+  "note": "Carlfred Broderick. My Parents Married on a Dare."
+}

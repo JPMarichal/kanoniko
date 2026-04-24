@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "missionary-standards",
+    "discipleship",
+    "current"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "source_url": null,
+  "note": "Normas misionales para los discípulos de Jesucristo."
+}

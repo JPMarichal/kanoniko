@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "grief",
+    "loss",
+    "pastoral"
+  ],
+  "category": "books",
+  "author": "Duane E. Hiatt",
+  "source_url": null,
+  "note": "Duane E. Hiatt. Overcoming Personal Loss."
+}

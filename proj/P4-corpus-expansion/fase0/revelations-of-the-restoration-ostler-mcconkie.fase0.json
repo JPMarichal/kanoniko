@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "byu-religious-studies",
+    "revelation-commentary"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding McConkie & Craig J. Ostler",
+  "source_url": null,
+  "note": "J.F. McConkie & C.J. Ostler. Revelations of the Restoration — comentario sobre DyC."
+}

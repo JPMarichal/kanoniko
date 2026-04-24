@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mental-health",
+    "pastoral"
+  ],
+  "category": "books",
+  "author": "Richard King Mower",
+  "source_url": null,
+  "note": "Richard King Mower. Overcoming Depression."
+}

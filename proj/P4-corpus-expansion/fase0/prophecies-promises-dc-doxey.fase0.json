@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "prophecy",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Roy W. Doxey",
+  "source_url": null,
+  "note": "Roy W. Doxey. Prophecies and Prophetic Promises from the D&C."
+}

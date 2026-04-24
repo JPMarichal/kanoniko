@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "temple",
+    "byu-religious-studies",
+    "ancient-temples"
+  ],
+  "category": "books",
+  "author": "Richard O. Cowan",
+  "source_url": null,
+  "note": "Richard O. Cowan, BYU. Sacred Temples Ancient and Modern."
+}

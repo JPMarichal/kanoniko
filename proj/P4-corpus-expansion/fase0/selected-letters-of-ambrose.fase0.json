@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "nicene",
+    "ambrose",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Ambrose of Milan",
+  "source_url": null,
+  "note": "Ambrose of Milan (c. 339-397). Selected Letters."
+}

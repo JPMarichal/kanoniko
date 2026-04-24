@@ -1,0 +1,33 @@
+{
+  "title": "Preface",
+  "author": "Samuel Smiles",
+  "book": "Men of Invention and Industry",
+  "chapter": 1,
+  "total_chapters": 13,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "19th-century",
+    "biographical-sketches",
+    "industrial-age",
+    "non-lds"
+  ],
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Men of Invention and Industry - Samuel Smiles.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "16e67faf-b8ed-456f-b767-bbe79f55ccb4",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Samuel Smiles (1812-1904). Men of Invention and Industry."
+}

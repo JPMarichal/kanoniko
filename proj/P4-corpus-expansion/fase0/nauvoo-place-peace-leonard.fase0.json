@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "nauvoo",
+    "byu-academic",
+    "definitive-history"
+  ],
+  "category": "history",
+  "author": "Glen M. Leonard",
+  "source_url": null,
+  "note": "Glen M. Leonard. Nauvoo: A Place of Peace, a People of Promise, 2002."
+}

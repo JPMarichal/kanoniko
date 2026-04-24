@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lucy-mack-smith",
+    "enhanced-edition",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Lucy Mack Smith; eds. Proctor & Proctor",
+  "source_url": null,
+  "note": "Lucy Mack Smith. History of Joseph Smith By His Mother — revised & enhanced edition by Scot & Maurine Proctor, 1996."
+}

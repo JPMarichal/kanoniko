@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "revelations-in-context",
+    "modern-scholarship"
+  ],
+  "category": "books",
+  "author": "Matthew McBride & James Goldberg",
+  "source_url": null,
+  "note": "Matthew McBride & James Goldberg. Revelaciones en contexto (ES). Ediciones académicas modernas de la Iglesia."
+}

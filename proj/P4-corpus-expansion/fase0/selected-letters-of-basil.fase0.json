@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "cappadocian-father",
+    "basil",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Basil the Great",
+  "source_url": null,
+  "note": "Basil of Caesarea (c. 330-379). Selected Letters."
+}

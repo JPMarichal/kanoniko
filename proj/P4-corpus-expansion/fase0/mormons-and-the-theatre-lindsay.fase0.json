@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "theatre",
+    "utah-culture",
+    "19th-century"
+  ],
+  "category": "history",
+  "author": "John S. Lindsay",
+  "source_url": null,
+  "note": "John S. Lindsay. The Mormons and the Theatre, 1905."
+}

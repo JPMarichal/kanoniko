@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women-authored",
+    "charity",
+    "lds-women"
+  ],
+  "category": "books",
+  "author": "Mary Ellen Edmunds",
+  "source_url": null,
+  "note": "Mary Ellen Edmunds. Love Is a Verb."
+}

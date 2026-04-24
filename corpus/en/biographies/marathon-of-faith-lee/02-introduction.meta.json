@@ -1,0 +1,31 @@
+{
+  "title": "Introduction",
+  "author": "Rex E. Lee, Janet Lee & Jim Bell",
+  "book": "Marathon of Faith",
+  "chapter": 2,
+  "total_chapters": 12,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "byu-president",
+    "faith-story"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Marathon of Faith - Rex E Lee & Janet Lee & Jim Bell.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0f480cae-f51c-4ea2-b338-50f7be143022",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Rex E. Lee (BYU President 1989-95), Janet Lee & Jim Bell. Marathon of Faith."
+}

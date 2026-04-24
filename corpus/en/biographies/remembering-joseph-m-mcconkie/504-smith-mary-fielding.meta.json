@@ -1,0 +1,32 @@
+{
+  "title": "Smith, Mary Fielding",
+  "author": "Mark L. McConkie",
+  "book": "Remembering Joseph",
+  "chapter": 504,
+  "total_chapters": 638,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "eyewitness-accounts",
+    "20th-century-compilation"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Remembering Joseph - Mark L McConkie.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ba4c6529-0e18-47f7-8e8e-b77f7d97db41",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Mark L. McConkie. Remembering Joseph — eyewitness accounts of Joseph Smith."
+}

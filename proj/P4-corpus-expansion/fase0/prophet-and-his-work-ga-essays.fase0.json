@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "general-authorities",
+    "joseph-smith",
+    "restoration",
+    "anthology"
+  ],
+  "category": "books",
+  "author": "Various General Authorities",
+  "source_url": null,
+  "note": "Various GAs. The Prophet and His Work: Essays on Joseph Smith and the Restoration."
+}

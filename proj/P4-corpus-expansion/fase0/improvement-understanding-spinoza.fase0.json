@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "spinoza",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Baruch Spinoza",
+  "source_url": null,
+  "note": "Baruch Spinoza. Tractatus de Intellectus Emendatione."
+}

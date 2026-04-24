@@ -1,0 +1,33 @@
+{
+  "title": "Chapter LXXII.",
+  "author": "Eusebius of Caesarea",
+  "book": "Life of Constantine",
+  "chapter": 131,
+  "total_chapters": 273,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "patristic",
+    "4th-century",
+    "constantine",
+    "primary-source"
+  ],
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Life of Constantine - Eusebius of Caesarea.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4b9e87d3-b29f-4843-a437-52a63405707c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Eusebius. Vita Constantini (Life of Constantine), c. 337-339."
+}

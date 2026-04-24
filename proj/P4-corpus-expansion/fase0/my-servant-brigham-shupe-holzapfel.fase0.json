@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "brigham-young",
+    "photographic-biography"
+  ],
+  "category": "biographies",
+  "author": "R. Q. Shupe & R. N. Holzapfel",
+  "source_url": null,
+  "note": "Shupe & Holzapfel. My Servant Brigham: Portrait of a Prophet."
+}

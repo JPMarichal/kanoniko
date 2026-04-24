@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "clementine",
+    "pseudepigraphical-christian",
+    "ante-nicene"
+  ],
+  "category": "reference",
+  "author": "Clement of Rome (attributed)",
+  "source_url": null,
+  "note": "Clementine Recognitions (pseudo-Clementine, 3rd-4th c.)."
+}

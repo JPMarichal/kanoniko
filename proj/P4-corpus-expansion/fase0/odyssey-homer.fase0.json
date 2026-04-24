@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek-epic",
+    "homer",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Homer",
+  "source_url": null,
+  "note": "Homer. Odyssey (companion to Iliad, previously added)."
+}

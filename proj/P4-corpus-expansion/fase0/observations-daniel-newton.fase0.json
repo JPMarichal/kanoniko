@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biblical-prophecy",
+    "newton",
+    "17th-18th-century"
+  ],
+  "category": "reference",
+  "author": "Isaac Newton",
+  "source_url": null,
+  "note": "Isaac Newton (1643-1727). Observations upon the Prophecies of Daniel, posthumous 1733."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "17th-century",
+    "locke",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "John Locke",
+  "source_url": null,
+  "note": "John Locke. Two Treatises of Civil Government, 1689."
+}

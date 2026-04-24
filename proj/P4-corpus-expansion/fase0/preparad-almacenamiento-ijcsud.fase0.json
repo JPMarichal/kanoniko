@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "preparedness",
+    "home-storage",
+    "self-reliance"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "source_url": null,
+  "note": "Preparad todo lo que fuere necesario — El almacenamiento en el hogar."
+}

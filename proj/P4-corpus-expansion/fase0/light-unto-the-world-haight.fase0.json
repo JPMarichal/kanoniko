@@ -1,0 +1,16 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored"
+  ],
+  "category": "books",
+  "author": "David B. Haight",
+  "source_url": null,
+  "note": "Elder David B. Haight (1906-2004), Q12. Light Unto the World."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "scandinavian-mission",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Erastus Snow",
+  "source_url": null,
+  "note": "Erastus Snow (1818-1888), Q12. One Year in Scandinavia, 1851."
+}

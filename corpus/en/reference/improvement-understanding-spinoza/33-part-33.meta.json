@@ -1,0 +1,33 @@
+{
+  "title": "Part 33",
+  "author": "Baruch Spinoza",
+  "book": "On the Improvement of the Understanding",
+  "chapter": 33,
+  "total_chapters": 110,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "spinoza",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/On the Improvement of the Understanding - Baruch Spinoza.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "cbc7b236-1f39-46e2-afa9-ef7407da210f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Baruch Spinoza. Tractatus de Intellectus Emendatione."
+}

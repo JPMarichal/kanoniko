@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "oaths",
+    "ot-studies",
+    "farms"
+  ],
+  "category": "books",
+  "author": "Stephen D. Ricks",
+  "source_url": null,
+  "note": "Stephen D. Ricks, BYU. Oaths and Oath Taking in the Old Testament."
+}

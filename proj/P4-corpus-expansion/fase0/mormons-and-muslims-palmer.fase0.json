@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "comparative-religion",
+    "islam",
+    "byu-religious-studies-center"
+  ],
+  "category": "books",
+  "author": "Spencer J. Palmer (ed.)",
+  "source_url": null,
+  "note": "Spencer J. Palmer (ed.), BYU. Mormons and Muslims, 1983."
+}

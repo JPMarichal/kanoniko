@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "truth"
+  ],
+  "category": "books",
+  "author": "Alvin R. Dyer",
+  "source_url": null,
+  "note": "Elder Alvin R. Dyer (1903-1977), Q12. The Meaning of Truth."
+}

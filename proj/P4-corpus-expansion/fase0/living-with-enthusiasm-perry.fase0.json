@@ -1,0 +1,16 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored"
+  ],
+  "category": "books",
+  "author": "L. Tom Perry",
+  "source_url": null,
+  "note": "Elder L. Tom Perry (1922-2015), Q12. Living with Enthusiasm."
+}

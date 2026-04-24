@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "marriage",
+    "equality"
+  ],
+  "category": "books",
+  "author": "Dennis L. Lythgoe",
+  "source_url": null,
+  "note": "Dennis L. Lythgoe. Marriage of Equals."
+}

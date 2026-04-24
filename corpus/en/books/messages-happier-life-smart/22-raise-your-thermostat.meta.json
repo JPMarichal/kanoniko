@@ -1,0 +1,31 @@
+{
+  "title": "Raise Your Thermostat",
+  "author": "William B. Smart",
+  "book": "Messages for a Happier Life",
+  "chapter": 22,
+  "total_chapters": 50,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "deseret-news",
+    "happiness"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Messages for a Happier Life - William B Smart.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f9bd9bc7-490d-403c-a397-b1a0f76e2c1b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "William B. Smart. Messages for a Happier Life."
+}

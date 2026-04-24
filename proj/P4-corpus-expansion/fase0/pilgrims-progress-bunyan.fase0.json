@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "puritan",
+    "christian-allegory",
+    "17th-century",
+    "devotional-classic",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "John Bunyan",
+  "source_url": null,
+  "note": "John Bunyan (1628-1688). The Pilgrim's Progress, 1678. Christian allegorical classic, 2nd most-read after Bible for centuries."
+}

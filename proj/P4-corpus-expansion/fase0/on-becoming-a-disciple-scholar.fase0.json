@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies-center",
+    "faith-and-learning",
+    "first-presidency-intro"
+  ],
+  "category": "books",
+  "author": "Various (ed. Henry B. Eyring)",
+  "source_url": null,
+  "note": "Various (ed. Henry B. Eyring). On Becoming a Disciple-Scholar."
+}

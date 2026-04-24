@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "columbus",
+    "primary-source",
+    "16th-century",
+    "indigenous-peoples"
+  ],
+  "category": "history",
+  "author": "Bartolomé de las Casas",
+  "source_url": null,
+  "note": "Bartolomé de las Casas (1484-1566). Relación del primer viaje de Colón."
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Introduction",
+  "author": "David Clark",
+  "book": "Of Heaven and Earth, Reconciling Scientific Thought with LDS Theology",
+  "chapter": 1,
+  "total_chapters": 12,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "science-religion",
+    "lds-science"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Of Heaven and Earth, Reconciling Scientific Thought with LDS Theology - David Clark.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "47d34426-4e2f-4284-a55d-dd5459d5f86a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "David H. Clark. Of Heaven and Earth."
+}

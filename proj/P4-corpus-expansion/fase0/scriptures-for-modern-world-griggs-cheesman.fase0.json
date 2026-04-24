@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies-center",
+    "scripture-studies"
+  ],
+  "category": "books",
+  "author": "C. Wilfred Griggs & Paul R. Cheesman (eds.)",
+  "source_url": null,
+  "note": "Griggs & Cheesman (eds.), BYU. Scriptures for the Modern World."
+}

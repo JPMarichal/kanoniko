@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mormonism-science",
+    "early-20th-century-lds"
+  ],
+  "category": "books",
+  "author": "Nels L. Nelson",
+  "source_url": null,
+  "note": "Nels L. Nelson. Scientific Aspects of Mormonism, 1904."
+}

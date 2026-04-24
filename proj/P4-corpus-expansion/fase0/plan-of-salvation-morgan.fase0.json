@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "plan-of-salvation",
+    "19th-century-lds",
+    "classic-missionary-tract"
+  ],
+  "category": "books",
+  "author": "John Morgan",
+  "source_url": null,
+  "note": "John Morgan (1842-1894), Seventy. The Plan of Salvation — classic missionary tract."
+}

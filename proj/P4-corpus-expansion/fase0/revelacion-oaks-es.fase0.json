@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "revelation",
+    "spanish-discourse"
+  ],
+  "category": "discourses",
+  "author": "Dallin H. Oaks",
+  "source_url": null,
+  "note": "Pres. Dallin H. Oaks, First Presidency / Q12. La Revelación."
+}

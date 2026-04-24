@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-fiction",
+    "joseph-smith",
+    "external-novel"
+  ],
+  "category": "history",
+  "author": "L. Dougall",
+  "source_url": null,
+  "note": "L. Dougall (1858-1923). The Mormon Prophet, 1899."
+}

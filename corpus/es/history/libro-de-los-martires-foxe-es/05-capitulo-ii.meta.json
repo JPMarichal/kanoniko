@@ -1,0 +1,33 @@
+{
+  "title": "CAPÍTULO II",
+  "author": "John Foxe",
+  "book": "Libro de los mártires",
+  "chapter": 5,
+  "total_chapters": 19,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "protestant",
+    "martyrology",
+    "reformation",
+    "spanish-translation"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Libro de los mártires - John Fox.epub",
+  "opf_publisher": null,
+  "opf_date": "2004-12-31T19:33:08+00:00",
+  "opf_identifier": "9dab774d-2ddc-4c8d-892c-fd5c1db48b5c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "John Foxe. Libro de los mártires (ES translation of Book of Martyrs, 1563)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "parenting",
+    "teens",
+    "byu-family-life"
+  ],
+  "category": "books",
+  "author": "Ronald John Zirker",
+  "source_url": null,
+  "note": "Ronald John Zirker. Parent and Teen: Teamed for Success."
+}

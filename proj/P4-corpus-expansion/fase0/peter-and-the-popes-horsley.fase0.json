@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "papacy-critique",
+    "apostasy"
+  ],
+  "category": "books",
+  "author": "A. Burt Horsley",
+  "source_url": null,
+  "note": "A. Burt Horsley, BYU. Peter and the Popes."
+}

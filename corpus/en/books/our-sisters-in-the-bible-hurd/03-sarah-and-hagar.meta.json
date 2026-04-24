@@ -1,0 +1,32 @@
+{
+  "title": "Sarah and Hagar",
+  "author": "Jerrie W. Hurd",
+  "book": "Our Sisters in the Bible",
+  "chapter": 3,
+  "total_chapters": 20,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "women",
+    "bible",
+    "lds-women-studies"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Our Sisters in the Bible - Jerrie W. Hurd.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "cc51f1c8-bc2d-41bc-8160-f460c47dce6b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Jerrie W. Hurd. Our Sisters in the Bible."
+}

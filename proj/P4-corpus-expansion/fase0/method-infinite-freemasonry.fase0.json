@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "freemasonry",
+    "restoration",
+    "modern-scholarship"
+  ],
+  "category": "books",
+  "author": "Bruno, Swick & Literski",
+  "source_url": null,
+  "note": "Bruno, Swick & Literski. Method Infinite: Freemasonry and the Mormon Restoration."
+}

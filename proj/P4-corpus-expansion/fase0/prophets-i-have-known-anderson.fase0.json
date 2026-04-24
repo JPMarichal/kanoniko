@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "prophet-biographies",
+    "20th-century-lds"
+  ],
+  "category": "biographies",
+  "author": "Joseph Anderson",
+  "source_url": null,
+  "note": "Elder Joseph Anderson (1889-1992), Seventy. Prophets I Have Known — memoir."
+}

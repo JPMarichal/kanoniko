@@ -1,0 +1,33 @@
+{
+  "title": "Referencias",
+  "author": "Bartolomé de las Casas",
+  "book": "Relación del primer viaje de D. Cristóbal Colón para el descubrimiento de las Indias.",
+  "chapter": 2,
+  "total_chapters": 3,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "columbus",
+    "primary-source",
+    "16th-century",
+    "indigenous-peoples"
+  ],
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Relación del primer viaje de D. Cristóbal Colón parascubrimiento de las Indias. - Bartolomé de las Casas.epub",
+  "opf_publisher": null,
+  "opf_date": "1892-10-15T00:00:00+00:00",
+  "opf_identifier": "calibre:1598",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Bartolomé de las Casas (1484-1566). Relación del primer viaje de Colón."
+}

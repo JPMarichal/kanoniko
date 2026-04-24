@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Monte S. Nyman",
+  "source_url": null,
+  "note": "Monte S. Nyman, BYU. The Most Correct Book."
+}

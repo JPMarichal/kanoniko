@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek-roman",
+    "biography",
+    "1st-century",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Plutarch",
+  "source_url": null,
+  "note": "Plutarch (c. 46-120). Parallel Lives. Foundational ancient biography."
+}

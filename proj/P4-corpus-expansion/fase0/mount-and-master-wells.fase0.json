@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "sermon-on-the-mount"
+  ],
+  "category": "books",
+  "author": "Robert E. Wells",
+  "source_url": null,
+  "note": "Elder Robert E. Wells, Seventy. The Mount and the Master."
+}

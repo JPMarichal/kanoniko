@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "anglican",
+    "biblical-scholarship",
+    "19th-century",
+    "life-of-christ",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Frederick W. Farrar",
+  "source_url": null,
+  "note": "Frederick W. Farrar (1831-1903), Anglican. The Life of Christ, 1874. Classic NT scholarship."
+}

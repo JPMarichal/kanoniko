@@ -1,0 +1,33 @@
+{
+  "title": "Chapter 38",
+  "author": "Thomas Paine",
+  "book": "Rights of Man",
+  "chapter": 29,
+  "total_chapters": 54,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "french-revolution",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Rights of Man - Thomas Paine.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ad654ce5-2780-424e-9672-ba653411f678",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Thomas Paine. Rights of Man, 1791."
+}

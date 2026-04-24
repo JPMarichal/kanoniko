@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "stoicism",
+    "1st-2nd-century",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Epictetus",
+  "source_url": null,
+  "note": "Epictetus (c. 55-135). Discourses (Moral Discourses). Stoic classic."
+}

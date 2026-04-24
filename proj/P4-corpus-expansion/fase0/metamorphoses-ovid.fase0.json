@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "roman-literature",
+    "mythology",
+    "1st-century",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Ovid",
+  "source_url": null,
+  "note": "Ovid (43 BC - 17 AD). Metamorphoses. Classical mythology compendium."
+}

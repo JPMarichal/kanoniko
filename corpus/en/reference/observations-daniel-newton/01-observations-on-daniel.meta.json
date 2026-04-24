@@ -1,0 +1,32 @@
+{
+  "title": "Observations on Daniel",
+  "author": "Isaac Newton",
+  "book": "Observations on Daniel",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "biblical-prophecy",
+    "newton",
+    "17th-18th-century"
+  ],
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Observations on Daniel - Isaac Newton.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "84bd5810-d5ac-499e-a999-f3c61323ab0b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Isaac Newton (1643-1727). Observations upon the Prophecies of Daniel, posthumous 1733."
+}

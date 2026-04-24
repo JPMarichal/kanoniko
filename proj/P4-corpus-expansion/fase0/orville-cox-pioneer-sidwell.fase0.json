@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pioneer-biography",
+    "1847",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Adelia B. Cox Sidwell",
+  "source_url": null,
+  "note": "Adelia B. Cox Sidwell. Orville Southerland Cox, Pioneer of 1847."
+}

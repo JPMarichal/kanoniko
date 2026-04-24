@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "ot-themes",
+    "priesthood-orders"
+  ],
+  "category": "books",
+  "author": "Andrew C. Skinner",
+  "source_url": null,
+  "note": "Andrew C. Skinner, BYU. Prophets, Priests, and Kings."
+}

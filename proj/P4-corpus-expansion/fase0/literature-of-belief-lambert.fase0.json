@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies-center",
+    "literature",
+    "religious-experience"
+  ],
+  "category": "books",
+  "author": "Neal A. Lambert (ed.)",
+  "source_url": null,
+  "note": "Neal A. Lambert (ed.), BYU. Literature of Belief."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "1",
+  "author": "Joseph Anderson",
+  "book": "Prophets I Have Known",
+  "chapter": 3,
+  "total_chapters": 20,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "seventy-authored",
+    "prophet-biographies",
+    "20th-century-lds"
+  ],
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Prophets I Have Known - Joseph Anderson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "c1427254-39a5-40cb-b1ab-9e191a2db501",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Joseph Anderson (1889-1992), Seventy. Prophets I Have Known — memoir."
+}

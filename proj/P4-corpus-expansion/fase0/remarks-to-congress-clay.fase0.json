@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-speech",
+    "19th-century",
+    "primary-source",
+    "us-history"
+  ],
+  "category": "history",
+  "author": "Henry Clay",
+  "source_url": null,
+  "note": "Henry Clay (1777-1852). Remarks to Congress."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "18th-century",
+    "ethics",
+    "kant",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Immanuel Kant",
+  "source_url": null,
+  "note": "Kant. Metaphysik der Sitten, 1797."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century",
+    "biographical-sketches",
+    "industrial-age",
+    "non-lds"
+  ],
+  "category": "books",
+  "author": "Samuel Smiles",
+  "source_url": null,
+  "note": "Samuel Smiles (1812-1904). Men of Invention and Industry."
+}

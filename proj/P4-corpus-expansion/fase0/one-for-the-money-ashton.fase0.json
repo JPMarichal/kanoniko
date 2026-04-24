@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "finances",
+    "self-reliance"
+  ],
+  "category": "books",
+  "author": "Marvin J. Ashton",
+  "source_url": null,
+  "note": "Elder Marvin J. Ashton. One for the Money."
+}

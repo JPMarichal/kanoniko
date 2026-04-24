@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "farms",
+    "book-of-mormon",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "John W. Welch (ed.)",
+  "source_url": null,
+  "note": "John W. Welch (ed.), FARMS. Reexploring the Book of Mormon, 1992."
+}

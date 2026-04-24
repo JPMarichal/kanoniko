@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "science-religion",
+    "chemistry",
+    "lds-scientist",
+    "mid-20th-century"
+  ],
+  "category": "books",
+  "author": "Henry Eyring",
+  "source_url": null,
+  "note": "Henry Eyring (1901-1981), famed chemist and LDS thinker (father of Pres. Henry B. Eyring). Reflections of a Scientist."
+}

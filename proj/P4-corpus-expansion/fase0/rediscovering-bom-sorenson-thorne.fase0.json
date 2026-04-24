@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "farms",
+    "book-of-mormon",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "John L. Sorenson & Melvin J. Thorne (eds.)",
+  "source_url": null,
+  "note": "Sorenson & Thorne (eds.), FARMS/BYU. Rediscovering the Book of Mormon."
+}

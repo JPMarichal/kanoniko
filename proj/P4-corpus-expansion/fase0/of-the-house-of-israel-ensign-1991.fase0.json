@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ensign",
+    "1991",
+    "house-of-israel",
+    "single-article"
+  ],
+  "category": "discourses",
+  "author": "Ensign magazine",
+  "source_url": null,
+  "note": "Ensign January 1991 article: Of the House of Israel."
+}
