@@ -1,0 +1,14 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": ["theodicy", "adversity", "apostle-authored", "bookcraft", "divine-purpose", "suffering", "dc-122"],
+  "category": "books",
+  "author": "Neal A. Maxwell",
+  "source_url": null,
+  "note": "Maxwell's 1979 Bookcraft treatise on theodicy, titled from D&C 122:7 (the Liberty Jail revelation). Written while Assistant to the Twelve (before his 1981 Q12 call). Source epub had duplicated spine (every chapter listed twice); the extractor now dedupes by content signature."
+}

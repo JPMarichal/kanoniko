@@ -562,7 +562,12 @@ def extract_one(
         if fase0.get("author"):
             author = fase0["author"]
 
+        # Dedupe spine files by normalized text signature. Some Calibre
+        # conversions write each chapter twice (distinct HTML files with ~99%
+        # identical content differing only in internal ids). Without this,
+        # the extractor produces duplicate chapter outputs.
         per_file: list[tuple[list[dict], dict[str, str], dict]] = []
+        seen_sigs: set[str] = set()
         for sid, href in spine:
             try:
                 data = zf.read(href)
@@ -570,6 +575,14 @@ def extract_one(
                 continue
             html = data.decode("utf-8", errors="replace")
             blocks, fns, fmeta = html_to_blocks(html)
+            # Signature: first 500 chars of concatenated block text, normalized.
+            # Empty-content files hash to "" and don't trigger dedup.
+            sig_text = " ".join(b.get("text", "") for b in blocks if b.get("type") in ("heading","para","list"))
+            sig_text = re.sub(r"\s+", " ", sig_text).strip()[:500]
+            if sig_text:
+                if sig_text in seen_sigs:
+                    continue  # duplicate spine entry, skip
+                seen_sigs.add(sig_text)
             per_file.append((blocks, fns, fmeta))
 
         chapters = segment_into_chapters(per_file, min_chapter_chars)
