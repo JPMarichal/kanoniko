@@ -1,0 +1,33 @@
+{
+  "title": "VI",
+  "author": "Hyrum L. Andrus",
+  "book": "Doctrinal Themes of the Doctrine and Covenants",
+  "chapter": 6,
+  "total_chapters": 6,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "themes",
+    "andrus",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrinal Themes of the Doctrine and Covenants - Hyrum L. Andrus.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "af504ed8-3bdb-472c-90bb-acc0ec0934b3",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Thematic analysis of doctrinal patterns in the D&C."
+}

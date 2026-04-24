@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "theology-proper",
+    "godhead",
+    "roberts",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "B. H. Roberts",
+  "source_url": null,
+  "note": "Roberts' treatise on the nature of God and man's relationship to deity."
+}

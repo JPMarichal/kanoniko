@@ -1,0 +1,32 @@
+{
+  "title": "The First Epistle of Mormon",
+  "author": "Benjamin Crowder",
+  "book": "The Book of Mormon: Plates Edition",
+  "chapter": 31,
+  "total_chapters": 34,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "plates-format",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Book of Mormon_ Plates Edition, The - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "http://bencrowder.net/mormon/book-of-mormon/plates-edition/",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "BoM 'Plates Edition' — formatted to reflect the Nephite plate organization."
+}

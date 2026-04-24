@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "civil-war",
+    "prophecy",
+    "andrus",
+    "byu-scholarship",
+    "historical"
+  ],
+  "category": "books",
+  "author": "Hyrum L. Andrus",
+  "source_url": null,
+  "note": "Andrus's study of prophetic anticipations of the US Civil War in LDS thought."
+}

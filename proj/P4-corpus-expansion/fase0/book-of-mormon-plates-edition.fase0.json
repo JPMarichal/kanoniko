@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "plates-format",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "BoM 'Plates Edition' — formatted to reflect the Nephite plate organization."
+}

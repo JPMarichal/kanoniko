@@ -1,0 +1,22 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "4-nephi",
+    "mormon",
+    "moroni",
+    "byu-symposium",
+    "tate",
+    "nyman"
+  ],
+  "category": "books",
+  "author": "Charles D. Tate & Monte S. Nyman",
+  "source_url": null,
+  "note": "BYU BoM Symposium vol on 4 Nephi-Moroni."
+}

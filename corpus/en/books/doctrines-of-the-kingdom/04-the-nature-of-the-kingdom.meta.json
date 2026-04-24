@@ -1,0 +1,33 @@
+{
+  "title": "The Nature of the Kingdom",
+  "author": "Hyrum L. Andrus",
+  "book": "Doctrines of the Kingdom",
+  "chapter": 4,
+  "total_chapters": 17,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "kingdom-of-god",
+    "doctrine",
+    "andrus",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrines of the Kingdom - Hyrum L. Andrus.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "db7a3b1c-7230-4e26-86c1-8105156603e0",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Andrus on the doctrines of the kingdom of God."
+}

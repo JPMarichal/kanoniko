@@ -1,0 +1,32 @@
+{
+  "title": "Section 107",
+  "author": "Benjamin Crowder",
+  "book": "The Doctrine and Covenants",
+  "chapter": 107,
+  "total_chapters": 138,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrine and Covenants, The - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "142bc4c2-1f45-4cb7-af8e-0ff938859839",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Crowder's edition of D&C."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Part 2",
+  "author": "Benjamin Crowder",
+  "book": "Doctrine and Covenants Study Edition",
+  "chapter": 1,
+  "total_chapters": 5,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "study-edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrine and Covenants Study Edition - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e83e58c0-0a8c-4577-8aec-08debb780fa8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "D&C study edition."
+}

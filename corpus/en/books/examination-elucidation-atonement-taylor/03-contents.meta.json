@@ -1,0 +1,33 @@
+{
+  "title": "CONTENTS.",
+  "author": "John Taylor",
+  "book": "An Examination into and an Elucidation of the Great Principle of the Mediation and Atonement of Our Lord and Savior Jesus Christ",
+  "chapter": 3,
+  "total_chapters": 30,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "atonement",
+    "christology",
+    "church-president",
+    "taylor"
+  ],
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Examination into and an Elucidation of the Great POur Lord and Savior Jesus Christ, An - John Taylor.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-06-05T00:00:00+00:00",
+  "opf_identifier": "calibre:4206",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Title appears truncated in OPF — this is likely 'An Examination into and an Elucidation of the Great Principle of the Mediation and Atonement of our Lord and Savior Jesus Christ' (1882 Taylor). His major treatise on the Atonement, written as Church President."
+}

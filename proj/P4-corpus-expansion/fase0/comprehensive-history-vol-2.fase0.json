@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "roberts",
+    "century-i",
+    "comprehensive-history",
+    "fp-commissioned"
+  ],
+  "category": "history",
+  "author": "B. H. Roberts",
+  "source_url": null,
+  "note": "1930 Centennial History vol 2."
+}

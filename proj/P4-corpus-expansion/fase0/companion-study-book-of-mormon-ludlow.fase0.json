@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "study-companion",
+    "byu-scholarship",
+    "ludlow"
+  ],
+  "category": "books",
+  "author": "Daniel H. Ludlow",
+  "source_url": null,
+  "note": "Ludlow's study companion for the Book of Mormon."
+}

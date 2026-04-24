@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "helaman",
+    "3-nephi",
+    "byu-symposium",
+    "tate"
+  ],
+  "category": "books",
+  "author": "Charles D. Tate",
+  "source_url": null,
+  "note": "BYU BoM Symposium Helaman-3 Nephi 8."
+}

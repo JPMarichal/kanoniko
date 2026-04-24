@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "apostasy",
+    "apostle-authored",
+    "joseph-fielding-smith"
+  ],
+  "category": "history",
+  "author": "Joseph Fielding Smith",
+  "source_url": null,
+  "note": "Variante/extracto de Essentials in Church History centrada en la apostasia. Verificar vs version principal en corpus/en/books/essentials-in-church-history."
+}

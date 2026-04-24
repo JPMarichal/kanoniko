@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-principles",
+    "doctrine",
+    "roberts",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "B. H. Roberts",
+  "source_url": null,
+  "note": "Revised/enlarged edition of Roberts' doctrinal exposition of the first principles."
+}

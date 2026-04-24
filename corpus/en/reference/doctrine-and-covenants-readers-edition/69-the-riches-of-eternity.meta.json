@@ -1,0 +1,32 @@
+{
+  "title": "The Riches of Eternity",
+  "author": "Benjamin Crowder",
+  "book": "Doctrine and Covenants: Reader's Edition",
+  "chapter": 69,
+  "total_chapters": 140,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "readers-edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrine and Covenants_ Reader's Edition - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "http://bencrowder.net/mormon/doctrine-and-covenants/readers-edition/",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "D&C Reader's Edition."
+}

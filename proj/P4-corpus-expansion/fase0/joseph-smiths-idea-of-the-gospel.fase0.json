@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "doctrine",
+    "gospel",
+    "andrus",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Hyrum L. Andrus",
+  "source_url": null,
+  "note": "Andrus on JS's theological conception of the gospel."
+}

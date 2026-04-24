@@ -1,0 +1,33 @@
+{
+  "title": "Faith",
+  "author": "Daniel H. Ludlow",
+  "book": "Companion to Your Study of the Doctrine and Covenants, vol_ 2",
+  "chapter": 60,
+  "total_chapters": 230,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "study-companion",
+    "byu-scholarship",
+    "ludlow"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Companion to Your Study of the Doctrine and Covenants, vol_ 2 - Daniel H. Ludlow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "fdde0964-79a3-43f7-a78f-6c788e1fb33e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "D&C study companion vol 2."
+}

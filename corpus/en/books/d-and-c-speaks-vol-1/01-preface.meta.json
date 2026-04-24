@@ -1,0 +1,33 @@
+{
+  "title": "Preface",
+  "author": "Roy W. Doxey",
+  "book": "Doctrine and Covenants Speaks, vol_ 1",
+  "chapter": 1,
+  "total_chapters": 58,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "commentary",
+    "byu-scholarship",
+    "doxey"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrine and Covenants Speaks, vol_ 1 - Roy W Doxey.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e456537f-81ed-4a7c-a827-a813a3e66e7b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Doxey D&C commentary vol 1."
+}

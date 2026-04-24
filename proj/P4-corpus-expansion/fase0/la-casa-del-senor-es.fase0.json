@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "temple",
+    "ordinances",
+    "apostle-authored",
+    "talmage",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "James E. Talmage",
+  "source_url": null,
+  "note": "La Casa del Senor ES (par de corpus/en/books/house-of-the-lord)."
+}

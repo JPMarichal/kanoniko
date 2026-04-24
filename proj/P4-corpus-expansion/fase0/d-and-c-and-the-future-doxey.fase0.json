@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "prophecy",
+    "byu-scholarship",
+    "doxey"
+  ],
+  "category": "books",
+  "author": "Roy W. Doxey",
+  "source_url": null,
+  "note": "Doxey on D&C prophecies about the future."
+}

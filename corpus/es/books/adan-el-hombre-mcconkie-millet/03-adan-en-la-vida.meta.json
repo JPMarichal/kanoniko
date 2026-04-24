@@ -1,0 +1,33 @@
+{
+  "title": "Adán en la Vida",
+  "author": "Joseph Fielding McConkie & Robert L. Millet",
+  "book": "Adán el hombre",
+  "chapter": 3,
+  "total_chapters": 17,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "adam",
+    "theology",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Adán el hombre - Joseph Fielding McConkie & Robert L. Millet.epub",
+  "opf_publisher": null,
+  "opf_date": "2012-04-05T01:27:02+00:00",
+  "opf_identifier": "f179cf1e-aa4e-43a6-9855-3b6c37ff84b2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Adan el hombre — BYU scholarship on Adam. Co-authored."
+}

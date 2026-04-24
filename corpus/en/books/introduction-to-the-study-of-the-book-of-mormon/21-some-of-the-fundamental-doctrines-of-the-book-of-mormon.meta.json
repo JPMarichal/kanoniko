@@ -1,0 +1,33 @@
+{
+  "title": "Some of the Fundamental Doctrines of the Book of Mormon",
+  "author": "Janne M. Sjodahl",
+  "book": "Introduction to the Study of the Book of Mormon",
+  "chapter": 21,
+  "total_chapters": 22,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "introduction",
+    "early-20th-century",
+    "sjodahl"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Introduction to the Study of the Book of Mormon - Janne M Sjodahl.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "de99eb27-48ae-47f9-bb88-5c896115d42f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Sjodahl's introduction to the Book of Mormon (earlier than the commentary series)."
+}

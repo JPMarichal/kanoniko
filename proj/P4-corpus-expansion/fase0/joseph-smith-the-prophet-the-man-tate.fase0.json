@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "biography",
+    "byu-symposium",
+    "tate"
+  ],
+  "category": "biographies",
+  "author": "Charles D. Tate",
+  "source_url": null,
+  "note": "BYU Symposium on JS."
+}

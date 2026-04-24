@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "apostle-authored",
+    "joseph-fielding-smith",
+    "spanish-translation"
+  ],
+  "category": "history",
+  "author": "Joseph Fielding Smith",
+  "source_url": null,
+  "note": "Traduccion ES de Essentials in Church History (par de traduccion de corpus/en/books/essentials-in-church-history)."
+}

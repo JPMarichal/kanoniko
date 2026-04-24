@@ -1,0 +1,33 @@
+{
+  "title": "Daniel",
+  "author": "Daniel H. Ludlow",
+  "book": "Companion to Your Study of the Old Testament",
+  "chapter": 49,
+  "total_chapters": 62,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "old-testament",
+    "study-companion",
+    "byu-scholarship",
+    "ludlow"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Companion to Your Study of the Old Testament - Daniel H. Ludlow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "a1ba39ca-b7c8-47b7-8fcb-6f91ef3d7a0e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "OT study companion."
+}

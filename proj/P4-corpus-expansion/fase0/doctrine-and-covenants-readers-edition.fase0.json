@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "readers-edition",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "D&C Reader's Edition."
+}

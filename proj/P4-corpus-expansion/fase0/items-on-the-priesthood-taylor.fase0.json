@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "priesthood",
+    "church-president",
+    "taylor"
+  ],
+  "category": "books",
+  "author": "John Taylor",
+  "source_url": null,
+  "note": "Taylor's compiled instruction on the priesthood, presented to the Saints."
+}

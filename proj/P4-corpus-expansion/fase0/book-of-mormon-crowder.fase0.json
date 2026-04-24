@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "edition",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "Crowder's edition of the Book of Mormon."
+}

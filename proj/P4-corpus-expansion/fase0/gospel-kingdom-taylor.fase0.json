@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine",
+    "compilation",
+    "discourses",
+    "church-president",
+    "taylor"
+  ],
+  "category": "books",
+  "author": "John Taylor",
+  "source_url": null,
+  "note": "Edited by G. Homer Durham. Selections from Taylor's writings and discourses."
+}

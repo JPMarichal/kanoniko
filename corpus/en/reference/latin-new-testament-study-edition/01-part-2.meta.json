@@ -1,0 +1,33 @@
+{
+  "title": "Part 2",
+  "author": "Benjamin Crowder",
+  "book": "Latin New Testament Study Edition",
+  "chapter": 1,
+  "total_chapters": 9,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "latin-new-testament",
+    "vulgate",
+    "study-edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Latin New Testament Study Edition - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f8c5059e-ca2c-4ebb-a39f-e43ee926295e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Latin NT (Vulgate) study edition."
+}

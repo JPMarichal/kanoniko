@@ -1,0 +1,33 @@
+{
+  "title": "Joseph Smith's Concept of the City of Zion",
+  "author": "Charles D. Tate",
+  "book": "Joseph Smith, The Prophet, The Man",
+  "chapter": 22,
+  "total_chapters": 29,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "biography",
+    "byu-symposium",
+    "tate"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Joseph Smith, The Prophet, The Man - Charles D. Tate.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "c95db60e-0f96-491d-8b77-fb5bececf929",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "BYU Symposium on JS."
+}

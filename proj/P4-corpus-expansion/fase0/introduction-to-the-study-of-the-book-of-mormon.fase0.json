@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "introduction",
+    "early-20th-century",
+    "sjodahl"
+  ],
+  "category": "books",
+  "author": "Janne M. Sjodahl",
+  "source_url": null,
+  "note": "Sjodahl's introduction to the Book of Mormon (earlier than the commentary series)."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "The Future Kingdoms",
+  "author": "Roy W. Doxey",
+  "book": "Doctrine and Covenants and the Future",
+  "chapter": 11,
+  "total_chapters": 13,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "prophecy",
+    "byu-scholarship",
+    "doxey"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrine and Covenants and the Future - Roy W Doxey.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "db4a0bc2-84fd-47a0-b253-9dc80401301f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Doxey on D&C prophecies about the future."
+}

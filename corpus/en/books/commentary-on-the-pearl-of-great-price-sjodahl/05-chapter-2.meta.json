@@ -1,0 +1,33 @@
+{
+  "title": "Chapter 2",
+  "author": "Janne M. Sjodahl & George Reynolds",
+  "book": "Commentary on the Pearl of Great Price",
+  "chapter": 5,
+  "total_chapters": 25,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "pearl-of-great-price",
+    "commentary",
+    "sjodahl",
+    "reynolds"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Commentary on the Pearl of Great Price - Janne M Sjodahl & George Reynolds.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "211c85f8-5c8b-4213-a831-95ebbe01146b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Sjodahl & Reynolds PGP commentary."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Part 12",
+  "author": "Benjamin Crowder",
+  "book": "Book of Mormon Study Edition, English",
+  "chapter": 11,
+  "total_chapters": 12,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "study-edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Book of Mormon Study Edition, English - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "844321fd-d782-4440-8f14-1a043846bea1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Study edition of the Book of Mormon with annotations."
+}

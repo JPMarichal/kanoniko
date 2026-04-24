@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "biography",
+    "roberts",
+    "seventy"
+  ],
+  "category": "biographies",
+  "author": "B. H. Roberts",
+  "source_url": null,
+  "note": "Roberts' biographical portrait of Joseph Smith as prophet and teacher."
+}

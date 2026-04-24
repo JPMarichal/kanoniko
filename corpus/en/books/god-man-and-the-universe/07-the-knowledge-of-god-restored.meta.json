@@ -1,0 +1,33 @@
+{
+  "title": "The Knowledge of God Restored",
+  "author": "Hyrum L. Andrus",
+  "book": "God, Man, and the Universe",
+  "chapter": 7,
+  "total_chapters": 19,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "cosmology",
+    "theology-proper",
+    "andrus",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/God, Man, and the Universe - Hyrum L. Andrus.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "fb40b187-bc2c-4294-a95a-b138003a61a4",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Andrus on God, humanity, and cosmology."
+}

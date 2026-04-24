@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "encyclopedia",
+    "jenson",
+    "church-archives",
+    "reference"
+  ],
+  "category": "biographies",
+  "author": "Andrew Jenson",
+  "source_url": null,
+  "note": "Jenson bio encyclopedia vol 2."
+}

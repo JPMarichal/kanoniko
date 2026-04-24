@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "latin-new-testament",
+    "vulgate",
+    "study-edition",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "Latin NT (Vulgate) study edition."
+}

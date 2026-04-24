@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 40,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "reading-plan",
+    "study-tool",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "Daily reading chart for BoM."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "seership",
+    "byu-scholarship",
+    "biography"
+  ],
+  "category": "biographies",
+  "author": "Robert L. Millet & Joseph Fielding McConkie",
+  "source_url": null,
+  "note": "Biographical-theological portrait of JS as 'choice seer'."
+}

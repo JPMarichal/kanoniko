@@ -1,0 +1,33 @@
+{
+  "title": "Third Nephi",
+  "author": "Daniel H. Ludlow",
+  "book": "Companion to Your Study of the Book of Mormon",
+  "chapter": 17,
+  "total_chapters": 26,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "study-companion",
+    "byu-scholarship",
+    "ludlow"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Companion to Your Study of the Book of Mormon - Daniel H. Ludlow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "27f332f2-edd5-42ac-8b7e-7786f41e889c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Ludlow's study companion for the Book of Mormon."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "commentary",
+    "sjodahl",
+    "reynolds"
+  ],
+  "category": "books",
+  "author": "Janne M. Sjodahl & George Reynolds",
+  "source_url": null,
+  "note": "Sjodahl & Reynolds BoM commentary vol 2."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "The Expanding Canon",
+  "author": "Robert L. Millet & Joseph Fielding McConkie",
+  "book": "Joseph Smith, The Choice Seer",
+  "chapter": 31,
+  "total_chapters": 41,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "seership",
+    "byu-scholarship",
+    "biography"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Joseph Smith, The Choice Seer - Robert L Millet & Joseph Fielding McConkie.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "af60c530-98a1-4293-bc60-0d12077c8789",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Biographical-theological portrait of JS as 'choice seer'."
+}

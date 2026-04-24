@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "word-frequency",
+    "study-tool",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "Word frequency tool for D&C (English)."
+}

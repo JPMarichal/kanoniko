@@ -1,0 +1,33 @@
+{
+  "title": "Appendix",
+  "author": "B. H. Roberts",
+  "book": "Falling Away",
+  "chapter": 17,
+  "total_chapters": 17,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostasy",
+    "roberts",
+    "seventy",
+    "early-christianity"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Falling Away - B. H. Roberts.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f8ad2535-66bb-46bb-ac5c-03e897d07d92",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Roberts' study of the Great Apostasy."
+}

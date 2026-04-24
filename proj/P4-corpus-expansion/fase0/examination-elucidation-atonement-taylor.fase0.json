@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "atonement",
+    "christology",
+    "church-president",
+    "taylor"
+  ],
+  "category": "books",
+  "author": "John Taylor",
+  "source_url": null,
+  "note": "Title appears truncated in OPF — this is likely 'An Examination into and an Elucidation of the Great Principle of the Mediation and Atonement of our Lord and Savior Jesus Christ' (1882 Taylor). His major treatise on the Atonement, written as Church President."
+}

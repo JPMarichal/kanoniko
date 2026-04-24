@@ -1,0 +1,32 @@
+{
+  "title": "Alma 52",
+  "author": "Benjamin Crowder",
+  "book": "The Book of Mormon",
+  "chapter": 152,
+  "total_chapters": 248,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Book of Mormon, The - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d6557fad-975f-486a-aef1-695a0a511b14",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Crowder's edition of the Book of Mormon."
+}

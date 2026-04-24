@@ -1,0 +1,33 @@
+{
+  "title": "Beauty for Ashes",
+  "author": "Robert L. Millet",
+  "book": "I Will Fear No Evil",
+  "chapter": 19,
+  "total_chapters": 20,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "adversity",
+    "trust-in-god",
+    "byu-scholarship",
+    "millet"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/I Will Fear No Evil - Robert L Millet.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0857f0f9-0095-4e26-b1b7-2a69917ffa34",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "On trusting God through adversity."
+}

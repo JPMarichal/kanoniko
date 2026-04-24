@@ -1,0 +1,20 @@
+{
+  "authority": 15,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "sermon",
+    "spurgeon",
+    "spanish-translation",
+    "protestant-classic"
+  ],
+  "category": "books",
+  "author": "Charles H. Spurgeon",
+  "source_url": null,
+  "note": "Sermon de Spurgeon 'Aun Hay Lugar' en ES. Evangelical-protestante no-SUD."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Reference to Volume VII",
+  "author": "Janne M. Sjodahl & George Reynolds",
+  "book": "Commentary on the Book of Mormon, vol_ 7",
+  "chapter": 2,
+  "total_chapters": 57,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "commentary",
+    "sjodahl",
+    "reynolds"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Commentary on the Book of Mormon, vol_ 7 - Janne M Sjodahl & George Reynolds.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "cbaf6765-92e6-43ae-9f13-b578dbe7e252",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Sjodahl & Reynolds BoM commentary vol 7."
+}

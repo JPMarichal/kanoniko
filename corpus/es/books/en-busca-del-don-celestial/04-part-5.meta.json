@@ -1,0 +1,33 @@
+{
+  "title": "Part 5",
+  "author": "Joseph Fielding McConkie",
+  "book": "En busca del don celestial",
+  "chapter": 4,
+  "total_chapters": 4,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "gifts-of-the-spirit",
+    "byu-scholarship",
+    "mcconkie-jf",
+    "spanish-translation"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/En busca del don celestial - Joseph Fielding McConkie.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "7eea6bc7-de43-4253-83d7-92cabd900573",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "En busca del don celestial ES."
+}

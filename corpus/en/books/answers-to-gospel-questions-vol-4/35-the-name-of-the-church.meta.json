@@ -1,0 +1,33 @@
+{
+  "title": "The Name of the Church",
+  "author": "Joseph Fielding Smith",
+  "book": "Answers to Gospel Questions : Volume 4",
+  "chapter": 35,
+  "total_chapters": 44,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "doctrine",
+    "gospel-questions",
+    "apostle-authored",
+    "joseph-fielding-smith"
+  ],
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Answers to Gospel Questions _ Volume 4 - Joseph Fielding Smith.epub",
+  "opf_publisher": "Deseret Book Company",
+  "opf_date": "1972-01-02T06:00:00+00:00",
+  "opf_identifier": "4fda9311-37fb-4573-b57f-5b4c8ce5cbda",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "AGQ vol 4."
+}

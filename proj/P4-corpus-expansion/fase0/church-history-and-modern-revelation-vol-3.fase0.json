@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "doctrine-and-covenants",
+    "apostle-authored",
+    "joseph-fielding-smith"
+  ],
+  "category": "history",
+  "author": "Joseph Fielding Smith",
+  "source_url": null,
+  "note": "CHMR vol 3."
+}

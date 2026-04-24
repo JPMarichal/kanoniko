@@ -1,0 +1,33 @@
+{
+  "title": "Preface",
+  "author": "Charles D. Tate",
+  "book": "Lectures on Faith in Historical Perspective",
+  "chapter": 5,
+  "total_chapters": 25,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "lectures-on-faith",
+    "historical",
+    "byu-symposium",
+    "tate"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Lectures on Faith in Historical Perspective - Charles D. Tate.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "05876e98-b2d2-41df-ba42-c30c6e1682de",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "BYU Symposium on Lectures on Faith."
+}

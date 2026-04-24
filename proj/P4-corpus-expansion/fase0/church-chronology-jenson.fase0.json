@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "chronology",
+    "jenson",
+    "church-archives",
+    "reference"
+  ],
+  "category": "reference",
+  "author": "Andrew Jenson",
+  "source_url": null,
+  "note": "Andrew Jenson's chronological listing of Church events. Jenson was Assistant Church Historian (1891-1941, 50 years) — major primary-source reference."
+}

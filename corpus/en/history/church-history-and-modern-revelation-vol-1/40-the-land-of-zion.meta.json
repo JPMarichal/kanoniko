@@ -1,0 +1,33 @@
+{
+  "title": "The Land of Zion",
+  "author": "Joseph Fielding Smith",
+  "book": "Church History and Modern Revelation, vol. 1",
+  "chapter": 40,
+  "total_chapters": 44,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "church-history",
+    "doctrine-and-covenants",
+    "apostle-authored",
+    "joseph-fielding-smith"
+  ],
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Church History and Modern Revelation, vol. 1 - Joseph Fielding Smith.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b07e5de8-e267-4c87-a529-6d28c64a2abf",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "J.F. Smith's 4-vol treatise integrating D&C with Church history vol 1."
+}

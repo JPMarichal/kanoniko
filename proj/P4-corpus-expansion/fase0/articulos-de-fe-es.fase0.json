@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "articles-of-faith",
+    "doctrine",
+    "apostle-authored",
+    "talmage",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "James E. Talmage",
+  "source_url": null,
+  "note": "Articulos de Fe ES (par de traduccion de corpus/en/books/articles-of-faith)."
+}

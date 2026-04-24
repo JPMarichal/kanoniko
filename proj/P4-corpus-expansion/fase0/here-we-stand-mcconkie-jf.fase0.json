@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apologetics",
+    "doctrine",
+    "byu-scholarship",
+    "mcconkie-jf"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding McConkie",
+  "source_url": null,
+  "note": "Here We Stand — doctrinal positions."
+}

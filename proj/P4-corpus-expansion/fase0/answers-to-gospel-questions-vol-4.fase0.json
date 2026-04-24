@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine",
+    "gospel-questions",
+    "apostle-authored",
+    "joseph-fielding-smith"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding Smith",
+  "source_url": null,
+  "note": "AGQ vol 4."
+}

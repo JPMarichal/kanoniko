@@ -1,0 +1,33 @@
+{
+  "title": "Part 5",
+  "author": "Benjamin Crowder",
+  "book": "Book of Mormon Study Edition, Spanish",
+  "chapter": 4,
+  "total_chapters": 12,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "study-edition",
+    "crowder",
+    "spanish-translation"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Book of Mormon Study Edition, Spanish - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "147bd299-01e0-489c-9efd-c2c37618c663",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Study edition BoM Spanish."
+}

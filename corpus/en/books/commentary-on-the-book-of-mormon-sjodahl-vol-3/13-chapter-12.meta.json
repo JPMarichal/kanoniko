@@ -1,0 +1,33 @@
+{
+  "title": "Chapter 12",
+  "author": "Janne M. Sjodahl & George Reynolds",
+  "book": "Commentary on the Book of Mormon, vol_ 3",
+  "chapter": 13,
+  "total_chapters": 27,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "commentary",
+    "sjodahl",
+    "reynolds"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Commentary on the Book of Mormon, vol_ 3 - Janne M Sjodahl & George Reynolds.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b66645a8-36aa-41fd-b62b-caa564bd9326",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Sjodahl & Reynolds BoM commentary vol 3."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "encyclopedia",
+    "reference",
+    "byu-scholarship",
+    "ludlow",
+    "macmillan-1992"
+  ],
+  "category": "reference",
+  "author": "Daniel H. Ludlow",
+  "source_url": null,
+  "note": "1992 Macmillan, edited by Ludlow. Landmark 4-vol encyclopedia. Major reference work."
+}

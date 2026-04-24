@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "adam",
+    "theology",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding McConkie & Robert L. Millet",
+  "source_url": null,
+  "note": "Adan el hombre — BYU scholarship on Adam. Co-authored."
+}

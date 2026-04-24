@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophetic",
+    "compilation",
+    "church-presidents",
+    "byu-scholarship",
+    "ludlow"
+  ],
+  "category": "books",
+  "author": "Daniel H. Ludlow",
+  "source_url": null,
+  "note": "Ludlow-edited selections from sermons/writings of Church Presidents."
+}

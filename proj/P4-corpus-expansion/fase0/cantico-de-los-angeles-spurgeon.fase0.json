@@ -1,0 +1,21 @@
+{
+  "authority": 15,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "angels",
+    "sermon",
+    "spurgeon",
+    "spanish-translation",
+    "protestant-classic"
+  ],
+  "category": "books",
+  "author": "Charles H. Spurgeon",
+  "source_url": null,
+  "note": "El cantico de los angeles ES."
+}

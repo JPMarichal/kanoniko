@@ -1,0 +1,33 @@
+{
+  "title": "BoMWordFrequencies-English",
+  "author": "Benjamin Crowder",
+  "book": "BoMWordFrequencies-English",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "word-frequency",
+    "study-tool",
+    "crowder"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/BoMWordFrequencies-English - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-09-13T12:34:31+00:00",
+  "opf_identifier": "55f880f8-0cad-4670-a2fc-c24f220489a1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Word frequency tool for Book of Mormon (English). Study reference tool."
+}

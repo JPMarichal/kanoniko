@@ -1,0 +1,33 @@
+{
+  "title": "Part 11",
+  "author": "Benjamin Crowder",
+  "book": "Greek New Testament Study Edition",
+  "chapter": 10,
+  "total_chapters": 17,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "greek-new-testament",
+    "original-language",
+    "study-edition",
+    "crowder"
+  ],
+  "authority": 20,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "reference",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Greek New Testament Study Edition - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "2e5751cc-4ffe-4c8f-a5c6-14f6adadd477",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Greek NT study edition by Crowder."
+}

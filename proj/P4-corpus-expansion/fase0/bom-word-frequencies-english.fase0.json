@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "reference",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "word-frequency",
+    "study-tool",
+    "crowder"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "Word frequency tool for Book of Mormon (English). Study reference tool."
+}

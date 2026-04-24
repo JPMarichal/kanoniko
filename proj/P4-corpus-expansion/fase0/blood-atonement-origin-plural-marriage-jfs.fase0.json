@@ -1,0 +1,20 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "blood-atonement",
+    "plural-marriage",
+    "apologetics",
+    "apostle-authored",
+    "joseph-fielding-smith"
+  ],
+  "category": "books",
+  "author": "Joseph Fielding Smith & R. C. Evans",
+  "source_url": null,
+  "note": "J.F. Smith's reply to R. C. Evans on blood atonement and plural marriage. Note corpus has blood-atonement-and-plural-marriage — this is different: a discussion/reply format."
+}
