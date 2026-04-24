@@ -69,3 +69,5 @@ bibsud/
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 .env.backup-*
+epub/_imagen_pendientes/
+epub/_review/
