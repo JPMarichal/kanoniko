@@ -1,0 +1,315 @@
+En otras palabras, si el CI medio de una cierta población (grande) es 100, y la
+
+desviación estándar es 15, entonces el 68,2 por 100 de las personas de esa
+
+población tienen un CI entre 85 y 115. Aún hay más: para todas las curvas de
+
+frecuencia normal, el 95,4 por ciento de todos los casos se hallan a dos
+
+desviaciones estándar de la media, y el 99,8 por 100, a tres (figura 37). Esto
+
+implica que, en el ejemplo anterior, el 95,4 por 100 de la población tiene
+
+valores de CI entre 70 y 130, y el 99,8 por 100, entre 55 y 145.
+
+Supongamos ahora que queremos predecir la probabilidad de que una persona
+
+de esa población elegida al azar tenga un valor de CI entre 85 y 100. La figura
+
+37 nos indica que sería de 0,341 (o 34,1 por 100), ya que, según las leyes que
+
+la gobiernan, esa probabilidad consiste simplemente en el número de casos
+
+favorables dividido por el total de casos posibles. Pongamos que ahora nos
+
+interesa saber la probabilidad de que una persona elegida al azar en esa
+
+población tenga un valor de CI superior a 130. Basta una ojeada a la figura 37
+
+para averiguar que esa probabilidad es sólo de alrededor de 0,022, o el 2,2 por
+
+la herramienta del cálculo integral (para calcular áreas), se puede calcular la
+
+probabilidad de que el valor de CI se encuentre dentro de cualquier intervalo.
+
+En otras palabras, la teoría de probabilidades y su compañera y complemento,
+
+la estadística, se combinan para darnos la respuesta.
+
+Como ya he indicado antes, la probabilidad y la estadística sólo son
+
+significativas al tratar con un gran número de sucesos, nunca con eventos individuales. Este aspecto fundamental, denominado Ley de los grandes
+
+números, se debe a Jakob Bernoulli, que lo formuló en forma de teorema en su
+
+obra Ars Conjectandi (cuya portada se muestra en la figura 38).168
+
+En términos simples, el teorema afirma que, si la probabilidad de la aparición
+
+de un suceso es p, entonces p es la proporción más probable de apariciones del
+
+suceso en el número total de ensayos. Asimismo, a medida que el número de
+
+ensayos tiende a infinito, la proporción de éxitos se convierte en p con certeza.
+
+Así presentó Bernoulli la Ley de los grandes números en su Ars Conjectandi:
+
+«Aún está pendiente de investigación si, con el aumento del número de
+
+observaciones, seguimos aumentando la probabilidad de que la proporción
+
+168 Para una magnífica traducción inglesa, véase Bernoulli 1713.
+
+registrada entre casos favorables y desfavorables se acerque a la verdadera
+
+proporción, de modo que esta probabilidad exceda finalmente cualquier grado
+
+de certeza que le exijamos». A continuación pasó a explicar el concepto
+
+mediante un ejemplo específico:
+
+Tenemos un tarro que contiene 3.000 guijarros blancos y 2.000
+
+negros, y queremos determinar de forma empírica la proporción
+
+—que desconocemos— entre unos y otros a base de extraer un
+
+guijarro tras otro y anotar con qué frecuencia extraemos un
+
+guijarro blanco y con cuál uno negro. (Me permito recordar que
+
+es un requisito importante de este proceso devolver el guijarro
+
+al tarro después de tomar nota del color y antes de extraer el
+
+siguiente, de modo que el número de guijarros en el tarro
+
+permanezca constante.) La pregunta es, ¿es posible ampliar el
+
+número de ensayos para hacer que sea 10, 100, 1.000, etc.,
+
+veces más probable (y, a la larga, más «moralmente cierto»)
+
+que la proporción de guijarros blancos extraídos respecto de la
+
+de guijarros negros adquiera el mismo valor (3:2) que la
+
+proporción real de guijarros blancos y negros en la urna, que no
+
+que adquiera un valor distinto? Si la respuesta es no, admitiré
+
+entonces que probablemente seamos incapaces de averiguar el
+
+número de instancias de cada caso (esto es, el número de
+
+guijarros blancos y negros) mediante observación. En cambio, si
+
+es cierto que este método nos permite alcanzar una certeza
+
+moral* [*Jakob Bernoulli demuestra en el capítulo siguiente de
+
+Ars Conjectandi, que es así (N. del a.)] … entonces podemos
+
+determinar el número de ejemplos a posteriori casi con la misma
+
+precisión que si los conociésemos a priori.169
+
+169 Reimpreso en Newman 1956.
+
+Bernoulli dedicó veinte años al perfeccionamiento de este teorema, que se ha
+
+convertido en uno de los pilares básicos de la estadística. Concluía afirmando
+
+su creencia en la existencia de leyes fundamentales, incluso en las situaciones
+
+que parecen estar gobernadas por el azar:
+
+Si observásemos de forma continua todos los eventos desde
+
+este momento hasta la eternidad (convirtiendo de este modo la
+
+probabilidad en certeza), hallaríamos que todo lo que ocurre en
+
+el mundo lo hace por razones determinadas y de conformidad
+
+con leyes, y que de este modo nos vemos constreñidos, incluso
+
+en situaciones que parecen accidentales, a asumir una cierta
+
+necesidad y, por así decirlo, fatalidad. Porque todo cuanto sé es
+
+aquello en lo que Platón pensaba cuando, en la doctrina del ciclo
+
+universal, sostenía que, tras el paso de incontables centurias,
+
+todo regresaría a su estado original.
+
+La conclusión de este relato científico de la incertidumbre es simple: la
+
+matemática se puede aplicar incluso en las áreas menos «científicas» de
+
+nuestras vidas, incluso en las que parecen estar dominadas por el puro azar.
+
+Así, al intentar explicar la «inexplicable eficacia» de la matemática, no
+
+podemos limitarnos solamente a las leyes de la física; en algún momento
+
+tendremos que intentar resolver el enigma de la omnipresencia de la
+
+matemática.
+
+El increíble poder de la matemática no pasó desapercibido para el célebre
+
+dramaturgo y ensayista George Bernard Shaw (1856-1950). Shaw, cuya fama
+
+no se debía precisamente a su talento matemático, escribió una vez un
+
+ingenioso artículo sobre estadísticas y probabilidad titulado «The Vice of
+
+Gambling and the Virtue of Insurance».170 En él, Shaw admite que, en su
+
+opinión, los seguros «se basan en hechos inexplicables y riesgos que sólo
+
+170 El artículo «The Vice of Gambling and the Virtue of Insurance» aparece en Newman 1956. puede calcular un matemático profesional». Sin embargo, ofrece la siguiente
+
+astuta observación:
+
+Imaginemos una conversación de negocios entre un ambicioso
+
+mercader que quiere comerciar con el exterior pero está
+
+aterrorizado de que su barco naufrague o de que se lo coman los
+
+salvajes, y un capitán que lo que quiere es un cargamento y
+
+pasajeros. El capitán responde al mercader que sus bienes
+
+estarán totalmente a salvo, igual que él mismo si decide
+
+acompañarle. Pero el mercader, que tienen la cabeza hinchada
+
+con las aventuras de Jonás, san Pablo, Ulises y Robinson Crusoe,
+
+no se atreve a correr el riesgo. Su conversación sería más o
+
+menos así:
+
+Capitán: ¡Venid conmigo! Os apuesto tropecientas libras a que,
+
+si navegáis conmigo, estaréis sano y salvo en este mismo día
+
+dentro de un año.
+
+Mercader: Pero, si acepto la apuesta, estaré apostando que voy
+
+a morir durante ese año.
+
+Capitán: ¿Y por qué no, si vais a perder la apuesta, con toda
+
+seguridad?
+
+Mercader: Pero, si me ahogo, vos también os ahogaréis; ¿qué
+
+será entonces de nuestra apuesta?
+
+Capitán: Cierto. Entonces, encontraré a alguien en tierra que
+
+haga la apuesta con vuestra esposa y vuestra familia.
+
+Mercader: Eso lo cambia todo, pero ¿qué hay de mi
+
+cargamento?
+
+Capitán: ¡Bah! Podemos extender la apuesta al cargamento. O
+
+convertirla en dos apuestas: una por vuestra vida y la otra, por
+
+el cargamento. Ambos estarán a salvo, os lo aseguro. Nada
+
+sucederá, y podréis disfrutar de las maravillas de tierras lejanas.
+
+Mercader: Pero, si yo y mi mercancía hacemos el viaje con presentados por Newton (en Principia) y Leibniz. Específicamente, Berkeley
+
+seguridad, tendré que pagaros el valor de mi vida y de los
+
+bienes. Si no me ahogo, me arruinaré.
+
+Capitán: Eso también es cierto. Pero yo no salgo tan beneficiado
+
+como pensáis. Si os ahogáis, yo me ahogaré primero, pues
+
+tengo la obligación de ser el último hombre que abandone el
+
+barco cuando se vaya a pique. Pero dejadme que ejerza mi
+
+persuasión. Os haré una apuesta diez a uno. ¿Es eso tentación
+
+suficiente?
+
+Mercader: Bueno, en tal caso…
+
+El capitán ha descubierto los seguros, igual que los orfebres
+
+descubrieron el negocio bancario.
+
+Es notable que alguien como Shaw, que se lamentaba de que, durante su
+
+educación, «nadie mencionó una palabra sobre el significado o la utilidad de la
+
+matemática», escribiese este relato jocoso sobre la «historia» de la
+
+matemática de los seguros.
+
+Con la excepción del texto de Shaw, hasta ahora hemos seguido el desarrollo
+
+de la matemática a través de los ojos de matemáticos profesionales. Para estas
+
+personas, y para muchos filósofos racionalistas como Spinoza, el platonismo
+
+era evidente. No había discusión posible: las verdades matemáticas existían en
+
+un mundo propio y la mente humana podía acceder a ellas sin necesidad de
+
+observaciones, simplemente a través de la facultad de la razón. Los primeros
+
+signos de una posible discrepancia entre la percepción de la geometría
+
+euclidiana como conjunto de verdades universales y otras ramas de la
+
+matemática fueron revelados por el filósofo irlandés George Berkeley (el obispo
+
+Berkeley) (1685-1753). En un panfleto titulado El analista, o un discurso
+
+dirigido a un matemático infiel171 (que se supone que era Edmond Halley),
+
+Berkeley criticaba los mismos fundamentos del cálculo y el análisis
+
+171 El panfleto lo escribió George Berkeley en 1734. En Internet se puede encontrar una versión editada por David Wilkins. Véase Berkeley 1734.
+
+demostraba que el concepto de «fluxiones» o tasas instantáneas de cambio de
+
+Newton adolecía de una definición poco rigurosa, lo que, según el punto de
+
+vista de Berkeley, bastaba para poner en duda toda la disciplina:
+
+El método de fluxiones es la clave general de cuya ayuda se
+
+valen los matemáticos modernos para desentrañar los secretos
+
+de la Geometría y, en consecuencia, de la Naturaleza… Lo que
+
+me propongo es investigar, con la máxima imparcialidad, si este
+
+método es claro o confuso, sistemático o espurio, demostrativo
+
+o precario, coherente, y someto mis investigaciones a vuestro
+
+propio juicio y al de todo lector sincero.
+
+No se puede negar que Berkeley tenía algo de razón, y el hecho es que no se
+
+formuló una teoría del análisis totalmente coherente hasta los años sesenta del
+
+siglo XX, pero la matemática estaba a punto de sufrir una crisis más drástica en
+
+el siglo XIX.

@@ -1,0 +1,20 @@
+{
+  "authority": 20,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "quran",
+    "islam",
+    "primary-source",
+    "interreligious",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Muhammad (attrib.) / Qur'an",
+  "source_url": null,
+  "note": "El Cor\u00e1n (Qur'an, Spanish translation). Islamic scripture, primary source."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "stick-of-joseph",
+    "book-of-mormon",
+    "apologetics"
+  ],
+  "category": "books",
+  "author": "Jack H. West",
+  "source_url": null,
+  "note": "Jack H. West. El juicio del palo de Jos\u00e9 (Stick of Joseph apologetics)."
+}

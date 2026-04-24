@@ -1,0 +1,33 @@
+{
+  "title": "Sumario",
+  "author": "Stephen R. Covey",
+  "book": "Los 7 hábitos de la gente altamente efectiva",
+  "chapter": 3,
+  "total_chapters": 37,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "self-help",
+    "lds-author",
+    "bestseller",
+    "leadership"
+  ],
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/7 hábitos de la gente altamente efectiva, Los - Stephen R. Covey.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bb691aa2-5f7d-4154-8d70-f3c829a12ef2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Stephen R. Covey (1932-2012), LDS author. 7 Hábitos de la gente altamente efectiva, 1989."
+}

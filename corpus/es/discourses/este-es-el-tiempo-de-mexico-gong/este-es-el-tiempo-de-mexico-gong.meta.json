@@ -1,0 +1,32 @@
+{
+  "title": "Este es el tiempo de Mexico",
+  "author": "Gerrit W. Gong",
+  "book": "Este es el tiempo de Mexico",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "discourses",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "mexico",
+    "spanish-talk"
+  ],
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Este es el tiempo de Mexico - Gerrit W. Gong.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4933f325-7d7c-4806-a051-76381778051f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Gerrit W. Gong, Q12. Este es el tiempo de México."
+}

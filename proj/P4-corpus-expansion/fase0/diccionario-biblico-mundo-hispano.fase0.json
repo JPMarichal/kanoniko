@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-dictionary",
+    "reference-work",
+    "non-lds",
+    "evangelical"
+  ],
+  "category": "reference",
+  "author": "J. D. Douglas & Merrill C. Tenney",
+  "source_url": null,
+  "note": "J. D. Douglas & Merrill C. Tenney. Diccionario B\u00edblico Mundo Hispano."
+}

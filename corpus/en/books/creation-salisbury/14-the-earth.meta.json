@@ -1,0 +1,32 @@
+{
+  "title": "The Earth",
+  "author": "Frank B. Salisbury",
+  "book": "Creation",
+  "chapter": 14,
+  "total_chapters": 21,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "creation",
+    "science-religion",
+    "byu-botanist"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Creation - Frank B Salisbury.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "5b35ad96-54be-4d58-9b5f-fd7eb2919f3d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Frank B. Salisbury (1926-2015), BYU botanist. Creation (LDS science-religion)."
+}

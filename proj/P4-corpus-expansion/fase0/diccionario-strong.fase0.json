@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "strong-concordance",
+    "hebrew-greek",
+    "reference-work",
+    "19th-century"
+  ],
+  "category": "reference",
+  "author": "James Strong",
+  "source_url": null,
+  "note": "James Strong (1822-1894). Strong's Hebrew & Greek Dictionary (Spanish)."
+}

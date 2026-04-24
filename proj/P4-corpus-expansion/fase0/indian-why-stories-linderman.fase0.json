@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "native-american",
+    "folklore",
+    "early-20th-century",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Frank B. Linderman",
+  "source_url": null,
+  "note": "Frank B. Linderman (1869-1938). Indian Why Stories, 1915. Blackfoot/Chippewa folklore."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-archaeology",
+    "reference-work",
+    "non-lds",
+    "evangelical"
+  ],
+  "category": "reference",
+  "author": "Charles F. Pfeiffer",
+  "source_url": null,
+  "note": "Charles F. Pfeiffer. Diccionario B\u00edblico Arqueol\u00f3gico. Non-LDS evangelical reference."
+}

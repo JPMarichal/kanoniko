@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mathematics",
+    "science-religion",
+    "non-lds",
+    "popular-science"
+  ],
+  "category": "reference",
+  "author": "Mario Livio",
+  "source_url": null,
+  "note": "Mario Livio. Is God a Mathematician? (Spanish). Astrophysicist on math and cosmos."
+}

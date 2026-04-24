@@ -1,0 +1,3353 @@
+Capítulo 9
+
+Acerca de la mente humana, la matemática y el universo
+
+Las dos preguntas: (i) ¿Tiene la matemática una existencia independiente de la
+
+mente humana?, y (ii) ¿Por qué los conceptos matemáticos son aplicables
+
+mucho más allá del contexto en el que se desarrollaron originalmente?, están
+
+relacionadas entre sí por caminos complejos. Pero, para simplificar el
+
+comentario, voy a intentar encararlas una tras otra.
+
+En primer lugar podemos preguntarnos cuál es la posición de los matemáticos
+
+actuales sobre la cuestión de si la matemática es un descubrimiento o un
+
+invento. En su espléndido libro The Mathematical Experience, los matemáticos
+
+Philip Davis y Reuben Hersh describen la situación del siguiente modo:254 «La
+
+mayor parte de los autores parecen estar de acuerdo en que un matemático
+
+típico es platónico (es decir, opina que es un descubrimiento) los días
+
+laborables y un formalista (es decir, piensa que es un invento) los domingos.
+
+Esto es, cuando el matemático está haciendo matemática, está convencido de
+
+que trata con una realidad objetiva cuyas propiedades intenta determinar. En
+
+cambio, si se le obliga a dar una versión filosófica de esta realidad, prefiere
+
+fingir que, después de todo, no cree en ella».
+
+Aparte de la tentación de hablar de «los matemáticos y las matemáticas» para
+
+reflejar los cambios demográficos en la disciplina, tengo la impresión de que
+
+esta caracterización sigue siendo cierta para muchos de los actuales
+
+matemáticos y físicos teóricos. Sin embargo, algunos matemáticos del siglo XX
+
+tomaron un claro partido por una u otra postura. En representación del punto
+
+de vista platónico tenemos a G. H. Hardy, que afirma en A Mathematician's
+
+Apology:255
+
+Para mí, y supongo que para la mayoría de los matemáticos,
+
+existe otra realidad, a la que llamaré «realidad matemática», y
+
+254 Davis y Hersh 1981.
+
+255 Hardy 1940.
+
+no existe acuerdo alguno acerca de la naturaleza de esta
+
+realidad, ni entre los matemáticos ni entre los filósofos. Algunos
+
+sostienen que se trata de algo «mental» y que, en cierto
+
+sentido, la construimos nosotros; otros opinan que es externa e
+
+independiente de nosotros. Si alguien pudiese dar cuenta de la
+
+realidad matemática de una forma convincente habría resuelto
+
+un gran número de los problemas metafísicos más complejos. Si
+
+pudiese incluir la realidad física en su explicación, los habría
+
+resuelto todos.
+
+No es mi intención discutir aquí ninguna de estas cuestiones, ni
+
+siquiera en el supuesto de que tuviese la competencia para ello,
+
+pero, para evitar malentendidos, expondré mi postura de forma
+
+dogmática. Creo que la realidad matemática reside fuera de
+
+nosotros, que nuestra función es descubrirla y observarla, y que
+
+los teoremas que demostramos y que, pecando de
+
+grandilocuencia, denominamos «nuestras creaciones», son
+
+simples anotaciones de nuestras observaciones. Este ha sido, de
+
+uno u otro modo, el punto de vista sostenido por numerosos y
+
+reputados filósofos empezando por Platón, y a partir de ahora
+
+utilizaré el lenguaje natural de una persona que es partidaria de
+
+él.
+
+Los matemáticos Edward Kasner (1878-1955) y James Newman (1907-1966)
+
+expresaban justamente la postura contraría en Mathematics and the
+
+Imagination:256
+
+No es sorprendente que el prestigio de la matemática no tenga
+
+parangón en ningún otro campo del pensamiento intencional; el
+
+número de avances científicos que ha hecho posible hacen que
+
+256 Kasner y Newman 1989.
+
+sea a un tiempo indispensable desde un punto de vista práctico
+
+y la obra cumbre de la abstracción pura, de modo que el
+
+reconocimiento de su papel destacado entre las hazañas
+
+intelectuales de la humanidad no es ni más ni menos que el
+
+reconocimiento de un mérito real.
+
+Pero, a pesar de esta preeminencia, la primera valoración
+
+significativa de la matemática tuvo lugar recientemente, con la
+
+aparición de la geometría no euclidiana y la geometría
+
+tetradimensional. Eso no significa que se deban minimizar los
+
+avances efectuados en el cálculo, la teoría de probabilidades, la
+
+aritmética del infinito, la topología y otras ramas que hemos
+
+comentado. Cada uno de estos avances ha ampliado la visión de
+
+la matemática y profundizado en su significado, así como en
+
+nuestra comprensión del universo físico. Sin embargo, ninguno
+
+de ellos ha contribuido a la introspección matemática, al
+
+conocimiento de las relaciones entre las distintas partes de la
+
+disciplina entre sí y con el conjunto en mayor medida que las
+
+herejías no euclidianas.
+
+El coraje del espíritu crítico que se halla en la génesis de estas
+
+herejías nos ha permitido superar la noción de que las verdades
+
+matemáticas tienen una existencia independiente externa a
+
+nuestras mentes. Ahora incluso nos parece extraño que tal
+
+noción pudiese haber existido. Y sin embargo, es lo que
+
+hubiesen creído Pitágoras, Descartes y cientos de otros grandes
+
+matemáticos antes del siglo XIX. En la actualidad, la
+
+matemática ha roto sus cadenas y se ha liberado de sus
+
+fronteras. Sea cual sea su esencia, ahora reconocemos que es
+
+tan libre como la mente y tan indómita como la imaginación. La
+
+geometría no euclidiana demuestra que la matemática, a
+
+diferencia de la música de las esferas, es obra de la mano del
+
+hombre y está sujeta únicamente a las limitaciones que le
+
+imponen las leyes del pensamiento.
+
+Vemos aquí, en contraste con la precisión y la certeza que caracterizan las
+
+afirmaciones matemáticas, una divergencia de opiniones más propia de los
+
+debates filosóficos o políticos. Pero esto no debería sorprendernos. La cuestión
+
+de si la matemática es inventada o descubierta no es, en realidad, una cuestión
+
+matemática.
+
+La noción de «descubrimiento» implica una existencia previa en algún
+
+universo, ya sea real o metafísico. El concepto de «invento» implica a la mente
+
+humana, ya sea de forma individual o colectiva. Entonces, la pregunta está
+
+relacionada con una combinación de disciplinas entre las que pueden hallarse
+
+la física, la filosofía, la matemática, la ciencia cognitiva e incluso la
+
+antropología, pero desde luego no es exclusiva la matemática (o, al menos, no
+
+de forma directa). En consecuencia, es posible que no sean los matemáticos los
+
+que mejor puedan responderla. Después de todo, aunque los poetas pueden
+
+hacer magia con las palabras, posiblemente no sean los mejores lingüistas, del
+
+mismo modo que los filósofos más profundos no suelen ser expertos en las
+
+funciones del cerebro. La respuesta a la cuestión «inventada o descubierta»
+
+sólo puede proceder (si es que realmente es posible hallarla) de un cuidadoso
+
+examen de numerosas claves procedentes de una amplia variedad de
+
+disciplinas.
+
+Metafísica, física y cognición
+
+Los que creen que la matemática existe en un universo independiente de los
+
+humanos pueden aún dividirse en dos tipos en lo que respecta a la
+
+identificación de la naturaleza de este universo. 257 En primer lugar se
+
+encuentran los «verdaderos» platónicos, para los que la matemática reside en
+
+257 Barrow 1992 incluye una de las mejores explicaciones divulgati-vas sobre la naturaleza de la matemática. Un repaso un poco más técnico, pero accesible, de algunas de las principales ideas se halla en Kline 1992. un mundo eterno y abstracto de formas matemáticas. Luego están los que
+
+sugieren que las estructuras matemáticas son una parte real del mundo
+
+natural. Ya hemos tratado el platonismo puro y algunas de sus limitaciones
+
+filosóficas con cierta amplitud, de modo que voy a entrar en detalles acerca de
+
+la otra perspectiva.258
+
+Quizá la persona que abogue por la versión más extrema y especulativa de la
+
+tesis de «la matemática como parte del mundo físico» sea un compañero
+
+astrofísico, Max Tegmark del Massachussets Institute of Technology.
+
+Tegmark sostiene que «nuestro universo no sólo se describe mediante la
+
+matemática, sino que es matemática» (la cursiva es mía).259 Su argumento
+
+empieza por la hipótesis no especialmente polémica de que existe una realidad
+
+física externa independiente de los seres humanos. A continuación pasa a
+
+examinar cuál podría ser la naturaleza de una teoría que englobase dicha
+
+realidad (lo que los físicos llaman una «Teoría de todo»). Al ser este mundo
+
+físico totalmente independiente de los humanos, sigue Tegmark, su
+
+descripción debe estar libre de cualquier «carga» humana (en particular, el
+
+lenguaje humano). En otras palabras, la teoría definitiva no puede incluir
+
+conceptos tales como «partículas subatómicas», «cuerdas vibratorias»,
+
+«deformación del espacio-tiempo» u otros constructos concebidos por el
+
+hombre. Partiendo de esta base, Tegmark llega a la conclusión de que la única
+
+descripción posible del cosmos implica únicamente conceptos abstractos y
+
+relaciones entre ellos, lo que para él constituye la definición operativa de la
+
+matemática.
+
+El argumento de Tegmark para una realidad matemática es realmente
+
+fascinante y, en el caso de resultar cierto, supondría un avance crucial hacia la
+
+solución del problema de la «inexplicable eficacia» de la matemática. En un
+
+universo identificado con la matemática, el hecho de que esta disciplina se
+
+ajuste como un guante al comportamiento de la naturaleza no puede resultar
+
+258 Véase Barrow 1992 para otro excelente comentario de muchos de los temas de este libro. 259 Tegmark 2007a, b.
+
+sorprendente. Por desgracia, en mi opinión el razonamiento de Tegmark no es
+
+especialmente persuasivo. El salto de la existencia de la realidad externa
+
+(independiente de los seres humanos) a la conclusión de que, en palabras de
+
+Tegmark, «es necesario creer en lo que yo denomino la hipótesis del universo
+
+matemático: que nuestra realidad física es una estructura matemática»,
+
+implica, en mi opinión, un juego de prestidigitación. Tegmark intenta
+
+caracterizar lo que realmente es la matemática con estas palabras: «Para el
+
+lógico moderno, una estructura matemática es precisamente un conjunto de
+
+entidades abstractas y las relaciones entre ellas». ¡Pero este lógico moderno es
+
+humano! En otras palabras, Tegmark no demuestra en ningún momento que
+
+nuestra matemática no ha sido inventada por los seres humanos, sino que se
+
+limita a darlo por sentado. Además, tal como señala el neurobiólogo francés
+
+Jean-Pierre Changeux en respuesta a una tesis similar: «Afirmar la realidad
+
+física de los objetos matemáticos en el mismo nivel que los fenómenos
+
+naturales que se estudian en biología plantea, en mi opinión, un considerable
+
+problema epistemológico. ¿Cómo puede un estado físico interno de nuestro
+
+cerebro representar otro estado físico externo a él?».260
+
+Otros intentos de situar los objetos matemáticos en la realidad física externa se
+
+apoyan simplemente en la eficacia de la matemática para explicar la
+
+naturaleza. Pero en estos casos se supone que no es posible ninguna otra
+
+explicación de la eficacia de la matemática, lo que, como mostraré más
+
+adelante, es falso.
+
+Si la matemática no reside en el mundo platónico, fuera del espacio y del
+
+tiempo, ni en el mundo físico, ¿significa que es únicamente un invento de los
+
+seres humanos? Por supuesto que no. De hecho, mi razonamiento en la
+
+próxima sección será que la mayoría de la matemática consiste en
+
+descubrimiento. Pero, antes de avanzar más allá, será útil examinar las
+
+opiniones de los científicos cognitivos contemporáneos. El motivo es que,
+
+260 Changeux y Connes 1995.
+
+aunque la matemática consistiese únicamente en descubrimientos, serían de
+
+todos modos descubrimientos llevados a cabo por matemáticos humanos
+
+utilizando sus cerebros.
+
+Con el fabuloso avance de las ciencias cognitivas en los últimos años, era lógico
+
+pensar que los neurobiólogos y los psicólogos prestasen atención a la
+
+matemática y, específicamente, a la búsqueda de los fundamentos de la
+
+matemática en la cognición humana. Un somero repaso a las conclusiones de la
+
+mayor parte de científicos cognitivos puede traer a la mente la frase de Mark
+
+Twain: «Si un hombre empuña un martillo, todo le parece un clavo». Salvo por
+
+pequeñas variaciones en el énfasis, prácticamente todos los neuropsicólogos y
+
+biólogos determinan que la matemática es un invento humano. Sin embargo, al
+
+prestar una mayor atención a los detalles, se aprecia que, a pesar de que la
+
+interpretación de los datos cognitivos es más bien ambigua, no hay duda de
+
+que el punto de vista cognitivo representa una fase nueva y pionera en la
+
+búsqueda de los fundamentos de la matemática. He aquí una pequeña pero
+
+representativa muestra de los comentarios de los científicos cognitivos.
+
+El neurocientífico francés Stanislas Dehaene, cuyo principal interés es la
+
+cognición de los números, concluía en su libro de 1997 The Number Sense: «La
+
+intuición de los número está profundamente implantada en nuestro
+
+cerebro».261 Esta postura es, de hecho, próxima a la de los intuicionistas, que
+
+pretendían basar toda la matemática en la forma pura de la intuición de los
+
+números naturales. Dehaene razona que los descubrimientos efectuados en
+
+psicología acerca de la aritmética confirman que «el número forma parte de los
+
+objetos naturales del pensamiento, las categorías innatas mediante las cuales
+
+percibimos el mundo». A partir de otro estudio llevado a cabo con los
+
+Mundurukú (un grupo indígena amazónico completamente aislado), Dehaene y
+
+sus colaboradores agregaron un juicio similar acerca de la geometría en 2006:
+
+«La comprensión espontánea de los conceptos geométricos y de los mapas por
+
+261 Dehaene 1997.
+
+parte de esta remota comunidad humana ofrece pruebas de que los
+
+conocimientos geométricos fundamentales, igual que la aritmética básica, son
+
+constituyentes universales de la mente humana».262 Pero no todos los
+
+científicos cognitivos están de acuerdo con estas conclusiones.263 Algunos
+
+señalan, por ejemplo, que el éxito obtenido por los Mundurukú en el reciente
+
+estudio geométrico, en el que tenían que identificar una curva entre líneas
+
+rectas, un rectángulo entre cuadrados, una elipse entre círculos, etc., podría
+
+tener más relación con su capacidad visual para distinguir un objeto distinto
+
+entre otros iguales que un conocimiento geométrico innato.
+
+El neurobiólogo francés Jean-Pierre Changeux, en un fascinante diálogo acerca
+
+de la naturaleza de la matemática con el matemático (de sensibilidad
+
+platónica) Alain Connes, publicado en Conversations on Mind, Matter, and
+
+Mathematics obsevaba lo siguiente: 264 «La razón de que los objetos
+
+matemáticos no tienen nada que ver con el mundo perceptible tiene que ver …
+
+con su carácter generativo, su capacidad de dar origen a otros objetos. Es
+
+necesario destacar aquí que existe en el cerebro lo que podríamos llamar un
+
+«compartimiento consciente», una especie de espacio físico para la simulación
+
+y creación de nuevos objetos … En algunos sentidos, estos nuevos objetos
+
+matemáticos se comportan como seres vivos: como los seres vivos, son
+
+objetos físicos susceptibles de evolucionar de forma muy rápida; a diferencia
+
+de los seres vivos, con la excepción específica de los virus, evolucionan en
+
+nuestro cerebro».
+
+Finalmente, la afirmación más categórica en el debate de invención contra
+
+descubrimiento la efectuaron el lingüista cognitivo George Lakoff y el psicólogo
+
+Rafael Núñez en su controvertido libro Where Mathematics Comes From, en el
+
+que declaraban:265
+
+La matemática es una parte natural de nuestra condición
+
+262 Dehaene et al 2006.
+
+263 Véase por ejemplo Holden 2006.
+
+264 Changeux y Connes 1995.
+
+265 Lakoff y Núñez 2000.
+
+humana; surge de nuestro cuerpo, de nuestro cerebro y de
+
+nuestra experiencia cotidiana del mundo. (Lakoff y Núñez
+
+hablan pues de la matemática como algo que surge de una
+
+«mente encarnada») … La matemática es un sistema de
+
+conceptos humanos que utiliza de forma extraordinaria las
+
+herramientas ordinarias de la cognición humana … Los seres
+
+humanos somos los responsables de la creación de la
+
+matemática, y de su conservación y ampliación. El retrato de la
+
+matemática tiene rostro humano.
+
+Los científicos cognitivos basan sus conclusiones en lo que consideran una
+
+persuasiva abundancia de pruebas que son el resultado de numerosos
+
+experimentos. Algunas de estas pruebas incluyen estudios con imágenes
+
+funcionales del cerebro durante la realización de tareas matemáticas. Otros
+
+han examinado la competencia matemática de niños, de grupos de
+
+cazadores-recolectores que no han sufrido escolarización, como los
+
+Mundurukú, y de personas con diversos grados de daños cerebrales. Casi todos
+
+los investigadores están de acuerdo en que algunas capacidades matemáticas
+
+parecen ser innatas. Por ejemplo, todos los humanos son capaces de apreciar
+
+de un vistazo si están viendo uno, dos o tres objetos (esta capacidad se
+
+denomina subitizar). Una versión muy limitada de la aritmética (las
+
+operaciones de agrupar, emparejar y adiciones y sustracciones muy simples)
+
+podría también ser innata, del mismo modo que una comprensión muy básica
+
+de los conceptos geométricos (aunque esta última afirmación es más
+
+polémica). Los neurocientíficos han identificado también regiones del cerebro,
+
+como el giro angular en el hemisferio izquierdo,266 que parecen ser esenciales
+
+para la manipulación de números y cálculos matemáticos, pero que no son
+
+esenciales para el lenguaje ni para la memoria operativa.
+
+266 Véase por ejemplo Ramachandran y Biakeslee 1999.
+
+Según Lakoff y Núñez, una de las principales herramientas para el avance más
+
+allá de las habilidades innatas es la construcción de metáforas conceptuales
+
+mediante procesos que traducen conceptos a otros más concretos. Por
+
+ejemplo, la concepción de la aritmética se fundamenta en una metáfora básica,
+
+la de la recolección de objetos. Por otra parte, el álgebra de clases de Boole,
+
+más abstracta, vinculaba de forma metafórica clases a números. El elaborado
+
+escenario desarrollado por Lakoff y Núñez ofrece puntos de vista interesantes
+
+sobre las razones por las que los seres humanos encuentran algunos conceptos
+
+matemáticos mucho más difíciles que otros. Otros investigadores, como la
+
+neurocientífíca cognitiva Rosemary Varley de la Universidad de Sheffield,267
+
+sugieren que como mínimo algunas estructuras matemáticas parasitan la
+
+facultad del lenguaje, es decir, las capacidades matemáticas se desarrollan a
+
+partir de las herramientas mentales utilizadas para construir el lenguaje.
+
+Los científicos cognitivos abogan claramente por una asociación de nuestra
+
+matemática con la mente humana y se oponen al platonismo. De todos modos,
+
+es interesante apreciar que el argumento, en mi opinión, más claro contra el
+
+platonismo no viene de la neurobiología, sino de sir Michael Atiyah, uno de los
+
+matemáticos más insignes del siglo XX. De hecho, ya mencioné su línea de
+
+razonamiento en el capítulo 1, pero ahora me gustaría presentarla con mayor
+
+detalle.
+
+Si tuviese que elegir el concepto de nuestra matemática con mayor
+
+probabilidad de existir de forma independiente de la mente humana, ¿cuál
+
+elegiría? La mayor parte de las personas llegarían posiblemente a la conclusión
+
+de que deben ser los números naturales. ¿Qué puede haber más «natural» que
+
+1, 2, 3…? Incluso el matemático alemán Leopold Kronecker (1823-1891), de
+
+tendencia intuicionista, declaró: «Dios creó los números naturales. Todo lo
+
+demás es obra del hombre». Así, si se pudiese demostrar que incluso el
+
+concepto de número natural tiene su origen en la mente humana,
+
+267 Varley et al 2005; Klessinger et al 2007.
+
+representaría un gran avance en favor del paradigma del «invento». Atiyah
+
+expone de este modo sus argumentos como ya vimos: «Pero imaginemos que
+
+la inteligencia no se hubiese desarrollado en el hombre, sino en una especie de
+
+medusa colosal, solitaria y aislada en los abismos del océano Pacífico. Este ente
+
+no tendría experiencia alguna de los objetos individuales, ya que sólo estaría
+
+rodeado de agua. Sus datos sensoriales básicos se reducirían a movimiento,
+
+temperatura y presión. En este continuo puro, el concepto de discreto no
+
+podría surgir ni, por consiguiente, habría nada que contar».268 En otras
+
+palabras, Atiyah está convencido de que incluso algo tan básico como el
+
+concepto de número natural ha sido creado por los seres humanos mediante la
+
+abstracción (o, como dirían los científicos cognitivos, a través de metáforas
+
+primarias) de elementos del mundo físico. Dicho de otro modo, el número 12,
+
+por ejemplo, representa una abstracción común a todos los objetos que van
+
+agrupados en docenas, de la misma forma que la palabra «pensamientos»
+
+representa una diversidad de procesos que tienen lugar en nuestro cerebro.
+
+El lector puede poner objeciones al uso como prueba del universo hipotético de
+
+la medusa, argumentando que sólo existe un único universo inevitable y que
+
+cada suposición debe examinarse en el contexto de este universo. Sin
+
+embargo, esto sería equivalente a admitir que el concepto de número natural
+
+depende de algún modo del universo de experiencias humanas. Obsérvese que
+
+Lakoff y Núñez se referían precisamente a esto cuando hablaban de la
+
+matemática como algo «encarnado».
+
+Hasta ahora he argumentado que los conceptos de nuestra matemática tienen
+
+su origen en la mente humana, y quizá se pregunte por qué había insistido
+
+anteriormente en que gran parte de la matemática es, de hecho, descubierta,
+
+lo que parece estar más próximo al platonismo.
+
+Invento y descubrimiento
+
+268 Atiyah 1995.
+
+En el lenguaje cotidiano, la distinción entre invento y descubrimiento es en
+
+ocasiones de una claridad meridiana, mientras que en otras es algo más
+
+borroso. Nadie diría que Shakespeare descubrió Hamlet ni que Madame Curie
+
+inventó el radio. Al mismo tiempo, los nuevos fármacos para el tratamiento de
+
+ciertas enfermedades se suelen anunciar como descubrimientos, a pesar de
+
+que con frecuencia implican la meticulosa síntesis de nuevos compuestos
+
+químicos. Me gustaría describir en cierto detalle un ejemplo matemático muy
+
+específico que ayudará, no sólo a aclarar la diferencia entre invento y
+
+descubrimiento, sino que ofrecerá también valiosa información sobre los
+
+procesos de evolución y progreso de la matemática.
+
+En el Libro VI de los Elementos, la monumental obra de Euclides sobre
+
+geometría, hay una definición de cierta división de una línea en dos partes
+
+desiguales (el Libro II contiene otra definición, en términos de áreas). Según
+
+Euclides, si una línea AB se divide mediante un punto C de tal modo (figura 62)
+
+que la relación entre las longitudes de los dos segmentos (AC/CB) sea igual a la
+
+de la línea dividida por el segmento más largo (AB/AC), se dice que la línea se
+
+ha dividido en «extrema y media razón».
+
+Dicho de otra forma, si AC/CB = AB/AC, cada una de estas proporciones se
+
+denomina «razón extrema y media». Desde el siglo XIX, esta razón se
+
+denomina popularmente Razón áurea.269 Basta un poco de álgebra básica para
+
+hallar que la razón áurea es igual a (1+√5)/2 = 1,6180339887…
+
+La primera pregunta que uno puede plantearse es por qué Euclides se tomó el
+
+trabajo de definir esta división en especial y asignar un nombre a la razón.
+
+269 Para una descripción en detalle de la razón áurea, su historia y sus propiedades, véase Livio 2002 y también Herz-Fischler 1998.
+
+Después de todo, una línea se puede dividir de infinitas formas. La respuesta a
+
+esta pregunta se halla en la herencia cultural y mística de los pitagóricos y de
+
+Platón. Recordemos que los pitagóricos estaban obsesionados por los números.
+
+Pensaban que los números impares eran masculinos y buenos y, mostrando un
+
+cierto prejuicio, que los pares eran femeninos y malos. Tenían una afinidad
+
+especial por el número 5, la unión del 2 y del 3, el primer número par
+
+(femenino) y el primero impar (masculino). (El número 1 no se consideraba un
+
+número, sino el generador de todos los números.) Así, para los pitagóricos, el
+
+número 5 representaba el amor y el matrimonio, y utilizaban el pentagrama (la
+
+estrella de cinco puntas de la figura 63) como símbolo de su hermandad.
+
+Y aquí es donde hace su aparición por primera vez la razón áurea. Si se toma un
+
+pentagrama regular, la razón entre el lado de cualquiera de los triángulos y su
+
+base implícita (a/b en la figura 63) es precisamente igual a la razón áurea. De
+
+forma similar, la razón entre cualquiera de las diagonales de un pentágono
+
+regular y su lado (c/d en la figura 64) es también igual a la razón áurea.
+
+De hecho, para construir un pentágono con una regla y un compás (el proceso
+
+habitual de construcción geométrica para los antiguos griegos) es necesario
+
+dividir una línea según la razón áurea.
+
+Platón agregó un nuevo aspecto al significado mítico de la razón áurea. Los
+
+antiguos griegos creían que todo el universo se componía de cuatro elementos:
+
+tierra, fuego, aire y agua. En Timeo, Platón intentaba explicar la estructura de
+
+la materia utilizando los cinco sólidos regulares que actualmente llevan su
+
+nombre, los sólidos platónicos (figura 65).
+
+Estos sólidos convexos (el tetraedro, el cubo, el octaedro, el dodecaedro y el
+
+icosaedro) son los únicos cuyas caras son polígonos regulares iguales (en cada
+
+sólido) y cuyos vértices se hallan sobre una esfera. Platón asoció cuatro de los
+
+sólidos con los cuatro elementos cósmicos básicos. Por ejemplo, la Tierra
+
+estaba asociada con el estable cubo, el penetrante fuego con el puntiagudo
+
+tetraedro, el aire con el octaedro y el agua con el icosaedro.
+
+Acerca del dodecaedro (figura 65 (d)), Platón escribía en Timeo: «Quedando una sola figura compuesta, la quinta, Dios la utilizó para el Todo, y la bordó con
+
+motivos y dibujos». Así, el dodecaedro representaba el universo en su
+
+conjunto. Vale la pena observar que la razón áurea es parte indisoluble del
+
+dodecaedro, con sus doce caras pentagonales. Tanto su volumen como su
+
+superficie pueden expresarse en función de la razón áurea de forma simple
+
+(también en el caso del icosaedro).
+
+Así, la historia nos enseña que, a base de muchos ensayos y errores, los
+
+pitagóricos y sus seguidores descubrieron formas de construir ciertas figuras
+
+geométricas que representan conceptos importantes desde su perspectiva,
+
+como el amor y el cosmos en su conjunto. No es sorprendente que, junto con
+
+Euclides (que documentó esta tradición) inventasen el concepto de razón
+
+áurea, relacionado con estas construcciones, y lo nombrasen. A diferencia de
+
+cualquier otra razón arbitraria, el número 1,618… se convirtió en el foco de una
+
+intensa investigación a lo largo de la historia, y en la actualidad sigue
+
+apareciendo en los lugares más insospechados. Por ejemplo, dos milenios
+
+después de Euclides, el astrónomo alemán Johannes Kepler descubrió que este número aparece, de forma casi milagrosa, en relación con una secuencia
+
+numérica denominada serie de Fibonacci. La característica de la serie de
+
+Fibonacci (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233…) es que, a partir del
+
+tercero, cada número es la suma de los dos anteriores (esto es: 2 = 1 + 1; 3 =
+
+1 + 2; 5 = 2 + 3; etc.) Al dividir cada número de la serie por el inmediatamente
+
+anterior (por ejemplo, 144/89; 233/144…), se halla que los cocientes oscilan,
+
+pero se van aproximando a la razón áurea al avanzar en la secuencia. Por
+
+ejemplo (redondeando al sexto decimal): 144/89 = 1,617978; 233/144 =
+
+1,618056; 377/233 = 1,618026, etc.
+
+En épocas más modernas, la serie de Fibonacci (y, junto a ella, la razón áurea)
+
+se han hallado en la disposición de las hojas de algunas plantas (un fenómeno
+
+denominado filotaxis) y en la estructura de los cristales de ciertas aleaciones de
+
+aluminio.
+
+¿Por qué considero que la definición de Euclides del concepto de razón áurea es
+
+un invento? Porque la inventiva de Euclides señaló esta razón en particular y
+
+atrajo a ella la atención de los matemáticos. Por otro lado, en China, donde el
+
+concepto de razón áurea no se había inventado, la literatura matemática no
+
+contenía esencialmente referencia alguna a ella. En la India, en donde tampoco
+
+se había inventado el concepto, la razón áurea aparece de forma lateral
+
+únicamente en algunos insignificantes teoremas de trigonometría.
+
+Se pueden hallar numerosos ejemplos para demostrar que la pregunta «La
+
+matemática ¿es descubierta o inventada?» está mal planteada. Nuestra
+
+matemática es una combinación de inventos y descubrimientos. Los axiomas
+
+de la geometría euclidiana como concepto fueron un invento, del mismo modo
+
+que lo fueron las reglas del ajedrez. Los axiomas fueron complementados
+
+asimismo por otros diversos conceptos inventados, como triángulos,
+
+paralelogramos, elipses, la razón áurea y otros. Por otro lado, los teoremas de
+
+la geometría euclidiana fueron en su mayor parte descubrimientos; se trataba
+
+de los caminos que vinculaban entre sí los distintos conceptos. En algunos
+
+casos, las demostraciones generaron los teoremas: los matemáticos examinaban lo que podían demostrar y a partir de ahí deducían los teoremas.
+
+En otros casos, como describe Arquímedes en El método, se halló primero la
+
+respuesta a determinada cuestión de interés y, a continuación, se averiguaba
+
+la demostración.
+
+En general, los conceptos eran inventados. Como concepto, los números
+
+primos eran un invento, pero todos los teoremas acerca de números primos
+
+fueron descubiertos.270 Los matemáticos de la antigua Babilonia, Egipto y
+
+China no inventaron nunca el concepto de número primo, a pesar del avanzado
+
+estado de su matemática. ¿Podríamos decir que simplemente no habían
+
+«descubierto» los números primos? No más de lo que podemos afirmar que el
+
+Reino Unido no «descubrió» una constitución única, codificada y documental.
+
+Del mismo modo que un país puede sobrevivir sin constitución, sin el concepto
+
+de número primo es posible desarrollar una matemática elaborada. ¡Y vaya si
+
+lo era!
+
+¿Sabemos por qué los griegos inventaron conceptos como los axiomas y los
+
+números primos? Aunque no es posible afirmarlo con seguridad, podemos
+
+suponer que formaba parte de su incansable afán por investigar los
+
+constituyentes fundamentales del universo. Los números primos eran los
+
+bloques de construcción básicos de los números, del mismo modo que los
+
+«átomos» lo eran de la materia. De forma parecida, los axiomas eran la fuente
+
+de la que manaban, según se suponía, todas las verdades de la geometría. El
+
+dodecaedro representaba todo el cosmos, y la razón áurea era el concepto que
+
+otorgaba existencia a ese símbolo.
+
+Este debate saca a relucir otro de los aspectos interesantes de la matemática:
+
+que ésta forma parte de la cultura humana. Una vez que los griegos inventaron
+
+el método axiomático, los matemáticos europeos que vinieron a continuación
+
+siguieron sus pasos y adoptaron la misma filosofía y las mismas prácticas.
+
+Como observó el antropólogo Leslie A. White (1900-1975): «Si Newton se
+
+270 Hersh 2000 contiene un artículo de Yehuda Rav con un comentario acerca de estas ideas. hubiese criado dentro de la cultura de una tribu de Sudáfrica, hubiese calculado
+
+como un miembro de la tribu».271 Lo más probable es que sea esta estructura
+
+cultural de la matemática la responsable de que muchos de los
+
+descubrimientos matemáticos (como los invariantes de nudos) e incluso
+
+algunos de los principales inventos (como el cálculo) los hiciesen de forma
+
+simultánea varias personas trabajando de modo independiente.
+
+¿Habla matemática?
+
+En una sección anterior he comparado la trascendencia del concepto abstracto
+
+de un número con el del significado de una palabra. La matemática ¿es un tipo
+
+de lenguaje? Desde el punto de vista de la lógica matemática, por un lado, y de
+
+la lingüística, por otro, parece que, hasta cierto punto, lo es. Las obras de
+
+Boole, Frege, Peano, Russell, Whitehead, Gödel y sus actuales seguidores (en
+
+especial en áreas tales como la sintaxis y la semántica filosóficas, en paralelo
+
+con la lingüística) han demostrado que la gramática y el razonamiento están
+
+íntimamente relacionados con el álgebra de la lógica simbólica. Entonces, ¿por
+
+qué hay más de 6.500 lenguas pero sólo una matemática? En realidad, las
+
+distintas lenguas tienen numerosas características de diseño comunes. Por
+
+ejemplo, en la década de 1960, el lingüista norteamericano Charles F. Hockett
+
+(1916-2000) señaló que todas las lenguas tienen incorporados mecanismos
+
+para la adquisición de nuevas palabras y expresiones (por ejemplo, «ratón»,
+
+«portátil», «música indie», etc.)272 Del mismo modo, las lenguas humanas
+
+permiten expresar la abstracción (por ejemplo, surrealismo, ausencia o
+
+grandeza), la negación (como «no» o «ninguno») y la hipótesis («si la abuela
+
+hubiese tenido ruedas podría haber sido un autobús»). Quizá dos de las
+
+características más importantes de las lenguas sean el hecho de que son
+
+abiertas y su libertad para responder a estímulos. La primera representa la
+
+271 White 1947.
+
+272 Para una descripción de nivel divulgativo véase Hockett 1960.
+
+capacidad para crear y comprender frases que nunca antes se han dicho.273
+
+Por ejemplo, yo podría crear con facilidad una frase como «No se puede reparar
+
+la presa de Hoover con chicle» y, aunque lo más probable es que nunca antes
+
+haya oído esa frase, la entenderá sin ningún problema. La libertad de respuesta
+
+a estímulos es la capacidad de elegir cómo responder a un estímulo recibido, o
+
+incluso si queremos responder. Por ejemplo, la respuesta a la pregunta de la
+
+cantautora Carole King en su canción Will You Still Love Me Tomorrow? podría
+
+ser cualquiera de éstas: «No sé si seguiré vivo mañana», «Por supuesto», «Ni
+
+siquiera te quiero hoy», «No tanto como a mi perro», «Esta es sin duda tu
+
+mejor canción» o incluso «Me pregunto quién ganará el Open de Australia este
+
+año». Muchas de estas características (abstracción, negación, apertura y
+
+capacidad de evolución) son también típicas de la matemática. 274 Los
+
+lingüistas cognitivos señalan también que las lenguas humanas utilizan
+
+metáforas para expresar casi cualquier cosa. Y lo que es aún más importante:
+
+desde 1957, el año en que el célebre lingüista Noam Chomsky publicó su
+
+revolucionaria obra Syntactic Structures,275 una gran parte de los esfuerzos de
+
+los lingüistas se han dedicado al concepto de gramática universal, es decir, los
+
+principios subyacentes a todas las lenguas. Dicho de otro modo, lo que parece
+
+una Torre de Babel de diversidad puede en realidad ocultar una sorprendente
+
+similitud estructural. De hecho, si no fuese así, probablemente los diccionarios
+
+nunca hubiesen servido para nada.
+
+Es lícito seguir preguntándose por la uniformidad de la matemática, tanto en
+
+términos temáticos como de notación simbólica. La primera parte de esa
+
+pregunta es especialmente enigmática. Casi todos los matemáticos opinan que
+
+la matemática tal como la conocemos ha evolucionado a partir de las ramas
+
+básicas de la geometría y la aritmética practicadas en las antiguas
+
+civilizaciones de Babilonia, Egipto y Grecia. No obstante, ¿era realmente
+
+273 Véase Obler y Gjerlow 1999 para un ameno comentario acerca del lenguaje y el cerebro. 274 Las similitudes entre el lenguaje y la matemática se tratan también en Sanukai 2005 y Atiyah 1994. 275 Chomsky 1957. Para más información sobre lingüística, Aro-noff y Rees-Miller 2001 incluye un excelente resumen. Una interesante perspectiva de nivel divulgativo es Pinker 1994.
+
+inevitable que los inicios de la matemática se hallasen precisamente en esas
+
+disciplinas? En su monumental trabajo Un nuevo tipo de ciencia, el científico
+
+computacional Stephen Wolfram sostenía que no tenía por qué ser así.276 En
+
+concreto, Wolfram demostraba cómo, a partir de conjuntos de reglas básicas
+
+que actúan como breves programas informáticos (lo que se denomina
+
+autómatas celulares) es posible desarrollar un tipo de matemática
+
+radicalmente distinto. Estos autómatas celulares se podrían utilizar (en
+
+principio) como herramientas básicas para modelar los fenómenos naturales,
+
+en sustitución de las ecuaciones diferenciales que han dominado las ciencias
+
+durante tres siglos. Entonces, ¿qué fue lo que hizo que las antiguas
+
+civilizaciones descubriesen e inventasen nuestro «tipo» determinado de
+
+matemática? No estoy seguro, pero creo que las particularidades del sistema
+
+de percepción de los seres humanos pueden haber tenido un papel
+
+fundamental en ello. Los humanos detectan y perciben con facilidad aristas,
+
+líneas rectas y curvas suaves. Obsérvese, por ejemplo, la precisión con la que
+
+se puede determinar a simple vista si una línea es perfectamente recta o el
+
+poco esfuerzo que cuesta distinguir entre un círculo y una forma ligeramente
+
+elíptica. Estas capacidades perceptivas pueden haber modelado nuestra
+
+experiencia del mundo y, por tanto, habernos guiado hacia una matemática
+
+basada en objetos discretos (aritmética) y figuras geométricas (geometría
+
+euclidiana).
+
+En cuanto a la uniformidad de la notación simbólica, quizá sea un resultado de
+
+lo que se podría denominar «efecto Microsoft Windows»: todo el mundo utiliza
+
+el sistema operativo de Microsoft, no porque fuese inevitable conformarse a
+
+ese estándar, sino porque, una vez que el sistema operativo empezó a dominar
+
+el mercado de ordenadores, todos tuvieron que adoptarlo para facilitar las
+
+comunicaciones y la disponibilidad de los productos. De forma similar, la
+
+notación simbólica occidental ha impuesto su uniformidad en el mundo de la
+
+276 Wolfram 2002.
+
+matemática.
+
+La astronomía y la astrofísica pueden aún ofrecer interesantes contribuciones a
+
+la cuestión del «invento y descubrimiento». Los estudios más recientes de
+
+planetas extrasolares parecen indicar que alrededor del 5 por 100 de las
+
+estrellas poseen al menos un planeta girando a su alrededor, y que esta
+
+proporción permanece, en promedio, aproximadamente constante en toda la
+
+Vía Láctea. No se sabe aún qué proporción de estos planetas es similar a la
+
+Tierra, pero es posible que la galaxia contenga miles de millones de ellos.
+
+Aunque sólo una parte pequeña (pero no despreciable) de esas Tierras
+
+estuviesen en la zona habitable (el intervalo de órbitas que permiten la
+
+existencia de agua en estado líquido en la superficie) de sus estrellas, la
+
+probabilidad de que se desarrolle en esos planetas vida en general y, en
+
+particular, vida inteligente, no es nula. Si descubriésemos otra forma de vida
+
+inteligente con la que podernos comunicar, obtendríamos valiosísima
+
+información acerca de los formalismos que esta civilización habría desarrollado
+
+para explicar el cosmos. Esto supondría, no sólo un colosal avance en nuestra
+
+comprensión acerca del origen y la evolución de la vida, sino que nos permitiría
+
+comparar nuestro sistema lógico con el de estos avanzados seres.
+
+Desde un punto de vista más especulativo, ciertos escenarios cosmológicos
+
+(por ejemplo, el denominado de inflación eterna) predicen la posible existencia
+
+de múltiples universos. Algunos de estos universos pueden caracterizarse por
+
+poseer no sólo valores distintos de las constantes de la naturaleza (como la
+
+intensidad de las distintas fuerzas o las relaciones entre las masas de las
+
+partículas subatómicas) sino incluso leyes naturales completamente distintas.
+
+El astrofísico Max Tegmark sostiene que incluso debería haber un universo que
+
+correspondiese a (o, en su lenguaje, que fuese) cada posible estructura
+
+matemática.277 En tal caso, estaríamos hablando de una forma radical de la
+
+perspectiva «el universo es la matemática»; no sólo hay un mundo que se
+
+277 Para un excelente comentario sobre este asunto véase Vilenkin 2006. puede identificar con la matemática, sino un conjunto de ellos. Por desgracia,
+
+esta especulación no sólo es extremadamente radical e imposible de
+
+comprobar; también parece contradecir (al menos, en su forma más simple) lo
+
+que se ha dado en denominar principio de mediocridad.278 Como describí en el
+
+capítulo 5, si se elige una persona al azar en la calle, la probabilidad de que su
+
+altura se encuentre dentro de dos desviaciones estándar de la altura media es
+
+del 95 por 100. Se puede aplicar un argumento similar a las propiedades de los
+
+universos. Pero el número de posibles estructuras matemáticas se incrementa
+
+de forma espectacular al aumentar la complejidad. Esto se traduce en que la
+
+estructura más «mediocre» (más cercana a la media) debería de ser
+
+increíblemente compleja, lo que parece contradecir la relativa simplicidad de
+
+nuestra matemática y de nuestras teorías del universo e incumplir así las
+
+naturales perspectivas de que nuestro universo debería de ser un caso típico.
+
+El enigma de Wigner
+
+La pregunta «La matemática ¿es descubierta o inventada?» no está bien
+
+formulada, porque implica que la respuesta debe ser una o la otra y que ambas
+
+posibilidades se excluyen mutuamente. Mi sugerencia es que la matemática es
+
+en parte inventada y en parte descubierta. Lo habitual es que los seres
+
+humanos inventen los conceptos matemáticos y descubran las relaciones entre
+
+estos conceptos. Ciertos descubrimientos empíricos se efectuaron sin duda
+
+antes de la formulación de los conceptos, pero los propios conceptos ofrecieron
+
+un incentivo para el descubrimiento de teoremas adicionales. También se debe
+
+mencionar que ciertos filósofos de la matemática, como el norteamericano
+
+Hilary Putnam, adoptan una posición intermedia denominada realismo:279
+
+creen en la objetividad del discurso matemático (es decir, las frases son ciertas
+
+o falsas, y lo que hace que lo sean es externo a los seres humanos) sin
+
+278 Tegmark identificó cuatro tipos distintos de universos paralelos. En el «Nivel I» hay universos con las mismas leyes de la física pero condiciones iniciales distintas. En el «Nivel II» hay universos con las mismas ecuaciones físicas pero quizá con restricciones naturales diferentes. El «Nivel III» utiliza la interpretación de los «muchos mundos» de la mecánica cuántica, y en el «Nivel IV» hay estructuras matemáticas distintas. Tegmark 2003. 279 Putnam 1975.
+
+comprometerse (a diferencia de los platónicos) con la existencia de «objetos
+
+matemáticos». La cuestión es la siguiente: ¿ofrece alguna de estas
+
+perspectivas una explicación satisfactoria del enigma de Wigner acerca de la
+
+«eficacia inexplicable» de la matemática?
+
+Antes de responder, examinaré algunas de las posibles soluciones formuladas
+
+por algunos pensadores contemporáneos.280 El premio Nobel de Física David
+
+Gross escribe:281
+
+…un punto de vista que, según mi experiencia, no es inusual
+
+entre los matemáticos creativos, a saber, que las estructuras
+
+matemáticas que alcanzan no son creaciones de la mente
+
+humana, sino que están dotadas de una característica de
+
+naturaleza propia tan real como las estructuras creadas por los
+
+físicos para describir el mundo denominado real. Dicho de otra
+
+forma, los matemáticos no inventan nueva matemática, sino
+
+que la descubren. Si éste fuera el caso, quizá una parte de los
+
+enigmas que venimos explorando* [* La «eficacia inexplicable».
+
+(N. del a.)] no sean en realidad tan misteriosos. Si la
+
+matemática versa sobre estructuras que forman parte real del
+
+mundo natural, tan real como los conceptos de la física teórica,
+
+no es sorprendente que se trate de una herramienta eficaz en el
+
+análisis del mundo real.
+
+Dicho de otro modo, la postura de Gross es una versión de la perspectiva
+
+«matemática como descubrimiento» que se halla en algún punto intermedio
+
+entre el mundo platónico y el mundo de «el universo es matemática» (aunque
+
+más próxima al punto de vista platónico). Sin embargo, como hemos podido
+
+ver, es complicado apoyar el punto de vista de «matemática como
+
+descubrimiento». Es más: el platonismo no puede dar respuesta a la fabulosa
+
+280 Hay otras opiniones que no he comentado. Por ejemplo, Stei-ner (2005) argumenta que Wigner no prueba que sus ejemplos de la «eficacia inexplicable» tengan relación alguna con el hecho de que los conceptos sean matemáticos. 281 Gross 1988. Para un comentario más amplio acerca de la relación entre la matemática y la física, véase Vafa 2000. precisión que he descrito en el capítulo 8 (algo que el propio Gross ha
+
+reconocido).
+
+Sir Michael Atiyah, cuya perspectiva acerca de la naturaleza de la matemática
+
+comparto en general, plantea el siguiente argumento:282
+
+Si se observa el cerebro en su contexto evolutivo, el misterioso
+
+éxito de la matemática dentro de las ciencias físicas queda
+
+explicado, al menos parcialmente. El cerebro ha evolucionado
+
+para tratar con el mundo físico, de modo que no debería
+
+sorprendernos que haya desarrollado un lenguaje, la
+
+matemática, adecuado para esta finalidad.
+
+Este tipo de razonamiento es muy similar a las soluciones propuestas por los
+
+científicos cognitivos. Sin embargo, Atiyah reconoce también que no se trata
+
+de una explicación satisfactoria para los aspectos más peliagudos del problema
+
+(por ejemplo, la forma en que la matemática arroja luz sobre los aspectos más
+
+esotéricos del mundo físico) y, en particular, deja completamente en el aire la
+
+cuestión de lo que he venido denominando eficacia pasiva (es decir, los
+
+conceptos matemáticos que hallan aplicación tiempo después de su invención).
+
+Señala Atiyah: «El escéptico puede argumentar que la lucha por la
+
+supervivencia sólo nos exige enfrentarnos a fenómenos en la escala humana;
+
+sin embargo, la teoría matemática parece ser eficaz en todas las escalas, de la
+
+atómica a la galáctica». A lo que sugiere: «Puede que la única explicación
+
+resida en la naturaleza jerárquica abstracta de la matemática, que nos permite
+
+subir y bajar en la escala del mundo de forma comparativamente sencilla».
+
+El matemático y científico computacional norteamericano Richard Hamming
+
+(1915-1998) hizo extensas e interesantes aportaciones al debate del enigma
+
+de Wigner en 1980.283 En primer lugar, acerca de la naturaleza de la
+
+matemática, su conclusión era: «La matemática ha sido fabricada por el
+
+282 Atiyah 1995, y véase también Atiyah 1993.
+
+283 Hamming 1980.
+
+hombre y es, por tanto, susceptible de ser continuamente alterada por él». A
+
+continuación proponía cuatro posibles respuestas para la eficacia inexplicable:
+
+i. los efectos de selección;
+
+ii. la evolución de las herramientas matemáticas;
+
+iii. el poder de explicación limitado de la matemática, y
+
+iv. la evolución del ser humano. Voy a explicar brevemente lo que Hamming
+
+quiere decir en cada una de estas respuestas y señalar los posibles
+
+puntos débiles.
+
+Los efectos de selección son sesgos en los resultados de los experimentos,
+
+provocados por la instrumentación o por la metodología utilizadas. Por
+
+ejemplo, un pescador que utilice una red con agujeros de 25 centímetros de
+
+diámetro puede llegar a la conclusión de que todos los peces miden más de 25
+
+centímetros. Dicho de otra forma, lo que Hamming sugiere es que, en ciertos
+
+casos, «el fenómeno original surge de las propias herramientas matemáticas
+
+utilizadas, y no del mundo real … una gran parte de lo que vemos está
+
+relacionado con el color del cristal con el que miramos». Para ilustrar su
+
+argumento indica que se puede mostrar que cualquier fuerza que emane
+
+simétricamente de un punto (y conserve la energía) en el espacio de tres
+
+dimensiones debe seguir una ley del cuadrado inverso, de modo que no es
+
+sorprendente que la ley de gravitación de Newton sea aplicable. Aunque el
+
+argumento de Hamming es correcto, los efectos de selección no son capaces de
+
+explicar el fantástico nivel de precisión de algunas teorías.
+
+La segunda posible solución de Hamming se basa en el hecho de que los seres
+
+humanos seleccionan y mejoran de forma continua la matemática para que se
+
+adapte a situaciones concretas. En otras palabras, Hamming propone que
+
+estamos asistiendo a lo que podríamos llamar una «evolución y selección
+
+natural» de las ideas matemáticas: los humanos inventan un gran número de
+
+conceptos matemáticos y sólo se seleccionan los más aptos. Durante años yo
+
+mismo he creído que este argumento ofrecía una explicación completa. El premio Nobel de Física Steven Weinberg proponía una interpretación similar en
+
+su libro El sueño de una teoría final.284 ¿Podría ser ésta la explicación del
+
+enigma de Wigner? No cabe la menor duda de que, en efecto, estos procesos
+
+de selección y evolución tienen lugar. Después de filtrar numerosos
+
+formalismos y herramientas matemáticas, los científicos conservan las que
+
+funcionan y las actualizan y modifican a medida que surgen otras mejores.
+
+Pero, aunque aceptemos esta idea, ¿por qué existen teorías matemáticas
+
+capaces de explicar el universo?
+
+El tercer argumento de Hamming es que nuestra impresión de la eficacia de la
+
+matemática puede ser, de hecho, ilusoria, ya que una gran parte del mundo
+
+que nos rodea no puede explicarse mediante la matemática. Esta perspectiva
+
+toma fuerza, por ejemplo, en esta cita del matemático Israïl Moiseevich
+
+Gelfand:285 «Sólo hay una cosa que sea más inexplicable que la inexplicable
+
+eficacia de la matemática en física, y es su inexplicable ineficacia en biología».
+
+(El subrayado es mío.) Pero no creo que esto baste para dar explicación al
+
+problema de Wigner. Es cierto que, a diferencia de lo que sucede en la Guía del
+
+autoestopista galáctico, no podemos decir que la respuesta a la vida, el
+
+universo y todo lo demás sea 42. Sin embargo, el número de fenómenos que la
+
+matemática sí ayuda a dilucidar es lo bastante grande como para justificar una
+
+explicación. Es más: la variedad de hechos y procesos que se pueden
+
+interpretar desde un punto de vista matemático no hace más que ampliarse
+
+continuamente.
+
+Hamming tomó en consideración una posible cuarta explicación, muy similar a
+
+la que había sugerido Atiyah: que la «evolución darwiniana seleccionaría de
+
+forma natural para su supervivencia las formas de vida en competición que
+
+tuviesen en su mente los mejores modelos de la realidad, siendo «los mejores»
+
+los más aptos para la supervivencia y la propagación.
+
+El científico computacional Jef Raskin (1943-2005), uno de los iniciadores del
+
+284 Weinberg 1993.
+
+285 En Borovik 2006.
+
+proyecto Macintosh para Apple Computer, tenía un punto de vista similar, con
+
+especial énfasis en la función de la lógica. Su conclusión era que:
+
+La lógica humana nos ha sido impuesta por el mundo físico y es, por tanto,
+
+coherente con él. La matemática deriva de la lógica, y por ese motivo es
+
+coherente con el mundo físico. No es ningún misterio, pero eso no significa que
+
+debamos perder nuestra capacidad de sorprendernos y maravillarnos ante la
+
+naturaleza a medida que llegamos a comprenderla mejor.
+
+Hamming, que no estaba tan convencido, a pesar de la solidez de sus propios
+
+argumentos, señaló que:
+
+Si se toma como edad de la ciencia 4.000 años, se obtiene generalmente un
+
+límite superior de 200 generaciones. Considerando los efectos de la evolución
+
+mediante la selección de pequeñas variaciones aleatorias, no me parece que la
+
+evolución sea capaz de explicar más que una pequeña parte de la eficacia
+
+inexplicable de la matemática.
+
+Raskin sostenía que «los fundamentos de la matemática se habían establecido
+
+mucho antes de la llegada de nuestros antepasados, probablemente a lo largo
+
+de millones de generaciones286». Pero debo decir que este argumento no me
+
+parece especialmente convincente. Aunque la lógica esté firmemente
+
+arraigada en los cerebros de nuestros antepasados, es difícil ver cómo este
+
+hecho puede haber conducido a la aparición de teorías matemáticas abstractas
+
+del mundo subatómico (como la mecánica cuántica o los formalismos
+
+conocidos como teorías «gauge») de fabulosa precisión.
+
+Es sorprendente constatar que Hamming concluía su artículo admitiendo que
+
+«todas las explicaciones que he ofrecido, una vez unidas, no bastan para
+
+aclarar lo que pretendía» (la eficacia inexplicable de la matemática).
+
+Entonces, ¿debemos concluir que esta eficacia sigue siendo igual de enigmática
+
+que al principio?
+
+Antes de rendirnos, vamos a intentar llegar a la esencia del misterio de Wigner;
+
+286 Raskin 1998.
+
+para ello vamos a examinar lo que se denomina método científico. En primer
+
+lugar, los científicos averiguan, a través de una serie de experimentos y
+
+observaciones, hechos acerca de la naturaleza. Estos hechos se utilizan
+
+inicialmente para desarrollar una especie de «modelos» cualitativos de los
+
+fenómenos (por ejemplo, la Tierra atrae las manzanas, la colisión de partículas
+
+subatómicas puede producir otras partículas, el universo se expande, etc.). En
+
+muchas de las ramas de la ciencia, las teorías incipientes pueden incluso no ser
+
+matemáticas. Uno de los mejores ejemplos de una teoría de este tipo con una
+
+inmensa capacidad para explicar los fenómenos es la teoría de la evolución de
+
+Darwin. Aunque la selección natural no está basada en formalismo matemático
+
+alguno, es notable su éxito en la explicación del origen de las especies. En física
+
+fundamental, por el contrario, el paso siguiente suele consistir en intentar
+
+construir teorías cuantitativas, matemáticas (por ejemplo, la relatividad
+
+general, la electrodinámica cuántica, la teoría de cuerdas, etc.). Finalmente,
+
+los investigadores utilizan esos modelos matemáticos para predecir nuevos
+
+fenómenos, nuevas partículas y resultados de experimentos y observaciones
+
+nunca realizados. Lo que confundía a Wigner y a Einstein era la increíble
+
+precisión del resultado de estos dos últimos procesos. ¿Cómo es posible que,
+
+una y otra vez, los físicos puedan hallar herramientas matemáticas que no sólo
+
+expliquen los resultados experimentales y las observaciones anteriores, sino
+
+que lleven a descubrir nuevos criterios y efectuar nuevas predicciones? Voy a
+
+intentar dar respuesta a esta versión de la pregunta a partir de un ejemplo del
+
+matemático Reuben Hersh. Hersh proponía que, en el espíritu del análisis de
+
+muchos de estos problemas de la matemática (y, desde luego, de la física
+
+teórica), se debía examinar el más simple de los casos posibles.287 Pensemos
+
+en el experimento aparentemente trivial de introducir guijarros en un jarrón
+
+opaco. Supongamos que metemos primero cuatro guijarros blancos y luego
+
+siete guijarros negros. En algún momento de la historia, los humanos
+
+287 Hersh 2000 contiene excelentes artículos escritos por Hersh.
+
+aprendieron que, en algunos casos, podían representar un grupo de guijarros
+
+de cualquier color mediante un concepto abstracto que habían inventado: un
+
+número natural. Es decir, el conjunto de guijarros blancos se podía asociar con
+
+el número 4 (o IIII, IV o cualquiera que fuese el símbolo utilizado en la época)
+
+y el de guijarros negros, con el número 7. A través de experimentos como el
+
+descrito, los seres humanos descubrieron que otro concepto inventado (la
+
+adición aritmética) representaba correctamente el acto físico de acumular.
+
+Dicho de otra forma, el resultado del proceso abstracto denotado
+
+simbólicamente por 4 + 7 puede predecir de forma no ambigua el número final
+
+de guijarros en el jarrón. ¿Qué significa todo esto? ¡Significa que los seres
+
+humanos han desarrollado una increíble herramienta matemática, capaz de
+
+predecir de forma fiable el resultado de cualquier experimento de este tipo!
+
+Esto puede parecer una trivialidad, pero no lo es, porque esta misma
+
+herramienta no sirve, por ejemplo, con gotas de agua. Si se vierten cuatro
+
+gotas de agua en el jarrón una a una y, a continuación, otras siete gotas, no se
+
+obtienen once gotas de agua independientes. De hecho, para poder efectuar
+
+predicciones en experimentos similares con líquidos o gases, los seres
+
+humanos tuvieron que inventar conceptos completamente distintos (como el
+
+de peso) y darse cuenta de que era necesario pesar cada gota de agua o
+
+volumen de gas de forma individual.
+
+La conclusión es clara: las herramientas matemáticas no se han elegido de
+
+forma arbitraria, sino precisamente por su capacidad para predecir de forma
+
+correcta los resultados de los experimentos u observaciones pertinentes. De
+
+manera que, al menos en este caso tan simple, su eficacia estaba garantizada.
+
+Los seres humanos no tuvieron que adivinar a priori cuáles eran las
+
+matemáticas correctas: la Naturaleza tuvo la gentileza de permitirles utilizar el
+
+ensayo y error para determinar qué era lo que funcionaba. Tampoco tenían que
+
+utilizar obligatoriamente las mismas herramientas para todas las
+
+circunstancias. A veces, el formalismo matemático apropiado para
+
+determinado problema no existía y alguien tuvo que inventarlo (es el caso de Newton y su invención del cálculo, o de las diversas ideas en geometría y
+
+topología surgidas en el contexto de los actuales estudios en teoría de
+
+cuerdas). En otros casos, el formalismo ya existía, pero era necesario descubrir
+
+que se trataba de una solución en espera del problema adecuado (como en el
+
+caso del uso de la geometría de Riemann por Einstein, o de la teoría de grupos
+
+en física de partículas). La cuestión es que su extraordinaria curiosidad, su
+
+perseverancia, su imaginación creativa y su intensa determinación han
+
+permitido a los seres humanos hallar los formalismos matemáticos relevantes
+
+para crear modelos de un gran número de fenómenos físicos.
+
+Una de las características de la matemática que ha resultado esencial para lo
+
+que he venido denominando su eficacia «pasiva» ha sido su validez
+
+esencialmente eterna. La geometría euclidiana sigue siendo tan correcta en la
+
+actualidad como lo era en el año 300 a.C. Ahora comprendemos por qué sus
+
+axiomas no son inevitables y, en lugar de representar verdades absolutas
+
+acerca del espacio, representan verdades dentro del universo particular que los
+
+seres humanos percibimos y de su formalismo asociado. Sin embargo, una vez
+
+que hemos comprendido que su contexto es más limitado, todos sus teoremas
+
+siguen siendo ciertos. Dicho de otro modo, las distintas ramas de la
+
+matemática se incorporan a ramas más amplias (por ejemplo, la geometría
+
+euclidiana es sólo una de las posibles versiones de la geometría), pero la
+
+corrección se conserva dentro de cada rama. Esta longevidad indefinida ha
+
+permitido que los científicos de cada época buscasen las herramientas
+
+adecuadas dentro del arsenal de formalismos desarrollados.
+
+De todos modos, el ejemplo sencillo de los guijarros en el jarrón deja en el aire
+
+dos de los elementos del enigma de Wigner. En primer lugar se halla la
+
+siguiente cuestión: ¿por qué en algunos casos parece que, en términos de
+
+exactitud, obtenemos de la teoría más de lo que hemos puesto? En el
+
+experimento de los guijarros, la exactitud de los resultados «predichos» (la
+
+acumulación de otros conjuntos de guijarros) no es mejor que la exactitud de
+
+los experimentos que condujeron a la formulación inicial de la teoría (la adición aritmética). Por otro lado, se ha demostrado que la exactitud de las
+
+predicciones de la teoría de la gravitación de Newton supera en gran medida la
+
+de los resultados observacionales que motivaron la formulación de la teoría.
+
+¿Por qué? Vamos a recapitular brevemente sobre la historia de la teoría de
+
+Newton.
+
+El modelo geocéntrico de Ptolomeo fue el dominante durante unos quince
+
+siglos. Aunque el modelo no pretendía ser universal (el movimiento de cada
+
+planeta se trataba de forma individual) y no mencionaba nada acerca de
+
+causas físicas (como fuerzas o aceleraciones), se ajustaba razonablemente a
+
+las observaciones. Nicolaus Copernicus (1473-1543) publicó su modelo
+
+heliocéntrico en 1543, y Galileo le proporcionó una base sólida. Galileo
+
+estableció también los fundamentos de las leyes del movimiento. Pero fue
+
+Kepler quien dedujo las primeras leyes matemáticas (aunque sólo
+
+fenomenológicas) del movimiento planetario a partir de observaciones. Kepler
+
+utilizó una colosal cantidad de datos recopilados por el astrónomo Tycho Brahe
+
+(1546-1601) para determinar la órbita de Marte.288 A los centenares de
+
+páginas de cálculos que tuvo que llevar a cabo los denominó «mi guerra
+
+personal con Marte». Salvo por un par de discrepancias, las observaciones se
+
+ajustaban a una órbita circular. Sin embargo, Kepler no quedó satisfecho con
+
+esta solución, y más adelante describió así sus cavilaciones: «Si hubiese
+
+pensado que podía hacer caso omiso de esos ocho minutos [de arco, alrededor
+
+de una cuarta parte del diámetro de la luna llena], hubiese modificado mis
+
+hipótesis … en consecuencia. Pero no era aceptable ignorarlos, de modo que
+
+esos ocho minutos señalaron el camino de una reforma total de la astronomía».
+
+Las consecuencias de esta meticulosidad fueron fenomenales. Kepler dedujo
+
+que las órbitas de los planetas no son circulares, sino elípticas, y formuló dos
+
+leyes cuantitativas adicionales que podían aplicarse a todos los planetas.
+
+Unidas a las leyes de movimiento de Newton, se convirtieron en la base para la
+
+288 Los propios libros escritos por Kepler, Kepler 1981 y 1997, son una interesante lectura para los interesados en la historia de la ciencia. Excelentes biografías son Caspar 1993 y Gingerich 1973. ley de la gravitación universal. Recordemos, no obstante, que Descartes había
+
+propuesto antes su teoría de los vórtices, en la que los planetas eran
+
+transportados alrededor del Sol por vórtices de partículas en movimiento
+
+circular. Esta teoría no tuvo demasiado predicamento, ni siquiera antes de que
+
+Newton demostrase que era incoherente, porque Descartes no había
+
+desarrollado un tratamiento sistemático de los vórtices.
+
+¿Qué lección podemos extraer de esta breve historia? No cabe duda de que la
+
+ley de la gravitación de Newton fue la obra de un genio. ¡Pero este genio no se
+
+encontraba aislado en el vacío! Una parte de los cimientos habían sido
+
+establecidos anteriormente con gran meticulosidad por otros científicos. Como
+
+ya señalé en el capítulo 4, matemáticos de un nivel mucho menor que el de
+
+Newton, como el arquitecto Christopher Wren y el físico Robert Hooke, habían
+
+sugerido de forma independiente la ley de atracción del cuadrado inverso. La
+
+grandeza de Newton consistió en su capacidad única para ligarlo todo en forma
+
+de una teoría unificada y su terquedad para hallar demostraciones
+
+matemáticas de las consecuencias de su teoría. Podemos preguntarnos por qué
+
+este formalismo resultó ser tan preciso. En parte se debió a que trataba el
+
+problema más fundamental: las fuerzas entre dos cuerpos graves y el
+
+movimiento resultante, sin otros factores que complicasen el escenario.
+
+Newton sólo obtuvo una solución completa para este problema. Así, la teoría
+
+fundamental era extraordinariamente precisa, pero sus implicaciones tuvieron
+
+que sufrir una continua corrección. El sistema solar se compone de más de dos
+
+cuerpos. Cuando se incluyen los efectos de otros planetas (siguiendo
+
+igualmente la ley del cuadrado inverso), las órbitas dejan de ser simples
+
+elipses. Por ejemplo, se ha hallado que la órbita de la Tierra cambia lentamente
+
+su orientación en el espacio (un movimiento denominado precesión), algo
+
+parecido a lo que sucede con el eje de una peonza en rotación. De hecho, los
+
+estudios más modernos han mostrado que, en contradicción con las
+
+expectativas de Laplace, es posible que las órbitas de los planetas acaben convirtiéndose en caóticas.289 La propia teoría fundamental de Newton fue,
+
+desde luego, destronada por la relatividad general de Einstein, y esa misma
+
+teoría apareció después de una serie de salidas en falso y de «casi» dianas.
+
+Esto demuestra que no es posible prever la exactitud. Para probar el pastel es
+
+necesario comérselo: hasta obtener la precisión deseada, se efectúan todas las
+
+correcciones y modificaciones necesarias. Los casos en los que se logra una
+
+exactitud superior en un solo paso parecen milagros.
+
+En segundo plano tenemos, parece claro, un hecho esencial que hace que la
+
+búsqueda de leyes fundamentales valga la pena. Se trata del hecho de que la
+
+naturaleza ha sido tan amable de obedecer leyes universales, en lugar de
+
+simples normas locales. Un átomo de hidrógeno se comporta exactamente del
+
+mismo modo en la Tierra, en el otro extremo de la Vía Láctea o en una galaxia
+
+a diez mil millones de años luz de distancia. Y esto se cumple en todas las
+
+direcciones y momentos.
+
+Los matemáticos y físicos han inventado un término para referirse a estas
+
+propiedades: se denominan simetrías, y dan cuenta de la inmunidad a los
+
+cambios en la ubicación, en la orientación o el momento en que se pone en
+
+marcha el reloj. Si no fuese por estas (y otras) simetrías, la esperanza de
+
+descifrar algún día el gran plan de la naturaleza se hubiese perdido, porque los
+
+experimentos deberían haberse repetido en todos los lugares del espacio (si es
+
+que hubiese sido posible la aparición de la vida en un universo así). Otra de las
+
+propiedades del cosmos que subyace tras las teorías matemáticas es lo que se
+
+ha venido en llamar localidad. Esta propiedad refleja nuestra capacidad para
+
+construir la «imagen global» como si fuese un rompecabezas, empezando por
+
+una descripción de las interacciones más básicas entre partículas elementales.
+
+Y ahora llegamos al último elemento del enigma de Wigner: ¿qué es lo que
+
+garantiza que deba existir siquiera una teoría matemática? En otras palabras:
+
+¿por qué existe, por ejemplo, una teoría de la relatividad general? ¿Podría ser
+
+289 Para una revisión véase, por ejemplo, Lecar et al. 2001.
+
+que no existiese una teoría matemática de la gravedad?
+
+La respuesta, en realidad, es más simple de lo que podría parecer.290 ¡No hay
+
+garantía alguna! Hay multitud de fenómenos para los que ni siquiera en
+
+principio es posible efectuar predicciones precisas. En esta categoría se hallan,
+
+por ejemplo, una amplia gama de sistemas dinámicos que desarrollan
+
+comportamientos caóticos, en los que un cambio nimio en las condiciones
+
+iniciales puede provocar resultados finales completamente distintos. Entre los
+
+fenómenos con este tipo de comportamientos se encuentran el mercado de
+
+valores, el tiempo atmosférico sobre las Montañas Rocosas, una bola
+
+rebotando en una ruleta, el humo que sale de un cigarrillo y, por supuesto, las
+
+órbitas de los planetas en el sistema solar. Esto no significa que los
+
+matemáticos no hayan desarrollado formalismos ingeniosos para tratar
+
+aspectos importantes de estos problemas, pero no existe una teoría
+
+determinista predictiva para ellos. Los campos de la probabilidad y la
+
+estadística se han creado precisamente para abordar las cuestiones en las que
+
+no se dispone de una teoría que permita obtener resultados más allá de las
+
+observaciones. De forma similar, el concepto denominado complejidad
+
+computacional delimita nuestra capacidad para resolver problemas mediante
+
+algoritmos prácticos, y los teoremas de incompletitud de Gödel determinan
+
+ciertas limitaciones dentro de la propia matemática. Así, aunque la matemática
+
+es extremadamente eficaz para ciertas descripciones, en especial las que
+
+tienen que ver con la ciencia, es incapaz de describir nuestro universo en todas
+
+sus dimensiones. Hasta cierto punto, los científicos han seleccionado los
+
+problemas en los que trabajan basándose en cuáles pueden recibir un
+
+tratamiento matemático.
+
+Entonces, ¿hemos resuelto definitivamente el misterio de la inexplicable
+
+eficacia de la matemática? Dudo mucho que los argumentos que he expuesto
+
+en este libro hayan dejado completamente convencidas a todas las personas.
+
+290 Raymond 2005 contiene una interesante explicación sobre la utilidad de la matemática. Certeros puntos de vista sobre el enigma de Wigner se pueden también hallar en Wilczek 2006, 2007.
+
+Sin embargo, puedo citar a Bertrand Russell en Los problemas de la filosofía:291
+
+Para resumir nuestro análisis sobre el valor de la filosofía: la
+
+filosofía debe ser estudiada, no por las respuestas concretas a
+
+los problemas que plantea, puesto que, por lo general, ninguna
+
+respuesta precisa puede ser garantizada como verdadera, sino
+
+más bien por el valor de los problemas mismos; porque estos
+
+problemas amplían nuestra concepción de lo posible, enriquecen
+
+nuestra imaginación intelectual y disminuyen la seguridad
+
+dogmática que cierra el espíritu a la investigación; pero, ante
+
+todo, porque por la grandeza del Universo que la filosofía
+
+contempla, el espíritu se hace a su vez grande, y llega a ser
+
+capaz de la unión con el Universo que constituye su supremo
+
+bien.
+
+291 Russell 1997.
+
+Bibliografía
+
+· Aczel, A. D. 2000, The Mystery of the Aleph: Mathematics, the Kabbalah
+
+and the Search for Infinity (Four Walls Eight Windows, Nueva York); —,
+
+2004, Chance: A Guide to Gambling, Love, the Stock Market, and Just
+
+about Everything Else (Thunder's Mouth Press, Nueva York); —, 2005,
+
+Descartes ' Secret Notebook (Broadway Books, Nueva York).
+
+· Adams, C. 1994, The Knot Book: An Elementary Introduction to the
+
+Mathematical Theory of Knots (W. H. Freeman, Nueva York).
+
+· Adam, C. y Tannery, P. 1897-1910, Oeuvres des Descartes. Edición
+
+revisada 1964-1976 (París: Vrin/CNRS). La traducción al inglés más
+
+exhaustiva es: (Nottingham, J., Stoothoff, R. y Murdoch, D. 1985, The
+
+Philosophical Writing of Descartes (Cambridge University Press,
+
+Cambridge).
+
+· Alexander, J. W. 1928, Transactions of the American Mathematical
+
+Society, 30, 275.
+
+· Applegate, D. L., Bixby, R. E., Chvátal, V. y Cook, W.J. 2007, The
+
+Traveling Salesman Problem (Princeton University Press, Princeton).
+
+· Archibald, R. C. 1914, American Mathematical Society Bulletin, vol. 20,
+
+409.
+
+· Aronoff, M. y Rees-Miller, J. 2001, The Handbook of Linguistics (Blackwell
+
+Publishing, Oxford).
+
+· Ashley, C. W. 1944, The Ashley Book of Knots (Doubleday, Nueva York).
+
+· Atiyah, M. 1990, The Geometry and Physics of Knots (Cambridge
+
+University Press, Cambridge); —, 1993, Proceedings of the American
+
+Philosophical Society, vol. 137, num. 4, 517; —, 1994, Supplement to
+
+Royal Society Netos, vol. 7, num. 12; —, 1995, Times Higher Education
+
+Supplement, 29 de septiembre.
+
+· Atiyah, M. F. 1989, Publications Mathématiques de Uns t. des Hautes
+
+Eludes
+
+· Scientifiques, Paris, 68, 175. Baillet, A. 1691, La Vie de M. Des-Cartes
+
+(Daniel Horthemels, Paris). Un facsímil fotográfico se publicó en 1972
+
+(Olms, Hildesheim) y 1987
+
+· (Garner, Nueva York). Balz, A. G. A. 1952, Descartes and the Modem
+
+Mind (Yale University Press, New Haven).
+
+· Barnes, J. y Lawrence, G. (trad.) 1984, Aristóteles ca. 350 a.C,
+
+Metaphysics, en The Complete Works of Aristotle, ed. J. Barnes
+
+(Princeton University Press, Princeton).
+
+· Barrow, J. D. 1992, Pi in the Sky: Counting, Thinking, and Being
+
+(Clarendon Press, Oxford); —, 2005, The Infinite Booh: A Short Guide to
+
+the Boundless, Timeless and Endless (Pantheon, Nueva York).
+
+· Beaney, M. 2003, en N. Griffin (ed.). The Cambridge Companion to
+
+Bertrand Russell (Cambridge University Press, Cambridge).
+
+· Begsadde, M. 1993, en Essays on the Philosophy and Science of René
+
+Descartes, ed. S. Voss (Oxford University Press, Oxford).
+
+· Bell, E. T. 1937, Men of Mathematics: The Lives and Achievements of the
+
+Great Mathematicians from Zeno to Poincaré (Touchstone, Nueva York);
+
+—, 1940, The Development of Mathematics (McGraw-Hill, Nueva
+
+York);—, 1951, Mathematics: Queen and Servant of Science
+
+(McGraw-Hill, Nueva York).
+
+· Bel tran Mari, A. 1994, en la introducción al Diálogo Sobre los Dos
+
+Máximos Sistemas del Mundo (Alianza Editorial, Madrid).
+
+· Bennett, D. 2004, Logic Made Easy: How to Know When Language
+
+Deceives You (W. W. Norton, Nueva York).
+
+· Berger. E. B. y Starbird, M. 2005, Coincidences, Chaos, and All That Math
+
+Jazz: Making Light of Weighty Ideas (W. W. Norton, Nueva York).
+
+· Berkeley, G. 1734, The Analyst: Or a Discourse Addressed to an Infidel
+
+Mathematician, D. R. Wilkins (ed),
+
+http://www.maths.tcd.ie/pub/HistMath/People/Berkeley/Analyst/Analys
+
+t.html.
+
+· Berlin ski, D. 1996, A Tour of the Calculus (Pantheon Books, Nueva
+
+York).
+
+· Bernardini, G. y Fermi, L. (trad.) 1965, The Little Balance, en Galileo and
+
+the Scientific Revolution (Nueva York; Fawet Premier). Se trata de una
+
+traducción de 1890-1909, Le Opere di Galileo Galilei, ed. A. Favaro (G.
+
+Barbero, Florencia).
+
+· Bernoulli,J 1713, Ars Conjectandi (Thamisiorum, Basilea).
+
+· Black, F. y Scholes, M. 1973, Journal of Political Economy, 81 (3), 637.
+
+· Bloom, A. (trad.) 1968, Platon, The Republic (Basic Books, Nueva York).
+
+· Blumberg, R. B., Mendel's Paper in English,
+
+http://www.mendelweb.org/Mendel.plain.html.
+
+· Bodanis, D. 2000, E = me: A Biography of the World's Most Famous
+
+Equation (Walker, Nueva York).
+
+· Bonola, R. 1955, Non-Euclidean Geometry, H. S. Carshaw (trad.) (Dover
+
+Publications, Nueva York). Se trata de una reedición de la traducción de
+
+1912 (publicada por Open Court Publishing Company).
+
+· Boole, G. 1847, The Mathematical Analysis of Logic, Being an Essay
+
+totoards a Calculus of Deductive Reasoning, reproducido en Ewald 1996;
+
+—, 1854. An Investigation of the Laws of Thought on Which Are Founded
+
+the Mathematical Theories of Logic and Probabilities (Macmillan,
+
+Londres). Reimpreso en 1958 (Dover Publications, Mineóla, NY).
+
+· Boolos, G. 1985, Mind, 94, 331; —, 1999, Logic, Logic, Logic (Harvard
+
+University Press, Cambridge, MA).
+
+· Borovik, A. 2006, Mathematics under the Microscope,
+
+http://www.maths.
+
+manchester.ac.uk/~avb/micromathematics/downloads.
+
+· Brewster. D. 1831, The Life of Sir Isaac Netuton (John Murray, Albemarle
+
+Street, Londres).
+
+· Bukowski. J. 2008, The College Mathematics Journal, vol. 39, num. 1, 2.
+
+· Burkert, W. 1912, Lore and Science in Ancient Pythagoreanism (Harvard
+
+University Press, Cambridge, MA).
+
+· Cajori, F. 1926, The American Mathematical Monthly, vol. 33, num. 8,
+
+397; —, 1928, en Sir Isaac Newton 1727-1927: A Bicentenary Evaluation
+
+of His Work, The History of Science Society (The Williams & Wilkins
+
+Company, Baltimore).
+
+· Cardano, G. 1545, Artis Magnae, sive de regulis algebraices, editado en
+
+1968 con el título The Great Art or the Rules of Algebra, T. R. Witmer
+
+(trad, y ed.) (MIT Press, Cambridge, MA).
+
+· Caspar, M. 1993, Kepler, C. D. Hellman (trad.) (Dover Publications,
+
+Mineóla, NY).
+
+· Chandrasekhar, S. 1995, Newton's Principia for the Common Reader
+
+(Clarendon Press, Oxford).
+
+· Changeaux, J.-P. y Connes, A. 1995, Conversations on Mind, Matter, and
+
+Mathematics (Princeton University Press, Princeton).
+
+· Cherniss, H. 1945, The Riddle of the Early Academy (University of
+
+California Press Berkeley), reimpreso en 1980 (Garland, Nueva York); —,
+
+1951, Review of Metaphysics, 4, 395.
+
+· Chomsky, N. 1957, Syntactic Structures (Mouton & Co., The Hague).
+
+· Clark, M. 2002, Paradoxes from A to Z (Routledge, Londres).
+
+· Clarke, D. M. 1992, en The Cambridge Companion to Descartes, ed. J.
+
+Cot-
+
+· tingham (Cambridge University Press, Cambridge). Cohen, I. B. 1982, en
+
+Contemporary Newtonian Research, ed. Z. Bechler
+
+· (Reidel, Dordrecht). —, 2006, The Triumph of Numbers (W. W. Norton 8c
+
+Company, Nueva York).
+
+· Cohen, I. B. y Whitman, A. (con la asistencia de J. Budenz) 1999, The
+
+Principia: Mathematical Principles of Natural Philosophy (University of
+
+California Press, Berkeley).
+
+· Cohen, P.J. 1966, Set Theory and the Continuum Hypothesis (W. A.
+
+Benjamin, Nueva York).
+
+· Cole, J. R. 1992, The Olympian Dreams and Youthful Rebellion of René
+
+Descartes (University of Illinois Press, Champaign, IL).
+
+· Connor, J. A. 2006, Pascal's Wager: The Man Who Played Dice with God
+
+(Harper Collins, Nueva York).
+
+· Conway, J. H. 1970, en Computational Problems in Abstract Algebra, ed.
+
+J. Leech (Pergamon Press, Oxford), 329.
+
+· Coresia, G. 1612, Operetta intorno al galleggiare de' corpi solidi.
+
+Reimpreso en Le Opere di Galileo Galilei. Favoro A. (ed.) 1968, Le Opere
+
+di Galileo Galilei, Edizione Nazionale, (Barbero, Florencia). Primera
+
+aparición en 1890-1909.
+
+· Cottingham,J. 1986, Descartes (Blackwell, Oxford).
+
+· Craig, SirJ. 1946, Newton at the Mint (Cambridge University Press,
+
+Cambridge).
+
+· Curley, E. 1993, en Essays on the Philosophy and Science of René
+
+Descartes, ed. S. Voss (Oxford University Press, Oxford).
+
+· Curzon, G. 2004, Wotton and His Words: Spying, Science and Venetian
+
+Intrigues (Xlibris Corporation, Filadelfia).
+
+· Davies, P. 2001, How to Build a Time Machine (Allen Lane, Nueva York).
+
+· Davis, P.J. y Hersh, R 1981, The Mathematical Experience (Birkhaüser,
+
+Boston). También 1998 (Mariner Books, Boston).
+
+· Dawkins, R. 2006, The God Delusion (Houghton Mifflin Company, Nueva
+
+York).
+
+· Dawson, J. 1997, Logical Dilemmas: The Life and Work of Kurt Gödel (A.
+
+K.
+
+· Peters, Natick, MA). De Santillana, G. 1955, The Crime of Galileo
+
+(University of Chicago Press, Chicago).
+
+· Dehaene, S. 1997, The Number Sense (Oxford University Press, Oxford).
+
+· Dehaene, S., Izard, V., Pica, P. y Spelke, E. 2006, Science, 311, 381.
+
+· DeLong, H. 1910, A Profile of Mathematical Logic (Reading, MA:
+
+Addison-Wesley). Reeditado en 2004 (Dover Publications, Mineola, NY).
+
+· Demopoulos, W. у Clark, P. 2005, en S. Shapiro (ed.), The Oxford
+
+Handbook of Philosophy of Mathematics and Logic (Oxford University
+
+Press, Oxford).
+
+· DeMorgan, A. 1885, Newton: His Friend: and His Niece (Elliot Stock,
+
+Londres). Dennett, D. C. 2006, Breaking the Spell: Religion as a Natural
+
+Phenomenon (Viking, Nueva York). Descartes, R. 1644, Principles of
+
+Philosophy, II: 64, en 1985, Philosophical
+
+· Works of Descartes, eds. J. Cotringham, R. Stoothoff y D. Murdoch
+
+· (Cambridge University Press, Cambridge). Detlefsen, M. 2005, en The
+
+Oxford Handbook of Philosophy of Mathematics and Logic, ed. S. Shapiro
+
+(Oxford University Press, Oxford).
+
+· Deutsch, D. 1997, The Fabric of Reality (Allen Lane, Nueva York).
+
+· Devlin, K. 1993, The joy of Sets: Fundamentals of Contemporary Set
+
+Theory, segunda edición (Springer Verlag, Nueva York); —, 2000, The
+
+Math Gene: How Mathematical Thinking Evolved and Why Numbers Are
+
+like Gossip (Basic Books, Nueva York).
+
+· Dijksterhuis, E.J. 1957, Archimedes (The Humanities Press, Nueva York).
+
+· Dillon, J. y HershbellJ. (trad.) 1991, Jámblico ca. 300 d.C, On the
+
+Pythagorean Life (Scholar Press, Atlanta).
+
+· Doxiadis, A. K. 2000, UnclePetros and Goldbach's Conjecture
+
+(Bloomsbury, Nueva York).
+
+· Drabkin, I. E. (trad.) 1960, On Motion (University of Wisconsin Press,
+
+Madison, WI).
+
+· Drake, S. (trad.) 1960, Galileo 1623, The Assayer (título original
+
+IlSaggia-tore), en The Controversy of the Comets of 1618 (University of
+
+Pennsylvania Press, Filadelfia); —, (trad.) 1960, Grassi, O. 1619, Lilrra
+
+Astronómica acPhilosophica, en The Controversy of the Comets of 161.6
+
+(University of Pennsylvania Press, Filadelfia); —, (trad.) 1960, On
+
+Mechanics (University of Wisconsin Press, Madison, WI); —, (trad.)
+
+1967, Galileo 1632, Dialogue Concerning the Tiuo Chief World Systems
+
+(University of California Press, Berkeley; —, (trad.) 1974, Galileo 1638,
+
+Discourses on the TiuoNeiu Sciences (University of Wisconsin Press,
+
+Madison, WI); —, 1978, Galileo at Work: His Scientific Biography
+
+(University of Chicago Press, Chicago); —, (trad.) 1983, Galileo 1610,
+
+Sidereus Nuncius (o The Sidereal Messenger), en Telescopes, Tides and
+
+Tactics (University of Chicago Press, Chicago)-; —, 1990, Galileo:
+
+Pioneer Scientist (University of Toronto Press, Toronto). Dryden,J.
+
+(trad.) 1992, Plutarco ca. 75 d.C, Marcellus, en Plutarch's Lives,
+
+· ed. A. H. Clough (Modern Library, Nueva York). Dumett, M. 1978, Truth
+
+and Other Enigmas (Harvard University Press, Cambridge, MA).
+
+· Dunham, W. 1994, The Mathematical Universe. An Alphabetical journey
+
+through the Great Proofs, Problems and Personalities (John Wiley 8c
+
+Sons, Nueva York).
+
+· Dunnington, G. W. 1955, Carl Friedrich Gauss: Titan of Science (Hafner
+
+Publishing, Nueva York).
+
+· Einstein, A. 1934, «Geometrie und Erfuhrung», en Man Weltbild
+
+(Ulls-tein Materialien, Frankfurt am Main).
+
+· Ewald, W. 1996, From Kant to Hilbert: A Source Book in the Foundations
+
+of
+
+· Mathematics (Clarendon Press, Oxford). Favoro A. (ed.) 1890-1909, Le
+
+Opere di Galileo Galilei, Edizione Nazionale
+
+· (Barbera, Florencia). Se ha reimpreso varias veces, la mas reciente en
+
+1964-1966. Hay una version online en:
+
+http://www.imss.fl.it/istituto/index.html.
+
+· Fearnley-Snyder, D. 1979, The American Mathematical Monthly, vol. 86,
+
+num. 10, 809; —, 1982, The American Mathematical Monthly, vol. 89,
+
+num. 3, 161.
+
+· Feldberg, R. 1995, Galileo and the Church: Political Inquisition or Critical
+
+Dialogue (Cambridge University Press, Cambridge).
+
+· Ferris, T. 1997, The Whole Shebang (Simon & Schuster, Nueva York).
+
+· Finkel, B. F. 1898, «Biography: René Descartes», American
+
+Mathematical Monthly, vol. V, num. 8-9,191.
+
+· Fisher, R. A. 1936, Annals of Science, vol. 1, 115; —, 1956, reimpreso en
+
+The World of Mathematics, ed. J. R. Newman (Simon & Schuster, Nueva
+
+York).
+
+· Fowler, D. 1999, The Mathematics of Plato's Academy (Clarendon Press,
+
+Oxford).
+
+· Franzén, T. 2005, GòdeVs Theorem. An Incomplete Guide to Its Use and
+
+Abuse (A. JL Peters, Weilesley, MA).
+
+· Frege, G. 1879, Begriffsschrift, eine der arithmetischen nachgebildete
+
+Formelsprache des reinen Denkens (L. Nebert, Halle, Alemania);
+
+traducido al ingles por S. Bauer-Mengelberg en van Heijenoort 1967; —,
+
+1884, Der Grundlagen der Arithmetik (Koebner, Breslau), traducido al
+
+inglés por J. L. Austin 1974, The Foundations of Arithmetic, (Basil
+
+Blackwell, Oxford).
+
+· —, 1893, Grundgesetze der Arithmetik (Verlag Hermann Pohle, Jena),
+
+Bond I. Traducido parcialmente en 1964, M. Furth (ed.), The Basic Laws
+
+of Arithmetic (University of California Press, Berkeley); —, 1903,
+
+Grundgesetze der Arithmetik (Verlag Hermann Pohlejena), Bond II.
+
+· Fritz, IL von 1945, «The Discovery of Incommensurability by Hipposus of
+
+Metapontum», Annals of Mathematics, 46, 242.
+
+· Garber, D. 1992, en The Cambridge Companion to Descartes (Cambridge
+
+University Press, Cambridge).
+
+· Gardner, M. 2003, Are Universes Thicker than Blackberries? (W. W.
+
+Norton, Nueva York).
+
+· Gaukroger, S. 1992, en The Cambridge Companion to Descartes, ed. J.
+
+Cot-tingham (Cambridge University Press, Cambridge); —, 2002,
+
+Descartes' System of Natural Philosophy (Cambridge University Press,
+
+Cambridge).
+
+· Gingerich, O. 1973, «Kepler, Johannes» en Dictionary of Scientific
+
+Biography, ed. Charles Coulston Gillespie, vol. 7 (Scribners, Nueva
+
+York), 289.
+
+· Girifalco, L. A. 2008, The Universal Force (Oxford University Press,
+
+Oxford).
+
+· Glaisher, J. W. L. 1888, Bicentenary Address, Cambridge Chronicle, 20
+
+de abril de 1888.
+
+· Gleick, J. 1987, Chaos: Making a New Science (Viking, Nueva York); —,
+
+2003, IsaacNewlon (Vintage Books, Nueva York).
+
+· Glucker, J. 1978, Antiochus and the Late Academy, Hypomnemata 56
+
+(Van-denhoeck & Ruprecht, Göttingen).
+
+· Gödel, K 1947, en 1983 Philosophy of Mathematics: Selected Readings,
+
+segunda edición, eds. P. Benaceroff y H. Putnam (Cambridge University
+
+Press, Cambridge).
+
+· Godwin, M. e Irvine, A. D. 2003, en N. Griffin (ed.), The Cambridge
+
+Companion to Bertrand Russell (Cambridge University Press,
+
+Cambridge).
+
+· Goldstein, R. 2005, Incompleteness: The Proof and Paradox of Kurt
+
+Gödel (W. W. Norton & Company, Nueva York).
+
+· Gosling,J. C. B. 1973, Platón (Routledge & Kegan Paul, Londres).
+
+· Gott, J, R. 2001, Time Travel in Einstein's Universe (Houghton Mifilin,
+
+Boston).
+
+· Grant, M. (trad.) 1971, Cicerón siglo I a.C, Discussion at Tusculam (o, en
+
+otras traducciones, Tusculan Disputations), en Cicero: On the Good Life
+
+· (Penguin Classics, Londres). Graunt, J. 1662, Natural and Political
+
+Observations Mentioned in aFollotving
+
+· Index, and Made Upon the Bills of Mortality (Tho Roycroft, Londres).
+
+Gray, J. J. 2004, janos Bolyai, Non-Euclidean Geometry, and the Nature
+
+of Space
+
+· (Burady Library, Cambridge, MA). Grayling, A. C. 2005, Descartes: The
+
+Life and, Times of a Genius (Walker 8c
+
+· Company, Nueva York). Greenberg, M.J. 1974, Euclidean and
+
+Non-Euclidean Geometries: Development and Ilistory (W. H. Freeman
+
+and Company, Nueva York), tercera edición 1933.
+
+· Greene, B. 1999, The Elegant Universe: Superstrings, Hidden
+
+Dimensions, and the Quest for the Ultimate Theory (W. W. Norton,
+
+Nueva York); —, 2004, The Fabric of the Cosmos: Space, Time, and the
+
+Texture of Reality (Alfred A. Knopf, Nueva York).
+
+· Greve, D. (trad.) 1988, Herodoto 440 a.C, The History, libro III
+
+(University of Chicago Press, Chicago).
+
+· Gross, D. 1988, Proceedings of the National Academy of Sciences,
+
+Estados Unidos, vol.85, 8371.
+
+· Guthrie, K S. 1987, The Pythagorean Sourcebook and Library: An
+
+Anthology of Ancient Writings which Relate to Pythagoras and
+
+Pythagorean Philosophy (Phanes Press, Grand Rapids, MI).
+
+· Hald, A. 1990, A History of Probability and Statistics and Their
+
+Applications Before 1750 (John Wiley 8c Sons, Nueva York).
+
+· Hall, A R. 1992, Isaac Newton: Adventurer in Thought (Oxford:
+
+Blackwell). Reeditado en 1996 (Cambridge University Press,
+
+Cambridge).
+
+· Hamilton, E. y Huntington, C. 1961, The Collected Dialogues of Plato
+
+(Pantheon, Nueva York).
+
+· Hamming, R. W. 1980, The American Mathematical Monthly, vol. 87,
+
+num. 2,81.
+
+· Hankins, F. H. 1908, Adolphe Quetelet as Statistician (Columbia
+
+University, Nueva York); publicado online por R. E. Wyllys en:
+
+http://www.is-chool.utexas.edu/~wyllys/QueteletResources/index.html
+
+.
+
+· Hardie, R. P. y Gaye, R. K. (trad.), Aristóteles ca. 330 a.C, Physics http://
+
+people.bu.edu/wwildman/WeirdWildWeb/courses/wphil/rea-dings/wphil
+
+_rdg07_physics_entire.htm (traducción inglesa con licencia Public
+
+Domain).
+
+· Hardy, G. H. 1940, A Mathematician's Apology (Cambridge University
+
+Press, Cambridge).
+
+· Havelock, E. 1963, Preface to Plato (Harvard University Press,
+
+Cambridge, MA).
+
+· Hawking, S. 2005, God Created the Integers: The Mathematical
+
+Breakthroughs that Changed History (Running Press, Filadelfia); —,
+
+(ed.) 2007, A Stubbornly Persistent Illusion: The Essential Scientific
+
+Writings of Albert Einstein (Running Press, Filadelfia).
+
+· Hawking, S. y Penrose, R. 1996, The Nature of Space and Time
+
+(Princeton University Press, Princeton).
+
+· Heath, T. 1921, A Histoiy of Greek Mathematics (Clarendon Press,
+
+Oxford); reeditado en 1981 por (Dover, Nueva York).
+
+· Heath, T. L. 1897, The Works of Archimedes (Cambridge University
+
+Press, Cambridge).
+
+· Hedrick, P. W. 2004, Genetics of Populations (Jones 8c Bartlett, Sudbury,
+
+MA).
+
+· Heiberg, J. L. (ed.) 1910-1915, Archimedes Opera Omnio cum
+
+Commentarees Eutocii (Leipzig); el texto está en griego con su
+
+traducción al latín.
+
+· Hellman, H. 2006, Great Feuds in Mathematics: Ten of the Liveliest
+
+Disputes Ever (John Wiley 8c Sons, Hoboken, NJ).
+
+· Hermite, C. 1905, Correspondence d'Hermite et de Stieltjes
+
+(Gauthier-Villars, Paris).
+
+· Hersh, R, 2000, 18 Unconventional Essays on the Nature of Mathematics
+
+(Springer, Nueva York).
+
+· Herz-Fischier, R. 1998, A Mathematical History of the Golden Number
+
+(Dover Publications, Mineóla, NY).
+
+· Hicks, R. D. (trad.) 1925, Laercio, D. ca. 250 d.C, Lives of Eminent
+
+Philosophers (Harvard University Press, Cambridge, MA).
+
+· Hobbes, T. 1651, Leviathan, aparece por ejemplo en 1982 (Penguin
+
+Classics, Nueva York).
+
+· Hockett, C. F. 1960, Scientific American, 203, número de septiembre,
+
+Albany, NY).
+
+· Hofstadter, D. 1979, Gödel, Escher, Bach: An Eternal Golden Braid (Basic
+
+· Books, Nueva York). Holden, C. 2006, Science, vol. 311, 317.
+
+· Huffman, C. 2006, «Pythagoras» en la Stanford Encyclopedia of
+
+Philosophy, http://plato.stanford.edu/entries/pythagoras/.
+
+· Huffman, C. A. 1999, en The Cambridge Companion to Early Greek
+
+Philosophy, ed. A. A. Long (Cambridge University Press, Cambridge).
+
+· Hume, D. 1748, An Enquiry Concerning Llaman Understanding,
+
+reeditado 2000 en The Clarendon Edition of the Works of David Hume,
+
+ed. T. L. Beauchamp (Oxford University Press, Oxford).
+
+· Irvine, A. D. 2003, Stanford Encyclopedia of Philosophy,
+
+http://plato.stan-ford.edu/entries/russell-paradox/.
+
+· Isaacson, W. 2007, Einstein: His Life and Universe (Simon & Schuster,
+
+Nueva York).
+
+· Jaeger, M. 2002, The Journal of Roman Slud/ies, vol. 92, 49. Jeans, J.
+
+1930, The Mysterious Universe (Cambridge University Press,
+
+Cambridge).
+
+· Jones, V. F. R. 1985, Bulletin of the America/n Mathematical Society, 12,
+
+103.
+
+· Joost-Gaugier, C. L. 2006, Measuring Heaven: Pythagoras and His
+
+Influence on Thought and Art in Antiquity and the Middle Ages (Cornell
+
+University Press, Ithaca).
+
+· Kaku, M. 2004, Einstein's Cosmos (Atlas Books, Nueva York).
+
+· Kant, I. 1781, Critique of Pure Reason) una de las numerosas
+
+traducciones inglesas es Müller, F. M. 1881, Immanuel Kant's Critique of
+
+Pure Reason (MacMillan, Londres).
+
+· Kaplan, M. y Kaplan, E. 2006, Chances Are: Adventures in Probability
+
+(Viking, Nueva York).
+
+· Kapner, D. J., Cook, T. S., Adelberger, E. G., Gundlach, J. H., Heckel, B.
+
+R., Hoyle, C. D. y Swanson, H. E. 2007, Physical Review Letters, 98,
+
+021101.
+
+· Kasner, E. y Newman, J. R. 1989, Mathematics and, the Imagination
+
+(Tempus Books, Redmond, Washington).
+
+· Kauffman, L. H. 2001, Knots and Physics, tercera edicion (World
+
+Scientific, Singapur).
+
+· Keeling, S. V. 1968, Descartes (Oxford University Press, Oxford).
+
+Kepler,J. 1981, Mysterium Cosmographicum (Abaris Books, Nueva
+
+York). —, 1997, The Harmony of the World (American Philosophical
+
+Society, Filadelfia).
+
+· Klessinger, N., Szczerbinski, M. y Varley, R. 2007, Neuropsychologia, 45,
+
+1642.
+
+· Kline, M. 1967, Mathematics for Liberal Arts (Addison-Wesley, Reading,
+
+MA). Reeditado en 1985 con el titulo Mathematics for the
+
+Nonmathe-maticians (Dover Publications, Nueva York); —, 1972,
+
+Mathematical Thought from Ancient to Modern Times (Oxford University
+
+Press, Oxford).
+
+· Knott, C. G. 1911, Life and Scientific Work of Peter Guthrie Tait
+
+(Cambridge University Press, Cambridge).
+
+· Koyre, A. 1978, Galileo Studies, trad. J. Mepham (Humanities Press,
+
+Atlantic Highlands, NJ).
+
+· Kramer, M., Stairs, I. H., Manchester, R. N., et al. 2006, Science, vol.
+
+314, num. 5796, 97.
+
+· Krauss, L. 2005, Hiding in the Mirror: The Mysterious Allure of Extra
+
+Dimensions, from Plato to String Theory and Beyond (Viking Penguin,
+
+Nueva York).
+
+· Kraut, R. 1992, The Cambridge Companion to Plato (Cambridge
+
+University Press, Cambridge).
+
+· Kruger, L. 1987, en The Probabilistic Revolution, eds. L. Kruger, L. J.
+
+Daston y M. Heidelberger (MIT Press, Cambridge, MA).
+
+· Kuehn, M. 2001, Kant: A Biography (Cambridge University Press,
+
+Cambridge) .
+
+· Lagrange, J. 1797, Theorie desFonctions Analytiques, p. 223.
+
+· Lahanas, M. Archimedes and his Burning Mirrors, www.mlahanas.de/
+
+Greeks/Mirrors.htm.
+
+· Lakoff, G. y Nunez, R. E. 2000, Where Mathematics Comes From (Basic
+
+Books, Nueva York).
+
+· Lawlor, R. y Lawlor, D. (trad.) 1979, Teon de Esmirna ca. 130 d.C,
+
+Mathematics, Useful for Understanding Plato (Wizards Bookshelf, San
+
+Diego).
+
+· Lecar, M., Franklin, F. A., Holman, M.J. y Murray, N. W. 2001, Annual
+
+· Review of Astronomy and Astrophysics, 39, 581. Lightman, A. 1993,
+
+Einstein's Dreams (Pantheon Books, Nueva York). Litde, C. N. 1899,
+
+Transaction of the Royal Society of Edinburgh, 39, part III,
+
+· 771.
+
+· Livio, M. 2002, The Golden Ratio: The Story of Phi, the World's Most
+
+Astonishing Number (Broadway Books, Nueva York); —, 2005, The
+
+Equation that Couldn't Be Solved (Simon & Schuster, Nueva York).
+
+· Lottin, J. 1912, Quetelet Staticien et Sociologue (Institut Supérieur de
+
+Philosophie, Louvain).
+
+· MacHale. D. 1985, George Boole: His Life and Work (Boole Press Limited,
+
+Dublin).
+
+· Machamer, P. 1998, en The Cambridge Companion to Galileo, ed. P.
+
+Pachamer (Cambridge University Press, Cambridge).
+
+· Manning, H. P. 1914, Geometry of Four Dimensions (MacMillan,
+
+Londres), reimpresión 1956 (Dover Publications, Nueva York).
+
+· Maor, E. 1994, e: The Story of a Number (Princeton University Press,
+
+Princeton).
+
+· McManus, J. (trad.) 2006, Frova, A. y Marenzana, M. 1998, Thus Spoke
+
+Galileo: The Great Scientist's Ideas and Their Relevance to the Present
+
+Day (Oxford University Press, Oxford).
+
+· McMullin, E. 1998, en The Cambridge Companion to Galileo (Cambridge
+
+University Press, Cambridge).
+
+· Mekler, S. (ed.) 1902, Academicorum Philosophorum index
+
+Herculanensis (Weidmann, Berlin).
+
+· Menasco, W. y Rudolph, L. 1995, American Scientist, vol. 83,
+
+enero-febrero, 38.
+
+· Merton, R. K. 1993, On the Shoulders of Giants: A Shandean Postscript
+
+(University of Chicago Press, Chicago).
+
+· Messer, R. y Straffin, P. 2006, Topology Now (The Mathematical
+
+Association of America, Washington, DC).
+
+· Miller, V. R. y Miller, R. P. (eds.) 1983, Descartes, Principles of Philosophy
+
+(Reidel, Dordrecht).
+
+· Mitchell, J. C. 1990, en Handbook of Theoretical Computer Science, ed. J.
+
+van Leeuwen (MIT Press, Cambridge, MA).
+
+· Monk, R. 1990, Ludwig Wittgenstein: The Duty of Genius (Jonathan
+
+Cape, Londres).
+
+· Moore, G. H. 1982, Zermelo's Axiom of Choice: Its Origins,
+
+Development, and
+
+· Influence (Springer Verlag, Nueva York). Morgenstern, O. 1971,
+
+Borrador «Mémorandum from Mathematica»,
+
+· Asunto: History of the Naturalization of Kurt Gôdel. Morris, T. 1999,
+
+Philosophy for Dummies (IDG Books, Foster City, GA). Morrow, G. (trad.)
+
+1970, Proclus: A Commentary on the First Book of Euclid's
+
+· Elements, (Princeton University Press, Princeton). Motte, A. 1729, Sir
+
+Isaac Neiuton's Mathematical Principles of Natural Philosophy and His
+
+System of the World, revisado por F. Cajori 1947 (University of California
+
+Press, Berkeley) También como 1995, The Principia (Prometheus Books,
+
+Nueva York).
+
+· Mueller, I. 1991, en Science and Philosophy in Classical Greece, ed. A.
+
+Bowen (Garland, Londres); —, 1992, en The Cambridge Companion to
+
+Plato, ed. R. Kraut (Cambridge University Press, Cambridge); —, 2005,
+
+en Mathematics and the Divine: A Historical Study, eds. T. Koetsier y L.
+
+Bergmans (Elsevier, Amsterdam).
+
+· Nagel, E. y Newman, J. 1959, Gödel's Proof (Rouüedge & KeganPaul,
+
+Nueva York). Reeditado 2001 (New York University Press, Nueva York).
+
+· Netz, R. 2005, en Mathematics and the Divine: A. Historical Study, eds.
+
+T. Koetsier y L. Bergmans (Elsevier, Amsterdam).
+
+· Netz, R. y Noel, W. 2007, The Archimedes Codex: Hoto a Medieval Prayer
+
+Booh Is Revealing the True Genius of Antiquity's Greatest Scientist (Da
+
+Capo Press, Filadelfia).
+
+· Neuwirth, L. 1979, Scientific American, vol. 240, número de junio, 110.
+
+Newman, J. R. 1956, The World of Mathematics (Simon 8c Schuster,
+
+Nueva York).
+
+· Newton, Sir I. 1730, Opticks, or A Treatise of the Reflections,
+
+Refractions, Inflections and Colours of Light (Londres, cuarta edición).
+
+Reeditado en 1952 (Dover Publications, Nueva York).
+
+· Nicolson, M. 1935, Modern Philology, vol. 32, núm. 3, 233.
+
+· O'Connor, J. J. y Robertson, E. F. 2003, Peter Guthrie Tait,
+
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Tait.html; —,
+
+2005, Hermann Günter* Grassmann, http://www-history.mcs.st-an-d r
+
+e ws. ac. u k/ Ma th e m a tic i ans/ Grass m an n. h tm 1; —, 2007, G. H.
+
+Hardy addresses the British Association in 1922, http://
+
+www-history.mcs.st-andrews.ac.uk/Extras/BA_1922_l.html.
+
+· Obler, L. K. y Gjerlow, K 1999, Language and the Brain (Cambridge
+
+University Press, Cambridge).
+
+· Odom, B., Hanneke, D., D'Urso, B. y Gabrielse, G. 2006, Physical Review
+
+Letters, 97, 030801.
+
+· Oiscamp, P.J. (trad.) 1965, Descartes, R. 1637, Discourse on Method,
+
+Optics, Geometry, and Meteorology (The Bobbs-Merrill Company,
+
+Indianapolis).
+
+· Ooguri, H. y Vafa, C. 2000, Nuclear Physics B, 577, 419. Orel, V. 1996,
+
+Gregor Mendel: The First Geneticist (Oxford University Press, Nueva
+
+York).
+
+· Overbye, D. 2000, Einstein in Love: A Scientific Romance (Viking, Nueva
+
+York).
+
+· Pais, A. 1982, Subtle Is the Lord: The Science and Life of Albert, Einstein
+
+(Oxford University Press, Oxford). Panek, R. 1998, Seeing and Believing:
+
+How the Telescope Opened Our Eyes and Minds to the Heavens (Viking,
+
+Nueva York).
+
+· Paulos, J. A. 2008, Irreligion: A Mathematician Explains Wtiy the
+
+Arguments for God Just Don't Add Up (Hill and Wang, Nueva York).
+
+· Penrose, R. 1989, The Emperor's Neio Mind: Concerning Computers,
+
+Minds, and the Laws of Physics (Oxford University Press, Oxford). —,
+
+2004, The Road to Reality: A Complete Guide to the Latos of the Universe
+
+(Jonathan Cape, Londres).
+
+· Perko, K. A. Jr. 1974, Proceedings of the American Mathematical Society,
+
+45, 262.
+
+· Pesie, F. 2007, Beyond Geometry: Classic Papers from Riemann to
+
+Einstein (Dover Publications, Mineóla, NY).
+
+· Peterson, I. 1988, en The Mathematical Tourist: Snapshots of Modern
+
+Mathematics (W. H. Freeman and Company, Nueva York).
+
+· Petsche,J.-J. 2006, Grassmann (Birkhàuser Verlag, Basilea).
+
+· Pinker, S. 1994, The Language Instinct (William Morrow and Company,
+
+Nueva York).
+
+· Poincaré, H. 1891, Revue Générale des Sciences Pures et Appliquées 2,
+
+d.C, Life of Pythagoras en M. Hadas y M. Smith (eds.) 1965, LIeroes and
+
+Gods (Harper and Row, Nueva York).
+
+· Przytycki, J. H. 1991, Proceedings of the Mexican National Congi'ess of
+
+Mathematicians (noviembre 1991).
+
+· Putnam, H. 1975, Mathematics, Matter and Method: Philosophical
+
+Papers, vol. 1 (Cambridge University Press, Cambridge), 60. Que tele t,
+
+L. A. J. 1828, Instructions Populaires sur le Calcul des Probabilités (H.
+
+Tarbier 8c M. Hayez, Bruselas).
+
+· Quine, W. V. 1982, Methods of Logic, cuarta edición (Harvard University
+
+Press, Cambridge, MA); —, 1966, The Ways of Paradox and Other Essays
+
+(: Random House, Nueva York).
+
+· Radelet-de Grave, P. (ed.) 2005, Bernoulli-Edition,
+
+http://www.ub.unibas. ch/spez/bemoull.htm.
+
+· Ramachandran, V. S. y Blakeslee, S. 1999, Phantoms of the Brain (Quill,
+
+Nueva York).
+
+· Randall, L. 2005, Warped Passages: Unraveling the Mysteries of the
+
+Universe's Hidden Dimensions (Ecco, Nueva York).
+
+· Raskin, J. 1998, Effectiveness of Mathematics,
+
+http://jef.raskincenter.org/unpublished/effectiveness_mathematics.ht
+
+ml.
+
+· Raymond, E. S. 2005, The Utility of Mathematics,
+
+http://catb.org/~esr/wri-tings/utility-of-math/.
+
+· Redondi, P. 1998, en The Cambridge Companion to Galileo (Cambridge
+
+University Press, Cambridge).
+
+· Rees, M.J. 1997, Before the Beginning (Addi son-Wesley, Reading, MA).
+
+· Reeves, E. 2008, Galileo's Glassworks: The Telescope and the Mirror
+
+(Harvard University Press, Cambridge, MA).
+
+· Renon, L. y Felliozat, J. 1947, L'Inde Classique: Manuel des Etudes
+
+Indiennes (Payot, Paris).
+
+· Rescher, N. 2001, Paradoxes: Their Roots, Range, and Resolution (Open
+
+Court, Chicago).
+
+· Resnik. M. D. 1980, Frege and the Philosophy of Mathematics (Cornell
+
+University Press, Ithaca). Reston, J. 1994, Galileo: A Life (Harper Collins,
+
+Nueva York). Ribenboim, P. 1994, Catalan's Conjecture (Academic Press,
+
+Boston). Ricoeur. P. 1996, Synthèse, 106, 57.
+
+· Riedweg. C; traducido por S. Rendall 2005, Pythagoras: His Life and
+
+Influence (Cornell University Press, Ithaca).
+
+· Rivest, R., Shamir, A. y Adleman. L. 1978, Communications of the
+
+Association fo?~ Computing Machinery, vol. 21 (2), 120.
+
+· Rodis-Lewis, G. 1998, Descartes: His Life and Thought (Cornell
+
+University Press, Ithaca).
+
+· Rosenthal, J. S. 2006, Struck by Lightning: The Curious World of
+
+Probabilities (Joseph Henry Press, Washington, DC).
+
+· Ross, W. D. 1951, Plato's Theory of Ideas (Clarendon Press, Oxford).
+
+· Rouse Ball, W. W. 1908, A Short Account of the History of Mathematics
+
+(4-ediciôn), reeditado I960 (Dover Publications, Mineola, NY).
+
+· Rucker, R. 1995, Infinity and the Mind: The Science and Philosophy of
+
+the Infinite (Princeton University Press, Princeton).
+
+· Russell, B. 1919, Introduction to Mathematical Philosophy (George Allen
+
+and Unwin, Londres). Reimpreso 1993, ed. J. Slater (Routledge,
+
+Londres) . Reimpreso 2005 (Barnes & Noble, Nueva York); —, 1945,
+
+History of Western Philosophy, reimpreso 2007 (Touchstone, Nueva
+
+York); —, 1997, The Problems of Philosophy (Oxford University Press,
+
+Oxford). Sainsbury, R. M. 1988, Paradoxes (Cambridge University Press,
+
+Cambridge).
+
+· Sarrukai, S. 2005, Current Science, vol. 88, num. 3, 415.
+
+· Schmitt, C. B. 1969, «Expérience and Experiment: A Comparison of
+
+Zabarella's Views with Galileo's in De Motu», Studies in the Renaissance,
+
+16, 80.
+
+· Sedgwick, W. T. y Tyler, H. W. 1917, A Short History of Science (The
+
+MacMillan Company, Nueva York).
+
+· Shapiro, S. 2000, Thinking about Mathematics: The Philosophy of
+
+Mathematics (Oxford University Press, Oxford).
+
+· Shea, W. 1998, en The Cambridge Companion to Galileo, ed. P.
+
+Machamer (Cambridge University Press, Cambridge); —, 1972, Galileo's
+
+Intellectual Revolution: Middle Period 1610-1632 (cience History
+
+Publications, Nueva York).
+
+· Smith, D. E. y Latham, M. L. (trad.) 1954, The Geometry of René
+
+Descartes (Dover Publications, Mineóla, NY).
+
+· Smolin, L. 2001, Three Roads to Quantum Gravity ((Basic Books, Nueva
+
+York); —, 2006, The Trouble with Physics: The Rise of String Theory, The
+
+Fall of Science, and What Comes Next (Houghton Mifflin, Boston).
+
+· Sobel, D. 1999, Galileo's Daughter (Walker & Company, Nueva York).
+
+· Sommerville, D. M. Y. 1929, An introduction to the Geometry of N
+
+Dimensions (Mathuen, Londres).
+
+· Sorell, T. 2005, Descartes Reinvented (Cambridge University Press,
+
+Cambridge) .
+
+· Sorenson, R. 2003, A Brief History of the Paradox: Philosophy and the
+
+Labyrinths of the Mind (Oxford University Press, Oxford).
+
+· Sossinsky, A. 2002, Knots: Mathematics with a Twist (Harvard University
+
+Press, Cambridge, MA).
+
+· Stanley, T. 1687, The History of Philosophy, sección novena, editado
+
+1970 como facsímil fotográfico con el título Pythagoras: His Life and
+
+Teachings (The Philosophical Research Society, Los Angeles).
+
+· Steiner, M, 2005, en The Oxford Handbook of Philosophy of Mathematics
+
+and Logic, ed. S. Shapiro (Oxford University Press, Oxford).
+
+· Stewart, I. 2004, Galois Theory (Chapman 8c Hall/CRC, Boca Raton, FL).
+
+· Stewart, J. A. 1905, The Myths of Plato (MacMillan and Co., Londres).
+
+· Stigler, S. M. 1997, en Académie Royale de Belgique, Bulletin de la
+
+Classe des Sciences, Mémoires, Colección 8 (3), 13, 47.
+
+· Strohmeier, J. y Westbrook, P. 1999, Divine Harmony (Berkely Hills
+
+Books, Berkeley, CA).
+
+· Stuckely. W. 1752, Memoirs of Sir Isaac Newton's Life. Reimpreso 1936
+
+(Taylor and Frances, Londres).
+
+· Summers, D. W. 1995, Notices of the American Mathematical Society,
+
+vol. 42, num. 5, 528.
+
+· Swerdlow, N. 1998, en The Cambridge Companion to Galileo, ed. P.
+
+Machamer (Cambridge University Press, Cambridge). Sylla, E. D. (trad.)
+
+2006, Bernoulli, J. 1713, (Ars Conjectandi) The Art of Conjecturing, con
+
+introducción y notas (Johns Hopkins University Press, Baltimore).
+
+· Tabak, J. 2004, Probability and Statistics: The Science of Uncertainty
+
+(Facts on File, Nueva York).
+
+· Tait, P. G. 1898, en Scientific Papers (Cambridge University Press,
+
+Cambridge), 273.
+
+· Tait, W. W. 1996, en The Philosophy of Mathematics, ed. W. D. Hart
+
+(Oxford
+
+· University Press, Oxford). Taylor, T. (trad.) 1986, Iamblichus' Life of
+
+Pythagoras (Inner Traditions, Rochester, VT).
+
+· Tegmark, M. 2004, en Science and Ultimate Reality, eds. J. D. Barrow, P.
+
+C. W. Davies, y C. L. Harper, Jr. (Cambridge University Press,
+
+Cambridge); —, 2007a, «Shut Up and Calcinate», arXiv 0709.4024
+
+[hep-th]. —, 2007b, «The Mathematical Universe», arXiv 0704.0646
+
+[gr-qc]. Ten nan t. N. 1997, The Taming of the True (Oxford University
+
+Press, Oxford).
+
+· Tiles, M. 1996, en The Blackwell Companion to Philosophy, eds. N. Bunin
+
+y E. P. Tsui-James (Blackwell Publishing, Oxford).
+
+· Todd, J. M. (trad.) 1998, Rodis-Lewis, G. 1998, Descartes: His Life and
+
+Thought (Cornell University Press, Ithaca).
+
+· Todhunter, I. 1865, A History of the Mathematical Theory of Probability
+
+(Mac-Mil lan and Co., Cambridge).
+
+· Toffler, A. 1970, Future Shock (Random House, Nueva York).
+
+· Trudeau, R.J. 1987, The Non-Euclidean Revolution (Berkhäuser,
+
+Boston).
+
+· Truesdell, C. 1960, The Rotational Mechanics of Flexible or Elastic
+
+Bodies, 1638-1788, Leonhardi Euler Opera Omnia, ser. II, vol. 11, parte
+
+2 (Orell Fiissli, Zurich).
+
+· Truscot, F. W. y Emory, F. L. (trad.) 1902, Laplace, P. S. Marquis de
+
+1814, A Philosophical Essay on Probabilities (John Wiley 8c Sons, Nueva
+
+York). Reeditado en 1995 (Dover, Mineola, NY).
+
+· Turnbull, H. W., Scott, J. F., Hall, A. R. y Tilling, L. (eds.) 1959-1977, The
+
+Correspondence of Isaac Newton (Cambridge University Press,
+
+Cambridge).
+
+· Urquhart, A. 2003, en The Cambridge Companion to Bertrand Russell,
+
+ed. N. Griffin (Cambridge University Press, Cambridge).
+
+· Vafa, C. 2000, en Mathematics: Frontiers and Perspectives, eds. V.
+
+Arnold, M. Atiyah, P. Lax y B. Mazur (American Mathematical Society,
+
+Providence, RI).
+
+· Van der Waerden, B. L. 1983, Geometry and Algebra in Ancient
+
+Civilisations (Springer-Verlag, Berlin).
+
+· Van Heijenoort, J. (ed.) 1967, From Frege to Gödel: A Source Book in
+
+Mathematical Logic (Harvard University Press, Cambridge, MA).
+
+· Van Helden, A. 1996, en Proceedings of the American Philosophical
+
+Society, 140, 358.
+
+· Van Helden, A. (trad.) 1989, Galileo 1610, Sidéreas Nuncius or The
+
+Sidereal Messenger, Galileo Galilei (University of Chicago Press,
+
+Chicago).
+
+· Van Helden, A. y Burr, E. 1995, The Galileo Project, http://galileo.rice.
+
+edu/index.html.
+
+· Van Stegt, W. P. 1998, in From Brouwer to Hilbert: The Debate on the
+
+Foundations of Mathematics in the 1920s, ed. P. Mancosu (Oxford
+
+University Press, Oxford).
+
+· Vandermonde, A. T. 1771, Mémoires de TAcademie Royale des Sciences,
+
+París, 566.
+
+· Varley, R., Kiessinger, N., Romanowski, C. y Siegal, M. 2005,
+
+Proceedings of the National Academy of Sciences, Estados Unidos, 102,
+
+· Veitch, J. (trad.) 1901, The Philosophy of Descartes: Containing the
+
+Method, Meditations and Other Work (Tudor Publishing, Nueva York).
+
+· Vi le n kin, A. 2006, Many Worlds in One: The Search for Other Universes
+
+(Hill and Wang, Nueva York).
+
+· Vitruvius, M. P. siglo I a.C, De Architecture, en I. D. Rowland y T. N.
+
+Howe (eds.) 1999, Ten Books on Architecture (Cambridge University
+
+Press, Cambridge).
+
+· Vlostos, G. 1975, Plato's Universe (University of Washington Press,
+
+Seattle).
+
+· Von Gebler, K. 1879, Galileo Galilei and the Roman Curia,]. Sturge
+
+(trad.). Reimpreso en 1977 (Richwood Publishing Company, Merrick,
+
+NY).
+
+· Vrooman, J. R. 1970, René Descartes: A Biography (Putnam, Nueva
+
+York).
+
+· Waisman, F. 1979, Wittgenstein and the Vienna Circle, conversaciones
+
+grabadas por F. Waismann, ed. B. McGuinness, trad. J. Schulte y B.
+
+McGuinness (Basii Blackwell, Oxford).
+
+· Wallace, D. F. 2003, Everything and More: A Compact History of Infinity
+
+(W. W. Norton, Nueva York).
+
+· Wallechinsky, D. y Wallace, I. 1975-1981, Biography of Scottish Child
+
+Prodigy Marjory Fleming Part 1,
+
+http://www.trivia-libraiy.com/b/biography-of-sco tti sh-c h i 1
+
+d-piodigy-marj o ry-fle m i ng-par t-1. h tm.
+
+· Wallis, J. 1685, Treatise of Algebra, citado en Manning 1914.
+
+· Wang, H. 1996, A Logical Journey: From Gödel to Philosophy (MIT Press,
+
+Cambridge, MA).
+
+· Washington, G. 1788, Carta a Nicholas Pike, 20 de junio de 1788, en
+
+Writings of George Washington, ed. J. C. Fitzpatrick (Government
+
+Printing Office, Washington, 1931-44). Citado en K. L. Deutsch y W.
+
+Nicgorski (eds.) 1994, Leo Strauss: Political Philosopher and Jewish
+
+Thinker (Rowrnan & Littlefield, Lanham, MD).
+
+· Wasserman, S. A. y Cozzarelli, N. R. 1985, Science, 232, 951.
+
+· Watson, R. 2002, Cogito, Ergo Sum: The Life of René Descartes (David R.
+
+Godine, Boston).
+
+· Weinberg, S. 1993, Dreams of a Final Theory (Pantheon Books, Nueva
+
+York).
+
+· Wells, D. 1986, The Penguin Dictionary of Curious and Interesting
+
+Numbers (Penguin, Londres). Edición revisada 1997.
+
+· Westfall, R. S. 1983, Never at Rest: A Biography of Isaac Netoton
+
+(Cambridge University Press, Cambridge).
+
+· Whiston, W. 1753, Memoirs of the Life and Writings of Mr. William
+
+Whiston, Containing Memoirs of Several of His Friends Also, segunda
+
+edición (impreso para J. Whiston y B. White, Londres).
+
+· White, L. A. 1947, Philosophy of Science, vol. 14, num. 4, 289.
+
+· White, N. P. 1992, en The Cambridge Companion to Plato, ed. R. Kraut
+
+(Cambridge University Press, Cambridge).
+
+· Whitehead, A. N. 1911, An Introduction to Mathematics (Williams &
+
+Norga-te, Londres). Reimpreso, por ejemplo, en 1992 (Oxford University
+
+Press, Oxford); —, 1929, Process and Reality: An Essay in Cosmology,
+
+reeditado en 1978, eds. D. R. Griffin y D. W. Sherburne (Free Press,
+
+Nueva York).
+
+· Whitehead, A. N. y Russell, B. 1910, Principia Mathematica (Cambridge
+
+University Press, Cambridge). Segunda edición 1927.
+
+· Wickstead, P. H. y Cornford F. M. (trad.) 1960, Aristóteles ca. 330 a.C,
+
+Physics (Heinemann, Londres).
+
+· Wigner, E. P. 1960, Communications in Pure and Applied Mathematics,
+
+vol. 13, num. 1,1. Reimpreso en T. L. Saatz y F.J. Weyl (eds.) 1969, The
+
+Spirit and the Uses of the Mathematical Sciences (McGraw-Hill, Nueva
+
+York).
+
+· Wilczek, F. 2006, Physics Today, Noviembre, 8. Wilczek, F. 2007, Physics
+
+Today, Mayo, 8.
+
+· Witten, E. 1989, Communications in Mathematical Physics, 121, 351.
+
+Wolfram, S. 2002, A New Kind of Science (Wolfram Media, Champaign,
+
+IL).
+
+· Wolterstorff, N. 1999, en T. Sorell (ed.) Descartes (Ashgate,
+
+Dartmouth). Woodin, W. H. 2001a, Notices of the American
+
+Mathematical Society, 48 (6), 567.
+
+· —, 2001a, Notices of the American Mathematical Society, 48 (7), 681.
+
+· Wright, C. 1997, Language, Thought, and Logic: Essays in Honour of
+
+Michael Dummett, ed. R. Heck (Oxford University Press, Oxford).
+
+· Zalta, E. N. 2005, Stanford Encyclopedia of Philosophy,
+
+http://plato.stan-ford.edu/entries/frege/; —, 2007, Stanford
+
+Encyclopedia of Philosophy, http://plato.stanford.edu/
+
+entries/frege-logic/.
+
+· Zweibach, B. A. 2054, A First Course in String Theory (Cambridge
+
+University Press, Cambridge).

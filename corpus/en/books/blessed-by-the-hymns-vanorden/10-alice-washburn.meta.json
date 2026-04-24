@@ -1,0 +1,31 @@
+{
+  "title": "Alice Washburn",
+  "author": "LaVonne VanOrden",
+  "book": "Blessed by the Hymns",
+  "chapter": 10,
+  "total_chapters": 88,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "hymns",
+    "women-authored"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Blessed by the Hymns - LaVonne VanOrden.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "cfe0b13d-c1a1-4ea4-94f4-97fa0e96dab6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "LaVonne VanOrden. Blessed by the Hymns."
+}

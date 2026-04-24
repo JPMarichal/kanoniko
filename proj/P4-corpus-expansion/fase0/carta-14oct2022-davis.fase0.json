@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "fifth-sunday",
+    "local-leader",
+    "letter"
+  ],
+  "category": "discourses",
+  "author": "David J. Davis",
+  "source_url": null,
+  "note": "David J. Davis. Carta 14-oct-2022 para clase de quinto domingo."
+}

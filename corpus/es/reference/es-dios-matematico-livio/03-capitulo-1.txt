@@ -1,0 +1,1177 @@
+Capítulo 1
+
+Un misterio
+
+Hace unos años, durante una charla que daba en la Universidad de Cornell, una
+
+de mis diapositivas de PowerPoint, decía: «¿Es Dios un matemático?». Nada
+
+más aparecer, uno de los estudiantes de las primeras filas exclamó: «¡Por Dios,
+
+espero que no!».
+
+Mi pregunta retórica no era un intento filosófico de definir «Dios» a mi público,
+
+ni una confabulación para intimidar a los matemafóbicos. En realidad sólo
+
+estaba presentando un misterio que ha tenido en vilo a las mentes más
+
+originales durante siglos: la aparente omnipresencia y omnipotencia de la
+
+matemática. Este tipo de características suelen asociarse con los entes divinos.
+
+Como decía el físico británico James Jeans1 (1877-1946): «El universo parece
+
+haber sido diseñado por un matemático puro». La matemática parece ser
+
+excepcionalmente eficaz para describir y explicar, no sólo el Cosmos en su
+
+conjunto, sino incluso algunas de las iniciativas más caóticas del hombre.
+
+Ya se trate de físicos que intentan formular teorías sobre el universo, analistas
+
+de bolsa que se devanan los sesos para predecir cuándo volverá a caer el
+
+mercado, neurobiólogos que construyen modelos de las funciones cerebrales o
+
+estadísticos militares que optimizan la asignación de recursos, todos ellos
+
+utilizan la matemática. Es más, incluso cuando aplican formalismos
+
+desarrollados en ramas distintas de la matemática, todos hacen referencia a la
+
+misma matemática, global y coherente. ¿Qué es lo que otorga a la matemática
+
+tan extraordinario poder? O, como Einstein se preguntaba:2 «¿Cómo es
+
+posible que la matemática, un producto del pensamiento humano
+
+independiente de la experiencia se ajuste de modo tan perfecto a los objetos de
+
+la realidad física?». (La cursiva es mía.)
+
+Esta sensación de extrema perplejidad no es nueva. Algunos filósofos de la
+
+1 Jeans 1930.
+
+2 Einstein 1934.
+
+antigua Grecia, especialmente Pitágoras y Platón, quedaron sobrecogidos por
+
+la aparente capacidad de la matemática para dar forma y guía al universo y al
+
+mismo tiempo existir, al parecer, más allá de la capacidad humana de alterarlo,
+
+dirigirlo e influir sobre él. El filósofo político inglés Thomas Hobbes
+
+(1588-1679) no pudo tampoco ocultar la admiración que sentía. En Leviatán, la
+
+impresionante exposición de Hobbes sobre los fundamentos de la sociedad y
+
+del gobierno, señaló a la geometría como paradigma3 de la argumentación
+
+racional:
+
+Si advertimos, pues, que la verdad consiste en la correcta
+
+ordenación de los nombres en nuestras afirmaciones, un
+
+hombre que busca la verdad precisa tiene necesidad de recordar
+
+lo que significa cada uno de los nombres usados por él, y
+
+colocarlos adecuadamente; de lo contrario, se encontrará él
+
+mismo envuelto en palabras, como un pájaro en el lazo; y
+
+cuanto más se debata tanto más apurado se verá. Por esto en la
+
+Geometría (única ciencia que Dios se complació en comunicar al
+
+género humano) comienzan los hombres por establecer el
+
+significado de sus palabras; esta fijación de significados se
+
+denomina definición, y se coloca en el comienzo de todas sus
+
+investigaciones.
+
+Milenios de admirables investigaciones matemáticas y eruditas especulaciones
+
+filosóficas apenas han servido para desentrañar el enigma del poder de la
+
+matemática. De hecho, la magnitud del misterio incluso ha crecido. El célebre
+
+físico matemático de Oxford Roger Penrose, por ejemplo, percibe en la
+
+actualidad no un simple misterio, sino tres. Penrose identifica tres «mundos»
+
+distintos4: el mundo de nuestra percepción consciente, el mundo físico y el
+
+mundo platónico de las formas matemáticas. El primero de los mundos alberga
+
+3 Hobbes 1651.
+
+4 Penrose comenta de forma sublime estos «tres mundos» en Penrose 1989 y Penrose 2004. nuestras imágenes mentales: cómo percibimos los rostros de nuestros hijos,
+
+cómo disfrutamos de una espléndida puesta de sol o cómo reaccionamos a las
+
+terroríficas imágenes de la guerra. Es también el mundo que contiene el amor,
+
+los celos y los prejuicios, así como nuestra percepción de la música, de los
+
+olores de la comida o del miedo. El segundo mundo es aquel al que solemos
+
+llamar realidad física. En él residen las flores, los dinosaurios, las nubes blancas
+
+y los aviones de reacción, y también las galaxias, los planetas, los átomos, los
+
+corazones de los babuinos y los cerebros humanos. El mundo platónico de las
+
+formas matemáticas, que para Penrose posee una calidad real comparable a
+
+los mundos físico y mental, es la patria de la matemática. En él podrá encontrar
+
+los números naturales 1, 2, 3, 4… las formas y teoremas de la geometría de
+
+Euclides, las leyes del movimiento de Newton, la teoría de cuerdas, la teoría de
+
+catástrofes y los modelos matemáticos del comportamiento del mercado de
+
+valores. Y ahora vienen, según Penrose, los tres misterios. En primer lugar, el
+
+mundo de la realidad física parece obedecer leyes que en realidad residen en el
+
+mundo de las formas matemáticas. Este era el enigma que dejaba perplejo a
+
+Einstein e igualmente atónito al premio Nobel Eugene Wigner5 (1902-1995):
+
+El milagro de la articulación entre el lenguaje, la matemática y la
+
+formulación de las leyes de la física es un obsequio maravilloso
+
+que no comprendemos ni merecemos. Deberíamos estar
+
+agradecidos por ello y esperar que siga siendo válido en
+
+ulteriores investigaciones y que se extienda, para bien o para
+
+mal, para nuestro placer o incluso para nuestro desconcierto, a
+
+otras ramas del conocimiento.
+
+En segundo lugar, las propias mentes que perciben —el reino de nuestra
+
+percepción consciente— se las han arreglado para surgir del mundo físico.
+
+Literalmente, ¿cómo ha podido la mente nacer de la materia? ¿Seremos algún
+
+5 Wigner 1960. Volveré diversas veces a este artículo en el transcurso del libro. día capaces de formular una teoría del funcionamiento de la conciencia que sea
+
+tan coherente y convincente como, por ejemplo, la actual teoría del
+
+electromagnetismo? Finalmente, el círculo se cierra misteriosamente. Por
+
+medio de algún milagro, esas mismas mentes han sido capaces de acceder al
+
+mundo matemático al descubrir, o crear, y dar articulación a un capital de
+
+formas y conceptos matemáticos.
+
+Penrose no ofrece explicación alguna a ninguno de los tres «misterios», sino
+
+que concluye, de forma lacónica: «No cabe duda de que en realidad no hay tres
+
+mundos sino uno solo, cuya verdadera naturaleza actualmente somos
+
+incapaces siquiera de entrever». Es un reconocimiento mucho más humilde
+
+que la respuesta del profesor de la obra Forty Years On, del autor inglés Alan
+
+Bennett, a una pregunta similar:
+
+Foster: La trinidad sigue pareciéndome confusa, señor.
+
+Profesor: Tres en uno, uno en tres; está meridianamente claro.
+
+Si tienes alguna duda, consulta con tu profesor de matemáticas.
+
+El enigma es aún más intrincado de lo que he sugerido hasta ahora. En
+
+realidad, el éxito de la matemática en dar explicación al mundo que nos rodea
+
+(un éxito al que Wigner denominaba «la irrazonable eficacia de la
+
+matemática») tiene dos caras, cada una más asombrosa que la otra. En primer
+
+lugar tenemos el aspecto, digamos, «activo». Cuando los físicos deambulan
+
+por el laberinto de la naturaleza, utilizan la matemática para iluminar su
+
+camino: las herramientas que emplean y desarrollan, los modelos que
+
+construyen y las explicaciones que conjuran son de naturaleza matemática.
+
+Aparentemente, esto es un milagro por sí mismo. Newton observó la caída de
+
+una manzana, la luna y las mareas en las playas (aunque de esto último no
+
+estoy muy seguro), y no ecuaciones matemáticas. Sin embargo, de algún
+
+modo fue capaz de extraer de estos fenómenos naturales una serie de leyes
+
+matemáticas de la naturaleza, claras, concisas y de increíble precisión. De igual
+
+modo, James Clerk Maxwell (1831-1879) amplió el campo de la física clásica para incluir la totalidad de los fenómenos eléctricos y magnéticos conocidos en
+
+la década de 1860, y lo hizo con tan sólo cuatro ecuaciones matemáticas.
+
+Reflexionen un momento sobre ello. La explicación de una serie de resultados
+
+experimentales sobre luz y electromagnetismo, cuya descripción había
+
+ocupado volúmenes enteros, se redujo a cuatro sucintas ecuaciones. La
+
+relatividad general de Einstein es aún más extraordinaria: se trata de un
+
+ejemplo perfecto de teoría matemática coherente y de fantástica precisión que
+
+describe algo tan fundamental como la estructura del espacio y del tiempo.
+
+Pero también hay un aspecto «pasivo» de la misteriosa eficacia de la
+
+matemática, tan sorprendente que, a su lado, el aspecto «activo» palidece en
+
+comparación. ¡Los conceptos y las relaciones que los matemáticos exploran
+
+únicamente por razones «puras» (sin pensar en absoluto en su aplicación)
+
+décadas (e incluso siglos) después acaban siendo las inesperadas soluciones de
+
+problemas firmemente enraizados en la realidad física! ¿Cómo es posible?
+
+Tomemos, por ejemplo, el divertido caso del excéntrico matemático británico
+
+Godfrey Harold Hardy (1877-1947). Hardy estaba tan orgulloso de que su
+
+trabajo consistiese exclusivamente en matemática pura que solía declarar con
+
+energía:6 «Ninguno de mis descubrimientos ha supuesto, o es probable que
+
+suponga, de forma directa o indirecta, para bien o para mal, diferencia alguna
+
+en el funcionamiento del mundo». Lo han adivinado: se equivocaba. Uno de sus
+
+trabajos, redivivo7 en forma de ley de Hardy-Weinberg (así llamada por Hardy
+
+y el médico alemán Wilhelm Weinberg [1862-1937]), es un principio
+
+fundamental que los genetistas utilizan en el estudio de la evolución de las
+
+poblaciones. En términos sencillos, la ley de Hardy-Weinberg afirma que, si una
+
+gran población se aparea de forma totalmente aleatoria (y no sufre los efectos
+
+de mutaciones, migraciones o selecciones), la constitución genética
+
+permanece constante de una generación a la siguiente. Incluso el
+
+aparentemente abstracto trabajo de Hardy en teoría de números —el estudio
+
+6 Hardy 1940.
+
+7 Para un comentario sobre la ley de Hardy-Weinberg en su contexto véase, por ejemplo, Hedrick 2004 de las propiedades de los números naturales— ha hallado aplicaciones
+
+inesperadas. En 1973, el matemático británico Clifford Cocks8 empeló la teoría
+
+de números para crear un avance decisivo en criptografía: el desarrollo de los
+
+códigos. El descubrimiento de Cocks convirtió en obsoleta otra de las
+
+afirmaciones de Hardy. En su famoso libro A Mathematician's Apology, editado
+
+en 1940, Hardy declaraba: «Nadie ha descubierto aún ninguna finalidad bélica
+
+para la teoría de números». Está claro que Hardy se equivocaba de nuevo. Los
+
+códigos se han convertido en algo absolutamente esencial para las
+
+comunicaciones militares. Así, incluso Hardy, uno de los más feroces críticos de
+
+la matemática aplicada, acabó desarrollando sin querer (y probablemente
+
+protestando a gritos, si hubiese estado vivo) teorías matemáticas útiles.
+
+Pero esto no es más que la punta del iceberg. Kepler y Newton descubrieron
+
+que los planetas de nuestro sistema solar siguen órbitas en forma de elipse, las
+
+mismas curvas que, dos mil años antes, estudió el matemático griego
+
+Menechmo (fl. ca. 350 a.C). Las nuevas geometrías sugeridas por Georg
+
+Friedrich Riemann (1826-1866) en una conferencia clásica en 1854 resultaron
+
+ser exactamente las herramientas que Einstein necesitaba para explicar el
+
+tejido del cosmos. Un «lenguaje» matemático (la llamada teoría de grupos)
+
+que desarrolló el joven genio Évariste Galois (1811-1832) con el único objetivo
+
+de determinar la solubilidad de las ecuaciones algebraicas se ha convertido en
+
+nuestros días en el idioma que los físicos, ingenieros, lingüistas e incluso
+
+antropólogos utilizan para describir las simetrías del mundo.9 Es más, en cierto
+
+modo, el concepto de patrón de simetría matemático ha revolucionado el
+
+mismo proceso de la ciencia. Durante siglos, el camino para comprender el
+
+funcionamiento del cosmos empezaba por un conjunto de hechos
+
+experimentales u observables a partir de los cuales, por ensayo y error, los
+
+científicos intentaban formular leyes generales de la naturaleza. Se trataba de
+
+8 En 1973, Cocks inventó lo que se ha popularizado con el nombre de algoritmo de cifrado RSA, pero en aquel momento era secreto. Años después, R. Rivest, A. Shamir y L. Adleman del MIT reinventaron el algoritmo de forma independiente. Véase Rivest, Shamir y Adleman 1978
+
+9 Se puede hallar una descripción para profanos de la teoría de grupos y su historia en Livio 2005 empezar por observaciones locales y, a partir de ellas, armar el rompecabezas
+
+pieza a pieza. En el siglo XX, al descubrir que en la estructura del mundo
+
+subatómico subyacen esquemas matemáticos bien definidos, los físicos
+
+modernos empezaron a actuar justamente al revés. Empiezan por los
+
+principios matemáticos de simetría, exigen que las leyes de la naturaleza y, por
+
+supuesto, los bloques básicos que constituyen la materia sigan determinados
+
+patrones y, a partir de estos requisitos, deducen las leyes generales. ¿Cómo
+
+sabe la naturaleza que debe obedecer a estas simetrías matemáticas
+
+abstractas?
+
+En 1975 Mitch Feigenbaum, un joven físico matemático del Laboratorio
+
+Nacional de Los Alamos, jugaba con su calculadora de bolsillo HP-65
+
+examinando el comportamiento de una ecuación sencilla. Se dio cuenta de que
+
+una serie de números10 que aparecía en los cálculos se acercaba cada vez más
+
+a un número determinado: 4,669… Al examinar otras ecuaciones, para su
+
+asombro, vio que el mismo curioso número volvía a aparecer. Feigenbaum
+
+llegó a la conclusión de que su descubrimiento representaba al universal, que
+
+en cierto modo marcaba la transición entre orden y caos, a pesar de que no
+
+sabía explicar por qué. Como es lógico, al principio los físicos se lo tomaron con
+
+escepticismo. Después de todo, ¿por qué iba un mismo número a caracterizar
+
+el comportamiento de sistemas que, en principio, parecían completamente
+
+distintos? Tras seis meses de evaluación profesional, el primer artículo de
+
+Feigenbaum sobre el particular fue rechazado. Sin embargo, poco después, los
+
+resultados experimentales mostraron que, al calentar helio líquido desde
+
+debajo, su comportamiento era exactamente el predicho por la solución
+
+universal de Feigenbaum. Y no se trataba del único sistema en comportarse
+
+así. El sorprendente número de Feigenbaum aparecía en la transición del flujo
+
+ordenado de un fluido al flujo turbulento, e incluso en el comportamiento del
+
+agua que gotea en un grifo.
+
+10 Véase Gleick 1987 para una descripción divulgativa de la aparición de la teoría del caos La lista de «previsiones» similares hechas por matemáticos de las necesidades
+
+de diversas disciplinas en generaciones posteriores es inagotable. Uno de los
+
+ejemplos más insólitos de la misteriosa e inesperada interacción entre la
+
+matemática y el mundo real (físico) lo ofrece la historia de la teoría de nudos,
+
+el estudio matemático de los nudos. Un nudo matemático se parece a un nudo
+
+normal en una cuerda, pero con los extremos de la cuerda empalmados. Es
+
+decir, un nudo matemático es una curva cerrada sin cabos sueltos.
+
+Curiosamente, el impulso inicial de la teoría de nudos matemáticos procede de
+
+un modelo incorrecto del átomo que se desarrolló en el siglo XIX. Cuando se
+
+abandonó ese modelo —tan solo dos décadas después de su creación—, la
+
+teoría de nudos siguió evolucionando como una recóndita rama de la
+
+matemática pura. Increíblemente, esta abstracta empresa encontró de pronto
+
+numerosas aplicaciones modernas en cuestiones que van desde la estructura
+
+molecular del ADN a la teoría de cuerdas (el intento de unificar el mundo
+
+subatómico con la gravedad). Volveré a hablar de esta notable historia en el
+
+capítulo 8, ya que su circularidad es quizá la mejor prueba del modo en que una
+
+rama de la matemática puede surgir del intento de explicar la realidad física, y
+
+cómo esta rama deambula en el reino abstracto de la matemática para,
+
+finalmente, volver de forma inesperada a sus orígenes.
+
+¿Descubierta o inventada?
+
+Basta la somera descripción que he presentado hasta ahora para ofrecer
+
+pruebas concluyentes de que el universo está gobernado por la matemática o,
+
+como mínimo, es susceptible de ser analizado a través de ella. Como se
+
+mostrará en este libro, la práctica totalidad de las iniciativas humanas, si no
+
+todas, parecen emerger también de una subestructura matemática, incluso en
+
+las situaciones más inesperadas. Vamos a examinar, por ejemplo, un caso del
+
+mundo de las finanzas, la fórmula Black-Scholes (1973) para el precio de las opciones.11 El modelo Black-Scholes supuso para sus creadores (Myron
+
+Scholes y Robert Carhart Merton; Fischer Black falleció antes de la concesión
+
+del premio) el premio Nobel de Economía. La ecuación principal del modelo
+
+permite comprender la asignación de precios de las opciones (las opciones son
+
+instrumentos financieros que permiten a los inversores comprar o vender
+
+acciones en un momento del futuro, a precios previamente acordados). Pero he
+
+aquí un hecho sorprendente: en el núcleo de este modelo reside un fenómeno
+
+que los físicos habían estudiado durante décadas: el movimiento browniano, el
+
+estado de agitación que muestran las partículas muy pequeñas, como el polen
+
+suspendido en el agua o las partículas de humo en el aire. Por si esto fuera
+
+poco, esa misma ecuación se aplica también a los movimientos de centenares
+
+de miles de estrellas en cúmulos estelares, e incluso a las partículas
+
+subatómicas observadas en un detector. ¿No es, como diría la protagonista de
+
+Alicia en el país de las maravillas, «curiorífico y curiorífico»? Después de todo,
+
+haga lo que haga el cosmos, es innegable que los negocios y las finanzas son
+
+mundos creados por la mente humana.
+
+Vamos a fijarnos en un problema habitual de los fabricantes de circuitos
+
+electrónicos y de los diseñadores de ordenadores. Estos profesionales utilizan
+
+taladros láser para practicar decenas de miles de pequeños orificios en sus
+
+placas. Para minimizar costes, los diseñadores no quieren que su taladro se
+
+comporte como si fuese un «turista accidental»; el problema consiste en hallar
+
+el «tour» más corto entre orificios que pase una sola vez por cada uno de ellos.
+
+Pues bien, resulta que los matemáticos llevan investigando este mismo
+
+problema, denominado problema del viajante, desde los años veinte del
+
+pasado siglo. En esencia, si un viajante comercial o un político en campaña
+
+tiene que pasar por un número determinado de ciudades y se conoce el coste
+
+del viaje entre cada par de ciudades, el viajante debe averiguar de algún modo
+
+cuál es la forma más barata de visitar todas las ciudades y regresar al punto de
+
+11 Black y Scholes 1973
+
+partida. El problema del viajante se resolvió12 para 49 ciudades de Estados
+
+Unidos en 1954. En 2004 se resolvió para 24.978 ciudades en Suecia. En otras
+
+palabras, la industria de la electrónica, las empresas de paquetería que
+
+calculan las rutas de sus camiones o incluso los fabricantes japoneses de
+
+máquinas de pachinko (que tienen que clavar millares de clavos en los tableros
+
+de este juego similar al pinball) deben apoyarse en la matemática para tareas
+
+simples como taladrar, planificar trayectos y crear el diseño físico de los
+
+ordenadores.
+
+La matemática ha hecho acto de presencia incluso en campos que
+
+tradicionalmente no se han relacionado con las ciencias exactas. Por ejemplo,
+
+la revista Journal of Mathematical Sociology, que llegó en 2006 a su volumen
+
+número 30, está dedicada a la comprensión matemática de estructuras
+
+sociales complejas, organizaciones y grupos informales. Los temas de los
+
+artículos de la revista van desde modelos matemáticos para la predicción de la
+
+opinión pública hasta las interacciones dentro de grupos sociales.
+
+En la dirección contraria —de las matemáticas a las humanidades—, el campo
+
+de la lingüística computacional, que al principio sólo incumbía a científicos
+
+relacionados con la informática, se ha convertido ahora en una tarea de
+
+investigación interdisciplinaria que reúne a lingüistas, psicólogos cognitivos,
+
+lógicos y expertos en inteligencia artificial para el estudio de la complejidad de
+
+los lenguajes evolucionados de forma natural.
+
+Parece como si, cada uno de los esfuerzos de las personas por comprender
+
+acabase por sacar a la luz los aspectos cada vez más sutiles de la matemática
+
+sobre los que se ha creado el universo y nosotros mismos, como entes
+
+complejos. ¿Qué broma es ésta? ¿Es realmente la matemática, como les gusta
+
+decir a los educadores, el libro de texto oculto que el profesor utiliza para
+
+parecer más listo que nadie mientras ofrece a sus alumnos una versión
+
+simplificada? O, utilizando una metáfora bíblica, ¿se trata, en cierto sentido,
+
+12 En Applegate et al. 2007 se ofrece una soberbia (aunque técnica) descripción del problema y de sus soluciones del fruto definitivo del «árbol de la ciencia»?
+
+Como apunté al principio de este capítulo, la eficacia de la matemática más allá
+
+de lo razonable hace surgir numerosos y fascinantes enigmas: ¿existe la
+
+matemática de forma independiente de la mente humana? Dicho de otro modo,
+
+¿estamos simplemente descubriendo las verdades matemáticas, igual que los
+
+astrónomos descubren galaxias desconocidas hasta el momento? ¿O quizá la
+
+matemática es sólo una invención humana? Si realmente la matemática existe
+
+en algún abstracto país de nunca jamás, ¿cuál es la relación entre este mundo
+
+místico y la realidad física? ¿Cómo es capaz el cerebro humano, con sus
+
+limitaciones, de acceder a este mundo inmutable, más allá del espacio y del
+
+tiempo? Por otro lado, si la matemática no es más que una invención del
+
+hombre que no existe fuera de nuestras mentes, ¿cómo podemos explicar el
+
+hecho de que la invención de tantas verdades matemáticas se adelantó de
+
+forma milagrosa a cuestiones acerca del cosmos y de la vida humana que ni
+
+siquiera se plantearon hasta siglos más tarde? Estas preguntas no son fáciles
+
+de responder. Como se mostrará ampliamente en este libro, ni siquiera los
+
+matemáticos, científicos del conocimiento y filósofos modernos se han puesto
+
+de acuerdo en las respuestas. En 1989, el matemático francés Alain Connes,
+
+ganador de dos de los premios con más prestigio de la matemática, la medalla
+
+Fields (1982) y el premio Crafoord (2001) expresó su punto de vista con
+
+claridad:13
+
+Tomemos, por ejemplo, los números primos [aquellos que sólo son
+
+divisibles por sí mismos y por la unidad] que, por lo que a mí
+
+respecta, constituyen una realidad más estable que la realidad
+
+material que nos rodea. El matemático de profesión se puede
+
+comparar con un explorador que se pone en marcha para descubrir
+
+el mundo. A partir de la experiencia se pueden descubrir hechos
+
+básicos. Por ejemplo, basta con unos sencillos cálculos para darse
+
+13 Changeux y Connes 1995
+
+cuenta de que la serie de números primos parece no tener fin. El
+
+trabajo del matemático es entonces demostrar que,
+
+efectivamente, hay una infinidad de números primos. Este es un
+
+resultado antiguo, como sabemos, y se lo debemos a Euclides. Una
+
+de las consecuencias más interesantes de esta demostración es
+
+que, si alguien afirma un día que ha descubierto el mayor número
+
+primo que existe, será fácil demostrar que se equivoca. Esto
+
+mismo es válido para cualquier demostración. Nos enfrentamos
+
+pues a una realidad estrictamente igual de incontestable que la
+
+realidad física. (El subrayado es mío.)
+
+El famoso autor de libros de matemática recreativa Martin Gardner se alinea
+
+también con la idea de la matemática como descubrimiento. Para él, no cabe
+
+duda de que los números y la matemática tienen una existencia propia,
+
+independientemente de que los hombres sepan de ella. Según su propia e
+
+ingeniosa afirmación:14 «Si dos dinosaurios se uniesen a otros dos dinosaurios
+
+en un claro, habría cuatro dinosaurios, aunque no hubiese ningún humano allí
+
+para observarlo y las bestias fuesen demasiado estúpidas para saberlo». Tal
+
+como resaltaba Connes, los partidarios de la perspectiva de «matemática como
+
+descubrimiento» (que, como veremos, se ajusta al punto de vista platónico)
+
+señalan que, una vez que se comprende determinado concepto matemático,
+
+como los números naturales 1, 2, 3, 4…, nos enfrentamos a una serie de
+
+hechos innegables, como 32 2 2 + 4 = 5 independientemente de lo que opinemos
+
+al respecto. La impresión es que estamos en contacto con una realidad
+
+preexistente.
+
+Otras personas no están de acuerdo. En la crítica de un libro15 en el que
+
+Connes presentaba sus ideas, el matemático británico Michael Atiyah (ganador
+
+de la medalla Fields en 1966 y del premio Abel en 2004) señalaba:
+
+14 Gardner 2003
+
+15 Atiyah l995
+
+Cualquier matemático no puede menos que simpatizar con
+
+Connes. Todos tenemos la sensación de que los números
+
+enteros, o los círculos, existen realmente en algún sentido
+
+abstracto, y el punto de vista platónico* (*El punto de vista
+
+platónico se describirá en detalle en el capítulo 2.) es
+
+terriblemente seductor. Pero ¿podemos realmente defenderlo?
+
+Si el universo fuese unidimensional, o incluso discreto, parece
+
+difícil concebir cómo podría haber evolucionado la geometría.
+
+Parece que con los números enteros el terreno en el que
+
+pisamos es más sólido, que contar es un concepto realmente
+
+primordial. Pero imaginemos que la inteligencia no se hubiese
+
+desarrollado en el hombre, sino en una especie de medusa
+
+colosal, solitaria y aislada en los abismos del océano Pacífico.
+
+Este ente no tendría experiencia alguna de los objetos
+
+individuales, ya que sólo estaría rodeado de agua. Sus datos
+
+sensoriales se reducirían a movimiento, temperatura y presión.
+
+En este continuo puro, el concepto de discreto no podría surgir
+
+ni, por consiguiente, habría nada que contar.
+
+Atiyah, por lo tanto, cree que «el Hombre ha creado la matemática mediante la
+
+idealización y abstracción de elementos del mundo físico. El lingüista George
+
+Lakoff y el psicólogo Rafael Núñez piensan lo mismo. En su libro Where
+
+Mathematics Comes From, su conclusión es que «la matemática es una parte
+
+natural de la condición humana. Surge de nuestros cuerpos, nuestros cerebros
+
+y nuestra experiencia cotidiana del mundo». (La cursiva es mía.)
+
+El punto de vista de Atiyah, Lakoff y Núñez suscita otra interesante pregunta.
+
+Si la matemática es por completo una invención del hombre, ¿es realmente
+
+universal? En otras palabras, si existen civilizaciones extraterrestres,
+
+¿inventarían la misma matemática? Carl Sagan (1934-1996) pensaba que la
+
+respuesta a esta pregunta era afirmativa. En su libro Cosmos, al comentar qué tipo de señales transmitiría al espacio una civilización inteligente, decía: «Es
+
+muy improbable que cualquier proceso físico natural pueda transmitir
+
+mensajes de radio que sólo contengan números primos. Si recibiéramos un
+
+mensaje de este tipo deduciríamos que allí fuera hay una civilización que por lo
+
+menos se entusiasma con los números primos». Pero ¿cuál es la certeza de
+
+esta afirmación? En su reciente libro A New Kind of Science, el físico
+
+matemático Stephen Wolfram sostiene que lo que llamamos «nuestra
+
+matemática» puede representar una única posibilidad dentro de una amplia
+
+variedad de posibles «sabores» de la matemática. Por ejemplo, en lugar de
+
+utilizar reglas basadas en ecuaciones matemáticas para describir la naturaleza,
+
+podríamos utilizar tipos distintos de reglas en forma de programas de
+
+ordenador simples. Es más, algunos cosmólogos han comentado
+
+recientemente la posibilidad de que nuestro universo no sea más que uno de
+
+los miembros de un multiverso, un inmenso conjunto de universos. Si ese
+
+multiverso existe realmente, ¿acaso esperamos que la matemática sea la
+
+misma en los otros universos?
+
+Los biólogos moleculares y los científicos cognitivos traen su propia perspectiva
+
+a la palestra a partir de los estudios de las facultades del cerebro. Para algunos
+
+de estos investigadores, la matemática no difiere en realidad demasiado del
+
+lenguaje. En otras palabras, en este escenario «cognitivo», después de eones
+
+de observar dos manos, dos ojos y dos pechos, ha surgido una definición
+
+abstracta del número 2, de un modo similar a como la palabra «ave» ha llegado
+
+a representar a numerosos animales de dos alas que vuelan. Como dice el
+
+neurocientífico francés Jean-Pierre Changeux: 16 «Para mí, el método
+
+axiomático [que se utiliza, por ejemplo, en geometría euclidiana] es la
+
+expresión de la conexión de las facultades cerebrales con el uso del cerebro
+
+humano, ya que aquello que caracteriza al lenguaje es precisamente su
+
+carácter generativo». Pero, si la matemática no es más que otro lenguaje,
+
+16 Changeux y Connes 1995
+
+¿cómo se explica el hecho de que numerosos niños encuentren dificultades en
+
+su estudio, a pesar de la facilidad de los niños para el estudio de idiomas? La
+
+niña prodigio escocesa Marjory Fleming (1803-1811) describió de una forma
+
+muy graciosa el tipo de dificultades que los estudiantes sufren con las
+
+matemáticas. Fleming, que no llegó a ver su noveno cumpleaños, dejó escritos
+
+diarios con más de 9.000 palabras en prosa y 500 líneas en verso. En cierto
+
+momento se queja: «Ahora les voy a hablar de los horribles y condenados
+
+apuros que me dan las tablas de multiplicar; ni se lo imaginan. Lo más infernal
+
+del mundo es siete por siete y ocho por ocho; ni la misma naturaleza es capaz
+
+de soportar eso».17
+
+Algunos de los elementos de las complejas cuestiones que he planteado se
+
+pueden reformular: ¿hay alguna diferencia fundamental entre la matemática y
+
+otras formas de expresión de la mente humana, como las artes visuales o la
+
+música? Si no es así, ¿por qué la matemática está dotada de una impresionante
+
+coherencia y regularidad que no parece existir en ninguna otra creación
+
+humana? Por ejemplo, la geometría de Euclides es igual de correcta en
+
+nuestros días (dentro de su campo de aplicación) como lo era en el año 300
+
+a.C; representa «verdades» que son obligatorias. En cambio, no sentimos
+
+obligación alguna de escuchar la misma música que escuchaban los antiguos
+
+griegos, ni de estar de acuerdo con el ingenuo modelo cósmico de Aristóteles.
+
+Muy pocas disciplinas de la actualidad emplean ideas que tienen tres mil años
+
+de antigüedad. Por otra parte, las últimas investigaciones en matemática
+
+pueden hacer referencia a teoremas publicados el año pasado, pero también
+
+utilizar la fórmula de la superficie de una esfera que Arquímedes demostró
+
+alrededor del año 250 a.C. El modelo de nudos del átomo del siglo XIX apenas
+
+sobrevivió dos décadas, porque los nuevos descubrimientos demostraron que
+
+determinados elementos de la teoría eran erróneos. Así es como avanza la
+
+ciencia. Newton compartió la fama (¡o no!, véase el capítulo 4) de su colosal
+
+17 Véase, por ejemplo, Wallechinsky y Wallace 1975-1981 para una breve biografía de Marjory Fleming visión con los gigantes sobre cuyos hombros se alzó. También podría haberse
+
+disculpado con los gigantes cuya obra convirtió en obsoleta.
+
+Pero la matemática no funciona así. Aunque el formalismo necesario para
+
+demostrar determinados resultados haya cambiado, los resultados
+
+matemáticos en sí no cambian. De hecho, como dice el matemático y escritor
+
+Ian Stewart, «en matemáticas hay una palabra para referirse a los resultados
+
+antiguos que han cambiado: se llaman simplemente errores».18 Y los errores
+
+no se reconocen como tales a causa de nuevos descubrimientos, como sucede
+
+en las demás ciencias, sino por un examen más riguroso de las mismas viejas
+
+verdades matemáticas. ¿Convierte esto a la matemática en la lengua propia de
+
+Dios?
+
+Si opina que no es tan importante averiguar si la matemática es inventada o
+
+descubierta, tenga en cuenta lo tendencioso de la diferencia entre «inventado»
+
+y «descubierto» en esta pregunta: ¿Dios ha sido inventado o descubierto? O,
+
+para más provocación: ¿creó Dios a los hombres a Su imagen y semejanza, o
+
+los hombres inventaron a Dios a imagen y semejanza de ellos?
+
+En este libro intentaremos dar respuesta a estas fascinantes preguntas (y
+
+algunas otras más). En el proceso, repasaremos algunas de las conclusiones
+
+obtenidas a partir de la obra de algunos de los grandes matemáticos, físicos,
+
+filósofos, científicos del conocimiento y lingüistas de la actualidad y de tiempos
+
+pasados. Buscaré también las opiniones, advertencias y reservas de
+
+numerosos pensadores de la actualidad. Vamos a iniciar este sugestivo periplo
+
+con la revolucionaria, aunque algo vaga, perspectiva de algunos de los filósofos
+
+de la Antigüedad.
+
+18 Stewart 2004.
+
+Capítulo 2
+
+Místicos: el numerólogo y el filósofo
+
+El deseo de entender el cosmos ha sido siempre un impulso humano. Los
+
+esfuerzos del hombre por llegar al fondo de la pregunta «¿qué significa todo
+
+esto?» han superado con creces los dedicados a la mera supervivencia, a la
+
+mejora de la situación económica o de la calidad de vida. Eso no significa que
+
+todos hayan participado de forma activa en la búsqueda de algún tipo de orden
+
+natural o metafísico. Las personas que tienen que luchar por llegar a fin de mes
+
+apenas pueden permitirse el lujo de ponerse a reflexionar acerca del sentido de
+
+la vida. En la galería de cazadores de patrones subyacentes a la complejidad
+
+que se percibe en el universo, varios de ellos destacan sobre los demás.
+
+Para muchos, el nombre del matemático, científico y filósofo francés René
+
+Descartes (1596-1650) es sinónimo del nacimiento de la «era moderna» de la
+
+filosofía de la ciencia. Descartes fue uno de los principales arquitectos19 del
+
+cambio de una descripción del mundo natural en términos de las propiedades
+
+percibidas directamente a través de los sentidos a una explicación expresada
+
+mediante cantidades matemáticamente definidas. En lugar de sentimientos,
+
+olores, colores y sensaciones vagas, Descartes quería que las explicaciones
+
+científicas descendiesen hasta el nivel fundamental y utilizasen el lenguaje de
+
+la matemática:
+
+No reconozco sustancia alguna en las entidades corpóreas salvo lo
+
+que los geómetras llaman cantidad y convierten en el objeto de sus
+
+demostraciones… Y, siendo que todos los fenómenos naturales
+
+pueden explicarse de este modo, sostengo que ningún otro
+
+principio es admisible o siquiera deseable en física.20
+
+Es interesante ver cómo Descartes excluía de su elevada visión científica los
+
+19 Véase el capítulo 4 para una descripción más detallada de la aportación de Descartes 20 Descartes 1644
+
+reinos del «pensamiento y la mente», que consideraba independientes del
+
+mundo de la materia, susceptible de ser explicado mediante la matemática.
+
+Aunque no cabe duda alguna de que Descartes fue uno de los pensadores más
+
+influyentes de los últimos siglos (y volveré a referirme a él en el capítulo 4), no
+
+fue el primero en elevar la matemática a una posición central. Aunque parezca
+
+increíble, ideas radicales de un cosmos impregnado y gobernado por la
+
+matemática —ideas que, en cierto modo, iban más allá del propio Descartes—
+
+vieron la luz por vez primera, aunque teñidas de un cierto tono místico, hacía
+
+más de dos milenios. La persona a la que, según la leyenda, se le atribuye la
+
+percepción de que el alma humana es «como la música» si se la mira desde el
+
+punto de vista de la matemática pura, es el enigmático Pitágoras.
+
+Pitágoras
+
+Pitágoras (ca. 572-497 a.C.) fue quizá la primera persona que fue a la vez un
+
+influyente filósofo natural y un carismático filósofo espiritual, es decir, un
+
+científico y un pensador religioso. De hecho, se le atribuye la introducción de
+
+las palabras 21 filosofía, que significa amor o avidez por el saber, y
+
+matemáticas, aquellas disciplinas que se pueden aprender. Aunque no ha
+
+sobrevivido ninguno de los escritos del propio Pitágoras (si es que existieron,
+
+ya que en la época la mayor parte de las comunicaciones eran orales), sí
+
+poseemos tres detalladas, aunque sólo parcialmente fiables, biografías de
+
+Pitágoras que datan del siglo III.22 Una cuarta biografía anónima se conservó
+
+en los escritos del patriarca y filósofo bizantino Fotio (ca. 820-891 d.C). El
+
+principal problema al intentar evaluar la contribución personal de Pitágoras es
+
+que sus seguidores y discípulos (los pitagóricos) atribuían invariablemente sus
+
+propias ideas a él. Así, incluso Aristóteles (384-322 a.C.) tiene problemas para
+
+identificar 23 qué partes de la filosofía pitagórica se pueden arrogar al propio
+
+21 Laercio ca. 250 d.C; Porfirio ca. 270 d.C; Jámblico ca. 300 d.C. Véase Hicks 1925, Dillon y Hershbell 1991, Taylor 1986
+
+22 Jámblico ca. 300 d.C; comentado en Guthrie 1987
+
+23 Aristóteles ca. 350 a.C. (Barnes y Lawrence 1984); comentado en Burkert 1972
+
+Pitágoras, de modo que suele hablar de «los pitagóricos» o a «los así llamados
+
+pitagóricos». Sin embargo, a juzgar por la fama de Pitágoras en la tradición
+
+posterior, generalmente se supone que fue el inspirador de, como mínimo,
+
+algunas de las teorías pitagóricas con las que tan en deuda se sintieron Platón
+
+o incluso Copérnico.
+
+No parece haber dudas de que Pitágoras nació a principios del siglo VI a.C. en
+
+la isla de Samos, junto a la costa de la actual Turquía. Es posible que en su
+
+juventud viajase mucho, en especial a Egipto y puede que a Babilonia, en
+
+donde habría recibido una parte de su educación matemática. Finalmente
+
+emigró a la colonia griega de Crotona, cerca del extremo sur de Italia, en donde
+
+rápidamente se rodeó de un entusiasta grupo de jóvenes estudiantes y
+
+seguidores.
+
+El historiador griego Heródoto24 (ca. 485-425 a.C.) hablaba de Pitágoras como
+
+«el más capaz de los filósofos griegos», a lo que el filósofo y poeta presocrático
+
+Empédocles (ca. 492-432 a.C.) agregaba con admiración: «Pero entre ellos
+
+había un hombre de prodigiosos conocimientos, dotado de la más profunda
+
+capacidad de comprensión y maestro en todo tipo de artes; pues, cuando era
+
+su firme voluntad, podía fácilmente discernir cualquier verdad de las vidas de
+
+sus diez, no, veinte hombres».25 Pero no causaba esta impresión a todos. En
+
+comentarios que parecen producto de alguna rivalidad personal, el filósofo
+
+Heráclito de Éfeso (ca. 535-475 a.C), aunque reconoce los amplios
+
+conocimientos de Pitágoras, agrega con desdén: «La erudición no enseña la
+
+sabiduría; si así fuera, sabios serían Hesíodo [un poeta griego que vivió
+
+alrededor del año 700 a.C] y Pitágoras».
+
+Pitágoras y los primeros pitagóricos no eran matemáticos ni científicos en el
+
+sentido estricto. Más bien, el núcleo de su doctrina contenía una filosofía
+
+metafísica del concepto de número. Para los pitagóricos, los números eran
+
+entidades vivas y principios universales imbuidos en todo, desde los cielos a la
+
+24 Herodoto 440 a.C. (Greve 1988)
+
+25 Porfirio ca. 270 d.C.7.
+
+ética de los hombres. En otras palabras, los números poseían dos aspectos
+
+diferentes y complementarios. Por un lado, tenían una existencia física
+
+perfectamente tangible; por otro, se trataba de fórmulas abstractas situadas
+
+en la base de todo. Por ejemplo, la mónada26 (el número 1) era tanto un
+
+generador de todos los demás números —una entidad tan real como el agua, el
+
+aire y el fuego, que formaba parte de la estructura del mundo físico—, como
+
+una idea, la unidad metafísica como origen de toda la creación. El historiador
+
+de la filosofía inglés Thomas Stanley (1625-1678) describió con gran belleza (y
+
+en inglés del siglo XVII) los dos significados que los pitagóricos asociaban a los
+
+números:
+
+El número es de dos clases: la Intelectual (o inmaterial) y la
+
+Ciencial. La Intelectual es esa sustancia eterna de Número, que
+
+Pitágoras, en su Discurso acerca de los Dioses, afirmaba que era el
+
+principio más providencial de los Cielos y de la Tierra, y la
+
+naturaleza que los hace uno… Esto es lo que se denomina el
+
+principio, la fuente, la raíz de todas las cosas… El Número Ciencial
+
+es el que Pitágoras define como la extensión y producción en acto
+
+de las razones seminales que se encuentran en la Mónada o en un
+
+grupo de Mónadas.27
+
+Así, los números no eran simples herramientas para denotar cantidades: los
+
+números debían ser descubiertos, y eran los agentes formativos que actuaban
+
+en la naturaleza. Todo el universo, desde los objetos materiales como la Tierra
+
+a los conceptos abstractos como la justicia, era número de extremo a extremo.
+
+Que alguien quedase fascinado por los números28 no es quizá sorprendente de
+
+por sí. Después de todo, incluso los números más simples, los que aparecen en
+
+la vida cotidiana, tienen propiedades interesantes. Por ejemplo, los días del
+
+año: 365. Es fácil comprobar que 365 es la suma de tres cuadrados
+
+26 Véase Strohmeier y Westbrook 1999 para un comentario certero de la perspectiva pitagórica 27 Stanley 1687
+
+28 Para una fascinante recopilación de propiedades de los números véase Wells 1986 consecutivos: 365 = 102 2 2 + 11 + 12. Pero no acaba ahí: 365 es también igual
+
+a la suma de los dos cuadrados siguientes (365 = 132 2 + 14). O fijémonos en
+
+los días del mes lunar: 28. Este número es la suma de todos sus divisores (los
+
+números que pueden dividirlo sin dejar resto): 28 = 1 + 2 + 4 + 7 + 14. Los
+
+números que cumplen esta propiedad en especial se denominan números
+
+perfectos (los cuatro primeros números perfectos son 6, 28, 496, 8.218).
+
+Observe que 28 es también la suma de los cubos de los dos primeros números
+
+impares: 28 = 13 3 + 3. Incluso un número tan vulgar como 100 posee sus
+
+propias peculiaridades: 100 = 13 3 3 3 + 2 + 3 + 4.
+
+Muy bien, así que los números pueden ser fascinantes. De todos modos, uno se
+
+pregunta cuál puede ser el origen de la doctrina pitagórica de los números.
+
+¿Cómo surgió la idea, no sólo de que los números estaban presentes en todas
+
+las cosas, sino de que todas las cosas eran números? Pitágoras no dejó nada
+
+escrito, o sus escritos fueron destruidos, así que no se trata de una pregunta de
+
+fácil respuesta. La impresión que ha sobrevivido sobre los razonamientos de
+
+Pitágoras se basa en unos pocos fragmentos preplatónicos y en comentarios
+
+muy posteriores y de menor fiabilidad efectuados por filósofos platónicos y
+
+aristotélicos. La imagen que se obtiene al unir este mosaico de pistas sugiere
+
+que la obsesión de los pitagóricos por los números puede deberse a su
+
+preocupación por dos actividades aparentemente aisladas: los experimentos
+
+con música y la observación de los cielos.
+
+Para comprender cómo se materializó esta misteriosa conexión entre los
+
+números, los cielos y la música, debemos empezar por la interesante
+
+observación de que los pitagóricos poseíanuna forma de representarlos
+
+números mediante guijarros o puntos, Por ejemplo, los números naturales 1,
+
+2, 3, 4… los representaban con guijarros ordenados en forma triangular (como
+
+se muestra en la figura 1).

@@ -1,0 +1,33 @@
+{
+  "title": "LA JORNADA SEMANAL",
+  "author": "Carlos Martínez García & Leopoldo Cervantes Ortiz",
+  "book": "La jornada semanal: la Biblia de Lutero",
+  "chapter": 4,
+  "total_chapters": 6,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "luther-bible",
+    "reformation-history",
+    "protestant",
+    "non-lds"
+  ],
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/jornada semanal_ la Biblia de Lutero, La - Carlos Martínez García & Leopoldo Cervantes Ortiz.epub",
+  "opf_publisher": "La Jornada",
+  "opf_date": "2022-12-09T03:17:12+00:00",
+  "opf_identifier": "c4a73ae6-5fd2-4d8a-b502-ada93dfe6489",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Martínez García & Cervantes Ortiz. La jornada semanal: la Biblia de Lutero."
+}

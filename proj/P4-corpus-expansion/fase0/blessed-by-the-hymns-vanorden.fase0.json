@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hymns",
+    "women-authored"
+  ],
+  "category": "books",
+  "author": "LaVonne VanOrden",
+  "source_url": null,
+  "note": "LaVonne VanOrden. Blessed by the Hymns."
+}

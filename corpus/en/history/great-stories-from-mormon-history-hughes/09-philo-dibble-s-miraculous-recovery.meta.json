@@ -1,0 +1,32 @@
+{
+  "title": "Philo Dibble's Miraculous Recovery",
+  "author": "Tom Hughes & Dean Hughes",
+  "book": "Great Stories from Mormon History",
+  "chapter": 9,
+  "total_chapters": 27,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "lds-history",
+    "anthology",
+    "stories"
+  ],
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Great Stories from Mormon History - Tom Hughes & Dean Hughes.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "3a21d702-a42e-4d79-b665-108639c4c175",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Tom & Dean Hughes. Great Stories from Mormon History."
+}

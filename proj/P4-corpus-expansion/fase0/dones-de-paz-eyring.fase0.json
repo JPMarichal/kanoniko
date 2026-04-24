@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-authored",
+    "peace",
+    "spanish-talk"
+  ],
+  "category": "discourses",
+  "author": "Henry B. Eyring",
+  "source_url": null,
+  "note": "Pres. Henry B. Eyring, First Counselor. Dones de paz (conference talk)."
+}

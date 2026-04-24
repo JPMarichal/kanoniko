@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jewish-history",
+    "spanish-jews",
+    "sephardic",
+    "19th-century"
+  ],
+  "category": "history",
+  "author": "Adolfo de Castro",
+  "source_url": null,
+  "note": "Adolfo de Castro (1823-1898). Historia de los jud\u00edos en Espa\u00f1a, 1847."
+}

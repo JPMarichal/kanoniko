@@ -1,0 +1,117 @@
+A Sofie
+
+Prefacio
+
+Cuando uno trabaja en cosmología (el estudio del cosmos en su conjunto), el
+
+pan nuestro de cada día es recibir semanalmente alguna carta, correo
+
+electrónico o fax de una persona (que suele ser invariablemente hombre) que
+
+pretende describirte su visión del universo. El mayor error que se puede
+
+cometer es responder educadamente que te gustaría saber algo más acerca de
+
+ello. El resultado inmediato es un aluvión de mensajes. ¿Hay alguna forma de
+
+impedir este asalto? Según mi experiencia, una táctica que funciona de forma
+
+bastante eficaz (aparte de la descortesía de no responder en absoluto) es
+
+señalar la siguiente realidad: que, mientras la teoría no esté formulada con
+
+precisión en el lenguaje de la matemática, no es posible evaluar su relevancia.
+
+Esta respuesta basta para disuadir a casi todos los cosmólogos aficionados. El
+
+hecho es que, sin la matemática, los cosmólogos modernos no podrían haber
+
+dado siquiera el primer paso en su intento de comprensión de las leyes de la
+
+naturaleza. La matemática proporciona unos sólidos cimientos que sostienen
+
+cualquier teoría del universo. Esto puede parecer trivial hasta que uno toma
+
+conciencia de que la propia naturaleza de la matemática no está del todo clara.
+
+En palabras del filósofo británico Michael Dummett (1925-): «Las dos
+
+disciplinas intelectuales más abstractas, la filosofía y la matemática, provocan
+
+la misma perplejidad: ¿cuál es su objeto? Esta perplejidad no surge
+
+únicamente de la ignorancia: los mismos profesionales de estas materias
+
+tienen dificultades para dar respuesta a esa pregunta».
+
+Mi humilde propósito en este libro es aclarar algunos de los aspectos de la
+
+esencia de la matemática y, sobre todo, la naturaleza de la relación entre la
+
+matemática y el mundo tal como lo observamos. No es mi intención elaborar
+
+una historia exhaustiva de la matemática, sino más bien seguir cronológicamente la evolución de algunos conceptos que influyen directamente
+
+en la comprensión del rol de la matemática en nuestra noción del cosmos.
+
+Muchas son las personas que han contribuido, directa o indirectamente y a lo
+
+largo de mucho tiempo, a dar forma a las ideas que se presentan en este libro.
+
+Querría dar las gracias a Michael Atiyah, Gia Dvali, Freeman Dyson, Hillel
+
+Gauchman, David Gross, Roger Penrose, Martin Rees, Raman Sundrum, Max
+
+Tegmark, Steven Weinberg y Stephen Wolfram por sus amables comentarios.
+
+Estoy en deuda con Dorothy Morgenstern-Thomas por permitirme utilizar el
+
+texto completo del relato de Oscar Morgenstern sobre las experiencias de Kurt
+
+Gödel con el Servicio de Inmigración y Naturalización (INS). Agradezco
+
+también a William Christens-Barry, Keith Knox, Roger Easton y en particular a
+
+Will Noel su gentileza al explicarme sus esfuerzos en la operación de descifrar
+
+el palimpsesto de Arquímedes. Un agradecimiento especial para Laura
+
+Garbolino por proporcionarme materiales esenciales y archivos singulares
+
+acerca de la historia de la matemática. También quiero dar las gracias a los
+
+departamentos de Colecciones Especiales de la Universidad Johns Hopkins, la
+
+Universidad de Chicago y de la Bibliothèque Nationale de Francia en París, por
+
+ayudarme a localizar algunos manuscritos excepcionales.
+
+Estoy en deuda con Stefano Casertano por su ayuda con ciertas complicadas
+
+traducciones del latín, y con Elizabeth Fraser y Jill Lagerstrom por su
+
+inapreciable asistencia bibliográfica y lingüística (siempre con una sonrisa).
+
+Un agradecimiento especial va también para Sharon Toolan por su apoyo
+
+profesional en la preparación para la imprenta, y para Ann Feild y Krista Wildt
+
+por dibujar algunas de las figuras.
+
+Todo autor debería considerarse afortunado por recibir de su pareja un apoyo
+
+y paciencia continuos, como el que yo he recibido de mi mujer, Sofie, durante
+
+el largo período de elaboración de este libro.
+
+Por último, quisiera dar las gracias a mi agente, Susan Rabiner, sin cuyos
+
+ánimos esta obra no hubiese visto jamás la luz. Estoy también en deuda con mi
+
+editor, Bob Bender, por su cuidadosa lectura del manuscrito y sus perspicaces comentarios, con Johanna Li por su inestimable ayuda en la producción del
+
+libro, con Loretta Denner por sus correcciones, con Victoria Meyer por su labor
+
+de promoción y con todo el equipo de producción y marketing de Simon &
+
+Schuster por su esfuerzo.

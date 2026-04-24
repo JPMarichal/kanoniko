@@ -1,0 +1,33 @@
+{
+  "title": "de los Judíos en España, by Adolfo de Castro",
+  "author": "Adolfo de Castro",
+  "book": "Historia de los judíos en España",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "jewish-history",
+    "spanish-jews",
+    "sephardic",
+    "19th-century"
+  ],
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Historia de los judíos en España - Adolfo de Castro.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "urn:uuid:e3154beb-2a5f-41ab-bf40-5ff92787ec40",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Adolfo de Castro (1823-1898). Historia de los judíos en España, 1847."
+}

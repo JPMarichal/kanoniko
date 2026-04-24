@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 45,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "controversial",
+    "speculative",
+    "fundamentalist-lds",
+    "non-mainstream"
+  ],
+  "category": "books",
+  "author": "Ogden Kraut",
+  "source_url": null,
+  "note": "Ogden Kraut (1927-2002), fundamentalist LDS. Jesus Was Married. Speculative, non-mainstream."
+}

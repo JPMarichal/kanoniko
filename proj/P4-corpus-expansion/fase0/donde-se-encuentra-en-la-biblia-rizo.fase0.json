@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-topical-index",
+    "spanish-evangelical",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Jos\u00e9 L. Rizo Mart\u00ednez",
+  "source_url": null,
+  "note": "Jos\u00e9 L. Rizo Mart\u00ednez. D\u00f3nde se encuentra en la Biblia."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "self-help",
+    "lds-author",
+    "bestseller",
+    "leadership"
+  ],
+  "category": "reference",
+  "author": "Stephen R. Covey",
+  "source_url": null,
+  "note": "Stephen R. Covey (1932-2012), LDS author. 7 H\u00e1bitos de la gente altamente efectiva, 1989."
+}

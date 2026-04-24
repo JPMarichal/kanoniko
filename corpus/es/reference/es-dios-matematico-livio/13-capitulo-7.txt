@@ -1,0 +1,3125 @@
+Capítulo 7
+
+Lógicos: pensar sobre el razonamiento
+
+El cartel de una barbería en cierto pueblo dice: «Sólo afeito a los que no se
+
+afeitan a sí mismos».197 Suena razonable, ¿verdad? Es obvio que los hombres
+
+que se afeitan a sí mismos no precisan de los servicios del barbero, y es natural
+
+entonces que éste afeite a todos los demás. Pero podemos preguntarnos:
+
+¿quién afeita al barbero? Si se afeita a sí mismo, entonces, según el cartel, él
+
+debería ser uno de los que no afeita. Por otra parte, si no se afeita a sí mismo,
+
+de nuevo según el cartel, ¡debería ser uno de los que él sí afeita! Entonces,
+
+¿qué es? A lo largo de la historia, enemistades familiares graves han surgido de
+
+preguntas mucho más inofensivas. Esta paradoja fue formulada por primera
+
+vez por Bertrand Russell (1872-1970), uno de los lógicos y filósofos más
+
+destacados del siglo XX, con la simple intención de demostrar que la intuición
+
+lógica humana no es infalible. Las paradojas o «antinomias» reflejan
+
+situaciones en las que premisas aparentemente aceptables conducen a
+
+conclusiones inaceptables. En el ejemplo anterior, el barbero del pueblo se
+
+afeita y no se afeita a sí mismo simultáneamente. ¿Tiene solución esta
+
+paradoja en concreto? Si está enunciada del modo descrito arriba, hay una
+
+posible solución simple: ¡el barbero es una mujer! Por otro lado, si se ha
+
+establecido con anterioridad que el barbero es un hombre, la conclusión
+
+absurda sería el resultado de haber aceptado antes la premisa. En otras
+
+palabras, este barbero no puede existir. Pero ¿qué tiene todo esto que ver con
+
+la matemática? Pues da la casualidad de que la matemática y la lógica están
+
+íntimamente relacionadas. Así describía Russell esa relación:198 «Desde un
+
+punto de vista histórico, la matemática y la lógica han sido disciplinas
+
+totalmente independientes. La matemática ha estado conectada con la ciencia
+
+y la lógica con el griego. Pero ambas se han desarrollado en los últimos
+
+197 La paradoja del barbero se trata en numerosos textos. Véanse, por ejemplo, Quine 1966, Rescher 2001, Sorensen 2003.
+
+198 Russell 1919. Se trata de la más célebre de las exposiciones de Russell acerca de sus ideas sobre lógica. tiempos: la lógica se ha hecho más matemática y la matemática, más lógica.
+
+En consecuencia, en los tiempos actuales [en 1919] trazar una línea de
+
+separación entre ambas se ha convertido en una tarea imposible; en realidad,
+
+las dos son una misma cosa. Su diferencia es como la que hay entre un
+
+muchacho y un hombre: la lógica es la juventud de la matemática, y la
+
+matemática es la madurez de la lógica».
+
+Russell mantiene aquí que, en gran parte, la matemática se puede reducir a
+
+lógica. En otras palabras, que los conceptos básicos de la matemática, incluso
+
+los objetos como los números, pueden en realidad definirse en términos de las
+
+leyes fundamentales del razonamiento. Es más: más adelante, Russell
+
+argumentó que esas definiciones se pueden unir a los principios de la lógica
+
+para dar origen a los teoremas de la matemática.
+
+Esta visión de la naturaleza de la matemática (denominada logicismo) recibió el
+
+visto bueno tanto de los que consideraban que la matemática no era más que
+
+un elaborado juego inventado (los formalistas) como de los atribulados
+
+platónicos. Los primeros se alegraron (en principio) de ver cómo un conjunto
+
+de «juegos» aparentemente no relacionados entre sí se fusionaban en una
+
+«madre de todos los juegos». Los segundos vieron un rayo de esperanza en su
+
+idea de que la totalidad de la matemática podía haber brotado de un solo,
+
+indudable, origen. A los ojos de los platónicos, esta visión incrementaba la
+
+probabilidad de un único origen metafísico.
+
+Por completitud, debería mencionar una escuela de pensamiento —el
+
+intuicionismo— que se oponía con vehemencia tanto al logicismo como al
+
+formalismo.199 El abanderado de esta escuela era el algo fanático matemático
+
+holandés Luitzen E. J. Brouwer (1881-1966). Brouwer creía que los números
+
+naturales derivaban de una intuición humana del tiempo y de momentos
+
+discretos de nuestra experiencia. Para él, era indudable que la matemática era
+
+un producto del pensamiento humano y, por tanto, no veía necesidad alguna
+
+199 El plan intuicionista de Brouwer se resume con precisión en Van Stegt 1998. Véase Barrow 1992 para una excelente explicación divul-gativa. El debate entre formalismo e intuicionismo está descrito con sencillez en Hellman 2006. para la existencia de leyes lógicas universales del tipo de las previstas por
+
+Russell. Sin embargo, Brouwer iba mucho más allá: afirmaba que las únicas
+
+entidades matemáticas con sentido eran aquellas que se podían construir de
+
+forma explícita sobre la base de los números naturales en un número finito de
+
+etapas.200 En consecuencia, rechazaba grandes áreas de la matemática para
+
+las que era imposible hallar pruebas constructivas. Otro de los conceptos
+
+lógicos que Brouwer negaba era el principio del tercio excluso (la condición de
+
+que cualquier afirmación es o bien cierta, o bien falsa). En vez de eso, permitía
+
+que las afirmaciones flotasen en el limbo de la «indecisión». Esta y otras
+
+restricciones intuicionistas convirtieron esta escuela de pensamiento en algo
+
+marginal que, en la actualidad, no goza de demasiado predicamento entre los
+
+matemáticos. Sin embargo, las ideas de los intuicionistas se anticiparon a
+
+algunos de los descubrimientos de los científicos cognitivos acerca del modo en
+
+que las personas adquieren los conocimientos matemáticos (un tema que
+
+trataremos en el capítulo 9) y también dieron forma a las contribuciones de
+
+algunos de los modernos filósofos de la matemática (como Michael Dummett).
+
+Pero ¿cómo se desarrolló la estrecha asociación entre matemática y lógica? Y el
+
+programa de los logicistas ¿era en absoluto viable? Repasemos brevemente
+
+algunos de los hitos de los últimos cuatro siglos.
+
+Lógica y matemática
+
+Según la tradición, la lógica trataba acerca de las relaciones entre conceptos y
+
+proposiciones,201 y sobre los procesos que permitían extraer deducciones
+
+válidas de estas relaciones. En un ejemplo simple, las deducciones de la forma
+
+«Todo X es Y; algunos Z son X, luego algunos Z son Y» se construyen de forma
+
+que se garantiza automáticamente la verdad de la conclusión siempre que las
+
+200 Dummett agrega: «Una persona no puede comunicar aquello que no se puede observar que comunique: si una persona asocia un contenido mental a un símbolo o fórmula matemática y la asociación no tiene que ver con el uso que efectúe del símbolo o fórmula, la persona no podrá transmitir ese contenido a través de ese símbolo o fórmula, porque su público ignoraría la asociación y carecería de medios para averiguarla». Dummett 1978. 201 Véase Bennett 2004 para una introducción extremadamente accesible a la lógica. Quine 1982 es más técnico, aunque brillante. La Encyclopaedia Britannica contiene un espléndido resumen de la historia de la lógica escrito por Czeslaw Lejewski.
+
+premisas sean ciertas. Por ejemplo: «Todos los biógrafos son escritores;
+
+algunos políticos son biógrafos; luego, algunos políticos son escritores» genera
+
+una conclusión cierta. Por otra parte, las inferencias de la forma general:
+
+«Todos los X son Y; algunos Z son Y; por tanto, algunos Z son X» no son
+
+válidas, porque se pueden hallar ejemplos en los que, aunque las premisas
+
+sean ciertas, la conclusión sería falsa. Por ejemplo: «Todos los hombres son
+
+mamíferos; algunos animales con cuernos son mamíferos; luego, algunos
+
+animales con cuernos son hombres».
+
+Siempre que se sigan algunas reglas, la validez de un argumento no depende
+
+del tema de las afirmaciones. Por ejemplo:
+
+O bien el mayordomo mató al millonario, o le mató su hija.
+
+Su hija no le mató.
+
+Luego, el mayordomo le mató.
+
+Genera una deducción válida. La solidez de este argumento no se basa en
+
+absoluto en nuestra opinión acerca del mayordomo o en la relación entre el
+
+millonario y su hija. La validez queda garantizada por el hecho de que las
+
+proposiciones que siguen la forma general: «si o p o q, y no q, entonces p»
+
+resultan en una verdad lógica.
+
+Quizá habrá notado que, en los dos primeros ejemplos, los papeles que
+
+desempeñan X, Y y Z son similares a los de las variables en las ecuaciones
+
+matemáticas: marcan el lugar en el que se pueden introducir expresiones, del
+
+mismo modo que se introducen valores en las variables del álgebra. De forma
+
+parecida, la verdad de la inferencia «si o p o q, y no q, entonces p» recuerda a
+
+los axiomas de la geometría de Euclides. Y sin embargo, tuvieron que pasar
+
+casi dos milenios de contemplación de la lógica para que los matemáticos
+
+asumieran esta analogía.
+
+La primera persona que intentó combinar las disciplinas de la lógica y la
+
+matemática en una «matemática universal» fue el matemático y filósofo
+
+racionalista alemán Gottfried Wilhelm Leibniz. Leibniz, que en realidad tenía formación en derecho, llevó a cabo la mayoría de sus trabajos en matemáticas,
+
+física y filosofía en sus ratos de ocio. En vida, su mayor fama se debió a la
+
+formulación de las bases del cálculo de forma independiente (y casi
+
+simultánea) de Newton, y de la amarga controversia entre ambos por la
+
+prioridad en este asunto. En un ensayo que había imaginado casi por completo
+
+a los dieciséis años de edad, Leibniz previó un lenguaje universal de la razón o
+
+characteristica universalis, que consideraba la herramienta definitiva del
+
+pensamiento. Su plan consistía en representar las nociones e ideas simples
+
+mediante símbolos, y las más complejas mediante las combinaciones
+
+apropiadas de estos símbolos básicos. Leibniz esperaba literalmente poder
+
+calcular la verdad de cualquier afirmación, en cualquier disciplina científica,
+
+mediante puras operaciones algebraicas. Vaticinó que bastaría el cálculo lógico
+
+adecuado para resolver los debates filosóficos. Por desgracia, Leibniz no
+
+avanzó demasiado en el desarrollo de su álgebra de la lógica. Aparte del
+
+principio general de «alfabeto del pensamiento», sus dos principales
+
+contribuciones fueron únicamente una afirmación clara sobre en qué
+
+circunstancias debemos ver dos cosas como iguales y la confirmación más bien
+
+obvia de que ninguna afirmación puede ser simultáneamente verdadera y
+
+falsa. Así, a pesar de que las ideas de Leibniz eran realmente brillantes,
+
+pasaron prácticamente desapercibidas.
+
+La lógica volvió a ponerse de moda a mediados del siglo XIX, y este súbito
+
+incremento de interés produjo importantes obras, primero por Augustus de
+
+Morgan (1806-1871) y posteriormente por George Boole (1815-1864), Gottlob
+
+Frege (1848-1925) y Giuseppe Peano (1858-1932).
+
+De Morgan era un escritor extraordinariamente prolífico, 202 que publicó
+
+literalmente miles de artículos y libros sobre diversos temas relacionados con
+
+la matemática, la historia de la matemática y la filosofía. Entre sus obras más
+
+peculiares se encuentran un almanaque de lunas llenas (válido durante
+
+202 Ewald 1996 incluye una descripción concisa pero perspicaz de su vida y obra. milenios) y un compendio de matemática excéntrica. A una pregunta acerca de
+
+su edad, respondió: «Tenía x años en el año x2». Se puede comprobar que el
+
+único número que, al elevarlo al cuadrado, da un resultado entre 1806 y 1871
+
+(los años de nacimiento y muerte de De Morgan) es 43. Probablemente, las
+
+contribuciones más originales de De Morgan fueron en el campo de la lógica, en
+
+el que amplió de forma significativa el ámbito de los silogismos de Aristóteles y
+
+ensayó una estrategia algebraica de razonamiento. De Morgan miraba la lógica
+
+con los ojos de un algebrista, y el álgebra con los ojos de un lógico. En uno de
+
+sus artículos describía su visionaria perspectiva: «Debemos volver la vista al
+
+álgebra para hallar el uso más habitual de las formas lógicas … El algebrista ya
+
+vivía en el elevado mundo de los silogismos, de la incesante composición de
+
+relaciones, antes de que se admitiese la simple existencia de ese mundo».
+
+Una de las contribuciones más cruciales de De Morgan a la lógica se denomina
+
+«cuantificación del predicado». Se trata de un nombre más bien rimbombante
+
+para lo que se podría considerar un sorprendente descuido de los lógicos de la
+
+época clásica. Los aristotélicos se dieron cuenta de que, a partir de premisas
+
+como «algunos Z son X» y «algunos Z son Y» no se podía llegar a conclusión
+
+necesaria alguna sobre la relación entre X e Y. Por ejemplo, las frases «algunas
+
+personas comen pan» y «algunas personas comen manzanas» no permiten
+
+extraer una conclusión decisiva acerca de la relación entre los comedores de
+
+manzanas y los de pan. Hasta el siglo XIX, los lógicos asumieron también que,
+
+para poder establecer una relación necesaria entre X e Y, el término medio (la
+
+mencionada «Z») debía ser universal en una de las premisas. Es decir, la frase
+
+debía incluir «todos los Z». De Morgan demostró que esta suposición era
+
+errónea. En su libro Formal Logic (publicado en 1847), señalaba que, a partir
+
+de premisas como «la mayoría de Z son X» y «la mayoría de Z son Y» sigue
+
+necesariamente que «algunos X son Y». Por ejemplo, las frases «casi todas las
+
+personas comen pan» y «casi todas las personas comen manzanas» implican
+
+de modo inevitable que «algunas personas comen tanto pan como manzanas».
+
+De Morgan fue un paso más allá y expresó su nuevo silogismo en una forma cuantitativa precisa. Imaginemos que el número total de Z es z, el número de
+
+Z que son también X es x y el número de Z que son también Y es y. En el
+
+ejemplo anterior, podría haber 100 personas en total (z= 100), de las cuales 57
+
+comen pan (x = 57) y 69 comen manzanas (y = 69). Entonces, señalaba De
+
+Morgan, debe haber al menos (x + y- z) X que son también Y. Al menos 26
+
+personas (el resultado de 57 + 69 - 100 = 26) comen tanto pan como
+
+manzanas.
+
+Por desgracia, este astuto método de cuantificar el predicado hizo que De
+
+Morgan se viese metido en una desagradable disputa pública. El filósofo
+
+escocés William Hamilton (1788-1856) —al que no debe confundirse con el
+
+matemático irlandés William Rowan Hamilton— acusó a De Morgan de plagio,
+
+porque Hamilton había publicado unas ideas vagamente relacionadas (aunque
+
+mucho menos precisas) unos años antes que De Morgan. El ataque de Hamilton
+
+no era de extrañar si uno conocía su actitud general hacia la matemática y sus
+
+practicantes. Hamilton había declarado en cierta ocasión: «Un estudio excesivo
+
+de la matemática incapacita de forma absoluta la mente para las energías
+
+intelectuales requeridas por la filosofía y la vida». El chaparrón de cáusticas
+
+cartas que siguieron a la acusación de Hamilton tuvieron un resultado positivo,
+
+aunque en absoluto deliberado: ¡guiaron hacia la lógica al algebrista George
+
+Boole! Más adelante, Boole relataba en The Mathematical Analysis of Logic.
+
+En la primavera del presente año mi atención se dirigió a la
+
+cuestión que enfrentaba a sir W. Hamilton con el profesor De
+
+Morgan; y el interés que inspiró en mí me impulsó a reanudar el
+
+hilo de investigaciones anteriores que ya casi había olvidado. Mi
+
+impresión era que, aunque se podía ver la Lógica con referencia
+
+a la idea de cantidad, poseía también otro sistema de relaciones
+
+más profundo. Si era lícito mirarla desde fuera, conectada con
+
+las intuiciones del Espacio y del Tiempo a través del Número, era
+
+también lícito mirarla desde dentro, basada en hechos de un
+
+orden distinto que moran en la propia constitución de la Mente.
+
+Estas humildes palabras describen los principios de lo que se convertiría en una
+
+obra fundamental de la lógica simbólica.
+
+Las leyes del pensamiento
+
+George Boole (figura 47) nació el 2 de noviembre de 1815 en la ciudad
+
+industrial de Lincoln, Inglaterra.203 Su padre, John Boole, zapatero en Lincoln,
+
+mostraba un gran interés por la matemática, y era un hábil artesano
+
+constructor de instrumentos ópticos.
+
+La madre de Boole, Mary Ann Joyce, era doncella de una dama de la sociedad.
+
+Con la atención del padre distraída de su oficio, el estado económico de la
+
+familia no era muy boyante. George asistió a una escuela infantil hasta los siete
+
+203 Boole 1847.
+
+años de edad y, a continuación, a una escuela primaria, en donde tuvo como
+
+maestro a un tal John Walter Reeves. De niño, Boole estaba especialmente
+
+interesado por el latín, que un librero le enseñó, y por el griego, que aprendió
+
+por sí mismo. A los catorce años de edad se las arregló para traducir un poema
+
+del poeta griego del siglo I a.C. Meleagro. El padre de George, lleno de orgullo,
+
+publicó la traducción en el Herald de Lincoln, lo que hizo que un maestro local
+
+publicase un artículo expresando su incredulidad. La pobreza obligó a George
+
+Boole a empezar a trabajar de profesor ayudante a la edad de dieciséis años.
+
+Durante los años posteriores, Boole dedicó su tiempo libre al estudio del
+
+francés, el italiano y el alemán. El conocimiento de estos idiomas modernos le
+
+fue muy útil, ya que le permitió dedicar su atención a las grandes obras de
+
+matemáticos como Lacroix, Laplace, Lagrange, Jacobi y otros. Sin embargo,
+
+Boole seguía sin poder recibir una formación matemática regular, de modo que
+
+continuó sus estudios en solitario mientras trabajaba de maestro para
+
+contribuir al sostén de sus padres y hermanos. Pero el talento matemático de
+
+este autodidacta empezaba a manifestarse, y empezó a publicar en el
+
+Cambridge Mathematical Journal.
+
+En 1842, Boole inició una correspondencia regular con De Morgan, a quien le
+
+enviaba sus artículos matemáticos para que éste los comentase. Su creciente
+
+reputación como matemático original y el apoyo de una recomendación de De
+
+Morgan hicieron que Boole recibiese la oferta de ocupar el puesto de profesor
+
+de matemática en el Queen's College, en Cork, Irlanda, en 1849, en donde
+
+enseñó durante el resto de su vida. En 1855, Boole se casó con Mary Everest
+
+(cuyo tío, el explorador George Everest, dio nombre a la montaña), diecisiete
+
+años más joven que él, y la pareja tuvo cinco hijas. Boole murió
+
+prematuramente a los cuarenta y nueve años de edad. Un frío día de invierno
+
+de 1854, Boole llegó empapado al colegio, pero insistió en dar sus clases con la
+
+ropa mojada. Al llegar a su casa, su mujer contribuyó a empeorar su estado al
+
+mojar la cama con cubos de agua, siguiendo una superstición según la cual la
+
+cura debe, en cierto modo, replicar la causa de la enfermedad. Boole contrajo una neumonía y murió el 8 de diciembre de 1864. Bertrand Russell no ocultaba
+
+su admiración por esta persona de formación autodidacta: «La matemática
+
+pura fue descubierta por Boole, en su obra titulada Las leyes del pensamiento
+
+(1854) […] En realidad, su libro trataba de lógica formal, que es lo mismo que
+
+decir matemática». Sorprendentemente, tanto Mary Boole (1832-1916) como
+
+las cinco hijas del matrimonio alcanzaron una fama considerable en distintos
+
+campos, desde la educación a la química.
+
+Boole publicó El análisis matemático de la lógica204 en 1847 y Las leyes del
+
+pensamiento en 1854 (el título completo era Una investigación de las leyes del
+
+pensamiento en las que se basan las teorías matemáticas de la lógica y las
+
+probabilidades). Se trataba de verdaderas obras maestras, el primer paso
+
+decisivo para poner de manifiesto el paralelismo entre las operaciones
+
+aritméticas y las lógicas. Literalmente, Boole transformó la lógica en un tipo de
+
+álgebra (a la que se llamaría álgebra de Boole) y extendió el análisis de la lógica
+
+incluso al razonamiento probabilístico. En palabras del propio Boole:
+
+El propósito de este tratado [Las leyes del pensamiento] es
+
+investigar las leyes fundamentales de las operaciones de la
+
+mente mediante las que se lleva a cabo el razonamiento,
+
+expresarlas en el lenguaje simbólico del Cálculo y, sobre estos
+
+cimientos, establecer la ciencia de la Lógica y construir su
+
+método; hacer de este método la base de un método general
+
+para la aplicación de la doctrina matemática de las
+
+Probabilidades y, finalmente, cosechar de los diversos
+
+elementos de verdad que estas investigaciones saquen a la luz
+
+algunos indicios probables acerca de la naturaleza y la
+
+constitución de la mente humana.205
+
+El cálculo de Boole se podía interpretar como aplicado a las relaciones entre
+
+204 Para una biografía completa véase MacHale 1985.
+
+205 Boole 1854.
+
+clases (conjuntos de objetos o miembros) o dentro de la lógica de
+
+proposiciones. Por ejemplo, si x e y fuesen clases, una relación como x = y
+
+significaría que dos clases tienen exactamente los mismos miembros, aunque
+
+las definiciones de ambas fuesen distintas. Tomemos el caso de un colegio en
+
+el que todos los niños miden menos de dos metros; entonces, las dos clases
+
+definidas como: x = «todos los niños del colegio» e y = «todos los niños del
+
+colegio que miden menos de dos metros» son iguales. Si x e y representasen
+
+proposiciones, entonces x = y significaría que ambas proposiciones son
+
+equivalentes (que una es verdadera si, y sólo si, la otra también lo es). Por
+
+ejemplo, las proposiciones: x = «John Barrymore era hermano de Ethel
+
+Barrymore» e y = «Ethel Barrymore era hermana de John Barrymore» son
+
+iguales. El símbolo «x • y» representaba la parte común de las dos clases x e y
+
+(los miembros que pertenecen tanto a x como a y) o la conjunción de las
+
+proposiciones x e y (esto es, «x e y»). Por ejemplo, si x fuese la clase de todos
+
+los tontos del pueblo e y fuese la clase de todas las cosas con pelo negro,
+
+entonces x • y sería la clase de todos los tontos del pueblo con el pelo negro.
+
+Para las proposiciones x e y, la conjunción x - y (se puede también utilizar la
+
+palabra «y») significa que ambas proposiciones deben ser ciertas. Por ejemplo,
+
+cuando la Dirección General de Tráfico dice que «debes pasar una prueba de
+
+visión periférica y un examen de conducción», significa que ambos requisitos
+
+deben cumplirse. Para Boole, el símbolo «x + y» representaba (para dos clases
+
+sin miembros comunes) la clase que constaba de los miembros de x y de los
+
+miembros de y. En el caso de proposiciones, «x + y» correspondía a «o x o y,
+
+pero no ambas». Por ejemplo, si x es la proposición «las clavijas son
+
+cuadradas» e y es «las clavijas son redondas», entonces x + y es «las clavijas
+
+son o cuadradas o redondas». De forma similar, «x — y» representaba la clase
+
+de los miembros de x que no eran miembros de y, o la proposición «x pero no
+
+y». Boole denotaba la clase universal (que contenía todos los miembros
+
+posibles de los que se estaba hablando) como 1, y la clase vacía o nula (que no
+
+contenía ningún miembro) como 0. Obsérvese que la clase nula (o conjunto nulo) no es en absoluto lo mismo que el número cero; este último es
+
+simplemente el número de miembros de la clase nula. Obsérvese también que
+
+la clase nula no es lo mismo que nada, porque una clase que no contiene nada
+
+sigue siendo una clase. Por ejemplo, si todos los periódicos de Albania están
+
+escritos en albanés, la clase de todos los periódicos de Albania escritos en
+
+albanés se denotaría con 1 en la notación de Boole, mientras que la clase de
+
+todos los periódicos de Albania escritos en español se denotaría con 0. En el
+
+caso de proposiciones, 1 representa la proposición verdadera estándar (por
+
+ejemplo, los humanos son mortales) y 0, la proposición falsa estándar (por
+
+ejemplo, los humanos son inmortales), respectivamente.
+
+Utilizando estas convenciones, Boole formuló un conjunto de «axiomas» que
+
+definían el álgebra de la lógica. Por ejemplo, se puede comprobar que,
+
+utilizando las definiciones anteriores, la proposición obviamente cierta «todo es
+
+o x o no x» se podría escribir así en el álgebra de Boole: x+ (1 - x) = 1, que es
+
+también cierto en el álgebra ordinaria. De forma similar, la afirmación de que la
+
+parte común entre cualquier clase y la clase vacía es la clase vacía se
+
+representaba mediante 0 • x = 0, que significaba también que la conjunción de
+
+cualquier proposición con una falsa es falsa. Por ejemplo, la proposición «el
+
+azúcar es dulce y los humanos son inmortales» genera una proposición falsa, a
+
+pesar de que la primera parte es verdadera. Obsérvese de nuevo que esta
+
+«igualdad» en el álgebra de Boole sigue siendo cierta con números algebraicos
+
+normales.
+
+Para demostrar la potencia de sus métodos, Boole intentó utilizar sus símbolos
+
+lógicos en cualquier asunto que considerase importante. Sin ir más lejos,
+
+analizó incluso los argumentos de los filósofos Samuel Clarke y Baruch Spinoza
+
+sobre la existencia y atributos de Dios. Sin embargo, su conclusión fue
+
+bastante pesimista: «Opino que no es posible examinar los argumentos de
+
+Clarke y Spinoza sin llegar a la profunda convicción de la futilidad de todo
+
+empeño de establecer, completamente a priori, la existencia de un Ser Infinito,
+
+Sus atributos y Su relación con el Universo». A pesar de la sensatez de la conclusión de Boole,206 al parecer no todas las personas quedaron convencidas
+
+de la futilidad de estos empeños, pues a día de hoy aún siguen emergiendo
+
+versiones actualizadas de los argumentos ontológicos para la existencia de
+
+Dios.
+
+Boole fue capaz de domar matemáticamente los conectores lógicos y, o, si…
+
+entonces y no, que actualmente se encuentran en el corazón de las
+
+operaciones que realizan los ordenadores y diversos circuitos de conmutación.
+
+Por tanto, muchos le consideran uno de los «profetas» que dieron paso a la era
+
+digital. Sin embargo, debido a su naturaleza pionera, el álgebra de Boole tenía
+
+sus limitaciones. En primer lugar, los escritos de Boole son algo ambiguos y de
+
+difícil comprensión debido a que la notación utilizada se parecía demasiado a la
+
+del álgebra ordinaria. En segundo lugar, Boole confundió la distinción entre
+
+proposiciones (por ejemplo, Aristóteles es mortal), funciones proposicionales o
+
+predicados (por ejemplo, x es mortal) y afirmaciones cuantificadas (por
+
+ejemplo, para todo x, x es mortal). Finalmente, Frege y Russell afirmaron más
+
+adelante que el álgebra deriva de la lógica, de modo que se podría decir que
+
+tenía más sentido construir el álgebra sobre la base de la lógica que el proceso
+
+contrario.
+
+Sin embargo, otro de los aspectos del trabajo de Boole estaba a punto de dar
+
+abundante fruto. Se trataba de la comprensión de la proximidad entre la lógica
+
+y los conceptos de clases y conjuntos. Recordemos que el álgebra de Boole
+
+funcionaba tanto para clases como para proposiciones lógicas. En efecto, si
+
+todos los miembros de un conjunto X son también miembros de Y (X es un
+
+subconjunto de Y), esto se puede expresar con una implicación lógica de la
+
+forma «Si X entonces Y». Por ejemplo, el hecho de que el conjunto de todos los
+
+caballos sea un subconjunto del conjunto de todos los cuadrúpedos se puede
+
+reescribir en forma de proposición lógica: «Si x es un caballo entonces es un
+
+cuadrúpedo».
+
+206 La conclusión de Boole fue que, en lo que respecta a la creencia en la existencia de Dios, los «débiles avances ilógicos y basados en la fe de un entendimiento de facultades y conocimientos limitados son más provechosos que los ambiciosos intentos de llegar a una certidumbre inalcanzable en el terreno de la religión natural»
+
+El álgebra lógica de Boole fue ampliada y mejorada posteriormente por
+
+diversos investigadores, pero la persona que sacó el máximo provecho de la
+
+similitud entre los conjuntos y la lógica y elevó el concepto a otro nivel fue
+
+Gottlob Frege (1848-1925; figura 48).
+
+Friedrich Ludwig Gottlob Frege nació en Wismar, Alemania, en donde su padre
+
+y su madre dirigieron, en distintos momentos, una escuela secundaria
+
+femenina. Frege estudió matemáticas, física, química y filosofía, primero en la
+
+Universidad de Jena y luego, durante dos años más, en la Universidad de
+
+Göttingen.
+
+Tras completar su formación empezó a dar clases en Jena en 1874, en donde
+
+estuvo enseñando matemáticas durante toda su carrera profesional. Aunque
+
+su trabajo de profesor le dejaba poco tiempo libre, Frege se las arregló para
+
+publicar su primera obra revolucionaria sobre lógica en 1879.207 Se titulaba
+
+Escritura conceptual: un lenguaje formal para el pensamiento puro modelado
+
+según el de la aritmética (se suele conocer como el Begriffsschrift). En esta
+
+207 Frege 1879. Se trata de una de las obras esenciales en la historia de la lógica. obra, Frege desarrollaba un original lenguaje lógico que posteriormente
+
+ampliaría en los dos volúmenes de su tratado Grundgesetze der Arithmetic
+
+(Leyes básicas de la aritmética).208 Lo que Frege tenía planeado en el campo
+
+de la lógica era, por un lado, muy específico, pero además extraordinariamente
+
+ambicioso. Aunque prestaba atención principalmente a la aritmética, su
+
+intención era demostrar que incluso conceptos tan habituales como los
+
+números naturales (1, 2, 3…) se podían reducir a construcciones lógicas. Así,
+
+Frege creía que todas las verdades de la aritmética podían demostrarse a partir
+
+de unos pocos axiomas de la lógica. En otras palabras, según Frege, incluso las
+
+proposiciones como 1 + 1 = 2 no eran verdades empíricas, basadas en la
+
+observación, sino que podían derivarse de un conjunto de axiomas lógicos. La
+
+influencia del Begriffsschrift de Frege ha sido tan notable que el lógico
+
+contemporáneo Willard von Orman Quine (1908-2000) escribió: «La lógica es
+
+una disciplina antigua y, desde 1879, una disciplina magnífica».
+
+Una idea esencial en la filosofía de Frege era la aseveración de que la verdad es
+
+independiente del juicio humano. En sus Leyes básicas de la aritmética escribe:
+
+«Ser verdadero es distinto de ser tomado por verdadero, ya sea por una
+
+persona, muchas o todas, y en ningún caso puede reducirse a ello. No existe
+
+contradicción en el hecho de que algo sea verdadero y que todos opinen que es
+
+falso. Según yo lo entiendo, las leyes de la lógica no son leyes acerca de creer
+
+que algo es verdad, sino leyes de la verdad … Estas [leyes] actúan como
+
+fronteras establecidas sobre cimientos eternos que nuestro pensamiento
+
+puede sobrepasar, pero en ningún caso desplazar».
+
+Los axiomas lógicos de Frege209 suelen ser de la forma «para todo… si…
+
+entonces». Por ejemplo, uno de sus axiomas dice «para todo p, si no (no p)
+
+entonces p», lo que básicamente establece que, si una proposición
+
+contradictoria con la que se está discutiendo es falsa, entonces esta última es
+
+208 Frege 1893, 1903.
+
+209 Para un comentario general sobre las ideas y el formalismo de Frege véanse, por ejemplo, Resnik 1980, Demopoulos y Clark 2005, Zalta 2005, 2007 y Boolos 1985. Para un excelente comentario general sobre la lógica matemática véase DeLong 1970.
+
+cierta. Por ejemplo, si no es cierto que no tienes que detener tu coche en una
+
+señal de stop, entonces con total seguridad debes detenerte en una señal de
+
+stop. Para desarrollar un «lenguaje» lógico, Frege complementó su conjunto de
+
+axiomas con un nuevo e importante aspecto. Sustituyó el estilo tradicional de
+
+sujeto/predicado de la lógica clásica por conceptos prestados de la teoría
+
+matemática de funciones. Lo explicaré brevemente: en matemática,
+
+expresiones como: f(x) = 3x + 1 significan que f es una función del argumento
+
+xy que el valor de la función se puede obtener multiplicando el argumento por
+
+tres y sumando uno. Frege definió lo que él denominaba conceptos como
+
+funciones. Por ejemplo, supongamos que queremos comentar el concepto
+
+«comer carne». Este concepto se podría denotar simbólicamente mediante una
+
+función «F(x)», y el valor de esta función sería Verdadero si x= León y Falso si
+
+x=Ciervo. De forma similar, en el caso de los números, el concepto (función)
+
+«ser menor que 7» asociaría a Falso todos los números mayores o iguales que
+
+7 y a Verdadero todos los menores que 7. Frege se refería a los objetos para los
+
+que un cierto concepto daba el valor Verdadero como objetos que «cumplían»
+
+ese concepto.
+
+Como ya he mencionado, Frege estaba convencido de que todas las
+
+proposiciones relativas a los números naturales eran cognocibles y derivables
+
+únicamente a partir de definiciones y leyes lógicas. En consecuencia, inició su
+
+exposición acerca de los números naturales sin exigir ninguna comprensión
+
+previa del concepto de «número». Por ejemplo, en el lenguaje lógico de Frege,
+
+dos conceptos son equinuméricos (en palabras llanas, tienen asociado el
+
+mismo número) si hay una correspondencia uno a uno entre los objetos que
+
+«cumplen» un concepto y los que cumplen el otro. Es decir, las tapas de cubos
+
+de basura son equinuméricas con los propios cubos de basura (si todos ellos
+
+tienen tapa), y esta definición no requiere de la definición de «número». Frege
+
+introdujo entonces una ingeniosa definición lógica del número cero.
+
+Imaginemos un concepto F definido como «no idéntico a sí mismo». Puesto que
+
+todos los objetos deben ser idénticos a sí mismos, ningún objeto cumple F. En otras palabras, para todos los objetos x, F(x) = Falso. Frege definió el número
+
+común cero como el «número del concepto F», y a continuación definió todos
+
+los números naturales en términos de unas entidades a las que denominó
+
+extensiones.210 La extensión de un concepto era la clase de todos los objetos
+
+que cumplían ese concepto. Aunque esta definición puede ser algo difícil de
+
+comprender para alguien que no sea lógico, en realidad es bastante simple. Por
+
+ejemplo, la extensión del concepto «mujer» era la clase de todas las mujeres.
+
+Es necesario remarcar que la extensión de «mujer» no es una mujer.
+
+Quizá se pregunte cómo puede esta definición lógica abstracta ayudar a definir
+
+algo como, digamos, el número 4. Según Frege, el número 4 era la extensión (o
+
+clase) de todos los conceptos que cumplen cuatro objetos. Así, el concepto «ser
+
+una pierna de un perro determinado de nombre Snoopy» pertenece a esa clase
+
+(y, por consiguiente, al número 4), igual que el concepto «ser abuelo o abuela
+
+de Gottlob Frege».
+
+El proyecto de Frege era realmente impresionante, pero sufría de algunos
+
+graves inconvenientes. Por un lado, la idea de emplear conceptos (los bloques
+
+básicos de construcción del pensamiento) para crear la aritmética era una
+
+genialidad. Por otro, Frege omitió algunas incoherencias esenciales en su
+
+formalismo. Uno de sus axiomas en particular (el conocido como «Ley básica
+
+V») conducía a una contradicción, por lo que fallaba por su base.
+
+El texto de la ley tenía aspecto inocente: afirmaba que la extensión de un
+
+concepto F es idéntica a la extensión del concepto G si, y sólo si, los mismos
+
+objetos cumplen F y G. Pero el 16 de junio de 1902, Bertrand Russell (figura
+
+49) dejó caer la bomba en una carta a Frege en la que señalaba una cierta
+
+paradoja que demostraba la incoherencia de la Ley básica V. Por una broma del
+
+destino, la carta de Russell llegó justo cuando el segundo volumen de las Leyes
+
+básicas de la aritmética de Frege iba camino de la imprenta. Frege,
+
+horrorizado, se apresuró a agregar al manuscrito la siguiente sincera admisión:
+
+210 Frege 1884.
+
+«Apenas hay algo más desagradable para un científico que notar cómo los
+
+cimientos de su trabajo se resquebrajan justo después de concluirlo. Una carta
+
+de Mr. Bertrand Russell me ha colocado en esa posición cuando este trabajo ya
+
+estaba casi impreso». Frege dedicó estas elegantes palabras a Russell: «Su
+
+descubrimiento de la contradicción me provocó una inmensa sorpresa y casi
+
+diría consternación, ya que hizo temblar la base sobre la que pretendía
+
+construir la aritmética».
+
+El hecho de que una paradoja pudiese tener este devastador efecto sobre todo
+
+un proyecto puede resultar sorprendente a primera vista, pero, en palabras del
+
+lógico de la Universidad de Harvard W. V. O. Quine: «En más de una ocasión en
+
+la historia el descubrimiento de una paradoja ha forzado una reconstrucción
+
+esencial de las bases del pensamiento». La paradoja de Russell representó
+
+precisamente una de tales ocasiones.
+
+La paradoja de Russell
+
+Una clase o conjunto no es más que una colección de objetos. Estos objetos no
+
+tienen por qué estar relacionados entre sí. Se puede hablar de una clase que
+
+contenga todos los elementos siguientes: los periódicos de Albania, el caballo
+
+blanco de Napoleón y el concepto de amor verdadero. Los elementos que
+
+pertenecen a una cierta clase se denominan miembros de esa clase. El
+
+matemático alemán Georg Cantor (1845-1918) fue el fundador, prácticamente
+
+en solitario, de la teoría de conjuntos. Los conjuntos —o clases— se revelaron
+
+enseguida como objetos fundamentales, y tan irrevocablemente ligados a la
+
+lógica que cualquier intento para construir la matemática sobre la lógica
+
+implicaba de forma necesaria construir sobre las bases axiomáticas de la teoría
+
+de conjuntos.
+
+La mayoría de las ases de objetos con las que uno se tropieza no son miembros
+
+de sí mismas. Por ejemplo, la clase de todos los copos de nieve no es un copo
+
+de nieve, la clase de todos los relojes de pulsera antiguos no es un reloj de
+
+pulsera antiguo, etc. Pero algunas clases sí son miembros de sí mismas. Por
+
+ejemplo, la clase de «todo aquello que no es un reloj de pulsera antiguo» es
+
+miembro de sí misma, ya que está claro que esta clase no es un reloj antiguo.
+
+De forma similar, la clase de todas las clases es miembro de sí misma, ya que,
+
+obviamente, es una clase. Pero ¿y la clase de «todas las clases que no son
+
+miembros de sí mismas»?211 Vamos a llamar R a esa clase. ¿Es R miembro de
+
+sí misma (de R) o no lo es? Está claro que R no pertenece a R porque, si
+
+perteneciese, violaría la definición de pertenencia a R. Pero, si R no pertenece
+
+a sí misma, entonces, según la definición, debe ser miembro de R. De forma
+
+parecida a lo que sucedía con el barbero del pueblo, aquí tenemos una clase R
+
+que pertenece y no pertenece a R, lo que es una contradicción lógica. Esta es la
+
+paradoja que Russell envió a Frege. Esta antinomia minaba por completo el
+
+proceso de determinación de las clases o conjuntos, y asestó un golpe mortal al
+
+211 La paradoja de Russell y sus implicaciones y posibles soluciones se tratan, por ejemplo, en Boolos 1999, Clark 2002, Sainsburg 1988 e Irvi-ne 2003.
+
+proyecto de Frege. Frege hizo algunos intentos desesperados de reparar su
+
+sistema de axiomas, pero fueron infructuosos. La conclusión tenía todo el
+
+aspecto de ser desastrosa: en lugar de ser más sólida que la matemática, la
+
+lógica era, al parecer, más vulnerable a las incoherencias paralizantes.
+
+En el mismo período en que Frege desarrollaba su proyecto de lógica, el
+
+matemático y lógico italiano Giuseppe Peano probaba una estrategia
+
+ciertamente distinta. La intención de Peano era construir la aritmética sobre
+
+una base axiomática. En consecuencia, su punto de partida era la formulación
+
+de un conjunto de axiomas simple y conciso. Los tres primeros axiomas, por
+
+ejemplo, decían:
+
+i. 0 es un número.
+
+ii. El sucesor de cualquier número también es un número.
+
+iii. Dos números no pueden tener el mismo sucesor.
+
+El problema es que, mientras que el sistema axiomático de Peano podía
+
+reproducir las leyes conocidas de la aritmética (después de introducir algunas
+
+definiciones adicionales), no contenía nada que permitiese identificar de forma
+
+única los números naturales.
+
+El paso siguiente lo dio Bertrand Russell. Russell sostenía que la idea original de
+
+Frege (derivar la aritmética de la lógica) seguía siendo el camino correcto. Y, en
+
+respuesta a esta audaz toma de postura, Russell produjo, en colaboración con
+
+Alfred North Whitehead (figura 50), una increíble obra maestra de la lógica: el
+
+tratado en tres volúmenes Principia Mathematica, un hito histórico.212 Con la
+
+posible excepción del Organon de Aristóteles, se trata probablemente de la
+
+obra más influyente de la historia de la lógica (en la figura 51 se muestra la
+
+portada de la primera edición).
+
+En los Principia, Russell y Whitehead defendían la postura de que la
+
+matemática era, básicamente, una elaboración de las leyes de la lógica, y que
+
+212 Whitehead y Russell 1910. Véase Russell 1919 para una descripción sencilla pero esclarecedora sobre el contenido de los Principia
+
+no existía una clara frontera entre ambas.213
+
+Sin embargo, para llegar a una descripción consistente consigo misma, aún
+
+debían controlar las antinomias o paradojas (además de la paradoja de Russell
+
+se habían descubierto otras). Para ello era necesario realizar algunos
+
+malabarismos lógicos de envergadura. Russell argumentaba que el origen de
+
+estas paradojas se reducía a un «círculo vicioso» en el que se definían
+
+entidades en términos de una clase de objetos que contenía la entidad definida.
+
+En palabras de Russell: «Si digo "Napoleón poseía las cualidades que definen a
+
+un gran general", deberé definir "cualidades" de modo que no incluya lo que
+
+estoy diciendo; es decir, "tener las cualidades que definen a un gran general"
+
+no debe ser una cualidad en el sentido que suponemos».
+
+213 Para conocer más acerca de la interacción entre las ideas de Russell y de Frege véase Beaney 2003. Para más información sobre el logicismo de Russell véase Shapiro 2000 y Godwyn e Irvine 2003.
+
+Con el fin de evitar la paradoja, Russell propuso una teoría de tipos en la que
+
+una clase (o conjunto) pertenece a un tipo lógico superior que aquel al que
+
+pertenecen sus miembros.214 Por ejemplo, todos los jugadores individuales del
+
+equipo de fútbol Dallas Cowboys serían del tipo 0. El propio equipo Dallas
+
+Cowboys, que es una clase de jugadores, sería
+
+del tipo 1. La National Football League, que es
+
+una clase de equipos, sería del tipo 2; una
+
+colección de ligas (si existiese) sería del tipo
+
+3, etc. En este esquema, la simple noción de
+
+«una clase que es miembro de sí misma» no
+
+es verdadera ni falsa, sino que simplemente
+
+no tiene sentido. En consecuencia, las
+
+paradojas del tipo de la de Russell no se dan
+
+jamás.
+
+No cabe duda de que los Principia significan
+
+una proeza colosal en el campo de la lógica,
+
+pero no se les puede considerar los cimientos
+
+de la matemática buscados durante tanto
+
+tiempo. Para muchos, la teoría de tipos de
+
+Russell es una solución bastante artificiosa del problema de las paradojas que,
+
+además, genera ramificaciones de una inquietante complejidad. 215 Por
+
+ejemplo, los números racionales (es decir, las fracciones simples) resultan ser
+
+de un tipo superior que los números naturales. Para evitar en parte estas
+
+complicaciones, Russell y Whitehead introdujeron un axioma adicional,
+
+denominado axioma de reducibilidad, que por sí mismo generó una cierta
+
+controversia y desconfianza.
+
+Los matemáticos Ernst Zermelo y Abraham Fraenkel sugirieron posteriormente
+
+métodos más elegantes para librarse de las paradojas. De hecho, consiguieron
+
+214 Urquhart 2003 contiene un excelente comentario al respecto.
+
+215 La teoría de tipos ha perdido predicamento entre la mayoría de los matemáticos. Sin embargo, una construcción similar ha hallado nuevas aplicaciones en programación de ordenadores. Véase por ejemplo Mitchell 1990. axiomatizar de forma consistente la teoría de conjuntos y reproducir la mayor
+
+parte de los resultados de la teoría. Esto parecía satisfacer, al menos
+
+parcialmente, el sueño de los platónicos. Si la teoría de conjuntos y la lógica
+
+eran, en realidad, dos caras de una misma moneda, una base sólida para la
+
+teoría de conjuntos implicaba una base sólida para la lógica. Además, si era
+
+cierto que la mayoría de la matemática surgía de la lógica, esto concedía a la
+
+matemática una especie de certidumbre objetiva. Por desgracia, los platónicos
+
+tuvieron que suspender pronto sus celebraciones, poique estaban a punto de
+
+sufrir un grave caso de déjà vu.
+
+¿Otra vez la crisis no euclidiana?
+
+En 1908, el matemático alemán Ernst Zermelo216 (1871-1953) siguió un
+
+camino similar al que Euclides había abierto alrededor del año 300 a.C. Euclides
+
+formuló algunos postulados no demostrados pero, supuestamente, evidentes
+
+por sí mismos, acerca de puntos y líneas, y construyó la geometría basándose
+
+en esos axiomas. Zermelo, que había descubierto la paradoja de Russell por su
+
+cuenta nada menos que en 1900, propuso una forma de construir la teoría de
+
+conjuntos sobre una base axiomática similar. Su teoría sorteaba la paradoja de
+
+Russell mediante una cuidadosa elección de principios de construcción que
+
+evitaban ideas contradictorias como «el conjunto de todos los conjuntos». El
+
+esquema de Zermelo fue posteriormente ampliado por el matemático israelí
+
+Abraham Fraenkel217 (1891-1965) para constituir lo que ahora se denomina la
+
+teoría de conjuntos de Zermelo-Fraenkel (John von Neumann agregó algunos
+
+otros cambios importantes en 1925). Todo habría sido casi perfecto (aún tenía
+
+que demostrarse la consistencia) si no hubiese sido por algunas molestas
+
+sospechas. Había un axioma (el axioma de elección) que, igual que el famoso
+
+«quinto» de Euclides estaba causando a los matemáticos un verdadero dolor
+
+216 Una descripción de sus contribuciones se puede ver en Ewald 1996. 217 Véase Van Heijemoort 1967 para traducciones inglesas de los documentos originales de Zermelo, Fraenkel y el lógico Thoralf Skolem. Devlin 1993 contiene una relativamente sencilla introducción a los conjuntos y a los axiomas de Zermelo-Fraenkel.
+
+de cabeza. En palabras simples, el axioma de elección dice: «Si X es una
+
+colección de conjuntos no vacíos, podemos elegir un miembro de cada uno de
+
+los conjuntos de X para formar un nuevo conjunto, Y».218 Esta afirmación es
+
+obviamente cierta si la colección X no es infinita. Si tenemos 100 cajas y cada
+
+una de ellas contiene al menos una canica, podemos elegir sin problemas una
+
+canica de cada caja para formar un conjunto Y que contenga 100 canicas. En un
+
+caso como éste no necesitamos ningún axioma especial: podemos demostrar
+
+que esta elección es posible. La afirmación es cierta incluso para colecciones X
+
+infinitas, siempre que podamos especificar con precisión cómo efectuamos la
+
+elección. Imaginemos, por ejemplo, una colección infinita de conjuntos no
+
+vacíos de números naturales. Los miembros de esta colección pueden ser
+
+conjuntos como {2, 6, 7}, {1, 0}, {346, 5, 11, 1.257}, {todos los números
+
+naturales entre 381 y 10.457}, etc. Sin embargo, la cuestión es que en todo
+
+conjunto de números naturales siempre hay un miembro que es el menor.
+
+Nuestra elección podría, pues, describirse de forma única así: «De cada
+
+conjunto elegimos el elemento menor.» En tal caso podemos de nuevo evitar la
+
+necesidad del axioma de elección. El problema se plantea, en colecciones
+
+infinitas, en los casos en los que no podemos realmente caracterizar la
+
+elección. En tales circunstancias, el proceso de elección simplemente no se
+
+acaba nunca, y la existencia de un conjunto que consta exactamente de un
+
+elemento de cada uno de los miembros de la colección X se convierte en una
+
+cuestión de fe.
+
+Desde su creación, el axioma de elección ha generado una notable controversia
+
+entre los matemáticos. El hecho de que el axioma asevere la existencia de
+
+determinado objeto matemático (esto es, la elección) sin ofrecer ningún
+
+ejemplo tangible de ese objeto ha atraído críticas feroces, especialmente de los
+
+adeptos a la escuela de pensamiento denominada constructivismo (relacionada
+
+filosóficamente con el intuicionismo). Los constructivistas sostenían que
+
+218 En Moore 1982 se puede hallar un detallado comentario acerca del axioma. cualquier cosa que existe debe ser explícitamente consumible. Otros
+
+matemáticos tendían también a evitar el axioma de elección y utilizar sólo el
+
+resto de los axiomas de la teoría de Zermelo-Fraenkel.
+
+Debido a los aparentes problemas del axioma de elección, los matemáticos
+
+empezaron a preguntarse si éste se podría demostrar o refutar utilizando los
+
+demás axiomas. La historia del quinto axioma de Euclides se estaba,
+
+literalmente, repitiendo. A finales de los años treinta se ofreció una solución
+
+parcial. Kurt Gödel (1906-1978), uno de los lógicos más influyentes de la
+
+historia, demostró que el axioma de elección y otra famosa conjetura
+
+formulada por Cantor, denominada hipótesis del continuo, 219 eran
+
+consistentes con los demás axiomas de Zermelo-Fraenkel. Es decir, ninguna de
+
+las dos hipótesis podía refutarse mediante los otros axiomas estándar de la
+
+teoría de conjuntos. El matemático americano Paul Cohen220 (1934-2007)
+
+—que por desgracia falleció mientras yo escribía este libro— presentó pruebas
+
+adicionales en 1963 que establecían la completa independencia del axioma de
+
+elección y de la hipótesis del continuo. En otras palabras, el axioma de elección
+
+no podía ser demostrado ni refutado a partir del resto de los axiomas de la
+
+teoría de conjuntos. De forma similar, la hipótesis del continuo no podía ser
+
+demostrada ni refutada a partir del mismo grupo de axiomas, aunque se
+
+incluyese el axioma de elección.
+
+Este resultado tuvo espectaculares consecuencias en filosofía. Como en el caso
+
+de las geometrías no euclidianas, en el siglo XIX no había una única teoría de
+
+conjuntos definitiva ¡sino cuatro, al menos! Se podían plantear hipótesis
+
+distintas sobre los conjuntos infinitos y acabar con teorías de conjuntos
+
+mutuamente excluyentes. Por ejemplo, se podía suponer que el axioma de
+
+elección y la hipótesis del continuo se cumplían —y se obtenía una versión o
+
+219 Cantor ideó un método para comparar la cardinalidad de conjuntos infinitos. En concreto, demostró que la cardinalidad del conjunto de los números reales es mayor que la del conjunto de los números enteros. A continuación formuló la hipótesis del continuo, que afirmaba que no hay ningún conjunto cuya cardinalidad se halle estrictamente entre la de los números enteros y la de los números reales. Cuando David Hilbert planteó sus famosos problemas de la matemática en 1900, el primero fue la cuestión de la verdad o falsedad de la hipótesis del continuo. Woodin 2001a,b contiene un comentario relativamente reciente de este problema.
+
+220 Describió su trabajo en Cohen 1966.
+
+bien suponer que ninguno de los dos se cumplía —y se llegaba a una teoría
+
+totalmente diferente—. También se llegaba a dos teorías de conjuntos distintas
+
+si se asumía la validez de uno de los axiomas y se negaba la del otro.
+
+De nuevo hacía su aparición una crisis como la de las geometrías no
+
+euclidianas, pero aún peor. Debido al papel fundamental de la teoría de
+
+conjuntos como posible base para la totalidad de la matemática, el problema
+
+para los platónicos era mucho más grave. Si, en efecto, se podían formular
+
+varias teorías de conjuntos con sólo elegir una colección de axiomas diferente,
+
+¿no daba eso fuerza a la tesis de que la matemática no era más que una
+
+invención humana? La victoria de los formalistas parecía prácticamente
+
+segura.
+
+Una verdad incompleta
+
+Mientras que a Frege le preocupaba sobre todo el significado de los axiomas, al
+
+principal promotor del formalismo, el gran matemático alemán David Hilbert
+
+(1862-1943; figura 52) propugnaba evitar por completo cualquier
+
+interpretación de las fórmulas matemáticas.
+
+Hilbert no tenía interés alguno en cuestiones como si la matemática podía
+
+derivarse de las nociones de la lógica. Para él, la matemática consistía en
+
+realidad en un conjunto de fórmulas sin sentido, modelos estructurados
+
+compuestos de símbolos arbitrarios.221 Hilbert asignó la tarea de garantizar la
+
+solidez de los cimientos de la matemática a una nueva disciplina a la que
+
+denominó «metamatemática». Esto es, la metamatemática trataba del uso de
+
+los propios métodos del análisis matemático para demostrar la consistencia de
+
+todo el proceso formal de derivación de teoremas a partir de axiomas mediante
+
+estrictas reglas de inferencia.
+
+221 Una buena descripción de los planes de Hilbert se puede hallar en Seig 1988. En Shapiro 2000 se presenta un repaso excelente y actualizado de la filosofía de la matemática y un resumen de las tensiones entre logicismo, formalismo e intuicionismo.
+
+Dicho de otro modo, Hilbert opinaba que podía demostrar matemáticamente
+
+que la matemática funcionaba. Según sus propias palabras:
+
+La meta de mis investigaciones sobre los nuevos fundamentos
+
+de la matemática es la siguiente: eliminar de una vez por todas
+
+la duda general acerca de la fiabilidad de la inferencia
+
+matemática … Todo aquello que constituía la matemática será
+
+formalizado con el máximo rigor de modo que la matemática
+
+propiamente dicha o en sentido estricto se convierta en un
+
+conjunto de fórmulas … Aparte de la formalización de la
+
+matemática propiamente dicha, existe una matemática que es,
+
+hasta cierto punto, nueva: una metamatemática necesaria para
+
+salvaguardar la matemática y en la cual (a diferencia de los
+
+modos puramente formales de inferencia en la matemática
+
+propiamente dicha) se aplica la inferencia con textual, pero
+
+únicamente para demostrar la consistencia de los axiomas …
+
+Así, el desarrollo de la ciencia matemática en su conjunto tiene
+
+lugar de dos formas que se alternan constantemente: por un
+
+lado, derivamos fórmulas demostrables a partir de los axiomas
+
+mediante inferencia formal; por otro, incorporamos nuevos
+
+axiomas y demostramos su consistencia por inferencia
+
+contextual.222
+
+El plan de Hilbert sacrificaba el significado para aumentar la seguridad de los
+
+fundamentos. En consecuencia, para sus seguidores formalistas, la
+
+matemática no era más que un juego, pero su finalidad era demostrar
+
+rigurosamente que se trataba de un juego totalmente consistente.223 Con
+
+todos los avances en axiomatización, la realidad del sueño formalista de la
+
+«teoría de la demostración» parecía estar al alcance de la mano.
+
+Sin embargo, no todos tenían fe en que el camino tomado por Hilbert fuese el
+
+correcto. Ludwig Wittgenstein (1889-1951), considerado por algunos como el
+
+filósofo más notable del siglo XX,224 creía que los esfuerzos de Hilbert y su
+
+metamatemática eran, en cierto sentido, una pérdida de tiempo. «No podemos
+
+establecer una norma para la aplicación de otra norma», alegaba. En otras
+
+palabras, Wittgenstein no creía que la comprensión de un «juego» pudiese
+
+depender de la construcción de otro: «Si estoy confuso acerca de la naturaleza
+
+de la matemática, ninguna demostración puede ayudarme».225 No obstante,
+
+nadie se esperaba el mazazo que estaba a punto de caer. De un solo golpe,
+
+Gödel, que por entonces contaba sólo veinticuatro años, atravesó con una
+
+estaca el corazón del formalismo. Kurt Gödel (figura 53) nació el 28 de abril de
+
+1906 en la ciudad de Moravia que más tarde se conocería con el nombre checo
+
+de Brno.226
+
+222 Hilbert pronunció esta conferencia en Leipzig en septiembre de 1922. El texto se encuentra en Ewald 1996. 223 Véase Detlefsen 2005 para un excelente comentario sobre formalismo. 224 Monk 1990 presenta una magnífica biografía.
+
+225 En Waismann 1979.
+
+226 Véase Goldstein 2005 para una biografía reciente. La biografía estándar ha sido Dawson 1997.
+
+En aquel tiempo la ciudad formaba parte del Imperio Austrohúngaro, y Gödel
+
+creció en una familia de habla alemana. Su padre, Rudolf Gödel, dirigía una
+
+fábrica textil, y su madre, Marianne Gödel, cuidaba de que el joven Kurt
+
+recibiese una amplia educación en matemática, historia, idiomas y religión.
+
+Durante su adolescencia, Gödel desarrolló interés por la matemática y la
+
+filosofía y a los dieciocho años ingresó en la Universidad de Viena, en donde
+
+centró principalmente su atención en la lógica matemática. Quedó
+
+especialmente fascinado por los Principia Mathematica de Russell y Whitehead
+
+y por el proyecto de Hilbert, y el tema que eligió para su tesis fue el problema
+
+de la completitud. La finalidad básica de esta investigación era determinar si el
+
+enfoque formal de Hilbert bastaba para generar todos los enunciados
+
+verdaderos de la matemática. Gödel recibió su doctorado en 1930 y un año
+
+más tarde publicó sus teoremas de incompletitud, que causaron un terremoto en el mundo de la matemática y en el de la filosofía.227
+
+Los dos teoremas, enunciados en un lenguaje estrictamente matemático,
+
+sonaban bastante técnicos y no demasiado emocionantes:
+
+operaciones aritméticas elementales, es incompleta respecto de los
+
+enunciados de la aritmética elemental; esto es, hay enunciados cuya
+
+verdad o falsedad no se puede demostrar dentro de S.
+
+operaciones aritméticas elementales, no es posible probar la consistencia
+
+de S dentro de S.
+
+Aunque las palabras parecen inofensivas, las implicaciones para el proyecto de
+
+los formalistas llegaban lejos. Dicho de una forma algo simplificada, los
+
+teoremas de incompletitud demostraban que el plan formalista de Hilbert
+
+estaba esencialmente condenado al fracaso desde el principio. Gödel demostró
+
+que cualquier sistema formal lo bastante potente como para tener algún
+
+interés es, de forma inherente, o bien incompleto o bien inconsistente. Es decir,
+
+en el mejor de los casos, siempre habrá enunciados dentro del sistema formal
+
+cuya verdad o falsedad no podrán demostrarse. En el peor de los casos, el
+
+sistema generará contradicciones. Como, para cualquier enunciado T, T o no T
+
+tiene que ser verdadero, el hecho de que un sistema formal finito no pueda
+
+demostrar la verdad o falsedad de ciertos enunciados significa que siempre
+
+existirán enunciados verdaderos que no serán demostrables dentro del
+
+sistema. En otras palabras, Gödel demostró que ninguna formalización
+
+compuesta por un número finito de axiomas y reglas de inferencia puede
+
+abarcar nunca todas las verdades de la matemática. A lo más que se puede
+
+aspirar es a que las axiomatizaciones más aceptadas sean simplemente
+
+incompletas y no inconsistentes.
+
+227 Hofstadter 1979, Nogel y Newman 1959 y Franzen 2005 son textos excelentes acerca de los teoremas de Gödel, su significado y su relación con otras ramas del conocimiento.
+
+El propio Gödel creía en la existencia de una noción platónica independiente de
+
+verdad matemática. En un artículo publicado en 1947 escribía lo siguiente:
+
+Pero, a pesar de estar tan apartados de la experiencia de los
+
+sentidos, sí tenemos una especie de percepción de los objetos
+
+de la teoría de conjuntos, como se puede deducir del hecho de
+
+que los axiomas nos parezcan forzosamente verdaderos. No veo
+
+motivo alguno para que debamos tener menos confianza en este
+
+tipo de percepción, es decir, en la intuición matemática, que en
+
+la percepción de los sentidos.228
+
+Por una ironía del destino, cuando los formalistas ya se preparaban para cantar
+
+victoria, apareció Kurt Gödel (platónico declarado) y hundió la fiesta del
+
+proyecto formalista.
+
+El famoso matemático John von Neumann (1903-1957), que en aquella época
+
+impartía en sus clases la obra de Hilbert, canceló el resto del curso para dedicar
+
+el tiempo que quedaba a los hallazgos de Gödel.
+
+Como persona, Gödel era tan complejo como sus teoremas.229 En 1940 huyó
+
+con su esposa Adele de la Austria nazi para ocupar un puesto en el Instituto de
+
+Estudios Avanzados de Princeton, New Jersey. Allí trabó una estrecha amistad
+
+con Albert Einstein, a quien solía acompañar en sus paseos. Cuando Gödel
+
+solicitó la nacionalización como ciudadano americano en 1948, fueron Einstein
+
+y el matemático y economista de la Universidad de Princeton Oskar
+
+Morgenstern (1902-1977) quienes le acompañaron a la oficina del Servicio de
+
+Inmigración y Naturalización (INS). Lo que aconteció en esta entrevista es de
+
+sobra conocido, pero revela hasta tal punto la personalidad de Gödel que
+
+relataré los hechos con todo detalle, exactamente como los registró
+
+Morgenstern el 13 de septiembre de 1971. Doy las gracias a Ms. Dorothy
+
+Morgenstern-Thomas, la viuda de Morgenstern, y al Instituto de Estudios
+
+228 Gödel 1947.
+
+229 Wang 1996 contiene una descripción exhaustiva de los puntos de vista filosóficos de Gödel y de cómo relacionaba estas ideas con las bases de la matemática.
+
+Avanzados por haberme facilitado una copia del documento:
+
+Corría el año 1946 cuando Gödel iba a convertirse en ciudadano
+
+americano. Me pidió que fuese su testigo; como segundo testigo
+
+propuso a Albert Einstein, que también aceptó de buen grado.
+
+Einstein y yo nos habíamos visto ocasionalmente, y ambos
+
+teníamos grandes expectativas sobre lo que podía ocurrir antes
+
+del proceso de naturalización e incluso durante dicho proceso.
+
+Gödel, a quien veía con frecuencia en los meses previos al
+
+acontecimiento, empezó a prepararse de forma muy
+
+concienzuda. Gödel era una persona meticulosa, así que empezó
+
+a estudiar la historia de la colonización de Norteamérica por el
+
+ser humano. Eso le condujo al estudio de la historia de los indios
+
+americanos, sus diversas tribus, etc. Me llamó numerosas veces
+
+por teléfono para que le aconsejase libros, que leía con suma
+
+atención. Gradualmente surgieron muchas preguntas y dudas
+
+sobre la corrección de estas historias y las peculiares
+
+circunstancias que en ellas se revelaban. A partir de ahí y
+
+durante las semanas posteriores, Gödel pasó a estudiar historia
+
+americana, haciendo particular hincapié en temas de derecho
+
+constitucional. Esto le condujo a su vez al estudio de Princeton,
+
+y en especial quiso que yo le explicase dónde estaba la frontera
+
+entre el distrito y el municipio. Por supuesto, yo intenté hacerle
+
+comprender que esto era totalmente innecesario, pero fue en
+
+vano. El insistía en averiguar todos aquellos datos que quería
+
+saber, de modo que le proporcioné la información pertinente,
+
+incluso acerca de Princeton. Entonces quiso saber cómo se
+
+elegía el Consejo de Distrito, el Consejo Municipal, quién era el
+
+alcalde y cómo funcionaba el Consejo Municipal. Pensaba que
+
+era posible que le preguntasen acerca de esos asuntos y que, si
+
+demostraba que no conocía la ciudad en que vivía, causaría una
+
+mala impresión.
+
+Intenté convencerlo de que esas preguntas nunca surgían; de
+
+que la mayor parte de las preguntas eran una simple formalidad
+
+y él las podría responder sin dificultad alguna; de que, como
+
+máximo, podían preguntarle qué sistema de gobierno teníamos
+
+en este país, cómo se llamaba la más alta instancia judicial o
+
+cosas así. De todos modos, él siguió con su estudio de la
+
+Constitución.
+
+Y entonces sucedió algo interesante. Con cierta excitación me
+
+dijo que, al examinar la Constitución y para su disgusto, había
+
+hallado contradicciones internas y que podía demostrar cómo,
+
+de forma perfectamente legal, era posible que alguien se
+
+convirtiese en dictador e instaurase un régimen fascista que
+
+aquellos que redactaron la Constitución nunca pretendieron. Le
+
+dije que era muy improbable que algo así sucediese nunca, aun
+
+suponiendo que tuviese razón, cosa que yo, desde luego,
+
+dudaba. Pero él era una persona insistente, así que charlamos
+
+muchas veces de este asunto concreto. Yo intenté persuadirlo
+
+de que evitase referirse a estos temas ante el tribunal de Tren
+
+ton, y también se lo comenté a Einstein que, horrorizado de que
+
+a Gödel se le hubiese ocurrido una idea así, también le señaló
+
+que no debía preocuparse por estas cuestiones ni referirse a
+
+ellas.
+
+Pasaron varios meses y, finalmente, llegó la fecha del examen
+
+en Trenton. Aquel día pasé a recoger a Gödel en mi coche. Se
+
+sentó en el asiento posterior y luego pasamos a recoger a
+
+Einstein por su casa de Mercer Street, desde donde nos
+
+dirigimos a Trenton. Durante el viaje, Einstein se volvió
+
+levemente y preguntó «Y bien, Gödel, ¿estás realmente bien
+
+preparado para el examen?» Por supuesto, ese comentario
+
+alteró profundamente a Gödel, que era lo que Einstein
+
+pretendía; su semblante de preocupación de Gödel le pareció
+
+muy gracioso. Cuando llegamos a Trenton nos hicieron entrar en
+
+una gran sala y, aunque en general se interroga a los testigos
+
+por separado del candidato, se hizo una excepción en deferencia
+
+a Einstein y nos invitaron a los tres a sentarnos juntos, con
+
+Gödel en el centro. El examinador preguntó primero a Einstein y
+
+luego a mí si opinábamos que Gödel sería un buen ciudadano. Le
+
+aseguramos que sin duda alguna era así, que se trataba de una
+
+persona distinguida, etc. Entonces se volvió hacia Gödel y dijo:
+
+—Bien, Mr. Gödel, ¿de dónde viene usted?
+
+—¿Que de dónde vengo? De Austria.
+
+—¿Qué forma de gobierno tenían en Austria?
+
+—Era una república, pero debido a la constitución la forma
+
+cambió a una dictadura.
+
+—¡Vaya! Qué mala fortuna. Eso no podría suceder en este país.
+
+—Claro que sí. Y puedo demostrarlo.
+
+Así que, de todas las posibles preguntas, el examinador tuvo
+
+que formular precisamente la más delicada. Einstein y yo nos
+
+mirábamos horrorizados durante esta conversación; el
+
+examinador fue lo bastante inteligente para tranquilizar
+
+enseguida a Gödel diciendo «Dios mío, no entremos en ese
+
+terreno» y, para nuestro alivio, interrumpió el examen en ese
+
+mismo momento. Cuando por fin salimos y ya nos dirigíamos
+
+hacia los ascensores, un hombre se acercó corriendo hacia
+
+nosotros con una hoja de papel y pidió un autógrafo a Einstein,
+
+que lo firmó con mucho gusto. Mientras bajábamos en el
+
+ascensor, le dije a Einstein «Debe de ser terrible que tantas
+
+personas le persigan a uno de este modo». Einstein respondió:
+
+«En realidad se trata simplemente de los últimos vestigios de incompletitud de Gödel implican que algunas verdades no se conocerán jamás.
+
+canibalismo». Desconcertado, le pregunté: «¿En qué sentido?».
+
+El me dijo: «Verás, antes querían tu sangre, ahora quieren tu
+
+tinta».
+
+Luego regresamos a Princeton y, al llegar a la esquina de Mercer
+
+Street, le pregunté a Einstein si quería ir al instituto o a casa, a
+
+lo que él contestó: «Llévame a casa, de todos modos mi trabajo
+
+ya no tiene valor alguno». Y prosiguió con una cita de una
+
+canción política americana (por desgracia no recuerdo sus
+
+palabras; es posible que la tenga en mis notas, y sin duda la
+
+reconocería si alguien sugiriese esa frase en particular). Así que
+
+fuimos hacia la casa de Einstein de nuevo. Einstein se volvió de
+
+nuevo hacia Gödel y le dijo:
+
+—Bueno, Gödel, éste ha sido tu penúltimo examen.
+
+—Cielos, ¿es que aún queda otro? —dijo él, de nuevo azorado.
+
+Y Einstein le contestó:
+
+—Gödel, el próximo examen será cuando entres andando en tu
+
+tumba.
+
+—Pero Einstein, yo no entraré andando en mi tumba. A lo que
+
+Einstein repuso:
+
+—¡Ahí está la gracia precisamente, Gödel! —Y se fue. Luego
+
+llevé a Gödel a su casa. Todo el mundo sintió un gran alivio al
+
+resolver de una vez por todas este peliagudo asunto; ahora,
+
+Gödel tenía de nuevo la cabeza libre para cavilar sobre
+
+problemas de filosofía y lógica.230
+
+Años después, Gödel sufriría episodios de enfermedad mental que acabaron en
+
+su rechazo a comer. Murió el 14 de enero de 1978 de desnutrición y
+
+agotamiento. Es un error muy extendido pensar que los teoremas de
+
+230 Morgenstem 1971.
+
+Tampoco podemos deducir de ellos que la capacidad del entendimiento
+
+humano está limitada de algún modo. En realidad, los teoremas demuestran
+
+únicamente los puntos débiles y los inconvenientes de los sistemas formales.
+
+Por tanto, quizá resulte sorprendente saber que, a pesar de la colosal
+
+trascendencia de los teoremas en la filosofía de la matemática, su impacto
+
+sobre la eficacia de ésta como mecanismo de construcción de teorías ha sido,
+
+en realidad, bastante nimio. De hecho, durante las décadas que siguieron a la
+
+publicación de la demostración de Gödel, la matemática alcanzó algunos de sus
+
+más espectaculares éxitos en las teorías físicas del universo. Lejos de quedar
+
+abandonada por falta de fiabilidad, la matemática y sus conclusiones lógicas se
+
+hicieron cada vez más esenciales para la comprensión del cosmos. Sin
+
+embargo, eso significaba que el misterio de la «inexplicable eficacia» de la
+
+matemática se hizo aún más insondable. Vamos a reflexionar: imaginemos lo
+
+que hubiera sucedido si el empeño logicista se hubiese visto coronado por el
+
+éxito. Esto habría implicado que la matemática deriva por completo de la
+
+lógica; literalmente, de las leyes del pensamiento. Pero ¿cómo es posible que
+
+una ciencia tan puramente deductiva se adapte de esa forma maravillosa a los
+
+fenómenos naturales? ¿Cuál es la relación entre la lógica formal (podríamos
+
+incluso decir la lógica formal humana) y el cosmos? Después de Hilbert y Gödel,
+
+la respuesta a estas preguntas seguía siendo borrosa. Ahora, todo lo que
+
+teníamos era un «juego» formal incompleto expresado en lenguaje
+
+matemático.231 ¿Cómo pueden los modelos basados en un sistema tan «poco
+
+fiable» penetrar con profundidad en el enigma del universo y su
+
+funcionamiento? Antes de intentar dar respuesta a estas preguntas, voy a
+
+afinarlas un poco más por el método de examinar algunos casos prácticos que
+
+demuestran la sutileza de la eficacia de la matemática.
+
+231 Se trata claramente de una simplificación excesiva, sólo admisible en un texto divulgativo. De hecho, aún en la actualidad prosiguen algunos intentos serios de dar vida al logicismo. Estos suelen asumir que muchas de las verdades matemáticas se pueden conocer a priori. Véanse, por ejemplo, Wright 1997, Tennant 1997.
+
+Capítulo 8
+
+¿Eficacia inexplicable?
+
+En el capítulo 1 señalé que el éxito de la matemática en las teorías físicas tiene
+
+dos aspectos: a uno lo llamé «activo» y al otro «pasivo». El aspecto «activo
+
+refleja el hecho de que los científicos formulan las leyes de la naturaleza en
+
+términos matemáticos aplicables más allá de toda duda; es decir, utilizan
+
+entidades, relaciones y ecuaciones matemáticas que se desarrollaron
+
+pensando en su aplicación, con frecuencia para el tema en cuestión. En esos
+
+casos, los investigadores tienden a basarse en la percepción de similitud entre
+
+las propiedades de los conceptos matemáticos y los fenómenos observados o
+
+los resultados experimentales. En tales situaciones, puede que la eficacia de la
+
+matemática no sea tan sorprendente, ya que se puede sostener que las teorías
+
+se ajustaron a medida de las observaciones. Sin embargo, existe también una
+
+parte sorprendente del uso «activo», la relacionada con la precisión, que
+
+comentaré más adelante en este capítulo. La eficacia «pasiva» se refiere a los
+
+casos de desarrollo de teorías matemáticas totalmente abstractas, sin
+
+intención alguna de hallarles aplicación, que más adelante se transforman en
+
+modelos predictivos de gran potencia. La teoría de nudos representa un
+
+ejemplo espectacular de la interacción entre la eficacia pasiva y la activa.
+
+Nudos
+
+Los nudos están hechos del material del que están hechas las leyendas. Quizá
+
+recuerden la leyenda griega del nudo gordiano. Un oráculo comunicó a los
+
+ciudadanos de Frigia que su próximo rey sería el primer hombre que entrase en
+
+la capital montando un carro de bueyes. Gordio, un pobre campesino incauto
+
+que entró en la ciudad conduciendo un carro de bueyes, se convirtió de este
+
+modo en rey. Abrumado por la gratitud, Gordio dedicó su carro a los dioses y lo
+
+ató con un complicado nudo que resistió todos los intentos de deshacerlo. Una
+
+posterior profecía pronosticaba que la persona que deshiciese el nudo se convertiría en rey de Asia. El destino quiso que el hombre que finalmente
+
+deshiciera el nudo (en el año 333 a.C.) fuese Alejandro Magno que, en efecto,
+
+más adelante se convertiría en soberano de Asia. No obstante, la solución de
+
+Alejandro para el nudo gordiano no fue lo que llamaríamos sutil, ni siquiera
+
+limpia; al parecer, Alejandro ¡cortó el nudo en dos con su espada!
+
+Pero no hace falta que retrocedamos hasta la antigua Grecia para tropezamos
+
+con nudos. Un niño que se ata los zapatos, una chica haciendo trenzas en su
+
+cabello, la abuela tejiendo un jersey p un marinero amarrando un barco, todos
+
+ellos utilizan algún tipo de nudo. Hay nudos con nombres pintorescos,232 como
+
+«gaza de pescador», «corbata inglesa», «zarpa de gato», «nudo de amor
+
+dormido», «abuelita» o «nudo del ahorcado». En concreto, los nudos
+
+marineros se han considerado lo bastante importantes desde un punto de vista
+
+histórico como para inspirar toda una colección de libros en la Inglaterra del
+
+siglo XVII. Resulta que uno de estos libros lo escribió nada menos que el
+
+aventurero inglés John Smith (1580-1631), que se hizo célebre por su relación
+
+romántica con la princesa nativa americana Pocahontas.
+
+La teoría matemática de nudos nació en 1771, en un documento escrito por el
+
+matemático francés Alexandre-Théophile Vandermonde (1735-1796). 233
+
+Vendermonde fue el primero en reconocer que los nudos se podían estudiar
+
+como parte de la materia denominada «geometría de posición», que trata de
+
+relaciones que dependen únicamente de la posición, y hace caso omiso de los
+
+tamaños y de los cálculos cuantitativos. En términos de su papel en el
+
+desarrollo de la teoría de nudos, el siguiente puesto le corresponde al «príncipe
+
+de las matemáticas» alemán, Cari Friedrich Gauss. Las notas de Gauss
+
+contienen bocetos y descripciones detalladas de nudos, así como exámenes
+
+analíticos de sus propiedades. Sin embargo, a pesar de la importancia de la
+
+obra de Vandermonde, Gauss y otros matemáticos del siglo XIX, el principal
+
+232 Un interesante libro sobre la elaboración de nudos es Ashley 1944. 233 Vandermonde 1771. Véase Przytycki 1991 para un excelente repaso de la historia de la teoría de nudos. Adams 1994 es una amena introducción a la teoría en sí. Una versión divulgativa de la misma se puede hallar en Neuwirth 1979, en Peterson 1988 y en Menasco y Rudolph 1995.
+
+impulso de la moderna teoría de nudos tuvo un origen inesperado: ¡un intento
+
+de explicar la estructura de la materia! La idea se forjó en la mente del famoso
+
+físico inglés William Thomson (más conocido actualmente por lord Kelvin;
+
+1824-1907). Los trabajos de Thomson se centraban en la formulación de una
+
+teoría de los átomos, los bloques de construcción básicos de la materia.234
+
+Según su original conjetura, los átomos eran en realidad tubos anudados de
+
+éter (esa misteriosa sustancia que, según se suponía, impregnaba todo el
+
+espacio). En este modelo, la variedad de elementos químicos se explicaba por
+
+la gran diversidad de nudos.
+
+Si la especulación de Thomson nos parece actualmente casi una chifladura es
+
+porque henos tenido un siglo de tiempo para acostumbrarnos al modelo
+
+correcto del átomo (en el que los electrones orbitan alrededor del núcleo) y
+
+comprobarlo experimentalmente. Pero estamos hablando de Inglaterra en la
+
+década de 1860, y a Thomson le había impresionado profundamente la
+
+estabilidad de los anillos de humo complejos y su capacidad de vibrar, dos
+
+propiedades que en aquella época se consideraban esenciales en cualquier
+
+modelo del átomo. Para desarrollar el equivalente de una «tabla periódica» de
+
+los elementos, Thomson debía clasificar los nudos (es decir, averiguar cuáles
+
+eran los distintos tipos de nudo posibles), y esta necesidad de tabulación de
+
+nudos suscitó un gran interés por la matemática de los nudos.
+
+Como ya expliqué en el capítulo 1, un nudo matemático tiene un aspecto
+
+similar al de un nudo en una cuerda, pero los extremos de la cuerda están
+
+empalmados. En otras palabras, un nudo matemático se representa mediante
+
+una curva cerrada sin cabos sueltos.
+
+234 Sossinsky 2002 y Atiyah 1990 presentan excelentes descripciones.
+
+En la figura 54 se pueden ver algunos ejemplos; los nudos tridimensionales se
+
+representan mediante sus proyecciones (sombras) en el plano. La posición en
+
+el espacio de dos ramales que se cruzan se indica en la figura mediante la
+
+interrupción de la línea que representa el ramal inferior. El nudo más simple
+
+(llamado precisamente nudo simple) es únicamente una curva circular cerrada
+
+(como se muestra en la figura 54a). El nudo de trébol (figura 54b) tiene tres
+
+cruces de ramales, mientras que el nudo en 8 (figura 54c) tiene cuatro cruces.
+
+En la teoría de Thomson, estos tres nudos podían, en principio, corresponder a modelos de tres átomos de complejidad creciente, como los de hidrógeno,
+
+carbono y oxígeno, respectivamente. Pero seguía siendo necesaria una
+
+clasificación completa de nudos, y la persona que emprendió esta tarea fue un
+
+amigo de Thomson, el físico matemático escocés Peter Guthrie Tait
+
+(1831-1901). Las preguntas que los matemáticos se hacen acerca de los nudos
+
+no difieren mucho de las que uno mismo podría plantearse acerca de una
+
+cuerda anudada o un ovillo enredado. ¿Está realmente anudado? Un nudo
+
+determinado ¿es equivalente a otro? O, lo que es lo mismo: ¿se puede
+
+deformar un nudo hasta adquirir la forma de otro sin romper las hebras ni
+
+hacer pasar un ramal a través de otro como en los anillos mágicos de un
+
+ilusionista? La importancia de esta pregunta se puede ver en la figura 55, en
+
+donde se muestra que, mediante determinadas manipulaciones, es posible
+
+obtener dos representaciones muy distintas de lo que, en realidad, es el mismo
+
+nudo. En última instancia, la teoría de nudos busca una forma de demostrar
+
+que ciertos nudos (como el nudo de trébol o el del número 8, figuras 54b y 54c)
+
+son realmente distintos, ignorando las diferencias «superficiales» de otros
+
+nudos, como los de la figura 55. Tait inició su trabajo de clasificación por el
+
+camino difícil.235 Sin ningún principio matemático riguroso para guiarle,
+
+recopiló listas de curvas con un cruce, dos cruces, tres cruces, etc. En
+
+colaboración con el reverendo Thomas Pennington Kirkman (1806-1895), que
+
+también era aficionado a las matemáticas, empezó a pasar una criba por las
+
+curvas para eliminar duplicados de nudos equivalentes. No se trataba de una
+
+tarea trivial. Hay que tener en cuenta que en cada cruce hay dos formas de
+
+elegir qué ramal pasa por encima. Eso significa que, si una cura contiene, por
+
+ejemplo, siete cruces, se deben tener en cuenta 2 x 2 x 2 x 2 x 2 x 2 x 2 = 128
+
+nudos. En otras palabras, la vida humana es demasiado breve como para
+
+completar la clasificación de nudos con decenas de cruces de esta forma
+
+intuitiva. Sin embargo, alguien supo apreciar el trabajo de Tait. El gran James
+
+235 Tait 1898; Sossinsky 2002. O'Connor y Robertson 2003 incluye una breve y magnífica biografía de Tait.
+
+Clerk Maxwell, que formuló la teoría clásica de la electricidad y el magnetismo,
+
+trató con respeto la teoría atómica de Thomson, sobre la que expresó:
+
+«Satisface un número mayor de condiciones que cualquier teoría atómica
+
+considerada hasta ahora.» Consciente de la contribución de Tait, Maxwell
+
+compuso el siguiente poema:
+
+Clear your coil of kinkings
+
+Into perfect plaiting,
+
+Locking loops and lmkings
+
+Interpenetrating236
+
+(«Tu bobina sin enredos,
+
+una trenza perfecta
+
+todos los bucles y enlaces
+
+interpenetrándose.»)
+
+En 1877, Tait ya había clasificado nudos alternos hasta siete cruces. Los nudos
+
+alternos son aquellos en los que los cruces se alternan por encima y por debajo,
+
+como la trama de una alfombra. Tait hizo también algunos descubrimientos
+
+más prácticos, principios básicos que luego se bautizaron como «conjeturas de
+
+Tait». Estas conjeturas resultaron ser tan enjundiosas que resistieron todo
+
+intento de demostración rigurosa hasta finales de la década de 1980. En 1885,
+
+Tait publicó tablas de nudos hasta diez cruces y decidió dejarlo en ese punto.
+
+De forma independiente, el profesor de la Universidad de Nebraska Charles
+
+Newton Little (1858-1923) publicó también en 1899 tablas de nudos no
+
+alternos con diez cruces o menos.237 Lord Kelvin siempre tuvo aprecio por Tait.
+
+En una ceremonia celebrada en el Peterhouse College en Cambridge en la que
+
+se presentaba un retrato de Tait, lord Kelvin señaló: «Recuerdo haber oído
+
+decir a Tait en cierta ocasión que la ciencia es lo único por lo que vale la pena
+
+vivir. Aunque lo dijo con sinceridad, el propio Tait demostró que no era así. Tait
+
+236 Knott 1911
+
+237 Little 1899.
+
+era un gran lector. Podía recitar de corrido a Shakespeare, Dickens y
+
+Thackeray. Su memoria era prodigiosa. Le bastaba con leer algo con
+
+comprensión para recordarlo siempre».
+
+Por desgracia, cuando Tait y Litde completaron su heroica tarea de tabulación
+
+de nudos, la teoría de Kelvin había quedado totalmente descartada como
+
+posible teoría atómica. De todos modos, el interés por los nudos siguió vivo,
+
+aunque con una diferencia, que el matemático Michael Atiyah ha expresado de
+
+este modo: «El estudio de los nudos se convirtió en una rama esotérica de la
+
+matemática pura».
+
+El área general de la matemática en la que no se tienen en cuenta propiedades
+
+como el tamaño, la homogeneidad y, en cierto sentido, ni siquiera la forma, se
+
+denomina topología. La topología (la geometría de la lámina de goma) examina
+
+las propiedades que no varían cuando el espacio se estira o se deforma (sin
+
+romperlo ni agujerearlo).238 Por su naturaleza, los nudos forman parte de la
+
+topología. Por cierto, los matemáticos distinguen entre nudos, que son bucles
+
+anudados individuales; enlaces, que son conjuntos de bucles anudados
+
+individuales enredados entre sí; y trenzas, que son conjuntos de cuerdas
+
+verticales unidas a barras horizontales en los extremos superior e inferior.
+
+Si la dificultad de clasificar nudos no le ha impresionado, piense en el siguiente
+
+dato revelador. La tabla de Charles Little, publicada en 1899 tras un trabajo de
+
+seis años, contenía 43 nudos no alternos de diez cruces. Esta tabla fue
+
+examinada por muchos matemáticos y tenida por correcta durante setenta y
+
+cinco años. En 1974, el abogado y matemático neoyorquino Kenneth Perko
+
+estaba experimentando con cuerdas en el suelo de su salón.239 Para su
+
+sorpresa, Perko descubrió que dos de los nudos de la tabla de Little eran, en
+
+realidad, el mismo nudo. Ahora sabemos que sólo hay 42 nudos no alternos
+
+distintos de diez cruces.
+
+Aunque el siglo XX fue testigo de grandes avances en topología, los progresos
+
+238 Véase Messer y Straffin 2006 para acceder a una introducción elemental, aunque algo técnica, a la topología. 239 Perko 1974.
+
+en teoría de nudos eran relativamente lentos. Entre los principales objetivos
+
+del estudio de los nudos en matemáticas se encuentra la identificación de las
+
+propiedades que distinguen unos nudos de otros. Estas propiedades se
+
+denominan invariantes de nudos, ya que representan cantidades que resultan
+
+en el mismo valor para dos proyecciones distintas cualesquiera del mismo
+
+nudo. En otras palabras, un invariante ideal es, literalmente, una «huella
+
+dactilar» del nudo, es decir, una propiedad característica de éste que no
+
+cambia al deformarlo. Quizá el invariante más simple que se puede concebir es
+
+el número mínimo de cruces en un esquema del nudo. Por ejemplo, por mucho
+
+que se intente desenredar el nudo de trébol (figura 54b), nunca se podrá
+
+reducir el número de cruces por debajo de tres. Por desgracia, existen diversas
+
+razones que explican por qué el número mínimo de cruces no es el invariante
+
+más útil.
+
+En primer lugar, como se muestra en la figura 55, no siempre es fácil
+
+determinar si un nudo se ha dibujado con el número mínimo de cruces. En
+
+segundo lugar y aún más importante, muchos nudos distintos tienen el mismo
+
+número de cruces. Por ejemplo, en la figura 54 hay tres nudos distintos con
+
+seis cruces y al menos siete con siete cruces. Así, el número mínimo de cruces
+
+no distingue la mayoría de los nudos entre sí. Por último, el número mínimo de cruces, al ser un parámetro tan simple, no ofrece demasiada información sobre
+
+las propiedades de los nudos en general.
+
+En 1926 tuvo lugar un avance decisivo en la teoría de nudos.240 En ese año, el
+
+matemático norteamericano James Waddell Alexander (1888-1971) descubrió
+
+un importante invariante al que se bautizó como polinomio de Alexander.
+
+Básicamente, el polinomio de Alexander es una expresión algebraica que utiliza
+
+la disposición de cruces para etiquetar el nudo. La novedad positiva era que, si
+
+dos nudos tenían distintos polinomios de Alexander, los nudos eran
+
+definitivamente distintos. El punto negativo, en cambio, era que dos que
+
+tuviesen el mismo polinomio podían ser nudos distintos. Por consiguiente,
+
+aunque el polinomio de Alexander resultó ser muy útil, aún no era la
+
+herramienta perfecta para distinguir nudos.
+
+Los matemáticos estuvieron cuatro décadas explorando la base conceptual del
+
+polinomio de Alexander y profundizando en las propiedades de los nudos. Pero
+
+¿por qué dedicaron tanto empeño? Desde luego, no era por razones prácticas.
+
+El modelo atómico de Thomson había caído en el olvido tiempo atrás, y ningún
+
+otro problema de ciencias, economía, arquitectura u otra disciplina parecía
+
+tener necesidad alguna de la teoría de nudos. Entonces, ¿por qué tantos
+
+matemáticos dedicaron interminables horas a los nudos? ¡Por simple
+
+curiosidad! Para estas personas, la idea de comprender los nudos y los
+
+principios subyacentes era, simplemente, bella. El destello de comprensión que
+
+representó el polinomio de Alexander era para los matemáticos tan irresistible
+
+como el desafío del Everest para George Mallory, que, a la pregunta de por qué
+
+quería escalarlo, respondió con la célebre frase «porque está ahí».
+
+A finales de la década de 1960, el prolífico matemático anglonorteamericano
+
+John Horton Conway 241 descubrió un procedimiento para «desanudar» nudos
+
+de forma gradual, revelando así la relación entre los nudos y sus polinomios de
+
+Alexander. En concreto, Conway introdujo dos operaciones «quirúrgicas» que
+
+240 Alexander 1928.
+
+241 Conway 1970.
+
+podían servir como base para la definición de un invariante de nudo. Las
+
+operaciones de Conway, denominadas «volteo» (flipping) y «suavizado»
+
+(smoothing) se describen esquemáticamente en la figura 56.
+
+En el volteo (figura 56a), el cruce se transforma pasando el ramal superior por
+
+debajo del inferior (en la figura se indica también cómo se puede llevar a cabo
+
+esta transformación con un nudo real en una cuerda). Observe que, por
+
+supuesto, el volteo cambia la naturaleza del nudo. Por ejemplo, no es difícil
+
+asumir que el nudo de trébol de la figura 54b se convierte en el nudo simple
+
+(figura 54a) tras un volteo. La operación de suavizado de Conway elimina por
+
+completo el cruce (figura 56b) volviendo a unir los ramales de la forma
+
+«incorrecta». A pesar de la obra de Conway y de la nueva información que proporcionó, los matemáticos siguieron convencidos durante casi dos décadas
+
+más de la imposibilidad de hallar otras invariantes de nudo (del tipo del
+
+polinomio de Alexander). Pero en 1984 la situación cambió de forma
+
+espectacular.
+
+El matemático neozelandés-americano Vaughan Jones no estaba estudiando
+
+nudos en absoluto, sino que se hallaba explorando un mundo aún más
+
+abstracto, el de las entidades matemáticas denominadas álgebras de Von
+
+Neumann. De forma inesperada, Jones observó que una relación que aparecía
+
+en las álgebras de Von Neumann se parecía sospechosamente a una relación
+
+de teoría de nudos, y se puso en contacto con Joan Bennan, que trabajaba en
+
+teoría de nudos en la Universidad de Columbia, para comentar sus posibles
+
+aplicaciones. Un examen detenido de la relación reveló un nuevo invariante
+
+para nudos, al que se denominó polinomio de Jones.242 Enseguida se reconoció
+
+que el polinomio de Jones era un invariante más sensible que el polinomio de
+
+Alexander. Por ejemplo, distingue entre un nudo y su imagen especular (por
+
+ejemplo, los nudos de trébol a derechas y a izquierda de la figura 57), cuyos
+
+polinomios de Alexander son idénticos.
+
+Pero lo fundamental es que el descubrimiento de Jones generó un entusiasmo
+
+sin precedentes entre las personas que trabajaban en teoría de nudos. El
+
+anuncio de un nuevo invariante generó tal oleada de actividad que, de pronto,
+
+el mundo de los nudos parecía el parqué de la bolsa en un día en que la Reserva
+
+Federal baja inesperadamente los tipos de interés.
+
+242 Jones 1985.
+
+El descubrimiento de Jones fue mucho más allá del simple avance en la teoría
+
+de nudos. El polinomio de Jones conectó de repente una apabullante variedad
+
+de áreas de la matemática y la física, desde la mecánica estadística (que se
+
+utiliza, por ejemplo, para estudiar el comportamiento de grandes cantidades de
+
+átomos o moléculas) a los grupos cuánticos (una rama de la matemática que
+
+tiene que ver con la física del mundo subatómico). Matemáticos de todo el
+
+mundo se pusieron febrilmente a la búsqueda de invariantes aún más
+
+generales que abarcasen tanto el polinomio de Alexander como el de Jones.
+
+Esta carrera tuvo como consecuencia el que quizá sea el resultado más
+
+asombroso en la historia de la competencia científica. Pocos meses después de
+
+que Jones diese a conocer su nuevo polinomio, cuatro grupos, trabajando de
+
+forma independiente y a partir de tres estrategias matemáticas distintas,
+
+anunciaron simultáneamente el descubrimiento de un invariante aún más
+
+sensible. El nuevo polinomio recibió el nombre de polinomio HOMFLY (o
+
+HOMFLYPT), por las iniciales de sus descubridores: Hoste, Ocneanu, Millett,
+
+Freyd, Lickorish y Yetter. Por si fuera poco, aparte de estos cuatro grupos
+
+cruzando la línea de meta, dos matemáticos polacos (Przytycki y Traczyk)
+
+descubrieron de forma independiente exactamente el mismo polinomio, pero
+
+un capricho de correos les impidió publicarlo a tiempo. En consecuencia, el
+
+polinomio se denomina también HOMFLYPT, tras agregar las iniciales de los
+
+descubridores polacos.
+
+Desde entonces, aunque se han descubierto otros invariantes, la clasificación
+
+completa de los nudos se sigue resistiendo. La pregunta de qué nudo se tiene
+
+que girar y torcer para producir otro nudo aún no tiene respuesta. El invariante
+
+más avanzado descubierto hasta ahora se debe al matemático franco-ruso
+
+Maxim Kontsevich, que recibió la prestigiosa medalla Fields en 1998 y el
+
+premio Crafoord en 2008 por su obra. Casualmente, en 1998, Jim Hoste del
+
+Pitzer College de Claremont, California, y Jeffrey Weeks de Canton, Nueva
+
+York, tabularon todos los bucles anudados con 16 o menos cruces. De forma
+
+independiente, Morwen Thistle-thwaite de la Universidad de Tennessee en Knoxville produjo una tabulación idéntica. Cada lista contiene exactamente
+
+¡1.701.936 nudos distintos!
+
+Sin embargo, la verdadera sorpresa no fue tanto el avance en la teoría de
+
+nudos en sí, sino en la reaparición espectacular e inesperada de la teoría en una
+
+amplia variedad de ciencias.243
+
+Los nudos de la vida
+
+Como expliqué, la teoría de nudos surgió de un modelo erróneo del átomo. Sin
+
+embargo, una vez abandonado ese modelo, los matemáticos no se
+
+desanimaron. Por el contrario, se embarcaron con entusiasmo en un camino
+
+largo y difícil con el objetivo de comprender los nudos por sí mismos. Puede
+
+imaginar su satisfacción cuando la teoría de nudos resultó ser clave para la
+
+comprensión de procesos fundamentales en los que participaban las moléculas
+
+de la vida. ¿Hay acaso un ejemplo mejor del rol «pasivo» de la matemática en
+
+la explicación de la naturaleza?
+
+El ácido desoxirribonucleico o ADN es el material genético de las células. El ADN
+
+consta de dos larguísimas hebras entrelazadas y enredadas una sobre la otra
+
+millones de veces para formar una doble hélice. A lo largo de estas espinas
+
+dorsales, que se pueden imaginar como los listones laterales de una escalera,
+
+se alternan los azúcares y los fósforos. Los «peldaños» de la escalera consisten
+
+en parejas de bases conectadas por enlaces de hidrógeno de una forma
+
+determinada (la adenina sólo enlaza con la timina y la citosina con la guanina,
+
+como se muestra en la figura 58).
+
+Cuando una celda se divide, la primera fase es la replicación del ADN, de modo
+
+que cada celda hija se quede con una copia. De forma similar, en el proceso de
+
+transcripción (en el que la información genética del ADN se copia en el ARN),
+
+una sección de la doble hélice del ADN se desenrosca y sólo una de las hebras
+
+del ADN actúa como plantilla.
+
+243 Por ejemplo, el matemático Louis Kauffman ha demostrado la relación entre el polinomio de Jones y la física estadística. Un texto excelente, pero técnico, sobre las aplicaciones en física es Kauffman 2001.
+
+Una vez finalizada la síntesis del ARN, el ADN vuelve a enroscarse en la hélice.
+
+Ni el proceso de replicación ni el de transcripción son sencillos; sin embargo, el
+
+ADN está enroscado de una forma tan compacta (para reducir el espacio de
+
+almacenamiento de información) que, si no se desenredase, los procesos de la
+
+vida no podrían tener lugar con fluidez. Además, para poder efectuar el proceso
+
+de replicación, las moléculas de ADN hijas deben desenredarse y el ADN padre
+
+debe en algún momento regresar a su configuración inicial. Los agentes que se
+
+encargan de las tareas de desanudar y desenredar son enzimas.244 Las
+
+enzimas pueden pasar una hebra de ADN a través de otra rompiéndolas
+
+temporalmente y conectando los extremos de forma distinta. ¿Le suena de algo
+
+244 Véase Summers 1995 para una excelente descripción sobre teoría de nudos y la acción de las enzimas. Véase también Wasserman y Coz-zarelli 1986.
+
+el proceso? Se trata precisamente de las operaciones «quirúrgicas»
+
+(representadas en la figura 56) que introdujo Conway para desenmarañar los
+
+nudos matemáticos. En otras palabras, desde un punto de vista topológico, el
+
+ADN es un nudo complejo que las enzimas deben desanudar para que pueden
+
+tener lugar los procesos de replicación y transcripción. Utilizando la teoría de
+
+nudos para calcular la dificultad de desanudar el ADN, los investigadores
+
+pueden estudiar las propiedades de las enzimas que ejecutan ese trabajo. Y lo
+
+que es mejor, mediante técnicas de visualización experimentales como
+
+microscopía electrónica y electroforesis en gel, los científicos pueden observar
+
+y cuantificar realmente los cambios en el anudado y enlazado del ADN que las
+
+enzimas provocan (en la figura 59 se muestra una micrografía electrónica de
+
+un nudo de ADN).
+
+El desafío de los matemáticos es deducir los mecanismos de funcionamiento de
+
+las enzimas a partir de los cambios observados en la topología del ADN. Adicionalmente, los cambios en el número de cruces del nudo de ADN ofrecen
+
+a los biólogos una medida de la velocidad de reacción de las enzimas, es decir,
+
+el número de cruces por minuto sobre los que puede actuar una enzima en una
+
+determinada concentración.
+
+Pero la biología molecular no es el único terreno en el que la teoría de nudos ha
+
+hallado inesperadas aplicaciones. La teoría de cuerdas (el intento actual de
+
+formular una teoría unificada que explique todas las fuerzas de la naturaleza)
+
+también tiene que ver con los nudos.
+
+¿El universo en una cuerda?
+
+La gravedad es la fuerza que opera a mayor escala. Mantiene unidas las
+
+estrellas de las galaxias e influye en la expansión del universo. La relatividad
+
+general de Einstein es una notable teoría sobre la gravedad. Pero, en lo más
+
+profundo del núcleo atómico, otras fuerzas y una teoría distinta son las que
+
+gobiernan. La interacción nuclear fuerte mantiene unidas unas partículas
+
+llamadas quarks para formar los conocidos protones y neutrones,
+
+constituyentes básicos de la materia. El comportamiento de las partículas y de
+
+las fuerzas en el mundo subatómico viene dictado por las leyes de la mecánica
+
+cuántica. ¿Actúan según las mismas reglas los quarks y las galaxias? Los físicos
+
+creen que debería ser así, aunque aún no saben por qué. Durante décadas, los
+
+físicos han estado buscando una «teoría de todo», una descripción exhaustiva
+
+de las leyes de la naturaleza. En particular, su meta es llenar el vacío entre lo
+
+más grande y lo más pequeño con una teoría cuántica de la gravedad, una
+
+reconciliación de la relatividad general con la mecánica cuántica. La teoría de
+
+cuerdas parece ser actualmente la posibilidad mejor situada para una «Teoría
+
+de todo».245 Desarrollada en su origen como teoría para la fuerza nuclear
+
+fuerte y posteriormente desechada, la teoría de cuerdas resucitó de la
+
+oscuridad en 1974 de la mano de los físicos John Schwarz y Joel Scherk. La idea
+
+245 En Greene 1999, Randall 2005, Krauss 2005 y Smolin 2006 se pueden hallar magníficas explicaciones divulgativas sobre la teoría de cuerdas, sus éxitos y sus problemas. Para un texto técnico de introducción, véase Zweibach 2004. básica de la teoría de cuerdas es bastante simple. La teoría propone que las
+
+partículas subatómicas elementales, como los electrones y los quarks, no son
+
+entidades puntuales sin estructura, sino que representan distintos modos de
+
+vibración de una misma cuerda básica. Según esta idea, el cosmos está lleno
+
+de minúsculos aros flexibles, similares a gomas elásticas. De igual modo que se
+
+puede pulsar una cuerda de violín para producir distintas armonías, las
+
+distintas vibraciones de estas cuerdas cerradas corresponden a distintas
+
+partículas de materia. En otras palabras, el mundo es algo así como una
+
+sinfonía.
+
+Como las cuerdas son bucles en forma de «o» que se mueven por el espacio,
+
+con el paso del tiempo barren áreas en forma de cilindro (véase figura 60)
+
+denominadas worldsheets.
+
+Si una cuerda emite otras cuerdas, el cilindro se bifurca creando estructuras en
+
+forma de tirachinas. Cuando muchas cuerdas interaccionan, forman una
+
+intrincada maraña de cáscaras combinadas con aspecto de donut. Al estudiar
+
+este tipo de estructuras topológicas complejas, Hiroshi Ooguri y Cumrun Vafa,
+
+que trabajaban en teoría de cuerdas, descubrieron una sorprendente conexión
+
+entre el número de «cáscaras donut», las propiedades geométricas intrínsecas
+
+de los nudos y el polinomio de Jones.246 Con anterioridad, Ed Witten (uno de
+
+246 Ooguri y Vafa 2000.
+
+los nombres fundamentales en teoría de cuerdas) había creado una inesperada
+
+relación entre el polinomio de Jones y la misma base de la teoría de cuerdas
+
+(denominada teoría cuántica de campos). 247 El modelo de Witten fue
+
+rediseñado más adelante desde una perspectiva puramente matemática por el
+
+matemático Michael Atiyah.248 De modo que la teoría de cuerdas y la teoría de
+
+nudos viven en simbiosis perfecta. Por una parte, la teoría de cuerdas ha
+
+sacado provecho de los resultados de la teoría de nudos y, por otra, la teoría de
+
+cuerdas ha impulsado nuevos avances en teoría de nudos.
+
+Con un ámbito mucho más amplio, la teoría de cuerdas busca explicaciones
+
+para los constituyentes más básicos de la materia, de forma similar a lo que
+
+Thomson pretendía originalmente con una teoría de los átomos. Thomson
+
+pensaba (erróneamente) que los nudos le proporcionarían la respuesta. Por un
+
+giro inesperado, los expertos en teoría de cuerdas han hallado que los nudos
+
+pueden realmente ofrecerles algunas respuestas.
+
+Como ya he mencionado, incluso el aspecto «activo» de la eficacia de la
+
+matemática (cuando los científicos generan la matemática que necesitan para
+
+describir los hechos observables) presenta algunas desconcertantes sorpresas
+
+en lo que se refiere a la precisión. Voy a describir brevemente un aspecto de la
+
+física en el que tanto la parte activa como la pasiva han desempeñado su papel,
+
+pero que es especialmente notable por la exactitud obtenida.
+
+Una precisión de peso
+
+Newton tomó las leyes de la caída de cuerpos descubiertas por Galileo y otros
+
+experimentalistas italianos, las combinó con las leyes del movimiento
+
+planetario que había determinado Kepler y utilizó este esquema unificado para
+
+formular una ley matemática universal de la gravitación. Durante el proceso,
+
+Newton tuvo que formular una rama completamente nueva de la matemática
+
+(el cálculo) que le permitiese captar de forma concisa y coherente todas las
+
+247 Witten 1989.
+
+248 Atiyah 1989; véase Atiyah 1990 para una perspectiva más amplia. propiedades de sus leyes de movimiento y de gravitación. La precisión con la
+
+que el propio Newton pudo comprobar su ley de la gravedad, teniendo en
+
+cuenta los resultados experimentales y las observaciones de su época, no era
+
+superior al 4 por 100. Sin embargo, la ley demostró su exactitud más allá de
+
+cualquier expectativa razonable. En la década de 1950, la precisión
+
+experimental era superior a una diezmilésima de un 1 por 100. Pero eso no es
+
+todo. Algunas teorías especulativas recientes, cuya finalidad es explicar la
+
+aparente aceleración de la expansión de nuestro universo, han sugerido que la
+
+gravedad podría cambiar su comportamiento a escalas muy pequeñas.
+
+Recuerde que la ley de Newton afirma que la atracción gravitatoria decrece
+
+como el inverso del cuadrado de la distancia. Es decir, si se duplica la distancia
+
+entre dos masas, la fuerza gravitatoria que cada masa percibe se hace cuatro
+
+veces más débil. Los nuevos escenarios predecían desviaciones de este
+
+comportamiento a distancias de menos de un milímetro. Eric Adelberger,
+
+Daniel Kapner y su equipo de la Universidad de Washington en Seattle249
+
+realizaron una serie de ingeniosos experimentos para comprobar esta
+
+predicción de cambio en la dependencia de la separación. Sus resultados más
+
+recientes, publicados en enero de 2007, muestran que la ley del cuadrado
+
+inverso ¡sigue siendo válida a una distancia de 56 milésimas de milímetro! Así,
+
+una ley matemática propuesta hace más de trescientos años basándose en
+
+observaciones insuficientes no sólo ha resultado ser espectacularmente
+
+precisa, sino que ha demostrado su validez en situaciones en las que ésta no se
+
+ha podido demostrar hasta época muy reciente.
+
+Pero Newton dejó sin respuesta una pregunta fundamental: ¿cómo funciona
+
+realmente la gravedad? ¿Cómo afecta la Tierra al movimiento de la Luna,
+
+situada a una distancia de casi 400.000 kilómetros? Newton era consciente de
+
+este defecto de su teoría, y lo admitió abiertamente en los Principia:
+
+Hasta aquí he expuesto los fenómenos de los cielos y de nuestro
+
+249 Kapner et al. 2007.
+
+mar por la fuerza de la gravedad, pero todavía no he asignado
+
+causa a la gravedad. Efectivamente esta fuerza surge de alguna
+
+causa que penetra hasta los centros del Sol y los planetas … y
+
+cuya acción se extiende por todas partes hasta distancias
+
+inmensas, decreciendo siempre como el cuadrado de las
+
+distancias … Pero no he podido todavía deducir a partir de los
+
+fenómenos la razón de estas propiedades de la gravedad y yo no
+
+imagino hipótesis.
+
+La persona que decidió aceptar el desafío planteado por la omisión de Newton
+
+fue Albert Einstein (1879-1955). Concretamente en 1907, Einstein tenía
+
+buenas razones para interesarse por la gravedad:250 ¡su nueva teoría de la
+
+relatividad especial parecía entrar en conflicto directo con la ley de gravitación
+
+de Newton!
+
+Newton creía que la acción de la gravedad era instantánea. Suponía que la
+
+fuerza gravitatoria del Sol sobre los planetas o la atracción de la Tierra sobre la
+
+manzana no tardaban tiempo alguno. Por otra parte, la columna vertebral de la
+
+relatividad especial de Einstein era la tesis de que ningún objeto, energía ni
+
+información podía viajar a mayor velocidad que la luz. Entonces, ¿cómo podía
+
+hacerlo la gravedad? Como indica el siguiente ejemplo, las consecuencias de
+
+esta contradicción podrían ser fatídicas para conceptos tan fundamentales
+
+como nuestra percepción de causa y efecto.
+
+Imaginemos que, de algún modo, el Sol desapareciese de repente. Libre de la
+
+fuerza que la mantiene en su órbita, la Tierra (según Newton) empezaría a
+
+moverse inmediatamente en línea recta (salvo pequeñas desviaciones
+
+provocadas por la gravedad de los otros planetas). Sin embargo, el Sol tardaría
+
+250 Hay muchas y buenas explicaciones de las ideas de la relatividad especial y general. Mencionaré algunas que me han gustado especialmente: Davies 2001, Deutsch 1997, Ferris 1997, Gott 2001, Greene 2004, Hawking y Penrose 1996, Kaku 2004, Penrose 2004, Rees 1997 y Smolin 2001. Una reciente y soberbia descripción acerca de la personalidad y las ideas de Einstein es Isaacson 2007. Otras magníficas descripciones anteriores de Einstein y su mundo son Bodanis 2000, Lightman 1993, Overbye 2000 y Pais 1982. Hawking 2007 incluye una bonita colección de documentos originales.
+
+ocho minutos en desaparecer de la vista de los habitantes de la Tierra, el
+
+tiempo que tarda la luz en recorrer la distancia que separa el Sol de la Tierra.
+
+En otras palabras, el cambio en el movimiento de la Tierra precedería a la
+
+desaparición del Sol.
+
+Para evitar este conflicto y, al mismo tiempo, tratar de resolver la pregunta sin
+
+respuesta de Newton, Einstein emprendió una búsqueda cuasiobsesiva de una
+
+nueva teoría de la gravedad. Se trataba de una empresa formidable. Cualquier
+
+nueva teoría, no sólo debía tener en cuenta y conservar los notables éxitos
+
+logrados por la teoría de Newton, sino también explicar el funcionamiento de la
+
+gravedad de forma compatible con la relatividad especial. Tras unas cuantas
+
+salidas en falso y divagaciones sin rumbo, Einstein logró su objetivo en 1915.
+
+Su relatividad general sigue considerándose una de las teorías más bellas de la
+
+historia.
+
+La idea que constituye el fundamento de la pionera estructura de Einstein es
+
+que la gravedad no es más que deformaciones en el tejido del espacio y el
+
+tiempo. Según Einstein, de igual modo que las pelotas de golf siguen las curvas
+
+y relieves del green, los planetas siguen trayectorias curvadas en el espacio
+
+deformado que representa la gravedad del Sol. En otras palabras, en ausencia
+
+de materia u otras formas de energía, el espacio-tiempo (la estructura que
+
+unifica las tres dimensiones del espacio y la del tiempo) sería plano. La materia
+
+y la energía deforman el espacio-tiempo del mismo modo que una bola de
+
+bowling haría combarse una cama elástica. Los planetas se limitan a seguir los
+
+caminos directos en esta geometría curvada, que es una manifestación de la
+
+gravedad. Al solucionar el problema del funcionamiento de la gravedad,
+
+Einstein proporcionó también la estructura para responder a la pregunta de
+
+«con qué velocidad se propaga», que se reducía a determinar la velocidad con
+
+que las deformaciones del espacio-tiempo son capaces de viajar. Se trataba de
+
+algo similar a calcular la velocidad de las ondas en un estanque. Einstein fue
+
+capaz de probar que, en la relatividad general, la velocidad de la gravedad era
+
+precisamente la velocidad de la luz, eliminando así la discrepancia entre la teoría de Newton y la relatividad especial. Si el Sol desapareciese, el cambio en
+
+la órbita de la Tierra tendría lugar ocho minutos más tarde, y coincidiría con la
+
+observación de la desaparición.
+
+El hecho de que Einstein convirtiese el espacio-tiempo deformado de cuatro
+
+dimensiones en la piedra angular de su nueva teoría del cosmos se tradujo en
+
+la imperiosa necesidad de crear una teoría matemática para esas entidades
+
+geométricas. Desesperado, recurrió a un antiguo compañero de clase, el
+
+matemático Marcel Grossmann (1878-1936): «He adquirido un inmenso
+
+respeto por la matemática, cuyas partes más sutiles consideraba antes nada
+
+más que productos suntuarios». Grossmann señaló que la geometría no
+
+euclidiana de Riemann (descrita en el capítulo 6) era precisamente la
+
+herramienta que Einstein estaba buscando: una geometría de espacios
+
+curvados de cualquier número de dimensiones. Se trataba de una
+
+demostración palpable de lo que he venido llamando la eficacia «pasiva» de la
+
+matemática, y Einstein lo reconoció de inmediato: «Podemos de hecho
+
+considerarla [la geometría] como la rama más antigua de la física», declaró, «y
+
+sin ella me hubiese sido imposible formular la teoría de la relatividad».
+
+La relatividad general ha sido también comprobada hasta un extraordinario
+
+grado de precisión. Obtener estas pruebas no es tarea fácil, ya que la curvatura
+
+del espacio-tiempo que introducen objetos como el Sol se mide en partes por
+
+millón. Las primeras pruebas estaban asociadas a observaciones dentro del
+
+propio sistema solar (como minúsculos cambios en la órbita del planeta
+
+Mercurio en comparación con las predicciones de la gravedad de Newton), pero
+
+en tiempos más recientes ha sido posible acceder a procedimientos más
+
+exóticos. Una de las primeras comprobaciones utiliza un objeto astronómico
+
+denominado pulsar doble.
+
+Un pulsar es una estrella extraordinariamente compacta, fuente de emisión de
+
+ondas de radio, cuya masa es algo superior a la del Sol, pero cuyo radio es sólo
+
+de unos diez kilómetros. La densidad de este tipo de estrellas (denominadas
+
+estrellas de neutrones) es tan alta que un centímetro cúbico de su materia tiene una masa de ¡más de 60 millones de toneladas! Muchas de estas estrellas
+
+de neutrones giran a gran velocidad al tiempo que emiten ondas de radio desde
+
+sus polos magnéticos. Cuando el eje magnético se halla a un cierto ángulo
+
+respecto del eje de rotación (como se muestra en la figura 61), el haz de radio
+
+de uno de los polos puede cruzar nuestra línea de visión una vez con cada
+
+rotación, como el destello de luz de un faro.
+
+En tales casos, parecerá que la emisión de radio se emite en pulsos (de ahí el
+
+nombre «pulsar»). A veces, dos pulsares giran alrededor de su centro de
+
+gravedad común en una órbita reducida, creando así un sistema de pulsar
+
+doble. Estos pulsares dobles constituyen excelentes laboratorios para la
+
+verificación de la relatividad general debido a dos de sus propiedades:
+
+i. Los radiopulsares son espléndidos relojes; su ritmo de rotación es tan
+
+estable que, de hecho, superan en precisión a los relojes atómicos.
+
+ii. Los pulsares son tan compactos que sus campos gravitatorios son muy
+
+intensos y producen efectos relativistas significativos. Debido a estas dos
+
+características, los astrónomos pueden medir con gran precisión los
+
+cambios en el tiempo que la luz tarda en recorrer la distancia entre los
+
+pulsares y la Tierra debido al movimiento orbital de dos pulsares en su
+
+campo gravitatorio mutuo.
+
+La comprobación más reciente ha sido el resultado de mediciones temporales
+
+de gran precisión a lo largo de un período de dos años y medio en el sistema de
+
+pulsar doble denominado PSR J0737-3039A/B (esta denominación con aspecto
+
+de número telefónico refleja las coordenadas celestes del sistema).251 Los dos
+
+pulsares de este sistema completan una revolución en sólo dos horas y
+
+veintisiete minutos, y el sistema se halla a unos dos mil años luz de distancia de
+
+la Tierra (un año luz es la distancia que la luz recorre en un año, alrededor de
+
+nueve billones de kilómetros). Un equipo de astrónomos dirigido por Michael
+
+Kramer, de la Universidad de Manchester, midió las correcciones relativistas al
+
+movimiento newtoniano. Los resultados, publicados en octubre de 2006, se
+
+ceñían a los valores predichos por la relatividad general con un grado de
+
+incertidumbre ¡del 0,05 por 100!
+
+Vale la pena señalar que tanto la relatividad especial como la general
+
+desempeñan un papel importante en los Sistemas de Posicionamiento Global
+
+(GPS) que nos permiten localizar nuestra posición en la superficie de la Tierra
+
+y nos indican el mejor trayecto, ya sea en coche, en avión o a pie. El GPS
+
+determina la posición actual del receptor mediante la medida del tiempo que
+
+tarda en llegar a él la señal de diversos satélites y efectuando una triangulación
+
+a partir de las posiciones conocidas de cada satélite. La relatividad especial
+
+predice que los relojes atómicos que se encuentran en los satélites marchan
+
+251 Kramer et al 2006.
+
+algo más lentos (unas millonésimas de segundo al día) que los que están en el
+
+suelo, debido a su movimiento relativo. Al mismo tiempo, la relatividad general
+
+predice que los relojes de los satélites marchan más rápido (unas decenas de
+
+millonésimas de segundo al día) que los del suelo porque, a gran altura sobre
+
+la superficie de la Tierra, la curvatura del espacio-tiempo debida a la masa de
+
+la Tierra es menor. Si no se efectuasen las correcciones pertinentes de ambos
+
+efectos, los errores de posicionamiento global podrían acumularse a un ritmo
+
+de más de ocho kilómetros al día.
+
+La teoría de la gravedad no es más que uno de los numerosos ejemplos que
+
+ilustran la «milagrosa» idoneidad y fantástica precisión de la formulación
+
+matemática de las leyes de la naturaleza. En este caso, como en muchos otros,
+
+lo que las ecuaciones nos proporcionan va mucho más allá de lo que era la
+
+intención original. La exactitud de las teorías de Newton y Einstein ha
+
+demostrado superar en gran medida la precisión de las observaciones a las que
+
+las teorías intentaban originalmente dar explicación.
+
+Quizá el mejor ejemplo de la increíble precisión que es capaz de alcanzar una
+
+teoría matemática sea el que proporciona la electrodinámica cuántica (QED,
+
+Quantum Electrodynamics), que es la teoría que describe los fenómenos
+
+relacionados con las partículas con carga eléctrica y la luz. En 2006, un grupo
+
+de físicos de la Universidad de Harvard determinaron el momento magnético
+
+del electrón (que mide la intensidad con la que el electrón interacciona con un
+
+campo magnético) con una precisión de ocho partes por billón.252 Por sí
+
+mismo, este resultado es una asombrosa proeza experimental. Pero si además
+
+se le suma el hecho de que los cálculos teóricos más recientes basados en la
+
+QED alcanzan una precisión similar y que los dos resultados coinciden, la
+
+exactitud ya es casi increíble. Esta es la reacción de uno de los fundadores de
+
+la QED, Freeman Dyson, ante los repetidos éxitos de su teoría: «Me fascina la
+
+precisión con la que la Naturaleza baila al son de la melodía que garabateamos
+
+252 Odom et al 2006.
+
+de forma tan despreocupada hace cincuenta y siete años, y la forma en la que
+
+los experimentadores y los teóricos pueden medir y calcular el ritmo de su
+
+danza hasta una parte por billón».
+
+Pero las teorías matemáticas no destacan sólo por su exactitud; otro de sus
+
+puntos fuertes es su poder de predicción. Voy a mencionar un par de ejemplos
+
+simples para ilustrar este poder, uno del siglo XIX y otro del siglo XX. El
+
+primero predijo un nuevo fenómeno; el segundo, la existencia de nuevas
+
+partículas elementales.
+
+James Clerk Maxwell, que formuló la teoría clásica del electromagnetismo,
+
+probó en 1864 que su teoría predecía que los campos eléctricos o magnéticos
+
+variables debían generar ondas de propagación. Estas ondas (las conocidas
+
+ondas electromagnéticas, como las ondas de radio) fueron detectadas por
+
+primera vez por el físico alemán Heinrich Herz (1857-1894), en una serie de
+
+experimentos llevados a cabo en los últimos años de la década de 1880.
+
+A finales de la década de 1960, los físicos Steven Weinberg, Sheldon Glashow
+
+y Abdus Salam desarrollaron una teoría que trata de forma unificada la fuerza
+
+electromagnética y la fuerza nuclear débil. 253 Esta teoría, denominada
+
+actualmente teoría electrodébil, predecía la existencia de tres partículas
+
+(denominadas bosones W+ -, W y Z) que nunca habían sido observadas. Las
+
+partículas se detectaron de forma inequívoca en 1983, durante experimentos
+
+en acelerador (en los que se hacen chocar partículas subatómicas entre sí a
+
+muy altas energías) dirigidos por los físicos Cario Rubbia y Simón van der Meer.
+
+El físico Eugene Wigner, responsable de la frase «la eficacia inexplicable de la
+
+matemática», propuso llamar a estos logros inesperados de las teorías
+
+matemáticas «la ley empírica de la epistemología» (la epistemología es la
+
+disciplina que investiga el origen y los límites del conocimiento). Su
+
+razonamiento consistía en que, si esta «ley» no fuese correcta, a los científicos
+
+les habría faltado el aliento y la determinación tan necesarios para una
+
+253 Weinberg 1993 contiene una excelente descripción.
+
+exploración profunda de las leyes de la naturaleza. Sin embargo, Wigner no
+
+ofrecía explicación alguna para esta «ley empírica de la epistemología», sino
+
+que más bien la veía como un «regalo extraordinario» por el que debemos
+
+estar agradecidos, aunque no comprendamos su origen. Según Wigner, este
+
+«regalo» contiene la esencia de la cuestión sobre la eficacia inexplicable de la
+
+matemática.
+
+Creo que, a estas alturas, ya hemos reunido suficientes pistas para intentar
+
+responder a nuestras preguntas iniciales: ¿Por qué la matemática es tan eficaz
+
+y productiva para explicar el mundo que nos rodea, e incluso es capaz de
+
+generar nuevos conocimientos? En última instancia, la matemática ¿es
+
+descubierta o inventada?

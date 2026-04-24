@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "classic-textbook",
+    "mid-20th-century"
+  ],
+  "category": "history",
+  "author": "William E. Berret",
+  "source_url": null,
+  "note": "William E. Berret. The Restored Church (Spanish: La Iglesia restaurada). Classic LDS history."
+}

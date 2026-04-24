@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "holy-ghost",
+    "spanish-talk"
+  ],
+  "category": "discourses",
+  "author": "Douglas D. Holmes",
+  "source_url": null,
+  "note": "Elder Douglas D. Holmes, Seventy. El don del Esp\u00edritu Santo."
+}

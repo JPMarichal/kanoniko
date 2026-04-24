@@ -1,0 +1,23 @@
+Como se muestra en el gnomon de la figura 2, al agregar un número de
+
+gnomon cuadrado (9 = 32) a un cuadrado de 4 x 4 se forma, efectivamente, un
+
+nuevo cuadrado de 5 x 5: 32 2 2 + 4 = 5. Los números 3, 4, 5 pueden entonces
+
+representar las longitudes de los lados de un triángulo rectángulo. Los números
+
+enteros que tienen esta propiedad (por ejemplo, 5, 12 y 13, ya que 52 2 + 12 =
+
+132) se denominan «tripletes pitagóricos».
+
+Son muy escasos los teoremas matemáticos que disfrutan de un
+
+«reconocimiento por nombre» similar al del teorema de Pitágoras. En 1971,
+
+cuando la República de Nicaragua seleccionó las «diez ecuaciones matemáticas
+
+que alteraron la faz de la tierra» como tema para una serie de sellos, el
+
+teorema de Pitágoras aparecía en el segundo sello (figura 5; en el primer sello
+
+se mostraba «1 + 1 = 2»).

@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "generosity",
+    "spanish-talk"
+  ],
+  "category": "discourses",
+  "author": "Dieter F. Uchtdorf",
+  "source_url": null,
+  "note": "Elder Dieter F. Uchtdorf, Q12 (former FP Counselor). El Generoso."
+}

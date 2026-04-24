@@ -1,0 +1,32 @@
+{
+  "title": "No Price Too Great",
+  "author": "Lenet Hadley Read",
+  "book": "How We Got the Bible",
+  "chapter": 6,
+  "total_chapters": 32,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "bible-transmission",
+    "canon-history",
+    "lds-perspective"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/How We Got the Bible - Lenet Hadley Read.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ba76128b-71b2-431b-9f16-80f44398a5da",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lenet Hadley Read. How We Got the Bible (LDS perspective)."
+}

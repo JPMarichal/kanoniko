@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lds-stories",
+    "anthology",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Jack M. Lyon, Linda R. Gundry, Jay A. Parry (eds.)",
+  "source_url": null,
+  "note": "Lyon, Gundry, Parry (eds.), Deseret Book. Best-Loved Stories of the LDS People, Vol. 1."
+}

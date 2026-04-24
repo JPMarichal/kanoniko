@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "israel",
+    "gathering",
+    "20th-century-lds"
+  ],
+  "category": "books",
+  "author": "LeGrand Richards",
+  "source_url": null,
+  "note": "Elder LeGrand Richards (1886-1983), Q12. Israel! Do You Know?"
+}

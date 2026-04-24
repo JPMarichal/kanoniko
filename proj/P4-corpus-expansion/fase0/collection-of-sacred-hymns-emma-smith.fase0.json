@@ -1,0 +1,20 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hymnal",
+    "19th-century-lds",
+    "emma-smith",
+    "primary-source",
+    "revelation-d&c-25"
+  ],
+  "category": "books",
+  "author": "Emma Smith (compiler)",
+  "source_url": null,
+  "note": "Emma Smith (compiler, 1804-1879). A Collection of Sacred Hymns, 1835. First LDS hymnal (D&C 25 fulfillment)."
+}

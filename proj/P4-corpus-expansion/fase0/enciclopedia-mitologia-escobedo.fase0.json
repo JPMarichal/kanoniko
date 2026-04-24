@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mythology",
+    "encyclopedia",
+    "non-lds",
+    "reference-work"
+  ],
+  "category": "reference",
+  "author": "J. C. Escobedo",
+  "source_url": null,
+  "note": "J. C. Escobedo. Enciclopedia de la mitolog\u00eda."
+}

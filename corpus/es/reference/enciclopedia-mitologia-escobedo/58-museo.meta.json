@@ -1,0 +1,33 @@
+{
+  "title": "MUSEO",
+  "author": "J. C. Escobedo",
+  "book": "Enciclopedia de la mitología",
+  "chapter": 58,
+  "total_chapters": 92,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "mythology",
+    "encyclopedia",
+    "non-lds",
+    "reference-work"
+  ],
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Enciclopedia de la mitología - J. C. Escobedo.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-12-31T23:00:00+00:00",
+  "opf_identifier": "92c0960a-c44b-4f17-821a-2396d4e432f7",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "J. C. Escobedo. Enciclopedia de la mitología."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "discourses-compilation",
+    "spanish"
+  ],
+  "category": "discourses",
+  "author": "Joseph B. Wirthlin",
+  "source_url": null,
+  "note": "Elder Joseph B. Wirthlin (1917-2008), Q12. Una selecci\u00f3n de discursos."
+}

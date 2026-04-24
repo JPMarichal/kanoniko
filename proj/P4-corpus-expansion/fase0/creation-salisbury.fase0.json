@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "creation",
+    "science-religion",
+    "byu-botanist"
+  ],
+  "category": "books",
+  "author": "Frank B. Salisbury",
+  "source_url": null,
+  "note": "Frank B. Salisbury (1926-2015), BYU botanist. Creation (LDS science-religion)."
+}

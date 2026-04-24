@@ -1,0 +1,993 @@
+Edad Personas Edad Personas Edad Personas
+
+actual actual actual
+
+1 1.000 11 653 21 592
+
+2 855 12 646 22 586
+
+3 798 13 640 23 579
+
+4 760 14 634 24 573
+
+5 732 15 628 25 567
+
+6 710 16 622 26 560
+
+7 692 17 616 27 553
+
+8 680 18 610 28 546
+
+9 670 19 604 29 539
+
+10 661 20 598 30 531
+
+31 523 41 436 51 335
+
+32 515 42 427 52 324
+
+33 507 43 417 53 313
+
+34 499 44 407 54 302
+
+35 490 45 397 55 292
+
+36 481 46 387 56 282
+
+37 472 47 377 57 272
+
+38 463 48 367 58 262
+
+39 454 49 357 59 252
+
+40 445 50 346 60 242
+
+61 232 71 131 81 34
+
+62 222 72 120 82 28
+
+63 212 73 109 83 23
+
+64 202 74 98 84 20
+
+65 192 75 88
+
+66 182 76 78
+
+67 172 77 68
+
+68 162 78 58
+
+69 152 79 49
+
+70 142 80 41
+
+En la tabla se puede ver, por ejemplo, que, de las 710 personas que estaban
+
+vivas a los seis años de edad, 346 seguían vivas a los cincuenta años. Se puede
+
+pues tomar la proporción de 346/710, o 0,49, como cálculo estimativo de la
+
+probabilidad de que una persona de seis años de edad viva hasta los cincuenta.
+
+De forma similar, de las 242 personas de sesenta años de edad, 41 seguían vivas a los ochenta años. La probabilidad de llegar de sesenta a ochenta años
+
+puede entonces estimarse en 41/242, o alrededor de 0,17. El razonamiento
+
+subyacente es simple: se basa en experiencias pasadas para determinar la
+
+probabilidad de diversos acontecimientos futuros. Si la muestra en la que se
+
+basa la experiencia es de un tamaño suficiente (la tabla de Halley se construyó
+
+para una población de unas 34.000 personas) y si se cumplen determinadas
+
+hipótesis (como una tasa de mortalidad constante en el tiempo), la fiabilidad de
+
+las probabilidades calculadas es notable. Jakob Bernoulli describió el mismo
+
+problema de este modo:155
+
+¿Qué mortal, me pregunto, podría determinar el número de
+
+enfermedades, contando todos los casos posibles, que afligen al
+
+cuerpo humano en cada una de sus muchas partes y en cada
+
+edad, y decir en qué medida una enfermedad es más mortal que
+
+otra y, basándose en ello, efectuar una predicción sobre la
+
+relación entre la vida y muerte en las generaciones futuras?
+
+Después de llegar a la conclusión de que este y otros pronósticos similares
+
+«dependen de factores confusos y que constantemente engañan a nuestros
+
+sentidos por la complejidad sin fin de sus interrelaciones», Bernoulli sugería
+
+también un punto de vista estadístico/probabilístico:
+
+Existe, no obstante, otro método que nos conducirá a aquello
+
+que buscamos y nos permitirá cuanto menos averiguar a
+
+posteriori aquello que no podemos determinar a priori, esto es,
+
+averiguarlo a partir de los resultados observados en numerosos
+
+casos similares. En tal sentido, debemos asumir que, en
+
+condiciones similares, la incidencia (o no incidencia) de un
+
+determinado acontecimiento en el futuro seguirá el mismo
+
+patrón observado para acontecimientos como éste en el pasado.
+
+155 Citado en Newman 1956. Su obra está resumida en Todhunter 1865.
+
+Por ejemplo, si se ha observado que, de 300 personas de la
+
+misma edad y constitución que un tal Tito, 200 han muerto al
+
+cabo de diez años mientas que los demás han sobrevivido,
+
+podemos llegar a la razonable conclusión de que existe el doble
+
+de posibilidades de que Tito vaya a pagar en la década
+
+subsiguiente su deuda con la naturaleza que de que viva más
+
+allá de ese tiempo.
+
+Tras sus artículos matemáticos sobre la mortalidad, Halley escribió un
+
+interesante artículo con un trasfondo más filosófico. Uno de sus pasajes es
+
+especialmente emocionante:
+
+Aparte de los usos mencionados en anteriores escritos, podría
+
+ser admisible inferir de las mismas Tablas con qué escasa
+
+justicia nos atribulamos por la brevedad de nuestras vidas y nos
+
+sentimos engañados si no llegamos a la edad anciana; mientras
+
+que, por lo que podemos ver aquí, la mitad de los nacidos han
+
+muerto antes de llegar a los diecisiete años, pues 1.238 se ven
+
+reducidos a 616. Así, en lugar de quejarnos por lo que llamamos
+
+una muerte a destiempo, deberíamos someternos con paciencia
+
+y despreocupación a la disolución que forma necesaria parte de
+
+la condición de nuestros perecederos materiales y de nuestra
+
+bella y frágil estructura y composición: y considerar una
+
+bendición que hayamos sobrevivido, quizá muchos años, ese
+
+período de la vida que la mitad de la raza humana no puede
+
+alcanzar.
+
+Aunque la situación en la mayoría del mundo moderno ha mejorado de forma
+
+significativa en comparación con las lúgubres estadísticas de Halley, por
+
+desgracia no se puede decir lo mismo de todos los países. En Zambia, por
+
+ejemplo, la mortalidad antes de los cinco años en 2006 se ha calculado en unas pasmosas 182 muertes por cada mil nacidos vivos. La esperanza de vida en
+
+Zambia sigue estando en unos desgarradores treinta y siete años.
+
+Sin embargo, la estadística no es sólo una cuestión de muertes. Esta disciplina
+
+penetra en todos los aspectos de la vida, desde los rasgos físicos a los
+
+productos del intelecto. Una de las primeras personas que reconoció el poder
+
+de la estadística para, potencialmente, crear «leyes» para las ciencias sociales
+
+fue el erudito belga Lambert-Adolphe-Jacques Quetelet (1796-1874). Quetelet
+
+fue el principal responsable de la introducción del concepto estadístico del
+
+«hombre medio» o, como diríamos actualmente, «la persona media».
+
+La persona media
+
+Adolphe Quetelet nació el 2 de febrero de 1796 en la antigua ciudad belga de
+
+Gante.156 Su padre, funcionario municipal, murió cuando Adolphe contaba tan
+
+sólo siete años de edad. Obligado a buscar su propio sustento, Quetelet
+
+empezó a enseñar matemáticas a la joven edad de diecisiete años. Cuando no
+
+estaba ejerciendo de profesor, componía poesía; también escribió el libreto de
+
+una ópera, fue coautor de dos obras de teatro y tradujo diversas obras
+
+literarias. Sin embargo, su tema favorito seguían siendo las matemáticas, y fue
+
+la primera persona que obtuvo el grado de Doctor en Ciencias por la
+
+Universidad de Gante. En 1820, Quetelet fue elegido miembro de la Real
+
+Academia de Ciencias de Bruselas, y no tardó en convertirse en su asociado
+
+más activo. Los años posteriores los dedicó especialmente a la enseñanza y a la
+
+publicación de diversos tratados de matemáticas, física y astronomía.
+
+Quetelet solía empezar su curso de historia de la ciencia con la siguiente
+
+perspicaz observación: «Cuanto más avanzan las ciencias, más invaden el
+
+dominio de la matemática, que actúa como una especie de punto de
+
+convergencia. Podemos juzgar el grado de perfección al que ha llegado una
+
+ciencia por la mayor o menor facilidad con la que se le pueden aplicar cálculos».
+
+156 Dos libros excelentes sobre Quetelet y su obra son Hankins 1908 y Lottin 1912. Stigler 1997, Krüger 1987 y una parte de Cohen 2006 son más breves pero también informativos.
+
+En diciembre de 1823, Quetelet fue a París enviado por el estado con el fin de
+
+que estudiase técnicas de observación en astronomía. Sin embargo, esta visita
+
+de tres meses a la que entonces era la capital matemática del mundo hizo que
+
+Quetelet fijase su atención en algo completamente distinto: la teoría de
+
+probabilidades. El principal responsable en despertar el entusiasmo de
+
+Quetelet en este tema fue el propio Laplace. Más adelante, Quetelet hablaría de
+
+este modo de su experiencia con la estadística y la probabilidad:
+
+El azar, ese misterioso vocablo del que tanto se ha abusado, se
+
+debe considerar nada más que como un velo para nuestra
+
+ignorancia; es un espectro que domina de forma absoluta la
+
+mente común, acostumbrada a considerar los acontecimientos
+
+de un modo aislado, pero que queda reducido a nada ante el
+
+filósofo, cuyo ojo abarca largas series de eventos y cuya lucidez
+
+no se extravía en variaciones, que desaparecen cuando
+
+adquiere una perspectiva suficiente para aprehender las leyes
+
+de la naturaleza.157
+
+La importancia de esta conclusión es fundamental. En esencia, Quetelet
+
+negaba el papel del azar y lo sustituía por la audaz (aunque no del todo
+
+demostrada) inferencia de que incluso los fenómenos sociales poseen causas y
+
+que las regularidades que presentan los resultados estadísticos se pueden
+
+emplear para desentrañar las reglas que subyacen al orden social.
+
+Con la intención de probar la validez de su punto de vista estadístico, Quetelet
+
+puso en marcha un ambicioso proyecto de recopilación de miles de medidas
+
+relacionadas con el cuerpo humano. Estudió, por ejemplo, la distribución de
+
+medidas de pecho de 5.738 soldados escoceses, y de altura de 100.000
+
+reclutas franceses, y representó gráficamente la frecuencia de aparición de
+
+cada rasgo humano. En otras palabras, representó el número de reclutas cuya
+
+157 Quetelet 1828.
+
+altura estaba entre, por ejemplo, 150 y 155 centímetros, luego entre 155 y 160
+
+centímetros, etc. Luego construyó curvas similares incluso para aquellos
+
+rasgos «morales» (según él los denominaba) de los que poseía suficientes
+
+datos. Entre estas cualidades se hallaba la propensión al comportamiento
+
+criminal, los suicidios y los matrimonios. Para su sorpresa, Quetelet descubrió
+
+que todas las características humanas siguen lo que ahora se denomina una
+
+distribución de frecuencias normal (o gaussiana, por el nombre del «príncipe de
+
+la matemática» Carl Friedrich Gauss, aunque no está demasiado justificado el
+
+porqué de esta denominación), con forma de campana (figura 33).
+
+Ya se tratase de alturas, pesos, longitudes de extremidades o incluso
+
+cualidades intelectuales determinadas a través de los antepasados de los tests
+
+psicológicos, una y otra vez aparecía el mismo tipo de curva. La curva no era
+
+desconocida para Quetelet; los matemáticos y los físicos la conocían desde
+
+mediados del siglo XVIII, y Quetelet estaba familiarizado con ella por su trabajo
+
+en astronomía; lo asombroso fue la asociación de esta curva con características
+
+humanas. Anteriormente, se la solía denominar curva de error, porque solía
+
+aparecer en cualquier tipo de errores de medida.
+
+Imaginemos, por ejemplo, que debe medir con mucha precisión la temperatura
+
+de un líquido en un recipiente. Puede utilizar un termómetro de alta precisión y tomar mil medidas a lo largo de un período de una hora. Debido a errores
+
+aleatorios y posiblemente a fluctuaciones en la temperatura, hallará que no
+
+todas las mediciones dan exactamente el mismo valor, sino que tienden a
+
+agruparse alrededor de un valor central; algunas mediciones dan un valor
+
+superior y otras, uno inferior. Si representa el número de veces que aparece
+
+cada medida en función de la temperatura, obtendrá el mismo tipo de curva en
+
+forma de campana que Quetelet halló para las características humanas. De
+
+hecho, cuanto mayor sea el número de mediciones efectuadas de cualquier
+
+magnitud física, más se aproximará la distribución de frecuencias a la curva
+
+normal. La influencia inmediata de este hecho en la cuestión de por qué las
+
+matemáticas son tan extraordinariamente eficaces es bastante espectacular:
+
+¡incluso los errores humanos obedecen leyes matemáticas estrictas!
+
+Quetelet llegó incluso más allá en sus conclusiones: consideró que el hecho de
+
+que las características humanas siguiesen la curva de error era indicativo de
+
+que el «hombre medio» era lo que la naturaleza estaba tratando de generar.158
+
+Según Quetelet, igual que los errores de fabricación crearían una distribución
+
+de longitudes alrededor de la longitud promedio (correcta) de un clavo, de igual
+
+modo los errores de la naturaleza estaban distribuidos alrededor de un tipo
+
+biológico preferible, y afirmó que las personas de una nación estaban
+
+agrupadas alrededor de su promedio «de igual modo que los resultados de
+
+mediciones efectuadas sobre una misma persona, pero con instrumentos
+
+imprecisos que justificasen el tamaño de la variación».
+
+No hay duda de que Quetelet llevó sus especulaciones demasiado lejos.
+
+Aunque su descubrimiento de que las características biológicas (físicas o
+
+mentales) están distribuidas según la curva de frecuencias normal fue
+
+excepcionalmente importante, este factor no podía interpretarse como una
+
+prueba de las intenciones de la naturaleza, ni juzgar como meros errores las
+
+características individuales. Por ejemplo, Quetelet halló que la altura media de
+
+158 Quetelet escribió en sus memorias acerca de la propensión al crimen: «Si el hombre promedio estuviera determinado para una nación representaría el tipo de esa nación; si pudiera determinarse a partir del conjunto de todos los hombres representaría el tipo de toda la raza humana»
+
+los reclutas franceses era de 163 centímetros. Sin embargo, en el extremo
+
+inferior halló un hombre que medía 43 centímetros. ¡Es obvio que uno no se
+
+puede equivocar en más de 120 centímetros al medir la altura de un hombre de
+
+163 centímetros!
+
+De todos modos, aunque no hagamos mucho caso de las ideas de Quetelet
+
+acerca de las «leyes» para fabricar seres humanos a partir de un mismo molde,
+
+el hecho de que las distribuciones de los diversos rasgos, desde pesos a niveles
+
+de cociente intelectual, sigan la curva normal es notable por sí mismo. Y por si
+
+eso fuera poco, incluso la distribución de los promedios de bateo en la liga de
+
+primera división de béisbol es bastante próximo a la normal, como lo es el
+
+rendimiento anual de los índices bursátiles (que se componen de numerosos
+
+valores individuales). De hecho, a veces vale la pena examinar con atención las
+
+distribuciones que se desvían de la curva normal. Por ejemplo, si se hallase que
+
+la distribución de las notas de inglés de un determinado colegio no sigue la
+
+curva normal, esto podría provocar una investigación en las prácticas de
+
+calificación de ese colegio. Esto no significa que todas las distribuciones sean
+
+normales. La distribución de la longitud de las palabras utilizadas por
+
+Shakespeare en sus obras no es normal. Shakespeare utilizaba muchas más
+
+palabras de tres y cuatro letras que de once o doce. Los ingresos anuales por
+
+familia en Estados Unidos están representados también por una distribución
+
+muy alejada de la normal. El pico se halla en unos ingresos de entre 10.000 y
+
+20.000 USD, que corresponde al 13 por 100 de las familias, pero la gráfica
+
+posee también un pico significativo (que corresponde aproximadamente a un
+
+10 por 100 de las familias) en el intervalo de entre 100.000 y 150.000 USD, lo
+
+que suscita una interesante pregunta: si tanto las características físicas como
+
+las intelectuales de los seres humanos (que, es de suponer, determina el
+
+potencial de ingresos) están distribuidas según la curva normal, ¿por qué no lo
+
+están los ingresos? Pero la respuesta a estas cuestiones socioeconómicas va
+
+más allá del ámbito de este libro. Desde nuestra limitada perspectiva actual, el
+
+hecho sorprendente consiste en que prácticamente todos los detalles mesurables de los seres humanos (de una etnia determinada) están
+
+distribuidos según un solo tipo de función matemática.
+
+Históricamente, los rasgos humanos no sólo sirvieron como base para el
+
+estudio de las distribuciones de frecuencia estadísticas, sino también para
+
+establecer el concepto matemático de correlación. La correlación mide el grado
+
+en que los cambios en el valor de una variable están acompañados por cambios
+
+en otra. Por ejemplo, es de esperar que las mujeres altas lleven zapatos más
+
+grandes. De forma similar, los psicólogos hallaron una correlación entre la
+
+inteligencia de los padres y el éxito escolar de los hijos.
+
+El concepto de correlación resulta especialmente útil en las situaciones en que
+
+no hay una dependencia funcional precisa entre las dos variables. Imaginemos,
+
+por ejemplo, que una variable es la temperatura diurna máxima en el sur de
+
+Arizona, y la otra, el número de incendios forestales en esa región. Para un
+
+determinado valor de temperatura, no es posible predecir con exactitud el
+
+número de incendios que ocurrirán, ya que esto depende de otras variables
+
+como la humedad y el número de incendios provocados. En otras palabras,
+
+para un valor específico de temperatura podría haber muchos valores
+
+correspondientes de incendios forestales y viceversa. Sin embargo, el concepto
+
+matemático denominado coeficiente de correlación nos permite medir de forma
+
+cuantitativa la intensidad de la relación entre dos variables.
+
+La persona que introdujo por vez primera la herramienta del coeficiente de
+
+correlación fue el geógrafo, meteorólogo, antropólogo y estadístico victoriano
+
+sir Francis Galton (1822-1911).159 Galton —que, por cierto, era primo lejano
+
+de Charles Darwin— no era un matemático profesional. Como era una persona
+
+de extraordinaria versatilidad y gran sentido práctico, solía dejar las sutilezas
+
+matemáticas de sus innovadores conceptos a otros matemáticos, en especial al
+
+estadístico Karl Pearson (1857-1936). Galton explicaba así el concepto de
+
+correlación:
+
+159 En Kaplan y Kaplan 2006 se explica de forma divulgativa la obra de Galton y Pearson.
+
+La longitud del cúbito [el antebrazo] está correlacionada con la
+
+estatura, ya que un cúbito largo implica en general un hombre
+
+alto. Si la correlación entre ellas es muy próxima, un cubito muy
+
+largo implicaría una gran estatura; en cambio, si no lo es tanto,
+
+un cúbito muy largo estaría asociado en promedio con una
+
+estatura simplemente alta, pero no muy alta; mientras que, si la
+
+correlación fuese nula, un cubito muy largo no estaría asociado
+
+con ninguna estatura en particular y, por consiguiente, en
+
+promedio, con la mediocridad.
+
+Pearson formuló una definición matemática precisa del coeficiente de
+
+correlación. El coeficiente se define de modo que, cuando la correlación es muy
+
+alta, es decir, cuando una variable sigue de cerca las subidas y bajadas de la
+
+otra, el valor del coeficiente es de 1. Cuando dos cantidades presentan
+
+correlación inversa, es decir, cuando una aumenta la otra disminuye y
+
+viceversa, el coeficiente es igual a -1. Cuando una variable se comporta como
+
+si la otra no existiese y viceversa, el coeficiente de correlación es 0. (Por
+
+desgracia, el comportamiento de algunos gobiernos muestra una correlación
+
+cercana a cero con los deseos de las personas a las que supuestamente
+
+representan.)
+
+La investigación médica moderna y las previsiones económicas dependen
+
+esencialmente de la identificación y cálculo de correlaciones. Los vínculos entre
+
+el tabaco y el cáncer de pulmón y entre la exposición al sol y el cáncer de piel,
+
+por ejemplo, se establecieron inicialmente mediante el descubrimiento y
+
+evaluación de correlaciones. Los analistas del mercado de valores se estrujan
+
+continuamente el cerebro para hallar y cuantificar las correlaciones entre el
+
+comportamiento del mercado y otras variables, un descubrimiento que
+
+potencialmente puede reportarles pingües beneficios.
+
+Los primeros estadísticos pronto se dieron cuenta de que la recogida de datos
+
+estadísticos y su interpretación pueden ser asuntos delicados, y deben llevarse a cabo con una exquisita atención. Un pescador que utilice una red con
+
+agujeros de 25 centímetros de lado podría llegar a la conclusión de que todos
+
+los peces miden más de 25 centímetros, por el simple hecho de que los
+
+menores se libran de su red. Se trata de un ejemplo de los efectos de selección,
+
+sesgos que se introducen en los resultados debido al procedimiento utilizado
+
+para recoger los datos o a la metodología. El muestreo presenta otro problema.
+
+Por ejemplo, las actuales encuestas de opinión no entrevistan más que a unos
+
+cuantos miles de personas. ¿Cómo pueden los encuestadores estar seguros de
+
+que los puntos de vista expresados por los miembros de su muestra
+
+representan correctamente la opinión de cientos de millones de personas? Otro
+
+de los aspectos que se debe tener en cuenta es que correlación no
+
+necesariamente implica causalidad. Las ventas de tostadoras pueden elevarse
+
+al mismo tiempo que crece el número de personas que asisten a conciertos de
+
+música clásica, pero eso no implica que la presencia de una nueva tostadora en
+
+una casa mejore la capacidad de apreciar la música. Posiblemente, ambos
+
+efectos están causados por una mejora en la economía.
+
+A pesar de estos importantes riesgos, la estadística se ha convertido en uno de
+
+los instrumentos más eficaces de la sociedad moderna, al elevar las ciencias
+
+sociales al rango de ciencias, precisamente. Pero en realidad, ¿por qué
+
+funciona la estadística? La respuesta la tenemos en la matemática de la
+
+probabilidad, que domina numerosos aspectos de la vida moderna. Desde los
+
+ingenieros que deciden los mecanismos que se deben instalar en un vehículo
+
+tripulado de exploración para garantizar la seguridad de los astronautas a los
+
+físicos de partículas que analizan el resultado de los experimentos en
+
+aceleradores, los psicólogos que califican tests de inteligencia de niños, las
+
+empresas que evalúan la eficacia de nuevos fármacos o los genetistas que
+
+estudian la herencia humana, todos ellos deben utilizar la teoría de
+
+probabilidades.
+
+Juegos de azar Los inicios del estudio serio de la probabilidad fueron muy modestos:160 se
+
+trataba de jugadores que intentaban ajustar sus apuestas a sus posibilidades
+
+de éxito. En particular, a mediados del siglo XVII, un noble francés —el
+
+caballero de Méré—, que era también un celebrado jugador, dirigió varias
+
+preguntas sobre juegos y apuestas al famoso matemático y filósofo francés
+
+Blaise Pascal (1623-1662). En 1654, Pascal mantuvo abundante
+
+correspondencia acerca de estas cuestiones con el otro gran matemático
+
+francés de la época: Pierre de Fermat (1601-1665). Se puede afirmar que la
+
+teoría de probabilidades nació en este intercambio epistolar. Vamos a
+
+examinar uno de los fascinantes casos comentados por Pascal en una carta de
+
+fecha 29 de julio de 1654.161 Imaginemos que dos nobles están enfrascados en
+
+un juego en el que lanzan un único dado. Cada jugador ha puesto sobre la mesa
+
+32 monedas de oro. El primer jugador elige el número 1 y el segundo jugador,
+
+el 5. Cada vez que aparece el número que ha elegido uno de los jugadores, éste
+
+obtiene un punto. El ganador es el primero que consiga tres puntos.
+
+Supongamos, sin embargo, que, después de jugar durante un rato, el número
+
+1 ha aparecido dos veces (de modo que el jugador que lo había elegido tiene
+
+dos puntos) mientras que el número 5 sólo ha aparecido una vez (de modo que
+
+su oponente tiene únicamente un punto). Si, por cualquier razón, el juego
+
+tuviera que interrumpirse en ese momento, ¿cómo deberían repartirse los dos
+
+jugadores las 64 monedas de la mesa? Pascal y Fermat hallaron la respuesta
+
+matemáticamente lógica. Si el jugador con dos puntos ganase la siguiente
+
+tirada, las 64 monedas serían suyas. Si la perdiese, ambos jugadores tendrían
+
+dos puntos, así que cada uno de ellos obtendría 32 monedas. Por tanto, si los
+
+jugadores se separan sin efectuar la siguiente tirada del dado, el primer
+
+jugador podría argumentar correctamente: «Poseo con seguridad 32 monedas,
+
+aunque perdiese la siguiente tirada; por lo que respecta a las otras 32, puede
+
+que las tenga o puede que no, las posibilidades son iguales. Vamos entonces a
+
+160 Entre las publicaciones de divulgación recientes acerca de la probabilidad, su historia y sus usos se encuentran Aczel 2004, Kaplan y Kaplan 2006, Connor 2006, Burger y Starbird 2005 y Tabak 2004. 161 Todhunter 1865, Hald 1990.
+
+dividir estas 32 monedas a partes iguales, y me llevo también las 32 monedas
+
+que tengo seguras». En otras palabras, el primer jugador debería quedarse con
+
+48 monedas y el segundo, con 16. Parece increíble que una nueva disciplina
+
+matemática de gran profundidad haya podido surgir de un tipo de discusión
+
+aparentemente trivial como éste, ¿verdad? Sin embargo, ésta es precisamente
+
+la razón de la «inexplicable» y misteriosa eficacia de la matemática.
+
+La esencia de la teoría de probabilidades se puede deducir de los hechos
+
+simples siguientes.162 Nadie puede predecir con certeza qué cara de una
+
+moneda no manipulada quedará hacia arriba cuando caiga al suelo. Aunque la
+
+moneda acabe de caer diez veces seguidas en cara, eso no mejora ni un ápice
+
+nuestra capacidad para predecir con certeza la siguiente tirada. Sin embargo,
+
+sí podemos predecir con certeza que, si se tira la moneda diez millones de
+
+veces, prácticamente la mitad de las tiradas serán caras y la otra mitad serán
+
+cruces. De hecho, a finales del siglo XIX, el estadístico Karl Pearson tuvo la
+
+paciencia de tirar una moneda 24.000 veces. Obtuvo cara en 12.012 de las
+
+tiradas. En cierto modo, esto es, en esencia, la teoría de la probabilidad. Esta
+
+disciplina nos proporciona información precisa acerca de los resultados
+
+recogidos en un gran número de experimentos;163 no es capaz de predecir el
+
+resultado de un experimento específico. Si un experimento puede tener n
+
+resultados posibles, cada uno de ellos con la misma posibilidad de ocurrir,
+
+entonces la probabilidad de cada resultado es 1/n. Si se tira un dado no
+
+cargado, la probabilidad de obtener el número 4 es 1/6, porque el dado tiene
+
+seis caras, y cada una de ellas es un resultado igualmente posible.
+
+Supongamos que se tira el dado siete veces seguidas y se saca un 4 cada vez;
+
+¿cuál es la probabilidad de sacar un 4 en la siguiente tirada? La respuesta de la
+
+teoría de probabilidades es de una claridad meridiana: la probabilidad seguirá
+
+siendo de 1/6; el dado no tiene memoria; las nociones de «buena racha» o de
+
+162 Kline 1967 contiene una descripción breve y sencilla de algunos de los principios fundamentales de la teoría de probabilidades.
+
+163 Rosenthal 2006 describe con gran exactitud la relevancia de la teoría de probabilidades en numerosas situaciones del mundo real.
+
+que la tirada siguiente compensará el desequilibrio de las anteriores no son
+
+más que mitos. Lo único que es cierto es que, si lanzásemos el dado un millón
+
+de veces, los resultados se compensarían y, en promedio, el 4 aparecería 1/6
+
+parte de las veces.
+
+Vamos a examinar una situación un poco más complicada. Supongamos que
+
+lanzamos tres monedas al mismo tiempo. ¿Cuál es la probabilidad de sacar dos
+
+cruces y una cara? Podemos hallar la respuesta con sólo enumerar todos los
+
+resultados posibles. Si indicamos las caras con «C» y las cruces con «X»,
+
+tenemos ocho resultados posibles: XXX, XXC, XCX, XCC, CXX, CXC, CCX, CCC.
+
+De éstos, como se puede comprobar, tres son favorables al suceso «dos cruces
+
+y una cara». Así, la probabilidad de este evento es de 3/8. O, para generalizar,
+
+si de n resultados con la misma probabilidad, ra son favorables al suceso que
+
+nos interesa, la probabilidad de que ese suceso ocurra es de m/n. Observe que
+
+eso se traduce en que el valor de la probabilidad está siempre entre cero y uno.
+
+Si el suceso que nos interesa es, en realidad, imposible, entonces m = 0
+
+(ningún resultado es favorable) y la probabilidad sería cero. Si, por el contrario,
+
+el suceso es totalmente seguro, eso significa que los n casos son favorables (m
+
+= n) y que la probabilidad es simplemente n/n = 1. Los resultados de los tres
+
+lanzamientos de moneda demuestran además otro importante resultado de la
+
+teoría de probabilidades: si tenemos varios sucesos completamente
+
+independientes entre sí, la probabilidad de que todos ellos sucedan es el
+
+producto de las probabilidades individuales. Por ejemplo, la probabilidad de
+
+sacar tres caras es de 1/8, es decir, el producto de las tres probabilidades de
+
+sacar cara en cada una de las tres monedas: 1/2 x 1/2 x 1/2 = 1/8.
+
+Uno puede pensar ahora: de acuerdo pero, aparte de en los casinos y en otros
+
+juegos de azar, ¿qué otros usos podemos dar a estos conceptos básicos de
+
+probabilidades? Aunque cueste de creer, estas leyes de la probabilidad de
+
+aspecto inocuo se hallan en la base de la genética moderna, la ciencia de la
+
+herencia de caracteres biológicos.
+
+La persona que unió la probabilidad con la genética fue un monje de Moravia.164 Gregor Mendel (1822-1884) nació en un pueblo cercano a la
+
+frontera entre Moravia y Silesia (actualmente Hyncice, en la República Checa).
+
+Tras entrar en la abadía agustiniana de Santo Tomás, en Brno, estudió
+
+zoología, botánica y física y química en la Universidad de Viena. A su regreso a
+
+Brno, Mendel inició un activo período de experimentación con plantas de
+
+guisantes, con el entusiasta apoyo del abad de su monasterio. Mendel centró
+
+sus investigaciones en los guisantes porque eran de cultivo fácil, y también
+
+porque poseían órganos reproductivos masculinos y femeninos. De este modo,
+
+las plantas de guisantes podían autopolinizarse o cruzarse con otras plantas.
+
+Mediante la polinización cruzada de plantas que sólo producían semillas verdes
+
+con otras que sólo las producían amarillas, Mendel obtuvo resultados muy
+
+desconcertantes a primera vista (figura 34).
+
+La primera generación de descendientes sólo tenía semillas amarillas. ¡Sin
+
+embargo, de forma constante la generación siguiente tenía una proporción de
+
+3 a 1 entre semillas amarillas y verdes! A partir de estos asombrosos
+
+resultados, Mendel pudo extraer tres conclusiones que se convirtieron en
+
+164 Para una excelente biografía véase Orel 1996.
+
+importantes hitos de la genética:
+
+i. La herencia de una característica implica la transmisión de determinados
+
+«factores» (actualmente los llamamos genes) de padres a hijos.
+
+ii. Cada hijo hereda uno de estos «factores» de cada padre (para un rasgo
+
+determinado).
+
+iii. Aunque una característica específica no se manifieste en un
+
+descendiente, se puede transmitir a la siguiente generación.
+
+Pero ¿cómo se pueden explicar los resultados cuantitativos del experimento de
+
+Mendel? Mendel propuso que cada una de las plantas padre tenía dos alelos
+
+(variedades de un gen) idénticos, ya fuesen dos amarillos (A) o dos verdes (V)
+
+(como en la figura 35).
+
+Al aparearse entre sí, cada descendiente heredaba dos alelos distintos, uno de
+
+cada padre [según la regla (ii) mencionada]. Es decir, la semilla de cada
+
+descendiente contenía un alelo amarillo y uno verde. Entonces, ¿por qué los
+
+guisantes de esta generación eran todos amarillos? Según la explicación de
+
+Mendel, el amarillo era el color dominante y enmascaraba la presencia del alelo
+
+verde en esta generación [según la regla (iii)]. Sin embargo [siguiendo con la
+
+regla (iii)], el amarillo dominante no impedía que el verde recesivo pasase a la siguiente generación. En la siguiente ronda de apareamiento, cada planta con
+
+un alelo amarillo y uno verde era polinizada con otra planta que contenía la
+
+misma combinación de alelos. Puesto que el descendiente contenía un alelo de
+
+cada padre, las semillas de la generación siguiente podían contener una de las
+
+combinaciones siguientes (figura 35): verde-verde, verde-amarillo,
+
+amarillo-verde o amarillo-amarillo. Todas las semillas con un alelo amarillo se
+
+convertían en guisantes amarillos, porque el amarillo es dominante. Así, como
+
+todas las combinaciones de alelos tienen la misma probabilidad, la proporción
+
+entre guisantes amarillos y verdes debe ser 3:1.
+
+No es difícil darse cuenta de que todo el ejercicio de Mendel es, en esencia,
+
+idéntico a lanzar dos monedas. Asignar cara a verde y cruz a amarillo y
+
+preguntar qué fracción de los guisantes serán amarillos (sabiendo que el
+
+amarillo es dominante para determinar el color) es exactamente lo mismo que
+
+preguntar cuál es la probabilidad de obtener al menos una cruz al tirar dos
+
+monedas. Obviamente, es 3/4, ya que tres de los cuatro posibles resultados
+
+(cruz-cruz, cruz-cara, cara-cruz, cara-cara) contienen una cruz. Eso significa
+
+que la proporción entre el número de tiradas que contienen al menos una cruz
+
+y el número de tiradas que no la contienen debería ser (a la larga) 3:1, como en
+
+los experimentos de Mendel.
+
+A pesar de que Mendel publicó su artículo «Experimentos sobre hibridación de
+
+plantas» en 1865165 (también presentó los resultados en dos congresos
+
+científicos), su obra pasó en general inadvertida hasta su redescubrimiento, a
+
+principios del siglo XX. Aunque han surgido algunas dudas acerca de la
+
+exactitud de sus resultados,166 se le sigue considerando la primera persona
+
+que estableció las bases matemáticas de la genética moderna. Tras los pasos
+
+de Mendel, el influyente estadístico británico Ronald Aylmer Fisher 167
+
+(1890-1962) estableció el campo de la genética de poblaciones (la rama
+
+165 Se puede acceder a una traducción inglesa en la página web creada por R. B. Blumberg. 166 Véase, por ejemplo, Fisher 1936.
+
+167 Tabak 2004 incluye una descripción breve de una parte de su obra. Fisher escribió un artículo no técnico y muy original acerca del diseño de experimentos, titulado «Mathematics of a Lady Tasting Tea»; véase Fisher 1956). matemática que se centra en la modelización de las distribuciones de genes
+
+dentro de una población y el cálculo de la variación temporal de las frecuencias
+
+de genes). Los actuales genetistas pueden utilizar muestreos estadísticos
+
+combinados con estudios de ADN en el pronóstico de las características más
+
+probables de un descendiente no nacido. Pero ¿cuál es realmente la relación
+
+entre probabilidad y estadística?
+
+Hechos y pronósticos
+
+Los científicos que intentan desentrañar la evolución del universo suelen atacar
+
+el problema desde ambos extremos. Están los que empiezan por las
+
+minúsculas fluctuaciones en el tejido cósmico del universo primordial, y los que
+
+estudian hasta el más nimio detalle en el estado actual del universo. Los
+
+primeros utilizan enormes simulaciones informáticas con el fin de hacer
+
+evolucionar el universo hacia adelante. Los segundos se embarcan en el
+
+detectivesco trabajo de tratar de deducir el pasado del universo a partir de una
+
+multitud de datos sobre su estado actual. La relación entre la teoría de
+
+probabilidades y la estadística es similar. En teoría de probabilidades, las
+
+variables y el estado inicial son conocidos, y el objetivo consiste en predecir el
+
+resultado final más probable. En estadística, el resultado es conocido, pero las
+
+causas pasadas no lo son.
+
+Vamos a examinar un ejemplo sencillo para ver de qué modo ambos campos se
+
+complementan y, por así decirlo, se encuentran a medio camino. Podemos
+
+empezar por el hecho de que los estudios estadísticos muestran que las
+
+mediciones de una amplia variedad de magnitudes físicas, e incluso muchas
+
+características humanas, se distribuyen siguiendo la curva de frecuencias
+
+normal. Para ser más exactos, la normal no es una curva, sino una familia de
+
+curvas que se pueden describir mediante una misma función general y que
+
+quedan caracterizadas mediante dos únicas cantidades matemáticas. La
+
+primera de ellas —la media— es el valor central y eje de simetría de la
+
+distribución. El valor real de la media depende, claro está, del tipo de variable medida (por ejemplo, peso, altura o CI). Incluso para una misma variable, la
+
+media puede ser distinta en diferentes poblaciones. Por ejemplo, la media de la
+
+altura de los hombres en Suecia es probablemente distinta que la de Perú. La
+
+segunda cantidad que define la curva normal se denomina desviación estándar,
+
+y mide cómo están agrupados los datos alrededor de la media.
+
+En la figura 36, la curva normal (a) es la que tiene la mayor desviación
+
+estándar, ya que los valores en ella están más dispersos.
+
+Pero aquí viene lo interesante: si utilizamos el cálculo integral para calcular las
+
+áreas bajo la curva, se puede demostrar matemáticamente que,
+
+independientemente de los valores de la media o de la desviación estándar, el
+
+68,2 por 100 de los datos se hallan entre los valores que abarca una desviación
+
+estándar a cada lado de la media (como se muestra en la figura 37).

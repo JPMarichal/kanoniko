@@ -1,0 +1,33 @@
+{
+  "title": "Biography.",
+  "author": "Elizabeth Whitney Williams",
+  "book": "A Child of the Sea; and Life Among the Mormons",
+  "chapter": 4,
+  "total_chapters": 10,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "19th-century-lds",
+    "women-authored",
+    "memoir",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Child of the Sea; and Life Among the Mormons, A - Elizabeth Whitney Williams.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-12-28T00:00:00+00:00",
+  "opf_identifier": "calibre:4254",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elizabeth Whitney Williams. A Child of the Sea and Life Among the Mormons, 1905."
+}

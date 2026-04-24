@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "women-authored",
+    "memoir",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Elizabeth Whitney Williams",
+  "source_url": null,
+  "note": "Elizabeth Whitney Williams. A Child of the Sea and Life Among the Mormons, 1905."
+}

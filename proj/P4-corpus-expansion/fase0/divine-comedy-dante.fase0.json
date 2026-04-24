@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "medieval",
+    "13th-14th-century",
+    "christian-allegory",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Dante Alighieri",
+  "source_url": null,
+  "note": "Dante Alighieri (1265-1321). Divina Commedia. Medieval Christian theological allegory."
+}

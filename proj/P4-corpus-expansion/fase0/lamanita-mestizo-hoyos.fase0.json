@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lamanites",
+    "mesoamerica",
+    "latin-american-lds"
+  ],
+  "category": "books",
+  "author": "Arturo de Hoyos",
+  "source_url": null,
+  "note": "Arturo de Hoyos. El lamanita mestizo."
+}

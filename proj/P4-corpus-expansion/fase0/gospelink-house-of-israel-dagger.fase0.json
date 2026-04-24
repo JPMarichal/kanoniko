@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "house-of-israel",
+    "scattering-and-gathering",
+    "gospelink"
+  ],
+  "category": "reference",
+  "author": "Richard D. Dagger",
+  "source_url": null,
+  "note": "Richard D. Dagger (GospeLink). The House of Israel: From Everlasting to Everlasting."
+}

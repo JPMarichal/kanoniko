@@ -1,0 +1,18 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "marriage",
+    "evangelical",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "John Thompson",
+  "source_url": null,
+  "note": "John Thompson. El camino hacia un matrimonio cristiano (evangelical)."
+}

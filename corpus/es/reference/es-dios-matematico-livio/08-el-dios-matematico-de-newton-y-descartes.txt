@@ -1,0 +1,489 @@
+El matemático Abraham de Moivre (1667-1754) relata esta historia en uno de
+
+sus escritos (del que se muestra una página en la figura 29):
+
+En 1684, Halley fue a visitarlo [a Newton] a Cambridge; al cabo
+
+de un tiempo de estar juntos, el doctor le preguntó qué curva
+
+pensaba que describirían los planetas suponiendo que la fuerza
+
+de atracción hacia el Sol fuese recíproca al cuadrado de la
+
+distancia de él. Sir Isaac replicó de inmediato que sería una
+
+Elipsis [elipse]; el Doctor, impresionado y pletórico, le preguntó
+
+cómo lo sabía, a lo que él [Newton] repuso que lo había
+
+calculado. El doctor Halley le pidió que le mostrase sus cálculos
+
+sin demora; sir Isaac, después de buscar entre sus papeles, no gravitatoria como si el Sol, la Tierra y los planetas fuesen masas puntuales
+
+pudo encontrarlos, pero le prometió que los volvería a hacer y se
+
+los enviaría.141
+
+Halley volvió a visitar a Newton en noviembre de 1684. Entre ambas visitas,
+
+Newton trabajó como un poseso. De Moivre nos ofrece esta breve descripción:
+
+A fin de cumplir su promesa, sir Isaac se puso de nuevo al
+
+trabajo, pero no pudo alcanzar la conclusión que creía haber
+
+examinado meticulosamente antes; sin embargo, probó una
+
+nueva forma que, aunque en más tiempo que la primera, le llevó
+
+de nuevo a su antigua conclusión, y luego examinó con atención
+
+cuál podría haber sido la razón por la que los cálculos que había
+
+realizado no demostraron ser correctos, y … hizo que ambos
+
+cálculos coincidiesen.
+
+Este árido resumen no ofrece siquiera una remota idea de lo que Newton había
+
+logrado en realidad en los meses transcurridos entre las visitas de Halley.
+
+Escribió todo un tratado, De Motu Corporum in Gyrum, en el que demostraba
+
+casi todos los aspectos de los cuerpos que se mueven en órbitas circulares o
+
+elípticas, demostró todas las leyes de Kepler e incluso resolvió el problema
+
+para una partícula que se mueve en un medio con resistencia (como el aire).
+
+Halley quedó abrumado. Para su satisfacción, se las arregló para convencer a
+
+Newton de que publicase todos estos asombrosos descubrimientos; por fin, el
+
+momento de los Principia se aproximaba.
+
+Al principio, Newton había concebido el libro como una versión ampliada y más
+
+detallada de su tratado De Motu. No obstante, cuando empezó a trabajar, se
+
+dio cuenta de que algunos de los temas requerían de una más profunda
+
+reflexión. Dos aspectos en particular inquietaban a Newton. Uno de ellos
+
+consistía en que Newton había formulado originalmente su ley de atracción
+
+141 De Moivre recordaba aquí lo que Newton le había descrito.
+
+matemáticas, sin dimensiones. Por descontado, sabía que esto no era cierto,
+
+por lo que consideraba que sus resultados eran sólo una aproximación cuando
+
+se aplicaban al sistema solar. Algunos especulan incluso que el motivo de que
+
+abandonase su investigación sobre la gravedad en 1679 fue su descontento
+
+con este estado de cosas.142 Con respecto a la fuerza sobre la manzana, la
+
+situación era aún peor. En este caso, está claro que la parte de la Tierra que se
+
+encuentra justo debajo de la manzana está a una distancia muy inferior a la de
+
+la parte que está al otro lado del planeta. ¿Cómo se podía calcular la atracción
+
+neta? El astrónomo Herbert Hall Turner (1861-1930) describía así la lucha
+
+interna de Newton en un artículo que apareció el 19 de marzo de 1927 en el
+
+Times de Londres:
+
+En aquella época se le ocurrió la idea general de la atracción
+
+variable como el cuadrado inverso de la distancia, pero vio
+
+graves obstáculos en su aplicación completa, obstáculos de los
+
+que otras mentes menos preclaras no eran conscientes. La más
+
+importante de estas dificultades no pudo superarla hasta 1685
+
+… Se trataba de relacionar la atracción de la Tierra sobre un
+
+cuerpo tan lejano como la Luna y la atracción que ejerce sobre
+
+una manzana situada a corta distancia de su superficie. En el
+
+primer caso, las diversas partículas que componen la Tierra (a la
+
+que Newton esperaba ampliar su ley, haciéndola así universal)
+
+se encuentran a distancias no muy distintas de la Luna en
+
+cuanto a magnitud o dirección; pero sus distancias con respecto
+
+a la manzana diferían de forma conspicua, tanto en tamaño
+
+como en dirección. ¿Cómo se podrían combinar o sumar las
+
+diversas atracciones del segundo caso para obtener una única
+
+resultante? ¿Y en qué «centro de gravedad», en su caso, se
+
+142 Esto se sugiere, por ejemplo, en Cohen 1982.
+
+concentrarían?
+
+El avance decisivo llegó finalmente en la primavera de 1685. Newton logró
+
+demostrar un teorema esencial: para dos cuerpos esféricos, «toda la fuerza
+
+con que una de estas esferas atrae a la otra será inversamente proporcional al
+
+cuadrado de la distancia entre sus centros». ¡Es decir, para la gravitación, los
+
+cuerpos esféricos actúan como si fuesen masas puntuales concentradas en sus
+
+centros! El matemático James Whitbread Lee Glaisher (1848-1928) destacaba
+
+la importancia de esta bella demostración. En su parlamento durante la
+
+celebración del bicentenario de los Principia de Newton, Glaisher afirmó:
+
+En cuanto Newton pudo demostrar su soberbio teorema —y por
+
+sus palabras sabemos que no tenía esperanzas de obtener un
+
+resultado tan bello hasta que éste surgió de su investigación
+
+matemática—, todo el mecanismo del universo se mostró de
+
+repente ante él. ¡Qué distintas debieron aparecer estas
+
+proposiciones a los ojos de Newton cuando se dio cuenta de que
+
+sus resultados, que había tomado por aproximados al aplicarlos
+
+al sistema solar, eran en realidad exactos! … Podemos imaginar
+
+el efecto que esta súbita transición de aproximación a exactitud
+
+tuvo para estimular la mente de Newton a la consecución de
+
+logros aún mayores. Ahora tenía en sus manos la capacidad de
+
+aplicar con total precisión el análisis matemático a las
+
+cuestiones reales de la astronomía.143
+
+El otro aspecto que al parecer seguía irritando a Newton cuando escribió el
+
+primer borrador de De Motu era el haber despreciado la influencia de las
+
+fuerzas con las que los planetas atraían al Sol. En otras palabras, en su
+
+formulación original, Newton redujo al Sol a un mero papel de centro de fuerza
+
+143 Glaisher 1888.
+
+inamovible que, usando las palabras del propio Newton, «apenas existe» en el
+
+mundo real. Este esquema se contradecía con la propia tercera ley del
+
+movimiento de Newton, según la cual «las acciones de cuerpos que atraen y
+
+que son atraídos son siempre mutuas e iguales». Cada planeta atrae al Sol con
+
+la misma fuerza con la que el Sol atrae al planeta. Por consiguiente, agregó, «si
+
+hay dos cuerpos [como la Tierra y el Sol], ni el cuerpo que atrae ni el cuerpo
+
+que es atraído pueden estar en reposo». El darse cuenta de este aspecto
+
+aparentemente poco importante fue en realidad un paso fundamental hacia el
+
+concepto de gravitación universal. Podemos intentar adivinar por dónde
+
+transcurrió la línea de pensamiento de Newton: si el Sol tira de la Tierra, la
+
+Tierra debe también tirar del Sol, y con idéntica fuerza. Es decir, la Tierra no se
+
+limita a orbitar alrededor del Sol, sino que ambos giran alrededor de su centro
+
+de gravedad común. Pero eso no es todo: el resto de los planetas atraen
+
+también al Sol, y de hecho cada planeta sufre la atracción, no sólo del Sol, sino
+
+también de los demás planetas. Esa misma lógica puede aplicarse a Júpiter y
+
+sus satélites, a la Tierra y la Luna, e incluso a la manzana y la Tierra. La
+
+conclusión es de una increíble simplicidad: sólo hay una fuerza de gravitación,
+
+y actúa sobre cualquier par de masas, en cualquier lugar del universo. Esto era
+
+cuanto Newton necesitaba. Los Principia —510 densas páginas en latín— se
+
+publicaron en julio de 1687.
+
+Newton realizó observaciones y experimentos cuya precisión no superaba el 4
+
+por 100, y estableció a partir de ellos una ley matemática de la gravitación cuya
+
+precisión resultó ser mejor que una parte por millón. Por primera vez combinó
+
+explicaciones de los fenómenos naturales con el poder de predicción de los
+
+resultados de observaciones. La física y la matemática quedaron unidas para
+
+siempre, mientras que el divorcio entre la ciencia y la filosofía se hizo
+
+inevitable.
+
+La segunda edición de los Principia, con exhaustivas modificaciones de Newton
+
+y, en especial, del matemático Roger Cotes (1682-1716), vio la luz en 1713 (en
+
+la figura 30 se puede ver la portada).
+
+Newton, que no se caracterizaba precisamente por ser una persona afectuosa,
+
+ni siquiera se molestó en dar las gracias a Cotes por su fabuloso trabajo en el
+
+prólogo del libro. Sin embargo, cuando Cotes falleció a los treinta y tres años
+
+debido a unas violentas fiebres, Newton mostró un cierto reconocimiento: «Si
+
+hubiese vivido más tiempo habríamos oído hablar de él».
+
+Curiosamente, algunos de los más notables comentarios de Newton acerca de
+
+Dios sólo aparecieron como observaciones de último momento en la segunda
+
+edición. En una carta a Cotes fechada el 28 de marzo de 1713, menos de tres
+
+meses antes de la finalización de la segunda edición de los Principia, Newton
+
+incluía la frase: «Sin duda es cometido de la filosofía natural el disertar sobre
+
+Dios a partir de los fenómenos [de la Naturaleza]». En efecto, Newton expresó
+
+sus ideas acerca de un Dios «eterno e infinito, omnipotente y omnisciente» en
+
+el General Scholium, el apartado que, a su juicio, daba el toque final a los Principia.
+
+¿Cambió acaso el papel de Dios en este universo cada vez más matemático? ¿O
+
+era quizá percibido cada vez más como un matemático? Después de todo,
+
+hasta la formulación de la ley de la gravitación, los movimientos de los planetas
+
+se consideraban de forma inequívoca como obras de Dios. ¿Cómo vieron los
+
+ojos de Newton y Descartes este cambio de punto de vista hacia una
+
+explicación científica de la naturaleza?
+
+El Dios matemático de Newton y Descartes
+
+Como la mayoría de las personas de su época, Newton y Descartes eran
+
+religiosos. El escritor francés de seudónimo Voltaire (1694-1778), que escribió
+
+ampliamente sobre Newton, dijo en una famosa cita: «Si Dios no existiese,
+
+sería necesario inventarlo».
+
+Para Newton, la existencia misma del mundo y la regularidad matemática del
+
+cosmos observado eran pruebas de la presencia de Dios.144 Este tipo de
+
+razonamiento causal fue utilizado por vez primera por el teólogo Tomás de
+
+Aquino (ca. 1225-1274), y sus argumentos se pueden clasificar con las
+
+etiquetas filosóficas generales de argumento cosmológico y argumento
+
+teleológico. En términos sencillos, el argumento cosmológico afirma que,
+
+puesto que el mundo físico debe de haber empezado a existir de algún modo,
+
+tiene que haber una Causa Primera, concretamente un Dios creador. El
+
+argumento teleológico o argumento de diseño intenta proporcionar pruebas de
+
+la existencia de Dios a partir de la apariencia de que el mundo ha sido diseñado.
+
+Esta es la opinión de Newton, tal como aparece en los Principia: «Este sistema
+
+de singular belleza del sol, los planetas y los cometas sólo puede originarse en
+
+el consejo y el dominio de un Ser poderoso e inteligente. Y, si las estrellas fijas
+
+son el centro de otros tantos sistemas similares, estos sistemas, formados por
+
+144 En Principia dice acerca de Dios: «Es omnipresente, no sólo virtualmente, sino también en sustancia … Es todo ojos, todo oídos, todo cerebro, todo propósito, todo fuerza de sentir, de comprender y de actuar.» En un manuscrito de principios del XVIII, adquirido en Sotheby's en 1936 y expuesto en Jerusalén en 2007, Newton utilizaba el libro bíblico de Daniel para calcular la fecha del Apocalipsis. Por si se ha quedado preocupado, llegó a la conclusión de que no veía motivo alguno para que [el mundo] se acabara antes del año 2060.
+
+similar consejo, deben todos estar sometidos al dominio de Uno». La validez de
+
+los argumentos cosmológico, teleológico y otros similares como
+
+«demostraciones» de la existencia de Dios ha sido objeto de debate entre
+
+filósofos durante siglos.145 Mi opinión personal siempre ha sido que los teístas
+
+no necesitan de estos argumentos para estar convencidos, y que no hay duda
+
+de que a los ateos no les convencen.
+
+Newton agregó una vuelta de tuerca adicional a la universalidad de estas leyes.
+
+Consideraba que el hecho de que todo el cosmos estuviese gobernado por las
+
+mismas leyes y pareciera ser estable era una prueba más de la presencia de la
+
+mano de Dios: «Especialmente siendo que la luz de las estrellas fijas es de la
+
+misma naturaleza que la del Sol, y de todos los sistemas la luz pasa a todos los
+
+demás sistemas: y para que los sistemas de las estrellas fijas no caigan, por su
+
+gravedad, mutuamente unos sobre otros, él ha situado estos sistemas a
+
+inmensas distancias entre sí». (El subrayado es mío)
+
+En su libro Óptica, Newton dejó claro que no creía que las leyes de la naturaleza
+
+bastasen por sí mismas para explicar la existencia del universo; Dios era el
+
+creador y el soporte de todos los átomos que constituían la materia cósmica.
+
+«Porque a Él [Dios], que los creó [los átomos], le pareció apropiado ponerlos
+
+en orden. Y, si Él lo hizo, no es propio de la filosofía buscar otro Origen del
+
+Mundo, o pretender que puede surgir de un Caos por la mera acción de las
+
+Leyes de la Naturaleza.» En otras palabras, para Newton, Dios era matemático
+
+(entre otras cosas), y no sólo era una forma de hablar, sino que lo era de forma
+
+casi literal; el Dios Creador dio existencia a un mundo físico gobernado por
+
+leyes matemáticas.
+
+Descartes, con una mayor inclinación que Newton hacia la filosofía, estaba
+
+absorto en la idea de demostrar la existencia de Dios. Para él, el camino desde
+
+la certidumbre de nuestra propia existencia («Pienso, luego existo») a nuestra
+
+capacidad de tejer un tapiz de ciencia objetiva debía pasar por una
+
+145 En Dennett 2006, Dawkins 2006 y Paulos 2008 hallará excelentes comentarios recientes sobre la historia de estos argumentos y una evaluación de su solidez lógica.
+
+demostración irrefutable de la existencia de un Dios de suprema perfección.
+
+Este Dios, afirmaba, era el origen último de toda verdad, y el único garante de
+
+la Habilidad del razonamiento humano. Este argumento de sospechoso aspecto
+
+circular (conocido como Círculo cartesiano) fue criticado incluso en la época de
+
+Descartes, especialmente por parte del perspicaz filósofo Antoine Arnauld
+
+(1612-1694). Arnauld planteó una pregunta de una devastadora simplicidad:
+
+si necesitamos demostrar la existencia de Dios para garantizar la validez del
+
+proceso de razonamiento humano, ¿cómo podemos confiar en tal
+
+demostración, que es a su vez un producto de la mente humana? Descartes
+
+hizo varios intentos desesperados de huir de este círculo vicioso, pero muchos
+
+de los filósofos posteriores no pensaron que sus esfuerzos fuesen demasiado
+
+convincentes. La «prueba adicional» de Descartes para la existencia de Dios
+
+también era cuestionable. Desde un punto de vista filosófico general se puede
+
+denominar un argumento ontológico. El teólogo y filósofo san Anselmo de
+
+Canterbury (1033-1109) fue el primero en formular un argumento de este tipo
+
+en 1078, y desde entonces ha vuelto a aparecer en distintas encarnaciones. El
+
+constructo lógico tiene un aspecto similar a éste: por definición, Dios es tan
+
+perfecto que es el mayor ente que se puede concebir. Pero, si no existiese, se
+
+podría concebir un ente mayor aún que, además de estar dotado de todas las
+
+perfecciones de Dios, existiese también. Esto representaría una contradicción a
+
+la definición de Dios como mayor ente concebible; por todo ello, Dios debe
+
+existir. En palabras de Descartes: «La existencia no puede separarse de la
+
+esencia de Dios, de igual modo que no se puede separar de la esencia de un
+
+triángulo el hecho de que sus ángulos suman dos ángulos rectos».
+
+Este tipo de estratagema lógica no resulta convincente para un buen número
+
+de filósofos;146 su argumento es que la lógica por sí sola no basta para
+
+establecer la existencia de cualquier cosa que tenga consecuencias en el
+
+mundo físico, en particular un ente de la grandiosidad de Dios.
+
+146 Véase Dennett 2006, Dawkins 2006, Paulos 2008.
+
+Curiosamente, Descartes fue acusado de fomentar el ateísmo, y sus obras
+
+entraron en el índice de libros prohibidos de la Iglesia Católica en 1667. A la luz
+
+de la insistencia de Descartes en plantear que Dios era el garante definitivo de
+
+la verdad, no deja de ser una acusación estrambótica.
+
+Dejando aparte las cuestiones puramente filosóficas, el punto de más interés
+
+para nuestros objetivos es la perspectiva de Descartes de que Dios era el
+
+creador de todas las «verdades eternas». En particular, declaró que «las
+
+verdades matemáticas que llamáis eternas han sido establecidas por Dios y
+
+dependen por completo de Él, de igual modo que el resto de sus criaturas». Así,
+
+el Dios cartesiano era más que un matemático, en el sentido de que era tanto
+
+el creador de la matemática como de un mundo físico basado por completo en
+
+la matemática. Según esta visión del mundo, está claro que los humanos se
+
+limitan a descubrir la matemática, no a inventarla.
+
+Las obras de Galileo, Descartes y Newton cambiaron profundamente la relación
+
+entre la matemática y las ciencias. En primer lugar, los explosivos desarrollos
+
+en ciencias se convirtieron en poderosas motivaciones para la investigación
+
+matemática. Además, a través de las leyes de Newton, incluso los campos más
+
+abstractos de la matemática —como el cálculo— se convirtieron en la esencia
+
+de las explicaciones físicas. Por último, y quizá más importante, los límites
+
+entre la matemática y la ciencia quedaron desdibujados hasta ser
+
+irreconocibles, llegando prácticamente a una fusión entre los conceptos
+
+matemáticos y amplias franjas de la exploración científica. Estos
+
+acontecimientos crearon un entusiasmo por la matemática que no sucedía
+
+desde el tiempo de los antiguos griegos. Los matemáticos sentían que el
+
+mundo era matemático y que ofrecía un ilimitado potencial de descubrimiento.

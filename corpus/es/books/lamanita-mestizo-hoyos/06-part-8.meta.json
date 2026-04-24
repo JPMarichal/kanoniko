@@ -1,0 +1,32 @@
+{
+  "title": "Part 8",
+  "author": "Arturo de Hoyos",
+  "book": "El lamanita mestizo",
+  "chapter": 6,
+  "total_chapters": 6,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "lamanites",
+    "mesoamerica",
+    "latin-american-lds"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/lamanita mestizo, El - Arturo de Hoyos.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-12-22T14:13:10+00:00",
+  "opf_identifier": "b4e380dd-3863-4f98-afe7-f299bffed99f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Arturo de Hoyos. El lamanita mestizo."
+}

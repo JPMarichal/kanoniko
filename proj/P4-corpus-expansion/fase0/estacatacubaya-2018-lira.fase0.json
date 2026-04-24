@@ -1,0 +1,18 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mexican-lds",
+    "local-history",
+    "contemporary"
+  ],
+  "category": "books",
+  "author": "Mar\u00eda Fernanda Lira Arzaluz",
+  "source_url": null,
+  "note": "Mar\u00eda Fernanda Lira Arzaluz. Estaca Tacubaya 2018 (Mexican local LDS history)."
+}

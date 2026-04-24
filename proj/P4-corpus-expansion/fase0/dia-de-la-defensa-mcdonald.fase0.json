@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "defense",
+    "legal-perspective",
+    "spanish-lds"
+  ],
+  "category": "discourses",
+  "author": "A. Melvin McDonald",
+  "source_url": null,
+  "note": "A. Melvin McDonald. El d\u00eda de la defensa."
+}

@@ -1,0 +1,677 @@
+Capítulo 5
+
+Estadísticos y probabilistas: la ciencia de la incertidumbre
+
+El mundo no se está quieto. La mayor parte de los objetos que nos rodean
+
+están en movimiento o cambian continuamente. Incluso la Tierra bajo nuestros
+
+pies, que parece tan firme, está de hecho rotando sobre su eje, girando
+
+alrededor del Sol y viajando (junto con éste) alrededor del centro de nuestra
+
+galaxia, la Vía Láctea. El aire que respiramos se compone de billones de
+
+moléculas que se mueven sin cesar de forma aleatoria. Al mismo tiempo, las
+
+plantas crecen, los materiales radiactivos se desintegran, la temperatura de la
+
+atmósfera sube y baja de forma cotidiana —además de con cada estación— y la
+
+expectativa de vida humana no deja de aumentar. Sin embargo, esta agitación
+
+cósmica no amilanó a la matemática. Newton y Leibniz introdujeron la rama
+
+denominada cálculo147 específicamente para poder efectuar un análisis
+
+riguroso y una modelización precisa del movimiento y del cambio. En nuestros
+
+días, la potencia de esta increíble herramienta que lo abarca todo permite
+
+utilizarla para examinar problemas tan dispares como el movimiento de la
+
+lanzadera espacial o la propagación de una enfermedad infecciosa. De igual
+
+modo que las películas capturan el movimiento fraccionándolo en secuencias
+
+de fotogramas, el cálculo puede medir el cambio mediante una retícula tan fina
+
+que permite determinar cantidades cuya existencia es extremadamente
+
+efímera, como la velocidad, la aceleración o el ritmo de cambio instantáneos.
+
+Guiados por los gigantescos avances de Newton y Leibniz, los matemáticos de
+
+la «Era de la Razón» (finales del siglo XVII y siglo XVIII) desarrollaron el cálculo
+
+hasta crear la poderosa rama de las ecuaciones diferenciales, de innumerables
+
+aplicaciones. Esta nueva arma permitió a los científicos presentar detalladas
+
+teorías matemáticas de fenómenos que iban desde la música que produce una
+
+cuerda de violín al transporte del calor, desde el movimiento de una peonza al
+
+147 Hallará descripciones extraordinariamente accesibles sobre el cálculo y sus aplicaciones en Berlinski 1996, Kline 1967, Bell 1951. Kline 1972 es algo más técnica, pero magnífica flujo de líquidos y gases. Durante un tiempo, las ecuaciones diferenciales se
+
+convirtieron en la herramienta favorita del progreso en física.
+
+Entre los primeros que exploraron las nuevas perspectivas abiertas por las
+
+ecuaciones diferenciales se hallaban algunos miembros de la legendaria familia
+
+Bernoulli.148 Entre mediados del siglo XVII y mediados del siglo XIX, esta
+
+familia produjo nada menos que ocho matemáticos destacados. Estos
+
+talentosos individuos se hicieron tan conocidos por sus disputas familiares
+
+como por su sobresaliente habilidad para la matemática.149 Aunque los
+
+conflictos de los Bernoulli tenían siempre relación con su competencia por la
+
+supremacía en el terreno matemático, algunos de los problemas que abordaron
+
+pueden no parecer muy significativos desde un punto de vista actual. Sin
+
+embargo, con frecuencia la solución a estos intrincados enigmas allanó el
+
+camino para la consecución de logros matemáticos más destacados. En
+
+conjunto, no cabe duda que los Bernoulli tuvieron un papel fundamental en el
+
+establecimiento de la matemática como el lenguaje de los procesos físicos.
+
+Como ejemplo de la complejidad de las mentes de dos de los Bernoulli más
+
+brillantes —los hermanos Jakob (1654-1705) y Johann (1667-1748)—, valga la
+
+siguiente historia. Jakob Bernoulli fue uno de los pioneros de la teoría de las
+
+probabilidades, y volveremos a mencionarlo en este capítulo. Sin embargo, en
+
+1690, Jakob estaba ocupado desempolvando un problema que el renacentista
+
+por antonomasia —Leonardo da Vinci— había examinado hacía dos siglos:
+
+¿Qué forma adopta una cadena elástica pero inextensible suspendida de dos
+
+puntos fijos (como se muestra en la figura 31)?
+
+En sus cuadernos de notas, Leonardo había esbozado algunas cadenas como la
+
+descrita. El problema fue presentado también a Descartes por su amigo Isaac
+
+Beeckman, pero no hay constancia de que Descartes intentase nunca
+
+resolverlo. Históricamente, el problema acabó adoptando la denominación de
+
+148 Para conocer algunos de los logros de esta notable familia véase Maor 1994, Dunham 1994. Véase también la Bernoulli-Edition en la página web de la Universidad de Basilea.
+
+149 Descrito en Hellman 2006.
+
+problema de la catenaria150 (de la palabra latina catena, cadena). Galileo creyó
+
+que la forma debía de ser una parábola, pero el jesuita francés Ignatius Pardies
+
+(1636-1673) demostró que se equivocaba.
+
+Sin embargo, Pardies no daba la talla para resolver matemáticamente cuál era
+
+la forma correcta.
+
+Sólo un año después de que Jakob Bernoulli plantease el problema, su
+
+hermano Johann lo resolvió (mediante una ecuación diferencial). Leibniz y el
+
+físico matemático holandés Christiaan Huygens (1629-1695) lo resolvieron
+
+también, pero la solución de Huygens utilizaba un método geométrico más
+
+críptico. El hecho de que Johann lograse resolver un problema que había
+
+frustrado los intentos de su hermano y maestro, Jakob, seguía suponiendo una
+
+tremenda satisfacción para el joven Bernoulli hasta trece años después de la
+
+muerte de Jakob. En una carta que Johann escribió al matemático francés
+
+Pierre Rémond de Montmort (1678-1719), no podía ocultar su complacencia:
+
+Dice que mi hermano planteó este problema, y es cierto, pero
+
+150 Bukowski 2008 contiene una excelente descripción del problema y, en concreto, de la solución de Huygens. Las soluciones de Ber-noulli, Leibniz y Huygens aparecen en Truesdell 1960.
+
+¿puede acaso colegirse que disponía de una solución para él? En
+
+absoluto. Cuando planteó el problema después de que yo se lo
+
+sugiriese (ya que yo fui el primero que pensó en él), ninguno de
+
+los dos fuimos capaces de encontrar la solución y, perdida la
+
+esperanza, lo calificamos de insoluble, hasta que el Sr. Leibniz
+
+publicó en el boletín de Leipzig de 1690, p. 360, que había
+
+resuelto el problema, pero no publicó la solución para dar
+
+tiempo a otros analistas; y esto fue lo que nos animó a mi
+
+hermano y a mí a volver a él con un nuevo enfoque.151
+
+Después de atribuirse con todo descaro la propiedad incluso de la sugerencia
+
+del problema, Johann prosigue con mal disimulado deleite:
+
+Los esfuerzos de mi hermano no se vieron premiados por el
+
+éxito; yo, por mi parte, fui más afortunado, ya que hallé la
+
+habilidad (y lo digo sin presunción; ¿por qué habría de
+
+ocultarlo?) de resolverlo en su totalidad … Es cierto que su
+
+estudio me robó el sueño durante una noche entera … pero, a la
+
+mañana siguiente, lleno de júbilo, fui al encuentro de mi
+
+hermano, que seguía batallando miserablemente con este nudo
+
+gordiano sin llegar a ninguna parte, pensando como Galileo que
+
+la catenaria era una parábola. «¡Detente! ¡Detente!», exclamé,
+
+«¡deja de torturarte para intentar demostrar la identidad de la
+
+catenaria con la parábola, puesto que es falsa …» Y ahora me
+
+asombro al ver que concluye que mi hermano halló un método
+
+para resolver este problema … Y yo le pregunto, ¿cree en
+
+realidad que, si mi hermano hubiese resuelto el problema en
+
+cuestión, habría sido tan atento conmigo como para no aparecer
+
+en la lista de los que lo solucionaron, con el fin de cederme la
+
+151 Citado en Truesdell 1960.
+
+gloria de aparecer en solitario en escena como el primero que lo
+
+resolvió, junto con los Sres. Huygens y Leibniz?
+
+Por si era necesaria alguna prueba de que los matemáticos son, después de
+
+todo, humanos, he aquí esta historia. Sin embargo, esta rivalidad familiar no
+
+quita mérito alguno a los logros de los Bernoulli. Durante los años posteriores
+
+al episodio de la catenaria, Jakob, Johann y Daniel Bernoulli (1700-1782) no
+
+sólo resolvieron otros problemas similares de cuerdas que cuelgan, sino que
+
+lograron un progreso general de la teoría de ecuaciones diferenciales y
+
+resolvieron el problema del movimiento de proyectiles con un medio con
+
+resistencia.
+
+La historia de la catenaria ilustra otra faceta de la potencia de las matemáticas:
+
+incluso los problemas físicos de apariencia más trivial poseen soluciones
+
+matemáticas. A propósito, la propia forma de la catenaria sigue haciendo las
+
+delicias de los millones de visitantes del famoso Gateway Arch en Saint Louis,
+
+Missouri. El arquitecto finés-americano Eero Saarinen (1910-1961) y el
+
+ingeniero de estructuras germano-americano Hannskarl Bandel (1925-1993)
+
+diseñaron esta icónica estructura con una forma similar a la de una catenaria
+
+invertida.
+
+El increíble éxito de las ciencias físicas en el descubrimiento de las leyes
+
+matemáticas que gobiernan el cosmos en general planteó de forma inevitable
+
+la pregunta de si los procesos biológicos, sociales o económicos podían basarse
+
+en principios similares. Los matemáticos se preguntaban si la matemática era
+
+únicamente el idioma de la naturaleza, o también lo era de la naturaleza
+
+humana. Aunque no existan principios realmente universales, ¿pueden las
+
+leyes matemáticas utilizarse, como mínimo, para modelar y ofrecer
+
+explicaciones de los comportamientos sociales? Al principio, muchos
+
+matemáticos estaban convencidos de que ciertas «leyes» basadas en una u
+
+otra versión del cálculo serían capaces de predecir con precisión cualquier
+
+acontecimiento futuro, grande o nimio. Esta era la opinión, por ejemplo, del gran físico matemático Pierre-Simon de Laplace (1749-1827). Los cinco
+
+volúmenes de la Mécanique celeste de Laplace ofrecieron la primera solución
+
+prácticamente completa (si bien de un modo aproximado) de los movimientos
+
+del sistema solar. Además, Laplace dio respuesta a una pregunta que intrigó
+
+incluso al gigante Newton: ¿Por qué el sistema solar es estable en su estado
+
+actual? Newton pensó que, debido a sus atracciones mutuas, los planetas
+
+debían caer hacia el Sol o salir despedidos hacia el espacio, y atribuyó a la
+
+mano de Dios la responsabilidad de mantener intacto el sistema solar. El punto
+
+de vista de Laplace era bastante distinto. En lugar de confiar en el trabajo de
+
+Dios, se limitó a demostrar matemáticamente que el sistema solar es estable a
+
+lo largo de períodos de tiempo mucho más prolongados que los previstos por
+
+Newton. Laplace introdujo además otro formalismo matemático denominado
+
+teoría de perturbaciones que le permitió calcular el efecto acumulado de
+
+muchas perturbaciones reducidas sobre la órbita de un planeta. Como remate,
+
+Laplace propuso uno de los primeros modelos del origen del sistema solar: su
+
+influyente «hipótesis nebular», en la que el sistema solar se formaba a partir de
+
+la contracción de una nebulosa gaseosa.
+
+Tras estas impresionantes proezas, no es extraño que Laplace afirme con
+
+audacia en su Ensayo filosófico sobre las probabilidades:
+
+Todos los acontecimientos, incluso aquellos que por su
+
+pequeñez parece que escapan a las grandes leyes naturales,
+
+forman un encadenamiento tan necesario como las revoluciones
+
+del Sol. En la ignorancia de las relaciones que guardan con el
+
+sistema total del universo, se los ha supeditado a causas finales
+
+o al azar… Hay, pues, que considerar el estado actual del
+
+universo como efecto de su estado precedente y como causa del
+
+que lo sucederá. Una inteligencia que en un determinado
+
+instante pudiera conocer todas las fuerzas que impulsan la
+
+naturaleza y la respectiva posición de los seres que la componen
+
+y que, además, tuviera la suficiente amplitud para someter esos los cuales son, como mínimo, inciertos. Los investigadores sociales del siglo
+
+datos al análisis, incluiría en una sola fórmula los movimientos
+
+de los mayores cuerpos del universo y los más ínfimos átomos;
+
+nada le escaparía y tanto el pasado como el futuro estarían en su
+
+presencia. El espíritu humano brinda un atisbo de tal inteligencia
+
+que se manifiesta en la perfección la que ha sabido llevar la
+
+astronomía.152
+
+Si se están preguntando si, cuando Laplace hablaba de esta «inteligencia»
+
+suprema hipotética, se refería a Dios, la respuesta es no. A diferencia de
+
+Newton y Descartes, Laplace no era una persona religiosa. Al entregar una
+
+copia de su Mecánica celeste a Napoleón Bonaparte, éste, que había oído que
+
+en la obra no se hacía referencia a Dios, observó: «M. Laplace, me han dicho
+
+que en este inmenso libro que ha escrito sobre el sistema del universo no se
+
+menciona siquiera a su creador». Laplace repuso de inmediato: «No tuve
+
+necesidad de esa hipótesis». Napoleón, divertido, comentó esta respuesta al
+
+matemático Joseph-Louis Lagrange (1736-1813), y éste exclamó: «¡Ah! Es
+
+una bella hipótesis, que explica multitud de cosas». Pero la anécdota no acaba
+
+ahí. Al tener noticia de la reacción de Lagrange, Laplace comentó con
+
+sequedad: «Esta hipótesis, sir, lo explica en realidad todo, pero no permite
+
+predecir nada. Como estudioso, mi deber es proporcionarle obras que permitan
+
+efectuar predicciones». (El subrayado es mío)
+
+El desarrollo de la mecánica cuántica —la teoría del mundo subatómico— en el
+
+siglo XX ha demostrado que las expectativas de un universo totalmente
+
+determinista pecan de exceso de optimismo. De hecho, la física moderna ha
+
+demostrado que no es posible predecir el resultado de todos los experimentos,
+
+ni siquiera en principio. La teoría puede únicamente predecir las probabilidades
+
+de distintos resultados. En las ciencias sociales, la situación es aún más
+
+compleja debido a la multiplicidad de elementos interrelacionados, muchos de
+
+152 Laplace 1814 (Truscot y Emory 1902).
+
+XVII pronto se dieron cuenta de que su búsqueda de principios universales del
+
+tipo de la ley de gravitación de Newton estaba condenada al fracaso de
+
+entrada. Durante un tiempo parecía que, al introducir las complejidades de la
+
+naturaleza humana en la ecuación, es virtualmente imposible llegar a
+
+predicción segura alguna. La situación aún parecía más desesperada si se
+
+tomaba en cuenta el pensamiento de toda una población. Sin embargo, en
+
+lugar de desesperar, algunos astutos pensadores desarrollaron un innovador
+
+arsenal de herramientas matemáticas: la estadística y la teoría de
+
+probabilidades.
+
+Probabilidades en la muerte y en los impuestos
+
+El novelista inglés Daniel Defoe (1660-1731), célebre por su obra de aventuras
+
+Robinson Crusoe, es también el autor de una obra de temática sobrenatural
+
+titulada Historia política del diablo. Defoe, que veía por todas partes pruebas de
+
+la acción del maligno, escribió: «Cosas tan seguras como la muerte y los
+
+impuestos se pueden creer más firmemente». Benjamín Franklin (1706-1790)
+
+parece ser del mismo parecer en lo que respecta a esa seguridad. En una carta
+
+que escribió a los ochenta y tres años, dirigida al físico francés Jean Baptiste
+
+LeRoy, decía: «Nuestra Constitución ya está en funcionamiento. Todo parece
+
+indicar que será duradera, pero en este mundo nada se puede afirmar con
+
+certeza salvo la muerte y los impuestos.» En efecto, nuestras trayectorias
+
+vitales parecen seguir caminos impredecibles, somos propensos a desastres
+
+naturales, susceptibles a errores humanos y nos afecta la pura casualidad.
+
+Frases como «así es la vida» se han inventado especialmente para expresar
+
+nuestra vulnerabilidad a lo inesperado y nuestra incapacidad para controlar el
+
+azar. A pesar de estos obstáculos, o quizá debido a ellos, los matemáticos, los
+
+científicos sociales y los biólogos han intentado desde el siglo XVI enfrentarse
+
+seriamente a la incertidumbre. Tras la fundación de la mecánica estadística y la
+
+comprensión de que la base misma de la física —en forma de mecánica cuántica— se basa en la incertidumbre, los físicos del siglo XX se han unido a la
+
+batalla con entusiasmo. Los investigadores del sector del armamento utilizan,
+
+para combatir el indeterminismo, su capacidad para calcular las probabilidades
+
+de un resultado determinado, que es lo mejor que podemos esperar una vez
+
+establecido que no podemos predecir el resultado real. Las herramientas —la
+
+teoría de probabilidades y la estadística— creadas para mejorar la simple
+
+especulación constituyen no sólo los cimientos de una buena parte de la ciencia
+
+moderna, sino también de numerosas actividades sociales, de la economía a
+
+los deportes.
+
+Todos nosotros utilizamos las probabilidades y la estadística en casi todas las
+
+decisiones que tomamos, aunque sea de forma inconsciente. Por ejemplo,
+
+quizá no sepa que el número de muertes en accidentes de automóvil en 2004
+
+en Estados Unidos fue de 42.636. Sin embargo, si esa cifra fuese de,
+
+pongamos, tres millones, estoy convencido de que la conocería. Es más, es
+
+probable que esa información hubiese hecho que se lo pensase dos veces antes
+
+de entrar en su coche por la mañana. ¿Por qué precisamente estos datos sobre
+
+muertes por accidente nos ofrecen una cierta confianza para decidirnos a
+
+conducir? Como veremos enseguida, uno de los ingredientes esenciales de su
+
+Habilidad es que se basan en números muy grandes. El número de accidentes
+
+mortales en Frio Town, Texas, con una población de 49 personas en 1969, no
+
+sería tan convincente. La teoría de probabilidades y la estadística son una
+
+extraordinaria munición para las armas de los economistas, consultores
+
+políticos, genetistas, compañías de seguros y, en general, cualquiera que
+
+quiera extraer conclusiones significativas de una gran cantidad de datos.
+
+Cuando decimos que la matemática penetra incluso las disciplinas que no se
+
+hallan dentro del grupo original de las ciencias exactas, esta penetración suele
+
+ser a través de ventanas abiertas por la teoría de probabilidades y la
+
+estadística. ¿Cómo surgieron estos provechosos campos?
+
+La palabra estadística [del italiano stato (estado) y statista (persona que se
+
+encarga de asuntos del estado)] se refería en primer lugar simplemente a la recopilación de datos por parte de los funcionarios gubernamentales. El primer
+
+trabajo importante en estadística en el sentido moderno lo llevó a cabo un
+
+insólito investigador: un tendero del Londres del siglo XVII. John Graunt
+
+(1620-1674) vendía botones, agujas y telas, y lo hacía bien.153 Como su
+
+trabajo le dejaba una considerable cantidad de tiempo libre, Graunt estudió
+
+latín y francés por su cuenta y empezó a interesarse por las Listas de
+
+mortalidad (cifras semanales de los fallecimientos, parroquia por parroquia)
+
+publicadas en Londres desde 1604. El proceso de emisión de estos informes
+
+surgió principalmente con el fin de disponer de una señal de alarma rápida ante
+
+devastadoras epidemias. A partir de estas cifras en bruto, Graunt empezó a
+
+efectuar interesantes observaciones que acabó publicando en un pequeño
+
+volumen de 85 páginas al que tituló Observaciones naturales y políticas
+
+mencionadas en un índice anexo y efectuadas a partir de las listas de
+
+mortalidad.
+
+153 Hallará magníficas descripciones de la vida y obra de Graunt en Hald 1990, Cohen 2006 y Graunt 1662.
+
+En la figura 32 se muestra un ejemplo de una tabla del libro de Graunt en la que
+
+se enumeran alfabéticamente nada menos que 63 enfermedades y
+
+fallecimientos. En una dedicatoria al presidente de la Royal Society, Graunt
+
+señala que, puesto que su trabajo concierne «el aire, comarcas, estaciones,
+
+fertilidad, salud, enfermedades, longevidad y la proporción entre el sexo y las
+
+edades de la humanidad», se trata en realidad de un tratado de historia
+
+natural. Efectivamente, Graunt fue mucho más allá de la simple recopilación y
+
+presentación de datos. Por ejemplo, al examinar los promedios de bautismos y
+
+entierros de hombres y mujeres en Londres y en la parroquia rural de Romsey,
+
+en Hampshire, demostró por primera vez la estabilidad de la proporción de
+
+sexos en el nacimiento. En particular, halló que en Londres nacían 13 mujeres por cada 14 hombres y en Romsey, 15 mujeres por cada 16 hombres. Graunt,
+
+con notable capacidad de previsión, expresaba el deseo de que «los viajeros se
+
+informasen de si la situación era la misma en otros países». También indicó que
+
+«es una bendición para la humanidad que este exceso de Hombres sea un
+
+obstáculo natural para la Poligamia: pues, en tal estado, las Mujeres no podrían
+
+vivir en la paridad e igualdad de expensas con sus Esposos en que lo hacen aquí
+
+y ahora». En la actualidad, la proporción esperada entre niños y niñas en el
+
+momento del nacimiento es de aproximadamente 1,05. Tradicionalmente, la
+
+explicación de esta diferencia es que la Madre Naturaleza favorece los
+
+nacimientos masculinos debido a la mayor fragilidad de los fetos y bebés de ese
+
+sexo. A propósito, por razones que no están del todo claras, en Estados Unidos
+
+y en Japón, la proporción de bebés de sexo masculino sufre un descenso
+
+paulatino desde los años setenta.
+
+Graunt fue también pionero en la construcción de una distribución de edades o
+
+«Tabla de vida» de la población viva a partir de las cifras de muertes y sus
+
+causas, cuya trascendencia política fue considerable, ya que ofrecía datos
+
+acerca del número de «hombres capaces para el combate» —hombres entre
+
+dieciséis y cincuenta y seis años de edad— en la población. En un sentido
+
+estricto, Graunt no poseía información suficiente para deducir la distribución de
+
+edades, y en este aspecto es precisamente donde dio muestras de su ingenio y
+
+creatividad. He aquí la forma en que describe su estimación de la mortalidad
+
+infantil:
+
+Nuestra primera observación acerca de los fallecimientos debe
+
+ser que, en veinte años, de los 229.250 que han muerto de
+
+todas las enfermedades y desgracias, 71.124 han perecido a la
+
+fiebre aftosa, convulsiones, raquitismo, males de los dientes y
+
+gusanos, y como abortos, bautizados, infantes, hígado hinchado
+
+y sofocación; lo que es decir que cerca de 1/3 de todos ellos
+
+murieron de estos males, que suponemos que cayeron sobre
+
+niños de menos de cuatro o cinco años de edad. Murieron
+
+también de la viruela, fiebre porcina, sarampión y gusanos sin
+
+convulsiones 12.210, cifra de la que suponemos que 1/2 pueden
+
+ser niños de menos de seis años de edad. Si tenemos en cuenta
+
+que 16 de los mencionados 229 mil murieron de esa
+
+extraordinaria y gran desgracia, la plaga, hallaremos que
+
+alrededor del 36 por 100 de todas las concepciones murieron
+
+antes de los seis años de edad.
+
+En otras palabras, la estimación de Graunt era que la mortalidad antes de los
+
+seis años era de (71.124 + 6.105) / (229.250-16.000) = 0,36. Mediante
+
+argumentos similares y suposiciones razonables, Graunt pudo hacer una
+
+estimación de la mortalidad en edad avanzada. Finalmente, completó el
+
+espacio entre los seis y los setenta y seis años de edad mediante una hipótesis
+
+matemática acerca del comportamiento de la tasa de mortalidad con la edad.
+
+Aunque muchas de las conclusiones de Graunt no eran demasiado sólidas, su
+
+estudio sirvió para dar inicio a la ciencia de la estadística tal como la
+
+conocemos. Su observación de que los porcentajes de determinados eventos
+
+que antes se consideraban simples coincidencias (como las muertes causadas
+
+por las diversas enfermedades) mostraban en realidad una notable regularidad
+
+introdujo el pensamiento científico y cuantitativo en las ciencias sociales.
+
+Los investigadores que siguieron los pasos de Graunt adoptaron algunos
+
+aspectos de su metodología, pero desarrollaron también una mejor
+
+comprensión matemática del uso de la estadística. Puede resultar
+
+sorprendente saber que la persona que efectuó las mejoras más significativas
+
+en la «Tabla de vida» de Graunt fuese el astrónomo Edmond Halley, la misma
+
+persona que logró persuadir a Newton para que publicase sus Principia. ¿A qué
+
+se debía este interés por las tablas de vida? En parte, la razón era que éstas
+
+constituían (y aún constituyen) la información básica para los seguros de vida.
+
+Las compañías de seguros de vida (¡y, desde luego, los cazafortunas que se
+
+casan por dinero!) están interesadas en cuestiones tales como: si una persona llega a los sesenta años, ¿cuál es la probabilidad de que viva hasta los ochenta?
+
+Para construir su tabla de vida, Halley utilizó registros detallados que se
+
+conservaban en la ciudad de Breslau, Silesia, desde finales del siglo XVI. El Dr.
+
+Caspar Newmann, un párroco local de Breslau, utilizaba estas listas para luchar
+
+en su parroquia contra la superstición de que la salud se ve afectada por las
+
+fases de la Luna o por las edades que eran divisibles por siete o por nueve. El
+
+documento de Halley, cuyo extenso título era: Un cálculo de los grados de
+
+mortalidad de la humanidad, deducido de curiosas tablas de los nacimientos y
+
+fallecimientos de la ciudad de Breslau, con un intento de establecer el precio de
+
+las anualidades sobre vidas, se convirtió en la base de la matemática de los
+
+seguros de vida.154 Para hacerse una idea de la forma en que las compañías de
+
+seguros evalúan sus probabilidades, examinemos la tabla de vida de Halley en
+
+la página siguiente.
+
+154 Una reimpresión del documento se encuentra en Newman 1956.

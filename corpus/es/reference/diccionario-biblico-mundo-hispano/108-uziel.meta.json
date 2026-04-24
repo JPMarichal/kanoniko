@@ -1,0 +1,33 @@
+{
+  "title": "Uziel",
+  "author": "J. D. Douglas & Merrill C. Tenney",
+  "book": "Diccionario Biblico Mundo Hispano",
+  "chapter": 108,
+  "total_chapters": 115,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "bible-dictionary",
+    "reference-work",
+    "non-lds",
+    "evangelical"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Diccionario Biblico Mundo Hispano - J.D. Douglas, Merrill C. Tenney.epub",
+  "opf_publisher": null,
+  "opf_date": "2003-04-17T11:05:56+00:00",
+  "opf_identifier": "8c94d53d-6f9c-4eb1-bc97-74be8aeb7004",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "J. D. Douglas & Merrill C. Tenney. Diccionario Bíblico Mundo Hispano."
+}

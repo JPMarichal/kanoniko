@@ -1,0 +1,1245 @@
+Capítulo 6
+
+Geómetras: el shock del futuro
+
+En su famosa obra El shock del futuro,172 el autor Alvin Toffler (1928-) definía
+
+el término del título como «la terrible tensión y desorientación que inducimos
+
+en las personas al someterlas a un exceso de cambio en un tiempo demasiado
+
+breve». En el siglo XIX, los matemáticos, científicos y filósofos sufrieron un
+
+shock así. De hecho, la antiquísima creencia de que la matemática ofrece
+
+verdades eternas e inmutables quedó destruida. Esta inesperada convulsión
+
+intelectual fue debida a la aparición de nuevos tipos de geometrías,
+
+denominadas actualmente geometrías no euclidianas. Aunque la mayor parte
+
+de las personas que no son especialistas no han oído hablar nunca de estas
+
+geometrías, la magnitud de esta revolución se ha comparado con la que
+
+provocó la teoría de la evolución de Darwin.
+
+Para poder apreciar en toda su dimensión este drástico cambio en la visión del
+
+mundo, deberemos antes examinar el escenario histórico-matemático.
+
+Hasta principios del siglo XIX, la geometría euclidiana, esto es, la geometría
+
+tradicional que aprendemos en la escuela, se consideraba una apoteosis de
+
+verdad y certidumbre. En consecuencia, no es sorprendente que el gran
+
+filósofo judío holandés Baruch Spinoza (1632-1677) llamase Ética demostrada
+
+en orden geométrico a su intento de unificar la ciencia, la religión, la ética y la
+
+razón. Es más, a pesar de la clara distinción entre el mundo platónico ideal de
+
+las formas matemáticas y la realidad física, casi todos los científicos
+
+consideraban que los objetos de la geometría euclidiana no eran más que
+
+abstracciones destiladas de sus homólogos físicos. Incluso los empiristas más
+
+acérrimos como David Hume (1711-1776), que se empeñaban en afirmar que
+
+los propios cimientos de la ciencia eran más inseguros de lo que cualquiera
+
+pudiese sospechar, concluían que la geometría euclidiana era tan sólida como
+
+172 Tofflerl970.
+
+el Peñón de Gibraltar. En su Investigación sobre el entendimiento humano,
+
+Hume identificaba dos tipos de «verdades»:
+
+Todos los objetos de la razón o el entendimiento humano se
+
+pueden dividir por naturaleza en dos clases, a saber: Relaciones
+
+entre ideas y Hechos en sí. A la primera clase corresponden… las
+
+afirmaciones ciertas por intuición o por demostración… Las
+
+proposiciones de esta clase pueden descubrirse con el simple
+
+pensamiento, sin depender de ninguna cosa existente en el
+
+universo. Aunque no existiese en la naturaleza un círculo o un
+
+triángulo, las verdades demostradas por Euclides mantendrían
+
+siempre su certeza y evidencia. Los hechos en sí… no quedan
+
+establecidos de la misma forma, ni es nuestra evidencia de su
+
+verdad, por grande que sea, de una naturaleza comparable a la
+
+anterior. El opuesto de cada hecho en sí sigue siendo posible,
+
+porque no implica contradicción alguna… «El Sol no saldrá
+
+mañana» no es una proposición menos inteligible, ni implica
+
+más contradicción, que la afirmación de que sí saldrá. Es, por
+
+tanto, tarea vana tratar de demostrar su falsedad. (El subrayado
+
+es mío.) 173
+
+En otras palabras, aunque Hume y los empiristas sostenían que todo el
+
+conocimiento surge de la observación, la geometría y sus «verdades» seguían
+
+gozando de un estatus privilegiado.
+
+El ilustre filósofo alemán Immanuel Kant (1729-1804) no siempre estaba de
+
+acuerdo con Hume, pero también elevaba la geometría euclidiana a un estado
+
+de certeza absoluta y validez incuestionable. En su inmortal Crítica de la razón
+
+pura, Kant intentó en cierta forma dar la vuelta a la relación entre la mente y el
+
+mundo físico. En lugar de ser la realidad física la que causa impresiones en una
+
+173 Hume 1748.
+
+mente puramente pasiva, Kant asignó a esta última la función de «construir» o
+
+«procesar» el universo percibido. Kant decidió mirar hacia el interior y no
+
+preguntar qué podemos saber sino cómo podemos saber lo que sabemos.174
+
+Explicaba Kant que, aunque nuestros ojos detectan partículas de luz, éstas no
+
+forman una imagen en nuestra consciencia hasta que nuestros cerebros
+
+procesan y organizan la información. En este proceso de construcción tenía un
+
+papel preponderante la percepción del espacio intuitiva o sintética a priori del
+
+ser humano, que a su vez consideraba basada en la geometría euclidiana. Kant
+
+era de la opinión que la geometría euclidiana ofrecía la única vía para procesar
+
+y conceptualizar el espacio, y que esta relación intuitiva y universal con el
+
+espacio se hallaba en el núcleo de nuestra experiencia del mundo natural. En
+
+sus propias palabras:
+
+El espacio no es un concepto empírico extraído de experiencias
+
+externas … El espacio es una representación a priori necesaria,
+
+que constituye la misma base de todas las intuiciones externas
+
+… Sobre esta necesidad de una representación a priori del
+
+espacio reposa la certeza apodíctica de todos los principios
+
+geométricos y la posibilidad de su construcción a priori. Porque,
+
+si la intuición del espacio fuese un concepto obtenido a
+
+posterior, prestado de la experiencia externa general, los
+
+principios primeros de la definición matemática no serían más
+
+que percepciones y, como tales, estarían expuestos a todos los
+
+accidentes de la percepción, y la afirmación «entre dos puntos
+
+sólo se puede trazar una línea recta» no sería una necesidad,
+
+sino sólo algo que la experiencia dictaría en cada caso.175
+
+Para simplificar, según Kant, si percibimos un objeto, necesariamente se trata
+
+174 Según Kant, una de las tareas fundamentales de la filosofía es explicar la posibilidad de un conocimiento sintético a priori de los conceptos matemáticos. Entre las numerosas referencias, quisiera destacar Hoffe 1994 y Kuehn 2001 para los conceptos generales. Trudeau 1987 incluye un excelente comentario sobre su aplicación a la matemática. 175 Kant 1781.
+
+de un objeto espacial y euclidiano.
+
+Las ideas de Hume y Kant ponen de manifiesto dos aspectos muy distintos,
+
+pero de comparable importancia, asociados históricamente con la geometría de
+
+Euclides. El primero es la afirmación de que la geometría euclidiana representa
+
+la única descripción exacta del espacio físico. El segundo es la identificación de
+
+la geometría euclidiana con una estructura firme, robusta e infalible. En
+
+conjunto, estas dos supuestas propiedades ofrecían a los matemáticos,
+
+científicos y filósofos lo que consideraban como la evidencia más sólida de la
+
+existencia de verdades reveladoras e inexorables acerca del universo. Hasta el
+
+siglo XIX, estas afirmaciones se daban por descontadas. Pero ¿eran realmente
+
+ciertas?
+
+Las bases de la geometría euclidiana las estableció el matemático griego
+
+Euclides de Alejandría alrededor del año 300 a.C. En una monumental obra de
+
+trece volúmenes denominada Los elementos, Euclides intentó edificar la
+
+geometría sobre una base lógica bien definida. Empezó por establecer diez
+
+axiomas de certeza indiscutible y trató de demostrar un inmenso número de
+
+proposiciones a partir de esos postulados, a base únicamente de deducciones
+
+lógicas.
+
+Los primeros cuatro axiomas de Euclides eran extremadamente simples y de
+
+una exquisita concisión.176 El primer axioma, por ejemplo, decía: «Entre dos
+
+puntos se puede trazar una línea recta». El cuarto afirmaba: «Todos los
+
+ángulos rectos son iguales». En contraste, el quinto axioma, denominado
+
+«postulado de las paralelas», era de formulación más complicada y bastante
+
+menos evidente por sí mismo: «Si dos rectas de un plano intersecan una
+
+tercera de forma que la suma de los ángulos internos de un lado es menor que
+
+dos ángulos rectos, inevitablemente estas rectas se intersecarán si se
+
+prolongan lo suficiente por ese lado».
+
+176 Véase Greenberg 1974 para una introducción no demasiado compleja a la geometría euclidiana y no euclidiana.
+
+La figura 39 muestra gráficamente el contenido de este axioma. Aunque nadie
+
+dudaba de su certeza, esta afirmación carecía de la persuasiva simplicidad de
+
+los otros axiomas. Todo parece indicar que ni siquiera el propio Euclides estaba
+
+demasiado contento con su quinto postulado; las demostraciones de las
+
+primeras veintiocho proposiciones de Los elementos no hacen uso de él.177
+
+La versión equivalente del «Quinto» más citada en la actualidad apareció en
+
+primer lugar en los comentarios del matemático griego Proclo en el siglo V d.C,
+
+pero se le suele llamar «axioma de Playfair» (por el matemático escocés John
+
+Playfair [1748-1819]). Dice: «Dados una recta y un punto exterior a ella, es
+
+177 En Trudeau 1987 se trata acerca de los teoremas demostrados sin el Quinto postulado. posible trazar exactamente una recta paralela a la recta dada que pase por ese
+
+punto» (véase figura 40).
+
+Las dos versiones del axioma son «equivalentes» en el sentido de que el
+
+axioma de Playfair (junto con los demás axiomas) implica necesariamente el
+
+Quinto original de Euclides y viceversa.
+
+A lo largo de los siglos, el cada vez mayor descontento con el «Quinto» ha
+
+tenido como resultado un número creciente de intentos infructuosos de
+
+demostrarlo a partir de los otros nueve axiomas o sustituirlo por un postulado
+
+más evidente. Con el fracaso de esos intentos, otros geómetras se plantearon
+
+dar respuesta a una enigmática pregunta: ¿Y si se demostrase que el quinto
+
+axioma es, en realidad, falso? Algunos de estos empeños empezaron a plantear
+
+molestas dudas sobre si los axiomas de Euclides eran verdaderamente
+
+evidentes o estaban, en realidad, basados en la experiencia.178 El veredicto
+
+final, un tanto sorprendente, se materializó en el siglo XIX: era posible crear
+
+nuevos tipos de geometría con sólo elegir un axioma distinto del quinto de
+
+Euclides. Es más, ¡estas geometrías «no euclidianas» podrían, en principio,
+
+describir el espacio físico con la misma precisión que la geometría euclidiana!
+
+Vamos a hacer una pausa para reflexionar sobre el sentido de la palabra
+
+«elegir». Durante milenios, se había considerado que la geometría euclidiana
+
+era la única e inevitable descripción verdadera del espacio. El hecho de poder
+
+elegir los axiomas y obtener una descripción igualmente válida supuso un
+
+cambio radical de concepción. El esquema deductivo verdadero y
+
+cuidadosamente construido se convirtió de pronto en algo parecido a un juego,
+
+en el que los axiomas hacían el papel de reglas. Bastaba con cambiar los
+
+axiomas para jugar a un juego distinto. Es difícil hacerse una idea del tremendo
+
+impacto de este nuevo punto de vista en la comprensión de la naturaleza de la
+
+matemática.
+
+Una serie de matemáticos creativos prepararon el terreno para lanzar el último
+
+178 En Bonola 1955 se puede hallar una magnífica descripción de los esfuerzos que condujeron finalmente al desarrollo de la geometría no euclidiana.
+
+asalto a la geometría de Euclides. Entre ellos son especialmente dignos de
+
+mención el sacerdote jesuita Gerolamo Saccheri (1667-1733), que investigó
+
+las consecuencias de la sustitución del quinto postulado por una afirmación
+
+distinta, y los matemáticos alemanes Georg Klügel (1739-1812) y Johann
+
+Heinrich Lambert (1728-1777), que fueron los primeros en darse cuenta de la
+
+posibilidad de la existencia de geometrías alternativas a la euclidiana. Pero
+
+alguien tuvo que dar el tiro de gracia a la idea de la exclusividad de la
+
+geometría euclidiana como representación del espacio. Este honor lo
+
+compartieron tres matemáticos: uno ruso, otro húngaro y un tercero alemán.
+
+Nuevos y extraños mundos
+
+El primero en publicar un tratado completo sobre un nuevo tipo de geometría
+
+—que se podía construir en una superficie con forma de silla de montar (figura
+
+41a)— fue el ruso Nikolai Ivanovich Lobachevski (1792-1856; figura 42).179
+
+En este tipo de geometría (que en la actualidad se denomina geometría
+
+hiperbólica), el quinto postulado de Euclides queda sustituido por la afirmación
+
+de que, dada una línea en un plano y un punto exterior a esta línea, existen al
+
+menos dos líneas que pasan por el punto y son paralelas a la línea dada. Otra
+
+diferencia crucial entre la geometría de Lobachevski y la de Euclides es que,
+
+179 La traducción inglesa de George Bruce Halsted 1891 de Estudios geométricos sobre la teoría del paralelismo de Lobachevsky se incluye en Bono-la 1955.
+
+mientras en la de este último, los ángulos de un triángulo siempre sumaban
+
+180 grados (figura 41 b), en la del primero la suma es siempre inferior a 180
+
+grados. La aparición de la obra de Lobachevski en el oscuro Mensajero de
+
+Kazan pasó casi por completo desapercibida hasta la aparición de sus
+
+traducciones en francés y alemán a finales de los años 1830.
+
+El joven matemático húngaro Janos Bolyai (1802-1860),180 desconocedor de
+
+la obra de Lobachevski, formuló una geometría similar durante la década de
+
+Farkas Bolyai; figura 43): «Lo que hallé fue tan magnífico que me dejó
+
+estupefacto … He creado un mundo distinto de la nada».
+
+180 Véase Gray 2004 para una biografía y una descripción de su obra. El motivo por el que no he incluido un retrato de Janos Bolyai es que la autenticidad del retrato que se suele presentar es dudosa. Al parecer, el único retrato fiable es un relieve en la fachada del Palacio de Cultura de Marosvásárhely.
+
+En 1825, Janos estuvo listo para presentar al padre Bolyai el primer borrador
+
+de su nueva geometría. El título del manuscrito era La ciencia del espacio
+
+absoluto.181 A pesar de la euforia del joven, su padre no quedó totalmente
+
+convencido de la solidez de las ideas déjanos. Sin embargo, decidió publicar la
+
+nueva geometría como apéndice de su tratado de dos volúmenes sobre los
+
+fundamentos de la geometría, el álgebra y el análisis (cuyo supuestamente
+
+atractivo título era Ensayo sobre elementos de matemática para jóvenes
+
+estudiosos).
+
+En junio de 1831, Farkas envió una copia del libro a su amigo Cari Friedrich
+
+Gauss (figura 44), que no sólo era el matemático más importante de su época,
+
+sino que está considerado por muchos como uno de los tres más grandes de la
+
+historia. Por desgracia, el libro se extravió en el caos provocado por una
+
+epidemia de cólera y Farkas tuvo que enviar una segunda copia.
+
+181 Gray 2004 incluye un facsímil del original (en latín) y la traducción al inglés de George Bruce Halsted.
+
+Gauss envió una respuesta el 6 de marzo de 1832, y sus comentarios no eran
+
+exactamente los que el joven Janos esperaba:
+
+Si empezase por decir que no puedo elogiar este trabajo, quizá
+
+eso te sorprendiese momentáneamente. Pero no puedo decir
+
+otra cosa, porque elogiarlo supondría elogiarme a mí mismo. El
+
+contenido de la obra, el camino que ha tomado tu hijo, los
+
+resultados a los que ha llegado, coinciden de modo casi literal
+
+con las meditaciones que han ocupado mi mente durante los
+
+últimos treinta o treinta y cinco años. De modo que me he
+
+quedado anonadado. En lo que respecta a mi propio trabajo, que
+
+hasta ahora apenas he publicado en papel, mi intención era no
+
+permitir que se publicase mientras viviese.
+
+Déjenme comentar entre paréntesis que, al parecer, Gauss temía que los
+
+filósofos kantianos, a los que Gauss llamaba «los boecios» (sinónimo de estúpidos en la antigua Grecia), considerasen esta geometría radicalmente
+
+nueva como una herejía filosófica. Gauss proseguía así:
+
+Por otra parte, tenía pensado dejar escrito todo esto más
+
+adelante para que, como mínimo, no pereciese conmigo. Así, es
+
+para mí una agradable sorpresa poder ahorrarme la molestia, y
+
+me complace sobremanera que sea el hijo de mi viejo amigo
+
+quien se adelante a mí de este modo tan notable.
+
+Mientras que Farkas quedó gratamente satisfecho por los elogios de Gauss,
+
+que le parecieron «espléndidos», para Janos supusieron un golpe devastador.
+
+Durante casi una década se negó a creer en la afirmación de Gauss sobre su
+
+supuesta «meditación previa» acerca de esta geometría, y la relación con su
+
+padre (de quien sospechaba que había comunicado con anterioridad sus
+
+resultados a Gauss) quedó gravemente afectada. Cuando finalmente se dio
+
+cuenta de que Gauss había empezado a trabajar en el problema nada menos
+
+que en 1799, el carácter de Janos se amargó, y su obra matemática posterior
+
+(a su muerte dejó unas veinte mil páginas manuscritas) quedó deslucida en
+
+comparación.
+
+Sin embargo, apenas cabe duda de que Gauss había reflexionado en
+
+profundidad sobre la geometría no euclidiana.182 En una anotación de su
+
+diario, en septiembre de 1799, escribía: In principiis geometriae egregios
+
+progressus fecimus («Logramos avances maravillosos en los principios de la
+
+geometría»). Más adelante, en 1813, señalaba: «En la teoría de las líneas
+
+paralelas no estamos más allá de donde estaba Euclides. Esta es la partie
+
+honteuse (parte bochornosa) de la matemática, que antes o después tendrá
+
+que adquirir una forma muy distinta». Años después, en una carta fechada el
+
+28 de abril de 1817, afirmaba: «Cada vez estoy más convencido de que no es
+
+posible demostrar la necesidad de nuestra geometría [euclidiana]».
+
+182 Véase Dunnington 1955 para una excelente descripción del episodio desde la perspectiva de la vida y obra de Gauss. Véase Kline 1972 para un resumen detallado de las manifestaciones de prioridad por parte de Lobachevsky y Bolyai. En Ewald 1996 se presenta parte de la correspondencia de Gauss acerca de la geometría no euclidiana.
+
+Finalmente, y de forma opuesta a las tesis de Kant, Gauss llegó a la conclusión
+
+de que la geometría euclidiana no podía considerarse una verdad universal,
+
+sino más bien que «habría que considerar la geometría [euclidiana], no como la
+
+aritmética, que es válida a priori, sino aproximadamente como la mecánica».
+
+Conclusiones similares fueron alcanzadas de forma independiente por
+
+Ferdinand Schweikart (1780-1859), profesor de jurisprudencia, que hizo llegar
+
+noticia de su trabajo a Gauss entre 1818 y 1819. No obstante, puesto que ni
+
+Gauss ni Schweikart publicaron sus resultados, el mérito de primera
+
+publicación se suele atribuir a Lobachevski y Bolyai, aunque éstos no puedan
+
+considerarse como los únicos «creadores» de la geometría no euclidiana.
+
+La geometría hiperbólica irrumpió como un relámpago en el mundo de la
+
+matemática y asestó un tremendo golpe a la percepción de la geometría
+
+euclidiana como la única e infalible descripción del espacio. Antes de los
+
+trabajos de Gauss, Lobachevski y Bolyai, la geometría euclidiana era, a todos
+
+los efectos, el mundo natural. El hecho de que fuese posible seleccionar un
+
+conjunto de axiomas distinto y construir un nuevo tipo de geometría hizo surgir
+
+por primera vez la sospecha de que, después de todo, la matemática era una
+
+invención humana, en lugar de un descubrimiento de realidades que existían
+
+fuera del cerebro de las personas. Al mismo tiempo, el derrumbamiento de la
+
+conexión inmediata entre la geometría euclidiana y el espacio físico real puso
+
+de manifiesto lo que, al parecer, eran deficiencias fundamentales en la idea de
+
+que la matemática era el lenguaje del universo.
+
+El estatus privilegiado de la geometría euclidiana aún empeoró más cuando
+
+uno de los alumnos de Gauss, Bernhard Riemann (1826-1866), demostró que
+
+la geometría hiperbólica no era la única geometría no euclidiana posible. El 10
+
+de junio de 1854, Riemann dio en Göttingen una espléndida conferencia183 (en
+
+la figura 45 se muestra la primera página de su versión editada) en la que
+
+presentaba sus puntos de vista: «Acerca de las hipótesis fundamentales de la
+
+183 Una traducción inglesa de la conferencia, así como otros documentos fundamentales sobre geometrías no euclidianas con esclarece-doras notas, se pueden hallar en Pesic 2007.
+
+geometría».
+
+En ella empezaba diciendo: «La geometría da por supuesto el concepto de
+
+espacio y los principios básicos para construir en él. Sólo ofrece definiciones
+
+nominales de estos elementos, y sus especificaciones esenciales aparecen en
+
+forma de axiomas». Sin embargo, señalaba: «La relación entre estas
+
+suposiciones es borrosa; no es posible ver si existe alguna conexión necesaria
+
+entre ellos y, en caso afirmativo, hasta qué punto, ni saber a priori si es
+
+siquiera posible que exista una conexión entre ellas». Entre las posibles
+
+construcciones geométricas, Riemann comentó la geometría elíptica, como la
+
+que podría darse sobre la superficie de una esfera (figura 41c). Cabe destacar
+
+que, en esa geometría, la distancia más corta entre dos puntos no es una línea
+
+recta, sino un segmento de un círculo máximo cuyo centro coincide con el
+
+centro de la esfera. Las líneas aéreas sacan provecho de esta característica: los
+
+vuelos entre Europa y Estados Unidos no siguen una trayectoria que aparecería como una recta en un mapa, sino que siguen un círculo máximo orientado hacia
+
+el norte. Es fácil comprobar que cualquier pareja de círculos máximos se cortan
+
+en dos puntos opuestos. Por ejemplo, dos meridianos de la Tierra, que parecen
+
+paralelos en el Ecuador, se cortan en los dos polos. En consecuencia, a
+
+diferencia de lo que ocurre en la geometría euclidiana, en la que sólo pasa una
+
+paralela por un punto externo a una línea, y de la hiperbólica, en la que hay al
+
+menos dos paralelas, en la geometría elíptica sobre una esfera no hay paralelas
+
+en absoluto. Riemann llevó los conceptos no euclidianos un paso más allá y
+
+planteó geometrías en espacios curvos de tres, cuatro y más dimensiones. Uno
+
+de los conceptos fundamentales que Riemann amplió fue el de curvatura, el
+
+ritmo al que se curva una superficie o una línea curvada. Por ejemplo, la
+
+superficie de una cáscara de huevo se curva con más suavidad a lo ancho que
+
+a lo largo de una curva que pase por uno de sus más estrechos extremos.
+
+Riemann dio una definición matemática precisa de curvatura en espacios de
+
+cualquier número de dimensiones, y con ello intensificó la unión entre el
+
+álgebra y la geometría iniciada por Descartes. En la obra de Riemann,
+
+ecuaciones con un número arbitrario de variables hallaron su homólogo
+
+geométrico, y los nuevos conceptos de las geometrías avanzadas quedaron
+
+asociados a las ecuaciones.
+
+No fue sólo el prestigio de la geometría euclidiana la víctima de los nuevos
+
+horizontes abiertos para la geometría en el siglo XIX. Las ideas de Kant acerca
+
+del espacio no tardaron mucho en seguir los mismos pasos. Recordemos que
+
+Kant afirmaba que la información de nuestros sentidos se organiza
+
+exclusivamente según modelos euclidianos antes de quedar registrada en
+
+nuestro consciente. Los geómetras del siglo XIX desarrollaron rápidamente su
+
+intuición en las geometrías no euclidianas y aprendieron a percibir el mundo a
+
+través de ellas. La percepción euclidiana del espacio resultó ser, después de
+
+todo, aprendida, no intuitiva. A la vista de estos espectaculares
+
+acontecimientos, el gran matemático francés Henri Poincaré (1854-1912) llegó
+
+a la conclusión de que los axiomas de la geometría «no son intuiciones sintéticas a priori ni datos experimentales. Se trata de convenciones. Nuestra
+
+elección entre todas las posibles convenciones, aunque guiada por los hechos
+
+experimentales, es libre». En otras palabras, Poincaré consideraba los axiomas
+
+como simples «definiciones disfrazadas». (El subrayado es mío)
+
+El punto de vista de Poincaré no acusaba únicamente la influencia de las
+
+geometrías no euclidianas que hemos descrito,184 sino también la proliferación
+
+de otras nuevas geometrías, que a finales del siglo XIX parecía casi fuera de
+
+control. Por ejemplo, en geometría proyectiva(como la que se obtiene al
+
+proyectar en una pantalla una imagen sobre una película de celuloide) se podía
+
+literalmente intercambiar el papel de los «puntos» y las «líneas», de modo que
+
+los teoremas sobre puntos y líneas (por este orden) se convertían en teoremas
+
+sobre líneas y puntos. En geometría diferencial, los matemáticos empleaban el
+
+cálculo para estudiar las propiedades geométricas locales de diversos espacios
+
+matemáticos, como la superficie de una esfera o la de un toro. A primera vista,
+
+estas y otras geometrías tenían el aspecto de ingeniosas invenciones de
+
+imaginativas mentes matemáticas, más que de descripciones precisas del
+
+espacio físico. ¿Acaso era posible seguir defendiendo el concepto de Dios como
+
+matemático? Después de todo, si «el propio Dios geometriza» (una frase
+
+atribuida a Platón por el historiador Plutarco), ¿cuál de estas geometrías posee
+
+la preferencia divina?
+
+El reconocimiento cada vez más patente de las carencias de la geometría
+
+euclidiana clásica forzó a los matemáticos a examinar con rigor los propios
+
+fundamentos de la matemática en general, y en particular la relación entre
+
+matemática y lógica. Volveremos sobre este importante tema en el capítulo 7.
+
+Aquí mencionaré simplemente que la propia noción de la evidencia de los
+
+axiomas por sí mismos había quedado destruida. En consecuencia, aunque el
+
+siglo XIX fue testigo de otros importantes desarrollos en álgebra y en análisis,
+
+probablemente es la revolución de la geometría la que supuso la mayor
+
+184 Poincaré 1891.
+
+influencia en la visión de la naturaleza de la matemática.
+
+Del espacio, los números y los humanos
+
+Sin embargo, antes de que los matemáticos pudiesen examinar el tema
+
+fundamental de las bases de la matemática, tuvieron que dedicar su atención a
+
+algunas cuestiones «menores». En primer lugar, el hecho de que se hubiesen
+
+formulado y publicado geometrías no euclidianas no implicaba necesariamente
+
+que se tratase de derivaciones legítimas de la matemática. Por ejemplo, el
+
+miedo a la incoherencia —la posibilidad de que, al llevar estas geometrías a sus
+
+últimas consecuencias lógicas se generasen contradicciones irresolubles—
+
+estaba presente de forma permanente. En la década de 1870, el italiano
+
+Eugenio Beltrami (1835-1900) y el alemán Felix Klein (1849-1925) habían
+
+demostrado que, dado que la geometría euclidiana era coherente, también lo
+
+eran las no euclidianas. Esto, no obstante, seguía dejando abierta la cuestión
+
+de la solidez de las bases de la geometría euclidiana. Y luego estaba el
+
+importante asunto de la relevancia. La mayoría de los matemáticos se tomaban
+
+las nuevas geometrías, en el mejor de los casos, como entretenidas
+
+curiosidades. Mientras que el peso histórico de la geometría euclidiana
+
+derivaba sobre todo de su consideración como descripción del espacio real, las
+
+geometrías no euclidianas no parecían, en principio, tener conexión alguna con
+
+la realidad física. Así, muchos matemáticos trataban estas nuevas geometrías
+
+como a los parientes pobres de la geometría de Euclides. Incluso Henri
+
+Poincaré, que era más complaciente que la mayoría, insistía en que, aunque los
+
+humanos nos viésemos transportados a un mundo en el que la geometría
+
+aceptada fuese no euclidiana, estaba «convencido de que no sería más práctico
+
+para nosotros cambiar» [de la geometría euclidiana a la no euclidiana]. Dos
+
+cuestiones dominaban, pues, el panorama:
+
+i. ¿Podía la geometría (en particular) y otras ramas de la matemática (en
+
+general) establecerse sobre cimientos axiomáticos sólidos?
+
+ii. ¿Cuál era la relación, si es que la había, entre la matemática y el mundo
+
+físico?
+
+Algunos matemáticos adoptaron una postura pragmática con respecto a la
+
+validación de las bases de la geometría. Decepcionados tras comprender que
+
+aquello que consideraban verdades absolutas habían resultado estar basadas
+
+más en la experiencia que en el rigor, fijaron su atención en la aritmética, la
+
+matemática de los números. La geometría analítica de Descartes, en la que los
+
+puntos del plano se identificaban con pares ordenados de números; los
+
+círculos, con pares que satisfacían una determinada ecuación (véase el capítulo
+
+4), etcétera, ofrecía las herramientas precisas para volver a edificar los
+
+fundamentos de la geometría sobre la base de los números. Posiblemente el
+
+matemático alemán Jacob Jacobi (1804-1851) pretendía expresar este cambio
+
+de paradigma cuando sustituyó la frase de Platón «el propio Dios geometriza»
+
+por su lema: «El propio Dios aritmetiza». Pero en cierto sentido, estos
+
+esfuerzos se limitaban a trasladar el problema a una rama distinta de la
+
+matemática. Aunque el gran matemático alemán David Hilbert (1862-1943) sí
+
+fue capaz de demostrar que la geometría euclidiana era coherente siempre que
+
+lo fuese la aritmética, la coherencia de esta última no estaba de ningún modo
+
+establecida sin ambigüedad en aquellos momentos.
+
+En el campo de las relaciones entre la matemática y el mundo físico había
+
+hecho su aparición un nuevo aspecto sensacional. Durante muchos siglos, la
+
+interpretación de la matemática como una forma de ver el cosmos se había
+
+ampliado de forma continua y espectacular. La matematización de las ciencias
+
+por parte de Galileo, Descartes, Newton, los Bernoulli, Pascal, Lagrange,
+
+Quetelet y otros se consideraba una prueba sólida del diseño matemático
+
+subyacente de la naturaleza. Claramente, se podía argumentar que, si la
+
+matemática no era el lenguaje del cosmos, ¿por qué funcionaba tan bien para
+
+explicarlo, desde las leyes básicas de la naturaleza a las características
+
+humanas?
+
+Es cierto que los matemáticos se daban cuenta de que la matemática trataba sólo con formas platónicas más bien abstractas, pero estas formas se
+
+consideraban como idealizaciones razonables de los objetos físicos reales. De
+
+hecho, la sensación de que el libro de la naturaleza estaba escrito en el
+
+lenguaje de la matemática estaba tan arraigada que muchos matemáticos
+
+rechazaban de plano la posibilidad de que los conceptos y las estructuras
+
+matemáticas no estuviesen directamente relacionadas con el mundo físico. Era
+
+el caso, por ejemplo, del pintoresco Gerolamo Cardano (1501-1576). Cardano
+
+era un matemático de talento, un médico de renombre y un jugador
+
+compulsivo. En 1545 publicó uno de los libros más influyentes de la historia del
+
+álgebra: el Ars Magna. En este exhaustivo tratado, Cardano investigaba en
+
+gran detalle las soluciones de las ecuaciones algebraicas, desde la simple
+
+ecuación cuadrática (en la que la incógnita aparece elevada al cuadrado, x2)
+
+hasta innovadoras soluciones de las ecuaciones cúbicas (con la incógnita
+
+elevada al cubo, x3) y cuál ticas (elevada a la cuarta potencia, X4). Sin
+
+embargo, en la matemática clásica, las cantidades se solían interpretar como
+
+elementos geométricos. Por ejemplo, el valor de la incógnita x se identificaba
+
+con un segmento de recta de esa misma longitud, la segunda potencia, x2, era
+
+un área y la tercera, x3, era un sólido con el volumen correspondiente. Así, en
+
+el primer capítulo del Ars Magna, Cardano explica:185
+
+Finalizamos nuestra detallada consideración con la cúbica,
+
+mencionando otras de paso, aunque sea de modo general.
+
+Porque, así como positio [la primera potencia] se refiere a una
+
+línea, quadra-tum [el cuadrado] a una superficie y cubum [el
+
+cubo] a un cuerpo sólido, sería insensato por nuestra parte ir
+
+más allá. La naturaleza no lo permite. Entonces, como se verá,
+
+todas las cuestiones hasta el cúbico incluso están perfectamente
+
+demostradas, pero en el caso de las otras que añadiremos, sea
+
+por necesidad o por curiosidad, nos limitaremos simplemente a
+
+185 Cardano 1545.
+
+formularlas.
+
+En otras palabras, Cardano razona que, puesto que nuestros sentidos perciben
+
+el mundo físico sólo con tres dimensiones, sería una tontería que los
+
+matemáticos se preocupasen por un número superior de dimensiones o con
+
+ecuaciones de un grado mayor.
+
+El matemático inglés John Wallis (1616-1703), de cuya obra Arithmetica
+
+Infinitorum aprendió Newton métodos de análisis, expresaba una opinión
+
+similar. En otro importante libro, Tratado de álgebra,186 Wallis declaraba: «La
+
+Naturaleza, en propiedad del lenguaje, no admite más de tres dimensiones
+
+(locales)». Y a continuación entraba en detalles:
+
+Una línea trazada sobre una línea hará un Plano o Superficie;
+
+ésta, trazada en una línea, hará un sólido. Pero, si este sólido se
+
+pudiese trazar sobre una línea, o este plano sobre un plano,
+
+¿qué generaría? ¿Un planiplano? Eso es un monstruo de la
+
+Naturaleza, y no más posible que una Quimera [un monstruo de
+
+la mitología griega que exhalaba fuego, mezcla de serpiente,
+
+león y cabra] o un Centauro [otro ser mitológico griego con el
+
+torso de un hombre y el cuerpo y patas de un caballo]. Porque la
+
+Longitud, la Anchura y el Grosor ocupan ya todo el espacio, y
+
+nuestra Fantasía no es capaz de imaginar cómo podría existir
+
+una Cuarta Dimensión Local más allá de estas Tres.
+
+De nuevo, la lógica de Wallis era perfectamente clara: no tenía sentido siquiera
+
+imaginar una geometría que no describiese el espacio real.
+
+Las opiniones, sin embargo, empezaron a cambiar.187 Los matemáticos del
+
+siglo XVIII fueron los primeros en considerar el tiempo como una posible cuarta
+
+186 Wallis 1685. Véase Rouse Ball 1908 para un conciso resumen sobre la vida y obra de Wallis. 187 Véase Cajori 1926 para un breve resumen de la historia.
+
+dimensión. En un artículo titulado «Dimensión»,188 publicado en 1754, el físico
+
+Jean D'Alembert (1717-1783) escribía:
+
+Decía antes que es imposible concebir más de tres dimensiones.
+
+Un hombre de diversos talentos, conocido mío, sostiene que la
+
+duración se puede contemplar como una cuarta dimensión, y
+
+que el producto del tiempo y la solidez es, en cierto modo, un
+
+producto de cuatro dimensiones. Es posible estar en desacuerdo
+
+con esta idea, pero a mí me parece que su mérito va más allá de
+
+la simple novedad.
+
+El gran matemático Joseph Lagrange iba un paso más allá; en 1797
+
+afirmaba:189
+
+Puesto que una posición en el espacio depende de tres
+
+coordenadas rectangulares, en los problemas de mecánica estas
+
+coordenadas se conciben como funciones de t [tiempo]. Así,
+
+podemos contemplar la mecánica como una geometría de
+
+cuatro dimensiones, y el análisis mecánico como una extensión
+
+del análisis geométrico.
+
+Estas audaces ideas abrieron la puerta a una extensión de la matemática que,
+
+hasta ese momento, se había tomado como inconcebible: geometrías de
+
+cualquier número de dimensiones, sin tener en cuenta su relación con el
+
+espacio físico.
+
+Kant podía equivocarse al creer que nuestros sentidos de la percepción espacial
+
+siguen exclusivamente patrones euclidianos, pero no cabe duda de que nuestra
+
+percepción sólo funciona de forma natural e intuitiva en tres o menos
+
+dimensiones. Podemos imaginar con relativa facilidad el aspecto de nuestro
+
+mundo tridimensional en el universo de sombras de dos dimensiones de Platón,
+
+188 Este artículo apareció en la Encyclopédie editada por Diderot. Citado en Archibald 1914. 189 Lagrange 1797.
+
+pero pasar de las tres hacia un número mayor de dimensiones requiere
+
+realmente la imaginación de un matemático.
+
+El trabajo más innovador sobre el tratamiento de la geometría
+
+n-dimensional—geometría en un número de dimensiones arbitrario— se lo
+
+debemos en parte a Hermann Gunther Grassmann (1809-1877). Grassmann,
+
+que tenía once hermanos y que fue padre de once hijos, era un maestro de
+
+escuela sin formación matemática universitaria.190 Durante su vida fue más
+
+reconocido por su trabajo en lingüística (en particular por sus estudios sobre el
+
+sánscrito y el gótico) que por sus logros matemáticos. Uno de sus biógrafos
+
+escribió: «Al parecer, es el destino de Grassmann que lo redescubran de vez en
+
+cuando, y cada vez es como si hubiese sido prácticamente olvidado desde su
+
+muerte». Y sin embargo, Grassmann fue responsable de la creación de una
+
+ciencia abstracta de «espacios», en la cual la geometría habitual no era más
+
+que un caso especial. Grassmann publicó sus pioneras ideas (que dieron origen
+
+a una rama de la matemática denominada álgebra lineal) en 1844, en un libro
+
+al que se suele llamar Ausdehnungsle-hre (que significa Teoría de la extensión,
+
+el título completo es: Teoría de extensión lineal: una nueva rama de la
+
+matemático).
+
+En el prólogo de su libro, Grassmann escribía: «… la geometría no puede en
+
+modo alguno verse … como una rama de la matemática; la geometría está
+
+relacionada con algo que ya existe en la naturaleza, a saber, el espacio.
+
+También me di cuenta de que debe de haber una rama de la matemática que,
+
+de un modo puramente abstracto, genere leyes similares a las de la
+
+geometría».
+
+Este punto de vista sobre la naturaleza de la matemática era radicalmente
+
+novedoso. Para Grassmann, la geometría tradicional —herencia de los antiguos
+
+griegos— trata del espacio físico, así que no se puede considerar una verdadera
+
+rama de la matemática abstracta. Según él, la matemática es un constructo
+
+190 Petsche 2006 es una excelente biografía y descripción de la obra de Grassmann (en alemán). Véase O'Connor y Robertson 2005 para un breve y excelente resumen.
+
+más bien abstracto del cerebro humano, que no tiene por qué tener aplicación
+
+alguna en el mundo real.
+
+Es fascinante seguir el hilo aparentemente trivial de las ideas de Grassmann
+
+hasta llegar a su teoría del álgebra geométrica.191 Empezó por la fórmula
+
+simple AB + BC = AC, que aparece en cualquier libro de geometría al hablar de
+
+la longitud de segmentos (véase figura 46a).
+
+Pero Grassmann notó algo interesante. Descubrió que la fórmula sigue siendo
+
+válida independientemente del orden de los puntos A, B, C, mientras no se
+
+interprete AB, BC, etc. como simples longitudes, sino que las asigne también
+
+una «dirección», de modo que BA = -AB.
+
+Por ejemplo, si C se halla entre A y B (como en la figura 46b), entonces AB = AC
+
++ CB, pero como CB = -BC, hallamos que AB = AC - BC, y volvemos a la
+
+fórmula original AB + BC = AC con sólo sumar BC en ambos lados.
+
+Esto ya era interesante de por sí, pero la extensión de Grassmann aún
+
+reservaba más sorpresas. Obsérvese que, si hablamos de álgebra y no de
+
+191 Feamly-Sander 1979, 1982 incluye descripciones relativamente accesibles (aunque algo técnicas) de su trabajo en álgebra lineal.
+
+geometría, una expresión como AB suele denotar el producto A x B. En tal caso,
+
+la sugerencia de Grassmann según la cual BA = -AB viola una de las leyes
+
+sacrosantas de la aritmética: dos cantidades multiplicadas entre sí producen el
+
+mismo resultado independientemente del orden de las cantidades. Grassmann
+
+se enfrentó de lleno a esta perturbadora posibilidad e inventó un álgebra nueva
+
+y coherente (denominada álgebra exterior) que permitía diversos procesos de
+
+multiplicación y, al mismo tiempo, podía manejar la geometría en cualquier
+
+número de dimensiones.
+
+En la década de 1860, la geometría n-dimensional se extendía como una
+
+mancha de aceite.192 No sólo estaba la conferencia fundamental de Riemann,
+
+que había establecido como área esencial de investigación los espacios de
+
+cualquier curvatura y de un número arbitrario de dimensiones, sino que otros
+
+matemáticos, como Arthur Cayley y James Sylvester en Inglaterra y Ludwig
+
+Schläfli en Suiza, ampliaban ese campo con sus propias contribuciones. Los
+
+matemáticos empezaron a sentirse liberados de las restricciones que durante
+
+siglos habían ligado la matemática únicamente a los conceptos de espacio y
+
+número. A lo largo de la historia, esas ataduras se habían tomado tan en serio
+
+que, incluso en pleno siglo XVIII, el prolífico matemático suizo Leonhard Euler
+
+(1707-1783) expresaba así su punto de vista: «En general, la matemática es la
+
+ciencia de la cantidad, o la ciencia que investiga las formas de medir la
+
+cantidad». Los vientos del cambio no empezaron a soplar hasta el siglo XIX.
+
+En primer lugar, la introducción de los espacios geométricos abstractos y la
+
+noción de infinito (tanto en geometría como en la teoría de conjuntos) habían
+
+emborronado el significado de «cantidad» y de «medida» hasta el punto de que
+
+ya no eran reconocibles. En segundo lugar, el creciente número de estudios
+
+sobre abstracciones matemáticas contribuyeron a alejar aún más esta
+
+disciplina de la realidad física y, simultáneamente, insuflaron vida y
+
+«existencia» en las propias abstracciones.
+
+192 Sommerville 1929 es un buen texto introductorio.
+
+Georg Cantor (1845-1918), el creador de la teoría de conjuntos, describía el
+
+nuevo espíritu de libertad de la matemática en la siguiente «declaración de
+
+independencia»:193 «La matemática es, en su desarrollo, completamente libre,
+
+y su único límite es la cuestión evidente por sí misma de que sus conceptos
+
+deben ser coherentes entre sí y poseer relaciones exactas, ordenadas por
+
+definiciones, con los conceptos presentados con anterioridad y ya
+
+establecidos». A lo que el algebrista Richard Dedekind (1831-1916) añadiría,
+
+seis años después:194 «Considero que el concepto de número es totalmente
+
+independiente de las nociones o intuiciones de espacio y tiempo… Los números
+
+son creaciones libres de la mente humana». Es decir, tanto Cantor como
+
+Dedekind veían la matemática como una investigación abstracta y conceptual,
+
+restringida únicamente por el requisito de coherencia, sin obligación alguna
+
+hacia el hecho de calcular ni hacia la condición de ser el lenguaje de la realidad
+
+física. Cantor lo resumía con estas palabras: «…la esencia de la matemática
+
+radica por completo en su libertad».
+
+A finales del siglo XIX, casi todos los matemáticos aceptaban la visión de
+
+Cantor y Dedekind acerca de la libertad de la matemática. El objetivo de la
+
+matemática cambió de la investigación de las verdades de la naturaleza a la
+
+construcción de estructuras abstractas —sistemas de axiomas— y la búsqueda
+
+de las consecuencias lógicas de tales axiomas. Uno podría imaginar que de este
+
+modo se liquidaba la cuestión eterna de si la matemática era descubierta o
+
+inventada. Si la matemática no era más que un juego, por muy complejo que
+
+fuese, con reglas arbitrarias inventadas, no tenía sentido creer en la realidad
+
+de los conceptos matemáticos, ¿verdad?
+
+Pues, por sorprendente que parezca, este alejamiento de la realidad física llevó
+
+a algunos matemáticos a opinar exactamente lo contrario. En lugar de concluir
+
+que la matemática era una invención humana, regresaron a la noción platónica
+
+original de la matemática como mundo de verdades independientes, cuya
+
+193 El texto aparece en Ewald 1996.
+
+194 El texto aparece en Ewald 1996.
+
+existencia era tan real como la del universo físico. Estos «neoplatónicos»
+
+calificaban los intentos de relacionar la matemática con la física como
+
+escarceos con la matemática aplicada, en oposición a la matemática pura, que
+
+se suponía indiferente a cualquier elemento físico. Así lo expresaba el
+
+matemático francés Charles Hermite (1822-1901) en una carta dirigida al
+
+matemático holandés Thomas Joannes Stieltjes (1856-1894) el 13 de mayo de
+
+1894:195
+
+Mi querido amigo, soy muy feliz al ver tu inclinación por
+
+transformarte en un naturalista para observar los fenómenos
+
+del mundo aritmético. Tu doctrina, a mi parecer, es la misma
+
+que la mía; yo creo que los números y las funciones del análisis
+
+no son productos arbitrarios de nuestra mente; creo que existen
+
+fuera de nosotros con las mismas características necesarias que
+
+los elementos de la realidad objetiva, y que nosotros los
+
+hallamos, los descubrimos y los estudiamos, del mismo modo
+
+que los físicos, los químicos y los zoólogos.
+
+El matemático inglés G. H. Hardy, que practicaba la matemática pura, era uno
+
+de los platónicos más categóricos. El 7 de septiembre de 1922, en una
+
+elocuente alocución en la Asociación Británica para el Avance de la Ciencia,
+
+declaraba:
+
+Los matemáticos han construido gran número de sistemas
+
+geométricos distintos.196 Euclidianos y no euclidianos, de dos,
+
+tres o cualquier número de dimensiones. Todos estos sistemas
+
+son igualmente válidos, y encarnan los resultados de las
+
+observaciones de la realidad de los matemáticos, una realidad
+
+mucho más intensa y rígida que la dudosa y elusiva realidad de la
+
+195 La primera carta de Stieltjes a Hermite tenía fecha de 8 de noviembre de 1882. La correspondencia entre ambos matemáticos consta de 432 cartas. Hermite 1905 contiene la correspondencia completa. Yo mismo traduje al inglés el texto que aparece aquí.
+
+196 La conferencia se encuentra en O'Connor y Robertson 2007.
+
+física … La función de un matemático es, pues, simplemente
+
+observar los hechos de su propio e intrincado sistema de realidad,
+
+ese complejo increíblemente bello de relaciones lógicas que
+
+constituye el contenido de su ciencia, como si se tratase de un
+
+explorador oteando una lejana cordillera, y registrar los
+
+resultados de sus observaciones en una serie de mapas, cada uno
+
+de los cuales es una rama de la matemática pura. (El subrayado
+
+es mío)
+
+Es evidente que, incluso con las pruebas del momento que apuntaban a una
+
+naturaleza arbitraria de la matemática, los platónicos más acérrimos no
+
+estaban dispuestos a entregar sus armas. Fueran cuales fuesen las opiniones
+
+acerca de la realidad metafísica de la matemática, había un concepto cada vez
+
+más obvio. Incluso dentro de la aparentemente ilimitada libertad de la
+
+matemática, una restricción seguía en su lugar, inmutable e inquebrantable: la
+
+de la coherencia lógica. Los matemáticos y los filósofos eran más conscientes
+
+que nunca de la imposibilidad de cortar el cordón umbilical entre la matemática
+
+y la lógica. Y de aquí surgió una nueva idea: ¿sería posible construir toda la
+
+matemática sobre una única base lógica? Y a la inversa: ¿podían utilizarse los
+
+métodos matemáticos en el estudio del razonamiento en general?

@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "luther-bible",
+    "reformation-history",
+    "protestant",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Carlos Mart\u00ednez Garc\u00eda & Leopoldo Cervantes Ortiz",
+  "source_url": null,
+  "note": "Mart\u00ednez Garc\u00eda & Cervantes Ortiz. La jornada semanal: la Biblia de Lutero."
+}

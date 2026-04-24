@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "self-help",
+    "lds-author",
+    "interpersonal"
+  ],
+  "category": "reference",
+  "author": "Stephen R. Covey",
+  "source_url": null,
+  "note": "Stephen R. Covey. How to Succeed with People, 1971."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jeremiah",
+    "faith-crisis",
+    "byu-academic",
+    "essay"
+  ],
+  "category": "books",
+  "author": "S. Kent Brown",
+  "source_url": null,
+  "note": "S. Kent Brown, BYU. Jeremiah's crisis of faith (Jeremiah 15:20) essay."
+}

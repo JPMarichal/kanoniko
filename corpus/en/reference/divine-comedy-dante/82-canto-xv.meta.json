@@ -1,0 +1,33 @@
+{
+  "title": "Canto XV",
+  "author": "Dante Alighieri",
+  "book": "Divine Comedy",
+  "chapter": 82,
+  "total_chapters": 100,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "medieval",
+    "13th-14th-century",
+    "christian-allegory",
+    "primary-source"
+  ],
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Divine Comedy - Dante Alighieri.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d0fb24e7-c54b-4453-bba8-940b5dfc24cd",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Dante Alighieri (1265-1321). Divina Commedia. Medieval Christian theological allegory."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ecumenical",
+    "social-justice",
+    "land-distribution",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Consejo Latinoamericano de Iglesias",
+  "source_url": null,
+  "note": "CLAI. La distribuci\u00f3n de la tierra (ecumenical social-justice document)."
+}

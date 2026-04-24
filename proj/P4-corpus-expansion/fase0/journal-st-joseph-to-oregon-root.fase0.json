@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-travel",
+    "overland-trail",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Riley Root",
+  "source_url": null,
+  "note": "Riley Root. Journal of Travels from St. Joseph's to Oregon, 1850."
+}

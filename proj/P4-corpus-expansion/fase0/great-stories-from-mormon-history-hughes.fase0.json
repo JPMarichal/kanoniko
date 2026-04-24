@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lds-history",
+    "anthology",
+    "stories"
+  ],
+  "category": "history",
+  "author": "Tom Hughes & Dean Hughes",
+  "source_url": null,
+  "note": "Tom & Dean Hughes. Great Stories from Mormon History."
+}

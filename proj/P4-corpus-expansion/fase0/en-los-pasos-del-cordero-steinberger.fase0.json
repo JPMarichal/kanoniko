@@ -1,0 +1,18 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "life-of-christ",
+    "devotional",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "G. Steinberger",
+  "source_url": null,
+  "note": "G. Steinberger. En los pasos del Cordero."
+}
