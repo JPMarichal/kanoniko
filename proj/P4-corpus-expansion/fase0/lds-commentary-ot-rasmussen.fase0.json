@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "old-testament",
+    "byu-academic",
+    "classic-lds-commentary"
+  ],
+  "category": "books",
+  "author": "Ellis T. Rasmussen",
+  "source_url": null,
+  "note": "Ellis T. Rasmussen (1915-2009), BYU. LDS Commentary on the Old Testament, 1993."
+}

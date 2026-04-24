@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "lehi-journey",
+    "arabian-peninsula",
+    "byu-research"
+  ],
+  "category": "books",
+  "author": "Lynn M. Hilton & Hope A. Hilton",
+  "source_url": null,
+  "note": "Lynn & Hope Hilton. In Search of Lehi's Trail (Spanish). Classic Arabian-peninsula research."
+}

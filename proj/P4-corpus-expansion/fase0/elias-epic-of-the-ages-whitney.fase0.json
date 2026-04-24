@@ -1,20 +1,19 @@
 {
-  "authority": 45,
-  "rigor": 70,
+  "authority": 40,
+  "rigor": 75,
   "importance": "importante",
   "official": false,
   "current": true,
   "context": "book-private",
   "audience": "adult",
   "tags": [
-    "poetry",
-    "epic",
-    "whitney",
-    "q12",
-    "theological-verse"
+    "apostle-authored",
+    "epic-poetry",
+    "prophecy",
+    "primary-source"
   ],
   "category": "books",
   "author": "Orson F. Whitney",
   "source_url": null,
-  "note": "Whitney (Q12 1906-1931) — his epic poem on LDS theology/history."
+  "note": "Orson F. Whitney (1855-1931), Q12. Elias: An Epic of the Ages, 1904. Book-length doctrinal poem."
 }

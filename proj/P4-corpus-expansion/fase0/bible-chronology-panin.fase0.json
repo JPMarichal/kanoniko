@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-chronology",
+    "bible-numerics",
+    "non-lds",
+    "early-20th-century"
+  ],
+  "category": "reference",
+  "author": "Ivan Panin",
+  "source_url": null,
+  "note": "Ivan Panin (1855-1942). Bible Chronology. Non-LDS; known for 'Bible numerics'."
+}

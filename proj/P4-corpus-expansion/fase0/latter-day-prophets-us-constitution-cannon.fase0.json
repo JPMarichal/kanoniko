@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "us-constitution",
+    "prophet-statements",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Donald Q. Cannon (ed.)",
+  "source_url": null,
+  "note": "Donald Q. Cannon (ed.), BYU. Latter-day Prophets and the U.S. Constitution, 1991."
+}

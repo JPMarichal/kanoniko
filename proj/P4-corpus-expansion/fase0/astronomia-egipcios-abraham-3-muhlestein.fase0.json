@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-abraham",
+    "egyptology",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Kerry Muhlestein",
+  "source_url": null,
+  "note": "Kerry Muhlestein, BYU Egyptologist. La astronom\u00eda y los egipcios: enfoque a Abraham 3."
+}

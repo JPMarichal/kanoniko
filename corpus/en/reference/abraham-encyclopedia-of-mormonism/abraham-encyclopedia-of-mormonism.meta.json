@@ -1,0 +1,32 @@
+{
+  "title": "Abraham - The Encyclopedia of Mormonism",
+  "author": "Clark E. Douglas",
+  "book": "Abraham - The Encyclopedia of Mormonism",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "abraham",
+    "encyclopedia-of-mormonism",
+    "reference-article"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Abraham - The Encyclopedia of Mormonism - Clark E. Douglas.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "1c3fdbe2-294a-4ce5-abd3-604393456a63",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Clark E. Douglas. Abraham article from Encyclopedia of Mormonism, 1992."
+}

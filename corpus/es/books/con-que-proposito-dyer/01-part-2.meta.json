@@ -1,0 +1,32 @@
+{
+  "title": "Part 2",
+  "author": "Alvin R. Dyer",
+  "book": "Con Que Propósito",
+  "chapter": 1,
+  "total_chapters": 10,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "purpose-of-life",
+    "spanish-lds"
+  ],
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Con Que Propósito - Alvin R. Dyer.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "42f80e57-b7a6-4fb8-ae90-cde4041e74ec",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Alvin R. Dyer (1903-1977), Q12. Con Qué Propósito (Spanish)."
+}

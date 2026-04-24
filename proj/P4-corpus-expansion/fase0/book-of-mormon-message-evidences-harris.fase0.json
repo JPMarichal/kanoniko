@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "apologetics",
+    "mid-20th-century"
+  ],
+  "category": "books",
+  "author": "Franklin S. Harris Jr.",
+  "source_url": null,
+  "note": "Franklin S. Harris Jr. Book of Mormon: Message and Evidences, 1953."
+}

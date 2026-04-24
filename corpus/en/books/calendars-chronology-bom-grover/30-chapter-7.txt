@@ -1,0 +1,29 @@
+Cycles Present in the Book of Mormon Calendars
+
+Metonic cycle presence in the Book of Mormon calendar
+
+For astronomy and calendar studies, the Metonic cycle is a period of almost exactly 19 years that is nearly a common multiple of the solar year and the synodic (lunar) month. The Greek astronomer Meton of Athens (fifth century BC) observed that a period of 19 years is almost exactly equal to 235 synodic months and, rounded to full days, counts 6,940 days. Although usually called the Metonic cycle after Meton, Meton probably learned of the cycle from the Babylonians, as the cycle was used earlier in the Babylonian calendar.
+
+The point where the Reign of the Judges calendar was implemented at 509 years in the Lehi Departure count is also almost exactly 26 Metonic cycles.
+
+509 lunar years x 12 lunar months per year x (1 Metonic cycle/234.997 lunar months) = 25.992 Metonic cycles, which puts the exact end of the last Metonic cycle 55 days into the first year of the Reign of the Judges. 55 is an interesting number here, because the Reign of the Kings started 55 years after the departure of the Lehites.
+
+The number of 26 Metonic cycles is also religiously significant as it is also a construct of the Nephite sacred numbers, one of which correlates with the number of solar years in the Metonic cycle: 19 + 7 = 26; 10 + 9 + 7 = 26; 13 + 13 = 26. The remainder of 55 days into the next year also reflects the Nephite sacred number system utilizing the sacred number 5: 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 = 55. Mosiah 29:44-46 indicates that the death of Mosiah2 and in the commencement of the Reign of the Judges was “making in the whole” five hundred and nine years from the time Lehi left Jerusalem, so it seems to accommodate a close but not exact alignment of the death of Mosiah2 and the commencement of the Reign of the Judges. The comparison of the 600-year passage and additional time to Christ’s death with the Reign of the Kings and Reign of the Judges calendars exactly coincides to the day, so it is clear that the implementation of the Reign of the Judges calendar occurred on a New Year’s Day as there were no intervening days added or lost.
+
+While the knowledge of the Metonic cycle was likely independently known in the New World, there may be some link to prior Old World knowledge among the Hebrews as the intercalated Jewish calendar ended up being based on the Metonic cycle of 19 years, of which 12 are common (non-leap) years of 12 months and 7 are leap years of 13 months. To determine whether a Jewish year is a leap year, one must find its position in the 19-year Metonic cycle. This position is calculated by dividing the Jewish year number by 19 and finding the remainder. (Since there is no year 0, a remainder of 0 indicates that the year is year 19 of the cycle.) For example, the Jewish year 5780 divided by 19 results in a remainder of 4, indicating that it is year 4 of the Metonic cycle. Years 3, 6, 8, 11, 14, 17, and 19 of the Metonic cycle are leap years.
+
+110 Chapter 7
+
+Long Count presence in the Book of Mormon calendar
+
+It was noted by Spackman that one reason that the calendar change occurred 9 years after the sign of Christ was because that would make a total of an even 100 years of passage from the days of Mosiah 2, as noted in 3 Nephi 2:5. Mormon also noted that it was six hundred and nine years from the time that Lehi left Jerusalem (3 Nephi 2:6). Just as in all things calendrical with the Nephites, there are multiple calendrical convergences going on. This number of years also corresponds exactly with 30 katuns.
+
+609 lunar years x 354.367056 days in a lunar year ÷ 7,200 days per katun = 29.974 katuns, which would put the end of the 30th katun 190 days into the next year, the tenth year after the sign of Christ. The number 30 is also a Nephite sacred number. The remainder of 190 days into the next year also reflects the Nephite sacred number system with 19 + 19 + 19 + 19 + 19 + 19 + 19 + 19 + 19 + 19 = 190 or 19 x 10, with both 19 and 10 being sacred numbers.
+
+Other cycles
+
+As has been discussed, there does appear to be a purposeful selection by Mormon of the �ming of the last ba�le to correspond with the Venus/solar cycle alignment, but that is on instance related to beliefs about fortunes in war as opposed to a calendar. I have checked a variety of other Mesoamerican calendar cycles against Book of Mormon dates but found no evidence of them. It actually is consistent with what one might expect as the Nephites were trying to keep their religious beliefs and the corresponding integrated religious calendar pure from competing pagan religion influence and belief, which pagan religion was completely integrated with their calendar and system of gods.
+
+Summary of an internally consistent Book of Mormon calendar
+
+The addition of the Caractors Document information shows the following information:

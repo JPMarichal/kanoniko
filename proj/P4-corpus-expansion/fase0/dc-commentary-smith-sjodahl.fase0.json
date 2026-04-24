@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "apostle-authored",
+    "classic-commentary",
+    "early-20th-century"
+  ],
+  "category": "books",
+  "author": "Hyrum M. Smith & Janne M. Sjodahl",
+  "source_url": null,
+  "note": "Hyrum M. Smith (Q12) & Janne M. Sjodahl. D&C Commentary, 1919. Classic commentary."
+}

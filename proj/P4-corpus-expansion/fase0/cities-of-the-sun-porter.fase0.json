@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "narrative-retelling",
+    "early-20th-century"
+  ],
+  "category": "books",
+  "author": "Elizabeth Cannon Porter",
+  "source_url": null,
+  "note": "Elizabeth Cannon Porter. Cities of the Sun: BoM stories."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apocrypha",
+    "byu-academic",
+    "ancient-texts"
+  ],
+  "category": "books",
+  "author": "C. Wilfred Griggs (ed.)",
+  "source_url": null,
+  "note": "C. Wilfred Griggs (ed.), BYU. Apocryphal Writings and the LDS."
+}

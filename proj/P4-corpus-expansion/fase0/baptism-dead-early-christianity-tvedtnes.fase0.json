@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "baptism-for-dead",
+    "patristic-studies",
+    "apologetics",
+    "farms"
+  ],
+  "category": "books",
+  "author": "John A. Tvedtnes",
+  "source_url": null,
+  "note": "John A. Tvedtnes. Baptism for the Dead in Early Christianity. FARMS research."
+}

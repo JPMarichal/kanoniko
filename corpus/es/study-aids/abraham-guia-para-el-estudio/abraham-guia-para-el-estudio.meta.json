@@ -1,0 +1,33 @@
+{
+  "title": "Abraham",
+  "author": "Unknown (LDS study guide)",
+  "book": "Abraham",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "study-aids",
+  "subcategory": null,
+  "tags": [
+    "abraham",
+    "pearl-of-great-price",
+    "study-guide",
+    "spanish-lds"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Abraham - Guía para el Estudio.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "8624deaf-b998-44bd-9481-0e8540f7b92e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Study guide for the Book of Abraham (Spanish)."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Section 15.",
+  "author": "Hyrum M. Smith & Janne M. Sjodahl",
+  "book": "Doctrine and Covenants Commentary",
+  "chapter": 18,
+  "total_chapters": 140,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "doctrine-and-covenants",
+    "apostle-authored",
+    "classic-commentary",
+    "early-20th-century"
+  ],
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrine and Covenants Commentary - Hyrum M Smith & Janne M Sjodahl.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "2cd5186b-240e-4e0f-a846-d61ee76fd4dd",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Hyrum M. Smith (Q12) & Janne M. Sjodahl. D&C Commentary, 1919. Classic commentary."
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Acknowledgments",
+  "author": "E. Douglas Clark",
+  "book": "Grand Design, America from Columbus to Zion",
+  "chapter": 1,
+  "total_chapters": 16,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "american-providential-history",
+    "restoration-preparation"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Grand Design, America from Columbus to Zion - E Douglas Clark.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bbc87f34-4b01-4eb2-9782-d5c65a213878",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "E. Douglas Clark. Grand Design: America from Columbus to Zion, 1992."
+}

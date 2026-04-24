@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "hugh-nibley",
+    "jaredites",
+    "ancient-near-east",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Hugh Nibley (1910-2005). Lehi in the Desert / The World of the Jaredites. Foundational Nibley work."
+}

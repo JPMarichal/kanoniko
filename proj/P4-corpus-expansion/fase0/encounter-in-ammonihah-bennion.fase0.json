@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "literary-exegesis",
+    "sister-authored"
+  ],
+  "category": "books",
+  "author": "Francine Bennion",
+  "source_url": null,
+  "note": "Francine Bennion. Encounter in Ammonihah."
+}

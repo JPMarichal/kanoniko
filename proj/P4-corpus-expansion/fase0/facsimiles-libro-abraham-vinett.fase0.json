@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-abraham",
+    "facsimiles",
+    "pearl-of-great-price",
+    "latin-american-lds"
+  ],
+  "category": "books",
+  "author": "Roberto Vinett Herqui\u00f1igo",
+  "source_url": null,
+  "note": "Roberto Vinett Herqui\u00f1igo. Los Facs\u00edmiles del Libro de Abraham figura por figura."
+}

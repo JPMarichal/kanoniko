@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "byu-academic",
+    "q-and-a"
+  ],
+  "category": "books",
+  "author": "Richard O. Cowan",
+  "source_url": null,
+  "note": "Richard O. Cowan, BYU. Answers to Your Questions About the D&C."
+}

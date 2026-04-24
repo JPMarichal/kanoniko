@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "millennium",
+    "eschatology",
+    "20th-century-lds"
+  ],
+  "category": "books",
+  "author": "W. Cleon Skousen",
+  "source_url": null,
+  "note": "W. Cleon Skousen (1913-2006). El Cuarto Milenio (Spanish)."
+}

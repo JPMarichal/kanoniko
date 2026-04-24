@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "columbus",
+    "1-nephi-13",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Arnold K. Garr",
+  "source_url": null,
+  "note": "Arnold K. Garr, BYU. Christopher Columbus: An LDS Perspective, 1992."
+}

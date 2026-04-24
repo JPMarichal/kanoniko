@@ -1,0 +1,32 @@
+{
+  "title": "Between the Testaments",
+  "author": "S. Kent Brown & Richard N. Holzapfel",
+  "book": "Between the Testaments",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "intertestamental",
+    "byu-academic",
+    "second-temple"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Between the Testaments - S Kent Brown & Richard Neitzel Holzapfel.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d6a975ea-eeec-41c5-9e61-ffae4ce666ec",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "S. Kent Brown & R. N. Holzapfel, BYU. Between the Testaments."
+}

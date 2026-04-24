@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "chronology",
+    "mesoamerican-studies"
+  ],
+  "category": "books",
+  "author": "Jerry D. Grover Jr.",
+  "source_url": null,
+  "note": "Jerry D. Grover Jr. Calendars and Chronology of the Book of Mormon."
+}

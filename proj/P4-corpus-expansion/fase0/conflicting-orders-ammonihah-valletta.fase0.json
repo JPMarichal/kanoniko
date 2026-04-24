@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "alma",
+    "amulek",
+    "ammonihah",
+    "byu-study"
+  ],
+  "category": "books",
+  "author": "Thomas R. Valletta",
+  "source_url": null,
+  "note": "Thomas R. Valletta. Conflicting Orders: Alma and Amulek in Ammonihah."
+}

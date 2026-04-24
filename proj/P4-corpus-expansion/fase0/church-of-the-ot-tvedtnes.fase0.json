@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "old-testament",
+    "apologetics",
+    "farms"
+  ],
+  "category": "books",
+  "author": "John A. Tvedtnes",
+  "source_url": null,
+  "note": "John A. Tvedtnes. Church of the Old Testament."
+}

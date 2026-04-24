@@ -1,0 +1,33 @@
+{
+  "title": "PART I",
+  "author": "Ivan Panin",
+  "book": "Bible Chronology",
+  "chapter": 3,
+  "total_chapters": 6,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "bible-chronology",
+    "bible-numerics",
+    "non-lds",
+    "early-20th-century"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Bible Chronology - Ivan Panin.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bd9dc4bc-0251-4e4e-893e-0918f2975aa6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Ivan Panin (1855-1942). Bible Chronology. Non-LDS; known for 'Bible numerics'."
+}

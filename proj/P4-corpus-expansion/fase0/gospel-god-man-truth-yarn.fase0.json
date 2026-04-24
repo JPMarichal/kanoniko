@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-philosophy",
+    "theology",
+    "mid-20th-century"
+  ],
+  "category": "books",
+  "author": "David H. Yarn Jr.",
+  "source_url": null,
+  "note": "David H. Yarn Jr., BYU philosophy. Gospel, God, Man, and Truth."
+}

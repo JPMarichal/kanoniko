@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "literary-criticism",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Richard Dilworth Rust",
+  "source_url": null,
+  "note": "Richard Dilworth Rust, BYU. Feasting on the Word: Literary Testimony of BoM, 1997."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "adam",
+    "pearl-of-great-price",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Larry E. Dahl",
+  "source_url": null,
+  "note": "Larry E. Dahl, BYU. Ad\u00e1n el hombre."
+}

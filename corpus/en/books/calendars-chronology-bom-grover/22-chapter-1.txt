@@ -1,0 +1,97 @@
+Time Cycles and Calendars
+
+The ancient measurement of time was based on the natural cycles that ancient peoples could observe. For purposes of this work on the Book of Mormon, I will only be discussing those methods of measuring time relevant to the calendars and year counts in the Book of Mormon, and those counts generally known by observation methods known to the ancients.
+
+The earth rotates on its axis and produces a cycle of time called a “day” as referenced by the sun coming up each morning. As the moon orbits the earth the reflection of sunlight off the moon that is visible on earth changes in predictable cycles (new moons and full moons) in what is called a “lunar month,” or more accurately “lunation” or “synodic month.” For purposes of this work, a “lunar month” refers to a “synodic month.” The complete orbit around the sun by the earth is called a “solar year,” and is also referred to scientifically as a “tropical year,” and is the time that the Sun takes to return to the same position in the cycle of seasons, as seen from Earth; for example, the time from vernal equinox to vernal equinox, or from summer solstice to summer solstice, consists of 365.24217 days.
+
+As the earth goes around the sun, since the earth is tilted and rotates on an axis, the sun rises at different points on the horizon over the course of a solar year. A solstice is the moment that the sun reaches its observed northern or southernmost point. In the Northern Hemisphere the summer solstice happens in June, and in the southern hemisphere, the solstice happens in December — hence why the seasons are reversed in each hemisphere. So, the winter solstice in the northern hemisphere (December 21) is the shortest day of the year while the summer solstice (June 21) is the longest day of the year.
+
+Also important for ancient astronomical observers of the sun are the equinoxes. An equinox is an event that happens twice a year. The word "equinox" comes from a Latin term meaning "equal night." That is because during an equinox, it is believed that all areas of the Earth's surface experience an equal amount of daylight and darkness — 12 hours each. In autumn, the equinox (roughly September 21) is in the northern hemisphere, and in spring, the equinox (roughly March 20) is in the southern hemisphere. So, the equinoxes are the times of the year where the part of the Earth closest to the sun is the exact equator. When everything is aligned, everywhere from the North Pole to the South Pole receives the same amount of sunlight — but only on those two equinoxes, in September and March — the exact dates of which might change up to three days, depending on year. The equinoxes are the midpoints between the solstices (or vice versa).
+
+The agricultural seasons were important anciently as they are today and are dictated by the alignment of the earth and the sun through a solar year. In our modern calendar the equinoxes and solstices are used to designate our calendrical seasons: spring, summer, autumn, and winter. They do not always correlate with a particular growing season, as different crops grow at different times of year and in different climates. However, the equinoxes and solstices each occur reliably two times every solar year and over time occur reliably at the same time. So, any solar calendar that exclusively ties events to these times (as opposed to counting days) is not required to be periodically adjusted.
+
+2 Chapter 1
+
+Figure 1 Solstices and Equinoxes
+
+Types of calendars relevant to the Book of Mormon
+
+A calendar can consist of just the measurement of one of these types of time units (i.e., days, lunations, equinoxes/solstices, or solar years). For example, it is possible to just count a sequence of days or other units and not divide them up into subunits or try to link or correlate them to other types of the cycles of nature. This would be called a continuous count calendar.
+
+Raw Day Continuous Count calendar
+
+There is a calendar that consists only of raw day counts called the Julian calendar. It was not used by the ancients and is useful for expressing a given day that can then be correlated to other calendars. The Julian calendar consists of the continuous count of days since the beginning of the Julian Period and is used primarily by astronomers and in software for easily calculating elapsed days between two events.
+
+The Julian Day Number (JDN) is the number assigned to a whole solar day in the Julian day count starting from noon Universal time, with Julian day number 0 assigned to the day starting at noon on Monday, January 1, 4713 BC, which date was chosen because it preceded any dates in recorded history. For example, the Julian day number for the day starting at 12:00 UT on January 1, 2000, was 2,451,545. Julian dates are expressed as a Julian day number with a decimal fraction added. For example, the Julian Date for 00:30:00.0 UT January 1, 2013, is 2,456,293.520 833. The Julian Period is a chronological interval of 7980 years; year 1 of the Julian Period was 4713 BC (−4712). The Julian calendar year 2020 is year 6733 of the current Julian Period. The next Julian Period begins in the year AD 3268.
+
+Continuous Day Count calendars with units consisting of groups of days
+
+Weekly Calendar
+
+The most common calendar that consists of groups of days is the weekly calendar consisting of seven days, which is called a “week.” This was present anciently in Israel, is referred to in a few places in the Book of Mormon (Mosiah 18:25, 31:12; Alma 32:11), and is present in our calendar today. While most people don’t think about it much, the weekly calendar and our yearly calendar are technically independent of each other and run concurrently in the sense that the series of repeating weeks is never adjusted to fit the yearly calendar, and the yearly calendar is not adjusted to accommodate a certain number of weeks. The weekly calendar does not a�empt to correlate with any agricultural seasons but was originally exclusively a religious calendar.
+
+Time Cycles and Calendars 3
+
+Mesoamerican Long Count Calendar
+
+The Mesoamerican Long Count calendar is another calendar which fundamentally consists of different units of continuously counted days or combinations of these day units. It consists of the following five distinct units of days:
+
+one day - kin
+
+20 days - uinal
+
+360 days - tun
+
+7,200 days - katun
+
+144,000 days – baktun
+
+The name baktun was invented by modern scholars. The numbered Long Count was no longer in use by the time the Spanish arrived in the Yucatán Peninsula, although unnumbered katuns and tuns were still in use. Although not designated as such by the Maya, a tun was sometimes utilized in a fashion comparable to a year.
+
+The Long Count calendar identifies a date by counting the number of days from a starting date that is generally calculated to be August 11, 3114 BC in the Gregorian calendar.
+
+Mesoamerican Sacred Round or Sacred Cycle
+
+The 260-day calendar is called the Sacred Round, the Ritual Calendar, or the Sacred Almanac. Each day in this cycle was named using a number from one to 13, matched with 20-day names in each month. The day names varied from society to society. Scholars have been divided about whether the 260-day cycle represents the human gestation period, some as-yet unidentified astronomical cycle, or the combination of sacred numbers of 13 (the number of levels in heaven according to Mesoamerican religions) and 20 (Mesoamericans used a base 20 counting system).
+
+Lunar Count continuous calendar
+
+A continuous lunar count calendar without grouping by year, while theoretically possible, has not been known historically.
+
+Lunar Count continuous calendar with groups of lunations (months)
+
+A continuous lunar count calendar is found among both the ancient and modern Arabs, and early civilizations. The number of lunar months that come close to matching the time period of a solar year is 12, so the period of 12 lunar months is referred to as a “lunar year.” A lunar month is the time between two successive syzygies (new moons or full moons). The precise definition varies, especially for the beginning of the month. Since Earth's orbit around the Sun is elliptical and not circular, the speed of Earth's progression around the Sun varies during the year. The same is so for the Moon's orbit around the Earth. Because of these variations in angular rate, the actual time between lunations may vary from about 29.18 to about 29.93 days. The long-term average duration is 29.530587981 days (29 days 12 hours 44 minutes 2.8016 seconds).
+
+4 Chapter 1
+
+Solar year continuous count calendars
+
+Mesoamerican Solar Round
+
+As previously discussed, the 365-day solar round, a portion of the Mesoamerican Calendar Round calendar, was also known as the Solar Round calendar. It was based on 18 named months, each 20 days long, with a five-day period to make a total of 365 days. The Maya, among others, thought the five days at the end of the year were unlucky.
+
+The oldest form of the calendar—the solar round—was likely invented by the Olmec, epi-Olmec, or Izapans about 900-700 BC, when agriculture was first established. The Sacred Round may have been developed as a subdivision of the 365-day year, as a tool specifically designed to track important dates for farming. The earliest confirmed combination of Sacred and Solar rounds (Calendar Round) is found in the Oaxaca valley at the Zapotec capital site of Monte Alban. There, Stela 12 has a date which reads 594 BC. There were at least sixty or so different Calendar Round calendars established throughout pre-Columbian Mesoamerican, and several dozen communities throughout the region still use versions of it today.
+
+Combined calendar
+
+Mesoamerican Calendar Round
+
+The Mesoamerican Calendar Round calendar is a continuous day calendar that was a complex shared calendar as it involved two calendar parts (Sacred and Solar Rounds) that worked together to make a 52-year cycle, such that each day had a unique name. As discussed earlier, the Sacred Round cycle lasted 260 days, and the Solar round was 365 days. There are multiple day counts running concurrently in the Sacred cycle calendar where the 260-day unit that repeats consists of subunits that are also repeating. There is a repeating 20-day unit that has day names, and there is a repeating 13-day subunit that repeats where the days are identified by numbers.
+
+Time Cycles and Calendars 5
+
+Figure 2 The Calendar Round calendar (Maya)
+
+(www.mesoamericanstudiesonline.blog/2019/06/02/the-maya-calendar-round/ 2019)
+
+The Solar Round of 365 days as a whole ran and repeated continuously; however, its underlying subunits did not. It was made up of eighteen months of twenty days each plus a period of five days. So, in this respect there is a portion of this complex calendar where, while the day counts run continuously, some of its subunits do not.
+
+The two parts together were used to keep chronologies and king lists, mark historical events, date legends, and define the beginning of the world. The dates were chiseled into stone stelae to mark events, painted on tomb walls, carved onto stone sarcophagi, and written into bark cloth paper books called codices.
+
+Correction and Adjustments of Calendars
+
+A continuous count calendar is a simple and practical way to count time because it does not need to adjust to other calendars. However, calendars that have utility need to match the things that are continuously and periodically done in a particular society. In our modern-day calendar, we use days of the week to determine our days off each week, we use certain days of the month as holidays, we dictate a certain number of years before a person is old enough to drink alcohol or drive a car. Anciently the initial primary use of a calendar was marking agricultural seasons. Often the growing seasons of certain crops dictated the structure of the calendar itself. Religious festivals related to agriculture were also important anciently. Agricultural seasons are based on the sun or solar year. If a solar year is solely marked by the equinoxes or solstices which can be independently determined by observation and not day counts, then it needs no adjustment to stay current with the agricultural seasons, but just consists of two points per year, and there is no need to further correlate it with non-solar calendars (weeks, months, etc.).
+
+6 Chapter 1
+
+There are no Mesoamerican calendars that are corrected (intercalated); all run continuously. In Mesoamerica various areas started their calendars at different times, and often abandoned a calendar and started a new one.

@@ -1,0 +1,33 @@
+{
+  "title": "The Book of Mormon.",
+  "author": "Franklin D. Richards & James A. Little",
+  "book": "Compendium of the Doctrines of the Gospel",
+  "chapter": 53,
+  "total_chapters": 53,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "19th-century-lds",
+    "doctrinal-compendium",
+    "primary-source"
+  ],
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Compendium of the Doctrines of the Gospel - Franklin D Richards & James A Little.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "6ccb8b12-f31f-4c44-b927-a6858f6a2ddf",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Franklin D. Richards (Q12) & James A. Little. Compendium of the Doctrines of the Gospel, 1884."
+}

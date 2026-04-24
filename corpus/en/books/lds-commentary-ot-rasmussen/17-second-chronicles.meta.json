@@ -1,0 +1,32 @@
+{
+  "title": "Second Chronicles",
+  "author": "Ellis T. Rasmussen",
+  "book": "Latter-day Saint Commentary on the Old Testament",
+  "chapter": 17,
+  "total_chapters": 42,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "old-testament",
+    "byu-academic",
+    "classic-lds-commentary"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Latter-day Saint Commentary on the Old Testament - Ellis T Rasmussen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "97df0899-4973-4af4-bfc3-ff0e5670e4f2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Ellis T. Rasmussen (1915-2009), BYU. LDS Commentary on the Old Testament, 1993."
+}

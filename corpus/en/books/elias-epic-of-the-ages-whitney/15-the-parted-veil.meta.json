@@ -1,0 +1,33 @@
+{
+  "title": "The Parted Veil",
+  "author": "Orson F. Whitney",
+  "book": "Elias, An Epic of the Ages",
+  "chapter": 15,
+  "total_chapters": 16,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "epic-poetry",
+    "prophecy",
+    "primary-source"
+  ],
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Elias, An Epic of the Ages - Orson F Whitney.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e99894d1-cc8e-460e-8224-26445a3faa0d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Orson F. Whitney (1855-1931), Q12. Elias: An Epic of the Ages, 1904. Book-length doctrinal poem."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "judaic-studies",
+    "intellect",
+    "byu-guest-lectures",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Jacob Neusner",
+  "source_url": null,
+  "note": "Jacob Neusner (1932-2016), Bard College. Glory of God Is Intelligence, BYU Richard L. Evans lectures."
+}

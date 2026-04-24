@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "sperry-symposium",
+    "1991",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Sperry Symposium (ed.)",
+  "source_url": null,
+  "note": "1991 Sperry Symposium on the Book of Mormon. Doctrines of the BoM."
+}

@@ -1,20 +1,20 @@
 {
-  "authority": 60,
-  "rigor": 75,
+  "authority": 50,
+  "rigor": 80,
   "importance": "importante",
   "official": false,
   "current": true,
   "context": "book-private",
   "audience": "adult",
   "tags": [
-    "woodruff",
+    "prophet-authored",
     "journal",
-    "autobiography",
     "faith-promoting-series",
-    "church-president"
+    "19th-century-lds",
+    "primary-source"
   ],
-  "category": "biographies",
+  "category": "books",
   "author": "Wilford Woodruff",
   "source_url": null,
-  "note": "1881/1909 — Woodruff's autobiographical journal extracts. Part of the Faith-Promoting Series of early-youth reading. authority=60 (prophetic personal record)."
+  "note": "Pres. Wilford Woodruff (1807-1898). Leaves from My Journal, FPS #3, 1882."
 }

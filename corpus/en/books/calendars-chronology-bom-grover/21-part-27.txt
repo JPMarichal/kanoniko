@@ -1,0 +1,187 @@
+Introduction
+
+Anyone that has read the entire Book of Mormon, whether believer or not, will note that the book is
+
+heavy in chronological structure, from the various prophecies fulfilled after a specific number of years,
+
+to the continuous mention of nearly every year in certain periods such as the Reign of the Judges.
+
+Those that maintain that the Book of Mormon is an actual historical text recognize that it must have
+
+taken place in a particular place and at a particular time. While there are a few different geographic
+
+models for the location of the Book of Mormon, this book is based on the premise that it took place in
+
+Mesoamerica, which also is consistent with the Mesoamerican practice of the integration of calendars
+
+directly into religious practice and ritual.
+
+Back in the 1980’s I took an anthropology class at BYU where some elements of the Book of Mormon
+
+were discussed. On the final exam, there was a true and false question as to whether the “400 year”
+
+prophecy of the Nephite destruction is equivalent to the Maya Baktun. There was also an essay
+
+question asking how you can detect the Maya “tun” calendar system in the Book of Mormon. Of course,
+
+in order to get a good grade, I had to put “true” and then proceed to include in the essay question the
+
+predetermined justification of the “tun” calendar that the professor was looking for. However, I had run
+
+the calculations myself with the Book of Mormon calendar, and it was very clear that the “tun” calendar
+
+simply did not work with the Book of Mormon calendar. I thought that one day when I was older, I
+
+might look at this issue closer and see what I could come up with.
+
+There have actually been very few scholars who have written specifically addressing the Book of
+
+Mormon calendars, most with the primary purpose of attempting to tie the Lehite departure to the Old
+
+World calendar and also tangentially to attempt to give further clarity to the birth and death dates of
+
+Christ. While the issue of the connection of Old World to Book of Mormon calendars will be discussed, a
+
+primary purpose of this work is to apply and flesh out the new calendrical information obtained from
+
+the “Caractors” Document to solve some calendrical problems that have perplexed Book of Mormon
+
+scholars in the past and show new textual correlations to some of the dates and calendars.
+
+The Caractors Document is a previously under-utilized, or simply unused, key source for Book of
+
+Mormon chronology. The Caractors Document (sometimes conflated with the Anthon transcript)
+
+consists of some 222 reformed Egyptian characters copied from the Book of Mormon plates. This
+
+document, recorded in the handwriting of Joseph Smith’s early scribe John Whitmer, and laid out in
+
+seven rows on a torn sheet, has been an enigma since the early days of the Restoration. While it may
+
+initially seem daunting, or even impossible, that one might translate those characters, several fortuitous
+
+factors make its translation possible and plausible. First, Egyptian, Hebrew, Sumerian, Mayan, and other
+
+languages that contributed to the language, number system, and calendars of the Nephites are known,
+
+providing scripts, vocabularies, numbers, and language structures that are found in reformed Egyptian.
+
+Second, we possess the contents of the Book of Mormon, which can be compared against identifiable
+
+elements on the Caractors document to discern which portion of the Book of Mormon the Caractors
+
+document corresponds to. Third, research by previous scholars identified many Egyptian numbers on
+
+the Caractors document, which assists in identifying what type of text the Caractors document
+
+represents, and where in the structure of the Book of Mormon it would be found. Fourth, leveraging the
+
+initially identifiable words and numbers on the Caractors document it is possible to identify the document as Mormon’s chronological summary of the period from the 19th regnal year of Mosiah1 to the coming of the Limhites (likely the preface to the Book of Mosiah), and also Mormon’s synopsis of the Book of Mormon Prophetic Calendar (Grover 2019). Since much of the meaning of a text is contextual, establishing this context enables the further translation of characters in the document, each of which, in turn, provides still further context interpreting and refining the meaning behind other characters in the text. In this fashion, the author was able to systematically work out the content and meaning of the Caractors document in a previous volume. Because this content, thus discerned, is greatly focused on ma�ers of chronology and calendar it is uniquely suited to assist in establishing the Nephite calendars and chronology of Book of Mormon events in the present work. Specifically, the Caractors Document provides the following new calendrical information:
+
+In addition, new information regarding Christ’s birth will be integrated into the analysis. The approach taken will be first to further establish an internally consistent Book of Mormon chronology including the relationship of multiple calendars and correlations with the text. New textual evidence of these calendars will be discussed. Although part of an earlier publication, the Nephite number system and its use of sacred numbers, specifically as it applies to patterns of year counts, will be extensively discussed.
+
+There are various proposals as to the Book of Mormon Nephite chronology. Discussed here are those who were the first to specifically espouse a position with some scholarly support. Others since then who have utilized these positions are not discussed here unless they added something new to a particular position. Primary prior work relating to the type of years utilized in the Book of Mormon and other calendar information includes:
+
+Huber
+
+Jay H. Huber wrote an article pertaining to Book of Mormon chronology (Huber 1982). The main points argued by Huber were:
+
+- The Nephites used an uncorrected 360-day calendar
+
+- The Lehi departure date was 597 BC
+
+- Christ’s birth was 4-5 BC
+
+Pratt
+
+John P. Pratt wrote an encyclopedia section and an article pertaining to Book of Mormon chronology (Pratt 1992; 2004). The main points argued by Pratt were:
+
+- Lehi’s departure date was on April 6, 601 BC
+
+- Christ’s birth date was on Wednesday, April 5, 1 BC
+
+- Christ died on Friday, April 1, AD 33 (J) (“J” means Julian date as opposed to Gregorian)
+
+- The Nephite calendar used a 365 ¼ days solar year
+
+Spackman
+
+Randall P. Spackman has published two articles and maintains an online book that is periodically
+
+updated (Spackman, 1993, 1998, 2014). Extensive in research and commentary, Spackman also deals
+
+with the grammatical construction of time references, which this work does not involve. The main points
+
+made by Spackman were:
+
+- An uncorrected lunar calendar was used by Lehi at his departure and was used until a calendar change
+
+nine years after the birth of Christ (Spackman refers to this as the Common Lunar Calendar)
+
+- After the calendar change following Christ’s birth, the Nephites used a 365-day year solar calendar
+
+(Spackman refers to this as the Civil Calendar)
+
+- The calendar change involved a 105-day adjustment
+
+- The year itself involved a possible division of two parts, the “commencement” and “latter half”
+
+- The date for Lehi’s departure of Jerusalem was shortly before January 25, 587 BC (J)(1507046 Julian
+
+date)
+
+- The date for Christ’s birth is March 23, 5 BC (J)(1719679 Julian date)
+
+- The date for Christ’s death is March 18, 29 AD (J)(1731727 Julian date)
+
+Seely/Brown
+
+David Rolph Seely wrote a joint article with S. Kent Brown in 2001 and an additional solo article in 2003
+
+(Brown and Seely 2001; Seely 2003). These articles counter Spackman in relation to the Lehi departure
+
+date and assert that it was early in Zedekiah’s reign with his first year being 597–596 BC, not later as
+
+Spackman asserts.
+
+Chadwick
+
+Jeffrey R. Chadwick has written four articles pertaining to the date of Lehi’s departure and Christ’s birth
+
+and death dates (Chadwick 2004; 2010; 2016; 2018). The main points argued by Chadwick were:
+
+- Lehi’s departure date was in November, 605 BC
+
+- Christ’s birth date was in December, 5 BC
+
+- Christ died on Thursday, April 6, AD 30 (J)(1732111 Julian date)
+
+- The Nephite calendar used a 365 ¼ days solar year
+
+Blumell/Wayment
+
+Lincoln H. Blumell and Thomas A. Wayment wrote an article primarily in response to Chadwick’s work (Wayment and Blumell 2012). The main points argued by Blumell and Wayment were:
+
+- The Nephite calendar may have utilized a lunar or solar year
+
+- Jesus was born before Herod “the Great” passed away in the spring of 4 BC and probably not any earlier than 6 BC
+
+- The preferred death date for Christ is around AD 29 or 30 and the birth date for Christ is approximately 6–5 BC
+
+Sorenson
+
+John L. Sorenson in his book An Ancient American Se�ing for the Book of Mormon (Sorenson 1985, 270-76) suggested that a southern Mesoamerican "year" of 360 days was probably in use among the Nephites with the departure of Lehi around 597 BC and the birth of Christ in 5 BC. In 1993, as a result of Spackman’s first article, he backtracked on his original position. He did however make a reference to this possibility in his 2013 book Mormon’s Codex: An Ancient American Book but indicated there was no real evidence for it (Sorenson 2013 193, 441).
+
+Rappleye
+
+Neal Rappleye, while not looking at the entire calendar system in the Book of Mormon wrote an article making a calendar proposal relating to the 5-year prophecy of Samuel the Lamanite (Rappleye 2018). Essentially, Rappleye indicates that the apparent failure of the prophecy apparently not happening within the 5-year time period as perceived by the more wicked Nephites is evidence that the Nephite calendar consisted of the Mesoamerican Long Count, the Nephites thus using the tun as the year unit, with the Lamanites using the haab year unit.
+
+Wright
+
+Mark Wright (2014) wrote an article pointing out some possible similarities of prophecy or year count lengths in the Book of Mormon with the Mesoamerican Long Count. The majority of Classic period monuments begin with a “Long Count,” which begins with a count of baktuns (400 years) and katuns (20 years). Similarly, the concluding chapter of the Book of Mormon begins with a count of “four hundred and twenty years” (Moroni 10:1). The twenty-year katun was subdivided into five-year periods called hotuns, which were often celebrated by royalty and commemorated in monumental inscriptions, mirroring Samuel the Lamanite’s five-year prophecy concerning the birth of Christ (Helaman 14:2).
+
+There have been a variety of proposals involving Jaredite chronology, but only I have proposed that the Jaredites used the Mesoamerican 260-day calendar. There will be a discussion of Jaredite chronology as taken from my prior work, The Swords of Shule.
+
+It is hoped that this work will be of interest to all students of the Book of Mormon to provide further background and in textual meaning to the events recounted in the Book of Mormon.
+
+Time Cycles and Calendars 1

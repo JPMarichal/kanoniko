@@ -1,0 +1,33 @@
+{
+  "title": "Part 6",
+  "author": "Lynn M. Hilton & Hope A. Hilton",
+  "book": "En busca de la ruta de Lehi",
+  "chapter": 4,
+  "total_chapters": 5,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "lehi-journey",
+    "arabian-peninsula",
+    "byu-research"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/En busca de la ruta de Lehi - Lynn M. & Hope A_.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-03-12T06:00:00+00:00",
+  "opf_identifier": "71d42f1a-ef62-4e6f-8b69-3ef645c32676",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lynn & Hope Hilton. In Search of Lehi's Trail (Spanish). Classic Arabian-peninsula research."
+}

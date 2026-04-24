@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "study-aid",
+    "chronology"
+  ],
+  "category": "reference",
+  "author": "Nathan Richardson",
+  "source_url": null,
+  "note": "Nathan Richardson. D&C Chronological Reading Checklist."
+}

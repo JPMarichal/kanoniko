@@ -1,0 +1,32 @@
+{
+  "title": "The Book of Mosiah",
+  "author": "Sidney B. Sperry",
+  "book": "Book of Mormon Compendium",
+  "chapter": 18,
+  "total_chapters": 34,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "byu-academic",
+    "20th-century-lds-scholarship"
+  ],
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Book of Mormon Compendium - Sidney B Sperry.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4222e4cf-fe99-4cba-b1c3-25a1cb8dc2bc",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Sidney B. Sperry (1895-1977), BYU. Book of Mormon Compendium, 1968."
+}

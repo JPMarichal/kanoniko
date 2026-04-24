@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "abraham",
+    "encyclopedia-of-mormonism",
+    "reference-article"
+  ],
+  "category": "reference",
+  "author": "Clark E. Douglas",
+  "source_url": null,
+  "note": "Clark E. Douglas. Abraham article from Encyclopedia of Mormonism, 1992."
+}

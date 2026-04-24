@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "sperry-symposium-25th",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Wright, Ostler & Hartshorn (eds.)",
+  "source_url": null,
+  "note": "Dennis A. Wright, Craig J. Ostler, Leon R. Hartshorn (eds.). D&C: A Book of Answers. 25th Sperry Symposium."
+}

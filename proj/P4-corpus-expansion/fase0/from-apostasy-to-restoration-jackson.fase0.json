@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostasy",
+    "restoration",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Kent P. Jackson",
+  "source_url": null,
+  "note": "Kent P. Jackson, BYU. From Apostasy to Restoration, 1996."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "abraham",
+    "pearl-of-great-price",
+    "study-guide",
+    "spanish-lds"
+  ],
+  "category": "study-aids",
+  "author": "Unknown (LDS study guide)",
+  "source_url": null,
+  "note": "Study guide for the Book of Abraham (Spanish)."
+}

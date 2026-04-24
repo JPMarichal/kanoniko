@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "sermons",
+    "20th-century-lds",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Heber J. Grant & G. Homer Durham (ed.)",
+  "source_url": null,
+  "note": "Pres. Heber J. Grant (1856-1945). Gospel Standards, G. Homer Durham ed., 1941."
+}

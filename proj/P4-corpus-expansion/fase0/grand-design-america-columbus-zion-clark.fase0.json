@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "american-providential-history",
+    "restoration-preparation"
+  ],
+  "category": "books",
+  "author": "E. Douglas Clark",
+  "source_url": null,
+  "note": "E. Douglas Clark. Grand Design: America from Columbus to Zion, 1992."
+}

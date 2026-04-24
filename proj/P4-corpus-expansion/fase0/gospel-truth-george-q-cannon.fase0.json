@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-authored",
+    "discourses",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "George Q. Cannon & Jerreld L. Newquist (ed.)",
+  "source_url": null,
+  "note": "Pres. George Q. Cannon (1827-1901), First Presidency. Gospel Truth, Newquist ed., 1957."
+}

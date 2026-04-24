@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "intertestamental",
+    "byu-academic",
+    "second-temple"
+  ],
+  "category": "books",
+  "author": "S. Kent Brown & Richard N. Holzapfel",
+  "source_url": null,
+  "note": "S. Kent Brown & R. N. Holzapfel, BYU. Between the Testaments."
+}

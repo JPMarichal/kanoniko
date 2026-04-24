@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Paul R. Cheesman",
+  "source_url": null,
+  "note": "Paul R. Cheesman (1921-1991), BYU religion faculty. Book of Mormon: Keystone Scripture, 1988."
+}

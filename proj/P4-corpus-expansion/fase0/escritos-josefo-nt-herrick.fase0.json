@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "josephus",
+    "nt-context",
+    "biblical-studies"
+  ],
+  "category": "reference",
+  "author": "Greg Herrick",
+  "source_url": null,
+  "note": "Greg Herrick. Los escritos de Josefo y su relaci\u00f3n con el NT (Spanish)."
+}

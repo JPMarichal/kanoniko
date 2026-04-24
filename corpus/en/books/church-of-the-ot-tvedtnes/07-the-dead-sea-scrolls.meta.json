@@ -1,0 +1,32 @@
+{
+  "title": "The Dead Sea Scrolls",
+  "author": "John A. Tvedtnes",
+  "book": "Church of the Old Testament",
+  "chapter": 7,
+  "total_chapters": 12,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "old-testament",
+    "apologetics",
+    "farms"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Church of the Old Testament - John A Tvedtnes.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0c5ee3b6-b083-4100-808a-ac0e8915855c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "John A. Tvedtnes. Church of the Old Testament."
+}

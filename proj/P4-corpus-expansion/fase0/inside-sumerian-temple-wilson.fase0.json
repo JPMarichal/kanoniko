@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ancient-near-east",
+    "sumer",
+    "temple-studies"
+  ],
+  "category": "reference",
+  "author": "E. Jan Wilson",
+  "source_url": null,
+  "note": "E. Jan Wilson. Inside a Sumerian Temple: The Ekishnugal at Ur."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "isaiah",
+    "byu-academic",
+    "prophetic-literature"
+  ],
+  "category": "books",
+  "author": "Victor L. Ludlow",
+  "source_url": null,
+  "note": "Victor L. Ludlow, BYU. Isaiah: Prophet, Seer, and Poet, 1982."
+}

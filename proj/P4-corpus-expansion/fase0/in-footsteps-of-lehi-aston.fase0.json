@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "lehi-journey",
+    "bountiful",
+    "arabian-peninsula"
+  ],
+  "category": "books",
+  "author": "Warren P. Aston & Michaela K. Aston",
+  "source_url": null,
+  "note": "Warren & Michaela Aston. In the Footsteps of Lehi: New Evidence for Lehi's Journey to Bountiful, 1994."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Health and Happiness",
+  "author": "Stephen L. Richards",
+  "book": "Church in War and Peace",
+  "chapter": 16,
+  "total_chapters": 25,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "first-presidency-authored",
+    "mid-20th-century",
+    "war",
+    "primary-source"
+  ],
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Church in War and Peace - Stephen L Richards.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "27786fdf-6ae0-4983-9729-f58b8075d92e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. Stephen L. Richards (1879-1959), First Counselor. Church in War and Peace, 1943."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-authored",
+    "mid-20th-century",
+    "war",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Stephen L. Richards",
+  "source_url": null,
+  "note": "Pres. Stephen L. Richards (1879-1959), First Counselor. Church in War and Peace, 1943."
+}

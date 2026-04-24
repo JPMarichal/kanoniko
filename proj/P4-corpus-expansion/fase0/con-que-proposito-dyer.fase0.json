@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "purpose-of-life",
+    "spanish-lds"
+  ],
+  "category": "books",
+  "author": "Alvin R. Dyer",
+  "source_url": null,
+  "note": "Elder Alvin R. Dyer (1903-1977), Q12. Con Qu\u00e9 Prop\u00f3sito (Spanish)."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "19th-century-lds",
+    "doctrinal-compendium",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Franklin D. Richards & James A. Little",
+  "source_url": null,
+  "note": "Franklin D. Richards (Q12) & James A. Little. Compendium of the Doctrines of the Gospel, 1884."
+}

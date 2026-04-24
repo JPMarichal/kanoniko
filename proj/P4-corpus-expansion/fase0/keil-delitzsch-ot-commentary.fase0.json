@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-commentary",
+    "19th-century",
+    "lutheran",
+    "non-lds",
+    "reference-work"
+  ],
+  "category": "reference",
+  "author": "Carl F. Keil & Franz Delitzsch",
+  "source_url": null,
+  "note": "Keil (1807-1888) & Delitzsch (1813-1890). K&D Commentary on OT. Classic Lutheran commentary."
+}

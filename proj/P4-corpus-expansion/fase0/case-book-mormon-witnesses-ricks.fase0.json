@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "three-witnesses",
+    "eight-witnesses",
+    "apologetics"
+  ],
+  "category": "books",
+  "author": "Eldin Ricks",
+  "source_url": null,
+  "note": "Eldin Ricks (1915-1998), BYU. Case of the Book of Mormon Witnesses."
+}
