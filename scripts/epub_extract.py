@@ -407,13 +407,15 @@ def segment_into_chapters(
     Input: list of (blocks, footnotes, meta) per XHTML spine file.
     Output: [{title, text, fn_refs, footnotes: {N: def}}] in order.
     """
-    # Use actual emitted heading blocks (not the raw parser flag) — empty
-    # <h2>page-break</h2> tags set has_heading=True but produce no block.
-    any_heading = any(
-        b["type"] == "heading" and b["level"] in (1, 2)
+    # Per-file decision: does this spine file emit any h1/h2 block with text?
+    # A file WITH a real heading delegates chapter boundary to the in-loop h1/h2
+    # handler. A file WITHOUT one uses its first_bold as a synthetic boundary —
+    # necessary for hybrid compilations where some chapters are h-titled and
+    # others only bold-titled (McConkie/Packer Selección de discursos ES).
+    file_has_real_heading = [
+        any(b["type"] == "heading" and b["level"] in (1, 2) for b in blocks)
         for blocks, _, _ in per_file
-        for b in blocks
-    )
+    ]
 
     chapters: list[dict] = []
     current_title: str | None = None
@@ -448,10 +450,11 @@ def segment_into_chapters(
         if fb and pending_first_bold is None:
             pending_first_bold = fb
 
-        if not any_heading:
-            # Fallback: synthetic heading per spine file
+        if not file_has_real_heading[file_idx - 1]:
+            # This spine file has no real heading. Treat file-start as synthetic
+            # chapter boundary, titled by first_bold (or Part N fallback).
             flush()
-            current_title = fmeta.get("first_bold") or f"Part {file_idx}"
+            current_title = fb or f"Part {file_idx}"
             current_lines = []
             current_refs = []
 
@@ -573,7 +576,14 @@ def extract_one(
                 data = zf.read(href)
             except KeyError:
                 continue
-            html = data.decode("utf-8", errors="replace")
+            # Detect encoding by BOM. Some Calibre exports are UTF-16 (Doctrina
+            # Mormona ES uses UTF-16 BE). Default stays UTF-8.
+            if data[:2] in (b"\xff\xfe", b"\xfe\xff"):
+                html = data.decode("utf-16", errors="replace")
+            elif data[:3] == b"\xef\xbb\xbf":
+                html = data.decode("utf-8-sig", errors="replace")
+            else:
+                html = data.decode("utf-8", errors="replace")
             blocks, fns, fmeta = html_to_blocks(html)
             # Signature: first 500 chars of concatenated block text, normalized.
             # Empty-content files hash to "" and don't trigger dedup.

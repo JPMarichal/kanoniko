@@ -1,0 +1,21 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "new-testament",
+    "commentary",
+    "doctrinal-exegesis",
+    "apostle-authored",
+    "bookcraft",
+    "reference"
+  ],
+  "category": "books",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "1971 Bookcraft. Volume 2 of 3 — Romans through Philemon. Same doctrinal-commentary approach as vol 1."
+}

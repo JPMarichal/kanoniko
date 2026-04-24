@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "creation",
+    "fall-atonement",
+    "apostle-authored",
+    "plan-of-salvation",
+    "bookcraft"
+  ],
+  "category": "books",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "1984 Bookcraft (or Deseret Book). Treatise on creation, fall, and atonement as McConkie's doctrinal synthesis. Q12 apostle (called October 1972) in his late ministry."
+}

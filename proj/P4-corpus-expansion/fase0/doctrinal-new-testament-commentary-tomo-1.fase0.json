@@ -1,0 +1,22 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "new-testament",
+    "commentary",
+    "doctrinal-exegesis",
+    "apostle-authored",
+    "bookcraft",
+    "reference",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "Spanish translation of Doctrinal New Testament Commentary vol. 1 (Matthew-Acts). Translation pair of doctrinal-new-testament-commentary-vol-1. Only tomo 1 is in the lot (tomos 2 and 3 not present)."
+}

@@ -1,0 +1,21 @@
+{
+  "authority": 55,
+  "rigor": 45,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "discourses",
+    "apostle-authored",
+    "spanish-translation",
+    "church-publication",
+    "anthology",
+    "mcconkie-series"
+  ],
+  "category": "discourses",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "Official Church Spanish anthology from the 'Una selección de discursos' series (covers Packer, McConkie, Benson, Hinckley, Holland, Wirthlin). Column-interleaved PDF reflow source — rigor bajada. Potential overlap with general-conference/; defer de-dup audit."
+}

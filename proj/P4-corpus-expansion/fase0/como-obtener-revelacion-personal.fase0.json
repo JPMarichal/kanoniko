@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "revelation",
+    "personal-revelation",
+    "apostle-authored",
+    "spanish-translation",
+    "booklet",
+    "discourse"
+  ],
+  "category": "books",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "Folleto español de un discurso de McConkie sobre cómo recibir revelación personal. Publicación de Centros de Distribución SUD. Complete short work, ~14 KB."
+}
