@@ -1,0 +1,17 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jesus-as-rabbi",
+    "nt-background"
+  ],
+  "category": "reference",
+  "author": "Anonymous / Unknown",
+  "source_url": null,
+  "note": "Was Jesus Really a Rabbi? (anonymous essay)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "children",
+    "stories"
+  ],
+  "category": "reference",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "source_url": null,
+  "note": "Relatos del LdM para pequeños lectores."
+}

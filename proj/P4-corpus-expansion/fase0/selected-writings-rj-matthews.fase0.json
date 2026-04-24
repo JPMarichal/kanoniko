@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "gospel-scholars-series",
+    "jst-scholar"
+  ],
+  "category": "books",
+  "author": "Robert J. Matthews",
+  "source_url": null,
+  "note": "Robert J. Matthews (JST scholar). Selected Writings."
+}

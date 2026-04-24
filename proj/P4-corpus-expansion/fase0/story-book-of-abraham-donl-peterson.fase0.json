@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-abraham",
+    "byu-religious-studies",
+    "papyri"
+  ],
+  "category": "books",
+  "author": "H. Donl Peterson",
+  "source_url": null,
+  "note": "H. Donl Peterson. The Story of the Book of Abraham."
+}

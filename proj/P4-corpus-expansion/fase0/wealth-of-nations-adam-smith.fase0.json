@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 90,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "economics",
+    "18th-century",
+    "primary-source",
+    "classical-economics"
+  ],
+  "category": "reference",
+  "author": "Adam Smith",
+  "source_url": null,
+  "note": "Adam Smith (1723-1790). An Inquiry into the Nature and Causes of the Wealth of Nations, 1776."
+}

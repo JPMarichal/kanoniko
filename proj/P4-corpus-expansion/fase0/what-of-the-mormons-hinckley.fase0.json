@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "mid-20th-century",
+    "missionary-intro"
+  ],
+  "category": "books",
+  "author": "Gordon B. Hinckley",
+  "source_url": null,
+  "note": "Pres. Gordon B. Hinckley. What of the Mormons?, 1947."
+}

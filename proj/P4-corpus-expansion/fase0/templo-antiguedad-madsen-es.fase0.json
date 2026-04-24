@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "temple",
+    "ancient-temples",
+    "byu-academic",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Truman G. Madsen (ed.)",
+  "source_url": null,
+  "note": "Truman G. Madsen. El Templo en la Antigüedad (ES translation)."
+}

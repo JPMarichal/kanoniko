@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "relationships",
+    "diversity"
+  ],
+  "category": "books",
+  "author": "Karen Lynn Davidson",
+  "source_url": null,
+  "note": "Karen Lynn Davidson. Thriving on Our Differences."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "nt-commentary",
+    "verse-by-verse"
+  ],
+  "category": "books",
+  "author": "D. Kelly Ogden & Andrew C. Skinner",
+  "source_url": null,
+  "note": "Ogden & Skinner. Verso por Verso: El NT vol. 1, Los Cuatro Evangelios (ES)."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "us-presidents",
+    "19th-century-biography"
+  ],
+  "category": "biographies",
+  "author": "Edward S. Ellis",
+  "source_url": null,
+  "note": "Edward S. Ellis. Thomas Jefferson, 1898."
+}

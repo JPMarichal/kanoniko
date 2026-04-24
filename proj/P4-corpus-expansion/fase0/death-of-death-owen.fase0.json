@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "puritan",
+    "17th-century",
+    "atonement",
+    "particular-redemption",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "John Owen",
+  "source_url": null,
+  "note": "John Owen (1616-1683). The Death of Death in the Death of Christ, 1647."
+}

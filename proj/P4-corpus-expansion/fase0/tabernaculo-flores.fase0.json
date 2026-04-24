@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "tabernacle",
+    "ot-studies",
+    "evangelical-leaning"
+  ],
+  "category": "books",
+  "author": "Juan Flores",
+  "source_url": null,
+  "note": "Juan Flores. El Tabernáculo."
+}

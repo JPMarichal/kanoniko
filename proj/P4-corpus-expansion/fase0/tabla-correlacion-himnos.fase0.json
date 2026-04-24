@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hymns",
+    "correlation-table",
+    "multilingual"
+  ],
+  "category": "reference",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "source_url": null,
+  "note": "Tabla de correlación de los himnos en diferentes idiomas."
+}

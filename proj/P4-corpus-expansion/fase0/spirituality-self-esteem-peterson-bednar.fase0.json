@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "psychology",
+    "self-esteem",
+    "byu-psychology"
+  ],
+  "category": "books",
+  "author": "Scott R. Peterson & Richard L. Bednar",
+  "source_url": null,
+  "note": "Peterson & Bednar. Spirituality and Self-Esteem."
+}

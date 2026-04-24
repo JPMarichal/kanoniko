@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "crucifixion",
+    "last-sayings-of-jesus",
+    "nt-study",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catalán",
+  "source_url": null,
+  "note": "JPM. El significado de las últimas palabras de Jesús — carta a los élderes Espino con compilación de citas."
+}

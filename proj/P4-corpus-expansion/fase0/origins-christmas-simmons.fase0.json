@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christmas-origins",
+    "nativity-chronology"
+  ],
+  "category": "reference",
+  "author": "Kurt M. Simmons",
+  "source_url": null,
+  "note": "Kurt M. Simmons. The Origins of Christmas and the Date of Christ's Birth."
+}

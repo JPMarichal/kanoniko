@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women-authored",
+    "spiritual-journey",
+    "mixed-faith-marriage"
+  ],
+  "category": "books",
+  "author": "Anne Osborn Poelman",
+  "source_url": null,
+  "note": "Anne Osborn Poelman. The Simeon Solution."
+}

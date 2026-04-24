@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "science-religion",
+    "nasa-lore",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Ernesto Pelé (Ernest C. Pyle)",
+  "source_url": null,
+  "note": "Pelé. Los científicos y los astronautas leen la Biblia (anécdota del programa espacial)."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 90,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evolution",
+    "19th-century-science",
+    "primary-source",
+    "darwin"
+  ],
+  "category": "reference",
+  "author": "Charles Darwin",
+  "source_url": null,
+  "note": "Charles Darwin. El Origen de las Especies (ES, 1859)."
+}

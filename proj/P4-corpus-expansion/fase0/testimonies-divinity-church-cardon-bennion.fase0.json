@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "general-authorities",
+    "testimony",
+    "compilation"
+  ],
+  "category": "books",
+  "author": "Various GAs (comp. Cardon & Bennion)",
+  "source_url": null,
+  "note": "Cardon & Bennion comps. Testimonies of the Divinity of the Church."
+}

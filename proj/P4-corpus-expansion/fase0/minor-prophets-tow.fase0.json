@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "minor-prophets",
+    "evangelical",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Timothy Tow",
+  "source_url": null,
+  "note": "Timothy Tow. The Minor Prophets."
+}

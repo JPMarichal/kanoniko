@@ -1,0 +1,32 @@
+{
+  "title": "Part 6",
+  "author": "E. Keith Howick",
+  "book": "Las parábolas de Jesús el Mesías",
+  "chapter": 5,
+  "total_chapters": 21,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "parables",
+    "life-of-christ",
+    "nt-commentary"
+  ],
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/parábolas de Jesús el Mesías, Las - E. Keith Howick.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-12-22T04:02:59+00:00",
+  "opf_identifier": "b39d4892-207b-48d2-8c63-a637067894d0",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "E. Keith Howick. Las parábolas de Jesús el Mesías (ES)."
+}

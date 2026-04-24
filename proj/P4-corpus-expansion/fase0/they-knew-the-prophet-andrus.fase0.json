@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "eyewitness-accounts",
+    "byu-theology"
+  ],
+  "category": "biographies",
+  "author": "Hyrum L. Andrus & Helen Mae Andrus",
+  "source_url": null,
+  "note": "H. L. & Helen M. Andrus. They Knew the Prophet — eyewitness accounts."
+}

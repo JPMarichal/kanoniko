@@ -1,0 +1,17 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-translation",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Bobby Graham",
+  "source_url": null,
+  "note": "Bobby Graham. The Translation of the Word."
+}

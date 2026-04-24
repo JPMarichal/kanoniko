@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "nauvoo",
+    "women-history",
+    "byu-academic"
+  ],
+  "category": "history",
+  "author": "R. N. Holzapfel & Jeni B. Holzapfel",
+  "source_url": null,
+  "note": "R. N. & Jeni B. Holzapfel. Women of Nauvoo."
+}

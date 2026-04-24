@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "family-values",
+    "parenting"
+  ],
+  "category": "books",
+  "author": "A. Gail Smith",
+  "source_url": null,
+  "note": "A. Gail Smith. Shadowfall."
+}

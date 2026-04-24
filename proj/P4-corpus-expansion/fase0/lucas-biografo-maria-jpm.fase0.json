@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "luke",
+    "mary-mother-of-jesus",
+    "nt-analysis",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catalán",
+  "source_url": null,
+  "note": "JPM. Lucas como el biógrafo de María — análisis estadístico de menciones marianas en el NT."
+}

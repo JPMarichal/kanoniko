@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "3rd-century",
+    "ante-nicene",
+    "cyprian",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Cyprian of Carthage",
+  "source_url": null,
+  "note": "Cyprian of Carthage. Treatises (various)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-womens-conference",
+    "anthology",
+    "covenant"
+  ],
+  "category": "books",
+  "author": "Susette Fletcher Green & Dawn Hall Anderson (eds.)",
+  "source_url": null,
+  "note": "Green & Anderson (eds.). Women in the Covenant of Grace."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mormon-moroni",
+    "book-of-mormon-geography",
+    "mesoamerica"
+  ],
+  "category": "books",
+  "author": "Jerry L. Ainsworth",
+  "source_url": null,
+  "note": "Jerry L. Ainsworth. La vida y viajes de Mormón y Moroni (ES)."
+}

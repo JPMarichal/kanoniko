@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pioneer-exodus",
+    "1846-1848",
+    "byu-academic"
+  ],
+  "category": "history",
+  "author": "Richard E. Bennett",
+  "source_url": null,
+  "note": "Richard E. Bennett. We'll Find the Place: The Mormon Exodus 1846-1848."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-education",
+    "biblical-studies"
+  ],
+  "category": "books",
+  "author": "Lowell L. Bennion",
+  "source_url": null,
+  "note": "Lowell L. Bennion. The Unknown Testament."
+}

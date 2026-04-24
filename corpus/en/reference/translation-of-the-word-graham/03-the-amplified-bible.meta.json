@@ -1,0 +1,31 @@
+{
+  "title": "The Amplified Bible",
+  "author": "Bobby Graham",
+  "book": "The Translation of the Word",
+  "chapter": 3,
+  "total_chapters": 3,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "bible-translation",
+    "non-lds"
+  ],
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/The Translation of the Word - Bobby Graham.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "23a2115a-8cef-4e12-8b4a-1445abeefdd8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Bobby Graham. The Translation of the Word."
+}

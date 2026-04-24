@@ -1,0 +1,31 @@
+{
+  "title": "Mother's Day",
+  "author": "Belle S. Spafford",
+  "book": "Woman_s Reach",
+  "chapter": 25,
+  "total_chapters": 29,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "rs-general-president",
+    "women"
+  ],
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Woman_s Reach - Belle S. Spafford.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4d84a92e-773b-4fdf-92fe-cf3f2b268124",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Belle S. Spafford (RS General President 1945-74). A Woman's Reach."
+}

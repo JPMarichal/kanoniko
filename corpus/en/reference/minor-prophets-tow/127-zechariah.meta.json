@@ -1,0 +1,32 @@
+{
+  "title": "Zechariah",
+  "author": "Timothy Tow",
+  "book": "The Minor Prophets",
+  "chapter": 127,
+  "total_chapters": 132,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "minor-prophets",
+    "evangelical",
+    "non-lds"
+  ],
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/The Minor Prophets - Timothy Tow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "1f7dea41-0508-4c55-9b60-515149f00cc5",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Timothy Tow. The Minor Prophets."
+}

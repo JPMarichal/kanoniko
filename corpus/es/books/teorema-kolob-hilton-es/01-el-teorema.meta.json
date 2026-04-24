@@ -1,0 +1,32 @@
+{
+  "title": "EL TEOREMA",
+  "author": "Lynn M. Hilton",
+  "book": "El teorema de Kólob",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "kolob",
+    "cosmology",
+    "book-of-abraham"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/teorema de Kólob, El - Lynn M. Hilton.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-03-25T01:12:20+00:00",
+  "opf_identifier": "57432df4-4732-430b-bfc5-95226428c65c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lynn M. Hilton. El teorema de Kólob (ES)."
+}

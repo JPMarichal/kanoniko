@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "tolerance",
+    "civic-virtue"
+  ],
+  "category": "books",
+  "author": "John K. Carmack",
+  "source_url": null,
+  "note": "Elder John K. Carmack, Seventy. Tolerance."
+}

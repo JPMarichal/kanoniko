@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "bible-overview",
+    "study-aid",
+    "pan-biblical",
+    "lds-independent-author"
+  ],
+  "category": "study-aids",
+  "author": "Juan Pablo Marichal Catalán",
+  "source_url": null,
+  "note": "JPM. Reseña General — índice pan-bíblico (autor, fecha, propósito, temas, estructura, citas) por libro. 90 capítulos."
+}

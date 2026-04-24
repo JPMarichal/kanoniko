@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-commentary",
+    "jeremiah",
+    "evangelical",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Thomas L. Constable",
+  "source_url": null,
+  "note": "Thomas L. Constable. Notes on Jeremiah."
+}

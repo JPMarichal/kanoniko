@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "renaissance",
+    "16th-century",
+    "political-philosophy",
+    "more",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Thomas More",
+  "source_url": null,
+  "note": "Thomas More (1478-1535). Utopia, 1516."
+}

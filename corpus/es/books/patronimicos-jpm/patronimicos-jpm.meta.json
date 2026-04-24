@@ -1,0 +1,33 @@
+{
+  "title": "Patronímicos",
+  "author": "Juan Pablo Marichal Catalán",
+  "book": "Patronímicos",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "jpm",
+    "patronymics",
+    "priesthood-order",
+    "lds-independent-author"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Patronímicos - Juan Pablo Marichal Catalán.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "611cc9b5-2054-49ac-8f26-2b35502eac39",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "JPM. Patronímicos — nota sobre la genealogía del sacerdocio (DyC 107)."
+}

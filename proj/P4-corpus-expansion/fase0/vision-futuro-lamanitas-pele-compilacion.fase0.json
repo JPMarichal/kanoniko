@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "eduardo-balderas",
+    "spanish-translation-history",
+    "lamanites",
+    "compilation"
+  ],
+  "category": "history",
+  "author": "Ernesto Pelé (Ernest C. Pyle, compilador)",
+  "source_url": null,
+  "note": "Pelé (compilador). Visión del futuro de los lamanitas — Eduardo Balderas y la traducción al español de las ordenanzas del templo."
+}

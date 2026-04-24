@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lds-women-history",
+    "untold-history",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Godfrey, Godfrey & Derr (eds.)",
+  "source_url": null,
+  "note": "K. W. Godfrey, A. M. Godfrey & J. M. Derr (eds.). Women's Voices: An Untold History of LDS."
+}

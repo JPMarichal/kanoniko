@@ -1,0 +1,32 @@
+{
+  "title": "The Arizona Temple",
+  "author": "N. B. Lundwall (comp.)",
+  "book": "Temples of the Most High",
+  "chapter": 9,
+  "total_chapters": 30,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "temple",
+    "compilation",
+    "mid-20th-century"
+  ],
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Temples of the Most High - N B Lundwall.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "97088e92-60fa-4c31-b084-3d496825b203",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "N. B. Lundwall (comp.). Temples of the Most High."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Conversion-concluded",
+  "author": "William James",
+  "book": "Varieties of Religious Experience",
+  "chapter": 8,
+  "total_chapters": 15,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "psychology-of-religion",
+    "19th-20th-century",
+    "james",
+    "primary-source"
+  ],
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Varieties of Religious Experience - William James.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "828bf938-49ab-4079-bb01-c429b413a15b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "William James (1842-1910). The Varieties of Religious Experience, 1902."
+}

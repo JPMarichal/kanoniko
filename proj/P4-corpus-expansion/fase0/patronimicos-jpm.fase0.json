@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "patronymics",
+    "priesthood-order",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catalán",
+  "source_url": null,
+  "note": "JPM. Patronímicos — nota sobre la genealogía del sacerdocio (DyC 107)."
+}

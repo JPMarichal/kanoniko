@@ -1,0 +1,32 @@
+{
+  "title": "What Is Their Organization?",
+  "author": "Gordon B. Hinckley",
+  "book": "What of the Mormons",
+  "chapter": 5,
+  "total_chapters": 19,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "prophet-authored",
+    "mid-20th-century",
+    "missionary-intro"
+  ],
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/What of the Mormons - Gordon B Hinckley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "be0c98f8-6d41-4a6a-9ae0-7ee20b92d263",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. Gordon B. Hinckley. What of the Mormons?, 1947."
+}

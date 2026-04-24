@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-travel",
+    "external-observer",
+    "mormon-observation",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Phil Robinson",
+  "source_url": null,
+  "note": "Phil Robinson. Sinners and Saints, 1883."
+}

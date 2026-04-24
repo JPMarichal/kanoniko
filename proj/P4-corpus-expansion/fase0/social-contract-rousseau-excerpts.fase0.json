@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Jean-Jacques Rousseau",
+  "source_url": null,
+  "note": "Rousseau. Du Contrat Social (1762) — excerpts."
+}

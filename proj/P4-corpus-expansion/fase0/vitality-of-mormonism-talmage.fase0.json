@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "classical-apologetics",
+    "early-20th-century"
+  ],
+  "category": "books",
+  "author": "James E. Talmage",
+  "source_url": null,
+  "note": "Elder James E. Talmage (1862-1933), Q12. The Vitality of Mormonism, 1919."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "priesthood",
+    "chrysostom",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "John Chrysostom",
+  "source_url": null,
+  "note": "John Chrysostom (c. 349-407). De Sacerdotio (Treatise on the Priesthood)."
+}

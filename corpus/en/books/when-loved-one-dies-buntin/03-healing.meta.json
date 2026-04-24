@@ -1,0 +1,31 @@
+{
+  "title": "Healing",
+  "author": "Kathleen Rawlings Buntin",
+  "book": "When a Loved One Dies",
+  "chapter": 3,
+  "total_chapters": 4,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "grief",
+    "pastoral"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/When a Loved One Dies - Kathleen Rawlings Buntin.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "5612d855-040e-4334-84b6-0aedbab54e7f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Kathleen Rawlings Buntin. When a Loved One Dies."
+}

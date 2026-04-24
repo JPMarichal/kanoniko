@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "missionary-work",
+    "digital-age",
+    "spanish-talk"
+  ],
+  "category": "discourses",
+  "author": "L. Tom Perry",
+  "source_url": null,
+  "note": "Elder L. Tom Perry. La obra misional en la era digital."
+}

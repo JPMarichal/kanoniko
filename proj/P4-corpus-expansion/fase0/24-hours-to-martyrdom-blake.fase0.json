@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "carthage-jail",
+    "martyrdom",
+    "narrative-history"
+  ],
+  "category": "history",
+  "author": "Reed H. Blake",
+  "source_url": null,
+  "note": "Reed H. Blake. Twenty-four Hours to Martyrdom."
+}

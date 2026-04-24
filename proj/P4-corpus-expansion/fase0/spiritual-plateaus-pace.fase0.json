@@ -1,0 +1,17 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "spiritual-growth"
+  ],
+  "category": "books",
+  "author": "Glenn L. Pace",
+  "source_url": null,
+  "note": "Elder Glenn L. Pace, Seventy. Spiritual Plateaus."
+}

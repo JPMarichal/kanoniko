@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "jst",
+    "melchizedek",
+    "compilation",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Ernesto Pelé (Ernest C. Pyle)",
+  "source_url": null,
+  "note": "Pelé. Lo que publiqué en la sección de Charla — compilación de JST Gen 14 y comentarios."
+}

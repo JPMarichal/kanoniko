@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "byu-academic",
+    "collected-works",
+    "apostasy",
+    "anti-mormonism-critique"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley (ed. Whittaker)",
+  "source_url": null,
+  "note": "Hugh Nibley (ed. Whittaker). Tinkling Cymbals and Sounding Brass — Vol. 11 of Nibley Collected Works."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "psychology-of-religion",
+    "19th-20th-century",
+    "james",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "William James",
+  "source_url": null,
+  "note": "William James (1842-1910). The Varieties of Religious Experience, 1902."
+}

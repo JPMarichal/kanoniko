@@ -1,0 +1,32 @@
+{
+  "title": "Tabernáculo (1)",
+  "author": "Juan Flores",
+  "book": "Tabernáculo (1)",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "tabernacle",
+    "ot-studies",
+    "evangelical-leaning"
+  ],
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Tabernáculo (1) - Juan Flores.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e42e0097-80c9-49d5-b64b-85fc8f639818",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Juan Flores. El Tabernáculo."
+}

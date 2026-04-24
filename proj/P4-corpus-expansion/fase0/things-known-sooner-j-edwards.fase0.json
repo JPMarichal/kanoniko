@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women-authored",
+    "reflections"
+  ],
+  "category": "books",
+  "author": "Jaroldeen Edwards",
+  "source_url": null,
+  "note": "Jaroldeen Edwards. Things I Wish I'd Known Sooner."
+}

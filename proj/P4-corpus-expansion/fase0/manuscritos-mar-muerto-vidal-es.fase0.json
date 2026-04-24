@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "dead-sea-scrolls",
+    "second-temple",
+    "spanish"
+  ],
+  "category": "reference",
+  "author": "César Vidal Manzanares",
+  "source_url": null,
+  "note": "César Vidal. Los manuscritos del Mar Muerto (ES)."
+}

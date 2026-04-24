@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "youth",
+    "leadership"
+  ],
+  "category": "books",
+  "author": "Shane R. Barker",
+  "source_url": null,
+  "note": "Shane R. Barker. Youth Leading Youth."
+}

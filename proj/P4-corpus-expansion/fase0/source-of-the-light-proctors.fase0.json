@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "life-of-christ",
+    "devotional"
+  ],
+  "category": "books",
+  "author": "Scot Facer Proctor & Maurine Jensen Proctor",
+  "source_url": null,
+  "note": "Scot & Maurine Proctor. Source of the Light."
+}

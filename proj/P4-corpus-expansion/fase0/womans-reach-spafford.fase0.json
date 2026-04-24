@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "rs-general-president",
+    "women"
+  ],
+  "category": "books",
+  "author": "Belle S. Spafford",
+  "source_url": null,
+  "note": "Belle S. Spafford (RS General President 1945-74). A Woman's Reach."
+}

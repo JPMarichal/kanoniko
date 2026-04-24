@@ -1,0 +1,32 @@
+{
+  "title": "Obtaining Happiness",
+  "author": "Lorenzo Snow",
+  "book": "Teachings of Lorenzo Snow",
+  "chapter": 13,
+  "total_chapters": 30,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "prophet-authored",
+    "teachings-compilation",
+    "primary-source"
+  ],
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Teachings of Lorenzo Snow - Lorenzo Snow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "03d757f7-a0f4-4ac4-8439-abe3654e8e2d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. Lorenzo Snow (1814-1901). Teachings of Lorenzo Snow (Williams ed. primary source)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies-center",
+    "19th-century-lds",
+    "biographical-anthology"
+  ],
+  "category": "biographies",
+  "author": "David J. Whittaker & Donald Q. Cannon (eds.)",
+  "source_url": null,
+  "note": "Whittaker & Cannon (eds.). Supporting Saints: Life Stories of 19th-c Mormons."
+}

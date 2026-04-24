@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "nt-scholarship",
+    "brothers-of-jesus",
+    "modern",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Richard Bauckham",
+  "source_url": null,
+  "note": "Richard Bauckham (Anglican NT scholar). The Relatives of Jesus."
+}

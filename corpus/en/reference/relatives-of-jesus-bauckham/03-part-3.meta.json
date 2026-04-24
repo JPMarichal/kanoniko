@@ -1,0 +1,33 @@
+{
+  "title": "Part 3",
+  "author": "Richard Bauckham",
+  "book": "The Relatives of Jesus",
+  "chapter": 3,
+  "total_chapters": 6,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "nt-scholarship",
+    "brothers-of-jesus",
+    "modern",
+    "non-lds"
+  ],
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/The Relatives of Jesus - Richard Bauckham.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f6088b2a-41b5-4250-8061-f2ea5b7b7ef8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Richard Bauckham (Anglican NT scholar). The Relatives of Jesus."
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Looking for Differences",
+  "author": "Shane R. Barker",
+  "book": "Youth Leading Youth",
+  "chapter": 3,
+  "total_chapters": 16,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "youth",
+    "leadership"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Youth Leading Youth - Shane R Barker.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "54bcc843-eea9-4564-b7ae-830329f393b2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Shane R. Barker. Youth Leading Youth."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "ILUSTRACIONES",
+  "author": "Jerry L. Ainsworth",
+  "book": "La vida y viajes de Mormon y Moroni",
+  "chapter": 3,
+  "total_chapters": 28,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "mormon-moroni",
+    "book-of-mormon-geography",
+    "mesoamerica"
+  ],
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/vida y viajes de Mormon y Moroni, La - Jerry L. Ainsworth.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-02-23T16:46:24+00:00",
+  "opf_identifier": "a62c2040-5d90-4793-9fa7-231e335b7584",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Jerry L. Ainsworth. La vida y viajes de Mormón y Moroni (ES)."
+}

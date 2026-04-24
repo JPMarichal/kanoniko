@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "sacrament-meeting",
+    "offering",
+    "discourse",
+    "lds-independent-author"
+  ],
+  "category": "discourses",
+  "author": "Juan Pablo Marichal Catalán",
+  "source_url": null,
+  "note": "JPM. Nuestra ofrenda en la reunión sacramental (Barrio Plateros, 18 de junio de 2017)."
+}

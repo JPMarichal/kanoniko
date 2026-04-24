@@ -1,0 +1,16 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "isaiah"
+  ],
+  "category": "books",
+  "author": "Tina M. Peterson",
+  "source_url": null,
+  "note": "Tina M. Peterson. Understanding Isaiah."
+}

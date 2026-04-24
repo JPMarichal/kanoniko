@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "josephus",
+    "herod-agrippa",
+    "1st-century",
+    "nt-context"
+  ],
+  "category": "history",
+  "author": "Flavio Josefo",
+  "source_url": null,
+  "note": "Flavio Josefo. La muerte de Herodes Agripa (ES excerpt)."
+}

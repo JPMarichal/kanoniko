@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-womens-conference",
+    "anthology"
+  ],
+  "category": "books",
+  "author": "Marie Cornwall & Dawn Hall Anderson (eds.)",
+  "source_url": null,
+  "note": "Cornwall & Anderson (eds.). Women Steadfast in Christ."
+}

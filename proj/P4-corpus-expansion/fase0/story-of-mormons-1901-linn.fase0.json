@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-external",
+    "hostile-history",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "William Alexander Linn",
+  "source_url": null,
+  "note": "William Alexander Linn. The Story of the Mormons (1902, hostile external)."
+}

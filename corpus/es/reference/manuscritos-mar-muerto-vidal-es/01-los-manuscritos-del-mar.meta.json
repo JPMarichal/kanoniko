@@ -1,0 +1,32 @@
+{
+  "title": "Los manuscritos del mar",
+  "author": "César Vidal Manzanares",
+  "book": "Los manuscritos del Mar Muerto",
+  "chapter": 1,
+  "total_chapters": 4,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "dead-sea-scrolls",
+    "second-temple",
+    "spanish"
+  ],
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/manuscritos del Mar Muerto, Los - César Vidal Manzanares.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "9ca80a2c-1b62-40d0-b4a8-70850f531559",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "César Vidal. Los manuscritos del Mar Muerto (ES)."
+}

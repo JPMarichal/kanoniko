@@ -1,0 +1,31 @@
+{
+  "title": "Thomas Jefferson's First Inaugural Address-1801",
+  "author": "Edward S. Ellis",
+  "book": "Thomas Jefferson",
+  "chapter": 3,
+  "total_chapters": 9,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "us-presidents",
+    "19th-century-biography"
+  ],
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Thomas Jefferson - Edward Ellis.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b0847455-d14f-4594-8269-a1fe3b42b03c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Edward S. Ellis. Thomas Jefferson, 1898."
+}

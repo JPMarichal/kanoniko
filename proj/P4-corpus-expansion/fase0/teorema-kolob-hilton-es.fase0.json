@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "kolob",
+    "cosmology",
+    "book-of-abraham"
+  ],
+  "category": "books",
+  "author": "Lynn M. Hilton",
+  "source_url": null,
+  "note": "Lynn M. Hilton. El teorema de Kólob (ES)."
+}

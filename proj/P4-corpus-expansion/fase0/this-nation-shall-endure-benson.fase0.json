@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "us-constitution",
+    "patriotism"
+  ],
+  "category": "books",
+  "author": "Ezra Taft Benson",
+  "source_url": null,
+  "note": "Pres. Ezra Taft Benson (1899-1994). This Nation Shall Endure, 1977."
+}

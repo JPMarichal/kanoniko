@@ -1,0 +1,17 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "motherhood"
+  ],
+  "category": "books",
+  "author": "Marjorie P. Hinckley & Gordon B. Hinckley",
+  "source_url": null,
+  "note": "Gordon B. & Marjorie P. Hinckley. The Wondrous Power of a Mother."
+}

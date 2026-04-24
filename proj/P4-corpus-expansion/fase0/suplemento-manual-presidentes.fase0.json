@@ -1,0 +1,17 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "teachings-of-presidents",
+    "supplement"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "source_url": null,
+  "note": "Suplemento del Manual de Presidentes de la Iglesia."
+}

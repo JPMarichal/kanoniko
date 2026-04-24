@@ -1,0 +1,31 @@
+{
+  "title": "Voices of the Sisters",
+  "author": "Marie Cornwall & Dawn Hall Anderson (eds.)",
+  "book": "Women Steadfast in Christ",
+  "chapter": 4,
+  "total_chapters": 26,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-womens-conference",
+    "anthology"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Women Steadfast in Christ - Marie Cornwall & Dawn Hall Anderson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "7fefa23f-07c4-4ccf-8e1d-a07c44444dfd",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Cornwall & Anderson (eds.). Women Steadfast in Christ."
+}

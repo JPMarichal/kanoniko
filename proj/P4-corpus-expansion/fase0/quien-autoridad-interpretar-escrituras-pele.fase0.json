@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "scripture-interpretation",
+    "authority",
+    "2-peter-1-20",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Ernesto Pelé (Ernest C. Pyle)",
+  "source_url": null,
+  "note": "Pelé. ¿Quién tiene la autoridad de dar interpretaciones autorizadas de las Escrituras?"
+}

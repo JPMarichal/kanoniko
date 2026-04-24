@@ -1,0 +1,33 @@
+{
+  "title": "Capítulo 11 De la sucesión geológica de los seres orgánicos",
+  "author": "Charles Darwin",
+  "book": "El origen de las especies",
+  "chapter": 13,
+  "total_chapters": 18,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evolution",
+    "19th-century-science",
+    "primary-source",
+    "darwin"
+  ],
+  "authority": 25,
+  "rigor": 90,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/origen de las especies, El - Charles Darwin.epub",
+  "opf_publisher": "Elejandría",
+  "opf_date": "1859-10-15T06:00:00+00:00",
+  "opf_identifier": "urn:uuid:384aec8a-9e28-11e3-b077-e840f2ac8691",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Charles Darwin. El Origen de las Especies (ES, 1859)."
+}

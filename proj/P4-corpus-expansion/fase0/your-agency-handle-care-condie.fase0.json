@@ -1,0 +1,17 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "agency"
+  ],
+  "category": "books",
+  "author": "Spencer J. Condie",
+  "source_url": null,
+  "note": "Elder Spencer J. Condie, Seventy. Your Agency, Handle With Care."
+}

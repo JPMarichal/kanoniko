@@ -1,0 +1,16 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "conversion-story"
+  ],
+  "category": "biographies",
+  "author": "Julia Farr",
+  "source_url": null,
+  "note": "Julia Farr. Venna Hastings: Story of an Eastern Mormon Convert."
+}

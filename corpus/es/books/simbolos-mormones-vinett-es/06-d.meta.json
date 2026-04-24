@@ -1,0 +1,31 @@
+{
+  "title": "D",
+  "author": "Roberto Vinett Herquiñigo",
+  "book": "Símbolos mormones",
+  "chapter": 6,
+  "total_chapters": 26,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "symbolism",
+    "latin-american-lds"
+  ],
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Símbolos mormones - Roberto Vinett Herquiñigo.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "3b0a6ab3-3b97-4f49-bda8-f544194d82f3",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Roberto Vinett Herquiñigo. Símbolos mormones (ES)."
+}

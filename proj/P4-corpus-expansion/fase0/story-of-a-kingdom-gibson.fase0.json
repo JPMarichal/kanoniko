@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-overview",
+    "evangelical",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Jonny Gibson",
+  "source_url": null,
+  "note": "Jonny Gibson. The Story of a Kingdom."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "teachings-compilation",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Lorenzo Snow",
+  "source_url": null,
+  "note": "Pres. Lorenzo Snow (1814-1901). Teachings of Lorenzo Snow (Williams ed. primary source)."
+}

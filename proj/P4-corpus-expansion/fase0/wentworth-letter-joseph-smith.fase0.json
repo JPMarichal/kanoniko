@@ -1,0 +1,20 @@
+{
+  "authority": 55,
+  "rigor": 90,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "wentworth-letter",
+    "1842",
+    "articles-of-faith-origin",
+    "primary-source"
+  ],
+  "category": "discourses",
+  "author": "Joseph Smith Jr.",
+  "source_url": null,
+  "note": "Joseph Smith. The Wentworth Letter, 1 March 1842 — origin of Articles of Faith."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "oral-torah",
+    "pharisees",
+    "second-temple",
+    "jewish-studies",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Pierre Lenhardt & Matthieu Collin",
+  "source_url": null,
+  "note": "Lenhardt & Collin. La Torá oral de los fariseos (ES)."
+}

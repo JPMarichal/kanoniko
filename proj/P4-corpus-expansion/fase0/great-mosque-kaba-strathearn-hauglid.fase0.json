@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "islam",
+    "temples",
+    "comparative-religion"
+  ],
+  "category": "books",
+  "author": "Gaye Strathearn & Brian M. Hauglid",
+  "source_url": null,
+  "note": "Strathearn & Hauglid. The Great Mosque and Its Ka'ba as an Islamic Temple."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Preface",
+  "author": "Jonny Gibson",
+  "book": "The Story of a Kingdom: A simple explanation of the Bible",
+  "chapter": 6,
+  "total_chapters": 99,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "bible-overview",
+    "evangelical",
+    "non-lds"
+  ],
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/The Story of a Kingdom_ A simple explanation of the Bible - Jonny Gibson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "68174604-a707-4bc5-9116-e4692fdc748c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Jonny Gibson. The Story of a Kingdom."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "On the Eve",
+  "author": "Reed H. Blake",
+  "book": "Twenty-four Hours to Martyrdom",
+  "chapter": 3,
+  "total_chapters": 9,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "carthage-jail",
+    "martyrdom",
+    "narrative-history"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Twenty-four Hours to Martyrdom - Reed H Blake.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bf2a6153-3636-43af-a22b-d9a54a72b7ce",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Reed H. Blake. Twenty-four Hours to Martyrdom."
+}

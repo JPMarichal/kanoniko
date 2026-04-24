@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "visiting-teaching",
+    "relief-society",
+    "ministering"
+  ],
+  "category": "books",
+  "author": "Johanna Flynn & Anita R. Canfield",
+  "source_url": null,
+  "note": "Flynn & Canfield. Visiting Teaching: A Call to Serve."
+}

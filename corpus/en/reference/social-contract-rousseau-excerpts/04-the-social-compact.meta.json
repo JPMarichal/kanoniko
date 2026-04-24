@@ -1,0 +1,32 @@
+{
+  "title": "The Social Compact",
+  "author": "Jean-Jacques Rousseau",
+  "book": "Social Contract",
+  "chapter": 4,
+  "total_chapters": 6,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Social Contract - Excerpts) (Jean Jacques Rousseau.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "25218e15-5f76-414f-8d28-ba09e8319e4a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Rousseau. Du Contrat Social (1762) — excerpts."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "19th-century",
+    "utilitarianism",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "John Stuart Mill",
+  "source_url": null,
+  "note": "John Stuart Mill (1806-1873). Utilitarianism, 1861."
+}
