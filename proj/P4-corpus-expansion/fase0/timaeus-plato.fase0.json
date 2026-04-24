@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "cosmology",
+    "creation",
+    "plato",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Plato",
+  "source_url": null,
+  "note": "Plato. Timaeus. Cosmology, creation of the universe — influential on early Christian thought."
+}

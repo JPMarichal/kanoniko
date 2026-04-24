@@ -1,0 +1,32 @@
+{
+  "title": "Some Fairly Foolproof Tests",
+  "author": "Hugh Nibley",
+  "book": "Since Cumorah",
+  "chapter": 11,
+  "total_chapters": 17,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "hugh-nibley",
+    "book-of-mormon",
+    "classic-apologetics"
+  ],
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Since Cumorah - Hugh Nibley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bcb2690f-084f-4f54-bec9-23cac00a8b74",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Hugh Nibley. Since Cumorah, 1967. Classic Book of Mormon apologetics."
+}

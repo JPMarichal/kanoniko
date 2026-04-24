@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "essays",
+    "byu-collected"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Hugh Nibley. Nibley on the Timely and the Timeless, 1978."
+}

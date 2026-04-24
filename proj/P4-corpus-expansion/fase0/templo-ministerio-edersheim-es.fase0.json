@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biblical-studies",
+    "jewish-temple",
+    "second-temple",
+    "nt-context",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Alfred Edersheim",
+  "source_url": null,
+  "note": "Alfred Edersheim. El Templo: Su ministerio y servicios en tiempos de Jesucristo (ES)."
+}

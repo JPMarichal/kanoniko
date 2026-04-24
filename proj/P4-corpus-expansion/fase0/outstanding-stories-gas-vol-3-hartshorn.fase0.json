@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "general-authorities",
+    "stories",
+    "anthology"
+  ],
+  "category": "books",
+  "author": "Leon R. Hartshorn (ed.)",
+  "source_url": null,
+  "note": "Leon R. Hartshorn (ed.). Outstanding Stories by General Authorities, vol. 3."
+}

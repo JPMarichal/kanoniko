@@ -1,0 +1,32 @@
+{
+  "title": "Luke 12",
+  "author": "Benjamin Crowder (ed.)",
+  "book": "The New Testament",
+  "chapter": 57,
+  "total_chapters": 267,
+  "category": "study-aids",
+  "subcategory": null,
+  "tags": [
+    "bible",
+    "readers-edition",
+    "new-testament"
+  ],
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/New Testament, The - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "265a49b4-af87-43e2-93b3-671617fea806",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Benjamin Crowder. The New Testament (reader's edition)."
+}

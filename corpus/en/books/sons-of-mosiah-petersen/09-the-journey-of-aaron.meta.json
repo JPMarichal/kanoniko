@@ -1,0 +1,33 @@
+{
+  "title": "The Journey of Aaron",
+  "author": "Mark E. Petersen",
+  "book": "Sons of Mosiah",
+  "chapter": 9,
+  "total_chapters": 20,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "sons-of-mosiah",
+    "book-of-mormon",
+    "missionary"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Sons of Mosiah - Mark E Petersen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "555101d2-596b-4941-a8b3-9d3e18c885c6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Mark E. Petersen. Sons of Mosiah, 1978."
+}

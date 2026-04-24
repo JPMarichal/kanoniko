@@ -1,0 +1,17 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "gospel-accessibility"
+  ],
+  "category": "books",
+  "author": "John A. Widtsoe",
+  "source_url": null,
+  "note": "Elder John A. Widtsoe. Understandable Religion."
+}

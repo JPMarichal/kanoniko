@@ -1,0 +1,17 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "plan-of-salvation",
+    "diagram"
+  ],
+  "category": "reference",
+  "author": "Benjamin Crowder",
+  "source_url": null,
+  "note": "Benjamin Crowder. Plan de Salvación, diagrama (ES)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "prayer",
+    "answers"
+  ],
+  "category": "books",
+  "author": "Gene R. Cook",
+  "source_url": null,
+  "note": "Elder Gene R. Cook. Receiving Answers to Our Prayers."
+}

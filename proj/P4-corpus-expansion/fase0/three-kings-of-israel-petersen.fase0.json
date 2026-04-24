@@ -1,0 +1,20 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "saul",
+    "david",
+    "solomon",
+    "petersen-prophet-series"
+  ],
+  "category": "biographies",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "note": "Elder Mark E. Petersen. Three Kings of Israel (Saul, David, Solomon), 1980."
+}

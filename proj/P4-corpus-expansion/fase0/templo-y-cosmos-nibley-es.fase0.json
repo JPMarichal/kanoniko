@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "temple",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Hugh Nibley. Templo y Cosmos (ES translation of Temple and Cosmos)."
+}

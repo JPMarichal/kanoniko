@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "psychology",
+    "soul",
+    "aristotle",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Aristotle",
+  "source_url": null,
+  "note": "Aristotle. De Anima (On the Soul). Foundational work on psychology and the soul."
+}

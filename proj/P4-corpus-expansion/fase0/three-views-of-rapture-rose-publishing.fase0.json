@@ -1,0 +1,20 @@
+{
+  "authority": 15,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "all",
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "chart",
+    "non-lds",
+    "rose-publishing"
+  ],
+  "category": "reference",
+  "author": "Rose Publishing",
+  "source_url": null,
+  "note": "Rose Publishing bible chart/reference: Three views of rapture."
+}

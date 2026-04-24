@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "temple",
+    "ancient-near-east",
+    "farms",
+    "collected-works"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Hugh Nibley. Temple and Cosmos, 1992. Vol. 12 of Collected Works."
+}

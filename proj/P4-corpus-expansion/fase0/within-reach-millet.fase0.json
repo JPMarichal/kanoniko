@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "gospel-living"
+  ],
+  "category": "books",
+  "author": "Robert L. Millet",
+  "source_url": null,
+  "note": "Robert L. Millet. Within Reach."
+}

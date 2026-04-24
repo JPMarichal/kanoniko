@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "old-testament",
+    "farms",
+    "collected-works"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley (eds. Welch & Gillum)",
+  "source_url": null,
+  "note": "Hugh Nibley. Old Testament and Related Studies. Vol. 1 of Collected Works (eds. Welch & Gillum)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "rational-theology",
+    "classic-doctrinal"
+  ],
+  "category": "books",
+  "author": "John A. Widtsoe",
+  "source_url": null,
+  "note": "Elder John A. Widtsoe (1872-1952), Q12. A Rational Theology, 1915."
+}

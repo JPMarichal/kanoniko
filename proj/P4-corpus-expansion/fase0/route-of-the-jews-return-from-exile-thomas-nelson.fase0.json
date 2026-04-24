@@ -1,0 +1,20 @@
+{
+  "authority": 15,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "all",
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "chart",
+    "non-lds",
+    "thomas-nelson"
+  ],
+  "category": "reference",
+  "author": "Thomas Nelson",
+  "source_url": null,
+  "note": "Thomas Nelson bible chart/reference: Route of the Jews' Return from Exile."
+}

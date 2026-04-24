@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "isaiah",
+    "byu-academic",
+    "dead-sea-scrolls"
+  ],
+  "category": "books",
+  "author": "Donald W. Parry",
+  "source_url": null,
+  "note": "Donald W. Parry, BYU Dead Sea Scrolls scholar. Understanding Isaiah."
+}

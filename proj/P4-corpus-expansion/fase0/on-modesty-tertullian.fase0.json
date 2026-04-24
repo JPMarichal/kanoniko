@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "3rd-century",
+    "ante-nicene",
+    "tertullian",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Tertullian",
+  "source_url": null,
+  "note": "Tertullian (c. 155-220). De Pudicitia (On Modesty)."
+}

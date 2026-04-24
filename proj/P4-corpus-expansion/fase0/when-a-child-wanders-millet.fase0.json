@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-religious-studies",
+    "parenting",
+    "wayward-children",
+    "pastoral"
+  ],
+  "category": "books",
+  "author": "Robert L. Millet",
+  "source_url": null,
+  "note": "Robert L. Millet. When a Child Wanders."
+}

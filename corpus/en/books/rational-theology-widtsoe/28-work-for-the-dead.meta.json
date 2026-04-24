@@ -1,0 +1,32 @@
+{
+  "title": "Work for the Dead",
+  "author": "John A. Widtsoe",
+  "book": "Rational Theology",
+  "chapter": 28,
+  "total_chapters": 37,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "rational-theology",
+    "classic-doctrinal"
+  ],
+  "authority": 50,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Rational Theology - John A Widtsoe.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e57a519b-373c-4bd8-8468-827581c833d8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder John A. Widtsoe (1872-1952), Q12. A Rational Theology, 1915."
+}

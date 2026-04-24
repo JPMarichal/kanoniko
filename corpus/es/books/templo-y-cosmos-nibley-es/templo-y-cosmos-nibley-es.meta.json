@@ -1,0 +1,32 @@
+{
+  "title": "Templo y Cosmos",
+  "author": "Hugh Nibley",
+  "book": "Templo y Cosmos",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "hugh-nibley",
+    "temple",
+    "spanish-translation"
+  ],
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Templo y Cosmos - Hugh Nibley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "a3a32e77-f460-46e9-950b-8e23742cd7ed",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Hugh Nibley. Templo y Cosmos (ES translation of Temple and Cosmos)."
+}

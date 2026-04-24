@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 45,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "baptist",
+    "gospel",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Lee Roy Shelton Jr.",
+  "source_url": null,
+  "note": "Lee Roy Shelton Jr. El verdadero evangelio versus evangelio falso (ES)."
+}

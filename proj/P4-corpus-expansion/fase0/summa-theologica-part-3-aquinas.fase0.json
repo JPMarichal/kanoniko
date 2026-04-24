@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 90,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "scholastic",
+    "catholic",
+    "christology",
+    "sacraments",
+    "aquinas",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Thomas Aquinas",
+  "source_url": null,
+  "note": "Aquinas. Summa Theologica, Tertia Pars (Christ, sacraments)."
+}

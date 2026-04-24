@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biblical-studies",
+    "jewish-social-history",
+    "nt-context",
+    "19th-century",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Alfred Edersheim",
+  "source_url": null,
+  "note": "Alfred Edersheim. Sketches of Jewish Social Life in the Days of Christ, 1876."
+}

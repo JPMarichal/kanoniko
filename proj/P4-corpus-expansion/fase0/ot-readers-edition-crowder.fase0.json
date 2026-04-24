@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible",
+    "readers-edition",
+    "old-testament"
+  ],
+  "category": "study-aids",
+  "author": "Benjamin Crowder (ed.)",
+  "source_url": null,
+  "note": "Benjamin Crowder. The Old Testament (reader's edition)."
+}

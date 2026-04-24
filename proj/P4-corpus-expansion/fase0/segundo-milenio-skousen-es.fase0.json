@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "skousen",
+    "second-millennium",
+    "abraham-to-david",
+    "popular-lds-history"
+  ],
+  "category": "books",
+  "author": "W. Cleon Skousen",
+  "source_url": null,
+  "note": "W. Cleon Skousen. El segundo milenio (ES). Posible edición alternativa o extensión de su serie de millennia."
+}

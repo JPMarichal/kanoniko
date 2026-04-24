@@ -1,0 +1,21 @@
+{
+  "authority": 35,
+  "rigor": 90,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "ethics",
+    "aristotle",
+    "primary-source",
+    "virtue-ethics"
+  ],
+  "category": "reference",
+  "author": "Aristotle",
+  "source_url": null,
+  "note": "Aristotle (384-322 BC). Nicomachean Ethics. Foundational virtue-ethics treatise."
+}

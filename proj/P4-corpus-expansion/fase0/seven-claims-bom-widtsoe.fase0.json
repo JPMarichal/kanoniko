@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "book-of-mormon",
+    "apologetics"
+  ],
+  "category": "books",
+  "author": "John A. Widtsoe",
+  "source_url": null,
+  "note": "Elder John A. Widtsoe. Seven Claims of the Book of Mormon."
+}

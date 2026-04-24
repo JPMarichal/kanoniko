@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "natural-philosophy",
+    "aristotle",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Aristotle",
+  "source_url": null,
+  "note": "Aristóteles. Sobre la generación y la corrupción (De Generatione et Corruptione)."
+}

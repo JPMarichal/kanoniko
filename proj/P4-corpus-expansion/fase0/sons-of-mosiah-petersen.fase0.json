@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "sons-of-mosiah",
+    "book-of-mormon",
+    "missionary"
+  ],
+  "category": "books",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "note": "Elder Mark E. Petersen. Sons of Mosiah, 1978."
+}

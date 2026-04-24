@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "3rd-century",
+    "ante-nicene",
+    "resurrection",
+    "tertullian",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Tertullian",
+  "source_url": null,
+  "note": "Tertullian. De Resurrectione Carnis (On the Resurrection of the Flesh)."
+}

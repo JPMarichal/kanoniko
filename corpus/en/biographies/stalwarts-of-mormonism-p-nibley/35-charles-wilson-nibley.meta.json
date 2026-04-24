@@ -1,0 +1,31 @@
+{
+  "title": "Charles Wilson Nibley",
+  "author": "Preston Nibley",
+  "book": "Stalwarts of Mormonism",
+  "chapter": 35,
+  "total_chapters": 62,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "biographical-sketches",
+    "church-historian"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Stalwarts of Mormonism - Preston Nibley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "f353c423-dce3-4cf6-adac-b1ce2a77c8da",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Preston Nibley. Stalwarts of Mormonism."
+}

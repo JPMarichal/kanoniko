@@ -1,0 +1,32 @@
+{
+  "title": "Among the Zunis",
+  "author": "Preston Nibley",
+  "book": "Missionary Experiences",
+  "chapter": 28,
+  "total_chapters": 34,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "church-historian",
+    "missionary-stories",
+    "mid-20th-century"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Missionary Experiences - Preston Nibley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "3434345a-8574-4045-abe6-4f258c035a46",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Preston Nibley (1884-1966), Assistant Church Historian. Missionary Experiences."
+}

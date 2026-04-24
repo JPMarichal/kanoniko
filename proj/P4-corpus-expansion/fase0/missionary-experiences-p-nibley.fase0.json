@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-historian",
+    "missionary-stories",
+    "mid-20th-century"
+  ],
+  "category": "books",
+  "author": "Preston Nibley",
+  "source_url": null,
+  "note": "Preston Nibley (1884-1966), Assistant Church Historian. Missionary Experiences."
+}

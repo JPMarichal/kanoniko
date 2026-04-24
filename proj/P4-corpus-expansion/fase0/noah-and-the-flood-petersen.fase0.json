@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "noah",
+    "flood",
+    "petersen-prophet-series"
+  ],
+  "category": "biographies",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "note": "Elder Mark E. Petersen. Noah and the Flood, 1982."
+}

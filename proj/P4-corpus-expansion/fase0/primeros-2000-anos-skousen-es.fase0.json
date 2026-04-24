@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "skousen",
+    "old-testament",
+    "adam-to-abraham",
+    "popular-lds-history"
+  ],
+  "category": "books",
+  "author": "W. Cleon Skousen",
+  "source_url": null,
+  "note": "W. Cleon Skousen. Los primeros 2000 años (ES). First Two Thousand Years (Adam to Abraham)."
+}

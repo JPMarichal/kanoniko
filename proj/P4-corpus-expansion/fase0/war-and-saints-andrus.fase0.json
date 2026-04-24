@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-theology",
+    "war",
+    "pacifism"
+  ],
+  "category": "books",
+  "author": "Hyrum L. Andrus",
+  "source_url": null,
+  "note": "Hyrum L. Andrus. War and Saints."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "ΚΑΤΑ ΙΩΑΝΗΝ 3",
+  "author": "Benjamin Crowder (ed.)",
+  "book": "\"Novum Testamentum Graece: Reader's Edition\"",
+  "chapter": 72,
+  "total_chapters": 261,
+  "category": "study-aids",
+  "subcategory": null,
+  "tags": [
+    "greek-nt",
+    "readers-edition",
+    "biblical-greek"
+  ],
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Novum Testamentum Graece_ Reader's Edition - Benjamin Crowder.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "https://bencrowder.net/languages/greek-new-testament-readers-edition/",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Benjamin Crowder. Novum Testamentum Graece: Reader's Edition."
+}

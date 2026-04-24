@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "greek-nt",
+    "readers-edition",
+    "biblical-greek"
+  ],
+  "category": "study-aids",
+  "author": "Benjamin Crowder (ed.)",
+  "source_url": null,
+  "note": "Benjamin Crowder. Novum Testamentum Graece: Reader's Edition."
+}

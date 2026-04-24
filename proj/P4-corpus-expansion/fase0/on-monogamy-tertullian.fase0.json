@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "3rd-century",
+    "ante-nicene",
+    "marriage",
+    "tertullian",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Tertullian",
+  "source_url": null,
+  "note": "Tertullian. De Monogamia (On Monogamy)."
+}

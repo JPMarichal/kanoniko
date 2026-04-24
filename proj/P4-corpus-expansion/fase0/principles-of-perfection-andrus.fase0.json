@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-theology",
+    "exaltation",
+    "eternal-progression"
+  ],
+  "category": "books",
+  "author": "Hyrum L. Andrus",
+  "source_url": null,
+  "note": "Hyrum L. Andrus. Principles of Perfection."
+}

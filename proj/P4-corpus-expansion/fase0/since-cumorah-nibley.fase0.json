@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "book-of-mormon",
+    "classic-apologetics"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Hugh Nibley. Since Cumorah, 1967. Classic Book of Mormon apologetics."
+}

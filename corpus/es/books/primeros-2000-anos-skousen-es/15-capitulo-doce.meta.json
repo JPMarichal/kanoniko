@@ -1,0 +1,33 @@
+{
+  "title": "CAPITULO DOCE",
+  "author": "W. Cleon Skousen",
+  "book": "Los primeros 2000 años",
+  "chapter": 15,
+  "total_chapters": 51,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "skousen",
+    "old-testament",
+    "adam-to-abraham",
+    "popular-lds-history"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/primeros 2000 años, Los - W. Cleon Skousen.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-05-28T04:00:24+00:00",
+  "opf_identifier": "ec3da823-3b98-43bb-83c3-cddb8d887d5b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "W. Cleon Skousen. Los primeros 2000 años (ES). First Two Thousand Years (Adam to Abraham)."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-family-life",
+    "marriage",
+    "intimacy"
+  ],
+  "category": "books",
+  "author": "Brent A. Barlow",
+  "source_url": null,
+  "note": "Brent A. Barlow. Las relaciones íntimas en el matrimonio (ES)."
+}

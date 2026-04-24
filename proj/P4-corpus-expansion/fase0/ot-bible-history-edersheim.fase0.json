@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biblical-studies",
+    "jewish-christian",
+    "19th-century",
+    "ot-history",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Alfred Edersheim",
+  "source_url": null,
+  "note": "Alfred Edersheim (1825-1889). Old Testament Bible History, 1876-1887."
+}

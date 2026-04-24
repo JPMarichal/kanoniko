@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "apostasy",
+    "classical-studies",
+    "farms",
+    "collected-works"
+  ],
+  "category": "books",
+  "author": "Hugh Nibley",
+  "source_url": null,
+  "note": "Hugh Nibley. The World and the Prophets, 1954/1987. Vol. 3 of Collected Works."
+}

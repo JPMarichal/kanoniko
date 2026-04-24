@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "signs-of-the-times",
+    "last-days",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Donald W. Parry",
+  "source_url": null,
+  "note": "Donald W. Parry. Understanding the Signs of the Times."
+}

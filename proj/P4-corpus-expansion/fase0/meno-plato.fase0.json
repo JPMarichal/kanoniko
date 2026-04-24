@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "greek",
+    "epistemology",
+    "virtue",
+    "plato",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Plato",
+  "source_url": null,
+  "note": "Plato (c. 428-348 BC). Meno. On virtue and knowledge as recollection."
+}

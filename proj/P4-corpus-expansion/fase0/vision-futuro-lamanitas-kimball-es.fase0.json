@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "lamanites",
+    "spanish-discourse"
+  ],
+  "category": "discourses",
+  "author": "Spencer W. Kimball",
+  "source_url": null,
+  "note": "Pres. Spencer W. Kimball. Visión del futuro de los lamanitas."
+}

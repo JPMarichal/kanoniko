@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apologetics",
+    "bible-proofs",
+    "spanish-lds"
+  ],
+  "category": "books",
+  "author": "Duane S. Crowther",
+  "source_url": null,
+  "note": "Duane S. Crowther. Pruebas bíblicas sobre la Iglesia restaurada (ES)."
+}

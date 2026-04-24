@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "moses",
+    "old-testament-prophet",
+    "petersen-prophet-series"
+  ],
+  "category": "biographies",
+  "author": "Mark E. Petersen",
+  "source_url": null,
+  "note": "Elder Mark E. Petersen (1900-1984), Q12. Moses, Man of Miracles. Part of his biblical-prophet series."
+}

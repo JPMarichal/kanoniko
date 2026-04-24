@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hugh-nibley",
+    "quotations",
+    "compilation"
+  ],
+  "category": "reference",
+  "author": "Hugh Nibley (ed. Gary P. Gillum)",
+  "source_url": null,
+  "note": "Hugh Nibley. Of All Things: Classic Quotations from Hugh Nibley (ed. Gillum)."
+}

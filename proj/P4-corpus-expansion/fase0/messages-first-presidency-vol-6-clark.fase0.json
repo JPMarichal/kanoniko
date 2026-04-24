@@ -1,0 +1,17 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "first-presidency-messages",
+    "primary-source-compilation"
+  ],
+  "category": "books",
+  "author": "James R. Clark (ed.)",
+  "source_url": null,
+  "note": "James R. Clark (ed.). Messages of the First Presidency, vol. 6."
+}

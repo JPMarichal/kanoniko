@@ -1,0 +1,31 @@
+{
+  "title": "Courage",
+  "author": "Preston Nibley",
+  "book": "Pioneer Stories",
+  "chapter": 22,
+  "total_chapters": 41,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "pioneer-stories",
+    "church-historian"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Pioneer Stories - Preston Nibley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "08a8ec67-4453-4e68-9e19-4a93d703ddbc",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Preston Nibley. Pioneer Stories."
+}

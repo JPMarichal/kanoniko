@@ -1,0 +1,33 @@
+{
+  "title": "Preface",
+  "author": "Brent A. Barlow",
+  "book": "Understanding Death",
+  "chapter": 1,
+  "total_chapters": 35,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "byu-family-life",
+    "death",
+    "grief",
+    "pastoral"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Understanding Death - Brent A. Barlow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "c4ee702e-be48-44a1-8ef1-c7a089c9e4ed",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Brent A. Barlow. Understanding Death."
+}
