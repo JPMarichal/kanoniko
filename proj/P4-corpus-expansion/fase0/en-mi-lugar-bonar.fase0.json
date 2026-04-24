@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "19th-century",
+    "substitutionary-atonement",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Horatius Bonar",
+  "source_url": null,
+  "note": "19th-c Scottish evangelical on substitutionary atonement."
+}

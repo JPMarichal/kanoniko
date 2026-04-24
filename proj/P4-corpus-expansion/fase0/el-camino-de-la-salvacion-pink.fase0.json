@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "reformed",
+    "salvation",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Arthur W. Pink",
+  "source_url": null,
+  "note": "Reformed Baptist on the way of salvation. Non-LDS reference."
+}

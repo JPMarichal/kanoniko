@@ -1,0 +1,33 @@
+{
+  "title": "En mi lugar",
+  "author": "Horatius Bonar",
+  "book": "En mi lugar",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "19th-century",
+    "substitutionary-atonement",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/En mi lugar - Horatius Bonar.epub",
+  "opf_publisher": "Chapel Library",
+  "opf_date": "2007-07-26T14:10:07+00:00",
+  "opf_identifier": "4b11523a-7b3f-45a1-933f-108e7921bd7e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "19th-c Scottish evangelical on substitutionary atonement."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "El camino de la salvación",
+  "author": "Arthur W. Pink",
+  "book": "El camino de la salvación",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "reformed",
+    "salvation",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/camino de la salvación, El - Arthur W. Pink.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-04-28T16:01:30+00:00",
+  "opf_identifier": "3c2d0ba8-fdeb-4e95-abf1-f432e707de35",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Reformed Baptist on the way of salvation. Non-LDS reference."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Culto familiar",
+  "author": "Arthur W. Pink",
+  "book": "Culto familiar",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "reformed",
+    "family-worship",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Culto familiar - Arthur W. Pink.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-04-28T14:08:15+00:00",
+  "opf_identifier": "7a404b9d-b973-4cdb-a06e-bac7b538654d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Reformed Baptist on family worship. Non-LDS reference."
+}

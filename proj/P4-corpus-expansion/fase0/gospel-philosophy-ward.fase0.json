@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "apologetics",
+    "gospel-science"
+  ],
+  "category": "books",
+  "author": "J. H. Ward",
+  "source_url": null,
+  "note": "1884 LDS apologetic work on gospel, science, and history."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Escrito está--alabado sea el Señor",
+  "author": "Lee Roy Shelton Jr.",
+  "book": "Escrito está--alabado sea el Señor",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "baptist",
+    "scripture-authority",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 45,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Escrito está--alabado sea el Señor - Lee Roy Shelton, Jr_.epub",
+  "opf_publisher": "Chapel Library",
+  "opf_date": "2007-07-26T13:58:23+00:00",
+  "opf_identifier": "14d405e7-87b3-4223-abc9-404a1cd78106",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Baptist preacher on scripture authority. Non-LDS reference."
+}

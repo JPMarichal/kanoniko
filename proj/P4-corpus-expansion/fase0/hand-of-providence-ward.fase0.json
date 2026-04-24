@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "providence",
+    "history-of-nations"
+  ],
+  "category": "history",
+  "author": "J. H. Ward",
+  "source_url": null,
+  "note": "1883 LDS work on divine providence in history."
+}

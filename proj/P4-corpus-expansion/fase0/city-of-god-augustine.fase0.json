@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "5th-century",
+    "christian-theology",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Augustine of Hippo",
+  "source_url": null,
+  "note": "Augustine's City of God (c. 413-426 AD). Patristic classic."
+}

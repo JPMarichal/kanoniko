@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-commentary",
+    "19th-century",
+    "evangelical",
+    "reference-work"
+  ],
+  "category": "reference",
+  "author": "Robert Jamieson, A. R. Fausset & David Brown",
+  "source_url": null,
+  "note": "Jamieson-Fausset-Brown Bible Commentary, vol. 2 (NT). Non-LDS reference."
+}

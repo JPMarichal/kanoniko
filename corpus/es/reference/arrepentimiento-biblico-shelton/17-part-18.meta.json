@@ -1,0 +1,33 @@
+{
+  "title": "Part 18",
+  "author": "Lee Roy Shelton Jr.",
+  "book": "Arrepentimiento bíblico",
+  "chapter": 17,
+  "total_chapters": 30,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "baptist",
+    "repentance",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 45,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Arrepentimiento bíblico - Lee Roy Shelton, Jr_.epub",
+  "opf_publisher": null,
+  "opf_date": "2007-06-04T15:53:26+00:00",
+  "opf_identifier": "a33aa6dc-8eca-4957-b610-3c2f3e16ba12",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Baptist preacher on biblical repentance. Non-LDS reference."
+}

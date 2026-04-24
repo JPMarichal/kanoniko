@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 45,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "baptist",
+    "scripture-authority",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Lee Roy Shelton Jr.",
+  "source_url": null,
+  "note": "Baptist preacher on scripture authority. Non-LDS reference."
+}

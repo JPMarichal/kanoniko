@@ -1,0 +1,33 @@
+{
+  "title": "March-august, A.D. 69",
+  "author": "Tacitus",
+  "book": "Histories",
+  "chapter": 2,
+  "total_chapters": 5,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "classical",
+    "roman-history",
+    "primary-source",
+    "1st-century"
+  ],
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Histories - Tacitus.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b2ed1db7-8125-4c97-97d5-4e0b56f62bb5",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Tacitus's Histories. Classical Roman history."
+}

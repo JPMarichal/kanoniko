@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "classical",
+    "roman-history",
+    "primary-source",
+    "1st-century"
+  ],
+  "category": "history",
+  "author": "Tacitus",
+  "source_url": null,
+  "note": "Tacitus's Histories. Classical Roman history."
+}

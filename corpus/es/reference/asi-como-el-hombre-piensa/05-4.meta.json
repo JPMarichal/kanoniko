@@ -1,0 +1,32 @@
+{
+  "title": "4",
+  "author": "James Allen",
+  "book": "Así como el hombre piensa",
+  "chapter": 5,
+  "total_chapters": 8,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "self-help",
+    "victorian",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 40,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Así como el hombre piensa - James Allen.epub",
+  "opf_publisher": null,
+  "opf_date": "2008-10-25T03:43:25+00:00",
+  "opf_identifier": "9f78e19b-d3d3-46de-bbde-18dc68f7d445",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Spanish translation of Allen's 1903 essay."
+}

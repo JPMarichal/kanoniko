@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith-promoting-series",
+    "19th-century-lds",
+    "visions",
+    "anthology"
+  ],
+  "category": "books",
+  "author": "Various (Compilation)",
+  "source_url": null,
+  "note": "19th-c LDS Faith-Promoting Series #14."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "19th-century",
+    "american-history",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Alexis de Tocqueville",
+  "source_url": null,
+  "note": "Tocqueville's Democracy in America, vol. 2 (1840)."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "4th-century",
+    "autobiography",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Augustine of Hippo",
+  "source_url": null,
+  "note": "Augustine's Confessions (c. 397-400 AD). Patristic classic."
+}

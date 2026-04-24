@@ -1,0 +1,33 @@
+{
+  "title": "Newel K. Whitney Faithful Steward, Steadfast Saint",
+  "author": "Various General Authorities",
+  "book": "Heroes of the Restoration",
+  "chapter": 16,
+  "total_chapters": 18,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "restoration",
+    "heroes",
+    "apostle-authored",
+    "anthology"
+  ],
+  "authority": 45,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Heroes of the Restoration - Various General Authorities.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "aad73fd0-70fb-48ae-95d7-ad3d5faebd1b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Deseret Book anthology on Restoration heroes by GAs."
+}

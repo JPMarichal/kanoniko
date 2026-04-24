@@ -1,0 +1,33 @@
+{
+  "title": "Elder Richard G. Scott Nephi, Son of Helaman",
+  "author": "Various General Authorities",
+  "book": "Heroes from the Book of Mormon",
+  "chapter": 14,
+  "total_chapters": 20,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "heroes",
+    "apostle-authored",
+    "anthology"
+  ],
+  "authority": 45,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Heroes from the Book of Mormon - Various General Authorities.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "52415b46-be44-4c45-af10-3ebbddd31287",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Deseret Book anthology on BoM heroes by GAs."
+}

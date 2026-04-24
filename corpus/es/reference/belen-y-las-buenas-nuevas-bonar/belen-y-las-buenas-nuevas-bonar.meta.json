@@ -1,0 +1,33 @@
+{
+  "title": "Belén y las buenas nuevas",
+  "author": "Horatius Bonar",
+  "book": "Belén y las buenas nuevas",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "19th-century",
+    "nativity",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Belén y las buenas nuevas - Horatius Bonar.epub",
+  "opf_publisher": null,
+  "opf_date": "2007-07-18T11:38:46+00:00",
+  "opf_identifier": "e77f1b32-2af6-4937-83dd-d81d9fbea4f1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "19th-c Scottish evangelical on the nativity."
+}

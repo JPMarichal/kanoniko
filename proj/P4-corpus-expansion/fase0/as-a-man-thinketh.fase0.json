@@ -1,0 +1,18 @@
+{
+  "authority": 15,
+  "rigor": 40,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "self-help",
+    "victorian",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "James Allen",
+  "source_url": null,
+  "note": "Allen's 1903 essay on thought and character."
+}
