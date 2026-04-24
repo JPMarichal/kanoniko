@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "rationalism",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Ren\u00e9 Descartes",
+  "source_url": null,
+  "note": "Descartes (1596-1650). Discours de la m\u00e9thode, 1637. 'Cogito ergo sum'."
+}

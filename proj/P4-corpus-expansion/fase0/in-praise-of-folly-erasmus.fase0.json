@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "renaissance",
+    "16th-century",
+    "christian-humanism",
+    "satire",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Desiderius Erasmus",
+  "source_url": null,
+  "note": "Erasmus (1466-1536). Moriae Encomium, 1511. Renaissance satire of church corruption."
+}

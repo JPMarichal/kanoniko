@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "17th-century",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Thomas Hobbes",
+  "source_url": null,
+  "note": "Hobbes (1588-1679). Leviathan, 1651. Foundation of modern political theory."
+}

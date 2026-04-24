@@ -1,0 +1,33 @@
+{
+  "title": "Of Faction",
+  "author": "Francis Bacon",
+  "book": "Essays of Sir Francis Bacon",
+  "chapter": 50,
+  "total_chapters": 58,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "english-renaissance",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Essays of Sir Francis Bacon - Francis Bacon.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b32a2222-ec38-4aba-a013-2d1961f9b63f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Francis Bacon (1561-1626). Essays, 1597/1612/1625."
+}

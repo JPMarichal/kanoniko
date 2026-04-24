@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "empiricism",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "John Locke",
+  "source_url": null,
+  "note": "Locke (1632-1704). Essay Concerning Human Understanding, 1689."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "19th-century",
+    "transcendentalism",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Ralph Waldo Emerson",
+  "source_url": null,
+  "note": "Emerson (1803-1882). Essays, 1841-1844. Core Transcendentalist texts."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Manners",
+  "author": "Ralph Waldo Emerson",
+  "book": "Essays of Ralph Waldo Emerson",
+  "chapter": 16,
+  "total_chapters": 20,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "philosophy",
+    "19th-century",
+    "transcendentalism",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Essays of Ralph Waldo Emerson - Ralph Waldo Emerson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "d487a23e-3c8e-4a86-a437-ff5db491c068",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Emerson (1803-1882). Essays, 1841-1844. Core Transcendentalist texts."
+}

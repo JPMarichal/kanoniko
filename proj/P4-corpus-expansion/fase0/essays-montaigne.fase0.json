@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "16th-century",
+    "essay-form",
+    "skepticism",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Michel de Montaigne",
+  "source_url": null,
+  "note": "Montaigne (1533-1592). Essais, 1580-1595. Founded the essay genre."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 20,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "18th-century",
+    "poetic-philosophy",
+    "theodicy",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Alexander Pope",
+  "source_url": null,
+  "note": "Alexander Pope (1688-1744). An Essay on Man, 1733-1734. Philosophical poem."
+}

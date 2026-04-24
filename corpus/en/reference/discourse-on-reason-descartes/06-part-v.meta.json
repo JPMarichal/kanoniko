@@ -1,0 +1,33 @@
+{
+  "title": "Part V",
+  "author": "René Descartes",
+  "book": "Discourse on Reason",
+  "chapter": 6,
+  "total_chapters": 7,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "rationalism",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Discourse on Reason - Descartes.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "79f8970c-ad82-411a-b2e4-1bd8dc760ce0",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Descartes (1596-1650). Discours de la méthode, 1637. 'Cogito ergo sum'."
+}

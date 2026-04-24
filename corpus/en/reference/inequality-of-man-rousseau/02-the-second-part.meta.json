@@ -1,0 +1,33 @@
+{
+  "title": "The Second Part",
+  "author": "Jean-Jacques Rousseau",
+  "book": "Inequality of Man",
+  "chapter": 2,
+  "total_chapters": 2,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "enlightenment",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Inequality of Man - Jean Jacques Rousseau.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "3858d04b-7a4f-4cdd-abb9-865f11cc7d75",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Rousseau (1712-1778). Discours sur l'origine de l'inégalité, 1755."
+}

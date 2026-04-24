@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "american-revolution",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Thomas Paine",
+  "source_url": null,
+  "note": "Thomas Paine (1737-1809). Common Sense, 1776. Pamphlet that galvanized American independence."
+}

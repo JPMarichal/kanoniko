@@ -1,0 +1,33 @@
+{
+  "title": "Of Probability",
+  "author": "John Locke",
+  "book": "Essay Concerning Human Understanding",
+  "chapter": 64,
+  "total_chapters": 70,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "philosophy",
+    "17th-century",
+    "empiricism",
+    "primary-source"
+  ],
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Essay Concerning Human Understanding - John Locke.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "940cd9d6-1e2d-4bb2-833f-5b2077b81ddf",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Locke (1632-1704). Essay Concerning Human Understanding, 1689."
+}

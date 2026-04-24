@@ -1,0 +1,20 @@
+{
+  "authority": 20,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "19th-century",
+    "existentialism",
+    "primary-source",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Friedrich Nietzsche",
+  "source_url": null,
+  "note": "Nietzsche (1844-1900). Also sprach Zarathustra, 1883-1885."
+}

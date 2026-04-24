@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "political-philosophy",
+    "18th-century",
+    "enlightenment",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Jean-Jacques Rousseau",
+  "source_url": null,
+  "note": "Rousseau (1712-1778). Discours sur l'origine de l'in\u00e9galit\u00e9, 1755."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "18th-century",
+    "epistemology",
+    "german-idealism",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Immanuel Kant",
+  "source_url": null,
+  "note": "Kant (1724-1804). Kritik der reinen Vernunft, 1781/1787. Foundational work of modern philosophy."
+}
