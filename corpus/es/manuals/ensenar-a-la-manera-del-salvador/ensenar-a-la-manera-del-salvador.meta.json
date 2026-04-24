@@ -1,0 +1,33 @@
+{
+  "title": "Enseñar a la manera del Salvador",
+  "author": "IJCSUD",
+  "book": "Enseñar a la manera del Salvador",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Enseñar a la manera del Salvador - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2024-10-12T06:00:00+00:00",
+  "opf_identifier": "6940dec0-d3ed-42d7-b167-5cbbf5d4a9f1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Enseñar a la manera del Salvador. Classification by filename keywords."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Contenido relacionado",
+  "author": "IJCSUD",
+  "book": "En el púlpito",
+  "chapter": 23,
+  "total_chapters": 398,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/En el púlpito - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "5bc3a4b0-1b7f-4c14-8c24-4c75164f4f20",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): En el púlpito. Classification by filename keywords."
+}

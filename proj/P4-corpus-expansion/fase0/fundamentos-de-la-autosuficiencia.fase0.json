@@ -1,0 +1,20 @@
+{
+  "authority": 50,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "general",
+  "tags": [
+    "life-help",
+    "self-reliance",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "manuals",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Fundamentos de la autosuficiencia. Classification by filename keywords."
+}

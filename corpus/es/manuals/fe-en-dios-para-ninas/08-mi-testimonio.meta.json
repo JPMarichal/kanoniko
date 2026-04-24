@@ -1,0 +1,33 @@
+{
+  "title": "MI TESTIMONIO",
+  "author": "IJCSUD",
+  "book": "Fe en Dios para niñas",
+  "chapter": 8,
+  "total_chapters": 11,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "family-youth-children",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 60,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Fe en Dios para niñas - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2008-01-17T14:48:02+00:00",
+  "opf_identifier": "78902dd5-3170-4f62-8b30-71e2cdeaf960",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Fe en Dios para niñas. Classification by filename keywords."
+}

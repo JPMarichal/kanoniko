@@ -1,0 +1,33 @@
+{
+  "title": "LA PERLA DE GRAN PRECIO",
+  "author": "IJCSUD",
+  "book": "LAPERLA DE GRAN PRECIO MANUAL DEL MAESTRO",
+  "chapter": 3,
+  "total_chapters": 4,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "scripture-study",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 60,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/LAPERLA DE GRAN PRECIO MANUAL DEL MAESTRO - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-09-21T22:54:37+00:00",
+  "opf_identifier": "070d3129-6d77-4aeb-b4c5-27f713dbdfe2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): LAPERLA DE GRAN PRECIO MANUAL DEL MAESTRO. Classification by filename keywords."
+}

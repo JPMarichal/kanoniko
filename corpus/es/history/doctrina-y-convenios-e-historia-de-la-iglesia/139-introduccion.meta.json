@@ -1,0 +1,33 @@
+{
+  "title": "Introducción",
+  "author": "IJCSUD",
+  "book": "Doctrina y Convenios e Historia de la Iglesia",
+  "chapter": 139,
+  "total_chapters": 854,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "church-history",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doctrina y Convenios e Historia de la Iglesia - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "12ebdfe6-906e-4b48-84d2-705bb94fbb23",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Doctrina y Convenios e Historia de la Iglesia. Classification by filename keywords."
+}

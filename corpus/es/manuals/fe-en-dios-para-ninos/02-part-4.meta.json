@@ -1,0 +1,33 @@
+{
+  "title": "Part 4",
+  "author": "IJCSUD",
+  "book": "Fe en Dios para niños",
+  "chapter": 2,
+  "total_chapters": 11,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "family-youth-children",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 60,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Fe en Dios para niños - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2008-01-17T14:12:01+00:00",
+  "opf_identifier": "2ee4782d-df35-4827-9d38-7236ddf97a2c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Fe en Dios para niños. Classification by filename keywords."
+}

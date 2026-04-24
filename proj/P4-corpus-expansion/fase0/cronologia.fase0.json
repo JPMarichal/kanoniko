@@ -1,0 +1,19 @@
+{
+  "authority": 57,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "reference",
+  "audience": "general",
+  "tags": [
+    "study-aid",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "study-aids",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Cronología. Classification by filename keywords."
+}

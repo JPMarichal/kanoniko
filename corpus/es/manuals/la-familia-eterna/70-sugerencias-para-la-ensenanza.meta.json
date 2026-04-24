@@ -1,0 +1,33 @@
+{
+  "title": "Sugerencias para la enseñanza",
+  "author": "IJCSUD",
+  "book": "La familia eterna",
+  "chapter": 70,
+  "total_chapters": 119,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/La familia eterna - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "b257e3f1-24b7-455c-a984-f3ebd2acfb88",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): La familia eterna. Classification by filename keywords."
+}

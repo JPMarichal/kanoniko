@@ -1,0 +1,33 @@
+{
+  "title": "CONOCIMIENTO EN BUSCA DE",
+  "author": "IJCSUD",
+  "book": "Deberes y bendiciones del sacerdocio, parte B",
+  "chapter": 15,
+  "total_chapters": 22,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "priesthood",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 60,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Deberes y bendiciones del sacerdocio, parte B - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-02-04T13:50:31+00:00",
+  "opf_identifier": "c2c3823f-e612-45dc-aaf9-9fa6ef4dc126",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Deberes y bendiciones del sacerdocio, parte B. Classification by filename keywords."
+}

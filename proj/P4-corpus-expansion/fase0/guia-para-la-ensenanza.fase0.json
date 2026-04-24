@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "general",
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "manuals",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Guía para la Enseñanza. Classification by filename keywords."
+}

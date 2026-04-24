@@ -1,0 +1,19 @@
+{
+  "authority": 60,
+  "rigor": 65,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "general",
+  "tags": [
+    "scripture-study",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "manuals",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): ANTIGUO TESTAMENTO 2022 Ven, sígueme — Para uso indi. Classification by filename keywords."
+}

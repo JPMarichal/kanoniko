@@ -1,0 +1,33 @@
+{
+  "title": "Naamán",
+  "author": "IJCSUD",
+  "book": "Guía para el Estudio de las Escrituras",
+  "chapter": 638,
+  "total_chapters": 1059,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Guía para el Estudio de las Escrituras - La Iglesia de Jesucristo de los Santos de los Últimos Días (1).epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ddb34511-a19b-4b9a-bdc0-3283a7ad63e9",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Guía para el Estudio de las Escrituras. Classification by filename keywords."
+}

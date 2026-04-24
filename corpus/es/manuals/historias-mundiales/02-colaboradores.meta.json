@@ -1,0 +1,33 @@
+{
+  "title": "Colaboradores",
+  "author": "IJCSUD",
+  "book": "Historias mundiales",
+  "chapter": 2,
+  "total_chapters": 73,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Historias mundiales - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "80d0dac4-9269-4502-9da1-20d8006c54ec",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Historias mundiales. Classification by filename keywords."
+}

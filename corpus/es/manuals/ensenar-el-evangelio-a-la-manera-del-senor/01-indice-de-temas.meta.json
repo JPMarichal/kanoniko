@@ -1,0 +1,33 @@
+{
+  "title": "Índice de temas",
+  "author": "IJCSUD",
+  "book": "Enseñar el evangelio a la manera del Señor",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Enseñar el evangelio a la manera del Señor - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2012-10-04T19:38:16+00:00",
+  "opf_identifier": "7216cf6a-2493-4fc4-b926-bc78ed115d60",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Enseñar el evangelio a la manera del Señor. Classification by filename keywords."
+}

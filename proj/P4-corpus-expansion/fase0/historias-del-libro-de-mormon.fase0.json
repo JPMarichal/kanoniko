@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "general",
+  "tags": [
+    "church-history",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "history",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Historias del Libro de Mormón. Classification by filename keywords."
+}

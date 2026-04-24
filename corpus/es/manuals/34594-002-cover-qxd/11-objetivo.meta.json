@@ -1,0 +1,33 @@
+{
+  "title": "OBJETIVO",
+  "author": "IJCSUD",
+  "book": "34594_002_Cover.qxd",
+  "chapter": 11,
+  "total_chapters": 64,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/34594_002_Cover.qxd - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2007-03-26T15:52:34+00:00",
+  "opf_identifier": "cd9e6497-d40f-4dad-ac60-300128ba06c3",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): 34594_002_Cover.qxd. Classification by filename keywords."
+}

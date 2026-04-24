@@ -1,0 +1,33 @@
+{
+  "title": "Explicación",
+  "author": "IJCSUD",
+  "book": "Guía sobre la obra del templo y de historia familiar",
+  "chapter": 4,
+  "total_chapters": 4,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "church-publication",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 55,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Guía sobre la obra del templo y de historia familiaresia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2013-04-16T20:25:44+00:00",
+  "opf_identifier": "bd1fc183-643b-4b10-868d-fa817e87b60d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Guía sobre la obra del templo y de historia familiar. Classification by filename keywords."
+}

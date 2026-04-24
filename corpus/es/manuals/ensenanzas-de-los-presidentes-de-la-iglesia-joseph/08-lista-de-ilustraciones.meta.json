@@ -1,0 +1,33 @@
+{
+  "title": "Lista de ilustraciones",
+  "author": "IJCSUD",
+  "book": "Enseñanzas de los Presidentes de la Iglesia: Joseph Fielding Smith",
+  "chapter": 8,
+  "total_chapters": 8,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "teachings-of-presidents",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 60,
+  "rigor": 70,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Enseñanzas de los Presidentes de la Iglesia_ Joseph esia de Jesucristo de los Santos de los Últimos Días (1).epub",
+  "opf_publisher": null,
+  "opf_date": "2013-05-07T15:51:46+00:00",
+  "opf_identifier": "d10b1bf4-745b-4eb2-9cdf-fae72303d67c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Enseñanzas de los Presidentes de la Iglesia_ Joseph. Classification by filename keywords."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 60,
+  "rigor": 70,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "general",
+  "tags": [
+    "teachings-of-presidents",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "manuals",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Enseñanzas de los Presidentes de la Iglesia_ George. Classification by filename keywords."
+}

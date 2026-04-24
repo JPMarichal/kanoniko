@@ -1,0 +1,19 @@
+{
+  "authority": 60,
+  "rigor": 60,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "manual",
+  "audience": "general",
+  "tags": [
+    "music",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "category": "music",
+  "author": "IJCSUD",
+  "source_url": null,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): El uso del himnario. Classification by filename keywords."
+}

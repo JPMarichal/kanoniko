@@ -1,0 +1,33 @@
+{
+  "title": "Part 107",
+  "author": "IJCSUD",
+  "book": "Himnos",
+  "chapter": 106,
+  "total_chapters": 188,
+  "category": "music",
+  "subcategory": null,
+  "tags": [
+    "music",
+    "correlated",
+    "ijcsud",
+    "spanish-translation"
+  ],
+  "authority": 60,
+  "rigor": 60,
+  "importance": "importante",
+  "official": true,
+  "context": "manual",
+  "audience": "general",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Himnos - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "dfbb21b6-eba7-493f-9cc2-98a0a9e9a6eb",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "IJCSUD batch incorporation (2026-04-23). Title (cleaned from filename): Himnos. Classification by filename keywords."
+}
