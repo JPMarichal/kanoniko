@@ -1,0 +1,23 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "christology",
+    "birth-of-christ",
+    "prophecy",
+    "old-testament",
+    "apostle-authored",
+    "spanish-translation",
+    "booklet",
+    "discourse"
+  ],
+  "category": "books",
+  "author": "Dallin H. Oaks",
+  "source_url": null,
+  "note": "Folleto ES de un discurso de Oaks sobre las profecías del nacimiento de Cristo en las escrituras antiguas (AT y LdM). Publicado por Centros de Distribución SUD. Folleto corto (~7 KB)."
+}

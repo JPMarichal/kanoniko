@@ -1,0 +1,23 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "patience",
+    "prayer",
+    "adversity",
+    "providence",
+    "apostle-authored",
+    "spanish-translation",
+    "booklet",
+    "discourse"
+  ],
+  "category": "books",
+  "author": "Dallin H. Oaks",
+  "source_url": null,
+  "note": "Folleto ES de un discurso de Oaks sobre paciencia y el tiempo del Señor en responder oraciones y dificultades. Folleto corto (~14 KB). Publicado por Centros de Distribución SUD."
+}

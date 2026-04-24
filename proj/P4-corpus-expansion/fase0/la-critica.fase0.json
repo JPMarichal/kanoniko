@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "criticism",
+    "discipleship",
+    "apostle-authored",
+    "spanish-translation",
+    "byu-address",
+    "discourse"
+  ],
+  "category": "books",
+  "author": "Dallin H. Oaks",
+  "source_url": null,
+  "note": "Folleto ES basado en un discurso de Oaks sobre la crítica como fenómeno y su papel en la vida del discípulo. Estructura más desarrollada (7 h1s, ~32 KB) — posiblemente BYU devotional expandido. Publicado por Centros de Distribución SUD."
+}
