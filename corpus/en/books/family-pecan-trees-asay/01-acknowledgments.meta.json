@@ -1,0 +1,32 @@
+{
+  "title": "Acknowledgments",
+  "author": "Carlos E. Asay",
+  "book": "Family Pecan Trees, Planting a Legacy of Faith at Home",
+  "chapter": 1,
+  "total_chapters": 25,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "family",
+    "asay",
+    "seventy"
+  ],
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Family Pecan Trees, Planting a Legacy of Faith at Home - Carlos E. Asay.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e8b0aed4-9f1b-46fc-8e7a-e33c1915587b",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Asay (Seventy) on family."
+}

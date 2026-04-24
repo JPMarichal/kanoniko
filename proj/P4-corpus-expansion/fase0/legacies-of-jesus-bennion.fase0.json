@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "ethics",
+    "bennion"
+  ],
+  "category": "books",
+  "author": "Lowell L. Bennion",
+  "source_url": null,
+  "note": "Bennion on christology/ethics."
+}

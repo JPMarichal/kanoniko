@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "dead-sea-scrolls",
+    "parry-dw",
+    "byu-scholarship"
+  ],
+  "category": "reference",
+  "author": "Donald W. Parry",
+  "source_url": null,
+  "note": "Parry on DSS from LDS scholarly perspective."
+}

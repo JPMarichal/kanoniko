@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "family",
+    "cook-gr",
+    "seventy",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Gene R. Cook",
+  "source_url": null,
+  "note": "Cook (Seventy 1975-2008) sobre familia. ES."
+}

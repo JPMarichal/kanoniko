@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "hinckley",
+    "church-president",
+    "discipleship"
+  ],
+  "category": "books",
+  "author": "Gordon B. Hinckley",
+  "source_url": null,
+  "note": "Hinckley (15th Pres 1995-2008). Pre-presidency discourses."
+}

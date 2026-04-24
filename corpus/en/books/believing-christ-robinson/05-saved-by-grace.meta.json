@@ -1,0 +1,33 @@
+{
+  "title": "Saved by Grace",
+  "author": "Stephen E. Robinson",
+  "book": "Believing Christ",
+  "chapter": 5,
+  "total_chapters": 7,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "atonement",
+    "christology",
+    "robinson-se",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Believing Christ - Stephen E Robinson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "6c600cc9-55ab-462d-80b6-94cf41237d83",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Robinson (BYU religion dean) classic on the Atonement — believing IN Christ vs believing Christ. Pre-1990."
+}

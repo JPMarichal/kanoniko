@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "gospel",
+    "ces",
+    "bennion",
+    "introduction"
+  ],
+  "category": "books",
+  "author": "Lowell L. Bennion",
+  "source_url": null,
+  "note": "Bennion (CES director, LDS intellectual) intro to gospel."
+}

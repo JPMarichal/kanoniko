@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "aaronic-priesthood",
+    "mcconkie-ow",
+    "priesthood"
+  ],
+  "category": "books",
+  "author": "Oscar W. McConkie",
+  "source_url": null,
+  "note": "Oscar W. McConkie (father of Bruce R., Assistant to Q12 1946-1950s era) on the Aaronic Priesthood."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "The Faith of the Pioneers",
+  "author": "Gordon B. Hinckley",
+  "book": "Faith, The Essence of True Religion",
+  "chapter": 15,
+  "total_chapters": 18,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "faith",
+    "hinckley",
+    "church-president"
+  ],
+  "authority": 50,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Faith, The Essence of True Religion - Gordon B Hinckley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "50a97ad8-e839-4d1e-951d-a58c47a94952",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Hinckley on faith."
+}

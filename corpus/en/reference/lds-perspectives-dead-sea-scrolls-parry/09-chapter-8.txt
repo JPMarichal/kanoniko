@@ -1,0 +1,66 @@
+Dana M. Pike, Donald W. Parry, LDS Perspectives on the Dead Sea Scrolls ( 1997)
+
+Chapter 8
+
+The FARMS-BYU Dead Sea Scrolls
+
+Electronic Database
+
+Donald W. Parry Steven W. Booras E. Jan Wilson
+
+Donald W. Parry is assistant professor of Hebrew language and literature at Brigham Young University, Steven W. Booras is electronic projects specialist at the Foundation for Ancient Research and Mormon Studies, and E. Jan Wilson is associate director of the FARMS Center for the Electronic Preservation of Ancient Religious Texts.
+
+Scholars and interested nonscholars can now access the Dead Sea Scrolls on computer. The Foundation for Ancient Research and Mormon Studies (FARMS), in conjunction with Brigham Young University and other parties, [^1] has developed a computerized reference library of Dead Sea Scrolls materials that includes photographs of the scrolls and scroll fragments, transcriptions of the writings on the scrolls into modern Hebrew characters and English translations of the Hebrew. [^2] For the first time, students, scholars, and informed laypersons will be able to access the Dead Sea Scrolls quickly and effectively via the computer with the FARMS-BYU Dead Sea Scrolls Electronic Database. The combination of modern computer power and sophisticated text-manipulating software offers the prospect of combining all these materials into a database that can be analyzed simultaneously and instantaneously by scholars and researchers at a relatively low cost.
+
+In the past, limited access to the scrolls hindered the studies of scholars and students of the Dead Sea Scrolls. In recent years the situation has improved somewhat because of increasing publication of DSS material. The database now makes it possible for individuals to study the scrolls on computer. The database will not offer interpretations or scholarly analyses of the scrolls. It aims only to provide comprehensive reference materials in the most accessible format possible. It does not pretend to offer authoritative or new readings of texts. It simply provides the most accurate possible readings that have already been offered by DSS scholars.
+
+Computer Power
+
+The database uses the WordCruncher(TM) search engine, a program developed at BYU, and provides the ability to
+
+Â access large quantities of material, including both text and photographs;
+
+Â search the text for words and phrases;
+
+Â display the photographs of the scrolls and fragments;
+
+Â store and retrieve earlier searches;
+
+Â copy blocks of material to be stored on the user's disk or hard drive and print the materials on the user's printer;
+
+Â find the number of times a given word is attested in a single document or in a number of documents and study its usage in various contextual settings to determine meaning;
+
+Â research and compare items in a way not possible a generation ago.
+
+The Computerized Photographs
+
+The database contains over eleven hundred photographs of the scrolls that were scanned from negatives and transparencies belonging to the Ancient Biblical Manuscript Center collection in Claremont, California. Dr. James Sanders, president of the Ancient Biblical Manuscript Center, and his staff have graciously allowed the use of these photographs in the database. [^3] The selection of images includes photographs from the Palestine Archaeological Museum (held at the Rockefeller Museum), the Israel Antiquities Authority, and the Shrine of the Book. The database allows the user to view and manipulate the photograph on the computer. For instance, the user is able to magnify the photograph and study it very closely.
+
+Fig. 1. Computerized image of a portion of 1Qsa
+
+Fig. 2. Magnified image of a portion of 1Qsa
+
+Fig. 3. Six occurrences of the word [Âµlw[.
+
+Fig. 4. Searching for the words sons and light within ten words of each other
+
+Searching the Text
+
+Both the Hebrew text (transcription) of the scrolls and the English translation may be searched for words and phrases. A simple word search or a search for a sophisticated phrase search may be conducted throughout the entire database. The results of the search ("hits") are shown immediately and can be viewed on the computer screen. The results may be printed or stored on the disk for recall at a later time.
+
+Conclusion
+
+The database includes numerous other features that will assist serious students in their study of the Dead Sea Scrolls, such as the ability to add the user's research notes to the database or to conduct wild-card searches. External programs can be executed while using the database, and a Hebrew lexicon can be referenced. In addition, the "database supports the synchronization of two or more files simultaneously if they possess marked codes. . . . As the user scrolls down one text, the computer automatically repositions the other text(s) to the same section as the text being scrolled." [^4]
+
+The database brings scholarship and state-of-the-art technology closer together. When it is published in 1997 or early 1998, we expect that its users will gain many new insights as they study the scrolls. We may also see new discoveries and contributions in related fields of study, including the Old Testament, Judaism, linguistics, history, Near Eastern languages, early Christianity, and religious studies.
+
+This same technology may eventually be used to study documents from other cultures and peoples, such as the ancient Maya of Mesoamerica or the early Chaldean Christians of Northern Persia. The Foundation for Ancient Research and Mormon Studies anticipates continuing its pioneering efforts in this direction.
+
+Notes
+
+---
+Notas:
+[^1] We acknowledge the work, dedication, and expertise of several individuals who have made the dream regarding the database become a reality. We appreciate the collaborative efforts and ongoing encouragement of both Emanuel Tov, editor in chief of the Dead Sea Scrolls publication project and professor at Hebrew University, Jerusalem, and Weston W. Fields, executive director of the DSS Foundation. We are grateful to Stephen J. Pfann of the Center for the Study of Early Christianity for the DSS transcription files and to James A. Sanders, president of the Ancient Biblical Manuscript Center in Claremont, California, for the scroll and fragment photographs. We also recognize FARMS and BYU, both of which have contributed many resources in the form of personnel, services, and consultative assistance. In particular, we thank Noel B. Reynolds, professor of political science at BYU, president of FARMS, and producer of the FARMS-BYU Dead Sea Scrolls Electronic Database; Monte F. Shelley, director of Instructional Applications Services at BYU; and his colleagues James S. Rosenvall, manager of WordCruncherÂª development team, William A. Barrett, associate chair of the computer science department, and Daniel R. Bartholomew and Jason W. Dzubak, senior programmers. We also wish to thank Dana Pike, assistant professor of ancient scripture at BYU; Terry Szink, Ph.D. candidate in Near Eastern languages and cultures at UCLA; and Kerry M. Muhlestein, a BYU graduate student in Near Eastern studies, for their professional assistance.
+[^2] The database currently features only nonbiblical texts from the eleven caves of Qumran.
+[^3] See Stephen A. Reed, The Dead Sea Scrolls Catalogue: Documents, Photographs and Museum Inventory Numbers (Atlanta: Scholars Press, 1994).
+[^4] Donald W. Parry and Steven W. Booras, "The Dead Sea Scrolls CD-ROM Database Project," in Current Research and Technological Developments on the Dead Sea Scrolls, ed. Donald W. Parry and Stephen D. Ricks (New York: E. J. Brill, 1996), 250.

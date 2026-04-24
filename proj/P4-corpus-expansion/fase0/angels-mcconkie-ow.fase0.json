@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "angels",
+    "mcconkie-ow",
+    "doctrine"
+  ],
+  "category": "books",
+  "author": "Oscar W. McConkie",
+  "source_url": null,
+  "note": "Oscar W. McConkie's doctrinal study of angels."
+}

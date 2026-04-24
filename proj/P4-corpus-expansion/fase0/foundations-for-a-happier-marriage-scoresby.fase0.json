@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "marriage",
+    "family",
+    "scoresby"
+  ],
+  "category": "books",
+  "author": "A. Lynn Scoresby",
+  "source_url": null,
+  "note": "Scoresby on marriage."
+}

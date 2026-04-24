@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "poetry",
+    "epic",
+    "whitney",
+    "q12",
+    "theological-verse"
+  ],
+  "category": "books",
+  "author": "Orson F. Whitney",
+  "source_url": null,
+  "note": "Whitney (Q12 1906-1931) — his epic poem on LDS theology/history."
+}

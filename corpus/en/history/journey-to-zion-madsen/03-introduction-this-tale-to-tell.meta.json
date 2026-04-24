@@ -1,0 +1,33 @@
+{
+  "title": "Introduction: \"This Tale to Tell\"",
+  "author": "Carol Cornwall Madsen",
+  "book": "Journey to Zion",
+  "chapter": 3,
+  "total_chapters": 59,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "pioneers",
+    "migration",
+    "madsen-cc",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Journey to Zion - Carol Cornwall Madsen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "01c128b1-069f-4961-836f-9d3a0fe1bd33",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Madsen on pioneer migration."
+}

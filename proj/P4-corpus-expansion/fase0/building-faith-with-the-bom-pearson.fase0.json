@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "pearson-gl",
+    "bankhead",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Glenn L. Pearson & Reid E. Bankhead",
+  "source_url": null,
+  "note": "Pearson & Bankhead, BYU BoM study."
+}

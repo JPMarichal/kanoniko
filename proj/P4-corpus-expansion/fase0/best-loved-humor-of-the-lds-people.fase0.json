@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "humor",
+    "compilation",
+    "parry-j",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Jay A. Parry & Jack M. Lyon & Linda Ririe Gundry",
+  "source_url": null,
+  "note": "Parry/Lyon/Gundry compilation of LDS humor."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "parenting",
+    "family",
+    "moral-development",
+    "scoresby"
+  ],
+  "category": "books",
+  "author": "A. Lynn Scoresby",
+  "source_url": null,
+  "note": "Scoresby (BYU family studies) on moral child-rearing."
+}

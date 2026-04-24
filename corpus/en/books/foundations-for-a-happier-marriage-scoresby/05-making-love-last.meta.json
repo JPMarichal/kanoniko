@@ -1,0 +1,32 @@
+{
+  "title": "Making Love Last",
+  "author": "A. Lynn Scoresby",
+  "book": "Foundations for a Happier Marriage",
+  "chapter": 5,
+  "total_chapters": 9,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "marriage",
+    "family",
+    "scoresby"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Foundations for a Happier Marriage - A. Lynn Scoresby.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "5cb33b99-d358-454f-b577-6adb96cff74e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Scoresby on marriage."
+}

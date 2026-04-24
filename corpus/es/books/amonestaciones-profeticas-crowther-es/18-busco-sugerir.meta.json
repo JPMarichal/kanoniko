@@ -1,0 +1,33 @@
+{
+  "title": "Busco sugerir",
+  "author": "Duane S. Crowther",
+  "book": "Amonestaciones proféticas inspiradas",
+  "chapter": 18,
+  "total_chapters": 332,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "prophecy",
+    "warnings",
+    "crowther",
+    "spanish-translation"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Amonestaciones proféticas inspiradas - Duane S. Crowther.epub",
+  "opf_publisher": "Horizon Publishers",
+  "opf_date": null,
+  "opf_identifier": "3d603b99-b3a9-4123-9914-2d51c162425d",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Crowther (LDS popular author) on prophetic warnings. ES."
+}

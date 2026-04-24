@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "conversion",
+    "pearson-gl",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Glenn L. Pearson",
+  "source_url": null,
+  "note": "Pearson (BYU religion) on BoM conversion."
+}

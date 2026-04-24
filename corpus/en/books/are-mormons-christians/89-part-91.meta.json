@@ -1,0 +1,33 @@
+{
+  "title": "Part 91",
+  "author": "Stephen E. Robinson",
+  "book": "Are Mormons Christians",
+  "chapter": 89,
+  "total_chapters": 95,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apologetics",
+    "evangelical-dialogue",
+    "robinson-se",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Are Mormons Christians - Stephen E. Robinson.epub",
+  "opf_publisher": "Bookcraft",
+  "opf_date": null,
+  "opf_identifier": "cb9ab468-3de2-4e74-b07c-4c841fa1dc67",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Robinson 1991 apologetic addressing evangelical criticisms."
+}

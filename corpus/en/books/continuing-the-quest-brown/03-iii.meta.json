@@ -1,0 +1,32 @@
+{
+  "title": "III",
+  "author": "Hugh B. Brown",
+  "book": "Continuing the Quest",
+  "chapter": 3,
+  "total_chapters": 5,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "brown-hb",
+    "first-presidency",
+    "essays"
+  ],
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Continuing the Quest - Hugh B Brown.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "de1222ab-5f50-4f8b-9b58-4063de1357dd",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Hugh B. Brown (FP Counselor 1961-1970). Collection of essays."
+}

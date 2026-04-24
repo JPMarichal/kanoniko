@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "counseling",
+    "pastoral-care",
+    "olson",
+    "britsch",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Terrance D. Olson & R. Lanier Britsch",
+  "source_url": null,
+  "note": "vol 2."
+}

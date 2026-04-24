@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apologetics",
+    "evangelical-dialogue",
+    "robinson-se",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Stephen E. Robinson",
+  "source_url": null,
+  "note": "Robinson 1991 apologetic addressing evangelical criticisms."
+}

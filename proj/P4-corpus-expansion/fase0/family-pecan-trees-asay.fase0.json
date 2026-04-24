@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "family",
+    "asay",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "Carlos E. Asay",
+  "source_url": null,
+  "note": "Asay (Seventy) on family."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "temple",
+    "symbolism",
+    "holzapfel",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Richard Neitzel Holzapfel",
+  "source_url": null,
+  "note": "Holzapfel (BYU religion, historian) — possibly on temples. Deseret Book."
+}

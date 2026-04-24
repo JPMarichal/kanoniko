@@ -1,0 +1,33 @@
+{
+  "title": "Study Topics",
+  "author": "Glenn L. Pearson & Reid E. Bankhead",
+  "book": "Building Faith with the Book of Mormon",
+  "chapter": 5,
+  "total_chapters": 91,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "book-of-mormon",
+    "pearson-gl",
+    "bankhead",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Building Faith with the Book of Mormon - Glenn L Pearson & Reid E Bankhead.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "9b0cfaaf-362d-41dc-a23b-02bacf60837a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pearson & Bankhead, BYU BoM study."
+}

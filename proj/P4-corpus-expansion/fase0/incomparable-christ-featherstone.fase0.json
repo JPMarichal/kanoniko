@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "featherstone",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "Vaughn J. Featherstone",
+  "source_url": null,
+  "note": "Featherstone christology."
+}

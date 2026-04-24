@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "cannon",
+    "youth",
+    "first-presidency",
+    "19th-century-lds"
+  ],
+  "category": "books",
+  "author": "George Q. Cannon",
+  "source_url": null,
+  "note": "Cannon (FP Counselor 1873-1901) BoM adaptation for youth/family reading."
+}

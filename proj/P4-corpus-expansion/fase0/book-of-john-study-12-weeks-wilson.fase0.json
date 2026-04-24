@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "bible-study",
+    "john-gospel",
+    "evangelical",
+    "wilson"
+  ],
+  "category": "reference",
+  "author": "Emily Wilson",
+  "source_url": null,
+  "note": "Wilson evangelical Bible study guide on John's Gospel, 12-week version. Non-LDS."
+}

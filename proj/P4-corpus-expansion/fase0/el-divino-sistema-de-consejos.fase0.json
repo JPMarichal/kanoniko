@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "councils",
+    "leadership",
+    "ballard",
+    "q12",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "M. Russell Ballard",
+  "source_url": null,
+  "note": "Traducción ES de Counseling with Our Councils."
+}

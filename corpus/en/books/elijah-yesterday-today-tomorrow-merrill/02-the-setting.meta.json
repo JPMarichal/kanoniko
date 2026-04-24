@@ -1,0 +1,33 @@
+{
+  "title": "The Setting",
+  "author": "Byron R. Merrill",
+  "book": "Elijah, Yesterday, Today, and Tomorrow",
+  "chapter": 2,
+  "total_chapters": 31,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "elijah",
+    "prophets",
+    "merrill",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Elijah, Yesterday, Today, and Tomorrow - Byron R. Merrill.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bde348fa-07c4-4a03-826f-fe81a5b5c7a4",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Merrill (BYU religion) on Elijah."
+}

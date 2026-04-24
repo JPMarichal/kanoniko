@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pioneers",
+    "migration",
+    "madsen-cc",
+    "byu-scholarship"
+  ],
+  "category": "history",
+  "author": "Carol Cornwall Madsen",
+  "source_url": null,
+  "note": "Madsen on pioneer migration."
+}

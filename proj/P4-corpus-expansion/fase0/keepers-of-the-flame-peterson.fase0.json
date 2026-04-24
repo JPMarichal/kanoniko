@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "primary",
+    "women-leaders",
+    "biography",
+    "peterson",
+    "gaunt"
+  ],
+  "category": "biographies",
+  "author": "Janet Peterson & LaRene Gaunt",
+  "source_url": null,
+  "note": "Peterson/Gaunt biographies of Primary General Presidents."
+}

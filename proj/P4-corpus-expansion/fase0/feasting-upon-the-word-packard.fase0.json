@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "scripture-study",
+    "packard",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Sandra Packard & Dennis Packard",
+  "source_url": null,
+  "note": "Packard on scripture study methods. (Coauthor name variant 'Denisse'/'Dennis' — archived second variant as dup.)"
+}

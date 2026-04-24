@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "skanchy",
+    "scandinavian",
+    "primary-source"
+  ],
+  "category": "biographies",
+  "author": "Anthon L. Skanchy",
+  "source_url": null,
+  "note": "Skanchy autobiography."
+}

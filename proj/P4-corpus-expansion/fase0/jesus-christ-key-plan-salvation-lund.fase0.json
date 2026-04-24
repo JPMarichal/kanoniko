@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "plan-of-salvation",
+    "lund",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "Gerald N. Lund",
+  "source_url": null,
+  "note": "Lund christology."
+}

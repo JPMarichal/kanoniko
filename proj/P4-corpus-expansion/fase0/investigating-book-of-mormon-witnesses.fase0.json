@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "witnesses",
+    "three-witnesses",
+    "eight-witnesses",
+    "anderson-rl",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Richard Lloyd Anderson",
+  "source_url": null,
+  "note": "Anderson (BYU historian). Classic scholarly apologetic for the BoM witnesses."
+}

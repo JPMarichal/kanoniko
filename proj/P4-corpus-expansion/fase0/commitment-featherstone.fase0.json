@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "commitment",
+    "discipleship",
+    "featherstone",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "Vaughn J. Featherstone",
+  "source_url": null,
+  "note": "Featherstone (Seventy 1976-2006) on commitment."
+}

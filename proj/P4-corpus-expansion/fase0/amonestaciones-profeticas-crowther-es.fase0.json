@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophecy",
+    "warnings",
+    "crowther",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Duane S. Crowther",
+  "source_url": null,
+  "note": "Crowther (LDS popular author) on prophetic warnings. ES."
+}

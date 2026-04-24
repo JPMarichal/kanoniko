@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "conversion",
+    "england",
+    "lds-intellectual"
+  ],
+  "category": "books",
+  "author": "Eugene England",
+  "source_url": null,
+  "note": "England on BoM conversion narratives."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Jesus and the Atonement",
+  "author": "Lowell L. Bennion",
+  "book": "Legacies of Jesus",
+  "chapter": 7,
+  "total_chapters": 7,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "christology",
+    "ethics",
+    "bennion"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Legacies of Jesus - Lowell L Bennion.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "013e6312-5cee-4e74-9bb7-c44a04a924c5",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Bennion on christology/ethics."
+}

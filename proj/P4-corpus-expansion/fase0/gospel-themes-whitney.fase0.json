@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine",
+    "whitney",
+    "q12"
+  ],
+  "category": "books",
+  "author": "Orson F. Whitney",
+  "source_url": null,
+  "note": "Whitney's doctrinal treatise. corpus already has gospel-themes — verify."
+}

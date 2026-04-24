@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "symbolism",
+    "biblical",
+    "parry-dw",
+    "byu-scholarship"
+  ],
+  "category": "reference",
+  "author": "Donald W. Parry",
+  "source_url": null,
+  "note": "Parry (BYU, Dead Sea Scrolls) on biblical symbolism."
+}

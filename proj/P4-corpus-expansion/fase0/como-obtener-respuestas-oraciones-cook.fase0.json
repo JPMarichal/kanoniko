@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prayer",
+    "cook-gr",
+    "seventy",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Gene R. Cook",
+  "source_url": null,
+  "note": "Cook sobre oración. ES."
+}

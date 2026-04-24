@@ -1,0 +1,32 @@
+{
+  "title": "Chapter 8",
+  "author": "Donald W. Parry",
+  "book": "LDS Perspectives on the Dead Sea Scrolls",
+  "chapter": 9,
+  "total_chapters": 9,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "dead-sea-scrolls",
+    "parry-dw",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "scholarly",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/LDS Perspectives on the Dead Sea Scrolls - Donald W. Parry.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ed6b3c3f-8f92-43b8-aa97-2799abdd1e63",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Parry on DSS from LDS scholarly perspective."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "atonement",
+    "christology",
+    "robinson-se",
+    "byu-scholarship",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Stephen E. Robinson",
+  "source_url": null,
+  "note": "Traducción ES de Believing Christ. Par de traducción."
+}

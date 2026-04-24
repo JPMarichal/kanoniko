@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faust",
+    "second-counselor",
+    "discipleship",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "James E. Faust",
+  "source_url": null,
+  "note": "Faust (Second Counselor in FP 1995-2007). 1995 Deseret Book."
+}

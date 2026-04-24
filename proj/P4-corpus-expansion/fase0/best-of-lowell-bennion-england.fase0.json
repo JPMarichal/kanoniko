@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bennion",
+    "compilation",
+    "england",
+    "ces",
+    "lds-intellectual"
+  ],
+  "category": "books",
+  "author": "Eugene England & Lowell L. Bennion",
+  "source_url": null,
+  "note": "Eugene England's edited selection of Bennion's writings."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "howard-w-hunter",
+    "church-president",
+    "knowles",
+    "spanish-translation"
+  ],
+  "category": "biographies",
+  "author": "Eleanor Knowles",
+  "source_url": null,
+  "note": "Knowles's biography of President Howard W. Hunter (14th President 1994-1995). ES translation."
+}

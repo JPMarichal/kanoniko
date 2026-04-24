@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "new-england",
+    "solomon-mack",
+    "asael-smith",
+    "anderson-rl",
+    "genealogy"
+  ],
+  "category": "biographies",
+  "author": "Richard Lloyd Anderson",
+  "source_url": null,
+  "note": "Anderson on Solomon Mack/Asael Smith influences on JS."
+}

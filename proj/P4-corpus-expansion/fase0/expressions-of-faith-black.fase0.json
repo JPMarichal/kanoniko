@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "testimonies",
+    "lds-scholars",
+    "black-se",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Susan Easton Black",
+  "source_url": null,
+  "note": "Black (BYU religion) compilation of LDS scholar testimonies."
+}

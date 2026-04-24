@@ -1,0 +1,33 @@
+{
+  "title": "La Vida de Willard Richards",
+  "author": "Duane S. Crowther",
+  "book": "José Smith: Un verdadero profeta de Dios",
+  "chapter": 9,
+  "total_chapters": 10,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "apologetics",
+    "crowther",
+    "spanish-translation"
+  ],
+  "authority": 25,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/José Smith_ Un verdadero profeta de Dios - Duane S. Crowther.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-11-04T02:59:44+00:00",
+  "opf_identifier": "6eb98a7b-07db-4a90-9aa4-6377bf38b439",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Crowther's apologetic on Joseph Smith. ES."
+}

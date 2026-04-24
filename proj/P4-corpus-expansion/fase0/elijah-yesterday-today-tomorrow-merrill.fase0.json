@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "elijah",
+    "prophets",
+    "merrill",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Byron R. Merrill",
+  "source_url": null,
+  "note": "Merrill (BYU religion) on Elijah."
+}

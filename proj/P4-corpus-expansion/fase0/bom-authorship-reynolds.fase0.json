@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "book-of-mormon",
+    "authorship",
+    "apologetics",
+    "reynolds-nb",
+    "farms"
+  ],
+  "category": "books",
+  "author": "Noel B. Reynolds",
+  "source_url": null,
+  "note": "Reynolds earlier (1982) BYU Symposium on BoM authorship."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "festschrift",
+    "nibley",
+    "farms",
+    "byu-scholarship",
+    "ricks-sd"
+  ],
+  "category": "books",
+  "author": "Stephen D. Ricks & John M. Lundquist",
+  "source_url": null,
+  "note": "FARMS festschrift for Hugh Nibley vol 1."
+}

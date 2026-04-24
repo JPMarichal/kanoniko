@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "atonement",
+    "christology",
+    "robinson-se",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Stephen E. Robinson",
+  "source_url": null,
+  "note": "Robinson (BYU religion dean) classic on the Atonement — believing IN Christ vs believing Christ. Pre-1990."
+}
