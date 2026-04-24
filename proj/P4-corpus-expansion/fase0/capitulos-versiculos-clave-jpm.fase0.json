@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "study-aid",
+    "bible-index",
+    "key-chapters",
+    "lds-independent-author"
+  ],
+  "category": "study-aids",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. Cap\u00edtulos y vers\u00edculos clave (tabla de referencia de estudio)."
+}

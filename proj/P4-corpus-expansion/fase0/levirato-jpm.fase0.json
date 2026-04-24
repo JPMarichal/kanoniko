@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "levirate",
+    "ancient-near-east",
+    "biblical-law",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. La ley del levirato (nota)."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "moses",
+    "old-testament",
+    "historical-note",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. Antecedentes de la vida de Mois\u00e9s."
+}

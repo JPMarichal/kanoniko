@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "first-presidency-letter",
+    "1969",
+    "civil-rights",
+    "primary-source-compilation"
+  ],
+  "category": "history",
+  "author": "Ernesto Pel\u00e9 (Ernest C. Pyle, compilador)",
+  "source_url": null,
+  "note": "Ernesto Pel\u00e9 (compilador). Carta de la Primera Presidencia del 15 de diciembre de 1969 (contexto derechos civiles)."
+}

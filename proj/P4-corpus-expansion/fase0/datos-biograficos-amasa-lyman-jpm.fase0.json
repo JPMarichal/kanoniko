@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "amasa-lyman",
+    "early-apostle",
+    "biographical-sketch",
+    "lds-independent-author"
+  ],
+  "category": "biographies",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. Datos biogr\u00e1ficos de Amasa M. Lyman (Q12 1842-1870). Ficha compilada."
+}

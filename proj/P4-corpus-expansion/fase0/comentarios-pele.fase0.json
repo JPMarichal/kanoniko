@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "columbus",
+    "americas",
+    "commentary",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Ernesto Pel\u00e9 (Ernest C. Pyle)",
+  "source_url": null,
+  "note": "Ernesto Pel\u00e9. Comentarios (ensayo sobre el descubrimiento de Am\u00e9rica)."
+}

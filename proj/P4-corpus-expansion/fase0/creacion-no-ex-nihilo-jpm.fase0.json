@@ -1,0 +1,21 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "creation",
+    "ex-nihilo",
+    "genesis",
+    "hebrew-bara",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. La creaci\u00f3n de la tierra no fue a partir de la nada (an\u00e1lisis del verbo hebreo 'bar\u00e1')."
+}

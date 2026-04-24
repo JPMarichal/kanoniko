@@ -1,0 +1,21 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "luke",
+    "acts",
+    "new-testament",
+    "biblical-studies",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. La autobiograf\u00eda de Lucas en el Libro de Hechos. An\u00e1lisis de los 'we-passages'."
+}

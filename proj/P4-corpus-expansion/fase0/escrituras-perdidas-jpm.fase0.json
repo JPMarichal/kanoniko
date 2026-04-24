@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "lost-scriptures",
+    "bible-canon",
+    "apocrypha",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. Escrituras perdidas (libros mencionados en la Biblia ausentes del canon)."
+}

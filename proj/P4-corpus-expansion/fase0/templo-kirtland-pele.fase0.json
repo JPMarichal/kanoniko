@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "kirtland-temple",
+    "church-history",
+    "compilation-analysis",
+    "lds-independent-author"
+  ],
+  "category": "history",
+  "author": "Ernesto Pel\u00e9 (Ernest C. Pyle)",
+  "source_url": null,
+  "note": "Ernesto Pel\u00e9. El Templo de Kirtland (compilaci\u00f3n y an\u00e1lisis hist\u00f3rico)."
+}

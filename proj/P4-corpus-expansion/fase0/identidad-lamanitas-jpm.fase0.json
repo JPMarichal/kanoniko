@@ -1,0 +1,21 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "jpm",
+    "lamanites",
+    "book-of-mormon",
+    "latin-american-lds",
+    "ethnic-identity",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Juan Pablo Marichal Catal\u00e1n",
+  "source_url": null,
+  "note": "Juan Pablo Marichal Catal\u00e1n. Identidad de los lamanitas (respuesta a Hno. Barrera sobre miembros latinoamericanos y el linaje lamanita)."
+}

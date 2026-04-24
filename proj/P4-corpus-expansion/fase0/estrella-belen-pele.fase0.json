@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pele",
+    "star-of-bethlehem",
+    "samuel-the-lamanite",
+    "compilation",
+    "lds-independent-author"
+  ],
+  "category": "books",
+  "author": "Ernesto Pel\u00e9 (Ernest C. Pyle)",
+  "source_url": null,
+  "note": "Ernesto Pel\u00e9. La estrella de Bel\u00e9n (compilaci\u00f3n y an\u00e1lisis)."
+}
