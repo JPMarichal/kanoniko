@@ -1,0 +1,32 @@
+{
+  "title": "Preface",
+  "author": "Joan B. MacDonald",
+  "book": "Holiness of Everyday Life",
+  "chapter": 1,
+  "total_chapters": 10,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "spirituality",
+    "women-authored",
+    "everyday-life"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Holiness of Everyday Life - Joan B MacDonald.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "90add45b-847c-4b48-8b48-c4da12cd6f7c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Joan B. MacDonald. Holiness of Everyday Life."
+}

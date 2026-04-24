@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "parenting",
+    "morality",
+    "youth"
+  ],
+  "category": "books",
+  "author": "Allan K. Burgess",
+  "source_url": null,
+  "note": "Allan K. Burgess. Helping Your Children Stay Morally Clean."
+}

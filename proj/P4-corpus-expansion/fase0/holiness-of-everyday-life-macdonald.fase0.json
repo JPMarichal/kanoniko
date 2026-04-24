@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "spirituality",
+    "women-authored",
+    "everyday-life"
+  ],
+  "category": "books",
+  "author": "Joan B. MacDonald",
+  "source_url": null,
+  "note": "Joan B. MacDonald. Holiness of Everyday Life."
+}

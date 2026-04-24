@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "discipleship",
+    "women-authored"
+  ],
+  "category": "books",
+  "author": "Carolyn J. Rasmus",
+  "source_url": null,
+  "note": "Carolyn J. Rasmus. In the Strength of the Lord I Can Do All Things."
+}

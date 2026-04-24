@@ -1,0 +1,31 @@
+{
+  "title": "Teach Thy Children",
+  "author": "Daniel K. Judd & Douglas E. Brinley",
+  "book": "Eternal Families",
+  "chapter": 4,
+  "total_chapters": 17,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "eternal-families",
+    "byu-religious-studies"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Eternal Families - Daniel K Judd & Douglas E. Brinley.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "57e576ae-6157-4e57-946c-af4a0e60a498",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Daniel K. Judd & Douglas E. Brinley, BYU. Eternal Families."
+}

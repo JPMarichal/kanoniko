@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "balance",
+    "christlike-living"
+  ],
+  "category": "books",
+  "author": "Spencer J. Condie",
+  "source_url": null,
+  "note": "Elder Spencer J. Condie, Seventy. In Perfect Balance."
+}

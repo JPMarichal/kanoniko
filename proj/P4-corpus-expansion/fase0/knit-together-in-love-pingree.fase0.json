@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women",
+    "relief-society",
+    "sisterhood"
+  ],
+  "category": "books",
+  "author": "A. C. Pingree, M. E. Edmunds & C. L. Clark",
+  "source_url": null,
+  "note": "Pingree, Edmunds & Clark. Knit Together in Love: LDS Women."
+}

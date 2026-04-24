@@ -1,0 +1,31 @@
+{
+  "title": "CHAPTER XXI.",
+  "author": "Julia Farr",
+  "book": "The Great Experience",
+  "chapter": 25,
+  "total_chapters": 29,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "women-authored",
+    "conversion"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Great Experience, The - Julia Farr.epub",
+  "opf_publisher": null,
+  "opf_date": "2016-04-10T00:00:00+00:00",
+  "opf_identifier": "calibre:4309",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Julia Farr. The Great Experience."
+}

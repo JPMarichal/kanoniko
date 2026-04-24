@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "inherent-worth",
+    "pastoral"
+  ],
+  "category": "books",
+  "author": "Lloyd D. Newell",
+  "source_url": null,
+  "note": "Lloyd D. Newell. Divine Connection: Understanding Your Inherent Worth."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "charity",
+    "women-authored",
+    "temple"
+  ],
+  "category": "books",
+  "author": "Amber Richardson",
+  "source_url": null,
+  "note": "Amber Richardson. Crowned in Charity and Power."
+}

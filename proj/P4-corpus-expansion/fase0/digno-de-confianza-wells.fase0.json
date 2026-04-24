@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "integrity",
+    "latin-american-lds"
+  ],
+  "category": "books",
+  "author": "Robert E. Wells",
+  "source_url": null,
+  "note": "Elder Robert E. Wells (1927-2022), Seventy. Digno de Confianza."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "living-prophets",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Brent L. Top, Larry E. Dahl & Walter D. Bowen",
+  "source_url": null,
+  "note": "Top, Dahl & Bowen, BYU. Follow the Living Prophets, 1993."
+}

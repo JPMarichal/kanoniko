@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "family-research",
+    "byu-academic",
+    "sociology"
+  ],
+  "category": "books",
+  "author": "Phillip R. Kunz & William G. Dyer",
+  "source_url": null,
+  "note": "Phillip R. Kunz & William G. Dyer, BYU. Effective Mormon Families."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "adversity",
+    "women-authored",
+    "yw-president",
+    "20th-century-lds"
+  ],
+  "category": "books",
+  "author": "Elaine Cannon",
+  "source_url": null,
+  "note": "Elaine Cannon (1922-2003), Young Women General President 1978-84. Adversity."
+}

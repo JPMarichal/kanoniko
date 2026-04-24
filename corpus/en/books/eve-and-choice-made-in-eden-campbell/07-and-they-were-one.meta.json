@@ -1,0 +1,33 @@
+{
+  "title": "And They Were One",
+  "author": "Beverly Campbell",
+  "book": "Eve and the Choice Made in Eden",
+  "chapter": 7,
+  "total_chapters": 21,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "eve",
+    "fall",
+    "women-theology",
+    "biblical-exegesis"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Eve and the Choice Made in Eden - Beverly Campbell.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "44f1e4b2-63dc-4fb9-a17f-ca804e459154",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Beverly Campbell. Eve and the Choice Made in Eden, 2003."
+}

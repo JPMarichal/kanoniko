@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "eve",
+    "fall",
+    "women-theology",
+    "biblical-exegesis"
+  ],
+  "category": "books",
+  "author": "Beverly Campbell",
+  "source_url": null,
+  "note": "Beverly Campbell. Eve and the Choice Made in Eden, 2003."
+}

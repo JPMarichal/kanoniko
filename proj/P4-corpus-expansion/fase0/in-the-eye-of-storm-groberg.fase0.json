@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "missionary",
+    "tonga",
+    "memoir"
+  ],
+  "category": "books",
+  "author": "John H. Groberg",
+  "source_url": null,
+  "note": "Elder John H. Groberg, Seventy. In the Eye of the Storm (Tonga missionary memoir)."
+}

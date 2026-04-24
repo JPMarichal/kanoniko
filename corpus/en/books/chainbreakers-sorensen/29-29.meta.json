@@ -1,0 +1,32 @@
+{
+  "title": "29",
+  "author": "Michele R. Sorensen",
+  "book": "Chainbreakers",
+  "chapter": 29,
+  "total_chapters": 29,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "generational-change",
+    "family-healing",
+    "women-authored"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Chainbreakers - Michele R Sorensen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "58ea1f64-29b3-4574-a9f3-336350ec9ac6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Michele R. Sorensen. Chainbreakers."
+}

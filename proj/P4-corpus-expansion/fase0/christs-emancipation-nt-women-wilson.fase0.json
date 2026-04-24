@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "new-testament",
+    "women",
+    "biblical-studies",
+    "2nd-ed"
+  ],
+  "category": "books",
+  "author": "Lynne Hilton Wilson",
+  "source_url": null,
+  "note": "Lynne Hilton Wilson. Christ's Emancipation of NT Women, 2nd ed."
+}

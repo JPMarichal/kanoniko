@@ -1,0 +1,32 @@
+{
+  "title": "A Leap of Faith",
+  "author": "Scott R. Peterson & Richard L. Bednar",
+  "book": "Doing the Right Things for the Right Reasons",
+  "chapter": 3,
+  "total_chapters": 10,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "motivation",
+    "psychology",
+    "byu-psychology"
+  ],
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Doing the Right Things for the Right Reasons - Scott R Peterson & Richard L Bednar.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "e4e7eecd-817b-4335-a563-86927ff54706",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Scott Peterson & Richard L. Bednar. Doing the Right Things for the Right Reasons."
+}

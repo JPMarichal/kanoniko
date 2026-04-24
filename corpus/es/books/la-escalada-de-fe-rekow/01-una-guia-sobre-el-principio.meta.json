@@ -1,0 +1,32 @@
+{
+  "title": "Una Guía Sobre el Principio",
+  "author": "Alan Rekow",
+  "book": "La escalada de fe",
+  "chapter": 1,
+  "total_chapters": 12,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "faith",
+    "personal-development",
+    "spanish-lds"
+  ],
+  "authority": 20,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/escalada de fe, La - Don - Alan Rekow.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-05-02T17:53:16+00:00",
+  "opf_identifier": "f693c3e6-a6b7-4973-a994-7a9b5c548d7e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Alan Rekow. La escalada de fe."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "rs-general-president",
+    "poetry",
+    "19th-20th-century-lds",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Emmeline B. Wells",
+  "source_url": null,
+  "note": "Emmeline B. Wells (1828-1921), RS General President 1910-21. Hephzibah, poetry."
+}

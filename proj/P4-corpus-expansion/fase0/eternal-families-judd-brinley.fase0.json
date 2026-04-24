@@ -1,0 +1,17 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "eternal-families",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Daniel K. Judd & Douglas E. Brinley",
+  "source_url": null,
+  "note": "Daniel K. Judd & Douglas E. Brinley, BYU. Eternal Families."
+}

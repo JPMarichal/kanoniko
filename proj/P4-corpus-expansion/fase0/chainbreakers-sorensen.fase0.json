@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "generational-change",
+    "family-healing",
+    "women-authored"
+  ],
+  "category": "books",
+  "author": "Michele R. Sorensen",
+  "source_url": null,
+  "note": "Michele R. Sorensen. Chainbreakers."
+}

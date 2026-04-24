@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophets",
+    "women-authored",
+    "historian"
+  ],
+  "category": "books",
+  "author": "Heidi S. Swinton",
+  "source_url": null,
+  "note": "Heidi S. Swinton, LDS historian. In the Company of Prophets, 1993."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Staying on Course",
+  "author": "Brent A. Barlow",
+  "book": "Just for Newlyweds",
+  "chapter": 13,
+  "total_chapters": 15,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "marriage",
+    "newlyweds",
+    "byu-family-life"
+  ],
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Just for Newlyweds - Brent A. Barlow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "69ebe4a2-92e6-49ca-9e43-50f4ba22a950",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Brent A. Barlow, BYU. Just for Newlyweds."
+}

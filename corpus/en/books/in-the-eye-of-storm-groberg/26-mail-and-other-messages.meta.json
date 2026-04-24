@@ -1,0 +1,33 @@
+{
+  "title": "Mail and Other Messages",
+  "author": "John H. Groberg",
+  "book": "In the Eye of the Storm",
+  "chapter": 26,
+  "total_chapters": 62,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "seventy-authored",
+    "missionary",
+    "tonga",
+    "memoir"
+  ],
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/In the Eye of the Storm - John H. Groberg.epub",
+  "opf_publisher": null,
+  "opf_date": "2024-10-14T06:00:00+00:00",
+  "opf_identifier": "eb159def-462e-4807-ba76-739e9b7067b1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder John H. Groberg, Seventy. In the Eye of the Storm (Tonga missionary memoir)."
+}

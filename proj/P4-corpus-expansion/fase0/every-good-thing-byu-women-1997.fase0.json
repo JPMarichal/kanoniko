@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-womens-conference",
+    "1997",
+    "anthology"
+  ],
+  "category": "books",
+  "author": "Green, Dalton & Anderson (eds.)",
+  "source_url": null,
+  "note": "Every Good Thing: Talks from 1997 BYU Women's Conference."
+}

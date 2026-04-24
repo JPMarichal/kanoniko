@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "agency",
+    "women-authored",
+    "book-of-mormon-application"
+  ],
+  "category": "books",
+  "author": "Anne Osborn Poelman",
+  "source_url": null,
+  "note": "Anne Osborn Poelman. The Amulek Alternative: Exercising Agency."
+}

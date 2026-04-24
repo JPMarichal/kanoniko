@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "gospel-living",
+    "mid-20th-century-lds",
+    "byu-philosophy"
+  ],
+  "category": "books",
+  "author": "Obert C. Tanner",
+  "source_url": null,
+  "note": "Obert C. Tanner (1904-1993), philosopher. Christ's Ideals for Living."
+}

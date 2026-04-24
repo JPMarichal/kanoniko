@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women-authored",
+    "rs-general-presidency",
+    "cultural-diversity",
+    "20th-century-lds"
+  ],
+  "category": "books",
+  "author": "Chieko N. Okazaki",
+  "source_url": null,
+  "note": "Chieko N. Okazaki (1926-2011), RS General Presidency 1990-97. Aloha!, 1995."
+}

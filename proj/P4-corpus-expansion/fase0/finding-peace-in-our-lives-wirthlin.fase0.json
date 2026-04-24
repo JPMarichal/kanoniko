@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "peace",
+    "pastoral"
+  ],
+  "category": "books",
+  "author": "Joseph B. Wirthlin",
+  "source_url": null,
+  "note": "Elder Joseph B. Wirthlin (1917-2008), Q12. Finding Peace in Our Lives."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith",
+    "personal-development",
+    "spanish-lds"
+  ],
+  "category": "books",
+  "author": "Alan Rekow",
+  "source_url": null,
+  "note": "Alan Rekow. La escalada de fe."
+}

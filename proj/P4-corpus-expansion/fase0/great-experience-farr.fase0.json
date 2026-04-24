@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women-authored",
+    "conversion"
+  ],
+  "category": "books",
+  "author": "Julia Farr",
+  "source_url": null,
+  "note": "Julia Farr. The Great Experience."
+}

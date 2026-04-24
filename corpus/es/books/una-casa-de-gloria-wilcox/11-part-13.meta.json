@@ -1,0 +1,31 @@
+{
+  "title": "Part 13",
+  "author": "S. Michael Wilcox",
+  "book": "Una casa de gloria",
+  "chapter": 11,
+  "total_chapters": 11,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "temple",
+    "byu-religious-studies"
+  ],
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/casa de gloria, Una - S. Michael Wilcox.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-05-18T17:23:01+00:00",
+  "opf_identifier": "b15464c6-ed80-4f19-95b0-62ea0e0dcc10",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "S. Michael Wilcox. Una casa de gloria (Spanish translation of House of Glory)."
+}

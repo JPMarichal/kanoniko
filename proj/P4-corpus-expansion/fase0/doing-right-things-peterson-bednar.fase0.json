@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "motivation",
+    "psychology",
+    "byu-psychology"
+  ],
+  "category": "books",
+  "author": "Scott R. Peterson & Richard L. Bednar",
+  "source_url": null,
+  "note": "Scott Peterson & Richard L. Bednar. Doing the Right Things for the Right Reasons."
+}

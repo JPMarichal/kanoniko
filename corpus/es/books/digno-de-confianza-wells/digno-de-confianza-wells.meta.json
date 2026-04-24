@@ -1,0 +1,32 @@
+{
+  "title": "Digno de Confianza",
+  "author": "Robert E. Wells",
+  "book": "Digno de Confianza",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "seventy-authored",
+    "integrity",
+    "latin-american-lds"
+  ],
+  "authority": 40,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Digno de Confianza - Robert E. Wells.epub",
+  "opf_publisher": null,
+  "opf_date": "2007-11-26T04:13:26+00:00",
+  "opf_identifier": "5fb383f7-8076-43f4-ac30-800975fe755f",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Robert E. Wells (1927-2022), Seventy. Digno de Confianza."
+}

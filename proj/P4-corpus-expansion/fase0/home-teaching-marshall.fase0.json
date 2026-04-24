@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "home-teaching",
+    "priesthood",
+    "ministry"
+  ],
+  "category": "books",
+  "author": "Richard J. Marshall",
+  "source_url": null,
+  "note": "Richard J. Marshall. Home Teaching with Purpose and Power."
+}

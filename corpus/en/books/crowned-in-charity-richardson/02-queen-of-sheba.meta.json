@@ -1,0 +1,32 @@
+{
+  "title": "Queen of Sheba",
+  "author": "Amber Richardson",
+  "book": "Crowned in Charity and Power",
+  "chapter": 2,
+  "total_chapters": 3,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "charity",
+    "women-authored",
+    "temple"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Crowned in Charity and Power - Amber Richardson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "cdc3f69d-8e49-463f-b920-5c0e8dd7fb85",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Amber Richardson. Crowned in Charity and Power."
+}

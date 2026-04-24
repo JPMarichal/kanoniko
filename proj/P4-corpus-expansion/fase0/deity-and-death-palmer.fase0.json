@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "death",
+    "comparative-religion",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Spencer J. Palmer (ed.)",
+  "source_url": null,
+  "note": "Spencer J. Palmer (ed.), BYU. Deity and Death. Symposium on death across religions."
+}

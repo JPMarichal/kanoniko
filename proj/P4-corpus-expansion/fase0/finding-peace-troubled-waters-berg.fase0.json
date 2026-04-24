@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "adversity",
+    "disability",
+    "motivation"
+  ],
+  "category": "books",
+  "author": "Art E. Berg",
+  "source_url": null,
+  "note": "Art E. Berg. Finding Peace in Troubled Waters."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "gospel-doctrine",
+    "senator"
+  ],
+  "category": "books",
+  "author": "Orrin G. Hatch",
+  "source_url": null,
+  "note": "Sen. Orrin G. Hatch (1934-2022). Higher Laws."
+}

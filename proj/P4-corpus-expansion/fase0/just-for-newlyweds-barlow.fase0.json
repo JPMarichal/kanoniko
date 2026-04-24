@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "marriage",
+    "newlyweds",
+    "byu-family-life"
+  ],
+  "category": "books",
+  "author": "Brent A. Barlow",
+  "source_url": null,
+  "note": "Brent A. Barlow, BYU. Just for Newlyweds."
+}

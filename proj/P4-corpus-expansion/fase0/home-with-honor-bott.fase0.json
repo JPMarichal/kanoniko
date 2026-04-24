@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "missionary",
+    "returning-missionaries",
+    "byu-religious-studies"
+  ],
+  "category": "books",
+  "author": "Randy L. Bott",
+  "source_url": null,
+  "note": "Randy L. Bott, BYU. Home with Honor: Helps for Returning Missionaries."
+}
