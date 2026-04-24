@@ -1,0 +1,32 @@
+{
+  "title": "Lost Battalions",
+  "author": "Thomas S. Monson",
+  "book": "Conference Classics, vol_ 1",
+  "chapter": 6,
+  "total_chapters": 6,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "conference-compilation",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Conference Classics, vol_ 1 - Thomas S Monson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "78ec972d-e87a-4257-b9f1-f460e59935b8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "1981 Deseret Book. Selected Monson conference talks volume 1. Potential overlap with general-conference/; retained for editorial structure."
+}

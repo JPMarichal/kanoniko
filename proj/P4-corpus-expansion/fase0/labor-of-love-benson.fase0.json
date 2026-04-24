@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "europe",
+    "post-war",
+    "welfare",
+    "historical",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Ezra Taft Benson",
+  "source_url": null,
+  "note": "1989 Deseret Book. Historical account of Benson's post-WWII mission to rebuild European saints and distribute welfare aid (1946). Written partly from his journals."
+}

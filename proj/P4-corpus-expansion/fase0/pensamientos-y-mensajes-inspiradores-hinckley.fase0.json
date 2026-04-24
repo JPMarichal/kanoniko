@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 50,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "compilation",
+    "prophetic",
+    "quotations",
+    "church-president",
+    "pirate-source-audited"
+  ],
+  "category": "books",
+  "author": "Gordon B. Hinckley",
+  "source_url": null,
+  "note": "Compilacion ES de pensamientos y mensajes inspiradores de Hinckley. Procedencia 'Los-Atalayas.4shared.com' (scrape pirata, documentado en note)."
+}

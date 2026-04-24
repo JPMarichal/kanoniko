@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "conference-compilation",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Thomas S. Monson",
+  "source_url": null,
+  "note": "1981 Deseret Book. Selected Monson conference talks volume 1. Potential overlap with general-conference/; retained for editorial structure."
+}

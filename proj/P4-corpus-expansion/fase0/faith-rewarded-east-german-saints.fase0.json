@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "east-germany",
+    "freiberg-temple",
+    "cold-war",
+    "apostle-authored",
+    "personal-history",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Thomas S. Monson",
+  "source_url": null,
+  "note": "1996 Deseret Book. Monson's personal account of his apostolic supervision of the East German Saints through the Cold War, culminating in the Freiberg Temple dedication (1985) and the fall of the Berlin Wall."
+}

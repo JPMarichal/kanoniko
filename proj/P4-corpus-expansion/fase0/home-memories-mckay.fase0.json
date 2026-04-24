@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "family",
+    "church-president",
+    "personal-history",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Llewelyn R. McKay",
+  "source_url": null,
+  "note": "1956 Deseret Book. Llewelyn R. McKay compiled family memories of his father, President David O. McKay. Biographical/family history genre, not doctrinal treatise."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophetic",
+    "compilation",
+    "church-president",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Ezra Taft Benson",
+  "source_url": null,
+  "note": "1990 Deseret Book. Compilation of Benson's prophetic messages after becoming Church President (1985-1994)."
+}

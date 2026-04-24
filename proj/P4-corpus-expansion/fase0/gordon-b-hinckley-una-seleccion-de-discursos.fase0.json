@@ -1,0 +1,21 @@
+{
+  "authority": 55,
+  "rigor": 45,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "discourses",
+    "prophetic",
+    "spanish-translation",
+    "church-publication",
+    "anthology",
+    "hinckley-series"
+  ],
+  "category": "discourses",
+  "author": "Gordon B. Hinckley",
+  "source_url": null,
+  "note": "Antologia oficial ES 'Una seleccion de discursos' por Centros de Distribucion SUD (serie cubriendo Packer, McConkie, Benson, Hinckley, Holland, Wirthlin). Column-interleaved PDF caveat aplicable."
+}

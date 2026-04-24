@@ -1,0 +1,21 @@
+{
+  "authority": 55,
+  "rigor": 45,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "book-private",
+  "audience": "general",
+  "tags": [
+    "discourses",
+    "prophetic",
+    "spanish-translation",
+    "church-publication",
+    "anthology",
+    "benson-series"
+  ],
+  "category": "discourses",
+  "author": "Ezra Taft Benson",
+  "source_url": null,
+  "note": "Antologia oficial ES 'Una seleccion de discursos' por Centros de Distribucion SUD."
+}

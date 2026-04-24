@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "personal-stories",
+    "faith-building",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Thomas S. Monson",
+  "source_url": null,
+  "note": "1994 Deseret Book. Compilation of experiential vignettes from Monson's life illustrating faith principles."
+}

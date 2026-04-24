@@ -1,0 +1,21 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "church-president",
+    "authorized-biography",
+    "dew-biographies",
+    "deseret-book",
+    "spanish-translation"
+  ],
+  "category": "biographies",
+  "author": "Sheri Dew",
+  "source_url": null,
+  "note": "Traduccion ES de Sheri L. Dew, 'Go Forward with Faith: The Biography of Gordon B. Hinckley' (1996 Deseret Book). El OPF creator esta mal: dice Hinckley pero la autora es Dew."
+}

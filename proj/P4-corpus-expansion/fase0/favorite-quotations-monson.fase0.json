@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "quotations",
+    "compilation",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "Thomas S. Monson",
+  "source_url": null,
+  "note": "1985 Deseret Book. Compilation of Monson's favorite quotations (poems, stories, aphorisms) used to illustrate gospel principles over decades of ministry."
+}

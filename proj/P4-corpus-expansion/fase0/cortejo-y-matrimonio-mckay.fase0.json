@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "courtship",
+    "marriage",
+    "family",
+    "church-president",
+    "spanish-translation",
+    "booklet"
+  ],
+  "category": "books",
+  "author": "David O. McKay",
+  "source_url": null,
+  "note": "Folleto ES sobre cortejo y matrimonio por David O. McKay. Publicacion de Centros de Distribucion SUD."
+}

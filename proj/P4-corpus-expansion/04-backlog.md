@@ -34,6 +34,7 @@ Para análisis detallado por material → `fase0/`.
 | ~20 RSC BYU PDF-only | varies | BAJA | No disponibles para lectura online; requieren scraper de PDF o compra | — |
 | Conferencia General ES pre-199004 | 80 | MEDIA | Corpus `general-conference/es/` empieza abril 1990. El lote epub traía Liahona enero 1989 (= Oct 1988 GC en ES) pero la fuente es scrape pirata (`bibliotecasud.blogspot.com`) con columnas intercaladas ilegibles — rechazada 2026-04-22. Re-descargar limpio desde `churchofjesuschrist.org` con scraper GC. | `fase0/gc-198810-liahona-198901.md` (rechazado) |
 | Doctrina Mormona (ES) — Bruce R. McConkie | 35 | MEDIA | Traducción ES de *Mormon Doctrine* (1966). El epub del lote tiene 798 spine files pero sin estructura per-entry (solo 25 h1s para las letras A-Z). El EN ya en corpus (`books/gospelink/mormon-doctrine/`) tiene 2007 entradas granuladas; incorporar esta versión ES degradaría el corpus con chunks coarse. Rechazado 2026-04-23. Considerar: scrape directo ES de alguna edición digital mejor estructurada, o post-procesar el epub actual con detección heurística de fronteras de entrada. | — |
+| Cortejo y matrimonio (ES) — David O. McKay | 40 | BAJA | Epub del lote está **vacío** (15 chars de texto, solo portada "Converted Ebook"). Rechazado 2026-04-23. Re-descargar de otra fuente si se quiere incorporar. | — |
 
 > **Nota:** La sección `researched` (Gutenberg) fue eliminada 2026-04-09.
 > Todos los libros Gutenberg listados previamente ya están descargados e ingested.

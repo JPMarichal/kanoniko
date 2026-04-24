@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "compilation",
+    "doctrine",
+    "church-president",
+    "discourses",
+    "deseret-book"
+  ],
+  "category": "books",
+  "author": "David O. McKay",
+  "source_url": null,
+  "note": "1953 Deseret Book. Comprehensive compilation of McKay's discourses approved by McKay himself. His most significant single-volume doctrinal reference."
+}

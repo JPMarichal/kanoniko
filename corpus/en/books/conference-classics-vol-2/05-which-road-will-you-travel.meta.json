@@ -1,0 +1,32 @@
+{
+  "title": "Which Road Will You Travel?",
+  "author": "Thomas S. Monson",
+  "book": "Conference Classics, vol_ 2",
+  "chapter": 5,
+  "total_chapters": 6,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "conference-compilation",
+    "apostle-authored",
+    "deseret-book"
+  ],
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Conference Classics, vol_ 2 - Thomas S Monson.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "951a61ec-4836-40eb-9333-0c8a3b000afb",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "1984 Deseret Book. Volume 2 of Monson conference compilations."
+}

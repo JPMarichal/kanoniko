@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "church-president",
+    "authorized-biography",
+    "dew-biographies",
+    "deseret-book"
+  ],
+  "category": "biographies",
+  "author": "Sheri Dew",
+  "source_url": null,
+  "note": "Sheri L. Dew's authorized biography of Ezra Taft Benson (1987). Dew would later write Hinckley's biography (1996). Authorized biography with access to journals."
+}

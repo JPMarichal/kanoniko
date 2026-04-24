@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith",
+    "family",
+    "church-president",
+    "apostle-authored",
+    "pirate-source-audited"
+  ],
+  "category": "books",
+  "author": "Gordon B. Hinckley",
+  "source_url": null,
+  "note": "Libro ES de Hinckley, 14 discursos organizados tematicamente sobre fe, familia, educacion, testimonio."
+}
