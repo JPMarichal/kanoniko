@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "nt-pseudepigrapha",
+    "christian-apocrypha",
+    "dyc-91",
+    "primary-source"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Various (ancient, pseudepigraphic)",
+  "source_url": null,
+  "note": "New Testament Pseudepigrapha: evangelios apócrifos (Tomás, María, Protoevangelio de Santiago), Hechos apócrifos, apocalipsis cristianos primitivos."
+}

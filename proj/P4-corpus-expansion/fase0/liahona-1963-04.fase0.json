@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "current": false,
+  "context": "magazine",
+  "audience": "all",
+  "tags": [
+    "liahona",
+    "year-1963",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "category": "magazines",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Liahona 1963-04 (pre-2002 issue, not previously in corpus)."
+}

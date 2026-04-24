@@ -1,0 +1,17 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "essays"
+  ],
+  "category": "books",
+  "author": "Neal A. Maxwell",
+  "source_url": null,
+  "note": "Elder Neal A. Maxwell. Sermons Not Spoken, 1985."
+}

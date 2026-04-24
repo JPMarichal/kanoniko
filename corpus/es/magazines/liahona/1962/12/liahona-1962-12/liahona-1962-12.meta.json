@@ -1,0 +1,33 @@
+{
+  "title": "Liahona, diciembre 1962",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, diciembre 1962",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "magazines",
+  "subcategory": "liahona/1962/12",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, diciembre 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-08-19T18:25:37+00:00",
+  "opf_identifier": "e817c4ec-d334-42cf-925a-13e153d2c013",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-12 (pre-2002 issue, not previously in corpus)."
+}

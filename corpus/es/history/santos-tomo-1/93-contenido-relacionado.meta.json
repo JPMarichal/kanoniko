@@ -1,0 +1,33 @@
+{
+  "title": "Contenido relacionado",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Santos tomo I",
+  "chapter": 93,
+  "total_chapters": 106,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "church-history",
+    "santos",
+    "narrative-history",
+    "modern-official-history"
+  ],
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Santos tomo I - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "72b04f2f-d736-4b17-87d5-a04ae717e7ee",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Santos, tomo I: El Estandarte de la Verdad, 1815-1846 (historia oficial narrativa)."
+}

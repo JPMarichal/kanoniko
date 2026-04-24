@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "noah",
+    "priesthood",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "Elder Bruce R. McConkie. Predicador de Rectitud (ES). Reflexión sobre Noé y el sacerdocio."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Part 5",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, agosto 1962",
+  "chapter": 3,
+  "total_chapters": 3,
+  "category": "magazines",
+  "subcategory": "liahona/1962/08",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, agosto 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-08-14T23:15:24+00:00",
+  "opf_identifier": "b3d5979e-2972-44dc-b0ed-4f62ec3147a2",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-08 (pre-2002 issue, not previously in corpus)."
+}

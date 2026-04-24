@@ -1,0 +1,33 @@
+{
+  "title": "por Preston Nibley",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, abril 1962",
+  "chapter": 4,
+  "total_chapters": 5,
+  "category": "magazines",
+  "subcategory": "liahona/1962/04",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, abril 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2012-01-24T00:14:54+00:00",
+  "opf_identifier": "f87b5c6d-e53c-451a-a74c-1c59c40c22e8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-04 (pre-2002 issue, not previously in corpus)."
+}

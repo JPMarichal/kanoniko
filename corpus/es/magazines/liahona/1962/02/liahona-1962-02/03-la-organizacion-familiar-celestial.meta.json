@@ -1,0 +1,33 @@
+{
+  "title": "La Organización Familiar Celestial",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, febrero 1962",
+  "chapter": 3,
+  "total_chapters": 3,
+  "category": "magazines",
+  "subcategory": "liahona/1962/02",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, febrero 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-07-08T16:53:27+00:00",
+  "opf_identifier": "e56dd089-16c7-4daa-ba6e-1948e23b8608",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-02 (pre-2002 issue, not previously in corpus)."
+}

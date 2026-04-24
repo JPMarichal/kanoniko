@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "church-history-topics",
+    "gospel-topics-essays",
+    "current"
+  ],
+  "category": "reference",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Temas de historia de la Iglesia (Gospel Topics Essays)."
+}

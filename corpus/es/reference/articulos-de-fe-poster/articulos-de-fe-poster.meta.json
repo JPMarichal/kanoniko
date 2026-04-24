@@ -1,0 +1,32 @@
+{
+  "title": "Los Artículos de Fe (póster)",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Los Artículos de Fe (póster)",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "articles-of-faith",
+    "poster",
+    "reference"
+  ],
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Los Artículos de Fe (póster) - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "c8bbc830-32c6-4979-be1e-8dbb662f7291",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Póster oficial de los Artículos de Fe."
+}

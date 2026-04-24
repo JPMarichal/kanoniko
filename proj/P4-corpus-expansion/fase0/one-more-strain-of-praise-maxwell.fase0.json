@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "praise",
+    "gratitude"
+  ],
+  "category": "books",
+  "author": "Neal A. Maxwell",
+  "source_url": null,
+  "note": "Elder Neal A. Maxwell. One More Strain of Praise, 1999."
+}

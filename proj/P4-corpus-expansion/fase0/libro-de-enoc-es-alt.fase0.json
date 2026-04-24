@@ -1,0 +1,22 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "1-enoch",
+    "pseudepigrapha",
+    "second-temple",
+    "dyc-91",
+    "ethiopic-enoch",
+    "primary-source",
+    "alternate-edition"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Desconocido (atribuido a Enoc)",
+  "source_url": null,
+  "note": "El Libro de Enoc (1 Enoc) — edición alternativa en español (texto más extenso que la otra edición)."
+}

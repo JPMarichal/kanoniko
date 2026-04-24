@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "discipleship",
+    "christlike-character"
+  ],
+  "category": "books",
+  "author": "Neal A. Maxwell",
+  "source_url": null,
+  "note": "Elder Neal A. Maxwell (1926-2004), Q12. Men and Women of Christ, 1991."
+}

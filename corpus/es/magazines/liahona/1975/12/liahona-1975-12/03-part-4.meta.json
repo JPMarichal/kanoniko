@@ -1,0 +1,33 @@
+{
+  "title": "Part 4",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, diciembre de 1975",
+  "chapter": 3,
+  "total_chapters": 4,
+  "category": "magazines",
+  "subcategory": "liahona/1975/12",
+  "tags": [
+    "liahona",
+    "year-1975",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, diciembre de 1975 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-06-15T21:33:25+00:00",
+  "opf_identifier": "facd920f-2388-4e24-a67d-ea304f54d501",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1975-12 (pre-2002 issue, not previously in corpus)."
+}

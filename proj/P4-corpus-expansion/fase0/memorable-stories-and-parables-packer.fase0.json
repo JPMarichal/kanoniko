@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "stories",
+    "parables",
+    "teaching-illustrations"
+  ],
+  "category": "books",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer (1924-2015), Q12 / Pres. Q12. Memorable Stories and Parables."
+}

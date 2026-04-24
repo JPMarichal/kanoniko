@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "church-administration",
+    "classic-devotional",
+    "byu-devotional"
+  ],
+  "category": "discourses",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer. The Unwritten Order of Things (BYU Devotional, 15 oct 1996). Clásico sobre la cultura no escrita del sacerdocio."
+}

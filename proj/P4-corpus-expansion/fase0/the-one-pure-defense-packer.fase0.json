@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "defense",
+    "teaching"
+  ],
+  "category": "discourses",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer. The One Pure Defense."
+}

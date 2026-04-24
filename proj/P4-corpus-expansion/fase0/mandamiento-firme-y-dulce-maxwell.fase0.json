@@ -1,0 +1,19 @@
+{
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "commandment",
+    "discipline",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "Neal A. Maxwell",
+  "source_url": null,
+  "note": "Elder Neal A. Maxwell. El mandamiento firme y dulce (ES translation)."
+}

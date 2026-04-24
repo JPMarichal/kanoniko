@@ -1,0 +1,33 @@
+{
+  "title": "INFORME DE LA",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, enero 1985",
+  "chapter": 2,
+  "total_chapters": 6,
+  "category": "magazines",
+  "subcategory": "liahona/1985/01",
+  "tags": [
+    "liahona",
+    "year-1985",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, enero 1985 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2011-01-26T18:38:20+00:00",
+  "opf_identifier": "e03adfb1-b47f-4fe5-bb61-26c601dd390a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1985-01 (pre-2002 issue, not previously in corpus)."
+}

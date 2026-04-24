@@ -1,0 +1,31 @@
+{
+  "title": "\"Search the Scriptures\"",
+  "author": "Neal A. Maxwell",
+  "book": "Sermons Not Spoken",
+  "chapter": 8,
+  "total_chapters": 10,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "essays"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Sermons Not Spoken - Neal A Maxwell.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "516b1d72-ce0a-46b5-acc9-ec384e34b32c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Neal A. Maxwell. Sermons Not Spoken, 1985."
+}

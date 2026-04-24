@@ -1,0 +1,31 @@
+{
+  "title": "Reseña y leyenda",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Mapas bíblicos",
+  "chapter": 1,
+  "total_chapters": 2,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "bible-maps",
+    "biblical-geography"
+  ],
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Mapas bíblicos - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0be3bb14-3800-4274-88cc-041538ba9a91",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Mapas bíblicos oficiales IJCSUD."
+}

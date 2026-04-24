@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "sacrament-prayers",
+    "ordinance",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Oraciones sacramentales (texto oficial de las oraciones)."
+}

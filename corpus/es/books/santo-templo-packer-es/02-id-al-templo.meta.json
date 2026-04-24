@@ -1,0 +1,33 @@
+{
+  "title": "ID AL TEMPLO",
+  "author": "Boyd K. Packer",
+  "book": "El Santo Templo",
+  "chapter": 2,
+  "total_chapters": 3,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "temple",
+    "spanish-translation",
+    "holy-temple"
+  ],
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Santo Templo, El - Boyd K. Packer.epub",
+  "opf_publisher": null,
+  "opf_date": "2008-05-04T22:24:36+00:00",
+  "opf_identifier": "85eeb2cb-1924-4197-82c4-686436167826",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Pres. Boyd K. Packer. El Santo Templo (traducción ES de The Holy Temple, 1980). Obra clásica de Packer sobre la doctrina del templo."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "b-h-roberts",
+    "historical-novel",
+    "jewish-theme",
+    "19th-century-lds"
+  ],
+  "category": "books",
+  "author": "B. H. Roberts",
+  "source_url": null,
+  "note": "B. H. Roberts (1857-1933), First Council of Seventy. Rasha the Jew, 1932 — novela de corte histórico-religioso."
+}

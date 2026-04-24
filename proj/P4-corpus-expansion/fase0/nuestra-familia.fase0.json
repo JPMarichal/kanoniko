@@ -1,0 +1,17 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "family-history",
+    "pamphlet"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Nuestra familia (folleto de historia familiar)."
+}

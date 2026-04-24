@@ -1,0 +1,33 @@
+{
+  "title": "Liahona, mayo de 1963",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, mayo de 1963",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "magazines",
+  "subcategory": "liahona/1963/05",
+  "tags": [
+    "liahona",
+    "year-1963",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, mayo de 1963 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-10-01T22:13:13+00:00",
+  "opf_identifier": "cdf76d7a-aa44-4b47-b92e-79239ac11eb1",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1963-05 (pre-2002 issue, not previously in corpus)."
+}

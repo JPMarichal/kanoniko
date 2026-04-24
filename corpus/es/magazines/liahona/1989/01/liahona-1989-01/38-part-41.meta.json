@@ -1,0 +1,33 @@
+{
+  "title": "Part 41",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "LIAHONA 1989-01",
+  "chapter": 38,
+  "total_chapters": 51,
+  "category": "magazines",
+  "subcategory": "liahona/1989/01",
+  "tags": [
+    "liahona",
+    "year-1989",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/LIAHONA 1989-01 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2008-12-14T17:53:10+00:00",
+  "opf_identifier": "e3802bec-8fad-4ba4-8759-cc51bcb53849",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1989-01 (pre-2002 issue, not previously in corpus)."
+}

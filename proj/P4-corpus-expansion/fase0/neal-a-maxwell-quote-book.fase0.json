@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "quotations",
+    "compilation",
+    "reference-work"
+  ],
+  "category": "reference",
+  "author": "Neal A. Maxwell",
+  "source_url": null,
+  "note": "Elder Neal A. Maxwell. The Neal A. Maxwell Quote Book (compilación de citas)."
+}

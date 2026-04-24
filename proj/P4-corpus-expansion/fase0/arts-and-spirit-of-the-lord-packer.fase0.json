@@ -1,0 +1,20 @@
+{
+  "authority": 55,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "arts",
+    "inspiration",
+    "classic-devotional",
+    "byu-devotional"
+  ],
+  "category": "discourses",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer. The Arts and the Spirit of the Lord (BYU Devotional, 1 feb 1976). Clásico sobre artes y testimonio."
+}

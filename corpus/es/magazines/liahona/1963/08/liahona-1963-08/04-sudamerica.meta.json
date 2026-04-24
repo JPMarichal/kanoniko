@@ -1,0 +1,33 @@
+{
+  "title": "SUDAMERICA",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, agosto de 1963",
+  "chapter": 4,
+  "total_chapters": 5,
+  "category": "magazines",
+  "subcategory": "liahona/1963/08",
+  "tags": [
+    "liahona",
+    "year-1963",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, agosto de 1963 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-10-06T18:42:04+00:00",
+  "opf_identifier": "1bded6f3-cca6-4067-95d2-1b4985822f37",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1963-08 (pre-2002 issue, not previously in corpus)."
+}

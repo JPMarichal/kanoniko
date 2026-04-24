@@ -1,0 +1,33 @@
+{
+  "title": "Canon XVII.",
+  "author": "Various (ancient, pseudepigraphic)",
+  "book": "New Testament Pseudepigrapha",
+  "chapter": 44,
+  "total_chapters": 112,
+  "category": "scriptures-apocrypha",
+  "subcategory": null,
+  "tags": [
+    "nt-pseudepigrapha",
+    "christian-apocrypha",
+    "dyc-91",
+    "primary-source"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/New Testament Pseudepigrapha - No specific author.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "7dcf5804-e176-44d5-8e33-a8d9b0bb6e08",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "New Testament Pseudepigrapha: evangelios apócrifos (Tomás, María, Protoevangelio de Santiago), Hechos apócrifos, apocalipsis cristianos primitivos."
+}

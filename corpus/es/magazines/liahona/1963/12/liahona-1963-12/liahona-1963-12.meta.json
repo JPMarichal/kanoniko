@@ -1,0 +1,33 @@
+{
+  "title": "Liahona, diciembre de 1963",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, diciembre de 1963",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "magazines",
+  "subcategory": "liahona/1963/12",
+  "tags": [
+    "liahona",
+    "year-1963",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, diciembre de 1963 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-04-25T21:59:39+00:00",
+  "opf_identifier": "84f196f3-b1eb-4fe4-b83a-9c9520123454",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1963-12 (pre-2002 issue, not previously in corpus)."
+}

@@ -1,0 +1,17 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "church-history",
+    "maps"
+  ],
+  "category": "reference",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Mapas de historia de la Iglesia, vol. 2."
+}

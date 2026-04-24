@@ -1,0 +1,32 @@
+{
+  "title": "Preamble",
+  "author": "Neal A. Maxwell",
+  "book": "The Promise of Discipleship",
+  "chapter": 2,
+  "total_chapters": 12,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "discipleship",
+    "promise"
+  ],
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Promise of Discipleship, The - Neal A Maxwell.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "34589b94-7063-4054-b2b2-b62c75adfa83",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elder Neal A. Maxwell. The Promise of Discipleship, 2001."
+}

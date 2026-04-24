@@ -1,0 +1,17 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "fellowship",
+    "pamphlet"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Necesito un amigo (folleto)."
+}

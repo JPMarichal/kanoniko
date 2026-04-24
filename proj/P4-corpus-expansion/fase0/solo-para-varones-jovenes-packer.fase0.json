@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "young-men",
+    "moral-cleanliness",
+    "spanish-lds"
+  ],
+  "category": "books",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer. Sólo para varones jóvenes (To Young Men Only, 1976) — charla clásica sobre pureza moral."
+}

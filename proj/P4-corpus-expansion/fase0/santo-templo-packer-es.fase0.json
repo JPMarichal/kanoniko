@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "temple",
+    "spanish-translation",
+    "holy-temple"
+  ],
+  "category": "books",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer. El Santo Templo (traducción ES de The Holy Temple, 1980). Obra clásica de Packer sobre la doctrina del templo."
+}

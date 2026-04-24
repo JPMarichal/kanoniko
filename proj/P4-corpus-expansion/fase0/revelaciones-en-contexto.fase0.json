@@ -1,0 +1,18 @@
+{
+  "authority": 50,
+  "rigor": 85,
+  "importance": "importante",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "doctrine-and-covenants",
+    "church-history",
+    "revelations-in-context"
+  ],
+  "category": "books",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Revelaciones en contexto (contextos hist\u00f3ricos de las secciones de DyC)."
+}

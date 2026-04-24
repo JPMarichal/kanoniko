@@ -1,0 +1,33 @@
+{
+  "title": "Año 9",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, enero de 1963",
+  "chapter": 1,
+  "total_chapters": 4,
+  "category": "magazines",
+  "subcategory": "liahona/1963/01",
+  "tags": [
+    "liahona",
+    "year-1963",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, enero de 1963 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-09-07T16:31:50+00:00",
+  "opf_identifier": "1aea01b6-91c5-4113-b31c-590d0b5ac56e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1963-01 (pre-2002 issue, not previously in corpus)."
+}

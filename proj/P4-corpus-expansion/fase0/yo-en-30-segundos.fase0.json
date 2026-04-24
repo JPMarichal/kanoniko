@@ -1,0 +1,17 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": true,
+  "current": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "tags": [
+    "self-reliance",
+    "elevator-pitch"
+  ],
+  "category": "manuals",
+  "author": "La Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+  "source_url": null,
+  "note": "Yo en 30 segundos (autosuficiencia)."
+}

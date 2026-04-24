@@ -1,0 +1,33 @@
+{
+  "title": "EL MORMONISMO",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, octubre 1962",
+  "chapter": 2,
+  "total_chapters": 2,
+  "category": "magazines",
+  "subcategory": "liahona/1962/10",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, octubre 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-08-20T22:07:16+00:00",
+  "opf_identifier": "ff0f6b2f-3579-409d-80dd-e20e89ad9bf8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-10 (pre-2002 issue, not previously in corpus)."
+}

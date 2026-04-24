@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "ot-pseudepigrapha",
+    "second-temple",
+    "intertestamental",
+    "dyc-91",
+    "primary-source"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Various (ancient, pseudepigraphic)",
+  "source_url": null,
+  "note": "Old Testament Pseudepigrapha: Jubileos, Testamentos de los 12 Patriarcas, Apocalipsis de Abraham, 2-3 Enoc, Oráculos Sibilinos, etc."
+}

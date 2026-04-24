@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scriptures-apocrypha",
+  "audience": "adult",
+  "tags": [
+    "ot-apocrypha",
+    "deuterocanonical",
+    "septuagint",
+    "dyc-91",
+    "jst-context",
+    "primary-source"
+  ],
+  "category": "scriptures-apocrypha",
+  "author": "Various (ancient)",
+  "source_url": null,
+  "note": "Old Testament Apocrypha (Deuterocanon): Tobit, Judith, Wisdom, Sirach, 1-2 Macabeos, Baruc, etc. Presentes en LXX y Vulgata; Joseph Smith leyó los apócrifos (fondo de DyC 91). JST no los alteró."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "El Fin del Mundo",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, septiembre 1962",
+  "chapter": 4,
+  "total_chapters": 4,
+  "category": "magazines",
+  "subcategory": "liahona/1962/09",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, septiembre 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2009-08-13T22:41:54+00:00",
+  "opf_identifier": "1b325501-d907-44e1-b8aa-2123498a8a0c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-09 (pre-2002 issue, not previously in corpus)."
+}

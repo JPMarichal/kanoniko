@@ -1,0 +1,33 @@
+{
+  "title": "En Manos Fraudulentas",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Liahona, junio 1962",
+  "chapter": 3,
+  "total_chapters": 3,
+  "category": "magazines",
+  "subcategory": "liahona/1962/06",
+  "tags": [
+    "liahona",
+    "year-1962",
+    "pre-corpus-coverage",
+    "magazine"
+  ],
+  "authority": 50,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": true,
+  "context": "magazine",
+  "audience": "all",
+  "current": false,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Liahona, junio 1962 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": "2012-01-24T02:52:06+00:00",
+  "opf_identifier": "fbbd9b14-b176-49fc-a890-0812d39bf105",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Liahona 1962-06 (pre-2002 issue, not previously in corpus)."
+}

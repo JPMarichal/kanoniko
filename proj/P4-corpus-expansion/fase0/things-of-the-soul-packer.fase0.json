@@ -1,0 +1,18 @@
+{
+  "authority": 55,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "spirituality",
+    "soul"
+  ],
+  "category": "books",
+  "author": "Boyd K. Packer",
+  "source_url": null,
+  "note": "Pres. Boyd K. Packer. Things of the Soul, 1996."
+}

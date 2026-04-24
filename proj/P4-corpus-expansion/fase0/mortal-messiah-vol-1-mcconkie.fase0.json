@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "messiah-series",
+    "nt-life-of-christ",
+    "classic-nt-commentary"
+  ],
+  "category": "books",
+  "author": "Bruce R. McConkie",
+  "source_url": null,
+  "note": "Elder Bruce R. McConkie (1915-1985), Q12. The Mortal Messiah vol. 1, 1979. Parte de la tetralogía Messiah (distinta de Millennial Messiah)."
+}

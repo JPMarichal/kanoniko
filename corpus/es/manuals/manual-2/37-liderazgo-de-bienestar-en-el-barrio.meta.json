@@ -1,0 +1,31 @@
+{
+  "title": "Liderazgo de Bienestar en el barrio",
+  "author": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+  "book": "Manual 2",
+  "chapter": 37,
+  "total_chapters": 176,
+  "category": "manuals",
+  "subcategory": null,
+  "tags": [
+    "handbook-2",
+    "church-administration"
+  ],
+  "authority": 50,
+  "rigor": 80,
+  "importance": "importante",
+  "official": true,
+  "context": "ijcsud-official",
+  "audience": "all",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Manual 2 - La Iglesia de Jesucristo de los Santos de los Últimos Días.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "8fbb079c-3db2-4907-b8af-f6e32df599ad",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Manual 2 (anterior al Manual General 2020)."
+}
