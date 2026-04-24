@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lutheran",
+    "reformation",
+    "16th-century",
+    "catechism",
+    "primary-source",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Martin Luther",
+  "source_url": null,
+  "note": "Martin Luther (1483-1546). Der Gro\u00dfe Katechismus, 1529. Foundational Lutheran confession."
+}

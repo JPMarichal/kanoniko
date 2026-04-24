@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "bible-translation",
+    "genesis",
+    "modern",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Dominic Kent",
+  "source_url": null,
+  "note": "Dominic Kent's modern translation of Genesis 1\u201311 in traditional sense."
+}

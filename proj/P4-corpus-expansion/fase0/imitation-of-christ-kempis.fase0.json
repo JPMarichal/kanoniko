@@ -1,0 +1,20 @@
+{
+  "authority": 35,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "catholic",
+    "15th-century",
+    "devotional-classic",
+    "devotio-moderna",
+    "primary-source"
+  ],
+  "category": "reference",
+  "author": "Thomas \u00e0 Kempis",
+  "source_url": null,
+  "note": "Thomas \u00e0 Kempis (c. 1380-1471). De Imitatione Christi, c. 1418-1427. Most-read devotional after the Bible."
+}

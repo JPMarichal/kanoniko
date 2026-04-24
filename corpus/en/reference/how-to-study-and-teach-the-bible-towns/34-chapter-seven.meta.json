@@ -1,0 +1,33 @@
+{
+  "title": "CHAPTER SEVEN",
+  "author": "Elmer L. Towns",
+  "book": "How to Study and Teach the Bible",
+  "chapter": 34,
+  "total_chapters": 42,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "baptist",
+    "bible-pedagogy",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/How to Study and Teach the Bible - Elmer L. Towns.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "fd5efaf3-930c-406f-8cdd-d8aec19ce2b6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Elmer Towns, Liberty University. Evangelical Bible-teaching guide."
+}

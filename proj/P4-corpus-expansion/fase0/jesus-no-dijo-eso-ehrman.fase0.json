@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "secular-nt-scholarship",
+    "textual-criticism",
+    "modern",
+    "non-lds",
+    "critical"
+  ],
+  "category": "reference",
+  "author": "Bart D. Ehrman",
+  "source_url": null,
+  "note": "Bart Ehrman (UNC). Misquoting Jesus (Spanish). Textual criticism bestseller."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "reformed",
+    "bible-survey",
+    "early-20th-century",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "James Oscar Boyd & J. Gresham Machen",
+  "source_url": null,
+  "note": "Boyd & Machen. Brief Bible History, 1922. Princeton Seminary context."
+}

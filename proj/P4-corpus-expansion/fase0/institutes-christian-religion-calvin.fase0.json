@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "reformed",
+    "reformation",
+    "16th-century",
+    "systematic-theology",
+    "primary-source",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "John Calvin",
+  "source_url": null,
+  "note": "John Calvin (1509-1564). Institutio Christianae Religionis, 1536/1559. Foundation of Reformed theology."
+}

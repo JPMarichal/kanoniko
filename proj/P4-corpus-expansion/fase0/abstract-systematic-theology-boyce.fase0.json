@@ -1,0 +1,20 @@
+{
+  "authority": 20,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "baptist",
+    "systematic-theology",
+    "19th-century",
+    "southern-baptist",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "James P. Boyce",
+  "source_url": null,
+  "note": "James P. Boyce (1827-1888). Abstract of Systematic Theology, 1887. Southern Baptist Seminary founder."
+}

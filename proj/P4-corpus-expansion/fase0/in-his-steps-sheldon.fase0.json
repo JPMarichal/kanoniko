@@ -1,0 +1,20 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "social-gospel",
+    "19th-century",
+    "wwjd",
+    "protestant",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Charles M. Sheldon",
+  "source_url": null,
+  "note": "Charles Sheldon (1857-1946). In His Steps, 1896. Origin of 'What Would Jesus Do'."
+}

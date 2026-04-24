@@ -1,0 +1,20 @@
+{
+  "authority": 15,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "catholic",
+    "mariology",
+    "biblical-studies",
+    "modern",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Pablo Blanco",
+  "source_url": null,
+  "note": "Pablo Blanco Sarto, Spanish Catholic theologian. On the 'brothers of Jesus' question."
+}

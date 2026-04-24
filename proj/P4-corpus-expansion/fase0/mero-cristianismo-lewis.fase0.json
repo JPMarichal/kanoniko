@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "anglican",
+    "apologetics",
+    "20th-century",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "C. S. Lewis",
+  "source_url": null,
+  "note": "C. S. Lewis (1898-1963). Mere Christianity, 1952. Spanish translation."
+}

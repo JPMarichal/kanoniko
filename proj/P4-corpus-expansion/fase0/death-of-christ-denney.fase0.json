@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "presbyterian",
+    "atonement",
+    "early-20th-century",
+    "scottish-theology",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "James Denney",
+  "source_url": null,
+  "note": "James Denney (1856-1917), Scottish Presbyterian. The Death of Christ, 1902."
+}

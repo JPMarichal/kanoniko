@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 50,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "evangelical",
+    "baptist",
+    "bible-pedagogy",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Elmer L. Towns",
+  "source_url": null,
+  "note": "Elmer Towns, Liberty University. Evangelical Bible-teaching guide."
+}

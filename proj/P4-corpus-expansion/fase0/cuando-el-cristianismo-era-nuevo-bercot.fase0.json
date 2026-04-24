@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "patristic-studies",
+    "primitive-christianity",
+    "anabaptist-leaning",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "David W. Bercot",
+  "source_url": null,
+  "note": "David Bercot. When the Church was Young (Spanish). Patristic primer."
+}

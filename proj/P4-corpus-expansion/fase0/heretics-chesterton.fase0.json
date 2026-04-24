@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "catholic",
+    "early-20th-century",
+    "cultural-criticism",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "G. K. Chesterton",
+  "source_url": null,
+  "note": "G. K. Chesterton (1874-1936). Heretics, 1905. Cultural and religious criticism."
+}

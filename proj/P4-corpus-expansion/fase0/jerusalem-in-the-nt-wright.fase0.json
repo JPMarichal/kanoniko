@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "anglican",
+    "nt-scholarship",
+    "modern",
+    "biblical-studies",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "N. T. Wright",
+  "source_url": null,
+  "note": "N. T. Wright, Anglican bishop and NT scholar. Essay on Jerusalem's NT significance."
+}

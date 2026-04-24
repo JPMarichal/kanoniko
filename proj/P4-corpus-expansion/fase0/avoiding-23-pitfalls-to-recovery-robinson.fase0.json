@@ -1,0 +1,18 @@
+{
+  "authority": 15,
+  "rigor": 45,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "addiction-recovery",
+    "12-step",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Jeff Robinson",
+  "source_url": null,
+  "note": "Jeff Robinson. Recovery pitfalls guide (non-LDS context)."
+}

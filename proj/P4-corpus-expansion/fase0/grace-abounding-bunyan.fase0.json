@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "puritan",
+    "baptist",
+    "17th-century",
+    "spiritual-autobiography",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "John Bunyan",
+  "source_url": null,
+  "note": "John Bunyan (1628-1688). Grace Abounding to the Chief of Sinners, 1666. Spiritual autobiography."
+}

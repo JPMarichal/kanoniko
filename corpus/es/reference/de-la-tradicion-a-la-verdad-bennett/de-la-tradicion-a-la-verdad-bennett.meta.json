@@ -1,0 +1,33 @@
+{
+  "title": "De la tradición a la verdad",
+  "author": "Richard Bennett",
+  "book": "De la tradición a la verdad",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "ex-catholic",
+    "evangelical",
+    "anti-catholic",
+    "non-lds"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/De la tradición a la verdad - Richard Bennett.epub",
+  "opf_publisher": null,
+  "opf_date": "2010-05-03T16:15:19+00:00",
+  "opf_identifier": "3473a85a-6581-43bb-a11b-9ab7b1201bdf",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Richard Bennett, former Catholic priest turned evangelical. Autobiographical critique of Catholicism."
+}

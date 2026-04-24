@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ex-catholic",
+    "evangelical",
+    "anti-catholic",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Richard Bennett",
+  "source_url": null,
+  "note": "Richard Bennett, former Catholic priest turned evangelical. Autobiographical critique of Catholicism."
+}

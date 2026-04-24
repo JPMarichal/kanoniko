@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "protestant",
+    "16th-century",
+    "martyrology",
+    "reformation",
+    "primary-source",
+    "non-lds"
+  ],
+  "category": "history",
+  "author": "John Foxe",
+  "source_url": null,
+  "note": "John Foxe (1516-1587). Acts and Monuments, 1563. Protestant martyrology."
+}

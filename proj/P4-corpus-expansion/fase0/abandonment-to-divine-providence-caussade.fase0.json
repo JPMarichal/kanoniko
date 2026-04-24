@@ -1,0 +1,20 @@
+{
+  "authority": 25,
+  "rigor": 75,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "catholic",
+    "18th-century",
+    "jesuit",
+    "mystical-theology",
+    "non-lds"
+  ],
+  "category": "reference",
+  "author": "Jean-Pierre de Caussade",
+  "source_url": null,
+  "note": "Caussade (1675-1751), Jesuit. Abandonment to Divine Providence, posthumous 1861."
+}
