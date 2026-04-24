@@ -1,0 +1,32 @@
+{
+  "title": "Jewish Feasts and Holidays",
+  "author": "Rose Publishing",
+  "book": "Jewish Feasts and Holidays",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "rose-publishing"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Jewish Feasts and Holidays - Rose Publishing.epub",
+  "opf_publisher": "Rose Publishing",
+  "opf_date": "2013-02-11T19:48:39+00:00",
+  "opf_identifier": "435e5c77-ac31-46ca-9943-f78a480617f0",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Evangelical Bible reference material published by Rose Publishing. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

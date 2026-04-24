@@ -1,0 +1,32 @@
+{
+  "title": "Family Tree of Saul",
+  "author": "Thomas Nelson",
+  "book": "Family Tree of Saul",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "thomas-nelson"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Family Tree of Saul - Thomas Nelson.epub",
+  "opf_publisher": "Thomas Nelson",
+  "opf_date": "2010-11-03T18:04:26+00:00",
+  "opf_identifier": "b0332fdc-c1c8-413c-baa0-2ed3cf3261f6",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Evangelical Bible reference material published by Thomas Nelson. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

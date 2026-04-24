@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "general",
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "liturgical",
+    "thomas-nelson"
+  ],
+  "category": "reference",
+  "author": "Thomas Nelson",
+  "source_url": null,
+  "note": "Evangelical Bible reference material published by Thomas Nelson. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

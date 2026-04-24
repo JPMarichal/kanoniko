@@ -1,0 +1,33 @@
+{
+  "title": "Career of the Apostle Paul",
+  "author": "Thomas Nelson",
+  "book": "Career of the Apostle Paul",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "paul",
+    "thomas-nelson"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Career of the Apostle Paul - Thomas Nelson.epub",
+  "opf_publisher": "Thomas Nelson",
+  "opf_date": "2010-11-03T15:13:06+00:00",
+  "opf_identifier": "f1bd436d-c31e-4301-b2cf-e5362e2f77eb",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Evangelical Bible reference material published by Thomas Nelson. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

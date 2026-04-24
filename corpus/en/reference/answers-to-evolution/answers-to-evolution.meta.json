@@ -1,0 +1,32 @@
+{
+  "title": "Answers to Evolution",
+  "author": "Rose Publishing",
+  "book": "Answers to Evolution",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "rose-publishing"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Answers to Evolution - Rose Publishing.epub",
+  "opf_publisher": "Rose Publishing",
+  "opf_date": "2013-02-11T21:30:30+00:00",
+  "opf_identifier": "c36888f2-0eea-416d-ad83-4bfd5e98b8e7",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Evangelical Bible reference material published by Rose Publishing. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

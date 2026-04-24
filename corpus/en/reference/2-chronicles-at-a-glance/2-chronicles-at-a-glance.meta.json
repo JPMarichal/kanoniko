@@ -1,0 +1,33 @@
+{
+  "title": "2 Chronicles at a Glance",
+  "author": "Thomas Nelson",
+  "book": "2 Chronicles at a Glance",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "bible-book-summary",
+    "thomas-nelson"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/2 Chronicles at a Glance - Thomas Nelson.epub",
+  "opf_publisher": "Thomas Nelson",
+  "opf_date": "2010-11-03T15:28:38+00:00",
+  "opf_identifier": "0b062ecb-43cc-4637-8525-2f723b7960aa",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Evangelical Bible reference material published by Thomas Nelson. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

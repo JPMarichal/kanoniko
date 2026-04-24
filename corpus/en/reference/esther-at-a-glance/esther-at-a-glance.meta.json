@@ -1,0 +1,33 @@
+{
+  "title": "Esther at a Glance",
+  "author": "Thomas Nelson",
+  "book": "Esther at a Glance",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "bible-book-summary",
+    "thomas-nelson"
+  ],
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "scholarly",
+  "audience": "general",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Esther at a Glance - Thomas Nelson.epub",
+  "opf_publisher": "Thomas Nelson",
+  "opf_date": "2010-11-03T16:22:12+00:00",
+  "opf_identifier": "db376c77-63e2-40f5-95ee-de5ad88ef5e4",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Evangelical Bible reference material published by Thomas Nelson. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "general",
+  "tags": [
+    "evangelical",
+    "bible-reference",
+    "prayer",
+    "rose-publishing"
+  ],
+  "category": "reference",
+  "author": "Rose Publishing",
+  "source_url": null,
+  "note": "Evangelical Bible reference material published by Rose Publishing. Part of a bulk-incorporated batch of 101 non-LDS bible reference works (Thomas Nelson + Rose Publishing). Inclusion justified as complementary non-LDS Bible reference for comparative use. authority=15 per docs/authority-model.md tier 'General scholarly reference (Bible dictionaries, commentaries)'."
+}
