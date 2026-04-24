@@ -1,0 +1,18 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "nauvoo",
+    "social-history",
+    "19th-century-lds"
+  ],
+  "category": "history",
+  "author": "George W. Givens",
+  "source_url": null,
+  "note": "George W. Givens. In Old Nauvoo: Everyday Life in the City of Joseph, 1990."
+}

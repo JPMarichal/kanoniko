@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "israelite-lineage",
+    "first-council-seventy",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "George Reynolds",
+  "source_url": null,
+  "note": "George Reynolds (1842-1909), First Council of Seventy. Are We of Israel?, 1883."
+}

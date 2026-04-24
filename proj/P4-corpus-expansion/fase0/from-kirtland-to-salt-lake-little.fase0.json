@@ -1,0 +1,17 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "church-history-narrative"
+  ],
+  "category": "history",
+  "author": "James A. Little",
+  "source_url": null,
+  "note": "James A. Little. From Kirtland to Salt Lake City."
+}

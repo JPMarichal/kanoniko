@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "external-observer",
+    "utah",
+    "19th-century",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Richard F. Burton",
+  "source_url": null,
+  "note": "Sir Richard F. Burton (1821-1890). City of the Saints, 1861. British explorer's Utah account."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "ex-lds",
+    "19th-century",
+    "polygamy-critique",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Mrs. T. B. H. Stenhouse",
+  "source_url": null,
+  "note": "Fanny Stenhouse (1829-1904). Englishwoman in Utah, 1880. Ex-LDS expos\u00e9, polygamy critique."
+}

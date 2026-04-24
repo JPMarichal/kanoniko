@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "modern-lds",
+    "women-history",
+    "20th-century"
+  ],
+  "category": "history",
+  "author": "Derin Head Rodriguez",
+  "source_url": null,
+  "note": "Derin Head Rodriguez. Dawning of a Brighter Day."
+}

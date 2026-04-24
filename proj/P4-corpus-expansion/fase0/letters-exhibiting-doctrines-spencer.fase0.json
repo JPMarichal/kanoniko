@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "apologetics",
+    "early-apostles-associate",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Orson Spencer",
+  "source_url": null,
+  "note": "Orson Spencer (1802-1855), BYU founding chancellor. Letters Exhibiting... 1848."
+}

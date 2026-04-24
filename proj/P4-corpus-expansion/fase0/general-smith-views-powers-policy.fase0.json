@@ -1,0 +1,19 @@
+{
+  "authority": 55,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-authored",
+    "political",
+    "1844-presidential-campaign",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Joseph Smith Jr.",
+  "source_url": null,
+  "note": "Joseph Smith Jr. General Smith's Views, 1844. Presidential campaign platform."
+}

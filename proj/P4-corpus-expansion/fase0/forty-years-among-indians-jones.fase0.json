@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "native-american-mission",
+    "pioneer",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Daniel W. Jones",
+  "source_url": null,
+  "note": "Daniel W. Jones (1830-1915). Forty Years Among the Indians, 1890. Autobiographical primary source."
+}

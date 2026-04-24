@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "religious-history",
+    "restoration-context",
+    "19th-century-america"
+  ],
+  "category": "history",
+  "author": "Milton V. Backman Jr.",
+  "source_url": null,
+  "note": "Milton V. Backman Jr., BYU. American Religions and the Rise of Mormonism, 1965/1970."
+}

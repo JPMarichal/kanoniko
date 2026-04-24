@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith-promoting-series",
+    "19th-century-lds",
+    "anthology"
+  ],
+  "category": "history",
+  "author": "George C. Lambert",
+  "source_url": null,
+  "note": "Faith-Promoting Series #17. Gems of Reminiscence."
+}

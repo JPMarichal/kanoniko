@@ -1,0 +1,20 @@
+{
+  "authority": 20,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "anglican-observer",
+    "nauvoo",
+    "1842",
+    "external-account",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Henry Caswall",
+  "source_url": null,
+  "note": "Henry Caswall, Anglican cleric. Three Days at Nauvoo, 1842. Hostile external eyewitness."
+}

@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "regional-history",
+    "southern-utah",
+    "20th-century"
+  ],
+  "category": "history",
+  "author": "Angus M. Woodbury",
+  "source_url": null,
+  "note": "Angus M. Woodbury. History of Southern Utah and Its National Parks."
+}

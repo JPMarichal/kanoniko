@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "reference-work",
+    "atlas",
+    "modern-lds-scholarship"
+  ],
+  "category": "history",
+  "author": "S. Kent Brown, D. Q. Cannon & R. H. Jackson",
+  "source_url": null,
+  "note": "Brown, Cannon & Jackson, BYU. Historical Atlas of Mormonism, 1994."
+}

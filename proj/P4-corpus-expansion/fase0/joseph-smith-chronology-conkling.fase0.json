@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "prophet-chronology",
+    "reference",
+    "byu-adjacent"
+  ],
+  "category": "history",
+  "author": "J. Christopher Conkling",
+  "source_url": null,
+  "note": "J. Christopher Conkling. Joseph Smith Chronology, 1979. Reference timeline."
+}

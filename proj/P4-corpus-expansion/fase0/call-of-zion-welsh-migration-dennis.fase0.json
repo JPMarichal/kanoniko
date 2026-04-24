@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "welsh-mission",
+    "gathering",
+    "byu-academic",
+    "19th-century-lds"
+  ],
+  "category": "history",
+  "author": "Ronald D. Dennis",
+  "source_url": null,
+  "note": "Ronald D. Dennis, BYU. Call of Zion: First Welsh Mormon Migration, 1987."
+}

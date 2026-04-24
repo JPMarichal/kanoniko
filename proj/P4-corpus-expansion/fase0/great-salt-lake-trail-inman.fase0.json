@@ -1,0 +1,19 @@
+{
+  "authority": 20,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "western-history",
+    "19th-century",
+    "mormon-trail",
+    "external-observer"
+  ],
+  "category": "history",
+  "author": "Henry Inman & William F. Cody",
+  "source_url": null,
+  "note": "Henry Inman & Buffalo Bill Cody. Great Salt Lake Trail, 1898."
+}

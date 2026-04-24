@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "missouri-persecution",
+    "martyrdom-account",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "John R. Young",
+  "source_url": null,
+  "note": "John R. Young. Account of the death of Orson Spencer's wife during Missouri persecutions."
+}

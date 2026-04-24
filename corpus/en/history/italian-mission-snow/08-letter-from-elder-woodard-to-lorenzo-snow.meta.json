@@ -1,0 +1,33 @@
+{
+  "title": "Letter from Elder Woodard to Lorenzo Snow.",
+  "author": "Lorenzo Snow",
+  "book": "Italian Mission",
+  "chapter": 8,
+  "total_chapters": 9,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "apostle-authored",
+    "italian-mission",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Italian Mission - Lorenzo Snow.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "2d9b8218-ffd1-4f9c-953a-ec9e44c7d30c",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Lorenzo Snow (1814-1901). Italian Mission, 1851. Pre-apostolic missionary report."
+}

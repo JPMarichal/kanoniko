@@ -1,0 +1,18 @@
+{
+  "authority": 25,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "lds-in-britain",
+    "early-20th-century",
+    "apologetics"
+  ],
+  "category": "history",
+  "author": "Arthur L. Beeley",
+  "source_url": null,
+  "note": "Arthur L. Beeley. Summary of investigation of the 'Mormon question' in England."
+}

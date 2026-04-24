@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "mormon-battalion",
+    "mexican-war",
+    "19th-century",
+    "primary-source",
+    "veteran-authored"
+  ],
+  "category": "history",
+  "author": "Daniel Tyler",
+  "source_url": null,
+  "note": "Daniel Tyler, Battalion veteran. Concise History of the Mormon Battalion, 1881."
+}

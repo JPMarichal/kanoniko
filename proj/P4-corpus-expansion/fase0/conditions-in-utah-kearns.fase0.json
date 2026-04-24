@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "senate-speech",
+    "early-20th-century",
+    "external-criticism",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Thomas Kearns",
+  "source_url": null,
+  "note": "Sen. Thomas Kearns (UT). 1905 Senate speech attacking LDS leadership. External critique."
+}

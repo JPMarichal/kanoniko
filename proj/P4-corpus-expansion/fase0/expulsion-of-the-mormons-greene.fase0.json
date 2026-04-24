@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "19th-century-lds",
+    "missouri-expulsion",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "John P. Greene",
+  "source_url": null,
+  "note": "John P. Greene (1793-1844). Facts Relative to the Expulsion of the Mormons from Missouri, 1839."
+}

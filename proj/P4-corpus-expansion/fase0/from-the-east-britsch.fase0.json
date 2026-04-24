@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "asia",
+    "modern-lds",
+    "missionary-history"
+  ],
+  "category": "history",
+  "author": "R. Lanier Britsch",
+  "source_url": null,
+  "note": "R. Lanier Britsch, BYU. From the East: LDS in Asia 1851-1996, 1998."
+}

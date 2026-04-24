@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "rigdon-controversy",
+    "succession",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Jedediah M. Grant",
+  "source_url": null,
+  "note": "Jedediah M. Grant (1816-1856), Q12 later First Presidency. Collection of Facts re Sidney Rigdon, 1844."
+}

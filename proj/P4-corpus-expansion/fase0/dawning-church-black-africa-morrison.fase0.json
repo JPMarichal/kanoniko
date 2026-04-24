@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "seventy-authored",
+    "africa",
+    "modern-lds",
+    "missionary-work"
+  ],
+  "category": "history",
+  "author": "Alexander B. Morrison",
+  "source_url": null,
+  "note": "Elder Alexander B. Morrison, Seventy. Dawning of a Brighter Day: the Church in Black Africa, 1990."
+}

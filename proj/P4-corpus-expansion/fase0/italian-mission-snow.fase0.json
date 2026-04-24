@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "italian-mission",
+    "19th-century-lds",
+    "primary-source"
+  ],
+  "category": "history",
+  "author": "Lorenzo Snow",
+  "source_url": null,
+  "note": "Lorenzo Snow (1814-1901). Italian Mission, 1851. Pre-apostolic missionary report."
+}

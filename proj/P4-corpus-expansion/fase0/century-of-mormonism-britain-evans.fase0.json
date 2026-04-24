@@ -1,0 +1,18 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "british-mission",
+    "centennial-history"
+  ],
+  "category": "history",
+  "author": "Richard L. Evans",
+  "source_url": null,
+  "note": "Richard L. Evans (1906-1971), Q12. Century of Mormonism in Great Britain, 1937."
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Part 12",
+  "author": "J. Christopher Conkling",
+  "book": "Joseph Smith Chronology",
+  "chapter": 11,
+  "total_chapters": 21,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "prophet-chronology",
+    "reference",
+    "byu-adjacent"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Joseph Smith Chronology - J Christopher Conkling.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "5710202a-e879-47c0-ad62-182cccb923cd",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "J. Christopher Conkling. Joseph Smith Chronology, 1979. Reference timeline."
+}

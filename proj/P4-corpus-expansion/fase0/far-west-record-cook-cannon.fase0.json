@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "byu-academic",
+    "early-church-minutes",
+    "primary-source",
+    "1830-1844"
+  ],
+  "category": "history",
+  "author": "Lyndon W. Cook & Donald Q. Cannon (eds.)",
+  "source_url": null,
+  "note": "Cook & Cannon eds. Far West Record: Minutes 1830-1844, 1983. Critical primary source."
+}

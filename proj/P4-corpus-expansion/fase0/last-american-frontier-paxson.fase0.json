@@ -1,0 +1,18 @@
+{
+  "authority": 20,
+  "rigor": 65,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "western-history",
+    "early-20th-century-scholarship",
+    "general-us-history"
+  ],
+  "category": "history",
+  "author": "Frederic L. Paxson",
+  "source_url": null,
+  "note": "Frederic L. Paxson (1877-1948), Pulitzer-winning historian. Last American Frontier, 1910."
+}
