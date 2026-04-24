@@ -1,0 +1,19 @@
+{
+  "authority": 40,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "kapp",
+    "yw-presidency",
+    "devotional",
+    "women-leaders"
+  ],
+  "category": "books",
+  "author": "Ardeth Greene Kapp",
+  "source_url": null,
+  "note": "Kapp's devotional on life's journey of faith."
+}

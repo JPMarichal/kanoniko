@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "encyclopedia",
+    "reference",
+    "brewster",
+    "byu-scholarship"
+  ],
+  "category": "reference",
+  "author": "Hoyt W. Brewster",
+  "source_url": null,
+  "note": "Brewster's encyclopedia of D&C topics, section-by-section. Reference work."
+}

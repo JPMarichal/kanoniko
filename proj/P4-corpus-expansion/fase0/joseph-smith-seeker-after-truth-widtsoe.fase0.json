@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "biography",
+    "apologetics",
+    "apostle-authored",
+    "widtsoe"
+  ],
+  "category": "biographies",
+  "author": "John A. Widtsoe",
+  "source_url": null,
+  "note": "1951 Bookcraft. Widtsoe's biographical-apologetic study of Joseph Smith. authority=40 (apostle as private biographer)."
+}

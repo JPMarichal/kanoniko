@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine-and-covenants",
+    "cowan",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Richard O. Cowan",
+  "source_url": null,
+  "note": "Cowan's historical-doctrinal study of the D&C."
+}

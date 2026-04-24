@@ -1,0 +1,19 @@
+{
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "youth",
+    "faith-promoting",
+    "stories",
+    "hartshorn"
+  ],
+  "category": "books",
+  "author": "Leon R. Hartshorn",
+  "source_url": null,
+  "note": "Hartshorn's youth-audience faith-promoting compilation."
+}

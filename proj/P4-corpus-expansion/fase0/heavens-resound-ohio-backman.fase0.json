@@ -1,0 +1,21 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "kirtland",
+    "ohio",
+    "church-history",
+    "1830s",
+    "backman",
+    "byu-scholarship"
+  ],
+  "category": "history",
+  "author": "Milton V. Backman",
+  "source_url": null,
+  "note": "Backman's definitive history of the Kirtland period (1830-1838)."
+}

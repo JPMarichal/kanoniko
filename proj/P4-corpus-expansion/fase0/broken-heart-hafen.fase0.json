@@ -1,0 +1,21 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "atonement",
+    "christology",
+    "healing",
+    "hafen",
+    "seventy",
+    "byu-law"
+  ],
+  "category": "books",
+  "author": "Bruce C. Hafen",
+  "source_url": null,
+  "note": "Hafen's most-cited work — on the Atonement as sanctifying power across life's experiences, not just sin."
+}

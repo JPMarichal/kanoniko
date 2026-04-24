@@ -1,0 +1,19 @@
+{
+  "authority": 80,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "jst",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "José Smith",
+  "source_url": null,
+  "note": "Traducción ES de pasajes adicionales de la JST. authority=80 (prophetic translation)."
+}

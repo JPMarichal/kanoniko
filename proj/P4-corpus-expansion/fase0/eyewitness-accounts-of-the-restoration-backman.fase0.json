@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "restoration",
+    "primary-source",
+    "eyewitness",
+    "backman",
+    "byu-scholarship"
+  ],
+  "category": "history",
+  "author": "Milton V. Backman",
+  "source_url": null,
+  "note": "Backman (BYU Church history) compilation of primary-source eyewitness accounts of Restoration events."
+}

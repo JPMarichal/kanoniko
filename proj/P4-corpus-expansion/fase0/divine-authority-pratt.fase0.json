@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pratt-o",
+    "apologetics",
+    "joseph-smith",
+    "divine-authority",
+    "apostle-authored"
+  ],
+  "category": "books",
+  "author": "Orson Pratt",
+  "source_url": null,
+  "note": "Orson Pratt's classic apologetic on Joseph Smith's divine commission (1848)."
+}

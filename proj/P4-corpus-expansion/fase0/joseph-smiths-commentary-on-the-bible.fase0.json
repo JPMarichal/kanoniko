@@ -1,0 +1,20 @@
+{
+  "authority": 80,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "biblical-commentary",
+    "jst",
+    "jackson-byu",
+    "primary-source"
+  ],
+  "category": "books",
+  "author": "Joseph Smith & Kent P. Jackson",
+  "source_url": null,
+  "note": "Edited by Kent P. Jackson (BYU). Compiled JS teachings about Bible passages, drawn from JST marginalia, discourses, revelations. authority=80 (prophetic exegesis)."
+}

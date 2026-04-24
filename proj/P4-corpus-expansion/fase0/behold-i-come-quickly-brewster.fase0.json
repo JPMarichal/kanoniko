@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "eschatology",
+    "last-days",
+    "second-coming",
+    "brewster",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Hoyt W. Brewster",
+  "source_url": null,
+  "note": "Brewster (BYU religion) on eschatology/last-days in LDS theology."
+}

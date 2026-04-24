@@ -1,0 +1,33 @@
+{
+  "title": "The General Authorities",
+  "author": "Richard O. Cowan",
+  "book": "Church in the Twentieth Century",
+  "chapter": 23,
+  "total_chapters": 25,
+  "category": "history",
+  "subcategory": null,
+  "tags": [
+    "church-history",
+    "twentieth-century",
+    "cowan",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Church in the Twentieth Century - Richard O Cowan.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "19495185-cd6b-4490-9dd3-9df9fa88963e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Cowan (BYU Church history) standard textbook on 20th-c LDS history."
+}

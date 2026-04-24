@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "missionary",
+    "devotional",
+    "pinegar"
+  ],
+  "category": "books",
+  "author": "Ed J. Pinegar",
+  "source_url": null,
+  "note": "Pinegar vol 3."
+}

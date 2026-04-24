@@ -1,0 +1,33 @@
+{
+  "title": "CONTENIDO",
+  "author": "José Smith",
+  "book": "El Diario de Jose Smith, volumen 2",
+  "chapter": 2,
+  "total_chapters": 9,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "journal",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "authority": 85,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Diario de Jose Smith, volumen 2, El - José Smith.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "4780621f-7c3d-43ba-913e-db147d4dddf8",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Diario JS vol 2 ES."
+}

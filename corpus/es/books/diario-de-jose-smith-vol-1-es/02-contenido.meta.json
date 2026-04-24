@@ -1,0 +1,33 @@
+{
+  "title": "CONTENIDO",
+  "author": "José Smith",
+  "book": "El Diario de Jose Smith, volumen 1",
+  "chapter": 2,
+  "total_chapters": 12,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "journal",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "authority": 85,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Diario de Jose Smith, volumen 1, El - José Smith.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "bda149c7-13cc-4186-a194-fcffcca5ad4a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Traducción ES del diario personal de José Smith vol 1. Primary-source — registro del día a día del Profeta. authority=85."
+}

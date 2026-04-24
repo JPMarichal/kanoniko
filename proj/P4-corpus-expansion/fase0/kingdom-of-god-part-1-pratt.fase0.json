@@ -1,0 +1,19 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pratt-o",
+    "kingdom-of-god",
+    "millennialism",
+    "apostle-authored"
+  ],
+  "category": "books",
+  "author": "Orson Pratt",
+  "source_url": null,
+  "note": "Pratt on the Kingdom of God (millennial apostolic theology)."
+}

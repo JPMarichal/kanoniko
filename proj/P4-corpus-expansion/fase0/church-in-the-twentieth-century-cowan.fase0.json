@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "church-history",
+    "twentieth-century",
+    "cowan",
+    "byu-scholarship"
+  ],
+  "category": "history",
+  "author": "Richard O. Cowan",
+  "source_url": null,
+  "note": "Cowan (BYU Church history) standard textbook on 20th-c LDS history."
+}

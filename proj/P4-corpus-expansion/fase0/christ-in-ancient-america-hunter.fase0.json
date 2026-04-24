@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "christology",
+    "ancient-america",
+    "book-of-mormon",
+    "hunter-mr",
+    "seventy"
+  ],
+  "category": "books",
+  "author": "Milton R. Hunter",
+  "source_url": null,
+  "note": "Hunter's classic on Christ's visit to the Americas and ancient Christian traditions in the New World."
+}

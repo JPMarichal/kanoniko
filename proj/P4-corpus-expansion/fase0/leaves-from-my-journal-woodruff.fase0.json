@@ -1,0 +1,20 @@
+{
+  "authority": 60,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "woodruff",
+    "journal",
+    "autobiography",
+    "faith-promoting-series",
+    "church-president"
+  ],
+  "category": "biographies",
+  "author": "Wilford Woodruff",
+  "source_url": null,
+  "note": "1881/1909 — Woodruff's autobiographical journal extracts. Part of the Faith-Promoting Series of early-youth reading. authority=60 (prophetic personal record)."
+}

@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "george-albert-smith",
+    "church-president",
+    "gibbons"
+  ],
+  "category": "biographies",
+  "author": "Francis M. Gibbons",
+  "source_url": null,
+  "note": "Gibbons's biography of President George Albert Smith (8th President 1945-1951)."
+}

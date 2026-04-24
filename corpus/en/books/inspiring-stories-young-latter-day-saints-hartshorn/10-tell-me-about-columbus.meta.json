@@ -1,0 +1,33 @@
+{
+  "title": "Tell Me About Columbus",
+  "author": "Leon R. Hartshorn",
+  "book": "Inspiring Stories for Young Latter-day Saints",
+  "chapter": 10,
+  "total_chapters": 86,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "youth",
+    "faith-promoting",
+    "stories",
+    "hartshorn"
+  ],
+  "authority": 25,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Inspiring Stories for Young Latter-day Saints - Leon R Hartshorn.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "2b0b5778-b907-41b2-85c4-fefab9f66b25",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Hartshorn's youth-audience faith-promoting compilation."
+}

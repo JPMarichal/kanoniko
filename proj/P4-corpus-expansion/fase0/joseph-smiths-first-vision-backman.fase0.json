@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "first-vision",
+    "contemporary-accounts",
+    "backman",
+    "byu-scholarship"
+  ],
+  "category": "history",
+  "author": "Milton V. Backman",
+  "source_url": null,
+  "note": "Backman's apologetic-historical study of the First Vision accounts."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "biography",
+    "restoration",
+    "hartshorn",
+    "byu-scholarship"
+  ],
+  "category": "biographies",
+  "author": "Leon R. Hartshorn",
+  "source_url": null,
+  "note": "Hartshorn on Joseph Smith."
+}

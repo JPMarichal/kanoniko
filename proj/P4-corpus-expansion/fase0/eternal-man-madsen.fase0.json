@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "philosophy",
+    "anthropology",
+    "theosis",
+    "madsen",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Truman G. Madsen",
+  "source_url": null,
+  "note": "Madsen's philosophical treatise on LDS anthropology (man as co-eternal with God). Classic LDS intellectual work."
+}

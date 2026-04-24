@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "church-presidents",
+    "collection",
+    "gibbons",
+    "secretary-to-fp"
+  ],
+  "category": "biographies",
+  "author": "Francis M. Gibbons",
+  "source_url": null,
+  "note": "Gibbons's collection of short biographies of Church Presidents. Gibbons served as Secretary to the First Presidency 1970-1986 — personal access to Presidents' papers. authority=30."
+}

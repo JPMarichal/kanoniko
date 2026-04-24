@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith",
+    "discipleship",
+    "hafen",
+    "seventy",
+    "byu-law"
+  ],
+  "category": "books",
+  "author": "Bruce C. Hafen",
+  "source_url": null,
+  "note": "Hafen (Seventy 1996-2010, BYU law prof) on the believing heart in gospel life."
+}

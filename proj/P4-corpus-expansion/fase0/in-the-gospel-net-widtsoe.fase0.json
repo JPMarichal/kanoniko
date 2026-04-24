@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "biography",
+    "conversion",
+    "norwegian",
+    "widtsoe-family",
+    "apostle-authored"
+  ],
+  "category": "biographies",
+  "author": "John A. Widtsoe",
+  "source_url": null,
+  "note": "1941 Widtsoe's biography of his Norwegian mother Anna Karine Gaarden, a convert to the Church. Personal family history + conversion narrative. authority=30."
+}

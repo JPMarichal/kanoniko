@@ -1,0 +1,20 @@
+{
+  "authority": 85,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "lectures-on-faith",
+    "school-of-the-prophets",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "José Smith",
+  "source_url": null,
+  "note": "Traducción ES de Lectures on Faith (1834-35). Las 7 lecciones dadas en la Escuela de los Profetas en Kirtland. authority=85. Par de traducción de corpus/en/books/lectures-on-faith."
+}

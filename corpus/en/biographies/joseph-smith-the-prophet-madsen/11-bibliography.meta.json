@@ -1,0 +1,33 @@
+{
+  "title": "Bibliography",
+  "author": "Truman G. Madsen",
+  "book": "Joseph Smith the Prophet",
+  "chapter": 11,
+  "total_chapters": 11,
+  "category": "biographies",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "biography",
+    "madsen",
+    "byu-scholarship"
+  ],
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Joseph Smith the Prophet - Truman G Madsen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "aedccbf4-999e-4319-8e50-5ed848812d7e",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Madsen's biographical-devotional study of Joseph Smith — based on his BYU lecture series."
+}

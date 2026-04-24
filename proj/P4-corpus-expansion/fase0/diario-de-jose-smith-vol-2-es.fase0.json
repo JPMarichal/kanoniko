@@ -1,0 +1,19 @@
+{
+  "authority": 85,
+  "rigor": 85,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "journal",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "José Smith",
+  "source_url": null,
+  "note": "Diario JS vol 2 ES."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith-promoting",
+    "apostles",
+    "stories",
+    "hartshorn",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Leon R. Hartshorn",
+  "source_url": null,
+  "note": "Companion to Classic Stories — apostles' lives."
+}

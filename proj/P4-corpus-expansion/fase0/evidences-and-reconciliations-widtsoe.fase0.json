@@ -1,0 +1,21 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "doctrine",
+    "apologetics",
+    "qna",
+    "apostle-authored",
+    "widtsoe",
+    "bookcraft"
+  ],
+  "category": "books",
+  "author": "John A. Widtsoe",
+  "source_url": null,
+  "note": "1943 Bookcraft/Deseret Book. Widtsoe's Q&A format doctrinal companion — three volumes compiled, reconciling doctrine with modern thought. Q12 1921-1952. authority=45 (GA private, major doctrinal work)."
+}

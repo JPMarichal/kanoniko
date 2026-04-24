@@ -1,0 +1,20 @@
+{
+  "authority": 85,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "wentworth-letter",
+    "articles-of-faith",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "category": "books",
+  "author": "José Smith",
+  "source_url": null,
+  "note": "Traducción ES de la Wentworth Letter (1842) — carta de José Smith a John Wentworth resumiendo historia y doctrina SUD. Fuente primaria; incluye los Artículos de Fe. authority=85."
+}

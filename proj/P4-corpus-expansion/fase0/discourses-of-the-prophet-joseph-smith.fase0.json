@@ -1,0 +1,20 @@
+{
+  "authority": 80,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "joseph-smith",
+    "discourses",
+    "primary-source",
+    "compilation",
+    "burton"
+  ],
+  "category": "books",
+  "author": "Joseph Smith & Alma P. Burton",
+  "source_url": null,
+  "note": "Edited by Alma P. Burton. Compilation of JS discourses from journals and primary sources. authority=80 (prophetic teachings)."
+}

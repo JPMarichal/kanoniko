@@ -1,0 +1,20 @@
+{
+  "authority": 15,
+  "rigor": 55,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "viking-era",
+    "norse-history",
+    "secular-history",
+    "clayton",
+    "spanish-translation"
+  ],
+  "category": "reference",
+  "author": "Matt Clayton",
+  "source_url": null,
+  "note": "Matt Clayton on Viking era tales."
+}

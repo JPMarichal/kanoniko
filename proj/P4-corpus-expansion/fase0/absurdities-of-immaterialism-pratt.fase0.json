@@ -1,0 +1,20 @@
+{
+  "authority": 45,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "pratt-o",
+    "philosophy",
+    "materialism",
+    "apostle-authored",
+    "19th-century-lds"
+  ],
+  "category": "books",
+  "author": "Orson Pratt",
+  "source_url": null,
+  "note": "Orson Pratt (Q12 1835-1881) philosophical tract arguing for materialist LDS theology (matter eternal, spirit is refined matter). authority=45 (apostolic foundational)."
+}

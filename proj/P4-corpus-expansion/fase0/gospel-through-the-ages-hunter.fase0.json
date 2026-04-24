@@ -1,0 +1,20 @@
+{
+  "authority": 40,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "gospel",
+    "priesthood-manual",
+    "hunter-mr",
+    "seventy",
+    "correlated"
+  ],
+  "category": "books",
+  "author": "Milton R. Hunter",
+  "source_url": null,
+  "note": "Hunter's 1945 priesthood manual. Course taught to Melchizedek priesthood."
+}

@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "faith-promoting",
+    "church-presidents",
+    "stories",
+    "hartshorn",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Leon R. Hartshorn",
+  "source_url": null,
+  "note": "Hartshorn (BYU religion professor) compilation of faith-promoting stories from Church Presidents' lives."
+}

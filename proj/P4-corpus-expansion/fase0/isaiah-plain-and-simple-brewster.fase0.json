@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "isaiah",
+    "book-of-mormon",
+    "brewster",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Hoyt W. Brewster",
+  "source_url": null,
+  "note": "Brewster on Isaiah passages quoted in the BoM."
+}

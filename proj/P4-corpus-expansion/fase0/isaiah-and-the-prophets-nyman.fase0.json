@@ -1,0 +1,20 @@
+{
+  "authority": 30,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "isaiah",
+    "prophets",
+    "old-testament",
+    "nyman",
+    "byu-scholarship"
+  ],
+  "category": "books",
+  "author": "Monte S. Nyman",
+  "source_url": null,
+  "note": "Nyman on OT prophetic literature."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Additional Joseph Smith Translation Excerpts",
+  "author": "José Smith",
+  "book": "Additional Joseph Smith Translation Excerpts",
+  "chapter": null,
+  "total_chapters": 1,
+  "category": "books",
+  "subcategory": null,
+  "tags": [
+    "joseph-smith",
+    "jst",
+    "primary-source",
+    "spanish-translation"
+  ],
+  "authority": 80,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "book-private",
+  "audience": "adult",
+  "current": true,
+  "lang": "spa",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Additional Joseph Smith Translation Excerpts - José Smith.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "fe28a502-19a2-45cd-9fd3-9498ca6028a3",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Traducción ES de pasajes adicionales de la JST. authority=80 (prophetic translation)."
+}
