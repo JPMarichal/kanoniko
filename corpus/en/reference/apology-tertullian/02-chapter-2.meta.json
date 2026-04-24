@@ -1,0 +1,33 @@
+{
+  "title": "Chapter 2",
+  "author": "Tertullian",
+  "book": "Apology",
+  "chapter": 2,
+  "total_chapters": 50,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "patristic",
+    "apologetics",
+    "tertullian",
+    "latin-church"
+  ],
+  "authority": 10,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "context": "scholarly",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Apology - Tertuliano.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "0cdb3698-9dac-4884-8f38-d84a5dd78396",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Tertullian's Apology (~197 CE) — foundational Latin Christian apology."
+}

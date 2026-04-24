@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "secular-history",
+    "roman-empire",
+    "early-christianity-history",
+    "gibbon"
+  ],
+  "category": "reference",
+  "author": "Edward Gibbon",
+  "source_url": null,
+  "note": "Decline and Fall vol 4."
+}

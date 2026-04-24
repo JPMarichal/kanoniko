@@ -1,0 +1,19 @@
+{
+  "authority": 15,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "midrash",
+    "jewish-legends",
+    "rabbinic-literature",
+    "ginzberg"
+  ],
+  "category": "reference",
+  "author": "Louis Ginzberg",
+  "source_url": null,
+  "note": "Legends of the Jews vol 2."
+}

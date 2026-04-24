@@ -1,0 +1,20 @@
+{
+  "authority": 10,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "homilies",
+    "john-gospel",
+    "chrysostom",
+    "early-christianity"
+  ],
+  "category": "reference",
+  "author": "John Chrysostom",
+  "source_url": null,
+  "note": "Chrysostom homilies on John."
+}

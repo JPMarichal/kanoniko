@@ -1,0 +1,19 @@
+{
+  "authority": 10,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "systematic-theology",
+    "origen",
+    "de-principiis"
+  ],
+  "category": "reference",
+  "author": "Origen",
+  "source_url": null,
+  "note": "Origen's De Principiis — first systematic Christian theology."
+}

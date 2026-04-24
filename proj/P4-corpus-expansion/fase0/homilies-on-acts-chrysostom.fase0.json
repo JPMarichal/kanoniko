@@ -1,0 +1,21 @@
+{
+  "authority": 10,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "homilies",
+    "new-testament-commentary",
+    "acts",
+    "chrysostom",
+    "early-christianity"
+  ],
+  "category": "reference",
+  "author": "John Chrysostom",
+  "source_url": null,
+  "note": "Chrysostom's homilies on Acts (~4th c). Patristic NT exegesis."
+}

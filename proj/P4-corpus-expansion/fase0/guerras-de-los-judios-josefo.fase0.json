@@ -1,0 +1,20 @@
+{
+  "authority": 10,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "historical",
+    "josephus",
+    "first-century-judea",
+    "jewish-war",
+    "spanish-translation"
+  ],
+  "category": "reference",
+  "author": "Flavio Josefo (Josephus)",
+  "source_url": null,
+  "note": "Las guerras de los judíos (Jewish War, 66-73 CE). Primary-source for destruction of Jerusalem."
+}

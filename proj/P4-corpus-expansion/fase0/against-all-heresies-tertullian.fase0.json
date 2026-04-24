@@ -1,0 +1,19 @@
+{
+  "authority": 10,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "heresiology",
+    "tertullian",
+    "latin-church"
+  ],
+  "category": "reference",
+  "author": "Tertullian",
+  "source_url": null,
+  "note": "Tertullian against heresies — catalog of early Christian heresies."
+}

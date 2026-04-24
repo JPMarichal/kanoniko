@@ -1,0 +1,19 @@
+{
+  "authority": 10,
+  "rigor": 65,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "resurrection",
+    "fragment",
+    "justin-martyr"
+  ],
+  "category": "reference",
+  "author": "Justin Martyr",
+  "source_url": null,
+  "note": "Surviving fragment of Justin's treatise on the Resurrection."
+}

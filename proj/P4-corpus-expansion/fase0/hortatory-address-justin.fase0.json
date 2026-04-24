@@ -1,0 +1,19 @@
+{
+  "authority": 10,
+  "rigor": 70,
+  "importance": "complementario",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "apologetics",
+    "to-greeks",
+    "justin-martyr"
+  ],
+  "category": "reference",
+  "author": "Justin Martyr",
+  "source_url": null,
+  "note": "Justin's address to the Greeks (apologetic)."
+}

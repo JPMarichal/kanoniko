@@ -1,0 +1,20 @@
+{
+  "authority": 10,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "patristic",
+    "commentary",
+    "matthew",
+    "gospels",
+    "origen"
+  ],
+  "category": "reference",
+  "author": "Origen",
+  "source_url": null,
+  "note": "Origen's commentary on Matthew."
+}

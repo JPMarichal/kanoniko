@@ -1,0 +1,33 @@
+{
+  "title": "Chapter 2- Ophites, Cainites, Sethites",
+  "author": "Tertullian",
+  "book": "Against All Heresies",
+  "chapter": 2,
+  "total_chapters": 8,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "patristic",
+    "heresiology",
+    "tertullian",
+    "latin-church"
+  ],
+  "authority": 10,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "context": "scholarly",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Against All Heresies - Tertuliano.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "ab27ade6-118a-4014-9a80-8cc89dc47db0",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Tertullian against heresies — catalog of early Christian heresies."
+}

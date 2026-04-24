@@ -1,0 +1,20 @@
+{
+  "authority": 10,
+  "rigor": 75,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "scholarly",
+  "audience": "adult",
+  "tags": [
+    "historical",
+    "josephus",
+    "first-century-judea",
+    "jewish-antiquities",
+    "spanish-translation"
+  ],
+  "category": "reference",
+  "author": "Flavio Josefo (Josephus)",
+  "source_url": null,
+  "note": "Antigüedades Judías (Antiquities of the Jews, ~93 CE). Foundational primary-source for 1st c Judea, biblical history through Roman era."
+}

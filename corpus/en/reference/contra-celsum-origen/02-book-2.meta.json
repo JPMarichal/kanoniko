@@ -1,0 +1,33 @@
+{
+  "title": "Book 2",
+  "author": "Origen",
+  "book": "Contra Celsum",
+  "chapter": 2,
+  "total_chapters": 8,
+  "category": "reference",
+  "subcategory": null,
+  "tags": [
+    "patristic",
+    "apologetics",
+    "contra-celsum",
+    "origen"
+  ],
+  "authority": 10,
+  "rigor": 80,
+  "importance": "importante",
+  "official": false,
+  "context": "scholarly",
+  "audience": "adult",
+  "current": true,
+  "lang": "eng",
+  "source_url": null,
+  "source": "epub",
+  "source_file": "epub/!Ready/Contra Celsum - Origen.epub",
+  "opf_publisher": null,
+  "opf_date": null,
+  "opf_identifier": "9a9c634e-e246-4ec5-9491-ac2b2bffc20a",
+  "meta_description": null,
+  "study_intro": null,
+  "authority_pending": false,
+  "note": "Origen's Contra Celsum (~248 CE) — apologetic against pagan philosopher Celsus."
+}
