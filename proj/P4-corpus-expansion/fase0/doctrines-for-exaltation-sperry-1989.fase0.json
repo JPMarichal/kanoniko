@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 70,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "sperry-symposium",
+    "doctrine-and-covenants",
+    "exaltation",
+    "byu-academic"
+  ],
+  "category": "books",
+  "author": "Susan Easton Black (ed.)",
+  "source_url": null,
+  "note": "Deseret Book. 1989 Sperry Symposium proceedings."
+}

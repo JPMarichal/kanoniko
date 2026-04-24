@@ -1,0 +1,19 @@
+{
+  "authority": 30,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "missionary",
+    "autobiography",
+    "19th-century",
+    "scandinavian-mission"
+  ],
+  "category": "biographies",
+  "author": "Anthon L. Skanchy",
+  "source_url": null,
+  "note": "Autobiographical account of Norwegian LDS missionary."
+}

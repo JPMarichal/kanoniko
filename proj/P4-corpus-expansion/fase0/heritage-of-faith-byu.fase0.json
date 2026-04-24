@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 60,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "women",
+    "byu-womens-conference",
+    "anthology"
+  ],
+  "category": "books",
+  "author": "Mary E. Stovall, Carol Cornwall Madsen (eds.)",
+  "source_url": null,
+  "note": "Deseret Book. BYU Women's Conference talks anthology."
+}

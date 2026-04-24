@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "councils",
+    "church-administration"
+  ],
+  "category": "books",
+  "author": "M. Russell Ballard",
+  "source_url": null,
+  "note": "Deseret Book. Ballard's treatise on council governance."
+}

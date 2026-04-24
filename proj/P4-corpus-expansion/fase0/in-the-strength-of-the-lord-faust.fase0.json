@@ -1,0 +1,18 @@
+{
+  "authority": 45,
+  "rigor": 65,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "apostle-authored",
+    "biography",
+    "teachings-compilation"
+  ],
+  "category": "biographies",
+  "author": "James E. Faust",
+  "source_url": null,
+  "note": "Deseret Book. Compilation of Faust's life and teachings (with James P. Bell)."
+}

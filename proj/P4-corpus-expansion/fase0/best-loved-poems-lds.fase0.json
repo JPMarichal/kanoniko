@@ -1,0 +1,18 @@
+{
+  "authority": 30,
+  "rigor": 55,
+  "importance": "opcional",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "poetry",
+    "anthology",
+    "lds-culture"
+  ],
+  "category": "reference",
+  "author": "Jay A. Parry, Linda Ririe Gundry, Jack M. Lyon, Devan Jensen (eds.)",
+  "source_url": null,
+  "note": "Deseret Book anthology of LDS-beloved poetry."
+}

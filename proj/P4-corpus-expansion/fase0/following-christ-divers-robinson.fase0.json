@@ -1,0 +1,19 @@
+{
+  "authority": 35,
+  "rigor": 60,
+  "importance": "importante",
+  "official": false,
+  "current": true,
+  "context": "book-private",
+  "audience": "adult",
+  "tags": [
+    "atonement",
+    "grace",
+    "discipleship",
+    "byu-professor"
+  ],
+  "category": "books",
+  "author": "Stephen E. Robinson",
+  "source_url": null,
+  "note": "Deseret Book. Sequel to Believing Christ by BYU religion professor."
+}
