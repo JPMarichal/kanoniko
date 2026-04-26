@@ -7,6 +7,10 @@ description: Crear o revisar un artículo (standalone o serie) para el blog de J
 
 Producto editorial para el blog/sitio de Juan Pablo Marichal. Cada artículo es una pieza amena, rigurosa y bien documentada.
 
+## Regla mandatoria
+
+La skill `anti-ia` es obligatoria para todo artículo. No cerrar un artículo sin pasar por esa skill y aplicar su protocolo completo.
+
 ---
 
 ## Fase 1: Investigación (antes de escribir)
@@ -43,7 +47,7 @@ Aplicar los tres checklists en orden:
 
 ### 4a. Checklist anti-IA
 
-(Ver `feedback_avoid_ai_patterns.md` para la lista completa)
+(La skill `anti-ia` es mandatoria. Este checklist es solo un mínimo de bolsillo; no la sustituye.)
 
 - [ ] No más de 2 instancias de "no es X, es Y"
 - [ ] No todos los párrafos empiezan con oración temática
@@ -51,6 +55,7 @@ Aplicar los tres checklists en orden:
 - [ ] Tono no uniforme de principio a fin (variación de ritmo)
 - [ ] Sin listas repetitivas "De X a Y"
 - [ ] Sin palabras sobreusadas de la lista léxica
+- [ ] Pasada anti-IA completa ejecutada según `.claude/skills/anti-ia/SKILL.md`
 
 ### 4b. Checklist editorial
 

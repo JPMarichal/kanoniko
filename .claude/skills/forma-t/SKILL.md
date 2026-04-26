@@ -7,6 +7,10 @@ description: Genera o revisa Formas T doctrinales y biográficas en Alejandria. 
 
 Usa este skill para crear o revisar Formas T dentro de Alejandria.
 
+## Regla mandatoria
+
+La skill `anti-ia` es obligatoria para toda Forma T que lleve voz editorial, explicación o framing pedagógico. No cerrar una Forma T sin pasar por esa skill cuando haya redacción sustantiva.
+
 ## Lecturas obligatorias iniciales
 
 Antes de proponer o editar una Forma T, leer:
@@ -62,6 +66,7 @@ Si la forma pertenece a una colección existente, leer además 1-2 formas vecina
 - El concepto cabe aproximadamente en 15 palabras.
 - La forma no mezcla doctrina oficial con especulación.
 - Si es doctrinal, Biblia primero cuando aplique; si es biográfica, priorizar secuencia de vida.
+- La pasada anti-IA completa fue ejecutada cuando la pieza incluyó redacción editorial o reescritura sustantiva.
 
 ## Ejemplos locales
 

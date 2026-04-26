@@ -7,6 +7,10 @@ description: Genera o revisa dossiers doctrinales en Alejandria. Usar cuando el 
 
 Usa este skill para crear o revisar dossiers doctrinales en Alejandria.
 
+## Regla mandatoria
+
+La skill `anti-ia` es obligatoria para todo dossier. No cerrar un dossier sin pasar por esa skill y aplicar su protocolo completo.
+
 ## Lecturas obligatorias iniciales
 
 Antes de proponer o editar un dossier, leer:
@@ -88,6 +92,7 @@ Si el dossier ya tiene o podría tener salida pedagógica, leer además 1-2 Form
 - La bibliografía final contiene todas las fuentes usadas.
 - Si el tema es amplio, existe o se crea `dp00` antes de avanzar.
 - El cierre incluye Formas T relacionadas o una nota explícita de que aún no emergen Formas T válidas.
+- La pasada anti-IA completa fue ejecutada según `.claude/skills/anti-ia/SKILL.md`.
 
 ## Nomenclatura y ubicación
 
