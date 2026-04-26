@@ -1235,29 +1235,65 @@ class PostgresGraphClient:
         """
         if not entities:
             return
+        unique_entities: list[tuple[str, str]] = []
+        seen_entities: set[tuple[str, str]] = set()
+        for entity in entities:
+            name = entity.get("name")
+            etype = entity.get("type")
+            if not name or not etype:
+                continue
+            key = (name, etype)
+            if key in seen_entities:
+                continue
+            seen_entities.add(key)
+            unique_entities.append(key)
+        if not unique_entities:
+            return
+        entity_names = [name for name, _ in unique_entities]
+        entity_types = [etype for _, etype in unique_entities]
         with get_connection() as conn:
             with conn.cursor() as cur:
-                for e in entities:
-                    name = e.get("name")
-                    etype = e.get("type")
+                cur.execute(
+                    "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                    "SELECT input.name, input.entity_type, NULL, '{}'::jsonb "
+                    "FROM unnest(%s::text[], %s::text[]) AS input(name, entity_type) "
+                    "ON CONFLICT (name, entity_type, disambiguator) DO NOTHING",
+                    (entity_names, entity_types),
+                )
+                cur.execute(
+                    "WITH input AS ("
+                    "  SELECT * FROM unnest(%s::text[], %s::text[]) AS t(name, entity_type)"
+                    ") "
+                    "SELECT e.id, e.name, e.entity_type "
+                    "FROM entities e "
+                    "JOIN input i ON i.name = e.name AND i.entity_type = e.entity_type "
+                    "WHERE e.disambiguator IS NULL",
+                    (entity_names, entity_types),
+                )
+                entity_ids = {(row[1], row[2]): int(row[0]) for row in cur.fetchall()}
+
+                alias_entity_ids: list[int] = []
+                alias_values: list[str] = []
+                for entity in entities:
+                    name = entity.get("name")
+                    etype = entity.get("type")
                     if not name or not etype:
                         continue
-                    cur.execute(
-                        "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
-                        "VALUES (%s, %s, NULL, '{}'::jsonb) "
-                        "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
-                        "  SET metadata = entities.metadata RETURNING id",
-                        (name, etype),
-                    )
-                    eid = cur.fetchone()[0]
-                    for alias in e.get("aliases") or []:
+                    entity_id = entity_ids.get((name, etype))
+                    if entity_id is None:
+                        continue
+                    for alias in entity.get("aliases") or []:
                         if not alias:
                             continue
-                        cur.execute(
-                            "INSERT INTO entity_aliases (entity_id, alias) "
-                            "VALUES (%s, %s) ON CONFLICT DO NOTHING",
-                            (eid, alias),
-                        )
+                        alias_entity_ids.append(entity_id)
+                        alias_values.append(alias)
+                if alias_entity_ids:
+                    cur.execute(
+                        "INSERT INTO entity_aliases (entity_id, alias) "
+                        "SELECT * FROM unnest(%s::bigint[], %s::text[]) "
+                        "ON CONFLICT DO NOTHING",
+                        (alias_entity_ids, alias_values),
+                    )
             conn.commit()
 
     def batch_merge_documents(self, documents: list[dict]) -> None:
@@ -1289,53 +1325,111 @@ class PostgresGraphClient:
         """
         if not relations:
             return
+        normalized_relations: list[tuple[str, str, str, str, str, dict[str, Any]]] = []
+        unique_entities: list[tuple[str, str]] = []
+        seen_entities: set[tuple[str, str]] = set()
+        for relation in relations:
+            from_name = relation.get("from_name")
+            from_type = relation.get("from_type")
+            to_name = relation.get("to_name")
+            to_type = relation.get("to_type")
+            rel_type = relation.get("rel_type")
+            if not (from_name and from_type and to_name and to_type and rel_type):
+                continue
+            normalized_relations.append(
+                (from_name, from_type, to_name, to_type, rel_type, dict(relation.get("props") or {}))
+            )
+            for key in ((from_name, from_type), (to_name, to_type)):
+                if key in seen_entities:
+                    continue
+                seen_entities.add(key)
+                unique_entities.append(key)
+        if not normalized_relations:
+            return
+        entity_names = [name for name, _ in unique_entities]
+        entity_types = [etype for _, etype in unique_entities]
         with get_connection() as conn:
             with conn.cursor() as cur:
-                # Cache (name, type) → id lookups within this batch.
-                cache: dict[tuple[str, str], int] = {}
+                cur.execute(
+                    "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
+                    "SELECT input.name, input.entity_type, NULL, '{}'::jsonb "
+                    "FROM unnest(%s::text[], %s::text[]) AS input(name, entity_type) "
+                    "ON CONFLICT (name, entity_type, disambiguator) DO NOTHING",
+                    (entity_names, entity_types),
+                )
+                cur.execute(
+                    "WITH input AS ("
+                    "  SELECT * FROM unnest(%s::text[], %s::text[]) AS t(name, entity_type)"
+                    ") "
+                    "SELECT e.id, e.name, e.entity_type "
+                    "FROM entities e "
+                    "JOIN input i ON i.name = e.name AND i.entity_type = e.entity_type "
+                    "WHERE e.disambiguator IS NULL",
+                    (entity_names, entity_types),
+                )
+                entity_ids = {(row[1], row[2]): int(row[0]) for row in cur.fetchall()}
 
-                def _get_id(name: str, etype: str) -> int | None:
-                    if not name or not etype:
-                        return None
-                    key = (name, etype)
-                    if key in cache:
-                        return cache[key]
-                    cur.execute(
-                        "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
-                        "VALUES (%s, %s, NULL, '{}'::jsonb) "
-                        "ON CONFLICT (name, entity_type, disambiguator) DO UPDATE "
-                        "  SET metadata = entities.metadata RETURNING id",
-                        (name, etype),
-                    )
-                    eid = cur.fetchone()[0]
-                    cache[key] = eid
-                    return eid
+                src_ids: list[int] = []
+                dst_ids: list[int] = []
+                rel_types: list[str] = []
+                confidences: list[str] = []
+                source_refs: list[str | None] = []
+                sources: list[str | None] = []
+                verified_values: list[bool] = []
+                roles: list[str | None] = []
+                properties_values: list[str] = []
+                seen_relations: set[tuple[int, int, str]] = set()
 
-                for r in relations:
-                    src_id = _get_id(r.get("from_name"), r.get("from_type"))
-                    dst_id = _get_id(r.get("to_name"), r.get("to_type"))
-                    rel_type = r.get("rel_type")
-                    if not (src_id and dst_id and rel_type):
+                for from_name, from_type, to_name, to_type, rel_type, props in normalized_relations:
+                    src_id = entity_ids.get((from_name, from_type))
+                    dst_id = entity_ids.get((to_name, to_type))
+                    if src_id is None or dst_id is None:
                         continue
-                    props = dict(r.get("props") or {})
+                    relation_key = (src_id, dst_id, rel_type)
+                    if relation_key in seen_relations:
+                        continue
+                    seen_relations.add(relation_key)
                     confidence = props.pop("confidence", "llm_low")
                     source_ref = props.pop("source_ref", None)
                     source = props.pop("source", None)
                     verified = bool(props.pop("verified", False))
                     role = props.pop("role", None)
+                    src_ids.append(src_id)
+                    dst_ids.append(dst_id)
+                    rel_types.append(rel_type)
+                    confidences.append(confidence)
+                    source_refs.append(source_ref)
+                    sources.append(source)
+                    verified_values.append(verified)
+                    roles.append(role)
+                    properties_values.append(json.dumps(props))
+
+                if src_ids:
                     cur.execute(
                         "INSERT INTO relations "
                         "  (src_id, dst_id, rel_type, confidence, source_ref, source, "
                         "   verified, role, properties) "
-                        "SELECT %s, %s, %s, %s, %s, %s, %s, %s, %s::jsonb "
+                        "SELECT input.src_id, input.dst_id, input.rel_type, input.confidence, "
+                        "       input.source_ref, input.source, input.verified, input.role, "
+                        "       input.properties::jsonb "
+                        "FROM unnest("
+                        "  %s::bigint[], %s::bigint[], %s::text[], %s::text[], %s::text[], "
+                        "  %s::text[], %s::boolean[], %s::text[], %s::text[]"
+                        ") AS input(src_id, dst_id, rel_type, confidence, source_ref, source, verified, role, properties) "
                         "WHERE NOT EXISTS ("
-                        "  SELECT 1 FROM relations "
-                        "  WHERE src_id = %s AND dst_id = %s AND rel_type = %s"
+                        "  SELECT 1 FROM relations r "
+                        "  WHERE r.src_id = input.src_id AND r.dst_id = input.dst_id AND r.rel_type = input.rel_type"
                         ")",
                         (
-                            src_id, dst_id, rel_type, confidence, source_ref, source,
-                            verified, role, json.dumps(props),
-                            src_id, dst_id, rel_type,
+                            src_ids,
+                            dst_ids,
+                            rel_types,
+                            confidences,
+                            source_refs,
+                            sources,
+                            verified_values,
+                            roles,
+                            properties_values,
                         ),
                     )
             conn.commit()
@@ -1516,9 +1610,16 @@ class PostgresGraphClient:
                         table="relations",
                         predicate_sql="source IS NULL OR NOT (source = ANY(%s))",
                         params=(preserve_sources,),
+                        batch_size=100_000,
                     )
                     cur.execute("TRUNCATE entity_document_mentions, entity_aliases")
                     conn.commit()
+                    cur.execute("SELECT COUNT(*) FROM relations")
+                    remaining_relations = int(cur.fetchone()[0] or 0)
+                    if remaining_relations == 0:
+                        cur.execute("TRUNCATE entities RESTART IDENTITY CASCADE")
+                        conn.commit()
+                        return
                     _delete_in_batches(
                         conn,
                         cur,
@@ -1528,6 +1629,7 @@ class PostgresGraphClient:
                             "WHERE r.src_id = entities.id OR r.dst_id = entities.id)"
                         ),
                         params=(),
+                        batch_size=10_000,
                     )
                 else:
                     cur.execute(

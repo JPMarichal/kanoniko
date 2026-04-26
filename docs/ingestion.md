@@ -118,6 +118,10 @@ structured KG edges without NER — faster and more precise than text extraction
 | `parallel_events` | `passage -[PARALLEL_ACCOUNT_OF]-> passage` |
 | `author` / `composer` | `work -[AUTHORED_BY]-> person` |
 
+Helper files that act as operational lookup assets rather than corpus prose stay out of the
+index entirely. Current special case: `bilingual-concept-bridge.json` is consumed by the
+chat definitions layer and must not create chunks, vectors, or KG rows.
+
 ---
 
 ## Layer 3: Post-indexing

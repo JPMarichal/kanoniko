@@ -567,7 +567,16 @@ class KGExtractor:
 
         return result
 
-    def extract_batch(self, texts: list[str], source_file: str = "", *, reference_mode: bool = False) -> list[ExtractionResult]:
+    def extract_batch(
+        self,
+        texts: list[str],
+        source_file: str = "",
+        *,
+        reference_mode: bool = False,
+        source_files: list[str] | None = None,
+        reference_modes: list[bool] | None = None,
+        track_candidates: bool = True,
+    ) -> list[ExtractionResult]:
         """Batch-extract entities from multiple texts using nlp.pipe().
 
         Same logic as extract() but batches the spaCy NER calls for ~2-5x speedup.
@@ -577,20 +586,28 @@ class KGExtractor:
         if not texts:
             return []
 
-        # Detect language once for the whole batch (same source_file)
-        lang = "en"
-        if source_file:
-            parts = source_file.replace("\\", "/").split("/")
-            if parts and parts[0] == "es":
-                lang = "es"
-
-        is_handbook = source_file and (
-            "manuals/general-handbook" in source_file.replace("\\", "/")
-        )
+        if source_files is None:
+            source_files = [source_file] * len(texts)
+        if len(source_files) != len(texts):
+            raise ValueError("source_files must match texts length")
+        if reference_modes is None:
+            reference_modes = [reference_mode] * len(texts)
+        if len(reference_modes) != len(texts):
+            raise ValueError("reference_modes must match texts length")
 
         # Stage 1: Gazetteer matching for all texts (pure regex, fast)
-        pre_ner: list[tuple[str, str, dict, set, bool, list]] = []
-        for text in texts:
+        pre_ner: list[tuple[str, str, dict, set, bool, list, str, str, bool]] = []
+        for text, current_source_file, current_reference_mode in zip(texts, source_files, reference_modes):
+            lang = "en"
+            if current_source_file:
+                parts = current_source_file.replace("\\", "/").split("/")
+                if parts and parts[0] == "es":
+                    lang = "es"
+
+            is_handbook = current_source_file and (
+                "manuals/general-handbook" in current_source_file.replace("\\", "/")
+            )
+
             text_lower = text.lower()
             found_entities: dict[str, ExtractedEntity] = {}
             gazetteer_spans: set[tuple[int, int]] = set()
@@ -644,22 +661,44 @@ class KGExtractor:
                 self._extract_handbook_entities(text, text_lower, found_entities)
                 handbook_rels = self._extract_handbook_relations(text, found_entities)
 
-            pre_ner.append((text, text_lower, found_entities, gazetteer_spans, is_handbook, handbook_rels))
+            pre_ner.append(
+                (
+                    text,
+                    text_lower,
+                    found_entities,
+                    gazetteer_spans,
+                    is_handbook,
+                    handbook_rels,
+                    current_source_file,
+                    lang,
+                    current_reference_mode,
+                )
+            )
 
         # Stage 2: Batch spaCy NER via nlp.pipe()
         self._load_ner_models()
         if self._ner_available:
-            nlp = self._nlp_es if lang == "es" and self._nlp_es else self._nlp_en
-            if nlp:
-                docs = list(nlp.pipe([t[0] for t in pre_ner], batch_size=64))
-                for idx, doc in enumerate(docs):
-                    text, text_lower, found_entities, gazetteer_spans, _, _ = pre_ner[idx]
+            for lang in ("en", "es"):
+                indexed_items = [
+                    (idx, item)
+                    for idx, item in enumerate(pre_ner)
+                    if item[7] == lang
+                ]
+                if not indexed_items:
+                    continue
+                nlp = self._nlp_es if lang == "es" and self._nlp_es else self._nlp_en
+                if not nlp:
+                    continue
+                docs = list(nlp.pipe([item[0] for _, item in indexed_items], batch_size=64))
+                for (idx, item), doc in zip(indexed_items, docs):
+                    text, text_lower, found_entities, gazetteer_spans, _, _, current_source_file, _, _ = item
                     ner_entities = self._process_ner_doc(doc, found_entities, gazetteer_spans, text)
                     for entity in ner_entities:
                         key = f"{entity.name}:{entity.type}"
                         if key not in found_entities:
                             found_entities[key] = entity
-                            self._track_ner_candidate(entity.name, entity.type, source_file)
+                            if track_candidates:
+                                self._track_ner_candidate(entity.name, entity.type, current_source_file)
 
         # Stage 3-5: Post-NER processing per text
         results: list[ExtractionResult] = []
@@ -669,7 +708,17 @@ class KGExtractor:
         except ImportError:
             _disambiguator = None
 
-        for text, text_lower, found_entities, gazetteer_spans, is_handbook, handbook_rels in pre_ner:
+        for (
+            text,
+            text_lower,
+            found_entities,
+            gazetteer_spans,
+            is_handbook,
+            handbook_rels,
+            current_source_file,
+            _,
+            current_reference_mode,
+        ) in pre_ner:
             result = ExtractionResult()
             result.entities = list(found_entities.values())
 
@@ -689,7 +738,7 @@ class KGExtractor:
                     ))
 
             # 4. Relations
-            if reference_mode:
+            if current_reference_mode:
                 headword_match = re.search(r"^##\s+(.+)$", text, re.MULTILINE)
                 headword = headword_match.group(1).strip() if headword_match else None
                 xref_ents, xref_rels = self._extract_cross_references(
@@ -713,7 +762,7 @@ class KGExtractor:
             # 5. Disambiguation
             if _disambiguator:
                 for entity in result.entities:
-                    mention = _disambiguator.resolve(entity.name, entity.type, text, source_file)
+                    mention = _disambiguator.resolve(entity.name, entity.type, text, current_source_file)
                     if mention and mention.confidence in ("high", "medium"):
                         result.disambiguations[entity.name] = mention.resolved_name
                         if mention.entity_type_resolved:

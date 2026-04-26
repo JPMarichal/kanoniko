@@ -156,27 +156,32 @@ class PostgresChunkWriter:
     # ------------------------------------------------------------------ #
 
     def iter_all_chunks(self) -> Iterable[dict[str, Any]]:
-        # Server-side cursor would be ideal for very large corpora, but
-        # psycopg3's named cursor needs explicit naming and is noisier;
-        # at current corpus scale (~10⁵ chunks) fetchall is fine.
+        # Full-corpus rebuilds can exceed the default statement timeout on
+        # remote Postgres even though the scan itself is expected. Keep the
+        # override scoped to this read connection and stream rows in batches
+        # instead of materializing the whole corpus up front.
         with get_connection() as conn, conn.cursor() as cur:
+            cur.execute("SET statement_timeout = 0")
             cur.execute(
                 "SELECT id, file_path, chunk_index, text, metadata, reference "
                 "FROM chunks ORDER BY file_path, chunk_index"
             )
-            rows = cur.fetchall()
-        for row in rows:
-            cid, fp, idx, text, metadata, reference = row
-            yield {
-                "id": int(cid),
-                "file_path": fp,
-                "chunk_index": int(idx),
-                "text": text,
-                "metadata": metadata if isinstance(metadata, dict) else (
-                    json.loads(metadata) if metadata else {}
-                ),
-                "reference": reference,
-            }
+            while True:
+                rows = cur.fetchmany(1_000)
+                if not rows:
+                    break
+                for row in rows:
+                    cid, fp, idx, text, metadata, reference = row
+                    yield {
+                        "id": int(cid),
+                        "file_path": fp,
+                        "chunk_index": int(idx),
+                        "text": text,
+                        "metadata": metadata if isinstance(metadata, dict) else (
+                            json.loads(metadata) if metadata else {}
+                        ),
+                        "reference": reference,
+                    }
 
     def find_chunks_with_patterns(
         self,

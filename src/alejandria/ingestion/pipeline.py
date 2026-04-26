@@ -251,13 +251,15 @@ class IngestionPipeline:
                 abs_p = corpus_path / p.replace("\\", "/")
                 if abs_p.is_file() and abs_p.suffix in settings.supported_extensions and not abs_p.name.endswith(".meta.json"):
                     rel = str(abs_p.relative_to(corpus_path))
-                    disk_files[rel] = abs_p
+                    if not _should_skip_indexing(rel):
+                        disk_files[rel] = abs_p
                 elif abs_p.is_dir():
                     for ext in settings.supported_extensions:
                         for f in abs_p.rglob(f"*{ext}"):
                             if f.is_file() and not f.name.endswith(".meta.json"):
                                 rel = str(f.relative_to(corpus_path))
-                                disk_files[rel] = f
+                                if not _should_skip_indexing(rel):
+                                    disk_files[rel] = f
 
             if not disk_files:
                 logger.warning("No indexable files found in paths: %s", paths)
@@ -576,7 +578,8 @@ class IngestionPipeline:
                 for path in corpus_path.rglob(f"*{ext}"):
                     if path.is_file() and not path.name.endswith(".meta.json"):
                         rel = str(path.relative_to(corpus_path))
-                        disk_files[rel] = path
+                        if not _should_skip_indexing(rel):
+                            disk_files[rel] = path
 
             # Get registry state
             registry_records = {r.file_path: r for r in self._registry.all_records()}
@@ -944,6 +947,10 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
+        if _should_skip_kg_extraction(fd.rel_path):
+            logger.info("Skipping KG extraction for helper file: %s", fd.rel_path)
+            return
+
         # KG: register document once, then process chunks in sub-batches
         kg_delete_paths.append(fd.rel_path)
         kg_docs.append({"file_path": fd.rel_path, "source": fd.source})
@@ -1048,7 +1055,7 @@ class IngestionPipeline:
             )
 
         # Neo4j KG extraction
-        if self._kg_writer and self._kg_extractor and not skip_kg:
+        if self._kg_writer and self._kg_extractor and not skip_kg and not _should_skip_kg_extraction(fd.rel_path):
             # Use cross-file accumulators if provided, else per-file (legacy)
             use_accumulators = kg_ents is not None
             if use_accumulators:
@@ -1417,16 +1424,25 @@ class IngestionPipeline:
             structure = get_structure()
             structural_entities = structure.get_structural_entities()
             structural_relations = structure.get_structural_relations()
-            for se in structural_entities:
-                self._kg_writer.merge_entity(se["name"], se["type"],
-                                          aliases=[se["name_es"]] if se["name_es"] != se["name_en"] else [])
-            for sr in structural_relations:
-                self._kg_writer.merge_relation(
-                    from_name=sr["from_name"], from_type=sr["from_type"],
-                    rel_type=sr["relation"],
-                    to_name=sr["to_name"], to_type=sr["to_type"],
-                    properties={"source": "scripture_structure", "confidence": "curated"},
-                )
+            self._kg_writer.batch_merge_entities([
+                {
+                    "name": se["name"],
+                    "type": se["type"],
+                    "aliases": [se["name_es"]] if se["name_es"] != se["name_en"] else [],
+                }
+                for se in structural_entities
+            ])
+            self._kg_writer.batch_merge_relations([
+                {
+                    "from_name": sr["from_name"],
+                    "from_type": sr["from_type"],
+                    "rel_type": sr["relation"],
+                    "to_name": sr["to_name"],
+                    "to_type": sr["to_type"],
+                    "props": {"source": "scripture_structure", "confidence": "curated"},
+                }
+                for sr in structural_relations
+            ])
             logger.info(
                 "KG rebuild: loaded %d structural entities, %d structural relations",
                 len(structural_entities), len(structural_relations),
@@ -1468,9 +1484,7 @@ class IngestionPipeline:
         # service that writes entities+relations via batch_merge_* on the
         # Postgres client, not as an ingestion-pipeline step.
 
-        # Read all chunks from the index
-        rows = list(self._chunk_writer.iter_all_chunks())
-        total_chunks = len(rows)
+        total_chunks = self._chunk_writer.count_chunks()
         logger.info("KG rebuild: processing %d chunks...", total_chunks)
 
         entities_found = 0
@@ -1478,7 +1492,7 @@ class IngestionPipeline:
         documents_seen: set[str] = set()
 
         # Batch accumulators — flush every BATCH_SIZE chunks
-        BATCH_SIZE = 500
+        BATCH_SIZE = 50
         batch_entities: list[dict] = []
         batch_relations: list[dict] = []
         batch_links: list[dict] = []
@@ -1516,59 +1530,81 @@ class IngestionPipeline:
                 self._kg_writer.batch_merge_relations(batch_relations)
                 batch_relations = []
 
-        for i, row in enumerate(rows):
-            file_path = row["file_path"]
-            text = row["text"]
+        processed_chunks = 0
+        pending_rows: list[dict] = []
 
-            # Ensure document node exists + load meta.json once per document
+        def _process_rows(batch_rows: list[dict]) -> None:
+            nonlocal processed_chunks, entities_found, relations_found
+            if not batch_rows:
+                return
+
+            extractions = self._kg_extractor.extract_batch(
+                [row["text"] for row in batch_rows],
+                source_files=[row["file_path"] for row in batch_rows],
+                reference_modes=[_is_reference_work(row["file_path"]) for row in batch_rows],
+                track_candidates=False,
+            )
+
+            for row, extraction in zip(batch_rows, extractions):
+                file_path = row["file_path"]
+                for entity in extraction.entities:
+                    batch_entities.append(
+                        {"name": entity.name, "type": entity.type, "aliases": []}
+                    )
+                    link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": file_path}
+                    if entity.name in extraction.disambiguations:
+                        link["resolved_name"] = extraction.disambiguations[entity.name]
+                        link["confidence"] = "high"
+                    if entity.name in extraction.disambiguated_types:
+                        link["entity_type"] = extraction.disambiguated_types[entity.name]
+                    batch_links.append(link)
+                    entities_found += 1
+
+                for rel in extraction.relations:
+                    batch_relations.append({
+                        "from_name": rel.from_entity,
+                        "from_type": rel.from_type,
+                        "rel_type": rel.relation,
+                        "to_name": rel.to_entity,
+                        "to_type": rel.to_type,
+                        "props": {},
+                    })
+                    relations_found += 1
+
+            processed_chunks += len(batch_rows)
+            _flush_batch()
+            logger.info(
+                "KG rebuild: %d/%d chunks (%.0f%%), %d entities, %d relations so far...",
+                processed_chunks,
+                total_chunks,
+                processed_chunks / total_chunks * 100,
+                entities_found,
+                relations_found,
+            )
+
+        for row in self._chunk_writer.iter_all_chunks():
+            file_path = row["file_path"]
+            if _should_skip_kg_extraction(file_path):
+                continue
             if file_path not in documents_seen:
                 source = _extract_source(file_path)
                 batch_documents.append({"file_path": file_path, "source": source})
                 documents_seen.add(file_path)
-                # Structured meta.json enrichment (author, composer, tune, occasion, etc.)
                 file_meta = _load_meta_json(file_path, settings.corpus_path)
                 if file_meta:
                     _enrich_kg_from_meta(
                         file_meta, file_path,
                         batch_entities, batch_links, batch_relations,
-                        set(),  # dedup handled by batch_merge semantics in Neo4j
+                        set(),
                         set(),
                     )
+            pending_rows.append(row)
+            if len(pending_rows) >= BATCH_SIZE:
+                _process_rows(pending_rows)
+                pending_rows = []
 
-            # Extract entities and relations
-            extraction = self._kg_extractor.extract(text, source_file=file_path)
-
-            for entity in extraction.entities:
-                batch_entities.append(
-                    {"name": entity.name, "type": entity.type, "aliases": []}
-                )
-                link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": file_path}
-                if entity.name in extraction.disambiguations:
-                    link["resolved_name"] = extraction.disambiguations[entity.name]
-                    link["confidence"] = "high"
-                if entity.name in extraction.disambiguated_types:
-                    link["entity_type"] = extraction.disambiguated_types[entity.name]
-                batch_links.append(link)
-                entities_found += 1
-
-            for rel in extraction.relations:
-                batch_relations.append({
-                    "from_name": rel.from_entity,
-                    "from_type": rel.from_type,
-                    "rel_type": rel.relation,
-                    "to_name": rel.to_entity,
-                    "to_type": rel.to_type,
-                    "props": {},
-                })
-                relations_found += 1
-
-            if (i + 1) % BATCH_SIZE == 0:
-                _flush_batch()
-                logger.info(
-                    "KG rebuild: %d/%d chunks (%.0f%%), %d entities, %d relations so far...",
-                    i + 1, total_chunks, (i + 1) / total_chunks * 100,
-                    entities_found, relations_found,
-                )
+        if pending_rows:
+            _process_rows(pending_rows)
 
         # Flush remaining
         _flush_batch()
@@ -2210,6 +2246,18 @@ def _is_reference_work(rel_path: str) -> bool:
     """
     normalized = rel_path.replace("\\", "/")
     return "/reference/" in normalized
+
+
+def _should_skip_kg_extraction(rel_path: str) -> bool:
+    """Skip helper/index files that are not corpus prose for KG extraction."""
+    normalized = rel_path.replace("\\", "/")
+    return normalized == "bilingual-concept-bridge.json"
+
+
+def _should_skip_indexing(rel_path: str) -> bool:
+    """Skip helper files that should never enter chunks, vectors, or KG."""
+    normalized = rel_path.replace("\\", "/")
+    return normalized == "bilingual-concept-bridge.json"
 
 
 def _conference_event_name(date_str: str) -> str:
