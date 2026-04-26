@@ -204,11 +204,15 @@ SQLite is the **source of truth** (includes vectors via sqlite-vec). From it alo
 
 ### Full Disaster Recovery
 
-1. Clone the git repo (contains code, corpus, SQLite DB, gazetteers)
-2. Copy `.env` from `OneDrive/alejandria-secrets/.env`
-3. `docker compose up --build`
-4. Data is already in git — system is operational immediately
-5. Optionally restore Neo4j from backup: `POST /backup/neo4j/restore`
+1. Clone the git repo.
+2. Download backup assets from the latest `backup-*` GitHub Release.
+3. Run `bash scripts/backup-pull.sh all` to restore `alejandria.db.gz` and `env.enc`.
+4. Decrypt `env.enc` into `docker/.env`.
+5. Download `ca-certificates.crt` from the same release into `docker/` if the target machine requires the corporate CA bundle.
+6. `docker compose up --build`
+7. Optionally restore Neo4j from backup: `POST /backup/neo4j/restore`
+
+See [docs/backup.md](backup.md) for the exact release-based workflow and commands.
 
 ### What NOT to Do
 
