@@ -4,13 +4,13 @@ description: "Formas T: 3 collections (0001 plan-salvacion 67, 0002 senda 54, 00
 type: project
 ---
 
-Tres colecciones de Formas T, 127 formas totales:
+Tres colecciones de Formas T, 128 formas totales:
 
 | ID | Colección | Formas | Grupos |
 |----|-----------|--------|--------|
 | 0001 | plan-salvacion | 67 | 11 grupos (preexistencia → exaltación) |
 | 0002 | senda-de-los-convenios | 54 | 7 grupos (senda → sellamiento) |
-| 0003 | vidas | 6 | 1 grupo (biografías) |
+| 0003 | vidas | 7 | 1 grupo (biografías) |
 
 **Colección 0002 — grupos y rangos:**
 ```
