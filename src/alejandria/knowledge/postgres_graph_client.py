@@ -1481,19 +1481,53 @@ class PostgresGraphClient:
         stay. Otherwise TRUNCATE everything (fast path — drops all mentions,
         relations, entity_aliases, entities via CASCADE).
         """
+        def _delete_in_batches(
+            conn: Any,
+            cur: Any,
+            *,
+            table: str,
+            predicate_sql: str,
+            params: tuple[Any, ...],
+            batch_size: int = 100_000,
+        ) -> None:
+            while True:
+                cur.execute(
+                    f"DELETE FROM {table} WHERE ctid IN ("
+                    f"SELECT ctid FROM {table} WHERE {predicate_sql} LIMIT %s"
+                    ")",
+                    (*params, batch_size),
+                )
+                deleted = cur.rowcount or 0
+                conn.commit()
+                if deleted < batch_size:
+                    break
+
         with get_connection() as conn:
             with conn.cursor() as cur:
+                # Full KG clears can exceed the default connection timeout on
+                # large corpora. Keep the override scoped to this short-lived
+                # connection by setting it here; the connection is closed on
+                # exit from get_connection().
+                cur.execute("SET statement_timeout = 0")
                 if preserve_sources:
-                    cur.execute(
-                        "DELETE FROM relations "
-                        "WHERE source IS NULL OR NOT (source = ANY(%s))",
-                        (preserve_sources,),
+                    _delete_in_batches(
+                        conn,
+                        cur,
+                        table="relations",
+                        predicate_sql="source IS NULL OR NOT (source = ANY(%s))",
+                        params=(preserve_sources,),
                     )
-                    cur.execute("DELETE FROM entity_document_mentions")
-                    cur.execute(
-                        "DELETE FROM entities e "
-                        "WHERE NOT EXISTS (SELECT 1 FROM relations r "
-                        "                  WHERE r.src_id = e.id OR r.dst_id = e.id)"
+                    cur.execute("TRUNCATE entity_document_mentions, entity_aliases")
+                    conn.commit()
+                    _delete_in_batches(
+                        conn,
+                        cur,
+                        table="entities",
+                        predicate_sql=(
+                            "NOT EXISTS (SELECT 1 FROM relations r "
+                            "WHERE r.src_id = entities.id OR r.dst_id = entities.id)"
+                        ),
+                        params=(),
                     )
                 else:
                     cur.execute(
