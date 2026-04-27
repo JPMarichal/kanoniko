@@ -122,6 +122,8 @@ Amulek responde de frente y mueve el centro de gravedad hacia la obra redentora 
 
 Ahí aparece la verdadera estrategia doctrinal de Amulek: no dejar que Zeezrom convierta la cristología en una trampa verbal desconectada de la expiación, la resurrección y el juicio. Por eso la respuesta continúa inmediatamente hacia transgresiones, vida eterna, restauración y tribunal.
 
+Aquí el KG sí añade una pista útil para leer mejor la escena. Un estudio del corpus sobre la huella de Abinadí en el Libro de Mormón observa que la fórmula “the very Eternal Father” aparece concentrada precisamente en Mosíah 15-16 y Alma 11, y propone que la pregunta de Zeezrom puede reflejar familiaridad con esa controversia previa; incluso sugiere que el abogado quizá intentaba empujar a Amulek hacia una acusación de blasfemia ligada a la misma fórmula por la que Abinadí había sido condenado (“Abinadi’s Legacy”, sección “Amulek and Alma2 Preaching in Ammonihah”, en [corpus/en/books/abinadi/05-abinadis-legacy.txt](c:/own/alejandria/corpus/en/books/abinadi/05-abinadis-legacy.txt)). Eso no reemplaza la lectura básica del pasaje, pero le añade espesor histórico-doctrinal: Zeezrom no estaría improvisando una pregunta brillante, sino activando un punto de fricción teológica que ya cargaba memoria judicial.
+
 ## La estrategia de Alma y Amulek al responder
 
 Aquí aparece una de las mejores piezas del relato. Alma y Amulek no “ganan un debate” en el sentido moderno. Hacen algo más difícil: le arrebatan a Zeezrom el control del marco.
@@ -265,3 +267,4 @@ También sobre nosotros.
 - "Ven, sígueme", semana del 24 al 30 de junio — Alma 13–16, 2024.
 - "Cristo y el nuevo convenio", Jeffrey R. Holland, capítulo 9.
 - "Cristo y el nuevo convenio", Jeffrey R. Holland, capítulo 6.
+- "Abinadi’s Legacy", sección “Amulek and Alma2 Preaching in Ammonihah”.
