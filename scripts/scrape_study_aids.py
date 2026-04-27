@@ -40,7 +40,18 @@ AIDS = {
     "tg": ("/study/scriptures/tg", "study-aids/topical-guide", "Topical Guide"),
     "bd": ("/study/scriptures/bd", "study-aids/bible-dictionary", "Bible Dictionary"),
     "jst": ("/study/scriptures/jst", "study-aids/jst-appendix", "JST Appendix"),
+    "bible-ref": ("/study/scriptures/bible-reference", "study-aids/reference-guide-holy-bible", "Reference Guide to the Holy Bible"),
+    "bofm-ref": ("/study/scriptures/bofm-reference", "study-aids/reference-guide-book-of-mormon", "Reference Guide to the Book of Mormon"),
+    "triple-index": ("/study/scriptures/triple-index", "study-aids/index-triple-combination", "Index to the Triple Combination"),
 }
+
+SECTION_SPLIT_AIDS = {"bible-ref", "bofm-ref"}
+
+
+def slugify(text: str) -> str:
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-") or "section"
 
 
 def get_session(ca_bundle: str) -> requests.Session:
@@ -202,7 +213,8 @@ def scrape_entry_api(site_prefix: str, slug: str, lang: str,
 
 def scrape_entry_html(site_prefix: str, slug: str, lang: str,
                       session: requests.Session,
-                      include_nav: bool = False) -> Optional[dict]:
+                      include_nav: bool = False,
+                      split_sections: bool = False) -> Optional[dict | list[dict]]:
     """Scrape entry directly from HTML page.
 
     Args:
@@ -249,6 +261,80 @@ def scrape_entry_html(site_prefix: str, slug: str, lang: str,
                     if ref:
                         references.append(ref)
 
+    if split_sections:
+        intro_blocks = []
+        results = []
+
+        for child in body.children:
+            if getattr(child, "name", None) is None:
+                continue
+
+            if child.name == "section":
+                heading_el = child.find(["h2", "h3"])
+                heading = heading_el.get_text(" ", strip=True) if heading_el else "Section"
+
+                section_parts = []
+                for el in child.find_all(["p", "li", "h2", "h3", "dt", "dd"]):
+                    if el.find_parent("footer"):
+                        continue
+                    if el.find_parent("nav"):
+                        continue
+                    text = re.sub(r"\s+", " ", el.get_text()).strip()
+                    if text:
+                        section_parts.append(text)
+
+                section_refs = []
+                for nav in child.find_all("nav", class_="index"):
+                    text = re.sub(r"\s+", " ", nav.get_text()).strip()
+                    if text.lower().startswith("see also") or text.lower().startswith("véase también"):
+                        section_parts.insert(0, text)
+                    elif text.lower().startswith("see ") or text.lower().startswith("véase "):
+                        section_parts.insert(0, text)
+                    else:
+                        for li in nav.find_all("li"):
+                            ref = re.sub(r"\s+", " ", li.get_text()).strip()
+                            if ref:
+                                section_refs.append(ref)
+
+                parts = []
+                if section_parts:
+                    parts.append("\n\n".join(section_parts))
+                if section_refs:
+                    parts.append("\n".join(section_refs))
+                section_text = "\n\n".join(parts)
+
+                if section_text.strip():
+                    results.append({
+                        "slug": slugify(heading),
+                        "text": section_text,
+                        "metadata": {
+                            "title": f"{title} — {heading}",
+                            "section_title": heading,
+                            "source_url": url,
+                            "source_slug": slug,
+                        },
+                    })
+                continue
+
+            if child.name in {"p", "ul", "ol", "h2", "h3", "dt", "dd"}:
+                text = re.sub(r"\s+", " ", child.get_text()).strip()
+                if text:
+                    intro_blocks.append(text)
+
+        if intro_blocks:
+            results.insert(0, {
+                "slug": "introduction",
+                "text": "\n\n".join(intro_blocks),
+                "metadata": {
+                    "title": f"{title} — Introduction",
+                    "section_title": "Introduction",
+                    "source_url": url,
+                    "source_slug": slug,
+                },
+            })
+
+        return results or None
+
     paragraphs = []
     for el in body.find_all(["p", "li", "h2", "h3", "dt", "dd"]):
         if el.find_parent("footer"):
@@ -282,14 +368,16 @@ def scrape_entry_html(site_prefix: str, slug: str, lang: str,
 
 def scrape_entry(site_prefix: str, slug: str, lang: str,
                  session: requests.Session, use_api: bool = False,
-                 include_nav: bool = False) -> Optional[dict]:
+                 include_nav: bool = False,
+                 split_sections: bool = False) -> Optional[dict | list[dict]]:
     """Scrape a single entry. Uses HTML by default; API optional."""
     if use_api:
         result = scrape_entry_api(site_prefix, slug, lang, session)
         if result and result["text"].strip():
             return result
     return scrape_entry_html(site_prefix, slug, lang, session,
-                             include_nav=include_nav)
+                             include_nav=include_nav,
+                             split_sections=split_sections)
 
 
 # ── Checkpoint ──────────────────────────────────────────────────────────────
@@ -329,8 +417,9 @@ def main():
     site_prefix, corpus_subdir, description = AIDS[args.aid]
     lang_dir = "en" if args.lang == "eng" else "es"
     corpus_aid_dir = CORPUS_DIR / lang_dir / corpus_subdir
-    # TG and BD store content inside nav.index blocks
-    include_nav = args.aid in ("tg", "bd")
+    # Some study aids store reference content inside nav.index blocks
+    include_nav = args.aid in ("tg", "bd", "bible-ref", "bofm-ref", "triple-index")
+    split_sections = args.aid in SECTION_SPLIT_AIDS
 
     ca_bundle = os.environ.get("REQUESTS_CA_BUNDLE", "")
     session = get_session(ca_bundle)
@@ -363,7 +452,7 @@ def main():
 
     print()
 
-    stats = {"downloaded": 0, "skipped": 0, "errors": 0, "empty": 0}
+    stats = {"downloaded": 0, "written_files": 0, "skipped": 0, "errors": 0, "empty": 0}
     total = len(entries)
 
     for i, (slug, title) in enumerate(entries):
@@ -377,36 +466,42 @@ def main():
             time.sleep(args.delay)
 
         result = scrape_entry(site_prefix, slug, args.lang, session,
-                              include_nav=include_nav)
+                      include_nav=include_nav,
+                      split_sections=split_sections)
 
         if result is None:
             print("ERROR")
             stats["errors"] += 1
             continue
 
-        text = result["text"]
-        metadata = result["metadata"]
+        results = result if isinstance(result, list) else [result]
+        results = [item for item in results if item and item["text"].strip()]
 
-        if not text.strip():
+        if not results:
             print("EMPTY")
             stats["empty"] += 1
             continue
 
-        char_count = len(text)
-        print(f"OK ({char_count} chars) — {metadata.get('title', '?')}")
+        char_count = sum(len(item["text"]) for item in results)
+        print(f"OK ({char_count} chars, {len(results)} file(s)) — {results[0]['metadata'].get('title', '?')}")
 
         if args.dry_run:
-            print(f"    [DRY RUN] Would write: {corpus_aid_dir / slug}.txt")
+            for item in results:
+                item_slug = item.get("slug") or slug
+                print(f"    [DRY RUN] Would write: {corpus_aid_dir / item_slug}.txt")
         else:
             corpus_aid_dir.mkdir(parents=True, exist_ok=True)
-            txt_path = corpus_aid_dir / f"{slug}.txt"
-            meta_path = corpus_aid_dir / f"{slug}.meta.json"
+            for item in results:
+                item_slug = item.get("slug") or slug
+                txt_path = corpus_aid_dir / f"{item_slug}.txt"
+                meta_path = corpus_aid_dir / f"{item_slug}.meta.json"
 
-            txt_path.write_text(text, encoding="utf-8")
-            meta_path.write_text(
-                json.dumps(metadata, ensure_ascii=False, indent=2),
-                encoding="utf-8",
-            )
+                txt_path.write_text(item["text"], encoding="utf-8")
+                meta_path.write_text(
+                    json.dumps(item["metadata"], ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+                stats["written_files"] += 1
 
         processed.add(slug)
         stats["downloaded"] += 1
@@ -422,6 +517,10 @@ def main():
     print(f"\n=== Summary ===")
     action = "would be written" if args.dry_run else "written"
     print(f"  Downloaded: {stats['downloaded']} entries {action}")
+    if args.dry_run:
+        print("  Files planned: see dry-run lines above")
+    else:
+        print(f"  Files written: {stats['written_files']}")
     print(f"  Skipped (checkpoint): {stats['skipped']}")
     print(f"  Empty: {stats['empty']}")
     print(f"  Errors: {stats['errors']}")

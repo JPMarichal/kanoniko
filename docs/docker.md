@@ -66,6 +66,7 @@ Uses `docker-compose.yml` + `docker-compose.gpu.yml` (override) + `Dockerfile.gp
 - PyTorch nightly cu128 for Blackwell sm_120 GPU
 - Corpus on native Linux FS at `/home/jpmarichal/alejandria-repo` (250x faster I/O)
 - Auto-syncs repo via `git fetch` + `git reset --hard` before starting
+- Auto-opens the documented SSH tunnel to Postgres on `0.0.0.0:15432` when needed so Docker bridge containers can reach `host.docker.internal:15432`
 - NVIDIA RTX PRO 500 Blackwell, 6 GB VRAM
 - Embedding speed: ~600-800 chunks/min (vs ~23/min on CPU)
 

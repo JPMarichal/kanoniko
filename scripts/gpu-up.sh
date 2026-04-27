@@ -8,6 +8,9 @@ DOCKER=/usr/bin/docker
 COMPOSE="$DOCKER compose"
 PROJECT_DIR=/mnt/c/own/alejandria/docker
 COMPOSE_FILES="-f $PROJECT_DIR/docker-compose.yml -f $PROJECT_DIR/docker-compose.gpu.yml"
+TUNNEL_PORT=15432
+TUNNEL_SSH_TARGET=root@212.227.243.210
+TUNNEL_PATTERN="ssh.*${TUNNEL_PORT}:localhost:5432"
 
 # Ensure we use native Docker, not Rancher Desktop
 export DOCKER_HOST=unix:///var/run/docker.sock
@@ -41,6 +44,48 @@ check_gpu() {
     echo "GPU: $(nvidia-smi --query-gpu=name,memory.total --format=csv,noheader,nounits | head -1) MiB"
 }
 
+tunnel_bound_to_all_interfaces() {
+    ss -tln 2>/dev/null | grep -Eq "0\.0\.0\.0:${TUNNEL_PORT}|\[::\]:${TUNNEL_PORT}"
+}
+
+tunnel_bound_to_loopback_only() {
+    ss -tln 2>/dev/null | grep -Eq "127\.0\.0\.1:${TUNNEL_PORT}|\[::1\]:${TUNNEL_PORT}"
+}
+
+ensure_postgres_tunnel() {
+    if tunnel_bound_to_all_interfaces; then
+        echo "Postgres tunnel: OK on 0.0.0.0:${TUNNEL_PORT}"
+        return
+    fi
+
+    if tunnel_bound_to_loopback_only; then
+        echo "Postgres tunnel is bound to loopback only; restarting on all interfaces..."
+        pkill -f "$TUNNEL_PATTERN" 2>/dev/null || true
+        sleep 1
+    else
+        echo "Starting Postgres SSH tunnel on :${TUNNEL_PORT}..."
+    fi
+
+    ssh -o ExitOnForwardFailure=yes -L "*:${TUNNEL_PORT}:localhost:5432" -N -f "$TUNNEL_SSH_TARGET"
+
+    if ! tunnel_bound_to_all_interfaces; then
+        echo "ERROR: Postgres tunnel did not come up on 0.0.0.0:${TUNNEL_PORT}"
+        exit 1
+    fi
+
+    echo "Postgres tunnel: OK on 0.0.0.0:${TUNNEL_PORT}"
+}
+
+show_postgres_tunnel_status() {
+    if tunnel_bound_to_all_interfaces; then
+        echo "Postgres tunnel: OK on 0.0.0.0:${TUNNEL_PORT}"
+    elif tunnel_bound_to_loopback_only; then
+        echo "Postgres tunnel: loopback-only on 127.0.0.1:${TUNNEL_PORT} (Docker bridge cannot use it)"
+    else
+        echo "Postgres tunnel: down"
+    fi
+}
+
 REPO_DIR=/home/jpmarichal/alejandria-repo
 
 sync_repo() {
@@ -62,6 +107,7 @@ case "$cmd" in
     up)
         check_docker
         check_gpu
+        ensure_postgres_tunnel
         sync_repo
         echo "Starting Alejandría with GPU..."
         cd "$PROJECT_DIR"
@@ -93,6 +139,7 @@ case "$cmd" in
     status)
         check_docker
         check_gpu
+        show_postgres_tunnel_status
         cd "$PROJECT_DIR"
         $COMPOSE $COMPOSE_FILES ps
         echo ""
