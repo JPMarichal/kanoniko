@@ -23,9 +23,6 @@ Para análisis detallado por material → `fase0/`.
 
 | Material | authority | Prioridad | Notas | Fase 0 |
 |----------|-----------|-----------|-------|--------|
-| Reference Guide to Holy Bible | 80 | MEDIA | Study aid oficial; requiere adaptar `scrape_study_aids.py` | `fase0/study-aids.md` |
-| Reference Guide to Book of Mormon | 80 | MEDIA | Study aid oficial; requiere adaptar `scrape_study_aids.py` | `fase0/study-aids.md` |
-| Index to Triple Combination | 80 | BAJA | Extends TG coverage to D&C+PGP; large volume | `fase0/study-aids.md` |
 | A Marvelous Work and a Wonder (LeGrand Richards) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Our Search for Happiness (M.R. Ballard) | 45 | MEDIA | Investigar disponibilidad digital | — |
 | Teachings of the Prophet Joseph Smith | 45 | MEDIA | Investigar: sitio oficial vs dominio público | — |
@@ -63,6 +60,9 @@ Materiales que pasaron de este backlog a disco. Su estado de indexación quedó 
 | ~~Journal of Discourses~~ | 2026-04-08 | 1,425 (EN) | `corpus/en/books/journal-of-discourses/` |
 | ~~Missionary Guide 1988~~ | 2026-04-12 | 18 (EN) | `corpus/en/manuals/missionary-guide-1988/` |
 | ~~Doctrines of Salvation~~ | 2026-04-07 | 60 .md (EN) | `corpus/en/books/doctrines-of-salvation/` |
+| ~~Reference Guide to the Holy Bible~~ | 2026-04-26 | 6 (EN) | `corpus/en/study-aids/reference-guide-holy-bible/` |
+| ~~Reference Guide to the Book of Mormon~~ | 2026-04-26 | 5 (EN) | `corpus/en/study-aids/reference-guide-book-of-mormon/` |
+| ~~Index to the Triple Combination~~ | 2026-04-26 | 3,060 (EN) | `corpus/en/study-aids/index-triple-combination/` |
 
 ---
 
@@ -76,11 +76,12 @@ Materiales que pasaron de este backlog a disco. Su estado de indexación quedó 
 > scriptures-apocrypha (8 obras), Teach Ye Diligently / Enseñad diligentemente,
 > Boyd K. Packer: una selección de discursos — TODO descargado e indexado.
 >
-> **Descargado, pendiente de indexación:** ninguno al 2026-04-26 — ver `04b-indexation-backlog.md`.
+> **Descargado, pendiente de indexación:** `Reference Guide to the Holy Bible` (6),
+> `Reference Guide to the Book of Mormon` (5) e `Index to the Triple Combination` (3,060)
+> al 2026-04-26 — ver `04b-indexation-backlog.md`.
 >
 > **Lo que queda por descargar:** Youth Music (blocked), Ensign archive (sin investigar),
-> study aids `Reference Guide to Holy Bible`, `Reference Guide to Book of Mormon`,
-> `Index to Triple Combination`, ~20 RSC PDF-only + 1 RSC parcial (`fulness-gospel`),
+> ~20 RSC PDF-only + 1 RSC parcial (`fulness-gospel`),
 > libros individuales (Richards, Ballard, TPJS) y los casos rechazados del lote que requieren
 > re-descarga limpia o mejor fuente.
 >

@@ -7,14 +7,18 @@ Para backlog de descarga → `04-backlog.md`.
 Para inventario de lo ya indexado → `03-corpus-inventory.md`.
 Para análisis detallado por material → `fase0/`.
 
-> **Última reconciliación:** 2026-04-26 — cierre de ingesta incremental validado en sesión.
-> Backlog de indexación descargado→ingestado: **0 pendientes**.
+> **Última reconciliación:** 2026-04-26 — cierre de ingesta incremental validado en sesión + descarga de study aids complementarios.
+> Backlog de indexación descargado→ingestado: **3,071 archivos pendientes**.
 
 ---
 
 ## 1. Pendientes de indexación
 
-No hay materiales descargados pendientes de indexación al 2026-04-26.
+| Material | Archivos | Estado al 2026-04-26 |
+|----------|----------|-----------------------|
+| Reference Guide to the Holy Bible | 6 | Descargado, pendiente de indexación |
+| Reference Guide to the Book of Mormon | 5 | Descargado, pendiente de indexación |
+| Index to the Triple Combination | 3,060 | Descargado, pendiente de indexación |
 
 ### Cerrados en el closeout de ingesta
 
@@ -27,7 +31,7 @@ No hay materiales descargados pendientes de indexación al 2026-04-26.
 | Missionary Guide 1988 | 18 | Ingested |
 | Doctrines of Salvation | 60 | Ingested |
 
-**Total pendiente:** 0 archivos.
+**Total pendiente:** 3,071 archivos.
 
 ### Closeout complementario
 
@@ -68,16 +72,20 @@ merecen una pasada posterior de web research revisada + KG curado tipado:
 
 ## 3. Trabajo pendiente no bloqueante
 
-Ya no existe una cola de indexación descargado→ingestado. El trabajo pendiente pasó a
-enriquecimiento, consolidación editorial o curación KG.
+Existe una nueva cola de indexación descargado→ingestado para study aids descargados al cierre
+de la sesión. El resto del trabajo pendiente sigue siendo enriquecimiento, consolidación editorial
+o curación KG.
 
 | Orden | Material | Seguimiento |
 |-------|----------|-------------|
-| 1 | Jesus the Christ | KG curado pendiente |
-| 2 | Preach My Gospel | KG curado pendiente |
-| 3 | Missionary Guide 1988 | pasada retroactiva de web research + KG pre-seed |
-| 4 | Teach Ye Diligently | pasada retroactiva de web research + KG pre-seed |
-| 5 | Teaching, No Greater Call | pasada retroactiva de web research + KG pre-seed |
+| 1 | Reference Guide to the Holy Bible | pipeline incremental + verificación |
+| 2 | Reference Guide to the Book of Mormon | pipeline incremental + verificación |
+| 3 | Index to the Triple Combination | pipeline incremental + verificación |
+| 4 | Jesus the Christ | KG curado pendiente |
+| 5 | Preach My Gospel | KG curado pendiente |
+| 6 | Missionary Guide 1988 | pasada retroactiva de web research + KG pre-seed |
+| 7 | Teach Ye Diligently | pasada retroactiva de web research + KG pre-seed |
+| 8 | Teaching, No Greater Call | pasada retroactiva de web research + KG pre-seed |
 
 ---
 

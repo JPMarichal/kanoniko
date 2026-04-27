@@ -39,6 +39,9 @@ Para análisis detallados por material → `fase0/`.
 | Harmony of the Gospels | 8 partes + intro — EN+ES |
 | Bible Chronology (AT + NT) | intro + OT + NT — EN+ES |
 | Abbreviations | EN+ES |
+| Reference Guide to the Holy Bible | 6 archivos EN descargados; pendiente indexación |
+| Reference Guide to the Book of Mormon | 5 archivos EN descargados; pendiente indexación |
+| Index to the Triple Combination | 3,060 entradas EN descargadas; pendiente indexación |
 | Scriptures Apocrypha | 8 obras incorporadas en `corpus/{lang}/scriptures-apocrypha/` |
 
 ## Revistas

@@ -81,7 +81,7 @@ Incluye también: JST, TG, BD, GEE, A of F.
 
 ### Reference Guide to the Holy Bible + Reference Guide to the Book of Mormon
 
-**Estado:** `backlog`
+**Estado:** `descargado`
 
 **URLs:** `/study/scriptures/bible-reference` y `/study/scriptures/bofm-reference`
 **Autoridad:** 80 | **Bilingüe:** verificar
@@ -95,4 +95,29 @@ incremental es el agrupamiento temático diferente (más condensado). El de BoM
 puede capturar relaciones entre personas y eventos del LdM que el TG no agrupa
 de la misma forma.
 
-**Script:** `scrape_study_aids.py` adaptado. ~10-20 archivos c/u.
+**Descarga ejecutada 2026-04-26:**
+- `Reference Guide to the Holy Bible`: 6 archivos EN (`introduction` + 5 secciones)
+- `Reference Guide to the Book of Mormon`: 5 archivos EN (`introduction` + 4 secciones)
+
+**Script:** `scrape_study_aids.py` adaptado. La ingestión queda pendiente.
+
+---
+
+### Index to Triple Combination
+
+**Estado:** `descargado`
+
+**URL:** `/study/scriptures/triple-index`
+**Autoridad:** 80 | **Bilingüe:** no verificado
+
+**Estructura:** Índice alfabético granular para Triple Combination con cobertura de
+Book of Mormon + Doctrine and Covenants + Pearl of Great Price. El índice expone
+entradas individuales por slug y se descargó como corpus plano de alta granularidad.
+
+**KG valor:** MEDIO-ALTO — complementa TG con foco más fuerte en D&C y PGP, añade
+entidades, temas y eventos con agrupamiento editorial útil para recuperación y posterior
+pre-seeding.
+
+**Descarga ejecutada 2026-04-26:** 3,060 entradas EN.
+
+**Script:** `scrape_study_aids.py` adaptado. La ingestión queda pendiente.
