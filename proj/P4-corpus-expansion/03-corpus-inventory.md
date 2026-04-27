@@ -5,7 +5,7 @@ Para ver qué queda pendiente → `04-backlog.md`.
 Para catálogos de fuentes externas → `05-source-registry.md`.
 Para análisis detallados por material → `fase0/`.
 
-> Actualizado 2026-04-09 contra contenido real en disco.
+> Actualizado 2026-04-26 contra contenido real en disco y cierre de ingesta incremental.
 
 ## Estados
 
@@ -39,6 +39,7 @@ Para análisis detallados por material → `fase0/`.
 | Harmony of the Gospels | 8 partes + intro — EN+ES |
 | Bible Chronology (AT + NT) | intro + OT + NT — EN+ES |
 | Abbreviations | EN+ES |
+| Scriptures Apocrypha | 8 obras incorporadas en `corpus/{lang}/scriptures-apocrypha/` |
 
 ## Revistas
 
@@ -86,6 +87,8 @@ Para análisis detallados por material → `fase0/`.
 | Institute Elevate Learning Experience | 10 EN + 11 ES |
 | Teacher Development Skills | 27 archivos EN+ES (bajo seminaries-and-institutes/) |
 | Principles of Christlike Teaching | 1 archivo EN-only |
+| Teaching, No Greater Call (1999) | 182 archivos EN+ES (87 EN, 95 ES) |
+| Missionary Guide: Training for Missionaries (1988) | 18 archivos EN |
 
 ## Música
 
@@ -95,6 +98,13 @@ Para análisis detallados por material → `fase0/`.
 | Himnos para el hogar y la Iglesia | 73 archivos EN+ES |
 | Canciones para los niños | 268 archivos EN+ES |
 | Ayudas para los Himnos | 90 archivos (About the Hymns 72 + Using 18) |
+
+## Biografías y colecciones especiales
+
+| Material | Notas |
+|----------|-------|
+| General Authorities biographies / essays | 544 archivos EN en `corpus/en/biographies/general-authorities/` |
+| Boyd K. Packer: Una selección de discursos | 36 archivos ES |
 
 ## Libros (Gutenberg + BYU Studies + Church site)
 
@@ -106,6 +116,13 @@ Para análisis detallados por material → `fase0/`.
 | House of the Lord (Talmage) | 11 capítulos EN (Gutenberg) |
 | Discourses of Brigham Young | 42 capítulos EN (Gutenberg) |
 | History of the Church vols 1–7 | 266 capítulos EN (HC7 BYU Studies, HC1-6 Gutenberg) |
+| Interpreter Journal | 888 artículos EN |
+| Journal of Discourses | 1,425 discursos EN |
+| GospeLink collection | 4,641 archivos EN |
+| Keil & Delitzsch Commentary | 929 archivos EN |
+| Teach Ye Diligently | 18 archivos EN |
+| Enseñad diligentemente | 29 archivos ES |
+| Doctrines of Salvation | 60 archivos EN |
 | Autobiography of Parley P. Pratt | 54 capítulos EN |
 | Gospel Doctrine (Joseph F. Smith) | 25 capítulos EN |
 | Essentials in Church History (JFS Jr.) | 54 capítulos EN |

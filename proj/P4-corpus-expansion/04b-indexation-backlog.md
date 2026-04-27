@@ -1,102 +1,44 @@
 # Corpus Expansion — Backlog de indexación
 
-Material ya **descargado al corpus** (archivos en disco) que aún no ha pasado por el
+Material ya descargado al corpus (archivos en disco) que aún no ha pasado por el
 pipeline de indexación (FTS + vectors + KG).
 
 Para backlog de descarga → `04-backlog.md`.
 Para inventario de lo ya indexado → `03-corpus-inventory.md`.
 Para análisis detallado por material → `fase0/`.
 
-> **Última reconciliación:** 2026-04-16 — verificado contra FTS (54,897 docs indexados
-> de 57,956 .txt en disco). Gap confirmado: ~2,600 archivos en 6 materiales.
+> **Última reconciliación:** 2026-04-26 — cierre de ingesta incremental validado en sesión.
+> Backlog de indexación descargado→ingestado: **0 pendientes**.
 
 ---
 
 ## 1. Pendientes de indexación
 
-### Resumen
+No hay materiales descargados pendientes de indexación al 2026-04-26.
 
-| # | Material | Archivos | authority | Fase 0 | Corpus path | Bloqueante |
-|---|----------|----------|-----------|--------|-------------|------------|
-| 1 | Teaching, No Greater Call (EN+ES) | 182 | 60 | ✅ `fase0/teaching-no-greater-call.md` | `corpus/{lang}/manuals/teaching-no-greater-call/` | — |
-| 2 | Interpreter Journal | 888 | 25 | ✅ `fase0/interpreter-journal.md` | `corpus/en/books/interpreter-journal/` | — |
-| 3 | Journal of Discourses (26 vols) | 1,425 | 20 | ✅ `fase0/journal-of-discourses.md` | `corpus/en/books/journal-of-discourses/` | — |
-| 4 | Teach Ye Diligently | 18 | 45 | ✅ `fase0/teach-ye-diligently.md` | `corpus/en/books/teach-ye-diligently/` | Solo en rama `main` |
-| 5 | Missionary Guide 1988 | 18 | 90/60 | ✅ `fase0/missionary-guide-1988.md` | `corpus/en/manuals/missionary-guide-1988/` | — |
-| 6 | Doctrines of Salvation (3 vols) | 60 | 45 | — | `corpus/en/books/doctrines-of-salvation/` | Formato .md, sin .txt |
+### Cerrados en el closeout de ingesta
 
-**Total:** ~2,591 archivos pendientes de indexación.
+| Material | Archivos | Estado al 2026-04-26 |
+|----------|----------|-----------------------|
+| Teaching, No Greater Call (EN+ES) | 182 | Ingested |
+| Interpreter Journal | 888 | Ingested |
+| Journal of Discourses | 1,425 | Ingested |
+| Teach Ye Diligently | 18 | Ingested |
+| Missionary Guide 1988 | 18 | Ingested |
+| Doctrines of Salvation | 60 | Ingested |
 
----
+**Total pendiente:** 0 archivos.
 
-### Detalle por material
+### Closeout complementario
 
-#### 1. Teaching, No Greater Call (1999) — Bilingüe
+La sesión de cierre también dejó completados los perfiles de metadata:
 
-> Fase 0: `fase0/teaching-no-greater-call.md`
-
-Manual oficial de enseñanza de la Iglesia. 7 partes (A-G), ~90 páginas web por idioma.
-Descargado bilingüe (EN+ES) desde el sitio de la Iglesia vía `download_manual.py`.
-Predecesor de *Teaching in the Savior's Way* (2022, ya ingested).
-
-- **Listo para indexar:** Sí — Fase 0 completa, authority definida, .txt + .meta.json
-- **Prioridad de indexación:** ALTA — material oficial, bilingüe, complementa TITSW
-
-#### 2. Interpreter Journal (888 artículos)
-
-> Fase 0: `fase0/interpreter-journal.md`
-
-Revista académica peer-reviewed de estudios mormones (2012-2026). 888 artículos, 50 MB.
-Solo EN. Descargado con `download_interpreter.py`.
-
-- **Listo para indexar:** Sí — Fase 0 completa, authority definida, .txt + .meta.json
-- **Prioridad de indexación:** MEDIA — volumen alto, authority baja (25), académico
-
-#### 3. Journal of Discourses (26 vols, 1,425 discursos)
-
-> Fase 0: `fase0/journal-of-discourses.md`
-
-1,425 discursos de líderes de la Iglesia (1851-1886). ~5M palabras. Solo EN.
-Fuente: journalofdiscourses.com. Authority 20 — no oficial, imprecisión documentada.
-
-- **Listo para indexar:** Sí — Fase 0 completa, authority definida, .txt + .meta.json
-- **Prioridad de indexación:** BAJA — volumen enorme, authority muy baja, riesgos de contenido
-- **Nota:** Indexar incrementalmente puede tomar tiempo significativo (~1,425 archivos)
-
-#### 4. Teach Ye Diligently (Boyd K. Packer)
-
-> Fase 0: `fase0/teach-ye-diligently.md`
-
-Tratado pedagógico de Packer (1975/1991). 16 capítulos + foreword + appendix.
-Solo EN. Extraído de EPUB (biblioteca personal Calibre).
-
-- **Listo para indexar:** No — archivos en rama `main`, no en `feature/local-llm-backend`
-- **Bloqueante:** Merge de ramas pendiente
-- **Prioridad de indexación:** MEDIA-ALTA — pieza fundacional de la cadena pedagógica CES
-
-#### 5. Missionary Guide: Training for Missionaries (1988)
-
-> Fase 0: `fase0/missionary-guide-1988.md`
-
-"El manual rosa" — compañero pedagógico de las charlas misionales 1986,
-predecesor directo de *Preach My Gospel* 2004. 17 archivos (front + 16 caps).
-Solo EN. Fuente: Archive.org (PDF escaneo + OCR DjVu).
-
-- **Listo para indexar:** Sí — Fase 0 completa, authority definida
-- **Prioridad de indexación:** ALTA — authority 90/60, manual oficial histórico
-
-#### 6. Doctrines of Salvation (Joseph Fielding Smith, 3 vols)
-
-> Fase 0: pendiente
-
-60 archivos en formato .md (no .txt). Requiere conversión de formato antes de indexar.
-Descargado pero sin Fase 0 — necesita investigación editorial antes de indexar.
-
-- **Listo para indexar:** No
-- **Bloqueantes:**
-  1. Formato .md → necesita conversión a .txt + .meta.json
-  2. Fase 0 pendiente — investigación editorial obligatoria antes de indexar
-- **Prioridad de indexación:** MEDIA — authority estimada 45, 3 volúmenes doctrinales
+| Métrica | Valor |
+|--------|-------|
+| `entity_profiles` | 24,133 |
+| `metadata` | 24,133 |
+| `profiled` | 0 |
+| `stale` | 0 |
 
 ---
 
@@ -109,46 +51,33 @@ Material indexado que tiene relaciones KG identificadas pero no pre-seeded.
 | Jesus the Christ | `TAUGHT` (Resurrection, Atonement, Law of Moses), `QUOTED_BY` (Isaiah→JC), `TYPE_OF` (High Priest) | `fase0/jesus-the-christ.md` |
 | Preach My Gospel | `PREREQUISITE_FOR` cadena primeros principios (Faith→Repentance→Baptism→HG→Endure) | `fase0/preach-my-gospel.md` |
 
-### Indexados sin investigación editorial + KG pre-seed (retroactivo)
+### Indexados sin pasada retroactiva de curación KG
 
-Materiales ingested en la sesión 2026-04-16 con el pipeline automático (NER + co-ocurrencia),
-pero **sin re-verificar la investigación editorial de Fase 0** y **sin KG pre-seeding manual**
-de las relaciones tipadas curadas. Requieren una pasada posterior para:
-
-1. Re-verificar o expandir la investigación editorial (web research actualizada)
-2. Identificar y pre-seedar relaciones tipadas específicas (TAUGHT, PREREQUISITE_FOR, TYPE_OF, etc.)
+Materiales ingested cuyo FTS y búsqueda semántica ya están operativos, pero que aún
+merecen una pasada posterior de web research revisada + KG curado tipado:
 
 | Material | Ingested | Fase 0 original | Notas |
 |----------|----------|-----------------|-------|
 | Missionary Guide 1988 | 2026-04-16 | `fase0/missionary-guide-1988.md` | Relaciones clave: `PREDECESSOR_OF` (→PMG), `COMPANION_TO` (1986 discussions) |
 | Teach Ye Diligently | 2026-04-16 | `fase0/teach-ye-diligently.md` | Relaciones clave: `AUTHORED_BY` (Packer), `CITES` (Charted Course), cadena pedagógica CES |
-| Teaching, No Greater Call (EN+ES) | 2026-04-16 | `fase0/teaching-no-greater-call.md` | Relaciones clave: `PREDECESSOR_OF` (→TITSW), `SUCCESSOR_OF` (→Teaching—No Greater Call earlier versions) |
+| Teaching, No Greater Call (EN+ES) | 2026-04-16 | `fase0/teaching-no-greater-call.md` | Relaciones clave: `PREDECESSOR_OF` (→TITSW), continuidad CES |
 
-> **Nota para sesiones futuras:** Estos tres materiales deben recibir pasada de web research +
-> KG pre-seed antes de considerarse "completamente ingested" según el protocolo de Fase 0.
-> Mientras tanto, el FTS y la búsqueda semántica funcionan normalmente; solo las relaciones
-> KG tipadas curadas están pendientes.
+> **Nota:** Esto ya no bloquea indexación. Es trabajo de curación posterior.
 
 ---
 
-## 3. Prioridad de indexación recomendada
+## 3. Trabajo pendiente no bloqueante
 
-Orden sugerido para la siguiente sesión de indexación:
+Ya no existe una cola de indexación descargado→ingestado. El trabajo pendiente pasó a
+enriquecimiento, consolidación editorial o curación KG.
 
-| Orden | Material | Archivos | Justificación |
-|-------|----------|----------|---------------|
-| 1 | Teaching, No Greater Call | 182 | Oficial, bilingüe, Fase 0 lista, complementa material ingested |
-| 2 | Missionary Guide 1988 | 18 | Authority alta, volumen bajo, Fase 0 lista |
-| 3 | Teach Ye Diligently | 18 | Pedagógico, Fase 0 lista (requiere merge de ramas) |
-| 4 | Interpreter Journal | 888 | Académico, volumen alto, Fase 0 lista |
-| 5 | Doctrines of Salvation | 60 | Requiere conversión + Fase 0 antes de indexar |
-| 6 | Journal of Discourses | 1,425 | Volumen enorme, authority baja, riesgos — al final |
-
-**ETA estimada** (GPU Docker, incremental):
-- Items 1-3: ~30 min total (~218 archivos, ~2-3 sec/archivo)
-- Item 4: ~45 min (~888 archivos)
-- Item 5: bloqueado (conversión + Fase 0)
-- Item 6: ~1h+ (~1,425 archivos) — considerar sesión dedicada
+| Orden | Material | Seguimiento |
+|-------|----------|-------------|
+| 1 | Jesus the Christ | KG curado pendiente |
+| 2 | Preach My Gospel | KG curado pendiente |
+| 3 | Missionary Guide 1988 | pasada retroactiva de web research + KG pre-seed |
+| 4 | Teach Ye Diligently | pasada retroactiva de web research + KG pre-seed |
+| 5 | Teaching, No Greater Call | pasada retroactiva de web research + KG pre-seed |
 
 ---
 
@@ -169,8 +98,7 @@ descargado
 
 ### Gate de Fase 0
 
-La Fase 0 es **obligatoria antes de indexar**, aunque la descarga haya ocurrido antes.
-Esto garantiza que:
+La Fase 0 es obligatoria antes de indexar. Esto garantiza que:
 - El modelo de authority está fundamentado en investigación editorial real
 - Las relaciones KG están pre-seeded antes de que el pipeline las necesite
 - Los riesgos de contenido están documentados
@@ -188,15 +116,3 @@ Esto garantiza que:
 | `pre-seeded` | Relaciones KG cargadas al grafo | KG pre-seed ejecutado |
 | `ingested` | Pipeline completo (FTS + vectors + KG) | Pipeline ejecutado, `/corpus/status` verificado |
 | `blocked` | Impedimento técnico (formato, merge, etc.) | — |
-
-### Transiciones
-
-**1. descargado → researched:** Escribir Fase 0 en `fase0/{slug}.md`:
-  - Paso 1: Investigación editorial (web research) — **obligatorio, no sustituible por LLM**
-  - Paso 2: Análisis de contenido, authority, valor KG, deduplicación, riesgos
-
-**2. researched → pre-seeded:** Cargar relaciones KG identificadas en Fase 0 al grafo.
-
-**3. pre-seeded → ingested:** Ejecutar pipeline incremental, verificar `/corpus/status`.
-
-**4. ingested (confirmado):** Mover a `03-corpus-inventory.md`, eliminar de este archivo.

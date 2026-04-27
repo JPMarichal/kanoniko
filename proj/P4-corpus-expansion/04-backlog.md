@@ -7,7 +7,7 @@ Para inventario de lo ya completo → `03-corpus-inventory.md`.
 Para catálogos de fuentes → `05-source-registry.md`.
 Para análisis detallado por material → `fase0/`.
 
-> **Última reconciliación:** 2026-04-16 — auditoría FTS vs disco, separación descarga/indexación.
+> **Última reconciliación:** 2026-04-26 — cierre de batch masivo EPUB + cierre de ingesta incremental.
 
 ---
 
@@ -47,10 +47,16 @@ Para análisis detallado por material → `fase0/`.
 
 ### Recientemente completados (descarga)
 
-Materiales que pasaron de este backlog a disco. Pendientes de indexación en `04b-indexation-backlog.md`.
+Materiales que pasaron de este backlog a disco. Su estado de indexación quedó reconciliado en `04b-indexation-backlog.md`.
 
 | Material | Fecha | Archivos | Destino |
 |----------|-------|----------|---------|
+| ~~EPUB migration batch (`epub/!Ready` → corpus)~~ | 2026-04-24 | 2228 epubs procesados / ~2000 obras incorporadas | `docs/p4-corpus-expansion-done.md` |
+| ~~GospeLink collection~~ | 2026-04-24 | 4,641 (EN) | `corpus/en/books/gospelink/` |
+| ~~Keil & Delitzsch Commentary~~ | 2026-04-24 | 929 (EN) | `corpus/en/books/keil-delitzsch/` |
+| ~~General Authorities biographies / essays~~ | 2026-04-24 | 544 (EN) | `corpus/en/biographies/general-authorities/` |
+| ~~Enseñad diligentemente~~ | 2026-04-24 | 29 (ES) | `corpus/es/books/ensenad-diligentemente/` |
+| ~~Boyd K. Packer: Una selección de discursos~~ | 2026-04-24 | 36 (ES) | `corpus/es/discourses/boyd-k-packer-una-seleccion-de-discursos/` |
 | ~~Teaching, No Greater Call~~ | 2026-04-15 | 182 (EN+ES) | `corpus/{lang}/manuals/teaching-no-greater-call/` |
 | ~~Teach Ye Diligently~~ | 2026-04-15 | 18 (EN) | `corpus/en/books/teach-ye-diligently/` |
 | ~~Interpreter Journal~~ | 2026-04-09 | 888 (EN) | `corpus/en/books/interpreter-journal/` |
@@ -66,14 +72,17 @@ Materiales que pasaron de este backlog a disco. Pendientes de indexación en `04
 > ~70 libros Gutenberg (19 previos + 34 nuevos + B.H. Roberts), himnos/canciones,
 > study aids (GEE, TG, BD, JST, Harmony, Chronology, Abbreviations), HC 1-7,
 > 57 libros RSC BYU, 28 libros BYU Studies, Liahona EN+ES (19,747 arts),
-> 5 diccionarios bíblicos, 543 biografías AG — TODO descargado e indexado.
+> 5 diccionarios bíblicos, 544 biografías AG, GospeLink (4,641), Keil-Delitzsch (929),
+> scriptures-apocrypha (8 obras), Teach Ye Diligently / Enseñad diligentemente,
+> Boyd K. Packer: una selección de discursos — TODO descargado e indexado.
 >
-> **Descargado, pendiente de indexación:** → ver `04b-indexation-backlog.md`
+> **Descargado, pendiente de indexación:** ninguno al 2026-04-26 — ver `04b-indexation-backlog.md`.
 >
-> **Lo que queda por descargar:** ~20 RSC PDF-only (sin HTML), 1 RSC parcial (`fulness-gospel` URL bug),
-> fuentes secundarias (CCEL, womeninthescriptures.com), ~30 Gutenberg ficción/baja prioridad.
-> Church site: Youth Music (blocked — API 404) y Ensign archive (sin investigar).
-> Libros individuales (Richards, Ballard, TPJS) requieren investigación.
+> **Lo que queda por descargar:** Youth Music (blocked), Ensign archive (sin investigar),
+> study aids `Reference Guide to Holy Bible`, `Reference Guide to Book of Mormon`,
+> `Index to Triple Combination`, ~20 RSC PDF-only + 1 RSC parcial (`fulness-gospel`),
+> libros individuales (Richards, Ballard, TPJS) y los casos rechazados del lote que requieren
+> re-descarga limpia o mejor fuente.
 >
 > **Regla:** Iglesia > RSC > BYU Studies > MTP > Gutenberg > CCEL > Archive.org.
 
