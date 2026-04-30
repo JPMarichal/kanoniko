@@ -17,8 +17,8 @@ Toda generación e investigación biográfica debe tomar como fundamento estrict
 2. **Exhaustividad Escritural e Histórica:**
    La biografía debe abordar y conectar obligatoriamente al personaje con las secciones específicas de Doctrina y Convenios en las que participó, fue mencionado o tuvo influencia directa (ej. la influencia en el trasfondo histórico).
 
-3. **Límite Estricto de 5 Párrafos:**
-   La estructura narrativa debe condensarse en un máximo (y preferiblemente exacto) de **5 párrafos** integrales y bien cohesionados. No se permite exceder esta restricción bajo ninguna circunstancia.
+3. **Límite Flexible de 1 a 5 Párrafos:**
+   La estructura narrativa debe condensarse en un mínimo de **1 párrafo** y un máximo de **5 párrafos** integrales y bien cohesionados. La extensión debe ajustarse a la densidad real de evidencia disponible para cada personaje; no se debe forzar una longitud mayor cuando eso produzca relleno.
 
 4. **Tono FCD (Formal, Claro y Devocional/Académico):**
    El perfil debe redactarse con rigor enciclopédico e histórico, manteniendo un respeto solemne por la narrativa de la Restauración pero con la exactitud documental de una obra académica.
