@@ -29,9 +29,7 @@ El relato lo introduce ya formado: un hombre entrenado para la disputa, con ofic
 
 Si quieres una vista rápida del personaje, aquí ya existen dos piezas útiles en el repositorio: la [Forma T sobre Zeezrom](../../formas-t/0003-vidas-07-zeezrom.md) y el [dossier panorámico sobre su vida](../../dossiers/0003-dp01-vida-de-zeezrom.md). Este artículo se concentra en otra pregunta: qué clase de hombre tenía delante Ammoníah cuando lo escuchaba hablar, qué clase de abogado creyó que podía doblar a Alma y a Amulek, por qué terminó temblando y por qué la fiebre no agotó la historia.
 
-Es uno de los datos decisivos del relato. Zeezrom aparece como una figura incómoda: inteligencia al servicio de la manipulación, lenguaje usado para fabricar niebla moral y un corazón habituado a imponerse.
-
-Y aun así, terminó predicando a Cristo.
+Conviene detenerse ahí un momento. Zeezrom entra en escena como una figura incómoda: inteligencia al servicio de la manipulación, lenguaje usado para fabricar niebla moral y un corazón habituado a imponerse. Cuando vuelve a aparecer más adelante, ya no habla desde el mismo sitio. El cambio es real, y precisamente por eso la historia muerde.
 
 ## Zeezrom y el sistema de jueces en Ammoníah
 
@@ -57,8 +55,6 @@ El manual del Instituto para Alma 8-12, en su nota sobre Alma 11:22, precisa el 
 
 ## ¿Qué quiso hacer realmente Zeezrom?
 
-Aquí se decide mucho.
-
 El élder Jeffrey R. Holland describe con bastante precisión la lógica interna del movimiento de Zeezrom:
 
 > "Uno de los adversarios más habilidosos y astutos del libro, hasta su conversión, fue Zeezrom, quien utilizó la complejidad de esta doctrina para intentar hacer caer al nuevo misionero Amulek.
@@ -71,13 +67,13 @@ El texto deja ver ese plan casi paso por paso.
 
 Abre con cortesía forense: “¿Me responderás a algunas preguntas?” (Alma 11:21). La escena adopta la forma de una audiencia ordenada, casi de un intercambio legítimo. Pero Amulek percibe desde el comienzo que esa conversación solo puede sostenerse si permanece bajo el Espíritu del Señor.
 
-Segundo, intenta comprar la caída moral del testigo:
+Después intenta comprar la caída moral del testigo:
 
 > “He aquí seis ontíes de plata; te los daré todos si niegas la existencia de un Ser Supremo” (Alma 11:22).
 
 Eso ya revela mucho. Zeezrom abre el intercambio ofreciendo dinero a cambio de apostasía pública. El relato no deja espacio para suavizar la escena: el abogado intenta comprar una negación pública de Dios.
 
-Tercero, al fracasar el soborno, cambia de táctica. Fija una serie de preguntas cortas, progresivas, diseñadas para construir una contradicción aparente:
+Cuando el soborno fracasa, cambia de táctica. Fija una serie de preguntas cortas, progresivas, diseñadas para construir una contradicción aparente:
 
 - ¿Hay un Dios verdadero y viviente?
 - ¿Hay más de un Dios?
@@ -90,11 +86,11 @@ La lógica es clara: conseguir respuestas breves, aislar proposiciones, reempaqu
 
 Eso ocurre explícitamente en Alma 11:35, cuando Zeezrom se vuelve al pueblo y dice, en sustancia: recuerden esto, él ha dicho que hay un solo Dios, pero también que el Hijo vendrá y que no salvará a su pueblo, “como si tuviese él la autoridad para mandar a Dios”. Ahí está el truco. Pregunta, reinterpreta maliciosamente la respuesta y fabrica el resumen hostil que la multitud debe retener.
 
-Ese movimiento suena muy moderno. Responder algo matizado y, segundos después, verte reducido a un titular injusto.
+La maniobra resulta familiar. Responder algo matizado y, segundos después, verte reducido a un titular injusto.
 
 ## ¿Había corrupción o solo agresividad verbal?
 
-Aquí hace falta precisión. El texto no afirma que todo el sistema judicial nefita fuera ilegítimo ni que cada juez estuviera podrido en el mismo grado. Aun así, da base suficiente para hablar, al menos, de corrupción material y corrupción estructural ("Manual del alumno del Libro de Mormón", capítulo 25, Alma 11:22).
+El texto no afirma que todo el sistema judicial nefita fuera ilegítimo ni que cada juez estuviera podrido en el mismo grado. Aun así, da base suficiente para hablar, al menos, de corrupción material y corrupción estructural ("Manual del alumno del Libro de Mormón", capítulo 25, Alma 11:22).
 
 Corrupción material, porque Zeezrom ofrece dinero para inducir una declaración falsa o pecaminosa. En términos sencillos: intenta comprar un testimonio. Suavizarlo sería falsear la escena.
 
@@ -102,7 +98,7 @@ Corrupción estructural, porque el sistema estaba generando incentivos perversos
 
 Por eso Amulek dice algo que a veces se pasa por alto. Afirma que ha hablado “a favor de vuestra ley, para vuestra condenación” (Alma 10:26). La fuerza del pasaje está ahí: el aparato legal seguía existiendo, pero sus operadores lo estaban usando contra el bien que la ley debía proteger.
 
-En ese punto, Zeezrom no representa solo la corrupción de bolsillo. Representa la corrupción del lenguaje público. Toma lo justo y lo revierte. Usa el proceso para encubrir la injusticia. Se sirve del prestigio profesional para volver dudoso lo que debería ser claro.
+En ese punto, Zeezrom encarna algo más ancho que un soborno aislado. El problema alcanza el lenguaje público mismo. Toma lo justo y lo revierte. Usa el proceso para encubrir la injusticia. Se sirve del prestigio profesional para volver dudoso lo que debería ser claro.
 
 ## La pregunta más filosa: “¿Es el Hijo de Dios el mismo Padre Eterno?”
 
@@ -122,11 +118,11 @@ Amulek responde de frente y mueve el centro de gravedad hacia la obra redentora 
 
 Ahí aparece la verdadera estrategia doctrinal de Amulek: no dejar que Zeezrom convierta la cristología en una trampa verbal desconectada de la expiación, la resurrección y el juicio. Por eso la respuesta continúa inmediatamente hacia transgresiones, vida eterna, restauración y tribunal.
 
-Aquí el KG añade una pista útil para leer mejor la escena. Un estudio del corpus sobre la huella de Abinadí en el Libro de Mormón observa que la fórmula “the very Eternal Father” aparece concentrada precisamente en Mosíah 15-16 y Alma 11, y propone que la pregunta de Zeezrom puede reflejar familiaridad con esa controversia previa; incluso sugiere que el abogado quizá intentaba empujar a Amulek hacia una acusación de blasfemia ligada a la misma fórmula por la que Abinadí había sido condenado (“Abinadi’s Legacy”, sección “Amulek and Alma2 Preaching in Ammonihah”, en [corpus/en/books/abinadi/05-abinadis-legacy.txt](c:/own/alejandria/corpus/en/books/abinadi/05-abinadis-legacy.txt)). La observación añade espesor histórico-doctrinal a la escena: Zeezrom podría estar activando un punto de fricción teológica que ya cargaba memoria judicial.
+El KG añade aquí una pista útil. Un estudio del corpus sobre la huella de Abinadí en el Libro de Mormón observa que la fórmula “the very Eternal Father” aparece concentrada precisamente en Mosíah 15-16 y Alma 11, y propone que la pregunta de Zeezrom puede reflejar familiaridad con esa controversia previa; incluso sugiere que el abogado quizá intentaba empujar a Amulek hacia una acusación de blasfemia ligada a la misma fórmula por la que Abinadí había sido condenado (“Abinadi’s Legacy”, sección “Amulek and Alma2 Preaching in Ammonihah”, en [corpus/en/books/abinadi/05-abinadis-legacy.txt](c:/own/alejandria/corpus/en/books/abinadi/05-abinadis-legacy.txt)). Eso le añade espesor histórico-doctrinal a la escena. Zeezrom podría estar activando un punto de fricción teológica que ya cargaba memoria judicial.
 
 ## La estrategia de Alma y Amulek al responder
 
-Aquí aparece una de las mejores piezas del relato. Alma y Amulek no “ganan un debate” en el sentido moderno. Hacen algo más difícil: le arrebatan a Zeezrom el control del marco.
+Esta es una de las partes más finas del episodio. Alma y Amulek no “ganan un debate” en el sentido moderno. Hacen algo más difícil: le arrebatan a Zeezrom el control del marco.
 
 Amulek actúa primero. Su estrategia tiene al menos cuatro movimientos.
 
@@ -160,7 +156,7 @@ La segunda es revelatoria. Alma le hace saber que Dios ya vio lo que él estaba 
 
 > "Amulek enseñó con poder a la contenciosa congregación de Ammoníah respecto a la justicia de la Resurrección: 'Los malvados permanecen como si no se hubiese hecho ninguna redención, a menos que sea el rompimiento de las ligaduras de la muerte', y serán 'llevados a comparecer ante el tribunal de Cristo el Hijo, y Dios el padre, y el Santo Espíritu que son un Eterno Dios, para ser juzgados según sus obras, sean buenas o malas'. Tras oír esta doctrina, Zeezrom, el principal antagonista de aquella experiencia, 'consciente de su culpabilidad, empezaba a temblar'. Cuando Alma confirmó las palabras de Amulek en cuanto a esta doctrina, Zeezrom 'empezó a temblar sobremanera, porque más y más se convencía del poder [de la justicia] de Dios'" ("Cristo y el nuevo convenio", Jeffrey R. Holland, capítulo 9).
 
-Esa explicación va más allá de un remordimiento psicológico genérico. El relato muestra conciencia escatológica: el juicio futuro ya pesa sobre la escena presente.
+No estamos ante un remordimiento psicológico genérico. El relato muestra conciencia escatológica: el juicio futuro ya pesa sobre la escena presente.
 
 Ahí se entiende la violencia de su temblor. Un hombre acostumbrado a manejar el interrogatorio descubre de golpe que ahora él ocupa el lugar del interrogado y que la escena ha quedado expuesta ante Dios.
 
@@ -174,25 +170,21 @@ Antes ya se nos había dicho que su alma se sintió atormentada por la concienci
 
 El texto habla de una mente atormentada, una conciencia sin descanso, un cuerpo consumido por fuego y una ausencia casi total de liberación. Zeezrom aparece interiormente deshecho.
 
-Vale la pena frenar ahí. Las escrituras tratan la culpa verdadera con seriedad. La muestran como una fuerza capaz de enfermar cuando el alma despierta y todavía no ha recibido paz.
+Conviene frenar ahí. Las escrituras tratan la culpa verdadera con seriedad. La muestran como una fuerza capaz de enfermar cuando el alma despierta y todavía no ha recibido paz.
 
 ## El Espíritu Santo en la conversión de Zeezrom
 
-La intervención del Espíritu Santo atraviesa esta historia de principio a fin.
+La acción del Espíritu Santo atraviesa toda la historia. No aparece solo al final, cuando Zeezrom busca alivio, sino desde el primer intercambio.
 
-Ante todo, el Espíritu determina el modo de hablar. Amulek no entra a la conversación como un polemista autónomo. Declara que dirá solo lo que esté de acuerdo con el Espíritu del Señor.
+Amulek no habla como un polemista autónomo. Declara que dirá solo lo que esté de acuerdo con el Espíritu del Señor. Alma tampoco adivina las intenciones de Zeezrom por agudeza psicológica; afirma que sus pensamientos les fueron manifestados por el Espíritu, y el texto añade que Zeezrom quedó convencido de que conocían “los pensamientos e intenciones de su corazón” por el espíritu de profecía (Alma 12:7).
 
-Segundo, el Espíritu da discernimiento. Alma no deduce psicológicamente las intenciones de Zeezrom. Afirma que sus pensamientos les fueron manifestados por el Espíritu, y el texto añade que Zeezrom quedó convencido de que conocían “los pensamientos e intenciones de su corazón” por el espíritu de profecía (Alma 12:7).
+Ese mismo Espíritu cambia después la textura de las preguntas. Hay un momento muy delicado en el relato: “Zeezrom empezó a interrogarlos solícitamente a fin de saber más concerniente al reino de Dios” (Alma 12:8). Sigue preguntando, sí, pero ya no para tender una red, sino porque necesita entender.
 
-Tercero, el Espíritu transforma la calidad de las preguntas. Hay un momento finísimo en el relato: “Zeezrom empezó a interrogarlos solícitamente a fin de saber más concerniente al reino de Dios” (Alma 12:8). Sigue preguntando, ahora movido por una necesidad real de saber.
+Alma responde explicándole el principio de los misterios de Dios: al que no endurece el corazón le es dada mayor porción de la palabra; al que endurece el corazón, menos, hasta que el diablo lo lleva cautivo (Alma 12:9-11). El pasaje importa porque deja ver el punto exacto en que Zeezrom se encuentra. Venía endurecido. En ese momento empieza a ceder.
 
-Ahí ya asoma la conversión.
+Cuando Alma llega a Sidom, la escena ya está madura para otra clase de respuesta. Todo converge en una sola pregunta: si Zeezrom cree “en el poder de Cristo para salvar” (Alma 15:6). Y él responde sin rodeos: “Sí, creo todas las palabras que has enseñado” (Alma 15:7).
 
-Cuarto, el Espíritu administra la palabra según la disposición del corazón. Alma explica a Zeezrom el principio de los misterios de Dios: al que no endurece el corazón le es dada mayor porción de la palabra; al que endurece el corazón, menos, hasta que el diablo lo lleva cautivo (Alma 12:9-11). El subtexto es evidente: Zeezrom está cruzando esa frontera. Hace unos minutos estaba endureciendo el corazón. Ahora está empezando a abrirlo.
-
-Quinto, el Espíritu prepara el terreno para la fe sanadora. Cuando Alma llega a Sidom, todo converge en una sola cuestión: si Zeezrom cree “en el poder de Cristo para salvar” (Alma 15:6). Y él responde sin doblez: “Sí, creo todas las palabras que has enseñado” (Alma 15:7).
-
-Mirada en conjunto, la secuencia es notable. El Espíritu iluminó la agencia de Zeezrom, la quebró, la llamó y la condujo hasta una confesión de fe. El relato mantiene toda esa densidad espiritual sin borrar la responsabilidad personal.
+Leído de corrido, el trayecto impresiona. El Espíritu saca a la luz la intención de Zeezrom, lo deja sin refugio, lo conduce a escuchar de otra manera y lo empuja hasta una confesión de fe. Nada de eso borra la responsabilidad personal. La vuelve más nítida.
 
 ## ¿Qué perdió Zeezrom al convertirse?
 
@@ -206,11 +198,11 @@ En el caso de Zeezrom, eso se ve de inmediato en el texto. Cuando intenta defend
 
 La sinceridad de su giro se confirma por lo que confesó y por el costo que aceptó cargar enseguida ("Ven, sígueme", semana del 24 al 30 de junio — Alma 13–16, 2024).
 
-Un hombre puede llorar en público y seguir protegiendo su posición. Zeezrom no pudo. Su nueva postura lo volvió sospechoso para los suyos. Lo dejó fuera del círculo que antes dominaba.
+La escena no deja margen para una conversión decorativa. Su nueva postura lo volvió sospechoso para los suyos y lo sacó del círculo donde antes se movía con soltura.
 
 ## Qué tan profunda fue su conversión
 
-Aquí está la pregunta grande. El Libro de Mormón conoce confesiones tardías que no llegan a convertirse en discipulado estable. Con Zeezrom ocurre otra cosa.
+Esta es la pregunta decisiva. El Libro de Mormón conoce confesiones tardías que no llegan a convertirse en discipulado estable. Con Zeezrom ocurre otra cosa.
 
 El élder Jeffrey R. Holland vuelve a ser especialmente útil aquí porque deja el arco completo en una sola secuencia verificable:
 
@@ -222,41 +214,31 @@ El élder Jeffrey R. Holland vuelve a ser especialmente útil aquí porque deja 
 >
 > Y Alma bautizó a Zeezrom en el Señor; y desde entonces empezó Zeezrom a predicar al pueblo'" ("Cristo y el nuevo convenio", Jeffrey R. Holland, capítulo 6).
 
-Ese detalle pesa muchísimo. La presencia de Zeezrom en Alma 31 lo muestra ya dentro del círculo de confianza de Alma y apunta a una rehabilitación real y a una incorporación plena.
+La presencia de Zeezrom en Alma 31 lo muestra ya dentro del círculo de confianza de Alma y apunta a una rehabilitación real y a una incorporación plena.
 
 Helamán 5 recuerda expresamente “las palabras que Amulek habló a Zeezrom” sobre que el Señor no redime a su pueblo en sus pecados, sino de sus pecados. Más adelante, Aminadab dice a los lamanitas que clamen hasta tener fe en Cristo, “de quien os enseñaron Alma, Amulek y Zeezrom” (Helamán 5:10-11, 41). Zeezrom aparece allí como transmisor de doctrina salvadora.
 
-Con ese cuadro delante, la respuesta sale con bastante firmeza: su conversión fue profunda, pública, costosa, doctrinalmente sólida y fructífera en el ministerio.
+Con ese cuadro delante, cuesta leer su historia como un sobresalto pasajero. La conversión fue pública, costosa y doctrinalmente fértil. Dio fruto en el ministerio.
 
 ## La estrategia de Dios con un hombre como Zeezrom
 
-Dios rescató la inteligencia de Zeezrom. Le limpió la manera de preguntar y volvió útil una intensidad que antes servía a la manipulación.
+Lo que conmueve en Zeezrom no es solo que cambiara de bando. Cambió el uso de su inteligencia. La agudeza que antes servía para manipular quedó puesta, al final, al servicio de la verdad.
 
-La verdad le arrancó la máscara. Después le hizo sentir el peso de su culpa sin anestesia. Finalmente lo llevó hasta una fe lo bastante sencilla como para aceptar ayuda de aquellos a quienes había querido destruir y pedir sanidad.
+El proceso no fue limpio ni rápido. La verdad lo desenmascara, lo alcanza en la conciencia, allí donde sus argumentos ya no le sirven de mucho, y termina obligándolo, ya enfermo, a depender precisamente de aquellos a quienes había querido destruir.
 
-Para un lector moderno, esa secuencia pega con fuerza. Los endurecimientos del corazón no se presentan siempre del mismo modo. Algunos nacen del apetito, otros de la vanidad, otros del dolor, y algunos brotan de una mente que aprendió a usar la lucidez como escudo. Zeezrom parece de esa especie: le sobraba agudeza y vivía con poca disposición a rendirse.
-
-Por eso su historia resulta tan poderosa. Muestra que el Espíritu Santo puede irrumpir en la arquitectura interna de una mente brillante y hacerla temblar.
+Eso toca una fibra muy actual. Hay endurecimientos del corazón que nacen del apetito, otros de la vanidad y otros del dolor. Zeezrom pertenece a otra familia: la del hombre brillante que aprendió a usar la lucidez como escudo. El relato muestra que el Espíritu Santo puede entrar también allí.
 
 ## Una última observación sobre corrupción, conciencia y Cristo
 
-Mirado entero, el relato de Zeezrom ata tres temas que hoy casi siempre se discuten por separado.
+Leído entero, el relato de Zeezrom junta tres asuntos que a menudo tratamos por separado: corrupción, conciencia y redención.
 
-Corrupción, conciencia y Cristo.
+La corrupción está a la vista en el soborno, en la manipulación del lenguaje y en el uso del sistema para producir provecho. La conciencia entra cuando ese mismo hombre empieza a ver sin maquillaje lo que ha hecho. Cristo aparece cuando la culpa deja de ser puro incendio interior y encuentra salida en el arrepentimiento.
 
-La corrupción aparece en el soborno, en la manipulación, en el uso del sistema para el lucro y en la torsión interesada del lenguaje. La conciencia aparece cuando ese mismo hombre empieza a ver con claridad lo que ha hecho. Cristo aparece cuando la culpa abre paso al arrepentimiento y a la redención.
+Si se elimina cualquiera de esas piezas, la historia pierde fuerza. Sin juicio, Zeezrom habría seguido negociando con la verdad. Sin la obra del Espíritu, seguramente habría inventado otra coartada. Sin Cristo, la culpa se le habría vuelto ruina.
 
-Sin la irrupción del juicio, Zeezrom probablemente habría seguido negociando con la verdad. Sin la obra del Espíritu, habría encontrado otra justificación para sí mismo. Sin Cristo, esa culpa habría quedado convertida en pura ruina interior.
+El texto no lo deja tirado en la fiebre. Lo vuelve a mostrar en fe, bautismo y predicación. Su nombre pesa dentro del relato de Alma por esa trayectoria completa: empezó como acusador diestro en una ciudad hostil y terminó hablando del mismo Cristo cuya verdad había querido torcer.
 
-El tramo final del relato muestra a Zeezrom en fe, bautismo y predicación. La fiebre forma parte del camino, pero no es la última imagen que conserva el texto.
-
-Zeezrom sigue siendo una advertencia contra el soborno del alma, contra el uso profesionalizado de la mentira y contra el prestigio que compra ceguera. Su historia también queda como testimonio de que una conversión auténtica puede entrar tan hondo que el antiguo acusador termine enseñando a otros cómo salir de la nube de tinieblas.
-
-La próxima vez que leas su historia, fíjate en el orden exacto de los hechos: trampa, exposición, temblor, culpa, enfermedad, fe, sanidad, bautismo, servicio. Ese encadenamiento explica buena parte de la fuerza del relato.
-
-Ese orden dice mucho sobre Zeezrom.
-
-También sobre nosotros.
+Leer la secuencia completa, sin saltarse ningún tramo, ayuda a ver la forma de su conversión: la trampa, la exposición pública, el temblor, la enfermedad, la confesión de fe, la sanidad, el bautismo y el servicio.
 
 ---
 
