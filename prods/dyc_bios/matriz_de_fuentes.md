@@ -2,11 +2,22 @@
 
 Matriz operativa derivada de `prods/dyc_bios/namelist.md` y de las familias de fuentes confirmadas en `prods/dyc_bios/fuentes.md`.
 
+Este es el documento base para la consulta de fuentes al redactar cada bio. Su finalidad no es sugerir una muestra representativa de obras, sino definir el conjunto de fuentes que debe revisarse por personaje antes de escribir.
+
+Norma operativa:
+
+- para cada personaje se consultan todas las fuentes listadas en su fila, no una seleccion parcial.
+- `fuente_puntual` nombra las obras de arranque y profundidad principal; si hay varias, se consultan todas.
+- `capa_contextual` nombra las obras de trasfondo historico y narrativo que tambien se consultan todas para ubicar al personaje dentro de la historia de DyC.
+- `capa_de_apoyo` nombra las ayudas de control, verificacion y anclaje canonico que tambien se revisan todas antes de cerrar la bio.
+- el campo `estado` no rebaja la exigencia de consulta; solo describe el tipo de ruta disponible en el corpus.
+- la cita breve al final de una minibio puede ser sintética, pero no debe dar a entender que solo se consultaron una o dos fuentes si la fila exige una consulta mas amplia.
+
 Lectura de columnas:
 
-- `fuente_puntual`: la mejor fuente sugerida para arrancar el perfil de esa persona.
-- `capa_contextual`: fuentes narrativas o de trasfondo histórico que conviene cruzar después.
-- `capa_de_apoyo`: pasajes, manuales y ayudas de normalización.
+- `fuente_puntual`: obras de consulta obligatoria para el nucleo biografico de la persona.
+- `capa_contextual`: fuentes narrativas o de trasfondo historico de consulta obligatoria para completar el cuadro.
+- `capa_de_apoyo`: pasajes, manuales y ayudas de normalizacion de consulta obligatoria para control textual y cronologico.
 - `estado`: indica si hay biografía dedicada detectada, ficha probable en GA o sólo ruta genérica.
 
 | nombre | fuente_puntual | capa_contextual | capa_de_apoyo | estado |
@@ -158,3 +169,4 @@ Lectura de columnas:
 
 - La matriz usa coincidencia por nombre sobre slugs y variantes basicas; no sustituye verificacion humana en casos ambiguos.
 - Para todos los nombres, el anclaje canonico sigue siendo `prods/dyc_bios/namelist_with_passages.md`.
+- En consecuencia, una bio no se considera exhaustiva hasta haber recorrido todas las fuentes consignadas en la fila correspondiente del personaje.
