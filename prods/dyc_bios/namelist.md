@@ -1,0 +1,136 @@
+- Aaron Johnson
+- Algernon Sidney Gilbert
+- Almon Babbitt
+- Alpheus Cutler
+- Amasa Lyman
+- Amos Davies
+- Ann Lee
+- Asa Dodds
+- Brigham Young
+- Burr Riggs
+- Calves Wilson
+- Charles C. Rich
+- Daniel Miles
+- Daniel Stanton
+- David Dort
+- David Fullmer
+- David W. Patten
+- David Whitmer
+- Don C. Smith
+- Dunbar Wilson
+- Eden Smith
+- Edson Fuller
+- Edward Partridge
+- Elias Higbee
+- Emer Harris
+- Emma Smith
+- Erastus Snow
+- Ezra Booth
+- Ezra T. Benson
+- Ezra Thayre
+- Frederick G. Williams
+- George A. Smith
+- George James
+- George Miller
+- George W. Harris
+- Gideon Carter
+- Harvey Whitlock
+- Heber C. Kimball
+- Heman Basset
+- Henry G. Sherwood
+- Henry Herriman
+- Hiram Page
+- Hyrum Smith
+- Isaac Galland
+- Isaac Morley
+- Jacob Scott
+- James Covel
+- James Foster
+- Jared Carter
+- Jesse Baker
+- Jesse Gause
+- John A. Hicks
+- John C. Bennett
+- John Corrill
+- John E. Page
+- John Gould
+- John Johnson
+- John Murdock
+- John S. Carter
+- John Smith
+- John Snider
+- John Taylor
+- John Whitmer
+- Joseph Coe
+- Joseph F. Smith
+- Joseph Knight Sr.
+- Joseph Smith Jr.
+- Joseph Smith Sr.
+- Joseph Wakefield
+- Joseph Young
+- Josiah Butterfield
+- Julia Clapp
+- Leman Copley
+- Levi W. Hancock
+- Lilburn W. Boggs
+- Lorenzo Snow
+- Luke S. Johnson
+- Lyman E. Johnson
+- Lyman Sherman
+- Lyman Wight
+- Major N. Ashley
+- Marion G. Romney
+- Martin Harris
+- Micah B. Welton
+- N. Eldon Tanner
+- Newel K. Whitney
+- Newel Knight
+- Northrop Sweet
+- Oliver Cowdery
+- Oliver Granger
+- Orson Hyde
+- Orson Pratt
+- Parley P. Pratt
+- Peter Haws
+- Peter Whitmer Jr.
+- Peter Whitmer Sr.
+- Philip Burroughs
+- Polly Knight
+- Reynolds Cahoon
+- Robert B. Thompson
+- Robert D. Foster
+- Ruggles Eames
+- Samuel Bent
+- Samuel H. Smith
+- Samuel Rolfe
+- Samuel Williams
+- Selah J. Griffin
+- Seymour Brunson
+- Shadrach Roundy
+- Sidney Rigdon
+- Simeon Carter
+- Simonds Ryder
+- Solomon Hancock
+- Solomon Humphrey
+- Spencer W. Kimball
+- Stephen Burnett
+- Sylvester Smith
+- Thomas B. Marsh
+- Thomas Grover
+- Titus Billings
+- Vienna Jaques
+- Vinson Knight
+- Warren A. Cowdery
+- Wheeler Baldwin
+- Wilford Woodruff
+- Willard Richards
+- William Carter
+- William E. McLellin
+- William Huntington
+- William Law
+- William Marks
+- William Smith
+- William W. Phelps
+- Zebedee Coltrin
+- Zera Pulsipher
+- Ziba Peterson
