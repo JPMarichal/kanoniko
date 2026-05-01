@@ -44,8 +44,8 @@ La pasada final de bibliografia se cerro con estas reglas verificadas:
 Casos donde la regla de veracidad fue especialmente determinante:
 
 - `John Smith.md`: no se sostuvo en bibliografia una obra puntual de la matriz que no estuvo disponible localmente como fuente directamente utilizable; se dejaron solo las fuentes realmente abiertas.
-- `Joseph Knight Sr.md`, `George A. Smith.md`, `Heber C. Kimball.md`, `hyrum-smith.md`: la bibliografia se redujo a las obras efectivamente consultadas en la reapertura final.
-- `John Snider.md`, `Joseph Coe.md`, `Joseph Wakefield.md`, `Joseph Young.md`: se evitó padding bibliografico y se mantuvieron solo las referencias realmente trabajadas.
+- `Joseph Knight Sr.md`, `George A. Smith.md`, `Heber C. Kimball.md`, `Hyrum Smith.md`: la bibliografia se redujo a las obras efectivamente consultadas en la reapertura final.
+- `John Snider.md`, `Joseph Coe.md`, `Joseph Wakefield.md`, `Joseph Young.md`: se evito padding bibliografico y se mantuvieron solo las referencias realmente trabajadas.
 
 ## Estado de cierre
 
@@ -57,128 +57,8 @@ No queda ninguna bio pendiente de reapertura dentro del lote de 71 archivos ya r
 - la bibliografia fue saneada al final, no de forma aparente sino segun consulta real;
 - se corrigio la diferencia entre `auditada` y `resuelta`, dejando este archivo como acta de cierre y no como backlog intermedio.
 
-## Observacion no bloqueante
+## Observacion de normalizacion
 
-Persiste una inconsistencia menor de nombres de archivo en `emma-smith.md`, `hyrum-smith.md` y `parley-p-pratt.md` frente al patron de titulo usado en el resto del directorio. No bloquea el cierre de la auditoria de fuentes y bibliografia.
+La inconsistencia menor de nombres de archivo detectada durante la auditoria ya fue normalizada en `Emma Smith.md`, `Hyrum Smith.md` y `Parley P. Pratt.md`, alineando esos nombres con el patron de titulo usado en el resto del directorio.
 
 Fecha de corte: auditoria posterior al refuerzo de `normativas_biografias.md` y `matriz_de_fuentes.md`.
-
-## Criterio de esta auditoria
-
-Esta revision compara cada archivo existente en `bios/` contra su fila correspondiente en `matriz_de_fuentes.md`.
-
-La auditoria se considera total solo si ninguna bio queda exenta de accion. Bajo la norma reforzada, el archivo final no basta para dar por probado el cumplimiento historico del flujo de trabajo anterior. Por eso, este informe elimina la idea de "confirmada" como cierre definitivo.
-
-Categorias operativas:
-
-- **Reescritura inmediata**: la biografia publicada contradice visiblemente la exigencia de consulta completa o muestra una reduccion indebida de la ruta puntual.
-- **Verificacion focal obligatoria**: la biografia parece mejor encaminada, pero hay una laguna puntual clara frente a la fila de la matriz.
-- **Re-revision exhaustiva obligatoria**: aunque la bio no muestre una falla flagrante, debe reabrirse igual y contrastarse de nuevo con el 100% de su fila. Esta categoria no significa conformidad cerrada; significa que la reapertura sigue siendo obligatoria.
-
-Regla de cierre: no se continua a bios nuevas mientras no exista re-revision documentada de las 71 bios ya escritas.
-
-## Resumen general
-
-- Total de bios auditadas: 71.
-- Total de bios con accion obligatoria: 71.
-- Reescritura inmediata: 4.
-- Verificacion focal obligatoria: 2.
-- Re-revision exhaustiva obligatoria: 65.
-
-## Reescritura inmediata
-
-- `John Taylor.md`
-  - La matriz exige una ruta dedicada rica, pero la bio publicada se apoya visiblemente en una sola ficha breve.
-- `Joseph F. Smith.md`
-  - La matriz exige varias obras puntuales; la bio visible depende de una sola ficha breve y debe rehacerse con consulta completa.
-- `Joseph Smith Jr.md`
-  - Figura critica con ruta puntual fuerte en la matriz; la version publicada no refleja esa profundidad.
-- `Joseph Smith Sr.md`
-  - La matriz pide una biografia dedicada; la bio visible no deja ver esa consulta.
-
-## Verificacion focal obligatoria
-
-- `John Whitmer.md`
-  - La matriz marca `biografia_dedicada`, pero la bibliografia visible apunta sobre todo a una fuente historica institucional breve. Requiere verificar consulta real de la obra puntual dedicada.
-- `parley-p-pratt.md`
-  - La ruta dedicada parece parcialmente atendida, pero falta confirmar la consulta y huella de todas las obras puntuales de la fila.
-
-## Re-revision exhaustiva obligatoria
-
-- `Aaron Johnson.md`
-- `Algernon Sidney Gilbert.md`
-- `Almon Babbitt.md`
-- `Alpheus Cutler.md`
-- `Amasa Lyman.md`
-- `Amos Davies.md`
-- `Ann Lee.md`
-- `Asa Dodds.md`
-- `Brigham Young.md`
-- `Burr Riggs.md`
-- `Calves Wilson.md`
-- `Charles C. Rich.md`
-- `Daniel Miles.md`
-- `Daniel Stanton.md`
-- `David Dort.md`
-- `David Fullmer.md`
-- `David W. Patten.md`
-- `David Whitmer.md`
-- `Don C. Smith.md`
-- `Dunbar Wilson.md`
-- `Eden Smith.md`
-- `Edson Fuller.md`
-- `Edward Partridge.md`
-- `Elias Higbee.md`
-- `Emer Harris.md`
-- `emma-smith.md`
-- `Erastus Snow.md`
-- `Ezra Booth.md`
-- `Ezra T. Benson.md`
-- `Ezra Thayre.md`
-- `Frederick G. Williams.md`
-- `George A. Smith.md`
-- `George James.md`
-- `George Miller.md`
-- `George W. Harris.md`
-- `Gideon Carter.md`
-- `Harvey Whitlock.md`
-- `Heber C. Kimball.md`
-- `Heman Basset.md`
-- `Henry G. Sherwood.md`
-- `Henry Herriman.md`
-- `Hiram Page.md`
-- `hyrum-smith.md`
-- `Isaac Galland.md`
-- `Isaac Morley.md`
-- `Jacob Scott.md`
-- `James Covel.md`
-- `James Foster.md`
-- `Jared Carter.md`
-- `Jesse Baker.md`
-- `Jesse Gause.md`
-- `John A. Hicks.md`
-- `John C. Bennett.md`
-- `John Corrill.md`
-- `John E. Page.md`
-- `John Gould.md`
-- `John Johnson.md`
-- `John Murdock.md`
-- `John S. Carter.md`
-- `John Smith.md`
-- `John Snider.md`
-- `Joseph Coe.md`
-- `Joseph Knight Sr.md`
-- `Joseph Wakefield.md`
-- `Joseph Young.md`
-
-Estas 65 bios tambien requieren reapertura. Algunas muestran mejor alineacion visible que otras, pero ninguna queda exenta de la re-revision completa que ahora exige la norma.
-
-## Orden de correccion recomendado antes de seguir con nuevas bios
-
-1. Reabrir y rehacer las 4 de reescritura inmediata.
-2. Verificar y ajustar las 2 de verificacion focal obligatoria.
-3. Re-revisar las 65 restantes usando la matriz como checklist real de consulta y dejando evidencia documental de esa reapertura.
-
-## Observacion adicional
-
-Existe una inconsistencia menor de nombres de archivo en `emma-smith.md`, `hyrum-smith.md` y `parley-p-pratt.md` frente al patron de titulo usado en el resto del directorio. No es el problema principal de esta auditoria, pero conviene normalizarlo despues del saneamiento de fuentes.
