@@ -1,0 +1,8 @@
+# John Whitmer
+
+John Whitmer ocupa un lugar singular en Doctrina y Convenios porque no sólo fue destinatario de varias revelaciones, sino también uno de los primeros custodios escritos de la historia de la Iglesia. Aparece en **Doctrina y Convenios 15**, **26**, **30**, **35**, **47**, **69**, **70** y **82**. Fue bautizado en 1829, actuó como escribiente de José Smith durante partes de la traducción del Libro de Mormón y de la revisión de la Biblia, y fue además uno de los Ocho Testigos. En 1831 fue llamado como historiador de la Iglesia, empezando así una labor documental que da a su nombre un peso especial dentro de la historia temprana de la Restauración (*Doctrine and Covenants Historical Resources: John Whitmer*).
+
+Más tarde sirvió en Misuri, ayudó a editar el *Messenger and Advocate* y colaboró en el establecimiento de Far West. Sin embargo, terminó excomulgado en 1838. Su biografía en DyC reúne así dos rasgos notables: una cercanía extraordinaria a los primeros eventos fundacionales y una posterior ruptura con la Iglesia. Aun con ese desenlace, John Whitmer sigue siendo una figura esencial para entender tanto la preservación documental de los primeros años como las tensiones internas que marcaron la década de 1830 (*Doctrine and Covenants Historical Resources: John Whitmer*).
+
+### Bibliografía
+- *Doctrine and Covenants Historical Resources: John Whitmer*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

@@ -1,0 +1,8 @@
+# John Taylor
+
+John Taylor aparece en **Doctrina y Convenios 118:6** y **124:129** como uno de los hombres llamados al apostolado y al liderazgo misional de la Iglesia. Convertido en Canadá en 1836 junto con su esposa Leonora, pronto se distinguió por su capacidad doctrinal, su vigor como predicador y su disposición para asumir tareas públicas delicadas. Durante décadas sirvió como apóstol, editó periódicos de la Iglesia, publicó tratados, abrió obra misional en distintos países y sobrevivió herido al ataque de la cárcel de Carthage, donde fueron asesinados José y Hyrum Smith. Su nombre en DyC remite, por tanto, a una de las grandes figuras de continuidad institucional entre la era de José Smith y la madurez posterior de la Iglesia (*John Taylor*).
+
+Aunque sus referencias en DyC pertenecen al período anterior a su presidencia, la amplitud de su vida ayuda a dimensionar su importancia. Más tarde presidió el Cuórum de los Doce y luego la Iglesia misma, reorganizó la Primera Presidencia, apoyó la consolidación de la Primaria y de organizaciones femeninas, y guio a los santos en años de fuerte presión federal. De modo que John Taylor no es sólo un nombre más en una lista de llamados: es uno de los grandes testigos, escritores y organizadores de la Restauración del siglo XIX (*John Taylor*).
+
+### Bibliografía
+- *John Taylor*, Church History Topics, La Iglesia de Jesucristo de los Santos de los Últimos Días.

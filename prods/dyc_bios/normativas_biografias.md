@@ -17,6 +17,8 @@ Toda generación e investigación biográfica debe tomar como fundamento estrict
 2. **Exhaustividad Escritural e Histórica:**
    La biografía debe abordar y conectar obligatoriamente al personaje con las secciones específicas de Doctrina y Convenios en las que participó, fue mencionado o tuvo influencia directa (ej. la influencia en el trasfondo histórico).
 
+   Antes de redactar, se deben consultar todas las fuentes listadas en la fila correspondiente de `matriz_de_fuentes.md`. Ninguna biografía puede considerarse completa si se escribió usando solo una parte de la fila o si no se contrastaron entre sí la fuente puntual, la capa contextual y la capa de apoyo.
+
 3. **Límite Flexible de 1 a 5 Párrafos:**
    La estructura narrativa debe condensarse en un mínimo de **1 párrafo** y un máximo de **5 párrafos** integrales y bien cohesionados. La extensión debe ajustarse a la densidad real de evidencia disponible para cada personaje; no se debe forzar una longitud mayor cuando eso produzca relleno.
 
@@ -26,9 +28,11 @@ Toda generación e investigación biográfica debe tomar como fundamento estrict
 5. **Formato Citas en Texto y Bibliografía:**
    - La procedencia de los datos debe citarse entre paréntesis directamente en el texto (ej. *Revelaciones en contexto, "El tabaco"*).
    - La cita en texto debe nombrar la obra que realmente sostiene la afirmación publicada. No se debe usar una cita genérica o de apoyo como sustituto de la fuente biográfica o contextual que aportó el dato.
+   - La reducción bibliográfica visible nunca autoriza una reducción en la investigación previa: aunque la bibliografía final sea breve, la consulta previa debe cubrir el 100% de la fila correspondiente en la matriz.
    - El documento debe finalizar con un encabezado `### Bibliografía` que enumere las obras bibliográficas que sostienen materialmente la redacción final, utilizando viñetas (`- *Título*, Autor/Sección.`).
    - La matriz sigue gobernando la consulta previa, pero la bibliografía visible al lector no debe ser un volcado mecánico de toda la fila ni una plantilla fija repetida; debe reflejar de forma proporcionada la huella real de las fuentes en el texto final.
    - Instrumentos internos o de control, como `namelist_with_passages.md`, pueden ser obligatorios en el flujo de trabajo, pero no deben aparecer en la bibliografía final para el lector.
+   - Si las fuentes de una misma fila presentan matices distintos, la biografía debe conciliarlos de manera explícita o, si no son materialmente útiles para el texto final, dejar que la selección bibliográfica visible refleje la huella real del texto ya conciliado; pero la consulta completa sigue siendo obligatoria.
 
 6. **Flujo de Trabajo Técnico Requerido (WSL + PowerShell Heredoc):**
    - Las búsquedas de precisión y verificación térmica de eventos deben realizarse exhaustivamente mediante `grep` a través de **WSL bash** apuntando al directorio `corpus/`.

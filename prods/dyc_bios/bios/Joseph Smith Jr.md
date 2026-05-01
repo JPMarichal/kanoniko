@@ -1,0 +1,10 @@
+# Joseph Smith Jr.
+
+Joseph Smith Jr. domina Doctrina y Convenios porque es el profeta por medio del cual vino la mayor parte de ese libro. Sus referencias recorren prácticamente toda la obra, desde el encabezado de **Doctrina y Convenios 21** hasta numerosas secciones donde se le instruye, corrige, consuela o comisiona. Nacido en 1805, buscó dirección divina en medio de la confusión religiosa de su tiempo y recibió la Primera Visión, visita fundacional que abrió su llamamiento profético. Más tarde recibió de Moroni las planchas del Libro de Mormón, tradujo el registro por el don y el poder de Dios y organizó formalmente la Iglesia en 1830. Desde entonces, su vida quedó ligada a revelaciones continuas, restauración de autoridad, fundación de comunidades y publicación de nuevas escrituras (*Joseph Smith Jr.*).
+
+Durante la década de 1830 y comienzos de la de 1840, José no sólo presidió la Iglesia: también dirigió proyectos de reunión, recibió revelaciones sobre el recogimiento, el sacerdocio, la vida venidera, Sion, el templo y la organización eclesiástica, y enfrentó pérdidas familiares, violencia, cárcel y oposición política persistente. La dedicación del Templo de Kirtland, la organización del Cuórum de los Doce, los conflictos en Misuri, la cárcel de Liberty y el desarrollo de Nauvoo pertenecen todos a su ministerio. Por eso, hablar de Joseph Smith Jr. en DyC no es hablar de un personaje más del elenco, sino del profeta fundador mediante quien el libro entero tomó forma histórica y doctrinal (*Joseph Smith Jr.*).
+
+Su muerte en Carthage en 1844 selló una vida breve y extraordinariamente intensa. Pero el alcance de su obra siguió mucho más allá de su martirio: la Iglesia que organizó, las escrituras que publicó, las doctrinas que enseñó y las ordenanzas y estructuras que restauró son precisamente el entramado que hace inteligible Doctrina y Convenios como libro de revelación moderna (*Joseph Smith Jr.*).
+
+### Bibliografía
+- *Joseph Smith Jr.*, Church History Topics, La Iglesia de Jesucristo de los Santos de los Últimos Días.

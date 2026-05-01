@@ -11,6 +11,8 @@ Norma operativa:
 - `capa_contextual` nombra las obras de trasfondo historico y narrativo que tambien se consultan todas para ubicar al personaje dentro de la historia de DyC.
 - `capa_de_apoyo` nombra las ayudas de control, verificacion y anclaje canonico que tambien se revisan todas antes de cerrar la bio.
 - el campo `estado` no rebaja la exigencia de consulta; solo describe el tipo de ruta disponible en el corpus.
+- ninguna bio se considera revisada, terminada ni apta para continuacion de lote mientras no se haya contrastado el contenido de todas las fuentes de su fila.
+- cuando una fuente puntual nombrada en la matriz no este disponible literalmente con ese mismo titulo, se debe localizar y consultar la mejor correspondencia local verificable antes de redactar; no se permite sustituirla en silencio por una sola ficha breve si la fila exige una ruta mas rica.
 - la cita breve al final de una minibio puede ser sintética, pero debe reflejar las obras que realmente sostienen el texto publicado; no debe convertirse en una plantilla fija ni listar artefactos internos de control como si fueran bibliografía para el lector.
 
 Lectura de columnas:
