@@ -1,8 +1,8 @@
 # Edson Fuller
 
-Edson Fuller residía en Ohio cuando abrazó el evangelio restaurado, probablemente en los primeros meses de 1831. Ese mismo año fue ordenado élder y llamado a servir una misión a Misuri en **Doctrina y Convenios 52:28**, señal de que se le consideraba parte del esfuerzo inicial para llevar el mensaje del Señor al oeste. Sin embargo, su trayectoria dentro de la Iglesia fue breve e inestable: las fuentes indican que aparentemente no cumplió esa misión y que en septiembre de 1831 fue suspendido de su oficio de élder; para 1838 ya se había apartado de la Iglesia. Su mención en DyC conserva, por tanto, el recuerdo de un llamamiento real dentro de la primera expansión misional, aun cuando su perseverancia posterior no sostuvo esa promesa inicial (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*; *Revelaciones en contexto*).
+Edson Fuller nació en Cazenovia, Nueva York, y entre 1827 y 1830 se trasladó a Chardon, Ohio, donde se casó con Celira Canfield en febrero de 1830. Antes de la primavera de 1831 fue bautizado en la Iglesia y, en junio de ese mismo año, ordenado élder y llamado a servir una misión a Misuri en **Doctrina y Convenios 52:28**.
+
+La misma ficha local indica, sin embargo, que aparentemente nunca llegó a cumplir esa misión. En septiembre de 1831 fue silenciado en su oficio de élder y para 1838 ya había abandonado la Iglesia. Su mención en Doctrina y Convenios conserva así el recuerdo de un llamamiento real dentro de la primera expansión misional de la Restauración, aunque su trayectoria posterior no sostuviera aquella promesa inicial.
 
 ### Bibliografía
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: Edson Fuller*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

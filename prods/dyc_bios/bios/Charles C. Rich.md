@@ -1,6 +1,6 @@
 # Charles C. Rich
 
-Charles C. Rich (1809-1883) aparece en **Doctrina y Convenios 124:132** entre los hombres nombrados para integrar el sumo consejo de Nauvoo, señal de la confianza que se depositaba en él en un momento de reorganización decisiva para la Iglesia (DyC 124:132; *Revelaciones en contexto*). Su inclusión en esa lista muestra que ya había demostrado capacidad de liderazgo, estabilidad y disposición para sostener la obra en circunstancias difíciles.
+Charles C. Rich (1809-1883) aparece en **Doctrina y Convenios 124:132** entre los hombres nombrados para integrar el sumo consejo de Nauvoo, señal de la confianza que se depositaba en él en un momento de reorganización decisiva para la Iglesia (DyC 124:132; *Revelaciones en contexto*). Su inclusión en esa lista muestra que, para 1841, ya era un dirigente probado.
 
 Las fuentes biográficas lo presentan como un converso de 1832 que pronto quedó vinculado al empuje misional y organizativo de la Iglesia. Participó en el Campamento de Israel en 1834, sirvió misiones, fue ordenado sumo sacerdote y llegó a presidir el cuórum de sumos sacerdotes en Misuri antes de su traslado a Nauvoo (*LDS Biographical Encyclopedia*; *Santos*). De ese modo, cuando Doctrina y Convenios lo nombra en 1841, no lo hace como un recién llegado, sino como un dirigente ya probado.
 
@@ -12,6 +12,7 @@ Por eso, Charles C. Rich debe leerse como uno de los hombres de continuidad inst
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.
+- *Doctrine and Covenants Historical Resources: Charles C. Rich*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Church History and Modern Revelation*, Joseph Fielding Smith.

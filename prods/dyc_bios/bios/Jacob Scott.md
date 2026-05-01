@@ -1,7 +1,11 @@
 # Jacob Scott
 
-Jacob Scott aparece en **Doctrina y Convenios 52:28** como uno de los hombres llamados a servir en misión hacia Misuri. Las fuentes locales conservan muy poca información adicional sobre su vida, de modo que conviene mantener la biografía en el terreno seguro de lo que sí está atestiguado: fue contado entre los primeros obreros misionales nombrados por revelación en 1831. Aun con un registro escaso, esa mención basta para situarlo dentro del esfuerzo inicial por extender el evangelio restaurado más allá de Nueva York y Ohio y hacia la frontera occidental de la Iglesia naciente (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+Jacob Scott aparece en **Doctrina y Convenios 52:28** como uno de los hombres llamados a viajar hacia Misuri en 1831. La propia revelación lo empareja con Edson Fuller dentro del primer impulso misional que buscó extender la predicación del evangelio restaurado más allá de Nueva York y Ohio.
+
+Las fuentes locales conservan muy poca información adicional sobre su vida. La referencia enciclopédica consultada indica que después de ese llamamiento no vuelve a ser mencionado en Doctrina y Convenios y que se le atribuye una salida temprana de la Iglesia, también en 1831.
+
+Por eso conviene mantener su biografía en el terreno seguro de lo que sí está atestiguado: Jacob Scott fue contado entre los primeros obreros misionales nombrados por revelación. Aun con un registro escaso, esa mención basta para situarlo dentro del esfuerzo inicial por llevar la Restauración hacia la frontera occidental.
 
 ### Bibliografía
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: Jacob Scott*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.

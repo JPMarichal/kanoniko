@@ -1,12 +1,10 @@
 # Henry G. Sherwood
 
-Henry G. Sherwood se unió a la Iglesia hacia 1832 y con el tiempo llegó a ser una figura de servicio relevante en Kirtland, Misuri y Nauvoo. Fue miembro del sumo consejo en Kirtland, sirvió en misión en Ohio, Kentucky y Tennessee, participó en la difícil supervisión de la salida de los santos desde Misuri y luego formó parte del sumo consejo de Nauvoo. También recibió encargos temporales vinculados a la administración de la ciudad, incluida la supervisión de la venta de lotes. Su nombre aparece en **Doctrina y Convenios 124:81, 132**, donde queda asociado tanto a la Nauvoo House como a las responsabilidades organizativas de la ciudad y del templo (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+Henry G. Sherwood nació en Nueva York en 1785 y para agosto de 1832 ya había sido bautizado y ordenado élder. Cerca de dos años después se trasladó a Kirtland, donde sirvió en el sumo consejo. En 1836 cumplió una misión a Ohio, Kentucky y Tennessee, y también fue accionista de la Kirtland Safety Society.
 
-Más adelante emigró al valle del Lago Salado y luego participó en la colonización de San Bernardino, California, antes de distanciarse de la Iglesia. Esa trayectoria, con años de servicio real seguidos por enfriamiento espiritual, lo vuelve representativo de un grupo amplio de santos del período nauvoo-pionero: hombres llamados a tareas concretas y útiles, capaces de sostener la obra durante años, pero no siempre perseverantes hasta el final. Las revelaciones conservan su mejor momento: cuando fue contado entre quienes debían invertir esfuerzo y recursos en consolidar Nauvoo como centro del recogimiento de Israel (*Santos*; *Revelaciones en contexto*; *LDS Biographical Encyclopedia*).
+En 1839 ayudó a supervisar la salida de los santos desde Misuri y ese mismo año se trasladó a Commerce, luego Nauvoo, donde pasó a formar parte del sumo consejo. También recibió encargos temporales vinculados a la administración de la ciudad, incluida la supervisión de la venta de lotes. **Doctrina y Convenios 124:81** lo instruye a comprar acciones para la construcción de la Nauvoo House, lo que lo vincula directamente con la consolidación material de Nauvoo.
+
+Más adelante emigró al Valle del Lago Salado, participó en la colonización de San Bernardino y finalmente se distanció de la Iglesia. Esa trayectoria, con años de servicio real seguidos por enfriamiento espiritual, lo vuelve representativo de un grupo amplio de santos del período nauvoo-pionero: hombres llamados a tareas concretas y útiles, capaces de sostener la obra durante años, pero no siempre perseverantes hasta el final.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: Henry G. Sherwood*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

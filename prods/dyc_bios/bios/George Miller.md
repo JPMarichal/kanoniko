@@ -1,11 +1,10 @@
 # George Miller
 
-George Miller conoció de cerca la tragedia de la expulsión de los santos de Misuri antes de bautizarse, cuando todavía vivía en Illinois. Su propio relato describe cómo abrió sus recursos y su propiedad para ayudar a familias necesitadas, incluidas varias de la familia Smith, y cómo ese gesto lo acercó al Profeta y a la Iglesia. Bautizado en 1839 por John Taylor, pronto se trasladó a Commerce, luego Nauvoo, donde fue ordenado sumo sacerdote y asumió funciones relevantes en la vida temporal y eclesiástica de la ciudad (*They Knew the Prophet*; *Santos*).
+George Miller nació en Virginia en 1794, se casó con Mary C. Fry en 1822 y fue bautizado en la Iglesia por John Taylor en 1839. En 1840 se trasladó a Commerce, luego Nauvoo, donde fue ordenado sumo sacerdote por José Smith, Hyrum Smith y Newel Knight. Desde entonces asumió responsabilidades importantes en la vida temporal y eclesiástica de la ciudad.
 
-En **Doctrina y Convenios 124:20, 62, 70** aparece ligado a la organización de Nauvoo y, en particular, a la Nauvoo House Association, de la cual fue presidente y fideicomisario. Más tarde también sirvió como obispo, presidente de los sumos sacerdotes y miembro del Consejo de los Cincuenta. Su trayectoria en Nauvoo muestra a un hombre valioso para las responsabilidades de administración, construcción y gobierno. Aunque después de la muerte de José Smith su camino terminó apartándose de la corriente principal de la Iglesia, las revelaciones preservan el período en que George Miller fue un colaborador importante en el levantamiento de Nauvoo y en el sostenimiento temporal del pueblo del convenio (*They Knew the Prophet*; *Revelaciones en contexto*; *Doctrina y Convenios - Manual del alumno*).
+En **Doctrina y Convenios 124:62, 70** aparece ligado a la Nauvoo House Association, de la cual fue fideicomisario y presidente. Más tarde sirvió como obispo, presidente de los sumos sacerdotes y miembro del Consejo de los Cincuenta. La ficha biográfica local también lo ubica en misiones a Iowa, Illinois, Kentucky y Wisconsin Territory para obtener recursos y madera para el templo y la Nauvoo House.
+
+Después de la muerte de José Smith, George Miller fue uno de los tres trustees-in-trust de la Iglesia y luego fue nombrado "second bishop" bajo Newel K. Whitney. Más tarde se apartó de la corriente principal de la Iglesia. Aun así, leído desde Doctrina y Convenios, queda como un colaborador importante en la organización material, administrativa y constructiva de Nauvoo.
 
 ### Bibliografía
-- *They Knew the Prophet*, Hyrum L. Andrus y Helen Mae Andrus.
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: George Miller*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

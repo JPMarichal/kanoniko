@@ -1,12 +1,10 @@
 # Elias Higbee
 
-Elias Higbee se unió a la Iglesia en el verano de 1832, en el condado de Jackson, Misuri, y desde entonces su vida quedó ligada a los principales conflictos y responsabilidades del período misuriano. Fue ordenado élder al año siguiente, más tarde sumo sacerdote, y sirvió tanto en misiones como en consejos de liderazgo en Misuri. También trabajó en el Templo de Kirtland y, en 1838, fue nombrado historiador de la Iglesia junto con John Corrill. Su trayectoria muestra a un hombre de confianza en momentos de organización, presión y crisis (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+Elias Higbee se unió a la Iglesia en el verano de 1832, en Jackson County, Misuri. Fue ordenado élder al año siguiente y, tras la expulsión de los santos de Jackson a Clay County en noviembre de 1833, continuó vinculado a la obra de la Iglesia. En 1834 fue ordenado sumo sacerdote por Orson Pratt; en 1835 sirvió una misión a Misuri, Illinois, Indiana y Ohio; y por un tiempo trabajó en el Templo de Kirtland.
 
-Su nombre aparece en **Doctrina y Convenios 113:7**, en el contexto de preguntas hechas por José Smith sobre pasajes de Isaías. Esa referencia breve pero significativa lo presenta como alguien cercano al círculo de estudio doctrinal del Profeta. Poco después, Elias enfrentó las turbulencias de 1838 en Misuri, incluida la violencia de Crooked River y la expulsión de los santos. Ya en Nauvoo, acompañó a José Smith en el viaje a Washington, D.C., para buscar reparación por los agravios sufridos en Misuri, y también formó parte del comité de construcción del templo. Murió en Nauvoo en 1843, habiendo servido tanto en el pensamiento como en la acción de la Iglesia en una época decisiva (*Santos*; *Revelaciones en contexto*; *LDS Biographical Encyclopedia*).
+Después regresó a Misuri, donde sirvió en dos sumos consejos entre 1836 y 1838. Junto con John Corrill fue nombrado historiador de la Iglesia en 1838, y ese mismo verano fue designado capitán general de la Society of the Daughter of Zion. Participó en el enfrentamiento de Crooked River y, tras la crisis de 1838, huyó de Misuri hasta establecerse en Commerce, luego Nauvoo. Su nombre aparece en **Doctrina y Convenios 113** dentro del círculo de preguntas presentadas por José Smith sobre Isaías.
+
+Entre octubre de 1839 y marzo de 1840 viajó con José Smith a Washington, D.C., para buscar reparación por los agravios sufridos por los santos en Misuri. En 1840 pasó a formar parte del comité de construcción del Templo de Nauvoo y murió allí en 1843. Leído desde Doctrina y Convenios, Elias Higbee queda como un hombre de confianza en años de organización, conflicto y búsqueda de redress institucional.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: Elias Higbee*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

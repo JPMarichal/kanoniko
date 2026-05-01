@@ -1,12 +1,10 @@
 # Emer Harris
 
-Emer Harris nació en 1781 y perteneció a la generación mayor de los primeros conversos de la Restauración. Fue bautizado en febrero de 1831 y ese mismo año recibió responsabilidades concretas dentro de la Iglesia: fue ordenado sumo sacerdote y, por un tiempo, actuó como escribiente de José Smith. En **Doctrina y Convenios 75:30**, el Señor lo unió en el ministerio con Simeon Carter, y esa asignación fue seguida por labores misionales en Pensilvania y Nueva York durante 1832 y 1833. La revelación lo muestra, por tanto, no como una figura decorativa, sino como un trabajador real en la expansión del evangelio durante los primeros años de la Iglesia (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+Emer Harris nació en 1781 y perteneció a la generación mayor de los primeros conversos de la Restauración. Fue bautizado en febrero de 1831 y ese mismo año fue ordenado sumo sacerdote y nombrado escribiente de José Smith. En enero de 1832, **Doctrina y Convenios 75:30** lo unió en el ministerio con Simeon Carter, y durante 1832 y 1833 sirvió misiones en Pensilvania y Nueva York.
 
-Después de sus primeras misiones, Emer vivió en varias partes de Ohio, colaboró en la obra del Templo de Kirtland, emigró a Misuri y finalmente fue expulsado con los demás santos hacia Illinois. En Nauvoo trabajó en el templo y sirvió dentro de la Legión de Nauvoo. Más tarde marchó con los santos a Utah, donde continuó prestando servicio hasta establecerse finalmente en Logan, lugar en que murió en 1869. Su vida resume la constancia de muchos santos menos recordados que, aunque aparecen sólo brevemente en Doctrina y Convenios, sostuvieron con trabajo y obediencia la consolidación de la Iglesia (*Santos*; *Revelaciones en contexto*; *LDS Biographical Encyclopedia*).
+La ficha local también indica que vivió en distintas partes de Ohio entre 1831 y 1838 y que en 1835 trabajó en el Templo de Kirtland. En octubre de 1838 emigró a Misuri, pero poco después fue expulsado con los demás santos y obligado a reasentarse en Commerce, luego Nauvoo. Allí trabajó en el Templo de Nauvoo y pasó a formar parte de la Legión de Nauvoo.
+
+En 1852 emigró a Utah Territory, donde continuó sirviendo en varios llamamientos de la Iglesia, y terminó por establecerse en Logan, donde murió en 1869. Leído desde Doctrina y Convenios, Emer Harris queda como uno de esos obreros tempranos cuya mención revelada es breve, pero cuya vida estuvo marcada por misión, trabajo de templo y perseverancia a través de la migración.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: Emer Harris*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

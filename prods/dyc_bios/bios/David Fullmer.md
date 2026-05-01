@@ -4,7 +4,7 @@ David Fullmer (1803-1879) aparece en **Doctrina y Convenios 124:132** entre los 
 
 Las fuentes biográficas indican que Fullmer fue bautizado en 1836, vivió en los condados de Caldwell y Daviess en Misuri, y luego se trasladó a Commerce, después Nauvoo, donde fue ordenado sumo sacerdote y llegó a ser miembro del sumo consejo (*LDS Biographical Encyclopedia*; *Santos*). Esa secuencia demuestra una integración rápida y sólida en la vida institucional de la Iglesia durante años de agitación y desplazamiento.
 
-Su papel en Nauvoo lo vinculó con asuntos especialmente sensibles del periodo. Como miembro del sumo consejo, quedó situado en el núcleo de deliberaciones y decisiones que afectaban la vida doctrinal y comunitaria de la Iglesia en los años previos al martirio del Profeta (*Revelaciones en contexto*; *Santos*). Por ello, aunque DyC sólo lo mencione dentro de una lista, esa lista en realidad señala un nivel considerable de responsabilidad.
+Su papel en Nauvoo lo vinculó con responsabilidades importantes del periodo. Como miembro del sumo consejo, participó en la estructura de gobierno local de la Iglesia en los años previos al martirio del Profeta. Por ello, aunque DyC sólo lo mencione dentro de una lista, esa lista señala un nivel real de confianza y responsabilidad.
 
 Después de Nauvoo, Fullmer continuó siendo útil en la obra. Sirvió una misión a Michigan en 1844, participó en el Consejo de los Cincuenta, condujo una compañía de santos fuera de Nauvoo en 1846 y más tarde llegó a Winter Quarters y al Valle del Lago Salado (*LDS Biographical Encyclopedia*; *Church History and Modern Revelation*). Su vida posterior confirma que el llamamiento de 1841 no fue circunstancial, sino parte de una trayectoria más extensa de servicio y confianza.
 
@@ -12,6 +12,7 @@ Leído desde DyC, David Fullmer representa al dirigente que madura en medio de l
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.
+- *Doctrine and Covenants Historical Resources: David Fullmer*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Church History and Modern Revelation*, Joseph Fielding Smith.

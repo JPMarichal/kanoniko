@@ -1,12 +1,11 @@
 # Ezra T. Benson
 
-Ezra T. Benson nació en Massachusetts en 1811 y llegó al oeste de Illinois como comerciante antes de conocer a los santos expulsados de Misuri. Ese contacto lo acercó al mensaje restaurado, y tanto él como su esposa, Pamelia Andrus, fueron bautizados en 1840. Después de visitar Nauvoo y ser ordenado élder, vendió sus propiedades y se unió definitivamente a la Iglesia. Durante los años siguientes sirvió en misiones al este y, tras el martirio de José Smith, regresó para sostener a los santos en una de las etapas más críticas de su historia (*Stalwarts of Mormonism*, Preston Nibley).
+Ezra T. Benson nació en Mendon, Massachusetts, en 1811. En 1838 llegó a Quincy, Illinois, donde conoció a los santos expulsados de Misuri, y en julio de 1840 él y su esposa Pamelia abrazaron la Iglesia. Después se reunió con los santos en Nauvoo, sirvió misiones en el Este y, tras el martirio de José Smith, volvió para sostener a la Iglesia en una de sus etapas más críticas.
 
-Su nombre aparece en **Doctrina y Convenios 136:12**, donde el Señor manda que Ezra T. Benson y Erastus Snow organicen una compañía dentro del Campamento de Israel. Esa referencia lo sitúa en el marco del gran éxodo hacia el oeste y armoniza con el resto de su trayectoria: fue llamado al Cuórum de los Doce en 1846, estuvo entre los primeros pioneros que entraron al valle del Lago Salado en 1847 y participó de manera activa en la organización material y espiritual del pueblo durante la marcha y los primeros asentamientos en el oeste (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+Fue ordenado apóstol en julio de 1846 y al año siguiente entró con la primera compañía pionera al Valle del Lago Salado. **Doctrina y Convenios 136:12** lo menciona junto con Erastus Snow entre los hombres llamados a organizar compañías para el Campamento de Israel. Esa referencia encaja con el resto de su trayectoria: la revelación lo muestra como uno de los dirigentes en quienes la Iglesia confió para convertir el éxodo en organización real.
 
-Más adelante presidió los asentamientos de Cache Valley desde Logan y también fue enviado en misión a las islas Hawái. Murió repentinamente en 1869 mientras trabajaba en proyectos vinculados al desarrollo de Utah. La breve mención de DyC 136 no alcanza a resumir toda su carrera, pero sí refleja un rasgo central de su vida: fue uno de los hombres en quienes los líderes de la Iglesia confiaron para convertir la revelación en organización, marcha y establecimiento real del pueblo del convenio en el oeste (*Stalwarts of Mormonism*, Preston Nibley).
+En los años siguientes sirvió en misiones en Inglaterra y Hawái y presidió el establecimiento de Cache Valley. Murió en 1869. Leído desde Doctrina y Convenios, Ezra T. Benson queda como una figura del período de transición entre Nauvoo y el Oeste: no tanto un hombre asociado a muchas secciones, sino uno de los líderes encargados de ejecutar en el terreno la marcha y el asentamiento del pueblo del convenio.
 
 ### Bibliografía
-- *Stalwarts of Mormonism*, Preston Nibley.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Ezra Taft Benson*, Sheri Dew.
+- *Brigham Young*, Preston Nibley.

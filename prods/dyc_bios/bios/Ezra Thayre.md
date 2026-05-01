@@ -1,12 +1,11 @@
 # Ezra Thayre
 
-Ezra Thayre se unió a la Iglesia en el otoño de 1830 y muy pronto fue contado entre los primeros élderes llamados al ministerio. El encabezado de **Doctrina y Convenios 33** recuerda su llamado misional junto con Northrop Sweet, y en **Doctrina y Convenios 52:22** vuelve a aparecer entre quienes debían viajar a Misuri tras haber sido ordenado sumo sacerdote. Sin embargo, su historia temprana también incluye una reprensión directa: **Doctrina y Convenios 56:8** le manda abandonar su orgullo y su egoísmo. Esa combinación de llamado y corrección vuelve su perfil especialmente representativo de los primeros años de la Restauración, cuando el Señor formaba a Sus siervos a través de encargos y de amonestaciones (*Doctrina y Convenios - Manual del alumno*; *Revelaciones en contexto*).
+Ezra Thayre se unió a la Iglesia en 1830 y muy pronto fue contado entre los primeros élderes llamados al ministerio. **Doctrina y Convenios 33** lo llama junto con Northrop Sweet a declarar el evangelio y predicar el arrepentimiento. Más tarde vuelve a aparecer en **Doctrina y Convenios 52:22** entre quienes debían viajar a Misuri, y en **Doctrina y Convenios 75:31** ligado a Thomas B. Marsh.
 
-Las fuentes lo ubican después en la Escuela de los Profetas, en la marcha del Campamento de Israel y más tarde en el sumo consejo de Adam-ondi-Ahman. También hay indicios de que cumplió la misión asociada a **Doctrina y Convenios 75:31** junto con Thomas Marsh. Su camino posterior fue irregular: en 1835 su membresía fue suspendida, en la década de 1850 se acercó por un tiempo al movimiento de James J. Strang, luego fue rebautizado en Nueva York y, finalmente, se vinculó con la Iglesia Reorganizada. Aun así, Doctrina y Convenios conserva el tramo decisivo de su vida: el tiempo en que fue llamado, enseñado y corregido dentro del núcleo inicial de la Restauración (*Church History and Modern Revelation*; *LDS Biographical Encyclopedia*).
+Su historia temprana también incluye una reprensión directa. El material de referencia local resume que **Doctrina y Convenios 56:8** le manda arrepentirse de su orgullo y egoísmo, después de haber fallado en obedecer una asignación previa. Aun así, fuentes complementarias lo ubican luego en el Campamento de Sion, en el Primer Quórum de los Setenta y en el sumo consejo de Adam-ondi-Ahman.
+
+Su trayectoria posterior fue irregular y terminó fuera de la Iglesia. Sin embargo, leído desde Doctrina y Convenios, Ezra Thayre queda como una figura representativa de los primeros años de la Restauración: un hombre que recibió llamamientos reales, correcciones severas y oportunidades concretas de servicio dentro del núcleo inicial del movimiento.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.
+- *Index to the Triple Combination*.

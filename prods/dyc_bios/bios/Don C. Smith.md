@@ -1,6 +1,6 @@
 # Don C. Smith
 
-Don Carlos Smith, citado con frecuencia como Don C. Smith, aparece en **Doctrina y Convenios 124:133** como presidente de un cuórum de sumos sacerdotes en Nauvoo (DyC 124:133; *Revelaciones en contexto*). Su nombre destaca no sólo por el llamamiento recibido, sino también por su cercanía familiar con el Profeta José Smith y por la amplitud de sus labores en la Iglesia durante sus últimos años de vida.
+Don Carlos Smith, citado con frecuencia como Don C. Smith, aparece en **Doctrina y Convenios 124:133** como presidente de un cuórum de sumos sacerdotes en Nauvoo (DyC 124:133; *Revelaciones en contexto*). Aunque su cercanía familiar con José Smith es conocida, la revelación lo presenta sobre todo como un obrero con responsabilidades reales dentro de la Iglesia.
 
 Las fuentes biográficas lo presentan como hermano menor de José Smith, bautizado en 1830 y muy pronto involucrado en esfuerzos misionales y editoriales. En Kirtland trabajó en la imprenta, sirvió misiones y llegó a presidir el cuórum de sumos sacerdotes, una responsabilidad que más tarde continuó en Nauvoo (*LDS Biographical Encyclopedia*; *Santos*). Por eso, la designación de DyC 124 no fue accidental, sino coherente con un historial previo de servicio disciplinado y útil.
 
@@ -12,6 +12,7 @@ Leído desde Doctrina y Convenios, Don C. Smith representa la combinación de pa
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.
+- *Doctrine and Covenants Historical Resources: Don Carlos Smith*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Church History and Modern Revelation*, Joseph Fielding Smith.

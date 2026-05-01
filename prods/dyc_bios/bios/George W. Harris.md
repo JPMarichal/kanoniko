@@ -1,8 +1,10 @@
 # George W. Harris
 
-George W. Harris fue bautizado en 1834 en Indiana y más tarde se estableció entre los santos de Misuri, donde llegó a servir en el sumo consejo de Far West y fue ordenado sumo sacerdote. Después de la expulsión de Misuri se trasladó a Illinois y continuó ocupando responsabilidades en Nauvoo. Su nombre aparece en **Doctrina y Convenios 124:132**, dentro de la nómina de quienes recibían responsabilidades en la organización de la ciudad y del templo. Más tarde salió con el éxodo desde Nauvoo y todavía sirvió como obispo y miembro del sumo consejo en Council Bluffs. Aunque no es una de las figuras más conocidas del período, las fuentes lo muestran como un hombre de servicio estable dentro de varias etapas críticas del recogimiento de los santos (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*; *LDS Biographical Encyclopedia*).
+George W. Harris nació en Massachusetts en 1780. Fue bautizado en la Iglesia por Orson Pratt en 1834, en Indiana, y para 1836 ya se había trasladado a Far West, Misuri. Allí fue nombrado miembro del sumo consejo de Far West y ordenado sumo sacerdote en abril de 1838.
+
+Después de la expulsión de Misuri se trasladó a Illinois. En Commerce, luego Nauvoo, fue nombrado al sumo consejo en 1839. Su nombre aparece en **Doctrina y Convenios 124:132**, dentro de la nómina de hombres que recibían responsabilidades en la organización de Nauvoo. Más tarde salió con el éxodo de 1846 y ese mismo año sirvió como obispo y miembro del sumo consejo en Council Bluffs, donde murió en 1857.
+
+Aunque no es una de las figuras más conocidas del período, la ficha local lo muestra como un hombre de servicio estable a través de varias etapas críticas del recogimiento de los santos: Misuri, Nauvoo y el éxodo hacia el Oeste.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: George W. Harris*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

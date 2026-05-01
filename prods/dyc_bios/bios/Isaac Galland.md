@@ -1,12 +1,10 @@
 # Isaac Galland
 
-Isaac Galland era especulador de tierras y promotor de asentamientos cuando entró en contacto con los santos en el período posterior a la expulsión de Misuri. Su papel en la historia de Nauvoo fue importante porque vendió a la Iglesia grandes extensiones de terreno en Commerce y en el llamado Half-Breed Tract, operaciones que ayudaron a hacer posible el establecimiento de la ciudad y la llegada de nuevos conversos. Fue bautizado y ordenado élder por José Smith en 1839, una vez que ya estaba vinculado a estas negociaciones de tierra y asentamiento (*Santos*; *LDS Biographical Encyclopedia*).
+Isaac Galland nació en Pennsylvania en 1791 y durante años se dedicó a empresas de tierras y asentamientos. En 1837 trazó el poblado original de Keokuk, y durante el invierno de 1838-1839 se trasladó a Commerce, Illinois, luego Nauvoo. Allí compró tierras en el Half-Breed Tract, en Iowa Territory, y en 1839 vendió a la Iglesia unas diecinueve mil acres, además de propiedades en Commerce. Esas operaciones ayudaron a hacer posible el establecimiento territorial de Nauvoo.
 
-En **Doctrina y Convenios 124:78-79** se le manda comprar acciones para apoyar la construcción de la Nauvoo House. Esa referencia encaja plenamente con su perfil histórico: Galland aparece asociado al desarrollo material de Nauvoo, al movimiento de propiedades y a los esfuerzos por sostener proyectos económicos e institucionales del nuevo centro de reunión. Más tarde se alejó de la actividad de la Iglesia, pero su nombre quedó ligado a uno de los momentos más decisivos en la consolidación territorial de Nauvoo (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*; *Revelaciones en contexto*).
+Ese mismo año fue bautizado y ordenado élder por José Smith. En **Doctrina y Convenios 124:78-79** se le manda comprar acciones para apoyar la construcción de la Nauvoo House. La referencia encaja plenamente con su perfil histórico: Galland aparece asociado al desarrollo material de Nauvoo, al movimiento de propiedades y a los esfuerzos por sostener proyectos económicos e institucionales del nuevo centro de reunión.
+
+Hacia 1842 todavía actuaba como agente autorizado de la Iglesia en ciertas transacciones de tierras para beneficiar a santos que llegaban del Este, pero se retiró de la actividad eclesiástica aproximadamente ese mismo año. Su nombre quedó ligado, sin embargo, a uno de los momentos más decisivos en la consolidación territorial de Nauvoo.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
-- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Historical Resources: Isaac Galland*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

@@ -6,12 +6,13 @@ Las fuentes biográficas señalan que fue bautizado en junio de 1832, ordenado �
 
 Su historia queda también unida a los años más violentos de Misuri. En 1838 formó parte de la presidencia pro tempore de la Iglesia en Far West y participó en los esfuerzos de defensa de los santos frente al creciente conflicto. Poco después fue herido de muerte en el enfrentamiento de Crooked River, episodio que marcó profundamente la memoria de los santos (*Santos*; *Church History and Modern Revelation*). Así, su figura une celo apostólico y sacrificio extremo.
 
-La sección 124 recuerda indirectamente esa pérdida al mencionar a quienes el Señor ya había tomado para sí y al reordenar llamamientos que habían quedado vacantes tras los años de persecución (DyC 124, encabezado; *Doctrina y Convenios - Manual del alumno*). En ese sentido, Patten pertenece a la generación de líderes cuya muerte prematura dejó huellas profundas en la estructura y en el ánimo de la Iglesia.
+La sección 124 recuerda de manera más directa esa pérdida al mencionar a David W. Patten entre aquellos a quienes el Señor ya había tomado para sí (DyC 124:19, 130). En ese sentido, Patten pertenece a la generación de líderes cuya muerte prematura dejó huellas profundas en la estructura y en el ánimo de la Iglesia.
 
 Leído desde Doctrina y Convenios, David W. Patten encarna al apóstol de impulso rápido, servicio intenso y final violento. Su legado es el de un hombre que avanzó con decisión en la predicación y en la defensa de los santos, y cuya vida quedó sellada por la misma turbulencia histórica que ayudó a enfrentar (DyC 114:1; DyC 124, encabezado).
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.
+- *Doctrine and Covenants Historical Resources: David W. Patten*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Church History and Modern Revelation*, Joseph Fielding Smith.

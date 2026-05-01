@@ -1,8 +1,11 @@
 # Harvey Whitlock
 
-Harvey Whitlock aparece en **Doctrina y Convenios 52:25** como uno de los hombres llamados a una asignación misional, y ese solo hecho basta para mostrar que fue considerado digno de confianza en el temprano movimiento de la Iglesia. Las fuentes locales también recuerdan que en los primeros años estuvo presente en manifestaciones espirituales intensas y que José Smith intervino en una ocasión para liberarlo de una fuerte aflicción espiritual. Sin embargo, su trayectoria fue inestable: se apartó en varias ocasiones, escribió al Profeta buscando saber la voluntad del Señor para su vida, recibió una respuesta esperanzadora y aun fue readmitido y ordenado de nuevo, pero no perseveró. Su historia conserva el contraste entre un llamamiento real y una fidelidad que nunca llegó a consolidarse (*Doctrine and Covenants Encyclopedia*; *Church History and Modern Revelation*; *Doctrina y Convenios - Manual del alumno*).
+Harvey Whitlock aparece en **Doctrina y Convenios 52:25** como uno de los hombres llamados a viajar y predicar rumbo a Sion. Las fuentes locales muestran que su servicio inicial no fue enteramente menor: todavía en el trayecto a Misuri volvió a encontrarse con José Smith y otros élderes, y ese grupo fue el contexto inmediato de la revelación de **Doctrina y Convenios 62**.
+
+Su trayectoria, sin embargo, fue inestable. La enciclopedia local resume que, después de haber entrado en la Iglesia antes de junio de 1831, se apartó para 1835 y escribió a José Smith describiéndose como un hombre extraviado. La respuesta del Profeta incluyó una promesa de perdón y una invitación a volver a Kirtland. De hecho, fue rebautizado y ordenado de nuevo en 1836.
+
+Las memorias tempranas también lo recuerdan en una manifestación espiritual intensa de 1831, cuando José Smith reprendió el poder que lo afligía. Aun así, Harvey Whitlock no perseveró hasta el fin. Su historia conserva el contraste entre un llamamiento real, oportunidades repetidas de restauración y una fidelidad que nunca llegó a consolidarse.
 
 ### Bibliografía
 - *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.
-- *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrine and Covenants Contexts*.
