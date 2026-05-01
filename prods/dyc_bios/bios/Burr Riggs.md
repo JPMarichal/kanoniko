@@ -11,7 +11,6 @@ De hecho, las actas históricas preservadas en las obras de referencia indican q
 Burr Riggs debe recordarse, entonces, como una figura aleccionadora dentro de las bios de DyC: un hombre llamado por revelación, con verdadera participación en la Iglesia temprana, pero también expuesto a desorden espiritual y corrección institucional (DyC 75:17; *Revelaciones en contexto*). Su caso ilustra que en los primeros años de la Restauración no todos los llamados perseveraron con la misma firmeza, aunque sus nombres permanezcan como parte del registro sagrado.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
 - *Doctrine and Covenants Historical Resources: Burr Riggs*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Doctrine and Covenants Encyclopedia*, Varios autores.
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

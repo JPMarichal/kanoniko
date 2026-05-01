@@ -1,0 +1,13 @@
+# Erastus Snow
+
+Erastus Snow fue bautizado en Vermont cuando era todavía muy joven y desde la adolescencia se distinguió por una energía misional poco común. Antes de cumplir veinte años ya había servido repetidas misiones en los estados del este, recorriendo largas distancias y reuniendo numerosos conversos. Tras congregarse con los santos en Misuri y casarse con Artemesia Beman, atravesó las expulsiones y privaciones de finales de la década de 1830. También figura entre quienes intentaron auxiliar a José Smith y a sus compañeros durante el encarcelamiento en Liberty Jail, lo que muestra la cercanía de su servicio al centro mismo de la historia de la Iglesia en esos años (*Church History and Modern Revelation*; *Santos*).
+
+Después del éxodo de Nauvoo, Erastus Snow salió con la avanzada pionera de 1847 y tuvo una participación destacada en la marcha hacia el oeste. **Doctrina y Convenios 136:12** lo menciona junto a Ezra T. Benson como uno de los hombres encargados de organizar una compañía dentro el Campamento de Israel, reflejando la confianza que los líderes depositaban en su capacidad administrativa y espiritual. Esa mención encaja con el resto de su trayectoria: fue uno de los primeros en entrar al valle del Lago Salado, y poco después siguió prestando servicio en labores de abastecimiento, organización y migración de los santos (*Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+
+En 1849 fue llamado al Cuórum de los Doce y ese mismo año recibió la asignación de abrir la misión en Dinamarca. Allí presidió el establecimiento de la obra, supervisó la traducción del Libro de Mormón al danés y ayudó a impulsar la primera edición del libro en un idioma extranjero. Más tarde dirigió la colonización del sur de Utah y su nombre quedó unido de manera especial a St. George y a otros asentamientos del desierto. Por eso, cuando se recuerda a Erastus Snow, no se piensa sólo en un misionero incansable, sino en un apóstol capaz de abrir fronteras espirituales y geográficas para el recogimiento de Israel (*Stalwarts of Mormonism*, Preston Nibley).
+
+### Bibliografía
+- *Stalwarts of Mormonism*, Preston Nibley.
+- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Church History and Modern Revelation*, Joseph Fielding Smith.
+- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.

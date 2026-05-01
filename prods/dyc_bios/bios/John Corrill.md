@@ -1,0 +1,8 @@
+# John Corrill
+
+John Corrill aparece en **Doctrina y Convenios 50:38** y **52:7** como uno de los primeros élderes llamados a servir en misión. Su vida dentro de la Iglesia fue inicialmente amplia y significativa: después de su bautismo y ordenación en 1831, sirvió como consejero del obispo Edward Partridge, presidió grupos de santos en Misuri, ayudó en la edificación del Templo de Kirtland y más tarde colaboró en el establecimiento de Far West. En 1838 incluso fue nombrado historiador de la Iglesia, señal de la confianza que todavía se depositaba en él tras varios años de servicio sostenido (*Doctrine and Covenants Historical Resources: John Corrill*).
+
+Su historia, sin embargo, terminó en ruptura. Ese mismo año testificó contra José Smith en el juicio por traición relacionado con el conflicto en Misuri, y al año siguiente fue excomulgado. Más tarde publicó una historia de la Iglesia desde fuera de su comunión. Así, John Corrill reúne en una sola biografía dos dimensiones fuertes del período temprano: utilidad real en la consolidación de la Iglesia y posterior alejamiento en uno de los momentos más tensos de la experiencia misuriana. Su presencia en DyC conserva el tramo en que fue llamado y usado como misionero y dirigente antes de su separación final (*Doctrine and Covenants Historical Resources: John Corrill*).
+
+### Bibliografía
+- *Doctrine and Covenants Historical Resources: John Corrill*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

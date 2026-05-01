@@ -1,0 +1,16 @@
+# Edward Partridge
+
+Edward Partridge nació en Massachusetts en 1793 y era un próspero sombrerero cuando conoció el evangelio restaurado. Fue bautizado por José Smith en diciembre de 1830 y, apenas unos días después, ordenado élder. Muy pronto recibió una de las asignaciones más trascendentes de la Iglesia naciente: en Kirtland, el Señor lo llamó como el primer obispo de esta dispensación en **Doctrina y Convenios 41:9**, y las revelaciones siguientes ampliaron sus deberes en la administración de la ley de consagración y del cuidado temporal de los santos (**DyC 42:30-36; 51:1-4, 18**; *Doctrina y Convenios - Manual del alumno*; *Church History and Modern Revelation*).
+
+Su ministerio estuvo íntimamente ligado al establecimiento de Sion en Misuri. Edward viajó con el Profeta a Jackson County, recibió instrucciones adicionales en **Doctrina y Convenios 57:7**, **58:14, 24, 62** y **60:10**, y asumió la compleja tarea de comprar tierras, repartir heredades y ordenar la vida económica y espiritual de una comunidad en formación. Aquellas responsabilidades lo colocaron en el centro de las tensiones que pronto estallaron contra los santos. En 1833, durante la violencia del populacho en Independence, fue humillado públicamente al ser cubierto con alquitrán y plumas, experiencia que se volvió uno de los símbolos más conocidos de la persecución sufrida por la Iglesia en Misuri (*Santos*; *Revelaciones en contexto*).
+
+A pesar de esas pruebas, Edward Partridge siguió siendo un obispo fiel. En 1832 fue nombrado integrante de la Firma Unida (**DyC 82:11**), y en los años siguientes continuó sirviendo en medio de expulsiones, traslados y nuevas dificultades. Pasó de Jackson a Clay County, luego a Caldwell County, y finalmente compartió el encarcelamiento y el destierro que marcaron el colapso de la presencia de los santos en Misuri. Las referencias posteriores de Doctrina y Convenios, incluso **DyC 115:2** y **124:19, 21**, muestran hasta qué punto su nombre quedó ligado a la historia institucional de la Iglesia y a la memoria de quienes perseveraron bajo presión.
+
+Edward llegó con su familia a Commerce, luego Nauvoo, después de la expulsión de Misuri, pero su salud ya estaba quebrantada por años de trabajo y sufrimiento. Murió en 1840, aún sirviendo como obispo, y su legado quedó asociado a la obediencia, la mayordomía y la disposición a sostener a los santos en tiempos de orden y en tiempos de aflicción. Cuando Doctrina y Convenios menciona su nombre en tantas secciones, no sólo conserva a un funcionario eclesiástico, sino a uno de los hombres que ayudaron a dar forma concreta a la Iglesia restaurada en sus años más vulnerables (*LDS Biographical Encyclopedia*; *Santos*; *Church History and Modern Revelation*).
+
+### Bibliografía
+- *LDS Biographical Encyclopedia*, Andrew Jenson.
+- *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Church History and Modern Revelation*, Joseph Fielding Smith.
+- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.

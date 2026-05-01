@@ -1,0 +1,8 @@
+# John C. Bennett
+
+John C. Bennett fue una de las figuras más visibles y más controvertidas del período nauvoense. Llegó a Nauvoo en 1840, fue bautizado en la Iglesia y ayudó a redactar y asegurar la carta municipal de la ciudad, una contribución decisiva para la organización cívica de Nauvoo. En ese contexto aparece vinculado a **Doctrina y Convenios 124:16**, donde se le menciona entre los hombres que recibían encomiendas relevantes en la consolidación del nuevo centro de reunión. Durante 1841 y 1842 ocupó posiciones muy altas, tanto en la esfera eclesiástica como en la civil, incluyendo servicio como asistente en la Primera Presidencia (*Doctrine and Covenants Historical Resources: John C. Bennett*).
+
+Sin embargo, su caída fue tan rápida como su ascenso. En 1842 fue excomulgado por adulterio, perdió sus cargos y después se convirtió en uno de los acusadores públicos más agresivos de José Smith. Sus denuncias reavivaron viejas causas judiciales y contribuyeron a nuevas presiones políticas y legales contra el Profeta. Por eso, su nombre en DyC 124 debe leerse con sobriedad histórica: representa a un hombre dotado y útil para la organización de Nauvoo, pero cuya deslealtad posterior lo convirtió en una fuente importante de conflicto para la Iglesia (*Doctrine and Covenants Historical Resources: John C. Bennett*).
+
+### Bibliografía
+- *Doctrine and Covenants Historical Resources: John C. Bennett*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

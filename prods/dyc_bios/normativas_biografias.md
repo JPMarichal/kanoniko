@@ -25,7 +25,10 @@ Toda generación e investigación biográfica debe tomar como fundamento estrict
 
 5. **Formato Citas en Texto y Bibliografía:**
    - La procedencia de los datos debe citarse entre paréntesis directamente en el texto (ej. *Revelaciones en contexto, "El tabaco"*).
-   - El documento debe finalizar con un encabezado `### Bibliografía` que enumere las obras consultadas utilizando viñetas (`- *Título*, Autor/Sección.`).
+   - La cita en texto debe nombrar la obra que realmente sostiene la afirmación publicada. No se debe usar una cita genérica o de apoyo como sustituto de la fuente biográfica o contextual que aportó el dato.
+   - El documento debe finalizar con un encabezado `### Bibliografía` que enumere las obras bibliográficas que sostienen materialmente la redacción final, utilizando viñetas (`- *Título*, Autor/Sección.`).
+   - La matriz sigue gobernando la consulta previa, pero la bibliografía visible al lector no debe ser un volcado mecánico de toda la fila ni una plantilla fija repetida; debe reflejar de forma proporcionada la huella real de las fuentes en el texto final.
+   - Instrumentos internos o de control, como `namelist_with_passages.md`, pueden ser obligatorios en el flujo de trabajo, pero no deben aparecer en la bibliografía final para el lector.
 
 6. **Flujo de Trabajo Técnico Requerido (WSL + PowerShell Heredoc):**
    - Las búsquedas de precisión y verificación térmica de eventos deben realizarse exhaustivamente mediante `grep` a través de **WSL bash** apuntando al directorio `corpus/`.

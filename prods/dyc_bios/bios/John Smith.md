@@ -1,0 +1,9 @@
+# John Smith
+
+John Smith, hermano menor de Joseph Smith Sr. y tío del Profeta, aparece en **Doctrina y Convenios 102:3, 34** como uno de los miembros del primer sumo consejo de la Iglesia en Kirtland. Bautizado en enero de 1832, pronto ocupó posiciones de responsabilidad en Ohio y más tarde llegó a presidir ese consejo. Después sirvió en Misuri, fue nombrado presidente de estaca en Adam-ondi-Ahman, pasó por Nauvoo y, finalmente, continuó su ministerio en el Oeste hasta ser ordenado Patriarca de la Iglesia en 1849. Su nombre en DyC pertenece, por tanto, a un hombre de liderazgo sostenido durante varias etapas clave de la Restauración (*Doctrine and Covenants Historical Resources: John Smith*).
+
+Su trasfondo familiar añade una dimensión particular a su perfil. El relato conservado en *Joseph Smith's New England Heritage* muestra a John Smith como heredero directo del fuerte sentido de deber y honor de Asael Smith, su padre. Ese trasfondo ayuda a entender por qué, ya dentro de la Iglesia, fue considerado apto para responsabilidades de gobierno, consejo y presidencia. De este modo, la biografía de John Smith en DyC no sólo lo presenta como integrante del sumo consejo de Kirtland, sino también como uno de los miembros mayores de la familia Smith que ayudaron a dar estabilidad institucional a la Iglesia en sus años formativos (*Joseph Smith's New England Heritage*; *Doctrine and Covenants Historical Resources: John Smith*).
+
+### Bibliografía
+- *Doctrine and Covenants Historical Resources: John Smith*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Joseph Smith's New England Heritage*, Richard Lloyd Anderson.

@@ -11,7 +11,7 @@ Norma operativa:
 - `capa_contextual` nombra las obras de trasfondo historico y narrativo que tambien se consultan todas para ubicar al personaje dentro de la historia de DyC.
 - `capa_de_apoyo` nombra las ayudas de control, verificacion y anclaje canonico que tambien se revisan todas antes de cerrar la bio.
 - el campo `estado` no rebaja la exigencia de consulta; solo describe el tipo de ruta disponible en el corpus.
-- la cita breve al final de una minibio puede ser sintética, pero no debe dar a entender que solo se consultaron una o dos fuentes si la fila exige una consulta mas amplia.
+- la cita breve al final de una minibio puede ser sintética, pero debe reflejar las obras que realmente sostienen el texto publicado; no debe convertirse en una plantilla fija ni listar artefactos internos de control como si fueran bibliografía para el lector.
 
 Lectura de columnas:
 
@@ -170,3 +170,4 @@ Lectura de columnas:
 - La matriz usa coincidencia por nombre sobre slugs y variantes basicas; no sustituye verificacion humana en casos ambiguos.
 - Para todos los nombres, el anclaje canonico sigue siendo `prods/dyc_bios/namelist_with_passages.md`.
 - En consecuencia, una bio no se considera exhaustiva hasta haber recorrido todas las fuentes consignadas en la fila correspondiente del personaje.
+- La bibliografía final visible puede omitir `namelist_with_passages.md` y otras herramientas internas de control, siempre que la redacción publicada deje ver con claridad las obras bibliográficas que sustentan el contenido.

@@ -1,0 +1,6 @@
+# Jesse Gause
+
+Jesse Gause aparece en el encabezado de **Doctrina y Convenios 81** como el consejero de José Smith a quien iba dirigida originalmente esa revelación. Su trayectoria dentro de la Iglesia fue breve, pero importante: después de haber pasado por ambientes cuáqueros y tembladores, fue bautizado en 1831 o 1832, sirvió como escribiente del Profeta, formó parte de la Firma Unida y viajó con José Smith a Independence, Misuri. También comenzó una misión junto con Zebedee Coltrin, aunque se separó de él en agosto de 1832 y poco después desapareció del liderazgo de la Iglesia, aparentemente tras una excomunión en diciembre de ese mismo año. Su caso muestra cuán temprano algunos llamamientos muy altos podían ir acompañados de inestabilidad personal y de una permanencia muy corta en la obra restaurada (*Doctrine and Covenants Historical Resources: Jesse Gause*).
+
+### Bibliografía
+- *Doctrine and Covenants Historical Resources: Jesse Gause*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

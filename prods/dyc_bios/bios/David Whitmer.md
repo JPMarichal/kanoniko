@@ -15,4 +15,3 @@ Leído desde DyC, David Whitmer es una figura de enorme valor y también de prof
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Church History and Modern Revelation*, Joseph Fielding Smith.
-- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.

@@ -11,7 +11,6 @@ La misma revelación también corrige otras enseñanzas atribuidas al movimiento
 Ann Lee debe recordarse, entonces, como una figura de contexto cuya importancia en DyC radica en haber provocado una clarificación revelada sobre el matrimonio, la segunda venida y la vida ordenada de los creyentes (encabezado de DyC 49; *Doctrina y Convenios - Manual del alumno*). Aunque no perteneció a la Restauración, su presencia en el trasfondo de la sección 49 la convierte en una referencia necesaria para entender cómo el Señor distinguió Su obra de otros movimientos religiosos del mismo período.
 
 ### Bibliografía
-- *LDS Biographical Encyclopedia*, Andrew Jenson.
 - *Revelaciones en contexto*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
 - *Church History and Modern Revelation*, Joseph Fielding Smith.
 - *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.

@@ -1,0 +1,8 @@
+# John Johnson
+
+John Johnson ocupa un lugar importante en la historia de Doctrina y Convenios no sólo por su propio servicio, sino porque su hogar en Hiram, Ohio, fue uno de los escenarios más fecundos de la revelación moderna. José Smith vivió allí en 1831 y 1832, y en esa casa recibió numerosas revelaciones. Más tarde Johnson fue ordenado élder y sumo sacerdote, ingresó en la Firma Unida y pasó a formar parte del primer sumo consejo de la Iglesia. En **Doctrina y Convenios 96:6**, **102:3, 34** y **104:24, 34** su nombre queda asociado tanto a la administración de propiedades y recursos en Kirtland como al gobierno de la Iglesia en una etapa de expansión institucional (*Doctrine and Covenants Historical Resources: John Johnson*).
+
+Además de abrir su hogar al Profeta, John Johnson aportó recursos concretos para la obra, incluyendo fondos destinados a la compra de tierras en Kirtland donde los santos edificaron viviendas, una escuela y el templo. Sin embargo, su trayectoria no terminó en plena armonía con la Iglesia, pues en 1837 y 1838 se fue apartando en medio de las tensiones de Kirtland. Aun así, su nombre permanece ligado a uno de los grandes lugares de revelación de esta dispensación y al esfuerzo temporal que ayudó a hacer posible la consolidación de la Iglesia en Ohio (*Doctrine and Covenants Historical Resources: John Johnson*).
+
+### Bibliografía
+- *Doctrine and Covenants Historical Resources: John Johnson*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
