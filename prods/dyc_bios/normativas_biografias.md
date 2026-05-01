@@ -20,7 +20,7 @@ Toda generación e investigación biográfica debe tomar como fundamento estrict
    Antes de redactar, se deben consultar todas las fuentes listadas en la fila correspondiente de `matriz_de_fuentes.md`. Ninguna biografía puede considerarse completa si se escribió usando solo una parte de la fila o si no se contrastaron entre sí la fuente puntual, la capa contextual y la capa de apoyo.
 
 3. **Límite Flexible de 1 a 5 Párrafos:**
-   La estructura narrativa debe condensarse en un mínimo de **1 párrafo** y un máximo de **5 párrafos** integrales y bien cohesionados. La extensión debe ajustarse a la densidad real de evidencia disponible para cada personaje; no se debe forzar una longitud mayor cuando eso produzca relleno.
+   La estructura narrativa debe condensarse en un mínimo de **1 párrafo** y un máximo de **5 párrafos** integrales y bien cohesionados. La extensión debe ajustarse a la densidad real de evidencia disponible y a la trascendencia histórica-escritural del personaje; no se debe forzar una longitud mayor cuando eso produzca relleno, pero tampoco se debe comprimir artificialmente a figuras mayores dentro de una plantilla fija de dos párrafos si las fuentes sostienen más desarrollo.
 
 4. **Tono FCD (Formal, Claro y Devocional/Académico):**
    El perfil debe redactarse con rigor enciclopédico e histórico, manteniendo un respeto solemne por la narrativa de la Restauración pero con la exactitud documental de una obra académica.
@@ -37,3 +37,16 @@ Toda generación e investigación biográfica debe tomar como fundamento estrict
 6. **Flujo de Trabajo Técnico Requerido (WSL + PowerShell Heredoc):**
    - Las búsquedas de precisión y verificación térmica de eventos deben realizarse exhaustivamente mediante `grep` a través de **WSL bash** apuntando al directorio `corpus/`.
    - La redacción y volcado final del archivo `.md` debe ejecutarse rigurosamente utilizando **Heredoc en PowerShell** (`Set-Content -Encoding UTF8`) para asegurar la ininterrupción de tokens y la fidelidad del archivo.
+
+---
+
+## Definition of Done (DoD)
+
+Una biografía solo puede darse por terminada si cumple simultáneamente con todos los puntos siguientes:
+
+1. Parte de la fila correcta en `matriz_de_fuentes.md` y de las referencias correspondientes en `namelist_with_passages.md`.
+2. Explica qué dicen realmente las referencias de Doctrina y Convenios sobre la persona, no solo que la mencionan.
+3. Ajusta el número de párrafos a la evidencia y a la importancia del personaje, dentro del rango de 1 a 5; queda prohibido usar una plantilla fija de dos párrafos para todos los casos.
+4. Mantiene tono FCD y español correcto, sin incrustar inglés en la prosa final.
+5. Evita relleno, repetición y sobreinterpretación cuando la evidencia es escasa.
+6. Cierra con `### Bibliografía` y lista solo las fuentes realmente consultadas y materialmente usadas en la redacción final.
