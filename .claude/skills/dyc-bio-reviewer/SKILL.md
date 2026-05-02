@@ -208,6 +208,23 @@ El anti-IA debe aplicarse al texto final para cubrir TODO el trabajo revisado.
 
 **Secuencia fija**: Paso 1 → Paso 2 → Paso 3 → Paso 3.5 (si aplica) → Paso 4 (anti-IA obligatoria al final) → Paso 5 → Entregable final
 
+## Modo de Procesamiento por Lotes
+
+Cuando se procesan múltiples biografías en secuencia (lotes de 10+ bios):
+
+**Reglas de lote**:
+1. **Procesar sin pausa** entre bios del mismo lote
+2. **NO preguntar** "¿procedo con la siguiente?" entre bios
+3. **Investigación automática**: Si una bio requiere investigación end-to-end, realizarla inmediatamente sin consultar
+4. **Bibliografía automática**: Actualizar fuentes cuando se agregue información nueva
+5. **Resumen por lote**: Al finalizar las 10 bios, entregar resumen breve de hallazgos y actualizar LOTE-PROGRESO.md
+6. **Continuar inmediatamente** al siguiente lote sin esperar confirmación
+
+**Optimizaciones de lote**:
+- Identificar patrones comunes entre bios relacionadas (ej: varios miembros de Nauvoo House)
+- Reutilizar consultas de corpus para bios del mismo período/contexto
+- Priorizar bios "fáciles" primero para mantener momentum
+
 ## Flujo de Trabajo
 
 ### Paso 1: Lectura Inicial
