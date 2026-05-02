@@ -172,10 +172,10 @@ Basado en `references/anti-ia-patterns-catalog.md`. Cada categoría tiene severi
 | 8 | Transiciones Recicladas | P2 | "Además... Por lo tanto..." |
 | 9 | Filler Phrases | P1 | "Es importante señalar que..." |
 | 10 | Construcción "No es X, es Y" | P1 | Dicotomías artificiales |
-| 11 | Uniformidad de Longitud | P2 | Todas las frases ~15 palabras |
-| 12 | Burstiness Baja | P2 | Ritmo monótono |
-| 13 | Hedging Sistemático | P1 | "Podría argumentarse que..." |
-| 14 | Conclusión Genérica | P1 | "el futuro es brillante" |
+| 11 | Construcciones negativas innecesarias | P1 | "No es que... sino que...", "No se trata de... sino de...", "no es... es", "no por... sino por", "preserva su nombre no por... sino por..." |
+| 12 | Uniformidad de Longitud | P2 | Todas las frases ~15 palabras |
+| 13 | Burstiness Baja | P2 | Ritmo monótono |
+| 14 | Hedging Sistemático | P1 | "Podría argumentarse que..." |
 | 15 | Párrafo Rígido | P2 | Tema → evidencia → resumen |
 | 16 | Gerundios Excesivos | P2 | "Analizando..., viendo..." |
 | 17 | Sinónimos Cíclicos | P2 | 3+ sinónimos para mismo concepto |
