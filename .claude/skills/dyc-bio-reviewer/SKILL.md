@@ -421,13 +421,17 @@ falleciendo en 1876 sin reunirse con los santos de Utah.
 
 1. **Menciones de DyC sin contexto**: "Aparece en DyC 35, 37, 40..." sin explicar qué pasa en cada una
 2. **Listados sin narrativa**: simplemente enumerar secciones sin tejer una historia
-3. **Conclusiones genéricas**: "Fue un hombre de fe" sin sustento específico del texto
-4. **Forzamiento de párrafos**: exceder el máximo de 5 párrafos, expandir artificialmente a más párrafos de los que los datos justifican, o condensar en uno solo información que merece más desarrollo
-5. **Orden confuso**: mezclar cronología sin transiciones claras
-6. **Olvidar el anti-IA**: entregar sin la pasada obligatoria
-7. **Biografías truncadas**: terminar en la excomunión/apostasía sin contar el resto de la trayectoria
-8. **Falta de investigación**: no consultar fuentes cuando hay lagunas evidentes
-9. **Narrativa de conflicto incompleta**: mencionar que "se apartó" sin explicar qué hizo después
+3. **Vaguedades en lugar de especificidad**: "el núcleo dirigente", "las autoridades" en lugar de "miembro de la Primera Presidencia", "apóstol", "obispo". Especificar el llamamiento exacto.
+4. **Falta de end-to-end**: biografías que mencionan un evento crucial (como firma de revelación) sin contexto de nacimiento, trayectoria previa ni muerte/legado final
+5. **Reiteraciones innecesarias**: repetir la misma idea con diferentes palabras en el mismo o en párrafos consecutivos ("aprobó y firmó", "testigo institucional", "participación directa" refiriéndose al mismo hecho)
+6. **Obscurecimiento**: usar frases complejas cuando una simple basta ("su vinculación con Doctrina y Convenios lo muestra como testigo institucional" → "firmó la revelación como miembro de la Primera Presidencia")
+7. **Conclusiones genéricas**: "Fue un hombre de fe" sin sustento específico del texto
+8. **Forzamiento de párrafos**: exceder el máximo de 5 párrafos, expandir artificialmente a más párrafos de los que los datos justifican, o condensar en uno solo información que merece más desarrollo
+9. **Orden confuso**: mezclar cronología sin transiciones claras
+10. **Olvidar el anti-IA**: entregar sin la pasada obligatoria
+11. **Biografías truncadas**: terminar en la excomunión/apostasía sin contar el resto de la trayectoria
+12. **Falta de investigación**: no consultar fuentes cuando hay lagunas evidentes
+13. **Narrativa de conflicto incompleta**: mencionar que "se apartó" sin explicar qué hizo después
 
 ## Recursos Relacionados
 
