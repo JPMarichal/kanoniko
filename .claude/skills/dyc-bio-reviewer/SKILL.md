@@ -269,6 +269,12 @@ REPORTE DE REVISIÓN: [Nombre del personaje]
    - [ ] Post-excomunión/apostasía documentada si aplica
    - [ ] Fuentes consultadas para llenar lagunas
    - [ ] Sin narrativas truncadas en el conflicto
+
+10. BIBLIOGRAFÍA
+   - [ ] Fuentes presentes y pertinentes
+   - [ ] Bibliografía cubre la información presentada (si se menciona carrera política, debe haber fuente biográfica)
+   - [ ] Sin padding bibliográfico (fuentes no consultadas)
+   - [ ] LDS Biographical Encyclopedia preferido para datos biográficos
 ```
 
 ### Paso 3: Corrección (si aplica)
@@ -279,6 +285,7 @@ Si hay marcadores ❌:
 3. Expandir menciones someras a DyC con profundidad
 4. Reestructurar párrafos si es necesario
 5. Reemplazar referencias meta del corpus
+6. **Verificar bibliografía**: si se agregó información nueva (carrera política, llamamientos, etc.), asegurar que exista fuente biográfica apropiada (ej: *LDS Biographical Encyclopedia*)
 
 #### Paso 3.5: Investigación de Completitud (si aplica)
 
@@ -432,6 +439,7 @@ falleciendo en 1876 sin reunirse con los santos de Utah.
 11. **Biografías truncadas**: terminar en la excomunión/apostasía sin contar el resto de la trayectoria
 12. **Falta de investigación**: no consultar fuentes cuando hay lagunas evidentes
 13. **Narrativa de conflicto incompleta**: mencionar que "se apartó" sin explicar qué hizo después
+14. **Bibliografía inapropiada**: fuentes que no cubren la información presentada (ejemplo: mencionar carrera política detallada pero solo citar fuentes sobre DyC)
 
 ## Recursos Relacionados
 

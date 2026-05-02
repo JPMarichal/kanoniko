@@ -1,10 +1,11 @@
 # N. Eldon Tanner
 
-N. Eldon Tanner se vincula con la **Declaración Oficial 2:1** de la manera más visible en el texto mismo: fue el hombre que presentó formalmente a la conferencia general la revelación recibida por Spencer W. Kimball sobre la extensión del sacerdocio y de las bendiciones del templo a todos los varones dignos. La declaración lo identifica expresamente como **Primer Consejero de la Primera Presidencia**, y además su nombre queda incorporado a la carta publicada junto al de Spencer W. Kimball y Marion G. Romney. Eso significa que su papel no fue secundario: fue la voz institucional que llevó la revelación desde el ámbito del consejo de los líderes hasta el sostenimiento solemne de la Iglesia reunida.
+N. Eldon Tanner (1898-1982) figura en la **Declaración Oficial 2:1** como el Primer Consejero de la Primera Presidencia que presentó formalmente a la conferencia general la revelación de 1978 sobre la extensión del sacerdocio. Nacido en Salt Lake City, Utah, creció en Alberta, Canadá, donde fue miembro del Parlamento de Alberta (1935-1952) y ministro de educación y provincia. Fue bautizado en 1909, sirvió como obispo y presidente de estaca, y fue llamado como apóstol en 1962. Sirvió como Primer Consejero de la Primera Presidencia desde 1963 hasta su muerte en 1982, primero bajo David O. McKay y luego bajo Spencer W. Kimball.
 
-Las fuentes biográficas lo ubican como uno de los grandes administradores y consejeros de la Iglesia en la década de 1970 y comienzos de 1980. Sirvió en la Primera Presidencia durante cambios importantes y aparece repetidamente al lado de presidentes de la Iglesia en funciones de gobierno y representación. Leído desde esa trayectoria, su intervención en la Declaración Oficial 2 muestra a Tanner actuando exactamente en el terreno donde más peso tenía: el del liderazgo sereno, ejecutivo y leal al profeta.
+Su trayectoria muestra una progresión desde la política canadiense hasta el liderazgo general de la Iglesia: legislador, ministro provincial, apóstol, y finalmente Primer Consejero durante casi dos décadas. Su firma en la revelación de 1978 representa su papel como voz institucional que llevó la revelación desde el consejo de los líderes hasta el sostenimiento solemne de la Iglesia reunida. Murió en 1982 tras servir más de treinta años en los llamamientos de mayor responsabilidad.
 
 ### Bibliografía
+- *LDS Biographical Encyclopedia*, vol. 4.
 - *Official Declarations*.
-- *Boyd K. Packer: A Watchman on the Tower*.
 - *Dynamic Disciples: Spencer W. Kimball*.
+- *Church History and Modern Revelation*, Joseph Fielding Smith.
