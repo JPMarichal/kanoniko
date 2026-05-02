@@ -4,7 +4,7 @@ Wilford Woodruff ocupa un lugar excepcional en **DyC 118:6**, **124:129**, **136
 
 Su historia explica la amplitud de esas referencias. Convertido en 1833 por la predicación de Zera Pulsipher, Woodruff fue misionero incansable en Estados Unidos y en Gran Bretaña, donde vio una cosecha extraordinaria de conversos. Permaneció leal a José Smith en tiempos de tensión interna, participó en la expansión de Nauvoo, volvió a servir en Inglaterra y cruzó las llanuras con los pioneros. Su larga vida lo llevó a ser apóstol, historiador, colonizador, presidente del Quórum de los Doce y finalmente cuarto presidente de la Iglesia restaurada.
 
-La combinación de sus pasajes en Doctrina y Convenios dibuja una trayectoria completa: llamado apostólico, servicio organizador, memoria sagrada entre los grandes de la obra y liderazgo profético en una hora crítica. Woodruff no fue solo un administrador capaz; fue una de las figuras que enlazan la era de José Smith, la colonización del Oeste y la consolidación institucional posterior.
+La combinación de sus pasajes en Doctrina y Convenios dibuja una trayectoria completa: llamado apostólico, servicio organizador, memoria sagrada entre los grandes de la obra y liderazgo profético en una hora crítica. Woodruff fue una de las figuras que enlazan la era de José Smith, la colonización del Oeste y la consolidación institucional posterior, no solo un administrador capaz.
 
 ### Bibliografía
 - *Doctrine and Covenants*.
