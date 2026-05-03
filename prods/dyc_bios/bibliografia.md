@@ -1,0 +1,117 @@
+# Bibliografía Consolidada
+
+Esta bibliografía consolidada contiene 124 entradas.
+
+## Fuentes
+
+- *A Compendium of the Doctrines of the Gospel*.
+- *Autobiography of Parley P. Pratt*.
+- *Biography and Family Record of Lorenzo Snow*, Eliza R. Snow.
+- *Book of John Whitmer*.
+- *Boyd K. Packer: A Watchman on the Tower*.
+- *Brigham Young at Home*, Clarissa Young Spencer y Mabel Harmer.
+- *Brigham Young*, Preston Nibley.
+- *Brigham Young: The Man and His Work*, Preston Nibley.
+- *Church Chronology*, Andrew Jenson.
+- *Church History and Modern Revelation*, Joseph Fielding Smith.
+- *Come, Follow Me* 2025.
+- *Datos biográficos de Amasa M. Lyman*.
+- *Doctrina y Convenios - Manual del alumno*, Sistema Educativo de la Iglesia.
+- *Doctrina y Convenios*, revelaciones recibidas por José Smith 1828-1844.
+- *Doctrine and Covenants Contexts*.
+- *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster y varios autores.
+- *Doctrine and Covenants Historical Resources*.
+- *Doctrine and Covenants Historical Resources: Aaron Johnson*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Almon Babbitt*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Alpheus Cutler*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Asa Dodds*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Brigham Young*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Burr Riggs*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Charles C. Rich*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Chronology*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Daniel Miles*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Daniel Stanton*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: David Dort*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: David Fullmer*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: David W. Patten*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: David Whitmer*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Don Carlos Smith*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Eden Smith*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Edson Fuller*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Edward Partridge*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Elias Higbee*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Emer Harris*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Emma Hale Smith*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Erastus Snow*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Ezra Booth*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Frederick G. Williams*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: George James*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: George Miller*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: George W. Harris*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Gideon Carter*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Henry G. Sherwood*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Hiram Page*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Isaac Galland*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Isaac Morley*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Jacob Scott*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: James Covel*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: James Foster*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Jared Carter*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Jesse Gause*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John A. Hicks*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John C. Bennett*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Corrill*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John E. Page*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Gould*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Johnson*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Murdock*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John S. Carter*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Smith*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Snider (Snyder)*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: John Whitmer*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Joseph Coe*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Historical Resources: Joseph Knight Sr.*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Doctrine and Covenants Reader's Edition*, Thomas A. Wayment.
+- *Doctrine and Covenants Student Manual*.
+- *Doctrine and Covenants*.
+- *Dynamic Disciples*, Francis M. Gibbons (incluye Spencer W. Kimball).
+- *Enseñanzas de los Presidentes de la Iglesia: José Smith*.
+- *Essentials in Church History*.
+- *Ezra Taft Benson*, Sheri Dew.
+- *Far West Record*.
+- *Father of the Prophet: Stories and Insights from the Life of Joseph Smith, Sr.*, Mark L. McConkie.
+- *General Authorities*.
+- *Guide to the Scriptures*.
+- *History of Joseph Smith by His Mother*.
+- *History of the Church*, vol. 7.
+- *Hyrum Smith, Patriarch*, Pearson H. Corbett.
+- *Index to the Triple Combination*.
+- *Joseph Smith Chronology*.
+- *Joseph Smith Papers Project*, documentos primarios de la vida del Profeta.
+- *Joseph Smith Papers: Revelations and Translations*, documentos de DyC 41 y DyC 49.
+- *Joseph Smith Sr.*, Church History Topics, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Joseph Smith*, General Authorities Biographies; Charles D. Tate Jr. y Susan Easton Black.
+- *Joseph Smith’s Kirtland*.
+- *José Smith, el Profeta y Vidente*, Robert L. Millet y Kent P. Jackson.
+- *Kirtland Elders Quorum Record, 1836-1841*.
+- *Latter-day Saint Biographical Encyclopedia*, Andrew Jenson (vol. 1-4).
+- *Lord Needed a Prophet*, Susan Arrington Madsen.
+- *Los primeros años de José*, biografía documentada del corpus de Alejandría.
+- *Lucy Mack Smith, History of Joseph Smith by His Mother*.
+- *Official Declarations*.
+- *Our Heritage*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Regional Studies in Latter-day Saint Church History: Missouri*.
+- *Remembering Joseph*, Lael J. Woodbury.
+- *Revelaciones en contexto* / *Revelations in Context*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Reynolds Cahoon and His Stalwart Sons*.
+- *Sacramental Connections, Deliverance, Redemption, and Safety: D&C 27*.
+- *Saints: The Story of the Church of Jesus Christ*, vol. 2.
+- *Santos: La historia de la Iglesia de Jesucristo en los últimos días*, La Iglesia de Jesucristo de los Santos de los Últimos Días.
+- *Stalwarts of Mormonism*, Preston Nibley.
+- *Susa Young Gates and the Vision of the Redemption of the Dead*, Revelations in Context.
+- *The Autobiography of Parley Parker Pratt*, Parley P. Pratt.
+- *The Book of John Whitmer*, Revelations in Context.
+- *The Life and Ministry of John Taylor*, Teachings of Presidents of the Church.
+- *The Ministry of Joseph F. Smith*, Teachings of Presidents of the Church.
+- *They Knew the Prophet*, Harold Lundstrom; Hyrum L. Andrus y Helen Mae Andrus.
+- *“A Bishop unto the Church”*, *Revelations in Context*.
