@@ -6,7 +6,7 @@ Fue bautizado en junio de 1832, ordenado élder casi inmediatamente y más tarde
 
 Su historia queda también unida a los años más violentos de Misuri. En 1838 formó parte de la presidencia pro tempore de la Iglesia en Far West y participó en los esfuerzos de defensa de los santos frente al creciente conflicto. Poco después fue herido de muerte en el enfrentamiento de Crooked River, episodio que marcó profundamente la memoria de los santos. Su figura une celo apostólico y sacrificio extremo.
 
-La sección 124 recuerda esa pérdida al mencionar a David W. Patten entre aquellos a quienes el Señor ya había tomado para sí. Patten pertenece a la generación de líderes cuya muerte prematura dejó huellas profundas en la estructura y en el ánimo de la Iglesia.
+En **DyC 124:19**, el Señor menciona a Patten como ejemplo de fidelidad: "como recibí a mi siervo David Patten, que está conmigo ahora". En **DyC 124:130**, se declara explícitamente: "a David Patten lo he tomado para mí; he aquí, nadie le quita su sacerdocio". Estas referencias, recibidas en Nauvoo en 1841, confirman su muerte como martirio y preservan su sacerdocio eterno. Patten pertenece a la generación de líderes cuya muerte prematura dejó huellas profundas en la estructura y en el ánimo de la Iglesia.
 
 David W. Patten encarna al apóstol de impulso rápido, servicio intenso y final violento. Su legado es el de un hombre que avanzó con decisión en la predicación y en la defensa de los santos, y cuya vida quedó sellada por la misma turbulencia histórica que ayudó a enfrentar.
 

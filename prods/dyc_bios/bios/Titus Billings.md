@@ -1,8 +1,10 @@
 # Titus Billings
 
-Titus Billings aparece en **DyC 63:39** con una responsabilidad temporal precisa: debía disponer de la tierra que tenía bajo su cuidado para quedar preparado, en la primavera siguiente, para viajar a la tierra de Sion con quienes habitaban en aquella granja. La revelación une así su nombre a un acto concreto de administración y sacrificio material. Se le manda ordenar bienes y propiedades para facilitar el traslado y la edificación de Sion, no simplemente creer o predicar.
+Titus Billings (1792-1860) aparece en **DyC 63:39**, donde se le manda disponer de la tierra bajo su cuidado para viajar a Sion en la primavera siguiente, ordenando bienes y propiedades para facilitar el traslado.
 
-Ese encargo encaja con su trayectoria. Titus Billings fue uno de los primeros conversos de Kirtland, estuvo ligado desde temprano al grupo de Isaac Morley y más adelante fue consejero del obispo Edward Partridge en Misuri. Las fuentes históricas recuerdan también que participó en las pruebas de aquella tierra y siguió sirviendo después en Illinois y en el éxodo al Oeste. Su biografía muestra un hombre de confianza en asuntos temporales y eclesiásticos, capaz de convertir principios de consagración en decisiones materiales reales.
+Se convirtió en 1830 en Kirtland y fue uno de los primeros miembros de esa región. Estuvo asociado con Isaac Morley y más tarde fue consejero del obispo Edward Partridge en Misuri. Participó en las persecuciones de Misuri y en el éxodo a Nauvoo.
+
+Murió el 28 de enero de 1860 en Manti, Utah, después de haber emigrado con los pioneros.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

@@ -1,10 +1,10 @@
 # Dunbar Wilson
 
-Dunbar Wilson, identificado en la fuente local como Lewis Dunbar Wilson (1805-1856), aparece en **Doctrina y Convenios 124:132** entre los miembros del sumo consejo de Nauvoo. Su presencia en esa lista lo sitúa dentro del liderazgo local de la ciudad durante los años de reorganización de la Iglesia en Illinois.
+Lewis Dunbar Wilson (1805-1856) figura en **Doctrina y Convenios 124:132** entre los designados para el sumo consejo de Nauvoo: "...David Dort, Dunbar Wilson...". Esta designación lo incluye en el gobierno de la ciudad en 1841.
 
-Fue bautizado en 1836 y ordenado élder ese mismo año. En 1837 se trasladó a Caldwell County, Misuri; hacia abril de 1839 fue ordenado setenta; y más tarde ese mismo año, ya en Commerce, luego Nauvoo, fue ordenado sumo sacerdote y nombrado miembro del sumo consejo. La secuencia sobre él es breve, pero suficiente para mostrar una incorporación sostenida a responsabilidades de sacerdocio y gobierno local.
+Se bautizó en 1836 y fue ordenado élder ese mismo año. En 1837 se trasladó a Caldwell County, Misuri; en abril de 1839 fue ordenado setenta; y más tarde en 1839, en Commerce y Nauvoo, fue ordenado sumo sacerdote y miembro del sumo consejo.
 
-Después continuó con los santos y emigró al Valle del Lago Salado en 1853. Dunbar Wilson es una figura de servicio estable más que de protagonismo narrativo: uno de los hombres cuyo nombre aparece en la revelación porque formaba parte real de la estructura de liderazgo de Nauvoo.
+Emigró al Valle del Lago Salado en 1853. Su nombre en Doctrina y Convenios documenta su participación en el sumo consejo de Nauvoo.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: Lewis Dunbar Wilson*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

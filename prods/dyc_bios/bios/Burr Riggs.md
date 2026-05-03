@@ -1,10 +1,10 @@
 # Burr Riggs
 
-Burr Riggs fue un médico y botánico de los primeros años de la Iglesia, y su trayectoria quedó marcada por una mezcla de llamamiento, disciplina y retorno al servicio. Su mención más clara en Doctrina y Convenios aparece en **Doctrina y Convenios 75:17**, donde el Señor lo llama, junto con Major N. Ashley, a predicar en la región del sur. Esa referencia lo sitúa entre los élderes movilizados en la expansión misional de comienzos de 1832.
+Burr Riggs fue médico y botánico. Su mención en Doctrina y Convenios está en **Doctrina y Convenios 75:17**, donde el Señor designa a "Burr Riggs y a Major N. Ashley... en la región del sur".
 
-Riggs ya había sido bautizado, ordenado élder y luego sumo sacerdote antes de ese llamamiento. Recibió responsabilidades reales dentro de la Iglesia temprana, pero su historia se complica poco después: fue excomulgado en 1833, pero reinstalado al poco tiempo. Esa restauración no fue puramente formal, porque en 1834 marchó con el Campo de Israel a Misuri y en 1835 volvió a ocupar un lugar importante al ser llamado al Primer Quórum de los Setenta.
+Riggs fue bautizado, ordenado élder y luego sumo sacerdote antes de 1832. Fue excomulgado en 1833 y reinstalado poco después. En 1834 marchó con el Campamento de Israel (Camp of Israel) a Misuri y en 1835 fue llamado al Primer Quórum de los Setenta.
 
-Más adelante volvió a caer en inestabilidad y fue excomulgado otra vez en Quincy en 1839. Su biografía no es la de un simple fracaso temprano, sino la de un hombre que tuvo llamamientos significativos, períodos de corrección severa y también etapas reales de servicio restaurado. Burr Riggs queda en las bios de DyC como ejemplo sobrio de una vida temprana de discipulado en la que coexistieron oportunidad, utilidad e inconsistencia.
+Fue excomulgado nuevamente en Quincy en 1839. Su registro en Doctrina y Convenios documenta un llamamiento misional inicial, restauración tras disciplina, y servicio en los Setenta antes de su separación final de la Iglesia.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: Burr Riggs*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

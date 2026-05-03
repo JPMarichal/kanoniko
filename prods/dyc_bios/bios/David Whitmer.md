@@ -1,14 +1,14 @@
 # David Whitmer
 
-David Whitmer (1805-1888) ocupa un lugar central entre los personajes de Doctrina y Convenios. Su nombre aparece en los encabezados o textos de varias secciones tempranas, entre ellas **Doctrina y Convenios 14, 17, 18, 30 y 52:25**, lo cual refleja su cercanía inmediata a los acontecimientos fundacionales de la Restauración. Fue uno de los Tres Testigos del Libro de Mormón y una de las figuras indispensables en el periodo de traducción y establecimiento de la Iglesia.
+David Whitmer (1805-1888) aparece en **Doctrina y Convenios 14, 17, 18, 30 y 52:25**. Fue uno de los Tres Testigos del Libro de Mormón y testigo de la traducción y organización de la Iglesia.
 
-Ayudó a José Smith en la etapa final de la traducción del Libro de Mormón y, tras su bautismo en 1829, quedó asociado a varias revelaciones dirigidas a él o dadas en un contexto donde su familia desempeñaba un papel decisivo. David Whitmer no es un personaje periférico, sino una de las personas a través de las cuales puede seguirse el paso de la Restauración desde Fayette hasta la organización formal de la Iglesia.
+Ayudó a José Smith en la traducción del Libro de Mormón y, tras su bautismo en 1829, recibió revelaciones dirigidas a él y a su familia en Fayette.
 
-Más adelante, su trayectoria se desplazó hacia Misuri, donde fue llamado a responsabilidades de presidencia local. La referencia de **Doctrina y Convenios 52:25** lo sitúa ya en el movimiento hacia Sion. En 1834 fue sostenido como presidente de la Iglesia en Misuri, antes de perder esa posición en medio de crecientes tensiones internas y externas. Su vida reúne tanto privilegio espiritual temprano como conflictos administrativos posteriores.
+En Misuri fue llamado a responsabilidades de presidencia local. **Doctrina y Convenios 52:25** lo designa para el movimiento hacia Sion. En 1834 fue presidente de la Iglesia en Misuri, antes de perder esa posición por tensiones internas y externas.
 
-El punto más doloroso de su historia fue su ruptura con la Iglesia en 1838. Fue excomulgado ese año y nunca volvió a la plena comunión institucional. En años posteriores se vinculó brevemente con el movimiento de William E. McLellin y, más tarde, fundó la Church of Christ (Whitmerite). Esa trayectoria lo convirtió en una de las figuras más complejas entre los contemporáneos de José Smith.
+Fue excomulgado en 1838 y nunca volvió a la Iglesia. Posteriormente se vinculó con el movimiento de William E. McLellin y fundó la Iglesia de Cristo (Whitmerite). Murió en 1888.
 
-David Whitmer es una figura de enorme peso histórico. Su vida reúne cercanía a la traducción del Libro de Mormón, participación directa en varias revelaciones tempranas, liderazgo en Misuri y una ruptura posterior que alteró decisivamente su relación con la Iglesia que ayudó a fundar. Su nombre deja una impresión fuerte en la lectura de Doctrina y Convenios.
+Su biografía documenta la cercanía a la traducción del Libro de Mormón, la participación en revelaciones tempranas, el liderazgo en Misuri y la ruptura con la Iglesia.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

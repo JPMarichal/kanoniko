@@ -4,7 +4,7 @@ Vienna Jaques aparece en **DyC 90:28-31** en un pasaje notable porque el Señor 
 
 Las fuentes históricas muestran que Vienna era una mujer de fe y de medios económicos considerables que, al obtener un testimonio del evangelio restaurado, viajó a Kirtland y se bautizó. Después entregó una suma importante para ayudar a la Iglesia en sus necesidades tempranas. DyC 90 ordena su sacrificio, protege su viaje y promete que recibirá un lugar estable entre los santos.
 
-Su historia posterior confirma que fue una discípula de larga fidelidad. Se trasladó a Missouri, atendió a enfermos del Campamento de Israel, vivió después en Nauvoo y siguió con los santos hasta Utah. Además, las fuentes la recuerdan vinculada a los primeros testimonios sobre el bautismo por los muertos. Vienna Jaques destaca por encarnar la consagración, el recogimiento y la perseverancia, además de ser una de las pocas mujeres mencionadas por nombre en DyC.
+Su historia posterior confirma que fue una discípula de larga fidelidad. Se trasladó a Missouri, atendió a enfermos del Campamento de Israel (Camp of Israel), vivió después en Nauvoo y siguió con los santos hasta Utah. Además, las fuentes la recuerdan vinculada a los primeros testimonios sobre el bautismo por los muertos. Es una de las pocas mujeres mencionadas por nombre en Doctrina y Convenios.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

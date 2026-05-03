@@ -1,8 +1,10 @@
 # N. Eldon Tanner
 
-N. Eldon Tanner (1898-1982) figura en la **Declaración Oficial 2:1** como el Primer Consejero de la Primera Presidencia que presentó formalmente a la conferencia general la revelación de 1978 sobre la extensión del sacerdocio. Nacido en Salt Lake City, Utah, creció en Alberta, Canadá, donde fue miembro del Parlamento de Alberta (1935-1952) y ministro de educación y provincia. Fue bautizado en 1909, sirvió como obispo y presidente de estaca, y fue llamado como apóstol en 1962. Sirvió como Primer Consejero de la Primera Presidencia desde 1963 hasta su muerte en 1982, primero bajo David O. McKay y luego bajo Spencer W. Kimball.
+N. Eldon Tanner (1898-1982) figura en la **Declaración Oficial 2:1** como el Primer Consejero de la Primera Presidencia que presentó la revelación de 1978 sobre la extensión del sacerdocio.
 
-Su trayectoria muestra una progresión desde la política canadiense hasta el liderazgo general de la Iglesia: legislador, ministro provincial, apóstol, y finalmente Primer Consejero durante casi dos décadas. Su firma en la revelación de 1978 representa su papel como voz institucional que llevó la revelación desde el consejo de los líderes hasta el sostenimiento solemne de la Iglesia reunida. Murió en 1982 tras servir más de treinta años en los llamamientos de mayor responsabilidad.
+Nació en Salt Lake City, Utah, y creció en Alberta, Canadá. Fue miembro del Parlamento de Alberta (1935-1952) y ministro de educación y provincia. Sirvió como obispo y presidente de estaca antes de ser llamado como apóstol en 1962.
+
+Fue Primer Consejero de la Primera Presidencia desde 1963 hasta su muerte, sirviendo bajo David O. McKay y Spencer W. Kimball. Murió el 11 de noviembre de 1982 en Salt Lake City, Utah.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, vol. 4.

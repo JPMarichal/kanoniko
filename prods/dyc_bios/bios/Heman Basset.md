@@ -1,10 +1,10 @@
 # Heman Basset
 
-Heman Basset, también registrado como Heman Bassett, aparece en **Doctrina y Convenios 52:37** como un transgresor a quien se le quita lo que antes le había sido conferido para darlo a Simonds Ryder. Esa sola mención lo sitúa entre los primeros casos explícitos de corrección y desplazamiento dentro de la Iglesia naciente.
+Heman Basset, también registrado como Heman Bassett, aparece en **Doctrina y Convenios 52:37**, donde el Señor declara: "Y también élderes de veinticuatro... a Heman Basset se le quitará lo que le ha sido conferido, y se le dará a Simonds Ryder".
 
-Bassett había participado en algunas de las actividades espirituales desordenadas de Kirtland y afirmaba haber recibido revelaciones de ángeles. Su caso quedó así asociado muy pronto con la incapacidad de discernir entre manifestaciones verdaderas y falsas. Después de eso prácticamente desaparece del registro histórico publicado.
+Bassett había participado en actividades espirituales desordenadas de Kirtland y afirmaba haber recibido revelaciones de ángeles. Después de 1831 desaparece del registro histórico.
 
-Su presencia en Doctrina y Convenios es breve, pero útil: recuerda que el crecimiento temprano de la Iglesia no sólo estuvo marcado por conversión y llamamientos, sino también por inestabilidad doctrinal y personal entre algunos de sus primeros participantes.
+Su mención en Doctrina y Convenios documenta un caso temprano de corrección y desplazamiento en la Iglesia naciente.
 
 ### Bibliografía
 - *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.

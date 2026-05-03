@@ -1,14 +1,12 @@
 # David Dort
 
-David Dort (1793-1841) es uno de los hombres mencionados en **Doctrina y Convenios 124:132** para integrar el sumo consejo de Nauvoo, un llamamiento que lo ubica entre los líderes locales de confianza en la ciudad donde los santos intentaban reconstruirse después de las expulsiones de Misuri. Su nombre aparece junto al de otros dirigentes que debían sostener el orden de la comunidad y del sacerdocio en un momento delicado.
+David Dort (1793-1841) figura en **Doctrina y Convenios 124:132** entre los designados para el sumo consejo de Nauvoo: "a saber, Samuel Bent, Henry G. Sherwood... David Dort, Dunbar Wilson...". Esta designación lo incluye en el gobierno de la ciudad en 1841.
 
-Fue un converso de 1831 que fue adquiriendo responsabilidades cada vez mayores. Participó en el Campamento de Israel en 1834 y más tarde sirvió en sumos consejos tanto en Kirtland como en Far West antes de su traslado a Nauvoo. Esa continuidad ayuda a entender por qué en DyC 124 no es llamado a una tarea inicial, sino a una función de gobierno ya madura.
+Se bautizó en 1831, participó en el Campamento de Israel (Camp of Israel) en 1834 y sirvió en sumos consejos en Kirtland y Far West antes de trasladarse a Nauvoo.
 
-Su historia también lo vincula con el entorno familiar de los Smith, pues estuvo casado con Mary Mack, prima de José Smith, y después con Fanny Mack. Ese dato ayuda a ubicarlo en el círculo social de la Iglesia temprana, pero el centro de su biografía sigue estando en su servicio continuado en Kirtland, Far West y Nauvoo.
+Estuvo casado con Mary Mack, prima de José Smith, y después con Fanny Mack. Murió en Nauvoo en 1841.
 
-El hecho de que muriera en Nauvoo en 1841 hace que su nombramiento en DyC 124 tenga un matiz particular. No se trata del inicio de una larga carrera posterior en el Oeste, sino de uno de los últimos testimonios escriturarios de la confianza depositada en él antes de su muerte. Su referencia tiene algo de confirmación final dentro del registro de Doctrina y Convenios.
-
-David Dort se perfila como un hombre de consejo y estabilidad más que de protagonismo público. Su legado es el de haber acompañado a los santos en varias de sus etapas más difíciles y de haber sido hallado digno de servir en órganos de gobierno sucesivos hasta el final de su vida.
+Su biografía documenta el servicio en órganos de gobierno desde Kirtland hasta su muerte en Nauvoo en 1841.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

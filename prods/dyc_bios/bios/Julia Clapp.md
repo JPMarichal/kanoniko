@@ -6,4 +6,4 @@ Julia Clapp ocupa un lugar en la memoria de los primeros santos porque su vida e
 
 ### Bibliografía
 - *Doctrine and Covenants Reader's Edition*, Thomas A. Wayment.
-- *Encyclopedia of Mormonism*, entrada sobre Emma Hale Smith.
+- *Doctrine and Covenants Historical Resources: John Murdock*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

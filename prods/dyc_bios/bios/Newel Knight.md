@@ -1,8 +1,10 @@
 # Newel Knight
 
-Newel Knight aparece en **DyC 52:32**, **DyC 54:2**, **DyC 56:6-7** y **DyC 124:132**, y esos pasajes permiten seguirlo a través de varias etapas de la Iglesia temprana. En DyC 52 se le ordena y se le envía a predicar. En DyC 54 el Señor le manda mantenerse firme en el oficio que ya había recibido en medio de la crisis causada por la ruptura del convenio en Thompson. En DyC 56 se revoca un compañerismo previo para que Newel Knight permanezca con los santos contritos y los conduzca hacia Misuri. En DyC 124 reaparece muchos años después como integrante del alto consejo para la piedra angular de Sion en Nauvoo. Su papel en Doctrina y Convenios trasciende una aparición pasajera: figura como dirigente de grupo, hombre de confianza en la migración y servidor duradero.
+Newel Knight (1800-1847) aparece en **DyC 52:32**, **54:2**, **56:6-7** y **124:132**. En **DyC 52:32** es ordenado y enviado a predicar; en **DyC 54:2** recibe el mandato de mantenerse firme durante la crisis de Thompson; en **DyC 56:6-7** se le asigna conducir a los santos contritos hacia Misuri; y en **DyC 124:132** figura como miembro del alto consejo de Nauvoo.
 
-Su biografía encaja con ese retrato. Fue uno de los primeros conversos del entorno de Colesville, experimentó una liberación poderosa en los inicios de la Restauración, acompañó al Profeta en momentos de persecución y dirigió a la rama de Colesville en su traslado hacia Ohio y luego Misuri. Pasó por expulsiones, enfermedad, duelo y exilio, pero siguió identificado con la causa hasta su muerte en el campamento de los santos rumbo al oeste. Newel Knight representa la fidelidad resistente de los santos tempranos: creyeron y guiaron a otros en medio de la aflicción.
+Nació en Marlborough, Vermont. Se convirtió en 1830 en Colesville, Nueva York, siendo uno de los primeros bautizados de esa región. Experimentó una liberación espiritual notable en los primeros días de la Restauración, documentada en las fuentes históricas.
+
+Acompañó a José Smith durante las persecuciones en Nueva York y dirigió a la rama de Colesville durante su traslado a Ohio y luego a Misuri. Presidió la rama en Kaw Township, Misuri, y enfrentó las persecuciones de 1833. Murió el 11 de enero de 1847 en el campamento de Winter Quarters, Nebraska, mientras los santos se preparaban para el éxodo a Utah.
 
 ### Bibliografía
 - *Latter-day Saint Biographical Encyclopedia*, Andrew Jenson.

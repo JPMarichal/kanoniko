@@ -1,10 +1,10 @@
 # Ezra Thayre
 
-Ezra Thayre se unió a la Iglesia en 1830 y muy pronto fue contado entre los primeros élderes llamados al ministerio. **Doctrina y Convenios 33** lo llama junto con Northrop Sweet a declarar el evangelio y predicar el arrepentimiento. Más tarde vuelve a aparecer en **Doctrina y Convenios 52:22** entre quienes debían viajar a Misuri, y en **Doctrina y Convenios 75:31** ligado a Thomas B. Marsh.
+Ezra Thayre se unió a la Iglesia en 1830. En **Doctrina y Convenios 33:3-4**, la revelación designa: "Y también élderes de doce... Ezra Thayre y Northrop Sweet". Aparece en **Doctrina y Convenios 52:22** y en **Doctrina y Convenios 75:31** ligado a Thomas B. Marsh.
 
-Su historia temprana también incluye una reprensión directa. **Doctrina y Convenios 56:8** le manda arrepentirse de su orgullo y egoísmo, después de haber fallado en obedecer una asignación previa. Aun así, aparece luego en el Campamento de Sion, en el Primer Quórum de los Setenta y en el sumo consejo de Adam-ondi-Ahman.
+En **Doctrina y Convenios 56:8** el Señor reprende: "Arrepentíos del orgullo y de la costumbre de tener vuestras manos estrechamente cerradas". Participó en el Campamento de Israel (Camp of Israel), el Primer Quórum de los Setenta y el sumo consejo de Adam-ondi-Ahman.
 
-Su trayectoria posterior fue irregular y terminó fuera de la Iglesia. Ezra Thayre es una figura representativa de los primeros años de la Restauración: un hombre que recibió llamamientos reales, correcciones severas y oportunidades concretas de servicio dentro del núcleo inicial del movimiento.
+Su trayectoria posterior fue irregular y terminó fuera de la Iglesia. Su biografía documenta llamamientos revelados, correcciones y servicio en los primeros años de la Restauración.
 
 ### Bibliografía
 - *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.

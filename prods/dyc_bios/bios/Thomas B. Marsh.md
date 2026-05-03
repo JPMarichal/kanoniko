@@ -1,12 +1,12 @@
 # Thomas B. Marsh
 
-Thomas B. Marsh aparece en **DyC 31**, **52:22**, **56:5**, **75:31** y **112:16-17** como una de las figuras más importantes y complejas del liderazgo temprano de la Iglesia. En **DyC 31** el Señor reconoce sus aflicciones familiares, le anuncia que la hora de su misión ha llegado, le manda declarar las revelaciones dadas a José Smith y hasta lo designa como médico para la Iglesia. Después vuelve a aparecer enviado a Missouri, unido en la predicación con Ezra Thayre y, más tarde, investido con las llaves del reino en lo que toca a los Doce entre todas las naciones. Estas referencias lo muestran como misionero, pastor, líder y poseedor de responsabilidad apostólica, no como un élder más.
+Thomas B. Marsh (1799-1866) figura en **DyC 31**, **52:22**, **56:5**, **75:31** y **112:16-17**. En **DyC 31** el Señor reconoce sus aflicciones familiares, le anuncia que la hora de su misión ha llegado, le manda declarar las revelaciones dadas a José Smith y lo designa como médico para la Iglesia. En **DyC 52:22** es enviado a Missouri; en **DyC 75:31** es unido en la predicación con Ezra Thayre; y en **DyC 112:16-17** es investido con las llaves del reino en lo que toca a los Doce entre todas las naciones.
 
-El retrato se entiende a la luz de su historia. Marsh fue uno de los primeros en interesarse por el Libro de Mormón antes incluso de que estuviera completo en imprenta, se unió a la Iglesia en 1830, fue ordenado élder y luego sumo sacerdote, viajó a Ohio y Missouri, y acabó siendo el primer presidente del Quórum de los Doce Apóstoles después de la Restauración. DyC 112, al declararlo portador de las llaves correspondientes a los Doce, encaja con esa trayectoria ascendente.
+Nació en Henniker, Nuevo Hampshire. Se interesó por el Libro de Mormón antes de su publicación completa, se unió a la Iglesia en 1830 y fue ordenado élder. Posteriormente fue llamado como sumo sacerdote y viajó a Ohio y Missouri como pionero de la expansión de la Iglesia.
 
-Sin embargo, su vida también quedó marcada por una caída severa. Las mismas fuentes que lo muestran como pionero del apostolado restaurado recuerdan que se apartó durante la crisis de Misuri, fue excomulgado en 1839 y no regresó a la Iglesia hasta muchos años después. Esa tensión hace su biografía especialmente instructiva: Doctrina y Convenios conserva tanto la dignidad excepcional de su llamamiento como la seriedad de la responsabilidad que ese llamamiento implicaba.
+En 1835 fue designado como el primer presidente del Quórum de los Doce Apóstoles, convirtiéndose en portador de las llaves correspondientes a ese quórum. Durante este período dirigió la expansión misional de la Iglesia en múltiples frentes.
 
-Thomas B. Marsh no es una figura menor ni un caso de fracaso. Es un recordatorio de que en la Restauración algunos hombres recibieron encargos extraordinarios, y de que la grandeza del llamamiento no eliminaba la necesidad de perseverar fielmente hasta el fin.
+Se apartó durante la crisis de Misuri en 1838, fue excomulgado en 1839 y permaneció fuera de la Iglesia durante casi dos décadas. Regresó mediante bautismo en 1857, y falleció el 3 de febrero de 1866 en Spanish Fork, Utah, habiendo reconciliado su relación con la Iglesia.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

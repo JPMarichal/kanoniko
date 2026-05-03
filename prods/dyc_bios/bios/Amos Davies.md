@@ -1,10 +1,10 @@
 # Amos Davies
 
-Amos Davies, más conocido en las fuentes inglesas como Amos Davis, aparece en Doctrina y Convenios dentro del esfuerzo por edificar Nauvoo como centro religioso, cívico y económico de los santos. Su mención principal está en **Doctrina y Convenios 124:111**, donde el Señor le manda aportar acciones para la Nauvoo House, el proyecto destinado a recibir huéspedes y servir a la obra del Señor.
+Amos Davies, documentado en las fuentes inglesas como Amos Davis, aparece en Doctrina y Convenios en **Doctrina y Convenios 124:111**, donde el Señor ordena: "Y además, de cierto os digo, compre acciones mi siervo Amos Davies de aquellos que he nombrado para construir una casa de alojamiento, que es el Mesón de Nauvoo".
 
-Esa referencia encaja con el perfil que dejan las fuentes históricas: Davis fue uno de los comerciantes más visibles de Commerce y después de Nauvoo, con negocios establecidos incluso antes de la llegada masiva de los santos. Su contribución a la ciudad fue material y económica. La historia de Nauvoo dependió también de personas con propiedades, tienda, capital y capacidad para sostener la vida diaria de la comunidad.
+Davis fue comerciante en Commerce y Nauvoo, con negocios establecidos antes de la llegada de los santos. Su presencia en la revelación refleja el papel de los comerciantes locales en el sostenimiento económico de la ciudad.
 
-En **Doctrina y Convenios 124:112-113**, el Señor le manda escuchar el consejo de José Smith y trabajar con sus propias manos para ganar la confianza de los hombres, prometiéndole más si demostraba fidelidad. Amos Davis queda en las bios de DyC como una figura ligada a la Nauvoo House y al costado temporal de Sion, pero también como ejemplo de que el Señor exigía a esos hombres no sólo recursos, sino obediencia y humildad en el uso de sus mayordomías.
+En **Doctrina y Convenios 124:112-113**, la revelación continúa: "Haga él esto si quiere tener parte; y escuche el consejo de mi siervo José y trabaje con sus propias manos para ganarse la confianza de los hombres". Estos versículos vinculan a Davis al proyecto de la Nauvoo House y subrayan la expectativa de obediencia práctica junto con la contribución económica.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

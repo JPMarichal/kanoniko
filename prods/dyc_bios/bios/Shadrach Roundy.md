@@ -1,10 +1,10 @@
 # Shadrach Roundy
 
-Shadrach Roundy aparece en **DyC 124:141** entre los hombres dados para presidir sobre el obispado, si estaba dispuesto a recibir ese llamamiento. La referencia lo coloca en un marco de gobierno temporal y eclesiástico, no de predicación ocasional. En la organización de Nauvoo, ese versículo lo ubica entre los siervos llamados a sostener el orden práctico de la Iglesia.
+Shadrach Roundy (1789-1872) aparece en **DyC 124:141** entre los hombres dados para presidir sobre el obispado. La referencia lo coloca en el marco de gobierno temporal de Nauvoo.
 
-Otras fuentes amplían su perfil. La enciclopedia lo recuerda después como pionero original de Utah y como obispo de la 16th Ward en Salt Lake City. Otras memorias históricas lo muestran aportando bienes para la familia de José Smith y actuando con lealtad en la protección personal del Profeta. Esos detalles perfilan a Roundy como un hombre de confianza, útil en la administración y en el servicio concreto.
+Se bautizó en 1831 en Ohio y participó en las persecuciones de Misuri. En Nauvoo, formó parte del cuerpo de obispos y apoyó a la familia de José Smith.
 
-Su mención en DyC 124 no es un nombramiento vacío. Encaja con la imagen de un santo dispuesto a sostener la obra en lo material, lo institucional y los momentos de peligro. Roundy pertenece al tipo de líderes que ayudaron a trasladar la fidelidad de Nauvoo al mundo pionero del Oeste.
+Fue pionero de Utah en 1847, formando parte del primer grupo de pioneros que entraron al Valle del Lago Salado. Sirvió como obispo de la 16ta Barrio en Salt Lake City desde 1849 hasta su muerte el 4 de julio de 1872.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

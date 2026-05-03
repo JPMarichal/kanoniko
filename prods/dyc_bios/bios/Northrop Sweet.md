@@ -1,8 +1,10 @@
 # Northrop Sweet
 
-Northrop Sweet aparece en **DyC 33** desde su mismo encabezado, junto a Ezra Thayre, como destinatario de una revelación de llamamiento. El texto lo manda a abrir la boca, declarar el evangelio, predicar arrepentimiento y bautismo, y salir a segar en un campo que ya está blanco para la cosecha. Su relación con Doctrina y Convenios es la de uno de los primeros obreros convocados directamente por nombre para anunciar que el reino de los cielos estaba cerca.
+Northrop Sweet (1800-1875) aparece en el encabezado de **DyC 33**, junto a Ezra Thayre, como destinatario de una revelación de llamamiento en febrero de 1831. El texto lo manda a "abrir la boca y declarar el evangelio", predicar arrepentimiento y bautismo, y salir a segar en un campo blanco para la cosecha.
 
-En las fuentes disponibles su huella es breve, pero suficiente para entender por qué fue recordado. Sweet pertenece a ese primer círculo de conversos; su relevancia histórica viene de haber recibido una comisión revelada en los meses iniciales de la Iglesia. DyC 33 conserva la dignidad de su momento: fue uno de los hombres a quienes el Señor llamó personalmente a predicar en la hora temprana de la Restauración.
+Se unió a la Iglesia en los primeros meses de 1831 en Ohio. Recibió una comisión revelada directamente por nombre para predicar el evangelio en la hora temprana de la Restauración. Sirvió como misionero en los estados del este.
+
+Su permanencia en la Iglesia fue breve; se apartó en 1832. Vivió en Ohio y murió en 1875 sin reunirse con los santos de Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

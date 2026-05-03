@@ -1,10 +1,12 @@
 # Orson Hyde
 
-Orson Hyde queda retratado en **DyC 68:1-3**, **75:13**, **100:14**, **102:3, 34**, **103:40** y **124:129** como uno de los grandes misioneros y dirigentes de la primera generación de la Restauración. Doctrina y Convenios lo presenta predicando por el Espíritu, siendo enviado a misión, recibiendo promesa de salvación si permanecía obediente, participando en el sumo consejo de Kirtland y, más adelante, figurando entre los Doce. Sus pasajes lo muestran como un hombre de confianza en la predicación, en el gobierno de la Iglesia y en las asignaciones difíciles, no de forma incidental.
+Orson Hyde (1805-1878) figura en **DyC 68:1-3**, **75:13**, **100:14**, **102:3, 34**, **103:40** y **124:129**. En **DyC 68:1-3** es llamado a predicar sin jactancia ni necedad; en **DyC 75:13** se le asigna una compañía misional; en **DyC 100:14** participa en la organización del Campamento de Israel (Camp of Israel); y en **DyC 124:129** figura entre los Doce Apóstoles.
 
-La secuencia de esas referencias deja ver progresión. Hyde fue útil en una misión concreta y permaneció disponible para encargos sucesivos conforme la Iglesia crecía en complejidad. DyC lo presenta en la predicación, en el gobierno eclesiástico y entre los Doce: un dirigente móvil y probado, capaz de servir tanto en la expansión del mensaje como en la consolidación institucional de la Iglesia.
+Se convirtió a la Iglesia en 1831 y fue ordenado apóstol en 1835 como uno de los miembros originales del Quórum de los Doce. Sirvió como misionero en Estados Unidos y en el extranjero.
 
-Las fuentes biográficas encajan bien con ese retrato. El élder Hyde fue uno de los apóstoles originales de esta dispensación, sirvió en numerosas misiones y llegó a dedicar Jerusalén en 1841 para el recogimiento de Judá. Su biografía deja ver una combinación poco común de movilidad, obediencia y capacidad de liderazgo. Cuando DyC lo sitúa siendo llamado a misiones, consejos y quórumes, registra la trayectoria de un apóstol que ayudó a extender y consolidar la obra en momentos decisivos. Hyde sirvió hasta su muerte en 1878 en Utah, dejando un legado de dedicación misional.
+En 1841 cumplió una misión histórica al dedicar Jerusalén para la restauración de los judíos, cumpliendo la profecía de DyC. Esta dedicación en el Monte de los Olivos fue un evento significativo en la expansión de la Iglesia.
+
+Continuó sirviendo como apóstol durante el éxodo hacia Utah y las primeras décadas del establecimiento de los santos en el oeste. Murió el 28 de noviembre de 1878 en Spring City, Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

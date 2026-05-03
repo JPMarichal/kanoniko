@@ -1,8 +1,10 @@
 # Solomon Hancock
 
-Solomon Hancock aparece en **DyC 52:27** entre los élderes enviados a Missouri con una instrucción clara: debía viajar con Simeon Carter y predicar por el camino hacia la tierra señalada. El pasaje lo presenta como uno de los obreros del primer impulso misional hacia Sion, no como figura de controversia ni administrador. Su lugar en Doctrina y Convenios queda ligado a la movilidad, la predicación y la obediencia al llamamiento revelado.
+Solomon Hancock (1797-1845) aparece en **DyC 52:27** entre los élderes enviados a Missouri, donde debía viajar con Simeon Carter predicando por el camino.
 
-La información biográfica disponible encaja con ese perfil. Hancock fue bautizado en Ohio en 1830, para junio de 1831 ya había sido ordenado élder y sumo sacerdote, y más adelante vivió en Jackson County, integró el sumo consejo de Sion en Clay County y volvió a servir en misión al este de los Estados Unidos. Incluso una fuente doctrinal sobre DyC 59–62 recuerda que él estuvo entre los misioneros fieles que bautizaron a más de cien personas en el trayecto. Eso lo muestra como uno de los hombres que ayudaron a abrir camino mientras la Iglesia se trasladaba y se organizaba, no solo como un nombre en una lista.
+Se bautizó en Ohio en 1830 y fue ordenado élder y sumo sacerdote en 1831. Vivió en Jackson County, integró el sumo consejo de Sion en Clay County y sirvió en misiones al este de los Estados Unidos. Los registros indican que bautizó a más de cien personas durante sus misiones.
+
+Falleció el 2 de diciembre de 1845 en Nauvoo, Illinois, poco antes de la partida de los santos hacia el oeste.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

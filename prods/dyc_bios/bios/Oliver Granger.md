@@ -1,8 +1,10 @@
 # Oliver Granger
 
-Oliver Granger queda ligado a **DyC 117:12-15** por una encomienda que parece modesta en comparación con otros llamamientos, pero que el Señor eleva de manera extraordinaria. En esa revelación se dice que su nombre sería tenido en sagrada memoria de generación en generación, se le manda contender seriamente por la redención de la Primera Presidencia y se declara que su sacrificio sería más sagrado para Dios que su aumento. Doctrina y Convenios lo recuerda por asumir trabajos difíciles de lealtad, gestión y reparación en beneficio de la presidencia de la Iglesia, no por discursos públicos ni por un cargo espectacular.
+Oliver Granger (1794-1841) figura en **DyC 117:12-15**, donde se dice que su nombre sería tenido en sagrada memoria, se le manda contender por la redención de la Primera Presidencia, y se declara que su sacrificio sería sagrado para Dios.
 
-Esa es la fuerza de su biografía. Granger representa a los siervos cuya importancia está en la confiabilidad, no en la notoriedad. DyC 117 deja ver que estaba ligado a asuntos financieros y administrativos complejos relacionados con Kirtland, y que el Señor valoraba ese tipo de servicio silencioso. Entre las biografías de DyC, la suya destaca porque enseña que la memoria sagrada también alcanza a quienes sostienen la obra mediante sacrificios visibles y decisivos.
+Nació en New York. Se bautizó en 1832 y fue ordenado élder. Fue encargado de asuntos financieros y administrativos complejos relacionados con Kirtland, trabajando en la gestión de deudas y reparaciones en beneficio de la Primera Presidencia.
+
+Su servicio fue de naturaleza administrativa y financiera, más que de predicación pública. Murió el 25 de agosto de 1841 en Kirtland, Ohio.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

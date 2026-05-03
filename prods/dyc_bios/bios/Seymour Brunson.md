@@ -1,10 +1,10 @@
 # Seymour Brunson
 
-Seymour Brunson aparece en **DyC 75:33** y **124:132** en dos momentos muy distintos de la historia de la Iglesia. En la primera referencia se le une en el ministerio con Daniel Stanton, dentro de los compañerismos enviados a predicar. En la segunda, su nombre aparece en la lista del sumo consejo de la piedra angular de Sion, pero con una nota singular: el Señor declara que Seymour Brunson ya había sido tomado para sí. Doctrina y Convenios conserva su servicio en vida y la memoria de su ausencia después de su muerte.
+Seymour Brunson (1798-1840) aparece en **DyC 75:33** y **124:132**. En **DyC 75:33** se le une en el ministerio con Daniel Stanton; en **DyC 124:132** figura en el sumo consejo de Nauvoo con una nota indicando que ya había fallecido.
 
-Las fuentes biográficas muestran que Brunson fue uno de los primeros élderes, misionero en varios estados, sobreviviente de las persecuciones de Misuri y luego miembro del sumo consejo de Nauvoo. Su trayectoria une predicación, desplazamiento con los santos y servicio de liderazgo en una de las etapas más delicadas de consolidación de la Iglesia, no fue solo un nombre administrativo.
+Fue bautizado en 1831 en New York y ordenado élder. Sirvió como misionero en Ohio, Misuri y otros estados. Sobrevivió las persecuciones de Jackson County en 1833 y se estableció en Nauvoo, donde fue llamado al sumo consejo en 1841.
 
-Su muerte adquirió un lugar doctrinal especial en la memoria de los santos. Un manual recuerda que, en el funeral de Seymour Brunson en agosto de 1840, José Smith enseñó públicamente verdades vinculadas a la salvación de los muertos. Su biografía trasciende la nota necrológica: su fallecimiento quedó conectado a una expansión decisiva de la comprensión doctrinal de la Iglesia.
+Murió el 10 de agosto de 1840 en Nauvoo, Illinois. En su funeral, José Smith enseñó sobre la salvación de los muertos, un evento que condujo a la revelación de DyC 127 y 128 sobre el bautismo vicario.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

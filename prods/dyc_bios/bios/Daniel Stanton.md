@@ -1,14 +1,14 @@
 # Daniel Stanton
 
-Daniel Stanton (1795-1872) aparece en **Doctrina y Convenios 75:33** como compañero misional de Seymour Brunson, dentro de una revelación que distribuye a diversos élderes por parejas para predicar el evangelio. Su presencia en ese pasaje lo ubica entre los primeros obreros enviados por mandato revelado en los años formativos de la Iglesia.
+Daniel Stanton (1795-1872) figura en **Doctrina y Convenios 75:33**, donde la revelación designa: "también mis siervos Daniel Stanton y Seymour Brunson".
 
-Se unió a la Iglesia en 1830 y durante poco tiempo recibió varias ordenaciones: sacerdote, élder y sumo sacerdote. Ese rápido crecimiento en responsabilidades explica que en 1832 fuera considerado apto para una misión formal bajo dirección revelada. La revelación no lo introduce de manera aislada, sino dentro de un proceso de preparación ya en curso.
+Se unió a la Iglesia en 1830 y recibió ordenaciones como sacerdote, élder y sumo sacerdote. En 1832 fue llamado a misión junto con Seymour Brunson.
 
-Después de su llamamiento misional, Stanton siguió vinculado a escenarios importantes de la historia de la Iglesia. Residió en el condado de Jackson, fue puesto a velar por una rama en Independence y más tarde integró el sumo consejo de Adam-ondi-Ahman durante el difícil periodo de 1838 en Misuri. Su servicio no terminó con DyC 75, sino que continuó a través de responsabilidades pastorales y administrativas.
+Residió en el condado de Jackson, veló por una rama en Independence e integró el sumo consejo de Adam-ondi-Ahman en 1838 en Misuri.
 
-Tras la expulsión de Misuri, Stanton volvió a servir en Illinois y luego en Utah. Perseveró a través de los desplazamientos y siguió colaborando en la organización de los santos, incluso en etapas tardías de asentamiento en Utah. Su historia no está dominada por un solo episodio espectacular, sino por la persistencia.
+Tras la expulsión de Misuri, sirvió en Illinois y luego en Utah, colaborando en la organización de los santos durante décadas.
 
-Daniel Stanton representa al discípulo que recibe un llamamiento temprano y continúa siendo útil a lo largo de décadas de prueba y asentamiento. Su nombre en **Doctrina y Convenios 75:33** es el punto de partida escriturario de una vida larga de servicio en la Restauración.
+Su nombre en **Doctrina y Convenios 75:33** documenta el inicio de su servicio misional en 1832, que continuó durante décadas en la Restauración.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

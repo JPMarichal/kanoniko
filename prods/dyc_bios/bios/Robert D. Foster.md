@@ -1,8 +1,10 @@
 # Robert D. Foster
 
-Robert D. Foster aparece en **DyC 124:115-118** en un tono a la vez práctico y correctivo. Allí se le manda construir una casa para José Smith según el convenio hecho, arrepentirse de su necedad, revestirse de caridad, dejar sus palabras duras y aportar también para el Nauvoo House. La revelación es importante porque muestra que, en ese momento, todavía se le extendía confianza y se le abría un camino de cooperación y rectificación dentro del proyecto de Nauvoo.
+Robert D. Foster (1811-1847) aparece en **DyC 124:115-118**. En **DyC 124:115-117** se le manda construir una casa para José Smith según contrato y comprar acciones para el Nauvoo House. En **DyC 124:116** se le instruye: "Arrepiéntase de toda su necedad, y vístase de caridad". La "necedad" se refería aparentemente a su incumplimiento de compromisos contractuales y comportamiento rebelde hacia el liderazgo.
 
-El interés biográfico de Foster radica en el contraste con lo que vino después. Otras fuentes lo muestran antes como médico que acompañó y asistió a Sidney Rigdon durante el viaje de los líderes a Washington, pero más tarde como uno de los disidentes excomulgados en 1844 y ligado a las conspiraciones contra José Smith. El lenguaje de DyC 124 resulta solemne: la revelación conserva una oportunidad de arrepentimiento y servicio que él no sostuvo.
+Nació en Braunston, Northamptonshire, Inglaterra. Se bautizó antes de octubre de 1839 y fue ordenado élder. Acompañó a Sidney Rigdon durante el viaje de los líderes a Washington D.C. (1839-1840) como médico personal, buscando compensación por las pérdidas de Misuri.
+
+Fue excomulgado el 18 de abril de 1844 por "inmoralidad y apostasía" después de que José Smith lo acusara formalmente ante el Sumo Consejo de Nauvoo por: difamar el carácter del Profeta, mentir, conspirar contra su paz, seguridad y vida. Fue uno de los siete publicadores del *Nauvoo Expositor* (7 de junio de 1844) y trabajó activamente contra José Smith hasta el martirio. Murió en 1847 en Estados Unidos.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

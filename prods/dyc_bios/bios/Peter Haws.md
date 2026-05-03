@@ -1,8 +1,10 @@
 # Peter Haws
 
-Peter Haws queda ligado a **DyC 124:62, 70** por una responsabilidad muy concreta en el proyecto del Nauvoo House. La revelación lo coloca junto con George Miller, Lyman Wight y John Snider en el grupo que debía organizarse para levantar esa casa, ordenar la recepción de acciones y administrar esos recursos exclusivamente para ese fin. Doctrina y Convenios no lo presenta como una figura de discurso o de visibilidad pública, sino como un colaborador al que se le confía administración, orden y fidelidad en una obra material importante para Nauvoo.
+Peter Haws (1800-1852) aparece en **DyC 124:62, 70** como miembro del grupo encargado de organizar la construcción de la Casa de Nauvoo, ordenar la recepción de acciones y administrar los recursos.
 
-Las pocas noticias adicionales disponibles mantienen ese mismo perfil. Peter Haws aparece asociado a esfuerzos para conseguir recursos para el templo y el Nauvoo House, y más tarde también vinculado a misiones con dirigentes como George Miller. Su biografía enseña algo valioso: la edificación de Sion no dependió solo de predicadores famosos, sino también de hombres encargados de tareas organizativas y financieras sin las cuales la obra pública de la Iglesia no podía sostenerse.
+Nació en Canadá. Se bautizó en 1833 y sirvió en Ohio y Nauvoo. Trabajó en la obtención de recursos para el templo y la Casa de Nauvoo, y participó en misiones con dirigentes como George Miller.
+
+Su servicio se centró en tareas organizativas y financieras para la Iglesia. Murió en 1852 en Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

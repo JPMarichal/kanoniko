@@ -1,14 +1,14 @@
 # Don C. Smith
 
-Don Carlos Smith, citado con frecuencia como Don C. Smith, aparece en **Doctrina y Convenios 124:133** como presidente de un cuórum de sumos sacerdotes en Nauvoo. Aunque su cercanía familiar con José Smith es conocida, la revelación lo presenta sobre todo como un obrero con responsabilidades reales dentro de la Iglesia.
+Don Carlos Smith, citado como Don C. Smith, figura en **Doctrina y Convenios 124:133**, donde el Señor declara: "Además, os nombro a Don C. Smith para ser presidente de un cuórum de sumos sacerdotes".
 
-Fue hermano menor de José Smith, bautizado en 1830 y muy pronto involucrado en esfuerzos misionales y editoriales. En Kirtland trabajó en la imprenta, sirvió misiones y llegó a presidir el cuórum de sumos sacerdotes, una responsabilidad que más tarde continuó en Nauvoo. La designación de DyC 124 fue coherente con un historial previo de servicio disciplinado y útil.
+Fue hermano menor de José Smith, bautizado en 1830. En Kirtland trabajó en la imprenta, sirvió misiones y presidió el cuórum de sumos sacerdotes, responsabilidad que continuó en Nauvoo.
 
-Entre 1839 y 1841 ayudó a editar y publicar el *Times and Seasons*, además de ocupar cargos públicos en Nauvoo. En él convergieron administración del sacerdocio, trabajo de prensa y servicio urbano.
+Entre 1839 y 1841 editó y publicó el *Times and Seasons*, además de ocupar cargos públicos en Nauvoo.
 
-La muerte temprana de Don Carlos en 1841 da a su nombramiento en DyC 124 una intensidad especial. A diferencia de otros líderes que prolongaron su servicio en el Oeste, él pertenece a la generación de hombres prometedores cuya vida se interrumpió en Nauvoo antes del éxodo pionero. Su memoria es breve pero especialmente valiosa.
+Murió en 1841 en Nauvoo. Su mención en Doctrina y Convenios documenta el servicio en la presidencia del cuórum de sumos sacerdotes antes de su muerte.
 
-Don C. Smith representa la combinación de parentesco con el Profeta y mérito personal comprobado. Su llamamiento en **DyC 124:133** muestra que no fue recordado sólo como miembro de la familia Smith, sino como un obrero real de la Restauración, capaz de servir en la imprenta, en el campo misional y en la presidencia del sacerdocio.
+Su llamamiento en **DyC 124:133** registra su servicio en la presidencia del cuórum de sumos sacerdotes, en la imprenta y en el campo misional.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

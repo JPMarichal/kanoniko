@@ -1,6 +1,6 @@
 # Ann Lee
 
-Ann Lee (1736-1784) ocupa un lugar singular en las bios de Doctrina y Convenios porque no fue miembro de la Iglesia restaurada, sino una figura de trasfondo doctrinal. Fue la líder más influyente de los *Shakers*, grupo que afirmaba que la segunda venida de Cristo ya se había producido y que Cristo se había manifestado en forma de mujer en la persona de Ann Lee.
+Ann Lee (1736-1784) ocupa un lugar singular en las bios de Doctrina y Convenios porque no fue miembro de la Iglesia restaurada, sino una figura de trasfondo doctrinal. Fue la líder más influyente de los Tembladores (Shakers), grupo que afirmaba que la segunda venida de Cristo ya se había producido y que Cristo se había manifestado en forma de mujer en la persona de Ann Lee.
 
 Su relevancia para DyC surge por medio de Leman Copley, un converso que había pertenecido a los tembladores y que todavía conservaba parte de sus creencias cuando se acercó a José Smith en Ohio. Ese conflicto doctrinal motivó la revelación hoy conocida como **Doctrina y Convenios 49**, dada en mayo de 1831 a Sidney Rigdon, Parley P. Pratt y Leman Copley. Ann Lee entra en el horizonte de DyC no como receptora de revelación, sino como el referente teológico cuya influencia debía ser refutada.
 

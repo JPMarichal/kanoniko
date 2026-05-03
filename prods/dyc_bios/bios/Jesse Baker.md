@@ -1,10 +1,10 @@
 # Jesse Baker
 
-Jesse Baker aparece en **Doctrina y Convenios 124:137** como segundo consejero en la presidencia del cuórum de élderes en Nauvoo, junto con John A. Hicks y Samuel Williams. Esa mención lo sitúa entre los hombres asignados al ministerio estable de la Iglesia, en contraste con otros llamamientos más asociados al servicio viajante de los Setenta.
+Jesse Baker figura en **Doctrina y Convenios 124:137**: "Y además, os nombro a John A. Hicks, Samuel Williams y Jesse Baker, y este sacerdocio presidirá el cuórum de élderes".
 
-Las fuentes locales añaden que había sido aprobado para ser ordenado élder en Kirtland en enero de 1837, que fue accionista de la Kirtland Safety Society y que firmó la constitución del Kirtland Camp en 1838. También migró a Misuri, sufrió la expulsión y volvió a figurar en el liderazgo local de Nauvoo.
+Fue aprobado para ordenación como élder en Kirtland en enero de 1837, fue accionista de la Sociedad de Seguridad de Kirtland (Kirtland Safety Society) y firmó la constitución del Campamento de Kirtland (Kirtland Camp) en 1838. Migró a Misuri, sufrió la expulsión y figuró en el liderazgo de Nauvoo.
 
-Más de dos años después de la revelación de 1841, volvió a ser sostenido como consejero en la presidencia del cuórum de élderes. Aunque el registro sobre su vida es breve, sí basta para verlo como uno de esos líderes menos visibles pero necesarios para la organización ordinaria de la Iglesia. Su nombre en Doctrina y Convenios 124 conserva la memoria de un élder de servicio constante más que de notoriedad pública.
+En 1843 fue sostenido como consejero en la presidencia del cuórum de élderes.
 
 ### Bibliografía
 - *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.

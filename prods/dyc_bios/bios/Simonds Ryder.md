@@ -1,8 +1,10 @@
 # Simonds Ryder
 
-Simonds Ryder aparece en **DyC 52:37** en un contexto inusualmente severo: el Señor declara que, “en consecuencia de transgresión”, lo que había sido dado a Heman Basset sería quitado de él y puesto sobre la cabeza de Simonds Ryder. Su mención en Doctrina y Convenios describe un traslado concreto de autoridad o asignación debido a la falta de otro, no solo un llamamiento misional genérico. Su caso ejemplifica cómo un encargo espiritual podía perderse o recibirse según la fidelidad.
+Simonds Ryder (1795-1874) aparece en **DyC 52:37**, donde el Señor declara que, "en consecuencia de su transgresión", lo dado a Heman Basset sería quitado y puesto sobre él.
 
-Las fuentes históricas lo presentan como granjero, maestro y ministro que se unió a la Iglesia en 1831 y fue ordenado élder en ese mismo período. Sin embargo, su permanencia fue breve: para septiembre ya había dejado la Iglesia. Así, su biografía queda marcada por un fuerte contraste entre la confianza que DyC 52 deposita momentáneamente en él y la rápida ruptura que siguió después.
+Se unió a la Iglesia en 1831 en Ohio y fue ordenado élder. Sin embargo, dejó la Iglesia en septiembre de ese mismo año después de una disputa sobre una propiedad de tierra en Kirtland.
+
+Después de separarse de la Iglesia, vivió en Ohio. Murió el 8 de febrero de 1874 en Perry, Ohio, sin reunirse con los santos.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

@@ -4,7 +4,7 @@ Harvey Whitlock aparece en **Doctrina y Convenios 52:25** como uno de los hombre
 
 Su trayectoria, sin embargo, fue inestable. Después de haber entrado en la Iglesia antes de junio de 1831, se apartó para 1835 y escribió a José Smith describiéndose como un hombre extraviado. La respuesta del Profeta incluyó una promesa de perdón y una invitación a volver a Kirtland. Fue rebautizado y ordenado de nuevo en 1836.
 
-Las memorias tempranas también lo recuerdan en una manifestación espiritual intensa de 1831, cuando José Smith reprendió el poder que lo afligía. Aun así, Harvey Whitlock no perseveró hasta el fin. Su historia conserva el contraste entre un llamamiento real, oportunidades repetidas de restauración y una fidelidad que nunca llegó a consolidarse.
+A pesar de ser rebautizado y reordenado en 1836, Whitlock no logró establecerse permanentemente en la Iglesia. Las fuentes históricas indican que se apartó nuevamente después de 1836 y no mantuvo conexión con el cuerpo principal de los santos durante el éxodo hacia Utah. Su historia conserva el contraste entre un llamamiento real, oportunidades repetidas de restauración, y una fidelidad que finalmente se disipó, aunque la fecha exacta de su muerte no queda registrada en los documentos principales de la Iglesia.
 
 ### Bibliografía
 - *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.
