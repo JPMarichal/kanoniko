@@ -3,7 +3,7 @@
 | Titulo | Versículos |
 |--------|------------|
 | Aquellos que soporten la tribulación serán coronados con gloria | 1-5 |
-| Los santos deben prepararse para las bodas del Cordero y la cena del Señor | 6-12 |
+| Santos deben prepararse para bodas del Cordero y cena del Señor | 6-12 |
 | Los obispos son jueces en Israel | 13-18 |
 | Los santos deben obedecer las leyes del país | 19-23 |
 | Los hombres deben emplear su albedrío para hacer lo bueno | 24-29 |

@@ -3,4 +3,4 @@
 | Titulo | Versículos |
 |--------|------------|
 | Los élderes han de continuar predicando | 1-2 |
-| José Smith y Sidney Rigdon han de continuar la traducción de la Biblia hasta que quede terminada | 3-6 |
+| José Smith y Sidney Rigdon deben continuar traducción de la Biblia | 3-6 |

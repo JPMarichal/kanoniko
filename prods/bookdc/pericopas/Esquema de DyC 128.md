@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los registradores locales y generales deben dar fe de los bautismos por los muertos que se efectúen | 1-5 |
+| Registradores locales y generales deben dar fe de bautismos por los muertos que se efectúen | 1-5 |
 | Sus registros tendrán validez y se llevan tanto en la tierra como en los cielos | 6-9 |
 | Las llaves del reino de los cielos | 10-11 |
 | La pila bautismal es una semejanza del sepulcro | 12-13 |

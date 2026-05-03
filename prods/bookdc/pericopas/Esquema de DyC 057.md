@@ -6,5 +6,5 @@
 | Los santos deben comprar tierras y recibir heredades en esa región | 4-7 |
 | Sidney Gilbert debe establecer un comercio | 8-10 |
 | William W. Phelps ha de ser impresor | 11-12 |
-| Oliver Cowdery debe revisar y preparar el material para que se publique | 13-14 |
+| Oliver Cowdery debe revisar y preparar material para publicación | 13-14 |
 | Se ha de preparar con rapidez el recogimiento en las heredades | 15-16 |

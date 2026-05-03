@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El temor de la persecución y los afanes del mundo hacen que se rechace el Evangelio | 1-3 |
+| Temor a la persecución y afanes del mundo causan rechazo del Evangelio | 1-3 |

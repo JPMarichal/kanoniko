@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Stephen Burnett y Eden Smith son llamados a predicar en cualquier lugar que ellos escojan | 1-5 |
+| Stephen Burnett y Eden Smith son llamados a predicar donde escojan | 1-5 |

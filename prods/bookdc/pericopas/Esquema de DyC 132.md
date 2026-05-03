@@ -8,7 +8,7 @@
 | La unión libre y el matrimonio civil o de acuerdo | 15-17 |
 | El matrimonio religioso sin la autoridad del sacerdocio | 18 |
 | El matrimonio por tiempo y por eternidad | 19-20 |
-| El camino estrecho y angosto que conduce a las vidas eternas | 21-25 |
+| Camino estrecho y angosto que conduce a las vidas eternas | 21-25 |
 | El poder del sellamiento por el Santo Espíritu de la promesa | 26 |
 | Se da la ley concerniente a la blasfemia contra el Espíritu Santo | 27 |
 | Cómo cumplió Abraham con la ley de Dios | 28-37 |

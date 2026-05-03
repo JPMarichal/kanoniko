@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se designa a John Whitmer para que lleve la historia de la Iglesia y sea escribiente del Profeta | 1-4 |
+| John Whitmer designado para llevar historia de la Iglesia y ser escribiente | 1-4 |

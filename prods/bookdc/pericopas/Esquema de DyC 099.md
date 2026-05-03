@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| John Murdock es llamado a proclamar el Evangelio, y quienes le reciban, reciben al Señor y obtendrán | 1-8 |
+| Murdock llamado a proclamar Evangelio; quienes le reciban reciben al Señor | 1-8 |

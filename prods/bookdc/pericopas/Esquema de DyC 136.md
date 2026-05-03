@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| La manera de organizar el campamento de Israel para el viaje hacia el Oeste | 1-4 |
+| Manera de organizar campamento de Israel para el viaje hacia el Oeste | 1-4 |
 | Normas de preparación de las compañías | 5-11 |
 | Organización de compañías específicas | 12-16 |
 | Se manda a los santos vivir conforme a las normas del evangelio | 17-27 |

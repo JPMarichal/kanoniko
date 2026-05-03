@@ -7,7 +7,7 @@
 | El Señor estará de pie sobre el monte de Sión | 17-19 |
 | Los continentes volverán a ser una sola tierra | 20-25 |
 | El recogimiento de las tribus perdidas | 26-35 |
-| El evangelio se restauró por medio de José Smith para que se predicara en todo el mundo | 36-40 |
+| Evangelio se restauró por medio de José Smith para predicarse en todo el mundo | 36-40 |
 | El Señor descenderá con venganza sobre los inicuos | 41-51 |
 | El año de los redimidos del Señor | 52-56 |
 | La razón por la que se ha restaurado y se predica el evangelio | 57-62 |
