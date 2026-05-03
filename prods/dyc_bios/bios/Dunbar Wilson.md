@@ -1,10 +1,10 @@
 # Dunbar Wilson
 
-Lewis Dunbar Wilson (1805-1856) figura en **Doctrina y Convenios 124:132** entre los designados para el sumo consejo de Nauvoo: "...David Dort, Dunbar Wilson...". Esta designación lo incluye en el gobierno de la ciudad en 1841.
+Lewis Dunbar Wilson (1805-1856) figura en **DyC 124:132** entre los designados para el sumo consejo de Nauvoo.
 
-Se bautizó en 1836 y fue ordenado élder ese mismo año. En 1837 se trasladó a Caldwell County, Misuri; en abril de 1839 fue ordenado setenta; y más tarde en 1839, en Commerce y Nauvoo, fue ordenado sumo sacerdote y miembro del sumo consejo.
+Nació el 6 de marzo de 1805. Se bautizó en 1836 y fue ordenado élder ese mismo año. En 1837 se trasladó a Caldwell County, Misuri. En abril de 1839 fue ordenado setenta. En 1839 fue ordenado sumo sacerdote y miembro del sumo consejo en Nauvoo.
 
-Emigró al Valle del Lago Salado en 1853. Su nombre en Doctrina y Convenios documenta su participación en el sumo consejo de Nauvoo.
+Emigró a Utah en 1853. Murió el 26 de agosto de 1856 en Fillmore, Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: Lewis Dunbar Wilson*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

@@ -1,10 +1,10 @@
 # Henry Herriman
 
-Henry Herriman figura en **Doctrina y Convenios 124:138** entre los designados para presidir el cuórum de los setenta: "Y además, os nombro a Joseph Young, Josiah Butterfield, Daniel Miles, Henry Herriman...". Fue ordenado en febrero de 1838 en el Primer Consejo de los Setenta y sirvió hasta su muerte en Utah en 1891.
+Henry Herriman (1804-1891) figura en **DyC 124:138** entre los designados para presidir el quórum de los Setenta.
 
-Su mención en Doctrina y Convenios lo sitúa en una responsabilidad de gobierno dentro del ministerio viajante. Durante sus últimos años fue el presidente de mayor antigüedad del consejo.
+Nació el 9 de junio de 1804 en Bradford, Massachusetts. Se bautizó el 29 de agosto de 1832. Fue ordenado en febrero de 1838 como uno de los siete presidentes de los Setenta.
 
-Su biografía documenta la continuidad y el gobierno dentro del orden de los Setenta.
+Sirvió como presidente de los Setenta durante 53 años hasta su muerte el 17 de mayo de 1891 en Huntington, Utah, siendo el presidente de mayor antigüedad del consejo.
 
 ### Bibliografía
 - *Doctrine and Covenants Encyclopedia*, Hoyt W. Brewster.

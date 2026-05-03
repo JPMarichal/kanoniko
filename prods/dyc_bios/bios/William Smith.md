@@ -1,10 +1,12 @@
 # William Smith
 
-William Smith aparece en **DyC 124:129** como uno de los miembros del Quórum de los Doce Apóstoles. La referencia no desarrolla su historia, pero sí deja constancia de que, en el ordenamiento de Nauvoo, seguía contado entre los apóstoles encargados de extender la autoridad del reino.
+William Smith (1811-1893) aparece en **DyC 124:129** como miembro del Quórum de los Doce Apóstoles, encargado de extender la autoridad del reino en Nauvoo.
 
-Las fuentes históricas muestran una vida más accidentada que la brevedad del versículo. Hermano menor de José Smith, William se unió a la Iglesia en 1830, participó en la Escuela de los Profetas (School of the Prophets), formó parte del Campamento de Sion (Camp of Zion) y fue ordenado apóstol en 1835. Más tarde sirvió en Nauvoo como editor y en otras responsabilidades públicas, y en 1845 llegó a ser ordenado Patriarca de la Iglesia. Sin embargo, su trayectoria quedó marcada por conflictos, disciplinamientos y una separación final que lo llevó a asociarse con varios movimientos fuera de la Iglesia.
+Hermano menor de José Smith, nació en Royalton, Vermont. Se bautizó en 1830, participó en la Escuela de los Profetas (School of the Prophets) en Kirtland y sirvió en el Campamento de Sion (Zion's Camp) en 1834. Fue ordenado apóstol el 15 de febrero de 1835.
 
-Su nombre en **DyC 124** documenta su inclusión en el liderazgo apostólico de Nauvoo.
+Sirvió en Nauvoo como editor del *Nauvoo Wasp* y otras responsabilidades. Fue ordenado Patriarca de la Iglesia en 1845. Fue excomulgado en 1845 por conflictos con el liderazgo de Brigham Young y disputas sobre la sucesión después del martirio.
+
+Se asoció con varios movimientos fuera de la Iglesia, incluyendo la Iglesia de Jesucristo (Williamites). Murió el 13 de noviembre de 1893 en Osterdock, Iowa, sin reunirse con los santos de Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

@@ -1,8 +1,10 @@
 # Leman Copley
 
-Leman Copley aparece en los encabezados de **DyC 41**, **DyC 49** y **DyC 54** como protagonista de uno de los conflictos más tempranos de la Iglesia en Ohio. Antiguo shaker, aceptó inicialmente el evangelio restaurado y ofreció apoyo material para que los santos se asentaran en Thompson. DyC 49 lo coloca dentro de la misión a los shakers y dice expresamente que debía ser ordenado para razonar con ellos no según sus antiguas ideas, sino según lo que recibiera de los siervos del Señor. Cuando luego se quebrantó el acuerdo sobre la tierra de Thompson, DyC 54 respondió a esa ruptura ordenando a los santos huir hacia Misuri y nombrar a un líder para el traslado.
+Leman Copley (1781-1862) aparece en los encabezados de **DyC 41**, **49** y **54**. Antiguo shaker (miembro de los Tembladores), se bautizó en 1831.
 
-Retiró el apoyo prometido sobre su propiedad en Thompson, lo que obligó a los santos a desplazarse, resultando en DyC 54. Su biografía ilustra la tensión entre entusiasmo inicial y perseverancia real.
+Nació el 25 de marzo de 1781 en Litchfield, Connecticut. Ofreció apoyo material para que los santos se asentaran en Thompson, Ohio. En **DyC 49** se le asigna participar en la misión a los shakers. Retiró el apoyo de su propiedad en 1831, lo que obligó a los santos a desplazarse hacia Misuri (**DyC 54**).
+
+En 1849 se unió a los Brewsteritas (Iglesia de Cristo de James C. Brewster), luego a una sociedad religiosa liderada por Austin Cowles. Murió el 27 de noviembre de 1862 en Thompson, Ohio.
 
 ### Bibliografía
 - *Revelations in Context*, La Iglesia de Jesucristo de los Últimos Días.

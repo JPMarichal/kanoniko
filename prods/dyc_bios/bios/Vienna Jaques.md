@@ -1,13 +1,14 @@
 # Vienna Jaques
 
-Vienna Jaques aparece en **DyC 90:28-31** en un pasaje notable porque el Señor la llama por nombre como “my handmaid” y da instrucciones concretas sobre su traslado a Sion. La revelación manda que reciba dinero para sus gastos, que el resto de sus recursos sea consagrado al Señor, y que en Missouri reciba una herencia de manos del obispo para establecerse en paz y no vivir ociosamente. Su presencia en Doctrina y Convenios es concreta: un mandato personal que une consagración, recogimiento e herencia en Sion, no una referencia incidental.
+Vienna Jaques (1787-1884) aparece en **DyC 90:28-31**, donde el Señor la llama por nombre como "mi sierva" (traducción de "my handmaid"). La revelación manda que reciba dinero para sus gastos, consagre sus recursos al Señor, y reciba una herencia en Missouri de manos del obispo.
 
-Las fuentes históricas muestran que Vienna era una mujer de fe y de medios económicos considerables que, al obtener un testimonio del evangelio restaurado, viajó a Kirtland y se bautizó. Después entregó una suma importante para ayudar a la Iglesia en sus necesidades tempranas. DyC 90 ordena su sacrificio, protege su viaje y promete que recibirá un lugar estable entre los santos.
+Nació el 10 de junio de 1787 en Essex County, Massachusetts. Vivió en Boston como mujer soltera con medios económicos considerables. Se bautizó el 12 de julio de 1831 en Kirtland, Ohio. Entregó una suma importante para ayudar a la Iglesia en sus necesidades tempranas.
 
-Su historia posterior confirma que fue una discípula de larga fidelidad. Se trasladó a Missouri, atendió a enfermos del Campamento de Israel (Camp of Israel), vivió después en Nauvoo y siguió con los santos hasta Utah. Además, las fuentes la recuerdan vinculada a los primeros testimonios sobre el bautismo por los muertos. Es una de las pocas mujeres mencionadas por nombre en Doctrina y Convenios.
+Se trasladó a Missouri en 1833, donde atendió a enfermos del Campamento de Sion (Zion's Camp). Se casó con Daniel Shearer alrededor de 1839, vivió en Nauvoo y emigró a Utah en 1847. Estuvo vinculada a los primeros testimonios sobre el bautismo por los muertos.
+
+Es una de las pocas mujeres mencionadas por nombre en Doctrina y Convenios. Murió el 7 de febrero de 1884 en Salt Lake City, Utah, a los 96 años.
 
 ### Bibliografía
 - *Doctrine and Covenants*.
 - *Index to the Triple Combination*.
 - *Doctrine and Covenants Historical Resources*.
-- *Official Declarations*.

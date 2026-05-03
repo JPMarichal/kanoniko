@@ -1,8 +1,10 @@
 # Micah B. Welton
 
-Micah B. Welton aparece en **DyC 75:36** como parte de otra de las compañías misionales nombradas individualmente por revelación. El versículo lo une a Eden Smith con una orden sencilla y directa: salir a predicar. DyC lo menciona por su disposición a participar en la red de predicación que el Señor iba desplegando mientras la Iglesia temprana se organizaba y expandía.
+Micah B. Welton (1792-1861) aparece en **DyC 75:36**, donde es designado junto con Eden Smith para predicar.
 
-Welton representa a esos primeros siervos cuya memoria quedó fijada porque aceptaron un llamamiento concreto en una revelación canónica. Su breve mención en Doctrina y Convenios ilustra cómo la construcción inicial de la Iglesia dependió también de obreros hoy poco conocidos que fueron enviados por nombre a participar en la expansión del evangelio restaurado.
+Nació el 13 de agosto de 1792 en Waterbury, Connecticut. Era carpintero de profesión. Recibió licencia como élder el 31 de marzo de 1836 en Kirtland. Se trasladó a Clay County, Misuri, en 1836.
+
+Posteriormente se mudó a Pike County, Illinois, en 1839. Murió el 9 de agosto de 1861.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

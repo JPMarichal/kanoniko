@@ -1,10 +1,10 @@
 # John S. Carter
 
-John S. Carter aparece en **Doctrina y Convenios 102:3, 34** como uno de los miembros del primer sumo consejo organizado en Kirtland. Antes de ello había sido bautizado alrededor de 1832 y había acompañado a su hermano Jared en misión a Vermont, donde también ayudó a Jared y a otro hermano, Simeon, a establecer ramas de la Iglesia.
+John S. Carter (aprox. 1792-1834) aparece en **DyC 102:3, 34** como miembro del primer sumo consejo organizado en Kirtland en 1834.
 
-En 1834 fue ordenado sumo sacerdote y, además del llamamiento al sumo consejo, recibió la asignación de acompañar a Jesse Smith en misión al este de los Estados Unidos. Poco después viajó a Misuri con el Campamento de Israel (Camp of Israel).
+Se bautizó alrededor de 1832. Acompañó a su hermano Jared en misión a Vermont. En 1834 fue ordenado sumo sacerdote y recibió la asignación de acompañar a Jesse Smith en misión al este.
 
-Murió de cólera en Clay County, Misuri.
+Viajó a Misuri con el Campamento de Sion (Zion's Camp) en 1834. Fue la primera víctima del cólera en el campamento. Murió el 24 de junio de 1834 en Clay County, Misuri.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: John S. Carter*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

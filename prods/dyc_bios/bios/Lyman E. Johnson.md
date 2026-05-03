@@ -1,8 +1,10 @@
 # Lyman E. Johnson
 
-Lyman E. Johnson figura en **DyC 68:7** y **DyC 75:14** en calidad de elder activamente comisionado. **DyC 68:7** lo incluye con Orson Hyde, Luke Johnson y William E. McLellin entre quienes debían ir a predicar y bautizar; **DyC 75:14** le asigna una compañía misional con Orson Pratt hacia los países del este. Miembro de la familia Johnson de Hiram, Ohio, se convirtió en un colaborador cercano del profeta y fue parte del primer Quórum de los Doce Apóstoles en 1835. Su nombre pertenece, por tanto, al núcleo que pasó del entusiasmo de la conversión temprana a la estructuración formal del liderazgo de la Iglesia.
+Lyman E. Johnson (1811-1859) aparece en **DyC 68:7** y **75:14**. En **DyC 68:7** se le envía a predicar con Orson Hyde, Luke Johnson y William E. McLellin; en **DyC 75:14** con Orson Pratt hacia el este.
 
-Fue parte del primer Quórum de los Doce Apóstoles en 1835 pero se apartó en la crisis de 1837-1838.
+Hermano menor de Luke S. Johnson. Nació en Pomfret, Vermont. Se convirtió en 1831 y fue ordenado apóstol el 15 de febrero de 1835. Sirvió en misiones y fue parte del primer Quórum de los Doce.
+
+Se apartó en la crisis de 1837-1838 y fue excomulgado en 1838. Murió el 25 de diciembre de 1859 en Richmond, Missouri, sin reunirse con la Iglesia.
 
 ### Bibliografía
 - *Latter-day Saint Biographical Encyclopedia*, Andrew Jenson.

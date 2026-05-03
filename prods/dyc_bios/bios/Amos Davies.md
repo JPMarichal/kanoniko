@@ -1,10 +1,10 @@
 # Amos Davies
 
-Amos Davies, documentado en las fuentes inglesas como Amos Davis, aparece en Doctrina y Convenios en **Doctrina y Convenios 124:111**, donde el Señor ordena: "Y además, de cierto os digo, compre acciones mi siervo Amos Davies de aquellos que he nombrado para construir una casa de alojamiento, que es el Mesón de Nauvoo".
+Amos Davies (documentado como Amos Davis) aparece en **DyC 124:111-113** en relación con la Nauvoo House (Mesón de Nauvoo).
 
-Davis fue comerciante en Commerce y Nauvoo, con negocios establecidos antes de la llegada de los santos. Su presencia en la revelación refleja el papel de los comerciantes locales en el sostenimiento económico de la ciudad.
+Fue comerciante en Commerce y Nauvoo, con negocios establecidos antes de la llegada de los santos. En **DyC 124:111** se le instruye comprar acciones para la construcción de una casa de alojamiento.
 
-En **Doctrina y Convenios 124:112-113**, la revelación continúa: "Haga él esto si quiere tener parte; y escuche el consejo de mi siervo José y trabaje con sus propias manos para ganarse la confianza de los hombres". Estos versículos vinculan a Davis al proyecto de la Nauvoo House y subrayan la expectativa de obediencia práctica junto con la contribución económica.
+En **DyC 124:112-113** se le exhorta escuchar el consejo de José Smith y trabajar con sus propias manos. Su presencia en la revelación refleja el papel de los comerciantes locales en el sostenimiento económico de la ciudad.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

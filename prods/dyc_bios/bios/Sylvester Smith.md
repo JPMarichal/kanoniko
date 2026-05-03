@@ -1,10 +1,10 @@
 # Sylvester Smith
 
-Sylvester Smith aparece en **DyC 75:34** y **102:3, 34** en dos esferas distintas del servicio temprano de la Iglesia. Primero se le une en el ministerio con Gideon Carter, dentro de la reorganización de compañerismos misioneros. Después figura como miembro del primer sumo consejo de Kirtland. Sus referencias lo muestran en la predicación y en el gobierno eclesiástico, señal de que fue contado entre los hombres de cierta confianza en los años iniciales.
+Sylvester Smith (1806-1880) aparece en **DyC 75:34** y **102:3, 34**. En **DyC 75:34** se le une con Gideon Carter en el ministerio; en **DyC 102:3, 34** figura como miembro del primer sumo consejo de Kirtland.
 
-Las fuentes históricas amplían ese perfil. Fue converso temprano, sirvió en misión en Nueva Inglaterra, participó en el Campamento de Israel (Camp of Israel), más tarde fue presidente del Primer Quórum de los Setenta y durante un tiempo actuó incluso como escribiente de José Smith. Sin embargo, su historia también quedó marcada por conflicto y deterioro: fue juzgado por presentar acusaciones falsas contra el Profeta, aunque conservó entonces su membresía tras confesar, y finalmente para 1838 ya había dejado la Iglesia.
+Nació el 28 de marzo de 1806 en Tyringham, Massachusetts. Se bautizó en 1831. Sirvió en misión en Nueva Inglaterra, participó en el Campamento de Sion (Zion's Camp) en 1834, y fue presidente del Primer Quórum de los Setenta. Actuó como escribiente de José Smith.
 
-Dejó la Iglesia en 1838.
+Fue juzgado por acusaciones falsas contra el Profeta en 1834, pero confesó y conservó su membresía. Dejó la Iglesia en 1838. En 1853 se mudó a Council Bluffs, Iowa. Murió el 22 de febrero de 1880.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

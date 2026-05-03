@@ -1,10 +1,10 @@
 # Ezra Booth
 
-Ezra Booth era ministro metodista en Ohio cuando se unió a la Iglesia en 1831. Poco después de su bautismo, el Señor lo llamó por revelación a ir a Misuri junto con Isaac Morley en **Doctrina y Convenios 52:23**. Aquella misión terminó con una experiencia negativa para Booth y más tarde él y Morley fueron reprendidos en **Doctrina y Convenios 64:15**.
+Ezra Booth (1792-1873) era ministro metodista en Ohio cuando se unió a la Iglesia en 1831.
 
-En septiembre de 1831 los líderes de la Iglesia le retiraron el derecho de predicar. Ese mismo mes comenzó a publicar una serie de cartas en un periódico de Ohio renunciando a la Iglesia y criticando a José Smith. La respuesta revelada a esa campaña quedó preservada en **Doctrina y Convenios 71**, donde el Señor manda a José Smith y Sidney Rigdon a testificar públicamente contra sus acusaciones.
+Nació el 14 de febrero de 1792. Fue llamado a ir a Misuri con Isaac Morley en **DyC 52:23**. Fueron reprendidos en **DyC 64:15-16**. En septiembre de 1831 le retiraron el derecho de predicar.
 
-Ezra Booth quedó como ejemplo temprano de conversión seguida de apostasía. Después de publicar sus cartas críticas en 1831, se alejó completamente de la Iglesia y no volvió a unirse a ningún movimiento religioso posterior. Su caso ilustra cómo las expectativas no cumplidas sobre el éxito misional y la admiración inicial pueden transformarse en rechazo abierto cuando las circunstancias cambian.
+Comenzó a publicar cartas críticas en un periódico de Ohio renunciando a la Iglesia. La respuesta revelada quedó preservada en **DyC 71**. Se alejó completamente de la Iglesia en 1831. Murió el 12 de enero de 1873 en Cuyahoga Falls, Ohio.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: Ezra Booth*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

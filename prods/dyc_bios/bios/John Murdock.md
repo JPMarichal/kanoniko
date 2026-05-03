@@ -1,10 +1,12 @@
 # John Murdock
 
-John Murdock fue uno de los primeros misioneros de la Restauración y aparece en **Doctrina y Convenios 52:8** y **99:1** como hombre llamado a predicar. Bautizado en noviembre de 1830, comenzó muy pronto una vida de servicio marcada por constantes misiones. Su experiencia personal quedó también profundamente entrelazada con la familia de José y Emma Smith, pues tras la muerte de su esposa Julia en 1831, después de dar a luz gemelos, esos niños fueron adoptados por el Profeta y su esposa.
+John Murdock (1792-1871) aparece en **DyC 52:8** y **99:1** como hombre llamado a predicar.
 
-Entre 1831 y 1833 sirvió misiones en Misuri, Ohio, Virginia y el este de los Estados Unidos; más tarde volvió a servir en Vermont, Nueva York, Indiana y aun en Australia. En 1834 participó en el Campamento de Israel (Camp of Israel) y en 1836 fue nombrado presidente del sumo consejo de Sion.
+Nació el 15 de julio de 1792 en Kortright, New York. Se bautizó en noviembre de 1830. Su esposa Julia murió en 1831 después de dar a luz gemelos; estos niños fueron adoptados por José y Emma Smith.
 
-Después pasó por Nauvoo como obispo del Quinto Barrio y, ya en Utah, fue sumo consejero, obispo y patriarca antes de establecerse finalmente en Beaver County. Su biografía documenta una vida de obediencia, sacrificio familiar y disposición para servir donde fue enviado.
+Sirvió misiones constantes: 1831-1833 en Misuri, Ohio, Virginia y el este; más tarde en Vermont, Nueva York, Indiana y Australia (1852-1853). Participó en el Campamento de Sion (Zion's Camp) en 1834. Fue presidente del sumo consejo de Sion en 1836.
+
+Pasó por Nauvoo como obispo del Quinto Barrio. Emigró a Utah en 1847. Fue sumo consejero, obispo y patriarca en Utah. Murió el 23 de diciembre de 1871 en Beaver, Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: John Murdock*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

@@ -1,8 +1,10 @@
 # Ziba Peterson
 
-Ziba Peterson aparece en **DyC 32:3** y **58:60**. En la primera referencia el Señor lo llama a acompañar a Oliver Cowdery, Parley P. Pratt y Peter Whitmer Jr. en la misión a los lamanitas, prometiendo ir en medio de ellos y sostenerlos. Esa mención lo coloca dentro de una de las primeras misiones significativas de la Restauración. La segunda referencia, en cambio, registra que en Misuri fue despojado de su oficio del sacerdocio, lo cual muestra que su historia dentro de Doctrina y Convenios quedó marcada tanto por el llamamiento como por el disciplinamiento.
+Ziba Peterson (1779-1842) aparece en **DyC 32:3** y **58:60**. En **DyC 32:3** es llamado a la misión a los lamanitas con Oliver Cowdery, Parley P. Pratt y Peter Whitmer Jr. En **DyC 58:60** se registra que fue despojado de su oficio sacerdotal en Misuri.
 
-Las fuentes históricas confirman ese arco. Peterson fue bautizado en 1830, ordenado élder ese mismo año y enviado rápidamente al campo misional. Luego residió en Jackson County, se casó en 1831, fue reordenado como élder en 1832 y excomulgado en 1833.
+Se bautizó en 1830 en New York y fue ordenado élder ese mismo año. Sirvió en la misión a los lamanitas en 1830-1831. Residió en Jackson County, Misuri, donde se casó en 1831. Fue reordenado élder en 1832.
+
+Fue excomulgado en 1833. Vivió sus últimos años en Misuri, alejado de la Iglesia. Murió en 1842 en Liberty, Misuri.
 
 ### Bibliografía
 - *Doctrine and Covenants*.

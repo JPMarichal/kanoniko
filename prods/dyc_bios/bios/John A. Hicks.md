@@ -1,10 +1,10 @@
 # John A. Hicks
 
-John A. Hicks figura en **Doctrina y Convenios 124:137**: "Y además, os nombro a John A. Hicks, Samuel Williams y Jesse Baker, y este sacerdocio presidirá el cuórum de élderes". Las fuentes locales permiten situarlo como natural de County Fermanagh, Irlanda, inmigrado con su familia al Canadá hacia 1820, casado con Margaret Wilson en Upper Canada en 1834 y bautizado en la Iglesia a más tardar en julio de 1838.
+John A. Hicks (aprox. 1800-1897) figura en **DyC 124:137** entre los designados para presidir el cuórum de élderes.
 
-Para mayo de 1840 ya se había trasladado a Nauvoo. La revelación de enero de 1841 le asignó la responsabilidad de presidir el cuórum de élderes de la ciudad, una función de ministerio estable dentro de la organización local.
+Nació en County Fermanagh, Irlanda. Inmigró con su familia a Canadá hacia 1820. Se casó con Margaret Wilson en Upper Canada en 1834 y se bautizó en la Iglesia a más tardar en julio de 1838.
 
-Fue excomulgado en octubre de 1841.
+Se trasladó a Nauvoo en 1840. La revelación de enero de 1841 le asignó presidir el cuórum de élderes de la ciudad. Fue excomulgado en octubre de 1841. Murió en 1897.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: John A. Hicks*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

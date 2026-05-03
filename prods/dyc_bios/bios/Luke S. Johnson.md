@@ -1,8 +1,10 @@
 # Luke S. Johnson
 
-Luke S. Johnson aparece en **DyC 68:7**, **DyC 75:9** y **DyC 102:3, 34** no solo por nombre, sino por encargos concretos. **DyC 68:7** lo incluye entre los élderes enviados a predicar y bautizar; **DyC 75:9** lo comisiona a salir con William E. McLellin hacia el sur; y **DyC 102** lo coloca entre los doce miembros del primer sumo consejo de Kirtland. Hermano de Lyman E. Johnson, se convirtió en los primeros años de la Restauración, participó en misiones y en 1835 fue ordenado apóstol.
+Luke S. Johnson (1807-1861) aparece en **DyC 68:7**, **75:9** y **102:3, 34**. En **DyC 68:7** se le envía a predicar y bautizar; en **DyC 75:9** con William E. McLellin hacia el sur; y en **DyC 102:3, 34** como miembro del primer sumo consejo de Kirtland.
 
-Fue ordenado apóstol en 1835 pero se apartó durante la crisis de Kirtland y terminó fuera de la Iglesia en 1838.
+Hermano de Lyman E. Johnson. Se convirtió en los primeros años de la Restauración y fue ordenado apóstol el 15 de febrero de 1835. Participó en misiones y sirvió en el Quórum de los Doce.
+
+Se apartó durante la crisis de Kirtland y fue excomulgado en 1838. Posteriormente se reunió con la Iglesia, emigró a Utah y murió el 9 de diciembre de 1861 en Salt Lake City.
 
 ### Bibliografía
 - *They Knew the Prophet*, Harold Lundstrom.

@@ -1,8 +1,10 @@
 # Lyman Sherman
 
-Lyman Sherman queda unido de manera especial a **DyC 108 (encabezado)**, revelación recibida como palabra personal de aliento y dirección. Allí el Señor le dice: "He aquí, te digo que tus pecados te son perdonados... descansa en cuanto a tu situación... sea más cuidadoso de aquí en adelante... fortalece a tus hermanos". Las fuentes locales lo presentan como un elder fiel de la etapa de Kirtland, vinculado al crecimiento del sacerdocio y a la organización de los Setenta.
+Lyman Sherman (1804-1839) aparece en el encabezado de **DyC 108**, revelación recibida como palabra personal de aliento y dirección en enero de 1837.
 
-Su biografía documenta la fidelidad con la que sostuvo el orden emergente de la Iglesia en Kirtland.
+Nació el 22 de mayo de 1804 en Monkton, Vermont. Se bautizó en 1832. Fue miembro del sumo consejo de Kirtland (1837) y del sumo consejo de Far West, Misuri (1838). Recibió la revelación de DyC 108 mientras enfrentaba dificultades personales.
+
+Murió el 27 de enero de 1839 en Far West, Misuri, a los 34 años.
 
 ### Bibliografía
 - *Latter-day Saint Biographical Encyclopedia*, Andrew Jenson.

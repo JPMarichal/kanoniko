@@ -1,10 +1,10 @@
 # John Gould
 
-John Gould aparece en **Doctrina y Convenios 100:14**, donde el Señor instruye a José Smith y Sidney Rigdon sobre la búsqueda de protección legal tras la violencia en Misuri. Bautizado y ordenado élder en diciembre de 1832 en el estado de Nueva York, llegó a Kirtland hacia 1833.
+John Gould (1804-1851) aparece en **DyC 100:14**, donde el Señor instruye sobre la búsqueda de protección legal tras la violencia en Misuri.
 
-Fue enviado con Orson Hyde a Misuri para instruir sobre protección y reparación legal. Ayudó a reclutar voluntarios para el Campamento de Israel (Camp of Israel) y se integró al orden de los Setenta, llegando a ser presidente de los Setenta.
+Nació en New Hampshire. Fue bautizado y ordenado élder el 16 de diciembre de 1832 en New York. Llegó a Kirtland hacia 1833. Fue enviado con Orson Hyde a Misuri para instruir sobre protección y reparación legal. Participó en el Campamento de Sion (Zion's Camp) en 1834 y se integró a los Setenta, llegando a ser presidente de los Setenta.
 
-Su biografía documenta el servicio en tareas de enlace, organización y ministerio durante el conflicto misuriano. En 1846 se afilió al movimiento de James J. Strang.
+En 1846 se afilió a la Iglesia de Jesucristo (Strangita) liderada por James J. Strang. Murió en 1851.
 
 ### Bibliografía
 - *Doctrine and Covenants Historical Resources: John Gould*, La Iglesia de Jesucristo de los Santos de los Últimos Días.

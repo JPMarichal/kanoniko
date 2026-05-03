@@ -1,10 +1,10 @@
 # Algernon Sidney Gilbert
 
-Algernon Sidney Gilbert fue una de las figuras temporales más importantes del primer intento de establecer Sion en Misuri. Su nombre entra en el registro canónico en **Doctrina y Convenios 53:3-4**, donde el Señor le ordena: "Toma sobre ti mi ordenación, sí, la de élder... y también para ser agente de esta iglesia en el lugar que el obispo designará". Ese llamamiento lo colocó en una función poco vistosa pero decisiva: convertir capacidad comercial y administración práctica en instrumentos para el establecimiento de Sion.
+Algernon Sidney Gilbert (1789-1834) aparece en **DyC 53:3-4** como élder y agente de la Iglesia.
 
-La revelación de julio de 1831 amplió ese encargo. En **Doctrina y Convenios 57:6, 8** se le ordenó específicamente: "Y ocupe mi siervo Sidney Gilbert el puesto al cual lo he nombrado, para recibir el dinero, ser agente de la iglesia, comprar terrenos... radíquese en este lugar mi siervo Sidney Gilbert, y establezca un comercio para vender sin fraude mercancías, y obtener dinero, a fin de comprar terrenos para el beneficio de los santos". Más tarde también quedó vinculado al entramado económico de la Iglesia en Misuri y a la Firma Unida (United Firm), lo que confirma que su papel fue estructural en el esfuerzo por organizar la vida temporal de la comunidad.
+Nació el 26 de diciembre de 1789 en Connecticut. En **DyC 57:6, 8** se le ordena ser agente, recibir dinero y comprar terrenos en Independence, Misuri. Estableció un comercio para sostener la obra. Formó parte de la Firma Unida (United Firm).
 
-Cuando la violencia arreció en el condado de Jackson, Gilbert sufrió de lleno el derrumbe de aquel primer proyecto sionista. Fue arrestado brevemente, expulsado con los santos y terminó en Clay County. Allí todavía siguió sirviendo: acogió a miembros del Campamento de Israel (Camp of Israel) en 1834, antes de morir de cólera ese mismo año. Su biografía ayuda a recordar que Doctrina y Convenios no sólo preserva la historia de predicadores y visionarios, sino también la de hombres encargados de sostener con orden, bienes y trabajo concreto la construcción de Sion.
+Fue arrestado y expulsado de Jackson County en 1833. Se estableció en Clay County, donde acogió miembros del Campamento de Sion (Zion's Camp) en 1834. Murió de cólera el 29 de junio de 1834 en Clay County, Misuri.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

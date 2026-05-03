@@ -1,14 +1,12 @@
 # Charles C. Rich
 
-Charles C. Rich (1809-1883) figura en **Doctrina y Convenios 124:132** entre los designados para el sumo consejo de Nauvoo: "a saber, Samuel Bent, Henry G. Sherwood, George W. Harris, Charles C. Rich, Thomas Grover...". Esta designación lo incluye en el gobierno de la ciudad en 1841.
+Charles C. Rich (1809-1883) figura en **DyC 124:132** entre los designados para el sumo consejo de Nauvoo.
 
-Se bautizó en 1832, participó en el Campamento de Israel (Camp of Israel) en 1834, sirvió misiones, fue ordenado sumo sacerdote y presidió el cuórum de sumos sacerdotes en Misuri antes de trasladarse a Nauvoo.
+Nació el 21 de septiembre de 1809 en Kentucky. Se bautizó en 1832. Participó en el Campamento de Sion (Zion's Camp) en 1834. Sirvió misiones, fue ordenado sumo sacerdote y presidió el cuórum de sumos sacerdotes en Misuri antes de trasladarse a Nauvoo.
 
-En Nauvoo sirvió en la presidencia de estaca y en responsabilidades cívicas, vinculando gobierno eclesiástico y orden comunitario.
+En Nauvoo sirvió en la presidencia de estaca y en responsabilidades cívicas. Después de Nauvoo sirvió misiones adicionales, participó en la colonización del Oeste.
 
-Después de Nauvoo sirvió misiones adicionales, participó en la colonización del Oeste, fue ordenado apóstol en 1849 y trabajó en la construcción del templo de Utah. Murió en 1883 en Paris, Idaho.
-
-Su biografía documenta una carrera de liderazgo que enlazó Misuri, Nauvoo y la colonización de Utah.
+Fue ordenado apóstol en 1849. Trabajó en la construcción del templo de Utah. Murió el 17 de noviembre de 1883 en Paris, Idaho.
 
 ### Bibliografía
 - *LDS Biographical Encyclopedia*, Andrew Jenson.

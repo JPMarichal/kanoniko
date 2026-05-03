@@ -1,8 +1,10 @@
 # Zebedee Coltrin
 
-Zebedee Coltrin aparece en **DyC 52:29** entre los siervos enviados a ponerse en camino hacia Misuri. La referencia lo sitúa entre los obreros del periodo inicial que participaron en la expansión de la Iglesia y el movimiento hacia Sion.
+Zebedee Coltrin (1804-1887) aparece en **DyC 52:29**, donde es llamado a viajar con Levi Hancock hacia Misuri en el verano de 1831.
 
-Coltrin fue más que un nombre pasajero. Se bautizó poco después de organizada la Iglesia, participó en el Campamento de Sion (Zion's Camp), estuvo vinculado a las primeras experiencias espirituales intensas de Kirtland y llegó a figurar entre los primeros presidentes de los Setenta antes de volver al quórum de sumos sacerdotes. Más tarde siguió sirviendo en Illinois, en la migración al oeste y en Utah. Fue una figura veterana presente en las primeras décadas de la Restauración.
+Nació en Ovid, Nueva York, el 7 de septiembre de 1804. Se bautizó el 9 de enero de 1831 en Strongsville, Ohio, y fue ordenado élder el 17 de julio de 1832. Sirvió en el Campamento de Sion (Zion's Camp) en 1834 y participó en los primeros eventos de Kirtland. Fue ordenado presidente de los Setenta en 1835, sirviendo hasta 1837, cuando pasó al quórum de sumos sacerdotes.
+
+Emigró a Utah en 1848. En 1873, John Taylor lo ordenó patriarca de la Iglesia, cargo que ocupó hasta su muerte el 21 de julio de 1887 en Spanish Fork, Utah.
 
 ### Bibliografía
 - *Doctrine and Covenants*.
