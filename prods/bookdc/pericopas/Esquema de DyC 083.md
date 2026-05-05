@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Las mujeres y los niños tienen el derecho de recibir sostén de sus esposos y padres respectivamente | 1-4 |
-| Las viudas y los huérfanos tienen el derecho de recurrir a la Iglesia para su sostén | 5-6 |
+| Derecho de mujeres y niños a recibir sostén de esposos y padres | 1-4 |
+| Derecho de viudas y huérfanos a recurrir a la Iglesia para su sostén | 5-6 |

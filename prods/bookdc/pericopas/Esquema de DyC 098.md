@@ -7,7 +7,7 @@
 | Se debe apoyar a hombres honrados, sabios y rectos para el gobierno secular | 9-10 |
 | Aquellos que pierdan su vida en la causa del Señor tendrán vida eterna | 11-15 |
 | Renunciad a la guerra y proclamad la paz | 16-18 |
-| Se reprende a santos que viven en Kirtland y se les manda que se arrepientan | 19-22 |
+| Se reprende a los santos de Kirtland y se les manda arrepentirse | 19-22 |
 | Señor revela leyes sobre persecuciones y aflicciones impuestas a Su pueblo | 23-32 |
 | La guerra se justifica únicamente cuando el Señor la ordena | 33-38 |
-| Santos deben perdonar a sus enemigos, los cuales si se arrepienten se librarán | 39-48 |
+| Los santos deben perdonar a sus enemigos, los cuales si se arrepienten s | 39-48 |

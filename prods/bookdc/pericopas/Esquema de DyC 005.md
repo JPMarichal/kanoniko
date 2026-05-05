@@ -8,5 +8,5 @@
 | Tres testigos darán testimonio del Libro de Mormón | 11-18 |
 | La plaga desoladora y el cumplimiento de la palabra del Señor | 19-20 |
 | Se promete a José Smith la vida eterna | 21-22 |
-| Martin Harris podrá arrepentirse y ser uno de los testigos | 23-28 |
+| Martín Harris podrá arrepentirse y ser uno de los testigos | 23-28 |
 | La previsión del Señor sobre la caída de Martín Harris | 29-35 |

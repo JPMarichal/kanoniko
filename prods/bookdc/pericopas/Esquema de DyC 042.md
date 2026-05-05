@@ -10,6 +10,6 @@
 | Se condenan el orgullo y la ociosidad | 40-42 |
 | Los enfermos serán sanados por bendiciones del sacerdocio y la fe | 43-52 |
 | Las Escrituras rigen a la Iglesia y se han de proclamar al mundo | 53-60 |
-| El sitio de la Nueva Jerusalén y los misterios del reino han de ser revelados | 61-69 |
-| Los bienes consagrados se han de usar para apoyar a los oficiales de la Iglesia | 70-73 |
+| El sitio de la Nueva Jerusalén y los misterios del reino han de revelarse | 61-69 |
+| Los bienes consagrados se usarán para apoyar a oficiales de la Iglesia | 70-73 |
 | Leyes sobre fornicación, adulterio, asesinato, robo y confesión | 74-93 |

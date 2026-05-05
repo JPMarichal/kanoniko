@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se identifican el tronco de Isaí, la vara que saldrá del tronco y la raíz de Isaí | 1-6 |
-| Restos esparcidos de Sion tienen derecho al sacerdocio y deben volver al Señor | 7-10 |
+| Identificación del tronco, la vara y la raíz de Isaí | 1-6 |
+| Los restos de Sion tienen derecho al sacerdocio y deben volver al Señor | 7-10 |

@@ -1,6 +1,6 @@
 # Esquema de Doctrina y Convenios 6
 
-| Titulo | Versículos |
+| Título | Versículos |
 |--------|------------|
 | Los obreros del campo del Señor logran la salvación | 1-5 |
 | Rico es el que tiene la vida eterna | 6-7 |

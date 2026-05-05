@@ -3,4 +3,4 @@
 | Titulo | Versículos |
 |--------|------------|
 | Los siervos del Señor no deben codiciar las cosas materiales | 1-9 |
-| Deben abandonar su pequeñez de alma, y sus sacrificios serán sagrados para el Señor | 10-16 |
+| Deben abandonar su pequeñez; sus sacrificios serán sagrados para Dios | 10-16 |

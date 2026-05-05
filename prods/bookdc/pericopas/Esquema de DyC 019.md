@@ -8,7 +8,7 @@
 | Cristo padeció por todos para que no sufran si se arrepienten | 13-20 |
 | Predica solo el evangelio de arrepentimiento | 21-22 |
 | Camina en la mansedumbre de mi espíritu | 23-24 |
-| Mandamientos específicos a Martin Harris, parte 1 | 25-28 |
+| Mandamientos específicos a Martín Harris, parte 1 | 25-28 |
 | Predica solo los principios básicos del evangelio | 29-32 |
-| Mandamientos específicos a Martin Harris, parte 2 | 33-38 |
-| Conclusión y exhortación final | 39-41 |
+| Mandamientos específicos a Martín Harris, parte 2 | 33-38 |
+| La conclusión y exhortación final | 39-41 |

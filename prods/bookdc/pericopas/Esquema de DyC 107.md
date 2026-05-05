@@ -4,11 +4,11 @@
 |--------|------------|
 | Hay dos sacerdocios: el de Melquisedec y el Aarónico | 1-6 |
 | Poseedores de Sacerdocio Melquisedec pueden oficiar en todos oficios | 7-12 |
-| Obispado preside Sacerdocio Aarónico, el cual administra ordenanzas exteriores | 13-17 |
-| Sacerdocio de Melquisedec posee llaves de bendiciones espirituales; Sacerdocio Aarónico | 18-20 |
-| Primera Presidencia, Doce y Setenta constituyen cuórums presidentes con decisiones | 21-38 |
+| El obispado preside el Sacerdocio Aarónico y sus ordenanzas | 13-17 |
+| Sacerdocio de Melquisedec tiene las llaves de bendiciones espirituales | 18-20 |
+| La Primera Presidencia, los Doce y los Setenta son cuórums presidentes | 21-38 |
 | El orden patriarcal descendió por linaje desde Adán hasta Noé | 39-52 |
-| Santos de antigüedad se reunieron en Adán-ondi-Ahmán, y Señor se les apareció | 53-57 |
+| Los santos antiguos se reunieron en Adán-ondi-Ahmán; el Señor se apareció | 53-57 |
 | Los Doce deben organizar a los oficiales de la Iglesia | 58-67 |
 | Los obispos son jueces comunes en Israel | 68-76 |
 | Primera Presidencia y Doce constituyen consejos más altos de la Iglesia | 77-84 |

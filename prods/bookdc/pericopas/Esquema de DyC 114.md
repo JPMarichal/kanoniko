@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los cargos de la Iglesia que ocupen aquellos que no sean fieles se darán a otros | 1-2 |
+| Los cargos de la Iglesia de quienes no sean fieles se darán a otros | 1-2 |

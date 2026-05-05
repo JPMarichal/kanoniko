@@ -9,6 +9,6 @@
 | Se da una piedrecita blanca a todos los que entran en el mundo celestial | 10-11 |
 | Profecía sobre la Guerra Civil | 12-13 |
 | No se le comunica al Profeta la hora de la Segunda Venida | 14-17 |
-| La inteligencia lograda en esta vida se levantará con nosotros en la Resurrección | 18-19 |
+| La inteligencia lograda en esta vida se levantará en la Resurrección | 18-19 |
 | Todas las bendiciones se reciben por motivo de la obediencia a la ley | 20-21 |
 | La naturaleza corporal del Padre y del Hijo | 22-23 |

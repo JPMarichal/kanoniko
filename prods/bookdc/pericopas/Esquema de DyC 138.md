@@ -10,6 +10,6 @@
 | Cómo se organizó predicación del evangelio entre los espíritus | 25-37 |
 | Adán, Eva y muchos santos profetas en el mundo de los espíritus | 38-52 |
 | Nobles y grandes que fueron escogidos y preparados desde el principio | 53-56 |
-| Muertos justos de esta época continúan sus obras en el mundo de los espíritus | 57 |
+| Los muertos justos de esta época continúan su obra en el mundo espiritual | 57 |
 | Esperanza de salvación de los muertos en la cárcel espiritual | 58-59 |
-| Conclusión de visión sobre la redención de los muertos | 60 |
+| La conclusión de la visión sobre la redención de los muertos | 60 |

@@ -2,8 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Razón por la que Señor permitió que santos de condado de Jackson fueran perseguidos | 1-4 |
+| Razón por la que se permitió la persecución en el condado de Jackson | 1-4 |
 | Los santos prevalecerán si guardan los mandamientos | 5-10 |
 | Redención de Sion vendrá por poder, y Señor irá al frente de Su pueblo | 11-20 |
-| Santos deben congregarse en Sion y quienes den su vida la hallarán de nuevo | 21-28 |
-| Se llama a varios hermanos para organizar Campo de Sion e ir a tierra de Sion | 29-40 |
+| Los santos deben congregarse en Sion; quienes den su vida la hallarán | 21-28 |
+| Llamamiento de hermanos para organizar el Campo de Sion | 29-40 |

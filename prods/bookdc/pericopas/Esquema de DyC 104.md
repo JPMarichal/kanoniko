@@ -9,4 +9,4 @@
 | La orden unida de Kirtland y la de Sion deben funcionar separadamente | 47-53 |
 | Se establece tesorería sagrada del Señor para impresión de Escrituras | 54-66 |
 | Tesorería general de orden unida debe funcionar sobre base de común acuerdo | 67-77 |
-| Miembros de orden unida deben pagar deudas y Señor los librará de servidumbre | 78-86 |
+| Los miembros de la orden unida deben pagar deudas para ser librados | 78-86 |

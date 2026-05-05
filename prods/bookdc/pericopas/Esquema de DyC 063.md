@@ -10,7 +10,7 @@
 | Los obedientes reciben los misterios del reino | 22-23 |
 | Se han de comprar tierras o heredades en Sion | 24-31 |
 | El Señor decreta guerras, y los inicuos matan a los inicuos | 32-35 |
-| Los santos se han de congregar en Sion y proporcionar dinero para edificarla | 36-48 |
+| Los santos deben congregarse en Sion y financiar su edificación | 36-48 |
 | Bendiciones aseguradas a los fieles en la Segunda Venida y Resurrección | 49-54 |
 | Este es un día de amonestación | 55-58 |
 | Aquellos que usan el nombre del Señor sin autoridad lo toman en vano | 59-66 |

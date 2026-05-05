@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se encomia a Brigham Young y se le releva de viajar al extranjero en lo futuro | 1-3 |
+| Se encomia a Brigham Young y se le releva de viajar al extranjero | 1-3 |
