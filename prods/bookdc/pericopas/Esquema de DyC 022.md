@@ -2,4 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Mandamiento de bautizarse de nuevo en la Iglesia verdadera | 1-4 |
+| Los convenios antiguos son abrogados por el convenio nuevo y sempiterno | 1 |
+| Bautizarse cien veces no aprovecha por obras muertas sin el convenio | 2-4 |

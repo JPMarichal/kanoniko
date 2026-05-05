@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor da el nombre oficial a La Iglesia de Jesucristo de los SUD | 1-4 |
-| Sion y sus estacas son sitios de defensa y de refugio para los santos | 5-6 |
-| Se manda a los santos edificar una casa del Señor en Far West | 7-16 |
-| José Smith posee las llaves del reino de Dios sobre la tierra | 17-19 |
+| Designación del nombre oficial: La Iglesia de Jesucristo de los SUD | 1-4 |
+| Levantaos y brillad; Sion será un refugio contra la tempestad | 5-6 |
+| Se manda edificar una casa del Señor en Far West; diligencia | 7-16 |
+| José Smith posee las llaves; estacas en las regiones circunvecinas | 17-19 |

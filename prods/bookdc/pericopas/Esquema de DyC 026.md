@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Mandamiento a José Smith, Oliver Cowdery y John Whitmer | 1 |
-| La ley del común acuerdo | 2 |
+| Dedicaréis vuestro tiempo al estudio, la predicación y el cultivo de la tierra | 1 |
+| Todas las cosas en la Iglesia se harán por fe y de común acuerdo | 2 |

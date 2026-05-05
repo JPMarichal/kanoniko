@@ -2,5 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los siervos del Señor no deben codiciar las cosas materiales | 1-9 |
-| Deben abandonar su pequeñez; sus sacrificios serán sagrados para Dios | 10-16 |
+| William Marks y Newel K. Whitney deben salir de Kirtland | 1-6 |
+| La propiedad de Kirtland no es nada comparada con Sion | 7-11 |
+| Oliver Granger es llamado a saldar las deudas de la Iglesia | 12-16 |

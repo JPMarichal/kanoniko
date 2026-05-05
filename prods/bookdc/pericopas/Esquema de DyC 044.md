@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los élderes deben reunirse en conferencia | 1-3 |
-| Han de organizarse de acuerdo con las leyes del país y cuidar de los pobres | 4-6 |
+| Mandato de congregar a los élderes para recibir el Espíritu en conferencia | 1-3 |
+| Organización conforme a las leyes y auxilio a los pobres y necesitados | 4-6 |

@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los fieles llegan a ser hijos de Dios por medio de la Expiación | 1-4 |
-| La predicación del Evangelio prepara el camino para la Segunda Venida | 5-9 |
-| La profecía viene por el poder del Espíritu Santo | 10-12 |
+| Orson Pratt es llamado a predicar el evangelio a esta generación | 1-5 |
+| Proclamar el arrepentimiento y preparar la vía para la Segunda Venida | 6-9 |
+| Mandato de profetizar por el Espíritu; el Señor viene pronto | 10-12 |

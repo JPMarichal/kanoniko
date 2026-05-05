@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor da a Spring Hill el nombre de Adán-ondi-Ahmán | 1 |
+| Identificación de Adam-ondi-Ahman como lugar de la gran reunión | 1 |

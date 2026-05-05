@@ -2,10 +2,10 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Las Escrituras indican cómo se ha de edificar la Iglesia | 1-5 |
-| El mundo está madurando en la iniquidad | 6-8 |
-| El valor de las almas es grande a la vista de Dios | 9-16 |
-| Los hombres deben tomar sobre sí el nombre de Cristo | 17-25 |
-| Se revelan el llamamiento y la misión de los Doce | 26-36 |
-| Oliver Cowdery y David Whitmer han de buscar a los Doce | 37-39 |
-| Arrepentimiento, bautismo y obediencia a los mandamientos | 40-47 |
+| Las Escrituras contienen el fundamento de la Iglesia y la roca de Cristo | 1-5 |
+| Todo el mundo debe ser instado al arrepentimiento | 6-9 |
+| El valor de las almas es grande; alegría por el alma que se arrepiente | 10-16 |
+| Es preciso tomar sobre sí el nombre de Jesucristo para ser salvo | 17-25 |
+| Llamamiento y misión de los Doce para predicar a toda criatura | 26-36 |
+| Se manda buscar a los Doce por sus deseos y por sus obras | 37-39 |
+| Mandato de enseñar el arrepentimiento y el bautismo a todos | 40-47 |

@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Sólo el Profeta recibe revelación para toda la Iglesia | 1-7 |
-| Oliverio Cowdery será enviado a una misión entre los lamanitas | 8-10 |
-| Satanás engañó a Hiram Page y le comunicó revelaciones falsas | 11-16 |
+| Nadie recibirá mandamientos y revelaciones sino José Smith | 1-7 |
+| Misión de Oliver Cowdery a los lamanitas; Sion será en las fronteras | 8-10 |
+| Satanás engañó a Hiram Page; todo debe hacerse con orden | 11-16 |

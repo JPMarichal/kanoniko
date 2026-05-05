@@ -2,16 +2,17 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| La Nueva Jerusalén y el templo serán edificados en Misuri | 1-5 |
-| Se da la línea del sacerdocio desde Moisés hasta Adán | 6-17 |
-| El sacerdocio mayor posee la llave del conocimiento de Dios | 18-25 |
-| El sacerdocio menor posee la llave del ministerio de ángeles | 26-32 |
-| Hombres logran vida eterna por juramento y convenio del sacerdocio | 33-44 |
-| Espíritu de Cristo ilumina a hombres, y el mundo yace en pecado | 45-53 |
-| Los santos deben testificar de las cosas que han recibido | 54-61 |
-| Han de predicar el Evangelio, y seguirán las señales | 62-76 |
-| Élderes saldrán sin bolsa ni alforja, el Señor atenderá sus necesidades | 77-91 |
-| Plagas y maldiciones aguardan a aquellos que rechacen el Evangelio | 92-97 |
-| Se da el nuevo cántico de la redención de Sion | 98-102 |
-| Ocupe cada hombre su propio oficio y trabaje en su propio llamamiento | 103-110 |
-| Siervos del Señor proclamarán abominación desoladora de los últimos días | 111-120 |
+| Se edificará un templo en la Nueva Jerusalén; generación de los santos | 1-5 |
+| Linaje del Sacerdocio de Melquisedec desde Moisés hasta Adán | 6-17 |
+| Poder de la divinidad se manifiesta en las ordenanzas del sacerdocio | 18-28 |
+| Hijos de Moisés y Aarón; ofrenda aceptable en la casa del Señor | 29-32 |
+| El Juramento y Convenio del Sacerdocio; fidelidad y exaltación | 33-42 |
+| Escuchad la voz del Espíritu; toda luz procede de Cristo | 43-48 |
+| El mundo yace en el pecado; incredulidad y vana repetición de ritos | 49-59 |
+| Llamamiento a los élderes a predicar a todo el mundo | 60-64 |
+| Señales que siguen a los creyentes; fe en el nombre de Jesucristo | 65-73 |
+| El obrero es digno de su salario; no llevéis bolsa ni alforja | 74-85 |
+| El Señor proveerá para Sus siervos; juicio sobre quienes les rechacen | 86-97 |
+| Canto nuevo de Sion; el Señor ha redimido a Su pueblo | 98-102 |
+| Deberes de las diversas ramas del sacerdocio; edificaos mutuamente | 103-110 |
+| Newel K. Whitney debe viajar y amonestar a los pecadores | 111-120 |

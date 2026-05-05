@@ -2,6 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Jehová se aparece en gloria y acepta Templo de Kirtland como Su casa | 1-10 |
-| Primero Moisés y después Elías, entregan llaves y dispensaciones | 11-12 |
-| Elías el Profeta vuelve y entrega las llaves de su dispensación | 13-16 |
+| Aparición del Señor Jesucristo; Su aceptación del templo | 1-10 |
+| Moisés entrega las llaves del recogimiento de Israel de la tierra | 11 |
+| Elías entrega la dispensación del evangelio de Abraham | 12 |
+| Elías el Profeta entrega las llaves para volver los corazones | 13-16 |

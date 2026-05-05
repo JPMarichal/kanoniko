@@ -2,6 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos deben publicar el relato de sus sufrimientos y persecuciones | 1-6 |
-| El espíritu de los credos falsos conduce a la persecución de los santos | 7-10 |
-| Muchas personas de entre todas las sectas aún recibirán la verdad | 11-17 |
+| Deber de recolectar testimonios y actas de las persecuciones | 1-6 |
+| El espíritu de los credos falsos y su influencia en los hombres | 7-11 |
+| Muchas almas están cegadas por las mentiras de los hombres | 12-15 |
+| Hacer con gozo todo lo que esté a nuestro alcance | 16-17 |

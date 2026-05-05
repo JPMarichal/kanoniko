@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Sobre los libros apócrifos y las interpolaciones de los hombres | 1-3 |
-| Beneficiarán a los que sean iluminados por el Espíritu | 4-6 |
+| Los Apócrifos contienen muchas cosas verdaderas y muchas interpolaciones | 1-3 |
+| No es necesario traducirlos; el Espíritu manifiesta la verdad | 4-6 |

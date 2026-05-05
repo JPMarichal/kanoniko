@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Sidney Gilbert es llamado y ordenado élder en la Iglesia | 1-3 |
-| También ha de servir como agente del obispo | 4-7 |
+| Sidney Gilbert es llamado a ser élder y viajar a Misuri | 1-3 |
+| Llamamiento a ser agente del obispo y abandonar las cosas del mundo | 4-7 |

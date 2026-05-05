@@ -2,12 +2,10 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Cristo recoge a Sus escogidos | 1-8 |
-| Su venida iniciará el Milenio | 9-11 |
-| Los Doce juzgarán a todo Israel | 12-13 |
-| Las señales que precederán a la Segunda Venida | 14-21 |
-| La última resurrección y el juicio final se verificarán después del Milenio | 22-28 |
-| Para el Señor todas las cosas son espirituales | 29-35 |
-| El diablo y sus huestes fueron expulsados del cielo para tentar al hombre | 36-39 |
-| La Caída y la Expiación traen la salvación | 40-45 |
-| Los niños pequeños son redimidos por medio de la Expiación | 46-50 |
+| Cristo juntará a Su pueblo para prepararse ante las tribulaciones | 1-8 |
+| Soberbios e inicuos serán consumidos; los Doce juzgarán a Israel | 9-13 |
+| Señales de sangre y fuego precederán al fin; castigo de los malvados | 14-21 |
+| Resurrección final de todos los muertos después del Milenio | 22-28 |
+| Para Dios todas las cosas son espirituales y Sus mandamientos eternos | 29-35 |
+| Rebelión de Satanás; la Caída de Adán y la redención ofrecida | 36-45 |
+| Los niños pequeños son redimidos desde la fundación del mundo | 46-50 |

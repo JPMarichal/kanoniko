@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los cargos de la Iglesia de quienes no sean fieles se darán a otros | 1-2 |
+| Llamamiento de David W. Patten; cargos se darán a otros si hay infidelidad | 1-2 |

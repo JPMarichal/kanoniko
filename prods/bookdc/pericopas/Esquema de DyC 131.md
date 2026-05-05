@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El matrimonio celestial es esencial para recibir exaltación en el cielo | 1-4 |
-| Se explica la forma en que los hombres son sellados para vida eterna | 5 |
-| No hay salvación en la ignorancia | 6 |
-| Todo espíritu es materia | 7-8 |
+| Los tres grados del cielo; el matrimonio celestial para la exaltación | 1-4 |
+| Asegurar la vocación y elección; la palabra profética más segura | 5 |
+| No se puede ser salvo en la ignorancia | 6 |
+| No existe la materia inmaterial; todo espíritu es materia | 7-8 |

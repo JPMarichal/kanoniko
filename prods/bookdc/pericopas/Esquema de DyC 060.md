@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los élderes deben predicar el Evangelio entre los inicuos | 1-9 |
-| No deben desperdiciar el tiempo, ni esconder sus talentos | 10-14 |
-| Pueden lavar sus pies como testimonio contra quienes rechazan el Evangelio | 15-17 |
+| Viaje de regreso; no escondáis vuestro talento por temor al hombre | 1-6 |
+| Instrucciones de viaje por las aguas y predicación del evangelio | 7-12 |
+| Id de dos en dos; sacudid el polvo como testimonio contra los inicuos | 13-17 |

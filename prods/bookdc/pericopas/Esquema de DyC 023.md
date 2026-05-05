@@ -2,8 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Revelación a Oliver Cowdery | 1-2 |
-| Revelación a Hyrum Smith | 3 |
-| Revelación a Samuel Smith | 4 |
-| Revelación a Joseph Smith, padre | 5 |
-| Revelación a Joseph Knight | 6-7 |
+| Oliver Cowdery es advertido contra el orgullo y mandado a predicar | 1-2 |
+| Hyrum Smith es llamado a exhortar y fortalecer a la iglesia de continuo | 3 |
+| Samuel Smith es llamado a exhortar, mas no todavía ante el mundo | 4 |
+| Joseph Smith, padre, es llamado a exhortar y fortalecer a la iglesia | 5 |
+| Joseph Knight debe tomar su cruz y unirse a la iglesia verdadera | 6-7 |

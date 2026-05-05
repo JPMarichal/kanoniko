@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Mandamiento para construir casa para la obra de la Presidencia | 1-9 |
-| Se ha de edificar una casa para imprimir | 10-12 |
-| Se señalan ciertas heredades | 13-17 |
+| Instrucciones para edificar casas para la obra de la Presidencia | 1-9 |
+| Se manda construir un edificio para la imprenta de la Iglesia | 10-12 |
+| Designación de terrenos para propósitos específicos en Kirtland | 13-17 |

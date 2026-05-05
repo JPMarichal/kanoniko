@@ -2,13 +2,13 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Manera de organizar campamento de Israel para el viaje hacia el Oeste | 1-4 |
-| Normas de preparación de las compañías | 5-11 |
-| Organización de compañías específicas | 12-16 |
-| Se manda a los santos vivir conforme a las normas del evangelio | 17-27 |
-| Los santos deben cantar, bailar y usar la música para regocijarse | 28-29 |
-| El que no aguanta el castigo no es digno de mi reino | 30-31 |
-| Aprenda sabiduría el ignorante | 32-33 |
-| La muerte honra a los profetas y condena a los inicuos | 34-36 |
-| El propósito del martirio de José Smith | 37-40 |
-| Habéis recibido mi reino | 41-42 |
+| Organización de las compañías de los santos para el viaje al oeste | 1-5 |
+| Cuidado de las viudas, los huérfanos y los necesitados | 6-11 |
+| Grupos de avanzada para preparar la siembra en la primavera | 12-16 |
+| Mandamientos sobre la conducta: no hurtéis ni contendáis | 17-27 |
+| Alabanza al Señor con cantos y danzas; alivio del alma | 28 |
+| No temáis a vuestros enemigos; vuestras oraciones son oídas | 29 |
+| Exhortación a la humildad y al aprendizaje de la sabiduría | 30-33 |
+| Propósito de las pruebas; los mártires sellaron su testimonio | 34-36 |
+| El derramamiento de sangre de los inocentes clama desde la tierra | 37-40 |
+| El Señor restaura Su reino y consuela a Su pueblo | 41-42 |

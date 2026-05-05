@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor abastecerá a las familias de los Doce | 1-3 |
-| Se llenan las vacantes que había en el Cuórum de los Doce | 4-6 |
+| Los Doce deben partir hacia Gran Bretaña desde Far West | 1-3 |
+| Llamamiento de John Taylor, John E. Page, Woodruff y Richards | 4-6 |

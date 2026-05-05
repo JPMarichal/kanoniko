@@ -2,4 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se convoca a los santos a congregarse en Ohio | 1-4 |
+| Pausa en la traducción y mandato de ir a Ohio por causa del enemigo | 1-2 |
+| Se manda a la iglesia congregarse en Ohio por sabiduría del Señor | 3-4 |

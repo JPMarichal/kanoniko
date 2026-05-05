@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los élderes deben entregar un informe de su mayordomía al obispo | 1-8 |
-| Obispo administra el almacén y vela por los pobres y los necesitados | 9-15 |
-| Los obispos deben certificar la dignidad de los élderes | 16-26 |
+| Nombramiento de Newel K. Whitney; rendición de cuentas al obispo | 1-8 |
+| Deberes del obispo: cuidar el almacén y las necesidades de los santos | 9-15 |
+| Certificados de recomendación para los santos que viajen a Sion | 16-26 |

@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los Tres Testigos verán las planchas y otros objetos sagrados | 1-4 |
-| Jesucristo testifica del origen divino del Libro de Mormón | 5-6 |
-| Se promete a los tres testigos ser enaltecidos por medio de la gracia | 7-9 |
+| Los Tres Testigos verán las planchas y los objetos sagrados por su fe | 1-4 |
+| El Señor testifica que José Smith tradujo por Su poder y es verdadero | 5-6 |
+| Se promete a los testigos que la gracia del Señor les es suficiente | 7-9 |

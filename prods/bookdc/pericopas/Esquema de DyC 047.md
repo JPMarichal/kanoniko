@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| John Whitmer designado para llevar historia de la Iglesia y ser escribiente | 1-4 |
+| John Whitmer es llamado a llevar la historia continua de la Iglesia | 1-4 |

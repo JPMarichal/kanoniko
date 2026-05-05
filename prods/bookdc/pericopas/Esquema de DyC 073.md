@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los élderes han de continuar predicando | 1-2 |
-| José Smith y Sidney Rigdon deben continuar traducción de la Biblia | 3-6 |
+| Los élderes deben continuar predicando hasta la próxima conferencia | 1-2 |
+| José Smith y Sidney Rigdon deben reemprender la traducción bíblica | 3-6 |

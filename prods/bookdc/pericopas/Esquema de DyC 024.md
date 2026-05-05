@@ -2,8 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| José Smith es llamado a traducir, predicar y explicar las Escrituras | 1-9 |
-| Oliver Cowdery es llamado a predicar el Evangelio | 10-12 |
-| Ley concerniente a los milagros | 13-14 |
-| El sacudimiento de los pies | 15-17 |
-| El sostenimiento de la Iglesia a los misioneros | 18-19 |
+| José Smith es llamado a magnificar su oficio y explicar las Escrituras | 1-9 |
+| Oliver Cowdery declarará el evangelio con fuerza como de trompeta | 10-12 |
+| Dones espirituales permitidos: echar fuera demonios y sanar enfermos | 13-14 |
+| El sacudimiento del polvo de los pies como testimonio de rechazo | 15-17 |
+| La iglesia debe suministrar lo necesario a quienes podan la viña | 18-19 |

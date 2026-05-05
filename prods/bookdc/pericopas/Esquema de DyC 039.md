@@ -2,8 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos fieles tienen el poder de llegar a ser hijos de Dios | 1-4 |
-| Recibir el Evangelio es recibir a Cristo | 5-6 |
-| Se le manda a James Covel bautizarse y obrar en la viña del Señor | 7-14 |
-| Siervos del Señor predicarán el Evangelio antes de la Segunda Venida | 15-21 |
-| Quienes reciban el Evangelio serán recogidos por tiempo y eternidad | 22-24 |
+| Jesucristo es el Gran Yo Soy; los que lo reciben llegan a ser hijos de Dios | 1-4 |
+| Recibir el evangelio de arrepentimiento y bautismo es recibir a Cristo | 5-6 |
+| James Covel es llamado a bautizarse y predicar en Ohio | 7-14 |
+| Bendiciones reservadas en Ohio; el reino de los cielos se ha acercado | 15-21 |
+| Los que reciben estas cosas serán reunidos con Cristo en la eternidad | 22-24 |

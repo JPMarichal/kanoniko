@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| José Smith se gloría en la persecución y en la tribulación | 1-3 |
-| Continúese sin cesar la obra de mi templo | 4 |
-| Deben llevarse registros relativos a bautismos por los muertos | 5-9 |
-| Palabras de despedida | 10-12 |
+| Regocijo en la tribulación; el Señor librará a Sus siervos | 1-3 |
+| Mandato de no cesar la construcción del Templo de Nauvoo | 4 |
+| Necesidad de un registrador para los bautismos por los muertos | 5-9 |
+| Saludos finales y el deseo de José de enseñar a los santos | 10-12 |

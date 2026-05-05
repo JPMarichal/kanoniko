@@ -2,5 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los testimonios quedan escritos en los cielos | 1-3 |
-| Élderes deben viajar y predicar según su juicio y dirección del Espíritu | 4-9 |
+| Testimonio de los élderes es registrado en el cielo; pecados perdonados | 1-3 |
+| Continuad el viaje o congregaos; el Señor dirigirá según Su voluntad | 4-7 |
+| Sed fieles y el Señor estará en medio de vuestras asambleas | 8-9 |

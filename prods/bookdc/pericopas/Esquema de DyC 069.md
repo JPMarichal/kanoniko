@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| John Whitmer ha de acompañar a Oliver Cowdery a Misuri | 1-2 |
-| También predicará, recopilará y escribirá datos históricos | 3-8 |
+| John Whitmer acompañará a Oliver Cowdery a Misuri con las revelaciones | 1-3 |
+| Recopilación de relatos de la historia y predicación de la Iglesia | 4-8 |

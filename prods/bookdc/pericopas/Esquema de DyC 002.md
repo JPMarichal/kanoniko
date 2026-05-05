@@ -2,5 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El sacerdocio sería revelado por Elías el Profeta | 1 |
-| Elías plantará en el corazón de los hijos las promesas de los padres | 2-3 |
+| Elías revelará el sacerdocio antes del gran día del Señor | 1 |
+| El corazón de los hijos debe tornarse hacia las promesas de los padres | 2 |
+| Sin este giro de los corazones, la tierra sería totalmente asolada | 3 |

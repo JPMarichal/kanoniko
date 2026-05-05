@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos han de edificar ciudades y congregarse en las estacas de Sion | 1-4 |
+| Voluntad del Señor sobre el establecimiento de ciudades en Iowa | 1-4 |

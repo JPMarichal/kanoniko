@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Promesa a Thomas B. Marsh: su familia se convertirá si cumple su misión | 1-6 |
-| El propósito de la misión | 7-8 |
-| Consejos de conducta misional y personal | 9-13 |
+| Thomas B. Marsh es bendito por su fe; promesa de bendición a su familia | 1-2 |
+| Llamamiento a predicar y cosechar en el campo para establecer la Iglesia | 3-8 |
+| Se manda ser paciente; Thomas será médico para la Iglesia; orar siempre | 9-13 |

@@ -2,5 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| En Sion, las heredades han de recibirse por medio de la consagración | 1-5 |
-| Uno poderoso y fuerte dará a los santos sus heredades en Sion | 6-12 |
+| Historia y registro de los santos en Sion; herencias por consagración | 1-5 |
+| Advertencia a quienes no den su herencia por ley a la Iglesia | 6-8 |
+| Aquellos que no estén inscritos en el libro de la ley serán rechazados | 9-12 |

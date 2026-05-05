@@ -2,5 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Las llaves del reino se han entregado al hombre para salvar al mundo | 1-2 |
-| El reino milenario de los cielos se unirá al reino de Dios en la tierra | 3-6 |
+| Las llaves del reino de Dios han sido entregadas al hombre en la tierra | 1-6 |

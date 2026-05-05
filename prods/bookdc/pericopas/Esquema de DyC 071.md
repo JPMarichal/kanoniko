@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| José Smith y Sidney Rigdon son enviados a proclamar el Evangelio | 1-4 |
-| Los enemigos de los santos serán confundidos | 5-11 |
+| Llamamiento a los élderes a confundir a los enemigos en público | 1-4 |
+| La verdad prevalece; no hay arma forjada contra Sion que prospere | 5-11 |

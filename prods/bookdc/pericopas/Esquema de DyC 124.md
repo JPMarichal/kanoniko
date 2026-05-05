@@ -2,13 +2,18 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Proclamación solemne del Evangelio al presidente de los Estados Unidos | 1-14 |
-| Mandamientos concernientes a Hyrum Smith y otros santos fieles | 15-21 |
-| Se manda a los santos edificar en Nauvoo una casa de hospedaje y un templo | 22-28 |
-| El bautismo por los muertos debe efectuarse en los templos | 29-36 |
-| El pueblo del Señor edifica templos para las ordenanzas santas | 37-44 |
-| Se exime a los santos de edificar el templo por la opresión sufrida | 45-55 |
-| Se dan instrucciones para la edificación del Mesón de Nauvoo | 56-83 |
-| Hyrum Smith es llamado como patriarca para ocupar el lugar de Oliver | 84-96 |
-| Se dan consejos a William Law y a otros hermanos en cuanto a sus obras | 97-122 |
-| Nombramiento de oficiales generales y locales con sus deberes en cuórums | 123-145 |
+| Proclamación solemne del evangelio a los reyes y gobernantes | 1-14 |
+| Instrucciones para Hyrum Smith, Lyman Wight y John C. Bennett | 15-21 |
+| Construcción de la Casa de Nauvoo (Nauvoo House) para hospedaje | 22-24 |
+| Mandato de erigir una casa al nombre del Señor en Nauvoo | 25-28 |
+| Bautismos por los muertos: necesidad de una pila en Su casa | 29-36 |
+| Leyes y ordenanzas del templo; el tabernáculo y templos antiguos | 37-44 |
+| Bendiciones y peligros; si no escuchan, serán rechazados | 45-48 |
+| El sacrificio es aceptado cuando los enemigos impiden la obra | 49-55 |
+| Establecimiento de las piedras angulares de la Casa de Nauvoo | 56-61 |
+| Protocolo para la compra de acciones y administración de la Casa | 62-83 |
+| Instrucciones para Almon Babbitt y William Law | 84-90 |
+| Hyrum Smith es llamado como Patriarca y recibe llaves y dones | 91-96 |
+| William Law y Sidney Rigdon como consejeros de la Presidencia | 97-110 |
+| Cargos específicos para Robert D. Foster y otros siervos | 111-122 |
+| Sostenimiento de los oficiales y presidencias de todos los cuórums | 123-145 |

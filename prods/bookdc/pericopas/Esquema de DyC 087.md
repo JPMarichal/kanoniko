@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se predice la guerra entre los estados del norte y los estados del sur | 1-4 |
-| Grandes calamidades descenderán sobre todos los habitantes de la tierra | 5-8 |
+| Profecía sobre la Guerra de Secesión y conflictos mundiales | 1-5 |
+| Permaneced en lugares santos hasta que venga el Señor | 6-8 |

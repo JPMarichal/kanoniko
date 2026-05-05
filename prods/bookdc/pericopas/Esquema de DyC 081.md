@@ -2,5 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| La Primera Presidencia siempre posee las llaves del reino | 1-2 |
-| Si Frederick G. Williams es fiel en su ministerio, logrará vida eterna | 3-7 |
+| Frederick G. Williams es llamado a ser consejero de la Presidencia | 1-7 |

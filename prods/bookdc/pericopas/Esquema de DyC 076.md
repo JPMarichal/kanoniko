@@ -2,13 +2,16 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor es Dios | 1-4 |
-| Los misterios del reino serán revelados a todos los fieles | 5-10 |
-| Todos saldrán o en la resurrección de los justos o en la de los injustos | 11-17 |
-| Habitantes de muchos mundos son engendrados hijos de Dios por la expiación | 18-24 |
-| Un ángel de Dios cayó y se convirtió en el diablo | 25-29 |
-| Condenación de los hijos de perdición y grados de salvación | 30-49 |
-| La gloria y el galardón de los seres exaltados en el reino celestial | 50-70 |
-| Aquellos que heredarán el reino terrestre | 71-80 |
-| El estado de los que heredarán las glorias telestial, terrestre y celestial | 81-113 |
-| Fieles verán y comprenderán misterios del Reino por el poder del Espíritu | 114-119 |
+| El Señor es Dios; sabiduría y gloria reveladas a los que le aman | 1-10 |
+| José Smith y Sidney Rigdon son iluminados por el Espíritu | 11-14 |
+| Traducción del Nuevo Testamento; meditación sobre la resurrección | 15-18 |
+| Visión de la gloria del Hijo de Dios a la diestra del Padre | 19-24 |
+| Caída de Lucifer, un hijo de la mañana, que se rebeló contra Dios | 25-27 |
+| Los hijos de perdición; aquellos que niegan al Espíritu Santo | 28-39 |
+| El evangelio testifica de la salvación de todos, menos los perdidos | 40-49 |
+| Gloria y herencia de los que alcanzan el Reino Celestial | 50-70 |
+| Naturaleza y habitantes del Reino Terrestre | 71-80 |
+| Naturaleza y habitantes del Reino Telestial | 81-90 |
+| Comparación de las glorias; salvación en gradaciones y juicio final | 91-108 |
+| Innumerable ejército de Dios; gloria eterna del Altísimo | 109-113 |
+| Lo que se ve y entiende mediante el poder del Espíritu Santo | 114-119 |

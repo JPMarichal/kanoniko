@@ -2,6 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los élderes gobernarán la Iglesia por el espíritu de revelación | 1-3 |
-| Los discípulos verdaderos recibirán y obedecerán la ley del Señor | 4-6 |
-| Edward Partridge es nombrado obispo de la Iglesia | 7-12 |
+| El Señor se deleita en bendecir a los que oyen; mandato de recibir la ley | 1-4 |
+| Quien guarda la ley es discípulo del Señor; expulsión de los indignos | 5-6 |
+| Conveniencia de edificar una casa para José Smith y Sidney Rigdon | 7-8 |
+| Edward Partridge es nombrado obispo por la pureza de su corazón | 9-12 |

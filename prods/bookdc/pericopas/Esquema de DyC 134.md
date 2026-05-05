@@ -2,7 +2,11 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los gobiernos deben preservar la libertad de conciencia y de adoración | 1-4 |
-| Todos los hombres deben sostener y apoyar a su respectivo gobierno y leyes | 5-8 |
-| Las sociedades religiosas no deben ejercer poderes civiles | 9-10 |
-| Los hombres quedan justificados si defienden su vida y propiedad | 11-12 |
+| Los gobiernos son instituidos por Dios para el beneficio del hombre | 1-2 |
+| Responsabilidad de los oficiales ante los ciudadanos | 3 |
+| El libre ejercicio de la religión; la santidad de la conciencia | 4 |
+| Sujeción a las leyes; sedición y rebelión contra el gobierno | 5-7 |
+| Inviolabilidad de las leyes y los derechos civiles | 8 |
+| Separación de la iglesia y el estado; límites de la autoridad eclesial | 9-10 |
+| Derecho a la defensa propia y de la propiedad; apelación a la ley | 11 |
+| Los gobiernos deben proteger la libertad; prohibición de la esclavitud | 12 |

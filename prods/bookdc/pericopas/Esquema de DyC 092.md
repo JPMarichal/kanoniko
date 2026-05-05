@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Un mandamiento concerniente a la admisión en la orden unida | 1-2 |
+| Frederick G. Williams debe ser admitido como miembro en la Orden Unida | 1-2 |

@@ -2,10 +2,10 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los obreros del campo del Señor logran la salvación | 1-5 |
-| Rico es el que tiene la vida eterna | 6-7 |
-| No prediquéis sino el arrepentimiento a esta generación | 8-9 |
-| Pon tu confianza en el Espíritu de revelación | 10-14 |
-| La preparación para recibir el llamamiento misional | 15-22 |
-| Consejos misionales | 23-27 |
-| Jesucristo, la vida y la luz del mundo | 28-30 |
+| Quien trabaje en la viña atesora salvación sempiterna para su alma | 1-5 |
+| No busques riquezas sino sabiduría; rico es quien tiene vida eterna | 6-7 |
+| No prediques sino el arrepentimiento a esta generación | 8-9 |
+| El Espíritu del Señor iluminará la mente y llenará el alma de gozo | 10-14 |
+| Se manda estudiar y obtener la palabra antes de intentar declararla | 15-22 |
+| Hyrum debe edificar sobre la roca y no negar el espíritu de profecía | 23-27 |
+| Cristo da poder para llegar a ser hijos de Dios a quienes creen | 28-30 |

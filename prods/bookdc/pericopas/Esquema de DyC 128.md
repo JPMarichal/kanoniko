@@ -2,12 +2,15 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los registradores deben dar fe de los bautismos por los muertos | 1-5 |
-| Los registros tendrán validez tanto en la tierra como en los cielos | 6-9 |
-| Las llaves del reino se han entregado al hombre para salvar al mundo | 10-11 |
-| La pila bautismal es una semejanza del sepulcro | 12-13 |
-| Relación entre las llaves del reino y los registros | 14 |
-| Elías el profeta restauró el poder referente al bautismo por los muertos | 15-18 |
-| Restauración de todas las llaves y autoridades de dispensaciones pasadas | 19-21 |
-| Se proclaman alegres y gloriosas nuevas para los vivos y los muertos | 22-24 |
-| Palabras de despedida | 25 |
+| Orden en los registros de los bautismos por los muertos | 1 |
+| Un registrador en cada barrio; testimonio ante tres testigos | 2-4 |
+| Designación de un registrador general para toda la Iglesia | 5 |
+| Lo atado en la tierra será atado en los cielos; el libro de la vida | 6-9 |
+| Las llaves del reino y el poder de sellar sobre la tierra | 10-11 |
+| La pila bautismal bajo tierra en similitud de la tumba | 12-14 |
+| El eslabón conexivo entre padres e hijos; salvación de los muertos | 15-18 |
+| ¿Qué es lo que oímos? El anuncio de un mensaje glorioso | 19 |
+| Voces de mensajeros antiguos: Moroni, Michael, Pedro, Santiago y Juan | 20-21 |
+| ¡Avanzad en tan noble causa! Que el corazón se alegre | 22-23 |
+| Hagamos un registro digno de toda aceptación ante Dios | 24 |
+| Testimonio y despedida final de José Smith | 25 |

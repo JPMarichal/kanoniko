@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se reprende a David Whitmer por no haber servido diligentemente | 1-4 |
-| Peter Whitmer acompañará a Oliver Cowdery en misión a los lamanitas | 5-8 |
-| John Whitmer es llamado a predicar el Evangelio | 9-11 |
+| David Whitmer es reprendido por temer al hombre y mandado a servir | 1-4 |
+| Peter Whitmer acompañará a Oliver en su viaje hacia los lamanitas | 5-8 |
+| John Whitmer proclamará el evangelio en Sion con toda su alma | 9-11 |

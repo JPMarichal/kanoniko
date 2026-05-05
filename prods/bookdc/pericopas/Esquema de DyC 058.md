@@ -2,12 +2,10 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Aquellos que soporten la tribulación serán coronados con gloria | 1-5 |
-| Los santos deben prepararse para bodas del Cordero y cena del Señor | 6-12 |
-| Los obispos son jueces en Israel | 13-18 |
-| Los santos deben obedecer las leyes del país | 19-23 |
-| Los hombres deben emplear su albedrío para hacer lo bueno | 24-29 |
-| El Señor manda y revoca | 30-33 |
-| Para arrepentirse, los hombres deben confesar sus pecados y abandonarlos | 34-43 |
-| Los santos deben comprar su heredad y congregarse en Misuri | 44-58 |
-| Se debe predicar el Evangelio a toda criatura | 59-65 |
+| No se ve ahora el fin del Señor; después de la tribulación viene gloria | 1-5 |
+| Sion preparará la cena del Cordero; las naciones son invitadas | 6-13 |
+| Deberes del obispo; obediencia a las leyes de Dios y del país | 14-23 |
+| Utilizad vuestro albedrío; el que espera ser mandado es ocioso | 24-33 |
+| El arrepentimiento requiere confesar y abandonar el pecado | 34-43 |
+| Compra de tierras; instrucciones para el establecimiento de los santos | 44-60 |
+| El evangelio debe ser predicado de Sion a toda criatura | 61-65 |

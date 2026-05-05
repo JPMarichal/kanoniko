@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor designa cuatro misioneros para predicar a los lamanitas | 1-3 |
-| Deben orar para entender las escrituras | 4-5 |
+| Llamamiento a Parley P. Pratt y otros a predicar a los lamanitas | 1-3 |
+| No dirán haber recibido otra revelación; orar por entendimiento | 4-5 |

@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se encomia a Brigham Young y se le releva de viajar al extranjero | 1-3 |
+| Brigham Young no necesita viajar más; debe cuidar de su familia | 1-3 |

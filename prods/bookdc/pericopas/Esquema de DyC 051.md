@@ -2,7 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Edward Partridge es nombrado para regular las mayordomías y las propiedades | 1-8 |
-| Los santos deben actuar con honradez y recibir partes iguales | 9-12 |
-| Deben tener almacén del obispo y organizar propiedades según la ley | 13-15 |
-| Ohio será un sitio provisional de recogimiento | 16-20 |
+| Instrucciones a Edward Partridge para organizar al pueblo por ley | 1-2 |
+| Porciones iguales para cada familia; seguridad mediante escrituras | 3-7 |
+| Nombramiento de un agente; honestidad e igualdad para ser uno | 8-12 |
+| Establecimiento del almacén del obispo para administrar excedentes | 13-15 |
+| Ohio es una tierra provisional; promesa de vida eterna a los fieles | 16-20 |

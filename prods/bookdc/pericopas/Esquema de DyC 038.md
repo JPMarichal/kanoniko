@@ -2,11 +2,10 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Cristo creó todas las cosas | 1-6 |
-| Cristo se halla en medio de Sus santos, que pronto lo verán | 7-8 |
-| Toda carne se ha corrompido delante de Él | 9-12 |
-| Tierra prometida reservada para los santos por tiempo y eternidad | 13-22 |
-| Se manda a los santos ser uno y estimarse unos a otros como hermanos | 23-27 |
-| Se predicen guerras | 28-29 |
-| Se dará a los santos poder de lo alto e irán a todas las naciones | 30-33 |
-| Mandato a los miembros de velar por pobres y buscar riquezas | 34-42 |
+| Jesucristo ve todas las cosas y aboga por quienes creen en Su nombre | 1-6 |
+| El Señor está en medio de Su pueblo y en breve el velo será rasgado | 7-12 |
+| El enemigo busca vuestra destrucción; seréis misericordiosamente salvos | 13-15 |
+| Promesa de una tierra de herencia; Cristo reinará como Rey y Legislador | 16-22 |
+| Sed uno; si no sois uno, no sois míos; parábola de los doce hijos | 23-27 |
+| Traslado a Ohio para recibir la ley y ser investidos con poder | 28-33 |
+| Cuidado de los pobres; mandato de ser limpios al llevar los vasos del Señor | 34-42 |

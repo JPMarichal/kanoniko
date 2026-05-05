@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Jared Carter es llamado a predicar el evangelio por medio del Consolador | 1-4 |
+| Jared Carter es llamado a predicar el evangelio por el Consolador | 1-4 |

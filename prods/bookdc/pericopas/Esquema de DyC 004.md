@@ -2,6 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El servicio fiel salva a los ministros del Señor | 1-4 |
-| Los atributos divinos que califican para el ministerio | 5-6 |
-| Se deben procurar las cosas de Dios | 7 |
+| Una obra maravillosa está a punto de aparecer entre los hombres | 1 |
+| Quienes deseen servir deben hacerlo con todo el corazón | 2-4 |
+| Las virtudes divinas que califican al siervo para la obra | 5-6 |
+| Se manda pedir, llamar y buscar para recibir de Dios | 7 |

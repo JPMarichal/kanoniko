@@ -2,9 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Muchos santos radicados en Sión son bendecidos por su fidelidad | 1-2 |
-| Se encomia a Parley P. Pratt por sus tareas en la escuela de Sión | 3-5 |
-| Aquellos que cumplen sus convenios son aceptados por el Señor | 6-9 |
-| Se ha de construir en Sión casa donde los puros de corazón verán a Dios | 10-17 |
-| Sión es los puros de corazón | 18-21 |
-| Sión se librará del azote del Señor si es fiel | 22-28 |
+| El Señor acepta el sacrificio de los santos fieles en Sion | 1-9 |
+| Se manda edificar un templo en Sion; los puros de corazón verán a Dios | 10-17 |
+| Sion son los puros de corazón; lugar de paz y gloria | 18-21 |
+| Amonestación sobre los juicios si Sion no es fiel a su convenio | 22-28 |

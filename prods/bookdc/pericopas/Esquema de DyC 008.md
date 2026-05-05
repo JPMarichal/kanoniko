@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se describe el espíritu de revelación | 1-3 |
-| Oliver Cowdery es bendecido con el don de revelación | 4-5 |
-| Oliver Cowdery es bendecido con el don de Aarón | 6-9 |
-| Se indica a Oliver Cowdery lo que debe pedir a Dios | 10-12 |
+| El espíritu de revelación habla a la mente y al corazón | 1-3 |
+| Este don de revelación librará a Oliver de sus enemigos | 4-5 |
+| El don de Aarón permite realizar obras maravillosas bajo fe | 6-9 |
+| Se debe pedir con fe y no jugar con las cosas sagradas | 10-12 |

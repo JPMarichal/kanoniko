@@ -2,12 +2,11 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Las aflicciones que padezcan los santos serán para su bien | 1-3 |
-| Los santos deben apoyar la ley constitucional del país | 4-8 |
-| Se debe apoyar a hombres honrados, sabios y rectos para el gobierno secular | 9-10 |
-| Aquellos que pierdan su vida en la causa del Señor tendrán vida eterna | 11-15 |
-| Renunciad a la guerra y proclamad la paz | 16-18 |
-| Se reprende a los santos de Kirtland y se les manda arrepentirse | 19-22 |
-| Señor revela leyes sobre persecuciones y aflicciones impuestas a Su pueblo | 23-32 |
-| La guerra se justifica únicamente cuando el Señor la ordena | 33-38 |
-| Los santos deben perdonar a sus enemigos para que estos se salven | 39-48 |
+| Paciencia en la aflicción; todas las cosas obrarán para vuestro bien | 1-3 |
+| Apoyo a la ley constitucional del país y a gobernantes íntegros | 4-10 |
+| Fidelidad hasta el fin; el que pierde su vida la hallará | 11-15 |
+| Renunciad a la guerra y proclamad la paz entre las naciones | 16-18 |
+| Reprensión a los santos de Kirtland; amonestación a ser humildes | 19-22 |
+| Leyes del Señor sobre la persecución: soportar con paciencia | 23-32 |
+| Justificación del uso de la fuerza solo bajo mandato divino | 33-38 |
+| Los santos deben perdonar a sus enemigos hasta setenta veces siete | 39-48 |

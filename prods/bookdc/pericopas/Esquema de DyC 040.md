@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Temor a la persecución y afanes del mundo causan rechazo del Evangelio | 1-3 |
+| James Covel quebrantó el convenio por temor a la persecución | 1-3 |

@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se indican los emblemas a utilizar durante la Santa Cena | 1-4 |
-| Cristo y sus siervos participarán de la Santa Cena en toda dispensación | 5-14 |
-| Tomad sobre vosotros toda la armadura de Dios | 15-18 |
+| No importa lo que comáis o bebáis al participar de la Santa Cena | 1-4 |
+| Cristo beberá el fruto de la vid con Sus siervos de todas las épocas | 5-14 |
+| Vestíos de toda la armadura de Dios para persistir en el día malo | 15-18 |

@@ -2,18 +2,14 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Cristo es nuestro intercesor ante el Padre | 1-5 |
-| El evangelio es un mensajero para preparar el camino delante del Señor | 6-10 |
-| Enoc y sus hermanos fueron recibidos por el Señor | 11-15 |
-| Cristo reveló las señales de su venida sobre el Monte de los Olivos | 16-23 |
-| La dispersión y el recogimiento | 24-25 |
-| El amor de los hombres se enfriará | 26-27 |
-| La resistencia al evangelio | 28-30 |
-| Enfermedades y devastaciones | 31-33 |
-| La parábola de las hojas de la higuera | 34-40 |
-| Las señales de la venida del Hijo del Hombre | 41-47 |
-| Cristo asentará el pie sobre el Monte de los Olivos | 48-53 |
-| El Señor reinará durante el Milenio | 54-59 |
-| Se manda a José Smith comenzar la traducción del Nuevo Testamento | 60-62 |
-| Se manda a los santos congregarse y edificar la Nueva Jerusalén | 63-71 |
-| Se debe esperar para compartir esta revelación | 72-75 |
+| Cristo es el intercesor ante el Padre y aboga por los que creen | 1-5 |
+| El convenio sempiterno prepara el camino; sabiduría de Dios y Enoc | 6-15 |
+| La desolación de Jerusalén y la dispersión de los judíos por las naciones | 16-23 |
+| Señales del fin de los tiempos: guerras, terremotos y falta de amor | 24-33 |
+| Parábola de la higuera; los que temen al Señor esperan Su venida | 34-40 |
+| Señales de sangre y fuego; los santos resucitarán para recibir al Señor | 41-47 |
+| El Señor pondrá Su pie sobre el Monte de los Olivos y será reconocido | 48-53 |
+| Redención de naciones paganas y niños; el Señor será Rey y Legislador | 54-59 |
+| Se manda traducir el Nuevo Testamento para entender estos misterios | 60-62 |
+| Nueva Jerusalén: lugar de seguridad y paz llamado Sion para los santos | 63-71 |
+| Los inicuos temblarán ante el terror y el poder del Señor | 72-75 |

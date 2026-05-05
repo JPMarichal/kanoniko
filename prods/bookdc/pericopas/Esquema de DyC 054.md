@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos deben guardar el convenio para obtener misericordia | 1-6 |
-| Deben ser pacientes en la tribulación | 7-10 |
+| Consuelo ante el convenio quebrantado; el Señor no olvida a Sus santos | 1-6 |
+| El grupo de Colesville es mandado a ir a Misuri con Newel Knight | 7-10 |

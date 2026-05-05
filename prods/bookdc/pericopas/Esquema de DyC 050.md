@@ -2,11 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Hay muchos espíritus falsos que andan por la tierra | 1-5 |
-| Ay de los hipócritas y de aquellos que son separados de la Iglesia | 6-9 |
-| Los élderes deben predicar el Evangelio por el Espíritu | 10-14 |
-| Predicadores y oyentes deben ser iluminados por el Espíritu | 15-22 |
-| Lo que no edifica no es de Dios | 23-25 |
-| Los fieles son poseedores de todas las cosas | 26-28 |
-| Las oraciones de los que son purificados son contestadas | 29-36 |
-| Cristo es el Buen Pastor y la Roca de Israel | 37-46 |
+| Muchos espíritus falsos andan por la tierra engañando al mundo | 1-9 |
+| El que predica y el que recibe por el Espíritu se edifican mutuamente | 10-22 |
+| Lo que es de Dios es luz; el que recibe luz recibe más luz | 23-30 |
+| Poder para discernir y reprender a los espíritus que no son de Dios | 31-36 |
+| Cristo es el Buen Pastor y la Roca sobre la cual Sus santos crecen | 37-46 |

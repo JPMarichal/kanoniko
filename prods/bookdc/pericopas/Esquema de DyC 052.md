@@ -2,8 +2,10 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se designa que la siguiente conferencia se ha de efectuar en Misuri | 1-2 |
-| Nombramiento de ciertos élderes para que viajen juntos | 3-8 |
-| Los élderes deben enseñar lo que han escrito los apóstoles y profetas | 9-11 |
-| Los iluminados por el Espíritu producen frutos de alabanza y sabiduría | 12-21 |
-| Varios élderes nombrados para predicar durante viaje a Misuri | 22-44 |
+| Se designa la convocatoria de la próxima conferencia en Misuri | 1-2 |
+| Parejas de élderes son nombradas para viajar y predicar el evangelio | 3-8 |
+| Los élderes deben enseñar las palabras de los profetas y apóstoles | 9-13 |
+| Patrón de discernimiento: el que es contrito y obedece es de Dios | 14-19 |
+| Joseph Smith y Sidney Rigdon viajarán primero; otros nombramientos | 20-32 |
+| Instrucciones de obediencia y cuidado de los pobres y necesitados | 33-41 |
+| El fiel se regocijará; el que no es fiel será talado finalmente | 42-44 |

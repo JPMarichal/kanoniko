@@ -2,11 +2,11 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Respuesta a la solicitud de Martín Harris | 1-3 |
-| La importancia del don de traducción de José Smith | 4 |
-| Esta generación recibirá la palabra del Señor por medio de José Smith | 5-10 |
-| Tres testigos darán testimonio del Libro de Mormón | 11-18 |
-| La plaga desoladora y el cumplimiento de la palabra del Señor | 19-20 |
-| Se promete a José Smith la vida eterna | 21-22 |
-| Martín Harris podrá arrepentirse y ser uno de los testigos | 23-28 |
-| La previsión del Señor sobre la caída de Martín Harris | 29-35 |
+| El Señor manda a José Smith no mostrar las planchas sino bajo convenio | 1-3 |
+| El primer don de José Smith es la traducción; otros vendrán después | 4 |
+| Esta generación recibirá la palabra del Señor mediante José Smith | 5-10 |
+| Se promete el testimonio de tres testigos por el poder de Dios | 11-18 |
+| Advertencia de destrucción si el mundo no se arrepiente | 19-20 |
+| Promesa de vida eterna si José Smith es fiel ante las asechanzas | 21-22 |
+| Condiciones y conducta requerida para que Martín Harris sea testigo | 23-28 |
+| Mandato de pausar la traducción para evitar planes de destrucción | 29-35 |

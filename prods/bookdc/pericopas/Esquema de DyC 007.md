@@ -2,6 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se concedió a Juan el Amado permanecer hasta la Segunda Venida | 1-3 |
-| La respuesta del Señor a la inquietud de Pedro | 4-6 |
-| Se prometen llaves especiales a Pedro, Santiago y Juan | 7-8 |
+| Juan el Amado desea permanecer para traer almas hasta la Venida | 1-3 |
+| Pedro desea venir pronto al reino; ambos deseos son buenos | 4-6 |
+| Llaves del ministerio dadas a Pedro, Santiago y Juan | 7-8 |

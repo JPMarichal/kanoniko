@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Derecho de mujeres y niños a recibir sostén de esposos y padres | 1-4 |
-| Derecho de viudas y huérfanos a recurrir a la Iglesia para su sostén | 5-6 |
+| Derecho de las viudas y los huérfanos a recibir apoyo de la Iglesia | 1-4 |
+| Responsabilidad del almacén hacia quienes no tienen sostén familiar | 5-6 |

@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor explica el significado de la parábola del trigo y la cizaña | 1-7 |
-| Explica bendiciones del sacerdocio para herederos legítimos según la carne | 8-11 |
+| Explicación de la parábola; el sacerdocio y la recolección final | 1-7 |
+| Bendiciones para el sacerdocio; linaje de los padres es preservado | 8-11 |

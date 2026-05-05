@@ -2,5 +2,6 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El Señor pone Su mano sobre Edward Partridge mediante Sidney Rigdon | 1-3 |
-| Quien recibe el Evangelio y el sacerdocio es llamado a predicar | 4-8 |
+| Edward Partridge es bendito y llamado a predicar con voz de trompeta | 1-3 |
+| Llamamiento general a ser ordenados y predicar el evangelio sempiterno | 4-7 |
+| Jesucristo es el Hijo de Dios y vendrá súbitamente a Su templo | 8 |

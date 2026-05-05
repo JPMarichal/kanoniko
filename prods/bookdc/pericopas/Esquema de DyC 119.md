@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Diezmo: donación de bienes sobrantes y de la décima parte del interés | 1-5 |
-| Tal procedimiento santificará la tierra de Sion | 6-7 |
+| Definición de la ley del diezmo: excedente inicial y décima anual | 1-4 |
+| Importancia de observar la ley para que Sion sea santificada | 5-7 |

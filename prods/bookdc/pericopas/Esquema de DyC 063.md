@@ -2,15 +2,14 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Un día de ira sobrevendrá a los inicuos | 1-6 |
-| Las señales vienen por la fe | 7-12 |
-| Los de corazón adúltero negarán la fe y serán arrojados al lago de fuego | 13-19 |
-| Los fieles recibirán una herencia sobre la tierra transfigurada | 20 |
-| No se ha revelado aún el relato completo del monte de la Transfiguración | 21 |
-| Los obedientes reciben los misterios del reino | 22-23 |
-| Se han de comprar tierras o heredades en Sion | 24-31 |
-| El Señor decreta guerras, y los inicuos matan a los inicuos | 32-35 |
-| Los santos deben congregarse en Sion y financiar su edificación | 36-48 |
-| Bendiciones aseguradas a los fieles en la Segunda Venida y Resurrección | 49-54 |
-| Este es un día de amonestación | 55-58 |
-| Aquellos que usan el nombre del Señor sin autoridad lo toman en vano | 59-66 |
+| Escuchad la voz del Señor; los rebeldes serán castigados con ira | 1-6 |
+| Las señales siguen a los que creen; no las busquéis para consumir | 7-12 |
+| Advertencia contra el adulterio y las combinaciones secretas | 13-19 |
+| Los fieles serán transfigurados y heredarán la tierra; misterios | 20-23 |
+| Instrucciones de compra de tierras en Sion; no por sangre | 24-31 |
+| El Señor está enojado con los inicuos; guerra y azotes entre ellos | 32-35 |
+| Madato de congregarse en Sion; uso de las llaves del reino y recursos | 36-46 |
+| Bendición para los fieles; la muerte en el Señor les será dulce | 47-54 |
+| Sidney Rigdon es reprendido por su orgullo en la escritura | 55-56 |
+| No toméis el nombre del Señor en vano; hablad con reverencia | 57-64 |
+| El Espíritu no siempre contenderá con el hombre | 65-66 |

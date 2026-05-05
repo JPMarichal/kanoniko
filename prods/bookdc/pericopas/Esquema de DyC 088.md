@@ -2,20 +2,19 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos fieles reciben ese Consolador que es la promesa de vida eterna | 1-5 |
-| La Luz de Cristo dirige y gobierna todas las cosas | 6-13 |
-| La Resurrección viene por medio de la Redención | 14-16 |
-| Obediencia a la ley celestial, terrestre o telestial para esos reinos | 17-31 |
-| Aquellos que disponen permanecer en el pecado permanecen sucios aún | 32-35 |
-| Todos los reinos son gobernados por la ley | 36-41 |
-| Dios ha dado una ley a todas las cosas | 42-45 |
-| El hombre comprenderá aun a Dios | 46-50 |
-| Parábola del hombre que envía a sus siervos al campo y los visita | 51-61 |
-| Allegaos al Señor y veréis Su faz | 62-73 |
-| Santificaos y enseñaos unos a otros la doctrina del reino | 74-80 |
-| Todo hombre que ha sido amonestado debe amonestar a su prójimo | 81-85 |
-| Señales y ángeles preparan el camino para la venida del Señor | 86-94 |
-| Las trompetas angelicales llaman a los muertos a levantarse según su orden | 95-102 |
-| Las trompetas proclaman restauración de Evangelio y caída de Babilonia | 103-116 |
-| Buscad conocimiento, estableced casa de Dios y vestíos de caridad | 117-126 |
-| Orden de la Escuela de los Profetas y el lavamiento de pies | 127-141 |
+| Mensaje de paz; el Consolador permanece con los fieles | 1-6 |
+| Luz de Cristo; vida y ley por las cuales todas las cosas se gobiernan | 7-13 |
+| Resurrección del cuerpo; la tierra será celestializada para los santos | 14-20 |
+| Diferentes reinos y leyes; cada uno recibe según la ley que obedece | 21-33 |
+| Inteligencia y verdad; el Señor comprende y llena todas las cosas | 34-40 |
+| El orden del universo; astros y mundos se mueven bajo Su ley | 41-50 |
+| Parábola de los siervos en el campo; el Señor visita a cada uno | 51-61 |
+| Acercaos al Señor y Él se acercará a vosotros; santificaos | 62-69 |
+| Se manda a los élderes congregarse y prepararse para el ministerio | 70-76 |
+| Instruidos en doctrina y leyes; conocimiento de la tierra y reinos | 77-80 |
+| Advertencia del juicio venidero; cada hombre debe amonestar | 81-86 |
+| Señales de la Segunda Venida; terremotos, truenos y la voz de ángeles | 87-94 |
+| Resurrección de los muertos en orden; sonido de las siete trompetas | 95-107 |
+| Miguel vence al dragón; fin del milenio y batalla final | 108-116 |
+| Instrucciones sobre la escuela de los profetas y la edificación | 117-126 |
+| El saludo de paz y el lavamiento de pies en la escuela | 127-141 |

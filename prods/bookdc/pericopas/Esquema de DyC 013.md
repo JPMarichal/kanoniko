@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se declaran las llaves y los poderes del Sacerdocio Aarónico | 1 |
+| Juan el Bautista confiere las llaves del Sacerdocio de Aarón | 1 |

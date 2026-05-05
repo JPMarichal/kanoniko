@@ -2,7 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se explica a Oliver Cowdery por qué no pudo traducir | 1-6 |
-| Se indica cómo meditar y orar para recibir revelación | 7-9 |
-| Se pasó la oportunidad para que Oliver Cowdery tradujese | 10-12 |
-| Consérvate firme en la obra a la cual te he llamado | 13-14 |
+| Oliver Cowdery debe ser paciente y continuar dictando a José Smith | 1-6 |
+| Se enseña el proceso de la revelación: estudiar y preguntar | 7-9 |
+| La oportunidad de traducir pasó por motivo del miedo | 10-12 |
+| Ser firme en la obra garantiza la exaltación en el postrer día | 13-14 |

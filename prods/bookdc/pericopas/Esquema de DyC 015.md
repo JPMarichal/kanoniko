@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| El brazo del Señor se extiende sobre toda la tierra | 1-2 |
-| Predicar el evangelio y salvar almas es lo de mayor valor | 3-6 |
+| El Señor habla con claridad y poder a su siervo John Whitmer | 1-2 |
+| Lo de mayor valor para el hombre es traer almas al Salvador | 3-6 |

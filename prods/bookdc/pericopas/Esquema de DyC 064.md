@@ -2,10 +2,11 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos deben perdonarse unos a otros para evitar el mayor pecado | 1-11 |
-| Los que no se arrepientan han de comparecer ante la Iglesia | 12-22 |
-| El que es diezmado no será quemado a la venida del Señor | 23-25 |
-| Se amonesta a los santos a evitar las deudas | 26-32 |
-| Los rebeldes serán desterrados de Sion | 33-36 |
-| La Iglesia juzgará a las naciones | 37-40 |
-| Sion florecerá | 41-43 |
+| El Señor perdona los pecados de Sus siervos; sed compasivos | 1-6 |
+| Se manda perdonar a todos los hombres; el mayor pecado es no perdonar | 7-11 |
+| No juzguéis a vuestros enemigos; dejad el juicio al Señor | 12-17 |
+| Instrucciones para Isaac Morley y Edward Partridge sobre sus granjas | 18-22 |
+| Hoy es día de sacrificio y diezmo; el que es diezmado no se quemará | 23-25 |
+| No os canséis de hacer el bien; de las cosas pequeñas proceden grandes | 26-33 |
+| El obediente comerá lo bueno de Sion; los rebeldes serán desterrados | 34-40 |
+| Sion será un estandarte para las naciones | 41-43 |

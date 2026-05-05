@@ -2,7 +2,8 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los élderes fieles que predican el Evangelio lograrán la vida eterna | 1-5 |
-| Debe orarse para recibir al Consolador, que enseña todas las cosas | 6-12 |
-| Los élderes juzgarán a aquellos que rechacen su mensaje | 13-22 |
-| Las familias de los misioneros deben recibir ayuda de la Iglesia | 23-36 |
+| Los élderes son bendecidos por su fidelidad al predicar el evangelio | 1-5 |
+| Llamamientos misionales específicos y bendiciones de gozo prometidas | 6-12 |
+| Advertencia a quienes rechacen el mensaje; sacudid el polvo | 13-22 |
+| Deber de la Iglesia de sostener a las familias de los misioneros | 23-28 |
+| Nombramientos adicionales; sed diligentes y haced oraciones de fe | 29-36 |

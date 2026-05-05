@@ -2,6 +2,7 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se nombran mayordomos para publicar las revelaciones | 1-5 |
-| Aquellos que obran en las cosas espirituales son dignos de su salario | 6-13 |
-| Los santos deben ser iguales en cuanto a las cosas temporales | 14-18 |
+| Nombramiento de mayordomos para las revelaciones del Señor | 1-5 |
+| Dignidad del salario del obrero en las cosas espirituales | 6-11 |
+| Dedicación de los excedentes al almacén para el auxilio de los pobres | 12-14 |
+| Mandato de ser fieles y constantes en la mayordomía asignada | 15-18 |

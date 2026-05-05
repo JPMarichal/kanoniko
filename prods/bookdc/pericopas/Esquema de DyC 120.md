@@ -2,4 +2,4 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Se integra el Consejo de disposición de diezmos | 1 |
+| Administración del diezmo por el Consejo de Disposición de Diezmos | 1 |

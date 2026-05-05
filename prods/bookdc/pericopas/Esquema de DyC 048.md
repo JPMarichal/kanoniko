@@ -2,5 +2,5 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos radicados en Ohio deben compartir sus terrenos con sus hermanos | 1-3 |
-| Los santos deben comprar tierras, edificar ciudad y seguir a sus oficiales | 4-6 |
+| Paciencia en la compra de tierras; compartid terrenos con los hermanos | 1-3 |
+| Ahorrad dinero para comprar la herencia y fundar la ciudad de Sion | 4-6 |
