@@ -2,14 +2,12 @@
 
 | Titulo | Versículos |
 |--------|------------|
-| Los santos fieles reciben ese Consolador que es la promesa de vida eterna | 1-5 |
-| La Luz de Cristo dirige y gobierna todas las cosas | 6-13 |
-| La Resurrección viene por medio de la Redención | 14-16 |
-| Obediencia a la ley celestial, terrestre o telestial para esos reinos | 17-31 |
-| Aquellos que disponen permanecer en el pecado permanecen sucios aún | 32-35 |
-| Todos los reinos son gobernados por la ley | 36-41 |
-| Dios ha dado una ley a todas las cosas | 42-45 |
-| El hombre comprenderá aun a Dios | 46-50 |
-| Parábola del hombre que envía a sus siervos al campo y los visita por turno | 51-61 |
-| Allegaos al Señor y veréis Su faz | 62-73 |
-| Santificaos y enseñaos unos a otros la doctrina del reino | 74-80 |
+| Oración de acción de gracias por la Casa del Señor | 1-9 |
+| Petición para que la gloria del Señor descanse sobre Su casa | 10-21 |
+| Petición para que los siervos de Dios salgan con poder de Su casa | 22-33 |
+| Petición de misericordia, liberación y el don de lenguas | 34-42 |
+| Súplica por los santos perseguidos en el condado de Jackson | 43-53 |
+| Petición de misericordia para todas las naciones y reyes | 54-58 |
+| Petición por el recogimiento de los hijos de Jacob y Judá | 59-67 |
+| Oración por José Smith, su familia y todos los líderes de la Iglesia | 68-76 |
+| Alabanza al Señor y aceptación de la dedicación del templo | 77-80 |

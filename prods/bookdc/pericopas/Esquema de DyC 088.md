@@ -16,6 +16,6 @@
 | Todo hombre que ha sido amonestado debe amonestar a su prójimo | 81-85 |
 | Señales y ángeles preparan el camino para la venida del Señor | 86-94 |
 | Las trompetas angelicales llaman a los muertos a levantarse según su orden | 95-102 |
-| Las trompetas angelicales proclaman restauración del Evangelio, caída de | 103-116 |
+| Las trompetas proclaman restauración de Evangelio y caída de Babilonia | 103-116 |
 | Buscad conocimiento, estableced casa de Dios y vestíos de caridad | 117-126 |
 | Orden de la Escuela de los Profetas y el lavamiento de pies | 127-141 |

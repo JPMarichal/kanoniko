@@ -7,7 +7,7 @@
 | Sion y sus estacas serán establecidas | 16-21 |
 | Se expone la naturaleza de la vida durante el Milenio | 22-31 |
 | Los santos serán entonces bendecidos y recompensados | 32-42 |
-| La parábola del noble y los olivos representa dificultades y redención f | 43-62 |
+| Parábola del noble y los olivos: dificultades y la redención final | 43-62 |
 | Los santos deben continuar congregándose | 63-75 |
 | El Señor estableció la Constitución de los Estados Unidos | 76-80 |
-| Los santos deben insistir en justicia por daños recibidos, conforme a pa | 81-101 |
+| Los santos deben pedir justicia según la parábola del juez injusto | 81-101 |

@@ -5,7 +5,7 @@
 | La Nueva Jerusalén y el templo serán edificados en Misuri | 1-5 |
 | Se da la línea del sacerdocio desde Moisés hasta Adán | 6-17 |
 | El sacerdocio mayor posee la llave del conocimiento de Dios | 18-25 |
-| El sacerdocio menor tiene llave de ministerio de ángeles y Evangelio pre | 26-32 |
+| El sacerdocio menor posee la llave del ministerio de ángeles | 26-32 |
 | Hombres logran vida eterna por juramento y convenio del sacerdocio | 33-44 |
 | Espíritu de Cristo ilumina a hombres, y el mundo yace en pecado | 45-53 |
 | Los santos deben testificar de las cosas que han recibido | 54-61 |
