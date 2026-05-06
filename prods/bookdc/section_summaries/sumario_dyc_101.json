@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "CreativeWork",
+  "headline": "Revelación del Señor a Joseph Smith, Facsimile #3, Versión Original (1843)",
+  "dateCreated": "1843",
+  "url": "/revelation-on-moses/facsimile-3/original-version/1843",
+  "inLanguage": "es",
+  "isPartOf": {
+    "@type": "Book",
+    "name": "Revelación de los Señores Moisés y Ésaú"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Dios Padre Celestial; Cristo Jesús"
+  },
+  "description": "Este pasaje proporciona una interpretación simbólica del Facsimile #3 de la Revelación de Moisés, ofreciendo a los lectores una comprensión profunda de las enseñanzas y significados ocultos en esta imagen. El texto incluye detalladas descripciones y explicaciones de cada elemento visual presentado en el facsímile."
+}

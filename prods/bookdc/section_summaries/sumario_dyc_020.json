@@ -1,0 +1,26 @@
+{
+  "Title": "The Doctrine and Covenants - Section 20: Organization and Endowments",
+  "Date": "31 October 1834",
+  "Content": [
+    {
+      "type": "Organization",
+      "description": "Describes the organizational structure of The Church of Jesus Christ of Latter-day Saints, including the roles of elders, bishops, presbyters, teachers and deacons."
+    },
+    {
+      "type": "Baptism",
+      "description": "Details the process for baptism, including administration by authorized individuals and appropriate language to be used during the ordinance."
+    },
+    {
+      "type": "Communion",
+      "description": "Explains the proper way to administer the sacrament of communion (also called the Lord's Supper), including prayer over the elements and the symbolic meaning behind them."
+    },
+    {
+      "type": "Discipline",
+      "description": "Outlines procedures for dealing with members who violate church discipline, including expelling those who do not repent."
+    },
+    {
+      "type": "Records",
+      "description": "Addresses record keeping practices within the church, such as maintaining membership records and handling transfers between congregations."
+    }
+  ]
+}
