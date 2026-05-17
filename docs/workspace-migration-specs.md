@@ -1111,7 +1111,18 @@ engine = (SearchEngineBuilder()
 
 ## 11. Pendientes Críticos Antes de Workspace Migration
 
-Según `docs/postgres-migration-status.md`, la migración a Postgres está en **Phase 1** (infra completa, feature-flagged, pero write path NO migrado).
+Según `docs/postgres-migration-status.md` y revisión actual del código, la migración a Postgres está en **Phase 1**:
+
+**Completado:**
+- ✅ Infra completa (Postgres 16 + pgvector en IONOS VPS)
+- ✅ Read path completo (search layer ya está 100% en Postgres - textual.py y semantic.py)
+- ✅ Storage layer Postgres (connection, schema, DDL)
+- ✅ KG cleanup scripts (R0, R7)
+- ✅ Feature-flagged (default "sqlite")
+
+**Pendiente:**
+- ❌ Write path NO migrado (ingestion aún usa SQLite/Neo4j)
+- ❌ KG client parcial (3/34 métodos implementados)
 
 ### Blockers
 
