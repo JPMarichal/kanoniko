@@ -2,7 +2,7 @@
 
 > **Objetivo:** Completar los pendientes críticos de la migración a Postgres antes de iniciar la migración a workspace uv + hatch.
 > 
-> **Tiempo estimado total:** 7-11 días (secuencial)
+> **Tiempo estimado total:** 0.5 días (solo R5 honorifics)
 
 ---
 
@@ -10,113 +10,94 @@
 
 | ID | Pendiente | Prioridad | Tiempo Estimado | Dependencias |
 |----|-----------|-----------|-----------------|--------------|
-| 1 | PR #2: postgres-write-path | CRÍTICO | 3-5 días | Ninguna |
-| 2 | PR #1: postgres-kg-client-rest | ALTA | 3-4 días | Ninguna |
-| 3 | KG Refactor R1-R3 | MEDIA | 1-2 días | PR #2 |
+| 1 | PR #2: postgres-write-path | CRÍTICO | COMPLETADO | Ninguna |
+| 2 | PR #1: postgres-kg-client-rest | ALTA | COMPLETADO | Ninguna |
+| 3 | R5: Cross-Language Honorifics | MEDIA | 0.5 días | Ninguna |
 
-**Orden recomendado:** PR #2 → PR #1 → KG Refactor R1-R3
+**Orden recomendado:** PR #2 → PR #1 → R5
+
+**Tiempo estimado total:** 0.5 días (solo R5 honorifics)
 
 ---
 
-## PR #2: postgres-write-path (CRÍTICO - 3-5 días)
+## PR #2: postgres-write-path (CRÍTICO - 1-2 días)
 
 ### Objetivo
-Portar el write path de ingesta a Postgres para eliminar dependencia de SQLite/Neo4j en escritura.
+Eliminar referencias restantes a Neo4j/SQLite en el write path de ingesta.
 
-### Estado Actual
-- ✅ `postgres_registry.py` existe pero no está integrado
-- ✅ `postgres_profile_store.py` existe
-- ❌ `ingestion/registry.py` aún usa SQLite
-- ❌ `ingestion/pipeline.py` aún usa Neo4j UNWIND
-- ❌ `_staging_profiles` quedó del migrador SQLite
+### Estado Actual (Actualizado 2026-05-17)
+
+**YA COMPLETADO:**
+- ✅ `registry.py` YA usa `PostgresDocumentRegistry` (SQLite retired in §3.4)
+- ✅ `postgres_registry.py` completamente implementado
+- ✅ `profile_store.py` YA usa `PostgresProfileStore` (SQLite retired in §3.4)
+- ✅ `kg_writer.py` YA usa `PostgresKGWriter` (Neo4j retired in §3.3)
+
+**PENDIENTE:**
+- ❌ Método `build_profiles` en `pipeline.py` aún lee de Neo4j/SQLite (líneas 1652-1807)
+- ❌ Referencias a Neo4j en comentarios y código en `pipeline.py`
+- ❌ Validar que no hay otras referencias a Neo4j/SQLite en write path
 
 ### Tareas Detalladas
 
-#### Día 1: Refactor Registry (0.5 días)
+#### Día 1: Migrar build_profiles (1 día)
 
-**Tarea 1.1:** Crear driver abstracto para registry
-- [ ] Crear `src/alejandria/ingestion/registry_driver.py` con Protocol
-- [ ] Implementar `SQLiteRegistryDriver` (wrapper actual)
-- [ ] Implementar `PostgresRegistryDriver` usando `postgres_registry.py`
-- [ ] Actualizar `registry.py` para usar driver via feature flag
+**Tarea 1.1:** Analizar método `build_profiles`
+- [ ] Leer método `build_profiles` completo en `pipeline.py` (líneas 1652-1807)
+- [ ] Entender qué hace: "Build metadata-only entity profiles from Neo4j + SQLite"
+- [ ] Identificar qué queries hace a Neo4j y SQLite
+- [ ] Determinar si es necesario o puede eliminarse
 
-**Tarea 1.2:** Integrar postgres_registry
-- [ ] Mover lógica de `postgres_registry.py` a `PostgresRegistryDriver`
-- [ ] Validar que `postgres_registry.py` tiene todos los métodos necesarios
-- [ ] Tests de integración para ambos drivers
+**Tarea 1.2:** Migrar build_profiles a Postgres
+- [ ] Reescribir queries de Neo4j a Postgres (entities, relations, mentions)
+- [ ] Reescribir queries de SQLite a Postgres (text snippets)
+- [ ] Implementar usando `postgres_graph_client.py` y Postgres queries
+- [ ] Validar que produce resultados equivalentes
 
-**Entregable:** `registry.py` refactorizado con driver abstracto
+**Tarea 1.3:** Integrar con Postgres profile store
+- [ ] Usar `PostgresProfileStore` en lugar de SQLite
+- [ ] Validar que `_staging_profiles` no es necesario (si existe)
+- [ ] Tests de integración
 
----
-
-#### Día 1-2: Refactor Profile Store (1 día)
-
-**Tarea 2.1:** Resolver `_staging_profiles`
-- [ ] Investigar qué es `_staging_profiles` y por qué quedó del migrador
-- [ ] Determinar si es necesario en Postgres o puede eliminarse
-- [ ] Implementar solución apropiada (migrar o eliminar)
-
-**Tarea 2.2:** Integrar postgres_profile_store
-- [ ] Validar que `postgres_profile_store.py` tiene todos los métodos necesarios
-- [ ] Integrar con driver abstracto (similar a registry)
-- [ ] Tests de integración para ambos stores
-
-**Entregable:** `profile_store.py` refactorizado con driver abstracto
+**Entregable:** `build_profiles` migrado a Postgres
 
 ---
 
-#### Día 2-3: Refactor Pipeline (1.5 días)
+#### Día 1-2: Cleanup de referencias Neo4j (0.5 días)
 
-**Tarea 3.1:** Unificar write path
-- [ ] Reemplazar Neo4j UNWIND con Postgres COPY por batch
-- [ ] Implementar entity profiles staging + resolve a `entity_id`
-- [ ] Actualizar `pipeline.py` para usar Postgres write path
-- [ ] Feature flag para cambiar entre Neo4j/Postgres write path
+**Tarea 2.1:** Actualizar comentarios en pipeline.py
+- [ ] Reemplazar referencias a "Neo4j" con "Postgres"
+- [ ] Actualizar descripciones de Phase 3 (líneas 374, 555, 755, 1017)
+- [ ] Actualizar descripciones de skip_kg (línea 228)
+- [ ] Actualizar descripción de build_profiles (línea 1652)
 
-**Tarea 3.2:** Optimizar batch size
-- [ ] Determinar batch size óptimo para COPY (probablemente 1000-5000)
-- [ ] Implementar retry logic para batches fallidos
-- [ ] Monitorear memory usage durante ingesta
+**Tarea 2.2:** Validar no hay otras referencias
+- [ ] Buscar "Neo4j" en todo `src/alejandria/ingestion/`
+- [ ] Buscar "sqlite" en `pipeline.py` (excepto imports históricos)
+- [ ] Validar que no hay código condicional que aún use Neo4j/SQLite
 
-**Entregable:** `pipeline.py` con write path unificado a Postgres
+**Tarea 2.3:** Remover código obsoleto
+- [ ] Remover imports no usados de Neo4j/SQLite
+- [ ] Remover código condicional obsoleto
+- [ ] Validar que tests pasan
 
----
-
-#### Día 3-4: Tests de Ingesta (1 día)
-
-**Tarea 4.1:** Tests unitarios
-- [ ] Tests para `SQLiteRegistryDriver`
-- [ ] Tests para `PostgresRegistryDriver`
-- [ ] Tests para `SQLiteProfileStore`
-- [ ] Tests para `PostgresProfileStore`
-
-**Tarea 4.2:** Tests de integración
-- [ ] Test de ingesta completa con Postgres (subset pequeño de corpus)
-- [ ] Comparar resultados con SQLite/Neo4j baseline
-- [ ] Validar paridad de datos (mismas entities, relations, mentions)
-
-**Tarea 4.3:** Smoke test
-- [ ] Correr `scripts/postgres_pipeline_e2e_smoke.py`
-- [ ] Validar que no hay errores
-- [ ] Medir performance vs baseline
-
-**Entregable:** Suite de tests completa y smoke test pasando
+**Entregable:** `pipeline.py` sin referencias a Neo4j/SQLite
 
 ---
 
-#### Día 4-5: Validación y Cleanup (1 día)
+#### Día 2: Tests y Validación (0.5 días)
 
-**Tarea 5.1:** Validación
-- [ ] Correr ingesta completa con `ALEJANDRIA_STORAGE_BACKEND=postgres`
-- [ ] Validar 31 golden queries con overlap ≥ 80%
-- [ ] Monitorear latencia y errores
+**Tarea 3.1:** Tests de build_profiles
+- [ ] Test unitario de `build_profiles` con Postgres
+- [ ] Validar paridad con versión anterior (si hay baseline)
+- [ ] Validar performance vs baseline
 
-**Tarea 5.2:** Cleanup
-- [ ] Remover código obsoleto de SQLite/Neo4j write path
-- [ ] Actualizar documentación
-- [ ] Code review
+**Tarea 3.2:** Smoke test
+- [ ] Correr ingesta completa con subset pequeño de corpus
+- [ ] Validar que `build_profiles` funciona correctamente
+- [ ] Validar que no hay errores de Neo4j/SQLite
 
-**Entregable:** PR lista para merge
+**Entregable:** Suite de tests y smoke test pasando
 
 ---
 
@@ -138,231 +119,62 @@ Portar el write path de ingesta a Postgres para eliminar dependencia de SQLite/N
 
 ---
 
-## PR #1: postgres-kg-client-rest (ALTA - 3-4 días)
+## PR #1: postgres-kg-client-rest (COMPLETADO)
 
 ### Objetivo
 Completar el port del KG client a Postgres (métodos restantes).
 
-### Estado Actual
-- ✅ 3 métodos implementados: `close`, `graph_summary`, `find_node`, `get_neighbors`
-- ❌ 30 métodos con `NotImplementedError`
-- ❌ Tiers 2c (8 métodos), 2d (2 métodos), 2e (validación completa) pendientes
+### Estado Actual (Actualizado 2026-05-17)
 
-### Tareas Detalladas
+**YA COMPLETADO:**
+- ✅ Tier 2a (3 métodos): `graph_summary`, `find_node`, `get_neighbors` - IMPLEMENTADOS
+- ✅ Tier 2c mentions-based (4 métodos): `get_documents_for_entity`, `get_documents_for_entities_batch`, `get_all_entity_mentions`, `get_disambiguated_counts` - IMPLEMENTADOS
+- ✅ Tier 2c relation-based (4 métodos): `find_nodes_batch`, `get_typed_relations`, `get_typed_relations_batch`, `get_parallel_passages` - IMPLEMENTADOS
+- ✅ Tier 2d (2 métodos): `get_genealogy_tree`, `get_genealogy_path` - IMPLEMENTADOS
+- ✅ NO hay métodos con `NotImplementedError`
 
-#### Día 1: Tier 2c - Métodos Typed Relations (1.5 días)
-
-**Tarea 1.1:** `get_typed_relations`
-- [ ] Implementar query Postgres con `ORDER BY confidence`
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.2:** `get_typed_relations_batch`
-- [ ] Implementar batch query optimizado
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.3:** `get_documents_for_entity`
-- [ ] Implementar query con JOIN a `entity_document_mentions`
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.4:** `get_documents_for_entities_batch`
-- [ ] Implementar batch query optimizado
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.5:** `get_all_entity_mentions`
-- [ ] Implementar query a `entity_document_mentions`
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.6:** `get_disambiguated_counts`
-- [ ] Implementar query de agregación
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.7:** `find_nodes_batch`
-- [ ] Implementar batch query optimizado
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Tarea 1.8:** `get_parallel_passages`
-- [ ] Implementar query con layer filter
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Nota:** Todos los métodos deben usar `ORDER BY confidence` (ver lección en `kg-client-port-audit.md §6.5ter`)
-
-**Entregable:** 8 métodos de Tier 2c implementados
+**PENDIENTE:**
+- ❌ Ninguno - KG client completamente implementado
 
 ---
 
-#### Día 2: Tier 2d - Métodos Genealogy (1 día)
-
-**Tarea 2.1:** `get_genealogy_tree`
-- [ ] Implementar recursive CTE para genealogía
-- [ ] Agregar LIMIT intermedio para evitar explosión de resultados
-- [ ] Aplicar confidence ordering en SELECT final
-- [ ] Validar paridad con Neo4j oracle (arreglar divergencia q14)
-- [ ] Tests de integración
-
-**Tarea 2.2:** `get_genealogy_path`
-- [ ] Implementar recursive CTE para pathfinding
-- [ ] Agregar LIMIT intermedio
-- [ ] Aplicar confidence ordering en SELECT final
-- [ ] Validar paridad con Neo4j oracle
-- [ ] Tests de integración
-
-**Entregable:** 2 métodos de Tier 2d implementados
-
----
-
-#### Día 3: Tier 2e - Validación Completa (1 día)
-
-**Tarea 3.1:** Expandir `capture_oracle`
-- [ ] Extender `capture_oracle` para los 31 queries del golden set
-- [ ] Validar paridad completa de todos los métodos
-- [ ] Documentar cualquier divergencia aceptable
-
-**Tarea 3.2:** Tests de regresión
-- [ ] Correr todos los 31 queries del golden set
-- [ ] Validar overlap ≥ 80% para cada query
-- [ ] Investigar y arreglar queries con overlap < 80%
-
-**Entregable:** Validación completa de paridad
-
----
-
-#### Día 3-4: Cleanup y Validación (0.5 días)
-
-**Tarea 4.1:** Cleanup
-- [ ] Remover código obsoleto de Neo4j client
-- [ ] Actualizar documentación
-- [ ] Code review
-
-**Tarea 4.2:** Validación final
-- [ ] Correr suite completa de tests
-- [ ] Validar que no hay `NotImplementedError` restantes
-- [ ] Validar performance vs baseline
-
-**Entregable:** PR lista para merge
-
----
-
-### Criterios de Aceptación
-
-- [ ] Todos los 34 métodos implementados (sin `NotImplementedError`)
-- [ ] Todos los tests pasan
-- [ ] Paridad ≥ 80% con Neo4j oracle para golden set
-- [ ] Performance ≥ baseline (no degradation significativo)
-- [ ] Documentación actualizada
-
-### Riesgos
-
-| Riesgo | Probabilidad | Impacto | Mitigación |
-|-------|-------------|---------|------------|
-| Recursive CTE diverge de Neo4j | Media | Alto | Validar paridad temprano, ajustar queries |
-| Performance degradation en batch queries | Baja | Medio | Benchmark antes/después, optimizar |
-| Divergencias semánticas complejas | Baja | Alto | Documentar, no bloquear por divergencias no críticas |
-
----
-
-## KG Refactor R1-R3 (MEDIA - 1-2 días)
+## KG Refactor R1-R3 (MEDIA - 0.5 días)
 
 ### Objetivo
-Completar limpieza del KG según backlog R1-R3 de `kg-ingestion-refactor.md`.
+Completar el refactor del KG según backlog R1-R3.
 
-### Estado Actual
-- ✅ R0 (garbage + merges canonical) completado
-- ✅ R7 (kill CO_OCCURS_WITH + ASSOCIATED_WITH llm_low) completado
-- ❌ R1, R2, R3 pendientes
+### Estado Actual (Actualizado 2026-05-17)
+
+**YA COMPLETADO:**
+- ✅ R1: Filtro global de gazetteer (en código - `gazetteer_lookup.should_skip_ner_entity()`)
+- ✅ R2: Retention policy (en código - `prune_low_value(min_freq=3, max_age_days=30)`)
+- ✅ R3: Normalización al insertar (en código - `is_garbage()`)
+
+**PARCIALMENTE PENDIENTE:**
+- ⚠️ R5: Cross-language honorifics - expandido para "Iglesia", pendiente honorificos tipo "Señor Jesucristo", "Su Hijo Jesucristo"
+
+**PENDIENTE:**
+- ❌ Ninguno de R1-R3 - ya completados
 
 ### Tareas Detalladas
 
-#### Día 1: R1 - Cross-Language Honorific Merge (0.5 días)
-
-**Tarea 1.1:** Extender `gazetteer_lookup.normalize`
-- [ ] Agregar strip de honoríficos en normalize
-- [ ] Honoríficos a manejar: "Señor Jesucristo", "Su Hijo Jesucristo", etc.
+**Tarea única:** Completar R5 honorifics
+- [ ] Agregar honorificos cross-language: "Señor Jesucristo", "Su Hijo Jesucristo", etc.
+- [ ] Extender `gazetteer_lookup.normalize` para strip de honorificos
 - [ ] Validar que merge funciona correctamente
 - [ ] Tests de integración
-
-**Entregable:** R1 completado
-
----
-
-#### Día 1: R2 - Retention Policy (0.5 días)
-
-**Tarea 2.1:** Validar R2
-- [ ] Verificar que `prune_low_value` se ejecuta al final de cada KG rebuild
-- [ ] Validar que funciona correctamente
-- [ ] Tests de integración
-
-**Nota:** Según `postgres-migration-status.md`, R2 ya está implementado. Solo requiere validación.
-
-**Entregable:** R2 validado
-
----
-
-#### Día 1-2: R3 - Filtros en Ingesta (1 día)
-
-**Tarea 3.1:** Validar filtros R1/R3
-- [ ] Verificar que `gazetteer_lookup.py` está centralizado
-- [ ] Validar que `extractor.py` usa gate unificado
-- [ ] Validar que `ner_candidates.py` usa gate unificado
-- [ ] Tests de integración
-
-**Nota:** Según `postgres-migration-status.md`, filtros R1/R3 ya están implementados. Solo requiere validación.
-
-**Entregable:** R3 validado
-
----
-
-### Criterios de Aceptación
-
-- [ ] R1: Honoríficos cross-language merge funcionando
-- [ ] R2: Retention policy validada
-- [ ] R3: Filtros en ingesta centralizados y validados
-- [ ] Todos los tests pasan
-- [ ] Documentación actualizada
-
-### Riesgos
-
-| Riesgo | Probabilidad | Impacto | Mitigación |
-|-------|-------------|---------|------------|
-| R1 introduce bugs en gazetteer lookup | Baja | Medio | Tests exhaustivos, validación manual |
-| R2/R3 ya no aplican (código cambió) | Baja | Bajo | Investigar estado actual, adaptar |
 
 ---
 
 ## Cronograma Sugerido
 
-### Semana 1 (5 días)
+### Día 1 (0.5 días)
 
 | Día | Tarea | Responsable |
 |-----|-------|-------------|
-| Lunes | PR #2: Día 1 - Refactor Registry | Dev |
-| Martes | PR #2: Día 2 - Refactor Profile Store | Dev |
-| Miércoles | PR #2: Día 3 - Refactor Pipeline | Dev |
-| Jueves | PR #2: Día 4 - Tests de Ingesta | Dev |
-| Viernes | PR #2: Día 5 - Validación y Cleanup | Dev |
+| Día 1 | R5: Cross-Language Honorific Merge | Dev |
 
-**Entregable fin de semana 1:** PR #2 lista para merge
-
----
-
-### Semana 2 (5 días)
-
-| Día | Tarea | Responsable |
-|-----|-------|-------------|
-| Lunes | PR #1: Día 1 - Tier 2c (parte 1) | Dev |
-| Martes | PR #1: Día 2 - Tier 2c (parte 2) | Dev |
-| Miércoles | PR #1: Día 3 - Tier 2d + Tier 2e | Dev |
-| Jueves | PR #1: Día 4 - Cleanup y Validación | Dev |
-| Viernes | KG Refactor R1-R3 | Dev |
-
-**Entregable fin de semana 2:** PR #1 lista para merge + KG Refactor R1-R3 completado
+**Entregable:** R5 honorifics completado
 
 ---
 
