@@ -13,6 +13,7 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 - [architecture.md](architecture.md) — System architecture, layers, data flow
 - [stack.md](stack.md) — Technology stack and dependencies
 - [configuration.md](configuration.md) — Environment variables and settings
+- [architecture-proposals/](architecture-proposals/) — Architecture improvement proposals and repository split analysis
 
 ### Data Layer
 - [corpus.md](corpus.md) — Corpus structure, formats, bilingual organization
