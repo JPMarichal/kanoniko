@@ -225,7 +225,7 @@ class IngestionPipeline:
             paths: Relative corpus paths (e.g. ["en/proclamations/", "es/proclamations/doc.txt"]).
                    Directories are expanded to all supported files within.
             force: If True, re-index even if the file hash hasn't changed.
-            skip_kg: If True, skip Phase 3 KG extraction (NER+Neo4j) — only FTS+vectors.
+            skip_kg: If True, skip Phase 3 KG extraction (NER+KG) — only FTS+vectors.
 
         Raises:
             RuntimeError: If another indexing run is already in progress.
@@ -371,7 +371,7 @@ class IngestionPipeline:
                     fd.vectors = all_vectors[offset:offset + n]
                     offset += n
 
-            # Phase 3 (I/O): sqlite-vec + Neo4j
+            # Phase 3 (I/O): Postgres vectors + KG extraction
             self.progress.phase = 3
             self.progress.phase_start_time = time.time()
             self.progress.phase_3_total = len(file_data_list)
@@ -552,7 +552,7 @@ class IngestionPipeline:
         Uses a 3-phase pipeline to maximize GPU utilization:
           Phase 1 (CPU): Parse, chunk, build metadata, index FTS → collect chunk IDs
           Phase 2 (GPU): Batch-encode ALL chunks across all files in one call
-          Phase 3 (I/O): Batch-upsert vectors to sqlite-vec + KG extraction to Neo4j
+          Phase 3 (I/O): Batch-upsert vectors to Postgres + KG extraction to Postgres
         """
         stats = IndexingStats()
         self.progress = IndexingProgress(running=True, start_time=time.time())
@@ -563,7 +563,7 @@ class IngestionPipeline:
                 logger.warning("Corpus path does not exist: %s", corpus_path)
                 return stats
 
-            # Pre-index backup (SQLite + sqlite-vec snapshot)
+            # Pre-index backup (Postgres snapshot)
             try:
                 from alejandria.backup import pre_index_backup
                 backup_result = pre_index_backup()
@@ -665,7 +665,7 @@ class IngestionPipeline:
                     self._chunk_writer.delete_by_file(rel_path)
                 logger.info("Phase 1a: deleted old data for %d updated files", len(updates))
 
-            # 1b: Parse + chunk in parallel (no SQLite)
+            # 1b: Parse + chunk in parallel (no external DB)
             parse_map: dict[str, _FileData | None] = {}
             errored: set[str] = set()
             with concurrent.futures.ThreadPoolExecutor(
@@ -752,7 +752,7 @@ class IngestionPipeline:
             else:
                 logger.info("Phase 2/3: Skipped (semantic search not available)")
 
-            # ── Phase 3 (I/O): sqlite-vec upsert + Neo4j KG extraction ──
+            # ── Phase 3 (I/O): Postgres vectors upsert + Postgres KG extraction ──
             phase_3_start = time.time()
             self.progress.phase = 3
             self.progress.phase_start_time = phase_3_start
@@ -805,7 +805,7 @@ class IngestionPipeline:
             self.progress.current_file = ""
 
     def _parse_file_cpu(self, rel_path: str, abs_path: Path, file_hash: str) -> _FileData | None:
-        """CPU-bound parse + chunk + metadata build. No SQLite. Safe for ThreadPoolExecutor.
+        """CPU-bound parse + chunk + metadata build. No external DB. Safe for ThreadPoolExecutor.
 
         Returns _FileData with chunk_ids=[] (not yet inserted into FTS).
         Returns None if the file is empty after parsing.
@@ -923,7 +923,7 @@ class IngestionPipeline:
         This avoids OOM by flushing KG accumulators every chunk_batch_size chunks
         instead of accumulating all entities/relations for a 1000-chunk file.
         """
-        # sqlite-vec upsert (same as _index_file_data)
+        # Postgres vectors upsert (same as _index_file_data)
         if _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
             payloads = [
@@ -1014,12 +1014,12 @@ class IngestionPipeline:
         kg_seen_lnks: set[tuple[str, str, str]] | None = None,
         kg_seen_rels: set[tuple[str, str, str, str, str]] | None = None,
     ) -> None:
-        """Phase 3: Upsert vectors to sqlite-vec + KG extraction to Neo4j.
+        """Phase 3: Upsert vectors to Postgres + KG extraction to Postgres.
 
         When kg_* accumulators are provided, appends data instead of writing
-        to Neo4j immediately — caller is responsible for flushing.
+        to Postgres immediately — caller is responsible for flushing.
         """
-        # sqlite-vec upsert (vectors were computed in phase 2)
+        # Postgres vectors upsert (vectors were computed in phase 2)
         if _SEMANTIC_AVAILABLE and fd.vectors is not None:
             auth_dict = fd.auth_meta.to_dict()
             # Conference-specific payload fields
@@ -1054,7 +1054,7 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
-        # Neo4j KG extraction
+        # Postgres KG extraction
         if self._kg_writer and self._kg_extractor and not skip_kg and not _should_skip_kg_extraction(fd.rel_path):
             # Use cross-file accumulators if provided, else per-file (legacy)
             use_accumulators = kg_ents is not None
@@ -1343,7 +1343,7 @@ class IngestionPipeline:
                 payloads=payloads,
             )
 
-        # Index into Neo4j (knowledge graph) — batched per file
+        # Index into Postgres (knowledge graph) — batched per file
         if self._kg_writer and self._kg_extractor:
             self._kg_writer.delete_document_relations(rel_path)
             self._kg_writer.batch_merge_documents([{"file_path": rel_path, "source": source}])
@@ -1402,7 +1402,7 @@ class IngestionPipeline:
         Returns stats dict with counts.
         """
         if not self._kg_writer or not self._kg_extractor:
-            return {"error": "Neo4j or KG extractor not available"}
+            return {"error": "KG writer or KG extractor not available"}
 
         import time
 
@@ -1649,10 +1649,10 @@ class IngestionPipeline:
         max_entities: int = 0,
         max_passages: int = 10,
     ) -> dict:
-        """Build metadata-only entity profiles from Neo4j + SQLite.
+        """Build metadata-only entity profiles from Postgres.
 
         Phase 1 of entity profiles — no LLM calls, purely computational.
-        Reads entity mentions from Neo4j, fetches text snippets from SQLite
+        Reads entity mentions from Postgres, fetches text snippets from Postgres
         chunks, and stores aggregated profiles in ProfileStore.
 
         Args:
@@ -1663,7 +1663,7 @@ class IngestionPipeline:
         Returns stats dict.
         """
         if not self._kg_writer:
-            return {"error": "Neo4j not available"}
+            return {"error": "KG writer not available"}
         if not self._profile_store:
             return {"error": "ProfileStore not available"}
 
@@ -1681,8 +1681,8 @@ class IngestionPipeline:
                     if term.lower() != canonical.lower():
                         gazetteer_aliases[canonical].append(term)
 
-        # 1. Bulk query: all entities with their documents from Neo4j
-        logger.info("Profile build: querying entity mentions from Neo4j...")
+        # 1. Bulk query: all entities with their documents from Postgres
+        logger.info("Profile build: querying entity mentions from Postgres...")
         all_mentions = self._kg_reader.get_all_entity_mentions()
 
         # 1b. Fetch disambiguated counts (P7)
@@ -1804,7 +1804,7 @@ class IngestionPipeline:
         logger.info("Profile build: saving %d profiles...", len(profiles))
         self._profile_store.upsert_batch(profiles)
 
-        # 4. Clean up orphan profiles (entities that no longer exist in Neo4j)
+        # 4. Clean up orphan profiles (entities that no longer exist in Postgres)
         valid_keys = {(p.entity_name, p.entity_type) for p in profiles}
         orphans_deleted = self._profile_store.delete_orphans(valid_keys)
         if orphans_deleted:

@@ -36,6 +36,15 @@ _LEADING_ARTICLE_RE = re.compile(
     flags=re.IGNORECASE,
 )
 
+# Cross-language honorifics that should be stripped before normalization.
+# These appear in LDS scripture: "Señor Jesucristo", "Su Hijo Jesucristo",
+# "The Lord Jesus Christ", "El Señor Jesucristo", etc. Stripping them allows
+# cross-language merge.
+_HONORIFIC_RE = re.compile(
+    r"^(señor|su\s+hijo|the\s+lord|el\s+señor)\s+",
+    flags=re.IGNORECASE,
+)
+
 # URL-like patterns: catches http(s)://, www., and common domain suffixes even
 # without a scheme (e.g. ChurchofJesusChrist.org).
 _URL_RE = re.compile(
@@ -186,13 +195,15 @@ _UNIT_WORD_RE = re.compile(
 def normalize(name: str) -> str:
     """Normalize an entity name for equality / gazetteer lookup.
 
-    Steps: NFC, strip + lowercase, drop leading article (the/el/la/los/las/
-    un/una), collapse internal whitespace. Same function used by R0 cleanup so
-    the two layers agree on what "equal" means.
+    Steps: NFC, strip + lowercase, drop honorifics (señor/su hijo/the lord),
+    drop leading article (the/el/la/los/las/un/una), collapse internal
+    whitespace. Same function used by R0 cleanup so the two layers agree on
+    what "equal" means.
     """
     if not name:
         return ""
     s = unicodedata.normalize("NFC", name).strip().lower()
+    s = _HONORIFIC_RE.sub("", s)
     s = _LEADING_ARTICLE_RE.sub("", s)
     s = re.sub(r"\s+", " ", s)
     return s
