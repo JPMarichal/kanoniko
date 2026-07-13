@@ -11,29 +11,41 @@ services:
       - ${ALEJANDRIA_CORPUS_PATH:-../corpus}:/app/corpus:ro
       # Scripture structure data (cross-references, etc.)
       - ../data/scripture_structure:/app/data/scripture_structure:ro
+      # KG seed files (pre-curated entities and relations)
+      - ../data/kg-seeds:/app/data/kg-seeds:ro
+      # Gazetteers (entities.json for NER) — bind-mount so updates take effect without rebuild
+      - ../src/alejandria/knowledge/gazetteers:/app/src/alejandria/knowledge/gazetteers:ro
       # Model cache: so embedding model is downloaded once
       - alejandria-models:/root/.cache
+      # SSH key for automatic tunnel (sshtunnel inside container)
+      - ../docker/ssh:/root/.ssh:ro
+    # Override CMD: fix SSH key permissions on /root/.ssh (Windows bind mount
+    # breaks Unix perms → SSH refuses 0777). Copy to /tmp with 600.
+    command: >
+      sh -c "
+      if [ -f /root/.ssh/tunnel_key ]; then
+        cp /root/.ssh/tunnel_key /tmp/tunnel_key &&
+        chmod 600 /tmp/tunnel_key &&
+        export ALEJANDRIA_SSH_TUNNEL_PRIVATE_KEY_PATH=/tmp/tunnel_key;
+      fi &&
+      exec /app/entrypoint.sh
+      "
     env_file:
-      # Load credentials (ALEJANDRIA_POSTGRES_*, ALEJANDRIA_LLM_*, …) from
-      # the repo-root .env rather than docker/.env so the same file the
-      # host shell sources (scripts, tunnel setup) is the single source
-      # of truth. The docker/.env.example template points at the same path.
       - ../.env
-    extra_hosts:
-      # Containers on the default bridge network can reach the SSH tunnel
-      # bound on the host at localhost:15432 via host.docker.internal.
-      - "host.docker.internal:host-gateway"
     environment:
       - ALEJANDRIA_HOST=0.0.0.0
       - ALEJANDRIA_PORT=4300
       - ALEJANDRIA_CORPUS_PATH=/app/corpus
       - ALEJANDRIA_EMBEDDING_DEVICE=cpu
-      # Redirect POSTGRES_HOST to the Docker host gateway: the SSH tunnel
-      # to IONOS binds on the WSL host's localhost:15432, which containers
-      # on the default bridge reach via host.docker.internal. This
-      # override wins over the env_file's "localhost" (valid only on the
-      # host shell). Other ALEJANDRIA_POSTGRES_* come from ../.env.
-      - ALEJANDRIA_POSTGRES_HOST=host.docker.internal
+      - ALEJANDRIA_SSH_TUNNEL_PRIVATE_KEY_PATH=/tmp/tunnel_key
+      # Reach Postgres through the dedicated autossh sidecar (self-healing).
+      # The in-process tunnel is disabled here; the "tunnel" service owns it.
+      - ALEJANDRIA_POSTGRES_HOST=tunnel
+      - ALEJANDRIA_POSTGRES_PORT=5432
+      - ALEJANDRIA_SSH_TUNNEL_ENABLED=false
+    depends_on:
+      tunnel:
+        condition: service_healthy
     mem_limit: 2g
     restart: unless-stopped
     healthcheck:
@@ -42,6 +54,29 @@ services:
       timeout: 30s
       retries: 5
       start_period: 60s
+
+  # Dedicated self-healing SSH tunnel to the IONOS Postgres. autossh keeps the
+  # session alive with keepalives and auto-reconnects on drop, so the API never
+  # depends on a host-side tunnel. Exposes Postgres as "tunnel:5432".
+  tunnel:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.tunnel
+    image: alejandria-tunnel:latest
+    container_name: alejandria-tunnel
+    env_file:
+      - ../.env
+    environment:
+      - TUNNEL_LISTEN_PORT=5432
+    volumes:
+      - ../docker/ssh:/keys:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "nc", "-z", "127.0.0.1", "5432"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
 
 volumes:
   alejandria-models:

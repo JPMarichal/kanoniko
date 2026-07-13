@@ -1,0 +1,70 @@
+services:
+  api:
+    image: docker-api:latest
+    volumes:
+      - /mnt/c/own/alejandria/corpus:/app/corpus:ro
+      - /mnt/c/own/alejandria/data/scripture_structure:/app/data/scripture_structure:ro
+      - /mnt/c/own/alejandria/data/kg-seeds:/app/data/kg-seeds:ro
+      - /mnt/c/own/alejandria/src/alejandria/knowledge/gazetteers:/app/src/alejandria/knowledge/gazetteers:ro
+      - alejandria-models:/root/.cache
+    env_file:
+      - /mnt/c/own/alejandria/.env
+    environment:
+      - ALEJANDRIA_EMBEDDING_DEVICE=cuda
+      - ALEJANDRIA_NER_DEVICE=cuda
+      # Reach Postgres through the self-healing autossh sidecar, NOT a host
+      # tunnel via host.containers.internal (that was the intermittent-failure
+      # antipattern).
+      - ALEJANDRIA_POSTGRES_HOST=tunnel
+      - ALEJANDRIA_POSTGRES_PORT=5432
+      - ALEJANDRIA_SSH_TUNNEL_ENABLED=false
+    depends_on:
+      tunnel:
+        condition: service_healthy
+    devices:
+      - nvidia.com/gpu=all
+    mem_limit: 4g
+
+  # Self-healing SSH tunnel sidecar (autossh). Owns the SSH session to the
+  # IONOS Postgres and exposes it as "tunnel:5432" on the compose network.
+  tunnel:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.tunnel
+    image: alejandria-tunnel:latest
+    container_name: alejandria-tunnel
+    env_file:
+      - /mnt/c/own/alejandria/.env
+    environment:
+      - TUNNEL_LISTEN_PORT=5432
+    volumes:
+      - /mnt/c/own/alejandria/docker/ssh:/keys:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "nc", "-z", "127.0.0.1", "5432"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: alejandria-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    devices:
+      - nvidia.com/gpu=all
+    mem_limit: 6g
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  alejandria-models:
+  ollama-data:

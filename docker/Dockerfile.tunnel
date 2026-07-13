@@ -1,0 +1,17 @@
+# Dedicated SSH tunnel sidecar (autossh) for the IONOS Postgres.
+#
+# Purpose: keep a SELF-HEALING SSH tunnel alive INSIDE the container network so
+# the API never depends on a host-side tunnel. autossh monitors the SSH session
+# and auto-reconnects on drop (network blip, laptop sleep, idle disconnect).
+#
+# The tunnel forwards 0.0.0.0:5432 (this container) -> SSH host -> remote
+# 127.0.0.1:<remote_port> (Postgres on the VPS). Other services reach it as
+# host "tunnel" on port 5432.
+FROM alpine:3.20
+
+RUN apk add --no-cache autossh openssh-client netcat-openbsd
+
+COPY docker/tunnel-entrypoint.sh /tunnel-entrypoint.sh
+RUN chmod +x /tunnel-entrypoint.sh
+
+ENTRYPOINT ["/tunnel-entrypoint.sh"]
