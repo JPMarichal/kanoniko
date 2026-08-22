@@ -6,6 +6,23 @@ Bilingual (ES/EN) text library with three search modes: textual (FTS), semantic 
 
 **Corpus:** LDS Church canonical books (scriptures), general conference talks, biographies, manuals, web page downloads, and broad related literature. Formats: md, txt, html, json.
 
+## Runtime and environment — PODMAN, not Docker
+
+**Alejandría containers run on Podman, NOT on Docker.** Do not mix them with a system-wide Docker engine.
+
+- All repo tooling (`Justfile`, `docker/`, `scripts/`, `docker-compose*.yml`) **invokes the `docker` binary literally**. This works because in this environment `docker` resolves to Podman. **The real engine is Podman.**
+- Do not mix networks, volumes, or containers with another Docker stack on the host.
+- Maintenance commands assume the containers `alejandria-api`, `alejandria-tunnel`, `alejandria-ollama` and the compose network `alejandria_default`.
+
+### Absolute rule for this project
+
+> **Inside `C:\own\alejandria` (and its subdirectories) NEVER run `docker ...` or `docker compose ...`.**
+>
+> - Use `podman ...` and `podman compose ...` exclusively.
+> - Do not run `docker` commands from terminals located in `C:\own\alejandria` or its subdirectories, because on this host `docker` points to Rancher Desktop/Moby and would touch containers from `C:\git`.
+> - If a script, `Justfile`, or tool invokes `docker`, verify it is actually operating against Podman. If in doubt, run `docker ps` from `C:\own\alejandria`: if containers from `C:\git` (`web-shim`, `sso-api`, `mysql`, etc.) appear, you are using the wrong engine.
+> - This rule applies to everything: development, maintenance, backups, MCPs, scripts, local CI, and any operation within the project.
+
 ## Key Decisions
 
 - Independent service with its own git repo — NOT an extension of existing MCPs
@@ -41,7 +58,7 @@ and mentions. Both Neo4j (§3.3) and SQLite (§3.4) have been retired.
   SSH tunnel `localhost:15432 → 212.227.243.210:5432` should already be
   active in WSL (`pgrep -f "ssh.*15432"`). Credentials in `.env`
   (`ALEJANDRIA_POSTGRES_*`).
-- **Connecting from a container:** `docker run --rm --network host -e
+- **Connecting from a container:** `podman run --rm --network host -e
   ALEJANDRIA_POSTGRES_HOST=127.0.0.1 -e ALEJANDRIA_POSTGRES_PORT=15432 ...`
   Load env via heredoc (`bash << 'OUTER' ... source .env; ... OUTER`) —
   single `bash -c "..."` quoting can swallow the password.
@@ -59,6 +76,11 @@ and mentions. Both Neo4j (§3.3) and SQLite (§3.4) have been retired.
 ## Vision
 
 The final product is a **specialized chat client for scripture/gospel study** (RAG-based). The knowledge engine (search APIs) is the backend; the chat UI is a future service consuming it.
+
+**wp_bc** (`C:/own/wp_bc`) es un producto consumidor de Alejandría — usa sus APIs
+de búsqueda semántica, textual y KG para enriquecer biografías y contenido
+histórico SUD desde un WordPress local. La integración es vía MCP
+(`alejandria-search` skill) y REST API, solo para desarrollo local.
 
 ## Corpus Structure
 
@@ -92,10 +114,10 @@ Future work is organized as an **incubator of independent projects** — see `do
 
 ```bash
 # Build and run (first time downloads ~500MB embedding model)
-cd docker && docker compose up --build
+cd docker && podman compose -f docker-compose.yml up --build
 
 # Run tests
-docker run --rm -v ./tests:/app/tests -v ./src:/app/src docker-api bash -c "pip install -q pytest httpx && python -m pytest /app/tests/ -v"
+podman run --rm -v ./tests:/app/tests -v ./src:/app/src docker-api bash -c "pip install -q pytest httpx && python -m pytest /app/tests/ -v"
 ```
 
 ## MCP Tools (Preferred)
@@ -150,7 +172,7 @@ backup endpoints: the API container is stateless.
 
 ### Recovery Procedures
 - **KG lost:** restore Postgres from the latest IONOS `pg_dump` snapshot.
-- **Full disaster:** clone repo, decrypt `.env`, `docker compose up`.
+- **Full disaster:** clone repo, decrypt `.env`, `podman compose up`.
   The API container has no local persistent state; Postgres is
   recovered server-side.
 - **Incremental ingest** (`/index/ingest`) is fast (~2-3 sec/file).
@@ -161,26 +183,38 @@ backup endpoints: the API container is stateless.
 ### Memory Sync
 Project memory is tracked in git at `docs/project-memory/` — **this is the authoritative source.** See the "Project Memory" section below for the write protocol.
 
-## GPU Docker (Native Docker Engine in Ubuntu WSL)
+## GPU Podman Desktop — preferred
 
-Two independent Docker engines coexist:
-| | Rancher Desktop | Docker Engine nativo (GPU) |
-|---|---|---|
-| **WSL distro** | `rancher-desktop` | `Ubuntu-20.04` |
-| **GPU** | No | NVIDIA runtime (default) |
-| **Use** | Regular work (do NOT modify) | Alejandria GPU workloads |
+Alejandría containers run on **Podman Desktop** (`podman-machine-default`) for GPU workloads. NVIDIA RTX PRO 500 Blackwell is accessible via CDI (`--device nvidia.com/gpu=all`).
 
-### GPU Stack Management
+**Remember:** this is Podman, not Docker. Even though the commands below use `docker` for compatibility, the engine is Podman and must not touch Rancher Desktop.
+
+### Podman Stack Management
 ```bash
-# From Windows (all commands go through gpu-up.sh):
-wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' up"
-wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' down"
-wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' status"
+# From Windows (Git Bash / WSL):
+bash scripts/gpu-podman.sh up
+bash scripts/gpu-podman.sh down
+bash scripts/gpu-podman.sh status
 ```
 
-- Corpus is git-cloned to `/home/jpmarichal/alejandria-repo` on native Linux FS (~250x faster I/O)
-- `gpu-up.sh` auto-syncs via `git fetch` + `git reset --hard` before starting
+Or using Docker CLI with the Podman context:
+```bash
+docker --context podman-machine-default compose -f docker/docker-compose.yml -f docker/docker-compose.podman.yml up -d --no-build
+```
+
+- Compose override: `docker/docker-compose.podman.yml`
+- Image: `docker-api:latest` (pre-built, migrated from native Docker)
+- GPU via CDI (`nvidia.com/gpu=all`)
+- Postgres tunnel: SSH tunnel on port 15432 via Ubuntu-20.04 WSL; reached as `host.containers.internal:15432`
+
+### Legacy (Native Docker Engine in Ubuntu WSL — deprecated)
+
+The old GPU Docker stack still exists for reference:
+```bash
+wsl -d Ubuntu-20.04 bash -c "bash '/mnt/c/own/alejandria/scripts/gpu-up.sh' up"
+```
 - Compose override: `docker/docker-compose.gpu.yml` + `docker/Dockerfile.gpu`
+- Uses separate Docker Engine on Ubuntu-20.04 WSL with `--gpus all`
 
 ## Project Memory
 

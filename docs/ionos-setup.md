@@ -661,6 +661,48 @@ Cuando los 4 checks pasan, **Fase 0 de IONOS está completa**. El próximo paso 
 | `could not translate host name` | DNS no resuelve | `dig alejandria.tudominio.com` desde local; revisa registro A |
 | Postgres OOM | shared_buffers demasiado alto | Bajar a 768MB y reiniciar |
 
+## Rescue: root password recovery via IONOS panel
+
+Cuando SSH no funciona (key no autorizada) y el password de consola no se reconoce:
+
+1. **Cloud Panel** → Infrastructure > Server → clic en **DVD drive**
+2. Activar **Gparted latest_iso** → **Load DVD** (server rebootea desde el DVD rescue)
+3. **Action > Open remote console** → **Enter command line prompt** (opción 3, evita X11)
+4. Identificar partición root: `lsblk` (típicamente `/dev/vda1`)
+5. Montar y chroot:
+   ```bash
+   mount /dev/vda1 /mnt && chroot /mnt
+   passwd root
+   exit && sync && umount /mnt
+   ```
+6. **Eject DVD** y **Actions > Restart** desde el Cloud Panel
+7. Autorizar llave SSH:
+   ```bash
+   # Si authorized_keys tiene atributos ia (immutable+append-only):
+   chattr -ia /root/.ssh/authorized_keys
+   echo "ssh-ed25519 AAAAC3..." >> /root/.ssh/authorized_keys
+   ```
+
+## SSH tunnel: desde Podman machine
+
+Desde la migración a Podman Desktop, el túnel SSH a IONOS Postgres se inicia
+**dentro del Podman machine** (`podman-machine-default`), no desde Windows/WSL.
+Esto asegura que `host.containers.internal:15432` sea alcanzable desde los
+contenedores (misma VM).
+
+El script `scripts/gpu-podman.sh` maneja el túnel automáticamente en `up`:
+```bash
+bash scripts/gpu-podman.sh up
+```
+
+Si el túnel se cae, reiniciarlo manualmente:
+```bash
+MSYS_NO_PATHCONV=1 podman machine ssh podman-machine-default \
+  "ssh -o StrictHostKeyChecking=no -o ExitOnForwardFailure=yes \
+    -i ~/.ssh/id_ed25519 \
+    -L '*:15432:localhost:5432' -N -f root@212.227.243.210"
+```
+
 ## Referencias
 
 - PGDG APT repo: https://wiki.postgresql.org/wiki/Apt

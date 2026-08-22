@@ -31,9 +31,10 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
     "sentence-transformers>=3.0"
 
-# Graph + storage deps (Postgres IONOS + pgvector wire format)
+# Graph + storage deps (Postgres IONOS + pgvector wire format + SSH tunnel)
 RUN pip install --no-cache-dir \
-    "psycopg[binary]>=3.1"
+    "psycopg[binary]>=3.1" \
+    "sshtunnel>=0.4"
 
 # MCP + CLI deps
 RUN pip install --no-cache-dir \
@@ -47,7 +48,9 @@ RUN pip install --no-cache-dir \
     "google-genai>=1.0"
 
 # NER deps (spaCy + language models for entity auto-discovery)
-RUN pip install --no-cache-dir "spacy>=3.7"
+# CuPy installed separately at a version compatible with numpy 2.x
+# (spacy[cuda12x] pins cupy<13 which conflicts with numpy>=2 from torch)
+RUN pip install --no-cache-dir "spacy>=3.7" "cupy-cuda12x>=14.0"
 RUN python -m spacy download en_core_web_sm
 RUN python -m spacy download es_core_news_sm
 

@@ -2,13 +2,13 @@ services:
   api:
     image: docker-api:latest
     volumes:
-      - /mnt/c/own/alejandria/corpus:/app/corpus:ro
-      - /mnt/c/own/alejandria/data/scripture_structure:/app/data/scripture_structure:ro
-      - /mnt/c/own/alejandria/data/kg-seeds:/app/data/kg-seeds:ro
-      - /mnt/c/own/alejandria/src/alejandria/knowledge/gazetteers:/app/src/alejandria/knowledge/gazetteers:ro
+      - ../corpus:/app/corpus:ro
+      - ../data/scripture_structure:/app/data/scripture_structure:ro
+      - ../data/kg-seeds:/app/data/kg-seeds:ro
+      - ../src/alejandria/knowledge/gazetteers:/app/src/alejandria/knowledge/gazetteers:ro
       - alejandria-models:/root/.cache
     env_file:
-      - /mnt/c/own/alejandria/.env
+      - ../.env
     environment:
       - ALEJANDRIA_EMBEDDING_DEVICE=cuda
       - ALEJANDRIA_NER_DEVICE=cuda
@@ -34,11 +34,13 @@ services:
     image: alejandria-tunnel:latest
     container_name: alejandria-tunnel
     env_file:
-      - /mnt/c/own/alejandria/.env
+      - ../.env
     environment:
       - TUNNEL_LISTEN_PORT=5432
     volumes:
       - /mnt/c/own/alejandria/docker/ssh:/keys:ro
+    ports:
+      - "15432:5432"
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "nc", "-z", "127.0.0.1", "5432"]

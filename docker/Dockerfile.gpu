@@ -50,8 +50,9 @@ RUN pip install --no-cache-dir \
     "openai>=1.50" \
     "google-genai>=1.0"
 
-# NER deps (spaCy + language models for entity auto-discovery)
-RUN pip install --no-cache-dir "spacy>=3.7"
+# NER deps (spaCy + language models for entity auto-discovery — GPU via CuPy)
+# CuPy installed separately to avoid version conflict with numpy 2.x
+RUN pip install --no-cache-dir "spacy>=3.7" "cupy-cuda12x>=14.0"
 RUN python -m spacy download en_core_web_sm
 RUN python -m spacy download es_core_news_sm
 

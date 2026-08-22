@@ -43,6 +43,7 @@ data/.gospelink-session.json
 # Docker / secrets
 .env
 docker/.env
+docker/ssh/
 
 # OS
 Thumbs.db

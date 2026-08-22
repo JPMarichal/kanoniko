@@ -1,5 +1,7 @@
 # Alejandria Documentation
 
+> ⚠️ **Environment rule:** this project lives in `C:\own\alejandria` and operates exclusively on **Podman**. Do not use `docker` or `docker compose` from this folder, because on this host `docker` points to Rancher Desktop/Moby and would touch containers from `C:\git`.
+
 Technical documentation for the Alejandria knowledge engine.
 
 ## System Overview

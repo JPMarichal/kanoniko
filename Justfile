@@ -1,12 +1,18 @@
+set windows-shell := ["powershell.exe", "-NoLogo", "-NoProfile", "-Command"]
+
 # Alejandria task runner — `just <recipe>` to run.
 # Install: https://just.systems
 
 # Use PowerShell on Windows (no Unix sh required); leave POSIX shell elsewhere.
-set windows-shell := ["powershell.exe", "-NoLogo", "-NoProfile", "-Command"]
 
 # Default: list available recipes.
 default:
     @just --list
+
+# Fix container engine isolation between Rancher Desktop (C:\git) and Podman (C:\own)
+# Run from C:\own\alejandria if RD shows own containers or PD shows nothing.
+fix-engine-isolation:
+    powershell -ExecutionPolicy Bypass -NoLogo -NoProfile -File "C:\own\alejandria\scripts\ensure-engine-isolation.ps1"
 
 # Full pipeline: discover → fetch (user) → finalize + commit + catalog update
 # Usage: just get_gospelink_book 579
