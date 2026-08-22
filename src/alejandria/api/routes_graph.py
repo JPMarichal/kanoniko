@@ -310,3 +310,36 @@ def extract_relations_llm(
         )
     except Exception as e:
         raise HTTPException(500, f"LLM extraction failed: {e}")
+
+
+# ---------------------------------------------------------------------------
+# Experimental: Personalized PageRank (PPR) graph search
+# ---------------------------------------------------------------------------
+
+@router.post("/pagerank")
+def graph_pagerank(req: dict):
+    """Experimental Personalized PageRank search over the KG.
+
+    Request body:
+        { "query_entities": ["Nephi", "Lehi"], "alpha": 0.5, "top_k": 20 }
+
+    Returns ranked entities by PPR score with chunk context.
+    """
+    from alejandria.knowledge.pagerank import pagerank_search
+
+    query_entities = req.get("query_entities", [])
+    if not query_entities:
+        raise HTTPException(400, "query_entities is required")
+
+    alpha = float(req.get("alpha", 0.5))
+    top_k = int(req.get("top_k", 20))
+
+    try:
+        results = pagerank_search(
+            query_entities=query_entities,
+            alpha=alpha,
+            top_k=top_k,
+        )
+        return {"query_entities": query_entities, "count": len(results), "results": results}
+    except Exception as e:
+        raise HTTPException(500, f"PPR search failed: {e}")
