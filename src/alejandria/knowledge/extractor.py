@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -41,51 +42,108 @@ _SCRIPTURE_RE = re.compile(
     r"|D&C|D\. ?y ?C\.?|Doctrine and Covenants|Doctrina y Convenios"
     r"|Abraham|Abrah[aá]n|Moses|Mois[eé]s|JS[—-]H|JS[—-]M"
     r"|Pearl of Great Price|Perla de Gran Precio)"
-    r"\s+\d+(?::\d+(?:[-–]\d+)?)?)"  # Chapter and verse
-    , re.IGNORECASE
+    r"\s+\d+(?::\d+(?:[-–]\d+)?)?)",  # Chapter and verse
+    re.IGNORECASE,
 )
 
 # Mapping from spaCy NER labels to our entity types
 _SPACY_LABEL_MAP = {
     # English model labels
     "PERSON": "person",
-    "GPE": "place",        # Geopolitical entity (countries, cities)
-    "LOC": "place",        # Non-GPE locations (mountains, rivers)
-    "FAC": "place",        # Facilities (temples, buildings)
-    "NORP": "people",      # Nationalities, religious/political groups
-    "ORG": "people",       # Organizations (tribes, churches)
-    "EVENT": "period",     # Named events (Exodus, Pentecost)
-    "LAW": "concept",      # Laws, commandments (Law of Moses)
+    "GPE": "place",  # Geopolitical entity (countries, cities)
+    "LOC": "place",  # Non-GPE locations (mountains, rivers)
+    "FAC": "place",  # Facilities (temples, buildings)
+    "NORP": "people",  # Nationalities, religious/political groups
+    "ORG": "people",  # Organizations (tribes, churches)
+    "EVENT": "period",  # Named events (Exodus, Pentecost)
+    "LAW": "concept",  # Laws, commandments (Law of Moses)
     "WORK_OF_ART": "concept",  # Named works (Song of Solomon, Book of Life)
-    "MONEY": "object",     # Monetary values (thirty pieces of silver, talents)
-    "DATE": "period",      # Dates/time periods (third day, year of jubilee)
-    "TIME": "period",      # Times of day (the ninth hour)
-    "CARDINAL": None,      # Plain numbers — too noisy
-    "ORDINAL": None,       # Ordinals — too noisy
+    "MONEY": "object",  # Monetary values (thirty pieces of silver, talents)
+    "DATE": "period",  # Dates/time periods (third day, year of jubilee)
+    "TIME": "period",  # Times of day (the ninth hour)
+    "CARDINAL": None,  # Plain numbers — too noisy
+    "ORDINAL": None,  # Ordinals — too noisy
     "QUANTITY": "object",  # Measures/quantities (five loaves, cubit)
-    "LANGUAGE": "concept", # Languages (Hebrew, Aramaic, Greek)
-    "PRODUCT": None,       # Rarely useful in scripture
-    "PERCENT": None,       # Not relevant in scripture
+    "LANGUAGE": "concept",  # Languages (Hebrew, Aramaic, Greek)
+    "PRODUCT": None,  # Rarely useful in scripture
+    "PERCENT": None,  # Not relevant in scripture
     # Spanish model labels (mostly same but some additions)
-    "PER": "person",       # es_core_news uses PER instead of PERSON
-    "MISC": None,          # Too broad — skip
+    "PER": "person",  # es_core_news uses PER instead of PERSON
+    "MISC": None,  # Too broad — skip
 }
 
 # Common words that spaCy misidentifies as entities in scripture text
-_NER_STOPWORDS = frozenset({
-    "god", "lord", "the lord", "spirit", "ghost", "son", "father",
-    "dios", "señor", "el señor", "espíritu", "hijo", "padre",
-    "o", "i", "yea", "behold", "verily", "thus", "lo", "he",
-    "chapter", "verse", "psalm", "capítulo", "versículo",
-    # Common DATE/TIME noise
-    "today", "tomorrow", "yesterday", "hoy", "mañana", "ayer",
-    "morning", "evening", "night", "day", "week", "year", "month",
-    # Common MONEY/QUANTITY noise
-    "one", "two", "three", "four", "five", "six", "seven", "eight",
-    "nine", "ten", "twelve", "hundred", "thousand",
-    "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho",
-    "nueve", "diez", "doce", "cien", "mil",
-})
+_NER_STOPWORDS = frozenset(
+    {
+        "god",
+        "lord",
+        "the lord",
+        "spirit",
+        "ghost",
+        "son",
+        "father",
+        "dios",
+        "señor",
+        "el señor",
+        "espíritu",
+        "hijo",
+        "padre",
+        "o",
+        "i",
+        "yea",
+        "behold",
+        "verily",
+        "thus",
+        "lo",
+        "he",
+        "chapter",
+        "verse",
+        "psalm",
+        "capítulo",
+        "versículo",
+        # Common DATE/TIME noise
+        "today",
+        "tomorrow",
+        "yesterday",
+        "hoy",
+        "mañana",
+        "ayer",
+        "morning",
+        "evening",
+        "night",
+        "day",
+        "week",
+        "year",
+        "month",
+        # Common MONEY/QUANTITY noise
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "twelve",
+        "hundred",
+        "thousand",
+        "uno",
+        "dos",
+        "tres",
+        "cuatro",
+        "cinco",
+        "seis",
+        "siete",
+        "ocho",
+        "nueve",
+        "diez",
+        "doce",
+        "cien",
+        "mil",
+    }
+)
 
 # Minimum entity name length to avoid noise
 _MIN_ENTITY_LEN = 2
@@ -94,9 +152,7 @@ _MIN_ENTITY_LEN = 2
 # e.g., "Matt. 5:3", "Ps. 16:9", "Isa 40:1", "Deut. 28:1", "Luke 2:10"
 # When a gazetteer term matches at a position where this pattern follows,
 # the match is a scripture citation, not an entity mention.
-_CITATION_AFTER_RE = re.compile(
-    r"\.?\s*\d+(?::\d+(?:\s*[-–,]\s*\d+)*)?(?:\s*\([^)]+\))?"
-)
+_CITATION_AFTER_RE = re.compile(r"\.?\s*\d+(?::\d+(?:\s*[-–,]\s*\d+)*)?(?:\s*\([^)]+\))?")
 
 # Cross-reference patterns for reference works (encyclopedias, dictionaries)
 # Matches: "See ALEPH", "See also ABBA", "compare BAPTISM", "cf. PRIEST"
@@ -133,22 +189,65 @@ class ExtractionResult:
     scripture_refs: list[str] = field(default_factory=list)
     handbook_xrefs: list[str] = field(default_factory=list)
     disambiguations: dict[str, str] = field(default_factory=dict)  # original_name → resolved_name
-    disambiguated_types: dict[str, str] = field(default_factory=dict)  # original_name → resolved_type (Level 2)
+    disambiguated_types: dict[str, str] = field(
+        default_factory=dict
+    )  # original_name → resolved_type (Level 2)
 
 
 # Short gazetteer terms that collide with common words, split by language.
 # A term is only excluded when processing text in that language.
 # "On" is a stopword in English but NOT in Spanish, so Spanish texts will
 # match On/Put/So directly while English texts use contextual phrases.
-_STOPWORDS_EN = frozenset({
-    "on", "so", "no", "or", "an", "as", "at", "be", "by", "do", "go",
-    "he", "if", "in", "is", "it", "me", "my", "of", "to", "up", "us",
-    "we", "am", "put", "set", "ye",
-})
-_STOPWORDS_ES = frozenset({
-    "ha", "yo", "es", "en", "al", "el", "la", "lo", "un", "si", "ni",
-    "ya", "no", "an", "as",
-})
+_STOPWORDS_EN = frozenset(
+    {
+        "on",
+        "so",
+        "no",
+        "or",
+        "an",
+        "as",
+        "at",
+        "be",
+        "by",
+        "do",
+        "go",
+        "he",
+        "if",
+        "in",
+        "is",
+        "it",
+        "me",
+        "my",
+        "of",
+        "to",
+        "up",
+        "us",
+        "we",
+        "am",
+        "put",
+        "set",
+        "ye",
+    }
+)
+_STOPWORDS_ES = frozenset(
+    {
+        "ha",
+        "yo",
+        "es",
+        "en",
+        "al",
+        "el",
+        "la",
+        "lo",
+        "un",
+        "si",
+        "ni",
+        "ya",
+        "no",
+        "an",
+        "as",
+    }
+)
 # Union of both for the static lookup/regex (built once at init time).
 # The extract() method uses the language-specific set at runtime.
 _STOPWORD_ALIASES = _STOPWORDS_EN | _STOPWORDS_ES
@@ -160,76 +259,125 @@ _STOPWORD_ALIASES = _STOPWORDS_EN | _STOPWORDS_ES
 # Format: (canonical_name, entity_type, [compiled_regex_patterns])
 _CONTEXTUAL_PHRASES: list[tuple[str, str, list[re.Pattern]]] = [
     # On = Heliopolis, city in Egypt. Joseph married daughter of priest of On.
-    ("On", "place", [
-        re.compile(r"\bpriest of On\b", re.IGNORECASE),
-        re.compile(r"\bcity of On\b", re.IGNORECASE),
-        re.compile(r"\bOn,?\s+which is\b", re.IGNORECASE),
-        re.compile(r"\bPoti-?pherah\b.*\bOn\b", re.IGNORECASE),
-    ]),
+    (
+        "On",
+        "place",
+        [
+            re.compile(r"\bpriest of On\b", re.IGNORECASE),
+            re.compile(r"\bcity of On\b", re.IGNORECASE),
+            re.compile(r"\bOn,?\s+which is\b", re.IGNORECASE),
+            re.compile(r"\bPoti-?pherah\b.*\bOn\b", re.IGNORECASE),
+        ],
+    ),
     # Put/Phut = son of Ham, in the Table of Nations (Genesis 10)
-    ("Phut", "person", [
-        re.compile(r"\bHam[;,]\s*(?:and\s+)?(?:\w+[,;]\s*)*Put\b", re.IGNORECASE),
-        re.compile(r"\bPut[,;]\s*and\s+Canaan\b", re.IGNORECASE),
-        re.compile(r"\bCush[,;]\s*(?:and\s+)?(?:\w+[,;]\s*)*Put\b", re.IGNORECASE),
-        re.compile(r"\bLibya\b.*\bPut\b", re.IGNORECASE),
-        re.compile(r"\bPut\b.*\bLibya\b", re.IGNORECASE),
-        re.compile(r"\bland of Put\b", re.IGNORECASE),
-    ]),
+    (
+        "Phut",
+        "person",
+        [
+            re.compile(r"\bHam[;,]\s*(?:and\s+)?(?:\w+[,;]\s*)*Put\b", re.IGNORECASE),
+            re.compile(r"\bPut[,;]\s*and\s+Canaan\b", re.IGNORECASE),
+            re.compile(r"\bCush[,;]\s*(?:and\s+)?(?:\w+[,;]\s*)*Put\b", re.IGNORECASE),
+            re.compile(r"\bLibya\b.*\bPut\b", re.IGNORECASE),
+            re.compile(r"\bPut\b.*\bLibya\b", re.IGNORECASE),
+            re.compile(r"\bland of Put\b", re.IGNORECASE),
+        ],
+    ),
     # So = king of Egypt (2 Kings 17:4)
-    ("So", "person", [
-        re.compile(r"\bSo\s+king of Egypt\b", re.IGNORECASE),
-        re.compile(r"\bking So\b", re.IGNORECASE),
-        re.compile(r"\bsent\s+messengers\s+to\s+So\b", re.IGNORECASE),
-    ]),
+    (
+        "So",
+        "person",
+        [
+            re.compile(r"\bSo\s+king of Egypt\b", re.IGNORECASE),
+            re.compile(r"\bking So\b", re.IGNORECASE),
+            re.compile(r"\bsent\s+messengers\s+to\s+So\b", re.IGNORECASE),
+        ],
+    ),
     # No = No-amon / Thebes in Egypt (Nahum 3:8, Ezekiel 30:14-16)
-    ("No", "place", [
-        re.compile(r"\bNo[,-]\s*(?:Amon|amon)\b", re.IGNORECASE),
-        re.compile(r"\bpopulous\s+No\b", re.IGNORECASE),
-        re.compile(r"\bcity of No\b", re.IGNORECASE),
-        re.compile(r"\bNo\s+shall\b.*\brent\b", re.IGNORECASE),
-    ]),
+    (
+        "No",
+        "place",
+        [
+            re.compile(r"\bNo[,-]\s*(?:Amon|amon)\b", re.IGNORECASE),
+            re.compile(r"\bpopulous\s+No\b", re.IGNORECASE),
+            re.compile(r"\bcity of No\b", re.IGNORECASE),
+            re.compile(r"\bNo\s+shall\b.*\brent\b", re.IGNORECASE),
+        ],
+    ),
 ]
 
 
 # Entity types that are handbook-specific and benefit from boosted matching
-_HANDBOOK_ENTITY_TYPES = frozenset({
-    "role", "unit", "ordinance", "meeting", "fund", "program",
-})
+_HANDBOOK_ENTITY_TYPES = frozenset(
+    {
+        "role",
+        "unit",
+        "ordinance",
+        "meeting",
+        "fund",
+        "program",
+    }
+)
 
 # Regex patterns for handbook-specific relation extraction.
 # Each tuple: (compiled_regex, from_group_type, relation, to_group_type)
 _HANDBOOK_RELATION_PATTERNS: list[tuple[re.Pattern, str, str, str]] = [
     # "The bishop presides over the ward"
-    (re.compile(
-        r"\bthe\s+(\w[\w\s]*?)\s+presides?\s+over\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
-        re.IGNORECASE,
-    ), "role", "PRESIDES_OVER", "unit"),
+    (
+        re.compile(
+            r"\bthe\s+(\w[\w\s]*?)\s+presides?\s+over\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+            re.IGNORECASE,
+        ),
+        "role",
+        "PRESIDES_OVER",
+        "unit",
+    ),
     # "reports to the stake president"
-    (re.compile(
-        r"\b(\w[\w\s]*?)\s+reports?\s+to\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
-        re.IGNORECASE,
-    ), "role", "REPORTS_TO", "role"),
+    (
+        re.compile(
+            r"\b(\w[\w\s]*?)\s+reports?\s+to\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+            re.IGNORECASE,
+        ),
+        "role",
+        "REPORTS_TO",
+        "role",
+    ),
     # "authorized by the bishop" / "with approval of the stake president"
-    (re.compile(
-        r"\bauthorized\s+by\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
-        re.IGNORECASE,
-    ), "_subject", "REQUIRES_APPROVAL_OF", "role"),
-    (re.compile(
-        r"\bwith\s+(?:the\s+)?approval\s+of\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
-        re.IGNORECASE,
-    ), "_subject", "REQUIRES_APPROVAL_OF", "role"),
+    (
+        re.compile(
+            r"\bauthorized\s+by\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+            re.IGNORECASE,
+        ),
+        "_subject",
+        "REQUIRES_APPROVAL_OF",
+        "role",
+    ),
+    (
+        re.compile(
+            r"\bwith\s+(?:the\s+)?approval\s+of\s+(?:the\s+)?(\w[\w\s]*?)(?:\.|,|;|\band\b)",
+            re.IGNORECASE,
+        ),
+        "_subject",
+        "REQUIRES_APPROVAL_OF",
+        "role",
+    ),
 ]
 
 # Handbook internal cross-reference pattern: "see 4.2" or "see 4.2.3"
 _HANDBOOK_XREF_RE = re.compile(
-    r"\bsee\s+(\d+\.\d+(?:\.\d+)?)\b", re.IGNORECASE,
+    r"\bsee\s+(\d+\.\d+(?:\.\d+)?)\b",
+    re.IGNORECASE,
 )
 
 
 class KGExtractor:
     """Extract entities and relations using gazetteers + spaCy NER."""
 
-    def __init__(self, gazetteer_path: Path | None = None, relations_path: Path | None = None) -> None:
+    def __init__(
+        self,
+        gazetteer_path: Path | None = None,
+        relations_path: Path | None = None,
+        gazetteer_only: bool = False,
+    ) -> None:
         self._gazetteer = self._load_gazetteer(gazetteer_path or _GAZETTEER_PATH)
         self._lookup = self._build_lookup()
         self._gazetteer_re = self._compile_gazetteer_regex()
@@ -240,7 +388,7 @@ class KGExtractor:
         self._es_only_stopwords = self._build_lang_specific_lookup(_STOPWORDS_ES - _STOPWORDS_EN)
         self._nlp_en = None  # Lazy-loaded
         self._nlp_es = None  # Lazy-loaded
-        self._ner_available = None  # None = not checked yet
+        self._ner_available: bool | None = False if gazetteer_only else None
         self._ner_tracker = None  # Lazy-loaded NERCandidateTracker
 
     def _load_gazetteer(self, path: Path) -> dict:
@@ -314,7 +462,8 @@ class KGExtractor:
         return lookup
 
     def _build_lang_specific_lookup(
-        self, stopwords: frozenset[str],
+        self,
+        stopwords: frozenset[str],
     ) -> dict[str, list[tuple[str, str]]]:
         """Build a lookup for terms that are stopwords in ONE language only.
 
@@ -351,7 +500,9 @@ class KGExtractor:
         try:
             return re.compile(pattern, re.IGNORECASE)
         except re.error:
-            logger.warning("Failed to compile gazetteer regex (%d terms), falling back to loop", len(terms))
+            logger.warning(
+                "Failed to compile gazetteer regex (%d terms), falling back to loop", len(terms)
+            )
             return None
 
     def _load_ner_models(self) -> None:
@@ -361,6 +512,16 @@ class KGExtractor:
 
         try:
             import spacy
+
+            # Enable GPU for spaCy if ALEJANDRIA_NER_DEVICE=cuda
+            if os.environ.get("ALEJANDRIA_NER_DEVICE", "cpu") == "cuda":
+                try:
+                    spacy.require_gpu()
+                    logger.info("spaCy GPU mode enabled via require_gpu()")
+                except ValueError:
+                    logger.warning(
+                        "spaCy require_gpu() failed — no GPU available, falling back to CPU"
+                    )
 
             try:
                 self._nlp_en = spacy.load("en_core_web_sm", disable=["parser", "lemmatizer"])
@@ -381,7 +542,9 @@ class KGExtractor:
             logger.info("spaCy not installed — using gazetteer only")
             self._ner_available = False
 
-    def extract(self, text: str, source_file: str = "", *, reference_mode: bool = False) -> ExtractionResult:
+    def extract(
+        self, text: str, source_file: str = "", *, reference_mode: bool = False
+    ) -> ExtractionResult:
         """Extract entities, relations, and scripture references from text.
 
         Pipeline:
@@ -404,9 +567,7 @@ class KGExtractor:
                 lang = "es"
 
         # Detect handbook source — enables boosted matching and handbook-specific patterns
-        is_handbook = source_file and (
-            "manuals/general-handbook" in source_file.replace("\\", "/")
-        )
+        is_handbook = source_file and ("manuals/general-handbook" in source_file.replace("\\", "/"))
 
         # 1. Gazetteer-based entity extraction (takes precedence)
         #    Uses pre-compiled single regex for O(n) scanning instead of O(n*m) loop
@@ -418,7 +579,7 @@ class KGExtractor:
                 term = match.group(1).lower()
                 # Skip if this match is part of a scripture citation
                 # e.g., "Matt. 5:3", "Ps. 16:9", "Isa 40:1"
-                after = text_lower[match.end():]
+                after = text_lower[match.end() :]
                 if _CITATION_AFTER_RE.match(after):
                     continue
                 for canonical, entity_type in self._lookup.get(term, []):
@@ -436,7 +597,7 @@ class KGExtractor:
             for term, candidates in self._lookup.items():
                 pattern = r"\b" + re.escape(term) + r"\b"
                 for match in re.finditer(pattern, text_lower):
-                    after = text_lower[match.end():]
+                    after = text_lower[match.end() :]
                     if _CITATION_AFTER_RE.match(after):
                         continue
                     for canonical, entity_type in candidates:
@@ -515,9 +676,13 @@ class KGExtractor:
             result.scripture_refs.append(ref)
             key = f"{ref}:scripture"
             if key not in found_entities:
-                result.entities.append(ExtractedEntity(
-                    name=ref, type="scripture", source="regex",
-                ))
+                result.entities.append(
+                    ExtractedEntity(
+                        name=ref,
+                        type="scripture",
+                        source="regex",
+                    )
+                )
 
         # 4. Relation extraction
         if reference_mode:
@@ -526,7 +691,9 @@ class KGExtractor:
             headword_match = re.search(r"^##\s+(.+)$", text, re.MULTILINE)
             headword = headword_match.group(1).strip() if headword_match else None
             xref_ents, xref_rels = self._extract_cross_references(
-                text, source_entity=headword, source_type="concept",
+                text,
+                source_entity=headword,
+                source_type="concept",
             )
             for ent in xref_ents:
                 key = f"{ent.name}:{ent.type}"
@@ -548,6 +715,7 @@ class KGExtractor:
         # 5. Disambiguate entity mentions (P7)
         try:
             from alejandria.knowledge.disambiguator import Disambiguator
+
             _disambiguator = Disambiguator()
             for entity in result.entities:
                 mention = _disambiguator.resolve(entity.name, entity.type, text, source_file)
@@ -597,7 +765,9 @@ class KGExtractor:
 
         # Stage 1: Gazetteer matching for all texts (pure regex, fast)
         pre_ner: list[tuple[str, str, dict, set, bool, list, str, str, bool]] = []
-        for text, current_source_file, current_reference_mode in zip(texts, source_files, reference_modes):
+        for text, current_source_file, current_reference_mode in zip(
+            texts, source_files, reference_modes
+        ):
             lang = "en"
             if current_source_file:
                 parts = current_source_file.replace("\\", "/").split("/")
@@ -616,15 +786,17 @@ class KGExtractor:
             if self._gazetteer_re:
                 for match in self._gazetteer_re.finditer(text_lower):
                     term = match.group(1).lower()
-                    after = text_lower[match.end():]
+                    after = text_lower[match.end() :]
                     if _CITATION_AFTER_RE.match(after):
                         continue
                     for canonical, entity_type in self._lookup.get(term, []):
                         key = f"{canonical}:{entity_type}"
                         if key not in found_entities:
                             found_entities[key] = ExtractedEntity(
-                                name=canonical, type=entity_type,
-                                span=(match.start(), match.end()), source="gazetteer",
+                                name=canonical,
+                                type=entity_type,
+                                span=(match.start(), match.end()),
+                                source="gazetteer",
                             )
                             gazetteer_spans.add((match.start(), match.end()))
 
@@ -637,8 +809,10 @@ class KGExtractor:
                     m = pat.search(text)
                     if m:
                         found_entities[key] = ExtractedEntity(
-                            name=canonical, type=entity_type,
-                            span=(m.start(), m.end()), source="gazetteer_contextual",
+                            name=canonical,
+                            type=entity_type,
+                            span=(m.start(), m.end()),
+                            source="gazetteer_contextual",
                         )
                         break
 
@@ -651,8 +825,10 @@ class KGExtractor:
                         key = f"{canonical}:{entity_type}"
                         if key not in found_entities:
                             found_entities[key] = ExtractedEntity(
-                                name=canonical, type=entity_type,
-                                span=(0, 0), source="gazetteer_crosslang",
+                                name=canonical,
+                                type=entity_type,
+                                span=(0, 0),
+                                source="gazetteer_crosslang",
                             )
 
             # 2b. Handbook-specific entities
@@ -679,11 +855,7 @@ class KGExtractor:
         self._load_ner_models()
         if self._ner_available:
             for lang in ("en", "es"):
-                indexed_items = [
-                    (idx, item)
-                    for idx, item in enumerate(pre_ner)
-                    if item[7] == lang
-                ]
+                indexed_items = [(idx, item) for idx, item in enumerate(pre_ner) if item[7] == lang]
                 if not indexed_items:
                     continue
                 nlp = self._nlp_es if lang == "es" and self._nlp_es else self._nlp_en
@@ -691,19 +863,32 @@ class KGExtractor:
                     continue
                 docs = list(nlp.pipe([item[0] for _, item in indexed_items], batch_size=64))
                 for (idx, item), doc in zip(indexed_items, docs):
-                    text, text_lower, found_entities, gazetteer_spans, _, _, current_source_file, _, _ = item
+                    (
+                        text,
+                        text_lower,
+                        found_entities,
+                        gazetteer_spans,
+                        _,
+                        _,
+                        current_source_file,
+                        _,
+                        _,
+                    ) = item
                     ner_entities = self._process_ner_doc(doc, found_entities, gazetteer_spans, text)
                     for entity in ner_entities:
                         key = f"{entity.name}:{entity.type}"
                         if key not in found_entities:
                             found_entities[key] = entity
                             if track_candidates:
-                                self._track_ner_candidate(entity.name, entity.type, current_source_file)
+                                self._track_ner_candidate(
+                                    entity.name, entity.type, current_source_file
+                                )
 
         # Stage 3-5: Post-NER processing per text
         results: list[ExtractionResult] = []
         try:
             from alejandria.knowledge.disambiguator import Disambiguator
+
             _disambiguator = Disambiguator()
         except ImportError:
             _disambiguator = None
@@ -733,16 +918,22 @@ class KGExtractor:
                 result.scripture_refs.append(ref)
                 key = f"{ref}:scripture"
                 if key not in found_entities:
-                    result.entities.append(ExtractedEntity(
-                        name=ref, type="scripture", source="regex",
-                    ))
+                    result.entities.append(
+                        ExtractedEntity(
+                            name=ref,
+                            type="scripture",
+                            source="regex",
+                        )
+                    )
 
             # 4. Relations
             if current_reference_mode:
                 headword_match = re.search(r"^##\s+(.+)$", text, re.MULTILINE)
                 headword = headword_match.group(1).strip() if headword_match else None
                 xref_ents, xref_rels = self._extract_cross_references(
-                    text, source_entity=headword, source_type="concept",
+                    text,
+                    source_entity=headword,
+                    source_type="concept",
                 )
                 for ent in xref_ents:
                     key = f"{ent.name}:{ent.type}"
@@ -762,7 +953,9 @@ class KGExtractor:
             # 5. Disambiguation
             if _disambiguator:
                 for entity in result.entities:
-                    mention = _disambiguator.resolve(entity.name, entity.type, text, current_source_file)
+                    mention = _disambiguator.resolve(
+                        entity.name, entity.type, text, current_source_file
+                    )
                     if mention and mention.confidence in ("high", "medium"):
                         result.disambiguations[entity.name] = mention.resolved_name
                         if mention.entity_type_resolved:
@@ -807,7 +1000,8 @@ class KGExtractor:
                 continue
             if re.search(
                 r"\b(?:hath|begat|saith|spake|smote|doth|shalt|wilt|cometh|goeth|maketh|taketh|dwelt)\b",
-                name, re.IGNORECASE,
+                name,
+                re.IGNORECASE,
             ):
                 continue
             name = re.sub(r"^\d+\s+", "", name).strip()
@@ -823,16 +1017,20 @@ class KGExtractor:
                 continue
             if re.match(r'^[Tt]he\s+"', name):
                 continue
-            after_ner = text[ent.end_char:]
+            after_ner = text[ent.end_char :]
             if _CITATION_AFTER_RE.match(after_ner):
                 continue
 
             key = f"{name}:{entity_type}"
             if key not in found_entities:
-                entities.append(ExtractedEntity(
-                    name=name, type=entity_type,
-                    span=(ent.start_char, ent.end_char), source="ner",
-                ))
+                entities.append(
+                    ExtractedEntity(
+                        name=name,
+                        type=entity_type,
+                        span=(ent.start_char, ent.end_char),
+                        source="ner",
+                    )
+                )
 
         return entities
 
@@ -898,13 +1096,15 @@ class KGExtractor:
                         # Find any entity in this chunk that could be the subject
                         for ent in found_entities.values():
                             if ent.type in _HANDBOOK_ENTITY_TYPES and ent.name.lower() != captured:
-                                relations.append(ExtractedRelation(
-                                    from_entity=ent.name,
-                                    from_type=ent.type,
-                                    relation=rel_type,
-                                    to_entity=match_ent[0],
-                                    to_type=match_ent[1],
-                                ))
+                                relations.append(
+                                    ExtractedRelation(
+                                        from_entity=ent.name,
+                                        from_type=ent.type,
+                                        relation=rel_type,
+                                        to_entity=match_ent[0],
+                                        to_type=match_ent[1],
+                                    )
+                                )
                                 break
                 else:
                     # Two-capture patterns (e.g., "[role] presides over [unit]")
@@ -913,13 +1113,15 @@ class KGExtractor:
                     from_ent = entity_by_text.get(from_text)
                     to_ent = entity_by_text.get(to_text)
                     if from_ent and to_ent:
-                        relations.append(ExtractedRelation(
-                            from_entity=from_ent[0],
-                            from_type=from_ent[1],
-                            relation=rel_type,
-                            to_entity=to_ent[0],
-                            to_type=to_ent[1],
-                        ))
+                        relations.append(
+                            ExtractedRelation(
+                                from_entity=from_ent[0],
+                                from_type=from_ent[1],
+                                relation=rel_type,
+                                to_entity=to_ent[0],
+                                to_type=to_ent[1],
+                            )
+                        )
 
         return relations
 
@@ -995,7 +1197,8 @@ class KGExtractor:
             # "Mary hath", "Jacob begat Judas", "Jesus saith"
             if re.search(
                 r"\b(?:hath|begat|saith|spake|smote|doth|shalt|wilt|cometh|goeth|maketh|taketh|dwelt)\b",
-                name, re.IGNORECASE,
+                name,
+                re.IGNORECASE,
             ):
                 continue
 
@@ -1013,8 +1216,7 @@ class KGExtractor:
                 continue
 
             # Skip cross-reference fragments ("See ...", "... See ...", "... See")
-            if (name.startswith("See ") or " See " in name
-                    or name.endswith(" See")):
+            if name.startswith("See ") or " See " in name or name.endswith(" See"):
                 continue
 
             # Skip overly long NER extractions (manual section titles,
@@ -1029,18 +1231,20 @@ class KGExtractor:
 
             # Skip if this NER match is a scripture citation abbreviation
             # e.g., spaCy tags "Matt" as PERSON in "Matt. 5:3"
-            after_ner = text[ent.end_char:]
+            after_ner = text[ent.end_char :]
             if _CITATION_AFTER_RE.match(after_ner):
                 continue
 
             key = f"{name}:{entity_type}"
             if key not in found_entities:
-                entities.append(ExtractedEntity(
-                    name=name,
-                    type=entity_type,
-                    span=(ent.start_char, ent.end_char),
-                    source="ner",
-                ))
+                entities.append(
+                    ExtractedEntity(
+                        name=name,
+                        type=entity_type,
+                        span=(ent.start_char, ent.end_char),
+                        source="ner",
+                    )
+                )
 
         return entities
 
@@ -1049,6 +1253,7 @@ class KGExtractor:
         if self._ner_tracker is None:
             try:
                 from alejandria.knowledge.ner_candidates import NERCandidateTracker
+
                 self._ner_tracker = NERCandidateTracker()
             except Exception:
                 self._ner_tracker = False  # type: ignore[assignment]
@@ -1101,21 +1306,25 @@ class KGExtractor:
                     continue
                 seen_refs.add(normalized)
 
-                entities.append(ExtractedEntity(
-                    name=normalized,
-                    type="concept",
-                    span=(0, 0),
-                    source="cross_reference",
-                ))
+                entities.append(
+                    ExtractedEntity(
+                        name=normalized,
+                        type="concept",
+                        span=(0, 0),
+                        source="cross_reference",
+                    )
+                )
 
                 if source_entity:
-                    relations.append(ExtractedRelation(
-                        from_entity=source_entity,
-                        from_type=source_type,
-                        relation=rel_type,
-                        to_entity=normalized,
-                        to_type="concept",
-                    ))
+                    relations.append(
+                        ExtractedRelation(
+                            from_entity=source_entity,
+                            from_type=source_type,
+                            relation=rel_type,
+                            to_entity=normalized,
+                            to_type="concept",
+                        )
+                    )
 
         return entities, relations
 
@@ -1135,14 +1344,16 @@ class KGExtractor:
         seen: set[str] = set()
 
         for i, e1 in enumerate(entities):
-            for e2 in entities[i + 1:]:
+            for e2 in entities[i + 1 :]:
                 if e1.name == e2.name:
                     continue
 
                 # Tier 1: Check curated relations lookup
                 pair = (e1.name.lower(), e2.name.lower())
                 reverse_pair = (e2.name.lower(), e1.name.lower())
-                curated = self._curated_relations.get(pair) or self._curated_relations.get(reverse_pair)
+                curated = self._curated_relations.get(pair) or self._curated_relations.get(
+                    reverse_pair
+                )
 
                 if curated:
                     # Use the first curated relation type for this pair
@@ -1155,13 +1366,15 @@ class KGExtractor:
 
                     key = f"{from_e.name}-{rel_type}-{to_e.name}"
                     if key not in seen:
-                        relations.append(ExtractedRelation(
-                            from_entity=from_e.name,
-                            from_type=from_e.type,
-                            relation=rel_type,
-                            to_entity=to_e.name,
-                            to_type=to_e.type,
-                        ))
+                        relations.append(
+                            ExtractedRelation(
+                                from_entity=from_e.name,
+                                from_type=from_e.type,
+                                relation=rel_type,
+                                to_entity=to_e.name,
+                                to_type=to_e.type,
+                            )
+                        )
                         seen.add(key)
                     continue
 
@@ -1173,13 +1386,15 @@ class KGExtractor:
                 key = f"{e1.name}-{rel}-{e2.name}"
                 reverse_key = f"{e2.name}-{rel}-{e1.name}"
                 if key not in seen and reverse_key not in seen:
-                    relations.append(ExtractedRelation(
-                        from_entity=e1.name,
-                        from_type=e1.type,
-                        relation=rel,
-                        to_entity=e2.name,
-                        to_type=e2.type,
-                    ))
+                    relations.append(
+                        ExtractedRelation(
+                            from_entity=e1.name,
+                            from_type=e1.type,
+                            relation=rel,
+                            to_entity=e2.name,
+                            to_type=e2.type,
+                        )
+                    )
                     seen.add(key)
 
         return relations
@@ -1289,9 +1504,13 @@ class KGExtractor:
             key = (f[0], hit.relation, t[0])
             if key in existing:
                 continue
-            result.relations.append(ExtractedRelation(
-                from_entity=f[0], from_type=f[1],
-                relation=hit.relation,
-                to_entity=t[0], to_type=t[1],
-            ))
+            result.relations.append(
+                ExtractedRelation(
+                    from_entity=f[0],
+                    from_type=f[1],
+                    relation=hit.relation,
+                    to_entity=t[0],
+                    to_type=t[1],
+                )
+            )
             existing.add(key)

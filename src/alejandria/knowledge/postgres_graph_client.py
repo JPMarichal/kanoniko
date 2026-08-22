@@ -10,6 +10,7 @@ Caveat: queries filtering by ``entity_type`` carry the R10 caveat
 (docs/kg-ingestion-refactor.md) — type misclassification is not fully
 resolved, so filter-by-type may miss or mis-include entries.
 """
+
 from __future__ import annotations
 
 import json
@@ -70,9 +71,7 @@ class PostgresGraphClient:
                     "SELECT entity_type, count(*) FROM entities "
                     "GROUP BY entity_type ORDER BY count(*) DESC"
                 )
-                nodes_by_type = [
-                    {"type": row[0], "count": row[1]} for row in cur.fetchall()
-                ]
+                nodes_by_type = [{"type": row[0], "count": row[1]} for row in cur.fetchall()]
 
                 cur.execute(
                     "SELECT rel_type, count(*) FROM relations "
@@ -120,6 +119,7 @@ class PostgresGraphClient:
         # of a canonical entity, prefer the canonical form for the DB search.
         # Covers both case variants (nefi → Nephi) and cross-language.
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         canonical_hit = is_canonical(needle_raw)
         needle = canonical_hit[0] if canonical_hit else needle_raw
 
@@ -134,8 +134,10 @@ class PostgresGraphClient:
             "WHERE (e.name ILIKE %s OR ea.alias ILIKE %s)"
         )
         params: list[Any] = [
-            needle, needle,
-            f"%{needle}%", f"%{needle}%",
+            needle,
+            needle,
+            f"%{needle}%",
+            f"%{needle}%",
         ]
         if entity_type:
             sql += " AND e.entity_type = %s"
@@ -202,6 +204,7 @@ class PostgresGraphClient:
 
         # Resolve alias to canonical (cross-language / case variants).
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         canonical_hit = is_canonical(name)
         target_name = canonical_hit[0] if canonical_hit else name.strip()
 
@@ -265,15 +268,23 @@ class PostgresGraphClient:
                 direction, other_id, other_name, other_type, rel_type, props = row
                 nodes.setdefault(other_id, {"name": other_name, "type": other_type})
                 if direction == "out":
-                    edges.append({
-                        "from": target_name, "type": rel_type, "to": other_name,
-                        "properties": props or {},
-                    })
+                    edges.append(
+                        {
+                            "from": target_name,
+                            "type": rel_type,
+                            "to": other_name,
+                            "properties": props or {},
+                        }
+                    )
                 else:
-                    edges.append({
-                        "from": other_name, "type": rel_type, "to": target_name,
-                        "properties": props or {},
-                    })
+                    edges.append(
+                        {
+                            "from": other_name,
+                            "type": rel_type,
+                            "to": target_name,
+                            "properties": props or {},
+                        }
+                    )
             return {"nodes": list(nodes.values()), "edges": edges}
 
         # depth >= 2: recursive CTE with LIMIT intermedio (hub safety).
@@ -344,12 +355,14 @@ class PostgresGraphClient:
             _, _, _, edge_src, edge_dst, edge_type, edge_props = row
             if edge_src is None:
                 continue
-            edges.append({
-                "from": id_to_name.get(edge_src, str(edge_src)),
-                "type": edge_type,
-                "to": id_to_name.get(edge_dst, str(edge_dst)),
-                "properties": edge_props or {},
-            })
+            edges.append(
+                {
+                    "from": id_to_name.get(edge_src, str(edge_src)),
+                    "type": edge_type,
+                    "to": id_to_name.get(edge_dst, str(edge_dst)),
+                    "properties": edge_props or {},
+                }
+            )
 
         return {"nodes": list(nodes.values()), "edges": edges}
 
@@ -363,6 +376,7 @@ class PostgresGraphClient:
         Same shape as Neo4jClient. Name resolved via gazetteer first.
         """
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         hit = is_canonical(name)
         target = hit[0] if hit else (name or "").strip()
         if not target:
@@ -380,13 +394,12 @@ class PostgresGraphClient:
                 )
                 return [{"file_path": r[0], "source": r[1]} for r in cur.fetchall()]
 
-    def get_documents_for_entities_batch(
-        self, names: list[str]
-    ) -> dict[str, list[str]]:
+    def get_documents_for_entities_batch(self, names: list[str]) -> dict[str, list[str]]:
         """Batch: {entity_name: [file_paths, ...]}. Input strings are keys."""
         if not names:
             return {}
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         name_to_canonical: dict[str, str] = {}
         for n in names:
             if not n or not n.strip():
@@ -476,13 +489,12 @@ class PostgresGraphClient:
     # Tier 2c: relation-based methods
     # ------------------------------------------------------------------ #
 
-    def find_nodes_batch(
-        self, searches: list[str], limit_per: int = 15
-    ) -> list[dict]:
+    def find_nodes_batch(self, searches: list[str], limit_per: int = 15) -> list[dict]:
         """Search multiple names in one query. Returns list of {name, type, aliases}."""
         if not searches:
             return []
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         needles: list[str] = []
         for s in searches:
             if not s or not s.strip():
@@ -533,13 +545,19 @@ class PostgresGraphClient:
         {from_name, from_type, rel_type, to_name, to_type, props}.
         """
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         hit = is_canonical(entity_name)
         target = hit[0] if hit else (entity_name or "").strip()
         if not target:
             return []
 
         confidence_order = [
-            "curated", "metadata", "llm_high", "llm_low", "ner", "co_occurrence",
+            "curated",
+            "metadata",
+            "llm_high",
+            "llm_low",
+            "ner",
+            "co_occurrence",
         ]
         allowed_confidences: list[str] | None = None
         if confidence_min and confidence_min in confidence_order:
@@ -585,8 +603,10 @@ class PostgresGraphClient:
             "LIMIT %s"
         )
         params: list[Any] = [target]
-        params.extend(rt_params); params.extend(conf_params)
-        params.extend(rt_params); params.extend(conf_params)
+        params.extend(rt_params)
+        params.extend(conf_params)
+        params.extend(rt_params)
+        params.extend(conf_params)
         params.append(limit)
 
         with get_connection() as conn:
@@ -596,8 +616,12 @@ class PostgresGraphClient:
 
         return [
             {
-                "from_name": r[0], "from_type": r[1], "rel_type": r[2],
-                "to_name": r[3], "to_type": r[4], "props": r[5] or {},
+                "from_name": r[0],
+                "from_type": r[1],
+                "rel_type": r[2],
+                "to_name": r[3],
+                "to_type": r[4],
+                "props": r[5] or {},
             }
             for r in rows
         ]
@@ -612,6 +636,7 @@ class PostgresGraphClient:
         if not entity_names:
             return []
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         resolved: list[str] = []
         for n in entity_names:
             if not n or not n.strip():
@@ -622,7 +647,12 @@ class PostgresGraphClient:
             return []
 
         confidence_order = [
-            "curated", "metadata", "llm_high", "llm_low", "ner", "co_occurrence",
+            "curated",
+            "metadata",
+            "llm_high",
+            "llm_low",
+            "ner",
+            "co_occurrence",
         ]
         allowed_confidences: list[str] | None = None
         if confidence_min and confidence_min in confidence_order:
@@ -663,7 +693,8 @@ class PostgresGraphClient:
             "LIMIT %s"
         )
         params: list[Any] = [resolved]
-        params.extend(conf_params); params.extend(conf_params)
+        params.extend(conf_params)
+        params.extend(conf_params)
         params.append(total_limit)
 
         with get_connection() as conn:
@@ -673,14 +704,21 @@ class PostgresGraphClient:
 
         return [
             {
-                "from_name": r[0], "from_type": r[1], "rel_type": r[2],
-                "to_name": r[3], "to_type": r[4], "props": r[5] or {},
+                "from_name": r[0],
+                "from_type": r[1],
+                "rel_type": r[2],
+                "to_name": r[3],
+                "to_type": r[4],
+                "props": r[5] or {},
             }
             for r in rows
         ]
 
     def get_parallel_passages(
-        self, file_path: str, layer: int | None = None, limit: int = 50,
+        self,
+        file_path: str,
+        layer: int | None = None,
+        limit: int = 50,
     ) -> list[dict]:
         """Find parallel passages for a document via the ``document_parallels``
         table (schema v4).
@@ -745,12 +783,18 @@ class PostgresGraphClient:
         algorithm as Neo4j version.
         """
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         hit = is_canonical(name)
         target = hit[0] if hit else (name or "").strip()
         if not target:
             return {
-                "name": name, "name_alt": None, "type": "person",
-                "relation": None, "spouses": [], "parents": [], "children": [],
+                "name": name,
+                "name_alt": None,
+                "type": "person",
+                "relation": None,
+                "spouses": [],
+                "parents": [],
+                "children": [],
             }
 
         depth = max(1, min(depth, 10))
@@ -806,11 +850,13 @@ class PostgresGraphClient:
                 )
                 for sn, st in cur.fetchall():
                     if not any(s["name"] == sn for s in root["spouses"]):
-                        root["spouses"].append({
-                            "name": sn,
-                            "name_alt": self._alt_name(sn, lang),
-                            "type": st or "person",
-                        })
+                        root["spouses"].append(
+                            {
+                                "name": sn,
+                                "name_alt": self._alt_name(sn, lang),
+                                "type": st or "person",
+                            }
+                        )
 
         return root
 
@@ -904,11 +950,13 @@ class PostgresGraphClient:
             ns = [id_to_info.get(nid, {"name": f"?{nid}", "type": "person"}) for nid in node_ids]
             rs = []
             for i, rt in enumerate(rel_type_list):
-                rs.append({
-                    "type": rt,
-                    "from": ns[i]["name"],
-                    "to": ns[i + 1]["name"],
-                })
+                rs.append(
+                    {
+                        "type": rt,
+                        "from": ns[i]["name"],
+                        "to": ns[i + 1]["name"],
+                    }
+                )
             paths.append((ns, rs))
         return paths
 
@@ -922,13 +970,17 @@ class PostgresGraphClient:
         Return shape matches ``Neo4jClient.get_genealogy_path``.
         """
         from alejandria.knowledge.gazetteer_lookup import is_canonical
+
         h1 = is_canonical(name1)
         h2 = is_canonical(name2)
         n1 = h1[0] if h1 else (name1 or "").strip()
         n2 = h2[0] if h2 else (name2 or "").strip()
         empty = {
-            "person1": n1, "person2": n2, "path_length": -1,
-            "path": [], "edges": [],
+            "person1": n1,
+            "person2": n2,
+            "path_length": -1,
+            "path": [],
+            "edges": [],
         }
         if not n1 or not n2:
             return empty
@@ -980,16 +1032,17 @@ class PostgresGraphClient:
                 )
                 id_info = {r[0]: {"name": r[1], "type": r[2] or "person"} for r in cur.fetchall()}
 
-        nodes = [
-            id_info.get(i, {"name": f"?{i}", "type": "person"}) for i in visited_ids
-        ]
+        nodes = [id_info.get(i, {"name": f"?{i}", "type": "person"}) for i in visited_ids]
         edges = [
             {"type": rt, "from": nodes[i]["name"], "to": nodes[i + 1]["name"]}
             for i, rt in enumerate(rel_types)
         ]
         return {
-            "person1": n1, "person2": n2, "path_length": len(edges),
-            "path": nodes, "edges": edges,
+            "person1": n1,
+            "person2": n2,
+            "path_length": len(edges),
+            "path": nodes,
+            "edges": edges,
         }
 
     # --- Genealogy helpers (verbatim from Neo4jClient — pure Python) ---
@@ -1000,9 +1053,8 @@ class PostgresGraphClient:
             return None
         import json
         from pathlib import Path
-        gp = (
-            Path(__file__).resolve().parent / "gazetteers" / "entities.json"
-        )
+
+        gp = Path(__file__).resolve().parent / "gazetteers" / "entities.json"
         try:
             gaz = json.loads(gp.read_text(encoding="utf-8"))
             for _type, entries in gaz.items():
@@ -1173,9 +1225,18 @@ class PostgresGraphClient:
                     "  WHERE src_id = %s AND dst_id = %s AND rel_type = %s"
                     ")",
                     (
-                        src_id, dst_id, rel_type, confidence, source_ref, source,
-                        verified, role, json.dumps(props),
-                        src_id, dst_id, rel_type,
+                        src_id,
+                        dst_id,
+                        rel_type,
+                        confidence,
+                        source_ref,
+                        source,
+                        verified,
+                        role,
+                        json.dumps(props),
+                        src_id,
+                        dst_id,
+                        rel_type,
                     ),
                 )
             conn.commit()
@@ -1227,7 +1288,10 @@ class PostgresGraphClient:
             conn.commit()
 
     def batch_merge_entities(self, entities: list[dict]) -> None:
-        """Batch upsert. Each dict: {name, type, optional aliases}.
+        """Batch upsert. Each dict: {name, type, optional aliases, optional metadata}.
+
+        ``metadata`` is a JSONB dict stored on the entity row.  If omitted
+        or empty, ``'{}'`` is used.
 
         Uses a single session with per-row INSERT … ON CONFLICT. At this scale
         (batch ~500) the difference vs COPY + dedup is negligible; simplicity
@@ -1235,7 +1299,7 @@ class PostgresGraphClient:
         """
         if not entities:
             return
-        unique_entities: list[tuple[str, str]] = []
+        unique_entities: list[tuple[str, str, str]] = []
         seen_entities: set[tuple[str, str]] = set()
         for entity in entities:
             name = entity.get("name")
@@ -1246,19 +1310,22 @@ class PostgresGraphClient:
             if key in seen_entities:
                 continue
             seen_entities.add(key)
-            unique_entities.append(key)
+            meta = entity.get("metadata") or {}
+            unique_entities.append((name, etype, json.dumps(meta)))
         if not unique_entities:
             return
-        entity_names = [name for name, _ in unique_entities]
-        entity_types = [etype for _, etype in unique_entities]
+        entity_names = [name for name, _, _ in unique_entities]
+        entity_types = [etype for _, etype, _ in unique_entities]
+        entity_metas = [meta for _, _, meta in unique_entities]
         with get_connection() as conn:
             with conn.cursor() as cur:
                 cur.execute(
                     "INSERT INTO entities (name, entity_type, disambiguator, metadata) "
-                    "SELECT input.name, input.entity_type, NULL, '{}'::jsonb "
-                    "FROM unnest(%s::text[], %s::text[]) AS input(name, entity_type) "
+                    "SELECT input.name, input.entity_type, NULL, COALESCE(input.metadata::jsonb, '{}'::jsonb) "
+                    "FROM unnest(%s::text[], %s::text[], %s::text[]) "
+                    "  AS input(name, entity_type, metadata) "
                     "ON CONFLICT (name, entity_type, disambiguator) DO NOTHING",
-                    (entity_names, entity_types),
+                    (entity_names, entity_types, entity_metas),
                 )
                 cur.execute(
                     "WITH input AS ("
@@ -1337,7 +1404,14 @@ class PostgresGraphClient:
             if not (from_name and from_type and to_name and to_type and rel_type):
                 continue
             normalized_relations.append(
-                (from_name, from_type, to_name, to_type, rel_type, dict(relation.get("props") or {}))
+                (
+                    from_name,
+                    from_type,
+                    to_name,
+                    to_type,
+                    rel_type,
+                    dict(relation.get("props") or {}),
+                )
             )
             for key in ((from_name, from_type), (to_name, to_type)):
                 if key in seen_entities:
@@ -1474,7 +1548,8 @@ class PostgresGraphClient:
                         "ON CONFLICT (entity_id, file_path, resolved_name) DO UPDATE "
                         "  SET confidence = COALESCE(EXCLUDED.confidence, entity_document_mentions.confidence)",
                         (
-                            cache[key], fp,
+                            cache[key],
+                            fp,
                             l.get("resolved_name") or "",
                             l.get("confidence"),
                         ),
@@ -1575,6 +1650,7 @@ class PostgresGraphClient:
         stay. Otherwise TRUNCATE everything (fast path — drops all mentions,
         relations, entity_aliases, entities via CASCADE).
         """
+
         def _delete_in_batches(
             conn: Any,
             cur: Any,
@@ -1642,6 +1718,7 @@ class PostgresGraphClient:
 # --------------------------------------------------------------------------- #
 # Factory
 # --------------------------------------------------------------------------- #
+
 
 def make_graph_client() -> "PostgresGraphClient":
     """Return the configured KG client.

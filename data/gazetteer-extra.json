@@ -1,0 +1,6502 @@
+[
+  {
+    "name": "A. Hamer Reiser",
+    "type": "person",
+    "id": "a-hamer-reiser",
+    "aliases": []
+  },
+  {
+    "name": "A. Roger Merrill",
+    "type": "person",
+    "id": "a-roger-merrill",
+    "aliases": []
+  },
+  {
+    "name": "A. Theodore Tuttle",
+    "type": "person",
+    "id": "a-theodore-tuttle",
+    "aliases": []
+  },
+  {
+    "name": "A. Walter Stevenson",
+    "type": "person",
+    "id": "a-walter-stevenson",
+    "aliases": []
+  },
+  {
+    "name": "Aaron T. Hall",
+    "type": "person",
+    "id": "aaron-t-hall",
+    "aliases": []
+  },
+  {
+    "name": "Abraham H. Cannon",
+    "type": "person",
+    "id": "abraham-h-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Abraham O. Woodruff",
+    "type": "person",
+    "id": "abraham-o-woodruff",
+    "aliases": []
+  },
+  {
+    "name": "Adam S. Bennion",
+    "type": "person",
+    "id": "adam-s-bennion",
+    "aliases": []
+  },
+  {
+    "name": "Adele Cannon Howells",
+    "type": "person",
+    "id": "adele-cannon-howells",
+    "aliases": []
+  },
+  {
+    "name": "Adeyinka A. Ojediran",
+    "type": "person",
+    "id": "adeyinka-a-ojediran",
+    "aliases": []
+  },
+  {
+    "name": "Adhemar Damiani",
+    "type": "person",
+    "id": "adhemar-damiani",
+    "aliases": []
+  },
+  {
+    "name": "Adilson de Paula Parrella",
+    "type": "person",
+    "id": "adilson-de-paula-parrella",
+    "aliases": []
+  },
+  {
+    "name": "Adney Y. Komatsu",
+    "type": "person",
+    "id": "adney-y-komatsu",
+    "aliases": []
+  },
+  {
+    "name": "Adrian Ochoa",
+    "type": "person",
+    "id": "adrian-ochoa",
+    "aliases": []
+  },
+  {
+    "name": "Ahmad S. Corbitt",
+    "type": "person",
+    "id": "ahmad-s-corbitt",
+    "aliases": []
+  },
+  {
+    "name": "Aileen H. Clyde",
+    "type": "person",
+    "id": "aileen-h-clyde",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Alan R. Walker",
+    "type": "person",
+    "id": "alan-r-walker",
+    "aliases": []
+  },
+  {
+    "name": "Alan T. Phillips",
+    "type": "person",
+    "id": "alan-t-phillips",
+    "aliases": []
+  },
+  {
+    "name": "Albert Carrington",
+    "type": "person",
+    "id": "albert-carrington",
+    "aliases": []
+  },
+  {
+    "name": "Brigham Young",
+    "type": "person",
+    "id": "brigham-young",
+    "aliases": []
+  },
+  {
+    "name": "Albert Choules Jr.",
+    "type": "person",
+    "id": "albert-choules-jr",
+    "aliases": []
+  },
+  {
+    "name": "Albert E. Bowen",
+    "type": "person",
+    "id": "albert-e-bowen",
+    "aliases": []
+  },
+  {
+    "name": "Albert P. Rockwood",
+    "type": "person",
+    "id": "albert-p-rockwood",
+    "aliases": []
+  },
+  {
+    "name": "Alexander D. Acheson",
+    "type": "person",
+    "id": "alexander-d-acheson",
+    "aliases": []
+  },
+  {
+    "name": "Alexander Dushku",
+    "type": "person",
+    "id": "alexander-dushku",
+    "aliases": []
+  },
+  {
+    "name": "Alfred Kyungu",
+    "type": "person",
+    "id": "alfred-kyungu",
+    "aliases": []
+  },
+  {
+    "name": "Allan F. Packer",
+    "type": "person",
+    "id": "allan-f-packer",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Allen D. Haynie",
+    "type": "person",
+    "id": "allen-d-haynie",
+    "aliases": []
+  },
+  {
+    "name": "Alma Sonne",
+    "type": "person",
+    "id": "alma-sonne",
+    "aliases": []
+  },
+  {
+    "name": "Alonzo A. Hinckley",
+    "type": "person",
+    "id": "alonzo-a-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Alvin F. Meredith III",
+    "type": "person",
+    "id": "alvin-f-meredith-iii",
+    "aliases": []
+  },
+  {
+    "name": "Alvin R. Dyer",
+    "type": "person",
+    "id": "alvin-r-dyer",
+    "aliases": []
+  },
+  {
+    "name": "David O. McKay",
+    "type": "person",
+    "id": "david-o-mckay",
+    "aliases": []
+  },
+  {
+    "name": "Amasa M. Lyman",
+    "type": "person",
+    "id": "amasa-m-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Smith Jr.",
+    "type": "person",
+    "id": "joseph-smith-jr",
+    "aliases": []
+  },
+  {
+    "name": "Amy Brown Lyman",
+    "type": "person",
+    "id": "amy-brown-lyman",
+    "aliases": [
+      "Leader in the LDS Church and American politician"
+    ]
+  },
+  {
+    "name": "Amy Wright",
+    "type": "person",
+    "id": "amy-wright",
+    "aliases": [
+      "American actress and former model"
+    ]
+  },
+  {
+    "name": "Andrea Muñoz Spannaus",
+    "type": "person",
+    "id": "andrea-muñoz-spannaus",
+    "aliases": [
+      "Sister Andrea Muñoz Spannaus was sustained as Second Counselor in the Young Women General Presidency on April 1"
+    ]
+  },
+  {
+    "name": "Angel Abrea",
+    "type": "person",
+    "id": "angel-abrea",
+    "aliases": []
+  },
+  {
+    "name": "Ann M. Dibb",
+    "type": "person",
+    "id": "ann-m-dibb",
+    "aliases": []
+  },
+  {
+    "name": "Anne C. Pingree",
+    "type": "person",
+    "id": "anne-c-pingree",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Anne G. Wirthlin",
+    "type": "person",
+    "id": "anne-g-wirthlin",
+    "aliases": []
+  },
+  {
+    "name": "Annie Taylor Hyde",
+    "type": "person",
+    "id": "annie-taylor-hyde",
+    "aliases": [
+      "American academic"
+    ]
+  },
+  {
+    "name": "Anthon H. Lund",
+    "type": "person",
+    "id": "anthon-h-lund",
+    "aliases": []
+  },
+  {
+    "name": "Joseph F. Smith",
+    "type": "person",
+    "id": "joseph-f-smith",
+    "aliases": []
+  },
+  {
+    "name": "Heber J. Grant",
+    "type": "person",
+    "id": "heber-j-grant",
+    "aliases": []
+  },
+  {
+    "name": "Anthony D. Perkins",
+    "type": "person",
+    "id": "anthony-d-perkins",
+    "aliases": []
+  },
+  {
+    "name": "Anthony W. Ivins",
+    "type": "person",
+    "id": "anthony-w-ivins",
+    "aliases": []
+  },
+  {
+    "name": "Antoine R. Ivins",
+    "type": "person",
+    "id": "antoine-r-ivins",
+    "aliases": []
+  },
+  {
+    "name": "Ardeth G. Kapp",
+    "type": "person",
+    "id": "ardeth-g-kapp",
+    "aliases": []
+  },
+  {
+    "name": "Arlene B. Darger",
+    "type": "person",
+    "id": "arlene-b-darger",
+    "aliases": []
+  },
+  {
+    "name": "Arnulfo Valenzuela",
+    "type": "person",
+    "id": "arnulfo-valenzuela",
+    "aliases": []
+  },
+  {
+    "name": "Aroldo B. Cavalcante",
+    "type": "person",
+    "id": "aroldo-b-cavalcante",
+    "aliases": []
+  },
+  {
+    "name": "Arta M. Hale",
+    "type": "person",
+    "id": "arta-m-hale",
+    "aliases": []
+  },
+  {
+    "name": "Augusto A. Lim",
+    "type": "person",
+    "id": "augusto-a-lim",
+    "aliases": []
+  },
+  {
+    "name": "B. Corey Cuvelier",
+    "type": "person",
+    "id": "b-corey-cuvelier",
+    "aliases": []
+  },
+  {
+    "name": "B. H. Roberts",
+    "type": "person",
+    "id": "b-h-roberts",
+    "aliases": []
+  },
+  {
+    "name": "B. Lloyd Poelman",
+    "type": "person",
+    "id": "b-lloyd-poelman",
+    "aliases": []
+  },
+  {
+    "name": "Barbara B. Smith",
+    "type": "person",
+    "id": "barbara-b-smith",
+    "aliases": []
+  },
+  {
+    "name": "Barbara Thompson",
+    "type": "person",
+    "id": "barbara-thompson",
+    "aliases": [
+      "Topics referred to by the same term"
+    ]
+  },
+  {
+    "name": "Barbara W. Winder",
+    "type": "person",
+    "id": "barbara-w-winder",
+    "aliases": []
+  },
+  {
+    "name": "Bathsheba W. Smith",
+    "type": "person",
+    "id": "bathsheba-w-smith",
+    "aliases": []
+  },
+  {
+    "name": "Becky Craven",
+    "type": "person",
+    "id": "becky-craven",
+    "aliases": []
+  },
+  {
+    "name": "Belle S. Spafford",
+    "type": "person",
+    "id": "belle-s-spafford",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Ben B. Banks",
+    "type": "person",
+    "id": "ben-b-banks",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Benjamin De Hoyos",
+    "type": "person",
+    "id": "benjamin-de-hoyos",
+    "aliases": []
+  },
+  {
+    "name": "Benjamin L. Clapp",
+    "type": "person",
+    "id": "benjamin-l-clapp",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Benjamin M. Z. Tai",
+    "type": "person",
+    "id": "benjamin-m-z-tai",
+    "aliases": []
+  },
+  {
+    "name": "Bernard P. Brockbank",
+    "type": "person",
+    "id": "bernard-p-brockbank",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Bertha S. Reeder",
+    "type": "person",
+    "id": "bertha-s-reeder",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Betty Jo N. Jepsen",
+    "type": "person",
+    "id": "betty-jo-n-jepsen",
+    "aliases": []
+  },
+  {
+    "name": "Bonnie D. Parkin",
+    "type": "person",
+    "id": "bonnie-d-parkin",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Bonnie H. Cordon",
+    "type": "person",
+    "id": "bonnie-h-cordon",
+    "aliases": []
+  },
+  {
+    "name": "Bonnie L. Oscarson",
+    "type": "person",
+    "id": "bonnie-l-oscarson",
+    "aliases": []
+  },
+  {
+    "name": "Boyd K. Packer",
+    "type": "person",
+    "id": "boyd-k-packer",
+    "aliases": []
+  },
+  {
+    "name": "Bradley D. Foster",
+    "type": "person",
+    "id": "bradley-d-foster",
+    "aliases": []
+  },
+  {
+    "name": "Brent H. Nielson",
+    "type": "person",
+    "id": "brent-h-nielson",
+    "aliases": []
+  },
+  {
+    "name": "Brian J. Holmes",
+    "type": "person",
+    "id": "brian-j-holmes",
+    "aliases": []
+  },
+  {
+    "name": "Brian K. Taylor",
+    "type": "person",
+    "id": "brian-k-taylor",
+    "aliases": []
+  },
+  {
+    "name": "Brigham Young Jr.",
+    "type": "person",
+    "id": "brigham-young-jr",
+    "aliases": []
+  },
+  {
+    "name": "Brik V. Eyre",
+    "type": "person",
+    "id": "brik-v-eyre",
+    "aliases": [
+      "2nd Counselor"
+    ]
+  },
+  {
+    "name": "Brook P. Hales",
+    "type": "person",
+    "id": "brook-p-hales",
+    "aliases": []
+  },
+  {
+    "name": "Bruce A. Carlson",
+    "type": "person",
+    "id": "bruce-a-carlson",
+    "aliases": [
+      "United States Air Force general"
+    ]
+  },
+  {
+    "name": "Bruce C. Hafen",
+    "type": "person",
+    "id": "bruce-c-hafen",
+    "aliases": [
+      "American general authority"
+    ]
+  },
+  {
+    "name": "Bruce D. Porter",
+    "type": "person",
+    "id": "bruce-d-porter",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Bruce R. McConkie",
+    "type": "person",
+    "id": "bruce-r-mcconkie",
+    "aliases": []
+  },
+  {
+    "name": "Burton K. Farnsworth",
+    "type": "person",
+    "id": "burton-k-farnsworth",
+    "aliases": [
+      "American missionary"
+    ]
+  },
+  {
+    "name": "C. Max Caldwell",
+    "type": "person",
+    "id": "c-max-caldwell",
+    "aliases": []
+  },
+  {
+    "name": "C. Scott Grow",
+    "type": "person",
+    "id": "c-scott-grow",
+    "aliases": [
+      "General authority of LDS Church"
+    ]
+  },
+  {
+    "name": "Camille N. Johnson",
+    "type": "person",
+    "id": "camille-n-johnson",
+    "aliases": [
+      "LDS leader"
+    ]
+  },
+  {
+    "name": "Carl B. Cook",
+    "type": "person",
+    "id": "carl-b-cook",
+    "aliases": []
+  },
+  {
+    "name": "Carl B. Pratt",
+    "type": "person",
+    "id": "carl-b-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Carl W. Buehner",
+    "type": "person",
+    "id": "carl-w-buehner",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Carlos A. Godoy",
+    "type": "person",
+    "id": "carlos-a-godoy",
+    "aliases": []
+  },
+  {
+    "name": "Carlos G. Revillo Jr.",
+    "type": "person",
+    "id": "carlos-g-revillo-jr",
+    "aliases": []
+  },
+  {
+    "name": "Carlos H. Amado",
+    "type": "person",
+    "id": "carlos-h-amado",
+    "aliases": []
+  },
+  {
+    "name": "Carol B. Thomas",
+    "type": "person",
+    "id": "carol-b-thomas",
+    "aliases": []
+  },
+  {
+    "name": "Carol F. McConkie",
+    "type": "person",
+    "id": "carol-f-mcconkie",
+    "aliases": []
+  },
+  {
+    "name": "Carole M. Stephens",
+    "type": "person",
+    "id": "carole-m-stephens",
+    "aliases": []
+  },
+  {
+    "name": "Cecil O. Samuelson",
+    "type": "person",
+    "id": "cecil-o-samuelson",
+    "aliases": [
+      "American University president"
+    ]
+  },
+  {
+    "name": "Chad H Webb",
+    "type": "person",
+    "id": "chad-h-webb",
+    "aliases": []
+  },
+  {
+    "name": "Charles A. Callis",
+    "type": "person",
+    "id": "charles-a-callis",
+    "aliases": []
+  },
+  {
+    "name": "Charles A. Didier",
+    "type": "person",
+    "id": "charles-a-didier",
+    "aliases": []
+  },
+  {
+    "name": "Charles C. Rich",
+    "type": "person",
+    "id": "charles-c-rich",
+    "aliases": [
+      "American leader in LDS Church"
+    ]
+  },
+  {
+    "name": "Charles Didier",
+    "type": "person",
+    "id": "charles-didier",
+    "aliases": []
+  },
+  {
+    "name": "Charles W. Dahlquist II",
+    "type": "person",
+    "id": "charles-w-dahlquist-ii",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Charles W. Nibley",
+    "type": "person",
+    "id": "charles-w-nibley",
+    "aliases": [
+      "Leader in the LDS Church"
+    ]
+  },
+  {
+    "name": "Charles W. Penrose",
+    "type": "person",
+    "id": "charles-w-penrose",
+    "aliases": []
+  },
+  {
+    "name": "Cheryl A. Esplin",
+    "type": "person",
+    "id": "cheryl-a-esplin",
+    "aliases": []
+  },
+  {
+    "name": "Cheryl C. Lant",
+    "type": "person",
+    "id": "cheryl-c-lant",
+    "aliases": []
+  },
+  {
+    "name": "Chi Hong (Sam) Wong",
+    "type": "person",
+    "id": "chi-hong-(sam)-wong",
+    "aliases": []
+  },
+  {
+    "name": "Chieko N. Okazaki",
+    "type": "person",
+    "id": "chieko-n-okazaki",
+    "aliases": []
+  },
+  {
+    "name": "Christian C. Chigbundu",
+    "type": "person",
+    "id": "christian-c-chigbundu",
+    "aliases": []
+  },
+  {
+    "name": "Christian D. Fjeldsted",
+    "type": "person",
+    "id": "christian-d-fjeldsted",
+    "aliases": []
+  },
+  {
+    "name": "Christoffel Golden Jr.",
+    "type": "person",
+    "id": "christoffel-golden-jr",
+    "aliases": []
+  },
+  {
+    "name": "Christophe G. Giraud-Carrier",
+    "type": "person",
+    "id": "christophe-g-giraud-carrier",
+    "aliases": []
+  },
+  {
+    "name": "Christopher H. Kim",
+    "type": "person",
+    "id": "christopher-h-kim",
+    "aliases": []
+  },
+  {
+    "name": "Ciro Schmeil",
+    "type": "person",
+    "id": "ciro-schmeil",
+    "aliases": []
+  },
+  {
+    "name": "Clara C. M. Cannon",
+    "type": "person",
+    "id": "clara-c-m-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Clara W. Beebe",
+    "type": "person",
+    "id": "clara-w-beebe",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Clarissa A. Beesley",
+    "type": "person",
+    "id": "clarissa-a-beesley",
+    "aliases": []
+  },
+  {
+    "name": "Clarissa S. Williams",
+    "type": "person",
+    "id": "clarissa-s-williams",
+    "aliases": []
+  },
+  {
+    "name": "Clark G. Gilbert",
+    "type": "person",
+    "id": "clark-g-gilbert",
+    "aliases": [
+      "American businessman"
+    ]
+  },
+  {
+    "name": "Clate W. Mask Jr.",
+    "type": "person",
+    "id": "clate-w-mask-jr",
+    "aliases": []
+  },
+  {
+    "name": "Claudio D. Zivic",
+    "type": "person",
+    "id": "claudio-d-zivic",
+    "aliases": []
+  },
+  {
+    "name": "Claudio R. M. Costa",
+    "type": "person",
+    "id": "claudio-r-m-costa",
+    "aliases": []
+  },
+  {
+    "name": "Clement M. Matswagothata",
+    "type": "person",
+    "id": "clement-m-matswagothata",
+    "aliases": []
+  },
+  {
+    "name": "Clifford E. Young",
+    "type": "person",
+    "id": "clifford-e-young",
+    "aliases": []
+  },
+  {
+    "name": "Clinton L. Cutler",
+    "type": "person",
+    "id": "clinton-l-cutler",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Coleen K. Menlove",
+    "type": "person",
+    "id": "coleen-k-menlove",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Colleen B. Lemmon",
+    "type": "person",
+    "id": "colleen-b-lemmon",
+    "aliases": [
+      "mormon counselor"
+    ]
+  },
+  {
+    "name": "Craig A. Cardon",
+    "type": "person",
+    "id": "craig-a-cardon",
+    "aliases": []
+  },
+  {
+    "name": "Craig C. Christensen",
+    "type": "person",
+    "id": "craig-c-christensen",
+    "aliases": []
+  },
+  {
+    "name": "Cree-L Kofford",
+    "type": "person",
+    "id": "cree-l-kofford",
+    "aliases": []
+  },
+  {
+    "name": "Cristina B. Franco",
+    "type": "person",
+    "id": "cristina-b-franco",
+    "aliases": []
+  },
+  {
+    "name": "D. Lee Tobler",
+    "type": "person",
+    "id": "d-lee-tobler",
+    "aliases": []
+  },
+  {
+    "name": "D. Martin Goury",
+    "type": "person",
+    "id": "d-martin-goury",
+    "aliases": []
+  },
+  {
+    "name": "D. Rex Gerratt",
+    "type": "person",
+    "id": "d-rex-gerratt",
+    "aliases": []
+  },
+  {
+    "name": "D. Todd Christofferson",
+    "type": "person",
+    "id": "d-todd-christofferson",
+    "aliases": [
+      "Apostle of The Church of Jesus Christ of Latter Day Saints"
+    ]
+  },
+  {
+    "name": "Russell M. Nelson",
+    "type": "person",
+    "id": "russell-m-nelson",
+    "aliases": []
+  },
+  {
+    "name": "Dale E. Miller",
+    "type": "person",
+    "id": "dale-e-miller",
+    "aliases": []
+  },
+  {
+    "name": "Dale G. Renlund",
+    "type": "person",
+    "id": "dale-g-renlund",
+    "aliases": []
+  },
+  {
+    "name": "Dallin H. Oaks",
+    "type": "person",
+    "id": "dallin-h-oaks",
+    "aliases": []
+  },
+  {
+    "name": "Daniel H. Wells",
+    "type": "person",
+    "id": "daniel-h-wells",
+    "aliases": []
+  },
+  {
+    "name": "Daniel L. Johnson",
+    "type": "person",
+    "id": "daniel-l-johnson",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Daniel S. Miles",
+    "type": "person",
+    "id": "daniel-s-miles",
+    "aliases": []
+  },
+  {
+    "name": "Darwin B. Christenson",
+    "type": "person",
+    "id": "darwin-b-christenson",
+    "aliases": []
+  },
+  {
+    "name": "Daryl H. Garn",
+    "type": "person",
+    "id": "daryl-h-garn",
+    "aliases": []
+  },
+  {
+    "name": "David A. Bednar",
+    "type": "person",
+    "id": "david-a-bednar",
+    "aliases": []
+  },
+  {
+    "name": "David A. Smith",
+    "type": "person",
+    "id": "david-a-smith",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "David B. Haight",
+    "type": "person",
+    "id": "david-b-haight",
+    "aliases": [
+      "American mayor and LDS leader"
+    ]
+  },
+  {
+    "name": "David F. Evans",
+    "type": "person",
+    "id": "david-f-evans",
+    "aliases": [
+      "American Mormon bishop and missionary"
+    ]
+  },
+  {
+    "name": "David J. Wunderli",
+    "type": "person",
+    "id": "david-j-wunderli",
+    "aliases": []
+  },
+  {
+    "name": "David L. Beck",
+    "type": "person",
+    "id": "david-l-beck",
+    "aliases": []
+  },
+  {
+    "name": "David L. Buckner",
+    "type": "person",
+    "id": "david-l-buckner",
+    "aliases": [
+      "organization"
+    ]
+  },
+  {
+    "name": "David Lawrence McKay",
+    "type": "person",
+    "id": "david-lawrence-mckay",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "David M. McConkie",
+    "type": "person",
+    "id": "david-m-mcconkie",
+    "aliases": []
+  },
+  {
+    "name": "George Albert Smith",
+    "type": "person",
+    "id": "george-albert-smith",
+    "aliases": []
+  },
+  {
+    "name": "David P. Homer",
+    "type": "person",
+    "id": "david-p-homer",
+    "aliases": []
+  },
+  {
+    "name": "David R. Stone",
+    "type": "person",
+    "id": "david-r-stone",
+    "aliases": [
+      "military historian from the United States"
+    ]
+  },
+  {
+    "name": "David S. Baxter",
+    "type": "person",
+    "id": "david-s-baxter",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "David S. King",
+    "type": "person",
+    "id": "david-s-king",
+    "aliases": []
+  },
+  {
+    "name": "David W. Patten",
+    "type": "person",
+    "id": "david-w-patten",
+    "aliases": []
+  },
+  {
+    "name": "David Whitmer",
+    "type": "person",
+    "id": "david-whitmer",
+    "aliases": []
+  },
+  {
+    "name": "Dean M. Davies",
+    "type": "person",
+    "id": "dean-m-davies",
+    "aliases": []
+  },
+  {
+    "name": "Delbert L. Stapley",
+    "type": "person",
+    "id": "delbert-l-stapley",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Denelson Silva",
+    "type": "person",
+    "id": "denelson-silva",
+    "aliases": []
+  },
+  {
+    "name": "Dennis B. Neuenschwander",
+    "type": "person",
+    "id": "dennis-b-neuenschwander",
+    "aliases": []
+  },
+  {
+    "name": "Dennis E. Simmons",
+    "type": "person",
+    "id": "dennis-e-simmons",
+    "aliases": []
+  },
+  {
+    "name": "Derek A. Cuthbert",
+    "type": "person",
+    "id": "derek-a-cuthbert",
+    "aliases": []
+  },
+  {
+    "name": "Dessie Grant Boyle",
+    "type": "person",
+    "id": "dessie-grant-boyle",
+    "aliases": []
+  },
+  {
+    "name": "Devere Harris",
+    "type": "person",
+    "id": "devere-harris",
+    "aliases": []
+  },
+  {
+    "name": "Devin G. Durrant",
+    "type": "person",
+    "id": "devin-g-durrant",
+    "aliases": [
+      "American basketball player"
+    ]
+  },
+  {
+    "name": "Dieter F. Uchtdorf",
+    "type": "person",
+    "id": "dieter-f-uchtdorf",
+    "aliases": []
+  },
+  {
+    "name": "Thomas S. Monson",
+    "type": "person",
+    "id": "thomas-s-monson",
+    "aliases": []
+  },
+  {
+    "name": "Don R. Clarke",
+    "type": "person",
+    "id": "don-r-clarke",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Donald L. Hallstrom",
+    "type": "person",
+    "id": "donald-l-hallstrom",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Donald L. Staheli",
+    "type": "person",
+    "id": "donald-l-staheli",
+    "aliases": []
+  },
+  {
+    "name": "Donna D. Sorensen",
+    "type": "person",
+    "id": "donna-d-sorensen",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Dorothy P. Holt",
+    "type": "person",
+    "id": "dorothy-p-holt",
+    "aliases": []
+  },
+  {
+    "name": "Dorthea C. Murdock",
+    "type": "person",
+    "id": "dorthea-c-murdock",
+    "aliases": []
+  },
+  {
+    "name": "Douglas D. Holmes",
+    "type": "person",
+    "id": "douglas-d-holmes",
+    "aliases": []
+  },
+  {
+    "name": "Douglas H. Smith",
+    "type": "person",
+    "id": "douglas-h-smith",
+    "aliases": [
+      "Visual Effects Artist"
+    ]
+  },
+  {
+    "name": "Douglas J. Martin",
+    "type": "person",
+    "id": "douglas-j-martin",
+    "aliases": []
+  },
+  {
+    "name": "Douglas L. Callister",
+    "type": "person",
+    "id": "douglas-l-callister",
+    "aliases": []
+  },
+  {
+    "name": "Duane B. Gerrard",
+    "type": "person",
+    "id": "duane-b-gerrard",
+    "aliases": []
+  },
+  {
+    "name": "Durrel A. Woolsey",
+    "type": "person",
+    "id": "durrel-a-woolsey",
+    "aliases": []
+  },
+  {
+    "name": "Dwan J. Young",
+    "type": "person",
+    "id": "dwan-j-young",
+    "aliases": []
+  },
+  {
+    "name": "Earl C. Tingey",
+    "type": "person",
+    "id": "earl-c-tingey",
+    "aliases": []
+  },
+  {
+    "name": "Earl M. Monson",
+    "type": "person",
+    "id": "earl-m-monson",
+    "aliases": []
+  },
+  {
+    "name": "Edith Hunter Lambert",
+    "type": "person",
+    "id": "edith-hunter-lambert",
+    "aliases": []
+  },
+  {
+    "name": "Edna Harker Thomas",
+    "type": "person",
+    "id": "edna-harker-thomas",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Eduardo Ayala",
+    "type": "person",
+    "id": "eduardo-ayala",
+    "aliases": []
+  },
+  {
+    "name": "Eduardo F. Ortega",
+    "type": "person",
+    "id": "eduardo-f-ortega",
+    "aliases": []
+  },
+  {
+    "name": "Eduardo Gavarret",
+    "type": "person",
+    "id": "eduardo-gavarret",
+    "aliases": []
+  },
+  {
+    "name": "Edward B. Rowe",
+    "type": "person",
+    "id": "edward-b-rowe",
+    "aliases": []
+  },
+  {
+    "name": "Edward Dube",
+    "type": "person",
+    "id": "edward-dube",
+    "aliases": []
+  },
+  {
+    "name": "Edward Hunter",
+    "type": "person",
+    "id": "edward-hunter",
+    "aliases": [
+      "Topics referred to by the same term"
+    ]
+  },
+  {
+    "name": "Edward Partridge",
+    "type": "person",
+    "id": "edward-partridge",
+    "aliases": [
+      "American Latter Day Saint convert and bishop"
+    ]
+  },
+  {
+    "name": "Edward Stevenson",
+    "type": "person",
+    "id": "edward-stevenson",
+    "aliases": []
+  },
+  {
+    "name": "Eileen R. Dunyon",
+    "type": "person",
+    "id": "eileen-r-dunyon",
+    "aliases": []
+  },
+  {
+    "name": "Elaine A. Cannon",
+    "type": "person",
+    "id": "elaine-a-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Elaine L. Jack",
+    "type": "person",
+    "id": "elaine-l-jack",
+    "aliases": []
+  },
+  {
+    "name": "Elaine S. Dalton",
+    "type": "person",
+    "id": "elaine-s-dalton",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Elbert R. Curtis",
+    "type": "person",
+    "id": "elbert-r-curtis",
+    "aliases": []
+  },
+  {
+    "name": "Eldred G. Smith",
+    "type": "person",
+    "id": "eldred-g-smith",
+    "aliases": []
+  },
+  {
+    "name": "Eliza R. Snow",
+    "type": "person",
+    "id": "eliza-r-snow",
+    "aliases": [
+      "American religious leader and poet"
+    ]
+  },
+  {
+    "name": "Elizabeth Ann Whitney",
+    "type": "person",
+    "id": "elizabeth-ann-whitney",
+    "aliases": [
+      "LDS Church leader"
+    ]
+  },
+  {
+    "name": "Elmina Shepard Taylor",
+    "type": "person",
+    "id": "elmina-shepard-taylor",
+    "aliases": []
+  },
+  {
+    "name": "ElRay L. Christiansen",
+    "type": "person",
+    "id": "elray-l-christiansen",
+    "aliases": []
+  },
+  {
+    "name": "Emily Belle Freeman",
+    "type": "person",
+    "id": "emily-belle-freeman",
+    "aliases": [
+      "American church leader"
+    ]
+  },
+  {
+    "name": "Emily H. Bennett",
+    "type": "person",
+    "id": "emily-h-bennett",
+    "aliases": []
+  },
+  {
+    "name": "Emma Smith",
+    "type": "person",
+    "id": "emma-smith",
+    "aliases": []
+  },
+  {
+    "name": "Emmeline B. Wells",
+    "type": "person",
+    "id": "emmeline-b-wells",
+    "aliases": [
+      "General President of the Relief Society"
+    ]
+  },
+  {
+    "name": "Enrique E. del Toro",
+    "type": "person",
+    "id": "enrique-e-del-toro",
+    "aliases": []
+  },
+  {
+    "name": "Enrique R. Falabella",
+    "type": "person",
+    "id": "enrique-r-falabella",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Eran A. Call",
+    "type": "person",
+    "id": "eran-a-call",
+    "aliases": []
+  },
+  {
+    "name": "Erastus Snow",
+    "type": "person",
+    "id": "erastus-snow",
+    "aliases": []
+  },
+  {
+    "name": "Erich W. Kopischke",
+    "type": "person",
+    "id": "erich-w-kopischke",
+    "aliases": []
+  },
+  {
+    "name": "Evan A. Schmutz",
+    "type": "person",
+    "id": "evan-a-schmutz",
+    "aliases": []
+  },
+  {
+    "name": "Ezra T. Benson",
+    "type": "person",
+    "id": "ezra-t-benson",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Ezra Taft Benson",
+    "type": "person",
+    "id": "ezra-taft-benson",
+    "aliases": []
+  },
+  {
+    "name": "F. Burton Howard",
+    "type": "person",
+    "id": "f-burton-howard",
+    "aliases": []
+  },
+  {
+    "name": "F. David Stanley",
+    "type": "person",
+    "id": "f-david-stanley",
+    "aliases": []
+  },
+  {
+    "name": "F. Melvin Hammond",
+    "type": "person",
+    "id": "f-melvin-hammond",
+    "aliases": [
+      "American politician"
+    ]
+  },
+  {
+    "name": "F. Michael Watson",
+    "type": "person",
+    "id": "f-michael-watson",
+    "aliases": []
+  },
+  {
+    "name": "Florence H. Richards",
+    "type": "person",
+    "id": "florence-h-richards",
+    "aliases": []
+  },
+  {
+    "name": "Florence R. Lane",
+    "type": "person",
+    "id": "florence-r-lane",
+    "aliases": []
+  },
+  {
+    "name": "Florence S. Jacobsen",
+    "type": "person",
+    "id": "florence-s-jacobsen",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Francis M. Lyman",
+    "type": "person",
+    "id": "francis-m-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Francisco J. Viñas",
+    "type": "person",
+    "id": "francisco-j-viñas",
+    "aliases": []
+  },
+  {
+    "name": "Frank B. Woodbury",
+    "type": "person",
+    "id": "frank-b-woodbury",
+    "aliases": []
+  },
+  {
+    "name": "Franklin D. Richards",
+    "type": "person",
+    "id": "franklin-d-richards",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Franklin L. West",
+    "type": "person",
+    "id": "franklin-l-west",
+    "aliases": []
+  },
+  {
+    "name": "Frederick G. Williams",
+    "type": "person",
+    "id": "frederick-g-williams",
+    "aliases": []
+  },
+  {
+    "name": "G. Carlos Smith",
+    "type": "person",
+    "id": "g-carlos-smith",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Gabriel W. Reid",
+    "type": "person",
+    "id": "gabriel-w-reid",
+    "aliases": []
+  },
+  {
+    "name": "Gary B. Sabin",
+    "type": "person",
+    "id": "gary-b-sabin",
+    "aliases": []
+  },
+  {
+    "name": "Gary E. Stevenson",
+    "type": "person",
+    "id": "gary-e-stevenson",
+    "aliases": []
+  },
+  {
+    "name": "Gary J. Coleman",
+    "type": "person",
+    "id": "gary-j-coleman",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Gayle M. Clegg",
+    "type": "person",
+    "id": "gayle-m-clegg",
+    "aliases": []
+  },
+  {
+    "name": "Gene R. Cook",
+    "type": "person",
+    "id": "gene-r-cook",
+    "aliases": []
+  },
+  {
+    "name": "George A. Smith",
+    "type": "person",
+    "id": "george-a-smith",
+    "aliases": [
+      "Apostle of the LDS Church"
+    ]
+  },
+  {
+    "name": "George D. Pyper",
+    "type": "person",
+    "id": "george-d-pyper",
+    "aliases": [
+      "American musician and writer"
+    ]
+  },
+  {
+    "name": "George F. Richards",
+    "type": "person",
+    "id": "george-f-richards",
+    "aliases": [
+      "Apostle of the LDS Church"
+    ]
+  },
+  {
+    "name": "George Goddard",
+    "type": "person",
+    "id": "george-goddard",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "George I. Cannon",
+    "type": "person",
+    "id": "george-i-cannon",
+    "aliases": []
+  },
+  {
+    "name": "George Miller",
+    "type": "person",
+    "id": "george-miller",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "George P. Lee",
+    "type": "person",
+    "id": "george-p-lee",
+    "aliases": []
+  },
+  {
+    "name": "George Q. Cannon",
+    "type": "person",
+    "id": "george-q-cannon",
+    "aliases": []
+  },
+  {
+    "name": "John Taylor",
+    "type": "person",
+    "id": "john-taylor",
+    "aliases": []
+  },
+  {
+    "name": "Wilford Woodruff",
+    "type": "person",
+    "id": "wilford-woodruff",
+    "aliases": []
+  },
+  {
+    "name": "Lorenzo Snow",
+    "type": "person",
+    "id": "lorenzo-snow",
+    "aliases": []
+  },
+  {
+    "name": "George Q. Morris",
+    "type": "person",
+    "id": "george-q-morris",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "George R. Hill",
+    "type": "person",
+    "id": "george-r-hill",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "George R. Hill III",
+    "type": "person",
+    "id": "george-r-hill-iii",
+    "aliases": [
+      "American chemist and priest"
+    ]
+  },
+  {
+    "name": "George Reynolds",
+    "type": "person",
+    "id": "george-reynolds",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "George Teasdale",
+    "type": "person",
+    "id": "george-teasdale",
+    "aliases": []
+  },
+  {
+    "name": "Gérald Caussé",
+    "type": "person",
+    "id": "gérald-caussé",
+    "aliases": []
+  },
+  {
+    "name": "Gerald E. Melchin",
+    "type": "person",
+    "id": "gerald-e-melchin",
+    "aliases": []
+  },
+  {
+    "name": "Gerald N. Lund",
+    "type": "person",
+    "id": "gerald-n-lund",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Gerrit W. Gong",
+    "type": "person",
+    "id": "gerrit-w-gong",
+    "aliases": []
+  },
+  {
+    "name": "Glen L. Pace",
+    "type": "person",
+    "id": "glen-l-pace",
+    "aliases": []
+  },
+  {
+    "name": "Glen L. Rudd",
+    "type": "person",
+    "id": "glen-l-rudd",
+    "aliases": []
+  },
+  {
+    "name": "Gordon B. Hinckley",
+    "type": "person",
+    "id": "gordon-b-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Spencer W. Kimball",
+    "type": "person",
+    "id": "spencer-w-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Howard W. Hunter",
+    "type": "person",
+    "id": "howard-w-hunter",
+    "aliases": []
+  },
+  {
+    "name": "Graham W. Doxey",
+    "type": "person",
+    "id": "graham-w-doxey",
+    "aliases": []
+  },
+  {
+    "name": "Gregorio E. Casillas",
+    "type": "person",
+    "id": "gregorio-e-casillas",
+    "aliases": []
+  },
+  {
+    "name": "Gregory A. Schwitzer",
+    "type": "person",
+    "id": "gregory-a-schwitzer",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "H. Aldridge Gillespie",
+    "type": "person",
+    "id": "h-aldridge-gillespie",
+    "aliases": []
+  },
+  {
+    "name": "H. Bruce Stucki",
+    "type": "person",
+    "id": "h-bruce-stucki",
+    "aliases": []
+  },
+  {
+    "name": "H. Burke Peterson",
+    "type": "person",
+    "id": "h-burke-peterson",
+    "aliases": []
+  },
+  {
+    "name": "H. David Burton",
+    "type": "person",
+    "id": "h-david-burton",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "H. Ross Workman",
+    "type": "person",
+    "id": "h-ross-workman",
+    "aliases": []
+  },
+  {
+    "name": "H. Verlan Andersen",
+    "type": "person",
+    "id": "h-verlan-andersen",
+    "aliases": []
+  },
+  {
+    "name": "Han In Sang",
+    "type": "person",
+    "id": "han-in-sang",
+    "aliases": []
+  },
+  {
+    "name": "Hans T. Boom",
+    "type": "person",
+    "id": "hans-t-boom",
+    "aliases": []
+  },
+  {
+    "name": "Harold B. Lee",
+    "type": "person",
+    "id": "harold-b-lee",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Fielding Smith",
+    "type": "person",
+    "id": "joseph-fielding-smith",
+    "aliases": []
+  },
+  {
+    "name": "Harold G. Hillam",
+    "type": "person",
+    "id": "harold-g-hillam",
+    "aliases": []
+  },
+  {
+    "name": "Hartman Rector Jr.",
+    "type": "person",
+    "id": "hartman-rector-jr",
+    "aliases": []
+  },
+  {
+    "name": "Heber C. Kimball",
+    "type": "person",
+    "id": "heber-c-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Hector Barrero",
+    "type": "person",
+    "id": "hector-barrero",
+    "aliases": []
+  },
+  {
+    "name": "Helen S. Williams",
+    "type": "person",
+    "id": "helen-s-williams",
+    "aliases": []
+  },
+  {
+    "name": "Helio R. Camargo",
+    "type": "person",
+    "id": "helio-r-camargo",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Helvécio Martins",
+    "type": "person",
+    "id": "helvécio-martins",
+    "aliases": []
+  },
+  {
+    "name": "Henry B. Eyring",
+    "type": "person",
+    "id": "henry-b-eyring",
+    "aliases": []
+  },
+  {
+    "name": "Henry D. Moyle",
+    "type": "person",
+    "id": "henry-d-moyle",
+    "aliases": []
+  },
+  {
+    "name": "Henry D. Taylor",
+    "type": "person",
+    "id": "henry-d-taylor",
+    "aliases": []
+  },
+  {
+    "name": "Henry Harriman",
+    "type": "person",
+    "id": "henry-harriman",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Horace S. Eldredge",
+    "type": "person",
+    "id": "horace-s-eldredge",
+    "aliases": []
+  },
+  {
+    "name": "Horacio A. Tenorio",
+    "type": "person",
+    "id": "horacio-a-tenorio",
+    "aliases": []
+  },
+  {
+    "name": "Hortense H. C. Smith",
+    "type": "person",
+    "id": "hortense-h-c-smith",
+    "aliases": []
+  },
+  {
+    "name": "Hugh B. Brown",
+    "type": "person",
+    "id": "hugh-b-brown",
+    "aliases": []
+  },
+  {
+    "name": "Hugh W. Pinnock",
+    "type": "person",
+    "id": "hugh-w-pinnock",
+    "aliases": []
+  },
+  {
+    "name": "Hugo E. Martinez",
+    "type": "person",
+    "id": "hugo-e-martinez",
+    "aliases": []
+  },
+  {
+    "name": "Hugo Montoya",
+    "type": "person",
+    "id": "hugo-montoya",
+    "aliases": [
+      "Guatemalan footballer"
+    ]
+  },
+  {
+    "name": "Hutch U. Fale",
+    "type": "person",
+    "id": "hutch-u-fale",
+    "aliases": []
+  },
+  {
+    "name": "Hyrum G. Smith",
+    "type": "person",
+    "id": "hyrum-g-smith",
+    "aliases": []
+  },
+  {
+    "name": "Hyrum M. Smith",
+    "type": "person",
+    "id": "hyrum-m-smith",
+    "aliases": []
+  },
+  {
+    "name": "Hyrum Smith",
+    "type": "person",
+    "id": "hyrum-smith",
+    "aliases": []
+  },
+  {
+    "name": "I. Raymond Egbo",
+    "type": "person",
+    "id": "i-raymond-egbo",
+    "aliases": []
+  },
+  {
+    "name": "Ian S. Ardern",
+    "type": "person",
+    "id": "ian-s-ardern",
+    "aliases": []
+  },
+  {
+    "name": "Ida S. Dusenberry",
+    "type": "person",
+    "id": "ida-s-dusenberry",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Isaac K. Morrison",
+    "type": "person",
+    "id": "isaac-k-morrison",
+    "aliases": []
+  },
+  {
+    "name": "Isaac Morley",
+    "type": "person",
+    "id": "isaac-morley",
+    "aliases": [
+      "Early LDS Church leader"
+    ]
+  },
+  {
+    "name": "Isabelle Salmon Ross",
+    "type": "person",
+    "id": "isabelle-salmon-ross",
+    "aliases": []
+  },
+  {
+    "name": "J. Anette Dennis",
+    "type": "person",
+    "id": "j-anette-dennis",
+    "aliases": []
+  },
+  {
+    "name": "J. Ballard Washburn",
+    "type": "person",
+    "id": "j-ballard-washburn",
+    "aliases": []
+  },
+  {
+    "name": "J. Devn Cornish",
+    "type": "person",
+    "id": "j-devn-cornish",
+    "aliases": []
+  },
+  {
+    "name": "J. Golden Kimball",
+    "type": "person",
+    "id": "j-golden-kimball",
+    "aliases": []
+  },
+  {
+    "name": "J. Hugh Baird",
+    "type": "person",
+    "id": "j-hugh-baird",
+    "aliases": []
+  },
+  {
+    "name": "J. Kent Jolley",
+    "type": "person",
+    "id": "j-kent-jolley",
+    "aliases": []
+  },
+  {
+    "name": "J. Kimo Esplin",
+    "type": "person",
+    "id": "j-kimo-esplin",
+    "aliases": []
+  },
+  {
+    "name": "J. Reuben Clark",
+    "type": "person",
+    "id": "j-reuben-clark",
+    "aliases": []
+  },
+  {
+    "name": "J. Richard Clarke",
+    "type": "person",
+    "id": "j-richard-clarke",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "J. Thomas Fyans",
+    "type": "person",
+    "id": "j-thomas-fyans",
+    "aliases": []
+  },
+  {
+    "name": "Jack H. Goaslind",
+    "type": "person",
+    "id": "jack-h-goaslind",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Jack N. Gerard",
+    "type": "person",
+    "id": "jack-n-gerard",
+    "aliases": []
+  },
+  {
+    "name": "Jacob de Jager",
+    "type": "person",
+    "id": "jacob-de-jager",
+    "aliases": [
+      "Dutch mMormon leader"
+    ]
+  },
+  {
+    "name": "Jacob F. Gates",
+    "type": "person",
+    "id": "jacob-f-gates",
+    "aliases": []
+  },
+  {
+    "name": "Jairo Mazzagardi",
+    "type": "person",
+    "id": "jairo-mazzagardi",
+    "aliases": []
+  },
+  {
+    "name": "James A. Cullimore",
+    "type": "person",
+    "id": "james-a-cullimore",
+    "aliases": []
+  },
+  {
+    "name": "James B. Martino",
+    "type": "person",
+    "id": "james-b-martino",
+    "aliases": []
+  },
+  {
+    "name": "James E. Evanson",
+    "type": "person",
+    "id": "james-e-evanson",
+    "aliases": []
+  },
+  {
+    "name": "James E. Faust",
+    "type": "person",
+    "id": "james-e-faust",
+    "aliases": []
+  },
+  {
+    "name": "James E. Talmage",
+    "type": "person",
+    "id": "james-e-talmage",
+    "aliases": []
+  },
+  {
+    "name": "James Foster",
+    "type": "person",
+    "id": "james-foster",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "James H. Hart",
+    "type": "person",
+    "id": "james-h-hart",
+    "aliases": []
+  },
+  {
+    "name": "James J. Hamula",
+    "type": "person",
+    "id": "james-j-hamula",
+    "aliases": [
+      "former general authority of LDS Church"
+    ]
+  },
+  {
+    "name": "James M. Dunn",
+    "type": "person",
+    "id": "james-m-dunn",
+    "aliases": []
+  },
+  {
+    "name": "James M. Paramore",
+    "type": "person",
+    "id": "james-m-paramore",
+    "aliases": []
+  },
+  {
+    "name": "James O. Fantone",
+    "type": "person",
+    "id": "james-o-fantone",
+    "aliases": []
+  },
+  {
+    "name": "James O. Mason",
+    "type": "person",
+    "id": "james-o-mason",
+    "aliases": []
+  },
+  {
+    "name": "James R. Rasband",
+    "type": "person",
+    "id": "james-r-rasband",
+    "aliases": [
+      "American academic"
+    ]
+  },
+  {
+    "name": "James W. McConkie III",
+    "type": "person",
+    "id": "james-w-mcconkie-iii",
+    "aliases": []
+  },
+  {
+    "name": "Jan E. Newman",
+    "type": "person",
+    "id": "jan-e-newman",
+    "aliases": []
+  },
+  {
+    "name": "Janath R. Cannon",
+    "type": "person",
+    "id": "janath-r-cannon",
+    "aliases": [
+      "counselor in the general presidency of the Relief Society of the LDS Church"
+    ]
+  },
+  {
+    "name": "Jane S. Richards",
+    "type": "person",
+    "id": "jane-s-richards",
+    "aliases": []
+  },
+  {
+    "name": "Janet Murdock Thompson",
+    "type": "person",
+    "id": "janet-murdock-thompson",
+    "aliases": []
+  },
+  {
+    "name": "Janette Hales Beckham",
+    "type": "person",
+    "id": "janette-hales-beckham",
+    "aliases": []
+  },
+  {
+    "name": "Jay E. Jensen",
+    "type": "person",
+    "id": "jay-e-jensen",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Jayne B. Malan",
+    "type": "person",
+    "id": "jayne-b-malan",
+    "aliases": []
+  },
+  {
+    "name": "Jean A. Stevens",
+    "type": "person",
+    "id": "jean-a-stevens",
+    "aliases": []
+  },
+  {
+    "name": "Jean B. Bingham",
+    "type": "person",
+    "id": "jean-b-bingham",
+    "aliases": [
+      "American Mormon General President"
+    ]
+  },
+  {
+    "name": "Jedediah M. Grant",
+    "type": "person",
+    "id": "jedediah-m-grant",
+    "aliases": []
+  },
+  {
+    "name": "Jeffrey R. Holland",
+    "type": "person",
+    "id": "jeffrey-r-holland",
+    "aliases": []
+  },
+  {
+    "name": "Jennie B. Knight",
+    "type": "person",
+    "id": "jennie-b-knight",
+    "aliases": [
+      "American missionary"
+    ]
+  },
+  {
+    "name": "Jerald L. Taylor",
+    "type": "person",
+    "id": "jerald-l-taylor",
+    "aliases": []
+  },
+  {
+    "name": "Jeremiah J. Morgan",
+    "type": "person",
+    "id": "jeremiah-j-morgan",
+    "aliases": []
+  },
+  {
+    "name": "Jeremy R. Jaggi",
+    "type": "person",
+    "id": "jeremy-r-jaggi",
+    "aliases": []
+  },
+  {
+    "name": "Jesse Carter Little",
+    "type": "person",
+    "id": "jesse-carter-little",
+    "aliases": []
+  },
+  {
+    "name": "Jesse Gause",
+    "type": "person",
+    "id": "jesse-gause",
+    "aliases": [
+      "Early leader in the Latter Day Saint movement"
+    ]
+  },
+  {
+    "name": "Joanne B. Doxey",
+    "type": "person",
+    "id": "joanne-b-doxey",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Joaquín E. Costa",
+    "type": "person",
+    "id": "joaquín-e-costa",
+    "aliases": []
+  },
+  {
+    "name": "Joe J. Christensen",
+    "type": "person",
+    "id": "joe-j-christensen",
+    "aliases": []
+  },
+  {
+    "name": "John A. McCune",
+    "type": "person",
+    "id": "john-a-mccune",
+    "aliases": []
+  },
+  {
+    "name": "John A. Widtsoe",
+    "type": "person",
+    "id": "john-a-widtsoe",
+    "aliases": []
+  },
+  {
+    "name": "John B. Dickson",
+    "type": "person",
+    "id": "john-b-dickson",
+    "aliases": []
+  },
+  {
+    "name": "John C. Bennett",
+    "type": "person",
+    "id": "john-c-bennett",
+    "aliases": [
+      "American physician"
+    ]
+  },
+  {
+    "name": "John C. Pingree Jr.",
+    "type": "person",
+    "id": "john-c-pingree-jr",
+    "aliases": []
+  },
+  {
+    "name": "John Corrill",
+    "type": "person",
+    "id": "john-corrill",
+    "aliases": [
+      "American politician"
+    ]
+  },
+  {
+    "name": "John D. Amos",
+    "type": "person",
+    "id": "john-d-amos",
+    "aliases": []
+  },
+  {
+    "name": "John D. Giles",
+    "type": "person",
+    "id": "john-d-giles",
+    "aliases": []
+  },
+  {
+    "name": "John E. Fowler",
+    "type": "person",
+    "id": "john-e-fowler",
+    "aliases": []
+  },
+  {
+    "name": "John E. Page",
+    "type": "person",
+    "id": "john-e-page",
+    "aliases": []
+  },
+  {
+    "name": "John F. Boynton",
+    "type": "person",
+    "id": "john-f-boynton",
+    "aliases": [
+      "Latter Day Saint leader"
+    ]
+  },
+  {
+    "name": "John Gaylord",
+    "type": "person",
+    "id": "john-gaylord",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "John Gould",
+    "type": "person",
+    "id": "john-gould",
+    "aliases": []
+  },
+  {
+    "name": "John H. Groberg",
+    "type": "person",
+    "id": "john-h-groberg",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "John H. Taylor",
+    "type": "person",
+    "id": "john-h-taylor",
+    "aliases": [
+      "Topics referred to by the same term"
+    ]
+  },
+  {
+    "name": "John H. Vandenberg",
+    "type": "person",
+    "id": "john-h-vandenberg",
+    "aliases": []
+  },
+  {
+    "name": "John Henry Smith",
+    "type": "person",
+    "id": "john-henry-smith",
+    "aliases": []
+  },
+  {
+    "name": "John K. Carmack",
+    "type": "person",
+    "id": "john-k-carmack",
+    "aliases": [
+      "LDS Church General Authority"
+    ]
+  },
+  {
+    "name": "John L. Lewis",
+    "type": "person",
+    "id": "john-l-lewis",
+    "aliases": []
+  },
+  {
+    "name": "John Longden",
+    "type": "person",
+    "id": "john-longden",
+    "aliases": []
+  },
+  {
+    "name": "John M. Madsen",
+    "type": "person",
+    "id": "john-m-madsen",
+    "aliases": [
+      "American general authority"
+    ]
+  },
+  {
+    "name": "John Morgan",
+    "type": "person",
+    "id": "john-morgan",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "John Quayle Cannon",
+    "type": "person",
+    "id": "john-quayle-cannon",
+    "aliases": []
+  },
+  {
+    "name": "John R. Lasater",
+    "type": "person",
+    "id": "john-r-lasater",
+    "aliases": []
+  },
+  {
+    "name": "John R. Winder",
+    "type": "person",
+    "id": "john-r-winder",
+    "aliases": []
+  },
+  {
+    "name": "John S. Tanner",
+    "type": "person",
+    "id": "john-s-tanner",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "John Smith",
+    "type": "person",
+    "id": "john-smith",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "John Smith (hijo de Hyrum)",
+    "type": "person",
+    "id": "john-smith-(hijo-de-hyrum)",
+    "aliases": []
+  },
+  {
+    "name": "John Van Cott",
+    "type": "person",
+    "id": "john-van-cott",
+    "aliases": []
+  },
+  {
+    "name": "John W. Taylor",
+    "type": "person",
+    "id": "john-w-taylor",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "John Wells",
+    "type": "person",
+    "id": "john-wells",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "John Willard Young",
+    "type": "person",
+    "id": "john-willard-young",
+    "aliases": []
+  },
+  {
+    "name": "Jonathan S. Schmitt",
+    "type": "person",
+    "id": "jonathan-s-schmitt",
+    "aliases": []
+  },
+  {
+    "name": "Joni L. Koch",
+    "type": "person",
+    "id": "joni-l-koch",
+    "aliases": []
+  },
+  {
+    "name": "Jörg Klebingat",
+    "type": "person",
+    "id": "jörg-klebingat",
+    "aliases": []
+  },
+  {
+    "name": "Jorge A. Rojas",
+    "type": "person",
+    "id": "jorge-a-rojas",
+    "aliases": [
+      "Mexican Mormon leader"
+    ]
+  },
+  {
+    "name": "Jorge F. Zeballos",
+    "type": "person",
+    "id": "jorge-f-zeballos",
+    "aliases": []
+  },
+  {
+    "name": "Jorge M. Alvarado",
+    "type": "person",
+    "id": "jorge-m-alvarado",
+    "aliases": []
+  },
+  {
+    "name": "Jorge T. Becerra",
+    "type": "person",
+    "id": "jorge-t-becerra",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "José A. Teixeira",
+    "type": "person",
+    "id": "josé-a-teixeira",
+    "aliases": []
+  },
+  {
+    "name": "Jose L. Alonso",
+    "type": "person",
+    "id": "jose-l-alonso",
+    "aliases": []
+  },
+  {
+    "name": "Joseph A. Aldrich",
+    "type": "person",
+    "id": "joseph-a-aldrich",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Anderson",
+    "type": "person",
+    "id": "joseph-anderson",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Joseph Angell Young",
+    "type": "person",
+    "id": "joseph-angell-young",
+    "aliases": []
+  },
+  {
+    "name": "Joseph B. Wirthlin",
+    "type": "person",
+    "id": "joseph-b-wirthlin",
+    "aliases": []
+  },
+  {
+    "name": "Joseph C. Muren",
+    "type": "person",
+    "id": "joseph-c-muren",
+    "aliases": [
+      "American missionary"
+    ]
+  },
+  {
+    "name": "Joseph F. Merrill",
+    "type": "person",
+    "id": "joseph-f-merrill",
+    "aliases": [
+      "American religious figure"
+    ]
+  },
+  {
+    "name": "Joseph Fielding Smith (Patriarca)",
+    "type": "person",
+    "id": "joseph-fielding-smith-(patriarca)",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Hardy",
+    "type": "person",
+    "id": "joseph-hardy",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Joseph J. Cannon",
+    "type": "person",
+    "id": "joseph-j-cannon",
+    "aliases": [
+      "American politician"
+    ]
+  },
+  {
+    "name": "Joseph L. Wirthlin",
+    "type": "person",
+    "id": "joseph-l-wirthlin",
+    "aliases": []
+  },
+  {
+    "name": "Joseph M. Tanner",
+    "type": "person",
+    "id": "joseph-m-tanner",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Joseph Smith",
+    "type": "person",
+    "id": "joseph-smith",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Smith Sr.",
+    "type": "person",
+    "id": "joseph-smith-sr",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Joseph T. Bentley",
+    "type": "person",
+    "id": "joseph-t-bentley",
+    "aliases": [
+      "Mexican Mormon leader"
+    ]
+  },
+  {
+    "name": "Joseph W. McMurrin",
+    "type": "person",
+    "id": "joseph-w-mcmurrin",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Joseph W. Sitati",
+    "type": "person",
+    "id": "joseph-w-sitati",
+    "aliases": [
+      "Kenyan Mormon leader"
+    ]
+  },
+  {
+    "name": "Joseph Young",
+    "type": "person",
+    "id": "joseph-young",
+    "aliases": []
+  },
+  {
+    "name": "Josephine R. West",
+    "type": "person",
+    "id": "josephine-r-west",
+    "aliases": [
+      "American suffragist"
+    ]
+  },
+  {
+    "name": "Josiah Butterfield",
+    "type": "person",
+    "id": "josiah-butterfield",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Joy D. Jones",
+    "type": "person",
+    "id": "joy-d-jones",
+    "aliases": []
+  },
+  {
+    "name": "Joy F. Evans",
+    "type": "person",
+    "id": "joy-f-evans",
+    "aliases": []
+  },
+  {
+    "name": "Juan A. Uceda",
+    "type": "person",
+    "id": "juan-a-uceda",
+    "aliases": []
+  },
+  {
+    "name": "Juan Pablo Villar",
+    "type": "person",
+    "id": "juan-pablo-villar",
+    "aliases": []
+  },
+  {
+    "name": "Julie B. Beck",
+    "type": "person",
+    "id": "julie-b-beck",
+    "aliases": [
+      "15th General President of the Relief Society of the LDS Church"
+    ]
+  },
+  {
+    "name": "Julio E. Dávila",
+    "type": "person",
+    "id": "julio-e-dávila",
+    "aliases": []
+  },
+  {
+    "name": "Junius F. Wells",
+    "type": "person",
+    "id": "junius-f-wells",
+    "aliases": []
+  },
+  {
+    "name": "K. Brett Nattress",
+    "type": "person",
+    "id": "k-brett-nattress",
+    "aliases": []
+  },
+  {
+    "name": "Karl D. Hirst",
+    "type": "person",
+    "id": "karl-d-hirst",
+    "aliases": []
+  },
+  {
+    "name": "Karl G. Maeser",
+    "type": "person",
+    "id": "karl-g-maeser",
+    "aliases": []
+  },
+  {
+    "name": "Kathleen H. Hughes",
+    "type": "person",
+    "id": "kathleen-h-hughes",
+    "aliases": []
+  },
+  {
+    "name": "Kazuhiko Yamashita",
+    "type": "person",
+    "id": "kazuhiko-yamashita",
+    "aliases": []
+  },
+  {
+    "name": "Keith B. McMullin",
+    "type": "person",
+    "id": "keith-b-mcmullin",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Keith Crockett",
+    "type": "person",
+    "id": "keith-crockett",
+    "aliases": []
+  },
+  {
+    "name": "Keith R. Edwards",
+    "type": "person",
+    "id": "keith-r-edwards",
+    "aliases": []
+  },
+  {
+    "name": "Kelly B. Anderson",
+    "type": "person",
+    "id": "kelly-b-anderson",
+    "aliases": []
+  },
+  {
+    "name": "Kelly R. Johnson",
+    "type": "person",
+    "id": "kelly-r-johnson",
+    "aliases": []
+  },
+  {
+    "name": "Kenneth Johnson",
+    "type": "person",
+    "id": "kenneth-johnson",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Kent D. Watson",
+    "type": "person",
+    "id": "kent-d-watson",
+    "aliases": []
+  },
+  {
+    "name": "Kent F. Richards",
+    "type": "person",
+    "id": "kent-f-richards",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Kevin G. Brown",
+    "type": "person",
+    "id": "kevin-g-brown",
+    "aliases": []
+  },
+  {
+    "name": "Kevin J. Hathaway",
+    "type": "person",
+    "id": "kevin-j-hathaway",
+    "aliases": []
+  },
+  {
+    "name": "Kevin R. Duncan",
+    "type": "person",
+    "id": "kevin-r-duncan",
+    "aliases": []
+  },
+  {
+    "name": "Kevin S. Hamilton",
+    "type": "person",
+    "id": "kevin-s-hamilton",
+    "aliases": []
+  },
+  {
+    "name": "Kevin W. Pearson",
+    "type": "person",
+    "id": "kevin-w-pearson",
+    "aliases": []
+  },
+  {
+    "name": "Kim B. Clark",
+    "type": "person",
+    "id": "kim-b-clark",
+    "aliases": []
+  },
+  {
+    "name": "Koichi Aoyagi",
+    "type": "person",
+    "id": "koichi-aoyagi",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Kristin M. Yee",
+    "type": "person",
+    "id": "kristin-m-yee",
+    "aliases": []
+  },
+  {
+    "name": "Kwok Yuen Tai",
+    "type": "person",
+    "id": "kwok-yuen-tai",
+    "aliases": []
+  },
+  {
+    "name": "Kyle S. McKay",
+    "type": "person",
+    "id": "kyle-s-mckay",
+    "aliases": []
+  },
+  {
+    "name": "L. Edward Brown",
+    "type": "person",
+    "id": "l-edward-brown",
+    "aliases": [
+      "American politician"
+    ]
+  },
+  {
+    "name": "L. Todd Budge",
+    "type": "person",
+    "id": "l-todd-budge",
+    "aliases": []
+  },
+  {
+    "name": "L. Tom Perry",
+    "type": "person",
+    "id": "l-tom-perry",
+    "aliases": []
+  },
+  {
+    "name": "L. Whitney Clayton",
+    "type": "person",
+    "id": "l-whitney-clayton",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Lance B. Wickman",
+    "type": "person",
+    "id": "lance-b-wickman",
+    "aliases": [
+      "LDS Missionary"
+    ]
+  },
+  {
+    "name": "Larry J. Echo Hawk",
+    "type": "person",
+    "id": "larry-j-echo-hawk",
+    "aliases": [
+      "Attorney and legal scholar"
+    ]
+  },
+  {
+    "name": "Larry R. Lawrence",
+    "type": "person",
+    "id": "larry-r-lawrence",
+    "aliases": []
+  },
+  {
+    "name": "Larry S. Kacher",
+    "type": "person",
+    "id": "larry-s-kacher",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Larry W. Gibbons",
+    "type": "person",
+    "id": "larry-w-gibbons",
+    "aliases": []
+  },
+  {
+    "name": "Larry Y. Wilson",
+    "type": "person",
+    "id": "larry-y-wilson",
+    "aliases": []
+  },
+  {
+    "name": "LaRue C. Longden",
+    "type": "person",
+    "id": "larue-c-longden",
+    "aliases": []
+  },
+  {
+    "name": "LaVern Watts Parmley",
+    "type": "person",
+    "id": "lavern-watts-parmley",
+    "aliases": [
+      "5th General President of the Primary of the LDS Church"
+    ]
+  },
+  {
+    "name": "Lawrence E. Corbridge",
+    "type": "person",
+    "id": "lawrence-e-corbridge",
+    "aliases": []
+  },
+  {
+    "name": "LeGrand R. Curtis",
+    "type": "person",
+    "id": "legrand-r-curtis",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "LeGrand R. Curtis Jr.",
+    "type": "person",
+    "id": "legrand-r-curtis-jr",
+    "aliases": []
+  },
+  {
+    "name": "LeGrand Richards",
+    "type": "person",
+    "id": "legrand-richards",
+    "aliases": []
+  },
+  {
+    "name": "Leonard W. Hardy",
+    "type": "person",
+    "id": "leonard-w-hardy",
+    "aliases": [
+      "Leonard Wilford Hardy was an early convert in the Latter Day Saint movement"
+    ]
+  },
+  {
+    "name": "Leone W. Doxey",
+    "type": "person",
+    "id": "leone-w-doxey",
+    "aliases": []
+  },
+  {
+    "name": "Levi Edgar Young",
+    "type": "person",
+    "id": "levi-edgar-young",
+    "aliases": [
+      "Mormon missionary"
+    ]
+  },
+  {
+    "name": "Levi W. Hancock",
+    "type": "person",
+    "id": "levi-w-hancock",
+    "aliases": []
+  },
+  {
+    "name": "Lillie T. Freeze",
+    "type": "person",
+    "id": "lillie-t-freeze",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Linda K. Burton",
+    "type": "person",
+    "id": "linda-k-burton",
+    "aliases": []
+  },
+  {
+    "name": "Linda S. Reeves",
+    "type": "person",
+    "id": "linda-s-reeves",
+    "aliases": []
+  },
+  {
+    "name": "Lino Alvarez",
+    "type": "person",
+    "id": "lino-alvarez",
+    "aliases": []
+  },
+  {
+    "name": "Lisa L. Harkness",
+    "type": "person",
+    "id": "lisa-l-harkness",
+    "aliases": []
+  },
+  {
+    "name": "Lloyd P. George",
+    "type": "person",
+    "id": "lloyd-p-george",
+    "aliases": []
+  },
+  {
+    "name": "Loren C. Dunn",
+    "type": "person",
+    "id": "loren-c-dunn",
+    "aliases": []
+  },
+  {
+    "name": "Lorenzo H. Hatch",
+    "type": "person",
+    "id": "lorenzo-h-hatch",
+    "aliases": []
+  },
+  {
+    "name": "Louie B. Felt",
+    "type": "person",
+    "id": "louie-b-felt",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Louise Y. Robison",
+    "type": "person",
+    "id": "louise-y-robison",
+    "aliases": [
+      "General President of the Relief society"
+    ]
+  },
+  {
+    "name": "Lowell D. Wood",
+    "type": "person",
+    "id": "lowell-d-wood",
+    "aliases": []
+  },
+  {
+    "name": "Lowell M. Snow",
+    "type": "person",
+    "id": "lowell-m-snow",
+    "aliases": [
+      "American Mormon bishop"
+    ]
+  },
+  {
+    "name": "Lucile C. Reading",
+    "type": "person",
+    "id": "lucile-c-reading",
+    "aliases": []
+  },
+  {
+    "name": "Lucy Grant Cannon",
+    "type": "person",
+    "id": "lucy-grant-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Lucy T. Andersen",
+    "type": "person",
+    "id": "lucy-t-andersen",
+    "aliases": []
+  },
+  {
+    "name": "Luke S. Johnson",
+    "type": "person",
+    "id": "luke-s-johnson",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Lyman E. Johnson",
+    "type": "person",
+    "id": "lyman-e-johnson",
+    "aliases": []
+  },
+  {
+    "name": "Lyman R. Sherman",
+    "type": "person",
+    "id": "lyman-r-sherman",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Lyman Wight",
+    "type": "person",
+    "id": "lyman-wight",
+    "aliases": []
+  },
+  {
+    "name": "Lynn A. Mickelsen",
+    "type": "person",
+    "id": "lynn-a-mickelsen",
+    "aliases": []
+  },
+  {
+    "name": "Lynn A. Sorensen",
+    "type": "person",
+    "id": "lynn-a-sorensen",
+    "aliases": []
+  },
+  {
+    "name": "Lynn G. Robbins",
+    "type": "person",
+    "id": "lynn-g-robbins",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Lynn S. Richards",
+    "type": "person",
+    "id": "lynn-s-richards",
+    "aliases": [
+      "American lawyer"
+    ]
+  },
+  {
+    "name": "M. Russell Ballard",
+    "type": "person",
+    "id": "m-russell-ballard",
+    "aliases": [
+      "Melvin Russell Ballard Jr."
+    ]
+  },
+  {
+    "name": "Mae Taylor Nystrom",
+    "type": "person",
+    "id": "mae-taylor-nystrom",
+    "aliases": []
+  },
+  {
+    "name": "Malcolm S. Jeppsen",
+    "type": "person",
+    "id": "malcolm-s-jeppsen",
+    "aliases": []
+  },
+  {
+    "name": "Marcia K. Howells",
+    "type": "person",
+    "id": "marcia-k-howells",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Marcos A. Aidukaitis",
+    "type": "person",
+    "id": "marcos-a-aidukaitis",
+    "aliases": []
+  },
+  {
+    "name": "Marcus B. Nash",
+    "type": "person",
+    "id": "marcus-b-nash",
+    "aliases": []
+  },
+  {
+    "name": "Margaret D. Nadauld",
+    "type": "person",
+    "id": "margaret-d-nadauld",
+    "aliases": [
+      "American church leader"
+    ]
+  },
+  {
+    "name": "Margaret R. Jackson",
+    "type": "person",
+    "id": "margaret-r-jackson",
+    "aliases": []
+  },
+  {
+    "name": "Margaret S. Lifferth",
+    "type": "person",
+    "id": "margaret-s-lifferth",
+    "aliases": []
+  },
+  {
+    "name": "Margaret Young Taylor",
+    "type": "person",
+    "id": "margaret-young-taylor",
+    "aliases": [
+      "American Mormon pioneer"
+    ]
+  },
+  {
+    "name": "Maria Young Dougall",
+    "type": "person",
+    "id": "maria-young-dougall",
+    "aliases": []
+  },
+  {
+    "name": "Marian R. Boyer",
+    "type": "person",
+    "id": "marian-r-boyer",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Marianne C. Sharp",
+    "type": "person",
+    "id": "marianne-c-sharp",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Marion D. Hanks",
+    "type": "person",
+    "id": "marion-d-hanks",
+    "aliases": []
+  },
+  {
+    "name": "Marion G. Romney",
+    "type": "person",
+    "id": "marion-g-romney",
+    "aliases": [
+      "Leader of the LDS Church"
+    ]
+  },
+  {
+    "name": "Mark A. Bragg",
+    "type": "person",
+    "id": "mark-a-bragg",
+    "aliases": []
+  },
+  {
+    "name": "Mark D. Eddy",
+    "type": "person",
+    "id": "mark-d-eddy",
+    "aliases": []
+  },
+  {
+    "name": "Mark E. Petersen",
+    "type": "person",
+    "id": "mark-e-petersen",
+    "aliases": []
+  },
+  {
+    "name": "Mark L. Pace",
+    "type": "person",
+    "id": "mark-l-pace",
+    "aliases": []
+  },
+  {
+    "name": "Marlin K. Jensen",
+    "type": "person",
+    "id": "marlin-k-jensen",
+    "aliases": []
+  },
+  {
+    "name": "Marriner W. Merrill",
+    "type": "person",
+    "id": "marriner-w-merrill",
+    "aliases": []
+  },
+  {
+    "name": "Martha H. Tingey",
+    "type": "person",
+    "id": "martha-h-tingey",
+    "aliases": []
+  },
+  {
+    "name": "Martin Harris",
+    "type": "person",
+    "id": "martin-harris",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Marvin J. Ashton",
+    "type": "person",
+    "id": "marvin-j-ashton",
+    "aliases": []
+  },
+  {
+    "name": "Marvin O. Ashton",
+    "type": "person",
+    "id": "marvin-o-ashton",
+    "aliases": []
+  },
+  {
+    "name": "Mary Ellen W. Smoot",
+    "type": "person",
+    "id": "mary-ellen-w-smoot",
+    "aliases": []
+  },
+  {
+    "name": "Mary N. Cook",
+    "type": "person",
+    "id": "mary-n-cook",
+    "aliases": []
+  },
+  {
+    "name": "Mary R. Durham",
+    "type": "person",
+    "id": "mary-r-durham",
+    "aliases": []
+  },
+  {
+    "name": "Massimo De Feo",
+    "type": "person",
+    "id": "massimo-de-feo",
+    "aliases": []
+  },
+  {
+    "name": "Mathias Held",
+    "type": "person",
+    "id": "mathias-held",
+    "aliases": []
+  },
+  {
+    "name": "Matilda M. Barratt",
+    "type": "person",
+    "id": "matilda-m-barratt",
+    "aliases": [
+      "British Mormon leader"
+    ]
+  },
+  {
+    "name": "Matthew Cowley",
+    "type": "person",
+    "id": "matthew-cowley",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Matthew J. Eyring",
+    "type": "person",
+    "id": "matthew-j-eyring",
+    "aliases": []
+  },
+  {
+    "name": "Matthew L. Carpenter",
+    "type": "person",
+    "id": "matthew-l-carpenter",
+    "aliases": []
+  },
+  {
+    "name": "Matthew O. Richardson",
+    "type": "person",
+    "id": "matthew-o-richardson",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Matthew S. Holland",
+    "type": "person",
+    "id": "matthew-s-holland",
+    "aliases": [
+      "American political scientist"
+    ]
+  },
+  {
+    "name": "Matthias F. Cowley",
+    "type": "person",
+    "id": "matthias-f-cowley",
+    "aliases": []
+  },
+  {
+    "name": "Maurine J. Turley",
+    "type": "person",
+    "id": "maurine-j-turley",
+    "aliases": []
+  },
+  {
+    "name": "May Anderson",
+    "type": "person",
+    "id": "may-anderson",
+    "aliases": []
+  },
+  {
+    "name": "May Green Hinckley",
+    "type": "person",
+    "id": "may-green-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Melvin J. Ballard",
+    "type": "person",
+    "id": "melvin-j-ballard",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Merlin R. Lybbert",
+    "type": "person",
+    "id": "merlin-r-lybbert",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Merrill J. Bateman",
+    "type": "person",
+    "id": "merrill-j-bateman",
+    "aliases": [
+      "former member of the Presidency of the Seventy and former President of Brigham Young University"
+    ]
+  },
+  {
+    "name": "Mervyn B. Arnold",
+    "type": "person",
+    "id": "mervyn-b-arnold",
+    "aliases": []
+  },
+  {
+    "name": "Michael A. Dunn",
+    "type": "person",
+    "id": "michael-a-dunn",
+    "aliases": []
+  },
+  {
+    "name": "Michael B. Strong",
+    "type": "person",
+    "id": "michael-b-strong",
+    "aliases": []
+  },
+  {
+    "name": "Michael Cziesla",
+    "type": "person",
+    "id": "michael-cziesla",
+    "aliases": []
+  },
+  {
+    "name": "Michael John U. Teh",
+    "type": "person",
+    "id": "michael-john-u-teh",
+    "aliases": []
+  },
+  {
+    "name": "Michael T. Ringwood",
+    "type": "person",
+    "id": "michael-t-ringwood",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Michaelene P. Grassli",
+    "type": "person",
+    "id": "michaelene-p-grassli",
+    "aliases": []
+  },
+  {
+    "name": "Michele G. Pisanu",
+    "type": "person",
+    "id": "michele-g-pisanu",
+    "aliases": []
+  },
+  {
+    "name": "Michelle D. Craig",
+    "type": "person",
+    "id": "michelle-d-craig",
+    "aliases": []
+  },
+  {
+    "name": "Milton Bennion",
+    "type": "person",
+    "id": "milton-bennion",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Milton Camargo",
+    "type": "person",
+    "id": "milton-camargo",
+    "aliases": []
+  },
+  {
+    "name": "Milton da Rocha Camargo",
+    "type": "person",
+    "id": "milton-da-rocha-camargo",
+    "aliases": []
+  },
+  {
+    "name": "Milton H. Hardy",
+    "type": "person",
+    "id": "milton-h-hardy",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Milton R. Hunter",
+    "type": "person",
+    "id": "milton-r-hunter",
+    "aliases": []
+  },
+  {
+    "name": "Moises Villanueva",
+    "type": "person",
+    "id": "moises-villanueva",
+    "aliases": []
+  },
+  {
+    "name": "Monte J. Brough",
+    "type": "person",
+    "id": "monte-j-brough",
+    "aliases": []
+  },
+  {
+    "name": "Moses Thatcher",
+    "type": "person",
+    "id": "moses-thatcher",
+    "aliases": []
+  },
+  {
+    "name": "N. Eldon Tanner",
+    "type": "person",
+    "id": "n-eldon-tanner",
+    "aliases": [
+      "Canadian politician"
+    ]
+  },
+  {
+    "name": "Naomi M. Shumway",
+    "type": "person",
+    "id": "naomi-m-shumway",
+    "aliases": [
+      "6th General President of the Primary of the LDS Church"
+    ]
+  },
+  {
+    "name": "Naomi W. Randall",
+    "type": "person",
+    "id": "naomi-w-randall",
+    "aliases": [
+      "American religious songwriter and leader in the LDS Church Primary organization"
+    ]
+  },
+  {
+    "name": "Neal A. Maxwell",
+    "type": "person",
+    "id": "neal-a-maxwell",
+    "aliases": []
+  },
+  {
+    "name": "Ned B. Roueche",
+    "type": "person",
+    "id": "ned-b-roueche",
+    "aliases": []
+  },
+  {
+    "name": "Neil D. Schaerrer",
+    "type": "person",
+    "id": "neil-d-schaerrer",
+    "aliases": []
+  },
+  {
+    "name": "Neil L. Andersen",
+    "type": "person",
+    "id": "neil-l-andersen",
+    "aliases": []
+  },
+  {
+    "name": "Neill F. Marriott",
+    "type": "person",
+    "id": "neill-f-marriott",
+    "aliases": [
+      "Secound Counselor in the general presidency of the Young Women of the LDS Church"
+    ]
+  },
+  {
+    "name": "Newel K. Whitney",
+    "type": "person",
+    "id": "newel-k-whitney",
+    "aliases": []
+  },
+  {
+    "name": "Nicholas G. Smith",
+    "type": "person",
+    "id": "nicholas-g-smith",
+    "aliases": []
+  },
+  {
+    "name": "Nina M. Garfield",
+    "type": "person",
+    "id": "nina-m-garfield",
+    "aliases": []
+  },
+  {
+    "name": "Norma B. Smith",
+    "type": "person",
+    "id": "norma-b-smith",
+    "aliases": []
+  },
+  {
+    "name": "O. Leslie Stone",
+    "type": "person",
+    "id": "o-leslie-stone",
+    "aliases": [
+      "Later Day Saints leader"
+    ]
+  },
+  {
+    "name": "O. Vincent Haleck",
+    "type": "person",
+    "id": "o-vincent-haleck",
+    "aliases": [
+      "American Samoan Mormon leader"
+    ]
+  },
+  {
+    "name": "Octaviano Tenorio",
+    "type": "person",
+    "id": "octaviano-tenorio",
+    "aliases": [
+      "Mexican Mormon leader"
+    ]
+  },
+  {
+    "name": "Oliver Cowdery",
+    "type": "person",
+    "id": "oliver-cowdery",
+    "aliases": []
+  },
+  {
+    "name": "Orrin Porter Miller",
+    "type": "person",
+    "id": "orrin-porter-miller",
+    "aliases": []
+  },
+  {
+    "name": "Orson F. Whitney",
+    "type": "person",
+    "id": "orson-f-whitney",
+    "aliases": []
+  },
+  {
+    "name": "Orson Hyde",
+    "type": "person",
+    "id": "orson-hyde",
+    "aliases": []
+  },
+  {
+    "name": "Orson Pratt",
+    "type": "person",
+    "id": "orson-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Oscar A. Kirkham",
+    "type": "person",
+    "id": "oscar-a-kirkham",
+    "aliases": []
+  },
+  {
+    "name": "Ozani Farias",
+    "type": "person",
+    "id": "ozani-farias",
+    "aliases": []
+  },
+  {
+    "name": "Parley P. Pratt",
+    "type": "person",
+    "id": "parley-p-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Patricia P. Pinegar",
+    "type": "person",
+    "id": "patricia-p-pinegar",
+    "aliases": []
+  },
+  {
+    "name": "Patricia T. Holland",
+    "type": "person",
+    "id": "patricia-t-holland",
+    "aliases": []
+  },
+  {
+    "name": "Patricio M. Giuffra",
+    "type": "person",
+    "id": "patricio-m-giuffra",
+    "aliases": []
+  },
+  {
+    "name": "Patrick Kearon",
+    "type": "person",
+    "id": "patrick-kearon",
+    "aliases": []
+  },
+  {
+    "name": "Paul B. Pieper",
+    "type": "person",
+    "id": "paul-b-pieper",
+    "aliases": []
+  },
+  {
+    "name": "Paul H. Dunn",
+    "type": "person",
+    "id": "paul-h-dunn",
+    "aliases": []
+  },
+  {
+    "name": "Paul H. Sinclair",
+    "type": "person",
+    "id": "paul-h-sinclair",
+    "aliases": []
+  },
+  {
+    "name": "Paul K. Sybrowsky",
+    "type": "person",
+    "id": "paul-k-sybrowsky",
+    "aliases": [
+      "President of Southern Virginia University"
+    ]
+  },
+  {
+    "name": "Paul V. Johnson",
+    "type": "person",
+    "id": "paul-v-johnson",
+    "aliases": []
+  },
+  {
+    "name": "Pedro X. Larreal",
+    "type": "person",
+    "id": "pedro-x-larreal",
+    "aliases": []
+  },
+  {
+    "name": "Per G. Malm",
+    "type": "person",
+    "id": "per-g-malm",
+    "aliases": []
+  },
+  {
+    "name": "Peter F. Meurs",
+    "type": "person",
+    "id": "peter-f-meurs",
+    "aliases": []
+  },
+  {
+    "name": "Peter M. Johnson",
+    "type": "person",
+    "id": "peter-m-johnson",
+    "aliases": []
+  },
+  {
+    "name": "Philip T. Sonntag",
+    "type": "person",
+    "id": "philip-t-sonntag",
+    "aliases": []
+  },
+  {
+    "name": "Quentin L. Cook",
+    "type": "person",
+    "id": "quentin-l-cook",
+    "aliases": []
+  },
+  {
+    "name": "Quinn G. McKay",
+    "type": "person",
+    "id": "quinn-g-mckay",
+    "aliases": []
+  },
+  {
+    "name": "R. Conrad Schultz",
+    "type": "person",
+    "id": "r-conrad-schultz",
+    "aliases": []
+  },
+  {
+    "name": "Rafael E. Pino",
+    "type": "person",
+    "id": "rafael-e-pino",
+    "aliases": []
+  },
+  {
+    "name": "Ralph W. Hardy",
+    "type": "person",
+    "id": "ralph-w-hardy",
+    "aliases": []
+  },
+  {
+    "name": "Randall K. Bennett",
+    "type": "person",
+    "id": "randall-k-bennett",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Randy D. Funk",
+    "type": "person",
+    "id": "randy-d-funk",
+    "aliases": []
+  },
+  {
+    "name": "Ray H. Wood",
+    "type": "person",
+    "id": "ray-h-wood",
+    "aliases": []
+  },
+  {
+    "name": "Reed Smoot",
+    "type": "person",
+    "id": "reed-smoot",
+    "aliases": [
+      "Reed Owen Smoot"
+    ]
+  },
+  {
+    "name": "Rex D. Pinegar",
+    "type": "person",
+    "id": "rex-d-pinegar",
+    "aliases": []
+  },
+  {
+    "name": "Rey L. Pratt",
+    "type": "person",
+    "id": "rey-l-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Reyna I. Aburto",
+    "type": "person",
+    "id": "reyna-i-aburto",
+    "aliases": []
+  },
+  {
+    "name": "Reynolds Cahoon",
+    "type": "person",
+    "id": "reynolds-cahoon",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Ricardo P. Giménez",
+    "type": "person",
+    "id": "ricardo-p-giménez",
+    "aliases": []
+  },
+  {
+    "name": "Richard B. Wirthlin",
+    "type": "person",
+    "id": "richard-b-wirthlin",
+    "aliases": []
+  },
+  {
+    "name": "Richard C. Edgley",
+    "type": "person",
+    "id": "richard-c-edgley",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Richard D. Allred",
+    "type": "person",
+    "id": "richard-d-allred",
+    "aliases": []
+  },
+  {
+    "name": "Richard E. Cook",
+    "type": "person",
+    "id": "richard-e-cook",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Richard E. Turley Sr.",
+    "type": "person",
+    "id": "richard-e-turley-sr",
+    "aliases": []
+  },
+  {
+    "name": "Richard G. Hinckley",
+    "type": "person",
+    "id": "richard-g-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Richard G. Scott",
+    "type": "person",
+    "id": "richard-g-scott",
+    "aliases": []
+  },
+  {
+    "name": "Richard H. Winkel",
+    "type": "person",
+    "id": "richard-h-winkel",
+    "aliases": []
+  },
+  {
+    "name": "Richard J. Maynes",
+    "type": "person",
+    "id": "richard-j-maynes",
+    "aliases": []
+  },
+  {
+    "name": "Richard L. Evans",
+    "type": "person",
+    "id": "richard-l-evans",
+    "aliases": []
+  },
+  {
+    "name": "Richard L. Warner",
+    "type": "person",
+    "id": "richard-l-warner",
+    "aliases": []
+  },
+  {
+    "name": "Richard P. Lindsay",
+    "type": "person",
+    "id": "richard-p-lindsay",
+    "aliases": []
+  },
+  {
+    "name": "Richard R. Lyman",
+    "type": "person",
+    "id": "richard-r-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Robert C. Gay",
+    "type": "person",
+    "id": "robert-c-gay",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Robert C. Oaks",
+    "type": "person",
+    "id": "robert-c-oaks",
+    "aliases": [
+      "United States general"
+    ]
+  },
+  {
+    "name": "Robert D. Hales",
+    "type": "person",
+    "id": "robert-d-hales",
+    "aliases": []
+  },
+  {
+    "name": "Robert E. Sackley",
+    "type": "person",
+    "id": "robert-e-sackley",
+    "aliases": []
+  },
+  {
+    "name": "Robert E. Wells",
+    "type": "person",
+    "id": "robert-e-wells",
+    "aliases": []
+  },
+  {
+    "name": "Robert F. Orton",
+    "type": "person",
+    "id": "robert-f-orton",
+    "aliases": []
+  },
+  {
+    "name": "Robert J. Whetten",
+    "type": "person",
+    "id": "robert-j-whetten",
+    "aliases": []
+  },
+  {
+    "name": "Robert K. Dellenbach",
+    "type": "person",
+    "id": "robert-k-dellenbach",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Robert L. Backman",
+    "type": "person",
+    "id": "robert-l-backman",
+    "aliases": [
+      "American politician"
+    ]
+  },
+  {
+    "name": "Robert L. Simpson",
+    "type": "person",
+    "id": "robert-l-simpson",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Robert M. Daines",
+    "type": "person",
+    "id": "robert-m-daines",
+    "aliases": [
+      "American lawyer"
+    ]
+  },
+  {
+    "name": "Robert R. Steuer",
+    "type": "person",
+    "id": "robert-r-steuer",
+    "aliases": []
+  },
+  {
+    "name": "Robert S. Wood",
+    "type": "person",
+    "id": "robert-s-wood",
+    "aliases": [
+      "American academic"
+    ]
+  },
+  {
+    "name": "Robert T. Burton",
+    "type": "person",
+    "id": "robert-t-burton",
+    "aliases": []
+  },
+  {
+    "name": "Rodney C. Badger",
+    "type": "person",
+    "id": "rodney-c-badger",
+    "aliases": []
+  },
+  {
+    "name": "Roger Orton",
+    "type": "person",
+    "id": "roger-orton",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Ronald A. Rasband",
+    "type": "person",
+    "id": "ronald-a-rasband",
+    "aliases": []
+  },
+  {
+    "name": "Ronald E. Poelman",
+    "type": "person",
+    "id": "ronald-e-poelman",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Ronald M. Barcellos",
+    "type": "person",
+    "id": "ronald-m-barcellos",
+    "aliases": []
+  },
+  {
+    "name": "Ronald T. Halverson",
+    "type": "person",
+    "id": "ronald-t-halverson",
+    "aliases": []
+  },
+  {
+    "name": "Rosemary K. Chibota",
+    "type": "person",
+    "id": "rosemary-k-chibota",
+    "aliases": []
+  },
+  {
+    "name": "Rosemary M. Wixom",
+    "type": "person",
+    "id": "rosemary-m-wixom",
+    "aliases": []
+  },
+  {
+    "name": "Royden G. Derrick",
+    "type": "person",
+    "id": "royden-g-derrick",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Rubén V. Alliaud",
+    "type": "person",
+    "id": "rubén-v-alliaud",
+    "aliases": []
+  },
+  {
+    "name": "Rudger Clawson",
+    "type": "person",
+    "id": "rudger-clawson",
+    "aliases": []
+  },
+  {
+    "name": "Rulon G. Craven",
+    "type": "person",
+    "id": "rulon-g-craven",
+    "aliases": []
+  },
+  {
+    "name": "Rulon S. Wells",
+    "type": "person",
+    "id": "rulon-s-wells",
+    "aliases": [
+      "American religious leader and politician"
+    ]
+  },
+  {
+    "name": "Russell T. Osguthorpe",
+    "type": "person",
+    "id": "russell-t-osguthorpe",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Ruth B. Wright",
+    "type": "person",
+    "id": "ruth-b-wright",
+    "aliases": []
+  },
+  {
+    "name": "Ruth H. Funk",
+    "type": "person",
+    "id": "ruth-h-funk",
+    "aliases": []
+  },
+  {
+    "name": "Ruth May Fox",
+    "type": "person",
+    "id": "ruth-may-fox",
+    "aliases": []
+  },
+  {
+    "name": "Ryan K. Olsen",
+    "type": "person",
+    "id": "ryan-k-olsen",
+    "aliases": []
+  },
+  {
+    "name": "S. Dilworth Young",
+    "type": "person",
+    "id": "s-dilworth-young",
+    "aliases": []
+  },
+  {
+    "name": "S. Gifford Nielsen",
+    "type": "person",
+    "id": "s-gifford-nielsen",
+    "aliases": [
+      "American football player"
+    ]
+  },
+  {
+    "name": "S. Mark Palmer",
+    "type": "person",
+    "id": "s-mark-palmer",
+    "aliases": []
+  },
+  {
+    "name": "Sadie Grant Pack",
+    "type": "person",
+    "id": "sadie-grant-pack",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Salmon Gee",
+    "type": "person",
+    "id": "salmon-gee",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Samuel H. Smith",
+    "type": "person",
+    "id": "samuel-h-smith",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Samuel O. Bennion",
+    "type": "person",
+    "id": "samuel-o-bennion",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Sandino Roman",
+    "type": "person",
+    "id": "sandino-roman",
+    "aliases": []
+  },
+  {
+    "name": "Sara B. Paulsen",
+    "type": "person",
+    "id": "sara-b-paulsen",
+    "aliases": []
+  },
+  {
+    "name": "Sarah M. Cleveland",
+    "type": "person",
+    "id": "sarah-m-cleveland",
+    "aliases": [
+      "Counselors of the Relief Society"
+    ]
+  },
+  {
+    "name": "Scott D. Whiting",
+    "type": "person",
+    "id": "scott-d-whiting",
+    "aliases": []
+  },
+  {
+    "name": "Sean C. Babcock",
+    "type": "person",
+    "id": "sean-c-babcock",
+    "aliases": []
+  },
+  {
+    "name": "Sean Douglas",
+    "type": "person",
+    "id": "sean-douglas",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Sean R. Rahm",
+    "type": "person",
+    "id": "sean-r-rahm",
+    "aliases": []
+  },
+  {
+    "name": "Sergio E. Muñoz",
+    "type": "person",
+    "id": "sergio-e-muñoz",
+    "aliases": []
+  },
+  {
+    "name": "Sergio R. Vargas",
+    "type": "person",
+    "id": "sergio-r-vargas",
+    "aliases": []
+  },
+  {
+    "name": "Seymour B. Young",
+    "type": "person",
+    "id": "seymour-b-young",
+    "aliases": []
+  },
+  {
+    "name": "Shadrach Roundy",
+    "type": "person",
+    "id": "shadrach-roundy",
+    "aliases": [
+      "American Bodyguard and Mormon leader"
+    ]
+  },
+  {
+    "name": "Sharon Eubank",
+    "type": "person",
+    "id": "sharon-eubank",
+    "aliases": [
+      "female religious"
+    ]
+  },
+  {
+    "name": "Sharon G. Larsen",
+    "type": "person",
+    "id": "sharon-g-larsen",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Shayne M. Bowen",
+    "type": "person",
+    "id": "shayne-m-bowen",
+    "aliases": []
+  },
+  {
+    "name": "Sheldon F. Child",
+    "type": "person",
+    "id": "sheldon-f-child",
+    "aliases": []
+  },
+  {
+    "name": "Sheri L. Dew",
+    "type": "person",
+    "id": "sheri-l-dew",
+    "aliases": [
+      "American businesswoman"
+    ]
+  },
+  {
+    "name": "Shirley D. Christensen",
+    "type": "person",
+    "id": "shirley-d-christensen",
+    "aliases": []
+  },
+  {
+    "name": "Shirley W. Thomas",
+    "type": "person",
+    "id": "shirley-w-thomas",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Sidney Rigdon",
+    "type": "person",
+    "id": "sidney-rigdon",
+    "aliases": []
+  },
+  {
+    "name": "Silvia H. Allred",
+    "type": "person",
+    "id": "silvia-h-allred",
+    "aliases": []
+  },
+  {
+    "name": "Spencer J. Condie",
+    "type": "person",
+    "id": "spencer-j-condie",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "Spencer V. Jones",
+    "type": "person",
+    "id": "spencer-v-jones",
+    "aliases": []
+  },
+  {
+    "name": "Stanley G. Ellis",
+    "type": "person",
+    "id": "stanley-g-ellis",
+    "aliases": []
+  },
+  {
+    "name": "Stayner Richards",
+    "type": "person",
+    "id": "stayner-richards",
+    "aliases": []
+  },
+  {
+    "name": "Stephen B. Oveson",
+    "type": "person",
+    "id": "stephen-b-oveson",
+    "aliases": []
+  },
+  {
+    "name": "Stephen L. Richards",
+    "type": "person",
+    "id": "stephen-l-richards",
+    "aliases": []
+  },
+  {
+    "name": "Stephen W. Owen",
+    "type": "person",
+    "id": "stephen-w-owen",
+    "aliases": []
+  },
+  {
+    "name": "Sterling W. Sill",
+    "type": "person",
+    "id": "sterling-w-sill",
+    "aliases": []
+  },
+  {
+    "name": "Steven C. Barlow",
+    "type": "person",
+    "id": "steven-c-barlow",
+    "aliases": []
+  },
+  {
+    "name": "Steven D. Shumway",
+    "type": "person",
+    "id": "steven-d-shumway",
+    "aliases": []
+  },
+  {
+    "name": "Steven E. Snow",
+    "type": "person",
+    "id": "steven-e-snow",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Steven J. Lund",
+    "type": "person",
+    "id": "steven-j-lund",
+    "aliases": []
+  },
+  {
+    "name": "Steven R. Bangerter",
+    "type": "person",
+    "id": "steven-r-bangerter",
+    "aliases": []
+  },
+  {
+    "name": "Susan H. Porter",
+    "type": "person",
+    "id": "susan-h-porter",
+    "aliases": []
+  },
+  {
+    "name": "Susan L. Warner",
+    "type": "person",
+    "id": "susan-l-warner",
+    "aliases": []
+  },
+  {
+    "name": "Susan W. Tanner",
+    "type": "person",
+    "id": "susan-w-tanner",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Sydney S. Reynolds",
+    "type": "person",
+    "id": "sydney-s-reynolds",
+    "aliases": [
+      "American political scientist"
+    ]
+  },
+  {
+    "name": "Sylvester Q. Cannon",
+    "type": "person",
+    "id": "sylvester-q-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Sylvester Smith",
+    "type": "person",
+    "id": "sylvester-smith",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "Tad R. Callister",
+    "type": "person",
+    "id": "tad-r-callister",
+    "aliases": []
+  },
+  {
+    "name": "Takashi Wada",
+    "type": "person",
+    "id": "takashi-wada",
+    "aliases": []
+  },
+  {
+    "name": "Tamara W. Runia",
+    "type": "person",
+    "id": "tamara-w-runia",
+    "aliases": []
+  },
+  {
+    "name": "Taniela B. Wakolo",
+    "type": "person",
+    "id": "taniela-b-wakolo",
+    "aliases": []
+  },
+  {
+    "name": "Taylor G. Godoy",
+    "type": "person",
+    "id": "taylor-g-godoy",
+    "aliases": []
+  },
+  {
+    "name": "Ted E. Brewerton",
+    "type": "person",
+    "id": "ted-e-brewerton",
+    "aliases": [
+      "LDS leader"
+    ]
+  },
+  {
+    "name": "Terence M. Vinson",
+    "type": "person",
+    "id": "terence-m-vinson",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Thabo Lebethoa",
+    "type": "person",
+    "id": "thabo-lebethoa",
+    "aliases": []
+  },
+  {
+    "name": "Theodore M. Burton",
+    "type": "person",
+    "id": "theodore-m-burton",
+    "aliases": []
+  },
+  {
+    "name": "Theresa A. Collins",
+    "type": "person",
+    "id": "theresa-a-collins",
+    "aliases": []
+  },
+  {
+    "name": "Thierry K. Mutombo",
+    "type": "person",
+    "id": "thierry-k-mutombo",
+    "aliases": []
+  },
+  {
+    "name": "Thomas B. Marsh",
+    "type": "person",
+    "id": "thomas-b-marsh",
+    "aliases": [
+      "First President of the Quorum of the Twelve Apostles"
+    ]
+  },
+  {
+    "name": "Thomas E. McKay",
+    "type": "person",
+    "id": "thomas-e-mckay",
+    "aliases": []
+  },
+  {
+    "name": "Thorpe B. Isaacson",
+    "type": "person",
+    "id": "thorpe-b-isaacson",
+    "aliases": []
+  },
+  {
+    "name": "Timothy J. Dyches",
+    "type": "person",
+    "id": "timothy-j-dyches",
+    "aliases": [
+      "Wikimedia list article"
+    ]
+  },
+  {
+    "name": "Timothy L. Farnes",
+    "type": "person",
+    "id": "timothy-l-farnes",
+    "aliases": []
+  },
+  {
+    "name": "Titus Billings",
+    "type": "person",
+    "id": "titus-billings",
+    "aliases": []
+  },
+  {
+    "name": "Tracy Y. Browning",
+    "type": "person",
+    "id": "tracy-y-browning",
+    "aliases": []
+  },
+  {
+    "name": "Ulisses Soares",
+    "type": "person",
+    "id": "ulisses-soares",
+    "aliases": []
+  },
+  {
+    "name": "V. Dallas Merrell",
+    "type": "person",
+    "id": "v-dallas-merrell",
+    "aliases": []
+  },
+  {
+    "name": "Vai Sikahema",
+    "type": "person",
+    "id": "vai-sikahema",
+    "aliases": []
+  },
+  {
+    "name": "Val R. Christensen",
+    "type": "person",
+    "id": "val-r-christensen",
+    "aliases": []
+  },
+  {
+    "name": "Valeri V. Cordón",
+    "type": "person",
+    "id": "valeri-v-cordón",
+    "aliases": []
+  },
+  {
+    "name": "Vaughn J. Featherstone",
+    "type": "person",
+    "id": "vaughn-j-featherstone",
+    "aliases": []
+  },
+  {
+    "name": "Vern P. Stanfill",
+    "type": "person",
+    "id": "vern-p-stanfill",
+    "aliases": []
+  },
+  {
+    "name": "Verna W. Goddard",
+    "type": "person",
+    "id": "verna-w-goddard",
+    "aliases": []
+  },
+  {
+    "name": "Vicki F. Matsumori",
+    "type": "person",
+    "id": "vicki-f-matsumori",
+    "aliases": []
+  },
+  {
+    "name": "Victor L. Brown",
+    "type": "person",
+    "id": "victor-l-brown",
+    "aliases": []
+  },
+  {
+    "name": "Vinson Knight",
+    "type": "person",
+    "id": "vinson-knight",
+    "aliases": []
+  },
+  {
+    "name": "Virginia B. Cannon",
+    "type": "person",
+    "id": "virginia-b-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Virginia H. Pearce",
+    "type": "person",
+    "id": "virginia-h-pearce",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "Virginia U. Jensen",
+    "type": "person",
+    "id": "virginia-u-jensen",
+    "aliases": []
+  },
+  {
+    "name": "W. Christopher Waddell",
+    "type": "person",
+    "id": "w-christopher-waddell",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "W. Craig Zwick",
+    "type": "person",
+    "id": "w-craig-zwick",
+    "aliases": [
+      "American religious leader"
+    ]
+  },
+  {
+    "name": "W. Don Ladd",
+    "type": "person",
+    "id": "w-don-ladd",
+    "aliases": []
+  },
+  {
+    "name": "W. Douglas Shumway",
+    "type": "person",
+    "id": "w-douglas-shumway",
+    "aliases": []
+  },
+  {
+    "name": "W. Jay Eldredge",
+    "type": "person",
+    "id": "w-jay-eldredge",
+    "aliases": [
+      "LDS Church official"
+    ]
+  },
+  {
+    "name": "W. Mark Bassett",
+    "type": "person",
+    "id": "w-mark-bassett",
+    "aliases": []
+  },
+  {
+    "name": "W. Rolfe Kerr",
+    "type": "person",
+    "id": "w-rolfe-kerr",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "Waldo P. Call",
+    "type": "person",
+    "id": "waldo-p-call",
+    "aliases": []
+  },
+  {
+    "name": "Walter F. González",
+    "type": "person",
+    "id": "walter-f-gonzález",
+    "aliases": []
+  },
+  {
+    "name": "Wan-Liang Wu",
+    "type": "person",
+    "id": "wan-liang-wu",
+    "aliases": []
+  },
+  {
+    "name": "Wayne M. Hancock",
+    "type": "person",
+    "id": "wayne-m-hancock",
+    "aliases": []
+  },
+  {
+    "name": "Wayne S. Peterson",
+    "type": "person",
+    "id": "wayne-s-peterson",
+    "aliases": []
+  },
+  {
+    "name": "Weatherford T. Clayton",
+    "type": "person",
+    "id": "weatherford-t-clayton",
+    "aliases": []
+  },
+  {
+    "name": "Wilford W. Andersen",
+    "type": "person",
+    "id": "wilford-w-andersen",
+    "aliases": []
+  },
+  {
+    "name": "Willard Richards",
+    "type": "person",
+    "id": "willard-richards",
+    "aliases": []
+  },
+  {
+    "name": "William B. Preston",
+    "type": "person",
+    "id": "william-b-preston",
+    "aliases": []
+  },
+  {
+    "name": "William D. Oswald",
+    "type": "person",
+    "id": "william-d-oswald",
+    "aliases": [
+      "Mormon leader"
+    ]
+  },
+  {
+    "name": "William E. McLellin",
+    "type": "person",
+    "id": "william-e-mclellin",
+    "aliases": []
+  },
+  {
+    "name": "William Grant Bangerter",
+    "type": "person",
+    "id": "william-grant-bangerter",
+    "aliases": []
+  },
+  {
+    "name": "William H. Bennett",
+    "type": "person",
+    "id": "william-h-bennett",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "William J. Critchlow Jr.",
+    "type": "person",
+    "id": "william-j-critchlow-jr",
+    "aliases": [
+      "American Mormon leader"
+    ]
+  },
+  {
+    "name": "William K. Jackson",
+    "type": "person",
+    "id": "william-k-jackson",
+    "aliases": []
+  },
+  {
+    "name": "William Law",
+    "type": "person",
+    "id": "william-law",
+    "aliases": []
+  },
+  {
+    "name": "William R. Walker",
+    "type": "person",
+    "id": "william-r-walker",
+    "aliases": [
+      "LDS Church"
+    ]
+  },
+  {
+    "name": "William Smith",
+    "type": "person",
+    "id": "william-smith",
+    "aliases": [
+      "Wikimedia disambiguation page"
+    ]
+  },
+  {
+    "name": "William W. Parmley",
+    "type": "person",
+    "id": "william-w-parmley",
+    "aliases": []
+  },
+  {
+    "name": "William W. Taylor",
+    "type": "person",
+    "id": "william-w-taylor",
+    "aliases": []
+  },
+  {
+    "name": "Wolfgang H. Paul",
+    "type": "person",
+    "id": "wolfgang-h-paul",
+    "aliases": []
+  },
+  {
+    "name": "Won Yong Ko",
+    "type": "person",
+    "id": "won-yong-ko",
+    "aliases": []
+  },
+  {
+    "name": "Yoon Hwan Choi",
+    "type": "person",
+    "id": "yoon-hwan-choi",
+    "aliases": []
+  },
+  {
+    "name": "Yoshihiko Kikuchi",
+    "type": "person",
+    "id": "yoshihiko-kikuchi",
+    "aliases": [
+      "Japanese Mormon"
+    ]
+  },
+  {
+    "name": "Zebedee Coltrin",
+    "type": "person",
+    "id": "zebedee-coltrin",
+    "aliases": [
+      "American Mormon pioneer"
+    ]
+  },
+  {
+    "name": "Zera Pulsipher",
+    "type": "person",
+    "id": "zera-pulsipher",
+    "aliases": []
+  },
+  {
+    "name": "Zina D. H. Young",
+    "type": "person",
+    "id": "zina-d-h-young",
+    "aliases": [
+      "American activist"
+    ]
+  },
+  {
+    "name": "Christian Whitmer",
+    "type": "person",
+    "id": "christian-whitmer",
+    "aliases": []
+  },
+  {
+    "name": "Jacob Whitmer",
+    "type": "person",
+    "id": "jacob-whitmer",
+    "aliases": [
+      "Book of Mormon witness"
+    ]
+  },
+  {
+    "name": "Peter Whitmer Jr.",
+    "type": "person",
+    "id": "peter-whitmer-jr",
+    "aliases": []
+  },
+  {
+    "name": "John Whitmer",
+    "type": "person",
+    "id": "john-whitmer",
+    "aliases": []
+  },
+  {
+    "name": "Hiram Page",
+    "type": "person",
+    "id": "hiram-page",
+    "aliases": []
+  },
+  {
+    "name": "Eliza Maria Partridge Lyman",
+    "type": "person",
+    "id": "eliza-maria-partridge-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Rip Torn",
+    "type": "person",
+    "id": "rip-torn",
+    "aliases": []
+  },
+  {
+    "name": "UNKNOWN",
+    "type": "person",
+    "id": "unknown",
+    "aliases": []
+  },
+  {
+    "name": "Miriam Angeline Works Young",
+    "type": "person",
+    "id": "miriam-angeline-works-young",
+    "aliases": []
+  },
+  {
+    "name": "Mary Ann Angell",
+    "type": "person",
+    "id": "mary-ann-angell",
+    "aliases": []
+  },
+  {
+    "name": "Lucy Ann Young",
+    "type": "person",
+    "id": "lucy-ann-young",
+    "aliases": []
+  },
+  {
+    "name": "Harriet Elizabeth Young",
+    "type": "person",
+    "id": "harriet-elizabeth-young",
+    "aliases": []
+  },
+  {
+    "name": "Emily Dow Partridge",
+    "type": "person",
+    "id": "emily-dow-partridge",
+    "aliases": []
+  },
+  {
+    "name": "Clarissa Ann Young",
+    "type": "person",
+    "id": "clarissa-ann-young",
+    "aliases": []
+  },
+  {
+    "name": "Louisa Beeman",
+    "type": "person",
+    "id": "louisa-beeman",
+    "aliases": []
+  },
+  {
+    "name": "Eliza Roxcy Snow",
+    "type": "person",
+    "id": "eliza-roxcy-snow",
+    "aliases": []
+  },
+  {
+    "name": "Margaret Young",
+    "type": "person",
+    "id": "margaret-young",
+    "aliases": []
+  },
+  {
+    "name": "Mary Elizabeth Rollins Lightner",
+    "type": "person",
+    "id": "mary-elizabeth-rollins-lightner",
+    "aliases": []
+  },
+  {
+    "name": "Margaret Maria Young",
+    "type": "person",
+    "id": "margaret-maria-young",
+    "aliases": []
+  },
+  {
+    "name": "Lucy Young",
+    "type": "person",
+    "id": "lucy-young",
+    "aliases": []
+  },
+  {
+    "name": "Harriet Amelia Folsom",
+    "type": "person",
+    "id": "harriet-amelia-folsom",
+    "aliases": []
+  },
+  {
+    "name": "Ann Eliza Young",
+    "type": "person",
+    "id": "ann-eliza-young",
+    "aliases": []
+  },
+  {
+    "name": "Hannah T. King",
+    "type": "person",
+    "id": "hannah-t-king",
+    "aliases": []
+  },
+  {
+    "name": "Augusta Adams Cobb",
+    "type": "person",
+    "id": "augusta-adams-cobb",
+    "aliases": []
+  },
+  {
+    "name": "Mary Van Cott",
+    "type": "person",
+    "id": "mary-van-cott",
+    "aliases": []
+  },
+  {
+    "name": "Emma Ray McKay",
+    "type": "person",
+    "id": "emma-ray-mckay",
+    "aliases": []
+  },
+  {
+    "name": "Phoebe Ann Patten",
+    "type": "person",
+    "id": "phoebe-ann-patten",
+    "aliases": []
+  },
+  {
+    "name": "Elbert D. Thomas",
+    "type": "person",
+    "id": "elbert-d-thomas",
+    "aliases": []
+  },
+  {
+    "name": "Lewis C. Bidamon",
+    "type": "person",
+    "id": "lewis-c-bidamon",
+    "aliases": []
+  },
+  {
+    "name": "Almera Woodward Johnson",
+    "type": "person",
+    "id": "almera-woodward-johnson",
+    "aliases": []
+  },
+  {
+    "name": "Martha Telle Cannon",
+    "type": "person",
+    "id": "martha-telle-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Marjorie Pay Hinckley",
+    "type": "person",
+    "id": "marjorie-pay-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Ann Alice Gheen",
+    "type": "person",
+    "id": "ann-alice-gheen",
+    "aliases": []
+  },
+  {
+    "name": "Vilate Murray",
+    "type": "person",
+    "id": "vilate-murray",
+    "aliases": []
+  },
+  {
+    "name": "Sarah Ann Whitney",
+    "type": "person",
+    "id": "sarah-ann-whitney",
+    "aliases": []
+  },
+  {
+    "name": "Mary Fielding Smith",
+    "type": "person",
+    "id": "mary-fielding-smith",
+    "aliases": []
+  },
+  {
+    "name": "Elizabeth Gould",
+    "type": "person",
+    "id": "elizabeth-gould",
+    "aliases": []
+  },
+  {
+    "name": "Elizabeth Ann Wells Cannon",
+    "type": "person",
+    "id": "elizabeth-ann-wells-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Luella Lucy Cobb",
+    "type": "person",
+    "id": "luella-lucy-cobb",
+    "aliases": []
+  },
+  {
+    "name": "Ethel Georgina Reynolds",
+    "type": "person",
+    "id": "ethel-georgina-reynolds",
+    "aliases": []
+  },
+  {
+    "name": "Annie Clark Tanner",
+    "type": "person",
+    "id": "annie-clark-tanner",
+    "aliases": []
+  },
+  {
+    "name": "Lucinda Morgan Harrisová",
+    "type": "person",
+    "id": "lucinda-morgan-harrisová",
+    "aliases": []
+  },
+  {
+    "name": "Helen Mar Kimball",
+    "type": "person",
+    "id": "helen-mar-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Lucy Mack Smith",
+    "type": "person",
+    "id": "lucy-mack-smith",
+    "aliases": []
+  },
+  {
+    "name": "Valeria Brinton Young",
+    "type": "person",
+    "id": "valeria-brinton-young",
+    "aliases": []
+  },
+  {
+    "name": "Elizabeth Ann Cowdery",
+    "type": "person",
+    "id": "elizabeth-ann-cowdery",
+    "aliases": []
+  },
+  {
+    "name": "Eleanor Jane McComb",
+    "type": "person",
+    "id": "eleanor-jane-mccomb",
+    "aliases": []
+  },
+  {
+    "name": "Mary Ann Frost Stearns Pratt",
+    "type": "person",
+    "id": "mary-ann-frost-stearns-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Ann Agatha Walker Pratt",
+    "type": "person",
+    "id": "ann-agatha-walker-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Wendy Watson Nelson",
+    "type": "person",
+    "id": "wendy-watson-nelson",
+    "aliases": []
+  },
+  {
+    "name": "Dantzel Nelson",
+    "type": "person",
+    "id": "dantzel-nelson",
+    "aliases": []
+  },
+  {
+    "name": "Jennetta Richards",
+    "type": "person",
+    "id": "jennetta-richards",
+    "aliases": []
+  },
+  {
+    "name": "Ira Hinckley",
+    "type": "person",
+    "id": "ira-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Amasa Lyman",
+    "type": "person",
+    "id": "amasa-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Roswell Lyman",
+    "type": "person",
+    "id": "roswell-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Martha M. Lyman",
+    "type": "person",
+    "id": "martha-m-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Martha Lydia Roper (Lyman)",
+    "type": "person",
+    "id": "martha-lydia-roper-(lyman)",
+    "aliases": []
+  },
+  {
+    "name": "Anthony C. Lund",
+    "type": "person",
+    "id": "anthony-c-lund",
+    "aliases": []
+  },
+  {
+    "name": "Elizabeth Ashby Ivins",
+    "type": "person",
+    "id": "elizabeth-ashby-ivins",
+    "aliases": []
+  },
+  {
+    "name": "Bathsheba Kate Smith Merrill",
+    "type": "person",
+    "id": "bathsheba-kate-smith-merrill",
+    "aliases": []
+  },
+  {
+    "name": "John Young",
+    "type": "person",
+    "id": "john-young",
+    "aliases": []
+  },
+  {
+    "name": "Abigail Nabby Howe",
+    "type": "person",
+    "id": "abigail-nabby-howe",
+    "aliases": []
+  },
+  {
+    "name": "Susa Young Gates",
+    "type": "person",
+    "id": "susa-young-gates",
+    "aliases": []
+  },
+  {
+    "name": "Zina P. Young Card",
+    "type": "person",
+    "id": "zina-p-young-card",
+    "aliases": []
+  },
+  {
+    "name": "B. Morris Young",
+    "type": "person",
+    "id": "b-morris-young",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Don Carlos Young",
+    "type": "person",
+    "id": "joseph-don-carlos-young",
+    "aliases": []
+  },
+  {
+    "name": "Oscar Brigham Young",
+    "type": "person",
+    "id": "oscar-brigham-young",
+    "aliases": []
+  },
+  {
+    "name": "Mahonri Moriancumer Young",
+    "type": "person",
+    "id": "mahonri-moriancumer-young",
+    "aliases": []
+  },
+  {
+    "name": "Ernest Irving Young, Sr.",
+    "type": "person",
+    "id": "ernest-irving-young,-sr",
+    "aliases": []
+  },
+  {
+    "name": "Emily Augusta Young",
+    "type": "person",
+    "id": "emily-augusta-young",
+    "aliases": []
+  },
+  {
+    "name": "Willard Young",
+    "type": "person",
+    "id": "willard-young",
+    "aliases": []
+  },
+  {
+    "name": "Alice Young Clawson",
+    "type": "person",
+    "id": "alice-young-clawson",
+    "aliases": []
+  },
+  {
+    "name": "Clarissa Young Spencer",
+    "type": "person",
+    "id": "clarissa-young-spencer",
+    "aliases": []
+  },
+  {
+    "name": "Walter Stevens Young",
+    "type": "person",
+    "id": "walter-stevens-young",
+    "aliases": []
+  },
+  {
+    "name": "Oscar W. McConkie",
+    "type": "person",
+    "id": "oscar-w-mcconkie",
+    "aliases": []
+  },
+  {
+    "name": "Margaret Vivian McConkie",
+    "type": "person",
+    "id": "margaret-vivian-mcconkie",
+    "aliases": []
+  },
+  {
+    "name": "Charles Coulson Rich, II",
+    "type": "person",
+    "id": "charles-coulson-rich,-ii",
+    "aliases": []
+  },
+  {
+    "name": "Alexander Nibley",
+    "type": "person",
+    "id": "alexander-nibley",
+    "aliases": []
+  },
+  {
+    "name": "Peter Whitmer, Sr.",
+    "type": "person",
+    "id": "peter-whitmer,-sr",
+    "aliases": []
+  },
+  {
+    "name": "Mary Whitmer",
+    "type": "person",
+    "id": "mary-whitmer",
+    "aliases": []
+  },
+  {
+    "name": "Seymour Bicknell Young, Jr.",
+    "type": "person",
+    "id": "seymour-bicknell-young,-jr",
+    "aliases": []
+  },
+  {
+    "name": "Jenny Oaks Baker",
+    "type": "person",
+    "id": "jenny-oaks-baker",
+    "aliases": []
+  },
+  {
+    "name": "Daniel Wells",
+    "type": "person",
+    "id": "daniel-wells",
+    "aliases": []
+  },
+  {
+    "name": "Briant H. Wells",
+    "type": "person",
+    "id": "briant-h-wells",
+    "aliases": []
+  },
+  {
+    "name": "Heber Manning Wells",
+    "type": "person",
+    "id": "heber-manning-wells",
+    "aliases": []
+  },
+  {
+    "name": "Hector Caleb Haight",
+    "type": "person",
+    "id": "hector-caleb-haight",
+    "aliases": []
+  },
+  {
+    "name": "Karen Haight",
+    "type": "person",
+    "id": "karen-haight",
+    "aliases": []
+  },
+  {
+    "name": "William Partridge",
+    "type": "person",
+    "id": "william-partridge",
+    "aliases": []
+  },
+  {
+    "name": "Jemima Bidwell",
+    "type": "person",
+    "id": "jemima-bidwell",
+    "aliases": []
+  },
+  {
+    "name": "Caroline Ely Lyman",
+    "type": "person",
+    "id": "caroline-ely-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Edward Partridge, Jr.",
+    "type": "person",
+    "id": "edward-partridge,-jr",
+    "aliases": []
+  },
+  {
+    "name": "Martha Electa Smith",
+    "type": "person",
+    "id": "martha-electa-smith",
+    "aliases": []
+  },
+  {
+    "name": "Oliver Snow III",
+    "type": "person",
+    "id": "oliver-snow-iii",
+    "aliases": []
+  },
+  {
+    "name": "Rosetta Lenora Snow (Pettibone)",
+    "type": "person",
+    "id": "rosetta-lenora-snow-(pettibone)",
+    "aliases": []
+  },
+  {
+    "name": "Elizabeth Hale",
+    "type": "person",
+    "id": "elizabeth-hale",
+    "aliases": []
+  },
+  {
+    "name": "Julia Murdock Smith",
+    "type": "person",
+    "id": "julia-murdock-smith",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Smith III",
+    "type": "person",
+    "id": "joseph-smith-iii",
+    "aliases": []
+  },
+  {
+    "name": "Alexander Hale Smith",
+    "type": "person",
+    "id": "alexander-hale-smith",
+    "aliases": []
+  },
+  {
+    "name": "David Hyrum Smith",
+    "type": "person",
+    "id": "david-hyrum-smith",
+    "aliases": []
+  },
+  {
+    "name": "Levi Snow",
+    "type": "person",
+    "id": "levi-snow",
+    "aliases": []
+  },
+  {
+    "name": "Lucina Snow",
+    "type": "person",
+    "id": "lucina-snow",
+    "aliases": []
+  },
+  {
+    "name": "John Benson, Jr",
+    "type": "person",
+    "id": "john-benson,-jr",
+    "aliases": []
+  },
+  {
+    "name": "Chloe Taft",
+    "type": "person",
+    "id": "chloe-taft",
+    "aliases": []
+  },
+  {
+    "name": "George Taft Benson Sr.",
+    "type": "person",
+    "id": "george-taft-benson-sr",
+    "aliases": []
+  },
+  {
+    "name": "George Taft Benson Jr.",
+    "type": "person",
+    "id": "george-taft-benson-jr",
+    "aliases": []
+  },
+  {
+    "name": "Reed Benson",
+    "type": "person",
+    "id": "reed-benson",
+    "aliases": []
+  },
+  {
+    "name": "Bonnie Amussen Benson",
+    "type": "person",
+    "id": "bonnie-amussen-benson",
+    "aliases": []
+  },
+  {
+    "name": "Mark A. Benson",
+    "type": "person",
+    "id": "mark-a-benson",
+    "aliases": []
+  },
+  {
+    "name": "Maria Louisa Lyman",
+    "type": "person",
+    "id": "maria-louisa-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Orin Nelson Woodbury",
+    "type": "person",
+    "id": "orin-nelson-woodbury",
+    "aliases": []
+  },
+  {
+    "name": "William Wheeler Williams",
+    "type": "person",
+    "id": "william-wheeler-williams",
+    "aliases": []
+  },
+  {
+    "name": "Ruth Williams",
+    "type": "person",
+    "id": "ruth-williams",
+    "aliases": []
+  },
+  {
+    "name": "Ezra Granger Williams",
+    "type": "person",
+    "id": "ezra-granger-williams",
+    "aliases": []
+  },
+  {
+    "name": "Clarissa Loomis Smith",
+    "type": "person",
+    "id": "clarissa-loomis-smith",
+    "aliases": []
+  },
+  {
+    "name": "Sarah Smith",
+    "type": "person",
+    "id": "sarah-smith",
+    "aliases": []
+  },
+  {
+    "name": "George Albert Smith, Jr.",
+    "type": "person",
+    "id": "george-albert-smith,-jr",
+    "aliases": []
+  },
+  {
+    "name": "Frank J. Cannon",
+    "type": "person",
+    "id": "frank-j-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Amelia Telle Cannon",
+    "type": "person",
+    "id": "amelia-telle-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Hester Telle Richards",
+    "type": "person",
+    "id": "hester-telle-richards",
+    "aliases": []
+  },
+  {
+    "name": "Angus M. Cannon",
+    "type": "person",
+    "id": "angus-m-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Bryant S. Hinckley",
+    "type": "person",
+    "id": "bryant-s-hinckley",
+    "aliases": []
+  },
+  {
+    "name": "Ada Bitner",
+    "type": "person",
+    "id": "ada-bitner",
+    "aliases": []
+  },
+  {
+    "name": "Samuel Marion Lee, II",
+    "type": "person",
+    "id": "samuel-marion-lee,-ii",
+    "aliases": []
+  },
+  {
+    "name": "Louisa Emeline Lee",
+    "type": "person",
+    "id": "louisa-emeline-lee",
+    "aliases": []
+  },
+  {
+    "name": "Solomon Farnham Kimball",
+    "type": "person",
+    "id": "solomon-farnham-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Anna Spalding",
+    "type": "person",
+    "id": "anna-spalding",
+    "aliases": []
+  },
+  {
+    "name": "Andrew Kimball",
+    "type": "person",
+    "id": "andrew-kimball",
+    "aliases": []
+  },
+  {
+    "name": "David Patten Kimball",
+    "type": "person",
+    "id": "david-patten-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Heber Parley Kimball",
+    "type": "person",
+    "id": "heber-parley-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Elias S. Kimball",
+    "type": "person",
+    "id": "elias-s-kimball",
+    "aliases": []
+  },
+  {
+    "name": "William Henry Kimball",
+    "type": "person",
+    "id": "william-henry-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Henry Eyring",
+    "type": "person",
+    "id": "henry-eyring",
+    "aliases": []
+  },
+  {
+    "name": "Lydia Jane Brown",
+    "type": "person",
+    "id": "lydia-jane-brown",
+    "aliases": []
+  },
+  {
+    "name": "Hyrum Fisher Smith",
+    "type": "person",
+    "id": "hyrum-fisher-smith",
+    "aliases": []
+  },
+  {
+    "name": "Katharine Smith Salisbury",
+    "type": "person",
+    "id": "katharine-smith-salisbury",
+    "aliases": []
+  },
+  {
+    "name": "Alvin Smith",
+    "type": "person",
+    "id": "alvin-smith",
+    "aliases": []
+  },
+  {
+    "name": "Don Carlos Smith",
+    "type": "person",
+    "id": "don-carlos-smith",
+    "aliases": []
+  },
+  {
+    "name": "Ida Smoot Dusenberry",
+    "type": "person",
+    "id": "ida-smoot-dusenberry",
+    "aliases": []
+  },
+  {
+    "name": "Abraham Owen Smoot",
+    "type": "person",
+    "id": "abraham-owen-smoot",
+    "aliases": []
+  },
+  {
+    "name": "Thomas E. Morley",
+    "type": "person",
+    "id": "thomas-e-morley",
+    "aliases": []
+  },
+  {
+    "name": "Editha Morley",
+    "type": "person",
+    "id": "editha-morley",
+    "aliases": []
+  },
+  {
+    "name": "Mary Louisa Woolley",
+    "type": "person",
+    "id": "mary-louisa-woolley",
+    "aliases": []
+  },
+  {
+    "name": "Amy Faust",
+    "type": "person",
+    "id": "amy-faust",
+    "aliases": []
+  },
+  {
+    "name": "Franklin S. Richards",
+    "type": "person",
+    "id": "franklin-s-richards",
+    "aliases": []
+  },
+  {
+    "name": "Joshua Grant, III",
+    "type": "person",
+    "id": "joshua-grant,-iii",
+    "aliases": []
+  },
+  {
+    "name": "Athalia Nan Grant (Howard)",
+    "type": "person",
+    "id": "athalia-nan-grant-(howard)",
+    "aliases": []
+  },
+  {
+    "name": "David F. Holland",
+    "type": "person",
+    "id": "david-f-holland",
+    "aliases": []
+  },
+  {
+    "name": "Charles Gould",
+    "type": "person",
+    "id": "charles-gould",
+    "aliases": []
+  },
+  {
+    "name": "Louis L. Madsen",
+    "type": "person",
+    "id": "louis-l-madsen",
+    "aliases": []
+  },
+  {
+    "name": "Cavendish W. Cannon",
+    "type": "person",
+    "id": "cavendish-w-cannon",
+    "aliases": []
+  },
+  {
+    "name": "Agnes Taylor",
+    "type": "person",
+    "id": "agnes-taylor",
+    "aliases": []
+  },
+  {
+    "name": "Lovinia Jemima Van Cott",
+    "type": "person",
+    "id": "lovinia-jemima-van-cott",
+    "aliases": []
+  },
+  {
+    "name": "William Hooper Young",
+    "type": "person",
+    "id": "william-hooper-young",
+    "aliases": []
+  },
+  {
+    "name": "Donnette Smith",
+    "type": "person",
+    "id": "donnette-smith",
+    "aliases": []
+  },
+  {
+    "name": "Julina Lambson Smith",
+    "type": "person",
+    "id": "julina-lambson-smith",
+    "aliases": []
+  },
+  {
+    "name": "Myron Tanner",
+    "type": "person",
+    "id": "myron-tanner",
+    "aliases": []
+  },
+  {
+    "name": "Obert C. Tanner",
+    "type": "person",
+    "id": "obert-c-tanner",
+    "aliases": []
+  },
+  {
+    "name": "Lucy Smith Millikin",
+    "type": "person",
+    "id": "lucy-smith-millikin",
+    "aliases": []
+  },
+  {
+    "name": "Leslie Thomas Perry",
+    "type": "person",
+    "id": "leslie-thomas-perry",
+    "aliases": []
+  },
+  {
+    "name": "Larry Echo Hawk",
+    "type": "person",
+    "id": "larry-echo-hawk",
+    "aliases": []
+  },
+  {
+    "name": "John Echohawk",
+    "type": "person",
+    "id": "john-echohawk",
+    "aliases": []
+  },
+  {
+    "name": "Thomas Hancock, Jr.",
+    "type": "person",
+    "id": "thomas-hancock,-jr",
+    "aliases": []
+  },
+  {
+    "name": "Mosiah Hancock",
+    "type": "person",
+    "id": "mosiah-hancock",
+    "aliases": []
+  },
+  {
+    "name": "Celestia Armada Snow",
+    "type": "person",
+    "id": "celestia-armada-snow",
+    "aliases": []
+  },
+  {
+    "name": "John Johnson",
+    "type": "person",
+    "id": "john-johnson",
+    "aliases": []
+  },
+  {
+    "name": "Sarah Wight",
+    "type": "person",
+    "id": "sarah-wight",
+    "aliases": []
+  },
+  {
+    "name": "Hugh W. Dougall",
+    "type": "person",
+    "id": "hugh-w-dougall",
+    "aliases": []
+  },
+  {
+    "name": "George S. Romney",
+    "type": "person",
+    "id": "george-s-romney",
+    "aliases": []
+  },
+  {
+    "name": "Nathan Harris",
+    "type": "person",
+    "id": "nathan-harris",
+    "aliases": []
+  },
+  {
+    "name": "Rhoda Harris",
+    "type": "person",
+    "id": "rhoda-harris",
+    "aliases": []
+  },
+  {
+    "name": "Abigail Cowley",
+    "type": "person",
+    "id": "abigail-cowley",
+    "aliases": []
+  },
+  {
+    "name": "Samuel Parkinson Cowley",
+    "type": "person",
+    "id": "samuel-parkinson-cowley",
+    "aliases": []
+  },
+  {
+    "name": "George W. Thatcher Sr.",
+    "type": "person",
+    "id": "george-w-thatcher-sr",
+    "aliases": []
+  },
+  {
+    "name": "Nathan Eldon Tanner",
+    "type": "person",
+    "id": "nathan-eldon-tanner",
+    "aliases": []
+  },
+  {
+    "name": "Nathan William Tanner",
+    "type": "person",
+    "id": "nathan-william-tanner",
+    "aliases": []
+  },
+  {
+    "name": "Sarah Edna Tanner",
+    "type": "person",
+    "id": "sarah-edna-tanner",
+    "aliases": []
+  },
+  {
+    "name": "Samuel Whitney, III",
+    "type": "person",
+    "id": "samuel-whitney,-iii",
+    "aliases": []
+  },
+  {
+    "name": "Horace Kimball Whitney",
+    "type": "person",
+    "id": "horace-kimball-whitney",
+    "aliases": []
+  },
+  {
+    "name": "William Cowdery",
+    "type": "person",
+    "id": "william-cowdery",
+    "aliases": []
+  },
+  {
+    "name": "Rebecca Cowdery",
+    "type": "person",
+    "id": "rebecca-cowdery",
+    "aliases": []
+  },
+  {
+    "name": "Jared Pratt",
+    "type": "person",
+    "id": "jared-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Charity Dickinson",
+    "type": "person",
+    "id": "charity-dickinson",
+    "aliases": []
+  },
+  {
+    "name": "Helaman Pratt",
+    "type": "person",
+    "id": "helaman-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Isabella Eleanor Marden Robinson",
+    "type": "person",
+    "id": "isabella-eleanor-marden-robinson",
+    "aliases": []
+  },
+  {
+    "name": "Olivia Thankful Driggs",
+    "type": "person",
+    "id": "olivia-thankful-driggs",
+    "aliases": []
+  },
+  {
+    "name": "Alma Pratt",
+    "type": "person",
+    "id": "alma-pratt",
+    "aliases": []
+  },
+  {
+    "name": "unknown Smoot",
+    "type": "person",
+    "id": "unknown-smoot",
+    "aliases": []
+  },
+  {
+    "name": "Rey Pratt",
+    "type": "person",
+    "id": "rey-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Emaline Victoria Billingsley",
+    "type": "person",
+    "id": "emaline-victoria-billingsley",
+    "aliases": []
+  },
+  {
+    "name": "Emaline Pratt",
+    "type": "person",
+    "id": "emaline-pratt",
+    "aliases": []
+  },
+  {
+    "name": "Clara Caroline Lyman",
+    "type": "person",
+    "id": "clara-caroline-lyman",
+    "aliases": []
+  },
+  {
+    "name": "Hiram B. Clawson",
+    "type": "person",
+    "id": "hiram-b-clawson",
+    "aliases": []
+  },
+  {
+    "name": "Carlie Louine Young Clawson",
+    "type": "person",
+    "id": "carlie-louine-young-clawson",
+    "aliases": []
+  },
+  {
+    "name": "Zopher Gee",
+    "type": "person",
+    "id": "zopher-gee",
+    "aliases": []
+  },
+  {
+    "name": "Esther Gee",
+    "type": "person",
+    "id": "esther-gee",
+    "aliases": []
+  },
+  {
+    "name": "George Washington Gee",
+    "type": "person",
+    "id": "george-washington-gee",
+    "aliases": []
+  },
+  {
+    "name": "Emma Jane Terry",
+    "type": "person",
+    "id": "emma-jane-terry",
+    "aliases": []
+  },
+  {
+    "name": "Nancy Rigdon",
+    "type": "person",
+    "id": "nancy-rigdon",
+    "aliases": []
+  },
+  {
+    "name": "Olive Woolley",
+    "type": "person",
+    "id": "olive-woolley",
+    "aliases": []
+  },
+  {
+    "name": "Ruth Kimball",
+    "type": "person",
+    "id": "ruth-kimball",
+    "aliases": []
+  },
+  {
+    "name": "Stephen L Richards",
+    "type": "person",
+    "id": "stephen-l-richards",
+    "aliases": []
+  },
+  {
+    "name": "Dr Stephen Longstroth Richards",
+    "type": "person",
+    "id": "dr-stephen-longstroth-richards",
+    "aliases": []
+  },
+  {
+    "name": "Irene Louise Covey",
+    "type": "person",
+    "id": "irene-louise-covey",
+    "aliases": []
+  },
+  {
+    "name": "Ebenezer Billings",
+    "type": "person",
+    "id": "ebenezer-billings",
+    "aliases": []
+  },
+  {
+    "name": "Esther Joyce",
+    "type": "person",
+    "id": "esther-joyce",
+    "aliases": []
+  },
+  {
+    "name": "Dr. Rodolphus Knight",
+    "type": "person",
+    "id": "dr-rodolphus-knight",
+    "aliases": []
+  },
+  {
+    "name": "Rispah(Rizpah) Knight",
+    "type": "person",
+    "id": "rispah(rizpah)-knight",
+    "aliases": []
+  },
+  {
+    "name": "Aphek Woodruff",
+    "type": "person",
+    "id": "aphek-woodruff",
+    "aliases": []
+  },
+  {
+    "name": "Beulah Woodruff (Thompson)",
+    "type": "person",
+    "id": "beulah-woodruff-(thompson)",
+    "aliases": []
+  },
+  {
+    "name": "Wilford Woodruff, Jr",
+    "type": "person",
+    "id": "wilford-woodruff,-jr",
+    "aliases": []
+  },
+  {
+    "name": "Joseph Richards, Sr.",
+    "type": "person",
+    "id": "joseph-richards,-sr",
+    "aliases": []
+  },
+  {
+    "name": "Rhoda Howe Richards",
+    "type": "person",
+    "id": "rhoda-howe-richards",
+    "aliases": []
+  },
+  {
+    "name": "William Ballard Preston",
+    "type": "person",
+    "id": "william-ballard-preston",
+    "aliases": []
+  },
+  {
+    "name": "James Patton Preston",
+    "type": "person",
+    "id": "james-patton-preston",
+    "aliases": []
+  },
+  {
+    "name": "Zina Baker",
+    "type": "person",
+    "id": "zina-baker",
+    "aliases": []
+  },
+  {
+    "name": "United States",
+    "type": "person",
+    "id": "united-states",
+    "aliases": []
+  },
+  {
+    "name": "Canada",
+    "type": "person",
+    "id": "canada",
+    "aliases": []
+  },
+  {
+    "name": "Switzerland",
+    "type": "person",
+    "id": "switzerland",
+    "aliases": []
+  },
+  {
+    "name": "France",
+    "type": "person",
+    "id": "france",
+    "aliases": []
+  },
+  {
+    "name": "Kingdom of Denmark",
+    "type": "person",
+    "id": "kingdom-of-denmark",
+    "aliases": []
+  },
+  {
+    "name": "Germany",
+    "type": "person",
+    "id": "germany",
+    "aliases": []
+  },
+  {
+    "name": "New Zealand",
+    "type": "person",
+    "id": "new-zealand",
+    "aliases": []
+  },
+  {
+    "name": "Malaysia",
+    "type": "person",
+    "id": "malaysia",
+    "aliases": []
+  },
+  {
+    "name": "Brazil",
+    "type": "person",
+    "id": "brazil",
+    "aliases": []
+  },
+  {
+    "name": "Mexico",
+    "type": "person",
+    "id": "mexico",
+    "aliases": []
+  },
+  {
+    "name": "Guatemala",
+    "type": "person",
+    "id": "guatemala",
+    "aliases": []
+  },
+  {
+    "name": "Kingdom of the Netherlands",
+    "type": "person",
+    "id": "kingdom-of-the-netherlands",
+    "aliases": []
+  },
+  {
+    "name": "United Kingdom",
+    "type": "person",
+    "id": "united-kingdom",
+    "aliases": []
+  },
+  {
+    "name": "United Kingdom of Great Britain and Ireland",
+    "type": "person",
+    "id": "united-kingdom-of-great-britain-and-ireland",
+    "aliases": []
+  },
+  {
+    "name": "German Empire",
+    "type": "person",
+    "id": "german-empire",
+    "aliases": []
+  },
+  {
+    "name": "Sweden",
+    "type": "person",
+    "id": "sweden",
+    "aliases": []
+  },
+  {
+    "name": "Nigeria",
+    "type": "person",
+    "id": "nigeria",
+    "aliases": []
+  },
+  {
+    "name": "Tonga",
+    "type": "person",
+    "id": "tonga",
+    "aliases": []
+  },
+  {
+    "name": "Kingdom of Great Britain",
+    "type": "person",
+    "id": "kingdom-of-great-britain",
+    "aliases": []
+  },
+  {
+    "name": "Emma Hale Smith",
+    "type": "person",
+    "id": "emma-hale-smith",
+    "aliases": []
+  },
+  {
+    "name": "Joseph F. Smith Jr.",
+    "type": "person",
+    "id": "joseph-f-smith-jr",
+    "aliases": []
+  },
+  {
+    "name": "Sarah Ann Snow",
+    "type": "person",
+    "id": "sarah-ann-snow",
+    "aliases": []
+  },
+  {
+    "name": "Lloyd E. Oaks",
+    "type": "person",
+    "id": "lloyd-e-oaks",
+    "aliases": []
+  },
+  {
+    "name": "Clark S. Monson",
+    "type": "person",
+    "id": "clark-s-monson",
+    "aliases": []
+  },
+  {
+    "name": "Sunday School General Presidency",
+    "type": "person",
+    "id": "sunday-school-general-presidency",
+    "aliases": []
+  },
+  {
+    "name": "Seventy",
+    "type": "person",
+    "id": "seventy",
+    "aliases": []
+  },
+  {
+    "name": "Young Men General Presidency",
+    "type": "person",
+    "id": "young-men-general-presidency",
+    "aliases": []
+  },
+  {
+    "name": "Quorum of the Twelve Apostles",
+    "type": "person",
+    "id": "quorum-of-the-twelve-apostles",
+    "aliases": []
+  },
+  {
+    "name": "Primary General Presidency",
+    "type": "person",
+    "id": "primary-general-presidency",
+    "aliases": []
+  },
+  {
+    "name": "Assistant to the Quorum of the Twelve",
+    "type": "person",
+    "id": "assistant-to-the-quorum-of-the-twelve",
+    "aliases": []
+  },
+  {
+    "name": "Relief Society General Presidency",
+    "type": "person",
+    "id": "relief-society-general-presidency",
+    "aliases": []
+  },
+  {
+    "name": "Counselor in the First Presidency",
+    "type": "person",
+    "id": "counselor-in-the-first-presidency",
+    "aliases": []
+  },
+  {
+    "name": "Young Women General Presidency",
+    "type": "person",
+    "id": "young-women-general-presidency",
+    "aliases": []
+  },
+  {
+    "name": "President of the Church",
+    "type": "person",
+    "id": "president-of-the-church",
+    "aliases": []
+  },
+  {
+    "name": "Presiding Bishopric",
+    "type": "person",
+    "id": "presiding-bishopric",
+    "aliases": []
+  },
+  {
+    "name": "Presiding Bishop",
+    "type": "person",
+    "id": "presiding-bishop",
+    "aliases": []
+  },
+  {
+    "name": "Presiding Patriarch",
+    "type": "person",
+    "id": "presiding-patriarch",
+    "aliases": []
+  },
+  {
+    "name": "Assistant Counselor in the First Presidency",
+    "type": "person",
+    "id": "assistant-counselor-in-the-first-presidency",
+    "aliases": []
+  }
+]

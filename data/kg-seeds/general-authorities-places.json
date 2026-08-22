@@ -1,0 +1,2381 @@
+{
+  "name": "Biographical places — birth/death locations for church leaders",
+  "confidence": "curated",
+  "description": "All 399 places referenced in biographical data",
+  "entities": [
+    {
+      "name": "Aalborg, Denmark",
+      "type": "place",
+      "aliases": [
+        "Aalborg"
+      ]
+    },
+    {
+      "name": "Adams County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Albuquerque",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Alexandria",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Allegheny County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Alma",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Amherstburg, Upper Canada, Burton was called by Presiding Bishop Edward Hunter",
+      "type": "place",
+      "aliases": [
+        "Amherstburg"
+      ]
+    },
+    {
+      "name": "Ann Arbor",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Aromas",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Atizapán de Zaragoza, Edo. de México",
+      "type": "place",
+      "aliases": [
+        "Atizapán de Zaragoza"
+      ]
+    },
+    {
+      "name": "Banida",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Beaver, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Beaver"
+      ]
+    },
+    {
+      "name": "Becket",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Belmont",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Berkeley, California",
+      "type": "place",
+      "aliases": [
+        "Berkeley"
+      ]
+    },
+    {
+      "name": "Berkshire",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Biddenden",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Billings, Montana",
+      "type": "place",
+      "aliases": [
+        "Billings"
+      ]
+    },
+    {
+      "name": "Blackfoot, Idaho",
+      "type": "place",
+      "aliases": [
+        "Blackfoot"
+      ]
+    },
+    {
+      "name": "Blacksburg",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Bloomington, Indiana",
+      "type": "place",
+      "aliases": [
+        "Bloomington"
+      ]
+    },
+    {
+      "name": "Bogot",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Boise",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Boston, Suffolk",
+      "type": "place",
+      "aliases": [
+        "Boston"
+      ]
+    },
+    {
+      "name": "Bountiful, Utah",
+      "type": "place",
+      "aliases": [
+        "Bountiful"
+      ]
+    },
+    {
+      "name": "Bradford",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Bradford, Massachusetts",
+      "type": "place",
+      "aliases": [
+        "Bradford"
+      ]
+    },
+    {
+      "name": "Brampton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Brigham City",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Brigham City, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Brigham City"
+      ]
+    },
+    {
+      "name": "Brutus",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Buenos Aires",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Buenos Aires, Argentina",
+      "type": "place",
+      "aliases": [
+        "Buenos Aires"
+      ]
+    },
+    {
+      "name": "Bungoma, Kenya",
+      "type": "place",
+      "aliases": [
+        "Bungoma"
+      ]
+    },
+    {
+      "name": "Burley",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Burley, Idaho",
+      "type": "place",
+      "aliases": [
+        "Burley"
+      ]
+    },
+    {
+      "name": "Burlington",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Bury, Lancashire",
+      "type": "place",
+      "aliases": [
+        "Bury"
+      ]
+    },
+    {
+      "name": "California",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Campbell County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Canaan",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Carbunca, Iowa, Smith was the son of Sarah Ann Libby and LDS Church apostle and First Presidency member, George A",
+      "type": "place",
+      "aliases": [
+        "Carbunca"
+      ]
+    },
+    {
+      "name": "Cardston, Alberta, Canada",
+      "type": "place",
+      "aliases": [
+        "Cardston"
+      ]
+    },
+    {
+      "name": "Cardston, Cardston County",
+      "type": "place",
+      "aliases": [
+        "Cardston"
+      ]
+    },
+    {
+      "name": "Carlisle, Cumberland",
+      "type": "place",
+      "aliases": [
+        "Carlisle"
+      ]
+    },
+    {
+      "name": "Carmichael, California",
+      "type": "place",
+      "aliases": [
+        "Carmichael"
+      ]
+    },
+    {
+      "name": "Carthage",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Centerville",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Chapin, Teton County, Idaho",
+      "type": "place",
+      "aliases": [
+        "Chapin"
+      ]
+    },
+    {
+      "name": "Chattanooga, Tennessee",
+      "type": "place",
+      "aliases": [
+        "Chattanooga"
+      ]
+    },
+    {
+      "name": "Chicago",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Chicago, Illinois",
+      "type": "place",
+      "aliases": [
+        "Chicago"
+      ]
+    },
+    {
+      "name": "Chicago, Illinois, Ruth Hardy was raised in Salt Lake City, Utah",
+      "type": "place",
+      "aliases": [
+        "Chicago"
+      ]
+    },
+    {
+      "name": "Chihuahua, Mexico",
+      "type": "place",
+      "aliases": [
+        "Chihuahua"
+      ]
+    },
+    {
+      "name": "Chirumanzu, Zimbabwe",
+      "type": "place",
+      "aliases": [
+        "Chirumanzu"
+      ]
+    },
+    {
+      "name": "Clay County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Cleveland Township",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Clifton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Clinton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Coburg John Sears Tanner",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Cody",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Colonia Ju",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Colonia Juarez",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Cove Fort, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Cove Fort"
+      ]
+    },
+    {
+      "name": "Daegu, South Korea",
+      "type": "place",
+      "aliases": [
+        "Daegu"
+      ]
+    },
+    {
+      "name": "Dauphin, Pennsylvania",
+      "type": "place",
+      "aliases": [
+        "Dauphin"
+      ]
+    },
+    {
+      "name": "Davao City, Davao",
+      "type": "place",
+      "aliases": [
+        "Davao City"
+      ]
+    },
+    {
+      "name": "December",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Delicias",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Delta",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Denton, Texas",
+      "type": "place",
+      "aliases": [
+        "Denton"
+      ]
+    },
+    {
+      "name": "Derby",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Devizes",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Dexter, Medina",
+      "type": "place",
+      "aliases": [
+        "Dexter"
+      ]
+    },
+    {
+      "name": "Dublin",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Dunstable, Massachusetts",
+      "type": "place",
+      "aliases": [
+        "Dunstable"
+      ]
+    },
+    {
+      "name": "East Marlborough, Chester",
+      "type": "place",
+      "aliases": [
+        "East Marlborough"
+      ]
+    },
+    {
+      "name": "Ehime Prefecture",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "El Paso",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Elmshorn",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Ephraim, Sanpete County, Utah",
+      "type": "place",
+      "aliases": [
+        "Ephraim"
+      ]
+    },
+    {
+      "name": "Escalante, Utah",
+      "type": "place",
+      "aliases": [
+        "Escalante"
+      ]
+    },
+    {
+      "name": "Excelsior Springs",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Fairfield",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Fairfield, California",
+      "type": "place",
+      "aliases": [
+        "Fairfield"
+      ]
+    },
+    {
+      "name": "Fairhaven",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Far West, Caldwell",
+      "type": "place",
+      "aliases": [
+        "Far West"
+      ]
+    },
+    {
+      "name": "Farmington",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Farmington, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Farmington"
+      ]
+    },
+    {
+      "name": "Fayette, New York",
+      "type": "place",
+      "aliases": [
+        "Fayette"
+      ]
+    },
+    {
+      "name": "February",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Fillmore, Millard",
+      "type": "place",
+      "aliases": [
+        "Fillmore"
+      ]
+    },
+    {
+      "name": "Fillmore, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Fillmore"
+      ]
+    },
+    {
+      "name": "Firth",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Fortaleza, Cear",
+      "type": "place",
+      "aliases": [
+        "Fortaleza"
+      ]
+    },
+    {
+      "name": "Friendship",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Frøya Municipality",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Gagnoa",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Gainesville, Florida",
+      "type": "place",
+      "aliases": [
+        "Gainesville"
+      ]
+    },
+    {
+      "name": "Galeana Chihuahua Mexico",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "General Santos City, Philippines",
+      "type": "place",
+      "aliases": [
+        "General Santos City"
+      ]
+    },
+    {
+      "name": "Geneseo, New York",
+      "type": "place",
+      "aliases": [
+        "Geneseo"
+      ]
+    },
+    {
+      "name": "Geneva",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Gibraltar",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Glendale",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Glendale, California",
+      "type": "place",
+      "aliases": [
+        "Glendale"
+      ]
+    },
+    {
+      "name": "Glenwood, Edmonton",
+      "type": "place",
+      "aliases": [
+        "Glenwood"
+      ]
+    },
+    {
+      "name": "Godoy Cruz, Argentina",
+      "type": "place",
+      "aliases": [
+        "Godoy Cruz"
+      ]
+    },
+    {
+      "name": "Good Hope",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Granger, Utah",
+      "type": "place",
+      "aliases": [
+        "Granger"
+      ]
+    },
+    {
+      "name": "Granger-Hunter",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Grantsville, Utah",
+      "type": "place",
+      "aliases": [
+        "Grantsville"
+      ]
+    },
+    {
+      "name": "Greater London",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Green Bay, Wisconsin",
+      "type": "place",
+      "aliases": [
+        "Green Bay"
+      ]
+    },
+    {
+      "name": "Greenfield, Massachusetts",
+      "type": "place",
+      "aliases": [
+        "Greenfield"
+      ]
+    },
+    {
+      "name": "Guaruj",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Guatemala City",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Guatemala City, Guatemala",
+      "type": "place",
+      "aliases": [
+        "Guatemala City"
+      ]
+    },
+    {
+      "name": "Hamilton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hancock County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Harmony Township",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Harrisburg",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hartford",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hawaii",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hebron",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hibbing",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hokkaid",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Holden, Utah",
+      "type": "place",
+      "aliases": [
+        "Holden"
+      ]
+    },
+    {
+      "name": "Holladay, Utah",
+      "type": "place",
+      "aliases": [
+        "Holladay"
+      ]
+    },
+    {
+      "name": "Holliston",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hong Kong",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Honolulu, Oahu",
+      "type": "place",
+      "aliases": [
+        "Honolulu"
+      ]
+    },
+    {
+      "name": "Hopkinton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Hunterfield, Midlothian, Scotland",
+      "type": "place",
+      "aliases": [
+        "Hunterfield"
+      ]
+    },
+    {
+      "name": "Huntington",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Huntsville",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Huntsville, Utah",
+      "type": "place",
+      "aliases": [
+        "Huntsville"
+      ]
+    },
+    {
+      "name": "Huntsville, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Huntsville"
+      ]
+    },
+    {
+      "name": "Ibadan, Nigeria",
+      "type": "place",
+      "aliases": [
+        "Ibadan"
+      ]
+    },
+    {
+      "name": "Idaho",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Idaho Falls",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Idaho Falls, Bonneville",
+      "type": "place",
+      "aliases": [
+        "Idaho Falls"
+      ]
+    },
+    {
+      "name": "Idaho Falls, Idaho",
+      "type": "place",
+      "aliases": [
+        "Idaho Falls"
+      ]
+    },
+    {
+      "name": "Idaho Territory",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Iguala, Guerrero",
+      "type": "place",
+      "aliases": [
+        "Iguala"
+      ]
+    },
+    {
+      "name": "Independence",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Isehara",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Ixelles",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Jacksonville",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "January",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Johannesburg",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Joinville, Santa Catarina",
+      "type": "place",
+      "aliases": [
+        "Joinville"
+      ]
+    },
+    {
+      "name": "Kahuku, Hawaii",
+      "type": "place",
+      "aliases": [
+        "Kahuku"
+      ]
+    },
+    {
+      "name": "Kensington",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Kent, England",
+      "type": "place",
+      "aliases": [
+        "Kent"
+      ]
+    },
+    {
+      "name": "Kettering, Ohio",
+      "type": "place",
+      "aliases": [
+        "Kettering"
+      ]
+    },
+    {
+      "name": "Kilmarnock, Ayrshire Jackie Smith",
+      "type": "place",
+      "aliases": [
+        "Kilmarnock"
+      ]
+    },
+    {
+      "name": "King's Cliffe",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Kinshasa, Democratic Republic",
+      "type": "place",
+      "aliases": [
+        "Kinshasa"
+      ]
+    },
+    {
+      "name": "Kirtland",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Kirtland, Ohio",
+      "type": "place",
+      "aliases": [
+        "Kirtland"
+      ]
+    },
+    {
+      "name": "Lafayette, Louisiana",
+      "type": "place",
+      "aliases": [
+        "Lafayette"
+      ]
+    },
+    {
+      "name": "Layton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lee County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lehi",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lehi, Utah",
+      "type": "place",
+      "aliases": [
+        "Lehi"
+      ]
+    },
+    {
+      "name": "Lethbridge",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lethbridge, Alberta",
+      "type": "place",
+      "aliases": [
+        "Lethbridge"
+      ]
+    },
+    {
+      "name": "Lima, Peru",
+      "type": "place",
+      "aliases": [
+        "Lima"
+      ]
+    },
+    {
+      "name": "Lindon, Utah",
+      "type": "place",
+      "aliases": [
+        "Lindon"
+      ]
+    },
+    {
+      "name": "Lismore",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Liverpool",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Logan",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Logan, Utah",
+      "type": "place",
+      "aliases": [
+        "Logan"
+      ]
+    },
+    {
+      "name": "Logan, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Logan"
+      ]
+    },
+    {
+      "name": "Lomaloma, Lau, Fiji",
+      "type": "place",
+      "aliases": [
+        "Lomaloma"
+      ]
+    },
+    {
+      "name": "London",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Long Beach",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Long Beach, California. He",
+      "type": "place",
+      "aliases": [
+        "Long Beach"
+      ]
+    },
+    {
+      "name": "Los Angeles",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Los Angeles, California",
+      "type": "place",
+      "aliases": [
+        "Los Angeles"
+      ]
+    },
+    {
+      "name": "Los Angeles, Los Angeles",
+      "type": "place",
+      "aliases": [
+        "Los Angeles"
+      ]
+    },
+    {
+      "name": "Lyman",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lyme",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lyme Regis",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Lyon, France",
+      "type": "place",
+      "aliases": [
+        "Lyon"
+      ]
+    },
+    {
+      "name": "Magrath, Alberta",
+      "type": "place",
+      "aliases": [
+        "Magrath"
+      ]
+    },
+    {
+      "name": "Managua",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Manchester, Jamaica",
+      "type": "place",
+      "aliases": [
+        "Manchester"
+      ]
+    },
+    {
+      "name": "Manhattan, New York City",
+      "type": "place",
+      "aliases": [
+        "Manhattan"
+      ]
+    },
+    {
+      "name": "Manila, Philippines",
+      "type": "place",
+      "aliases": [
+        "Manila"
+      ]
+    },
+    {
+      "name": "Mankato, Minnesota",
+      "type": "place",
+      "aliases": [
+        "Mankato"
+      ]
+    },
+    {
+      "name": "Manti",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "March",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Marlboro",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Mayag",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Mayfield, Utah",
+      "type": "place",
+      "aliases": [
+        "Mayfield"
+      ]
+    },
+    {
+      "name": "Mendon",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Mendon, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Mendon"
+      ]
+    },
+    {
+      "name": "Mesa",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Mesa, Arizona",
+      "type": "place",
+      "aliases": [
+        "Mesa"
+      ]
+    },
+    {
+      "name": "Mesa, Maricopa",
+      "type": "place",
+      "aliases": [
+        "Mesa"
+      ]
+    },
+    {
+      "name": "Mexico City, Mexico",
+      "type": "place",
+      "aliases": [
+        "Mexico City"
+      ]
+    },
+    {
+      "name": "Middlefield",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Middlepits, Botswana",
+      "type": "place",
+      "aliases": [
+        "Middlepits"
+      ]
+    },
+    {
+      "name": "Midvale",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Midvale, Utah, Mary Nielsen earned undergraduate and graduate degrees from Brigham Young University in audiology, speech pathology",
+      "type": "place",
+      "aliases": [
+        "Midvale"
+      ]
+    },
+    {
+      "name": "Milford",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Millcreek",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Minas, Lavalleja",
+      "type": "place",
+      "aliases": [
+        "Minas"
+      ]
+    },
+    {
+      "name": "Missouri",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Moberly, Missouri",
+      "type": "place",
+      "aliases": [
+        "Moberly"
+      ]
+    },
+    {
+      "name": "Monkton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Monterey",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Monterrey, Nuevo Le",
+      "type": "place",
+      "aliases": [
+        "Monterrey"
+      ]
+    },
+    {
+      "name": "Moreland, Idaho, Fyans was the son of Joseph Fyans and Mae Farnsworth",
+      "type": "place",
+      "aliases": [
+        "Moreland"
+      ]
+    },
+    {
+      "name": "Moscow",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Murray",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Murray, Salt Lake",
+      "type": "place",
+      "aliases": [
+        "Murray"
+      ]
+    },
+    {
+      "name": "Murray, Utah",
+      "type": "place",
+      "aliases": [
+        "Murray"
+      ]
+    },
+    {
+      "name": "Murray, Utah, Utah",
+      "type": "place",
+      "aliases": [
+        "Murray"
+      ]
+    },
+    {
+      "name": "Napier, New Zealand",
+      "type": "place",
+      "aliases": [
+        "Napier"
+      ]
+    },
+    {
+      "name": "Nauvoo",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Nauvoo House",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Neum",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Nevada",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "New Rochelle, New York",
+      "type": "place",
+      "aliases": [
+        "New Rochelle"
+      ]
+    },
+    {
+      "name": "New York City",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "North Ogden, Utah",
+      "type": "place",
+      "aliases": [
+        "North Ogden"
+      ]
+    },
+    {
+      "name": "North Ogden, Weber",
+      "type": "place",
+      "aliases": [
+        "North Ogden"
+      ]
+    },
+    {
+      "name": "Nukuʻalofa",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Oakland",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Oakley, Idaho",
+      "type": "place",
+      "aliases": [
+        "Oakley"
+      ]
+    },
+    {
+      "name": "Oaxaca, Mexico",
+      "type": "place",
+      "aliases": [
+        "Oaxaca"
+      ]
+    },
+    {
+      "name": "Ogden",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Ogden, Utah",
+      "type": "place",
+      "aliases": [
+        "Ogden"
+      ]
+    },
+    {
+      "name": "Ogden, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Ogden"
+      ]
+    },
+    {
+      "name": "Orem",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Orem, Utah",
+      "type": "place",
+      "aliases": [
+        "Orem"
+      ]
+    },
+    {
+      "name": "Ostrava",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Ovalle, Chile",
+      "type": "place",
+      "aliases": [
+        "Ovalle"
+      ]
+    },
+    {
+      "name": "Ovid",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Oxford",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Pago Pago, American Samoa",
+      "type": "place",
+      "aliases": [
+        "Pago Pago"
+      ]
+    },
+    {
+      "name": "Pamelia",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Paris",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Payson",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Payson, Utah",
+      "type": "place",
+      "aliases": [
+        "Payson"
+      ]
+    },
+    {
+      "name": "Payson, Utah Territory, in a Latter-day Saint family",
+      "type": "place",
+      "aliases": [
+        "Payson"
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Petersham",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Philadelphia, Pennsylvania",
+      "type": "place",
+      "aliases": [
+        "Philadelphia"
+      ]
+    },
+    {
+      "name": "Pima",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Pittsburg, California",
+      "type": "place",
+      "aliases": [
+        "Pittsburg"
+      ]
+    },
+    {
+      "name": "Pittsfield, Berkshire",
+      "type": "place",
+      "aliases": [
+        "Pittsfield"
+      ]
+    },
+    {
+      "name": "Pleasant Grove",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Pleasant Grove, Utah",
+      "type": "place",
+      "aliases": [
+        "Pleasant Grove"
+      ]
+    },
+    {
+      "name": "Plymouth",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Pocatello",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Pocatello, Bannock",
+      "type": "place",
+      "aliases": [
+        "Pocatello"
+      ]
+    },
+    {
+      "name": "Pocatello, Idaho",
+      "type": "place",
+      "aliases": [
+        "Pocatello"
+      ]
+    },
+    {
+      "name": "Polk City",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Pomfret, Windsor County, Vermont",
+      "type": "place",
+      "aliases": [
+        "Pomfret"
+      ]
+    },
+    {
+      "name": "Ponca City, Kay",
+      "type": "place",
+      "aliases": [
+        "Ponca City"
+      ]
+    },
+    {
+      "name": "Ponce, Puerto Rico",
+      "type": "place",
+      "aliases": [
+        "Ponce"
+      ]
+    },
+    {
+      "name": "Ponta Grossa, Brazil",
+      "type": "place",
+      "aliases": [
+        "Ponta Grossa"
+      ]
+    },
+    {
+      "name": "Port Harcourt, Rivers State",
+      "type": "place",
+      "aliases": [
+        "Port Harcourt"
+      ]
+    },
+    {
+      "name": "Portage County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Porto Alegre, Brazil",
+      "type": "place",
+      "aliases": [
+        "Porto Alegre"
+      ]
+    },
+    {
+      "name": "Position Called",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Position Set Apart",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Potsdam",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Preston",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Princeton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Princeton, New Jersey",
+      "type": "place",
+      "aliases": [
+        "Princeton"
+      ]
+    },
+    {
+      "name": "Provo",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Provo, Utah",
+      "type": "place",
+      "aliases": [
+        "Provo"
+      ]
+    },
+    {
+      "name": "Puerto Varas",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Quincy",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Randolph",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Raymond",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Recife, Brazil",
+      "type": "place",
+      "aliases": [
+        "Recife"
+      ]
+    },
+    {
+      "name": "Redding, California",
+      "type": "place",
+      "aliases": [
+        "Redding"
+      ]
+    },
+    {
+      "name": "Redwood City, California. He",
+      "type": "place",
+      "aliases": [
+        "Redwood City"
+      ]
+    },
+    {
+      "name": "Reno",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Rexburg",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Rexburg, Idaho",
+      "type": "place",
+      "aliases": [
+        "Rexburg"
+      ]
+    },
+    {
+      "name": "Richmond",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Rigby, Idaho",
+      "type": "place",
+      "aliases": [
+        "Rigby"
+      ]
+    },
+    {
+      "name": "Rio de Janeiro",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Riverside",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Rockingham",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Rockingham, Vermont",
+      "type": "place",
+      "aliases": [
+        "Rockingham"
+      ]
+    },
+    {
+      "name": "Royalton, Vermont",
+      "type": "place",
+      "aliases": [
+        "Royalton"
+      ]
+    },
+    {
+      "name": "Sackville",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Salt Lake City",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Salt Lake City a year after his Mormon pioneer parents arrived in the Salt Lake Valley",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Salt Lake City and raised in Clinton, Utah",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City and raised in Clinton"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Salt Lake",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah Territory",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah Territory, Smith was the son of LDS Church apostle John Henry Smith and Josephine Groesbeck",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah Territory, Wells was the son of LDS Church leader Daniel H",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah and obtained a bachelor's degree from the University of Utah",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah and received multiple education degrees, including a Ph",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah and was raised in Phoenix, Arizona",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah, Curtis was also a president of the Western States Mission of the LDS Church and a president of the Sugar House Stake of the church",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah, U.S.",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake City, Utah, Wirthlin was the son of Madeline Bitner and Joseph L",
+      "type": "place",
+      "aliases": [
+        "Salt Lake City"
+      ]
+    },
+    {
+      "name": "Salt Lake County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "San Francisco",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "San Francisco, California",
+      "type": "place",
+      "aliases": [
+        "San Francisco"
+      ]
+    },
+    {
+      "name": "Sanbornton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sangamon County, Illinois",
+      "type": "place",
+      "aliases": [
+        "Sangamon County"
+      ]
+    },
+    {
+      "name": "Santa Cruz, California",
+      "type": "place",
+      "aliases": [
+        "Santa Cruz"
+      ]
+    },
+    {
+      "name": "Santa Monica, California",
+      "type": "place",
+      "aliases": [
+        "Santa Monica"
+      ]
+    },
+    {
+      "name": "Scipio",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Seattle",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Seattle, Washington",
+      "type": "place",
+      "aliases": [
+        "Seattle"
+      ]
+    },
+    {
+      "name": "Seoul, South Korea",
+      "type": "place",
+      "aliases": [
+        "Seoul"
+      ]
+    },
+    {
+      "name": "September",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sharon",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sheldon",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Shelley",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sherwood, a suburb of Nottingham, England",
+      "type": "place",
+      "aliases": [
+        "Sherwood"
+      ]
+    },
+    {
+      "name": "Shinnston",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Smith County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sonoma County",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "South Jordan",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "South Jordan, Salt Lake",
+      "type": "place",
+      "aliases": [
+        "South Jordan"
+      ]
+    },
+    {
+      "name": "South Lanarkshire",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "South Norwalk",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Soweto South Africa",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Spanish Fork",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Springerville, Arizona",
+      "type": "place",
+      "aliases": [
+        "Springerville"
+      ]
+    },
+    {
+      "name": "Springfield",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Springville, Utah",
+      "type": "place",
+      "aliases": [
+        "Springville"
+      ]
+    },
+    {
+      "name": "St. George",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "St. George, Utah",
+      "type": "place",
+      "aliases": [
+        "St. George"
+      ]
+    },
+    {
+      "name": "St. George, Washington",
+      "type": "place",
+      "aliases": [
+        "St. George"
+      ]
+    },
+    {
+      "name": "St. Johnsbury",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "St. Petersburg",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Stirling, Scotland",
+      "type": "place",
+      "aliases": [
+        "Stirling"
+      ]
+    },
+    {
+      "name": "Stockport",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Stuttgart",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sugar City, Idaho",
+      "type": "place",
+      "aliases": [
+        "Sugar City"
+      ]
+    },
+    {
+      "name": "Sugar House",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sundbyvester",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Surfers Paradise",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Sydney, Australia",
+      "type": "place",
+      "aliases": [
+        "Sydney"
+      ]
+    },
+    {
+      "name": "Syracuse, New York",
+      "type": "place",
+      "aliases": [
+        "Syracuse"
+      ]
+    },
+    {
+      "name": "Taber, Alberta",
+      "type": "place",
+      "aliases": [
+        "Taber"
+      ]
+    },
+    {
+      "name": "Tacoma",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Taipei, Taiwan",
+      "type": "place",
+      "aliases": [
+        "Taipei"
+      ]
+    },
+    {
+      "name": "Takoradi, Ghana",
+      "type": "place",
+      "aliases": [
+        "Takoradi"
+      ]
+    },
+    {
+      "name": "Taranto, Italy",
+      "type": "place",
+      "aliases": [
+        "Taranto"
+      ]
+    },
+    {
+      "name": "Taylorsville",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Te Aroha, New Zealand",
+      "type": "place",
+      "aliases": [
+        "Te Aroha"
+      ]
+    },
+    {
+      "name": "Te Puke, New Zealand",
+      "type": "place",
+      "aliases": [
+        "Te Puke"
+      ]
+    },
+    {
+      "name": "Thatcher, Idaho",
+      "type": "place",
+      "aliases": [
+        "Thatcher"
+      ]
+    },
+    {
+      "name": "Tijuana, Baja California",
+      "type": "place",
+      "aliases": [
+        "Tijuana"
+      ]
+    },
+    {
+      "name": "Tilapan, Veracruz, Mexico",
+      "type": "place",
+      "aliases": [
+        "Tilapan"
+      ]
+    },
+    {
+      "name": "Toms River",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Tooele",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Topsfield",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Towaoc, Colorado",
+      "type": "place",
+      "aliases": [
+        "Towaoc"
+      ]
+    },
+    {
+      "name": "Townsend, Montana",
+      "type": "place",
+      "aliases": [
+        "Townsend"
+      ]
+    },
+    {
+      "name": "Trenton",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Trenton, New York, Page was the son of Ebenezer and Rachel Page",
+      "type": "place",
+      "aliases": [
+        "Trenton"
+      ]
+    },
+    {
+      "name": "Tucson, Arizona",
+      "type": "place",
+      "aliases": [
+        "Tucson"
+      ]
+    },
+    {
+      "name": "Tunbridge",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Ulysses",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Union",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Utah",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Utulei, American Samoa",
+      "type": "place",
+      "aliases": [
+        "Utulei"
+      ]
+    },
+    {
+      "name": "Valencia, Venezuela",
+      "type": "place",
+      "aliases": [
+        "Valencia"
+      ]
+    },
+    {
+      "name": "Valpara",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Valparaiso, Chile",
+      "type": "place",
+      "aliases": [
+        "Valparaiso"
+      ]
+    },
+    {
+      "name": "Vermont",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Vorbrücke",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Warrington",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Warrnambool, Victoria",
+      "type": "place",
+      "aliases": [
+        "Warrnambool"
+      ]
+    },
+    {
+      "name": "Washington, D.C.",
+      "type": "place",
+      "aliases": [
+        "Washington"
+      ]
+    },
+    {
+      "name": "Washington, District",
+      "type": "place",
+      "aliases": [
+        "Washington"
+      ]
+    },
+    {
+      "name": "Washington, Utah",
+      "type": "place",
+      "aliases": [
+        "Washington"
+      ]
+    },
+    {
+      "name": "Watertown",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Wells",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Wenatchee, Washington",
+      "type": "place",
+      "aliases": [
+        "Wenatchee"
+      ]
+    },
+    {
+      "name": "Wenatchee, Washington. He",
+      "type": "place",
+      "aliases": [
+        "Wenatchee"
+      ]
+    },
+    {
+      "name": "West Bountiful",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "West Indies",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Westbury",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Westfield",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Westport",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Whitingham",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "Winslow, Arizona",
+      "type": "place",
+      "aliases": [
+        "Winslow"
+      ]
+    },
+    {
+      "name": "Worcester Co, Massachusetts",
+      "type": "place",
+      "aliases": [
+        "Worcester Co"
+      ]
+    },
+    {
+      "name": "York",
+      "type": "place",
+      "aliases": []
+    },
+    {
+      "name": "unknown",
+      "type": "place",
+      "aliases": []
+    }
+  ],
+  "relations": []
+}
