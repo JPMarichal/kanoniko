@@ -1,0 +1,27 @@
+[2026-06-27T10:46:24.379Z] Total uncovered: 167
+[2026-06-27T10:46:48.311Z] Searched 20/167, found: 5
+[2026-06-27T10:47:16.134Z] Searched 40/167, found: 9
+[2026-06-27T10:47:41.158Z] Searched 60/167, found: 9
+[2026-06-27T10:48:05.139Z] Searched 80/167, found: 12
+[2026-06-27T10:48:30.928Z] Searched 100/167, found: 12
+[2026-06-27T10:48:58.704Z] Searched 120/167, found: 12
+[2026-06-27T10:49:26.483Z] Searched 140/167, found: 15
+[2026-06-27T10:49:52.931Z] Searched 160/167, found: 15
+[2026-06-27T10:50:01.460Z] Found 15 QIDs via search
+[2026-06-27T10:50:01.460Z]   A. Roger Merrill -> Q93269294 (A. Roger Merrill)
+[2026-06-27T10:50:01.460Z]   A. Walter Stevenson -> Q424325 (Stevenson)
+[2026-06-27T10:50:01.460Z]   Adele Cannon Howells -> Q16870903 (Howells)
+[2026-06-27T10:50:01.461Z]   Adhemar Damiani -> Q21493304 (Damiani)
+[2026-06-27T10:50:01.461Z]   Adney Y. Komatsu -> Q4683949 (Adney Y. Komatsu)
+[2026-06-27T10:50:01.461Z]   Clate W. Mask Jr. -> Q19838175 (Jr.)
+[2026-06-27T10:50:01.461Z]   Claudio D. Zivic -> Q21502223 (Zivic)
+[2026-06-27T10:50:01.461Z]   Craig A. Cardon -> Q16865372 (Cardon)
+[2026-06-27T10:50:01.461Z]   Cree-L Kofford -> Q37276049 (Kofford)
+[2026-06-27T10:50:01.461Z]   James M. Dunn -> Q12788015 (Dunn)
+[2026-06-27T10:50:01.461Z]   James M. Paramore -> Q473466 (Paramore)
+[2026-06-27T10:50:01.461Z]   Janet Murdock Thompson -> Q2803433 (Thompson)
+[2026-06-27T10:50:01.461Z]   Nina M. Garfield -> Q20748938 (Garfield)
+[2026-06-27T10:50:01.461Z]   Norma B. Smith -> Q1158446 (Smith)
+[2026-06-27T10:50:01.461Z]   Patricia P. Pinegar -> Q36984643 (Pinegar)
+[2026-06-27T10:50:01.461Z] Unique QIDs: 15
+[2026-06-27T10:50:02.231Z]   Fetched 15/15

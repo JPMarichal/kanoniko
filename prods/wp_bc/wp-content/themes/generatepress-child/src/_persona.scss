@@ -1,0 +1,301 @@
+.bc-glossary-single {
+  padding: 2rem 0;
+
+  .bc-persona-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 100%;
+    padding: 0 20px;
+
+    @include respond-tablet {
+      grid-template-columns: 1fr 320px;
+      padding: 0 30px;
+    }
+
+    @include respond-desktop {
+      padding: 0 40px;
+    }
+  }
+
+  .bc-persona-content-area {
+    min-width: 0;
+  }
+
+  .bc-persona-biography {
+    margin-top: 1.5rem;
+    background: #fff;
+    border: 1px solid #e0ddd5;
+    border-radius: 8px;
+    padding: 2rem;
+    color: #333;
+    line-height: 1.8;
+    font-size: 1rem;
+
+    h3 {
+      font-family: $font-family-headings;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1e3a5f;
+      margin: 1.5rem 0 0.75rem;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+
+    p {
+      margin: 0 0 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    ul {
+      margin: 0.5rem 0 0;
+      padding: 0 0 0 1.5rem;
+
+      li {
+        margin-bottom: 0.3rem;
+        line-height: 1.5;
+      }
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    .bc-persona-summary {
+      border: 1px solid #d4cdc0;
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      background: #faf9f7;
+      font-family: 'Lora', Georgia, 'Times New Roman', serif;
+      font-style: italic;
+      font-weight: 400;
+
+      p {
+        margin: 0;
+        font-size: 1.05rem;
+        color: #444;
+        line-height: 1.7;
+      }
+    }
+
+    .bc-persona-biography-body {
+      p {
+        margin: 0 0 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .bc-glossary-back-nav {
+    margin-bottom: 1rem;
+    padding: 0 20px;
+
+    @include respond-tablet {
+      padding: 0 30px;
+    }
+
+    @include respond-desktop {
+      padding: 0 40px;
+    }
+
+    a {
+      color: #1e3a5f;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .bc-persona-card {
+    background: #f9f8f6;
+    border: 1px solid #e0ddd5;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+
+  .bc-persona-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+
+    @include respond-max(599px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .bc-persona-photo {
+    flex-shrink: 0;
+
+    .bc-persona-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .bc-persona-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .bc-persona-name {
+    font-family: $font-family-headings;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    color: #1e3a5f;
+  }
+
+  .bc-persona-desc {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  // ── Sidebar / Infobox ──────────────────────────────
+
+  .bc-persona-sidebar {
+    min-width: 0;
+  }
+
+  .bc-persona-widget {
+    margin-bottom: 1.5rem;
+  }
+
+  .bc-persona-widget-title {
+    font-family: $font-family-headings;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    margin: 0 0 0.75rem;
+  }
+
+  .bc-infobox {
+    background: #f9f8f6;
+    border: 1px solid #e0ddd5;
+    border-radius: 8px;
+    padding: 1.25rem;
+
+    @include respond-tablet {
+      position: sticky;
+      top: 1rem;
+    }
+
+    .bc-infobox-photo {
+      text-align: center;
+      margin-bottom: 0.75rem;
+
+      .bc-infobox-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    .bc-infobox-name {
+      font-family: $font-family-headings;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      color: #1e3a5f;
+      margin: 0 0 0.5rem;
+    }
+
+    .bc-infobox-desc {
+      font-size: 0.85rem;
+      color: #555;
+      text-align: center;
+      margin: 0 0 1rem;
+      line-height: 1.4;
+    }
+
+    .bc-infobox-details {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #e0ddd5;
+        font-size: 0.85rem;
+        color: #444;
+        line-height: 1.4;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        > i {
+          width: 1rem;
+          color: #1e3a5f;
+          margin-top: 0.15rem;
+          flex-shrink: 0;
+          text-align: center;
+        }
+
+        > span {
+          flex: 1;
+          min-width: 0;
+        }
+      }
+    }
+
+    .bc-infobox-callings {
+      margin: 0.25rem 0 0;
+      padding: 0 0 0 1.2rem;
+      font-size: 0.82rem;
+
+      li {
+        margin-bottom: 0.2rem;
+        line-height: 1.4;
+      }
+    }
+
+    .bc-infobox-years {
+      color: #888;
+      white-space: nowrap;
+    }
+
+    .bc-infobox-children {
+      color: #888;
+      font-size: 0.8rem;
+      white-space: nowrap;
+    }
+  }
+}
+
+.bc-persona-comments {
+  padding: 0 20px 2rem;
+
+  @include respond-tablet {
+    padding: 0 30px 2rem;
+  }
+
+  @include respond-desktop {
+    padding: 0 40px 2rem;
+  }
+}

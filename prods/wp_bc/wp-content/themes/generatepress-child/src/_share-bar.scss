@@ -1,0 +1,52 @@
+.page-share-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  background: #f5f3ef;
+  border: 1px solid #ddd;
+  padding: 6px $container-padding-mobile;
+  margin-bottom: 2px;
+
+  .page-share-label {
+    font-size: 0.85em;
+    color: #4a3728;
+    margin-right: 4px;
+  }
+
+  .page-share-link {
+    font-size: 1em;
+    text-decoration: none;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .share-facebook  { color: #1877f2; }
+  .share-twitter   { color: #000; }
+  .share-whatsapp  { color: #25d366; }
+  .share-telegram  { color: #0088cc; }
+  .share-threads   { color: #000; }
+  .share-messenger { color: #00b2ff; }
+  .share-reddit    { color: #ff4500; }
+  .share-pinterest { color: #e60023; }
+  .share-email     { color: #4a3728; }
+}
+
+.page-share-bar--bottom {
+  justify-content: center;
+}
+
+@include respond-tablet {
+  .page-share-bar {
+    padding: 6px $container-padding-tablet;
+  }
+}
+
+@include respond-desktop {
+  .page-share-bar {
+    padding: 6px $container-padding-desktop;
+  }
+}

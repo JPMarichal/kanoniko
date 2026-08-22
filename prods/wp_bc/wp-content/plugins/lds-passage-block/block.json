@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "lds-passage-block/passage",
+  "version": "0.1.0",
+  "title": "Pasaje de Escritura",
+  "category": "widgets",
+  "icon": "book-alt",
+  "description": "Inserta un pasaje de las Escrituras SUD (Biblia RV 1960, Libro de Mormón, DyC, Perla de Gran Precio)",
+  "keywords": [ "escritura", "biblia", "mormon", "sud", "pasaje" ],
+  "attributes": {
+    "volume": { "type": "string", "default": "" },
+    "book": { "type": "string", "default": "" },
+    "chapter": { "type": "integer", "default": 1 },
+    "startVerse": { "type": "integer", "default": 1 },
+    "endVerse": { "type": "integer", "default": 1 }
+  },
+  "supports": {
+    "html": false,
+    "color": true,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}

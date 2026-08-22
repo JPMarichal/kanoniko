@@ -1,0 +1,140 @@
+.page-hero {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  margin-bottom: 2px;
+
+  .page-hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .page-hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    pointer-events: none;
+  }
+
+  .page-hero-title-bar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 6px $container-padding-mobile;
+  }
+
+  .page-hero-meta-bar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 4px $container-padding-mobile;
+    pointer-events: auto;
+  }
+
+  .entry-title {
+    font-family: $font-family-headings;
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+
+  .entry-meta {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.85em;
+    margin: 0;
+
+    a {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    > span {
+      display: inline-block;
+      margin-right: 1em;
+
+      i {
+        margin-right: 0.3em;
+      }
+    }
+  }
+}
+
+.page-hero-excerpt {
+  background: #e8e4db;
+  padding: 12px $container-padding-mobile;
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: #4a3728;
+
+  p {
+    margin: 0;
+  }
+}
+
+@include respond-tablet {
+  .page-hero-excerpt {
+    padding: 12px $container-padding-tablet;
+  }
+}
+
+@include respond-desktop {
+  .page-hero-excerpt {
+    padding: 12px $container-padding-desktop;
+  }
+}
+
+@include respond-max($breakpoint-tablet - 1) {
+  .page-hero {
+    max-height: 300px;
+
+    .page-hero-image {
+      height: 300px;
+    }
+
+    .page-hero-title-bar {
+      padding: 4px $container-padding-mobile;
+    }
+
+    .page-hero-meta-bar {
+      padding: 2px $container-padding-mobile;
+    }
+
+    .entry-title {
+      font-size: 1.3em;
+    }
+  }
+}
+
+@include respond-tablet {
+  .page-hero {
+    .page-hero-title-bar {
+      padding-left: $container-padding-tablet;
+      padding-right: $container-padding-tablet;
+    }
+
+    .page-hero-meta-bar {
+      padding-left: $container-padding-tablet;
+      padding-right: $container-padding-tablet;
+    }
+  }
+}
+
+@include respond-desktop {
+  .page-hero {
+    .page-hero-title-bar {
+      padding-left: $container-padding-desktop;
+      padding-right: $container-padding-desktop;
+    }
+
+    .page-hero-meta-bar {
+      padding-left: $container-padding-desktop;
+      padding-right: $container-padding-desktop;
+    }
+  }
+}

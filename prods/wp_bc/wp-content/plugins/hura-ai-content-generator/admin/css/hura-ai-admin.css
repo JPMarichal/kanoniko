@@ -1,0 +1,262 @@
+/**
+ * CSS for Hura AI Content Generator plugin.
+ *
+ * Styles for the Generate page (2-column layout) and related components.
+ *
+ * @package Hura_AI_Content_Generator
+ * @since   1.0.0
+ */
+
+/* ==========================================================================
+   Layout: 2-column Flexbox
+   ========================================================================== */
+
+.hura-ai-generator-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 20px;
+	align-items: flex-start;
+}
+
+/* Sidebar Column (33.333%) */
+.hura-ai-sidebar {
+	flex: 1 1 calc(33.333% - 30px);
+	min-width: 280px;
+	max-width: 400px;
+}
+
+/* Main Content Column (66.666%) */
+.hura-ai-main-content {
+	flex: 1 1 calc(66.666% - 30px);
+	min-width: 350px;
+}
+.hura-ai-sidebar .postbox-header .hndle,
+.hura-ai-main-content .postbox-header .hndle{
+    padding: 0 12px;
+}
+/* ==========================================================================
+   Sidebar - Customization Form
+   ========================================================================== */
+
+.hura-ai-field {
+	margin-bottom: 18px;
+}
+
+.hura-ai-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 6px;
+	color: #1d2327;
+	font-size: 13px;
+}
+
+.hura-ai-field select,
+.hura-ai-field textarea,
+.hura-ai-field input[type="text"],
+.hura-ai-field input[type="password"] {
+	width: 100%;
+}
+
+.hura-ai-field select:focus,
+.hura-ai-field textarea:focus,
+.hura-ai-field input[type="text"]:focus,
+.hura-ai-field input[type="password"]:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: none;
+}
+
+.hura-ai-field textarea {
+	resize: vertical;
+	min-height: 60px;
+}
+
+.hura-ai-field-submit {
+	margin-bottom: 0;
+	padding-top: 8px;
+	border-top: 1px solid #e5e5e5;
+}
+
+#hura-btn-generate {
+	width: 100%;
+	height: 44px;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	justify-content: center;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+#hura-btn-generate .dashicons {
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+/* ==========================================================================
+   Main Content - Display Area
+   ========================================================================== */
+
+
+/* Placeholder - Default notice */
+.hura-ai-placeholder {
+	text-align: center;
+	padding: 60px 20px;
+	color: #8c8f94;
+}
+
+.hura-ai-placeholder-icon .dashicons {
+	font-size: 60px;
+	width: 60px;
+	height: 60px;
+	color: #c3c4c7;
+}
+
+.hura-ai-placeholder p {
+	font-size: 15px;
+	margin-top: 16px;
+	color: #646970;
+}
+
+/* Loading - Spinner */
+.hura-ai-loading {
+	text-align: center;
+	padding: 60px 20px;
+}
+
+.hura-ai-loading .spinner {
+	float: none;
+	margin: 0 auto 10px;
+	visibility: visible;
+}
+
+.hura-ai-loading p {
+	font-size: 14px;
+	color: #646970;
+	margin-top: 10px;
+}
+
+/* Editor Area */
+.hura-ai-editor-area {
+	animation: huraFadeIn 0.3s ease;
+}
+
+@keyframes huraFadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.hura-ai-title-field {
+	margin-bottom: 16px;
+}
+
+.hura-ai-title-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 6px;
+	color: #1d2327;
+	font-size: 13px;
+}
+
+.hura-ai-title-field input {
+	width: 100%;
+	padding: 8px 12px;
+	font-size: 16px;
+	border: 1px solid #8c8f94;
+	border-radius: 4px;
+	transition: border-color 0.2s ease;
+}
+
+.hura-ai-title-field input:focus {
+	border-color: #2271b1;
+	box-shadow: 0 0 0 1px #2271b1;
+	outline: none;
+}
+
+.hura-ai-content-field {
+	margin-bottom: 16px;
+}
+
+.hura-ai-content-field > label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 6px;
+	color: #1d2327;
+	font-size: 13px;
+}
+
+/* Action Buttons */
+.hura-ai-actions {
+	display: flex;
+	gap: 12px;
+	padding-top: 16px;
+	border-top: 1px solid #e5e5e5;
+	flex-wrap: wrap;
+}
+
+.hura-ai-actions .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	height: 40px;
+	padding: 0 18px;
+	font-size: 14px;
+}
+
+/* ==========================================================================
+   Admin Notifications (Toast)
+   ========================================================================== */
+
+#hura-ai-notices {
+	margin-top: 20px;
+}
+
+#hura-ai-notices .notice {
+	animation: huraSlideIn 0.3s ease;
+}
+
+@keyframes huraSlideIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media screen and (max-width: 782px) {
+	.hura-ai-generator-wrapper {
+		flex-direction: column;
+	}
+
+	.hura-ai-sidebar,
+	.hura-ai-main-content {
+		flex: 1 1 100%;
+		max-width: 100%;
+		min-width: auto;
+	}
+
+	.hura-ai-actions {
+		flex-direction: column;
+	}
+
+	.hura-ai-actions .button {
+		width: 100%;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lds-passage-block",
+  "version": "0.1.0",
+  "description": "Gutenberg block for LDS scripture passages",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.9.0"
+  }
+}

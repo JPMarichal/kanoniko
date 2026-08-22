@@ -1,0 +1,29 @@
+// Colores
+$color-primary: #1e73be;
+$color-primary-hover: #0e5a9e;
+$color-text: #3a3a3a;
+$color-heading: #1e1e1e;
+$color-bg: #ffffff;
+$color-bg-alt: #fafafa;
+$color-border: #e8e8e8;
+
+// Layout
+$container-padding-mobile: 20px;
+$container-padding-tablet: 30px;
+$container-padding-desktop: 40px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1200px;
+
+// Heading greens (escala generada desde base forest)
+$heading-green-base: #2d5a27;
+$heading-green-h2:    $heading-green-base;
+$heading-green-h3:    lighten($heading-green-base, 12%);
+$heading-green-h4:    lighten($heading-green-base, 25%);
+$heading-green-h5:    lighten($heading-green-base, 38%);
+$heading-green-h6:    lighten($heading-green-base, 50%);
+
+// Tipografía
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+$font-family-headings: 'Merriweather', Georgia, 'Times New Roman', serif;
+$font-size-base: 16px;
+$line-height-base: 1.7;

@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bc/scripture-map",
+	"version": "1.0.0",
+	"title": "Mapa de Escrituras",
+	"category": "embed",
+	"icon": "location-alt",
+	"description": "Mapa interactivo con relieve 3D para ubicaciones de las Escrituras (Biblia, DyC, Perla de Gran Precio).",
+	"keywords": ["mapa", "escrituras", "biblia", "dyc", "sud", "relieve", "ubicaciones"],
+	"attributes": {
+		"centerLng":     { "type": "number", "default": 35.2 },
+		"centerLat":     { "type": "number", "default": 31.8 },
+		"zoom":          { "type": "number", "default": 6 },
+		"pitch":         { "type": "number", "default": 45 },
+		"bearing":       { "type": "number", "default": 0 },
+		"exaggeration":  { "type": "number", "default": 1.5 },
+		"height":        { "type": "number", "default": 500 },
+		"locationIds":   { "type": "array", "default": [] },
+		"routes":        { "type": "array", "default": [] },
+		"regions":       { "type": "array", "default": [] },
+		"showLabels":    { "type": "boolean", "default": false },
+		"tileProvider":  { "type": "string", "default": "satellite" },
+		"mapTitle":      { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

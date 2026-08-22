@@ -1,0 +1,81 @@
+.wp-block-bc-scripture-map {
+	position: relative;
+}
+
+.bc-scripture-map-container {
+	width: 100%;
+}
+
+.bc-scripture-map-title {
+	margin: 0 0 10px;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.bc-scripture-map-inner {
+	width: 100%;
+	position: relative;
+}
+
+.bc-scripture-map-canvas {
+	position: relative;
+}
+
+.bc-map-loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 60px 20px;
+	background: #f0f0f0;
+	border-radius: 4px;
+	color: #666;
+}
+
+.bc-map-marker {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.bc-map-popup {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.bc-map-popup h4 {
+	margin: 0 0 6px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.bc-map-popup p {
+	margin: 4px 0;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+.bc-map-popup .bc-map-refs {
+	font-size: 12px;
+	color: #555;
+}
+
+.bc-map-popup .bc-map-date {
+	font-size: 12px;
+	color: #777;
+}
+
+.maplibregl-popup-content {
+	padding: 12px 14px !important;
+	border-radius: 6px !important;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+.maplibregl-popup-close-button {
+	font-size: 18px;
+	padding: 4px 8px;
+	color: #999;
+}
+
+.maplibregl-popup-close-button:hover {
+	color: #333;
+}

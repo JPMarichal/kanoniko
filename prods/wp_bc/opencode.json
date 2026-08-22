@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "external_directory": {
+      "C:/own/alejandria/**": "allow"
+    }
+  },
+  "mcp": {
+    "bunnycdn": {
+      "type": "local",
+      "command": ["npx", "-y", "bunnycdn-mcp"],
+      "enabled": true,
+      "environment": {
+        "BUNNY_API_KEY": "27bbb661-1e02-4483-b942-d3b40d30410bb19f139c-c78f-4016-9788-fcd8352e7672",
+        "BUNNY_STORAGE_KEY": "0fbb00db-5a99-4c86-a41665993e2e-7c8f-438d",
+        "BUNNY_STORAGE_REGION": "la",
+        "BUNNY_STORAGE_ZONE": "ve-media-storage"
+      }
+    },
+    "alejandria": {
+      "type": "streamable-http",
+      "url": "http://localhost:4300/mcp/",
+      "enabled": true
+    }
+  }
+}

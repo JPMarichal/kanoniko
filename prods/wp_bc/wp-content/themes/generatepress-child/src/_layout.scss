@@ -1,0 +1,33 @@
+.grid-container {
+  max-width: 100%;
+  padding-left: $container-padding-mobile;
+  padding-right: $container-padding-mobile;
+
+  @include respond-tablet {
+    padding-left: $container-padding-tablet;
+    padding-right: $container-padding-tablet;
+  }
+
+  @include respond-desktop {
+    padding-left: $container-padding-desktop;
+    padding-right: $container-padding-desktop;
+  }
+}
+
+.bc-footer-content {
+  text-align: center;
+  padding: 20px 0;
+
+  .copyright {
+    font-size: 0.9em;
+    color: #555;
+  }
+}
+
+.bc-footer-disclaimer {
+  font-size: 0.78em;
+  color: #888;
+  line-height: 1.5;
+  margin: 8px auto 0;
+  max-width: 720px;
+}

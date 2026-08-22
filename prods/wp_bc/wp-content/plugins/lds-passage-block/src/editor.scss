@@ -1,0 +1,51 @@
+.lds-passage-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.lds-passage-desc {
+    color: #757575;
+    margin-bottom: 16px;
+}
+
+.lds-passage-selectors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+
+    > * {
+        flex: 1 1 180px;
+        min-width: 160px;
+    }
+}
+
+.lds-passage-preview {
+    margin-top: 16px;
+    padding: 16px 20px;
+    background: #f8f9fa;
+    border-left: 4px solid #c8a96e;
+    border-radius: 2px;
+    font-size: 1.05em;
+    line-height: 1.7;
+    font-style: normal;
+
+    cite {
+        font-style: normal;
+    }
+}
+
+.lds-passage-empty {
+    margin-top: 12px;
+    color: #757575;
+    font-style: italic;
+}
+
+.lds-passage-actions {
+    margin-top: 16px;
+    text-align: center;
+}

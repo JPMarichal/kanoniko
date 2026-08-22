@@ -1,0 +1,29 @@
+.wp-block-lds-passage-block-passage {
+    margin: 1.5em 0;
+    padding: 16px 24px;
+    border-left: 4px solid #c8a96e;
+    background: #f8f9fa;
+    border-radius: 2px;
+    font-size: 0.9375em;
+    line-height: 1.6;
+    font-style: normal;
+
+    .verse-line {
+        margin-bottom: 0.15em;
+    }
+
+    .verse-num {
+        font-weight: 700;
+        font-size: 0.85em;
+        color: #5a4632;
+        margin-right: 2px;
+    }
+
+    cite {
+        display: block;
+        margin-top: 12px;
+        font-size: 0.9em;
+        color: #6b6b6b;
+        text-align: right;
+    }
+}

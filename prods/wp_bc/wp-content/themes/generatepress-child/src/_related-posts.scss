@@ -1,0 +1,43 @@
+.bc-related-posts {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}
+
+.bc-related-posts-title {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.bc-related-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bc-related-post {
+  background: #f9f9f9;
+  border-radius: 4px;
+  overflow: hidden;
+
+  &-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  &-thumb img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+
+  &-title {
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  }
+}

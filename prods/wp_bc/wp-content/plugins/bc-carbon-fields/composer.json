@@ -1,0 +1,13 @@
+{
+    "name": "bc/carbon-fields-plugin",
+    "description": "BC Carbon Fields integration for WordPress CPTs",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "htmlburger/carbon-fields": "^3.6"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": false
+    }
+}

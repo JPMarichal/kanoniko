@@ -1,0 +1,23 @@
+{
+  "name": "generatepress-child",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:sass": "sass --watch src/style.scss:style-compiled.css",
+    "build:sass": "sass --no-source-map src/style.scss:style-compiled.css",
+    "build:postcss": "postcss style-compiled.css -o style-compiled.css",
+    "build": "npm run build:sass && npm run build:postcss",
+    "dev": "npm run dev:sass"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "cssnano": "^6.1.2",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.71.0"
+  }
+}

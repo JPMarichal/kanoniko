@@ -1,0 +1,241 @@
+.bc-glossary-archive {
+  padding: 2rem 0;
+
+  .bc-glossary-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .bc-glossary-title {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .bc-glossary-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    background: #f5f3ef;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    align-items: center;
+  }
+
+  .bc-filter-input {
+    flex: 1 1 220px;
+    min-width: 160px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .bc-filter-select {
+    flex: 0 1 auto;
+    min-width: 160px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+  }
+
+  .bc-glossary-no-results {
+    padding: 2rem;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+
+  .bc-glossary-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .bc-glossary-nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #444;
+    transition: background 0.15s, color 0.15s;
+
+    &:hover {
+      background: #1e3a5f;
+      color: #fff;
+      border-color: #1e3a5f;
+    }
+  }
+
+  .bc-glossary-letter-group {
+    margin-bottom: 2rem;
+
+    .bc-glossary-letter-heading {
+      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1e3a5f;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .bc-glossary-entry-link {
+      display: block;
+      padding: 0.2rem 0;
+      color: #333;
+      text-decoration: none;
+      font-size: 0.95rem;
+      line-height: 1.6;
+
+      &:hover {
+        color: #1e3a5f;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.bc-glossary-single {
+  padding: 2rem 0;
+
+  .bc-persona-card {
+    background: #f9f8f6;
+    border: 1px solid #e0ddd5;
+    border-radius: 8px;
+    padding: 2rem;
+  }
+
+  .bc-persona-layout {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+
+    @media (max-width: 599px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .bc-persona-photo {
+    flex-shrink: 0;
+
+    .bc-persona-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .bc-persona-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .bc-persona-name {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    color: #1e3a5f;
+  }
+
+  .bc-persona-desc {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0 0 1rem;
+  }
+
+  .bc-persona-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .bc-persona-badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
+  .bc-badge-ga {
+    background: #1e3a5f;
+    color: #fff;
+  }
+
+  .bc-badge-witness {
+    background: #b8860b;
+    color: #fff;
+  }
+
+  .bc-badge-calling {
+    background: #e8e4db;
+    color: #444;
+  }
+
+  .bc-persona-callings {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #ddd;
+
+    .bc-persona-callings-title {
+      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1e3a5f;
+      margin: 0 0 0.75rem;
+    }
+
+    .bc-persona-callings-list {
+      margin: 0;
+      padding: 0 0 0 1.4rem;
+
+      .bc-persona-calling-item {
+        font-size: 0.95rem;
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: 0.35rem;
+      }
+
+      .bc-calling-years {
+        color: #888;
+        font-size: 0.85rem;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .bc-glossary-back-nav {
+    margin-top: 1.5rem;
+
+    a {
+      color: #1e3a5f;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+.bcco-widget {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.bcco-collection-name {
+    margin: 0 0 2px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.bcco-collection-name a {
+    text-decoration: none;
+    color: #666;
+}
+
+.bcco-collection-name a:hover {
+    color: #333;
+}
+
+.bcco-collection-name i {
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.bcco-series-name {
+    font-weight: 600;
+    margin: 0 0 6px;
+    font-size: 14px;
+}
+
+.bcco-series-name a {
+    text-decoration: none;
+    color: #222;
+}
+
+.bcco-series-name a:hover {
+    color: #2271b1;
+}
+
+.bcco-series-name i {
+    margin-right: 4px;
+    font-size: 12px;
+    color: #666;
+}
+
+.bcco-progress {
+    color: #888;
+    font-size: 11px;
+    margin: 0 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.bcco-post-list {
+    margin: 0 0 0 18px;
+    padding: 0;
+    list-style: decimal;
+}
+
+.bcco-post-item {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.bcco-post-item.bcco-current {
+    font-weight: 700;
+    list-style: none;
+    margin-left: -18px;
+}
+
+.bcco-post-item a {
+    text-decoration: none;
+    color: #555;
+}
+
+.bcco-post-item a:hover {
+    text-decoration: underline;
+    color: #2271b1;
+}
+
+.bcco-post-item i {
+    margin-right: 4px;
+    font-size: 10px;
+    color: #999;
+}
+
+.bcco-post-item.bcco-current i {
+    color: #2271b1;
+}
+
+.bcco-post-item.bcco-current span {
+    color: #222;
+}
+
+.bcco-nav-links {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+}
+
+.bcco-nav {
+    font-size: 12px;
+}
+
+.bcco-nav a {
+    text-decoration: none;
+    color: #555;
+}
+
+.bcco-nav a:hover {
+    color: #2271b1;
+}
+
+.bcco-prev {
+    float: left;
+}
+
+.bcco-next {
+    float: right;
+}
+
+.bcco-clear {
+    clear: both;
+}

@@ -1,0 +1,46 @@
+.bc-breadcrumbs-wrap {
+  background: #f5f3ef;
+  border: 1px solid #e8e4db;
+  border-bottom: none;
+  padding-left: 10px;
+
+  .bc-breadcrumbs {
+    padding: 6px 0;
+    font-size: 0.8em;
+
+    i {
+      font-size: 0.75em;
+    }
+  }
+
+  a {
+    color: #8a7a6b;
+    text-decoration: none;
+
+    &:hover {
+      color: #4a3728;
+      text-decoration: underline;
+    }
+  }
+}
+
+.bc-breadcrumbs-sep {
+  margin: 0 4px;
+  color: #c4b8a8;
+}
+
+.bc-breadcrumbs-current {
+  color: #4a3728;
+}
+
+@include respond-tablet {
+  .bc-breadcrumbs-wrap {
+    padding-left: 15px;
+  }
+}
+
+@include respond-desktop {
+  .bc-breadcrumbs-wrap {
+    padding-left: 20px;
+  }
+}

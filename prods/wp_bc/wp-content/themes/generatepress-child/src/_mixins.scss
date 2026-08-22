@@ -1,0 +1,17 @@
+@mixin respond-tablet {
+  @media (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin respond-desktop {
+  @media (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin respond-max($px) {
+  @media (max-width: $px) {
+    @content;
+  }
+}

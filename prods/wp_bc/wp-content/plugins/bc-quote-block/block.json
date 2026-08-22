@@ -1,0 +1,40 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "bc/cita",
+	"version": "1.0.0",
+	"title": "Cita SUD",
+	"category": "widgets",
+	"icon": "format-quote",
+	"description": "Muestra una cita con autor y foto opcional.",
+	"keywords": ["cita", "quote", "sud", "autor", "author", "persona", "lds", "mormon"],
+	"attributes": {
+		"authorId": {
+			"type": "number",
+			"default": 0
+		},
+		"authorName": {
+			"type": "string",
+			"default": ""
+		},
+		"authorPhotoUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"quoteText": {
+			"type": "string",
+			"default": ""
+		},
+		"citationSource": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,0 +1,599 @@
+[
+	{
+		"name": "Palmyra (Nueva York)",
+		"lat": 43.0631,
+		"lng": -77.2342,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1820,
+		"description": "Lugar de la Primera Visión (1820) y donde José Smith recibió el disco de oro.",
+		"scriptures": [
+			{
+				"ref": "JS—H 1:5–20"
+			}
+		]
+	},
+	{
+		"name": "Manchester (Nueva York)",
+		"lat": 42.9794,
+		"lng": -77.229,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1820,
+		"description": "Colina Cumorah, donde se encontraban enterrados los anales.",
+		"scriptures": [
+			{
+				"ref": "JS—H 1:51–54"
+			}
+		]
+	},
+	{
+		"name": "Kirtland (Ohio)",
+		"lat": 41.6195,
+		"lng": -81.361,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1831,
+		"dateTo": 1838,
+		"description": "Sede temprana de la Iglesia. Se construyó el primer templo (1836).",
+		"scriptures": [
+			{
+				"ref": "DyC 109–110"
+			}
+		]
+	},
+	{
+		"name": "Independence (Misuri)",
+		"lat": 39.0926,
+		"lng": -94.415,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1831,
+		"description": "Lugar señalado para la Ciudad de Sión y el Templo.",
+		"scriptures": [
+			{
+				"ref": "DyC 57:1–5"
+			}
+		]
+	},
+	{
+		"name": "Sión (Condado de Jackson)",
+		"lat": 39,
+		"lng": -94.4,
+		"type": "region",
+		"icon": "pin",
+		"dateFrom": 1831,
+		"description": "Tierra de Sión, el lugar de reunión.",
+		"scriptures": [
+			{
+				"ref": "DyC 57"
+			}
+		]
+	},
+	{
+		"name": "Liberty (Misuri)",
+		"lat": 39.2461,
+		"lng": -94.419,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1833,
+		"dateTo": 1839,
+		"description": "Cárcel de Liberty donde José Smith recibió la sección 121 de DyC.",
+		"scriptures": [
+			{
+				"ref": "DyC 121–123"
+			}
+		]
+	},
+	{
+		"name": "Far West (Misuri)",
+		"lat": 39.7758,
+		"lng": -94.03,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1836,
+		"dateTo": 1839,
+		"description": "Centro de la Iglesia en Misuri. Se señaló el lugar para un templo.",
+		"scriptures": [
+			{
+				"ref": "DyC 115:7"
+			}
+		]
+	},
+	{
+		"name": "Adam-ondi-Ahmán (Misuri)",
+		"lat": 39.885,
+		"lng": -93.975,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1838,
+		"description": "Lugar donde Adán bendijo a su posteridad. Futura sede de Sión.",
+		"scriptures": [
+			{
+				"ref": "DyC 107:53–56"
+			}
+		]
+	},
+	{
+		"name": "Nauvoo (Illinois)",
+		"lat": 40.5499,
+		"lng": -91.3926,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1839,
+		"dateTo": 1846,
+		"description": "Ciudad de los Santos en el río Mississippi. Templo de Nauvoo.",
+		"scriptures": [
+			{
+				"ref": "DyC 124"
+			}
+		]
+	},
+	{
+		"name": "Templo de Nauvoo",
+		"lat": 40.5505,
+		"lng": -91.392,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1841,
+		"dateTo": 1846,
+		"description": "Templo construido por los Santos en Nauvoo, dedicado en 1846."
+	},
+	{
+		"name": "Commerce (Illinois)",
+		"lat": 40.5499,
+		"lng": -91.3926,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1839,
+		"description": "Nombre original de Nauvoo. Comprado por los Santos en 1839.",
+		"scriptures": [
+			{
+				"ref": "DyC 124:60"
+			}
+		]
+	},
+	{
+		"name": "Cárcel de Carthage",
+		"lat": 40.4137,
+		"lng": -91.1343,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1844,
+		"dateTo": 1844,
+		"description": "Lugar del martirio de José y Hyrum Smith (27 de junio de 1844).",
+		"scriptures": [
+			{
+				"ref": "DyC 135"
+			}
+		]
+	},
+	{
+		"name": "Salt Lake City (Utah)",
+		"lat": 40.7608,
+		"lng": -111.891,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1847,
+		"description": "Lugar de llegada de los pioneros mormones (24 de julio de 1847). Sede actual de la Iglesia.",
+		"scriptures": [
+			{
+				"ref": "DyC 136"
+			}
+		]
+	},
+	{
+		"name": "Templo de Salt Lake",
+		"lat": 40.7702,
+		"lng": -111.8917,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1853,
+		"dateTo": 1893,
+		"description": "Templo principal de la Iglesia, dedicado en 1893."
+	},
+	{
+		"name": "Colina Cumorah",
+		"lat": 43.021,
+		"lng": -77.228,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1823,
+		"description": "Colina donde José Smith recibió el disco de oro de manos de Moroni.",
+		"scriptures": [
+			{
+				"ref": "JS—H 1:51–54"
+			}
+		]
+	},
+	{
+		"name": "Río Missouri",
+		"lat": 41,
+		"lng": -95.9,
+		"type": "river",
+		"icon": "default",
+		"description": "Río fronterizo entre el oeste de Misuri y el este de Nebraska. Cruce de pioneros.",
+		"scriptures": [
+			{
+				"ref": "DyC 61"
+			}
+		]
+	},
+	{
+		"name": "Winter Quarters (Nebraska)",
+		"lat": 41.3317,
+		"lng": -95.96,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"dateTo": 1848,
+		"description": "Campamento temporal de los Santos al oeste del río Missouri, en ruta a Utah.",
+		"scriptures": [
+			{
+				"ref": "DyC 136"
+			}
+		]
+	},
+	{
+		"name": "Council Bluffs (Iowa)",
+		"lat": 41.2565,
+		"lng": -95.86,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"description": "Punto de reunión de los pioneros mormones antes de cruzar el río Missouri."
+	},
+	{
+		"name": "Fayette (Nueva York)",
+		"lat": 42.5542,
+		"lng": -76.8211,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1830,
+		"description": "Lugar de la organización de la Iglesia (6 de abril de 1830).",
+		"scriptures": [
+			{
+				"ref": "DyC 21"
+			}
+		]
+	},
+	{
+		"name": "Harmony (Pensilvania)",
+		"lat": 41.7867,
+		"lng": -75.4496,
+		"type": "settlement",
+		"icon": "temple",
+		"dateFrom": 1827,
+		"dateTo": 1830,
+		"description": "Lugar donde José Smith tradujo la mayor parte del Libro de Mormón y recibió varias revelaciones de DyC.",
+		"scriptures": [
+			{
+				"ref": "DyC 3–6"
+			}
+		]
+	},
+	{
+		"name": "Peter Whitmer Sr. (Fayette)",
+		"lat": 42.5542,
+		"lng": -76.8211,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1830,
+		"description": "Casa de Peter Whitmer Sr., donde se organizó la Iglesia el 6 de abril de 1830.",
+		"scriptures": [
+			{
+				"ref": "DyC 20"
+			}
+		]
+	},
+	{
+		"name": "Sitio del Templo de Independence",
+		"lat": 39.0926,
+		"lng": -94.415,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1831,
+		"description": "Terreno señalado por revelación para la construcción del Templo de Sión.",
+		"scriptures": [
+			{
+				"ref": "DyC 57:1–3"
+			}
+		]
+	},
+	{
+		"name": "Ramah (Misuri)",
+		"lat": 39.885,
+		"lng": -93.975,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1838,
+		"description": "Nombre alternativo de Adam-ondi-Ahmán.",
+		"scriptures": [
+			{
+				"ref": "DyC 116"
+			}
+		]
+	},
+	{
+		"name": "Río Sidón",
+		"lat": 31.5,
+		"lng": 35.6,
+		"type": "river",
+		"icon": "default",
+		"description": "Río mencionado en el Libro de Mormón como límite de tierras.",
+		"scriptures": [
+			{
+				"ref": "Alma 22:27"
+			}
+		]
+	},
+	{
+		"name": "Jerusalén",
+		"lat": 31.7683,
+		"lng": 35.2137,
+		"type": "city",
+		"icon": "pin",
+		"description": "Ciudad santa. Lugar del templo de Salomón, ministerio de Jesús y sitio de la crucifixión.",
+		"scriptures": [
+			{
+				"ref": "Varios"
+			}
+		]
+	},
+	{
+		"name": "Templo de Palmyra (Nueva York)",
+		"lat": 43.042,
+		"lng": -77.235,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 2000,
+		"description": "Templo SUD construido cerca del lugar de la Primera Visión."
+	},
+	{
+		"name": "Templo de Washington D.C.",
+		"lat": 39.0148,
+		"lng": -77.0682,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1974,
+		"description": "Templo emblemático de la Iglesia, dedicado en 1974."
+	},
+	{
+		"name": "Templo de São Paulo (Brasil)",
+		"lat": -23.5505,
+		"lng": -46.6333,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1978,
+		"description": "Primer templo SUD en Sudamérica, dedicado en 1978."
+	},
+	{
+		"name": "Monte Pisga (Iowa)",
+		"lat": 40.9383,
+		"lng": -93.6863,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"dateTo": 1852,
+		"description": "Campamento de pioneros mormones en ruta a Utah. Lugar de muchas muertes."
+	},
+	{
+		"name": "Garden Grove (Iowa)",
+		"lat": 40.8247,
+		"lng": -93.6041,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1846,
+		"description": "Campamento de pioneros mormones, primer asentamiento organizado en Iowa."
+	},
+	{
+		"name": "Martin's Cove (Wyoming)",
+		"lat": 42.5075,
+		"lng": -107.5467,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1856,
+		"description": "Lugar donde la compañía de handcarts Martin quedó atrapada por la nieve.",
+		"scriptures": [
+			{
+				"ref": "DyC 138"
+			}
+		]
+	},
+	{
+		"name": "Sweetwater Crossing (Wyoming)",
+		"lat": 42.5058,
+		"lng": -107.5334,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1856,
+		"description": "Cruce del río Sweetwater donde los jóvenes socorrieron a los pioneros."
+	},
+	{
+		"name": "Rock Creek Hollow (Wyoming)",
+		"lat": 41.7964,
+		"lng": -107.6302,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1856,
+		"description": "Lugar donde 13 pioneros de la compañía Martin fallecieron en una noche."
+	},
+	{
+		"name": "Fort Laramie (Wyoming)",
+		"lat": 42.2115,
+		"lng": -104.5376,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1847,
+		"description": "Fuerte histórico en la ruta de los pioneros mormones hacia Utah."
+	},
+	{
+		"name": "Independence Rock (Wyoming)",
+		"lat": 42.4925,
+		"lng": -107.1286,
+		"type": "landmark",
+		"icon": "default",
+		"description": "Hito en la ruta de los pioneros, llamado 'la Roca de la Independencia'."
+	},
+	{
+		"name": "Puerta del Diablo (Utah)",
+		"lat": 40.9833,
+		"lng": -111.892,
+		"type": "landmark",
+		"icon": "default",
+		"dateFrom": 1847,
+		"description": "Entrada al cañón que lleva al Valle del Lago Salado, avistada por los pioneros."
+	},
+	{
+		"name": "Cañón de Emigration (Utah)",
+		"lat": 40.7622,
+		"lng": -111.8378,
+		"type": "landmark",
+		"icon": "default",
+		"dateFrom": 1847,
+		"description": "Cañón por donde los pioneros mormones entraron al Valle del Lago Salado."
+	},
+	{
+		"name": "This Is the Place Monument",
+		"lat": 40.7541,
+		"lng": -111.8409,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1847,
+		"description": "Monumento que conmemora la entrada de Brigham Young al Valle del Lago Salado."
+	},
+	{
+		"name": "Cove Fort (Utah)",
+		"lat": 38.6144,
+		"lng": -112.5594,
+		"type": "settlement",
+		"icon": "pin",
+		"dateFrom": 1867,
+		"description": "Fuerte histórico construido por la Iglesia como refugio y estación de paso."
+	},
+	{
+		"name": "Templo de St. George (Utah)",
+		"lat": 37.1039,
+		"lng": -113.5775,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1877,
+		"description": "Primer templo SUD completado en Utah, dedicado en 1877."
+	},
+	{
+		"name": "Templo de Manti (Utah)",
+		"lat": 39.2683,
+		"lng": -111.6347,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1888,
+		"description": "Templo SUD histórico, dedicado en 1888."
+	},
+	{
+		"name": "Templo de Logan (Utah)",
+		"lat": 41.731,
+		"lng": -111.8356,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1884,
+		"description": "Templo SUD histórico en el norte de Utah, dedicado en 1884."
+	},
+	{
+		"name": "Templo de Kirtland",
+		"lat": 41.6223,
+		"lng": -81.3616,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1836,
+		"description": "Primer templo SUD, dedicado en 1836 con manifestaciones espirituales."
+	},
+	{
+		"name": "Sitio Histórico de Kirtland",
+		"lat": 41.619,
+		"lng": -81.361,
+		"type": "landmark",
+		"icon": "pin",
+		"dateFrom": 1831,
+		"description": "Centro de visitantes y edificios históricos restaurados de la época de Kirtland."
+	},
+	{
+		"name": "Gran Lago Salado (Utah)",
+		"lat": 41,
+		"lng": -112.5,
+		"type": "sea",
+		"icon": "default",
+		"description": "Gran lago de agua salada junto al cual se asienta Salt Lake City."
+	},
+	{
+		"name": "Templo de Los Ángeles (California)",
+		"lat": 34.054,
+		"lng": -118.395,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1956,
+		"description": "Templo SUD emblemático, dedicado en 1956."
+	},
+	{
+		"name": "Templo de México",
+		"lat": 19.4326,
+		"lng": -99.1332,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en la Ciudad de México, dedicado en 1983."
+	},
+	{
+		"name": "Templo de Santiago (Chile)",
+		"lat": -33.4489,
+		"lng": -70.6693,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en Chile, dedicado en 1983."
+	},
+	{
+		"name": "Templo de Apia (Samoa)",
+		"lat": -13.8333,
+		"lng": -171.75,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en las islas del Pacífico."
+	},
+	{
+		"name": "Templo de Nuku'alofa (Tonga)",
+		"lat": -21.1333,
+		"lng": -175.2,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1983,
+		"description": "Templo SUD en Tonga."
+	},
+	{
+		"name": "Templo de Berna (Suiza)",
+		"lat": 46.948,
+		"lng": 7.4474,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1955,
+		"description": "Primer templo SUD en Europa, dedicado en 1955."
+	},
+	{
+		"name": "Templo de Londres (Inglaterra)",
+		"lat": 51.1686,
+		"lng": -0.5232,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1958,
+		"description": "Templo SUD en el Reino Unido, dedicado en 1958."
+	},
+	{
+		"name": "Templo de Hamilton (Nueva Zelanda)",
+		"lat": -37.787,
+		"lng": 175.28,
+		"type": "landmark",
+		"icon": "temple",
+		"dateFrom": 1958,
+		"description": "Templo SUD en Nueva Zelanda, dedicado en 1958."
+	}
+]

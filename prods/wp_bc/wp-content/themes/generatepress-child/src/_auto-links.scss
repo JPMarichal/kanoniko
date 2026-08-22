@@ -1,0 +1,25 @@
+.entry-content a.bc-glossary-link {
+  color: #4a3728;
+  text-decoration: none;
+  border-bottom: 1px dashed #c4b8a8;
+  transition: border-color 0.2s, color 0.2s;
+
+  &:hover {
+    color: #2d5a27;
+    border-bottom-color: #2d5a27;
+  }
+
+  &::before {
+    content: '\f02d';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 0.75em;
+    margin-right: 2px;
+    color: #c4b8a8;
+    transition: color 0.2s;
+  }
+
+  &:hover::before {
+    color: #2d5a27;
+  }
+}

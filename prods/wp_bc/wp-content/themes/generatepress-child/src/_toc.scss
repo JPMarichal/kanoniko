@@ -1,0 +1,60 @@
+.bc-toc {
+  background: #f9fbf7;
+  border: 1px solid lighten($heading-green-base, 50%);
+  border-radius: 6px;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+
+  .bc-toc-title {
+    font-family: $font-family-headings;
+    font-weight: 700;
+    font-size: 0.82em;
+    color: #fff;
+    background: $heading-green-base;
+    margin: 0;
+    padding: 0.5em 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .bc-toc-nav {
+    padding: 0.6em 1.8em 0.8em;
+  }
+
+  .bc-toc-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    position: relative;
+    margin: 0;
+    padding: 0.2em 0 0.2em 1.2em;
+    font-size: 0.9em;
+    line-height: 1.5;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 6px;
+      height: 6px;
+      background: $heading-green-h3;
+      border-radius: 50%;
+    }
+  }
+
+  a {
+    color: $heading-green-h3;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+
+    &:hover {
+      color: $heading-green-base;
+      border-bottom-color: $heading-green-base;
+    }
+  }
+}
