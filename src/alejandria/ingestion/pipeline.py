@@ -82,14 +82,14 @@ class IndexingProgress:
     last_stats: IndexingStats | None = None
     error_message: str | None = None
     # Per-phase tracking
-    phase: int = 0            # 1=parse+FTS, 2=embeddings, 3=vectors+KG, 0=idle/done
+    phase: int = 0  # 1=parse+FTS, 2=embeddings, 3=vectors+KG, 0=idle/done
     phase_start_time: float = 0.0
-    phase_2_chunks: int = 0   # total chunks to encode (set at phase 2 start)
-    phase_3_total: int = 0    # total files for phase 3
-    phase_3_done: int = 0     # files completed in phase 3
+    phase_2_chunks: int = 0  # total chunks to encode (set at phase 2 start)
+    phase_3_total: int = 0  # total files for phase 3
+    phase_3_done: int = 0  # files completed in phase 3
     # Phase 3 chunk-weighted ETA — chunk count is proportional to actual work
-    phase_3_chunks_total: int = 0   # total chunks across all phase-3 files (known after phase 1)
-    phase_3_chunks_done: int = 0    # chunks from completed phase-3 files
+    phase_3_chunks_total: int = 0  # total chunks across all phase-3 files (known after phase 1)
+    phase_3_chunks_done: int = 0  # chunks from completed phase-3 files
     # Rolling window: deque of (timestamp, chunks_done) at each file completion (last 100)
     _phase_3_window: deque = field(default_factory=lambda: deque(maxlen=100), repr=False)
 
@@ -218,7 +218,14 @@ class IngestionPipeline:
     # Sources to preserve in the KG during full reindex
     PRESERVED_KG_SOURCES = ["topical_guide"]
 
-    def ingest_paths(self, paths: list[str], *, force: bool = False, skip_kg: bool = False, kg_flush_interval: int = 15) -> IndexingStats:
+    def ingest_paths(
+        self,
+        paths: list[str],
+        *,
+        force: bool = False,
+        skip_kg: bool = False,
+        kg_flush_interval: int = 15,
+    ) -> IndexingStats:
         """Index specific corpus paths (files or directories) without scanning the full corpus.
 
         Args:
@@ -234,11 +241,20 @@ class IngestionPipeline:
             raise RuntimeError("Indexing already in progress")
 
         try:
-            return self._ingest_paths_impl(paths, force=force, skip_kg=skip_kg, kg_flush_interval=kg_flush_interval)
+            return self._ingest_paths_impl(
+                paths, force=force, skip_kg=skip_kg, kg_flush_interval=kg_flush_interval
+            )
         finally:
             self._index_lock.release()
 
-    def _ingest_paths_impl(self, paths: list[str], *, force: bool = False, skip_kg: bool = False, kg_flush_interval: int = 15) -> IndexingStats:
+    def _ingest_paths_impl(
+        self,
+        paths: list[str],
+        *,
+        force: bool = False,
+        skip_kg: bool = False,
+        kg_flush_interval: int = 15,
+    ) -> IndexingStats:
         """Internal implementation for targeted path ingestion."""
         stats = IndexingStats()
         self.progress = IndexingProgress(running=True, start_time=time.time())
@@ -249,7 +265,11 @@ class IngestionPipeline:
             disk_files: dict[str, Path] = {}
             for p in paths:
                 abs_p = corpus_path / p.replace("\\", "/")
-                if abs_p.is_file() and abs_p.suffix in settings.supported_extensions and not abs_p.name.endswith(".meta.json"):
+                if (
+                    abs_p.is_file()
+                    and abs_p.suffix in settings.supported_extensions
+                    and not abs_p.name.endswith(".meta.json")
+                ):
                     rel = str(abs_p.relative_to(corpus_path))
                     if not _should_skip_indexing(rel):
                         disk_files[rel] = abs_p
@@ -274,7 +294,12 @@ class IngestionPipeline:
                 current_hash = compute_hash(abs_path)
                 record = registry_records.get(rel_path)
 
-                if not force and record is not None and record.sha256 == current_hash and record.status == "indexed":
+                if (
+                    not force
+                    and record is not None
+                    and record.sha256 == current_hash
+                    and record.status == "indexed"
+                ):
                     continue
 
                 is_update = record is not None
@@ -283,7 +308,9 @@ class IngestionPipeline:
             self.progress.files_total = len(to_process)
             logger.info(
                 "Targeted ingest: %d files to process (%d resolved, %d unchanged)",
-                len(to_process), len(disk_files), len(disk_files) - len(to_process),
+                len(to_process),
+                len(disk_files),
+                len(disk_files) - len(to_process),
             )
 
             # 3-phase pipeline (same as _run_impl)
@@ -305,8 +332,12 @@ class IngestionPipeline:
                 max_workers=n_workers, thread_name_prefix="parse"
             ) as executor:
                 future_to_file = {
-                    executor.submit(self._parse_file_cpu, rel_path, abs_path, current_hash):
-                    (rel_path, abs_path, current_hash, is_update)
+                    executor.submit(self._parse_file_cpu, rel_path, abs_path, current_hash): (
+                        rel_path,
+                        abs_path,
+                        current_hash,
+                        is_update,
+                    )
                     for rel_path, abs_path, current_hash, is_update in to_process
                 }
                 for i, future in enumerate(concurrent.futures.as_completed(future_to_file)):
@@ -319,8 +350,11 @@ class IngestionPipeline:
                         logger.exception("Error parsing %s", rel_path)
                         errored.add(rel_path)
                         self._registry.upsert(
-                            file_path=rel_path, sha256=current_hash,
-                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                            file_path=rel_path,
+                            sha256=current_hash,
+                            file_size=abs_path.stat().st_size,
+                            chunk_count=0,
+                            status="error",
                         )
                         stats.errors += 1
 
@@ -332,8 +366,11 @@ class IngestionPipeline:
                 fd = parse_map.get(rel_path)
                 if fd is None:
                     self._registry.upsert(
-                        file_path=rel_path, sha256=current_hash,
-                        file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                        file_path=rel_path,
+                        sha256=current_hash,
+                        file_size=abs_path.stat().st_size,
+                        chunk_count=0,
+                        status="indexed",
                     )
                     if is_update:
                         stats.updated_files += 1
@@ -351,8 +388,11 @@ class IngestionPipeline:
                 except Exception:
                     logger.exception("Error inserting FTS for %s", rel_path)
                     self._registry.upsert(
-                        file_path=rel_path, sha256=current_hash,
-                        file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                        file_path=rel_path,
+                        sha256=current_hash,
+                        file_size=abs_path.stat().st_size,
+                        chunk_count=0,
+                        status="error",
                     )
                     stats.errors += 1
 
@@ -368,7 +408,7 @@ class IngestionPipeline:
                 offset = 0
                 for fd in file_data_list:
                     n = len(fd.chunks)
-                    fd.vectors = all_vectors[offset:offset + n]
+                    fd.vectors = all_vectors[offset : offset + n]
                     offset += n
 
             # Phase 3 (I/O): Postgres vectors + KG extraction
@@ -381,8 +421,12 @@ class IngestionPipeline:
             self.progress._phase_3_window.clear()
 
             # Cross-file KG accumulators with async small-batch flush
-            KG_FLUSH_INTERVAL = kg_flush_interval  # configurable: 15 for normal, 2-3 for entity-dense (ISBE)
-            KG_CHUNK_FLUSH_THRESHOLD = 500  # flush when accumulated chunks exceed this, even mid-file
+            KG_FLUSH_INTERVAL = (
+                kg_flush_interval  # configurable: 15 for normal, 2-3 for entity-dense (ISBE)
+            )
+            KG_CHUNK_FLUSH_THRESHOLD = (
+                500  # flush when accumulated chunks exceed this, even mid-file
+            )
             kg_accumulated_chunks = 0
             kg_ents: list[dict] = []
             kg_lnks: list[dict] = []
@@ -397,8 +441,11 @@ class IngestionPipeline:
             _flush_error: Exception | None = None
 
             def _do_flush(
-                del_paths: list[str], docs: list[dict],
-                ents: list[dict], lnks: list[dict], rels: list[dict],
+                del_paths: list[str],
+                docs: list[dict],
+                ents: list[dict],
+                lnks: list[dict],
+                rels: list[dict],
                 n_files: int,
             ):
                 """KG batch write in background thread."""
@@ -415,7 +462,10 @@ class IngestionPipeline:
                         )
                         logger.info(
                             "KG flush: %d files, %d entities, %d links, %d relations",
-                            n_files, len(ents), len(lnks), len(rels),
+                            n_files,
+                            len(ents),
+                            len(lnks),
+                            len(rels),
                         )
                 except Exception as exc:
                     logger.exception("KG flush failed")
@@ -458,7 +508,8 @@ class IngestionPipeline:
                 _flush_thread = threading.Thread(
                     target=_do_flush,
                     args=(flush_del, flush_docs, flush_ents, flush_lnks, flush_rels, flush_n),
-                    daemon=True, name="kg-flush",
+                    daemon=True,
+                    name="kg-flush",
                 )
                 _flush_thread.start()
 
@@ -467,13 +518,23 @@ class IngestionPipeline:
                 n_chunks = len(fd.chunks)
 
                 # For large files, process NER in sub-batches to limit memory
-                if n_chunks > KG_CHUNK_FLUSH_THRESHOLD and not skip_kg and self._kg_writer is not None and self._kg_extractor:
+                if (
+                    n_chunks > KG_CHUNK_FLUSH_THRESHOLD
+                    and not skip_kg
+                    and self._kg_writer is not None
+                    and self._kg_extractor
+                ):
                     try:
                         self._index_file_data_chunked(
-                            fd, chunk_batch_size=KG_CHUNK_FLUSH_THRESHOLD,
-                            kg_ents=kg_ents, kg_lnks=kg_lnks, kg_rels=kg_rels,
-                            kg_docs=kg_docs, kg_delete_paths=kg_delete_paths,
-                            kg_seen_ents=kg_seen_ents, kg_seen_lnks=kg_seen_lnks,
+                            fd,
+                            chunk_batch_size=KG_CHUNK_FLUSH_THRESHOLD,
+                            kg_ents=kg_ents,
+                            kg_lnks=kg_lnks,
+                            kg_rels=kg_rels,
+                            kg_docs=kg_docs,
+                            kg_delete_paths=kg_delete_paths,
+                            kg_seen_ents=kg_seen_ents,
+                            kg_seen_lnks=kg_seen_lnks,
                             kg_seen_rels=kg_seen_rels,
                             flush_callback=_flush_kg,
                         )
@@ -484,10 +545,15 @@ class IngestionPipeline:
                 else:
                     try:
                         self._index_file_data(
-                            fd, skip_kg=skip_kg,
-                            kg_ents=kg_ents, kg_lnks=kg_lnks, kg_rels=kg_rels,
-                            kg_docs=kg_docs, kg_delete_paths=kg_delete_paths,
-                            kg_seen_ents=kg_seen_ents, kg_seen_lnks=kg_seen_lnks,
+                            fd,
+                            skip_kg=skip_kg,
+                            kg_ents=kg_ents,
+                            kg_lnks=kg_lnks,
+                            kg_rels=kg_rels,
+                            kg_docs=kg_docs,
+                            kg_delete_paths=kg_delete_paths,
+                            kg_seen_ents=kg_seen_ents,
+                            kg_seen_lnks=kg_seen_lnks,
                             kg_seen_rels=kg_seen_rels,
                         )
                         kg_file_count += 1
@@ -503,7 +569,10 @@ class IngestionPipeline:
                 )
 
                 # Periodic async flush to the KG — by file count OR chunk count
-                if kg_file_count >= KG_FLUSH_INTERVAL or kg_accumulated_chunks >= KG_CHUNK_FLUSH_THRESHOLD:
+                if (
+                    kg_file_count >= KG_FLUSH_INTERVAL
+                    or kg_accumulated_chunks >= KG_CHUNK_FLUSH_THRESHOLD
+                ):
                     _flush_kg()
 
             # Final flush (blocking — must complete before returning)
@@ -519,8 +588,12 @@ class IngestionPipeline:
 
             logger.info(
                 "Targeted ingest complete: new=%d updated=%d errors=%d chunks=%d in %.1fs%s",
-                stats.new_files, stats.updated_files, stats.errors, stats.total_chunks,
-                self.progress.elapsed, " (skip_kg)" if skip_kg else "",
+                stats.new_files,
+                stats.updated_files,
+                stats.errors,
+                stats.total_chunks,
+                self.progress.elapsed,
+                " (skip_kg)" if skip_kg else "",
             )
             return stats
 
@@ -566,6 +639,7 @@ class IngestionPipeline:
             # Pre-index backup (Postgres snapshot)
             try:
                 from alejandria.backup import pre_index_backup
+
                 backup_result = pre_index_backup()
                 logger.info("Pre-index backup: %s", backup_result)
             except Exception:
@@ -621,7 +695,8 @@ class IngestionPipeline:
             self.progress.files_total = len(to_process)
             logger.info(
                 "Indexing: %d files to process (%d on disk, %d unchanged)",
-                len(to_process), len(disk_files),
+                len(to_process),
+                len(disk_files),
                 len(disk_files) - len(to_process),
             )
 
@@ -638,12 +713,14 @@ class IngestionPipeline:
                 try:
                     from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
                     from alejandria.knowledge.extractor import _RELATIONS_PATH
+
                     if _RELATIONS_PATH.exists():
                         counts = CuratedSeedLoader(self._kg_writer).load(_RELATIONS_PATH)
                         total_curated = sum(counts.values())
                         logger.info(
                             "Loaded %d curated relations across %d types",
-                            total_curated, len([c for c in counts.values() if c > 0]),
+                            total_curated,
+                            len([c for c in counts.values() if c > 0]),
                         )
                 except Exception:
                     logger.warning("Failed to load curated relations", exc_info=True)
@@ -654,7 +731,8 @@ class IngestionPipeline:
             self.progress.phase_start_time = time.time()
             logger.info(
                 "Phase 1/3: Parsing %d files (parallel, %d workers) + FTS indexing...",
-                len(to_process), n_workers,
+                len(to_process),
+                n_workers,
             )
             file_data_list: list[_FileData] = []
 
@@ -672,8 +750,12 @@ class IngestionPipeline:
                 max_workers=n_workers, thread_name_prefix="parse"
             ) as executor:
                 future_to_file = {
-                    executor.submit(self._parse_file_cpu, rel_path, abs_path, current_hash):
-                    (rel_path, abs_path, current_hash, is_update)
+                    executor.submit(self._parse_file_cpu, rel_path, abs_path, current_hash): (
+                        rel_path,
+                        abs_path,
+                        current_hash,
+                        is_update,
+                    )
                     for rel_path, abs_path, current_hash, is_update in to_process
                 }
                 for i, future in enumerate(concurrent.futures.as_completed(future_to_file)):
@@ -686,8 +768,11 @@ class IngestionPipeline:
                         logger.exception("Error parsing %s", rel_path)
                         errored.add(rel_path)
                         self._registry.upsert(
-                            file_path=rel_path, sha256=current_hash,
-                            file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                            file_path=rel_path,
+                            sha256=current_hash,
+                            file_size=abs_path.stat().st_size,
+                            chunk_count=0,
+                            status="error",
                         )
                         stats.errors += 1
 
@@ -699,8 +784,11 @@ class IngestionPipeline:
                 if fd is None:
                     # Empty file — register with 0 chunks
                     self._registry.upsert(
-                        file_path=rel_path, sha256=current_hash,
-                        file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                        file_path=rel_path,
+                        sha256=current_hash,
+                        file_size=abs_path.stat().st_size,
+                        chunk_count=0,
+                        status="indexed",
                     )
                     if is_update:
                         stats.updated_files += 1
@@ -718,15 +806,20 @@ class IngestionPipeline:
                 except Exception:
                     logger.exception("Error inserting FTS for %s", rel_path)
                     self._registry.upsert(
-                        file_path=rel_path, sha256=current_hash,
-                        file_size=abs_path.stat().st_size, chunk_count=0, status="error",
+                        file_path=rel_path,
+                        sha256=current_hash,
+                        file_size=abs_path.stat().st_size,
+                        chunk_count=0,
+                        status="error",
                     )
                     stats.errors += 1
 
             total_chunks = sum(len(fd.chunks) for fd in file_data_list)
             logger.info(
                 "Phase 1 done: %d files parsed, %d total chunks in %.1fs",
-                len(file_data_list), total_chunks, self.progress.elapsed,
+                len(file_data_list),
+                total_chunks,
+                self.progress.elapsed,
             )
 
             # ── Phase 2 (GPU): Batch-encode all chunks at once ──
@@ -745,10 +838,12 @@ class IngestionPipeline:
                 offset = 0
                 for fd in file_data_list:
                     n = len(fd.chunks)
-                    fd.vectors = all_vectors[offset:offset + n]
+                    fd.vectors = all_vectors[offset : offset + n]
                     offset += n
 
-                logger.info("Phase 2 done: %d vectors encoded in %.1fs", total_chunks, self.progress.elapsed)
+                logger.info(
+                    "Phase 2 done: %d vectors encoded in %.1fs", total_chunks, self.progress.elapsed
+                )
             else:
                 logger.info("Phase 2/3: Skipped (semantic search not available)")
 
@@ -781,21 +876,29 @@ class IngestionPipeline:
                 if (i + 1) % 100 == 0:
                     logger.info(
                         "Phase 3 progress: %d/%d files (%.1f%%)",
-                        i + 1, len(file_data_list), (i + 1) / len(file_data_list) * 100,
+                        i + 1,
+                        len(file_data_list),
+                        (i + 1) / len(file_data_list) * 100,
                     )
 
             self.progress.files_processed = len(to_process)
 
             # Mark profiles stale if corpus changed
-            if (stats.new_files or stats.updated_files or stats.deleted_files) and self._profile_store:
+            if (
+                stats.new_files or stats.updated_files or stats.deleted_files
+            ) and self._profile_store:
                 staled = self._profile_store.mark_all_stale()
                 if staled:
                     logger.info("Marked %d entity profiles as stale after corpus change", staled)
 
             logger.info(
                 "Indexing complete: new=%d updated=%d deleted=%d errors=%d chunks=%d in %.1fs",
-                stats.new_files, stats.updated_files, stats.deleted_files,
-                stats.errors, stats.total_chunks, self.progress.elapsed,
+                stats.new_files,
+                stats.updated_files,
+                stats.deleted_files,
+                stats.errors,
+                stats.total_chunks,
+                self.progress.elapsed,
             )
             return stats
 
@@ -827,8 +930,10 @@ class IngestionPipeline:
             chunks = chunk_text(text, settings.chunk_size, settings.chunk_overlap)
 
         chunk_references: list[str | None] = [
-            build_chunk_reference(rel_path, chunk.text, text) if scripture_file
-            else chunk.reference if handbook_file
+            build_chunk_reference(rel_path, chunk.text, text)
+            if scripture_file
+            else chunk.reference
+            if handbook_file
             else None
             for chunk in chunks
         ]
@@ -842,7 +947,13 @@ class IngestionPipeline:
             base_meta["lang"] = lang
         if scripture_file:
             smeta = build_scripture_metadata(rel_path, chunks[0].text if chunks else "", text)
-            base_meta.update({k: v for k, v in smeta.items() if k not in ("reference", "verse_start", "verse_end")})
+            base_meta.update(
+                {
+                    k: v
+                    for k, v in smeta.items()
+                    if k not in ("reference", "verse_start", "verse_end")
+                }
+            )
         if conference_talk:
             base_meta["author"] = conference_talk.author
             base_meta["title"] = conference_talk.title
@@ -857,9 +968,16 @@ class IngestionPipeline:
         file_meta_json = _load_meta_json(rel_path, settings.corpus_path)
 
         return _FileData(
-            rel_path=rel_path, abs_path=abs_path, file_hash=file_hash,
-            source=source, lang=lang, chunks=chunks, chunk_ids=[],
-            chunk_references=chunk_references, auth_meta=auth_meta, full_text=text,
+            rel_path=rel_path,
+            abs_path=abs_path,
+            file_hash=file_hash,
+            source=source,
+            lang=lang,
+            chunks=chunks,
+            chunk_ids=[],
+            chunk_references=chunk_references,
+            auth_meta=auth_meta,
+            full_text=text,
             metadata_str=json.dumps(base_meta),
             conference_talk=conference_talk,
             meta_json=file_meta_json or None,
@@ -900,8 +1018,11 @@ class IngestionPipeline:
         fd = self._parse_file_cpu(rel_path, abs_path, file_hash)
         if fd is None:
             self._registry.upsert(
-                file_path=rel_path, sha256=file_hash,
-                file_size=abs_path.stat().st_size, chunk_count=0, status="indexed",
+                file_path=rel_path,
+                sha256=file_hash,
+                file_size=abs_path.stat().st_size,
+                chunk_count=0,
+                status="indexed",
             )
             return None
 
@@ -909,9 +1030,14 @@ class IngestionPipeline:
         return fd
 
     def _index_file_data_chunked(
-        self, fd: _FileData, *, chunk_batch_size: int = 500,
-        kg_ents: list[dict], kg_lnks: list[dict],
-        kg_rels: list[dict], kg_docs: list[dict],
+        self,
+        fd: _FileData,
+        *,
+        chunk_batch_size: int = 500,
+        kg_ents: list[dict],
+        kg_lnks: list[dict],
+        kg_rels: list[dict],
+        kg_docs: list[dict],
         kg_delete_paths: list[str],
         kg_seen_ents: set[tuple[str, str]],
         kg_seen_lnks: set[tuple[str, str, str]],
@@ -964,7 +1090,9 @@ class IngestionPipeline:
 
             ref_mode = _is_reference_work(fd.rel_path)
             extractions = self._kg_extractor.extract_batch(
-                batch_texts, source_file=fd.rel_path, reference_mode=ref_mode,
+                batch_texts,
+                source_file=fd.rel_path,
+                reference_mode=ref_mode,
             )
 
             for extraction in extractions:
@@ -976,7 +1104,11 @@ class IngestionPipeline:
                     lkey = (entity.name, entity.type, fd.rel_path)
                     if lkey not in kg_seen_lnks:
                         kg_seen_lnks.add(lkey)
-                        link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": fd.rel_path}
+                        link = {
+                            "entity_name": entity.name,
+                            "entity_type": entity.type,
+                            "file_path": fd.rel_path,
+                        }
                         if entity.name in extraction.disambiguations:
                             link["resolved_name"] = extraction.disambiguations[entity.name]
                             link["confidence"] = "high"
@@ -984,21 +1116,35 @@ class IngestionPipeline:
                             link["entity_type"] = extraction.disambiguated_types[entity.name]
                         kg_lnks.append(link)
                 for rel in extraction.relations:
-                    rkey = (rel.from_entity, rel.from_type, rel.relation, rel.to_entity, rel.to_type)
+                    rkey = (
+                        rel.from_entity,
+                        rel.from_type,
+                        rel.relation,
+                        rel.to_entity,
+                        rel.to_type,
+                    )
                     if rkey not in kg_seen_rels:
                         kg_seen_rels.add(rkey)
-                        kg_rels.append({
-                            "from_name": rel.from_entity, "from_type": rel.from_type,
-                            "rel_type": rel.relation,
-                            "to_name": rel.to_entity, "to_type": rel.to_type,
-                            "props": {},
-                        })
+                        kg_rels.append(
+                            {
+                                "from_name": rel.from_entity,
+                                "from_type": rel.from_type,
+                                "rel_type": rel.relation,
+                                "to_name": rel.to_entity,
+                                "to_type": rel.to_type,
+                                "props": {},
+                            }
+                        )
 
             # Mid-file flush: if accumulated enough data, flush to the KG
             if flush_callback and batch_end < total_chunks:
                 logger.info(
                     "Mid-file flush at chunk %d/%d of %s: %d ents, %d rels",
-                    batch_end, total_chunks, fd.rel_path, len(kg_ents), len(kg_rels),
+                    batch_end,
+                    total_chunks,
+                    fd.rel_path,
+                    len(kg_ents),
+                    len(kg_rels),
                 )
                 flush_callback()
 
@@ -1006,9 +1152,14 @@ class IngestionPipeline:
         # (ISBE files have no meta_json). If needed for other large files, add here.
 
     def _index_file_data(
-        self, fd: _FileData, *, skip_kg: bool = False,
-        kg_ents: list[dict] | None = None, kg_lnks: list[dict] | None = None,
-        kg_rels: list[dict] | None = None, kg_docs: list[dict] | None = None,
+        self,
+        fd: _FileData,
+        *,
+        skip_kg: bool = False,
+        kg_ents: list[dict] | None = None,
+        kg_lnks: list[dict] | None = None,
+        kg_rels: list[dict] | None = None,
+        kg_docs: list[dict] | None = None,
         kg_delete_paths: list[str] | None = None,
         kg_seen_ents: set[tuple[str, str]] | None = None,
         kg_seen_lnks: set[tuple[str, str, str]] | None = None,
@@ -1055,7 +1206,12 @@ class IngestionPipeline:
             )
 
         # Postgres KG extraction
-        if self._kg_writer and self._kg_extractor and not skip_kg and not _should_skip_kg_extraction(fd.rel_path):
+        if (
+            self._kg_writer
+            and self._kg_extractor
+            and not skip_kg
+            and not _should_skip_kg_extraction(fd.rel_path)
+        ):
             # Use cross-file accumulators if provided, else per-file (legacy)
             use_accumulators = kg_ents is not None
             if use_accumulators:
@@ -1069,7 +1225,9 @@ class IngestionPipeline:
                 kg_docs.append({"file_path": fd.rel_path, "source": fd.source})
             else:
                 self._kg_writer.delete_document_relations(fd.rel_path)
-                self._kg_writer.batch_merge_documents([{"file_path": fd.rel_path, "source": fd.source}])
+                self._kg_writer.batch_merge_documents(
+                    [{"file_path": fd.rel_path, "source": fd.source}]
+                )
                 batch_ents = []
                 batch_lnks = []
                 batch_rels = []
@@ -1081,7 +1239,9 @@ class IngestionPipeline:
             chunk_texts = [chunk.text for chunk in fd.chunks]
             ref_mode = _is_reference_work(fd.rel_path)
             extractions = self._kg_extractor.extract_batch(
-                chunk_texts, source_file=fd.rel_path, reference_mode=ref_mode,
+                chunk_texts,
+                source_file=fd.rel_path,
+                reference_mode=ref_mode,
             )
 
             for extraction in extractions:
@@ -1093,7 +1253,11 @@ class IngestionPipeline:
                     lkey = (entity.name, entity.type, fd.rel_path)
                     if lkey not in seen_lnks:
                         seen_lnks.add(lkey)
-                        link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": fd.rel_path}
+                        link = {
+                            "entity_name": entity.name,
+                            "entity_type": entity.type,
+                            "file_path": fd.rel_path,
+                        }
                         if entity.name in extraction.disambiguations:
                             link["resolved_name"] = extraction.disambiguations[entity.name]
                             link["confidence"] = "high"
@@ -1101,15 +1265,25 @@ class IngestionPipeline:
                             link["entity_type"] = extraction.disambiguated_types[entity.name]
                         batch_lnks.append(link)
                 for rel in extraction.relations:
-                    rkey = (rel.from_entity, rel.from_type, rel.relation, rel.to_entity, rel.to_type)
+                    rkey = (
+                        rel.from_entity,
+                        rel.from_type,
+                        rel.relation,
+                        rel.to_entity,
+                        rel.to_type,
+                    )
                     if rkey not in seen_rels:
                         seen_rels.add(rkey)
-                        batch_rels.append({
-                            "from_name": rel.from_entity, "from_type": rel.from_type,
-                            "rel_type": rel.relation,
-                            "to_name": rel.to_entity, "to_type": rel.to_type,
-                            "props": {},
-                        })
+                        batch_rels.append(
+                            {
+                                "from_name": rel.from_entity,
+                                "from_type": rel.from_type,
+                                "rel_type": rel.relation,
+                                "to_name": rel.to_entity,
+                                "to_type": rel.to_type,
+                                "props": {},
+                            }
+                        )
 
             # Conference-specific KG enrichment: DELIVERED_BY + CITES
             if fd.conference_talk:
@@ -1120,21 +1294,31 @@ class IngestionPipeline:
                     if speaker_key not in seen_ents:
                         seen_ents.add(speaker_key)
                         batch_ents.append({"name": ct.author, "type": "person", "aliases": []})
-                    batch_rels.append({
-                        "from_name": ct.title, "from_type": "talk",
-                        "rel_type": "DELIVERED_BY",
-                        "to_name": ct.author, "to_type": "person",
-                        "props": {
-                            "confidence": "metadata",
-                            **({"calling": ct.calling} if ct.calling else {}),
-                            **({"date": ct.conference_date} if ct.conference_date else {}),
-                        },
-                    })
+                    batch_rels.append(
+                        {
+                            "from_name": ct.title,
+                            "from_type": "talk",
+                            "rel_type": "DELIVERED_BY",
+                            "to_name": ct.author,
+                            "to_type": "person",
+                            "props": {
+                                "confidence": "metadata",
+                                **({"calling": ct.calling} if ct.calling else {}),
+                                **({"date": ct.conference_date} if ct.conference_date else {}),
+                            },
+                        }
+                    )
                     # Link speaker to document
                     spk_lkey = (ct.author, "person", fd.rel_path)
                     if spk_lkey not in seen_lnks:
                         seen_lnks.add(spk_lkey)
-                        batch_lnks.append({"entity_name": ct.author, "entity_type": "person", "file_path": fd.rel_path})
+                        batch_lnks.append(
+                            {
+                                "entity_name": ct.author,
+                                "entity_type": "person",
+                                "file_path": fd.rel_path,
+                            }
+                        )
 
                 # Talk entity (so DELIVERED_BY and CITES have a source node)
                 talk_key = (ct.title, "talk")
@@ -1144,7 +1328,9 @@ class IngestionPipeline:
                 talk_lkey = (ct.title, "talk", fd.rel_path)
                 if talk_lkey not in seen_lnks:
                     seen_lnks.add(talk_lkey)
-                    batch_lnks.append({"entity_name": ct.title, "entity_type": "talk", "file_path": fd.rel_path})
+                    batch_lnks.append(
+                        {"entity_name": ct.title, "entity_type": "talk", "file_path": fd.rel_path}
+                    )
 
                 # Conference event entity + talk PART_OF conference
                 if ct.conference_date:
@@ -1152,36 +1338,52 @@ class IngestionPipeline:
                     conf_key = (conf_name, "conference")
                     if conf_key not in seen_ents:
                         seen_ents.add(conf_key)
-                        batch_ents.append({"name": conf_name, "type": "conference", "aliases": [ct.conference_date]})
-                    batch_rels.append({
-                        "from_name": ct.title, "from_type": "talk",
-                        "rel_type": "PART_OF",
-                        "to_name": conf_name, "to_type": "conference",
-                        "props": {"confidence": "metadata"},
-                    })
+                        batch_ents.append(
+                            {
+                                "name": conf_name,
+                                "type": "conference",
+                                "aliases": [ct.conference_date],
+                            }
+                        )
+                    batch_rels.append(
+                        {
+                            "from_name": ct.title,
+                            "from_type": "talk",
+                            "rel_type": "PART_OF",
+                            "to_name": conf_name,
+                            "to_type": "conference",
+                            "props": {"confidence": "metadata"},
+                        }
+                    )
 
                 # CITES relations: talk → scripture_reference (with context from note)
                 for ref in ct.scripture_refs:
                     ref_key = (ref, "scripture_reference")
                     if ref_key not in seen_ents:
                         seen_ents.add(ref_key)
-                        batch_ents.append({"name": ref, "type": "scripture_reference", "aliases": []})
+                        batch_ents.append(
+                            {"name": ref, "type": "scripture_reference", "aliases": []}
+                        )
                     # Find the note text that contains this reference for context
                     note_context = ""
                     for note in ct.notes_raw:
                         if ref in note:
                             note_context = note
                             break
-                    batch_rels.append({
-                        "from_name": ct.title, "from_type": "talk",
-                        "rel_type": "CITES",
-                        "to_name": ref, "to_type": "scripture_reference",
-                        "props": {
-                            "confidence": "metadata",
-                            **({"note_context": note_context[:500]} if note_context else {}),
-                            **({"date": ct.conference_date} if ct.conference_date else {}),
-                        },
-                    })
+                    batch_rels.append(
+                        {
+                            "from_name": ct.title,
+                            "from_type": "talk",
+                            "rel_type": "CITES",
+                            "to_name": ref,
+                            "to_type": "scripture_reference",
+                            "props": {
+                                "confidence": "metadata",
+                                **({"note_context": note_context[:500]} if note_context else {}),
+                                **({"date": ct.conference_date} if ct.conference_date else {}),
+                            },
+                        }
+                    )
 
                 # Note-derived KG relations: cross-references, hymns, concepts, books
                 # Uses structured parsing (not NER) to avoid name+calling pollution
@@ -1196,11 +1398,13 @@ class IngestionPipeline:
                         lkey = (ne["name"], ne["type"], fd.rel_path)
                         if lkey not in seen_lnks:
                             seen_lnks.add(lkey)
-                            batch_lnks.append({
-                                "entity_name": ne["name"],
-                                "entity_type": ne["type"],
-                                "file_path": fd.rel_path,
-                            })
+                            batch_lnks.append(
+                                {
+                                    "entity_name": ne["name"],
+                                    "entity_type": ne["type"],
+                                    "file_path": fd.rel_path,
+                                }
+                            )
                     batch_rels.extend(note_rels)
 
                 # Calling entity + CALLED_AS relation if available
@@ -1209,15 +1413,19 @@ class IngestionPipeline:
                     if call_key not in seen_ents:
                         seen_ents.add(call_key)
                         batch_ents.append({"name": ct.calling, "type": "calling", "aliases": []})
-                    batch_rels.append({
-                        "from_name": ct.author, "from_type": "person",
-                        "rel_type": "CALLED_AS",
-                        "to_name": ct.calling, "to_type": "calling",
-                        "props": {
-                            "confidence": "metadata",
-                            **({"date": ct.conference_date} if ct.conference_date else {}),
-                        },
-                    })
+                    batch_rels.append(
+                        {
+                            "from_name": ct.author,
+                            "from_type": "person",
+                            "rel_type": "CALLED_AS",
+                            "to_name": ct.calling,
+                            "to_type": "calling",
+                            "props": {
+                                "confidence": "metadata",
+                                **({"date": ct.conference_date} if ct.conference_date else {}),
+                            },
+                        }
+                    )
 
             # Structured meta.json KG enrichment: author, composer, tune, occasion
             # Handles music (hymns, songs) and other materials with rich metadata.
@@ -1225,9 +1433,13 @@ class IngestionPipeline:
             # complementing what NER extracts from text.
             if fd.meta_json:
                 _enrich_kg_from_meta(
-                    fd.meta_json, fd.rel_path,
-                    batch_ents, batch_lnks, batch_rels,
-                    seen_ents, seen_lnks,
+                    fd.meta_json,
+                    fd.rel_path,
+                    batch_ents,
+                    batch_lnks,
+                    batch_rels,
+                    seen_ents,
+                    seen_lnks,
                 )
 
             # Write immediately only in legacy (per-file) mode;
@@ -1239,9 +1451,11 @@ class IngestionPipeline:
 
         # Update registry
         self._registry.upsert(
-            file_path=fd.rel_path, sha256=fd.file_hash,
+            file_path=fd.rel_path,
+            sha256=fd.file_hash,
             file_size=fd.abs_path.stat().st_size,
-            chunk_count=len(fd.chunks), status="indexed",
+            chunk_count=len(fd.chunks),
+            status="indexed",
         )
 
     def _ingest_file(self, rel_path: str, abs_path: Path, file_hash: str) -> int:
@@ -1292,7 +1506,13 @@ class IngestionPipeline:
         # Add scripture-level metadata from first chunk (volume, book, etc.)
         if scripture_file:
             smeta = build_scripture_metadata(rel_path, chunks[0].text if chunks else "", text)
-            base_meta.update({k: v for k, v in smeta.items() if k not in ("reference", "verse_start", "verse_end")})
+            base_meta.update(
+                {
+                    k: v
+                    for k, v in smeta.items()
+                    if k not in ("reference", "verse_start", "verse_end")
+                }
+            )
 
         # Derive authority metadata from corpus path
         auth_meta = derive_authority(source, rel_path)
@@ -1362,7 +1582,11 @@ class IngestionPipeline:
                     lkey = (entity.name, entity.type, rel_path)
                     if lkey not in seen_lnks:
                         seen_lnks.add(lkey)
-                        link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": rel_path}
+                        link = {
+                            "entity_name": entity.name,
+                            "entity_type": entity.type,
+                            "file_path": rel_path,
+                        }
                         if entity.name in extraction.disambiguations:
                             link["resolved_name"] = extraction.disambiguations[entity.name]
                             link["confidence"] = "high"
@@ -1370,12 +1594,16 @@ class IngestionPipeline:
                             link["entity_type"] = extraction.disambiguated_types[entity.name]
                         batch_lnks.append(link)
                 for rel in extraction.relations:
-                    batch_rels.append({
-                        "from_name": rel.from_entity, "from_type": rel.from_type,
-                        "rel_type": rel.relation,
-                        "to_name": rel.to_entity, "to_type": rel.to_type,
-                        "props": {},
-                    })
+                    batch_rels.append(
+                        {
+                            "from_name": rel.from_entity,
+                            "from_type": rel.from_type,
+                            "rel_type": rel.relation,
+                            "to_name": rel.to_entity,
+                            "to_type": rel.to_type,
+                            "props": {},
+                        }
+                    )
             self._kg_writer.batch_merge_entities(batch_ents)
             self._kg_writer.batch_link_entities_to_document(batch_lnks)
             self._kg_writer.batch_merge_relations(batch_rels)
@@ -1393,7 +1621,15 @@ class IngestionPipeline:
         return len(chunks)
 
     def rebuild_kg(self) -> dict:
-        """Rebuild ONLY the knowledge graph from already-indexed chunks.
+        """Rebuild the knowledge graph in two phases.
+
+        Phase 1 (fast, parallel): gazetteer-only entity extraction. Links
+        all known entities to their source documents. Produces a queryable
+        KG from seed + gazetteer data.
+
+        Phase 2 (full, serial): re-extracts with spaCy NER enabled to
+        discover entities not in the gazetteer. Runs automatically after
+        Phase 1 completes.
 
         Skips parsing, chunking, embedding, and FTS — reads chunk text
         from the index and runs the KG extractor against current
@@ -1401,111 +1637,172 @@ class IngestionPipeline:
 
         Returns stats dict with counts.
         """
-        if not self._kg_writer or not self._kg_extractor:
-            return {"error": "KG writer or KG extractor not available"}
-
-        import time
+        if not self._kg_writer:
+            return {"error": "KG writer not available"}
+        if not self._kg_extractor:
+            return {"error": "KG extractor not available"}
 
         start = time.time()
 
-        # Clear existing KG data (preserve external imports like TG)
+        # ── Common setup (graph clear + seed loading) ──────────────────
         logger.info("KG rebuild: clearing existing graph...")
         self._kg_writer.clear_all(preserve_sources=self.PRESERVED_KG_SOURCES)
 
-        # Ensure indexes / constraints for query performance (P6 Phase 14)
         try:
             self._kg_writer.ensure_indexes()
         except Exception:
             logger.warning("Failed to create indexes — continuing without them", exc_info=True)
 
-        # Load scripture structural entities and relations (P1 Phase 3)
+        # Load scripture structural entities and relations
         try:
             from alejandria.knowledge.scripture_structure import get_structure
+
             structure = get_structure()
             structural_entities = structure.get_structural_entities()
             structural_relations = structure.get_structural_relations()
-            self._kg_writer.batch_merge_entities([
-                {
-                    "name": se["name"],
-                    "type": se["type"],
-                    "aliases": [se["name_es"]] if se["name_es"] != se["name_en"] else [],
-                }
-                for se in structural_entities
-            ])
-            self._kg_writer.batch_merge_relations([
-                {
-                    "from_name": sr["from_name"],
-                    "from_type": sr["from_type"],
-                    "rel_type": sr["relation"],
-                    "to_name": sr["to_name"],
-                    "to_type": sr["to_type"],
-                    "props": {"source": "scripture_structure", "confidence": "curated"},
-                }
-                for sr in structural_relations
-            ])
+            self._kg_writer.batch_merge_entities(
+                [
+                    {
+                        "name": se["name"],
+                        "type": se["type"],
+                        "aliases": [se["name_es"]] if se["name_es"] != se["name_en"] else [],
+                    }
+                    for se in structural_entities
+                ]
+            )
+            self._kg_writer.batch_merge_relations(
+                [
+                    {
+                        "from_name": sr["from_name"],
+                        "from_type": sr["from_type"],
+                        "rel_type": sr["relation"],
+                        "to_name": sr["to_name"],
+                        "to_type": sr["to_type"],
+                        "props": {"source": "scripture_structure", "confidence": "curated"},
+                    }
+                    for sr in structural_relations
+                ]
+            )
             logger.info(
                 "KG rebuild: loaded %d structural entities, %d structural relations",
-                len(structural_entities), len(structural_relations),
+                len(structural_entities),
+                len(structural_relations),
             )
         except Exception:
-            logger.warning("Failed to load scripture structure — continuing without it", exc_info=True)
+            logger.warning(
+                "Failed to load scripture structure — continuing without it", exc_info=True
+            )
 
-        # Apply KG seeds — research-phase knowledge asserted before NER
-        # Seeds encode entities and relations discovered during corpus preparation.
-        # Applied here so they exist before NER runs, giving them priority.
+        # Apply KG seeds
         seed_entities, seed_relations = _load_kg_seeds()
         if seed_entities:
             self._kg_writer.batch_merge_entities(seed_entities)
         if seed_relations:
             self._kg_writer.batch_merge_relations(seed_relations)
 
-        # Load curated relations from gazetteers/relations.json (P6 Phase 1)
-        # These are high-confidence typed relations (family trees, callings,
-        # authorship, etc.) that must be in the graph with curated confidence.
+        # Load curated relations
         try:
             from alejandria.knowledge.curated_seed_loader import CuratedSeedLoader
             from alejandria.knowledge.extractor import _RELATIONS_PATH
+
             if _RELATIONS_PATH.exists():
                 counts = CuratedSeedLoader(self._kg_writer).load(_RELATIONS_PATH)
                 total_curated = sum(counts.values())
                 logger.info(
                     "KG rebuild: loaded %d curated relations across %d types",
-                    total_curated, len([c for c in counts.values() if c > 0]),
+                    total_curated,
+                    len([c for c in counts.values() if c > 0]),
                 )
         except Exception:
-            logger.warning("Failed to load curated relations — continuing without them", exc_info=True)
-
-        # Scripture structural seeds (P6 phases 2, 6, 7, 8) were Neo4j-era
-        # bulk loaders reading data/scripture_structure/*.json into the graph
-        # via Cypher MERGE patterns. They were retired with Neo4j in §3.3
-        # after the Postgres migration revealed they had never actually run
-        # in production (zero rows across all four loaders). If structural
-        # seeding is revived, it should be implemented as a dedicated
-        # service that writes entities+relations via batch_merge_* on the
-        # Postgres client, not as an ingestion-pipeline step.
+            logger.warning(
+                "Failed to load curated relations — continuing without them", exc_info=True
+            )
 
         total_chunks = self._chunk_writer.count_chunks()
-        logger.info("KG rebuild: processing %d chunks...", total_chunks)
+        logger.info("KG rebuild: processing %d chunks across 2 phases", total_chunks)
 
+        # ── Phase 1: Gazetteer-only, parallel ─────────────────────────
+        logger.info("=" * 60)
+        logger.info("PHASE 1: Gazetteer-only entity extraction (parallel)")
+        logger.info("=" * 60)
+        phase1_stats = self._rebuild_kg_phase1(total_chunks, start)
+
+        # Mark profiles stale after Phase 1 so they can be queried
+        if self._profile_store:
+            staled = self._profile_store.mark_all_stale()
+            if staled:
+                logger.info("Marked %d entity profiles as stale after Phase 1", staled)
+
+        # ── Phase 2: NER discovery ────────────────────────────────────
+        logger.info("=" * 60)
+        logger.info("PHASE 2: NER entity discovery (serial)")
+        logger.info("=" * 60)
+        phase2_stats = self._rebuild_kg_phase2(total_chunks, start)
+
+        # R2: prune low-value NER candidates
+        pruned = 0
+        try:
+            from alejandria.knowledge.ner_candidates import NERCandidateTracker
+
+            tracker = NERCandidateTracker()
+            pruned = tracker.prune_low_value(min_frequency=3, max_age_days=30)
+            if pruned:
+                logger.info("Pruned %d low-value NER candidates (R2 retention)", pruned)
+        except Exception:
+            logger.warning("NER candidate retention pruning failed — skipped", exc_info=True)
+
+        elapsed = time.time() - start
+        stats = {
+            "chunks_processed": total_chunks,
+            "documents": phase1_stats.get("documents", 0),
+            "phase1_entity_mentions": phase1_stats.get("entity_mentions", 0),
+            "phase1_relation_mentions": phase1_stats.get("relation_mentions", 0),
+            "phase1_elapsed": round(phase1_stats.get("elapsed", 0), 1),
+            "phase2_entity_mentions": phase2_stats.get("entity_mentions", 0),
+            "phase2_relation_mentions": phase2_stats.get("relation_mentions", 0),
+            "phase2_elapsed": round(phase2_stats.get("elapsed", 0), 1),
+            "ner_candidates_pruned": pruned,
+            "elapsed_seconds": round(elapsed, 1),
+        }
+        logger.info(
+            "KG rebuild complete: %d chunks, P1=%d entities/%d relations (%.1fs), "
+            "P2=%d entities/%d relations (%.1fs), total %.1fs",
+            total_chunks,
+            phase1_stats.get("entity_mentions", 0),
+            phase1_stats.get("relation_mentions", 0),
+            phase1_stats.get("elapsed", 0),
+            phase2_stats.get("entity_mentions", 0),
+            phase2_stats.get("relation_mentions", 0),
+            phase2_stats.get("elapsed", 0),
+            elapsed,
+        )
+        return stats
+
+    def _rebuild_kg_phase1(self, total_chunks: int, start: float) -> dict:
+        """Phase 1: gazetteer-only extraction with parallel workers."""
+        from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
+        from alejandria.knowledge.extractor import KGExtractor
+
+        gazetteer_extractor = KGExtractor(gazetteer_only=True)
+
+        BATCH_SIZE = 5000
+        MAX_WORKERS = 4
         entities_found = 0
         relations_found = 0
+        processed_chunks = 0
         documents_seen: set[str] = set()
 
-        # Batch accumulators — flush every BATCH_SIZE chunks
-        BATCH_SIZE = 50
         batch_entities: list[dict] = []
         batch_relations: list[dict] = []
         batch_links: list[dict] = []
         batch_documents: list[dict] = []
 
-        def _flush_batch() -> None:
-            """Send accumulated batch to the KG writer."""
+        def _flush() -> None:
             nonlocal batch_entities, batch_relations, batch_links, batch_documents
             if batch_documents:
                 self._kg_writer.batch_merge_documents(batch_documents)
                 batch_documents = []
             if batch_entities:
-                # Deduplicate entities within batch (same name+type)
                 seen = set()
                 deduped = []
                 for e in batch_entities:
@@ -1516,7 +1813,6 @@ class IngestionPipeline:
                 self._kg_writer.batch_merge_entities(deduped)
                 batch_entities = []
             if batch_links:
-                # Deduplicate links
                 seen_links = set()
                 deduped_links = []
                 for lnk in batch_links:
@@ -1530,28 +1826,254 @@ class IngestionPipeline:
                 self._kg_writer.batch_merge_relations(batch_relations)
                 batch_relations = []
 
-        processed_chunks = 0
-        pending_rows: list[dict] = []
-
-        def _process_rows(batch_rows: list[dict]) -> None:
-            nonlocal processed_chunks, entities_found, relations_found
-            if not batch_rows:
-                return
-
-            extractions = self._kg_extractor.extract_batch(
-                [row["text"] for row in batch_rows],
-                source_files=[row["file_path"] for row in batch_rows],
-                reference_modes=[_is_reference_work(row["file_path"]) for row in batch_rows],
+        def _extract_slice(rows_slice: list[dict]) -> tuple:
+            """Thread worker: extract from a batch, return accumulated data."""
+            extractions = gazetteer_extractor.extract_batch(
+                [row["text"] for row in rows_slice],
+                source_files=[row["file_path"] for row in rows_slice],
+                reference_modes=[_is_reference_work(row["file_path"]) for row in rows_slice],
                 track_candidates=False,
             )
-
-            for row, extraction in zip(batch_rows, extractions):
+            ents, rels, links = [], [], []
+            for row, extraction in zip(rows_slice, extractions):
                 file_path = row["file_path"]
                 for entity in extraction.entities:
-                    batch_entities.append(
-                        {"name": entity.name, "type": entity.type, "aliases": []}
+                    ents.append({"name": entity.name, "type": entity.type, "aliases": []})
+                    link = {
+                        "entity_name": entity.name,
+                        "entity_type": entity.type,
+                        "file_path": file_path,
+                    }
+                    if entity.name in extraction.disambiguations:
+                        link["resolved_name"] = extraction.disambiguations[entity.name]
+                        link["confidence"] = "high"
+                    if entity.name in extraction.disambiguated_types:
+                        link["entity_type"] = extraction.disambiguated_types[entity.name]
+                    links.append(link)
+                for rel in extraction.relations:
+                    rels.append(
+                        {
+                            "from_name": rel.from_entity,
+                            "from_type": rel.from_type,
+                            "rel_type": rel.relation,
+                            "to_name": rel.to_entity,
+                            "to_type": rel.to_type,
+                            "props": {},
+                        }
                     )
-                    link = {"entity_name": entity.name, "entity_type": entity.type, "file_path": file_path}
+            return ents, rels, links, len(rows_slice)
+
+        pending_rows: list[dict] = []
+        pending_futures: set = set()
+
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            for row in self._chunk_writer.iter_all_chunks():
+                file_path = row["file_path"]
+                if _should_skip_kg_extraction(file_path):
+                    continue
+                if file_path not in documents_seen:
+                    source = _extract_source(file_path)
+                    batch_documents.append({"file_path": file_path, "source": source})
+                    documents_seen.add(file_path)
+                    file_meta = _load_meta_json(file_path, settings.corpus_path)
+                    if file_meta:
+                        _enrich_kg_from_meta(
+                            file_meta,
+                            file_path,
+                            batch_entities,
+                            batch_links,
+                            batch_relations,
+                            set(),
+                            set(),
+                        )
+                pending_rows.append(row)
+                if len(pending_rows) >= BATCH_SIZE:
+                    # Throttle: wait if at capacity
+                    if len(pending_futures) >= MAX_WORKERS:
+                        done, pending_futures = wait(pending_futures, return_when=FIRST_COMPLETED)
+                        for f in done:
+                            ents, rels, links, cnt = f.result()
+                            batch_entities.extend(ents)
+                            batch_relations.extend(rels)
+                            batch_links.extend(links)
+                            entities_found += len(ents)
+                            relations_found += len(rels)
+                            processed_chunks += cnt
+                            _flush()
+                            logger.info(
+                                "Phase 1: %d/%d (%d%%) %d entities %d relations",
+                                processed_chunks,
+                                total_chunks,
+                                processed_chunks * 100 // total_chunks,
+                                entities_found,
+                                relations_found,
+                            )
+                    pending_futures.add(pool.submit(_extract_slice, pending_rows))
+                    pending_rows = []
+
+            # Last partial batch
+            if pending_rows:
+                pending_futures.add(pool.submit(_extract_slice, pending_rows))
+
+            # Drain remaining futures
+            while pending_futures:
+                done, pending_futures = wait(pending_futures, return_when=FIRST_COMPLETED)
+                for f in done:
+                    ents, rels, links, cnt = f.result()
+                    batch_entities.extend(ents)
+                    batch_relations.extend(rels)
+                    batch_links.extend(links)
+                    entities_found += len(ents)
+                    relations_found += len(rels)
+                    processed_chunks += cnt
+                    _flush()
+                    logger.info(
+                        "Phase 1: %d/%d (%d%%) %d entities %d relations",
+                        processed_chunks,
+                        total_chunks,
+                        processed_chunks * 100 // total_chunks,
+                        entities_found,
+                        relations_found,
+                    )
+
+        _flush()
+        elapsed = time.time() - start
+        logger.info(
+            "Phase 1 done: %d entities, %d relations in %.1fs",
+            entities_found,
+            relations_found,
+            elapsed,
+        )
+        return {
+            "entity_mentions": entities_found,
+            "relation_mentions": relations_found,
+            "documents": len(documents_seen),
+            "elapsed": elapsed,
+        }
+
+    def _rebuild_kg_phase2(self, total_chunks: int, start: float) -> dict:
+        """Phase 2: NER discovery pass. Does NOT clear graph or reload seeds."""
+        from alejandria.knowledge.extractor import KGExtractor
+
+        ner_extractor = KGExtractor(gazetteer_only=False)
+
+        BATCH_SIZE = 2000
+        entities_found = 0
+        relations_found = 0
+        processed_chunks = 0
+
+        batch_entities: list[dict] = []
+        batch_relations: list[dict] = []
+        batch_links: list[dict] = []
+        batch_documents: list[dict] = []
+        documents_seen: set[str] = set()
+
+        def _flush() -> None:
+            nonlocal batch_entities, batch_relations, batch_links, batch_documents
+            if batch_documents:
+                self._kg_writer.batch_merge_documents(batch_documents)
+                batch_documents = []
+            if batch_entities:
+                seen = set()
+                deduped = []
+                for e in batch_entities:
+                    key = (e["name"], e["type"])
+                    if key not in seen:
+                        seen.add(key)
+                        deduped.append(e)
+                self._kg_writer.batch_merge_entities(deduped)
+                batch_entities = []
+            if batch_links:
+                seen_links = set()
+                deduped_links = []
+                for lnk in batch_links:
+                    key = (lnk["entity_name"], lnk["entity_type"], lnk["file_path"])
+                    if key not in seen_links:
+                        seen_links.add(key)
+                        deduped_links.append(lnk)
+                self._kg_writer.batch_link_entities_to_document(deduped_links)
+                batch_links = []
+            if batch_relations:
+                self._kg_writer.batch_merge_relations(batch_relations)
+                batch_relations = []
+
+        pending_rows: list[dict] = []
+
+        for row in self._chunk_writer.iter_all_chunks():
+            file_path = row["file_path"]
+            if _should_skip_kg_extraction(file_path):
+                continue
+            if file_path not in documents_seen:
+                documents_seen.add(file_path)
+                batch_documents.append(
+                    {"file_path": file_path, "source": _extract_source(file_path)}
+                )
+            pending_rows.append(row)
+            if len(pending_rows) >= BATCH_SIZE:
+                extractions = ner_extractor.extract_batch(
+                    [r["text"] for r in pending_rows],
+                    source_files=[r["file_path"] for r in pending_rows],
+                    reference_modes=[_is_reference_work(r["file_path"]) for r in pending_rows],
+                    track_candidates=False,
+                )
+                for row_i, extraction in zip(pending_rows, extractions):
+                    fpath = row_i["file_path"]
+                    for entity in extraction.entities:
+                        batch_entities.append(
+                            {"name": entity.name, "type": entity.type, "aliases": []}
+                        )
+                        link = {
+                            "entity_name": entity.name,
+                            "entity_type": entity.type,
+                            "file_path": fpath,
+                        }
+                        if entity.name in extraction.disambiguations:
+                            link["resolved_name"] = extraction.disambiguations[entity.name]
+                            link["confidence"] = "high"
+                        if entity.name in extraction.disambiguated_types:
+                            link["entity_type"] = extraction.disambiguated_types[entity.name]
+                        batch_links.append(link)
+                        entities_found += 1
+                    for rel in extraction.relations:
+                        batch_relations.append(
+                            {
+                                "from_name": rel.from_entity,
+                                "from_type": rel.from_type,
+                                "rel_type": rel.relation,
+                                "to_name": rel.to_entity,
+                                "to_type": rel.to_type,
+                                "props": {},
+                            }
+                        )
+                        relations_found += 1
+                processed_chunks += len(pending_rows)
+                _flush()
+                logger.info(
+                    "Phase 2: %d/%d (%d%%) %d entities %d relations",
+                    processed_chunks,
+                    total_chunks,
+                    processed_chunks * 100 // total_chunks,
+                    entities_found,
+                    relations_found,
+                )
+                pending_rows = []
+
+        if pending_rows:
+            extractions = ner_extractor.extract_batch(
+                [r["text"] for r in pending_rows],
+                source_files=[r["file_path"] for r in pending_rows],
+                reference_modes=[_is_reference_work(r["file_path"]) for r in pending_rows],
+                track_candidates=False,
+            )
+            for row_i, extraction in zip(pending_rows, extractions):
+                fpath = row_i["file_path"]
+                for entity in extraction.entities:
+                    batch_entities.append({"name": entity.name, "type": entity.type, "aliases": []})
+                    link = {
+                        "entity_name": entity.name,
+                        "entity_type": entity.type,
+                        "file_path": fpath,
+                    }
                     if entity.name in extraction.disambiguations:
                         link["resolved_name"] = extraction.disambiguations[entity.name]
                         link["confidence"] = "high"
@@ -1559,89 +2081,33 @@ class IngestionPipeline:
                         link["entity_type"] = extraction.disambiguated_types[entity.name]
                     batch_links.append(link)
                     entities_found += 1
-
                 for rel in extraction.relations:
-                    batch_relations.append({
-                        "from_name": rel.from_entity,
-                        "from_type": rel.from_type,
-                        "rel_type": rel.relation,
-                        "to_name": rel.to_entity,
-                        "to_type": rel.to_type,
-                        "props": {},
-                    })
-                    relations_found += 1
-
-            processed_chunks += len(batch_rows)
-            _flush_batch()
-            logger.info(
-                "KG rebuild: %d/%d chunks (%.0f%%), %d entities, %d relations so far...",
-                processed_chunks,
-                total_chunks,
-                processed_chunks / total_chunks * 100,
-                entities_found,
-                relations_found,
-            )
-
-        for row in self._chunk_writer.iter_all_chunks():
-            file_path = row["file_path"]
-            if _should_skip_kg_extraction(file_path):
-                continue
-            if file_path not in documents_seen:
-                source = _extract_source(file_path)
-                batch_documents.append({"file_path": file_path, "source": source})
-                documents_seen.add(file_path)
-                file_meta = _load_meta_json(file_path, settings.corpus_path)
-                if file_meta:
-                    _enrich_kg_from_meta(
-                        file_meta, file_path,
-                        batch_entities, batch_links, batch_relations,
-                        set(),
-                        set(),
+                    batch_relations.append(
+                        {
+                            "from_name": rel.from_entity,
+                            "from_type": rel.from_type,
+                            "rel_type": rel.relation,
+                            "to_name": rel.to_entity,
+                            "to_type": rel.to_type,
+                            "props": {},
+                        }
                     )
-            pending_rows.append(row)
-            if len(pending_rows) >= BATCH_SIZE:
-                _process_rows(pending_rows)
-                pending_rows = []
+                    relations_found += 1
+            processed_chunks += len(pending_rows)
 
-        if pending_rows:
-            _process_rows(pending_rows)
-
-        # Flush remaining
-        _flush_batch()
-
-        # Mark all profiles stale after KG rebuild
-        if self._profile_store:
-            staled = self._profile_store.mark_all_stale()
-            if staled:
-                logger.info("Marked %d entity profiles as stale after KG rebuild", staled)
-
-        # R2 (kg-ingestion-refactor §3): prune low-value NER candidates that
-        # failed to reach min frequency after the retention window. Keeps the
-        # table bounded as the corpus grows instead of accumulating forever.
-        pruned = 0
-        try:
-            from alejandria.knowledge.ner_candidates import NERCandidateTracker
-            tracker = NERCandidateTracker()
-            pruned = tracker.prune_low_value(min_frequency=3, max_age_days=30)
-            if pruned:
-                logger.info("Pruned %d low-value NER candidates (R2 retention)", pruned)
-        except Exception:
-            logger.warning("NER candidate retention pruning failed — skipped", exc_info=True)
-
+        _flush()
         elapsed = time.time() - start
-        stats = {
-            "chunks_processed": total_chunks,
-            "documents": len(documents_seen),
+        logger.info(
+            "Phase 2 done: %d entities, %d relations in %.1fs",
+            entities_found,
+            relations_found,
+            elapsed,
+        )
+        return {
             "entity_mentions": entities_found,
             "relation_mentions": relations_found,
-            "ner_candidates_pruned": pruned,
-            "elapsed_seconds": round(elapsed, 1),
+            "elapsed": elapsed,
         }
-        logger.info(
-            "KG rebuild complete: %d chunks, %d entities, %d relations in %.1fs",
-            total_chunks, entities_found, relations_found, elapsed,
-        )
-        return stats
 
     def build_metadata_profiles(
         self,
@@ -1797,7 +2263,9 @@ class IngestionPipeline:
             if (i + 1) % 200 == 0:
                 logger.info(
                     "Profile build: %d/%d entities (%.0f%%)...",
-                    i + 1, total, (i + 1) / total * 100,
+                    i + 1,
+                    total,
+                    (i + 1) / total * 100,
                 )
 
         # 3. Batch upsert into ProfileStore
@@ -1897,13 +2365,19 @@ def _enrich_kg_from_meta(
         plkey = (name, "person", file_path)
         if plkey not in seen_lnks:
             seen_lnks.add(plkey)
-            batch_lnks.append({"entity_name": name, "entity_type": "person", "file_path": file_path})
-        batch_rels.append({
-            "from_name": title, "from_type": "work",
-            "rel_type": rel_type,
-            "to_name": name, "to_type": "person",
-            "props": {"confidence": "metadata", "source_field": field},
-        })
+            batch_lnks.append(
+                {"entity_name": name, "entity_type": "person", "file_path": file_path}
+            )
+        batch_rels.append(
+            {
+                "from_name": title,
+                "from_type": "work",
+                "rel_type": rel_type,
+                "to_name": name,
+                "to_type": "person",
+                "props": {"confidence": "metadata", "source_field": field},
+            }
+        )
 
     def _add_concept(field: str, rel_type: str) -> None:
         value = meta.get(field, "")
@@ -1916,13 +2390,19 @@ def _enrich_kg_from_meta(
         clkey = (value, "concept", file_path)
         if clkey not in seen_lnks:
             seen_lnks.add(clkey)
-            batch_lnks.append({"entity_name": value, "entity_type": "concept", "file_path": file_path})
-        batch_rels.append({
-            "from_name": title, "from_type": "work",
-            "rel_type": rel_type,
-            "to_name": value, "to_type": "concept",
-            "props": {"confidence": "metadata", "source_field": field},
-        })
+            batch_lnks.append(
+                {"entity_name": value, "entity_type": "concept", "file_path": file_path}
+            )
+        batch_rels.append(
+            {
+                "from_name": title,
+                "from_type": "work",
+                "rel_type": rel_type,
+                "to_name": value,
+                "to_type": "concept",
+                "props": {"confidence": "metadata", "source_field": field},
+            }
+        )
 
     _add_person("author", "AUTHORED_BY")
     _add_person("composer", "COMPOSED_BY")
@@ -1941,12 +2421,16 @@ def _enrich_kg_from_meta(
         if blkey not in seen_lnks:
             seen_lnks.add(blkey)
             batch_lnks.append({"entity_name": book, "entity_type": "work", "file_path": file_path})
-        batch_rels.append({
-            "from_name": title, "from_type": "work",
-            "rel_type": "PART_OF",
-            "to_name": book, "to_type": "work",
-            "props": {"confidence": "metadata"},
-        })
+        batch_rels.append(
+            {
+                "from_name": title,
+                "from_type": "work",
+                "rel_type": "PART_OF",
+                "to_name": book,
+                "to_type": "work",
+                "props": {"confidence": "metadata"},
+            }
+        )
 
     # scripture_refs: work -[CITES]-> scripture_reference
     # Mirrors the conference-talk CITES enrichment for any corpus document
@@ -1958,12 +2442,16 @@ def _enrich_kg_from_meta(
         if ref_key not in seen_ents:
             seen_ents.add(ref_key)
             batch_ents.append({"name": ref, "type": "scripture_reference", "aliases": []})
-        batch_rels.append({
-            "from_name": title, "from_type": "work",
-            "rel_type": "CITES",
-            "to_name": ref, "to_type": "scripture_reference",
-            "props": {"confidence": "metadata"},
-        })
+        batch_rels.append(
+            {
+                "from_name": title,
+                "from_type": "work",
+                "rel_type": "CITES",
+                "to_name": ref,
+                "to_type": "scripture_reference",
+                "props": {"confidence": "metadata"},
+            }
+        )
 
     # parallel_events: Harmony of the Gospels meta.json field.
     # Each entry maps one gospel event to its refs across 4–5 gospel columns
@@ -1980,16 +2468,20 @@ def _enrich_kg_from_meta(
         ev_key = (ev_name, "event")
         if ev_key not in seen_ents:
             seen_ents.add(ev_key)
-            batch_ents.append({
-                "name": ev_name, "type": "event",
-                "aliases": [],
-                **({"location": pe["location"]} if pe.get("location") else {}),
-            })
+            batch_ents.append(
+                {
+                    "name": ev_name,
+                    "type": "event",
+                    "aliases": [],
+                    **({"location": pe["location"]} if pe.get("location") else {}),
+                }
+            )
         ev_lkey = (ev_name, "event", file_path)
         if ev_lkey not in seen_lnks:
             seen_lnks.add(ev_lkey)
-            batch_lnks.append({"entity_name": ev_name, "entity_type": "event",
-                                "file_path": file_path})
+            batch_lnks.append(
+                {"entity_name": ev_name, "entity_type": "event", "file_path": file_path}
+            )
 
         # Collect refs by column — skip non-column keys
         gospel_cols = ("matthew", "mark", "luke", "john_lds")
@@ -2008,14 +2500,17 @@ def _enrich_kg_from_meta(
                 rkey = (ref, "scripture_reference")
                 if rkey not in seen_ents:
                     seen_ents.add(rkey)
-                    batch_ents.append({"name": ref, "type": "scripture_reference",
-                                       "aliases": []})
-                batch_rels.append({
-                    "from_name": ev_name, "from_type": "event",
-                    "rel_type": "DESCRIBED_IN",
-                    "to_name": ref, "to_type": "scripture_reference",
-                    "props": {"confidence": "metadata", "source": "harmony"},
-                })
+                    batch_ents.append({"name": ref, "type": "scripture_reference", "aliases": []})
+                batch_rels.append(
+                    {
+                        "from_name": ev_name,
+                        "from_type": "event",
+                        "rel_type": "DESCRIBED_IN",
+                        "to_name": ref,
+                        "to_type": "scripture_reference",
+                        "props": {"confidence": "metadata", "source": "harmony"},
+                    }
+                )
 
         # PARALLEL_ACCOUNT_OF: between refs in different gospel columns.
         # Only assert A→B (not B→A) by iterating upper triangle of column pairs.
@@ -2025,16 +2520,20 @@ def _enrich_kg_from_meta(
                 _col_b, refs_b = cols_with_refs[j]
                 for ref_a in refs_a:
                     for ref_b in refs_b:
-                        batch_rels.append({
-                            "from_name": ref_a, "from_type": "scripture_reference",
-                            "rel_type": "PARALLEL_ACCOUNT_OF",
-                            "to_name": ref_b, "to_type": "scripture_reference",
-                            "props": {
-                                "confidence": "metadata",
-                                "event": ev_name,
-                                "source": "harmony",
-                            },
-                        })
+                        batch_rels.append(
+                            {
+                                "from_name": ref_a,
+                                "from_type": "scripture_reference",
+                                "rel_type": "PARALLEL_ACCOUNT_OF",
+                                "to_name": ref_b,
+                                "to_type": "scripture_reference",
+                                "props": {
+                                    "confidence": "metadata",
+                                    "event": ev_name,
+                                    "source": "harmony",
+                                },
+                            }
+                        )
 
     # events: Bible Chronology meta.json field.
     # Each entry has date, event description, optional synchronisms and persons.
@@ -2069,8 +2568,9 @@ def _enrich_kg_from_meta(
                 period_lkey = (date_str, "period", file_path)
                 if period_lkey not in seen_lnks:
                     seen_lnks.add(period_lkey)
-                    batch_lnks.append({"entity_name": date_str, "entity_type": "period",
-                                       "file_path": file_path})
+                    batch_lnks.append(
+                        {"entity_name": date_str, "entity_type": "period", "file_path": file_path}
+                    )
 
             # Event node
             chron_ev_key = (ev_desc, "event")
@@ -2080,26 +2580,35 @@ def _enrich_kg_from_meta(
             ev_lkey2 = (ev_desc, "event", file_path)
             if ev_lkey2 not in seen_lnks:
                 seen_lnks.add(ev_lkey2)
-                batch_lnks.append({"entity_name": ev_desc, "entity_type": "event",
-                                   "file_path": file_path})
+                batch_lnks.append(
+                    {"entity_name": ev_desc, "entity_type": "event", "file_path": file_path}
+                )
 
             # OCCURRED_DURING
             if date_str:
-                batch_rels.append({
-                    "from_name": ev_desc, "from_type": "event",
-                    "rel_type": "OCCURRED_DURING",
-                    "to_name": date_str, "to_type": "period",
-                    "props": {"confidence": "metadata", "source": "bible-chronology"},
-                })
+                batch_rels.append(
+                    {
+                        "from_name": ev_desc,
+                        "from_type": "event",
+                        "rel_type": "OCCURRED_DURING",
+                        "to_name": date_str,
+                        "to_type": "period",
+                        "props": {"confidence": "metadata", "source": "bible-chronology"},
+                    }
+                )
 
             # PRECEDED_BY (chain: this event preceded by the previous one in time)
             if prev_ev_name:
-                batch_rels.append({
-                    "from_name": ev_desc, "from_type": "event",
-                    "rel_type": "PRECEDED_BY",
-                    "to_name": prev_ev_name, "to_type": "event",
-                    "props": {"confidence": "metadata", "source": "bible-chronology"},
-                })
+                batch_rels.append(
+                    {
+                        "from_name": ev_desc,
+                        "from_type": "event",
+                        "rel_type": "PRECEDED_BY",
+                        "to_name": prev_ev_name,
+                        "to_type": "event",
+                        "props": {"confidence": "metadata", "source": "bible-chronology"},
+                    }
+                )
 
             prev_ev_name = ev_desc
 
@@ -2137,11 +2646,15 @@ def _load_kg_seeds() -> tuple[list[dict], list[dict]]:
             name = ent.get("name", "")
             etype = ent.get("type", "concept")
             if name and etype:
-                entities.append({
+                entry: dict[str, Any] = {
                     "name": name,
                     "type": etype,
                     "aliases": ent.get("aliases", []),
-                })
+                }
+                meta = ent.get("metadata")
+                if meta:
+                    entry["metadata"] = meta
+                entities.append(entry)
 
         for rel in seed.get("relations", []):
             subject = rel.get("subject", "")
@@ -2149,22 +2662,29 @@ def _load_kg_seeds() -> tuple[list[dict], list[dict]]:
             predicate = rel.get("predicate", "")
             if not (subject and obj and predicate):
                 continue
-            relations.append({
-                "from_name": subject,
-                "from_type": rel.get("subject_type", "concept"),
-                "rel_type": predicate,
-                "to_name": obj,
-                "to_type": rel.get("object_type", "concept"),
-                "props": {
-                    "confidence": confidence,
-                    **({"source_ref": rel["source_ref"]} if rel.get("source_ref") else {}),
-                },
-            })
+            props: dict[str, Any] = {
+                "confidence": confidence,
+                **({"source_ref": rel["source_ref"]} if rel.get("source_ref") else {}),
+            }
+            extra_props = rel.get("properties")
+            if isinstance(extra_props, dict) and extra_props:
+                props.update(extra_props)
+            relations.append(
+                {
+                    "from_name": subject,
+                    "from_type": rel.get("subject_type", "concept"),
+                    "rel_type": predicate,
+                    "to_name": obj,
+                    "to_type": rel.get("object_type", "concept"),
+                    "props": props,
+                }
+            )
 
     if entities or relations:
         logger.info(
             "KG seeds loaded: %d entities, %d relations from %d files",
-            len(entities), len(relations),
+            len(entities),
+            len(relations),
             sum(1 for _ in seeds_dir.glob("*.json")),
         )
     return entities, relations

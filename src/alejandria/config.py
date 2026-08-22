@@ -16,14 +16,17 @@ class Settings(BaseSettings):
     postgres_user: str = "alejandria"
     postgres_password: str = ""
     postgres_db: str = "alejandria"
-    postgres_sslmode: str = "prefer"            # disable|prefer|require|verify-ca|verify-full
-    postgres_statement_timeout_ms: int = 30000   # 30s hard cap on any single query
+    postgres_sslmode: str = "prefer"  # disable|prefer|require|verify-ca|verify-full
+    postgres_statement_timeout_ms: int = 30000  # 30s hard cap on any single query
     postgres_application_name: str = "alejandria"
 
     # Embeddings
     embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     embedding_device: str = "cuda"
     embedding_dim: int = 384
+
+    # NER (spaCy)
+    ner_device: str = "cpu"
 
     # Chunking
     chunk_size: int = 500
@@ -40,7 +43,7 @@ class Settings(BaseSettings):
     llm_api_key: str = ""
     llm_base_url: str | None = None  # For OpenAI-compatible endpoints
     llm_max_tokens: int = 2048
-    llm_max_tokens_fast: int = 1024   # Shorter output for simple questions (FAST tier)
+    llm_max_tokens_fast: int = 1024  # Shorter output for simple questions (FAST tier)
     llm_temperature: float = 0.3
 
     # Per-provider API keys (preferred over llm_api_key/llm_alt_api_key)
@@ -58,7 +61,7 @@ class Settings(BaseSettings):
     llm_alt_api_key: str = ""
 
     # Tiered model selection
-    llm_answer_tier: str = "auto"   # "auto", "fast", "balanced", "quality", or a model ID
+    llm_answer_tier: str = "auto"  # "auto", "fast", "balanced", "quality", or a model ID
     llm_internal_tier: str = "fast"  # Tier for internal calls (expansion, reranking)
 
     # Entity Profiles
@@ -66,9 +69,19 @@ class Settings(BaseSettings):
     profile_llm_tier: str = "fast"  # LLM tier for profile generation (Phase 2)
 
     # RAG
-    rag_context_chunks: int = 8   # Max chunks in final context (was 12; 8 saves ~30% input tokens)
+    rag_context_chunks: int = 8  # Max chunks in final context (was 12; 8 saves ~30% input tokens)
     rag_context_chunks_quality: int = 12  # More context for complex questions (QUALITY tier)
     rag_search_limit: int = 25  # Candidates per search mode before RRF
+
+    # SSH Tunnel (for corporate networks blocking outbound 5432)
+    ssh_tunnel_enabled: bool = False
+    ssh_tunnel_host: str = ""
+    ssh_tunnel_user: str = ""
+    ssh_tunnel_port: int = 22
+    ssh_tunnel_local_port: int = 15432
+    ssh_tunnel_remote_port: int = 5432
+    ssh_tunnel_private_key_path: str = "/root/.ssh/tunnel_key"
+    ssh_tunnel_private_key_password: str = ""
 
     # Server
     host: str = "0.0.0.0"

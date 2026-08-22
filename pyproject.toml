@@ -37,6 +37,7 @@ chat = [
 postgres = [
     "psycopg[binary]>=3.1",
     "pgvector>=0.3",
+    "sshtunnel>=0.4",
 ]
 
 [project.scripts]
