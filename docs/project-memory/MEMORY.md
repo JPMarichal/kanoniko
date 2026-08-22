@@ -32,7 +32,7 @@
 - [reference_citation_norms.md](reference_citation_norms.md) — Formal citation norms in docs/citation-norms.md: scriptures, TG/BD/GEE/JST, intros, conference, FCD format
 - [feedback_citation_style.md](feedback_citation_style.md) — Citations always inline/parenthetical (never isolated line); GA titles use highest known rank
 - [authority_model.md](authority_model.md) — Three-axis authority model (doctrinal, rigor, 4 I's) + official boolean for RAG reranking
-- [feedback_docker_engine.md](feedback_docker_engine.md) — ALL Alejandría ops MUST use GPU Docker stack (Ubuntu-20.04 WSL); never Rancher, never optional
+- [feedback_docker_engine.md](feedback_docker_engine.md) — **CRITICAL** NEVER use `docker` commands; ALWAYS use `podman`. Docker hits Rancher Desktop and corrupts C:\git containers. Alejandría runs on Podman Desktop.
 - [feedback_always_eta.md](feedback_always_eta.md) — Always include ETA in progress reports; never make user ask
 - [feedback_reindex_time.md](feedback_reindex_time.md) — Full reindex ~7h+ (pesadilla); always incremental; GPU Docker in progress
 - [feedback_batch_neo4j.md](feedback_batch_neo4j.md) — Always batch Neo4j writes (UNWIND); individual calls = 19h, batched = 30min
@@ -92,3 +92,8 @@
 - [feedback_illustration_quality.md](feedback_illustration_quality.md) — Illustrations must be self-contained narratives ready to copy-paste, not compressed summaries
 - [feedback_fase0_editorial_gate.md](feedback_fase0_editorial_gate.md) — Fase 0 editorial research is a hard gate: never assign authority/KG without web-based editorial investigation first
 - [feedback_docs_sync.md](feedback_docs_sync.md) — Update docs in the SAME turn as any operational correction; never defer until reminded
+- [project_podman_migration.md](project_podman_migration.md) — Podman migration (2026-07-01, resolved 2026-07-04): containers on Podman, GPU working, Postgres tunnel RESOLVED via IONOS rescue DVD + authorized key. SSH tunnel runs inside Podman machine.
+- [product_wp_bc.md](product_wp_bc.md) — wp_bc (WordPress Biografías Católicas): consumidor de APIs de Alejandría. Symlink en `prods/wp_bc/`. MCP config en su `opencode.json`.
+- (2026-07-05) KG seeds masivos desde `wp_bc/bin/authors-enriched.json`: 787 entities, 1,853 relations, 399 places. Gazetario expandido a 2,935 persons (740 líderes modernos). COUNSELOR_TO mejorado (82 relaciones con overlap matching). Bug fix: `birthName` como dict en wp_bc data. Ver `product_wp_bc.md`.
+- (2026-07-05 session #2) Authority levels (11 tiers) + event model en KG. Documento formal: `authority_levels.md`. Metadata en `entities.metadata` (authority_tier, authority_label, authority_score, birth_year, death_year). Eventos biográficos (709 birth/death events) + históricos (27 milestones 1805-1844). Temporal props en CALLED_AS (year, year_end). Rebuild corriendo con 2,539 entities / 3,385 relations.
+- [product_cronologia_periodos.md](product_cronologia_periodos.md) — Producto "cronología de periodos": esquema cronológico en 3 ramas paralelas (AT/BOM/NT+moderna) en `prods/cronologia-periodos/`. Rama A aprobada (15 periodos), B y C en diseño.
