@@ -45,6 +45,9 @@ data/.gospelink-session.json
 docker/.env
 docker/ssh/
 
+# Kilo internal data
+.kilo/
+
 # OS
 Thumbs.db
 .DS_Store
