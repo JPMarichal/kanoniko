@@ -19,6 +19,7 @@ Future (Phase 2):
 from __future__ import annotations
 
 import logging
+import time
 from typing import Sequence
 
 import networkx as nx
@@ -26,6 +27,40 @@ import networkx as nx
 from alejandria.storage.postgres.connection import get_connection
 
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Graph cache (full graph, TTL-based invalidation)
+# ---------------------------------------------------------------------------
+
+_graph_cache: tuple[float, nx.Graph] | None = None
+_GRAPH_CACHE_TTL = 300  # seconds (5 minutes)
+
+
+def _get_cached_graph(max_edges: int = 2_000_000) -> nx.Graph:
+    """Return the full KG graph, cached for _GRAPH_CACHE_TTL seconds."""
+    global _graph_cache
+    now = time.time()
+
+    if _graph_cache is not None:
+        ts, G = _graph_cache
+        if now - ts < _GRAPH_CACHE_TTL:
+            logger.debug("PPR cache hit (age=%.1fs)", now - ts)
+            return G
+        else:
+            logger.debug("PPR cache expired (age=%.1fs)", now - ts)
+            _graph_cache = None
+
+    logger.info("PPR cache miss — loading full graph from Postgres")
+    G = _load_graph_from_postgres(max_edges=max_edges)
+    _graph_cache = (now, G)
+    return G
+
+
+def invalidate_pagerank_cache() -> None:
+    """Force invalidation of the PPR graph cache."""
+    global _graph_cache
+    _graph_cache = None
+    logger.info("PPR cache invalidated")
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -47,22 +82,25 @@ def _load_graph_from_postgres(
     Returns:
         Undirected NetworkX graph where node = entity id, edge = relation.
     """
-    G = nx.Graph()
+    if src_ids:
+        G_full = _get_cached_graph(max_edges=max_edges)
+        # Extract subgraph induced by src_ids and their neighbors
+        nodes_to_keep = set(src_ids)
+        for nid in src_ids:
+            if nid in G_full:
+                nodes_to_keep.update(G_full.neighbors(nid))
+        G = G_full.subgraph(nodes_to_keep).copy()
+        logger.debug("Extracted PPR subgraph: %d nodes, %d edges", G.number_of_nodes(), G.number_of_edges())
+        return G
 
+    # Full graph load — bypass cache and query Postgres directly.
+    G = nx.Graph()
     with get_connection() as conn:
         with conn.cursor() as cur:
-            if src_ids:
-                cur.execute(
-                    "SELECT src_id, dst_id FROM relations "
-                    "WHERE src_id = ANY(%s) OR dst_id = ANY(%s) "
-                    "LIMIT %s",
-                    (list(src_ids), list(src_ids), max_edges),
-                )
-            else:
-                cur.execute(
-                    "SELECT src_id, dst_id FROM relations LIMIT %s",
-                    (max_edges,),
-                )
+            cur.execute(
+                "SELECT src_id, dst_id FROM relations LIMIT %s",
+                (max_edges,),
+            )
             rows = cur.fetchall()
 
     for src_id, dst_id in rows:
@@ -73,26 +111,44 @@ def _load_graph_from_postgres(
 
 
 def _resolve_entity_ids(names: Sequence[str]) -> list[int]:
-    """Resolve entity names to ids via gazetteer + ILIKE fallback."""
+    """Resolve entity names to ids via gazetteer + ILIKE fallback.
+
+    Uses the gazetteer's canonical type to disambiguate entities with the
+    same name but different types (e.g. "Lehi" the person vs "Lehi" the place).
+    """
     from alejandria.knowledge.gazetteer_lookup import is_canonical
 
-    resolved: list[str] = []
+    # Build disambiguation map: canonical_name -> preferred_type
+    disambig: dict[str, str | None] = {}
     for name in names:
         if not name or not name.strip():
             continue
         hit = is_canonical(name)
-        resolved.append(hit[0] if hit else name.strip())
+        canonical = hit[0] if hit else name.strip()
+        preferred_type = hit[1] if hit else None
+        disambig[canonical] = preferred_type
 
-    if not resolved:
+    if not disambig:
         return []
 
     with get_connection() as conn:
         with conn.cursor() as cur:
             cur.execute(
-                "SELECT id FROM entities WHERE name = ANY(%s)",
-                (resolved,),
+                "SELECT id, name, entity_type FROM entities WHERE name = ANY(%s)",
+                (list(disambig.keys()),),
             )
-            return [row[0] for row in cur.fetchall()]
+            rows = cur.fetchall()
+
+    # Filter by preferred type when gazetteer provided one.
+    # This avoids pulling in same-name entities of the wrong type
+    # (e.g. "Lehi" the city when the query meant the prophet Lehi).
+    result = []
+    for eid, ename, etype in rows:
+        preferred = disambig.get(ename)
+        if preferred is None or etype == preferred:
+            result.append(eid)
+
+    return result
 
 
 def _chunks_for_entity_ids(entity_ids: Sequence[int], limit: int = 50) -> dict[int, list[str]]:
@@ -108,7 +164,7 @@ def _chunks_for_entity_ids(entity_ids: Sequence[int], limit: int = 50) -> dict[i
             cur.execute(
                 "SELECT m.entity_id, c.text "
                 "FROM entity_document_mentions m "
-                "JOIN chunks c ON c.id = m.chunk_id "
+                "JOIN chunks c ON c.file_path = m.file_path "
                 "WHERE m.entity_id = ANY(%s) "
                 "LIMIT %s",
                 (list(entity_ids), limit * len(entity_ids)),
@@ -124,6 +180,68 @@ def _chunks_for_entity_ids(entity_ids: Sequence[int], limit: int = 50) -> dict[i
 # ---------------------------------------------------------------------------
 # Public API
 # ---------------------------------------------------------------------------
+
+def _power_iteration_ppr(
+    G: nx.Graph,
+    seed_ids: Sequence[int],
+    alpha: float = 0.5,
+    max_iter: int = 20,
+    tol: float = 1e-6,
+) -> dict[int, float]:
+    """Pure-Python Personalized PageRank via power iteration.
+
+    Args:
+        G: Undirected NetworkX graph.
+        seed_ids: Entity ids to use as personalization seeds.
+        alpha: Damping factor.
+        max_iter: Maximum iterations.
+        tol: Convergence tolerance on L1 difference.
+
+    Returns:
+        Dict mapping node_id -> PPR score.
+    """
+    nodes = list(G.nodes())
+    n = len(nodes)
+    if n == 0:
+        return {}
+
+    # Map node id -> index for fast array access.
+    idx = {node: i for i, node in enumerate(nodes)}
+
+    # Build adjacency list: node -> list of predecessors.
+    # For PageRank power iteration: x_new[i] receives from predecessors j.
+    predecessors: list[list[int]] = [[] for _ in range(n)]
+    for u, v in G.edges():
+        iu, iv = idx[u], idx[v]
+        predecessors[iv].append(iu)
+        predecessors[iu].append(iv)
+
+    # Personalization vector (uniform over seeds).
+    p = [0.0] * n
+    for sid in seed_ids:
+        if sid in idx:
+            p[idx[sid]] = 1.0 / len(seed_ids)
+
+    # Initialize scores uniformly.
+    scores = [1.0 / n] * n
+
+    for _ in range(max_iter):
+        new_scores = [0.0] * n
+        for i in range(n):
+            if predecessors[i]:
+                spread = sum(scores[j] / len(predecessors[j]) for j in predecessors[i])
+                new_scores[i] = alpha * p[i] + (1 - alpha) * spread
+            else:
+                new_scores[i] = alpha * p[i] + (1 - alpha) * (sum(scores) / n)
+
+        # L1 convergence check.
+        diff = sum(abs(new_scores[i] - scores[i]) for i in range(n))
+        scores = new_scores
+        if diff < tol:
+            break
+
+    return {nodes[i]: scores[i] for i in range(n)}
+
 
 def pagerank_search(
     query_entities: Sequence[str],
@@ -159,20 +277,13 @@ def pagerank_search(
     if G.number_of_nodes() == 0:
         return []
 
-    # Build personalization vector.
-    personalization = {nid: 0.0 for nid in G.nodes()}
-    for sid in seed_ids:
-        if sid in personalization:
-            personalization[sid] = 1.0 / len(seed_ids)
-
-    # Power iteration PPR.
-    scores = nx.pagerank(
+    # Power iteration PPR (pure Python, no scipy/numpy required).
+    scores = _power_iteration_ppr(
         G,
+        seed_ids=seed_ids,
         alpha=alpha,
-        personalization=personalization,
         max_iter=max_iter,
         tol=tol,
-        weight="weight",
     )
 
     # Rank and take top_k (excluding seeds themselves if desired).

@@ -286,6 +286,7 @@ class ChatRequest(BaseModel):
     provider: str | None = Field(None, description="LLM provider override: 'anthropic', 'gemini', 'openai'")
     model: str | None = Field(None, description="LLM model override, e.g. 'gemini-2.5-flash'")
     tier: str | None = Field(None, description="Tier override: 'fast', 'balanced', 'quality', or a model ID")
+    graph_mode: str | None = Field("auto", description="Graph mode: 'auto', 'vector_only', 'ppr', 'hybrid'")
 
 
 class ChatSourceItem(BaseModel):

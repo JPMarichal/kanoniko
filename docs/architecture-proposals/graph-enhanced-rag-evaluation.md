@@ -340,6 +340,10 @@ User query → Query Classifier (LLM ligero o reglas)
 | Fecha | Evento | Decisión |
 |-------|--------|----------|
 | 2026-08-22 | Creación del documento | Aprobado para Fase 1 |
+| 2026-08-22 | Fase 0 completada | KG baseline: 8,894 nodes, 5,872 edges, avg degree 2.37. In-memory NetworkX viable. |
+| 2026-08-22 | Fase 1 completada | PPR implementado en `src/alejandria/knowledge/pagerank.py`. Endpoint `/search/graph/pagerank`. 11 tests pasan. |
+| 2026-08-22 | Fase 2 completada | `graph_mode` integrado en `chat_ask` via `RAGPipeline.ask()`. Modos: auto, vector_only, ppr, hybrid. |
+| 2026-08-22 | Fase 3 completada | Graph caching con TTL 5min. Subgraph loading por seed neighborhood. Métricas baseline guardadas en `ppr-baseline-metrics.json`. |
 | | | |
 | | | |
 

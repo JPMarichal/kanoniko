@@ -1,6 +1,8 @@
 services:
   api:
     image: docker-api:latest
+    ports:
+      - "4300:4300"
     volumes:
       - ../corpus:/app/corpus:ro
       - ../data/scripture_structure:/app/data/scripture_structure:ro

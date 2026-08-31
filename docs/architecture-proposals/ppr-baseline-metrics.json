@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-08-22T23:54:39Z",
+  "size": {
+    "entities_total": 8894,
+    "relations_total": 5872,
+    "relation_types": 90,
+    "avg_degree": 2.37,
+    "max_degree": 92,
+    "min_degree": 1,
+    "aliases_total": 1424,
+    "confidence_dist": {
+      "curated": 5871,
+      "metadata": 1
+    },
+    "top_relation_types": [
+      {
+        "type": "CALLED_AS",
+        "count": 1099
+      },
+      {
+        "type": "BORN_IN",
+        "count": 580
+      },
+      {
+        "type": "PART_OF",
+        "count": 500
+      },
+      {
+        "type": "BIRTH_OF",
+        "count": 410
+      },
+      {
+        "type": "DEATH_OF",
+        "count": 301
+      },
+      {
+        "type": "DIED_IN",
+        "count": 288
+      },
+      {
+        "type": "NATIONALITY",
+        "count": 273
+      },
+      {
+        "type": "HAS_ROLE",
+        "count": 227
+      },
+      {
+        "type": "AUTHORED",
+        "count": 222
+      },
+      {
+        "type": "FATHER_OF",
+        "count": 159
+      }
+    ],
+    "chunks_total": 353349,
+    "documents_total": 63778
+  },
+  "feasibility": {
+    "sample_edges": [
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        1
+      ]
+    ],
+    "feasible_for_memory": true
+  },
+  "decision": {
+    "in_memory_feasible": true,
+    "density_adequate": true
+  }
+}

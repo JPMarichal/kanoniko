@@ -72,6 +72,33 @@ Get connected entities and relationships.
 | `depth` | int | 1 | Traversal depth (max 5) |
 | `limit` | int | 50 | Max results |
 
+### `POST /search/graph/pagerank`
+Personalized PageRank (PPR) over the knowledge graph.
+
+Experimental endpoint for multi-hop entity retrieval. Returns entities ranked by graph proximity to the query seeds.
+
+| Field | Type | Default | Description |
+|-------|------|---------|-------------|
+| `query_entities` | list[string] | *required* | Entity names to use as PPR seeds |
+| `alpha` | float | 0.5 | Damping factor (0-1) |
+| `top_k` | int | 20 | Max results |
+
+**Response:**
+```json
+{
+  "results": [
+    {
+      "entity_id": 123,
+      "name": "Nephi",
+      "entity_type": "person",
+      "pagerank_score": 0.42,
+      "chunk_count": 15
+    }
+  ],
+  "count": 10
+}
+```
+
 ### `GET /search/graph/summary`
 Graph statistics (node/relationship counts by type).
 
@@ -109,6 +136,13 @@ Ask a question and get a RAG-powered answer.
 | `provider` | string | null | LLM provider override |
 | `model` | string | null | Model override |
 | `tier` | string | null | Tier override: fast, balanced, quality |
+| `graph_mode` | string | `auto` | Graph mode: `auto`, `vector_only`, `ppr`, `hybrid` |
+
+**`graph_mode` behavior:**
+- `auto`: uses PPR expansion when 2+ entities are detected in the question; otherwise vector-only.
+- `vector_only`: skips graph expansion entirely.
+- `ppr`: forces PPR expansion on extracted entities.
+- `hybrid`: combines vector search with PPR-expanded chunks.
 
 **Response:**
 ```json

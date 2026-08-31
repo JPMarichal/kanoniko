@@ -67,6 +67,7 @@ def chat(req: ChatRequest) -> ChatResponse:
         provider_override=req.provider,
         model_override=req.model,
         tier_override=req.tier,
+        graph_mode=req.graph_mode,
     )
     return _build_chat_response(result)
 

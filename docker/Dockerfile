@@ -39,7 +39,7 @@ RUN pip install --no-cache-dir \
 # MCP + CLI deps
 RUN pip install --no-cache-dir \
     "click>=8.1" \
-    "mcp>=1.0"
+    "mcp==1.8.0"
 
 # Chat (RAG) deps
 RUN pip install --no-cache-dir \

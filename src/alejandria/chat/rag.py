@@ -144,6 +144,7 @@ class RAGPipeline:
         provider_override: str | None = None,
         model_override: str | None = None,
         tier_override: str | None = None,
+        graph_mode: str | None = "auto",
     ) -> ChatResponse:
         """Answer a question using RAG over the corpus.
 
@@ -154,6 +155,11 @@ class RAGPipeline:
             model_override: If set, use this model name with the provider.
             tier_override: If set, force a specific tier ("fast", "balanced",
                 "quality") or model ID for the answer.
+            graph_mode: Graph retrieval mode: "auto", "vector_only", "ppr", "hybrid".
+                "auto": use PPR for multi-hop queries, vector_only otherwise.
+                "ppr": force PPR expansion on top of vector seeds.
+                "hybrid": combine vector search + PPR results.
+                "vector_only": skip graph expansion (default behavior).
         """
         # Determine effective tier early — needed for context sizing and max_tokens
         effective_tier = self._resolve_tier(question, tier_override, provider_override, model_override)
@@ -477,6 +483,75 @@ class RAGPipeline:
             return names
         except Exception:
             logger.warning("Gazetteer entity extraction failed")
+            return []
+
+    def _ppr_expand(
+        self, entity_names: list[str], top_k: int = 20,
+    ) -> list[ChatSource]:
+        """Run Personalized PageRank on extracted entities and return chunks.
+
+        Uses the existing PPR module (zero new infrastructure) to find
+        graph-relevant entities, then fetches their associated chunks.
+
+        Args:
+            entity_names: Entity names extracted from the question.
+            top_k: Number of top PPR entities to expand.
+
+        Returns:
+            List of ChatSource objects with PPR-expanded chunks.
+        """
+        if not entity_names or self.graph_client is None:
+            return []
+
+        try:
+            from alejandria.knowledge.pagerank import pagerank_search
+
+            ppr_results = pagerank_search(
+                query_entities=entity_names,
+                alpha=0.5,
+                top_k=top_k,
+            )
+            if not ppr_results:
+                return []
+
+            # Fetch chunks for PPR-ranked entities
+            entity_ids = [r["entity_id"] for r in ppr_results]
+            chunks_map: dict[int, list[str]] = {}
+            try:
+                from alejandria.knowledge.pagerank import _chunks_for_entity_ids
+                chunks_map = _chunks_for_entity_ids(entity_ids, limit=20)
+            except Exception:
+                logger.warning("PPR chunk fetch failed")
+
+            sources: list[ChatSource] = []
+            seen_keys: set[tuple[str, int]] = set()
+            for ppr_r in ppr_results:
+                eid = ppr_r["entity_id"]
+                for text in chunks_map.get(eid, []):
+                    # We don't have file_path/chunk_index from pagerank module
+                    # Use entity name as reference and a synthetic file_path
+                    key = (ppr_r["name"], 0)
+                    if key in seen_keys:
+                        continue
+                    seen_keys.add(key)
+                    sources.append(ChatSource(
+                        text=text,
+                        file_path=f"[PPR] {ppr_r['name']}",
+                        chunk_index=0,
+                        score=ppr_r["pagerank_score"] * 100,
+                        mode="ppr",
+                        reference=ppr_r["name"],
+                    ))
+
+            if sources:
+                logger.info(
+                    "PPR expansion: %d entities → %d chunks",
+                    len(ppr_results), len(sources),
+                )
+            return sources
+
+        except Exception:
+            logger.warning("PPR expansion failed")
             return []
 
     @staticmethod
@@ -805,6 +880,7 @@ class RAGPipeline:
         self, question: str, fts_query: str, source_filter: str | None,
         kg_file_hints: list[str] | None = None,
         context_chunks: int | None = None,
+        graph_mode: str = "auto",
     ) -> list[ChatSource]:
         """Retrieve chunks using hybrid search + KG hints + cross-refs + reranking."""
         from alejandria.search.hybrid import reciprocal_rank_fusion
@@ -937,6 +1013,14 @@ class RAGPipeline:
             if boosted or missing_hints:
                 logger.info("KG boost: %d existing boosted, %d new from %d hints",
                             boosted, len(sources) - len(already_covered), len(kg_file_hints))
+
+        # PPR expansion: run Personalized PageRank on extracted entities
+        if graph_mode and graph_mode != "vector_only":
+            ppr_entity_names = self._extract_entities_from_question(question)
+            if graph_mode == "ppr" or (graph_mode == "auto" and len(ppr_entity_names) >= 2):
+                ppr_sources = self._ppr_expand(ppr_entity_names, top_k=20)
+                if ppr_sources:
+                    sources.extend(ppr_sources)
 
         # Cross-reference expansion: pull in parallel scripture narratives
         sources = self._expand_cross_references(sources, fts_query, source_filter)
