@@ -55,3 +55,10 @@ if [ -d "$REPO_ROOT/backlogs" ]; then
         fi
     fi
 fi
+
+# 6. Spec-sync warning (proj/CONVENTIONS.md): src/ changes without a matching
+#    doc/spec. Warn only — never blocks. Bypass with [skip-spec-sync] in the
+#    commit subject or by staging the doc.
+if command -v python >/dev/null 2>&1 && [ -f "$REPO_ROOT/scripts/check_spec_sync.py" ]; then
+    python "$REPO_ROOT/scripts/check_spec_sync.py" || true
+fi

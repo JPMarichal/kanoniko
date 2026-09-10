@@ -4,6 +4,10 @@
 
 Technical documentation for the Alejandria knowledge engine.
 
+> **Start here:** [system-spec.md](system-spec.md) is the single source of truth for what the system
+> *is* today. [planning-index.md](planning-index.md) maps every plan/proposal and their authority —
+> read it when planning docs seem to disagree. Incubator format: [`../proj/CONVENTIONS.md`](../proj/CONVENTIONS.md).
+
 ## System Overview
 
 Alejandria is a bilingual (Spanish/English) knowledge engine for scripture and gospel study.
@@ -49,7 +53,12 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 - [backup.md](backup.md) — DB & secrets distribution via GitHub Releases, backup frequency, new machine setup
 
 ### Project
-- [roadmap.md](roadmap.md) — Completed phases and project incubator
+- [system-spec.md](system-spec.md) — **Current state of the whole system** (source of truth for what IS)
+- [planning-index.md](planning-index.md) — Map of every planning artifact, its authority and status; open contradictions
+- [roadmap.md](roadmap.md) — Priority-ordered project incubator (P1–P13, WI-1–3)
 - [improvement-analysis-2026.md](improvement-analysis-2026.md) — SWOT, pain→technology mapping, 2026 tech landscape, roadmap evaluation, Graphify assessment
 - [improvement-program-2026.md](improvement-program-2026.md) — Phased modernization program + live tracking (Fases A–G; projects P0, P11, P12, WI-3)
+- [../proj/CONVENTIONS.md](../proj/CONVENTIONS.md) — Spec-driven incubator format (spec → plan → tasks → risks)
+- [architecture-proposals/](architecture-proposals/) — Graph-enhanced RAG / PPR proposals (inputs, not plans)
+- [ARCHITECTURE_PLAN.md](ARCHITECTURE_PLAN.md) — Microservices split proposal (**not adopted** — see planning-index)
 - [project-memory/](project-memory/) — Claude session memory (synced from ~/.claude/)

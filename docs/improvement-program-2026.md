@@ -4,6 +4,8 @@
 > tablas al avanzar.
 > **Rationale:** [improvement-analysis-2026.md](improvement-analysis-2026.md) (SWOT, evidencia,
 > tecnologías, evaluación del roadmap).
+> **Autoridad y solapamientos:** [planning-index.md](planning-index.md). Estado actual del sistema:
+> [system-spec.md](system-spec.md). Formato de proyectos: [`proj/CONVENTIONS.md`](../proj/CONVENTIONS.md).
 > **Creado:** 2026-09-09 · **Última actualización:** 2026-09-09
 
 ---
@@ -32,7 +34,7 @@ correspondiente (mismo patrón que `proj/P1-scripture-structure/04-phase1-report
 | **C** | Extracción de KG v2 | P12 | A | B, D | Planning |
 | **D** | Higiene de KG (standing) | WI-3 | A, C2 | E | Planning |
 | **E** | RAG avanzado y ahorro de tokens | (transversal) | B, C | D | Planning |
-| **F** | Infra y contenedores | (transversal) | — (F4 tras A) | A, B | Planning |
+| **F** | Infra y contenedores (Podman ya migrado 2026-07; queda F2/F3) | (transversal) | — | A, B | Parcial |
 | **G** | Corpus | P2✅ / P3 / P4 / P13 | — | todas | En curso |
 
 Ruta crítica: **A → B/C (paralelo) → E**. D acompaña a C. F y G corren en paralelo desde el día 1.
@@ -177,27 +179,34 @@ extractor viejo vuelve a ensuciar).
 - [ ] **E2** **Prompt caching** en el system prompt y few-shots de las llamadas internas.
 - [ ] **E3** **Batch API** para todo el trabajo offline: generación de perfiles, extracción KG (C4),
       backfills, contextual retrieval (B5).
-- [ ] **E4** **Spike HippoRAG-2**: Personalized PageRank sobre grafo pasajes+entidades para preguntas
-      multi-hop/temáticas. Medir F1/recall vs pipeline actual en el golden set. Decidir adopción.
+- [~] **E4** **PPR / graph-enhanced retrieval** — **ya en curso con plan propio**:
+      `docs/architecture-proposals/ppr-implementation-plan.md` (2026-08-22) +
+      `graph-enhanced-rag-evaluation.md`; módulo `src/alejandria/knowledge/pagerank.py` ya existe,
+      baseline en `ppr-baseline-metrics.json`. **No re-planificar aquí** — seguir ese plan; este
+      ítem solo trackea su cierre y su integración en `chat_ask` / `/search/graph/pagerank`.
 - [ ] **E5** **Perfiles lazy (R8)**: generar summaries solo para top-K por `mention_count` en ingesta;
       resto on-demand en la primera consulta.
 
 **Gate de salida E:**
 - −50 % tokens en query-path (medido con `POST /chat/compare` / logs de tokens).
 - −~95 % en offline (batch + cache).
-- Multi-hop F1 ≥ baseline (si E4 se adopta).
+- Multi-hop F1 ≥ baseline (medido por el plan de PPR, no aquí).
 
-**Esfuerzo estimado:** 2–3 semanas + spike E4 aparte.
+**Esfuerzo estimado:** 2–3 semanas (E4 tiene su propio plan y ETA).
 
 ---
 
 ## 7. Fase F — Infra y contenedores
 
-**Objetivo:** un solo engine Docker, dev sin SSH tunnel obligatorio, compose mínimo.
+**Objetivo:** dev sin SSH tunnel obligatorio, compose mínimo. *(La unificación de engine ya no
+aplica: la migración a Podman se completó el 2026-07-04 —
+`docs/project-memory/project_podman_migration.md`.)*
 
-- [ ] **F1** Unificar los dos engines Docker — estandarizar en el nativo Ubuntu-20.04 con GPU, o
-      Podman Desktop con GPU passthrough. Actualizar `docker.md` y `performance.md`.
-- [ ] **F2** **TEI como servicio de compose** (viene de B1) + servicio de reranker.
+- [x] **F1** ~~Unificar engines Docker~~ — **hecho**: contenedores migrados a Podman
+      (`podman-machine-default`), `docker/docker-compose.podman.yml`, `scripts/gpu-podman.sh`
+      (2026-07-04). `docker.md` debe reflejarlo → P0·T1.
+- [ ] **F2** **TEI como servicio de compose** (viene de B1) + servicio de reranker — sobre
+      `docker/docker-compose.podman.yml`.
 - [ ] **F3** **Postgres local en container** para dev (paridad de esquema, sin tunnel en el loop);
       el tunnel a IONOS queda para operaciones sobre la autoridad.
 - [x] **F4** Contenedor **Neo4j** ya decomisionado (confirmado A0 — no está en `docker/*.yml`).
@@ -206,11 +215,11 @@ extractor viejo vuelve a ensuciar).
       `workspace-migration`. Cleanup del `packages/` sin trackear y de la rama abandonada → P0·A3.
 
 **Gate de salida F:**
-- `docker compose config` lista: `api`, `postgres`, `tei` (+ `reranker`). Nada más.
-- Un solo engine Docker documentado.
+- `podman compose -f docker/docker-compose.podman.yml config` lista: `api`, `ollama`, `postgres`,
+  `tei` (+ `reranker`). Nada más.
 - Onboarding en máquina limpia sin configurar SSH tunnel para desarrollo local.
 
-**Esfuerzo estimado:** 1–2 semanas. Corre en paralelo con A/B.
+**Esfuerzo estimado:** ~1 semana (F1 ya hecho). Corre en paralelo con A/B.
 
 ---
 

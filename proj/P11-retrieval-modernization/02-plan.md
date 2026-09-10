@@ -1,4 +1,4 @@
-# P11 — Retrieval Modernization — Project Plan
+# P11 — Retrieval Modernization — Plan
 
 Maps to **Fase B** of [improvement-program-2026.md](../../docs/improvement-program-2026.md).
 No hard dependency (the Postgres store is already single & stable — A0). Nice to have P0's doc-sync
@@ -70,7 +70,7 @@ API; `04-chunking-decision.md`.
   engine (Fase F1 can run in parallel). P0 doc-sync ideally lands first.
 - **Outbound:** Fase E (token savings) builds on the reduced call count; P5 (UI) gated on Gate B.
 
-## Success Criteria
+## Acceptance Criteria
 
 1. ☐ recall@10 and faithfulness ≥ baseline + agreed margin; no regression on simple QA.
 2. ☐ LLM calls per question: 4 → 3.

@@ -29,19 +29,23 @@ This directory contains the project portfolio for Alejandria's next generation o
 
 ## Document Naming Convention
 
-Each project contains numbered documents for consistent ordering:
+Spec-driven — full rules in [`CONVENTIONS.md`](CONVENTIONS.md); template in [`_TEMPLATE/`](_TEMPLATE/).
 
 ```
-01-requirements.md    — What needs to be built and why
-02-project-plan.md    — Phases, milestones, deliverables, risks
-03-design.md          — Technical design and architecture decisions (when applicable)
+01-spec.md      — WHAT & WHY: problem, requirements, acceptance criteria (each with a runnable check). No design.
+02-plan.md      — HOW: approach, architecture decisions, phases, dependencies.
+03-tasks.md     — Ordered, checkboxed, individually testable units; each names its check.
+04-risks.md     — Risk / impact / probability / mitigation / acceptance.
+00-*.md         — Optional pre-spec context (audits, notes).
+NN-phase-report.md — Written when a phase closes.
 ```
 
-Additional documents may be added as projects progress (e.g., `04-test-plan.md`, `05-deployment.md`).
+**Legacy projects (P1–P10)** keep `01-requirements.md` / `02-project-plan.md` / `03-risks.md` until
+next touched. **P0, P11, P12** use the spec-driven names above.
 
 ## How to Use
 
-1. Read `01-requirements.md` to understand the project scope
-2. Read `02-project-plan.md` to see the implementation strategy
+1. Read `01-spec.md` (or `01-requirements.md` for legacy projects) for scope + acceptance criteria
+2. Read `02-plan.md` for the approach; `03-tasks.md` for the work breakdown
 3. When starting a project, update its status in this README
-4. Create additional documents as needed during implementation
+4. Write `NN-phase-report.md` when a phase closes; keep `03-tasks.md` checkboxes current

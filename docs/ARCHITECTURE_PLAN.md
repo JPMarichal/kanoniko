@@ -1,5 +1,12 @@
 # Plan de Arquitectura - Alejandría
 
+> **Estado: PROPUESTA, NO ADOPTADA (nota 2026-09-09).** Este documento propone dividir el monolito
+> en ~10–14 repos de microservicios. **No está en el roadmap** y contradice el estado real +
+> la decisión de 2026-09 de mantener el paquete plano `src/alejandria` (ver
+> [`system-spec.md`](system-spec.md) §1 y [`planning-index.md`](planning-index.md) §Contradicciones).
+> Para reactivarlo hay que convertirlo en un proyecto del incubador (`proj/Pxx-repo-split/`) con
+> su `01-spec.md`. Mientras tanto, se conserva como registro de la visión, no como plan vigente.
+
 ## Resumen Ejecutivo
 
 Documento unificado para la transformación arquitectónica de Alejandría, diseñado para un único stakeholder con enfoque práctico y directo.
