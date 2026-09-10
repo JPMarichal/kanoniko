@@ -1,4 +1,9 @@
-# P0 — Documentation Sync & Cleanup — Requirements
+# P0 — Documentation Sync & Cleanup — Spec
+
+> Format: [`proj/CONVENTIONS.md`](../CONVENTIONS.md). Plan: [`02-plan.md`](02-plan.md) ·
+> Tasks: [`03-tasks.md`](03-tasks.md) · Risks: [`04-risks.md`](04-risks.md).
+> Reframed from `01-requirements.md` — acceptance criteria live in `02-plan.md` § Acceptance
+> Criteria plus the per-task checks in `03-tasks.md`.
 
 > **Scope settled after two audit passes** (see [`00-state-audit.md`](00-state-audit.md)). The
 > Postgres migration is **complete and validated on `main`** (Neo4j + SQLite gone, write path

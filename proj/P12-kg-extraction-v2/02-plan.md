@@ -1,4 +1,4 @@
-# P12 — KG Extraction v2 — Project Plan
+# P12 — KG Extraction v2 — Plan
 
 Maps to **Fase C** of [improvement-program-2026.md](../../docs/improvement-program-2026.md).
 No hard dependency (Postgres store already single & stable — A0). P0's doc-sync ideally lands
@@ -68,7 +68,7 @@ first. Can overlap **P11**. Feeds **WI-3** (Fase D) and **P13**.
 - **Outbound:** WI-3 (Fase D) must run *after* M3 so it doesn't re-clean what the old extractor
   re-dirties; P13 genealogies uses this extractor.
 
-## Success Criteria
+## Acceptance Criteria
 
 1. ☐ Typed relations populated for ≥ N of the 67 types (set N at Phase 2).
 2. ☐ Noise < 15 % per type on the n=300 gold, `object` included.

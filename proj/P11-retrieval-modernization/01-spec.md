@@ -1,4 +1,9 @@
-# P11 — Retrieval Modernization — Requirements
+# P11 — Retrieval Modernization — Spec
+
+> Format: [`proj/CONVENTIONS.md`](../CONVENTIONS.md). Plan: [`02-plan.md`](02-plan.md) ·
+> Tasks: [`03-tasks.md`](03-tasks.md) · Risks: [`04-risks.md`](04-risks.md).
+> Reframed from `01-requirements.md` — acceptance criteria live in `02-plan.md` § Acceptance
+> Criteria plus the per-task checks in `03-tasks.md`.
 
 ## Problem Statement
 

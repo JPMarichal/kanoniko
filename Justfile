@@ -9,6 +9,15 @@ set windows-shell := ["powershell.exe", "-NoLogo", "-NoProfile", "-Command"]
 default:
     @just --list
 
+# Spec-sync check (proj/CONVENTIONS.md): flag src/ changes without matching docs.
+# No args = staged changes; pass a range like `just check-specs main..HEAD`.
+check-specs range="":
+    python scripts/check_spec_sync.py {{ if range == "" { "" } else { "--range " + range } }}
+
+# Run the 31/31 KG read-parity check against Postgres.
+parity:
+    python -m tests.parity.compare_oracles --left tests/parity/oracle_neo4j.json --right tests/parity/oracle_postgres.json
+
 # Fix container engine isolation between Rancher Desktop (C:\git) and Podman (C:\own)
 # Run from C:\own\alejandria if RD shows own containers or PD shows nothing.
 fix-engine-isolation:

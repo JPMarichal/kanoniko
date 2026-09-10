@@ -1,4 +1,4 @@
-# P0 — Documentation Sync & Cleanup — Project Plan
+# P0 — Documentation Sync & Cleanup — Plan
 
 > Rescoped after A0 (2026-09-09, [`00-state-audit.md`](00-state-audit.md)). Postgres migration is
 > done & validated on `main` (31/31 golden queries). This project is docs + light cleanup, ~1 day.
@@ -51,7 +51,7 @@ asserts 31/31. If deferred, add a checkbox to P11 Phase 1.
 - **Inbound:** none.
 - **Outbound:** P11, P12, WI-3 want trustworthy docs before they start; none depend on P0 *code*.
 
-## Success Criteria
+## Acceptance Criteria
 
 1. ☐ `grep -rniE "neo4j|qdrant|sqlite" docs/*.md` → only historical notes.
 2. ☐ `docs/architecture.md` + `docs/stack.md` describe Postgres-only + `PostgresGraphClient`.
