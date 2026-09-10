@@ -1,5 +1,18 @@
 # Roadmap
 
+> **2026-09 revision.** A modernization analysis ([improvement-analysis-2026.md](improvement-analysis-2026.md))
+> and a phased program with live tracking ([improvement-program-2026.md](improvement-program-2026.md))
+> now sit on top of this incubator. Changes:
+> - **+ P0 — Documentation Sync & Cleanup**. Per the A0 audit (2026-09-09, `proj/P0-postgres-cutover/00-state-audit.md`) the Postgres migration is **done and validated** (Neo4j + SQLite gone, write path ported, `PostgresGraphClient` complete, **31/31 golden queries passing** — commit `ecd885fc8d`). P0 is now just syncing the 7 architecture docs that still describe the retired stack + cleaning up the abandoned `workspace-migration` branch's residue. ~1 day.
+> - **+ P11 — Retrieval Modernization**: BGE-M3 + TEI serving + cross-encoder reranker + contextual/late chunking.
+> - **+ P12 — KG Extraction v2**: GLiREL/GLiNER2 schema-bound + gazetteer + LLM batch. Absorbs the *relation extraction* part of P6.
+> - **+ WI-3 — KG Hygiene** (standing): R10 type-correctness + entity resolution + R5 + R6 decision. See `proj/00-backlog.md`.
+> - **~ P6** reframed to Layer 2/3 parallelism + NER→gazetteer feedback loop.
+> - **~ P9 (Fine-Tuning)** deferred / absorbed by P11 — in 2026 the lever is a better base model + reranker, not fine-tuning a MiniLM.
+> - **~ P10 collision fixed**: the "Genealogías Escriturales" entry below is renumbered **P13** (`proj/P10-handbook-kg-model/` keeps P10).
+> - **~ P3 (ETL Templates)** reactivated (was Deferred) — it gates P4 corpus expansion.
+> Feature projects P5 (UI) and P8 (Synthesis) are gated on P11 + P12. The `src/alejandria` flat package is kept; the 4-package workspace split was an abandoned experiment.
+
 ## Completed Phases
 
 ### Phase 1 — Foundation
@@ -83,7 +96,8 @@ Phase 6 has been decomposed into an incubator of independent projects. Each repr
 **Vision**: Domain-specific model optimization for scripture/gospel content.
 **Scope**: Prompt optimization, evaluation benchmarks, potential fine-tuning of embedding or language models on LDS corpus.
 
-### P10 — Genealogías Escriturales
+### P13 — Genealogías Escriturales
+> Renumbered from P10 in the 2026-09 revision (collision with `proj/P10-handbook-kg-model/`). Depends on P12.
 **Priority**: Medium — builds on existing KG family relations
 **Vision**: Complete scriptural genealogies as a navigable, queryable product. The KG has ~209 curated family relations but zero auto-extracted ones — NER/co-occurrence doesn't parse genealogical patterns. The corpus contains ~470 chapters with genealogical content (~19 pure genealogy lists + ~450 with family mentions in narrative). Goal: full coverage of every family relationship attestable in scripture.
 

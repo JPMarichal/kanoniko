@@ -116,6 +116,34 @@ Existing: FATHER_OF, MOTHER_OF, BROTHER_OF, SPOUSE_OF, SON_OF, CALLED_AS, TRAVEL
 - Editing a Forma T and re-indexing correctly updates both FTS and KG
 - No manual intervention needed beyond the standard `POST /index` call
 
+### WI-3: KG Hygiene (standing workstream)
+
+**Priority:** High — search/RAG quality depends on it; recurring, not one-shot
+**Status:** Planning
+**Parent:** program Fase D ([`docs/improvement-program-2026.md`](../docs/improvement-program-2026.md)); depends on **P12·M3**
+
+**Goal:** Clean the accumulated KG noise and institutionalize hygiene as a recurring practice.
+The n=300 gold standard estimates ~55–80 % noise per entity type (`object` ~81 %, `person` ~59 %).
+P12 stops *new* noise; WI-3 removes the *accumulated* noise and keeps it from creeping back.
+
+**Scope:**
+- **R10 — type-correctness sweep**: stratified sample ~500/type + ground truth; deterministic rules
+  (scripture-ref regex, European-place lookup, numeric-phrase detector); batched cleanup on Postgres
+  with JSONL audit. Ref: `docs/kg-ingestion-refactor.md §4bis R10`.
+- **Entity resolution / dedup at scale**: EDC (Extract-Define-Canonicalize) or embedding-cluster +
+  LLM-judge over profile summaries; merge non-canonical duplicates, reassign relations before delete.
+- **R5 — cross-language honorific merge**: "Señor Jesucristo", "Su Hijo Jesucristo" → "Jesucristo"
+  via `gazetteer_lookup.normalize` honorific strip.
+- **R6 decision** — `ner_candidates.promote/dismiss` (0 historical promotions): (a) use actively via
+  a `/ner-review` skill, (b) auto-promote above a frequency threshold, (c) remove the mechanism.
+- **Institutionalize**: `scripts/kg_hygiene.py` + checklist in
+  `docs/project-memory/procedure_corpus_addition.md`; cadence every N months.
+
+**Success criteria:**
+- First pass leaves the n=300 gold standard stable or better.
+- Re-runnable with one command; process documented.
+- First mass pass runs only *after* `KG_EXTRACTOR=gliner` (P12·M3) is active — see P12 risk R3.
+
 ## Relationship to Completed Work
 
 | Phase | Status | Notes |
