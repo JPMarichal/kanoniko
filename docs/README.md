@@ -47,4 +47,6 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 
 ### Project
 - [roadmap.md](roadmap.md) — Completed phases and project incubator
+- [improvement-analysis-2026.md](improvement-analysis-2026.md) — SWOT, pain→technology mapping, 2026 tech landscape, roadmap evaluation, Graphify assessment
+- [improvement-program-2026.md](improvement-program-2026.md) — Phased modernization program + live tracking (Fases A–G; projects P0, P11, P12, WI-3)
 - [project-memory/](project-memory/) — Claude session memory (synced from ~/.claude/)
