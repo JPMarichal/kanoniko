@@ -1,5 +1,12 @@
 # DB, Secrets & CA Recovery: GitHub Releases
 
+> ⚠️ **Substantially stale (2026-09).** The SQLite-DB-in-a-Release flow below is retired. **Current
+> reality:** the authoritative DB is Postgres on the IONOS VPS, backed up by `pg_dump` cron on the
+> VPS (03:15 UTC, 14-day rotation) — see `docs/ionos-setup.md`. Only the **secrets** portion
+> (`env.enc` + CA bundle in a GitHub Release, `scripts/backup-pull.sh secrets`) still applies.
+> The WSL `Ubuntu-20.04` paths are also pre-Podman. Full rewrite tracked as P0·T1.7.
+> Ground truth: [`system-spec.md`](system-spec.md).
+
 The SQLite database (~1.4 GB compressed), encrypted `.env` secrets, and the local CA bundle are **not stored in git**. They are published as GitHub Release assets.
 
 Current published backup release pattern:

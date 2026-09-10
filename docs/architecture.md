@@ -1,111 +1,115 @@
 # Architecture
 
-## System Layers
+> Current state. Derives from [`system-spec.md`](system-spec.md). Structure decisions:
+> [`adr/0001-storage-driver-pattern.md`](adr/0001-storage-driver-pattern.md),
+> [`adr/0002-modular-monolith.md`](adr/0002-modular-monolith.md).
 
-Alejandria is organized in four layers, each building on the previous:
+## System layers
 
 ```
-┌─────────────────────────────────────────────────┐
-│  Interfaces: REST API, CLI, MCP Server          │
-├─────────────────────────────────────────────────┤
-│  Knowledge: RAG Pipeline, Entity Profiles,      │
-│             LLM Integration, Synthesis          │
-├─────────────────────────────────────────────────┤
-│  Index: FTS5 + sqlite-vec Vectors, Neo4j Graph   │
-├─────────────────────────────────────────────────┤
-│  Corpus: Bilingual documents (bind-mounted)     │
-└─────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│  Interfaces:  REST API (:4300), CLI, MCP server          │
+├─────────────────────────────────────────────────────────┤
+│  Knowledge:   RAG pipeline, entity profiles, LLM tiering │
+├─────────────────────────────────────────────────────────┤
+│  Retrieval:   textual (FTS) + semantic (pgvector) + KG   │
+├─────────────────────────────────────────────────────────┤
+│  Storage:     Postgres 16 + pgvector (IONOS VPS)         │
+├─────────────────────────────────────────────────────────┤
+│  Corpus:      bilingual documents (bind-mounted)         │
+└─────────────────────────────────────────────────────────┘
 ```
 
-### Layer 1 — Corpus
-Raw documents in multiple formats (md, txt, html, json), organized by language and category. The corpus is **not containerized** — it's bind-mounted from the host filesystem, allowing independent scaling and management.
+### Corpus
+Documents in `md`, `txt`, `html`, `json`, organized by language and category, **bind-mounted** from
+the host — never containerized. Scripture files carry verse numbers + `.meta.json` sidecars.
 
-### Layer 2 — Index
-Three complementary search indices:
-- **SQLite FTS5 + sqlite-vec**: Full-text search with BM25 ranking, plus in-process vector search via sqlite-vec extension. Primary storage for chunks, vectors, metadata, and document registry.
-- **Neo4j**: Knowledge graph storing entities, relations, and document connections.
+### Storage — one Postgres store
+**Postgres 16 + pgvector on an IONOS VPS is the sole authoritative store**: chunks, full-text index
+(`tsvector` + GIN), embeddings (`chunk_embeddings`, pgvector HNSW), and the knowledge graph
+(`entities`, `relations`, `entity_document_mentions`, entity profiles). Infra helpers
+(connection, DDL, migrators, HNSW builder) live in `src/alejandria/storage/postgres/`.
 
-### Layer 3 — Knowledge
-Intelligence built on top of the indices:
-- **Entity Profiles**: Persistent metadata and LLM-generated bilingual summaries per entity, stored in SQLite. Survives KG rebuilds.
-- **RAG Pipeline**: Retrieves from all three search modes, builds context with entity profiles and graph data, generates grounded answers via LLM.
-- **Tiered Model Selection**: Routes questions to appropriate LLM tier (fast/balanced/quality) based on complexity.
+Ingestion writes go through three cohesive Protocols (`src/alejandria/storage/__init__.py`,
+per ADR 0001): `ChunkWriter`, `KnowledgeGraphWriter`, `KnowledgeGraphReader`, each with a `make_*`
+factory that returns the Postgres implementation. Neo4j and SQLite/`sqlite-vec` were retired
+(§3.3 / §3.4 of `postgres-migration.md`).
 
-### Layer 4 — Interfaces
-Multiple access points to the knowledge engine:
-- **REST API** (FastAPI, port 4300): Primary interface
-- **MCP Server** (stdio): For AI assistants like Claude
-- **CLI** (Click): Command-line access
+### Retrieval
+- **Textual** (`search/textual.py`): Postgres `websearch_to_tsquery` + `ts_rank_cd` (cover-density).
+- **Semantic** (`search/semantic.py`): pgvector `<=>` (cosine) against the HNSW index; score `1 - distance`.
+- **Hybrid** (`search/hybrid.py`): Reciprocal Rank Fusion over the two ranked lists
+  (`k = 60`, default weights 0.4 text / 0.6 semantic). Backend-agnostic — takes result dicts.
+  Modes: `hybrid`, `cross-ref`, `kg-boost`, `footnote-xref`.
+- **KG** (`knowledge/postgres_graph_client.py`): entity lookup, typed relations, neighbors,
+  genealogy (recursive CTE), graph summary.
 
-## Data Flow
+### Knowledge
+- **Entity profiles**: per-entity metadata + LLM-generated bilingual summaries, in Postgres.
+  Survive KG rebuilds; staleness-tracked.
+- **RAG pipeline** (`chat/rag.py`): fuses the retrieval modes, adds profile + graph context,
+  generates a grounded answer. Four LLM calls/question (expansion, entity extraction, rerank,
+  answer); calls 1–3 use the cheapest tier.
+- **Tiered model selection** (`chat/models.py`): a heuristic complexity classifier routes the
+  answer call to fast / balanced / quality; multi-provider with a fallback chain.
 
-### Ingestion
+### Interfaces
+- **REST API** — FastAPI on port **4300** (`main.py`, `api/`). Primary.
+- **MCP server** — `mcp_server.py`, `.mcp.json`; `mcp__alejandria__*` tools.
+- **CLI** — Click (`cli.py`).
+
+## Data flow
+
+### Ingestion (3-phase, incremental via SHA-256)
 ```
-Corpus files → Parser → Chunker → FTS5 (text + metadata)
-                                 → sqlite-vec (embeddings)
-                                 → Neo4j (entities + relations)
-                                 → Profile staleness marking
+Corpus files → parse → chunk ──┬─ Phase 1: tsvector (text + metadata)
+                               ├─ Phase 2: batch-embed → pgvector upsert
+                               └─ Phase 3: NER + relation extraction → KG tables
+                                           + profile staleness marking
 ```
 
 ### Query (RAG)
 ```
-Question → Complexity classification → Model selection
-         → Text search (FTS5)  ─┐
-         → Semantic search      ├→ RRF fusion → Top chunks
-         → Graph context ───────┘
-         → Entity profiles (bilingual summaries)
-         → LLM generates grounded answer
+Question → complexity classification → model selection
+         → textual (tsvector) ─┐
+         → semantic (pgvector) ─┼→ RRF → top chunks
+         → KG context ─────────┘
+         → entity-profile summaries (ES/EN)
+         → LLM → grounded answer with citations
 ```
 
-## Module Structure
+## Module structure (`src/alejandria/`)
+
+Flat single package — see [`adr/0002-modular-monolith.md`](adr/0002-modular-monolith.md).
 
 ```
 src/alejandria/
-├── main.py              # FastAPI app
-├── config.py            # Environment-based settings
-├── cli.py               # Click CLI
-├── mcp_server.py        # MCP adapter
-├── api/                 # REST endpoints
-│   ├── routes_search.py
-│   ├── routes_chat.py
-│   ├── routes_graph.py
-│   ├── routes_index.py
-│   ├── routes_docs.py
-│   ├── schemas.py
-│   └── dependencies.py
-├── ingestion/           # Corpus processing
-│   ├── pipeline.py
-│   ├── registry.py
-│   ├── parsers.py
-│   ├── chunker.py
-│   ├── scripture_meta.py
-│   └── cross_references.py
-├── search/              # Search engines
-│   ├── textual.py
-│   ├── semantic.py
-│   └── hybrid.py
-├── embeddings/          # Sentence-transformers
-│   └── model.py
-├── knowledge/           # KG + profiles
-│   ├── extractor.py
-│   ├── neo4j_client.py
-│   ├── profile_store.py
-│   ├── profile_generator.py
-│   └── gazetteers/
-├── chat/                # RAG + LLM
-│   ├── rag.py
-│   ├── llm.py
-│   └── models.py
-├── backup.py            # Backup/restore (SQLite, Qdrant, Neo4j)
+├── main.py · config.py · cli.py · mcp_server.py · authority.py
+├── api/            REST endpoints (routes_*, schemas.py, dependencies.py)
+├── ingestion/      pipeline.py, registry.py, parsers.py, chunker.py,
+│                   scripture_meta.py, cross_references.py, conference_parser.py
+├── search/         textual.py, semantic.py, hybrid.py
+├── embeddings/     model.py (sentence-transformers singleton)
+├── knowledge/      extractor.py, postgres_graph_client.py, pagerank.py,
+│                   profile_store.py, profile_generator.py, disambiguator.py,
+│                   family_patterns.py, ner_candidates.py, gazetteer_lookup.py, gazetteers/
+├── chat/           rag.py, llm.py, models.py
+└── storage/        chunk_writer.py, kg_reader.py, kg_writer.py (Protocols + factories)
+    └── postgres/   connection.py, schema.py, ddl.sql, kg_cleanup.py, migrators
 ```
 
-## Design Principles
+### Internal dependency direction (enforced by `import-linter`, ADR 0002)
+```
+api / cli / mcp_server   →   chat / knowledge   →   search / embeddings   →   storage / ingestion / config
+```
+Nothing imports `api`; `storage` imports nothing above it. `just check-boundaries` runs the check.
 
-- **Independence**: Alejandria is a standalone service, not an extension of existing tools
-- **Containerization**: Docker Compose with isolated services (API, Qdrant, Neo4j)
-- **Corpus externality**: Corpus is bind-mounted, never containerized
-- **Incremental processing**: SHA-256 change detection for efficient re-indexing
-- **Bilingual first**: All components handle Spanish and English natively
-- **Graceful degradation**: Semantic search and KG are optional — system works with FTS alone
-- **SQLite as source of truth**: From SQLite alone, Qdrant (5 min) and Neo4j (3h) are fully reconstructable
-- **Pre-index safety**: Automatic backup before any data modification
+## Design principles
+
+- **Modular monolith** — one package; boundaries declared and enforced, not networked (ADR 0002).
+- **One authoritative store** — Postgres; from it the HNSW index and derived data rebuild.
+- **Corpus externality** — bind-mounted, never containerized.
+- **Incremental processing** — SHA-256 change detection.
+- **Bilingual first** — every component handles ES + EN.
+- **Graceful degradation** — semantic search and KG are optional; textual search alone still works.
+- **Containers: Podman** — see `docker.md`; `docker` on this host points at Rancher Desktop and must not be used from this repo.

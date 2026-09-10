@@ -13,8 +13,8 @@ Question
   │     └─→ Generates search variants for better retrieval
   │
   ├─→ Retrieval (parallel)
-  │     ├─→ Textual search (FTS5/BM25)
-  │     ├─→ Semantic search (Qdrant)
+  │     ├─→ Textual search (Postgres tsvector / ts_rank_cd)
+  │     ├─→ Semantic search (pgvector HNSW)
   │     └─→ KG entity extraction
   │
   ├─→ Reciprocal Rank Fusion
@@ -51,7 +51,7 @@ For each entity detected in the question, the system looks up its profile. If an
 - Profiles provide rich, pre-computed context
 
 ### Layer 2 — Graph Neighbors (Fallback)
-For entities without profile summaries, the system falls back to Neo4j neighbor data:
+For entities without profile summaries, the system falls back to KG neighbor data (PostgresGraphClient):
 - Connected entities and their types
 - Relationship labels
 

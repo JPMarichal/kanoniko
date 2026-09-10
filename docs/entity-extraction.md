@@ -1,5 +1,10 @@
 # Entity Extraction
 
+> ⚠️ **Partially stale (2026-09).** The extraction *logic* below is current, but persistence
+> references (`ner_candidates` "in SQLite") are wrong — everything is in Postgres now
+> (see [`system-spec.md`](system-spec.md)). Full reconciliation tracked as P0·T1.7.
+> The extractor itself is being replaced in project **P12** (GLiNER/GLiREL).
+
 Hybrid NER pipeline combining curated gazetteers, spaCy models, and contextual phrase matching for bilingual entity detection.
 
 ## Extraction Pipeline

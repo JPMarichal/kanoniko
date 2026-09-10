@@ -4,6 +4,12 @@ description: Phase 1 of postgres-migration landed (PR #3, merged 2026-04-18). Po
 type: project
 ---
 
+> **Actualización 2026-09-10 (audit A0 de P0):** la migración está **completa**, no solo Phase 1.
+> Write-path portado, `PostgresGraphClient` completo, 31/31 golden queries (`tests/parity/`,
+> `ecd885fc8d`), Neo4j y SQLite **eliminados** del código y del compose. Ya no hay "artefactos
+> transicionales" ni feature flag. El "How to apply" de abajo sobre verificar contra Neo4j vs
+> Postgres es obsoleto: Postgres es el único store. Estado actual: `docs/system-spec.md`.
+
 **Fact:** La migración Phase 1 a Postgres + pgvector remoto (IONOS VPS 212.227.243.210) se completó y mergeó en `main` (PR #3, commit 426fafeb1, 2026-04-18). Toda corrección, escritura, lectura y verificación del KG, chunks y embeddings debe hacerse contra esa instancia.
 
 **Conexión:** SSH tunnel `localhost:15432 → IONOS:5432`, ya activo en WSL (`pgrep ssh.*15432`). Credenciales en `.env` (`ALEJANDRIA_POSTGRES_*`).

@@ -100,7 +100,7 @@ def main() -> int:
 
     gaps = [a for a in src_areas if not satisfied(a)]
     if not gaps:
-        print(f"spec-sync: ok — {', '.join(src_areas)} touched with matching docs")
+        print(f"spec-sync: ok - {', '.join(src_areas)} touched with matching docs")
         return 0
 
     print("spec-sync: WARNING - src changes without a matching doc/spec:")

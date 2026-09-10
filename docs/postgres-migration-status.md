@@ -1,5 +1,13 @@
 # postgres-migration — estado de merge (2026-04-18)
 
+> ✅ **MIGRACIÓN COMPLETA (cierre 2026-09-10, verificado por el audit A0 de P0).**
+> Todo lo que este snapshot de abril lista como "follow-up" ya se hizo y se validó:
+> write-path portado, `PostgresGraphClient` completo, **31/31 golden queries** en verde
+> (`tests/parity/`, commit `ecd885fc8d`), Neo4j y SQLite retirados (§3.3 / §3.4), sin feature
+> flag `ALEJANDRIA_STORAGE_BACKEND`. Estado real del sistema: [`system-spec.md`](system-spec.md).
+> Evidencia: `proj/P0-postgres-cutover/00-state-audit.md`.
+> Lo que sigue es el registro histórico de aquel punto de merge — **no un plan vivo**.
+
 > **Veredicto:** rama en punto natural de merge como **Phase 1**. Infra completa,
 > feature-flagged como opcional, read path parcial pero validado contra oracle
 > de Neo4j. Los follow-ups son extensiones seguras sobre esta base.

@@ -18,6 +18,7 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 ### Architecture
 - [architecture.md](architecture.md) — System architecture, layers, data flow
 - [stack.md](stack.md) — Technology stack and dependencies
+- [adr/](adr/) — Architecture Decision Records ([0001](adr/0001-storage-driver-pattern.md) storage driver pattern · [0002](adr/0002-modular-monolith.md) modular monolith)
 - [configuration.md](configuration.md) — Environment variables and settings
 - [architecture-proposals/](architecture-proposals/) — Architecture improvement proposals and repository split analysis
 
@@ -28,12 +29,12 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 - [scripture-references.md](scripture-references.md) — Verse-level references, citation formats
 
 ### Search
-- [search-textual.md](search-textual.md) — Full-text search (SQLite FTS5, BM25)
-- [search-semantic.md](search-semantic.md) — Semantic search (Qdrant, multilingual embeddings)
+- [search-textual.md](search-textual.md) — Full-text search (Postgres tsvector, ts_rank_cd)
+- [search-semantic.md](search-semantic.md) — Semantic search (pgvector HNSW, multilingual embeddings)
 - [search-hybrid.md](search-hybrid.md) — Hybrid search (Reciprocal Rank Fusion)
 
 ### Knowledge Graph
-- [knowledge-graph.md](knowledge-graph.md) — Neo4j graph model, nodes, relations
+- [knowledge-graph.md](knowledge-graph.md) — Postgres KG model (PostgresGraphClient), nodes, relations
 - [entity-extraction.md](entity-extraction.md) — Gazetteer + spaCy NER pipeline, stopword handling
 - [entity-profiles.md](entity-profiles.md) — Entity profiles: metadata, LLM generation, disambiguation
 
@@ -47,7 +48,7 @@ It provides three search modes, a knowledge graph, entity profiles, and RAG-powe
 - [mcp-server.md](mcp-server.md) — MCP adapter for AI assistants
 
 ### Operations
-- [docker.md](docker.md) — Docker Compose setup, CPU/GPU stacks, two Docker engines
+- [docker.md](docker.md) — Podman compose, GPU stack
 - [operations.md](operations.md) — Indexing, backup/recovery, KG rebuild, profile generation
 - [performance.md](performance.md) — Memory tuning, .wslconfig, I/O optimization, pipeline profiling
 - [backup.md](backup.md) — DB & secrets distribution via GitHub Releases, backup frequency, new machine setup

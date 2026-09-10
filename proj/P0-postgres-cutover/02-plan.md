@@ -1,8 +1,13 @@
 # P0 — Documentation Sync & Cleanup — Plan
 
 > Rescoped after A0 (2026-09-09, [`00-state-audit.md`](00-state-audit.md)). Postgres migration is
-> done & validated on `main` (31/31 golden queries). This project is docs + light cleanup, ~1 day.
+> done & validated on `main` (31/31 golden queries). This project is docs + light cleanup.
 > Maps to **Fase A** of [improvement-program-2026.md](../../docs/improvement-program-2026.md).
+> **2026-09-10:** widened slightly to record the modular-monolith decision
+> ([`docs/adr/0002-modular-monolith.md`](../../docs/adr/0002-modular-monolith.md)) and add the
+> `import-linter` boundary contract. Phase 1 (T1.1–T1.6) + Phase 2 landed; T1.7 (deep rewrites of
+> `operations.md` / `backup.md` / `ingestion.md` / `entity-*.md`) and T1.8 (baseline import-linter)
+> remain. ~1.5 días total.
 
 ## Phases
 
@@ -10,18 +15,22 @@
 Two passes (first mistakenly on `workspace-migration`, corrected against `main`). Result: migration
 complete & validated; only doc debt remains. See `00-state-audit.md`.
 
-### Phase 1 — Doc sync
+### Phase 1 — Doc sync  ✅ (partial — T1.7 open)
 **Scope:** FR-1, FR-2.
-**Deliverables:**
-- `docs/architecture.md`, `docs/stack.md`, `docs/knowledge-graph.md`,
-  `docs/search-{textual,semantic,hybrid}.md`, `docs/README.md` updated to a single Postgres store +
-  `PostgresGraphClient`. Historical notes kept where useful.
-- Stale code strings reworded: `src/alejandria/knowledge/postgres_graph_client.py` docstrings,
-  `src/alejandria/api/schemas.py` Field descriptions (grep `Neo4j`).
-- `docs/postgres-migration-status.md` + `docs/project-memory/project_postgres_source_of_truth.md`
-  closed out with a "complete as of `ecd885fc8d`" header + pointer to `tests/parity/`.
-**Exit:** `grep -rniE "neo4j|qdrant|sqlite" docs/*.md` returns only explicit historical notes.
-**Est.:** ~1 día.
+**Done 2026-09-10:**
+- `architecture.md`, `stack.md`, `knowledge-graph.md`, `search-textual.md`, `search-semantic.md`,
+  `configuration.md`, `rag-pipeline.md`, `README.md` reconciled to a single Postgres store +
+  `PostgresGraphClient` + Podman. Historical "Retired" notes kept.
+- **ADR 0002 (modular monolith)** written; `[tool.importlinter]` contract + `just check-boundaries`
+  + non-blocking pre-commit step added; `system-spec.md` §1 + `planning-index.md` §2 + `ARCHITECTURE_PLAN.md`
+  updated to reflect it.
+- `api/schemas.py` Field descriptions reworded (no more "load to Neo4j").
+- `postgres-migration-status.md` + `project_postgres_source_of_truth.md` closed with completion headers.
+**Open — T1.7:** `entity-extraction.md`, `entity-profiles.md`, `ingestion.md`, `operations.md`,
+`backup.md` got a stale-banner only; they need a real rewrite (backup/restore story, per-phase
+storage targets, WSL→Podman paths).
+**Open — T1.8:** baseline `import-linter` (install, run, fix/ignore violations, make blocking).
+**Exit:** every `docs/*.md` (T1.7 set included) grep-clean except historical notes; `just check-boundaries` green.
 
 ### Phase 2 — Cleanup (optional, only if quick)
 **Scope:** FR-3.

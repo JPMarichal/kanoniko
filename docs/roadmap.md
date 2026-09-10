@@ -3,7 +3,7 @@
 > **2026-09 revision.** A modernization analysis ([improvement-analysis-2026.md](improvement-analysis-2026.md))
 > and a phased program with live tracking ([improvement-program-2026.md](improvement-program-2026.md))
 > now sit on top of this incubator. Changes:
-> - **+ P0 — Documentation Sync & Cleanup**. Per the A0 audit (2026-09-09, `proj/P0-postgres-cutover/00-state-audit.md`) the Postgres migration is **done and validated** (Neo4j + SQLite gone, write path ported, `PostgresGraphClient` complete, **31/31 golden queries passing** — commit `ecd885fc8d`). P0 is now just syncing the 7 architecture docs that still describe the retired stack + cleaning up the abandoned `workspace-migration` branch's residue. ~1 day.
+> - **+ P0 — Documentation Sync & Cleanup**. Per the A0 audit (2026-09-09) the Postgres migration is **done and validated** (Neo4j + SQLite gone, write path ported, `PostgresGraphClient` complete, **31/31 golden queries passing** — commit `ecd885fc8d`). Phase 1 (2026-09-10): the architecture/search/config docs reconciled to `system-spec.md`; **ADR 0002 — modular monolith** written (resolves monolith-vs-microservices; `ARCHITECTURE_PLAN.md` shelved) with an `import-linter` boundary contract. Open: T1.7 (deep rewrite of operations/backup/ingestion/entity docs — bannered) + T1.8 (baseline import-linter).
 > - **+ P11 — Retrieval Modernization**: BGE-M3 + TEI serving + cross-encoder reranker + contextual/late chunking.
 > - **+ P12 — KG Extraction v2**: GLiREL/GLiNER2 schema-bound + gazetteer + LLM batch. Absorbs the *relation extraction* part of P6.
 > - **+ WI-3 — KG Hygiene** (standing): R10 type-correctness + entity resolution + R5 + R6 decision. See `proj/00-backlog.md`.

@@ -1,5 +1,11 @@
 # Ingestion Pipeline
 
+> ⚠️ **Partially stale (2026-09).** The 3-phase structure and change-detection logic are current,
+> but per-phase storage targets are wrong: Phase 1 writes Postgres `tsvector` (not SQLite FTS5),
+> Phase 2 upserts pgvector (not sqlite-vec / Qdrant), Phase 3 writes Postgres KG tables via the
+> `KnowledgeGraphWriter` Protocol (not Neo4j UNWIND). Full reconciliation tracked as P0·T1.7.
+> Ground truth: [`system-spec.md`](system-spec.md), [`architecture.md`](architecture.md).
+
 End-to-end flow from source site to indexed corpus — three independent layers.
 
 ---

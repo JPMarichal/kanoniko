@@ -1,11 +1,13 @@
 # Plan de Arquitectura - Alejandría
 
-> **Estado: PROPUESTA, NO ADOPTADA (nota 2026-09-09).** Este documento propone dividir el monolito
-> en ~10–14 repos de microservicios. **No está en el roadmap** y contradice el estado real +
-> la decisión de 2026-09 de mantener el paquete plano `src/alejandria` (ver
-> [`system-spec.md`](system-spec.md) §1 y [`planning-index.md`](planning-index.md) §Contradicciones).
-> Para reactivarlo hay que convertirlo en un proyecto del incubador (`proj/Pxx-repo-split/`) con
-> su `01-spec.md`. Mientras tanto, se conserva como registro de la visión, no como plan vigente.
+> **Estado: ARCHIVADO (2026-09-10).** Decisión formal: **monolito modular** —
+> [`adr/0002-modular-monolith.md`](adr/0002-modular-monolith.md). `src/alejandria/` permanece como
+> un paquete/repo único; las fronteras internas se declaran y se fuerzan con `import-linter`
+> (`just check-boundaries`). Las únicas extracciones sancionadas son los front-ends
+> web/wordpress/mobile (P5) y un worker GPU de ingesta. Este documento se conserva como registro de
+> la visión de microservicios para cuando el equipo crezca; **para revivirlo** hay que convertirlo
+> en `proj/Pxx-repo-split/` con su `01-spec.md` y un trigger explícito (segundo dev full-time, o
+> divergencia real de escala de un componente).
 
 ## Resumen Ejecutivo
 

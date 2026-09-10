@@ -29,7 +29,7 @@ correspondiente (mismo patrón que `proj/P1-scripture-structure/04-phase1-report
 
 | Fase | Nombre | Proyecto(s) | Depende de | Puede solaparse con | Estado |
 |---|---|---|---|---|---|
-| **A** | Doc-sync + cleanup (Postgres ya migrado y validado 31/31 — A0 2026-09-09; ~1 día) | P0 | — | F | In Progress (A0 ✅) |
+| **A** | Doc-sync + cleanup + decisión monolito modular (ADR 0002) | P0 | — | F | Review (Fase 1 + ADR ✅; T1.7/T1.8 abiertos) |
 | **B** | Modernización de retrieval | P11 | A | C, F |Planning |
 | **C** | Extracción de KG v2 | P12 | A | B, D | Planning |
 | **D** | Higiene de KG (standing) | WI-3 | A, C2 | E | Planning |
@@ -67,23 +67,24 @@ abandonado `workspace-migration`; corregida contra `main`. Certezas sobre **`mai
   eso, **Fase F / F5 queda cerrada** ("¿4 paquetes o 1?" → "1, ya").
 
 - [x] **A0** Auditoría (2 pasadas) → `00-state-audit.md`. Rescope aplicado.
-- [ ] **A1** Doc-sync: `architecture.md`, `stack.md`, `knowledge-graph.md`,
-      `search-{textual,semantic,hybrid}.md`, `docs/README.md` → un solo store Postgres +
-      `PostgresGraphClient`, con notas históricas donde aporten. Reword de strings stale en
-      `postgres_graph_client.py` (docstrings "Same shape as Neo4jClient") y `api/schemas.py`.
-- [ ] **A2** Cerrar `postgres-migration-status.md` + `project_postgres_source_of_truth.md` con
-      header "completo desde `ecd885fc8d`" + puntero a `tests/parity/`.
-- [ ] **A3** *(opcional)* Cleanup: borrar el `packages/` sin trackear de `main`; con OK del usuario,
-      `git branch -D workspace-migration` + `git stash drop` del WIP parkeado.
-- [ ] **A4** *(opcional / puede ir a P11)* Cablear `tests/parity/compare_oracles.py` a `pytest`
-      para que 31/31 sea gate, no script manual.
+- [x] **A1** Doc-sync (parcial): `architecture.md`, `stack.md`, `knowledge-graph.md`,
+      `search-textual.md`, `search-semantic.md`, `rag-pipeline.md`, `configuration.md`, `README.md`
+      reconciliados; `api/schemas.py` reworded. **ADR 0002 (monolito modular)** + contrato
+      `import-linter` + `just check-boundaries`. **Falta P0·T1.7** (rewrite profundo de
+      `operations.md`/`backup.md`/`ingestion.md`/`entity-*.md`, hoy con stale-banner) y **T1.8**
+      (baseline import-linter).
+- [x] **A2** Cerrados `postgres-migration-status.md` + `project_postgres_source_of_truth.md`.
+- [ ] **A3** *(opcional, op git del usuario)* borrar `packages/` sin trackear, rama
+      `workspace-migration`, `stash@{1}`.
+- [ ] **A4** *(opcional / puede ir a P11)* Cablear `compare_oracles.py` a `pytest`.
 
 **Gate de salida A:**
-- `grep -rniE "neo4j|qdrant|sqlite" docs/*.md` → solo notas históricas explícitas.
-- `architecture.md` + `stack.md` describen Postgres-only + `PostgresGraphClient`.
-- `postgres-migration-status.md` lee "completo".
+- `grep -rniE "neo4j|qdrant|sqlite" docs/*.md` → solo notas históricas (falta T1.7).
+- `architecture.md` + `stack.md` describen Postgres-only + `PostgresGraphClient`. ✅
+- `postgres-migration-status.md` lee "completo". ✅
+- `just check-boundaries` verde (falta T1.8).
 
-**Esfuerzo estimado:** ~1 día (era 3–4 semanas; casi todo estaba hecho y validado).
+**Esfuerzo estimado:** ~1.5 días. Fase 1 + ADR hechos 2026-09-10; T1.7/T1.8 = follow-up chico.
 
 ---
 

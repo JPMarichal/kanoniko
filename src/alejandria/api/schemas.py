@@ -198,7 +198,7 @@ class LLMExtractRelationsRequest(BaseModel):
     min_entities: int = Field(3, ge=2, description="Min entities per passage")
     tier: str = Field("fast", description="LLM tier: fast, balanced, quality")
     volumes: list[str] | None = Field(None, description="Filter to volumes (ot, nt, bom, dc, pgp)")
-    dry_run: bool = Field(False, description="Extract but don't load to Neo4j")
+    dry_run: bool = Field(False, description="Extract but don't load to the KG")
     budget_usd: float = Field(0.0, ge=0, description="Budget cap in USD (0=unlimited)")
 
 
@@ -225,8 +225,8 @@ class IndexIngestRequest(BaseModel):
     paths: list[str] = Field(..., description="Corpus-relative paths to index (files or directories)")
     force: bool = Field(False, description="Re-index even if file hash unchanged (e.g. to rebuild KG)")
     skip_backup: bool = Field(False, description="Skip pre-index backup for small additions")
-    skip_kg: bool = Field(False, description="Skip Phase 3 KG extraction (NER+Neo4j) — index only FTS+vectors")
-    kg_flush_interval: int = Field(15, description="Flush KG to Neo4j every N files (lower for entity-dense sources)")
+    skip_kg: bool = Field(False, description="Skip Phase 3 KG extraction (NER + graph writes) — index only FTS+vectors")
+    kg_flush_interval: int = Field(15, description="Flush KG writes every N files (lower for entity-dense sources)")
 
 
 class IndexingStatsResponse(BaseModel):
