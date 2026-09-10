@@ -1,5 +1,13 @@
 # Docker Setup
 
+> ⚠️ **Substantially stale (2026-09).** This describes the retired Docker-Compose stack with `neo4j`,
+> SQLite + `sqlite-vec` and Qdrant volumes. **Current reality:** **Podman**
+> (`podman-machine-default`), 2 containers (`alejandria-api`, `alejandria-ollama`) + Postgres on the
+> IONOS VPS; compose override `docker/docker-compose.podman.yml`; management `scripts/gpu-podman.sh`.
+> `docker` on this host points at Rancher Desktop and must not be used from this repo.
+> See [`system-spec.md`](system-spec.md) §7 and `project-memory/project_podman_migration.md`.
+> Full rewrite tracked as P0·T1.7.
+
 Alejandria runs as two containerized services via Docker Compose.
 
 ## Architecture

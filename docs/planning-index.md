@@ -34,7 +34,8 @@
 |---|---|---|
 | [`postgres-blockers-workplan.md`](postgres-blockers-workplan.md) | Blockers before the workspace migration | PR #1/#2 COMPLETADO; only R5 honorifics (0.5 d) outstanding, tracked in WI-3. |
 | [`project-memory/project_podman_migration.md`](project-memory/project_podman_migration.md) | Docker→Podman container migration | COMPLETE 2026-07-04. This is why `improvement-program-2026.md` Fase F (F1/F4) is largely done. |
-| [`postgres-migration-status.md`](postgres-migration-status.md) | April merge-status snapshot | Stale snapshot; P0·T2 adds a completion header. |
+| [`postgres-migration-status.md`](postgres-migration-status.md) | April merge-status snapshot | Closed 2026-09-10 with a "MIGRACIÓN COMPLETA" header. |
+| [`PR-DRAFT-phase1-postgres.md`](PR-DRAFT-phase1-postgres.md) | Draft body for the merged Phase-1 Postgres PR | Historical artifact; feature-flag / `NotImplementedError` language is superseded. |
 
 ## Superseded
 
@@ -46,7 +47,7 @@
 
 | Doc | Claim | Conflict |
 |---|---|---|
-| [`ARCHITECTURE_PLAN.md`](ARCHITECTURE_PLAN.md) | Split the monolith into ~10–14 microservice repos; 12-month, 5-phase; ROI 150–200 %. May 2026, "revisión semanal" but unmaintained. | Directly contradicts `system-spec.md` §1 and the 2026-09 decision to keep the flat package. **Not on the roadmap.** Either resurrect as a real incubator project with a spec, or add a "shelved" banner. |
+| [`ARCHITECTURE_PLAN.md`](ARCHITECTURE_PLAN.md) | Split the monolith into ~10–14 microservice repos; 12-month, 5-phase; ROI 150–200 %. May 2026. | **Shelved 2026-09-10** per [`adr/0002-modular-monolith.md`](adr/0002-modular-monolith.md). Kept as a record of the future vision; revive only as a `proj/Pxx-repo-split/` project on an explicit trigger. |
 | [`architecture-proposals/README.md`](architecture-proposals/README.md) | Indexes `ARCHITECTURE_IMPROVEMENT_CHECKLIST.md`, `REPOSITORY_SPLIT_PROPOSAL.md`, `REPOSITORY_SPLIT_ANALYSIS.md`, `APPLICATION_PRODUCTS_INTEGRATION.md` | Those files **do not exist** in the directory. Index is stale — fixed in this change to list only what's present. |
 
 ## Contradictions to resolve (owner: user)
@@ -59,12 +60,12 @@
    `improvement-analysis-2026.md` HippoRAG-2 passages should be read as background, not a competing
    proposal.
 
-2. **Monolith vs microservices.**
-   `system-spec.md` + roadmap (flat `src/alejandria`, keep it) vs `ARCHITECTURE_PLAN.md` +
-   `architecture-proposals/` (10-repo split). **Unresolved — needs your call.** Until then:
-   `system-spec.md` reflects reality (flat package); `ARCHITECTURE_PLAN.md` carries a "not adopted"
-   note. If you want the split, it becomes a first-class incubator project (`proj/Pxx-repo-split/`)
-   with a real spec, not a floating document.
+2. **Monolith vs microservices.** ✅ **Resolved 2026-09-10 — modular monolith**
+   ([`adr/0002-modular-monolith.md`](adr/0002-modular-monolith.md)). `src/alejandria/` stays one
+   package/repo; internal boundaries are declared and enforced with `import-linter`
+   (`just check-boundaries`); the only sanctioned extractions are the web/mobile front-ends (P5) and
+   a GPU ingestion worker. `ARCHITECTURE_PLAN.md` is **shelved** — reviving the split requires a
+   `proj/Pxx-repo-split/` project with a spec and an explicit trigger.
 
 3. **`improvement-program-2026.md` Fase F is partly done.**
    Podman migration completed 2026-07-04. F1 (unify engines) and F4 (retire Neo4j container) are

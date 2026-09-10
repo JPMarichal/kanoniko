@@ -12,7 +12,7 @@ This directory contains the project portfolio for Alejandria's next generation o
 
 | # | Project | Priority | Status | Dependencies |
 |---|---------|----------|--------|--------------|
-| P0 | [Documentation Sync & Cleanup](P0-postgres-cutover/) | Medium | In Progress (A0 ✅ — Postgres migration confirmed done & 31/31 parity; only doc debt remains) | None |
+| P0 | [Documentation Sync & Cleanup](P0-postgres-cutover/) | Medium | Review — Phase 1 doc-sync + ADR 0002 (modular monolith) landed; T1.7 (deep rewrite of operations/backup/ingestion/entity docs) + T1.8 (baseline import-linter) open | None |
 | P11 | [Retrieval Modernization](P11-retrieval-modernization/) | **High** | Planning | — |
 | P12 | [KG Extraction v2](P12-kg-extraction-v2/) | **High** | Planning | — |
 | P1 | [Scripture Structure: Long Chain](P1-scripture-structure/) | Highest | Complete | None |

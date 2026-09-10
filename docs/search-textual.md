@@ -1,60 +1,55 @@
-# Textual Search (FTS5)
+# Textual Search (Postgres FTS)
 
-Full-text search using SQLite FTS5 with BM25 ranking.
+Full-text search using Postgres `tsvector` + GIN, ranked with `ts_rank_cd` (cover-density).
 
-## Overview
+> The SQLite FTS5 implementation was retired with the rest of the SQLite stack (§3.4 of
+> `postgres-migration.md`). See [`system-spec.md`](system-spec.md).
 
-SQLite FTS5 provides the primary text search capability. It stores all chunks and serves as the backbone for document registry, entity profiles, and metadata.
+## How it works
 
-## How It Works
+1. During ingestion, chunk text is written to `chunks` and a `tsvector` column is maintained
+   (GIN index).
+2. Queries use `websearch_to_tsquery('spanish', …)` — Spanish is the dominant corpus language and
+   its stemming is permissive enough that English proper nouns pass through as literals.
+   *(Future refinement: detect query language and dispatch to `'english'`, or run both and merge —
+   measure latency first.)*
+3. Ranking via `ts_rank_cd` (cover density). Observed p95 ~44 ms (migration benchmark).
+4. Optional filter by corpus subdirectory (`scriptures`, `general-conference`, …).
+5. Per-call connection (no pool) — queries are short reads.
 
-1. Text is indexed into the `chunks_fts` virtual table
-2. Queries use FTS5's built-in BM25 ranking algorithm
-3. Results include file path, chunk index, text, score, and scripture reference
-4. Optional filtering by corpus subdirectory (e.g., `scriptures`, `conference`)
+## Schema (`chunks`)
 
-## Schema
-
-### `chunks` table
-```sql
-chunk_id     INTEGER PRIMARY KEY
-file_path    TEXT NOT NULL
-chunk_index  INTEGER NOT NULL
-text         TEXT NOT NULL
-start_char   INTEGER
-end_char     INTEGER
-metadata     TEXT (JSON)
-reference    TEXT (scripture reference, nullable)
+```
+chunk_id     bigint PRIMARY KEY
+file_path    text NOT NULL
+chunk_index  int  NOT NULL
+text         text NOT NULL
+start_char   int
+end_char     int
+metadata     jsonb
+reference    text            -- scripture reference, nullable
+-- tsvector column + GIN index for FTS
 ```
 
-### `chunks_fts` virtual table
-FTS5 index on the `text` column of `chunks`, enabling fast full-text queries.
+Canonical DDL: `src/alejandria/storage/postgres/ddl.sql`.
 
 ## Usage
 
 ```python
-from alejandria.search.textual import TextualSearch
+from alejandria.search.textual import TextualSearch  # or the module's search entry point
 
-ts = TextualSearch(db_path)
-results = ts.search(query="faith repentance", limit=20, file_path_filter="scriptures")
+results = TextualSearch().search(query="faith repentance", limit=20, source_filter="scriptures")
 ```
 
 ## API
 
 ```
 POST /search/text
-{
-  "query": "faith and repentance",
-  "limit": 20,
-  "source_filter": "scriptures"
-}
+{ "query": "faith and repentance", "limit": 20, "source_filter": "scriptures" }
 ```
 
-## Key Class
+## Key module
 
-`TextualSearch` (`search/textual.py`):
-- `search(query, limit, file_path_filter)` — BM25-ranked search
-- `index_chunk(...)` — Index a single chunk
-- `delete_by_file(conn, file_path)` — Remove all chunks for a file
-- `count_documents()`, `count_chunks()` — Statistics
-- `get_connection()` — Raw SQLite connection for batch operations
+`search/textual.py` — `websearch_to_tsquery` + `ts_rank_cd`; returns `TextSearchResult`
+(file path, chunk index, text, score, reference). Connection via
+`alejandria.storage.postgres.connection.get_connection`.

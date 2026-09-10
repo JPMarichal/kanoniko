@@ -4,24 +4,37 @@ All settings are managed via environment variables with the `ALEJANDRIA_` prefix
 
 ## Environment Variables
 
-### Corpus & Storage
+### Corpus
 
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `ALEJANDRIA_CORPUS_PATH` | `/app/corpus` | Path to the bind-mounted corpus directory |
-| `ALEJANDRIA_SQLITE_DB_PATH` | `/app/data/sqlite/alejandria.db` | SQLite database for FTS, registry, and profiles |
 
-### Semantic Search (sqlite-vec)
-
-Vectors are stored in the same SQLite database via the sqlite-vec extension. No separate configuration needed — uses `ALEJANDRIA_SQLITE_DB_PATH`.
-
-### Neo4j (Knowledge Graph)
+### Storage — Postgres (single authoritative store: chunks, FTS, embeddings, KG)
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `ALEJANDRIA_NEO4J_URI` | `bolt://neo4j:7687` | Neo4j connection URI |
-| `ALEJANDRIA_NEO4J_USER` | `neo4j` | Neo4j username |
-| `ALEJANDRIA_NEO4J_PASSWORD` | `alejandria` | Neo4j password |
+| `ALEJANDRIA_POSTGRES_HOST` | `postgres` | Host (`127.0.0.1` when using the SSH tunnel) |
+| `ALEJANDRIA_POSTGRES_PORT` | `5432` | Port (`15432` via the tunnel) |
+| `ALEJANDRIA_POSTGRES_USER` | `alejandria` | Role |
+| `ALEJANDRIA_POSTGRES_PASSWORD` | *(empty)* | Password |
+| `ALEJANDRIA_POSTGRES_DB` | `alejandria` | Database |
+| `ALEJANDRIA_POSTGRES_SSLMODE` | `prefer` | `disable` \| `prefer` \| `require` \| `verify-ca` \| `verify-full` |
+| `ALEJANDRIA_POSTGRES_STATEMENT_TIMEOUT_MS` | `30000` | Hard cap on any single query |
+| `ALEJANDRIA_POSTGRES_APPLICATION_NAME` | `alejandria` | `application_name` tag |
+
+FTS (`tsvector`), vectors (pgvector HNSW) and the KG all live in this database — no separate config.
+Neo4j and SQLite were retired.
+
+### SSH tunnel (dev access to the IONOS VPS)
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `ALEJANDRIA_SSH_TUNNEL_ENABLED` | `false` | Open a tunnel on startup |
+| `ALEJANDRIA_SSH_TUNNEL_HOST` / `_USER` / `_PORT` | — / — / `22` | VPS SSH target |
+| `ALEJANDRIA_SSH_TUNNEL_LOCAL_PORT` | `15432` | Local bind |
+| `ALEJANDRIA_SSH_TUNNEL_REMOTE_PORT` | `5432` | Remote Postgres port |
+| `ALEJANDRIA_SSH_TUNNEL_PRIVATE_KEY_PATH` | `/root/.ssh/tunnel_key` | Key path |
 
 ### Embeddings
 
@@ -75,7 +88,8 @@ Vectors are stored in the same SQLite database via the sqlite-vec extension. No 
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `ALEJANDRIA_RAG_CONTEXT_CHUNKS` | `12` | Max chunks in final LLM context |
+| `ALEJANDRIA_RAG_CONTEXT_CHUNKS` | `8` | Max chunks in final LLM context |
+| `ALEJANDRIA_RAG_CONTEXT_CHUNKS_QUALITY` | `12` | Max chunks for QUALITY-tier questions |
 | `ALEJANDRIA_RAG_SEARCH_LIMIT` | `25` | Candidates per search mode before fusion |
 
 ### Server

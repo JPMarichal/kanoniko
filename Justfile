@@ -18,6 +18,10 @@ check-specs range="":
 parity:
     python -m tests.parity.compare_oracles --left tests/parity/oracle_neo4j.json --right tests/parity/oracle_postgres.json
 
+# Check internal module boundaries (docs/adr/0002-modular-monolith.md). Needs `pip install import-linter`.
+check-boundaries:
+    lint-imports --config pyproject.toml
+
 # Fix container engine isolation between Rancher Desktop (C:\git) and Podman (C:\own)
 # Run from C:\own\alejandria if RD shows own containers or PD shows nothing.
 fix-engine-isolation:

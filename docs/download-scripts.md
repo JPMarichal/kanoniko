@@ -280,7 +280,7 @@ Se aplican al inicio de cada `run()` (incremental) y cada `rebuild_kg()`.
 }
 ```
 
-Seeds son idempotentes (Neo4j MERGE). Ver `data/kg-seeds/README.md` para esquema completo.
+Seeds son idempotentes (upsert por clave natural). Ver `data/kg-seeds/README.md` para esquema completo.
 
 ## Volume slug mapping (site ≠ corpus)
 

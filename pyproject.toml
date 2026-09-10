@@ -20,6 +20,7 @@ dev = [
     "pytest-asyncio>=0.24",
     "httpx>=0.27",
     "ruff>=0.6",
+    "import-linter>=2.0",
 ]
 semantic = [
     "sentence-transformers>=3.0",
@@ -52,3 +53,53 @@ build-backend = "hatchling.build"
 [tool.ruff]
 target-version = "py311"
 line-length = 100
+
+# ---------------------------------------------------------------------------
+# Internal module boundaries — modular monolith (docs/adr/0002-modular-monolith.md).
+# Run: `just check-boundaries` (also a non-blocking pre-commit step).
+# Allowed import direction:
+#   interfaces (api, cli, mcp_server)
+#     -> knowledge (chat, knowledge)
+#       -> retrieval (search, embeddings)
+#         -> foundation (storage, ingestion, config, authority)
+# NOTE: not yet baselined against the full tree — the first run may surface
+# pre-existing violations to fix or `ignore_imports` (P0 task T1.8). Keep the
+# pre-commit step non-blocking until the baseline is clean.
+# ---------------------------------------------------------------------------
+[tool.importlinter]
+root_package = "alejandria"
+
+[[tool.importlinter.contracts]]
+name = "Interfaces are not imported by anything"
+type = "forbidden"
+source_modules = [
+    "alejandria.search",
+    "alejandria.embeddings",
+    "alejandria.storage",
+    "alejandria.ingestion",
+    "alejandria.knowledge",
+    "alejandria.chat",
+]
+forbidden_modules = [
+    "alejandria.api",
+    "alejandria.cli",
+    "alejandria.mcp_server",
+]
+
+[[tool.importlinter.contracts]]
+name = "Storage/ingestion foundation does not import upper layers"
+type = "forbidden"
+source_modules = ["alejandria.storage", "alejandria.ingestion"]
+forbidden_modules = [
+    "alejandria.search",
+    "alejandria.embeddings",
+    "alejandria.knowledge",
+    "alejandria.chat",
+    "alejandria.api",
+]
+
+[[tool.importlinter.contracts]]
+name = "Retrieval does not import knowledge/chat"
+type = "forbidden"
+source_modules = ["alejandria.search", "alejandria.embeddings"]
+forbidden_modules = ["alejandria.knowledge", "alejandria.chat", "alejandria.api"]

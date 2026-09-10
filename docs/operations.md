@@ -1,5 +1,12 @@
 # Operations Guide
 
+> ⚠️ **Substantially stale (2026-09) — do not follow the backup/restore sections.** They describe
+> the retired SQLite + Neo4j + sqlite-vec stack and endpoints (`/backup/sqlite`, `/backup/neo4j`,
+> `/index/rebuild-vectors` from SQLite) that no longer exist. **Current reality:** Postgres on the
+> IONOS VPS is the sole store; its only canonical backup is the `pg_dump` cron on the VPS
+> (03:15 UTC, 14-day rotation); the API container is stateless. See
+> [`system-spec.md`](system-spec.md) and `docs/ionos-setup.md`. Full rewrite tracked as P0·T1.7.
+
 Common operational workflows for maintaining the Alejandria knowledge engine.
 
 ## Initial Setup

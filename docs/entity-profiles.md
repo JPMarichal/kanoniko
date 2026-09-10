@@ -1,3 +1,8 @@
+> ⚠️ **Partially stale (2026-09).** Profiles now live in **Postgres** (`entity_profiles` table),
+> not SQLite; the KG they read from is Postgres, not Neo4j (`ProfileStore` →
+> `knowledge/postgres_profile_store.py`). The two-phase generation and disambiguation logic below is
+> current. Full reconciliation tracked as P0·T1.7. Ground truth: [`system-spec.md`](system-spec.md).
+
 # Entity Profiles
 
 Persistent knowledge layer that accumulates metadata and LLM-generated bilingual summaries per entity.

@@ -19,10 +19,14 @@ canonical texts and related literature, and exposes three search modes (textual,
 knowledge-graph), entity profiles, and a RAG chat endpoint. Backend only; the user-facing chat
 client is a future product.
 
-- **Language:** Python 3.11 (repo runs under 3.14 locally with workarounds noted per machine).
-- **Package layout:** single flat package `src/alejandria/` (`api`, `chat`, `embeddings`,
-  `ingestion`, `knowledge`, `search`, `storage`). A 4-package `uv`/`hatch` split was attempted on
-  branch `workspace-migration` and **abandoned**.
+- **Language:** Python ≥ 3.11 (repo runs under 3.14 locally with workarounds noted per machine).
+- **Architecture:** **modular monolith** ([`adr/0002-modular-monolith.md`](adr/0002-modular-monolith.md)).
+  Single flat package `src/alejandria/` (`api`, `chat`, `embeddings`, `ingestion`, `knowledge`,
+  `search`, `storage`). Internal import direction —
+  `api/cli/mcp_server → chat/knowledge → search/embeddings → storage/ingestion/config` — is declared
+  in `pyproject.toml` (`[tool.importlinter]`) and checked by `just check-boundaries`. A 4-package
+  `uv`/`hatch` split was attempted on branch `workspace-migration` and **abandoned**; a
+  microservices split (`ARCHITECTURE_PLAN.md`) is **shelved**.
 - **API:** FastAPI on port **4300**. Interfaces, in priority order: REST → MCP adapter → CLI.
 
 ## 2. Corpus
@@ -120,5 +124,7 @@ Reranking is currently an LLM call (P11 replaces it with a cross-encoder).
 `rag-pipeline.md`, `llm-models.md`, `api-reference.md`, `cli.md`, `mcp-server.md`, `docker.md`,
 `operations.md`, `performance.md`, `backup.md`, `corpus.md`, `ingestion.md`, `scripture-references.md`.
 
-> As of 2026-09-09 several of these still describe Neo4j / Qdrant / SQLite / two Docker engines.
-> Reconciling them to this spec is project **P0** (`proj/P0-postgres-cutover/`).
+> **P0 status (2026-09-10):** `architecture.md`, `stack.md`, `knowledge-graph.md`,
+> `search-textual.md`, `search-semantic.md`, `configuration.md`, `rag-pipeline.md` reconciled to
+> this spec. `entity-extraction.md`, `entity-profiles.md`, `ingestion.md`, `operations.md`,
+> `backup.md` carry a stale-banner and are tracked for a full rewrite (P0 task **T1.7**).

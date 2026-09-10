@@ -62,3 +62,10 @@ fi
 if command -v python >/dev/null 2>&1 && [ -f "$REPO_ROOT/scripts/check_spec_sync.py" ]; then
     python "$REPO_ROOT/scripts/check_spec_sync.py" || true
 fi
+
+# 7. Module-boundary check (docs/adr/0002-modular-monolith.md). Warn only until
+#    the contract is baselined (P0 T1.8). No-op if import-linter isn't installed.
+if command -v lint-imports >/dev/null 2>&1; then
+    (cd "$REPO_ROOT" && lint-imports --config pyproject.toml) || \
+        echo "[pre-commit] boundary check reported issues (non-blocking — see docs/adr/0002)"
+fi

@@ -1,6 +1,11 @@
 # Knowledge Graph
 
-Neo4j-based knowledge graph storing entities, relations, and document connections extracted from the corpus.
+> Current state. Store: **Postgres** (`entities`, `relations`, `entity_document_mentions` tables);
+> client: `PostgresGraphClient`. The Neo4j implementation was retired (§3.3 of `postgres-migration.md`);
+> the node/relation *model* below is unchanged. See [`system-spec.md`](system-spec.md).
+
+Knowledge graph storing entities, relations, and document connections extracted from the corpus,
+persisted in Postgres.
 
 ## Graph Model
 
@@ -147,13 +152,17 @@ After a full corpus indexing (including ~6,900 conference talks):
 
 ## Key Classes
 
-- `Neo4jClient` (`neo4j_client.py`): Graph driver wrapper
+- `PostgresGraphClient` (`knowledge/postgres_graph_client.py`): the KG client (read + write) over
+  Postgres. Method shapes match the retired `Neo4jClient` for caller compatibility.
   - `merge_entity()`, `merge_document()`, `merge_relation()` — single-item ops
-  - `batch_merge_entities()`, `batch_merge_documents()`, `batch_merge_relations()`, `batch_link_entities_to_document()` — batch ops (UNWIND)
-  - `find_node()`, `get_neighbors()`, `graph_summary()`
-  - `get_all_entity_mentions()` — Bulk entity data for profile building
-  - `get_documents_for_entity()` — Documents mentioning an entity
-  - `clear_all()` — Batched delete of all nodes/edges (for rebuild)
+  - `batch_merge_entities()`, `batch_merge_documents()`, `batch_merge_relations()`, `batch_link_entities_to_document()` — batch ops (`INSERT … ON CONFLICT`, staging + resolve)
+  - `find_node()`, `get_neighbors()` (recursive CTE + intermediate LIMIT for hub safety), `graph_summary()`
+  - `get_typed_relations()`, `get_genealogy_tree()` / `get_genealogy_path()` — recursive CTE, `ORDER BY confidence`
+  - `get_all_entity_mentions()`, `get_documents_for_entity()`
+  - `clear_all()` — batched delete for a full rebuild
+  - Read parity vs the old Neo4j oracle: **31/31 golden queries** (`tests/parity/`, commit `ecd885fc8d`)
+- The ingestion pipeline writes through the `KnowledgeGraphWriter` Protocol
+  (`storage/kg_writer.py` → `storage/postgres_kg_writer.py`), per ADR 0001.
 - `ScriptureStructure` (`scripture_structure.py`): Long-chain resolution (P1 Phase 3)
   - Volume → Division → Book → Part → Pericope hierarchy
   - `get_structural_entities()` / `get_structural_relations()` — 501 entities, 496 PART_OF relations

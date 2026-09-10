@@ -1,36 +1,31 @@
-# Semantic Search (sqlite-vec)
+# Semantic Search (pgvector)
 
-Vector similarity search using multilingual sentence embeddings, stored in SQLite via the sqlite-vec extension.
+Vector similarity search using multilingual sentence embeddings, stored in Postgres via pgvector
+with an HNSW index.
 
-## Overview
+> The `sqlite-vec` implementation was retired with the rest of the SQLite stack (§3.4 of
+> `postgres-migration.md`). Qdrant (the Phase-2 store) was consolidated into pgvector — see
+> [`vector-db-options.md`](vector-db-options.md). Ground truth: [`system-spec.md`](system-spec.md).
 
-Semantic search finds passages by meaning rather than keywords. A multilingual embedding model encodes both queries and corpus chunks into 384-dimensional vectors, enabling cross-language similarity matching.
+## Embedding model
 
-## Embedding Model
+- **Model:** `paraphrase-multilingual-MiniLM-L12-v2`
+- **Dimensions:** 384
+- **Languages:** bilingual ES/EN (trained on 50+ languages)
+- **Device:** CUDA when available, CPU fallback
+- **Singleton:** loaded once, shared across requests (`embeddings/model.py`)
+- Downloaded on first container build (~500 MB)
+- *(Modernization to BGE-M3 + a TEI serving container is project P11.)*
 
-- **Model**: `paraphrase-multilingual-MiniLM-L12-v2`
-- **Dimensions**: 384
-- **Languages**: Bilingual Spanish/English (trained on 50+ languages)
-- **Device**: CUDA (GPU) when available, falls back to CPU
-- **Singleton**: Model is loaded once and shared across all requests
+## How it works
 
-The model is downloaded on first container build (~500MB).
-
-## How It Works
-
-1. During ingestion, each chunk is encoded into a 384-dim vector
-2. Vectors are stored in SQLite via sqlite-vec virtual table (`chunk_vectors`)
-3. At query time, the query is encoded with the same model
-4. sqlite-vec returns the most similar vectors by cosine distance (brute-force KNN)
-5. Results are mapped back to chunk text and metadata
-
-## sqlite-vec Table
-
-- **Table name**: `chunk_vectors`
-- **Vector size**: 384 (float32)
-- **Distance metric**: Cosine
-- **Metadata column**: `source` (filterable in KNN query)
-- **Auxiliary columns**: `file_path`, `text_content`, `chunk_index`, `reference` (stored, returned in results)
+1. During ingestion, each chunk is encoded to a 384-dim vector and upserted into
+   `chunk_embeddings` `(chunk_id, embedding vector(384))`.
+2. An HNSW index is built by `storage.postgres.schema.ensure_hnsw_index`.
+3. At query time the query is encoded with the same model and passed as pgvector text
+   (`[v1,v2,…]`, cast `::vector` by psycopg3).
+4. pgvector's `<=>` operator (cosine distance) ranks against the HNSW index; score = `1 - distance`.
+5. Results JOIN back to `chunks` for text and metadata; optional `source_filter`.
 
 ## Usage
 
@@ -38,27 +33,24 @@ The model is downloaded on first container build (~500MB).
 from alejandria.embeddings.model import encode_single
 from alejandria.search.semantic import SemanticSearch
 
-sem = SemanticSearch(db_path)
-query_vector = encode_single("Who baptized Jesus?").tolist()
-results = sem.search(query_vector=query_vector, limit=10, source_filter="scriptures")
+vec = encode_single("Who baptized Jesus?").tolist()
+results = SemanticSearch().search(query_vector=vec, limit=10, source_filter="scriptures")
 ```
 
 ## API
 
 ```
 POST /search/semantic
-{
-  "query": "Who baptized Jesus?",
-  "limit": 10,
-  "source_filter": "scriptures"
-}
+{ "query": "Who baptized Jesus?", "limit": 10, "source_filter": "scriptures" }
 ```
 
-## Graceful Degradation
+## Graceful degradation
 
-Semantic search is **optional**. If sqlite-vec is unavailable or `sentence-transformers` is not installed, the system continues to work with textual search only. The health endpoint reports `semantic_available: false`.
+Semantic search is **optional**. If `sentence-transformers` is not installed or the embedding model
+can't load, the system runs on textual search alone; `/health` reports `semantic` as unavailable.
 
-## Key Classes
+## Key modules
 
-- `SemanticSearch` (`search/semantic.py`): sqlite-vec wrapper with same interface as former Qdrant client
-- `get_model()`, `encode()`, `encode_single()` (`embeddings/model.py`): Embedding model singleton
+- `search/semantic.py` — `SemanticSearchResult`; pgvector `<=>` query; connection via
+  `alejandria.storage.postgres.connection.get_connection`.
+- `embeddings/model.py` — `get_model()`, `encode()`, `encode_single()` singleton.
